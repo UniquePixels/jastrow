@@ -1,0 +1,38 @@
+{
+	"id": "A01407",
+	"slug": "איסורא-1",
+	"headword": {
+		"text": "אִיסּוּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסוּרָא",
+			"homograph": 1
+		},
+		{
+			"text": "אִסּוּרָא"
+		},
+		{
+			"text": "אֱסוּרָא"
+		}
+	],
+	"page": {
+		"number": 54,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  as the <cite ref=\"A01406\">preced.</cite> , <i>band</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 3:25\">Targ. Ezek. III, 25</cite>.—Pl. <he>אִיסוּרִין</he>. Targ. ib. XVI, 4 (bandages).—2) as the <cite ref=\"A01406\">preced.</cite> 2). ",
+				"<cite ref=\"Chullin 9b:3\">Ḥull. 9ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 92b:3\">B. Bath. 92ᵇ</cite> <he>כי אזלינן בתר רובא בא׳ בממונא לא</he> we follow the majority principle (that a doubtful thing is presumed to have the legal status of the majority of its class) only in <i>ritual questions</i>, but not in civil law.—<he>עבד א׳</he> to commit a crime, euphem. for <i>prostitution</i>, &c. ",
+				"<cite ref=\"Avodah Zarah 18a:14\">Ab. Zar. 18ᵃ</cite>. ",
+				"<cite ref=\"Gittin 38a:17\">Git. 38ᵃ</cite>.—Pl. <he>אִיסּוּרֵי</he>, <he>אִסּוּרֵי</he>. ",
+				"<cite ref=\"Shabbat 60b:21\">Sabb. 60ᵇ</cite> <he>בבלאי שרי א׳</he> a Babylonian permitter of forbidden things (R. Ḥiya).—",
+				"<cite ref=\"Niddah 24b:2\">Nidd. 24ᵇ</cite>, a. fr. <he>הלכתא כרב בא׳</he> Rab is the adopted authority in ritual law. [<cite ref=\"Kiddushin 12a:9\">Kidd. 12ᵃ</cite> <he>זול איסורי</he> &c. read <he>אִיסָרֵי</he>; v. <cite ref=\"A01506\"><he>אִיסָר</he></cite>.]"
+			],
+			"label": "1"
+		}
+	]
+}

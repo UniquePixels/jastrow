@@ -1,0 +1,53 @@
+{
+	"id": "A03061",
+	"slug": "ארח-1",
+	"headword": {
+		"text": "אָרַח"
+	},
+	"page": {
+		"number": 118,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>אר</he> , v. <he>ארר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to go through;</i> v. <cite ref=\"A03092\"><he>אָרִיחַ</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to go outside, to travel</i>. Part. <cite ref=\"A00872\"><he>אוֹרֵחַ</he></cite> q. v.—Denom. <cite ref=\"A00873\"><he>אוֹרַח</he></cite> <i>path</i>",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אֵרַח"],
+			"senses": [
+				{
+					"gloss": " (Denom. of <cite ref=\"A00872\"><he>אוֹרֵחַ</he></cite>) <i>to receive a guest, to lodge</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 63b:21\">Ber. 63ᵇ</cite> <he>המְאָרֵחַ</he>. Y. Ab. Zar. I, 39ᶜ bot. <he>לאָרְחוֹ</he>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְאָרֵחַ", "נִתְאָרֵחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be received, be the guest of</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 13b\">Sabb. 13ᵇ</cite> a. fr. Y. Ḥall. IV, 60ᵃ <he>מִתְאָ׳</he>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

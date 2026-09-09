@@ -1,0 +1,42 @@
+{
+	"id": "H01883",
+	"slug": "חתי-3",
+	"headword": {
+		"text": "חתי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חָתָה"
+		}
+	],
+	"page": {
+		"number": 512,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to dig,</i> esp. <i>to take coals out with a pan</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 4:4\">Yoma IV, 4</cite> <he>בכל יום היה חוֹתֶה וכ׳</he> every other day the priest used to take coals out in a silver pan &c. ",
+				"<cite ref=\"Mishnah Shabbat 8:7\">Sabb. VIII, 7</cite> <he>כדי לַחְתּוֹת בו את האור</he> large enough to take fire out in it. ",
+				"<cite ref=\"Zevachim 64a\">Zeb. 64ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Yoma 4:3:3\">Y. Yoma IV, 41ᶜ</cite> bot. <he>צריך לחות</he> (read <he>לחתות</he>) he must take coals out as before."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִיתָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to stir embers, rake</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 34b:1\">Sabb. 34ᵇ</cite> <he>שמא יְחַתֶּה בגחלים</he> he might rake the coals under the ashes. [<cite ref=\"Chullin 27a:8\">Ḥull. 27ᵃ</cite>, v. <cite ref=\"H01913\"><he>חָתַת</he></cite>]."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

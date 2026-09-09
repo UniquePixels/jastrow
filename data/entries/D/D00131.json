@@ -1,0 +1,51 @@
+{
+	"id": "D00131",
+	"slug": "דדי-1",
+	"headword": {
+		"text": "דדי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּדָה"
+		}
+	],
+	"page": {
+		"number": 280,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"G00146\"><he>זוּז</he></cite>)<i>to move nimbly, hop, trip</i>.—Pl. <he>דִּדָּה</he>",
+			"units": []
+		},
+		{
+			"gloss": "<i>to walk, pull</i> (a young child or beast unable to walk by itself). ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 18:2\">Sabb. XVIII, 2</cite> <he>מְדַדִּין עגלין וכ׳</he> you may lead or pull calves &c. (on the Sabbath). ",
+				"<cite ref=\"Mishnah Shabbat 18:2\">Ib.</cite> <he>אשה מְדַדָּה וכ׳</he> a mother may walk her child. Ib. 128ᵇ <he>דוחין אין מדדין לא</he> push you may, but make them hop, no. ",
+				"<cite ref=\"Mishnah Pesachim 4:7\">Pes. IV, 7</cite> (<cite ref=\"Pesachim 55b\">55ᵇ</cite>) <he>מְדַרִּין ומחזירין וכ׳</he> Ar. (ed. only <he>מחזירין</he>). ",
+				"<cite ref=\"Shabbat 88b\">Sabb. 88ᵇ</cite> and the angels <he>מְדַדִּין אותך</he> led them (the frightened Israelites) back; <he>א״ת ידודון אלא יְדַדּוּן</he> read not (<cite ref=\"Psalms 68:13\">Ps. LXVIII, 13</cite>) <i>yiddodun</i> but <i>y’daddun</i> (they led them). ",
+				"<cite ref=\"Shir HaShirim Rabbah 8:11\">Cant. R. to VIII, 11</cite> the angels <he>מְדַדִּין להם וכ׳</he> led the Israelites away, <he>והיו מִדַּדִּין לפני וכ׳</he> and they themselves tripped timidly before the Lord, v. infra. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 17:2:4\">Y. Sabb. XVII, end, 16ᵇ</cite>; Y. Erub. X, 26ᶜ top <he>מְדַדֵּהוּ וכ׳</he> he makes the bolt slide with his finger tips. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:8\">Cant. R. to IV, 8</cite> [read:] <he>אדין מְדַדֵּם ואינם וכ׳</he> He had just been leading them (through the Red Sea), and they should not trust?—ד׳ פיתקין <i>to shake stones</i> (<i>ballots</i>), i.e. <i>to protest against</i>. ",
+				"<cite ref=\"Esther Rabbah 1:10\">Esth. R. to I, 2</cite> <he>מה״ש מְדַדִּין פיתקין וכ׳</he> the angels protested against the Lord’s decision; <cite ref=\"Shir HaShirim Rabbah 8:11\">Cant. R. to VIII, 11</cite> <he>יִדּוֹדוּן בהם ממדדין פיטקין</he> (read <he>מדדין</he>) they (the angels) were excited against them, they protested (ref. to <cite ref=\"Joel 4:3\">Joel IV, 3</cite>)."
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִדַּדָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to hop, trip</i> (of young or tied birds). ",
+					"units": [
+						"<cite ref=\"Bava Metzia 25b\">B. Mets. 25ᵇ</cite> <he>אי מִידַּדִּין</he> Ms. M. (ed. <he>אי בְמִדַּ׳</he>) if the tied birds (deposited in a certain place) hop from spot to spot. ",
+						"<cite ref=\"Bava Batra 23b\">B. Bath. 23ᵇ</cite>; <cite ref=\"Beitzah 11a\">Bets. 11ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

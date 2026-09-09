@@ -1,0 +1,57 @@
+{
+	"id": "T00442",
+	"slug": "רוקן-2",
+	"headword": {
+		"text": "רוֹקֵן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רוֹקֵין"
+		}
+	],
+	"page": {
+		"number": 1463,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00441\">same</cite><i>to empty, drain</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 12:36\">Targ. Ex. XII, 36</cite> (h. text <he>וינצלו</he>). ",
+				"<cite ref=\"Targum of II Chronicles 20:25\">Targ. II Chr. XX, 25</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 24:11\">Ib. XXIV, 11</cite> (h. text <he>ויערו</he>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 31:9\">Targ. Y. Gen. XXXI, 9</cite>; <cite ref=\"Targum Jonathan on Genesis 31:16\">16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 48:12\">Targ. Jer. XLVIII, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 141:8\">Targ. Ps. CXLI, 8</cite> (h. text <he>תער</he>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to spit out</i>,] <i>to eject, banish</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 18:25\">Targ. O. Lev. XVIII, 25</cite>; <cite ref=\"Onkelos Leviticus 18:28\">28</cite> (h. text <he>קאה</he>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 24:17\">Targ. Y. Num. XXIV, 17</cite> (h. text <cite ref=\"S02184\"><he>קרקר</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 56:8\">Targ. Ps. LVI, 8</cite> (h. text <he>פלט</he>); a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְרוֹקֵן"],
+			"senses": [
+				{
+					"gloss": "<i>to be emptied; to be uncovered</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 1:1\">Targ. Lam. I, 1</cite>. ",
+						"<cite ref=\"Aramaic Targum to Lamentations 4:21\">Ib. IV, 21</cite> (h. text <he>תתערי</he>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 3:26\">Targ. Is. III, 26</cite> (some ed. <he>ותרוקין</he>, Kimḥi <he>ותדחקן</he>, corr. acc.; h. text <he>ונקתה</he>).—",
+						"<cite ref=\"Vayikra Rabbah 34:9\">Lev. R. s. 34</cite> <he>אהן עלמא … דמלי מִתְרוֹקֵן דמתרוקן וכ׳</he> this world is like the buckets of the wheel work, the full is emptied, the empty is filled (the rich become poor &c.); <cite ref=\"Ruth Rabbah 5:9\">Ruth R. to II, 19</cite>."
+					]
+				}
+			],
+			"stem": "Ithpol."
+		}
+	]
+}

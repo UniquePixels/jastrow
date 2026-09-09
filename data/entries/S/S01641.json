@@ -1,0 +1,23 @@
+{
+	"id": "S01641",
+	"slug": "קסומא-1",
+	"headword": {
+		"text": "קָסוֹמָא"
+	},
+	"page": {
+		"number": 1395,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01669\"><he>קְסַם</he></cite>) <i>charmer, diviner.—</i>Pl. <he>קְסוֹמַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 22:21\">Targ. Y. Gen. XXII, 21</cite> (not <he>קְסוּ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 18:10\">Targ. Y. I Deut. XVIII, 10</cite> (Y. II <he>לאקסומי</he>, read: <he>לא קְסוֹמֵי</he>). Targ. Y. ib. 14 <he>קיסומי</he> (corr. acc.).—V. <cite ref=\"S01672\"><he>קַסָּמָא</he></cite>."
+			]
+		}
+	]
+}

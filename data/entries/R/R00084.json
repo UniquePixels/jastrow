@@ -1,0 +1,47 @@
+{
+	"id": "R00084",
+	"slug": "צדד-2",
+	"headword": {
+		"text": "צְדַד"
+	},
+	"page": {
+		"number": 1261,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>צַדֵּד</he> <cite ref=\"R00083\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 23:5\">Targ. Prov. XXIII, 5</cite> <he>אין תְּצַד וכ׳</he> ed. Lag. (oth. ed. <he>תצר</he>) if thou turnest thy eye (h. text <he>התעיף</he>, v. Pesh. a. l.).—",
+						"<cite ref=\"Targum Jonathan on Leviticus 16:24\">Targ. Y. Lev. XVI, 24</cite> (cmp. ",
+						"<cite ref=\"Bava Batra 99a\">B. Bath. 99ᵃ</cite>, quot. in <cite ref=\"R00083\">preced.</cite>).—",
+						"<cite ref=\"Shabbat 102b:5\">Sabb. 102ᵇ</cite> <he>תתאה בעי צַדּוּדֵי וכ׳</he> Ms. M. (ed. <he>תתא</he>) to place the lowest stone it is necessary to make room for it in the ground and surround it with earth (v. <cite ref=\"R00083\">preced.</cite>). ",
+						"<cite ref=\"Yoma 37a:11\">Yoma 37ᵃ</cite> <he>דמְצַדֵּד אַצְדּוּדֵי</he> (Rashi <he>דמִיצֵּדּד</he>, <i>Ithpa.</i>) he turns sideways. ",
+						"<cite ref=\"Bava Batra 99a:7\">B. Bath. 99ᵃ</cite> <he>דמְצַדְּדֵי אצדודי</he> they (the Cherubim) were turned sideways (so as to face both the house and each other). ",
+						"<cite ref=\"Shabbat 141a:16\">Sabb. 141ᵃ</cite> <he>לא לִיצַדֵּד וכ׳</he> (or <he>לִיצַּדֵּד</he>, <i>Ithpa.</i>), v. <cite ref=\"K00181\"><he>כּוּבָּא</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַצְדַד"],
+			"senses": [
+				{
+					"gloss": ", inf. <he>אצְדּוּדֵי</he>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

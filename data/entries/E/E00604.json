@@ -1,0 +1,27 @@
+{
+	"id": "E00604",
+	"slug": "המיה",
+	"headword": {
+		"text": "הֶמְיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶמְיָיה"
+		}
+	],
+	"page": {
+		"number": 355,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"E00603\">preced.</cite>) = <cite ref=\"E00597\"><he>הָמוֹן</he></cite>, <i>din</i> of a large city. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 43:12\">Sifré Deut. 43</cite> [read:] <he>קול ה׳ של רומי מפוטיולין</he>, v. <cite ref=\"E00597\"><he>הָמוֹן</he></cite> a. <cite ref=\"Q00189\"><he>פּוּטְיוֹלִין</he></cite>."
+			]
+		}
+	]
+}

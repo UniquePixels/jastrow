@@ -1,0 +1,24 @@
+{
+	"id": "Q01220",
+	"slug": "פס-1",
+	"headword": {
+		"text": "פָּס"
+	},
+	"page": {
+		"number": 1191,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. = <cite ref=\"A02749\"><he>אָפֵס</he></cite>, <i>Pas</i>, name of two Amoraim. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:2:9\">Y. Taan. IV, 68ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 5:7:3\">Y. Yoma V, 43ᵃ</cite> bot.—",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 3:5:2\">Y. Kidd. III, 64ᵃ</cite> bot. (v. Fr. M’bo, p. 122ᵃ)."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "F00017",
+	"slug": "ודי",
+	"headword": {
+		"text": "ודי"
+	},
+	"page": {
+		"number": 372,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"F00017\"><he>וַדַּי</he></cite>, <i>Af.</i> <cite ref=\"J00101\"><he>אוֹדִי</he></cite>, v. <cite ref=\"J00100\"><he>ידי</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

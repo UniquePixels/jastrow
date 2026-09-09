@@ -1,0 +1,57 @@
+{
+	"id": "H01145",
+	"slug": "חמד-2",
+	"headword": {
+		"text": "חֲמַד"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲמִיד"
+		}
+	],
+	"page": {
+		"number": 475,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01144\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 1:29\">Targ. Is. I, 29</cite>; a. fr.—Part. f. (<he>חֲמֵידַת</he>) <he>חְמֵידָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 4:1\">Targ. Y. Gen. IV, 1</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַמֵּיד", "חַמֵּד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01144\">same</cite>, <i>to long</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 31:30\">Targ. O. Gen. XXXI, 30</cite> (Y. <he>מִתְחַמְדָּא חֲמִדְתָּא</he>).—",
+						"<cite ref=\"Niddah 66a\">Nidd. 66ᵃ</cite> bot. <cite ref=\"M00902\"><he>מְחַמְּדָא</he></cite>, v. <cite ref=\"H00799\"><he>חִימּוּד</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְחַמַּד"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְחֲמַד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01144\">same</cite>.—Targ. Y. Gen. l. c.—Ib. XXVIII, 10.—Y. Taan. III, 66ᵈ top <he>מִתְחֲמַד וכ׳</he> being desirous to hear her talk. Y. Sabb. VI, 8ᶜ bot. <he>הוו מִתְחַמְּדִין וכ׳</he> were anxious to see &c. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 9:10\">Koh. R. to IX, 10</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

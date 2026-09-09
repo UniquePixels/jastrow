@@ -1,0 +1,69 @@
+{
+	"id": "N00924",
+	"slug": "נסח-2",
+	"headword": {
+		"text": "נְסַח"
+	},
+	"page": {
+		"number": 916,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00923\">same</cite><i>to remove, take out</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 14:9\">Targ. Jud. XIV, 9</cite> (h. text <cite ref=\"T00235\"><he>רדה</he></cite>).—Part. pass. <he>נְסִיחַ</he>. ",
+				"<cite ref=\"Targum Jonathan on Judges 14:9\">Ib.</cite>—",
+				"<cite ref=\"Shir HaShirim Rabbah 5:14\">Cant. R. to V, 14</cite> <he>אימיה נָסְחָא וכ׳</he> his mother took the bread out of the oven, and he ate; Pesik. B’shall., p. 90ᵇ, sq. <he>נשא</he> (corr. acc.).—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to lift, weigh</i>.—Denom. <cite ref=\"M01888\"><he>מְסָחָא</he></cite>, <cite ref=\"M01894\"><he>מִסְחֲתָא</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַסַּח"],
+			"senses": [
+				{
+					"gloss": "<i>to remove, sweep out; to exile</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 13</cite> (expl. <he>וירדנה</he>, <cite ref=\"Eichah Rabbah 1:57\">ib.</cite>, with ref. to Jud. l. c.) <he>נַסְּחָהּ</he> (not <he>נסחא</he>) he removed (exiled) her.—Part. pass. <cite ref=\"M01797\"><he>מְנַסַּח</he></cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 29:21\">Targ. Prov. XXIX, 21</cite> (h. text <cite ref=\"M01746\"><he>מנון</he></cite>!)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְנְסַח"],
+			"senses": [
+				{
+					"gloss": "<i>to be pulled out</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 7:9\">Targ. Esth. VII, 9</cite> (fr. ",
+						"<cite ref=\"Ezra 6:11\">Ezra VI, 11</cite>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אַסַּח"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"N00923\">preced.</cite> <i>Hif.</i> ",
+					"units": [
+						"<cite ref=\"Zevachim 20b:4\">Zeb. 20ᵇ</cite> <he>אַסּוּחֵי מַסַּח דעתיה</he> he discards (the service) from his mind; <he>לא מַסַּח</he> he does not. ",
+						"<cite ref=\"Pesachim 103b:1\">Pes. 103ᵇ</cite> <he>אַסְּחִיתוּ דעתייכו</he> you have abandoned the thought (of drinking). ",
+						"<cite ref=\"Gittin 53b\">Gitt. 53ᵇ</cite> <he>א׳ דעתיה</he> he ceased to have his mind on it (as sacred matter that must be guarded); a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

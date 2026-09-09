@@ -1,0 +1,26 @@
+{
+	"id": "P00181",
+	"slug": "עובר-1",
+	"headword": {
+		"text": "עוֹבֵר"
+	},
+	"page": {
+		"number": 1047,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00059\"><he>עָבַר</he></cite>) <i>passer-by, transient</i>. <he>מום ע׳</he>, v. <cite ref=\"P00059\"><he>עָבַר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 70a:17\">Snh. 70ᵃ</cite> <he>דרש ע׳ גלילאה</he> a Galilean travelling lecturer preached; <cite ref=\"Chullin 27b:10\">Ḥull. 27ᵇ</cite>; (<cite ref=\"Shabbat 88a:4\">Sabb. 88ᵃ</cite> <he>ההוא גלילאה</he>).—Mostly <he>ע׳ וָשָׁב</he> <i>traveller</i>.—Pl. <he>עוֹבְרִים</he>, <he>עוֹבְרִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 3:1:2\">Y. Shebi. III, beg. 34ᶜ</cite> <he>לא חשו לע׳ ושָׁבִין וכ׳</he> they cared not for eventual travellers (who might misconstrue the act); a. fr.—",
+				"<cite ref=\"Sanhedrin 103b:14\">Snh. 103ᵇ</cite> <he>מפני שפיתו מצויה לעוֹבְרֵי דרכים</he> because his bread was ready for travellers, i.e. he was hospitable. ",
+				"<cite ref=\"Sanhedrin 109a:12\">Ib. 109ᵃ</cite> <he>למה לנו עוברי דרכים וכ׳</he> why should we admit those travelling merchants who come only to take away our money?; Tanḥ. ",
+				"<cite ref=\"Exodus 12\">B’shall. 12</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "T00279",
+	"slug": "רהט-3",
+	"headword": {
+		"text": "רַהַט"
+	},
+	"page": {
+		"number": 1454,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>רְהָטִים</he>, <he>רְהָטִין</he>(b. h.; <cite ref=\"T00278\">preced.</cite>) [<i>runners</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>gutters of the watering trough</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 31:4\">Lev. R. s. 31</cite>; <cite ref=\"Shir HaShirim Rabbah 7:6:1\">Cant. R. to VII, 6</cite> (ref. to <he>אסור ברהטים</he>, <cite ref=\"Shir HaShirim Rabbah 7:6:1\">ib.</cite>) <he>זה משה … שנגזר … בר׳ של מי מריבה</he> that is Moses … concerning whom it was decreed that he should not enter the land; and why? Because of the troughs of the waters of Meribah (<cite ref=\"Numbers 20:13\">Num. XX, 13</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <he>רהיטים</he>) <i>rafters, roofing</i>. Ib. <he>זה מלך … שאסר … משרה שכינתו בתוך ישראל בר׳</he> (strike out <he>של אבינו יעקב</he>) that is the king of kings … who bound himself by an oath that he will allow his Presence to dwell in Israel under roofing (in the Temple); Lev. R. l. c. <he>משרה שכינתו בתוך רהיטין של יעקב</he> (strike out <he>אבינו</he>) under Jacob’s roof.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>running</i>. Ib. <he>בזכותו … אל הבקר רץ וכ׳</he> for the sake of Araham of whom it is written (<cite ref=\"Genesis 18:7\">Gen. XVIII, 7</cite>), ‘and Abraham <i>ran</i> &c.’; Cant. R. l. c.—[",
+			"units": [],
+			"label": "3"
+		},
+		{
+			"gloss": " (b. h.) <i>shavings</i>; trnsf. <i>curls</i>. Cant. l. c.]",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

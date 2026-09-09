@@ -1,0 +1,36 @@
+{
+	"id": "M01905",
+	"slug": "מסטירין",
+	"headword": {
+		"text": "מִסְטֵירִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִסְטוּ׳"
+		},
+		{
+			"text": "מִיסְ׳"
+		}
+	],
+	"page": {
+		"number": 806,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. sing. a. pl. (μυστήριον, -α) <i>secret</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 9:8\">Midr. Till. to Ps. IX, 6</cite> <he>מיסטורין זה אני וכ׳</he> ed. Bub. (ed. <cite ref=\"M02037\"><he>מסתורין</he></cite>, corr. acc.) this secret I reveal to thee. ",
+				"<cite ref=\"Bereishit Rabbah 50\">Gen. R. s. 50</cite>; s. 68 <he>ע״י שגלו מ׳ וכ׳</he> because they revealed the mysteries of the Lord (<cite ref=\"Genesis 19:13\">Gen. XIX, 13</cite>); Yalk. ib. 84 <cite ref=\"M02037\"><he>מסתורין</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 71:5\">Gen. R. s. 71</cite> <he>בעלי מ׳</he> secret-keeping, discreet men. ",
+				"<cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite>; Tanḥ. Vayḥi 8; <cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> <cite ref=\"M01904\"><he>מסטירים</he></cite> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Gittin 2:3:2\">Y. Gitt. II, 44ᵇ</cite> top <he>כתב מ׳</he> a secret letter; (<cite ref=\"Jerusalem Talmud Shabbat 12:4:4\">Y. Sabb. XII, end, 13ᵈ</cite> <he>מילה מסטריקון</he>); a. fr.—",
+				"<cite ref=\"Targum Jonathan on Genesis 28:12\">Targ. Y. I Gen. XXVIII, 12</cite> <cite ref=\"M01905\"><he>מַסְטִירִין</he></cite> (some ed. <he>מַסְתִּי׳</he>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Numbers 16:26\">Targ. Y. Num. XVI, 26</cite> <cite ref=\"M01907\"><he>מְסַטְּרִין</he></cite> (some ed. <cite ref=\"M01907\"><he>מַסְטְרִין</he></cite>, corr. acc.).—[<cite ref=\"Bereishit Rabbah 50\">Gen. R. s. 50</cite>; <cite ref=\"Yalkut Shimoni on Torah 84:2\">Yalk. ib. 84</cite>, v. <cite ref=\"M01901\"><he>מַסְטֵי</he></cite>.]"
+			]
+		}
+	]
+}

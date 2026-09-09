@@ -1,0 +1,22 @@
+{
+	"id": "C01052",
+	"slug": "גמלת",
+	"headword": {
+		"text": "גַּמֶּלֶת"
+	},
+	"page": {
+		"number": 254,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C01040\"><he>גַּמָּל</he></cite>) <i>a caravan of camel-drivers</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 10:5\">Snh. X, 5</cite> (<cite ref=\"Sanhedrin 111b:14\">111ᵇ</cite>); <cite ref=\"Sanhedrin 112a\">Snh. 112ᵃ</cite>; <cite ref=\"Bava Batra 8a\">B. Bath. 8ᵃ</cite>"
+			]
+		}
+	]
+}

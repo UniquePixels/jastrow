@@ -1,0 +1,26 @@
+{
+	"id": "I00645",
+	"slug": "טפי-4",
+	"headword": {
+		"text": "טְפֵי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "טְפָא",
+			"homograph": 4
+		}
+	],
+	"page": {
+		"number": 546,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. P. Sm. 1502) = <cite ref=\"I00636\"><he>טְפַח</he> I</cite>, <i>to close</i>, <cite ref=\"Aramaic Targum to Job 5:16\">Targ. Job V, 16</cite> <he>טְפִיַת</he> (some ed. <he>טַפְּיַת</he> <i>Pa.</i>), v. <cite ref=\"I00634\"><he>טְפַז</he></cite>.—",
+			"units": [
+				"<cite ref=\"Bava Kamma 23a\">B. Kam. 23ᵃ</cite>, v. <cite ref=\"I00637\"><he>טְפַח</he></cite>. [<cite ref=\"Aramaic Targum to Song of Songs 2:8\">Targ. Cant. II, 8</cite>, v. <cite ref=\"I00634\"><he>טְפַז</he></cite>.]"
+			]
+		}
+	]
+}

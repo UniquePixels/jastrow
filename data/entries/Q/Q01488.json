@@ -1,0 +1,54 @@
+{
+	"id": "Q01488",
+	"slug": "פקיע-1",
+	"headword": {
+		"text": "פְּקִיעַ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1209,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01502\"><he>פָּקַע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>strip; shreds of garments ravelled into threads for wicks</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shekalim 5:1\">Shek. V, 1</cite> <he>בן בבי</he> (<cite ref=\"M01653\"><he>ממונה</he></cite>) <he>על הפ׳</he> Ben Bebai was appointed to superintend the preparation of wicks from the shreds of priestly garments; <cite ref=\"Jerusalem Talmud Peah 8:6:5\">Y. Peah VIII, 21ᵃ</cite> (interch. with <he>הפתילה</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a strip of leather, a strap</i> used as a <i>whip</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 23a:10\">Yoma 23ᵃ</cite> <he>לוקה … בפ׳</he> he is smitt en by the overseer with a strap (expl. <cite ref=\"M00327\"><he>מַדְרָא</he></cite>, <cite ref=\"M01070\"><he>מְטַרְקָא</he></cite>). ",
+				"<cite ref=\"Yoma 23a:10\">Ib.</cite> (ref. to Shek. l. c.) <he>אמינא מאי פ׳ נגדא</he> I would now say, <i>p’ḳiʿa</i> means <i>strap</i> (appointed to execute punishment).—",
+				"<cite ref=\"Mishnah Eduyot 3:5\">Eduy. III, 5</cite> <he>בית הפ׳</he> (Rabad <he>הפְּקִיעָה</he>) <i>that end of the bow from which the thong is snapped</i>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " [<i>that which is to be stripped</i> or <i>ravelled</i>,] <i>bundle, bunch</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 117a:15\">B. Kam. 117ᵃ</cite> <he>הרשט לי פ׳ זה</he> Ar. (ed. <he>פ׳ עמיר</he>) hand me this bunch (of sheaves). ",
+				"<cite ref=\"Tosefta Bava Metzia 8:4\">Tosef. B. Mets. VIII, 4</cite>; a. e.—Pl. <cite ref=\"Q01492\"><he>פְּקִיעִים</he></cite>, <cite ref=\"Q01492\"><he>פְּקִיעִין</he></cite>. ",
+				"<cite ref=\"Mishnah Shabbat 24:2\">Sabb. XXIV, 2</cite> <he>מתירין פְּקִיעֵי עמיר וכ׳</he> you may untie bundles of sheaves for the cattle &c. ",
+				"<cite ref=\"Shabbat 155a:6\">Ib. 155ᵃ</cite> <he>הן הן פ׳ הן הן כיפין</he> <i>p’ḳiin</i> and <i>kippin</i> mean the same things. ",
+				"<cite ref=\"Shabbat 155a:5\">Ib.</cite> <he>פ׳ תרי</he> bunches are called <i>p’ḳiin</i>, when tied with two bands, v. <cite ref=\"K00603\"><he>כִּיפָּה</he></cite>. ",
+				"<cite ref=\"Tosefta Sukkah 1:4\">Tosef. Succ. I, 4</cite>; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>that which has been chipped off, piece</i>.—Pl. as ab., v. <cite ref=\"Q01504\"><he>פֶּקַע</he></cite>",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

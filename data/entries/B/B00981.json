@@ -1,0 +1,42 @@
+{
+	"id": "B00981",
+	"slug": "בסי",
+	"headword": {
+		"text": "בסי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּסָא"
+		}
+	],
+	"page": {
+		"number": 178,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <he>בסס</he>) <i>to trample upon;</i> hence (with <cite ref=\"B00000\"><he>ב־</he></cite>) <i>to despise;</i> v. <cite ref=\"B00436\"><he>בְּזֵי</he> I</cite>; cmp. <cite ref=\"B00534\"><he>בְּטַשׁ</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּסֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"B00980\">same</cite>. Y. Ter. VIII, end, 46ᶜ <he>לא מבסי לא ברומי וכ׳</he> (read <he>תְבַסֵּי</he>) despise neither a Roman of low standing &c.; (<cite ref=\"Bereishit Rabbah 63:8\">Gen. R. s. 63</cite> <he>לא תבזון</he>).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (Arab. <he>בס</he>ّ) <i>to drive, instigate</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 79\">Gen. R. s. 79</cite>, end, heard an Arab say to his neighbor <he>מה את מְבַסֵּה בי וכ׳</he> (some ed. <he>מכ׳</he>, corr. acc.) why art thou driving me? and he meant to say <he>מה את מְעַשֶּׂה בי</he> (Var. <he>מְעַסֶּה</he>) why wilt thou force me?—from which they learned the meaning of <he>ועסותם</he>, <cite ref=\"Malachi 3:21\">Mal. III, 21</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

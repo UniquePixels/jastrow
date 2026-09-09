@@ -1,0 +1,28 @@
+{
+	"id": "L00554",
+	"slug": "לכלך-2",
+	"headword": {
+		"text": "לַכְלֵךְ"
+	},
+	"page": {
+		"number": 711,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"L00553\">same</cite><i>to moisten, saturate</i>. Part. pass. <he>מְלַכְלַךְ</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 3:3:3\">Y. Meg. III, 74ᵃ</cite> bot. <he>מל׳ באורייתא</he> saturated with knowledge."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to soil</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 5:10:3\">Y. Ab. Zar. V, 45ᵃ</cite> top (expl. <he>עקבת יין</he> <i>sediment</i>, Mish. ",
+				"<cite ref=\"Mishnah Avodah Zarah 5:10\">ib. V, 10</cite>) <he>בההוא דמְלַכְלֵךְ</he> it means that remnant of wine which soils (is thick, with ref. to <cite ref=\"P01151\"><he>עקבה</he></cite>, <cite ref=\"Hosea 6:8\">Hos. VI, 8</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

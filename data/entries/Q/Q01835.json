@@ -1,0 +1,50 @@
+{
+	"id": "Q01835",
+	"slug": "פריש-3",
+	"headword": {
+		"text": "פָּרֵישׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּרִישׁ"
+		},
+		{
+			"text": "פְּרִישָׁא"
+		}
+	],
+	"page": {
+		"number": 1228,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. ch. <cite ref=\"Q01834\">same</cite>, <i>separated, set aside</i>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lonely</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 15:17\">Targ. Jer. XV, 17</cite> (h. text <he>בדד</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>different</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 12:3\">Targ. Job XII, 3</cite> (h. text <he>נֹפֵל</he> = <cite ref=\"N01043\"><he>נִפְלָא</he></cite>!)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>remote, extraordinary, wonderful, distinguished</i>. Ib. XXXI, 11; 28 (h. text <he>פלילים</he>, <he>פלילי</he>). ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 49:26\">Targ. O. Gen. XLIX, 26</cite> (h. text <he>נזיר</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 118:23\">Targ. Ps. CXVIII, 23</cite> (h. text <he>נפלאת</he>); a. e.—",
+				"<cite ref=\"Aramaic Targum to Psalms 139:14\">Ib. CXXXIX, 14</cite> <he>פְּרִישֵׁית</he> (h. text <he>נפליתי</he>).—Pl. <he>פְּרִישִׁין</he>; f. <cite ref=\"Q01835\"><he>פְּרִישָׁן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 1:11\">Targ. Ez. I, 11</cite> (h. text <he>פְּרֻדוֹת</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 131:1\">Targ. Ps. CXXXI, 1</cite>; a. e.—V. <cite ref=\"Q01836\">next w.</cite>"
+			],
+			"label": "3"
+		}
+	]
+}

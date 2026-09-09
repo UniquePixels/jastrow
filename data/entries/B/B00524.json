@@ -1,0 +1,23 @@
+{
+	"id": "B00524",
+	"slug": "בטן-2",
+	"headword": {
+		"text": "בֶּטֶן"
+	},
+	"page": {
+		"number": 158,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"B00504\"><he>בטי</he></cite>) <i>belly</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 31b\">Nidd. 31ᵇ</cite>. ",
+				"<cite ref=\"Sotah 28a:17\">Sot. 28ᵃ</cite> <he>בִּטְנוֹ וכ׳</he> the belly of the adulterer; a. fr."
+			]
+		}
+	]
+}

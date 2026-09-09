@@ -1,0 +1,39 @@
+{
+	"id": "L00386",
+	"slug": "לטט",
+	"headword": {
+		"text": "לְטַט"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְטֵיט"
+		}
+	],
+	"page": {
+		"number": 705,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (sec. r. of <cite ref=\"L00236\"><he>לוט</he></cite>) <i>to curse</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 9:27\">Targ. Jud. IX, 27</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 5:3\">Targ. Job V, 3</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["לַטֵּיט"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"L00385\">same</cite>. Ib. II, 14. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 15:10\">Targ. Jer. XV, 10</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pe."
+		}
+	]
+}

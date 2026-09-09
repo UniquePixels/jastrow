@@ -1,0 +1,28 @@
+{
+	"id": "U01470",
+	"slug": "שמין-2",
+	"headword": {
+		"text": "שָׁמִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁמֵין"
+		}
+	],
+	"page": {
+		"number": 1595,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U01498\"><he>שָׁמֵן</he></cite>, <i>fat</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 18:8\">Targ. Y. Gen. XVIII, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 18:7\">Ib. 7</cite>; v. <cite ref=\"U01499\"><he>שְׁמַן</he></cite>."
+			]
+		}
+	]
+}

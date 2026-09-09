@@ -1,0 +1,25 @@
+{
+	"id": "V00898",
+	"slug": "תקלתא-2",
+	"headword": {
+		"text": "תְּקַלְתָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1691,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>תְּקַל</he> I) <i>imposts, taxes</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 58:3\">Targ. Is. LVIII, 3</cite> <he>תַּקְלַתְכוֹן</he> (h. text <he>עצביכם</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 50:11\">Ib. L, 11</cite> <he>לתקלתכון תתובון</he> (ed. Wil. <he>לתַקְלוּתְכוֹן</he>; h. text <he>למעצבה תשכבון</he>!). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 45:9\">Targ. Ez. XLV, 9</cite> (h. text <he>גְּרֻשֹׁת׳</he>)."
+			]
+		}
+	]
+}

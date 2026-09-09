@@ -1,0 +1,23 @@
+{
+	"id": "S01203",
+	"slug": "קירקני",
+	"headword": {
+		"text": "קִירְקָנֵי"
+	},
+	"page": {
+		"number": 1370,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"S01202\">preced.</cite> wds.) <i>croaking</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 51a:2\">Ned. 51ᵃ</cite> <he>שתינא</he> … <he>ובק׳ דאימן</he> I shall drink wine to thy father’s dancing and thy mother’s croaking (singing); [Rashi: <i>handing the cup</i>]."
+			]
+		}
+	]
+}

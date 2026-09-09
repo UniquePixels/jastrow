@@ -1,0 +1,54 @@
+{
+	"id": "T00746",
+	"slug": "רכב-2",
+	"headword": {
+		"text": "רְכַב"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְכֵיב"
+		}
+	],
+	"page": {
+		"number": 1479,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00745\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 24:61\">Targ. O. Gen. XXIV, 61</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 15:9\">Targ. Lev. XV, 9</cite>.—Part. <cite ref=\"T00761\"><he>רָכֵיב</he></cite>, <cite ref=\"T00745\"><he>רָכֵב</he></cite>; part. pass. <cite ref=\"T00761\"><he>רְכִיב</he></cite>, f. <he>רְכִיבָא</he>; pl. <he>רְכִיבִין</he>, <he>רָכְבִּין</he>; <he>רְכִיבָן</he>, <he>רָכְבָּן</he>. Targ. Y. Gen. l. c. ",
+				"<cite ref=\"Onkelos Numbers 22:22\">Targ. Num. XXII, 22</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 25:20\">Targ. I Sam. XXV, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 10:4\">Targ. Jud. X, 4</cite>; a. fr.—",
+				"<cite ref=\"Kohelet Rabbah 1:8:4\">Koh. R. to I, 8</cite> <he>ועלון יתיה ר׳ חמרא וכ׳</he> and they brought him riding on an ass on the Sabbath. ",
+				"<cite ref=\"Bereishit Rabbah 65:22\">Gen. R. s. 65</cite>. ",
+				"<cite ref=\"Berakhot 56b:17\">Ber. 56ᵇ</cite> <he>דר׳ הוא לתורא</he> when he dreamt that he was riding on an ox; <he>דר׳ תורא לדידיה</he> that the ox was riding on him; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְכֵּיב"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to ride</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 41:43\">Targ. Gen. XLI, 43</cite>. ",
+						"<cite ref=\"Aramaic Targum to Esther 6:9\">Targ. Esth. VI, 9</cite>; a. fr.—Gen. R. l. c. <he>חמי סוסא דאַרְכְּבִי … דאַרְכְּבָךְ מרך</he> see the horse on which my master makes me ride, and see the horse (the gallows) on which thy master (the Lord) makes thee ride. Y. Kidd. I, 60ᶜ bot., a. e. <he>אַרְכְּבֵיה וכ׳</he>, v. <cite ref=\"B01318\"><he>בַּרְקָא</he> II</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to let gender; to inoculate</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 19:19\">Targ. O. Lev. XIX, 19</cite>.—Y. Yeb. XV, 15ᵃ top <he>אילין … דלא צריכין מַרְכְּבָא</he> the Babylonian palms which require no inoculation."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

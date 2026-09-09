@@ -1,0 +1,61 @@
+{
+	"id": "U01282",
+	"slug": "שלט-2",
+	"headword": {
+		"text": "שְׁלַט"
+	},
+	"page": {
+		"number": 1581,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01281\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:16\">Targ. Gen. I, 16</cite>. ",
+				"<cite ref=\"Onkelos Exodus 21:8\">Targ. O. Ex. XXI, 8</cite> (h. text <he>בבגדו</he>). ",
+				"<cite ref=\"Targum Jonathan on Judges 8:21\">Targ. Jud. VIII, 21</cite> (h. text <cite ref=\"Q00086\"><he>פגע</he></cite>); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁלֵּט"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01281\">same</cite>, <i>to handle</i>.—Part. pass. <he>מְשַׁלַּט</he>; pl. <he>מְשַׁלְּטֵי</he>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 73b:1\">Kidd. 73ᵇ</cite> top <he>מש׳ הדמיה</he> if the limbs of the infant have been manipulated, v. <cite ref=\"U01201\"><he>שְׁלַב</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַשְׁלֵט"],
+			"senses": [
+				{
+					"gloss": "<i>to give power, appoint</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 13:5\">Targ. II Chr. XIII, 5</cite>. ",
+						"<cite ref=\"Targum Jonathan on Amos 4:1\">Targ. Am. IV, 1</cite>. ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 6:2\">Targ. Koh. VI, 2</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִשְׁתְּלַט"],
+			"senses": [
+				{
+					"gloss": "<i>to be made</i>, or <i>make one’s self a ruler</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 17:2\">Targ. Prov. XVII, 2</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

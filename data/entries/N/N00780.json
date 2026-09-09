@@ -1,0 +1,41 @@
+{
+	"id": "N00780",
+	"slug": "ניקנור",
+	"headword": {
+		"text": "נִיקָנוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִקָ׳"
+		}
+	],
+	"page": {
+		"number": 908,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (Νικάνωρ) <i>Nicanor</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " a general under Antioch Epiphanes and Demetrius I, defeated and slain by Judah Maccabi (<cite ref=\"The Book of Maccabees I 7:39\">I Macc. VII, 39</cite>; <cite ref=\"The Book of Maccabees II 15:30\">II Macc. XV, 30</cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 2:12:3\">Y. Taan. II, 66ᵃ</cite> top (Meg. Taan. XII) <he>יום נ׳</he> Nicanor-Day (a half-festival); <cite ref=\"Jerusalem Talmud Megillah 1:4:10\">Y. Meg. I, 70ᶜ</cite> bot."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " N., who imported Corinthian bronze doors for a Temple gate. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 3:10\">Yoma III, 10</cite>; <cite ref=\"Tosefta Yoma 2:4\">Tosef. ib. II, 4</cite>; Y. ib. III, 41ᵃ; Bab. ",
+				"<cite ref=\"Yoma 38a:4\">ib. 38ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Middot 2:3\">Midd. II, 3</cite>, a. fr. <he>שער נ׳</he> (<he>שערי</he>), v. <cite ref=\"N00481\"><he>נְחוּשְׁתָּן</he></cite>"
+			],
+			"label": "2"
+		}
+	]
+}

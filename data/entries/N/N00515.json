@@ -1,0 +1,58 @@
+{
+	"id": "N00515",
+	"slug": "נחר-1",
+	"headword": {
+		"text": "נָחַר"
+	},
+	"page": {
+		"number": 896,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (sec. r. of <he>חור</he>, <he>חרר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to perforate</i>, esp. <i>to kill by stabbing</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 5:3\">Ḥull. V, 3</cite> <he>הנוֹחֵר</he> if one stabs (instead of cutting according to ritual). ",
+				"<cite ref=\"Pesachim 49b:4\">Pes. 49ᵇ</cite> <he>מותר לנוֹחֲרוֹ</he> you may stab him.—[Sifra Aḥăré, Par. 9, ch. XIII <he>שלא תנחור</he>, read: <he>תְנַחֵשׁ</he>, v. <cite ref=\"N00518\"><he>נָחַשׁ</he></cite>; Rabad <he>תנקור</he>, v. <cite ref=\"N01243\"><he>נָקַר</he> II</cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <he>נְחִירַיִם</he>) <i>to discharge mucus, run</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 64b:27\">Nidd. 64ᵇ</cite> <he>כל זמן שנוֹחֶרֶת</he> as long as the healing wound discharges matter. V. <cite ref=\"N00493\"><he>נְחִירָה</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיחַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be stabbed</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 17a:6\">Ḥull. 17ᵃ</cite> (ref. to <he>ישחט</he>, <cite ref=\"Numbers 11:22\">Num. XI, 22</cite>) <he>יִנָּחֵר להם מיבעיא ליה</he> (not <cite ref=\"N00515\"><he>ניחר</he></cite>) if no ritual cutting was prescribed for the people in the desert, the text ought to have read, ‘shall be stabbed for them’."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִיחֵר"],
+			"senses": [
+				{
+					"gloss": " (denom. of <he>נחירים</he>) <i>to snort</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 94a:12\">Snh. 94ᵃ</cite> (play on <he>ס̇נ̇ח̇ר̇יב</he>) <he>שס̇ח̇ ונ̇יח̇ר̇ וכ׳</he> he spoke and snorted forth words against heaven."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

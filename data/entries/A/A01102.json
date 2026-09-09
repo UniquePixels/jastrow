@@ -1,0 +1,29 @@
+{
+	"id": "A01102",
+	"slug": "אטר",
+	"headword": {
+		"text": "אִטֵּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיטֵּר"
+		}
+	],
+	"page": {
+		"number": 43,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"A01102\"><he>אִטֵּר</he></cite>, v. Hebr. Dict.), sub. <he>יד ימינו</he> <i>one whose right hand is tied up</i> or <i>unfit for labor; left-handed</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 103a\">Sabb. 103ᵃ</cite> <he>אי׳ יד</he>. ",
+				"<cite ref=\"Menachot 37a:5\">Men. 37ᵃ</cite> only <he>א׳</he>. ",
+				"<cite ref=\"Tosefta Bekhorot 5:8\">Tosef. Bekh. V, 8</cite> <he>א׳ בין בידיו וכ׳</he>; <cite ref=\"Bekhorot 45b:4\">Bekh. 45ᵇ</cite> <he>א׳ בין ביד וכ׳</he> one either left-handed or left-legged (v. Rashi a. l.)."
+			]
+		}
+	]
+}

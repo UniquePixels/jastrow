@@ -1,0 +1,22 @@
+{
+	"id": "M02209",
+	"slug": "מפטרא-1",
+	"headword": {
+		"text": "מִפְטָרָא"
+	},
+	"page": {
+		"number": 820,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00548\"><he>פְּטַר</he></cite>) <i>dismissal from school, reading of Scriptures and prayers at dismissal.—</i>Pl. <he>מִפְטָרֵי</he>. ",
+			"units": [
+				"<cite ref=\"Berakhot 53b:30\">Ber. 53ᵇ</cite> <he>בעידן מִפְטָרַיְיהוּ</he> (Ms. F. <he>דקא מִפַּטְּרֵי</he>) at the time of their dismissal with devotional exercises; <he>בדלא עידן מ׳</he> (Ms. F. <he>דקא מגמרי להו</he>) not at dismissal (when they recite merely for practice)."
+			]
+		}
+	]
+}

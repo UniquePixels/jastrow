@@ -1,0 +1,24 @@
+{
+	"id": "C00470",
+	"slug": "גוץ-2",
+	"headword": {
+		"text": "גּוּץ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 226,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C00469\">preced.</cite>; cmp. <cite ref=\"S00526\"><he>קָוַץ</he></cite>) <i>short, dwarfish</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 31b:18\">Ber. 31ᵇ</cite>, v. <cite ref=\"B00898\"><he>בָּלַע</he></cite>.—Pl. <he>גּוֹצִים</he>. Pesik. V’zoth p. 200ᵃ <he>ג׳ ממנו</he> of a lower stature; (ib. Baḥod. p. 108ᵃ <he>קווצים כיוצא בו</he>; <cite ref=\"Sifrei Devarim 343:6\">Sifré Deut. 343</cite> only <he>קווצים</he>; <cite ref=\"Yalkut Shimoni on Nach 776\">Yalk. Ps. 776</cite>; Ex. 286).—<i>Fem.</i> <cite ref=\"C00471\"><he>גּוּצָה</he></cite>. ",
+				"<cite ref=\"Yevamot 106b:11\">Yeb. 106ᵇ</cite> <he>הוא ארוך והיא ג׳</he> if he is very tall and she dwarfish."
+			]
+		}
+	]
+}

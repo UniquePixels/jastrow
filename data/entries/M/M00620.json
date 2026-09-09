@@ -1,0 +1,21 @@
+{
+	"id": "M00620",
+	"slug": "מורד-3",
+	"headword": {
+		"text": "מוֹרָד",
+		"homograph": 1
+	},
+	"page": {
+		"number": 749,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"J00597\"><he>יָרַד</he></cite>)<i>descent</i>.—Pl. <he>מוֹרָדוֹת</he>. ",
+			"units": ["<cite ref=\"Eruvin 56a:3\">Erub. 56ᵃ</cite>"]
+		}
+	]
+}

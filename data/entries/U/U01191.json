@@ -1,0 +1,28 @@
+{
+	"id": "U01191",
+	"slug": "שכשוך",
+	"headword": {
+		"text": "שִׁכְשׁוּךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁיכְ׳"
+		}
+	],
+	"page": {
+		"number": 1577,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שִׁכְשֵׁךְ</he> II) <i>dabbling</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 58a:2\">Ab. Zar. 58ᵃ</cite> <he>וכי ש׳ עושה יין נסך</he> Ms. M. (v. Rabb. D. S. a. l. note; ed. <he>והא מר הוא דאמר שיכשך אין וכ׳</he>, read: <cite ref=\"U00931\"><he>שיכשוך</he></cite>) does dabbling (in wine) make it forbidden (v. <cite ref=\"N00948\"><he>נֶסֶךְ</he></cite>)?—",
+				"<cite ref=\"Avodah Zarah 57b\">Ib. 57ᵇ</cite>, v. <cite ref=\"U01194\"><he>שַׁכְשֵׁךְ</he></cite>."
+			]
+		}
+	]
+}

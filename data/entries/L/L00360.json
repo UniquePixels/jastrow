@@ -1,0 +1,28 @@
+{
+	"id": "L00360",
+	"slug": "לחלוך",
+	"headword": {
+		"text": "לִחְלוּךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִיחְ׳"
+		}
+	],
+	"page": {
+		"number": 703,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00354\"><he>לָחַךְ</he></cite>), <he>ל׳ פה</he> <i>lapping with the tongue into the mouth</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 22\">Lev. R. s. 22</cite>; Pesik. Eth Korb., p. 58ᵃ; <cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite>; <cite ref=\"Yalkut Shimoni on Torah 776\">Yalk. Num. 776</cite>; <cite ref=\"Yalkut Shimoni on Nach 926\">Yalk. Job 926</cite>; Tanḥ. Pinḥ. 12 [read:] <he>וכי יש בהם כדי לחלוך פה</he> (not <cite ref=\"L00551\"><he>לכלוך</he></cite>, <cite ref=\"L00356\"><he>לחלוח</he></cite>) is there in them (the waters of the Jordan) enough (for the Behemoth) for a lapping? [or <he>ויש בהם כדי ל׳ פה</he> and there is just enough for etc.]—",
+				"<cite ref=\"Yalkut Shimoni on Nach 926\">Ib.</cite> <he>אין בהם</he> [<he>כדי</he>] <he>ל׳ פה</he> there is not enough &c."
+			]
+		}
+	]
+}

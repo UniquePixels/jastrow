@@ -1,0 +1,52 @@
+{
+	"id": "I00582",
+	"slug": "טנף-2",
+	"headword": {
+		"text": "טְנַף"
+	},
+	"page": {
+		"number": 541,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00581\">same</cite>. Part. pass. <cite ref=\"I00575\"><he>טָנִיף</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shabbat 57a\">Sabb. 57ᵃ</cite> <he>טְנִיפָן</he> they were soiled with dirt (Rashi: <he>מִיטַּנְּפֵי</he> <i>Ithpa.</i>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טַנֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to soil, pollute</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Song of Songs 5:3\">Targ. Cant. V, 3</cite> (ed. Lag. <he>אטופ׳</he>, read: <he>אֲטַנְּפִי׳</he>). ",
+						"<cite ref=\"Aramaic Targum to Job 3:5\">Targ. Job III, 5</cite> (v. <cite ref=\"I00578\"><he>טְנַן</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Numbers 35:33\">Targ. Y. Num. XXXV, 33</cite>. [<cite ref=\"Targum Jonathan on Numbers 35:33\">Ib.</cite> <he>יִטּוֹף</he>; <cite ref=\"Targum Jonathan on Deuteronomy 21:23\">Targ. Y. Deut. XXI, 23</cite> <he>תְטוּפוּן</he>, prob. to be read: <he>יְטַנֵּף</he>, <he>תְטַנְּפוּן</he>.]—",
+						"<cite ref=\"Bekhorot 20a:9\">Bekh. 20ᵃ</cite> <he>ודאי לא ט׳</he> it has certainly not had any secretion indicative of birth, v. <cite ref=\"I00581\">preced.</cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיטַּנֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to be soiled, defiled</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 4:14\">Targ. Lam. IV, 14</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 18:3\">Targ. Job. XVIII, 3</cite> (v. <cite ref=\"I00560\"><he>טְמַע</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 106:38\">Targ. Ps. CVI, 38</cite>; a. e.—",
+						"<cite ref=\"Shabbat 57a\">Sabb. 57ᵃ</cite>, v. supra. ",
+						"<cite ref=\"Bava Batra 82b:10\">B. Bath. 82ᵇ</cite> <he>קמִיטַּנְּפֵי פירי</he> the fruits are soiled (will rot, when falling on moist plants)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

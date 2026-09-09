@@ -1,0 +1,24 @@
+{
+	"id": "P00458",
+	"slug": "עטלא",
+	"headword": {
+		"text": "עַטְלָא"
+	},
+	"page": {
+		"number": 1063,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"P01124\"><he>עָצֵל</he></cite>, <i>lazy, laggard</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 10:26\">Targ. Prov. X, 26</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 22:13\">Ib. XXII, 13</cite> (Ms. <cite ref=\"P00444\"><he>עֲטֵילָא</he></cite>); a. fr.—Pl. <he>עַטְלֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 15:19\">Ib. XV, 19</cite>."
+			]
+		}
+	]
+}

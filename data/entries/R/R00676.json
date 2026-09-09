@@ -1,0 +1,27 @@
+{
+	"id": "R00676",
+	"slug": "צפון-1",
+	"headword": {
+		"text": "צָפוֹן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1295,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (adapt. of sapo, as if fr. <cite ref=\"R00216\"><he>צוּף</he></cite>; v. Sm. Ant. Engl. ed.<sup>3</sup>, s. vv. Sapo a. Fullo) [<i>foam</i>,] <i>soap, detergent</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 62a:38\">Nidd. 62ᵃ</cite> <he>העביר עליו צ׳ ועבר</he> (Ar. <cite ref=\"O01328\"><he>ספון</he></cite>) if he rubbed soap over the suspected blood-stain, and it disappeared. ",
+				"<cite ref=\"Niddah 62a:38\">Ib.</cite> <he>צ׳ צבע נמי מעבר</he> but will not soap also remove red dye? <cite ref=\"Bava Kamma 93b:16\">B. Kam. 93ᵇ</cite> <he>הואיל ויכול להעבירו ע״י צ׳</he> because he can remove it with soap. ",
+				"<cite ref=\"Bava Kamma 101a:8\">Ib. 101ᵃ</cite> <he>במאי שקיל להו בצ׳ צ׳ וכ׳</he> Ms. R. (v. Rabb. D. S. a. l. note 300) wherewith shall he take the dye off? With soap? Soap will remove the dye, but will not restore the natural color. ",
+				"<cite ref=\"Tosefta Niddah 8:11\">Tosef. Nidd. VIII, 11</cite> <he>שאילו העביר עליו צ׳ וכ׳</he> ed. Zuck. (Var. <cite ref=\"O00022\"><he>סָאפוֹן</he></cite>, <he>סאפן</he>) if he had rubbed soap over it at the start, it might have passed away.—Denom. <cite ref=\"R00702\"><he>הִצְפִּין</he></cite> <i>to soap</i>. ",
+				"<cite ref=\"Tosefta Niddah 8:11\">Ib.</cite> <he>הצפינן ועבר עליו</he> ed. Zuck. (read <cite ref=\"R00702\"><he>הִצְפִּינוֹ</he></cite>, and strike out <he>עליו</he>) if he soaped the stain, and it passed away (oth. ed. <he>סאפון ועבר</he>, sub. <he>העביר עליו</he>, v. supra)."
+			]
+		}
+	]
+}

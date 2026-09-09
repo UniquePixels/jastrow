@@ -1,0 +1,28 @@
+{
+	"id": "I00436",
+	"slug": "טירונא-2",
+	"headword": {
+		"text": "טִירוּנָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "טִרוּנָא"
+		}
+	],
+	"page": {
+		"number": 534,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (τύραννος) <i>imperial, powerful</i>.—Pl. <he>טִירוּנִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 20:1\">Targ. Y. Deut. XX, 1</cite> (synonym. with <he>גֵּיוְתָנִין</he>)."
+			]
+		}
+	]
+}

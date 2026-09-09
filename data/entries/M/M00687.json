@@ -1,0 +1,27 @@
+{
+	"id": "M00687",
+	"slug": "מושכי",
+	"headword": {
+		"text": "מוֹשְׁכִּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּרַךְ מוֹשְׁכִּי"
+		}
+	],
+	"page": {
+		"number": 751,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>the Fort of the Moschi</i>, a people whose territory formed the southern part of Colchis. ",
+			"units": [
+				"<cite ref=\"Kiddushin 72a:7\">Kidd. 72ᵃ</cite>; <cite ref=\"Yevamot 17a:1\">Yeb. 17ᵃ</cite>"
+			]
+		}
+	]
+}

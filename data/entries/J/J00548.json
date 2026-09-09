@@ -1,0 +1,41 @@
+{
+	"id": "J00548",
+	"slug": "יצר-1",
+	"headword": {
+		"text": "יָצַר"
+	},
+	"page": {
+		"number": 590,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"R00808\"><he>צרר</he></cite>)<i>to turn, shape, form</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 8a:3\">Keth. 8ᵃ</cite> (marriage benediction) <he>אשר י׳ את וכ׳</he> who hast formed man in thine image. ",
+				"<cite ref=\"Berakhot 58b:5\">Ber. 58ᵇ</cite> (prayer in a burial place) <he>אשר י׳ אתכם וכ׳</he> who created you in justice &c.; a. fr.—Part. <cite ref=\"J00228\"><he>יוֹצֵר</he></cite> (as noun, v. <cite ref=\"J00228\"><he>יוֹצֵר</he></cite>). ",
+				"<cite ref=\"Berakhot 11b:1\">Ib. 11ᵇ</cite> (in the morning prayer) <he>י׳ אור בורא וכ׳</he> who didst form light and create darkness.—<he>יוֹצֵר אוֹר</he> or <cite ref=\"J00228\"><he>יוֹצֵר</he></cite> name of one of the benedictions preceding the reading of the morning Sh’ma. ",
+				"<cite ref=\"Berakhot 11b:1\">Ib.</cite>; <cite ref=\"Berakhot 12a\">ib. 12ᵃ</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נוֹצָר"],
+			"senses": [
+				{
+					"gloss": "<i>to be formed, created; to be fully developed</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 9:3\">Gen. R. s. 9</cite> <he>קודם עד שלא נוֹצְרָה מחשבה וכ׳</he> ere yet a thought is formed in the heart of man &c. ",
+						"<cite ref=\"Bereishit Rabbah 9:7\">Ib.</cite> <he>קודם … נ׳ יצור</he>, v. <cite ref=\"J00537\"><he>יְצִיר</he></cite>. ",
+						"<cite ref=\"Pirkei Avot 2:8\">Ab. II, 8</cite> <he>לכך נוֹצָרְתָּ</he> for that purpose (of studying) thou hast been created. ",
+						"<cite ref=\"Pirkei Avot 4:22\">Ib. IV, 22</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 14:4\">Gen. R. s. 14</cite>, beg.; Y. Yeb. IV, 5ᵈ top <he>נ׳ לשבעה</he> if the embryo was fully developed at seven months, contrad. to <he>נולד</he>, v. <cite ref=\"J00367\"><he>יָלַד</he></cite>. ",
+						"<cite ref=\"Yoma 85a\">Yoma 85ᵃ</cite>; <cite ref=\"Sotah 45b:16\">Sot. 45ᵇ</cite> <he>מהיכן הוולד נ׳</he> from where does the formation of the embryo start?; a. fr.—V. <cite ref=\"R00242\"><he>צוּר</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

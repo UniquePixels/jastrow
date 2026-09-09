@@ -1,0 +1,22 @@
+{
+	"id": "I00192",
+	"slug": "טועי",
+	"headword": {
+		"text": "טוּעֵי"
+	},
+	"page": {
+		"number": 525,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00602\"><he>טְעִי</he></cite>) <i>thoughtlessness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 1:32\">Targ. Prov. I, 32</cite> (ed. Lag. <he>טועיי</he>, Var. <cite ref=\"I00192\"><he>טועי</he></cite>)."
+			]
+		}
+	]
+}

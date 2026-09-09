@@ -1,0 +1,23 @@
+{
+	"id": "V00633",
+	"slug": "תלתותא-2",
+	"headword": {
+		"text": "תַּלָּתוּתָא"
+	},
+	"page": {
+		"number": 1674,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., constr. <cite ref=\"V00631\"><he>תַּלָּתוּת</he></cite> (<cite ref=\"V00626\"><he>תְּלַת</he></cite>) <i>sum of three</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 38:24\">Targ. O. Gen. XXXVIII, 24</cite> (ed. Vien. <cite ref=\"V00566\"><he>תְּלָ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 20:19\">Targ. I Sam. XX, 19</cite> (ed. Wil. <cite ref=\"V00566\"><he>תְּלָ׳</he></cite>)."
+			]
+		}
+	]
+}

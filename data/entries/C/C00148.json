@@ -1,0 +1,39 @@
+{
+	"id": "C00148",
+	"slug": "גג",
+	"headword": {
+		"text": "גַּג"
+	},
+	"page": {
+		"number": 209,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>roof</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 5:3\">Midd. V, 3</cite>. ",
+				"<cite ref=\"Pesachim 13b:2\">Pes. 13ᵇ</cite>, v. <cite ref=\"A01411\"><he>אִיסְטְבָא</he></cite>; a. v. fr.—",
+				"<cite ref=\"Yoma 47a:9\">Yoma 47ᵃ</cite> <he>עלה לגג</he> excelled all, v. <cite ref=\"G00669\"><he>זֶרֶד</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " in gen. <i>upper portion, top, apex</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 8:1:17\">Y. Yeb. VIII, 9ᵃ</cite> <he>רוב גַּגָּהּ של עטרה</he> the largest portion of the top of the membral corona, contrad. to <he>רוב גּוֹבְהָהּ</he>, v. <cite ref=\"C00048\"><he>גּוֹבַהּ</he></cite>; <cite ref=\"Jerusalem Talmud Shabbat 19:6:1\">Y. Sabb. XIX, end, 17ᵇ</cite> <he>רוב גוב׳ אטרה</he> (corr. acc.).—",
+				"<cite ref=\"Chullin 67b:7\">Ḥull. 67ᵇ</cite> <he>ג׳ תמרה</he> the outer covering of a date.—Pl. <he>גַּגּוֹת</he>. ",
+				"<cite ref=\"Mishnah Eruvin 9:1\">Erub. IX, 1</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Menachot 10:2\">Men. X, 2</cite> (<cite ref=\"Menachot 64b:8\">64ᵇ</cite>), v. <he>צְרִיפִין</he>."
+			],
+			"label": "2"
+		}
+	]
+}

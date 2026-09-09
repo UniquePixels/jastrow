@@ -1,0 +1,30 @@
+{
+	"id": "K00299",
+	"slug": "כונא",
+	"headword": {
+		"text": "כַּוְנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוּנָא"
+		}
+	],
+	"page": {
+		"number": 622,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"K00206\"><he>כַּוָּוא</he></cite>; cmp. <cite ref=\"H00426\"><he>חוֹפֶן</he></cite> a. <cite ref=\"K00980\"><he>כַּף</he></cite>) <i>the hollow of the hand, handful</i> (as a measure), <i>spoonful</i> (mostly in medicine; cmp. Lat. coclear). [Editions, except ed. Sonc., have <cite ref=\"B00002\"><he>ב׳</he></cite>, Ar. a. Mss. <he>כ׳</he>, v. Rabb. D. S. a. l. c. infra.] <cite ref=\"Shabbat 110b\">Sabb. 110ᵇ</cite> <he>כ׳ דכמונא וכ׳</he> (Ms. M. <cite ref=\"K00876\"><he>כי׳</he></cite>) one handful of cumin-seed, and one of &c. ",
+			"units": [
+				"<cite ref=\"Gittin 70a\">Gitt. 70ᵃ</cite> <he>כ׳ דחמרא וכ׳</he> a spoonful of old wine.—Pl. <he>כַּוְנֵי</he> or <he>כּוּנֵי</he>. ",
+				"<cite ref=\"Eruvin 29b\">Erub. 29ᵇ</cite> (ed. Sonc. <he>כַּוְונֵי</he>, v. Rabb. R. S. a. l. note). ",
+				"<cite ref=\"Gittin 69a:10\">Gitt. 69ᵃ</cite> ed. <he>כ׳</he>. ",
+				"<cite ref=\"Gittin 69b\">Ib. 69ᵇ</cite> (ed. <cite ref=\"B00002\"><he>ב׳</he></cite>)."
+			]
+		}
+	]
+}

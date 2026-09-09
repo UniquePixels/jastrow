@@ -1,0 +1,35 @@
+{
+	"id": "B00330",
+	"slug": "בור-3",
+	"headword": {
+		"text": "בּוּר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 148,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (cmp. <cite ref=\"B00332\"><he>בּוֹר</he> I</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>something waste, wild-growing</i>, whence <i>weed, brier</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 7:23\">Targ. Is. VII, 23</cite>; a. e. (always with <cite ref=\"E00183\"><he>הוֹבַאי</he></cite> q. v.; h. text <he>שמיר ושית</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (adj.) <i>coarse, indigestible</i>. Pl. <he>בּוּרִין</he>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 1:18:1\">Koh. R. to I, 18</cite> the one ate <he>מלין ב׳</he> coarse food."
+			],
+			"label": "2"
+		}
+	]
+}

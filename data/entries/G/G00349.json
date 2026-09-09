@@ -1,0 +1,32 @@
+{
+	"id": "G00349",
+	"slug": "זיירא",
+	"headword": {
+		"text": "זַיָּירָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זַיָּירָה"
+		},
+		{
+			"text": "זַיְרָא"
+		}
+	],
+	"page": {
+		"number": 393,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זוּר</he> <i>Pa.</i>) <i>press, the perforated tub containing the object to be pressed or beaten</i>. Y. Sabb. XVII, 16ᵇ top; <cite ref=\"Jerusalem Talmud Beitzah 1:6:2\">Y. Bets. I, 60ᶜ</cite> bot. <he>בז׳ ובמזורה וכ׳</he> as regards the handling on the Sabbath of a press-tub &c. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:6:2\">Ib.</cite> <he>ז׳ דו עצר ביה וכ׳</he> <i>zayyara</i> is that in which an object is squeezed, <i>m’zorah</i> is that with which the beating is done. ",
+				"<cite ref=\"Avodah Zarah 60a:6\">Ab. Zar. 60ᵃ</cite> <he>מעצרא וזירא</he> Ms. M. (ed. <he>מעצרא זיי׳</he>, Rashi to <cite ref=\"Shabbat 123a:5\">Sabb. 123ᵃ</cite> <he>מעצרתא זייארא</he>) the vat or the press-tub (used by a gentile for making wine).—Pl. <he>זַיָּירֵי</he>. ",
+				"<cite ref=\"Shabbat 123a:5\">Sabb. 123ᵃ</cite> <he>סיכי ז׳ ומזורי</he> (Ar. ed. Koh. <he>זַיָּארֵי</he>) the dyer’s pins, tubs and beams."
+			]
+		}
+	]
+}

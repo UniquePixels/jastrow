@@ -1,0 +1,27 @@
+{
+	"id": "I00130",
+	"slug": "טווח",
+	"headword": {
+		"text": "טְוָוח"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְוָח"
+		}
+	],
+	"page": {
+		"number": 522,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טוּחַ</he> II) <i>pressing the bow, shot, shooting distance</i>.—Pl. <he>טְוָוחִים</he>, <he>טְיָחִ׳</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 53:13\">Gen. R. s. 53</cite> (ref. to <he>כמטחוי</he>, <cite ref=\"Genesis 21:16\">Gen. XXI, 16</cite>) <he>שני ט׳ בקשת מיל</he> (‘Rashi’ a. l. <he>טִיחוֹת</he>) two shooting distances with the bow are a mile (<cite ref=\"M01160\"><he>מִיל</he></cite>); <cite ref=\"Yalkut Shimoni on Torah 94:5\">Yalk. Gen. 94</cite>."
+			]
+		}
+	]
+}

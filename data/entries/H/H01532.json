@@ -1,0 +1,33 @@
+{
+	"id": "H01532",
+	"slug": "חצף-2",
+	"headword": {
+		"text": "חֲצַף"
+	},
+	"page": {
+		"number": 495,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01531\">same</cite>.part. pass. <cite ref=\"H01523\"><he>חָצִיף</he></cite> q. v.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַחְצֵיף"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"H01531\">preced.</cite> <i>Hif.</i> ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 7:13\">Targ. Prov. VII, 13</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 21:29\">Ib. XXI, 29</cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 13:6\">Targ. Ez. XIII, 6</cite> <he>מַחְצְפִין וכ׳</he> (Var. <he>מְחַצְּפִין</he>) they boldly insist upon it &c. [<cite ref=\"Daniel 2:15\">Dan. II, 15</cite>; <cite ref=\"Daniel 3:22\">III, 22</cite> part. pass. <i>insisted upon, urgent</i>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

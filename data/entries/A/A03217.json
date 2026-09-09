@@ -1,0 +1,35 @@
+{
+	"id": "A03217",
+	"slug": "ארע-3",
+	"headword": {
+		"text": "אָרַע",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 124,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<cite ref=\"T00864\"><he>רע</he></cite>, cmp. <cite ref=\"T00415\"><he>רוּעַ</he></cite>, <i>Hif.</i> <cite ref=\"T00415\"><he>הֵרִיעַ</he></cite>, cmp. <cite ref=\"S02018\"><he>קָרָא</he></cite> a. <cite ref=\"S01921\"><he>קָרָה</he></cite>) <i>to proclaim a festival</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 147:1\">Sifré Num. 147</cite> <he>אֵירְעוֹ במאכל וכ׳</he> proclaim it (as <he>מקרא קדש</he>) with special meal and dress; v. Mekh. Bo 9, beg."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אוֹרָע"],
+			"senses": [
+				{
+					"gloss": "<i>to be proclaimed</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 113b\">B. Bath. 113ᵇ</cite> with <he>והיתה … משפט</he> (<cite ref=\"Numbers 27:11\">Num. XXVII, 11</cite>) <he>אוֹרְעָה כל וכ׳</he> the whole section has been proclaimed as of a judicial nature; (Ms. M. <he>הודעה</he>, v. <cite ref=\"J00106\"><he>יָדַע</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pu."
+		}
+	]
+}

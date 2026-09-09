@@ -1,0 +1,41 @@
+{
+	"id": "O00524",
+	"slug": "סיב-2",
+	"headword": {
+		"text": "סִיב",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סִיב"
+		}
+	],
+	"page": {
+		"number": 974,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"O00523\">preced.</cite>) <i>to be old</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 2:22\">Targ. I Sam. II, 22</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 12:2\">Ib. XII, 2</cite> <he>סָבִית</he>; ed. Lag. <he>סֵיבִית</he>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 2:5:4\">Y. R. Hash. II, 58ᵇ</cite> top; <cite ref=\"Jerusalem Talmud Sanhedrin 1:2:12\">Y. Snh. I, 18ᶜ</cite> bot. <he>זכה למֵיסַב וכ׳</he> he was permitted to reach so high an age that &c.; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתְּסִיב"],
+			"senses": [
+				{
+					"gloss": "<i>to become old</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 14:8\">Targ. Job XIV, 8</cite> <he>מִיתְּסִיב</he> Ms. (ed. <he>מִתְּסַב</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

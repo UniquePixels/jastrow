@@ -1,0 +1,113 @@
+{
+	"id": "E00741",
+	"slug": "הפך-2",
+	"headword": {
+		"text": "הֲפַךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "הָפֵיךְ"
+		},
+		{
+			"text": "יַהֲפוֹךְ"
+		}
+	],
+	"page": {
+		"number": 361,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", <cite ref=\"E00740\">same</cite> (v. <cite ref=\"A02728\"><he>אֲפַךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to turn, change</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 105:29\">Targ. Ps. CV, 29</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 16:9:2\">Y. Sabb. XVI, end, 15ᵈ</cite> <he>ה׳ אפוי</he> he turned his face off."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to overturn, destroy</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 19:25\">Targ. Gen. XIX, 25</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (neut. verb) <i>to turn around</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 26:11\">Targ. Prov. XXVI, 11</cite>; a. e.—",
+				"<cite ref=\"Bamidbar Rabbah 12:1\">Num. R. s. 12</cite> <he>כהדין ברנש … הָפוּךְ לאחוריו</he> like one going down a ladder backwards; <cite ref=\"Jerusalem Talmud Rosh Hashanah 2:4:3\">Y. R. Hash. II, 58ᵃ</cite> <he>כאילין דסלקין בסולמא הֲפִיךְ</he> like those who ascend a ladder backward; <cite ref=\"Yalkut Shimoni on Nach 912:1\">Yalk. Job 912</cite> [read:] <he>כהדין דסלקין בסולמא הפוך</he> (v. Lattes Saggio p. 106)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (with <cite ref=\"B00000\"><he>ב</he></cite>) <i>to be engaged in, to handle</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 113a:3\">Pes. 113ᵃ</cite> (prov.) <he>הֲפוֹךְ בנבילתא ולא תֵיפוֹךְ וכ׳</he> deal in carcasses, but deal not in words (gossip, sophistry &c.). ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 4:1:5\">Y. B. Kam. IV, beg. 4ᵃ</cite> <he>אנא הפך ומתהפך בדידי וכ׳</he> I turn around my stock of goods (selling and buying again), so that I reach thee in profits. ",
+				"<cite ref=\"Pirkei Avot 5:22\">Ab. V, 22</cite> <he>הֲפוֹךְ בה וכ׳</he> study it over and again; a. fr.—V. <cite ref=\"E00735\"><he>הֲפִיכָא</he></cite>."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הַפֵּיךְ"],
+			"senses": [
+				{
+					"gloss": " l) (= h. <cite ref=\"U00311\"><he>הֵשִׁיב</he></cite>) <i>to turn; to bring back, restore; to turn off</i> (wrath), <i>to appease; to give in return, reply</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 25:13\">Targ. Prov. XXV, 13</cite>.—",
+						"<cite ref=\"Aramaic Targum to Proverbs 29:8\">Ib. XXIX, 8</cite>.—",
+						"<cite ref=\"Aramaic Targum to Proverbs 24:29\">Ib. XXIV, 29</cite> Ms. (ed. <cite ref=\"E00741\"><he>אַהֲפֵיךְ</he></cite> <i>Af.</i>).—",
+						"<cite ref=\"Aramaic Targum to Proverbs 24:26\">Ib. 26</cite>.—2) <i>to handle, be engaged in, barter, study</i> (v. Pe. 4). ",
+						"<cite ref=\"Kiddushin 59a:6\">Kidd. 59ᵃ</cite> <he>דוה מְהַפֵּיךְ בההיא וכ׳</he> was negotiating about a field. ",
+						"<cite ref=\"Shabbat 119a:1\">Sabb. 119ᵃ</cite> <he>כמה דלא מְהַפִּיכְנָא בזכותיה</he> before I study what might be said in his favor. ",
+						"<cite ref=\"Pesachim 40a:18\">Pes. 40ᵃ</cite> <he>דמְהַפְּכֵי כיפי</he> who handle sheaves; <he>כי מְהַפְּכִיתוּ הַפִּיכוּ וכ׳</he> (Ms. M. <he>הפכיתו</he>) when ye handle (them), handle them with the thought that they will be used for a religious purpose.—<i>Part. pass.</i> <he>מְהַפַּךְ</he>. Y. Maasr. III, end, 51ᵃ <he>היא הפכה והיא מְהַפְּכָה</he> it turns and is turned in all directions (studied over and again), but we can learn nothing from it."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַהֲפֵךְ"],
+			"senses": [
+				{
+					"gloss": ", v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְהַפֵּךְ"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְהֲפֵיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be turned, changed; to turn about, deal in</i> &c. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 13:3\">Targ. Lev. XIII, 3</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 30:21\">Targ. Job XXX, 21</cite>; a. fr.—Y. Maasr. III, end, 51ᵃ, v. supra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to roll about</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 7:13\">Targ. Jud. VII, 13</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

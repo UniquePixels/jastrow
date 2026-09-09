@@ -1,0 +1,37 @@
+{
+	"id": "Q00066",
+	"slug": "פגיעה",
+	"headword": {
+		"text": "פְּגִיעָה"
+	},
+	"page": {
+		"number": 1133,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00085\"><he>פָּגַע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>meeting, contact, striking against</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:10:4\">Y. B. Mets. II, end, 8ᵈ</cite> (ref. to <cite ref=\"Exodus 23:4\">Ex. XXIII, 4</cite>) <he>יכול פ׳ ממש</he> you might think, it means literally ‘striking against’ (and not merely seeing); Bab. ",
+				"<cite ref=\"Bava Metzia 33a:5\">B. Mets. 33ᵃ</cite>. ",
+				"<cite ref=\"Bava Metzia 33a:5\">Ib.</cite> <he>ואיזו היא ראייה שיש בה פ׳</he> and what is a ‘seeing’ which may be called ‘meeting’?; <cite ref=\"Yalkut Shimoni on Torah 352:7\">Yalk. Ex. 352</cite>. ",
+				"<cite ref=\"Mishnah Bava Kamma 8:4\">B. Kam. VIII, 4</cite> <he>העבד … פְּגִיעָתָן רעה וכ׳</he> coming in (hostile) contact with a slave or a woman is bad, for he who injures them is made responsible, whereas if they injure you, they cannot be made responsible (having no property of their own)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>entreaty, prayer</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:8\">Y. Ber. IV, 7ᵇ</cite> top (ref. to <he>ויפגע</he>, <cite ref=\"Genesis 28:11\">Gen. XXVIII, 11</cite>) <he>אין פ׳ אלא תפלה</he> the expression <i>pagʿa</i> means prayer (with ref. to <cite ref=\"Jeremiah 27:18\">Jer. XXVII, 18</cite>; <cite ref=\"Jeremiah 7:16\">VII, 16</cite>); <cite ref=\"Bereishit Rabbah 68:9\">Gen. R. s. 68</cite>; <cite ref=\"Sotah 14a:10\">Sot. 14ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

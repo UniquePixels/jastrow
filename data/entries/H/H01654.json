@@ -1,0 +1,25 @@
+{
+	"id": "H01654",
+	"slug": "חרחור-2",
+	"headword": {
+		"text": "חַרְחוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִרְ׳"
+		}
+	],
+	"page": {
+		"number": 501,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01658\"><he>חִרְחֵר</he></cite>) <i>burnt part of a loaf, burnt crust</i>. Teb. Yom I, 3, sq. Cmp. <cite ref=\"H01625\"><he>חֲרוֹכָא</he></cite>.",
+			"units": []
+		}
+	]
+}

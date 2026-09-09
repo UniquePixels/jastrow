@@ -1,0 +1,33 @@
+{
+	"id": "T01138",
+	"slug": "רתך-1",
+	"headword": {
+		"text": "רָתַךְ"
+	},
+	"page": {
+		"number": 1503,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>רִיתֵּךְ</he> <i>to join, weld, rivet</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 52a:16\">Ab. Zar. 52ᵃ</cite> <he>ר׳ כלי לע״ז</he> if one welds a (broken) vessel for idolatrous purposes, contrad. to <he>עשה</he>. ",
+						"<cite ref=\"Shabbat 16b:2\">Sabb. 16ᵇ</cite> <he>שברתן … ורִיתְּכָן וכ׳</he> she broke them (the silver vessels) and gave them to a silversmith, who welded and made them into new vessels. ",
+						"<cite ref=\"Shabbat 52b\">Ib. 52ᵇ</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

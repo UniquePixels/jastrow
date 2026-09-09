@@ -1,0 +1,39 @@
+{
+	"id": "P01517",
+	"slug": "עשת-1",
+	"headword": {
+		"text": "עֲשַׁת"
+	},
+	"page": {
+		"number": 1128,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"P01514\"><he>עשש</he></cite>) <i>to make strong, harden, forge</i>.—[<cite ref=\"Daniel 6:4\">Dan. VI, 4</cite> <he>עֲשִׁית</he> <i>firmly determined</i>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְעַשֵּׁת"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְעֲשַׁת"],
+			"senses": [
+				{
+					"gloss": " (denom. of <he>תעשת</he> = <cite ref=\"P01518\">next w.</cite>) <i>to forge</i>; trnsf. (cmp. <cite ref=\"H01777\"><he>חָרַשׁ</he></cite>) <i>to plan, devise</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 32:6\">Targ. Is. XXXII, 6</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 33:11\">Ib. XXXIII, 11</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 5:26\">Targ. Jer. V, 26</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 20:15\">Targ. II Sam. XX, 15</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

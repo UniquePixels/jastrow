@@ -1,0 +1,27 @@
+{
+	"id": "O01377",
+	"slug": "ספירא-2",
+	"headword": {
+		"text": "סְפֵירָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְפֵירָה"
+		}
+	],
+	"page": {
+		"number": 1014,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (σφαῖρα) <i>ball</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 3:1\">Pesik. R. s. 3</cite>; <cite ref=\"Bamidbar Rabbah 14:4\">Num. R. s. 14</cite> <he>כהדא ס׳ וכ׳</he> like the ball with which girls play &c., v. <cite ref=\"K00118\"><he>כַּדּוּר</he></cite>."
+			]
+		}
+	]
+}

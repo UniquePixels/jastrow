@@ -1,0 +1,44 @@
+{
+	"id": "U00070",
+	"slug": "שבהר",
+	"headword": {
+		"text": "שַׁבְהַר"
+	},
+	"page": {
+		"number": 1510,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<i>Shafel</i> of <he>בהר</he>) <i>to brighten, glorify</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 149:4\">Targ. Ps. CXLIX, 4</cite> Ms. (ed. <he>ישבחו</he>, corr. acc.; h. text <he>יפאר</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּבְהַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be brightened</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 34:29\">Targ. Y. I Ex. XXXIV, 29</cite> (Y. II <he>שבחו</he>, ed. Ven. <he>שברו</he>, corr. acc.). ",
+						"<cite ref=\"Aramaic Targum to Job 26:13\">Targ. Job XXVI, 13</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to glory, boast</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 25:6\">Targ. Prov. XXV, 6</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 25:14\">Ib. 14</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 27:1\">Ib. XXVII, 1</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

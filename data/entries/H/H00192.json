@@ -1,0 +1,33 @@
+{
+	"id": "H00192",
+	"slug": "חדיא-2",
+	"headword": {
+		"text": "חַדְיָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חַדְיָיא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 426,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"H00525\"><he>חָזֶה</he></cite>, <i>breast, chest, bosom</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 29:26\">Targ. Ex. XXIX, 26</cite>, sq.; a. e.—",
+				"<cite ref=\"Aramaic Targum to Proverbs 24:33\">Targ. Prov. XXIV, 33</cite>.—בֵּי ח׳ <i>bosom</i>. ",
+				"<cite ref=\"Kiddushin 70b:2\">Kidd. 70ᵇ</cite> <he>מבי חַדְיֵה</he> out of his bosom. ",
+				"<cite ref=\"Shabbat 13a:10\">Sabb. 13ᵃ</cite> <he>אבי חֲדַיְיהוּ</he> on their bosoms.—<i>Pl.</i> (fem.) <cite ref=\"H00189\"><he>חַדְוָתָא</he></cite>, <cite ref=\"H00184\"><he>חֶדְוָותָא</he></cite>. ",
+				"<cite ref=\"Onkelos Leviticus 9:20\">Targ. Lev. IX, 20</cite>."
+			]
+		}
+	]
+}

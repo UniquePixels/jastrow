@@ -1,0 +1,23 @@
+{
+	"id": "C00101",
+	"slug": "גבירה",
+	"headword": {
+		"text": "גְּבִירָה"
+	},
+	"page": {
+		"number": 207,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"C00129\"><he>גבר</he></cite>)<i>mistress, lady</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 12b\">Sot. 12ᵇ</cite>; <cite ref=\"Shemot Rabbah 1:6\">Ex. R. s. 1</cite> <he>גְּבִירְתֵּנוּ</he> O our mistress! <cite ref=\"Taanit 21b:12\">Taan. 21ᵇ</cite> (of Palestine, opp. <cite ref=\"U01728\"><he>שפחה</he></cite> Babylonia). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:4:14\">Y. Ber. III, 6ᶜ</cite>; a. e.—Pl. <he>גְּבִירוֹת</he>. Ex. R. l. c.; Tanḥ. Sh’moth 3 <he>בני ג׳</he> the sons of the ladies (Leah and Rachel). V. <cite ref=\"C00137\"><he>גְּבֶרֶת</he></cite>."
+			]
+		}
+	]
+}

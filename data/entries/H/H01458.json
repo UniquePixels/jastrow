@@ -1,0 +1,33 @@
+{
+	"id": "H01458",
+	"slug": "חפן-1",
+	"headword": {
+		"text": "חָפַן"
+	},
+	"page": {
+		"number": 492,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to bend the fingers, form a hollow of the hand</i>, denom. <cite ref=\"H00426\"><he>חוֹפֶן</he></cite>; whence] <i>to take handfuls</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maaser Sheni 2:5\">Maas. Sh. II, 5</cite> <he>אם בלל וח׳ וכ׳</he> if he mixed the coins up and took by handfuls, you go by the proportion of the coins mixed. Y. ib. 53ᶜ <he>כבולל וחוֹפֵן</he> it is as in the case of him who &c.—Esp. (of the priest) <i>to take grabs of incense with both hands</i> (v. <cite ref=\"H01445\"><he>חֲפִינָה</he></cite>). ",
+				"<cite ref=\"Mishnah Yoma 5:1\">Yoma V, 1</cite>. ",
+				"<cite ref=\"Yoma 47a:1\">Ib. 47ᵃ</cite> <he>היה חוֹפֵן וכ׳</he> used to grab &c.; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְפַּן"],
+			"senses": [
+				{
+					"gloss": "<i>to be grabbed</i>. Y. Maas. Sh. l. c. <he>הנבללין והנֶחְפָּנִין</he> the coins which were mixed up and then collected by handfuls.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

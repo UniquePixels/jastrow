@@ -1,0 +1,39 @@
+{
+	"id": "U00026",
+	"slug": "שאילה-2",
+	"headword": {
+		"text": "שְׁאִילָה"
+	},
+	"page": {
+		"number": 1506,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00030\"><he>שָׁאַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (with <cite ref=\"U01251\"><he>שלום</he></cite>, or sub. <cite ref=\"U01251\"><he>שלום</he></cite>) <i>salutation, greeting</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:1:17\">Y. Ber. V, 9ᵃ</cite> <he>במלכי או״ה משיב שְׁאִילַת שלום</he> as regards gentile kings, you may answer the greeting (during prayer). ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:3:3\">Y. M. Kat. III, 82ᵃ</cite> bot. <he>איגרות של רשות זו ש׳ שלום</he> “letters of a secular character” (ib. III, 3), that means, social correspondence. ",
+				"<cite ref=\"Makkot 23b\">Macc. 23ᵇ</cite> (<he>בשם</he>) <he>וש׳ שלום</he> and using the name of the Lord in salutation. ",
+				"<cite ref=\"Shevuot 32a\">Shebu. 32ᵃ</cite>, a. fr. <he>כדי שאילת תלמיד לרב</he> as much time as is required for the disciple to salute the teacher <he>(שלום עליך רבי</he>); <he>כדי ש׳ הרב לתלמיד</he> as is required for the teacher to salute the pupil <he>(שלום עליך</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>borrowing</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 95b:6\">B. Mets. 95ᵇ</cite> <he>עד שיהו בעלים משעת ש׳ עד וכ׳</he> (the borrower is responsible,) unless the owner is present from the moment of lending the animal to that of the accident. ",
+				"<cite ref=\"Bava Metzia 95b:18\">Ib.</cite> <he>ש׳ בבעלים</he> borrowing an object together with employing its owner for service. ",
+				"<cite ref=\"Bava Metzia 98a:8\">Ib. 98ᵃ</cite>, sq. <he>שאילה</he> (interch. with <cite ref=\"U00033\"><he>שַׁאֲלָה</he></cite> or <cite ref=\"U00033\"><he>שְׁאֵלָה</he></cite>), v. <cite ref=\"U01156\"><he>שְׂכִירוּת</he></cite>; a. fr.—V. <cite ref=\"U00025\"><he>שְׁאֵילָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "U00901",
+	"slug": "שייכא",
+	"headword": {
+		"text": "שַׁיְיכָא"
+	},
+	"page": {
+		"number": 1561,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00900\">preced.</cite>) [<i>attachment</i>,] <i>knob in the wine cask</i> with a small orifice made for testing the flavor, or to prevent bursting, <i>bung</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 69b:11\">Ab. Zar. 69ᵇ</cite> (Ar. <cite ref=\"U00916\"><he>שיכא</he></cite>, Var. <cite ref=\"U00781\"><he>שֵׁיבָא</he></cite> fr. <cite ref=\"U00004\"><he>שְׁאֵב</he></cite>; Tosaf. l. c. <cite ref=\"U00780\"><he>שִׁיבָּא</he></cite> <i>chip, plug</i> with which the orifice is stopped)."
+			]
+		}
+	]
+}

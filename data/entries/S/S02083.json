@@ -1,0 +1,29 @@
+{
+	"id": "S02083",
+	"slug": "קריש",
+	"headword": {
+		"text": "קַרִישׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַרִישָׁא"
+		}
+	],
+	"page": {
+		"number": 1421,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S02200\"><he>קְרַשׁ</he></cite>) <i>congealed, hard, frozen</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 11:7\">Targ. Y. Num. XI, 7</cite> (not <he>קדיש</he>).—",
+				"<cite ref=\"Chullin 120a:11\">Ḥull. 120ᵃ</cite>, v. <cite ref=\"H00962\"><he>חָלָא</he> III</cite>.—Pl. <he>קַרִישִׁין</he>; <cite ref=\"S02083\"><he>קַרִישָׁן</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 38:30\">Targ. Job XXXVIII, 30</cite> (Ms. <cite ref=\"S02024\"><he>קְרִי׳</he></cite>)."
+			]
+		}
+	]
+}

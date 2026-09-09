@@ -1,0 +1,32 @@
+{
+	"id": "M00832",
+	"slug": "מחוק",
+	"headword": {
+		"text": "מְחוֹק"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָחָק"
+		}
+	],
+	"page": {
+		"number": 758,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>מָחַק</he> 2) <i>strike, an instrument for levelling a measure of grain</i> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 17:16\">Kel. XVII, 16</cite>; Tosef. ",
+				"<cite ref=\"Mishnah Kelim 17:16\">ib.</cite> ",
+				"<cite ref=\"Mishnah Bava Metzia 7:9\">B. Mets. VII, 9</cite> <he>המ׳ שיש וכ׳</he> the strike which has a (secret) receptacle for a piece of metal (to increase its pressure fraudulently); <cite ref=\"Kohelet Rabbah 9:13:1\">Koh. R. to IX, 13</cite> <he>המחק</he>. ",
+				"<cite ref=\"Bava Batra 89b:6\">B. Bath. 89ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Torah 618:1\">Yalk. Lev. 618</cite> <he>אין עושין המ׳ של דלעת וכ׳</he> the strike must not be made of gourd, because it is too light &c. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 618:1\">Ib.</cite> <he>אין עושין את המ׳ צדו וכ׳</he> (Yalk. l. c. <cite ref=\"R00100\"><he>צדה</he></cite> fem.) you must not make the strike thick on one side and thin on the other; a. e.—Pl. <he>מְחוֹקִים</he>. Y. Yoma I, 38ᶜ bot. ",
+				"<cite ref=\"Vayikra Rabbah 21:9\">Lev. R. s. 21</cite> <he>מְחוֹקיהֶן של כסף</he> the strikes sent with the measures were of silver."
+			]
+		}
+	]
+}

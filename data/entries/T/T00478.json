@@ -1,0 +1,29 @@
+{
+	"id": "T00478",
+	"slug": "רחבא",
+	"headword": {
+		"text": "רַחֲבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רַחֲבָה"
+		}
+	],
+	"page": {
+		"number": 1465,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (= <he>רב אחבא</he>) <i>Raḥăba</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Pesachim 13b:3\">Pes. 13ᵇ</cite>; <cite ref=\"Pesachim 52b:8\">52ᵇ</cite>; <cite ref=\"Sukkah 45a:1\">Succ. 45ᵃ</cite>. ",
+				"<cite ref=\"Beitzah 11b\">Bets. 11ᵇ</cite> (v. Rabb. D. S. a. l. note 1). ",
+				"<cite ref=\"Berakhot 18a:12\">Ber. 18ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

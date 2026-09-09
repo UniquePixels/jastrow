@@ -1,0 +1,37 @@
+{
+	"id": "H00207",
+	"slug": "חדק-3",
+	"headword": {
+		"text": "חֶדֶק"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶדֶק"
+		}
+	],
+	"page": {
+		"number": 426,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00206\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>thorn</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 101a:10\">Erub. 101ᵃ</cite> it is written about you (Jews) <he>טובם כח׳</he> (<cite ref=\"Micah 7:4\">Mic. VII, 4</cite>) the best among them is like a thorn."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>anything used for filling a gap, stop-gap</i>.—Pl. <he>חֲדָקִים</he>, <he>חֲדָקִין</he>, <he>הֲ׳</he>. Ib. <he>כשם שח׳ וכ׳</he> (Ms. O. <he>שה׳</he>) as the stop-gaps protect the breach &c.—Ib. X, 8 (101ᵃ) <he>וח׳ שבפרצה</he> (Bab. ed. <cite ref=\"H00262\"><he>חוֹדְקִים</he></cite>, Ms. M. <he>הדקין</he>, Var. <he>חרקין</he>, <he>חורקין</he>, v. Rabb. D. S. a. l. note) and the stop-gaps in a breach.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

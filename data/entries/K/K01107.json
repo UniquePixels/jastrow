@@ -1,0 +1,22 @@
+{
+	"id": "K01107",
+	"slug": "כרובתא",
+	"headword": {
+		"text": "כְּרוּבְתָּא"
+	},
+	"page": {
+		"number": 664,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>כְּרַב</he> I, cmp. <cite ref=\"K01087\"><he>כַּרְבַּלְתָּא</he></cite>) <i>wrap, blanket</i>.—Pl. <cite ref=\"K01107\"><he>כְּרוּבָתָא</he></cite>, constr. <cite ref=\"K01104\"><he>כְּרוּבָת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Zechariah 14:20\">Targ. Zech. XIV, 20</cite> (ed. Wil. <cite ref=\"K01122\"><he>כְּרוּכַת</he></cite>, ed. Lag. <he>כרורת</he>, Var. <he>בדורת</he>, <he>כרובת</he>; h. text <cite ref=\"M02318\"><he>מְצִלּוֹת</he></cite>)."
+			]
+		}
+	]
+}

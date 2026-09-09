@@ -1,0 +1,28 @@
+{
+	"id": "N00919",
+	"slug": "נסבא-2",
+	"headword": {
+		"text": "נִסְבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִסְבְּתָא"
+		}
+	],
+	"page": {
+		"number": 915,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00918\">preced.</cite>) <i>free-will offering</i>.—Pl. <he>נִסְבָאתָא</he>, <cite ref=\"N00919\"><he>נִסְבָתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 119:108\">Targ. Ps. CXIX, 108</cite> (ed. Wil. <he>נִכְסְ׳</he>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 12:17\">Targ. Y. Deut. XII, 17</cite> (ed. Amst. a. oth. <he>נסכ׳</he>, corr. acc.); v. <cite ref=\"N00930\"><he>נְסִיבָא</he></cite>."
+			]
+		}
+	]
+}

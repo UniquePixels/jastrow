@@ -1,0 +1,70 @@
+{
+	"id": "D00075",
+	"slug": "דבר-1",
+	"headword": {
+		"text": "דָּבַר"
+	},
+	"page": {
+		"number": 278,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to join, arrange, lead</i> (the flock); v. <cite ref=\"D00076\">next w.</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דִּבֵּר", "דִּיבֵּר"],
+			"senses": [
+				{
+					"gloss": " (b. h.) <i>to converse, speak</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 31b:23\">Ber. 31ᵇ</cite>, a. fr. <he>דִּבְּרָה תורה כלשון ב״א</he> the Torah speaks according to the language of men, i.e. uses metaphors and phrases adapted to human understanding. ",
+						"<cite ref=\"Sotah 12b:20\">Sot. 12ᵇ</cite> <he>שעתיד לְדַבֵּר וכ׳</he> destined to speak to Divinity. ",
+						"<cite ref=\"Mishnah Terumot 1:2\">Ter. I, 2</cite> <he>חרש שדִּבְּרוּ … מְדַבֵּר</he> wherever the scholars use the word <i>ḥērēsh</i>, they mean one who neither hears nor talks. Mekh. Bo 7, end, a. fr. <he>או אינו מְדַבֵּר אלא ב־</he> or does perhaps the text speak only of—? [<cite ref=\"M00240\"><he>מְדַבֵּר</he></cite> as a noun, v. s. v.]."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִדְבַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to hold communion, converse</i>. Mekh. Bo, introd. <he>לא נ׳ עמו וכ׳</he> the Lord did not hold communion with him outside the capital of Egypt. Ib. fr.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִדַּבֵּר"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"D00074\">same</cite>, esp. part. f. <he>מִדַּבֶּרֶת</he> <i>being on terms of intimacy with a man</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Ketubot 1:8\">Keth. I, 8</cite> <he>ראוה מד׳ עם אחד</he> (omit <he>בשוק</he>); expl. ",
+						"<cite ref=\"Ketubot 13a\">ib. 13ᵃ</cite>. ",
+						"<cite ref=\"Mishnah Ketubot 7:6\">Ib. VII, 6</cite> <he>מד׳ עם כל אדם</he> she is intimate with everybody. ",
+						"<cite ref=\"Mishnah Ketubot 7:6\">Ib.</cite> <he>לכשהיא מד׳ בתוך ביתה וכ׳</he> when her neighbors can hear her voice in moments of intimacy with her husband."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["הִדְבִּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to make submissive, persuade</i>, v. <cite ref=\"D00470\"><he>דִּיבּוּר</he></cite>. ",
+					"units": [
+						"<cite ref=\"Makkot 11a:2\">Macc. 11ᵃ</cite> <he>דִבֵּר לחוד יַדְבֵּר לחוד</he> the Piel <i>dibber</i> has one meaning (speaking harshly), and the Hif. <i>yadber</i> another."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

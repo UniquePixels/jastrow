@@ -1,0 +1,59 @@
+{
+	"id": "N00926",
+	"slug": "נסי-2",
+	"headword": {
+		"text": "נסי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נָסָה"
+		}
+	],
+	"page": {
+		"number": 916,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"N00925\">preced.</cite>) <i>to lift up</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִסָּה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00925\">same</cite>; 2) (denom. of <cite ref=\"N00913\"><he>נֵס</he></cite>) <i>to put up a sign; to ask for a test</i> (cmp. ",
+					"units": [
+						"<cite ref=\"Isaiah 7:11\">Is. VII, 11</cite>, sq.); <i>to try, test</i>. ",
+						"<cite ref=\"Bereishit Rabbah 55:6\">Gen. R. s. 55</cite>, beg. (interpret. <cite ref=\"N00914\"><he>נִסָּה</he></cite>, <cite ref=\"Genesis 22:1\">Gen. XXII, 1</cite>) <he>בשביל לנַסּוֹתָן … לגדלן וכ׳</he> in order to lift them up (as a standard) for the world, to raise them &c., v. <cite ref=\"N00913\"><he>נֵס</he></cite>. ",
+						"<cite ref=\"Genesis 22:1\">Ib.</cite> (ref. to Gen. l. c.) R. J. says <he>גדלו כנס וכ׳</he> he raised him &c.; R. A. says, <he>נ׳ אותן בוודאי</he> he really tried him, v. <cite ref=\"F00014\"><he>וַדַּאי</he></cite>. Ib. <he>אין הקב״ה מְנַסֶּה וכ׳</he> the Lord does not test the wicked, but only the righteous; ib. s. 32; s. 34. Mekh. B’shall., Vayassa, s. 1 (ref. to <cite ref=\"Exodus 15:25\">Ex. XV, 25</cite>) <he>גדולה</he>(<cite ref=\"L00000\"><he>ל</he></cite>) <he>שם נשא לו</he> there he raised him (Moses) to greatness; … <he>שם נסה המקום את ישראל</he> there God tested Israel. ",
+						"<cite ref=\"Exodus 15:25\">Ib.</cite> Yithro, Baḥod., s. 9 <he>לבעבור נַסּוֹת אתכם בשביל לגדל אתכם</he> (<cite ref=\"Exodus 20:28\">Ex. XX, 28</cite>) ‘to lift you up’, to raise you. ",
+						"<cite ref=\"Arakhin 15a:38\">Arakh. 15ᵃ</cite> <he>עשר נסיונות נִיסּוּ וכ׳</he> ten times did our ancestors try the Lord; <cite ref=\"Pirkei Avot 5:4\">Ab. V, 4</cite>; a. fr."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְנַסֶּה"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְנַסֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be tried</i>. Ib. 3. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 777:6\">Yalk. Ps. 777</cite> <he>הראשונים מִתְנַסִּים ביד הקב״ה … אבל האחרונים נִתְנַסּוּ וכ׳</he> the ancients were tried by the Lord …, but the latter generations were tried by the nations; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

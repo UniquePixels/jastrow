@@ -1,0 +1,27 @@
+{
+	"id": "Q01877",
+	"slug": "פרמשת",
+	"headword": {
+		"text": "פַּרְמַשְׁתְּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְמַשְׁתַּק"
+		}
+	],
+	"page": {
+		"number": 1230,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. <i>parmâstakh, contrectatus</i> or <i>extensus</i>, Fl. to Levy Talm. Dict. IV, 229ᵃ) <i>membrum virile</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 18a\">M. Kat. 18ᵃ</cite> <cite ref=\"Q01877\"><he>פַּרְמַשְׁתְּקוֹ</he></cite> (Ms. M. <he>פַּרְמַשְׁתּוֹ</he>); <cite ref=\"Yalkut Shimoni on Torah 182\">Yalk. Ex. 182</cite> <he>פרמשתו</he>; Yalk. Dan. 1062 <he>פרמשתקו</he>."
+			]
+		}
+	]
+}

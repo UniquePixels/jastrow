@@ -1,0 +1,30 @@
+{
+	"id": "O00833",
+	"slug": "סירה-2",
+	"headword": {
+		"text": "סִירָה",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סִירָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 987,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"G00420\"><he>זִירָה</he></cite>, a. <cite ref=\"O00218\"><he>סַהַר</he></cite> a. b. h. <cite ref=\"O00218\"><he>סֹהַר</he></cite>) <i>surrounded place, court, prison</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 6:11\">Cant. R. to VI, 11</cite> <he>מה אגוז … והס׳ באמצע וכ׳</he> as the nut has four store-houses (v. <cite ref=\"M00140\"><he>מְגוֹרָה</he></cite>) and a court (vacant space) in the centre &c. Sifra Emor, ch. II, Par. 3; <cite ref=\"Mishnah Bekhorot 6:2\">Bekh. VI, 2</cite> (expl. <he>תבלל</he>, <cite ref=\"Leviticus 21:20\">Lev. XXI, 20</cite>) <he>לבן הפוסק בס׳ וכ׳</he> the white of the eye breaking through the ring and entering the black; ib. 38ᵇ <he>הפוסק את הס׳</he>. ",
+				"<cite ref=\"Bereishit Rabbah 41\">Gen. R. s. 41</cite>, beg.; s. 52, end <he>אברהם חוץ לס׳ ואני נתונה בתוך הס׳</he> (Sarah says) Abraham is outside of the prison and I am placed within it (at Pharaoh’s court). Ib. s. 42 <he>נתנו אותו בס׳ וכ׳</he> they put him (Lot) into an enclosure and took him with them."
+			]
+		}
+	]
+}

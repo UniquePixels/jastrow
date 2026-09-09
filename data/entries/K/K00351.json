@@ -1,0 +1,34 @@
+{
+	"id": "K00351",
+	"slug": "כופרי-1",
+	"headword": {
+		"text": "כּוּפְרִי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוּפְרִית"
+		}
+	],
+	"page": {
+		"number": 624,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"K00344\"><he>כְּפָר</he></cite>) <i>belonging to the village, wild</i>.—כלב כ׳ <i>village dog, ferocious dog</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kilaim 5:8\">Tosef. Kil. V, 8</cite> <he>כלב כ׳ וכ׳</he> a <i>Kuf’ri</i> dog is a species of wild beasts (not a domestic animal). ",
+				"<cite ref=\"Mishnah Kilayim 1:6\">Kil. I, 6</cite> <he>כלב הכ׳ והשועל וכ׳</he> the wild dog and the jackal … are heterogeneous (<cite ref=\"K00674\"><he>כלאים</he></cite>). Y. ib. I, 27ᵃ bot. (not <he>כופרין</he>). ",
+				"<cite ref=\"Eichah Rabbah 1:30\">Lam. R. to I, 4</cite>; a. e.—<he>בצל כ׳</he> wild onion, opp. to <he>ב׳ בני המדינה</he> townsmen’s (garden) onion. ",
+				"<cite ref=\"Nedarim 26b\">Ned. 26ᵇ</cite>; <cite ref=\"Nedarim 66a:6\">66ᵃ</cite> <he>הכ׳ יפה וכ׳</he> (Ar. <he>הכּוּפְרִים יפין</he>) the wild onion is good for the heart (stomach); Tosef. ib. V, 1 <he>הכופרין יפה</he> (corr. acc.), opp. <he>בני בצלים</he> (Var. <cite ref=\"U00048\"><he>שאר</he></cite>) small onions.—Pl. <he>כּוּפְרִיִּים</he>, <cite ref=\"K00351\"><he>כּוּפְרִים</he></cite>, <cite ref=\"K00351\"><he>כּוּפְרִין</he></cite>. ",
+				"<cite ref=\"Mishnah Terumot 2:5\">Ter. II, 5</cite>, v. <cite ref=\"Q00226\"><he>פוליטיקין</he></cite>. ",
+				"<cite ref=\"Tosefta Bava Kamma 8:17\">Tosef. B. Kam. VIII, 17</cite>. ",
+				"<cite ref=\"Tosefta Avodah Zarah 2:3\">Tosef. Ab. Zar. II, 3</cite>. Tosef. Ned. l. c.; Ned. l. c., v. supra; a. e."
+			]
+		}
+	]
+}

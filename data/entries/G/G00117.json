@@ -1,0 +1,23 @@
+{
+	"id": "G00117",
+	"slug": "זובן",
+	"headword": {
+		"text": "זוּבָּן"
+	},
+	"page": {
+		"number": 383,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"G00561\"><he>זָנָב</he></cite>) <i>the bag which contains a male animal’s membrum</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 6:5\">Bekh. VI, 5</cite>; expl. ",
+				"<cite ref=\"Bekhorot 39b:13\">ib. 39ᵇ</cite> <he>כיס ולא וכ׳</he> the bag but not the organ itself; <cite ref=\"Tosefta Bekhorot 4:6\">Tosef. ib. IV, 6</cite>."
+			]
+		}
+	]
+}

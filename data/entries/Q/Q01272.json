@@ -1,0 +1,24 @@
+{
+	"id": "Q01272",
+	"slug": "פסיאית",
+	"headword": {
+		"text": "פְּסִיָּאִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּסִיאָיִית"
+		}
+	],
+	"page": {
+		"number": 1194,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " adv. (<he>פְּסֵי</he> I, cmp. <cite ref=\"Q00741\"><he>פִּיס</he></cite> <i>Pa.</i>) <i>in a persuasive manner</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 25:11\">Targ. Prov. XXV, 11</cite> (some ed. <he>פסי איית</he>, corr. acc.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"id": "K00039",
+	"slug": "כבויא",
+	"headword": {
+		"text": "כְּבוּיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 607,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00047\"><he>כבי</he></cite>, v. <cite ref=\"K00024\"><he>כַּבָּא</he></cite>) <i>heap, excrement</i>.—Pl. <cite ref=\"K00989\"><he>כְּבוּיֵי</he></cite> <cite ref=\"Eruvin 29b:13\">Erub. 29ᵇ</cite> bot. <he>כ׳ דרעיתא דניסן</he> (Ms. M. <he>כְּפוּיֵי דריעיא</he>) excrements of cattle cast in Nisan. V. <cite ref=\"K01004\"><he>כַּפּוּתָא</he></cite>.",
+			"units": []
+		}
+	]
+}

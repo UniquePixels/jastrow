@@ -1,0 +1,29 @@
+{
+	"id": "A02350",
+	"slug": "אסטגיות",
+	"headword": {
+		"text": "אִסְטַגְיוֹת"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְ׳"
+		}
+	],
+	"page": {
+		"number": 89,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>סגי</he>, <cite ref=\"O00243\"><he>סוג</he></cite>) <i>rims, mouldings</i> around a stove. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 8:9\">Kel. VIII, 9</cite>; cmp. <cite ref=\"L00330\"><he>לִזְבֵּז</he></cite>, <cite ref=\"U01711\"><he>שָׂפָה</he></cite>, <he>שָׂפִית</he>.—",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:9:9\">Y. Ab. Zar. II, 42ᵃ</cite> bot. <he>הן ספיות הן א׳</he> ed. Zyt. (oth. ed. <he>אסטיות</he>) <i>s’fiyoth</i> and <i>istagioth</i> are the same; cmp. R. S. to Kel. l. c. [<cite ref=\"Tosefta Kelim Kamma 6:17\">Tosef. Kel. B. Kam. VI, 17</cite>. <he>ליזבז … סטאנאות … ספיות</he> ed. Zuck. (Var. <cite ref=\"O01330\"><he>ספונאות</he></cite>, R. S. l. c. <he>סטייאות</he>), prob. corrupt. of <he>סְטַגְיָאוֹת</he>.]"
+			]
+		}
+	]
+}

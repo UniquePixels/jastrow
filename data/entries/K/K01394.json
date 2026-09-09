@@ -1,0 +1,69 @@
+{
+	"id": "K01394",
+	"slug": "כתת-2",
+	"headword": {
+		"text": "כְּתַת"
+	},
+	"page": {
+		"number": 690,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K01393\">same</cite><i>to join closely, be grouped</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 30:7\">Targ. Job XXX, 7</cite> <he>בתתין</he> Ms. Var., read: <he>כָּתְתִין</he> (ed. <he>מתחברין</he>, h. text <he>יְסֻפָּחוּ</he>).—Denom. <cite ref=\"K01338\"><he>כָּתָא</he></cite>, <cite ref=\"K01337\"><he>כִּתָּא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to strike</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּתֵּת"],
+			"senses": [
+				{
+					"gloss": "<i>to pound, crush</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 44a:7\">Ab. Zar. 44ᵃ</cite> <he>בדין הוא דכַתּוּתֵי לא וכ׳</he> by law it was necessary to grind it (the bronze serpent) to powder, v. <cite ref=\"K01393\">preced.</cite>"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to ally, form into factions</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 24:23\">Targ. Y. I Num. XXIV, 23</cite> (play on <cite ref=\"K00649\"><he>כִּתִּים</he></cite>, <cite ref=\"Targum Jonathan on Numbers 24:24\">ib. 24</cite>) <he>מְכַתֵּת וכ׳</he> causes nations … to form alliances and incites them against one another.—Part. pass. <he>מְכַתַּת</he>, v. infra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיכַּתֵּת"],
+			"senses": [
+				{
+					"gloss": "<i>to be powdered, crushed</i>. ",
+					"units": [
+						"<cite ref=\"Sukkah 31b:12\">Succ. 31ᵇ</cite> <he>כַּתּוּתֵי מִיכַּתַּת שיעוריה</he> the size which the Lulab must have, is (in the eyes of the law) crushed to powder (as an object of idolatry); <cite ref=\"Chullin 89b:1\">Ḥull. 89ᵇ</cite> <he>כתותי מִכַּתַּת שיעורא</he> (or <he>מְכַתַּת</he>. v. supra). ",
+						"<cite ref=\"Chullin 89b:1\">Ib.</cite> <he>כל מה דמכ׳ וכ׳</he> the more it is crushed to powder, the better it is fitted (for covering the blood). ",
+						"<cite ref=\"Yevamot 103b:12\">Yeb. 103ᵇ</cite> <he>כִּדְמִכַּתֵּת דמי</he> (or <he>כִּדְמְכַתַּת</he>) the house doomed to destruction (<cite ref=\"Leviticus 14:45\">Lev. XIV, 45</cite>) is to be considered as crushed to powder."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to come in contact</i> (hostile or friendly, cmp. <he>זווג</he>). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 78:11\">Gen. R. s. 78</cite> (ref. to <cite ref=\"Q00100\"><he>פגש</he></cite>, <cite ref=\"Genesis 33:8\">Gen. XXXIII, 8</cite>) <he>א״ל מִיכַּתֵּת אנא גביהון א״ל וכ׳</he> said he (Esau), I had a meeting with them. Said he (Jacob) they came to find grace &c. Said he, I have had enough blows; Yalk. ib. 133."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

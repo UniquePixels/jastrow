@@ -1,0 +1,41 @@
+{
+	"id": "S01253",
+	"slug": "קלד",
+	"headword": {
+		"text": "קְלַד"
+	},
+	"page": {
+		"number": 1372,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַקְלֵיד</he> (denom. of <cite ref=\"A02918\"><he>אַקֶלִידָא</he></cite>) <i>to lock up, insert the key</i>",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיקְּלִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to be inserted like a key; to be swallowed up, disappear</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 93b:10\">Ḥull. 93ᵇ</cite> <he>אִיקְּלוּדֵי מִיקְּלִיד</he> (or <he>אַקְלוּדֵי</he>; Ms. R. <he>אַקְלִידֵי</he>; Ms. R. 2 <he>קַלּוּדֵי מִקְּלַד</he>, or <he>מְקַלַּד</he>; v. Rabb. D. S. a. l. note 4) the sinew disappears in the flesh."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

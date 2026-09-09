@@ -1,0 +1,27 @@
+{
+	"id": "A00520",
+	"slug": "אוארא",
+	"headword": {
+		"text": "אַוָּארָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַוִּירָא"
+		}
+	],
+	"page": {
+		"number": 21,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A00841\"><he>אור</he></cite>; cmp. h. form <cite ref=\"R00151\"><he>צַוָּאר</he></cite>), only in <he>א׳ דליבני</he> <i>a pile of loose bricks with openings between</i>, opp. to solid wall. ",
+			"units": [
+				"<cite ref=\"Beitzah 31b\">Bets. 31ᵇ</cite>; <cite ref=\"Beitzah 36a:9\">36ᵃ</cite>; <cite ref=\"Eruvin 34b\">Erub. 34ᵇ</cite> Ms. Rashi (v. Rabb. D. S. a. l.; ed. <cite ref=\"A00520\"><he>אַוִּירָא</he></cite>, cmp. <cite ref=\"A00635\"><he>אָוֵירָא</he></cite>; Ar. <cite ref=\"A00011\"><he>אארא</he></cite>, derives fr. Pers.)."
+			]
+		}
+	]
+}

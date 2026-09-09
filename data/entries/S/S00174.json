@@ -1,0 +1,23 @@
+{
+	"id": "S00174",
+	"slug": "קדר-7",
+	"headword": {
+		"text": "קָדֵר"
+	},
+	"page": {
+		"number": 1318,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קָדֵר</he> I) <i>pot</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 41a:9\">Pes. 41ᵃ</cite> <he>צלי ק׳</he> roasted through the heat of the pot. ",
+				"<cite ref=\"Megillah 7b:4\">Meg. 7ᵇ</cite>, v. <cite ref=\"R00508\"><he>צָלִי</he></cite>; a. e.—Pl. <he>קְדֵרִים</he>, v. <cite ref=\"S00173\">preced.</cite>"
+			]
+		}
+	]
+}

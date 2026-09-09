@@ -1,0 +1,34 @@
+{
+	"id": "Q00506",
+	"slug": "פטטא",
+	"headword": {
+		"text": "פַּטָּטָא"
+	},
+	"page": {
+		"number": 1154,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>פטט</he> ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>to break</i>; ",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " cmp. <he>מלל</he>, <i>to talk</i>; v. <cite ref=\"Q00542\"><he>פִּטְפֵּט</he></cite>) <i>talkative, flippant</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 32:5\">Lev. R. s. 32</cite> (play on <he>שלמית</he>, <cite ref=\"Leviticus 24:11\">Lev. XXIV, 11</cite>) <he>דהוות פ׳ בשלמא שלם לך וכ׳</he> she was flippant (pert) in greeting men, ‘peace to thee, peace to you’; Yalk. ib. 657 <cite ref=\"Q00544\"><he>פַּטְפָּטָה</he></cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

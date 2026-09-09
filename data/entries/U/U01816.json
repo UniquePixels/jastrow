@@ -1,0 +1,23 @@
+{
+	"id": "U01816",
+	"slug": "שפתים",
+	"headword": {
+		"text": "שְׁפַתַּיִם"
+	},
+	"page": {
+		"number": 1620,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. du. (b. h.; <cite ref=\"U01812\"><he>שָׁפַת</he></cite>, cmp. <cite ref=\"A03342\"><he>אַשְׁפֹּת</he></cite>) <i>border-mounds</i> (between which is the balk). ",
+			"units": [
+				"<cite ref=\"Sotah 11b:5\">Sot. 11ᵇ</cite> <he>ונזקקות להן בין ש׳</he> and they had intercourse with them between the mounds in the field; <cite ref=\"Shemot Rabbah 1:12\">Ex. R. s. 1</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 574:1\">Yalk. Zech. 574</cite> (ref. to <cite ref=\"Psalms 68:14\">Ps. LXVIII, 14</cite>) <he>תשכבון בין ש׳ יהודה ועבר הירדן</he> you shall lie (in peace) between the borders: Judah and the shore of the Jordan."
+			]
+		}
+	]
+}

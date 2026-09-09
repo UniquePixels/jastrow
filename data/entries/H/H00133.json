@@ -1,0 +1,35 @@
+{
+	"id": "H00133",
+	"slug": "חג-2",
+	"headword": {
+		"text": "חָג",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 423,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>חגג</he>; cmp. <cite ref=\"M00557\"><he>מוֹעֵד</he></cite>, <cite ref=\"A01151\"><he>אֵיד</he></cite>)<i>anniversary, festival</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 29:6\">Lev. R. s. 29</cite>; Pesik. Baḥod. p. 153ᵃ <he>ויש לו חג וחַגּוֹ בן יומו</he> a New-Moon of a month in which there is a festival and whose festival coincides with the New-Moon, v. <cite ref=\"K00915\"><he>כָּסָה</he> I</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:6:3\">Y. Taan. IV, 69ᵇ</cite> bot., v. <cite ref=\"D01057\"><he>דְּרוֹמָאָה</he></cite>. ",
+				"<cite ref=\"Sotah 36b:12\">Sot. 36ᵇ</cite> <he>יום חַגָּם</he> their (the Egyptians’) festive day; a. fr.—Esp. <i>ḥag</i> (<i>festive period</i>), <i>the Feast of Booths with its Eighth Day of Convocation</i> <he>(שמיני עצרת</he>). ",
+				"<cite ref=\"Mishnah Sukkah 4:2\">Succ. IV, 2</cite> <he>י״ט הראשון של חג</he> the first Holy Day of the <i>ḥag</i>; <cite ref=\"Mishnah Sukkah 4:5\">ib. 5</cite> <he>י״ט האחרון וכ׳</he> the last &c. (the eighth day); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pilgrim’s festive offering</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 10b:6\">Ḥag. 10ᵇ</cite>, v. <cite ref=\"H00134\">next w.</cite>, a. <cite ref=\"H00148\"><he>חֲגִיגָה</he></cite>.—Pl. <cite ref=\"H00152\"><he>חַגִּים</he></cite>, constr. <cite ref=\"H00147\"><he>חַגֵּי</he></cite>. ",
+				"<cite ref=\"Berakhot 33b:17\">Ber. 33ᵇ</cite> <he>ח׳ נדבה</he> periods of free-will offerings."
+			],
+			"label": "2"
+		}
+	]
+}

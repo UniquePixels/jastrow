@@ -1,0 +1,23 @@
+{
+	"id": "P01263",
+	"slug": "ערבה-2",
+	"headword": {
+		"text": "עֲרָבָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1112,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"P01242\"><he>עָרַב</he> I)</cite> [<i>confusion</i>,] <i>deserts</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 20:2\">Sifré Deut. 20</cite> <he>אם כשהייתם בארץ ע׳ ושוחה וכ׳</he> you wanted no spies when you were in the land of deserts and pits, and now that you enter a good and open land …, you ask for spies?"
+			]
+		}
+	]
+}

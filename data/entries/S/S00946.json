@@ -1,0 +1,34 @@
+{
+	"id": "S00946",
+	"slug": "קייץ-3",
+	"headword": {
+		"text": "קַיָּיץ"
+	},
+	"page": {
+		"number": 1359,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"S01116\"><he>קַיִץ</he></cite>; v. <cite ref=\"S00927\"><he>קַיָּיט</he></cite>) <i>attendant of summer fruits, watchman, fruit-picker</i> &c. ",
+			"units": [
+				"<cite ref=\"Kiddushin 82b:4\">Kidd. 82ᵇ</cite> <he>מימי</he> … <he>צבי ק׳ וכ׳</he> I have never seen a deer engaged in gathering fruits, a lion carrying loads &c.; Y. ib. IV, end, 66ᵈ <he>ארי ק׳</he> (corr. acc.); <cite ref=\"Tosefta Kiddushin 5:15\">Tosef. ib. V, 15</cite> Var. ed. Zuck.—Pl. <he>קַיָּיצִים</he>, <he>קַיָּיצִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:6:3\">Y. Ber. IV, end, 8ᶜ</cite> <he>ברועים ובק׳</he> in the case of shepherds and field-watchers (who are separated from communities assembling for prayer). ",
+				"<cite ref=\"Mishnah Kelim 24:15\">Kel. XXIV, 15</cite> <he>של ק׳</he> leggings (or gloves) of fruit-pickers (v. <cite ref=\"Q02006\"><he>פְּרַקְלִימִין</he></cite>); <cite ref=\"Tosefta Keilim Batra 2:11\">Tosef. Kel. B. Bath. II, 11</cite> <he>קיוצין</he> (corr. acc.). ",
+				"<cite ref=\"Mishnah Kelim 26:3\">Kel. XXVI, 3</cite>. ",
+				"<cite ref=\"Mishnah Mikvaot 9:7\">Mikv. IX, 7</cite> <he>מטפחת … של ק׳</he> the apron … of the fruit-pickers.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"S00534\"><he>קוֹץ</he></cite>) <i>thorn-picker</i>.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 24:15\">Kel. XXIV, 15</cite>; <cite ref=\"Mishnah Kelim 26:3\">XXVI, 3</cite>; Mikv. l. c. (according to R. S.).]"
+			],
+			"label": "2"
+		}
+	]
+}

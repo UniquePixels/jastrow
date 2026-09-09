@@ -1,0 +1,30 @@
+{
+	"id": "A02640",
+	"slug": "אפוקי-1",
+	"headword": {
+		"text": "אֲפוּקֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פּוּקֵי"
+		}
+	],
+	"page": {
+		"number": 101,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>נפק</he>, <cite ref=\"Q00314\"><he>פוק</he></cite>) <i>exit, end</i> (= h. <he>מוצאי</he>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 4:1:7\">Y. Pes. IV, 30ᵈ</cite> top <he>בא׳ שובת׳</he> on Sabbath night. ",
+				"<cite ref=\"Pesachim 105b:3\">Pes. 105ᵇ</cite> <he>א׳ יומא</he> dismissal of the festive day with benediction; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Peah 7:3:13\">Y. Peah VII, 20ᵇ</cite>, top <he>אפיקי</he> (corr. acc.) a. <he>פוקי</he>.—[<he>לאפוקי</he>, v. <cite ref=\"A02775\"><he>אַפֵּק</he></cite>.]"
+			]
+		}
+	]
+}

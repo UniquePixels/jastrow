@@ -1,0 +1,42 @@
+{
+	"id": "A02444",
+	"slug": "אסיפה",
+	"headword": {
+		"text": "אֲסִיפָה"
+	},
+	"page": {
+		"number": 93,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>אֲסֵפָה</he>; <he>אסף</he>)<i>gathering, assembly</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 1:6:2\">Y. Taan. I, 64ᶜ</cite> top <he>אֲסִיפַת עם</he> public meeting for fasting ceremonies. ",
+				"<cite ref=\"Bereishit Rabbah 98:2\">Gen. R. s. 98</cite> ye shall be <he>א׳ אחת</he> one (unanimous) assembly."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = <cite ref=\"A02442\"><he>אָסִיף</he></cite>. ",
+			"units": [
+				"<cite ref=\"Chagigah 18a:3\">Ḥag. 18ᵃ</cite> <he>חג הבא בזמן א׳</he> the festival that falls in the harvest season. ",
+				"<cite ref=\"Chagigah 18a:3\">Ib.</cite> <he>א׳ ביו״ט מי שרי</he> Ms. M. (ed. less correct <cite ref=\"M01472\"><he>מלאכה</he></cite>) is harvesting permitted &c.?, a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (ref. to <cite ref=\"Numbers 11:22\">Num. XI, 22</cite>) <i>the mere taking into the house for consumption</i>, without the ritual slaughtering (<cite ref=\"U00645\"><he>שחיטה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Chullin 27b:9\">Ḥull. 27ᵇ</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 19:3\">Num. R. s. 19</cite>.—4) <i>being gathered in, death, use of the verb</i> <he>אסף</he> <i>with reference to death</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 19:3\">Ib.</cite> <he>אֲסִיפַת אהרן</he> the death of Aaron (<cite ref=\"Numbers 20:24\">Num. XX, 24</cite>). ",
+				"<cite ref=\"Bava Batra 16b:15\">B. Bath. 16ᵇ</cite> <he>גויעה וא׳</he> the use of <cite ref=\"C00454\"><he>גוע</he></cite> a. <he>אסף</he>."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "D00965",
+	"slug": "דפן-2",
+	"headword": {
+		"text": "דְּפַן"
+	},
+	"page": {
+		"number": 317,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"D00964\"><he>דַּפֵּן</he></cite> ch. same. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 107b:14\">B. Mets. 107ᵇ</cite> <he>דַּפְּנוּהוּ</he> they prosecuted him."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

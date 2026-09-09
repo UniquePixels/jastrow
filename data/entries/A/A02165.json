@@ -1,0 +1,45 @@
+{
+	"id": "A02165",
+	"slug": "אנטוכיא",
+	"headword": {
+		"text": "אַנְטוּכְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַנְטוּכְיָה"
+		},
+		{
+			"text": "אַנְטוּכִיאָה"
+		},
+		{
+			"text": "אַנְטְיוֹכִיאָה"
+		}
+	],
+	"page": {
+		"number": 83,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. (Ἀντιόχεια) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>Antioch</i>, surnamed Epidaphnes, the capital of Syria founded by Seleucus Nicator, situated on the Orontes. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 13:21\">Targ. Y. Num. XIII, 21</cite>; a. e. (Hamath in Bible).—",
+				"<cite ref=\"Ketubot 67a:9\">Keth. 67ᵃ</cite>. ",
+				"<cite ref=\"Gittin 44b:5\">Gitt. 44ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:2:7\">Y. Shek. VI, 50ᵃ</cite> bot. <he>דפני של א׳</he> Daphne near Ant.; <cite ref=\"Vayikra Rabbah 19:1\">Lev. R. s. 19</cite> <he>כייא …</he>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the country</i> or <i>district of Ant</i>. <i>, Antiochene</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:16\">Y. Dem. II, 22ᵈ</cite> top; Y. Nidd. III, 48ᵃ bot.; a. e.; v. <cite ref=\"H00366\"><he>חוֹלַת</he></cite>, <cite ref=\"H00367\"><he>חוּלְתָּא</he></cite> a. <cite ref=\"H01240\"><he>חֲמַת</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

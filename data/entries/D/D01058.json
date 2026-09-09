@@ -1,0 +1,23 @@
+{
+	"id": "D01058",
+	"slug": "דרומוס",
+	"headword": {
+		"text": "דְּרוֹמוֹס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 322,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (δρόμος) <i>the runner’s race in the stadium; course;</i> in gen. <i>contest</i> at public games. ",
+			"units": [
+				"<cite ref=\"Kiddushin 63a\">Kidd. 63ᵃ</cite> act before me <he>כד׳ הזה</he> Ar. (ed. <cite ref=\"D00617\"><he>דִּימוֹס</he></cite>) as is done in that certain <i>dromos</i>"
+			]
+		}
+	]
+}

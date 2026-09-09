@@ -1,0 +1,33 @@
+{
+	"id": "Q00993",
+	"slug": "פלחא-1",
+	"headword": {
+		"text": "פִּלְחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּי׳"
+		}
+	],
+	"page": {
+		"number": 1178,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00992\">same</cite><i>millstone</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 41:16\">Targ. Job XLI, 16</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:8:4\">Y. M. Kat. I, 80ᵈ</cite> bot. <he>אית לן פ׳ דמועדא</he> have we a special millstone for the festive week (dare we grind during the festive week)?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>slice, portion</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 1:4:7\">Y. Taan. I, 64ᶜ</cite> top <he>דלא הוה גביי אלא פִלְחִי וכ׳</he> I had with me only my own portion (luncheon); why should I have spoken to you (invited you to eat) with insincerity? <cite ref=\"Vayikra Rabbah 12\">Lev. R. s. 12</cite> (vers. in Ar.) <he>אם שתי פִּלְחֵיה חמר</he> when he drinks his regular portion of wine; <he>יתר מן פלחיה</he> more than his wonted quantity."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"id": "I00142",
+	"slug": "טוח-3",
+	"headword": {
+		"text": "טוּחַ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 522,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"I00263\"><he>טחי</he></cite>) <i>to press, squeeze</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 109b:11\">Ḥull. 109ᵇ</cite> <he>טָחוֹ בכותל</he> presses it against the wall (to make the milk flow out).—<i>Part. pass.</i> <cite ref=\"I00141\"><he>טוּחַ</he></cite> <i>squeezed in</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 10:8\">Num. R. s. 10</cite> (ref. to <cite ref=\"Job 38:36\">Job XXXVIII, 36</cite>) <he>אלו הכליות שהן טוּחוֹת וכ׳</he> that means the kidneys which are wedged into the body."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵטִיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to press, squeeze, knock against</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 34b:28\">Ber. 34ᵇ</cite> <he>אלמלי ה׳ וכ׳</he> (Ms. M. <cite ref=\"N00340\"><he>הניח</he></cite>, v. Rabb. D. S. a. l. note) if Ben. Z. (myself) had squeezed his head between his (the son’s) knees (praying for his recovery). ",
+						"<cite ref=\"Bereishit Rabbah 20:4\">Gen. R. s. 20</cite> <he>התחיל מֵטִיחַ וכ׳</he> he knocked his head against the wall; <cite ref=\"Yalkut Shimoni on Torah 30:2\">Yalk. ib. 30</cite> <he>להָטִיחַ</he>. Ohol. XVII, 2 <he>ה׳ בסלע</he> struck (with the plough) against a rock. ",
+						"<cite ref=\"Bava Kamma 28b\">B. Kam. 28ᵇ</cite> <he>ה׳ צלוחיתו וכ׳</he> he struck (with) his bottle against the stone; Y. ib. III, 3ᶜ top, v. <cite ref=\"E00315\"><he>הֲטָחָה</he></cite>.—Tanḥ. P’kudé 11 <he>כיון שהֵטִיחוּ פניהם וכ׳</he> when they had squeezed their faces from all sides (had in vain tried in all directions)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to press the bow-string, to shoot;</i> (euphem.) <i>to emit semen virile</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 54a\">Yeb. 54ᵃ</cite>. ",
+						"<cite ref=\"Sanhedrin 46a\">Snh. 46ᵃ</cite> <he>ה׳ באשתו</he> Ms. M. (ed. <he>את אשתו</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

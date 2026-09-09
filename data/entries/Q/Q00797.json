@@ -1,0 +1,32 @@
+{
+	"id": "Q00797",
+	"slug": "פיקא-2",
+	"headword": {
+		"text": "פִּיקָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיקָה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1169,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00314\"><he>פוק</he></cite>) = b. h. <cite ref=\"Q00318\"><he>פּוּקָה</he></cite>, <i>gliding, sinking</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 147b:14\">Sabb. 147ᵇ</cite> <he>משום פ׳</he> on account of sinking in the clay-soil (<cite ref=\"Q00678\"><he>פִּילוֹמָא</he></cite>, which makes walking a labor; Rashi: he might stain his garments when sinking in the muddy soil, and then wring them out).—",
+				"<cite ref=\"Tosefta Shabbat 7:21\">Tosef. ib. VII</cite> (<cite ref=\"Tosefta Shabbat 8:21\">VIII</cite>), 21 <he>מבעיתין לעוית ולפ׳ וכ׳</he> (Var. <he>ולפוקה</he>) you may shock a person in convulsions, or in an attack of vertigo, and it is not forbidden as a superstitious practice, v. <cite ref=\"A02007\"><he>אֱמוֹרִי</he></cite>.—",
+				"<cite ref=\"Yalkut Shimoni on Nach 1054:12\">Yalk. Esth. 1054</cite> <he>מכניסין פ׳ בממונו וכ׳</he> they (the Jews) cause a sinking (decline) in the wealth of the world (<cite ref=\"Esther Rabbah 7:12\">Esth. R. to III, 8</cite> <cite ref=\"Q00488\"><he>פַּחַת</he></cite>).—",
+				"<cite ref=\"Sanhedrin 111b:5\">Snh. 111ᵇ</cite> (ref. to <he>פקו</he>, <cite ref=\"Isaiah 28:7\">Is. XXVIII, 7</cite>) <he>אין פוקה אלא גהינם</he> (Ms. K. <he>פקו</he>) ‘sinking’ means going to Gehenna."
+			]
+		}
+	]
+}

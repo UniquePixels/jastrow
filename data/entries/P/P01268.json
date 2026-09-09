@@ -1,0 +1,37 @@
+{
+	"id": "P01268",
+	"slug": "ערבוב-2",
+	"headword": {
+		"text": "עִרְבּוּב",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עִרְבּוּבָא"
+		},
+		{
+			"text": "עִי׳"
+		},
+		{
+			"text": "עַרְ"
+		}
+	],
+	"page": {
+		"number": 1112,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P01267\">same</cite>, <i>mixture, motley crowd; confusion</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 8:17\">Targ. Y. Ex. VIII, 17</cite>, sq. <he>ע׳ חיות ברא</he> (h. text <cite ref=\"P01307\"><he>עָרֹב</he></cite>).—",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 7:23\">Targ. Y. Deut. VII, 23</cite>; <cite ref=\"Targum Jonathan on Deuteronomy 28:20\">XXVIII, 20</cite> (h. text <cite ref=\"M00355\"><he>מהומה</he></cite>).—Pl. <he>עִרְבּוּבִין</he>, <cite ref=\"P00072\"><he>עִי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 78:45\">Targ. Ps. LXXVIII, 45</cite> <he>עִרְבּוּבֵי חיות ברא</he>, v. supra. ",
+				"<cite ref=\"Aramaic Targum to Psalms 105:31\">Ib. CV, 31</cite> (some ed. <cite ref=\"P00676\"><he>עירבויין</he></cite>, corr. acc.).—",
+				"<cite ref=\"Targum Jonathan on Exodus 12:20\">Targ. Y. Ex. XII, 20</cite> (v. ",
+				"<cite ref=\"Pesachim 43a\">Pes. 43ᵃ</cite>).—Targ. Y. II ib. 38 (h. text <he>ערב רב</he>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 19:19\">Targ. Y. Lev. XIX, 19</cite>."
+			]
+		}
+	]
+}

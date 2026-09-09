@@ -1,0 +1,35 @@
+{
+	"id": "A03026",
+	"slug": "ארוך",
+	"headword": {
+		"text": "אָרוּךְ"
+	},
+	"page": {
+		"number": 116,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A03124\"><he>ארך</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>long, tall, lasting;</i> v. infra.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <he>עָרוּךְ</he>; cmp. <cite ref=\"A03095\"><he>אֲרִיךְ</he></cite>) <i>well-arranged, well-balanced, thinker</i>, a title of prominent scholars; cmp. <cite ref=\"A03089\"><he>אַרְיוֹךְ</he></cite> a. <cite ref=\"A03101\"><he>אֲרִיכָא</he></cite>. [In legend intellectual eminence was identified with physical tallness.] <cite ref=\"Niddah 24b:68\">Nidd. 24ᵇ</cite> <he>א׳ בדורו</he> <i>arukh</i> (the tallest) in his generation. ",
+			"units": [
+				"<cite ref=\"Kiddushin 39b:8\">Kidd. 39ᵇ</cite> <he>עולם שכולו א׳</he> the world in which all is well-balanced (also called <he>שכולו טוב</he>) i.e. <i>the hereafter.—Pl</i>. <he>אֲרוּכִים</he>. ",
+				"<cite ref=\"Yoma 71a:17\">Yoma 71ᵃ</cite> <he>חיים א׳</he> long life; a. fr.—Fem. <cite ref=\"A03028\"><he>אֲרוּכָה</he></cite>. ",
+				"<cite ref=\"Mishnah Berakhot 1:4\">Ber. I, 4</cite> <he>אחת א׳</he> one lengthy (benediction); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Horayot 2:5:3\">Y. Hor. II, 46ᵈ</cite> <he>בא׳</he> by the long road, slowly; <cite ref=\"Shevuot 18a\">Shebu. 18ᵃ</cite>; <cite ref=\"Shevuot 18b\">18ᵇ</cite>.—Pl. <he>אֲרוּכוֹת</he>. Y. Ber. II, 5ᶜ top, a. e. <he>א׳ וקצרות</he> long and short roads, i.e. <i>in all directions</i>. V. <cite ref=\"A03027\">next art.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

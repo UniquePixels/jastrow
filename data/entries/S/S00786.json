@@ -1,0 +1,26 @@
+{
+	"id": "S00786",
+	"slug": "קטם-2",
+	"headword": {
+		"text": "קְטַם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1349,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"S00785\">same</cite>, <i>to break off, pluck</i>.—Part. pass. <he>קְטִים</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 8:11\">Targ. Y. Gen. VIII, 11</cite> Ar. (ed. <cite ref=\"L00688\"><he>לקיט</he></cite>; h. text <cite ref=\"I00860\"><he>טרף</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to crumble, crush</i>.—Denom. <cite ref=\"S00789\"><he>קְטַם</he> III</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

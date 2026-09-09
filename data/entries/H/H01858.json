@@ -1,0 +1,48 @@
+{
+	"id": "H01858",
+	"slug": "חשל-3",
+	"headword": {
+		"text": "חֲשַׁל"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲשִׁיל"
+		}
+	],
+	"page": {
+		"number": 511,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01857\">same</cite><i>to furbish, forge, hammer</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 2:40\">Dan. II, 40</cite>.—",
+				"<cite ref=\"Avodah Zarah 16a:3\">Ab. Zar. 16ᵃ</cite> <he>דחַשְׁלֵי מינייהו וכ׳</he> Ms. M., v. <cite ref=\"H01124\"><he>חֲלַשׁ</he></cite>.—Trnsf. <i>to plan, design</i> (corresp. to b. h. <cite ref=\"H01777\"><he>חרש</he></cite> a. <he>חשב</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 36:5\">Targ. Ps. XXXVI, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 14:22\">Targ. Prov. XIV, 22</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to peel, pound grits</i>, v. <cite ref=\"H00492\"><he>חוּשְׁלָא</he></cite>.—V. <cite ref=\"H01841\"><he>חֲשִׁילָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַשֵּׁיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01857\">same</cite>, esp. <i>to plan</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 21:12\">Targ. Ps. XXI, 12</cite>, a. fr. Ms. (ed. <i>Pe.</i>). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 1:12\">Targ. Y. Deut. I, 12</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

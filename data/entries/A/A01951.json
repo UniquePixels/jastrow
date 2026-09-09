@@ -1,0 +1,32 @@
+{
+	"id": "A01951",
+	"slug": "אלקפטא",
+	"headword": {
+		"text": "אַלְקַפְטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְקַפְטָא"
+		},
+		{
+			"text": "אַרְקַבְטָא"
+		}
+	],
+	"page": {
+		"number": 73,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἀργαπέτης, <he>ארגבטא</he>, Palm. inscript., Zeitschr. der Deutsch. Morgenl. Ges. XVIII, 89—90; Syr. <he>ארזבד</he>, Pers. arzabedes; v. Perl. Et. St. p. 105) <i>Arkafta</i>, a high dignitary in Persia. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 41:44\">Targ. Y. Gen. XLI, 44</cite> (ed. Vienna <he>אַלְקַפֶּטַע</he>); a. e.—",
+				"<cite ref=\"Shevuot 6b:11\">Shebu. 6ᵇ</cite> <he>אלקפ׳</he>. Y. ib. I, 32ᵈ bot. <he>ארקב׳</he>. Y. Ber. II, 5ᵃ top Ar. (ed. <he>בסא …</he>, corr. acc.).—",
+				"<cite ref=\"Zevachim 96b:2\">Zeb. 96ᵇ</cite> (prov.) <he>ארקפת׳ נקטן ביד ריח׳ אתי ליה ליד</he> Ms. M. (ed. <he>אלקפתא נקטן ריחא …</he>) the Ark. took <i>us</i> by the hand, and the scent came into the hand (undue pride of accidental acquaintances."
+			]
+		}
+	]
+}

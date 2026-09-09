@@ -1,0 +1,29 @@
+{
+	"id": "V01114",
+	"slug": "תתאה",
+	"headword": {
+		"text": "תַּתָּאָה"
+	},
+	"page": {
+		"number": 1705,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V01113\">preced.</cite>) <i>lower, nethermost</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 76a:7\">Pes. 76ᵃ</cite>, v. <cite ref=\"C00129\"><he>גְּבַר</he> I</cite>. ",
+				"<cite ref=\"Chullin 112a:10\">Ḥull. 112ᵃ</cite>, v. <cite ref=\"M00995\"><he>מְטֵי</he></cite>. ",
+				"<cite ref=\"Shabbat 102b:5\">Sabb. 102ᵇ</cite> Ms. M. (ed. <he>תתא</he>), v. <cite ref=\"R00084\"><he>צְדַד</he></cite>; a. e.—<i>Pl.</i> <he>תַּתָּאִין</he>, <cite ref=\"V01115\"><he>תַּתָּאֵי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 6:16\">Targ. Y. Gen. VI, 16</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 6:18\">Targ. II Chr. VI, 18</cite>; a. e.—",
+				"<cite ref=\"Bava Metzia 108a\">B. Mets. 108ᵃ</cite>, v. <cite ref=\"P00569\"><he>עִילָאָה</he></cite>. ",
+				"<cite ref=\"Pesachim 8a\">Pes. 8ᵃ</cite>; a. fr.—<i>Fem.</i> <he>תַּתַּיְתָא</he>; pl. <he>תַּתְּיָיתָא</he>. ",
+				"<cite ref=\"Pesachim 8b\">Ib.ᵇ</cite> <he>למעוטי ת׳ דת׳</he> Ms. M. (ed. <he>תתאי דת׳</he>) to exclude the nethermost casks of the lower rows."
+			]
+		}
+	]
+}

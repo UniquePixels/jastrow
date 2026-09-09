@@ -1,0 +1,38 @@
+{
+	"id": "R00352",
+	"slug": "ציל-1",
+	"headword": {
+		"text": "צִיל"
+	},
+	"page": {
+		"number": 1276,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"R00520\"><he>צְלַל</he></cite>) <i>to be clear</i>. Part. <he>צָיֵיל</he>, <cite ref=\"R00352\"><he>צִיל</he></cite>, <he>צָאֵיל</he>. ",
+			"units": [
+				"<cite ref=\"Shabbat 66b:14\">Sabb. 66ᵇ</cite> <he>כי היכי דציל הא מישחא לֵיצִיל וכ׳</he> as this oil is clear, so may the wine of—be clear (that our minds may not be affected by the wine); <cite ref=\"Shabbat 66b:14\">ib.</cite> <he>כי היכי דצִילָא האי שיעתא ליציל וכ׳</he> Ms. M. (ed. <he>דליציל האי שיעא</he> read: <he>דציל</he>; Ms. O. <he>דצאיל</he>) as this sealing clay is bright, so may the wine &c. ",
+				"<cite ref=\"Shabbat 75a\">Ib. 75ᵃ</cite>, v. <cite ref=\"R00057\"><he>צֶבַע</he></cite> ch. ",
+				"<cite ref=\"Eruvin 64a:7\">Erub. 64ᵃ</cite> <he>לא צילא דעתאי</he> Ms. M. (ed. <he>צִילָאִי</he>; Yalk. Noah Ms. <he>צָאִילְנָא</he>; v. Rabb. D. S. a. l. note 70) my mind is not clear (I am not clear in my mind). ",
+				"<cite ref=\"Pesachim 110b:6\">Pes. 110ᵇ</cite> <he>הוה צייל וכ׳</he> he remained clear in his mind, and was on his guard. ",
+				"<cite ref=\"Shabbat 23a:4\">Sabb. 23ᵃ</cite> <he>ציל נהוריה טפי</he> Ms. M. (ed. <cite ref=\"R00518\"><he>צליל</he></cite>) its light is brighter. ",
+				"<cite ref=\"Chullin 55b:5\">Ḥull. 55ᵇ</cite> <he>דצִילֵי</he> when the fluid in the ulcers is clear, opp. <he>עכירי</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְצִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to become clear</i> (<i>in mind</i>), <i>be rational</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 70b:4\">Gitt. 70ᵇ</cite> <he>לכי מִתְצִיל לא וכ׳</he> when he is rational again, he need not retract what he said when delirious."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

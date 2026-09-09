@@ -1,0 +1,23 @@
+{
+	"id": "M01655",
+	"slug": "ממותא",
+	"headword": {
+		"text": "מְמוֹתָא"
+	},
+	"page": {
+		"number": 794,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00691\"><he>מוּת</he></cite>) <i>pestilence, death</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 78:50\">Targ. Ps. LXXVIII, 50</cite> (Var. <cite ref=\"M00701\"><he>מוֹתָנָא</he></cite>).—Constr. <cite ref=\"M01689\"><he>מְמַת</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 16:4\">Targ. Jer. XVI, 4</cite>; a. e."
+			]
+		}
+	]
+}

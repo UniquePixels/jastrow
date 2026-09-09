@@ -1,0 +1,33 @@
+{
+	"id": "A01316",
+	"slug": "אילתא",
+	"headword": {
+		"text": "אַיַּלְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַיַּילְתָּא"
+		},
+		{
+			"text": "אֲיַלְתָּא"
+		}
+	],
+	"page": {
+		"number": 50,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(h. <cite ref=\"A01272\"><he>אַיָּלָה</he></cite>)<i>hind, roe</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 14:5\">Targ. Jer. XIV, 5</cite>; a. e. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:9\">Cant. R. to II, 9</cite>; a. e.—<he>א׳ דשחרא</he> (v. <cite ref=\"A01272\"><he>אַיָּלָה</he></cite>) <i>morning dawn</i>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:21\">Y. Ber. I, 2ᶜ</cite>; a. e.—Pl. <cite ref=\"A01316\"><he>אַיָּילָתָא</he></cite>, <he>אַיָּילָאתָא</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 29:9\">Targ. Ps. XXIX, 9</cite>; a. e."
+			]
+		}
+	]
+}

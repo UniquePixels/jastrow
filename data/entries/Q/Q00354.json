@@ -1,0 +1,23 @@
+{
+	"id": "Q00354",
+	"slug": "פוריתה",
+	"headword": {
+		"text": "פּוֹרִיתָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1147,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q02018\"><he>פְּרַר</he></cite>) <i>birds of prey</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 820\">Yalk. Ps. 820</cite>, v. <cite ref=\"N01323\"><he>נְשִׁירְתָּא</he></cite>."
+			]
+		}
+	]
+}

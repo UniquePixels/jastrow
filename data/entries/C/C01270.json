@@ -1,0 +1,32 @@
+{
+	"id": "C01270",
+	"slug": "גרד-3",
+	"headword": {
+		"text": "גֶּרֶד"
+	},
+	"page": {
+		"number": 265,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גרד</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>erasure</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 30b\">Men. 30ᵇ</cite> Ar. (ed. <cite ref=\"C01395\"><he>גֶּרֶר</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>that which is combed, fringe</i>.—Pl. <cite ref=\"C01276\"><he>גְּרָדִין</he></cite>. Ib. 42ᵇ; <cite ref=\"Sukkah 9a\">Succ. 9ᵃ</cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "E00858",
+	"slug": "הרי-2",
+	"headword": {
+		"text": "הֲרֵי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 367,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"E00857\">preced.</cite>, = b. h. <cite ref=\"E00648\"><he>הֵן</he></cite>, <cite ref=\"E00668\"><he>הִנֵּה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>behold, here is</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 91:11\">Gen. R. s. 91</cite>, end <he>ה׳ הכסף וכ׳</he> here is the silver &c.—",
+				"<cite ref=\"Pirkei Avot 3:4\">Ab. III, 4</cite>, a. fr. <he>ה׳ זה וכ׳</he> such a person is &c. ",
+				"<cite ref=\"Mishnah Beitzah 5:3\">Bets. V, 3</cite>, a. fr. <he>ה׳ אלו וכ׳</he> in this case they are &c. ",
+				"<cite ref=\"Mishnah Bava Kamma 9:2\">B. Kam. IX, 2</cite> <he>ה׳ שלך לפניך</he> here is thy property before thee (take it in the condition in which it is); a. v. fr.—<he>הֲרֵינִי</he> = <he>ה׳ אני</he> behold, I am, will be &c. ",
+				"<cite ref=\"Mishnah Nazir 1:1\">Naz. I, 1</cite> <he>ה׳ נזיר</he> I will be a Nazir. ",
+				"<cite ref=\"Kiddushin 31b\">Kidd. 31ᵇ</cite> <he>ה׳ כפרת וכ׳</he> may I be the atonement for his rest (a blessing formula for a deceased father); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " ה׳ ש׳־ <i>here is a case of one, if</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 3b:14\">Meg. 3ᵇ</cite> <he>ה׳ שהיה וכ׳</he> if one is going to slaughter &c.; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

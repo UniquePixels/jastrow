@@ -1,0 +1,23 @@
+{
+	"id": "J00713",
+	"slug": "יתב-2",
+	"headword": {
+		"text": "יְתֵב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 603,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"J00712\">preced.</cite>; cmp. <cite ref=\"J00114\"><he>יהב</he></cite> <i>to give</i> and <i>to place</i>) <i>to give</i> (not used in perf. tense). ",
+			"units": [
+				"<cite ref=\"Shabbat 19a:11\">Sabb. 19ᵃ</cite> <he>במשחא נִיתֵּיב ליה וכ׳</he> (Ms. M. <he>נמשח ונ׳</he>) let him measure when giving (the goods to wash) and when receiving it back. ",
+				"<cite ref=\"Kiddushin 78b:11\">Kidd. 78ᵇ</cite> <he>אי בעי מִיתְּבָא … לא יהיב ליה</he> (not <he>יהבי</he>) if he desired to give it to him as a donation, could he not do it? <cite ref=\"Ketubot 106b:14\">Keth. 106ᵇ</cite> <he>וליכא למיתבא ליה</he> and he will have nothing to give him. ",
+				"<cite ref=\"Bava Kamma 83b\">B. Kam. 83ᵇ</cite>; a. e.—",
+				"<cite ref=\"Bava Batra 13b\">B. Bath. 13ᵇ</cite> <he>למיתב</he> Ms. M. (ed. <he>למִיתַּן</he>)."
+			]
+		}
+	]
+}

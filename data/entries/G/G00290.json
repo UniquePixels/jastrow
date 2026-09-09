@@ -1,0 +1,26 @@
+{
+	"id": "G00290",
+	"slug": "זיהורא-2",
+	"headword": {
+		"text": "זֵיהוֹרָא"
+	},
+	"page": {
+		"number": 391,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זהר</he>) <i>splendor, brightness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 8:2\">Targ. Ez. VIII, 2</cite> ed. Lag. (ed. <cite ref=\"G00106\"><he>זָהֲרָא</he></cite>).—",
+				"<cite ref=\"Aramaic Targum to Psalms 18:13\">Targ. Ps. XVIII, 13</cite> <he>זֵיהוֹר</he> Ms. M. (ed. <cite ref=\"G00089\"><he>זְהוֹר</he></cite>; <cite ref=\"Targum Jonathan on II Samuel 22:13\">Targ. II Sam. XXII, 13</cite> <cite ref=\"G00299\"><he>זיו</he></cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 33:2\">Targ. O. Deut. XXXIII, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 19:5\">Targ. Ps. XIX, 5</cite> <he>זיהורא</he> Ms. (ed. Lag. <he>זִיוָהָא</he>, ed. Wil. <cite ref=\"G00293\"><he>זיהרא</he></cite>, oth. <cite ref=\"G00285\"><he>זיהוא</he></cite>).—Pl. <he>זֵיהוֹרַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 1:13\">Targ. Ez. I, 13</cite> (ed. Lag. sing.) [<cite ref=\"Targum Jonathan on Ezekiel 32:8\">Ib. XXXII, 8</cite> <he>ניהוריא</he> ed. Lag., ed. <he>זַהֲרַיָּא</he>)."
+			]
+		}
+	]
+}

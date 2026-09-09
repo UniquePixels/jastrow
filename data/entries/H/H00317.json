@@ -1,0 +1,44 @@
+{
+	"id": "H00317",
+	"slug": "חוכמא",
+	"headword": {
+		"text": "חוּכְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּכְמְתָא"
+		},
+		{
+			"text": "חָכְ׳"
+		}
+	],
+	"page": {
+		"number": 432,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00942\"><he>חכם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>wisdom, learning</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:3\">Targ. Ex. XXVIII, 3</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 90b:4\">Sabb. 90ᵇ</cite> <he>לח׳</he> for acquiring wisdom. ",
+				"<cite ref=\"Shabbat 30a:3\">Ib. 30ᵃ</cite> <he>אן חָכְמְתָךְ</he> where is thy wisdom? <cite ref=\"Moed Katan 28a:16\">M. Kat. 28ᵃ</cite> <he>חוּכְמְתֵיה וכ׳</he>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>subtlety</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 27:35\">Targ. Gen. XXVII, 35</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "A02561",
+	"slug": "אסרטיא-2",
+	"headword": {
+		"text": "אִסְרַטְיָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 98,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>army, list of officers</i>, v. <cite ref=\"A02413\"><he>אִסְטְרַטְיָא</he> II</cite>.",
+			"units": []
+		}
+	]
+}

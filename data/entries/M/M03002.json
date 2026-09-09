@@ -1,0 +1,26 @@
+{
+	"id": "M03002",
+	"slug": "מת",
+	"headword": {
+		"text": "מֵת"
+	},
+	"page": {
+		"number": 859,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M00691\"><he>מוּת</he></cite>)<i>dying, dead; corpse</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 3b:17\">Ber. 3ᵇ</cite> <he>בפני המת</he> in the presence of a dead body; <he>דבריו של מת</he> affairs concerning the dead. Ib. 18ᵇ, a. e. <he>קשה רמה למת וכ׳</he> the gnawing of the worm is as painful to the buried corpse as a pin &c.; a. v. fr.—<he>מת מצוה</he>, v. <cite ref=\"M02284\"><he>מִצְוָה</he></cite>.—Pl. <he>מֵתִים</he>, constr. <he>מֵתֵי</he>. ",
+				"<cite ref=\"Moed Katan 20a:15\">M. Kat. 20ᵃ</cite> <he>מתי מצוה</he>, v. <cite ref=\"M02284\"><he>מִצְוָה</he></cite>. ",
+				"<cite ref=\"Berakhot 18b:3\">Ber. 18ᵇ</cite>. ",
+				"<cite ref=\"Tosefta Shabbat 6:7\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:1\">VII</cite>), 1 <he>לבין המ׳</he> to the graveyard; a. v. fr.—",
+				"<cite ref=\"Sanhedrin 55a:4\">Snh. 55ᵃ</cite>, a. fr. <he>משמש מת</he> coition with <i>membrum mortuum</i>"
+			]
+		}
+	]
+}

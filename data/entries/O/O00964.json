@@ -1,0 +1,28 @@
+{
+	"id": "O00964",
+	"slug": "סלול",
+	"headword": {
+		"text": "סָלוּל"
+	},
+	"page": {
+		"number": 994,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (dial. for <he>צָלוּל</he>) <i>clear water</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Mikvaot 3:4\">Tosef. Mikv. III, 4</cite> <he>הס׳ בטיט וכ׳</he> (some ed. <he>הסליל</he>, corr. acc.) the clear water within the mud on the sides (of a pond) &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"O01003\"><he>סָלַל</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

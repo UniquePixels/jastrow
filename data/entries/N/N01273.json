@@ -1,0 +1,28 @@
+{
+	"id": "N01273",
+	"slug": "נרקיס",
+	"headword": {
+		"text": "נַרְקֵיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "נַרְקֵס"
+		}
+	],
+	"page": {
+		"number": 937,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (νάρκισσος) <i>narcissus</i>, prob. <i>White Daffodil</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:1\">Targ. Cant. II, 1</cite> (some ed. <cite ref=\"B01322\"><he>ברקום</he></cite>, corr. acc.).—",
+				"<cite ref=\"Berakhot 43b\">Ber. 43ᵇ</cite> <he>נרקס דגנוניתא</he> Ar. (ed. <cite ref=\"N01272\"><he>נרקום</he></cite>; Ms. M. <he>נרכום</he>) garden narcissus, <he>דדברא</he> wild n."
+			]
+		}
+	]
+}

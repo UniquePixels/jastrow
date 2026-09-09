@@ -1,0 +1,21 @@
+{
+	"id": "E00099",
+	"slug": "הדה-2",
+	"headword": {
+		"text": "הָדָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 332,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (interj., v. <cite ref=\"E00098\">preced.</cite>) <i>hoa! look out!</i> <cite ref=\"Tosefta Shabbat 6:10\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:10\">VII</cite>), 10 [read:] <he>התוסס אוד בכותל ואומר ה׳</he> (Var. <cite ref=\"H00177\"><he>חדה</he></cite>, v. ed. Zuck. note) if one strikes a brand against a wall and says <i>hada</i> (a superstitious practice to frighten away evil spirits). ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 7:11\">Ib. 11</cite> (Var. <cite ref=\"H00172\"><he>חדא</he></cite>). ",
+				"<cite ref=\"Tosefta Shabbat 7:12\">Ib. 12</cite> (v. ed. Zuck. note)."
+			]
+		}
+	]
+}

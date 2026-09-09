@@ -1,0 +1,34 @@
+{
+	"id": "V00367",
+	"slug": "תחל-2",
+	"headword": {
+		"text": "תְּחַל"
+	},
+	"page": {
+		"number": 1661,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַתְחֵיל</he>, <cite ref=\"H01074\"><he>אַתְחֵל</he></cite> ch. same. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 1:13\">Targ. Job I, 13</cite>.—",
+						"<cite ref=\"Bava Batra 14b:11\">B. Bath. 14ᵇ</cite> <he>אַתְחוּלֵי … לא מַתְחִילִינָן</he> with evil we do not begin, i.e. in arranging Biblical books we do not place first a book containing evil prophecies. ",
+						"<cite ref=\"Berakhot 21b\">Ber. 21ᵇ</cite> <he>דלא א׳ בה</he> he had not begun to say his prayers. ",
+						"<cite ref=\"Pesachim 105a:5\">Pes. 105ᵃ</cite> <he>אתחולי לא מַתְחֲלִינָן</he> we must not begin a meal, opp. <he>פסק</he>; a. v. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

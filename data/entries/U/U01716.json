@@ -1,0 +1,23 @@
+{
+	"id": "U01716",
+	"slug": "שפוונא",
+	"headword": {
+		"text": "שַׁפְוָונָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1614,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שְׁפֵי</he> I) <i>crushing, destruction</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 24:22\">Targ. Prov. XXIV, 22</cite> Ms. (ed. <cite ref=\"O00389\"><he>סופא</he></cite>; some ed., a. Var. ed. Lag. <cite ref=\"O01327\"><he>ספוותא</he></cite>; h. text <cite ref=\"Q00590\"><he>פיד</he></cite>)."
+			]
+		}
+	]
+}

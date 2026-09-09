@@ -1,0 +1,28 @@
+{
+	"id": "Q00577",
+	"slug": "פיגול-1",
+	"headword": {
+		"text": "פִּיגּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּגּוּל"
+		}
+	],
+	"page": {
+		"number": 1159,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"Q00068\"><he>פָּגַל</he></cite>) [<i>abomination, unfitness</i>,] <i>a sacrifice rejectable in consequence of an improper intention in the mind of the officiating priest</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 28a:17\">Zeb. 28ᵃ</cite> <he>פ׳ זהו חוץ למקומו</he> <i>piggul</i> (<cite ref=\"Leviticus 7:18\">Lev. VII, 18</cite>; <cite ref=\"Leviticus 19:7\">XIX, 7</cite>) refers to the intended disposal beyond the legal limits of space (for eating the sacrifice). Ib. II, 3 <he>חוץ למקומו פסול … חוץ לזמנו פ׳ וכ׳</he> the intention of disposal at an improper place makes the sacrifice unfit, but the eating of it is not punishable with extinction, whereas the intention of disposal at the improper time makes it <i>piggul</i>, and the eating of it is punished with extinction; a. fr.—Pl. <he>פִּיגּוּלִים</he>, <he>פִּיגּוּלִין</he>, <cite ref=\"Q00578\"><he>פִּגּ׳</he></cite>. Sifra Ahăré, Par. 5, ch. VII. ",
+				"<cite ref=\"Shir HaShirim Rabbah 5:14\">Cant. R. to V, 14</cite>, <he>כמה פ׳</he> many laws concerning <i>piggul</i>; a. e."
+			]
+		}
+	]
+}

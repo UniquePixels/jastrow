@@ -1,0 +1,21 @@
+{
+	"id": "Q01600",
+	"slug": "פרהבא",
+	"headword": {
+		"text": "פַּרְהֲבָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1216,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (prob. a geogr. term) <he>מילא פ׳</he> <i>parhăba wool</i> (white and soft). ",
+			"units": ["<cite ref=\"Niddah 17a:64\">Nidd. 17ᵃ</cite>"]
+		}
+	]
+}

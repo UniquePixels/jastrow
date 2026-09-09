@@ -1,0 +1,26 @@
+{
+	"id": "C01021",
+	"slug": "גמי-2",
+	"headword": {
+		"text": "גְּמִי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 252,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <he>גּוֹמֶא</he> <i>bulrushes, reed-grass</i> (used for ropes). ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 6:9\">Kil. VI, 9</cite>. ",
+				"<cite ref=\"Mishnah Shabbat 8:2\">Sabb. VIII, 2</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 1:1:23\">Y. Erub. I, 18ᵈ</cite> <he>וגמי על גביהן</he> and a reed-rope over them; a. fr.—Chald. form <cite ref=\"C01024\"><he>גָּמְיָיא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 1:1:23\">Ib.</cite>"
+			]
+		}
+	]
+}

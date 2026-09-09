@@ -1,0 +1,32 @@
+{
+	"id": "C01282",
+	"slug": "גרדם",
+	"headword": {
+		"text": "גַּרְדֵּם"
+	},
+	"page": {
+		"number": 266,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Parel of <he>גדם</he>) <i>to cut off, to lop</i>.—Ithpa. <he>אִיגַּרְדֵּם</he> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be lopped</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 38b:9\">Men. 38ᵇ</cite> <he>איג׳ תכלת וכ׳</he> if the blue fringe has been lopped off, but the white remains &c. ",
+				"<cite ref=\"Menachot 39a:4\">Ib. 39ᵃ</cite> <he>גרדומין דאִיגַּרְדּוּם אִיגַּרְדּוּמֵי</he> does not <i>gardumav</i> intimate that they (the fringes) are entirely cut off (leaving no remnant)?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>אִיתְגַּרְדִּים</he>, <he>אִיגַּרְדִּים</he> (= <he>גרזם</he>, v. <cite ref=\"C01318\"><he>גַּרְזִימִי</he></cite>) <i>to be nibbled at</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 39:12\">Targ. Ps. XXXIX, 12</cite> <he>היך עמר דאית׳</he> (Ms. <he>דאיג׳</he>) like wool nibbled at (by moths; h. text <he>כָּעָשׁ</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

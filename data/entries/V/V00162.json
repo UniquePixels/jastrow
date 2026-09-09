@@ -1,0 +1,66 @@
+{
+	"id": "V00162",
+	"slug": "תוה-2",
+	"headword": {
+		"text": "תְּוַהּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּוָה"
+		}
+	],
+	"page": {
+		"number": 1651,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"V00116\"><he>תְּהַהּ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be perplexed; to fear, be anxious</i> (corresp. to h. <cite ref=\"H01598\"><he>חרד</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 27:33\">Targ. O. Gen. XXVII, 33</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 37:1\">Targ. Job XXXVII, 1</cite> <he>יתוה</he> (ed. Lag. <he>יִתְוַוהּ</he>; some ed. <he>יְתַיָּוא</he> <i>Pa.</i>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 36:24\">Targ. Jer. XXXVI, 24</cite> (h. text <he>פחד</he>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 33:24\">Targ. Y. Num. XXXIII, 24</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 4:16\">Targ. Koh. IV, 16</cite> <he>תְּוָוהוּ</he> ed. Lag. (ed. Vien. <he>תְּיָהוּ</he>, read <cite ref=\"V00165\"><he>תְּוָהוּ</he></cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 28:66\">Targ. O. Deut. XXVIII, 66</cite>, sq. <cite ref=\"V00161\"><he>תָּוַהּ</he></cite> ed. Berl. (ed. Vien. <cite ref=\"V00161\"><he>תָּוֵה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Esther 5:14\">Targ. Esth. V, 14</cite> <he>ת׳ לצפרא</he> (ed. Vien. <cite ref=\"V00161\"><he>תַּוָּה</he></cite> <i>Pa.</i>) waited anxiously for the morning; a. fr.—Tanḥ. Emor 10 <he>תַּוְהוּ כולי עלמא</he> all the people were perplexed (marvelled); <cite ref=\"Yalkut Shimoni on Nach 554:1\">Yalk. Mic. 554</cite> <he>תמהו אומות העולם</he> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to shudder, be disgusted</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 50b:7\">Pes. 50ᵇ</cite> <he>תַּוְוהוּ ביה אינשי</he> Ms. M. people are disgusted with it (dislike the occupation), v. <cite ref=\"V00123\"><he>תְּהֵי</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תֵּוָּה", "תַּוָּא"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V00161\">same</cite>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַתְוָה"],
+			"senses": [
+				{
+					"gloss": "<i>to disgust</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 78:41\">Targ. Ps. LXXVIII, 41</cite> <he>אַתְווּ תִוְהָא</he> ed. Wil. (ed. Lag. <he>איתיו תִיוְהָא</he>, corr. acc.)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

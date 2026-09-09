@@ -1,0 +1,25 @@
+{
+	"id": "V01003",
+	"slug": "תריצותא",
+	"headword": {
+		"text": "תְּרִיצוּתָא"
+	},
+	"page": {
+		"number": 1699,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V01002\">preced.</cite>) <i>straightness, uprightness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 3:6\">Targ. I Kings III, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 17:2\">Targ. Ps. XVII, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 37:37\">Ib. XXXVII, 37</cite> ed. Wil. ",
+				"<cite ref=\"Aramaic Targum to Psalms 26:12\">Ib. XXVI, 12</cite> Ms. (ed. <cite ref=\"V01000\"><he>תְּרִיצָא</he></cite>; ed. Wil. <cite ref=\"V01054\"><he>תְּרִצָא</he></cite>); a. fr."
+			]
+		}
+	]
+}

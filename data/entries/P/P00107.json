@@ -1,0 +1,23 @@
+{
+	"id": "P00107",
+	"slug": "עגנא",
+	"headword": {
+		"text": "עַגְנָא"
+	},
+	"page": {
+		"number": 1042,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00106\">preced.</cite>) <i>solitude</i>, <i>prison</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 24:22\">Targ. Is. XXIV, 22</cite> <he>לבית ע׳</he>, v. <cite ref=\"P00106\">preced.</cite> ",
+				"<cite ref=\"Targum Jonathan on Isaiah 42:22\">Ib. XLII, 22</cite> <he>עַגְנְהוֹן</he> Ar. (Regia <he>עַגְנֵיהוֹן</he> pl.; ed. Lag. <he>עִיגּוּנְהוֹן</he>; ed. Wil. <he>עֲגִינִין</he>, v. <cite ref=\"P00106\">preced.</cite>)."
+			]
+		}
+	]
+}

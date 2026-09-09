@@ -1,0 +1,27 @@
+{
+	"id": "U01705",
+	"slug": "שפא-4",
+	"headword": {
+		"text": "שִׁפָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1613,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01793\"><he>שְׁפַף</he></cite>) <i>chip, pin</i>. Targ. ",
+			"units": [
+				"<cite ref=\"Habakkuk 2:11\">Hab. II, 11</cite> (h. text <cite ref=\"K01018\"><he>כפיס</he></cite>)."
+			]
+		}
+	]
+}

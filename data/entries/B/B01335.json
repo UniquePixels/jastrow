@@ -1,0 +1,104 @@
+{
+	"id": "B01335",
+	"slug": "ברר-1",
+	"headword": {
+		"text": "בָּרַר"
+	},
+	"page": {
+		"number": 197,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בר</he>, contr. of <he>באר</he>, <he>בור</he>) [<i>to clear, clean; to place outside</i>, whence] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to make clear, prove, ascertain</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 46a:24\">Keth. 46ᵃ</cite> (interpret. ",
+				"<cite ref=\"Deuteronomy 22:17\">Deut. XXII, 17</cite>) <he>ובוֹרְרִין את הדבר וכ׳</he> and they make the fact as clear (bright) as a new garment.—Part. pass. <cite ref=\"B01207\"><he>בָּרוּר</he></cite> q. v."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to single out, select, sift, assort</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 2:6\">Maasr. II, 6</cite> <he>שאָבוֹר לי</he> which I may select for me. ",
+				"<cite ref=\"Mishnah Maasrot 2:6\">Ib.</cite> <he>בּוֹרֵר ואוכל</he> he has a right to pick out and eat (one after the other). ",
+				"<cite ref=\"Mishnah Kilayim 2:1\">Kil. II, 1</cite> <he>יָבוֹר</he> he must take it out entirely. ",
+				"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> <he>הבּוֹרֵר</he> he who sifts (a labor forbidden on the Sabbath). Y. ib. VII, 10ᵃ, a. fr. <he>משום בורר</he> (is guilty) because it comes under the class of sifting. Bab. ib. 74ᵃ <he>בורר ואוכל וכ׳</he> he may take out singly and eat, take out singly and put it down (rejecting it) <he>ולא יִבְרוֹר</he> but he must not assort (v. discussion ibid.). ",
+				"<cite ref=\"Mishnah Gittin 5:9\">Gitt. V, 9</cite> <he>לא תָבוֹר</he> she must not help her to sift the grain. ",
+				"<cite ref=\"Sanhedrin 45a:8\">Snh. 45ᵃ</cite> <he>בְּרוֹר לו וכ׳</he> choose for the convict the most gentle method of execution; <cite ref=\"Sotah 8b:2\">Sot. 8ᵇ</cite>, a. fr.—",
+				"<cite ref=\"Mishnah Sanhedrin 3:1\">Snh. III, 1</cite> <he>זה בורר וכ׳</he> each party chooses one judge, and the two judges <he>בּוֹרְרִין וכ׳</he> elect a third."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בֵּרַר", "בֵּירַר"],
+			"senses": [
+				{
+					"gloss": "<i>to prove, ascertain</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 23b:11\">Snh. 23ᵇ</cite> <he>צריך לבָרֵר</he> the claimant must offer clear evidence. ",
+						"<cite ref=\"Keritot 24a:31\">Kerith. 24ᵃ</cite> <he>לב׳ עוון</he> to ascertain whether or not the woman was guilty; <cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite>, v. <cite ref=\"B01062\"><he>בָּעַר</he></cite>. Y. Kidd. III, 63ᵈ, v. <cite ref=\"O00718\"><he>סִימְפּוֹן</he></cite>. ",
+						"<cite ref=\"Vayikra Rabbah 11:5\">Lev. R. s. 11</cite>; v. <i>Nithpa.</i>"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to sift, select</i>. Y. Ber. IX, 13ᶜ top <he>דש זרה ובי׳</he> he threshed, winnowed and sifted. Y. Ned. I, beg. 51ᵃ <he>לשונות שביררו להן וכ׳</he> the terms (for oaths, vows &c.) which the Mishnahs have selected (as substitutes for the real expressions of oaths &c.); Bab. ",
+					"units": [
+						"<cite ref=\"Nedarim 10b:4\">Ned. 10ᵇ</cite> <he>שבדו</he>, v. <cite ref=\"B00101\"><he>בָּדָא</he></cite>. [<cite ref=\"Esther Rabbah 4:12\">Esth. R. to I, 22</cite> [read:] <he>בירר להם בלשון … רומי מלשון יוני</he> interpreted for them (the Bible) in Latin &c., v. <cite ref=\"B00101\"><he>בָּדָא</he></cite>. The passage is defective; cmp. Y. Meg. I, 71ᶜ top.] [Y. Snh. X, 28ᵃ <he>בחרו להם ביררו הברזל וכ׳</he>, read <cite ref=\"B01251\"><he>בְּרִיּוּת</he></cite>, they selected (as similes for the Law) the soundness of the iron and the fixedness of the tree; cmp. ",
+						"<cite ref=\"Bamidbar Rabbah 14\">Num. R. s. 14</cite>; <cite ref=\"Kohelet Rabbah 12:11\">Koh. R. to XII, 11</cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הוּבְרָר"],
+			"senses": [
+				{
+					"gloss": "<i>to be cleared up, to be decided</i> (between two alternatives); v. <cite ref=\"B01277\"><he>בְּרֵירָה</he></cite>. ",
+					"units": [
+						"<cite ref=\"Beitzah 4a:8\">Bets. 4ᵃ</cite> (a hen is bought either for consumption or for breeding) <he>נשחטה הובְרָרָה וכ׳</he> by its being killed, it appears that it was originally intended for slaughtering; <cite ref=\"Chullin 14a:2\">Ḥull. 14ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נִבְרָר"],
+			"senses": [
+				{
+					"gloss": "<i>to be selected</i>. Tanḥ. Sh’laḥ. 4 <he>נִבְרְרוּ צדיקים</he> they were righteous at the time they were selected.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִתְבָּרֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to desire clearness, to seek evidence, search for truth</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 11:5\">Lev. R. s. 11</cite> (ref. to <cite ref=\"II Samuel 22:26\">II Sam. XXII, 26</cite> sq.) <he>בשעה שנ׳ על עסקיו הק״בה בירר לו וכ׳</he> when he desired to be enlightened about his affairs (asking, ‘Whereby shall I know, <cite ref=\"Genesis 15:8\">Gen. XV, 8</cite>), the Lord enlightened him &c. (ib. 13). ",
+						"<cite ref=\"Genesis 15:8\">Ib.</cite> <he>בשעה שנ׳ וכ׳</he> (with ref. to Moses); <cite ref=\"Midrash Tehillim 18:20\">Midr. Till. to Ps. XVIII, 26</cite> sq."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be confirmed, established</i>. Tanḥ. T’tsavveh 9, end [read:] <he>נִתְבָּרְרָה כהונה בידם</he> through them the priesthood became established. Pesik. Dibré p. 115ᵇ [read as:] <cite ref=\"Yalkut Shimoni on Nach 258\">Yalk. Jer. 258</cite> <he>לא נ׳ … עד שעמד וכ׳</he> their prophecies were not fulfilled until Jer. arose.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

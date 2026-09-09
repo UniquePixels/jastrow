@@ -1,0 +1,31 @@
+{
+	"id": "P00840",
+	"slug": "עלף-3",
+	"headword": {
+		"text": "עֲלַף"
+	},
+	"page": {
+		"number": 1085,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00839\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>עַלֵּף</he> <i>to be overcome with weakness</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 3b:15\">Ḥull. 3ᵇ</cite> <he>לעַלּוּפֵי לא חיישינן</he> we do not apprehend a sudden weakness of hands in slaughtering."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

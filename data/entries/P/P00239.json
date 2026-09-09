@@ -1,0 +1,26 @@
+{
+	"id": "P00239",
+	"slug": "עוכלא",
+	"headword": {
+		"text": "עוּכְלָא"
+	},
+	"page": {
+		"number": 1050,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עכל</he>, cmp. <cite ref=\"A00529\"><he>אוּכְלָא</he></cite> II a. <cite ref=\"K00690\"><he>כְּלָה</he></cite>) <i>‘Ukhla</i>, a small measure of capacity (also a weight). ",
+			"units": [
+				"<cite ref=\"Bava Batra 89b\">B. Bath. 89ᵇ</cite>. ",
+				"<cite ref=\"Bava Batra 90a:1\">Ib. 90ᵃ</cite> <he>וכמה היא ע׳ אחד משמונה ברובע</he> (ed. <he>מחמשה ברביע</he>, v. Rabb. D. S. a. l. to 89ᵇ note 400) and how much is an ‘Ukhla? One-eighth (fifth) of a fourth of a Kab. ",
+				"<cite ref=\"Sotah 8b\">Sot. 8ᵇ</cite>; <cite ref=\"Tosefta Sotah 3:1\">Tosef. ib. III, 1</cite> (missing in ed. Zuck.; Y. ib. I, 17ᵃ <cite ref=\"A00529\"><he>אוכלא</he></cite>); <cite ref=\"Bamidbar Rabbah 9:24\">Num. R. s. 9</cite>. ",
+				"<cite ref=\"Eruvin 29a:9\">Erub. 29ᵃ</cite> <he>ע׳ תבלין</he> an ‘U. of spices (v. <cite ref=\"K00690\"><he>כְּלָה</he></cite>).—Pl. <he>עוּכְלֵי</he>. ",
+				"<cite ref=\"Bava Batra 85b:4\">B. Bath. 85ᵇ</cite> <he>מחו לה מאה ע׳ עוכלא</he> they struck (defeated) that opinion with a hundred measures against one (a hundred arguments against for one in favor of it; Rashi: with a hundred strokes with a lash to which the weight of an ‘Ukhla was attached); <cite ref=\"Ketubot 53a:6\">Keth. 53ᵃ</cite> <he>דאמינא כמאן דקא מחו וכ׳</he> for I may adopt the opinion of him who said, they struck &c."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "S00879",
+	"slug": "קיואי",
+	"headword": {
+		"text": "קִיוָּאֵי"
+	},
+	"page": {
+		"number": 1356,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (denom. of <cite ref=\"S00878\">preced.</cite>) <i>weavers</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 113a:10\">Sabb. 113ᵃ</cite> <he>כלי ק׳ וכ׳</he> (Ar. <cite ref=\"S00882\"><he>קַוָּו׳</he></cite>) weavers’ implements as the upper beam &c. Ib. 140ᵇ <he>כְּלִי ק׳</he> a reed which the weavers use."
+			]
+		}
+	]
+}

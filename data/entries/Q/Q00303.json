@@ -1,0 +1,43 @@
+{
+	"id": "Q00303",
+	"slug": "פועל-3",
+	"headword": {
+		"text": "פּוֹעַל",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פּוֹעֲלָא",
+			"homograph": 1
+		},
+		{
+			"text": "פֹּעֲ׳"
+		}
+	],
+	"page": {
+		"number": 1145,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"Q00302\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 23:25\">Targ. Y. Deut. XXIII, 25</cite>, sq. (ed. Amst. <cite ref=\"Q01383\"><he>פָּעַל</he></cite>, <cite ref=\"Q00302\"><he>פּוֹעֵל</he></cite>).—Gen. G. s. 39, end, a. e. <he>פ׳ טבא</he> a good workingman, v. <cite ref=\"D00149\"><he>דָּהוֹן</he></cite>. ",
+				"<cite ref=\"Bava Metzia 83b:1\">B. Mets. 83ᵇ</cite> <he>אגריתו לי כפ׳ דאורייתא</he> you have hired me as a laborer in the Biblical sense (<cite ref=\"Psalms 104:23\">Ps. CIV, 23</cite>; you have no right to demand additional hours); a. fr.—Pl. <he>פּוֹעֲלִין</he>, <he>פּוֹעֲלַיָּיא</he>, <cite ref=\"Q00303\"><he>פָּעֲ׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:9:4\">Y. Taan. III, 66ᵈ</cite> bot. <he>נפק לטורא לגבי פָּעֲלוֹי</he> (not <he>פעליי</he>) went to the mountain to look after his laborers; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>employer</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 15\">Gen. R. s. 15</cite>; <cite ref=\"Yalkut Shimoni on Torah 20:15\">Yalk. ib. 20</cite>; v. <cite ref=\"Q01383\"><he>פָּעַל</he> I</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "A00940",
+	"slug": "אות-2",
+	"headword": {
+		"text": "אוֹת",
+		"homograph": 2
+	},
+	"page": {
+		"number": 36,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (b. h.; v. <cite ref=\"A00626\"><he>אוי</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mark, sign, emblem; test, signal, military ensign</i>. Ḥag. 16ᵃ (play on <he>ואתה</he> <cite ref=\"Deuteronomy 33:2\">Deut. XXXIII, 2</cite>; cmp. <cite ref=\"A00939\">foreg.</cite>) <he>אות הוא וכ׳</he> He is the ensign among his myriad; v. <cite ref=\"D00190\"><he>דּוּגְמָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 25b:7\">M. Kat. 25ᵇ</cite> <he>אל תזניחנו בא׳ וכ׳</he> forsake us not in the symbolic trial of bitter waters (in our trials). Pl. <he>אוֹתוֹת</he>. ",
+				"<cite ref=\"Mishnah Kilayim 9:10\">Kil. IX, 10</cite> <he>א׳ הגרדין וכ׳</he> the marks which the weavers &c. put on goods in their charge. ",
+				"<cite ref=\"Bava Kamma 119b:10\">B. Kam. 119ᵇ</cite> you must not buy from the dyer <he>לא א׳ ולא דוגמות</he> either <i>tests</i> (pieces cut off to test the color) or samples (as specimens of color)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>letter, writing, symbol</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 15a:5\">B. Bath. 15ᵃ</cite> <he>אות אחת</he> one letter. ",
+				"<cite ref=\"Shabbat 103a:11\">Sabb. 103ᵃ</cite>; a. fr.—Pl. <he>אוֹתִיּוֹת</he> (fr. <he>אוֹתוּת</he> or <he>אוֹתִית</he>). ",
+				"<cite ref=\"Kiddushin 30a:11\">Kidd. 30ᵃ</cite> <he>סופרים כל הא׳</he> recorded (or counted) all the letters of the Torah. ",
+				"<cite ref=\"Mishnah Sanhedrin 10:1\">Snh. X, 1</cite> <he>השם באוֹתִיוֹתָיו</he> the Divine Name with the letters in which it is written (Jehovah). ",
+				"<cite ref=\"Kiddushin 71a:13\">Kidd. 71ᵃ</cite> <he>שם בן ארבע א׳</he> the quadriliteral Name; cmp. <cite ref=\"U01408\"><he>שֵׁם</he></cite>.—",
+				"<cite ref=\"Vayikra Rabbah 26:1\">Lev. R. s. 26</cite>, beg. <he>ח׳ א׳</he> eight letters. ",
+				"<cite ref=\"Mishnah Shabbat 12:3\">Sabb. XII, 3</cite>; a. fr.—Trnsf. <i>notes, documents</i>. ",
+				"<cite ref=\"Tosefta Kiddushin 1:7\">Tosef. Kidd. I, 7</cite>; <cite ref=\"Bava Batra 75b:16\">B. Bath. 75ᵇ</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "U01518",
+	"slug": "שמעי",
+	"headword": {
+		"text": "שִׁמְעִי"
+	},
+	"page": {
+		"number": 1600,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Shimei</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " son of Gera the Benjamite, who insulted David on his flight. ",
+			"units": [
+				"<cite ref=\"Berakhot 8a:7\">Ber. 8ᵃ</cite>. ",
+				"<cite ref=\"Kohelet Rabbah 7:15:1\">Koh. R. to VII, 15</cite>. ",
+				"<cite ref=\"Megillah 12b:17\">Meg. 12ᵇ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " brother of Onias, the founder of the Temple of Onias (v. <cite ref=\"H00406\"><he>חוֹנְיוּ</he></cite>). ",
+			"units": ["<cite ref=\"Menachot 109b:15\">Men. 109ᵇ</cite>"],
+			"label": "2"
+		}
+	]
+}

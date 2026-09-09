@@ -1,0 +1,33 @@
+{
+	"id": "H00495",
+	"slug": "חות",
+	"headword": {
+		"text": "חוּת"
+	},
+	"page": {
+		"number": 441,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"H01913\"><he>חתת</he></cite>) <i>to shrink from, to loathe</i>.—<i>Part.</i> <he>חָת</he>, f. <cite ref=\"H01871\"><he>חָתָה</he></cite>, <he>חוֹתָה</he> (cmp. <cite ref=\"H00987\"><he>חָלָה</he></cite> a. <cite ref=\"H00334\"><he>חוֹלָה</he></cite> fr. <cite ref=\"H00319\"><he>חוּל</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 8:2:2\">Y. Ter. VIII, 45ᶜ</cite> top (ref. to <he>שקץ</he>) <he>כל דבר שנפשו … חָתָה ממנו</he> anything loathsome. ",
+				"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite> <he>ונפשו של אדם חתה מהם וכ׳</he> and one shrinks from eating them. ",
+				"<cite ref=\"Esther Rabbah 2:10\">Esth. R. to I, 7</cite> <he>והלא נפשו של אדם ח׳ וכ׳</he> does not man rather loathe to drink out of golden cups? [<cite ref=\"Jerusalem Talmud Yoma 4:3:3\">Y. Yoma IV, 41ᶜ</cite> bot. <he>לחות</he>, read <he>לחתות</he>, v. <he>חָתָה</he> I.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִיֵּית", "חִיֵּת"],
+			"senses": [
+				{
+					"gloss": "<i>to create aversion</i>. Y. Shebi. IV, 35ᵇ bot.; Y. Maasr. I, 48ᵈ, v. <cite ref=\"B00479\"><he>בָּחַל</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

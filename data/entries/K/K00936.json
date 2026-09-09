@@ -1,0 +1,30 @@
+{
+	"id": "K00936",
+	"slug": "כסכס-1",
+	"headword": {
+		"text": "כִּסְכֵּס"
+	},
+	"page": {
+		"number": 654,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"K00950\"><he>כְּסַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to rub, scour</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 9:7\">Nidd. IX, 7</cite> <he>וצריך לכַסְכֵּס וכ׳</he> one must scour with these substances three times. ",
+				"<cite ref=\"Shabbat 141a:18\">Sabb. 141ᵃ</cite> <he>מְכַסְכְּסוֹ מבפנים</he> he may rub the mud off from the inside. Y. ib. VII, 10ᵃ bot. <he>ובלבד שלא יְכַסְכֵּס</he> provided that he does not rub."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to chew, gnaw</i>, v. <cite ref=\"K00949\"><he>כָּסַס</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

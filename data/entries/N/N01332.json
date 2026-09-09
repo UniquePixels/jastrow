@@ -1,0 +1,22 @@
+{
+	"id": "N01332",
+	"slug": "נשם-3",
+	"headword": {
+		"text": "נֶשֶׁם"
+	},
+	"page": {
+		"number": 941,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"N01283\"><he>נָשָׁא</he> III</cite>) <i>neshem</i>, a medicine which produces depilation. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 10:10\">Neg. X, 10</cite> <he>אכל נ׳ סך נ׳</he> if one ate <i>n.</i> or smeared <i>n.</i>; Sifra Thazr., Neg., Par. 5, ch. X."
+			]
+		}
+	]
+}

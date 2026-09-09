@@ -1,0 +1,22 @@
+{
+	"id": "M01332",
+	"slug": "מיתנא-1",
+	"headword": {
+		"text": "מִיתָנָא"
+	},
+	"page": {
+		"number": 780,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01321\"><he>מִית</he></cite>) [<i>death</i>,] <i>the deceased</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 37b:20\">Yeb. 37ᵇ</cite>, sq. <he>בר מ׳</he> the son of the decceased person."
+			]
+		}
+	]
+}

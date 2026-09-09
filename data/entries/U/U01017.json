@@ -1,0 +1,26 @@
+{
+	"id": "U01017",
+	"slug": "שיפון",
+	"headword": {
+		"text": "שִׁיפוֹן"
+	},
+	"page": {
+		"number": 1566,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>rye;</i> [oth. opin.] <i>oats</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 2:5\">Pes. II, 5</cite>; <cite ref=\"Pesachim 35a:6\">ib. 35ᵃ</cite> (classified with barley) expl. <cite ref=\"D00744\"><he>דִּישְׁרָא</he></cite>; <cite ref=\"Menachot 70a\">Men. 70ᵃ</cite> sq. ",
+				"<cite ref=\"Mishnah Challah 1:1\">Ḥall. I, 1</cite>. Y. ib. 57ᵇ top (ref. to <cite ref=\"Isaiah 28:25\">Is. XXVIII, 25</cite>) <he>נסמן זה הש׳</he> <i>nisman</i> means <i>shifon</i>. ",
+				"<cite ref=\"Isaiah 28:25\">Ib.</cite> middle <he>ברם כרבנן … הש׳ מין כוסמין וכ׳</he> but in the opinion of the Rabbis there are only three kinds of grain, <i>shifon</i> is a species of spelt &c. ",
+				"<cite ref=\"Mishnah Kilayim 1:1\">Kil. I, 1</cite> <he>הכוסמין והש׳ … אינן וכ׳</he> spelt and <i>shifon</i> are not heterogeneous (may be sown together). ",
+				"<cite ref=\"Mishnah Kelim 9:8\">Kel. IX, 8</cite> (Var. in Hai Gaon <cite ref=\"U01006\"><he>שִׁיפָה</he></cite>, v. Maim. a. l.; Var. <he>שיפין</he>, <cite ref=\"H01843\"><he>חשיפה</he></cite> through mistaking <he>שיפה</he>), v. <cite ref=\"M01273\"><he>מִיצָה</he></cite>.—[Greek σιφώνιον a kind of <i>oats</i>.]"
+			]
+		}
+	]
+}

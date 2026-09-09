@@ -1,0 +1,30 @@
+{
+	"id": "E00498",
+	"slug": "הך-2",
+	"headword": {
+		"text": "הָךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַךְ"
+		}
+	],
+	"page": {
+		"number": 350,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"E00005\"><he>הָא</he></cite> with affixed <cite ref=\"K00000\"><he>ך</he></cite> locale) <i>this, that</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 58a:10\">B. Bath. 58ᵃ</cite> <he>הך איתתא</he> this woman here (myself). ",
+				"<cite ref=\"Yoma 13a:9\">Yoma 13ᵃ</cite> <he>מיתא הא קיימא הך</he> if this one should die, the other will be (his wife). ",
+				"<cite ref=\"Yoma 13a:6\">Ib.</cite> <he>והך לאו ביתו היא</he> but this one (appointed to become his wife eventually) is not ‘his house’ (not being his wife).—",
+				"<cite ref=\"Yevamot 23b:13\">Yeb. 23ᵇ</cite>, a. fr. <he>היינו הך</he> is not this the same case?; a. fr."
+			]
+		}
+	]
+}

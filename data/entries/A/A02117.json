@@ -1,0 +1,24 @@
+{
+	"id": "A02117",
+	"slug": "אנדיתיקוס",
+	"headword": {
+		"text": "אנדיתיקוס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 81,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 3:14\">Esth. R. to I, 12</cite>, a corruption; according to the sense it may have been <he>קטָּאדִיקִין</he> (κατάδικοι) <i>convicts</i>."
+			]
+		}
+	]
+}

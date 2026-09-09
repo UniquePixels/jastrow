@@ -1,0 +1,23 @@
+{
+	"id": "H00394",
+	"slug": "חומרא-3",
+	"headword": {
+		"text": "חוּמְרָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 436,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H00393\">preced.</cite>) <i>accumulated sum, result of calculation</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 9a:3\">Ab. Zar. 9ᵃ</cite> <he>ומשכח ליה לחוּמְרֵיה</he> (Ar. <he>אחמריה</he>, <he>אהמריה</he>) and he will find the sum he wants."
+			]
+		}
+	]
+}

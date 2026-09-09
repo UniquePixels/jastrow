@@ -1,0 +1,27 @@
+{
+	"id": "C00950",
+	"slug": "גלילתא",
+	"headword": {
+		"text": "גְּלִילְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּלַלְנִיתָא"
+		}
+	],
+	"page": {
+		"number": 249,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"C00883\"><he>גִּלָּה</he></cite>) <i>folding</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 47b:2\">Sabb. 47ᵇ</cite> <he>מטה גליל׳</he> Ms. M. (ed. <he>גללני׳</he>, Ar. <he>גיליתא</he>) <i>folding couch, cot</i>"
+			]
+		}
+	]
+}

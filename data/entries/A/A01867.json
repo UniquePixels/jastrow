@@ -1,0 +1,22 @@
+{
+	"id": "A01867",
+	"slug": "אלימנא",
+	"headword": {
+		"text": "אִלֵּימְנָא"
+	},
+	"page": {
+		"number": 69,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אֲלַם</he> 3) <i>mute</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 38:14\">Targ. Ps. XXXVIII, 14</cite> Ms. (ed. <cite ref=\"A01305\"><he>אִילְּמָנָא</he></cite>)."
+			]
+		}
+	]
+}

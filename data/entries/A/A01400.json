@@ -1,0 +1,23 @@
+{
+	"id": "A01400",
+	"slug": "איסדא",
+	"headword": {
+		"text": "אִיסָדָא"
+	},
+	"page": {
+		"number": 53,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O00175\"><he>סדא</he></cite>, <cite ref=\"O00182\"><he>סדיא</he></cite>) <i>head-side, pillow</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 28:11\">Targ. Gen. XXVIII, 11</cite>; a. e.—",
+				"<cite ref=\"Berakhot 56a:14\">Ber. 56ᵃ</cite> <he>אאיסדָן</he> by our head-side.—[<cite ref=\"Berakhot 56a\">Ib.</cite> <he>בי סדיא</he> <i>pillow</i>.]"
+			]
+		}
+	]
+}

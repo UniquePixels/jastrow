@@ -1,0 +1,29 @@
+{
+	"id": "H01251",
+	"slug": "חנא-2",
+	"headword": {
+		"text": "חֵנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֵינָא"
+		}
+	],
+	"page": {
+		"number": 481,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חון</he>, cmp. <he>חבן</he> s. v. <cite ref=\"H00072\"><he>חֲבִינָנוּתָא</he></cite>) <i>lap, bosom</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 40:11\">Targ. Is. XL, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 12:3\">Targ. II Sam. XII, 3</cite>; <cite ref=\"Targum Jonathan on II Samuel 12:8\">8</cite> ed. Lag. (oth. ed. <he>חיק׳</he>; Ar. <he>חֲיָינֵ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 17:19\">Targ. I Kings XVII, 19</cite>.—Cmp. <cite ref=\"L00351\"><he>לְחֵינָא</he></cite>."
+			]
+		}
+	]
+}

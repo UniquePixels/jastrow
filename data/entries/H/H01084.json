@@ -1,0 +1,40 @@
+{
+	"id": "H01084",
+	"slug": "חלם-4",
+	"headword": {
+		"text": "חֲלַם",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲלִים"
+		}
+	],
+	"page": {
+		"number": 471,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01083\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 37:5\">Targ. Gen. XXXVII, 5</cite>. ",
+				"<cite ref=\"Onkelos Genesis 41:1\">Ib. XLI, 1</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַחְלֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to consult an interpreter of dreams</i> or <i>a dreamer</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 29:8\">Targ. Jer. XXIX, 8</cite>, v. <cite ref=\"H01087\"><he>חָלְמָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "R00400",
+	"slug": "צינתא-2",
+	"headword": {
+		"text": "צִינְּתָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צִנְּ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1278,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"R00608\"><he>צִנָּה</he> II</cite>, <i>stone-palm</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 63a:12\">Erub. 63ᵃ</cite> <he>אסר ליה לחמריה בצ׳ וכ׳</he> (Ms. M. <he>בצִינְּיָיתָא</he>; Ms. O. <he>בצִינְּיָתָא</he>; ed. Sonc. a. Alf. <he>בצ׳ דדיקלא</he>) tied his ass to a palm (palms) on the Sabbath.—Pl. <cite ref=\"R00394\"><he>צִינְּיָיתָא</he></cite>, <cite ref=\"R00397\"><he>צִינְּיָתָא</he></cite>, <cite ref=\"R00399\"><he>צִנְּ׳</he></cite>. ",
+				"<cite ref=\"Sotah 46b:16\">Sot. 46ᵇ</cite> <he>עד בי צ׳ דבבל</he> to the place called ‘between the palms’ of Babylonia; <cite ref=\"Sotah 46b:16\">ib.</cite> <he>הני צ׳ דבבל וכ׳</he> those palms of Babylonia date frome the days of Adam; <cite ref=\"Berakhot 31a:14\">Ber. 31ᵃ</cite> <he>צניתא</he>. ",
+				"<cite ref=\"Sanhedrin 96b:9\">Snh. 96ᵇ</cite> <he>דצ׳</he> (<cite ref=\"R00768\"><he>צרידתא</he></cite>) <he>דבבל</he> (Var. in Rashi: <cite ref=\"R00390\"><he>צִינוֹנְיָיתָא</he></cite>; Ms. M. <he>צ׳ צרורתא</he>; Ms. F. <he>צ׳ צרייאתא</he>; v. Rabb. D. S. a. l. note 400) the waters along the (dry, or stony) palms of Babylonia. ",
+				"<cite ref=\"Bava Metzia 24b\">B. Mets. 24ᵇ</cite> <he>בצ׳ דבי וכ׳</he> (Ms. M. <he>בי ציבתא</he>; Ms. R. <he>בי ציניתא</he>; Ms. O. <he>בי צִינָּתָא</he>) between the palms of the estate of Bar Marion. [<cite ref=\"Shabbat 139b:17\">Sabb. 139ᵇ</cite>, v. <cite ref=\"R00302\"><he>צִיבְּתָא</he></cite>.]"
+			]
+		}
+	]
+}

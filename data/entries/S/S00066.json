@@ -1,0 +1,26 @@
+{
+	"id": "S00066",
+	"slug": "קבלא-2",
+	"headword": {
+		"text": "קִבְלָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קִי׳",
+			"homograph": 3
+		}
+	],
+	"page": {
+		"number": 1309,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"S00065\">preced.</cite>) [<i>a means against</i>,] <i>charm</i> (to ward off danger). ",
+			"units": [
+				"<cite ref=\"Berakhot 62a\">Ber. 62ᵃ</cite> <he>אנא ק׳ גמירי</he> Ms. M. (Ar. ed. Koh. <cite ref=\"S02049\"><he>קי׳</he></cite>; ed. <cite ref=\"S00070\"><he>קבלה</he></cite>) I have learned a charm (by which to ward off demons); <cite ref=\"Berakhot 62a\">ib.</cite> <he>ק׳ דבית וכ׳</he> a charm against the demons of the privy is silence; <he>ק׳ דיסורי וכ׳</he> a charm for sufferings is silence and prayer; [ed. emended after Rashi: <cite ref=\"S00070\"><he>קַבָּלָה</he></cite> <i>a traditional rule of conduct</i>]."
+			]
+		}
+	]
+}

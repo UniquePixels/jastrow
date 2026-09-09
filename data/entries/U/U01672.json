@@ -1,0 +1,48 @@
+{
+	"id": "U01672",
+	"slug": "שעמם-2",
+	"headword": {
+		"text": "שַׁעֲמֵם"
+	},
+	"page": {
+		"number": 1611,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"U01671\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 14:24\">Targ. Y. Ex. XIV, 24</cite> (some ed. <he>שא׳</he>; h. text <he>ויהם</he>).). ",
+				"<cite ref=\"Targum Jonathan on Hosea 9:7\">Targ. Hos. IX, 7</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to lay waste</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 26:31\">Targ. Y. Lev. XXVI, 31</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּעֲמֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to be stupefied</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 7:6\">Targ. Esth. VII, 6</cite> (h. text <cite ref=\"B01067\"><he>נבעת</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 143:4\">Targ. Ps. CXLIII, 4</cite> (h. text <he>ישתומם</he>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 4:9\">Targ. Jer. IV, 9</cite> (h. text <he>יתמהו</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

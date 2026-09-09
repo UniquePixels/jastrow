@@ -1,0 +1,27 @@
+{
+	"id": "J00646",
+	"slug": "ירמטיא",
+	"headword": {
+		"text": "יַרְמַטְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יַרְמַטְיָה"
+		}
+	],
+	"page": {
+		"number": 597,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f.<i>Yarmatia</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Arakhin 5:1\">Arakh. V, 1</cite> (<cite ref=\"Arakhin 19a:8\">19ᵃ</cite>); Tosef. ib. III, 1 <he>רימטיא</he>."
+			]
+		}
+	]
+}

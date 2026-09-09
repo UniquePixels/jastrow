@@ -1,0 +1,24 @@
+{
+	"id": "C00106",
+	"slug": "גבל-4",
+	"headword": {
+		"text": "גַּבָּל"
+	},
+	"page": {
+		"number": 207,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גבל</he>) <i>kneader, baker</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 34a:1\">Pes. 34ᵃ</cite> <he>ג׳ של בית וכ׳</he> was the baker for the house of Rabbi. ",
+				"<cite ref=\"Pesachim 46a:10\">Ib. 46ᵃ</cite> <he>לג׳ ולתפלה וכ׳</he> in order to get a kneader (that observes levitical purity), for prayer (in a synagogue) and for washing hands (for a meal) one is bound to walk four <i>mils</i> (no more). ",
+				"<cite ref=\"Ketubot 72a:14\">Keth. 72ᵃ</cite> <he>פלוני ג׳ תקן וכ׳</he> a certain kneader prepared for me the dough according to the law of Ḥallah."
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "C01181",
+	"slug": "געגוע",
+	"headword": {
+		"text": "גִּעְגּוּעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּיעֲגוּעַ"
+		}
+	],
+	"page": {
+		"number": 261,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", m., pl. <he>גִּעְגּוּעִים</he>, <he>גִּעְגּוּעִין</he>, <he>גִּי׳</he> (reduplic. of <cite ref=\"C01185\"><he>געי</he></cite>) <i>lowing, roaring</i>; trnsf. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>homesickness, longing</i> (as the cow lows after her calf). ",
+			"units": [
+				"<cite ref=\"Shabbat 66b:11\">Sabb. 66ᵇ</cite> <he>בן שיש לו גיע׳ וכ׳</he> Ms. M. (ed. omit <he>לו</he>) a son who is homesick for his father. ",
+				"<cite ref=\"Sanhedrin 39a:4\">Snh. 39ᵃ</cite>. ",
+				"<cite ref=\"Sanhedrin 63b:20\">Ib. 63ᵇ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sulky, rebellious conduct, howling</i> (of children). Tanḥ. Shmoth 1; <cite ref=\"Shemot Rabbah 1\">Ex. R. s. 1</cite>, beg. <he>שהיו לו ג׳ על אברהם וכ׳</he> who behaved rebelliously against his father.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

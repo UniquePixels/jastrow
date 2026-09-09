@@ -1,0 +1,23 @@
+{
+	"id": "M00998",
+	"slug": "מטל",
+	"headword": {
+		"text": "מְטָל"
+	},
+	"page": {
+		"number": 767,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00572\"><he>נְטַל</he></cite>) <i>javelin</i> for thrusting. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 17:6\">Targ. I Sam. XVII, 6</cite> (h. text <cite ref=\"K00494\"><he>כידון</he></cite>).—Pl. <cite ref=\"M01007\"><he>מְטָלַיָּא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 40:18\">Targ. Job XL, 18</cite> Ms. (ed. <cite ref=\"M01013\"><he>מטלנא</he></cite>, Regia <cite ref=\"M01004\"><he>מַטְלוּתָא</he></cite>; h. text <he>מְטִיל</he>)."
+			]
+		}
+	]
+}

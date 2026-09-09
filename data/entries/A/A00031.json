@@ -1,0 +1,73 @@
+{
+	"id": "A00031",
+	"slug": "אבד-2",
+	"headword": {
+		"text": "אֲבַּד"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָבַד"
+		}
+	],
+	"page": {
+		"number": 2,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <i>to be lost</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 9:3\">Targ. I Sam. IX, 3</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 111a\">Snh. 111ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Pesachim 9:6:11\">Y. Pes. IX, 37ᵃ</cite> <he>כאָבִיד הוא</he> it is to be looked upon as lost."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַבַּד"],
+			"senses": [
+				{
+					"gloss": "<i>to destroy</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 19:18\">Targ. II Kings, XIX, 18</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אוֹבֵד", "אוֹבֵיד"],
+			"senses": [
+				{
+					"gloss": " = <i>Pa.</i> ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 26:5\">Targ. Deut. XXVI, 5</cite>; a. fr.—Y. Kidd. III, 64ᶜ bot. <he>אובדתא חיין וכ׳</he> thou hast ruined this man’s (my) life. ",
+						"<cite ref=\"Bereishit Rabbah 56:11\">Gen. R. s. 56</cite> <he>אובדת ליבך</he> thou hast lost thy wits; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be lost, to go to ruin</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 41:6\">Targ. Ps. XLI, 6</cite>; a. e.—Y. Ḥag. II, 77ᵇ <he>ווי דמובדין</he> alas for the lost (deceased)! Y. M. Kat. I, beg. 80ᵃ <he>ויובדן</he> and decay."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְאַבַּד"],
+			"senses": [
+				{
+					"gloss": "<i>to be lost</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 34:12\">Lev. R. s. 34</cite> <he>מִתְאַבְּדִין</he> if they should be lost.—<he>מִתְּבִיד</he> = <he>מִתְאֲבִיד</he> <cite ref=\"Pesachim 5b\">Pes. 5ᵇ</cite>; a. e. [<cite ref=\"Eichah Rabbah 4\">Lam. R., to IV, 21</cite> <he>לאיבדא</he>, read <he>לאיעבדא</he>, v. <cite ref=\"P00016\"><he>עֲבַד</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

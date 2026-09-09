@@ -1,0 +1,27 @@
+{
+	"id": "B00764",
+	"slug": "ביתר",
+	"headword": {
+		"text": "בִּיתֵּר"
+	},
+	"page": {
+		"number": 168,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (prob. a contr. of <he>בית תרעא</he>) <i>Bithter</i> (Βιθθηρά), known as <i>Bettar</i>, a town in Southern Palestine, renowned as the centre of the Bar-Kokhba revolution against Hadrian. [As to its situation, v. Neub. Géogr. p. 130; Graetz Gesch. der Jud. IV, 168). ",
+			"units": [
+				"<cite ref=\"Gittin 57a:22\">Gitt. 57ᵃ</cite> <he>כרך ב׳</he> the Fortress of B.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:13\">Y. Taan. IV, 69ᵃ</cite> top. ",
+				"<cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite>; <cite ref=\"Eichah Rabbah 4:18\">IV, 18</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:5:21\">Y. Ber. I, 3ᵈ</cite>, a. fr. <he>הרוגי ב׳</he> those killed in the Bar-Kokhba revolution (whom Hadrian would not allow to be buried). ",
+				"<cite ref=\"Mishnah Challah 4:10\">Ḥall. IV, 10</cite> (<cite ref=\"Mishnah Challah 4:11\">11</cite>) (Y. ed. <cite ref=\"B00760\"><he>ביתור</he></cite>; ed. Nap. <he>בייתר</he>, Ven. <he>ביתיר</he>) mentioned as a place not belonging to Palestine proper. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:17\">Cant. R. to II, 17</cite> <he>בית תר</he>."
+			]
+		}
+	]
+}

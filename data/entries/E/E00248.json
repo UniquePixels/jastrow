@@ -1,0 +1,53 @@
+{
+	"id": "E00248",
+	"slug": "הונא",
+	"headword": {
+		"text": "הוּנָא"
+	},
+	"page": {
+		"number": 339,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Huna</i> (in Y. also <cite ref=\"H00403\"><he>חונא</he></cite>, <he>הונה</he>, <cite ref=\"H00403\"><he>חונה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " Rab Huna, disciple of Rab. ",
+			"units": [
+				"<cite ref=\"Ketubot 106a:6\">Keth. 106ᵃ</cite> <he>מתיבתא דר׳ ה׳</he> the college of R. H.—",
+				"<cite ref=\"Gittin 59b:15\">Gitt. 59ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 10:7:2\">Y. B. Kam. X, end, 7ᶜ</cite>; Y. Shebu. IV, end, 37ᵇ; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " R. H., an Amora of the fourth gener. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 3:7:8\">Y. Peah III, 17ᵈ</cite> bot. (<cite ref=\"H00001\"><he>ח׳</he></cite>).)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " R. H. Rabbah (Roba) of Sepphoris. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:6:7\">Y. Ber. IV, end, 8ᶜ</cite>; Y. R. Hash. IV, end, 59ᵈ. ",
+				"<cite ref=\"Bereishit Rabbah 8:6\">Gen. R. s. 8</cite>; a. e.—",
+				"<cite ref=\"Yoma 77b:17\">Yoma 77ᵇ</cite>; <cite ref=\"Chullin 51a:10\">Ḥull. 51ᵃ</cite> <he>ר׳ ה׳ צפוראה</he> (prob. the same)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>Mar Huna, Resh Galutha</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:8\">Y. Kil. IX, 32ᵇ</cite> (read <he>מר</he> for <cite ref=\"T00042\"><he>רב</he></cite>). [<cite ref=\"Jerusalem Talmud Kilayim 9:3:8\">Ib.</cite> bot., strike out <he>ריש גל׳</he>, v. ",
+				"<cite ref=\"Moed Katan 25a:24\">M. Kat. 25ᵃ</cite>]; a. others. V. Fr. M’bo, p. 73ᵃ, sq. [<he>הונא</he>, <cite ref=\"Gittin 86b:26\">Gitt. 86ᵇ</cite>, v. <cite ref=\"E00180\"><he>הֵוָא</he></cite>.]"
+			],
+			"label": "4"
+		}
+	]
+}

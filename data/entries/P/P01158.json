@@ -1,0 +1,22 @@
+{
+	"id": "P01158",
+	"slug": "עקובה",
+	"headword": {
+		"text": "עֲקוּבָּה"
+	},
+	"page": {
+		"number": 1105,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (v. <cite ref=\"P01146\"><he>עֵקֶב</he></cite>) <i>haunch, posteriors</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 96a:14\">Snh. 96ᵃ</cite> <he>אשתני אפיה כע׳ דכלבא</he> Ar. s. v. (Ar. s. v. <he>בן יכבד אב</he>: <he>כעוּקְבָּא</he>; ed. <he>והוה כי דכלבא</he>; <cite ref=\"Yalkut Shimoni on Nach 244\">Yalk. Kings 244</cite> <he>והוה כי כלב</he>) his face changed so as to look like the posteriors of a dog."
+			]
+		}
+	]
+}

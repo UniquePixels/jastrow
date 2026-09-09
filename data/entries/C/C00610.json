@@ -1,0 +1,23 @@
+{
+	"id": "C00610",
+	"slug": "גיב-2",
+	"headword": {
+		"text": "גִּיב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 234,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"C00031\"><he>גַּב</he></cite>) <i>back, top</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 9:3\">Targ. Prov. IX, 3</cite> ed. (Ms. <cite ref=\"C00269\"><he>גּוּב</he></cite>)."
+			]
+		}
+	]
+}

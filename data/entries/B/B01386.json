@@ -1,0 +1,28 @@
+{
+	"id": "B01386",
+	"slug": "בתולתא-1",
+	"headword": {
+		"text": "בְּתוּלְתָּא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּתוּלָא"
+		}
+	],
+	"page": {
+		"number": 200,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"B01383\"><he>בְּתוּלָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 24:16\">Targ. Gen. XXIV, 16</cite>; a. fr.—Pl. <cite ref=\"B01382\"><he>בְּתוּלָן</he></cite>, <he>בְּתוּלְתָּן</he>, <cite ref=\"B01386\"><he>בְּתוּלָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 148:12\">Targ. Ps. CXLVIII, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 2:2\">Targ. Esth. II, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 1:15\">Targ. Lam. I, 15</cite> (read:) <he>וסאיב בְּתוּלָתָא</he>."
+			]
+		}
+	]
+}

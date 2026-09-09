@@ -1,0 +1,46 @@
+{
+	"id": "H00158",
+	"slug": "חגר-3",
+	"headword": {
+		"text": "חָגַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 424,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"H00160\"><he>חִגֵּר</he></cite>) <i>to halt, to limp; to hesitate</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 18a:1\">Ḥull. 18ᵃ</cite> <he>כדי שתַּחְגּוֹר וכ׳</he> a notch deep enough for the nail to halt on passing over the edge; <cite ref=\"Bekhorot 37b\">Bekh. 37ᵇ</cite>; <cite ref=\"Tosefta Bekhorot 4:1\">Tosef. ib. IV, 1</cite> <he>והיא חוֹגֶרֶת</he> and it (the finger nail) is caught."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶחְגִּיר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H00157\">same</cite>. Y. Pes. VII, 35ᵇ top <he>כדי שתהא היד מַחְגֶּרֶת</he> enough for the finger to be caught. ",
+					"units": [
+						"<cite ref=\"Mishnah Zavim 3:1\">Zab. III, 1</cite> <he>מַחְגִּירִין</he> they halt (do not stand firm)."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִתְחַגֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to become lame</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Eduyot 1:14\">Tosef. Eduy. I, 14</cite>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

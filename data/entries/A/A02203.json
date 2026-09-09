@@ -1,0 +1,24 @@
+{
+	"id": "A02203",
+	"slug": "אנטלי",
+	"headword": {
+		"text": "אֶנְטְלִי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 84,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἐντολεύς) <i>procurator, mandatary</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:1:2\">Y. Snh. II, beg. 19ᵈ</cite> <he>וימנה לו א׳</he> (ed. incorr. <he>ליה אנטלר</he>) let him appoint a mandatary. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:1:2\">Ib.</cite> <he>וא׳ בשבועה</he> can the mandatary take an oath for his client?"
+			]
+		}
+	]
+}

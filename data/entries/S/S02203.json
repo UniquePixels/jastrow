@@ -1,0 +1,30 @@
+{
+	"id": "S02203",
+	"slug": "קרתא-1",
+	"headword": {
+		"text": "קַרְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַרְתָּה"
+		},
+		{
+			"text": "קָ׳"
+		}
+	],
+	"page": {
+		"number": 1428,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"S02202\">same</cite> <cite ref=\"Onkelos Genesis 4:17\">Targ. Gen. IV, 17</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 19:18\">Targ. Is. XIX, 18</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:9\">Y. Taan. IV, 68ᵈ</cite>, v. <cite ref=\"M02596\"><he>מֵרוֹן</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:9\">Ib.</cite> top <he>טב ק׳</he>, v. <cite ref=\"I00019\"><he>טַב</he> II</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:9\">Ib.</cite>, v. <cite ref=\"J00384\"><he>יָלֵיל</he></cite>."
+			]
+		}
+	]
+}

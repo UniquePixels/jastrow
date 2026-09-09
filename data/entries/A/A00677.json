@@ -1,0 +1,23 @@
+{
+	"id": "A00677",
+	"slug": "אולמא-2",
+	"headword": {
+		"text": "אוּלְמָא"
+	},
+	"page": {
+		"number": 26,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A01905\"><he>אֲלַם</he></cite>) <i>strength, strong side</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 134a:14\">Sabb. 134ᵃ</cite> <he>מא׳ לקוטנא</he> from the thick to the thinner side.—",
+				"<cite ref=\"Niddah 8a\">Nidd. 8ᵃ</cite>, a. fr. <he>מאי אוּלְמֵיה</he> wherein does his (its) strength consist, i.e. why is this opinion preferable to &c.?"
+			]
+		}
+	]
+}

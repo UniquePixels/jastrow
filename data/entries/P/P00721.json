@@ -1,0 +1,32 @@
+{
+	"id": "P00721",
+	"slug": "עכברי",
+	"headword": {
+		"text": "עַכְבְּרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַכְבְּרַיָּא"
+		},
+		{
+			"text": "עַכְבְּרִין"
+		}
+	],
+	"page": {
+		"number": 1078,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>ʿAkhbré, ʿAkhb’raya, ʿAkhb’rin</i> in Upper Galilee (v. Neub. Géogr. p. 226). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 84b:11\">B. Mets. 84ᵇ</cite> <he>בני עכבריא</he> (Ms. M. <cite ref=\"P00716\"><he>עכבורא</he></cite>; Ms. H. <cite ref=\"P00716\"><he>עכבורי</he></cite>). ",
+				"<cite ref=\"Kohelet Rabbah 2:8:2\">Koh. R. to II, 8</cite> <he>מן עכברין</he> (pheasants) from ʿA. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 8:4:3\">Y. Erub. VIII, 25ᵃ</cite> bot. <cite ref=\"P00721\"><he>עכברי</he></cite>. Y. Ter. IX, end, 48ᵇ; <cite ref=\"Jerusalem Talmud Shabbat 2:1:17\">Y. Sabb. II, 4ᵈ</cite> top <he>ר׳ חנניא בר ע׳</he>."
+			]
+		}
+	]
+}

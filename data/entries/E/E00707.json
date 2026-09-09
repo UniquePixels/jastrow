@@ -1,0 +1,25 @@
+{
+	"id": "E00707",
+	"slug": "הסיע",
+	"headword": {
+		"text": "הֶסֵּיעַ"
+	},
+	"page": {
+		"number": 359,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00954\"><he>נָסַע</he></cite>) = <cite ref=\"E00706\">preced. w.</cite>, (with or sub. <he>הַדַּעַת</he>) <i>discarding, giving up</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 1:8:9\">Y. Pes. I, 28ᵇ</cite> top <he>ה׳ דבר תורה</he>, v. <cite ref=\"E00470\"><he>הֶיסֵּחַ</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 7:2:3\">Y. Shek. VII, beg. 50ᶜ</cite> <he>ה׳ דעת טעון וכ׳</he> sacrificial meat whose existence has been forgotten (is unfit and) requires decomposition before it is burnt. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:8:2\">Y. Meg. IV, 75ᶜ</cite> top <he>מפני ה׳ ד׳</he> because his attention may be diverted (by looking at the priests); <cite ref=\"Jerusalem Talmud Taanit 4:1:4\">Y. Taan. IV, beg. 67ᵇ</cite> <cite ref=\"M01925\"><he>מסיע</he></cite> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 10:7:2\">Y. Pes. X, 37ᵈ</cite> bot. <he>מפני ה׳ הד׳</he> because the thought of eating it has been abandonned."
+			]
+		}
+	]
+}

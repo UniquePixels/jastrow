@@ -1,0 +1,34 @@
+{
+	"id": "T01019",
+	"slug": "רקד-2",
+	"headword": {
+		"text": "רְקַד"
+	},
+	"page": {
+		"number": 1496,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>רַקֵּד</he> <cite ref=\"T01018\">same</cite>, <i>to dance</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 6:16\">Targ. II Sam. VI, 16</cite>.—",
+						"<cite ref=\"Jerusalem Talmud Chagigah 2:1:10\">Y. Ḥag. II, 77ᵇ</cite> <he>שרון מטפחין ומְרַקְּדִין</he> (not <he>ומרקדקין</he>) they began to clap and dance. ",
+						"<cite ref=\"Kohelet Rabbah 3:2\">Koh. R. to III, 2</cite> <he>לית … עד דאת מְרַקֵּיד וכ׳</he> thou shalt not move from here, until thou dancest a little for us. ",
+						"<cite ref=\"Bereishit Rabbah 63\">Gen. R. s. 63</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

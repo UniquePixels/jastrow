@@ -1,0 +1,29 @@
+{
+	"id": "M02707",
+	"slug": "מרכל",
+	"headword": {
+		"text": "מַרְכָּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַרְכּוֹל"
+		}
+	],
+	"page": {
+		"number": 844,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"A02068\"><he>אֲמַרְכּוֹל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 10:3:3\">Y. Sabb. X, 12ᶜ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:2:3\">Y. Shek. V, 49ᵃ</cite>; a. e.—Pl. <he>מַרְכּוֹלִין</he>. ",
+				"<cite ref=\"Mishnah Shekalim 5:3\">Shek. V, 3</cite> Y. ed.; a. e."
+			]
+		}
+	]
+}

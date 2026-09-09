@@ -1,0 +1,28 @@
+{
+	"id": "K00304",
+	"slug": "כונותא",
+	"headword": {
+		"text": "כַּוָּנוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּוַּנְתָּא"
+		},
+		{
+			"text": "כַּוּו׳"
+		}
+	],
+	"page": {
+		"number": 622,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"K00303\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 35:20\">Targ. Y. Num. XXXV, 20</cite> <he>בכַוָּונוּת לבא</he> with premeditation (h. text <he>בצדיה</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 7:4\">Targ. Ps. VII, 4</cite>."
+			]
+		}
+	]
+}

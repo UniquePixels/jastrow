@@ -1,0 +1,30 @@
+{
+	"id": "R00459",
+	"slug": "ציריא",
+	"headword": {
+		"text": "צִירְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִרְ׳"
+		}
+	],
+	"page": {
+		"number": 1281,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>צְרֵי</he> I; Syr. <cite ref=\"R00763\"><he>צריא</he></cite>, P. Sm. 3441) <i>slit, incision</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 40a:9\">Pes. 40ᵃ</cite> <he>כיון דאית בהו צ׳ וכ׳</he> as they (the wheat grains) have a slit, the water penetrates them. ",
+				"<cite ref=\"Pesachim 40a:9\">Ib.</cite> top <he>דילמא … בצִירְיָהּ דחבירתה</he> (Ms. M. <he>בצייריא</he>, read: <he>בצִירְיָיא</he>) maybe one grain moves in boiling and settles in the slit of the other. ",
+				"<cite ref=\"Niddah 23a:32\">Nidd. 23ᵃ</cite> <he>הא באוכמא הא בצ׳</he> in one case the shape of the black of the eye is meant, in the other, the slit (in which the eye is seated), v. <cite ref=\"R00319\"><he>צִיהֲרָא</he></cite>.—Pl. <he>צִירְיֵי</he>. ",
+				"<cite ref=\"Avodah Zarah 65b:11\">Ab. Zar. 65ᵇ</cite> <he>אגב צִירַיְיהוּ וכ׳</he> (Ms. M. <he>דאית בהו צירי</he>, read <he>צִירְיֵי</he>) on account of their slits, they are considered as if they were burst open."
+			]
+		}
+	]
+}

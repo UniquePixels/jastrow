@@ -1,0 +1,34 @@
+{
+	"id": "B01011",
+	"slug": "בסר-2",
+	"headword": {
+		"text": "בְּסַר"
+	},
+	"page": {
+		"number": 180,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01010\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 69:34\">Targ. Ps. LXIX, 34</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּסֵּיר", "בַּסַּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"B01010\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 15:31\">Targ. O. Num. XV, 31</cite> ed. Berl.; a. fr.; [in ed. sometimes <he>בשר</he>].—",
+						"<cite ref=\"Targum Jonathan on I Samuel 11:12\">Targ. I Sam. XI, 12</cite> <he>מבסר למימר</he> spoke sneeringly.—Y. Ber. II, 5ᶜ bot. <he>בר נש דאימיה מְבַסְּרָא ליה</he> one whom his mother (Palestine) despises and his stepmother (Babylon) honors; v. <cite ref=\"A01961\"><he>אֵם</he></cite>. Y. Snh. I, 19ᵃ top; Y. Ned. VI, 40ᵃ <he>בעא מבסרתהון</he> (<he>מבסרתון</he>; read <he>מבסר בהון</he>) he wanted to despise them (reject their authority)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

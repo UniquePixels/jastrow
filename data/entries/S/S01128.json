@@ -1,0 +1,23 @@
+{
+	"id": "S01128",
+	"slug": "קיצונים",
+	"headword": {
+		"text": "קִיצוֹנִים"
+	},
+	"page": {
+		"number": 1367,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>קצץ</he>) <i>slender, dwarfed</i>; <he>בצלים הק׳</he> <i>onions with minute heads and slender stems</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 5:4\">Shebi. V, 4</cite>, v. <cite ref=\"S00754\"><he>קַטִּינַאי</he></cite>; [comment. <cite ref=\"S00890\"><he>קַיְ׳</he></cite> (denom. of <cite ref=\"S01116\"><he>קַיִץ</he></cite>) <i>summer-onions</i>, v. <cite ref=\"S00931\"><he>קַיְיטִינָאֵי</he></cite>]."
+			]
+		}
+	]
+}

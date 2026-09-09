@@ -1,0 +1,32 @@
+{
+	"id": "A01676",
+	"slug": "אכורנקא",
+	"headword": {
+		"text": "אַכְוַרְנְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַכְוַורְנְקֵי"
+		},
+		{
+			"text": "כְּוַורְנַק"
+		}
+	],
+	"page": {
+		"number": 62,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A01675\">preced.</cite>; Pers. <i>Khorengah</i>, Arab. <i>Khawarnak</i>, Fl.) <i>dining place, dining hall in the garden</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:50\">Targ. Y. Deut. XXXII, 50</cite>, <he>א׳ … קי דמלכיא</he> a royal banqueting hall (put up for the wedding). ",
+				"<cite ref=\"Taanit 14b\">Taan. 14ᵇ</cite>; <cite ref=\"Megillah 5b\">Meg. 5ᵇ</cite> (distinguishing between <cite ref=\"B00953\"><he>בנין</he></cite>, erection of a building, and <cite ref=\"N00563\"><he>נטיעה</he></cite>, putting up a temporary structure), what is meant by ‘putting up a tent of joy?’—<he>זה הנוטע אכ׳ של מלכים</he> Ms. M. (Ar. <cite ref=\"K00001\"><he>כ׳</he></cite>; ed. <cite ref=\"A01133\"><he>אב׳</he></cite>, corr. acc.) it means one putting up a regal banqueting tent (for his son’s wedding). ",
+				"<cite ref=\"Eruvin 25b\">Erub. 25ᵇ</cite> <he>אכ׳ וכ׳</he> (ed. <cite ref=\"A01133\"><he>אב׳</he></cite>) the Resh Gelutha was to have a banquet (on a Sabbath) in his garden."
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "P00470",
+	"slug": "עטף-2",
+	"headword": {
+		"text": "עָטַף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1064,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"P00469\">preced.</cite>) [<i>to let hang over</i>,] <i>to wrap one’s self up, to put on an upper garment</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 3:8:2\">Y. Ned. III, 38ᵃ</cite> bot. <he>עתיד … לַעֲטוֹף טליתו וכ׳</he> wicked Esau (Rome) shall put on his cloak (for prayer, v. <cite ref=\"I00504\"><he>טַלִּית</he></cite>) and sit down among the righteous &c.—Part. pass. <cite ref=\"P00438\"><he>עָטוּף</he></cite>; pl. <he>עֲטוּפִים</he>, <cite ref=\"E00313\"><he>עֲטוּפִין</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 20:3\">Num. R. s. 20</cite> <he>נראין ע׳ לשלום</he> they appeared cloaked for peace, opp. <he>מזויינין למלחמה</he> in armor for war. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:9:4\">Y. Ab. Zar. I, 40ᵃ</cite> bot. <he>ע׳ ויושבין</he> wrapped (in the judge’s cloak) and seated."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְעַטֵּף"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְעַטֵּף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P00469\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Shabbat 10a:4\">Sabb. 10ᵃ</cite> <he>משיִתְעַטְּפוּ הדיינין</he> when the judges put their cloaks on. ",
+						"<cite ref=\"Shabbat 31a\">Ib. 31ᵃ</cite> <he>נ׳ ויצא וכ׳</he> he (Hillel) wrapped himself up and came out to meet him. ",
+						"<cite ref=\"Ketubot 66b:11\">Keth. 66ᵇ</cite> <he>נִתְעַטְּפָה בשערה</he> she covered herself with her hair. ",
+						"<cite ref=\"Berakhot 16b:19\">Ber. 16ᵇ</cite> <he>ותִתְעַטֵּף בחסידותיך</he> clothe thyself in thy kindness; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

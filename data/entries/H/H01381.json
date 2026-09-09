@@ -1,0 +1,33 @@
+{
+	"id": "H01381",
+	"slug": "חסימה-2",
+	"headword": {
+		"text": "חֲסִימָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 487,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חָסַם</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"H00833\"><he>חִיסּוּם</he></cite>, <i>steel-edge</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 3:7\">Tosef. Kel. B. Mets. III, 7</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>varnish, glaze</i>. Ib. I, 3 (quot. in R. S. to <cite ref=\"Mishnah Kelim 11:4\">Kel. XI, 4</cite>), v. <cite ref=\"M00906\"><he>מַחְסוֹמִית</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "E00455",
+	"slug": "הינדיקי",
+	"headword": {
+		"text": "הִינְדִּיקִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "הִנְ׳"
+		}
+	],
+	"page": {
+		"number": 348,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (Ἰνδική, sub. γῆ) <i>India</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 2:11\">Targ. Y. Gen. II, 11</cite> <he>ארע ה׳</he> (Ar. <cite ref=\"E00657\"><he>הִנְדְּוִין</he></cite>; h. text <he>חוילה</he>). Ib. XXV, 18 <he>הנדקי</he> (Y. II <he>הינדיקיא</he>).—Denom. <he>הִינְדִּיקָאֵי</he>, <cite ref=\"E00664\"><he>הִינְדְּקָ׳</he></cite>, <cite ref=\"E00452\"><he>הִנְ׳</he></cite> <i>Indians</i>. ",
+				"<cite ref=\"Targum of I Chronicles 1:9\">Targ. I Chr. I, 9</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "S01827",
+	"slug": "קצירה",
+	"headword": {
+		"text": "קְצִירָה"
+	},
+	"page": {
+		"number": 1406,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"S01825\"><he>קָצִיר</he></cite> <i>cutting, harvesting</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:2\">Y. Peah I, beg. 15ᵃ</cite> <he>קְצִירַת שבולת וכ׳</he> the cutting of the first ear has the same effect (on the duty of leaving a corner) as the striking off of the pile has (on the duty of giving T’rumah). ",
+				"<cite ref=\"Shabbat 70a\">Sabb. 70ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

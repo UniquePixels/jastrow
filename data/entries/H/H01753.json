@@ -1,0 +1,23 @@
+{
+	"id": "H01753",
+	"slug": "חרצא-1",
+	"headword": {
+		"text": "חַרְצָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 505,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01750\"><he>חֲרַץ</he></cite>) <i>digging, a digger</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 80a:12\">B. Kam. 80ᵃ</cite> (marginal version) <he>שרצא ח׳ וא״ד ח׳</he> a digging animal, and some use only the word <i>ḥartsa:</i> digger; v. <cite ref=\"H01649\"><he>חַרְזָא</he></cite>."
+			]
+		}
+	]
+}

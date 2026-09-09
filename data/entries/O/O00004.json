@@ -1,0 +1,64 @@
+{
+	"id": "O00004",
+	"slug": "סאב-2",
+	"headword": {
+		"text": "סְאֵב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 947,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O00003\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סָאֵב", "סָאֵיב"],
+			"senses": [
+				{
+					"gloss": "<i>to soil, defile, make unclean, unfit for sacrifice</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 15:31\">Targ. Lev. XV, 31</cite>. ",
+						"<cite ref=\"Onkelos Genesis 34:5\">Targ. Gen. XXXIV, 5</cite>; a. fr.—",
+						"<cite ref=\"Taanit 11a:17\">Taan. 11ᵃ</cite> bot. <he>ההוא דסָאֵיב נפשיה</he> that is because he defiled himself (by touching a corpse &c.). Y. Maas. Sh. III, 54ᵇ top <he>מְסָאֵב לה ופדי לה</he> made the fruit unclean and also redeemed it. Y. Snh. I, 18ᵇ top <he>חד בר נש ס׳ וכ׳</he> a man caused a priest to become unclean; a. e.—<i>Part. pass.</i> <cite ref=\"M01828\"><he>מְסָאַב</he></cite>, f. <cite ref=\"M01828\"><he>מְסָאֲבָא</he></cite>; pl. <he>מְסָאֲבִין</he> &c. ",
+						"<cite ref=\"Onkelos Leviticus 14:40\">Targ. Lev. XIV, 40</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 14:40\">Ib.</cite> O. XII, 2. ",
+						"<cite ref=\"Onkelos Leviticus 11:8\">Ib. XI, 8</cite>; a. fr.—",
+						"<cite ref=\"Temurah 22a:16\">Tem. 22ᵃ</cite> <he>הא מְסָאֲבָה וקיימא</he> is it not already unfit for sacrifice?, v. <cite ref=\"O00003\">preced.</cite> ",
+						"<cite ref=\"Avodah Zarah 37a:3\">Ab. Zar. 37ᵃ</cite>; <cite ref=\"Mishnah Eduyot 8:4\">Eduy. VIII, 4</cite> Ms. M., v. infra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to declare unclean</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 13:44\">Targ. Lev. XIII, 44</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִסְתָּאֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to be made unclean, be unclean</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 6:12\">Targ. Num. VI, 12</cite> (Regia <cite ref=\"M01828\"><he>מסאב</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Numbers 6:11\">Targ. Y. ib. 11</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 13:45\">Targ. O. Lev. XIII, 45</cite>. ",
+						"<cite ref=\"Onkelos Deuteronomy 22:9\">Targ. O. Deut. XXII, 9</cite> (h. text <he>תקדש</he>); a. fr.—",
+						"<cite ref=\"Mishnah Eduyot 8:4\">Eduy. VIII, 4</cite> <he>ודיקרב במיתא מִסְתָּאָב</he> (Ms. M. <cite ref=\"M01828\"><he>מְסָאַב</he></cite>) only what is sure to have touched a corpse is unclean (v. ",
+						"<cite ref=\"Avodah Zarah 37b:5\">Ab. Zar. 37ᵇ</cite>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

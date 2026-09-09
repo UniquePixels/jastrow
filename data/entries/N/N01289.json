@@ -1,0 +1,33 @@
+{
+	"id": "N01289",
+	"slug": "נשבים",
+	"headword": {
+		"text": "נִשְׁבִּים"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִשְׁבִּין"
+		},
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 938,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>נשב</he>; cmp. <cite ref=\"Q00438\"><he>פַּח</he></cite>) <i>trap, snare, net</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 13:5:2\">Y. Sabb. XIII, 14ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Beitzah 3:1:2\">Y. Bets. III, 62ᵃ</cite> top <he>מחוסר נ׳</he> that which must be caught by snares to be available. ",
+				"<cite ref=\"Shabbat 90b:3\">Sabb. 90ᵇ</cite> <he>מצניעין אותן לנ׳</he> they (the horse’s hairs) are laid aside to be used for bird snares. ",
+				"<cite ref=\"Mishnah Bava Kamma 7:7\">B. Kam. VII, 7</cite> (<cite ref=\"Bava Kamma 79b:14\">79ᵇ</cite>) <he>אין פורסין נשבים וכ׳</he> (Talm. ed. <cite ref=\"N00798\"><he>נישובים</he></cite>; Ms. M. <cite ref=\"N01289\"><he>נשבין</he></cite>; Rashi to <cite ref=\"Chullin 116a\">Ḥull. 116ᵃ</cite> quotes <cite ref=\"T00720\"><he>רישבין</he></cite>) you must not spread gins for doves, unless &c."
+			]
+		}
+	]
+}

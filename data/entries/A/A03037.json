@@ -1,0 +1,29 @@
+{
+	"id": "A03037",
+	"slug": "ארוני",
+	"headword": {
+		"text": "אֲרוֹנֵי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲרָאנֵי"
+		}
+	],
+	"page": {
+		"number": 117,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (prob. pl. of <cite ref=\"A03035\"><he>ארונא</he></cite>, so called from closing and opening like chests) name of certain <i>plants</i> growing in marshes and closing their leaves at nightfall. ",
+			"units": [
+				"<cite ref=\"Shabbat 35b:3\">Sabb. 35ᵇ</cite> <he>בדברא עורבי באגמא חזו אדני</he> Ms. M. (ed. <he>עורבי א״נ אדאני …</he>; v. Rabb. D. S. a. l., Ar. <cite ref=\"E00885\"><he>הרני</he></cite>, Var. <cite ref=\"A03037\"><he>ארוני</he></cite>, Rashi ed. Sonc., Asheri a. R. Niss. early ed. <cite ref=\"A02948\"><he>אראני</he></cite>) in the desert you recognize the entrance of the Sabbath (on a cloudy day) by the ravens, in marsh-land you look out for <i>aroné</i>"
+			]
+		}
+	]
+}

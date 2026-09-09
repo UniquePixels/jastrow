@@ -1,0 +1,33 @@
+{
+	"id": "U00078",
+	"slug": "שבוע",
+	"headword": {
+		"text": "שָׁבוּעַ"
+	},
+	"page": {
+		"number": 1510,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U00155\"><he>שֶׁבַע</he></cite>)<i>a period of seven days, week</i>.—<he>שְׁבוּעַ הַבֵּן</he>, v. <cite ref=\"B00932\"><he>בֵּן</he></cite>.—Pl. <he>שָׁבוּעוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 28:3\">Lev. R. s. 28</cite> <he>שבע ש׳ שבין וכ׳</he> the seven weeks between Passover and the Feast of Weeks; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " “<i>year-week</i>”, <i>a period of seven years, septennate</i> (the jubilee being divided into seven septennates); also <i>the seventh year, Sabbatical year</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 5:1\">Snh. V, 1</cite>, v. <cite ref=\"H01558\"><he>חֲקִירָה</he></cite>. ",
+				"<cite ref=\"Gittin 77a:6\">Gitt. 77ᵃ</cite> <he>לאחר ש׳ שנה</he> if a person says, ‘give my wife a letter of divorce (or to his wife, ‘be thou divorced’), if I do not come back after the septennate’, we must wait one year (after the Sabbatical year). ",
+				"<cite ref=\"Mishnah Nedarim 8:1\">Ned. VIII, 1</cite> <he>ש׳ זה אסור בכל הש׳ וכ׳</he> (not <he>השבועה</he>) if a person, during a Sabbatical year, vows abstinence, using the word ‘this <i>shabu‘a</i>ʾ, he is bound the entire coming septennial period and the seventh year of the expiring Sabbatical period. ",
+				"<cite ref=\"Mishnah Nedarim 8:1\">Ib.</cite> <he>ש׳ אחד אסור וכ׳</he> but if he says, ‘one septennate’, he is bound from date to date, i.e. counting seven years from the day of the vow; a. fr.—<i>Pl.</i> as ab. Y. Sabb. X, 17ᵃ top <he>אי אפשר לשני ש׳ שלא חל וכ׳</he> it is not possible that during fourteen years the fourteenth day of Nisan should not occur on a Sabbath; <cite ref=\"Jerusalem Talmud Pesachim 6:1:6\">Y. Pes. VI, 33ᵃ</cite> bot. <he>לשני שביעית שיחול</he> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

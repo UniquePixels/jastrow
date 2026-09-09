@@ -1,0 +1,26 @@
+{
+	"id": "B01013",
+	"slug": "בסר-4",
+	"headword": {
+		"text": "בְּסַר",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 180,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01012\">same</cite>. Part. <cite ref=\"B01000\"><he>בְּסִיר</he></cite> m., <cite ref=\"B01000\"><he>בְּסִירָא</he></cite> f., pl. <cite ref=\"B01000\"><he>בְּסִירָן</he></cite> <i>in the early stage of ripening</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 9:34\">Targ. Y. Ex. IX, 34</cite> <he>סערייא</he> … <he>בסירן</he> Ar. (ed. <he>סרתא … כסידא</he>, <cite ref=\"K00931\"><he>כסירא</he></cite>, read <cite ref=\"B01000\"><he>בסירא</he></cite>; h. text <he>אביב</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be cheerful;</i> v. <cite ref=\"B01369\"><he>בְּשַׂר</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

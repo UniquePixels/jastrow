@@ -1,0 +1,56 @@
+{
+	"id": "B00459",
+	"slug": "בזע",
+	"headword": {
+		"text": "בְּזַע"
+	},
+	"page": {
+		"number": 154,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (√<cite ref=\"B00406\"><he>בז</he></cite>, v. <he>בְּזֵי</he> II; cmp. <he>בצע</he>, <he>פצע</he> &c.) <i>to split, perforate, rend</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 37:29\">Targ. Gen. XXXVII, 29</cite> (ed. Berl. Pa.). ",
+				"<cite ref=\"Aramaic Targum to Psalms 78:13\">Targ. Ps. LXXVIII, 13</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:8:3\">Y. M. Kat. III, 83ᵈ</cite> top <he>ובְזָעוֹן</he> and rent them (his garments); <cite ref=\"Jerusalem Talmud Sanhedrin 2:1:4\">Y. Snh. II, 20ᵃ</cite> top <he>ובזעיה</he> (corr. acc.). ",
+				"<cite ref=\"Vayikra Rabbah 6:5\">Lev. R. s. 6</cite>; <cite ref=\"Eichah Rabbah 1:1\">Lam. R. to II, 17</cite> (expl. <he>בצע אמרתו</he> <cite ref=\"Eichah Rabbah 1:1\">ib.</cite>) <he>פורפיריה ב׳</he> He rent His purple (allowed the Temple curtain to be cut through by Titus)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּזַּע"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"B00458\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 78:15\">Targ. Ps. LXXVIII, 15</cite>; a. e. (Var. Pe., v. supra).—Part. pass. <he>מְבַזַּע</he>. ",
+						"<cite ref=\"Targum Jonathan on Joshua 9:4\">Targ. Josh. IX, 4</cite>.—Y. Kil. IX, 32ᵇ top; Y. Keth. XII, 35ᵃ top <he>מאנוי מבזעין</he> his garments torn. Y. Kidd. I, 60ᵃ top <he>והיא מְבַזְּעָא בידיה</he> and it (the wine botte) bursts in his hand; v. infra."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְבַּזַּע"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְבְּזַע"],
+			"senses": [
+				{
+					"gloss": ", contr. <he>אִיבְּזַע</he> <i>to be split, rent</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 16:31\">Targ. Num. XVI, 31</cite>; a. fr. Y. Ab. Zar. III, 42ᶜ top <he>א׳ ימא וכ׳</he> the lake of Tib. was split. ",
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>מִתְבַּזַּע</he>. Ib. II, 41ᶜ top <he>אתבזעת זיקיה</he> his wine bottle burst. Ib. V, 45ᵃ top <he>והיא מִיבַּזְּעָא בידיה</he>, v. supra. ",
+						"<cite ref=\"Bekhorot 36a:12\">Bekh. 36ᵃ</cite> <he>איבזע׳ שיפתיה</he> his lip was slit; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

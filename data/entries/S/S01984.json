@@ -1,0 +1,35 @@
+{
+	"id": "S01984",
+	"slug": "קרחת",
+	"headword": {
+		"text": "קָרַחַת"
+	},
+	"page": {
+		"number": 1416,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"S01968\"><he>קָרַח</he></cite>)<i>baldness</i>; <he>ק׳ הכרם</he> razed portion of a vineyard. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 4:1\">Kil. IV, 1</cite>, v. <cite ref=\"S01968\"><he>קָרַח</he></cite> <i>Hif.</i>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>smooth back</i> or <i>inside of cloth; worn cloth</i>. Sifra Thazr., Par. 5, ch. XV <he>בקָרַחְתּוֹ אלו השחקים</he> <i>b’ḳaraḥto</i> (<cite ref=\"Leviticus 13:55\">Lev. XIII, 55</cite>) means worn cloth, opp. <cite ref=\"C00070\"><he>גַּבַּחַת</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>a leprous affection on the back of the head</i> (making it bald). ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 10:10\">Neg. X, 10</cite> <he>איזו היא ק׳ מן הקדקד וכ׳</he> which portion of the head is meant by <i>ḳaraḥath</i>? From the crown sliding backward &c.; <cite ref=\"Tosefta Negaim 4:9\">Tosef. ib. IV, 9</cite>; Sifra l. c. ch. X; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

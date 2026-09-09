@@ -1,0 +1,34 @@
+{
+	"id": "B01073",
+	"slug": "בצא-2",
+	"headword": {
+		"text": "בִּצָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּיצָּא"
+		},
+		{
+			"text": "בּוּצָא"
+		}
+	],
+	"page": {
+		"number": 183,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= h. <cite ref=\"B00678\"><he>בִּיצָּה</he></cite>) <i>swamp, pond</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 8:11\">Targ. Job VIII, 11</cite> (Var. <he>כיסנא</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 69:3\">Targ. Ps. LXIX, 3</cite> <he>בוצא דמצולתא</he> Ms. (ed. <he>מיא</he>).—Pl. <cite ref=\"B01086\"><he>בִּצִּין</he></cite>, <he>בִּצַּיָּא</he>, <cite ref=\"B00125\"><he>בִּי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 14:23\">Targ. Is. XIV, 23</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Exodus 8:1\">Targ. Y. II, Ex. VIII, 1</cite> (ed. Vien. <he>בֵּיצַיָּא</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 47:11\">Targ. Ezek. XLVII, 11</cite>."
+			]
+		}
+	]
+}

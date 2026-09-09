@@ -1,0 +1,21 @@
+{
+	"id": "A02284",
+	"slug": "אנץ",
+	"headword": {
+		"text": "אֲנַץ",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 87,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (sec. r. of <cite ref=\"A00820\"><he>אוּץ</he></cite>, v. <cite ref=\"A02240\"><he>אָנִיץ</he></cite>) <i>to squeeze in, fasten</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 12:11\">Targ. Koh. XII, 11</cite> <he>דאנצין</he>, read <he>דאֲנִיצִין</he> which are fastened (h. text <he>נטועים</he>; gloss <he>דאציתין</he>, clerical error for <he>דאניצין</he> or <he>דנציבין</he>, embodied in the text of some ed.). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 13:21\">Targ. I Sam. XIII, 21</cite>, Ar., v. <cite ref=\"N01098\"><he>נְצַב</he></cite>."
+			]
+		}
+	]
+}

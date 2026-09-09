@@ -1,0 +1,22 @@
+{
+	"id": "O00458",
+	"slug": "סחיפא",
+	"headword": {
+		"text": "סְחִיפָא"
+	},
+	"page": {
+		"number": 971,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סְחַף</he> II) <i>an inverted vessel</i>, opp. <cite ref=\"G00633\"><he>זְקִיפָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Pesachim 40a:3\">Pes. 40ᵃ</cite> <he>ס׳ שרי</he> (ed. <he>סחיפה</he>; Ms. M. <he>סִיחְפָּא</he>) if the grain is roasted in an inverted vessel &c., v. <cite ref=\"G00633\"><he>זְקִיפָא</he> I</cite>."
+			]
+		}
+	]
+}

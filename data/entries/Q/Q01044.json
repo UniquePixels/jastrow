@@ -1,0 +1,25 @@
+{
+	"id": "Q01044",
+	"slug": "פליגא-2",
+	"headword": {
+		"text": "פְּלִיגָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טוּרָא פְּלִיגָא"
+		}
+	],
+	"page": {
+		"number": 1181,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n.<i>Mount P’liga</i> (<i>Division</i>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 11:17\">Targ. Josh. XI, 17</cite> (h. text <he>ההר החלק</he>)."
+			]
+		}
+	]
+}

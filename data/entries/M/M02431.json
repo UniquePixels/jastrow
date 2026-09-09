@@ -1,0 +1,35 @@
+{
+	"id": "M02431",
+	"slug": "מקמא",
+	"headword": {
+		"text": "מְקָמָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מְקָמָה"
+		},
+		{
+			"text": "מְקָמְתָּא"
+		}
+	],
+	"page": {
+		"number": 831,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00374\"><he>קוּם</he></cite>; v. <cite ref=\"J00562\"><he>יְקוּם</he></cite>; cmp. ",
+			"units": [
+				"<cite ref=\"Genesis 23:17\">Gen. XXIII, 17</cite>; <cite ref=\"Genesis 23:20\">20</cite>) <i>acquisition, bought object, thing</i>. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 11:2:3\">Y. Ned. XI, 42ᶜ</cite> bot. <he>דו יב לה מ׳ טבא</he> when he allows her a good bargain. ",
+				"<cite ref=\"Shir HaShirim Rabbah 8:9:3\">Cant. R. to VIII, 9</cite> <he>למזבן מְקוּמָא</he> to buy some goods.—",
+				"<cite ref=\"Targum Jonathan on Exodus 22:7\">Targ. Y. Ex. XXII, 7</cite>; <cite ref=\"Targum Jonathan on Exodus 22:10\">10</cite> <he>מקמתא</he> Ar. (ed. <cite ref=\"P00633\"><he>עיסקא</he></cite>; h. text <he>מלאכת</he>).—",
+				"<cite ref=\"Bereishit Rabbah 73:5\">Gen. R. s. 73</cite> <he>מאן אכל הדא מקמתא … מאן תבר הדא מ׳</he> who ate this thing (dish, v. <cite ref=\"M02430\"><he>מְקָמָא</he> I</cite>, 2)? who broke this thing (or plate)?—Constr. <cite ref=\"M02433\"><he>מִקְמַת</he></cite>, <cite ref=\"M01287\"><he>מִיקְמַת</he></cite>. Y. Erub. III, 21ᵇ top; Y. Gitt. VII, end, 49ᵃ <he>מ׳ פלן</he> an estate bearing the name of a certain person; Y. Kidd. III, 64ᵃ top <cite ref=\"M00593\"><he>מוקמת</he></cite>; <cite ref=\"Jerusalem Talmud Maaser Sheni 5:3:1\">Y. Maas. Sh. V, 56ᵇ</cite> bot. <cite ref=\"M02433\"><he>מקמת</he></cite>."
+			]
+		}
+	]
+}

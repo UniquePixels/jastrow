@@ -1,0 +1,36 @@
+{
+	"id": "V00212",
+	"slug": "תולדה",
+	"headword": {
+		"text": "תּוֹלָדָה"
+	},
+	"page": {
+		"number": 1653,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"J00367\"><he>יָלַד</he></cite>)<i>birth, procreation, offspring.—</i>Pl. <he>תּוֹלָדוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 12:7\">Gen. R. s. 12</cite> <he>שלשה דברים הללו … שלש ת׳ וכ׳</he> the following three things form the real creations of the world, and each of them delayed three days, and then produced offspring: the earth &c. ",
+				"<cite ref=\"Bereishit Rabbah 12:7\">Ib.</cite> <he>לכל יש ת׳ … יש להן ת׳ וכ׳</he> all things have origins (mentioned in the Bible), heaven and earth have origins &c. ",
+				"<cite ref=\"Bereishit Rabbah 12:7\">Ib.</cite> <he>כל מי שיש לו ת׳ וכ׳</he> whatever has an origin, dies and decays, is created, but does not create, but that which has no origin does not die &c. ",
+				"<cite ref=\"Bamidbar Rabbah 14:12\">Num. R. s. 14<sup>12</sup></cite> <he>בעת שהעמיד ת׳</he> during the time of his begetting children. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 8:3:7\">Y. Sot. VIII, 22ᶜ</cite> bot. <he>שלישי לת׳ ורביעי וכ׳</he> he was the third in the order of birth, and the fourth in the order of accession; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>secondary act, subspecies</i>, opp. <cite ref=\"A00013\"><he>אב</he></cite> or <he>עיקר</he>, v. <cite ref=\"A00014\"><he>אָב</he> II</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:5:6\">Y. Sabb. II, 5ᵃ</cite> bot. <he>שחיטה עיקר וחבורה ת׳</he> slaughtering is the primary act (forbidden on the Sabbath), and wounding is the secondary act. ",
+				"<cite ref=\"Bava Kamma 2a:9\">B. Kam. 2ᵃ</cite> <he>הך … קרי לה ת׳</he> an act which was essential at the building of the Tabernacle is called <i>ab</i>, and one which was not essential, is called <i>toladah</i>; a. fr.—Pl. as ab. ",
+				"<cite ref=\"Bava Kamma 2a:5\">Ib.</cite> <he>מדקתני אבות מכלל דאיכא ת׳</he> since the Mishnah speaks of main damages, we must conclude that there are also secondary ones; <he>תּוֹלְדוֹתֵיהֶן כיוצא בהן וכ׳</he> are their subspecies subject to the same laws or not? <cite ref=\"Shabbat 2b:4-5\">Sabb. 2ᵇ</cite> <he>הכא … תני אבות ותני ת׳ וכ׳</he> here (<cite ref=\"Mishnah Shabbat 1:1\">Sabb. I, 1</cite>) where the main subject is the Sabbath, the Mishnah specifies the main act and the secondary acts, &c.; <cite ref=\"Shevuot 5a:15\">Shebu. 5ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

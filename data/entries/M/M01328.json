@@ -1,0 +1,27 @@
+{
+	"id": "M01328",
+	"slug": "מיתון",
+	"headword": {
+		"text": "מִיתּוּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִתּ׳"
+		}
+	],
+	"page": {
+		"number": 780,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M03079\"><he>מָתַן</he></cite>) <i>stretching</i>, v. <cite ref=\"M01327\">preced.</cite> ",
+			"units": [
+				"<cite ref=\"Mishnah Orlah 1:4\">Orl. I, 4</cite> <he>מחט של מ׳</he> (Ms. M. <he>מיתין</he>), v. <cite ref=\"M01327\">preced.</cite>"
+			]
+		}
+	]
+}

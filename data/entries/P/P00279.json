@@ -1,0 +1,23 @@
+{
+	"id": "P00279",
+	"slug": "עומדות",
+	"headword": {
+		"text": "עוֹמְדוֹת"
+	},
+	"page": {
+		"number": 1052,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"P00859\"><he>עָמַד</he></cite>) <i>standing at meetings, attendance while standing</i>, opp. <he>יְשִׁיבוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 10:5:2\">Y. Sabb. X, 12ᶜ</cite> bot., a. e., v. <cite ref=\"J00689\"><he>יְשִׁיבָה</he></cite>."
+			]
+		}
+	]
+}

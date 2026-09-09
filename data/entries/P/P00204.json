@@ -1,0 +1,27 @@
+{
+	"id": "P00204",
+	"slug": "עודפא",
+	"headword": {
+		"text": "עוּדְפָא"
+	},
+	"page": {
+		"number": 1048,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"P00203\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Eruvin 83a:16\">Erub. 83ᵃ</cite> <he>ואילו ע׳ שתין ותלת</he> whereas the surplus (of the one measure as against the other) is sixty three egg-shells; [Ms. M. a. Rashi <he>עוֹדֶפֶת</he> f. h.]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>greater importance, gravity</i>.—Pl. <he>עוּדְפַיָּיא</he>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 88b:8\">B. Bath. 88ᵇ</cite> <he>מאי עוּדְפַיְיהוּ</he> wherein does their greater gravity consist?"
+			],
+			"label": "2"
+		}
+	]
+}

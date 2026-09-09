@@ -1,0 +1,23 @@
+{
+	"id": "A01876",
+	"slug": "אליקה",
+	"headword": {
+		"text": "אֶלִּיקָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 70,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἕλιξ, acc. … κα) <i>wind-lass</i> for launching ships. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:42\">Y. Sabb. VII, 10ᶜ</cite> top, read: <he>ההן דמגפר אעין למני וחבלין לא׳</he> he who pitches wood for vessels or ropes for a wind-lass."
+			]
+		}
+	]
+}

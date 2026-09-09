@@ -1,0 +1,27 @@
+{
+	"id": "S01093",
+	"slug": "קיף",
+	"headword": {
+		"text": "קַיָּף"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַיָּיף"
+		}
+	],
+	"page": {
+		"number": 1365,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. הַקַּ׳ <i>Haḳḳayaf</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 3:5\">Par. III, 5</cite> <he>הקיף</he> (Mish. ed. <he>הקוף</he>; Ar. a. ed. Dehr. <he>הקייף</he>)."
+			]
+		}
+	]
+}

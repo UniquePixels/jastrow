@@ -1,0 +1,36 @@
+{
+	"id": "G00227",
+	"slug": "זוק",
+	"headword": {
+		"text": "זוק"
+	},
+	"altHeadwords": [
+		{
+			"text": "זיק"
+		}
+	],
+	"page": {
+		"number": 389,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>זַוֵּיק</he> (denom. of <cite ref=\"G00405\"><he>זִיקָא</he> II</cite>) <i>to blow up, fill with air</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 109b:15\">Ḥull. 109ᵇ</cite> <he>זַוִּיקוּ לה וכ׳</he> blow up for her an udder for roasting; (Rashi: <i>put … on the spud</i>, i.e. prepare a <cite ref=\"G00231\"><he>זוקתא</he></cite> <i>udder</i>, v. P. Sm. 1147)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "U01745",
+	"slug": "שפיי",
+	"headword": {
+		"text": "שַׁפַּיי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁפַּאי"
+		}
+	],
+	"page": {
+		"number": 1615,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שְׁפֵי</he> II) <i>wine merchant.—</i>Pl. <he>שַׁפָּיִין</he>, <cite ref=\"U01706\"><he>שַׁפָּאִין</he></cite>, <he>שַׁפָּיֵיא</he>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 12:1\">Lev. R. s. 12</cite> <he>עברון ש׳ בתרע וכ׳</he> wine merchants passed the gate of the cemetery; <cite ref=\"Esther Rabbah 5:2\">Esth. R. to II, 1</cite> (<he>ר׳ עזריה</he>) <he>ש׳ שנאון</he> (strike out <cite ref=\"U01566\"><he>שנאון</he></cite>, a corrupt dittogr. of <cite ref=\"U01706\"><he>שפאין</he></cite>); <cite ref=\"Yalkut Shimoni on Nach 960:35\">Yalk. Prov. 960</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Demai 5:5:6\">Y. Dem. V, 24ᵈ</cite> <he>ברם באילין ש׳ וכ׳</he> but as to wine dealers, they are used to empty from vessel to vessel. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 7:2:8\">Y. Shek. VII, 50ᶜ</cite> bot., v. <cite ref=\"H00940\"><he>חֲכַם</he></cite>."
+			]
+		}
+	]
+}

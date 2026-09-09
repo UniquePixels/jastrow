@@ -1,0 +1,25 @@
+{
+	"id": "K01049",
+	"slug": "כפר-4",
+	"headword": {
+		"text": "כָּפָר"
+	},
+	"page": {
+		"number": 662,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; כפר <i>to be round</i>,  [<i>circle</i>,] <i>village, country town</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Megillah 1:3\">Meg. I, 3</cite> <he>פחות מכאן הרי זה כ׳</he> if a place has less (than ten persons of leisure), it is considered a country place, opp. <he>עיר גדולה</he>. ",
+				"<cite ref=\"Chagigah 13b:5\">Ḥag. 13ᵇ</cite> v. <cite ref=\"J00279\"><he>יְחֶזְקְאֵל</he></cite>. ",
+				"<cite ref=\"Mishnah Eduyot 2:3\">Eduy. II, 3</cite>; a. fr.—Pl. <he>כְּפָרִים</he>. ",
+				"<cite ref=\"Mishnah Megillah 1:1\">Meg. I, 1</cite>, sq.; a. fr. [In compounds:… <cite ref=\"K01047\"><he>כְּפַר</he></cite> pr. n. pl., v. respective determinants.]"
+			]
+		}
+	]
+}

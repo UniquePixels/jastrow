@@ -1,0 +1,24 @@
+{
+	"id": "A01920",
+	"slug": "אלמנה",
+	"headword": {
+		"text": "אַלְמָנָה"
+	},
+	"page": {
+		"number": 72,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"A01913\"><he>אַלְמוֹן</he></cite>) <i>widow</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 1:1\">Keth. I, 1</cite>; <cite ref=\"Mishnah Ketubot 1:2\">2</cite>, v. <cite ref=\"A03043\"><he>אֵרוּסִין</he></cite>. ",
+				"<cite ref=\"Kiddushin 75a:9\">Kidd. 75ᵃ</cite> <he>אַלְמָנַת עיסה</he> the widow of one of spurious descent; v. <cite ref=\"P00629\"><he>עִיסָה</he></cite>; a. fr. Trnsf. <he>דלת א׳</he> a <i>frameless</i> door (or <i>made of one piece</i>). ",
+				"<cite ref=\"Eruvin 101a:7\">Erub. 101ᵃ</cite>; v. <cite ref=\"C01418\"><he>גַּשְׁמָה</he></cite>.—Denom."
+			]
+		}
+	]
+}

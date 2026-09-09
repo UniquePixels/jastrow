@@ -1,0 +1,28 @@
+{
+	"id": "L00514",
+	"slug": "ליצוי",
+	"headword": {
+		"text": "לִיצּוּי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "לִצְּ׳"
+		}
+	],
+	"page": {
+		"number": 709,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Litsuy</i>, prob. a suburb of Jerusalem. ",
+			"units": [
+				"<cite ref=\"Bava Batra 75b:9\">B. Bath. 75ᵇ</cite> <he>אלף לי׳ בירניות</he> (earlier ed. <he>אלף ולצוי</he>) a thousand times the area of L. containing country seats; Yalk. Zech. 568. [Comment. takes <he>ליצו״י</he> as numerals = 146); v. <cite ref=\"I00677\"><he>טֶפֶף</he></cite>."
+			]
+		}
+	]
+}

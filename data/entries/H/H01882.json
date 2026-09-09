@@ -1,0 +1,37 @@
+{
+	"id": "H01882",
+	"slug": "חתי-2",
+	"headword": {
+		"text": "חֲתֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲתָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 512,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַחֲתֵי</he> <cite ref=\"H01881\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Yoma 47a:5\">Yoma 47ᵃ</cite> <he>ונַחְתְיָהּ למחתה וכ׳</he> (v. Rabb. D. S. a. l. notes 3, 4) and let him put the pan on top of it. V. <cite ref=\"N00534\"><he>נְחַת</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

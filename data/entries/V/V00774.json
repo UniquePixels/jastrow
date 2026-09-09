@@ -1,0 +1,31 @@
+{
+	"id": "V00774",
+	"slug": "תעב-3",
+	"headword": {
+		"text": "תְּעֵב"
+	},
+	"page": {
+		"number": 1683,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00773\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַתְעֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to act abominably</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 16:52\">Targ. Ez. XVI, 52</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

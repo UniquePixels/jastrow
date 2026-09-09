@@ -1,0 +1,29 @@
+{
+	"id": "O00653",
+	"slug": "סיכרא-1",
+	"headword": {
+		"text": "סִיכְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִכְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 979,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סְכַר</he> II) <i>grave, burial place</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 17a:12\">Keth. 17ᵃ</cite>; <cite ref=\"Megillah 29a:2\">Meg. 29ᵃ</cite>, v. <cite ref=\"A00070\"><he>אִבּוּלָא</he></cite>.—Pl. <he>סִיכְרֵי</he>, <cite ref=\"O00653\"><he>סִכְ׳</he></cite>. ",
+				"<cite ref=\"Shabbat 67a\">Sabb. 67ᵃ</cite> <he>ז׳ עפרי מז׳ ס׳</he> Ms. M. (ed. <he>סנרי</he>, Rashi <he>סינרי</he>; Ms. O. <he>סוכרי דבבא</he>; v. Rabb. D. S. a. l. note) seven specimens of earth from seven graves; [oth. opin. from under seven <i>door sockets</i>, v. <cite ref=\"O00309\"><he>סוֹכָרָא</he></cite>].—[<cite ref=\"Menachot 64b\">Men. 64ᵇ</cite>, v. <cite ref=\"O00309\"><he>סוֹכָרָא</he></cite>.]"
+			]
+		}
+	]
+}

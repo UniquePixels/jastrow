@@ -1,0 +1,35 @@
+{
+	"id": "U00667",
+	"slug": "שחליים",
+	"headword": {
+		"text": "שִׁחְלַיִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁחְלַיִם"
+		},
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1548,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. du. (or <cite ref=\"U00667\"><he>שְׁחָלִים</he></cite> pl.) (answering to λεπίδιον, cmp. <cite ref=\"U00618\"><he>שְׁחוֹלִית</he></cite>) a kind of <i>cress</i> or <i>pepperwort</i> (Lepidium sativum, v. Löw Pfl., p. 396). ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 4:5\">Maasr. IV, 5</cite> <he>השחלים</he>. ",
+				"<cite ref=\"Tosefta Shevi'it 2:9\">Tosef. Shebi. II, 9</cite>; <cite ref=\"Eruvin 28a:13\">Erub. 28ᵃ</cite>. ",
+				"<cite ref=\"Berakhot 57b:17\">Ber. 57ᵇ</cite>; <cite ref=\"Avodah Zarah 29a:3\">Ab. Zar. 29ᵃ</cite>. ",
+				"<cite ref=\"Gittin 57a:12\">Gitt. 57ᵃ</cite> <he>כפר שיחליים … מן שחליים</he> the place was called K’far Shiḥlayim, because their support came from the traffic in cress; <cite ref=\"Jerusalem Talmud Taanit 4:5:16\">Y. Taan. IV, 69ᵃ</cite> bot. <he>כפר שיחליא דהוון מרביין בניהון כאילין תחלוסייא</he> (not <he>ביניהון</he>) it was named K’far Shiḥlaya, because they reared their children as carefully as cress is cultivated; <cite ref=\"Eichah Rabbah 2:1\">Lam. R. to II, 2</cite> (Matt. K., reading <he>באילין</he>, they reared their children on cress-dishes). ",
+				"<cite ref=\"Avodah Zarah 30b:2\">Ab. Zar. 30ᵇ</cite> <he>השחלים</he> (Rashi <he>השחליים</he>) cress-dish (chopped cress mixed with wine or oil). ",
+				"<cite ref=\"Avodah Zarah 67a:4\">Ib. 67ᵃ</cite> <he>וכך היו עושין … וקורין אותן שיחליים</he> (Ar. <he>קדירת שחלים</he>) and so they used to prepare it at Sepphoris on Fridays, and they called it cress-dish; Y. ib. V, 44ᵈ top <he>וקורין אותו שחלייא</he>; a. e.—<he>כפר שחליים</he> (<he>כפר שחלייא</he>) pr. n. pl. <i>K’far Shihlayim</i> (<i>Shiḥlaya</i>), a town in the mountains of Ephraim (King’s Mountain); v. supra."
+			]
+		}
+	]
+}

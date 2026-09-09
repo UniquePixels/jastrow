@@ -1,0 +1,41 @@
+{
+	"id": "M02321",
+	"slug": "מציע",
+	"headword": {
+		"text": "מְצִיעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְצִיעָא"
+		}
+	],
+	"page": {
+		"number": 826,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M02340\"><he>מְצַע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (noun) <i>middle, midst</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 35:5\">Targ. O. Num. XXXV, 5</cite> <cite ref=\"M02321\"><he>מציע</he></cite> ed. Berl. (oth. ed. <cite ref=\"M02321\"><he>מציעא</he></cite>; Y. <he>מיצעא</he>).—Constr. <cite ref=\"M02340\"><he>מְצַע</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 22:23\">Targ. Ps. XXII, 23</cite>; a. e.—Pl. <cite ref=\"M02328\"><he>מְצִיעִין</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 15:4\">Targ. Jud. XV, 4</cite> ed. Lag. (oth. ed. <cite ref=\"M02321\"><he>מְצִיעָן</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (adj.) <i>middle, average</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 31b\">Ned. 31ᵇ</cite> top R. N. (ed. <he>מיצעא</he>).—<he>בבא מציעא</he>. v. <cite ref=\"B00050\"><he>בָּב</he> I</cite>.—[<he>מְצִיעַיָּא</he>, <cite ref=\"Aramaic Targum to Proverbs 29:13\">Targ. Prov. XXIX, 13</cite> Ms., v. <cite ref=\"M02346\"><he>מַצְעָיָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

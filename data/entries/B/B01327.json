@@ -1,0 +1,23 @@
+{
+	"id": "B01327",
+	"slug": "ברקית",
+	"headword": {
+		"text": "בַּרְקִית"
+	},
+	"page": {
+		"number": 197,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B01314\"><he>ברק</he></cite>, v. <cite ref=\"B01317\"><he>בַּרְקָא</he> I</cite>) <i>cataract of the eye</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 78a:5\">Sabb. 78ᵃ</cite> <he>שכן כוחלין לב׳</he> for they paint the eye with blood as a remedy for a cataract. ",
+				"<cite ref=\"Tosefta Shabbat 6:7\">Tosef. ib. VI</cite> (<cite ref=\"Tosefta Shabbat 7:7\">VII</cite>), 7 <cite ref=\"B01324\"><he>ברקוּת</he></cite> (Var. <he>ברקי׳</he>). V. <cite ref=\"B01334\"><he>בְּרַקְתִּי</he></cite>."
+			]
+		}
+	]
+}

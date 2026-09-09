@@ -1,0 +1,23 @@
+{
+	"id": "E00853",
+	"slug": "הרחצה",
+	"headword": {
+		"text": "הַרְחָצָה"
+	},
+	"page": {
+		"number": 367,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00535\"><he>רָחַץ</he></cite>) <i>washing, bathing</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 134b:13\">Sabb. 134ᵇ</cite> <he>הַרְחָצַת כל גופו</he> bathing the child’s entire body; <he>ה׳ מילה</he> bathing the wound of circumcision. ",
+				"<cite ref=\"Ketubot 96a\">Keth. 96ᵃ</cite>"
+			]
+		}
+	]
+}

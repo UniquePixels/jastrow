@@ -1,0 +1,61 @@
+{
+	"id": "D01113",
+	"slug": "דרס-1",
+	"headword": {
+		"text": "דָּרַס"
+	},
+	"page": {
+		"number": 324,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to tread, stamp</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 2:1\">B. Kam. II, 1</cite> <he>דָּרְסָה על וכ׳</he> if she trod upon a vessel. ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 2:3:2\">Y. Maasr. II, 49ᵈ</cite> bot. <he>והוא עתיד לדוֹרְסָן</he> dates which he intends to stamp; a. fr.—<he>בית הדּוֹרְסִין</he>, v. <cite ref=\"M02060\"><he>מַעֲגִיל</he></cite>.—Part. pass. <cite ref=\"D00819\"><he>דָּרוּס</he></cite>, f. <cite ref=\"D01068\"><he>דְּרוּסָה</he></cite>.—<he>דְּרוּסַת איש</he> (calcata a viro) <i>deflowered</i>. ",
+				"<cite ref=\"Mishnah Ketubot 1:7\">Keth. I, 7</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (ritual) <i>to press</i>, i.e. <i>to cut the throat of an animal by pressing the knife</i> (adding muscular force to the cutting capacity of the knife, instead of passing the latter to and back). ",
+			"units": [
+				"<cite ref=\"Chullin 20b\">Ḥull. 20ᵇ</cite>. ",
+				"<cite ref=\"Chullin 30b:1\">Ib. 30ᵇ</cite> <he>שמא יִדְרוֹסוּ זה על זה</he> lest they press the knife by one adding to the strength of the other.—Denom. <cite ref=\"D01115\"><he>דְּרָסָה</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (of animals of prey) <i>to attack with paws or claws</i>. Ib. 53ᵃ. ",
+			"units": [
+				"<cite ref=\"Pesachim 49b\">Pes. 49ᵇ</cite>; <cite ref=\"Sanhedrin 90b\">Snh. 90ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Chullin 3:6\">Ḥull. III, 6</cite> <he>עוף הַדּוֹרֵס</he> a bird of prey (that seizes food with its claws or eats animals before they are dead).—<cite ref=\"D01068\"><he>דְּרוּסָה</he></cite> f. <i>an animal known to have been attacked by a beast or bird of prey</i> (which are suspected of leaving a poisonous substance in the body). ",
+				"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite> (<cite ref=\"Chullin 42a:5\">42ᵃ</cite>) <he>דְּרוּסַת הזאב</he> an animal saved from the attack of a wolf.—<he>יש דרוסה ל־</he> the case of a <i>d’rusah</i> applies to one attacked by &c. ",
+				"<cite ref=\"Chullin 52b:10\">Ḥull. 52ᵇ</cite>; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to stuff food into the camel’s mouth</i>, contrad. to <cite ref=\"A00181\"><he>אָבַס</he></cite> a. <cite ref=\"L00606\"><he>הִלְעִיט</he></cite>.—",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 24:3\">Sabb. XXIV, 3</cite>; <cite ref=\"Bereishit Rabbah 63\">Gen. R. s. 63</cite>; <cite ref=\"Bamidbar Rabbah 21\">Num. R. s. 21</cite>."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִדְרַס"],
+			"senses": [
+				{
+					"gloss": "<i>to be trodden down, to be effaced</i> (by treading or otherwise). ",
+					"units": [
+						"<cite ref=\"Bava Metzia 22a\">B. Mets. 22ᵃ</cite> <he>עשוי לִידָּרֵס</he> liable to be effaced; <cite ref=\"Bava Metzia 22b\">ib. 22ᵇ</cite>"
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

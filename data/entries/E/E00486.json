@@ -1,0 +1,34 @@
+{
+	"id": "E00486",
+	"slug": "היקש",
+	"headword": {
+		"text": "הֶיקֵּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶיקֵּישׁ"
+		},
+		{
+			"text": "הֶקֵּישׁ"
+		},
+		{
+			"text": "הֶקֵּשׁ"
+		}
+	],
+	"page": {
+		"number": 349,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01251\"><he>נָקַשׁ</he></cite>) [<i>clapping together</i>,] <i>comparing, correspondence;</i> esp. <i>hekkesh</i>, the analogy between two laws which rests on a biblical intimation (as <cite ref=\"Leviticus 14:13\">Lev. XIV, 13</cite>) or on a principle common to both. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 6:1:2\">Y. Pes. VI, beg., 33ᵃ</cite> <he>מה׳ הואיל ותמיד וכ׳</he> he derived the law that the Passover sacrifice supersedes the Sabbath (v. <cite ref=\"D00397\"><he>דָּחָה</he></cite>) by drawing an analogy: as the daily offering is &c., (contrad. to <he>גזירה שוה</he>, v. <cite ref=\"C00581\"><he>גְּזֵרָה</he></cite>). ",
+				"<cite ref=\"Zevachim 49b:14\">Zeb. 49ᵇ</cite>, a. e. <he>דבר הלמד בה׳ חוזר וכ׳</he> a law which is derived by analogy may be used for deriving another law by analogy; a. fr."
+			]
+		}
+	]
+}

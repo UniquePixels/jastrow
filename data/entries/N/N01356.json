@@ -1,0 +1,62 @@
+{
+	"id": "N01356",
+	"slug": "נתב",
+	"headword": {
+		"text": "נְתַב"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְתֵיב"
+		}
+	],
+	"page": {
+		"number": 942,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " = <cite ref=\"N01287\"><he>נְשַׁב</he></cite>, <i>to blow</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 129:6\">Targ. Ps. CXXIX, 6</cite> (ed. Wil. <cite ref=\"N01387\"><he>נָתֵק</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 103:16\">Ib. CIII, 16</cite> (ed. Wil. <he>נתכת</he>, some ed. <he>תבת</he>, corr. acc.)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַתֵּב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01355\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 32:2\">Targ. Y. I Deut. XXXII, 2</cite> (ed. Vien. <he>דמִינַּתְבִין</he> <i>Ithpe:</i>). ",
+						"<cite ref=\"Targum Jonathan on Genesis 1:2\">Targ. Y. Gen. I, 2</cite> (ed. Vien. <he>מֵנַתְבָא</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַנְתֵיב"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to blow</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 147:18\">Targ. Ps. CXLVII, 18</cite> (Ms. <i>Pa.</i>)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְנְתֵב", "אִינְּתַב"],
+			"senses": [
+				{
+					"gloss": "<i>to be blown</i>, v. supra.—[<cite ref=\"Targum Jonathan on Genesis 12:10\">Targ. Y. Gen. XII, 10</cite> <he>לאיתנתבא</he>, read: <he>לאִיתּוֹתָבָא</he>, v. <cite ref=\"J00712\"><he>יְתֵב</he></cite>.]",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

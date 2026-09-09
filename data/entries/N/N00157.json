@@ -1,0 +1,22 @@
+{
+	"id": "N00157",
+	"slug": "נגידותא",
+	"headword": {
+		"text": "נְגִידוּתָא"
+	},
+	"page": {
+		"number": 874,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"N00152\"><he>נְגִיד</he> I</cite>, 3) <i>prolongation</i>, with <he>רוחא</he> <i>forbearance</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 25:15\">Targ. Prov. XXV, 15</cite> (ed. Lag. <he>נגירות</he>, Var. <he>נגידות</he>); cmp. <cite ref=\"A00540\"><he>אוֹגְדוּתָא</he></cite>."
+			]
+		}
+	]
+}

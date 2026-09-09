@@ -1,0 +1,21 @@
+{
+	"id": "M02244",
+	"slug": "מפרחייתא",
+	"headword": {
+		"text": "מַפְרַחְיָיתָא"
+	},
+	"page": {
+		"number": 821,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"Q01755\"><he>פְּרַח</he></cite>) <i>loose threads of a tassel, fringes</i>. ",
+			"units": ["<cite ref=\"Shabbat 59b:14\">Sabb. 59ᵇ</cite>"]
+		}
+	]
+}

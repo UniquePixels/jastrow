@@ -1,0 +1,31 @@
+{
+	"id": "J00620",
+	"slug": "ירותא-1",
+	"headword": {
+		"text": "יָרוֹתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יַרְתָא"
+		}
+	],
+	"page": {
+		"number": 595,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00670\"><he>יְרַת</he></cite>) = h. <cite ref=\"J00248\"><he>יוֹרֵשׁ</he></cite>, <i>conqueror; heir</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 14:7\">Targ. II Sam. XIV, 7</cite>.—",
+				"<cite ref=\"Bereishit Rabbah 56:4\">Gen. R. s. 56</cite> <he>שנאיה דביתא י׳</he> the enemy of house (Ishmael) will be the heir.—Pl. <he>יָרוֹתִין</he>, <he>יְרוּ׳</he>; <he>יַרְתִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Judges 18:7\">Targ. Jud. XVIII, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 8:10\">Targ. Jer. VIII, 10</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Numbers 24:18\">Targ. Y. II, Num. XXIV, 18</cite>.—Y. Snh. III, end, 21ᵈ <he>כתב</he> … <he>לוַרְתוֹי</he> R. L. wrote to his (Kahana’s) heirs."
+			]
+		}
+	]
+}

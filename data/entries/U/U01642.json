@@ -1,0 +1,38 @@
+{
+	"id": "U01642",
+	"slug": "שעורה",
+	"headword": {
+		"text": "שְׂעוֹרָה"
+	},
+	"page": {
+		"number": 1610,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"U01691\"><he>שְׂעֹרָה</he></cite>; <cite ref=\"U01682\"><he>שָׂעַר</he></cite> , v. <cite ref=\"O01293\"><he>סָעַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>panicle</i>, v. <cite ref=\"U01691\"><he>שַׂעֲרָה</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>barley, barley-corn</i>.—<he>כש׳</he> the size of a barley-corn. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 17:8\">Kel. XVII, 8</cite> <he>כש׳ שאמרו לא וכ׳</he> where the scholars make the barley-corn the ritual standard measure, neither the large sort is meant nor &c. ",
+				"<cite ref=\"Shemot Rabbah 10\">Ex. R. s. 10</cite>, end; <cite ref=\"Sanhedrin 67b\">Snh. 67ᵇ</cite>, v. <cite ref=\"U00251\"><he>שֵׁד</he></cite>; a. fr.—Pl. <cite ref=\"U01643\"><he>שְׂעוֹרִים</he></cite>, <cite ref=\"U01644\"><he>שְׂעוֹרִין</he></cite>. ",
+				"<cite ref=\"Mishnah Pesachim 2:5\">Pes. II, 5</cite>. ",
+				"<cite ref=\"Pesachim 35a:6\">Ib. 35ᵃ</cite> <he>מין ש׳</he> a species of barley, v. <cite ref=\"U01017\"><he>שִׁיפוֹן</he></cite>. ",
+				"<cite ref=\"Pesachim 42b:6\">Ib. 42ᵇ</cite> <he>לא היה יינם … ש׳</he> the wine of Judæa would not get sour (to be used for vinegar) until they put barley into it. ",
+				"<cite ref=\"Bava Kamma 60b:20\">B. Kam. 60ᵇ</cite> <he>גדישין של ש׳</he> stacks of barley. ",
+				"<cite ref=\"Mishnah Peah 6:7\">Peah VI, 7</cite>; <cite ref=\"Jerusalem Talmud Sanhedrin 2:5:1\">Y. Snh. II, 20ᵇ</cite> bot., a. e., v. <cite ref=\"P00944\"><he>עֲנָבָה</he></cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

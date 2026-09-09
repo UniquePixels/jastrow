@@ -1,0 +1,24 @@
+{
+	"id": "A03311",
+	"slug": "אשכרוע",
+	"headword": {
+		"text": "אֶשְׁכְּרוֹעַ"
+	},
+	"page": {
+		"number": 128,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. P. Sm. 408) <i>box-tree</i> or <i>ebony tree</i> [prob. a denom. of <cite ref=\"A03302\"><he>אשך</he></cite> = <he>חשך</he>, cmp. <cite ref=\"C00509\"><he>גּוּשְׁקְרָא</he></cite>]. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 2:1\">Neg. II, 1</cite> <he>כא׳ לא שחורים וכ׳</he> like the <i>eshk’roa</i>, neither black nor white but of an intermediate color. ",
+				"<cite ref=\"Bava Batra 89b\">B. Bath. 89ᵇ</cite> <he>אשב׳</he> ed. (corr. acc., v. Rabb. D. S. a. l. note 30). ",
+				"<cite ref=\"Mishnah Yoma 3:9\">Yoma III, 9</cite> (<cite ref=\"Mishnah Yoma 3:8\">8</cite>) <he>גורלות של א׳</he> ballot tablets of box-wood (cmp. Sm. Ant. s. v. Buxum); expl. Y. ib. 41ᵃ top <cite ref=\"Q01361\"><he>פסקינין</he></cite> = <he>פוקס׳</he> (πύξινον)."
+			]
+		}
+	]
+}

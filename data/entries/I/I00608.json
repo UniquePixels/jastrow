@@ -1,0 +1,28 @@
+{
+	"id": "I00608",
+	"slug": "טעיתא",
+	"headword": {
+		"text": "טָעִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַעַיְתָא"
+		}
+	],
+	"page": {
+		"number": 543,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00602\"><he>טְעֵי</he></cite>) <i>prostitute</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Nahum 3:4\">Targ. Nah. III, 4</cite>; a. e.—",
+				"<cite ref=\"Yalkut Shimoni on Nach 940\">Yalk. Prov. 940</cite> (expl. <he>סררת</he>, <cite ref=\"Proverbs 7:11\">Prov. VII, 11</cite>); (<cite ref=\"Bereishit Rabbah 87\">Gen. R. s. 87</cite> <he>טעייא</he>), v. <cite ref=\"I00602\"><he>טְעֵי</he></cite>"
+			]
+		}
+	]
+}

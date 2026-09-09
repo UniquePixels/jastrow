@@ -1,0 +1,32 @@
+{
+	"id": "M02439",
+	"slug": "מקצוע-1",
+	"headword": {
+		"text": "מִקְצוֹעַ"
+	},
+	"page": {
+		"number": 831,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S01828\"><he>קָצַע</he></cite>)<i>corner, angle</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tamid 3:3\">Tam. III, 3</cite>; <cite ref=\"Yoma 15b:3\">Yoma 15ᵇ</cite> <he>מ׳ צפונית מערבית</he> the corner of the north-western side of the Temple."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = <cite ref=\"M00596\"><he>מוּקְצֶה</he></cite>, <i>store</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 54b\">Men. 54ᵇ</cite>; <cite ref=\"Menachot 55a\">55ᵃ</cite>, v. <cite ref=\"M00596\"><he>מוּקְצֶה</he></cite>.—",
+				"<cite ref=\"Mishnah Bava Batra 10:8\">B. Bath. X, 8</cite> (<cite ref=\"Bava Batra 175b:5\">175ᵇ</cite>) <he>שאין מ׳ בכל התורה כולה גדול מהן</he> Ms. M. (v. Rabb. D. S. a. l. note) for there is no store (of wisdom) in the entire Law richer than these (civil laws); <cite ref=\"Berakhot 63b:19\">Ber. 63ᵇ</cite>.—Pl. <he>מִקְצוֹעִין</he>. ",
+				"<cite ref=\"Tosefta Chagigah 1:9\">Tosef. Ḥag. I, 9</cite> <he>מִקְצוֹעֵי תורה גופי וכ׳</he> stores of the law, bodies of Halakhoth; Tosef. Erub. XI (VIII), 24 <he>מוקצעי</he> ed. Zuck. (Var. <he>מקצועי</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

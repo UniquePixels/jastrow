@@ -1,0 +1,27 @@
+{
+	"id": "I00207",
+	"slug": "טופנא",
+	"headword": {
+		"text": "טוֹפָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טוּ׳"
+		}
+	],
+	"page": {
+		"number": 525,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00195\"><he>טוּף</he></cite>) <i>flood</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 6:17\">Targ. O. Gen. VI, 17</cite> (Y. <cite ref=\"I00121\"><he>טוֹבְעָנָא</he></cite>); a. fr."
+			]
+		}
+	]
+}

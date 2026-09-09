@@ -1,0 +1,31 @@
+{
+	"id": "V01026",
+	"slug": "תרס-1",
+	"headword": {
+		"text": "תָּרַס"
+	},
+	"page": {
+		"number": 1700,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"V00994\"><he>תָּרִיס</he></cite>), <i>Hif.</i> <he>הִתְרִיס</he> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to shield, protect</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 5:2:3\">Y. Sabb. V, 7ᵇ</cite> bot. (expl. <he>לבובין</he>) <he>נותן … והוא מַתְרִיס כנגד חיה</he> one places a hide from the tannery against its heart, and this protects it against attacks of wild beasts."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to resist, fight, wrestle in debate</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 121b:14\">Yeb. 121ᵇ</cite> <he>שה׳ עם שמנים וכ׳</he> (ed. <he>שהתירם</he>, corr. acc.) who debated with eighty-five elders; Y. ib. XVI, 15ᵈ <he>שהיו מַתְרִיסִין כנגד וכ׳</he> who debated with R. H."
+			],
+			"label": "2"
+		}
+	]
+}

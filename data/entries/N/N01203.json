@@ -1,0 +1,43 @@
+{
+	"id": "N01203",
+	"slug": "נקיות",
+	"headword": {
+		"text": "נְקִיּוּת"
+	},
+	"page": {
+		"number": 933,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01202\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cleanliness</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 46b:3\">Yeb. 46ᵇ</cite> <he>ודילמא נ׳ בעלמא</he> perhaps mere cleanliness of appearance is intended? (not levitical purification). ",
+				"<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite>; <cite ref=\"Jerusalem Talmud Shekalim 3:3:5\">Y. Shek. III, end, 47ᶜ</cite>; <cite ref=\"Avodah Zarah 20b:10\">Ab. Zar. 20ᵇ</cite> <he>זריזות מביאה לידי נ׳</he> zeal leads to cleanliness, <he>נ׳ מביאה וכ׳</he> cleanliness leads to levitical purity. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 7:12:4\">Y. Pes. VII, 35ᵇ</cite> bot. <he>אינה אלא נ׳</he> it is a mere matter of cleanliness."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>innocence, expiation</i>. ",
+			"units": [
+				"<cite ref=\"Temurah 3b:3\">Tem. 3ᵇ</cite> <he>ואימא … נ׳ כלל</he> may I not say, it means that there is no expiation for him?; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>respectability, dignity</i>. Sifra K’dosh., Par. 2, ch. IV <he>מתפרנס בנ׳</he> he will make a decent living (not be dependent on charity). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 99:7\">Gen. R. s. 99</cite>; a. e."
+			],
+			"label": "3"
+		}
+	]
+}

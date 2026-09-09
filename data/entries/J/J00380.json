@@ -1,0 +1,20 @@
+{
+	"id": "J00380",
+	"slug": "יליד-2",
+	"headword": {
+		"text": "יָלִיד"
+	},
+	"page": {
+		"number": 578,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"J00367\"><he>יָלַד</he></cite>)<i>born</i>; <he>יְלִיד בַּיִת</he> <i>a slave born in the owner’s house; child of a slave</i>, contrad. to <he>מקנת כסף</he> an acquired slave. ",
+			"units": ["<cite ref=\"Shabbat 135b:9\">Sabb. 135ᵇ</cite>"]
+		}
+	]
+}

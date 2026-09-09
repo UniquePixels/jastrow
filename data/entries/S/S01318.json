@@ -1,0 +1,41 @@
+{
+	"id": "S01318",
+	"slug": "קלי-5",
+	"headword": {
+		"text": "קלי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קָלָה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1375,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"K00692\"><he>כָּלָה</he></cite>)<i>to consume, burn; to roast, parch</i>. Sifra Vayikra, N’dab., ch. XIV, Par. 13 <he>אפשר יִקְלֶנּוּ גרש</he> the text might have meant that one must parch it as grit; <he>יקלנו אביב</he> one must parch it in the ear. ",
+			"units": [
+				"<cite ref=\"Pesachim 75a:14\">Pes. 75ᵃ</cite> <he>ונִקְלֶהָ</he>, v. next w.—Part. pass. <he>קָלוּי</he>. Sifra l. c., v. <cite ref=\"S01320\"><he>קָלִי</he></cite>. ",
+				"<cite ref=\"Menachot 66b:2\">Men. 66ᵇ</cite> <he>אם אביב ק׳ אם גרש ק׳</he> whether parched in the ear or as grit; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְקַלֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to consume one’s self in longing</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 3:11:1\">Cant. R. to III, 11</cite> <he>מִתְקַלְהָא</he>, v. <cite ref=\"S00201\"><he>קָהָה</he></cite>."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

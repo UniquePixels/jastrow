@@ -1,0 +1,32 @@
+{
+	"id": "Q01836",
+	"slug": "פרישא",
+	"headword": {
+		"text": "פָּרִישָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּ׳"
+		}
+	],
+	"page": {
+		"number": 1228,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01835\">preced.</cite>) <i>wonderful deed, wonder.—</i>Pl. <cite ref=\"Q01835\"><he>פְּרִישָׁן</he></cite>, <cite ref=\"Q01842\"><he>פְּרִישָׁתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 139:14\">Targ. Ps. CXXXIX, 14</cite>. ",
+				"<cite ref=\"Onkelos Exodus 33:16\">Targ. Ex. XXXIII, 16</cite> (not <he>פְּרִישַׂן</he>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 13:8\">Targ. Y. ib. XIII, 8</cite> (ed. Vien. <he>פְּרִישִׁין</he> masc.). ",
+				"<cite ref=\"Targum Jonathan on Exodus 26:28\">Ib. XXVI, 28</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 37:14\">Targ. Job XXXVII, 14</cite>, a. e. <he>פרישתא</he> Ms. (ed. <cite ref=\"Q01840\"><he>פְּרִישׁוּתָא</he></cite> q. v.). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 4:35\">Targ. Y. Deut. IV, 35</cite> (not <cite ref=\"Q01842\"><he>פְּרִישְׁתָא</he></cite>); a. fr.—[<cite ref=\"Aramaic Targum to Job 36:29\">Targ. Job XXXVI, 29</cite>, v. <cite ref=\"Q01843\"><he>פְּרִישְׂתָּא</he></cite>.]"
+			]
+		}
+	]
+}

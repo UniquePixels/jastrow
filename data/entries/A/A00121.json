@@ -1,0 +1,25 @@
+{
+	"id": "A00121",
+	"slug": "אביוני",
+	"headword": {
+		"text": "אֶבְיוֹנֵי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּי אֶבְיוֹנֵי"
+		}
+	],
+	"page": {
+		"number": 5,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " pr. n. pl. <i>Bé-Ebyoné</i> (Poor-House); Rashi. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 117a:10\">B. Kam. 117ᵃ</cite>. [Ms. M. <he>איביוני</he>, Ms. F. <he>אבוויני</he>, Hal. G’dol. Ms. <cite ref=\"A01737\"><he>אכסני</he></cite>; v. Rabb. D. S. a. l.—Prob. a corrupt. of <cite ref=\"B00442\"><he>בי זיונא</he></cite>, v. <cite ref=\"B00442\"><he>בִּזְיוּנָא</he></cite>.]"
+			]
+		}
+	]
+}

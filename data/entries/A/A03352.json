@@ -1,0 +1,25 @@
+{
+	"id": "A03352",
+	"slug": "אשראי-1",
+	"headword": {
+		"text": "אַשְּׁרָאֵי"
+	},
+	"page": {
+		"number": 130,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"A03349\"><he>אֲשַׁר</he></cite> Pa.) <i>sale on trust, debts for goods sold</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 113a:9\">Pes. 113ᵃ</cite> <he>כל א׳ וכ׳</he> in all sales on trust it is doubtful, whether it (the money) will be forthcoming or not, and if it is, it is bad money, (partial payment, bad coins &c).—",
+				"<cite ref=\"Bava Metzia 63b:5\">B. Mets. 63ᵇ</cite> <he>אית ליה א׳ וכ׳</he> he has debts to collect. ",
+				"<cite ref=\"Bava Batra 22a:5\">B. Bath. 22ᵃ</cite> <he>אית לן א׳ וכ׳</he> we have outstanding debts to collect (and we must stay until we have collected them)."
+			]
+		}
+	]
+}

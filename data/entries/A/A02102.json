@@ -1,0 +1,28 @@
+{
+	"id": "A02102",
+	"slug": "אנגלי",
+	"headword": {
+		"text": "אַנְגְּלֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַנְגְּלַיָּא"
+		}
+	],
+	"page": {
+		"number": 80,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (ἄγγελοι, v. Perles Et. St. p. 113) <i>messengers, angels</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 15:15\">Targ. Job XV, 15</cite>; a. e."
+			]
+		}
+	]
+}

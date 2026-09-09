@@ -1,0 +1,28 @@
+{
+	"id": "I00404",
+	"slug": "טיסני",
+	"headword": {
+		"text": "טִיסָנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְסָנִי"
+		}
+	],
+	"page": {
+		"number": 533,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (πτισάνη, ptisana, also tisana) <i>barley-groats, pearl-barley</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makhshirin 6:2\">Makhsh. VI, 2</cite>. ",
+				"<cite ref=\"Tosefta Beitsah 1:18\">Tosef. Bets. I, 18</cite> ed. Zuck. (ed. <he>סיטני</he>, corr. acc.); a. fr."
+			]
+		}
+	]
+}

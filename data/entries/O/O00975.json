@@ -1,0 +1,38 @@
+{
+	"id": "O00975",
+	"slug": "סלח-2",
+	"headword": {
+		"text": "סְלַח"
+	},
+	"page": {
+		"number": 994,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O00974\">same</cite> <cite ref=\"Onkelos Exodus 34:7\">Targ. Ex. XXXIV, 7</cite>; a. e.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַלַּח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00974\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 55:7\">Targ. Is. LV, 7</cite>.—2) <cite ref=\"O00974\">same</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to effect forgiveness</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 18:1\">Targ. O. Num. XVIII, 1</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

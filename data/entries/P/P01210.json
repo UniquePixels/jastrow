@@ -1,0 +1,31 @@
+{
+	"id": "P01210",
+	"slug": "עקף-2",
+	"headword": {
+		"text": "עֲקַף"
+	},
+	"page": {
+		"number": 1107,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P01209\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְעֲקַף"],
+			"senses": [
+				{
+					"gloss": "<i>to seek occasion against</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 43:18\">Targ. Y. Gen. XLIII, 18</cite> <he>למִתְעַקְפָא</he> (<i>infin</i>.; O. <he>לאסתקפא</he>, v. <cite ref=\"O01493\"><he>סְקַף</he> I</cite>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

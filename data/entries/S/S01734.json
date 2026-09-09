@@ -1,0 +1,23 @@
+{
+	"id": "S01734",
+	"slug": "קפידותא",
+	"headword": {
+		"text": "קְפִידוּתָא"
+	},
+	"page": {
+		"number": 1401,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01700\"><he>קְפַד</he></cite>) <i>shrinking, shortness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 59:1\">Targ. Is. LIX, 1</cite> <he>קְפִידוּת ידא</he> lack of power. ",
+				"<cite ref=\"Targum Jonathan on Exodus 6:9\">Targ. Y. Ex. VI, 9</cite> <he>ק׳ רוחא</he> (h. text <he>קצר רוח</he>)."
+			]
+		}
+	]
+}

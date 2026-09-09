@@ -1,0 +1,49 @@
+{
+	"id": "A02976",
+	"slug": "ארג-2",
+	"headword": {
+		"text": "אָרַג"
+	},
+	"page": {
+		"number": 114,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>אר</he> , v. <he>ארב</he>; cmp. <cite ref=\"H00459\"><he>חרג</he></cite>) <i>to plait, braid, weave</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> <he>האוֹרֵג</he> he who weaves on the Sabbath; a. fr.—Metaph. (cmp. <cite ref=\"I00767\"><he>טרי</he></cite>) <i>to argue, conclude, spin out, deduct</i> &c. Ruth R., Par. 2, beg. (play on <i>or’gim</i> <cite ref=\"II Samuel 21:19\">II Sam. XXI, 19</cite>) they brought a subject up <he>והוא אוֹרְגָהּ</he> and he carried it to a conclusive decision. ",
+				"<cite ref=\"II Samuel 21:19\">Ib.</cite> <he>שהיו אוֹרְגִין עמו</he> they argued with him.—",
+				"<cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4</cite> (play on <i>argaman</i>, purple) <he>שהוא היה א̇ור̇ג̇ … מ̇ן̇ וכ׳</he> for it (the purple-covered altar) argued Israel free from sin (pleaded in his behalf). ",
+				"<cite ref=\"Bamidbar Rabbah 12:4\">Num. R. s. 12</cite> (same play on the word) <he>והוא אורג וכ׳</he> and He wove (planned) the world so that all creatures should come forth each according to its kind. ",
+				"<cite ref=\"Bamidbar Rabbah 12\">Ib.</cite> <he>א׳ מַן</he> the Sun weaves (ripens) food."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶאֱרַג"],
+			"senses": [
+				{
+					"gloss": "<i>to be woven</i>. Y. Ter. XI, end, 48ᵇ. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 50\">Ex. R. s. 50</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["אִירֵג"],
+			"senses": [
+				{
+					"gloss": ", part. <he>מְאָרֵג</he> (cmp. <cite ref=\"P01317\"><he>עֲרוּגָה</he></cite>) <i>to follow the grooves of</i> the garden bed, <i>to range</i>, esp. <i>to select the green and tender onions</i> (v. <cite ref=\"H01112\"><he>חָלַק</he></cite> Hif.). ",
+					"units": [
+						"<cite ref=\"Tosefta Peah 1:9\">Tosef. Peah I, 9</cite> <he>המארג</he>, quoted in Y. ib. III, 17ᶜ top <he>המירוג</he> (corr. acc.; v. <cite ref=\"M01293\"><he>מֵירוּג</he></cite>) a. explained ibid. <he>המחליק וכ׳</he> he who takes out the green onions for sale and leaves the others to ripen for storage."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

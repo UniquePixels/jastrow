@@ -1,0 +1,31 @@
+{
+	"id": "B00181",
+	"slug": "בהם",
+	"headword": {
+		"text": "בַּהָם"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֶּהֱמִי"
+		}
+	],
+	"page": {
+		"number": 142,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"B00182\">next w.</cite>) <i>cattle-driver, cattle-raiser, driver</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 3:6\">Deut. R. s. 3</cite> <he>והבהם עמו</he> and the driver (leader of the ass) was with him. *[<cite ref=\"Jerusalem Talmud Nedarim 11:12:2\">Y. Ned. XI, end, 42ᵈ</cite> <he>הבַּיאָם שלי פיתני</he> (= <cite ref=\"B00181\"><he>בַהָם</he></cite>) my stable-man (a gentile) has seduced me. ",
+				"<cite ref=\"Yoma 2a:5\">Ib.</cite> <he>אין הביאם אוסר</he> (not <he>אסור</he>) (do you believe) the stable-man’s connection with thee has no restrictive consequences? [V. Noda Bihudah, 2ⁿᵈ ed., Eb. Haëz. Nr. 12.] <cite ref=\"Bereishit Rabbah 86\">Gen. R. s. 86</cite> <cite ref=\"B00181\"><he>בהמי</he></cite> (<cite ref=\"Yalkut Shimoni on Torah 145:4\">Yalk. Gen. 145</cite> <he>אדם</he>, prob. <cite ref=\"B00181\"><he>בהם</he></cite>).—Pl. <he>בַּהָמִים</he>, <he>בַּהָמִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 1:1:15\">Y. Pes. I, 27ᵇ</cite> (in gen. <i>servants</i>). ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:4:7\">Cant. R. to IV, 4</cite> (play on <he>ובבהמתך</he> <cite ref=\"Deuteronomy 7:14\">Deut. VII, 14</cite>) there shall be none barren (of knowledge) among thee, <he>אפי׳ בב׳ שבכם</he> even among your cattle drivers; <cite ref=\"Devarim Rabbah 3:15\">Deut. R. s. 3</cite>; a. e.; <cite ref=\"Bereishit Rabbah 32:10\">Gen. R. s. 32</cite> <he>בבהמות</he> (corr. acc.)—",
+				"<cite ref=\"Jerusalem Talmud Maasrot 2:4:11\">Y. Maasr. II, 50ᵃ</cite> bot. <he>התריגו לבהמין</he> (not <he>התריגי</he>) give the drivers (field laborers) oranges to eat; [<cite ref=\"Eruvin 53b:13\">Erub. 53ᵇ</cite> <he>אתריגו לפחמין</he> in diff. connection]."
+			]
+		}
+	]
+}

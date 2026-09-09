@@ -1,0 +1,30 @@
+{
+	"id": "P00630",
+	"slug": "עיסוק",
+	"headword": {
+		"text": "עִיסּוּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִסּ׳"
+		}
+	],
+	"page": {
+		"number": 1073,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01052\"><he>עָסַק</he></cite>) <i>doing, management</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 13\">Lev. R. s. 13</cite> <he>אברהם ראה</he> … <he>בעִיסּוּקָן</he> Abraham (in his vision, <cite ref=\"Genesis 15:9\">Gen. XV, 9</cite> sq.) beheld the empires typically represented by their doings (policy). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:18\">Y. Ber. IV, 7ᵇ</cite> bot. <he>צא שעה אחת לעִיסּוּקוֹ</he> deduct one hour for the work of preparing the sacrifice; <cite ref=\"Jerusalem Talmud Pesachim 5:1:2\">Y. Pes. V, 31ᶜ</cite>, sq. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 5:4:7\">Y. Sabb. V, end, 7ᶜ</cite> <he>שור שעיסוקו רע</he> an ox hard to manage. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 9:2:4\">Y. Sot. IX, 23ᶜ</cite> bot. <he>מצות ע׳ מדידה</he> the law demanding the act of measuring (even if there be no doubt as to the nearest place, <cite ref=\"Deuteronomy 21:2\">Deut. XXI, 2</cite>); (Bab. ib. 45ᵃ; <cite ref=\"Sanhedrin 14b:1\">Snh. 14ᵇ</cite> <he>לַעֲסוֹק במדידה</he>)."
+			]
+		}
+	]
+}

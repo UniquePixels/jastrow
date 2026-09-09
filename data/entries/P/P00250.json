@@ -1,0 +1,22 @@
+{
+	"id": "P00250",
+	"slug": "עולה-1",
+	"headword": {
+		"text": "עַוְלָה"
+	},
+	"page": {
+		"number": 1051,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h; v. <cite ref=\"P00244\"><he>עָוֶל</he></cite>) <i>wrong</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 19b:1\">Keth. 19ᵇ</cite> <he>כיון דע׳ הוא אע׳ חתמי</he> since it (the holding of a bill of indebtedness on trust, v. <cite ref=\"A02041\"><he>אֲמָנָה</he></cite>) is a wrong, (a violation of the rule, ‘harbor no wrong in thy tent’, <cite ref=\"Job 11:14\">Job XI, 14</cite>), they would not have lent their signature to a wrong act; a. e."
+			]
+		}
+	]
+}

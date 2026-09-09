@@ -1,0 +1,23 @@
+{
+	"id": "I00257",
+	"slug": "טחול",
+	"headword": {
+		"text": "טְחוֹל"
+	},
+	"page": {
+		"number": 527,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"I00142\"><he>טוּחַ</he> II</cite>) <i>spleen, milt</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 3:2\">Ḥull. III, 2</cite>. ",
+				"<cite ref=\"Sanhedrin 21b:5\">Snh. 21ᵇ</cite>; <cite ref=\"Avodah Zarah 44a:19\">Ab. Zar. 44ᵃ</cite> <he>נטולי ט׳</he> having had their milt cut out (as fast runners); a. fr."
+			]
+		}
+	]
+}

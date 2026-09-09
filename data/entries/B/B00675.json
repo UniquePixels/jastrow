@@ -1,0 +1,26 @@
+{
+	"id": "B00675",
+	"slug": "ביעתותא",
+	"headword": {
+		"text": "בִּיעֲתוּתָא"
+	},
+	"page": {
+		"number": 164,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בעת</he>; = b. h. <he>בְּעָתָה</he>) <i>fright</i>, v. <cite ref=\"B00672\"><he>בִּיעוּתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Pesachim 3a:14\">Pes. 3ᵃ</cite>; <cite ref=\"Pesachim 3b:2\">3ᵇ</cite> <he>ב׳ דגמלים</he> fear of falling down from the camel’s back; <he>ב׳ דליליא</he> fear of the night. ",
+				"<cite ref=\"Shabbat 41a:3\">Sabb. 41ᵃ</cite> <he>ב׳ דנהרא</he> fear of being drowned. ",
+				"<cite ref=\"Gittin 68b:19\">Gitt. 68ᵇ</cite> <he>הוה ליה ב׳ מיניה</he> he was afraid of him. ",
+				"<cite ref=\"Sotah 20b:12\">Sot. 20ᵇ</cite> fear (<cite ref=\"Q00447\"><he>פחדא</he></cite>) detains the blood (menstruation), <he>ב׳ וכ׳</he> sudden fright loosens (produces menstruation). ",
+				"<cite ref=\"Niddah 71a:17\">Nidd. 71ᵃ</cite>"
+			]
+		}
+	]
+}

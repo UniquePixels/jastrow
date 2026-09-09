@@ -1,0 +1,28 @@
+{
+	"id": "H01421",
+	"slug": "חפאים",
+	"headword": {
+		"text": "חֳפָאִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֳפָאִין"
+		}
+	],
+	"page": {
+		"number": 490,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (pl. of <cite ref=\"H01439\"><he>חֳפִי</he></cite>; <cite ref=\"H01423\"><he>חָפָה</he></cite>) <i>covering</i> over burnt clay vessels. ",
+			"units": [
+				"<cite ref=\"Tosefta Kelim Kamma 3:14\">Tosef. Kel. B. Kam. III, 14</cite>; <cite ref=\"Tosefta Kelim Kamma 3:14\">ib.</cite> ",
+				"<cite ref=\"Mishnah Parah 5:2\">Par. V</cite> (<cite ref=\"Mishnah Parah 4:2\">IV</cite>), 2 (<he>לח׳</he>) <he>גילה ח׳ וכ׳</he> ed. Zuck. (ed. corrupt) if he removes the covering and finds dust on the vessels (proving that none had touched them; v. R. S. to <cite ref=\"Mishnah Parah 5:1\">Par. V, 1</cite> for correct version)."
+			]
+		}
+	]
+}

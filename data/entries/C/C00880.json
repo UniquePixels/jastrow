@@ -1,0 +1,34 @@
+{
+	"id": "C00880",
+	"slug": "גלדא",
+	"headword": {
+		"text": "גִּלְדָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּילְ׳"
+		}
+	],
+	"page": {
+		"number": 245,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00879\">same</cite><i>plate, covering</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 7:13\">Targ. Y. I Num. VII, 13</cite> <he>גי׳ סמיך</he> (= <he>גֶּלֶד עב</he>, v. <cite ref=\"C00879\">preced.</cite>).—Pl. <he>גִּי׳ גִּלְדִּין</he> <cite ref=\"Targum Jonathan on Ezekiel 27:24\">Targ. Ezek. XXVII, 24</cite> <he>חפן ג׳</he> (gold, or silver) plated."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>scab, scurf</i>. Pl. <he>גִּלְדֵּי</he>, <he>גִּי׳</he>. Ḥull. 46ᵇ lungs full <he>ג׳ ג׳</he> of scabs.—8) <i>skin, leather</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 17:5\">Targ. I Sam. XVII, 5</cite> (v. Lag. I, p. XVI) <he>שריין דגלד נוני ימא</he> (ed. <he>שרין גלבין</he>) a coat of mail made of the skin of sea-fishes (h. text <he>קשקשים</he>).—",
+				"<cite ref=\"Sanhedrin 110a\">Snh. 110ᵃ</cite>; <cite ref=\"Pesachim 119a:12\">Pes. 119ᵃ</cite> <he>אקלידי וקלפי דג׳</he> (Ms. M. <he>קופלי</he>, v. Rabb. D. S. a. l. note) the keys and the locks (the stiff rims of the bags usually of metal) were of leather (so as to be of light weight). ",
+				"<cite ref=\"Berakhot 43b\">Ber. 43ᵇ</cite> <he>בגי׳</he> on the leather of the shoe, opp. <he>פנתא</he>, v. <cite ref=\"A02746\"><he>אַפַּנְתָּא</he></cite> (Rashi: <i>heel</i>)."
+			],
+			"label": "2"
+		}
+	]
+}

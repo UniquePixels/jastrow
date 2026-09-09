@@ -1,0 +1,31 @@
+{
+	"id": "V00716",
+	"slug": "תנא-2",
+	"headword": {
+		"text": "תַּנָּא"
+	},
+	"page": {
+		"number": 1679,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00715\">preced.</cite>) <i>teacher</i>, esp. <i>Tanna</i>, an authority quoted in Mishnah and Boraitha, contrad. to <cite ref=\"A02003\"><he>אֲמוֹרָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 3a\">B. Mets. 3ᵃ</cite>, a. fr. <he>ות׳ תונא</he> and the Tanna (of the Mishnah) is a confirmation (confirms what I say).—<he>ת׳ קמא</he>, v. <cite ref=\"S01439\"><he>קַמָּא</he></cite>.—<he>ת׳ ברא</he>, v. <cite ref=\"B01153\"><he>בַּר</he></cite> I ch. ",
+				"<cite ref=\"Bava Batra 93b:9\">B. Bath. 93ᵇ</cite> <he>כל ת׳ בתרא וכ׳</he> (Ar. <cite ref=\"B01157\"><he>ברא</he></cite>) every later (Ar. outside) authority comes only to enlarge the sphere of the subject. ",
+				"<cite ref=\"Chullin 15a:14\">Ḥull. 15ᵃ</cite>, v. <cite ref=\"A02003\"><he>אֲמוֹרָא</he></cite>; a. fr.—",
+				"<cite ref=\"Sotah 22a:3\">Sot. 22ᵃ</cite> (prov.) <he>תני ת׳ ולא ידע וכ׳</he> a teacher teaches and knows not what he says (repeats verbatim what he has heard without understanding the subject).—Pl. <he>תַּנָּאִים</he> (h. form, fr. <cite ref=\"V00720\"><he>תַּנַּאי</he></cite>), <he>תַּנָּאֵי</he> (fr. <cite ref=\"V00717\"><he>תַּנָּאָה</he></cite>). ",
+				"<cite ref=\"Sotah 22a:3\">Ib.</cite> <he>הת׳ מבלי עולם</he> the Tannaim (repeaters) ruin the world, expl. <he>שמורין הלכה מתוך משנתן</he> who give decisions based on traditions they have learned (without knowing their reasons and their application to practical cases).—",
+				"<cite ref=\"Berakhot 3a:12\">Ber. 3ᵃ</cite> <he>תרי ת׳ אליבא דר״מ</he> these contradictory opinions are the relations of two Tannaim in behalf of R. M. ",
+				"<cite ref=\"Sanhedrin 33a:7\">Snh. 33ᵃ</cite> (expl. <he>שיקול הדעת</he>, v. <cite ref=\"D00950\"><he>דַּעַת</he></cite>) <he>כגון תרי ת׳ וכ׳</he> when two Tannaim or two Amoraim differ in their opinions, and it has never been decided which is to be adopted in practice. ",
+				"<cite ref=\"Sanhedrin 63a:10\">Ib. 63ᵃ</cite>, a. fr. <he>כת׳</he> it depends on Tannaim, i.e. Tannaim differ on that point. ",
+				"<cite ref=\"Berakhot 9a:28\">Ber. 9ᵃ</cite> <he>והני ת׳ כהני ת׳</he> and those teachers differ on the same principle as these do. ",
+				"<cite ref=\"Berakhot 49a:15\">Ib. 49ᵃ</cite> <he>ואת שבקת כל הני ת׳ ואמוראי וכ׳</he> and you ignore all these Tannaim and Amoraim, and act according to Rab’s opinion?; a. v. fr.—V. <cite ref=\"V00720\"><he>תַּנַּאי</he></cite>."
+			]
+		}
+	]
+}

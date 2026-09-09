@@ -1,0 +1,35 @@
+{
+	"id": "N00097",
+	"slug": "נבלה-1",
+	"headword": {
+		"text": "נְבֵלָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְבֵי׳"
+		}
+	],
+	"page": {
+		"number": 870,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"N00091\"><he>נָבַל</he></cite>)<i>carrion, an animal that has died a natural death</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 81\">Gen. R. s. 81</cite>, end <he>להוט אחר הנ׳</he> greedy for carrion. ",
+				"<cite ref=\"Mishnah Oktzin 3:3\">Ukts. III, 3</cite> <he>נִבְלַת בהמה טמאה</he> the carcass of an unclean animal; a. fr.—Esp. (ritual) <i>an animal not slaughtered according to the ritual rules</i> (v. <cite ref=\"D01115\"><he>דְּרָסָה</he></cite>, <cite ref=\"E00092\"><he>הַגְרָמָה</he></cite> &c.). ",
+				"<cite ref=\"Mishnah Chullin 2:4\">Ḥull. II, 4</cite> <he>כל שנפסלה בשחיטתה נ׳</he> whatever has become unfit through faulty slaughtering, is called <i>n’belah</i>, contrad. to <cite ref=\"I00811\"><he>טְרֵפָה</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 67b:8\">Ab. Zar. 67ᵇ</cite> sq. <he>כל הראויה לגר קרויה נ׳ וכ׳</he> that which is fit for the stranger (<cite ref=\"Deuteronomy 14:21\">Deut. XIV, 21</cite>) is called <i>n’belah</i> (the eating of which is a punishable offence), whatever is unfit for the stranger (putrefied &c.) is no longer called <i>n’belah</i>. ",
+				"<cite ref=\"Keritot 21a:25\">Ker. 21ᵃ</cite> <he>נְבֵילָתוֹ מנלן</he> whence do we derive the prohibition to eat it when unlawfully slaughtered? Y. Shebi. IV, 35ᵃ bot. (in Chald. dict.) <he>בשר דנ׳</he> forbidden meat; <cite ref=\"Chullin 95a:10\">Ḥull. 95ᵃ</cite> <he>בְּשַׂר נ׳</he>, opp. <he>בשר שחוטה</he>. ",
+				"<cite ref=\"Chullin 95a:11\">Ib.</cite> <he>מותרות משום נ׳</he> they are permitted as far as <i>n’belah</i> is concerned, i.e. they do not make unclean (<cite ref=\"Leviticus 11:39\">Lev. XI, 39</cite>); a. v. fr.—Pl. <cite ref=\"N00099\"><he>נְבֵלוֹת</he></cite>, <he>נְבֵילוֹת</he>. ",
+				"<cite ref=\"Leviticus 11:39\">Ib.</cite>; <cite ref=\"Mishnah Shekalim 7:3\">Shek. VII, 3</cite> <he>איברים נ׳</he> if found cut in limbs, they are forbidden, opp. <he>מותרות</he>. ",
+				"<cite ref=\"Mishnah Eduyot 8:1\">Eduy. VIII, 1</cite>. ",
+				"<cite ref=\"Mishnah Eduyot 5:1\">Ib. V, 1</cite>; a. fr."
+			]
+		}
+	]
+}

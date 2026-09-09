@@ -1,0 +1,28 @@
+{
+	"id": "T00640",
+	"slug": "ריכונא",
+	"headword": {
+		"text": "רִיכּוּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִכּ׳"
+		}
+	],
+	"page": {
+		"number": 1474,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>רְכַן</he> II) <i>causing to sink, destruction</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 24:2\">Targ. Prov. XXIV, 2</cite> ed. Lag. (Var. <he>ריב׳</he>; ed. Wil. <he>רב׳</he>; h. text <he>שֹׁד</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 21:7\">Ib. XXI, 7</cite>; v. <cite ref=\"D00587\"><he>דִּיכּוּנָא</he></cite>."
+			]
+		}
+	]
+}

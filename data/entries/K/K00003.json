@@ -1,0 +1,30 @@
+{
+	"id": "K00003",
+	"slug": "כא",
+	"headword": {
+		"text": "כָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּה"
+		}
+	],
+	"page": {
+		"number": 605,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (b. h. <cite ref=\"K00148\"><he>כֹּה</he></cite>, v. <cite ref=\"K00002\">preced.</cite>) adverb of place: <i>here</i>, v. <cite ref=\"E00499\"><he>הָכָא</he></cite>; of time: <i>now</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 22:5\">Targ. Gen. XXII, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 38:11\">Targ. Job XXXVIII, 11</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:22\">Y. Ber. IV, 7ᶜ</cite> top <he>וכא אמר הכין</he> and here he says so? <cite ref=\"Jerusalem Talmud Berakhot 4:1:22\">Ib.</cite> <he>וכה</he>; a. v. fr.—לְכָא <i>hither</i>; <he>מִיכָּא</he> <i>from here</i>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 8:20\">Targ. Josh. VIII, 20</cite>. ",
+				"<cite ref=\"Onkelos Exodus 17:12\">Targ. Ex. XVII, 12</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Beitzah 5:2:7\">Y. Bets. V, 63ᵃ</cite> <he>פצל … לכא ולכא</he> skimmed the water in both directions. ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 6:3:4\">Y. B. Mets. VI, 11ᵃ</cite> top <he>מיכא ללוד</he> from here to Lydda; a. fr.—v. <cite ref=\"A01249\"><he>אִיכָּא</he></cite>, <cite ref=\"L00460\"><he>לִיכָּא</he></cite> &c.; <cite ref=\"K00021\"><he>כַּאַן</he></cite>, <cite ref=\"K00825\"><he>כַּן</he></cite> &c."
+			]
+		}
+	]
+}

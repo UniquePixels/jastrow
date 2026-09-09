@@ -1,0 +1,23 @@
+{
+	"id": "H00435",
+	"slug": "חוצלת",
+	"headword": {
+		"text": "חוֹצֶלֶת"
+	},
+	"page": {
+		"number": 438,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חצל</he>, v. <cite ref=\"H01533\"><he>חצץ</he></cite>; cmp. <cite ref=\"M00926\"><he>מַחֲצֶלֶת</he></cite>, <cite ref=\"B00715\"><he>בּיּרְיָא</he> II</cite>) <i>matting used for partitions, coverings</i> &c.—<i>Pl</i> <he>חוֹצְלוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 3:4\">Eduy. III, 4</cite>; <cite ref=\"Sukkah 20a:8\">Succ. 20ᵃ</cite> <he>כל הח׳ וכ׳</he> all kinds of mattings are liable to uncleanness by contact with corpses; v. <cite ref=\"M02620\"><he>מַרְזוּבְלֵי</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Batra 4:14\">Tosef. Kel. B. Bath. IV, 14</cite> <he>החוֹצְלִים</he> ed. Zuck. (Var. <he>חולצות</he>; ed. <he>חוצלות</he>)."
+			]
+		}
+	]
+}

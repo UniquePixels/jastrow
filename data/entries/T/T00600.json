@@ -1,0 +1,30 @@
+{
+	"id": "T00600",
+	"slug": "ריגוש-2",
+	"headword": {
+		"text": "רִיגּוּשׁ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רִיגּוּשָׁא"
+		},
+		{
+			"text": "רִגּ׳"
+		}
+	],
+	"page": {
+		"number": 1473,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (<cite ref=\"T00225\"><he>רְגַשׁ</he></cite>) <i>commotion, excitement</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 22:5\">Targ. Is. XXII, 5</cite> (ed. Wil. <cite ref=\"T00171\"><he>רְגוּשׁ</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 10:3\">Ib. X, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 39:7\">Targ. Job XXXIX, 7</cite>; v. <cite ref=\"T00172\"><he>רְגוֹשׁ</he></cite>."
+			]
+		}
+	]
+}

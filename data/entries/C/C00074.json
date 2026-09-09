@@ -1,0 +1,71 @@
+{
+	"id": "C00074",
+	"slug": "גבי-3",
+	"headword": {
+		"text": "גְּבִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּבָא"
+		}
+	],
+	"page": {
+		"number": 205,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00073\">same</cite>; [",
+			"units": []
+		},
+		{
+			"gloss": "<i>to rake</i>, v. <cite ref=\"C00040\"><he>גְּבַב</he></cite>].].",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to collect, tax</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 22:19\">Targ. O. Deut. XXII, 19</cite> (h. text <he>ענש</he>). ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 8:14\">Targ. Koh. VIII, 14</cite>; a. e.—Part. act. a. pass. <he>גָּבֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 8:6\">Targ. Hos. VIII, 6</cite> (some ed. incorr. <cite ref=\"C00104\"><he>גַּבֵּי</he></cite>, v. Rashi a. l.).—",
+				"<cite ref=\"Bava Metzia 12b:18\">B. Mets. 12ᵇ</cite> <he>ניהו דלא גָבֵי … מִגְבָא גָבֵי</he> though it cannot be collected from mortgaged, it may be collected from unencumbered property. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 1:5:6\">Y. Gitt. I, end, 43ᵈ</cite> <he>נחתון מִיגְבֵי וכ׳</he> they went down (to Babylonia) to collect debts there for friends; <cite ref=\"Jerusalem Talmud Kiddushin 3:4:7\">Y. Kidd. III, 64ᵃ</cite> <he>לגביה</he> (read <he>למִיגְבֵי</he>); cmp. ",
+				"<cite ref=\"Gittin 14b:13\">Gitt. 14ᵇ</cite>.—",
+				"<cite ref=\"Bava Metzia 17b:4\">B. Mets. 17ᵇ</cite> <cite ref=\"M00108\"><he>גַּבְיָא</he></cite> she has a right to collect (seize); a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַגְבֵּי"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"C00073\">preced.</cite> Hif., <i>to confiscate, fine</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Amos 4:5\">Targ. Am. IV, 5</cite>. ",
+						"<cite ref=\"Targum Jonathan on Hosea 8:13\">Targ. Hos. VIII, 13</cite> (some ed. <he>מְגַבַּן</he> Part. pass. Pa.).—",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 11:4\">Targ. Koh. XI, 4</cite> <he>לא מגבי אגר</he> makes not (people) derive any gain.—",
+						"<cite ref=\"Bava Kamma 98b\">B. Kam. 98ᵇ</cite>; <cite ref=\"Ketubot 86a:4\">Keth. 86ᵃ</cite> <he>מַגְבֵּי ביה</he> makes him pay. ",
+						"<cite ref=\"Ketubot 86a:5\">Ib.</cite> <he>א׳ ביה כי וכ׳</he> made him pay the full amount, v. <cite ref=\"K01300\"><he>כָּשׁוֹרָא</he></cite>. ",
+						"<cite ref=\"Shevuot 48b:8\">Shebu. 48ᵇ</cite> <he>אַגְבּוּיֵי מַגְבִּינָן ביה</he> we do not order collection on such a bill. [<cite ref=\"Niddah 65b:24\">Nidd. 65ᵇ</cite> <he>מגבי בה</he>, v. <cite ref=\"C00609\"><he>גִּיב</he></cite> a. <cite ref=\"C00690\"><he>גִּיחַ</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְגְּבִי"],
+			"senses": [
+				{
+					"gloss": "<i>to be taxed, fined</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 21:22\">Targ. O. Ex. XXI, 22</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

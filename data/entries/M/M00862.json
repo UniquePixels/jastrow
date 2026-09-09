@@ -1,0 +1,44 @@
+{
+	"id": "M00862",
+	"slug": "מחיה",
+	"headword": {
+		"text": "מִחְיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִחְיָיה"
+		}
+	],
+	"page": {
+		"number": 760,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"H00671\"><he>חָיָה</he></cite>)<i>support, provision</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 3:7:11\">Y. Peah III, 17ᵈ</cite> bot. <he>יש לו מ׳</he> he has left for himself something to live on (a permanent source of income). Sifré Num. 159; <cite ref=\"Yalkut Shimoni on Torah 787:12\">Yalk. Num. 787</cite> <he>שווקים ובית המ׳</he> markets and a provision store (v. <cite ref=\"H00692\"><he>חֵיוְתָא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>healing</i>,] <i>light cicatrization</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 7:1:2\">Y. Pes. VII, 34ᵃ</cite> bot., expl. <cite ref=\"M00880\"><he>מִחְיַת</he></cite> (<cite ref=\"Leviticus 13:24\">Lev. XIII, 24</cite>) <he>חייתה ולא חייתה</he> it is and is not healed up (has only a thin covering). ",
+				"<cite ref=\"Mishnah Negaim 1:5\">Neg. I, 5</cite>. Sifra Thazr., <cite ref=\"Mishnah Negaim 2\">Neg., ch. II, Par. 2</cite> <he>מִחְיָתָהּ כגריס</he> if the half-healed part of it is as large as a bean. ",
+				"<cite ref=\"Mishnah Negaim 2\">Ib.</cite> Par. 5, ch. XI; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>creatures</i>; <he>מִחְיַת הים</he> sea-animals. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 7\">Gen. R. s. 7</cite>, end; <cite ref=\"Yalkut Shimoni on Torah 12:4\">Yalk. ib. 12</cite> <he>המרביע מ׳ הים</he> he who causes the cross-breeding of sea-animals (Tosaf. to <cite ref=\"Bava Kamma 55a\">B. Kam. 55ᵃ</cite> quotes: <he>מין חיית הים</he>); <cite ref=\"Jerusalem Talmud Kilayim 1:6:4\">Y. Kil. I, 27ᵃ</cite> bot. <he>בחיות</he>. (corr. acc.)."
+			],
+			"label": "3"
+		}
+	]
+}

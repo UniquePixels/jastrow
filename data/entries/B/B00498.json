@@ -1,0 +1,39 @@
+{
+	"id": "B00498",
+	"slug": "בטח-1",
+	"headword": {
+		"text": "בָּטַח"
+	},
+	"page": {
+		"number": 156,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בט</he> , v. <cite ref=\"B00504\"><he>בטי</he></cite>; cmp. <cite ref=\"T00343\"><he>רָוַח</he></cite>) <i>to be at ease, without trouble</i>, whence <i>to trust</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 6b:4\">Ber. 6ᵇ</cite> <he>הו״ל לבְטוֹחַ וכ׳</he> he ought to have trusted in the name of the Lord, but did not trust.—Part. pass. <he>בָּטוּחַ</he> <i>assured</i>. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 4:6:5\">Y. Naz. IV, end, 53ᶜ</cite>.—",
+				"<cite ref=\"Vayikra Rabbah 31\">Lev. R. s. 31</cite> <he>ב׳ שגוזר</he> he may rest assured that &c.; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִבְטִיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to assure, promise</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 17a:13\">Ber. 17ᵃ</cite> <he>הבטחה שה׳</he> the assurance which the Lord has given. ",
+						"<cite ref=\"Pesikta Rabbati 1:1\">Pesik. R. s. 1</cite>, beg. <he>אע״פ שמתו המַבְטִיחִין וכ׳</he> though those who gave the assurances, the prophets, are dead, but the Lord who promised (through them) is ever-living; a. fr.—<i>Part. Hof</i>. <he>מוּבְטָח</he> (= <he>בָּטוּחַ</he>) <i>confident, sure</i>. ",
+						"<cite ref=\"Berakhot 4a:14\">Ber. 4ᵃ</cite> <he>מ׳ אני בך וכ׳</he> I am sure that thou rewardest &c. ",
+						"<cite ref=\"Berakhot 4b\">Ib.ᵇ</cite> <he>מ׳ לו</he> may rest assured. ",
+						"<cite ref=\"Gittin 58a:10\">Gitt. 58ᵃ</cite> <he>מוּבְטַחְנִי</he> = <he>מ׳ אני</he>; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

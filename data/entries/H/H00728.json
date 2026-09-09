@@ -1,0 +1,27 @@
+{
+	"id": "H00728",
+	"slug": "חייט-2",
+	"headword": {
+		"text": "חַיָּיט",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חַיָּיטָא"
+		}
+	],
+	"page": {
+		"number": 454,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H00727\">same</cite>.",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 11\">Gen. R. s. 11</cite>; <cite ref=\"Kohelet Rabbah 4:1:1\">Koh. R. to IV, 1</cite>, v. <cite ref=\"D00928\"><he>דָּנִיאֵל</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 15:1:2\">Y. Sabb. XV, beg. 15ᵃ</cite> <cite ref=\"H00680\"><he>חיוטא</he></cite> (corr. acc.). ",
+				"<cite ref=\"Shir HaShirim Rabbah 6:12:1\">Cant. R. to VI, 12</cite>, v. <cite ref=\"J00214\"><he>יוּסְטָא</he></cite>."
+			]
+		}
+	]
+}

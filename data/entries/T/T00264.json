@@ -1,0 +1,35 @@
+{
+	"id": "T00264",
+	"slug": "רדם-1",
+	"headword": {
+		"text": "רָדַם"
+	},
+	"page": {
+		"number": 1453,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to benumb</i>. <i>Part. pass.</i> <he>רָדוּם</he>; pl. <he>רְדוּמִים</he> <i>fast asleep</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 6:1\">Esth. R. to III, 9</cite> <he>עד … ר׳ בשינה</he> how long yet will (you) the fathers of the world be sunk in sleep?"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִרְדַּם"],
+			"senses": [
+				{
+					"gloss": "<i>to be overcome by sleep</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Pesachim 10:8\">Pes. X, 8</cite> (<cite ref=\"Pesachim 120b:3\">120ᵇ</cite>) <he>נִרְדְּמוּ לא וכ׳</he> if they have been fast asleep, at the end of the Passover meal, they dare not eat again, opp. <he>נתנמנמו</he>. Tanḥ. ",
+						"<cite ref=\"Leviticus 8\">Vayikra 8</cite> <he>יונה</he> … <he>נ׳ וישן</he> Jonah, in the anguish of his soul, was overcome and fell asleep. ",
+						"<cite ref=\"Leviticus 8\">Ib.</cite> <he>אנו … ואתה נִרְדָּם</he> we are standing between life and death, and thou art asleep?"
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

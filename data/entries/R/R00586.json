@@ -1,0 +1,38 @@
+{
+	"id": "R00586",
+	"slug": "צמצם-2",
+	"headword": {
+		"text": "צַמְצֵם"
+	},
+	"page": {
+		"number": 1289,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00585\">same</cite><i>to squeeze in, confine</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 76b:16\">Snh. 76ᵇ</cite> <he>ההוא גברא דמְצַמְצְמָהּ וכ׳</he> (not <he>מא …</he>; Ms. M. <he>דצימצם</he> Hebr. Form) a man that confined his neighbor’s animal so as to expose it to sunstroke; <cite ref=\"Yalkut Shimoni on Torah 787:20\">Yalk. Num. 787</cite> <he>דצמצמיה</he>, read: <he>דצַמְצְמָהּ</he>. ",
+				"<cite ref=\"Yevamot 46a:10\">Yeb. 46ᵃ</cite> <he>ארפו ליה וצַמְצְמוּ ליה</he> (ed. <he>וצימצמו</he>, Hebr. form) they loosened the halter around his neck, and pressed it close to his neck; <he>צ׳ ליה כי היכי וכ׳</he> they pressed it, in order that he (when immersing) may not anticipate them and say, I take this immersion as a freedman.—Transf. <i>to get a person into a dilemma</i>. Lam. R. introd. (R. Josh. 2) <he>אמר מְצַמְצְמָא יתי וכ׳</he> Nebuchadnezzar said, he (the Lord, in commanding me to destroy the Temple) wants to get me into trouble, that he may do unto me as he did &c.; <cite ref=\"Yevamot 46a:10\">ib.</cite> (Zabdi 2) <he>מצמצא</he> some ed. (corr. acc.); <cite ref=\"Yevamot 46a:10\">ib.</cite> to IV, 12.—2) (cmp. b. h. <he>צַמָּה</he>, v. <cite ref=\"A01445\"><he>אִיסְטְמָא</he></cite>) <i>to restrain the hair from flying, to tie up, veil</i>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 38:15\">Targ. Y. II, Gen. XXXVIII, 15</cite> (h. text <he>כסתה</he>).—[<cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite> <he>צמצמתא</he> some ed., read: <he>למְצַמְּתָא</he>, v. <cite ref=\"R00602\"><he>צְמַת</he></cite>.]"
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְצַמְצַם"],
+			"senses": [
+				{
+					"gloss": "<i>to veil one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Genesis 24:65\">Targ. Y. II, Gen. XXIV, 65</cite> (h. text <he>ותתכס</he>).—2) <he>אִצְטַמְטַם</he> (cmp. <he>מזדנזדין</he>, v. <he>זעזע</he>) <i>to be pressed, want</i>. ",
+						"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> (<cite ref=\"T00152\"><he>רבתי</he></cite>) <he>אִצְטַמְטְמִינָן לבישרא וכ׳</he> we were pressed for meat (our store of meat had given out). ",
+						"<cite ref=\"Eichah Rabbah 1:1\">Ib.</cite> <he>ואצטמטימתון לחמרא</he> (corr. acc.) and we had no wine; v. <cite ref=\"R00602\"><he>צְמַת</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

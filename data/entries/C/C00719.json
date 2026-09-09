@@ -1,0 +1,52 @@
+{
+	"id": "C00719",
+	"slug": "גילא-2",
+	"headword": {
+		"text": "גִּילָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּילָּא"
+		},
+		{
+			"text": "גִּלָּא"
+		}
+	],
+	"page": {
+		"number": 238,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גלל</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>something rounded</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 34a:7\">Succ. 34ᵃ</cite> <he>חילפא ג׳</he> a willow with rounded leaves. ",
+				"<cite ref=\"Shabbat 110a:8\">Sabb. 110ᵃ</cite>; <cite ref=\"Menachot 42b:16\">Men. 42ᵇ</cite> (<cite ref=\"M00000\"><he>מ</he></cite>)<he>גביא ג׳</he> (v. <cite ref=\"M00108\"><he>מַגַּבְיָא</he></cite>) liquid alum in rounded form (στυπτηρία στρογγύλη, v. Sm. Ant. s. v. Stypteria)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"C00871\"><he>גַּלְגַּל</he></cite> <cite ref=\"Psalms 83:14\">Ps. LXXXIII, 14</cite>) [<i>rolled about</i>,] <i>stubble, straw</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 13:25\">Targ. Job XIII, 25</cite>.—",
+				"<cite ref=\"Chullin 46b:2\">Ḥull. 46ᵇ</cite> a feather, spittle, <he>או ג׳</he> or a piece of straw. ",
+				"<cite ref=\"Chullin 56b\">Ib. 56ᵇ</cite> top <he>ג׳ דחיטתא</he> a piece of wheat straw. ",
+				"<cite ref=\"Niddah 26b:36\">Nidd. 26ᵇ</cite> <he>דרמינן ליה בג׳ דחטתא</he> on whom we may throw wheat chaff, i.e. embarrass with petty questions.—Pl. <he>גִּילֵי</he>, <cite ref=\"C00974\"><he>גִּילֵּי</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 5:12\">Targ. Ex. V, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 41:20\">Targ. Job XLI, 20</cite> sq.—",
+				"<cite ref=\"Sanhedrin 108b:21\">Snh. 108ᵇ</cite>, v. <cite ref=\"C00806\"><he>גִּיר</he> III</cite>.—",
+				"<cite ref=\"Sukkah 14a:6\">Succ. 14ᵃ</cite> <he>בגִילַיְיהוּ</he> (grains) in their haulms.—בֵּי גִּילֵּי <i>dumping ground, marsh</i>. <he>גילדנא דבי ג׳</he> the small fish living among the reeds in the swamps. ",
+				"<cite ref=\"Berakhot 44b:18\">Ber. 44ᵇ</cite>; <cite ref=\"Ketubot 105b:15\">Keth. 105ᵇ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

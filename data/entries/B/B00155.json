@@ -1,0 +1,59 @@
+{
+	"id": "B00155",
+	"slug": "בדק-2",
+	"headword": {
+		"text": "בְּדַק"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּדִיק"
+		}
+	],
+	"page": {
+		"number": 141,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00154\">same</cite><i>to split, burst, break into</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 105a:12\">Ḥull. 105ᵃ</cite> <he>חזא צינורא דבדקא וכ׳</he> (Ar. <he>דבידקא</he>) he saw that a sewer had burst into his field (inundating it); v. <cite ref=\"B00158\"><he>בִּדְקָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to examine, espy; to test</i>. Targ. ",
+			"units": [
+				"<cite ref=\"Judges 18:2\">Judg. XVIII, 2</cite>; a. fr.—",
+				"<cite ref=\"Yevamot 65a:7\">Yeb. 65ᵃ</cite> <he>אִיבְדוֹק נפשאי</he> I will test myself (as to my virility). ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 2:3:2\">Y. Ned. II, 37ᵇ</cite> bot. <he>בעי חיפה מִיבְדְּקוּנֵיה</he> Ḥefa wanted to sound his knowledge. ",
+				"<cite ref=\"Taanit 21b\">Taan. 21ᵇ</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to cure the body by means of a purgative</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 50b:7\">Ned. 50ᵇ</cite> <he>הוה בָּדִיק נפשיה וכ׳</he> purged himself with &c.; a. e.—Part. pass. <cite ref=\"B00145\"><he>בְּדִיק</he></cite> <i>tested, sure, known</i>. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 5:5:6\">Y. Sot. V, 20ᶜ</cite> bot. <he>לא הוות בדיקה לי</he> was unknown to me (I had not experienced). ",
+				"<cite ref=\"Taanit 23b:5\">Taan. 23ᵇ</cite> <he>לא בדיקתו לי</he> (not <he>בדקיתו</he>) ye are unknown to me (as to your honesty).—בְּדִיקְנָא <i>I am sure, I know</i>. ",
+				"<cite ref=\"Pesachim 111b:7\">Pes. 111ᵇ</cite> <he>בדיקנא ביה במר דלא וכ׳</he> I am sure you do not know (Ms. M. <he>ב׳ ליה וכ׳</he>, Ms. 2 Oxf. <he>בקינא</he>, v. Rabb. D. S. a. l. note). *<cite ref=\"Chullin 32a:7\">Ḥull. 32ᵃ</cite> <he>לא הוה בדיקנא ביה וכ׳</he> Ar. Var. (ed. <he>בדיחנא</he>) I was not so familiar with my uncle that I should have asked him."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּדֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to discover</i> (by sorcery), <i>to find out secrets</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 44:5\">Targ. O. Gen. XLIV, 5</cite>; <cite ref=\"Onkelos Genesis 44:15\">15</cite>. Cmp. <cite ref=\"B00148\"><he>בְּדִיקְנָאָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

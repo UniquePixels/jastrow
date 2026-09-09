@@ -1,0 +1,22 @@
+{
+	"id": "C01240",
+	"slug": "גרבתא",
+	"headword": {
+		"text": "גְּרַבְתָּא"
+	},
+	"page": {
+		"number": 264,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (euphem. transpos. of <cite ref=\"C00138\"><he>גברתא</he></cite>, v. <cite ref=\"C00130\"><he>גֶּבֶר</he></cite> 3) <i>abnormal length of the membrum virile</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 44b:12\">Bekh. 44ᵇ</cite>, v. <cite ref=\"C01241\">next w.</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "K01342",
+	"slug": "כתב-4",
+	"headword": {
+		"text": "כְּתַב",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּתָבָא"
+		},
+		{
+			"text": "כִּתְ׳"
+		}
+	],
+	"page": {
+		"number": 679,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K01341\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 19:28\">Targ. Y. Lev. XIX, 28</cite> (h. text <cite ref=\"K01345\"><he>כְּתֹבֶת</he></cite>).—",
+				"<cite ref=\"Targum Jonathan on Genesis 48:9\">Targ. Y. Gen. XLVIII, 9</cite> (marriage contract, v. <cite ref=\"K01350\"><he>כְּתוּבָּה</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 32:16\">Targ. Ex. XXXII, 16</cite> (h. text <he>מכתב</he>); a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 28:2\">Lev. R. s. 28</cite>, end <he>מה דאמר כְּתַבְכוֹן</he> what your sacred writ says.—Pl. (<he>כָּתְבִין</he>) <he>כְּתָבִין</he>, <he>כִּתְבִין</he>, <he>כִּתְבֵי</he>. Targ. II Esth. IV, 12. Ib. VII, 10; a. e.—",
+				"<cite ref=\"Bereishit Rabbah 10:7\">Gen. R. s. 10</cite>; <cite ref=\"Vayikra Rabbah 22:4\">Lev. R. s. 22</cite> <he>כ׳ בישין וכ׳</he> evil decrees against the Jews of Caesarea (v. <cite ref=\"K01341\">preced.</cite>); Tanḥ. Ḥuck. 1."
+			]
+		}
+	]
+}

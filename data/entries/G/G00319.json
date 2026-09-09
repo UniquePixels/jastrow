@@ -1,0 +1,22 @@
+{
+	"id": "G00319",
+	"slug": "זיותן-1",
+	"headword": {
+		"text": "זֵיוְתָן"
+	},
+	"page": {
+		"number": 392,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (fr. <he>זִיוָה</he>, fem. form of <cite ref=\"G00299\"><he>זִיו</he></cite>, formed like <cite ref=\"C00673\"><he>גֵּיוְתָן</he></cite>) <i>bright, distinguished, noble</i>. constr. <he>זֵיוְתָנֵי</he>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 11a:9\">R. Hash. 11ᵃ</cite> (play on <he>זִו</he>, <cite ref=\"I Kings 6:1\">I Kings VI, 1</cite>) <he>שבו נבראו ז׳ עולם</he> for in that month were created the nobles of the world (the patriarchs)."
+			]
+		}
+	]
+}

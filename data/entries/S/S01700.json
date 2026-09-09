@@ -1,0 +1,65 @@
+{
+	"id": "S01700",
+	"slug": "קפד-2",
+	"headword": {
+		"text": "קְפַד"
+	},
+	"page": {
+		"number": 1398,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01699\">same</cite>, <i>to be angry, sensitive; to be particular, care for, mind</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 113b:1\">Snh. 113ᵇ</cite>, v. <cite ref=\"S01702\"><he>קַפְדָּן</he></cite>. ",
+				"<cite ref=\"Chullin 107a:6\">Ḥull. 107ᵃ</cite> <he>קַפְדִּיתוּ אמנא</he> are you particular about the condition of the vessel (used for ablution)? <cite ref=\"Chullin 107a:7\">Ib.</cite> <he>אמנא ואחזותא קַפְדִּינָן</he> we are particular about the vessel and about the color (of the water), <he>אשיעורא לא קַפְדִּינָן</he> we are not so about the quantity. ",
+				"<cite ref=\"Shabbat 147a:1\">Sabb. 147ᵃ</cite> <he>והוא דקָפֵיד עלייהו</he> provided a person is particular about his garments’ being shaken before he puts them on; <he>אנן לא קפדינן</he> we do not care about it. ",
+				"<cite ref=\"Pesachim 110b:2\">Pes. 110ᵇ</cite> <he>כל דקפיד קָפְדֵּי בהדיה וכ׳</he> he that minds (such practices) is strictly dealt with (suffers for disregarding them); he that does not care &c. ",
+				"<cite ref=\"Sanhedrin 67b:11\">Snh. 67ᵇ</cite> <he>דקפיד אמנא שד</he> a magician that is particular about the vessel he uses is a conjurer of demons; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַפֵּיד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S01699\">same</cite>. Y. Sabb. I, 4ᵃ top <he>מְקַפְּדִין</he>, v. <cite ref=\"S00606\"><he>קוּרְיָיאָה</he></cite>",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְקְפַד", "אִיקְּפַד"],
+			"senses": [
+				{
+					"gloss": "<i>to be contracted, shortened</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 38:12\">Targ. Is. XXXVIII, 12</cite> (ed. Lag. <he>איתקפלו</he>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 50:2\">Ib. L, 2</cite>. ",
+						"<cite ref=\"Targum Jonathan on Micah 2:7\">Targ. Mic. II, 7</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be angry, excited</i>. Y. Ber. II, 5ᵇ top <he>שמע … וא׳ עילוי</he> Samuel heard of it and was angry with him. ",
+					"units": ["<cite ref=\"Kiddushin 33a\">Kidd. 33ᵃ</cite>; a. fr."],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אַקְפַּד"],
+			"senses": [
+				{
+					"gloss": "<i>to provoke, insult</i>. Y. B. Kam. VIII, end, 6ᶜ <he>חד בר נש א׳ לר׳ וכ׳</he> (not <he>איק׳</he>) a man insulted R. Ḥ.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "G00409",
+	"slug": "זיקוק",
+	"headword": {
+		"text": "זִיקּוּק"
+	},
+	"page": {
+		"number": 396,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"G00403\"><he>זֵיק</he></cite>) <i>dart, spark</i>.—Pl. <he>זִיקּוּקִין</he>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 7\">Deut. R. s. 7</cite> <he>שני ז׳ של אש</he> two darts of fire (Tanḥ. Vayak. 7 <he>ניצוצין</he>)."
+			]
+		}
+	]
+}

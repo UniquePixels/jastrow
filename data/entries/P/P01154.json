@@ -1,0 +1,44 @@
+{
+	"id": "P01154",
+	"slug": "עקד-2",
+	"headword": {
+		"text": "עֲקַד"
+	},
+	"page": {
+		"number": 1105,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"P01153\">same</cite>, <i>to tie; to offer</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 22:9\">Targ. O. Gen. XXII, 9</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Leviticus 22:27\">Targ. Y. II, Lev. XXII, 27</cite>. Targ. II Esth. V, 1; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to bend, bow</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 4:31\">Targ. Y. II, Ex. IV, 31</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Exodus 34:8\">Ib. XXXIV, 8</cite> (ed. Vien. <he>אֲקַד</he>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 24:48\">Targ. Y. Gen. XXIV, 48</cite> <he>ועקדית</he> Ar. (ed. <he>וגחנית</he>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְעֲקַד"],
+			"senses": [
+				{
+					"gloss": "<i>to be tied; to be put on the altar</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Micah 7:20\">Targ. Mic. VII, 20</cite>. Targ. Y. I Lev. l. c. (Y. II <he>עקד גרמיה</he>). Targ. II Esth. l. c.; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

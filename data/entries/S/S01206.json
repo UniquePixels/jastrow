@@ -1,0 +1,23 @@
+{
+	"id": "S01206",
+	"slug": "קיש-2",
+	"headword": {
+		"text": "קִישׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1370,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01251\"><he>נָקַשׁ</he></cite>) <i>clapping, the sound ḳish-ḳish</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 85b:2\">B. Mets. 85ᵇ</cite>, v. <cite ref=\"K00636\"><he>כִּישׁ</he></cite>."
+			]
+		}
+	]
+}

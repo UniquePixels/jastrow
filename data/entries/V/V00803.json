@@ -1,0 +1,49 @@
+{
+	"id": "V00803",
+	"slug": "תפוח-2",
+	"headword": {
+		"text": "תַּפּוּחַ"
+	},
+	"page": {
+		"number": 1685,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"V00808\"><he>תָּפַח</he> I)</cite> [<i>round</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>apple; apple tree</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:4\">Kil. I, 4</cite> <he>הת׳ והחזרד וכ׳</he> the apple and the crab-apple …, although resembling each other, are heterogeneous (<cite ref=\"K00674\"><he>כִּלְאַיִם</he></cite>). ",
+				"<cite ref=\"Shir HaShirim Rabbah 8:5:1\">Cant. R. to VIII, 5</cite> <he>מה ת׳ זה עושה וכ׳</he> as the apple tree brings forth fruit in Sivan, so the Law was given in Sivan. ",
+				"<cite ref=\"Shir HaShirim Rabbah 8:5:1\">Ib.</cite> <he>כל אילן … ות׳ זה מוציא וכ׳</he> every other tree produces first its leaves, and then its fruit (buds), but the apple tree produces its buds first, and then its leaves; even so Israel advanced doing to hearing; <cite ref=\"Shabbat 88a:8\">Sabb. 88ᵃ</cite>; <cite ref=\"Shir HaShirim Rabbah 2:3:2\">Cant. R. to II, 3</cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:3:2\">Ib.</cite> <he>מה ת׳ זה אתה נותן בו איסר וכ׳</he> (not <cite ref=\"A01404\"><he>איסור</he></cite>) as the apple, for which you pay an Isar and whose scent you enjoy many times, so &c. ",
+				"<cite ref=\"Bamidbar Rabbah 19:16\">Num. R. s. 19<sup>16</sup></cite> (expl. <he>הר ההר</he>, <cite ref=\"Numbers 20:22\">Num. XX, 22</cite>) <he>הר על גבי הר כת׳ קטן על גבי ת׳ גדול</he> a hill upon a hill, like a small apple on a large apple; a. fr.—Pl. <he>תַּפּוּחִים</he>, <he>תַּפּוּחִין</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:5\">Cant. R. to II, 5</cite> <he>אלו ההגדות … כת׳</he> that means the Hăgadoth whose flavor and taste are like those of apples. ",
+				"<cite ref=\"Menachot 28b:15\">Men. 28ᵇ</cite> <he>תַּפּוּחֵי הכרתיים</he>, v. <cite ref=\"K01285\"><he>כְּרֵתִי</he></cite>; a. fr.—2) (from its shape) "
+			],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " <he>ת׳ עקב</he> <i>the fleshy part of the heel</i>. Pesik. Par., p. 36ᵇ <he>ת׳ עקיבו וכ׳</he> the apple of Adam’s heel outshone the globe of the sun; ib. Aḥăré, p. 170ᵃ; <cite ref=\"Vayikra Rabbah 20:2\">Lev. R. s. 20</cite>; a. e.—",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>pile</i>, esp. <i>the place on the altar where the ashes were piled up</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Avodah Zarah 4:8\">Ab. Zar. IV, 8</cite> <he>אע״פ … ונותן לת׳</he> although the gentile may take grapes in his hand and put them on the pile. ",
+						"<cite ref=\"Mishnah Tamid 2:2\">Tam. II, 2</cite> <he>החלו … ע״ג ת׳ והת׳ היה וכ׳</he> they began to put the ashes on the <i>tappuaḥ</i>, and the <i>t.</i> was in the centre of the altar, containing at times as much as &c.; <cite ref=\"Chullin 90b:9\">Ḥull. 90ᵇ</cite>. ",
+						"<cite ref=\"Chullin 90b:4\">Ib.</cite> <he>חולצו לת׳</he> he takes it (the nervus ischiadicus) out, and throws it on the <i>tappuaḥ</i>; a. e."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

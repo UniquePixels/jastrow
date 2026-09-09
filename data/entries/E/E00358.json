@@ -1,0 +1,23 @@
+{
+	"id": "E00358",
+	"slug": "היטני",
+	"headword": {
+		"text": "הִיטְּנֵי"
+	},
+	"page": {
+		"number": 344,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"A01223\"><he>אִיטָּן</he></cite>) <i>calamus, reeds</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 78b:1\">Yoma 78ᵇ</cite> <he>בדה׳</he> in shoes made of reeds. [Rashi: <he>מין שעם</he>; Ms. M. a. oth. <cite ref=\"T00288\"><he>רהיטני</he></cite>; oth. vers. <cite ref=\"H00713\"><he>חיטני</he></cite>; Asheri: shoes made of <i>wheat-straw</i>.]"
+			]
+		}
+	]
+}

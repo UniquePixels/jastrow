@@ -1,0 +1,24 @@
+{
+	"id": "M02123",
+	"slug": "מעל-1",
+	"headword": {
+		"text": "מֵעַל"
+	},
+	"page": {
+		"number": 816,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (adopted fr. ",
+			"units": [
+				"<cite ref=\"Deuteronomy 25:9\">Deut. XXV, 9</cite>) [<i>from on</i>,] <i>upper</i> of the shoe. ",
+				"<cite ref=\"Yevamot 102a:11\">Yeb. 102ᵃ</cite> <he>התודה אמרה מ׳ ולא מ׳ דמ׳</he> the text says ‘from on’ (his foot) but not the cover of a cover, i.e. the upper must be immediate to the skin of the foot, v. <cite ref=\"A02746\"><he>אַפַּנְתָּא</he></cite>. ",
+				"<cite ref=\"Yevamot 102a:20\">Ib.</cite> <he>א״כ ליכתוב רחמנא במ׳ רגלו</he> if it were so (that <he>חלץ</he>, Deut. l. c. meant ‘to fasten’), the text ought to have read ‘on the upper part of his foot’."
+			]
+		}
+	]
+}

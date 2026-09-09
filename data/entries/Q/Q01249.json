@@ -1,0 +1,27 @@
+{
+	"id": "Q01249",
+	"slug": "פסוק-2",
+	"headword": {
+		"text": "פָּסוּק"
+	},
+	"page": {
+		"number": 1193,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01350\"><he>פָּסַק</he></cite>) [<i>division, interval</i>,] <i>Biblical verse</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 16b:6\">Yeb. 16ᵇ</cite> <he>פ׳ זה שר וכ׳</he> this verse (<cite ref=\"Psalms 37:25\">Ps. XXXVII, 25</cite>) has been said by the archangel of the world. ",
+				"<cite ref=\"Sanhedrin 99a\">Snh. 99ᵃ</cite> <he>אפי׳ אמר … חוץ מפ׳ זה</he> even if one says, the whole Torah is from heaven, except this one verse; a. v. fr.—Pl. <he>פְּסוּקִים</he>, <he>פְּסוּקִין</he>. ",
+				"<cite ref=\"Taanit 27b:10\">Taan. 27ᵇ</cite> <he>הקורא בתורה … משלשה פ׳</he> he who reads from the Law, must read no less than three verses. ",
+				"<cite ref=\"Megillah 22a:1\">Meg. 22ᵃ</cite> <he>אין מתחילין בפרשה … פ׳</he> in reading from a section of the Torah you must not begin with less than three verses, i.e. you must begin with at least the fourth verse from the beginning of the section. ",
+				"<cite ref=\"Kiddushin 30a:14\">Kidd. 30ᵃ</cite> <he>חמשת … פ׳ הוו פְסוּקֵי ספר תורה וכ׳</he> the number of verses of the Book of the Law (Pentateuch) is 5888; <cite ref=\"Kiddushin 30a:13\">ib.</cite> <he>והתגלח</he> (<he>חציין</he>) <he>של פ׳</he> the verse beginning with <i>v’hithgallaḥ</i> (<cite ref=\"Leviticus 13:33\">Lev. XIII, 33</cite>) marks the middle of the verses of the Pentateuch; <cite ref=\"Yalkut Shimoni on Torah 855:3\">Yalk. Deut. 855</cite> (needs emend.). ",
+				"<cite ref=\"Vayikra Rabbah 6:6\">Lev. R. s. 6</cite> <he>בארי לא נתנבא אלא שני פ׳ וכ׳</he> Beeri prophesied no more than two verses, … and they were attached to the book of Isaiah; a. v. fr.—[<cite ref=\"Sifrei Bamidbar 131:2\">Sifré Num. 131</cite> <he>מתחת פסוקין</he>, v. <cite ref=\"Q01318\"><he>פְּסִיקְיָא</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "R00108",
+	"slug": "צדידא",
+	"headword": {
+		"text": "צְדִידָא"
+	},
+	"page": {
+		"number": 1262,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"R00078\"><he>צַד</he></cite>) [<i>crystal-shaped</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>eye-paint, antimony</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 4:30\">Targ. Jer. IV, 30</cite> (h. text <cite ref=\"Q00202\"><he>פּוּךְ</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 9:30\">Targ. II Kings IX, 30</cite> (some ed. <cite ref=\"R00766\"><he>צרידא</he></cite>, <cite ref=\"R00786\"><he>צרירא</he></cite>, corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of <i>a precious stone</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 54:11\">Targ. Is. LIV, 11</cite> (some ed. <he>צרי׳</he>, corr. acc.; h. text <cite ref=\"Q00202\"><he>פּוּךְ</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

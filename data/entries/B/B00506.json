@@ -1,0 +1,28 @@
+{
+	"id": "B00506",
+	"slug": "בטיח",
+	"headword": {
+		"text": "בַּטִּיחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֶּן בַּטִּיחַ"
+		}
+	],
+	"page": {
+		"number": 156,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ben Battiaḥ</i>, nephew of R. Johanan b. Zaccai, one of the leaders of the terrorists during the siege of Jerusalem by the Romans. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 7:11:1\">Koh. R. to VII, 11</cite>; <cite ref=\"Eichah Rabbah 1:31\">Lam. R. to I, 5</cite>; (<cite ref=\"Gittin 56a:15\">Gitt. 56ᵃ</cite> <he>אבא סקרא</he>). ",
+				"<cite ref=\"Mishnah Kelim 17:12\">Kel. XVII, 12</cite>."
+			]
+		}
+	]
+}

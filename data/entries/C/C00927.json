@@ -1,0 +1,108 @@
+{
+	"id": "C00927",
+	"slug": "גלי-2",
+	"headword": {
+		"text": "גְּלֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּלָא"
+		},
+		{
+			"text": "גָּלָא"
+		}
+	],
+	"page": {
+		"number": 247,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00926\">same</cite><i>to reveal, uncover</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 22:31\">Targ. Num. XXII, 31</cite>. ",
+				"<cite ref=\"Targum Jonathan on Amos 3:7\">Targ. Am. III, 7</cite>; a. fr.—Part. <cite ref=\"C00024\"><he>גָּאלֵי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 20:19\">Targ. Prov. XX, 19</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to go into exile, go away, disappear</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 10:5\">Targ. Hos. X, 5</cite>.—",
+				"<cite ref=\"Targum Jonathan on Hosea 11:11\">Ib. XI, 11</cite> <he>דִּיגְלוֹ</he> those who were exiled. ",
+				"<cite ref=\"Targum Jonathan on Amos 5:5\">Targ. Am. V, 5</cite> <he>מִיגְלָא יִגְלוּן</he> (some ed. <he>ילפון</he>, corr. acc.); a. fr.—",
+				"<cite ref=\"Berakhot 56a:19\">Ber. 56ᵃ</cite> <he>אִגְלֵי</he> I will leave home; <he>גלא לבי רומאי</he> he emigrated into Roman territory. ",
+				"<cite ref=\"Pesachim 49a:17\">Pes. 49ᵃ</cite> <he>לא גְלָאִי</he> I should not have emigrated; <he>לא גלאי כדגָלֵי אינשי</he> I did not emigrate (voluntarily) as others do. ",
+				"<cite ref=\"Kohelet Rabbah 9:10:1\">Koh. R. to IX, 10</cite> <he>את הוית גָּלֵי וכ׳</he>, v. <cite ref=\"A01934\"><he>אֲלַף</he> II</cite>.—Part. <cite ref=\"C00024\"><he>גָּלֵי</he></cite>, pl. <cite ref=\"C00931\"><he>גָּלַיָּא</he></cite>, f. <he>גָּלָן</he> <i>exiles</i>. ",
+				"<cite ref=\"Targum Jonathan on Nahum 2:8\">Targ. Nah. II, 8</cite> <he>בגָלַיָּא</he> ed. among the exiles (on foot; ed. Lag. <he>בגִילַּיָּא</he>, v. <cite ref=\"C00730\"><he>גִּילּוּיָא</he></cite>, h. text <he>גֻּלְּתָה</he>). ",
+				"<cite ref=\"Targum Jonathan on Amos 6:7\">Targ. Am. VI, 7</cite> <he>גָּלָן</he> the exiled communities.—",
+				"<cite ref=\"Targum Jonathan on II Kings 23:6\">Targ. II Kings XXIII, 6</cite> <he>קברי ג׳</he> (some ed. <cite ref=\"C00730\"><he>גַּלּ׳</he></cite>) the graves of the homeless (h. text <he>בני העם</he>).—<i>Part. pass.</i> <cite ref=\"C00930\"><he>גֱּלֵי</he></cite>, <cite ref=\"C00930\"><he>גֲּלִי</he></cite>, <he>גְּ׳</he>, <cite ref=\"C00930\"><he>גַּלְיָא</he></cite> <i>known, revealed; uncovered</i>. ",
+				"<cite ref=\"Daniel 2:19\">Dan. II, 19</cite>; <cite ref=\"Daniel 2:30\">30</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 23:10\">Targ. Job XXIII, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 3:1\">Targ. I Sam. III, 1</cite>; a. fr.—",
+				"<cite ref=\"Onkelos Exodus 14:8\">Targ. O. Ex. XIV, 8</cite> <he>בריש ג׳</he> openly (h. text <he>ביד רמה</he>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּלֵּי"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"C00926\">preced.</cite> Pi.—",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 18:6\">Targ. Lev. XVIII, 6</cite> sq.; a. fr. ",
+						"<cite ref=\"Gittin 31b:13\">Gitt. 31ᵇ</cite> <he>ג׳ לדרעיה</he> he uncovered his arm. ",
+						"<cite ref=\"Avodah Zarah 28a:5\">Ab. Zar. 28ᵃ</cite>; <cite ref=\"Yoma 84a:4\">Yoma 84ᵃ</cite> <he>דלא מְגַלִּית</he> that thou wilt not divulge it. ",
+						"<cite ref=\"Yoma 84a:4\">Ib.</cite> <he>מְגַלִּינָא</he> I shall divulge. ",
+						"<cite ref=\"Chullin 113a:6\">Ḥull. 113ᵃ</cite> <he>תנא סיפא לגַלּוּיֵי רישא</he> the second clause is stated in order to throw light on the first. ",
+						"<cite ref=\"Gittin 34a:13\">Gitt. 34ᵃ</cite> <he>גַּלּוּיֵי דעתא</he>, v. <cite ref=\"C00730\"><he>גִּילּוּיָּא</he></cite>. Y. Maasr. V, end, 52ᵃ <he>מן דגַלִּית לך חספא אשכחת מרגניתא</he> (not <he>דגליית</he>) after I removed the potsherd, thou foundest the pearl, i.e. but for my teaching, you would not have found the truth which you now claim as your own discovery; Y. Keth. IX, 33ᵇ bot. (corr. acc.); [in Babli <he>דלאית</he>, v. <cite ref=\"D00827\"><he>דלי</he></cite>]."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַגְלֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to banish</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 15:29\">Targ. II Kings XV, 29</cite>; a. fr.—",
+						"<cite ref=\"Sanhedrin 94a\">Snh. 94ᵃ</cite>. [<he>הַגְלִי</he> <cite ref=\"Ezra 4:10\">Ezra IV, 10</cite>; a. e.]"
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְגְּלֵי", "אִיגְּלֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be uncovered, revealed</i> &c. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 62:1\">Targ. Is. LXII, 1</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 51:9\">Ib. LI, 9</cite> <cite ref=\"C00927\"><he>אִיתְגְּלָא</he></cite> reveal thyself (h. text <he>עורי</he>). ",
+						"<cite ref=\"Targum Jonathan on II Samuel 6:20\">Targ. II Sam. VI, 20</cite> <he>דא׳</he> who exposed himself; a. fr.—",
+						"<cite ref=\"Sanhedrin 109b:9\">Snh. 109ᵇ</cite> <he>אִיגְּלָאִי מלתא</he> the fact became known. ",
+						"<cite ref=\"Rosh Hashanah 22b\">R. Hash. 22ᵇ</cite>, a. fr. <he>כל מילתא דעבידא לאִיגְּלוּיֵי וכ׳</he> people are not presumed to tell a lie which is likely to be found out. ",
+						"<cite ref=\"Sotah 22b:6\">Sot. 22ᵇ</cite> <he>מאי דמִגַּלְּיָא מגליא</he> what is visible is visible, i.e. man judges only by what he can ascertain, opp. <cite ref=\"M01032\"><he>מטמרא</he></cite>.—",
+						"<cite ref=\"Rosh Hashanah 21b\">R. Hash. 21ᵇ</cite> whence do we know that <i>alil</i> <he>לישנא דמִיגְּלֵי הוא</he> has the meaning of being clearly visible? <cite ref=\"Avodah Zarah 30a:6\">Ab. Zar. 30ᵃ</cite> <he>איגלי ליה חמרא</he> his wine was found uncovered. ",
+						"<cite ref=\"Beitzah 3a\">Bets. 3ᵃ</cite> <he>מִגְּלוּ וקיימי</he> remain visible; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be led into captivity</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 40:1\">Targ. Jer. XL, 1</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

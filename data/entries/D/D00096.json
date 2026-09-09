@@ -1,0 +1,28 @@
+{
+	"id": "D00096",
+	"slug": "דבשתא",
+	"headword": {
+		"text": "דְּבֶשְׁתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַדְבַשְׁתָּא"
+		}
+	],
+	"page": {
+		"number": 279,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>D’beshta, Madbashta</i> (Honey-Town) in Gad. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 32:34\">Targ. Y. I Num. XXXII, 34</cite>, <cite ref=\"Targum Jerusalem, Numbers 32:34\">Targ. Y. II, Num. XXXII, 34</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Numbers 32:3\">Targ. Y. ib. 3</cite> <he>מד׳</he> (O. <cite ref=\"M01485\"><he>מלבשתא</he></cite> ed. Amst., ed. Berl. <cite ref=\"D00466\"><he>דיבון</he></cite>)."
+			]
+		}
+	]
+}

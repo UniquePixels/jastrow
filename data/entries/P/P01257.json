@@ -1,0 +1,29 @@
+{
+	"id": "P01257",
+	"slug": "ערבא-3",
+	"headword": {
+		"text": "ערְבָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַרְבָא",
+			"homograph": 3
+		}
+	],
+	"page": {
+		"number": 1111,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"P01262\"><he>עֲרָבָה</he></cite>, <i>willow</i>.—Pl. <he>עַרְבִּין</he>, (<cite ref=\"P01279\"><he>עַרְבִ׳</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 23:40\">Targ. Lev. XXIII, 40</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 40:22\">Targ. Job XL, 22</cite>.—V. <cite ref=\"P01290\"><he>עֲרַבְתָּא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "U01813",
+	"slug": "שפתא",
+	"headword": {
+		"text": "שִׂפְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׂי׳"
+		}
+	],
+	"page": {
+		"number": 1620,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"O00806\"><he>סִיפְתָא</he></cite>, <i>border, lip</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 26:4\">Targ. O. Ex. XXVI, 4</cite>; a. fr., v. <cite ref=\"O00806\"><he>סִיפְתָא</he></cite>.—",
+				"<cite ref=\"Yevamot 75b:8\">Yeb. 75ᵇ</cite> <he>ואימא משִׂפְתֵיה</he> may I not say, it refers to his lip?; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "A01317",
+	"slug": "אים",
+	"headword": {
+		"text": "אָיַם"
+	},
+	"page": {
+		"number": 50,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (√<cite ref=\"A00516\"><he>או</he></cite>, v. <cite ref=\"A01120\"><he>אֵיבָה</he></cite>) <i>to feel aversion, fright</i>. Denomin. <cite ref=\"A01325\"><he>אֵימָה</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיֵּים"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"A01325\"><he>אֵימָה</he></cite>; with <he>על</he>) <i>to impress with awe, forewarn</i> (witnesses). ",
+					"units": [
+						"<cite ref=\"Rosh Hashanah 20a:16\">R. Hash. 20ᵃ</cite> <he>מְאַיְּימִין על העדים</he> we may try to intimidate &c. ",
+						"<cite ref=\"Yoma 4b:2\">Yoma 4ᵇ</cite> <he>לְאַיֵּים עליו</he> to impress him. ",
+						"<cite ref=\"Mishnah Sotah 1:4\">Sot. I, 4</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

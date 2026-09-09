@@ -1,0 +1,53 @@
+{
+	"id": "H01533",
+	"slug": "חצץ-1",
+	"headword": {
+		"text": "חָצַץ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 496,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"H00429\"><he>חוּץ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to drive a wedge in</i> (v. ",
+			"units": [
+				"<cite ref=\"Proverbs 30:27\">Prov. XXX, 27</cite>).—Denom. <cite ref=\"H01487\"><he>חֵץ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pick one’s teeth</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 4:6\">Bets. IV, 6</cite> <he>לַחֲצוֹץ וכ׳</he>; (Tosef. ib. III, 18 <he>לחצות</he>, v. <cite ref=\"H01504\"><he>חָצָה</he></cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to interpose</i>, v. <cite ref=\"H00428\"><he>חוּץ</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Zevachim 19a:20\">Zeb. 19ᵃ</cite> <he>מהו שיָחוֹצּוּ</he> (or <he>שיָחוּצוּ</he>). ",
+				"<cite ref=\"Zevachim 19a:6\">Ib.</cite> <he>אפי׳ נימא אחת חוֹצֶצֶת</he> even one thread forms an unlawful interposition. ",
+				"<cite ref=\"Zevachim 19a:24\">Ib.</cite> <he>חוֹצְצוֹת</he>; a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִיצֵּץ"],
+			"senses": [
+				{
+					"gloss": "<i>to pick one’s teeth</i>. Y. Sabb. VIII, end, 11ᶜ; <cite ref=\"Chullin 16b:9\">Ḥull. 16ᵇ</cite> <he>אין מְחַצְּצִין וכ׳</he> one must not use it for &c.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

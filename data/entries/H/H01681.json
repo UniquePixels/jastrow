@@ -1,0 +1,29 @@
+{
+	"id": "H01681",
+	"slug": "חרינא",
+	"headword": {
+		"text": "חֶרְיָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִירְ׳"
+		}
+	],
+	"page": {
+		"number": 502,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01668\"><he>חרי</he></cite>) <i>glow</i> (<i>of face</i>), <i>anger</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 30:33\">Targ. Prov. XXX, 33</cite> (ed. Wil. <cite ref=\"H01654\"><he>חַרְ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 21:24\">Ib. XXI, 24</cite> (ed. Wil. <he>חדי׳</he>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 22:8\">Ib. XXII, 8</cite>."
+			]
+		}
+	]
+}

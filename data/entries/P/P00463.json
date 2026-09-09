@@ -1,0 +1,24 @@
+{
+	"id": "P00463",
+	"slug": "עטלף",
+	"headword": {
+		"text": "עֲטַלֵּף"
+	},
+	"page": {
+		"number": 1063,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; supposed to be comp. of <cite ref=\"P00457\"><he>עטל</he></cite> a. <cite ref=\"P00311\"><he>עוף</he></cite>, v. Ges. Thes., a. Ges. H. Dict.<sup>10</sup> s. v.) <i>bat</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 98b:17\">Snh. 98ᵇ</cite> <he>אמר לו תרנגול לע׳ וכ׳</he> the cock said to the bat, I look out for the light, because the light is mine (I see it), but &c. ",
+				"<cite ref=\"Bekhorot 7b\">Bekh. 7ᵇ</cite>, v. <cite ref=\"L00677\"><he>לָקַט</he></cite>. ",
+				"<cite ref=\"Bava Kamma 16a:22\">B. Kam. 16ᵃ</cite>, v. <cite ref=\"P01431\"><he>עַרְפָּד</he></cite>."
+			]
+		}
+	]
+}

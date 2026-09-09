@@ -1,0 +1,24 @@
+{
+	"id": "P01489",
+	"slug": "עשן-1",
+	"headword": {
+		"text": "עָשָׁן"
+	},
+	"page": {
+		"number": 1126,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"P01489\"><he>עְשַׁן</he></cite>) [<i>thick</i>, cmp. <cite ref=\"P00007\"><he>עָב</he></cite>, <cite ref=\"A00188\"><he>אָבָק</he></cite> &c.,] <i>smoke, soot</i>. ",
+			"units": [
+				"<cite ref=\"Keritot 6a:45\">Ker. 6ᵃ</cite> <he>מעלה ע׳</he> smoke-raiser (name of a plant). ",
+				"<cite ref=\"Yoma 21b:4\">Yoma 21ᵇ</cite> <he>עֲשַׁן המערכה</he> the smoke rising from the pyre in the Temple; <cite ref=\"Bava Batra 147a\">B. Bath. 147ᵃ</cite>; a. fr.—Pl. <he>עֲשַׁנִּים</he>. ",
+				"<cite ref=\"Shabbat 23a:5\">Sabb. 23ᵃ</cite> <he>כל הע׳ יפין וכ׳</he> all soots are good for making ink, but that produced by burning olive oil is the best."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "M01943",
+	"slug": "מסכה-1",
+	"headword": {
+		"text": "מַסֵּכָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 807,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"N00946\"><he>נָסַךְ</he></cite>)<i>molten image</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 103b:9\">Snh. 103ᵇ</cite> (play on <cite ref=\"Isaiah 28:20\">Is. XXVIII, 20</cite> <he>והמסכה וכ׳</he>) <he>כונס כנד מי הים תֵּעָשֶׂה לו מ׳ צרה</he> should a molten image be made a rival to him ‘who gathers the waters of the sea together like heaps’?; <cite ref=\"Bamidbar Rabbah 7:10\">Num. R. s. 7</cite>; <cite ref=\"Yoma 9b:5\">Yoma 9ᵇ</cite>. Sifra K’dosh., beg. (idols are called) <he>מ׳ ע״ש שהם ניסוכים</he> <i>massekhah</i>, because they are cast."
+			]
+		}
+	]
+}

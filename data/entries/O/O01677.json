@@ -1,0 +1,25 @@
+{
+	"id": "O01677",
+	"slug": "סרקין-2",
+	"headword": {
+		"text": "סַרְקִין",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "סְרָקִין"
+		}
+	],
+	"page": {
+		"number": 1030,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ") m. pl. (v. <cite ref=\"O01623\"><he>סָרֵיק</he></cite> ch.) <i>unlawfully acquired</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 1:4:4\">Y. Taan. I, 64ᵇ</cite> bot. <he>שמעית עליהון דאינון ס׳</he> I heard that they (the coins deposited with you by my father) were ill-gotten."
+			]
+		}
+	]
+}

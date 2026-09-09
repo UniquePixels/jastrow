@@ -1,0 +1,23 @@
+{
+	"id": "K00735",
+	"slug": "כלילאי",
+	"headword": {
+		"text": "כְּלִילָאֵי"
+	},
+	"page": {
+		"number": 642,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"K00734\">preced.</cite>) <i>coronation tax</i>. Meg. Taan. II <he>אתנטילו כ׳</he> the coronation tax was remitted (v. ",
+			"units": [
+				"<cite ref=\"The Book of Maccabees I 13:39\">I Macc. XIII, 39</cite>); [Scholion to Meg. Taan.: <i>wreaths</i>, an idolatrous rite forced upon the Jews by the Syrians.]"
+			]
+		}
+	]
+}

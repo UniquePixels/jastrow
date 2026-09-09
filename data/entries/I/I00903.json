@@ -1,0 +1,23 @@
+{
+	"id": "I00903",
+	"slug": "טרקסאות",
+	"headword": {
+		"text": "טְרַקְסָאוֹת"
+	},
+	"page": {
+		"number": 558,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (enlargement of <cite ref=\"I00889\"><he>טְרַק</he> II</cite>, cmp. <cite ref=\"I00836\"><he>טְרַכְסִיד</he></cite>) <i>lath- and plaster-wall, partition in the interior of houses</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ohalot 5:5\">Tosef. Ohol. V, 5</cite> <he>כלים שבט׳</he> R. S. to Ohol. IV, 1 (ed. <cite ref=\"T00853\"><he>רסטקאות</he></cite>, Var. <he>רטסק׳</he>) vessels lying in niches or closets of partition walls."
+			]
+		}
+	]
+}

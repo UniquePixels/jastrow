@@ -1,0 +1,22 @@
+{
+	"id": "F00112",
+	"slug": "וותנא",
+	"headword": {
+		"text": "וָותָנָא"
+	},
+	"page": {
+		"number": 376,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>יתן</he>, cmp. <cite ref=\"A01655\"><he>אֵיתָן</he></cite>) <i>sinew, vein</i> (h. <cite ref=\"C00626\"><he>גִּיד</he></cite>).—Pl. <he>וָותָנַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 40:17\">Targ. Job XL, 17</cite> (ed. Lag. <cite ref=\"F00105\"><he>וָותִינַ׳</he></cite>, Var. <he>וַויְ׳</he>, <he>וַיְי׳</he>)."
+			]
+		}
+	]
+}

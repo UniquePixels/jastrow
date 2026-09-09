@@ -1,0 +1,37 @@
+{
+	"id": "H00591",
+	"slug": "חטב-3",
+	"headword": {
+		"text": "חֲטַב"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲטֵיב"
+		}
+	],
+	"page": {
+		"number": 447,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"H00590\">same</cite>, <i>to select, betroth one’s self to</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 26:17\">Targ. Deut. XXVI, 17</cite>, sq."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <he>חטף</he>) <i>to seize violently</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 49:5\">Targ. Y. I Gen. XLIX, 5</cite> (h. text <cite ref=\"H01204\"><he>חמס</he></cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to embroider, design</i>, v. <cite ref=\"H00300\"><he>חוֹטְבָא</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

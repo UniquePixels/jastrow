@@ -1,0 +1,35 @@
+{
+	"id": "I00414",
+	"slug": "טיפול",
+	"headword": {
+		"text": "טִיפּוּל"
+	},
+	"page": {
+		"number": 533,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00660\"><he>טָפַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>nursing, attendance, care</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Niddah 2:4\">Tosef. Nidd. II, 4</cite> <he>חייבת … בט׳ וכ׳</he> a woman is bound to nurse her child twenty four months (during which she must not remarry), whether her own &c. ",
+				"<cite ref=\"Bava Metzia 69a:11\">B. Mets. 69ᵃ</cite> <he>טִיפּוּלָהּ מרובה</he> the care-taking of small cattle is more troublesome; <cite ref=\"Bekhorot 26b\">Bekh. 26ᵇ</cite> <cite ref=\"I00686\"><he>טִפּ׳</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>toilet-paste</i>, v. <cite ref=\"I00660\"><he>טָפל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Pesachim 42b:20\">Pes. 42ᵇ</cite> <he>טִיפּוּלָן של וכ׳</he> the paste used by the daughters of rich men.—Pl. <he>טִיפּוּלִין</he>, constr. <he>טִיפּוּלֵי</he>. Y. ib. II, beg. 29ᵈ <he>אית תניי תני ט׳</he> some read in the Mishnah <i>tippulé</i> (in place of <he>תכשיטי</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

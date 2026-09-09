@@ -1,0 +1,31 @@
+{
+	"id": "D01105",
+	"slug": "דרם-2",
+	"headword": {
+		"text": "דְּרַם"
+	},
+	"page": {
+		"number": 324,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַדְרֵים</he> <cite ref=\"D01104\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 25b:9\">B. Bath. 25ᵇ</cite> <he>אַדְרִימוּ אַדְרוּמֵי</he> face ye South-East."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

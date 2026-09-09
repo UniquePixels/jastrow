@@ -1,0 +1,28 @@
+{
+	"id": "C00096",
+	"slug": "גבינתא-1",
+	"headword": {
+		"text": "גְּבִינְתָּא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּבִינְתָּה"
+		}
+	],
+	"page": {
+		"number": 207,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גבן</he>, v. <cite ref=\"C00090\"><he>גְּבִין</he> I</cite>) (the camel’s) <i>hump</i>. Pl. <cite ref=\"C00096\"><he>גְּבִינָתָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 5:3:2\">Y. Sabb. V, 7ᵇ</cite> bot. (expl. <he>מטולטלת</he>) <he>כהדא כֵּיפָה דהיא משויא ג׳</he> like a ball (a cushion) to level the humps; cmp. <cite ref=\"C00100\"><he>גְּבִיעָה</he> II</cite>."
+			]
+		}
+	]
+}

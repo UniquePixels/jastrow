@@ -1,0 +1,26 @@
+{
+	"id": "U00700",
+	"slug": "שחק-6",
+	"headword": {
+		"text": "שַׁחַק",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1551,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U00697\"><he>שָׁחַק</he></cite>) [<i>dust,</i>]; pl. <he>שְׁחָקִים</he> <i>clouds, heaven, sh’ḥaḳim</i>, name of one of the seven heavens. ",
+			"units": [
+				"<cite ref=\"Chagigah 12b:15\">Ḥag. 12ᵇ</cite> <he>ש׳ שבו רחיים וכ׳</he> it is named <i>sh’ḥaḳim</i>, for in it stands a mill and grinds manna for the righteous. ",
+				"<cite ref=\"Bereishit Rabbah 13:16\">Gen. R. s. 13</cite> <he>למה … ש׳ שהן שוחקין וכ׳</he> why are they (the clouds) called <i>sh’ḥaḳim?</i> Because they grind the water … like a stomach (grinding the food); Tanḥ. Mick. 1; <cite ref=\"Kohelet Rabbah 1:7:1\">Koh. R. to I, 7</cite>. ",
+				"<cite ref=\"Kohelet Rabbah 1:7:1\">Ib.</cite> <he>איכן … בש׳</he>, v. <cite ref=\"N00454\"><he>נָזַל</he></cite>. ",
+				"<cite ref=\"Midrash Tehillim 18:14\">Midr. Till. to Ps. XVIII</cite>, v. <cite ref=\"U00697\"><he>שָׁחַק</he></cite>; a. e."
+			]
+		}
+	]
+}

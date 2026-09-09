@@ -1,0 +1,32 @@
+{
+	"id": "N00156",
+	"slug": "נגידא",
+	"headword": {
+		"text": "נְגִידָא",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "נְגִירָא"
+		},
+		{
+			"text": "נְגִירָה"
+		}
+	],
+	"page": {
+		"number": 874,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00118\"><he>נְגַד</he></cite>, <cite ref=\"N00185\"><he>נְגַר</he></cite>) <i>dragging out of the grave by necromancy</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 56b:18\">Gitt. 56ᵇ</cite> <he>אסקיה לטיטוס בנ׳</he> (Ar. ed. Koh. … <he>רה</he>; oth. ed. Ar. … <he>רא</he>) he had Titus brought up out of his grave; ib. 57ᵃ top <he>אסקיה לישו בנ׳</he> Ar. (ed. <he>לפושע ישראל</he>). ",
+				"<cite ref=\"Shabbat 152b:13\">Sabb. 152ᵇ</cite> <he>אובא טמיא … בנ׳</he> how could the necromancer have brought Samuel up (if his soul was not in the grave)?"
+			]
+		}
+	]
+}

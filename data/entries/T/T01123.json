@@ -1,0 +1,51 @@
+{
+	"id": "T01123",
+	"slug": "רתח-2",
+	"headword": {
+		"text": "רְתַח"
+	},
+	"page": {
+		"number": 1502,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T01122\">same</cite>, <i>to boil, be hot</i>.—Part. pass. <he>רָתִיחַ</he>; pl. <cite ref=\"T01134\"><he>רְתִיחִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 50:1\">Targ. Y. I Gen. L, 1</cite> <he>חמרין רתי׳</he> (some ed. <he>רָתְחִין</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 24:24\">Targ. Job XXIV, 24</cite> Ms.—Y. Pes. III, 30ᵃ top <he>דלא יִרְתְּחָן ויחמען</he> that they may not get hot and ferment. ",
+				"<cite ref=\"Berakhot 62b:2\">Ber. 62ᵇ</cite> <he>עד דרַתְחָא וכ׳</he>, v. <cite ref=\"S00175\"><he>קִדְרָא</he></cite>; a. e.—רָתְחִין <i>hot water</i>. ",
+				"<cite ref=\"Shemot Rabbah 45\">Ex. R. s. 45</cite> <he>מזגין ר׳</he> (not <he>רתחים</he>), v. <cite ref=\"M00713\"><he>מְזַג</he></cite>; <cite ref=\"Midrash Tehillim 25:6\">Midr. Till. to Ps. XXV, 4</cite>.—Trnsf. <i>to be excited, wroth</i>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 39:4\">Targ. Ps. XXXIX, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 19:6\">Targ. Y. Deut. XIX, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 7:9\">Targ. Koh. VII, 9</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 7a:15\">Ber. 7ᵃ</cite> <he>רגע ר׳</he> for a moment the Lord is wroth. ",
+				"<cite ref=\"Berakhot 29b:16\">Ib. 29ᵇ</cite> <he>לא תִרְתַּח ולא תחטי</he> be not excited, and thou shalt not sin. ",
+				"<cite ref=\"Zevachim 30b:17\">Zeb. 30ᵇ</cite> hot. <he>אם כן מִרְתַּח ר׳</he> if so, he might get angry; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְתַּח"],
+			"senses": [],
+			"stem": "Af."
+		},
+		{
+			"forms": ["רַתַּח"],
+			"senses": [
+				{
+					"gloss": "<i>to boil; to heat, excite, arouse the anger of</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 41:23\">Targ. Job XLI, 23</cite> <he>מַרְתַּח</he> (some ed. <he>מְרַתַּח</he> <i>Pa.</i>). Targ. Koh. l. c. <he>מסרב ומַרְתַּח</he> (ed. Vien. <he>ומִרְ׳</he>, corr. acc.; some ed. <he>ומְרַתַּח</he>).—[<cite ref=\"Aramaic Targum to Job 4:10\">Targ. Job IV, 10</cite> <he>מרתיחין</he>, v. <cite ref=\"T01148\"><he>רְתַת</he></cite>.]—",
+						"<cite ref=\"Pesachim 76a:2\">Pes. 76ᵃ</cite> <he>רוטב מַרְתַּח ליה וכ׳</he> (or <he>מְרַתַּח</he>) the juice (dripping) heats the clay (of the oven) &c. ",
+						"<cite ref=\"Taanit 4a:2\">Taan. 4ᵃ</cite> <he>ההוא … דקא מַרְתְּחָא ליה</he> (or <cite ref=\"M02787\"><he>מְרַתְּחָא</he></cite>) if a student gets angry, it is the (zeal for) the Law that excites him; a. e.—Part. pass. <i>Pa.</i> <he>מְרַתַּח</he>; f. <cite ref=\"M02787\"><he>מְרַתְּחָא</he></cite>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 6:14\">Targ. Y. I Lev. VI, 14</cite> <cite ref=\"M02787\"><he>מְרֻתְּחָא</he></cite> (Hebraism; h. text <he>מרבכת</he>).—",
+						"<cite ref=\"Gittin 57b:2\">Gitt. 57ᵇ</cite> <he>אשכחיה … מר׳ וסליק</he> he found the blood of Zechariah bubbling and coming up; (<cite ref=\"Sanhedrin 96b:5\">Snh. 96ᵇ</cite> <he>דהוה קא רתח</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

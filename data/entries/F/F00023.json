@@ -1,0 +1,26 @@
+{
+	"id": "F00023",
+	"slug": "וו-1",
+	"headword": {
+		"text": "וָו"
+	},
+	"page": {
+		"number": 372,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>hook</i>.—Pl. <he>יָוִים</he>. ",
+			"units": ["<cite ref=\"Shemot Rabbah 51:4\">Ex. R. s. 51</cite>; a. fr."],
+			"label": "1"
+		},
+		{
+			"gloss": " the letter <i>Vav</i>.—Pl. <he>וָוִים</he>, <he>וָוִין</he>; v. <cite ref=\"F00004\"><he>וא״ו</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

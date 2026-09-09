@@ -1,0 +1,24 @@
+{
+	"id": "A03401",
+	"slug": "אתה",
+	"headword": {
+		"text": "אַתָּה"
+	},
+	"page": {
+		"number": 132,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., , v. <cite ref=\"A02248\"><he>אָנֹכִי</he></cite>) <i>thou</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 11a:15\">Ber. 11ᵃ</cite>; a. fr.—<he>אתה אומר</he>, v. <cite ref=\"A03393\"><he>אַתְּ</he></cite>.—Pl. <he>אַתֶּם</he>, <he>אַתֶּן</he> <i>ye</i>. ",
+				"<cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite>; a. fr.—",
+				"<cite ref=\"Rosh Hashanah 25a:12\">R. Hash. 25ᵃ</cite> <he>א׳ א׳ א׳ ג׳ פעמים וכ׳</he> three times <i>attem</i> is written (<he>אֹתָם</he>, without <cite ref=\"F00000\"><he>ו</he></cite>); v. <cite ref=\"A02687\"><he>אֲפִילּוּ</he></cite>. Sifra Emor IX, 9; a. fr."
+			]
+		}
+	]
+}

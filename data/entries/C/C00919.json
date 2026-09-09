@@ -1,0 +1,29 @@
+{
+	"id": "C00919",
+	"slug": "גלות",
+	"headword": {
+		"text": "גָּלוּת"
+	},
+	"page": {
+		"number": 247,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"C00926\"><he>גלי</he></cite>)<i>exile;</i> also (sub. <cite ref=\"B00942\"><he>בני</he></cite>) <i>the exiled community, diaspora</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 1:11\">Ab. I, 11</cite> <he>שמא תחובו חובת ג׳</he> ye may be condemned to exile. ",
+				"<cite ref=\"Berakhot 56a:18\">Ber. 56ᵃ</cite>, a. e. <he>ג׳ מכפרת עון</he> exile (leaving home) is an expiation. <he>ג׳ בבל</he> Babylonian captivity; <he>ג׳ יון</he> Greek (Syrian) dominion; <he>ג׳ אדום</he> Roman dominion. ",
+				"<cite ref=\"Shemot Rabbah 15:6\">Ex. R. s. 15</cite>.—Esp. <i>banishment to the city of refuge</i> (<cite ref=\"Numbers 35:11\">Num. XXXV, 11</cite> sq.). ",
+				"<cite ref=\"Mishnah Makkot 2:6\">Macc. II, 6</cite>; a. fr.—Pl. <he>גָּלִיּוֹת</he>. ",
+				"<cite ref=\"Arakhin 12a:42\">Arakh. 12ᵃ</cite> <he>שלש ג׳</he> three divisions of exiles; <cite ref=\"Bamidbar Rabbah 23:14\">Num. R. s. 23</cite>, end <he>סנחריב הגלה … ג׳</he> Sennacherib carried them off in three divisions.—",
+				"<cite ref=\"Pesachim 88a:5\">Pes. 88ᵃ</cite> <he>קבוץ ג׳</he> the reunion of the exiled. ",
+				"<cite ref=\"Menachot 110a:3\">Men. 110ᵃ</cite> <he>ג׳ של שאר וכ׳</he> the exiled of other countries (besides Babylonia). ",
+				"<cite ref=\"Beitzah 4b:6\">Bets. 4ᵇ</cite> <he>שני ימים טובים של ג׳</he> the two Holy Days (in the place of the one Biblical) observed by those living abroad (whom the communications of the Palestinean authorities could not reach); a. fr."
+			]
+		}
+	]
+}

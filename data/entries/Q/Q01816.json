@@ -1,0 +1,23 @@
+{
+	"id": "Q01816",
+	"slug": "פריסתותא",
+	"headword": {
+		"text": "פְּרִיסְתְּוָתָא"
+	},
+	"page": {
+		"number": 1227,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (denom. of <cite ref=\"Q01813\"><he>פריסא</he></cite>, cmp. Lat. velarius; Syr. <he>פרסטיותא</he>, <he>פרסתנתא</he>, P. Sm. 3281; 3283) <i>curtain-guards, chambermaids</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 5:29\">Targ. Jud. V, 29</cite> (h. text <he>שרות׳</he>; Pesh. <he>עלימתא</he>)."
+			]
+		}
+	]
+}

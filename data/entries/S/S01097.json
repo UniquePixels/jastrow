@@ -1,0 +1,27 @@
+{
+	"id": "S01097",
+	"slug": "קיפול",
+	"headword": {
+		"text": "קִיפּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִפּ׳"
+		}
+	],
+	"page": {
+		"number": 1366,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קָפל</he> I) <i>folding up, creasing</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 28b:10\">Sabb. 28ᵇ</cite> <he>ק׳ אינו מועיל</he> the mere creasing (of an old garment with the purpose of making wicks of it) does not affect it as regards the laws of uncleanness. Y. ib. II, 4ᵈ bot. <he>שכן … רוצים בקִיפּוּלָהּ</he> for professional attendants (dressers) like a garment to be creased. Ib. XV, beg. 15ᵃ <he>ק׳ בשנים וכ׳</he> folding a garment (on the Sabbath) by two persons is treated as forbidden work."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "O01339",
+	"slug": "ספורא",
+	"headword": {
+		"text": "סַפּוּרָא"
+	},
+	"page": {
+		"number": 1012,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סְפַר</he> <i>Pa.</i>) <i>hair-cutting;</i> <he>מאני ס׳</he> <i>barber’s tools</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 28\">Lev. R. s. 28</cite>, end <he>אפיק מאני סַפּוּרֵיה</he> he took out his barber tools; <cite ref=\"Vayikra Rabbah 28\">ib.</cite> <he>ואילין אונון מאניא ספוריה</he> (read: <he>מאני</he>) and these are his (thy father’s) tools; <cite ref=\"Yalkut Shimoni on Nach 1058:3\">Yalk. Esth. 1058</cite> <he>ואילין אינון סַפָּרַיָּא דידך</he> and these are thy scissors; <cite ref=\"Esther Rabbah 10:4\">Esth. R. to VI, 10</cite> <he>ואשכחת מאני סַפָּרָא דידיה</he> and thou shalt find his tools."
+			]
+		}
+	]
+}

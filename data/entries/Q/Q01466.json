@@ -1,0 +1,30 @@
+{
+	"id": "Q01466",
+	"slug": "פקוע",
+	"headword": {
+		"text": "פַּקּוּעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּקּוּעָא"
+		},
+		{
+			"text": "פַּקּוּעָה"
+		}
+	],
+	"page": {
+		"number": 1208,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = <cite ref=\"Q01467\">next w.</cite> ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 3:1:4\">Y. Shebi. III, beg. 34ᶜ</cite> (expl. <cite ref=\"M03031\"><he>מתוק</he></cite>, <cite ref=\"Mishnah Sheviit 3:1\">Shebi. III, 1</cite>) <cite ref=\"Q01466\"><he>פקוע</he></cite> R. S. to Shebi. l. c. (ed. <he>פקועה</he>). Ib. <he>ההן פקועא דבקעתא</he> R. S. (ed. <he>עה …</he>) that means the <i>paḳḳuʿa</i> of the valley. [R. S. <i>cracks</i> in the soil of the valley, v. <cite ref=\"M03032\"><he>מָתוֹק</he> II</cite>.]"
+			]
+		}
+	]
+}

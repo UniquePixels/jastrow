@@ -1,0 +1,29 @@
+{
+	"id": "B00671",
+	"slug": "ביעורא",
+	"headword": {
+		"text": "בִּיעוּרָא"
+	},
+	"page": {
+		"number": 164,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"B00670\">same</cite>. ",
+			"units": ["<cite ref=\"Pesachim 6b:17\">Pes. 6ᵇ</cite>."],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>clearing, taking off the last olives</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 17:6\">Targ. Is. XVII, 6</cite>; <cite ref=\"Targum Jonathan on Isaiah 24:13\">XXIV, 13</cite> (h. <cite ref=\"N01233\"><he>נֹקֶף</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

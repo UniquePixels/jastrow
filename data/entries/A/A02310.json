@@ -1,0 +1,23 @@
+{
+	"id": "A02310",
+	"slug": "אנתוסאי",
+	"headword": {
+		"text": "אַנְתּוּסָאֵי"
+	},
+	"page": {
+		"number": 88,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>Orthusians</i>, v. <cite ref=\"A03251\"><he>אָרְתּוּסְיָיה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 10:17\">Targ. Gen. X, 17</cite> (Y. <he>אנט׳</he>)."
+			]
+		}
+	]
+}

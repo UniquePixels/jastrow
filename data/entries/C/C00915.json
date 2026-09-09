@@ -1,0 +1,35 @@
+{
+	"id": "C00915",
+	"slug": "גלופקרי",
+	"headword": {
+		"text": "גְּלוּפְקְרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּלוּפְקְרִין"
+		},
+		{
+			"text": "קְלוּבְקְרִין"
+		}
+	],
+	"page": {
+		"number": 247,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (cubicularia, sub. gausapina &c.) <i>woolly bed-covers, blankets</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 24:13\">Targ. Y. I Deut. XXIV, 13</cite> (h. text <cite ref=\"U01355\"><he>שַׂלְמָה</he></cite>).—",
+				"<cite ref=\"Shabbat 51a:10\">Sabb. 51ᵃ</cite>; <cite ref=\"Tosefta Shabbat 3:20\">Tosef. ib. III</cite> (<cite ref=\"Tosefta Shabbat 4:20\">IV</cite>), 20, opp. <cite ref=\"O00185\"><he>סדין</he></cite> linen sheets. ",
+				"<cite ref=\"Gittin 70b:20\">Gitt. 70ᵇ</cite> <he>ג׳ וסדיני</he> (Var. <cite ref=\"C00508\"><he>גושפקי</he></cite>) shall we ascertain his sanity of mind, according to the season, by asking him whether he desires heavy or light covers? <cite ref=\"Gittin 35a:17\">Ib. 35ᵃ</cite> <he>גלופקרין אחד</he> Ar. (ed. <cite ref=\"C00914\"><he>גלופקרא</he></cite>) one set of bed-clothes.—",
+				"<cite ref=\"Mishnah Kelim 29:2\">Kel. XXIX, 2</cite> <he>קלובקרין אחד</he> (Bart. <cite ref=\"C00915\"><he>גלופקרין</he></cite>, Bab. ed. <he>אחת</he>). ",
+				"<cite ref=\"Tosefta Shabbat 6:4\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:4\">VII</cite>), 4; <cite ref=\"Yalkut Shimoni on Torah 587\">Yalk. Lev. 587</cite>."
+			]
+		}
+	]
+}

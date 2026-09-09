@@ -1,0 +1,42 @@
+{
+	"id": "Q01827",
+	"slug": "פריק",
+	"headword": {
+		"text": "פָּרִיק"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּרִיקָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1227,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01981\"><he>פְּרַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>redeemer</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 5:8\">Targ. Num. V, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ruth 3:12\">Targ. Ruth III, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ruth 4:1\">Ib. IV, 1</cite>; a. fr.—",
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite>, v. <cite ref=\"Q01727\"><he>פָּרוֹקָא</he></cite>.—Pl. <he>פְּרִיקַיָּיא</he>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 6:16\">Targ. Y. Ex. VI, 16</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (part. pass.) <i>redeemed</i>, v. <cite ref=\"Q01981\"><he>פְּרַק</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

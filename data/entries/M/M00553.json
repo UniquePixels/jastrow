@@ -1,0 +1,34 @@
+{
+	"id": "M00553",
+	"slug": "מוסרה",
+	"headword": {
+		"text": "מוֹסֵרָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹסֵירָה"
+		}
+	],
+	"page": {
+		"number": 745,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00552\">preced. art.</cite>) <i>reins</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 8b:7\">B. Mets. 8ᵇ</cite> <he>יושב לא תפוס במ׳ וכ׳</he> (not <he>תפיס</he>) he who sits in the wagon has not taken hold of the reins, while he who rides holds the reins (and leads the heterogeneous animals, v. <cite ref=\"N00250\"><he>נָהַג</he></cite>).—Esp. (sub. <cite ref=\"A01021\"><he>אחז</he></cite> or <he>תפס</he>; cmp. <cite ref=\"A02765\"><he>אַפְסָר</he></cite>) <i>taking hold of the reins as a form of taking possession</i>. ",
+				"<cite ref=\"Bava Metzia 8b:7\">Ib.</cite> <he>מ׳ אינה קונה במציאה</he> Rashi a. Ms. R. 2 (v. Rabb. D. S. a. l. note 30) taking hold of the reins does not give possession to the finder. ",
+				"<cite ref=\"Bava Metzia 8b:9\">Ib.</cite> <he>מ׳ מחבירו קנה</he> getting the reins from a fellowman (the owner) means possession. ",
+				"<cite ref=\"Bava Metzia 8b:10\">Ib.</cite> <he>מאי לשון מ׳</he> what is the expression (the etymology of) <i>moserah?</i> (Answ.: from <cite ref=\"M02006\"><he>מָסַר</he></cite>).—",
+				"<cite ref=\"Mishnah Kiddushin 1:4\">Kidd. I, 4</cite> quot. in Rashi to B. Mets. l. c. <he>נקנית במו׳</he> (ed. <he>במְסִירָה</he>) is taken possession of by seizing the reins (or chain). ",
+				"<cite ref=\"Mishnah Bava Kamma 4:9\">B. Kam. IV, 9</cite> <he>קשרו … במ׳</he> if the ownertied the animal (to a fence &c.) by the reins. ",
+				"<cite ref=\"Mishnah Parah 2:3\">Par. II, 3</cite> <he>קיפל עליה את המ׳</he> if he threw the reins over her back. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:4:2\">Y. Kidd. I, 60ᵃ</cite> bot. <he>מסר לו מ׳ של וכ׳</he> if he handed him the reins of one of the camels; a. fr."
+			]
+		}
+	]
+}

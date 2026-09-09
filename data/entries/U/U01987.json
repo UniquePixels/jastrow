@@ -1,0 +1,33 @@
+{
+	"id": "U01987",
+	"slug": "שריר",
+	"headword": {
+		"text": "שָׁרִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁ׳"
+		}
+	],
+	"page": {
+		"number": 1631,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. h. a. ch. (<cite ref=\"U02030\"><he>שָׁרַר</he></cite>) [<i>tied</i>; cmp. <cite ref=\"K01324\"><he>כָּשֵׁר</he></cite>,] <i>strong, fast, reliable, fit, proper</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 33:29\">Targ. Y. II, Deut. XXXIII, 29</cite> (not <cite ref=\"U01966\"><he>שריד</he></cite>; h. text <he>אשר</he>!). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 19:7\">Targ. Prov. XIX, 7</cite> (h. text <he>המה</he>!).—",
+				"<cite ref=\"Shabbat 145b:13\">Sabb. 145ᵇ</cite> <he>לא ש׳ שדריה</he> its spinal column is not strong enough. ",
+				"<cite ref=\"Pesachim 74b:5\">Pes. 74ᵇ</cite> <he>בחיורתא דש׳</he> in the case of dough of white flour, which is bound (compact).—Esp. in the closing formula of a document: <he>ש׳ וקים</he> <i>fit and established</i>. ",
+				"<cite ref=\"Bava Batra 160b:18\">B. Bath. 160ᵇ</cite>; <cite ref=\"Jerusalem Talmud Gittin 9:8:2\">Y. Gitt. IX, 50ᶜ</cite> bot. <he>קיים ש׳ וברור</he> established, fit, and sound.—Pl. <he>שְׁרִירַיָּיא</he>; f. <he>שְׁרִירָן</he>. ",
+				"<cite ref=\"Targum of II Chronicles 5:10\">Targ. II Chr. V, 10</cite> <he>ש׳</he> (not <he>שריד׳</he>) the sound tables (opp. <he>כד אתברו</he> the broken). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 8:9\">Targ. Y. I Deut. VIII, 9</cite> <he>גזרן ש׳</he> Ar. (ed. <he>בריר׳</he>)."
+			]
+		}
+	]
+}

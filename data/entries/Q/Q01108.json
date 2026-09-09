@@ -1,0 +1,27 @@
+{
+	"id": "Q01108",
+	"slug": "פלסלוס",
+	"headword": {
+		"text": "פְּלֹסְלוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּלוֹסלוֹס"
+		}
+	],
+	"page": {
+		"number": 1184,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (reduplic. of <cite ref=\"Q01099\"><he>פלס</he></cite>; cmp. <cite ref=\"Q00241\"><he>פּוּלְסָא</he></cite>) <i>p’loslos</i>, a sort of <i>lupine</i>, homogeneous with <cite ref=\"V00297\"><he>תורמוס</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:3\">Kil. I, 3</cite> (Ms. M. <he>סלוסלות</he>, v. Rabb. D. S. a. l. note); <cite ref=\"Tosefta Kilaim 1:2\">Tosef. ib. I, 2</cite>; expl. Y. ib. 27ᵃ <cite ref=\"Q01874\"><he>פרמועה</he></cite>."
+			]
+		}
+	]
+}

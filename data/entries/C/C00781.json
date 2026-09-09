@@ -1,0 +1,35 @@
+{
+	"id": "C00781",
+	"slug": "גיססא-1",
+	"headword": {
+		"text": "גִּיסְסָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 241,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גוס</he> II, v. <cite ref=\"C00777\"><he>גִּיסָא</he> III</cite> a. <cite ref=\"C01176\"><he>גֶּסֶס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>side, arm</i>.—Pl. <he>גִּיסְסִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 60:4\">Targ. Is. LX, 4</cite>; <cite ref=\"Targum Jonathan on Isaiah 66:13\">LXVI, 13</cite> (h. text <cite ref=\"R00078\"><he>צד</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "Pl. <he>גִּיסְסַיָּא</he>, <he>גִּסְ׳</he> <i>loins</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 3:4\">Targ. O. Lev. III, 4</cite>; <cite ref=\"Onkelos Leviticus 3:15\">15</cite> (h. text <he>כסלים</he>, Y. <he>כפליא</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

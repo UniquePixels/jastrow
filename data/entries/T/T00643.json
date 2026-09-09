@@ -1,0 +1,24 @@
+{
+	"id": "T00643",
+	"slug": "רים-2",
+	"headword": {
+		"text": "רִים",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1474,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"T00795\"><he>רִמּוֹן</he></cite>) fruit <i>of the Christ’s thorn</i> or <i>lote</i>.—Pl. <he>רִימִּין</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Demai 1:1\">Tosef. Dem. I, 1</cite>; <cite ref=\"Mishnah Demai 1:1\">Dem. I, 1</cite>. ",
+				"<cite ref=\"Mishnah Demai 1:1\">Ib.</cite> <he>רִימֵּי שקמונה</he> the <i>rimmin</i> of Shiḳmonah; <cite ref=\"Berakhot 40b:22\">Ber. 40ᵇ</cite>, v. <cite ref=\"K00876\"><he>כִּנָּרָא</he></cite>. [<cite ref=\"Tosefta Kilaim 1:10\">Tosef. Kil. I, 10</cite> <he>רימן</he>, <cite ref=\"T00645\"><he>רימון</he></cite> ed. Zuck. (oth. ed. <he>רמון</he>, <cite ref=\"T00645\"><he>רימון</he></cite>, prob. to be read: <he>רימין</he>).]"
+			]
+		}
+	]
+}

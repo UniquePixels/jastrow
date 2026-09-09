@@ -1,0 +1,57 @@
+{
+	"id": "S01747",
+	"slug": "קפל-2",
+	"headword": {
+		"text": "קְפַל"
+	},
+	"page": {
+		"number": 1402,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		},
+		{
+			"gloss": "<i>to fold, roll up</i>. Part. pass. <he>מְקַפַּל</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 10:35\">Targ. Y. Num. X, 35</cite> (not <he>מְקַפֵּל</he>; v. ",
+				"<cite ref=\"Sifrei Bamidbar 84\">Sifré Num. 84</cite>, quot. in <cite ref=\"S01746\">preced.</cite>).—",
+				"<cite ref=\"Shabbat 58a:5\">Sabb. 58ᵃ</cite> <he>ומְקַפֵּל ליה וכ׳</he> Rashi (ed. <he>ומיקפל</he>, corr. acc.) he might roll the cloak up and put it over his shoulder; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to go up and down</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 11:1:1\">Koh. R. to XI, 1</cite> <he>בר קפרא מקפל וכ׳</he> Bar Ḳ. was walking up and down the bluffs of &c.; [comment. suggests emendation: <he>מְטַיֵּיל</he>]."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"S01746\"><he>קַפֵּל</he></cite> same, ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְקְפַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be rolled up</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 38:12\">Targ. Is. XXXVIII, 12</cite>, v. <cite ref=\"S01700\"><he>קְפַד</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

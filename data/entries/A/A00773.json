@@ -1,0 +1,29 @@
+{
+	"id": "A00773",
+	"slug": "אונקלוס",
+	"headword": {
+		"text": "אוֹנְקְלוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָנְקְלוֹס"
+		}
+	],
+	"page": {
+		"number": 30,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (Ocellus?) <i>Onk’los</i>, the alleged translator of the Pentateuch into Chaldaic, freq. surnamed <he>הַגֵּר</he> the proselyte; often identified with <i>Aquila</i>, the alleged author of a Greek translation of the Bible; v. <cite ref=\"P01176\"><he>עְקִילָס</he></cite>. Cmp. ",
+			"units": [
+				"<cite ref=\"Megillah 3a:4\">Meg. 3ᵃ</cite>; <cite ref=\"Avodah Zarah 11a:2\">Ab. Zar. 11ᵃ</cite>, with Tanḥ. ",
+				"<cite ref=\"Exodus 5\">Mishp. 5</cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:11\">Cant. R. to I, 11</cite> <cite ref=\"A01944\"><he>אלקולאון</he></cite> q. v."
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "J00445",
+	"slug": "ינק-1",
+	"headword": {
+		"text": "יָנַק"
+	},
+	"page": {
+		"number": 581,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A02285\"><he>אנק</he></cite>) [<i>to press</i>,] (cmp. <cite ref=\"M02349\"><he>מָצַץ</he></cite>) <i>to suck</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 12b:20\">Sot. 12ᵇ</cite> <he>ולא י׳</he> and he (Moses) would not suck; <he>פה … יִנַק דבר טמא</he> shall the mouth destined to speak with Divinity suck in an unclean substance?—",
+				"<cite ref=\"Berakhot 10a:15\">Ber. 10ᵃ</cite>; a. fr.—Trnsf. <i>to draw sap, absorb</i>. ",
+				"<cite ref=\"Bava Batra 71b:2\">B. Bath. 71ᵇ</cite> <he>יוֹנְקִין משדה וכ׳</he> they (the plants) are nurtured from the consecrated field. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 3:5:4\">Y. Erub. III, 21ᵇ</cite> <he>איברים יונקין זה מזה</he> the limbs of an animal draw nourishment from one another, i.e. in either portion of a slaughtered animal to be divided between two partners there are substances absorbed from the other; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵינִיק", "הֵנִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to give suck, feed</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 112a\">Pes. 112ᵃ</cite> … <he>יותר לִינָק … להָנִיק</he> more than the calf desires to suck, does the cow desire to give suck, i.e. the teacher is more anxious to teach than the pupil to learn. ",
+						"<cite ref=\"Bekhorot 7b:20\">Bekh. 7ᵇ</cite> <he>כל המוליד מֵנִיק</he> every viviparous animal is a mammal. ",
+						"<cite ref=\"Mishnah Ketubot 5:5\">Keth. V, 5</cite> <he>ומֵנִיקָה את בנה וכ׳</he> (Y. ed. <he>ומֵינִ׳</he>) and she is bound to nurse her child herself. ",
+						"<cite ref=\"Mishnah Niddah 1:4\">Nidd. I, 4</cite> <he>נתנה בנה למֵנִיקָה</he> (Y. <he>למינ׳</he>) if she gave her child out to a wet-nurse. Ib. 5 <he>ומניקה</he> and while she nurses a child. Tosef. ib. II, 2; <cite ref=\"Ketubot 60a:14\">Keth. 60ᵃ</cite> <he>מֵינֶקֶת שמת וכ׳</he> a woman whose husband died during her nursing period. ",
+						"<cite ref=\"Ketubot 65b\">Ib. 65ᵇ</cite> <he>סתם מֵנִיקוֹת וכ׳</he> as a rule nursing women are of delicate health. ",
+						"<cite ref=\"Taanit 27b:7\">Taan. 27ᵇ</cite> <he>מניקות שיָנִיקוּ וכ׳</he> in behalf of the nursing women (they prayed) that they might be able to nurse &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

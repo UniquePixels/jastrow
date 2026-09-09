@@ -1,0 +1,31 @@
+{
+	"id": "Q00831",
+	"slug": "פירוג-1",
+	"headword": {
+		"text": "פֵּירוּג",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "פֵּרוּג"
+		}
+	],
+	"page": {
+		"number": 1170,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01547\"><he>פְּרַג</he></cite>) <i>exchange, price</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 23:19\">Targ. Y. Deut. XXIII, 19</cite> (h. text <cite ref=\"M00879\"><he>מחיר</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 15:31\">Targ. Job XV, 31</cite> (h. text <cite ref=\"V00667\"><he>תמורה</he></cite>); a. e.—Pl. <cite ref=\"Q00840\"><he>פֵּירוּגִין</he></cite>, <cite ref=\"Q00839\"><he>פֵּר׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 17:2\">Ib. XVII, 2</cite> (ed. Wil. <he>פרונ׳</he>, corr. acc.; h. text <he>המרות׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 44:13\">Targ. Ps. XLIV, 13</cite> (ed. Wil. <he>פרונ׳</he>, corr. acc.)."
+			]
+		}
+	]
+}

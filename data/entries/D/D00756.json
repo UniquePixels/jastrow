@@ -1,0 +1,33 @@
+{
+	"id": "D00756",
+	"slug": "דכא-1",
+	"headword": {
+		"text": "דָּכָא"
+	},
+	"page": {
+		"number": 306,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>דִּכֵּא</he> (b. h.; v. <cite ref=\"D00755\">preced.</cite>) <i>to crush, humble</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 93:2\">Midr. Till. to Ps. XCIII, 3</cite> (play on <he>דכים</he> <cite ref=\"Midrash Tehillim 93:2\">ib.</cite>) <he>אני מְדַכְּאָן וכ׳</he> I will crush them (the Philistines) by means of severe afflictions. ",
+						"<cite ref=\"Midrash Tehillim 93:2\">Ib.</cite> <he>וִידַּכְּאוּ ישראל וכ׳</he> and crush Israel by means of persecutions; a. e.—<i>Part. pass.</i> <cite ref=\"M00265\"><he>מְדוּכָּא</he></cite>, pl. <he>מְדוּכָּאִין</he>. ",
+						"<cite ref=\"Ketubot 8b\">Keth. 8ᵇ</cite>"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

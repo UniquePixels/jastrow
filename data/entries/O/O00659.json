@@ -1,0 +1,37 @@
+{
+	"id": "O00659",
+	"slug": "סילון-3",
+	"headword": {
+		"text": "סִילּוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִלּ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 979,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סָלַל</he> II; cmp. <cite ref=\"O00321\"><he>סוּלָּם</he></cite>) <i>path, gutter</i>, in gen. <i>duct, pipe, tube</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 7:1\">Kil. VII, 1</cite> <he>הבריכה בדלעת או בס׳</he> if in sinking a vine he conducted it through gourd shells or through a pipe (so that it could draw no nourishment from the ground which it passed); Y. Bicc. I, 63ᵈ top. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 7:1:4\">Y. Kil. VII, beg. 30ᵈ</cite> <he>ס׳ של חרס</he> an earthen pipe; <he>ס׳ של אבר</he> a leaden pipe. ",
+				"<cite ref=\"Mishnah Shabbat 3:4\">Sabb. III, 4</cite> (<cite ref=\"Shabbat 38b:11\">38ᵇ</cite>) <he>הכיאו סל׳ של צונן וכ׳</he> (Y. a. Bab. ed. <cite ref=\"O01010\"><he>סיל׳</he></cite>) they passed a duct of cold water through an arm of the hot springs. ",
+				"<cite ref=\"Tosefta Makhshirin 2:2\">Tosef. Makhsh. II, 2</cite> <he>ס׳ של יוצר</he> an earthen water pipe. ",
+				"<cite ref=\"Bekhorot 44b:10\">Bekh. 44ᵇ</cite>, a. e. <he>ס׳ החוזר</he> the urin in the urinary duct which is forced back. ",
+				"<cite ref=\"Bamidbar Rabbah 14:22\">Num. R. s. 14</cite> <he>כמין ס׳ של אש</he> like a duct of fire; a. fr.—",
+				"<cite ref=\"Bava Batra 99b:4\">B. Bath. 99ᵇ</cite> <he>בית הס׳</he> comment., v. <cite ref=\"S00964\"><he>קִילוֹן</he></cite>.—Pl. <he>סִילּוֹנוֹת</he>. ",
+				"<cite ref=\"Mishnah Kelim 2:3\">Kel. II, 3</cite>; <cite ref=\"Tosefta Kelim Kamma 2:3\">Tosef. Kel. B. Kam. II, 3</cite>. Tosef. Erub. IX (VI), 18 <he>ס׳ שבכרכין</he> the culverts in large cities; Y. ib. VIII, end, 25ᵇ. ",
+				"<cite ref=\"Bereishit Rabbah 32\">Gen. R. s. 32</cite> <he>הם קלקלו ס׳ שלהן וכ׳</he> (not <cite ref=\"O00661\"><he>סילונית</he></cite>) they abused their (seminal) ducts, therefore the Lord changed the order (of irrigation) of the world. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 5:4\">Pirké d’R. El. ch. V</cite> <he>ס׳ עולין וכ׳</he> (not … <he>נית</he>) ducts rise from the depth to irrigate &c.; <cite ref=\"Yalkut Shimoni on Torah 20:6\">Yalk. Gen. 20</cite> (corr. acc.)."
+			]
+		}
+	]
+}

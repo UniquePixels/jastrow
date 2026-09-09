@@ -1,0 +1,24 @@
+{
+	"id": "U00650",
+	"slug": "שחין-2",
+	"headword": {
+		"text": "שְׁחִין"
+	},
+	"page": {
+		"number": 1547,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U00676\"><he>שָׁחַן</he></cite>)<i>inflammation, boil, ulcer, skin-disease</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 41:2\">Gen. R. s. 41</cite> <he>כ״ד מיני ש׳</he>, v. <cite ref=\"T00039\"><he>רָאֲתָן</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 41:2\">Ib.</cite> <he>מוכה ש׳</he> afflicted with boils. ",
+				"<cite ref=\"Mishnah Negaim 1:5\">Neg. I, 5</cite>, sq.; a. fr."
+			]
+		}
+	]
+}

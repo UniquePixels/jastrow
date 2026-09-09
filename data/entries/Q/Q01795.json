@@ -1,0 +1,22 @@
+{
+	"id": "Q01795",
+	"slug": "פריום",
+	"headword": {
+		"text": "פִּרְיוֹם"
+	},
+	"page": {
+		"number": 1226,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01783\"><he>פרי</he></cite>, v. <cite ref=\"Q00345\"><he>פּוּרְיָא</he> II</cite>) <i>a curtained litter</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 3:10\">Cant. R. to III, 10</cite> <he>עשו לה פ׳ … מתוך הפ׳ וכ׳</he> make a litter for her; it is better that her beauty be seen through the curtains of the litter; <cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> <cite ref=\"Q01681\"><he>פרוים</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

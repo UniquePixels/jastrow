@@ -1,0 +1,28 @@
+{
+	"id": "A00331",
+	"slug": "אגף-2",
+	"headword": {
+		"text": "אַגָּף"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִגּוּף"
+		}
+	],
+	"page": {
+		"number": 13,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גּוּף</he> I) <i>the moulding or eminence of the door frame against which the door shuts, door-stop</i> (esp. of door-ways in thick city walls &c. with reference to sacred limits in sacrificial law). ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 7:12\">Pes. VII, 12</cite> <he>מן הא׳ ולפנים וכ׳</he> the space of the wall inside the door-stop is subject to the laws which apply to the space enclosed by the wall. ",
+				"<cite ref=\"Pesachim 85b:8\">Ib. 85ᵇ</cite> <he>א׳ עצמו</he> the stop itself and the corresponding space. Y. ib. VII, 35ᵇ <he>אגוף</he>."
+			]
+		}
+	]
+}

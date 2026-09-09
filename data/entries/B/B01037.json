@@ -1,0 +1,116 @@
+{
+	"id": "B01037",
+	"slug": "בעי-2",
+	"headword": {
+		"text": "בְּעֵי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּעָא"
+		}
+	],
+	"page": {
+		"number": 181,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (v. <cite ref=\"B01036\">preced.</cite>; cmp. <he>בין</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to search, inquire, ask, examine</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 6:29\">Targ. Jud. VI, 29</cite> (h. text <cite ref=\"B01148\"><he>בקש</he></cite>); a. fr.—",
+				"<cite ref=\"Berakhot 2b:3\">Ber. 2ᵇ</cite> <he>ובעו לה מבעיא האי וכ׳</he> and put it as a question (not as an argument), Does this <i>uba hash-shemesh</i> mean &c.? (opposed to preceding <he>וממאי דהאי וכ׳</he> how can it be proven that &c.). ",
+				"<cite ref=\"Jerusalem Talmud Challah 1:1:13\">Y. Ḥall. I, 57ᵇ</cite> <he>רבנן … בעיין</he> the Rabbis of … asked. ",
+				"<cite ref=\"Bava Kamma 33a:23\">B. Kam. 33ᵃ</cite> <he>בעא</he> … <he>מרב וכ׳</he> R. asked R. N.; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to ask, pray</i>, frequ. <he>ב׳ רחמין</he> <i>to ask for mercy, pray</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 12:13\">Targ. Y. Num. XII, 13</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 8a:14\">Ber. 8ᵃ</cite> <he>לבעי אינש רחמי</he> man should pray &c., v. <cite ref=\"G00266\"><he>זיבולא</he></cite>. ",
+				"<cite ref=\"Berakhot 10a:3\">Ib. 10ᵃ</cite> <he>בְּעִי רחמי עלויהו וכ׳</he> pray thou for them that they may repent; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to ask, want, desire; to require</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 2:15\">Targ. Ex. II, 15</cite>; a. fr.—",
+				"<cite ref=\"Pesachim 9a:2\">Pes. 9ᵃ</cite> <he>ובָעֵי בדיקה</he> and it (the house) requires searching over again. ",
+				"<cite ref=\"Ketubot 39b:10\">Keth. 39ᵇ</cite> <he>לא בעינא לך</he> I do not want thee. ",
+				"<cite ref=\"Bava Kamma 102b:19\">B. Kam. 102ᵇ</cite> <he>לא יקרייכו בעינא וכ׳</he> I want neither your honor nor your disrespect; a. fr.—",
+				"<cite ref=\"Pesachim 2a:7\">Pes. 2ᵃ</cite> <he>בעו שבוחי</he> <i>must</i> give praise.—<he>אי בעית אימא</he>, usu. <he>איבעית אימא</he>, v. <cite ref=\"A01131\"><he>אִיבָּעִית</he></cite>. [<cite ref=\"Jerusalem Talmud Yevamot 12:6:6\">Y. Yeb. XII, 13ᵃ</cite> top <he>בְּעֵא תתן לנו</he>, please, give us.]"
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (ellipt.) <i>to beg leave to say; to remark, assert</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:8\">Y. Ber. I, 2ᵇ</cite> top. ",
+				"<cite ref=\"Jerusalem Talmud Peah 2:1:5\">Y. Peah II, beg. 16ᵈ</cite>; a. fr."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְבְּעִי"],
+			"senses": [
+				{
+					"gloss": "<i>to be searched for, to be wanted</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 50:20\">Targ. Jer. L, 20</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be urged, hurried</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 23:26\">Targ. I Sam. XXIII, 26</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 4:4\">Targ. II Sam. IV, 4</cite> <he>בְּאִתְבָּעֲיוּתָהּ</he> when she was hurried; v. <cite ref=\"B01058\"><he>בְּעַע</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִיבָּעֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be asked</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 4b\">Pes. 4ᵇ</cite>, a. v. fr. <he>אִיבָּעְיָא להו</he> it was asked by them (the scholars), i.e. the argument came up."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be required; it ought to</i>. Ib. 7ᵇ <he>יצא בו מיבעי ליה</he> it ought to read <i>yatsa bo</i> (he <i>has</i> done his duty). Ib. 15ᵃ <he>מדבריו מ׳ ליה</he> it ought to be <i>midd’barav</i> (not <i>middibrehem</i>); a. fr.—",
+					"units": [
+						"<cite ref=\"Bava Kamma 21b:6\">B. Kam. 21ᵇ</cite> <he>א׳ ליה לאסוקי דעתא</he> he ought to have borne in mind; a. fr.—לא מיבעיא <i>there is no question</i>. <he>לא מ׳ … אלא אפילו</he> there is no question as to …, but even …; <i>not only … but</i>. ",
+						"<cite ref=\"Pesachim 4b\">Pes. 4ᵇ</cite> <he>לא מ׳ באתרא … אלא וכ׳</he> not only in a place where they pay no wages for searching, but do it themselves, (is there no cause for withdrawing from the agreement,) because a man likes to perform a religious duty: but even in a place where they pay wages, (there is no cause &c.,) for a man likes &c. ",
+						"<cite ref=\"Bava Kamma 54b:2\">B. Kam. 54ᵇ</cite> <he>לא מ׳ קאמר לא מ׳ שור וכ׳</he> the Mishnah states a case of ‘not only’; not only for an ox … is he responsible, but even &c.; a. v. fr.—מִיבָּעְיָא <i>is there any question?;</i> v. <cite ref=\"E00940\"><he>הַשְׁתָּא</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אַבְעֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to let burst forth</i>, v. <cite ref=\"J00473\"><he>יְעָא</he></cite> a. <cite ref=\"N00102\"><he>נְבַע</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

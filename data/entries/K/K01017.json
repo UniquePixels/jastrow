@@ -1,0 +1,23 @@
+{
+	"id": "K01017",
+	"slug": "כפיני",
+	"headword": {
+		"text": "כְּפֵינֵי"
+	},
+	"page": {
+		"number": 659,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. constr. (<cite ref=\"K01016\">preced.</cite>) <i>want, need, desire</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 42:19\">Targ. Y. Gen. XLII, 19</cite>; <cite ref=\"Targum Jonathan on Genesis 42:33\">33</cite> (h. text <cite ref=\"T00874\"><he>רעבון</he></cite>)."
+			]
+		}
+	]
+}

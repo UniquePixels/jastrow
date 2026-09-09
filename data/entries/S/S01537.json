@@ -1,0 +1,23 @@
+{
+	"id": "S01537",
+	"slug": "קנובקאות",
+	"headword": {
+		"text": "קְנוּבְקָאוֹת"
+	},
+	"page": {
+		"number": 1389,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl.<i>cakes made of flour of parched grain, kneaded with oil, and intended to be reduced again to flour by rubbing between one’s hands; brittle cakes</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Challah 1:5\">Ḥall. I, 5</cite> <he>וכן הק׳ חייבות</he> and so are brittle cakes subject to Ḥallah; Y. ib. 57ᵈ sq. [read:] <he>וכן הק׳ חייבות … שלא תאמר וכ׳</he> and so are the brittle cakes subject &c., that you may not think, because they are to be reduced to flour, they ought to be exempt."
+			]
+		}
+	]
+}

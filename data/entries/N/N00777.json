@@ -1,0 +1,30 @@
+{
+	"id": "N00777",
+	"slug": "ניקלווס",
+	"headword": {
+		"text": "נִיקְלְוָוס"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִיקְלְבָס"
+		}
+	],
+	"page": {
+		"number": 908,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Νικόλαος, S.) <i>a variety of the date</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 1:5\">Ab. Zar. I, 5</cite> (<cite ref=\"Avodah Zarah 13b\">13ᵇ</cite>) <he>נקליבם</he> (Bab. ed. <he>נקלב</he>; Mish. Nap. <he>ודנקלבס</he>, v. Rabb. D. S. a. l. note 400; Y. ed. <cite ref=\"N00775\"><he>ניקלבים</he></cite>). Ib. 14ᵇ <he>נקלס</he> (Ms. M. <cite ref=\"N01222\"><he>נקלווס</he></cite>); Y. ib. I, 39ᵈ bot. <he>נקלבי׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 14:4:6\">Y. Sabb. XIV, 14ᵈ</cite> <he>דניקלבס</he> stones of <i>nicolaos</i> dates; <cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:5\">Y. Ab. Zar. II, 40ᵈ</cite> <he>דנִקְלְבִיסִין</he> (<i>pl.</i>)—<i>Pl.</i> <he>נִיקְלַוְוסִין</he>, <he>נִיקְלַוְוסַיָּא</he> &c. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:5:4\">Y. Ber. VI, 10ᶜ</cite> bot.—",
+				"<cite ref=\"Bamidbar Rabbah 3\">Num. R. s. 3</cite>, beg., v. <cite ref=\"N00298\"><he>נוֹבֶלֶת</he></cite>; <cite ref=\"Midrash Tehillim 92:8\">Midr. Till. to Ps. XCII</cite> <he>מקולסין</he> (corr. acc.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	"id": "E00713",
+	"slug": "העברה",
+	"headword": {
+		"text": "הַעֲבָרָה"
+	},
+	"page": {
+		"number": 359,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00059\"><he>עָבַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>carrying, bearing</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 27b\">R. Hash. 27ᵇ</cite>, a. e. (ref. to <he>והעברת</he>, <cite ref=\"Leviticus 25:9\">Lev. XXV, 9</cite>) <he>דרך הַעֲבָרָתוֹ</he> (leave the horn) in the way in which it was borne by the living animal (in its natural shape)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <he>הַעֲבָרַת קול</he>) <i>causing the sound to pass over a certain space, proclamation</i>. Ib. 34ᵃ <he>דיליף ה׳ ה׳ ממשה</he> Ms. M. (ed. <he>דגמר עברה ע׳</he>) we learn the meaning of <cite ref=\"P00059\"><he>העביר</he></cite> (Lev. l. c.) from the meaning it has in reference to Moses (<cite ref=\"Exodus 36:6\">Ex. XXXVI, 6</cite>). ",
+			"units": [
+				"<cite ref=\"Shabbat 96b:2\">Sabb. 96ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Torah 413:2\">Yalk. Ex. 413</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>leading across, passing;</i> in gen. <i>use of the stem</i> <cite ref=\"P00061\"><he>עבר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 7:10:2\">Y. Snh. VII, 25ᵇ</cite> bot. (interch. with <he>עברה</he>); Sifra K’doshim ch. VIII, Par. 4 <he>מה ה׳ וכ׳</he> as the ‘passing’ there (<cite ref=\"Deuteronomy 18:10\">Deut. XVIII, 10</cite>) means through fire, so does the ‘passing’ here (<cite ref=\"Leviticus 18:21\">Lev. XVIII, 21</cite>). ",
+				"<cite ref=\"Bekhorot 32a:22\">Bekh. 32ᵃ</cite> <he>ה׳ ה׳ ממעשר</he> analogy between the first-born and the tithes founded on the use of the stem <cite ref=\"P00061\"><he>עבר</he></cite> (<cite ref=\"Exodus 13:12\">Ex. XIII, 12</cite>, a. ",
+				"<cite ref=\"Leviticus 27:32\">Lev. XXVII, 32</cite>); (<cite ref=\"Zevachim 9a\">Zeb. 9ᵃ</cite>, a. e. <he>עברה</he>)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (from <cite ref=\"Numbers 8:7\">Num. VIII, 7</cite>; <cite ref=\"Numbers 6:5\">VI, 5</cite>, a. e.) <he>הַעֲבָרַת שיער</he> <i>passing the razor over the hair, shaving</i>. ",
+			"units": [
+				"<cite ref=\"Nazir 58b\">Naz. 58ᵇ</cite>, sq. <he>ה׳ ש׳</he> removing the hair of the body. Y. ib. II, end, 52ᵇ <he>לה׳ ש׳</he> for the purpose of removing the hair, opp. <he>גידול שיער</he>."
+			],
+			"label": "4"
+		}
+	]
+}

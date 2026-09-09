@@ -1,0 +1,30 @@
+{
+	"id": "V00564",
+	"slug": "תל-2",
+	"headword": {
+		"text": "תֵּל",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּלָּא"
+		},
+		{
+			"text": "תִּי׳"
+		}
+	],
+	"page": {
+		"number": 1670,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00563\">same</cite>, <i>mound, ruins</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 13:17\">Targ. Deut. XIII, 17</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 49:2\">Targ. Jer. XLIX, 2</cite>; a. e.—",
+				"<cite ref=\"Berakhot 58b:3\">Ber. 58ᵇ</cite> <he>ביתא … השתא נפל בת׳</he> (Ms. M. <he>נפל ליה כת׳</he>) the house in which … now lies in ruins (lies like a ruin)."
+			]
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"id": "A01044",
+	"slug": "אחר-1",
+	"headword": {
+		"text": "אָחַר"
+	},
+	"page": {
+		"number": 40,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <cite ref=\"A01017\"><he>אָחוֹר</he></cite>)<i>to be behind</i>, v. <i>Pi.</i>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (euphem.) <i>to cover</i> (of camels). ",
+			"units": [
+				"<cite ref=\"Bava Batra 93a:4\">B. Bath. 93ᵃ</cite>; <cite ref=\"Shevuot 34a:18\">Shebu. 34ᵃ</cite>; <cite ref=\"Sanhedrin 37b:3\">Snh. 37ᵇ</cite> (Ms. M. B. Bath. l. c. <cite ref=\"J00140\"><he>יהיר</he></cite>). ",
+				"<cite ref=\"Tosefta Bava Kamma 3:6\">Tosef. B. Kam. III, 6</cite> <he>אוֹחֵיר</he>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אֵחַר", "אֵיחַר"],
+			"senses": [
+				{
+					"gloss": "<i>to tarry, hesitate; to set behind</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Pesachim 9:9\">Pes. IX, 9</cite> <he>אם אֵחַרְתִּי</he> if I should be late. Y. Yoma III, 40ᶜ top <he>א׳ בו מעשה</he> the text orders a later action after it. Y. Ned. X, 42ᵃ; 42ᵇ <he>א׳ בעמידה</he> he tarried in standing, i.e. was the last to sit down. ",
+						"<cite ref=\"Bereishit Rabbah 81:5\">Gen. R. s. 81</cite>, beg. <he>א׳ אדם את נדרו</he> if one procrastinates the fulfillment of his vow; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["אוּחָר", "הוּאֲחָר"],
+			"senses": [
+				{
+					"gloss": "<i>to be postponed, be done late, be placed later</i>. Y. Yoma III, 40ᶜ top <he>בכלל מְאוּחָר היה</he> would belong to things to be done later. ",
+					"units": [
+						"<cite ref=\"Yoma 2a:1\">Ib.</cite> <he>יוּאֲחַר וכ׳</he> let it be done later than &c.—<he>אין מוקדם ומאוחר בתורה</he> there is no ‘earlier’ or ‘later’ (no chronological order) in the events or laws of the Scripture. ",
+						"<cite ref=\"Pesachim 6b\">Pes. 6ᵇ</cite>; a. e.; Y. Sot. VIII, 22ᵈ <he>מוּאֲחַר</he>.—",
+						"<cite ref=\"Mishnah Sheviit 10:5\">Shebi. X, 5</cite>, a. fr. <he>מאוחר</he> (a document) <i>postdated</i>, opp. <he>מוקדם</he> antedated. ",
+						"<cite ref=\"Mishnah Bava Metzia 5:10\">B. Mets. V, 10</cite> <he>רבית מְאוּחֶרֶת</he> postpaid interests."
+					]
+				}
+			],
+			"stem": "Pu."
+		}
+	]
+}

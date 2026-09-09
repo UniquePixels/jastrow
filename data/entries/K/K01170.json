@@ -1,0 +1,29 @@
+{
+	"id": "K01170",
+	"slug": "כריסו",
+	"headword": {
+		"text": "כְּרִיסוֹ"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּרִיסוֹ אַרְגִּירָא"
+		}
+	],
+	"page": {
+		"number": 667,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (χρυσοάργυρον, usu. χρυσάργυρον) <i>gold and silver tax</i> levied by Constantine the Great (v. Sachs Beitr. II, 140; Rapap. Er. Mill. p. 193, a. authors there quoted). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 3:1:4\">Y. B. Kam. III, 3ᶜ</cite> top <he>אהן כ׳ א׳ וכ׳</he> as to the chrysargyron: before that tax is arranged, it is permitted to say (to the officers), ‘this man is my fellow-trader’; when it has been arranged (and is being collected), it is not permitted (because it would injure the person omitted in the list without alleviating the burden of others); cmp. <cite ref=\"A01741\"><he>אכסניי</he></cite>.—Pl. <he>כְּרִיסַרְגּוּרִיּוֹת</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:2\">Cant. R. II, 2</cite> (variously corrupted).—",
+				"<cite ref=\"Midrash Tehillim 12\">Midr. Till. to Ps. XII</cite> <cite ref=\"M02513\"><he>מרגזאות</he></cite>, ed. Bub. <he>מזה נמסאות</he>; <cite ref=\"Yalkut Shimoni on Nach 656\">Yalk. ib. 656</cite> <he>מדגראות</he>, read: <he>כְּרִיזַרְגְּרָאוֹת</he> (ascribed to Hadrian)."
+			]
+		}
+	]
+}

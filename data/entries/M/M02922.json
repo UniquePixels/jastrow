@@ -1,0 +1,22 @@
+{
+	"id": "M02922",
+	"slug": "משמוטא",
+	"headword": {
+		"text": "מַשְׁמוֹטָא"
+	},
+	"page": {
+		"number": 856,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01454\"><he>שְׁמַט</he></cite>) <i>a sneak thief</i>, opp. to <cite ref=\"L00586\"><he>לסטיס</he></cite>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 15b:14\">Ab. Zar. 15ᵇ</cite> <he>במ׳ דזימנין וכ׳</he> (Ms. M. <he>במשמיטא בעלמא</he>, Rashi <he>במשמוטי׳</he>) it refers to an (ordinary) thief who sometimes commits murder to save his own life."
+			]
+		}
+	]
+}

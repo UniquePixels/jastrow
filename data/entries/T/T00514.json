@@ -1,0 +1,29 @@
+{
+	"id": "T00514",
+	"slug": "רחל-2",
+	"headword": {
+		"text": "רָחֵל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1466,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) <i>ewe, sheep</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 3:1\">Bekh. III, 1</cite> <he>ר׳ בת שתים וכ׳</he> if an ewe gives birth in her second year of age, the issue belongs to the priest with certainty. ",
+				"<cite ref=\"Bekhorot 20a:10\">Ib. 20ᵃ</cite>. ",
+				"<cite ref=\"Tosefta Chullin 10:1\">Tosef. Ḥull. X, 1</cite> <he>כלאיים מן הר׳ וכ׳</he> a hybrid of an ewe and a kid is subject to the law concerning the first of the fleece (<cite ref=\"Deuteronomy 18:4\">Deut. XVIII, 4</cite>); a. fr.—Pl. <he>רְחֵלוֹת</he>, <he>רְחֵלִים</he>, <he>רְחֵלִין</he>, <cite ref=\"T00515\"><he>רְחֵי׳</he></cite>. Ib. 4 <he>השוטף רְחֵלָיו</he> if one washes his lambs (and wool comes out). ",
+				"<cite ref=\"Deuteronomy 18:4\">Ib.</cite>; <cite ref=\"Mishnah Chullin 11:2\">Ḥull. XI, 2</cite> <he>חמש ר׳ גוזזות וכ׳</he> five lambs yielding wool of the weight of &c. ",
+				"<cite ref=\"Chullin 137b:12\">Ib. 137ᵇ</cite> <he>דקא מתני ליה לבריה רחלים</he> taught his son (the Mishnah l. c.) using <i>r’ḥelim</i> (according to Biblical usage); <he>א״ל אתנייה רחלות</he> said he to him, teach him <i>r’ḥeloth</i> (in accordance with later usage). ",
+				"<cite ref=\"Mishnah Bekhorot 5:3\">Bekh. V, 3</cite> <he>זכר של ר׳</he>, v. <cite ref=\"G00468\"><he>זָכָר</he></cite>. ",
+				"<cite ref=\"Mishnah Shabbat 5:2\">Sabb. V, 2</cite>; <cite ref=\"Mishnah Shabbat 5:4\">4</cite>; a. fr."
+			]
+		}
+	]
+}

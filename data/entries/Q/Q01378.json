@@ -1,0 +1,40 @@
+{
+	"id": "Q01378",
+	"slug": "פעי-1",
+	"headword": {
+		"text": "פעי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּעָה"
+		}
+	],
+	"page": {
+		"number": 1202,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to open the mouth; to blow; to cry</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 11b:13\">Sot. 11ᵇ</cite> (ref. to <cite ref=\"Q00298\"><he>פועה</he></cite>, <cite ref=\"Exodus 1:15\">Ex. I, 15</cite>) <he>שהיתה פּוֹעָה ומוציאה את הוולד</he> (Ar. <he>פ׳ לוולד</he>) she blew (a charm into the mother’s ear) and brought the child forth; <cite ref=\"Kohelet Rabbah 7:1:3\">Koh. R. to VII, 1</cite> <he>שהיתה פועה באשה וכ׳</he>; <cite ref=\"Kohelet Rabbah 7:1:3\">ib.</cite> <he>שהיתה פועה ובוכה על וכ׳</he> she cried out and wept for her brother &c. ",
+				"<cite ref=\"Kohelet Rabbah 7:1:3\">Ib.</cite> <he>שפָּעַת בפני פרעה וכ׳</he> she cried out before Pharaoh, saying &c. Sot. l. c. <he>שהיתה פועה ברוח וכ׳</he> she cried in holy inspiration and said, my mother is destined to bear a son who will save Israel. ",
+				"<cite ref=\"Vayikra Rabbah 27\">Lev. R. s. 27</cite>; Tanḥ. Emor 11, v. <cite ref=\"Q01380\"><he>פְּעִיָּיה</he></cite>. Midr. Sam. ch. XXII <he>פָּעֲתָה כעגלה</he> she lowed like a heifer; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִפְעֶה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01377\">same</cite>, esp. <i>to bleat</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 22\">Gen. R. s. 22</cite>; <cite ref=\"Yalkut Shimoni on Torah 38:2\">Yalk. ib. 38</cite> <he>הוא מַפְעֶה אחריך</he> it (the stolen lamb) is bleating behind thee."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

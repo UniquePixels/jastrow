@@ -1,0 +1,31 @@
+{
+	"id": "L00376",
+	"slug": "לחת-1",
+	"headword": {
+		"text": "לָחַת"
+	},
+	"page": {
+		"number": 704,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"L00363\"><he>הִלְחִית</he></cite> (cmp. <cite ref=\"L00354\"><he>לָחַךְ</he></cite>) <i>to loll the tongue</i> (of the dog); <i>to pant, be exhausted</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 13:2\">Lev. R. s. 13</cite> <he>החמור מהלך והכלב מַלְחִית</he> the ass walked (patiently) and the dog panted; Yalk. Hab. 563; <cite ref=\"Sifrei Devarim 343\">Sifré Deut. 343</cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

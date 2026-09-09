@@ -1,0 +1,23 @@
+{
+	"id": "M02604",
+	"slug": "מרוקא-2",
+	"headword": {
+		"text": "מָרוֹקָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 839,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"M00652\"><he>מוֹרִיקָא</he></cite>) <i>saffron-colored</i>.—Pl. <he>מָרוֹקִין</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 1:6\">Targ. Esth. I, 6</cite>."
+			]
+		}
+	]
+}

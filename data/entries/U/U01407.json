@@ -1,0 +1,59 @@
+{
+	"id": "U01407",
+	"slug": "שם-3",
+	"headword": {
+		"text": "שֵׁם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1590,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"U00436\"><he>שׁוּם</he></cite> a. <i>mark, name, title, nature, denomination</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 3:3\">Pes. III, 3</cite> <he>לא תקרא לה שם וכ׳</he> she must not name it (declare it to be Ḥallah) until it is baked. ",
+				"<cite ref=\"Mishnah Terumot 3:5\">Ter. III, 5</cite> <he>האומר … קרא שם</he> if one says, the priest’s portion of this pile is in it …, he has named it (designated it as T’rumah). ",
+				"<cite ref=\"Bereishit Rabbah 25:3\">Gen. R. s. 25</cite> (ref. to <cite ref=\"Genesis 5:29\">Gen. V, 29</cite>) <he>לא השם הוא המדרש … הוא השם וכ׳</he> the name (<cite ref=\"N00468\"><he>נח</he></cite>) and the interpretation (<he>ינחמנו</he>) do not correspond; it ought to be either &c. ",
+				"<cite ref=\"Mishnah Berakhot 2:8\">Ber. II, 8</cite> <he>ליטול … השם</he>, v. <cite ref=\"N00571\"><he>נָטַל</he></cite>. ",
+				"<cite ref=\"Mishnah Makkot 1:2\">Macc. I, 2</cite> <he>לא השם המביאו וכ׳</he> the title (the legal text) under which the false witness is doomed to lashes, is not the one under which he is bound to pay indemnity. ",
+				"<cite ref=\"Mishnah Kinnim 1:3\">Kinn. I, 3</cite> <he>משם אחד</he> sacrificial birds of the same denomination (intended for the same class of cases), opp. <he>משני שמות</he> of different denominations. ",
+				"<cite ref=\"Mishnah Shabbat 12:3\">Sabb. XII, 3</cite> <he>משם אחד</he> two letters of the alphabet of the same name (<he>אא</he>, <cite ref=\"B00049\"><he>בב</he></cite> &c.), opp. <he>משתי שמות</he> two different letters (<he>אב</he> &c.). ",
+				"<cite ref=\"Mishnah Shabbat 12:3\">Ib.</cite> <he>שם קטן משם גדול וכ׳</he> a small name or word as a part (or abbreviation) of a larger one, as <cite ref=\"U01406\"><he>שם</he></cite> as a part of <cite ref=\"U01517\"><he>שמעון</he></cite>, of <cite ref=\"U01427\"><he>שמואל</he></cite> &c. Ib. 103ᵇ <he>שתי אותיות והן שם אחד</he> two identical letters which represent a word, (as <cite ref=\"U02056\"><he>שש</he></cite>, which may stand for <cite ref=\"U02056\"><he>שֵׁשׁ</he></cite> or <cite ref=\"U02056\"><he>שָׂשׂ</he></cite>) &c. ",
+				"<cite ref=\"Shevuot 3b\">Shebu. 3ᵇ</cite>, a. fr. <he>לא מן השם הוא זה וכ׳</he> this comes not under this title (this is not the real reason), but it is because &c. ",
+				"<cite ref=\"Mishnah Keritot 3:4\">Ker. III, 4</cite> <he>אינו מן השם</he> the offence is not of the same class. ",
+				"<cite ref=\"Makkot 4b:7\">Macc. 4ᵇ</cite>, a. fr. (<he>על חבירו</he>) <he>מוציא שם רע</he> who spreads an evil report about his neighbor (injures his reputation). ",
+				"<cite ref=\"Berakhot 17a:12\">Ber. 17ᵃ</cite> <he>גדל בשם טוב וכ׳</he> who has grown up with a good name, and departed life with a good name; a. v. fr.—Esp. <cite ref=\"U01491\"><he>הַשֵּׁם</he></cite> or <cite ref=\"U01408\"><he>שֵׁם</he></cite> <i>the Divine Name, the Tetragrammaton</i>, contradist. to <cite ref=\"K00566\"><he>כינוי</he></cite> attribute; in gen. <i>the Lord</i>. ",
+				"<cite ref=\"Mishnah Sanhedrin 7:5\">Snh. VII, 5</cite> <he>המגדף … שיפרש השם</he> the blasphemer is not punishable, unless he uses the Name explicitly. ",
+				"<cite ref=\"Mishnah Sanhedrin 7:8\">Ib. 8</cite> <he>המקלל … בַּשֵּׁם</he> he that curses his father or his mother is not punishable, unless he curses them with the Name. ",
+				"<cite ref=\"Sanhedrin 56a:19\">Ib. 56ᵃ</cite> <he>בידך את השם בכינוי</he> (not <he>בכינויים</he>) if he curses God by using a divine attribute. ",
+				"<cite ref=\"Sanhedrin 56a:4\">Ib.</cite> <he>עד שיברך שם בשם</he> unless he curses God and pronounces the Name. ",
+				"<cite ref=\"Mishnah Yoma 3:8\">Yoma III, 8</cite>; <cite ref=\"Mishnah Yoma 4:2\">IV, 2</cite>; <cite ref=\"Mishnah Yoma 6:2\">VI, 2</cite> (<he>בשם</he>) <he>אנא השם</he> I pray, O Lord (pronouncing the Tetragrammaton). ",
+				"<cite ref=\"Mishnah Yoma 6:2\">Ib.</cite> <he>כשהיו שומעים שם המפורש שהוא יוצא וכ׳</he> when they heard the Tetragrammaton pronounced &c., v. <cite ref=\"Q02021\"><he>פָּרַשׁ</he></cite>. Ib. IV, 1 <he>אחד … לַשֵּׁם</he> on one of the lots was written ‘unto the Lord’; <he>של שם</he> the lot bearing the inscription ‘unto the Lord’; a. v. fr.; v. <cite ref=\"U01468\"><he>שָׁמַיִם</he></cite>.—Especial uses: <he>כְּשֵׁם שֶׁ־</he> <i>the same as, as well as</i>. ",
+				"<cite ref=\"Mishnah Berakhot 9:5\">Ber. IX, 5</cite> <he>חייב אדם … כשם שמברך וכ׳</he> a man is bound to bless God for what is evil as well as he blesses for what is good. ",
+				"<cite ref=\"Berakhot 62a:16\">Ib. 62ᵃ</cite> <he>כשם שנפרעין וכ׳</he> as well as the dead are called to account &c., v. <cite ref=\"O01319\"><he>סַפְדָּן</he></cite>. ",
+				"<cite ref=\"Mishnah Sotah 5:1\">Sot. V, 1</cite> <he>כשם שהמים … כך וכ׳</he> as the waters test her, so do they test him. ",
+				"<cite ref=\"Mishnah Sotah 5:1\">Ib.</cite> <he>כשם שאסורה וכ׳</he>, v. <cite ref=\"B01053\"><he>בָּעַל</he></cite>; a. v. fr.—<he>בְּשֵׁם</he>, <cite ref=\"M02911\"><he>מִשֵּׁם</he></cite> <i>in the name of, in behalf of</i>. ",
+				"<cite ref=\"Megillah 15a:7\">Meg. 15ᵃ</cite> <he>כל האומר דכר בשם אומרו וכ׳</he> he who relates a thing in the name of him who said it (gives credit to authority), brings redemption into the world. ",
+				"<cite ref=\"Mishnah Peah 2:4\">Peah II, 4</cite> <he>מִשְּׁמוֹ</he> in his own name (as his individual opinion). ",
+				"<cite ref=\"Jerusalem Talmud Taanit 1:2:3\">Y. Taan. I, 64ᵃ</cite> <he>הלכה … שאמר משם וכ׳</he> the rule follows the opinion of …, who said in behalf of &c.; a. v. fr.—לְשֵׁם <i>for the purpose of, for the sake of, as; with reference to</i>. ",
+				"<cite ref=\"Gittin 24b:8\">Gitt. 24ᵇ</cite> <he>כתב רחמנא לה לִשְׁמָהּ</he> the text (<cite ref=\"Deuteronomy 24:3\">Deut. XXIV, 3</cite>) says, ‘unto her’, that means, that it must be written especially for her. ",
+				"<cite ref=\"Yevamot 47b:7\">Yeb. 47ᵇ</cite>, v. <cite ref=\"U00437\"><he>שׁוּם</he> II</cite>.—",
+				"<cite ref=\"Sanhedrin 99b:10\">Snh. 99ᵇ</cite> <he>העוסק בתורה לשמה</he> who studies the Law for its own sake (for no selfish ends). ",
+				"<cite ref=\"Pesachim 50b:10\">Pes. 50ᵇ</cite> <he>לעולם יעסוק … אע״פ שלא לשמה … בא לשמה</he> by all means let a man engage in the study of the Law and in good deeds, even if not for their own sake, for through the work for a selfish purpose he will arrive at the stage of doing good for its own sake. ",
+				"<cite ref=\"Pesachim 13b:4\">Ib. 13ᵇ</cite>, a. e. <he>שחטן לִשְׁמָן וכ׳</he> if he slaughtered them as such (as festive sacrifices) &c.; <he>זרק דמן שלא לשמן</he> if he sprinkled their blood, having in mind another purpose (another class of sacrifices). ",
+				"<cite ref=\"Bereishit Rabbah 25:2\">Gen. R. s. 25</cite> <he>לשם קרבנו נקרא</he> he was named (<cite ref=\"N00468\"><he>נח</he></cite>) with reference to his sacrifice (<he>ניחח</he>, <cite ref=\"Genesis 8:21\">Gen. VIII, 21</cite>) ; <he>לשם נחת וכ׳</he> he was named (<cite ref=\"N00468\"><he>נח</he></cite>) with reference to the rest of the ark (<he>ותנח</he>, <cite ref=\"Genesis 8:4\">Gen. VIII, 4</cite>); Yalk. ib. 42 <he>על שם וכ׳</he>; a. v. fr.—<he>עַל שֵׁם</he> (abbrev. <he>ע״ש</he>) <i>with reference to, because</i>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 2:1:7\">Y. Taan. II, beg. 65ᵃ</cite> <he>על שם ואנכי וכ׳</he> as a reference to (what Abraham said,) ‘and I am but dust and ashes’ (<cite ref=\"Genesis 18:27\">Gen. XVIII, 27</cite>). ",
+				"<cite ref=\"Bereishit Rabbah 23:7\">Gen. R. s. 23</cite>, v. <cite ref=\"I00088\"><he>טְבַרְיָא</he></cite>; a. fr.; v. <cite ref=\"U00437\"><he>שׁוּם</he> II</cite>.—Pl. <he>שֵׁמוֹת</he>, constr. <he>שְׁמוֹת</he>. Kinn. l. c. ",
+				"<cite ref=\"Bereishit Rabbah 26:7\">Gen. R. s. 26</cite> <he>כל הש׳ הללו וכ׳</he> all these names indicate rebellion &c., v. <cite ref=\"M02544\"><he>מַרְדּוּת</he> I</cite>. ",
+				"<cite ref=\"Bava Metzia 114b:6\">B. Mets. 114ᵇ</cite> <he>עובר בכל הש׳ הללו</he> is guilty under all these titles (texts). ",
+				"<cite ref=\"Shevuot 35a:17\">Shebu. 35ᵃ</cite> <he>יש ש׳ שנמחקין ויש ש׳ וכ׳</he> there are divine names which may be erased, and such as may not be erased. ",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 1:2:2\">Y. R. Hash. I, 56ᵈ</cite> bot. <he>שְׁ׳ המלאכים</he>, v. <cite ref=\"M01470\"><he>מַלְאָךְ</he></cite>; a. fr."
+			]
+		}
+	]
+}

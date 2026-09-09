@@ -1,0 +1,25 @@
+{
+	"id": "K00833",
+	"slug": "כנדא-2",
+	"headword": {
+		"text": "כַּנְדָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 648,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (dial. for <cite ref=\"K01072\"><he>כַּרָּא</he></cite>, cmp. <cite ref=\"C00431\"><he>גּוּנְדְּרָא</he></cite>) <i>pitcher, pot</i>. [<cite ref=\"Pesachim 111b\">Pes. 111ᵇ</cite>, v. <cite ref=\"K00876\"><he>כִּנָּרָא</he></cite>.]—Pl. <he>כַּנְרֵּי</he>. ",
+			"units": [
+				"<cite ref=\"Pesachim 30a\">Pes. 30ᵃ</cite> <he>מזבני כ׳</he> sellers of earthen ware. ",
+				"<cite ref=\"Pesachim 30a:6\">Ib.</cite> <he>אשוו זביני אכַּנְדַּיְיכוּ</he> (not <he>דיכי …</he>; Ms. M. <he>אשוו זבינייכו</he>) set a fair price on your pots.—",
+				"<cite ref=\"Chullin 48b:1\">Ḥull. 48ᵇ</cite> <he>דקיימו כ׳ כ׳</he> lungs upon which there are pot-like excrescences.—[<cite ref=\"Berakhot 40b\">Ber. 40ᵇ</cite>, v. <cite ref=\"K00876\"><he>כִּנָּרָא</he></cite>.]"
+			]
+		}
+	]
+}

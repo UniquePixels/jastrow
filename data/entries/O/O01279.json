@@ -1,0 +1,28 @@
+{
+	"id": "O01279",
+	"slug": "סעדא",
+	"headword": {
+		"text": "סַעֲדָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סָעֲדָא"
+		}
+	],
+	"page": {
+		"number": 1009,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01278\">preced.</cite>) <i>assistant, helper, follower</i>.—Pl. <he>סַעֲדיָּיא</he>, <he>ס׳</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 20:5\">Targ. O. Lev. XX, 5</cite> <he>סַעָדוֹהִי</he> ed. Berl. (not with <cite ref=\"T00000\"><he>ר</he></cite>; oth. ed. <cite ref=\"O00213\"><he>סַ׳</he></cite>; h. text <cite ref=\"M02951\"><he>משפחה</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "I00598",
+	"slug": "טעונא",
+	"headword": {
+		"text": "טְעוּנָא"
+	},
+	"page": {
+		"number": 542,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., constr. <cite ref=\"I00596\"><he>טְעוּן</he></cite> (<he>טְעַן</he> II, v. <cite ref=\"I00185\"><he>טוּנָא</he> I</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>load</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 16:20\">Targ. I Sam. XVI, 20</cite> <he>ט׳ חמרא ט׳ דלחמא</he> ed. Lag. (oth. ed. <he>טעין דלחמא</he>) an ass-load consisting of a load (or <i>bag</i>, v. infra) of bread and &c. ",
+				"<cite ref=\"Targum Jonathan on II Kings 5:17\">Targ. II Kings V, 17</cite>; a. e.—",
+				"<cite ref=\"Sotah 34a\">Sot. 34ᵃ</cite>, v. <cite ref=\"D00828\"><he>דְּלֵי</he></cite>. ",
+				"<cite ref=\"Bava Metzia 97a\">B. Mets. 97ᵃ</cite>; a. e.—Pl. <he>טְעוּנַיָּיא</he>, <he>טְעוּנֵי</he>. ",
+				"<cite ref=\"Bava Metzia 32a\">Ib. 32ᵃ</cite> … <he>וטְעוּנַיְּיהוּ וכ׳ דרמי</he> when they themselves and their loads lie on the road."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bag</i>.—Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 2:6\">Targ. Josh. II, 6</cite> <he>ט׳ כיתנא</he> bags of flax.—",
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:20\">Y. Dem. II, 22ᵈ</cite>, contrad. to <cite ref=\"A03339\"><he>אַשְׁפְּלָה</he></cite>. Lam. R. introd. (R. Joh. 1) <he>מובלי ט׳ דחלא</he> loads of bags of sand."
+			],
+			"label": "2"
+		}
+	]
+}

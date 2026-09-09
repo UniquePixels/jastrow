@@ -1,0 +1,22 @@
+{
+	"id": "U01116",
+	"slug": "שכב-3",
+	"headword": {
+		"text": "שֶׁכֶב"
+	},
+	"page": {
+		"number": 1571,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01115\">preced.</cite>) <i>the lower millstone</i>, opp. <cite ref=\"T00748\"><he>רֶכֶב</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 2:1\">B. Bath. II, 1</cite>, v. <cite ref=\"T00748\"><he>רֶכֶב</he></cite>; <cite ref=\"Tosefta Bava Batra 1:3\">Tosef. ib. I, 3</cite>."
+			]
+		}
+	]
+}

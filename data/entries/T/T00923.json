@@ -1,0 +1,36 @@
+{
+	"id": "T00923",
+	"slug": "רעש-1",
+	"headword": {
+		"text": "רָעַשׁ"
+	},
+	"page": {
+		"number": 1489,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to tremble, be in commotion, rage</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 29\">Ex. R. s. 29</cite> (ref. to <cite ref=\"Psalms 68:9\">Ps. LXVIII, 9</cite>) <he>ומה אם … ארץ רָעֲשָׁה וכ׳</he> if the earth trembled when he gave life to the world, how much more (will it tremble), when he comes to &c. ",
+				"<cite ref=\"Psalms 68:9\">Ib.</cite> <he>השמים … רוֹעֲשִׁים</he> heaven and earth tremble."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְעִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to shake, disturb</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 71\">Gen. R. s. 71</cite> (play on <he>יערשיה</he> <cite ref=\"I Chronicles 8:27\">I Chr. VIII, 27</cite>) <he>בשעה … מַרְעִישׁ עולמו וכ׳</he> whenever God caused the world to quake, he remembered the merits of the fathers &c. ",
+						"<cite ref=\"Kohelet Rabbah 7:1:4\">Koh. R. to VII, 1</cite> <he>להַרְעִישׁ</he>, v. <cite ref=\"C01193\"><he>גָּעַשׁ</he></cite>. ",
+						"<cite ref=\"Pesikta Rabbati 10:1\">Pesik. R. s. 10</cite> <he>הַרְעִישָׁה</he>, v. <cite ref=\"A02830\"><he>אֲפַרְכֶסֶת</he></cite>. Tanḥ. P’kudé 3, v. <cite ref=\"T00925\"><he>רַעַשׁ</he></cite>; a. e.—[<cite ref=\"Yalkut Shimoni on Torah 132:1\">Yalk. Gen. 132</cite> <he>והרעיש עצמו</he>, read: <he>והרפיש</he>, v. <cite ref=\"T00966\"><he>רָפַשׁ</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

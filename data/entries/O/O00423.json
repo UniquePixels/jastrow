@@ -1,0 +1,27 @@
+{
+	"id": "O00423",
+	"slug": "סורחנותא",
+	"headword": {
+		"text": "סוּרְחָנוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוּרְחַנְתָּא"
+		}
+	],
+	"page": {
+		"number": 970,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " f. <cite ref=\"O00422\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 22:29\">Targ. Job XXII, 29</cite> Ms. (ed. <cite ref=\"O00422\"><he>סורחנא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 36:14\">Ib. XXXVI, 14</cite> Ms. (Var. Ms. a. ed. <he>טליות</he>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 10:17\">Targ. Y. Lev. X, 17</cite> <he>סַרְחָ׳</he>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 9:21\">Targ. Y. Deut. IX, 21</cite> <cite ref=\"O00423\"><he>סוּרְחַנְתְּ׳</he></cite>; a. e."
+			]
+		}
+	]
+}

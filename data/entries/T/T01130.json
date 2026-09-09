@@ -1,0 +1,22 @@
+{
+	"id": "T01130",
+	"slug": "רתיון",
+	"headword": {
+		"text": "רִתְיוֹן"
+	},
+	"page": {
+		"number": 1503,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T01129\">preced.</cite>) <i>indulgence, clemency</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Negaim 6:7\">Tosef. Neg. VI, 7</cite> <he>אין המקום דן … אלא בר׳</he> the Lord punishes man with clemency (offering him an opportunity to repent and be relieved)."
+			]
+		}
+	]
+}

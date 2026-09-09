@@ -1,0 +1,44 @@
+{
+	"id": "P00904",
+	"slug": "עמם-2",
+	"headword": {
+		"text": "עֲמַם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1089,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00903\">same</cite>, <i>to be dim</i>, v. <cite ref=\"P00879\"><he>עֲמֵי</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְעֲמַם"],
+			"senses": [
+				{
+					"gloss": "<i>to be made or become dim</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 12:2\">Targ. Koh. XII, 2</cite>, sq."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["עַמְעֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to make dim</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 6:10\">Targ. Is. VI, 10</cite> (ed. Lag. <cite ref=\"I00542\"><he>טַמְטֵם</he></cite>), v. <cite ref=\"I00555\"><he>טְמַם</he></cite>."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

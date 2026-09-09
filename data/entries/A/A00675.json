@@ -1,0 +1,31 @@
+{
+	"id": "A00675",
+	"slug": "אולם-2",
+	"headword": {
+		"text": "אוּלָם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 26,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (v. <cite ref=\"A00674\">foreg.</cite>, Οὐλαμμοῦς Euseb. Euseb. Onom.; Neub. Géogr. p. 18; 26 ",
+			"units": []
+		},
+		{
+			"gloss": " <i>Ulam</i> (Porta) a place in Gilead, and one in Galilee. Y. Snh. X, 28ᵈ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " in Cilicia; v. <cite ref=\"A00169\"><he>אַבְלַס</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

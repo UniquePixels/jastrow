@@ -1,0 +1,20 @@
+{
+	"id": "H00199",
+	"slug": "חדלה",
+	"headword": {
+		"text": "חֲדָלָה"
+	},
+	"page": {
+		"number": 426,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00198\">preced.</cite>) <i>omission, use of the root</i> <cite ref=\"H00198\"><he>חדל</he></cite>. ",
+			"units": ["<cite ref=\"Nedarim 22a:7\">Ned. 22ᵃ</cite>"]
+		}
+	]
+}

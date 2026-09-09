@@ -1,0 +1,22 @@
+{
+	"id": "D00991",
+	"slug": "דקדקא",
+	"headword": {
+		"text": "דַּקְדָּקָא"
+	},
+	"page": {
+		"number": 318,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00990\">preced.</cite>) <i>powder</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 34:7\">Targ. II Chr. XXXIV, 7</cite> (ed. Lag. <he>אדקדקא</he>, h. text <cite ref=\"E00144\"><he>הֵדק</he></cite>)."
+			]
+		}
+	]
+}

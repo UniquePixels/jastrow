@@ -1,0 +1,24 @@
+{
+	"id": "A01662",
+	"slug": "אך-2",
+	"headword": {
+		"text": "אַךְ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 62,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A02244\"><he>אָנַךְ</he></cite>2) <i>affliction, calamity</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 59b\">B. Mets. 59ᵇ</cite>; v. <cite ref=\"H00938\"><he>חֲכָךְ</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 32:11\">Gen. R. s. 32</cite>, end; Tanḥ. Noah 9, ed. Bub. 3, cmp. <cite ref=\"A01661\">preced.</cite>"
+			]
+		}
+	]
+}

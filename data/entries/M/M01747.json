@@ -1,0 +1,22 @@
+{
+	"id": "M01747",
+	"slug": "מנונא",
+	"headword": {
+		"text": "מַנּוֹנָא"
+	},
+	"page": {
+		"number": 798,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"M01700\"><he>מַנָּא</he></cite>; <cite ref=\"M01773\"><he>מְנֵי</he></cite>) <i>the ordinary daily food</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 8:3\">Targ. Y. II, Deut. VIII, 3</cite> (h. text <cite ref=\"L00363\"><he>לחם</he></cite>)."
+			]
+		}
+	]
+}

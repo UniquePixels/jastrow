@@ -1,0 +1,54 @@
+{
+	"id": "C01035",
+	"slug": "גמיר",
+	"headword": {
+		"text": "גְּמִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּמִירָא"
+		}
+	],
+	"page": {
+		"number": 253,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Part. pass. of <cite ref=\"C01065\"><he>גְּמַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (= h. <cite ref=\"K00733\"><he>כָּלִיל</he></cite>) <i>finished, perfect</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 16:14\">Targ. Ez. XVI, 14</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>holocaust, entirely burnt</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 6:16\">Targ. Lev. VI, 16</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (= h. <cite ref=\"K00692\"><he>כָּלָה</he></cite>) <cite ref=\"C01035\"><he>גְּמִירָא</he></cite> f. (with or without <he>כלייה</he>) <i>entire destruction, extermination</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 18:21\">Targ. Gen. XVIII, 21</cite> (Targ. Y. II, v. <cite ref=\"K00731\"><he>כְּלָיָיה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 5:18\">Targ. Jer. V, 18</cite>; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>concluded, decision</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 20:33\">Targ. I Sam. XX, 33</cite>; a. e.—V. also <cite ref=\"C01064\"><he>גְּמַר</he> II</cite>, III."
+			],
+			"label": "4"
+		}
+	]
+}

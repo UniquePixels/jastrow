@@ -1,0 +1,57 @@
+{
+	"id": "J00403",
+	"slug": "ים",
+	"headword": {
+		"text": "יָם"
+	},
+	"page": {
+		"number": 579,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>sea, lake, reservoir</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 54b:17\">Ber. 54ᵇ</cite> <he>יורדי הים</he> seafarers (on landing). ",
+				"<cite ref=\"Bava Batra 74b:12\">B. Bath. 74ᵇ</cite> <he>יַמָּהּ של טבריא</he> the Lake of Tiberias; <he>ים הגדול</he> the Mediterranean Ocean. ",
+				"<cite ref=\"Gittin 8a:10\">Gitt. 8ᵃ</cite> <he>ים אוקיינוס</he>; (<cite ref=\"Tosefta Terumot 2:14\">Tosef. Ter. II, 14</cite>; a. e. only <he>אוק׳</he>).—",
+				"<cite ref=\"Bekhorot 13b\">Bekh. 13ᵇ</cite>, a. fr. <he>ים המלח</he> the Dead Sea; a. fr.—Pl. <cite ref=\"J00410\"><he>יַמִּים</he></cite>, B. Bath. l. c.; a. fr.—Esp. "
+			],
+			"senses": [
+				{
+					"gloss": " <i>the cosmetic paint bottle</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 1:3:3\">Cant. R. to I, 3</cite>, v. <cite ref=\"G00471\"><he>זַכְרוּת</he></cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <he>יַם נפה</he> <i>the receiver of flour</i> at sifting or in the mill. ",
+					"units": [
+						"<cite ref=\"Mishnah Kelim 15:3\">Kel. XV, 3</cite>; (<cite ref=\"Tosefta Keilim Metsia 5:5\">Tosef. Kel. B. Mets. V, 5</cite> only <cite ref=\"N01036\"><he>נפה</he></cite>). ",
+						"<cite ref=\"Mishnah Zavim 4:2\">Zab. IV, 2</cite> (only <he>הים</he>).—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " <i>the receptacle in the wine</i> or <i>oil press, tank</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Batra 4:5\">B. Bath. IV, 5</cite>.—"
+					],
+					"label": "c"
+				},
+				{
+					"gloss": " <i>the water reservoir in the Solomonic Temple</i>. ",
+					"units": [
+						"<cite ref=\"Zevachim 62b:8\">Zeb. 62ᵇ</cite>; <cite ref=\"Yoma 58b:1\">Yoma 58ᵇ</cite>; a. e.—Fem. form: <cite ref=\"J00406\"><he>יַמָּה</he></cite>. ",
+						"<cite ref=\"Jerusalem Talmud Shekalim 5:1:10\">Y. Shek. V, 48ᵈ</cite> <he>לְיַמָּתִי</he> (I offer a sacrifice) for my <i>yammah</i>, <he>סברין מימר שופעת כים</he> they thought she meant that she had a hemorrhage (flowing like a sea), <he>אמר לון בימה סכנת</he> said he to us, she was in danger on sea; <cite ref=\"Menachot 64b:5\">Men. 64ᵇ</cite>, v. <cite ref=\"G00262\"><he>זִיבָה</he></cite>)."
+					],
+					"label": "d"
+				}
+			]
+		}
+	]
+}

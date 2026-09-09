@@ -1,0 +1,24 @@
+{
+	"id": "C00859",
+	"slug": "גלבין",
+	"headword": {
+		"text": "גַּלְבִּין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 243,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>גלב</he>) = <he>קַלְפִין</he>, <i>scales</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 17:5\">Targ. I Sam. XVII, 5</cite> <he>שריין ג׳</he> (Var. <cite ref=\"C00958\"><he>גלכין</he></cite>; h. text <he>קשקשים</he>). V., however, <cite ref=\"C00880\"><he>גִּלְדָּא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "A03058",
+	"slug": "ארזנאי",
+	"headword": {
+		"text": "אַרְזְנָאֵי"
+	},
+	"page": {
+		"number": 117,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <he>ארזוניא</he> P. Sm. 374, cmp. <he>פרשניא</he> Neub. Géogr. p. 396) <i>of Arzania</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 24b\">Taan. 24ᵇ</cite> <he>ארבי דא׳</he> Ar. (ed. <he>דחיטין דפרזינא</he>; Ms. M. <he>דפרזינאי</he>) ships of the Arzanians. Fem. *<he>אַרְזַנְיָיתָא</he>. ",
+				"<cite ref=\"Gittin 70a\">Git. 70ᵃ</cite> <he>חיטין א׳</he> Arzanian wheat (of a large size)."
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "G00286",
+	"slug": "זיהום",
+	"headword": {
+		"text": "זִיהוּם"
+	},
+	"page": {
+		"number": 391,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00102\"><he>זָהַם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the covering of plants with rancid oil,</i> or <i>tying up with manure</i> (v. <cite ref=\"G00102\"><he>זָהַם</he></cite>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 50b:7\">Ab. Zar. 50ᵇ</cite> <he>ז׳ אוקומי וכ׳</he> <i>ziham</i> is a means of preserving the tree, v. <cite ref=\"B01237\"><he>ברי</he></cite> I ch."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>offensive, turbid substance</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 65b:59\">Nidd. 65ᵇ</cite>, v. <cite ref=\"G00102\"><he>זָהַם</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>social disqualification, spot in the family record</i> (not subject to legal disqualification). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 10:5:2\">Y. Yeb. X, 11ᵃ</cite> <he>אין לה אלא משום ז׳ כהונה וכ׳</he> there is nothing against her except a social disqualification for priesthood, but the court cannot declare her &c., v. <cite ref=\"G00102\"><he>זָהַם</he></cite>; ib. XIII, 13ᵈ bot. <he>אין בה וכ׳</he>; <cite ref=\"Jerusalem Talmud Gittin 8:8:2\">Y. Gitt. VIII, 49ᶜ</cite> bot. <he>אין בה משום ייחוס כהונה</he> (corr. acc.)."
+			],
+			"label": "3"
+		}
+	]
+}

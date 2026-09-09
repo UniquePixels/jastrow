@@ -1,0 +1,32 @@
+{
+	"id": "A01956",
+	"slug": "אלתא",
+	"headword": {
+		"text": "אַלָּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲלָתָא"
+		},
+		{
+			"text": "אַלּוּתָא"
+		}
+	],
+	"page": {
+		"number": 73,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (= h. <cite ref=\"A01785\"><he>אַלָּה</he></cite>) <i>post, pole, door-post</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 24:26\">Targ. Josh. XXIV, 26</cite> (ed. Vien. I <cite ref=\"A01307\"><he>אילנא</he></cite>).—Pl. (of <he>אלותא</he>) <cite ref=\"A01808\"><he>אַלְוָותָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 6:4\">Targ. Is. VI, 4</cite> <cite ref=\"A01796\"><he>אַלְוַות</he></cite> (ed. Vien. <he>אֵילָוַות</he>.) <cite ref=\"Bava Batra 73a:8\">B. Bath. 73ᵃ</cite> <he>ומחינן ליה באלוותא</he> Rashi (ed., sing. <he>אלותא</he>) and we struck it with clubs; v., however, <cite ref=\"A01887\"><he>אִלִּיתָא</he></cite>. ",
+				"<cite ref=\"Beitzah 33b:6\">Bets. 33ᵇ</cite> <he>ויהיב לן א׳ א׳</he> and gave us each several branches (Rashi), v., however, <cite ref=\"A01828\"><he>אַלְוָתָא</he></cite>."
+			]
+		}
+	]
+}

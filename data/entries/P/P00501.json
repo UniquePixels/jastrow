@@ -1,0 +1,41 @@
+{
+	"id": "P00501",
+	"slug": "עיגל",
+	"headword": {
+		"text": "עֵיגַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִיגְלָא"
+		},
+		{
+			"text": "עִג׳"
+		},
+		{
+			"text": "עֶגְ׳"
+		}
+	],
+	"page": {
+		"number": 1067,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"P00091\"><he>עֵגֶל</he></cite>, <i>calf</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 9:2\">Targ. Lev. IX, 2</cite>, sq. (ed. Lsb. <cite ref=\"P00090\"><he>עֲגַל</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 32:24\">Targ. Ex. XXXII, 24</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 7:13:5\">Y. Snh. VII, end, 25ᵈ</cite> <he>נחת ואתעביד חד עגל</he> (the pebble) fell down and turned into a calf. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:7\">Y. Kil. IX, 32ᵇ</cite> <he>חמא חד עי׳ מנכס</he> saw a calf which was going to be slaughtered. ",
+				"<cite ref=\"Sanhedrin 65b:18\">Snh. 65ᵇ</cite>; <cite ref=\"Sanhedrin 67b:13\">67ᵇ</cite>, v. <cite ref=\"B01157\"><he>בְּרָא</he> I</cite>; a. fr.—[<cite ref=\"Jerusalem Talmud Shevuot 6:5:3\">Y. Shebu. VI, 37ᵇ</cite> top <he>חד עיגל</he>, read: <cite ref=\"P00497\"><he>עִיגּוּל</he></cite>.]—<he>עֵין ע׳</he>. <i>calf’s eye</i>, name of a jewel. ",
+				"<cite ref=\"Onkelos Exodus 28:19\">Targ. Ex. XXVIII, 19</cite>; <cite ref=\"Onkelos Exodus 39:12\">XXXIX, 12</cite> (h. text <he>אחלמה</he>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 2:18\">Targ. Y. Num. II, 18</cite> <he>עִינְעֵיגַל</he>.—Pl. <he>עִיגְלַיָּא</he>, <he>עִיגְלִין</he>, <cite ref=\"P00501\"><he>עֶגְ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 17:16\">Targ. II Kings XVII, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 12:32\">Targ. I Kings XII, 32</cite>; a. e.—[<cite ref=\"Targum Jonathan on Jeremiah 31:39\">Targ. Jer. XXXI, 39</cite> ed. Lag., v. <cite ref=\"P00094\"><he>עִגְלָא</he></cite>.]"
+			]
+		}
+	]
+}

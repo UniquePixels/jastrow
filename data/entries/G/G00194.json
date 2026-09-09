@@ -1,0 +1,27 @@
+{
+	"id": "G00194",
+	"slug": "זון-4",
+	"headword": {
+		"text": "זֶוֶן"
+	},
+	"altHeadwords": [
+		{
+			"text": "זוֹן"
+		}
+	],
+	"page": {
+		"number": 388,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"G00138\"><he>זָוָוא</he></cite> a. <cite ref=\"G00377\"><he>זַיִן</he></cite>) <i>girdle, laborer’s apron</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 26:3\">Kel. XXVI, 3</cite>. Cmp. <cite ref=\"G00207\"><he>זַוְנִיתָא</he></cite>.—[<he>זונים</he>, v. <cite ref=\"G00199\"><he>זוֹנִי</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"id": "V00067",
+	"slug": "תבע-1",
+	"headword": {
+		"text": "תָּבַע"
+	},
+	"page": {
+		"number": 1645,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"B01037\"><he>בְּעֵי</he> I</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to search</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 6\">Lev. R. s. 6</cite>, end <he>שאיבד … והלך לתוֹבְעוֹ וכ׳</he> who lost his son, and went in search of him among graves; (<cite ref=\"Yalkut Shimoni on Nach 281\">Yalk. Is. 281</cite> <he>לבקשו</he>). ",
+				"<cite ref=\"Yalkut Shimoni on Nach 281\">Ib.</cite> <he>דרכן של מתים לתוֹבְעָן בין החיים וכ׳</he> it is the way of the dead to search among the living &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to ask, claim, summon</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 5:2\">Keth. V, 2</cite> <he>נותנין … משתְּבָעָהּ הבעל וכ׳</he> to a maiden we allow twelve months from the time that her intended husband claims her, to prepare her outfit. ",
+				"<cite ref=\"Niddah 66a:63\">Nidd. 66ᵃ</cite> <he>תְּבָעוּהָ לינשא וכ׳</he> when they ask her to make ready for the wedding, and she is satisfied (to do so at once); <cite ref=\"Yevamot 37b:8\">Yeb. 37ᵇ</cite>. ",
+				"<cite ref=\"Ketubot 64a:4\">Keth. 64ᵃ</cite> <he>תָּבְעָה היא</he> if she demands her marital rights. ",
+				"<cite ref=\"Eruvin 100b\">Erub. 100ᵇ</cite> <he>האשה תוֹבַעַת … תּוֹבֵע וכ׳</he> the woman asks for gratification in her heart, and the man with his mouth. ",
+				"<cite ref=\"Shevuot 40b:18\">Shebu. 40ᵇ</cite> <he>חזקה אין אדם תובע אלא וכ׳</he> the legal presumption is that nobody will sue a neighbor, unless he has some claim against him. Pesik. Baḥod., p. 104ᵃ, sq. <he>אני תובע בה</he> I shall propose marriage to her, v. <cite ref=\"A01877\"><he>אֲלִיקִי</he></cite>. ",
+				"<cite ref=\"Sifrei Devarim 16:5\">Sifré Deut. 16</cite> (ref. to <cite ref=\"Deuteronomy 1:16\">Deut. I, 16</cite>) <he>צדיק בצדקו תובע ומביא ראיות</he> the righteous in his righteousness claims and offers evidence, i.e. the judge must not be guided by his moral conviction or by the reputation of the claimant, but by evidence only. ",
+				"<cite ref=\"Midrash Tehillim 7:12\">Midr. Till. to Ps. VII</cite> <he>כל התועב את עצמו וכ׳</he> (prob. to be read: <he>התובע את עלבונו</he>) he who asks (God) to resent the insult offered to him will not be punished for it; a. fr.—[Tanḥ. ed. Bub. Balak 18 <he>תובען</he>; <cite ref=\"Yalkut Shimoni on Torah 766\">Yalk. Num. 766</cite> <he>תובעין</he>, v. <cite ref=\"I00078\"><he>טָבַע</he> II</cite>.]—Part. pass. <cite ref=\"V00039\"><he>תָּבוּעַ</he></cite>; f. <cite ref=\"V00967\"><he>תְּבוּעָה</he></cite>. ",
+				"<cite ref=\"Ketubot 57b:7\">Keth. 57ᵇ</cite> <he>בגרה הרי היא כת׳</he> if she is of age, she is considered as having been asked to prepare for the wedding; <he>כת׳ דבתולה</he> as the maiden that has been asked (to whom twelve months are allowed); <he>כת׳ דאלמנה</he> as the widow that has been asked (to whom one month only is allowed)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְבַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to be asked, appealed to; to consent, submit</i>. Y. Shek. I, 45ᵈ bot. <he>נִתְבָּעִין לעגל ונותנין נתבעין וכ׳</he> they are appealed to for the golden calf, and they contribute; for the sanctuary, and they contribute. ",
+					"units": [
+						"<cite ref=\"Sotah 11b\">Sot. 11ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Torah 164\">Yalk. Ex. 164</cite> <he>תבען … ולא נִתְבָּעוֹת</he> he proposed to them a sinful act, and they refused. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 286:9\">Ib. 286</cite> <he>נִתְבְּעוּ … בתורה וכ׳</he> the nations of the world were asked to receive the Law, in order not to give them an excuse for saying, <he>אילו נִתְבַּעְנוּ וכ׳</he> had we been asked, we might have accepted it &c.; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

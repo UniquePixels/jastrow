@@ -1,0 +1,36 @@
+{
+	"id": "M02986",
+	"slug": "משש-3",
+	"headword": {
+		"text": "מְשַׁשׁ",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מְשָׁשָׁא"
+		},
+		{
+			"text": "מַשָּׁ׳"
+		}
+	],
+	"page": {
+		"number": 858,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M02985\">preced.</cite>) <i>substance, essence</i>; <i>reality</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 2:14\">Targ. Lam. II, 14</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 15:3\">Targ. Job XV, 3</cite>; a. e.—",
+				"<cite ref=\"Avodah Zarah 55a:4\">Ab. Zar. 55ᵃ</cite> <he>דע״ז לית בה מ׳</he> that there is no reality in idols. ",
+				"<cite ref=\"Pesachim 4b:2\">Pes. 4ᵇ</cite> <he>אטו אמירה דהני מידי מ׳ אית ביה</he> has their declaration any significance?—",
+				"<cite ref=\"Yevamot 102b:15\">Yeb. 102ᵇ</cite>, v. <cite ref=\"H01110\"><he>חֲלַץ</he></cite>. ",
+				"<cite ref=\"Shabbat 152b:11\">Sabb. 152ᵇ</cite> bot., v. <cite ref=\"M01685\"><he>מַמָּשָׁא</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 33:1\">Yalk. Gen. 33</cite> <he>מַשָּׁשָׁה</he>."
+			]
+		}
+	]
+}

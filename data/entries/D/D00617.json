@@ -1,0 +1,32 @@
+{
+	"id": "D00617",
+	"slug": "דימוס-1",
+	"headword": {
+		"text": "דִּימוֹס",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "דּוֹמוֹס"
+		}
+	],
+	"page": {
+		"number": 300,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (δόμος, v. LXX, I <cite ref=\"Ezra 6:24\">Ezra VI, 24</cite>) <i>a row</i> or <i>layer</i> of stones, bricks &c. in a wall. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 1:3:2\">Y. Erub. I, 19ᵃ</cite> top <he>דו׳ של ארחין</he> a row of bond timber, v. <cite ref=\"A03092\"><he>אָרִיחַ</he></cite>. ",
+				"<cite ref=\"Shabbat 102b:5\">Sabb. 102ᵇ</cite> <he>ד׳ של אבנים</he> a row of stones in a wall; <cite ref=\"Tosefta Shabbat 11:1\">Tosef. ib. XI</cite> (<cite ref=\"Tosefta Shabbat 12:1\">XII</cite>), 1. ",
+				"<cite ref=\"Bava Metzia 118b:9\">B. Mets. 118ᵇ</cite> <he>הניח … על הד׳</he> placed a stone in its position. ",
+				"<cite ref=\"Sotah 44a:8\">Sot. 44ᵃ</cite> if in rebuilding his house <he>הוסיף בו ד׳ אחד</he> he made it one layer higher; a. fr.—<i>Pl.</i> <cite ref=\"D00622\"><he>דִּימוֹסִים</he></cite>, <cite ref=\"D00622\"><he>דִּימוֹסִין</he></cite>. [<cite ref=\"Shemot Rabbah 50\">Ex. R. s. 50</cite>, read with <cite ref=\"Bereishit Rabbah 3:8\">Gen. R. s. 3</cite> <he>תִּימַלְיוֹסִים</he>.] <cite ref=\"Bamidbar Rabbah 7\">Num. R. s. 7</cite>, beg. <he>דמוסין</he> (corr. acc.). [<he>דִּימוֹסִין</he> <i>baths</i>, v. <cite ref=\"D00620\"><he>דִּימוֹסְיָא</he></cite>.] Chald. form <cite ref=\"D00619\"><he>דִּימוֹסָא</he></cite>, pl. <cite ref=\"D00619\"><he>דִּימוֹסַיָּא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:16\">Y. Ber. II, 5ᵃ</cite> bot. <he>מנית ד׳</he> I counted the layers (during prayer)."
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "U01759",
+	"slug": "שפיר-3",
+	"headword": {
+		"text": "שַׁפִּיר"
+	},
+	"page": {
+		"number": 1616,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01799\"><he>שְׁפַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>handsome, pleasing; good; cheerful</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 16:12\">Targ. I Sam. XVI, 12</cite>. ",
+				"<cite ref=\"Onkelos Genesis 47:6\">Targ. O. Gen. XLVII, 6</cite>, (v. <cite ref=\"U01800\"><he>שֶׁפֶר</he></cite> ch.); a. fr.—",
+				"<cite ref=\"Midrash Tehillim 16:5\">Midr. Till. to Ps. XVI, 6</cite> (in Hebr. dict.) <he>על … נעשה לי ש׳</he> because I was content with my portion, it became beautiful to me; <cite ref=\"Yalkut Shimoni on Nach 667:3\">Yalk. ib. 667</cite> (corr. acc.).—",
+				"<cite ref=\"Kiddushin 31b:7\">Kidd. 31ᵇ</cite> <he>בעינא גברא דש׳ כותך</he> I want a man as handsome as thou art; a. fr.—Pl. <he>שַׁפִּירִין</he>, <cite ref=\"U01762\"><he>שַׁפִּירַיָּא</he></cite>, <cite ref=\"U00405\"><he>שַׁפִּירֵי</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 8:12\">Targ. Deut. VIII, 12</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 7:10\">Targ. II Chr. VII, 10</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 84a:9\">B. Mets. 84ᵃ</cite> <he>אנא</he> … <he>מש׳ ירושלם</he> I am one of the survivors of the handsome men of Jerusalem. ",
+				"<cite ref=\"Bava Metzia 84a:9\">Ib.</cite> <he>בני ש׳ כוותי</he> children as good-looking as I am; a. fr.—<i>Fem.</i> <he>שׁפִּירָא</he>, <cite ref=\"U01762\"><he>שַׁפִּירְתָּא</he></cite>, <he>שַׁפִּרְ׳</he>. ",
+				"<cite ref=\"Onkelos Genesis 12:14\">Targ. Gen. XII, 14</cite>. ",
+				"<cite ref=\"Onkelos Genesis 12:11\">Ib. 11</cite>. ",
+				"<cite ref=\"Onkelos Numbers 12:1\">Targ. O. Num. XII, 1</cite>; a. fr.—B. Mets. l. c. <he>דש׳ מינאי</he> who is handsomer than I am; a. e.—Pl. <he>שַׁפִּירָן</he>, <cite ref=\"U01762\"><he>שַׁפִּירָתָא</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 6:2\">Targ. Gen. VI, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 6:1\">Targ. Y. ib. 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 42:15\">Targ. Job XLII, 15</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (adv.) <i>right, well</i>. B. Mets. l. c. <he>אטו … דש׳ קאמינא</he> do I not know that what I say is right? <cite ref=\"Yoma 29b:5\">Yoma 29ᵇ</cite> <he>מאן קא מותיב ש׳ קא מותיב</he> he who asked that question has asked well. ",
+			"units": [
+				"<cite ref=\"Yevamot 94b:6\">Yeb. 94ᵇ</cite> <he>והאי ש׳ נסיב</he> and he married rightly (legally); <he>והא ש׳ נסיב</he> and he married this one lawfully; a. fr.—<he>ש׳ דמי</he>, v. <cite ref=\"D00892\"><he>דְּמֵי</he> I</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

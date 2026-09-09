@@ -1,0 +1,30 @@
+{
+	"id": "M02196",
+	"slug": "מפוח",
+	"headword": {
+		"text": "מַפּוּחַ"
+	},
+	"page": {
+		"number": 820,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"M02195\"><he>מַפֻּהַ</he></cite>; <cite ref=\"N01025\"><he>נָפַח</he></cite>)<i>mechanic’s bellows</i>, contrad. to <cite ref=\"U01724\"><he>שפופרת</he></cite> blowing tube. ",
+			"units": [
+				"<cite ref=\"Tosefta Beitsah 3:15\">Tosef. Bets. III, 15</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>smithy</i>. Tanḥ. Vayesheb 1, v. <cite ref=\"N00751\"><he>נִיצוֹץ</he></cite>—",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 84:5\">Gen. R. s. 84</cite> <he>לנפח שהיה פתוח</he>, read: <he>מַפּוּחוֹ</he>, v. <cite ref=\"N01028\"><he>נַפָּח</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

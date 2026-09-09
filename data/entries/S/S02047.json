@@ -1,0 +1,23 @@
+{
+	"id": "S02047",
+	"slug": "קריחה",
+	"headword": {
+		"text": "קְרִיחָה"
+	},
+	"page": {
+		"number": 1420,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01968\"><he>קָרַח</he></cite>) <i>making bald, baldness</i>. Sifra Emor Par. 1, ch. I, v. <cite ref=\"S01977\"><he>קָרְחָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 20:5:2\">Y. Sabb. XX, end, 17ᵈ</cite>, v. <cite ref=\"S01969\"><he>קְרַח</he> I</cite>.—Pl. <he>קְרִיחוֹת</he>. ",
+				"<cite ref=\"Makkot 20a:15\">Macc. 20ᵃ</cite>, v. <cite ref=\"S01968\"><he>קָרַח</he></cite>."
+			]
+		}
+	]
+}

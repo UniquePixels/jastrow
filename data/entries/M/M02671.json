@@ -1,0 +1,41 @@
+{
+	"id": "M02671",
+	"slug": "מרים",
+	"headword": {
+		"text": "מִרְיָם"
+	},
+	"page": {
+		"number": 843,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. f. <i>Miriam</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " sister of Moses. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 1:9\">Sot. I, 9</cite> (<cite ref=\"Sotah 9b:8\">9ᵇ</cite>).). ",
+				"<cite ref=\"Shemot Rabbah 1:25\">Ex. R. s. 1</cite>; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of several persons. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite>, v. <cite ref=\"B00758\"><he>בַּיְתוֹס</he></cite>.—",
+				"<cite ref=\"Eichah Rabbah 1:57\">Ib.</cite>; <cite ref=\"Pesikta Rabbati 29:1\">Pesik. R. s. 29-30</cite>-30 (ed. Fr. p. 140ᵃ) M., daughter of Naḳdimon.—Lam. R. l. c. M., daughter of Naḥtom; <cite ref=\"Yalkut Shimoni on Torah 938\">Yalk. Deut. 938</cite> (of Tanḥum).—M. the hair-dresser; M. the children’s nurse, v. <cite ref=\"C00224\"><he>גְּדַל</he> I</cite>, II.—M. a member of the priestly family of Bilgah. ",
+				"<cite ref=\"Tosefta Sukkah 4:28\">Tosef. Succ. IV, 28</cite>; <cite ref=\"Sukkah 56b:7\">Succ. 56ᵇ</cite>; Y. ib. V, end, 55ᵈ; a. others."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>Imma Miriam</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 87a:10\">Keth. 87ᵃ</cite>; <cite ref=\"Ketubot 88b:9\">88ᵇ</cite>.—[<cite ref=\"Ruth Rabbah 4:6\">Ruth R. to II, 5</cite>, v. <cite ref=\"M02589\"><he>מֵרוֹם</he></cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

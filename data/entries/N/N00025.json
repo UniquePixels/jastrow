@@ -1,0 +1,49 @@
+{
+	"id": "N00025",
+	"slug": "נאף-1",
+	"headword": {
+		"text": "נָאַף"
+	},
+	"page": {
+		"number": 866,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be unchaste, voluptuous</i>, esp. <i>to have illicit intercourse; to commit adultery</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 23:12\">Lev. R. s. 23</cite> (ref. to <cite ref=\"Job 24:15\">Job XXIV, 15</cite>) [read:] <he>שלא תאמר שכל מי שהוא נוֹאֵף בגופו נקרא נוֹאֵף אפי׳ נוֹאֵף בעיניו נקרא נוֹאֵף</he> do not say, he only who is unchaste with his body is called a <i>noëf</i>, but even he who is unchaste with his eye &c.; <cite ref=\"Pesikta Rabbati 24\">Pesik. R. s. 24</cite> (corr. acc.); a. fr.—Esp. <he>נוֹאֵף</he> <i>adulterer, paramour</i>; f. <he>נוֹאֶפֶת</he> <i>adulteress</i>. ",
+				"<cite ref=\"Pesikta Rabbati 24\">Ib.</cite> ",
+				"<cite ref=\"Bamidbar Rabbah 9:24\">Num. R. s. 9</cite>; Tanḥ. Naso 4; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיאֵף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00024\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Pesachim 113b:10\">Pes. 113ᵇ</cite> <he>זקן מְנָאֵף</he> a lewd old man. ",
+						"<cite ref=\"Niddah 13b:17\">Nidd. 13ᵇ</cite> <he>המְנָאֲפִים ביד</he> who commit masturbation. ",
+						"<cite ref=\"Shemot Rabbah 31\">Ex. R. s. 31</cite>, end, a. e. (prov.) <he>מְנָאֶפֶת בתפוחים וכ׳</he> she prostitutes herself for apples and distributes them among the sick, v. <cite ref=\"C00456\"><he>גּוּף</he></cite> I ch.—",
+						"<cite ref=\"Mishnah Sotah 9:9\">Sot. IX, 9</cite> <he>משרבו המְנָאֲפִים וכ׳</he> when the lewd men became numerous, the proceedings against the faithless woman (<cite ref=\"O00286\"><he>סוֹטָה</he></cite>) were abolished. ",
+						"<cite ref=\"Shevuot 47b\">Shebu. 47ᵇ</cite> <he>עוקב אחר מנאף</he> Ms. M. a. Rashi (ed. <he>נואף</he>) he who follows up the voluptuous (to procure prostitutes for him); a. fr.—(<cite ref=\"Chullin 63a\">Ḥull. 63ᵃ</cite>, v. <cite ref=\"A02265\"><he>אָנַף</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִנְאִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to cause illicit intercourse; to bawd</i>. Shebu. l. c. <he>ת״ל לא תנאף לא תַנְאִיף</he> (Ms. M. only <he>לא תנאף</he>) it says (<cite ref=\"Exodus 20:14\">Ex. XX, 14</cite>) ‘thou shalt not be lewd’, (which implies) thou shalt not assist lewdness.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

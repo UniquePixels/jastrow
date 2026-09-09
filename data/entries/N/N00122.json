@@ -1,0 +1,28 @@
+{
+	"id": "N00122",
+	"slug": "נגדא-3",
+	"headword": {
+		"text": "נִגְדָּא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נִי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 872,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"N00118\"><he>נְגַד</he></cite>; cmp. <cite ref=\"M02893\"><he>מִשְׁכָא</he></cite>) <i>leather-strap, lash</i>; trnsf. <i>lashing, punishment</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 23a:10\">Yoma 23ᵃ</cite> <he>פקיע נ׳</he> (Ms. M. <cite ref=\"M00327\"><he>מַדְרָא</he></cite>) <i>p’ḳi‘a</i> (<cite ref=\"Mishnah Shekalim 5:1\">Shek. V, 1</cite>) means lashing. ",
+				"<cite ref=\"Pesachim 52a\">Pes. 52ᵃ</cite> <he>ממנין אני׳ וכ׳</he> (not <he>ממינן</he>; Rashi a. Ms. O. <he>אנוּ׳</he>; Ms. M. <he>ממנו אנַגּוּדָא</he>) a vote must be taken on the lashing of a scholar; <cite ref=\"Pesachim 52a:3\">ib.</cite> <he>אנַגַּדְתָּא</he>. ",
+				"<cite ref=\"Shevuot 41a:8\">Shebu. 41ᵃ</cite> <he>עד דמטי זמן נִגְדֵּיה</he> until the time comes when he is to be lashed (for not heeding the excommunication)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "N00020",
+	"slug": "נאלא-1",
+	"headword": {
+		"text": "נָאלָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 866,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אלי</he> II, v. P. Sm. 2260) <i>lamenting, howling</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 59b:24\">Snh. 59ᵇ</cite> <he>יארוד נ׳</he> (Rashi <he>ירוד נאלה</he>; <cite ref=\"Yalkut Shimoni on Torah 15:1\">Yalk. Gen. 15</cite> <he>תנין שוטה</he>), v. <cite ref=\"J00606\"><he>יָרוֹדָא</he></cite>."
+			]
+		}
+	]
+}

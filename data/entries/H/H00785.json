@@ -1,0 +1,43 @@
+{
+	"id": "H00785",
+	"slug": "חילפי",
+	"headword": {
+		"text": "חִילְפַי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִילְפַיי"
+		},
+		{
+			"text": "חִלְפַי"
+		}
+	],
+	"page": {
+		"number": 457,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḥilfay</i> (Graecised Ἀλφαῖος, P. Sm. 1292), ",
+			"units": []
+		},
+		{
+			"gloss": " an Amora (in Babli <cite ref=\"A01310\"><he>אִילְפָא</he></cite>, <cite ref=\"A01312\"><he>אִילְפַי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 2:3:4\">Y. Maasr. II, 49ᵈ</cite> bot. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 6:7:3\">Y. Keth. VI, end, 31ᵃ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " Ḥ., grandson of R. Abbahu. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bikkurim 2:1:9\">Y. Bicc. II, 64ᵈ</cite> top."
+			],
+			"label": "2"
+		}
+	]
+}

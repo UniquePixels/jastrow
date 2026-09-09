@@ -1,0 +1,32 @@
+{
+	"id": "S02258",
+	"slug": "קשקש-3",
+	"headword": {
+		"text": "קִשְׁקֵשׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1432,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"S02267\"><he>קָשַׁשׁ</he> II</cite>) <i>to straighten, shoot forth</i>. Tosef. Erub. IX (VI), 26, v. <cite ref=\"S02229\"><he>קָשַׁט</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְקַשְׁקֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to become stiff, hard, be erected</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 47a:53\">Nidd. 47ᵃ</cite> <he>משׁיִתְקַשְׁקְשׁוּ הדדין</he> when the breasts become stiff; (Tosef. ib. VI, 4 <he>משׁיִתְקַשּׁוּ</he>; Var. <he>משיתקשקשו</he>)."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "D00922",
+	"slug": "דנבא",
+	"headword": {
+		"text": "דַּנְבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דּוּנְבָא"
+		}
+	],
+	"page": {
+		"number": 315,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= h. <cite ref=\"G00561\"><he>זָנָב</he></cite>) <i>tail</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 15:4\">Targ. Jud. XV, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 40:17\">Targ. Job XL, 17</cite>, v. <cite ref=\"C01101\"><he>גְּנוּבְתָּא</he> I</cite>. ",
+				"<cite ref=\"Onkelos Exodus 4:4\">Targ. O. Ex. IV, 4</cite> ed. Berl. (ed. <cite ref=\"G00381\"><he>זַנ׳</he></cite>); a. e.—Pl. <he>דַּנְבַיָּא</he>, <he>דּנְבֵי</he>. Targ. Jud. l. c. ",
+				"<cite ref=\"Targum Jonathan on Genesis 37:2\">Targ. Y. Gen. XXXVII, 2</cite>; a. e.—",
+				"<cite ref=\"Sanhedrin 37a:9\">Snh. 37ᵃ</cite> <he>בדנבי</he> (Ms. M. <cite ref=\"B00565\"><he>בז׳</he></cite>) among the last (in the front row)."
+			]
+		}
+	]
+}

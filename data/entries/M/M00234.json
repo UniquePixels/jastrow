@@ -1,0 +1,22 @@
+{
+	"id": "M00234",
+	"slug": "מדאתא",
+	"headword": {
+		"text": "מַדָּאתָא"
+	},
+	"page": {
+		"number": 731,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. P. Sm. 2011) = <cite ref=\"M01712\"><he>מִנְדָּה</he></cite>, <i>tribute, tax, fine</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 12:24\">Targ. Prov. XII, 24</cite> <he>למ׳</he> Ar. s. v. <cite ref=\"K01089\"><he>כרגא</he></cite> (ed. <he>למִסָּא</he>)."
+			]
+		}
+	]
+}

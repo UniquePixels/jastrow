@@ -1,0 +1,23 @@
+{
+	"id": "L00081",
+	"slug": "לבישה",
+	"headword": {
+		"text": "לְבִישָׁה"
+	},
+	"page": {
+		"number": 689,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"L00118\"><he>לָבַשׁ</he></cite>) <i>putting on, dressing</i>, opp. <cite ref=\"Q02073\"><he>פשיטה</he></cite> undressing. ",
+			"units": [
+				"<cite ref=\"Yoma 32a:9\">Yoma 32ᵃ</cite> <he>מה ל׳ טעון וכ׳</he> as well as dressing (the priest’s putting on his priestly garments) requires sanctification (washing), so does &c.; Y. ib. III, 40ᶜ <he>מה ל׳ מקדש וכ׳</he> as well as he must sanctify himself for dressing &c. ",
+				"<cite ref=\"Vayikra Rabbah 22:10\">Lev. R. s. 22</cite> <he>לְבִישַׁת כלאים התרתי וכ׳</he> (I forbade thee) to wear clothes of mixed material, as an offset I permitted thee &c."
+			]
+		}
+	]
+}

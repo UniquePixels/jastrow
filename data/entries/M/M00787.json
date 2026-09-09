@@ -1,0 +1,23 @@
+{
+	"id": "M00787",
+	"slug": "מזרק-1",
+	"headword": {
+		"text": "מִזְרָק"
+	},
+	"page": {
+		"number": 756,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00734\"><he>זָרַק</he></cite>)<i>the bowl</i> out of which the sprinkling is done. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 4:3\">Yoma IV, 3</cite> <he>קבל במ׳ וכ׳</he> received the blood in the bowl. ",
+				"<cite ref=\"Bamidbar Rabbah 13:20\">Num. R. s. 13</cite> <he>מ׳ כנגד היבשה</he> the bowl is typical of the dry land; a. v. fr."
+			]
+		}
+	]
+}

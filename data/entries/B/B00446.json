@@ -1,0 +1,29 @@
+{
+	"id": "B00446",
+	"slug": "בזיזי-1",
+	"headword": {
+		"text": "בְּזִיזִי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּזְבְּזֵי"
+		}
+	],
+	"page": {
+		"number": 153,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <he>בזבז</he>) prob. <i>distributors</i>, hence = <cite ref=\"B00452\"><he>בָּזִיכָא</he></cite> (cmp. <cite ref=\"A02849\"><he>אַפְתְּקָא</he></cite>) <i>vessels, dishes</i> with handles. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 25:29\">Targ. Y. Ex. XXV, 29</cite> <he>בְּזִיזוֹי</he> Ar., <cite ref=\"B00414\"><he>בִּזְבְּזוֹי</he></cite> Mus. (ed. <he>בְּזִיכוֹי</he>)."
+			]
+		}
+	]
+}

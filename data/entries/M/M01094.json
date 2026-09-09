@@ -1,0 +1,49 @@
+{
+	"id": "M01094",
+	"slug": "מידי",
+	"headword": {
+		"text": "מִידֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִידֵּי"
+		}
+	],
+	"page": {
+		"number": 771,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. of <he>יֵי</he>, <cite ref=\"D00002\"><he>דְּ־</he></cite> a. <cite ref=\"M01696\"><he>מַן</he></cite> or <cite ref=\"M00023\"><he>מַאי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>whatever it may be</i>,] <i>something, anything</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 6:6\">Targ. Job VI, 6</cite> (sec. vers.). Targ. II Esth. I, 9.—",
+				"<cite ref=\"Gittin 56b:5\">Gitt. 56ᵇ</cite> <he>בעי מינאי מ׳ וכ׳</he> ask something of me that I may grant thee. ",
+				"<cite ref=\"Horayot 13b:14-15\">Hor. 13ᵇ</cite>. <he>דילמא … איכא בי מדרשא מ׳</he> (Ms. M. <he>מילתא</he>) is perhaps something (a conspiracy against me) going on at college? <cite ref=\"Sanhedrin 38a:2\">Snh. 38ᵃ</cite> <he>ולא הוו קאמרי ולא מ׳</he> and they did not speak at all. ",
+				"<cite ref=\"Gittin 14a:10\">Gitt. 14ᵃ</cite> <he>ולא פש גביה ולא מ׳</he> there was no surplus whatever in his account. ",
+				"<cite ref=\"Shabbat 62b:9\">Sabb. 62ᵇ</cite> <he>ולא אמר ליה ולא מ׳</he> and he said nothing to him (did not object). ",
+				"<cite ref=\"Shabbat 62b:9\">Ib.</cite> <he>כל מ׳ דאית ביה וכ׳</he> whatever is connected with enjoyment. ",
+				"<cite ref=\"Eruvin 103b:7\">Erub. 103ᵇ</cite> <he>ותו לא מ׳</he> and there is nothing more to be said against it; a. v. fr.—",
+				"<cite ref=\"Bereishit Rabbah 91:6\">Gen. R. s. 91</cite> <he>אי … טעין לן במדוי דמכסא</he> (ed. Wil. <he>במדיו</he>; read: <he>במידי</he>) if we find that he argues with us about an affair of custom; <cite ref=\"Yalkut Shimoni on Torah 148:7\">Yalk. ib. 148</cite> <he>במדוי במכסא</he> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"M01072\"><he>מִי</he></cite> a. <cite ref=\"K00703\"><he>כְּלוּם</he></cite>) [<i>is there?</i>] <i>will he, will it? is it?</i> &c. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 53b:5\">Ab. Zar. 53ᵇ</cite> <he>מ׳ … מיהדר הדור</he> will the war of Joshua come up again?; a. fr.—",
+				"<cite ref=\"Shevuot 20b:9\">Shebu. 20ᵇ</cite>, a. fr. <he>מ׳ איריא</he> is this an argument?, v. <cite ref=\"A03082\"><he>אִרְיָא</he></cite>.—<he>מ׳ דהוה אַ־</he> something which can be placed by the side of, <i>because it is analogous to</i>. ",
+				"<cite ref=\"Niddah 3a:30\">Nidd. 3ᵃ</cite> <he>מ׳ דהוה אהרגשת וכ׳</he> because it is like the sensation of &c. ",
+				"<cite ref=\"Chullin 19a:15\">Ḥull. 19ᵃ</cite>; a. fr.—[Not to be confounded with <cite ref=\"M01094\"><he>מִידֵי</he></cite> <i>out of the power of</i>, v. <cite ref=\"J00093\"><he>יָד</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

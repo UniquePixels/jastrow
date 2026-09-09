@@ -1,0 +1,24 @@
+{
+	"id": "A02093",
+	"slug": "אנבטי-2",
+	"headword": {
+		"text": "אַנְבְּטֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 80,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"A02092\">preced.</cite>) <i>platforms or elevations erected for public spectacles</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 1058\">Yalk. Esth. 1058</cite> all the people shall go out <he>להדין א׳</he> (read <he>להנהו א׳</he>; <cite ref=\"Vayikra Rabbah 28\">Lev. R. s. 28</cite>, end <he>להון פרטי</he>, corr. acc.) to the spectacular elevations, for a Jew (Mordecai) is to be hanged. V. <cite ref=\"A01971\"><he>אמבוניא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "V00834",
+	"slug": "תפלות",
+	"headword": {
+		"text": "תִּפְלוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּי׳"
+		}
+	],
+	"page": {
+		"number": 1687,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00825\"><he>תָּפַל</he></cite>; v. <cite ref=\"V00830\"><he>תִּפְלָה</he></cite>) <i>frivolity, trivialness; obscenity</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:8\">Y. Taan. IV, 68ᵈ</cite> top, v. <cite ref=\"B00784\"><he>בְּכִיָּה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:1:4\">Y. Snh. II, 20ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Moed Katan 3:8:3\">Y. M. Kat. III, 83ᵈ</cite> top <he>קרע של ת׳</he> a wanton rent in a garment (without any religious significance); Bab. ",
+				"<cite ref=\"Moed Katan 22b:15\">M. Kat. 22ᵇ</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4<sup>20</sup></cite> <he>כל העם … ובנו עונה דברים של ת׳</he> all the people said Halleluiah after the reader, and his son spoke some frivolous words. ",
+				"<cite ref=\"Bamidbar Rabbah 4:20\">Ib.</cite> s. 10<sup>3</sup> <he>עובדי … בדברי ת׳</he> when the gentiles eat and drink, they engage in indecent talk. ",
+				"<cite ref=\"Ruth Rabbah 2:20\">Ruth R. to I, 14</cite>; <cite ref=\"Shemot Rabbah 5:10\">Ex. R. s. 5</cite>, a. e. <he>כל נשיקות של ת׳ הן וכ׳</he> all kissing is of a frivolous nature, except the kiss of homage &c., v. <cite ref=\"N01317\"><he>נְשִׁיקָה</he></cite>. ",
+				"<cite ref=\"Mishnah Sotah 3:4\">Sot. III, 4</cite> <he>כל המלמד … מלמדה ת׳</he> he who teaches his daughter the Law, is like teaching her obscenity (because the laws concerning sexual aberrations may excite her sensuality). ",
+				"<cite ref=\"Mishnah Sotah 3:4\">Ib.</cite> <he>רוצה אשה בקב ות׳ וכ׳</he> a woman prefers a Kab (scanty living) connected with license, to nine Kabs with the restrictions of chastity; <cite ref=\"Ketubot 62b\">Keth. 62ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

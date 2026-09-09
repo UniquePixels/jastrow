@@ -1,0 +1,23 @@
+{
+	"id": "O00289",
+	"slug": "סוטר",
+	"headword": {
+		"text": "סוּטַר",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 963,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Suṭar</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:18\">Y. Ber. I, 2ᶜ</cite> top (for which <cite ref=\"Yalkut Shimoni on Nach 340\">Yalk. Ez. 340</cite>: <cite ref=\"O00763\"><he>סִיסַרְטַאי</he></cite>)."
+			]
+		}
+	]
+}

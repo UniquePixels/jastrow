@@ -1,0 +1,36 @@
+{
+	"id": "L00105",
+	"slug": "לבנה-3",
+	"headword": {
+		"text": "לְבָנָה"
+	},
+	"page": {
+		"number": 691,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": " fem. of <cite ref=\"L00099\"><he>לָבָן</he></cite> q. v.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>moon</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 59b:1\">Ber. 59ᵇ</cite>. ",
+				"<cite ref=\"Eruvin 56a:11\">Erub. 56ᵃ</cite> <he>והוא דאתיליד ל׳ או בל׳ וכ׳</he> provided the new moon sets in either at the moon-hour (the second hour of the night of the first day of the week and every eighth hour suceeding) or under the planet <i>Tsedek</i> (Jupiter). ",
+				"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite>, a. fr. <he>מונים לל׳</he>, v. <cite ref=\"M01726\"><he>מָנָה</he> II</cite>. ",
+				"<cite ref=\"Pesikta Rabbati 15:1\">Ib.</cite> <he>מולד הל׳</he>, v. <cite ref=\"M00491\"><he>מוֹלָד</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 33:7\">Gen. R. s. 33</cite>, end <he>ימות הל׳</he>, v. <cite ref=\"J00194\"><he>יוֹם</he></cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "V00248",
+	"slug": "תוסקפא",
+	"headword": {
+		"text": "תּוּסְקָפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוּסְקַפְתָּא"
+		}
+	],
+	"page": {
+		"number": 1655,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סְקַף</he> I; cmp. <cite ref=\"P00804\"><he>עֲלִילָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>what is brought about, disposition, destiny</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 10:15\">Targ. II Chr. X, 15</cite> (h. text <he>נסבה</he>). ",
+				"<cite ref=\"Targum of II Chronicles 22:7\">Ib. XXII, 7</cite> <he>תּוּסְקְפַת</he> constr. (h. text <he>תבוסת</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cause, pretext, occasion</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 14:4\">Targ. Jud. XIV, 4</cite> (h. text <cite ref=\"V00027\"><he>תאנה</he></cite>).—Pl. <cite ref=\"V00248\"><he>תּוּסְקְפָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 37:12\">Targ. Job XXXVII, 12</cite> (ed. Wil. <cite ref=\"V00248\"><he>תּוּסְקַפְתָּא</he></cite> <i>sing.</i>; h. text <he>מסבות</he>).—V. <cite ref=\"V00769\"><he>תַּסְקוֹפָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "M00723",
+	"slug": "מזדרע",
+	"headword": {
+		"text": "מִזְדְּרַע"
+	},
+	"page": {
+		"number": 753,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00723\"><he>זְרַע</he></cite>) <i>seed</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 4:3\">Targ. Y. Gen. IV, 3</cite>, v. <cite ref=\"D01117\"><he>דְּרַע</he> II</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "T00722",
+	"slug": "רישום",
+	"headword": {
+		"text": "רִישּׁוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִשּׁ׳"
+		}
+	],
+	"page": {
+		"number": 1478,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T01091\"><he>רָשַׁם</he></cite>) <i>mark, trace</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 19b:4\">Sot. 19ᵇ</cite> <he>שרִישּׁוּמוֹ ניכר</he> when the traces of the writing are noticeable (not entirely washed off the paper); <cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9<sup>23</sup></cite>. ",
+				"<cite ref=\"Kohelet Rabbah 12:11\">Koh. R. to XII, 11</cite>. ",
+				"<cite ref=\"Berakhot 25a:23\">Ber. 25ᵃ</cite> <he>רִשּׁוּמָן ניכר</he> their marks (stains) are seen on the floor; Y. ib. III, 6ᵈ bot.; a. fr."
+			]
+		}
+	]
+}

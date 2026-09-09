@@ -1,0 +1,22 @@
+{
+	"id": "M01975",
+	"slug": "מסננא",
+	"headword": {
+		"text": "מַסְנָנָא"
+	},
+	"page": {
+		"number": 809,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01245\"><he>סְנַן</he></cite>) <i>pure gold</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 13:12\">Targ. Is. XIII, 12</cite> (ed. Wil. <cite ref=\"M01974\"><he>מַסְנָא</he></cite>; ed. Lag. <he>מסננה</he>; h. text <he>כתם</he>)."
+			]
+		}
+	]
+}

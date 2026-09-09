@@ -1,0 +1,30 @@
+{
+	"id": "S01974",
+	"slug": "קרחא-1",
+	"headword": {
+		"text": "קַרְחָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קָרְחָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1415,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = b. h. <cite ref=\"S01970\"><he>קֶרַח</he></cite>, <i>frost, ice, hail</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 147:17\">Targ. Ps. CXLVII, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 37:10\">Targ. Job XXXVII, 10</cite>; a. e."
+			]
+		}
+	]
+}

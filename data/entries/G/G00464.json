@@ -1,0 +1,34 @@
+{
+	"id": "G00464",
+	"slug": "זכירה",
+	"headword": {
+		"text": "זְכִירָה"
+	},
+	"page": {
+		"number": 399,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00467\"><he>זָכַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>remembrance, thinking</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 43b:9\">Men. 43ᵇ</cite> (ref. to <cite ref=\"Numbers 15:39\">Num. XV, 39</cite> <he>ראייה מביא לידי ז׳ ז׳ וכ׳</he> seeing leads to thinking, thinking to doing. ",
+				"<cite ref=\"Bereishit Rabbah 33:3\">Gen. R. s. 33</cite> (ref. to <cite ref=\"Genesis 8:1\">Gen. VIII, 1</cite>) <he>מה ז׳ נזכר לו</he> what (meritorious deed) remembered He to him. ",
+				"<cite ref=\"Megillah 15a:8\">Meg. 15ᵃ</cite> <he>אביגיל בזְכִירָתָהּ</he> Abig. suggested licentiousness by alluding to her being remembered (<cite ref=\"I Samuel 25:31\">I Sam. XXV, 31</cite>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>recitation</i>. Ib. 2ᵇ (ref. to <cite ref=\"Esther 9:28\">Esth. IX, 28</cite>) <he>ז׳</he> recitation of the Book of Esther, contrad. to <cite ref=\"P01476\"><he>עשייה</he></cite> celebration of the Festival.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

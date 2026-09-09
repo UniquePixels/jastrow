@@ -1,0 +1,43 @@
+{
+	"id": "D00264",
+	"slug": "דול-1",
+	"headword": {
+		"text": "דּוּל"
+	},
+	"page": {
+		"number": 285,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"D00800\"><he>דְּלָא</he></cite>) <i>to wind, draw water</i>. Denom. <cite ref=\"D00265\"><he>דְּוַל</he></cite>, <cite ref=\"D00213\"><he>דַּוְולָא</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַדְוֵיל"],
+			"senses": [
+				{
+					"gloss": "<i>to wind up, make skeins, prepare for spinning</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 63a:9\">Yeb. 63ᵃ</cite> <he>זבון ולא תדויל</he> Ar. s. v. <cite ref=\"D00797\"><he>דל</he></cite> 5 buy (ready-made) and do not wind skeins (ed. <he>זבין ולא תיזול</he>, v. <cite ref=\"G00174\"><he>זוּל</he></cite> I a. II)."
+					]
+				}
+			],
+			"stem": "*."
+		},
+		{
+			"forms": ["אִדְּוִיל", "אִידְּ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be drawn from, to give water enough for irrigation</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 8a:6\">B. Bath. 8ᵃ</cite> <he>ודילמא לא מִידְּוִול</he> but perhaps the well (to be dug) will prove unfit for irrigation? <cite ref=\"Bava Batra 12b\">Ib. 12ᵇ</cite>"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

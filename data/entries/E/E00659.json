@@ -1,0 +1,28 @@
+{
+	"id": "E00659",
+	"slug": "הנדזא",
+	"headword": {
+		"text": "הַנְדְּזָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הִינְדְּזָא"
+		}
+	],
+	"page": {
+		"number": 357,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"E00658\">preced.</cite>) <i>mark; calculation of proportions</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 89b:7\">B. Bath. 89ᵇ</cite>, v. <cite ref=\"E00658\">preced.</cite> ",
+				"<cite ref=\"Gittin 60b:12\">Gitt. 60ᵇ</cite> <he>ואשקי בה׳</he> and use the water in proportion (as much as is due to thy share). [Later Hebr. <he>הַנְדָּסָה</he> <i>geometry</i>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "B01294",
+	"slug": "ברכייר",
+	"headword": {
+		"text": "בִּרְכַּיָּיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּרְכַּיָיר"
+		}
+	],
+	"page": {
+		"number": 196,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>בֵּיר כַּיָּיר</he>, v. <cite ref=\"B00725\"><he>בֵּירִית</he></cite> a. <cite ref=\"K00364\"><he>כּוּר</he></cite>) <i>the stove-setter’s knee-band, the brick-layer’s cushion</i> (on which he kneels at work). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 26:3\">Kel. XXVI, 3</cite> (Talm. ed. <he>בור׳</he>)."
+			]
+		}
+	]
+}

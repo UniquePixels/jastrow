@@ -1,0 +1,28 @@
+{
+	"id": "A03253",
+	"slug": "ארתיכא",
+	"headword": {
+		"text": "אַרְתִּיכָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְתַּכָּא"
+		}
+	],
+	"page": {
+		"number": 126,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>רתך</he>) <i>chariot, vehicle</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 10:18\">Targ. II Chr. X, 18</cite>; a. e.—Pl. <he>אַרְתִּיכִּין</he>, <he>אַרְתְּכִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 15:4\">Targ. Y. I Ex. XV, 4</cite> (Y. II <he>רתיכ׳</he>)."
+			]
+		}
+	]
+}

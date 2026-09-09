@@ -1,0 +1,25 @@
+{
+	"id": "Q01574",
+	"slug": "פרד-3",
+	"headword": {
+		"text": "פֶּרֶד",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1215,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01573\">preced.</cite>) <i>a part</i>, esp. (collect. noun) <i>split and dried pomegranates</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 1:6\">Maasr. I, 6</cite> <he>הפ׳ והצימוקין וכ׳</he> dried pomegranates and raisins &c. ",
+				"<cite ref=\"Tosefta Shevi'it 6:29\">Tosef. Shebi. VI, 29</cite> <he>מפרדין רימונים לעשותן פ׳</he> (ed. Zuck. <he>מְפָרְרִין … פֶּרֶר</he>; Var. <cite ref=\"Q01845\"><he>פרך</he></cite>; some ed. <he>פריך</he>, corr. acc.) you may (in the Sabbatical year) cut pomegranates to make them <i>pered</i>. ",
+				"<cite ref=\"Tosefta Terumot 3:16\">Tosef. Ter. III, 16</cite> <he>רימונים ועתיד לעשותן פ׳</he> Var. ed. Zuck. (ed. Zuck. <he>פראנר</he>; oth. ed. <cite ref=\"K01151\"><he>כרי</he></cite>, corr. acc.) if one gives T’rumah of pomegranates (intended for sale), with the intention eventually to cut and store them as <i>pered</i>; a. e."
+			]
+		}
+	]
+}

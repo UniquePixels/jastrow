@@ -1,0 +1,24 @@
+{
+	"id": "S00418",
+	"slug": "קונדילין",
+	"headword": {
+		"text": "קוֹנְדִּילִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1334,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (κόνδυλος, condylus) [<i>joints of reeds,</i>] <i>writing reeds</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 1\">Gen. R. s. 1</cite> Ar. s. v. <he>מל</he> 13 (missing in ed.)."
+			]
+		}
+	]
+}

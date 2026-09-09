@@ -1,0 +1,36 @@
+{
+	"id": "U01070",
+	"slug": "שירותא-2",
+	"headword": {
+		"text": "שֵׁירוּתָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׁר׳"
+		},
+		{
+			"text": "שֵׁירוּ"
+		},
+		{
+			"text": "שֵׁרוּ",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1569,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01961\"><he>שְׁרֵי</he></cite>) <i>beginning</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 2:3\">Targ. Jer. II, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 8:7\">Targ. Job VIII, 7</cite>; v. <cite ref=\"U01065\"><he>שֵׁירוּי</he></cite>."
+			]
+		}
+	]
+}

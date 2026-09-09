@@ -1,0 +1,51 @@
+{
+	"id": "B00536",
+	"slug": "בי",
+	"headword": {
+		"text": "בֵּי"
+	},
+	"page": {
+		"number": 158,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= (= <cite ref=\"B00003\"><he>בְּ־</he> I</cite>) <i>in, with, at</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 22:28\">Targ. Y. Num. XXII, 28</cite> <he>בי ההיא שעתא</he> at that time. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:9\">Targ. Cant. I, 9</cite>; <cite ref=\"Aramaic Targum to Song of Songs 1:13\">13</cite>; <cite ref=\"Aramaic Targum to Song of Songs 1:14\">14</cite> (ed. Vien. <he>בההיא</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <he>בין</he>) <i>between, among</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 10a:7\">Sot. 10ᵃ</cite>; <cite ref=\"Megillah 12a\">Meg. 12ᵃ</cite>; v. <cite ref=\"B00311\"><he>בּוּצִינָא</he></cite>.—",
+				"<cite ref=\"Shabbat 109b:10\">Sabb. 109ᵇ</cite> <he>בי מיללי</he> (Ms. <he>במ׳</he>) between the embers; a. fr.—<he>בי שמשי</he> (= h. <he>בין השמשות</he>) during sunset. ",
+				"<cite ref=\"Berakhot 43b:19\">Ber. 43ᵇ</cite> <he>קדושא דבי ש׳</he> the Kiddush said on Friday night. ",
+				"<cite ref=\"Ketubot 103a:30\">Keth. 103ᵃ</cite> <he>כל בי ש׳</he> every Friday night."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (= <cite ref=\"B00004\"><he>בְּ</he> II</cite>) <i>son of;</i> v. <cite ref=\"B01165\"><he>בְּרַבִּי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:31\">Y. Ber. IV, 7ᶜ</cite> bot.; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (= <cite ref=\"B00754\"><he>בֵּית</he></cite>) <i>house of, school of; home, place of</i> &c. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 7:9\">Targ. Job VII, 9</cite>; a. e.—… <he>תנא דבי ר׳</he> (sub. <cite ref=\"V00742\"><he>תני</he></cite>) a student of the school of R. … taught. ",
+				"<cite ref=\"Chullin 42a\">Ḥull. 42ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Avodah Zarah 6b:5\">Ab. Zar. 6ᵇ</cite> <he>בדבי ר׳ או׳</he> (Ms. M. <he>ב״ר</he>) in (the Boraitha) of the school of R. O.—",
+				"<cite ref=\"Yevamot 21b:6\">Yeb. 21ᵇ</cite> <he>דבי אימא רבתי</he> one of the family of the grandmother (whether mother’s or father’s mother). ",
+				"<cite ref=\"Yevamot 21b:7\">Ib.</cite> <he>דבי אבא רבה</he> of the grandfather’s family; <he>דבי דודי</he> one of the uncle’s relation.—<he>דבי רב</he> the Boraitha of Be Rab (Sifra). ",
+				"<cite ref=\"Chullin 66a\">Ḥull. 66ᵃ</cite> (v. Rashi a. l.); a. fr.—בי רבנן <i>college</i>. ",
+				"<cite ref=\"Berakhot 17a:14\">Ber. 17ᵃ</cite>; a. fr. [For other compounds with <he>בי</he>, v. respective determinants.]"
+			],
+			"label": "4"
+		}
+	]
+}

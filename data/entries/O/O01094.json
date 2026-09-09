@@ -1,0 +1,24 @@
+{
+	"id": "O01094",
+	"slug": "סמיכתא",
+	"headword": {
+		"text": "סְמִיכְתָּא"
+	},
+	"page": {
+		"number": 1000,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01098\"><he>סְמַךְ</he></cite>) <i>solid, thick</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 25b:5\">Ber. 25ᵇ</cite> <he>דדמו כארעא ס׳</he> which is legally to be considered like solid earth. ",
+				"<cite ref=\"Bava Batra 20a:5\">B. Bath. 20ᵃ</cite> <he>בס׳</he> when the material of the rag is very thick. ",
+				"<cite ref=\"Taanit 9b:6\">Taan. 9ᵇ</cite> <he>עיבא ס׳</he> a heavy cloud, opp. <cite ref=\"S01352\"><he>קלישא</he></cite>."
+			]
+		}
+	]
+}

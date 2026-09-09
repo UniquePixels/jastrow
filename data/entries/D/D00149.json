@@ -1,0 +1,31 @@
+{
+	"id": "D00149",
+	"slug": "דהון",
+	"headword": {
+		"text": "דָּהוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָהוֹן"
+		},
+		{
+			"text": "הִרְהוּן"
+		}
+	],
+	"page": {
+		"number": 281,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"D00151\"><he>דְּהֵין</he></cite>) <i>fattening substance, urin-soaked dung; a concrete of dung used for vessels</i>, cmp. <cite ref=\"C00961\"><he>גָּלָל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:4:8\">Y. Ab. Zar. II, 41ᵇ</cite> bot. <he>אהן ד׳ של מימי וכ׳</he> a vessel made of dung prepared with urin absorbs no liquids.—",
+				"<cite ref=\"Bereishit Rabbah 39:1\">Gen. R. s. 39</cite>, end (ref. to <i>Bethel</i>, changed into <i>Beth-aven</i>, <cite ref=\"Joshua 7:2\">Josh. VII, 2</cite>) [read:] <he>לא זכתה … בית העמל הרי … בית העמד תמן קריין לפועלא טבא עמילא</he> (<he>ולהִרְהוּן</he>) <he>ולדהון … עמידה</he> she did not deserve even to be named <i>Beth Heamal</i> (house of toil, cmp. <he>עמל ואון</he> <cite ref=\"Psalms 90:10\">Ps. XC, 10</cite>), now she is named <i>Beth-Heamad</i> (dung-house); there (in Samaria, Galilee &c.) they call the good laborer <i>amela</i> (the industrious, v. <cite ref=\"P00899\"><he>עמל</he></cite>), and the dung prepared with urin <i>amidah</i> (concrete, cmp. <cite ref=\"P00859\"><he>עָמַד</he></cite> Hif.); <cite ref=\"Jerusalem Talmud Shabbat 9:2:3\">Y. Sabb. IX, 11ᵈ</cite>; <cite ref=\"Jerusalem Talmud Avodah Zarah 3:6:3\">Y. Ab. Zar. III, 43ᵃ</cite> bot.; <cite ref=\"Yalkut Shimoni on Nach 17:1\">Yalk. Josh. 17</cite> (v. Koh. Ar. Compl. s. v. <cite ref=\"D00149\"><he>הרהון</he></cite>)."
+			]
+		}
+	]
+}

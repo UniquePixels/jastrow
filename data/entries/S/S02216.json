@@ -1,0 +1,33 @@
+{
+	"id": "S02216",
+	"slug": "קשב-1",
+	"headword": {
+		"text": "קָשַב"
+	},
+	"page": {
+		"number": 1428,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be hard, stiff</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִקְשִׁיב"],
+			"senses": [
+				{
+					"gloss": " [<i>to prick up the ear</i>,] <i>to listen</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 8:13\">Cant. R. to VIII, 13</cite> <he>אני</he> … <he>מַקְשִׁיבִים וכ׳</he> I and my household will listen to thy voice (of prayer). ",
+						"<cite ref=\"Shabbat 63a:19\">Sabb. 63ᵃ</cite> <he>הקב״ה מַקְשִׁיב להם</he> the Lord listens to them. ",
+						"<cite ref=\"Shabbat 63a:17-23\">Ib.</cite> <he>שני … המקשיבים זה  לזה וכ׳</he> two students who patiently listen to each other in discussions of the <i>halakhah</i>; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

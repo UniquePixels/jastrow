@@ -1,0 +1,54 @@
+{
+	"id": "L00372",
+	"slug": "לחש-2",
+	"headword": {
+		"text": "לָחַשׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 704,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H01817\"><he>חָשָׁה</he></cite>, <cite ref=\"N00518\"><he>נָחַשׁ</he></cite>)<i>to whisper</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 22a:16\">Ber. 22ᵃ</cite> <he>לְחָשָׁהּ לר׳ וכ׳</he> said it in a whisper to R. A.—Esp. <i>to whisper an incantation, to charm</i>. ",
+				"<cite ref=\"Mishnah Sanhedrin 10:1\">Snh. X, 1</cite> (<cite ref=\"Sanhedrin 90a:16\">90ᵃ</cite>) <he>הלוֹחֵשׁ על המכה וכ׳</he> he who mumbles over a wound reciting the verse (<cite ref=\"Exodus 15:26\">Ex. XV, 26</cite>) &c. Ib. 101ᵃ <he>לוֹחֲשִׁין לחישת וכ׳</he> you may whisper a charm over bites of serpents and scorpions on the Sabbath; [Rashi: charm serpents &c. to make them innocuous]. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 14:3:6\">Y. Sabb. XIV, 14ᶜ</cite> bot. <he>לוחשין לעין וכ׳</he> you may cure by charm a sore eye &c.; a. v. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["לִחֵשׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"L00371\">same</cite>, ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to whisper, hiss</i> (of the serpent); <i>to inform</i>. Tanḥ. Vaëra 4 (ref. to <cite ref=\"Mishnah Berakhot 5:1\">Ber. V, 1</cite>, v. <cite ref=\"K01166\"><he>כְּרִיכָה</he></cite>) <he>מה הנחש מְלַחֵשׁ והירג אף המלכות מְלַחֶשֶׁת וכ׳</he> as the serpent hisses and kills, so does the (Roman) government hiss (inform) and kill; [read:] <he>הוא נותן את האדם בבית האסורין והוא מלחש עליו והורגו</he> the same (officer) puts a man in prison and the same informs against him and puts him to death; <cite ref=\"Shemot Rabbah 9\">Ex. R. s. 9</cite>.—Tanḥ. Balak 14 <he>מְלַחֲשִׁין אחריו ברוך שם וכ׳</he> they (the demons) repeat after him in a low voice, Blessed be the name &c.; <cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20</cite>; a. e.—Trnsf. <i>to incite, mislead</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 7b\">Ber. 7ᵇ</cite>; <cite ref=\"Megillah 6b:6\">Meg. 6ᵇ</cite> <he>ואם לִחֶשְׁךָ אדם לומר וכ׳</he> and if one mislead thee saying &c.; <cite ref=\"Gittin 23b\">Gitt. 23ᵇ</cite>. ",
+						"<cite ref=\"Bamidbar Rabbah 4:9\">Num. R. s. 4</cite> <he>מי לחשך שהוציא וכ׳</he> who told thee that the Lord discharged the first-born (in disgrace) &c.?—[<cite ref=\"Eruvin 91a:8\">Erub. 91ᵃ</cite> <he>מי לחשך</he>, read <he>הלכה כר״ש</he>, as <cite ref=\"Eruvin 74a\">ib. 74ᵃ</cite>, v. Rabb. D. S. a. l. note 90.]"
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִלְחַשׁ"],
+			"senses": [
+				{
+					"gloss": " (with <cite ref=\"L00000\"><he>ל</he></cite>) <i>to be hissed at, be incited</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 10:11:1\">Koh. R. to X, 11</cite> <he>אין הנחש … אא״כ נ׳ לו וכ׳</he> no serpent bites unless it is set on from above; <he>ואין המלכות … אא״כ נ׳ לה מלעיל</he> nor does government persecute a man, unless it is set on from above."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

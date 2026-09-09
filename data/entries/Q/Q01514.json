@@ -1,0 +1,69 @@
+{
+	"id": "Q01514",
+	"slug": "פקק-1",
+	"headword": {
+		"text": "פָּקַק"
+	},
+	"page": {
+		"number": 1211,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to split, drive into, force open</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 155b\">Sabb. 155ᵇ</cite> <he>ופוֹקֵק</he> Ms. M., v. <cite ref=\"Q01496\"><he>פָּקַס</he> I</cite>.—Denom. <cite ref=\"Q01516\"><he>פֶּקֶק</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"Q01516\"><he>פֶּקֶק</he></cite>; cmp. <cite ref=\"H00205\"><he>חָדַק</he></cite> a. <cite ref=\"H00207\"><he>חֶדֶק</he></cite>) <i>to insert a stop-gap; to stop</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 3:8\">Kel. III, 8</cite> <he>משפך … שפְּקָקוֹ וכ׳</he> (not <he>שפקקה</he>) a funnel of wood or clay stopped off with pitch. ",
+				"<cite ref=\"Mishnah Kelim 28:2\">Ib. XXVIII, 2</cite> <he>שהתקינו לָפוֹק בו את המרחץ</he> (ed. Dehr. <he>לפַקֵּק</he>) (a shred) with which it was intended to fill up a gap in the bath. Y. Erub. III, end, 25ᵇ <he>צריך לפוק</he> he must stop it off. Tosef. ib. XI (VII), 10 <he>פּוֹקְקִין את הביב וכ׳</he> you may stop off a gutter with a cloth. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 17:3:2\">Y. Sabb. XVII, 16ᵇ</cite> top <he>קנה שהתקינו להיות פּוֹקֵק בו החלון</he> a pole (with a coil or a board attached) which has been prepared to close the sky light with it; (<cite ref=\"Tosefta Shabbat 14:3\">Tosef. ib. XIV</cite> (<cite ref=\"Tosefta Shabbat 15:3\">XV</cite>), 3 <he>להיות פותח ונועל בו</he>), v. <cite ref=\"Q01516\"><he>פֶּקֶק</he></cite>. Bab. ",
+				"<cite ref=\"Shabbat 64b:17\">Sabb. 64ᵇ</cite> <he>פוקק לה זוג בצוארה וכ׳</he> he may muffle the bell on an animal’s neck (that it should not ring), and walk with it &c.; a. fr.—Part. pass. <he>פָּקוּק</he>; pl. <he>פְּקוּקִין</he>. ",
+				"<cite ref=\"Shabbat 64b\">Ib.</cite> <he>אע״פ שפ׳</he> nor should the animal be led out with a bell, even if it is muffled. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:20\">Y. Ter. VIII, 45ᵈ</cite> <he>מכוסה ואינו פ׳</he> if the bottle is covered but not stopped; <cite ref=\"Tosefta Terumot 7:16\">Tosef. Ter. VII, 16</cite> [read:] <he>מכוסין ואינן פקוקין</he> (and correct the entire passage in conformity with Y. l. c.), v. <cite ref=\"Q01516\"><he>פֶּקֶק</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיקֵּק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01513\">same</cite>, v. supra.—[<cite ref=\"Tosefta Ma'asrot 1:5\">Tosef. Maasr. I, 5</cite> <he>מפקק</he> ed. Zuck., v. <cite ref=\"Q01497\"><he>פָּקַס</he> II</cite>.]",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְפַּקֵּק"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְפַּקֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be shaken, loosened</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 28b:18\">Ber. 28ᵇ</cite> <he>שיִתְפַּקְּקוּ</he>, v. <cite ref=\"Q01511\"><he>פִּקְפֵּק</he></cite>. Tanḥ. Aḥăré 8 <he>בשעה שנִתְפַּקְּקָה הכהונה וכ׳</he> when the priesthood in the hands of Aaron became shaky (was disputed); v. <cite ref=\"Q01511\"><he>פִּקְפֵּק</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be stopped</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 63b:4\">Yeb. 63ᵇ</cite> <he>מִתְפַּקְּקִין</he>, v. <cite ref=\"Q01511\"><he>פִּקְפֵּק</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

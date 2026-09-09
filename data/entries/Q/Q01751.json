@@ -1,0 +1,28 @@
+{
+	"id": "Q01751",
+	"slug": "פרזלא",
+	"headword": {
+		"text": "פַּרְזְלָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טַוַּור פַּרְזְלָא"
+		}
+	],
+	"page": {
+		"number": 1223,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Tavvar Parz’la</i> (Iron Mount), name for Kadesh. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 33:36\">Targ. Y. Num. XXXIII, 36</cite>, v. <cite ref=\"T01042\"><he>רְקָם</he></cite>."
+			]
+		}
+	]
+}

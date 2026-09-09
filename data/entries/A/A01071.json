@@ -1,0 +1,25 @@
+{
+	"id": "A01071",
+	"slug": "אטד-1",
+	"headword": {
+		"text": "אָטָד"
+	},
+	"page": {
+		"number": 42,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; √<he>אט</he> , v. <cite ref=\"A01066\"><he>אִטָּא</he></cite>) <i>thorn</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 100:6\">Gen. R. s. 100</cite>. ",
+				"<cite ref=\"Sotah 13a:4\">Sot. 13ᵃ</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Nedarim 6:8:13\">Y. Ned. VI, end 40ᵃ</cite> <he>מדבר הא׳</he> the desert of <i>Atad.—</i> Pl. <he>אֲטָדִין</he>. ",
+				"<cite ref=\"Mishnah Sheviit 7:5\">Shebi. VII, 5</cite>; a. e. [V. Sm. Ant. s. v. Carduus.]"
+			]
+		}
+	]
+}

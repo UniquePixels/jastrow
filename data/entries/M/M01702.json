@@ -1,0 +1,30 @@
+{
+	"id": "M01702",
+	"slug": "מנא-5",
+	"headword": {
+		"text": "מָנָא",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹנָא"
+		}
+	],
+	"page": {
+		"number": 796,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Mana</i> (<i>Mona</i>), name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:1:10\">Y. Sabb. I, 2ᶜ</cite> top. ",
+				"<cite ref=\"Jerusalem Talmud Demai 4:1:6\">Y. Dem. IV, 24ᵃ</cite> top; <cite ref=\"Taanit 23b\">Taan. 23ᵇ</cite> <cite ref=\"M01769\"><he>מָנִי</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:8:11\">Y. Ab. Zar. II, 42ᵃ</cite> top; a. fr.—V. Fr. M’bo, p. 114ᵇ, sq."
+			]
+		}
+	]
+}

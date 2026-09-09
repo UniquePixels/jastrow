@@ -1,0 +1,46 @@
+{
+	"id": "T00910",
+	"slug": "רעם-3",
+	"headword": {
+		"text": "רְעַם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1487,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <cite ref=\"T00374\"><he>רוּם</he></cite>) <i>to swing, be high</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְעֵים"],
+			"senses": [
+				{
+					"gloss": " to <i>swing, lift up</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 14:16\">Targ. Y. Ex. XIV, 16</cite>. ",
+						"<cite ref=\"Targum Jerusalem, Numbers 20:11\">Targ. Y. II, Num. XX, 11</cite> (ed. Vien. <he>ארעב</he>, corr. acc.). ",
+						"<cite ref=\"Targum Jerusalem, Genesis 39:18\">Targ. Y. II, Gen. XXXIX, 18</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְרְעֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to pride one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 24:7\">Targ. Prov. XXIV, 7</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

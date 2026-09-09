@@ -1,0 +1,32 @@
+{
+	"id": "U00065",
+	"slug": "שבב",
+	"headword": {
+		"text": "שָׁבַב"
+	},
+	"page": {
+		"number": 1510,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>שִׁיבֵּב</he> (cmp. Arab. <i>sabba</i> a. deriv.) <i>to chip, chisel</i>. Koh. R. introd. <he>ושִׁבְּבָהּ</he>, v. <cite ref=\"O00193\"><he>סָדַק</he></cite>.—Trnsf. <i>to chastise, discipline</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 12a:4\">Sot. 12ᵃ</cite> (play on <he>שובב</he> <cite ref=\"I Chronicles 2:18\">I Chr. II, 18</cite>, as an Agadic surname of Caleb) <he>ששי׳ את יצרו</he> he trained his inclination; (Rashi: <he>ששי׳ את עצמו</he>, denom. of <he>שׁוֹבָב</he>, <i>he turned himself away</i> from the rest of the spies); Yalk. Chr. 1074 <he>ששבב את יצרו</he>; <cite ref=\"Shemot Rabbah 1\">Ex. R. s. 1</cite> <he>ששי׳ את עצמו</he>. ",
+						"<cite ref=\"Shabbat 87a:8\">Sabb. 87ᵃ</cite> (play on <he>וישב</he>, <cite ref=\"Exodus 19:8\">Ex. XIX, 8</cite>) <he>דברים שמְשַׁבְּבִין דעתו של אדם</he> words which chasten the mind of man (threats of punishment), opp. <he>מושכין</he>; (Rashi: things which <i>repel</i> the mind, v. supra)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "N00205",
+	"slug": "נדבה-2",
+	"headword": {
+		"text": "נִדְבָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 877,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Nidbah</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:6\">Y. Meg. I, 71ᶜ</cite> (twice) <he>אשיין בר נ׳</he>; <cite ref=\"Menachot 29a:18\">Men. 29ᵃ</cite> <he>אשיאן בר נדבך</he> (Ms. M. <cite ref=\"D00075\"><he>נדבר</he></cite>)."
+			]
+		}
+	]
+}

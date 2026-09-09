@@ -1,0 +1,48 @@
+{
+	"id": "V00196",
+	"slug": "תוך-4",
+	"headword": {
+		"text": "תּוֹךְ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1652,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"V00193\"><he>תָּוֶךְ</he></cite> , constr. <cite ref=\"V00195\"><he>תּוֹךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>middle, inside, receptacle</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 27:1\">Kel. XXVII, 1</cite> <he>כל שאין לו ת׳ וכ׳</he> earthen vessels which have no inside (receptacle), have no back, i.e. their back is not susceptible of levitical uncleanness. ",
+				"<cite ref=\"Mishnah Kelim 25:2\">Ib. XXV, 2</cite>. ",
+				"<cite ref=\"Mishnah Kelim 25:4\">Ib. 4</cite> <he>כלי שנטמאו … לא נטמא תוֹכוֹ</he> if the outside of a vessel has become unclean, its inside is not affected thereby. ",
+				"<cite ref=\"Yoma 72b:9\">Yoma 72ᵇ</cite>, v. <cite ref=\"B01156\"><he>בַּר</he> I</cite>; a. fr.—Pl. <he>תּוֹכוֹת</he>. ",
+				"<cite ref=\"Gittin 20a:14\">Gitt. 20ᵃ</cite> <he>חק ת׳</he>, v. <cite ref=\"H01563\"><he>חָקַק</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (prep.) <i>in, into, within</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 45b:43\">Nidd. 45ᵇ</cite> <he>ת׳ זמן</he> within the period (during the year of developing puberty); <cite ref=\"Bava Batra 155b:5\">B. Bath. 155ᵇ</cite>. ",
+				"<cite ref=\"Bava Batra 5a:7\">Ib. 5ᵃ</cite> <he>פרעתיך בת׳ זמני</he> I paid thee within my appointed time (before the debt was due). ",
+				"<cite ref=\"Mishnah Demai 7:5\">Dem. VII, 5</cite> <he>בת׳ ביתו</he> in his house. ",
+				"<cite ref=\"Mishnah Kilayim 1:8\">Kil. I, 8</cite> <he>לת׳ האבטיח</he> into a melon; a. v. fr.–<he>ת׳ כדי דיבור</he>, v. <cite ref=\"D00444\"><he>דַּי</he></cite>.—מִתּ׳ <i>immediately from, through, because of</i>. ",
+				"<cite ref=\"Mishnah Berakhot 5:1\">Ber. V, 1</cite> <he>מת׳ כובד ראש</he> in a mood of humility, v. <cite ref=\"K00184\"><he>כּוֹבֶד</he></cite>. ",
+				"<cite ref=\"Berakhot 31a:5\">Ib. 31ᵃ</cite> <he>אין … לא מת׳ דין וכ׳</he> you must not rise for prayer immediately after giving judgment, or after an undecided discussion &c. ",
+				"<cite ref=\"Berakhot 31a:11\">Ib.</cite> <he>מת׳ עצבות</he> from a mood of grief. ",
+				"<cite ref=\"Pesachim 50b:5\">Pes. 50ᵇ</cite> <he>מת׳ שלא לשמה</he>, v. <cite ref=\"U01408\"><he>שֵׁם</he></cite>; <cite ref=\"Nazir 23b\">Naz. 23ᵇ</cite>.—",
+				"<cite ref=\"Shevuot 32b:13\">Shebu. 32ᵇ</cite>, a. fr. <he>מת׳ שאינו יכול לישבע וכ׳</he> because he cannot make oath, he must pay. ",
+				"<cite ref=\"Beitzah 12a\">Bets. 12ᵃ</cite>, a. e. <he>מת׳ שהותרה הוצאה וכ׳</he> since carrying for an immediate need (on the Holy Bay) has once been permitted, it has also been permitted for a less immediate need; a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

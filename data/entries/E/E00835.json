@@ -1,0 +1,35 @@
+{
+	"id": "E00835",
+	"slug": "הרה",
+	"headword": {
+		"text": "הָרָה"
+	},
+	"page": {
+		"number": 366,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to conceive, be with child</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 168:2\">Yalk. Ex. 168</cite>, end. ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 5:5:3\">Y. B. Kam. V, 5ᵃ</cite> top; Bab. ",
+				"<cite ref=\"Bava Kamma 49a:14\">B. Kam. 49ᵃ</cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוֹרָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be conceived;</i> *(homilet.) <i>conception</i>, v. <cite ref=\"E00284\"><he>הוֹרָת</he></cite>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 64:5\">Gen. R. s. 64</cite>; <cite ref=\"Yalkut Shimoni on Nach 894\">Yalk. Job 894</cite> that she would have said to him, <he>ה׳ גבר</he> is this a time for conception, man? (‘Rashi’)."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

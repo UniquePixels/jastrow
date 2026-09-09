@@ -1,0 +1,49 @@
+{
+	"id": "E00006",
+	"slug": "הא-2",
+	"headword": {
+		"text": "הָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "הֵא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 328,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"E00005\">preced.</cite>) an interjection, ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"E00003\"><he>הָ־</he></cite>) <i>Oh!</i> <cite ref=\"Targum Jonathan on Jeremiah 4:30\">Targ. Jer. IV, 30</cite> (not <he>והא</he>). —",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 2:2\">Ned. II, 2</cite> (<cite ref=\"Nedarim 15b:13\">15ᵇ</cite>) <he>הא קרבן שאוכל לך</he> (Mish. a. Y. ed. <he>קרבן</he>) Oh, the sacrifice, that I will (not) eat this which belongs to thee!. Ib. 16ᵃ <he>לא שני ליה קרבן … הקרבן</he> draws no distinction between <i>korban</i> and <i>ha-korban</i> (v. marginal note to Rashi a. l.). Ib. II, 2 <he>הא שבועה שאוכל לך</he> (Mish. a. Y. ed. <cite ref=\"U00081\"><he>שבועה</he></cite>) Oh, an oath that &c. Ib. 16ᵃ <he>מכלל דהא שבועה שאוכל וכ׳</he> we infer from this that ‘Oh, an oath that I will eat’ means that I will not eat."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>behold</i> (h. . ",
+			"units": [
+				"<cite ref=\"Daniel 3:25\">Dan. III, 25</cite>.—",
+				"<cite ref=\"Onkelos Genesis 3:22\">Targ. Gen. III, 22</cite>. ",
+				"<cite ref=\"Onkelos Genesis 20:15\">Ib. XX, 15</cite>; a. fr.—",
+				"<cite ref=\"Daniel 2:43\">Dan. II, 43</cite> <he>הֵא־כְדִי</he> <i>as if</i>.—",
+				"<cite ref=\"Aramaic Targum to Psalms 123:2\">Targ. Ps. CXXIII, 2</cite> <he>הָא כמא</he> <i>as</i>, … <he>הא כדין</he> Ms. (ed. <cite ref=\"E00502\"><he>הֵכְדֵין</he></cite>) <i>so</i>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " introducing a question, <i>is it that?</i> <cite ref=\"Aramaic Targum to Job 15:7\">Targ. Job XV, 7</cite>; a. e.—",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 38:19\">Ib. XXXVIII, 19</cite> <he>הא דין</he> Ms. (ed. <cite ref=\"A01161\"><he>אֵידֵין</he></cite>) <i>where?</i>"
+			],
+			"label": "3"
+		}
+	]
+}

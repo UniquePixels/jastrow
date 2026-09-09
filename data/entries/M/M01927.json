@@ -1,0 +1,24 @@
+{
+	"id": "M01927",
+	"slug": "מסיק-1",
+	"headword": {
+		"text": "מָסִיק"
+	},
+	"page": {
+		"number": 807,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01998\"><he>מָסַק</he></cite>) <i>olive harvest</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Batra 3:2:2\">Y. B. Bath. III, 14ᵃ</cite> top, v. <cite ref=\"B01087\"><he>בָּצִיר</he> I</cite>. ",
+				"<cite ref=\"Mishnah Challah 3:9\">Ḥall. III, 9</cite> <he>זיתי מ׳</he> olives collected at the regular harvest, opp. <he>זיתי ניקוף</he> gleanings (v. <cite ref=\"N00769\"><he>נִיקּוּף</he> II</cite>); <cite ref=\"Jerusalem Talmud Maasrot 5:1:5\">Y. Maasr. V, 51ᵈ</cite> top (not <cite ref=\"M01246\"><he>מיסיק</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 15:2:2\">Y. Yeb. XV, 14ᵈ</cite> <he>יצא בציר ונכנס מ׳</he> when the grape-cutting is over, the olive-harvest begins; a. e.—V. <cite ref=\"M01932\"><he>מְסִיקָה</he></cite>."
+			]
+		}
+	]
+}

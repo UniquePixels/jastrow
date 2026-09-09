@@ -1,0 +1,28 @@
+{
+	"id": "D00027",
+	"slug": "דאציפי",
+	"headword": {
+		"text": "דָּאצִיפֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּיְיצִיפֵי"
+		}
+	],
+	"page": {
+		"number": 276,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. name of a species of <i>doves</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 62a:9\">Ḥull. 62ᵃ</cite> ed. (Ar. <cite ref=\"D00453\"><he>דיי׳</he></cite>)."
+			]
+		}
+	]
+}

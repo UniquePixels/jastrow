@@ -1,0 +1,46 @@
+{
+	"id": "O00029",
+	"slug": "סבא-3",
+	"headword": {
+		"text": "סְבָא"
+	},
+	"page": {
+		"number": 948,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O00028\">same</cite> Part. <cite ref=\"O00029\"><he>סָבֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 21:20\">Targ. O. Deut. XXI, 20</cite>.—[<cite ref=\"Targum Jonathan on I Samuel 30:20\">Targ. I Sam. XXX, 20</cite> <he>וסבא</he> some ed., read <he>ושְׁבָא</he>.]."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַבֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to retail wine</i> in the shop or tavern. ",
+					"units": [
+						"<cite ref=\"Bava Batra 98a:9\">B. Bath. 98ᵃ</cite> <he>אדעתא לסַבּוּיֵיה</he> with the intention to retail it."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַסְבָּא"],
+			"senses": [
+				{
+					"gloss": "<i>to satiate, soak</i>; trnsf. (cmp. <cite ref=\"O01313\"><he>סָפַג</he></cite>) <i>to lash</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 10a:8\">Keth. 10ᵃ</cite> <he>אַסְבּוּהוּ כופרי</he> make him absorb (strike him with) palm switches. ",
+						"<cite ref=\"Ketubot 10a:9\">Ib.</cite> <he>ומַסְבִּינָן ליה וכ׳</he> and we lash him nevertheless."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

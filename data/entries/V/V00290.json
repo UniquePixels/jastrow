@@ -1,0 +1,33 @@
+{
+	"id": "V00290",
+	"slug": "תורה",
+	"headword": {
+		"text": "תּוֹרָה"
+	},
+	"page": {
+		"number": 1657,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"J00601\"><he>יָרָה</he></cite>)<i>teaching, law</i>, esp. <he>ת׳</he>(<cite ref=\"E00000\"><he>ה</he></cite>) <i>the Law</i> of Moses, <i>Pentateuch</i>; in gen. <i>the Jewish law, Religion</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 5a:3\">Ber. 5ᵃ</cite> (ref. to <cite ref=\"Exodus 24:12\">Ex. XXIV, 12</cite>) <he>ת׳ זה מקרא וכ׳</he> <i>torah</i> means the Pentateuch, ‘and the <i>mitsvah</i>’ means the Mishnah, ‘which I have written’ means the Phrophets and Hagiographa &c. ",
+				"<cite ref=\"Exodus 24:12\">Ib.</cite> <he>כל העוסק בַּתּ׳ וכ׳</he> he that is engaged in the study of the Law &c., v. <cite ref=\"B00150\"><he>בָּדַל</he></cite>. Ib. 6ᵃ <he>דינא נמי היינו ת׳</he> holding court is also considered a religious act, opp. <he>שלמא בעלמא</he> mere preservation of peace. Ib. 31ᵃ <he>הי ת׳ והי מצוה וכ׳</he> where is the Law, and where the good deeds, that they may save us? <cite ref=\"Pesachim 87b:20\">Pes. 87ᵇ</cite> <he>שקרוב לשונם ללשון ת׳</he> because their (the Babylonians’) language comes near the language of the Torah. ",
+				"<cite ref=\"Megillah 3a:21\">Meg. 3ᵃ</cite>, a. fr. <he>תלמוד ת׳</he> (abbrev. <he>ת״ת</he>) the study of the Law. ",
+				"<cite ref=\"Nedarim 81a:2\">Ned. 81ᵃ</cite> <he>הזהרו … שמהם תצא ת׳</he> take heed of the children of the poor, for from them the Law goes forth; a. v. fr.—",
+				"<cite ref=\"Bereishit Rabbah 9:6\">Gen. R. s. 9</cite>, a. fr. <he>בתוֹרָתוֹ של ר׳ מאיר</he> in R. Meir’s (annotated) copy of the Law. ",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 3:3:11\">Y. Bicc. III, 65ᶜ</cite> bot. <he>אין הת׳ עומדת מפני בנה</he> the Torah does not rise before her son, i.e. he that is engaged in the study of the Law need not rise when a scholar passes. ",
+				"<cite ref=\"Sotah 47b:22\">Sot. 47ᵇ</cite> <he>הת׳ חזרה וכ׳</he> the Law goes around begging for students.—<he>ת׳ שבכתב</he>, <he>ת׳ שבעל פה</he>, v. <cite ref=\"K01341\"><he>כְּתָב</he></cite>.—<he>ספר ת׳</he>, v. <cite ref=\"O01422\"><he>סֵפֶר</he></cite>.—<he>תּוֹרַת כהנים</he>, v. <cite ref=\"K00163\"><he>כֹּהֵן</he></cite>.—Pl. <he>תּוֹרוֹת</he>. ",
+				"<cite ref=\"Shabbat 31a:5\">Sabb. 31ᵃ</cite> <he>כמה ת׳ יש לכם</he> how many laws have you? Sot. l. c. <he>רבו … ונעשית תורה כשתי ת׳</he> differences increased in Israel, and the Law became like two laws; a. e.—2) <i>definition, designation; character, nature</i>. ",
+				"<cite ref=\"Beitzah 10a:3\">Bets. 10ᵃ</cite> <he>דאיכא תורת כלי עליו</he> because it bears the denomination of an utensil (v. <cite ref=\"V00141\"><he>תּוֹאַר</he></cite>). ",
+				"<cite ref=\"Bava Metzia 62a:14\">B. Mets. 62ᵃ</cite> <he>בתורת פקדון אתא לידיה</he> it came into his possession as a trust; <cite ref=\"Bava Metzia 62b:1\">ib. 62ᵇ</cite> <he>בתורת זביני</he> as a sold object. ",
+				"<cite ref=\"Kiddushin 50b:6\">Kidd. 50ᵇ</cite> <he>לא נחית לתורת קידושין</he> he had not come down to any form of betrothal (had not done anything to intimate his intention of betrothal); a. fr."
+			],
+			"label": "1"
+		}
+	]
+}

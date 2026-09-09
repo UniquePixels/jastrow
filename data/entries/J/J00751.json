@@ -1,0 +1,49 @@
+{
+	"id": "J00751",
+	"slug": "יתרא-1",
+	"headword": {
+		"text": "יִתְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יִי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 605,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"J00749\"><he>יֶתֶר</he> I</cite> , 1, <i>strong cord</i>, esp. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the cord of the bow</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 42a:1\">Snh. 42ᵃ</cite> <he>למיהוי כי י׳</he> (some ed. <cite ref=\"J00739\"><he>יְתֵירָא</he></cite>) until the shape of the moon is like that of the cord (with the bent bow, semicircular).—Pl. (<he>יְתֵירֵי</he>) <he>יִתְיֵי</he>. ",
+				"<cite ref=\"Moed Katan 26a:10\">M. Kat. 26ᵃ</cite> <he>לקל י׳ דמזיגת וכ׳</he> from the sound of the cords (of the catapults) at M. (v. <cite ref=\"M00154\"><he>מְגִיזָה</he></cite>) the wall of Laodicea burst."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>rope</i>.—Pl. <he>יְתָרִין</he>, <he>יְתָרַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 16:7\">Targ. Jud. XVI, 7</cite>; <cite ref=\"Targum Jonathan on Judges 16:8\">8</cite>; <cite ref=\"Targum Jonathan on Judges 16:9\">9</cite>. "
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>the straight side of the stomach</i>, opp. to <cite ref=\"S02275\"><he>קשתא</he></cite> the curved side, v. <cite ref=\"E00439\"><he>הִימְצָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Chullin 50a:2\">Ḥull. 50ᵃ</cite> <he>דְּאַיִּיתְרָא</he> the fat covering &c. ",
+				"<cite ref=\"Pesachim 51a:9\">Pes. 51ᵃ</cite> <he>אכל דאיי׳</he> (Ms. M. <cite ref=\"D00453\"><he>דיי׳</he></cite>) ate the fat &c.—[<cite ref=\"Aramaic Targum to Proverbs 25:20\">Targ. Prov. XXV, 20</cite> <he>יתרא</he> Ms. (Var. ed. Lag.), ed. <cite ref=\"N01396\"><he>נִתְרָא</he></cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

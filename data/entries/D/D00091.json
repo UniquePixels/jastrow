@@ -1,0 +1,21 @@
+{
+	"id": "D00091",
+	"slug": "דברתא-2",
+	"headword": {
+		"text": "דְּבַרְתָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 279,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00076\"><he>דְּבַר</he></cite>) = h. <cite ref=\"D00078\"><he>דֶּבֶר</he></cite>, <i>pestilence</i>. ",
+			"units": ["<cite ref=\"Taanit 21b:7\">Taan. 21ᵇ</cite>"]
+		}
+	]
+}

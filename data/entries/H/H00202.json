@@ -1,0 +1,32 @@
+{
+	"id": "H00202",
+	"slug": "חדסר",
+	"headword": {
+		"text": "חַדְסַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַדְסְרִי"
+		}
+	],
+	"page": {
+		"number": 426,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>חד עסר</he>) <i>eleven, eleventh</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 1:2\">Targ. Y. I Deut. I, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 1:3\">Ib. 3</cite> <he>ח׳ ירח</he> eleventh month. ",
+				"<cite ref=\"Targum Jonathan on Exodus 26:7\">Targ. Y. Ex. XXVI, 7</cite>; a. e.—",
+				"<cite ref=\"Rosh Hashanah 21a:2\">R. Hash. 21ᵃ</cite> top <he>בח׳ וכ׳</he> on the eleventh of Tishri. ",
+				"<cite ref=\"Arakhin 12a\">Arakh. 12ᵃ</cite> <he>חדסרי</he> (some ed. <he>חד ס׳</he>). ",
+				"<cite ref=\"Taanit 18b\">Taan. 18ᵇ</cite> <cite ref=\"H00197\"><he>חֲדֵיסַר</he></cite> (Ms. M. <he>חד סר</he>) the eleventh (of Adar)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "Q00438",
+	"slug": "פח-1",
+	"headword": {
+		"text": "פַּח",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1150,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"Q00464\"><he>פָּחַח</he></cite>) <i>hole, trap, snare</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 91:2\">Midr. Till. to Ps. XCI, 3</cite> (expl. <he>פח יקוש</he>) <he>מצודתא דציידא</he> the hunter’s snare; Tanḥ. Naso 23."
+			]
+		}
+	]
+}

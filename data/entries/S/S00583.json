@@ -1,0 +1,35 @@
+{
+	"id": "S00583",
+	"slug": "קורדקין",
+	"headword": {
+		"text": "קוּרְדְּקִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּרְדְּקִיסִין"
+		},
+		{
+			"text": "קוּרְדְּקַיְיסִין"
+		}
+	],
+	"page": {
+		"number": 1341,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(also used as sing.; a denom. of κόρδαξ, cordax, the dance of the Greek comedians) <i>low and loosely fitting shoes not fastened by any ties, slippers</i> (v. Sm. Ant. s. v. Soccus). ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 4:6\">Esth. R. to I, 16</cite> <he>שהיתה מסטרתה בקורדקין וכ׳</he> she slapped him in the face with her slipper. ",
+				"<cite ref=\"Bereishit Rabbah 45\">Gen. R. s. 45</cite> <he>טפחתה בקורדקייסון</he> (read: <he>סין …</he>; Ar. <he>טפחה סקורדקיה על פניה</he>, read: <he>קוּרְדַּקְסֶיהָ</he>) she slapped her &c. ",
+				"<cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite>, beg. (ref. to <cite ref=\"Isaiah 3:16\">Is. III, 16</cite>) she put on her feet <he>קורדיקין עבין וכ׳</he> Ar. (ed. <he>קונדיריקון עבה</he>) high-soled shoes to appear taller; Pesik. Vattom., p. 132ᵇ <he>קורדקין</he> Ms. O. (ed. <cite ref=\"S00643\"><he>קורקון</he></cite>, corr. acc.); <cite ref=\"Eichah Rabbah 4:18\">Lam. R. to IV, 15</cite> <he>קרקוסין</he> (corr. acc.); <cite ref=\"Yalkut Shimoni on Nach 1031\">Yalk. ib. 1031</cite> <cite ref=\"S00578\"><he>קורדיקין</he></cite>. ",
+				"<cite ref=\"Tosefta Moed Kattan 2:16\">Tosef. M. Kat. II, 16</cite> <he>שהיו … בקורדקייסין וכ׳</he> (Var. <he>קיסין של זהב …</he>) went out in (gilt) slippers on the Sabbath; <cite ref=\"Tosefta Moed Kattan 2:16\">ib.</cite> <he>אין נוהגין … בקורדקיי׳ בשבת</he> (Var. <he>בקורדקיס׳ של זהב</he>) it is not the custom here to go out in (gilt) slippers &c.; <cite ref=\"Pesachim 51a:4\">Pes. 51ᵃ</cite> <he>קורדקיסון</he> (read: <he>סין …</he>; Ms. M. <he>קורדייקסין</he>; Ms. M. 2 <he>קורדקסין</he>; Ms. O. <cite ref=\"S00583\"><he>קורדקייסין</he></cite>); <cite ref=\"Pesachim 51a:6\">ib.</cite> <he>בק׳ נמי דילמא משתלפין וכ׳</he> we also know the reason for not wearing slippers on the Sabbath, because they may slip off, and one may carry them &c. ",
+				"<cite ref=\"Yevamot 102b:5-20\">Yeb. 102ᵇ</cite> <he>לא … בקורדקיס׳ וכ׳</he> (Ar. <he>בקורדקייס׳</he>) one must not walk around in slippers in one’s house (on the Day of Atonement). Y’lamd. to Deut. XII, 29, quot. in Ar."
+			]
+		}
+	]
+}

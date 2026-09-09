@@ -1,0 +1,39 @@
+{
+	"id": "N00556",
+	"slug": "נטי-2",
+	"headword": {
+		"text": "נְטֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְטָא"
+		},
+		{
+			"text": "נְטָה"
+		}
+	],
+	"page": {
+		"number": 899,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N00555\">same</cite> <cite ref=\"Sanhedrin 26a:23\">Snh. 26ᵃ</cite> <he>דילמא … נַטְיָיה דעתיה וכ׳</he> perhaps the opinion of the Lord inclines after the majority. Y. B. Bath. II, end, 13ᶜ <he>חד אילן נטה גו וכ׳</he> a tree the branches of which hung over that Roman’s ground. ",
+			"units": [
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>זיל קוץ מה דנטה גו דידיה</he> go and cut off what hangs over his ground; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַטֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to bend</i>. Y. Ber. II, 4ᵇ top <he>לית איפשר דלא יַטֵּי מילה</he> it is not possible that he should not turn the discussion (so as to mention the exodus from Egypt; v. Bab. ",
+					"units": ["<cite ref=\"Berakhot 13b\">Ber. 13ᵇ</cite>)."]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

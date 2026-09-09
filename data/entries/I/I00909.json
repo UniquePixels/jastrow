@@ -1,0 +1,25 @@
+{
+	"id": "I00909",
+	"slug": "טרשא",
+	"headword": {
+		"text": "טַרְשָׁא"
+	},
+	"page": {
+		"number": 558,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טְרַשׁ</he> II) [<i>deafness</i>,] (sub. <cite ref=\"T00111\"><he>רִבִּית</he></cite>) <i>deaf or silent usury, tarsha, a sale on time at a price higher than the seller would take if he sold for cash</i>, e.g. one sells beer in Tishri (when it is cheap), to be paid for in Nisan (when beer is higher) at the Nisan price. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 65a:14\">B. Mets. 65ᵃ</cite> <he>ט׳ שרי</he> <i>tarsha</i> is permitted (is no usury). ",
+				"<cite ref=\"Bava Metzia 65a:14\">Ib.</cite> <he>ט׳ דידי</he> my (R. Papa’s) <i>tarsha</i> (sale of date beer on time &c., v. supra). ",
+				"<cite ref=\"Bava Metzia 65a:14\">Ib.</cite> <he>ט׳ דידי ודאי וכ׳</he> my (R. Ḥama’s) <i>tarsha</i> (selling goods to be carried at his risk to the dearer market, the money to be paid on returning) &c. Y. ib. V, 10ᶜ bot. <he>אין זו רביתא אלא ט׳</he> (not <cite ref=\"E00325\"><he>הטרשא</he></cite>) this is not direct usury, but it is <i>tarsha</i>.—Pl. <cite ref=\"I00910\"><he>טַרְשֵׁי</he></cite>. Bab. ",
+				"<cite ref=\"Bava Metzia 68a\">ib. 68ᵃ</cite> <he>ט׳ פפונאי</he>, expl. <he>כט׳ דרב פפא</he> like the sales of R. Papa, v. supra."
+			]
+		}
+	]
+}

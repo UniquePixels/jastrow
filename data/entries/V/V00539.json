@@ -1,0 +1,92 @@
+{
+	"id": "V00539",
+	"slug": "תכל-2",
+	"headword": {
+		"text": "תְּכֵל"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּכֵיל"
+		},
+		{
+			"text": "תְּכוֹל"
+		}
+	],
+	"page": {
+		"number": 1668,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"U01158\"><he>שָׁכֹל</he></cite>, <i>to be bereft, childless</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 43:14\">Targ. O. Gen. XLIII, 14</cite> <he>תְּכוֹלִית תכולית</he> ed. Berl. (ed. Vien. <he>אִתְכֵּלִית תְּכִלִית</he>; Y. II <cite ref=\"V00546\"><he>תְּכָלִית</he></cite>). Targ. O. ib. XXVII, 45 <he>אִיתְכּוּל</he> ed. Berl. (ed. Vien. <cite ref=\"K00260\"><he>אֶתְכַּל</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 15:33\">Targ. I Sam. XV, 33</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 17:8\">Targ. II Sam. XVII, 8</cite> <cite ref=\"V00538\"><he>תָּכַל</he></cite> ed. Vien. I (ed. Wil. <cite ref=\"V00540\"><he>תַּכֵּל</he></cite>; h. text <cite ref=\"U01129\"><he>שַׁכּוּל</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 49:21\">Targ. Is. XLIX, 21</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = h. <cite ref=\"U01160\"><he>שָׁכַל</he></cite> <i>to finish, consume, bereave</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 35:12\">Targ. Ps. XXXV, 12</cite> <he>למִתְכַּל נפשי</he> Ms. (ed. <he>לנפשי</he>). ",
+				"<cite ref=\"Targum Jerusalem, Genesis 42:36\">Targ. Y. II, Gen. XLII, 36</cite> <he>תְּכָלְתּוּן</he> ed. Vien. (oth. ed. <he>תַּכַּלְ׳</he> <i>Pa.</i>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תַּכֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to consume, make childless</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Deuteronomy 32:22\">Targ. Y. II, Deut. XXXII, 22</cite> <cite ref=\"V00547\"><he>תַּכְּלַת</he></cite> (ed. Vien. <cite ref=\"V00547\"><he>תִּכְלַת</he></cite>; h. text <cite ref=\"A01697\"><he>אכל</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 15:7\">Targ. Jer. XV, 7</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 50:9\">Ib. L, 9</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַתְכֵּיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V00538\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 15:33\">Targ. I Sam. XV, 33</cite> <he>אַתְכְּלַת</he> (not <cite ref=\"A01641\"><he>אִתְ׳</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 32:32\">Targ. Y. Deut. XXXII, 32</cite> (ed. Vien. <i>Pa.</i>; h. text <he>אַשְׁכְּלֹת</he>!); a. e.—Part. pass. <cite ref=\"M02707\"><he>מַתְכַּל</he></cite>. ",
+						"<cite ref=\"Targum Jonathan on Hosea 13:8\">Targ. Hos. XIII, 8</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to give premature birth, cast before the time</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 31:38\">Targ. O. Gen. XXXI, 38</cite> (Y. <he>אִתְכָּלוּ</he>). ",
+						"<cite ref=\"Aramaic Targum to Song of Songs 4:2\">Targ. Cant. IV, 2</cite>. ",
+						"<cite ref=\"Targum Jonathan on Malachi 3:11\">Targ. Mal. III, 11</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְּכִיל", "אִתְכִּיל"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"K00260\"><he>אִיתְכַּל</he></cite> <i>to be bereft, made childless</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 43:14\">Targ. Gen. XLIII, 14</cite>, v. supra. ",
+						"<cite ref=\"Targum Jonathan on Genesis 27:45\">Targ. Y. ib. XXVII, 45</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "S00241",
+	"slug": "קובתא",
+	"headword": {
+		"text": "קוּבְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּבְ׳"
+		}
+	],
+	"page": {
+		"number": 1324,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"S00221\"><he>קוּבָּה</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>tent of prostitution</i>. Targ. O. a. Y. II <cite ref=\"Numbers 25:8\">Num. XXV, 8</cite> (O. ed. Vien. <he>קֻכָּתָא</he>).",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>arched room, store-room</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 38:25\">Targ. Job XXXVIII, 25</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 65:10\">Targ. Ps. LXV, 10</cite> (cmp. ",
+				"<cite ref=\"Taanit 8b:4\">Taan. 8ᵇ</cite> quot. s. v. <cite ref=\"S00221\"><he>קוּבָּה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 1:7\">Targ. Y. Gen. I, 7</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

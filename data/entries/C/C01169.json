@@ -1,0 +1,34 @@
+{
+	"id": "C01169",
+	"slug": "גסטרא-2",
+	"headword": {
+		"text": "גַּסְטְרָא"
+	},
+	"page": {
+		"number": 260,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (castra, v. <cite ref=\"S01653\"><he>קַסְטְרָא</he></cite>) <i>military camp, fort</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 121a:5\">Sabb. 121ᵃ</cite> <he>אנשי ג׳ של וכ׳</he> Ar. (ed. <he>גיסט׳</he>, <he>גיסת׳</he>, <he>גיזט׳</he>, v. Rabb. D. S. a. l. note 1) the Roman garrison of Sepphoris. ",
+				"<cite ref=\"Berakhot 32b:16\">Ber. 32ᵇ</cite> (Ms. M. <he>גיסט׳</he>, <cite ref=\"Yalkut Shimoni on Nach 332\">Yalk. Is. 332</cite> <cite ref=\"C01178\"><he>גסתרא</he></cite>) <he>ועל כל לגיון ולגיון בראתי בו שלשים ג׳ וכ׳</he> Ms. M. (v. Rabb. D. S. a. l.) for each legion (of minor planets in the constellations) I created thirty camps, and for each camp thirty squares, v. <cite ref=\"S01994\"><he>קרטון</he></cite>.—",
+				"<cite ref=\"Sotah 13b\">Sot. 13ᵇ</cite> sq. <he>שלחה מלכות הרשעה אצל ג׳ בית וכ׳</he> the Roman government sent to the camp of Beth Peor; (Yalk. Deut. end <he>גיס׳</he>; Pesik. Zutr. Deut. p. 134 <he>מלכות של חצרה ושל בית וכ׳</he>).—Hence: pr. n. pl. <i>Castra</i>. ",
+				"<cite ref=\"Vayikra Rabbah 23:5\">Lev. R. s. 23</cite> <he>כגון ג׳ לחיפא</he> as Castra is hostile to Haifa; <cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 17</cite> <cite ref=\"S01653\"><he>קסטרא</he></cite>.—Pl. <cite ref=\"C01171\"><he>גַּסְטְרָיוֹת</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 28:2\">Gen. R. s. 28</cite> <he>אריות ג׳</he>; <cite ref=\"Yalkut Shimoni on Torah 47:2\">Yalk. ib. 47</cite> <he>חיילות גי׳</he>, read <he>אהליות וג׳</he>, v. <cite ref=\"A00508\"><he>אָהֳלִית</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. castellum) <i>reservoir</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 15\">Lev. R. s. 15</cite> Ar., Var. <he>קִנְצְטְרָא</he> (cisterna, κινστέρνα) <i>cistern</i> (not extant in ed; <cite ref=\"Bava Batra 16a\">B. Bath. 16ᵃ</cite> <cite ref=\"D00955\"><he>דָּפוּס</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

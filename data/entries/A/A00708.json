@@ -1,0 +1,36 @@
+{
+	"id": "A00708",
+	"slug": "אומנות",
+	"headword": {
+		"text": "אוּמָנוּת"
+	},
+	"page": {
+		"number": 27,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A00701\"><he>אוּמָן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>skill, handicraft, trade</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 4:14\">Kidd. IV, 14</cite>.—בעל א׳ <i>mechanic</i>. ",
+				"<cite ref=\"Chullin 54b:6\">Ḥull. 54ᵇ</cite>.—בן אומנותוֹ <i>one’s fellow-tradesman, competitor</i>. ",
+				"<cite ref=\"Bereishit Rabbah 32\">Gen. R. s. 32</cite>, beg.—",
+				"<cite ref=\"Berakhot 43b:5\">Ber. 43ᵇ</cite> <he>כל אחד ואחד יִפָּה לו וכ׳</he> to each man the Lord made his trade appear nice. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 5:8:6\">Y. Succ. V, end, 55ᵈ</cite> (play on <i>be-ĕmunatham</i> <cite ref=\"I Chronicles 9:22\">I Chron. IX, 22</cite>) <he>באומנותם</he> through their skill; a. fr.— <i>the workmanship</i> (or its equivalent) to be furnished the (Roman) government. ",
+				"<cite ref=\"Mishnah Bava Batra 9:4\">B. Bath. IX, 4</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Demai 6:8:10\">Y. Dem. VI, end, 26ᵃ</cite>; <cite ref=\"Tosefta Demai 6:4\">Tosef. Dem. VI, 4</cite>; cmp. <cite ref=\"A00825\"><he>אוֹצָר</he></cite>.—Pl. <he>אוּמָנִיּוֹת</he>. ",
+				"<cite ref=\"Bereishit Rabbah 24\">Gen. R. s. 24</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 15\">Num. R. s. 15</cite> <he>קורא א׳</he> invited people by trades (each day another trade); Tanḥ. B’haăl., 3 <he>קורא בכל יום א׳</he>.—Trnsf. <i>arts, devices</i>. ",
+				"<cite ref=\"Shemot Rabbah 47\">Ex. R. s. 47</cite>, end <he>כל הצדיקים באו בא׳</he> all the righteous (in their pleas and prayers) came with devices before the Lord (as Abraham prayed in behalf of fifty, forty &c.)."
+			],
+			"label": "1"
+		}
+	]
+}

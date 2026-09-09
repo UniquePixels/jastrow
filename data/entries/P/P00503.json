@@ -1,0 +1,23 @@
+{
+	"id": "P00503",
+	"slug": "עיד-2",
+	"headword": {
+		"text": "עֵיד"
+	},
+	"page": {
+		"number": 1067,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00198\"><he>עוּד</he></cite>) = <cite ref=\"A01151\"><he>אֵיד</he></cite>, <i>anniversary, (idolatrous) festival</i>.—Pl. <he>עֵידִים</he>, <cite ref=\"A01161\"><he>אֵידִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 2a\">Ab. Zar. 2ᵃ</cite>; Y. ib. I, 39ᶜ top; Y. Erub. V, beg. 22ᵃ, v. <cite ref=\"A01151\"><he>אֵיד</he></cite>. ",
+				"<cite ref=\"Tosefta Avodah Zarah 1:1\">Tosef. Ab. Zar. I, 1</cite> <he>עֵידֵיהֶן</he> (Var. <cite ref=\"E00423\"><he>אֵי׳</he></cite>)."
+			]
+		}
+	]
+}

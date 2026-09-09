@@ -1,0 +1,30 @@
+{
+	"id": "S01590",
+	"slug": "קנישקין",
+	"headword": {
+		"text": "קְנִישְׁקִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְנִישְׁקָנִין"
+		}
+	],
+	"page": {
+		"number": 1393,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (comp. of <cite ref=\"S01570\"><he>קָנֵי</he></cite>, a. <cite ref=\"U01849\"><he>שקי</he></cite>) <i>drinking tubes, a cup with tubes for several persons to drink from</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 62b:8\">Sabb. 62ᵇ</cite> (expl. <he>מזרקי</he>, <cite ref=\"Amos 6:6\">Am. VI, 6</cite>) <he>חד אמר ק׳</he> one authority says, it means <i>ḳ’nishḳanim</i>. ",
+				"<cite ref=\"Amos 6:6\">Ib.</cite> <he>שתה בק׳ וכ׳</he> he drank from <i>ḳ.</i>, and he (Rabbah) did not object to it (as an enjoyment forbidden after the destruction of the Temple). ",
+				"<cite ref=\"Avodah Zarah 72b:11\">Ab. Zar. 72ᵇ</cite> <he>ק׳ שרי</he> it is permitted to drink from <i>ḳ.</i> at the same time with a gentile."
+			]
+		}
+	]
+}

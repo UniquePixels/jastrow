@@ -1,0 +1,30 @@
+{
+	"id": "A03446",
+	"slug": "אתרגושא",
+	"headword": {
+		"text": "אִתְרְגוּשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִתְרְגוּשְׁתָּא"
+		}
+	],
+	"page": {
+		"number": 134,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>רגש</he>) <i>noise, noisy crowd, riot</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 25:31\">Targ. Jer. XXV, 31</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 17:12\">Targ. Is. XVII, 12</cite>; a. fr.—Pl. <he>אִתְרְגוּשִׁין</he>, <cite ref=\"A03446\"><he>אִתְרְגוּשַׁיָּא</he></cite>, f. <cite ref=\"A03446\"><he>אִתְרְגוּשָׁתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 18:11\">Targ. Job XVIII, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 39:16\">Targ. Ezek. XXXIX, 16</cite>; a. e."
+			]
+		}
+	]
+}

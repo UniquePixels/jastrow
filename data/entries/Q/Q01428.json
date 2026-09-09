@@ -1,0 +1,37 @@
+{
+	"id": "Q01428",
+	"slug": "פציח-1",
+	"headword": {
+		"text": "פְּצִיחַ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1205,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01423\"><he>פְּצַח</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>open, an unwalled place</i>, v. <cite ref=\"Q01424\"><he>פַּצְחָא</he></cite>.—Pl. <he>פְּצִיחִין</he>, <he>פְּצִיחַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 13:19\">Targ. Y. Num. XIII, 19</cite> <he>כרכין פ׳</he> (ed. Vien. <he>פְּצִיחֵי</he>; h. text <he>מחנים</he>). ",
+				"<cite ref=\"Aramaic Targum to Esther 9:19\">Targ. Esth. IX, 19</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 9:27\">Ib. 27</cite> (ed. Vien. <cite ref=\"Q01430\"><he>פַּצִּיחַ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Joshua 13:23\">Targ. Josh. XIII, 23</cite>; <cite ref=\"Targum Jonathan on Joshua 13:28\">28</cite> (ed. Lag. a. oth. <he>פּצְחֵיהֶן</he>; h. text <he>חצר־</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 89:41\">Targ. Ps. LXXXIX, 41</cite> <he>פְּצִיחוֹי</he> (ed. Wil. <he>פַּצִיחוֹי</he>, Ms. <he>פַּצְחוֹי</he>; h. text <he>מבצר־</he>!); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bright; checkered</i>, v. <cite ref=\"Q01430\"><he>פַּצִּיחַ</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

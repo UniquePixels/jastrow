@@ -1,0 +1,68 @@
+{
+	"id": "I00140",
+	"slug": "טוח-1",
+	"headword": {
+		"text": "טוּחַ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 522,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to cover with a cohesive substance, to plaster</i>. Part. <he>טָח</he>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 7a:5\">M. Kat. 7ᵃ</cite> <he>ואינו טָח בטיט</he> but puts no clay on. ",
+				"<cite ref=\"Shir HaShirim Rabbah 8:6:3\">Cant. R. to VIII, 6</cite> <he>טָחֵי גגות</he> roof-plasterers. ",
+				"<cite ref=\"Mishnah Negaim 13:1\">Neg. XIII, 1</cite> <he>וטח</he> and plasters the spot over; a. fr.—<i>Part. pass.</i> <cite ref=\"I00141\"><he>טוּחַ</he></cite> <i>coated, covered with viscid or glittering matter</i>.—",
+				"<cite ref=\"Mishnah Middot 4:1\">Midd. IV, 1</cite> <he>ט׳ בזהב</he> coated with gold; (<cite ref=\"Bamidbar Rabbah 12:4\">Num. R. s. 12</cite> <cite ref=\"I00140\"><he>נִטּוֹחַ</he></cite>).—",
+				"<cite ref=\"Niddah 24a:25\">Nidd. 24ᵃ</cite> <he>בפניו טוּחוֹת</he> (Rashi <he>טָחוֹת</he>) when the face of the embryo is covered over (no features distinguishable)."
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיטּוֹחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be pasted on, to stick</i>. Y. Kil. VI, 30ᶜ top <he>והיא נִיטּוֹחָה</he> and it (the fig) stuck (against the wall); Y. Sabb. XI, 13ᵃ bot. <he>והיה נ׳</he> (corr. acc.). ",
+					"units": [
+						"<cite ref=\"Tosefta Keilim Metsia 2:17\">Tosef. Kel. B. Mets. II, 17</cite> <he>לִיטּוֹחַ</he> some ed. (ed. Zuck. <he>ליטול</he>, corr. acc.), v. infra."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֵטִיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to plaster, to polish</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 25a\">Ḥull. 25ᵃ</cite> … <he>עתיד</he> (<he>לַהֲטִיחוֹ</he>) <he>להָטִיחַ וכ׳</he> (Tosef. Kel. l. c. <he>ליטוח</he>, v. supra) which wants polishing, v. <cite ref=\"A01075\"><he>אֲטוּנָס</he></cite>. ",
+						"<cite ref=\"Beitzah 9a:5\">Bets. 9ᵃ</cite> <he>להָטִיחַ גגו וכ׳</he> he needs the ladder for plastering his roof. [<cite ref=\"Tosefta Kelim Kamma 4:19\">Tosef. Kel. B. Kam. IV, 19</cite>, sq. [read:] <he>אם יכול הטיח</he>, v. <cite ref=\"I00325\"><he>טִיחַ</he></cite>.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cast mud</i>, trnsf. (with or without <he>דברים</he>) <i>to speak rebelliously, to reproach</i> (with <cite ref=\"A01369\"><he>נגד</he></cite> or <cite ref=\"K00775\"><he>כלפי</he></cite>). ",
+					"units": [
+						"<cite ref=\"Taanit 25a\">Taan. 25ᵃ</cite>; <cite ref=\"Megillah 22b\">Meg. 22ᵇ</cite>, a. e. <he>לעולם אל יָטִיחַ וכ׳</he> one must, in his prayer, never reproach the Lord. ",
+						"<cite ref=\"Berakhot 31b\">Ber. 31ᵇ</cite>, sq.—",
+						"<cite ref=\"Bereishit Rabbah 53:13\">Gen. R. s. 53</cite> (ref. to <he>כמטחוי</he>, <cite ref=\"Genesis 21:16\">Gen. XXI, 16</cite>) <he>כמֵטַחַת וכ׳</he> as if thrusting reproaches against the Lord; Tanḥ. Vayetse 5. ",
+						"<cite ref=\"Shemot Rabbah 3\">Ex. R. s. 3</cite>. ",
+						"<cite ref=\"Bava Batra 134a\">B. Bath. 134ᵃ</cite> <he>ה׳ עלי וכ׳</he> Ben U. insulted me."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

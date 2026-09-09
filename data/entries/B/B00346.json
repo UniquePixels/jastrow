@@ -1,0 +1,28 @@
+{
+	"id": "B00346",
+	"slug": "בורגתה",
+	"headword": {
+		"text": "בּוּרְגָּתָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּרְקָתָא"
+		}
+	],
+	"page": {
+		"number": 149,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Burgatha, Barkatha</i>, a Galilean place north of Samaria; v. Neub. Géogr. p. 173. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 5:4:4\">Y. Ab. Zar. V, 44ᵈ</cite>; Bab. ",
+				"<cite ref=\"Avodah Zarah 31a:11\">Ab. Zar. 31ᵃ</cite> <he>ברק׳</he>."
+			]
+		}
+	]
+}

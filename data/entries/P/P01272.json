@@ -1,0 +1,29 @@
+{
+	"id": "P01272",
+	"slug": "ערבון-1",
+	"headword": {
+		"text": "עֵרָבוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֵי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1112,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עָרַב</he> I) <i>mingling, suit of followers</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 39a:2\">Ab. Zar. 39ᵃ</cite> <he>מפני שעֵרְבוֹנָהּ עולה עמה</he> (Rashi to 35ᵇ a. v. <he>והחילק</he>: <he>שעירבונה</he>) because its following goes with it (borrowed fr. ",
+				"<cite ref=\"Exodus 12:38\">Ex. XII, 38</cite>), i.e. because all the small fish resembling the <i>ḥilleḳ</i> are packed with it when offered for sale."
+			]
+		}
+	]
+}

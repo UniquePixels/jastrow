@@ -1,0 +1,23 @@
+{
+	"id": "I00200",
+	"slug": "טופח-2",
+	"headword": {
+		"text": "טוֹפַח"
+	},
+	"page": {
+		"number": 525,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"I00199\">preced.</cite>) an <i>aquatic plant</i> like the Colocasia; <i>bean, tofaḥ;</i> [Maim. <he>קרטמאן</he> Arab., defining it ‘a seed similar to barley.’] <cite ref=\"Mishnah Kilayim 1:1\">Kil. I, 1</cite>. T’bul Yom I, 2; <cite ref=\"Tosefta Kilaim 1:1\">Tosef. ib. I, 1</cite><cite ref=\"Mishnah Tevul Yom 1:2\">T’bul Yom I, 2</cite>; <cite ref=\"Tosefta Tevul Yom 1:1\">Tosef. ib. I, 1</cite>, sq. <cite ref=\"I00648\"><he>טפיח</he></cite> (R. S. to T’bul Yom l. c. quotes <he>טופח</he>). ",
+			"units": [
+				"<cite ref=\"Tosefta Makhshirin 3:6\">Tosef. Makhsh. III, 6</cite> <cite ref=\"I00201\"><he>טוֹפֵיחַ</he></cite>. Tosef. T’rum. VI, 11 <cite ref=\"I00648\"><he>טפיח</he></cite> ed. Zuck. (Var. <he>טופח</he>, <cite ref=\"I00201\"><he>טופיח</he></cite>). ",
+				"<cite ref=\"Mishnah Peah 6:7\">Peah VI, 7</cite> <he>אפי׳ היא של ט׳</he> even if the barley in the field have the size of <i>tofaḥ</i> (R. S.; Maim.: “even if it be a field of the inferior kind of barley named <i>t.</i>”).—V. <cite ref=\"I00649\"><he>טְפִיחַ</he> II</cite>."
+			]
+		}
+	]
+}

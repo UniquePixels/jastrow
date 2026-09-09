@@ -1,0 +1,41 @@
+{
+	"id": "S01047",
+	"slug": "קינמון",
+	"headword": {
+		"text": "קִינָּמוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִנָּ׳"
+		}
+	],
+	"page": {
+		"number": 1364,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01595\"><he>קנם</he></cite>, cmp. <cite ref=\"S01028\"><he>קִינּוּמָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (b. h.) <i>cinnamon-tree, cinnamon</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 63a:2\">Sabb. 63ᵃ</cite> <he>עצי … של ק׳ היו</he> the kindling wood in Jerusalem was of the cinnamon tree. Y. Peah VII, 20ᵃ bot. <he>ק׳ … היה והיו וכ׳</he> (not <he>היו</he>) the foliage of the cinnamon tree was food for goats, and the Israelites cultivated it. ",
+				"<cite ref=\"Bereishit Rabbah 33\">Gen. R. s. 33</cite>. ",
+				"<cite ref=\"Keritot 5a:79\">Ker. 5ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"S01028\"><he>קִינּוּמָא</he></cite>) [<i>something enduring</i>,] <i>principle</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 46:2\">Gen. R. s. 46</cite> <he>אמר הקב״ה ק׳ אני מעמיד בעולם מה ק׳ וכ׳</he> (not <he>ריש לקיש</he>) the Lord said, (by delaying the conception of Isaac until Abraham was ninety-nine years old,) I will establish a <i>ḳinnamon</i> (an everlasting principle), as the <i>ḳinnamon</i> (the cinnamon tree, no matter how old) will grow fruit when you manure and hoe around it, so shall Abraham (bear fruit) after his blood is tied up (runs slowly), and his desire is gone &c.; <cite ref=\"Yalkut Shimoni on Torah 80:3\">Yalk. ib. 80</cite>; <cite ref=\"Yalkut Shimoni on Nach 968:22\">Yalk. Koh. 968</cite> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

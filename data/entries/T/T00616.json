@@ -1,0 +1,40 @@
+{
+	"id": "T00616",
+	"slug": "ריח-2",
+	"headword": {
+		"text": "רִיחַ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1473,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"A03092\"><he>אָרִיחַ</he></cite>, <cite ref=\"A03061\"><he>אָרַח</he></cite> same.—Part. <cite ref=\"M02668\"><he>מְרִיחַ</he></cite>, <he>מוֹרַח</he>, <cite ref=\"M02630\"><he>מָרַח</he></cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 27:27\">Targ. Gen. XXVII, 27</cite>. ",
+						"<cite ref=\"Onkelos Exodus 30:38\">Targ. Ex. XXX, 38</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 39:25\">Targ. Job XXXIX, 25</cite>; a. fr.—",
+						"<cite ref=\"Sotah 49a:10\">Sot. 49ᵃ</cite> <he>מוֹרְחִינָא ריחא וכ׳</he> I smell &c., v. <cite ref=\"D00160\"><he>דַּהֲנוּנִיתָא</he></cite>. ",
+						"<cite ref=\"Bava Batra 73b:10\">B. Bath. 73ᵇ</cite> <he>ומוֹרַח ביה</he>, v. <cite ref=\"P01078\"><he>עַפְרָא</he></cite>. ",
+						"<cite ref=\"Sanhedrin 93b:8\">Snh. 93ᵇ</cite> (ref. to <cite ref=\"Isaiah 11:3\">Is. XI, 3</cite>, sq.) <he>במשיח כתיב דמורח ודאין</he> of the Messiah it is written that he smells (of a man) and judges (of his guilt or innocence); <he>ניחזי אנן אי מרח ודאין</he> let us see whether he (Bar Koziba) smells &c.; <he>כיון דחזיוהו דלא מריח וכ׳</he> when they saw that he could not judge by the scent, they killed him; <cite ref=\"Yalkut Shimoni on Nach 284\">Yalk. Is. 284</cite>. ",
+						"<cite ref=\"Berakhot 43b:4\">Ber. 43ᵇ</cite> <he>האי מאן דמורח באתרוגא וכ׳</he> he that smells an Ethrog …, must say the benediction &c. ",
+						"<cite ref=\"Yoma 82b:2\">Yoma 82ᵇ</cite> <he>ההיא עוברא דאָרְחָא</he> a woman with child that smelled, v. <cite ref=\"T00615\">preced.</cite> ",
+						"<cite ref=\"Shabbat 110a:4\">Sabb. 110ᵃ</cite> <he>דמורח ריחא וכ׳</he> (not <he>דמירח</he>) when it (the snake) smells it &c.; a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

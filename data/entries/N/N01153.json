@@ -1,0 +1,34 @@
+{
+	"id": "N01153",
+	"slug": "נקאי",
+	"headword": {
+		"text": "נָקַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָקַי"
+		}
+	],
+	"page": {
+		"number": 930,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Nacai</i> (<i>Lucas</i>, v. Neub. Stud. Bibl. I, p. 61); 1) <he>נ׳ ספרא</he> N. the scribe (or teacher). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 79\">Gen. R. s. 79</cite> <he>שמע קליה דנ׳ ס׳</he> he heard N. say; <cite ref=\"Kohelet Rabbah 10:8\">Koh. R. to X, 8</cite> <he>קליה דינ׳ ס׳</he>; <cite ref=\"Yalkut Shimoni on Torah 133:27\">Yalk. Gen. 133</cite> <he>דנקא׳</he>; Pesik. B’shall., p. 90ᵃ <he>דמינקי</he> (corr. acc.)."
+			]
+		},
+		{
+			"gloss": " N., one of the disciples of Jesus of Nazareth. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 43a:23\">Snh. 43ᵃ</cite> Ms. M. a. early eds. (v. <cite ref=\"N01147\"><he>נֵצֶר</he> IV</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

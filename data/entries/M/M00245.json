@@ -1,0 +1,29 @@
+{
+	"id": "M00245",
+	"slug": "מדברי",
+	"headword": {
+		"text": "מִדְבָּרִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִדְבָּרִית"
+		}
+	],
+	"page": {
+		"number": 731,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"M00241\"><he>מִדְבָּר</he></cite>) <i>belonging to the desert</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 83a:18\">Erub. 83ᵃ</cite>, a. e. <he>סאה מ׳</he> the S’ah of the Israelites in the desert, containing six desert Kab, or five Jerusalem Kab.—Pl. <he>מִדְבָּרִיִּים</he>, <he>מִדְבָּרִיִּין</he>; <he>מִדְבָּרִיּוֹת</he>. ",
+				"<cite ref=\"Mishnah Menachot 7:1\">Men. VII, 1</cite>, a. e., v. <cite ref=\"O00007\"><he>סְאָה</he></cite>.—Esp. <he>מדבריות</he> <i>pasture-animals</i>. ",
+				"<cite ref=\"Mishnah Beitzah 5:7\">Bets. V, 7</cite> (<cite ref=\"Beitzah 40a:14\">40ᵃ</cite>), opp. <cite ref=\"B00608\"><he>בַּיָּיתוֹת</he></cite>; Tosef. ib. IV, 11."
+			]
+		}
+	]
+}

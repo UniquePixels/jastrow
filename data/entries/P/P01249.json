@@ -1,0 +1,27 @@
+{
+	"id": "P01249",
+	"slug": "ערב-8",
+	"headword": {
+		"text": "עָרֵב",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1111,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עָרַב</he> I, 2) <i>bondsman, surety</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:4:1\">Cant. R. to I, 4</cite> <he>הבא לי ע׳ וכ׳</he> bring me one to go security, and I shall lend thee. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:4:1\">Ib.</cite> <he>כשאין … הלא הע׳</he> if he has nothing to pay with, who is seized but the surety? <cite ref=\"Midrash Tehillim 8:3\">Midr. Till. to Ps. VIII</cite> (ref. to <cite ref=\"Proverbs 6:1\">Prov. VI, 1</cite>) <he>בשעה שהזקן … עד שלא נתמנית לא היית ע׳ על וכ׳</he> when a man is appointed an elder, the Lord says to him, before thou wast appointed, thou wast not responsible for the community, now that thou hast been appointed &c. ",
+				"<cite ref=\"Mishnah Bava Batra 10:7\">B. Bath. X, 7</cite> <he>המלוה … על ידי ע׳ לא יפרע מן הע׳</he> he who loans money to his neighbor through a surety, cannot collect from the surety (before having sued the debtor). ",
+				"<cite ref=\"Mishnah Bava Batra 10:8\">Ib. 8</cite> <he>איזהו ע׳ שהוא חייב וכ׳</he> what guarantor is responsible? He who says, ‘lend him, and I shall pay thee’ (i.e. who guaranteed before the loan was consummated); a. fr.—Pl. <he>עֲרֵבִים</he>, <he>עֲרֵבִין</he>, <cite ref=\"P01343\"><he>עֲרֵי׳</he></cite>. Cant. R. l. c. <he>בשעה שעמדו … הביאו לי ע׳ טובים וכ׳</he> when the Israelites were standing before mount Sinai to receive the Law, the Lord said … bring me good sureties (to vouch for you) that you will guard it; ib. <he>אבותיכם צריכין ע׳</he> your ancestors need sureties themselves; ib. <he>הא ודאי ע׳ וכ׳</he> these (your children) are certainly good sureties, and on their account I will give you the Law; Midr. Till. l. c. Ib. <he>ע׳ אתם על אבותיכם שאם וכ׳</he> will you vouch for your fathers, so that you be seized, if they do not observe the Law? Ib. <he>שהיו ע׳ זה לזה</he> they made themselves responsible for one another. ",
+				"<cite ref=\"Sanhedrin 27b:19\">Snh. 27ᵇ</cite> bot. (ref. to <cite ref=\"Leviticus 26:37\">Lev. XXVI, 37</cite>) <he>מלמד שכל ישראל ע׳ זה בזה</he> Ms. M. (ed. <he>שכולן</he>) this intimates that all Israelites are responsible for one another (bound to prevent wrongdoing); <cite ref=\"Shevuot 39a:22\">Shebu. 39ᵃ</cite> bot.; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "N00435",
+	"slug": "נזיד",
+	"headword": {
+		"text": "נָזִיד"
+	},
+	"page": {
+		"number": 891,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00130\"><he>זוּד</he></cite>)<i>dish, pottage</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tahorot 2:3\">Toh. II, 3</cite> <he>נְזִיד הדמע</he> a pottage containing T’rumah. ",
+				"<cite ref=\"Mishnah Tahorot 2:4\">Ib. 4</cite> <he>נְ׳ הקודש</he> a pottage containing sacrificial matter."
+			]
+		}
+	]
+}

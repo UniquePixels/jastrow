@@ -1,0 +1,33 @@
+{
+	"id": "V00376",
+	"slug": "תחם-2",
+	"headword": {
+		"text": "תְּחַם"
+	},
+	"page": {
+		"number": 1662,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"V00375\"><he>תַּחֵם</he></cite>; <i>Af.</i> <he>אַתְחֵם</he> same. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 19:14\">Targ. O. Deut. XIX, 14</cite> <he>תָּחִימוּ</he> ed. Berl. (ed. Vien. <he>תְּ׳</he>, corr. acc.); Y. <he>אַתְחִימוּ</he> (not <cite ref=\"A01641\"><he>אִתְ׳</he></cite>). ",
+						"<cite ref=\"Onkelos Exodus 19:12\">Targ. Ex. XIX, 12</cite>; <cite ref=\"Onkelos Exodus 19:23\">23</cite>; a. e.—Part. <he>מְתַחֵם</he>; f. <cite ref=\"M02633\"><he>מְתַחֲמָא</he></cite>; pl. <he>מְתַחֲמַן</he> <i>forming borders, cords</i>. ",
+						"<cite ref=\"Onkelos Exodus 28:14\">Targ. Ex. XXVIII, 14</cite>; <cite ref=\"Onkelos Exodus 28:22\">22</cite>; <cite ref=\"Onkelos Exodus 39:15\">XXXIX, 15</cite> (h. text <he>מגבלות</he>, <he>גבלת</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

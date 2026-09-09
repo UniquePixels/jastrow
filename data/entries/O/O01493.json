@@ -1,0 +1,82 @@
+{
+	"id": "O01493",
+	"slug": "סקף-2",
+	"headword": {
+		"text": "סְקַף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1021,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O01492\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַקֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to turn over, transfer</i>. ",
+					"units": [
+						"<cite ref=\"Targum of I Chronicles 10:14\">Targ. I Chr. X, 14</cite> (h. text <he>ויסב</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִסְתַּקַּף"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִסְתְּקַף"],
+			"senses": [
+				{
+					"gloss": "<i>to be turned; to pass over</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 36:7\">Targ. Y. Num. XXXVI, 7</cite> <he>תיתקף</he> (read <he>תִיסְתְּקַף</he>; h. text <he>תִסֹּב</he>, v. supra)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be brought about; to happen</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 45:8\">Targ. Y. Gen. XLV, 8</cite>. ",
+						"<cite ref=\"Targum Jonathan on Numbers 5:15\">Targ. Y. Num. V, 15</cite>. ",
+						"<cite ref=\"Aramaic Targum to Esther 7:7\">Targ. Esth. VII, 7</cite>; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be visited with</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 11:1\">Targ. O. Num. XI, 1</cite> <he>כד מִסְתַּקְּפִין ביש</he> as though an evil (mourning) had befallen them (h. text <he>מתאננים</he>, v. <cite ref=\"A00750\"><he>אוֹנָן</he></cite>)."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to be the cause of</i>. Targ. Y. ib. IV, 18. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 4:12\">Targ. Koh. IV, 12</cite>. ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 4:16\">Ib. 16</cite> ed. Lag. (oth. ed. <he>לאסתפקא</he>, corr. acc.); a. e."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": "<i>to turn against, seek occasion</i> (v. <cite ref=\"P00790\"><he>עִילָּה</he></cite>). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 1:22\">Targ. Lam. I, 22</cite> (h. text <cite ref=\"P00261\"><he>עולל</he></cite>). ",
+						"<cite ref=\"Onkelos Genesis 43:18\">Targ. O. Gen. XLIII, 18</cite> (h. text <he>התגולל</he>; v. <cite ref=\"P01210\"><he>עֲקַף</he></cite>)."
+					],
+					"label": "5"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

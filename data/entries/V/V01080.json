@@ -1,0 +1,22 @@
+{
+	"id": "V01080",
+	"slug": "תשותא",
+	"headword": {
+		"text": "תַּשּׁוּתָא"
+	},
+	"page": {
+		"number": 1703,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V01111\"><he>תְּשַׁשׁ</he></cite>) <i>weakness, feebleness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 1:6\">Targ. Lam. I, 6</cite> <he>תַּשּׁוּת כח</he> (ed. Vien. <he>תָּשׁוּת</he>)."
+			]
+		}
+	]
+}

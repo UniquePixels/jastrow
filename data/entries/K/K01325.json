@@ -1,0 +1,66 @@
+{
+	"id": "K01325",
+	"slug": "כשר-2",
+	"headword": {
+		"text": "כְּשַׁר"
+	},
+	"page": {
+		"number": 677,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K01324\">same</cite>, <i>to be right, pleasing, fit</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 18:20\">Targ. I Sam. XVIII, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 14:3\">Targ. Jud. XIV, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 15:4\">Targ. Ez. XV, 4</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְכַּשַּׁר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְכְּשַׁר", "אִיכְּשַׁר"],
+			"senses": [
+				{
+					"gloss": "<i>to be</i> (<i>made</i>) <i>fit</i> &c. (v. <cite ref=\"K01324\">preced.</cite> <i>Hof.</i>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 29:22\">Targ. Y. Deut. XXIX, 22</cite>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 11:2\">Targ. Y. Lev. XI, 2</cite>; a. fr.—",
+						"<cite ref=\"Gittin 87a:19\">Gitt. 87ᵃ</cite> <he>לִיתְכַּשַּׁר האי וכ׳</he> let the one deed be declared valid through the signature ‘Reuben ben’ &c.—",
+						"<cite ref=\"Chullin 36b\">Ḥull. 36ᵇ</cite> <he>איתכ׳ במשקי וכ׳</he> it was made fit for uncleanness through the fluids &c.; <cite ref=\"Chullin 36b:11\">ib.</cite> <he>אתכ׳ בחבת הקדש</he>, v. <cite ref=\"H00016\"><he>חִבָּה</he></cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אַכְשַׁר"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"K01324\">preced.</cite> <i>Hif.</i> ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 17:8\">Targ. I Sam. XVII, 8</cite>. ",
+						"<cite ref=\"Aramaic Targum to Ruth 2:13\">Targ. Ruth II, 13</cite>.—",
+						"<cite ref=\"Bava Metzia 89b:1\">B. Mets. 89ᵇ</cite> top <he>לאַכְשׁוּרֵי גברא וכ׳</he> as to making the man fitter, i.e. as to the laborer in fruits being permitted to use means for increasing his appetite, there is no question, opp. to <he>לאכשורי פירא</he> using means for making the fruits more appetizing.—",
+						"<cite ref=\"Zevachim 25a:1\">Zeb. 25ᵃ</cite> <he>בשמאל אכשורי מַכְשַׁר</he> he (R. S.) declares it permissible to use the left hand (for <cite ref=\"S01474\"><he>קְמִיצָה</he></cite>). ",
+						"<cite ref=\"Shabbat 154a\">Sabb. 154ᵃ</cite>; <cite ref=\"Yevamot 45b:12\">Yeb. 45ᵇ</cite> <he>אַכְשְׁרֵיה וכ׳</he> pronounced R. Mari … to be legally a Jew. ",
+						"<cite ref=\"Chullin 58b:6-7\">Ḥull. 58ᵇ</cite> <he>סבר</he> … <he>לאַכְשׁוּרָהּ</he> R. … wanted to pronounce it <i>kasher</i>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to grow better, improve</i>. Ib. 39ᵇ; <cite ref=\"Yevamot 39b\">Yeb. 39ᵇ</cite>, v. <cite ref=\"D01026\"><he>דָּרָא</he> I</cite>.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "V00698",
+	"slug": "תמניתא-1",
+	"headword": {
+		"text": "תַּמְנִיתָא"
+	},
+	"page": {
+		"number": 1678,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"U01473\"><he>שְׁמִינִית</he></cite>, name <i>of an</i> (<i>eight-stringed</i>) <i>musical instrument</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 15:21\">Targ. I Chr. XV, 21</cite> (v. ",
+				"<cite ref=\"Aramaic Targum to Psalms 12:1\">Targ. Ps. XII, 1</cite>)."
+			]
+		}
+	]
+}

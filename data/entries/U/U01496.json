@@ -1,0 +1,65 @@
+{
+	"id": "U01496",
+	"slug": "שמן-1",
+	"headword": {
+		"text": "שָׁמֵן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1597,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be smooth,</i>] <i>to be fat</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁמִין"],
+			"senses": [
+				{
+					"gloss": "<i>to grow fat, improve</i>. Y. B. Kam. IX, beg. 6ᵈ <he>גזל כחושה והִשְׁמִינָה</he> if he took forcibly a lean animal, and it grew fat (in his possession); <cite ref=\"Tosefta Bava Kamma 7:17\">Tosef. B. Kam. VII, 17</cite>; Bab. ",
+					"units": ["<cite ref=\"Bava Kamma 65a\">B. Kam. 65ᵃ</cite>; a. e."]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִשְׁתַּמֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to become smooth, bright; to glisten</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 34\">Gen. R. s. 34</cite> <he>כל שהוא … היא מִשְׁתַּמֶּנֶת</he> the more he beats it (the flax), the more it will glisten; <cite ref=\"Yalkut Shimoni on Torah 95\">Yalk. ib. 95</cite>; <cite ref=\"Yalkut Shimoni on Nach 654\">Yalk. Ps. 654</cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["שִׁמֵּן"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"U01500\"><he>שֶׁמֶן</he></cite>) <i>to oil</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 23a:11\">Men. 23ᵃ</cite> <he>קומץ … שׁשִׁמְּנוֹ וכ׳</he> the handful of the sinner’s meal-offering on which he (the priest) put oil, … has become unfit for the altar; <cite ref=\"Yalkut Shimoni on Torah 474:8\">Yalk. Lev. 474</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to smooth, level;</i> <he>ש׳ בין</he> <i>to compromise to average</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 87a:18\">B. Mets. 87ᵃ</cite> <he>השוכר … מְשַׁמְּנִין ביניהם</he> if one hires a laborer, saying, I will pay you as much as one or two of the inhabitants of the place get: he may pay him the lowest wages …; the scholars say, you compromise between them, i.e. you make him pay the average wages. ",
+						"<cite ref=\"Mishnah Bava Batra 7:4\">B. Bath. VII, 4</cite> <he>האומר … משמנין ביניהם וכ׳</he> if one says to his neighbor, I sell thee one-half of my field (and one part is better than the other), we compromise between them, i.e. the field is divided into two portions of equal value, but the purchaser must take whichever portion the seller may assign to him; <he>חציה בדרום … משמנין וכ׳</he> if he says, I sell thee half of the field on the south side, we compromise between them, and he gets his portion on the south side; expl. ib. 107ᵇ <he>משמנין</he> … <he>לדמי</he> ‘we compromise’ means according to value. ",
+						"<cite ref=\"Mishnah Bekhorot 2:6\">Bekh. II, 6</cite>, sq. <he>משמנין ביניהם</he> we compromise between them, i.e. the priest takes the inferior of the twin animals, and the difference in value remains under litigation; expl. ",
+						"<cite ref=\"Bekhorot 18a:9\">ib. 18ᵃ</cite> <he>מהו משמנין שומן יהא ביניהן</he> <i>m’shamm’nin</i> means, the fat one (the difference of value) remains to be decided &c., v. <cite ref=\"U00448\"><he>שׁוּמָן</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

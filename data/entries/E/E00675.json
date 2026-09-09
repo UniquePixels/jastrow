@@ -1,0 +1,57 @@
+{
+	"id": "E00675",
+	"slug": "הני-2",
+	"headword": {
+		"text": "הני"
+	},
+	"altHeadwords": [
+		{
+			"text": "הָנָה"
+		}
+	],
+	"page": {
+		"number": 357,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"E00678\"><he>הֲנָאָה</he></cite>), <i>Nif.</i> <he>נֶהֱנֶה</he> (= <cite ref=\"N00016\"><he>נֵאוֹת</he></cite>, v. <cite ref=\"A00939\"><he>אוֹת</he> I</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be pleased, to enjoy, to profit</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 20a\">B. Kam. 20ᵃ</cite>, a. fr. <he>זה נה׳</he> the one is benefitted &c., opp. <cite ref=\"H01413\"><he>חָסֵר</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Kamma 2:2\">Ib. II, 2</cite> <he>משלם מה שנֶהֱנֵית</he> he must pay for what the animal has enjoyed (eaten or drunk), contrad. to <he>מה שהזיקה</he> what she has damaged. ",
+				"<cite ref=\"Berakhot 10b:21\">Ber. 10ᵇ</cite> <he>הרוצה לֵהָנוֹת יהָנֶה וכ׳</he> (Rashi <he>לֵיהָ׳</he>) he who desires to make use (of people’s hospitalities), may do so following the example of Elisha. ",
+				"<cite ref=\"Rosh Hashanah 28a\">R. Hash. 28ᵃ</cite>, a. fr. <he>מצות לא ליהנות ניתנו</he> religious ceremonies are not considered an enjoyment (as regards the use of sacred property &c.); a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be enjoyed</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 35a:9\">Ber. 35ᵃ</cite> <he>דבר שנ׳</he> something which is enjoyable (can be eaten &c.)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִנָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to benefit, to entertain, to cause to share</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 92a:16\">Snh. 92ᵃ</cite> <he>אינו מְהַנֶּה ת״ח וכ׳</he> allows no scholar to share his wealth. ",
+						"<cite ref=\"Berakhot 63b:21\">Ber. 63ᵇ</cite> bot. <he>ומְהַנֵּהוּ וכ׳</he> and invites him to partake of his wealth. ",
+						"<cite ref=\"Mishnah Yadayim 4:3\">Yad. IV, 3</cite> <he>הרי אתה כמְהַנָּן וכ׳</he> you appear to benefit them pecuniarily, but &c. ",
+						"<cite ref=\"Avodah Zarah 16b\">Ab. Zar. 16ᵇ</cite> sq. <he>שמא דבר מינית … והִנָּאֲךָ</he> (v. Rabb. D. S. a. l. note 20) perhaps a heretical idea was communicated to thee and it pleased thee; <cite ref=\"Yalkut Shimoni on Nach 937\">Yalk. Prov. 937</cite>; a. fr. [<cite ref=\"Sanhedrin 102b:14\">Snh. 102ᵇ</cite> <he>הֶהֱנָה</he> <i>Hif.</i>, marginal note <he>היה מְהַנֶּה</he>; v. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 207:1\">Yalk. Kings 207</cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

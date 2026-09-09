@@ -1,0 +1,29 @@
+{
+	"id": "H00506",
+	"slug": "חזו-2",
+	"headword": {
+		"text": "חֵזוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֵיזוּ"
+		}
+	],
+	"page": {
+		"number": 442,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"H00507\">next w.</cite> ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 24:16\">Targ. O. Gen. XXIV, 16</cite> (ed. Berl. <he>למיחזי</he>).—",
+				"<cite ref=\"Onkelos Genesis 24:16\">Ib.</cite> ",
+				"<cite ref=\"Onkelos Numbers 12:8\">Num. XII, 8</cite>; a. e.—Pl., v. <cite ref=\"H00519\"><he>חָזוּתָא</he></cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "C01268",
+	"slug": "גרד-1",
+	"headword": {
+		"text": "גָּרַד"
+	},
+	"page": {
+		"number": 265,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"C01392\"><he>גרר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to scratch, scrape, comb</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:6\">Sabb. VIII, 6</cite> (<cite ref=\"Shabbat 81a\">81ᵃ</cite>) <he>לִגְרוֹד</he> Ar. a. ed. Y.; a. fr. [Editions a. Mss. mostly <cite ref=\"C01392\"><he>גָּרַר</he></cite> q. v.]—<i>Part. pass.</i> <cite ref=\"C01293\"><he>גָּרוּד</he></cite> <i>stripped</i>, v. <cite ref=\"C01273\"><he>גַּרְדּוּם</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"C01270\"><he>גֶּרֶד</he></cite> 2) <i>to cut the web with its fringes off the loom</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 72b:2\">Yoma 72ᵇ</cite> (expl. <he>בגדי השרד</he> <cite ref=\"Exodus 35:19\">Ex. XXXV, 19</cite>) <he>בגדים שגּוֹרְדִין אותן כברייתן מכליהן וכ׳</he> webs which they cut off the looms in their needed shape (so as to require no tailoring), leaving a small portion of the unwoven threads."
+			],
+			"label": "2"
+		}
+	]
+}

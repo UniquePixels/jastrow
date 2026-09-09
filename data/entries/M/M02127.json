@@ -1,0 +1,34 @@
+{
+	"id": "M02127",
+	"slug": "מעלא",
+	"headword": {
+		"text": "מֵעֲלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵי׳"
+		}
+	],
+	"page": {
+		"number": 817,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00816\"><he>עֲלַל</he></cite>, infin. <cite ref=\"M02123\"><he>מֵיעַל</he></cite>; cmp. <cite ref=\"B00538\"><he>בִּיאָה</he> II</cite>) <i>coming in, entering</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 21:10\">Targ. Y. II, Ex. XXI, 10</cite> [read:] <he>מֵיעֲלֵיה ומיפקיה לוותה</he> his visiting her (for marital duties); [Y. I <he>מעייל לה</he> read: <he>מֵיעֲלֵיה לה</he> or <he>מְעַיְּילֵיה</he> (fr. <cite ref=\"P00241\"><he>עוּל</he></cite>)].—",
+				"<cite ref=\"Ketubot 53a:2\">Keth. 53ᵃ</cite> <he>מֵעֲלָאִי דידי</he> my very coming in (with you).—Pl. constr. <cite ref=\"M02132\"><he>מֵעֲלֵי</he></cite>, <cite ref=\"M01574\"><he>מֵי׳</he></cite>, <cite ref=\"M02189\"><he>מַעֲ׳</he></cite>.—מ׳ שמשא <i>sunset</i>. [<cite ref=\"Daniel 6:15\">Dan. VI, 15</cite> <cite ref=\"M02132\"><he>מֵעָלֵי</he></cite>, ed. Baehr <cite ref=\"M02133\"><he>מַעֲלֵי</he></cite>.]—",
+				"<cite ref=\"Targum Jerusalem, Numbers 25:4\">Targ. Y. II, Num. XXV, 4</cite>.—<he>מ׳ שבתא</he>, <he>מ׳</he> (<he>יומא ד</he>)<he>פסחא</he> &c. <i>Sabbath eve</i> (<i>Friday</i>), <i>Passover eve</i> &c. Ib. XXII, 28.—",
+				"<cite ref=\"Targum Jonathan on Genesis 14:13\">Targ. Y. Gen. XIV, 13</cite>.—",
+				"<cite ref=\"Gittin 77a:9\">Gitt. 77ᵃ</cite>. ",
+				"<cite ref=\"Bava Metzia 49a:7\">B. Mets. 49ᵃ</cite> bot. ",
+				"<cite ref=\"Ketubot 62b:1\">Keth. 62ᵇ</cite> <he>כל מ׳ יומא וכ׳</he> every eve of the Day of Atonement. ",
+				"<cite ref=\"Ketubot 63a:2\">Ib. 63ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

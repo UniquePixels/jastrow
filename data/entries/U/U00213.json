@@ -1,0 +1,29 @@
+{
+	"id": "U00213",
+	"slug": "שגדא",
+	"headword": {
+		"text": "שִׁגְדָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1521,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U01894\"><he>שָׁקֵר</he></cite>, <i>almond, almond-tree</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 12:5\">Targ. Koh. XII, 5</cite>.—Pl. <he>שִׁגְדִּין</he>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 43:11\">Targ. O. Gen. XLIII, 11</cite>. ",
+				"<cite ref=\"Onkelos Numbers 17:23\">Targ. O. Num. XVII, 23</cite>."
+			]
+		}
+	]
+}

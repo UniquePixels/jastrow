@@ -1,0 +1,23 @@
+{
+	"id": "K00512",
+	"slug": "כיור-2",
+	"headword": {
+		"text": "כִּיּוֹר"
+	},
+	"page": {
+		"number": 631,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; cmp. <cite ref=\"K00365\"><he>כּוּר</he> II</cite>)<i>basin</i>, esp. the <i>laver</i> for the priests in the Temple court. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 3:6\">Midd. III, 6</cite>. ",
+				"<cite ref=\"Tosefta Yoma 2:2\">Tosef. Yoma II, 2</cite>; a. e."
+			]
+		}
+	]
+}

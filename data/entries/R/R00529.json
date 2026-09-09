@@ -1,0 +1,30 @@
+{
+	"id": "R00529",
+	"slug": "צלמונא",
+	"headword": {
+		"text": "צַלְמוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צַלְמוֹנָה"
+		}
+	],
+	"page": {
+		"number": 1285,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"R00529\"><he>צַלְמֹנָה</he></cite>) pr. n. pl. <i>Zalmonah</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Orlah 1:2:8\">Y. Orl. I, 61ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Maasrot 1:1:3\">Y. Maasr. I, beg. 48ᶜ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>darkness</i>, name of Gehenna, v. <cite ref=\"R00531\"><he>צַלְמָוֶת</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

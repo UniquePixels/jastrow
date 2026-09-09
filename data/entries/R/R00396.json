@@ -1,0 +1,24 @@
+{
+	"id": "R00396",
+	"slug": "צינית-2",
+	"headword": {
+		"text": "צִינִּית",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1278,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00635\"><he>צָנַן</he></cite>, v. <cite ref=\"R00608\"><he>צִנָּה</he> II</cite>) <i>callosity, callus</i> (on the sole of the foot). ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 6:6\">Sabb. VI, 6</cite>, expl. ",
+				"<cite ref=\"Shabbat 65a:13\">ib. 65ᵃ</cite> <he>בת ארעא</he> a growth caused by the soil, v. <cite ref=\"A03221\"><he>אַרְעָא</he></cite>."
+			]
+		}
+	]
+}

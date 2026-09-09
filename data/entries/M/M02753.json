@@ -1,0 +1,32 @@
+{
+	"id": "M02753",
+	"slug": "מרץ",
+	"headword": {
+		"text": "מָרַץ"
+	},
+	"page": {
+		"number": 846,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; sec. r. of <cite ref=\"T00427\"><he>רוץ</he></cite>)<i>to quicken</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִמְרָץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be made rapid, to flow rapidly</i> in a gutter. ",
+					"units": [
+						"<cite ref=\"Tosefta Parah 9:8\">Tosef. Par. IX</cite> (<cite ref=\"Tosefta Parah 8:8\">VIII</cite>), 8 <he>המים הנמשכין והנִמְרָצִין</he> ed. Zuck. (Var. <he>והנגררין</he>, v. <cite ref=\"N00184\"><he>נָגַר</he></cite>; R. S. to <cite ref=\"Mishnah Parah 9:5\">Par. IX, 5</cite> <he>והנזרקין</he>) water running slowly in a channel or rapidly in a gutter. ",
+						"<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite> (play on <he>נ̇מ̇ר̇ץ̇</he>, <cite ref=\"Micah 2:10\">Mic. II, 10</cite>) <he>נ̇ואף מ̇מזר וכ׳</he>; <cite ref=\"Shabbat 105a\">Sabb. 105ᵃ</cite> (play on <he>נ̇מ̇ר̇צ̇ת</he>, <cite ref=\"I Kings 2:8\">I Kings II, 8</cite>), v. <cite ref=\"N00351\"><he>נוֹטָרִיקוֹן</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

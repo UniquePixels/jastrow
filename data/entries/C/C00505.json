@@ -1,0 +1,25 @@
+{
+	"id": "C00505",
+	"slug": "גושמא",
+	"headword": {
+		"text": "גּוּשְׁמָא"
+	},
+	"page": {
+		"number": 228,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C01415\"><he>גשם</he></cite>, cmp. <cite ref=\"C01416\"><he>גֶּשֶׁם</he></cite>) <i>matter, substance, body</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 22:21\">Targ. Ps. XXII, 21</cite>; a. fr.—",
+				"<cite ref=\"Aramaic Targum to Job 20:20\">Targ. Job XX, 20</cite> (h. text <he>חמודו</he>).—Pl. <he>גּוּשְׁמִין</he>, <he>גּוּשְׁמַיָּיא</he>. ",
+				"<cite ref=\"Targum of II Chronicles 20:24\">Targ. II Chr. XX, 24</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 88:11\">Targ. Ps. LXXXVIII, 11</cite>; a. e. V. <cite ref=\"C01417\"><he>גִּשְׁהָא</he></cite>."
+			]
+		}
+	]
+}

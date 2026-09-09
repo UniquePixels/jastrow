@@ -1,0 +1,23 @@
+{
+	"id": "A02089",
+	"slug": "אנבול",
+	"headword": {
+		"text": "אִנְבּוֹל"
+	},
+	"page": {
+		"number": 80,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"P00605\"><he>עִינְבּוֹל</he></cite>, v. <cite ref=\"A01970\"><he>אִמְבּוֹל</he></cite>) <i>clapper of a bell.—</i>Pl. <he>אִנְבּוֹלִים</he>, <he>ין …</he> <cite ref=\"Zevachim 88b\">Zeb. 88ᵇ</cite> Ar. (ed. <he>עינבלין</he>). ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 1:13\">Tosef. Kel. B. Mets. I, 13</cite> <he>עשה לה האנבילים</he> ed. Zuck. (read … <he>להם אנבולים</he>) if he put clappers in. ",
+				"<cite ref=\"Tosefta Keilim Metsia 1:13\">Ib.</cite> <he>אנביליהן</he> (corr. acc.)."
+			]
+		}
+	]
+}

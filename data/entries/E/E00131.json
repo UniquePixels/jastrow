@@ -1,0 +1,47 @@
+{
+	"id": "E00131",
+	"slug": "הדם-1",
+	"headword": {
+		"text": "הֲדַם"
+	},
+	"page": {
+		"number": 333,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to dissect, dismember, tear to pieces</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 14:6\">Targ. Jud. XIV, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 19:29\">Ib. XIX, 29</cite>; <cite ref=\"Targum Jonathan on Judges 20:6\">XX, 6</cite> (v. Ar. ed. Koh. s. v.); a. e.—",
+				"<cite ref=\"Avodah Zarah 38b\">Ab. Zar. 38ᵇ</cite> <he>דילמא הַדּוּמֵי הַדְּמוּהָ וכ׳</he> Ms. M. a. Ar. (ed. <he>אדמויי אַדְּמוּהָ</he>, read <cite ref=\"A00384\"><he>אַדּוּמֵי</he></cite>) perhaps they carved the bird and then put it into the pot. ",
+				"<cite ref=\"Eruvin 30a:4\">Erub. 30ᵃ</cite> <he>הַדּוּמֵי נִיהַדְּמֵיה</he> shall we cut him apart?—",
+				"<cite ref=\"Beitzah 24b:8\">Bets. 24ᵇ</cite> <he>דאַדִּימֵי</he> (ed. Sonc. a. Ven. <he>דהַדִּימֵי</he>, v. Rabb. D. S. a. l. note) fish that were dissected (Rashi: <i>red</i>, v. <cite ref=\"A00400\"><he>אֲדִימָּא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>אֲהַדֵּם</he> (denom. of <cite ref=\"E00132\">next w.</cite>) <i>to arrange the parts of an animal</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 67b:20\">Gitt. 67ᵇ</cite> <he>אֲהַדְּמוּ לי הַדָּמֵי דחיותא</he> arrange before me the limbs of the (dissected) animal."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "(<cite ref=\"A00417\"><he>אַדֵּם</he></cite>) <cite ref=\"E00132\"><he>הַדֵּם</he></cite> ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

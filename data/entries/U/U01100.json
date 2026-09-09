@@ -1,0 +1,32 @@
+{
+	"id": "U01100",
+	"slug": "שית-1",
+	"headword": {
+		"text": "שִׁית",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1570,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; sec. r. of <cite ref=\"U00337\"><he>שָׁוָה</he></cite>)<i>to place, set, make</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵשִׁית"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01099\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 27a:2\">Snh. 27ᵃ</cite> (ref. to <cite ref=\"Exodus 23:1\">Ex. XXIII, 1</cite>) <he>אל תָּשֶׁת רשע עד</he> make not a wicked man a witness (disqualify him); <he>אל תשת חמס עד</he> allow not violence (robbers) to testify; Mekh. Mishp., s. 20; <cite ref=\"Yalkut Shimoni on Torah 352\">Yalk. Ex. 352</cite>.—[<cite ref=\"Yalkut Shimoni on Nach 620:4\">Yalk. Ps. 620</cite> <he>השיתיו</he>, v. <cite ref=\"U02093\"><he>שָׁתָה</he> II</cite>.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

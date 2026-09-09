@@ -1,0 +1,25 @@
+{
+	"id": "E00820",
+	"slug": "הרגשה",
+	"headword": {
+		"text": "הַרְגָּשָׁה"
+	},
+	"page": {
+		"number": 365,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00224\"><he>רָגַשׁ</he></cite>, Hif.) <i>sensation, perception, sensuous affection</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 43a:35\">Nidd. 43ᵃ</cite> <he>נעקרה בה׳</he> he felt the effusion coming, <he>ויצתה שלא בה׳</he> but the discharge was not perceived. ",
+				"<cite ref=\"Niddah 57b:22\">Ib. 57ᵇ</cite> <he>הַרְגָּשַׁת מי וכ׳</he> the sensation of discharging urin; a. fr. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 42:5\">Yalk. Jud. 42</cite> <he>לכל ה׳ וה׳</he> to every <i>sense</i>.—Pl. <he>הַרְגָּשׁוֹת</he> <i>senses</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 14:4\">Num. R. s. 14</cite> <he>כנגד חמש ה׳ וחמש מורגשות</he> corresponding to the five senses and the five perceptions."
+			]
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"id": "A01873",
+	"slug": "אליעזר",
+	"headword": {
+		"text": "אֱלִיעֶזֶר"
+	},
+	"page": {
+		"number": 70,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Eliezer</i>,",
+			"units": []
+		},
+		{
+			"gloss": " servant of Abraham. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 44:23\">Gen. R. s. 44</cite>; a. fr. "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " several Tanaim: ",
+			"units": [],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " E. ben Hyrcanus; E. b. Jacob, E. bar Zadok, disciples of R. Johanan b. Zaccai of the second gener.—",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " E. b. Judah, E. b. Matathias; E. b. Ḥisma, of the third gener.—",
+					"units": [],
+					"label": "b"
+				},
+				{
+					"gloss": " E. hak-Kappar, a late member of the fifth gener.",
+					"units": [],
+					"label": "c"
+				}
+			]
+		}
+	]
+}

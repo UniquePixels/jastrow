@@ -1,0 +1,24 @@
+{
+	"id": "M02517",
+	"slug": "מרגלא-1",
+	"headword": {
+		"text": "מַרְגְּלָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 835,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00203\"><he>רְגַל</he></cite>, v. <cite ref=\"T00191\"><he>רָגִיל</he></cite>) <i>habitual saying, a familiar word;</i> <he>מ׳ בפומיה ד־</he> used to say. ",
+			"units": [
+				"<cite ref=\"Berakhot 17a:7\">Ber. 17ᵃ</cite>.—",
+				"<cite ref=\"Sanhedrin 50b:10\">Snh. 50ᵇ</cite>; <cite ref=\"Zevachim 36b:10\">Zeb. 36ᵇ</cite> (of a traditional law)."
+			]
+		}
+	]
+}

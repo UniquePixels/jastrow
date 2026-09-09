@@ -1,0 +1,46 @@
+{
+	"id": "S00890",
+	"slug": "קיטא-1",
+	"headword": {
+		"text": "קַיְטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַיְי׳"
+		}
+	],
+	"page": {
+		"number": 1357,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קוּט</he> <i>to shrink, be hot</i>) = h. <cite ref=\"S01116\"><he>קַיִץ</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>heat, summer, ripening</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 8:22\">Targ. O. Gen. VIII, 22</cite> (ed. Berl. a. Y. <cite ref=\"S00890\"><he>קִיְטָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 28:4\">Targ. Is. XXVIII, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Amos 3:15\">Targ. Am. III, 15</cite>; a. fr.—",
+				"<cite ref=\"Yoma 29a:1\">Yoma 29ᵃ</cite> <he>שילהי דק׳ וכ׳</he> the expiration of the summer is more trying than the summer itself. ",
+				"<cite ref=\"Yoma 29a:2\">Ib.</cite> <he>אישתא … מדק׳</he> a fever in winter is severer than in summer. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 2:1:10\">Y. Taan. II, 65ᵇ</cite> top, v. <cite ref=\"O01684\"><he>סִתְוָא</he></cite>. Lam. R. introd. (R. Joh. 1), v. <cite ref=\"I00318\"><he>טִיהֲרָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:2:15\">Y. Maasr. I, 49ᵃ</cite> top, v. <cite ref=\"R00577\"><he>צַמְיָיא</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sun-dried fruit</i>, esp. <i>figs</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 8:1\">Targ. Am. VIII, 1</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on Micah 7:1\">Targ. Mic. VII, 1</cite> (usu. <cite ref=\"D00060\"><he>דבילתא</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

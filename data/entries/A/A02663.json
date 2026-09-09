@@ -1,0 +1,32 @@
+{
+	"id": "A02663",
+	"slug": "אפטרה",
+	"headword": {
+		"text": "אַפְטָרָה"
+	},
+	"page": {
+		"number": 102,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00550\"><he>פטר</he></cite>, Nif. <cite ref=\"Q00547\"><he>נִפְטַר</he></cite> <i>to part;</i> v. <cite ref=\"E00730\"><he>הַפְטָרָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>farewell-address, homiletic observations made on parting with the host that entertained scholars, toast</i> (in praise of hospitality, charity, support of students &c.). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 60:7\">Gen. R. s. 60</cite> R. Y. <he>עבד לה א׳</he> used the (preceding) text for a toast; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"A02665\"><he>אַפְטַרְתָּא</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

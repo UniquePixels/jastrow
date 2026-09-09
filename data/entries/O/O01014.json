@@ -1,0 +1,23 @@
+{
+	"id": "O01014",
+	"slug": "סלסלין",
+	"headword": {
+		"text": "סַלְסִלִּין"
+	},
+	"page": {
+		"number": 996,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. ch. <cite ref=\"O01013\">same</cite>, <i>the grape-cutter’s small baskets</i> for the gleanings. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 6:9\">Targ. Jer. VI, 9</cite>."
+			]
+		}
+	]
+}

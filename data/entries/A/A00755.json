@@ -1,0 +1,24 @@
+{
+	"id": "A00755",
+	"slug": "אונסא-1",
+	"headword": {
+		"text": "אוּנְסָא"
+	},
+	"page": {
+		"number": 29,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (= h. <cite ref=\"A00753\"><he>אוֹנֶס</he></cite>, v. <cite ref=\"A00754\">foreg.</cite>) <i>force, wrong, robbery; accident</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 31:12\">Targ. Y. Gen. XXXI, 12</cite>; a. fr.—",
+				"<cite ref=\"Gittin 34a:13\">Git. 34ᵃ</cite>. <he>אי משום א׳</he> shall we take into consideration the possibility of an unavoidable accident?—Pl. <he>אוֹנְסַיָּא</he>. ",
+				"<cite ref=\"Nedarim 27b:3\">Ned. 27ᵇ</cite> <he>א׳ דמיגליא</he> (read <he>דמיגליי</he>, Rashi <he>אונסא</he>) accidents which may be foreseen."
+			]
+		}
+	]
+}

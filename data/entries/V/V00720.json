@@ -1,0 +1,33 @@
+{
+	"id": "V00720",
+	"slug": "תנאי-2",
+	"headword": {
+		"text": "תַּנַּאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּנַּיי"
+		},
+		{
+			"text": "תַּנָּיָיא"
+		}
+	],
+	"page": {
+		"number": 1680,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"V00716\"><he>תַּנָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 7:2:4\">Y. Peah VII, 20ᵃ</cite> <he>אית ת׳ תני וכ׳</he> one Tannai reads …, and another Tannai reads &c. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:2:25\">Y. Kidd. I, 59ᶜ</cite> bot. <he>ואתיא … כהדין ת׳ וכ׳</he> and this opinion of Bar P. follows that of the Tannai who taught &c. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:2:25\">Ib.</cite> <he>מה מקיים הדין ת׳ לאמה</he> how does this Tannai account for the word <i>amah</i>?; a. fr.—Pl. <he>תַּנָּאִין</he>, <he>תַּנָּאֵי</he> (v. <cite ref=\"V00716\"><he>תַּנָּא</he></cite>), <cite ref=\"V00745\"><he>תַּנָּיִין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:2:25\">Ib.</cite> <he>ת׳ אינון</he> there are two opinions of Tannaim about it; a. fr."
+			]
+		}
+	]
+}

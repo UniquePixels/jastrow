@@ -1,0 +1,32 @@
+{
+	"id": "U01409",
+	"slug": "שמא",
+	"headword": {
+		"text": "שֶׁמָּא"
+	},
+	"page": {
+		"number": 1591,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>שַׁלָּמָּה</he>, v. <cite ref=\"D00608\"><he>דִּילְמָא</he> I</cite>) [<i>for why</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lest, perhaps</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 2:4\">Ab. II, 4</cite>, v. <cite ref=\"Q01162\"><he>פָּנָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:2:3\">Y. Ab. Zar. I, 39ᶜ</cite> top [read:] <he>אי לי ש׳ מי שכתוב … עקב יבוא לנשכיני</he> woe is me, (I am afraid,) lest he of whom it is written (<cite ref=\"Genesis 3:15\">Gen. III, 15</cite>) … come to bite me; Bab. ",
+				"<cite ref=\"Avodah Zarah 8a:7\">Ab. Zar. 8ᵃ</cite> <he>אוי לי ש׳ בשביל וכ׳</he> woe is me, lest the world grow dark around me, because I have sinned. ",
+				"<cite ref=\"Ketubot 12a:5\">Keth. 12ᵃ</cite> <he>וניחוש ש׳ תחתיו וכ׳</he> but must we not consider the possibility that she may have prostituted herself while she was engaged to him?; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>שמא</he> m. <i>apprehension, doubt, possibility</i>. Ib. 14ᵃ <he>התם ברי הכא ש׳</he> there she asserts a certainty, here a possibility (as she cannot be certain about it herself). Ib. <he>וקיל ליה ש׳ וכ׳</he> and he regards this statement of a possibility so lightly that &c. Ib. <he>אפי׳ בש׳ נמי מכשיר</he> even with her uncertain assertion he declares her fit for marriage. Ib. 12ᵇ, a. fr. <he>ברי וש׳</he>, v. <cite ref=\"B01239\"><he>בָּרִי</he></cite>; a. fr.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

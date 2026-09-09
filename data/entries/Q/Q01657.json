@@ -1,0 +1,33 @@
+{
+	"id": "Q01657",
+	"slug": "פרוזדאות",
+	"headword": {
+		"text": "פְּרוּזְדָּאוֹת"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּרוּסְדָּאוֹת"
+		},
+		{
+			"text": "דָּיוֹת"
+		}
+	],
+	"page": {
+		"number": 1219,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (an adapt. of praesidia) <i>posts, guards</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 28a:10\">Taan. 28ᵃ</cite> <he>הושיבו פ׳ על הדרכים וכ׳</he> (Ms. M. <cite ref=\"Q01592\"><he>פרדסייות</he></cite>, <he>פרדסייא</he>; Ms. M. 2 <he>פַּרְסַדְיָאוֹת</he>, <he>פַּרְסִידָאוֹת</he>, v. Rabb. D. S. a. l. notes 7, 9) they placed guards on the roads as Joroboam had done to prevent pilgrims &c.; Tosef. ib. IV (III), 7 <cite ref=\"Q01592\"><he>פרדסיאות</he></cite>, <cite ref=\"Q01592\"><he>פרדסאות</he></cite> (Var. <he>פרסדיאות</he>); Y. ib. IV, 68ᵇ bot. <he>פרסדאות</he>; <cite ref=\"Yalkut Shimoni on Nach 946:3\">Yalk. Prov. 946</cite> <he>פרדסיא׳</he>. ",
+				"<cite ref=\"Taanit 30b:13\">Taan. 30ᵇ</cite> <he>יום שביטל … פרוסדיות</he> (Ms. M. <he>פרדסייאות</he>) on the day that Hosea … removed the guards which Joroboam &c.; <cite ref=\"Bava Batra 121b\">B. Bath. 121ᵇ</cite> <cite ref=\"Q01592\"><he>פרדסאות</he></cite> (Ms. R. <cite ref=\"Q01592\"><he>פרדסיאות</he></cite>, <he>פרדסיות</he>); <cite ref=\"Gittin 88a\">Gitt. 88ᵃ</cite> <cite ref=\"Q01592\"><he>פרדסיאות</he></cite>. ",
+				"<cite ref=\"Moed Katan 28b\">M. Kat. 28ᵇ</cite> <cite ref=\"Q01592\"><he>פרדסאות</he></cite>."
+			]
+		}
+	]
+}

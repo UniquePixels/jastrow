@@ -1,0 +1,23 @@
+{
+	"id": "C00459",
+	"slug": "גופן-1",
+	"headword": {
+		"text": "גּוֹפֶן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 225,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C01204\"><he>גפן</he></cite>, v. H. Dict. s. v.) <i>curve,</i> trnsf<i>. character of letters</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 9a:1\">Meg. 9ᵃ</cite> <he>בג׳ שלנו</he> in our (Hebrew) characters, <he>בג׳ שלהן</he> in their (foreign) characters. [Ar. reads <cite ref=\"C00794\"><he>גיפן</he></cite>.]—Y. ib. II, beg. 73ᵃ <he>שהיתה כתובה גיגנטון</he>, read: <he>שתהיה כתובה בגוֹפְנָן</he> it must be written in our characters (though in a foreign language)."
+			]
+		}
+	]
+}

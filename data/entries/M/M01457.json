@@ -1,0 +1,36 @@
+{
+	"id": "M01457",
+	"slug": "מכתשת",
+	"headword": {
+		"text": "מַכְתֶּשֶׁת"
+	},
+	"page": {
+		"number": 785,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01456\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mortar</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 4:3\">B. Bath. IV, 3</cite> <he>המ׳ הקבועה</he> the stationary mortar in the house. ",
+				"<cite ref=\"Bava Batra 65b\">Ib. 65ᵇ</cite>; Tosaf. ib. III, 1 <he>המ׳ חקוקה</he> a mortar hewn out of a rock in the house. ",
+				"<cite ref=\"Taanit 28a\">Taan. 28ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cavity</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Niddah 8:6\">Tosef. Nidd. VIII, 6</cite>; <cite ref=\"Niddah 61a:33\">Nidd. 61ᵃ</cite> <he>מ׳ מלאה עצמות</he> a hole in the ground full of bones."
+			],
+			"label": "2"
+		}
+	]
+}

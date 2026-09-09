@@ -1,0 +1,48 @@
+{
+	"id": "G00634",
+	"slug": "זקיפא-1",
+	"headword": {
+		"text": "זְקִיפָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זִיקְפָּא"
+		}
+	],
+	"page": {
+		"number": 408,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00633\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>pole, scaffolding, gallows</i>. Targ. II Esth. II, 7; a. e.—",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 10:10\">Targ. I Chr. X, 10</cite> <cite ref=\"G00657\"><he>זיק׳</he></cite>.—",
+				"<cite ref=\"Megillah 16b:10\">Meg. 16ᵇ</cite> <he>וי״ו … למימתחה כז׳</he> (Asheri <he>כי ז׳</he>; ed. <he>בז׳</he> incorr.; v. Rabb. D. S. a. l. note 6) you must extend the <i>Vav</i> of <he>ויזתא</he> (<cite ref=\"Esther 9:9\">Esth. IX, 9</cite>) as long as a pole; <he>כולהו בחד ז׳ וכ׳</he> (ed. <cite ref=\"G00636\"><he>זקיפה</he></cite>, Ms. H. 2 <he>בז׳ חדא</he>; Asheri <he>בחדא ז׳</he>) they were all hanged on one pole (at the same execution, v. infra).—",
+				"<cite ref=\"Bava Metzia 83b:10\">B. Mets. 83ᵇ</cite> <he>תותי ז׳</he> under the gallows. ",
+				"<cite ref=\"Avodah Zarah 18b:2\">Ab. Zar. 18ᵇ</cite> <he>אסקוה לז׳</he> they took him out for execution."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (part. pass. of <cite ref=\"G00650\"><he>זְקֵף</he></cite>) <i>hanged, culprit</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 59b:15\">B. Mets. 59ᵇ</cite>, v. <cite ref=\"D00540\"><he>דְּיוּקְתָּא</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (fem.) <i>execution</i>, v. supra.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"id": "S01316",
+	"slug": "קלי-3",
+	"headword": {
+		"text": "קלי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָלָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1375,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be light, disregarded</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִלָּה", "קִילָּה"],
+			"senses": [
+				{
+					"gloss": " (by ref. to <he>ונקלה</he>, <cite ref=\"Deuteronomy 25:3\">Deut. XXV, 3</cite>) <i>to disgrace</i> (one’s self), <i>to have loose bowels; to collapse under the lashes</i>. ",
+					"units": [
+						"<cite ref=\"Makkot 23a:17\">Macc. 23ᵃ</cite> <he>ק׳ בין בראשונה וכ׳</he> if he collapses either at the first or at the second lash, he must be released. Tosef. ib. V (IV), 14 <he>אם קי׳ באחד מהן</he> if he collapsed at one of them. ",
+						"<cite ref=\"Makkot 23a:17\">Ib.</cite> <he>ק׳ עד שלא לקה</he> if he collapsed (from fear) before receiving lashes. ",
+						"<cite ref=\"Makkot 23a:17\">Ib.</cite> <he>אמדוהו שאם ילקה וקי׳</he> (Var. <he>יקלקל</he>) if the experts opine that he will collapse, when he is lashed; <he>שאם יוצא מב״ד קי׳</he> (Var. <he>וקלקל</he>) that he will collapse on leaving the court; Macc. l. c. <he>יְקַלֶּה</he> Ms. M. (or <he>יִקָּלֶה</he>; ed. <he>קלה</he>). Ib. <he>והכהו … ולא שיקלה כבר וכ׳</he> Ms. M. (ed. <he>שלקה</he>, corr. acc.; Var. <he>שנִקְלָה</he>) we read, ‘lest if he should exceed …, thy brother be disgraced’, but he must not be beaten at all, if he has collapsed in court ere this; <cite ref=\"Yalkut Shimoni on Torah 937:14\">Yalk. Deut. 937</cite> <he>שנקלה וכ׳</he>; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִקְלָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be disgraced</i>. Ib. <he>כפתוהו … מ״ט ונקלה והא נ׳</he> if he runs away from court after they have tied him, he is released; why? The text says, <i>v’niḳlah</i>, and he has been disgraced; Macc. l. c. Ms. M. (not in ed.), v. supra; a. e.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

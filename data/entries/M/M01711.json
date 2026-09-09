@@ -1,0 +1,43 @@
+{
+	"id": "M01711",
+	"slug": "מנגנון",
+	"headword": {
+		"text": "מַנְגָּנוֹן"
+	},
+	"page": {
+		"number": 796,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (μάγγανον) <cite ref=\"M01710\">same</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>charm, potion</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 88\">Gen. R. s. 88</cite> <he>מ׳ עשו לו לחנקו</he> (ed. Wil. <cite ref=\"M01711\"><he>מַנְגָּנִין</he></cite>, pl.) they prepared a charm for him to choke him."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>art, contrivance</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 18\">Ex. R. s. 18</cite> (play on <he>נגינתי</he>, <cite ref=\"Psalms 77:7\">Ps. LXXVII, 7</cite>) <he>מ׳ שעשית וכ׳</he> (ed. Wil. <i>pl.</i>) thy contrivance in Egypt (in not sending the plague of the first-born at once). ",
+				"<cite ref=\"Psalms 77:7\">Ib.</cite> <he>מי יודע מ׳ וכ׳</he> (ed. Wil. <cite ref=\"N00172\"><he>נגנין</he></cite>, corr. acc.) who understands thy contrivances at the Red Sea (when those who had drowned the Israelitish children, were drowned)? Tanḥ. B’har 2 <he>הופך אני מ׳ שלי וכ׳</he> (not <he>שלו</he>) I will reverse my plans and make him (the poor) rich &c. Y’lamd. to Deut. VII, 12, quot. in Ar. <he>הפך הקב״ה עליו מ׳</he> the Lord turned the plan (of drowning the Israelites) against him (v. supra)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>mechanic contrivance, machine</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 20\">Lev. R. s. 20</cite>, beg. <he>לא היה יודע מ׳ שלו</he> Ar. (ed. <he>מנהגיו</he>) he did not know the mechanism (of the throne of Solomon); Pesik. Aḥăré, p. 168ᵃ <he>מנהג מנגטן שלו</he> (corr. acc.); Tanḥ. Vaëthḥ. 1 <he>מנגנין</he> (corr. acc.).—",
+				"<cite ref=\"Yalkut Shimoni on Nach 1046:1\">Yalk. Esth. 1046</cite>; Targ. II Esth. I, 2 <he>במ׳</he> by machinery (in the throne of Solomon).—Pl. <cite ref=\"M01711\"><he>מַנְגָּנִין</he></cite>, <cite ref=\"M01711\"><he>מַנְגָּנוֹת</he></cite>. Ib. Yalk. l. c. <he>היו מנגנות פוקעים</he> the machinery burst; a. fr. (v. supra).—<he>מַנְגָּנַיָּא</he>, <he>מַנְגָּנַיָּיה</he>, v. <cite ref=\"M01710\">preced.</cite>"
+			],
+			"label": "3"
+		}
+	]
+}

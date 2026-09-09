@@ -1,0 +1,86 @@
+{
+	"id": "H01899",
+	"slug": "חתם-1",
+	"headword": {
+		"text": "חָתַם"
+	},
+	"page": {
+		"number": 513,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. b. h. <he>חָתַל</he>), <i>to tie up, close, lock</i>. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Genesis 1:1\">B’resh. 1</cite> <he>ח׳ את הים וכ׳</he> he locked the Ocean up, that it might not go forth &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to seal</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:19\">Y. Ab. Zar. III, 42ᶜ</cite> bot. <he>טבעת שׂחוֹתֵם בה</he> the ring with which he seals. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:19\">Ib.</cite> <he>אסור לַחְתּוֹם בה</he> you dare not use it for a seal; <cite ref=\"Tosefta Avodah Zarah 5:2\">Tosef. ib. V</cite> (<cite ref=\"Tosefta Avodah Zarah 6:2\">VI</cite>), 2; a. fr.—2) <i>to sign, subscribe</i> (as witness, judge &c.) <cite ref=\"Mishnah Gittin 6:7\">Gitt. VI, 7</cite> <he>אחד … חוֹתְמִין</he> one writes the document and two sign it as witnesses. ",
+				"<cite ref=\"Gittin 66b:13\">Ib. 66ᵇ</cite> <he>ח׳ סופר</he> if the scribe signed as one of the witnesses. ",
+				"<cite ref=\"Gittin 67a:13\">Ib. 67ᵃ</cite> <he>ואתם חֲתוֹמוּ</he> and sign you. ",
+				"<cite ref=\"Mishnah Sheviit 10:4\">Shebi. X, 4</cite> <he>הדיינים חותמין וכ׳</he> the judges sign under it; a. fr.—Part. pass. <cite ref=\"H01876\"><he>חָתוּם</he></cite>, f. <he>חֲתוּמָה</he>; pl. <he>חֲתוּמִים</he>, <he>חֲתוּמִין</he>; <he>חֲתוּמוֹת</he>. ",
+				"<cite ref=\"Yevamot 25b\">Yeb. 25ᵇ</cite>, a. e. <he>עדים הח׳ וכ׳</he> if witnesses are signed &c.; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to close</i> a benediction (v. <cite ref=\"H01888\"><he>חֲתִימָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 10:6\">Pes. X, 6</cite> <he>וחותם בגאולה</he> and he closes with redemption (Blessed be the Lord who redeemed Israel). ",
+				"<cite ref=\"Mishnah Pesachim 10:6\">Ib.</cite> <he>לא היה חותם</he> he did not close with a benediction. ",
+				"<cite ref=\"Mishnah Berakhot 1:4\">Ber. I, 4</cite> <he>מקום שאמרו לַחְתּוֹם</he> where the Rabbis ordained to close a benediction with Barukh &c.; a. fr.—Part. pass. as ab. ",
+				"<cite ref=\"Gittin 60a:7\">Gitt. 60ᵃ</cite> <he>תורה ח׳ ניתנה</he> the Law was given as one complete book, opp. <he>מגילה מגילה</he> in single sheets. [<cite ref=\"Shir HaShirim Rabbah 1:11\">Cant. R. to I, 11</cite>, v. next w.]"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִיתֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to provide with signatures</i>. Y. Gitt. I, beg. 43ᵃ, a. e. <he>מְחַתְּמוֹ בעדים וכ׳</he> he may have provided it with the signatures of unfit witnesses. ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>חִתְּמוֹ וכ׳</he>.—<i>Part. pass.</i> <he>מְחוּתָּם</he>. Y. Keth. II, 26ᶜ; Y. Shebu. IV, 35ᶜ <he>מח׳ בארבע וכ׳</he> provided with four signatures."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נֶחְתַּם"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְחַתֵּם"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <cite ref=\"H01902\"><he>נִתְחַתֵּם</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be signed, sealed</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Gittin 1:1\">Gitt. I, 1</cite> <he>בפני נח׳</he> (Y. ed. <cite ref=\"H00613\"><he>נתח׳</he></cite>) in my presence has it been signed; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be finally sentenced</i> (by attaching the seal or signature). ",
+					"units": [
+						"<cite ref=\"Rosh Hashanah 16b:15\">R. Hash. 16ᵇ</cite> <he>נכתבין ונֶחְתָּמִין וכ׳</he> their verdict is written and sealed at once; Y. ib. I, 57ᵃ <he>מִתְחַתְּמִין</he>. ",
+						"<cite ref=\"Bereishit Rabbah 31\">Gen. R. s. 31</cite>, beg. <he>נתח׳ גזר דינם</he> their decree was sealed; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

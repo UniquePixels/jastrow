@@ -1,0 +1,39 @@
+{
+	"id": "U01441",
+	"slug": "שמועה-2",
+	"headword": {
+		"text": "שְׁמוּעָה"
+	},
+	"page": {
+		"number": 1593,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U01511\"><he>שָׁמַע</he></cite>)<i>report, news</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 3a:1\">R. Hash. 3ᵃ</cite> (ref. to <cite ref=\"Numbers 21:1\">Num. XXI, 1</cite>) <he>מה ש׳ שמע וכ׳</he> what was the report he heard? He heard that Aaron was dead. Ib. 18ᵇ <he>שבו באת ש׳ וכ׳</he> on it (the fifth of Tebeth) came the report to the captivity that the city was taken (<cite ref=\"Ezekiel 33:21\">Ez. XXXIII, 21</cite>); <he>עשו יום ש׳ וכ׳</he> they observed mourning on the day they heard the news, as they would have done on the day when the Temple was burnt. ",
+				"<cite ref=\"Ketubot 62a:4\">Keth. 62ᵃ</cite> <he>ש׳ דבית המקדש</he> the news of the destruction of the Temple. ",
+				"<cite ref=\"Moed Katan 20b:4\">M. Kat. 20ᵇ</cite>, a. fr. <he>ש׳ רחוקה</he> the news of the death of a relative received after thirty days from the time of death; <he>ש׳ קרובה</he> news received within thirty days. ",
+				"<cite ref=\"Sanhedrin 110a:5\">Snh. 110ᵃ</cite>; a. fr.—Pl. <he>שְׁמוּעוֹת</he>. ",
+				"<cite ref=\"Mishnah Berakhot 9:2\">Ber. IX, 2</cite>, v. <cite ref=\"B01352\"><he>בְּשׂוֹרָה</he></cite>. ",
+				"<cite ref=\"Moed Katan 26a:18\">M. Kat. 26ᵃ</cite> <he>ש׳ הרעות</he> bad news; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>tradition, traditional decision, legal discussion</i> (<cite ref=\"E00566\"><he>הֲלָכָה</he></cite>). Ib. 23ᵃ <he>אין אומרים ש׳ והגדה וכ׳</he> you must not speak of legal subjects or homiletical interpretations in the house of mourning. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 88a:15\">Snh. 88ᵃ</cite> <he>הוא אומר מפי הש׳</he> if he says, I gave my decision on the basis of a tradition, opp. <he>כך הוא בעיני</he> it is my own opinion. ",
+				"<cite ref=\"Mishnah Eduyot 5:7\">Eduy. V, 7</cite> <he>אני עמדתי בשְׁמוּעָתִי</he> … <he>בשְׁמוּעָתָן</he> I stood by my tradition, and they by theirs. ",
+				"<cite ref=\"Eruvin 64a:8\">Erub. 64ᵃ</cite> <he>כל האומר ש׳ זו וכ׳</he> he who says, this traditional decision is good, the other is not &c. ",
+				"<cite ref=\"Menachot 18a:6\">Men. 18ᵃ</cite> <he>כמדומה אני שלא כיווננו שְׁמוּעָתֵינוּ וכ׳</he> it seems to me that until now our traditions did not correspond; <cite ref=\"Tosefta Zevahim 2:17\">Tosef. Zeb. II, 17</cite> <he>שמועתן</he> (corr. acc.); a. fr.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Chagigah 14a:10\">Ḥag. 14ᵃ</cite> <he>גבור בעל ש׳</he> ‘a mighty man’ (<cite ref=\"Isaiah 3:2\">Is. III, 2</cite>) that means a man knowing many legal traditions.—[<cite ref=\"U01441\"><he>שְׁמוּעָה</he></cite> in Chald. dict., v. next w.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "K00004",
+	"slug": "כאב-1",
+	"headword": {
+		"text": "כָּאֵב"
+	},
+	"page": {
+		"number": 606,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be heavy, to feel pain</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 9:3:5\">Y. Sabb. IX, 12ᵃ</cite> ib. XIX, 17ᵃ bot. (ref. to <cite ref=\"Genesis 34:25\">Gen. XXXIV, 25</cite>) <he>בהיותו כּוֹאֵב כל איבריהם כּוֹאֲבִים עליהם …</he> it does not say, ‘when it (the wound) was painful’, but …, which intimates that all their limbs pained them."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִכְאִיב"],
+			"senses": [
+				{
+					"gloss": "<i>to cause pain, grief</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 3\">Ex. R. s. 3</cite> (ref. to <cite ref=\"Exodus 3:7\">Ex. III, 7</cite>) <he>ידעתי … להַכְאִיבֵנִי וכ׳</he> I know how much they will grieve me &c. ",
+						"<cite ref=\"Pirkei DeRabbi Eliezer 12:7\">Pirké d’R. El. ch. XII</cite> <he>שלא להַכְאִיבוֹ</he> so as to make him feel no pain. ",
+						"<cite ref=\"Midrash Tehillim 94:1\">Midr. Till. to Ps. XCIV</cite> (ref. to <cite ref=\"Proverbs 3:12\">Prov. III, 12</cite>) <he>א״ת וּכְאָב אלא וּכְאֵב … שמַכְאִיבוֹ</he> read not <i>ukh’ab</i> (and like a father) but <i>ukh’eb</i> (and pain), when He sends him pain."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

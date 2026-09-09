@@ -1,0 +1,26 @@
+{
+	"id": "O01059",
+	"slug": "סמדר-1",
+	"headword": {
+		"text": "סְמָדַר"
+	},
+	"page": {
+		"number": 998,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) (<i>berry</i>) <i>in the budding stage</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 3:8\">Gitt. III, 8</cite> <he>בהוצאת ס׳</he> at budding time. ",
+				"<cite ref=\"Mishnah Orlah 1:7\">Orl. I, 7</cite> <he>העלים</he> … <he>והס׳ מותרין וכ׳</he> Ms. M. the leaves, the sprouts, the sap of vines and the budding berries are permitted in the third year; <cite ref=\"Mishnah Orlah 1:7\">ib.</cite> <he>הס׳ אסור וכ׳</he> the buds are forbidden, because they are fruits; Sifra K’dosh. ch. V, Par. 3 <he>מֵי ס׳</he>. ",
+				"<cite ref=\"Berakhot 36b:10\">Ber. 36ᵇ</cite> (contrad. to <cite ref=\"B00294\"><he>בּוֹסֶר</he></cite>). ",
+				"<cite ref=\"Bava Kamma 58b:17\">B. Kam. 58ᵇ</cite> <he>המבכיר כרם … ס׳</he> he who cuts (the berries of) his neighbor’s vineyard in the budding stage. ",
+				"<cite ref=\"Bava Kamma 59a:10\">Ib. 59ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

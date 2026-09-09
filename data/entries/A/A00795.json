@@ -1,0 +1,27 @@
+{
+	"id": "A00795",
+	"slug": "אוסקניתא",
+	"headword": {
+		"text": "אוּסְקָנִיתא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְקוּנִיתָא"
+		}
+	],
+	"page": {
+		"number": 31,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>נסק</he>; cmp. <cite ref=\"M02003\"><he>מַסְקָנָא</he></cite>) <i>ascending, landing</i>. <he>גמלא דא׳</he> <i>landing board</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 67b:18\">Snh. 67ᵇ</cite> <he>וקם אג׳ דא׳</he> Ar. (ed. <he>וקם ג׳ דוסקנ׳</he> read with Rashi <he>דסקונ׳</he>, Ms. M. <he>איסקניתא</he>, oth. var. v. Rabb. D. S. a. l.) and he found himself standing on a landing board (ed. and there stood before him &c.)."
+			]
+		}
+	]
+}

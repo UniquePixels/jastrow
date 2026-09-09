@@ -1,0 +1,39 @@
+{
+	"id": "L00184",
+	"slug": "לוגא-1",
+	"headword": {
+		"text": "לוּגָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "לֻגָּא"
+		}
+	],
+	"page": {
+		"number": 694,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (or <cite ref=\"L00120\"><he>לַגָּא</he></cite>) ch. same, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>small bottle</i>.—Pl. <he>לֻגֵּי</he> or <he>לַגֵּי</he>. ",
+			"units": [
+				"<cite ref=\"Yoma 83b\">Yoma 83ᵇ</cite> [read:] <he>אהדרוהו בל׳ וצעי</he> (v. Rabb. D. S. a. l. note, a. <cite ref=\"Q00961\"><he>פְּלוּג</he></cite>) they surrounded him with bottles (of cordials) and dishes; (Ms. O. <he>אהד׳ צעי ולגי</he> they placed around him dishes &c.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Log</i>, v. <cite ref=\"L00183\">preced.</cite> ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 14:10\">Targ. Lev. XIV, 10</cite>; a. fr. (some ed. <cite ref=\"L00185\"><he>לוֹגָא</he></cite>).—",
+				"<cite ref=\"Pesachim 109a:6\">Pes. 109ᵃ</cite> <he>ל׳ דמקדשא</he> the Log measure of the Temple. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 8:1:8\">Y. Sabb. VIII, 11ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Shekalim 3:2:8\">Y. Shek. III, 47ᶜ</cite> top <he>ל׳ דאוריתא</he> the Biblical Log, v. <cite ref=\"V00232\"><he>תּוּמַנְתָּא</he></cite>; a. fr.—Pl. <he>לוּגִּין</he>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 30:24\">Targ. Y. Ex. XXX, 24</cite>.—Y. Ter. X, 47ᵇ top; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

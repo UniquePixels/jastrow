@@ -1,0 +1,23 @@
+{
+	"id": "P01378",
+	"slug": "ערכאה",
+	"headword": {
+		"text": "עַרְכָּאָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1119,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"P01381\"><he>עַרְכִי</he></cite>) <i>registration of legitimacy, citizens’ list</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 2:17\">Targ. I Chr. II, 17</cite> <he>למסייעא ית דוד בע׳</he> to assist David in establishing his legitimacy of citizenship (in spite of his descent from a Moabitish woman; v. Y. Yeb. VII, 9ᶜ; <cite ref=\"Midrash Tehillim 9:11\">Midr. Till. to Ps. IX, 9</cite>)."
+			]
+		}
+	]
+}

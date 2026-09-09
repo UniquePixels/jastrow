@@ -1,0 +1,30 @@
+{
+	"id": "N00795",
+	"slug": "נישואין-1",
+	"headword": {
+		"text": "נִישּׂוּאִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִשּׂ׳"
+		}
+	],
+	"page": {
+		"number": 909,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"N01284\"><he>נָשָׂא</he></cite>) <i>taking in marriage</i> (v. <cite ref=\"A03043\"><he>אֵרוּסִין</he></cite>); <i>married state</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 1:4\">Keth. I, 4</cite> <he>אלמנה … מן הנ׳</he> a widow, a divorced woman … after having been actually married, opp. to <he>מן הארוסין</he>. ",
+				"<cite ref=\"Mishnah Ketubot 5:1\">Ib. V, 1</cite>. ",
+				"<cite ref=\"Yevamot 23a:2\">Yeb. 23ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 21:15\">Deut. XXI, 15</cite>) <he>אהובה בנִישּׂוּאֶיהָ וכ׳</he> beloved for her (blameless) marriage, hated for her (illicit) marriage. Ib. 64ᵇ <he>נ׳ ומלקיות</he> as to marrying (a third time), and as to the treatment of one twice lashed; a. fr."
+			]
+		}
+	]
+}

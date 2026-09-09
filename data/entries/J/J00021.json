@@ -1,0 +1,30 @@
+{
+	"id": "J00021",
+	"slug": "יאסין",
+	"headword": {
+		"text": "יָאסְיָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "יַסְיָאן"
+		},
+		{
+			"text": "יָאסְיָין"
+		}
+	],
+	"page": {
+		"number": 559,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Yasyan</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 7:11:1\">Koh. R. to VII, 11</cite> R. José b. Y.; <cite ref=\"Avodah Zarah 42a:19\">Ab. Zar. 42ᵃ</cite>; <cite ref=\"Beitzah 8b\">Bets. 8ᵇ</cite> <he>יאסיין</he> Ms. M. (ed. <he>יאסיניא׳</he> v. Rabb. D. S. a. l. note); <cite ref=\"Menachot 6b:20\">Men. 6ᵇ</cite> (Ms. K. a. R. 2 <he>אסיין</he>); <cite ref=\"Tosefta Menahot 1:15\">Tosef. ib. I, 15</cite>; (<cite ref=\"Jerusalem Talmud Sukkah 4:6:4\">Y. Succ. IV, 54ᶜ</cite> bot. <he>יוסי בר אשיאן</he>)."
+			]
+		}
+	]
+}

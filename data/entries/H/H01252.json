@@ -1,0 +1,32 @@
+{
+	"id": "H01252",
+	"slug": "חנג",
+	"headword": {
+		"text": "חֲנַג"
+	},
+	"page": {
+		"number": 481,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H01252\"><he>חַנַּג</he></cite> (denom. of <cite ref=\"H00815\"><he>חִינְגָּא</he></cite>) <i>to employ the ḥinga, to dance, play</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 15:20\">Targ. Y. Ex. XV, 20</cite>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 32:19\">Ib. XXXII, 19</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

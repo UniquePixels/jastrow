@@ -1,0 +1,27 @@
+{
+	"id": "A01644",
+	"slug": "איתודאה",
+	"headword": {
+		"text": "אִיתּוֹדָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִתּוֹ׳"
+		}
+	],
+	"page": {
+		"number": 61,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"F00017\"><he>ודי</he></cite>, = <cite ref=\"A03405\"><he>אִתְוַדָּאָה</he></cite>) <i>confession</i> of sin. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 14:3\">Targ. Hos. XIV, 3</cite>."
+			]
+		}
+	]
+}

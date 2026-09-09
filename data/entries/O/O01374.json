@@ -1,0 +1,32 @@
+{
+	"id": "O01374",
+	"slug": "ספיר-1",
+	"headword": {
+		"text": "סַפִּיר"
+	},
+	"page": {
+		"number": 1014,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", m.(b. h.; ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sapphire</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 38:9\">Ex. R. s. 38</cite>, end <he>על ס׳ היה וכ׳</he> on the sapphire (in the high priest’s breastplate) the name of Issachar was engraven. Pesik. ‘Ăniya, p. 135ᵇ <he>נבקע … והס׳ לא חסר</he> the anvil was split, the hammer was broken in two, but the sapphire remained intact. ",
+				"<cite ref=\"Eichah Rabbah 4:10\">Lam. R. to IV, 7</cite>, v. <cite ref=\"C00580\"><he>גִּזְרָה</he></cite>; a. e.—V. <cite ref=\"O01128\"><he>סַמְפִּירִינוֹן</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sappir</i>, name of a species of beans. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:1\">Kil. I, 1</cite>, expl. Y. ib. 27ᵃ top <cite ref=\"Q00399\"><he>פושונה</he></cite> (R. S. to Kil. l. c. <cite ref=\"Q00659\"><he>פַּיְישׂוּנָא</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

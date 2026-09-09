@@ -1,0 +1,22 @@
+{
+	"id": "S01017",
+	"slug": "קינא",
+	"headword": {
+		"text": "קִינָא"
+	},
+	"page": {
+		"number": 1362,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"S01024\"><he>קִינָה</he></cite>, <i>rhythmic song.—Pl</i>. <cite ref=\"S01044\"><he>קִינִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 4:22\">Targ. Y. Gen. IV, 22</cite> <he>מרת ק׳ וכ׳</he> the originator of songs and music."
+			]
+		}
+	]
+}

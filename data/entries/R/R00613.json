@@ -1,0 +1,44 @@
+{
+	"id": "R00613",
+	"slug": "צנור",
+	"headword": {
+		"text": "צִנּוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִינּוֹר"
+		}
+	],
+	"page": {
+		"number": 1291,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>צנר</he>, enlargement of <cite ref=\"R00240\"><he>צור</he></cite>, cmp. <cite ref=\"R00391\"><he>צִינוֹק</he></cite>, <cite ref=\"I00399\"><he>טִינָּר</he></cite>, <cite ref=\"O00742\"><he>סִינָר</he></cite> &c.) [<i>anything carved out</i> or <i>turned</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>socket</i> in which the door-pivot turns, or <i>pivot</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Moed Katan 1:10\">M. Kat. I, 10</cite> (<cite ref=\"Moed Katan 11a:5\">11ᵃ</cite>) <he>הציר והצ׳</he> the pivot and the socket (or the socket and the pivot; v. Rashi in Rabb. D. S. a. l. note 30)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>water pipe, spout, duct</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 4:1\">Mikv. IV, 1</cite> <he>המניח כלים תחת הצ׳</he> if one puts vessels under the spout (which feeds a bath). ",
+				"<cite ref=\"Avodah Zarah 75a:8\">Ab. Zar. 75ᵃ</cite>; <cite ref=\"Tosefta Avodah Zarah 8:3\">Tosef. ib. VIII</cite> (<cite ref=\"Tosefta Avodah Zarah 9:3\">IX</cite>), 3 <he>תחת הצ׳ … מקלחין</he> under the spout when its waters splash forth; Y. ib. V, end, 45ᵇ. ",
+				"<cite ref=\"Mishnah Mikvaot 4:3\">Mikv. IV, 3</cite>, v. <cite ref=\"H00607\"><he>חָטַט</he></cite>. Tosef. Erub. IX (VI), 22 (larger than <cite ref=\"M00745\"><he>מזחילה</he></cite>). Ib. 23 <he>צ׳ המקלח לרשות וכ׳</he> a gutter which runs into a public road whether containing water or wine; a. fr.—Euphem. <i>vagina</i>. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 16\">Pirké d’R. El. ch. XVI</cite>.—Pl. <he>צִנּוֹרוֹת</he>, <cite ref=\"R00614\"><he>צִינּ׳</he></cite>. Y. Ab. Zar. III, 42ᶜ top, v. <cite ref=\"M02892\"><he>מָשַׁךְ</he></cite>. ",
+				"<cite ref=\"Tosefta Shabbat 7:1\">Tosef. Sabb. VII</cite> (<cite ref=\"Tosefta Shabbat 8:16\">VIII</cite>), 16; <cite ref=\"Berakhot 50b:12\">Ber. 50ᵇ</cite>, v. <cite ref=\"M02892\"><he>מָשַׁךְ</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 42:5\">Gen. R. s. 42</cite> (ref. to <cite ref=\"Genesis 14:3\">Gen. XIV, 3</cite>) [read:] <he>לא היה שם ים אלא צ׳ היאורים וכ׳</he> there was no lake there at the time, but (afterwards) the pipes of the ducts (the water veins in the rocks) burst, and a lake was formed (with ref. to <cite ref=\"Job 28:10\">Job XXVIII, 10</cite>); Yalk. ib. 72 <he>צורות היאור</he> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

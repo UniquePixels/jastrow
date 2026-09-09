@@ -1,0 +1,59 @@
+{
+	"id": "O00284",
+	"slug": "סוט-2",
+	"headword": {
+		"text": "סוּט",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 963,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"J00461\"><he>יְסַט</he></cite>) ch. same, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be unsteady, go astray</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:15\">Targ. Koh. II, 15</cite> (ed. Lag. <cite ref=\"O00474\"><he>סְטָא</he></cite>).—",
+				"<cite ref=\"Sanhedrin 67a:15\">Snh. 67ᵃ</cite> (missing in some ed.) <he>סָטַת</he>, v. <cite ref=\"O00475\"><he>סַטְדָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to move, swing</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 2:8\">Targ. Lam. II, 8</cite> <cite ref=\"O00013\"><he>סָאט</he></cite> (h. text <he>נטה</he>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אֵיסֵיט", "אוֹסִיט"],
+			"senses": [
+				{
+					"gloss": "<i>to shake</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 15:10\">Targ. Y. Lev. XV, 10</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיסְתְּוִיט", "אִיסְטְ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to become wild</i> (cmp. <cite ref=\"U00734\"><he>שָׁטָה</he></cite>); <i>to shy</i>. ",
+					"units": [
+						"<cite ref=\"Nedarim 41a\">Ned. 41ᵃ</cite> <cite ref=\"O00284\"><he>איסתויט</he></cite> ed. (Ar. <cite ref=\"A01425\"><he>איסטויט</he></cite>, <cite ref=\"A01435\"><he>איסטיוט</he></cite>, cler. Error … <he>ויס</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

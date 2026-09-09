@@ -1,0 +1,51 @@
+{
+	"id": "T01148",
+	"slug": "רתת-1",
+	"headword": {
+		"text": "רָתַת"
+	},
+	"page": {
+		"number": 1504,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"T01143\"><he>רָתַע</he></cite>) <i>to tremble, shake</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12<sup>11</sup></cite> <he>עד שלא הוקם … היה העולם רוֹתֵת וכ׳</he> before the Tabernacle was erected, the world was unstable, opp. <cite ref=\"B01007\"><he>נתבסס</he></cite>, v. <cite ref=\"B01007\"><he>בָּסַס</he></cite>. ",
+				"<cite ref=\"Sotah 8a:6\">Sot. 8ᵃ</cite> <he>איכא בינייהו רוֹתֶתֶת</he> the practical difference between them exists in the event of her trembling (when it is not to be apprehended that she may become defiant in the presence of another woman); <he>ורותתת מי משקין</he> but even if she trembles, dare we permit two women to take the test simultaneously?"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִתּת"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T01147\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Chullin 24b:2\">Ḥull. 24ᵇ</cite> (expl. <he>עד שיזקין</he>) <he>עד שיְרַתֵּת</he> until he trembles (from old age). ",
+						"<cite ref=\"Bereishit Rabbah 5\">Gen. R. s. 5</cite>, end <he>כיון שנברא … מְרַתְּתִים</he> when iron was created, the trees began to tremble; <he>אמר להן למה אתם מרתתים וכ׳</he> said the iron to them, why do you tremble, allow no wood to be put into me, &c. ",
+						"<cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20</cite>, beg. <he>היה מְרַתֵּת על עצמו</he> he began to tremble for his own safety. ",
+						"<cite ref=\"Shemot Rabbah 29\">Ex. R. s. 29</cite> <he>ההר מרתת</he> the mountain shook. ",
+						"<cite ref=\"Shemot Rabbah 29\">Ib.</cite> <he>נתנה מקום והיתה מְרַתֶּתֶת</he> she made room (for the king) and trembled; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִרְתִּית"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T01147\">same</cite>. Ib. <he>וישראל מַרְתִּיתִין</he> and the Israelites trembled. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 27\">Ex. R. s. 27</cite> <he>והיה … עומד ומַרְתִּית וכ׳</he> and the servant stood before the king trembling. ",
+						"<cite ref=\"Shemot Rabbah 27\">Ib.</cite> [read:] <he>למה אתה מרתית</he> (some ed. <he>מְרַתֵּת</he>) why dost thou tremble?; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

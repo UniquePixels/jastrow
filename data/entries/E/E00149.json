@@ -1,0 +1,35 @@
+{
+	"id": "E00149",
+	"slug": "הדר-3",
+	"headword": {
+		"text": "הָדָר"
+	},
+	"page": {
+		"number": 334,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"E00148\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>adornment, crown, beauty, glory</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 24b:17\">Ab. Zar. 24ᵇ</cite> <he>ברוב הֲדָרֵךְ</he> in the abundance of thy glory. ",
+				"<cite ref=\"Bereishit Rabbah 39:8\">Gen. R. s. 39</cite> (ref. to <cite ref=\"Psalms 110:3\">Ps. CX, 3</cite>) <he>מֵהֲדָרוֹ של עולם וכ׳</he> from the glory of the world (the East) have I consecrated thee; (<cite ref=\"Yalkut Shimoni on Nach 869:4\">Yalk. Ps. 869</cite> <he>בהררי קדש בהררי של עולם וכ׳</he> ‘in the mountains of holiness’, among the mountains, i.e. the distinguished, of the world &c.).—",
+				"<cite ref=\"Jerusalem Talmud Sukkah 3:4:2\">Y. Succ. III, 53ᵈ</cite> a tree <he>שפריו ה׳ וכ׳</he> whose fruit is beautiful &c.—",
+				"<cite ref=\"Vayikra Rabbah 30:15\">Lev. R. s. 30</cite>; a. fr.—[<cite ref=\"Vayikra Rabbah 30:15\">Ib.</cite> <he>תרגם עקילס הגר הדר</he> Aquila in his translation read our w. <i>haddar</i>, v. <cite ref=\"D00341\"><he>דּוּר</he> I</cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>עֵץ הָדָר</he> (b. h.) the tree <i>Hadar</i>. Ib.; a. fr.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

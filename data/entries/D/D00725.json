@@ -1,0 +1,23 @@
+{
+	"id": "D00725",
+	"slug": "דיר-1",
+	"headword": {
+		"text": "דֵּיר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 305,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"G00415\"><he>זִיר</he></cite>) <i>crown, rim</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:11\">Targ. Ex. XXV, 11</cite>; (Targ. O. ed. Berl. <cite ref=\"G00415\"><he>זִיר</he></cite>, v. ib. II, p. 27); a. fr."
+			]
+		}
+	]
+}

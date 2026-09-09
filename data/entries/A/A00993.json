@@ -1,0 +1,29 @@
+{
+	"id": "A00993",
+	"slug": "אחבא",
+	"headword": {
+		"text": "אַחֲבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַחְבָּא"
+		}
+	],
+	"page": {
+		"number": 38,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contr. of <he>אחי אבא</he>) <i>father’s brother, uncle</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 32:7\">Targ. Jer. XXXII, 7</cite> <he>אַחֲבוּךְ</he> thy uncle. ",
+				"<cite ref=\"Onkelos Leviticus 10:4\">Targ. O. Lev. X, 4</cite> (Ms. I a. III <he>אח אבוהי</he>; Targ. Y. <cite ref=\"H00051\"><he>חביבא</he></cite> q. v.); a. e. ",
+				"<cite ref=\"Yevamot 21b\">Yeb. 21ᵇ</cite> Ar. s. v. <he>בי אחבא</he> (ed. <he>בי דודי</he>)."
+			]
+		}
+	]
+}

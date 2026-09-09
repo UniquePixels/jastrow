@@ -1,0 +1,28 @@
+{
+	"id": "K00764",
+	"slug": "כלמא-1",
+	"headword": {
+		"text": "כְּלָמָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּלוּמָא"
+		}
+	],
+	"page": {
+		"number": 645,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00763\">preced.</cite>) <i>refraining, warding off</i>.—Pl. <cite ref=\"K00673\"><he>כְּלָמֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 103b\">B. Mets. 103ᵇ</cite> Ar. (Ms. <he>כלומ׳</he>, ed. <cite ref=\"B00884\"><he>בְּלָמָא</he></cite> q. v.)."
+			]
+		}
+	]
+}

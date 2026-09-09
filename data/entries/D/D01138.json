@@ -1,0 +1,27 @@
+{
+	"id": "D01138",
+	"slug": "דשא-1",
+	"headword": {
+		"text": "דֶּשֶׁא"
+	},
+	"page": {
+		"number": 326,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>tender grass, herbage</i>.—Pl. <he>דְּשָׁאִים</he>, <he>דְּשָׁאִין</he> <i>herbs</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 6:1\">Ber. VI, 1</cite>. ",
+				"<cite ref=\"Shemot Rabbah 17:1\">Ex. R. s. 17</cite>, beg. ",
+				"<cite ref=\"Chullin 60a:13\">Ḥull. 60ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:7:4\">Y. Kil. I, 27ᵇ</cite> top. ",
+				"<cite ref=\"Rosh Hashanah 11a:3\">R. Hash. 11ᵃ</cite> what month is it <he>שהארץ מוציאה ד׳ וכ׳</he> in which the earth produces fresh green while the trees are full of fruits?—",
+				"<cite ref=\"Rosh Hashanah 11a:4\">Ib.</cite> <he>הארץ מליאה ד׳</he> the ground is covered with herbs."
+			]
+		}
+	]
+}

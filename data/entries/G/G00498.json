@@ -1,0 +1,39 @@
+{
+	"id": "G00498",
+	"slug": "זלל-1",
+	"headword": {
+		"text": "זָלַל"
+	},
+	"page": {
+		"number": 401,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h; cmp. <he>דלל</he>) <i>to be light, slender</i>.—<cite ref=\"G00179\"><he>זוֹלֵל</he></cite>, v. <cite ref=\"G00174\"><he>זוּל</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זִלְזֵל"],
+			"senses": [
+				{
+					"gloss": "<i>to treat lightly, to despise, neglect</i> (with <cite ref=\"B00000\"><he>ב</he></cite>). ",
+					"units": [
+						"<cite ref=\"Berakhot 6b:22\">Ber. 6ᵇ</cite> (ref. to <cite ref=\"Psalms 12:9\">Ps. XII, 9</cite>) <he>ובני אדם מְזַלְזְלִין בהן</he> and which people treat slightly. Y. Peah I, 15ᵈ, sq. <he>מז׳ בבני וכ׳</he> they despise the sons of the handmaids; <cite ref=\"Bereishit Rabbah 84\">Gen. R. s. 84</cite>. ",
+						"<cite ref=\"Shabbat 62b:13\">Sabb. 62ᵇ</cite> <he>המְזַלְזֵל וכ׳</he> he who is neglectful in the observance &c. ",
+						"<cite ref=\"Avodah Zarah 36a\">Ab. Zar. 36ᵃ</cite> <he>לודאי מזלזלין הן</he> Ms. M. (ed. <he>דמזלזלו</he>) the Lyddeans are neglectful of religious observances; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " ז׳ מעות <i>to disregard money-matters</i>. Y. Snh. VIII, 26ᵇ top; ib. XI, beg. 30ᵃ (the rebellious son that took what belonged to his father) <he>אינו חייב עד שיְזַלְזֵל מ׳</he> cannot be made responsible, unless he disregards money, expl. ib. ‘he takes an object and sells it for its exact cost price’ (thus proving both his rationality and his wastefulness).",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pilp."
+		}
+	]
+}

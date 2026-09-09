@@ -1,0 +1,29 @@
+{
+	"id": "R00344",
+	"slug": "צייר-1",
+	"headword": {
+		"text": "צַיָּיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "צַיָּר"
+		}
+	],
+	"page": {
+		"number": 1276,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00242\"><he>צוּר</he></cite>) <i>artist, designer, painter, sculptor</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 1:9\">Gen. R. s. 1</cite>, v. <cite ref=\"O01112\"><he>סַמְמָן</he></cite>. ",
+				"<cite ref=\"Berakhot 10a:22\">Ber. 10ᵃ</cite> (ref. to <cite ref=\"R00242\"><he>צוּר</he></cite>, <cite ref=\"I Samuel 2:2\">I Sam. II, 2</cite>) <he>אין צ׳ כאלהינו</he> there is no artist like our God; a. fr.—[Koh. R. to II, 12 <he>הצור הוא צ׳ נאה</he> the Creator (v. <cite ref=\"R00242\"><he>צוּר</he></cite>) is a fine artist; prob. to be read: <he>היצורּ הוא ציורּ נאה</he> this creature (man) is a fine creation].—Pl. <he>צַיָּירִין</he>, <he>צַיָּרִ׳</he>. ",
+				"<cite ref=\"Tosefta Keilim Batra 2:9\">Tosef. Kel. B. Bath. II, 9</cite> (<cite ref=\"P01369\"><he>עריסה</he></cite>) <he>של צ׳</he> (ed. Zuck. a. oth. <cite ref=\"R00330\"><he>צַיּוֹרוֹת</he></cite>) the frame of the embroiderers (or painters)."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "E00632",
+	"slug": "המניק",
+	"headword": {
+		"text": "הַמְנֵיק",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "הִימְ׳"
+		}
+	],
+	"page": {
+		"number": 356,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>a sort of spoon</i> or <i>fork</i>, with one end pointed and the other broad (similar to the <i>cochlear</i>, v. <cite ref=\"K00256\"><he>כּוֹכְלִיאָר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 25b:10\">B. Mets. 25ᵇ</cite> <he>סכיני וה׳</he> (Ms. R. <he>המנק</he>) knives and fork (which may have been cast on the dunghill inadvertently). ",
+				"<cite ref=\"Sukkah 32a:1\">Succ. 32ᵃ</cite> <he>דעביד כהימנק</he> (Ms. M. <he>והוא דעביד לה כי הימניק</he>) when the palm-branch is formed like a <i>himnek</i> (Rashi: like the top of the stylus)."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "R00806",
+	"slug": "צרצורא",
+	"headword": {
+		"text": "צַרְצוּרָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1305,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>צְרַר</he> I) <i>knot, loop</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 92:4\">Gen. R. s. 92</cite> (ref. to <he>ויאסר וכ׳</he>, <cite ref=\"Genesis 42:24\">Gen. XLII, 24</cite>) <he>כהדין צ׳ עביד וכ׳</he> he (Joseph, in tying Simeon) made something like a loop (making the brothers believe, that he really tied him), as it is written, ‘he tied them in <i>their</i> eyes’; cmp. ",
+				"<cite ref=\"Genesis 42:24\">ib.</cite> s. 91. [Comment. ref. to <cite ref=\"R00805\">preced. w.</cite> or to <cite ref=\"R00804\"><he>צִרְצוּר</he></cite> offer no intelligible explan.]"
+			]
+		}
+	]
+}

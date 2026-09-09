@@ -1,0 +1,22 @@
+{
+	"id": "Q01508",
+	"slug": "פקעתא",
+	"headword": {
+		"text": "פְּקַעְתָּא"
+	},
+	"page": {
+		"number": 1211,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01503\"><he>פְּקַע</he></cite>) <i>hindrance, enforced idleness</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 47a:4\">Keth. 47ᵃ</cite> <he>שכר פְּקַעְתָּהּ</he> indemnity for being taken away from her work."
+			]
+		}
+	]
+}

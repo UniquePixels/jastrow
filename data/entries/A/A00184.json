@@ -1,0 +1,23 @@
+{
+	"id": "A00184",
+	"slug": "אבעבועין",
+	"headword": {
+		"text": "אֲבַעְבּוּעִין"
+	},
+	"page": {
+		"number": 8,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"B00299\"><he>בוע</he></cite>) <i>blains, pustules</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 9:9\">Targ. O. Ex. IX, 9</cite> (Var. <cite ref=\"A00184\"><he>אֲבַעְבּוֹעַיָן</he></cite> f. pl.)."
+			]
+		}
+	]
+}

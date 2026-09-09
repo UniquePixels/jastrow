@@ -1,0 +1,27 @@
+{
+	"id": "C00862",
+	"slug": "גלגא",
+	"headword": {
+		"text": "גַּלְגָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּלְגִּין"
+		}
+	],
+	"page": {
+		"number": 244,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00861\">preced.</cite>) <i>revelation, preaching</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 1:8:10\">Y. Sot. I, 17ᵇ</cite>; <cite ref=\"Vayikra Rabbah 26\">Lev. R. s. 26</cite> [read:] <he>מאי את בעי מן גַּלְגּוֹי דהדין</he> do not mind this man’s boastful talk."
+			]
+		}
+	]
+}

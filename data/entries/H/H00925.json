@@ -1,0 +1,30 @@
+{
+	"id": "H00925",
+	"slug": "חכינה-1",
+	"headword": {
+		"text": "חֲכִינָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲכִינָא"
+		}
+	],
+	"page": {
+		"number": 461,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00949\"><he>חכן</he></cite>, cmp. <he>עכן</he>) <i>ḥăkhina</i>, name of a large snake, prob. <i>annulated snake</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:1:20\">Y. Ber. V, 9ᵃ</cite> bot. (in Chald. dict.), v. <cite ref=\"G00105\"><he>זְהַר</he></cite>. Ib. VIII, 12ᵇ; <cite ref=\"Bereishit Rabbah 82:15\">Gen. R. s. 82</cite>, end (<cite ref=\"Chullin 127a\">Ḥull. 127ᵃ</cite> <cite ref=\"N00519\"><he>נחש</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:15\">Y. Snh. X, 28ᵈ</cite> top <he>כרִיסָהּ של ח׳</he> (not <he>ככריסה</he>) like the venom of a ḥ.; <cite ref=\"Ruth Rabbah 6:4\">Ruth R. to III, 13</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:13\">Y. Taan. IV, 69ᵃ</cite> top <he>ח׳ כריכה עליו</he> (read: <he>כרוכה</he>) a snake wound around him; (<cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite> <he>עכנא כריכא</he>).—Pl. <he>חֲכִינִים</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 7:8:1\">Cant. R. to VII, 8</cite> [read:] <he>חבר שהיה לו שתי ח׳</he> a charmer who had two snakes."
+			]
+		}
+	]
+}

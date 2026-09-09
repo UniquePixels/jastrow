@@ -1,0 +1,39 @@
+{
+	"id": "R00223",
+	"slug": "צוץ-2",
+	"headword": {
+		"text": "צְוַץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְיַץ"
+		}
+	],
+	"page": {
+		"number": 1269,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"R00224\"><he>צַיֵּיץ</he></cite>, (<i>Palp.</i> <cite ref=\"R00438\"><he>צַיְצֵי</he></cite>) same. Pesik. Dibré, p. 110ᵇ (expl. <he>צהלי</he>, <cite ref=\"Isaiah 10:30\">Is. X, 30</cite>) <he>צַיְּיצִי בקלך</he> Ar. (ed. Koh. <cite ref=\"R00438\"><he>צַיְּצִי</he></cite>; ed. <he>שישי קולך</he>); <cite ref=\"Yalkut Shimoni on Nach 284\">Yalk. Is. 284</cite> <he>ציצי קולך</he> chirp with thy voice (let thy voice chirp, in studying the Law); v. <cite ref=\"L00085\"><he>לַבְלֵב</he></cite>. ",
+					"units": [
+						"<cite ref=\"Niddah 42b:21\">Nidd. 42ᵇ</cite> <he>שמעית ולד דצַוֵּיץ וכ׳</he> (Ar. <he>דצייץ</he>) I heard the infant squeak at sunset-time, but it was not born &c. ",
+						"<cite ref=\"Kohelet Rabbah 12:4\">Koh. R. to XII, 4</cite> <he>כד שמע … מְצַוְצְיָין וכ׳</he> (some ed. <he>מצוייצן</he>, corr. acc.) when he hears the birds chirp, he thinks robbers are coming &c.; Yalk. ib. 979 <he>מְצַיְּיצִין</he>. ",
+						"<cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite> <he>ציפוריא מציצין</he> Ar. (Var., a. ed. <he>קולנין</he>). [<cite ref=\"Yalkut Shimoni on Nach 281\">Yalk. Is. 281</cite>, v. preced.].—Trnsf. (of the singing of boiling water) <i>to boil</i>. ",
+						"<cite ref=\"Bava Metzia 29b:23\">B. Mets. 29ᵇ</cite> <he>אלא דלא צַיֵּיץ</he> only when the water has not been steaming (Ar. <cite ref=\"M02287\"><he>מְצַוְּיָין</he></cite> Ms. F. <he>צַוְיַת</he>; Ms. R. 2 <he>מְצַוְּיַת</he>, v. <cite ref=\"R00187\"><he>צְוֵי</he> I</cite>); <cite ref=\"Chullin 84b:2\">Ḥull. 84ᵇ</cite> <he>צַיֵּיץ</he> Ar. (ed. <cite ref=\"R00431\"><he>צַיֵּץ</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

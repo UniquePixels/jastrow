@@ -1,0 +1,27 @@
+{
+	"id": "C00881",
+	"slug": "גלדאה",
+	"headword": {
+		"text": "גִּלְדָּאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּילְ׳"
+		}
+	],
+	"page": {
+		"number": 245,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00880\">preced.</cite>) <i>worker</i> or <i>dealer in leather, harness-maker</i> &c.—Pl. <cite ref=\"C00880\"><he>גִּלְדָּאֵי</he></cite>, <cite ref=\"C00864\"><he>גִּילְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 24b\">B. Mets. 24ᵇ</cite>; <cite ref=\"Chullin 48a\">Ḥull. 48ᵃ</cite> sq. <he>שוקא דג׳</he> harness-makers’ place."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "U00652",
+	"slug": "שחינא",
+	"headword": {
+		"text": "שַׂחְיָנָא"
+	},
+	"page": {
+		"number": 1547,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00639\"><he>שְׂחֵי</he></cite>) <i>swimmer</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:2:3\">Y. Shek. VI, 50ᵃ</cite> top (Bab. ed. <cite ref=\"U00623\"><he>שַׂחְוָנָא</he></cite>), v. <cite ref=\"O00456\"><he>סַחְיָיא</he></cite>."
+			]
+		}
+	]
+}

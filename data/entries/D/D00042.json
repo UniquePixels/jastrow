@@ -1,0 +1,30 @@
+{
+	"id": "D00042",
+	"slug": "דבב-5",
+	"headword": {
+		"text": "דְּבַב",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּבָבָא"
+		}
+	],
+	"page": {
+		"number": 276,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00041\">same</cite>, with <cite ref=\"B01046\"><he>בְּעֵל</he></cite>, <cite ref=\"B01046\"><he>בְּעֵיל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 8:3\">Targ. Ps. VIII, 3</cite> (h. text <he>אוֹיֵב</he>); a. fr.—",
+				"<cite ref=\"Gittin 55b:17\">Gitt. 55ᵇ</cite> <he>וב׳ דְּבָבֵיה בר וכ׳</he> and his enemy was Bar K., opp. <he>רחמיה</he>.—Pl. <he>בעלי ד׳</he>, also <he>ב׳ דְבָבִין</he>, <he>דְבָבַיָּא</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 68:24\">Targ. Ps. LXVIII, 24</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 37:20\">Ib. XXXVII, 20</cite>.—",
+				"<cite ref=\"Aramaic Targum to Lamentations 1:2\">Targ. Lam. I, 2</cite>; a. fr. [<cite ref=\"Sifrei Bamidbar 42:2\">Sifré Num. 42</cite>, v. <cite ref=\"D00043\">next w.</cite> ",
+				"<cite ref=\"Yalkut Shimoni on Torah 637:4\">Yalk. Lev. 637</cite>, v. preced.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"id": "J00362",
+	"slug": "יכח",
+	"headword": {
+		"text": "יָכַח"
+	},
+	"page": {
+		"number": 577,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"K00450\"><he>כֹּחַ</he></cite>) <i>to be firm, stand, be right</i>.—Denom. <cite ref=\"J00362\"><he>נֹכַח</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוֹכִיהַ"],
+			"senses": [
+				{
+					"gloss": " [<i>to place opposite</i>,] ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to admonish, reprove</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 31a\">Ber. 31ᵃ</cite> sq. (ref. to <cite ref=\"I Samuel 1:14\">I Sam. I, 14</cite>) <he>מכאן … שצריך להוֹכִיחוֹ</he> from here we learn that he who sees in his neighbor something unbecoming, is bound to admonish him; <cite ref=\"Arakhin 16b\">Arakh. 16ᵇ</cite>. ",
+						"<cite ref=\"Arakhin 16b:19\">Ib.</cite> <he>הוֹכִיחוֹ … ויוֹכִיהֶנּוּ</he> if he did admonish him and he did not heed it, he must do it again. ",
+						"<cite ref=\"Arakhin 16b:19\">Ib.</cite> … <he>תמיהני שיודע להוכיח</he> I wonder whether there is in this generation one who knows how to admonish; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to prove, to serve as an analogy</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 6a:9\">B. Kam. 6ᵃ</cite> <he>אש תּוֹכִיחַ</he> let the law concerning incendiary (<cite ref=\"Exodus 22:5\">Ex. XXII, 5</cite>) be taken as a standard (it being the result of human action); <he>בור תוכיח</he> let the law about a pit (ib. XXI, 33) decide (it being stationary). ",
+						"<cite ref=\"Kiddushin 7a\">Kidd. 7ᵃ</cite>; a. v. fr.— <i>to be evidence, to show</i>. ",
+						"<cite ref=\"Moed Katan 4b:13\">M. Kat. 4ᵇ</cite> <he>זיבלו מוֹכִיחַ עליו</he> his dung shows what he is about doing; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְוַוכֵּחַ"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְוַוכֵּחַ</he> <i>to argue, be justified</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 27\">Lev. R. s. 27</cite> <he>בא הקב״ה לה׳ וכ׳</he> the Lord came to argue with Israel; <cite ref=\"Vayikra Rabbah 27:6\">ib.</cite> <he>כלום אינון יכולין לה׳ עם בוראן</he> can they argue (successfully) with their Creator?; <cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10</cite>, beg.; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נוֹכַח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"J00361\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 5:16\">Cant. R. to V, 16</cite> <he>מי יוכל לִיוָּכֵחַ וכ׳</he> (not <he>לוו׳</he>) who dares to argue with &c."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"id": "K01185",
+	"slug": "כרך-1",
+	"headword": {
+		"text": "כָּרַךְ"
+	},
+	"page": {
+		"number": 668,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"K01095\"><he>כָּרָה</he></cite>) <i>to encircle, twine around, embrace, wrap</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 39a:8\">Men. 39ᵃ</cite> <he>תכלת שכ׳ רובה</he> a fringe the larger portion of which he twined together (v. <cite ref=\"V00547\"><he>תְּכֵלֶת</he></cite>). ",
+				"<cite ref=\"Menachot 39a:9\">Ib.</cite> <he>כדי שיִכְרוֹךְ וישנה וכ׳</he> enough to twine around three times. ",
+				"<cite ref=\"Yoma 38a\">Yoma 38ᵃ</cite> <cite ref=\"K01194\"><he>כְּרָכָהּ</he></cite> embraced it (clung to the bronze door). ",
+				"<cite ref=\"Shabbat 133b:5\">Sabb. 133ᵇ</cite> <he>וכָרְכֵהוּ בשיראין נאין</he> Ms. M. (ed. <he>וכוֹרְכוֹ</he>) and twine handsome ribbons around it. ",
+				"<cite ref=\"Pesachim 115a\">Pes. 115ᵃ</cite>; <cite ref=\"Zevachim 79a\">Zeb. 79ᵃ</cite> <he>היה כוֹרְכָן וכ׳</he> used to wrap them together (insert the Passover meat and the bitter herb between the Matsah). ",
+				"<cite ref=\"Avodah Zarah 18a:10\">Ab. Zar. 18ᵃ</cite> <he>כְּרָכוּהוּ בס״ת וכ׳</he> they wrapped him in a scroll of the Law and burned him. Tosef. Meg. IV (III), 20 <he>כּוֹרְכִין תורה וכ׳</he> you may wrap the Pentateuch in covers intended for &c.; (<cite ref=\"Megillah 27a:7\">Meg. 27ᵃ</cite> <he>גוללין</he>); a. fr.—",
+				"<cite ref=\"Mishnah Pesachim 4:8\">Pes. IV, 8</cite>; <cite ref=\"Tosefta Pesachim 2:19\">Tosef. ib. II</cite> (<cite ref=\"Tosefta Pesachim 3:19\">III</cite>), 19 <he>כּוֹרְכִין את שמע</he> they recited the confession of faith (<cite ref=\"Deuteronomy 6:4\">Deut. VI, 4</cite> sq.) in one <cite ref=\"K01187\"><he>כֶּרֶךְ</he></cite>, without the proper pauses (or without inserting ‘Blessed be the Name of His glorious kingdom &c.’ between verses 4 and 5), v. ",
+				"<cite ref=\"Pesachim 56a\">Pes. 56ᵃ</cite>, a. Y. ib. IV, 31ᵇ.—Part. pass. <cite ref=\"K01117\"><he>כָּרוּךְ</he></cite>, f. <cite ref=\"K01115\"><he>כְּרוּכָה</he></cite>; pl. <he>כְּרוּכִים</he>, <cite ref=\"K01120\"><he>כְּרוּכִין</he></cite>; <he>כְּרוּכוֹת</he> <i>twined around, wrapped up</i>; trnsf. (with <he>אחר</he>) <i>clinging to, running after</i>. ",
+				"<cite ref=\"Mishnah Berakhot 5:1\">Ber. V, 1</cite> <he>אפי׳ נחש כ׳ וכ׳</he> even if a serpent is wound around his heel, he must not interrupt his prayer, v. <cite ref=\"K01166\"><he>כְּרִיכָה</he></cite>. ",
+				"<cite ref=\"Kiddushin 66a:11\">Kidd. 66ᵃ</cite> <he>הרי כ׳ ומונחת וכ׳</he> behold it (the Law) is wrapped up and lies in the corner, whoever wishes may study it. ",
+				"<cite ref=\"Bereishit Rabbah 78\">Gen. R. s. 78</cite> <he>בפנים כ׳ אני מהלך</he> I shall walk with my face wrapped up (in humility).—",
+				"<cite ref=\"Chullin 78b:11\">Ḥull. 78ᵇ</cite> (expl. ",
+				"<cite ref=\"Leviticus 22:28\">Lev. XXII, 28</cite>) <he>מי שׁבנו כ׳ אחריו</he> that animal to whom the young clings (the mother). ",
+				"<cite ref=\"Shabbat 52a\">Sabb. 52ᵃ</cite> <cite ref=\"K01120\"><he>כרוכין</he></cite> with the chain or halter twined around them, opp. <he>נמשכין</he> led by the chain &c. ",
+				"<cite ref=\"Chullin 59b\">Ḥull. 59ᵇ</cite> (<cite ref=\"S02108\"><he>קרנים</he></cite>) <he>כרוכות</he> horns the layers of which encircle one another. ",
+				"<cite ref=\"Shemot Rabbah 33\">Ex. R. s. 33</cite> <he>היו כ׳ זה בזה</he> their bodies were twisted around each other; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִכְרַךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be twined around; to be wrapped up</i>. Y. Ter. VII, 46ᵇ bot. <he>יִכָּרֵךְ המת בסדינו</he> shall the dead be wrapped up in his sheet?, i.e. shall that man be abandoned to his fate?—",
+					"units": [
+						"<cite ref=\"Yoma 69a:5\">Yoma 69ᵃ</cite> <he>שמא תִכָּרֵךְ וכ׳</he> lest one thread wind itself around (stick to) his body."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["כֵּרֵךְ", "כֵּי׳"],
+			"senses": [
+				{
+					"gloss": "; <i>Hif.</i> <he>הִכְרִיךְ</he> <i>to wind around, wrap</i>. ",
+					"units": [
+						"<cite ref=\"Avot D'Rabbi Natan 3\">Ab. d’R. N. ch. III</cite>, beg. <he>המַכְרִיךְ סמרטוטין וכ׳</he> he who ties a bandage over his eyes (pretending blindness) &c. ",
+						"<cite ref=\"Menachot 39a:8\">Men. 39ᵃ</cite> <he>אפי׳ לא כי׳ בה וכ׳</he> even if he formed only one link by winding the twine around. Y. Ḥag. III, 79ᵃ top <he>וִיכָרְכֶינָּה בסיב ויטבילה</he> let him wrap bast around it and so immerse it; ib. II, end, 78ᶜ (corr. acc.). ",
+						"<cite ref=\"Tosefta Keilim Metsia 9:6\">Tosef. Kel. B. Mets. IX, 6</cite> <he>שהוא מְכָרֵךְ בו וכ׳</he> which one twines around the couch. ",
+						"<cite ref=\"Tosefta Keilim Metsia 9:6\">Ib.</cite> <he>מַכְרִיךְ</he>.—Part. pass. <he>מְכוֹרָךְ</he>, pl. <he>מְכוֹרָכִין</he>. ",
+						"<cite ref=\"Vayikra Rabbah 35\">Lev. R. s. 35</cite> <he>הסייף … ניתנו מכ׳ וכ׳</he> (<cite ref=\"Sifrei Devarim 40:14\">Sifré Deut. 40</cite> <he>כְּרוּכִים</he>) the sword and the book have been handed from heaven wrapped up together; a. e.—[<cite ref=\"Tosefta Keilim Metsia 6:1\">Tosef. Kel. B. Mets. VI, 1</cite>, v. <cite ref=\"K01208\"><he>כִּרְכֵּם</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

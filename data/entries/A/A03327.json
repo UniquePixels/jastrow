@@ -1,0 +1,30 @@
+{
+	"id": "A03327",
+	"slug": "אשמדאי",
+	"headword": {
+		"text": "אַשְׁמְדַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַשְׁמְדַיי"
+		}
+	],
+	"page": {
+		"number": 129,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (Pers. Aêshma, Aêsh-madaô, Kohut Jüd. Angel. p. 72; Rapap. Er. Mill. s. v.) <i>Ashm’day</i>, chief of demons. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 1:12\">Targ. Koh. I, 12</cite>.—",
+				"<cite ref=\"Pesachim 110a:11\">Pes. 110ᵃ</cite>. ",
+				"<cite ref=\"Gittin 68a:8\">Gitt. 68ᵃ</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 11:3\">Num. R. s. 11</cite>; a. e."
+			]
+		}
+	]
+}

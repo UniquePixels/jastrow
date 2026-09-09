@@ -1,0 +1,34 @@
+{
+	"id": "N01247",
+	"slug": "נקרה",
+	"headword": {
+		"text": "נִקְרָה"
+	},
+	"page": {
+		"number": 935,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>נָקַר</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>offal at chiselling, stone-dust</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 88b:9\">Ḥull. 88ᵇ</cite> <he>נִקְרַת פסולין</he> dust of chiselled millstones."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bite</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tahorot 3:8\">Toh. III, 8</cite> Ar., v. <cite ref=\"N01215\"><he>נְקִירָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

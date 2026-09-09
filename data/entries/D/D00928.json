@@ -1,0 +1,34 @@
+{
+	"id": "D00928",
+	"slug": "דניאל",
+	"headword": {
+		"text": "דָּנִיאֵל"
+	},
+	"page": {
+		"number": 315,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Daniel</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " the Babylonian exile. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 93a:11\">Snh. 93ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Eruvin 21a:11\">Erub. 21ᵃ</cite> <he>בי כנישתא דד׳</he> a synagogue named from D., v. <cite ref=\"B01304\"><he>בַּרְנֵשׁ</he></cite>.—",
+				"<cite ref=\"Bava Batra 14b:11\">B. Bath. 14ᵇ</cite>; <cite ref=\"Bava Batra 15a:2\">15ᵃ</cite> <i>the Book of Daniel</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 4:3:3\">Y. Succ. IV, 54ᵇ</cite> bot. ",
+				"<cite ref=\"Chullin 62a:9\">Ḥull. 62ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

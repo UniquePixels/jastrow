@@ -1,0 +1,23 @@
+{
+	"id": "M03102",
+	"slug": "מתקל-1",
+	"headword": {
+		"text": "מִתְקַל"
+	},
+	"page": {
+		"number": 864,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>תְּקַל</he> II) <i>stumbling, offense</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 8:14\">Targ. Is. VIII, 14</cite> (ed. Wil. <he>מְתַקֵל</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 12:13\">Targ. Prov. XII, 13</cite> (not <cite ref=\"M03095\"><he>מַתְ׳</he></cite>; h. text <cite ref=\"M00600\"><he>מוקש</he></cite>).—[<cite ref=\"Aramaic Targum to Psalms 105:37\">Targ. Ps. CV, 37</cite>, read: <he>למִתַּקְלָא</he>, v. <cite ref=\"V00892\"><he>תְּקַל</he> II</cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "O00439",
+	"slug": "סות-2",
+	"headword": {
+		"text": "סוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִית"
+		}
+	],
+	"page": {
+		"number": 970,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"J00472\"><he>הֵסִית</he></cite>, v. <cite ref=\"J00472\"><he>יָסַת</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

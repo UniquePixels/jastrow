@@ -1,0 +1,22 @@
+{
+	"id": "Q00180",
+	"slug": "פוחר",
+	"headword": {
+		"text": "פּוֹחֵר"
+	},
+	"page": {
+		"number": 1140,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"Q00483\"><he>פְּחַר</he></cite>) <i>potter</i>. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Leviticus 4\">Vayikra 4</cite> <he>יש פ׳ מתאוה לכלי חרס</he> does a potter want earthen vessels?"
+			]
+		}
+	]
+}

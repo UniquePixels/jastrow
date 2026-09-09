@@ -1,0 +1,28 @@
+{
+	"id": "A02560",
+	"slug": "אסרטיא-1",
+	"headword": {
+		"text": "אִסְרַטְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 98,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"A02413\"><he>אִסְטְרַטְיָא</he> I</cite>, <i>camp, station</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 7:2:11\">Y. Shek. VII, 50ᶜ</cite> bot."
+			]
+		}
+	]
+}

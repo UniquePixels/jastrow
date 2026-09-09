@@ -1,0 +1,22 @@
+{
+	"id": "U02002",
+	"slug": "שרעתא",
+	"headword": {
+		"text": "שְׁרַעְתָּא"
+	},
+	"page": {
+		"number": 1632,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U02000\"><he>שְׁרַע</he></cite>) <i>slope, sliding, slippery ground</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 29a:9\">B. Kam. 29ᵃ</cite> <he>דרך ש׳ דנהרא</he> along the slippery shore of a river (or canal)."
+			]
+		}
+	]
+}

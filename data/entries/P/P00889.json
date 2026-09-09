@@ -1,0 +1,32 @@
+{
+	"id": "P00889",
+	"slug": "עמיק-2",
+	"headword": {
+		"text": "עַמִּיק",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עָמִיק",
+			"homograph": 2
+		},
+		{
+			"text": "עַמִּיקְתָּא"
+		}
+	],
+	"page": {
+		"number": 1088,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00888\">preced.</cite>; cmp. <cite ref=\"P00874\"><he>עָמוֹק</he></cite>) <i>dark inflamed spot, rising, swelling</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 13:43\">Targ. O. Lev. XIII, 43</cite>; <cite ref=\"Onkelos Leviticus 13:10\">ib. 10</cite> (h. text <cite ref=\"U00056\"><he>שאת</he></cite>), v. <cite ref=\"P00922\"><he>עָמְקָא</he></cite>."
+			]
+		}
+	]
+}

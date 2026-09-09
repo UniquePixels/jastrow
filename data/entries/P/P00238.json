@@ -1,0 +1,23 @@
+{
+	"id": "P00238",
+	"slug": "עוכבניין",
+	"headword": {
+		"text": "עוּכָּבַנְיָין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1050,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"P00717\"><he>עַכָּבִית</he></cite>) <i>a dish of thistles</i> (Cynara Syriaca), the eating of which generates an evil smell of the body (v. Löw Pfl. p. 292, quot. fr. Dioscorides). ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 4:12\">Lam. R. to IV, 9</cite> <he>היו מתים מריח ע׳</he> they died from the smell of the thistles (which they ate during the siege)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "P00043",
+	"slug": "עביא",
+	"headword": {
+		"text": "עַבְיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1037,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00039\"><he>עבי</he></cite>) <i>cover</i>, <i>concealment</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 19:9\">Targ. Y. II, Ex. XIX, 9</cite> (Y. I a. O. <cite ref=\"P00488\"><he>עֵיבָא</he></cite>; h. text <cite ref=\"P00007\"><he>עַב</he></cite>).—Y. Taan. II, 65ᵇ top (expl. <he>ויעבתוה</he>, <cite ref=\"Micah 7:3\">Mic. VII, 3</cite>) <he>עבדוה ע׳ עבדוה קליעה וכ׳</he> they make it (their speech) a cover, they make it a screen for their guilty acts (cmp. <cite ref=\"P00035\"><he>עָבוֹת</he></cite>)."
+			]
+		}
+	]
+}

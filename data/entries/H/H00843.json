@@ -1,0 +1,36 @@
+{
+	"id": "H00843",
+	"slug": "חיפה-2",
+	"headword": {
+		"text": "חֵיפָה",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "חֵיפָא"
+		},
+		{
+			"text": "בֵּית חֵיפָה"
+		}
+	],
+	"page": {
+		"number": 459,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Ḥaifā, Beth-Ḥaifā</i>, a harbor of the Mediterranean Sea, south of Ptolemais. ",
+			"units": [
+				"<cite ref=\"Shabbat 26a:3\">Sabb. 26ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 2:4:2\">Y. Erub. II, 20ᵃ</cite> top (<cite ref=\"H00839\"><he>חיפא</he></cite>). ",
+				"<cite ref=\"Kohelet Rabbah 12:7\">Koh. R. to XII, 7</cite> <cite ref=\"H00855\"><he>חיפס</he></cite> (corr. acc.). ",
+				"<cite ref=\"Megillah 24b:10\">Meg. 24ᵇ</cite> <cite ref=\"H00181\"><he>בית ח׳</he></cite> (Ms. M. only <he>ח׳</he>).—Denom. <cite ref=\"H00855\"><he>חֵיפָנִי</he></cite> an inhabitant of Ḥ (noted for indiscriminate pronunciation of <cite ref=\"A00000\"><he>א</he></cite> a. <cite ref=\"P00000\"><he>ע</he></cite>). ",
+				"<cite ref=\"Megillah 24b:10\">Ib.</cite>—Pl. <cite ref=\"H00855\"><he>חֵיפָנִין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:6\">Y. Ber. II, 4ᵈ</cite> bot., v. <cite ref=\"E00004\"><he>ה״א</he></cite>.—V. <cite ref=\"H01462\"><he>חֵפָנִי</he></cite>."
+			]
+		}
+	]
+}

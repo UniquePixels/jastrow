@@ -1,0 +1,32 @@
+{
+	"id": "S02193",
+	"slug": "קרר-2",
+	"headword": {
+		"text": "קָרַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1427,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"K01095\"><he>כָּרָה</he></cite>) [<i>to bore, break through</i>,] <i>to well forth</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵקֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to well forth</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 104b:2\">Erub. 104ᵇ</cite> (expl. <he>בור הקר</he>, v. <cite ref=\"E00803\"><he>הָקֵר</he></cite>) <he>בור שהֵקֵרוּ עליה דברים והתירוה</he> (Or Zar. Erub. 216 <he>הֵקֵירוּ</he>) a well over which they (the scholars) caused words (arguments) to burst forth, and which they finally permitted; <cite ref=\"Eruvin 104b:2\">ib.</cite> <he>שהקרו דברים עליה</he>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "H01813",
+	"slug": "חשד-3",
+	"headword": {
+		"text": "חֲשַׁד"
+	},
+	"page": {
+		"number": 509,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01812\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 24:9\">Targ. Y. Deut. XXIV, 9</cite>.—",
+				"<cite ref=\"Shabbat 118b:8\">Sabb. 118ᵇ</cite> <he>לדידי חַשְׁדָּן וכ׳</he> they suspected me without cause; a. fr.—Part. pass. <cite ref=\"H01833\"><he>חָשִׁיד</he></cite>. ",
+				"<cite ref=\"Berakhot 5b:17\">Ber. 5ᵇ</cite> <he>ומי חֲשִׁידְנָא וכ׳</he> am I suspected by you (of doing wrong)?; <he>ומי ח׳ קב״ה וכ׳</he> can the Lord be suspected of injustice?, v. <cite ref=\"D00636\"><he>דִּינָא</he></cite>. ",
+				"<cite ref=\"Shevuot 32b:3\">Shebu. 32ᵇ</cite> <he>דח׳ מאן</he> which of the contestants is suspected (of swearing falsely)?; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְחֲשַׁד"],
+			"senses": [
+				{
+					"gloss": "<i>to be suspected</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 21:3\">Targ. Y. Deut. XXI, 3</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

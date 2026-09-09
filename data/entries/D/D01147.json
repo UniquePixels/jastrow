@@ -1,0 +1,62 @@
+{
+	"id": "D01147",
+	"slug": "דשן-1",
+	"headword": {
+		"text": "דָּשֵׁן"
+	},
+	"page": {
+		"number": 326,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>דֶּשֶׁא</he>)<i>to be moist, sappy, fat</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דִּשֵּׁן"],
+			"senses": [
+				{
+					"gloss": "<i>to bless with rich pastures</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 29a:13\">Ber. 29ᵃ</cite> <he>דַּשְּׁנֵנוּ בנאות וכ׳</he> (cmp. ",
+						"<cite ref=\"Psalms 23:2\">Ps. XXIII, 2</cite>) give us pasture on the meadows of thy land."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "(b. h.; <i>to remove the ashes, to clean</i> (the lamps). ",
+					"units": [
+						"<cite ref=\"Mishnah Tamid 3:9\">Tam. III, 9</cite> <he>מְדַשְּׁנָן</he> trims them. ",
+						"<cite ref=\"Mishnah Yoma 2:3\">Yoma II, 3</cite> <he>מי מְדַשֵּׁן וכ׳</he> who shall do the cleaning of the inner altar. ",
+						"<cite ref=\"Mishnah Tamid 3:1\">Tam. III, 1</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִדַּשֵּׁן"],
+			"senses": [
+				{
+					"gloss": "<i>to become sappy, vigorous</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 32\">Pirké d’R. El. ch. XXXII</cite>, end."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be treated like the charred wick, to become unfit for sacred use</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 88b:5\">Men. 88ᵇ</cite> <he>ני׳ השמן נִידַּשְּׁנָה וכ׳</he> the oil as well as the wick has become unfit."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

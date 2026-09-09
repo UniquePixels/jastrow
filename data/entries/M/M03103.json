@@ -1,0 +1,32 @@
+{
+	"id": "M03103",
+	"slug": "מתקל-2",
+	"headword": {
+		"text": "מַתְקַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַתְקְלָא"
+		}
+	],
+	"page": {
+		"number": 864,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>תְּקַל</he> I) = h. <cite ref=\"M02966\"><he>מִשְׁקָל</he></cite>, <i>weight</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 30:34\">Targ. Ex. XXX, 34</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 19:35\">Targ. Lev. XIX, 35</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 20:3:3\">Y. Sabb. XX, 17ᶜ</cite> bot. <he>מ׳ זוזא</he> the weight of a Zuz; a. e.—Pl. <he>מַתְקָלִין</he>, <he>מַתְקְלִין</he>, <he>מַתְקְלֵי</he>. ",
+				"<cite ref=\"Onkelos Leviticus 19:36\">Targ. Lev. XIX, 36</cite> (some ed. … <he>קְלָן</he>). ",
+				"<cite ref=\"Onkelos Deuteronomy 25:15\">Targ. Deut. XXV, 15</cite>; a. e.—",
+				"<cite ref=\"Bekhorot 50a:2\">Bekh. 50ᵃ</cite> <he>עשרין מ׳ במתקל דינרא</he> (not <he>במתקלי</he>) twenty times the weight of a (Tyrian) Denar."
+			]
+		}
+	]
+}

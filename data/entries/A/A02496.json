@@ -1,0 +1,43 @@
+{
+	"id": "A02496",
+	"slug": "אספלידא",
+	"headword": {
+		"text": "אִסְפְּלִידָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְ׳"
+		}
+	],
+	"page": {
+		"number": 95,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Ispe. noun of <he>פלד</he>; Arab. <he>פלדֹ</he>, <i>to cut</i>, v. Ges. H. Dict. s. v.; cmp. <cite ref=\"Q01574\"><he>פרד</he></cite>); <i>a cut-off place, recess</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cave, cleft</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 33:22\">Targ. Y. Ex. XXXIII, 22</cite> (h. text <he>נקרה</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 57:1\">Targ. Ps. LVII, 1</cite> (ed. <he>אוס׳</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = <i>exedra</i> (v. <cite ref=\"A01720\"><he>אַכְסַדְרָא</he></cite>), <i>recess in the house, sitting room in the shape of an open hall</i>, generally supported by columns. ",
+			"units": [
+				"<cite ref=\"Bava Batra 7a:8\">B. Bath. 7ᵃ</cite> <he>חד מטייה א׳</he> one of the heirs received a hall as his share. ",
+				"<cite ref=\"Bava Batra 7a:8\">Ib.</cite> <he>קא בני … דא׳</he> the other built a wall in front of the hall (debarring light and air). ",
+				"<cite ref=\"Esther Rabbah 3:2\">Esth. R. to I, 9</cite> <he>בית א׳</he> <i>reception rooms.—</i> Pl. <cite ref=\"A02496\"><he>אִסְפְּלִידֵי</he></cite>. ",
+				"<cite ref=\"Menachot 33b:10\">Men. 33ᵇ</cite> <he>א׳ דאית להו וכ׳</he> halls supported by columns."
+			],
+			"label": "2"
+		}
+	]
+}

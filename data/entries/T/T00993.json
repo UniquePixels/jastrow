@@ -1,0 +1,39 @@
+{
+	"id": "T00993",
+	"slug": "רצען",
+	"headword": {
+		"text": "רַצְעָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "רוֹצְעָן"
+		}
+	],
+	"page": {
+		"number": 1494,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00992\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>leather-worker, shoemaker, saddler</i>.—Pl. <he>רַצְעָנִים</he>, <he>רַצְעָנִין</he>, <cite ref=\"T00349\"><he>רוֹ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 4:6\">Pes. IV, 6</cite> (Y. ed. <he>רו׳</he>). Ib. 55ᵇ; Tosef. ib. II (III), 18; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"G00511\"><he>זְמוֹרָה</he></cite>) = <he>בעל הרצועה</he> <i>strap-bearer</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sotah 15:7\">Tosef. Sot. XV, 7</cite>, v. <cite ref=\"T00991\"><he>רָצַע</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

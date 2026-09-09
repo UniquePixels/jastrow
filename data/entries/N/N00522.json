@@ -1,0 +1,40 @@
+{
+	"id": "N00522",
+	"slug": "נחש-5",
+	"headword": {
+		"text": "נָחָשׁ"
+	},
+	"page": {
+		"number": 896,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"N00518\"><he>נָחַשׁ</he></cite>) [<i>the hissing</i>,] <i>serpent</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 22:12\">Gen. R. s. 22</cite> <he>נ׳ הקדמוני</he> the original serpent (the seducer of Eve). ",
+				"<cite ref=\"Bereishit Rabbah 20:2\">Gen. R. s. 20</cite> <he>נ׳ זה רשע בעל תשובות</he> that serpent is wicked and skilled in arguments. ",
+				"<cite ref=\"Bekhorot 8a:14\">Bekh. 8ᵃ</cite> <he>נ׳ לשבע שנים וכ׳</he> a serpent’s pregnancy lasts seven years, and for that wicked animal I find no parallel (in the vegetable kingdom). ",
+				"<cite ref=\"Bereishit Rabbah 54:1\">Gen. R. s. 54</cite> <he>הנ׳ של בית</he> the domestic serpent (harmless); a. fr.—Pl. <he>נְחָשִׁים</he>. ",
+				"<cite ref=\"Bereishit Rabbah 84:16\">Gen. R. s. 84</cite> <he>נ׳ ועקרבים</he> snakes and scorpions; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a pungent</i> (<i>poisonous</i>) <i>fluid</i> in the leaves or in the stems of onions kept for a long time in the ground. ",
+			"units": ["<cite ref=\"Eruvin 29b:3\">Erub. 29ᵇ</cite>"],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>a disease of the eye</i>, v. <cite ref=\"H01013\"><he>חִלָּזוֹן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 6:2\">Bekh. VI, 2</cite> <he>חלזון נ׳ וכ׳</he>, expl. ",
+				"<cite ref=\"Bekhorot 38b:4\">ib. 38ᵇ</cite> as identical with <cite ref=\"H01013\"><he>חלזון</he></cite>; <cite ref=\"Tosefta Bekhorot 4:2\">Tosef. ib. IV, 2</cite>; Sifra Emor ch. II, Par. 3."
+			],
+			"label": "3"
+		}
+	]
+}

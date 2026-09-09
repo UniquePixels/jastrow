@@ -1,0 +1,29 @@
+{
+	"id": "U02057",
+	"slug": "ששי",
+	"headword": {
+		"text": "שִׁשִּׁי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁשִּׁית"
+		}
+	],
+	"page": {
+		"number": 1636,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U02056\">preced.</cite>) <i>sixth</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 11:3\">Gen. R. s. 11</cite> <he>בש׳ נברא וכ׳</he> on the sixth day man and beast were created. ",
+				"<cite ref=\"Bereishit Rabbah 12:4\">Gen. R. s. 12</cite>. ",
+				"<cite ref=\"Mishnah Taanit 4:3\">Taan. IV, 3</cite>; a. fr."
+			]
+		}
+	]
+}

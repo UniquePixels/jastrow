@@ -1,0 +1,23 @@
+{
+	"id": "K00287",
+	"slug": "כומני",
+	"headword": {
+		"text": "כּוּמְנִי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 620,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (prob. a corrupt. of χαμεύνη, <i>a pallet-bed</i>) <i>mattress</i> used as a seat for travelling women. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Batra 4:2\">Tosef. B. Bath. IV, 2</cite>; <cite ref=\"Bava Batra 78a\">B. Bath. 78ᵃ</cite>, expl. <he>מרכבתא דנשי</he>."
+			]
+		}
+	]
+}

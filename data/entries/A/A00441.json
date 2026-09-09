@@ -1,0 +1,34 @@
+{
+	"id": "A00441",
+	"slug": "אדר-1",
+	"headword": {
+		"text": "אָדַר"
+	},
+	"page": {
+		"number": 17,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., √<he>אד</he>; cmp. <cite ref=\"E00095\"><he>הד</he></cite>, <cite ref=\"H00168\"><he>חד</he></cite>, <cite ref=\"C00151\"><he>גד</he></cite> in <he>הדר</he>, <cite ref=\"H00168\"><he>חד</he></cite><cite ref=\"T00000\"><he>ר</he></cite>, <cite ref=\"C00246\"><he>גדר</he></cite>)<i>to cut off, surround, isolate;</i> whence ",
+			"units": []
+		},
+		{
+			"gloss": " (b. h.) to <i>distinguish</i>.—Den. <cite ref=\"A00405\"><he>אַדִּיר</he></cite>. ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (Assyr. v. <cite ref=\"A00443\"><he>אֲדָר</he></cite>) <i>to darken</i>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " *<i>to strip</i>. cmp. <cite ref=\"P00164\"><he>עדר</he></cite>.—",
+			"units": [
+				"<cite ref=\"Bava Kamma 11a\">B. Kam. 11ᵃ</cite> (ref. to <cite ref=\"P00114\"><he>עד</he></cite> <cite ref=\"Exodus 22:12\">Ex. XXII, 12</cite>, v. <cite ref=\"P00111\"><he>עַד</he></cite> in H. Dict.) <he>יביא אֲדוּרָה לב״ד</he> Ar. (ed. <he>עֲדוּדָה</he>, v. <cite ref=\"P00122\"><he>עדד</he></cite>; Ms. <he>ארורה</he>, corr. acc.) let him bring the stripped (the remnants of the torn animal, skin &c.) before court for assessment of damages."
+			],
+			"label": "3"
+		}
+	]
+}

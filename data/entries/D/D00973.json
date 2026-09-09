@@ -1,0 +1,31 @@
+{
+	"id": "D00973",
+	"slug": "דפק-2",
+	"headword": {
+		"text": "דְּפַק"
+	},
+	"page": {
+		"number": 317,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>דַּפֵּק</he> ch. same, <i>to knock</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite> [read:] <he>מְדַפְּקָא לה</he> she knocks at the door."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "A03199",
+	"slug": "ארנון-3",
+	"headword": {
+		"text": "אַרְנוֹן",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְנוֹנָא"
+		},
+		{
+			"text": "אַרְנוֹנָה"
+		}
+	],
+	"page": {
+		"number": 123,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (an adaptation of <i>annona</i>, cmp. <cite ref=\"A02145\"><he>אַנּוֹנָא</he></cite> a. <cite ref=\"I00593\"><he>טַסְקָא</he></cite>) [<i>chest, treasury</i>, v. preced.] <i>tax from crops and other farmer’s produces delivered in kind</i>. Y. Keth. XIII, 35ᵈ <he>א׳ גולגולת</he> annona and poll-tax.—",
+			"units": [
+				"<cite ref=\"Pesachim 6a:2\">Pes. 6ᵃ</cite> <he>בהמת א׳</he> cattle subject to the annona (v. D. C. ed. Hensch, s. v. Annona: ‘capitur etiam in pecudibus’); <he>עיסת א׳</he> dough made of flour subject to annona.—Pl. <he>אַרְנוֹנוֹת</he>, <he>אַרְנוֹנִיּוֹת</he>, <he>אַרְנוֹנִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:36\">Targ. Y. Deut. XXVIII, 36</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 29:2\">Lev. R. s. 29</cite>. Y. Shebi. IV, 35ᵇ; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 3:5:9\">Y. Snh. III, 21ᵇ</cite> top <he>מיגבי ארנונין</he> to collect taxes Pesik. Shek. 11ᵇ (description of Roman extortions) <he>אייתי ארנונֵיךְ</he> bring thy <i>annonae</i>"
+			]
+		}
+	]
+}

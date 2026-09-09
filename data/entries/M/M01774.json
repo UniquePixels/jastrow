@@ -1,0 +1,28 @@
+{
+	"id": "M01774",
+	"slug": "מניומי",
+	"headword": {
+		"text": "מִנְיוֹמִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִי׳"
+		}
+	],
+	"page": {
+		"number": 801,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Minyomi</i>, a physician. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 28b:4\">Ab. Zar. 28ᵇ</cite> (Ms. M. <cite ref=\"M01784\"><he>מִנְיָמִין</he></cite>). ",
+				"<cite ref=\"Shabbat 133b:18\">Sabb. 133ᵇ</cite> (Ms. M. <he>בניימין</he>; <cite ref=\"Sanhedrin 99b:19\">Snh. 99ᵇ</cite> bot. <he>בנימין</he>)."
+			]
+		}
+	]
+}

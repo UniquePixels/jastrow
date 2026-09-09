@@ -1,0 +1,86 @@
+{
+	"id": "G00536",
+	"slug": "זמן-2",
+	"headword": {
+		"text": "זְמַן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 404,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00535\">same</cite>.—<i>Part. pass.</i> <cite ref=\"G00518\"><he>זְמִין</he></cite> <i>ready, prepared</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 34:2\">Targ. Ex. XXXIV, 2</cite> (Y. <cite ref=\"G00518\"><he>זַמִין</he></cite>, <he>זַמְיַן</he>, incorr.).—Ib. XIX, 11; 15 <he>זְמִינִין</he> (Y. II <he>מְזַמְנַן</he>, v. infra).—V. <cite ref=\"G00519\"><he>זְמִינָא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זַמֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to invite; to appoint; to summon; to prepare</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Micah 3:5\">Targ. Mic. III, 5</cite>. ",
+						"<cite ref=\"Onkelos Exodus 19:10\">Targ. Ex. XIX, 10</cite>; <cite ref=\"Onkelos Exodus 19:14\">14</cite> (ed. Berl. <he>זָמֵין</he>, v. Berl. Targ. O. II, p. 25); a. fr. [Ib. XXV, 22 <he>ואִיזַמָן</he>, ed. Berl. <he>ואֵיזָמֵין</he>, Y. <he>אֵיזְמַן</he>, Ithpe.].—",
+						"<cite ref=\"Moed Katan 16a:3\">M. Kat. 16ᵃ</cite> <he>מְזַמְּנִינָן ליה וכ׳</he> we summon him &c. ",
+						"<cite ref=\"Shir HaShirim Rabbah 5:13\">Cant. R. to V, 13</cite> <he>ביומוי דזַמְּנִינָן וכ׳</he> (not <he>דזמניין</he>) in those my days when we invited two parties of scholars (for discussions).—<i>Part. pass.</i> <cite ref=\"M00772\"><he>מְזַמַּן</he></cite> (hebraism: <he>מְזוּמָּן</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 72:17\">Targ. Ps. LXXII, 17</cite> (h. text <he>ינון</he>).—Pl. constr. <he>מְזַמְּנֵי</he>. ",
+						"<cite ref=\"Targum Jonathan on Numbers 1:16\">Targ. Y. Num. I, 16</cite> (h. text <he>קריאי</he>). [<cite ref=\"Targum Jonathan on Numbers 26:9\">Ib. XXVI, 9</cite> <he>מנמנמי</he> Ar., read <he>מזמני</he>; ed. <he>מערעי</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to appoint a meal in common, to say grace in common</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 45b:19\">Ber. 45ᵇ</cite> <he>ניהדר ונְזַמֵּן</he> let us go back and agree (retrospectively) to make our meal a common one."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַזְמֵין"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"G00535\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 24:7\">Targ. Y. Gen. XXIV, 7</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 16:3\">Targ. I Sam. XVI, 3</cite>. ",
+						"<cite ref=\"Onkelos Exodus 19:10\">Targ. Ex. XIX, 10</cite> <he>ותַזְ׳</he> some ed. v. supra; a. fr.—",
+						"<cite ref=\"Berakhot 50b:1\">Ber. 50ᵇ</cite> <he>אַזְמוּן עלייהו</he> they counted them in for common grace, v. <cite ref=\"G00535\">preced.</cite> <i>Pi.</i>—",
+						"<cite ref=\"Sanhedrin 48a:5\">Snh. 48ᵃ</cite> <he>דאַזְמְנֵיה וכ׳</he> which one designated for &c.—",
+						"<cite ref=\"Bava Batra 58a\">B. Bath. 58ᵃ</cite> sq. <he>אי אתי אינש מעלמא ומַזְמִין ליה לדינא</he> Ms. M. (ed. incorr.) if any unknown man will come and sue him; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִזְדַּמֵּן"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"G00535\">preced.</cite> <i>Nithpa.</i> ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 33:23\">Targ. Job XXXIII, 23</cite>.—",
+						"<cite ref=\"Targum Jerusalem, Genesis 19:31\">Targ. Y. II, Gen. XIX, 31</cite> <he>למִיזְדַּמְנָא וכ׳</he> to join us in wedlock (cmp. <cite ref=\"G00119\"><he>זְוַג</he></cite>).—",
+						"<cite ref=\"Targum Jonathan on Amos 3:3\">Targ. Am. III, 3</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to prepare one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Joshua 7:13\">Targ. Josh. VII, 13</cite>; a. e. [<cite ref=\"Targum Jerusalem, Genesis 22:8\">Targ. Y. II, Gen. XXII, 8</cite> <he>יזדמן</he>, read <he>יְזַמֵּן</he>.]—Contr. <he>אִיזַּמֵּן</he>, <i>Ithpe.</i> <he>אִיזְּמִין</he>, v. supra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

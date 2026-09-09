@@ -1,0 +1,42 @@
+{
+	"id": "G00633",
+	"slug": "זקיף-2",
+	"headword": {
+		"text": "זְקִיף",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זְקִיפָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 408,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00632\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>erect, upright</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 40a:3\">Pes. 40ᵃ</cite> <he>ז׳ אסיר</he> if it (the pot) stands upright (so that the moisture cannot run out), the grain is forbidden. [Ms. M. <cite ref=\"G00634\"><he>זִיקְפָּא</he></cite> as a noun, <i>an upright standing vessel</i>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>elevated, projecting</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 13:2\">Targ. Y. Lev. XIII, 2</cite> <he>שומא ז׳</he> (h. text <cite ref=\"U00056\"><he>שְׂאֵת</he></cite>; some ed. <cite ref=\"G00635\"><he>זַקִּיפָא</he></cite>).—Pl. <cite ref=\"G00637\"><he>זְקִיפִין</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 27:2\">Targ. Y. Ex. XXVII, 2</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

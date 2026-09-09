@@ -1,0 +1,36 @@
+{
+	"id": "H00433",
+	"slug": "חוצה-2",
+	"headword": {
+		"text": "חוּצָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 438,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00432\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = <he>חִיצוֹנָה</he>, <i>outsider, stranger</i> (not related). ",
+			"units": [
+				"<cite ref=\"Yevamot 13b:4\">Yeb. 13ᵇ</cite> (interpret. ",
+				"<cite ref=\"Deuteronomy 25:5\">Deut. XXV, 5</cite>) <he>אשת המת הח׳</he> the deceased’s wife who is a stranger (to the brother); Y. ib. I, 3ᵃ. Ib. <he>דאינון דרשין הח׳ החיצונה</he> (the Samaritans) who interpret <i>haḥutsah</i> like <i>haḥitsonah</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a strange, unnatural act</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 303\">Yalk. Is. 303</cite>, v. <cite ref=\"H00860\"><he>חִיצָה</he> I</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

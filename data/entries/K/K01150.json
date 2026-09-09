@@ -1,0 +1,24 @@
+{
+	"id": "K01150",
+	"slug": "כרטיס",
+	"headword": {
+		"text": "כַּרְטֵיס"
+	},
+	"page": {
+		"number": 666,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (χάρτης) <i>document</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 9:9:2\">Y. Keth. IX, end, 33ᶜ</cite> <he>כהן דמר אבד כַּרְטֵיסוֹ וכ׳</he> (not <he>סן …</he>) in accordance with the opinion of him who says, if one’s document (of indebtedness) is lost, write a duplicate for him. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 9:9:2\">Ib.</cite> <he>לבד מן כרטוסה קדמייא וכ׳</he> (read: <he>כַּרְטֵיסָה</he> or <he>כַּרְטֵיסַיָּה</he> <i>pl.</i>) irrespective of a previous document (or previous documents, against me) which may be in thy possession. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 9:9:2\">Ib.</cite> [read:] <he>אלא כי אורחא דבר נשא מימר אבד כַּרְטֵיסִי עבד חורן</he> but is it a usual matter for a man to say (to his debtor), my document has been lost, write another for me?—V. <cite ref=\"S02001\"><he>קַרְטֵיס</he></cite>."
+			]
+		}
+	]
+}

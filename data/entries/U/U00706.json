@@ -1,0 +1,50 @@
+{
+	"id": "U00706",
+	"slug": "שחר-3",
+	"headword": {
+		"text": "שָׁחַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1551,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H01768\"><he>חָרַר</he> III</cite>)<i>to be charred, black</i>.—V. <cite ref=\"U00628\"><he>שָׁחוֹר</he> I</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁחִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to blacken</i>. Y. Ḥag. II, 77ᵈ <he>הִשְׁחִירוּ פניהן וכ׳</he> they made their faces as black as the bottom of a pot, i.e. they ruined their reputation. ",
+					"units": [
+						"<cite ref=\"Shabbat 152a:14\">Sabb. 152ᵃ</cite> (ref. to <cite ref=\"Ecclesiastes 11:10\">Koh. XI, 10</cite>) <he>דברים … מַשְׁחִירִים וכ׳</he> certain things which a man does in his young days make his face look black (sickly) in his old age; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become black</i>. Y. Bets. II, end, 61ᵈ <he>הִשְׁחִירוּ שיניו וכ׳</he> his teeth were black from fasting; Y. Sabb. V, end, 7ᶜ; <cite ref=\"Chagigah 22b:6\">Ḥag. 22ᵇ</cite> <he>הוּשְׁחֲרוּ שיניו</he> (Hof.; Ms. M. <he>פניו</he>). ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 1\">Ex. R. s. 1</cite> (play on <cite ref=\"A03281\"><he>אשחור</he></cite>, <cite ref=\"II Chronicles 1:24\">II Chr. I, 24</cite>) <he>שחִשְׁחִירוּ פניו בתעניות</he> his face was black from fasting. Y. Shebi. VI, 36ᵈ bot. <he>מכיון שה׳</he> as soon as it (the onion in the ground) gets black. Y. Snh. VIII, beg. 26ᵃ <he>הִשְׁחִירָה הקדרה</he>, v. <cite ref=\"B01359\"><he>בָּשַׁל</he></cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּשְׁחַר"],
+			"senses": [
+				{
+					"gloss": "<i>to become black</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

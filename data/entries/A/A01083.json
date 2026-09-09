@@ -1,0 +1,23 @@
+{
+	"id": "A01083",
+	"slug": "אטימיטון",
+	"headword": {
+		"text": "אֲטִימִיטוֹן"
+	},
+	"page": {
+		"number": 42,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (neut., or accus. of ἀτίμητος (something) <i>invaluable, priceless</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:36\">Y. Peah I, 15ᵈ</cite> bot. <he>חד מרגלי טבא א׳</he> (read <cite ref=\"H00172\"><he>חדא</he></cite>) a pearl worth a priceless treasure. ",
+				"<cite ref=\"Bereishit Rabbah 35:3\">Gen. R. s. 35</cite> end <he>מרגלית אטימטון</he>. *Ruth R. next to I, 18 <he>מילא דאיסטופיטא</he> read <he>מרגליתא אטימיטא</he> an invaluable pearl."
+			]
+		}
+	]
+}

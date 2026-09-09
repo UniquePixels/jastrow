@@ -1,0 +1,59 @@
+{
+	"id": "B01369",
+	"slug": "בשר-2",
+	"headword": {
+		"text": "בְּשַׂר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּסַר",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 199,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01368\">same</cite><i>to be glad;</i>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " = <i>Pa.</i> ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 21:7\">Targ. Y. Gen. XXI, 7</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 49:21\">Targ. Y. II ib. XLIX, 21</cite> <he>למִיבְשַׂר</he>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּשֵּׂר", "בַּסֵּר"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"B01368\">preced.</cite> <i>Pi.</i> ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 49:21\">Targ. Y. I Gen. XLIX, 21</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 20:15\">Targ. Jer. XX, 15</cite>; a. fr. [<cite ref=\"Targum Jerusalem, Deuteronomy 4:34\">Targ. Y. II, Deut. IV, 34</cite>, v. <cite ref=\"B01367\"><he>בַּשְׁקַר</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְבַּשַּׂר"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"B01368\">preced.</cite> <i>Nithpa.</i> ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ruth 1:6\">Targ. Ruth I, 6</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

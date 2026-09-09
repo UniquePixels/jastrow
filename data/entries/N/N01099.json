@@ -1,0 +1,32 @@
+{
+	"id": "N01099",
+	"slug": "נצבא",
+	"headword": {
+		"text": "נִצְבָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִי׳"
+		},
+		{
+			"text": "נִצְבְּתָא"
+		}
+	],
+	"page": {
+		"number": 927,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01098\">preced.</cite>) <i>plant, shoots</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 14:8\">Targ. Job XIV, 8</cite>, sq. (Ms. <cite ref=\"N01124\"><he>נְצִיב</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 57:3\">Targ. Is. LVII, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Micah 1:6\">Targ. Mic. I, 6</cite> ed. Lag. (ed. <he>מִצְבַת</he>). [<cite ref=\"Targum Jonathan on Ezekiel 17:5\">Targ. Ez. XVII, 5</cite>, v. <cite ref=\"N00918\"><he>נִסְבָּא</he></cite>.]—Pl. <he>נְצִיבִין</he>, v. <cite ref=\"N01125\"><he>נְצִיבָא</he></cite>."
+			]
+		}
+	]
+}

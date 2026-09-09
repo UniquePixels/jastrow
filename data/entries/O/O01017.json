@@ -1,0 +1,33 @@
+{
+	"id": "O01017",
+	"slug": "סלעם-1",
+	"headword": {
+		"text": "סַלְעֵם"
+	},
+	"page": {
+		"number": 996,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Saf. of <he>לעם</he>; cmp. <cite ref=\"L00606\"><he>לעט</he></cite>, <he>לעס</he>) <i>to swallow; to ruin</i> (corresp. to h. <he>בלע</he>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 10:8\">Targ. Job X, 8</cite>; a. fr.—Part. pass. <he>מְסַלְעַם</he>; f. <he>מְסַלְעֲמָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Nahum 3:11\">Targ. Nah. III, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 9:15\">Targ. Is. IX, 15</cite> <he>מְסִלְעֲמִין</he> (Hebraism)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִסְתַּלְעֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to be swallowed up, ruined</i>. Ib. XXVIII, 7; a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

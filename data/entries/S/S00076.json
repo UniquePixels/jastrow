@@ -1,0 +1,25 @@
+{
+	"id": "S00076",
+	"slug": "קבלנא-1",
+	"headword": {
+		"text": "קַבְּלָנָא"
+	},
+	"page": {
+		"number": 1310,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00075\">same</cite><i>receiver</i> (of deposits &c.). Y’lamd. to Ex. XXXVIII, quot. in Ar. <he>והוה לה ק׳ בחיי בעלה</he> and she had a receiver (trustee) during her husband’s life-time.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>one receiving and transmitting a tradition, authority</i>.—Pl. <he>קַבְּלָנֵי</he>. ",
+			"units": [
+				"<cite ref=\"Nazir 56b:11\">Naz. 56ᵇ</cite> <he>כל שמעתתא</he> … <he>תלתא ק׳ קמאי וכ׳</he> Ar. (in ed. our w. omitted) whenever a tradition passes through three (or more) authorities, we must mention the first and the last authorities, the intermediate we may omit."
+			],
+			"label": "2"
+		}
+	]
+}

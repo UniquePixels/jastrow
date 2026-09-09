@@ -1,0 +1,25 @@
+{
+	"id": "B01102",
+	"slug": "בצעה",
+	"headword": {
+		"text": "בִּצְעָה"
+	},
+	"page": {
+		"number": 184,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בצע</he>, cmp. <cite ref=\"B01078\"><he>בִּצָּה</he></cite>) <i>ditch, dike, pond.—</i>Pl. <he>בִּצְעִים</he>, <cite ref=\"B00689\"><he>בִּצְעִין</he></cite>, <cite ref=\"B00125\"><he>בִּי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sanhedrin 3:4\">Tosef. Snh. III, 4</cite> <he>שתי בצעין</he> ed. Zuck. (Var. <he>ביצועין</he>); <cite ref=\"Shevuot 16a:6\">Shebu. 16ᵃ</cite> <he>שני בצעים וכ׳</he> Ar. (read <cite ref=\"U02091\"><he>שתי</he></cite>, ed. <cite ref=\"B00689\"><he>ביצעין</he></cite>, Ms. M. <he>בצעי׳</he>) there were two ponds (reservoirs) in Jerusalem, the upper &c. ",
+				"<cite ref=\"Shabbat 31a:3\">Sabb. 31ᵃ</cite> <he>בין בִּצְעֵי המים</he> between the dykes (of the Nile). ",
+				"<cite ref=\"Sanhedrin 96a:8\">Snh. 96ᵃ</cite> <he>בִּיצְעֵי וכ׳</he>. ",
+				"<cite ref=\"Sanhedrin 5b:7\">Ib. 5ᵇ</cite>, v. <cite ref=\"B01078\"><he>בִּצָּה</he></cite>."
+			]
+		}
+	]
+}

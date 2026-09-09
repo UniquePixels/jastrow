@@ -1,0 +1,32 @@
+{
+	"id": "N00278",
+	"slug": "נהק-2",
+	"headword": {
+		"text": "נְהַק"
+	},
+	"page": {
+		"number": 882,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00277\">same</cite>, <i>to cry, groan</i> (for hunger). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 24:12\">Targ. Job XXIV, 12</cite> (h. text <cite ref=\"N00029\"><he>נאק</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 30:7\">Ib. XXX, 7</cite> (Ms. <cite ref=\"N00029\"><he>נאק</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַהֵק"],
+			"senses": [
+				{
+					"gloss": "<i>to bray</i>. Y. Dem. I, 21ᵈ bot. <he>שריית מְנַהֲקָה</he> (the ass) began to bray.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

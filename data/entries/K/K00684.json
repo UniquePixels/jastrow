@@ -1,0 +1,24 @@
+{
+	"id": "K00684",
+	"slug": "כלביא",
+	"headword": {
+		"text": "כִּלְבִּיָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 639,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (an assumed word for <cite ref=\"K00681\"><he>כַּלְבָּה</he></cite>, after the form of <cite ref=\"L00069\"><he>לְבִיָּא</he></cite>) <i>she-dog, bitch</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 39:2\">Midr. Till. to Ps. XXXIX</cite> (in an allegorical contest of the limbs) <he>הא לך חלב כ׳</he> here is dog-milk for thee, ed. Bub. <cite ref=\"K00680\"><he>כלבא</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 721:1\">Yalk. Ps. 721</cite> <cite ref=\"K00687\"><he>כלבתא</he></cite> (corr. acc.). ",
+				"<cite ref=\"Yalkut Shimoni on Nach 721:1\">Ib.</cite> <he>הבאת חלב כ׳</he> (read with Yalk. l. c. <cite ref=\"K00678\"><he>כַּלְבָּא</he></cite>; ed. Bub. <cite ref=\"K00687\"><he>כלבתא</he></cite>) thou hast brought dog-(instead of lion-) milk. Ib. <he>ועוד ג״כ כי לבייא קורין אותה כ׳</he> (differ. in Yalk.; ed. Bub. <he>ועוד ללבייא … כלבתא</he>) and furthermore a lioness may likewise be called a bitch."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "O00226",
+	"slug": "סואר",
+	"headword": {
+		"text": "סַוָּאר"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַוָּואר"
+		},
+		{
+			"text": "סַוָּור"
+		}
+	],
+	"page": {
+		"number": 960,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (dial. for <cite ref=\"R00151\"><he>צַוָּאר</he></cite>; <cite ref=\"O00411\"><he>סָוַר</he></cite> = <cite ref=\"R00068\"><he>צָבַר</he></cite>; v. Maim. to Ohol. III, 7 ed. Dehr.) <i>a pile</i> of joists, <i>frame</i>. Ohol. III, 7 <he>ס׳ של קורות</he> (ed. Dehr. <he>צוואר</he>, in comment. <cite ref=\"R00151\"><he>צַוָּור</he></cite>, Var. <cite ref=\"R00070\"><he>צֶבֶר</he></cite>); <cite ref=\"Sukkah 20b:13\">Succ. 20ᵇ</cite> (Ms. M. <he>סוואר</he>); <cite ref=\"Jerusalem Talmud Shabbat 4:2:8\">Y. Sabb. IV, 7ᵃ</cite> top <he>צבר</he>. ",
+			"units": [
+				"<cite ref=\"Beitzah 31b:2\">Bets. 31ᵇ</cite> <he>אין מבקעין עצים לא מן הס׳ וכ׳</he> we must not chop (on the Holy Day, for immediate use) wood from a pile of joists (intended for building purposes), v. <cite ref=\"M00475\"><he>מוּכָן</he></cite>.—",
+				"<cite ref=\"Tosefta Keilim Metsia 5:4\">Tosef. Kel. B. Mets. V, 4</cite> <he>ס׳ של נחתומין הפרוס וכ׳</he> (R. S. to <cite ref=\"Mishnah Kelim 15:2\">Kel. XV, 2</cite> <cite ref=\"O01551\"><he>סרוד</he></cite>) the baker’s frame when it is plain (without rims) is unclean, because dough is cut and carried to the stove on it.—V. <cite ref=\"O00411\"><he>סָוַר</he></cite>."
+			]
+		}
+	]
+}

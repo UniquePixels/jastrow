@@ -1,0 +1,23 @@
+{
+	"id": "A02307",
+	"slug": "אנתא",
+	"headword": {
+		"text": "אִנְתָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 88,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אית</he>, <cite ref=\"A02306\"><he>אנת</he></cite>, cmp. <cite ref=\"A02308\"><he>אִינְתּוּ</he></cite> for <cite ref=\"A01642\"><he>אִיתּוּ</he></cite>) <i>essence, substance</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 78a:8\">Men. 78ᵃ</cite> <he>אימא א׳ דמשחא</he> perhaps by ‘loaf of oil’, the oil itself is meant?, i.e. a loaf made of congealed oil."
+			]
+		}
+	]
+}

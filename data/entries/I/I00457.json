@@ -1,0 +1,27 @@
+{
+	"id": "I00457",
+	"slug": "טישטושא",
+	"headword": {
+		"text": "טִישְׁטוּשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִשְׁ׳"
+		}
+	],
+	"page": {
+		"number": 535,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טוּשׁ</he> I) <i>mire</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 40:3\">Targ. Ps. XL, 3</cite>."
+			]
+		}
+	]
+}

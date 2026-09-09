@@ -1,0 +1,29 @@
+{
+	"id": "M00373",
+	"slug": "מהמורות",
+	"headword": {
+		"text": "מַהֲמוֹרוֹת"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַחֲ׳"
+		}
+	],
+	"page": {
+		"number": 737,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl.(b. h. <he>מהמרות</he>; <he>המר</he>, cmp. <cite ref=\"H01218\"><he>חָמַר</he></cite>, <cite ref=\"H01224\"><he>חֲמַר</he> I)</cite><i>debris, mounds</i> used as burying places for executed criminals. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:5:3\">Y. M. Kat. I, 80ᶜ</cite> bot. <he>בראשונה … במ׳</he> in former days they buried them (the convicts) in mounds (while later on special places were provided for them; v. ",
+				"<cite ref=\"Mishnah Sanhedrin 6:5\">Snh. VI, 5</cite>); Y. Snh. VI, 23ᵈ bot. <he>במח׳</he> (correct the entire passage in accordance with Y. M. Kat. l. c.)."
+			]
+		}
+	]
+}

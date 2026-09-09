@@ -1,0 +1,34 @@
+{
+	"id": "T00185",
+	"slug": "רגיא",
+	"headword": {
+		"text": "רִגְיָא"
+	},
+	"page": {
+		"number": 1448,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00184\"><he>רגי</he></cite> = <he>רגע</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the turn of the scale</i> (Gr. ῥοπή).). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 16:11\">Targ. Prov. XVI, 11</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>mean, medial sum</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 11a:4\">Bekh. 11ᵃ</cite> <he>עין יפה … בינונית בר׳</he> the liberal (redeems the first born ass) with a Sela, the stingy with a Shekel (two Zuz), he of a middle disposition, with a ‘middle’; <cite ref=\"Bekhorot 11a:5\">ib.</cite> <he>הלכתא בר׳ … רגיל הכא ורגיל הכא</he> the law requires a <i>rigia</i>, and how much is this? Three Zuz, running this way and running that way."
+			],
+			"label": "2"
+		}
+	]
+}

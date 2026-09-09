@@ -1,0 +1,26 @@
+{
+	"id": "H00384",
+	"slug": "חומץ-1",
+	"headword": {
+		"text": "חוֹמֶץ"
+	},
+	"page": {
+		"number": 435,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"H01212\"><he>חֹמֶץ</he></cite>; <cite ref=\"H01211\"><he>חָמַץ</he></cite>)<i>vinegar</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 3:1\">Pes. III, 1</cite> <he>ח׳ האדומי</he> Edomite (Roman) vinegar (wine fermented with barley). ",
+				"<cite ref=\"Pesachim 42b:5\">Ib. 42ᵇ</cite> (when the wine of Judæa could only be soured by an admixture of barley) <he>היו קורין אותו ח׳ סתם וכ׳</he> they called it plain <i>vinegar</i>, and now … they call it <i>Edomite</i> (Roman, Cæsarean) <i>vinegar</i> (to distinguish it from pure vine vinegar). ",
+				"<cite ref=\"Mishnah Demai 1:1\">Dem. I, 1</cite> <he>הח׳ שביהודה</he> the vinegar made in Judæa, v. supra. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 14:4:2\">Y. Sabb. XIV, 14ᶜ</cite> bot. <he>חוֹמְצָן של פירות</he> fruit-vinegar; a. fr.—",
+				"<cite ref=\"Bava Metzia 83b:9\">B. Mets. 83ᵇ</cite> <he>ח׳ בן יין</he> vinegar son of wine (bad son of a good father)."
+			]
+		}
+	]
+}

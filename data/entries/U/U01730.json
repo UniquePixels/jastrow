@@ -1,0 +1,32 @@
+{
+	"id": "U01730",
+	"slug": "שפט-1",
+	"headword": {
+		"text": "שָׁפַט"
+	},
+	"page": {
+		"number": 1614,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <he>פטט</he>, s. v. <cite ref=\"Q00506\"><he>פַּטָּטָא</he></cite>) [<i>to divide</i>; cmp. <he>גזר</he>,] <i>to decree, decide, judge</i>. ",
+			"units": [
+				"<cite ref=\"Ruth Rabbah, Petichta 1\">Ruth R. to I, 1</cite> <he>אוי לדור שׁשָׁפְטוּ … צריכין להִשָּׁפט</he> woe to the generation that judge (criticise) their judges, and woe to the generation whose judges need to be judged; <cite ref=\"Bava Batra 15b:10\">B. Bath. 15ᵇ</cite> (ref. to Ruth l. c.) <he>דור שׁשׁוֹפֵט וכ׳</he> it was a generation that judged its judges &c., v. <cite ref=\"S01071\"><he>קִיסָּם</he></cite>. ",
+				"<cite ref=\"Sotah 10a:3\">Sot. 10ᵃ</cite> <he>זכור לי … שׁשָׁפַטְתִּי וכ׳</he> remember unto me the twenty (-two) years that I judged Israel, and never did I say to them, carry a stick for me from one place to another; a. fr.—V. <cite ref=\"U00495\"><he>שׁוֹפֵט</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִשְׁפַּט"],
+			"senses": [
+				{
+					"gloss": "<i>to be judged, criticised</i>. Ruth R. l. c., v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

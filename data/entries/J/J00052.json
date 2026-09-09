@@ -1,0 +1,24 @@
+{
+	"id": "J00052",
+	"slug": "יבלא-2",
+	"headword": {
+		"text": "יִבְלָא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 561,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00091\"><he>נבל</he></cite>) <i>withered piece</i>.—Pl. constr. <he>יִבְלֵי</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 44:19\">Targ. Is. XLIV, 19</cite>, v. <cite ref=\"B00856\"><he>בְּלֵי</he> II</cite>."
+			]
+		}
+	]
+}

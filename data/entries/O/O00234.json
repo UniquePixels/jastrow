@@ -1,0 +1,23 @@
+{
+	"id": "O00234",
+	"slug": "סובך",
+	"headword": {
+		"text": "סוֹבֶךְ"
+	},
+	"page": {
+		"number": 960,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00063\"><he>סָבַךְ</he></cite>) [<i>thicket</i>,] <i>the fleshy part of the leg, calf</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 10:4\">Ḥull. X, 4</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 12:1:17\">Y. Yeb. XII, 12ᶜ</cite> bot.; <cite ref=\"Tosefta Yadayim 2:1\">Tosef. Yad. II, 1</cite> <he>ברגל עד הס׳</he> he must wash his feet up to where the calf begins."
+			]
+		}
+	]
+}

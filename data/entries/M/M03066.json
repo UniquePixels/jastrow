@@ -1,0 +1,23 @@
+{
+	"id": "M03066",
+	"slug": "מתך",
+	"headword": {
+		"text": "מַתַּךְ"
+	},
+	"page": {
+		"number": 862,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01380\"><he>נְתַךְ</he></cite>) <i>cast metal; molten image</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 7:16\">Targ. I Kings VII, 16</cite>; <cite ref=\"Targum Jonathan on I Kings 7:23\">23</cite> (h. text <cite ref=\"M02351\"><he>מצק</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 48:5\">Targ. Is. XLVIII, 5</cite>."
+			]
+		}
+	]
+}

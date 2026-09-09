@@ -1,0 +1,23 @@
+{
+	"id": "A02921",
+	"slug": "אקלפרין",
+	"headword": {
+		"text": "אַקְלִפְרִין"
+	},
+	"page": {
+		"number": 112,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (aquiliferi) <i>eagle-bearers, bearers of the imperial standard</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 45:4\">Midr. Till. to Ps. XLV</cite> (some ed. <he>אלק׳</he> corr. acc.)."
+			]
+		}
+	]
+}

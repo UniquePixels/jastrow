@@ -1,0 +1,30 @@
+{
+	"id": "V00691",
+	"slug": "תמליוס",
+	"headword": {
+		"text": "תְּמַלְיוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּימַ׳"
+		}
+	],
+	"page": {
+		"number": 1677,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (θεμέλιος, sub. λίθος) <i>foundation stone, foundation</i>. Y’lamd. to Num. XXIII, 9, quot. in Ar. <he>היה חופר ויורד ומבקש ליתן ת׳</he> digged deeper and deeper, seeking to lay a foundation.—Pl. <he>תְּמַלְיוֹסִים</he>, <he>תְּמַלְיוֹסִין</he>, <cite ref=\"V00014\"><he>תִּי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 3:1\">Gen. R. s. 3</cite> <he>לידע היאך הוא קובע ת׳</he> (Ar. <i>sing.</i>) to find out where to lay the foundations; Yalk. ib. 4. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:20\">Y. Snh. X, 29ᵃ</cite> bot. <he>בשעה … ת׳ וכ׳</he> when David went to dig for the foundation of the Temple. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 6:1:4\">Y. Sot. VI, beg. 20ᵈ</cite> <he>מילה דלית בה ת׳</he> (prob. to be read: <he>תְּמַלְיוֹסִיס</he>, θεμελίωσις) a thing (rumor) without foundation. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 5:1:4\">Y. Keth. V, 29ᶜ</cite> bot. <he>עיקרא לית לה ת׳ וכ׳</he> the thing itself has no foundation, and the Rabbis built upon it and went up &c.; a. e."
+			]
+		}
+	]
+}

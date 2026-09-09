@@ -1,0 +1,40 @@
+{
+	"id": "R00100",
+	"slug": "צדי-1",
+	"headword": {
+		"text": "צדי"
+	},
+	"altHeadwords": [
+		{
+			"text": "צָדָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1261,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"R00078\"><he>צַד</he></cite>) <i>to lie in wait, aim; to hunt, capture</i>. Part. <he>צוֹדֶה</he> (= <he>אוֹרֵב</he>) <i>ambush</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 1:9\">R. Hash. I, 9</cite> <he>אם צ׳ להם</he> if an ambush (of Samaritans) is apprehended. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 787:24\">Yalk. Num. 787</cite>, v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צִירָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to aim</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Bamidbar 160:6\">Sifré Num. 160</cite> (expl. <cite ref=\"R00110\"><he>צְדִיָּה</he></cite>, <cite ref=\"Numbers 35:20\">Num. XXXV, 20</cite>) <he>שצ׳ לו שמתכוון לו</he> he aimed at him, had the intention of killing just him; Yalk. l. c. <he>שצוֹדֶה</he>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

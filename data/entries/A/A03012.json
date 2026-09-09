@@ -1,0 +1,25 @@
+{
+	"id": "A03012",
+	"slug": "ארדשיר",
+	"headword": {
+		"text": "אַרְדְּשִׁיר"
+	},
+	"page": {
+		"number": 116,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Ardjir</i>, formerly <i>Seleucia</i>, near Ctesiphon. ",
+			"units": [
+				"<cite ref=\"Gittin 6a:14\">Gitt. 6ᵃ</cite> <cite ref=\"A00121\"><he>בי א׳</he></cite>. ",
+				"<cite ref=\"Eruvin 57b\">Erub. 57ᵇ</cite>. ",
+				"<cite ref=\"Bava Batra 52a\">B. Bath. 52ᵃ</cite>, v. <cite ref=\"E00280\"><he>הוֹרְמִיז</he></cite>. ",
+				"<cite ref=\"Yevamot 37b:6\">Yeb. 37ᵇ</cite> <he>דַּרְדְּשִׁיר</he> = <he>דְאַרְ׳</he>, sub. <cite ref=\"E00280\"><he>הוֹרְמִיז</he></cite>; <cite ref=\"Yoma 18b\">Yoma 18ᵇ</cite> <he>דרשיש</he> (corr. acc.)."
+			]
+		}
+	]
+}

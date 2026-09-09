@@ -1,0 +1,37 @@
+{
+	"id": "N01076",
+	"slug": "נפק-3",
+	"headword": {
+		"text": "נָפֵק"
+	},
+	"page": {
+		"number": 926,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., constr. <cite ref=\"N01075\"><he>נְפַק</he></cite> (<cite ref=\"N01075\">preced.</cite>) <i>going out</i>; <he>נְ׳ בַּר</he> <i>a male prostitute; fem</i>. <cite ref=\"N01077\"><he>נַפְקָא</he></cite>, constr. <cite ref=\"N01079\"><he>נַפְקַת</he></cite>; <he>נַפְקַת בָּרָא</he> ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>a female prostitute</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Deuteronomy 23:18\">Targ. Y. II, Deut. XXIII, 18</cite>. ",
+						"<cite ref=\"Onkelos Genesis 24:35\">Targ. Gen. XXIV, 35</cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " (sub <he>בית</he>) <i>brothel, prostitution</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 14:24\">Targ. I Kings XIV, 24</cite>; a. fr."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

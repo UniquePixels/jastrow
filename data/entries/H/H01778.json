@@ -1,0 +1,65 @@
+{
+	"id": "H01778",
+	"slug": "חרש-3",
+	"headword": {
+		"text": "חָרַשׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 507,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H01784\"><he>חֵרֵשׁ</he></cite>, <cite ref=\"H00178\"><he>חֵי׳</he></cite> (denom. of <cite ref=\"H01784\"><he>חֵרֵשׁ</he></cite>) <i>to deafen, make deaf</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 86a:3\">B. Kam. 86ᵃ</cite> <he>שחֵירְשׁוֹ וכ׳</he> when he made him deaf without wounding him. ",
+						"<cite ref=\"Bava Kamma 86a:3\">Ib.</cite> <he>החוֹרֵשׁ את אביו</he> (Ms. H. a. R. <cite ref=\"H01784\"><he>חֵרֵשׁ</he></cite>); <cite ref=\"Bava Kamma 98a:7\">ib. 98ᵃ</cite> <he>חֵרְשׁוֹ לאביו</he> if one injured his father’s hearing; v. <cite ref=\"H01701\"><he>חֲרִישָׁה</he> II</cite>. ",
+						"<cite ref=\"Kiddushin 24b\">Kidd. 24ᵇ</cite>.—",
+						"<cite ref=\"Shabbat 109a:1\">Sabb. 109ᵃ</cite> top. <he>יד מְחָרֶשֶׁת</he> the unwashed hand put to the ear causes deafness."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶחֱרִישׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01777\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 86a\">B. Kam. 86ᵃ</cite> <he>להַחֲרִישׁ</he>, v. <cite ref=\"H01701\"><he>חֲרִישָׁה</he> II</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (b. h.) <i>to be silent</i>. Y. Pes. IX, end. 37ᵃ (ref. to <cite ref=\"Proverbs 17:28\">Prov. XVII, 28</cite>) <he>ואין צ״ל חכם מַחֲרִישׁ</he> and it is needless to say the same of a wise man keeping silence. [Usu. <cite ref=\"U02134\"><he>שָׁתַק</he></cite>.]",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִתְחָרֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to become deaf</i> (<i>and dumb</i>). ",
+					"units": [
+						"<cite ref=\"Mishnah Yevamot 14:1\">Yeb. XIV, 1</cite>; <cite ref=\"Tosefta Terumot 1:1\">Tosef. Ter. I, 1</cite> <he>פיקח ונ׳</he> if he had been well-hearing and became etc.; v. <cite ref=\"H01784\"><he>חֵרֵשׁ</he></cite>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

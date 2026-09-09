@@ -1,0 +1,40 @@
+{
+	"id": "G00247",
+	"slug": "זחל-2",
+	"headword": {
+		"text": "זְחַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 390,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00246\">same</cite><i>to creep</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 46:22\">Targ. Jer. XLVI, 22</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to flow</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 147:18\">Targ. Ps. CXLVII, 18</cite> Ms. (ed. <he>זלח׳</he>, h. text <he>יזלו</he>). [Targ. II Esth. I, 2 <he>זחלין בוסמ׳</he>, read <he>זלחין</he>, v. preced.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זַחֵל"],
+			"senses": [
+				{
+					"gloss": "<i>to let run off, to empty</i> (by opening the spicket). Y. Ab. Zar. IV, 44ᵃ bot. <he>עד דתְזַחֲלוּן גובה</he> until ye shall have emptied the pit.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

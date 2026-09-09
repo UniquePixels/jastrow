@@ -1,0 +1,22 @@
+{
+	"id": "E00685",
+	"slug": "הנכיה",
+	"headword": {
+		"text": "הַנְכָּיָה"
+	},
+	"page": {
+		"number": 358,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00818\"><he>נכי</he></cite>) <i>deduction, diminution</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:5:7\">Y. Ber. IX, 14ᵇ</cite> bot.; <cite ref=\"Jerusalem Talmud Sotah 5:5:4\">Y. Sot. V, 20ᶜ</cite> bot. [read:] <he>פרוש מן הנ׳ מן מאי דאית לי אנא מנכי עביד מצוה</he> a Pharisee ‘from deduction’ (who says), I take from what is mine (I stint myself) in order to do a good deed."
+			]
+		}
+	]
+}

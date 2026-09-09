@@ -1,0 +1,25 @@
+{
+	"id": "U00776",
+	"slug": "שיאור",
+	"headword": {
+		"text": "שִׂיאוּר"
+	},
+	"page": {
+		"number": 1556,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"U00016\"><he>שְׂאוֹר</he></cite>) <i>leavening;</i> (sub. <he>עיסת</he>) <i>dough beginning to ferment</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 3:5\">Pes. III, 5</cite> <he>ש׳ ישרף</he> dough beginning to ferment (on Passover) must be burnt, contrad. to <cite ref=\"O00662\"><he>סִידּוּק</he></cite>. ",
+				"<cite ref=\"Mishnah Pesachim 3:5\">Ib.</cite> <he>איזהו ש׳ כקרני וכ׳</he> dough is called <i>siur</i>, when the cracks on the surface spread like the horns of locusts; (anoth. opin.) <he>כל שהכסיפו וכ׳</he>, v. <cite ref=\"K00951\"><he>כָּסַף</he></cite>. ",
+				"<cite ref=\"Menachot 53a:3\">Men. 53ᵃ</cite> (ref. to <cite ref=\"Leviticus 6:10\">Lev. VI, 10</cite>) <he>ואימא … אלא ש׳</he> may I not interpret, ‘it shall not be baked leavened’, but it may be baked as <i>siur?</i> <cite ref=\"Leviticus 6:10\">Ib.</cite> <he>ש׳ דמאן</he> <i>siur</i> as defined by whom (by R. Meir or R. Judah)?; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Pesachim 5:3:8\">Y. Pes. V, 32ᵇ</cite> bot. <he>שחטו על סִיעוּר</he> if a person slaughtered the Passover lamb while having in his house dough just beginning to ferment.—V. <cite ref=\"O00518\"><he>סִיאוּר</he></cite>."
+			]
+		}
+	]
+}

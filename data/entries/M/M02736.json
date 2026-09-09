@@ -1,0 +1,23 @@
+{
+	"id": "M02736",
+	"slug": "מרעי-2",
+	"headword": {
+		"text": "מַרְעֵי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 845,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"T00895\"><he>רְעִי</he> II</cite>) <i>dung</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Leviticus 16:27\">Targ. Y. II, Lev. XVI, 27</cite> <he>מַרְעַיְיהוֹן</he>."
+			]
+		}
+	]
+}

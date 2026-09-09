@@ -1,0 +1,32 @@
+{
+	"id": "K00947",
+	"slug": "כסן-2",
+	"headword": {
+		"text": "כְּסָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּסָאן"
+		},
+		{
+			"text": "כִּיסְנָא"
+		}
+	],
+	"page": {
+		"number": 654,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00946\">preced.</cite>; cmp. <cite ref=\"H01724\"><he>חֶרֶס</he> I</cite>) <i>mud, mire</i> (from its white and glistening surface). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 40:3\">Targ. Ps. XL, 3</cite> ed. Lag. (ed. <he>סיין</he>, <cite ref=\"O00016\"><he>סאין</he></cite>, <cite ref=\"O00921\"><he>סכן</he></cite>; Regia <cite ref=\"K00920\"><he>כַּסְיָאן</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 8:11\">Targ. Job VIII, 11</cite> <he>כיסנא</he> ed. Lag. (ed. <cite ref=\"B00664\"><he>ביסנא</he></cite>, <cite ref=\"B01073\"><he>בִּצָּא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 41:22\">Ib. XLI, 22</cite> <he>כְּסָאן</he> Ms. (ed. <he>כַּסָּאן</he>, <cite ref=\"O00018\"><he>סָאָן</he></cite>), v. <cite ref=\"O00723\"><he>סְיָן</he></cite>."
+			]
+		}
+	]
+}

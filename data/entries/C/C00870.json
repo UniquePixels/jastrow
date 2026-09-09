@@ -1,0 +1,52 @@
+{
+	"id": "C00870",
+	"slug": "גלגל-2",
+	"headword": {
+		"text": "גַּלְגֵּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּלְגֵּיל"
+		}
+	],
+	"page": {
+		"number": 244,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00869\">same</cite>, <i>to roll</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 28:10\">Targ. Y. I Gen. XXVIII, 10</cite> (<cite ref=\"Targum Jonathan on Genesis 2\">II</cite> <he>גלל</he>). Ib. XXIX, 8 (O. <cite ref=\"C01092\"><he>גנדר</he></cite>); a. e.—Y. Shebu. VI, 37ᵃ wait <he>עד דִּיגַלְגֵּל עלן וכ׳</he> until he heaps upon thee all his claims, and then swear concerning all of them. Ib. VII, end, 38ᵃ <he>או אישתבע ליה כל דמְגַלְגֵּל עלך</he> or thou must swear to him concerning all that he asks thee to swear to by implication.—<i>Part. pass.</i> ",
+				"<cite ref=\"Berakhot 44b:8\">Ber. 44ᵇ</cite> <he>ביעתא מְגוּלְגַּלְתָּא</he> an egg roasted in ashes, v. <cite ref=\"C00869\">preced.</cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתְגַּלְגַּל", "אִיגַּלְגַּל"],
+			"senses": [
+				{
+					"gloss": "; <cite ref=\"C00960\"><he>אִתְגְּלַל</he></cite> (fr. <cite ref=\"C00960\"><he>גְּלַל</he></cite>), <cite ref=\"C00368\"><he>אִתְגּוֹלַל</he></cite> (Ithpolel of <cite ref=\"C00368\"><he>גּוּל</he></cite>) ",
+					"units": []
+				},
+				{
+					"gloss": " as <cite ref=\"C00869\">preced.</cite> Hithpalp. 3. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 30:14\">Targ. Job XXX, 14</cite>.—2) (with <cite ref=\"T00527\"><he>רחמין</he></cite>) as <cite ref=\"C00869\">preced.</cite> Hithpalp. 4. ",
+						"<cite ref=\"Targum Jonathan on I Kings 3:26\">Targ. I Kings III, 26</cite> <he>איתגלגלו</he> ed. Lag. (ed. <he>אִיתְגְּלָלוּ</he>). ",
+						"<cite ref=\"Onkelos Genesis 43:30\">Targ. O. Gen. XLIII, 30</cite> <he>אִתְגּוֹלָלוּ</he>). ",
+						"<cite ref=\"Targum Jonathan on Hosea 11:8\">Targ. Hos. XI, 8</cite> <he>מתגללא</he> ed. Lag. ed. <he>אִתְגּוֹלָלוּ</he>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 31:20\">Targ. Jer. XXXI, 20</cite> <he>אִתְגּוֹ׳</he>. ",
+						"<cite ref=\"Targum of II Chronicles 33:13\">Targ. II Chr. XXXIII, 13</cite>. ",
+						"<cite ref=\"Targum Jonathan on Numbers 26:1\">Targ. Y. Num. XXVI, 1</cite>; a. e.—3) <i>to come about, to happen</i>. ",
+						"<cite ref=\"Bava Metzia 40a\">B. Mets. 40ᵃ</cite>, a. e. <he>איגלגל מילתא</he> it so happened in the course of time.—4) (denom. of <cite ref=\"C00382\"><he>גולגלתא</he></cite>) <i>to crown, adorn one’s self</i>. ",
+						"<cite ref=\"Esther Rabbah 2:2\">Esth. R. to I, 4</cite> whether with its own or with strange (feathers) <he>מִתְגַּלְגְּלַת בת קבריא</he> the raven will adorn itself; <cite ref=\"Esther Rabbah 1:9\">ib. 9</cite>."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

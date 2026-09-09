@@ -1,0 +1,27 @@
+{
+	"id": "Q00404",
+	"slug": "פושקנצה",
+	"headword": {
+		"text": "פּוּשְׁקַנְצָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "פּוּשְׁקַצָּא"
+		}
+	],
+	"page": {
+		"number": 1149,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (prob. = <he>פּוּשׁ קִצָּא</he> <i>large tail</i>) <i>raven</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 73b:3\">B. Bath. 73ᵇ</cite> <he>אתא פ׳ ובלעה וכ׳</he> (Ms. M. <he>פושקצא ובלעיה</he>) a raven came and swallowed the snake."
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "L00030",
+	"slug": "לב-1",
+	"headword": {
+		"text": "לֵב"
+	},
+	"page": {
+		"number": 686,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"L00039\"><he>לָבַב</he></cite>; cmp. <cite ref=\"S01885\"><he>קֶרֶב</he></cite> a. <cite ref=\"S01883\"><he>קָרַב</he></cite>) [<i>innermost</i>,] <i>heart, bosom; thought, inclination, mind</i> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 1:5\">Sot. I, 5</cite> <he>היה לִבָּהּ נאה</he> if her bosom was handsome (inciting the senses). ",
+				"<cite ref=\"Shevuot 26a:18\">Shebu. 26ᵃ</cite> <he>לִבְּךָ אנסך</he> thy heart has carried thee away against thy will, i.e. you were under the impression that you told the truth. ",
+				"<cite ref=\"Niddah 3b:28\">Nidd. 3ᵇ</cite>, a. fr. <he>לִבּוֹ נוקפו</he>, v. <cite ref=\"N01233\"><he>נָקַף</he> I</cite>. ",
+				"<cite ref=\"Menachot 79b:9\">Men. 79ᵇ</cite>, a. e. <he>לב ב״ד מתנה עליהן</he> the authorities (in receiving materials for offerings) accept them with a condition at heart (that they may dispose at their discretion of what has not been used for sacrifices).—<he>לבו גס</he>, v. <cite ref=\"C00445\"><he>גּוּס</he> I</cite>.—",
+				"<cite ref=\"Midrash Tehillim 9:3\">Midr. Till. to Ps. IX, 1</cite> <he>לבו עליו</he> his heart is against him, he bears him a grudge.—",
+				"<cite ref=\"Zevachim 21a:1\">Zeb. 21ᵃ</cite> <he>להוציא מִלִּבָּן של צדוקים</he> to remove (the false opinion) out of the heart of the Sadducees, i.e. to demonstrate, by practice, the rejection of their opinion; <cite ref=\"Chagigah 23a\">Ḥag. 23ᵃ</cite> (Ms. M. <he>מפני הצדוקים</he>); <cite ref=\"Yoma 2a\">Yoma 2ᵃ</cite> (Ms. M. <he>מפני הצ׳</he>, v. ",
+				"<cite ref=\"Mishnah Parah 3:7\">Par. III, 7</cite>). ",
+				"<cite ref=\"Bereishit Rabbah 87:5\">Gen. R. s. 87</cite>, end (in a gloss) <he>להוציאה מלבן של הבריות</he> in order to remove (the bad opinion about) her out of the hearts of men, i.e. to save her reputation.—",
+				"<cite ref=\"Nedarim 20b\">Ned. 20ᵇ</cite>, v. <cite ref=\"C01315\"><he>גָּרוּשׁ</he></cite>; a. v. fr.—Trnsf. "
+			],
+			"senses": [
+				{
+					"gloss": " <i>the marrow of trees, the sap-wood</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 14a:17\">Meg. 14ᵃ</cite>; <cite ref=\"Sukkah 45b:9\">Succ. 45ᵇ</cite> as the palm-tree <he>אין לו אלא לב אחד וכ׳</he> has only one ‘heart’ (sap-cells only in the stem but none in the branches), so has Israel one heart directed to his Father &c.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>centre, central portion</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 30:11\">Lev. R. s. 30</cite>, end <he>לולב לִבָּהּ של וכ׳</he> a Lulab which is the central stalk of the palm tree, v. <cite ref=\"L00270\"><he>לוּלָב</he></cite>.—Pl. f. <he>לִבּוֹת</he>. ",
+						"<cite ref=\"Midrash Tehillim 7:9\">Midr. Till. to Ps. VII</cite> <he>ממה שאתה בוחן ל׳ וכ׳</he> from the fact that thou examinest hearts and reins &c.—V. <cite ref=\"L00038\"><he>לֵבָב</he></cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

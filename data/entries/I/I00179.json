@@ -1,0 +1,24 @@
+{
+	"id": "I00179",
+	"slug": "טומייא",
+	"headword": {
+		"text": "טוּמַיָּיא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 524,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"I00173\"><he>טוּם</he></cite>; cmp. <cite ref=\"O01705\"><he>סָתַם</he></cite>, <cite ref=\"O01711\"><he>סָתַר</he></cite>) <i>secret, hidden place</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 27:15\">Targ. Y. II, Deut. XXVII, 15</cite> (later ed. <he>טוּמְרַיָּא</he>)."
+			]
+		}
+	]
+}

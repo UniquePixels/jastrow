@@ -1,0 +1,23 @@
+{
+	"id": "C00611",
+	"slug": "גיבבא",
+	"headword": {
+		"text": "גִּיבְבָא"
+	},
+	"page": {
+		"number": 234,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גבב</he>, v. <cite ref=\"C00610\">preced.</cite>) <i>hump</i> of a mountain, <i>summit</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 68:16\">Targ. Ps. LXVIII, 16</cite> Var., v. <cite ref=\"C00617\"><he>גִּיבְנָא</he></cite>.—Pl. f. <he>גִּיבְבָתָא</he>. ",
+				"<cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite> some ed., v. <cite ref=\"C00277\"><he>גּוֹבְבָתָא</he></cite>."
+			]
+		}
+	]
+}

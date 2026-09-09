@@ -1,0 +1,36 @@
+{
+	"id": "M02612",
+	"slug": "מרות-2",
+	"headword": {
+		"text": "מָרוּת"
+	},
+	"page": {
+		"number": 840,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M02480\"><he>מָר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>authority, dominion</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 40:1\">Pesik. R. s. 40</cite> (play on <cite ref=\"M02663\"><he>מֹרִיָּה</he></cite>) <he>ארץ שמָרוּתוֹ … בתוכה</he> (not <he>לתוכה</he>) the district in which the lordship of the world resides; <he>ואף המקום מ׳ הוא על וכ׳</he> and the place, too, is the ruler of all other places (ref. to <he>בעלתה</he>, <cite ref=\"I Chronicles 13:6\">I Chr. XIII, 6</cite>, as a surname of Zion, v. <cite ref=\"B01057\"><he>בַּעֲלָה</he></cite>). ",
+				"<cite ref=\"Berakhot 48a:5\">Ber. 48ᵃ</cite> (in Chald. dict.) <he>קא חזית דלא מקבלי מ׳</he> you see that they (the Pharisees) recognize no (royal) authority."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>domestication</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 106b:5\">Sabb. 106ᵇ</cite> (v. <cite ref=\"D01075\"><he>דְּרוֹר</he></cite>) <he>שאינה מקבלה מ׳</he> it does not submit to domestication. ",
+				"<cite ref=\"Tosefta Bava Kamma 1:4\">Tosef. B. Kam. I, 4</cite> <he>אם היו מ׳</he> Var. in ed. Zuck. (sub. <he>של</he>; ed. <cite ref=\"M02588\"><he>מרום</he></cite>, <cite ref=\"M02599\"><he>מרוס</he></cite>; ed. Zuck. <cite ref=\"V00927\"><he>תַּרְבּוּת</he></cite>) if they (the animals) were domesticated, opp. <he>באו מן המדבר</he>."
+			],
+			"label": "2"
+		}
+	]
+}

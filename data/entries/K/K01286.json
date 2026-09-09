@@ -1,0 +1,29 @@
+{
+	"id": "K01286",
+	"slug": "כרתי-2",
+	"headword": {
+		"text": "כָּרֵתִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּרְתִי"
+		}
+	],
+	"page": {
+		"number": 675,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Hebr. denom. of Ch. ) <i>porraceous</i> (of color), <i>leek-green stuff</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 1:2\">Ber. I, 2</cite> (<he>משיכיר</he>) <he>בין תכלת לכ׳</he> when one can distinguish between blue and green; (Y. ed. <cite ref=\"K01292\"><he>כְרֵתָן</he></cite>; Ar. Var. <cite ref=\"K01283\"><he>כרתא</he></cite>, <cite ref=\"K01283\"><he>כרתה</he></cite>). ",
+				"<cite ref=\"Mishnah Sukkah 3:6\">Succ. III, 6</cite> <he>הירוק ככ׳</he> (Y. ed. <he>ככרתן</he>) an Ethrog green like a porraceous plant (v. <cite ref=\"K01290\"><he>כְּרֵתִינוֹן</he></cite>).—",
+				"<cite ref=\"Gittin 31b:12\">Gitt. 31ᵇ</cite> <he>סרבלא דכ׳</he> a cloak of green wool."
+			]
+		}
+	]
+}

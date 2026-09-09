@@ -1,0 +1,32 @@
+{
+	"id": "Q00061",
+	"slug": "פגימין",
+	"headword": {
+		"text": "פְּגִימִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּגְמִין"
+		},
+		{
+			"text": "פִּי׳"
+		}
+	],
+	"page": {
+		"number": 1133,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (an adaptation of <i>pegma</i>, as if fr. <cite ref=\"Q00074\"><he>פָּגַם</he></cite>) [<i>the things which impair a Jew’s civic qualifications</i>,] <i>a wooden structure for spectacles</i> (v. Sm. Ant. s. v. Pegma). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 1:7:4\">Y. R. Hash. I, 57ᶜ</cite> top; <cite ref=\"Jerusalem Talmud Shevuot 7:4:3\">Y. Shebu. VII, 37ᵈ</cite> bot. <he>אין מקבלין אותו עד שישבר פְּגִימָיו וכ׳</he> (the exhibitor of pigeon-races or beast-fights) is not declared free from disqualifications, until he breaks up his scenery, and he is examined and found to have really repented; <cite ref=\"Tosefta Sanhedrin 5:2\">Tosef. Snh. V, 2</cite> <he>פגימיו</he> ed. Zuck. (Var. <he>פִּיגְמָיו</he>); Bab. ",
+				"<cite ref=\"Shevuot 25b\">Shebu. 25ᵇ</cite> <he>משישברו את פִּגְמֵיהֶן</he>."
+			]
+		}
+	]
+}

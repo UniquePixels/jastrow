@@ -1,0 +1,23 @@
+{
+	"id": "M01623",
+	"slug": "מלקט-1",
+	"headword": {
+		"text": "מְלַקֵּט",
+		"homograph": 1
+	},
+	"page": {
+		"number": 793,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00677\"><he>לָקַט</he></cite>) <i>gatherer, eclectic scholar</i>. ",
+			"units": [
+				"<cite ref=\"Avot D'Rabbi Natan 18:4\">Ab. d’R. N. ch. XVIII</cite>, end <he>מ׳ יפה יפה בלא וכ׳</he> a discriminating eclectic scholar without any pride."
+			]
+		}
+	]
+}

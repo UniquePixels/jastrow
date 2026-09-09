@@ -1,0 +1,22 @@
+{
+	"id": "C00083",
+	"slug": "גביח",
+	"headword": {
+		"text": "גְּבִיחַ"
+	},
+	"page": {
+		"number": 206,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"C00067\"><he>גִּבֵּחַ</he></cite> , <i>extremely tall</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Leviticus 21:20\">Targ. Y. II, Lev. XXI, 20</cite> (second vers. for h. text <cite ref=\"C00115\"><he>גִּבֵּן</he></cite>; Var. in Ar. <cite ref=\"C00098\"><he>גְּבִיע</he></cite> (not <cite ref=\"C00095\"><he>גביני</he></cite>), v. Koh. Ar. Compl. s. v. <he>גבן</he> II, p. 227ᵃ); v. <cite ref=\"C00077\"><he>גַּבְיָא</he> II</cite>."
+			]
+		}
+	]
+}

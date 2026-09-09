@@ -1,0 +1,45 @@
+{
+	"id": "H01058",
+	"slug": "חליפים",
+	"headword": {
+		"text": "חֲלִיפִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲלִיפִין"
+		}
+	],
+	"page": {
+		"number": 469,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"H01098\"><he>חָלַף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>exchange, substitution</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 1:6\">Kidd. I, 6</cite> <he>כיון … זה בחֲלִיפָיו</he> as soon as one of the parties to the exchange has taken possession, the other takes the risk for its exchange. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:8:7\">Y. Ber. II, 5ᶜ</cite>, a. e. <he>יש להן ח׳</he> can be replaced; a. fr.—Esp. <i>ḥălifin</i>, a form of possession by handing to the purchaser an object as a symbolical substitute (v. ",
+				"<cite ref=\"Ruth 4:7\">Ruth IV, 7</cite>). ",
+				"<cite ref=\"Kiddushin 22b:9\">Kidd. 22ᵇ</cite> <he>אף כח׳</he> a slave, may be taken possession of also by symbol. ",
+				"<cite ref=\"Bava Metzia 45b:11\">B. Mets. 45ᵇ</cite>, a. fr. <he>אין מטבע נעשה ח׳</he> coins cannot be used for symbolical delivery; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>young shoots</i> (coming out of a stump). ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 1:8\">Shebi. I, 8</cite>. ",
+				"<cite ref=\"Tosefta Bava Kamma 2:1\">Tosef. B. Kam. II, 1</cite> (Y. ib. 3ᵃ top <cite ref=\"H00786\"><he>חִילְפִין</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

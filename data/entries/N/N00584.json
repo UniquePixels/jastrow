@@ -1,0 +1,85 @@
+{
+	"id": "N00584",
+	"slug": "נטר-2",
+	"headword": {
+		"text": "נְטַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְטֵיר"
+		}
+	],
+	"page": {
+		"number": 901,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00583\">same</cite>, <i>to guard, wait; to observe; to reserve</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 30:23\">Targ. I Sam. XXX, 23</cite>, sq. ",
+				"<cite ref=\"Onkelos Deuteronomy 5:10\">Targ. Deut. V, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ruth 1:13\">Targ. Ruth I, 13</cite>; a. fr.—Imper. <cite ref=\"I00700\"><he>טַר</he></cite>, pl. <he>טְרוּ</he>. ",
+				"<cite ref=\"Onkelos Deuteronomy 5:12\">Targ. O. Deut. V, 12</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 27:1\">Ib. XXVII, 1</cite> (Y. <he>טוּרוּ</he>); a. e.—Part. pass. <cite ref=\"N00566\"><he>נְטִיר</he></cite>, f. <cite ref=\"N00559\"><he>נְטִירָא</he></cite>; pl. <he>נְטִירִין</he>; <cite ref=\"N00568\"><he>נְטִירָן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 9:24\">Targ. I Sam. IX, 24</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 5:10\">Targ. Y. Deut. V, 10</cite> <cite ref=\"N00566\"><he>נְטִיר</he></cite> read: <cite ref=\"N00567\"><he>נָטֵיר</he></cite>.—",
+				"<cite ref=\"Bava Batra 74a:6\">B. Bath. 74ᵃ</cite> <he>נְטַר עד וכ׳</he> wait here until to-morrow. ",
+				"<cite ref=\"Bava Metzia 63b:10\">B. Mets. 63ᵇ</cite>; <cite ref=\"Bava Metzia 65a:8\">65ᵃ</cite>, v. <cite ref=\"A00339\"><he>אַגְרָא</he> I</cite>.—",
+				"<cite ref=\"Chagigah 5a:5\">Ḥag. 5ᵃ</cite>, v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַטֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00583\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Ketubot 37a:2\">Keth. 37ᵃ</cite> <he>מְנַטְּרָא נפשה</he> (not <cite ref=\"M01784\"><he>מינ׳</he></cite>) she guarded herself (her purity).—[<cite ref=\"Yalkut Shimoni on Nach 898\">Yalk. Job 898</cite> <he>קמנטר תאני</he>, read as Ḥag. l. c. <cite ref=\"M01629\"><he>מְנַקֵּיט</he></cite>.]—Part. pass. <he>מְנַטַּר</he>, f. <he>מְנַטְּרָא</he>, v. infra."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְנַטַּר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְנְטִיר", "אִתְנְטַר"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"N01120\"><he>אִינְּ׳</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be guarded; to be reserved</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Hosea 12:14\">Targ. Hos. XII, 14</cite>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 24:11\">Targ. Y. Ex. XXIV, 11</cite>; a. fr.—",
+						"<cite ref=\"Beitzah 15a:13\">Bets. 15ᵃ</cite> <he>מִנְּטַר מחמת כלבי ולא מִינְטַר וכ׳</he> (or <he>מְנַטַּר</he>) Ms. M. (ed. <he>מְנַטְּרָא</he>) it is safe from dogs, but not from thieves."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to keep watch</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 6:22\">Targ. Prov. VI, 22</cite> (perh. to be read <he>תִּנְטַר</he> <i>Pe.</i>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be preserved</i>. ",
+					"units": [
+						"<cite ref=\"Chagigah 5a:5\">Ḥag. 5ᵃ</cite> <he>הני מִינַּטְּרָן והני לא מִינַּטְּרָן</he> Ms. M. a. Rashi (ed. <he>נטרן</he>, corr. acc.) these (the unripe figs) can be kept, but those (the ripe) cannot; <cite ref=\"Yalkut Shimoni on Nach 898\">Yalk. Job 898</cite> <he>מנטרן</he>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

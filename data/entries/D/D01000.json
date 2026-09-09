@@ -1,0 +1,22 @@
+{
+	"id": "D01000",
+	"slug": "דקור",
+	"headword": {
+		"text": "דָּקוֹר"
+	},
+	"page": {
+		"number": 318,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דקר</he>) <i>chisel</i> or <i>borer</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 14:3\">Kel. XIV, 3</cite> <he>ד׳ של חרש</he> the carpenter’s &c."
+			]
+		}
+	]
+}

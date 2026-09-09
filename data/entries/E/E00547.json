@@ -1,0 +1,24 @@
+{
+	"id": "E00547",
+	"slug": "הלטאה",
+	"headword": {
+		"text": "הַלְטָאָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 352,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"L00381\"><he>לְטָאָה</he></cite>, a species of <i>lizard</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 88b:11\">Pes. 88ᵇ</cite> <he>נמצאת ה׳</he> a lizard was found. ",
+				"<cite ref=\"Chullin 122b:16\">Ḥull. 122ᵇ</cite> <he>גישתא דה׳</he> the touch of the skin of &c. [In Mishn., Tosefta a. Sifra <cite ref=\"L00381\"><he>לטאה</he></cite>, with defin. article <cite ref=\"E00000\"><he>ה</he></cite>.]"
+			]
+		}
+	]
+}

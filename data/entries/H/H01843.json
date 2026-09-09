@@ -1,0 +1,36 @@
+{
+	"id": "H01843",
+	"slug": "חשיפה",
+	"headword": {
+		"text": "חֲשִׂיפָה"
+	},
+	"page": {
+		"number": 510,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חָשַׂף</he>, v. <cite ref=\"H01405\"><he>חֲסַף</he> I</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>stripping, uncovering</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:12\">Y. Ber. IX, 13ᵃ</cite> top <he>חֲשִׂיפַת זרועו</he> the baring of His arm (<cite ref=\"Isaiah 52:10\">Is. LII, 10</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>paring, shavings</i> used for basket work. ",
+			"units": [
+				"<cite ref=\"Tosefta Kilaim 3:14\">Tosef. Kil. III, 14</cite> <he>הח׳</he> Var. (ed. Zuck. <he>השופה</he>); Y. ib. V, end, 30ᵃ <he>השיפה</he>. ",
+				"<cite ref=\"Tosefta Tahorot 11:16\">Tosef. Toh. XI, 16</cite> <he>של ח׳</he> quot. by R. s. to <cite ref=\"Mishnah Tahorot 10:8\">Toh. X, 8</cite> (ed. Zuck. <he>של השיפה</he>) basket work made of shavings; <cite ref=\"Avodah Zarah 75a:6\">Ab. Zar. 75ᵃ</cite> <he>של שיפה</he> (ed. Pes. <cite ref=\"H01808\"><he>חש׳</he></cite>). ",
+				"<cite ref=\"Sukkah 20a:6\">Succ. 20ᵃ</cite> <he>מחצלת של ח׳</he> Ms. M. (ed. <he>שיפה</he>) matting made of etc.; <cite ref=\"Tosefta Sukkah 1:10\">Tosef. ib. I, 10</cite> <cite ref=\"U00832\"><he>שיהופא</he></cite> ed. Zuck. (Var. <cite ref=\"H01824\"><he>חשופא</he></cite>, oth. ed. <he>חשי׳</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

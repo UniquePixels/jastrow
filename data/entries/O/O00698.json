@@ -1,0 +1,44 @@
+{
+	"id": "O00698",
+	"slug": "סימוק",
+	"headword": {
+		"text": "סִימּוּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִימּוּקָא"
+		},
+		{
+			"text": "סִמּ׳"
+		}
+	],
+	"page": {
+		"number": 981,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01129\"><he>סְמַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>reddish</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 25:25\">Targ. O. Gen. XXV, 25</cite> (ed. Vien. <cite ref=\"O01070\"><he>סִמּוֹק</he></cite>). Targ. ib. 30 (O. ed. Vien. <cite ref=\"O01073\"><he>סִמּוֹ׳</he></cite>); a. e.—",
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:2\">Y. Dem. II, beg. 22ᵇ</cite> <he>ס׳ הוא</he> (not <cite ref=\"I00001\"><he>ט׳</he></cite>) it is reddish (blighted), v. <cite ref=\"A01762\"><he>אַכְתַּר</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (noun) <i>red meat</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 1:1:11\">Y. Ter. I, 40ᵇ</cite> [read:] <he>אכים גו ס׳</he> (they gave him) dark wine after red meat; <cite ref=\"Jerusalem Talmud Gittin 7:1:2\">Y. Gitt. VII, beg. 48ᶜ</cite> <he>סָמִיק</he>.—[<cite ref=\"Eichah Rabbah 4\">Lam. R. to IV, 3</cite> <he>סימוקן</he> (ed. Wil. <he>סמקון</he>), read: <he>סַמְּקִין</he>, v. <cite ref=\"O01130\"><he>סַמְּקָא</he></cite>.]—<i>Fem.</i> <cite ref=\"O01074\"><he>סִימּוּקְתָּא</he></cite>. ",
+				"<cite ref=\"Onkelos Numbers 19:2\">Targ. O. Num. XIX, 2</cite> (ed. Vien. <cite ref=\"O01134\"><he>סִמֻּקְתָּא</he></cite>); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

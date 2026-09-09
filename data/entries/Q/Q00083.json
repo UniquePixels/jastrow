@@ -1,0 +1,23 @@
+{
+	"id": "Q00083",
+	"slug": "פגנות",
+	"headword": {
+		"text": "פַּגְנוּת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1135,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00079\"><he>פָּגַן</he></cite>) <i>entreaty</i>.—Pl. <he>פַּגְנִיּוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Pirkei DeRabbi Eliezer 35:1\">Pirké d’R. El. ch. XXXV</cite> (ref. to <cite ref=\"Ecclesiastes 7:8\">Koh. VII, 8</cite>) <he>שבכל יום … ואומר כל דברי פ׳</he> (not <cite ref=\"Q01151\"><he>פנגיות</he></cite>) who was long-suffering every day and spoke all possible words of entreaty."
+			]
+		}
+	]
+}

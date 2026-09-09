@@ -1,0 +1,25 @@
+{
+	"id": "A00080",
+	"slug": "אבורגנא",
+	"headword": {
+		"text": "אַבּוּרְגְּנָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אַבְּרוּגְנָא"
+		}
+	],
+	"page": {
+		"number": 4,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Ar.) m. (= <cite ref=\"A01972\"><he>אִמְבּוּרְקְלוֹן</he></cite> q. v.; a Babyl. corrupt. of an imported Palestinean phrase) <i>bed-cover, ticking</i> (involucrum). Pl. <cite ref=\"A00080\"><he>אַבּוּרְגְּנֵי</he></cite>, <he>אַבְּרוּ׳</he>. ",
+			"units": [
+				"<cite ref=\"Eruvin 62a:11\">Erub. 62ᵃ</cite> <he>בריאה במוהרקי וא׳</he> a lease of a court yard is called <i>sound</i> (legal and not merely a legal fiction), if connected with the privilege of placing in the yard chairs and seats, [Rashi, cmp. Mishnah;—<cite ref=\"M00435\"><he>מוהרקי</he></cite>, obviously a corruption for <he>גוהרקי</he> or <cite ref=\"C00915\"><he>גלופקרי</he></cite>, cmp. <cite ref=\"C01011\"><he>גמורקין</he></cite>.—Other explanations of our w., suggested by <cite ref=\"M00435\"><he>מוהרקי</he></cite>, v. s. v. <he>מוה׳</he>.]"
+			]
+		}
+	]
+}

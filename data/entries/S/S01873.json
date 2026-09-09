@@ -1,0 +1,31 @@
+{
+	"id": "S01873",
+	"slug": "קרא-1",
+	"headword": {
+		"text": "קָרָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1409,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְרַר</he> II) <i>pumpkin, gourd</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 56b\">Succ. 56ᵇ</cite>; <cite ref=\"Ketubot 83b\">Keth. 83ᵇ</cite>, a. e. <he>טב מק׳</he>, v. <cite ref=\"B00311\"><he>בּוּצִין</he></cite>. ",
+				"<cite ref=\"Yoma 78a:7\">Yoma 78ᵃ</cite> <he>מצטנן בק׳</he> cooled his hands with a pumpkin. ",
+				"<cite ref=\"Keritot 6a:4\">Ker. 6ᵃ</cite>; <cite ref=\"Horayot 12a:12\">Hor. 12ᵃ</cite>; a. fr.—Pl. <cite ref=\"S02019\"><he>קָרֵי</he></cite>, <cite ref=\"S02026\"><he>קָרַיָּא</he></cite>. ",
+				"<cite ref=\"Megillah 12a:3\">Meg. 12ᵃ</cite>, v. <cite ref=\"B00311\"><he>בּוּצִין</he></cite>; <cite ref=\"Sotah 10a\">Sot. 10ᵃ</cite> <cite ref=\"S00020\"><he>קָארֵי</he></cite>. ",
+				"<cite ref=\"Nedarim 51a:8\">Ned. 51ᵃ</cite> Rashi (ed. <he>קרא</he>, corr. acc.). ",
+				"<cite ref=\"Bava Metzia 64a:5\">B. Mets. 64ᵃ</cite> <he>ק׳ בני זרתא</he> pumpkins of the size of a fist. ",
+				"<cite ref=\"Bava Batra 88a:7\">B. Bath. 88ᵃ</cite> <cite ref=\"S00020\"><he>קארי</he></cite>. ",
+				"<cite ref=\"Shabbat 129b:12\">Sabb. 129ᵇ</cite> <he>מאה ק׳</he>, v. <cite ref=\"S02103\"><he>קַרְנָא</he> I</cite>; a. e.—<he>קָרַיָּיא וְקָרָוָותָא</he> large and small gourds, <i>all kinds of gourds</i>. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 7:1:4\">Y. Ned. VII, beg. 40ᵇ</cite> (not <he>וכרובתא</he>); <cite ref=\"Jerusalem Talmud Orlah 3:5:4\">Y. Orl. III, 63ᵇ</cite> top <he>קירייא וקרותוא</he> (corr. acc.)."
+			]
+		}
+	]
+}

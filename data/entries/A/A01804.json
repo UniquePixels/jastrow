@@ -1,0 +1,31 @@
+{
+	"id": "A01804",
+	"slug": "אלווין",
+	"headword": {
+		"text": "אַלְוִוין"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַלְוִיִּים"
+		},
+		{
+			"text": "עַלְוָאִין"
+		}
+	],
+	"page": {
+		"number": 67,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"A01794\"><he>אַלְוָא</he></cite>) <i>the herbaceous plant aloe</i>, a kind of cress. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 4:2:7\">Y. Shebi. IV, 35ᵇ</cite> bot.; <cite ref=\"Tosefta Shevi'it 1:12\">Tosef. ib. I</cite>, end (ed. Zuck. <he>עלוא׳</he>, oth. ed. <he>עלויין</he>, <he>עלווין</he>) <he>ומקיימין את הא׳ וכ׳</he> you may (in the Sabbath year) let the aloe grow on the top of the roof, but you must not water it."
+			]
+		}
+	]
+}

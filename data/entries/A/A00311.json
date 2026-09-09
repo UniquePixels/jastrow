@@ -1,0 +1,25 @@
+{
+	"id": "A00311",
+	"slug": "אגמא-2",
+	"headword": {
+		"text": "אַגְמָא"
+	},
+	"page": {
+		"number": 13,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<cite ref=\"C01055\"><he>גום</he></cite>, v. <cite ref=\"A00307\"><he>אֲגַם</he></cite>) <i>a depression, stagnant water, lake;</i> also <i>marshland, meadow</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 36b:5\">B. Mets. 36ᵇ</cite> <he>הבלא דא׳</he> the vapors of the meadow; a. fr. <he>קטל קני בא׳</he> to cut reeds in the meadow = to be illiterate. ",
+				"<cite ref=\"Shabbat 95a\">Sabb. 95ᵃ</cite>; <cite ref=\"Sanhedrin 33a\">Snh. 33ᵃ</cite>.—Pl. <he>אֲגָמִין</he>, <he>אַגְמַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 35:7\">Targ. Is. XXXV, 7</cite>; a. e.—<cite ref=\"C01064\"><he>אַגְמֵי</he></cite>. ",
+				"<cite ref=\"Shabbat 77b\">Sabb. 77ᵇ</cite> <he>דייר בא׳</he> grazes in meadows."
+			]
+		}
+	]
+}

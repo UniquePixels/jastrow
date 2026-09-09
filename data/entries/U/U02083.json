@@ -1,0 +1,22 @@
+{
+	"id": "U02083",
+	"slug": "שתוקא-2",
+	"headword": {
+		"text": "שָׁתוֹקָא"
+	},
+	"page": {
+		"number": 1636,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U02082\">preced.</cite>) <i>silent, dumb</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 56:1\">Targ. Ps. LVI, 1</cite> (h. text <he>אלם</he>; Ms. <cite ref=\"U02112\"><he>שתיקותא</he></cite>, corr. acc., or <cite ref=\"U01334\"><he>שְׁתִיקְתָּא</he></cite>)."
+			]
+		}
+	]
+}

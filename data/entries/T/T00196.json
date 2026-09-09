@@ -1,0 +1,27 @@
+{
+	"id": "T00196",
+	"slug": "רגימא",
+	"headword": {
+		"text": "רְגִימָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְגִימְתָּא"
+		}
+	],
+	"page": {
+		"number": 1448,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00212\"><he>רְגַם</he></cite>), <he>רְגִימַת אבנין</he> <i>throwing of stones, stoning</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ruth 1:17\">Targ. Ruth I, 17</cite>."
+			]
+		}
+	]
+}

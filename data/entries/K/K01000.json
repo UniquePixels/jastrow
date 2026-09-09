@@ -1,0 +1,25 @@
+{
+	"id": "K01000",
+	"slug": "כפורי",
+	"headword": {
+		"text": "כַּפּוֹרֵי"
+	},
+	"page": {
+		"number": 658,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"K00996\"><he>כִּפּוּרָא</he></cite>) <i>atonement</i>; <he>בית כ׳</he> <i>the place of atonement</i>, v. next w.—",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 16:2\">Targ. Lev. XVI, 2</cite> (some ed. O. <cite ref=\"K01002\"><he>כַּפּוּרְתָּא</he></cite>). ",
+				"<cite ref=\"Targum of I Chronicles 28:11\">Targ. I Chr. XXVIII, 11</cite> (h. text <he>בית הכפרת</he>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 6:5\">Targ. I Kings VI, 5</cite> (h. text <cite ref=\"D00064\"><he>דביר</he></cite>); a. e."
+			]
+		}
+	]
+}

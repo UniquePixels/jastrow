@@ -1,0 +1,30 @@
+{
+	"id": "C01233",
+	"slug": "גרב-4",
+	"headword": {
+		"text": "גְּרַב",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּרְבָּא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 263,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01232\">same</cite>, <i>bottle</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 13:12\">Targ. Jer. XIII, 12</cite>; <cite ref=\"Targum Jonathan on I Samuel 1:24\">Targ. I Sam. I, 24</cite> (h. text <cite ref=\"N00094\"><he>נֵבֶל</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 16:20\">Ib. XVI, 20</cite> (h. text <cite ref=\"N00008\"><he>נֹאד</he></cite>); a. e.—[<cite ref=\"Bava Metzia 15b:4\">B. Mets. 15ᵇ</cite>, v. <cite ref=\"C01331\"><he>גְּרִיוָא</he></cite>.]—Pl. <cite ref=\"C01228\"><he>גַּרְבִין</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 25:18\">Targ. I Sam. XXV, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on Haggai 2:16\">Targ. Hag. II, 16</cite> (h. text <cite ref=\"Q00334\"><he>פורה</he></cite>, quantity pressed at a time). ",
+				"<cite ref=\"Targum Jonathan on Joel 1:17\">Targ. Joel I, 17</cite> (h. text <he>פרדות</he>!)."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "B00889",
+	"slug": "בלני-2",
+	"headword": {
+		"text": "בַּלְנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּלִּינֵי"
+		}
+	],
+	"page": {
+		"number": 174,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (balnea, balineæ) <i>bath, bathing</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:5:2\">Y. Ber. VI, 10ᶜ</cite> bot. <he>כהדין דשתי חמרא בתר בילני</he> (read <he>בליני</he>) as if one drinks wine after bathing (for medicinal purposes, when the wine which he drinks after meal cannot be considered as a continuation of the draught taken before meal; v. <cite ref=\"A01819\"><he>אֲלוּנְטִית</he> II</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 4:1:10\">Y. Maas. Sh. IV, 54ᵈ</cite> bot. as much as one will ask (for the fruits left over) on a hot summer day <he>בתר ב׳</he> after bathing time (when he is anxious to sell).—*Denom. <he>בַּלָּנִיּוֹת</he> f. pl. (= balnearia) <i>bathing apparel</i>. ",
+				"<cite ref=\"Mishnah Bava Batra 4:5\">B. Bath. IV, 5</cite> (<cite ref=\"Bava Batra 67b\">67ᵇ</cite>, Bab. ed.) <he>ואת הב׳</he> (Var. <cite ref=\"F00040\"><he>וִילָאוֹת</he></cite> q. v.)."
+			]
+		}
+	]
+}

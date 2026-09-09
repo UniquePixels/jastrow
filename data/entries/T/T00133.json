@@ -1,0 +1,23 @@
+{
+	"id": "T00133",
+	"slug": "רבעותא-2",
+	"headword": {
+		"text": "רַבְעוּתָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1445,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00129\"><he>רְבַע</he></cite>) <i>lying down</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 139:3\">Targ. Ps. CXXXIX, 3</cite>."
+			]
+		}
+	]
+}

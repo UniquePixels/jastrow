@@ -1,0 +1,58 @@
+{
+	"id": "D00635",
+	"slug": "דין-5",
+	"headword": {
+		"text": "דִּין",
+		"homograph": 2
+	},
+	"page": {
+		"number": 301,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"D00634\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>law-suit, claim; judgment, justice, law</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 92a:10\">Yeb. 92ᵃ</cite>; <cite ref=\"Sanhedrin 6b:15\">Snh. 6ᵇ</cite> <he>יקוב הד׳ את ההר</he> let the law cut through the mountain (justice under all circumstances). ",
+				"<cite ref=\"Sanhedrin 2b:6\">Ib. 2ᵇ</cite> <he>אין דִּינֵיהֶם ד׳</he> their decision is not binding. ",
+				"<cite ref=\"Mishnah Ketubot 9:2\">Keth. IX, 2</cite> <he>אין מרחמין בד׳</he> compassion must have no influence on the decision of the law. ",
+				"<cite ref=\"Mishnah Ketubot 9:1\">Ib. IX, 1</cite> <he>ד׳ ודברים אין לי וכ׳</he> I have no claim whatever &c. Snh. l. c. <he>שנים שבאו לד׳</he> two persons who come before court. Ib. VI, 1, v. <cite ref=\"C01061\"><he>גָּמַר</he></cite>.—",
+				"<cite ref=\"Bava Metzia 30b:16\">B. Mets. 30ᵇ</cite>, a. fr. <he>ד׳ תורה</he> strict law, opp. <he>לפנים משורת הד׳</he> inside the line of the law, <i>equity</i>.—",
+				"<cite ref=\"Shabbat 33a:9\">Sabb. 33ᵃ</cite> <he>עינוי הד׳</he> vexations of the law, unnecessary delay of sentence, <he>עיוות הד׳</he> perversion of the law, partiality and sophistry; <he>קילקול הד׳</he> disregard of the law, wrong sentence through carelessness.—",
+				"<cite ref=\"Avodah Zarah 18a\">Ab. Zar. 18ᵃ</cite>, a. fr. <he>יום הד׳</he> the day of judgment (in the world to come). ",
+				"<cite ref=\"Avodah Zarah 18a\">Ib.</cite>, a. fr. <he>הצדיק את הד׳</he> to declare God’s judgment right, to submit to God’s decree with resignation, <he>צידוק הד׳</he> resignation.—",
+				"<cite ref=\"Pirkei Avot 4:22\">Ab. IV, 22</cite>, a. fr. <he>נתן ד׳</he> to give an account, to be made responsible.—",
+				"<cite ref=\"Bereishit Rabbah 28:9\">Gen. R. s. 28</cite> <he>נטלו דִינָם</he> suffered punishment <cite ref=\"Bereishit Rabbah 22:7\">Gen. R. s. 22</cite> <he>לתבוע דִּינוֹ של וכ׳</he> (Ar. <cite ref=\"D01003\"><he>דקיון</he></cite>) to make responsible for &c., cmp. <cite ref=\"D00711\"><he>דִּיקְיוֹן</he></cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 22:7\">Ib.</cite> s. 12 end, a. fr. <he>מידת הד׳</he> the attribute of justice, Divine Justice, opp. <he>מידת הרחמים</he> Divine Mercy; v. <cite ref=\"M00252\"><he>מִדָּה</he></cite>.—<he>בֵּית דִּין</he> (abbr. <he>ב״ד</he>) court, v. <cite ref=\"B00753\"><he>בַּיִת</he></cite>.—<he>גְּזַר ד׳</he> decree, v. <cite ref=\"C00575\"><he>גָּזָר</he></cite>.—",
+				"<cite ref=\"Kiddushin 65b:8\">Kidd. 65ᵇ</cite>, a. fr. <he>בעל ד׳</he> litigant, opponent in court.—",
+				"<cite ref=\"Sanhedrin 32b:8\">Snh. 32ᵇ</cite> <he>ד׳ מרומה</he> proceedings in court which bear evidences of fraudulent claims or statements.—",
+				"<cite ref=\"Berakhot 55a:1\">Ber. 55ᵃ</cite> <he>מוסר ד׳ על חבירו וכ׳</he> one who appeals to the Lord for judgment on his neighbor."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>argument, analogy</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 4b:17\">Snh. 4ᵇ</cite>; <cite ref=\"Zevachim 38a:4\">Zeb. 38ᵃ</cite> <he>מפני הד׳</he> by analogy from equal expressions, v. <cite ref=\"C00581\"><he>גְּזֵרָה</he></cite>. ",
+				"<cite ref=\"Zevachim 38a:8\">Ib.</cite> <he>והלא ד׳ הוא</he> is not this an analogy?—Esp. <i>conclusion from minor to major</i> <he>(קל וְחוֹמֶר</he>). ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:1:6\">Y. Kidd. I, beg. 58ᵇ</cite>; Bab. ",
+				"<cite ref=\"Kiddushin 4b:10\">Kidd. 4ᵇ</cite>, a. fr. <he>ד׳ הוא</he> it is a proper conclusion; <he>מה … אינו ד׳</he> if a Hebrew hand-maid … is acquired by means of money, <he>אינו ד׳ וכ׳</he> is it not so much the more proper that a wife &c.—",
+				"<cite ref=\"Sanhedrin 54a\">Snh. 54ᵃ</cite>, a. fr. <he>אין עונשין מן הד׳</he> the tresspass of a law derived by conclusion <i>ad majus</i> is not punishable.—<he>לבא מן הד׳ וכ׳</he>, v. <cite ref=\"D00444\"><he>דַּי</he></cite>.—",
+				"<cite ref=\"Sanhedrin 2b:3\">Snh. 2ᵇ</cite>, a. fr. <he>ובד׳ הוא ד־</he> and by right &c. ",
+				"<cite ref=\"Sanhedrin 2b:3\">Ib.</cite> <he>הוא הד׳ דאפי׳</he> the same applies also to &c.—Pl. <he>דִּינִים</he>, <he>דִּינִין</he>, constr. <he>דִּינֵי</he>. ",
+				"<cite ref=\"Mishnah Chagigah 1:8\">Ḥag. I, 8</cite> <he>הד׳</he> the interpretations of laws, v. ",
+				"<cite ref=\"Chagigah 11a:7\">ib. 11ᵃ</cite>.—",
+				"<cite ref=\"Mishnah Sanhedrin 4:1\">Snh. IV, 1</cite>, a. fr. <he>דיני ממונות</he> civil cases, <he>ד׳ נפשות</he> capital cases. ",
+				"<cite ref=\"Rosh Hashanah 21b:13\">R. Hash. 21ᵇ</cite> <he>ד׳ שבלב שלא וכ׳</he> sentences from a mere inner conviction, without witnesses &c.; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

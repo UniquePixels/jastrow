@@ -1,0 +1,55 @@
+{
+	"id": "S01699",
+	"slug": "קפד-1",
+	"headword": {
+		"text": "קָפַד"
+	},
+	"page": {
+		"number": 1398,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to contract, convolve</i>, v. <cite ref=\"S00495\"><he>קוּפָּד</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִקְפִּיד"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"S01830\"><he>קָצַף</he></cite>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be angry, lose temper</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 20b:9\">Taan. 20ᵇ</cite> <he>מימי לא הִקְפַּדְתִּי וכ׳</he> never did I lose my temper in my house; Y. ib. III, end, 67ᵃ. Y. Ber. IV, 7ᵈ (prayer on entering the schoolhouse) <he>שלא אַקְפִּיד … יַקְפִּידוּ וכ׳</he> that I may not get excited over my colleagues, and my colleagues may not get excited over me. ",
+						"<cite ref=\"Shabbat 31a:4\">Sabb. 31ᵃ</cite> <he>והלל לא יַקְפִּיד</he> and Hillel (I) shall not get impatient. ",
+						"<cite ref=\"Avot D'Rabbi Natan 1:4\">Ab. d’R. N. ch. I</cite> <he>מַקְפִּיד על דבריו</he>, v. <cite ref=\"M03079\"><he>מָתַן</he></cite>. ",
+						"<cite ref=\"Shemot Rabbah 6:2\">Ex. R. s. 6</cite> <he>ואף הוא מקפיד</he> (not <he>מקפידו</he>) and he (Moses) also lost his temper. ",
+						"<cite ref=\"Shemot Rabbah 6:2\">Ib.</cite> <he>ואתה מקפיד על דברי</he> and thou losest thy temper in spite of my word (that declared thee the most patient of men)?; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to provoke, insult</i>. Y. Keth. IV, 28ᵈ bot. <he>ה׳ את וכ׳</he> he insulted an elder and struck him.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be strict, particular; to care for, mind</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Mikvaot 9:3\">Mikv. IX, 3</cite>; <cite ref=\"Mishnah Mikvaot 9:7\">7</cite> <he>כל המקפיד עליו הוצץ</he> whatever one minds (on one’s body) causes a partition for immersion, v. <cite ref=\"H01533\"><he>חָצַץ</he> I</cite>. ",
+						"<cite ref=\"Bava Metzia 75a:8\">B. Mets. 75ᵃ</cite> <he>בני חבורה המַקְפִּידִין וכ׳</he> members of a party that are particular with one another (in lending and borrowing); <cite ref=\"Shabbat 149a\">Sabb. 149ᵃ</cite>. ",
+						"<cite ref=\"Chullin 107b:20\">Ḥull. 107ᵇ</cite> <he>שני אחין ומקפידין וכ׳</he> two brothers (taking separate meals at the same table) who are particular with each other. ",
+						"<cite ref=\"Bereishit Rabbah 65:11\">Gen. R. s. 65</cite> <he>לא היתה מַקְפֶּדֶת וכ׳</he> did not mind the pollution through idolatry; a. v. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

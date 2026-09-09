@@ -1,0 +1,39 @@
+{
+	"id": "T00053",
+	"slug": "רבבת",
+	"headword": {
+		"text": "רִבְבַת"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִבַבְתָּא"
+		},
+		{
+			"text": "רִבְוָות"
+		},
+		{
+			"text": "רְבַוְותָּא"
+		},
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1439,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"T00050\"><he>רְבָבָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 16:7\">Targ. Ez. XVI, 7</cite> (ed. Lag. <he>רבוות</he>). ",
+				"<cite ref=\"Targum of I Chronicles 29:7\">Targ. I Chr. XXIX, 7</cite> (ed. Rahm. <he>ריבב׳</he>); a. e.—Pl. <cite ref=\"T00053\"><he>רִבְבָתָא</he></cite>, <cite ref=\"T00068\"><he>רִבְוָו׳</he></cite>, <he>רִבְוָ׳</he>, <he>רִבְבָן</he>, <cite ref=\"T00071\"><he>רִבְוָן</he></cite>, <cite ref=\"T00053\"><he>רִי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 91:7\">Targ. Ps. XCI, 7</cite> (ed. Wil. <cite ref=\"T00052\"><he>רִבְבוּתָא</he></cite>; ed. Lag. <he>ריבבותא</he>). II. CXLIV, 13. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 18:7\">Targ. I Sam. XVIII, 7</cite>, sq.; a. e."
+			]
+		}
+	]
+}

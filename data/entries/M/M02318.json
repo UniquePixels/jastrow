@@ -1,0 +1,30 @@
+{
+	"id": "M02318",
+	"slug": "מצילה",
+	"headword": {
+		"text": "מְצִילָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְצִילּוֹת"
+		}
+	],
+	"page": {
+		"number": 826,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"M02318\"><he>מְצִלּוֹת</he></cite>; <cite ref=\"R00519\"><he>צָלַל</he></cite>) <i>bells</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 50a:11\">Pes. 50ᵃ</cite> (ref. to <cite ref=\"Zechariah 14:20\">Zech. XIV, 20</cite>) <he>כל מ׳ שתולין וכ׳</he> all bells which they suspend on the horse … shall be sacred unto the Lord.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (homilet.) <i>shades</i>. Ib.; Y. ib. III, end, 30ᵇ, v. <cite ref=\"R00519\"><he>צָלַל</he></cite> <i>Hif.</i>]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "A02852",
+	"slug": "אצבע",
+	"headword": {
+		"text": "אֶצְבַּע"
+	},
+	"page": {
+		"number": 110,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.; = <he>עצבע</he>; <he>עצב</he>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>finger</i>, esp. <i>index-finger</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 11a:6\">Men. 11ᵃ</cite> <he>זו א׳</he> with this (the fourth from the little finger) the measure of ‘a finger’ is taken; <cite ref=\"Ketubot 5b:1\">Keth. 5ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:13\">Y. Taan. IV, 68ᵈ</cite> bot.; <cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite> (<he>מטיפי</he>) <he>מקוטעי א׳</he> who had their finger cut off (in evidence of devotion to the cause). ",
+				"<cite ref=\"Mishnah Yoma 1:7\">Yoma I, 7</cite> <he>א׳ צרדה</he>; <cite ref=\"Tosefta Yoma 1:9\">Tosef. ib. I, 9</cite> explained <he>א׳ גדולה</he> <i>middle finger;</i> cmp. Tanḥ. Bo, end, expl. <cite ref=\"A02058\"><he>אמצעית</he></cite>.—",
+				"<cite ref=\"Ketubot 71a:9\">Keth. 71ᵃ</cite> <he>הוא נותן א׳ וכ׳</he> he (the husband) puts his finger between her teeth (and must expect to be bitten), i.e. has to take the consequences of not interfering with her vow in due time."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>any projecting limb resembling the shape of a finger</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 61a:1\">Ḥull. 61ᵃ</cite> <he>א׳ יתירה</he> <i>the projecting toe</i> on a bird’s claw. ",
+				"<cite ref=\"Mishnah Tamid 4:3\">Tam. IV, 3</cite> (<cite ref=\"Tamid 31a:12\">31ᵃ</cite>) <he>א׳ הכבד</he> the <i>lobe</i> of the liver.—Fig. (like <he>יד</he>) <i>share, part</i>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 4:3:5\">Y. Pes. IV, 31ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Avodah Zarah 1:6:5\">Y. Ab. Zar. I, 40ᵃ</cite> top, v. <cite ref=\"A02056\"><he>אֶמְצַע</he></cite>.—Pl. <he>אֶצְבָּעוֹת</he>. ",
+				"<cite ref=\"Chagigah 15a:3\">Ḥag. 15ᵃ</cite>; a. fr. (mostly in the sense of <i>finger’s length</i>).—",
+				"<cite ref=\"Pesachim 112b:1\">Pes. 112ᵇ</cite>; <cite ref=\"Niddah 66a:20\">Nidd. 66ᵃ</cite> euphem. for <i>membra virilia</i>.—<i>Dual</i> <he>אֶצְבְּעַיִּם</he>, <he>אֶצְבְּעַיִּים</he>, <cite ref=\"Shir HaShirim Rabbah 8:11\">Cant. R. to VIII, 11</cite> <he>גידם א׳</he> one whose (index) fingers were lopped (stump-like). ",
+				"<cite ref=\"Shir HaShirim Rabbah 8:11\">Ib.</cite> that whole trade of mine <he>אינה נקנית אלא בא׳</he> cannot be acquired except by learning how to use the index-fingers.—",
+				"<cite ref=\"Pesachim 109a:7\">Pes. 109ᵃ</cite>, a. e. <i>two finger lengths</i>"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "M00530",
+	"slug": "מונבז",
+	"headword": {
+		"text": "מוּנְבָּז"
+	},
+	"page": {
+		"number": 744,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (Μονόβαζος) <i>Munbaz</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " name of a King of Adiabene, and of one of his sons who embraced the Jewish faith (v. Jos. Ant. XX, 2, 1 sq.; B. J. II, 19, 2). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 46\">Gen. R. s. 46</cite>.—",
+				"<cite ref=\"Tosefta Peah 4:18\">Tosef. Peah IV, 18</cite>; Y. ib. I, 15ᵇ bot.; <cite ref=\"Bava Batra 11a\">B. Bath. 11ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Yoma 3:10\">Yoma III, 10</cite> (Ar. <cite ref=\"M00489\"><he>מוּלְבָּז</he></cite>). ",
+				"<cite ref=\"Menachot 32b:10\">Men. 32ᵇ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of a scholar. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 8:5\">Tosef. Sabb. VIII</cite> (<cite ref=\"Tosefta Shabbat 9:5\">IX</cite>), 5; <cite ref=\"Shabbat 68b:5\">Sabb. 68ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Torah 749:1\">Yalk. Num. 749</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

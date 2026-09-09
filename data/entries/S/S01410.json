@@ -1,0 +1,35 @@
+{
+	"id": "S01410",
+	"slug": "קלק-2",
+	"headword": {
+		"text": "קְלַק"
+	},
+	"page": {
+		"number": 1381,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (apocop. of <he>קלקל</he>) <i>to throw, cast</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 15:25\">Targ. Y. II, Ex. XV, 25</cite> (ed. Vien. <cite ref=\"I00525\"><he>טלק</he></cite>).—Y. Ter. VIII, 46ᵃ <he>גוויה</he>(<cite ref=\"B00000\"><he>ב</he></cite>) <he>וק׳ גרמיה</he> and it (the serpent) threw itself into it."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַלֵּק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S01409\">same</cite>. Pesik. B’shall., p. 93ᵃ <he>אנא מְקַלֵּק לך</he>, v. <cite ref=\"S01356\"><he>קְלַל</he></cite>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 11:1\">Koh. R. to XI, 1</cite> <he>בכל יום … ומקלק לימא וכ׳</he> every day he took a loaf of bread and threw it into the great sea. ",
+						"<cite ref=\"Bereishit Rabbah 79:6\">Gen. R. s. 79</cite> <he>ומקלק בשוק</he> and scattered them in the open place; <cite ref=\"Yalkut Shimoni on Torah 133:28\">Yalk. ib. 133</cite> <he>ומקללה</he> (corr. acc.).—<i>Part. pass.</i> <he>מְקַלַּק</he> <i>thrown away, decaying</i>. ",
+						"<cite ref=\"Vayikra Rabbah 22:4\">Lev. R. s. 22</cite> <he>מית ומק׳ באורחא</he> dead and decaying on the road; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

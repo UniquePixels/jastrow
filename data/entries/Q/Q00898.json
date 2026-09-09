@@ -1,0 +1,22 @@
+{
+	"id": "Q00898",
+	"slug": "פיתותא",
+	"headword": {
+		"text": "פִּיתּוּתָא"
+	},
+	"page": {
+		"number": 1173,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02214\"><he>פְּתַת</he></cite>) <i>bread to be broken</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 1:3:15\">Y. Dem. I, 22ᵃ</cite> <he>יתיב אכיל נפל פ׳ מיניה</he> sat down to a meal, and the bread fell out of his hand when he was about to break it."
+			]
+		}
+	]
+}

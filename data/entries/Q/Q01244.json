@@ -1,0 +1,36 @@
+{
+	"id": "Q01244",
+	"slug": "פסולא-2",
+	"headword": {
+		"text": "פְּסוּלָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1193,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01326\"><he>פְּסַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>chip, block</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 51:1\">Targ. Is. LI, 1</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"Q01245\">next art.</cite>) <i>worthless matter, dross</i>. Ib. I, 22 (h. text <cite ref=\"O00560\"><he>סיגים</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 22:18\">Targ. Ez. XXII, 18</cite> <cite ref=\"Q01247\"><he>פְּסוּלַת</he></cite> constr.; a. e.—Pl. m. <he>פְּסוּלַיָּיא</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 119:119\">Targ. Ps. CXIX, 119</cite> ed. Lag. (ed. Wil. <he>סוּלַיָּא</he>; h. text <he>סגים</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

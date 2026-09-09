@@ -1,0 +1,22 @@
+{
+	"id": "E00185",
+	"slug": "הובדנא",
+	"headword": {
+		"text": "הוֹבְדָנָא"
+	},
+	"page": {
+		"number": 336,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"E00184\">preced.</cite>) <i>ruin</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 92:12\">Targ. Ps. XCII, 12</cite> (ed. Wil. <he>עוּבְ׳</he>, corr. acc. or <cite ref=\"E00189\"><he>אוֹ׳</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "B00998",
+	"slug": "בסיס-3",
+	"headword": {
+		"text": "בְּסִיס",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּסִיסָא"
+		}
+	],
+	"page": {
+		"number": 179,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. <cite ref=\"B00997\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 7:30\">Targ. I Kings VII, 30</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 17:2:4\">Y. Sabb. XVII, 16ᵇ</cite> top <he>ב׳ דידיה</he> its (the delphica’s) pedestal. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 5:2:4\">Y. Succ. V, 55ᵇ</cite> bot. whatever (structure) stands isolated being one hundred feet high <he>בעי ב׳ וכ׳</he> requires a buttress (in the shape of an ascent) of thirty three cubits on each side.—Pl. <he>בְּסִיסַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 7:27\">Targ. I Kings VII, 27</cite>; a. e."
+			]
+		}
+	]
+}

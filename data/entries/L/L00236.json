@@ -1,0 +1,25 @@
+{
+	"id": "L00236",
+	"slug": "לוט-1",
+	"headword": {
+		"text": "לוֹט",
+		"homograph": 1
+	},
+	"page": {
+		"number": 696,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (b. h.) <i>Lot</i>, the nephew of Abraham. ",
+			"units": [
+				"<cite ref=\"Berakhot 54a:14\">Ber. 54ᵃ</cite> <he>הרואה … אשתו של ל׳</he> he who sees … Lot’s wife (the pillar of salt, <cite ref=\"Genesis 19:26\">Gen. XIX, 26</cite>). ",
+				"<cite ref=\"Eruvin 65a:4\">Erub. 65ᵃ</cite> <he>הגיע לשכרותו של ל׳</he> who is as drunk (unconscious) as Lot. ",
+				"<cite ref=\"Bereishit Rabbah 44:11\">Gen. R. s. 44</cite> (play on the name) <he>לוט לוטא וכ׳</he> cursed Lot shall not be Abram’s heir; a. fr."
+			]
+		}
+	]
+}

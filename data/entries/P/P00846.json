@@ -1,0 +1,30 @@
+{
+	"id": "P00846",
+	"slug": "עלתא",
+	"headword": {
+		"text": "עָלָתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עְ׳"
+		}
+	],
+	"page": {
+		"number": 1085,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"P00254\"><he>עוֹלָה</he></cite>, <i>burnt offering</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 22:2\">Targ. Gen. XXII, 2</cite>; a. fr.—",
+				"<cite ref=\"Onkelos Numbers 28:10\">Targ. O. Num. XXVIII, 10</cite>, a. e. <cite ref=\"P00845\"><he>עָלָת</he></cite> constr., ed. Berl. (oth. ed. <cite ref=\"P00845\"><he>עֲלַת</he></cite>; Y. <he>עוֹלַת</he>); Targ. Y. ib. 6 <cite ref=\"P00845\"><he>עָלַת</he></cite>.—Pl. <cite ref=\"P00778\"><he>עָלָוָון</he></cite>, <cite ref=\"P00784\"><he>עָלָוָן</he></cite>, <cite ref=\"P00778\"><he>עֲלָ׳</he></cite>, <cite ref=\"P00823\"><he>עַלְ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 66:13\">Targ. Ps. LXVI, 13</cite> (not <cite ref=\"P00778\"><he>עִלַווָן</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 66:15\">Ib. 15</cite>; a. fr."
+			]
+		}
+	]
+}

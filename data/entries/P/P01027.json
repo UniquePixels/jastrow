@@ -1,0 +1,35 @@
+{
+	"id": "P01027",
+	"slug": "ענתוניא",
+	"headword": {
+		"text": "עֵנְתּוּנָיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יָיא"
+		},
+		{
+			"text": "עֵנְתְּנָיָיה"
+		}
+	],
+	"page": {
+		"number": 1097,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>of En Tuna</i> (?). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:36\">Y. Sabb. VII, 10ᵇ</cite> <he>חנינא ע׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:54\">Y. Peah I, 16ᵇ</cite> <he>חנניא ע׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:5:4\">Y. Ber. VI, 10ᶜ</cite> bot. <he>ענתנייה</he>. ",
+				"<cite ref=\"Jerusalem Talmud Orlah 2:6:4\">Y. Orl. II, 62ᶜ</cite> top. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 2:1:4\">Y. Ter. II, beg. 41ᵇ</cite> <he>ענתונ׳</he>.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:1:15\">Y. Ber. V, 9ᵃ</cite> top <he>יוחנן ענתנייתא</he> (?).—Cmp. <he>עין תאנה</he>, s. v. <cite ref=\"V00027\"><he>תְּאֵנָה</he></cite>.—[<cite ref=\"Bereishit Rabbah 29:1\">Gen. R. s. 29</cite> <he>חנינא אינוניתא</he>, Ar. <he>אין תתיה</he>, prob. to be read: <he>עין תונייה</he>.]"
+			]
+		}
+	]
+}

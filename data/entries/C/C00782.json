@@ -1,0 +1,23 @@
+{
+	"id": "C00782",
+	"slug": "גיססא-2",
+	"headword": {
+		"text": "גִּיסְסָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 241,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"C01412\"><he>גָּשׁוֹש</he></cite>) <i>long pole</i>.—Pl. <he>גִּיסְסִין</he>, <he>גִּסְ׳</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 18:14\">Targ. II Sam. XVIII, 14</cite> (Ar. <cite ref=\"C01174\"><he>גְּסִיסִין</he></cite>, h. text <he>שבטים</he>)."
+			]
+		}
+	]
+}

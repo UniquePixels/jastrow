@@ -1,0 +1,22 @@
+{
+	"id": "G00522",
+	"slug": "זמירא",
+	"headword": {
+		"text": "זְמִירָא"
+	},
+	"page": {
+		"number": 402,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"G00549\"><he>זִמְרָא</he></cite>, <i>song</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 7:1\">Esth. R. to III, 1</cite> (<cite ref=\"Yalkut Shimoni on Nach 1054\">Yalk. Esth. 1054</cite> <cite ref=\"G00555\"><he>זמרי</he></cite>)."
+			]
+		}
+	]
+}

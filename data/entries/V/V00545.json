@@ -1,0 +1,28 @@
+{
+	"id": "V00545",
+	"slug": "תכלו",
+	"headword": {
+		"text": "תִּכְלוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּי׳"
+		}
+	],
+	"page": {
+		"number": 1668,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"V00541\"><he>תְּכָל</he></cite> <i>bereavement</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 47:8\">Targ. Is. XLVII, 8</cite> (ed. Lag. <he>תכלן</he>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 47:9\">Ib. 9</cite> ed. Ven. I (oth. ed. <he>תכל</he>)."
+			]
+		}
+	]
+}

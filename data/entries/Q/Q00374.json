@@ -1,0 +1,32 @@
+{
+	"id": "Q00374",
+	"slug": "פורען-2",
+	"headword": {
+		"text": "פּוּרְעָן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פּוּרְעָנָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1148,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00373\">preced.</cite>) [<i>payer</i>,] <i>avenger, executor</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Nahum 1:2\">Targ. Nah. I, 2</cite> (h. text <he>נֹקֵם</he>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 20:5\">Targ. Y. Ex. XX, 5</cite>; a. e.—Pl. <he>פּוּרְעָנִין</he>. ",
+				"<cite ref=\"Onkelos Deuteronomy 16:18\">Targ. O. Deut. XVI, 18</cite> (ed. Vien. <cite ref=\"Q00391\"><he>פֻּרְ׳</he></cite>; h. text <he>שטרים</he>). ",
+				"<cite ref=\"Targum of II Chronicles 34:13\">Targ. II Chr. XXXIV, 13</cite>."
+			]
+		}
+	]
+}

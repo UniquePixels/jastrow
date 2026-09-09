@@ -1,0 +1,43 @@
+{
+	"id": "H01152",
+	"slug": "חמה-3",
+	"headword": {
+		"text": "חַמָּה"
+	},
+	"page": {
+		"number": 476,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>חמם</he>)<i>sun</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 59b:1\">Ber. 59ᵇ</cite> <he>ח׳ בתקופתה</he> the sun starting on his new cycle (of twenty eight years). ",
+				"<cite ref=\"Bamidbar Rabbah 14:3\">Num. R. s. 14</cite> <he>י״ב הדשים לח׳</he> the twelve solar months. ",
+				"<cite ref=\"Mishnah Nedarim 3:7\">Ned. III, 7</cite> <he>רואי הח׳</he> those seeing (or feeling) the sun; <he>שלא נתכוין … שהח׳ וכ׳</he> for he meant him whom the sun sees; a. v. fr.—",
+				"<cite ref=\"Mishnah Yevamot 8:4\">Yeb. VIII, 4</cite>, a. fr. <he>סריס ח׳</he> a eunuch from the time of seeing the sun, i.e. born without visible testicles; opp. to <he>סריס אדם</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fever</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 137a:24\">Sabb. 137ᵃ</cite>, a. e., v. <cite ref=\"H01109\"><he>חָלַץ</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 19:5:3\">Y. Sabb. XIX, end, 17ᵇ</cite>, v. <cite ref=\"A01021\"><he>אָחַז</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 19:4\">Gen. R. s. 19</cite>, a. e., v. <cite ref=\"A00021\"><he>אַבְאָבִית</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:10:3\">Y. Sabb. I, end, 4ᵇ</cite> (prov.) <he>פת חמה חַמָּתָהּ בצדה</he> hot bread has its heat by its side, i.e. eating hot bread causes fever; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>radish</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 28b:13\">Ab. Zar. 28ᵇ</cite> bot., v. <cite ref=\"H01141\"><he>חַמָּא</he></cite>.—V. <cite ref=\"H01238\"><he>חַמַּת</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

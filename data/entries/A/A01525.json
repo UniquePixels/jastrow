@@ -1,0 +1,35 @@
+{
+	"id": "A01525",
+	"slug": "איסתניס",
+	"headword": {
+		"text": "אִיסְתְּנִיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְטְנִיס"
+		},
+		{
+			"text": "אִסְ׳"
+		}
+	],
+	"page": {
+		"number": 58,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00698\"><he>ניס</he></cite>, Saf. <he>סניס</he>, Ithpe. <cite ref=\"A01460\"><he>איסת׳</he></cite>, Ispe. <cite ref=\"A01526\"><he>איסט׳</he></cite>; cmp. <cite ref=\"A01657\"><he>אִיתְנִיס</he></cite>; cmp. <cite ref=\"A03382\"><he>אִשְׁתְּמוֹדַע</he></cite> as to Ishtafel) <i>of feeble health, delicate, fastidious in diet</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 3:5\">Yoma III, 5</cite> <he>איסת׳</he> Ms. a. Ar. (v. Rabb. D. S. a. l., note 10; Bab. ed. mostly <cite ref=\"A01526\"><he>איסט׳</he></cite>). ",
+				"<cite ref=\"Pesachim 108a:5\">Pes. 108ᵃ</cite>. ",
+				"<cite ref=\"Sanhedrin 100b:6\">Snh. 100ᵇ</cite> (opp. <he>דעתו יפה</he> not choicy); a. fr.—Pl. <he>אִיסְתְּנִיסִים</he> &c. ",
+				"<cite ref=\"Bereishit Rabbah 11:4\">Gen. R. s. 11</cite> Ar. (ed. <cite ref=\"A01526\"><he>איסט׳</he></cite>). ",
+				"<cite ref=\"Eichah Rabbah 4:3\">Lam. R. to IV, 2</cite> <he>סיה …</he> (read … <he>סִים</he>).—<i>Chald.</i> ",
+				"<cite ref=\"Aramaic Targum to Job 6:7\">Targ. Job VI, 7</cite> ed. <cite ref=\"A02403\"><he>אסת׳</he></cite> (Ms. <he>אסט׳</he>). [Cmp. b. h. <cite ref=\"N00953\"><he>נָסַס</he></cite>, ch. <cite ref=\"N00942\"><he>נְסִיס</he></cite>.]"
+			]
+		}
+	]
+}

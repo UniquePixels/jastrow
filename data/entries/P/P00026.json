@@ -1,0 +1,76 @@
+{
+	"id": "P00026",
+	"slug": "עבודה",
+	"headword": {
+		"text": "עֲבוֹדָה"
+	},
+	"page": {
+		"number": 1036,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"P00026\"><he>עֲבֹדָה</he></cite>; <cite ref=\"P00013\"><he>עָבַד</he></cite>)<i>work, labor, service, attendance</i>, esp. ",
+			"units": []
+		},
+		{
+			"gloss": " (in agric.) <i>space required for attending to a plant</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 6:1\">Kil. VI, 1</cite>, a. e. (<he>כדי ע׳</he>) <he>נותנין לו את עֲבוֹדָתוֹ</he> we must allow it (the vine) its space (within which no other seed should be planted). ",
+				"<cite ref=\"Mishnah Kilayim 6:1\">Ib.</cite> <he>וכמה היא עֲבוֹדַת הגפן</he> and how large is the space for the vine? <cite ref=\"Bava Batra 83a:2\">B. Bath. 83ᵃ</cite> <he>כדי עבודת הכרם</he> as much space as is required for attending to the vineyard. ",
+				"<cite ref=\"Tosefta Kilaim 2:7\">Tosef. Kil. II, 7</cite> <he>עבודת ירק בירק אחר</he> the space to be left between one vegetable and another; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>service, agricultural implements, working cattle</i> &c. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 42:7\">Gen. R. s. 42</cite> (ref. to <cite ref=\"K00763\"><he>אָכְלָם</he></cite>, <cite ref=\"Genesis 14:11\">Gen. XIV, 11</cite>) <he>זו ע׳</he> this means their agricultural service."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>manual labor; servitude, service</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 109b:21\">Men. 109ᵇ</cite>, v. <cite ref=\"U01068\"><he>שֵׁירוּת</he></cite>. ",
+				"<cite ref=\"Rosh Hashanah 11a:2\">R. Hash. 11ᵃ</cite> <he>בר״ה בטלה ע׳ מאבותינו וכ׳</he> on the New Year’s Day (prior to going out of Egypt) our ancestors in Egypt were freed from servitude; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>divine service, priest’s service; worship</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:2:29\">Y. Kidd. I, 59ᵈ</cite> top <he>וייפסל מן הע׳</he> and he (the priest) will be made unfit for service. ",
+				"<cite ref=\"Tosefta Shekalim 3:26\">Tosef. Shek. III, 26</cite>; <cite ref=\"Chullin 24a:14\">Ḥull. 24ᵃ</cite> <he>כ״ה ללמוד ושלשים לע׳</he> twenty-five years is the age for apprenticeship, and thirty years for practical service. ",
+				"<cite ref=\"Chullin 24a:14\">Ib.</cite> <he>הע׳ בכתף</he> the service of carrying the Tabernacle on the shoulder. Men. l. c. <he>אלמדך סדר ע׳</he> I will teach thee the order of the priestly service. ",
+				"<cite ref=\"Yoma 32a:10\">Yoma 32ᵃ</cite> <he>המשנה מע׳ לע׳</he> he who goes from one function of the Temple service to another. ",
+				"<cite ref=\"Yoma 32a:6\">Ib.</cite> <he>עבודת היום בבגדי וכ׳</he> the special service of the Day of Atonement is performed in white garments. ",
+				"<cite ref=\"Yoma 39b:15\">Ib. 39ᵇ</cite> <he>הגרלה לאו ע׳ היא</he> casting lots is no special function. ",
+				"<cite ref=\"Mishnah Yoma 3:3\">Ib. III, 3</cite> <he>אין אדם נכנס לעזרה לע׳ וכ׳</he> no one must enter the Temple court for worship, unless &c. ",
+				"<cite ref=\"Mishnah Sanhedrin 7:6\">Snh. VII, 6</cite> (<cite ref=\"Sanhedrin 60b:1\">60ᵇ</cite>) <he>זו היא עֲבוֹדָתוֹ</he> (not <he>עבודתה</he>) this is the form of worshipping that deity; a. fr.—Trnsf. <i>the emoluments of the officiating priest</i>. ",
+				"<cite ref=\"Bava Kamma 109b\">B. Kam. 109ᵇ</cite>, sq. <he>עֲבוֹדָתָהּ ועורה וכ׳</he> (not <he>עבודתו</he>) the gifts for officiating at its offering and its hide belong to &c.—In gen. <i>divine worship, prayer</i>. ",
+				"<cite ref=\"Pirkei Avot 1:2\">Ab. I, 2</cite>. ",
+				"<cite ref=\"Taanit 2a:11\">Taan. 2ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 11:13\">Deut. XI, 13</cite>) <he>איזו היא ע׳ שבלב … זו תפלה</he> what is meant by the service of the heart? Prayer. ",
+				"<cite ref=\"Arakhin 11a:73\">Arakh. 11ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 28:47\">Deut. XXVIII, 47</cite>) <he>איזו היא ע׳ … זה שירה</he> what is the service in joy and cheerfulness of the heart? It is song. ",
+				"<cite ref=\"Deuteronomy 28:47\">Ib.</cite> (ref. to <cite ref=\"Numbers 4:47\">Num. IV, 47</cite>) <he>איזו היא ע׳ שצריכה ע׳ וכ׳</he> what service is that which requires (accompanies) sacrificial service? It is song; a. fr.—הָעֲ׳ <i>by the worship!</i>, for ‘by God!’ <cite ref=\"Yevamot 32b\">Yeb. 32ᵇ</cite>. Sifra K’dosh., Par. 2, ch. IV; a. fr.—Esp. <i>‘Ăbodah</i>, <i>the first of the last three sections of the Prayer of Benedictions</i> (<cite ref=\"V00831\"><he>תְּפִלָּה</he></cite>), containing <i>the prayer for the restoration of the Temple service</i>. ",
+				"<cite ref=\"Berakhot 29b:2\">Ber. 29ᵇ</cite> <he>טעה … בע׳ חוזר לע׳</he> if he failed to insert the prayer for the New Moon Day in the ʻĂbodah, he must begin the ʻĂ. anew; <he>נזכר בהודאה חוזר לע׳</he> if he recalls the omission while reading the Hodaah (the second of the last three sections), he must begin &c. Y. ib. IV, 8ᵃ bot. <he>כל דבר שהוא לַבָּא אומרה בע׳</he> whatever prayer refers to the future is inserted in the ‘A.—",
+				"<cite ref=\"Megillah 18a:6\">Meg. 18ᵃ</cite> <he>כיון שבאת תפלה באת ע׳</he> when you speak of prayer (praying that your prayer be acceptable), comes the prayer for the restoration of the Temple service. ",
+				"<cite ref=\"Megillah 18a:6\">Ib.</cite> <he>ע׳ והודאה חדא וכ׳</he> ʻĂb. and Hodaah are one thing (belong together); a. fr."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": " <he>ע׳ זָרָה</he> (abbrev. <he>ע״ז</he>) <i>idolatry</i>, mostly used for <i>idol, heathen deity</i>, interch. in editions with <he>עֲבוֹדַת אֱלִילִים</he> (abbrev. <he>ע״א</he>) and <he>עֲבוֹדַת כּוֹכָבִים וּמַזָּלוֹת</he> (abbrev. <cite ref=\"P00731\"><he>עכ״ום</he></cite>, <he>עכומ״ז</he>). ",
+			"units": [
+				"<cite ref=\"Bava Batra 110a:5\">B. Bath. 110ᵃ</cite> <he>תעשה כהן לע״א</he> thou (Jonathan, grandson of Moses) to be a priest of idolatry?; <he>כך מקובלני … ישכיר אדם עצמו לע״ז וכ׳</he> I have a tradition from my grandfather, a man should rather hire himself out for ‘strange service’, than be dependent on man; <he>הוא סבר לע״ז ממש … אלא ע׳ שזרה לו</he> he thought it meant real strange service (idolatry), but it means ‘for labor strange to him’ (beneath his station). ",
+				"<cite ref=\"Mishnah Sanhedrin 5:1\">Snh. V, 1</cite> (<cite ref=\"Sanhedrin 40a:2\">40ᵃ</cite>) <he>העובד עכ״ום את מי עבד וכ׳</he> (Mish. ed. <he>העובד כוכבים וכ׳</he>) in the case of one accused of idolatry, (the witnesses are asked,) whom (what special deity) did he worship? and in what manner did he worship? <cite ref=\"Avodah Zarah 11b:11\">Ab. Zar. 11ᵇ</cite> <he>בתי ע״א</he> idolatrous temples (and fairs connected therewith); a. v. fr.—<i>‘Ăbodah Zarah</i>, name of a treatise of the Mishnah, Tosefta, Talmud Babli a. Y’rushalmi, of the Order of N’ziḳin.—Pl. <he>עֲבוֹדוֹת</he>. Sifra Sh’mini, Milluim <he>בשעה קלה למדו שבעה ע׳ וכ׳</he> in a short moment they iearned seven sacrificial functions: the slaughtering &c. ",
+				"<cite ref=\"Yoma 47b:1\">Yoma 47ᵇ</cite> <he>זו היא מע׳ קשות וכ׳</he> this is one of the difficult services (manipulations) in sacrificial rites. ",
+				"<cite ref=\"Yoma 32a:6\">Ib. 32ᵃ</cite> <he>וחמש ע׳ הן וכ׳</he> and there were five rites (on the Day of Atonement): the daily morning sacrifice &c.; a. fr."
+			],
+			"label": "5"
+		}
+	]
+}

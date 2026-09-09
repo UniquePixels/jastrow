@@ -1,0 +1,29 @@
+{
+	"id": "H00780",
+	"slug": "חילף",
+	"headword": {
+		"text": "חֵילֶף"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֵלֶף"
+		}
+	],
+	"page": {
+		"number": 456,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חלף</he>) <i>a species of rush</i> (so named from its sharp edges, v. Fl. to Levy Targ. Dict. I, 425<sup>1</sup>, a. Sm. Ant. s. v. Schoenus). ",
+			"units": [
+				"<cite ref=\"Tosefta Sukkah 1:10\">Tosef. Succ. I, 10</cite> <he>של קנים ושל ח׳</he> (a matting) of reeds or rushes; <cite ref=\"Sukkah 20a:1\">Succ. 20ᵃ</cite> Ar. (ed. <cite ref=\"H00793\"><he>חילת</he></cite>, Ms. M. <cite ref=\"H00354\"><he>חולית</he></cite>). ",
+				"<cite ref=\"Sotah 49b\">Sot. 49ᵇ</cite> Ar. (ed. <cite ref=\"H00793\"><he>חילת</he></cite>).—",
+				"<cite ref=\"Mishnah Kelim 17:17\">Kel. XVII, 17</cite>.—[Pl. <cite ref=\"H00786\"><he>חִילְפִין</he></cite>, v. <cite ref=\"H01058\"><he>חֲלִיפִין</he></cite> a. <cite ref=\"H00780\"><he>חֵלֶף</he></cite>.]"
+			]
+		}
+	]
+}

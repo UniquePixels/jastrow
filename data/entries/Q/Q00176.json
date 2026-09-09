@@ -1,0 +1,29 @@
+{
+	"id": "Q00176",
+	"slug": "פוחא-1",
+	"headword": {
+		"text": "פּוּחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פּוּחֲתָא"
+		}
+	],
+	"page": {
+		"number": 1140,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00175\">preced.</cite>) <i>breath, wind</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 30:22\">Targ. Job XXX, 22</cite> (ed. Lag. <he>רוחא</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 20:3\">Ib. XX, 3</cite> (ed. Lag. <he>פרחא</he>, corr. acc., or <he>כרוּחָא</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:29\">Targ. Prov. XI, 29</cite> <he>פוחתא</he> Bxt. (ed. Lag. <cite ref=\"Q00489\"><he>פחתא</he></cite>, ed. Wil. <cite ref=\"Q00150\"><he>פהתא</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

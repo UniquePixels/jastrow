@@ -1,0 +1,30 @@
+{
+	"id": "M03036",
+	"slug": "מתורגמן-2",
+	"headword": {
+		"text": "מְתוּרְגְּמָן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מְתוּרְגְּמָנָא"
+		},
+		{
+			"text": "מְתֻרְ׳"
+		}
+	],
+	"page": {
+		"number": 861,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M03035\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 42:23\">Targ. Gen. XLII, 23</cite>.—",
+				"<cite ref=\"Onkelos Exodus 4:16\">Targ. Ex. IV, 16</cite>; a. e.—Pl. <he>מְתוּרְגְּמָנִין</he>. ",
+				"<cite ref=\"Targum of II Chronicles 32:31\">Targ. II Chr. XXXII, 31</cite>."
+			]
+		}
+	]
+}

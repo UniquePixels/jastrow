@@ -1,0 +1,29 @@
+{
+	"id": "H01123",
+	"slug": "חלש-1",
+	"headword": {
+		"text": "חָלַשׁ"
+	},
+	"page": {
+		"number": 474,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to relax, be weak, prostrated</i> (cmp. <cite ref=\"H00987\"><he>חָלָה</he></cite>).—V. <cite ref=\"H01127\"><he>חַלָּשׁ</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to round, smoothen</i>, denom. <cite ref=\"H01125\"><he>חֵלֶשׁ</he></cite> <i>smooth stone;</i> (cmp. <cite ref=\"H01114\"><he>חֵלֶק</he></cite>) <i>ballot;</i> fr. which <cite ref=\"H01123\"><he>חָלַשׁ</he></cite>] <i>to cast a lot; to assign</i>. Pesik. Zakh., p. 22ᵃ expl. <he>ויחלש</he>, (<cite ref=\"Exodus 18:13\">Ex. XVIII, 13</cite>) <he>הפיל עליהן גורלות</he> he (Joshua) cast lots over them (for their destruction). ",
+			"units": [
+				"<cite ref=\"Mishnah Arakhin 9:4\">Arakh. IX, 4</cite> (<cite ref=\"Arakhin 31b:80\">31ᵇ</cite>) <he>שיהא חוֹלֵשׁ … ללשכה</he> (Mish. ed. <he>בלשכה</he>) that he might assign his redeeming money to the Temple fund (deposit it there, to assert his privilege of redemption)."
+			],
+			"label": "2"
+		}
+	]
+}

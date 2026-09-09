@@ -1,0 +1,26 @@
+{
+	"id": "C00214",
+	"slug": "גדירא",
+	"headword": {
+		"text": "גְּדֵירָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גָּדֵירָא"
+		}
+	],
+	"page": {
+		"number": 212,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. ch. <cite ref=\"C00213\">same</cite>, <i>fence, partition</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 22:24\">Targ. O. Num. XXII, 24</cite>; a. e.—<he>ג׳ מיצעא דאודנא</he> the central fence of the ear, <i>anti-helix</i>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 8:23\">Targ. Y. Lev. VIII, 23</cite>, a. e. (h. text <he>תְּנוּךְ</he>).—",
+				"<cite ref=\"Bava Kamma 23b:13\">B. Kam. 23ᵇ</cite> <he>לגדור מר ג׳ וכ׳</he> erect you a fence in your field."
+			]
+		}
+	]
+}

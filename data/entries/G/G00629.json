@@ -1,0 +1,28 @@
+{
+	"id": "G00629",
+	"slug": "זקופא",
+	"headword": {
+		"text": "זְקוּפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְקוּפָה"
+		}
+	],
+	"page": {
+		"number": 408,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (a. Hebraism, v. <cite ref=\"G00649\"><he>זָקַף</he></cite>) <he>קימה ז׳</he> (<cite ref=\"S00378\"><he>קומא</he></cite>) <i>erect stature, pride</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 11:7\">Targ. Hos. XI, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 26:13\">Targ. Y. Lev. XXVI, 13</cite>. [<he>זקופה</he> <i>gallows</i>, v. <cite ref=\"G00634\"><he>זְקִיפָא</he> II</cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	"id": "I00077",
+	"slug": "טבע-2",
+	"headword": {
+		"text": "טְבַע"
+	},
+	"page": {
+		"number": 518,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"I00076\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 4:8\">Targ. Y. Gen. IV, 8</cite>.—",
+				"<cite ref=\"Targum Jonathan on I Samuel 17:49\">Targ. I Sam. XVII, 49</cite>; a. e.—",
+				"<cite ref=\"Pesachim 40b:2\">Pes. 40ᵇ</cite> <he>ארבא … דטָבְעָא וכ׳</he> a ship with wheat sank &c. ",
+				"<cite ref=\"Shabbat 108b:9\">Sabb. 108ᵇ</cite> <he>מעולם לא ט׳ וכ׳</he> never was yet a man drowned in the Lake of Sodom. ",
+				"<cite ref=\"Bava Batra 153a:10\">B. Bath. 153ᵃ</cite> <he>אמרה לִיטְבַּע ארביה</he> (Ms. H. <he>אמרה ליה טבאי וכ׳</he>, Ar. <he>אמרה לו טבאי</he>) said she, May his (thy) ship go under; a. e.—[<cite ref=\"Targum Jonathan on Deuteronomy 28:29\">Targ. Y. Deut. XXVIII, 29</cite> <he>טביעין</he> some ed., read. <he>תב׳</he>, v. <cite ref=\"V00068\"><he>תְּבַע</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טבַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to sink</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 73a:8\">B. Bath. 73ᵃ</cite> <he>גלא דמְטַבַּע וכ׳</he> the wave which threatens to sink the ship. ",
+						"<cite ref=\"Chullin 60a:3\">Ḥull. 60ᵃ</cite> <he>אתא מיטרא טַבְּעֵיה בימא</he> there came a rain and sank the provision into the sea."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיטַּבַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to be sunk</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 15:4\">Targ. O. Ex. XV, 4</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

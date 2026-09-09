@@ -1,0 +1,24 @@
+{
+	"id": "C01122",
+	"slug": "גנז-3",
+	"headword": {
+		"text": "גֵּנֶז"
+	},
+	"page": {
+		"number": 258,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"C01121\">preced.</cite>) <i>store, treasure</i>.—Pl. <he>גְּנָזִים</he>, constr. <he>גִּנְזֵי</he>. ",
+			"units": [
+				"<cite ref=\"Chagigah 12b:10\">Ḥag. 12ᵇ</cite>. ",
+				"<cite ref=\"Pesachim 119a:13\">Pes. 119ᵃ</cite> <he>בית גְּנָזָיו של וכ׳</he> Korah’s storehouse. ",
+				"<cite ref=\"Pesachim 118b:19\">Ib. 118ᵇ</cite> bot. <he>בית גִּנְזֵיהֶם</he> Ms. M. 2 (Ms. M. 1 <he>גְּנָזָיו</he>; ed. <cite ref=\"C01140\"><he>גניזה</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

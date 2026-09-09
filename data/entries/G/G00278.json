@@ -1,0 +1,26 @@
+{
+	"id": "G00278",
+	"slug": "זיד-2",
+	"headword": {
+		"text": "זִיד",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זוּד"
+		}
+	],
+	"page": {
+		"number": 391,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00277\">same</cite>.—<i>Af.</i> <he>אָזֵיד</he> <i>to plan</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 15:21\">Targ. Y. Ex. XV, 21</cite>. ",
+				"<cite ref=\"Onkelos Exodus 21:14\">Targ. O. ib. XXI, 14</cite> ed. Berl. (ed. <he>ירשע</he>)."
+			]
+		}
+	]
+}

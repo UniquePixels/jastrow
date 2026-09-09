@@ -1,0 +1,25 @@
+{
+	"id": "M02120",
+	"slug": "מעיקא-2",
+	"headword": {
+		"text": "מְעִיקָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 816,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M02119\">preced.</cite>) <i>oppression, distress</i> (= h. <he>מְצוּקָה</he>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 119:143\">Targ. Ps. CXIX, 143</cite>; a. e.—Pl. <cite ref=\"M00878\"><he>מְעִיקָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 107:13\">Ib. CVII, 13</cite>; <cite ref=\"Aramaic Targum to Psalms 107:19\">19</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 107:6\">Ib. 6</cite> <he>מְעָקַתְ׳</he>; a. e.—[<cite ref=\"M02119\"><he>מְעִיקָא</he></cite>, part. f. of <cite ref=\"M02163\"><he>מְעַק</he></cite>, q. v.]"
+			]
+		}
+	]
+}

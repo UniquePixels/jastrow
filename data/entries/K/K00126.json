@@ -1,0 +1,22 @@
+{
+	"id": "K00126",
+	"slug": "כדידית",
+	"headword": {
+		"text": "כְּדִידִית"
+	},
+	"page": {
+		"number": 613,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (dimin. of <cite ref=\"K00098\"><he>כַּד</he></cite>) <i>round small vessel</i>.—Pl. <he>כְּדִידִיּוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Menahot 9:10\">Tosef. Men. IX, 10</cite> <he>כ׳ בינוניות</he> middle-sized vessels of the sort called <i>K’didith</i>; <cite ref=\"Menachot 87a:11\">Men. 87ᵃ</cite> <he>חביות כִּדִּיּוֹת לודיות בינוניות</he> Ms. M. middle-sized round Lydda vessels."
+			]
+		}
+	]
+}

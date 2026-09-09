@@ -1,0 +1,60 @@
+{
+	"id": "R00101",
+	"slug": "צדי-2",
+	"headword": {
+		"text": "צְדֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְדָא"
+		}
+	],
+	"page": {
+		"number": 1262,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00100\">same</cite>, <i>to hunt, capture</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 35:8\">Targ. Ps. XXXV, 8</cite> <he>תְּצַדְיֵיה</he> Ms. (ed. <he>תציידיה</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 6:26\">Targ. Prov. VI, 26</cite> <he>צָדְיָא</he> Ms. (ed. <cite ref=\"R00454\"><he>צָיְרָּא</he></cite>), v. <cite ref=\"R00161\"><he>צוּד</he></cite> ch.—",
+				"<cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> <he>צְדִינוּן וחבשינון בפילקי</he> Ar. (ed. <he>סבתינון</he>) they caught them and put them in prison. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:6:4\">Y. Kil. I, 27ᵃ</cite> bot. <he>וצַדְיֵיה</he>, v. <cite ref=\"M02283\"><he>מְצוּדְתָּא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַצְדֵּי"],
+			"senses": [
+				{
+					"gloss": " (with <cite ref=\"L00000\"><he>ל</he></cite>) <i>to sport, mock, deride</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 17:5\">Targ. Prov. XVII, 5</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 30:17\">Ib. XXX, 17</cite> (some ed. <he>מצריא</he>, corr. acc.)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִצְטְדֵי", "אִיתְצְדֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be caught, captured</i>. Y. Ber. I, 2ᵈ bot. <he>אִיתְצְדִית</he>, v. <cite ref=\"A02108\"><he>אַנְגַּרְיָא</he></cite>; a. e., v. <cite ref=\"R00161\"><he>צוּד</he></cite> ch.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be exposed to ridicule</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 18:1\">Targ. Prov. XVIII, 1</cite>; <cite ref=\"Aramaic Targum to Proverbs 20:3\">XX, 3</cite> (some ed. <he>מצטרי</he>; h. text <he>יתגלע</he>, v. <cite ref=\"C00974\"><he>גָּלַע</he></cite>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

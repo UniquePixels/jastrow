@@ -1,0 +1,23 @@
+{
+	"id": "B01178",
+	"slug": "ברדא-3",
+	"headword": {
+		"text": "בַּרְדָּא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 190,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B01177\">preced.</cite>) <i>barda</i>, name of an unclean bird. ",
+			"units": [
+				"<cite ref=\"Chullin 62b:4\">Ḥull. 62ᵇ</cite> (Ar. <he>בר אדא</he>)."
+			]
+		}
+	]
+}

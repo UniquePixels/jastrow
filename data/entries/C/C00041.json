@@ -1,0 +1,25 @@
+{
+	"id": "C00041",
+	"slug": "גבבא-1",
+	"headword": {
+		"text": "גְּבָבָא"
+	},
+	"page": {
+		"number": 204,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00040\">preced.</cite>) <i>rakings</i>, v. <cite ref=\"C00042\">next w.</cite> <he>ג׳ דעמרא</he> <i>a ball of clipped wool</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 74a:5\">B. Bath. 74ᵃ</cite>; <cite ref=\"Sanhedrin 110a:17\">Snh. 110ᵃ</cite>; <cite ref=\"Bamidbar Rabbah 18:20\">Num. R. s. 18</cite>. ",
+				"<cite ref=\"Berakhot 9b:11\">Ber. 9ᵇ</cite> <he>בין ג׳ דע׳ חיורא</he> between a lump of white wool &c. ",
+				"<cite ref=\"Berakhot 8a\">Ib. 8ᵃ</cite>, v. <cite ref=\"H00702\"><he>חִיזְרָא</he> I</cite>.—Pl. <he>גְּבָבֵי</he>. ",
+				"<cite ref=\"Gittin 68a\">Gitt. 68ᵃ</cite>"
+			]
+		}
+	]
+}

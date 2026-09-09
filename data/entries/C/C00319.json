@@ -1,0 +1,23 @@
+{
+	"id": "C00319",
+	"slug": "גודריתא",
+	"headword": {
+		"text": "גּוּדְרִיתָא"
+	},
+	"page": {
+		"number": 218,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C00246\"><he>גדר</he></cite>) <i>partition;</i> <he>ג׳ דקני</he> (= h. <he>חיצת קנים</he>) a hedge of reeds spreading from a common stem. ",
+			"units": [
+				"<cite ref=\"Eruvin 19b:30\">Erub. 19ᵇ</cite> (Ms. M. <he>גּוּדְרְיָיתָא</he>, pl.; Ar. <cite ref=\"C00488\"><he>גורדייתא</he></cite>). ",
+				"<cite ref=\"Shabbat 50b\">Sabb. 50ᵇ</cite> <he>בגורד׳ דקני</he> ed. (corr. <he>בגודר׳</he>, Ms. M. <he>בגרירתא</he>, corr. <he>בגדיר׳</he>; Ar. <he>בי גזרתא</he>) (to put a knife) between the branches of a hedge of reeds. [The vers. of Ar. proves <he>גודר׳</he> to be the proper version and <he>גורד׳</he> or <he>גריר׳</he>, corruptions.]"
+			]
+		}
+	]
+}

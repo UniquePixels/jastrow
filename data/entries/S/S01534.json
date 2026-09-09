@@ -1,0 +1,35 @@
+{
+	"id": "S01534",
+	"slug": "קנה-2",
+	"headword": {
+		"text": "קִנָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִינָּה"
+		}
+	],
+	"page": {
+		"number": 1388,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"S01505\"><he>קֵן</he></cite> <i>nest</i>; ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (<cite ref=\"S01601\"><he>קָנַן</he></cite>) <i>affirmation, oath, vow</i>. <he>ק׳ מאי ק׳ של תרנגולין … לשון דקונם מיבעי</he> if a person used the word <i>ḳinnah</i> to introduce a vow, how is it? did he mean a nest of chickens (in which case there would be no vow), or has it the meaning of confirmation like <i>ḳonam</i>? It remains doubtful.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

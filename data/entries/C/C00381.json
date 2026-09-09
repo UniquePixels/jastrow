@@ -1,0 +1,42 @@
+{
+	"id": "C00381",
+	"slug": "גולגלת",
+	"headword": {
+		"text": "גּוּלְגֹּלֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּלְגּוֹלֶת"
+		},
+		{
+			"text": "גֻּלְ׳"
+		}
+	],
+	"page": {
+		"number": 221,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>גלל</he>)<i>head, skull</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 2:6\">Ab. II, 6</cite>. ",
+				"<cite ref=\"Sanhedrin 65b:9\">Snh. 65ᵇ</cite> <he>הנשאל בג׳</he> he who consults a skull (as a conjurer). ",
+				"<cite ref=\"Kohelet Rabbah 12:6\">Koh. R. to XII, 6</cite> ‘the golden bowl’ (<he>גולת</he> <cite ref=\"Kohelet Rabbah 12:6\">ib.</cite>) is the head (bowed down in old age); a. e.—Pl. <he>גּוּלְגֹלִיּוֹת</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 19\">Num. R. s. 19</cite>; Tanḥ. Ḥuck. 20 <he>ג׳ וזרועות וכ׳</he> innumerable skulls, arms &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>capitation tax</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 10:5:2\">Y. Keth. X, end, 34ᵃ</cite>; ib. XIII, 35ᵈ, v. <cite ref=\"A03199\"><he>אַרְנוֹנָא</he></cite>. Tanḥ. Ki Thissa 1; a. fr.—<i>Pl.</i> as above. ",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:18\">Y. Peah I, 15ᵇ</cite> bot.—Yalk. Dan. 1061, v. <cite ref=\"C00380\">preced.</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

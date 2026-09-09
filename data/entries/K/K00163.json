@@ -1,0 +1,48 @@
+{
+	"id": "K00163",
+	"slug": "כהן-1",
+	"headword": {
+		"text": "כֹּהֵן"
+	},
+	"page": {
+		"number": 615,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>כהן</he> , v. <cite ref=\"K00296\"><he>כּוּן</he></cite>; cmp. b. h. <cite ref=\"K00825\"><he>כַּן</he></cite>) [<i>standing, stationed</i>,] <i>officer</i>, esp. <i>priest</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 6a:4\">Yoma 6ᵃ</cite>, a. fr. <he>כ׳ גדול</he> (abbr. <he>כ״ג</he>) high priest, <he>כ׳ הדיוט</he> ordinary priest. ",
+				"<cite ref=\"Mishnah Megillah 1:9\">Meg. I, 9</cite> <he>כ׳ משוח</he> an anointed high priest, contrad. to <he>מרובה בגדים</he> a high priest distinguished only by his robes (but not anointed, as in the days of the Second Temple). ",
+				"<cite ref=\"Mishnah Megillah 1:9\">Ib.</cite> <he>כ׳ משמש</he> officiating highpriest, <he>כ׳ שעבר</he> a substitute of the high priest no longer required, ex-substitute. ",
+				"<cite ref=\"Mishnah Horayot 3:8\">Hor. III, 8</cite> <he>ממזר … קודם לכ״ג ע״ה</he> a bastard who is a scholar has the precedence of an ignorant high priest; a. v. fr.—Pl. <cite ref=\"K00168\"><he>כֹּהֲנִים</he></cite>. ",
+				"<cite ref=\"Yevamot 86b:5\">Yeb. 86ᵇ</cite>, a. e. <he>בכ״ד מקומות נקראו הכ׳ וכ׳</he> in twenty four Biblical passages the priests are designated as Levites; a. v. fr.—<he>תּוֹרַת כֹּהֲנִים</he> (abbr. <he>ת״כ</he>) <i>Torath Kohănim</i>, "
+			],
+			"senses": [
+				{
+					"gloss": " name of <i>the third book of Moses, Leviticus</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 33a:7\">Kidd. 33ᵃ</cite>. ",
+						"<cite ref=\"Vayikra Rabbah 7:3\">Lev. R. s. 7</cite> <he>מפני מה … בת״כ</he> why do we, in teaching children, commence with Leviticus? a. e.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " name of <i>an halachic commentary to Leviticus</i>, also named <i>Sifra</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 72b:7\">Yeb. 72ᵇ</cite>; a. fr.—Fem. <cite ref=\"K00170\"><he>כֹּהֶנֶת</he></cite>, <he>כּוֹהֶ׳</he> <i>a priest’s daughter</i> or <i>wife</i>. ",
+						"<cite ref=\"Chullin 131b:17\">Ḥull. 131ᵇ</cite>, sq.—",
+						"<cite ref=\"Mishnah Ketubot 4:8\">Keth. IV, 8</cite> <he>ובכ׳</he> and in the case of a priest’s wife. ",
+						"<cite ref=\"Mishnah Ketubot 7:1\">Ib. VII, 1</cite>, sq. (70ᵃ) <he>ובכ׳</he> Mish. a. Y. ed. (Bab. ed. <he>ובכהן</he>). Ib. 71ᵃ; a. fr.—Pl. <he>כֹּהֲנוֹת</he>, <he>כּוֹהֲ׳</he>. ",
+						"<cite ref=\"Berakhot 44a:6\">Ber. 44ᵃ</cite>. ",
+						"<cite ref=\"Mishnah Yevamot 3:10\">Yeb. III, 10</cite> <he>אם היו כ׳</he> (Y. ed. <he>כוה׳</he>) if they are daughters of priests; a. e."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

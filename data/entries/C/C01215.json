@@ -1,0 +1,22 @@
+{
+	"id": "C01215",
+	"slug": "גפרית",
+	"headword": {
+		"text": "גָּפְרִית"
+	},
+	"page": {
+		"number": 263,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>גפר</he>, cmp. <cite ref=\"K00078\"><he>כַּבָּרִיתָא</he></cite>)<i>sulphur</i> [or <i>bitumen, pitch</i>]. ",
+			"units": [
+				"<cite ref=\"Shabbat 18a:7\">Sabb. 18ᵃ</cite>, a. e., v. <cite ref=\"C01213\"><he>גָּפַר</he></cite> Hithpa."
+			]
+		}
+	]
+}

@@ -1,0 +1,112 @@
+{
+	"id": "U01517",
+	"slug": "שמעון",
+	"headword": {
+		"text": "שִׁמְעוֹן"
+	},
+	"page": {
+		"number": 1600,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Simeon, Simon</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " the son of Jacob; the tribe of Simeon. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 71:4\">Gen. R. s. 71</cite> <he>ש̇מ̇ע̇ון ש̇ומ̇ע בקול וכ׳</he> Simeon (listener), listening to the voice of his father in heaven. ",
+				"<cite ref=\"Bamidbar Rabbah 2:10\">Num. R. s. 2<sup>7</sup></cite> <he>ש׳ פטדה</he> the jewel in the high priest’s breastplate for the tribe of S. was a topaz. ",
+				"<cite ref=\"Bamidbar Rabbah 13:20\">Num. R. s. 13<sup>19</sup></cite> <he>נשיא ש׳</he> the prince of the tribe of S.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " ש׳ הצדיק <i>Simon the Just</i>, a high priest. ",
+			"units": [
+				"<cite ref=\"Yoma 69a:11\">Yoma 69ᵃ</cite> <he>כיון שראה לש׳ הצ׳ וכ׳</he> when he (Alexander the Great) saw Simon the Just, he alighted from his chariot &c. ",
+				"<cite ref=\"Pirkei Avot 1:2\">Ab. I, 2</cite> <he>ש׳ הצ׳ היה וכ׳</he> Simon the Just was one of the last members of the Great Assembly; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " name of several Tannaim, esp. ",
+			"units": [],
+			"label": "3",
+			"senses": [
+				{
+					"gloss": " S. son of Hillel. ",
+					"units": ["<cite ref=\"Shabbat 15a\">Sabb. 15ᵃ</cite>.—"],
+					"label": "a"
+				},
+				{
+					"gloss": " R. S. son of the Sagan. ",
+					"units": [
+						"<cite ref=\"Mishnah Shekalim 8:5\">Shek. VIII, 5</cite>. ",
+						"<cite ref=\"Mishnah Ketubot 2:8\">Keth. II, 8</cite>; a. e.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " S. ben Sheṭaḥ, chief of the Pharisees under Alexander Jannai. ",
+					"units": [
+						"<cite ref=\"Mishnah Chagigah 2:2\">Ḥag. II, 2</cite>. ",
+						"<cite ref=\"Tosefta Ketubot 12:1\">Tosef. Keth. XII, 1</cite>. ",
+						"<cite ref=\"Kiddushin 66a:12\">Kidd. 66ᵃ</cite>; a. fr.—"
+					],
+					"label": "c"
+				},
+				{
+					"gloss": " R. S. ben Gamliel I (abbrev. <he>רשב״ג</he>) <cite ref=\"Mishnah Keritot 1:7\">Ker. I, 7</cite>. ",
+					"units": [
+						"<cite ref=\"Sukkah 53a:7\">Succ. 53ᵃ</cite>; <cite ref=\"Tosefta Sukkah 4:4\">Tosef. ib. IV, 4</cite>. ",
+						"<cite ref=\"Avodah Zarah 20a:10\">Ab. Zar. 20ᵃ</cite>; (Y. ib. I, 40ᵃ bot.; <cite ref=\"Jerusalem Talmud Berakhot 9:1:31\">Y. Ber. IX, 13ᵇ</cite> bot. <he>רבן גמליאל</he>); a. e.—"
+					],
+					"label": "d"
+				},
+				{
+					"gloss": " Rabban S. ben Gamliel II. ",
+					"units": [
+						"<cite ref=\"Horayot 13b:18\">Hor. 13ᵇ</cite>. ",
+						"<cite ref=\"Ketubot 77a:7\">Keth. 77ᵃ</cite>, a. fr. <he>כל מקום ששנה רשב״ג וכ׳</he> wherever R. S. b. G. is cited in the Mishnah, his opinion is the adopted law. Ib. VII, 9; a. v. fr.—"
+					],
+					"label": "e"
+				},
+				{
+					"gloss": " <he>ר׳ ש׳ ברבי</he> R. S. son of R. Judah han-Nasi (B’ribbi). Ib. 103ᵇ. ",
+					"units": [
+						"<cite ref=\"Berakhot 13b:19\">Ber. 13ᵇ</cite>; a. fr.—<he>ש׳ בן זומא</he>, v. <cite ref=\"G00185\"><he>זוֹמָא</he> II</cite>.—<he>ש׳ בן עזאי</he>, v. <cite ref=\"P00390\"><he>עַזַּאי</he></cite>; a. many other Tannaim; v. Fr. Darkhé, Additamenta, p. 64–67."
+					],
+					"label": "f"
+				}
+			]
+		},
+		{
+			"gloss": " name of several Amoraim, esp. ",
+			"units": [],
+			"label": "4",
+			"senses": [
+				{
+					"gloss": " R. S. bar Abba (Ba, Va), in Babli <cite ref=\"U01501\"><he>שִׁמָּן</he></cite>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Shabbat 7:2:32\">Y. Sabb. VII, 8ᵃ</cite> bot.; Bab. ",
+						"<cite ref=\"Shabbat 61a:15\">Sabb. 61ᵃ</cite>. ",
+						"<cite ref=\"Jerusalem Talmud Berakhot 5:2:9\">Y. Ber. V, 9ᵇ</cite> bot.; Bab. ",
+						"<cite ref=\"Berakhot 33a:31\">Ber. 33ᵃ</cite>; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " R. S. b. Laḳish (abbrev. <he>רשב״ל</he>, a. <he>ריש לקיש</he>, <he>ר״ל</he>). ",
+					"units": [
+						"<cite ref=\"Ketubot 54b\">Keth. 54ᵇ</cite>. ",
+						"<cite ref=\"Gittin 47a:15\">Gitt. 47ᵃ</cite>. ",
+						"<cite ref=\"Jerusalem Talmud Yevamot 8:3:9\">Y. Yeb. VIII, 9ᵈ</cite> bot.; a. v. fr., v. <cite ref=\"L00694\"><he>לָקִישׁ</he> I</cite>; a. other Amoraim; v. Fr. M’bo p. 127ᵃ–130ᵃ"
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "U00434",
+	"slug": "שום-2",
+	"headword": {
+		"text": "שׂוּם",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׂים"
+		}
+	],
+	"page": {
+		"number": 1535,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00433\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 19:14\">Targ. O. Lev. XIX, 14</cite> (v. <cite ref=\"O00333\"><he>סוּם</he></cite> I ch.; Y. <he>תְשַׁוּוּן</he>). ",
+				"<cite ref=\"Onkelos Genesis 50:26\">Targ. O. Gen. L, 26</cite> (ed. Berl. <he>וסמוהי</he>); Y. II <he>ושמוהי</he> (Y. I <he>ושַׁוּוּן</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 22:17\">Targ. Prov. XXII, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 24:32\">Ib. XXIV, 32</cite>; a. fr.—V. <cite ref=\"O00333\"><he>סוּם</he></cite> I ch."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְּשָׂם"],
+			"senses": [
+				{
+					"gloss": "<i>to be placed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Haggai 2:15\">Targ. Hag. II, 15</cite>. ",
+						"<cite ref=\"Aramaic Targum to Esther 4:3\">Targ. Esth. IV, 3</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

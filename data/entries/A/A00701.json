@@ -1,0 +1,24 @@
+{
+	"id": "A00701",
+	"slug": "אומן-3",
+	"headword": {
+		"text": "אוּמָן"
+	},
+	"page": {
+		"number": 27,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"A02038\"><he>אָמָן</he></cite>; <cite ref=\"A02038\"><he>אמן</he></cite>, <he>ימן</he>)<i>skilled, artist, artisan, professional cook, architect</i> &c. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 34b:3\">Ab. Zar. 34ᵇ</cite> <he>מורייס א׳</he> brine prepared by a professional manufacturer and dealer. ",
+				"<cite ref=\"Bereishit Rabbah 1\">Gen. R. s. 1</cite> <he>מדעת א׳</he> after the plan of an architect. ",
+				"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite> <he>שאינו א׳ וכ׳</he> who is not skilled in climbing up.; a. fr.—Pl. <he>אוּמָנִין</he> <cite ref=\"Berakhot 16a:7\">Ber. 16ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

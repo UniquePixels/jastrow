@@ -1,0 +1,45 @@
+{
+	"id": "G00321",
+	"slug": "זיז-1",
+	"headword": {
+		"text": "זִיז",
+		"homograph": 1
+	},
+	"page": {
+		"number": 393,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00146\"><he>זוּז</he></cite> or <he>זעזע</he>) ",
+			"units": []
+		},
+		{
+			"gloss": " <he>ז׳ שבעדשים</he> name of <i>a mite</i> in lentils.—Pl. <he>זִיזִים</he>, <cite ref=\"G00326\"><he>זִיזִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Chullin 67b\">Ḥull. 67ᵇ</cite>; Sifra Sh’mini Par. 10, ch. XII; <cite ref=\"Jerusalem Talmud Terumot 8:1:13\">Y. Ter. VIII, 45ᵇ</cite> bot."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>spider</i>.—<i>Pl.</i> as above. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 14:1:2\">Y. Sabb. XIV, beg. 14ᵇ</cite> (differ. in Bab. ",
+				"<cite ref=\"Shabbat 106b\">Sabb. 106ᵇ</cite>, a. ",
+				"<cite ref=\"Tosefta Shabbat 12:4\">Tosef. ib. XII</cite> (<cite ref=\"Tosefta Shabbat 13:4\">XIII</cite>), 4).—[<cite ref=\"Tosefta Bekhorot 1:8\">Tosef. Bekh. I, 8</cite> <he>דבש הזיזין</he> ed. Zuck. Var. <he>הגוזין</he>, v. <cite ref=\"E00064\"><he>הִגְזִין</he></cite>.]"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " name of a fabulous <i>bird</i> (ref. to <cite ref=\"Psalms 50:11\">Ps. L, 11</cite>). ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 22:10\">Lev. R. s. 22</cite>, end. ",
+				"<cite ref=\"Bava Batra 73b:7\">B. Bath. 73ᵇ</cite>"
+			],
+			"label": "3"
+		}
+	]
+}

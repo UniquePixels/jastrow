@@ -1,0 +1,40 @@
+{
+	"id": "F00083",
+	"slug": "ורד-2",
+	"headword": {
+		"text": "וֶרֶד",
+		"homograph": 2
+	},
+	"page": {
+		"number": 375,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Arab. <i>vard</i> flos arboris; rosa) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rose, rose-tree;</i> (collectively) <i>roses</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 7:6\">Shebi. VII, 6</cite> <he>הו׳</he> the rose-tree. ",
+				"<cite ref=\"Mishnah Sheviit 7:7\">Ib. 7</cite> <he>ו׳ חדש</he> roses of the new crop. Y. ",
+				"<cite ref=\"Mishnah Sheviit 7:7\">ib.</cite> beg. 37ᵇ <he>עיקר הו׳</he> the rose-tree itself (the wood); Tosef. ib. V, 7 <cite ref=\"H01611\"><he>חרוב</he></cite> (corr. acc.). ",
+				"<cite ref=\"Mishnah Shabbat 14:4\">Sabb. XIV, 4</cite> <he>שמן ו׳</he> rose-oil; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Kilayim 5:7:4\">Y. Kil. V, end, 30ᵃ</cite> <he>הקנים והאגין והוו׳ וכ׳</he>; <cite ref=\"Tosefta Kilaim 3:15\">Tosef. ib. III, 15</cite> <he>והזורד</he> ed. Zuck. (Var. <he>והוזרד</he>); <cite ref=\"Eruvin 34b\">Erub. 34ᵇ</cite> Ms. M. <he>והאורדין</he> (Rashi <he>והעוזרדין</he>, ed. omitted; corr. acc. or plur.).—Pl. <he>וְרָדִים</he>, <he>וְרָדִין</he>. ",
+				"<cite ref=\"Mishnah Maasrot 2:5\">Maasr. II, 5</cite> <he>גינת ו׳</he> rose-garden (for the cultivation of fine fruits &c.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "* <i>rose-colored, red wool</i>, &c. ",
+			"units": [
+				"<cite ref=\"Ketubot 72b:4\">Keth. 72ᵇ</cite> <he>טווה ו׳ כנגד פניה</he> she spins red material holding it up to her face (to make it look bright; Tosaf.); [Maim.: she spins in the street <he>וּיֶ׳</he> with a rose in her hair; Rashi (who seems to read <cite ref=\"F00084\"><he>וְרָד</he></cite> fr. <he>רדד</he>): with the thread in front of her body, i.e. she spins in the street in an indecent position.]"
+			],
+			"label": "2"
+		}
+	]
+}

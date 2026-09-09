@@ -1,0 +1,37 @@
+{
+	"id": "C01336",
+	"slug": "גריס-2",
+	"headword": {
+		"text": "גָּרִיס"
+	},
+	"page": {
+		"number": 268,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <cite ref=\"C01147\"><he>גְּרִיסִין</he></cite> (b. h.  [<i>split, broken</i>,] <i>grits</i>",
+			"units": []
+		},
+		{
+			"gloss": " esp. <i>pounded beans; beans used for pounding</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 94:2\">Gen. R. s. 94</cite>, beg.; <cite ref=\"Mishnah Niddah 9:6\">Nidd. IX, 6</cite> sq.; <cite ref=\"Tosefta Niddah 8:9\">Tosef. ib. VIII, 9</cite>, v. <cite ref=\"H01010\"><he>חֲלוּקָה</he></cite> a. <cite ref=\"U01640\"><he>שְׁעוּעִית</he></cite>.—",
+				"<cite ref=\"Mishnah Maasrot 5:8\">Maasr. V, 8</cite> <he>ג׳ הקלקין</he> Cilician beans. ",
+				"<cite ref=\"Tosefta Ma'asrot 3:14\">Tosef. ib. III, 14</cite> [read:] <he>אילו הן ג׳ הקלקין</he> (<cite ref=\"A01275\"><he>אילו</he></cite>) <he>הַגַּסִּין המרובעין</he> (v. Maim. a. R. S. to Maasr. l. c.) Cilician beans are the large and quadrangular; a. fr. [<he>גריסות</he>, v. <cite ref=\"C01305\"><he>גָּרוֹסָה</he></cite>.]—כג׳ <i>the size of a bean</i>. Sifra Thazr. ",
+				"<cite ref=\"Mishnah Negaim 1\">Neg. ch. I. Kel. XVII, 1</cite><cite ref=\"Mishnah Kelim 17:12\">Kel. XVII, 12</cite> <he>ג׳ נגעים כג׳ וכ׳</he> the <i>garis</i> as a standard for eruptions is the Cilician bean."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (pl.) <i>a dish of pounded grains</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 2:2\">Koh. R. to II, 2</cite>; Tanḥ. Aḥaré 1, a. e. <he>קערה של ג׳</he> a dish of boiled grit; <cite ref=\"Ruth Rabbah 5:6\">Ruth R. to II, 14</cite> <he>גְּרִישִׂין</he>. [<cite ref=\"Ruth Rabbah 2:15\">Ib. to II, 15</cite> <he>היה מבקר גרישין</he>, read with <cite ref=\"Yalkut Shimoni on Nach 604:3\">Yalk. ib. 604</cite> <he>גְּדִישִׁין</he>, v. <cite ref=\"C00219\"><he>גָּדִישׁ</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

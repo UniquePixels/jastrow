@@ -1,0 +1,29 @@
+{
+	"id": "I00881",
+	"slug": "טרפס-1",
+	"headword": {
+		"text": "טִרְפֵּס"
+	},
+	"page": {
+		"number": 557,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>הִטַּרְפֵּס</he> <i>to climb</i>, v. <cite ref=\"I00667\"><he>טָפַס</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

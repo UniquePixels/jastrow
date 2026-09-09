@@ -1,0 +1,39 @@
+{
+	"id": "L00325",
+	"slug": "לוש-1",
+	"headword": {
+		"text": "לוּשׁ"
+	},
+	"page": {
+		"number": 701,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to knead</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> <he>הַלָּשׁ</he> he who kneads (on the Sabbath). Y. ib. VII, 10ᵇ bot., a. fr. <he>חייב משום לָשׁ</he> is guilty of an act coming under the category of kneading (v. <cite ref=\"B00619\"><he>בילוס</he></cite>). ",
+				"<cite ref=\"Pesachim 30a\">Pes. 30ᵃ</cite>, a. e. <he>אין לָשִׁין את וכ׳</he> you must not knead dough (of bread) with milk; a. v. fr.—Part. pass. <cite ref=\"L00325\"><he>לוּשׁ</he></cite>, fr. <he>לוּשָׁה</he>. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 9:13:6\">Y. Sot. IX, 24ᵇ</cite> bot. <he>ל׳ בדבש וכ׳</he> kneaded with honey and cream (Bab. ",
+				"<cite ref=\"Sotah 48b:16\">ib. 48ᵇ</cite> <he>דומה לעיסה שנִילּוֹשָׁהוכ׳</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נָלוֹשׁ", "נִילּוֹשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be kneaded</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 35a:12\">Pes. 35ᵃ</cite> <he>עיסה שנִילּוֹשָׁה וכ׳</he> dough kneaded with wine, oil or honey. ",
+						"<cite ref=\"Sotah 48b\">Sot. 48ᵇ</cite>, v. supra. ",
+						"<cite ref=\"Mishnah Menachot 5:2\">Men. V, 2</cite> (<cite ref=\"Menachot 55a:10\">55ᵃ</cite>) <he>נָלוֹשׁוֹת בפושרין</he> (Bab. ed. <he>נִילָּשׁוֹת</he>) must be kneaded with tepid water; a. fr.—",
+						"<cite ref=\"Yalkut Shimoni on Nach 959:20\">Yalk. Prov. 959</cite> (etymol. of <cite ref=\"L00523\"><he>לַיִשׁ</he></cite>) <he>שבשרו של אדם נלוש בשיניו</he> (not <he>בולש</he>) man’s flesh is kneaded between his (the lion’s) teeth; <cite ref=\"Avot D'Rabbi Natan 2\">Ab. d’R. N. II</cite> Vers. ch. XLIII (ed. Schechter, p. 122) <he>שהכל נָלוֹשִׁין בפיו כמין בצק</he> (not <he>נעשין</he>)."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

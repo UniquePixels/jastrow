@@ -1,0 +1,30 @@
+{
+	"id": "C01110",
+	"slug": "גנוניתא-1",
+	"headword": {
+		"text": "גַּנּוּנִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּינּוּ׳"
+		}
+	],
+	"page": {
+		"number": 258,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"C01072\"><he>גַּן</he></cite>) (<i>hortulus</i>,) <i>garden at the house, pleasure-garden</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 2:21\">Targ. Y. Ex. II, 21</cite>.—",
+				"<cite ref=\"Berakhot 43b\">Ber. 43ᵇ</cite>. Y. Kidd. IV, end, 66ᵈ <he>ג׳ של ירק</he> vegetable garden; a. fr.—Pl. <he>גְּנוּנְיָאתָא</he>, <cite ref=\"C01111\"><he>גְּנוּנְיָתָא</he></cite>. ",
+				"<cite ref=\"Bava Batra 68a:10\">B. Bath. 68ᵃ</cite>; <cite ref=\"Bava Batra 68b:1\">68ᵇ</cite>.—Esp. (= <he>גַּן עֵדֶן</he>) <i>paradise</i>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 46:17\">Targ. Y. Gen. XLVI, 17</cite>; a. e."
+			]
+		}
+	]
+}

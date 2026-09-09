@@ -1,0 +1,23 @@
+{
+	"id": "S00942",
+	"slug": "קייסא",
+	"headword": {
+		"text": "קַיְיסָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1359,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>Ḳaysa</i>, a measure said to be equal to a Log.—Pl. <he>קַיְיסֵי</he>. ",
+			"units": [
+				"<cite ref=\"Berakhot 44b:8\">Ber. 44ᵇ</cite> (Ar. <cite ref=\"A00834\"><he>אוקיי</he></cite>), v. <cite ref=\"A00832\"><he>אוּקְיָא</he></cite>.—V. <cite ref=\"S01640\"><he>קַסְוֵי</he></cite>."
+			]
+		}
+	]
+}

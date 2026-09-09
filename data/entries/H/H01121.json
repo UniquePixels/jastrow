@@ -1,0 +1,44 @@
+{
+	"id": "H01121",
+	"slug": "חלקיה",
+	"headword": {
+		"text": "חִלְקִיָּה"
+	},
+	"page": {
+		"number": 474,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Ḥilkiya, Hilkiah</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " the high priest in the reign of Josiah. ",
+			"units": [
+				"<cite ref=\"Megillah 14b:12\">Meg. 14ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Nach 9:1\">Yalk. Josh. 9</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " father of Jeremiah the prophet. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 8:9\">Num. R. s. 8</cite>, end. ",
+				"<cite ref=\"Sanhedrin 95a:1\">Snh. 95ᵃ</cite>, a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Batra 3:3:8\">Y. B. Bath. III, 14ᵃ</cite>; Bab. ",
+				"<cite ref=\"Bava Batra 39b:4\">B. Bath. 39ᵇ</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Shekalim 1:4:8\">Y. Shek. I, 46ᵇ</cite>; a. e. (v. Fr. M’bo p. 85ᵃ).—",
+				"<cite ref=\"Kiddushin 33b:12\">Kidd. 33ᵇ</cite>.—",
+				"<cite ref=\"Yevamot 9a:15\">Yeb. 9ᵃ</cite>.—",
+				"<cite ref=\"Bava Metzia 96b:16\">B. Mets. 96ᵇ</cite>; a. e."
+			],
+			"label": "3"
+		}
+	]
+}

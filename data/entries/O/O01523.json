@@ -1,0 +1,33 @@
+{
+	"id": "O01523",
+	"slug": "סרבנותא",
+	"headword": {
+		"text": "סַרְבָּנוּתָא"
+	},
+	"page": {
+		"number": 1022,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01522\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rebelliousness</i>, <i>obstinacy</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 20:30\">Targ. I Sam. XX, 30</cite> ed. Lag. (ed. Wil. a. oth., v. <cite ref=\"O01524\">next w.</cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 31:27\">Targ. O. Deut. XXXI, 27</cite> (Y. <he>סורהבנ׳</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>assumption</i>, v. <cite ref=\"O01681\"><he>סְרָרוּתָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

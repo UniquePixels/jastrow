@@ -1,0 +1,23 @@
+{
+	"id": "S01613",
+	"slug": "קנקלטין",
+	"headword": {
+		"text": "קַנְקְלָטִין"
+	},
+	"page": {
+		"number": 1394,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (sub. <he>מִלִּין</he>; cancellatus) <i>grating</i> or <i>network</i> (in weaving, moulding &c.). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:45\">Y. Sabb. VII, 10ᶜ</cite>"
+			]
+		}
+	]
+}

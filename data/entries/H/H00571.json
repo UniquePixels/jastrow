@@ -1,0 +1,30 @@
+{
+	"id": "H00571",
+	"slug": "חזרר",
+	"headword": {
+		"text": "חַזְרָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַזְרָד"
+		}
+	],
+	"page": {
+		"number": 447,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H00517\"><he>חַזּוּר</he></cite>) [<i>little apple</i>,] <i>crab-apple</i> (Malus Coronaria), similar yet heterogeneous to apple. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:4\">Kil. I, 4</cite> Ms. M. (ed. <cite ref=\"H00564\"><he>חזרד</he></cite>).—Pl. <he>חַזְרָרִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 2:1:20\">Y. Ter. II, 41ᶜ</cite> bot. <he>קטנות כח׳</he> (not <he>בח׳</he>) as small as crab-apples; (Y. Sabb. III, 5ᵈ <he>כחוז׳</he>; Bab. ",
+				"<cite ref=\"Shabbat 38a:9\">Sabb. 38ᵃ</cite> <he>כעוזרדין</he>, v. <cite ref=\"H00705\"><he>חִיזְרָר</he></cite>). ",
+				"<cite ref=\"Mishnah Maasrot 1:3\">Maasr. I, 3</cite> Ms. M. (ed. <he>עוזרדין</he>)."
+			]
+		}
+	]
+}

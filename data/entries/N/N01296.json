@@ -1,0 +1,23 @@
+{
+	"id": "N01296",
+	"slug": "נשוורא",
+	"headword": {
+		"text": "נִשְׁוָורָא"
+	},
+	"page": {
+		"number": 938,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (collect. noun; <cite ref=\"U00048\"><he>שאר</he></cite>, <i>Pa.</i> <cite ref=\"U00048\"><he>שַׁיֵּיר</he></cite>) <i>crumbs, leavings</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 111b:12\">Pes. 111ᵇ</cite> <he>נ׳ בביתא וכ׳</he> to leave crumbs lie around in the house, is bad for poverty. ",
+				"<cite ref=\"Chullin 105b:10\">Ḥull. 105ᵇ</cite> (not … <he>ראה</he>)."
+			]
+		}
+	]
+}

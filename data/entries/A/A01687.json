@@ -1,0 +1,27 @@
+{
+	"id": "A01687",
+	"slug": "אכייא",
+	"headword": {
+		"text": "אֲכָיָיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲכָיָה"
+		}
+	],
+	"page": {
+		"number": 63,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Achaia</i>, the Roman province including Peloponnesus and northern Greece, south of Thessaly. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 1:7\">Targ. I Chr. I, 7</cite> <cite ref=\"A01677\"><he>אכזווייא</he></cite> (Var. <he>איטליון</he>); <cite ref=\"Targum Jonathan on Genesis 10:4\">Targ. Y. Gen. X, 4</cite> <he>אכזיא</he>; Y. Meg. I, 71ᵇ bot. <cite ref=\"A00108\"><he>אביא</he></cite> (<cite ref=\"Bereishit Rabbah 37\">Gen. R. s. 37</cite> <cite ref=\"A01215\"><he>איטליא</he></cite>), (for b. h. <cite ref=\"K00649\"><he>כִּתִּים</he></cite>). [<cite ref=\"Sifrei Bamidbar 131\">Sifré Num. 131</cite> <cite ref=\"A00108\"><he>אביא</he></cite>, v. <cite ref=\"A02429\"><he>אסיא</he></cite>.]"
+			]
+		}
+	]
+}

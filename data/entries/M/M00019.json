@@ -1,0 +1,40 @@
+{
+	"id": "M00019",
+	"slug": "מאזנים",
+	"headword": {
+		"text": "מֹאזְנַיִם"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֹאזְנַיִים"
+		}
+	],
+	"page": {
+		"number": 722,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. du. (b. h.; <cite ref=\"A00981\"><he>אָזַן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>balances</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 2:8\">Ab. II, 8</cite>, v. <cite ref=\"K00980\"><he>כַּף</he></cite>. ",
+				"<cite ref=\"Pesikta Rabbati 20:1\">Pesik. R. s. 20</cite> <he>מעשיו שקולים במ׳</he> his deeds are weighed on balances; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Libra</i>, a sign in the Zodiac. Ib. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 418:1\">Yalk. Ex. 418</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

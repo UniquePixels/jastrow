@@ -1,0 +1,29 @@
+{
+	"id": "O01182",
+	"slug": "סנדלכונים",
+	"headword": {
+		"text": "סַנְדַּלְכוֹנִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַנְדַּלְכוֹנִין"
+		}
+	],
+	"page": {
+		"number": 1005,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. h. <cite ref=\"O01181\">same</cite>, in gen. <i>gems</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 59b\">Snh. 59ᵇ</cite> <he>סנדלב׳ טובים</he> ed. (ed. Cracow <cite ref=\"O01183\"><he>סַנְדַּלְכָנִין</he></cite>; Ms. M. <he>סנדלין</he>; Ms. C. <he>סנדלנין</he>; corr. acc.; v. Rabb. D. S. a. l. note); <cite ref=\"Yalkut Shimoni on Torah 15:1\">Yalk. Gen. 15</cite> <cite ref=\"O01185\"><he>סנדלפונין</he></cite>; Ab. d’R. N., ed. Schechter, ch. I <he>סנדלכים</he>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 15:1\">Ib.</cite> ch. XXXVIII <he>פה שמוציא סנדלפונין טובות</he> the mouth which uttered beautiful gems."
+			]
+		}
+	]
+}

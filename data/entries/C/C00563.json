@@ -1,0 +1,31 @@
+{
+	"id": "C00563",
+	"slug": "גזלן",
+	"headword": {
+		"text": "גַּזְלָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוֹזְלָן"
+		}
+	],
+	"page": {
+		"number": 231,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00559\"><he>גזל</he></cite>) <i>robber</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 62a:12\">B. Kam. 62ᵃ</cite> (defin.) <he>חמסן … ג׳ לא יהיב וכ׳</he> <i>ḥamsan</i> (violent man) is one who (takes by force and) pays; <i>gazlan</i>—who takes without paying. ",
+				"<cite ref=\"Sanhedrin 26b:17\">Snh. 26ᵇ</cite> <he>ג׳ דאורייתא</he> a robber in the strict (Biblical) sense; <he>ג׳ דרבנן</he> a robber in a wider (Rabbinical) sense, e.g. a gambler &c.; ib. 25ᵇ.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 8:3:4\">Y. Snh. VIII, 26ᵇ</cite> he who takes an object in the presence of witnesses is called thief (<cite ref=\"C01080\"><he>גַּנָּב</he></cite>), he who takes in the owner’s presence—<he>ג׳</he> a robber; v. ",
+				"<cite ref=\"Bava Kamma 79b:4\">B. Kam. 79ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 2:1:10\">Y. Kidd. II, 62ᵇ</cite> bot. <he>כל המשנה וכ׳</he> he who changes the use of a loaned object without the owner’s consent <he>נקרא גו׳</he> is called a robber. Ib. I, 60ᶜ top <cite ref=\"C00674\"><he>גו׳</he></cite>; a. fr.—Pl. <he>גַּזְלָנִים</he>, <he>גַּזְלָנִין</he>, <cite ref=\"C00349\"><he>גּוֹזְלָ׳</he></cite>. Snh. l. c. Ib. 38ᵃ; a. fr."
+			]
+		}
+	]
+}

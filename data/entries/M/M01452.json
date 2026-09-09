@@ -1,0 +1,23 @@
+{
+	"id": "M01452",
+	"slug": "מכתוותא",
+	"headword": {
+		"text": "מַכְתְּוָותָא"
+	},
+	"page": {
+		"number": 785,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"K01338\"><he>כָּתָא</he></cite>) <i>after-crop</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 110b\">Sabb. 110ᵇ</cite> <he>ממ׳</he> Ms. M., v. <cite ref=\"K01338\"><he>כָּתָא</he></cite>."
+			]
+		}
+	]
+}

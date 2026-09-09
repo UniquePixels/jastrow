@@ -1,0 +1,24 @@
+{
+	"id": "M02951",
+	"slug": "משפחה",
+	"headword": {
+		"text": "מִשְׁפָּחָה"
+	},
+	"page": {
+		"number": 857,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U01727\"><he>שפח</he></cite>, cmp. <he>ספח</he>)<i>family, kinship</i>. Tanḥ. ed. Bub., Noah 24 (play on <cite ref=\"U01734\"><he>שפה</he></cite>, <cite ref=\"Genesis 11:1\">Gen. XI, 1</cite>) <he>מ׳ אחת</he> one kinship (all equally bad, cmp. <cite ref=\"M02950\">preced. w.</cite>). ",
+			"units": [
+				"<cite ref=\"Bava Batra 109b:5\">B. Bath. 109ᵇ</cite> <he>מִשְׁפַּחַת אב קרויה מ׳</he> the father’s kinship is called one’s family (not the mother’s). ",
+				"<cite ref=\"Mishnah Eduyot 8:7\">Eduy. VIII, 7</cite>; <cite ref=\"Kiddushin 71a:9\">Kidd. 71ᵃ</cite> <he>משפחת בית וכ׳</he> (not <he>משפחות</he>) a family named Beth &c.; a. fr.—Pl. <he>מִשְׁפָּחוֹת</he>. ",
+				"<cite ref=\"Tosefta Nazir 1:3\">Tosef. Naz. I, 3</cite>, a. e., v. <cite ref=\"C00885\"><he>גָּלָה</he></cite>; a. fr."
+			]
+		}
+	]
+}

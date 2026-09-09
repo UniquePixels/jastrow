@@ -1,0 +1,28 @@
+{
+	"id": "V00942",
+	"slug": "תרגימא",
+	"headword": {
+		"text": "תַּרְגִּימָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּרָגִימָא"
+		}
+	],
+	"page": {
+		"number": 1695,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a popular adaptation of τράγημα, v. <cite ref=\"V00941\">preced. art.</cite>) [<i>that which comes after the meal</i>, as the interpretation is read after reading from the original,] <i>dessert</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Berakhot 4:4\">Tosef. Ber. IV, 4</cite> (Var. <cite ref=\"V00941\"><he>תרגומה</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 10:1:2\">Y. Pes. X, beg. 37ᵇ</cite> <cite ref=\"V00957\"><he>תרוגימא</he></cite>; a. e.; v. <cite ref=\"I00710\"><he>טְרָגִימָא</he></cite>."
+			]
+		}
+	]
+}

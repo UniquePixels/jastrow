@@ -1,0 +1,28 @@
+{
+	"id": "M01373",
+	"slug": "מכחלא",
+	"headword": {
+		"text": "מַכְחָלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַכְחַלְתָּא"
+		}
+	],
+	"page": {
+		"number": 782,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. <cite ref=\"M01372\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 117a:24\">B. Kam. 117ᵃ</cite> <he>דלו ליה במ׳ דכספא</he> Ar. (ed. … <he>לתא</he>) they lifted his eye-lids with a silver stick.—Pl. <he>מַכְחָלֵי</he>. ",
+				"<cite ref=\"Gittin 69a:1\">Gitt. 69ᵃ</cite> <he>תלתא מ׳</he> three staff-fuls of paint."
+			]
+		}
+	]
+}

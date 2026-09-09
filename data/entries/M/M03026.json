@@ -1,0 +1,32 @@
+{
+	"id": "M03026",
+	"slug": "מתון-2",
+	"headword": {
+		"text": "מָתוּן",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מְתוּנָה"
+		}
+	],
+	"page": {
+		"number": 860,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M03079\"><he>מָתַן</he></cite>) <i>slow, careful, considerate, patient</i>. ",
+			"units": [
+				"<cite ref=\"Horayot 14a:6\">Hor. 14ᵃ</cite>, v. <cite ref=\"M02470\"><he>מַקְשֶׁה</he></cite>. ",
+				"<cite ref=\"Berakhot 20a:10\">Ber. 20ᵃ</cite> (a proverb cited, when a person was fined for attacking a Samaritan woman named <cite ref=\"M03027\"><he>מתון</he></cite>) <he>היינו דאמרי אינשי מ׳ מ׳ ארבע וכ׳</he> Ms. M. (v. Rabb. D. S. a. l.) that is what people say, <i>mathun, mathun</i> (to be slow) is worth four hundred Zuz. ",
+				"<cite ref=\"Tosefta Shabbat 7:10\">Tosef. Sabb. VII</cite> (<cite ref=\"Tosefta Shabbat 8:24\">VIII</cite>), 24, sq.; a. e.—Pl. <he>מְתוּנִים</he>, <he>מְתוּנִין</he>; f. <he>מְתוּנוֹת</he>. ",
+				"<cite ref=\"Pirkei Avot 1:1\">Ab. I, 1</cite> <he>הוו מ׳ בדין</he> be careful in judgment. ",
+				"<cite ref=\"Tosefta Makhshirin 1:8\">Tosef. Makhsh. I, 8</cite> <he>טיפין מ׳</he> (R. S. to <cite ref=\"Mishnah Makhshirin 2:4\">Makhsh. II, 4</cite> <he>חתוכות</he>) slow (interrupted) drops, opp. <he>טפה אחר טפה</he>; a. e. [Chald. <cite ref=\"M03025\"><he>מָתוּן</he></cite>, v. <cite ref=\"M03057\"><he>מַתְיָן</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "U00600",
+	"slug": "שזיר",
+	"headword": {
+		"text": "שְׁזִיר"
+	},
+	"page": {
+		"number": 1545,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00606\"><he>שְׁזַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " part. pass. of <cite ref=\"U00606\"><he>שְׁזַר</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>twisted thread, cord</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 28:28\">Targ. Y. Ex. XXVIII, 28</cite>; <cite ref=\"Targum Jonathan on Exodus 39:31\">XXXIX, 31</cite> <he>ש׳ חוטא</he> (h. text <cite ref=\"Q02165\"><he>פתיל</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 15:38\">Targ. Y. Num. XV, 38</cite>.—Pl., v. <cite ref=\"U00607\"><he>שֵׁזְרָא</he></cite>"
+			],
+			"label": "2"
+		}
+	]
+}

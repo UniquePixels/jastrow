@@ -1,0 +1,50 @@
+{
+	"id": "E00484",
+	"slug": "היקף",
+	"headword": {
+		"text": "הֶיקֵּף"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶיקֵּיף"
+		},
+		{
+			"text": "הֶקֵּיף"
+		},
+		{
+			"text": "הֶקֵּף"
+		}
+	],
+	"page": {
+		"number": 349,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נקף</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>circumference, surface</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 7:1:4\">Y. Erub. VII, beg. 24ᵇ</cite> <he>ה׳ תשעים וכ׳</he> a circumference of ninety &c. ",
+				"<cite ref=\"Shabbat 20a:7\">Sabb. 20ᵃ</cite> <he>רוב הֶיקֵּפוֹ</he> the larger portion of the surface of the wood (burning), opp. <he>רוב עביו</he>. ",
+				"<cite ref=\"Sukkah 7b:19\">Succ. 7ᵇ</cite> <he>אם יש בהֶקֵּיפָהּ וכ׳</he> if there is room enough in the circumference of a round Succah to seat &c. ",
+				"<cite ref=\"Mishnah Eruvin 1:5\">Erub. I, 5</cite>, a. e. <he>כל שיש בהיקפו וכ׳</he> whatever (circle) has a circumference of three hand-breadths, has a width (diameter) of one. ",
+				"<cite ref=\"Bava Batra 13b:12\">B. Bath. 13ᵇ</cite> <he>כדי לגול ה׳</he> enough (blank parchment) to be wrapt around the entire rolled-up scroll. ",
+				"<cite ref=\"Bava Batra 14a:2\">Ib. 14ᵃ</cite> <he>קשיא הקף</he> this is in contradiction to what has been said above ‘enough to be wrapt &c.’; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>outstanding debt</i>, v. <cite ref=\"E00800\"><he>הַקָּפָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Metzia 8:27\">Tosef. B. Mets. VIII, 27</cite> <he>כדי שיגבה הקיפו</he> sufficient time to collect his outstandings (to wind up his business)."
+			],
+			"label": "2"
+		}
+	]
+}

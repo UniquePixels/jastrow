@@ -1,0 +1,36 @@
+{
+	"id": "D00181",
+	"slug": "דובשן",
+	"headword": {
+		"text": "דּוּבְשָׁן"
+	},
+	"page": {
+		"number": 282,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00180\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>honey-crop, honey-store</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 114b\">B. Kam. 114ᵇ</cite>. ",
+				"<cite ref=\"Sanhedrin 101a\">Snh. 101ᵃ</cite>. ",
+				"<cite ref=\"Bava Batra 80a\">B. Bath. 80ᵃ</cite> <cite ref=\"D00181\"><he>דּוּבְשָׁנָן</he></cite> their own stock of honey."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>honey-cake</i>.—Pl. <he>דּוּבְשָׁנִין</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Challah 1:4\">Ḥall. I, 4</cite> (<cite ref=\"Mishnah Challah 1:3\">3</cite>), expl. Y. ib. 57ᵈ <he>מלי גאלה</he> meligala, honey and milk cake (Mish. ed. <he>דובשין</he>, corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

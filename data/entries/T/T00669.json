@@ -1,0 +1,23 @@
+{
+	"id": "T00669",
+	"slug": "ריע-2",
+	"headword": {
+		"text": "רִיעַ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1475,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00915\"><he>רְעַע</he></cite>) <i>shaken, unsound</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 29b\">Taan. 29ᵇ</cite> <he>ר׳ מזליה</he>, v. <cite ref=\"M00485\"><he>מַוָּלָא</he></cite>."
+			]
+		}
+	]
+}

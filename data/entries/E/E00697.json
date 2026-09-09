@@ -1,0 +1,25 @@
+{
+	"id": "E00697",
+	"slug": "הסבה-2",
+	"headword": {
+		"text": "הֶסֵּבָּה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 359,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סבב</he>; v. ",
+			"units": [
+				"<cite ref=\"Numbers 36:7\">Num. XXXVI, 7</cite>) <i>the transfer of landed property from one tribe to another</i>. ",
+				"<cite ref=\"Bava Batra 111b:12\">B. Bath. 111ᵇ</cite> <he>הֶסֵּבַּת הבעל</he> ed. (Ms. H. a. Rashb. <he>סִבַּת</he>, <he>סִיבַּת</he>) the transfer which would be caused by the husband’s succeding to his wife’s property. ",
+				"<cite ref=\"Bava Batra 112a\">Ib. 112ᵃ</cite> <he>ה׳ הבן</he> Ms. R. (ed. <he>סיבת</he>, <he>סבת</he>) the eventual transfer through the son’s succession."
+			]
+		}
+	]
+}

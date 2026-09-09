@@ -1,0 +1,43 @@
+{
+	"id": "S01505",
+	"slug": "קן-2",
+	"headword": {
+		"text": "קֵן"
+	},
+	"page": {
+		"number": 1387,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (b. h.; ",
+			"units": []
+		},
+		{
+			"gloss": "<i>nest; birds in a nest</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 12:1\">Ḥull. XII, 1</cite>, a. fr. <he>שילוח הקן</he> the duty of letting the mother bird go when a nest is taken out (<cite ref=\"Deuteronomy 22:6\">Deut. XXII, 6</cite> sq.). ",
+				"<cite ref=\"Bereishit Rabbah 19\">Gen. R. s. 19</cite> <he>אש יוצאה מקִינּוֹ</he> fire goes forth from its nest and burns it (the phœnix, v. <cite ref=\"H00324\"><he>חוֹל</he> II</cite>); Midr. Sam. ch. XII; <cite ref=\"Yalkut Shimoni on Nach 917:5\">Yalk. Job 917</cite> <he>מקִנּוֹ</he>. ",
+				"<cite ref=\"Shemot Rabbah 20:6\">Ex. R. s. 20</cite> <he>מצאו להם קן</he> they (the Israelites) found a nest for themselves (with ref. to <cite ref=\"Psalms 84:4\">Ps. LXXXIV, 4</cite>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (fem.) <i>the couple of sacrificial birds</i> (<cite ref=\"Leviticus 12:8\">Lev. XII, 8</cite>; <cite ref=\"Leviticus 14:30\">XIV, 30</cite>; a. e.). ",
+			"units": [
+				"<cite ref=\"Mishnah Kinnim 2:1\">Ḳinnim II, 1</cite> <he>קן סתומה</he> a couple of birds concerning which it has not yet been decided which is to be the burnt offering, and which the sin offering; <cite ref=\"Mishnah Kinnim 2:4\">ib. 4</cite> <he>קן מפורשת</he> which has been decided upon; a. fr.—Pl. <he>קִנִּים</he>, <cite ref=\"S01587\"><he>קִנִּין</he></cite>, <cite ref=\"S00089\"><he>קִי׳</he></cite>. ",
+				"<cite ref=\"Keritot 28a\">Ker. 28ᵃ</cite> <he>אין הק׳ מתפרשות וכ׳</he> the special designation of the couples is made either by the owner or by the priest’s action. ",
+				"<cite ref=\"Mishnah Nedarim 4:3\">Ned. IV, 3</cite> <he>קִינֵּי זבין</he> the bird sacrifices of those cured from gonorrhœa; <he>ק׳ יולדות</he> those of women after confinement; a. fr.—<i>Ḳinnim, Ḳinnin</i>, name of a treatise of the Mishnah, of the Order of Ḳodashim."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>cavity, chamber.—</i>Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 14:9\">Lev. R. s. 14</cite>, v. <cite ref=\"K00565\"><he>כִּינָּה</he></cite>, a. <cite ref=\"K00308\"><he>כּוֹנָנִית</he></cite>. ",
+				"<cite ref=\"Kohelet Rabbah 1:9:1\">Koh. R. to I, 9</cite> <he>שלא נבראו בי ק׳ וכ׳</he> because no chambers (for the reception of prophecy) were created within me until now &c.; (<cite ref=\"Shemot Rabbah 28:6\">Ex. R. s. 28</cite> <he>לא נתנה לו רשות להתנבאות</he> no permission to prophesy had been given him)."
+			],
+			"label": "3"
+		}
+	]
+}

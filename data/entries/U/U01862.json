@@ -1,0 +1,30 @@
+{
+	"id": "U01862",
+	"slug": "שקיינא",
+	"headword": {
+		"text": "שַׁקְיָינָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁיקְ׳"
+		}
+	],
+	"page": {
+		"number": 1622,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01849\"><he>שקי</he></cite>) <i>drink, liquid, infusion.—</i>Pl. <cite ref=\"U01862\"><he>שַׁקְיָינֵי</he></cite>, <cite ref=\"U01862\"><he>שִׁיקְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 6:3\">Targ. Y. I Num. VI, 3</cite>.—",
+				"<cite ref=\"Shabbat 78a:6\">Sabb. 78ᵃ</cite> <he>כל ש׳ וכ׳</he> (Ms. M. <he>שתייתא</he>) all liquids (infusions of collyrium) heal &c., v. <cite ref=\"I00509\"><he>טְלַל</he> I</cite>. ",
+				"<cite ref=\"Shabbat 147b:9\">Ib. 147ᵇ</cite> <he>כולהו ש׳ מדיבחא וכ׳</he> all infusions (medicines) taken between Passover and Pentecost are efficacious. ",
+				"<cite ref=\"Avodah Zarah 28b:4\">Ab. Zar. 28ᵇ</cite> <he>כולהו ש׳ קשו וכ׳</he> (not <he>שקיינו</he>, Rashi <he>שַׁקְיָינִין</he>) all liquids are bad for the ear, except &c."
+			]
+		}
+	]
+}

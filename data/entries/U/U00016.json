@@ -1,0 +1,37 @@
+{
+	"id": "U00016",
+	"slug": "שאור",
+	"headword": {
+		"text": "שְׂאוֹר"
+	},
+	"page": {
+		"number": 1505,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.  <cite ref=\"U00048\"><he>שְׂאֹר</he></cite>; <cite ref=\"U00048\"><he>שאר</he></cite> <i>to swell, rise</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rise, swelling</i> <cite ref=\"Mishnah Maasrot 1:2\">Maasr. I, 2</cite> <he>התמרים משיטילו ש׳</he> (Ar.  dates are subject to tithes when they begin to swell (rise like dough), expl. Y. ib. 48ᵈ bot. <he>משיתמלא החרץ</he>, v. <cite ref=\"H01751\"><he>חֶרֶץ</he></cite>; <cite ref=\"Jerusalem Talmud Demai 1:1:11\">Y. Dem. I, 21ᶜ</cite> bot.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>leaven</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Challah 2:6\">Ḥall. II, 6</cite> <he>הם ושְׂאוֹרָן וכ׳</he> if they (the quantities of flour) with the leaven put in and the bran … make up the five Kabs. ",
+				"<cite ref=\"Pesachim 5a:20\">Pes. 5ᵃ</cite> <he>השבתת ש׳</he> the removal of leaven (<cite ref=\"Exodus 21:15\">Ex. XXI, 15</cite>). ",
+				"<cite ref=\"Beitzah 7b:14\">Bets. 7ᵇ</cite> <he>ש׳ שאין ראוי וכ׳</he> leaven, which is not fit to eat, opp. <cite ref=\"H01212\"><he>חמץ</he></cite>; a. fr.—Trnsf. <i>passion, evil inclination, corruption</i>. ",
+				"<cite ref=\"Berakhot 17a:2\">Ber. 17ᵃ</cite>, v. <cite ref=\"P00629\"><he>עִיסָה</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 34:10\">Gen. R. s. 34</cite> (ref. to <cite ref=\"Genesis 8:21\">Gen. VIII, 21</cite>) <he>עלוב הוא הש׳ וכ׳</he> it is poor leaven which he that created it declares to be bad. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 601:4\">Yalk. Ruth 601</cite> <he>אל תאמן … תופס שְׂאוֹרוֹ</he> trust no proselyte up to twenty-four generations, for he still retains his corruption, v. <cite ref=\"O00518\"><he>סִיאוּר</he></cite>.—V. <cite ref=\"U00776\"><he>שִׂיאוּר</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

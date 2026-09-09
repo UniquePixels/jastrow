@@ -1,0 +1,29 @@
+{
+	"id": "M00311",
+	"slug": "מדן-2",
+	"headword": {
+		"text": "מַדֵּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַדֵּין"
+		}
+	],
+	"page": {
+		"number": 734,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"M02066\"><he>מעדן</he></cite>; b. h. <he>מעדנות</he>; <cite ref=\"P00153\"><he>עָדַן</he></cite>, <i>Hif.</i>) <i>knot</i> in reed-matting. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 11:12\">Tosef. Kel. B. Mets. XI, 12</cite> <he>טפחיים בין מדין למ׳</he> (R. S. to <cite ref=\"Mishnah Kelim 20:7\">Kel. XX, 7</cite> <he>מדן</he>) two handbreadths of matting between each two knots.—Pl. <he>מַדַּנִּים</he>, <he>מַדַּנִּין</he>, <he>מַעֲדַנִּ׳</he>. Ib. 11 <he>עד שלא קשר ראשי מ׳</he> (not <he>קצר</he>; R. S. l. c. <cite ref=\"M02189\"><he>מע׳</he></cite>) before he knotted the tops of the knots. Ib. VII, 11 [read:] <he>משיקשור ראשי המ׳ שלה</he> (v. R. S. to <cite ref=\"Mishnah Kelim 17:17\">Kel. XVII, 17</cite>). ",
+				"<cite ref=\"Mishnah Kelim 20:7\">Kel. XX, 7</cite> <he>מעד׳</he>. ",
+				"<cite ref=\"Sukkah 13b:3\">Succ. 13ᵇ</cite>; Y. ib. II, end, 52ᶜ <cite ref=\"M02189\"><he>מע׳</he></cite>."
+			]
+		}
+	]
+}

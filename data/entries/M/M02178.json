@@ -1,0 +1,23 @@
+{
+	"id": "M02178",
+	"slug": "מעריב",
+	"headword": {
+		"text": "מַעֲרִיב"
+	},
+	"page": {
+		"number": 819,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01244\"><he>עָרַב</he> II</cite>), (<cite ref=\"E00000\"><he>ה</he></cite>)<he>מַ׳ עֲרָבִים</he> <i>who causes the evenings to set</i>, name of <i>the first section of the night prayer</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 12a:13\">Ber. 12ᵃ</cite> <he>פתח במ׳ ע׳ וכ׳</he> if one began the first section with <i>maʿărib ʿărabim</i> and closed with ‘Creator of the lights’. ",
+				"<cite ref=\"Berakhot 12a:13\">Ib.</cite> <he>סיים במ׳ ע׳</he> if he closed with <i>m. ʿăr</i>. (in place of ‘Creator of the lights’).—[In liturgy: (<cite ref=\"V00829\"><he>תְּפִלַּת</he></cite>) <cite ref=\"M02178\"><he>מַעֲרִיב</he></cite> <i>the night prayer</i>.]"
+			]
+		}
+	]
+}

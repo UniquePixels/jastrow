@@ -1,0 +1,23 @@
+{
+	"id": "M02188",
+	"slug": "מעשר",
+	"headword": {
+		"text": "מַעֲשֵׂר"
+	},
+	"page": {
+		"number": 820,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; denom. of <cite ref=\"P01501\"><he>עֶשֶׂר</he></cite>)<i>tithe</i>.—<he>תרומת מ׳</he> the tithe of the tithe which the Levite owes to the priest (<cite ref=\"Numbers 18:26\">Num. XVIII, 26</cite>); <he>מ׳</he> or <he>מ׳ ראשון</he> the first tithe belonging to the Levite; <he>מ׳ שני</he> the second tithe to be consumed by the owner in Jerusalem (<cite ref=\"Deuteronomy 14:22\">Deut. XIV, 22</cite>, sq.); <he>מ׳ עני</he> the poor man’s tithe, every third year (ib. XXVI, 12). ",
+			"units": [
+				"<cite ref=\"Mishnah Maaser Sheni 5:6\">Maas. Sh. V, 6</cite>; a. v. fr.—Pl. (<he>מַעְשְׂרוֹת</he>) <he>מַעַשְׂרוֹת</he>. ",
+				"<cite ref=\"Mishnah Maasrot 1:1\">Maasr. I, 1</cite> <he>חייב במ׳</he> is subject to tithes; a. v. fr.—<i>Maʿasroth, Maʿăser Sheni</i>, respective names of two treatises of Mishnah, Tosefta and Talmud Y’rushalmi, of the Order of Z’raim."
+			]
+		}
+	]
+}

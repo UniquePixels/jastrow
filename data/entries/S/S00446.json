@@ -1,0 +1,24 @@
+{
+	"id": "S00446",
+	"slug": "קונם",
+	"headword": {
+		"text": "קוֹנָם"
+	},
+	"page": {
+		"number": 1335,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"S01028\"><he>קִינוּמָא</he></cite>) <i>ḳonam</i>, a substitute for <he>קרבן</he> (v. <cite ref=\"K00566\"><he>כִּינּוּי</he></cite>), used for a vow of abstinence and for the consecration of an object (v. <cite ref=\"S00192\"><he>קָדַשׁ</he></cite> <i>Hif.</i>). ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 1:2\">Ned. I, 2</cite> <he>האומר ק׳ קונח וכ׳</he> if one introduces a vow with the words <i>ḳonam, ḳonaḥ, ḳonas</i>, such words are substitutes for <i>ḳorban</i>. ",
+				"<cite ref=\"Mishnah Nedarim 1:4\">Ib. 4</cite> if one says to his neighbor, <he>ק׳ פי מדבר עמך ידי וכ׳</he> <i>ḳonam</i> (forbidden) be my mouth speaking to thee, my hand working for thee &c., he is bound by his vow. ",
+				"<cite ref=\"Mishnah Nedarim 2:1\">Ib. II, 1</cite> <he>ק׳ שאיני ישן וכ׳</he> (Bab. ed. 14ᵇ <cite ref=\"U00038\"><he>שאני</he></cite>) if a man says, <i>ḳ.</i> that I will not sleep …, he is subject to the law of <he>לא יחל</he> (<cite ref=\"Numbers 30:3\">Num. XXX, 3</cite>). Y. ib. I, 36ᵈ bot. [read:] <he>אמר לו השאילני קרדומך אמר ק׳ קורדום יש לי ק׳ נכסיי עלי שאין לזה קורדום ויש לו קורדום נכסיו אסורין</he> if one says to a man, lend me thy axe, and he says, <i>ḳ.</i> be the axe I have, <i>ḳ.</i> be my property to me, that this man (I) has no axe, and he has an axe, his property is forbidden (consecrated); Tosef. ib. IV, 6 [add:] <he>יש לו קרדום נכסיו אסורין</he> (as ed. Friedl.); Bab. ib. 35ᵃ; a. fr.—Pl. <cite ref=\"S00413\"><he>קוֹנָמוֹת</he></cite>. Ib. <he>אף ק׳ יש בהן מעילה</he> the law concerning appropriation of sacred property (<cite ref=\"M02111\"><he>מְעִילָה</he></cite>) applies also to dedications introduced with <i>ḳonam</i>. Ib. 85ᵇ <he>שאני ק׳</he> it is different with vows of abstinence; a. e."
+			]
+		}
+	]
+}

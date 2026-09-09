@@ -1,0 +1,38 @@
+{
+	"id": "H01117",
+	"slug": "חלקא-1",
+	"headword": {
+		"text": "חֶלְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֶילְ׳"
+		}
+	],
+	"page": {
+		"number": 474,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01116\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"H01116\">same</cite>, <i>lot, field</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 23:10\">Targ. Prov. XXIII, 10</cite>.—Pl. <cite ref=\"H01122\"><he>חֶלְקָתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Micah 2:4\">Targ. Mic. II, 4</cite> <he>חֶלְקַתְהוֹן</he> (Var. <he>חֻלַּקְתְּהוֹן</he>, ed. Lag. <he>חַקְלַתְהוֹן</he>; h. text <he>שָׂדֵינוּ</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>share, portion, ḥelka</i>, a market term for a certain portion of meat; cmp. <cite ref=\"A00599\"><he>אוּזְיָא</he></cite>. ",
+			"units": ["<cite ref=\"Beitzah 29a:1\">Bets. 29ᵃ</cite>"],
+			"label": "2"
+		}
+	]
+}

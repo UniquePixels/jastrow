@@ -1,0 +1,23 @@
+{
+	"id": "Q01200",
+	"slug": "פנימון",
+	"headword": {
+		"text": "פְּנִימוֹן"
+	},
+	"page": {
+		"number": 1190,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>P’nimon</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 3:3:12\">Y. Ter. III, end, 42ᵇ</cite> <he>אבא פ׳</he> Abba P.—",
+				"<cite ref=\"Bamidbar Rabbah 9:10\">Num. R. s. 9</cite> (<cite ref=\"Tosefta Sotah 1:1\">Tosef. Sot. I, 1</cite> Var. ed. Zuck.; <cite ref=\"Sotah 4a\">Sot. 4ᵃ</cite> <cite ref=\"Q01063\"><he>פלימו</he></cite>, Y. ib. I, 16ᶜ bot. <he>מיניימין</he>)."
+			]
+		}
+	]
+}

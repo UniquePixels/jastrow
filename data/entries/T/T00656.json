@@ -1,0 +1,35 @@
+{
+	"id": "T00656",
+	"slug": "ריסא-1",
+	"headword": {
+		"text": "רֵיסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1475,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00655\">same</cite> בית ר׳ <i>arena, race-course</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 14:17\">Targ. Gen. XIV, 17</cite> (Y. some ed. <cite ref=\"T00851\"><he>רִסָא</he></cite>; h. text <he>עמק</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 31:39\">Targ. Jer. XXXI, 39</cite> <he>תער בית ר׳ וכ׳</he> (h. text <he>שער הסוסים</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pl. constr. <he>רֵיסֵי</he>, <cite ref=\"T00053\"><he>רִי׳</he></cite> <i>eye-lids</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 12:2\">Targ. Koh. XII, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 13:16\">Targ. Y. Ex. XIII, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 22:22\">Targ. Y. Lev. XXII, 22</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

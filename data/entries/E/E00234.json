@@ -1,0 +1,24 @@
+{
+	"id": "E00234",
+	"slug": "הוכיח",
+	"headword": {
+		"text": "הוֹכֵיח"
+	},
+	"page": {
+		"number": 339,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00362\"><he>יכח</he></cite>) <i>evidence, precedent, rule</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:3\">Y. Dem. II, 22ᶜ</cite> top; ib. III, 23ᶜ this one day has become <he>ה׳ לכל הימים</he> a precedent by which to judge all other days. ",
+				"<cite ref=\"Jerusalem Talmud Niddah 2:4:3\">Y. Nidd. II, 50ᵃ</cite> top <he>הוֹכֵיחָהּ קיים</he> her evidence (the cloth with which she examined herself) exists; Bab. ",
+				"<cite ref=\"Niddah 16b:30\">Nidd. 16ᵇ</cite> <he>מוֹכִיחָהּ</he>."
+			]
+		}
+	]
+}

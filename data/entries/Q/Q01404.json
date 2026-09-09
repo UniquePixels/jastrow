@@ -1,0 +1,40 @@
+{
+	"id": "Q01404",
+	"slug": "פפוס",
+	"headword": {
+		"text": "פַּפּוּס"
+	},
+	"page": {
+		"number": 1203,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (Πάππος) <i>Pappus</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " P. b. Judah, the alleged husband of the mother of Jesus of Nazareth. ",
+			"units": [
+				"<cite ref=\"Shabbat 104b:5\">Sabb. 104ᵇ</cite> (missing in editions under censorial supervision). ",
+				"<cite ref=\"Tosefta Sotah 5:9\">Tosef. Sot. V, 9</cite> <he>כגון פ׳ בן י׳ שהיה נועל וכ׳</he> (not <he>שנועל</he>) like P. b. J. who locked the door before his wife (refused to live with her on account of a suspicion); Y. ib. I, 17ᵃ bot.; <cite ref=\"Jerusalem Talmud Kiddushin 4:6:7\">Y. Kidd. IV, 66ᵃ</cite> <he>והודה בן פ׳</he>; <cite ref=\"Gittin 90a:15\">Gitt. 90ᵃ</cite> <he>פ׳ בן י׳</he>; <cite ref=\"Bamidbar Rabbah 9:12\">Num. R. s. 9</cite> <he>י׳ בן פ׳</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Pappus</i> (<i>ben Judah</i>), mentioned in connection with <cite ref=\"L00280\"><he>לוּלְיָינוֹס</he></cite>, q. v. Sifra B’ḥuck., Par. 2, ch. V; <cite ref=\"Jerusalem Talmud Taanit 2:12:3\">Y. Taan. II, 66ᵃ</cite> top <cite ref=\"Q00778\"><he>פיפוס</he></cite> (corr. acc.); a. fr.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>Pappus</i>, father of R. Judah, a contemporary of R. Joshua. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Batra 5:1:6\">Y. B. Bath. V, 15ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Berakhot 2:9:3\">Y. Ber. II, end, 5ᵈ</cite>.—[<cite ref=\"Bereishit Rabbah 21:5\">Gen. R. s. 21</cite> <he>ר׳ פ׳</he>; <cite ref=\"Mishnah Eduyot 7:5\">Eduy. VII, 5</cite> <he>פפוס</he> Ms. M., v. <cite ref=\"Q01411\"><he>פַּפְּיָיס</he></cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

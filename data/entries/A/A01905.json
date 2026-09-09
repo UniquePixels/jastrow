@@ -1,0 +1,87 @@
+{
+	"id": "A01905",
+	"slug": "אלם-2",
+	"headword": {
+		"text": "אֲלַם"
+	},
+	"page": {
+		"number": 71,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch., intr. <cite ref=\"A01861\"><he>אֲלֵים</he></cite> (<he>אַלֵּים</he> <i>Pa.</i>, <he>עלים</he>) (v. <cite ref=\"A01904\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be</i> or <i>grow strong, to grow</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 22:12\">Targ. I Chr. XXII, 12</cite> (<cite ref=\"Targum of I Chronicles 22:13\">13</cite>) <cite ref=\"A01905\"><he>אֲלַם</he></cite> (h. text <cite ref=\"A02055\"><he>אֱמָץ</he></cite>, Var. <he>עילם</he>). ",
+				"<cite ref=\"Onkelos Deuteronomy 31:6\">Targ. O. Deut. XXXI, 6</cite>; <cite ref=\"Onkelos Deuteronomy 31:7\">7</cite>; <cite ref=\"Onkelos Deuteronomy 31:23\">23</cite> ed. Vien. <he>א׳</he> (ed. Berl. <cite ref=\"P00001\"><he>ע׳</he></cite>, v. Berl. Targ. O. II, p. 59).—",
+				"<cite ref=\"Bava Batra 124a\">B. Bath. 124ᵃ</cite>; <cite ref=\"Bava Batra 135b:3\">135ᵇ</cite> (he left them) <he>דיקלא וא׳</he> a slender palm-tree and it grew thick."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to tie</i>, v. <cite ref=\"A01814\"><he>אֲלוּמָּא</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be mute;</i> v. Ithp.",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַלֵּים"],
+			"senses": [
+				{
+					"gloss": "<i>to be strong</i>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to strengthen, support</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 11:17\">Targ. II Chr. XI, 17</cite>; a. e. Part. pass. f. <he>מְאַלְּמָא</he> <i>resolved, insisting upon</i>. ",
+						"<cite ref=\"Aramaic Targum to Ruth 1:18\">Targ. Ruth I, 18</cite> (h. text <he>מתאמצת</he>).—",
+						"<cite ref=\"Bava Kamma 90a:2\">B. Kam. 90ᵃ</cite> <he>אַלְמוּהָ רבנן וכ׳</he> the Rabbis fortified the husband’s right (gave him superior privileges). ",
+						"<cite ref=\"Kiddushin 43a:15\">Kidd. 43ᵃ</cite> <he>אַלּוּמֵי קא מְאַלִּימְנָא למילתיה</he> (Rashi <he>אַלְּמוּהָ</he>) we (the court) give him privileges."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to overpower</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 156b:6\">Sabb. 156ᵇ</cite> <he>אַלְּמֵיה יצריה</he> his appetite overwhelmed him."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְאַלֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to make one’s self strong, to summon strength</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 36:19\">Targ. Job XXXVI, 19</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become mute, be silenced</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 39:10\">Targ. Ps. XXXIX, 10</cite>. ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 12:6\">Targ. Koh. XII, 6</cite>. [<cite ref=\"Aramaic Targum to Psalms 90:10\">Targ. Ps. XC, 10</cite> <he>מִתְאַלְּמִין</he> (for h. text <cite ref=\"B00181\"><he>בָּהֶם</he></cite>?). [<cite ref=\"Aramaic Targum to Job 6:6\">Targ. Job VI, 6</cite> Ms. Vers. <he>מִתְאַלֵּם</he> (?), h. text <cite ref=\"H01093\"><he>חלמות</he></cite>!.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

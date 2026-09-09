@@ -1,0 +1,28 @@
+{
+	"id": "G00159",
+	"slug": "זוטי",
+	"headword": {
+		"text": "זוּטִי"
+	},
+	"page": {
+		"number": 386,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>junior</i>, v. <cite ref=\"G00157\"><he>זוּטָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. m. <i>Zuti</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Nedarim 77a:2\">Ned. 77ᵃ</cite>; <cite ref=\"Shabbat 157a:10\">Sabb. 157ᵃ</cite> <he>רב ז׳ דבי רב פפי</he>; <cite ref=\"Shabbat 157a:8\">ib.</cite> <he>ז׳ דבי רב פפא</he> (Ms. M. <he>רב זוטרי … פפי</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

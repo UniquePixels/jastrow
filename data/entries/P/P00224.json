@@ -1,0 +1,28 @@
+{
+	"id": "P00224",
+	"slug": "(עוזרד-²",
+	"headword": {
+		"text": "(עוּזְרָד ²"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּזְרָר",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1049,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00223\">preced.</cite>) <i>shrunk</i>, <i>hardened</i> (reed).—Pl. <he>עוּזְרָרִין</he>, (<cite ref=\"P00223\"><he>עוּזְרָדִ׳</he></cite>). ",
+			"units": [
+				"<cite ref=\"Eruvin 34b:10\">Erub. 34ᵇ</cite> <he>עוזרר׳</he> Ms. M. (or <he>עודררין</he>; ed. <he>עוזרדין</he>). [<cite ref=\"Eruvin 34b:10\">Ib.</cite> <he>ע׳ אטדין והיגין</he> Rashi, v. <cite ref=\"F00083\"><he>וֶרֶד</he> II</cite>.]"
+			]
+		}
+	]
+}

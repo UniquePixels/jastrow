@@ -1,0 +1,43 @@
+{
+	"id": "K00651",
+	"slug": "כיתן",
+	"headword": {
+		"text": "כִּיתַּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּיתָן"
+		},
+		{
+			"text": "כִּיתְנָא"
+		},
+		{
+			"text": "כִּיתָּנָא"
+		},
+		{
+			"text": "כִּת׳"
+		}
+	],
+	"page": {
+		"number": 637,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>כתן</he>, cmp. <he>כתת</he>, a. <cite ref=\"K00313\"><he>כּוּנְתָּא</he></cite>) [<i>beaten</i>,] <i>flax</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 22:11\">Targ. Deut. XXII, 11</cite>. ",
+				"<cite ref=\"Onkelos Exodus 9:31\">Targ. Ex. IX, 31</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:17\">Y. Snh. X, 29ᵃ</cite> bot. (in Hebr. dict.) <he>זרעו חטים וכ׳</he> sow wheat and flax. ",
+				"<cite ref=\"Yoma 71b:7\">Yoma 71ᵇ</cite> <he>מאי … כ׳ הוא</he> what proof is there that <i>shesh</i> means flax?; <cite ref=\"Yoma 71b:7\">ib.</cite> <he>כ׳ אגב לקותיה וכ׳</he> flax splits into branches only when beaten (while it grows in plain stalks); <cite ref=\"Zevachim 18b:17\">Zeb. 18ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 29b:24\">B. Mets. 29ᵇ</cite> bot. <he>כ׳ רומיתא</he> (fem.; Ar. a. M. R. <cite ref=\"T00381\"><he>רומאה</he></cite>) Roman (fine and expensive) linen; <cite ref=\"Chullin 84b\">Ḥull. 84ᵇ</cite>. ",
+				"<cite ref=\"Chullin 51b:15\">Ib. 51ᵇ</cite> <he>כ׳ דעביד בטוני</he> flax-stalks in bundles. ",
+				"<cite ref=\"Chullin 51b:15\">Ib.</cite> <he>כ׳ דדייק וכ׳</he> flax which has been pounded &c., v. <cite ref=\"N01071\"><he>נְפַץ</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:1:7\">Y. Sabb. II, beg. 4ᶜ</cite> (expl. <cite ref=\"J00610\"><he>יָרוֹקָה</he></cite>) <he>כ׳ דמיי</he> ‘water-flax’ (a sort of lichen); a. fr.—Pl. <he>כִּיתָּנַיָּיא</he>. Ib. VII, 10ᵃ bot. <he>ההן כ׳</he> (insert <he>דעבד</he>) he who works in flax-stalks &c., v. <cite ref=\"A02756\"><he>אֲפַסְטִיתָה</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "P00049",
+	"slug": "עביצא",
+	"headword": {
+		"text": "עָבִיצָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1037,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"H00075\"><he>חָבִיצָא</he></cite> 1.—Pl. <he>עֲבִיצִין</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Challah 1:4:4\">Y. Ḥall. I, 58ᵃ</cite> top."
+			]
+		}
+	]
+}

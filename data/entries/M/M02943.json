@@ -1,0 +1,24 @@
+{
+	"id": "M02943",
+	"slug": "משנוייתא",
+	"headword": {
+		"text": "מַשְׁנוֹיָיתָא"
+	},
+	"page": {
+		"number": 857,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"U01586\"><he>שְׁנֵי</he></cite>) <i>different directions</i> of the axis of the eyes, <i>squinting, strabismus</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 44a:9\">Bekh. 44ᵃ</cite> <he>מ׳ מבעינו</he> the disqualification from strabismus is derived from <i>b’ʿeno</i> (<cite ref=\"Leviticus 21:20\">Lev. XXI, 20</cite>). ",
+				"<cite ref=\"Leviticus 21:20\">Ib.</cite> <he>משום משניותא</he> (corr. acc.; Rashi: <he>משְׁנָיָיתָא</he>)."
+			]
+		}
+	]
+}

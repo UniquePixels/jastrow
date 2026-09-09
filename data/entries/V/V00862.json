@@ -1,0 +1,22 @@
+{
+	"id": "V00862",
+	"slug": "תפשיטא",
+	"headword": {
+		"text": "תַּפְשִׁיטָא"
+	},
+	"page": {
+		"number": 1689,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"Q02072\"><he>פְּשִׁיטָא</he></cite>, <i>a plain thing, certainty</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Challah 3:5:4\">Y. Ḥall. III, 59ᵇ</cite> bot. <he>אין ת׳ לך וכ׳</he> if it is plain to thee that &c."
+			]
+		}
+	]
+}

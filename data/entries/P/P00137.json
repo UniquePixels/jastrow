@@ -1,0 +1,31 @@
+{
+	"id": "P00137",
+	"slug": "ע׳-עדיא",
+	"headword": {
+		"text": "עָ׳ עַדְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָדִיתָא"
+		},
+		{
+			"text": "עֲדִיתָא"
+		}
+	],
+	"page": {
+		"number": 1044,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00136\">preced.</cite>) <i>a passing eruption, rash, scurf</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 13:2\">Targ. O. Lev. XIII, 2</cite>, a. e. (h. text <cite ref=\"O01345\"><he>ספחת</he></cite>). ",
+				"<cite ref=\"Onkelos Leviticus 13:6\">Ib. 6</cite>, a. e. (h. text <he>מספחת</he>).—[<cite ref=\"Targum Jerusalem, Deuteronomy 14:12\">Targ. Y. II, Deut. XIV, 12</cite> ed. Amst. <he>עדיא</he>, v. <cite ref=\"P01344\"><he>עַרְיָא</he></cite>.]"
+			]
+		}
+	]
+}

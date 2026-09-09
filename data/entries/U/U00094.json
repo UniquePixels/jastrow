@@ -1,0 +1,23 @@
+{
+	"id": "U00094",
+	"slug": "שבז",
+	"headword": {
+		"text": "שְׁבַז",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1511,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"B00430\"><he>בְּזַז</he></cite>, <cite ref=\"B00566\"><he>בִּיזְיָא</he></cite>) <i>something brittle, rotten</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 5:24\">Targ. Is. V, 24</cite> (h. text <he>מק</he>; LXX χνοῦς; Pesh. <cite ref=\"H00960\"><he>חלא</he></cite>)."
+			]
+		}
+	]
+}

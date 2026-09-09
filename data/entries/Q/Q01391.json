@@ -1,0 +1,23 @@
+{
+	"id": "Q01391",
+	"slug": "פעפועא-2",
+	"headword": {
+		"text": "פַּעְפּוּעָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1203,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>פַּעְפֵּעַ</he> II) <i>cover, darkness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 11:17\">Targ. Job XI, 17</cite> (Ms. <cite ref=\"Q00775\"><he>פִּיעְפּוּעָא</he></cite>; h. text <he>תעפה</he>)."
+			]
+		}
+	]
+}

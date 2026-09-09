@@ -1,0 +1,60 @@
+{
+	"id": "B00311",
+	"slug": "בוצין",
+	"headword": {
+		"text": "בּוּצִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּצִינָא"
+		},
+		{
+			"text": "בּוֹצִין"
+		}
+	],
+	"page": {
+		"number": 147,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (fr. <cite ref=\"B00308\"><he>בוץ</he></cite> to shine; orig. a plur. of <cite ref=\"B00308\"><he>בּוּצָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>wicks;</i> v. <cite ref=\"B00308\"><he>בּוּצָא</he></cite>.—In gen. <i>candle, lamp, light</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 3:3\">Targ. I Sam. III, 3</cite>; a. e.—",
+				"<cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite> (expl. ",
+				"<cite ref=\"Isaiah 21:5\">Is. XXI, 5</cite>) <he>אקימת מנרתא אדליקת ב׳</he> thou hast put up the lamp, lighted the wicks. ",
+				"<cite ref=\"Shabbat 30a:3\">Sabb. 30ᵃ</cite> <he>לכבות ב׳ דנורא</he> to put out a lamp (Ms. M. omits <he>דנורא</he>).—",
+				"<cite ref=\"Sanhedrin 14a:12\">Snh. 14ᵃ</cite> <he>ב׳ דנהורא</he> bright light (wise man). ",
+				"<cite ref=\"Bereishit Rabbah 85:4\">Gen. R. s. 85</cite> (play on <he>שוע</he>, <cite ref=\"Genesis 38:2\">Gen. XXXVIII, 2</cite>, v. <cite ref=\"U01637\"><he>שַׁעֲוָה</he></cite>) <he>ב׳ דאתרא</he> the light of the town (leader); a. fr.—Pl. <he>בּוֹצִינַיָּא</he>. ",
+				"<cite ref=\"Onkelos Exodus 30:7\">Targ. Ex. XXX, 7</cite> sq.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (in Bab. dialect; cmp. <cite ref=\"B00504\"><he>בטי</he></cite>) <i>a young pumpkin</i>, contrad. to <he>קרא</he> the full-grown one. ",
+			"units": [
+				"<cite ref=\"Berakhot 48a:3\">Ber. 48ᵃ</cite> (prov.) <he>ב׳ ב׳ מקיניה ידיע</he> Ar. a. Rashi (ed. <he>מקטפיה</he>; Ms. M. <he>בוצינא מקיטפיה ידע</he>, v. Rabb. D. S. a. l. note) the young pumpkin is known by its shaft [by what oozes out of it, <he>מקיטפיה</he>], i.e. the future scholar is recognized by his utterings in childhood. ",
+				"<cite ref=\"Sukkah 56b:1\">Succ. 56ᵇ</cite> a young pumpkin (now) is better than a large one (later); (differ. in Tosaf. a. l.); a. e.—Pl. <he>בּוֹצִינַיָּא</he>, <he>בּוֹצִינֵי</he>. ",
+				"<cite ref=\"Onkelos Numbers 11:5\">Targ. O. Num. XI, 5</cite>.—",
+				"<cite ref=\"Nedarim 66b:7\">Ned. 66ᵇ</cite> (a misunderstanding of <he>בוציני</he> betw. a Babylonian husband and a Palestinean wife). ",
+				"<cite ref=\"Yoma 78a\">Yoma 78ᵃ</cite> <he>מצטנן בב׳</he> Ms. M. (ed. <he>בינוקא</he>) cooled his hands with young pumpkins.—",
+				"<cite ref=\"Megillah 12a\">Meg. 12ᵃ</cite> sq. (prov.) <he>איהו בקרי וכ׳</he> (Var. <he>בי וכו׳</he>; <cite ref=\"Sotah 10a:7\">Sot. 10ᵃ</cite> <he>בי קארי וכ׳</he>) the husband between the old pumpkins, his wife between the young ones, i.e. a faithless husband makes a faithless wife."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (from its shape) <he>ב׳ דריחייא</he> <i>the pivot</i> (Rashi); <i>the hole</i> (socket) in the lower millstone (Ar.). ",
+			"units": [
+				"<cite ref=\"Pesachim 94b\">Pes. 94ᵇ</cite> (Var. <cite ref=\"O00190\"><he>סדנא</he></cite>)."
+			],
+			"label": "3"
+		}
+	]
+}

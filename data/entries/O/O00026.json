@@ -1,0 +1,48 @@
+{
+	"id": "O00026",
+	"slug": "סב-2",
+	"headword": {
+		"text": "סָב"
+	},
+	"altHeadwords": [
+		{
+			"text": "סָבָא",
+			"homograph": 1
+		},
+		{
+			"text": "סָאבָא"
+		}
+	],
+	"page": {
+		"number": 948,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (v. <cite ref=\"O00005\"><he>סְאֵב</he> II</cite>, <cite ref=\"O00524\"><he>סִיב</he></cite>) = h. <he>שָׂב</he>, <i>grey, old; elder; ancestor; scholar</i> (= h. <cite ref=\"G00642\"><he>זָקֵן</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 3:2\">Targ. Is. III, 2</cite>. ",
+				"<cite ref=\"Onkelos Genesis 24:2\">Targ. Gen. XXIV, 2</cite>; a. fr.—",
+				"<cite ref=\"Targum Jerusalem, Leviticus 22:27\">Targ. Y. II, Lev. XXII, 27</cite> <cite ref=\"O00052\"><he>סַבְיָא</he></cite>.—Targ. II Esth. VII, 9 <he>כאגג אבא סב</he> (ed. Lag. <cite ref=\"A00017\"><he>אבא</he></cite> . <cite ref=\"I00018\"><he>טב</he></cite>, corr. acc.) like Agag my <i>grandfather</i>.—Y. Yeb. XII, 12ᵈ bot., opp. <cite ref=\"I00506\"><he>טַלְיְתָא</he></cite>. ",
+				"<cite ref=\"Chullin 6a:2\">Ḥull. 6ᵃ</cite> <he>אשכחיה ההוא ס׳</he> an old man (or scholar) met him; <cite ref=\"Shabbat 34a:1\">Sabb. 34ᵃ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 74:17\">Gen. R. s. 74</cite> (ref. to <cite ref=\"Psalms 124:1\">Ps. CXXIV, 1</cite>) <he>ישראל ס׳</he> it means Israel the patriarch (not Israel the people); Midr. Till. to Ps. l. c. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 10:8:8\">Y. Ned. X, end, 42ᵇ</cite> <he>לסָבִי</he> to my ancestor. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 10:8:8\">Ib.</cite> <he>ר׳ דוסתי ס׳</he> R. Dostay senior; a. fr.—[<cite ref=\"Jerusalem Talmud Maaser Sheni 5:3:9\">Y. Maas. Sh. V, 56ᶜ</cite> top, v. <cite ref=\"K00891\"><he>כַּסָּא</he> I</cite>.]—Pl. <cite ref=\"O00057\"><he>סָבִין</he></cite>, <cite ref=\"O00052\"><he>סָבַיָּא</he></cite>, <cite ref=\"O00029\"><he>סָבֵי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 8:4\">Targ. Zech. VIII, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Joel 1:14\">Targ. Joel I, 14</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 20:29\">Targ. Prov. XX, 29</cite> (Ms. <he>סֵיבֵי</he>); a. fr.—Y. Peah VII, end, 21ᵇ <he>אית הוו ס׳ וכ׳</he> there were (poor) old men in our days &c. ",
+				"<cite ref=\"Kiddushin 33a:17\">Kidd. 33ᵃ</cite> <he>ר׳</he> … <he>ס׳ דארמאי</he> R. J. used to rise before gentile old men. ",
+				"<cite ref=\"Sanhedrin 17b:5\">Snh. 17ᵇ</cite> <he>ס׳ דסורא</he> the scholars of Sura. ",
+				"<cite ref=\"Bava Batra 58b:1\">B. Bath. 58ᵇ</cite> <he>סאבי דיהודאי</he> the Jewish scholars. ",
+				"<cite ref=\"Bekhorot 8b:4\">Bekh. 8ᵇ</cite>, v. <cite ref=\"A03417\"><he>אַתִּינָס</he></cite>; a. fr.—<i>Fem.</i> (<cite ref=\"O00026\"><he>סָבָא</he></cite>), <cite ref=\"O00097\"><he>סַבְתָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 3:3:8\">Y. Maas. Sh. III, 54ᵇ</cite> top <he>אמר לון חד סבא</he> (read: <he>אמרה לון הדא ס׳</he>) said to them a certain matron (prob. wife of a scholar). ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 3:3:8\">Ib.</cite> <he>הדא סבתא … מימר</he> that matron was of the opinion. ",
+				"<cite ref=\"Bava Batra 125b:1\">B. Bath. 125ᵇ</cite> <he>נכסי לס׳</he> I bequeathe my property to my grandmother. ",
+				"<cite ref=\"Bava Batra 125b:6\">Ib.</cite> <he>אי קדים ס׳ וכ׳</he> if that grandmother had sold the property bequeathed to her before the claim could be preferred, the sale would have been valid; a. fr.—Pl. <he>סָבָן</he>. Targ. Zech. l. c.; a. e.—[<he>סָב</he> <i>to be old</i>, v. <cite ref=\"O00524\"><he>סֵיב</he></cite>.]"
+			]
+		}
+	]
+}

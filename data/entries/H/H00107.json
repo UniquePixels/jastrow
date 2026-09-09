@@ -1,0 +1,110 @@
+{
+	"id": "H00107",
+	"slug": "חבר-1",
+	"headword": {
+		"text": "חָבַר"
+	},
+	"page": {
+		"number": 421,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to join, befriend, assist</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:1:4\">Y. Ab. Zar. I, 39ᵇ</cite> top (ref. to <cite ref=\"Psalms 58:6\">Ps. LVIII, 6</cite>) [read:] <he>כל מי שהיה חוֹבְרוֹ הוא חוברו</he> whoever assisted him (in his political ambition), him he befriended.—Esp. <cite ref=\"H00249\"><he>חוֹבֵר</he></cite>, pl. <he>חוֹבְרִים</he>, <he>חוֹבְרִין</he> <i>having a share in the ownership of a sacrifice</i>, v. <cite ref=\"H00034\"><he>חֲבוּרָה</he></cite>. ",
+				"<cite ref=\"Mishnah Menachot 9:9\">Men. IX, 9</cite> (<cite ref=\"Menachot 93b:20\">93ᵇ</cite> bot.) <he>אחד מניף לכל החו׳</he> Ms. M. (ed. <he>חֲבֵרִים</he>) one of the company does the waving in behalf of all of them. Ib. 94ᵃ <he>נתמעטה בחו׳</he> is reduced in numbers as regards the participants (only one of them being required to act). ",
+				"<cite ref=\"Temurah 2a\">Tem. 2ᵃ</cite>; <cite ref=\"Arakhin 2a:34\">Arakh. 2ᵃ</cite> <he>בעלי ח׳</he> (sub. <he>קרבן</he>) partners of a sacrifice (also <he>בעלי קרבן</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " with <he>על</he> (cmp. <cite ref=\"G00118\"><he>זָוַג</he></cite>) <i>to join against, protest</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 11a:3\">B. Bath. 11ᵃ</cite> <he>חָבְרוּ עליו וכ׳</he> his brothers &c. combined to protest against his actions."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to tie, fascinate, charm</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:31\">Lam. R. to I, 5</cite> <he>מביאין חוֹבֵר וחוֹבְרִין וכ׳</he> they procure a charmer and charm the serpent. ",
+				"<cite ref=\"Sifrei Devarim 172:1\">Sifré Deut. 172</cite> <he>ה׳ מרובה</he> he who charms large objects; <cite ref=\"Keritot 3b:97\">Ker. 3ᵇ</cite> <he>ח׳ גדול</he>; <cite ref=\"Sanhedrin 65a:21\">Snh. 65ᵃ</cite> <he>חַבָּר גדול</he>. Ker. l. c. <he>חוֹבֵר חֶבֶר דבלאו הדין הוא</he> but what kind of charmer (<cite ref=\"Deuteronomy 18:11\">Deut. XVIII, 11</cite>) is he that is liable only to lashes (v. <cite ref=\"L00009\"><he>לַאו</he></cite>)?; a. fr.—["
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"H00083\"><he>חָבַל</he></cite>) <i>to unshape, wound</i>. Denom. <cite ref=\"H00034\"><he>חַבּוּרָה</he></cite>.]",
+			"units": [],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִיבֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to join, fasten</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 927:1\">Yalk. Job 927</cite> (ref. to <cite ref=\"Job 40:30\">Job XL, 30</cite>) <he>מי שח׳ עצמו במצות</he> whoever befriended himself with good deeds; Tanḥ. Nitsab. 4 (corr. acc.). ",
+						"<cite ref=\"Mishnah Kelim 14:2\">Kel. XIV, 2</cite> <he>וחִבְּרָהּ לו</he> (or <he>וחֲבָרָהּ</he>) and he fastened the tube to it (the staff). ",
+						"<cite ref=\"Mishnah Kelim 14:2\">Ib.</cite> <he>משיְחַבֵּר</he> from the moment he attaches it, opp. <he>משיחבל</he>, v. <cite ref=\"H00083\"><he>חָבַל</he></cite>.—Part. pass. <cite ref=\"M00814\"><he>מְחוּבָּר</he></cite>. Ib. XII, 2 <he>כל המ׳ וכ׳</he> whatever is fastened (belonging) to an object fit to become unclean &c.—<cite ref=\"M00001\"><he>מ׳</he></cite> (<he>לקרקע</he>) <i>fixed, immovable</i>, opp. <he>תלוש</he>. ",
+						"<cite ref=\"Bava Metzia 89a:3\">B. Mets. 89ᵃ</cite> <he>אוכל במ׳</he> may eat of what is standing in the field (<cite ref=\"Deuteronomy 23:25\">Deut. XXIII, 25</cite>, sq.). ",
+						"<cite ref=\"Mishnah Peah 4:1\">Peah IV, 1</cite>, v. <cite ref=\"D00838\"><he>דָּלִית</he></cite>. Y. ib. 18ᵃ <he>ואינו מ׳</he> and when the Mishnah says <he>בדלית ובדקל</he>, it does not mean <he>במ׳ בדלית וכ׳</he> ‘of that which is attached to the vine and tree’; <he>אין תימר מ׳ הוא וכ׳</he> if you say, it means that which is attached, then the Mishnah means to say that the owner must designate the <i>Peah</i> while it is up (on the tree) &c.—Ib. II, beg. 16ᵈ (in a passage misplaced and corrupted) <he>הא גדר מ׳ ואינו מ׳</he> this ‘fence’ (Mish. ib. II, 3) is to be considered as something attached to the ground (like a growth) and (in other respects) as not attached."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to charm</i>. Lam. R., introd. (R. Josh. 2) <he>התחיל מְחַבֵּר חֲבָרִים</he> (not <he>מחבי חביים</he>) he began to consult charmers (with ref. to <cite ref=\"Ezekiel 21:26\">Ez. XXI, 26</cite>). ",
+					"units": [
+						"<cite ref=\"Sanhedrin 65a:19\">Snh. 65ᵃ</cite> <he>מקטר לחַבֵּר</he> he burns incense for charming purposes (to exorcise the demons); a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נֶחְבַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be joined, gathered</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 80:2\">Gen. R. s. 80</cite> (ref. to <cite ref=\"Hosea 6:9\">Hos. VI, 9</cite>) as the priests <he>נֶחְכָּרִים על וכ׳</he> are grooped around &c.; <cite ref=\"Makkot 10a:3\">Macc. 10ᵃ</cite> <he>מִתְחַבְּרִין וכ׳</he>."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְחַבֵּר"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְחַבֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H00106\">same</cite>; v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to associate, make friends with</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 1:7\">Ab. I, 7</cite>.—",
+						"<cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20</cite>, beg. <he>נִתְחַבְּרוּ מואב וכ׳</he> Moab and Midian formed an alliance; Tanḥ. Balak 3.—3) <i>to be charmed, spellbound</i>. ",
+						"<cite ref=\"Bamidbar Rabbah 20\">Ib.</cite> ",
+						"<cite ref=\"Exodus 18\">B’shall. 18</cite> <he>מיד נתח׳ וכ׳</he> at once the bird is spellbound (by the snake looking at its shadow) and falls to pieces; <cite ref=\"Yalkut Shimoni on Torah 255\">Yalk. Ex. 255</cite> <cite ref=\"M03002\"><he>מת</he></cite> (read <he>מתחבר</he>); Mekh. B’shall., Vayassa, s. 1 <he>מִתְחַבֵּר על צלו</he> (not <he>ומת׳ אל</he>) it remains spell-bound over its own shadow."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

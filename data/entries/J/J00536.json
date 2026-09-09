@@ -1,0 +1,25 @@
+{
+	"id": "J00536",
+	"slug": "יציקה",
+	"headword": {
+		"text": "יְצִיקָה"
+	},
+	"page": {
+		"number": 589,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00547\"><he>יָצַק</he></cite>) <i>casting</i> (metal), <i>pouring</i> (oil). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:25\">Y. Ber. I, 2ᵈ</cite> top; <cite ref=\"Yalkut Shimoni on Torah 19:2\">Yalk. Gen. 19</cite> <he>נראין כבשעת יְצִיקָתָן</he> they (the heavens) look (as bright) as at the time they were cast. ",
+				"<cite ref=\"Mishnah Menachot 6:3\">Men. VI, 3</cite> (<cite ref=\"Menachot 74b:10\">74ᵇ</cite>) <he>י׳ ובלילה</he> the pouring of oil (on the flour, <cite ref=\"Leviticus 2:1\">Lev. II, 1</cite>) and the mixing. ",
+				"<cite ref=\"Horayot 12a:6\">Hor. 12ᵃ</cite>; Kerith 5ᵇ, contrad. to <cite ref=\"M02873\"><he>מְשִׁיחָה</he></cite>; a. fr.—Pl. <he>יְצִיקוֹת</he>. ",
+				"<cite ref=\"Tosefta Demai 2:7\">Tosef. Dem. II, 7</cite>; <cite ref=\"Menachot 18b:8\">Men. 18ᵇ</cite>; <cite ref=\"Chullin 132b:16\">Ḥull. 132ᵇ</cite>"
+			]
+		}
+	]
+}

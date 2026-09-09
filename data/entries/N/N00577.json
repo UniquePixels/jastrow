@@ -1,0 +1,69 @@
+{
+	"id": "N00577",
+	"slug": "נטף-1",
+	"headword": {
+		"text": "נָטַף"
+	},
+	"page": {
+		"number": 901,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"I00675\"><he>טִפְטֵף</he></cite>)<i>to drip, overflow</i>. ",
+			"units": [
+				"<cite ref=\"Keritot 6a:51\">Ker. 6ᵃ</cite> <he>שרף הנוֹטֵף וכ׳</he> the gum which exudes from balm-shrubs. ",
+				"<cite ref=\"Jerusalem Talmud Peah 7:3:1\">Y. Peah VII, beg. 20ᵃ</cite>, v. <cite ref=\"N00549\"><he>נְטוֹפָה</he> II</cite>. ",
+				"<cite ref=\"Shabbat 30b\">Sabb. 30ᵇ</cite>, a. e. <he>שפתותיו נוֹטְפוֹת וכ׳</he>, v. <cite ref=\"M02477\"><he>מַר</he> II</cite>; a. fr.—<he>נוֹטְפִים</he>, <he>נוֹטְפִין</he> <i>dripping water, collected rain water</i>. ",
+				"<cite ref=\"Mishnah Mikvaot 5:5\">Mikv. V, 5</cite>, v. <cite ref=\"G00246\"><he>זָחַל</he></cite>; a. fr.—Trnsf. (cmp. <cite ref=\"N00101\"><he>נָבַע</he></cite>) <i>to speak, prophesy</i>. ",
+				"<cite ref=\"Midrash Tehillim 73\">Midr. Till. to Ps. LXXIII</cite>, end (ref. to <cite ref=\"Joel 4:18\">Joel IV, 18</cite>) <he>אין יִטְּפוּ אלא נבואה</he> <i>yiṭṭ’fu</i> alludes to prophecy; v. <cite ref=\"E00322\"><he>הַטָּפָה</he></cite>.—2) (cmp. <he>טְפֵי</he> III) <i>to be too long, protrude, hang over</i>. ",
+				"<cite ref=\"Bekhorot 43b:18\">Bekh. 43ᵇ</cite> <he>חוטמו נוטף</he> one whose nose overhangs his lips; <cite ref=\"Tosefta Bekhorot 5:3\">Tosef. ib. V, 3</cite>.—[<cite ref=\"Jerusalem Talmud Berakhot 1:5:13\">Y. Ber. I, 3ᶜ</cite> bot. <he>שלא נטפו</he> ed. Ven., v. <cite ref=\"H00639\"><he>חָטַף</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיטֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to drop</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 19a:7\">Taan. 19ᵃ</cite> <he>התחילו גשמים מְנַטְּפִין</he> the rain began to come down drop-wise. Ohol. III, 5 <he>מת שדמו מְנַטֵּף</he> a slain body whose blood flows in drops, opp. <cite ref=\"U02141\"><he>שותת</he></cite>. Y. M. Kat. I, 80ᵇ top <he>ועודה מְנַטֶּפֶת</he> and when it is still overflowing; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִיטַּף", "נִיטּוֹף"],
+			"senses": [
+				{
+					"gloss": "<i>to be fed by an overflow</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Moed Kattan 1:1\">Tosef. M. Kat. I, 1</cite> <he>בריכה שנִיטּוֹפָה משדה וכ׳</he> (Var. ed. Zuck. <he>נִיטְּפָה</he>, <he>נִיטַּיְּפָה</he> <i>Nithpa.</i> of <cite ref=\"I00195\"><he>טוּף</he></cite>) a pond formed by the overflow (of rain) from a field &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be inundated, to overflow</i>. Y. l. c. <he>שדה … שניטופה לתוך וכ׳</he> a field dependent on irrigation which discharged its overflow (from rain) into another field (and there formed a pond).",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִטִּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to flow; to drop</i>. Y. Gitt. II, 44ᵇ top <he>וכתב לא</he> (<cite ref=\"E00000\"><he>ה</he></cite>)<he>מַטִּיף</he> ‘and he shall write’ (<cite ref=\"Deuteronomy 24:1\">Deut. XXIV, 1</cite>) but not form letters by dropping; Y. Sabb. XII, end, 13ᵈ. Y. Pes. V, 32ᶜ bot. <he>ישפך לא יַטִּיף</he> ‘it shall be poured out’ (<cite ref=\"Deuteronomy 12:27\">Deut. XII, 27</cite>), but he must not let it fall in drops. ",
+					"units": [
+						"<cite ref=\"Tosefta Shabbat 15:9\">Tosef. Sabb. XV</cite> (<cite ref=\"Tosefta Shabbat 16:9\">XVI</cite>), 9 <he>צריך להַטִּיף וכ׳</he> he must cause a few drops of the blood of the covenant to flow; <cite ref=\"Bereishit Rabbah 46\">Gen. R. s. 46</cite>. ",
+						"<cite ref=\"Midrash Tehillim 73\">Midr. Till. to Ps. LXXIII</cite>, end; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

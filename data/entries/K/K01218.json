@@ -1,0 +1,38 @@
+{
+	"id": "K01218",
+	"slug": "כרכר-1",
+	"headword": {
+		"text": "כִּרְכֵּר"
+	},
+	"page": {
+		"number": 670,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Pilp. of <cite ref=\"K01272\"><he>כרר</he></cite>, v. <cite ref=\"K01095\"><he>כָּרָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to go around, go about;</i> [b. h. <i>to dance</i>]. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 20:6\">Gen. R. s. 20</cite>, a. e., v. <cite ref=\"K01202\"><he>כִּרְכּוּר</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to finish by designing circles, emblazon</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 25b\">Ḥull. 25ᵇ</cite>, v. <cite ref=\"K01191\"><he>כִּרְכֵּב</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to form a circle in order to make an announcement</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> <he>למלך שהיה עומד ומְכַרְכֵּר על וכ׳</he> like a king standing and gathering a circle around him at the entrance of his palace; <he>כך … כשעמד ומכ׳ על הר סיני</he> so the Lord when he stood addressing a meeting on Mount Sinai."
+			],
+			"label": "3"
+		}
+	]
+}

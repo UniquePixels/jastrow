@@ -1,0 +1,23 @@
+{
+	"id": "A02756",
+	"slug": "אפסטיתה",
+	"headword": {
+		"text": "אֲפַסְטִיתָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 106,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (redupl. of <cite ref=\"Q01221\"><he>פס</he></cite>, v. <he>פסס</he>) <i>rake</i> or <i>pitchfork</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:26\">Y. Sabb. VII, 10ᵃ</cite> bot. if one works on flax stalks (on a Sabbath) <he>בא׳ חייב וכ׳</he> with a rake (spreading them apart), he is guilty of an act resembling winnowing."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "R00491",
+	"slug": "צלוב-3",
+	"headword": {
+		"text": "צְלוּב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1282,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"R00489\"><he>צָלוּב</he></cite>, <i>impaled, hanging</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 21:1\">Targ. Y. Deut. XXI, 1</cite>.—[<he>צלובין</he>, <cite ref=\"Targum Jerusalem, Numbers 25:4\">Targ. Y. II, Num. XXV, 4</cite> (ed. Amst. <he>צְלָבִין</he>, read: <he>צָלְבִין</he>, v. <cite ref=\"R00480\"><he>צְלַב</he></cite>.]"
+			]
+		}
+	]
+}

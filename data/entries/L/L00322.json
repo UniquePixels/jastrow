@@ -1,0 +1,30 @@
+{
+	"id": "L00322",
+	"slug": "לוקן",
+	"headword": {
+		"text": "לַוְקָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "לַוְו׳"
+		},
+		{
+			"text": "לַבְ׳"
+		}
+	],
+	"page": {
+		"number": 701,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a denom. of λεύκη, a kind of elephantiasis) <i>one who is white-spotted in the face</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 7:6\">Bekh. VII, 6</cite> <he>לב׳</he> ed. (Rashi <he>לוו׳</he>); <cite ref=\"Bekhorot 45b:3\">ib. 45ᵇ</cite> expl. <cite ref=\"H00686\"><he>חיורא</he></cite> (from analogy with <cite ref=\"L00319\"><he>לוקיאני</he></cite>, v. <cite ref=\"L00321\">preced.</cite>); <cite ref=\"Tosefta Bekhorot 5:9\">Tosef. ib. V, 9</cite> <cite ref=\"L00260\"><he>לויקן</he></cite> (read <he>לוו׳</he>). Tosef. Ber. VII (VI), 3 <cite ref=\"L00222\"><he>לווקן</he></cite> ed. Zuck. (Var. <cite ref=\"L00320\"><he>לוקין</he></cite>); Y. ib. IX, 13ᵇ bot. <he>לוו׳</he>; Sifra Emor, Par. 3, ch. III <he>לב׳</he>; <cite ref=\"Berakhot 58b:10\">Ber. 58ᵇ</cite> <he>לוו׳</he> (Ms. M. <he>לוד׳</he>, corr. acc.)."
+			]
+		}
+	]
+}

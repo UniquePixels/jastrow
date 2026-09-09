@@ -1,0 +1,44 @@
+{
+	"id": "E00410",
+	"slug": "הילקט-1",
+	"headword": {
+		"text": "הֶילְקֵט"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶלְקֵט"
+		}
+	],
+	"page": {
+		"number": 346,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>לקט</he>, v. <cite ref=\"A01948\"><he>אִלְקָטִית</he></cite>; cmp. b. h. <he>יַלְקוּט</he>) [<i>receptacle, store</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the ciborium</i> (seed vessel) of the <i>Egyptian colocasia</i> (v. Sm. Ant. s. v. Colocasia; v. <cite ref=\"S00364\"><he>קוּלְקָס</he></cite>).—Pl. <he>הֶילְקְטִין</he>, <cite ref=\"H01091\"><he>הֶלְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ma'asrot 3:14\">Tosef. Maasr. III, 14</cite>; Y. ib. V, end, 52ᵃ whose stalks are few, <he>והֶלְקְטֵיהֶן מרובין</he> and ciboria numerous."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>stack of grain, pile of fruits in the field</i>.—Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Nazir 8b:4\">Naz. 8ᵇ</cite> <he>כמנין הֶילְקְטֵי קיץ</he> (as many days a Nazir) as the number of piles during the fig crop.—["
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>a bird’s pouch;</i> v. next w.]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

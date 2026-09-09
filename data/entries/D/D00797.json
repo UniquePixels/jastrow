@@ -1,0 +1,26 @@
+{
+	"id": "D00797",
+	"slug": "דל-1",
+	"headword": {
+		"text": "דִּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "דּיל"
+		}
+	],
+	"page": {
+		"number": 308,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (contract, of <he>דְּאִי לָא</he>) <i>for if not</i>. <he>דִּל כֵּן</he> (joined <cite ref=\"D00840\"><he>דִּלָכֵן</he></cite>, <cite ref=\"D00606\"><he>דִּילָכֵן</he></cite>, v. <cite ref=\"D00443\"><he>דִּי</he> II</cite>) <i>for were it not so</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 8:1:6\">Y. Yoma VIII, 44ᵈ</cite> bot. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 7:1:2\">Y. Gitt. VII, beg. 48ᶜ</cite>; a. e.—Y. Ber. II, 5ᵃ bot.—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 4:2:7\">Y. Shebi. IV, 35ᵃ</cite> bot. <he>אכול דילכן וכ׳</he> eat, for if thou (doest) not so, I shall kill thee."
+			]
+		}
+	]
+}

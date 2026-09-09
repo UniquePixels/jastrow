@@ -1,0 +1,23 @@
+{
+	"id": "A03339",
+	"slug": "אשפלה",
+	"headword": {
+		"text": "אַשְׁפְּלָה"
+	},
+	"page": {
+		"number": 130,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= h. <cite ref=\"M02955\"><he>מַשְׁפֶּלֶת</he></cite> q. v.) <i>basket</i>, as a measure, cmp. <cite ref=\"I00598\"><he>טְעוּנָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:21\">Y. Dem. II, 22ᵈ</cite> top.—Pl. <cite ref=\"A03339\"><he>אַשְׁפְּלָתָה</he></cite>. ",
+				"<cite ref=\"Yoma 2a\">Ibid.</cite> (ed. <cite ref=\"A02843\"><he>אפשלתה</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

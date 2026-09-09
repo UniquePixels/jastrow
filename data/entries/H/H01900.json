@@ -1,0 +1,78 @@
+{
+	"id": "H01900",
+	"slug": "חתם-2",
+	"headword": {
+		"text": "חֲתַם"
+	},
+	"page": {
+		"number": 514,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01899\">same</cite>.<i>to close up</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 6a:6\">Ber. 6ᵃ</cite> <he>ולִיחְתּוֹם פומיה</he> and let him close up its opening. Part. pass. <cite ref=\"H01887\"><he>חֲתִים</he></cite>. ",
+				"<cite ref=\"Onkelos Leviticus 15:3\">Targ. O. Lev. XV, 3</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to seal, sign</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 32:44\">Targ. Jer. XXXII, 44</cite>; a. fr.—",
+				"<cite ref=\"Gittin 66b:11\">Gitt. 66ᵇ</cite> <he>מִחְתַּם וכ׳</he> to draw their signatures.—<i>Part. pass.</i> as ab. Targ. l. c. 11.—",
+				"<cite ref=\"Bava Batra 89b:10\">B. Bath. 89ᵇ</cite> <he>דלא חֲתִימֵי</he> where they do not stamp measures officially."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to close a benediction</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 22b:10\">Meg. 22ᵇ</cite> <he>ח׳ ולא בריך</he> he closed his prayer without saying <i>Barukh</i> &c. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:11\">Cant. R. to I, 11</cite> [read:] <he>מלה חֲתִימָה … מסיימה</he> a closed and finished word (complete in itself)."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַתֵּים"],
+			"senses": [
+				{
+					"gloss": "<i>to lock up</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 24:16\">Targ. Job XXIV, 16</cite> (some ed. <i>Ithpa.</i>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְחַתֵּים"],
+			"senses": [
+				{
+					"gloss": "<i>to lock one’s self up</i>. V. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be sealed, stamped</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 4:1\">Targ. Esth. IV, 1</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 8:21\">Targ. Is. VIII, 21</cite>; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be closed up</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 15:3\">Targ. Y. Lev. XV, 3</cite> ed. pr. (ed. <he>אתסתם</he>)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

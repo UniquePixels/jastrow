@@ -1,0 +1,25 @@
+{
+	"id": "G00491",
+	"slug": "זלי",
+	"headword": {
+		"text": "זְלֵי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "זְלָא"
+		}
+	],
+	"page": {
+		"number": 401,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to flow, glide</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 4:21\">Targ. Prov. IV, 21</cite> (v. <cite ref=\"G00499\"><he>זְלַל</he></cite>)."
+			]
+		}
+	]
+}

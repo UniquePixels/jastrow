@@ -1,0 +1,52 @@
+{
+	"id": "E00800",
+	"slug": "הקפה",
+	"headword": {
+		"text": "הַקָּפָה"
+	},
+	"page": {
+		"number": 364,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>נָקַף</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>surrounding, going round</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 59a:3\">Yoma 59ᵃ</cite> <he>ה׳ ברגל</he> the sprinkling was done in walking around; <he>ה׳ ביד</he> by circular movements of the hand. ",
+				"<cite ref=\"Pesikta Rabbati 41:1\">Pesik. R. s. 41</cite> <he>הַקָּפַת המזבח</he> going around the altar in procession with the Lulab; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (ref. to <cite ref=\"Leviticus 19:27\">Lev. XIX, 27</cite>) <i>shaving the hair of the head all around</i>. ",
+			"units": [
+				"<cite ref=\"Nazir 29a:9\">Naz. 29ᵃ</cite> <he>ועביד ה׳</he> and he (the Nazir) may shave &c. ",
+				"<cite ref=\"Nazir 29a:9\">Ib.</cite> <he>הַקָּפַת כל הראש</he> shaving the entire head, opp. to <he>ה׳ פאה</he> shaving the ends, v. <cite ref=\"Q00006\"><he>פֵּאָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 2:1:5\">Y. Sot. II, beg. 17ᵈ</cite> <he>ה׳ נזירות</he> the shaving required by Nazir laws (<cite ref=\"Numbers 6:18\">Num. VI, 18</cite>); a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>growth of hair around a limb</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 10:8:4\">Y. Yeb. X, end, 11ᶜ</cite>; <cite ref=\"Sanhedrin 68b\">Snh. 68ᵇ</cite>"
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>debts for merchandise</i> payable at certain seasons (cmp. <cite ref=\"V00879\"><he>תְּקוּפָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 10:1\">Shebi. X, 1</cite>; <cite ref=\"Tosefta Shevi'it 8:3\">Tosef. ib. VIII, 3</cite> <he>הקפת חנות וכ׳</he> shop-debts are not subject to the law of limitation in the Sabbatical year.—Pl. <he>הַקָּפוֹת</he>. ",
+				"<cite ref=\"Bereishit Rabbah 41:1\">Gen. R. s. 41</cite> he came back <he>לפרוע הַקָּפוֹתָיו</he> to pay his debts; <cite ref=\"Yalkut Shimoni on Torah 69:3\">Yalk. ib. 69</cite>."
+			],
+			"label": "4"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "H01235",
+	"slug": "חמשיתא",
+	"headword": {
+		"text": "חַמְשִׁיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲמַשְׁתָּא"
+		}
+	],
+	"page": {
+		"number": 480,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01234\">preced.</cite> wds.) <i>a collection of five</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 2:5:2\">Y. Meg. II, 73ᵇ</cite> bot.; <cite ref=\"Jerusalem Talmud Berakhot 2:4:4\">Y. Ber. II, 4ᵈ</cite> <he>ח׳ קדמייתא</he> the first five (mentioned <cite ref=\"Mishnah Terumot 1:1\">Ter. I, 1</cite>); <he>ח׳ בתרייתא</he> the second five (mentioned ib. 6); (Readings vary <he>חמשתיה</he>, <cite ref=\"H01235\"><he>חמשתא</he></cite>)."
+			]
+		}
+	]
+}

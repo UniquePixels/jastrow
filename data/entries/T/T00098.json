@@ -1,0 +1,38 @@
+{
+	"id": "T00098",
+	"slug": "רביע-1",
+	"headword": {
+		"text": "רָבִיעַ"
+	},
+	"page": {
+		"number": 1442,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"T00104\"><he>רְבִיעִי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>one fourth</i>; ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>square</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sotah 5:13\">Tosef. Sot. V, 13</cite>; <cite ref=\"Eruvin 56b:8\">Erub. 56ᵇ</cite> <he>מגרש ר׳</he> the pasture ground of Levitic townships was one-fourth of the area; <cite ref=\"Jerusalem Talmud Sotah 5:3:2\">Y. Sot. V, 20ᵇ</cite> bot. <he>ר׳ מגרש</he>. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 5:3:2\">Ib.</cite> <he>ר׳ מאלף</he> it means a square of one thousand cubits; <he>אפי׳ תימא ר׳ מכל צד ר׳ חוא</he> even if you say that it means ‘square’, at all events it is one-fourth of the area. ",
+				"<cite ref=\"Mishnah Gittin 5:6\">Gitt. V, 6</cite> <he>נותן … ר׳</he>, v. <cite ref=\"O00825\"><he>סִיקָרִיקוֹן</he></cite>. ",
+				"<cite ref=\"Gittin 58b:15\">Ib. 58ᵇ</cite> <he>ר׳ בקרקע או ר׳ וכ׳</he> one-fourth of the property bought, or one-fourth of the purchase price. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 10:1:10\">Y. Pes. X, 37ᶜ</cite> top, a. e., v. <cite ref=\"I00335\"><he>טִיטַרְטוֹן</he></cite>; a. fr.—Pl. <cite ref=\"T00106\"><he>רְבִיעִין</he></cite> <i>blocks</i>. ",
+				"<cite ref=\"Mishnah Middot 3:5\">Midd. III, 5</cite> <he>ר׳ של ארז וכ׳</he> (Bart. <he>רִבּוּעִין</he>) cedar blocks were on top (of the columns). ",
+				"<cite ref=\"Mishnah Tamid 3:5\">Tam. III, 5</cite> <cite ref=\"T00107\"><he>רְבִיעִית</he></cite>.—[<cite ref=\"Tosefta Ta'anit 1:4\">Tosef. Taan. I, 4</cite>, v. <cite ref=\"T00101\"><he>רְבִיעָה</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

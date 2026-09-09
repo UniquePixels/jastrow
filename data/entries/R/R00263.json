@@ -1,0 +1,60 @@
+{
+	"id": "R00263",
+	"slug": "צות-2",
+	"headword": {
+		"text": "צוּת",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צִית"
+		}
+	],
+	"page": {
+		"number": 1272,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00262\">same</cite>, <i>to listen, obey</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 6:10\">Targ. Jer. VI, 10</cite> <he>למֵיצַת</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 5:3\">Targ. Ps. V, 3</cite> <cite ref=\"R00468\"><he>צֵית</he></cite> (imperat.). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 53:5\">Targ. Is. LIII, 5</cite> <he>וכדנָצֵית וכ׳</he> ed. Wil. (v. <cite ref=\"N00259\"><he>נְהֵי</he> I</cite>) and when we listen &c.; a. fr.—Part. <cite ref=\"R00263\"><he>צָיֵית</he></cite>, <he>צָיֵת</he>, <he>צָאִית</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 17:4\">Targ. Prov. XVII, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 130:2\">Targ. Ps. CXXX, 2</cite>; a. fr.—",
+				"<cite ref=\"Ketubot 63a:1\">Keth. 63ᵃ</cite> <he>אי לדידי צ׳</he> if he heeded my advice. ",
+				"<cite ref=\"Avodah Zarah 28b:10\">Ab. Zar. 28ᵇ</cite> <he>מאן צ׳ ליהודה וכ׳</he> who heeds what Judah the Sabbath-breaker says? <cite ref=\"Yevamot 89a:12\">Yeb. 89ᵃ</cite> <he>בתרי מאני צ׳ … לא צ׳</he> in the case of two vessels, if you tell him that he must give T’rumah from each, he will obey; in the case of one vessel, if you tell him that he must give T’rumah twice, he will not obey. ",
+				"<cite ref=\"Bava Kamma 113a:4\">B. Kam. 113ᵃ</cite> <he>על דלא צ׳ לדינא</he> a warrant issued because he did not heed the decision of the court; <he>כיון דאמר צָיִיתְנָא וכ׳</he> (Ms. M. <he>צָאִיתְנָא</he>, v. Rabb. D. S. a. l. notes 5, 6) as soon as he says, I shall obey, we tear up the warrant (v. <cite ref=\"Q02160\"><he>פְּתִיחָא</he></cite>); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָצֵית", "אַצֵּית"],
+			"senses": [
+				{
+					"gloss": " (with <cite ref=\"A00568\"><he>אודנא</he></cite>, or sub. <cite ref=\"A00568\"><he>אודנא</he></cite>) same. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 6:28\">Targ. Y. Ex. VI, 28</cite>. ",
+						"<cite ref=\"Onkelos Deuteronomy 1:45\">Targ. Deut. I, 45</cite>; a. fr.—",
+						"<cite ref=\"Bava Batra 74a:5\">B. Bath. 74ᵃ</cite> <he>אצית אי שמעת</he> listen! what dost thou hear?; <cite ref=\"Sanhedrin 110a\">Snh. 110ᵃ</cite> bot. ",
+						"<cite ref=\"Avodah Zarah 38b:6\">Ab. Zar. 38ᵇ</cite> <he>לא תְצִיתוּ ליה</he> heed him not. ",
+						"<cite ref=\"Ketubot 60a\">Keth. 60ᵃ</cite>, v. <cite ref=\"K00761\"><he>כְּלָלָא</he></cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["צַיֵּית"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to listen</i>. Y. Taan. I, 64ᵃ bot. <he>ובסופה את מְצַיֵּית ליה וכ׳</he> and finally thou madest him listen (to thee), and he said &c.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

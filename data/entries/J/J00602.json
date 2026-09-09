@@ -1,0 +1,24 @@
+{
+	"id": "J00602",
+	"slug": "ירואר",
+	"headword": {
+		"text": "יְרוֹאָר",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 594,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>ferule</i> (v. Löw Pfl. p. 190). ",
+			"units": [
+				"<cite ref=\"Pesachim 39a:5\">Pes. 39ᵃ</cite> <cite ref=\"J00432\"><he>מר י׳</he></cite> ed. (Ms. M. <he>מר ואלאי</he>). ",
+				"<cite ref=\"Pesachim 39a:5\">Ib.</cite> <he>מר זה הוא י׳</he> (Ms. M. <cite ref=\"L00015\"><he>אלאי</he></cite>) <i>mar</i>, that is <i>y’roar</i>; [for Var. lect. v. Rabb. D. S. a. l. note.] [Syr. <cite ref=\"J00615\"><he>ירורא</he></cite>, P. Sm. 1630.]"
+			]
+		}
+	]
+}

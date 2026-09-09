@@ -1,0 +1,35 @@
+{
+	"id": "K00128",
+	"slug": "כדיי-1",
+	"headword": {
+		"text": "כְּדָיי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּדָי",
+			"homograph": 1
+		},
+		{
+			"text": "כְּדַאי"
+		}
+	],
+	"page": {
+		"number": 613,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (formed from <cite ref=\"K00124\"><he>כְּדֵי</he></cite>, v. <cite ref=\"D00444\"><he>דַּי</he></cite>) <i>adequate, worthy, competent, deserving</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 76:5\">Gen. R. s. 76</cite> (ref. to <cite ref=\"Genesis 32:11\">Gen. XXXII, 11</cite>) <he>איני כ׳</he> I am not deserving (of any of all the mercies); <he>כ׳ אני אבל וכ׳</he> I am worthy (of some) but too small for all &c. ",
+				"<cite ref=\"Bava Batra 165b:14\">B. Bath. 165ᵇ</cite> <he>אני איני כ׳ שאתם וכ׳</he> I do not deserve the honor of having that question put to me by you. ",
+				"<cite ref=\"Gittin 90b:4\">Gitt. 90ᵇ</cite>; <cite ref=\"Tosefta Sotah 5:9\">Tosef. Sot. V, 9</cite> <he>כ׳ הוא במיתה</he> he deserves death. ",
+				"<cite ref=\"Berakhot 9a:4\">Ber. 9ᵃ</cite>, a. fr. the authority of <he>כ׳ הוא וכ׳</he> R. … is sufficient to be relied upon &c.; a. fr.—Pl. <he>כְּדָאִים</he>, <he>כְּדָאִין</he>, <cite ref=\"K00130\"><he>כְּדָיִין</he></cite>. Mekh. Yithro, Amalek, s. 1 <he>אין אנו ב׳ שישמשנו</he> (ed. Weiss <cite ref=\"K00130\"><he>כְּדָיִן</he></cite>) we are not worthy to be served by him; a. e.—<i>Fem.</i> <he>כְּדָאִית</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:2:5\">Cant. R. to I, 2</cite> <he>איני כ׳ לשפחתו</he> I am not worthy to be his handmaid."
+			]
+		}
+	]
+}

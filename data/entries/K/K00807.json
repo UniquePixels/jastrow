@@ -1,0 +1,43 @@
+{
+	"id": "K00807",
+	"slug": "כמן-2",
+	"headword": {
+		"text": "כָּמַן"
+	},
+	"page": {
+		"number": 646,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"K00817\"><he>כָּמַר</he></cite>) [<i>to be heated</i> in the ground,] <i>to be hidden, lie in wait</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּמֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to hide fruits</i> in the ground. ",
+					"units": [
+						"<cite ref=\"Mishnah Maasrot 4:1\">Maasr. IV, 1</cite> <he>המְכַמֵּן</he> Mish. a. Bab. ed. (Ms. M. <he>המכמיר</he>, Y. ed. <he>המכמר</he>, v. <cite ref=\"K00817\"><he>כָּמַר</he></cite>)."
+					]
+				}
+			],
+			"stem": "*."
+		},
+		{
+			"forms": ["הִכְמִין"],
+			"senses": [
+				{
+					"gloss": "<i>to keep witnesses hidden</i>, a proceeding applied only against seducers to idolatry (v. <cite ref=\"M01936\"><he>מֵסִית</he></cite>). ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 7:10\">Snh. VII, 10</cite> <he>מַכְמִינִין לו עדים וכ׳</he> the court puts witnesses in wait for him behind an enclosure. Y. Yeb. XVI, 15ᵈ bot.; a. e.—Y. Snh. VIII, 21ᶜ top <he>המַכְמִין עדיו וכ׳</he> he who keeps witnesses hidden (while eliciting a confession of indebtedness from his debtor), has done nothing, i.e. the confession has no legal consequences."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

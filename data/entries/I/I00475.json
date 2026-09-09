@@ -1,0 +1,25 @@
+{
+	"id": "I00475",
+	"slug": "טלה-2",
+	"headword": {
+		"text": "טָלֵה"
+	},
+	"altHeadwords": [
+		{
+			"text": "טֶלַה",
+			"reconstructed": true
+		}
+	],
+	"page": {
+		"number": 535,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " m. = <cite ref=\"I00495\"><he>טָלֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 37:2\">Targ. Y. Gen. XXXVII, 2</cite> (ed. Amst. <cite ref=\"I00485\"><he>טלח</he></cite>, corr. acc.)"
+			]
+		}
+	]
+}

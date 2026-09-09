@@ -1,0 +1,37 @@
+{
+	"id": "T00349",
+	"slug": "רוחצן",
+	"headword": {
+		"text": "רוּחְצָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "רוּחְצָנָא"
+		},
+		{
+			"text": "רוֹ׳"
+		},
+		{
+			"text": "רָחֲצָ׳"
+		}
+	],
+	"page": {
+		"number": 1458,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00536\"><he>רְחֵץ</he></cite>) <i>safety, reliance, security, faith</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 34:25\">Targ. Gen. XXXIV, 25</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 32:22\">Targ. II Chr. XXXII, 22</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 18:9\">Targ. II Kings XVIII, 9</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 36:8\">Targ. Ps. XXXVI, 8</cite> <he>ישרון לר׳</he> (Ms. <he>יתרחצון</he>); a. fr.—Pl. <he>רוּחְצָנַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 2:37\">Targ. Jer. II, 37</cite>."
+			]
+		}
+	]
+}

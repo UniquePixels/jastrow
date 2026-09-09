@@ -1,0 +1,46 @@
+{
+	"id": "B00827",
+	"slug": "בלוט-1",
+	"headword": {
+		"text": "בָּלוּט"
+	},
+	"page": {
+		"number": 171,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בלט</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>acorn, nut</i>.—Pl. <he>בְּלוּטִים</he>, <he>בְּלוּטִין</he>. ",
+			"units": [
+				"<cite ref=\"Menachot 63a:7\">Men. 63ᵃ</cite> <he>בְּלוּטֵי היונים</he> Grecian nuts (nut-ben; v. Sm. Ant. s. v. Balanus)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>oak</i>. <i>Pl.</i> as above. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 7:9:3\">Y. Keth. VII, end, 31ᵈ</cite>; <cite ref=\"Bereishit Rabbah 15:1\">Gen. R. s. 15</cite>, expl. <he>אַלּוֹנִים</he> (v. <cite ref=\"B00828\">next w.</cite>)"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. Sm. Ant. s. v. Porta) <i>peg placed in the door-bars</i> when quite home in the socket. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 6:1\">Pesik. R. s. 6</cite> if the gate-bars were wanting <he>ב׳ אחד</he> only one peg.—<i>Pl.</i> as above. Ibid."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>key-bit</i>. Y. Sabb. VIII, 11ᵇ bot. <cite ref=\"K00700\"><he>כלוט</he></cite> (corr. acc.); v. <cite ref=\"H01417\"><he>חָף</he></cite>.",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

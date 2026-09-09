@@ -1,0 +1,22 @@
+{
+	"id": "A03381",
+	"slug": "אשתלהיותא",
+	"headword": {
+		"text": "אִשְׁתַּלְהָיוּתָא"
+	},
+	"page": {
+		"number": 131,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., constr. <cite ref=\"A03381\"><he>אִשְׁתַּלְהֲיוּת</he></cite> (<cite ref=\"U01224\"><he>שלהי</he></cite>) <i>fainting</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 142:4\">Targ. Ps. CXLII, 4</cite>."
+			]
+		}
+	]
+}

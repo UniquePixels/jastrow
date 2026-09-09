@@ -1,0 +1,23 @@
+{
+	"id": "N00140",
+	"slug": "נגוטא",
+	"headword": {
+		"text": "נָגוֹטָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 873,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (prob. a Babylonian corrupt. of unguentum; cmp. <cite ref=\"N00142\"><he>נגוסטרי</he></cite> for <cite ref=\"A02101\"><he>אנגיסטור</he></cite>) <i>a spiced drink</i> (v. Sm. Ant. s. v. Vinum); [Ar. a <i>cup</i>]. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 38b:6\">Ab. Zar. 38ᵇ</cite> <he>נ׳ דחלא</he> a spiced drink of sour wine."
+			]
+		}
+	]
+}

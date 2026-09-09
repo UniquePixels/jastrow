@@ -1,0 +1,45 @@
+{
+	"id": "P01454",
+	"slug": "ערר-1",
+	"headword": {
+		"text": "עָרַר"
+	},
+	"page": {
+		"number": 1123,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>עֵירֵר</he> (v. <cite ref=\"P01419\"><he>עִרְעֵר</he> I</cite>) [<i>to stir up</i>,] <i>to protest, contest, object</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Gittin 1:2:3\">Y. Gitt. I, 43ᶜ</cite> top <he>אם בא ועי׳ עררו בטל</he> if the husband comes and contests (the validity of his letter of divorce), his objection is null and void. ",
+						"<cite ref=\"Jerusalem Talmud Gittin 1:2:3\">Ib.</cite> <he>הוא ערר משנישאת הוא ע׳ וכ׳</he> it is all the same whether he objects after she has remarried or before it. ",
+						"<cite ref=\"Jerusalem Talmud Ketubot 2:1:2\">Y. Keth. II, beg. 26ᵃ</cite> <he>נתאלמנה מי עוֹרֵר וכ׳</he> if she is a widow, who objects (opposes the woman’s claim)? <cite ref=\"Mishnah Gittin 1:3\">Gitt. I, 3</cite> <he>אם יש עליו עוֹרְרִים</he> if there are contestants against it (the letter of divorce); a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְעָרֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to be stirred up</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Sotah 2:2\">Tosef. Sot. II, 2</cite> <he>אפי׳</he> … <he>המים מִתְעָרְרִין עליה</he> Var. (ed. Zuck. <he>המים היה מִתְרַעְרְעִין</he>, read: <he>המים מתר׳</he> or <he>מִתְעַרְעֲרִין</he>) even if she goes astray twenty years afterwards, the waters will be stirred up (work injury) in her body."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "S01888",
+	"slug": "קרב-6",
+	"headword": {
+		"text": "קְרָב",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קְרָבָא"
+		}
+	],
+	"page": {
+		"number": 1411,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. <cite ref=\"S01887\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 21:15\">Targ. II Sam. XXI, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 27:3\">Targ. Ps. XXVII, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 35:1\">Ib. XXXV, 1</cite>; a. fr.—",
+				"<cite ref=\"Aramaic Targum to Psalms 35:1\">Ib.</cite> <he>קְרַבְתִּי</he>, v. <cite ref=\"S01890\"><he>קְרָבוּ</he></cite>.—",
+				"<cite ref=\"Tosefta Sotah 13:5\">Tosef. Sot. XIII, 5</cite>, v. <cite ref=\"N00146\"><he>נְגַח</he></cite>; Y. ib. IX, 24ᵇ; Bab. ",
+				"<cite ref=\"Sotah 33a:8\">ib. 33ᵃ</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 22:3\">Lev. R. s. 22</cite> <he>דעבד ק׳ עם וכ׳</he> who wages war with a king &c. ",
+				"<cite ref=\"Gittin 56a:10\">Gitt. 56ᵃ</cite> <he>ניפוק … ק׳ בהדייהו</he> let us go out and offer them (the Romans) battle; a. fr.—Pl. <he>קְרָבִין</he>, <he>קְרָבַיָּא</he>. ",
+				"<cite ref=\"Onkelos Numbers 21:14\">Targ. Num. XXI, 14</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 28:3\">Targ. I Chr. XXVIII, 3</cite>; a. e."
+			]
+		}
+	]
+}

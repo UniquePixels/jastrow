@@ -1,0 +1,33 @@
+{
+	"id": "M01113",
+	"slug": "מיחוי",
+	"headword": {
+		"text": "מִיחוּי"
+	},
+	"page": {
+		"number": 772,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00809\"><he>מָחָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cleansing</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 6:1\">Pes. VI, 1</cite> <he>מ׳ קרביו</he> the cleansing of its bowels, expl. ",
+				"<cite ref=\"Pesachim 68a:9\">ib. 68ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"M00793\"><he>מְחָאָה</he></cite>) <i>protest, declaration</i>. Ib. 88ᵃ <he>אין לך מ׳ וב׳</he> there can be no more distinct manifestation of will than this.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

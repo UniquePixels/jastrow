@@ -1,0 +1,60 @@
+{
+	"id": "U01878",
+	"slug": "שקע-2",
+	"headword": {
+		"text": "שְׁקַע"
+	},
+	"page": {
+		"number": 1624,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01877\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 15:10\">Targ. Y. Ex. XV, 10</cite>.—Y. Snh. X, 29ᵃ bot. <he>רעדת … ושְׁקוֹעַת</he> the earth shook and sank. ",
+				"<cite ref=\"Vayikra Rabbah 5:8\">Lev. R. s. 5</cite> <he>חמי בגרמיה דש׳ באריסותיה</he> when he sees that he is sinking (going back) in his tenancy. ",
+				"<cite ref=\"Vayikra Rabbah 17:3\">Lev. R. s. 17</cite> <he>שָׁקִיעַ ביתא</he>, v. <cite ref=\"L00239\"><he>לְוַט</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁקַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to sink, insert, immerse, cover</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 25:7\">Targ. O. Ex. XXV, 7</cite>. ",
+						"<cite ref=\"Targum Jerusalem, Numbers 4:20\">Targ. Y. II, Num. IV, 20</cite> (h. text <he>בלע</he>).—Y. Sabb. VII, 10ᵃ bot. <he>כד מְשַׁקַּע</he>, v. <cite ref=\"B00037\"><he>באנטרין</he></cite>. ",
+						"<cite ref=\"Menachot 96a:19\">Men. 96ᵃ</cite> <he>קנים שַׁקּוּעֵי משקע להו</he> as to the staves, he may have stuck them (into the bread before it was baked). ",
+						"<cite ref=\"Avodah Zarah 75b:16\">Ab. Zar. 75ᵇ</cite> <he>חזי … לשַׁקּוּעֵיה</he> he saw that the gentile (that pawned it) intended to forfeit it; a. e.—<i>Part. pass.</i> <he>מְשַׁקַּע</he> <i>inlaid; engraven</i>. Targ. II Esth. I, 2 (some ed. <he>מְשֻׁקַּע</he> Hebraism). ",
+						"<cite ref=\"Targum Jonathan on Exodus 25:33\">Targ. Y. Ex. XXV, 33</cite>, sq. <he>מְשַׁקְּעִין</he> (h. text <he>משקדים</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתַּקַּע"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּקַע"],
+			"senses": [
+				{
+					"gloss": "<i>to sink, go down; to be immersed, flooded</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 15:10\">Targ. O. Ex. XV, 10</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 51:64\">Targ. Jer. LI, 64</cite>. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 29:22\">Targ. Y. Deut. XXIX, 22</cite>. ",
+						"<cite ref=\"Targum Jonathan on Amos 9:5\">Targ. Am. IX, 5</cite>. ",
+						"<cite ref=\"Targum Jonathan on Amos 8:8\">Ib. VIII, 8</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

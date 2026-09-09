@@ -1,0 +1,24 @@
+{
+	"id": "R00010",
+	"slug": "צאן",
+	"headword": {
+		"text": "צֹאן"
+	},
+	"page": {
+		"number": 1257,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (b. h.) <i>flock, small cattle</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 73:10\">Gen. R. s. 73</cite> <he>צֹאנוֹ של לבן</he> Laban’s flock. ",
+				"<cite ref=\"Bereishit Rabbah 42:3\">Gen. R. s. 42</cite> <he>אם אין תישים אין צ׳ אם אין צ׳ וכ׳</he> where there are no bucks, there is no flock, and where there is no flock, there is no shepherd; <cite ref=\"Vayikra Rabbah 11:7\">Lev. R. s. 11</cite>; Esth. R. introd.; a. fr.—<he>צ׳ ברזל</he>, v. <cite ref=\"B01227\"><he>בַּרְזֶל</he></cite>."
+			]
+		}
+	]
+}

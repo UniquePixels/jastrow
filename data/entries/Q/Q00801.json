@@ -1,0 +1,35 @@
+{
+	"id": "Q00801",
+	"slug": "פיקוד",
+	"headword": {
+		"text": "פִּיקּוּד"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּקּ׳"
+		}
+	],
+	"page": {
+		"number": 1169,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"Q01449\"><he>פָּקַד</he></cite>)<i>charge, trust</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 1\">Num. R. s. 1</cite>, end <he>לא נמצא נאמן בפִיקּוּדוֹ</he> (not <he>נאה</he>) was not found true to his charge."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>count, muster</i>.—Pl. <he>פִּיקּוּדִים</he>, <cite ref=\"Q00801\"><he>פִּקּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Sotah 36b\">Sot. 36ᵇ</cite>; <cite ref=\"Mishnah Yoma 7:1\">Yoma VII, 1</cite>, a. e. <he>חומש הפ׳</he> the Book of Numbers, v. <cite ref=\"H00397\"><he>חוֹמֶשׁ</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

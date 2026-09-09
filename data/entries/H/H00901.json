@@ -1,0 +1,26 @@
+{
+	"id": "H00901",
+	"slug": "חיתוכא",
+	"headword": {
+		"text": "חִיתּוּכָא"
+	},
+	"page": {
+		"number": 461,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00900\">same</cite><i>cut</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 47b:2\">Ḥull. 47ᵇ</cite> <he>ח׳ דאוני</he> the incisions marking the lobes of the lung.—Pl. <he>חִיתּוּכֵי</he>. ",
+				"<cite ref=\"Chullin 48a:7\">Ib. 48ᵃ</cite> <he>ח׳ דאוני</he> ed. (Rashi: <he>מקום חיתוכה דאוני</he>) the place in the neck where the lungs begin to separate."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a portion cut off, segment</i> (<cite ref=\"H01886\"><he>חֲתִיכָה</he></cite>). Ib. 48ᵇ <he>מחטא … בח׳ דריאה</he> (Rashi: <he>בחִיתּוּכָהּ</he>) a needle was found in a segment of the lungs.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

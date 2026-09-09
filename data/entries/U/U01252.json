@@ -1,0 +1,24 @@
+{
+	"id": "U01252",
+	"slug": "שלום-2",
+	"headword": {
+		"text": "שָׁלוֹם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1579,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f. אִימָּא ש׳ <i>Imma</i> (<i>Mother</i>) <i>Shalom</i>, wife of R. Eliezer. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 6:1:7\">Y. Shebi. VI, 36ᶜ</cite> top. ",
+				"<cite ref=\"Eruvin 63a:16\">Erub. 63ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

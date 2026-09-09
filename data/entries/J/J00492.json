@@ -1,0 +1,30 @@
+{
+	"id": "J00492",
+	"slug": "יעף",
+	"headword": {
+		"text": "יָעֵף",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 585,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"P00312\"><he>עוּף</he></cite>)<i>to be bent, to be tired</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יִיעֵף"],
+			"senses": [
+				{
+					"gloss": "<i>to tire, annoy</i>. Tanḥ. Vayera 22 … <he>אל תשגיח ליָעֵף לנו</he> do not mind him (Satan), for he came only to annoy us; v., however, <cite ref=\"J00544\"><he>יָצַף</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

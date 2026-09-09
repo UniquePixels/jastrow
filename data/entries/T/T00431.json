@@ -1,0 +1,45 @@
+{
+	"id": "T00431",
+	"slug": "רוק-2",
+	"headword": {
+		"text": "רוּק",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1463,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"J00653\"><he>יָרַק</he></cite>) [<i>to be bright, clear</i>; cmp. <cite ref=\"L00099\"><he>לָבָן</he></cite>,] <i>to be blank, empty</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵרִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to empty, pour from vessel to vessel</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 1:3:1\">Cant. R. to I, 3</cite> (ref. to <he>תורק</he> <cite ref=\"Shir HaShirim Rabbah 1:3:1\">ib.</cite>) <he>כאדם שמֵרִיק מכלי וכ׳</he> like one emptying (perfumed oil) from one vessel into another. ",
+						"<cite ref=\"Nedarim 32a\">Ned. 32ᵃ</cite> (play on <he>וירק</he>, <cite ref=\"Genesis 14:14\">Gen. XIV, 14</cite>) <he>הֵרִיקָן מן התורה</he> Var. (v. Tosaf. a. l.) he made them empty of study (took the scholars away from their studies to make them go to war), v. <cite ref=\"J00653\"><he>יָרַק</he></cite>; a. e.—[<cite ref=\"Vayikra Rabbah 18:1\">Lev. R. s. 18</cite> <he>ומריקה את הכסף</he>, read: <he>ומריצה</he>, v. <cite ref=\"T00427\"><he>רוּץ</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּרַק"],
+			"senses": [
+				{
+					"gloss": "<i>to be emptied, be poured from vessel to vessel</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 3:7\">Lev. R. s. 3</cite> (ref. to <cite ref=\"Song of Songs 1:3\">Cant. I, 3</cite>, v. supra) <he>כשמן המוּרָק וכ׳</he> like oil that is poured from vessel to vessel without a sound."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

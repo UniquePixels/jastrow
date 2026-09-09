@@ -1,0 +1,25 @@
+{
+	"id": "N00932",
+	"slug": "נסיובי",
+	"headword": {
+		"text": "נַסְיוּבֵי"
+	},
+	"page": {
+		"number": 916,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (= <he>נסיבבי</he>; <cite ref=\"N00931\">preced.</cite> wds.; cmp. <cite ref=\"Q02021\"><he>פָּרַשׁ</he></cite> a. <cite ref=\"Q02024\"><he>פֶּרֶשׁ</he></cite>) [<i>that which is separated</i>,] <he>נ׳ דחלבא</he>, or <he>נ׳</he> <i>whey</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 42a:19\">Pes. 42ᵃ</cite>. ",
+				"<cite ref=\"Bava Metzia 68b\">B. Mets. 68ᵇ</cite> <he>נ׳ ותותרי</he> whey and refuse of wool. ",
+				"<cite ref=\"Avodah Zarah 35b:13\">Ab. Zar. 35ᵇ</cite> <he>איכא נ׳ דלא קיימי</he> there is the whey which does not curdle (and which may contain unclean milk)."
+			]
+		}
+	]
+}

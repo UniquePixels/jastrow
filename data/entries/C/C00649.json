@@ -1,0 +1,23 @@
+{
+	"id": "C00649",
+	"slug": "גיהא-1",
+	"headword": {
+		"text": "גִּיהא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 235,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00648\"><he>גיה</he></cite> = <cite ref=\"C00690\"><he>גִּיחַ</he></cite>, cmp. <cite ref=\"B01120\"><he>בְּקִיעַ</he></cite>) <i>cavity, pond</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 8b:5\">M. Kat. 8ᵇ</cite> (explain. <cite ref=\"N00108\"><he>נברכת</he></cite> a. <cite ref=\"B01120\"><he>בקיע</he></cite>) <he>ג׳ ובר ג׳</he> (Ms. M. <cite ref=\"C00653\"><he>גִּיהִיאָה</he></cite>) a pond and a pool derived from a pond."
+			]
+		}
+	]
+}

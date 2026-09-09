@@ -1,0 +1,56 @@
+{
+	"id": "O00194",
+	"slug": "סדק-2",
+	"headword": {
+		"text": "סְדַק"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְדֵיק"
+		}
+	],
+	"page": {
+		"number": 957,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00193\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 11:30\">Targ. I Kings XI, 30</cite> <he>סְדִיקָהּ</he> (not <cite ref=\"O00188\"><he>סדיקא</he></cite>, ed. Lag. <he>סַדְקָהּ</he>; h. text <he>קרע</he>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 2:12\">Targ. II Kings II, 12</cite>.—Part. pass. <cite ref=\"O00187\"><he>סְדִיק</he></cite>; f. <cite ref=\"O00188\"><he>סְדִיקָא</he></cite>; pl. <cite ref=\"O01632\"><he>סְדִיקִין</he></cite>; <cite ref=\"O00188\"><he>סְדִיקָן</he></cite> <i>cloven</i>. ",
+				"<cite ref=\"Onkelos Leviticus 11:7\">Targ. Lev. XI, 7</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 11:3\">Ib. 3</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 11:4\">Ib. 4</cite> <he>מִסְּדִיקֵי</he> (O. ed. Vien. <he>מַסְדִּי׳</he> <i>Af.</i>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 14:7\">Targ. Y. Deut. XIV, 7</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסְדֵּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to have a cloven hoof</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 11:5\">Targ. Lev. XI, 5</cite> sq. ed. Vien. (ed. Berl. <cite ref=\"O00188\"><he>סדיקא</he></cite>). Ib. 4, v. supra. ",
+						"<cite ref=\"Onkelos Deuteronomy 14:7\">Targ. O. Deut. XIV, 7</cite> (ed. Berl. <he>מִסְּדִיקֵי</he>). "
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["סַדֵּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to split</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 60:4\">Targ. Ps. LX, 4</cite> <he>סַדֵּיקְ׳</he> (some ed. <he>סְדִקְ׳</he>; ed. Lag. <he>סריק׳</he>; corr. acc.; h. text <he>פצמ׳</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

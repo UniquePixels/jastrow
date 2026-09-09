@@ -1,0 +1,70 @@
+{
+	"id": "C00031",
+	"slug": "גב-3",
+	"headword": {
+		"text": "גַּב"
+	},
+	"page": {
+		"number": 203,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>גבב</he>)<i>convex, arched</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the exterior</i> or <i>upper part</i> of a thing, ",
+			"units": [],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " <i>body</i>, esp. <i>back</i> (of an animal’s body, usu. <cite ref=\"A01017\"><he>אָחוֹר</he></cite>). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 8:1\">Gen. R. s. 8</cite>, beg. he split the double-faced body (v. <cite ref=\"Q01976\"><he>פרצוף</he></cite>) <he>ועשאו גַּבַּיִים ג׳ לכאן וכ׳</he> and gave it two backs, one back on this side &c.—<he>גַּב יָד</he>, <he>גַּב רֶגֶל</he> <i>a swelling</i> on the hand, on the foot. ",
+						"<cite ref=\"Avodah Zarah 28a:1\">Ab. Zar. 28ᵃ</cite>; <cite ref=\"Shabbat 109a:6\">Sabb. 109ᵃ</cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>eye-brow</i> (b. h.), <i>the elevation around genitals</i> &c. ",
+					"units": [
+						"<cite ref=\"Niddah 52b:36\">Nidd. 52ᵇ</cite> <he>א׳ בגַבָּהּ</he> one hair on the lower surrounding of her genitals, opp. <he>בכריסה</he>, v. <cite ref=\"K01244\"><he>כֶּרֶס</he></cite>; <cite ref=\"Bava Batra 56b\">B. Bath. 56ᵇ</cite>; <cite ref=\"Sanhedrin 30b\">Snh. 30ᵇ</cite>; <cite ref=\"Bava Kamma 70b:18\">B. Kam. 70ᵇ</cite>, [Rashi: on her finger joints].—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " (also <cite ref=\"C00046\"><he>גַּבָּה</he></cite>) <he>גַּבַּת הַזָּקֵן</he>, pl. <cite ref=\"C00066\"><he>גַּבּוֹת</he></cite>, <i>chin</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 23b\">Nidd. 23ᵇ</cite>; Y. ib. III, 50ᶜ bot. <he>גומות הזקן</he> (dimples).—*"
+					],
+					"label": "c"
+				},
+				{
+					"gloss": " <i>a low fence</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Metzia 11:22\">Tosef. B. Mets. XI, 22</cite> (ed. Zuck. <cite ref=\"C00148\"><he>גַּג</he></cite>).—<i>Du.</i> <he>גַּבַּיִים</he>, <cite ref=\"C00085\"><he>גַּבַּיִין</he></cite>. ",
+						"<cite ref=\"Mishnah Kelim 25:5\">Kel. XXV, 5</cite> outsides of vessels (usu. <he>אֲחוֹרַיִים</he>). ",
+						"<cite ref=\"Bereishit Rabbah 8:1\">Gen. R. s. 8</cite>, v. supra.—Pl. <he>גַּבִּים</he>, <cite ref=\"C00090\"><he>גַּבִּין</he></cite>, <cite ref=\"C00066\"><he>גַּבּוֹת</he></cite>. ",
+						"<cite ref=\"Mishnah Bekhorot 7:2\">Bekh. VII, 2</cite> <he>שני ג׳ וכ׳</he> double back and double spine (explain. <cite ref=\"C00115\"><he>גִּבֵּן</he></cite>, <cite ref=\"Leviticus 21:20\">Lev. XXI, 20</cite>); <cite ref=\"Niddah 24a:38\">Nidd. 24ᵃ</cite> sq.; <cite ref=\"Chullin 60b:7\">Ḥull. 60ᵇ</cite>.—",
+						"<cite ref=\"Niddah 23b\">Nidd. 23ᵇ</cite> <he>ג׳ הזקן</he>, v. supra.—<he>עַל גַּב</he>, <he>עַל גַּבֵּי</he> (abbr. <he>ע״ג</he>) <i>on, upon, by the side of</i> (cmp. <cite ref=\"P00757\"><he>עַל</he></cite> in b. h.). ",
+						"<cite ref=\"Chullin 3a\">Ḥull. 3ᵃ</cite>, a. fr. <he>עומד על גַּבָּיו</he> standing by him, superintending. ",
+						"<cite ref=\"Niddah 66a:36\">Nidd. 66ᵃ</cite> <he>על גב הנהר</he> by the river-side; <cite ref=\"Mishnah Makhshirin 1:4\">Makhsh. I, 4</cite> (v. <cite ref=\"C00787\"><he>גֵּיף</he></cite>). ",
+						"<cite ref=\"Mishnah Sukkah 4:4\">Succ. IV, 4</cite> <he>על גב איצטבא</he> (Talm. ed. 42ᵇ <cite ref=\"C00073\"><he>גבי</he></cite>), v. <cite ref=\"A01411\"><he>אִיסְטְבָא</he></cite>.—Trnsf. <i>on the basis, on the principle</i>. <he>אף על גב</he>, v. <cite ref=\"A02595\"><he>אַף</he> I</cite>.—",
+						"<cite ref=\"Jerusalem Talmud Chagigah 2:5:3\">Y. Ḥag. II, 78ᵇ</cite> bot. <he>חולין שנעשו על גב הקדש</he> (usu. <he>על טהרת הקדש</he>) layman’s food prepared on the principles of sacred food (as though it were sacred food). ",
+						"<cite ref=\"Mishnah Beitzah 2:3\">Bets. II, 3</cite> (<cite ref=\"Beitzah 17b\">17ᵇ</cite>); Tosef. ib. II, 7 <he>מטבילין מגב לגב</he> you may (on a Holy Day) immerse vessels for the purpose of changing their use (literally: from principle to principle, from one <he>על גב</he> to another); expl. ibid. <he>רצה לעשות גיתו ע״ג בדו ובדו ע״ג עיסתו הרי זה וכ׳</he> if one desires to work his wine press on the basis of his olive press, i.e. with vessels originally immersed for the use of the olive press, or his olive press on the basis of his dough, i.e. with vessels originally immersed to be used for kneading, he may immerse his vessels on the same day; <cite ref=\"Beitzah 19a:8-9\">Bets. 19ᵃ</cite> <he>ע״ג בדו ובדו ע״ג גיתו עושה</he> … Ms. M. a. Ar. (ed. incorr. <cite ref=\"K00112\"><he>כדו</he></cite>) if one wishes to change &c., he might have done so (even without another immersion and, therefore, may re-immerse his vessels on the Holy Day because he does not thereby create a new status).—Cmp. <cite ref=\"A00235\"><he>אַגַּב</he></cite>.—",
+						"<cite ref=\"Tosefta Shabbat 12:1\">Tosef. Sabb. XII</cite> (<cite ref=\"Tosefta Shabbat 13:1\">XIII</cite>), 1; Y. ib. XIII, 14ᵃ top <he>ע״ג הגס וכ׳</he> around, or adding to the border of a web &c.; Bab. ",
+						"<cite ref=\"Shabbat 105a:12\">ib. 105ᵃ</cite> <he>על הגס</he>. ",
+						"<cite ref=\"Mishnah Horayot 3:3\">Hor. III, 3</cite> <he>אין על גַּבָּיו אלא וכ׳</he> none over him save the Lord his God.—בְּגַב <i>in the back, behind</i>. ",
+						"<cite ref=\"Jerusalem Talmud Ketubot 12:3:11\">Y. Keth. XII, 35ᵇ</cite> top <he>דברים בגב</he> (Bab. ",
+						"<cite ref=\"Ketubot 111a:22\">ib. 111ᵃ</cite> <he>בגו</he>) there is something behind, i.e. there is a reason for it.—Cmp. <cite ref=\"K00980\"><he>כַּף</he></cite>."
+					],
+					"label": "d"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "S01385",
+	"slug": "קלסטיר-2",
+	"headword": {
+		"text": "קְלַסְטֵיר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קְלַסְטָר",
+			"homograph": 2
+		},
+		{
+			"text": "קְלַסְתָּר"
+		}
+	],
+	"page": {
+		"number": 1379,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κρύσταλλος, crystallum) <i>crystal</i>; trnsf. <i>brightness</i>, (with, or sub. <he>פנים</he>; cmp. <cite ref=\"G00299\"><he>זִיו</he></cite>) <i>beauty of features, countenance</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 7a:31-32\">Ber. 7ᵃ</cite> <he>בשכר … זכה לק׳ פנים</he> as a reward for hiding his face (<cite ref=\"Exodus 3:6\">Ex. III, 6</cite>) he was granted the shining face (<cite ref=\"Exodus 34:29\">Ex. XXXIV, 29</cite> sq.). ",
+				"<cite ref=\"Niddah 31a\">Nidd. 31ᵃ</cite> <he>והקב״ה נותן … וק׳ פנים וכ׳</he> and God gives it (the embryo) spirit and soul, and beauty of features, and power of sight &c. ",
+				"<cite ref=\"Bava Metzia 87a:13\">B. Mets. 87ᵃ</cite> <he>נהפך ק׳ פנים וכ׳</he> Isaac’s features were changed and made to resemble Abraham’s. ",
+				"<cite ref=\"Vayikra Rabbah 18:1\">Lev. R. s. 18</cite>, beg. (ref. to <cite ref=\"Ecclesiastes 12:2\">Koh. XII, 2</cite>) <he>השמש זו ק׳ פ׳</he> ‘the sun (is darkened)’, that means the bright countenance; a. fr.—<i>Pl.</i> (used as sing.) <he>קְלַסְטֵירִין</he>. ",
+				"<cite ref=\"Shemot Rabbah 28:1\">Ex. R. s. 28</cite>, beg. <he>עשה</he> (<cite ref=\"B00198\"><he>בו</he></cite>) <he>הקב״ה ק׳ של פניו … דומה וכ׳</he> the Lord made Moses’ features resemble those of Abraham.—[<cite ref=\"Sanhedrin 104b\">Snh. 104ᵇ</cite> <he>קלסתר</he> Rashi, v. <cite ref=\"S01388\"><he>קְלַסְתָּא</he></cite>.]"
+			]
+		}
+	]
+}

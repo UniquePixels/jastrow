@@ -1,0 +1,24 @@
+{
+	"id": "R00404",
+	"slug": "ציפאריי",
+	"headword": {
+		"text": "צִיפָּארָיֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1278,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"R00715\"><he>צַפְרָא</he></cite>) <i>the sparkling morning lights</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:1:4\">Y. Ḥag. II, beg. 77ᵃ</cite> (interpret <he>עושה שחר עיפה</he>, <cite ref=\"Amos 4:13\">Am. IV, 13</cite>) <he>אילין צ׳ תוהו וכ׳</he> (he turns) the morning lights into voidness, darkness and obscurity."
+			]
+		}
+	]
+}

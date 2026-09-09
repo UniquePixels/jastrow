@@ -1,0 +1,26 @@
+{
+	"id": "S00577",
+	"slug": "קורד",
+	"headword": {
+		"text": "קוֹרְדּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "יקַיָּיה"
+		}
+	],
+	"page": {
+		"number": 1341,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"S00583\"><he>קוּרְדְּקִין</he></cite>) a certain style of <i>shoes, dancing shoes</i>. Y. Sabb. VI, 8ᵇ bot. (expl. <he>עכסים</he>, <cite ref=\"Isaiah 3:18\">Is. III, 18</cite>, Vulgate: calceamenta).",
+			"units": []
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "A03302",
+	"slug": "אשך",
+	"headword": {
+		"text": "אֶשֶׁךְ"
+	},
+	"page": {
+		"number": 128,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; denom. of <cite ref=\"A01615\"><he>אִישׁ</he></cite>)<i>testicle</i>. Pl. <he>אֲשָׁכִים</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 7:5\">Bekh. VII, 5</cite> (<cite ref=\"Bekhorot 44b:16\">44ᵇ</cite>). Tosef. ib. V, 4.—Denom. <cite ref=\"M00017\"><he>מְאוּשְׁכָּן</he></cite> <i>one having large testicles</i>. Bekh. l. c. (Ib. ed. <cite ref=\"M00017\"><he>מאושבן</he></cite>, v. <cite ref=\"U01632\"><he>שעבז</he></cite>)."
+			]
+		}
+	]
+}

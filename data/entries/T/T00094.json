@@ -1,0 +1,36 @@
+{
+	"id": "T00094",
+	"slug": "רביכה",
+	"headword": {
+		"text": "רְבִיכָה"
+	},
+	"page": {
+		"number": 1442,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>רבך</he>, cmp. <cite ref=\"T00054\"><he>רבג</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a pulp of flour mixed with hot water and oil</i> (v. ",
+			"units": [
+				"<cite ref=\"Leviticus 7:12\">Lev. VII, 12</cite>). ",
+				"<cite ref=\"Menachot 89a:6\">Men. 89ᵃ</cite> (ref. to Lev. l. c.) <he>יכול יהא חצי … ולר׳</he> lest you think that the half Log of oil is to be equally distributed among the cakes, the wafers, and the pulp; <he>כשהוא אומר בשמן בר׳ ריבה שמן לר׳</he> (Rashi <he>ברְבוּכָה</he>) as the text repeats ‘with oil’ in connection with the pulp, it intimates by the repetition that more oil is required for the pulp. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 11:4:4\">Y. Snh. XI, 30ᵇ</cite>. ",
+				"<cite ref=\"Tamid 28b:20\">Tam. 28ᵇ</cite> <he>להחם חמין לר׳</he> (Ar. <he>לרבוכה</he>) to make hot water for the pulp. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 2:4:10\">Y. Pes. II, 29ᵇ</cite> bot."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"T00070\"><he>רְבוּכָה</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

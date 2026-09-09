@@ -1,0 +1,23 @@
+{
+	"id": "A01618",
+	"slug": "אישה",
+	"headword": {
+		"text": "אִישֶּׁה"
+	},
+	"page": {
+		"number": 60,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"A03266\"><he>אִשֶּׁה</he></cite> , v. <cite ref=\"A03254\"><he>אֵשׁ</he></cite>) <i>burnt-offering.—</i>Pl. <he>אִישִּׁים</he>, <he>אִשִּׁ׳</he>. ",
+			"units": [
+				"<cite ref=\"Nedarim 13a:9\">Ned. 13ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Zevachim 5:4\">Zeb. V, 4</cite> <he>כליל לא׳</he> altogether to be burnt; a. fr."
+			]
+		}
+	]
+}

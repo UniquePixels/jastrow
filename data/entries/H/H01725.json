@@ -1,0 +1,24 @@
+{
+	"id": "H01725",
+	"slug": "חרס-2",
+	"headword": {
+		"text": "חֶרֶס",
+		"homograph": 2
+	},
+	"page": {
+		"number": 504,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; חרס <i>to glow;</i> cmp. <cite ref=\"H01607\"><he>חָרָה</he></cite>) <i>the sun</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 110a:2\">Men. 110ᵃ</cite> (ref. to <cite ref=\"Isaiah 19:18\">Is. XIX, 18</cite>) <he>מאי עיר הח׳</he> (late eds. <he>הה׳</he>, v. Rabb. D. S. a. l. note) what is <i>Ir ha-Ḥeres?</i> <he>קרתא דבית שמשא</he> the city of Beth-Shemesh; <he>מאי משמע דהאי ח׳ לישנא וכ׳</he> where is the evidence that <i>ḥeres</i> means sun? (Answ. ref. to <cite ref=\"Job 9:7\">Job IX, 7</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 1:2:3\">Y. Ned. I, 37ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Nazir 1:1:6\">Y. Naz. I, beg. 51ᵃ</cite> <he>ח׳ לשון גבוה הוא</he> <i>ḥeres</i> (as a substitute for <cite ref=\"H01716\"><he>חֵרֶם</he></cite>, v. <cite ref=\"H01724\">preced.</cite>) has reference to Deity, (as we read) ‘who speaks to the sun’ (Job l. c.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "N00009",
+	"slug": "נאדי",
+	"headword": {
+		"text": "נָאדִי"
+	},
+	"page": {
+		"number": 865,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00222\"><he>נדי</he></cite>, v. <cite ref=\"N00307\"><he>נוּד</he></cite>) <i>flying off</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 45b:14\">Sot. 45ᵇ</cite> <he>רישא דנ׳ ונפיל</he> it was the head (of the murdered man) that flew off and fell (at a distance from the body). ",
+				"<cite ref=\"Nedarim 16a:9\">Ned. 16ᵃ</cite> <he>הוה נ׳ מן וכ׳</he> Rashi (ed. only <he>נ׳</he>) flew off from, i.e. rejected the reason given by A."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "S01662",
+	"slug": "קסייה",
+	"headword": {
+		"text": "קְסִיָּיה"
+	},
+	"page": {
+		"number": 1396,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>קסי</he> = <cite ref=\"K00917\"><he>כָּסָה</he> II</cite>) [<i>cover, protection</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": " a sort of <i>glove</i> for laborers. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:6\">Kel. XVI, 6</cite> (ed. Dehr. <cite ref=\"S01656\"><he>קְסִיָּה</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " ק׳ של שלחנות <i>table cloth</i>, a sheet spread over the set table to protect it from flies &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Makhshirin 5:8\">Makhsh. V, 8</cite> <cite ref=\"S01656\"><he>קסיה</he></cite> ed. Dehr. (ed. <cite ref=\"S01656\"><he>קסיא</he></cite>); [Ar.: <i>vessels</i>, cmp. <cite ref=\"S01638\"><he>קִסְוָה</he></cite>,—which, however, does not suit the context]."
+			],
+			"label": "2"
+		}
+	]
+}

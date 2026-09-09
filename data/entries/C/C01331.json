@@ -1,0 +1,43 @@
+{
+	"id": "C01331",
+	"slug": "גריוא",
+	"headword": {
+		"text": "גְּרִיוָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּרִיוָה"
+		},
+		{
+			"text": "גְּרִיבָא"
+		}
+	],
+	"page": {
+		"number": 268,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C01232\"><he>גרב</he></cite>, <he>גרף</he>, labial softened) [<i>a quantity carried at a time to and from the hand-mill</i> (cmp. I <he>גָּרָב</he> 1),] 1) <i>griva</i>, a dry measure (= <cite ref=\"O00007\"><he>סְאָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 43a:5\">Ab. Zar. 43ᵃ</cite> <he>והוא דנקיט ג׳ וכ׳</he> provided the statue (of Serapis) has a <i>grivah</i> (modius) as a symbol of measuring (v. Sm. Ant. s. v. Coma). ",
+				"<cite ref=\"Eruvin 29b:9\">Erub. 29ᵇ</cite> <cite ref=\"C01297\"><he>גרויא</he></cite> (corr. acc., v. Rabb. D. S. a. l. note 1). ",
+				"<cite ref=\"Pesachim 32a:4\">Pes. 32ᵃ</cite>. ",
+				"<cite ref=\"Nedarim 51a:1\">Ned. 51ᵃ</cite> <he>כל ג׳ וכ׳</he> whatever measure I may want."
+			]
+		},
+		{
+			"gloss": " <he>בי ג׳</he> or <he>ג׳</he> <i>the size of a field needed for a griva of seed</i> (cmp. <cite ref=\"O00007\"><he>סְאָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bava Kamma 96a:2\">B. Kam. 96ᵃ</cite> <he>ג׳ דארעא</he> a <i>griva</i> of land; <cite ref=\"Bava Metzia 110b:9\">B. Mets. 110ᵇ</cite>; <cite ref=\"Bava Metzia 15b:4\">ib. 15ᵇ</cite> <cite ref=\"C01236\"><he>גרבא</he></cite> ed. (Ms. M. <cite ref=\"C01297\"><he>גרויא</he></cite>, Ms. F. <he>גריבא</he>, Ms. R. <cite ref=\"C01331\"><he>גריוא</he></cite>, v. Rabb. D. S. a. l. note).—Pl. <he>גְּרִיוֵי</he>. ",
+				"<cite ref=\"Eruvin 14b:7\">Erub. 14ᵇ</cite>. ",
+				"<cite ref=\"Bava Batra 73a:9\">B. Bath. 73ᵃ</cite>, v. <cite ref=\"B00462\"><he>בְּזַק</he></cite>. ",
+				"<cite ref=\"Nedarim 50b:11\">Ned. 50ᵇ</cite> sq."
+			],
+			"label": "2"
+		}
+	]
+}

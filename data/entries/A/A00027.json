@@ -1,0 +1,30 @@
+{
+	"id": "A00027",
+	"slug": "אבגינוס",
+	"headword": {
+		"text": "אֶבְגִּינוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶוְוגִּינוֹס"
+		},
+		{
+			"text": "אֶוְגִּינֵס"
+		}
+	],
+	"page": {
+		"number": 2,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (corr. <cite ref=\"N00698\"><he>נֵיס</he></cite>—εὐγενής) of <i>noble descent</i>. Koh. R. beg.; a. fr. (<cite ref=\"Midrash Tehillim 1\">Midr. Till. to Ps. I</cite> <cite ref=\"A00127\"><he>אביינוס</he></cite>; Cant. R. beg. <he>אווגיטוס</he>, corr. acc.).—Pl. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 863:8\">Yalk. Ps. 863</cite> <he>שהוא אֶוְגְּנֵסִין</he> (read <he>בן א׳</he>) he is the son of nobles; <cite ref=\"Midrash Tehillim 105:6\">Midr. Till. to Ps. CV</cite> <he>בן גנסין</he> (corr. acc.) cmp. <he>גְּנִיס</he>."
+			]
+		}
+	]
+}

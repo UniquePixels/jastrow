@@ -1,0 +1,27 @@
+{
+	"id": "Q01887",
+	"slug": "פרנוק",
+	"headword": {
+		"text": "פִּרְנוּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּירְ׳"
+		}
+	],
+	"page": {
+		"number": 1231,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.; pl. <he>פִּרְנוּקִין</he>, (<cite ref=\"Q01906\"><he>פַּרְנֵק</he></cite>) <cite ref=\"Q01746\"><he>פִּירְ׳</he></cite> <i>delight</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 119:24\">Targ. Ps. CXIX, 24</cite> (ed. Wil. sing.); <cite ref=\"Aramaic Targum to Psalms 119:92\">ib. 92</cite>; <cite ref=\"Aramaic Targum to Psalms 119:143\">ib. 143</cite>; a. e."
+			]
+		}
+	]
+}

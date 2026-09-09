@@ -1,0 +1,63 @@
+{
+	"id": "R00241",
+	"slug": "צור-2",
+	"headword": {
+		"text": "צוּר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1270,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"J00548\"><he>יָצַר</he></cite>) [<i>to turn</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to tie around, wrap</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 49b\">B. Kam. 49ᵇ</cite>, a. e. <he>וכי לָצוּר על פי וכ׳</he> does one want a document to tie around his flask?, i.e. does one care for a paper except for the value it represents? <cite ref=\"Kohelet Rabbah 8:8:1\">Koh. R. to VIII, 8</cite> (ref. to <cite ref=\"Zechariah 12:1\">Zech. XII, 1</cite> <he>ויצר</he>) <he>צָר רוח של אדם בגופו</he> he tied up the spirit of man in his body, v. <cite ref=\"R00735\"><he>צָרַר</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to form, shape</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 75b:3\">Sabb. 75ᵇ</cite> <he>הצָר צורה בכלי</he> he who draws a figure on a vessel. ",
+				"<cite ref=\"Shabbat 103b:7\">Ib. 103ᵇ</cite> <he>עד שיָצוּר כולו</he> until he has drawn the entire figure which he intended to draw. ",
+				"<cite ref=\"Bereishit Rabbah 7:1\">Gen. R. s. 7</cite>, beg.; <cite ref=\"Yalkut Shimoni on Torah 11:2\">Yalk. ib. 11</cite> <he>מדת בו״ד צר צורה … יכול לצור צורה במים</he> (not <he>מלך</he>) a human being draws a design on land, can he draw a design in water?; Mekh. B’shall., Shir., s. 8. ",
+				"<cite ref=\"Vayikra Rabbah 14:9\">Lev. R. s. 14</cite> <he>לשני ציירין זה צר דמותו וכ׳</he> like two painters, one paints the likeness of one &c.; a. fr.—",
+				"<cite ref=\"Zevachim 94a\">Zeb. 94ᵃ</cite>, v. infra."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (with <he>על</he>) <i>to surround, besiege</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 203:4\">Sifré Deut. 203</cite> <he>אין צָרִים על עיר וכ׳</he> we must not begin the siege of a town later than three days before the Sabbath; a. e.—["
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"G00233\"><he>זוּר</he></cite>) <i>to press</i>, v. <cite ref=\"R00452\"><he>צִיר</he> I</cite>.]",
+			"units": [],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צִיֵּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to draw, paint; to embroider</i>. ",
+					"units": [
+						"<cite ref=\"Zevachim 94a\">Zeb. 94ᵃ</cite> <he>בגד עליו לצַיְּירוֹ</he> … Rashi (ed. <he>עליה לצוּרָהּ</he>; v. Rabb. D. S. a. l. note 1) a garment which one intends to embroider.—Part. pass. <he>מְצוּיָּיר</he>, <he>מְצוּיָּר</he>; f. <he>מְצוּיֶּירֶת</he>; pl. <he>מְצוּיָּירִים</he>, <he>מְצוּיָּירִין</he>; <he>מְצוּיָּירוֹת</he>, <he>מְצוּיָּר׳</he>. ",
+						"<cite ref=\"Bamidbar Rabbah 12:11\">Num. R. s. 12</cite>; <cite ref=\"Shir HaShirim Rabbah 6:4\">Cant. R. to VI, 4</cite> (not <cite ref=\"R00180\"><he>צוויינות</he></cite>); <cite ref=\"Yalkut Shimoni on Torah 713:3\">Yalk. Num. 713</cite> (not <he>מצויינות</he>), v. <cite ref=\"R00015\"><he>צָב</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

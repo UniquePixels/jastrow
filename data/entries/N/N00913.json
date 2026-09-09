@@ -1,0 +1,44 @@
+{
+	"id": "N00913",
+	"slug": "נס-3",
+	"headword": {
+		"text": "נֵס"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִסָּא"
+		},
+		{
+			"text": "נִי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 915,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"N00911\"><he>נֵס</he> I</cite><i>flag, sign, miraculous event</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 25:8\">Targ. Y. Num. XXV, 8</cite>; a. fr.—Y. Pes. V, 32ᶜ bot. <he>נסא הוה רב</he> a great event (delivery from danger) had occurred; <cite ref=\"Jerusalem Talmud Taanit 3:11:5\">Y. Taan. III, end, 67ᵃ</cite> <he>ניסא</he>. ",
+				"<cite ref=\"Berakhot 54a:11\">Ber. 54ᵃ</cite> <he>נ׳ דרבים</he> a providential event which concerns the community, opp. <he>נ׳ דיחיד</he>. ",
+				"<cite ref=\"Megillah 3b:10\">Meg. 3ᵇ</cite> <he>משום פרסומי נ׳</he> because it is a duty to proclaim the wonderful event (in the Book of Esther); <cite ref=\"Shabbat 23b:3\">Sabb. 23ᵇ</cite> <he>פרסומי נ׳</he> to proclaim the wonderful events (of the Maccabean days, by lighting the candles); a. v. fr.—Pl. <he>נִסִּין</he>, <cite ref=\"N00928\"><he>נִסַּיָּא</he></cite>, <cite ref=\"N00927\"><he>נִסֵּי</he></cite>, <cite ref=\"M01772\"><he>נִי׳</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 17:15\">Targ. O. Ex. XVII, 15</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Numbers 21:14\">Targ. Y. II, Num. XXI, 14</cite>; a. fr.—Y. Ter. VIII, end, 46ᶜ. ",
+				"<cite ref=\"Yoma 21a:9\">Yoma 21ᵃ</cite> <he>נ׳ דגואי</he> wonders which happened within the Temple; <he>נ׳ דבראי</he> outside of the Temple. Ib.ᵇ <he>נ׳ דקביעי</he> permanent, regularly recurring wonders; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"N00934\"><he>נִסָּיוֹן</he></cite>) <i>trial</i>.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 15:25\">Targ. Y. II, Ex. XV, 25</cite>.—Y. Maas. Sh. V, end, 55ᶜ (oneirocritical play on <cite ref=\"N00711\"><he>נִיסַן</he></cite>) <he>וניסין לית את חמי</he> and thou shalt experience no trials; (<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>רבתי נִסְיוֹנִין</he> (<he>חד מתלמ׳</he>); <cite ref=\"Berakhot 56b:3\">Ber. 56ᵇ</cite> <he>ולא אתית לידי נסיון</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

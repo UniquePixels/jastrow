@@ -1,0 +1,35 @@
+{
+	"id": "S01452",
+	"slug": "קמור",
+	"headword": {
+		"text": "קָמוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְמוֹרָא"
+		},
+		{
+			"text": "קַמְרָא"
+		}
+	],
+	"page": {
+		"number": 1384,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01495\"><he>קְמַר</he></cite>) <i>belt</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 18:33\">Targ. Ps. XVIII, 33</cite> (ed. Wil. <cite ref=\"S01452\"><he>קָמוּר</he></cite>); <cite ref=\"Aramaic Targum to Psalms 18:40\">ib. 40</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 109:19\">Ib. CIX, 19</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 16:4\">Targ. Y. Lev. XVI, 4</cite> (ed. Amst. <cite ref=\"S01452\"><he>קַמּוּרָא</he></cite>); a. e.—",
+				"<cite ref=\"Shabbat 59b:13\">Sabb. 59ᵇ</cite> <he>ק׳ שרי</he> a woman is permitted to go out on the Sabbath with a (gold) belt. ",
+				"<cite ref=\"Shabbat 59b:13\">Ib.</cite> <he>ק׳ עילוי וכ׳</he> how about wearing a <i>ḳamra</i> over a <i>hemyan</i> (v. <cite ref=\"E00607\"><he>הֶמְיָין</he></cite>). ",
+				"<cite ref=\"Horayot 13b:17\">Hor. 13ᵇ</cite> <he>נהי דאהני לך ק׳ וכ׳</he> (En Yaaḳ. <cite ref=\"S00408\"><he>קוּמְרָא</he></cite>) because thy father’s (official) belt helped thee to be president of the court, must we make thee Nasi?"
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "G00267",
+	"slug": "זיבונא",
+	"headword": {
+		"text": "זִיבּוּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִבּ׳"
+		}
+	],
+	"page": {
+		"number": 390,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00052\"><he>זבן</he></cite>) <i>sale</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 25:42\">Targ. O. Lev. XXV, 42</cite>; a. e."
+			]
+		}
+	]
+}

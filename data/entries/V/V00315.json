@@ -1,0 +1,36 @@
+{
+	"id": "V00315",
+	"slug": "תורפה",
+	"headword": {
+		"text": "תּוֹרְפָה"
+	},
+	"page": {
+		"number": 1658,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V01043\"><he>תָּרַף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>decay, filth</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 8:8\">Ter. VIII, 8</cite> <he>היתה מונחת במקום הת׳ … המוצנע</he> (Ar. <he>התּוֹרֶף</he>) if it (the jar of unclean wine) was lying in a neglected place, he must put it in a decent place.—Trnsf. <i>obscenity</i>; <he>מקום בית הת׳</he>, <he>הת׳</he> <i>pudenda</i>. ",
+				"<cite ref=\"Shabbat 64b:2\">Sabb. 64ᵇ</cite> <he>במקום הת׳</he> (Ms. M. <he>התורף</he>; Ar. <he>במקום תּוֹרְפָהּ</he>). ",
+				"<cite ref=\"Mishnah Niddah 8:1\">Nidd. VIII, 1</cite> <he>בית הת׳</he>; a. e.—Tanḥ. Vayetsé 12 (expl. <cite ref=\"V01050\"><he>תְּרָפִים</he></cite>) <he>מעשה תורף וכ׳</he> works of filth, works of uncleanness."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"P01321\"><he>עֶרְוָה</he></cite>) <i>weakness</i>. ",
+			"units": [
+				"<cite ref=\"Shevuot 16a:9\">Shebu. 16ᵃ</cite> <he>מפני שת׳ של ירושלים היתה וכ׳</he> (or <he>שתּוֹרְפָהּ</he>) because it was the weak point of Jerusalem, and could easily be captured."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"id": "E00018",
+	"slug": "האן",
+	"headword": {
+		"text": "הָאן"
+	},
+	"page": {
+		"number": 328,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>הא אן</he>) <i>where? whither?</i> <cite ref=\"Targum Jonathan on Genesis 22:7\">Targ. Y. Gen. XXII, 7</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 24:25\">Targ. Job XXIV, 25</cite> Ms. (ed. <cite ref=\"E00650\"><he>הָן</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 139:7\">Targ. Ps. CXXXIX, 7</cite> Ms. (ed. Lag. <he>אן … והאן</he>; ed. <he>אן … ואן</he>); a. e.—V. <cite ref=\"E00650\"><he>הָן</he></cite>."
+			]
+		}
+	]
+}

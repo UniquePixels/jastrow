@@ -1,0 +1,36 @@
+{
+	"id": "C00545",
+	"slug": "גזיזה",
+	"headword": {
+		"text": "גְּזִיזָה"
+	},
+	"page": {
+		"number": 230,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גזז</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>shearing wool</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 750:17\">Yalk. Num. 750</cite> (Korah, beg.) <he>זמן הג׳</he> (<cite ref=\"Midrash Tehillim 1:13\">Midr. Till. to Ps. I</cite> <he>זמן גיזה</he>) the season of shearing. ",
+				"<cite ref=\"Chullin 135a:20\">Ḥull. 135ᵃ</cite> <he>מחוסר ג׳ וכ׳</he> wants shearing, redemption &c. ",
+				"<cite ref=\"Bereishit Rabbah 74:5\">Gen. R. s. 74</cite>; s. 85; Midr. Sam. ch. XXIII <he>כל מקום שנ׳ ג׳ וכ׳</he> wherever shearing is mentioned in biblical accounts, it marks (an important epoch)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"H01886\"><he>חתיכה</he></cite>, v. <cite ref=\"C00544\">preced.</cite>) <i>piece, shred.—</i>Pl. <he>גְּזִיזוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Orlah 3:1:12\">Y. Orl. III, 63ᵃ</cite> top (in Chald. diction) what profit is it to him <he>גזים גזיזית</he> (read … <he>זוֹת</he>) to cut it into shreds?"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "K00820",
+	"slug": "כמריאתא",
+	"headword": {
+		"text": "כְּמַרְיָאתָא"
+	},
+	"page": {
+		"number": 647,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"K00819\">preced.</cite> wds.) <i>withered, black fruits</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 5:10\">Lam. R. to V, 10</cite> (expl. <he>נכמרו</he> <cite ref=\"Eichah Rabbah 5:10\">ib.</cite>) <he>כאילין כ׳</he> wrinkled like withered fruits."
+			]
+		}
+	]
+}

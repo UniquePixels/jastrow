@@ -1,0 +1,29 @@
+{
+	"id": "R00334",
+	"slug": "צייד-1",
+	"headword": {
+		"text": "צַיָּיד"
+	},
+	"altHeadwords": [
+		{
+			"text": "צַיָּד"
+		}
+	],
+	"page": {
+		"number": 1276,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"R00161\"><he>צוּד</he></cite>)<i>hunter, fowler, fisher</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 19:11\">Gen. R. s. 19</cite> <he>לצפור … ביד צ׳</he> this is to be compared to a bird in the hand of a fowler. ",
+				"<cite ref=\"Eruvin 54b:6\">Erub. 54ᵇ</cite> (ref. to <cite ref=\"Proverbs 12:27\">Prov. XII, 27</cite> <he>י̇ח̇ר̇ך̇</he>) <he>לא י̇ח̇יה ולא יאר̇יך̇ ימים צ׳ הרמאי</he> the tricky hunter (the student whose object is to dazzle people with his erudition) shall not live and prolong his days; <cite ref=\"Proverbs 12:27\">ib.</cite> <he>צ׳ הרמאי יחרוך</he> the shrewd hunter (the student that tries to learn and retain as much as possible) will roast his game (will become a scholar); <cite ref=\"Avodah Zarah 19a:17\">Ab. Zar. 19ᵃ</cite>. ",
+				"<cite ref=\"Avodah Zarah 19a:17\">Ib.</cite> <he>משל לצ׳ שצד וכ׳</he> Ms. M. (ed. <he>לאדם</he>) like a fowler that catches many birds &c.; Erub. l. c."
+			]
+		}
+	]
+}

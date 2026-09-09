@@ -1,0 +1,27 @@
+{
+	"id": "A02861",
+	"slug": "אצוותא",
+	"headword": {
+		"text": "אַצְוָותָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַצְוָתָא"
+		}
+	],
+	"page": {
+		"number": 110,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אצי</he>, √<he>אץ</he>, cmp. <cite ref=\"H01493\"><he>חצב</he></cite> a. denom., a. <cite ref=\"A02448\"><he>אֲסִיתָא</he></cite>) <i>trough, kneading trough;</i> also <i>a trough-full, the quantity of bread baked at a time, batch</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:5\">Targ. Deut. XXVIII, 5</cite>; a. e. (also as plur.) <cite ref=\"Onkelos Exodus 7:28\">Targ. Ex. VII, 28</cite>; a. e.—Pesik. B’shall. p. 91ᵃ <he>כל א׳ וכ׳</he> the entire batch of bread. Ib. 91ᵇ (correct acc. to Buber note 198; Var. Ar. <cite ref=\"A02857\"><he>אָצוּ</he></cite>, <cite ref=\"A01808\"><he>אַסְוָותָא</he></cite>, v. Koh. Ar. Compl. s. v.). Cmp. <cite ref=\"A02878\"><he>אֲצִיצָא</he></cite>. V. <cite ref=\"A02859\"><he>אַצְוָוא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "T00018",
+	"slug": "ראיון",
+	"headword": {
+		"text": "רֵאָיוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "רֵיאָיוֹן"
+		}
+	],
+	"page": {
+		"number": 1436,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00011\"><he>רָאָה</he></cite>, v. <cite ref=\"T00015\"><he>רְאִיָּה</he></cite>) <i>the appearance in the Temple, pilgrim’s visit</i>; (sub. <he>עולת</he>) <i>the pilgrim’s burnt-offering</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 1:1\">Peah I, 1</cite>; Y. ib. 15ᵃ bot.; <cite ref=\"Chagigah 7a\">Ḥag. 7ᵃ</cite>, v. <cite ref=\"T00015\"><he>רְאִיָּה</he></cite>; a. e."
+			]
+		}
+	]
+}

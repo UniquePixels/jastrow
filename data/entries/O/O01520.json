@@ -1,0 +1,41 @@
+{
+	"id": "O01520",
+	"slug": "סרבן-2",
+	"headword": {
+		"text": "סַרְבָּן"
+	},
+	"page": {
+		"number": 1022,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01511\"><he>סָרַב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>one who waits to be coaxed, declining</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 5:3\">Ber. V, 3</cite> <he>ולא יהא ס׳ וכ׳</he> in such a case one must not decline (when asked to say prayers)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>persistent</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 13b:15\">Sot. 13ᵇ</cite> <he>הרב … ותלמיד כמה ס׳</he> how rigorous the teacher, and how persistent the scholar!"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>rebellious</i>, <i>stubborn</i>.—Pl. <he>סַרְבָּנִים</he>, <he>סַרְבָּנִין</he>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 7:3\">Ex. R. s. 7</cite>; <cite ref=\"Sifrei Bamidbar 91\">Sifré Num. 91</cite>; <cite ref=\"Yalkut Shimoni on Torah 178:1\">Yalk. Ex. 178</cite>; a. e."
+			],
+			"label": "3"
+		}
+	]
+}

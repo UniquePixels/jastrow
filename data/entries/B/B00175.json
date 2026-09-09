@@ -1,0 +1,27 @@
+{
+	"id": "B00175",
+	"slug": "בהיר",
+	"headword": {
+		"text": "בָּהִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּהוֹר"
+		}
+	],
+	"page": {
+		"number": 142,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בהר</he>; b. h. <i>white, white spot</i> (cloud).—Pl. <he>בְּהִירִין</he>, <cite ref=\"B00166\"><he>בְּהוֹ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Taanit 7b:11\">Taan. 7ᵇ</cite> (ref. to <cite ref=\"Job 37:21\">Job XXXVII, 21</cite>) <he>אפי׳ בשעה שהעננים עומדין בהי׳ בהי׳ וכ׳</he> Ms. M., even when the clouds stand in white spots, there comes a wind &c.; edit. <he>שרקיע נעשה בהו׳ בהו׳</he> the sky is made (to appear) full of white clouds."
+			]
+		}
+	]
+}

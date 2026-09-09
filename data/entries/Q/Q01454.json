@@ -1,0 +1,22 @@
+{
+	"id": "Q01454",
+	"slug": "פקוד-1",
+	"headword": {
+		"text": "פָּקוּד"
+	},
+	"page": {
+		"number": 1207,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>פְּקוּדִים</he>(b. h. <i>mustered, included in the census</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 121b:8\">B. Bath. 121ᵇ</cite> (ref. to <cite ref=\"Numbers 14:29\">Num. XIV, 29</cite>) <he>מי שפְּקוּדָיו מבן עשרים … שפקודיו וכ׳</he> every tribe whose members are mustered from twenty years and upward, to the exclusion of the tribe of Levi whose members are enlisted from thirty years."
+			]
+		}
+	]
+}

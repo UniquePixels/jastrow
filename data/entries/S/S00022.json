@@ -1,0 +1,24 @@
+{
+	"id": "S00022",
+	"slug": "קאת",
+	"headword": {
+		"text": "קָאָת"
+	},
+	"page": {
+		"number": 1306,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"S00217\"><he>קוּא</he></cite>)<i>pelican</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:1:10\">Y. Sabb. II, beg. 4ᶜ</cite>; <cite ref=\"Chullin 63a:9\">Ḥull. 63ᵃ</cite>, a. e., v. <cite ref=\"S01137\"><he>קִיק</he></cite>. ",
+				"<cite ref=\"Moed Katan 25b:2\">M. Kat. 25ᵇ</cite>, v. <cite ref=\"K01026\"><he>כָּפַל</he></cite>.—Pl. <he>קָאוֹת</he>. ",
+				"<cite ref=\"Tosefta Terumot 10:2\">Tosef. Ter. X, 2</cite> (Var. <cite ref=\"S00847\"><he>קיאות</he></cite>)."
+			]
+		}
+	]
+}

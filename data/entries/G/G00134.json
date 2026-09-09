@@ -1,0 +1,51 @@
+{
+	"id": "G00134",
+	"slug": "זוהמא",
+	"headword": {
+		"text": "זוֹהֲמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זוֹהֲמָה"
+		}
+	],
+	"page": {
+		"number": 384,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>זהם</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>froth; filth, decayed matter, evil smell</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 42b:15\">Pes. 42ᵇ</cite> <he>שואבת את הז׳</he> absorbs the froth of boiling meat. ",
+				"<cite ref=\"Mishnah Terumot 10:1\">Ter. X, 1</cite> <he>ליטול את הז׳</he> to carry off foul matter; <cite ref=\"Jerusalem Talmud Avodah Zarah 3:11:3\">Y. Ab. Zar. III, 41ᶜ</cite> top <he>את שהוא ליטול את הז׳</he> a substance which is used for &c.—",
+				"<cite ref=\"Berakhot 53a:28\">Ber. 53ᵃ</cite> <he>שמן … את הז׳</he>; Y. ib. VI, 10ᵈ <he>שמן לז׳</he> oil used for perfuming the hands after the meal, v. <cite ref=\"G00102\"><he>זָהַם</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>moral impurity, obscenity, voluptuousness</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 525:1\">Yalk. Lev. 525</cite> <he>דבר של ז׳</he> (ed. Lemb. <cite ref=\"G00184\"><he>זומא</he></cite>), v. <cite ref=\"G00331\"><he>זִיטְמָא</he></cite>. ",
+				"<cite ref=\"Yevamot 103b:3\">Yeb. 103ᵇ</cite> <he>שדי בה ז׳</he> he infected her with sensuality. ",
+				"<cite ref=\"Yevamot 103b:3\">Ib.</cite>, a. e. <he>הטיל בה ז׳</he> the serpent infected her (Eve, i.e. the human race) with lasciviousness. ",
+				"<cite ref=\"Yevamot 103b:3\">Ib.</cite> <he>פסקה זוֹהֲמָתָן</he> their sensual passions ceased (were checked through the influence of religion); a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " ז׳ דשמשא <i>the sultry air produced by the passage of the sunrays through a cloudy atmosphere</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 28b:16\">Yoma 28ᵇ</cite> <he>ז׳ דש׳ וכ׳</he> (Ar. a. Ms. L. <cite ref=\"G00284\"><he>זִיהָא</he></cite>, Ms. O. <cite ref=\"G00137\"><he>זוֹהֲרָא</he></cite>, v. Rabb. D. S. a. l. note) the sultry heat is more intense than that of direct sunlight. [<cite ref=\"Shabbat 123a\">Sabb. 123ᵃ</cite> <he>ז׳ ליסטרון</he>, v. <cite ref=\"G00190\"><he>זוֹמְלִיסְטְרוֹן</he></cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

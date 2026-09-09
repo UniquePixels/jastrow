@@ -1,0 +1,46 @@
+{
+	"id": "O00448",
+	"slug": "סחורא",
+	"headword": {
+		"text": "סְחוֹרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְחוֹרְתָּא"
+		}
+	],
+	"page": {
+		"number": 970,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00447\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>going around, circuit</i> (cmp. <cite ref=\"O00409\"><he>סוּר</he></cite> I ch.). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 16:18\">Targ. Jer. XVI, 18</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>circulation, exchange</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 23:16\">Targ. O. Gen. XXIII, 16</cite> <he>מתקבל ס׳</he> received as exchange."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>trade, traffic; goods</i>. Ib. XXXIV, 10. Ib. 21 (ed. Berl. <cite ref=\"O00450\"><he>סְחוּרְתָּא</he></cite>).—",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד מאת׳</he> 8) <he>אי … בהדא ס׳ וכ׳</he> if I come to you with this ware (shoes), wilt thou sell it for me? <cite ref=\"Eichah Rabbah 1:1\">Ib.</cite> <he>זבין ס׳ דסנדליא</he> he bought an assortment of shoes."
+			],
+			"label": "3"
+		}
+	]
+}

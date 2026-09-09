@@ -1,0 +1,24 @@
+{
+	"id": "M00040",
+	"slug": "מאכלת",
+	"headword": {
+		"text": "מַאֲכֶלֶת"
+	},
+	"page": {
+		"number": 723,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"A01696\"><he>אָכַל</he></cite>) [<i>preparing food</i>,] <i>slaughtering knife</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 56:3\">Gen. R. s. 56</cite>, v. <cite ref=\"K01324\"><he>כָּשֵׁר</he> I</cite>. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 31\">Pirké d’R. El. ch. XXXI</cite>. ",
+				"<cite ref=\"Pesikta Rabbati 40\">Pesik. R. s. 40</cite>. Gen. R. l. c. <he>בזכות אותה המ׳</he> through the merit of (taking up) that knife (<cite ref=\"Genesis 22:10\">Gen. XXII, 10</cite>)."
+			]
+		}
+	]
+}

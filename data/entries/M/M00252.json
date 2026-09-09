@@ -1,0 +1,113 @@
+{
+	"id": "M00252",
+	"slug": "מדה-1",
+	"headword": {
+		"text": "מִדָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִידָּה"
+		}
+	],
+	"page": {
+		"number": 732,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"M00251\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>dimension, measure, proportion</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 150a:1\">Sabb. 150ᵃ</cite> (play on <he>מ̇ד̇ה̇ב̇ה</he>, v. <cite ref=\"M00251\">preced.</cite>) <he>מ̇אד̇ מ̇אד̇ ה̇ב̇א בלא מ̇'</he> bring much, very much, without measure. ",
+				"<cite ref=\"Mishnah Peah 8:6\">Peah VIII, 6</cite> <he>מ׳ זו</he> this proportion. ",
+				"<cite ref=\"Bereishit Rabbah 64\">Gen. R. s. 64</cite>; Esth. R. introd. (ref. to <cite ref=\"M01712\"><he>מנדה</he></cite>, <cite ref=\"Ezra 4:13\">Ezra IV, 13</cite>) <he>זו מִדַּת הארץ</he> that is the tax from the land as measured, i.e. the (Roman) land-tax. ",
+				"<cite ref=\"Mishnah Bava Batra 7:3\">B. Bath. VII, 3</cite> <he>מ׳ בחבל וכ׳</he> I sell thee exact land-measure by the rope. ",
+				"<cite ref=\"Bava Batra 128a:8\">Ib. 128ᵃ</cite> <he>מִדַּת ארכו</he> the length-measure of the cloak. ",
+				"<cite ref=\"Bava Batra 128a:8\">Ib.</cite> <he>מדת משקלותיו</he> the measure of its (the gold-bar’s) weights, i.e. an estimate as to how many coins of a certain weight can be obtained from it. ",
+				"<cite ref=\"Chagigah 12a:5\">Ḥag. 12ᵃ</cite> <he>מדת יום ומ׳ לילה</he> the combined length of day and night. ",
+				"<cite ref=\"Yevamot 76b:14\">Yeb. 76ᵇ</cite> (ref. to <cite ref=\"I Samuel 17:38\">I Sam. XVII, 38</cite>) <he>מַדָּיו כמִדָּתוֹ</he> his (Saul’s) garments such as fitted his stature. ",
+				"<cite ref=\"Mishnah Mikvaot 10:5\">Mikv. X, 5</cite>; <cite ref=\"Chullin 73a:2\">Ḥull. 73ᵃ</cite> <he>עד מקום</he> (<cite ref=\"E00000\"><he>ה</he></cite>)<he>מ׳</he> as far as the designed length of the handle (excluding the portion which it is intended to cut off).—",
+				"<cite ref=\"Kiddushin 42b\">Kidd. 42ᵇ</cite>; <cite ref=\"Bava Metzia 56b\">B. Mets. 56ᵇ</cite>, a. e. <he>דבר שבמ׳ ושבמשקל וכ׳</he> objects which are sold by measure, by weight or by the piece. ",
+				"<cite ref=\"Bava Batra 89b:11\">B. Bath. 89ᵇ</cite> <he>לעולם … מ׳ חסירה וכ׳</he> one must never keep in one’s house too small or too large a measure (smaller or larger than the legal size); a. fr.—Pl. <he>מִדּוֹת</he>, <he>מִידּוֹת</he>. ",
+				"<cite ref=\"Bava Batra 88b:6\">Ib. 88ᵇ</cite> <he>עונשן של מ׳</he> the divine punishment for fraudulent measures. ",
+				"<cite ref=\"Tosefta Bava Metzia 6:14\">Tosef. B. Mets. VI, 14</cite> <he>לא היו ממונין … אלא על המ׳</he> they (the <i>agoranomoi</i> in Jerusalem) were appointed not for the regulation of market prices but for the superintendence of the measures; <cite ref=\"Bava Batra 89a\">B. Bath. 89ᵃ</cite>, v. <cite ref=\"A00343\"><he>אֲגַרְדְּמִיס</he></cite>; a. fr.—",
+				"<cite ref=\"Menachot 18a:4\">Men. 18ᵃ</cite> <he>למצות מִידּוֹתַי</he>, v. <cite ref=\"M02271\"><he>מָצָה</he></cite>.—Whence: <i>Middoth</i> (measurements of the Temple), name of a treatise of the Mishnah, of the order of Kodashim."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>dealing; reward</i> or <i>punishment; dispensation</i>.—מ׳ כנגד מ׳ <i>retaliation, adequate punishment</i> or <i>reward</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 1:7\">Sot. I, 7</cite>, v. <cite ref=\"M00251\">preced.</cite> ",
+				"<cite ref=\"Sotah 9a:4\">Ib. 9ᵃ</cite> <he>לכמ׳</he> the verse is to intimate the God dispenses adequate punishments. ",
+				"<cite ref=\"Sotah 8b:12\">Ib. 8ᵇ</cite> (ref. to <cite ref=\"Mishnah Sotah 1:7\">ib. I, 7</cite>) <he>אע״ג דמ׳ בטילה במ׳ לא בטיל</he> although retribution (by the Jewish court) has ceased, the adequate divine punishment has not ceased. Lam. R. introd. (R. Alex. 2) (expl. <he>יען וביען</he>, <cite ref=\"Leviticus 26:43\">Lev. XXVI, 43</cite>) <he>מ׳ כנגד מ׳</he> punishment corresponding to deed. ",
+				"<cite ref=\"Nedarim 32a:12\">Ned. 32ᵃ</cite>. ",
+				"<cite ref=\"Sanhedrin 90a:19\">Snh. 90ᵃ</cite> <he>כל מִידּוֹתָיו של הקב״ה מ׳ כנגד מ׳</he> all retributions of the Lord are in correspondence with man’s doings. ",
+				"<cite ref=\"Berakhot 48b:6\">Ber. 48ᵇ</cite> ‘whatever the Lord thy God has given thee’ <he>דיינך בכל … בין מ׳ טובה ובין מִדַּת פורענות</he> (not <cite ref=\"M00252\"><he>מדה</he></cite>) he is thy judge in whatever sentence he decrees upon thee, whether it be a good or an evil dispensation. ",
+				"<cite ref=\"Mishnah Berakhot 9:5\">Ib. IX, 5</cite>, v. <cite ref=\"M00005\"><he>מְאֹד</he></cite>. ",
+				"<cite ref=\"Shabbat 97a:2\">Sabb. 97ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 151b:11\">Ib. 151ᵇ</cite> <he>לעולם … על מ׳ זו</he> at all times let one pray to be spared this fate (poverty); a. fr.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Sanhedrin 90a:19\">Snh. 90ᵃ</cite>, v. supra. ",
+				"<cite ref=\"Yoma 87b:1\">Yoma 87ᵇ</cite> <he>המעביר על מִדּוֹתָיו וכ׳</he> he who passes over his retaliations (who forbears to retaliate), his failings will be passed over (be forgiven); <cite ref=\"Megillah 28a:21\">Meg. 28ᵃ</cite>. ",
+				"<cite ref=\"Megillah 28a:21\">Ib.</cite> <he>לא עמדתי על מִידּוֹתַי</he> I never insisted on retaliation; <cite ref=\"Kiddushin 71a:13\">Kidd. 71ᵃ</cite> <he>ואינו מעמד על מדותיו</he> (Rashi: <cite ref=\"M02144\"><he>מעמיד</he></cite>); a. fr.—3) <i>manner, ways, character, nature, condition</i>. ",
+				"<cite ref=\"Berakhot 40a:14\">Ber. 40ᵃ</cite> <he>לא כמדת הקב״ה וכ׳</he> the nature of divine (intellectual) affairs is not like the nature of human (material) affairs. ",
+				"<cite ref=\"Berakhot 11b:14\">Ib. 11ᵇ</cite> <he>להזכיר מדת יום וכ׳</he> to mention the nature of the day (light) at night. Tanḥ. Balak 3 <he>מה מִדָּתוֹ</he> what is the nature of his power. ",
+				"<cite ref=\"Bava Metzia 33a:18\">B. Mets. 33ᵃ</cite> <he>מ׳ ואינה מ׳</he> it is a (meritorious) way (of studying) and is not, i.e. you might to better; <cite ref=\"Jerusalem Talmud Horayot 3:5:9\">Y. Hor. III, 48ᶜ</cite> top <he>מ׳ שאינה מ׳</he>; a. fr.—Pl. as ab. ",
+				"<cite ref=\"Pirkei Avot 5:10\">Ab. V, 10</cite> <he>ארבע מ׳ באדם</he> there are four different dispositions of men (as to treating one’s fellowman); <cite ref=\"Pirkei Avot 5:11\">ib. 11</cite> <he>ארבע מ׳ בדעות</he> four characters (temperaments); <cite ref=\"Pirkei Avot 5:12\">ib. 12</cite> <he>ארבע מ׳ בתלמידים</he> four natures of students (with regard to receptive and retentive faculties). ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 11:3:5\">Y. Snh. XI, 30ᵃ</cite> bot. <he>כל שבע מ׳ וכ׳</he> all the seven characteristic features of righteous men which the scholars have defined have been realized in Rabbi. ",
+				"<cite ref=\"Nedarim 20b:8\">Ned. 20ᵇ</cite> <he>בני תשע מ׳</he> children conceived under nine (abnormal mental) conditions. ",
+				"<cite ref=\"Rosh Hashanah 17b:2\">R. Hash. 17ᵇ</cite>, a. fr. <he>שלש עשרה מ׳</he> the thirteen divine attributes (<cite ref=\"Exodus 34:6\">Ex. XXXIV, 6</cite>, sq.). ",
+				"<cite ref=\"Nedarim 32a:12\">Ned. 32ᵃ</cite>, v. <cite ref=\"Q01744\"><he>פָּרַז</he></cite>; a. fr.—<he>מדת הדין</he> "
+			],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " <i>justice</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Yevamot 9:3\">Tosef. Yeb. IX, 3</cite>. a. e., v. <cite ref=\"L00663\"><he>לָקָה</he></cite>.—Esp. <i>the divine attribute of justice</i>, opp. <he>מ׳ הרחמים</he>, v. <cite ref=\"D00635\"><he>דִּין</he> II</cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>common sense, logical argument</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 43b\">Yoma 43ᵇ</cite> <cite ref=\"K00655\"><he>כך</he></cite> (<he>היא</he>) <he>מ׳ הדין נותנת</he> common sense dictates this; <cite ref=\"Shevuot 14a:2\">Shebu. 14ᵃ</cite>. ",
+						"<cite ref=\"Jerusalem Talmud Maaser Sheni 2:1:16\">Y. Maas. Sh. II, 53ᶜ</cite> top <he>תחומין עשו</he> (<he>כמ׳</he>) <he>למ׳ הדין</he> they regulated the laws of Sabbath limits according to common sense (not by textual interpretation).—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " <i>decision in money matters, civil law</i> (contrad. to ritual law). ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Gittin 5:1:9\">Y. Gitt. V, 46ᶜ</cite> bot. <he>אף למ׳ הדין הכן</he> the same principle holds good for civil law (collection of claims, v. <cite ref=\"K01058\"><he>כַּפְרָנוּת</he></cite>); <cite ref=\"Jerusalem Talmud Sheviit 10:2:3\">Y. Shebi. X, 39ᶜ</cite> bot. ",
+						"<cite ref=\"Yoma 2a:8\">Ib.</cite> (last line) <he>ולמידין מ׳ הדין וכ׳</he> do we apply the rules of Prosbol (v. <cite ref=\"Q01646\"><he>פְּרוֹזְבּוּל</he></cite>) to ordinary claims? <cite ref=\"Jerusalem Talmud Bava Kamma 5:1:2\">Y. B. Kam. V, beg. 4ᵈ</cite> <he>לא הילכו במ׳ הדין אחר הרוב</he> (strike out <he>בממון</he>) in civil law we are not guided by probabilities (v. <cite ref=\"D00171\"><he>דוֹב</he></cite>; cmp. Bab. ",
+						"<cite ref=\"Bava Kamma 27b\">B. Kam. 27ᵇ</cite>). Y. Ber. II, 5ᵃ bot. <he>ולמ׳ הד׳</he> but civil law (questions of possession)."
+					],
+					"label": "c"
+				}
+			]
+		},
+		{
+			"gloss": "<i>principle, standard, consistency</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 3:4\">Men. III, 4</cite> <he>כמדת ר׳ וכ׳</he> following the principle of R. &c.; <cite ref=\"Pesachim 77b:15\">Pes. 77ᵇ</cite>; Y. ib. VII, 34ᶜ top. ",
+				"<cite ref=\"Mishnah Shekalim 4:6\">Shek. IV, 6</cite> <he>אינה היא המ׳</he> (comment. <he>אינה מן המ׳</he>) this is not consistent (with a previous rule). ",
+				"<cite ref=\"Mishnah Shekalim 4:7\">Ib. 7</cite> <he>השוה את מִדָּתוֹ</he> (Y. ed. <he>מִדּוֹתָיו</he>) he makes his standards even (is consistent). ",
+				"<cite ref=\"Mishnah Pesachim 1:7\">Pes. I, 7</cite> <he>אינה היא המ׳</he> this is not the right argument. ",
+				"<cite ref=\"Pesachim 15b:15\">Ib. 15ᵇ</cite> <he>אמאי אינה היא המ׳ מ׳ ומ׳ היא</he> why do you say, it is no argument? it is surely a correct argument. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 3:2:9\">Y. Ḥag. III, 77ᵈ</cite> ‘Menahem went out’ means <he>ממ׳ למ׳ יצא</he> he went over from one principle to another (joined the opposition; Bab. ",
+				"<cite ref=\"Chagigah 16b:2\">ib. 16ᵇ</cite> <he>יצא לתרבות רעה</he>).—Esp. <he>מִדּוֹת</he> <i>rules of interpretation</i>. Sifra introd., ch. I, end <he>הלל … שבע מ׳ וכ׳</he> Hillel the Elder explained seven rules &c.; <cite ref=\"Avot D'Rabbi Natan 37:13\">Ab. d’R. N. ch. XXXVII</cite>; <cite ref=\"Tosefta Sanhedrin 7:11\">Tosef. Snh. VII, 11</cite>. Sifra introd., beg. (R. Yishm. said) <he>בשלש עשרה מ׳ וכ׳</he> the Torah is interpreted by means of thirteen rules. [Appendix to treat. B’rakhoth. <he>ל״ב מ׳ של ר׳ יוסו וכ׳</he> the thirty two rules of R. José the Galilean.]—",
+				"<cite ref=\"Vayikra Rabbah 3:7\">Lev. R. s. 3</cite>, beg. <he>הלכות ומ׳</he> decisions and interpretations (by which the decisions were reached), v. <cite ref=\"M01379\"><he>מְכִילְתָּא</he></cite>.—",
+				"<cite ref=\"Gittin 67a:9\">Gitt. 67ᵃ</cite> <he>מִידּוֹתַי תרומה מתרומות מִידּוֹתָיו וכ׳</he> my rules of interpretation are the selection from selections of rules by R. Akiba.—",
+				"<cite ref=\"Berakhot 33b:17\">Ber. 33ᵇ</cite> <he>שעושה מדותיו של הקב״ה רחמים וכ׳</he> he makes compassion the standard (or reason) of the divine laws, while they are decrees (the reasons for which it behooves not man to discuss); Y. ib. V, 9ᶜ <he>כקורא תיגר על מ׳ וכ׳</he> because it sounds as if he were finding fault with the ways of the Lord (as if the Lord were partial); <he>כנותן קיצבה למ׳ וכ׳</he> as though he were setting limits to the attributes of the Lord."
+			],
+			"label": "4"
+		}
+	]
+}

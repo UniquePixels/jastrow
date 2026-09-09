@@ -1,0 +1,40 @@
+{
+	"id": "D00700",
+	"slug": "דיקולא-1",
+	"headword": {
+		"text": "דִּיקוּלָא"
+	},
+	"page": {
+		"number": 304,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D01009\"><he>דקל</he></cite>; v. <cite ref=\"D01009\"><he>דֶּקֶל</he></cite>) <i>anything made of thin twigs</i> or <i>reeds</i> (cmp. <cite ref=\"D01001\"><he>דְּקוּרָא</he></cite>); ",
+			"units": []
+		},
+		{
+			"gloss": "<i>basket</i> of twisted osiers or reeds. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 7a:12\">Snh. 7ᵃ</cite> (prov.) <he>היא ניימא וד׳ שפיל</he> when she slumbers, the basket (upon her head) drops (laziness begets ruin). ",
+				"<cite ref=\"Megillah 7b:2\">Meg. 7ᵇ</cite> (prov.) if a peasant become a king, <he>ד׳ מצואריה וכ׳</he> the basket will never come down from his neck (he will always betray his low birth). ",
+				"<cite ref=\"Pesachim 112b:8\">Pes. 112ᵇ</cite> <he>ריש תורא בד׳ וכ׳</he> even when the ox has his head in the fodder basket, &c. ",
+				"<cite ref=\"Nedarim 51a:1\">Ned. 51ᵃ</cite>.—",
+				"<cite ref=\"Chullin 98a:7\">Ḥull. 98ᵃ</cite>, v. next w.—Pl. <he>דִּיקוּלֵי</he>. ",
+				"<cite ref=\"Bava Metzia 83b:12\">B. Mets. 83ᵇ</cite> <he>ד׳ ד׳ וכ׳</he> basketfuls of fat. ",
+				"<cite ref=\"Avodah Zarah 75a:13\">Ab. Zar. 75ᵃ</cite> <he>דקולי</he> ed., v. <cite ref=\"H01131\"><he>חַלְתָּא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a shoe made of twisted reeds</i> &c.—Pl. <he>דִּיקוּלֵי</he>. ",
+			"units": [
+				"<cite ref=\"Yoma 78b\">Yoma 78ᵇ</cite> <he>בדיקו׳</he> Ar. (Ms. M. <he>בדקולי</he>, ed. <he>בדיַבְלֵי</he>, Var. in Mss. <he>דכולי</he>, <he>דיקורי</he>, v. Rabb. D. S. a. l.)."
+			],
+			"label": "2"
+		}
+	]
+}

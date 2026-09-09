@@ -1,0 +1,28 @@
+{
+	"id": "A01106",
+	"slug": "אטרי",
+	"headword": {
+		"text": "אִטְּרִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִטְּרִיתָא"
+		}
+	],
+	"page": {
+		"number": 43,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>נטר</he>; cmp. <cite ref=\"E00324\"><he>הִטְּרִי</he></cite> a. <cite ref=\"I00826\"><he>טָרִית</he></cite>) prop. <i>something preserved</i>, hence <i>dough preserved, vermicelli</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Challah 1:4:2\">Y. Ḥall. I, 57ᵈ</cite> bot. as I intend making <he>אצוותי א׳</he> my dough into vermicelli. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:9:3\">Y. Bets. I, 60ᵈ</cite> <he>הדא אטריתא וכ׳</he> to make verm. (on Holy Days), if for drying them, it is forbidden &c."
+			]
+		}
+	]
+}

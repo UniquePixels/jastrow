@@ -1,0 +1,35 @@
+{
+	"id": "K00822",
+	"slug": "כמש-1",
+	"headword": {
+		"text": "כָּמַשׁ"
+	},
+	"page": {
+		"number": 647,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"K00817\"><he>כָּמַר</he></cite>) <i>to wrinkle, wither</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 4:1:10\">Y. Maas. Sh. IV, 54ᵈ</cite> bot. <he>עד שיִכְמוֹשוּ</he> until they are withered.—Part. pass. <he>כָּמוּשׁ</he>, f. <cite ref=\"K01002\"><he>כְּמוּשָׁה</he></cite>; pl. <he>כְּמוּשִׁין</he>, <he>כְּמוּשׁוֹת</he>. ",
+				"<cite ref=\"Vayikra Rabbah 23\">Lev. R. s. 23</cite>; <cite ref=\"Shir HaShirim Rabbah 2:2\">Cant. R. to II, 2</cite> <he>מה שושנה … והיא כ׳ וכ׳</he> as the lily, when the heat comes upon it, is withered, but blooms again when the dew falls … <he>נראין כ׳ וכ׳</he> so does Israel … seem to be withered &c. ",
+				"<cite ref=\"Sukkah 31a:17\">Succ. 31ᵃ</cite> bot. <he>כמושין</he> withered fruits, contrad. to <he>יבשין</he> dried up; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִכְמַשׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K00821\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 2:1\">Cant. R. to II, 1</cite> <he>נוחה להִכָּמֵשׁ</he> withers easily."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

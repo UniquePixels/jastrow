@@ -1,0 +1,26 @@
+{
+	"id": "H01283",
+	"slug": "חניטיא",
+	"headword": {
+		"text": "חֲנִיטַּיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲנִטַּיָּא"
+		}
+	],
+	"page": {
+		"number": 483,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h. <he>חֲנֻטִים</he>; <cite ref=\"H01274\"><he>חֲנַט</he></cite>)<i>embalming</i>. ",
+			"units": ["<cite ref=\"Onkelos Genesis 50:3\">Targ. O. Gen. L, 3</cite>."]
+		}
+	]
+}

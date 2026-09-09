@@ -1,0 +1,44 @@
+{
+	"id": "M00515",
+	"slug": "מום-1",
+	"headword": {
+		"text": "מוּם"
+	},
+	"page": {
+		"number": 743,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.; = <cite ref=\"M00011\"><he>מְאוּם</he></cite>; v. <cite ref=\"M00340\"><he>מָה</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>something, anything</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 66b:5\">Ned. 66ᵇ</cite>, v. <cite ref=\"J00500\"><he>יָפֶה</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 3:12:5\">Y. Kidd. III, 64ᶜ</cite> bot. <he>מהו ממזר מום זר</he> what is <i>mamzer</i> (<cite ref=\"M01659\"><he>מַמְזֵר</he></cite>)? Something repulsive; <cite ref=\"Yevamot 76b:15\">Yeb. 76ᵇ</cite> <he>ממזר כתיב מ׳ זר</he> the Law says <i>mamzer</i> which means anything repulsive (male or female); <cite ref=\"Sifrei Devarim 248:1\">Sifré Deut. 248</cite> <he>כל שהוא מומזר</he> (corr. acc.) whatever is in any way repulsive."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>blemish</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 5:5\">Bekh. V, 5</cite>, a. fr. <he>בעל מ׳</he> having a blemish (unfit for the altar, for priestly service &c.). ",
+				"<cite ref=\"Mishnah Bekhorot 6:9\">Ib. VI, 9</cite>, a. fr. <he>הרי זה מ׳</he> this is a legal blemish; <he>אינה מ׳</he> this is not &c.—",
+				"<cite ref=\"Megillah 29a:10\">Meg. 29ᵃ</cite>, v. <cite ref=\"J00140\"><he>יָהִיר</he></cite>. ",
+				"<cite ref=\"Bava Metzia 59b:15\">B. Mets. 59ᵇ</cite> <he>מ׳ שבך וכ׳</he> do not reproach thy neighbor with a fault which is also thine own; a. fr.—Pl. <he>מוּמִין</he>. ",
+				"<cite ref=\"Mishnah Bekhorot 6:1\">Bekh. VI, 1</cite> <he>על אלו מ׳ וכ׳</he> these are the blemishes in consequence of which a first-born animal may be slaughtered (after the destruction of the Temple). ",
+				"<cite ref=\"Mishnah Bekhorot 6:2\">Ib. 2</cite> <he>אין מ׳ בלבן</he> a blemish in the white of the eye is no blemish in the sense of the law. ",
+				"<cite ref=\"Mishnah Bekhorot 7:1\">Ib. VII, 1</cite> <he>מ׳ אלו … פוסלין וכ׳</he> the above named blemishes, whether permanent or transitory, make also human beings unfit (for priesthood &c.); a. fr.—Denom. <cite ref=\"E00241\"><he>הוּמָם</he></cite> <i>to become blemished, defective</i>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 4:4:5\">Y. Shek. IV, 48ᵇ</cite> <he>שפודין תמימין והוּמְמוּ</he> they had redeemed them when they were without blemish, and they became blemished. ",
+				"<cite ref=\"Bamidbar Rabbah 12:8\">Num. R. s. 12</cite>, end; <cite ref=\"Shir HaShirim Rabbah 6:4:2\">Cant. R. to VI, 4</cite> <he>ולא הוממו וכ׳</he> and they have not become unfit for sacrifices on account of blemishes or old age &c., v. <cite ref=\"G00102\"><he>זָהַם</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Yoma 2:2:3\">Y. Yoma II, 39ᵈ</cite> <he>קטורת שכבת הוּמָמָה</he> frankincense which was extinguished is unfit for the altar."
+			],
+			"label": "2"
+		}
+	]
+}

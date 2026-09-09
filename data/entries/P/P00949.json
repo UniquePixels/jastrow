@@ -1,0 +1,43 @@
+{
+	"id": "P00949",
+	"slug": "ענג-2",
+	"headword": {
+		"text": "עֲנַג"
+	},
+	"page": {
+		"number": 1092,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00948\">same</cite>",
+			"units": []
+		},
+		{
+			"gloss": "<i>to soften the skin</i> by ointment, bathing &c.; <i>to feel comfortable</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 25a:14\">Taan. 25ᵃ</cite> <he>יהיבנא לך</he> … <he>דמְעַנְּגַת בהון</he> I shall give thee, in the world to come, thirteen rivers of balsam oil clear as Euphrates and Tigris in which thou shalt find pleasure."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to celebrate merrily</i>. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Genesis 2\">B’resh. 2</cite> <he>לעַנּוּגֵיה במאכל וכ׳</he> to celebrate it (the Sabbath) joyfully with eating &c."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>עַנֵּיג</he> ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

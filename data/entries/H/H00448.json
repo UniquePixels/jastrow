@@ -1,0 +1,27 @@
+{
+	"id": "H00448",
+	"slug": "חור-6",
+	"headword": {
+		"text": "חוֹר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 439,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.), pl. <cite ref=\"H01573\"><he>חוֹרִין</he></cite> [<i>white garments</i>,] <i>freedom;</i> <he>בֶּן ח׳</he>, <he>בַּת ח׳</he> <i>free, freed</i>, opp. to slave. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 4:4\">Gitt. IV, 4</cite> <he>ועושה … בן ח׳</he> and he must declare him free. ",
+				"<cite ref=\"Mishnah Gittin 4:5\">Ib. 5</cite> <he>חציו עבד וחציו בן ח׳</he> half a slave and half a freedman; a. fr.—Pl. <cite ref=\"B01316\"><he>בְּנֵי ח׳</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Kamma 1:3\">B. Kam. I, 3</cite> <he>עדים ב׳ ח׳ וכ׳</he> witnesses who are freemen and of the Jewish faith. ",
+				"<cite ref=\"Esther Rabbah 2:7\">Esth. R. to I, 6</cite> (expl. <cite ref=\"H00446\"><he>חוּר</he></cite> <cite ref=\"Esther Rabbah 2:7\">ib.</cite>) <he>בגדים שב׳ ח׳ וכ׳</he> garments which freemen wear; a. fr.—(<cite ref=\"N00841\"><he>נכסים</he></cite>) <he>בני ח׳</he> <i>free</i> (not mortgaged) <i>property</i>, opp. <he>משועבדים</he>. ",
+				"<cite ref=\"Bava Kamma 8b:4\">B. Kam. 8ᵇ</cite>; a. fr. [Bibl. Hebr. <he>חוֹרִים</he>, <cite ref=\"H01715\"><he>חֹרִים</he></cite> <i>noblemen</i>"
+			]
+		}
+	]
+}

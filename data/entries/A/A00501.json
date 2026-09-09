@@ -1,0 +1,32 @@
+{
+	"id": "A00501",
+	"slug": "אהל-2",
+	"headword": {
+		"text": "אֹהֶל"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹהֶל"
+		}
+	],
+	"page": {
+		"number": 20,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; prob. √<he>אה</he> = <cite ref=\"A00516\"><he>או</he></cite>, cmp. <cite ref=\"A00582\"><he>אַוְנָא</he></cite>)<i>tent, shelter</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 21b:7\">Succ. 21ᵇ</cite> <he>א׳ עראי</he> a temporary dwelling. <he>א׳ קבע</he> a permanent dwelling.—",
+				"<cite ref=\"Nazir 55a:2\">Naz. 55ᵃ</cite> <he>א׳ זרוק</he> a movable cover, e.g. a person carried in a vehicle over a grave, v. foreg.—",
+				"<cite ref=\"Bava Batra 27b:22\">B. Bath. 27ᵇ</cite>, a. fr. <he>א׳ הטומאה</he> something spread over an unclean object, e.g. a tree shading a corpse; v. <cite ref=\"A00500\">foreg.</cite> ",
+				"<cite ref=\"Mishnah Nazir 7:2\">Naz. VII, 2</cite>, v. <cite ref=\"A00493\"><he>אָהִיל</he></cite>.—Pl. <he>אוֹהֳלִים</he>, (<cite ref=\"A00488\"><he>אָהֳולִין</he></cite>) <he>אוֹהֳלִין</he>. Y. Sabb. XX, beg. 17ᶜ <he>נטע א׳</he> to spread sheets over poles &c. (<cite ref=\"Tosefta Shabbat 12:12\">Tosef. ib. XII</cite> (<cite ref=\"Tosefta Shabbat 13:14\">XIII</cite>), 14, a. e. <he>עשה א׳</he>). ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 1:10:6\">Y. Erub. I, 19ᵈ</cite> <he>א׳ בשיירה</he> tents in a caravan, <he>א׳ שבמחנה</he> in a camp. ",
+				"<cite ref=\"Tosefta Kilaim 5:25\">Tosef. Kil. V, 25</cite> <cite ref=\"A00488\"><he>אהולין</he></cite> ed. Zuck."
+			]
+		}
+	]
+}

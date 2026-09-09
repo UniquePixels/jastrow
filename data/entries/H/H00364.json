@@ -1,0 +1,32 @@
+{
+	"id": "H00364",
+	"slug": "חולק",
+	"headword": {
+		"text": "חוּלַּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּלְקָא"
+		}
+	],
+	"page": {
+		"number": 434,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"H01114\"><he>חֵלֶק</he></cite> , <i>portion, share</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 14:27\">Targ. Deut. XIV, 27</cite>. ",
+				"<cite ref=\"Onkelos Genesis 48:22\">Targ. Gen. XLVIII, 22</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Yevamot 7:3:5\">Y. Yeb. VII, 8ᵇ</cite> top <he>נסבה ח׳ וכ׳</he> she is entitled to a share with her sisters. ",
+				"<cite ref=\"Bava Batra 142b:9\">B. Bath. 142ᵇ</cite> <he>אית ח׳ לטליא או וכ׳</he> is the young man (to whom a share equal to that of the eventual future issue from a second wife was promised as a donation) entitled to that share besides the inheritance with the other children, or not?—Pl. <he>חוּלָּקִין</he>, <he>חוּלָּקַיָּא</he>. ",
+				"<cite ref=\"Onkelos Genesis 47:24\">Targ. Gen. XLVII, 24</cite> (Y. <he>חוּלְקִין</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 48:21\">Targ. Ez. XLVIII, 21</cite> (ed. Lag. <he>חֻלְקַיָּא</he>); a. e. V. <cite ref=\"H01117\"><he>חֶלְקָא</he></cite>."
+			]
+		}
+	]
+}

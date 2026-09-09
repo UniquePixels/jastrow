@@ -1,0 +1,33 @@
+{
+	"id": "T00059",
+	"slug": "רבה-2",
+	"headword": {
+		"text": "רָבֶה"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָבָה"
+		}
+	],
+	"page": {
+		"number": 1439,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"T00322\"><he>רָוָה</he></cite>) <i>moist, saturated with liquid</i>, opp. <cite ref=\"P00022\"><he>עבה</he></cite> thick and pulpy. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 10:3:3\">Y. Pes. X, 37ᵈ</cite> top <he>צריכה שתהא ר׳ וכ׳</he> (not <he>צבריה</he>) it (the <cite ref=\"H01630\"><he>חֲרוֹסֶת</he></cite>) must be saturated (with wine), which means that it is to remind of blood.—V. <cite ref=\"T00302\"><he>רוֹבֶה</he> II</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pers. of <cite ref=\"T00058\"><he>רָבָה</he></cite>, v. <cite ref=\"T00081\"><he>רבי</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

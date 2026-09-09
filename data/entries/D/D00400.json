@@ -1,0 +1,24 @@
+{
+	"id": "D00400",
+	"slug": "דחוונות",
+	"headword": {
+		"text": "דַּחֲוָונוֹת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 291,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"D00399\">preced.</cite>) <i>boards used at weddings as tables</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 5:3\">Tosef. Kel. B. Mets. V, 3</cite> kimḥi (ed. Zuck. <he>רחזינית</he>, Var. <he>רחזוינות</he>)."
+			]
+		}
+	]
+}

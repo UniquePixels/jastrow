@@ -1,0 +1,37 @@
+{
+	"id": "H00367",
+	"slug": "חולתא-1",
+	"headword": {
+		"text": "חוּלְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִי׳"
+		},
+		{
+			"text": "תָּה"
+		}
+	],
+	"page": {
+		"number": 435,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"H00366\">preced.</cite>) pr. n. pl.",
+			"units": []
+		},
+		{
+			"gloss": " <he>ח׳ של אנטוכיא</he>, v. <cite ref=\"H00366\">preced.</cite>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " ימא דח׳ <i>Sea or Lake of Ḥulta</i>, prob. the navigable portion of the Orontes up to Antiochia. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:15\">Y. Kil. IX, end, 32ᶜ</cite>; <cite ref=\"Bava Batra 74b:12\">B. Bath. 74ᵇ</cite> <he>ימה של חולתא</he> Ms. M. (ed. <he>חילת׳</he>; <cite ref=\"Yalkut Shimoni on Nach 697\">Yalk. Ps. 697</cite> <cite ref=\"P00724\"><he>עכו</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

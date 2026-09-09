@@ -1,0 +1,29 @@
+{
+	"id": "U01134",
+	"slug": "שכונתא",
+	"headword": {
+		"text": "שְׁכוּנְתָּא"
+	},
+	"page": {
+		"number": 1571,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01133\">same</cite><i>settlement.—</i>Pl. <cite ref=\"U01132\"><he>שְׁכוּנָן</he></cite>, <he>עבד ש׳</he> <i>to settle</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 15:28\">Targ. Job XV, 28</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 23:33\">Targ. Y. Ex. XXIII, 33</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>group of buildings, neighborhood, quarter</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 17\">Gen. R. s. 17</cite> <he>שְׁכוּנְתֵּיה דר׳ יוסי וכ׳</he> the quarter in which R. J. the Galilean lived; <cite ref=\"Vayikra Rabbah 34:14\">Lev. R. s. 34</cite> <he>הוות אזלא בכל שְׁכוּנַיָּא ובשכונתיה וכ׳</he> she went begging in all quarters, but in R. Jose’s quarter she did not go; <cite ref=\"Yalkut Shimoni on Nach 352\">Yalk. Is. 352</cite> <he>בכל שְׁכוּנֵי דקרתא ובשְׁכוּנֵיה וכ׳</he>; <cite ref=\"Jerusalem Talmud Ketubot 11:3:3\">Y. Keth. XI, 34ᵇ</cite> bot. <he>שְׁכוּנָה דמשבקי</he> the quarter in which my former husband lives.—Pl. <cite ref=\"U01134\"><he>שְׁכוּנָתָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 11:3:3\">Ib.</cite> <he>לית הכא שְׁכוּנָת חורין וכ׳</he> are there no quarters of other people of the town? <cite ref=\"Yalkut Shimoni on Torah 665:10\">Yalk. Lev. 665</cite> <he>בכל שְׁכוּנָתָה דקרתא וכ׳</he>, v. supra; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "M00461",
+	"slug": "מוטב",
+	"headword": {
+		"text": "מוּטָב"
+	},
+	"page": {
+		"number": 740,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00311\"><he>יָטַב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (<i>it is</i>) <i>good, better</i>. Tanḥ. B’har 1 <he>חזר בו מ׳</he> if he amends, it is good. ",
+			"units": [
+				"<cite ref=\"Beitzah 30a:9\">Bets. 30ᵃ</cite>, a. fr. <he>מ׳ שיהיו … ואל וכ׳</he> it is better that they fail unwittingly than &c. ",
+				"<cite ref=\"Sanhedrin 7a:4\">Snh. 7ᵃ</cite> (in Chald. diction) <he>מ׳ דליעבדו וכ׳</he> it is better that they worship the golden calf (than commit murder). ",
+				"<cite ref=\"Berakhot 28a:12\">Ber. 28ᵃ</cite> <he>מ׳ דאקום וכ׳</he> it is best that I get up and go to them myself; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the better, the right conduct</i>. Lam. R. introd. (R. Abba 2) <he>המאור … היה מחזירן למ׳</he> the light in it (the Law) would have led them back to the right way. ",
+			"units": ["<cite ref=\"Sanhedrin 101b\">Snh. 101ᵇ</cite>; a. fr."],
+			"label": "2"
+		}
+	]
+}

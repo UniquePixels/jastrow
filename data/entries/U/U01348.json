@@ -1,0 +1,93 @@
+{
+	"id": "U01348",
+	"slug": "שלם-1",
+	"headword": {
+		"text": "שָׁלֵם"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁלַם"
+		}
+	],
+	"page": {
+		"number": 1585,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be whole, complete; to end, cease</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 8:3:7\">Y. Sot. VIII, 22ᶜ</cite> bot. <he>שלום שבימיו שָׁלְמָה וכ׳</he> Zedekiah was named Shallum, because in his days ended the reign of the house of Judah; <cite ref=\"Jerusalem Talmud Shekalim 6:1:10\">Y. Shek. VI, 49ᵈ</cite> top; <cite ref=\"Jerusalem Talmud Horayot 3:2:25\">Y. Hor. III, 47ᶜ</cite> bot.; Bab. ",
+				"<cite ref=\"Horayot 11b:3\">Hor. 11ᵇ</cite>; <cite ref=\"Keritot 5b:65\">Ker. 5ᵇ</cite> <he>ששלם</he> (corr. acc.); Yalk. Kings 250; Yalk. Chr. 1085. ",
+				"<cite ref=\"Pesikta Rabbati 6:1\">Pesik. R. s. 6</cite> (ref. to <cite ref=\"I Kings 7:51\">I Kings VII, 51</cite>) <he>כיון שבא … עכשיו שלמה מלאכת וכ׳</he> when Solomon came and built the Temple, the Lord said, now the work of heaven and earth (creation) is complete; <cite ref=\"Yalkut Shimoni on Nach 186:1\">Yalk. Kings 186</cite> <cite ref=\"U01327\"><he>שְׁלֵימָה</he></cite>. Pesik. R. l. c. <he>כיון שהִשְׁלִימוּ … שלמה נפשם</he> when the workmen had finished their work, their life was finished (they died); Yalk. l. c.; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁלִים"],
+			"senses": [
+				{
+					"gloss": "<i>to complete, finish</i>. Pesik. R. l. c., v. supra. Y. R. Hash. I, 57ᵃ top; Y. Shebi. II, 34ᵃ top <he>מכיון שהוא עומד … מַשְׁלִים שנתו</he> since he stands in (has entered) the third year of the tree, he may count it a full year. ",
+					"units": [
+						"<cite ref=\"Yoma 33a:4\">Yoma 33ᵃ</cite> (ref. to <cite ref=\"Leviticus 6:5\">Lev. VI, 5</cite>, play on <he>עליה … השלמים</he>) <he>עליה הַשְׁלֵם כל וכ׳</he> with it (the evening sacrifice) cease all sacrifices (none can be offered after it). ",
+						"<cite ref=\"Bava Kamma 10a:14\">B. Kam. 10ᵃ</cite> <he>החופר … והִשְׁלִימָהּ לעשרה</he> if one digs a pit nine cubits deep, and another comes and completes it to the legal size of ten. ",
+						"<cite ref=\"Berakhot 47b:16\">Ber. 47ᵇ</cite> <he>שחרר … והִשְׁלִימוֹ וכ׳</he> he freed his slave and used him to complete the quorum of ten persons. ",
+						"<cite ref=\"Berakhot 8b:1\">Ib. 8ᵇ</cite> <he>המשלים פרשיותיו</he>, v. <cite ref=\"Q02033\"><he>פָּרָשָׁה</he> I</cite>. Pesik. R. l. c. <he>לכך נקרא שלמה שה׳ … לתוך מעשה ידיו</he> he is called Sh’lomoh (perfect), because God caused the work of creation to be perfected through his handiwork (the Temple); Yalk. Kings l. c.; a. fr.—Esp. <i>to finish the fast-day</i>. ",
+						"<cite ref=\"Taanit 7a:10\">Taan. VII</cite>, 9 <he>יַשְׁלִימוּ</he> they must fast the whole day. ",
+						"<cite ref=\"Yoma 82a:3\">Yoma 82ᵃ</cite> <he>מַשְׁלִימִין</he> they must fast to the end of the day; a. fr.—<i>Part. pass.</i> <he>מוּשְׁלָם</he> <i>perfect, virtuous</i>. Hor. l. c. he was named Shallum <he>שהיה מ׳ במעשיו</he> Ag. Hatt. (ed. <he>משולם</he>) because he was perfect in his deeds; Yalk. Kings 250; Yalk. Chr. l. c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"U01251\"><he>שָׁלוֹם</he></cite>) <i>to make friends</i>, or <i>to surrender</i>. ",
+					"units": [
+						"<cite ref=\"Sukkah 52a:8\">Succ. 52ᵃ</cite> (ref. to <cite ref=\"Proverbs 25:22\">Prov. XXV, 22</cite>) <he>א״ת יְשַׁלֵּם אלא יַשְׁלִימֶנּוּ לך</he> read not <i>y’shallem</i> (he will pay) but, he will surrender him (the evil spirit) to thee; (comment.; he will make him be friends with thee).—Part. pass. as ab. ",
+						"<cite ref=\"Bamidbar Rabbah 7\">Num. R. s. 7<sup>4</sup></cite> <he>אחד עשר יום היו מוּשְׁלָמִים לאלהים</he> eleven days were they (the Israelites) at peace with God (adhered to him sincerely); <he>כ״ט יום … מוּשְׁלָמִין</he> twenty-nine days they were sincere servants of God, opp. <he>עשו את העגל</he>. ",
+						"<cite ref=\"Bamidbar Rabbah 7\">Ib.</cite> <he>אינם מושלמים לי וכ׳</he> (ed. Wil. <he>משלמים</he>, corr. acc.) they will be faithful to me only forty days. ",
+						"<cite ref=\"Bereishit Rabbah 16\">Gen. R. s. 16</cite>, beg. <he>מ׳ לבוראו</he> faithful to his Creator; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִשְׁלַם"],
+			"senses": [
+				{
+					"gloss": "<i>to be finished, to end</i>. Tanḥ. ",
+					"units": [
+						"<cite ref=\"Exodus 19\">Mishp. 19</cite> <he>המלאך אומר נ׳ פלוני</he> the angel says, such and such has ended (must die)."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["שִׁלֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to perfect</i>.—Part. pass. <he>מְשׁוּלָּם</he>. Hor. l. c., v. supra. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 458:3\">Yalk. Lev. 458</cite> <he>מְשׁוּלָּמִים</he>, v. <cite ref=\"U01251\"><he>שָׁלוֹם</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to compensate, reward, pay</i>. Pesik. R. l. c. (play on <he>ותשלם</he>, <cite ref=\"I Kings 7:51\">I Kings VII, 51</cite>) <he>עלי לשַׁלֵּם להם מתן שכר</he> it is for me to pay them their reward. ",
+					"units": [
+						"<cite ref=\"I Kings 7:51\">Ib.</cite> <he>עלי לשלם לו</he> it is for me to compensate it (the month of Kislev) for its loss; <he>ומה ש׳ לו וכ׳</he> and wherewith did he compensate it? With the dedication under the Hasmonean house. Y. Taan. II, 65ᵇ top (ref. to <cite ref=\"Micah 7:3\">Mic. VII, 3</cite>) <he>שַׁלֵּם לי וַאֲשַׁלֵּם לך</he> (the judge says,) pay me, and I shall pay thee (decide in thy favor). ",
+						"<cite ref=\"Mishnah Bava Kamma 1:1\">B. Kam. I, 1</cite> <he>חב המזיק לשלם וכ׳</he> he that caused the damage is bound to pay &c. ",
+						"<cite ref=\"Mishnah Bava Kamma 1:4\">Ib. 4</cite> <he>משַׁלֵּם נזק שלם</he> must pay the full indemnity. ",
+						"<cite ref=\"Mishnah Bava Metzia 3:1\">B. Mets. III, 1</cite> <he>ש׳ ולא רצה וכ׳</he> if he pays in preference to making oath. ",
+						"<cite ref=\"Mishnah Bava Batra 3:4\">B. Bath. III, 4</cite> <he>מְשַׁלְּמִין לו את הכל</he> they must pay him in full. ",
+						"<cite ref=\"Pirkei Avot 2:16\">Ab. II, 16</cite> <he>שׁיְשַׁלֵּם</he>, v. <cite ref=\"U01184\"><he>שָׂכָר</he></cite>; a. v. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

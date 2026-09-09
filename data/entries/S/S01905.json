@@ -1,0 +1,30 @@
+{
+	"id": "S01905",
+	"slug": "קרדויים",
+	"headword": {
+		"text": "קַרְדּוּיִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַרְדּוּיִין"
+		}
+	],
+	"page": {
+		"number": 1412,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>קַרְדּוּ</he> I) <i>Cordyenians</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 4:1:10\">Y. Kidd. IV, 65ᶜ</cite> bot.; <cite ref=\"Jerusalem Talmud Yevamot 1:6:6\">Y. Yeb. I, 3ᵇ</cite> top <he>מקבלין גרים מן הק׳ וכ׳</he> we may accept proselytes from the Cordyenians and the Tadmorites; Bab. ",
+				"<cite ref=\"Yevamot 16a:10\">ib. 16ᵃ</cite>. ",
+				"<cite ref=\"Yevamot 16a:10\">Ib.</cite> <cite ref=\"S01904\"><he>קַרְדּוּיֵי</he></cite> (ch. form), contradist. from <cite ref=\"S02205\"><he>קרתויי</he></cite>, v. <cite ref=\"S02206\"><he>קַרְתּוּיִים</he></cite>."
+			]
+		}
+	]
+}

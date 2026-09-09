@@ -1,0 +1,31 @@
+{
+	"id": "V00375",
+	"slug": "תחם-1",
+	"headword": {
+		"text": "תָּחַם"
+	},
+	"page": {
+		"number": 1661,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>תִּיחֵם</he> (denom. of <cite ref=\"V00353\"><he>תְּחוּם</he></cite>) <i>to mark the limits of, form landmarks</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 56a:6\">B. Bath. 56ᵃ</cite>, v. <cite ref=\"H01507\"><he>חֲצוּבָא</he> II</cite>. Pesik. ʿĂniya, p. 137ᵇ <he>בעולם הזה מְתַחֲמִים … מְתַחֲמִין וכ׳</he> in this world they form landmarks with stones or cistus shrubs, but in the latter days they shall form landmarks with precious stones &c.; <cite ref=\"Yalkut Shimoni on Nach 339\">Yalk. Is. 339</cite>; <cite ref=\"Midrash Tehillim 87\">Midr. Till. to Ps. LXXXVII</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

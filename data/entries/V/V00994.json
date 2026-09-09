@@ -1,0 +1,33 @@
+{
+	"id": "V00994",
+	"slug": "תריס-2",
+	"headword": {
+		"text": "תָּרִיס"
+	},
+	"page": {
+		"number": 1698,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>תאריס</he>, v. <cite ref=\"A03210\"><he>אָרַס</he></cite> a. denom.; cmp. <cite ref=\"V00080\"><he>תָּגָא</he></cite> a. <cite ref=\"V00009\"><he>תָּאגָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>shield</i> (of twisted osiers &c.). ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 6:4\">Sabb. VI, 4</cite>. ",
+				"<cite ref=\"Mishnah Kelim 24:1\">Kel. XXIV, 1</cite> <he>שלשה תריסין הן ת׳ כפוף וכ׳</he> there are three sorts of shields (with regard to levitical cleanness): the bent shield (which may be used as an improvised seat) is unclean as <i>midras</i> (v. <cite ref=\"M00334\"><he>מִדְרָס</he></cite>), and that with which they play in the camp &c., v. <cite ref=\"D00691\"><he>דִּיצָה</he></cite>. ",
+				"<cite ref=\"Midrash Tehillim 1:3\">Midr. Till. to Ps. I</cite>; <cite ref=\"Yalkut Shimoni on Nach 833:1\">Yalk. ib. 833</cite> (ref. to <he>מגן</he>, <cite ref=\"Psalms 84:12\">Ps. LXXXIV, 12</cite>) [read:] <he>הת׳ שמקיף וכ׳</he> (<he>איסקוטא פרסאה</he>, <he>איש׳</he>, being a gloss, v. <cite ref=\"I00016\"><he>טַארְגָא</he></cite>) that is the <i>taris</i>, which protects man on three sides, contrad. to <cite ref=\"R00607\"><he>צִנָּה</he></cite>. ",
+				"<cite ref=\"Pirkei Avot 4:11\">Ab. IV, 11</cite> <he>תשובה … כת׳ בפני הפורענות</he> repentance and good deeds are as a shield against misfortune; [oth. opin: as a <i>shutter</i>, v. infra).—Pl. <he>תָּרִיסִין</he>. Kel. l. c. ",
+				"<cite ref=\"Berakhot 27b:16\">Ber. 27ᵇ</cite>; <cite ref=\"Bekhorot 36a:13\">Bekh. 36ᵃ</cite> <he>בעלי ת׳</he> shield-bearers, i.e. great debaters.—2) (cmp. <cite ref=\"N00988\"><he>נַעַל</he></cite>) <i>shutter.—</i> Pl. as ab. ",
+				"<cite ref=\"Mishnah Beitzah 1:5\">Bets. I, 5</cite> <he>אין מסלקין את הת׳ וכ׳</he> you must not remove (take apart) shutters on the Holy Day; expl. ",
+				"<cite ref=\"Beitzah 11b:4\">ib. 11ᵇ</cite> <he>תְּרֵיסֵי חנויות</he> shutters of shops. Y. ib. I, 60ᶜ, v. <cite ref=\"L00363\"><he>לָחַם</he> I</cite>; <cite ref=\"Jerusalem Talmud Shabbat 12:1:6\">Y. Sabb. XII, 13ᶜ</cite> <he>התירצין</he> (read: <he>התְּרִיצִין</he>)."
+			],
+			"label": "1"
+		}
+	]
+}

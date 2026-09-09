@@ -1,0 +1,21 @@
+{
+	"id": "A03303",
+	"slug": "אשכבתא-1",
+	"headword": {
+		"text": "אַשְׁכַּבְתָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 128,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שכב</he>) <i>lying down, death</i>. ",
+			"units": ["<cite ref=\"Ketubot 103b\">Keth. 103ᵇ</cite>"]
+		}
+	]
+}

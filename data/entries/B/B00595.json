@@ -1,0 +1,22 @@
+{
+	"id": "B00595",
+	"slug": "בייכא",
+	"headword": {
+		"text": "בַּיְיכָא"
+	},
+	"page": {
+		"number": 161,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00242\"><he>בוך</he></cite>; cmp. <cite ref=\"O00068\"><he>סְבָכָה</he></cite>, <cite ref=\"O00070\"><he>סְבַכְתָּא</he></cite>) <i>net, head-dress</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 146a\">B. Bath. 146ᵃ</cite> ‘small presents’, <he>תרגמה רבא בייכא וסבכתא</he> Ar. s. v. <cite ref=\"J00330\"><he>ייכא</he></cite> (ed. <cite ref=\"B00590\"><he>בייבא</he></cite>, Ms. M. <he>ביוב׳</he>, Ms. H. <cite ref=\"B00558\"><he>ביוכא</he></cite>, cmp. comment. <he>כגון ב׳</he>; v. Koh. Ar. Compl. s. v.) said R., This means e.g. a net or a cap."
+			]
+		}
+	]
+}

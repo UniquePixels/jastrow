@@ -1,0 +1,22 @@
+{
+	"id": "M01407",
+	"slug": "מכמר-2",
+	"headword": {
+		"text": "מִכְמָר"
+	},
+	"page": {
+		"number": 783,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h., v. <cite ref=\"M01402\"><he>מִכְמוֹרֶת</he></cite>) <i>trap, net</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 117a:19\">B. Kam. 117ᵃ</cite>.—[<he>מכמרים</he>, <cite ref=\"Esther Rabbah 10:4\">Esth. R. to VI, 10</cite> ed. Wil., read <he>מסמרים</he>.]"
+			]
+		}
+	]
+}

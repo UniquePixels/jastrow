@@ -1,0 +1,31 @@
+{
+	"id": "R00538",
+	"slug": "צלף-1",
+	"headword": {
+		"text": "צָלַף"
+	},
+	"page": {
+		"number": 1285,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>צלל</he>) <i>to vibrate</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִצְלִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to swing</i> (<i>a whip</i>); <i>to strike</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Yoma 5:3\">Yoma V, 3</cite>, sq. <he>לא היה … אלא כמַצְלִיף</he> (in sprinkling upward and downward) he did not aim at a certain point above or below, but made the movement of swinging a whip; <cite ref=\"Yoma 15a\">ib. 15ᵃ</cite>; a. e., v. <cite ref=\"M01707\"><he>מַנְגְּדָנָא</he></cite> a. <cite ref=\"I00091\"><he>טִבְרֵר</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "Q01640",
+	"slug": "פרוותא",
+	"headword": {
+		"text": "פַּרְוָותָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְוָתָא"
+		}
+	],
+	"page": {
+		"number": 1218,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"Q01639\">preced.</cite> wds.) <i>outworks; port, market place</i>. Targ. II Esth. I, 2, end <he>פ׳ ברייאתא וכ׳</he> Var. (ed. Lag. <he>פורטתא</he>; oth. ed. <he>פנדתא</he>, Var. <he>פדוו׳</he>, corr. acc.) the outer precincts &c.—",
+			"units": [
+				"<cite ref=\"Bava Metzia 73b:9\">B. Mets. 73ᵇ</cite> <he>פ׳ דוולשפט</he> the market of &c., v. <cite ref=\"B00920\"><he>בֵּלְשָׁפָט</he></cite>; <cite ref=\"Bava Batra 98a:10\">B. Bath. 98ᵃ</cite>. ",
+				"<cite ref=\"Chullin 95b:3\">Ḥull. 95ᵇ</cite> <he>פ׳ דגוים הוואי</he> it was a market attended mostly by gentiles. ",
+				"<cite ref=\"Rosh Hashanah 23a:10\">R. Hash. 23ᵃ</cite>; <cite ref=\"Yoma 77a:5\">Yoma 77ᵃ</cite>, v. <cite ref=\"M02921\"><he>מָשְׁמָהִיג</he></cite>.—Pl. <cite ref=\"Q01640\"><he>פַּרְוָותָא</he></cite>. R. Hash. l. c."
+			]
+		}
+	]
+}

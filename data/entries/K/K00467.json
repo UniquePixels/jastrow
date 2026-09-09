@@ -1,0 +1,23 @@
+{
+	"id": "K00467",
+	"slug": "כחלי",
+	"headword": {
+		"text": "כַּחֲלֵי"
+	},
+	"page": {
+		"number": 629,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. = h. <cite ref=\"K00241\"><he>כּוֹחֲלִין</he></cite>, <i>carbuncle</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:14\">Targ. Cant. V, 14</cite> (corresp. to <cite ref=\"N01053\"><he>נֹפֶךְ</he></cite>, <cite ref=\"Exodus 28:13\">Ex. XXVIII, 13</cite>)."
+			]
+		}
+	]
+}

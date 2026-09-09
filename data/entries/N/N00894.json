@@ -1,0 +1,41 @@
+{
+	"id": "N00894",
+	"slug": "נמרי",
+	"headword": {
+		"text": "נִמְרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִמְרִין"
+		},
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 914,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Nimrin</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " = <he>בית נמרה</he>, v. <cite ref=\"N00893\">preced. art.</cite>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Nimrin</i> in Syria, the last station of messengers proclaiming the new moon. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 2:7:3\">Y. Keth. II, 26ᵈ</cite> top <he>עד מקום ששלוחי … עד נ׳</he> as far as the messengers to announce the new moon go, as far as N. ",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 1:4:3\">Y. R. Hash. I, 57ᵇ</cite> bot. <he>אילין דאזלין לנְמוֹרִין</he> those messengers who go to N.—Tosef. Yoma V (IV), 3 <he>ככותבת הנימרין</he>, v. <cite ref=\"N00896\"><he>נִמְרִית</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

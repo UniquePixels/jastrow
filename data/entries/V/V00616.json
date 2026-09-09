@@ -1,0 +1,65 @@
+{
+	"id": "V00616",
+	"slug": "תלע-1",
+	"headword": {
+		"text": "תָּלַע"
+	},
+	"page": {
+		"number": 1673,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to become wormeaten; to decay</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 2:3\">Kil. II, 3</cite> <he>עד שתַּתְלִיעַ</he> until the seed in the ground begins to rot; Y. ib. 27ᵈ top <he>עד כמה היא מַתְלַעַת וכ׳</he> R. S. to Kil. l. c. (ed. <he>מזרעת</he>, corr. acc.) how long does it take to rot? Three days in moist ground &c. ",
+				"<cite ref=\"Chullin 58a:15\">Ḥull. 58ᵃ</cite> <he>שהִתְלִיעָה</he>, v. <cite ref=\"A00016\"><he>אֵב</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:8:5\">Y. Ber. II, 5ᶜ</cite> top <he>והִתְלִיעוּ תאינותיו</he> (not <he>תיה …</he>) and his figs (on the tree) became wormy (or rotten). ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:6\">Cant. R. to IV, 6</cite>; <cite ref=\"Bereishit Rabbah 47:6\">Gen. R. s. 47</cite> <he>התליעו</he> they decayed. ",
+				"<cite ref=\"Bava Kamma 52a\">B. Kam. 52ᵃ</cite> <he>שה׳ מתוכו</he> when the board that covered the pit rotted from the inside; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to remove the wormy parts from; to sort wood</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 2:5\">Midd. II, 5</cite> <he>ששם … מַתְלִיעִים את העצים</he> for there the priests … sorted the wood for the altar."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"B00898\"><he>הִתְלִיעַ</he></cite> (denom. of <cite ref=\"V00217\"><he>תּוֹלָע</he></cite>) ",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["תִּלֵּעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to drive vermin off</i>. Y. Shebi. II, 33ᵈ <he>מְתַלְּעִין</he>, v. <cite ref=\"G00102\"><he>זָהַם</he></cite>. Y. Sabb. VII, 10ᵃ top <he>המעשן המְתַלֵּעַ וכ׳</he> he who fumigates plants, or smears them with rancid oil to keep the worms off &c.—<i>Part. pass.</i> <he>מְתוּלָּע</he>; f. <he>מְתוּלַּעַת</he>; pl. <he>מְתוּלָּעִים</he>, <he>מְתוּלָּעִין</he>; <he>מְתוּלָּעוֹת</he> <i>wormy</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Batra 6:2\">B. Bath. VI, 2</cite> (<cite ref=\"Bava Batra 93b:14\">93ᵇ</cite>) <he>תאנים מקבל … מת׳ וכ׳</he> if one buys figs, he must accept ten wormy ones for each hundred; (Y. ed. <he>מַתְלִיעוֹת</he> <i>Hif.</i>, v. supra).—["
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (b. h.) <i>to dye scarlet; to clothe in scarlet</i>.—V. <cite ref=\"V00219\"><he>תּוֹלֵעָה</he></cite>.]",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

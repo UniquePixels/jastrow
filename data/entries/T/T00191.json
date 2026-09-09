@@ -1,0 +1,32 @@
+{
+	"id": "T00191",
+	"slug": "רגיל-1",
+	"headword": {
+		"text": "רָגִיל"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְגִילָה"
+		}
+	],
+	"page": {
+		"number": 1448,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00202\"><he>רָגַל</he></cite>) [<i>running</i>, cmp. <cite ref=\"D00389\"><he>דּוּשׁ</he></cite>,] <i>in the habit of, wont to</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 3:8\">Bets. III, 8</cite> (<cite ref=\"Beitzah 29b:6\">29ᵇ</cite>) <he>אצל חנוני הר׳ אצלו</he> to a storekeeper to whom he is used to go. ",
+				"<cite ref=\"Berakhot 40a:7\">Ber. 40ᵃ</cite> <he>הר׳ בחרדל וכ׳</he> who is in the habit of using mustard once in thirty days. ",
+				"<cite ref=\"Pesachim 104a:5\">Pes. 104ᵃ</cite> <he>הר׳ … ושאינו ר׳ וכ׳</he> he who is conversant (with the prayers) recites several (clauses of the Habdalah), he who is not, recites one. ",
+				"<cite ref=\"Ketubot 65a:4\">Keth. 65ᵃ</cite> <he>ר׳ נותנין לה</he> if she is used to wine, it must be given to her; a. v. fr.—Pl. <he>רְגִילִים</he>, <he>רְגִילִין</he>; <he>רְגִילוֹת</he>. ",
+				"<cite ref=\"Mishnah Yoma 8:4\">Yoma VIII, 4</cite> <he>בשביל שיהיו ר׳ במצות</he> that they may become used to religious observances; a. fr.—",
+				"<cite ref=\"Tosefta Berakhot 2:12\">Tosef. Ber. II, 12</cite> <he>הלכות הר׳</he> Var. (ed. Zuck. <he>הרוגליות</he>) Hălakhoth which are familiar to him; <cite ref=\"Berakhot 22a:6\">Ber. 22ᵃ</cite> <he>רְגִילִיּוֹת</he>; <cite ref=\"Jerusalem Talmud Shabbat 1:4:15\">Y. Sabb. I, 3ᵈ</cite> <he>רוגליות</he>."
+			]
+		}
+	]
+}

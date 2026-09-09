@@ -1,0 +1,28 @@
+{
+	"id": "M01815",
+	"slug": "מנקירותא",
+	"headword": {
+		"text": "מְנַקִּירוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְנַקְּרוּתָא"
+		}
+	],
+	"page": {
+		"number": 802,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>נְקַר</he> II) <i>cleanliness</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 105b:9\">Ḥull. 105ᵇ</cite> (Ar. <he>מנקד׳</he>). ",
+				"<cite ref=\"Avodah Zarah 30a:14\">Ab. Zar. 30ᵃ</cite> (Ar. <he>מנקד׳</he>; Ms. M. <cite ref=\"N01204\"><he>נַקְיוּתָא</he></cite>.]"
+			]
+		}
+	]
+}

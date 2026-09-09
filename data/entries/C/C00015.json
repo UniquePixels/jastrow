@@ -1,0 +1,52 @@
+{
+	"id": "C00015",
+	"slug": "גאי-1",
+	"headword": {
+		"text": "גאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גָּאָה"
+		}
+	],
+	"page": {
+		"number": 202,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>גא</he>, <he>גו</he> , <he>גה</he> <i>to rise; to be arched, caved</i>) <i>to rise, swell;</i> trnsf. <i>to be elated, proud; to be exalted, majestic</i>. Mekh. B’shall., Shirah 2, v. infra. [<cite ref=\"Tosefta Moed Kattan 1:7\">Tosef. M. Kat. I, 7</cite> <cite ref=\"C00264\"><he>גּוֹאֶה</he></cite>, v. <cite ref=\"C00255\"><he>גָּהָה</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גֵּאָה", "גֵּיאָה"],
+			"senses": [
+				{
+					"gloss": "<i>to exalt</i>. Mekh. l. c. <he>גֵּאַנִּי וגֵאתִיו</he> He (the Lord) exalted me, and I exalt him; Tanḥ. ib. 12 <he>גֵּאַוְנִי וגֵאִיתִיו</he>; <cite ref=\"Yalkut Shimoni on Torah 242:2\">Yalk. Ex. 242</cite> <he>וגואותיו</he> (corr. acc.). Y. Taan. III, 67ᵃ top (ref. to <cite ref=\"Job 23:29\">Job XXIII, 29</cite>) <he>אני אמרתי להשפילן … לגָאוֹתָן</he> I (the Lord) decreed to humble them (by dearth), and thou—to raise them (Bab. ib. 23ᵃ <he>הגבהתו</he>).",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְגָּאֶה"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְגָּאֶה</he> <i>to show one’s self glorious, exalt one’s self, be exalted;</i> (in an evil sense) <i>to be proud, boast, to lord it</i>. Mekh. l. c. (ref. to <cite ref=\"Exodus 15:1\">Ex. XV, 1</cite>) <he>גָּאָה ועתיד להִתְגָּאוֹת</he> He was glorious and will be &c. ",
+					"units": [
+						"<cite ref=\"Exodus 15:1\">Ib.</cite> <he>מִתְגָּאֶה הוא על כל המִתְגָּאִים</he> He exalts himself above all those who are boastful, <he>שֶׁבַּמֶּה שאו״ה מתג׳ לפניו וכ׳</he> for that with which the nations boast themselves, becomes the means of their punishment; Tanḥ. l. c.—",
+						"<cite ref=\"Chagigah 13b:5\">Ḥag. 13ᵇ</cite>, v. <cite ref=\"C00005\"><he>גֵּאֶה</he></cite>. ",
+						"<cite ref=\"Chagigah 5b:15\">Ib. 5ᵇ</cite> <he>פרנס המתג׳ וכ׳</he> an officer who lords it over the community. ",
+						"<cite ref=\"Bava Batra 98a:8\">B. Bath. 98ᵃ</cite> <he>המתג׳ בטלית וכ׳</he> who parades the scholar’s cloak. ",
+						"<cite ref=\"Tosefta Sotah 3:10\">Tosef. Sot. III, 10</cite> sq. <he>לא נִתְגָּאוּ אלא וכ׳</he> became haughty only in consequence of the bounties &c.; <cite ref=\"Sanhedrin 109a\">Snh. 109ᵃ</cite>. ",
+						"<cite ref=\"Berakhot 10b\">Ber. 10ᵇ</cite> <he>לאחר שאכל ושתה ונתג׳ זה</he> Ms. M. (ed. <he>לאחר שנתג׳</he>; Yalk. Kings … <he>זה ונתג׳</he>; Lev. 616 <he>לאחר שגאה</he>) after this man has eaten and drunk and become haughty, v. <cite ref=\"C00020\"><he>גֵּאִים</he></cite>. ",
+						"<cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite> <he>נתג׳ לבו עליו</he> (<cite ref=\"Shemot Rabbah 37\">Ex. R. s. 37</cite> <he>זחה דעתו</he>) became overbearing."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "K01093",
+	"slug": "כרדיטין",
+	"headword": {
+		"text": "כַּרְדִּיטִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּרְדּוּ׳"
+		}
+	],
+	"page": {
+		"number": 664,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (a corrupt. of <he>כונדריטין</he> χονδρίται) <i>bread made of groats</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 7:18\">Targ. Jer. VII, 18</cite>; <cite ref=\"Targum Jonathan on Jeremiah 44:19\">XLIV, 19</cite> (h. text <cite ref=\"K00305\"><he>כַּוָּנִים</he></cite>)."
+			]
+		}
+	]
+}

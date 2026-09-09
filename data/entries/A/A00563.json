@@ -1,0 +1,22 @@
+{
+	"id": "A00563",
+	"slug": "אודייתא-2",
+	"headword": {
+		"text": "אוּדְיָיתָא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 22,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>דוע</he>, v. <cite ref=\"A00380\"><he>אַדְווּתָא</he></cite>) <i>attendant</i>, or <i>superintendent of the vapor bath;</i> cmp. <cite ref=\"A00968\"><he>אֲזִי</he></cite>—Y. Shebi. VIII, 38ᵃ <he>זוסימי א׳</he> Zosime, the superintendent &c.",
+			"units": []
+		}
+	]
+}

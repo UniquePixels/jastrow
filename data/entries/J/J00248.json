@@ -1,0 +1,26 @@
+{
+	"id": "J00248",
+	"slug": "יורש",
+	"headword": {
+		"text": "יוֹרֵשׁ"
+	},
+	"page": {
+		"number": 572,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"J00669\"><he>יָרַשׁ</he></cite>)<i>heir, successor, heir-at-law</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 9:2\">B. Bath. IX, 2</cite> <he>אם אין שם י׳ וכ׳</he> if there is no other heir besides. ",
+				"<cite ref=\"Bava Batra 139a:14\">Ib. 139ᵃ</cite> <he>שויוה רבנן כי׳ … כלוקח</he> the Rabbis gave him the privileges of an heir (to his wife’s property) and those of a purchaser; a. v. fr.—Pl. <he>יוֹרְשִׁים</he>, <he>יוֹרְשִׁין</he>. ",
+				"<cite ref=\"Bava Batra 140a:2\">Ib. 140ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Bava Batra 9:9\">Ib. IX, 9</cite> <he>יוֹרְשֵׁי האשה וכ׳</he> the wife’s heirs-at-law claim that the husband died first; a. v. fr.—<i>Fem.</i> <he>יוֹרֶשֶׁת</he>, <i>pl.</i> <he>יוֹרְשׁוֹת</he>. ",
+				"<cite ref=\"Bava Batra 119a\">Ib. 119ᵃ</cite> <he>יודע</he> … <he>י׳ הן</he> Moses knew that the daughters of Z. were legal heirs."
+			]
+		}
+	]
+}

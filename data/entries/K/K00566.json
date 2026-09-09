@@ -1,0 +1,31 @@
+{
+	"id": "K00566",
+	"slug": "כינוי",
+	"headword": {
+		"text": "כִּינּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּנּוּי"
+		}
+	],
+	"page": {
+		"number": 633,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00837\"><he>כָּנָה</he></cite>) <i>by-name, surname; attribute, substituted word</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 7:5\">Snh. VII, 5</cite> <he>דנין … בכ׳</he> the witnesses are examined by using a substitute for the Divine Name (v. <cite ref=\"J00217\"><he>יוֹסֵי</he></cite>). ",
+				"<cite ref=\"Mishnah Sotah 7:6\">Sot. VII, 6</cite> <he>במקדש … ובמדינה בכִינּוּיוֹ</he> in the Temple the Divine Name is pronounced as it is written, in the country (outside the Temple) by its substitute (Ădonai). ",
+				"<cite ref=\"Sotah 38a:2\">Ib. 38ᵃ</cite> <he>בכ׳</he>, opp. <he>שם המפורש</he>; a. e.—Pl. <he>כִּינּוּיִים</he>, <he>כִּינּוּיִין</he>, <cite ref=\"K00567\"><he>כִּנּ׳</he></cite>. ",
+				"<cite ref=\"Mishnah Nedarim 1:1\">Ned. I, 1</cite> <he>כִּינּוּיֵי נדרים</he> words used as substitutes for vows (<cite ref=\"N00240\"><he>נדר</he></cite>); <cite ref=\"Mishnah Nedarim 1:2\">ib. 2</cite> <he>כ׳ לחרם</he> substitutes for <i>ḥerem</i> (v. <cite ref=\"H01759\"><he>חֵרֶק</he></cite>); a. fr.—<he>כִּינּוּיֵי כִּינּוּיִין</he> secondary substitutes, e.g. the use of <i>g’rog’roth</i> for <i>tirosh</i> and this for <i>eshkol</i>, v. <cite ref=\"C01292\"><he>גְּרוֹגֶרֶת</he></cite>. ",
+				"<cite ref=\"Tosefta Nazir 2:1\">Tosef. Naz. II, 1</cite>; Y. ib. II, beg. 51ᵈ"
+			]
+		}
+	]
+}

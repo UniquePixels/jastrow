@@ -1,0 +1,24 @@
+{
+	"id": "P00432",
+	"slug": "עזרתא",
+	"headword": {
+		"text": "עֲזַרְתָּא"
+	},
+	"page": {
+		"number": 1062,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"P00430\"><he>עֲזָרָה</he></cite>, <i>court</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 10:32\">Targ. Is. X, 32</cite> (ed. Wil. <cite ref=\"P00432\"><he>עֲזָרָתָא</he></cite>, pl.). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 3:3\">Targ. I Sam. III, 3</cite> <he>עֲזָרַת</he> constr.; a. e.—Pl. <cite ref=\"P00432\"><he>עֲזָרָתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 1:12\">Targ. Is. I, 12</cite> <he>עֲזָרָתָי</he> (not … <he>תִי</he>)."
+			]
+		}
+	]
+}

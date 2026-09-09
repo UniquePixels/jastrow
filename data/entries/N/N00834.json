@@ -1,0 +1,45 @@
+{
+	"id": "N00834",
+	"slug": "נכל-2",
+	"headword": {
+		"text": "נְכַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִכְלָא"
+		},
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 911,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00823\"><he>נְכֵיל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = b. h. <he>נֵכֶל</he> <i>deceit</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 24:4\">Targ. Ps. XXIV, 4</cite>; a. fr.—Pl. <he>נִכְלִין</he>, <cite ref=\"M01772\"><he>נִי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 53:9\">Targ. Is. LIII, 9</cite> (not <he>ניב׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Micah 6:12\">Targ. Mic. VI, 12</cite>. ",
+				"<cite ref=\"Onkelos Numbers 25:18\">Targ. O. Num. XXV, 18</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>deceitful; hypocrite</i>, v. <cite ref=\"N00807\"><he>נְכָאלָא</he></cite>, a. <cite ref=\"N00825\"><he>נָכִיל</he></cite>.—Pl. <he>נִכְלֵי</he>, <cite ref=\"M01772\"><he>נִי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 49\">Gen. R. s. 49</cite>; <cite ref=\"Yalkut Shimoni on Torah 83:5\">Yalk. ib. 83</cite>, v. <cite ref=\"N01059\"><he>נִבְלָא</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "M01403",
+	"slug": "מכמך",
+	"headword": {
+		"text": "מִכְמֵךְ"
+	},
+	"page": {
+		"number": 783,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"M01386\"><he>מָכַךְ</he></cite>) <i>to crush</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְמַכְמֵךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be crushed</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 101b\">Snh. 101ᵇ</cite> (Ar. ed. pr. <cite ref=\"M01386\"><he>נִתְמַכֵּךְ</he></cite>); cmp. <cite ref=\"M02121\"><he>מָעַךְ</he></cite>."
+					]
+				}
+			],
+			"stem": "Nithpalp."
+		}
+	]
+}

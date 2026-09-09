@@ -1,0 +1,47 @@
+{
+	"id": "O00163",
+	"slug": "סגף-1",
+	"headword": {
+		"text": "סָגַף"
+	},
+	"page": {
+		"number": 955,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<i>Saf.</i> of <he>נגף</he>) <i>to plague, afflict</i> (corresp. to b. h. <cite ref=\"P00952\"><he>עָנָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 7:10\">B. Mets. VII, 10</cite> (<cite ref=\"Bava Metzia 93b:18\">93ᵇ</cite>) <he>סְגָפָהּ</he> if he maltreated (starved) her (v. <cite ref=\"O00938\"><he>סָכַף</he></cite>).—Part. pass. <cite ref=\"O00117\"><he>סָגוּף</he></cite>; f. <he>סְגוּפָה</he>; pl. <he>סְגוּפִים</he>, <he>סְגוּפִין</he>, <he>סְגוּפוֹת</he> (usu. combined with <he>דָּווּי</he>, v. <cite ref=\"D00204\"><he>דָּוָה</he></cite>). ",
+				"<cite ref=\"Sifrei Devarim 24:2\">Sifré Deut. 24</cite>; <cite ref=\"Yalkut Shimoni on Torah 805:2\">Yalk. ib. 805</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 74:17\">Gen. R. s. 74</cite>; (<cite ref=\"Bereishit Rabbah 74:17\">ib.</cite> s. 60 <he>שפופין</he>); a. e.; v. <cite ref=\"O00938\"><he>סָכַף</he></cite> a. <cite ref=\"O00461\"><he>סָחַף</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִיגֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to afflict</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 22b:10\">Taan. 22ᵇ</cite> <he>לסגֵּף את עצמו בתענית</he> to afflict himself by fasting. Y. Dem. VII, 26ᵇ top <he>לא ירעיב … ולא יְסַגֵּף</he> the hired laborer must not starve himself or undergo privations, because he lessens his employer’s work; a. e.—[<cite ref=\"Yalkut Shimoni on Nach 27:1\">Yalk. Josh. 27</cite> <he>שלא יסגפני</he>, v. <cite ref=\"U00207\"><he>שָׂגַב</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִסְתַּגֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to feel privation; to suffer</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 60:11\">Gen. R. s. 60</cite> <he>מִסְתַּגֵּף</he> (<he>הוא</he>) he suffers; <cite ref=\"Shemot Rabbah 26\">Ex. R. s. 26</cite>; Mekh. B’shall., Vayassa, s. 6; a. e."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

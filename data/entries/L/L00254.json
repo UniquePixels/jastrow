@@ -1,0 +1,53 @@
+{
+	"id": "L00254",
+	"slug": "לויה-1",
+	"headword": {
+		"text": "לִוִיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְוִיָּיה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 697,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"L00251\"><he>לֵוִי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>Levite, daughter</i> or <i>wife of a Levite</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 10:1:9\">Y. Yeb. X, 10ᵈ</cite> top; <cite ref=\"Tosefta Yevamot 8:2\">Tosef. ib. VIII, 2</cite>. ",
+				"<cite ref=\"Bekhorot 47a:12\">Bekh. 47ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the community of Levites, status of Levites</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 1:17\">Ex. R. s. 1</cite> <he>בתי כהונה ול׳</he> priestly and Levite families. Y. Maas. Sh. V, end, 56ᵈ <he>מכרי כהונה ול׳</he> friends of priestly or Levite families. Bekh. l. c. <he>כהונה ול׳ פטורין</he> the priests and the Levites are exempt; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>the community of the attendants of the Tabernacle, priests and Levites</i>. ",
+			"units": ["<cite ref=\"Sifrei Bamidbar 1:3\">Sifré Num. 1</cite>; a. e."],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>the Levitical offices</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 5:10\">Ex. R. s. 5</cite> <he>זה נוטל כהונה ונותן ל׳ וכ׳</he> the one (Aaron) took the priesthood and gave (Moses) the Levite offices; the other took the Levite offices &c.; (Tanḥ. Sh’moth 27 <cite ref=\"M01579\"><he>מלכות</he></cite>); a. e."
+			],
+			"label": "4"
+		}
+	]
+}

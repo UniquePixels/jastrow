@@ -1,0 +1,33 @@
+{
+	"id": "J00661",
+	"slug": "ירקונא-1",
+	"headword": {
+		"text": "יַרְקוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יַרְקָנָא"
+		}
+	],
+	"page": {
+		"number": 598,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"J00660\">same</cite><i>jaundice</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 30:6\">Targ. Jer. XXX, 6</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>mildew</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:22\">Targ. Deut. XXVIII, 22</cite> (?). ",
+				"<cite ref=\"Targum Jonathan on I Kings 8:37\">Targ. I Kings VIII, 37</cite>; <cite ref=\"Targum of II Chronicles 6:28\">Targ. II Chr. VI, 28</cite> <cite ref=\"J00247\"><he>יוּרְקָנָא</he></cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

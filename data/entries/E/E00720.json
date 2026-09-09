@@ -1,0 +1,27 @@
+{
+	"id": "E00720",
+	"slug": "העניק",
+	"headword": {
+		"text": "הַעֲנֵיק"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַעֲנֵק"
+		}
+	],
+	"page": {
+		"number": 360,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Inf. Hif. of <cite ref=\"P01006\"><he>עָנַק</he></cite>, with ref. to <cite ref=\"Deuteronomy 15:14\">Deut. XV, 14</cite>) <i>the outfitting of the emancipated slave</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 17b:3\">Kidd. 17ᵇ</cite> <he>לה׳</he> (‘and also to thy handmaid shalt thou do likewise’, <cite ref=\"Deuteronomy 15:17\">Deut. XV, 17</cite>) refers to the outfit (not to the marking of the ear); Y. ib. I, 59ᶜ bot.; <cite ref=\"Sifrei Devarim 122\">Sifré Deut. 122</cite>."
+			]
+		}
+	]
+}

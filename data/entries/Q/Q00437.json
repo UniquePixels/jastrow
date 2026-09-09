@@ -1,0 +1,27 @@
+{
+	"id": "Q00437",
+	"slug": "פזרא",
+	"headword": {
+		"text": "פִּזְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּי׳"
+		}
+	],
+	"page": {
+		"number": 1150,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פזר</he>) <i>a whip</i> or <i>stick</i> with which to drive off intruders. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 28a:27\">B. Kam. 28ᵃ</cite> <he>לנקוט פ׳ וליתיב</he> (Ms. H. <he>פזירא</he>) let him take up a whip and sit (guarding); <cite ref=\"Bava Batra 99b:10\">B. Bath. 99ᵇ</cite>"
+			]
+		}
+	]
+}

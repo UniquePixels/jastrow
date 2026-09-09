@@ -1,0 +1,31 @@
+{
+	"id": "M02638",
+	"slug": "מרחקא",
+	"headword": {
+		"text": "מְרַחֲקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְרָ׳"
+		},
+		{
+			"text": "מְרַחַקְתָּא"
+		}
+	],
+	"page": {
+		"number": 841,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M02637\">preced.</cite>) <i>abomination</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 24:4\">Targ. Deut. XXIV, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 13:19\">Targ. Prov. XIII, 19</cite>; a. fr."
+			]
+		}
+	]
+}

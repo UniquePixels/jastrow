@@ -1,0 +1,23 @@
+{
+	"id": "J00296",
+	"slug": "יחמא",
+	"headword": {
+		"text": "יַחֲמָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 575,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00295\">preced.</cite>) <i>heating, exciting ingredient of drinks</i>. Targ. ",
+			"units": [
+				"<cite ref=\"Habakkuk 2:15\">Hab. II, 15</cite> (ed. Lag. <cite ref=\"H01137\"><he>חמא</he></cite>; h. text <he>חמתך</he>)."
+			]
+		}
+	]
+}

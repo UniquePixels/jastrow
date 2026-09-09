@@ -1,0 +1,25 @@
+{
+	"id": "O00782",
+	"slug": "סיפדא",
+	"headword": {
+		"text": "סִיפְדָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִפְ׳"
+		}
+	],
+	"page": {
+		"number": 985,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01316\"><he>סְפַד</he></cite>) <i>mourning, lamentation</i>. Targ. II Esth. IV, 3. Ib. VI, 11 <cite ref=\"O01353\"><he>סְפִידָא</he></cite> (ed. Amst. <cite ref=\"O01353\"><he>סַפִּידָא</he></cite>).",
+			"units": []
+		}
+	]
+}

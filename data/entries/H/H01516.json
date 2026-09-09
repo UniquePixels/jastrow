@@ -1,0 +1,50 @@
+{
+	"id": "H01516",
+	"slug": "חצי-1",
+	"headword": {
+		"text": "חצי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָצָה"
+		}
+	],
+	"page": {
+		"number": 495,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"H01533\"><he>חָצַץ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to split, divide</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 3a:5\">B. Bath. 3ᵃ</cite> <he>שרצו לַחֲצוֹת</he>, v. <cite ref=\"M00872\"><he>מְחִיצָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pick one’s teeth</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Beitsah 3:18\">Tosef. Bets. III, 18</cite>, v. <cite ref=\"H01533\"><he>חָצַץ</he> I</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶחֱצָה"],
+			"senses": [
+				{
+					"gloss": "<i>to order a division, to assign half, divide</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 34a:16\">B. Kam. 34ᵃ</cite> <he>פחת שפחתתו מיתה מַחֲצִין בחי</he> Ms. M. a. Rashi (ed. <he>שפחתו</he>) half of the loss of value which death has caused, is collected from the living animal; Y. ib. I, end, 2ᶜ <he>מחצין את הנזק</he> the loss is divided."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

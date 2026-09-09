@@ -1,0 +1,49 @@
+{
+	"id": "S00874",
+	"slug": "קידושא",
+	"headword": {
+		"text": "קִידּוּשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִדּ׳"
+		}
+	],
+	"page": {
+		"number": 1356,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00873\">same</cite><i>the washing of hands and feet</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 4:6\">Targ. II Chr. IV, 6</cite>.—",
+				"<cite ref=\"Yoma 32a:1\">Yoma 32ᵃ</cite> <he>ק׳ בתרא</he> the last ablution of the high priest (after putting off the priestly garments); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the prayer of Ḳiddush</i> (v. <cite ref=\"S00873\">preced.</cite>). ",
+			"units": [
+				"<cite ref=\"Pesachim 101a:6\">Pes. 101ᵃ</cite> <he>בק׳ דהכא וכ׳</he> with the Ḳiddush that you hear here with me you will not have complied with the duty of &c. ",
+				"<cite ref=\"Pesachim 106a:9\">Ib. 106ᵃ</cite> <he>ק׳ רבה</he> the large Ḳiddush (jestingly for ‘small’), i.e. the mere blessing over wine preceding the meal on the festive day, contrad. to the Ḳiddush on the festive eve. ",
+				"<cite ref=\"Megillah 27b:21\">Meg. 27ᵇ</cite> <he>לא הוה לי ק׳ וכ׳</he> I had no wine for Ḳiddush, so I pawned &c.; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. <cite ref=\"S00123\"><he>קְדוּשָּׁה</he></cite>) <i>doxology, Ḳ’dushshah</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 49a\">Sot. 49ᵃ</cite> <he>ק׳ דסדרא</he> the Ḳ. recited after the lesson of the day (v. Rashi a. l.)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>token of betrothal, betrothal-gift</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 9:7:2\">Y. B. Kam. IX, end, 7ᵃ</cite> <he>מידמכא … אהן קי׳ דברתי</he> when she was dying, she said, this is my daughter’s betrothal-gift (belongs to her); [prob. to be read: <cite ref=\"S00146\"><he>קַדִּישָׁא</he></cite> or <cite ref=\"S00199\"><he>קָדָשָׁא</he></cite> <i>ring</i>]."
+			],
+			"label": "4"
+		}
+	]
+}

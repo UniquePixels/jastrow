@@ -1,0 +1,47 @@
+{
+	"id": "Q00474",
+	"slug": "פחית-2",
+	"headword": {
+		"text": "פְּחִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּחִיתָא"
+		}
+	],
+	"page": {
+		"number": 1152,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"Q00456\"><he>פָּחוּת</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>less</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 97b\">Snh. 97ᵇ</cite>; <cite ref=\"Sukkah 45b:6\">Succ. 45ᵇ</cite> <he>לא פ׳ עלמא וכ׳</he> (ed. <he>פחות</he>) the world has never less than thirty-six righteous men worthy to face the Shekhinah, in every generation."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>defective, broken</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:22\">Lam. R. to III, 16</cite> after having eaten all his food <he>נסיב חד פת פ׳ וכ׳</he> he took a broken loaf and put ashes on it. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Ib. to I, 1</cite> (<cite ref=\"T00152\"><he>רבתי</he></cite>) <he>הדא מנהון פ׳ וסמיכא וכ׳</he> one of them (beds) was broken and leaning against another bed; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>mean, wretched</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 2:5:3\">Cant. R. to II, 5</cite> [read:] <he>ואת בעי … להדא פ׳</he> and thou wouldst forsake thy God and bow to his wretched (idol)?"
+			],
+			"label": "3"
+		}
+	]
+}

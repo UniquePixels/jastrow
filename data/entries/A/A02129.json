@@ -1,0 +1,27 @@
+{
+	"id": "A02129",
+	"slug": "אנדרטא",
+	"headword": {
+		"text": "אַנְדְּרָטָא"
+	},
+	"page": {
+		"number": 81,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a. contract. of ἀνδριάς‚—άντος) <i>statue</i>, also <i>portable bust, image</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 3:2-5\">Targ. Esth. III, 2—5</cite> (some ed. pl., incorr.). ",
+				"<cite ref=\"Rosh Hashanah 24b:11\">R. Hash. 24ᵇ</cite> a synagogue <he>דאוקימו בה א׳</he> Ms. M. (ed. <he>הוה בה א׳</he>) in which they placed a bust (of a Persian king). ",
+				"<cite ref=\"Sanhedrin 62b:7\">Snh. 62ᵇ</cite>; a. fr.—Pl. <cite ref=\"A02129\"><he>אַנְדְּרָטֵי</he></cite>, <cite ref=\"A02129\"><he>אַנְדְּרָטַיָּא</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 40b:14\">Ab. Zar. 40ᵇ</cite> <he>א׳ של מלכים</he> royal (imperial) busts. ",
+				"<cite ref=\"Moed Katan 25b:13\">M. Kat. 25ᵇ</cite> <he>אתעקרו כל א׳</he> Ms. M. (ed. <he>אתקציצו</he>) all royal statues were overthrown. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:6\">Y. Ab. Zar. III, 42ᶜ</cite> top. [<cite ref=\"Bereishit Rabbah 8\">Gen. R. s. 8</cite> <cite ref=\"A01373\"><he>אינדרטין</he></cite>, v. <cite ref=\"A02127\"><he>אַנְדְּרוֹנִיטִיס</he></cite>.]"
+			]
+		}
+	]
+}

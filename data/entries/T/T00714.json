@@ -1,0 +1,25 @@
+{
+	"id": "T00714",
+	"slug": "ריר-3",
+	"headword": {
+		"text": "רִיר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1477,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T00713\">preced.</cite>) <i>juice, spittle, discharge</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 2:8\">Ukts. II, 8</cite> <he>אם יש בהן ר׳</he> if there is juice in them. ",
+				"<cite ref=\"Tosefta Zavim 5:2\">Tosef. Zab. V, 2</cite> <he>רִירוֹ</he> his slaver, contradist. fr. <cite ref=\"T00433\"><he>רוֹק</he></cite>; a. e.—Pl. <he>רִירִין</he>. ",
+				"<cite ref=\"Bereishit Rabbah 18:4\">Gen. R. s. 18</cite> <he>מליאה ר׳ ודם</he> full of secretions and of blood."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "T00165",
+	"slug": "רגול-2",
+	"headword": {
+		"text": "רְגוֹל"
+	},
+	"page": {
+		"number": 1447,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"T00205\"><he>רִגְלָא</he></cite>, v. <cite ref=\"T00164\">preced.</cite>) <i>streaked at the leg</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 30:40\">Targ. Gen. XXX, 40</cite> (h. text <cite ref=\"P01153\"><he>עָקֹד</he></cite>).—Pl. <he>רְגוֹלִין</he>, <he>רְגוֹלַיָּא</he>. ",
+				"<cite ref=\"Onkelos Genesis 30:39\">Ib. 39</cite>. ",
+				"<cite ref=\"Onkelos Genesis 30:35\">Targ. O. ib. 35</cite>; a. e."
+			]
+		}
+	]
+}

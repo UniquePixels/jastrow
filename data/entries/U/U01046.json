@@ -1,0 +1,28 @@
+{
+	"id": "U01046",
+	"slug": "שיקור-1",
+	"headword": {
+		"text": "שִׁיקּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁקּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1567,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01893\"><he>שָׁקַר</he></cite>) <i>false dealing, malappropriation</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 7:1\">Sifré Num. 7</cite>, a. e., v. <cite ref=\"M02111\"><he>מְעִילָה</he></cite>; [Sifra Vayikra, Ḥob. ch. XIX, Par. 11; <cite ref=\"Meilah 18a\">Meïl. 18ᵃ</cite> <cite ref=\"U00973\"><he>שִׁינּוּי</he></cite> change of employment]."
+			]
+		}
+	]
+}

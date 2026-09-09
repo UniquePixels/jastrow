@@ -1,0 +1,27 @@
+{
+	"id": "Q01144",
+	"slug": "פמלניא",
+	"headword": {
+		"text": "פִּמְלַנְיָא"
+	},
+	"page": {
+		"number": 1186,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (corrupt. of <i>feminalia</i>) <i>bandages, knee-breeches</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 55b\">Ned. 55ᵇ</cite> <cite ref=\"Q01064\"><he>פליניא</he></cite> (Ar. <cite ref=\"Q01092\"><he>פלניא</he></cite>; corr. acc.). ",
+				"<cite ref=\"Niddah 13b:89\">Nidd. 13ᵇ</cite> <he>כמין פ׳ של פרשים</he> (Vers. in Ar. <cite ref=\"Q01092\"><he>פלניא</he></cite>) like the <i>feminalia</i> of horsemen. ",
+				"<cite ref=\"Bereishit Rabbah 84:16\">Gen. R. s. 84</cite> (ref. to <he>אשר עליו</he>, <cite ref=\"Genesis 37:23\">Gen. XXXVII, 23</cite>) <he>זו פ׳ שלו</he> this refers to his breeches; Yalk. ib. 142 <cite ref=\"Q01085\"><he>פלמניא</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 27:6\">Kel. XXVII, 6</cite> <cite ref=\"Q01137\"><he>פמוליניא</he></cite> (ed. Dehr. <cite ref=\"Q00718\"><he>פימלנייה</he></cite>). ",
+				"<cite ref=\"Bereishit Rabbah 99\">Gen. R. s. 99</cite> <he>אלו … לובשי פמלליא</he> these (the priests) wear trousers, and those (the Greeks) wear <i>feminalia</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4</cite> <he>עטוף פעליונין</he> (read: <he>פִּמְלְיוֹנִין</he>) he was wrapped in feminalia."
+			]
+		}
+	]
+}

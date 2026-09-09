@@ -1,0 +1,38 @@
+{
+	"id": "O00258",
+	"slug": "סוד-2",
+	"headword": {
+		"text": "סוּד"
+	},
+	"page": {
+		"number": 961,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " [cmp. <cite ref=\"G00130\"><he>זוּד</he></cite>, <i>to boil</i>, fr. which <cite ref=\"O00575\"><he>סִיד</he></cite> <i>lime</i>; denom. <cite ref=\"O00258\"><he>סוּד</he></cite> or <cite ref=\"O00575\"><he>סִיד</he></cite> (b. h. <he>שִׂיד</he>),] <i>to plaster, whitewash</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 7:5\">Sot. VII, 5</cite> <he>סָדוּהוּ בסיד</he> they whitewashed it (the altar) with lime. ",
+				"<cite ref=\"Sotah 35b\">Ib. 35ᵇ</cite>. ",
+				"<cite ref=\"Tosefta Sotah 15:9\">Tosef. Sot. XV, 9</cite> <he>שלא יָסוּד אדם וכ׳</he> that a person must not plaster his rooms &c. ",
+				"<cite ref=\"Tosefta Bava Batra 2:17\">Tosef. B. Bath. II, 17</cite>; <cite ref=\"Bava Batra 60b:14\">B. Bath. 60ᵇ</cite> <he>סָד אדם וכ׳</he> a man may plaster all his rooms &c.; a. e.—Esp. <i>to paint the skin</i> with a depilatory (of lime or orpiment). ",
+				"<cite ref=\"Mishnah Shabbat 8:4\">Sabb. VIII, 4</cite> <he>כדי לָסוּד וכ׳</he> as much as may be required for painting a little girl; <cite ref=\"Shabbat 80b:2\">ib. 80ᵇ</cite> <he>כדי לסוד אצבע וכ׳</he> to paint the little finger &c.; <cite ref=\"Tosefta Shabbat 8:20\">Tosef. ib. VIII</cite> (<cite ref=\"Tosefta Shabbat 9:20\">IX</cite>), 20; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִיֵּיד"],
+			"senses": [
+				{
+					"gloss": "<i>to cover with plaster</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Sotah 8:7\">Tosef. Sot. VIII, 7</cite> <he>וסִיְּידוּהוּ</he>, v. <cite ref=\"K00617\"><he>כִּיר</he></cite>. ",
+						"<cite ref=\"Mishnah Avodah Zarah 3:7\">Ab. Zar. III, 7</cite>; a. fr.—Part. pass. <he>מְסוּיָּיד</he>; f. <he>מְסוּיֶּידֶת</he>. Tosef. B. Bath. l. c.; B. Bath. l. c.; a. e.—[Incorr. <he>סייר</he> in some ed.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

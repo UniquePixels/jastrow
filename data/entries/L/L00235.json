@@ -1,0 +1,39 @@
+{
+	"id": "L00235",
+	"slug": "לוחא",
+	"headword": {
+		"text": "לוֹחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "לֹחָא"
+		}
+	],
+	"page": {
+		"number": 696,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"L00299\"><he>לוֹעָא</he></cite>; v. <cite ref=\"L00343\"><he>לְחִי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>jaw, cheek</i>. Y. R. Hash. I, 58ᵇ top <he>לוֹחָיךְ</he>, v. <cite ref=\"J00504\"><he>יַפַּח</he></cite>.—Pl. <he>לוֹחַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 18:3\">Targ. Y. Deut. XVIII, 3</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fish-hook.—</i>Pl. <he>לוֹחֵי</he>, <cite ref=\"L00343\"><he>לֹחֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shabbat 18a\">Sabb. 18ᵃ</cite> <he>לוחי וקוקרי</he> Ms. O. a. Ar. (ed. <cite ref=\"L00343\"><he>לחי</he></cite>) hooks (fish-lines) and traps of little joists; <cite ref=\"Gittin 61a\">Gitt. 61ᵃ</cite> top."
+			],
+			"label": "2"
+		}
+	]
+}

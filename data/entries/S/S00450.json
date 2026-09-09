@@ -1,0 +1,32 @@
+{
+	"id": "S00450",
+	"slug": "קונעה",
+	"headword": {
+		"text": "קוֹנְעָה"
+	},
+	"page": {
+		"number": 1336,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>קנע</he>; cmp. <cite ref=\"S01533\"><he>קָנָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>right of acquiring property, citizenship</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 32\">Gen. R. s. 32</cite>, beg. <he>הַתֵּיר קוֹנְעָתוֹ ועשה וכ׳</he> untie (declare as forfeited) his (David’s) citizenship and make him an outlaw (v. <cite ref=\"G00330\"><he>זִיטִיטוֹס</he></cite>); <cite ref=\"Bereishit Rabbah 32\">ib.</cite> s. 38 <he>הסיר ק׳</he> (corr. acc.); <cite ref=\"Yalkut Shimoni on Nach 631\">Yalk. Ps. 631</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>possession, dear wife</i>, v. <cite ref=\"S00443\"><he>קוֹנְיָיה</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "M01495",
+	"slug": "מלוג",
+	"headword": {
+		"text": "מְלוֹג"
+	},
+	"page": {
+		"number": 787,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01486\"><he>מָלַג</he></cite>, v. <cite ref=\"M01487\"><he>מְלַג</he></cite>) [<i>plucking</i>,] <i>usufruct</i>.—<he>עבדי מ׳</he> (<cite ref=\"N00842\"><he>נכסי</he></cite>) a wife’s estate of which the husband has the fruition without responsibility for loss or deterioration, contrad. to <he>צאן ברזל</he>, v. <cite ref=\"B01227\"><he>בַּרְזֶל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yevamot 7:1\">Yeb. VII, 1</cite>; <cite ref=\"Tosefta Yevamot 9:1\">Tosef. ib. IX, 1</cite>. ",
+				"<cite ref=\"Ketubot 79b:5\">Keth. 79ᵇ</cite> <he>בהמת מ׳</he> a domestic animal belonging to the wife &c.—",
+				"<cite ref=\"Bereishit Rabbah 45:1\">Gen. R. s. 45</cite> <he>שפחת מ׳ היתה וכ׳</he> Hagar was a handmaid of Sarah whom Abraham had to support but could not sell; a. fr."
+			]
+		}
+	]
+}

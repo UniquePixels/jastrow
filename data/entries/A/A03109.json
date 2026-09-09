@@ -1,0 +1,37 @@
+{
+	"id": "A03109",
+	"slug": "אריס-3",
+	"headword": {
+		"text": "אָרִיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲרִיסָא"
+		},
+		{
+			"text": "אֲרִישָׂא"
+		}
+	],
+	"page": {
+		"number": 120,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"A03108\">same</cite>, also <i>field laborer</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 23:25\">Targ. Y. Deut. XXIII, 25</cite>; <cite ref=\"Targum Jonathan on Deuteronomy 23:26\">26</cite> Levita (ed. <cite ref=\"Q00302\"><he>פועל</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 8:11\">Targ. Cant. VIII, 11</cite>.—",
+				"<cite ref=\"Avodah Zarah 21b:4\">Ab. Zar. 21ᵇ</cite> <he>א׳ אריסותיה קעביד</he> the gentile tenant working during the Jewish festive week, works for his tenancy (not as the Jew’s employee). ",
+				"<cite ref=\"Chagigah 25b:16\">Ḥag. 25ᵇ</cite> <he>דינא הוא … א׳ וכ׳</he> it is the tenant’s business to procure kegs &c.—*<cite ref=\"Bava Batra 55a:3\">B. Bath. 55ᵃ</cite> <he>דאריסא דפרסאי עד וכ׳</he> Rashb. a. l. (ed. <he>אריסותא</he>, Var. <he>דאֲרִישָׂן</he>, <he>שָׂאִין …</he>, <he>דאֲרִישָׂאָן</he>, v. Rabb. D. S. a. l. note, Ms. M. <he>דאריש׳</he>) that the tenant of the Persians is such only up to forty years (after which time he is considered a legitimate owner); v. Nim. Jos. to Alf. a. l. [It seems that the Pers. Jews pronounced <cite ref=\"A03121\"><he>אֲרִישָׁא</he></cite> a. <cite ref=\"A03122\"><he>אֲרִישׁוּתָא</he></cite>, cmp. <cite ref=\"D00746\"><he>דִּישְׁתָּנָא</he></cite> a. <cite ref=\"D00667\"><he>דִּיסְתָּנָא</he></cite>.]—Pl. <he>אֲרִיסַיָּא</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 29:23\">Targ. Job XXIX, 23</cite>. <cite ref=\"A03121\"><he>אֲרִישָׂאִין</he></cite>, v. supra. [<cite ref=\"Vayikra Rabbah 28:2\">Lev. R. s. 28</cite>, v. <cite ref=\"A03114\"><he>אֲרִיסְטָא</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>betrothed</i>, v. <cite ref=\"A03211\"><he>אֲרַס</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

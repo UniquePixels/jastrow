@@ -1,0 +1,24 @@
+{
+	"id": "E00627",
+	"slug": "המן",
+	"headword": {
+		"text": "הָמָן"
+	},
+	"page": {
+		"number": 356,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (b. h.) <i>Haman</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 61a\">Snh. 61ᵃ</cite> <he>נעבד כה׳</he> worshipped as H. wanted to be. ",
+				"<cite ref=\"Chullin 139b:10\">Ḥull. 139ᵇ</cite> <he>ה׳ מן התורה מנין</he> where is Haman alluded to in the Pentateuch?—",
+				"<cite ref=\"Megillah 10b:29\">Meg. 10ᵇ</cite> <he>ה׳ הרשע</he>; a. fr."
+			]
+		}
+	]
+}

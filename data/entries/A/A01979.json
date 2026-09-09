@@ -1,0 +1,25 @@
+{
+	"id": "A01979",
+	"slug": "אמגוזא",
+	"headword": {
+		"text": "אֶמְגּוּזָא"
+	},
+	"page": {
+		"number": 75,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"A00261\"><he>אגוזא</he></cite>, v. <cite ref=\"A01978\">foreg.</cite>) <i>nut</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 109b:6\">Sabb. 109ᵇ</cite> <he>מא׳ אליבא וכ׳</he> from eating a nut on an empty stomach. ",
+				"<cite ref=\"Menachot 35a:12\">Men. 35ᵃ</cite> <he>כי א׳</he> in the shape of a nut; a. e.—Pl. <cite ref=\"A01979\"><he>אֶמְגּוּזֵי</he></cite>. ",
+				"<cite ref=\"Chullin 59a:3\">Ḥull. 59ᵃ</cite>. ",
+				"<cite ref=\"Bava Metzia 60a:15\">B. Mets. 60ᵃ</cite>"
+			]
+		}
+	]
+}

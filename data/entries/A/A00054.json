@@ -1,0 +1,33 @@
+{
+	"id": "A00054",
+	"slug": "אבו",
+	"headword": {
+		"text": "אִבּוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיבּוּ"
+		},
+		{
+			"text": "אַיְיבוּ"
+		}
+	],
+	"page": {
+		"number": 3,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ibbu</i> (Aïbu), all prob. forms of the <cite ref=\"A00053\">same</cite> name, an Amora. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 5a:12\">Snh. 5ᵃ</cite> <he>אבו</he> Ar. ed. pr. (ed. <cite ref=\"A02549\"><he>אי׳</he></cite>, Ms. M. <he>איי׳</he>). ",
+				"<cite ref=\"Sukkah 44b:5\">Succ. 44ᵇ</cite> <he>איי׳</he>. Ruth R., Par. 2, beg. <he>רבי אי׳</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 12:15\">Num. R. s. 12</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 2:8:3\">Y. Succ. II, 53ᵃ</cite> bot.; <cite ref=\"Pesachim 4a:1\">Pes. 4ᵃ</cite>, a. fr. <he>איי׳</he>. [<cite ref=\"A00054\"><he>אִבּוּ</he></cite> name of a bird, v. <cite ref=\"A01121\"><he>אִיבּוּ</he></cite>]."
+			]
+		}
+	]
+}

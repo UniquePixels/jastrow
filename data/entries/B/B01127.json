@@ -1,0 +1,29 @@
+{
+	"id": "B01127",
+	"slug": "בקלסא",
+	"headword": {
+		"text": "בַּקְלָסָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּקְלָסָא"
+		}
+	],
+	"page": {
+		"number": 186,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בקלס</he>, <he>בקל</he> with <cite ref=\"O00000\"><he>ס</he></cite> intens., as <cite ref=\"B00905\"><he>בלעס</he></cite> a. <he>בלע</he>; cmp. Syr. <he>בוקלא</he> P. Sm. 474; √<he>בק</he>, cmp. <cite ref=\"B01133\"><he>בקעת</he></cite>) <i>club, shepherd’s crook</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 38:14\">Gen. R. s. 38</cite> <he>קם נסב בקלסיה</he> (or <cite ref=\"B01127\"><he>בקלסא</he></cite>) he stood up, took (his) crook and broke the idols, <he>ויהב בוקלסא וכ׳</he> and placed the crook into the hand of the largest of them (Rashi <he>בולקסא</he>, corr. acc.).—Pl. <he>בַּקְלָסֵי</he>, (<cite ref=\"B01114\"><he>בַּקּוֹלְסֵי</he></cite>) <cite ref=\"B01127\"><he>בּוּקְלָסֵי</he></cite>. ",
+				"<cite ref=\"Zevachim 105a:6\">Zeb. 105ᵃ</cite> <he>נקיטי לה בבו׳</he> Rashi (ed. <he>בבקולסי</he>; Ms. M. <he>בקלסי</he>, Ar. s. v. <cite ref=\"S01377\"><he>קלס</he></cite>, <he>בקולסי</he>, Ms. R. 1 <he>בקינסי</he>, Ms. K. <he>בקונסי</he>) they seize it (the sacrifice to be burnt) with crooks (while standing outside)."
+			]
+		}
+	]
+}

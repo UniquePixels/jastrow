@@ -1,0 +1,23 @@
+{
+	"id": "U00507",
+	"slug": "שופנר",
+	"headword": {
+		"text": "שׁוּפְנָר",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1540,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"U00505\"><he>שׁוֹפָנָא</he></cite>) <i>one whose legs are file-shaped, without calves</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 45a:4\">Bekh. 45ᵃ</cite>; <cite ref=\"Tosefta Bekhorot 5:4\">Tosef. ib. V, 4</cite> <cite ref=\"U00840\"><he>שיופגד</he></cite> ed. Zuck. (Var. <cite ref=\"U00840\"><he>שׁיופצד</he></cite>; oth. ed. <cite ref=\"U00840\"><he>שיופצר</he></cite>, <cite ref=\"U00840\"><he>שיופנר</he></cite>)."
+			]
+		}
+	]
+}

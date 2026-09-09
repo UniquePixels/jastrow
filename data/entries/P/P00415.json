@@ -1,0 +1,27 @@
+{
+	"id": "P00415",
+	"slug": "עזל",
+	"headword": {
+		"text": "עֲזַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲזֵיל"
+		}
+	],
+	"page": {
+		"number": 1061,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"A00974\"><he>אֲזַל</he> II</cite>, a. <cite ref=\"G00175\"><he>זוּל</he> II</cite>) <i>to wind</i> the yarn; <i>to spin</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 35:25\">Targ. Ex. XXXV, 25</cite> (O. ed. Vien. <cite ref=\"M02096\"><he>מְעַזְּלָא</he></cite> <i>Pa.</i>). ",
+				"<cite ref=\"Targum of II Chronicles 9:15\">Targ. II Chr. IX, 15</cite>; a. e.—Part. pass. <cite ref=\"P00413\"><he>עָזִיל</he></cite>, <cite ref=\"P00413\"><he>עֲזִיל</he></cite>. Targ. Ex. l. c. (Ms. <he>מְעַזֵּיל</he>, read: <he>מְעַזַּל</he>, part. pass. <i>Pa.</i>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 22:11\">Targ. Y. Deut. XXII, 11</cite>.—",
+				"<cite ref=\"Kohelet Rabbah 7:9:1\">Koh. R. to VII, 9</cite>, v. <cite ref=\"M02095\"><he>מַעֲזֵילָא</he></cite>."
+			]
+		}
+	]
+}

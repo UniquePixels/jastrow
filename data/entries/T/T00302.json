@@ -1,0 +1,23 @@
+{
+	"id": "T00302",
+	"slug": "רובה-2",
+	"headword": {
+		"text": "רוֹבֶה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1455,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"T00059\"><he>רָבֶה</he></cite>) <i>saturation, sauce, dip</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 10:3:3\">Y. Pes. X, 37ᵈ</cite> top <he>ולמה … ר׳ שהיא רָבָה עמו</he> and why is it (<cite ref=\"H01630\"><he>חֲרוֹסֶת</he></cite>) called <i>robeh</i> (saturation)? Because it is saturated with it (the wine that is put in as a sauce)."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "C01359",
+	"slug": "גרמידא",
+	"headword": {
+		"text": "גַּרְמִידָא"
+	},
+	"page": {
+		"number": 270,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>גַּמִּידָא</he>, v. <cite ref=\"C00414\"><he>גּוֹמֶד</he></cite>) <i>arm, elbow, cubit</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 2:5\">Targ. Y. Ex. II, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 3:16\">Targ. Jud. III, 16</cite> (h. text <he>גמד</he>).—",
+				"<cite ref=\"Bava Metzia 64a:5\">B. Mets. 64ᵃ</cite> <he>בני ג׳</he> of an arm’s length.—Pl. <cite ref=\"C01359\"><he>גַּרְמִידֵי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 16:29\">Targ. Y. Ex. XVI, 29</cite>; a. e.—",
+				"<cite ref=\"Sanhedrin 7a:14\">Snh. 7ᵃ</cite>. ",
+				"<cite ref=\"Eruvin 14b:2\">Erub. 14ᵇ</cite>"
+			]
+		}
+	]
+}

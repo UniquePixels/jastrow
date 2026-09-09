@@ -1,0 +1,79 @@
+{
+	"id": "K01026",
+	"slug": "כפל-1",
+	"headword": {
+		"text": "כָּפַל"
+	},
+	"page": {
+		"number": 659,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>כפף</he>)<i>to bend over, fold, double</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 63a:20\">Ber. 63ᵃ</cite> <he>כּוֹפְלִין לו וכ׳</he> his means of support will be doubled to him. ",
+				"<cite ref=\"Bereishit Rabbah 95:4\">Gen. R. s. 95</cite>, end <he>כל מי שכ׳ שמו וכ׳</he> every one whose name the Scripture mentions twice in the blessings of Moses; (<cite ref=\"Bava Kamma 92a:19\">B. Kam. 92ᵃ</cite> <he>אותן שהוּכְפְּלוּ בשמות</he>). ",
+				"<cite ref=\"Mishnah Sukkah 3:11\">Succ. III, 11</cite> … <he>מקום לִכְפּוֹל יִכְפּוֹל</he> where it is customary to recite twice (each verse of <cite ref=\"Psalms 118:21-29\">Ps. CXVIII, 21—29</cite>), let one do so. ",
+				"<cite ref=\"Tosefta Pesachim 10:9\">Tosef. Pes. X, 9</cite> <he>רבי היה כּוֹפֵל בה דברים</he> Rabbi used to repeat certain words (in singing the Hallel); <cite ref=\"Pesachim 119b\">Pes. 119ᵇ</cite>; <cite ref=\"Sukkah 39a:2\">Succ. 39ᵃ</cite> <he>מוסיף לכפול מאודך וכ׳</he> adds (to Rabbi’s repetitions) by doubling the verses from <i>Od’kha</i> (Ps. l. c.). Sifra Vayikra, N’dabah, Par. 10, ch. XII; <cite ref=\"Mishnah Menachot 6:4\">Men. VI, 4</cite> (<cite ref=\"Menachot 75b\">75ᵇ</cite>) <he>כופל אחד וכ׳</he> (Bab. ed. <cite ref=\"S00509\"><he>קופל</he></cite>) he folds it twice over and breaks it (into four parts). ",
+				"<cite ref=\"Nedarim 61b\">Ned. 61ᵇ</cite> <he>יכפלו</he>, v. <cite ref=\"S01746\"><he>קָפַל</he></cite>. ",
+				"<cite ref=\"Gittin 62a:11\">Gitt. 62ᵃ</cite> <he>כּוֹפְלִין שלום וכ׳</he> we must double the greeting (say twice <i>shalom</i>) &c. ",
+				"<cite ref=\"Bava Metzia 104b:2\">B. Mets. 104ᵇ</cite> <he>לכפול וכ׳</he> where it is costumary to write out the <i>K’thubah</i> for double the amount of the dowry, half the amount is collected; a. fr.—Part. pass. <cite ref=\"K00988\"><he>כָּפוּל</he></cite>, f. <he>כְּפוּלָה</he>; pl. <he>כְּפוּלִים</he>, <he>כְּפוּלִין</he>; <cite ref=\"K00990\"><he>כְּפוּלוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 27:5\">Kel. XXVII, 5</cite> <he>נמדד כ׳</he> is measured as it is doubled (folded). ",
+				"<cite ref=\"Mishnah Kelim 27:6\">Ib. 6</cite>.—Ohol. XI, 3 <he>כ׳</he> Var. in R. S. a. l. (ed. <cite ref=\"S00001\"><he>ק׳</he></cite>) folded up one above the other. ",
+				"<cite ref=\"Nedarim 66b\">Ned. 66ᵇ</cite> <he>כ׳ הן</he> her ears are bent over (deformed).—",
+				"<cite ref=\"Tractate Soferim 2:11\">Treat. Sof’rim II, 11</cite> <he>אותיות הכ׳</he> letters which have two forms <he>(מנצפך</he>); a. fr.—<he>תנאי כ׳</he>, v. <cite ref=\"V00719\"><he>תְּנַאי</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִכְפַּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be doubled</i>. Y. Kil. IX, 32ᶜ top <he>נִכְפְּלוּ לו שניו</he> his years of life were doubled to him. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 30\">Gen. R. s. 30</cite>, beg.; Tanḥ. Sh’moth 18, a. e. <he>כל מי שנ׳ שמו</he> every one whose name appears twice in immediate succession (as Noah Noah, <cite ref=\"Genesis 6:9\">Gen. VI, 9</cite>); a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִכְפִּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to double, fold up</i>. ",
+					"units": [
+						"<cite ref=\"Nedarim 61b\">Ned. 61ᵇ</cite>, sq., v. <cite ref=\"S01746\"><he>קָפַל</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּכְפָּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be doubled, bent</i>. Ib., v. <cite ref=\"S01746\"><he>קָפַל</he></cite>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 25b:2\">M. Kat. 25ᵇ</cite> (in a poetic eulogy) <he>קאת … הוּכְפְּלוּ לראות וכ׳</he> pelican and owl were bent upon looking (took pains to see, cmp. <cite ref=\"K01027\">next w.</cite> Ithp.).—",
+						"<cite ref=\"Bava Kamma 92a\">B. Kam. 92ᵃ</cite>, v. supra.—Part. pass. <he>מוּכְפָּל</he> (<i>Pu.</i> <he>מְכוּפָּל</he>) <i>doubly guarded, surrounded</i>. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 557:1\">Yalk. Lev. 557</cite> <he>מוכ׳ כמה כְפֵלוֹת</he>; <cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite> <he>מכו׳ בכמה כפולות</he> (the tongue) is guarded by several folding doors (teeth, lips)."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["כִּיפֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to fold</i>. Sifra l. c.; Men. l. c. <he>לא היה מְכַפְּלָהּ</he> (Bab. ed. <cite ref=\"M00586\"><he>מק׳</he></cite>) he did not fold it (in four parts, v. supra).",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

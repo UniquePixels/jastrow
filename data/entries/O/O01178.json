@@ -1,0 +1,40 @@
+{
+	"id": "O01178",
+	"slug": "סנדל",
+	"headword": {
+		"text": "סַנְדָּל"
+	},
+	"page": {
+		"number": 1004,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (σάνδαλον, prob. from Pers. <i>sandal</i> = calceus) <i>sandal</i>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a sole with straps, shoe</i>, contrad. to <cite ref=\"M01804\"><he>מַנְעָל</he></cite> a. <cite ref=\"N00988\"><he>נַעַל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 6:2\">Sabb. VI, 2</cite>, v. <cite ref=\"O01136\"><he>סָמַר</he></cite>. ",
+				"<cite ref=\"Mishnah Yoma 8:1\">Yoma VIII, 1</cite>. ",
+				"<cite ref=\"Yevamot 102a:15\">Yeb. 102ᵃ</cite>; a. fr.—<he>ס׳ של בהמה</he> a sort of shoe for animals (v. Sm. Ant., 3rd Engl. ed., s. v. Solea). ",
+				"<cite ref=\"Shabbat 59a:6\">Sabb. 59ᵃ</cite> <he>ס׳ של וכ׳</he> a metal shoe for animals is liable to levitical uncleanness (expl. ‘because it may be used as a drinking vessel in war’ &c.); <cite ref=\"Mishnah Kelim 14:5\">Kel. XIV, 5</cite> <he>סַנְדְּלֵי בהמה</he> (pl.). ",
+				"<cite ref=\"Mishnah Parah 2:3\">Par. II, 3</cite> <he>עשה לה ס׳ וכ׳</he> if one made a shoe for her (the red cow), that she might not slip.—ס׳ של עריסה <i>a sort of shoe for the legs of a bedstead</i>; [Ar.: <i>a board placed under a short leg</i>]. Ohol. XII, 4; Tosef. ib. XIII, 4.—",
+				"<cite ref=\"Yevamot 103b:7\">Yeb. 103ᵇ</cite> <he>ס׳ של נחת ע״ז</he> Ar. (ed. <he>ס׳ של ע״ז</he>) the shoe for the rest of an idol.—Pl. <he>סַנְדָּלִין</he>. ",
+				"<cite ref=\"Bava Batra 58a:2\">B. Bath. 58ᵃ</cite> ‘the bed of a scholar’ is <he>כל שאין … ס׳ וכ׳</he> that under which nothing is placed except the sandals in summer and shoes in winter time. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:2:2\">Y. Sabb. VI, 8ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a flat fish</i> like <i>the sole</i> or <i>turbot</i>; trnsf. <i>a flat, fish-shaped abortion</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 3:4\">Nidd. III, 4</cite> <he>המפלת ס׳ וכ׳</he> a woman who discharges a sandal-like foetus or a placenta. ",
+				"<cite ref=\"Tosefta Niddah 4:7\">Tosef. ib. IV, 7</cite> <he>ס׳ שאמרו דומה לס׳ דג שבים</he> the sandal abortion of which they speak means a foetus resembling the sea-fish called sandal; [oth. opin.] <he>דומה ללשון של שור</he> resembling the fish called ‘oxtongue’ (βοὐγλοσσος, lingulaca); Y.",
+				"<cite ref=\"Tosefta Niddah 4:7\">ib.</cite> ib. III, 50ᵈ bot.; Bab. ib. 25ᵇ; a. e. [<cite ref=\"Sanhedrin 59b\">Snh. 59ᵇ</cite> <he>סנדלין</he> Ms. M., v. <cite ref=\"O01182\"><he>סנְדֵּלְכוֹנִים</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

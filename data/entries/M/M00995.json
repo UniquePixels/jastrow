@@ -1,0 +1,82 @@
+{
+	"id": "M00995",
+	"slug": "מטי",
+	"headword": {
+		"text": "מְטֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְטָא"
+		},
+		{
+			"text": "מְטָה"
+		}
+	],
+	"page": {
+		"number": 767,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= h. <cite ref=\"M02262\"><he>מָצָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to stretch, reach</i>; <i>to arrive at; to obtain; to happen to</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 11:4\">Targ. Gen. XI, 4</cite> (Y. II <he>מַמְטֵי</he>). Targ. O. ib. X, 19 (h. text <he>באכה</he>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 19:26\">Targ. II Kings XIX, 26</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 8:14\">Targ. Koh. VIII, 14</cite>; a. fr.—",
+				"<cite ref=\"Aramaic Targum to Esther 5:2\">Targ. Esth. V, 2</cite> [read:] <he>ומְטָת לִידָהּ</he> and it (the scepter) reached her hand (v. ",
+				"<cite ref=\"Megillah 15b\">Meg. 15ᵇ</cite>).—",
+				"<cite ref=\"Sanhedrin 109a:2\">Snh. 109ᵃ</cite> <he>כי מ׳ להאי וכ׳</he> when he arrived at a certain inn. ",
+				"<cite ref=\"Ketubot 63a:1\">Keth. 63ᵃ</cite> <he>כי מַטְיָא לגביה</he> when she came near him. ",
+				"<cite ref=\"Ketubot 63a:1\">Ib.</cite> <he>מ׳ מעלי וכ׳</he> the eve of the Day of Atonement came. ",
+				"<cite ref=\"Rosh Hashanah 12b:11\">R. Hash. 12ᵇ</cite> <he>א״ר אסי א״ר יוחנן ומָטוּ בה משמיה וכ׳</he> said R. A. in the name of R. Joh., and they arrived in the chain of tradition up to ‘in the name of R. J. the Galilean’ (an editorial gloss). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:1:18\">Y. Ber. III, 6ᵃ</cite> top, a. fr. <he>מַטְתֵיה אונס</he> an accident (mourning) befell him. ",
+				"<cite ref=\"Jerusalem Talmud Peah 8:8:12\">Y. Peah VIII, end, 21ᵇ</cite> <he>ומטתיה כן</he> and so it happened to him (as he had wished). ",
+				"<cite ref=\"Jerusalem Talmud Peah 8:8:12\">Ib.</cite> <he>ולא מ׳ מיכול וכ׳</he> and he had no chance to dine with him. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 6:6:5\">Y. Snh. VI, 23ᶜ</cite>; <cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 77ᵈ</cite> bot. <he>בעי מַמְטֵי מיא ולא מ׳</he> wanted to fetch water but could not. Ib. 78ᵃ top <he>כל דמָטֵי וכ׳</he>, v. <cite ref=\"G00124\"><he>זוֹגָא</he></cite>. [<cite ref=\"Yoma 2a\">Ib.</cite> <he>כל מטי יעבוד וכ׳</he>, read: <he>כל חד מינן וכ׳</he> let each of us do &c.] <cite ref=\"Jerusalem Talmud Ketubot 4:1:6\">Y. Keth. IV, 28ᵇ</cite> top <he>מְטִינְתָּה להאי דאמר וכ׳</he> thou hast found that which R … said; <cite ref=\"Jerusalem Talmud Ketubot 4:1:6\">ib.</cite> <cite ref=\"M00297\"><he>מְטִינְתָּא</he></cite>.—",
+				"<cite ref=\"Chagigah 5a:15\">Ḥag. 5ᵃ</cite> <he>כי מ׳ להאי קרא</he> when he came to this verse. ",
+				"<cite ref=\"Sanhedrin 100a:4\">Snh. 100ᵃ</cite> <he>כי מָטוּ מגלת וכ׳</he> when (in preparing wrappers for the scrolls) they came to the roll of Esther; a. v. fr.—[<cite ref=\"Chullin 132a\">Ḥull. 132ᵃ</cite> top <cite ref=\"M00985\"><he>מָטוּנָךְ</he></cite> we or they (the words of the text) have reached thee, agree with thee, Rashi; v. <cite ref=\"I00185\"><he>טוּנָא</he> I</cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <cite ref=\"B00743\"><he>בישולא</he></cite> or <cite ref=\"G00371\"><he>זימנא</he></cite>) <i>to be ripe, ready</i>. Ḥag. l. c. <he>שביק הנך דמָטוּ וֹכ׳</he> he left those (figs) which were ripe and plucked those which were not. ",
+			"units": [
+				"<cite ref=\"Chullin 112a:10\">Ḥull. 112ᵃ</cite> <he>תיתאה מטא</he> the lower portion was ready (roasted)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַמְטֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to reach; to fetch, bring, offer</i>. [<cite ref=\"Targum Jerusalem, Genesis 11:4\">Targ. Y. II, Gen. XI, 4</cite> <he>מַמְטֵי</he> part. pass., v. supra.] <cite ref=\"Targum Jerusalem, Genesis 27:25\">Targ. Y. ib. XXVII, 25</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 9:12\">Targ. O. Lev. IX, 12</cite>; a. fr.—",
+						"<cite ref=\"Bava Kamma 117a:13\">B. Kam. 117ᵃ</cite> <he>דרי ואַמְטֵי בהדן</he> take it up and hand it over (to the King’s treasury) in our presence; <he>דרא וא׳ וכ׳</he> he did take it up &c. Ib. 119ᵇ, a. e. <he>אַמְטוּיֵי ואתויי חד</he> (not <he>אמטוי</he>) is leading the needle forth and bringing it home one stitch (= h. <he>הוליך והביא</he>)? <cite ref=\"Bava Batra 21a:9\">B. Bath. 21ᵃ</cite> <he>לא מַמְטִינָן וכ׳</he>, v. <cite ref=\"J00431\"><he>יָנוּקָא</he> I</cite>. ",
+						"<cite ref=\"Ketubot 103b\">Keth. 103ᵇ</cite> sq. <he>אַמְטְיוּהִי לצ׳ וכ׳</he> they took him to Sepphoris which lies high. ",
+						"<cite ref=\"Bereishit Rabbah 14:2\">Gen. R. s. 14</cite>, beg.; <cite ref=\"Bereishit Rabbah 20:6\">ib. 20</cite> <he>מן דידכון אנא מַמְטֵי לכון</he> from your own language I will offer (proof) to you; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְמְטֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to repair to</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 23:15\">Targ. O. Num. XXIII, 15</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

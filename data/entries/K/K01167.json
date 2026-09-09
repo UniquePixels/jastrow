@@ -1,0 +1,23 @@
+{
+	"id": "K01167",
+	"slug": "כריכתא",
+	"headword": {
+		"text": "כְּרִיכְתָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 667,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"K01162\"><he>כָּרִיךְ</he></cite>) <i>lichen-like, scabby</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 85a:19\">B. Kam. 85ᵃ</cite> <he>נאתא כ׳</he> (<cite ref=\"Yalkut Shimoni on Torah 332\">Yalk. Ex. 332</cite> <cite ref=\"K01207\"><he>כַּרְכִיתָא</he></cite>), v. <cite ref=\"K01083\"><he>כּרְבִיתָא</he></cite>."
+			]
+		}
+	]
+}

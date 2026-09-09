@@ -1,0 +1,29 @@
+{
+	"id": "A01298",
+	"slug": "אילין-3",
+	"headword": {
+		"text": "אִילֵּין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִילְיֵין"
+		},
+		{
+			"text": "אִלְיֵין"
+		}
+	],
+	"page": {
+		"number": 49,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " com. pl. (h. <i>these, those</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 20:17\">Targ. Jud. XX, 17</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:3:2\">Y. Ber. V, 9ᶜ</cite> top <he>א׳ דמתרגמין</he> those who translate; a. v. fr.—",
+				"<cite ref=\"Jerusalem Talmud Eruvin 3:1:6\">Y. Erub. III, 20ᵈ</cite> top <he>אילין אינון</he> insert <cite ref=\"M00023\"><he>מאי</he></cite>, what are those (names mentioned)?"
+			]
+		}
+	]
+}

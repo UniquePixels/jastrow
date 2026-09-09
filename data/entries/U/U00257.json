@@ -1,0 +1,32 @@
+{
+	"id": "U00257",
+	"slug": "שדד-3",
+	"headword": {
+		"text": "שָׂדַד"
+	},
+	"page": {
+		"number": 1524,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>צדד</he>)<i>to join, arrange, direct</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׂדֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to harrow</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 28\">Pirké d’R. El. ch. XXVIII</cite>; <cite ref=\"Yalkut Shimoni on Torah 76:7\">Yalk. Gen. 76</cite> <he>וִישַׂדְּדוּ</he>, v. <cite ref=\"Q02143\"><he>פָּתַח</he></cite>. ",
+						"<cite ref=\"Pirkei DeRabbi Eliezer 12\">Pirké d’R. El. ch. XII</cite> <he>לחרש ולְשַׂדֵּד וכ׳</he> to plough and harrow the ground."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"id": "K01198",
+	"slug": "כרכום-2",
+	"headword": {
+		"text": "כַּרְכּוֹם",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּרְקוֹם"
+		},
+		{
+			"text": "כּוּרְכּ׳"
+		}
+	],
+	"page": {
+		"number": 669,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"K01228\"><he>כָּרַם</he></cite>, cmp. <cite ref=\"K01186\"><he>כָּרָךְ</he></cite>) [<i>encircling</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>troop of siege, stage of siege</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 2:9\">Keth. II, 9</cite>; <cite ref=\"Avodah Zarah 71a:1\">Ab. Zar. 71ᵃ</cite> <he>עיר שכבשוה כ׳</he> (v. Rabb. D. S. a. l. note 80) a town which troops of siege have taken. ",
+				"<cite ref=\"Mishnah Gittin 3:4\">Gitt. III, 4</cite> <he>על עיר שהקיפה כ׳</he> concerning a husband living in a town during a siege (that he is legally presumed to be alive), opp. to <he>עיר שכבשה כ׳</he>. Y. Keth. II, 26ᵈ; <cite ref=\"Jerusalem Talmud Gittin 3:4:2\">Y. Gitt. III, 45ᵃ</cite> top <he>איזהו כ׳</he> what is called a stage of siege (for legal purposes); <cite ref=\"Jerusalem Talmud Gittin 3:4:2\">Ib.</cite> <he>כ׳ של אותה מלכות</he> a siege by the government troops of the country, opp. to a siege by the enemy."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>camp of besiegers, the Roman castra</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 18b:6\">Ab. Zar. 18ᵇ</cite> <he>ההולך … ולכ׳</he> whosoever goes to the arena or the camp; <cite ref=\"Tosefta Avodah Zarah 2:6\">Tosef. ib. II, 6</cite> <he>ולכַרְקוֹמִין</he> (pl.). ",
+				"<cite ref=\"Tosefta Avodah Zarah 2:7\">Ib. 7</cite> <he>ולכ׳</he> (<he>מותר</he>) <he>מפני וכ׳</he> and going to the camp is permitted for the sake of maintaining the political order, v. <cite ref=\"H01806\"><he>חָשַׁב</he></cite> <i>Hithpa.</i>—Pl. <he>כַּרְכּוֹמִין</he>, (<cite ref=\"K01199\"><he>כַּרְקֹ</he></cite>). ",
+				"<cite ref=\"Kohelet Rabbah 12:7:1\">Koh. R. to XII, 7</cite> (ref. to <he>לשום כרים על שערים</he>, <cite ref=\"Ezekiel 21:27\">Ez. XXI, 27</cite>) <he>עשה כ׳</he> he erected camps of siege (Lam. R. introd., R. Josh. 2 <he>טירונין</he>, v. <cite ref=\"I00434\"><he>טִירוֹן</he> II</cite>). Tosef. l. c., v. supra."
+			],
+			"label": "2"
+		}
+	]
+}

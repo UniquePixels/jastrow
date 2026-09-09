@@ -1,0 +1,34 @@
+{
+	"id": "O00654",
+	"slug": "סיכרא-2",
+	"headword": {
+		"text": "סִיכְרָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סִכְ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 979,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Sikhra</i>, near Maḥuza (v. Berl. Geogr., p. 56). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 40a\">Ab. Zar. 40ᵃ</cite> (R. N. <cite ref=\"O00413\"><he>סורא</he></cite>). ",
+				"<cite ref=\"Ketubot 100b\">Keth. 100ᵇ</cite>. ",
+				"<cite ref=\"Chullin 18b:12\">Ḥull. 18ᵇ</cite> <he>רב שמן מסוכרא</he> (corr. acc.); <cite ref=\"Niddah 36a:30\">Nidd. 36ᵃ</cite> <he>מסכ׳</he>. ",
+				"<cite ref=\"Chullin 94b\">Ḥull. 94ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 42a\">B. Mets. 42ᵃ</cite>; <cite ref=\"Pesachim 31b\">Pes. 31ᵇ</cite> <he>רפרם מס׳</he>. ",
+				"<cite ref=\"Bava Metzia 83a\">B. Mets. 83ᵃ</cite>"
+			]
+		}
+	]
+}

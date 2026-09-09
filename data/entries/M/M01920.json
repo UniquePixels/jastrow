@@ -1,0 +1,23 @@
+{
+	"id": "M01920",
+	"slug": "מסיכה",
+	"headword": {
+		"text": "מְסִיכָּה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 806,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00903\"><he>סָכַךְ</he></cite>, <i>Hif.</i> <he>הסך את רגליו</he>) <i>easing one’s bowels</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 3:2:6\">Y. Yoma III, 40ᵇ</cite> bot. <cite ref=\"O01091\"><he>סמיכה</he></cite> (corr. acc.), v. <cite ref=\"E00749\"><he>הֶפְלֵג</he></cite>."
+			]
+		}
+	]
+}

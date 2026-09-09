@@ -1,0 +1,47 @@
+{
+	"id": "K00605",
+	"slug": "כיפח",
+	"headword": {
+		"text": "כִּיפֵּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּיפֵּיחַ"
+		},
+		{
+			"text": "קִיפֵּ׳"
+		},
+		{
+			"text": "קִפֵּ׳"
+		}
+	],
+	"page": {
+		"number": 635,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01005\"><he>כָּפַח</he></cite>, <cite ref=\"S01725\"><he>קָפַח</he></cite>, v. <cite ref=\"K00337\"><he>כּוּפָּח</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (sub. <he>שוקים</he>) <i>one having high and arched shoulders, hump-backed</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 7:8:2\">Y. Keth. VII, end, 31ᵈ</cite> <he>עובדא … בכ׳</he> (not <he>בכופיח</he>) a case (petition for divorce) came before R. J. against a husband who had become hump-backed (after marriage), and he forced him (to a divorce)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"C00067\"><he>גִּבֵּחַ</he></cite>, <cite ref=\"C00083\"><he>גְּבִיחַ</he></cite>) <i>an extremely tall and unshapely person</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 7:6\">Bekh. VII, 6</cite> (<cite ref=\"Bekhorot 45b:7\">45ᵇ</cite>) <he>כ׳</he> Ar. (ed. <he>קפ׳</he>), v. <cite ref=\"C00067\"><he>גִּבֵּחַ</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:30\">Y. Ber. IX, 13ᵇ</cite> bot. <he>כ׳</he>; Bab. ",
+				"<cite ref=\"Berakhot 58b\">Ber. 58ᵇ</cite> <he>קפח</he> ed. (Ms. M. <cite ref=\"S02049\"><he>קי׳</he></cite>; Ms. F. <cite ref=\"K00336\"><he>כופה</he></cite>, corr. acc.); Tosef. ib. VII (VI), 3 <he>כ׳</he> (Var. <cite ref=\"K00605\"><he>כִּיפֵּיחַ</he></cite>, <he>קפח</he>); Tanḥ. Pinḥ. 10; ed. Bub. 1 <cite ref=\"S00001\"><he>ק׳</he></cite>. V. <cite ref=\"E00165\"><he>הִדְרָנִיקוֹס</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

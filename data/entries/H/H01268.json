@@ -1,0 +1,34 @@
+{
+	"id": "H01268",
+	"slug": "חנופה",
+	"headword": {
+		"text": "חֲנוּפָה"
+	},
+	"page": {
+		"number": 482,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>חֲנֻפָה</he>, some ed. <cite ref=\"H01269\"><he>חֲנֻפָּ׳</he></cite>; <cite ref=\"H01319\"><he>חָנַף</he></cite>)<i>hypocrisy, dishonesty, flattery</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 41b:14\">Sot. 41ᵇ</cite> <he>אדם שיש בו ח׳</he> a man in whom there is insincerity. ",
+				"<cite ref=\"Sotah 41b:7\">Ib.</cite> <he>אגרופה של ח׳</he> the power of flattery (towards Agrippa). ",
+				"<cite ref=\"Sotah 42a:2\">Ib. 42ᵃ</cite> <he>עדה … ח׳</he> a community in which insincerity (flattery to power) prevails. ",
+				"<cite ref=\"Sanhedrin 52a:14\">Snh. 52ᵃ</cite> <he>בשביל ח׳ שהחניפו לקרח</he> because they flattered Korah. ",
+				"<cite ref=\"Kiddushin 49b:6\">Kidd. 49ᵇ</cite> <he>ח׳ וגסות וכ׳</he> cringing submission (to power) and haughtiness (towards the weak); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>faithlessness to religion, apostasy</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 48\">Gen. R. s. 48</cite>, beg. <he>כל ח׳ וכ׳</he> where the root <he>חנף</he> is used in the Bible, it means heresy; <cite ref=\"Yalkut Shimoni on Nach 304\">Yalk. Is. 304</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

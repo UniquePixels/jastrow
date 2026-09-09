@@ -1,0 +1,20 @@
+{
+	"id": "Q02141",
+	"slug": "פתוראה",
+	"headword": {
+		"text": "פְּתוֹרָאָה"
+	},
+	"page": {
+		"number": 1251,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"Q02138\"><he>פָּתוֹרָא</he> I</cite>) = h. <cite ref=\"U00421\"><he>שׁוּלְחָנַי</he></cite>, <i>money-changer</i>. ",
+			"units": ["<cite ref=\"Chullin 54b:5\">Ḥull. 54ᵇ</cite>"]
+		}
+	]
+}

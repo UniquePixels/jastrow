@@ -1,0 +1,43 @@
+{
+	"id": "K01357",
+	"slug": "כתיב",
+	"headword": {
+		"text": "כְּתִיב"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּתִיבָא"
+		}
+	],
+	"page": {
+		"number": 680,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>כְּתַב</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>written; it is written</i>, v. <cite ref=\"K01340\"><he>כְּתַב</he> I</cite>.—[Targ. II Esth. VII, 10 <he>כְּתִיבֵי</he> some ed., read <he>כִּתְבֵי</he>, v. <cite ref=\"K01342\"><he>כְּתַב</he> II</cite>].",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (Massorah) <cite ref=\"K01357\"><he>כְּתִיב</he></cite> <i>K’thib</i>, the traditional spelling of Biblical words, opp. to <cite ref=\"S02017\"><he>קרי</he></cite>, K’ri, the Massoretic instruction for reading, e.g. ",
+			"units": [
+				"<cite ref=\"Genesis 8:17\">Gen. VIII, 17</cite>: K’thib (<cite ref=\"E00264\"><he>הוֹצֵא</he></cite>) <cite ref=\"E00264\"><he>הוצא</he></cite>, K’ri <he>הַיְצֵא</he>; v. ",
+				"<cite ref=\"Tractate Soferim 6:5\">Treat. Sof’rim VI, 5</cite>; <cite ref=\"Tractate Soferim 7:4\">VII, 4</cite>. ",
+				"<cite ref=\"Avodah Zarah 24b:9\">Ab. Zar. 24ᵇ</cite> (ref. to <cite ref=\"I Samuel 7:9\">I Sam. VII, 9</cite>) <he>ויעלה כ׳</he> the K’thib allows the reading <he>וַיַּעֲלֶהָ</he> (with feminine suffix). ",
+				"<cite ref=\"Sanhedrin 20a:9\">Snh. 20ᵃ</cite>, v. <cite ref=\"K01095\"><he>כָּרָה</he></cite>; a. v. fr.—Pl. <cite ref=\"K01343\"><he>כְּתִיבָן</he></cite>. ",
+				"<cite ref=\"Nedarim 37b:9-10\">Ned. 37ᵇ</cite> <he>קריין ולא כ׳ וכ׳ ולא קריין וכ׳</he> the rules about reading words not written (omitted in the text) and such as are written but not read (marked as superfluous) are a Mosaic (ancient, traditional) <i>halakhah</i> (v. <cite ref=\"E00566\"><he>הֲלָכָה</he></cite>). ",
+				"<cite ref=\"Nedarim 37b:9\">Ib.</cite> <he>הלין קדיין ולא כְתִבָן</he> those (quoted) are those read but not written; <he>וכְתִבָן ולא קריין וכ׳</he> and those written but not read are &c.; v. ",
+				"<cite ref=\"Tractate Soferim 6:8-9\">Treat. Sof’rim VI, 8—9</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

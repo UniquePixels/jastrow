@@ -1,0 +1,89 @@
+{
+	"id": "N00845",
+	"slug": "נכר-1",
+	"headword": {
+		"text": "נָכַר"
+	},
+	"page": {
+		"number": 911,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be unknown, strange</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִכִּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to recognize, know; to favor</i>. ",
+					"units": [
+						"<cite ref=\"Ruth Rabbah 5:2\">Ruth R. to II, 10</cite> (ref. to <he>להכירני</he>, <cite ref=\"Ruth Rabbah 5:2\">ib.</cite>) <he>נתנבאה … להַכִּירָהּ כדרך וכ׳</he> she prophesied that he would know her in the way of all people (as his wife, cmp. <cite ref=\"J00106\"><he>יָדַע</he></cite>). ",
+						"<cite ref=\"Berakhot 10b:22\">Ber. 10ᵇ</cite> <he>האשה מַכֶּרֶת באורחין וכ׳</he> woman recognizes the character of guests better than man. ",
+						"<cite ref=\"Mishnah Rosh Hashanah 2:1\">R. Hash. II, 1</cite> <he>אם אינן מַכִּירִין אותו</he> if the court does not know him personally. Y. Yeb. IV, 6ᵇ <he>כנסה ולא הִכִּירָהּ</he> he married her but did not touch her (v. supra). ",
+						"<cite ref=\"Sanhedrin 7b:18\">Snh. 7ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 1:17\">Deut. I, 17</cite>) <he>לא תַכִּירֵהוּ</he> thou shalt not favor him (if he is thy friend); a. fr.—",
+						"<cite ref=\"Bamidbar Rabbah 9:23\">Num. R. s. 9</cite> <he>במקום שמכיר</he> where he knows (the people), where he is acquainted; <cite ref=\"Sifrei Bamidbar 14:1\">Sifré Num. 14</cite> <he>במקום שמכירין אותו</he>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make known, identify; to acknowledge, own</i>. R. Hash. l. c. <he>מן המכירים</he> on the declaration of those who identify (the witnesses; v. Rabb. D. S. a. l. note 2). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 43:7\">Gen. R. s. 43</cite> <he>לא היה שמי ניכר … והִכַּרְתָּ אותי וכ׳</he> my name was unknown … and thou hast made me known among my creatures. ",
+						"<cite ref=\"Sifrei Devarim 217\">Sifré Deut. 217</cite>; <cite ref=\"Kiddushin 78b\">Kidd. 78ᵇ</cite>, a. e. (ref. to <he>יכיר</he>, <cite ref=\"Deuteronomy 21:17\">Deut. XXI, 17</cite>) <he>יַכִּירֶנּוּ לאחרים</he> he may identify him before others (as his first born son). ",
+						"<cite ref=\"Sifrei Devarim 312:1\">Sifré Deut. 312</cite> <he>שאהיה מַכִּירוֹ</he> that I may make it known as mine. ",
+						"<cite ref=\"Sifrei Devarim 312:1\">Ib.</cite> <he>מהיכן המקום מַכִּיר את חלקו</he> beginning with whom does the Lord acknowledge his share (claim as his)? With Jacob; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּכָּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be recognized; to be discernible</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kiddushin 3:5\">Kidd. III, 5</cite> <he>ה׳ עוברה</he> her pregnancy was certain, v. <cite ref=\"E00521\"><he>הַכָּרָה</he></cite>; <cite ref=\"Kiddushin 62b\">ib. 62ᵇ</cite>. ",
+						"<cite ref=\"Bava Metzia 93b\">B. Mets. 93ᵇ</cite> <he>ה׳ הגנב</he> the thief was found out; a. e."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נִיכַּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00844\">same</cite>. Part. <cite ref=\"N00845\"><he>נִיכָּר</he></cite>. ",
+					"units": [
+						"<cite ref=\"Berakhot 28a:9\">Ber. 28ᵃ</cite> <he>מכותלי … אתה נ׳ וכ׳</he> by the walls of thy house, one sees that thou art a smith. ",
+						"<cite ref=\"Kiddushin 31a:7\">Kidd. 31ᵃ</cite> <he>מסוף דברך נ׳ וכ׳</he> from thy last words (the fifth and following commandments of the decalogue) it is seen that thy first one is true. ",
+						"<cite ref=\"Kiddushin 31a:5\">Ib.</cite> <he>מבין ריסי עיניך נ׳</he>, v. <cite ref=\"T00654\"><he>רִיס</he></cite>. ",
+						"<cite ref=\"Gittin 53a:12\">Gitt. 53ᵃ</cite> <he>שאינו נ׳</he>, v. <cite ref=\"E00354\"><he>הֶיזֵּק</he></cite>. ",
+						"<cite ref=\"Shabbat 91b:2\">Sabb. 91ᵇ</cite> <he>מקומו נ׳</he> its location is discernible. ",
+						"<cite ref=\"Sotah 9b:17\">Sot. 9ᵇ</cite> <he>נִיכָּרִין דברי אמת</he> words of truth are easily recognized. ",
+						"<cite ref=\"Bereishit Rabbah 43:7\">Gen. R. s. 43</cite>, v. supra; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִכֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to treat as a stranger, ignore; to discriminate against</i>. Snh. l. c. (ref. to <cite ref=\"Deuteronomy 1:17\">Deut. I, 17</cite>) <he>לא תְנַכְּרֵהוּ</he> (if he is thy enemy) do not discriminate against him (v. supra). ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 322:7\">Sifré Deut. 322</cite> <he>בשעת … מְנַכְּרִים וכ׳</he> when Israel is in trouble, the nations ignore them and act as though they did not know them; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

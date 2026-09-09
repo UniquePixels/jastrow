@@ -1,0 +1,27 @@
+{
+	"id": "Q01969",
+	"slug": "פרץ-2",
+	"headword": {
+		"text": "פְּרַץ"
+	},
+	"page": {
+		"number": 1237,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01968\">same</cite><i>to break through, open</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 14:13\">Targ. II Kings XIV, 13</cite>. Targ. II Esth. III, 8; a. e.—[<cite ref=\"Aramaic Targum to Proverbs 25:28\">Targ. Prov. XXV, 28</cite> <he>תריצה</he> Var. ed. Lag., corrected by Bxt. <he>פריצה</he>, read <he>תריעא</he>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be reckless, sport</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 24b:3\">Taan. 24ᵇ</cite> <he>הוו קא פַרְצֵי בריפתא</he> were recklessly sporting with bread (throwing pieces of bread to one another)."
+			],
+			"label": "2"
+		}
+	]
+}

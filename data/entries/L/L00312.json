@@ -1,0 +1,60 @@
+{
+	"id": "L00312",
+	"slug": "לוץ",
+	"headword": {
+		"text": "לוּץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִיץ"
+		}
+	],
+	"page": {
+		"number": 701,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"L00229\"><he>לוּז</he> IV</cite>)<i>to talk</i>, esp. <i>to scorn, scoff</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 18b:12\">Ab. Zar. 18ᵇ</cite> (ref. to <cite ref=\"Psalms 1:1\">Ps. I, 1</cite>) <he>אם ישב סופו לָלוּץ</he> if he sits (with scorners), he will finally scoff; <he>ואם לץ וכ׳</he> and if he scoffs, the Scripture says of him &c.; <cite ref=\"Psalms 1:1\">Midr. Till. to Ps. I, 1</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵלִיץ"],
+			"senses": [
+				{
+					"gloss": " (with <he>אחר</he>) <i>to talk behind a person, sneer, deride</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 52:2\">Ex. R. s. 52</cite> beg. <he>היו מְלִיצִין אחריו</he> they derided him (Moses); (Yalk. ib. 417 <he>מִתְלוֹצְצִים עליו</he>). ",
+						"<cite ref=\"Shemot Rabbah 52:2\">Ib.</cite> <he>מְלִיצִים אחר משה</he> (Yalk. l. c. <he>מתלוצצים</he>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (with <cite ref=\"B01025\"><he>בעד</he></cite>) <i>to speak in behalf of; to defend; to interpret</i>.—",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 91:8\">Gen. R. s. 91</cite> (ref. to <cite ref=\"Genesis 42:23\">Gen. XLII, 23</cite>) <he>המֵלִיץ זה מנשה</he> ‘the interpreter’ that means Manasseh."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְלוֹצֵץ"],
+			"senses": [
+				{
+					"gloss": "<i>to talk frivolously, make light of, scoff</i>. Ab. Zar. l. c. <he>כל המִתְלוֹצֵץ ייסורין וכ׳</he> whoever speaks frivolously will be visited with suffering. Ib. (in Chald. dict.) I beg you <he>דלא תִתְלוֹצְצוּ</he> not to scoff. ",
+					"units": [
+						"<cite ref=\"Kiddushin 81a:14\">Kidd. 81ᵃ</cite> <he>הוה מתלוצץ בעוברי עבירה</he> (Rashi: <he>בעבירה</he>) made light of sinners (Rashi: of sin) (spoke as though temptation could never have power over him). Yalk. Ex. l. c., v. supra. ",
+						"<cite ref=\"Midrash Mishlei 1:6\">Midr. Prov. to I, 6</cite>, v. <cite ref=\"M01564\"><he>מְלִיצָה</he></cite>; a. e."
+					]
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

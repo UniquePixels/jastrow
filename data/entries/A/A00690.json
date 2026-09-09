@@ -1,0 +1,23 @@
+{
+	"id": "A00690",
+	"slug": "אומדות",
+	"headword": {
+		"text": "אוּמָדוּת"
+	},
+	"page": {
+		"number": 26,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"A00689\">same</cite>, adv. <i>by guess-work</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:2\">Y. Taan. IV, 68ᶜ</cite> top <he>שלא … דן א׳</he> that one must not judge from mere guess (appearance). ",
+				"<cite ref=\"Pirkei Avot 1:16\">Aboth I, 16</cite> <he>אל תרבה לעשר א׳</he> in giving tithes do not give (even) too much by guessing (but measure accurately)."
+			]
+		}
+	]
+}

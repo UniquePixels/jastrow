@@ -1,0 +1,29 @@
+{
+	"id": "A02362",
+	"slug": "אסטומכא-1",
+	"headword": {
+		"text": "אִסְטוֹמְכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 90,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (στόμαχος) prop. <i>orifice</i>, esp. <i>stomach</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 4\">Lev. R. s. 4</cite> the food goes <he>מוישטא לא׳</he> from the gullet into the stomach. ",
+				"<cite ref=\"Kohelet Rabbah 7:19\">Koh. R. to VII, 19</cite> (incorr. order)."
+			]
+		}
+	]
+}

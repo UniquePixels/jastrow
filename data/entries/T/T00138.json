@@ -1,0 +1,29 @@
+{
+	"id": "T00138",
+	"slug": "רבץ-2",
+	"headword": {
+		"text": "רְבַץ"
+	},
+	"page": {
+		"number": 1446,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T00137\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַבֵּיץ"],
+			"senses": [
+				{
+					"gloss": "<i>to sprinkle</i>. Y. Snh. VII, end, 25ᵈ <he>איתחמי מְרַבֵּץ ליה</he> he appeared to be sprinkling upon it (the flax seed, to make it grow).",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

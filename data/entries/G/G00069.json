@@ -1,0 +1,40 @@
+{
+	"id": "G00069",
+	"slug": "זגתא",
+	"headword": {
+		"text": "זַגְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זָגְתָא"
+		}
+	],
+	"page": {
+		"number": 380,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00064\"><he>זגי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a clucking hen</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 8b\">Bekh. 8ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 86b:6\">B. Mets. 86ᵇ</cite>, v. <cite ref=\"B00531\"><he>בָּטְנִיתָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>ז׳ על אפרחהא</he> (<i>the clucking hen over her chickens</i>,) <i>the Pleiades</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 38:32\">Targ. Job XXXVIII, 32</cite> (Ar. ed. pr. <he>על בנהא</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

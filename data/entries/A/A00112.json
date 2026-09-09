@@ -1,0 +1,25 @@
+{
+	"id": "A00112",
+	"slug": "אבידן",
+	"headword": {
+		"text": "אֲבֵידָן"
+	},
+	"page": {
+		"number": 5,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אבד</he>; cacophemism for <cite ref=\"F00072\"><he>וַועֲדָא</he></cite> q. v.), <cite ref=\"A00121\"><he>בֵּי א׳</he></cite> = <he>בֵּי וַועֲדָו</he>) prop. <i>their place of ruin</i>, cacophemism for <i>meeting-place, gathering for idolatrous purposes and performances connected with idolatrous feasts</i> (games, &c.) which the Jews, under Hadrian, were forced to attend. ",
+			"units": [
+				"<cite ref=\"Shabbat 152a:3\">Sabb. 152ᵃ</cite>. ",
+				"<cite ref=\"Avodah Zarah 17b:11\">Ab. Zar. 17ᵇ</cite>.—Transf. <i>meeting place of early Christians</i> where religious controversies used to be held. ",
+				"<cite ref=\"Shabbat 116a:10\">Sabb. 116ᵃ</cite> <he>ספרי דבי א׳</he> Christian writings. ",
+				"<cite ref=\"Shabbat 116a:10\">Ib.</cite> <he>רב לא אזיל וכ׳</he> Rab would not attend a Be-Abedan, Samuel would."
+			]
+		}
+	]
+}

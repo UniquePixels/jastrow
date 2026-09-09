@@ -1,0 +1,31 @@
+{
+	"id": "A01647",
+	"slug": "איתיטרון",
+	"headword": {
+		"text": "אִיתְּיַטְרוֹן",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיתִּיַטְרוֹן"
+		},
+		{
+			"text": "אִתְּ׳"
+		}
+	],
+	"page": {
+		"number": 61,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"V00404\"><he>תִּיאַטְרוֹן</he></cite>) <i>theatre</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:6\">Targ. Ezek. XXVII, 6</cite> (ed. Vien. <he>אִתְיָטְרוּן</he>)."
+			]
+		}
+	]
+}

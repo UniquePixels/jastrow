@@ -1,0 +1,34 @@
+{
+	"id": "B00850",
+	"slug": "בלט-1",
+	"headword": {
+		"text": "בָּלַט"
+	},
+	"page": {
+		"number": 172,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>בל</he>, v. <cite ref=\"B00880\"><he>בָּלַל</he></cite>; cmp. <he>פלט</he>, <he>מלט</he>, <he>ולד</he>; cmp. Assyr. <he>בלט</he> <i>to live</i>, Schr. KAT gloss. I, II) ",
+			"units": []
+		},
+		{
+			"gloss": " (neut. v.) <i>to stand forth, project; to be cut in relief</i>, opp. <he>שקע</he> to sink, be engraven. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 24b:10\">R. Hash. 24ᵇ</cite> <he>טבעת שחותמה בּוֹלֵט</he> Ms. M. (ed. incorr.) a ring whose seal is cut in relief; <cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:20\">Y. Ab. Zar. III, 42ᶜ</cite> bot. ",
+				"<cite ref=\"Gittin 20a\">Gitt. 20ᵃ</cite> sq. ",
+				"<cite ref=\"Mishnah Sotah 3:4\">Sot. III, 4</cite> <he>עיניה בוֹלְטוֹת</he> her eyes protruded; <cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite>.—",
+				"<cite ref=\"Yoma 54a:10\">Yoma 54ᵃ</cite> <he>דוחקין ובולטין</he> pressing forth and protruding (from behind the curtain); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (act. v.) <i>to drive forth, beat</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 12:4:4\">Y. Sabb. XII, 13ᵈ</cite> <he>בבולט מקום הכתב וכ׳</he> when he beats out the place of writing, opp. <he>חוקק</he>."
+			],
+			"label": "2"
+		}
+	]
+}

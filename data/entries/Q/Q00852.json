@@ -1,0 +1,30 @@
+{
+	"id": "Q00852",
+	"slug": "פירטא-1",
+	"headword": {
+		"text": "פִּירְטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּירְטְתָא"
+		},
+		{
+			"text": "פִּרְ׳"
+		}
+	],
+	"page": {
+		"number": 1171,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01764\"><he>פְּרַט</he></cite>) <i>detailed statement, inventory</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 57b:5\">Gitt. 57ᵇ</cite> <he>שדא פירטא בביתיה וכ׳</he> Ar. (ed. <he>שדר שטר פרטתא</he>, Rashi <cite ref=\"Q01961\"><he>פיר׳</he></cite>) he sent a document containing the inventory and disposal of his property to his house, and became a proselyte; v. <cite ref=\"Q00635\"><he>פִּיטְרָא</he> II</cite>; <cite ref=\"Sanhedrin 96b:7\">Snh. 96ᵇ</cite> <he>שדר פּוּרְטִיתָא לביתיה</he>."
+			]
+		}
+	]
+}

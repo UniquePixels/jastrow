@@ -1,0 +1,31 @@
+{
+	"id": "M00693",
+	"slug": "מות-4",
+	"headword": {
+		"text": "מוֹת",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹתָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 752,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M00692\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 10:17\">Targ. Ex. X, 17</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 11:19\">Targ. Jer. XI, 19</cite> <he>סמא דמ׳</he> <i>poison</i>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Genesis 35:18\">Targ. Y. Gen. XXXV, 18</cite> <i>fem.</i>—",
+				"<cite ref=\"Shabbat 88b:4\">Sabb. 88ᵇ</cite> <he>סמא דמ׳</he>, v. supra; <cite ref=\"Yoma 72b\">Yoma 72ᵇ</cite>.—",
+				"<cite ref=\"Yevamot 63a:12\">Yeb. 63ᵃ</cite> <he>מידי דקשי ממ׳</he> something harder than death. ",
+				"<cite ref=\"Moed Katan 28b:8\">M. Kat. 28ᵇ</cite>, v. <cite ref=\"H00028\"><he>חֲבוּלְיָא</he></cite>; a. fr."
+			]
+		}
+	]
+}

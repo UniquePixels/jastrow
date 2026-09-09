@@ -1,0 +1,22 @@
+{
+	"id": "M02243",
+	"slug": "מפרונא",
+	"headword": {
+		"text": "מִפְרוֹנָא"
+	},
+	"page": {
+		"number": 821,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01880\"><he>פְּרַן</he></cite>) <i>wife’s settlement.—</i>Pl. constr. <he>מִפְרוֹנֵי</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 22:16\">Targ. Y. Ex. XXII, 16</cite> (not <cite ref=\"M02194\"><he>מפדוני</he></cite>; O. <he>מוֹהֲרֵי</he>)."
+			]
+		}
+	]
+}

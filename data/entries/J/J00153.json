@@ -1,0 +1,29 @@
+{
+	"id": "J00153",
+	"slug": "יובלא",
+	"headword": {
+		"text": "יוּבְלָא"
+	},
+	"page": {
+		"number": 567,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"J00152\">same</cite><i>ram</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:32\">Y. Ber. IX, 13ᶜ</cite> top; <cite ref=\"Rosh Hashanah 26a:17\">R. Hash. 26ᵃ</cite>, v. <cite ref=\"J00152\">preced.</cite> (cmp. ",
+				"<cite ref=\"Targum Jonathan on Joshua 6:4\">Targ. Josh. VI, 4</cite>, sq.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Jubilee</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 25:10\">Targ. O. Lev. XXV, 10</cite> <cite ref=\"J00153\"><he>יוֹבֵלָא</he></cite> (ed. Berl. <cite ref=\"J00151\"><he>יוֹבֵילָא</he></cite>, ed. Amst. <cite ref=\"J00153\"><he>יוֹבָלָא</he></cite>; Y. <cite ref=\"J00153\"><he>יוּבָלָא</he></cite>); a. fr.—Pl. <he>יוּבְלֵי</he>. ",
+				"<cite ref=\"Arakhin 12b:5\">Arakh. 12ᵇ</cite> <he>תמניא י׳</he> eight jubilee cycles; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

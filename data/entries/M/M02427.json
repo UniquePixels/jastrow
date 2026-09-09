@@ -1,0 +1,24 @@
+{
+	"id": "M02427",
+	"slug": "מקלט",
+	"headword": {
+		"text": "מִקְלָט"
+	},
+	"page": {
+		"number": 831,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S01307\"><he>קָלַט</he></cite>)<i>refuge</i>, esp. for the unintentional man-slayer. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 2:4\">Macc. II, 4</cite>. ",
+				"<cite ref=\"Mishnah Makkot 2:6\">Ib. 6</cite> <he>אחד שוגג … מקדימין לערי מ׳</he> both the innocent and the willful slayers go temporarily to the place of refuge; <cite ref=\"Sifrei Bamidbar 160:9\">Sifré Num. 160</cite>. ",
+				"<cite ref=\"Mishnah Makkot 2:8\">Macc. II, 8</cite> <he>רוצח שגלה לעיר מִקְלָטוֹ</he> a man-slayer who arrives at his place of refuge; a. fr."
+			]
+		}
+	]
+}

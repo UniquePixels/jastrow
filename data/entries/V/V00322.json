@@ -1,0 +1,28 @@
+{
+	"id": "V00322",
+	"slug": "תורתא-3",
+	"headword": {
+		"text": "תּוֹרָתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּי תּוֹרָתָא"
+		}
+	],
+	"page": {
+		"number": 1658,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Be Toratha</i> in Babylonia (v. Neub., Géogr. p. 363). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 26a:1\">Ab. Zar. 26ᵃ</cite> top. (Ag. Hatt. <he>תוראתא</he>). ",
+				"<cite ref=\"Sanhedrin 64a:15\">Snh. 64ᵃ</cite>"
+			]
+		}
+	]
+}

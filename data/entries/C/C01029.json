@@ -1,0 +1,24 @@
+{
+	"id": "C01029",
+	"slug": "גמילות",
+	"headword": {
+		"text": "גְּמִילוּת"
+	},
+	"page": {
+		"number": 252,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <he>(גמל</he>), <he>ג׳ חֲסָדִים</he> (also <cite ref=\"C01028\"><he>גְּמִילַת</he></cite>, v. <cite ref=\"C01028\"><he>גְּמִילָה</he></cite>) <i>deeds of love, charity</i> (abbr. <he>ג״ח</he>). ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 1:1\">Peah I, 1</cite>. ",
+				"<cite ref=\"Berakhot 5a\">Ber. 5ᵃ</cite>. ",
+				"<cite ref=\"Sotah 14a:6\">Sot. 14ᵃ</cite> the Torah <he>תחילתה ג״ח וכ׳</he> begins with charity (clothing the naked, <cite ref=\"Genesis 3:21\">Gen. III, 21</cite>) and ends with charity (burying the dead, <cite ref=\"Deuteronomy 34:6\">Deut. XXXIV, 6</cite>); a. v. fr.—[<cite ref=\"Devarim Rabbah 1\">Deut. R. s. 1</cite>, v. <cite ref=\"C01008\"><he>גְּמוּל</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "A02746",
+	"slug": "אפנתא",
+	"headword": {
+		"text": "אַפַּנְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּנְתָּא"
+		}
+	],
+	"page": {
+		"number": 105,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>פנה</he>, v. <he>פנים</he>; cmp. <cite ref=\"A02647\"><he>אַפּוּתָא</he></cite> fr. <cite ref=\"A02595\"><he>אַף</he></cite>) <i>upper</i>, (<i>front</i>), a kind of <i>legging</i> connected with a shoe or sole over which straps are drawn for fastening; corresp. to h. <cite ref=\"M01804\"><he>מַנְעַל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Taanit 12b:4\">Taan. 12ᵇ</cite> <he>מסיימי א׳</he> (Ms. M. <cite ref=\"Q01216\"><he>פַּנְתָּאֵי</he></cite> pl.) having put on <i>appantas</i> (on a public fast-day). ",
+				"<cite ref=\"Yevamot 102a:11\">Yeb. 102ᵃ</cite> <he>הוה ליה א׳ מֵעַל וכ׳</he> (ed. <cite ref=\"Q00001\"><he>פ׳</he></cite>; v. Ar. ed. Koh. s. v.) the panta is one ‘from on’ (referring to <cite ref=\"Deuteronomy 25:9\">Deut. XXV, 9</cite> ‘and she shall strip his shoe from on his foot’), and the thong a ‘from on’ of a ‘from on’, i.e. panta and thong are two coverings. ",
+				"<cite ref=\"Berakhot 43b:14\">Ber. 43ᵇ</cite> <he>ולא אמרו אלא בא׳</he> (ed. <he>בפ׳</he>) this applies only to the panta (upper)."
+			]
+		}
+	]
+}

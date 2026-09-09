@@ -1,0 +1,113 @@
+{
+	"id": "B01128",
+	"slug": "בקע-1",
+	"headword": {
+		"text": "בָּקַע"
+	},
+	"page": {
+		"number": 186,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בק</he> , v. <cite ref=\"B01112\"><he>בְּקָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to split, chop; to break through</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 99a:11\">B. Mets. 99ᵃ</cite> <he>בָּ׳ בו</he>; (<cite ref=\"Kiddushin 47b:8\">Kidd. 47ᵇ</cite> <cite ref=\"B01128\"><he>בִּיקַּע</he></cite>) if he chopped wood with it. ",
+				"<cite ref=\"Bereishit Rabbah 55\">Gen. R. s. 55</cite>, end; <cite ref=\"Kohelet Rabbah 10:9\">Koh. R. to X, 9</cite>; <cite ref=\"Kohelet Rabbah 2:23\">II, 23</cite>, v. <cite ref=\"B01123\"><he>בְּקִיעָה</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 21:8\">Ex. R. s. 21</cite> <he>אני בוֹקֵעַ להם וכ׳</he> I am going to split the sea for them; a. fr.—",
+				"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 2</cite> <he>בקעו בחיילותיו וכ׳</he> broke through the lines of N.’s armies; <cite ref=\"Jerusalem Talmud Taanit 4:5:18\">Y. Taan. IV, 69ᵇ</cite> top <he>ברחו לתוך</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cross, make a short cut, pass over</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 1:1:12\">Y. Pes. I, 27ᵇ</cite> bot. <he>חצר שהרבים בּוֹקְעִין וכ׳</he> a court which people use for crossing. ",
+				"<cite ref=\"Eruvin 16b\">Erub. 16ᵇ</cite>; <cite ref=\"Shabbat 101b\">Sabb. 101ᵇ</cite> (a low wall) <he>שהגדיים וכ׳ ב׳</he> over which the kids pass; v. <cite ref=\"B01131\"><he>בִּקְעָה</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"B01075\"><he>בִּצְבֵּץ</he></cite>) <i>to break through the ground</i>, esp. as a legal fiction for a levitical impurity the cause of which is underground, but which affects the things above and beneath. Ohol. VI, 6 <he>טומאה בּוֹקַעַת וכ׳</he> the impurity breaks through the ground and rises, and breaks through and goes down; a. fr.—",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 3:16\">Koh. R. III, 16</cite> <he>היה הדם בו׳ ועולה</he> the blood broke through and rose. ",
+				"<cite ref=\"Midrash Tehillim 78:7\">Midr. Till. to Ps. LXXVIII, 45</cite> <he>ב׳ את הצור</he>, <he>ב׳ בצור</he> break through (take root in) the rock; a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִבְקַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be split, to burst open</i>. Ib. <he>הסיפין נבקעין וכ׳</he> the door sells were burst before them. Ib. <he>נ׳ הספל מאליו</he> the vessel went to pieces of itself. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 55\">Gen. R. s. 55</cite>, end <he>זכה להִבָּקַע הים וכ׳</he> he was rewarded by the sea being divided before the children of Israel. ",
+						"<cite ref=\"Chullin 14b:1\">Ḥull. 14ᵇ</cite> <he>שמא יִבָּקַע הנוד</he> the wine bottle may burst; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["בִּקַּע", "בִּיקַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to split, chop, tear</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 47b:8\">Kidd. 47ᵇ</cite>, v. supra. Y. Bets. I, 60ᵃ bot.; Y. Ab. Zar. II, 41ᶜ bot. <he>שביקעו</he> (<he>שבקעו</he>) <he>להם וכ׳</he> of whose flocks the wolves had torn more than &c. ",
+						"<cite ref=\"Mishnah Beitzah 4:3\">Bets. IV, 3</cite> <he>אין מְבַקְּעִין וכ׳</he> one must not split woods (on Holy Days) etc. ",
+						"<cite ref=\"Sifrei Devarim 183:2\">Sifré Deut. 183</cite> (ref. to <cite ref=\"Deuteronomy 19:5\">Deut. XIX, 5</cite>) <he>מן העץ המְבַקֵּעַ</he> from the <i>splitting</i> wood (the handle), opp. <he>העץ המִתְבַּקֵּעַ</he> the <i>split</i> wood (the tree). Tanḥ. Vayetse 9 <he>בַּקְּעִי וכ׳</he> chop thou &c.—Part. pass. <he>מְבוּקָּע</he>. ",
+						"<cite ref=\"Avodah Zarah 65b:11\">Ab. Zar. 65ᵇ</cite> <he>מְבוּקָּעוֹת</he> grapes burst open."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to jam in, wedge</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 67b:7\">Sabb. 67ᵇ</cite> <he>המְבַקַּעַת ביצים</he> (Rashi Var. <he>המקבעת</he>, Ms. M. <he>עצים</he>) one who squeezes egg-shells &c. (a superstitious practice; <cite ref=\"Tosefta Shabbat 6:18\">Tosef. ib. VI</cite> (<cite ref=\"Tosefta Shabbat 7:18\">VII</cite>), 18 <he>הנותנת בצים … בכותל</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִבְקִיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to cut, clear</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 4:5\">Shebi. IV, 5</cite> <he>המַבְקִיעַ בזתים וכ׳</he> he who cuts olive-trees down (in the Sabbath year) must not cover the stump with ground."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lead a line crosswise</i>. Y. Kil. III, 28ᵈ top <he>להַבְקִיעַ וכ׳</he> to plant four rows across a valley from end to end.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְבַּקֵּעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be split; to burst, break</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 183\">Sifré Deut. 183</cite>, v. supra.—",
+						"<cite ref=\"Mishnah Shabbat 16:5\">Sabb. XVI, 5</cite>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 6:4\">Cant. R. to VI, 4</cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

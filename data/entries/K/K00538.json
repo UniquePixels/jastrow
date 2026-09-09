@@ -1,0 +1,32 @@
+{
+	"id": "K00538",
+	"slug": "כילוי",
+	"headword": {
+		"text": "כִּילּוּי"
+	},
+	"page": {
+		"number": 632,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00692\"><he>כָּלָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>finishing</i>. Sifra K’dosh. ch. I; <cite ref=\"Jerusalem Talmud Peah 4:4:1\">Y. Peah IV, 18ᵇ</cite> <he>בשעת הכ׳</he> at the time when the end of the field is cut (with ref. to <he>תכלה</he>, <cite ref=\"Leviticus 19:9\">Lev. XIX, 9</cite>); a. e.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>extinction, destruction</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 7\">Lev. R. s. 7</cite>, beg. (ref. to <he>שמד</he>, <cite ref=\"Deuteronomy 9:20\">Deut. IX, 20</cite>) <he>כ׳ בנים וכ׳</he> the extinction of his family; <cite ref=\"Deuteronomy 9:20\">ib.</cite> s. 10. Mekh. Bo s. 8 <he>מצות כִּילּוּייוֹ בכל דבר</he> it (the leavened bread) may be destroyed in any manner, opp. <he>מצות כ׳ בשריפה</he> it must be destroyed by fire."
+			],
+			"label": "2"
+		}
+	]
+}

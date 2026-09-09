@@ -1,0 +1,32 @@
+{
+	"id": "F00087",
+	"slug": "ורדימוס",
+	"headword": {
+		"text": "וַרְדִּימוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "וַרְדִּימָס"
+		},
+		{
+			"text": "וַו׳"
+		}
+	],
+	"page": {
+		"number": 375,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (a corrupt. of Εὐρύδημος) <i>Vardimos, Vardimas</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 81a:6\">Ned. 81ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 118b:9\">Sabb. 118ᵇ</cite> <he>היינו ו׳ וכ׳</he> V. is Menahem (etymology fr. <he>וֶורֶד</he>).—Sifra Emor Par. 10, ch. XIII <cite ref=\"A00587\"><he>אֲוַורְדִּימָס</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 8:8:6\">Y. Shebi. VIII, 38ᵇ</cite> top <cite ref=\"A00145\"><he>אבירודימוס</he></cite>."
+			]
+		}
+	]
+}

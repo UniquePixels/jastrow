@@ -1,0 +1,23 @@
+{
+	"id": "S00137",
+	"slug": "קדים-1",
+	"headword": {
+		"text": "קָדִים"
+	},
+	"page": {
+		"number": 1315,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S00150\"><he>קָדַם</he></cite>) with <cite ref=\"T00615\"><he>רוּחַ</he></cite>, or sub. <he>רוח</he>, <i>east wind</i>. Mekh. B’shall. s. 4; <cite ref=\"Yalkut Shimoni on Nach 300:1\">Yalk. Jer. 300</cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 20:2\">Kel. XX, 2</cite> <he>הניחה … בק׳ וכ׳</he> if he exposed the trough to the east wind, and it cracked. ",
+				"<cite ref=\"Mishnah Gittin 3:8\">Gitt. III, 8</cite> <he>בק׳ של מוצאי החג</he> (Bab. ed. 31ᵃ <he>בקדום</he>) after an east wind following the end of the Succoth festival; ib. 31ᵇ <he>בקִידּוּם</he>; a. e."
+			]
+		}
+	]
+}

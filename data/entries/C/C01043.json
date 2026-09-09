@@ -1,0 +1,24 @@
+{
+	"id": "C01043",
+	"slug": "גמלא-3",
+	"headword": {
+		"text": "גַּמְלָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 254,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Gamala</i>, in Galilee. ",
+			"units": [
+				"<cite ref=\"Mishnah Arakhin 9:6\">Arakh. IX, 6</cite>. ",
+				"<cite ref=\"Tosefta Makkot 3:2\">Tosef. Macc. III</cite> (<cite ref=\"Tosefta Makkot 2:2\">II</cite>), 2; Y. ib. II, 31ᵈ <cite ref=\"C01046\"><he>גַּמְלָה</he></cite>."
+			]
+		}
+	]
+}

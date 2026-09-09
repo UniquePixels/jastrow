@@ -1,0 +1,23 @@
+{
+	"id": "N00508",
+	"slug": "נחמם",
+	"headword": {
+		"text": "נַחְמָם",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 896,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01201\"><he>חָמַם</he></cite>; formed like <cite ref=\"N00536\"><he>נחתום</he></cite>) <i>attendant at hot baths, bather</i> (practicing medicine). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:2\">Y. Ab. Zar. II, 40ᵈ</cite> top, opp. <he>רופא אומן</he> professional surgeon."
+			]
+		}
+	]
+}

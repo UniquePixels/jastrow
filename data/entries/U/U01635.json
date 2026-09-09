@@ -1,0 +1,42 @@
+{
+	"id": "U01635",
+	"slug": "שעה-2",
+	"headword": {
+		"text": "שָׁעָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1609,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Daniel 4:16\">Dan. IV, 16</cite>; <cite ref=\"U01634\">preced.</cite>, v. Del. Proleg. p. 39 sq.) <i>moment, while; hour</i>, esp. <i>the twelfth portion</i> of the day and of the night, varying according to the season. ",
+			"units": [
+				"<cite ref=\"Tosefta Berakhot 1:1\">Tosef. Ber. I, 1</cite>, a. e., v. <cite ref=\"P00297\"><he>עוֹנָה</he> I</cite>. ",
+				"<cite ref=\"Berakhot 7a:10\">Ber. 7ᵃ</cite>, v. <cite ref=\"T00218\"><he>רֶגַע</he></cite>. ",
+				"<cite ref=\"Berakhot 7b:22\">Ib. 7ᵇ</cite>, a. e. <he>הש׳ משחקת</he>, v. <cite ref=\"U00695\"><he>שָׂחַק</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 3:13\">Lam. R. to III, 37</cite> <he>מש׳ שאמר וכ׳</he> from the moment that the Lord said &c. ",
+				"<cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite> <he>מש׳ שהכהנים וכ׳</he> from the time of day when the priests go in &c. ",
+				"<cite ref=\"Mishnah Pesachim 2:1\">Pes. II, 1</cite> <he>כל ש׳</he> as long. ",
+				"<cite ref=\"Ketubot 104a:8\">Keth. 104ᵃ</cite> <he>בש׳ שהצדיק וכ׳</he> when a righteous man is called away &c. ",
+				"<cite ref=\"Ketubot 104a:6\">Ib.</cite> <he>בשְׁעַת פטירתו וכ׳</he> when Rabbi died &c. ",
+				"<cite ref=\"Berakhot 64a:2\">Ber. 64ᵃ</cite> <he>הדוחק את הש׳</he>, v. <cite ref=\"D00434\"><he>דָּחַק</he></cite>; <he>נדחה מפני הש׳</he>, v. <cite ref=\"D00397\"><he>דָּחָה</he></cite>. ",
+				"<cite ref=\"Shabbat 10a:7\">Sabb. 10ᵃ</cite>, a. e. <he>מניחין … ועוסקין בחיי ש׳</he> they neglect the life everlasting, and busy themselves with the life of the hour (earthly affairs). ",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:11:5\">Y. Taan. III, 67ᵃ</cite> (expl. <he>יולדתך</he>, <cite ref=\"Proverbs 23:25\">Prov. XXIII, 25</cite>) <he>שַׁעַתְךָ</he> (or <he>שַׁעְתְּךָ</he>) thy hour (of birth). ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:1:9\">Cant. R. to I, 1</cite>, a. e. <he>בשַׁעְתּוֹ</he> in its due time, v. <cite ref=\"O01381\"><he>סֵפֶל</he></cite>; <cite ref=\"Bamidbar Rabbah 10:4\">Num. R. s. 10<sup>4</sup></cite> <he>בין שעתו</he>. ",
+				"<cite ref=\"Shemot Rabbah 19:4\">Ex. R. s. 19</cite>, a. fr. <he>לש׳ קלה</he>, v. <cite ref=\"S01230\"><he>קַל</he> II</cite>; a. v. fr.—<he>הוראת ש׳</he>, or <he>ש׳</he> temporary, special legislation, opp. <he>דורות</he>. ",
+				"<cite ref=\"Yoma 69b:5\">Yoma 69ᵇ</cite>. ",
+				"<cite ref=\"Menachot 19b:5\">Men. 19ᵇ</cite> <he>דורות מש׳</he>, v. <cite ref=\"D00345\"><he>דּוֹר</he></cite>. ",
+				"<cite ref=\"Menachot 56a:4\">Ib. 56ᵃ</cite> <he>ש׳ מדורות וכ׳</he> we cannot derive the modes of a temporary act (e.g. the offerings of the princes, <cite ref=\"Numbers 7:12-83\">Num. VII, 12-83</cite>) from the laws concerning a permanent institution; a. fr.—Pl. <cite ref=\"U01645\"><he>שָׁעוֹת</he></cite>. ",
+				"<cite ref=\"Berakhot 3a:5\">Ber. 3ᵃ</cite> <he>עד ארבע ש׳</he> to four hours (the fourth hour of the night). ",
+				"<cite ref=\"Pesachim 58a:3\">Pes. 58ᵃ</cite> <he>שתי ש׳ ומחצה</he> two hours and a half. ",
+				"<cite ref=\"Mishnah Sanhedrin 5:3\">Snh. V, 3</cite> <he>אחד אומר בשתי ש׳ וכ׳</he> if one witness testifies that the act under consideration was committed at the second hour of the day &c. ",
+				"<cite ref=\"Mishnah Kelim 12:4\">Kel. XII, 4</cite> <he>אבן הש׳</he>, v. <cite ref=\"A00172\"><he>אֶבֶן</he></cite>; a. v. fr."
+			]
+		}
+	]
+}

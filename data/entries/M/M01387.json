@@ -1,0 +1,51 @@
+{
+	"id": "M01387",
+	"slug": "מכך-2",
+	"headword": {
+		"text": "מְכַךְ"
+	},
+	"page": {
+		"number": 783,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01386\">same</cite>, <i>to lower, level; to humiliate</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 12:37\">Targ. Y. Ex. XII, 37</cite> <he>למֵימַךְ וכ׳</he> to level mountains. ",
+				"<cite ref=\"Aramaic Targum to Psalms 35:15\">Targ. Ps. XXXV, 15</cite> (h. text <he>נכים</he>).—<i>Part. pass.</i>: <cite ref=\"M01376\"><he>מְכִיךְ</he></cite>, pl. <he>מְכִיכִין</he> <i>laid under, bolstered</i>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 23:41\">Targ. Ez. XXIII, 41</cite>, v. <cite ref=\"M01388\">next w.</cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מַכֵּךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M01386\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 14:14\">Targ. Y. Num. XIV, 14</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 22:22\">Targ. Prov. XXII, 22</cite>.—",
+						"<cite ref=\"Aramaic Targum to Lamentations 3:34\">Targ. Lam. III, 34</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 147:6\">Targ. Ps. CXLVII, 6</cite> [read:] <he>מְמַכֵּיךְ</he>, v. <cite ref=\"M00036\"><he>מְאַךְ</he></cite>; a. e.—",
+						"<cite ref=\"Yoma 84b:8\">Yoma 84ᵇ</cite> <he>מַכֵּיךְ מַכּוּכֵי</he> Rashi a. Ms. O. (ed. <he>מְמַכֵּיךְ</he>, v. Rabb. D. S. a. l. note 9; Ms. L. <he>מסכיך סכוכי</he>, v. <cite ref=\"O00904\"><he>סְכַךְ</he></cite>) he subdues the flame (and produces a coal fire which can be utilized)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְמַכֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be humbled, cast down</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 42:6\">Targ. Ps. XLII, 6</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "H00876",
+	"slug": "חירות-1",
+	"headword": {
+		"text": "חֵירוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֵרוּת"
+		}
+	],
+	"page": {
+		"number": 460,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חוֹר</he> II) <i>freedom, liberty, libertinism; leisure</i>. Mekh. B’shall. s. 1, v. <cite ref=\"H00871\"><he>חִירָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Gittin 42a:14\">Gitt. 42ᵃ</cite> <he>יצא לח׳</he> becomes free (<cite ref=\"Gittin 8b\">ib. 8ᵇ</cite>, a. fr. <he>בן חוֹרִין</he>). ",
+				"<cite ref=\"Eruvin 54a:20\">Erub. 54ᵃ</cite> (play on <cite ref=\"H01641\"><he>חָרוּת</he></cite>, <cite ref=\"Exodus 32:16\">Ex. XXXII, 16</cite>) <he>א״ת חרות אלא חי׳</he> read not <i>ḥaruth</i> (engraven) but <i>ḥeruth</i> (liberty) on the tablets (you are free, if you observe the law); <cite ref=\"Shemot Rabbah 32:1\">Ex. R. s. 32</cite>, beg. <he>ח׳ מן המלכיות</he> liberation from political oppression, <he>ח׳ ממלאך המות</he> liberation from the angel of death (pestilence); a. fr."
+			]
+		}
+	]
+}

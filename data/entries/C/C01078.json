@@ -1,0 +1,72 @@
+{
+	"id": "C01078",
+	"slug": "גנב-1",
+	"headword": {
+		"text": "גָּנַב"
+	},
+	"page": {
+		"number": 256,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to put behind, aside</i>,] <i>to steal</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 8:3:2\">Y. Snh. VIII, 26ᵇ</cite> top <he>לא תִגְנוֹב את … גוֹנֵב</he> do not carry off steathily thine own property from the thief, lest thou appear to be stealing.—",
+				"<cite ref=\"Sanhedrin 86a:15\">Snh. 86ᵃ</cite> <he>גונב נפש</he> one who kidnaps a person. ",
+				"<cite ref=\"Mishnah Bava Kamma 7:2\">B. Kam. VII, 2</cite> <he>ג׳ על פי שנים</he> if he is convicted of stealing through two witnesses; a. fr.—<he>ג׳ דעת</he> to <i>deceive, to create a false impression</i>. ",
+				"<cite ref=\"Chullin 94a:5\">Ḥull. 94ᵃ</cite> <he>אסור לִגְנוֹב דעת וכ׳</he> it is forbidden to create &c. (e.g. to make believe as if you opened a fresh barrel of wine as a special attention to your guest, while you would have had to do it at any rate). ",
+				"<cite ref=\"Shevuot 39a\">Shebu. 39ᵃ</cite>; a. fr.—ג׳ עין <i>to deceive by a false impression on the eye, to delude</i>. ",
+				"<cite ref=\"Mishnah Bava Metzia 4:12\">B. Mets. IV, 12</cite>.—Part. pass. <he>גָּנוּב</he>, f. <cite ref=\"C01100\"><he>גְּנוּבָה</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 44b\">Ab. Zar. 44ᵇ</cite>; <cite ref=\"Meilah 7b:4\">Meïl. 7ᵇ</cite> <he>תשובה ג׳</he> a fallacious reply; v. <cite ref=\"C01102\"><he>גְּנוּבְתָּא</he> II</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גִּנֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to keep behind</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 5\">Ex. R. s. 5</cite> <he>היו מְגַנְּבִין את עצמן וכ׳</he> they kept themselves at a distance from Moses and then withdrew."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִגְנַב"],
+			"senses": [
+				{
+					"gloss": "<i>to be stolen, kidnapped</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 3:1\">B. Mets. III, 1</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 84:16\">Gen. R. s. 84</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be deceived</i> (sub. <cite ref=\"D00950\"><he>דעת</he></cite>). ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Kamma 7:8\">Tosef. B. Kam. VII, 8</cite> sq.; Mekh. Mishp. N’zikin, s. 13."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְגַּנֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to sneak in</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite>, <he>היו מִתְגַּנְּבִים וכ׳</he> they used to have stealthy intercourse &c. Mekh. l. c. <he>המִתְגַּנֵּב אחר וכ׳</he> who steals himself (into the college room) behind a neighbor."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

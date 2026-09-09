@@ -1,0 +1,22 @@
+{
+	"id": "C01053",
+	"slug": "גמלתא",
+	"headword": {
+		"text": "גְּמַלְתָּא"
+	},
+	"page": {
+		"number": 254,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C01042\"><he>גַּמְלָא</he></cite>) <i>stock of camels</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 75:6\">Gen. R. s. 75</cite> (ref. to generic sing. <he>שור חמור</he>, <cite ref=\"Genesis 32:6\">Gen. XXXII, 6</cite>) it is a popular expression <he>חמורתא ג׳</he> (as we say in Chald.) the stock of asses, of camels."
+			]
+		}
+	]
+}

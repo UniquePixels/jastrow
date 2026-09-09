@@ -1,0 +1,44 @@
+{
+	"id": "N00934",
+	"slug": "נסיון-1",
+	"headword": {
+		"text": "נִסָּיוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִיסָּ׳"
+		}
+	],
+	"page": {
+		"number": 916,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00926\"><he>נָסָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lifting up</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 55:1\">Gen. R. s. 55</cite>, beg. <he>נ׳ אחר נ׳ גידולין וכ׳</he> (ref. to <cite ref=\"Psalms 60:6\">Ps. LX, 6</cite>) a repeated elevation, dignity &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>trial, test; temptation</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 107a:2\">Snh. 107ᵃ</cite> <he>דוד</he> … <he>הביא עצמו לידי נ׳</he> David … placed himself in the power of trial (asked to be tried, <cite ref=\"Psalms 26:2\">Ps. XXVI, 2</cite>). ",
+				"<cite ref=\"Berakhot 60b:3\">Ber. 60ᵇ</cite> <he>אל תביאני … לידי נ׳</he> suffer me not to come within the power of sin, iniquity, or temptation. ",
+				"<cite ref=\"Sifrei Devarim 21:1\">Sifré Deut. 21</cite> <he>נותן אתה לי לנ׳</he> wilt thou let me have (the animal) for a trial?; a. fr.—Pl. <he>נִסְיוֹנוֹת</he>, <he>נִסְיוֹנִין</he>. ",
+				"<cite ref=\"Pirkei Avot 5:3\">Ab. V, 3</cite> <he>עשרה נ׳ נתנסה וכ׳</he> Abraham underwent ten trials and stood all of them. ",
+				"<cite ref=\"Arakhin 15a:38\">Arakh. 15ᵃ</cite> <he>עשר נ׳</he>, v. <cite ref=\"N00926\"><he>נָסָה</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 17:2\">Num. R. s. 17</cite> <he>נ׳ אחרים</he> additional trials; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

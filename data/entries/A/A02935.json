@@ -1,0 +1,30 @@
+{
+	"id": "A02935",
+	"slug": "אקפדה",
+	"headword": {
+		"text": "אַקְפָּדָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַקְפָּדָה"
+		}
+	],
+	"page": {
+		"number": 113,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>קפד</he>, Hif.) <i>getting excited, ebullition of temper, rashness</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 10:7\">Num. R. s. 10</cite>; <cite ref=\"Jerusalem Talmud Nedarim 1:1:14\">Y. Ned. I, 36ᵈ</cite> bot. they make the vow of a nazir (<cite ref=\"E00001\"><he>ה׳</he></cite>) <he>מתוך א׳</he> inconsiderately. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 4:5:2\">Y. Ab. Zar. IV, 44ᵃ</cite>. ",
+				"<cite ref=\"Tosefta Gittin 7:6\">Tosef. Gitt. VII</cite> (<cite ref=\"Tosefta Gittin 5:6\">V</cite>), 6 (opp. <he>ברצון</he>). ",
+				"<cite ref=\"Jerusalem Talmud Nazir 1:5:4\">Y. Naz. I, end, 51ᶜ</cite> <he>הקפדן</he>, read: <he>דָתָן …</he>"
+			]
+		}
+	]
+}

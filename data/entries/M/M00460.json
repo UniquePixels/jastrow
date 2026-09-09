@@ -1,0 +1,25 @@
+{
+	"id": "M00460",
+	"slug": "מוט-3",
+	"headword": {
+		"text": "מוֹט"
+	},
+	"page": {
+		"number": 740,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M00459\">preced.</cite>) <i>balancing pole, staff</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 3:3\">Bets. III, 3</cite> (<cite ref=\"Beitzah 25a:4-11\">25ᵃ</cite>) <he>לא … במ׳ במוטה</he> (Y. ed. <he>במטה</he>, v. Rabb. D. S. a. l. note 4) he must not bring it to town on a staff or on a barrow. ",
+				"<cite ref=\"Sotah 34a:9\">Sot. 34ᵃ</cite> (ref. to <cite ref=\"Numbers 13:23\">Num. XIII, 23</cite>) <he>ממשמע שנאמר במ׳ וכ׳</he> it being said ‘on a staff’, do I not know that it was carried by two persons?—Pl. <he>מוֹטוֹת</he>. ",
+				"<cite ref=\"Numbers 13:23\">Ib.</cite>, v. <cite ref=\"I00229\"><he>טוּרְטִינִי</he></cite>. ",
+				"<cite ref=\"Tosefta Ohalot 7:1\">Tosef. Ohol. VII, 1</cite>, v. <cite ref=\"N00207\"><he>נִדְבָּךְ</he></cite>; a. e."
+			]
+		}
+	]
+}

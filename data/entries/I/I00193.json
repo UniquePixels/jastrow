@@ -1,0 +1,28 @@
+{
+	"id": "I00193",
+	"slug": "טוען",
+	"headword": {
+		"text": "טוֹעַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "טֹעַן"
+		},
+		{
+			"text": "טָעוּן"
+		}
+	],
+	"page": {
+		"number": 525,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טָעַן</he> I) <i>requirement</i>. Sifra introd., v. <cite ref=\"I00614\"><he>טָעַן</he> I</cite>.",
+			"units": []
+		}
+	]
+}

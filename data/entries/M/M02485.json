@@ -1,0 +1,36 @@
+{
+	"id": "M02485",
+	"slug": "מראה-2",
+	"headword": {
+		"text": "מַרְאָה"
+	},
+	"page": {
+		"number": 835,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"M02484\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mirror</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 14:6\">Kel. XIV, 6</cite> <he>שעשה בו מ׳</he> (not <he>שעשאה</he>) one part of which he polished to serve as a mirror. ",
+				"<cite ref=\"Tosefta Shabbat 13:16\">Tosef. Sabb. XIII</cite> (<cite ref=\"Tosefta Shabbat 14:16\">XIV</cite>), 16; a. fr.—Pl. <he>מַרְאוֹת</he>. ",
+				"<cite ref=\"Bereishit Rabbah 4:4\">Gen. R. s. 4</cite> <he>מ׳ גדולות</he> magnifying mirrors; <he>מ׳ קטנות</he> diminishing mirrors; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>picture</i>.—Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 73:8\">Gen. R. s. 73</cite> <he>היה לך מ׳ בתוך ביתך</he> didst thou have pictures in thy house? <he>שחורה … או לבנה</he> of black persons or of white?"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "D00203",
+	"slug": "דודנים",
+	"headword": {
+		"text": "דּוֹדָנִים"
+	},
+	"page": {
+		"number": 283,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h. <cite ref=\"D00136\"><he>דֹּדָנִים</he></cite>)<i>Dodanites</i>, a Javanic tribe, v. <cite ref=\"D01047\"><he>דַּרְדַּנְיָיא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 37:1\">Gen. R. s. 37</cite>, beg.; Yalk. Chr. 1073 (ref. to <he>דֹּדָ׳</he>, <cite ref=\"Genesis 10:4\">Gen. X, 4</cite>, a. <he>רוֹדָ׳</he>, <cite ref=\"I Chronicles 1:7\">I Chr. I, 7</cite>)."
+			]
+		}
+	]
+}

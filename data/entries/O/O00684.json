@@ -1,0 +1,37 @@
+{
+	"id": "O00684",
+	"slug": "סימא-2",
+	"headword": {
+		"text": "סִימָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סִימְתָא"
+		},
+		{
+			"text": "סִימְתָה"
+		}
+	],
+	"page": {
+		"number": 980,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00333\"><he>סוּם</he></cite>, v. <cite ref=\"O01079\"><he>סְמֵי</he></cite>) [<i>tied up, hidden</i>,] <i>treasure</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 43:23\">Targ. Gen. XLIII, 23</cite> (O. ed. Berl. <cite ref=\"O00710\"><he>סִימָן</he></cite>; h. text <cite ref=\"M01020\"><he>מַטְמוֹן</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 21:20\">Targ. Prov. XXI, 20</cite> (h. text <cite ref=\"A00825\"><he>אוֹצָר</he></cite>); a. e.—",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:5:7\">Y. B. Mets. II, 8ᶜ</cite> bot. <he>וס׳ יהוי וכ׳</he> let the treasure (that has been found) belong to both of them. ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:5:7\">Ib.</cite> <he>וס׳ עלת למלכא</he>; <cite ref=\"Vayikra Rabbah 27:1\">Lev. R. s. 27</cite> <he>וס׳ סלקא לבי מלכא</he> and the treasure goes to the king’s treasury; Tanḥ. Emor 6; Yalk.Ps. Ps. 727; Pesik. Zakhor, p. 74ᵇ sq. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 3:2:7\">Y. Shek. III, 47ᶜ</cite> top <he>אשכח … ס׳</he> R. A. must have found a treasure (because he looks so bright); Y. Sabb. VIII, beg. 11ᵃ <cite ref=\"O00689\"><he>סִימָה</he></cite>; a. fr.—Pl. <cite ref=\"O00710\"><he>סִימָן</he></cite>, <cite ref=\"O00684\"><he>סִימָתָא</he></cite>, <cite ref=\"O00691\"><he>סִימָאתָא</he></cite>. Targ. O. Gen. l. c. ed. Berl. (v. supra). ",
+				"<cite ref=\"Onkelos Deuteronomy 33:19\">Targ. O. Deut. XXXIII, 19</cite> (ed. Vien. <cite ref=\"O00686\"><he>סימא</he></cite> sing.; ed. Berl. <cite ref=\"O00710\"><he>סִימַּן</he></cite>; Y. II <he>סִימָנַיָּא</he>; ed. Vien. <cite ref=\"O00609\"><he>סִיטְמָנַיָּא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 45:3\">Targ. Is. XLV, 3</cite> (ed. Wil. <cite ref=\"O00710\"><he>סִמַן</he></cite>); a. fr.—V. <cite ref=\"O00689\"><he>סִימָה</he></cite>."
+			]
+		}
+	]
+}

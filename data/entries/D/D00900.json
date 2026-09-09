@@ -1,0 +1,56 @@
+{
+	"id": "D00900",
+	"slug": "דמך",
+	"headword": {
+		"text": "דְּמַךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּמֵיךְ"
+		},
+		{
+			"text": "דְּמוּךְ"
+		}
+	],
+	"page": {
+		"number": 313,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to sleep; to die, to lie in the grave</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 3:6\">Targ. Ps. III, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 4:9\">Ib. IV, 9</cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 72:3\">Gen. R. s. 72</cite>, beg. <he>עמך הוא דמיך</he> he (Jacob) will lie with thee in the grave. ",
+				"<cite ref=\"Bereishit Rabbah 91:9\">Gen. R. s. 91</cite>, a. fr. <he>כד ד׳ וכ׳</he> when R. … was dead; a. v. fr.—",
+				"<cite ref=\"Ruth Rabbah 6:4\">Ruth R. to III, 13</cite>; <cite ref=\"Kohelet Rabbah 7:8\">Koh. R. to VII, 8</cite> <he>ודַמְכַת לה</he> and the fire over the grave died out."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּמֵּךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"D00899\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 5:11\">Targ. Koh. V, 11</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 3:13\">Targ. Job III, 13</cite>, some ed.—Y. Maas. Sh. IV, 55ᶜ top <he>וההוא גברא יתיב מְדַמַּךְ</he> (not <he>מדרך</he>) and this man (I, thou) dreamt that he was sitting and sleeping."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִידְּמִיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to feel the approach of death</i>. Y. Kil. IX, 32ᶜ bot.; Y. Keth. XII, 35ᵇ",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

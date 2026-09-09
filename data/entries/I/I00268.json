@@ -1,0 +1,23 @@
+{
+	"id": "I00268",
+	"slug": "טחינין",
+	"headword": {
+		"text": "טְחִינִין"
+	},
+	"page": {
+		"number": 528,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"I00267\">preced.</cite>) <i>grist, meal</i>, v. <cite ref=\"K01275\"><he>כַּרְשִׁינָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Demai 1:24\">Tosef. Dem. I, 24</cite>; <cite ref=\"Chullin 6a:14\">Ḥull. 6ᵃ</cite>; <cite ref=\"Jerusalem Talmud Demai 1:3:16\">Y. Dem. I, 22ᵃ</cite> <cite ref=\"O00470\"><he>סח׳</he></cite> (corr. acc.)"
+			]
+		}
+	]
+}

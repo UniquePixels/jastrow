@@ -1,0 +1,146 @@
+{
+	"id": "B00753",
+	"slug": "בית-2",
+	"headword": {
+		"text": "בַּיִת"
+	},
+	"page": {
+		"number": 167,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; cmp. <cite ref=\"B00752\">preced.</cite>; v. Ges. H. Dict. s. v. as to various etymological attempts), constr. <cite ref=\"B00754\"><he>בֵּית</he></cite>, pl. <he>בָּתִּים</he>. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>house, household, home</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 11b:1\">Yoma 11ᵇ</cite> <he>ב׳ מיוחד לדירה</he> <i>bayith</i> means a building intended for a dwelling. ",
+				"<cite ref=\"Yoma 11b:11\">Ib.</cite> <he>מי שמייחד ביתו לו</he> (Var. v. Rabb. D. S. a. l. note) he who devotes his house (its contents) to himself exclusively (unaccommodating); <cite ref=\"Arakhin 16a:36\">Arakh. 16ᵃ</cite> <he>מי שמיוחד וכ׳</he>.—<he>בעל הב׳</he> (abbrev. <he>בע״ה</he>) <i>owner, landlord; host; private man</i>, opp. to trader, artisan &c. ",
+				"<cite ref=\"Berakhot 46a:1\">Ber. 46ᵃ</cite> <he>בע״ה בוצע וכ׳</he> the host breaks the bread, and the guest says the blessing. ",
+				"<cite ref=\"Tosefta Berakhot 4:14\">Tosef. ib. IV, 14</cite> <he>של בע״ה</he> home-made (bread), opp. <cite ref=\"C00910\"><he>גלוסקין</he></cite>; Y. ib. VI, 10ᵇ bot.—",
+				"<cite ref=\"Mishnah Shabbat 1:1\">Sabb. I, 1</cite> <he>בע״ה</he> the donor, opp. <cite ref=\"P00970\"><he>עני</he></cite> the recipient. ",
+				"<cite ref=\"Bereishit Rabbah 22:7\">Gen. R. s. 22</cite>; a. v. fr.—בן ב׳ <i>inmate, attendant</i>. ",
+				"<cite ref=\"Pirkei Avot 1:5\">Ab. I, 5</cite>; a. fr.—<he>פסול הב׳</he> the degraded (slave) of the house. ",
+				"<cite ref=\"Bereishit Rabbah 70:13\">Gen. R. s. 70</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " Esp. (<cite ref=\"U01971\"><he>הַ</he></cite>)<he>בַּ׳</he> <i>the Temple</i>. <he>בפני הב׳</he> in days when the Temple exists, <he>שלא בפני הב׳</he> when it does not exist. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 5:1\">Ḥull. V, 1</cite>; a. fr.—<he>ב׳ שני</he> or <he>ב׳ אחרון</he> <i>the Second Temple</i>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 8:9:3\">Cant. R. to VIII, 9</cite>; a. fr.—<he>הר הב׳</he> Temple Mount, v. <cite ref=\"E00808\"><he>הַר</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>school, college</i>, (collect.) <i>disciples;</i> <he>בֵּית הלל</he> Hillelites &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 1:1\">Bets. I, 1</cite>; a. fr. ",
+				"<cite ref=\"Tractate Soferim 4:1\">Treat. Sof’rim IV, 1</cite> <he>של ב׳ וכ׳</he> those of the house of &c. [<cite ref=\"Jerusalem Talmud Sheviit 2:2:2\">Y. Shebi. II, 33ᵈ</cite> bot., a. e. <he>דבית … ר׳</he>, usu. <cite ref=\"D00056\"><he>דבי</he></cite>, v. <cite ref=\"B00536\"><he>בֵּי</he></cite>]."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>body</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 44b:10\">Ber. 44ᵇ</cite> <he>אוי לו לב׳ וכ׳</he> that human body (Rashi: stomach) is to be pitied where vegetables are a constant guest (being the only food)."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>wife</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 1:1\">Yoma I, 1</cite> <he>ביתו זו וכ׳</he> ‘his house’—that means his wife. ",
+				"<cite ref=\"Yoma 13a:6\">Ib. 13ᵃ</cite> <he>והך לאו ביתו היא</he> but this one (designated for him in case of his wife’s death) cannot be called ‘his house’. ",
+				"<cite ref=\"Shabbat 118b:7\">Sabb. 118ᵇ</cite>; a. fr."
+			],
+			"label": "5"
+		},
+		{
+			"gloss": " Euphem. <i>pudenda; marital intercourse</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 9:3:3\">Y. Sabb. IX, 12ᵃ</cite> top; <cite ref=\"Mishnah Mikvaot 8:4\">Mikv. VIII, 4</cite> <he>שמשה את בֵּיתָהּ</he> she had intercourse. ",
+				"<cite ref=\"Mishnah Mikvaot 8:4\">Ib.</cite> <he>כבדה את הב׳</he> she washed &c. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 1:2:1\">Y. Sot. I, 16ᶜ</cite> bot. <he>אסורה לביתה</he> is forbidden to her husband. ",
+				"<cite ref=\"Niddah 5a\">Nidd. 5ᵃ</cite> <he>מהומת לביתה</he> she hastens to perform her marital duty. Y. ib. I, beg. 48ᵈ. Cmp. <cite ref=\"H00214\"><he>חֶדֶר</he></cite>."
+			],
+			"label": "6"
+		},
+		{
+			"gloss": "<i>store-house, store-room</i>. <he>בֵּית העצים</he> wood-room; <he>ב׳ התבן</he> straw-magazine; <he>ב׳ הבקר</he> stable; &c. ",
+			"units": ["<cite ref=\"Yoma 11a:14\">Yoma 11ᵃ</cite>; a. fr."],
+			"label": "7"
+		},
+		{
+			"gloss": " (geogr.) <i>place, town</i>, in compounds (for which see the respective determinants), e.g. <he>ב׳ בוקיא</he> Beth-Bukya &c.",
+			"units": [],
+			"label": "8"
+		},
+		{
+			"gloss": " (anat.) <i>limb, organ</i>, in compounds (v. supra 8)), e.g. <he>ב׳ הבליעה</he> œsophagus, &c.",
+			"units": [],
+			"label": "9"
+		},
+		{
+			"gloss": "<i>shed</i> for plants, <i>covering</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 2:4\">Shebi. II, 4</cite> (pl.). Y. ib. 33ᵈ.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:20\">Y. Sabb. VII, 10ᵃ</cite>.—1"
+			],
+			"label": "10"
+		},
+		{
+			"gloss": "<i>receptacle, cover</i> &c., e.g. <he>ב׳ הדיו</he> <i>inkstand</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 4:11\">Tosef. Kel. B. Mets. IV, 11</cite>; <he>ב׳ יד</he> <i>sleeve</i>, v. <cite ref=\"A00776\"><he>אוּנְקְלַי</he> II</cite>, &c.—",
+				"<cite ref=\"Menachot 34b:4\">Men. 34ᵇ</cite>, a. e. <i>cases of the T’fillin</i>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בֵּית אָב"],
+			"senses": [
+				{
+					"gloss": ", pl. <he>בָּתֵּי אָבוֹת</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>paternal home, family</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 38a:2\">Snh. 38ᵃ</cite> <he>שני ב׳ א׳</he> two families (dynasties); a. fr.—",
+						"<cite ref=\"Tosefta Terumot 2:11\">Tosef. Ter. II, 11</cite> <he>בתי אבות</he> = <he>אריסי ב׳ א׳</he> <i>hereditary land-tenants;</i> <cite ref=\"Bava Batra 46b:3\">B. Bath. 46ᵇ</cite>"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>priest’s division</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Taanit 2:6\">Taan. II, 6</cite>; a. fr.; v. <cite ref=\"A02149\"><he>אֱנוֹשׁ</he></cite> pl."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>origin of a law, rule</i> &c.; cmp. <cite ref=\"A00014\"><he>אָב</he> II</cite>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 2:4:1\">Cant. R. to II, 4</cite> <he>ב׳ א׳ של הלכה</he> the origin (principle) of a legal rule. ",
+						"<cite ref=\"Midrash Tehillim 118:19\">Midr. Till. to Ps. CIV, 29</cite> wherever the root <he>רעש</he> is used, it means cessation of government, <he>ואיזהו ב׳ א׳ שלהם וכ׳</he> and where is the origin (determining the meaning) of all of them? (Answ. ",
+						"<cite ref=\"Jeremiah 51:29\">Jer. LI, 29</cite>). ",
+						"<cite ref=\"Vayikra Rabbah 1:10\">Lev. R. s. 1</cite>, beg. <he>מב׳ א׳ שלהן וכ׳</he> from the chief passage (<cite ref=\"Haggai 1:13\">Hag. I, 13</cite> ‘Haggai, the messenger’ &c.) we learn that prophets are called messengers (or angels).—<he>בֵּית דִּין</he> (abbr. <he>ב״ד</he>) <i>court</i>.—<he>ב״ד של שבעים ואחד</he> or <he>ב״ד הגדול</he> the Great Sanedrin of seventy one members. ",
+						"<cite ref=\"Mishnah Sanhedrin 1:5\">Snh. I, 5</cite>. Y. ib. 19ᵃ bot.; a. fr.—<he>ב״ד נוטה</he> court of an odd number of judges. <he>ב״ד שקול</he> of an even number of judges. ",
+						"<cite ref=\"Sanhedrin 3b:17\">Snh. 3ᵇ</cite>.—<he>ב״ד שריא</he> a permitting court, opprobrious name of a court too lax in religious affairs. Y. Gitt. VII, 48ᵈ top; Y. Nidd. III, 50ᵈ bot.—[For all other compounds not self-evident, v. respective determinants.] [<he>בית תר</he>, v. <cite ref=\"B00764\"><he>בִּיתֵּר</he></cite>.—",
+						"<cite ref=\"Bereishit Rabbah 12:10\">Gen. R. s. 12</cite> <he>בית שלו</he>, <he>בית של עולם</he>, v. <cite ref=\"B00537\"><he>בִּיָּא</he></cite>.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Chief compounds:."
+		}
+	]
+}

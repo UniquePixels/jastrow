@@ -1,0 +1,36 @@
+{
+	"id": "D00771",
+	"slug": "דכי-1",
+	"headword": {
+		"text": "דכי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּכָה"
+		}
+	],
+	"page": {
+		"number": 307,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"D00771\"><he>דִּכָּה</he></cite> (Aramaism, v. <cite ref=\"D00772\">next w.</cite>) <i>to declare clean</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 25a:49\">Nidd. 25ᵃ</cite> <he>לא דִכּוּ וכ׳</he> the scholars never declared clean &c."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

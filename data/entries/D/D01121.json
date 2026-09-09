@@ -1,0 +1,27 @@
+{
+	"id": "D01121",
+	"slug": "דרציני",
+	"headword": {
+		"text": "דַּרְצִינִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דּוּרְצִינִי"
+		}
+	],
+	"page": {
+		"number": 325,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (Pers. <i>dâr sini</i>, Lag. Ges. Abh. 35, Löw Pfl. p. 346) [<i>Chinese wood</i>,] <i>cinnamon</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 65a\">Sabb. 65ᵃ</cite> <he>דורציני</he> Ms. M. (ed. <cite ref=\"D01120\"><he>דרצונא</he></cite>, Ar. <he>דרצין</he>; v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

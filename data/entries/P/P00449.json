@@ -1,0 +1,24 @@
+{
+	"id": "P00449",
+	"slug": "עטיפה-1",
+	"headword": {
+		"text": "עֲטִיפָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1063,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עָטַף</he> I) <i>fainting, exhaustion</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 55:2\">Midr. Till. to Ps. CII, 1</cite> ed. Bub. (ref. to <he>עֲטֻפִים</he>, <cite ref=\"Genesis 30:42\">Gen. XXX, 42</cite>) <he>אותם שקנה בעֲטִיפת תפלה</he> those he obtained by exhaustion in prayer. ",
+				"<cite ref=\"Genesis 30:42\">Ib.</cite> <he>אין ע׳ אלא תפלה</he>, v. <cite ref=\"P00469\"><he>עָטַף</he> I</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "G00450",
+	"slug": "זכורו-1",
+	"headword": {
+		"text": "זְכוּרוּ"
+	},
+	"page": {
+		"number": 398,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00468\"><he>זָכָר</he></cite>; cmp. Lat. fascinum = <i>witchraft</i> a. <i>membrum virile</i>) <i>necromantic incantation</i> (by means of a membrum); <i>necromantic apparition</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 65b:9\">Snh. 65ᵇ</cite> <he>המעלה בז׳</he> he who conjures up the dead by means of &c.; <cite ref=\"Bereishit Rabbah 11\">Gen. R. s. 11</cite>; <cite ref=\"Jerusalem Talmud Sanhedrin 7:10:9\">Y. Snh. VII, 25ᶜ</cite>; <cite ref=\"Vayikra Rabbah 26\">Lev. R. s. 26</cite>.—Snh. l. c.; <cite ref=\"Yalkut Shimoni on Torah 918:3\">Yalk. Deut. 918</cite> (interpret. <he>מעונן</he>, <cite ref=\"Deuteronomy 18:11\">Deut. XVIII, 11</cite>, fr. <cite ref=\"P00291\"><he>עוּן</he></cite>) <he>המעביר שבעה מיני זָכוּר על העיו</he> (Ar. ed. Koh. <he>זמר זכורן</he>, cler. error) he who lets pass before one’s eyes seven sorts of apparitions; (Sifra K’dosh. Par. 3, ch. VI; <cite ref=\"Sifrei Devarim 171:8\">Sifré Deut. 171</cite> <he>מעביר על העין</he> only)."
+			]
+		}
+	]
+}

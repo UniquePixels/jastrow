@@ -1,0 +1,33 @@
+{
+	"id": "A02038",
+	"slug": "אמן-1",
+	"headword": {
+		"text": "אָמַן"
+	},
+	"page": {
+		"number": 77,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>אם</he> , v. <cite ref=\"A01961\"><he>אֵם</he></cite>; cmp. <cite ref=\"A01989\"><he>אַמָּה</he></cite>) <i>to arrange in lines, array</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 2:5\">Ukts. II, 5</cite> nuts <he>שאֲמָנָן</he> which one arranged (Var. Ar. <he>שחמרן</he> which one piled).—Denom. <cite ref=\"A00701\"><he>אוּמָן</he></cite> <i>expert, skilful</i>, whence"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִמֵּן", "אִימֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to make skilful, to train</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 103a:3\">Sabb. 103ᵃ</cite> <he>מְאַמֵּן את ידו</he> he trains his hand (practicing). V. <cite ref=\"A02039\">next w.</cite>"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

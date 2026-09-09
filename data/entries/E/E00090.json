@@ -1,0 +1,24 @@
+{
+	"id": "E00090",
+	"slug": "הגרלה",
+	"headword": {
+		"text": "הַגְרָלָה"
+	},
+	"page": {
+		"number": 332,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C01348\"><he>גרל</he></cite>) <i>casting lots</i>, esp. for the sacrifices of the Day of Atonement (<cite ref=\"Leviticus 16:8\">Lev. XVI, 8</cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 4:1:9\">Y. Yoma IV, 41ᶜ</cite> <he>ה׳ מעכבת</he> casting lots is indispensable for the legality of the entire act. Bab. ",
+				"<cite ref=\"Yoma 62b:20\">ib. 62ᵇ</cite>. ",
+				"<cite ref=\"Keritot 28a\">Kerith. 28ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"id": "G00649",
+	"slug": "זקף-1",
+	"headword": {
+		"text": "זָקַף"
+	},
+	"page": {
+		"number": 409,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to join, put together, put up, erect, restore</i> (to proper position). ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 2:6\">Bets. II, 6</cite> <he>אין זוֹקְפִין וכ׳</he> you must not set up (put together the links of) a lamp on a Holy Day (v. ",
+				"<cite ref=\"Beitzah 22a:6\">ib. 22ᵃ</cite>). ",
+				"<cite ref=\"Moed Katan 27a:4\">M. Kat. 27ᵃ</cite> <he>מאימתי זוֹקְפִין וכ׳</he> from what time on the eve of the Sabbath are the mourners’ couches put up again? <cite ref=\"Avodah Zarah 46a:16\">Ab. Zar. 46ᵃ</cite> <he>ז׳ לבינה וכ׳</he> if one put a brick up to worship it, v. <cite ref=\"G00636\"><he>זְקִיפָה</he></cite>; a. fr.—Part. pass. <cite ref=\"G00627\"><he>זָקוּף</he></cite>, f. <cite ref=\"G00629\"><he>זְקוּפָה</he></cite>. ",
+				"<cite ref=\"Mishnah Moed Katan 3:7\">M. Kat. III, 7</cite> <he>מטה ז׳</he> a put-up couch, opp. <he>מ׳ כפויה</he> an upset couch whereon mourners are seated; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"L00206\"><he>לָוָה</he></cite> a. Lat. nexus) <i>to establish a loan, to obligate, enjoin upon</i> (with <he>על</he>). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 72a:4\">B. Mets. 72ᵃ</cite> <he>וזְקָפָן עליו במלוה</he> and the creditor settles the interests on the debtor as a loan (the note stating the combined amount of principle and interest as principle). ",
+				"<cite ref=\"Gittin 18a:11\">Gitt. 18ᵃ</cite> <he>עד שתפגום ותִזְקוֹף</he> until she accepts partial payment (of her widowhood) and settles the balance as a loan (by taking a note &c.). ",
+				"<cite ref=\"Gittin 18a:11\">Ib.</cite> <he>זָקְפָה ולא פגמה</he> if she allows her widowhood to be entered as a loan without taking a partial payment. ",
+				"<cite ref=\"Gittin 18a:12\">Ib.</cite> <he>אונס … שזְקָפָן במלוה</he> indemnity for outrage, fines … which were settled in the way of a loan; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (neut. verb) <i>to stand upright, to be restored again</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 59b:3\">B. Mets. 59ᵇ</cite> <he>לא נפלו … ולא זָקְפוּ</he> the bent walls did not fall, nor did they assume their straight position. ",
+				"<cite ref=\"Berakhot 11a:15\">Ber. 11ᵃ</cite> <he>וז׳ ר׳ ישמ׳</he> R. Y. remained upright, opp. <cite ref=\"N00555\"><he>הִטָּה</he></cite>. ",
+				"<cite ref=\"Berakhot 11a:15\">Ib.</cite> <he>כשאני … אתה זָקַפְתָּ</he> when I bowed, thou didst remain upright. Y. ib. IV, beg. 7ᵃ <he>זוֹקֵף</he> he erects himself (from his bowed position).—Part. pass. <cite ref=\"G00627\"><he>זָקוּף</he></cite>, f. <cite ref=\"G00629\"><he>זְקוּפָה</he></cite> <i>upright, erect</i>. Ber. l. c.—<he>קומה זקופה</he> erect stature, <i>proud carriage</i>. Ib. 43ᵇ; a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִזְקַף"],
+			"senses": [
+				{
+					"gloss": "<i>to be put up, to erect one’s self</i>. Tosef. ib. I, 6; <cite ref=\"Sifrei Devarim 34\">Sifré Deut. 34</cite>; a. e.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be converted into a loan</i>. Gitt. l. c. <he>מאימתי נִזְקָפִים במלוה</he> from what time are fines &c. considered as converted loans (so as to be subject to limitation)?",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

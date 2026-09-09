@@ -1,0 +1,24 @@
+{
+	"id": "G00557",
+	"slug": "זמתני",
+	"headword": {
+		"text": "זִמְתָּנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִימְתָנֵי"
+		}
+	],
+	"page": {
+		"number": 405,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " nom. gent. pl. (denom. of <he>זמתא</he> = <cite ref=\"G00506\"><he>זִמָּה</he></cite>) <i>Zimthané</i> (schemers). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 2:20\">Targ. Y. Deut. II, 20</cite> (Targ. O. <he>חשבני</he>; h. text <he>זמזמים</he>)."
+			]
+		}
+	]
+}

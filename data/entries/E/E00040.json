@@ -1,0 +1,31 @@
+{
+	"id": "E00040",
+	"slug": "הבל-1",
+	"headword": {
+		"text": "הָבַל"
+	},
+	"page": {
+		"number": 329,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>הֶהֱבִיל</he> (cmp. <cite ref=\"E00027\"><he>הבב</he></cite>) <i>to be affected by hot air, begin to steam</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 1:6\">Sabb. I, 6</cite> (<cite ref=\"Shabbat 17b\">17ᵇ</cite>) long enough before the Sabbath <he>כדי שיַהֲבִילוּ</he> for the flax stalks to begin &c."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,173 @@
+{
+	"id": "O00085",
+	"slug": "סבר-2",
+	"headword": {
+		"text": "סְבַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְבֵיר",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 951,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00084\">same</cite> (with <he>אַפִּין</he>) <i>to show a bright face, be pleasant; to favor</i> (with <cite ref=\"B00000\"><he>ב</he></cite> or <cite ref=\"L00000\"><he>ל</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 4:4\">Targ. Y. Gen. IV, 4</cite>, sq. ",
+				"<cite ref=\"Aramaic Targum to Job 32:22\">Targ. Job XXXII, 22</cite> <he>יִסְבַּר</he> Ms. (ed. <he>יְסוֹבַר</he> <i>Poël</i>; some ed. <he>יְסַבַּר</he> <i>Pa.</i>).—<i>Part. pass.</i> <cite ref=\"O00085\"><he>סָבִיר</he></cite>; <he>סְבִיר אפין</he> <i>looked up to with favor, honored, popular</i>. Ib. XXII, 8."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be bright, intelligent</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 19:32\">Targ. O. Lev. XIX, 32</cite> <cite ref=\"O00084\"><he>סָבַר</he></cite> (Y. ",
+				"<cite ref=\"Onkelos Leviticus 19:32\">ib.</cite> <he>סְבִירִין</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to look out for, hope; to speculate, plan; to imagine, believe</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 12:7\">Targ. Hos. XII, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 27:14\">Targ. Ps. XXVII, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 10:11\">Targ. Y. Ex. X, 11</cite> <he>סַבְרִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 14:12\">Targ. Prov. XIV, 12</cite>; a. fr.—<i>Part. pass.</i> <cite ref=\"O00085\"><he>סָבִיר</he></cite>, <cite ref=\"O00085\"><he>סְבִיר</he></cite> <i>looking for, planning, thinking, believing</i>. ",
+				"<cite ref=\"Onkelos Exodus 10:10\">Targ. O. Ex. X, 10</cite>. ",
+				"<cite ref=\"Onkelos Genesis 37:8\">Targ. O. Gen. XXXVII, 8</cite>; a. fr.—Y. Ber. III, 6ᶜ top <he>תמן סְבִירְתֵּיה</he> there I thought about it, v. <cite ref=\"O00091\"><he>סְבָר</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to conclude, argue, understand; to have an idea</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 12:19\">Targ. II Sam. XII, 19</cite>; a. e.—",
+				"<cite ref=\"Bava Batra 65a\">B. Bath. 65ᵃ</cite>, a. fr. <he>סָבוּר מינה וכ׳</he> they concluded from this that …, but it is not so. ",
+				"<cite ref=\"Gittin 56a:4\">Gitt. 56ᵃ</cite> <he>סבור רבנן לקרוביה</he> the scholars proposed to offer it up on the altar. ",
+				"<cite ref=\"Ketubot 87b:12\">Keth. 87ᵇ</cite>, a. fr. <he>ס׳ … למימר וכ׳</he> R … had an idea to say &c. (but was refuted). ",
+				"<cite ref=\"Berakhot 3a\">Ber. 3ᵃ</cite>, a. fr. <he>מאי קס׳ וכ׳</he> what is R. E.’s opinion? <he>אי קס׳ שלש וכ׳</he> if he holds that the night contains three watches &c. ",
+				"<cite ref=\"Berakhot 4b:10\">Ib. 4ᵇ</cite> <he>ר׳ יוחנן ס׳ וכ׳</he> R. J. argues (thus) &c. ",
+				"<cite ref=\"Berakhot 27a:4\">Ib. 27ᵃ</cite> <he>מי סַבְרַת דהאי וכ׳</he> do you think that &c.?—",
+				"<cite ref=\"Yevamot 72b:7\">Yeb. 72ᵇ</cite> <he>תנייה … וסַבְרָהּ וכ׳</he> he learned it by heart in three days, and reasoned it out (drew the logical conclusions from it) in three months. ",
+				"<cite ref=\"Shabbat 63a:15\">Sabb. 63ᵃ</cite> <he>לִיסְבַּר</he>, v. <cite ref=\"C01064\"><he>גְּמַר</he> II</cite>. ",
+				"<cite ref=\"Ketubot 77a:4\">Keth. 77ᵃ</cite> <he>דקסַבְרָא וקבילא</he> for she understood well (her husband’s physical condition) and accepted it; <cite ref=\"Ketubot 77a:4\">ib.</cite> <he>הא סְבִירָא וקבילא</he> did she not understand and accept? <cite ref=\"Bava Metzia 65a:6\">B. Mets. 65ᵃ</cite> <he>סַבְרַת וקבילת</he> thou didst understand and accept; a. fr.—<he>ס׳ כ</he> to think like, <i>to agree with, adopt the opinion of</i>. ",
+				"<cite ref=\"Sukkah 33b:14\">Succ. 33ᵇ</cite> <he>ס׳ לה כותיה בחדא ופליג וכ׳</he> he agrees with him in one point, and differs in another point; a. fr.—סְבִירָא ל <i>is of the opinion, shares the opinion</i>. ",
+				"<cite ref=\"Sukkah 33a:12\">Ib. 33ᵃ</cite> <he>אי ס׳ לן וכ׳</he> if we accept the opinion that &c. ",
+				"<cite ref=\"Chullin 48a:15\">Ḥull. 48ᵃ</cite> <he>וליה לא ס׳ ליה</he> (abbr. <he>ל״ס</he>) but he himself does not entertain that opinion; a. fr.—Tanḥ.P’kudé 2 <he>סַבְרֵי מרנן</he> have the gentlemen formed an opinion?, i.e. how do you vote?—",
+				"<cite ref=\"Chullin 48a:15\">Ib.</cite> (introducing the benediction over wine) <he>סברי מרנן</he> have you agreed (to allow me to say the prayer)?, i.e. with your permission!—",
+				"<cite ref=\"Bava Kamma 32a:12\">B. Kam. 32ᵃ</cite> <he>ותִסְבְּרָא</he> how can you understand that?, i.e. is this not a contradiction?—",
+				"<cite ref=\"Bereishit Rabbah 34:15\">Gen. R. s. 34</cite>; s. 38 <he>הוה מַסְבַּר ליה ולא ס׳</he> he explained to him, but he could not comprehend; <he>מאי טעמא לית את סבר</he> why is it that you do not comprehend?"
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַבֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to look for, hope, trust</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 49:18\">Targ. O. Gen. XLIX, 18</cite> <he>סַבָּרִית</he> (ed. Berl. <he>סָבַרִית</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " with <he>אַפִּין</he>) <i>to favor</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 32:22\">Targ. Job XXXII, 22</cite>, v. supra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַסְבַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to trust</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 11:28\">Targ. Prov. XI, 28</cite> <he>מַסְבִּיר</he> Ed. Lag. (oth. ed. <he>מְסַבַּר</he> <i>Pa.</i>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make confident</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 22:10\">Targ. Ps. XXII, 10</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (with <he>אַפִּין</he>) <i>to be kind to, cheer up</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 6:26\">Targ. Y. Num. VI, 26</cite> <he>יַסְבַּר סְבַר אפוי</he>. ",
+						"<cite ref=\"Targum of I Chronicles 2:55\">Targ. I Chr. II, 55</cite>."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to illustrate, explain</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 48a:3\">Ḥull. 48ᵃ</cite> <he>רבין</he> … <he>אַסְבְּרָהּ לי</he> Rabin … made it clear to me. ",
+						"<cite ref=\"Bava Metzia 33a:13\">B. Mets. 33ᵃ</cite> <he>דאַסְבְּרָן זוהמא וכ׳</he> who explained to us what <i>zomalistron</i> meant. ",
+						"<cite ref=\"Eruvin 21b:22\">Erub. 21ᵇ</cite> <he>ואַסְבְּרָהּ במאי דדמי ליה</he> and illustrated it by a simile. Y. ib. X, beg. 26ᵃ <he>אַסְבְּרִי רב וכ׳</he> R. H. enlightened me (saying) &c. Gen. R. l. c., v. supra; a. fr."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִסְתַּבַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to look for, hope; to plan, intend</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 106:13\">Targ. Ps. CVI, 13</cite>.—",
+						"<cite ref=\"Targum Jerusalem, Genesis 49:17\">Targ. Y. II, Gen. XLIX, 17</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be understood, be intelligible, evident</i>; to be <i>rational, logical</i>. ",
+					"units": [
+						"<cite ref=\"Rosh Hashanah 31b\">R. Hash. 31ᵇ</cite> sq. <he>אמר מלתא וא׳ טעמיה וכ׳</he> he said something, and his argument appeared reasonable, and his teacher instituted the usage in his (R. Joḥanan’s) name. Y. Ab. Zar. I, 40ᵃ <he>לא מִסְתַּבְּרָא כאהין סוברה וכ׳</he> it is not reasonable to follow this opinion that it is not forbidden. ",
+						"<cite ref=\"Berakhot 36a:15\">Ber. 36ᵃ</cite> <he>כותך מסתברא</he> it is reasonable to follow thy opinion, i.e. thou art obviously right. ",
+						"<cite ref=\"Shabbat 76a:3\">Sabb. 76ᵃ</cite> <he>אדרבא כדמעיקרא מס׳</he> on the contrary, that which he first said stands to reason; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["סוֹבַר"],
+			"senses": [
+				{
+					"gloss": ", v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Poël."
+		},
+		{
+			"forms": ["אִסְתּוֹבַר"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"R00702\"><he>צָפַן</he></cite>) <i>provide one’s self; to store up for one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 39:9\">Targ. Ez. XXXIX, 9</cite>.  v. <cite ref=\"I00589\"><he>טִסְבְּרָא</he></cite>, <cite ref=\"V00758\"><he>תִּסְבְּרָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpoël."
+		}
+	]
+}

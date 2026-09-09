@@ -1,0 +1,29 @@
+{
+	"id": "V00371",
+	"slug": "תחלוסיא",
+	"headword": {
+		"text": "תַּחְלוּסַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּחְלוּסִין"
+		}
+	],
+	"page": {
+		"number": 1661,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Pales of <cite ref=\"H01073\"><he>חלל</he></cite>, v. <cite ref=\"U00667\"><he>שִׁחְלַיִים</he></cite>) = <cite ref=\"V00372\">next w.</cite>, <i>cress</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:16\">Y. Taan. IV, 69ᵃ</cite> bot.; <cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 2</cite>, v. <cite ref=\"U00667\"><he>שִׁחְלַיִים</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:10\">Y. Ab. Zar. II, 40ᵈ</cite>; Y. Sabb. XIX, 14ᵈ <he>מישחוק ת׳ בשובתא וכ׳</he> allowed to grind cress on the Sabbath and put it in old wine (a remedy for colic, v. <cite ref=\"S00331\"><he>קוֹלוֹס</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "C00556",
+	"slug": "גזירתא",
+	"headword": {
+		"text": "גְּזֵירְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּזֵרְתָא"
+		}
+	],
+	"page": {
+		"number": 230,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (<he>גזר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>circumcision, foreskin</i>, v. <cite ref=\"C00536\"><he>גְּזוּרְתָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 4:25\">Targ. Y. II, Ex. IV, 25</cite> sq. (some ed. <cite ref=\"C00552\"><he>גְּזֵירָ׳</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= h. <cite ref=\"C00581\"><he>גְּזֵרָה</he></cite>) <i>decree, edict, ordinance</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 5:14\">Targ. Ex. V, 14</cite> <he>גְּזֵירַתְכוֹן</he> your decreed task. ",
+				"<cite ref=\"Targum Jonathan on I Kings 10:25\">Targ. I Kings X, 25</cite> <he>גְּזֵירַת וכ׳</he> the decreed (tax) of every year. ",
+				"<cite ref=\"Onkelos Exodus 1:8\">Targ. O. Ex. I, 8</cite>; a. fr.—",
+				"<cite ref=\"Gittin 55b:14\">Gitt. 55ᵇ</cite> <he>ג׳ קמייתא</he> the first (Roman) decree (after the capture of Jerusalem). ",
+				"<cite ref=\"Avodah Zarah 35a:9\">Ab. Zar. 35ᵃ</cite> <he>כי גזרי ג׳ וכ׳</he> when they published a (religious) enactment in Palestine.—Pl. <cite ref=\"C00556\"><he>גְּזֵירָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 14:5\">Targ. Job XIV, 5</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

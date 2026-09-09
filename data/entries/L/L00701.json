@@ -1,0 +1,43 @@
+{
+	"id": "L00701",
+	"slug": "לקש-2",
+	"headword": {
+		"text": "לְקַשׁ"
+	},
+	"page": {
+		"number": 719,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"L00700\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"L00694\"><he>לַקֵּישׁ</he></cite> <i>to be late, tired</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 30:42\">Targ. Y. Gen. XXX, 42</cite> <cite ref=\"L00671\"><he>לַקּוּשֵׁי</he></cite> (infin., not <he>לִ׳</he>), v. <cite ref=\"L00695\"><he>לַקִּישׁוּתָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַלְקֵשׁ"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"L00700\">preced.</cite> <i>Hif.</i> 2. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 855:4\">Yalk. Ps. 855</cite> (ref. to <he>יעטף</he>, v. <cite ref=\"L00700\">preced.</cite>) <he>דהוא אתי ומַלְקֵשׁ לה</he> for he (the poor man) comes (to prayer late) and goes through it in a state of exhaustion."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

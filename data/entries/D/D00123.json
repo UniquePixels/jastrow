@@ -1,0 +1,26 @@
+{
+	"id": "D00123",
+	"slug": "דד-2",
+	"headword": {
+		"text": "דַּד"
+	},
+	"page": {
+		"number": 280,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.; = <he>דודו</he>, v. <he>דוה</he>; cmp. <cite ref=\"D00151\"><he>דְּהֵין</he></cite>) <i>breast, nipple, teat</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 144b\">Sabb. 144ᵇ</cite>. ",
+				"<cite ref=\"Sifrei Bamidbar 89\">Sifré Num. 89</cite>; <cite ref=\"Tosefta Sotah 4:3\">Tosef. Sot. IV, 3</cite> (ed. Zuck. <he>שד</he>); a. e.—Trnsf. <i>spigot</i>. ",
+				"<cite ref=\"Mishnah Yoma 3:10\">Yoma III, 10</cite>.—Pl. <he>דַּדִּים</he>. ",
+				"<cite ref=\"Berakhot 10a:16\">Ber. 10ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 2:4:9\">Y. Yeb. II, 3ᵈ</cite>; a. fr."
+			]
+		}
+	]
+}

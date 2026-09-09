@@ -1,0 +1,24 @@
+{
+	"id": "M00610",
+	"slug": "מוראה-2",
+	"headword": {
+		"text": "מוּרְאָה"
+	},
+	"page": {
+		"number": 749,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.  <cite ref=\"M02486\"><he>מֻרְאָה</he></cite>; v. <cite ref=\"M02481\"><he>מָרָא</he></cite> <i>Hif.</i>) <i>crop</i> of birds. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 6:5\">Zeb. VI, 5</cite>, sq. ",
+				"<cite ref=\"Yoma 21a:6\">Yoma 21ᵃ</cite>; a. e.—Pl. <he>מוּרְאוֹת</he>. ",
+				"<cite ref=\"Mishnah Tamid 1:4\">Tam. I, 4</cite>; Sifra Vayikra, N’dab., Par. 7, ch. IX."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "O00523",
+	"slug": "סיב-1",
+	"headword": {
+		"text": "סִיב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 974,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O00005\"><he>סְאֵב</he> II</cite>) <i>gray, old; elder, scholar</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 25:8\">Targ. Gen. XXV, 8</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:2:8\">Y. Sabb. VI, 8ᵃ</cite> bot. <he>פוק חמי חד ס׳ וכ׳</he> go and look out for a scholar (observe his practice) and rely on him; <cite ref=\"Jerusalem Talmud Yevamot 12:2:5\">Y. Yeb. XII, 12ᵈ</cite> top <he>סב</he>; a. fr.—Pl. <he>סִיבֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 20:29\">Targ. Prov. XX, 29</cite> (some ed. <cite ref=\"O00029\"><he>סָבֵי</he></cite>)."
+			]
+		}
+	]
+}

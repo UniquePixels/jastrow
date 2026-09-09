@@ -1,0 +1,42 @@
+{
+	"id": "U00989",
+	"slug": "שיע-2",
+	"headword": {
+		"text": "שְׁיַע"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁיָעָא"
+		},
+		{
+			"text": "שִׁיעַ"
+		},
+		{
+			"text": "שִׁיעָא"
+		},
+		{
+			"text": "שְׁיַיע"
+		},
+		{
+			"text": "שְׁיָיעָא"
+		}
+	],
+	"page": {
+		"number": 1565,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00988\">preced.</cite>) <i>plaster, cement, sealing clay</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 19:15\">Targ. O. Num. XIX, 15</cite> <he>מגופת שְׁ׳</he> ed. Berl. (oth. ed. <cite ref=\"U00609\"><he>שִׁ׳</he></cite>, ed. Vien. <cite ref=\"U01474\"><he>שְׁיִיעַ</he></cite>; h. text <he>צמיד פתיל</he>); Targ. Y. ib. 9 <he>שייע</he>. ",
+				"<cite ref=\"Onkelos Genesis 11:3\">Targ. Gen. XI, 3</cite> (h. text <he>חמר</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 13:12\">Targ. Ez. XIII, 12</cite> (h. text <cite ref=\"I00325\"><he>טיח</he></cite>); a. fr.—",
+				"<cite ref=\"Shabbat 66b:14\">Sabb. 66ᵇ</cite> <he>ש׳ דדנא</he> (Ms. M. <cite ref=\"U00997\"><he>שִׁיעֲתָא</he></cite>) the sealing clay of a wine vessel."
+			]
+		}
+	]
+}

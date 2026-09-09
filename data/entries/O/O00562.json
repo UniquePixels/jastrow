@@ -1,0 +1,23 @@
+{
+	"id": "O00562",
+	"slug": "סיגמטין",
+	"headword": {
+		"text": "סִיגְמָטִין"
+	},
+	"page": {
+		"number": 975,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (sigma, <i>pl.</i> sigmata) <i>semicircular couches for reclining at meals</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 1\">Num. R. s. 1</cite>, beg. (homiletic play on <he>ויסב</he>, <cite ref=\"Exodus 13:18\">Ex. XIII, 18</cite>, v. <cite ref=\"O00030\"><he>סָבַב</he></cite>) <he>הרבצתי אתכם בס׳</he> I caused you to recline on <i>sigmata</i> (like noblemen); Tanḥ. B’midb. 2 Var. <cite ref=\"O00162\"><he>סיג׳</he></cite> (some ed. <he>סוג׳</he>), v. <cite ref=\"O00080\"><he>סְבַסְטִין</he></cite>.—Y’lamd. to Num. I, quot. in Ar. <he>כותב ע״ג סגמוס כמה מיסא</he> (read: … <he>סִיגְמָא … מיסון</he>) writes on the <i>sigma</i> the number of courses."
+			]
+		}
+	]
+}

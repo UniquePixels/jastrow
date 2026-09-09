@@ -1,0 +1,24 @@
+{
+	"id": "C01344",
+	"slug": "גריצה",
+	"headword": {
+		"text": "גְּרִיצָה"
+	},
+	"page": {
+		"number": 268,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גרץ</he> <i>to cut</i>, cmp. <cite ref=\"C01373\"><he>גרס</he></cite>) <i>slice</i>. Pl. <cite ref=\"C01333\"><he>גְּרִיצוֹת</he></cite> <i>bread or cake formed of slices twisted together</i> or <i>layers above one another, twists</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 2:6\">Bets. II, 6</cite> (<cite ref=\"Beitzah 21b:15\">21ᵇ</cite>) <he>אין אופין פִּתָּן ג׳</he> Ms. M. a. ed. Y. (ed. <he>פִּתִּין גְּרִיצִין</he>, Ar. <he>פתן גריצין</he>) they must not (on Holy Days) bake their bread in the form of twists; Y. ib. 61ᶜ bot.—",
+				"<cite ref=\"Tosefta Avodah Zarah 7:4\">Tosef. Ab. Zar. VII</cite> (<cite ref=\"Tosefta Avodah Zarah 8:2\">VIII</cite>), 2 <he>מוליכין עמו ג׳ לתנור</he> you may carry your cakes, to be baked with his, to the confectioner’s oven.—",
+				"<cite ref=\"Sanhedrin 100b\">Snh. 100ᵇ</cite>, v. <cite ref=\"C01345\">next w.</cite>"
+			]
+		}
+	]
+}

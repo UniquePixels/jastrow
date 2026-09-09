@@ -1,0 +1,27 @@
+{
+	"id": "C00057",
+	"slug": "גבולאה",
+	"headword": {
+		"text": "גְּבוּלָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּבוּלָיָיא"
+		}
+	],
+	"page": {
+		"number": 205,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C00056\">preced.</cite>) <i>of G’bul</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 1:4\">Koh. R. to I, 4</cite> <he>ר׳ יעקב ג׳</he> (ed. Wil. <he>גְּבוּלָאִי</he> h. form); <cite ref=\"Jerusalem Talmud Challah 3:1:2\">Y. Ḥall. III, 59ᵃ</cite> <he>ר׳ י׳ גבולייא</he>; Y. Kidd. IV, 66ᵃ top; <cite ref=\"Jerusalem Talmud Yevamot 8:2:6\">Y. Yeb. VIII, 9ᵇ</cite> <cite ref=\"C00111\"><he>גַּבְלָיָא</he></cite> of Gabla."
+			]
+		}
+	]
+}

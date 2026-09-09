@@ -1,0 +1,54 @@
+{
+	"id": "J00024",
+	"slug": "יאש-2",
+	"headword": {
+		"text": "יְאַשׁ"
+	},
+	"page": {
+		"number": 560,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"J00023\"><he>יָאֵשׁ</he></cite> ch. same, <i>to relax</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 2:20\">Targ. Koh. II, 20</cite> <he>ליָאָשָׁא ית לבי על וכ׳</he> to relax my mind concerning (to give up thinking of) the trouble &c."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְיָאֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to become careless</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 29:18\">Targ. Y. Deut. XXIX, 18</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " contr. <he>אִיָּיאֵשׁ</he>, <he>אִיָּאֵשׁ</he>, <i>Ithpe.</i> (<he>אִיאוֹשׁ</he>) <he>אִיאֵשׁ</he> <i>to resign possession, give up</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 68b:2\">B. Kam. 68ᵇ</cite> <he>ודילמא לא איי׳</he> but may it not be that he has not resigned? <cite ref=\"Bava Kamma 68b\">Ib.</cite> <he>שמעיניה דאיאוש</he> they heard him say that he gave it up; <cite ref=\"Bava Metzia 21b:2\">B. Mets. 21ᵇ</cite> <he>דמֵיאַשׁ</he> (Ms. F. <he>דאיאש</he>). ",
+						"<cite ref=\"Bava Metzia 21b:12\">Ib.</cite> <he>מִיָּאֲשֵׁי</he> (Ms. F. a. R. <he>מִיָּי׳</he>) they give it up. ",
+						"<cite ref=\"Bava Metzia 21b:12\">Ib.</cite> <he>אִיאוּשֵׁי מֵיאוּשׁ</he> (better: <he>יָאוּשֵׁי מִיָּיאֲשֵׁי</he>, v. Rabb. D. S. a. l. note 8). ",
+						"<cite ref=\"Bava Metzia 22a\">Ib. 22ᵃ</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

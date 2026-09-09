@@ -1,0 +1,30 @@
+{
+	"id": "Q01723",
+	"slug": "פרופוסיטוס",
+	"headword": {
+		"text": "פְּרוֹפּוֹסִיטוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּרוֹפְסִ׳"
+		}
+	],
+	"page": {
+		"number": 1221,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (præpositus, πραιπόσιτος) <i>præpositus</i>, a title of several imperial officers, esp. (= magister militum) <i>chief of the army</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 1\">Num. R. s. 1</cite>, end <he>אומר פ׳ לך מנה וכ׳</he> (not <he>סוטוט …</he>) he says to the præpositus, go and count all legions except &c. ",
+				"<cite ref=\"Shemot Rabbah 15:17\">Ex. R. s. 15</cite> <he>נכנס פרוסביטוס וכ׳</he> (corr. acc.) the præpositus with his suite went in &c. ",
+				"<cite ref=\"Shemot Rabbah 15:1\">Ib.</cite> <he>הפרופסיטון</he> (corr. acc.).—Pl. <cite ref=\"Q01822\"><he>פְּרוֹפּוֹסִיטִין</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 7\">Num. R. s. 7</cite> <he>בו״ד יש לו פריפיסיטין וכ׳</he> (read: <he>פְּרִיפּוֹ׳</he>) a human king has præpositi (to muster the army), and so the Lord has (ref. to <cite ref=\"Numbers 1:2\">Num. I, 2</cite>). Y’lamd. to Num. X, 1, quot. in Ar. <he>והיו הפ׳ באין תחלה וכ׳</he> the præpositi came first (to the headquarters), and then the legions."
+			]
+		}
+	]
+}

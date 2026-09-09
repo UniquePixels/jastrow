@@ -1,0 +1,23 @@
+{
+	"id": "O01568",
+	"slug": "סרותא",
+	"headword": {
+		"text": "סְרוּתָא"
+	},
+	"page": {
+		"number": 1024,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סְרֵי</he> II) <i>stench</i>, <i>decay</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 4:10\">Targ. Am. IV, 10</cite> <he>סְרוּת</he> constr. (ed. Wil. <cite ref=\"O01553\"><he>סְרוּחַ</he></cite>; ed. Lag. <cite ref=\"O00838\"><he>סִירְוַות</he></cite>, cmp. <cite ref=\"O00834\"><he>סִירְוָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 11:20\">Targ. Y. Num. XI, 20</cite> <cite ref=\"O01611\"><he>סַרְיוּתָא</he></cite>."
+			]
+		}
+	]
+}

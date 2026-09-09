@@ -1,0 +1,30 @@
+{
+	"id": "A00282",
+	"slug": "אגורי-2",
+	"headword": {
+		"text": "אֵגוֹרִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵיגוֹרִי"
+		}
+	],
+	"page": {
+		"number": 12,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A00277\"><he>אֵגוֹר</he></cite>, <cite ref=\"A00280\"><he>אֲגוֹרָה</he></cite>) <i>fit for storage, of good quality</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 17:8\">Kel. XVII, 8</cite> the olive (as a size standard) … neither large nor small, but of medium size, <he>זה א׳</he> which is the kind called <i>egori</i>. ",
+				"<cite ref=\"Berakhot 39a:3\">Ber. 39ᵃ</cite>; <cite ref=\"Jerusalem Talmud Bikkurim 1:3:3\">Y. Bicc. I, 63ᵈ</cite> (etymol. explan.); v. <cite ref=\"A00215\"><he>אִבְרוֹסִי</he></cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 851:1\">Yalk. Deut. 851</cite> <he>זית א׳</he>. ",
+				"<cite ref=\"Bereishit Rabbah 91:11\">Gen. R. s. 91</cite>, end <he>מור אי׳</he> myrrh fit for storage.—Pl. <cite ref=\"A00282\"><he>אֵגוֹרִין</he></cite> <cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4</cite> beg. <he>חטים אגודיהן</he>, read <he>אֵגוֹרִין הם</he> are all storage wheat (opp. <cite ref=\"I00396\"><he>טינופת</he></cite>). Cmp. <cite ref=\"A00344\"><he>אגרו</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "A00165",
+	"slug": "אבלושי",
+	"headword": {
+		"text": "אַבְלוֹשֵׁי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 7,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>בלש</he> 2); cmp. <cite ref=\"Q01128\"><he>פלש</he></cite>, a. b. h. <cite ref=\"Q01099\"><he>פלס</he></cite>) <i>those who cut through</i> (cmp. <he>בקע</he> a. deriv.), whence <i>ground-diggers</i>. (Maim.). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 77a\">B. Mets. 77ᵃ</cite> <he>א׳ דמחוזא</he> Ar. Var. (ed. a. Ar. <he>אכ׳</he> q. v.; Ms. M. <he>אוכלסי</he>, Ms. R. <he>אכלוזי</he>) the ground-diggers (working men) of M."
+			]
+		}
+	]
+}

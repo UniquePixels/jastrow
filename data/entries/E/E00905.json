@@ -1,0 +1,24 @@
+{
+	"id": "E00905",
+	"slug": "הרשאה",
+	"headword": {
+		"text": "הַרְשָׁאָה"
+	},
+	"page": {
+		"number": 369,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T01071\"><he>רָשָׁה</he></cite>, <i>Hif.</i>) <i>authorization, authority, power of attorney</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 95a:2\">Keth. 95ᵃ</cite> <he>נכתבו ה׳ להדדי</he> let the two purchasers of the same property write out a power of attorney to one another (to sue the seller). ",
+				"<cite ref=\"Shevuot 31a:13\">Shebu. 31ᵃ</cite> <he>הבא בה׳</he> he who comes before court with a power of attorney (not in his own case). ",
+				"<cite ref=\"Bekhorot 47b:10\">Bekh. 47ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "M02430",
+	"slug": "מקם",
+	"headword": {
+		"text": "מְקָם"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְקָמָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 831,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00374\"><he>קוּם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = h. <cite ref=\"M02143\"><he>מַעֲמַד</he></cite>, <i>standing, attendance, office</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 10:5\">Targ. I Kings X, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 22:19\">Targ. Is. XXII, 19</cite> ed. Lag. (ed. <cite ref=\"M02396\"><he>מְקוּמָ׳</he></cite>, <he>מְקוֹמָ׳</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>that which is placed before the guest, portion, plate</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 2:2\">Esth. R. to I, 4</cite>, v. <cite ref=\"S01053\"><he>קִינָרָס</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

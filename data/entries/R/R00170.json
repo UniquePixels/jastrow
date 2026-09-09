@@ -1,0 +1,55 @@
+{
+	"id": "R00170",
+	"slug": "צווח",
+	"headword": {
+		"text": "צָוַוח"
+	},
+	"altHeadwords": [
+		{
+			"text": "צָוַח"
+		}
+	],
+	"page": {
+		"number": 1266,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"R00185\"><he>צָוַח</he></cite>)<i>to cry, shout; to complain</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 14b:9\">Keth. 14ᵇ</cite> <he>ממזר וצוֹוֵחַ</he> one that is called a bastard and brings complaint, opp. <he>שותק</he>. ",
+				"<cite ref=\"Bava Metzia 24b:7\">B. Mets. 24ᵇ</cite> <he>והלא עומד וצווֵֹחַ</he> but does he (the loser) not stand up and cry (which shows that he has not given up the hope of recovery)? <he>נעשה כצווח על וכ׳</he> it is like one crying over his house that has fallen in &c. ",
+				"<cite ref=\"Bava Batra 138a:7\">B. Bath. 138ᵃ</cite> <he>בצָ׳ מעיקרא</he> (or <he>בצוֵֹחַ</he>), <he>בצָ׳ מעיקרו</he> when he cried out (refused the gift) at the start (when it was offered to him). ",
+				"<cite ref=\"Sotah 42b:1\">Sot. 42ᵇ</cite> <he>צוְֹחִין וכ׳</he> (better <cite ref=\"R00152\"><he>צווְֹ׳</he></cite>) they (the gentile soldiers) shout (before they attack) and stamp; <cite ref=\"Sifrei Devarim 192:3\">Sifré Deut. 192</cite> <he>צווְֹחִים</he>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צִוֵּוחַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"R00169\">same</cite>. Y. M. Kat. III, 82ᵈ top (ref. to <cite ref=\"D00867\"><he>דֹּם</he></cite>, <cite ref=\"Ezekiel 24:17\">Ez. XXIV, 17</cite>) <he>מכן שצריך לְצַוֵּוחַ</he> (or <he>לִצְו̇</he> <i>Kal</i>) from here we learn that ordinarily a mourner must cry out (lament). Bab. ",
+					"units": [
+						"<cite ref=\"Moed Katan 24b\">M. Kat. 24ᵇ</cite> <he>מְצַוְּוחִין</he> Ms. M. (v. <cite ref=\"R00130\"><he>צָהַב</he></cite>). ",
+						"<cite ref=\"Tosefta Shabbat 6:14\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:14\">VII</cite>), 14 <he>המְצַוַּוחַת לתנור וכ׳</he> a woman that shouts at the stove that the bread may not fall apart (a superstitious practice). ",
+						"<cite ref=\"Midrash Tehillim 20:1\">Midr. Till. to Ps. XX</cite> <he>מְצוַּחַת</he>; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִצְוִויחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to shout</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 67b\">Sabb. 67ᵇ</cite> … <he>המשתקת והמַצָוַוחַת לגריסין</he> who tells people around her to be silent, when lentils are cooked, or to shout, when grits are cooked (a superstitious practice; Tosef. l. c. 15 <he>והמציצת</he>, v. <cite ref=\"R00430\"><he>צָיַץ</he></cite>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

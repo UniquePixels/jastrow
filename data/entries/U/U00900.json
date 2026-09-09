@@ -1,0 +1,33 @@
+{
+	"id": "U00900",
+	"slug": "שייך",
+	"headword": {
+		"text": "שָׁיֵיךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁיְיכָא"
+		}
+	],
+	"page": {
+		"number": 1561,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01121\"><he>שׁוּךְ</he></cite>) <i>connected, attached, related belonging to</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 92b\">B. Kam. 92ᵇ</cite> <he>ש׳ ואזיל וכ׳</he> Ar. (ed. <he>מטייל</he>) the bad palm tree belongs to and goes &c., v. <cite ref=\"U01993\"><he>שְׂרָכָא</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 72b\">Ab. Zar. 72ᵇ</cite> <he>כולי חמרא</he> … <he>ש׳</he> Ar. (ed. <cite ref=\"C01393\"><he>גריר</he></cite>) all the wine in the cask is connected with that in the siphon, v. <cite ref=\"C01393\"><he>גְּרַר</he></cite>. ",
+				"<cite ref=\"Bava Metzia 98b:6-7\">B. Mets. 98ᵇ</cite> <he>שכירה … מֵישַׁךְ שייכא דהא וכ׳</he> (not <he>שייכי</he>, v. Rashi) shall we say, the action of hiring is connected with that of lending, because in both cases there is the same responsibility for theft and loss (and therefore the act of hiring after lending is only a continuation of, and has had its beginning simultaneously with the lending)?, opp. <he>לחודה קיימא</he>. ",
+				"<cite ref=\"Bava Metzia 98b:6-9\">Ib.</cite> <he>שכרה … ודאי לא ש׳ או דילמא כיון דש׳ וכ׳</he> if he hired the animal to be used in the presence of the owner, and then borrowed it without him, shall we say, lending is surely not connected with hiring (since the laws of responsibility are different), or shall we say, because they are related in some respects, they may be considered entirely related (so that the two acts may be treated as of the same date)? <cite ref=\"Bava Kamma 15a:2\">B. Kam. 15ᵃ</cite> <he>נכרי משום דלא ש׳ במצות</he> the gentile (is disqualified as witness), because he has no relation to the Jewish religious duties; <he>אבל עבד דש׳ במצות וכ׳</he> but the slave (of a Jew) who has some relation to religious duties (being bound to observe certain religious laws) &c. ",
+				"<cite ref=\"Kiddushin 42a:3\">Kidd. 42ᵃ</cite> <he>אם אינו ענין להיכא דש׳ וכ׳</he> if the text has no application to where it belongs (to the subject under consideration), apply it to where it does not belong (v. <cite ref=\"P00992\"><he>עִנְיָן</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:4:3\">Y. Ab. Zar. I, 39ᵈ</cite> bot. <he>עז דלא ש׳ בה גיזה</he> a goat to which the law concerning the first-shorn wool does not apply; a. fr.—Pl. <he>שָׁיְיכֵי</he>. ",
+				"<cite ref=\"Gittin 28b:15\">Gitt. 28ᵇ</cite> <he>במילתא דלא ש׳ בה וכ׳</he> in a thing in which they are not interested (and may be apt to boast of their feats): but in a thing in which they are interested, they are likely to cling to their lies."
+			]
+		}
+	]
+}

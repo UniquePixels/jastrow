@@ -1,0 +1,54 @@
+{
+	"id": "P00171",
+	"slug": "עדשה",
+	"headword": {
+		"text": "עֲדָשָׁה"
+	},
+	"page": {
+		"number": 1046,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.  ) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lentil</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 6:6\">Neg. VI, 6</cite>, v. <cite ref=\"M00389\"><he>מוּבָאת</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 17:8\">Kel. XVII, 8</cite> <he>כע׳ שאמרו וכ׳</he> wherever lentil is spoken of as a standard size, it means … the Egyptian lentil. ",
+				"<cite ref=\"Bereishit Rabbah 63:14\">Gen. R. s. 63</cite> (ref. to <cite ref=\"Genesis 25:34\">Gen. XXV, 34</cite>); <cite ref=\"Bava Batra 16b:12\">B. Bath. 16ᵇ</cite> <he>עדש</he> Ms. M., v. <cite ref=\"C00871\"><he>גַּלְגַּל</he></cite> h.; a. fr.—Pl. <he>עֲדָשִׁים</he>, <he>עֲדָשִׁין</he>, <he>עֲדָשׁוֹת</he>. ",
+				"<cite ref=\"Mishnah Negaim 6:1\">Neg. VI, 1</cite> <he>תשע ע׳</he> space of nine lentils. ",
+				"<cite ref=\"Bava Kamma 60b:22\">B. Kam. 60ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Maasrot 5:8\">Maasr. V, 8</cite> <he>הע׳ המצריות</he> Egyptian lentils; <cite ref=\"Tosefta Ma'asrot 3:14\">Tosef. ib. III, 14</cite> <he>אלו הן ע׳ המצריים וכ׳</he>; Y. ib. V, end, 52ᵃ, v. <cite ref=\"C00870\"><he>גַּלְגָּל</he></cite> h.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. φακός) <i>a flattish warming vessel</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 3:7\">Tosef. Sabb. III</cite> (<cite ref=\"Tosefta Shabbat 4:7\">IV</cite>), 7; <cite ref=\"Bereishit Rabbah 80\">Gen. R. s. 80</cite> ‘Rashi’ (ed. <cite ref=\"P01349\"><he>עריבה</he></cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. <cite ref=\"I00483\"><he>טְלוֹפְחָא</he></cite>) <i>a trough</i> in the wine or oil press. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 5:14:2\">Y. Ab. Zar. V, end, 45ᵇ</cite>.—<i>Pl.</i> as ab. Bab. ",
+				"<cite ref=\"Avodah Zarah 75a\">Ab. Zar. 75ᵃ</cite>; <cite ref=\"Tosefta Avodah Zarah 8:3\">Tosef. ib. VIII</cite> (<cite ref=\"Tosefta Avodah Zarah 9:3\">IX</cite>), 3; <cite ref=\"Tosefta Tahorot 11:16\">Tosef. Toh. XI, 16</cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>dish of the steel-yard, scales</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 3:13\">Tosef. Kel. B. Mets. III, 13</cite> <he>בע׳ אחר המסמר</he> in the levitical law concerning (wooden) scales, the material of the nails (with which they are studded) decides; <cite ref=\"Shabbat 60a:1\">Sabb. 60ᵃ</cite> <he>בע׳ הלך אחר שלשלותיו</he> Ms. M. a. O. (ed. <he>בערסא</he>; Rashi ed. Sonc. <he>בעדשא</he>, v. Rabb. D. S. a. l. note) the material of the chains decides. Tosef. Erub. XI (VIII), 21; Y. ib. X, 26ᵈ top <he>אין ממלין בע׳ וכ׳</he> you must not draw water, on the Sabbath, by means of an <i>‘ădasha</i> (using it as a lever)."
+			],
+			"label": "4"
+		}
+	]
+}

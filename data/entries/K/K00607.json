@@ -1,0 +1,34 @@
+{
+	"id": "K00607",
+	"slug": "כיפלא",
+	"headword": {
+		"text": "כֵּיפְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוּפְלָא"
+		},
+		{
+			"text": "כֵּפְ׳"
+		}
+	],
+	"page": {
+		"number": 635,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01027\"><he>כְּפַל</he></cite>) <i>duplication</i>; <he>בכ׳</he> <i>double</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 43:12\">Targ. Y. II, Gen. XLIII, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 42:10\">Targ. Job XLII, 10</cite>; a. fr.—Y. Pes. 30ᵈ bot. [read:] <he>וקנסיה בכֵיפְלָה</he> and he fined him double the amount. ",
+				"<cite ref=\"Jerusalem Talmud Peah 7:3:16\">Y. Peah VII, 20ᵇ</cite> top <he>בכפ׳ הוות מעביד׳</he> it would have yielded twice the quantity. ",
+				"<cite ref=\"Bereishit Rabbah 91\">Gen. R. s. 91</cite> <he>יהבון לי בכ׳</he> give me double the amount. ",
+				"<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 5</cite> <he>אוכלוסין בכ׳</he> twice as many troops; a. e.—V. <cite ref=\"K01013\"><he>כְּפֵילָא</he></cite>."
+			]
+		}
+	]
+}

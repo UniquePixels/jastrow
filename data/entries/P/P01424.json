@@ -1,0 +1,32 @@
+{
+	"id": "P01424",
+	"slug": "ערער-8",
+	"headword": {
+		"text": "עַרְעַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִרְעוּר"
+		}
+	],
+	"page": {
+		"number": 1122,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עִרְעֵר</he> I) <i>protest; evidence of illegitimacy</i> or <i>disqualification</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 21b:10\">Keth. 21ᵇ</cite> <he>וקרא ע׳ על אחד מהן</he> and the qualification of one of the judges was contested; <cite ref=\"Ketubot 21b:10\">ib.</cite> sq. <he>ע׳ דמאי</he> of what nature was that alleged disqualification?; <he>ע׳ דגזלנותא</he> a disqualification based on the charge of robbery; <he>ע׳ דפגם משפחה</he> based on alleged family blemish (descent from slaves). ",
+				"<cite ref=\"Bava Batra 31b:11\">B. Bath. 31ᵇ</cite>, sq. <he>ע׳ חד איכא וכ׳</he> they differ as to acting on the evidence of disqualification proffered by one witness; <he>ר׳ אלעזר סבר ע׳ חד</he> R. El. is of the opinion that evidence of disqualification by one witness is sufficient; <he>ע׳ תרי</he> it requires two witnesses; <cite ref=\"Ketubot 26a:9\">Keth. 26ᵃ</cite>. ",
+				"<cite ref=\"Ketubot 26a:9\">Ib.</cite>, a. fr. <he>אין ע׳ פחות משנים</he> in charges of disqualification no less than two witnesses are required. ",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 1:5:4\">Y. Bicc. I, 64ᵃ</cite> <he>משפחה … שהיו קורין עליה ע׳</he> a family … whose qualification for marriage with priests was disputed; <cite ref=\"Jerusalem Talmud Yevamot 8:2:12\">Y. Yeb. VIII, 9ᵇ</cite> bot.; Bab. ",
+				"<cite ref=\"Yevamot 60b:15\">ib. 60ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 2:3:3\">Y. Keth. II, 26ᵇ</cite> bot. <he>שטר שנקרא עליו ע׳</he> a document against which an informality was charged; a. fr."
+			]
+		}
+	]
+}

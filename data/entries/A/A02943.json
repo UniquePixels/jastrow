@@ -1,0 +1,30 @@
+{
+	"id": "A02943",
+	"slug": "אקרפטא",
+	"headword": {
+		"text": "אַקְרַפְטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְרַפְטָא"
+		},
+		{
+			"text": "קַרְפִּיטָא"
+		}
+	],
+	"page": {
+		"number": 113,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κράβατος, grabatus) <i>couch, raised upholstered seat</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 10b:2\">M. Kat. 10ᵇ</cite> <he>למבני א׳</he> Ar. (ed. <he>אקרפיטא</he>, Ms. M. <he>אקרפיטרא</he>) to build up a raised seat (on a frame). [Rashi: <cite ref=\"A02941\"><he>אקרופיטא</he></cite> <i>crib</i>.] <cite ref=\"Kiddushin 70a:15\">Kidd. 70ᵃ</cite> <he>ליתיב מר אקר׳</he> sit down, Sir, on the couch; (cmp. <cite ref=\"A01521\"><he>אִיצְטְבָא</he></cite>, the Chald. equivalent of our w.)."
+			]
+		}
+	]
+}

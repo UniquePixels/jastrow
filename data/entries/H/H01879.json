@@ -1,0 +1,22 @@
+{
+	"id": "H01879",
+	"slug": "חתונה",
+	"headword": {
+		"text": "חֲתוּנָּה"
+	},
+	"page": {
+		"number": 512,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>חֲתֻנָּה</he>; <cite ref=\"H01902\"><he>חָתַן</he></cite>)<i>wedding</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite>; a. e., v. <cite ref=\"H00903\"><he>חִיתּוּן</he></cite>."
+			]
+		}
+	]
+}

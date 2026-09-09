@@ -1,0 +1,55 @@
+{
+	"id": "K00717",
+	"slug": "כלי-4",
+	"headword": {
+		"text": "כְּלֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּלָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 642,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to call, give a signal</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 1:15\">Targ. Jer. I, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on Zephaniah 2:15\">Targ. Zeph. II, 15</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of the lion) <i>to roar; to shout, thunder</i> &c. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 104:21\">Targ. Ps. CIV, 21</cite>, v. <cite ref=\"A01708\"><he>אַכְלִי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 29:3\">Ib. XXIX, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 74:4\">Ib. LXXIV, 4</cite>; a. e.—",
+				"<cite ref=\"Bava Batra 5a:2\">B. Bath. 5ᵃ</cite> <he>עיזא בעלמא אַכְלוּיֵי מַכְלִינָן בה</he> v. Ar. s. v. <he>כל</he>; (incorr. in eds. <he>לאו לאכלויי בעיא</he>) as to a goat, we need only shout at her (to drive her off). ",
+				"<cite ref=\"Bava Batra 5a:2\">Ib.</cite> <he>ולאו גברא בעי לאכלויי</he> Rashi (ed. <he>דמיכלי</he>, read <he>דמַכְלֵי</he>) and need you not a man to shout at her?; [oth. opin. we need only <i>keep</i> her <i>off</i>, v. preced.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"K00716\"><he>אַכְלֵי</he></cite> (v. <cite ref=\"K00716\">preced.</cite>) [<i>to assemble, call together</i> (cmp. <he>אוֹכְלוֹסָא</he>),] ",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

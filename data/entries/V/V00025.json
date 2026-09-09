@@ -1,0 +1,52 @@
+{
+	"id": "V00025",
+	"slug": "תאם",
+	"headword": {
+		"text": "תָּאַם"
+	},
+	"page": {
+		"number": 1642,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <he>אַם</he>) <i>to join, combine</i>.—Denom. <cite ref=\"V00017\"><he>תְּאוֹם</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְאִים"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"V00017\"><he>תְּאוֹם</he></cite>) <i>to be twin-like, joined, adjoining</i>. Y. Ber. III, 6ᵇ top <he>היו שם שתי דרכים מַתְאִימוֹת וכ׳</he> if there are two twin-roads (starting from, and leading to the same place), one long, but levitically clean, and the other short, but unclean; Y. Naz. VII, 56ᵃ bot. ",
+					"units": [
+						"<cite ref=\"Tosefta Shabbat 3:3\">Tosef. Sabb. III, 3</cite> <he>שתי כירים המתאימות</he> two adjoining stoves (perfectly alike); <cite ref=\"Shabbat 37a\">Sabb. 37ᵃ</cite>; Y. ib. III, beg. 5ᶜ; a. e.—",
+						"<cite ref=\"Mishnah Bekhorot 6:1\">Bekh. VI, 1</cite> <cite ref=\"M03007\"><he>מתאימות</he></cite> (sub. <he>שינים</he>) <i>molar teeth</i>, v. <cite ref=\"V00017\"><he>תְּאוֹם</he></cite>.—",
+						"<cite ref=\"Mishnah Kelim 2:7\">Kel. II, 7</cite> Ar., v. infra.—Part. pass. <he>מוּתְאָם</he>; f. <he>מוּתְאֶמֶת</he>; pl. <he>מוּתְאָמִים</he>; <he>מוּתְאָמוֹת</he> "
+					],
+					"senses": [
+						{
+							"gloss": " <i>placed between</i>. ",
+							"units": [
+								"<cite ref=\"Shir HaShirim Rabbah 1:13\">Cant. R. to I, 13</cite> <he>שהוא מ׳ בין וכ׳</he> he (Abraham) was between the Divine Presence and the angel. ",
+								"<cite ref=\"Shir HaShirim Rabbah 1:13\">Ib.</cite> to IV, 2; Yalk. ib. 988 <he>שהיו מ׳ וכ׳</he> they (the Israelites) were between &c. ",
+								"<cite ref=\"Shir HaShirim Rabbah 4:4\">Cant. R. to IV, 4</cite> <he>שהיו מ׳ בין החלוץ וכ׳</he> they were placed between the vanguard and the rear-guard.—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>divided into two compartments</i>. ",
+							"units": [
+								"<cite ref=\"Sifrei Devarim 357:33\">Sifré Deut. 357</cite> as the branch is separated from the trunk, yet not detached (v. <cite ref=\"Q01230\"><he>פִּסְגָּה</he></cite>), <he>כך קבורתו … מ׳ מן ההר ואינה מ׳</he> so is Moses’ grave divided off from the mountain and yet not entirely divided off, the valley being between them (to connect them); <cite ref=\"Yalkut Shimoni on Torah 963\">Yalk. ib. 963</cite>.—",
+								"<cite ref=\"Mishnah Kelim 2:7\">Kel. II, 7</cite> <he>קלמרים המותאמות</he> ed. Dehr. (oth. ed. <he>המְתוֹאָמוֹת</he>, <i>Pu.</i>; Ar. <he>המַתְאֶמֶת</he>) an inkstand with two compartments, v. <cite ref=\"S01366\"><he>קַלְמָרִין</he></cite>."
+							],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

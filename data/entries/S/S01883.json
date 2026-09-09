@@ -1,0 +1,126 @@
+{
+	"id": "S01883",
+	"slug": "קרב-1",
+	"headword": {
+		"text": "קָרֵב"
+	},
+	"page": {
+		"number": 1410,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to join, come near, be near; to be offered as</i> <cite ref=\"S01896\"><he>קָרְבָּן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 8:2\">Zeb. VIII, 2</cite> <he>יִקְרַב לשם מי שהוא</he> let it be offered in behalf of him to whom it may belong. ",
+				"<cite ref=\"Mishnah Zevachim 8:5\">Ib. 5</cite> <he>אם ק׳ … יִקְרְבוּ וכ׳</he> if one of the heads has been offered, let all of them be offered. ",
+				"<cite ref=\"Zevachim 67b:2\">Ib. 67ᵇ</cite>; <cite ref=\"Mishnah Kinnim 3:3\">Ḳinnim III, 3</cite> <he>חטאת קְרֵיבָה למעלה וכ׳</he> the sin-offering may have been offered on top and the burnt-offering beneath it. ",
+				"<cite ref=\"Mishnah Menachot 6:1\">Men. VI, 1</cite> <he>הקומץ ק׳ … קְרֵבִים לעצמן</he> the handful (of the priests’ meal-offering) is offered separately and the remainder separately; <cite ref=\"Jerusalem Talmud Sotah 3:6:5\">Y. Sot. III, 19ᵇ</cite> top <he>קְרֵיבִין</he>. ",
+				"<cite ref=\"Sifrei Bamidbar 29:1\">Sifré Num. 29</cite> <he>קבע זמן לקריבים … למקריבים</he> a time is fixed for the things to be offered (<cite ref=\"Leviticus 22:27\">Lev. XXII, 27</cite>), and a time for those who offer (<cite ref=\"Numbers 6:10\">Num. VI, 10</cite>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to come before court; to sue, complain</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 96:4\">Gen. R. s. 96</cite> (ref. to <he>ויקרבו</he>, <cite ref=\"Genesis 47:29\">Gen. XLVII, 29</cite>) <he>כאדם … ק׳ על וכ׳</he> as one says, that man has brought suit against his neighbor, v. <cite ref=\"S00059\"><he>קָבַל</he> II</cite>; Yalk. ib. 156 <he>קבל</he> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קֵירֵב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S01882\">same</cite>, <i>to come near</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 20:1\">Ex. R. s. 20</cite>, beg. <he>לא קי׳ אצל וכ׳</he> he had not come near Sarah.—Esp. <i>to approach; to pray, intercede, mediate, conciliate</i>. Y. Ber. IV, 8ᵇ top <he>זה שעובר … בא וקָרֵב עשה קרבנינו וכ׳</he> we do not say to him who is to pass before the ark (v. <cite ref=\"V00409\"><he>תֵּיבָה</he></cite>), ‘come and pray’, but, ‘come, draw near’, (which means) ‘do our offerings’, ‘satisfy our needs’ &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to bring near; to befriend, attract, invite</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 24a:1\">B. Kam. 24ᵃ</cite> <he>ק׳ נגיחותיו</he> if the ox did his gorings in near intervals (of less than three days). ",
+						"<cite ref=\"Mishnah Eduyot 8:7\">Eduy. VIII, 7</cite> <he>אין אליהו</he> … <he>לרחק ולְקָרֵב</he> … <he>המְקוֹרָבִין בזרוע וכ׳</he> Elijah shall come not to decide between clean and unclean, nor to expel (declare genealogically degraded) and to receive (reinstate), but to expel those who have been received by force, and to reinstate those who have been expelled by force. ",
+						"<cite ref=\"Mishnah Eduyot 8:7\">Ib.</cite> <he>משפחת … וקֵרְבָהּ בן וכ׳</he> there was a family … which Ben-Zion expelled by force, and another which they received by force (Bab. ed. <he>וקֵרְבוּהָ בני וב׳</he>; v. Rabb. D. S. a. l. note 40); Tosef. ib. III, 4; <cite ref=\"Kiddushin 71a\">Kidd. 71ᵃ</cite>. Eduy. l. c. <he>לא לרחק ולא לקרב וכ׳</he> neither to expel nor to reinstate, but to make peace &c. ",
+						"<cite ref=\"Shabbat 31a:9\">Sabb. 31ᵃ</cite> <he>קֵירְבָנוּ תחת וכ׳</he>, v. <cite ref=\"P00967\"><he>עִנְוְתָנוּת</he></cite>. ",
+						"<cite ref=\"Shabbat 31a:9\">Ib.</cite> <he>שקֵרַבְתַּנִי וכ׳</he> Ms. M. (ed. <he>שהקרבתני</he>) thou hast brought us near &c. Tanḥ. Tsav 8 (ref. to <cite ref=\"Psalms 65:5\">Ps. LXV, 5</cite>) <he>אשרי מי שבחרו … קֵרְבוֹ</he> blessed he whom the Lord has chosen, although he did not bring him near; <cite ref=\"Bamidbar Rabbah 3:2\">Num. R. s. 3</cite> <he>הקריבו</he>. ",
+						"<cite ref=\"Bamidbar Rabbah 3:14\">Ib.</cite> <he>ק׳ את עצמו</he> he brought himself near (to God, through his own deeds); <cite ref=\"Bamidbar Rabbah 3:14\">ib.</cite> <he>יתרו קרבו הקב״ה</he> the Lord brought Jethro near (caused him to be converted); <cite ref=\"Yalkut Shimoni on Torah 379:5\">Yalk. Ex. 379</cite>; a. fr.—",
+						"<cite ref=\"Sifrei Bamidbar 94:1\">Sifré Num. 94</cite> (expl. <he>לזרא</he>, <cite ref=\"Numbers 11:20\">Num. XI, 20</cite>, cmp. <cite ref=\"G00659\"><he>זָר</he></cite>) <he>שתהיו מרחיקים … מְקָרְבִים אותו</he> you will keep it at a distance (loathe it) more than you have been inviting (wishing for) it; Lev. R. s. 48.—Part. pass. <cite ref=\"M02401\"><he>מְקוֹרָב</he></cite>; pl. <he>מְקוֹרָבִין</he>, v. supra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִקְרִיב"],
+			"senses": [
+				{
+					"gloss": "<i>to bring near, receive</i>. Y. Dem. II, 23ᵃ top <he>מַקְרִיבִין לכנפים</he>, v. <cite ref=\"K00873\"><he>כָּנָף</he></cite>. Num. R. l. c.; Sabb. l. c., v. supra; a. fr.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to offer, sacrifice</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Menachot 13:10\">Men. XIII, 10</cite> <he>יַקְרִיבֶנָּה במקדש</he> he must offer it in the Temple (of Jerusalem), <he>ואם הִקְרִיבָהּ וכ׳</he> but if he offered it in the Temple of Ḥonyo (in Egypt). ",
+						"<cite ref=\"Zevachim 67b:13\">Zeb. 67ᵇ</cite> <he>ותַקְרִיבֶנָּה למעלה</he> and let her offer it on top, (v. supra Kal); <cite ref=\"Mishnah Kinnim 3:6\">Kinn. III, 6</cite> <he>ויַקְרִיבֶנָּה וכ׳</he> Mish. (Bab. ed. <he>ויקרבנה</he>, corr. acc.) and he (the priest) must offer it &c. ",
+						"<cite ref=\"Berakhot 6b:2\">Ber. 6ᵇ</cite> <he>כאילו ה׳ תודה</he> as if he had offered a thank-offering. ",
+						"<cite ref=\"Berakhot 17a:12\">Ib. 17ᵃ</cite> as long as the Temple stood <he>אדם חוטא ומַקְרִיב וכ׳</he> a man sinned and brought a sacrifice; <he>ואין מקריבין וכ׳</he> yet only its fat and its blood were offered; <he>כאילו הִקְרַבְתִּיו לפניך וכ׳</he> as if I had offered it (my fat and blood) on the altar before thee; a. v. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִקְרַב"],
+			"senses": [
+				{
+					"gloss": "<i>to be offered</i>. Y. Meg. I, 70ᶜ top <he>ונִקְרְבוּ מהן וכ׳</he> and from their contributions was taken the wood for sacrifices; (Y. Taan. IV, 68ᵇ; Y. Shek. IV, beg. 47ᵈ <he>וקרבו</he>).",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְקָרֵב"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְקָרֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to be brought near, be received</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 3:14\">Num. R. s. 3</cite> <he>יש נבחר ונדחה ונ׳ וכ׳</he> some are chosen and repelled (disgraced) and received again &c. Sifra Tsav, Milluïm <he>ידע משה שנ׳ אהרן</he> Moses learned that Aaron was received again (in grace); <cite ref=\"Yalkut Shimoni on Torah 515:13\">Yalk. Lev. 515</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be offered, sacrificed</i>. Y. Taan. l. c. <he>שלא יהא קרבן מִתְקָרֵב וכ׳</he> that none but their contributions should be offered first. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 31:11\">Pirké d’R. El. ch. XXXI</cite> <he>אותו האיל … ובא להִתְקָרֵב וכ׳</he> that ram … ran and came to offer himself as a sacrifice in place of Isaac &c.; <cite ref=\"Yalkut Shimoni on Torah 101:7\">Yalk. Gen. 101</cite>; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to claim relationship</i>. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 2:37\">Deut. R. s. 2</cite> <he>אם קרובו עני … פלוני מתקרב לי</he> if a man’s relative is poor, he makes himself the main person and him subordinate, saying, this man claims relationship to me; Y. Ber. IX, 13ᵇ (in mutilated text) <he>ההן פלן מתקרב לן</he>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

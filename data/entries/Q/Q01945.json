@@ -1,0 +1,32 @@
+{
+	"id": "Q01945",
+	"slug": "פרע-3",
+	"headword": {
+		"text": "פְּרַע",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1236,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"Q01755\"><he>פרח</he></cite>) [<i>to break through</i>,] <i>to fly</i>. V. <cite ref=\"Q01819\"><he>פְּרִיעַ</he> II</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַפְרִיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to bloom</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 14:11\">Targ. Prov. XIV, 11</cite> <cite ref=\"M02246\"><he>מפריע</he></cite> ed. Lag. Var. (ed. <he>מפריח</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

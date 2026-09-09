@@ -1,0 +1,31 @@
+{
+	"id": "J00009",
+	"slug": "יאוש",
+	"headword": {
+		"text": "יֵאוּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "יֵיאוּשׁ"
+		}
+	],
+	"page": {
+		"number": 559,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00023\"><he>יָאַשׁ</he></cite>) <i>despairing of recovering a lost object, resignation</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 66a:11\">B. Kam. 66ᵃ</cite> <he>י׳ אינו קונה</he> the owner’s resignation gives the robber no right of possession (and he must restore the object itself, not its equivalent). ",
+				"<cite ref=\"Bava Kamma 66b:1\">Ib.ᵇ</cite> <he>ואי ס״ד י׳ קנה וכ׳</he> and if we should assume that resignation gives a right of possession, how could the robber say, Here is thy property before thee (since in the meantime it has become valueless)?—",
+				"<cite ref=\"Bava Metzia 21b:4\">B. Mets. 21ᵇ</cite> top <he>י׳ שלא מדעת</he> unconscious resignation, i.e. a thing which, if missed, is usually given up, but which has as yet not been missed. ",
+				"<cite ref=\"Bava Metzia 21b:4\">Ib.</cite> <he>הוי י׳</he> is considered as given up. ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 4:8:2\">Y. B. Kam. IV, end, 4ᶜ</cite> <he>י׳ טעות</he> a resignation under a false presumption; a. fr."
+			]
+		}
+	]
+}

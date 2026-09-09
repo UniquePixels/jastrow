@@ -1,0 +1,36 @@
+{
+	"id": "V00186",
+	"slug": "תוחלת",
+	"headword": {
+		"text": "תּוֹחֶלֶת"
+	},
+	"page": {
+		"number": 1652,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"J00293\"><he>יָחַל</he></cite>)<i>hope, expectation; that which may be looked for, good, use</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 6:1:2\">Y. Pes. VI, beg. 33ᵃ</cite> <he>אפשר שיש ממנו ת׳</he> possibly something good can come from him (may be he can enlighten us). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 6:1:2\">Ib.</cite> <he>כבר אמרנו שיש ממך ת׳</he> we have said that a good thing may be expected of thee. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 6:1:2\">Ib.</cite> <he>כבר אמרנו אם יש ת׳ מבבלי</he> we have said, can we expect anything of a Babylonian? <cite ref=\"Bamidbar Rabbah 2:15\">Num. R. s. 2<sup>15</sup></cite> <he>אין הימנו ת׳ וכ׳</he> nothing of consequence can come of him, he cannot beget &c. ",
+				"<cite ref=\"Bamidbar Rabbah 2:15\">Ib.</cite> <he>וכי יש בו ת׳</he> is there any good in it (can the golden calf produce any effect)? <cite ref=\"Midrash Tehillim 37:2\">Midr. Till. to Ps. XXXVII, 2</cite> <he>חציר הם תּוֹחַלְתָּם</he> what good there is in them is mere grass (cmp. ",
+				"<cite ref=\"Isaiah 40:6\">Is. XL, 6</cite>). ",
+				"<cite ref=\"Yalkut Shimoni on Nach 909:3\">Yalk. Job 909</cite>; <cite ref=\"Bereishit Rabbah 27:3\">Gen. R. s. 27</cite> (ref. to <cite ref=\"Genesis 6:5\">Gen. VI, 5</cite>) <he>משהיתה … לא היתה בהם ת׳</he> from sunrise to sunset they achieved nothing good; Yalk. ib. 47. Ib. 35, v. <cite ref=\"V00253\"><he>תּוֹעֶלֶת</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 20:8\">Num. R. s. 20<sup>8</sup></cite> <he>אם יבוא … אין בו ת׳</he> if he (Balaam) will be ready to go with us, he will succeed, but if he should delay even one hour, he will be of no use; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (homilet.) <i>prayer</i> (as if from <cite ref=\"H00987\"><he>חָלָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Berakhot 32b:9\">Ber. 32ᵇ</cite>; <cite ref=\"Berakhot 55a:1\">55ᵃ</cite> <he>כל המאריך … שנ׳ ת׳ וכ׳</he> he who makes long prayer and speculates on it (v. <cite ref=\"P00291\"><he>עוּן</he></cite> h.) comes to sickness of heart, for it is said (<cite ref=\"Proverbs 13:12\">Prov. XIII, 12</cite>) a prolonged prayer makes the heart sick; <cite ref=\"Yalkut Shimoni on Nach 950:5\">Yalk. Prov. 950</cite>; <cite ref=\"Yalkut Shimoni on Torah 854:1\">Yalk. Deut. 854</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

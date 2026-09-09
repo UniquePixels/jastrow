@@ -1,0 +1,31 @@
+{
+	"id": "I00676",
+	"slug": "טפף-3",
+	"headword": {
+		"text": "טְפַף"
+	},
+	"page": {
+		"number": 548,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"I00675\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיטַּף"],
+			"senses": [
+				{
+					"gloss": "<i>to be dripped</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 15:8\">Targ. Job XV, 8</cite> <he>ואִיטַּפַּת</he> (some ed. <cite ref=\"I00642\"><he>אַטְפֵי</he></cite>, h. text <he>תגרע</he>, v. <cite ref=\"C01381\"><he>גָּרַע</he> II</cite>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

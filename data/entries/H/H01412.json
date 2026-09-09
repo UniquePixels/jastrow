@@ -1,0 +1,61 @@
+{
+	"id": "H01412",
+	"slug": "חסר-3",
+	"headword": {
+		"text": "חָסֵר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲסֵרָה"
+		},
+		{
+			"text": "חֲסֵי׳"
+		}
+	],
+	"page": {
+		"number": 489,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>wanting, defective; less</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> <he>ארבעים ח׳ אחת</he> forty (labors) less one. ",
+				"<cite ref=\"Mishnah Bava Batra 7:2\">B. Bath. VII, 2</cite>, v. <cite ref=\"E00648\"><he>הֵן</he></cite>. ",
+				"<cite ref=\"Bava Batra 89b:10\">Ib. 89ᵇ</cite> <he>מדה ח׳ וכ׳</he> a measure too small or too large. ",
+				"<cite ref=\"Tosefta Ta'anit 1:2\">Tosef. Taan. I, 2</cite> <he>אם … השנה ח׳</he> if the year had a deficiency of rain; Y. ib. I, 64ᵇ; a. fr.—Pl. <he>חֲסֵירִים</he>, … <he>רִין</he>; <he>חֲסֵירוֹת</he>. ",
+				"<cite ref=\"Makkot 23a:10\">Macc. 23ᵃ</cite> <he>חֲסֵירֵי כח</he> of feeble physics; a. fr.—Esp. "
+			],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " (calendar) <cite ref=\"H01413\"><he>חָסֵר</he></cite> <i>a defective month</i> (of 29 days), opp. <cite ref=\"M01461\"><he>מלא</he></cite> of thirty days. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 59b\">B. Mets. 59ᵇ</cite> <he>ואיחליף מלא לח׳ …</he> and he made a mistake between a full and a defective month (thought it was the thirtieth day of the preceding month). ",
+						"<cite ref=\"Rosh Hashanah 19b:16\">R. Hash. 19ᵇ</cite>; a. fr.—<i>Pl.</i> as ab. ",
+						"<cite ref=\"Rosh Hashanah 19b:16\">Ib.</cite>— "
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " (orthogr.) <i>a defective writing, omission of the vowel letter</i>, opp. <cite ref=\"M01461\"><he>מלא</he></cite> (plene), e. g. <cite ref=\"H00219\"><he>חֹדֶשׁ</he></cite>, plene <cite ref=\"H00264\"><he>חוֹדֶשׁ</he></cite>.—<i>Pl.</i> f. <he>חֲסֵירוֹת</he>. ",
+					"units": [
+						"<cite ref=\"Eruvin 13a:21\">Erub. 13ᵃ</cite>; <cite ref=\"Kiddushin 30a:7\">Kidd. 30ᵃ</cite> <he>ח׳ ויתרות</he> the rules concerning <i>defective</i> and <i>plene</i>; a. fr."
+					],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": "<i>creating a defect</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 3b:6\">Ḥag. 3ᵇ</cite> (ref. to <cite ref=\"Ecclesiastes 12:11\">Koh. XII, 11</cite>) <he>אי מה … ח׳ וכ׳</he> you might think, as the nail (driven in) creates a hole and not an addition, <he>אף ד״ת חֲסֵירִין וכ׳</he> so do the words of the Law &c.; <cite ref=\"Yalkut Shimoni on Nach 989:80\">Yalk. Koh. 989</cite> end <he>אף ד״ת מְחַסְּרִין וכ׳</he>."
+			],
+			"label": "2"
+		}
+	]
+}

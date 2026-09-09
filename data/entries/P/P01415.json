@@ -1,0 +1,23 @@
+{
+	"id": "P01415",
+	"slug": "ערעיתא-1",
+	"headword": {
+		"text": "עַרְעִיתָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1121,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עֲרַע</he> I) <i>accident</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 9:11\">Targ. Koh. IX, 11</cite> (h. text <cite ref=\"Q00086\"><he>פגע</he></cite>)."
+			]
+		}
+	]
+}

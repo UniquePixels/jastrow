@@ -1,0 +1,30 @@
+{
+	"id": "E00267",
+	"slug": "הוצל",
+	"headword": {
+		"text": "הוּצָל"
+	},
+	"page": {
+		"number": 340,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Hustal</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " an old fortress in Palestine. ",
+			"units": [
+				"<cite ref=\"Shabbat 92a:9\">Sabb. 92ᵃ</cite>, sq. (?) <cite ref=\"Megillah 5b:17\">Meg. 5ᵇ</cite>, also called <he>ה׳ דבית בנימין</he>, or <he>דבי בנימין</he> (v. Rabb. D. S. a. l., a. Neub. Géogr. p. 152).—2) H. in Babylonia. ",
+				"<cite ref=\"Megillah 29a:4\">Ib. 29ᵃ</cite>. ",
+				"<cite ref=\"Yoma 52a:8\">Yoma 52ᵃ</cite>, sq. ",
+				"<cite ref=\"Keritot 13b:47\">Kerith. 13ᵇ</cite>; a. fr. (v. Berl. Beitr. z. Geogr. p. 32)."
+			],
+			"label": "1"
+		}
+	]
+}

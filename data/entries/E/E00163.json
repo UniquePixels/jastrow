@@ -1,0 +1,32 @@
+{
+	"id": "E00163",
+	"slug": "הדרנא",
+	"headword": {
+		"text": "הַדְרָנָא"
+	},
+	"page": {
+		"number": 335,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"E00148\"><he>הֲדַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>one who goes back on his word, shuffler, rogue;</i> cmp. <cite ref=\"E00166\"><he>הַדְרָנִיתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Ketubot 53a:4\">Keth. 53ᵃ</cite> <he>שוייה נפשך ה׳ וכ׳</he> I do not advise thee to make a rogue of thyself."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"E00212\"><he>הוּדְרָנָא</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

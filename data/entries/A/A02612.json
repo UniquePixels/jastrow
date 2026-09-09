@@ -1,0 +1,27 @@
+{
+	"id": "A02612",
+	"slug": "אפוחא",
+	"headword": {
+		"text": "אַפּוּחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲפּוּחְיָא"
+		}
+	],
+	"page": {
+		"number": 100,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נפח</he> or <cite ref=\"Q00174\"><he>פוח</he></cite>) <i>swelling</i>, whence <i>bulk, volume</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 50b\">Pes. 50ᵇ</cite> <he>נפיש אפוחייהו</he> Ms. Oxf. (ed. <he>אפחזייהו</he>, v. Rabb. D. S. a. l. note) their bulk is large."
+			]
+		}
+	]
+}

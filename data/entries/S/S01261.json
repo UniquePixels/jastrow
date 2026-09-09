@@ -1,0 +1,31 @@
+{
+	"id": "S01261",
+	"slug": "קלוואן",
+	"headword": {
+		"text": "קִלְוָואן"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִלְוָון"
+		},
+		{
+			"text": "קִילְ׳"
+		}
+	],
+	"page": {
+		"number": 1372,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κελεύων) <i>commanding</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 63:8\">Gen. R. s. 63</cite> <he>אנא ק׳ אנא וכ׳</he> I do order that &c.—[<cite ref=\"Bereishit Rabbah 63:8\">Ib.</cite> <he>יהיב קילוון</he>, v. next art.]—Pl. <he>קִלְוָואנִין</he>, <cite ref=\"S01263\"><he>קִלְוָונִ׳</he></cite>, <cite ref=\"S00327\"><he>קִילְ׳</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 25\">Lev. R. s. 25</cite> <he>ק׳ אנא וכ׳</he> (not <he>קלווניא</he>) we do order that &c.; <cite ref=\"Kohelet Rabbah 2:20\">Koh. R. to II, 20</cite>.—[<cite ref=\"Eichah Rabbah 1:31\">Lam. R. to I, 5</cite> <he>קלוונין דידי</he>, v. next art.]"
+			]
+		}
+	]
+}

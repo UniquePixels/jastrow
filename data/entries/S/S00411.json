@@ -1,0 +1,28 @@
+{
+	"id": "S00411",
+	"slug": "קומתא",
+	"headword": {
+		"text": "קוֹמְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוֹמָא"
+		}
+	],
+	"page": {
+		"number": 1334,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"S00382\"><he>קוֹמָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 26:13\">Targ. Y. Lev. XXVI, 13</cite> (not <cite ref=\"S00596\"><he>קוּ׳</he></cite>). Targ. II Esth. V, 1. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 10:33\">Targ. Is. X, 33</cite> (ed. Lag. <cite ref=\"S00382\"><he>קומה</he></cite>); a. e.—Pl. <cite ref=\"S00342\"><he>קוֹמִין</he></cite>. Y. B. Mets. IX, beg. 12ᵃ <he>תרתין ק׳</he> double a man’s height."
+			]
+		}
+	]
+}

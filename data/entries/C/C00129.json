@@ -1,0 +1,51 @@
+{
+	"id": "C00129",
+	"slug": "גבר-2",
+	"headword": {
+		"text": "גְּבַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 208,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00128\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 103:11\">Targ. Ps. CIII, 11</cite>.—",
+				"<cite ref=\"Gittin 60b:13\">Gitt. 60ᵇ</cite>, v. <cite ref=\"A01862\"><he>אַלִּים</he></cite>. ",
+				"<cite ref=\"Pesachim 76a:7\">Pes. 76ᵃ</cite>, a. fr. <he>עילאה ג׳</he> in the case of a contact between warm and cold substances, the upper one prevails (heating or cooling the substance into which it is poured); <he>תתאה ג׳</he> the lower prevails."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּבֵּר"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"C00128\">preced.</cite> <i>Pi.</i> ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Amos 5:9\">Targ. Am. V, 9</cite>. ",
+						"<cite ref=\"Targum Jonathan on Zechariah 10:6\">Targ. Zech. X, 6</cite>; a. e.—Part. pass. <he>מְגַבַּר</he> <i>growing, swelling</i>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 8:8\">Targ. Is. VIII, 8</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַגְבַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to make strong, to cause to overpower</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 41:25\">Targ. Is. XLI, 25</cite>.—",
+						"<cite ref=\"Sanhedrin 38a:2\">Snh. 38ᵃ</cite> <he>אַגְבְּרוּ חמרא וכ׳</he> let the wine get the better of the young men, i.e. give them plenty to drink, that they may become mirthful."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

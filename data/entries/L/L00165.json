@@ -1,0 +1,46 @@
+{
+	"id": "L00165",
+	"slug": "להי",
+	"headword": {
+		"text": "לְהִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְהָא"
+		}
+	],
+	"page": {
+		"number": 693,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"L00169\"><he>להת</he></cite>) [<i>to be bent;</i> cmp. <cite ref=\"J00492\"><he>יָעַף</he></cite>,] <i>to be tired</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 65:23\">Targ. Is. LXV, 23</cite> ed. Lag., v. <cite ref=\"E00549\"><he>הֲלִי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 42:4\">Ib. XLII, 4</cite> <he>יִלְהֵי</he> (ed. Wil. <he>יַלְהֵי</he> <i>Af.</i>; ed. Lag. <he>יהלי</he>, v. <cite ref=\"E00549\"><he>הֲלִי</he></cite>).—Part. <cite ref=\"L00165\"><he>לָהֵי</he></cite>, pl. <he>לַהֲיָין</he>. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 25:18\">Targ. Y. II, Deut. XXV, 18</cite> (h. text <cite ref=\"P00635\"><he>עָיֵף</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַלְהֵי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"L00164\">same</cite>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to tire, annoy</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Malachi 2:17\">Targ. Mal. II, 17</cite> (ed. Lag. <he>אהלי׳</he>).—3) <i>to bend</i> (<i>one’s self</i>), v. <cite ref=\"L00169\"><he>לְהַת</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

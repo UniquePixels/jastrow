@@ -1,0 +1,34 @@
+{
+	"id": "R00236",
+	"slug": "צוק-2",
+	"headword": {
+		"text": "צוּק",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1270,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be narrow</i>,] <i>to be distressed, worry</i>, v. <cite ref=\"R00237\">next w.</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵצִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to distress, afflict</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 104b:7\">Snh. 104ᵇ</cite> <he>כל המֵצִיק לישראל וכ׳</he> whoever persecutes Israel, does never get tired (with ref. to <cite ref=\"Isaiah 8:23\">Is. VIII, 23</cite>); <cite ref=\"Yalkut Shimoni on Nach 282\">Yalk. Is. 282</cite>. ",
+						"<cite ref=\"Sanhedrin 94b\">Snh. 94ᵇ</cite>, v. <he>צָיֵף</he>; <cite ref=\"Yalkut Shimoni on Nach 237\">Yalk. Kings 237</cite>. ",
+						"<cite ref=\"Sifrei Devarim 357\">Sifré Deut. 357</cite> <he>מציקים המְצִיקִין לו</he> oppressors that will oppress him; a. e.—V. <cite ref=\"M02327\"><he>מֵצִיק</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

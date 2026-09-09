@@ -1,0 +1,52 @@
+{
+	"id": "U02131",
+	"slug": "שתף-1",
+	"headword": {
+		"text": "שָׁתַף"
+	},
+	"page": {
+		"number": 1639,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>שִׁתֵּף</he> (Shaf. of <he>תף</he>; cmp. Assyr. tappû, Del. Assyr. Handw. p. 712) <i>to join, combine, attach; to form a partnership</i>. Y. Taan. II, 65ᵈ <he>שי׳ … בישראל</he> the Lord combined his great name with Israel’s (<cite ref=\"J00707\"><he>ישר־אל</he></cite>). ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>הרי אני מְשׁתֵּף וכ׳</he> I will have my great name bound up with theirs, that they may live. ",
+						"<cite ref=\"Sanhedrin 63a:17\">Snh. 63ᵃ</cite> <he>כל המשתף שם שמים וכ׳</he> he who combines the name of God with something else (imparting divine honor to God and a material object at the same time) will be uprooted from the world; <cite ref=\"Sukkah 45b\">Succ. 45ᵇ</cite>. ",
+						"<cite ref=\"Sukkah 45b:7\">Ib.</cite> <he>והא קא משתף וכ׳</he> Ms. M. (ed. <he>משתתף</he>, corr. acc.) but (in saying, ‘unto Yah and unto thee, O altar’) does not one combine the name &c.? <cite ref=\"Berakhot 63a:20\">Ber. 63ᵃ</cite> <he>כל המשתף … בצערו וכ׳</he> as for him who includes the name of God in the expression of his trouble (blesses God in his calamity), his means of support will be doubled. ",
+						"<cite ref=\"Shemot Rabbah 42\">Ex. R. s. 42</cite> (ref. to <cite ref=\"Exodus 32:4\">Ex. XXXII, 4</cite>) <he>זה אלהים … שִׁיתְּפוּ אותו עמו</he> (not <he>עמהן</he>) they did not say, ‘this (calf) is God’, but ‘these are thy gods’, they combined Him and it; a. fr.—Part. pass. <he>מְשׁוּתָּף</he>. Y. Taan. l. c. <he>ומה תעשה … שהוא מש׳ בנו</he> and what wilt thou do with thy great name (<cite ref=\"Joshua 7:9\">Josh. VII, 9</cite>), which is embodied in ours?; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁתַּתֵּף"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִשְׁתַּתֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to be combined, to have a part in</i>. [Succ. l. c., v. supra.] <cite ref=\"Bereishit Rabbah 99\">Gen. R. s. 99</cite> <he>בנימין שלא נ׳ במכירתו וכ׳</he> Benjamin, who had no part in the selling of Joseph. Tanḥ. Noah 13 (Satan said to Noah) <he>בא ונִשְׁתַּתֵּף שנינו בכרם זה</he> come and let us work together in this vineyard; a. e.—Esp. (Sabbath law) <i>to form a fictitious partnership in an alley</i> (<cite ref=\"M00078\"><he>מָבוֹי</he></cite>) by depositing in it some food to the expense for which the inmates of the buildings concerned contribute, contrad. to laying an <i>ʿerub</i> (<cite ref=\"P00680\"><he>עֵירוּב</he></cite>). ",
+					"units": [
+						"<cite ref=\"Eruvin 71b:10\">Erub. 71ᵇ</cite> <he>מִשְׁתַּתְּפִין במבוי ביין … להִשְׁתַּתֵּף וכ׳</he> the partnership in an alley is formed with wine, but if some wish to do it with bread, they may do so. ",
+						"<cite ref=\"Eruvin 71b:11\">Ib.</cite> <he>מערבין בחצירות ומשתתפין במבוי</he> you must lay an <i>ʿerub</i> for courts (by depositing a common object in one of the courts), and also form a partnership for the alley; <he>או מערבין או משתתפין</he> you may do the one or the other. Ib. III, 1 <he>בכל מערבין ומשתתפין</he> you may use any eatable for <i>ʿerub</i> or for <i>shittuf</i>; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

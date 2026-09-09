@@ -1,0 +1,34 @@
+{
+	"id": "M02851",
+	"slug": "משח-6",
+	"headword": {
+		"text": "מְשַׁח",
+		"homograph": 4
+	},
+	"altHeadwords": [
+		{
+			"text": "מִשְׁחָא"
+		},
+		{
+			"text": "מִי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 851,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>מְשַׁח</he> II) <i>measure, length</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 4:2\">Targ. II Chr. IV, 2</cite> <he>חוט מ׳</he> measuring line; a. e.—[<cite ref=\"Targum Jonathan on I Kings 6:25\">Targ. I Kings VI, 25</cite> <he>משחא חדא</he>, v. <cite ref=\"M02860\"><he>מִשְׁחֲתָא</he></cite>.]—",
+				"<cite ref=\"Bava Batra 145b:8\">B. Bath. 145ᵇ</cite> <he>עתיר משח</he> rich in things that are measured (corn &c.).—",
+				"<cite ref=\"Shabbat 19a:11\">Sabb. 19ᵃ</cite> <he>במ׳ ניתיב וכ׳</he> let him give it out (for washing) by measure &c., v. <cite ref=\"M02848\"><he>מְשַׁח</he> II</cite>.—V. <cite ref=\"M02860\"><he>מִשְׁחֲתָא</he></cite>."
+			]
+		}
+	]
+}

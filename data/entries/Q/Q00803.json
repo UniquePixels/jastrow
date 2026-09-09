@@ -1,0 +1,28 @@
+{
+	"id": "Q00803",
+	"slug": "פיקוח",
+	"headword": {
+		"text": "פִּיקּוּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּקּ׳"
+		}
+	],
+	"page": {
+		"number": 1169,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01474\"><he>פָּקַח</he></cite>) <i>removing debris</i>; <he>פ׳ נפש</he> <i>removing a person from under debris</i>, in gen. <i>saving an endangered life</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 5a:2\">Keth. 5ᵃ</cite> <he>מפקחין פ׳ נפש בשבת</he> you must remove debris to save a life on the Sabbath. Ib. 15ᵇ <he>אין הולכין בפ׳ נ׳ אחר הרוב</he> as to saving life (on the Sabbath), we do not judge by the majority of the residents of a place (whether the person in the ruins is or is not presumably a Jew); <cite ref=\"Yoma 84b:7\">Yoma 84ᵇ</cite>. ",
+				"<cite ref=\"Yoma 85a:1\">Ib. 85ᵃ</cite> <he>מנין לפ׳ נ׳ שדוחה וכ׳</he> whence is it proven that the duty of saving life supersedes the Sabbath laws? <cite ref=\"Ketubot 19a:3\">Keth. 19ᵃ</cite> <he>אין לך דבר שעומד בפני פ׳ נ׳ וכ׳</he> there is nothing (no religious law) that stands before (must not yield to) the duty of saving life, except three things: idolatry, incest and bloodshed (which you dare not commit even to save your life); <cite ref=\"Yoma 82a:9\">Yoma 82ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

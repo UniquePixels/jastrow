@@ -1,0 +1,23 @@
+{
+	"id": "I00482",
+	"slug": "טלומיא",
+	"headword": {
+		"text": "טְלוֹמְיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 536,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00481\">preced.</cite>) <i>wrong-doing</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 29:25\">Targ. Prov. XXIX, 25</cite> (v. Pesh., h. text <he>חרדת</he>!)."
+			]
+		}
+	]
+}

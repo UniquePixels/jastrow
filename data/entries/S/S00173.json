@@ -1,0 +1,29 @@
+{
+	"id": "S00173",
+	"slug": "קדר-6",
+	"headword": {
+		"text": "קַדָּר"
+	},
+	"page": {
+		"number": 1318,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"S00174\">next w.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K00147\"><he>כַּדָּר</he></cite>) <i>potter</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tahorot 7:1\">Toh. VII, 1</cite>.—Pl. <he>קַדָּרִים</he>, <he>קַדָּרִין</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 16:1\">Num. R. s. 16</cite>, beg. (ref. to <cite ref=\"H01777\"><he>חרש</he></cite>, <cite ref=\"Joshua 2:1\">Josh. II, 1</cite>, v. <cite ref=\"H01724\"><he>חֶרֶס</he> I</cite>) <he>עשו עצמן ק׳ וכ׳</he> they pretended to be potters and called out, who wants pots?; Tanḥ. Sh’laḥ 1; <cite ref=\"Yalkut Shimoni on Nach 7:4\">Yalk. Josh. 7</cite>; [<cite ref=\"Ruth Rabbah, Petichta 1\">Ruth R. to I, 1</cite> (<cite ref=\"Ruth Rabbah 2\">s. 2</cite>), v. <cite ref=\"S00185\"><he>קַדָּרוּת</he></cite>]. ",
+				"<cite ref=\"Bereishit Rabbah 86:5\">Gen. R. s. 86</cite> <he>ק׳ בכפר וכ׳</he> (Ar. <he>קרוזים</he>) will you import potters to K’far Ḥanina? (Matt. K. <he>קְדֵרִים</he> <i>pots</i>); v. <cite ref=\"C00539\"><he>גַּזָּז</he></cite>."
+			],
+			"label": "1"
+		}
+	]
+}

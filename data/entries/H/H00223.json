@@ -1,0 +1,53 @@
+{
+	"id": "H00223",
+	"slug": "חדת-2",
+	"headword": {
+		"text": "חַדִּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַדֵּית"
+		}
+	],
+	"page": {
+		"number": 428,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"H00217\"><he>חִדֵּשׁ</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to renew, restore</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 11:14\">Targ. I Sam. XI, 14</cite>; a. fr.—[<cite ref=\"Onkelos Deuteronomy 32:12\">Targ. O. Deut. XXXII, 12</cite>, v. infra.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to add something new, to change; to make an exception</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 27:34\">Targ. Y. Lev. XXVII, 34</cite> (v. <cite ref=\"H00217\"><he>חָדַשׁ</he></cite>, Pi. 3); a. e.—",
+				"<cite ref=\"Ketubot 45a:5\">Keth. 45ᵃ</cite> <he>ח׳ רחמנא</he> the biblical text states an exceptional law."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְחַדֵּת"],
+			"senses": [
+				{
+					"gloss": "<i>to be renewed</i> &c. (v. <cite ref=\"H00217\"><he>חָדַשׁ</he></cite>). ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 32:12\">Targ. O. Deut. XXXII, 12</cite> <he>לאִתְחַדָּתָא</he> ed. Berl. (oth. ed. <he>לחַדָּתָא</he>, <he>לחַדְתָּא</he> which He will renew).—",
+						"<cite ref=\"Targum of I Chronicles 8:9\">Targ. I Chr. VIII, 9</cite> (v. <cite ref=\"N00795\"><he>נִישּׂוּאִין</he></cite> ch.). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 32:1\">Targ. Y. Deut. XXXII, 1</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

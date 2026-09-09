@@ -1,0 +1,40 @@
+{
+	"id": "V00088",
+	"slug": "תגר-2",
+	"headword": {
+		"text": "תְּגַר"
+	},
+	"page": {
+		"number": 1646,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (sec. r. of <cite ref=\"C00474\"><he>גור</he></cite>) <i>to travel about; to trade</i> (= h. <cite ref=\"O00465\"><he>סָחַר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 42:34\">Targ. Y. Gen. XLII, 34</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 21:14\">Targ. Y. Deut. XXI, 14</cite> (v. infra)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתַּגַּר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיתָּגַר", "אִיתְּגַר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V00087\">same</cite>. Targ. II Esth. VIII, 13. Targ. O. Deut. l. c. <he>תִתַּגַּר</he> ed. Berl. (ed. Vien. <he>תִתָּגַר</he>; Y. <he>תִיתְגַּר</he> <i>Pe.</i>; h. text <he>תתעמר</he>). Targ. O. ib. XXIV, 7.—Trnsf. <i>to make profit, to be benefited</i> (cmp. <cite ref=\"A00338\"><he>אֲגַר</he> II</cite>, III). ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 2b:17\">Ab. Zar. 2ᵇ</cite> <he>אִיתַּגּוּרֵי אִיתַּגוּר וכ׳</he> should they have profited (by their disobedience)? if so, the sinner would be rewarded; <cite ref=\"Bava Kamma 38a\">B. Kam. 38ᵃ</cite> (not <cite ref=\"A00338\"><he>אתגר</he></cite>); Yalk. Hab. 563. ",
+						"<cite ref=\"Yevamot 92b:4\">Yeb. 92ᵇ</cite> <he>איתגורי איתגר וכ׳</he> should he profit (by his disregard of the law)? if so &c. Y. Ter. IV, 42ᵈ bot. <he>מִתַּגַּר ליה וכ׳</he> he gains four quarters (of a Kab); a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

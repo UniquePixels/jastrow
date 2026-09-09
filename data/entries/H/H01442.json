@@ -1,0 +1,35 @@
+{
+	"id": "H01442",
+	"slug": "חפיא-1",
+	"headword": {
+		"text": "חַפְיָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 491,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01441\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cover, overlaying</i>.—Pl. <he>חפְיֵי</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 17:3\">Targ. Y. Num. XVII, 3</cite>, sq.; v. <cite ref=\"H00422\"><he>חוֹפָאָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (adj.; cmp. <cite ref=\"H00408\"><he>חוּס</he></cite>) <i>bending over, concerned</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 1:3\">Koh. R. to I, 3</cite> <he>לגרמיה ח׳ הוא</he> (some ed. <cite ref=\"H01444\"><he>חַפְיָה</he></cite>) he is concerned about himself (his honor, because he has not been invited.)"
+			],
+			"label": "2"
+		}
+	]
+}

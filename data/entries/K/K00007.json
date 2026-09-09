@@ -1,0 +1,39 @@
+{
+	"id": "K00007",
+	"slug": "כאבא",
+	"headword": {
+		"text": "כְּאֵבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּאֵיבָא"
+		}
+	],
+	"page": {
+		"number": 606,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"K00006\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 10:10\">Targ. Prov. X, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 65:14\">Targ. Is. LXV, 14</cite>.—[<cite ref=\"Aramaic Targum to Job 31:18\">Targ. Job XXXI, 18</cite> <he>כְּאֵבָא</he> Ms. (ed. <he>הֵיךְ כְּאַבָּא</he>.]—",
+				"<cite ref=\"Bava Kamma 46b:6\">B. Kam. 46ᵇ</cite>, v. <cite ref=\"K00005\"><he>כְּאֵב</he> I</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sick, sufferer</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 69:30\">Targ. Ps. LXIX, 30</cite>; a. fr.—Pl. <he>כְּאֵבִין</he>, <he>כְּאֵבַיָּא</he>, <cite ref=\"K00013\"><he>כְּאֵי׳</he></cite>, <cite ref=\"K00151\"><he>כֵּי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 34:4\">Targ. Ez. XXXIV, 4</cite>. [<cite ref=\"Targum Jonathan on Jeremiah 4:19\">Targ. Jer. IV, 19</cite>, V. <cite ref=\"K00005\"><he>כְּאֵב</he> I</cite>.]—V. <cite ref=\"K00480\"><he>כֵּיבָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

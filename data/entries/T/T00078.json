@@ -1,0 +1,49 @@
+{
+	"id": "T00078",
+	"slug": "רבותא-2",
+	"headword": {
+		"text": "רְבוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְבוּ"
+		}
+	],
+	"page": {
+		"number": 1440,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>רְבֵי</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>greatness, dignity, office; anointment</i>. Targ. II Esth. VI, 10. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 9:6\">Targ. Is. IX, 6</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 32:3\">Targ. Deut. XXXII, 3</cite> (Y. II <he>רַבּוּ</he>). ",
+				"<cite ref=\"Targum Jonathan on Zechariah 9:6\">Targ. Zech. IX, 6</cite> (h. text <cite ref=\"C00011\"><he>גאון</he></cite>). ",
+				"<cite ref=\"Onkelos Numbers 18:8\">Targ. Num. XVIII, 8</cite> (h. text <cite ref=\"M02853\"><he>מָשְׁחָה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 145:3\">Targ. Ps. CXLV, 3</cite> (some ed. <he>רַבּוּ׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 150:2\">Ib. CL, 2</cite>, v. <cite ref=\"T00125\"><he>רַבָּנוּתָא</he></cite>; a. fr.—",
+				"<cite ref=\"Aramaic Targum to Esther 2:9\">Targ. Esth. II, 9</cite>, v. <cite ref=\"O01148\"><he>סַמְתּוֹרָא</he></cite>.—",
+				"<cite ref=\"Gittin 68b:14\">Gitt. 68ᵇ</cite> <he>מאי רְבוּתַיְיכוּ מינן</he> wherein are you our superiors?; <he>אחוי לך רְבוּתָאִי</he> I shall show thee my superiority. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:30\">Y. Ber. I, 2ᵈ</cite> bot. <he>רבו היא</he> it was an honor (to be brought into the king’s palace); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a great thing, something remarkable</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 2:21\">Targ. Esth. II, 21</cite>.—",
+				"<cite ref=\"Sanhedrin 106b:22\">Snh. 106ᵇ</cite>, v. <cite ref=\"B01039\"><he>בַּעְיָא</he></cite>. ",
+				"<cite ref=\"Chagigah 24a:9\">Ḥag. 24ᵃ</cite> <he>היינו רְבוּתֵיה דנגובה</he> (Rashi <he>רבותא</he>) this is the remarkable thing about ‘the dry hand’ (that is the reason for the insertion of the word <cite ref=\"N00131\"><he>נגובה</he></cite>, to show that even the touch of a dry hand makes unclean); <he>מאי ר׳ דנגובה</he> what it there remarkable in ‘the dry hand’? <cite ref=\"Bava Batra 36b:2\">B. Bath. 36ᵇ</cite>; <cite ref=\"Yevamot 45a:5\">Yeb. 45ᵃ</cite> <he>ר׳ למחשב גברי וכ׳</he> is it a great thing to quote authorities? (I can do the same:) here are Rab &c.; a. e.—V. <cite ref=\"T00114\"><he>רְבִיתָא</he> II</cite>, III, a. <cite ref=\"T00591\"><he>רֵיבוּתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

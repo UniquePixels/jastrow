@@ -1,0 +1,31 @@
+{
+	"id": "Q00529",
+	"slug": "פטיש-2",
+	"headword": {
+		"text": "פְּטִישׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּטִישָׁא"
+		},
+		{
+			"text": "פַּטִּ׳"
+		}
+	],
+	"page": {
+		"number": 1155,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פטש</he>, v. <cite ref=\"Q00528\">preced.</cite>; cmp. <cite ref=\"K00651\"><he>כִּיתַּן</he></cite> a. <cite ref=\"K01354\"><he>כְּתוֹנֶת</he></cite>) [<i>linen</i>,] <i>undergarment, breeches</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>חזי … דלא הוה ברגלי פ׳</he> (<he>חד מתלמידוי</he>) <cite ref=\"T00152\"><he>רבתי</he></cite> (Ar. <cite ref=\"Q02059\"><he>פשוש</he></cite>) I saw in my dream that I had no breeches on my legs.—Pl. <he>פְּטִישִׁין</he>, <cite ref=\"Q00529\"><he>פַּטִּי׳</he></cite>, <he>פַּטְשִׁ׳</he>. ",
+				"<cite ref=\"Daniel 3:21\">Dan. III, 21</cite>, v. <cite ref=\"A00229\"><he>אַבְרְקִין</he></cite>."
+			]
+		}
+	]
+}

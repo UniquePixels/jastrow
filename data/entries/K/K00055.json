@@ -1,0 +1,52 @@
+{
+	"id": "K00055",
+	"slug": "כביש-2",
+	"headword": {
+		"text": "כְּבִישׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּבִישָׁא"
+		},
+		{
+			"text": "כְּבִישְׁתָּא"
+		}
+	],
+	"page": {
+		"number": 608,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00082\"><he>כְּבַשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>stepping stool</i> (scamnum). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 110:1\">Targ. Ps. CX, 1</cite> (h. text <cite ref=\"E00101\"><he>הֲדֹם</he></cite>), v. <cite ref=\"K00086\"><he>כְּבַשׁ</he> II</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>paved path</i>. Ib. LXXVIII, 50 (h. text <he>נתיב</he>).—",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 6:12\">Targ. I Sam. VI, 12</cite>, a. e. (h. text <he>מסלה</he>), v. <cite ref=\"K00086\"><he>כְּבַשׁ</he> II</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 20:12\">Targ. II Sam. XX, 12</cite> <he>כבישתא</he> ed. Lag. (oth. ed. <cite ref=\"K00086\"><he>כִּבְשָׁא</he></cite>).—Pl. <he>כְּבִישִׁין</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 40:3\">Targ. Is. XL, 3</cite> ed. Lag. (oth. ed. <he>כִּבְשִׁין</he>); a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>recess, secret</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 3:10\">Targ. Lam. III, 10</cite> (h. text <he>מסתרים</he>).—Pl. <he>כְּבִישֵׁי</he>. ",
+				"<cite ref=\"Berakhot 10a:29\">Ber. 10ᵃ</cite> bot. <he>בהדי כ׳ דרחמנא וכ׳</he> Ar. (ed. <he>כִּבְשֵׁי</he>) what hast thou to do with the secret ways of the Lord?"
+			],
+			"label": "3"
+		}
+	]
+}

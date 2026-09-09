@@ -1,0 +1,40 @@
+{
+	"id": "O01381",
+	"slug": "ספל",
+	"headword": {
+		"text": "סֵפֶל"
+	},
+	"page": {
+		"number": 1014,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ספל</he> <i>to scrape, cut out</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "(b. h.; <i>bowl</i>, <i>basin</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 31a:5\">Kidd. 31ᵃ</cite> <he>הטל להן מים בס׳ וכ׳</he> pour water into a bowl for them (to drink from) &c., v. <cite ref=\"S01689\"><he>קִעְקֵעַ</he> I</cite>. ",
+				"<cite ref=\"Niddah 27a\">Nidd. 27ᵃ</cite>; Y. ib. III, 51ᵃ <he>במוציא את הס׳ וכ׳</he> when he carries away the basin (with the after-birth) &c. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:1\">Cant. R. to I, 1</cite>; <cite ref=\"Kohelet Rabbah 1:1\">Koh. R. to I, 1</cite> (ref. to <cite ref=\"J00559\"><he>יקה</he></cite>, <cite ref=\"Proverbs 30:1\">Prov. XXX, 1</cite>) <he>כס׳ הזה שנתמלא בשעתו וכ׳</he> like a bowl which is filled in due time and emptied in due time, so did &c.; <cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10</cite>; a. e.—Pl. <he>סְפָלִים</he>, <cite ref=\"O01357\"><he>סְפָלִין</he></cite>. ",
+				"<cite ref=\"Shabbat 129b\">Sabb. 129ᵇ</cite> the rich keep the after-birth <he>בס׳ של שמן</he> in basins filled with oil; <cite ref=\"Tosefta Shabbat 15:3\">Tosef. ib. XV</cite> (<cite ref=\"Tosefta Shabbat 16:3\">XVI</cite>), 3 <he>בסופלי</he> (corr. acc.). ",
+				"<cite ref=\"Berakhot 44a:5\">Ber. 44ᵃ</cite> <he>סִפְלֵי טרית</he> basinfuls of salted fish. ",
+				"<cite ref=\"Zevachim 91b:6\">Zeb. 91ᵇ</cite> <he>לס׳</he> for the bowls (for <i>libations</i>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a frame stool</i> or <i>bench;</i> also <i>night-stool</i>, interch. with <cite ref=\"O01397\"><he>סַפְסָל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 78:7\">Midr. Till. to Ps. LXXVIII, 45</cite> <he>היה … יושב על הס׳ וכ׳</he> (ed. Bub. <cite ref=\"O01397\"><he>ספסל</he></cite>) the Philistine (to save himself from the attack of the mice) seated himself on a stool of bronze; <he>והיה הס׳ נבקע וכ׳</he> and the stool burst of itself, and the mouse came up &c.; Midr. Sam. ch. X; <cite ref=\"Yalkut Shimoni on Nach 102\">Yalk. Sam. 102</cite>; <cite ref=\"Yalkut Shimoni on Nach 222\">Yalk. Kings 222</cite> <cite ref=\"O01397\"><he>ספסל</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 183\">Yalk. Ex. 183</cite> <cite ref=\"O01397\"><he>ספסל</he></cite>; a. e.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Tosefta Avodah Zarah 6:3\">Tosef. Ab. Zar. VI</cite> (<cite ref=\"Tosefta Avodah Zarah 7:3\">VII</cite>), 3 <he>הס׳ והקתידראות</he> ed. Zuck. (Var. <he>הסַפְסָלִין</he>) stools and chairs. Midr. Sam. l. c.; Yalk. Sam. l. c.; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

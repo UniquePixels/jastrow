@@ -1,0 +1,30 @@
+{
+	"id": "U00841",
+	"slug": "שיור",
+	"headword": {
+		"text": "שִׁיּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁיּיוּר"
+		}
+	],
+	"page": {
+		"number": 1558,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00908\"><he>שִׁיֵּיר</he></cite>) <i>remnant, survival; residuary; leaving unmentioned, omission</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 5:1:11\">Y. Ter. V, 43ᶜ</cite> bot. <he>אין כן ש׳</he> there would be no surplus (for taking Ḥallah); [prob. to be read: <cite ref=\"U00991\"><he>שִׁיעוּר</he></cite>]. ",
+				"<cite ref=\"Mishnah Keritot 2:5\">Ker. II, 5</cite> <he>כל העריות … ומה ש׳</he> all forbidden connections are specialized in the Law, and what is left?; Bab. ed. (11ᵃ) <he>וש׳ אין לנו וכ׳</he> and nothing is left over (for deriving from the text by implication) except &c. (ib. Gemara <he>משוייר לנו</he>). ",
+				"<cite ref=\"Bava Batra 150a:1\">B. Bath. 150ᵃ</cite> <he>עשו מטלטלין ש׳ אצל עבד</he> as regards a slave, the scholars have declared movable chattel to be a legal residuary, i.e. if a man bequeathed to his slave all his property except one portion of chattel, he is not free (because a slave may be classed with movable chattel); <he>ולא … ש׳ אצל כתובה</he> but in the case of a wife’s jointure movables are not a legal residuary, i.e. if one bequeaths to his sons all he owns, and to his wife one small object, and she accepts that gift, she has not forfeited her jointure. Ib.ᵇ <he>ובכולהו מטלטלי הוי ש׳ וכ׳</he> and in all these cases, movables are a residuary (causing forfeiture), except &c.; a. e.—Pl. <he>שִׁיּוּרִים</he>, <he>שִׁיּוּרִין</he>, <cite ref=\"U00897\"><he>שִׁיּיוּ׳</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 19\">Num. R. s. 19<sup>21</sup></cite> <he>אותם ש׳ שיצאו וכ׳</he> (ed. Wil. <he>שיירות</he>) those survivors that had come out of Egypt, and over whom death had been decreed. [<cite ref=\"Jerusalem Talmud Shabbat 3:1:6\">Y. Sabb. III, beg. 5ᶜ</cite> <he>שיזרי וכ׳</he> prob. to be read: <he>שִׁיּוּרֵי</he> the remnants of dry twigs (that had been used as fuel).]—V. <cite ref=\"U00909\"><he>שְׁיָיר</he></cite>."
+			]
+		}
+	]
+}

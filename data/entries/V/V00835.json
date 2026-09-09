@@ -1,0 +1,39 @@
+{
+	"id": "V00835",
+	"slug": "תפלי",
+	"headword": {
+		"text": "תְּפִלֵּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּפִלִּין"
+		},
+		{
+			"text": "תְּפִי׳"
+		}
+	],
+	"page": {
+		"number": 1687,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. ch. (v. <cite ref=\"V00825\"><he>תָּפַל</he></cite>; cmp. Syr. <he>תפלתא</he> indusium, Brockelm. p. 400) [<i>attachment, hangings</i>, cmp. <cite ref=\"I00149\"><he>טוֹטָפֶת</he></cite>,] <i>T’fillin, the phylacteries tied on arm and head</i> (<cite ref=\"Deuteronomy 6:8\">Deut. VI, 8</cite>; <cite ref=\"Deuteronomy 11:18\">XI, 18</cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 6:8\">Targ. Deut. VI, 8</cite>; <cite ref=\"Onkelos Deuteronomy 11:18\">XI, 18</cite> (h. text <cite ref=\"I00149\"><he>טוטפת</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:10\">Targ. Y. ib. XXVIII, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 33:23\">Targ. Y. I Ex. XXXIII, 23</cite> <he>קטור דתפילי איקר וכ׳</he> (omit <he>דבידא</he>, a dittography of <he>דבירא</he> from Y. II) the knot of the T’fillin of the glory of my Shechinah (cmp. ",
+				"<cite ref=\"Berakhot 6a:17\">Ber. 6ᵃ</cite>, quoted below); a. e.—",
+				"<cite ref=\"Menachot 35b:2\">Men. 35ᵇ</cite> <he>איפסיק … דת׳</he> the strap of his T’fillin was broken. ",
+				"<cite ref=\"Menachot 35a:3\">Ib.ᵃ</cite>, v. <cite ref=\"M02059\"><he>מַעְבַּרְתָּא</he></cite> a. <cite ref=\"V00519\"><he>תִּיתוּרָא</he></cite>. ",
+				"<cite ref=\"Berakhot 6a:20\">Ber. 6ᵃ</cite> <he>הני ת׳ דמרי עלמא וכ׳</he> what is written in the Lord’s T’fillin? <cite ref=\"Jerusalem Talmud Berakhot 2:3:5\">Y. Ber. II, 4ᶜ</cite> bot. <he>תְּפִילּוֹי</he>, v. <cite ref=\"P00565\"><he>עֵיל</he></cite>; a. e.—<i>Sing</i>. <cite ref=\"V00829\"><he>תְּפִלָּא</he></cite>, <he>תְּפִלְּתָא</he>, <cite ref=\"V00832\"><he>תְּפִי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 11:18\">Targ. Y. Deut. XI, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 13:9\">Targ. Y. Ex. XIII, 9</cite>; a. e."
+			]
+		}
+	]
+}

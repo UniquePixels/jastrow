@@ -1,0 +1,29 @@
+{
+	"id": "H00702",
+	"slug": "חיזרא-2",
+	"headword": {
+		"text": "חִיזְרָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חִזְ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 453,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00561\"><he>חֲזַר</he></cite>; cmp. <cite ref=\"E00151\"><he>הַדְרָאָה</he></cite>) <i>second course, bran</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 60b:3\">B. Mets. 60ᵇ</cite> <he>מיא דח׳</he> (Ms. F. <he>דחזירא</he>, Ms. R. 1 <he>דחִזְרֵי</he>, Ms. R. 2 <he>דחזירי</he>) bran-broth (which bloats the animal fed on it); <cite ref=\"Pesachim 42b\">Pes. 42ᵇ</cite> <he>מיא דחיז׳</he> Ms. M., Ar. a. oth. (v. Rabb. D. S. a. l. note; ed. <he>דחיורי</he>, read: <he>דחִיזְרֵי</he> pl.), v. <cite ref=\"G00184\"><he>זוֹמָא</he> I</cite>."
+			]
+		}
+	]
+}

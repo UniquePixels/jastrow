@@ -1,0 +1,45 @@
+{
+	"id": "O00386",
+	"slug": "סוף-3",
+	"headword": {
+		"text": "סוּף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 967,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to cut; to be cut off; to end</i>. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Genesis 12\">B’resh. 12</cite> <he>וסָפָה הטובים וכ׳</he> and destroys the good and the bad."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִיֵּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to cut, diminish; to exterminate</i> (corresp. to b. h. <cite ref=\"K00715\"><he>כִּלָּה</he></cite>). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 100\">Gen. R. s. 100</cite> <he>מי יכול לסַיֵּיף וכ׳</he> who can annihilate the dust?… the beasts of the field? &c. ",
+						"<cite ref=\"Bereishit Rabbah 42:8\">Gen. R. s. 42</cite> <he>מה אתה הולך ומְסַיֵּיף את עצמך וכ׳</he> Var. in <cite ref=\"Yalkut Shimoni on Torah 73\">Yalk. ib. 73</cite> for <he>מסרס</he> (ed. <he>מסיים</he>) why wilt thou reduce (weaken) thyself among thy enemies? (v.Tanḥ. Tanḥ. Vayera 3).—<i>Part. pass.</i> <he>מְסוּיָּיף</he> (denom. of <cite ref=\"O00388\"><he>סוֹף</he></cite>); f. pl. <he>מְסוּיָּיפוֹת</he> <i>left to the end, ripening late</i>; opp. <cite ref=\"B00789\"><he>בַּכִּיר</he></cite>, <cite ref=\"B00771\"><he>בִּכּוּרָה</he></cite>. Y. Dem. I, beg. 21ᶜ <he>הבכירות והמס׳</he> (<cite ref=\"Tosefta Demai 1:3\">Tosef. ib. I, 3</cite> <he>הבכורות והסייפות</he>). Y. Shebi. IV, end, 35ᶜ; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִסְתַּיֵּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to be late in ripening, to be left on the tree beyond cutting time</i>. Y. Dem. I, beg., 21ᶜ <he>נִסְתַּיְּיפוּ וכ׳</he>, v. <cite ref=\"O00388\"><he>סוֹף</he></cite> a. <cite ref=\"O00405\"><he>סוֹפֶת</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

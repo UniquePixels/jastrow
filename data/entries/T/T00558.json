@@ -1,0 +1,45 @@
+{
+	"id": "T00558",
+	"slug": "רטט-2",
+	"headword": {
+		"text": "רְטַט"
+	},
+	"page": {
+		"number": 1471,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (cmp. <he>רתת</he>) <i>to tremble, shake</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 7:5\">Targ. Job VII, 5</cite> (Ms. <cite ref=\"T00558\"><he>רַטֵּיט</he></cite> <i>Pa.</i>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַטֵּיט"],
+			"senses": [
+				{
+					"gloss": "<i>to shake, cause to tremble</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 29:8\">Targ. Ps. XXIX, 8</cite> (ed. Wil. <he>מרטש</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְרְטֵיט", "אִתְרְטַט"],
+			"senses": [
+				{
+					"gloss": "<i>to be shaken, tremble</i>. Targ. II Esth. V, 4. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 18:8\">Targ. Ps. XVIII, 8</cite> <he>אִתְרְטִיטוּ</he> Ms. (ed. <he>אתרטישו</he>; h. text <he>ויתגעשו</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

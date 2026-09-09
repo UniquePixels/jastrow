@@ -1,0 +1,33 @@
+{
+	"id": "R00187",
+	"slug": "צוי-2",
+	"headword": {
+		"text": "צְוֵי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1267,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"R00188\"><he>צַוֵּי</he></cite> (= <cite ref=\"R00171\"><he>צְוַח</he></cite>) <i>to cry, shout</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 53a\">Ḥull. 53ᵃ</cite> bot. <he>הוא מְצַוֵּי</he> Ar. (ed. <he>איהו קא מעואי</he>), v. <cite ref=\"P00227\"><he>עֲוֵי</he> II</cite>.—[<cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite> <he>מצויין</he> Ar. s. v. <he>מצוי</he>, v. <cite ref=\"R00222\"><he>צָוַץ</he></cite>.—",
+						"<cite ref=\"Bava Metzia 29b\">B. Mets. 29ᵇ</cite> <he>מצויין</he> Ar. l. c., Ms. F. <he>צוית</he>, Ms. R. 2 <he>מצוית</he>, v. <cite ref=\"R00223\"><he>צְוַץ</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

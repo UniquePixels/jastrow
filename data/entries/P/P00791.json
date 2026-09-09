@@ -1,0 +1,62 @@
+{
+	"id": "P00791",
+	"slug": "עלי-2",
+	"headword": {
+		"text": "עֲלֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲלָא"
+		}
+	],
+	"page": {
+		"number": 1082,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P00790\">same</cite> <cite ref=\"Aramaic Targum to Ecclesiastes 3:11\">Targ. Koh. III, 11</cite> <he>עולי ריגלאין</he> (h. form) pilgrims to Jerusalem, v. <cite ref=\"P00790\">preced.</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַעֲלֵי"],
+			"senses": [
+				{
+					"gloss": " (v. <cite ref=\"P00790\">preced.</cite> <i>Hif.</i> c) <i>to balance; to estimate, value</i> (corresp. to h. <he>ערך</he>). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 28:17\">Targ. Job XXVIII, 17</cite>; <cite ref=\"Aramaic Targum to Job 28:19\">19</cite>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 27:8\">Targ. Y. Lev. XXVII, 8</cite>; a. fr.—Part. pass. <cite ref=\"M02133\"><he>מַעֲלֵי</he></cite>, v. infra."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְעַלֶּי", "אִתְעַלָּא"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְעֲלָא"],
+			"senses": [
+				{
+					"gloss": "<i>to be elevated, exalted</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 47:10\">Targ. Ps. XLVII, 10</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be lifted up, be relieved of a burden</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 19:19\">Targ. Prov. XIX, 19</cite> <he>כמא דמִתְעַלֵּי וכ׳</he> (ed. Lag. <cite ref=\"M02133\"><he>מַעֲלֵי</he></cite>, Pesh. <cite ref=\"M02127\"><he>מעלא</he></cite>) the more he is relieved, the more he adds to his burden (i.e. the more you attempt to quiet him, the angrier he gets; h. text <he>כי אם תציל</he>).—[<i>Ithpe.</i> <he>אִתְעֲלֵי</he> <i>to be carried in</i>, v. <cite ref=\"P00816\"><he>עֲלַל</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "B00510",
+	"slug": "בטיל-2",
+	"headword": {
+		"text": "בְּטִיל"
+	},
+	"page": {
+		"number": 156,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00515\"><he>בטל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>loose, demoralized</i> (= <he>בטל מן המצוות</he>). ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 32:25\">Targ. O. Ex. XXXII, 25</cite> (h. text <cite ref=\"Q01944\"><he>פרע</he></cite>, v. Rashb. a. l.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>idle, vain</i>. Pl. <he>בְּטִילִין</he>, <he>בְּטֵלִין</he>. Ib. V, 9. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 5:2\">Targ. Koh. V, 2</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>idle, resting</i>. Targ. II Esth. III, 3.",
+			"units": [],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>invalid, void</i>, v. <cite ref=\"B00516\"><he>בְּטֵל</he></cite>.",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

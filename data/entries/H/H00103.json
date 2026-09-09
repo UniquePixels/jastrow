@@ -1,0 +1,22 @@
+{
+	"id": "H00103",
+	"slug": "חבצלת",
+	"headword": {
+		"text": "חֲבַצֶּלֶת"
+	},
+	"page": {
+		"number": 421,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; prob. a comp. of <cite ref=\"H00008\"><he>חב</he></cite> , v. <cite ref=\"H00234\"><he>חוֹב</he> II</cite>, a. <he>בצל</he>; v. Ges. H. Dict.<sup>10</sup> s. v.) <i>young lily</i>, before its leaves are unfolded. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 2:1:3\">Cant. R. to II, 1</cite> <he>כ״ז שהיא קטנה קורא אותה ח׳ וכ׳</he> as long as the lily is small, it is named <i>ḥ.</i>, when it is full-grown it is named <i>shoshannah;</i> v. <cite ref=\"H00009\"><he>חָבָא</he></cite>."
+			]
+		}
+	]
+}

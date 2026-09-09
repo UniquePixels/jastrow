@@ -1,0 +1,27 @@
+{
+	"id": "H01093",
+	"slug": "חלמות",
+	"headword": {
+		"text": "חַלָּמוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַלָּמִית"
+		}
+	],
+	"page": {
+		"number": 471,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.?; v. <cite ref=\"H01092\">preced.</cite> wds.) <i>mucilaginous juice</i> of mallows, used for the preservation of gourd seed. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:8\">Kil. I, 8</cite> (Y. ed. a. Ar.  …, Mish. a. Babli ed. <he>ות …</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "S01187",
+	"slug": "קיריס-3",
+	"headword": {
+		"text": "קִירִיס",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1369,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (cmp. b. h. <cite ref=\"S01192\"><he>קֵירֹס</he></cite>) <i>Ḳeris</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 2:8:3\">Y. Bets. II, end, 61ᵈ</cite> <he>ק׳ דאירמא</he>; <cite ref=\"Jerusalem Talmud Shabbat 5:4:8\">Y. Sabb. V, end, 7ᶜ</cite> <he>ק׳ דידמא</he> (v. Fr. M’bo, p. 122ᵃ)."
+			]
+		}
+	]
+}

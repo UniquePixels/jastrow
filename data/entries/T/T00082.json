@@ -1,0 +1,146 @@
+{
+	"id": "T00082",
+	"slug": "רבי-3",
+	"headword": {
+		"text": "רְבֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְבָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1441,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00081\">same</cite><i>to grow, increase; to become great</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 21:8\">Targ. Gen. XXI, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 8:4\">Targ. Hos. VIII, 4</cite> <he>רְבִיאוּ</he> ed. Ven. (oth. ed. <cite ref=\"T00085\"><he>רַבִּי׳</he></cite> Pa.). ",
+				"<cite ref=\"Aramaic Targum to Job 5:6\">Targ. Job V, 6</cite> (some ed. <he>יְרַבֵּי</he> <i>Pa.</i>); a. fr.—Part. <cite ref=\"T00086\"><he>רָבֵי</he></cite>; pl. <cite ref=\"T00092\"><he>רַבְיָין</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 26:13\">Targ. O. Gen. XXVI, 13</cite> (Y. <cite ref=\"T00083\"><he>רְבֵי</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 144:12\">Targ. Ps. CXLIV, 12</cite> (h. text <he>מגדלים</he>); a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 78:16\">Gen. R. s. 78</cite> (ref. to <cite ref=\"Genesis 49:22\">Gen. XLIX, 22</cite>, <he>בן פרת</he>) <he>רַבְיַית יוסף</he> thou didst grow, O Joseph; <he>רביית עלי עין</he> thou didst grow over (Esau’s) sight (so as to protect Rachel from Esau’s voluptuous looks); v. <cite ref=\"T00081\">preced.</cite> ",
+				"<cite ref=\"Bereishit Rabbah 20:12\">Gen. R. s. 20</cite> <he>דרָבוּן עמיה</he> (<he>דרַבְיָן</he>) they grow up with him; a. fr."
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַבֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00081\">same</cite>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to raise, rear, produce</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 2:9\">Targ. Y. Gen. II, 9</cite>. ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 2:6\">Targ. Koh. II, 6</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 147:8\">Targ. Ps. CXLVII, 8</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 38:27\">Targ. Job XXXVIII, 27</cite> <he>מְרַבְּיָא</he> Ms. (ed. <cite ref=\"M02548\"><he>מַרְבְּיָא</he></cite> <i>Af.</i>; ed. Wil. <he>מִרְבְּ׳</he>, incorr.). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 17:6\">Targ. Is. XVII, 6</cite> <he>מְרַבָּה</he> Levita (ed. <cite ref=\"M02535\"><he>מרדא</he></cite>); a. fr.—",
+						"<cite ref=\"Vayikra Rabbah 19:6\">Lev. R. s. 19</cite> <he>לא תְרַבֵּי</he>, v. <cite ref=\"C00478\"><he>גּוּרָא</he></cite>. ",
+						"<cite ref=\"Avodah Zarah 22b:8\">Ab. Zar. 22ᵇ</cite> <he>ארמלתא לא תְרַבֵּי וכ׳</he> a widow should not raise a dog. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:1:11\">Cant. R. to I, 1</cite> <he>מְרַבְּיָין ולא וכ׳</he> raise children that are not like them; <cite ref=\"Yalkut Shimoni on Nach 113:1\">Yalk. Sam. 113</cite> <he>מְרַבְּיָאן</he>, v. <cite ref=\"D00769\"><he>דִּכְוָת־</he></cite>; a. e.—Part. pass. <cite ref=\"M02583\"><he>מְרַבֵּי</he></cite>. ",
+						"<cite ref=\"Onkelos Genesis 37:2\">Targ. O. Gen. XXXVII, 2</cite> (ed. Berl. <cite ref=\"T00086\"><he>רָבֵי</he></cite>); a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to raise to dignity, advance, elevate, anoint</i> (priest, king &c.), <i>appoint</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 31:2\">Targ. O. Ex. XXXI, 2</cite> (h. text <he>קרא</he>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 42:6\">Targ. Is. XLII, 6</cite>. ",
+						"<cite ref=\"Aramaic Targum to Esther 10:2\">Targ. Esth. X, 2</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 2:6\">Targ. Ps. II, 6</cite> (h. text <he>נסך</he>); a. fr.—Part. pass. <cite ref=\"M02568\"><he>מְרַבָּא</he></cite>, <cite ref=\"M02583\"><he>מְרַבֵּי</he></cite>. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 3:39\">Targ. II Sam. III, 39</cite> (h. text <he>משוח</he>). ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 28:14\">Targ. Ez. XXVIII, 14</cite> (h. text <he>ממשח</he>).—Trnsf. (of inanimate things) <i>to consecrate</i> (by anointing). ",
+						"<cite ref=\"Onkelos Exodus 30:26\">Targ. Ex. XXX, 26</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 31:13\">Targ. Y. Gen. XXXI, 13</cite> (ed. Vien. <cite ref=\"T00593\"><he>רִיבִיתָ</he></cite>, incorr.); a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to lend or borrow on usury</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 23:20\">Targ. O. Deut. XXIII, 20</cite> (Y. ed. Vien. <he>לא תַרְבֵּי וכ׳</he> add not from what is thine to thy neighbor’s, i.e. <i>borrow</i> not on usury, v. Rashi a. l.)."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to extend the scope, to include</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 46a:5\">Snh. 46ᵃ</cite> <he>לרַבּוּיֵי עכו״ם</he> to include the worshippers of idols; <he>לרבויי שאר וכ׳</he> to include other convicts doomed to be stoned. ",
+						"<cite ref=\"Sanhedrin 46a:5\">Ib.</cite> <he>לא הוה מְרַבִּינָן וכ׳</he> we should have included only &c. ",
+						"<cite ref=\"Bava Kamma 64b:9\">B. Kam. 64ᵇ</cite> <he>מאי ר׳ וכ׳</he> what does the text imply? It implies all things (animate or inanimate, marked or unmarked). ",
+						"<cite ref=\"Zevachim 8b:11\">Zeb. 8ᵇ</cite> <he>כללא קמא מְרַבֵּי וכ׳</he> the first generalization serves to include sacrifices and no more; a. fr."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַרְבֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00081\">same</cite>, <i>to increase, add</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 23:20\">Targ. Y. Deut. XXIII, 20</cite>, v. supra."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְרַבָּא", "אִתְרַבֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to be reared, grow up</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 37:2\">Targ. Y. Gen. XXXVII, 2</cite>. ",
+						"<cite ref=\"Targum of I Chronicles 14:4\">Targ. I Chr. XIV, 4</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be raised; to be installed, anointed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 61:9\">Targ. Is. LXI, 9</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 21:10\">Targ. O. Lev. XXI, 10</cite>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 4:3\">Targ. Y. ib. IV, 3</cite>. ",
+						"<cite ref=\"Onkelos Numbers 3:3\">Targ. Num. III, 3</cite>; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be proud, vaunt</i>. Y. Sabb. VI, 7ᵈ bot. <he>טליין … מִתְרַבְּיָין וכ׳</he> young children were boasting (showing off their silver ornaments) in the court of &c.; Y. Bets. II, end, 61ᵃ <he>מתריביין</he> (corr. acc.).",
+					"units": [],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to be lent</i> or <i>borrowed on usury</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 23:20\">Targ. Deut. XXIII, 20</cite>."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": "<i>to be derived by implication, be included</i>. ",
+					"units": [
+						"<cite ref=\"Zevachim 82a:4\">Zeb. 82ᵃ</cite> <he>מכדי אִיתְרַבּוּ כל וכ׳</he> since all sacrifices … were included in the law with regard to &c.; a. e."
+					],
+					"label": "5"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

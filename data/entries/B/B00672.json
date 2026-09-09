@@ -1,0 +1,23 @@
+{
+	"id": "B00672",
+	"slug": "ביעותא",
+	"headword": {
+		"text": "בִּיעוּתָא"
+	},
+	"page": {
+		"number": 164,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B00675\"><he>בִּיעֲתוּתָא</he></cite>) <i>fright</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 6:4\">Targ. Job VI, 4</cite>; a, e.—Pl. <he>בִּיעוּתִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 21:4\">Targ. Is. XXI, 4</cite>; a. e."
+			]
+		}
+	]
+}

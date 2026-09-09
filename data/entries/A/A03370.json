@@ -1,0 +1,23 @@
+{
+	"id": "A03370",
+	"slug": "אשתדיותא",
+	"headword": {
+		"text": "אִשְׁתְּדָיוּתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 131,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שדי</he>) <i>being cast about, shaking</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 7:2\">Targ. Is. VII, 2</cite> (Ar. <he>אשדוות</he>)."
+			]
+		}
+	]
+}

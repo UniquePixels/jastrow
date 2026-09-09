@@ -1,0 +1,20 @@
+{
+	"id": "M00901",
+	"slug": "מחמצן",
+	"headword": {
+		"text": "מְחַמְּצָן"
+	},
+	"page": {
+		"number": 762,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01211\"><he>חָמַץ</he></cite>) <i>a wash-pit</i> containing ordure &c. to create fermentation. ",
+			"units": ["<cite ref=\"Bava Batra 19a:3\">B. Bath. 19ᵃ</cite>"]
+		}
+	]
+}

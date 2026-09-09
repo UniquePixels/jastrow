@@ -1,0 +1,38 @@
+{
+	"id": "S00356",
+	"slug": "קולס-1",
+	"headword": {
+		"text": "קוֹלָס"
+	},
+	"page": {
+		"number": 1329,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קלס</he> <i>to be round</i>; cmp. <cite ref=\"S00317\"><he>קוֹלָא</he></cite>, <cite ref=\"S00346\"><he>קוּלִית</he></cite> &c.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cap, helmet.—</i>Pl. <he>קוֹלָסִים</he>, <he>קוֹלָסִין</he>, <he>קוֹלָסוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 99:2\">Gen. R. s. 99</cite> <he>אילו לובשי כובעים ואילו לובשי ק׳</he> Midr. Haggadol (communic. by S. Schechter; ed. <cite ref=\"S01068\"><he>קיסים</he></cite>, corr. acc.) they (the priests) wear turbans, and they (the Greek soldiers) wear helmets. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 885:5\">Yalk. Deut. 885</cite> <he>הואיל והם יוצאין בקלוסין … יוצא בקלוסין</he> (corr. acc.) as they (the gentiles) go out with helmets, so will I &c.; <cite ref=\"Sifrei Devarim 81:4\">Sifré Deut. 81</cite> <he>בתולסין</he> (corr. acc.). ",
+				"<cite ref=\"Zevachim 88b:2\">Zeb. 88ᵇ</cite> <he>קונאות של קולסות</he> (Mus. s. v. <cite ref=\"S00413\"><he>קונאות</he></cite>; v. Rabb. D. S. a. l. note 5), v. <cite ref=\"S00413\"><he>קוֹנָאוֹת</he></cite>.—[<cite ref=\"Bereishit Rabbah 19:6\">Gen. R. s. 19</cite> <he>קולסין</he> (<cite ref=\"Yalkut Shimoni on Torah 27:2\">Yalk. ib. 27</cite> <he>דקיסלוון</he>) <i>girdles</i> tied around like a turban, v. <cite ref=\"S00358\"><he>קוּלְסִיתָא</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " קוֹלְסֵי כרוב <i>cabbage-heads</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 1:4\">Ukts. I, 4</cite> <he>שרשי ק׳ הכרוב</he> (ed. Dehr. <he>קָלְסֵי אכרוב</he>) cabbage stalks; (Maim.: the shoots under the head, which are thrown away). ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 5:2:4\">Y. Bets. V, 63ᵃ</cite> top. ",
+				"<cite ref=\"Tosefta Shevi'it 7:17\">Tosef. Shebi. VII, 17</cite> <he>שורשי ק׳ הכ׳ וכ׳</he> cabbage stalks in the ground even if they are dried up.—V. <cite ref=\"S01378\"><he>קָלַס</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

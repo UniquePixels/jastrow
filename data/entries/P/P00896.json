@@ -1,0 +1,56 @@
+{
+	"id": "P00896",
+	"slug": "עמל-1",
+	"headword": {
+		"text": "עָמֵל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1088,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to labor, take pains; to be wearied</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 11:11\">Deut. R. s. 11</cite> <he>זו היא שילום … שעָמַלְתִּי וכ׳</he> is this the payment for the service of forty years during which I worked hard, until they became a holy and faithful people? <cite ref=\"Yalkut Shimoni on Nach 950:19\">Yalk. Prov. 950</cite> <he>מדבר בעוֹמְלֵי תורה</he> it refers to those studying the Law industriously; Tanḥ. ed. Bub., Mick. 2 <he>בעֲמֵלֵי</he>; a. fr.—Part. or adj. <cite ref=\"P00896\"><he>עָמֵל</he></cite>; f. <cite ref=\"P00902\"><he>עֲמֵלָה</he></cite>; pl. <he>עֲמֵלִים</he>, <he>עֲמֵלִין</he>; <he>עֲמֵלוֹת</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:2:8\">Cant. R. to I, 2</cite> <he>מה המים … כל מי שהוא ע׳ בהן וכ׳</he> as water raises plants, so the words of the Law raise him who works at (studies) them sufficiently. Deut. R. l. c. <he>ולא אמר בעֲמֵלֶיהָ … בעושיה</he> and he (Moses) did not say (in his blessing, blessed be who delights) in those laboring to study it, or in those who meditate on it, but in those who do it. ",
+				"<cite ref=\"Berakhot 28b:5\">Ber. 28ᵇ</cite> <he>אני ע׳ והם ע׳</he> I wear myself out (in study), and they wear themselves out (in vanities). ",
+				"<cite ref=\"Pirkei Avot 2:2\">Ab. II, 2</cite> <he>כל הע׳ עם הצבור יהיו ע׳ וכ׳</he> (Var. <he>העוסקים … עוסקים</he>) all those who are engaged in public affairs must do their work for the sake of heaven (disinterestedly); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִימֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to work through, knead</i>, esp. <i>to stimulate and heat the body</i> (v. <i>Hithpa.</i>). ",
+					"units": [
+						"<cite ref=\"Shabbat 147b:9\">Sabb. 147ᵇ</cite> <he>מפני שמְעַמֶּלֶת ומרפא</he> (read with Alf.: <he>ומרפאת</he>, v. Rabb. D. S. a. l. note 10) because it (the mud of Dimsith) exercises the body and loosens (the bowels)."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְעַמֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be kneaded, have massage</i>. Ib. XXII, 6 <he>סכין … אבל לא מִתְעַמְּלִים וכ׳</he> you may have yourself ointed and rubbed on the Sabbath, but not kneaded or scraped.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to wear one’s self out</i>, esp. <i>to exercise</i> (<i>and heat</i>) <i>the body</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Peah 4:10\">Tosef. Peah IV, 10</cite> Hillel bought for a poor man of good breeding <he>סוס שהיה מִתְעַמֵּל בו</he> a horse on which to take exercise; Y. ib. VIII, 21ᵃ bot. <he>להִתְעַמֵּל בו</he>; (<cite ref=\"Ketubot 67b:3\">Keth. 67ᵇ</cite> <he>לרכיב עליו</he>). ",
+						"<cite ref=\"Tosefta Shabbat 16:22\">Tosef. Sabb. XVI</cite> (<cite ref=\"Tosefta Shabbat 17:22\">XVII</cite>), 22 <he>אין רצין בשבת כדי להִתְעַמֵּל וכ׳</he> you must not run on the Sabbath for the sake of exercise, but you may walk in an ordinary way the entire day."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

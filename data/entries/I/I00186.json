@@ -1,0 +1,24 @@
+{
+	"id": "I00186",
+	"slug": "טונא-2",
+	"headword": {
+		"text": "טוּנָא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 524,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"I00164\"><he>טוּלָא</he></cite> (?), <i>shade, shadow</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 56b:4\">Ber. 56ᵇ</cite> (v. vers. in Rabb. D. S. a. l. Ms. M. a. note)."
+			]
+		}
+	]
+}

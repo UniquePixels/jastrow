@@ -1,0 +1,23 @@
+{
+	"id": "M00709",
+	"slug": "מזבלא",
+	"headword": {
+		"text": "מַזְבְּלָא"
+	},
+	"page": {
+		"number": 752,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>מַזְבְּלֵי</he> (v. <cite ref=\"G00047\"><he>זֶבֶל</he></cite>) <i>foliage in a bag, bolster</i> used by the shepherd; [Ar. <i>short pieces of matting</i>]. ",
+			"units": [
+				"<cite ref=\"Sukkah 20a:10\">Succ. 20ᵃ</cite>, expl. <cite ref=\"M02620\"><he>מַרְזוּבְלֵי</he></cite>, q. v. ",
+				"<cite ref=\"Sukkah 20b\">Ib. 20ᵇ</cite> <he>מזבלי</he> Ms. M. (ed. <he>מרזובלים</he>)."
+			]
+		}
+	]
+}

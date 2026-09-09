@@ -1,0 +1,25 @@
+{
+	"id": "Q00226",
+	"slug": "פוליטיקין",
+	"headword": {
+		"text": "פּוֹלִיטִיקִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1141,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (πολιτικοί) <i>city-people</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 2:5\">Ter. II, 5</cite> <he>מפני שהוא מאכל פ׳</he> (Ms. M. <he>פוליטוקוס</he>, read: <he>פוליטי׳</he> sing.) because it (the wild onion) is the food of city-people (as health-preserving, v. ",
+				"<cite ref=\"Nedarim 66a\">Ned. 66ᵃ</cite>, quot. s. v. <cite ref=\"K00351\"><he>כּוּפְרִי</he></cite>)."
+			]
+		}
+	]
+}

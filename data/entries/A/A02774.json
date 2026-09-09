@@ -1,0 +1,28 @@
+{
+	"id": "A02774",
+	"slug": "אפצא",
+	"headword": {
+		"text": "אַפְצָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַפְצָא"
+		}
+	],
+	"page": {
+		"number": 107,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A02773\">preced.</cite>) [contracting,] <i>gall-nut</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 19a\">Gitt. 19ᵃ</cite>; <cite ref=\"Shabbat 104b\">Sabb. 104ᵇ</cite> (<cite ref=\"M01072\"><he>מי</he></cite>) <he>א׳</he> gall-nut juice.—Pl. <cite ref=\"Q01426\"><he>אַפְצֵי</he></cite>, <he>עַפְצֵי</he>. ",
+				"<cite ref=\"Shevuot 41b:8\">Shebu. 41ᵇ</cite> sq. Ms Fl. <he>א׳</he>, ed. <cite ref=\"P00001\"><he>ע׳</he></cite>.—V. <cite ref=\"P01073\"><he>עֶפֶץ</he></cite>."
+			]
+		}
+	]
+}

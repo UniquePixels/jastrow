@@ -1,0 +1,45 @@
+{
+	"id": "S00317",
+	"slug": "קולא-2",
+	"headword": {
+		"text": "קוֹלָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "קֹלָא"
+		}
+	],
+	"page": {
+		"number": 1327,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01238\"><he>קלא</he></cite>, cmp. <cite ref=\"K00716\"><he>כְּלֵי</he></cite> I a. <cite ref=\"K00673\"><he>כְּלָאֵי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>compartment, enclosure</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 25:8\">Targ. Y. II, Num. XXV, 8</cite> Ar. (ed. <cite ref=\"S00241\"><he>קובתא</he></cite>).—Pl. <cite ref=\"S00342\"><he>קוֹלִין</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 24:25\">Targ. Y. Num. XXIV, 25</cite> (corresp. to h. <he>קלעים</he>, <cite ref=\"Sanhedrin 106a\">Snh. 106ᵃ</cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 6:14\">Targ. Y. Gen. VI, 14</cite>.—V. <cite ref=\"S00950\"><he>קִיל</he></cite> I a. <cite ref=\"S00342\"><he>קוֹלִין</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>snare</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 3:5\">Targ. Am. III, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 9:12\">Targ. Koh. IX, 12</cite> Bxt. (ed. <cite ref=\"V00868\"><he>תקולא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 69:23\">Targ. Ps. LXIX, 23</cite> (ed. Wil. <cite ref=\"S00596\"><he>קוּ׳</he></cite>; Ar. <cite ref=\"S01238\"><he>קלא</he></cite>, Ms. <he>תקלא</he>). Ib. CXXIV, 7 Regia (ed. <cite ref=\"Q00468\"><he>פַּחֵי</he></cite>).—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Targum Jonathan on Hosea 9:8\">Targ. Hos. IX, 8</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

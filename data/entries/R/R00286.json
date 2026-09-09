@@ -1,0 +1,23 @@
+{
+	"id": "R00286",
+	"slug": "צחצחן",
+	"headword": {
+		"text": "צַחְצָחָן"
+	},
+	"page": {
+		"number": 1274,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"R00284\"><he>צַחְצַח</he></cite>) <i>clear words</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 32:4\">Targ. Is. XXXII, 4</cite>."
+			]
+		}
+	]
+}

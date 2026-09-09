@@ -1,0 +1,37 @@
+{
+	"id": "Q02058",
+	"slug": "פשורא",
+	"headword": {
+		"text": "פְּשׁוּרָא"
+	},
+	"page": {
+		"number": 1245,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>פְּשׁוּרי</he>",
+			"units": []
+		},
+		{
+			"gloss": " = h. <he>פּוֹשְׁרִין</he>, <i>tepid</i> (<i>water</i>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:8\">Targ. Koh. II, 8</cite> ed. Lag. (ed. Vien. <he>פָּשׁוֹ׳</he>; oth. ed. <he>פּוּשְׁרֵי</he>).—",
+				"<cite ref=\"Chullin 46b:2\">Ḥull. 46ᵇ</cite>; <cite ref=\"Chullin 47b:9\">47ᵇ</cite>. ",
+				"<cite ref=\"Chullin 84b\">Ib. 84ᵇ</cite> <he>כסא דפשורים</he> some ed. (read: <he>רֵי …</he>, or <he>רִין …</he>); <cite ref=\"Bava Metzia 29b:23\">B. Mets. 29ᵇ</cite> <he>דפושרין</he> (some ed. <he>דפשרין</he>), v. <cite ref=\"H01789\"><he>חַרְשִׁין</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"Q00887\"><he>פִּישְׁרָא</he></cite>) <i>rills formed by thawing snow</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 34b\">Ab. Zar. 34ᵇ</cite>, v. <cite ref=\"P00657\"><he>עִיקּוּלָא</he></cite>. ",
+				"<cite ref=\"Kiddushin 73b:4\">Kidd. 73ᵇ</cite> <he>פִּשְׁרֵי יש בו וכ׳</he> (Rashi: <he>פושרי</he>) if a child is found in shallow water formed by melting snow (where no ship can pass), it is legally considered a foundling."
+			],
+			"label": "2"
+		}
+	]
+}

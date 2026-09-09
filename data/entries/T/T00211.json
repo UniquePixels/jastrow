@@ -1,0 +1,43 @@
+{
+	"id": "T00211",
+	"slug": "רגם-1",
+	"headword": {
+		"text": "רָגַם"
+	},
+	"page": {
+		"number": 1449,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <he>רֶגֶם</he>; cmp. b. h. <cite ref=\"T00156\"><he>רֶגֶב</he></cite>)<i>to cast a stone, ball</i> &c., <i>to pelt</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sukkah 4:9\">Succ. IV, 9</cite>; <cite ref=\"Tosefta Sukkah 3:16\">Tosef. ib. III, 16</cite> <he>ורְגָמוּהוּ וכ׳</he> and all the people pelted him with their Ethrogim. ",
+				"<cite ref=\"Sotah 37a:1\">Sot. 37ᵃ</cite> (play on <he>רגמתם</he>, <cite ref=\"Psalms 68:28\">Ps. LXVIII, 28</cite>) <he>והיו … רוֹגְמִים אותם</he> and the princes of Judah threw stones at them (stirring them up to go into the sea); Mekh. B’shall., s. 5 <he>מְרַגְּמִין וכ׳</he>. ",
+				"<cite ref=\"Shemot Rabbah 1:8\">Ex. R. s. 1</cite> <he>שר׳ אוהבו וכ׳</he> who cast stones at the king’s friend; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִגֵּם"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00210\">same</cite>; <i>to wound with missiles, bruise</i>. Mekh. B’shall. l. c., v. supra.—Tanḥ. K’dosh. ed. Bub. 8; <cite ref=\"Yalkut Shimoni on Torah 615:3\">Yalk. Lev. 615</cite> <he>כבר היו מְרַגְּמִין את וכ׳</he> they would have bruised my face and my whole body with them (the Ethrogim).",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִרְגִּים"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00210\">same</cite>. Tanḥ. K’dosh. 8 <he>כבר היו מַרְגִּימִין איתי את כל וכ׳</he> they would have bruised me all over my body &c., v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A02159",
+	"slug": "אנחתא-2",
+	"headword": {
+		"text": "אַנְחָתָא"
+	},
+	"page": {
+		"number": 82,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>אנח</he>) <i>sighs</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 1:22\">Targ. Lam. I, 22</cite>."
+			]
+		}
+	]
+}

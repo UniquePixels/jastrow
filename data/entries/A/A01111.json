@@ -1,0 +1,59 @@
+{
+	"id": "A01111",
+	"slug": "אי-3",
+	"headword": {
+		"text": "אִי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵי",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 43,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <cite ref=\"A01364\"><he>אִין</he></cite>; h. <cite ref=\"A01960\"><he>אִם</he></cite>; cmp. <cite ref=\"A00517\"><he>אוֹ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>if, whether</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 7:13\">Targ. Cant. VII, 13</cite>; a. e.—",
+				"<cite ref=\"Berakhot 2a:10\">Ber. 2ᵃ</cite>, a. fr. <he>אי הכי</he> (abbrev. <he>א״ה</he>) if this be so (introducing an argument against one’s opinion).—",
+				"<cite ref=\"Rosh Hashanah 3a:2\">R. Hash. 3ᵃ</cite> <he>כי משמש וכ׳</he> <i>khi</i> has four meanings, <he>אי</he> <i>if</i>, &c.—<he>אי נמי</he> (abbrev. <he>א״נ</he>) "
+			],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " if you choose, it may also be said; <i>or</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 98a:8\">B. Mets. 98ᵃ</cite>; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>even if</i>, v. <cite ref=\"N00869\"><he>נַמִּי</he></cite>. ",
+					"units": [
+						"<cite ref=\"Chullin 12a:10\">Ḥull. 12ᵃ</cite> <he>א״נ דילמא וכ׳</he> (Rashi <he>א״נ שמע איניש וכ׳</he>) even if somebody else overheard it; a. fr.—<he>אי אמרת בשלמא</he> (abbr. <he>אא״ב</he> = <he>בשלמא אי אמרת</he>) I grant, if you were to say … <cite ref=\"E00372\"><he>היינו</he></cite> then would be right what &c.; v. <cite ref=\"B01364\"><he>בשלמא</he></cite>. ",
+						"<cite ref=\"Yoma 17b:1\">Yoma 17ᵇ</cite>; a. fr.—<he>אי</he> … <he>אי</he> <i>whether … or</i>. ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 11:6\">Targ. Koh. XI, 6</cite>. ",
+						"<cite ref=\"Bava Metzia 98a:8\">B. Mets. 98ᵃ</cite>; a. fr."
+					],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": " adv. of interrogation, v. <cite ref=\"A01365\"><he>אִין</he> II</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 11:2\">Targ. Job XI, 2</cite> Ms. (ed. <he>אין</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,76 @@
+{
+	"id": "T00225",
+	"slug": "רגש-2",
+	"headword": {
+		"text": "רְגַשׁ"
+	},
+	"page": {
+		"number": 1450,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00224\">same</cite>, <i>to tremble, shake, be agitated; to moan</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 72:16\">Targ. Ps. LXXII, 16</cite> <he>יִרְגּוֹשׁ</he> Ms. (ed. <he>יַרְגִּישׁ</he>; h. text <he>ירעש</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 38:9\">Ib. XXXVIII, 9</cite> <he>רְגִישִׁית</he> (h. text <he>שאג׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 55:3\">Ib. LV, 3</cite>; a. fr.—<i>Part. pass.</i> <he>רָגִישׁ</he> <i>affected; felt</i>. ",
+				"<cite ref=\"Yevamot 117b:3\">Yeb. 117ᵇ</cite> <he>דר׳ לה צערא</he> the annoyance of family troubles has been felt by her before (Ar. <cite ref=\"C00841\"><he>גִּישׁ</he></cite>, q. v.). ",
+				"<cite ref=\"Bereishit Rabbah 32\">Gen. R. s. 32</cite> (ref. to <he>בעצם</he>, <cite ref=\"Genesis 7:13\">Gen. VII, 13</cite>) (Noah went into the ark in broad day-light) <he>דר׳ ליה ימלל</he> (a proverbial expression) let him whom it hurts speak out, i.e. let him who objects to my doings come forward; <cite ref=\"Genesis 7:13\">ib.</cite> s. 47 (ref. to <he>בעצם</he>, <cite ref=\"Genesis 17:23\">Gen. XVII, 23</cite>) <he>דרָגֵשׁ ליה וכ׳</he> (some ed. <he>דרַגְשָׁה</he>); <cite ref=\"Shir HaShirim Rabbah 4:6:1\">Cant. R. to IV, 6</cite> <he>דרגשה</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְגֵּישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to stir up, shake, trouble; to set in motion</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 60:4\">Targ. Ps. LX, 4</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 39:20\">Targ. Job XXXIX, 20</cite>. ",
+						"<cite ref=\"Targum Jonathan on Joshua 7:3\">Targ. Josh. VII, 3</cite> (h. text <he>תְּיַגַּע</he>). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 34:5\">Targ. Y. I Deut. XXXIV, 5</cite>; a. fr.—",
+						"<cite ref=\"Sanhedrin 95a:4\">Snh. 95ᵃ</cite> (quoted fr. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 10:32\">Targ. Is. X, 32</cite>) <he>הלא דא … אַרְגְּשִׁית כל וכ׳</he> (Targ. l. c. <he>אַרְגֵּישִׁית</he>) is this the city of Jerusalem for which I set all my camps in motion?; <cite ref=\"Yalkut Shimoni on Nach 284\">Yalk. Is. 284</cite>.—Trnsf. (with <cite ref=\"A02598\"><he>אפא</he></cite>) <i>to make bold, have the hardihood to</i>. Pesik. Ănokhi, p. 138ᵇ <he>הא אַרְגִּישְׁתּוּן אפכון</he> have you dared (to come back)? Ib. <he>הא אַרְגְּשַׁת אפך</he> hast thou the hardihood (to come back to me)?; v. <cite ref=\"C00502\"><he>גּוּשׁ</he> I</cite>.—2) <i>to be excited, rage</i>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 42:12\">Targ. Ps. XLII, 12</cite>; <cite ref=\"Aramaic Targum to Psalms 43:5\">XLIII, 5</cite> (ed. Wil. <he>תִּרְגְּ׳</he>; Ms. <he>תתרגושי</he>; h. text <he>תהמי</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 72:16\">Ib. LXXII, 16</cite>, v. supra; a. e.—",
+						"<cite ref=\"Bereishit Rabbah 17\">Gen. R. s. 17</cite> <he>א׳ בה וכ׳</he> he was angry with her (scolded her) the first day, the second day &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be affected, feel; to be troubled</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 129a\">Sabb. 129ᵃ</cite> <he>א׳ בנפשיה</he> he felt himself (felt weak). ",
+						"<cite ref=\"Yoma 22b\">Yoma 22ᵇ</cite>; <cite ref=\"Bava Kamma 20b:3\">B. Kam. 20ᵇ</cite> <he>ולא מַרְגֵּישׁ</he>, v. <cite ref=\"H01029\"><he>חֲלִי</he></cite>."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to feel the scent of, trace, track</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 2:3\">Targ. Y. Ex. II, 3</cite>."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְרְגִּישׁ", "אִתְרְגוֹשׁ"],
+			"senses": [
+				{
+					"gloss": "; <i>Ithpa.</i> <he>אִתְרַגֵּשׁ</he> <i>to be shaken, troubled; to be excited, noisy</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 22:8\">Targ. II Sam. XXII, 8</cite>; <cite ref=\"Aramaic Targum to Psalms 18:8\">Targ. Ps. XVIII, 8</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 42:12\">Ib. XLII, 12</cite>; <cite ref=\"Aramaic Targum to Psalms 43:5\">XLIII, 5</cite>, v. supra. ",
+						"<cite ref=\"Aramaic Targum to Psalms 2:1\">Ib. II, 1</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 59:7\">Ib. LIX, 7</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

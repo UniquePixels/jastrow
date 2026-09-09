@@ -1,0 +1,129 @@
+{
+	"id": "G00652",
+	"slug": "זקק-1",
+	"headword": {
+		"text": "זָקַק"
+	},
+	"page": {
+		"number": 410,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"G00466\"><he>זכך</he></cite> a. <he>דקק</he>) [<i>to make thin, fine, clear</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to distil, smelt</i>, v. <i>Pi.</i>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<cite ref=\"R00797\"><he>צָרַף</he></cite>) <i>to rivet, forge; to chain, to join; to bind, obligate</i>.—<i>Part. pass.</i> <he>זָקוּק</he>, f. <cite ref=\"G00630\"><he>זְקוּקָה</he></cite>; pl. <he>זְקוּקִים</he>, <he>זְקוּקִין</he>, f. <he>זְקוּקוֹת</he>, with <cite ref=\"L00000\"><he>ל</he></cite> <i>chained to, connected with, dependent on</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 27a:22\">Men. 27ᵃ</cite> <he>העושין פירות יהיו ז׳ וכ׳</he> the fruit-bearing species of the festive wreath shall be combined with those which bear no fruits. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:1:12\">Y. Ber. VI, 10ᵃ</cite> bot. <he>כשהיו כולן ז׳ וכ׳</he> when they were, all of them, dependent on one loaf (for saying grace). ",
+				"<cite ref=\"Pesikta Rabbati 43\">Pesik. R. s. 43</cite> <he>כנגד שלש … זקוקות להן</he> (not <he>זקוקין</he>) corresponding to the three laws for which, our Rabbis taught, women are made responsible (<cite ref=\"Mishnah Shabbat 2:6\">Sabb. II, 6</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:12\">Y. Ab. Zar. II, 41ᵃ</cite> top <he>ז׳ למלכות</he> in constant intercourse with the government.—",
+				"<cite ref=\"Bamidbar Rabbah 9:2\">Num. R. s. 9</cite> <he>לשנים היא זקוקה</he> she is responsible to two (her husband and the Lord).—",
+				"<cite ref=\"Mishnah Shevuot 6:3\">Shebu. VI, 3</cite>. <he>נכסים … זוֹקְקִין וכ׳</he> movable chattel binds the immovable with reference to the obligation of making oath, i.e. the two claims preferred in one suit are considered as one lawsuit, and the oath must refer to both; Y. Keth. XII, 36ᵃ bot. [read:] <he>לזוֹקְקָן לשבועה</he> to combine the two (as one lawsuit) with regard to the oath. ",
+				"<cite ref=\"Mishnah Yevamot 2:5\">Yeb. II, 5</cite> <he>זוֹקֵק את וכ׳</he> he holds his brother’s wife tied to the leviratical marriage, i.e. she cannot marry otherwise until released from him; a. fr. V. <cite ref=\"G00407\"><he>זִיקָה</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִזְקַק"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"G00118\"><he>זָוַג</he></cite> <i>Nithpa.</i>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to join, meet; to be engaged in</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite> <he>מעולם לא נ׳ וכ׳</he> the Lord never engaged in communication with woman. ",
+						"<cite ref=\"Bereishit Rabbah 42\">Gen. R. s. 42</cite>; <cite ref=\"Pesikta Rabbati 5:1\">Pesik. R. s. 5</cite>; a. e. <he>נ׳ המלך וכ׳</he> the king was attached to, took an interest in the affairs of the country. ",
+						"<cite ref=\"Shabbat 12b:2\">Sabb. 12ᵇ</cite> <he>אין מ״ה נִזְקָקִין לו</he> the angels do not attend to his prayers.—["
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (in a hostile sense) <i>to attack</i>. Gen. R. l. c. <he>באו ברברים לִיוָּקֵק לו</he> (Pesik. R. l. c.; Ruth R. introd., a. e. <he>להִזְדַּוֵּוג</he>) Barbarians came to attack him.]",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to live with; to be coupled</i>. ",
+					"units": [
+						"<cite ref=\"Ruth Rabbah 7:9\">Ruth R. to IV, 3</cite> <he>ע״מ שלא אֶזָּקֵק לה</he> with the condition that I will not live with her. ",
+						"<cite ref=\"Bereishit Rabbah 20:7\">Gen. R. s. 20</cite> <he>איני נִזְקֶקֶת וכ׳</he> I shall never again live with &c.—",
+						"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite>; Pesik. Haḥod., p. 43ᵇ <he>שיהא אדם נִזְקָק לביתו</he> in order that man be attached to his house (love his wife); <cite ref=\"Yalkut Shimoni on Nach 738\">Yalk. Ps. 738</cite>; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִזְקִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to oblige</i>. ",
+					"units": [
+						"<cite ref=\"Sukkah 28a:3\">Succ. 28ᵃ</cite> <he>הִזְקַקְתּוּנִי וכ׳</he> will you force me to say &c.?"
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּזְקָק"],
+			"senses": [
+				{
+					"gloss": "<i>to be made dependent on, to obligate one’s self, to be obliged to regard</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 170a\">B. Bath. 170ᵃ</cite> <he>אם הוּזְקָקוּ וכ׳</he> Ms. M. (ed. <he>אם כתוב בו הוּזְקַקְנוּ</he>) if they (the parties to the deed) bound themselves to depend on the signatures of witnesses, &c. (ed. if it was written in the document, we obligate ourselves &c.)."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נִזְדַּקֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be engaged in, to care</i>. Tanḥ. Korah 6 <he>לא נִזְדַּקְּקוּ להשיבו</he> (<cite ref=\"Yalkut Shimoni on Torah 750:27\">Yalk. Num. 750</cite> <he>נִזְקָקוּ</he>) they did not care to answer him.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to attach one’s self to, to make love to</i>. ",
+					"units": ["<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite>."],
+					"label": "2"
+				},
+				{
+					"gloss": " (in an evil sense) <i>to get at, to harm</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 5\">Num. R. s. 5</cite> <he>בקש להִזְדּקֵּק להם</he> wanted to harm them."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["זִיקֵּק"],
+			"senses": [
+				{
+					"gloss": " (b. h.) <i>to smelt, refine, distil</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 31:2\">Lev. R. s. 31</cite> <he>עד שמְזַקְּקוֹ</he> until he has refined the gold.—<i>Part. pass.</i> <he>מְזוּקָּק</he>, f. <he>מְזוּקֶּקֶת</he>. ",
+						"<cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite> <he>התורה … ומז׳ וכ׳</he> the Torah is clarified and distilled in forty nine ways.—2) <i>to chain, tie, connect</i>.—Part. pass. as ab. Y. Ḥag. III, beg. 78ᵈ <he>במז׳ לקדש</he> it treats of an object which is tied (has been made subject) to the law regulating sacred matter, i.e. treated as if it were sacred matter, v. <cite ref=\"I00105\"><he>טָהֳרָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

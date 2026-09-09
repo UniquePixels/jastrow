@@ -1,0 +1,24 @@
+{
+	"id": "O00785",
+	"slug": "סיפווניות",
+	"headword": {
+		"text": "סִיפְוָונִיּוֹת"
+	},
+	"page": {
+		"number": 985,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"O00784\">preced.</cite>; cmp. <cite ref=\"O00634\"><he>סְיָיפוֹת</he></cite>) <i>fruit</i> (<i>figs</i>) <i>remaining on the edges of trees, late fruits</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 7:15\">Tosef. Shebi. VII, 15</cite> ed. Zuck. (Var. <cite ref=\"U01018\"><he>שִׂיפְוָנִיּוֹת</he></cite>, <cite ref=\"U01012\"><he>שִׂפְ׳</he></cite>; <cite ref=\"Mishnah Sheviit 9:4\">Shebi. IX, 4</cite> <cite ref=\"O00785\"><he>סִיתְוָונִיּוֹת</he></cite>, <cite ref=\"O00866\"><he>סִתְ׳</he></cite>). ",
+				"<cite ref=\"Berakhot 38a\">Ber. 38ᵃ</cite> <cite ref=\"O01332\"><he>סִפְוָנִיּוֹת</he></cite> (not <he>ספינ׳</he>; Ms. M. <cite ref=\"O01685\"><he>סתונ׳</he></cite>; <cite ref=\"Mishnah Terumot 11:2\">Ter. XI, 2</cite>; <cite ref=\"Chullin 120b\">Ḥull. 120ᵇ</cite> <cite ref=\"O00864\"><he>סיתו׳</he></cite>)."
+			]
+		}
+	]
+}

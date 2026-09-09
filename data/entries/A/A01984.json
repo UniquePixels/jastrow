@@ -1,0 +1,35 @@
+{
+	"id": "A01984",
+	"slug": "אמד-1",
+	"headword": {
+		"text": "אָמַד"
+	},
+	"page": {
+		"number": 75,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (√<cite ref=\"M00230\"><he>מד</he></cite>; v. <cite ref=\"M00251\"><he>מָדַד</he></cite>) <i>to form an approximate estimate, to guess; to appraise, judge, deliver an expert’s opinion</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 58b:8\">Erub. 58ᵇ</cite> <he>אוֹמְדוֹ וכ׳</he> he forms an approximate estimate of the height of the hill, and passes on. ",
+				"<cite ref=\"Sanhedrin 78b:12\">Snh. 78ᵇ</cite> <he>אֲמָדוּהוּ למיתה</he> they (the experts) declared his injuries to be fatal; (Y. ib. IX, 27ᵃ bot., also <he>עמד׳</he>) <he>א׳ לחיים</he> the opinion was that he would recover; a. fr.—",
+				"<cite ref=\"Chullin 51a:7\">Ḥull. 51ᵃ</cite> <he>אמדה נפשה</he> the animal before taking a leap measures its strength."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶאֱמִיד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"A01983\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 64:6\">Gen. R. s. 64</cite> <he>שהאמידו אותה</he> they had appraised it (the field,—as to how much it would yield). V. <cite ref=\"A00689\"><he>אוּמָד</he></cite>"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

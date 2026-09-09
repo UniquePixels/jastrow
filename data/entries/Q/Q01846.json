@@ -1,0 +1,44 @@
+{
+	"id": "Q01846",
+	"slug": "פרך-3",
+	"headword": {
+		"text": "פְּרַךְ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1229,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"Q00839\"><he>פֵּירוּכְיָיא</he></cite>), <i>Pa.</i> <cite ref=\"Q01845\"><he>פָּרֵיךְ</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to tie dry ears; to bind sheaves</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 37:7\">Targ. Y. Gen. XXXVII, 7</cite> (v. <cite ref=\"K01164\"><he>כְּרִיכָא</he> II</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to untie sheaves</i> or <i>bundles</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 155b:2\">Sabb. 155ᵇ</cite> <he>מפָרְכִינָן תבן וכ׳</he> (Ms. M. <he>מפרכין</he>; Ms. O. <he>מפספסין</he>) we may untie bundles of straw and of clover and mix them."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְפְּרַךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be tied up</i>. Y. Ḥag. II, 77ᶜ (ref. to <he>תאלמנה</he>, <cite ref=\"Psalms 31:19\">Ps. XXXI, 19</cite>) <he>יִתְפַּרְכַן</he> let them (their lips) be tied up (with ref. to <he>מאלמים</he>, <cite ref=\"Genesis 37:7\">Gen. XXXVII, 7</cite>, v. supra); [v. <cite ref=\"H01779\"><he>חֲרַשׁ</he></cite>, a. correct <i>tied</i> for <i>crushed</i>]; <cite ref=\"Bereishit Rabbah 1:5\">Gen. R. s. 1</cite> <he>אִתְפַּרְכַן</he>.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

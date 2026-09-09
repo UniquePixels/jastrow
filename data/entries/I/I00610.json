@@ -1,0 +1,56 @@
+{
+	"id": "I00610",
+	"slug": "טעם-2",
+	"headword": {
+		"text": "טְעַם"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְעֵים"
+		},
+		{
+			"text": "טָעִים"
+		}
+	],
+	"page": {
+		"number": 543,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"I00609\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 14:24\">Targ. I Sam. XIV, 24</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:1\">Targ. Y. Deut. XXXII, 1</cite> <he>דלא טַעֲמִין מיתותא</he> which taste no death (heaven and earth).—",
+				"<cite ref=\"Berakhot 44a:3\">Ber. 44ᵃ</cite> <he>דלא ט׳ זיונא</he> that he tasted no food. ",
+				"<cite ref=\"Shabbat 11a:7\">Sabb. 11ᵃ</cite> <he>לִיטְעוֹם מר מידי</he> take some refreshment, Sir!—",
+				"<cite ref=\"Horayot 11a:19\">Hor. 11ᵃ</cite> <he>אִטְעוֹם טעם דאיסורא</he> I wish to try how a forbidden thing tastes; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַטְעֵים"],
+			"senses": [
+				{
+					"gloss": "<i>to give to taste</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 24:17\">Targ. Y. Gen. XXIV, 17</cite>.—",
+						"<cite ref=\"Kohelet Rabbah 1:3:1\">Koh. R. to I, 3</cite> <he>לית את מַטְעַם לי מתבשילי</he> wilt thou not let me taste what I have cooked (for thee?); <cite ref=\"Vayikra Rabbah 28:3\">Lev. R. s. 28</cite>; <cite ref=\"Pesikta Rabbati 18:1\">Pesik. R. s. 18</cite>; Pesik. Haomer, p. 70ᵃ … <he>מַטְעִים … מתבשילך</he> of the dish prepared for thee?"
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["טַעֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to taste</i>. Part. pass. <he>מְטַעַם</he> <i>tasted, touched</i>. Lev. R. l. c. why do the dishes come out <he>ולא מְטַעֲמִין</he> without being touched?; (Koh. R. l. c. <he>ולא טעמין</he> and they taste them not).",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

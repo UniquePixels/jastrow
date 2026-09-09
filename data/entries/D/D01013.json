@@ -1,0 +1,27 @@
+{
+	"id": "D01013",
+	"slug": "דקננא",
+	"headword": {
+		"text": "דִּקְנָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּיקְ׳"
+		}
+	],
+	"page": {
+		"number": 319,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D01012\">preced.</cite>) <i>bearded</i>, i.e. <i>adult, major</i>.—Pl. <he>דִּקְנָנֵי</he>, <cite ref=\"D00763\"><he>דִּי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 39a:9\">B. Mets. 39ᵃ</cite> <he>לדיקנני</he> (Ar. <he>לדִיקְנֵי</he> <i>for beards</i>, i.e. adults), v. <he>אפיטרופא</he>. Ib. 70ᵃ <he>אפי׳ בד׳ וכ׳</he> is permitted even for the benefit of adult orphans."
+			]
+		}
+	]
+}

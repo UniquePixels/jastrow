@@ -1,0 +1,28 @@
+{
+	"id": "I00448",
+	"slug": "טירינא",
+	"headword": {
+		"text": "טִירְיָנָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "טִרְיָינָא"
+		}
+	],
+	"page": {
+		"number": 535,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. tiryân, Lag.; v. P. Sm. 1508) <i>basket</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 88a:1\">Pes. 88ᵃ</cite> (Ms. M. <he>טידיי׳</he>, read <he>טיר׳</he>; v. Rabb. D. S. a. l. note; <cite ref=\"Taanit 9b:9\">Taan. 9ᵇ</cite> <he>צנא</he>)."
+			]
+		}
+	]
+}

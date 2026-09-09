@@ -1,0 +1,23 @@
+{
+	"id": "S00748",
+	"slug": "קטילא-1",
+	"headword": {
+		"text": "קְטִילָא"
+	},
+	"page": {
+		"number": 1348,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"S00711\"><he>קְטוֹלָא</he></cite>, <i>putting to death</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 5:15\">Targ. Job V, 15</cite>, v. <cite ref=\"S00711\"><he>קְטוֹלָא</he></cite>.—Constr. <cite ref=\"S00748\"><he>קְטִילַת</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Ruth 1:17\">Targ. Ruth I, 17</cite>; <cite ref=\"Aramaic Targum to Esther 9:5\">Targ. Esth. IX, 5</cite> <he>ק׳ סייפא</he> death by the sword."
+			]
+		}
+	]
+}

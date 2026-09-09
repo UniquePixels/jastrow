@@ -1,0 +1,32 @@
+{
+	"id": "Q02090",
+	"slug": "פשפש-1",
+	"headword": {
+		"text": "פִּשְׁפֵּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1248,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to split, enter into</i>, cmp. <cite ref=\"B00154\"><he>בָּדַק</he></cite>) <i>to examine, investigate</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 306:18-21\">Sifré Deut. 306</cite> (ref. to <cite ref=\"Deuteronomy 32:2\">Deut. XXXII, 2</cite>) <he>מה שעירים … ומְפַשְׁפְּשִׁין בהם וכ׳</he> as the rains come down upon the plants and cleanse and permeate them &c.; <he>כן הוי מְפַשְׁפֵּשׁ וכ׳</he> so do thou enter into the words of the Law &c.; Yalk. ib. 942. ",
+				"<cite ref=\"Berakhot 5a:9\">Ber. 5ᵃ</cite> <he>אם רואה אדם … יְפַשְׁפֵּשׁ במעשיו</he> if man sees that troubles are coming upon him, let him investigate his conduct; <he>אם פ׳ ולא מצא וכ׳</he> if he has investigated and can find nothing (wrong) &c. ",
+				"<cite ref=\"Eruvin 13b:16\">Erub. 13ᵇ</cite>, v. <cite ref=\"M02934\"><he>מִשְׁמֵשׁ</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 1:1:16\">Y. Keth. I, 25ᵃ</cite> bot. <he>אם בשפי׳ ומצא וכ׳</he> if it be a case when he searched and found (tokens of virginity) &c. ",
+				"<cite ref=\"Shemot Rabbah 25:6\">Ex. R. s. 25</cite> <he>בשר ודם מְפַשְׁפֵּשׁ שטרותיו</he> a human being examines his papers. Tanḥ. Ḥuck. 6 <he>חקרתי ושאלתי ופִשְׁפַּשְׁתִּי</he> I searched and inquired and investigated. ",
+				"<cite ref=\"Tosefta Shekalim 2:1\">Tosef. Shek. II, 1</cite> <he>מְפַשְׁפְּשִׁין בו וכ׳</he> they searched him on entering (the treasury) and on leaving. ",
+				"<cite ref=\"Tosefta Yevamot 14:8\">Tosef. Yeb. XIV, 8</cite> <he>מפשפשין באותה העיר</he> investigation is held in that town. ",
+				"<cite ref=\"Tosefta Negaim 6:7\">Tosef. Neg. VI, 7</cite> <he>צא ופַשְׁפֵּשׁ בעצמך וכ׳</he> go and examine thyself (thy conduct) and do repentance; a. e."
+			]
+		}
+	]
+}

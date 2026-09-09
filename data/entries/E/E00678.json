@@ -1,0 +1,31 @@
+{
+	"id": "E00678",
+	"slug": "הנייה-1",
+	"headword": {
+		"text": "הֲנָיָיה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֲנָאָה"
+		}
+	],
+	"page": {
+		"number": 358,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"N00016\"><he>נֵאוֹת</he></cite>, v. <cite ref=\"A00939\"><he>אוֹת</he> I</cite>; cmp. <cite ref=\"N00010\"><he>נָאֶה</he></cite>) <i>enjoyment, pleasure, benefit</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 8a:11\">Taan. 8ᵃ</cite> <he>מאי ה׳ יש לך</he> what does it profit thee (to bite)?—",
+				"<cite ref=\"Sifrei Devarim 5:2\">Sifré Deut. 5</cite> (ref. to <cite ref=\"T00042\"><he>רב</he></cite>, <cite ref=\"Deuteronomy 1:6\">Deut. I, 6</cite>) <he>ה׳ גדולה וכ׳</he> your dwelling &c. was of great benefit to you; a. v. fr.—",
+				"<cite ref=\"Sanhedrin 26b:2\">Snh. 26ᵇ</cite>, a. fr. <he>בעל ה׳</he> <i>a worldling</i>.—<he>נדר ה׳ מן</he> to vow refusal of any benefit or favor from a person. ",
+				"<cite ref=\"Mishnah Nedarim 4:1\">Ned. IV, 1</cite>, sq.; a. fr.—",
+				"<cite ref=\"Kiddushin 41a:1\">Kidd. 41ᵃ</cite> <he>דור ה׳ ממנו</he> vow that you will have no favor at his hands. [Sifra B’har ch. III, Par. 3 <he>הניית</he>, v. <cite ref=\"E00253\"><he>הוֹנָיָיה</he></cite>.]"
+			]
+		}
+	]
+}

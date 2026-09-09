@@ -1,0 +1,47 @@
+{
+	"id": "P01490",
+	"slug": "עשן-2",
+	"headword": {
+		"text": "עָשַׁן"
+	},
+	"page": {
+		"number": 1126,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <cite ref=\"P01489\">preced.</cite>) <i>to smoke</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִישֵּׁן"],
+			"senses": [
+				{
+					"gloss": "<i>to generate smoke; to fumigate; to burn incense</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 23a:5\">Sabb. 23ᵃ</cite> (ref. to the use of oil for ink) <he>לגבל או לעַשֵּׁן</he> do you mean for kneading it with soot, or for making soot by burning it? <cite ref=\"Pesikta Rabbati 12:1\">Pesik. R. s. 12</cite> <he>והיו מְעַשְּׁנוֹת לפני עכו״ם</he> they burnt incense before idols; Tanḥ. Tol’doth 8 <he>מעשנות ומקטרות וכ׳</he> raised smoke and burnt perfumes &c. ",
+						"<cite ref=\"Yevamot 115a:2\">Yeb. 115ᵃ</cite> <he>עִישֵּׁינוּ עלינו בית וכ׳</he> (Ar. <he>עִישְּׁנוּ</he>) they (robbers) filled our house with smoke, filled a cave in which we dwelt with smoke &c. Y. Ber. VI, 12ᵇ bot. <he>במְעַשֵּׁין לפני וכ׳</he> (not <he>במעשיו</he>) when he burns spices in front of his shop; a. e.—Esp. <i>to fumigate plants</i>. ",
+						"<cite ref=\"Mishnah Sheviit 2:2\">Shebi. II, 2</cite> <he>מְעַשְּׁנִין עד וכ׳</he> you may fumigate until New Year (of the Sabbatical year). Y. Sabb. VII, 10ᵃ top <he>המְעַשֵּׁן</he> he who fumigates plants (on the Sabbath); a. fr.—Part. pass. <he>מְעוּשָּׁן</he>; f. <he>מְעוּשֶּנֶת</he>; pl. <he>מְעוּשָּׁנִים</he>, <he>מְעוּשָּׁנִין</he>; <he>מְעוּשָּׁנוֹת</he>. ",
+						"<cite ref=\"Mishnah Menachot 8:6\">Men. VIII, 6</cite> <he>אין מביאין … מע׳</he> you must not use for libations sweet wine or smoked wine (of fumigated grapes). Y. Bicc. I, 63ᵈ bot. <he>ענבים מאובקות ומע׳ וכ׳</he> (not <he>מאונ׳</he>) powdered (v. <cite ref=\"A00189\"><he>אָבַק</he></cite>) or smoked grapes should not be offered as first-fruits. ",
+						"<cite ref=\"Mishnah Chullin 3:5\">Ḥull. III, 5</cite> <he>המע׳</he> an animal that has inhaled smoke; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְעַשֵּׁן"],
+			"senses": [
+				{
+					"gloss": "<i>to be affected by smoke, taste of smoke</i>. ",
+					"units": [
+						"<cite ref=\"Zevachim 64a:8\">Zeb. 64ᵃ</cite> <he>שמא יִתְעַשֵּׁנוּ</he> lest the wine for libations may catch smoke (when carried past the altar pyre)."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

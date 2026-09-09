@@ -1,0 +1,45 @@
+{
+	"id": "O00003",
+	"slug": "סאב-1",
+	"headword": {
+		"text": "סָאַב"
+	},
+	"page": {
+		"number": 947,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to be rough, ugly</i>,] <i>to be filthy, unclean, repulsive</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִיאֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to soil, make unclean; to unfit for sacrifice</i> on account of repulsive appearance. Part. pass. <he>מְסוֹאָב</he>, f. <he>מְסוֹאֶבֶת</he>; hands.Ḥall pl. <he>מְסוֹאָבִים</he>, <he>מְסוֹאָבִין</he>; <he>מְסוֹאָבוֹת</he>.—ידים מס׳ <i>unwashed hands</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Challah 2:2\">Ḥall. II, 2</cite>. ",
+						"<cite ref=\"Mishnah Chullin 2:5\">Ḥull. II, 5</cite>; a. fr.—",
+						"<cite ref=\"Temurah 8a:25\">Tem. 8ᵃ</cite> <he>ירעו … הא מס׳ וקיימין</he> (you say) ‘let them go to pasture until they become unfit for sacrifice’, but are they not already unfit (being blemished)?"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִסְתָּאֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to become filthy, repulsive, unfit for sacrifice</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Yevamot 11:5\">Yeb. XI, 5</cite> <he>יהא רועה עד שיִסְתָּאֵב</he> let it go to pasture, until it becomes unfit for sacrifice. Tem. l. c. <he>עד שיִסְתָּאֲבוּ</he>, v. supra. Ib. IV, 1 <he>עד שתִּסְתָּאֵב</he>; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

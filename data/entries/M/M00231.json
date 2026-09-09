@@ -1,0 +1,22 @@
+{
+	"id": "M00231",
+	"slug": "מדא",
+	"headword": {
+		"text": "מַדָּא"
+	},
+	"page": {
+		"number": 731,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = (b. h. <cite ref=\"M00230\"><he>מַד</he></cite>; <cite ref=\"M00251\"><he>מדד</he></cite>) <i>the priest’s cloak</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 28a:11\">Ber. 28ᵃ</cite>; v. <cite ref=\"L00119\"><he>לְבַשׁ</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"id": "H01397",
+	"slug": "חסם-1",
+	"headword": {
+		"text": "חָסַם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 488,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H01396\">preced.</cite> wds.,  [<i>to withhold, prevent</i>, v. ",
+			"units": ["<cite ref=\"Ezekiel 39:11\">Ez. XXXIX, 11</cite>,] "]
+		},
+		{
+			"gloss": "<i>to muzzle</i>, esp. <i>to prevent the animal from eating while at work</i> (with ref. to <cite ref=\"Deuteronomy 25:4\">Deut. XXV, 4</cite>). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 90a:15\">B. Mets. 90ᵃ</cite> <he>עובר משום בל תַּחְסוֹם</he> he trespasses the law forbidding to muzzle (if he prevents the animal from eating). ",
+				"<cite ref=\"Bava Metzia 90a:14\">Ib.</cite> <he>חֲסוֹם פרתי</he> muzzle my cow. ",
+				"<cite ref=\"Bava Metzia 90b\">Ib.ᵇ</cite>, a. e. <he>חֲסָמָהּ בקול</he> if he prevents her from eating by shouting at her; a. fr.—Trnsf. (an adaptation of Deut. l. c. which is followed by the law concerning leviratical marriage) <i>to tie a woman to a man</i> (<i>Yabam</i>) <i>with whom she cannot live</i>; [Rashi: <i>to shut a woman’s mouth, ignore her objections</i>]. ",
+				"<cite ref=\"Yevamot 4a:3\">Yeb. 4ᵃ</cite> <he>שאין חוֹסְמִין אותה</he> that we do not coërce her (to be the wife of a leper)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to form the rim of basket work or of a leather bag</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:2\">Kel. XVI, 2</cite>; <cite ref=\"Mishnah Kelim 16:3\">3</cite>; <cite ref=\"Mishnah Kelim 16:4\">4</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְסַם"],
+			"senses": [
+				{
+					"gloss": "<i>to be muzzled, to be prevented from eating while at work</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 89a:2\">B. Mets. 89ᵃ</cite> <he>לאקושי חוֹסֵם לנֶחְסָם וכ׳</he> to draw a parallel between the muzzler (human laborer) and the muzzled (laboring brute)."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְחַסֵּם"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְחַסֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to be bent into a rim</i>. ",
+					"units": ["<cite ref=\"Mishnah Kelim 20:2\">Kel. XX, 2</cite>."]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

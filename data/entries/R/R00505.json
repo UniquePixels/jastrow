@@ -1,0 +1,41 @@
+{
+	"id": "R00505",
+	"slug": "צלי-1",
+	"headword": {
+		"text": "צלי"
+	},
+	"altHeadwords": [
+		{
+			"text": "צָלָה"
+		}
+	],
+	"page": {
+		"number": 1283,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to turn</i>, cmp. <cite ref=\"I00154\"><he>טְוִי</he> II</cite>,] <i>to roast</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Pesachim 5:9\">Tosef. Pes. V, 9</cite> <he>בישלו … צְלָאוֹ</he> if he cooked (the Passover lamb) and then roasted it; <cite ref=\"Pesachim 41a:21\">Pes. 41ᵃ</cite>. ",
+				"<cite ref=\"Pesachim 41a:21\">Ib.</cite> <he>צלאו כל צורכו</he> if he roasted it as much as needed (well-done, contrad. to <cite ref=\"N00003\"><he>נא</he></cite>). ",
+				"<cite ref=\"Mishnah Pesachim 7:1\">Ib. VII, 1</cite> <he>כיצד צוֹלִין וכ׳</he> how must the Passover lamb be roasted? <cite ref=\"Mishnah Pesachim 7:2\">Ib. 2</cite> <he>צא וצְלֵה לנו וכ׳</he> go out and roast the lamb for us &c. Y. ib. VII, beg. 34ᵃ <he>צְלָייוֹ בגדי וכ׳</he> if he roasted it together with a secular (not sacrificial) kid. Ib. bot. <he>בשר לִצְלוֹת</he> meat to roast it; a. fr.—Part. pass. <he>צָלוּי</he>; f. <he>צְלוּיָה</he>, <he>צְלוּיָיה</he>. ",
+				"<cite ref=\"Avodah Zarah 29a:8\">Ab. Zar. 29ᵃ</cite> <he>ביצה צ׳</he> a roasted egg; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִצְלֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to be roasted</i>. Y. Pes. l. c. <he>נִצְלָה מקצתו וכ׳</he> if it was roasted partly by the heat of the stove &c.; a. fr.—",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 1:10\">Sabb. I, 10</cite> <he>כדי שיִצּוֹלוּ וכ׳</he> (fr. <cite ref=\"R00192\"><he>צול</he></cite>) in time to be roasted before the Sabbath begins."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

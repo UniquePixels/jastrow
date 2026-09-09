@@ -1,0 +1,34 @@
+{
+	"id": "A02088",
+	"slug": "אנבג",
+	"headword": {
+		"text": "אַנְבַּג"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַנְבְּגָא"
+		},
+		{
+			"text": "אַנְפַּק"
+		},
+		{
+			"text": "אַנְפְּקָא"
+		}
+	],
+	"page": {
+		"number": 80,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"N00041\"><he>נַבְגָּא</he></cite>; whence ἄμβικος, ἄμβιξ, ambiga) <i>a small cup; a measure</i> containing one fourth of a Log. ",
+			"units": [
+				"<cite ref=\"Bava Batra 58b:3\">B. Bath. 58ᵇ</cite> on the gates of … it is written, <he>אנבג אנפק וכ׳</he> (Ms. differ. order) Anbag, Anpak a. Antal (as the same measures). ",
+				"<cite ref=\"Kiddushin 70a:15\">Kidd. 70ᵃ</cite> <he>לישתי מר אנבגא</he> will you take a cup (of wine &c.)? [Popular pronunciation: <i>anpak</i>.] <cite ref=\"Shabbat 109b\">Sabb. 109ᵇ</cite> <he>אנפקא</he>; a. e."
+			]
+		}
+	]
+}

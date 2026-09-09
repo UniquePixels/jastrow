@@ -1,0 +1,24 @@
+{
+	"id": "H01527",
+	"slug": "חציצה",
+	"headword": {
+		"text": "חֲצִיצָה"
+	},
+	"page": {
+		"number": 495,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חָצַץ</he> I) <i>interposition, an intervening object</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 82a:16\">B. Kam. 82ᵃ</cite> bot. <he>משום ח׳</he> to prevent an interposition (to remove anything sticking to the body or in the hair before bathing). ",
+				"<cite ref=\"Zevachim 19a:5\">Zeb. 19ᵃ</cite> <he>ותיפוק ליה משום ח׳</he> ought it not to be forbidden as an unlawful interposition between the priest’s hand and the object he has to handle?; a. fr.—Pl. <he>חֲצִיצִין</he> <i>the laws concerning interpositions</i>. ",
+				"<cite ref=\"Eruvin 4a:10\">Erub. 4ᵃ</cite>; <cite ref=\"Sukkah 5b:13\">Succ. 5ᵇ</cite>"
+			]
+		}
+	]
+}

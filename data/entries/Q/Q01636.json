@@ -1,0 +1,28 @@
+{
+	"id": "Q01636",
+	"slug": "פרוון",
+	"headword": {
+		"text": "פַּרְוָון"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְוָן"
+		}
+	],
+	"page": {
+		"number": 1217,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"Q00345\"><he>פּוּרְיָא</he> II</cite>) <i>litters</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 49:22\">Targ. Is. XLIX, 22</cite> (h. text <he>כתף</he>)."
+			]
+		}
+	]
+}

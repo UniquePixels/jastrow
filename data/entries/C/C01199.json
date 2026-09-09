@@ -1,0 +1,35 @@
+{
+	"id": "C01199",
+	"slug": "גפה-1",
+	"headword": {
+		"text": "גַּפָּה"
+	},
+	"page": {
+		"number": 262,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " f. (<cite ref=\"C01197\"><he>גַּפָּא</he></cite> m. ch.) (v. <cite ref=\"C01198\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>stone fence with gate</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 6:2\">Peah VI, 2</cite> <he>סמוך לג׳ ולגדיש</he> (Ms. M. <he>לגפא ולגדר</he>, Ar. <he>לגפא</he>) near the stone fence (ready for being carried out) or the stack; <cite ref=\"Mishnah Eduyot 4:4\">Eduy. IV, 4</cite>. ",
+				"<cite ref=\"Mishnah Kilayim 2:8\">Kil. II, 8</cite> (Ms. M. … <he>א</he>). ",
+				"<cite ref=\"Mishnah Bava Metzia 2:3\">B. Mets. II, 3</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>ג׳ של רומי</he> (Ch. <i>the Capitol of Rome</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 115:2\">Sifré Num. 115</cite> <he>ג׳ של ר׳</he> (Var. <cite ref=\"C01202\"><he>גפי</he></cite>) by the Capitol of Rome (an invocation used by a gentile woman). ",
+				"<cite ref=\"Menachot 44a:6\">Men. 44ᵃ</cite> <he>ג׳ של פרס</he> (read <cite ref=\"T00390\"><he>רומי</he></cite>, Ar. <he>גפא דרומי</he>). ",
+				"<cite ref=\"Pesachim 87b:19\">Pes. 87ᵇ</cite> <he>ג׳ דרומאי</he> ed. (Ms. M. <cite ref=\"D01060\"><he>דרומי</he></cite>, omitted in some ed.)."
+			],
+			"label": "2"
+		}
+	]
+}

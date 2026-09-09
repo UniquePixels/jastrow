@@ -1,0 +1,50 @@
+{
+	"id": "O01315",
+	"slug": "ספד-1",
+	"headword": {
+		"text": "סָפַד"
+	},
+	"page": {
+		"number": 1011,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to strike, beat;</i> cmp. Lat. plango,] <i>to lament, mourn</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 57a:16\">Gitt. 57ᵃ</cite> <he>סִיפְדוּ לזה</he> mourn for this man. ",
+				"<cite ref=\"Sanhedrin 47a\">Snh. 47ᵃ</cite>, a. e. <he>אל תִּסְפְּדוּנִי וכ׳</he> do not hold services for me in the towns; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִסְפִּיד"],
+			"senses": [
+				{
+					"gloss": "<i>to arrange funeral</i> or <i>memorial services for; to lament, eulogise</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Moed Katan 1:5\">M. Kat. I, 5</cite> <he>ולא יַסְפִּידֶנּוּ קידם וכ׳</he> and must not engage a <i>safdan</i> (eulogist) for him thirty days before a festival. ",
+						"<cite ref=\"Megillah 28b:1\">Meg. 28ᵇ</cite> <he>אין מַסְפִּידִין בהן וכ׳</he> no funeral services for an individual must be held in them (the synagogues); <he>ומספידין … רבים</he> but you may use them for funeral services in cases of public mourning (for a distinguished person). ",
+						"<cite ref=\"Tractate Semachot 3:4\">Treat. S’maḥ. III, 4</cite> <he>מספידין לעניים וכ׳</he> mourning services are held for children of poor men at the age of three, for those of rich men at the age of four years. ",
+						"<cite ref=\"Moed Katan 21b:5\">M. Kat. 21ᵇ</cite> <he>והִסְפִּידוּם הספד גדול</he> and they arranged a great lamentation over them (the sons of R. ‘Aḳiba); a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִסְפַּד"],
+			"senses": [
+				{
+					"gloss": "<i>to be mourned for, be eulogised</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 47a:4\">Snh. 47ᵃ</cite> <he>מת לא נ׳ וכ׳</he> a dead not mourned for and not buried. ",
+						"<cite ref=\"Yevamot 78b\">Yeb. 78ᵇ</cite> <he>שלא נ׳ כהלכה</he> no appropriate lamentations were held over his remains; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

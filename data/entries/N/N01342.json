@@ -1,0 +1,44 @@
+{
+	"id": "N01342",
+	"slug": "נשק-2",
+	"headword": {
+		"text": "נְשַׁק"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְשֵׁיק"
+		}
+	],
+	"page": {
+		"number": 941,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01341\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 29:11\">Targ. Gen. XXIX, 11</cite>; <cite ref=\"Onkelos Genesis 29:13\">13</cite> (O. ed. Vien. <cite ref=\"N01342\"><he>נַשֵּׁיק</he></cite> <i>Pa.</i>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 24:26\">Targ. Prov. XXIV, 26</cite> <he>נִנְשְׁקוּ וכ׳</he> let them <i>close</i> the lips of &c. ",
+				"<cite ref=\"Aramaic Targum to Job 31:27\">Targ. Job XXXI, 27</cite>; a. fr.—",
+				"<cite ref=\"Moed Katan 25b:14\">M. Kat. 25ᵇ</cite> <he>נָשׁוּק</he>, v. <cite ref=\"K00599\"><he>כֵּיפָא</he> I</cite>. ",
+				"<cite ref=\"Bava Batra 74a:6\">B. Bath. 74ᵃ</cite> <he>היכא דנַשְׁקָא ארעא וכ׳</he> where earth and heaven meet. ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 4:6:1\">Y. Maas. Sh. IV, 55ᵇ</cite> bot. <he>חמית … נשקה וכ׳</he> I saw in my dream one of my eyes touch the other. ",
+				"<cite ref=\"Gittin 57b:20\">Gitt. 57ᵇ</cite> bot. <he>ואֵינַשְׁקֵיה פורתא</he> that I may kiss him a little (before he is put to death); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַשֵּׁיק", "נַשֵּׁק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01341\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 31:28\">Targ. O. Gen. XXXI, 28</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

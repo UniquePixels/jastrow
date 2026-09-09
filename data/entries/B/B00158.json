@@ -1,0 +1,41 @@
+{
+	"id": "B00158",
+	"slug": "בדקא",
+	"headword": {
+		"text": "בִּדְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּידְקָא"
+		}
+	],
+	"page": {
+		"number": 141,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"B00157\"><he>בֶּדֶק</he></cite><i>breaking into, freshet, bursting dam</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 66b:12\">B. Mets. 66ᵇ</cite> <he>אתא ב׳ וכ׳</he> a freshet came and overflooded &c. ",
+				"<cite ref=\"Bava Batra 41a:7\">B. Bath. 41ᵃ</cite> <he>שקל בי׳ וכ׳</he> a freshet swept his field (taking away the fence). ",
+				"<cite ref=\"Chullin 105a:12\">Ḥull. 105ᵃ</cite> <he>צינורא דב׳</he> Ar. a channel caused by a freshet, v. <cite ref=\"B00155\"><he>בְּדַק</he></cite>. ",
+				"<cite ref=\"Sanhedrin 7a\">Snh. 7ᵃ</cite> strife is likened <he>לצינורא דבי׳</he> (<he>דמיא</he>) <he>וכ׳</he> to an inroad made by a burst (of water), once entering it widens more and more; a. fr.—Pl. <he>בִּדְקֵי</he>, <he>בִּידְקֵי</he>. ",
+				"<cite ref=\"Eruvin 21a:8\">Erub. 21ᵃ</cite> <he>דשכיחי בי׳</he> where freshets are of frequent occurrence."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>breach, defect</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 42:9\">Targ. O. Gen. XLII, 9</cite> (h. <cite ref=\"P01321\"><he>ערוה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 12:6\">Targ. II Kings XII, 6</cite> sq.—Pl. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 1:8\">Targ. Lam. I, 8</cite> <he>בִּדְקָהָא</he> her shortcomings (h. <he>עֶרְוָתָהּ</he>). [<cite ref=\"Bava Batra 61a:2\">B. Bath. 61ᵃ</cite> <cite ref=\"B00158\"><he>בדקא</he></cite>, v. <cite ref=\"B01319\"><he>בַּרְקָא</he> III</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

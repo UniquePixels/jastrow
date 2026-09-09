@@ -1,0 +1,51 @@
+{
+	"id": "H01302",
+	"slug": "חנך-1",
+	"headword": {
+		"text": "חָנַךְ"
+	},
+	"page": {
+		"number": 484,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; sec. r. of <cite ref=\"H00312\"><he>חוך</he></cite>)<i>to rub, polish, finish;</i> trnsf. <i>to train; to dedicate</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִנֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to train, initiate</i> (a child); <i>to inaugurate, prepare for office; to dedicate</i>. Y. Yoma I, 38ᵇ top … <he>מה מְחַנְּכִין אותו וכ׳</he> as the Highpriest’s inauguration lasted seven days (<cite ref=\"Leviticus 8:33\">Lev. VIII, 33</cite>, sq.), so is the Highpriest prepared for the service of the Day of Atonement seven days. ",
+					"units": [
+						"<cite ref=\"Nazir 29a:11\">Naz. 29ᵃ</cite> <he>כדי לחַנְּכוֹ במצות</he> in order to initiate his son into the performance of religious duties. ",
+						"<cite ref=\"Mishnah Yoma 8:4\">Yoma VIII, 4</cite>; Tosef. ib. V (IV), 2 <he>מְחַנְּכִין וכ׳</he> you must train them gradually (to fast on the Day of Atonement) a year or two before religious maturity.—",
+						"<cite ref=\"Mishnah Moed Katan 1:6\">M. Kat. I, 6</cite> <he>מח׳ את הכוכין וכ׳</he> you may finish up the excavated chambers; v. <cite ref=\"H00819\"><he>חִינּוּךְ</he></cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["חֻנָּךְ"],
+			"senses": [],
+			"stem": "Pu."
+		},
+		{
+			"forms": ["הִתְחַנֵּךְ"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְחַנֵּךְ</he> <i>to be inaugurated, to be dedicated</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 964:19\">Yalk. Prov. 964</cite> <he>יצחק ח׳ וכ׳</he>; Pesik. Baḥod., p. 101ᵃ <he>יצחק נתח׳ וכ׳</he> Isaac was initiated into the covenant on his eighth day. Sifra Vayikra, Ḥoba, ch. III, Par. 3 <he>שיִתְחַנֵּךְ המזבח וכ׳</he> that the altar must be dedicated by offering frankincense. ",
+						"<cite ref=\"Zevachim 40b\">Zeb. 40ᵇ</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

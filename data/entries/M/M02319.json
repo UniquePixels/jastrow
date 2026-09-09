@@ -1,0 +1,22 @@
+{
+	"id": "M02319",
+	"slug": "מצילתא",
+	"headword": {
+		"text": "מְצִילְתָּא"
+	},
+	"page": {
+		"number": 826,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01132\"><he>נְצַל</he></cite>), <he>מְצִילַת קַצְרַיָּא</he> <i>the washers’ fork</i> (?). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 13:21\">Targ. I Sam. XIII, 21</cite> Kimḥi (ed. <cite ref=\"M02332\"><he>מִצְלַת</he></cite>, <cite ref=\"M02357\"><he>מִיצְ׳</he></cite>; ed. Lag. <cite ref=\"M02330\"><he>מַצְלִית</he></cite>; h. text <he>קִלְּשׁוֹן</he>)."
+			]
+		}
+	]
+}

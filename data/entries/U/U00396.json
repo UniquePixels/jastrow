@@ -1,0 +1,41 @@
+{
+	"id": "U00396",
+	"slug": "שויא",
+	"headword": {
+		"text": "שַׁוְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁוְויָא"
+		},
+		{
+			"text": "שִׁיוְו׳"
+		},
+		{
+			"text": "שִׁוּוּיָא"
+		},
+		{
+			"text": "שִׁיוּוּ׳"
+		}
+	],
+	"page": {
+		"number": 1533,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00392\"><he>שְׁוֵי</he></cite>) [<i>that which is levelled, smooth</i>,] <i>couch</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 3:11\">Targ. Y. Deut. III, 11</cite> (h. text <cite ref=\"P01458\"><he>ערש</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 20:25\">Targ. I Sam. XX, 25</cite> (h. text <cite ref=\"M00680\"><he>מושב</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 1:47\">Targ. I Kings I, 47</cite> (h. text <cite ref=\"M02895\"><he>משכב</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 4:5\">Targ. Ps. IV, 5</cite> <he>שִׁיוּוּיֵכוֹן</he> ed. Lag. a. oth. (some ed. <he>שִׁיוּוּתְכוֹן</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 6:7\">Ib. VI, 7</cite>; a. e.—Pl. <he>שִׁוְיִין</he>, <he>שִׁוּוּיִין</he>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 17:13\">Targ. Job XVII, 13</cite>.—V. <cite ref=\"V01073\"><he>תַּשְׁוִויתָא</he></cite>."
+			]
+		}
+	]
+}

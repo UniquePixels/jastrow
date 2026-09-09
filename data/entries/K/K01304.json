@@ -1,0 +1,20 @@
+{
+	"id": "K01304",
+	"slug": "כשט",
+	"headword": {
+		"text": "כְּשַּׁט",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 675,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <he>קשט</he>), <i>Af.</i> <he>אַכְשַׁט</he> <i>to do well, prosper</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 1:8\">Targ. Josh. I, 8</cite> <he>תַּכְשָׁט</he> (ed. Lag. <cite ref=\"V00560\"><he>תַּכְשִׁיט</he></cite>; h. text <he>תשכיל</he>, Pesh. <he>תכשר</he>)."
+			]
+		}
+	]
+}

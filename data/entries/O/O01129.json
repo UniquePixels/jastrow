@@ -1,0 +1,68 @@
+{
+	"id": "O01129",
+	"slug": "סמק",
+	"headword": {
+		"text": "סְמֵק"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְמֵיק"
+		}
+	],
+	"page": {
+		"number": 1003,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"O00351\"><he>סוּמַּק</he></cite>) <i>to be red</i> (interch. with <i>Pa.</i> in Targ. editions). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 31:18\">Targ. Y. Num. XXXI, 18</cite>. ",
+				"<cite ref=\"Onkelos Genesis 49:12\">Targ. Gen. XLIX, 12</cite> (Ms. <he>יְסוּמְקוּן</he>); a. fr.—",
+				"<cite ref=\"Bava Batra 84a:5\">B. Bath. 84ᵃ</cite> <he>דקא סָמְקָא וכ׳</he> for it (the sun) is red in the morning and in the evening; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַמֵּיק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O01128\">same</cite>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to redden</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 49:11\">Targ. Y. Gen. XLIX, 11</cite>.—",
+						"<cite ref=\"Vayikra Rabbah 12:1\">Lev. R. s. 12</cite> (expl. <he>כי יתאדם</he>, <cite ref=\"Proverbs 23:31\">Prov. XXIII, 31</cite>) <he>ודאי מְסַמֵּיק ליה</he> (or <he>מַסְמִיק</he> <i>Hif.</i>) the wine will surely make him red (excite him). Y. Ḥag. II, 77ᵈ bot.; Y. Snh. VI, 23ᶜ <he>בגין דלא מְסַמְּקָא אפוי</he> (not <he>מסמקי</he>) in order not to make his face red (put him to shame); a. e.—<i>Part. pass.</i> <he>מְסַמַּק</he>; pl. <he>מְסַמְּקִין</he>, <he>מְסַמְּקֵי</he>. ",
+						"<cite ref=\"Onkelos Exodus 26:14\">Targ. Ex. XXVI, 14</cite>. ",
+						"<cite ref=\"Targum Jonathan on Nahum 2:4\">Targ. Nah. II, 4</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַסְמֵיק"],
+			"senses": [
+				{
+					"gloss": "<i>to become</i> or <i>be dark red</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 93b\">Ḥull. 93ᵇ</cite>; <cite ref=\"Pesachim 74b:9\">Pes. 74ᵇ</cite> <he>אומצא דא׳</he> a piece of meat which is dark red (from congested blood). ",
+						"<cite ref=\"Pesachim 74b:6\">Ib.</cite> <he>בין א׳ בין לא א׳</he> whether the fluid looks red; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make red</i>, v. supra.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"id": "S00922",
+	"slug": "קיטרא",
+	"headword": {
+		"text": "קִיטְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּטְ׳"
+		},
+		{
+			"text": "קִטְ׳"
+		}
+	],
+	"page": {
+		"number": 1358,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְטַר</he> I) <i>knot, band.—</i>Pl. <he>קִיטְרִין</he>, <cite ref=\"S00915\"><he>קִיטְרֵי</he></cite>, <cite ref=\"S00915\"><he>קִטְ׳</he></cite>, <cite ref=\"S00922\"><he>קוּטְ׳</he></cite>. Targ. II Esth. VI, 10 <he>קִ׳ חרציה וכ׳</he> (some ed. <cite ref=\"S01557\"><he>קַ׳</he></cite>, v. ",
+			"units": [
+				"<cite ref=\"Daniel 5:6\">Dan. V, 6</cite>) the knots of (the belt of) his loins were loosed, v. <cite ref=\"S00726\"><he>קְטוֹר</he></cite>.—",
+				"<cite ref=\"Chullin 51b:14\">Ḥull. 51ᵇ</cite>, v. <cite ref=\"A01198\"><he>אִיזְלָא</he></cite>. ",
+				"<cite ref=\"Chullin 51a:12\">Ib. 51ᵃ</cite> <he>אי אית ביה ק׳</he> if the stick is knotty (has hard protuberances). ",
+				"<cite ref=\"Pesachim 74a:4\">Pes. 74ᵃ</cite> <he>שיעי ק׳</he> (Ms. O. <he>קיטריה</he>, Rashi <he>קוטריה</he>) the knots on the branch of a pomegranate tree are smooth. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 7:2:8\">Y. Shek. VII, beg. 50ᶜ</cite> <he>יחכמון … קִיטְרֵיהוֹן</he> let the wine sellers identify their knots (made as seals, v. <cite ref=\"H00498\"><he>חוֹתָם</he></cite>). ",
+				"<cite ref=\"Ketubot 93a\">Keth. 93ᵃ</cite>, a. e. <he>חייתא דק׳</he>, v. <cite ref=\"H00747\"><he>חַיְיתָא</he> IV</cite>; a. fr.—Trnsf. "
+			],
+			"senses": [
+				{
+					"gloss": " <i>bands, alliances</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 7:18\">Targ. Is. VII, 18</cite> (?).—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>restrictions</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 107b:9\">Yeb. 107ᵇ</cite> <he>תרי ק׳ עבדו ביה</he> they put him under two disadvantages."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

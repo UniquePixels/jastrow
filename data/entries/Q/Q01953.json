@@ -1,0 +1,33 @@
+{
+	"id": "Q01953",
+	"slug": "פרף",
+	"headword": {
+		"text": "פָּרַף"
+	},
+	"page": {
+		"number": 1236,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"Q00379\"><he>פורפא</he></cite> πόρπη) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to clasp</i>. Part. pass. <he>פָּרוּף</he>; f. <he>פְּרוּפָה</he>; pl. <he>פְּרוּפִים</he>, <he>פְּרוּפִין</he>; <he>פְּרוּפוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 5:1\">Yoma V, 1</cite> <he>החיצונה היתה פ׳ וכ׳</he> the outer curtain was held back by a clasp on the north side, and the inner curtain on the south side (so as to make room for entering, without exposing to view the Holy of Holies)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to fasten a garment over the shoulder by attaching a weight to its overhanging corner</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 6:7\">Sabb. VI, 7</cite> <he>פּוֹרֶפֶת על האבן וכ׳</he> a woman may wear a cloak thrown over her shoulder weighted by a stone or a nut; <he>ובלבד שלא תִפְרוֹף וכ׳</he> provided she does not attach the weight for the first time on the Sabbath (v. ",
+				"<cite ref=\"Shabbat 65b\">Sabb. 65ᵇ</cite>); Tosef. ib. IV (V), 13 <he>פורפת בתחילה בדבר וכ׳</he> she may attach a weight for the first time using an object which it is permitted to handle on the Sabbath; a. e.—Part. pass. as ab. ",
+				"<cite ref=\"Mishnah Shabbat 6:6\">Sabb. VI, 6</cite> <he>ומדיות</he> (<he>יוצאות</he>) <he>פ׳</he> Median women may go out on the Sabbath with their cloaks thrown over their shoulders &c."
+			],
+			"label": "2"
+		}
+	]
+}

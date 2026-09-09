@@ -1,0 +1,31 @@
+{
+	"id": "Q00477",
+	"slug": "פחלין",
+	"headword": {
+		"text": "פַּחְלִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "פֶּחָלִין"
+		}
+	],
+	"page": {
+		"number": 1152,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"Q00476\"><he>פחל</he></cite>, cmp. <cite ref=\"Q00450\"><he>פַּחְדִּין</he></cite> a. Syr. <he>פחלא</he> testiculus, P. Sm. 3081) <i>ball, bale</i>; <he>פ׳ של גמלים</he> <i>a bale</i>, made of a net of ropes with wide meshes, containing the freight <i>of camels</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 24:9\">Kel. XXIV, 9</cite> <cite ref=\"Q00179\"><he>פוחלץ</he></cite> (corr. acc.). ",
+				"<cite ref=\"Tosefta Keilim Metsia 6:6\">Tosef. Kel. B. Mets. VI, 6</cite> <he>הסל והפ׳ של ג׳ … שעשאן וכ׳</he> a basket or a bale … the meshes of which had originally been made narrow enough to hold pomegranates. ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 3:8:3\">Y. Shebu. III, 34ᵈ</cite> (Chald. dict.) <he>אייתון פ׳ דגמלין ומלון וכ׳</he> they brought bales and stuffed them with straw; <cite ref=\"Jerusalem Talmud Nedarim 3:2:3\">Y. Ned. III, beg. 37ᵈ</cite> bot. <he>פחלץ</he> (corr. acc.).—",
+				"<cite ref=\"Yalkut Shimoni on Torah 762\">Yalk. Num. 762</cite> <cite ref=\"Q00218\"><he>פולחן</he></cite> (prob. to be read: <he>פוחלין</he>)."
+			]
+		}
+	]
+}

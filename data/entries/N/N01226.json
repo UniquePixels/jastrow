@@ -1,0 +1,31 @@
+{
+	"id": "N01226",
+	"slug": "נקם-2",
+	"headword": {
+		"text": "נְקַם"
+	},
+	"page": {
+		"number": 933,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N01225\">same</cite> <cite ref=\"Onkelos Leviticus 19:18\">Targ. Lev. XIX, 18</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְנַקַּם"],
+			"senses": [
+				{
+					"gloss": "<i>to be punished</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Exodus 21:20\">Targ. Y. II, Ex. XXI, 20</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

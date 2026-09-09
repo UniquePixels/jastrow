@@ -1,0 +1,46 @@
+{
+	"id": "L00480",
+	"slug": "לימודים",
+	"headword": {
+		"text": "לִימּוּדִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִימּוּדִין"
+		},
+		{
+			"text": "לִמּ׳"
+		}
+	],
+	"page": {
+		"number": 708,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"L00565\"><he>לָמַד</he></cite>) [<i>junctions</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mortised shingles</i> or <i>boards</i> used as frames. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 5:9\">Kel. V, 9</cite> <he>תנור … ועשה לו ל׳</he> an oven which came in parts from the workshop and which (after being put up) was surrounded with a frame. ",
+				"<cite ref=\"Mishnah Kelim 5:9\">Ib.</cite> <he>סלק את לִימּוּדָיו</he> ed. Dehr. (oth. ed. <cite ref=\"L00480\"><he>לִמּ׳</he></cite>) if the frame was removed; <cite ref=\"Tosefta Kelim Kamma 4:12\">Tosef. Kel. B. Kam. IV, 12</cite>. ",
+				"<cite ref=\"Tosefta Kelim Kamma 7:9\">Ib. VII, 9</cite> <he>עין של תנור … ל׳ וכ׳</he> a chimney-flue which is lined with boards. ",
+				"<cite ref=\"Tosefta Pesachim 7:1\">Tosef. Pes. VII, 1</cite>; <cite ref=\"Mishnah Moed Katan 2:2\">M. Kat. II, 2</cite> <he>עושה לו ל׳ וכ׳</he> he makes a frame of shingles and covers the vat that the wine may not get sour; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a sort of common bread</i>, ‘<i>shingles</i>’. ",
+			"units": [
+				"<cite ref=\"Tosefta Challah 1:7\">Tosef. Ḥall. I, 7</cite>; Y. ib. I, end, 58ᵃ <he>עשאה ל׳ פטורה</he> if he made the ‘dog’s dough’, into ‘shingles’, it is exempt (from Ḥallah); <cite ref=\"Berakhot 38a:11\">Ber. 38ᵃ</cite> <he>כל׳</he> ed.; v. <cite ref=\"K00965\"><he>כַּעַךְ</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

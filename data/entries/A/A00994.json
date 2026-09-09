@@ -1,0 +1,42 @@
+{
+	"id": "A00994",
+	"slug": "אחד-1",
+	"headword": {
+		"text": "אֶחָד"
+	},
+	"page": {
+		"number": 38,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., <cite ref=\"A01063\"><he>אַחַת</he></cite> f. (b. h.; v. <cite ref=\"A00995\">next w.</cite>, <i>one</i>. [Freq. represented by <he>א׳</he>.] <cite ref=\"Kiddushin 50b:11\">Kidd. 50ᵇ</cite>, a. fr. <he>בבת אחת</he> <i>simultaneously</i>, v. <cite ref=\"B01379\"><he>בַּת</he> III</cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 3:3\">Peah III, 3</cite> <he>המחליק מאחת יד וכ׳</he> (Ms. M. <he>בא׳</he>) he who takes out onions with a unity of hand, i.e. all of them for one purpose. ",
+				"<cite ref=\"Berakhot 61b\">Ber. 61ᵇ</cite>, a. fr. <he>על אחת כמה וכמה</he> (abbr. <he>עאכ״ו</he>) how much against one, i.e. <i>how much the more</i>.—<he>אחד</he> … <he>אחד</he> <i>both … as well as</i>. ",
+				"<cite ref=\"Mishnah Temurah 1:1\">Tem. I, 1</cite> <he>א׳ האנשים וכ׳</he> both, men as well as women. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 5:2:3\">Y. Keth. V, 29ᵈ</cite> top <he>אחת זו ואחתֹ זו</he> the one as well as the other; a. fr.—<he>כְּאֶחָד</he>, <he>כְּאַחַת</he> <i>at the same time</i>. ",
+				"<cite ref=\"Tosefta Negaim 1:11\">Tosef. Neg. I, 11</cite>; sq. ",
+				"<cite ref=\"Sotah 8a:12\">Sot. 8ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Yoma 1:7\">Yoma I, 7</cite> <he>והפג אחת</he> and cool thyself <i>for once, for a change</i>, v. <cite ref=\"H00222\"><he>חֲדַת</he></cite>.—Pl. <he>אֲחָדִים</he>"
+			]
+		},
+		{
+			"gloss": "<i>singular, unique</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 62:20\">Yalk. Gen. 62</cite> (ref. to <he>דברים אחדים</he> <cite ref=\"Genesis 11:1\">Gen. XI, 1</cite>) they spoke words <he>על שני א׳</he> against two only ones (ref. to <he>אחד</he> <cite ref=\"Ezekiel 33:24\">Ezek. XXXIII, 24</cite> a. ",
+				"<cite ref=\"Deuteronomy 6:4\">Deut. VI, 4</cite>) [corr. acc. ",
+				"<cite ref=\"Bereishit Rabbah 38:10\">Gen. R. s. 38</cite>]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"A00996\"><he>אֲחַד</he></cite>) <i>closed up, mysterious</i>. Gen. R. l. c. (Yalk. l. c. <he>אֲחוּדִים</he> v. <cite ref=\"A00995\">next w.</cite>).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

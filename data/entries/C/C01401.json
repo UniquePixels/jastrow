@@ -1,0 +1,23 @@
+{
+	"id": "C01401",
+	"slug": "גרריקי",
+	"headword": {
+		"text": "גְּרָרִיקִי"
+	},
+	"page": {
+		"number": 273,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (a Greek formation fr. <cite ref=\"C01392\"><he>גְּרָר</he></cite>, LXX Γέραροι) <i>Gerariké, the district of G’rar</i> in Philistea. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 20:1\">Targ. Y. Gen. XX, 1</cite> (Ar. ; ib. XXVI, 1.—",
+				"<cite ref=\"Bereishit Rabbah 64\">Gen. R. s. 64</cite> <cite ref=\"C01280\"><he>גרדיקי</he></cite> (corr. acc.); Y. Shebi. VI, 36ᶜ bot. <cite ref=\"C01400\"><he>גרריקו</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

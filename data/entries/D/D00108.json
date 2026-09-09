@@ -1,0 +1,40 @@
+{
+	"id": "D00108",
+	"slug": "דגל-3",
+	"headword": {
+		"text": "דָּגַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 279,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " part. pass. <cite ref=\"D00102\"><he>דָּגוּל</he></cite>, v. <cite ref=\"D00109\"><he>דֶּגֶל</he></cite>.—<i>Nif.</i> <he>נִדְגַּל</he> (denom. of <cite ref=\"D00109\"><he>דֶּגֶל</he></cite>) <i>to be divided in troops, arranged</i>. Part. pl. f. <he>נִדְגָּלוֹת</he> <i>those arranged in troops, the hosts of heaven</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 2:19\">Num. R. s. 2</cite> (ref. to <cite ref=\"Song of Songs 6:4\">Cant. VI, 4</cite>) <he>ובמה אתם כנ׳</he> and wherein do ye (Israelites) resemble the angels?; <cite ref=\"Yalkut Shimoni on Nach 992:26\">Yalk. Cant. 992</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִדְגִּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to put up a flag, to signalize</i>. Tanḥ., ed. Bub., B’midb. 15 (ref. to <cite ref=\"Song of Songs 2:4\">Cant. II, 4</cite>) <he>ולוי הוא מַדְגִּיל עלי אהבה</he> (Tanḥ. ib. 14; Num. R. l. c. <he>מגדיל</he>) Oh, that He would let the flag of love wave over me!",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to arrange an assembly</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 63a\">Sabb. 63ᵃ</cite>, v. <cite ref=\"D00106\"><he>דָּגַל</he> I</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

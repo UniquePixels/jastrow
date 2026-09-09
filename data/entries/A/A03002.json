@@ -1,0 +1,28 @@
+{
+	"id": "A03002",
+	"slug": "ארדב",
+	"headword": {
+		"text": "אַרְדַּב"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְדְּבָא"
+		}
+	],
+	"page": {
+		"number": 115,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἀρτάβη, Syr. <cite ref=\"A03002\"><he>ארדבא</he></cite>, <he>ארטבא</he>) <i>Artaba</i>, a Persian and Egyptian dry measure (v. Zuckerm. Jüd. Masse p. 47; Sm. Ant. s. v.). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 80b\">B. Mets. 80ᵇ</cite> <he>א׳ לעריבה</he> Ar. (ed. <cite ref=\"A00461\"><he>אדריב</he></cite>) an Artaba is an unreasonable additional load for a small boat called Arebah. ",
+				"<cite ref=\"Eruvin 102a\">Erub. 102ᵃ</cite> Ar. (ed. <cite ref=\"A00461\"><he>אדריבא</he></cite>, v. Rabb. D. S. a. l. note 20)."
+			]
+		}
+	]
+}

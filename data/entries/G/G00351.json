@@ -1,0 +1,28 @@
+{
+	"id": "G00351",
+	"slug": "זיכי",
+	"headword": {
+		"text": "זִיכֵּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִיכַּיָּא"
+		}
+	],
+	"page": {
+		"number": 394,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"G00455\"><he>זכי</he></cite>, Pa.) <i>clearings</i>, i.e. <i>twigs, roots</i> &c. <i>collected for clearing the ground, rubbish</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 10b:7\">M. Kat. 10ᵇ</cite>; <cite ref=\"Bava Batra 54a:3\">B. Bath. 54ᵃ</cite> <he>האי מאן דזכי ז׳</he> (Ar. <cite ref=\"G00458\"><he>זִכַּיָּא</he></cite>, Var. in Mss. &c. <he>דִּיכַּיָּא</he>, <he>דִּכַּ׳</he>, <cite ref=\"G00455\"><he>זִכַּ׳</he></cite>, v. Rabb. D. S. a. l. note) he who clears away rubbish."
+			]
+		}
+	]
+}

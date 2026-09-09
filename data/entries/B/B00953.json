@@ -1,0 +1,38 @@
+{
+	"id": "B00953",
+	"slug": "בנין",
+	"headword": {
+		"text": "בִּנְיָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּינְיָן"
+		}
+	],
+	"page": {
+		"number": 177,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"B00942\"><he>בָּנָה</he></cite>)<i>building, structure; erection</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 51b:4\">Succ. 51ᵇ</cite> <he>מי שלא ראה בה״מ בבִנְיָנוֹ</he> whoever has not seen the Temple in its finished state, expl. ",
+				"<cite ref=\"Sukkah 51b:4\">ibid.</cite> <he>בִּנְיַן הורדוס</he> the Herodian Temple (Ms. M. … <he>ראה בנין בה״מ</he>; v. Rabb. D. S. a. l. note).—<he>אַמַּת הב׳</he>, v. <cite ref=\"A01989\"><he>אַמָּה</he></cite>.—",
+				"<cite ref=\"Shabbat 102b:7\">Sabb. 102ᵇ</cite> <he>דרך ב׳ בכן</he> such kind of labor belongs to builders’ work. ",
+				"<cite ref=\"Shabbat 102b:7\">Ib.</cite> <he>דמי לב׳</he> it looks like builders’ work; a. fr.—בִּנְיַן אב <i>standard rule</i>, v. <cite ref=\"A00017\"><he>אָב</he></cite>; v. ",
+				"<cite ref=\"Chullin 78b\">Ḥull. 78ᵇ</cite>, <cite ref=\"Bava Kamma 77b:13\">B. Kam. 77ᵇ</cite> <he>זה בנה אב</he> this (<cite ref=\"Exodus 12:5\">Ex. XII, 5</cite>) forms the rule, wherever <cite ref=\"U00293\"><he>שה</he></cite> is used &c. (v. Tosaf. a. l.).—",
+				"<cite ref=\"Shabbat 114a:7\">Sabb. 114ᵃ</cite> <he>בִּנְיָנוֹ של עולם</he> the preservation of the (mental and moral) world."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>human frame, skeleton</i>. Ohol. II, 1 <he>רוב בניינו</he> the greater portion of a corpse as to size of limbs, contrad. to <he>רוב מניינו</he> the larger as to the number of joints and limbs.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

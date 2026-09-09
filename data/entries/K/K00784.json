@@ -1,0 +1,38 @@
+{
+	"id": "K00784",
+	"slug": "כלתא",
+	"headword": {
+		"text": "כַּלְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּלְ׳"
+		},
+		{
+			"text": "כַּלָּ׳"
+		}
+	],
+	"page": {
+		"number": 645,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"K00691\"><he>כַּלָּה</he></cite> , <i>bride; daughter-in-law</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 61:10\">Targ. Is. LXI, 10</cite> (ed. Wil. <cite ref=\"K00784\"><he>כַּלְתָּא</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 11:31\">Targ. Gen. XI, 31</cite>; a. fr.—",
+				"<cite ref=\"Gittin 57a:6\">Gitt. 57ᵃ</cite> <he>כי הוו מפקי חתנא וכ׳</he> when they led forth bride and groom in procession. ",
+				"<cite ref=\"Bava Batra 143b:4\">B. Bath. 143ᵇ</cite> <he>כַּלְּתֵיה</he> his daughter-in-law. ",
+				"<cite ref=\"Meilah 19a:22\">Meïl. 19ᵃ</cite> <he>דהבא דכלתיה דנון</he> the gold ware of the daughter-in-law of Nun (which was found to have lost in weight); a. fr.—[<cite ref=\"Aramaic Targum to Job 15:32\">Targ. Job XV, 32</cite> <he>וכַלְתַיה</he>, v. <cite ref=\"K00557\"><he>כִּילְתָא</he> I</cite>.]—Pl. <cite ref=\"K00784\"><he>כַּלָּתָא</he></cite>, <he>כַּלָּתָה</he>, <cite ref=\"K00769\"><he>כַּלָּן</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Ruth 1:6\">Targ. Ruth I, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 7:34\">Targ. Jer. VII, 34</cite>.—Meïl. l. c. <he>דהבא דרמיין כַּלָּתָיךְ</he> the gold ware which thy daughters-in-law cast carelessly about (by which they wear off). ",
+				"<cite ref=\"Ketubot 17a:2\">Keth. 17ᵃ</cite> <he>משרי קמי כ׳</he> they sang before (the processions of) brides. ",
+				"<cite ref=\"Yevamot 21b:4\">Yeb. 21ᵇ</cite> <he>כלתה דבי …</he> the daughters-in-law of the house of … (where there were wives of his daughter’s sons and wives of his son’s sons).—V. <cite ref=\"K00729\"><he>כַּלַּיָּיה</he></cite>, <cite ref=\"K00739\"><he>כַּלִּין</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "A00990",
+	"slug": "אח-3",
+	"headword": {
+		"text": "אָח",
+		"homograph": 2
+	},
+	"page": {
+		"number": 38,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " interj. ",
+			"units": []
+		},
+		{
+			"gloss": " (b. h.) exclamation of sorrow, <i>Oh!</i> <cite ref=\"Megillah 11a:16\">Meg. 11ᵃ</cite> (play on <i>ăhashverosh;</i> v. <cite ref=\"A00988\"><he>אָח</he> I</cite>) <he>א׳ לראשו</he> woe upon his head. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 102b:5\">Snh. 102ᵇ</cite> (play on <i>Ahab</i> <he>אח־אב</he>) <he>א׳ לשמי׳</he> a subject of grief to the Lord, and father (friend) of idolatry.—2 (= Syr.) exclamation of joy, <i>Ah!</i> <cite ref=\"Targum Jonathan on Isaiah 44:16\">Targ. Is. XLIV, 16</cite> (h. <he>הֶאָח</he>)."
+			],
+			"label": "1"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "P00682",
+	"slug": "עירובא-2",
+	"headword": {
+		"text": "עֵירוּבָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עֵר׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1076,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", pl. constr. <he>עֵירוּבֵי</he>, <cite ref=\"P00680\"><he>עֵר׳</he></cite> (<he>עֲרַב</he> II) <i>darkening</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 104:23\">Targ. Ps. CIV, 23</cite> <he>ע׳ שמשא</he> Ms. (ed. <cite ref=\"T00838\"><he>רמשא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "B01099",
+	"slug": "בצלצול",
+	"headword": {
+		"text": "בְּצַלְצוּל"
+	},
+	"page": {
+		"number": 184,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (dimin. of <cite ref=\"B01094\"><he>בָּצֵל</he></cite>) <i>dwarf-onion</i>, (<i>pallacana</i>). ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:3\">Kil. I, 3</cite>; v. Y. ib. 27ᵃ. [Maim.: <i>desert onion</i>.]"
+			]
+		}
+	]
+}

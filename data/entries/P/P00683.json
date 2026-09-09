@@ -1,0 +1,22 @@
+{
+	"id": "P00683",
+	"slug": "עירוי",
+	"headword": {
+		"text": "עֵירוּי"
+	},
+	"page": {
+		"number": 1076,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עָרָה</he> II) <i>pouring from vessel to vessel, emptying</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:4:11\">Y. Maasr. I, end, 49ᵇ</cite> <he>ע׳ ככלי ראשון הוא</he> a boiling liquid poured from a vessel is considered like a boiling liquid in the original vessel; Y. Sabb. III, 6 top. Y. Ab. Zar. V, 45ᵃ <he>כל הע׳ מחמת הגוי</he> the emptying of the wine is done entirely by the effort of the gentile; a. e."
+			]
+		}
+	]
+}

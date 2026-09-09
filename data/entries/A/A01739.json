@@ -1,0 +1,58 @@
+{
+	"id": "A01739",
+	"slug": "אכסניא",
+	"headword": {
+		"text": "אַכְסַנְיָא"
+	},
+	"page": {
+		"number": 65,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ξενία) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hospitality, lodging</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 35:5\">Ex. R. s. 35</cite> <he>א׳ נעשו וכ׳</he> (<cite ref=\"Pesachim 118b:12\">Pes. 118ᵇ</cite>, corr. acc) they were a lodging place to my children in Egypt (they offered hospitality to &c.).—בעל א׳ <i>host</i>. ",
+				"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite>; cmp. <cite ref=\"A00934\"><he>אוּשְׁפִּיזְכָן</he></cite>.—",
+				"<cite ref=\"Bava Metzia 85a:20\">B. Mets. 85ᵃ</cite> <he>תורה מחזרת על א׳ שלה</he> scholarship likes to come around to its inn again (to be hereditary in the family); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <he>בעלת א׳</he>) <i>hostess</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 87a:8\">B. Mets. 87ᵃ</cite> one must inquire <he>בא׳ שלו</he> after the health of his hostess."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>quarter given to troops on march</i> or <i>to transient poor men;</i> also <i>the passing troop</i>, or <i>the passing poor;</i> (individ.) <i>beggar</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 31:32\">Targ. Job XXXI, 32</cite>; a. e.—",
+				"<cite ref=\"Bava Batra 11b:6\">B. Bath. 11ᵇ</cite> <he>א׳ לפי בני אדם</he> the quartering (of soldiers takes place) in proportion to the number of inmates (of each house). ",
+				"<cite ref=\"Mishnah Demai 3:1\">Dem. III, 1</cite>; v. Y. ib. 23ᵇ top. ",
+				"<cite ref=\"Tosefta Shevi'it 5:21\">Tosef. Shebi. V, 21</cite> <he>אין מאכילין אכסניין וכ׳</he> ed. Zuck. (Var. <he>את אכסניא</he>) you are not allowed to give … to soldiers quartered with you. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:23\">Y. Ber. IX, 13ᵇ</cite> <he>ההן א׳ עלובתא</he> this poor beggar. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:23\">Ib.</cite> <he>א׳ עלו׳</he> poor beggars. ",
+				"<cite ref=\"Vayikra Rabbah 34:3\">Lev. R. s. 34</cite>. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> (<he>חד מירו׳</he>) <he>בר נש א׳</he> a poor man."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>a gathering of scholars entertained by the hospitable of the place</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:4:6\">Y. Ber. IV, 8ᵇ</cite> top <he>נפיק לא׳</he> leaving for the scholars’ meeting. Bab. ",
+				"<cite ref=\"Berakhot 63b:23\">Ber. 63ᵇ</cite> <he>פתח בכבוד א׳</he> opened his speech in honor of hospitality to scholars."
+			],
+			"label": "4"
+		}
+	]
+}

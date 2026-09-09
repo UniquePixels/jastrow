@@ -1,0 +1,40 @@
+{
+	"id": "I00638",
+	"slug": "טפח-3",
+	"headword": {
+		"text": "טָפַח",
+		"homograph": 2
+	},
+	"page": {
+		"number": 546,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"I00675\"><he>טָפַף</he> II</cite>) <i>to drip, be moist</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 17a:9\">Sabb. 17ᵃ</cite> <he>עדיין משקה טוֹפֵחַ וכ׳</he> moisture is still dripping on them. ",
+				"<cite ref=\"Yoma 78a:7\">Yoma 78ᵃ</cite> <he>טוֹפֵחַ ע״מ להַטְפִּיחַ</he> moist enough to moisten other objects; <cite ref=\"Avodah Zarah 60b:2\">Ab. Zar. 60ᵇ</cite> <he>טופח ע״מ להטפיח</he> Ms. M. (ed. <he>ט׳ להט׳</he>). ",
+				"<cite ref=\"Mishnah Tahorot 8:9\">Toh. VIII, 9</cite>; a. fr.—2) (cmp. <he>דאב</he>, <cite ref=\"D00232\"><he>דוי</he></cite>) <i>to melt, decay, ferment</i> (of a running and fermenting dough). ",
+				"<cite ref=\"Bava Metzia 59b:8\">B. Mets. 59ᵇ</cite> <he>אף בצק … ט׳</he> (Ms. R. 2 <he>תפח</he>, v. <cite ref=\"V00809\"><he>תָּפַח</he></cite>) even the dough under the hands of the kneading women fermented.—",
+				"<cite ref=\"Jerusalem Talmud Yevamot 12:6:6\">Y. Yeb. XII, end, 13ᵃ</cite> <he>וטפח רוחי עלי</he>; <cite ref=\"Yalkut Shimoni on Nach 964\">Yalk. Prov. 964</cite> <he>טָפְחָה וכ׳</he> my mind in me became fermenting, i.e. I felt proud (v. <cite ref=\"I00195\"><he>טוּף</he></cite>).—<i>Part. pass.</i> <cite ref=\"I00628\"><he>טָפוּחַ</he></cite> <i>decaying, languishing</i> (from starvation). Sifra B’ḥuck. Par. 2, ch. VI <he>טְפוּחֵי רעב</he> (v. <cite ref=\"V00809\"><he>תָּפַח</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִטְפִּיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to moisten, wet</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 78a\">Yoma 78ᵃ</cite> <he>טינא מַטְפַּחַת</he> clay which makes wet (those sitting on it). ",
+						"<cite ref=\"Yoma 78a\">Ib.</cite>; <cite ref=\"Avodah Zarah 60b:2\">Ab. Zar. 60ᵇ</cite> <he>להַטְפִּיחַ</he>, v. supra. ",
+						"<cite ref=\"Berakhot 25a:27\">Ber. 25ᵃ</cite> <he>כל זמן שמַטְפִּיחִין</he> as long as the spot is wet enough to moisten."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

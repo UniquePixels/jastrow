@@ -1,0 +1,24 @@
+{
+	"id": "A02793",
+	"slug": "אפר-2",
+	"headword": {
+		"text": "אֵפֶר"
+	},
+	"page": {
+		"number": 107,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; √<cite ref=\"A02595\"><he>אף</he></cite>, cmp. <cite ref=\"A00192\"><he>אבק</he></cite>, <he>אפה</he>)<i>ashes</i>. Ohol. II, 2 <he>א׳ שרופים</he> ashes of persons burnt to death (by accident). ",
+			"units": [
+				"<cite ref=\"Bava Batra 60b:17\">B. Bath. 60ᵇ</cite>; <cite ref=\"Mishnah Taanit 2:1\">Taan. II, 1</cite> <he>א׳ מקלה</he> calcined ashes (symbol of mourning, supplication &c.). Y. ib. II, 65ᵃ <he>אֶפְרוֹ של יצחק</he> the ashes of (the ram substituted for) Isaac. ",
+				"<cite ref=\"Bereishit Rabbah 49:11\">Gen. R. s. 49</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 36\">Lev. R. s. 36</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"id": "A00200",
+	"slug": "אבר-2",
+	"headword": {
+		"text": "אָבַר"
+	},
+	"page": {
+		"number": 8,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<cite ref=\"A00013\"><he>אב</he></cite>, v. <he>אבב</he>; cmp. <cite ref=\"C00129\"><he>גבר</he></cite>, <he>חבר</he>) <i>to be bent, pressed, thick</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִבֵּר", "אִיבֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to strengthen, harden</i> (cmp. <cite ref=\"A02055\"><he>אמץ</he></cite>). ",
+					"units": [
+						"<cite ref=\"Sanhedrin 109b:5\">Snh. 109ᵇ</cite> (play on <i>Abiram</i>, <cite ref=\"Numbers 16:1\">Num. XVI, 1</cite>) <he>שאִי׳ לבו מ׳ וכ׳</he> Ms. M. (Rashi <he>לבבו</he>, ed. <he>עצמו</he>) he hardened his heart against repentance."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"A00202\"><he>אֵבֶר</he></cite>) <i>to measure wings, to define city limits, for Sabbath distances, in cases of wing-like projections beyond the line</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Eruvin 5:1\">Erub. V, 1</cite> <he>כיצד מְאַבְּרִין</he> (accord. to Rab’s spelling, while Sam. read <he>מְעַבְּרִין</he>, v. Y. ib. 22ᵇ, Bab. ib. 53ᵃ) how do we measure outskirts of a city in order to draw the Sabbath line?; v. etymol. definit. Y. a. Babl. ll. cc. a. Y. Ber. VII, 12ᶜ top."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (b. h. Hif.) <i>to soar, take wings</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 42\">Gen. R. s. 42</cite> (play on <i>Shemeber</i>, <cite ref=\"Genesis 14:2\">Gen. XIV, 2</cite>) <he>שמְאַבֵּר וכ׳</he> Ar. s. v. <he>שמאבר</he> (ed. <he>שהיה פורח</he>) he took wings to fly and obtain wealth."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

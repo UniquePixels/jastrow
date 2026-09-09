@@ -1,0 +1,67 @@
+{
+	"id": "M02308",
+	"slug": "מצי-3",
+	"headword": {
+		"text": "מצי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מָצָה"
+		},
+		{
+			"text": "מָצָא"
+		}
+	],
+	"page": {
+		"number": 825,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to squeeze, wring, esp. to wring out the blood of the bird sacrifice</i>. Sifra Vayikra, N’dab., ch. VIII, Par. 7 <he>הוא מוֹצֶה</he> he wrings it; a. fr.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מִיצָּה", "מִצָּה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M02307\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Zevachim 6:5\">Zeb. VI, 5</cite>, sq.; a. fr.—2) <cite ref=\"M02307\">same</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to pour out to the last drop, to drain</i>. Ib. 64ᵇ <he>מי כתיב יְמַצֶּה יִמָּצֵה וכ׳</he> (ed. punctuate <he>יַמְצֶה</he>, <i>Hif.</i>) it does not say (<cite ref=\"Leviticus 5:9\">Lev. V, 9</cite>), ‘he shall pour out (the remainder) at the bottom &c.’, but ‘it shall be wrung out’, which means, that it will run out to the bottom of itself. ",
+					"units": [
+						"<cite ref=\"Mishnah Terumot 11:8\">Ter. XI, 8</cite> <he>הִרְכִּינָהּ ומִיצָּה</he> (Y. ed. <he>ומִיצֵּת</he>; Ms. M. <he>ומִצֵּת</he>) if he bent the vessel and drained it; <cite ref=\"Bava Batra 87b\">B. Bath. 87ᵇ</cite> (Ms. H. a. R. <he>ומיצת</he>); <cite ref=\"Mishnah Bava Batra 5:8\">ib. V, 8</cite> (<cite ref=\"Bava Batra 87a:7\">87ᵃ</cite>) <he>הרכינה ומיצה</he> (Y. ed. <he>ומצת</he>; Bab. ed. <he>ומִיצֵּית</he>, Ms. M. <he>ומִיצֵּת</he>; Ms. R. <he>ומִיצְּתָהּ</he>). ",
+						"<cite ref=\"Bereishit Rabbah 85:11\">Gen. R. s. 85</cite>; s. 92 (play on <he>מצא</he>, <cite ref=\"Genesis 44:16\">Gen. XLIV, 16</cite>) <he>כזה שהוא מְמַצֶּה וכ׳</he> as one drains a vessel and leaves nothing but the lees. ",
+						"<cite ref=\"Midrash Tehillim 59:3\">Midr. Till. to Ps. LIX</cite> (play on <he>מצא</he>, <cite ref=\"Proverbs 18:22\">Prov. XVIII, 22</cite>) <he>כשהאשה רעה היא מְמַצָּה</he> (<he>כל</he>) <he>הטובות כולן מביתו וכ׳</he> ed. Bub. (oth. ed. <he>ממַצֶּאֶת</he>, a. oth. variants) when the wife is bad, she drains all the good things out of his house and makes him poor; <cite ref=\"Yalkut Shimoni on Nach 957:3\">Yalk. Prov. 957</cite> <cite ref=\"M01675\"><he>ממציא</he></cite> (read: <he>מְמַצֵּית</he>); a. fr."
+					]
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"M02339\"><he>מָצַע</he></cite>) <he>מ׳ מידות</he> <i>to measure exactly</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Eruvin 4:11\">Erub. IV, 11</cite> (<cite ref=\"Eruvin 52b:13\">52ᵇ</cite>) <he>אין המשוחות מְמַצִּין וכ׳</he> the surveyors (in marking distances for Sabbath limits) do not measure exactly (but mark within the limits), in order to allow for mistakes.—Trnsf. <i>to sound one’s learning</i>. ",
+						"<cite ref=\"Menachot 18a:4\">Men. 18ᵃ</cite> <he>למַצּוֹת מידותי</he> to have my own learning examined; <he>למ׳ מידותיו וכ׳</he> to sound the learning of &c."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["מִתְמַצֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be wrung out; to be emptied, drained</i> Sifra Vayikra, Ḥob., Par. 10, ch. XVIII; <cite ref=\"Zevachim 64b:8\">Zeb. 64ᵇ</cite> <he>שהשירין מִתְמַצִּים ליסוד</he> where the remainder is poured out towards the bottom of the altar; a. fr. [<cite ref=\"Mishnah Zevachim 6:4\">Ib. VI, 4</cite> (<cite ref=\"Zevachim 64b:5\">64ᵇ</cite>) <he>היה מתמצה</he>, read <he>מְמַצֶּה</he>, v. Rabb. D. S. a. l. note 50.]—Y. R. Hash. I, 56ᵈ top; Y. Shek. III, beg. 47ᵇ <he>עד כאן הן מִתְמַצּוֹת לילד וכ׳</he> up to that time (the first of Elul) the latest births of the old year (of those conceived before the first of Nisan) take place &c.—Trnsf. (with <cite ref=\"H01809\"><he>חשבון</he></cite>) <i>to be exactly counted, to be finally settled</i>. Y. Sot. I, 17ᵃ (he suffers a loss by the death of his ox &c.) <he>והחשבון מִתְמַצֶּה</he> and the account (of his sins) is settled; ib.; <cite ref=\"Bamidbar Rabbah 9:33\">Num. R. s. 9</cite> <he>אחת מתארעא וכ׳</he>, v. <cite ref=\"A03216\"><he>אָרַע</he> I</cite>; <cite ref=\"Kohelet Rabbah 7:27\">Koh. R. to VII, 27</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

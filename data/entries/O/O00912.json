@@ -1,0 +1,45 @@
+{
+	"id": "O00912",
+	"slug": "סכל-4",
+	"headword": {
+		"text": "סְכַל",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 991,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00911\">same</cite>, <i>to be confused, to be foolish</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסְכֵּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to act foolishly</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 31:28\">Targ. Gen. XXXI, 28</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִסְתַּכֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be confused, foolish</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 24:10\">Targ. II Sam. XXIV, 10</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 26:21\">Targ. I Sam. XXVI, 21</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

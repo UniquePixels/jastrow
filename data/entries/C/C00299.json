@@ -1,0 +1,39 @@
+{
+	"id": "C00299",
+	"slug": "גוך",
+	"headword": {
+		"text": "גּוּך"
+	},
+	"page": {
+		"number": 218,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (sec. r. of <cite ref=\"A00239\"><he>אָגַד</he> I</cite>) <i>to bind;</i> denom. <cite ref=\"C00626\"><he>גִּיד</he></cite>.—[Polel <he>גּוֹדֵד</he>, fr. which <cite ref=\"C00170\"><he>גְּדוּד</he></cite>.]",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"C00170\"><he>גדוד</he></cite>) <i>to form a faction;</i> (b. h. <i>to attack in small bands</i>). ",
+			"units": [
+				"<cite ref=\"Yevamot 13b\">Yeb. 13ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 14:1\">Deut. XIV, 1</cite>, v. <cite ref=\"C00166\"><he>גָּדַד</he> I</cite>) if <i>lo tithgod’du</i> were meant only in the one sense of ‘ye shall form no factions’, it would have read <he>לֹא תָגוּדוּ</he>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְגּוֹדֵד"],
+			"senses": [
+				{
+					"gloss": "<i>to form bands, factions</i>. Ib. 14ᵃ <he>כי אמרינן לא תתגודדו</he> the law against factions applies only to &c.—",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 96\">Sifré Deut. 96</cite>; [Pesik. Zutr. R’eh (p. 43) <he>מלשון גדוד</he>]."
+					]
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "O00394",
+	"slug": "סופיסטא",
+	"headword": {
+		"text": "סוֹפִיסְטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "… טָה"
+		},
+		{
+			"text": "סוֹפִיסְטֵיס"
+		}
+	],
+	"page": {
+		"number": 968,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (σοφίστης, sophista) <i>sophist</i>, teacher of grammar, rhetoric, mathematics &c., esp. <i>arithmetician</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 9:2:3\">Y. Shebi. IX, 38ᵈ</cite> bot. ",
+				"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> <he>עד מקום שאין ס׳ יכול לחשוב</he> (not … <he>טוס</he>; some ed. <he>טופ׳</he>, corr. acc.) up to where no arithmetician can count; Pesik.Baḥod. Baḥod., p. 107ᵇ <he>עד מקום שהספיטס וכ׳</he> (corr. acc.).—Pl. <he>סוֹפִיסְטִין</he>. ",
+				"<cite ref=\"Targum of I Chronicles 12:32\">Targ. I Chr. XII, 32</cite>."
+			]
+		}
+	]
+}

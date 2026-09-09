@@ -1,0 +1,24 @@
+{
+	"id": "S01605",
+	"slug": "קנס-3",
+	"headword": {
+		"text": "קְנָס"
+	},
+	"page": {
+		"number": 1393,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01604\">preced.</cite>) <i>fine, penalty</i>, esp. <i>the fine for seducing a girl</i> (<cite ref=\"Deuteronomy 22:29\">Deut. XXII, 29</cite>). ",
+			"units": [
+				"<cite ref=\"Bava Kamma 38b:14\">B. Kam. 38ᵇ</cite>, v. <cite ref=\"S01603\"><he>קָנס</he></cite>. ",
+				"<cite ref=\"Ketubot 43a\">Keth. 43ᵃ</cite> top, a. e. <he>מודה בק׳ פטור</he> he who confesses an act with which a fine is connected, is exempt from the fine; <cite ref=\"Ketubot 42a:5\">ib. 42ᵃ</cite>; <cite ref=\"Mishnah Shevuot 5:4\">Shebu. V, 4</cite> <he>אינו משלם ק׳ על פי עצמו</he> none needs to pay a fine on his own confession (if he cannot be convicted otherwise). Keth. l. c. (in Chald. dict.) <he>ק׳ הוי</he> it is the case of a fine, opp. <cite ref=\"M01652\"><he>ממונא</he></cite> the case of a real debt or indemnity. Ib. bot. <he>יצאו אלו שהן ק׳</he> exclude those cases which concern only a fine, opp. <cite ref=\"M01651\"><he>ממון</he></cite>. Ib. III, 1 <he>יש להן ק׳</he> a fine is due for seducing them. Ib. 29ᵃ <he>יש לה מכר ואין לה ק׳</he> she can be sold (by her father), and no fine is due for her seduction. Ib. III, 8 <he>כל … מכר אין ק׳</he> wherever sale can take place, there is no fine for seduction. Ib. 3 <he>קְנָסָהּ לעצמה</he> the fine for her seduction belongs to herself (and not to her father); a. fr.—Pl. <he>קְנָסוֹת</he>. ",
+				"<cite ref=\"Sanhedrin 8a:11\">Snh. 8ᵃ</cite> <he>דיני ק׳ בכמה</he> how many judges are required for the adjudication of a fine? <cite ref=\"Ketubot 43a\">Keth. 43ᵃ</cite>; a. fr.—[<he>קנסות</he>, <cite ref=\"Zevachim 88b:2\">Zeb. 88ᵇ</cite> ed., v. <cite ref=\"S00356\"><he>קוֹלָס</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A00256",
+	"slug": "אגוגא",
+	"headword": {
+		"text": "אָגוֹגָא"
+	},
+	"page": {
+		"number": 11,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אגג</he>, v. <cite ref=\"A00254\"><he>אֵגֶה</he></cite> = h. <cite ref=\"H00254\"><he>חוֹגֵג</he></cite> q. v.) <i>cleft, fissure</i>. <he>א׳ דמיא</he> <i>cataract, water-falls</i> (issuing from a fissure). ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 17</cite> (play on <i>ḥogeg</i> ibid. ",
+				"<cite ref=\"Psalms 42:5\">Ps. XLII, 5</cite>) <he>כהדין א׳ וכ׳</he> Ar. like the cataract that rests neither &c. [Ed. <cite ref=\"C01184\"><he>געגעא</he></cite>]."
+			]
+		}
+	]
+}

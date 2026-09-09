@@ -1,0 +1,41 @@
+{
+	"id": "P00307",
+	"slug": "עונש",
+	"headword": {
+		"text": "עוֹנֶשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֹנֶשׁ"
+		}
+	],
+	"page": {
+		"number": 1055,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P01016\"><he>עָנַשׁ</he></cite>)<i>punishment, penalty; responsibility</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 89b:13\">Snh. 89ᵇ</cite> <he>כך עוֹנְשׁוֹ וכ׳</he>, v. <cite ref=\"B00105\"><he>בַּדּאי</he></cite>; <cite ref=\"Avot D'Rabbi Natan 30:4\">Ab. d’R. N. ch. XXX</cite>. ",
+				"<cite ref=\"Sanhedrin 54b:7\">Snh. 54ᵇ</cite> top, a. fr. <he>ע׳ שמענו אזהרה מנין</he> we learn here the penalty, whence do we learn the prohibition? <cite ref=\"Yevamot 3b:15\">Yeb. 3ᵇ</cite>, v. <cite ref=\"A00962\"><he>אַזְהָרָה</he></cite>. ",
+				"<cite ref=\"Yevamot 47a:14\">Ib. 47ᵃ</cite> <he>ומודיעין אותו עוֹנְשָׁן של מצות</he> and we acquaint him (the proselyte) with the penalty attending the neglect of the duties (of an Israelite), v. <cite ref=\"P00290\"><he>עָוֹן</he></cite>. ",
+				"<cite ref=\"Shabbat 87a:8\">Sabb. 87ᵃ</cite> <he>בתחלה פירש עוֹנְשָׁהּ וכ׳</he> first he explained the penalty for trespassing the Law, … and then the reward for observing it. ",
+				"<cite ref=\"Bava Batra 88b:6\">B. Bath. 88ᵇ</cite> <he>עוֹנְשָׁן של מדות</he> the responsibility connected with measures (the punishment for giving wrong measures); <cite ref=\"Yevamot 21a:6\">Yeb. 21ᵃ</cite> <he>עונשין</he> (corr. acc.); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>punishable act, sin</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 115b:2\">Sabb. 115ᵇ</cite> <he>גדול ע׳ האחרון וכ׳</he> the sinfulness of the latter act is greater than &c. ",
+				"<cite ref=\"Bava Kamma 105b:19\">B. Kam. 105ᵇ</cite> <he>ע׳ ממון</he> (Rashi <he>ע׳ כפירה</he>) the crime of denying an obligation; <he>ע׳ שבועה</he> the crime of false swearing; a. fr.—Pl. <he>עוֹנְשִׁין</he>. ",
+				"<cite ref=\"Sanhedrin 43b:11\">Snh. 43ᵇ</cite> <he>ע׳ שבגלוי</he> sins committed publicly; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

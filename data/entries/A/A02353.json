@@ -1,0 +1,33 @@
+{
+	"id": "A02353",
+	"slug": "אסטגנינות",
+	"headword": {
+		"text": "אִסְטַגְנִינוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִצְ׳"
+		},
+		{
+			"text": "אִי׳"
+		}
+	],
+	"page": {
+		"number": 90,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A02352\">preced.</cite>) <i>astrological speculation, planetary constellation</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 156a:14\">Sabb. 156ᵃ</cite> <he>נסתכלתי באיצ׳ וכ׳</he> ed. (Ms. M. <he>באס׳</he>) I looked at my constellation. ",
+				"<cite ref=\"Shabbat 156a:14\">Ib.</cite> <he>צא מא׳ וכ׳</he> give up thy astrological speculations, for Israel stands not under planetary influences. ",
+				"<cite ref=\"Yoma 28b:2\">Yoma 28ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 49a:8\">Snh. 49ᵃ</cite> <he>עדיין א׳ של דוד עומדת</he> Ar. ed. pr., Ms. Oxf. (ed. <he>אצטגניני … קיימין</he>) David’s star stands as yet (has not yet gone down)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A02591",
+	"slug": "אעיתא",
+	"headword": {
+		"text": "אַעֲיָתָא"
+	},
+	"page": {
+		"number": 99,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"A02590\">preced.</cite>) <i>laths</i> of a latticed window. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 5:28\">Targ. Jud. V, 28</cite> (h. <he>אשנב</he>)."
+			]
+		}
+	]
+}

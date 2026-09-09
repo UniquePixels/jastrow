@@ -1,0 +1,22 @@
+{
+	"id": "P00282",
+	"slug": "עומס",
+	"headword": {
+		"text": "עוֹמֶס"
+	},
+	"page": {
+		"number": 1053,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עמס</he>) <i>pack</i>; <he>מלא עוֹמְסוֹ</he> <i>as much as one can pack into one’s hand</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 100a:15\">Snh. 100ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Nach 797:4\">Yalk. Ps. 797</cite>."
+			]
+		}
+	]
+}

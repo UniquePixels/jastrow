@@ -1,0 +1,28 @@
+{
+	"id": "H00072",
+	"slug": "חביננות",
+	"headword": {
+		"text": "חֲבִינָנוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲבִינָנוּתָא"
+		}
+	],
+	"page": {
+		"number": 419,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חבן</he>, denom. of <cite ref=\"H00237\"><he>חוּבָּא</he></cite>, v. P. Sm. 1181, <i>to fold hands in the bosom</i>) <i>idleness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 31:27\">Targ. Prov. XXXI, 27</cite> <he>ולחמא דחבננותא</he> ed. Lag. (Var. <cite ref=\"H00924\"><he>חכינאנות</he></cite>, ed. Wil. <he>חכיננ׳</he>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 22:13\">Ib. XXII, 13</cite> <he>בחבננותיה</he> ed. Lag. (Var. a. ed. Wil. <he>בחכיננ׳</he>, corr. acc.)."
+			]
+		}
+	]
+}

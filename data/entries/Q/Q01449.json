@@ -1,0 +1,121 @@
+{
+	"id": "Q01449",
+	"slug": "פקד-1",
+	"headword": {
+		"text": "פָּקַד"
+	},
+	"page": {
+		"number": 1206,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to search, examine</i>] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to visit</i>; (euphem.) <i>to have marital connection with</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 62b:16\">Yeb. 62ᵇ</cite> <he>ואינו פוֹקְדָהּ</he> and does not visit her (in due time, v. <cite ref=\"P00297\"><he>עוֹנָה</he> I</cite>). ",
+				"<cite ref=\"Yevamot 62b:16\">Ib.</cite> <he>חייב אדם לִפְקוֹד וכו׳</he> a man is bound to visit his wife before going on a journey.—",
+				"<cite ref=\"Tractate Semachot 8:1\">Treat. S’maḥ. ch. VIII</cite> <he>יוצאין … ופוֹקְדִין על המתים וכ׳</he> you may go out to the burial ground and call upon the dead until three days (after being placed in the sepulchral chamber), and there is no superstitious practice in that; <he>מעשה שפְּקָדוֹ אחד וכ׳</he> it occurred that one visited an entombed person, and the latter (was found living and) lived twenty years thereafter; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of the Lord) <i>to visit, remember, decree upon</i>. Tanḥ. Vayera 14 <he>בלשון … אני פוֹקְדָךְ</he> with the same expression … I will remember thee (bless thee with issue). Ib. <he>הרוני פוֹקֵד לאברהם וכ׳</he> I will remember Abraham (relieve him from impotence) at the same time with Abimelech (ref. to <cite ref=\"Genesis 20:17\">Gen. XX, 17</cite>-XXI, 1). ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 43:1\">Pesik. R. s. 43</cite> <he>כשבא לפקוד את חנה</he> when the Lord came to visit Hannah; a. v. fr.—Part. pass. <cite ref=\"Q01454\"><he>פָּקוּד</he></cite>; f. <cite ref=\"Q01457\"><he>פְּקוּדָה</he></cite>; pl. <he>פְּקוּדִים</he>, <he>פְּקוּדִין</he>; <he>פְּקוּדוֹת</he>. ",
+				"<cite ref=\"Sanhedrin 97a:1\">Snh. 97ᵃ</cite> <he>עד שהראשונה פ׳ שנייה וכ׳</he> while the first calamity is remembered (by the Lord for delivery), the second quickly comes."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to count, muster</i>; v. <cite ref=\"Q01454\"><he>פָּקוּד</he></cite>, <cite ref=\"Q01486\"><he>פְּקִידָה</he></cite>, <cite ref=\"Q00801\"><he>פִּיקּוּד</he></cite>.",
+			"units": [],
+			"label": "3"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"Q01485\"><he>פָּקִיד</he></cite>, interch. with <i>Hif.</i>) <i>to give in charge, entrust, deposit</i>. Pesik. R. l. c. <he>בעל פקדונות אני … פּוֹקֵד אצלי אני נותן לו</he> I (the Lord) am a trustee, whatever a man deposits with me, I give back to him. Ib. <he>נפשות פְּקַדְתֶּם אצלי וכ׳</he> you (Abraham and Sarah) deposited souls with me (converted souls to the belief in me), I will pay you back in souls (ref. to <cite ref=\"Genesis 21:1\">Gen. XXI, 1</cite>); a. fr.",
+			"units": [],
+			"label": "4"
+		},
+		{
+			"gloss": "(denom. of <cite ref=\"Q01485\"><he>פָּקִיד</he></cite>) <i>to command, order</i>. Ib. s. 42 <he>פָּקַדְתִּי לאדם וכ׳</he> I gave Adam a command, and he did not do it; <he>פקדתי למלאך וכ׳</he> I commissioned the angel of death, and he did (what I commanded him). ",
+			"units": [
+				"<cite ref=\"Mishnah Shevuot 7:7\">Shebu. VII, 7</cite> (<cite ref=\"Shevuot 45a:8\">45ᵃ</cite>) <he>שבועה שלא פְּקָדָנוּ אבא</he> we swear that our father has not left us any order (concerning this case); Y. Keth. VII, 33ᵇ <he>פִּיקְּדָנוּ</he>. ",
+				"<cite ref=\"Shevuot 48b:6\">Shebu. 48ᵇ</cite> <he>מה לי שלא פְקָרַנֵי אבא ושלא פקדני אחי</he> what is the difference between the oath of an heir ‘that my father has not left me an order’, and ‘that my brother &c.’?; a. fr."
+			],
+			"label": "5"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיקֵּד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01448\">same</cite>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִפְקַד"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְפַּקֵּד"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <cite ref=\"Q01514\"><he>נִתְפַּקֵּד</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be visited, remembered, decreed upon</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 53:6\">Gen. R. s. 53</cite> <he>בשעה שנִפְקְדָה … נִפְקְדוּ עמה</he> when Sarah was visited &c., v. <cite ref=\"P01216\"><he>עֲקָרָה</he></cite>. ",
+						"<cite ref=\"Bereishit Rabbah 53:6\">Ib.</cite> <he>אינו דין שתִּפָּקֵד</he> is it not right that she should be visited? Tanḥ. Vayera 13 <he>תהי נִפְקֶדֶת</he> she shall be remembered. ",
+						"<cite ref=\"Rosh Hashanah 11a:17\">R. Hash. 11ᵃ</cite>. ",
+						"<cite ref=\"Pesikta Rabbati 42:1\">Pesik. R. s. 42</cite> <he>בדין הוא שיִפָּקֵד אברהם</he> it is right that Abraham be visited. ",
+						"<cite ref=\"Pesikta Rabbati 42:1\">Ib.</cite> <he>שתִּתְפַּקֵּד אף היא</he> that she be likewise visited. ",
+						"<cite ref=\"Vayikra Rabbah 29\">Lev. R. s. 29</cite>; Pesik. Baḥod., p. 150ᵇ (quot. from Rab’s New Year’s prayer) <he>ובריות בו יִפָּקֵדוּ להזכירם וכ׳</he> and creatures are passed upon on that day to record them for life or for death; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be commanded, commissioned</i>. Pesik. R. l. c. <he>יש שנתפ׳ ולא עשה וכ׳</he> some are commanded and do not (what they are ordered to) &c. Mekh. B’shall., Vayassʿa, s. 4 <he>עשו מה שנִתְפַּקְּדוּ</he> they did what they were commanded to do; a. e.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["הִפְקִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to give in charge, deposit</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 3:1\">B. Mets. III, 1</cite> <he>המַפְקִיד אצל וכ׳</he> if a man deposits for safe-keeping with his neighbor &c. ",
+						"<cite ref=\"Bava Metzia 36a\">Ib. 36ᵃ</cite> sq. <he>כל המפקיד על דעת אשתו ובניו הוא מפקיד</he> he who deposits with his neighbor, does so with the presumptive condition that the latter’s wife and children be also trustees (and it was no breach of trust to leave the deposit in their charge). ",
+						"<cite ref=\"Bereishit Rabbah 53:6\">Gen. R. s. 53</cite> <he>עמלק ה׳ אצלי וכ׳</he> Amalek deposited with me bundles of thorns (wrong-doings) &c.; <he>שרה הִפְקִידָה אצלי וכ׳</he> Sarah deposited with me virtues and good deeds &c. ",
+						"<cite ref=\"Pesikta Rabbati 43:1\">Pesik. R. s. 43</cite>; a. fr.—",
+						"<cite ref=\"Bava Metzia 35a:9\">B. Mets. 35ᵃ</cite> <he>ופרקין המפקיד הוה</he> and our subject at college was <i>hammafḳid</i> (the Mishnah B. Mets. l. c. and the discussions concerning it).—Part. pass. <he>מוּפְקָד</he>; f. <he>מוּפְקֶדֶת</he> &c. ",
+						"<cite ref=\"Bava Kamma 105a:2\">B. Kam. 105ᵃ</cite> <he>כגון שהיתה … מופ׳ ביד אחרים</he> when his father’s bag was left in trust with other people; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to take charge of</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 847:1\">Yalk. Deut. 847</cite> <he>הַפְקֵד לי הפקדון הזה</he> take this object in charge for me."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

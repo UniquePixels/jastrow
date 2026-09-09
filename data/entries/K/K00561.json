@@ -1,0 +1,26 @@
+{
+	"id": "K00561",
+	"slug": "כימתא",
+	"headword": {
+		"text": "כִּימְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּימָא"
+		}
+	],
+	"page": {
+		"number": 633,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"K00560\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 5:8\">Targ. Am. V, 8</cite> (ed. Lag. <cite ref=\"K00560\"><he>כימה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 9:9\">Targ. Job IX, 9</cite> <he>כימא</he> (Ms. <cite ref=\"K00561\"><he>כימתא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 38:31\">Ib. XXXVIII, 31</cite>. Targ. II Esth. III, 3 <cite ref=\"K00560\"><he>כימה</he></cite>."
+			]
+		}
+	]
+}

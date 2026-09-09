@@ -1,0 +1,39 @@
+{
+	"id": "I00283",
+	"slug": "טטרגון",
+	"headword": {
+		"text": "טֶטְרָגוֹן"
+	},
+	"page": {
+		"number": 528,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (τετράγωνος) <i>four-cornered, in a quadrangle, in a square</i>. ",
+			"units": [
+				"<cite ref=\"Nazir 8b:11\">Naz. 8ᵇ</cite>; <cite ref=\"Bava Batra 164b:10\">B. Bath. 164ᵇ</cite> (<he>בית</he>) <he>ט׳</he> a house of four corners. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:4:8\">Cant. R. to IV, 4</cite> (expl. <he>תלפיות</he>) <he>טֶטְרָגוֹנִין</he> (τετραγώνιον) in a square. ",
+				"<cite ref=\"Pesikta Rabbati 10:1\">Pesik. R. s. 10</cite> <cite ref=\"B00239\"><he>בוטרגונין</he></cite> (corr. acc.), v. <cite ref=\"A02406\"><he>אִסְטְרוֹנְגִּילוֹן</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (τετράγονος, v. <cite ref=\"D00484\"><he>דִּיגוֹן</he></cite>) <i>for the fourth time</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Nazir 1:2\">Tosef. Naz. I, 2</cite> <he>הריני נזיר ט׳ וכ׳</he> ‘I will be a Nazir tetragon’, means four times; Naz. l. c.; B. Bath. l. c."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>fourfold, four combined</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 78:10\">Midr. Till. to Ps. LXXVIII, 49</cite> <he>מט׳ היה</he> (corr. acc.) each plague was fourfold; ed. Bub. <cite ref=\"I00283\"><he>טֶטְרָאגוֹן</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "P00165",
+	"slug": "עדר-3",
+	"headword": {
+		"text": "עֲדַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1046,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"P00424\"><he>עָזַר</he></cite>, <i>to help</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 13:12\">Targ. Prov. XIII, 12</cite> <he>דמשרי למְעַדְרֵיה</he> (ed. Lag. a. oth. <he>דמשדי</he>) who begins to help himself (v. Pesh. a. LXX)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְעֲדַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be helped</i>. Ib. XVIII, 19 <he>דמִתְעֲדַר</he> (oth. ed. <he>דמתעוי</he>; v. Pesh. a. LXX).",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

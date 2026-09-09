@@ -1,0 +1,36 @@
+{
+	"id": "Q01328",
+	"slug": "פסל-4",
+	"headword": {
+		"text": "פֶּסֶל"
+	},
+	"page": {
+		"number": 1198,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"Q01327\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sculptured</i> or <i>carved image</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 18:32\">Midr. Till. to Ps. XVIII, 41</cite> <he>שהיה דגון פִּסְלוֹ וכ׳</he> ed. Bub. (oth. ed. <he>אלוהו</he>) his idol Dagon was engraven on his heart. Sifra K’dosh. beg.; <cite ref=\"Yalkut Shimoni on Torah 604:5\">Yalk. Lev. 604</cite>, v. <cite ref=\"Q01325\"><he>פָּסַל</he></cite>; Mekh. Mishp. s. 20. ",
+				"<cite ref=\"Sanhedrin 103b:10\">Snh. 103ᵇ</cite> v. <cite ref=\"M01148\"><he>מִיכָה</he> I</cite>; a. e.—Pl. <he>פְּסִילִים</he>, v. <cite ref=\"Q01286\"><he>פָּסִיל</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>chip, lath</i>, contrad. to <he>נסר</he>. ",
+			"units": [
+				"<cite ref=\"Sukkah 18a:3\">Succ. 18ᵃ</cite> <he>נסר ופ׳ וכ׳</he> a board alternating with a lath (as the covering of a Succah). Tosef. ib. II, 3; <cite ref=\"Sukkah 19a:8\">Succ. 19ᵃ</cite> <he>פ׳ היוצא מן הסוכה</he> a lath roof prolonged beyond the walls of the Succah; expl. ",
+				"<cite ref=\"Sukkah 19a:8\">ib.</cite> <he>קנים היוצאים וכ׳</he> reeds or staves which &c.—Pl. <he>פְּסָלִים</he>. Ib. 18ᵃ"
+			],
+			"label": "2"
+		}
+	]
+}

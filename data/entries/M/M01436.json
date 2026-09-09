@@ -1,0 +1,24 @@
+{
+	"id": "M01436",
+	"slug": "מכר-3",
+	"headword": {
+		"text": "מֶכֶר"
+	},
+	"page": {
+		"number": 784,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M01434\"><he>מָכַר</he></cite>)<i>sale</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 6b:10\">Kidd. 6ᵇ</cite> <he>במ׳ לא קנה</he> if the transaction is a sale (of land), he has not acquired possession (by delivering the purchasing money as a loan). ",
+				"<cite ref=\"Kiddushin 47a\">Ib. 47ᵃ</cite> <he>ושוין במ׳</he> and they agree in the case of a sale. ",
+				"<cite ref=\"Mishnah Ketubot 11:4\">Keth. XI, 4</cite> <he>מִכְרָהּ בטל</he> her sale is invalid; a. fr.—V. <cite ref=\"M01667\"><he>מִמְכָּר</he></cite>."
+			]
+		}
+	]
+}

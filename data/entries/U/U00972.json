@@ -1,0 +1,35 @@
+{
+	"id": "U00972",
+	"slug": "שינה",
+	"headword": {
+		"text": "שֵׁינָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׁנָה"
+		}
+	],
+	"page": {
+		"number": 1564,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"J00696\"><he>יָשֵׁן</he></cite>)<i>sleep</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 3b:21\">Ber. 3ᵇ</cite> <he>מעולם לא עבר … בש׳</he> midnight never found me asleep. ",
+				"<cite ref=\"Berakhot 62b:1\">Ib. 62ᵇ</cite> <he>ש׳ בעמוד וכ׳</he> sleep at morning dawn (v. <cite ref=\"U00969\"><he>שֵׁינָא</he> I</cite>). ",
+				"<cite ref=\"Megillah 15b:20\">Meg. 15ᵇ</cite> <he>שְׁנַת וכ׳</he>, v. <cite ref=\"N00211\"><he>נָדַד</he></cite>. ",
+				"<cite ref=\"Sukkah 26a:15\">Succ. 26ᵃ</cite> <he>שֵׁינַת</he>, v. <cite ref=\"P01241\"><he>עַרְאַי</he></cite>. ",
+				"<cite ref=\"Sukkah 26a:12\">Ib.</cite> <he>במוסר שֵׁינָתוֹ וכ׳</he> when he gives his sleep in charge of others (gives orders to wake him up). ",
+				"<cite ref=\"Mishnah Yoma 1:4\">Yoma I, 4</cite> <he>המאכל מביא את הש׳</he> eating causes sleepiness. ",
+				"<cite ref=\"Tamid 28a:9\">Tam. 28ᵃ</cite> <he>אונס ש׳</he> being overcome by sleep. ",
+				"<cite ref=\"Sanhedrin 93b:10\">Snh. 93ᵇ</cite> <he>שהיו אונסין … ומן הש׳</he> they forced themselves not to laugh, talk, or fall asleep. ",
+				"<cite ref=\"Kiddushin 49b:10\">Kidd. 49ᵇ</cite> <he>עשרה ש׳ וכ׳</he> ten measures of sleep have come down to the world, nine of which the slaves have taken &c.; a. fr."
+			]
+		}
+	]
+}

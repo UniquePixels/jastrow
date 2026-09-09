@@ -1,0 +1,29 @@
+{
+	"id": "A01577",
+	"slug": "איצטדין",
+	"headword": {
+		"text": "אִיצְטַדִּין"
+	},
+	"page": {
+		"number": 59,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " f. (orig. m. pl., Ithp. of <cite ref=\"R00100\"><he>צדי</he></cite> q. v.; sub. <he>שדה</he> &c.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a place full of ruins</i>. Y. Erub. II, 22ᵇ <he>את רואה את הא׳ כילו וכ׳</he> you look upon the debris near Tiberias as &c. (cmp. <cite ref=\"A01928\"><he>אלסיס</he></cite>).—*Pl. <cite ref=\"A02866\"><he>איצְטַדִּינִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 103b:1\">B. Bath. 103ᵇ</cite> <he>א׳ מהו</he> if the stones in the field are debris, how is it? [Comment. diff.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " cacophemism for <i>theatre</i> (a <i>place of destruction</i>). [The prevailing versions are <he>אצטרין</he>, <he>אסטרין</he> q. v.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

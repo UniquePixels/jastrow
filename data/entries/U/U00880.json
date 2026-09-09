@@ -1,0 +1,32 @@
+{
+	"id": "U00880",
+	"slug": "שיטא-2",
+	"headword": {
+		"text": "שִׁיטָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁטָּא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1560,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U00732\"><he>שִׁטָּה</he></cite>, <i>acacia</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 25:10\">Targ. Y. Ex. XXV, 10</cite>; <cite ref=\"Targum Jonathan on Exodus 25:13\">13</cite>.—",
+				"<cite ref=\"Bava Batra 80b:17\">B. Bath. 80ᵇ</cite>, v. <cite ref=\"U00882\"><he>שִׁיטָּה</he></cite>.—Pl. <he>שִׁיטִּין</he>, <he>שִׁיטַּיָּיא</he>, <he>שִׁטּ׳</he>. Targ. O. Ex. l. c. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 41:19\">Targ. Is. XLI, 19</cite>; a. e.—",
+				"<cite ref=\"Shemot Rabbah 6\">Ex. R. s. 6</cite>; Tanḥ. Vaëra 2, v. <cite ref=\"E00678\"><he>הֲנָיָיה</he></cite> ch. ",
+				"<cite ref=\"Bereishit Rabbah 94\">Gen. R. s. 94</cite> <he>אעין דש׳ הוו וכ׳</he> (some ed. <he>דשִׁטִּים</he>) there were acacia trees in Magdala, but people refrained from using them out of regard for the sanctity of the holy Ark; <cite ref=\"Shir HaShirim Rabbah 1:12:1\">Cant. R. to I, 12</cite> <he>דשטים</he>; a. e."
+			]
+		}
+	]
+}

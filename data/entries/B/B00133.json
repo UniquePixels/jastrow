@@ -1,0 +1,23 @@
+{
+	"id": "B00133",
+	"slug": "בדיאי",
+	"headword": {
+		"text": "בְּדִיאֵי"
+	},
+	"page": {
+		"number": 140,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"B00129\"><he>בדי</he></cite>) <i>fictions</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 8b:14\">Bekh. 8ᵇ</cite> <he>מילי דב׳</he> ed. (Ar. <he>כדי</he>, En Yaak. <he>כדיבי</he>) some stories."
+			]
+		}
+	]
+}

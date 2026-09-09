@@ -1,0 +1,26 @@
+{
+	"id": "B01120",
+	"slug": "בקיע-1",
+	"headword": {
+		"text": "בְּקִיעַ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 186,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בקע</he>; cmp. <cite ref=\"B01102\"><he>בִּצְעָה</he></cite>) <i>fissure, ditch</i>, esp. <i>small pond</i> for washing clothes. ",
+			"units": [
+				"<cite ref=\"Moed Katan 8b:5\">M. Kat. 8ᵇ</cite> <he>נברכת וב׳</he>, expl. as <he>גיהא ובר גיהא</he> a large pond and a small pond. ",
+				"<cite ref=\"Tosefta Bava Batra 1:2\">Tosef. B. Bath. I, 2</cite>. ",
+				"<cite ref=\"Tosefta Bava Batra 1:2\">Ib.</cite> ",
+				"<cite ref=\"Mishnah Moed Katan 1:9\">M. Kat. I, 9</cite> <he>זו היא נ׳</he> … <he>ב׳</he> Nibrekheth a. B’kia are the same; Y. ib. I, 80ᵈ <he>כל שהוא תושב וכ׳</he> any permanent cut in the ground is called <cite ref=\"B01120\"><he>בקיע</he></cite> (<i>fissure</i>, a grave, wash-pond &c.). [Another opin. in Ar. <he>ב׳</he> = <he>אבן ב׳</he> <i>a flat stone</i> whereon washers beat their clothes; Y. l. c. <he>כל שהוא וכ׳</he> any stone fixed in the ground is called a <i>b’kia</i>.—Ms. M. a. ed. Ven. <he>נְקִיעַ</he>, v. <cite ref=\"N01232\"><he>נֶקַע</he></cite>.]"
+			]
+		}
+	]
+}

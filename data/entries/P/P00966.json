@@ -1,0 +1,36 @@
+{
+	"id": "P00966",
+	"slug": "ענותן-2",
+	"headword": {
+		"text": "עִנְוְתָן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עִנְוְתָנָא"
+		},
+		{
+			"text": "עִנְיְו׳"
+		},
+		{
+			"text": "עִינְ׳"
+		}
+	],
+	"page": {
+		"number": 1092,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00965\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 12:3\">Targ. Num. XII, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Zephaniah 3:12\">Targ. Zeph. III, 12</cite> (h. text <cite ref=\"P00970\"><he>עני</he></cite>); a. e.—Pl. <he>עִנְוְתָנִין</he>, <he>עִנְוְתָנַיָּא</he>, <cite ref=\"P00965\"><he>עִנְוְתָנֵי</he></cite>, <cite ref=\"P00965\"><he>עִנְוְו׳</he></cite>, <cite ref=\"P00965\"><he>עִינְ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 9:13\">Targ. Ps. IX, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 9:19\">Ib. 19</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 69:33\">Ib. LXIX, 33</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 11a:7\">Snh. 11ᵃ</cite> sq. <he>תא חזי מאי איכא בין תקיפי לע׳ בתראי …</he> (Ms. M. <he>לענותאי</he>) come and see the difference between the rigorous rulers of former days and the mild of these latter days."
+			]
+		}
+	]
+}

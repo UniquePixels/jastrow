@@ -1,0 +1,24 @@
+{
+	"id": "U01148",
+	"slug": "שכיכה",
+	"headword": {
+		"text": "שְׁכִיכָה"
+	},
+	"page": {
+		"number": 1573,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01157\"><he>שָׁכַךְ</he></cite>) <i>appeasement, use of the root</i> <cite ref=\"U01157\"><he>שָׁכַךְ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 3:14\">Esth. R. to I, 12</cite>; <cite ref=\"Esther Rabbah 2:1\">II, 1</cite> (ref. to <he>כְּשֹׁךְ</he> <cite ref=\"Esther Rabbah 2:1\">ib.</cite>) <he>ש׳ שאינה ש׳</he> it was an appeasement, and yet it was no appeasement, i.e. he was not reconciled without regret.—Pl. <he>שְׁכִיכוֹת</he>. ",
+				"<cite ref=\"Megillah 16a:23\">Meg. 16ᵃ</cite> (ref. to <cite ref=\"Esther 2:1\">Esth. II, 1</cite>, a. ",
+				"<cite ref=\"Esther 7:10\">VII, 10</cite>) <he>שתי ש׳ הללו למה</he> why these two appeasements?; <cite ref=\"Yalkut Shimoni on Nach 1059:2\">Yalk. Esth. 1059</cite> (not <he>שכיכת</he>)."
+			]
+		}
+	]
+}

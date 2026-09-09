@@ -1,0 +1,30 @@
+{
+	"id": "H00054",
+	"slug": "חביבאי",
+	"headword": {
+		"text": "חֲבִיבָאֵי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲבָבָאֵי"
+		}
+	],
+	"page": {
+		"number": 418,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"H00014\"><he>חָבַב</he> II</cite>) <i>wrestlers, a case of assault and battery without witnesses</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevuot 6:2\">Tosef. Shebu. VI, 2</cite> <he>ר׳ יהודה היה קורא אותה ח׳</he> (Var. ed. Zuck. <he>הנחכין</he>) R. Judah called such a case (in Chald.) <i>ḥăbibaé</i>; <cite ref=\"Tosefta Shevuot 6:2\">ib.</cite> ",
+				"<cite ref=\"Bava Kamma 11a\">B. Kam. XI, 28</cite> (our w. a. <he>אותה</he> omitted in ed. Zuck., Var. <he>אותה הכחכא</he>, <he>אותה כאי</he>); <cite ref=\"Jerusalem Talmud Shevuot 7:3:2\">Y. Shebu. VII, 37ᵈ</cite> bot. <he>קורא חבטי</he>."
+			]
+		}
+	]
+}

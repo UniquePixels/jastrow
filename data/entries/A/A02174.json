@@ -1,0 +1,35 @@
+{
+	"id": "A02174",
+	"slug": "אנטיגרפין",
+	"headword": {
+		"text": "אַנְטִיגְרָפִין"
+	},
+	"page": {
+		"number": 83,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἀντιγραφή) ",
+			"units": []
+		},
+		{
+			"gloss": " (= ἀντίγραφον) <i>duplicate</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 3:14\">Targ. Esth. III, 14</cite> Mus. (ed. <he>דיטגמא</he>); Esth. R. to ibid. (explain. <cite ref=\"Q02211\"><he>פתשגן</he></cite> <cite ref=\"Aramaic Targum to Esther 3:14\">ib.</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>answer to a letter</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 67\">Gen. R. s. 67</cite> <he>הב לי א׳</he> Ar. (ed. <he>אנטיגרפא</he>, corr. <he>פי …</he>) give me an answer (to the emperor’s letter). ",
+				"<cite ref=\"Bereishit Rabbah 67\">Ib.</cite> <he>הן א׳</he> where is the answer?"
+			],
+			"label": "2"
+		}
+	]
+}

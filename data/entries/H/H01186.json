@@ -1,0 +1,39 @@
+{
+	"id": "H01186",
+	"slug": "חמיע",
+	"headword": {
+		"text": "חֲמִיעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲמִיעָא"
+		}
+	],
+	"page": {
+		"number": 477,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01210\"><he>חמע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sour</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 3:14\">Lam. R. to III, 40</cite>, v. <cite ref=\"B00991\"><he>בְּסִימָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (Targ. Y. <cite ref=\"H01186\"><he>חָמִיעַ</he></cite>) = h. <cite ref=\"H01212\"><he>חָמֵץ</he></cite>, <i>leavened</i> (<i>bread</i>). ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 12:15\">Targ. Ex. XII., 15</cite>; a. fr.—Y. Snh. III, 21ᵇ <he>הורו מיפי ח׳ וכ׳</he> they permitted to bake leavened bread on Passover (for the troops)."
+			],
+			"label": "2"
+		}
+	]
+}

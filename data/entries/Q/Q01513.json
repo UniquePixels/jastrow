@@ -1,0 +1,29 @@
+{
+	"id": "Q01513",
+	"slug": "פקץ",
+	"headword": {
+		"text": "פָּקַץ"
+	},
+	"page": {
+		"number": 1211,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>פִּיקֵּץ</he>, v. <cite ref=\"Q01497\"><he>פָּקַס</he> II</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

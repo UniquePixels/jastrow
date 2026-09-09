@@ -1,0 +1,34 @@
+{
+	"id": "C01245",
+	"slug": "גרגותני",
+	"headword": {
+		"text": "גַּרְגּוּתְנִי"
+	},
+	"page": {
+		"number": 264,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<he>גַּרְגַּתְנִי</he> Ar.) f. (v. <cite ref=\"C00479\"><he>גּוּרְגָּא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a wicker</i> or <i>net work</i> in the <i>wine or oil press</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 56b:2\">Ab. Zar. 56ᵇ</cite> <he>החזיר ג׳ לגת</he> if he placed the net (once used) back into the vat. ",
+				"<cite ref=\"Chagigah 22b\">Ḥag. 22ᵇ</cite> <he>גורג׳</he> some ed.; <cite ref=\"Tosefta Chagigah 3:4\">Tosef. ib. III, 4</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 22:3\">Lev. R. s. 22</cite> he gathered the vessels of the Temple <he>ונתנן לתוך ג׳</he> and placed them in a net; <cite ref=\"Gittin 56b:11\">Gitt. 56ᵇ</cite> he took the curtain <he>ועשאו כמין ג׳</he> and shaped it like &c. ",
+				"<cite ref=\"Tosefta Keilim Metsia 6:5\">Tosef. Kel. B. Mets. VI, 5</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (from its shrivelled surface) <i>the scarry and lifeless surface of a healed up wound, eschar</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 85a:19\">B. Kam. 85ᵃ</cite> <he>העלתה מכתו ג׳</he> if, through neglect of medical advice, the wound became scabby; Y. ib. 6ᵇ bot. [read:] <he>עלתה בו ג׳</he>."
+			],
+			"label": "2"
+		}
+	]
+}

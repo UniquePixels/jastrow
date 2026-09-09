@@ -1,0 +1,30 @@
+{
+	"id": "B00023",
+	"slug": "באיין",
+	"headword": {
+		"text": "בָּאיָין",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּיָּין"
+		}
+	],
+	"page": {
+		"number": 135,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (βάϊον-βάϊς, a Coptic word; denomin. βάϊνος; cmp. ",
+			"units": [
+				"<cite ref=\"The Book of Maccabees I 13:51\">I Macc. XIII, 51</cite>) <i>palm-leaf, palm-branch</i>. ",
+				"<cite ref=\"Vayikra Rabbah 30:1\">Lev. R. s. 30</cite>; Pesik. Ul’kaḥ. p. 180ᵃ <cite ref=\"B00011\"><he>באגין</he></cite> (read <he>באינון</he> βάϊνον); Tanḥ. Emor 18 <cite ref=\"A00292\"><he>אגין</he></cite> (corr. acc.; ed. Bub. 27 <cite ref=\"A00260\"><he>אגוז</he></cite> [!]); <cite ref=\"Yalkut Shimoni on Torah 651:4\">Yalk. Lev. 651</cite>.—",
+				"<cite ref=\"Midrash Tehillim 17:12\">Midr. Till. to Ps. XVII</cite> <cite ref=\"F00010\"><he>ובא</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 670:3\">Yalk. Ps. 670</cite> <cite ref=\"B00632\"><he>בימין</he></cite> (corr. acc.); v. <cite ref=\"A02638\"><he>אַפּוֹפְסִין</he></cite>."
+			]
+		}
+	]
+}

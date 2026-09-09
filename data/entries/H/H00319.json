@@ -1,0 +1,58 @@
+{
+	"id": "H00319",
+	"slug": "חול-1",
+	"headword": {
+		"text": "חוּל"
+	},
+	"page": {
+		"number": 432,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H01073\"><he>חלל</he></cite>) [<i>to turn around, circle</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to dance</i>. Part. <cite ref=\"H00955\"><he>חָל</he></cite>, <cite ref=\"H00323\"><he>חוֹל</he></cite>; perf. <cite ref=\"H00955\"><he>חָל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Taanit 4:8\">Taan. IV, 8</cite> <he>יוצאות וחוֹלוֹת וכ׳</he> used to go out and dance in the vineyards; Lam. R. introd. <he>וחָלוֹת</he> (<he>ר׳ זעירא</he>) (ed. Wil. <he>וחולות</he>). ",
+				"<cite ref=\"Kohelet Rabbah 1:11:1\">Koh. R. to I, 11</cite> <he>חָלִין לפניו</he> dance before Him, v. <cite ref=\"H00334\"><he>חוֹלָה</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 74\">Gen. R. s. 74</cite> <cite ref=\"H01050\"><he>חָלִים</he></cite>; <cite ref=\"Shir HaShirim Rabbah 7:1\">Cant. R. to VII, 1</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"H00132\"><he>חַג</he></cite>) <i>to come in turn, to occur</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Megillah 1:1\">Meg. I, 1</cite> <he>חל להיות וכ׳</he> if the fourteenth fell on a Monday. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 4:1\">R. Hash. IV, 1</cite>; a. v. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (with <he>על</he>) <i>to hover around one’s head, to rest upon one as a duty; to take effect</i> (as a law). ",
+			"units": [
+				"<cite ref=\"Shevuot 25a:11\">Shebu. 25ᵃ</cite> <he>הנדרים חָלִים על וכ׳</he> vows are binding even if referring to a religious obligation. ",
+				"<cite ref=\"Shevuot 25a\">Ib.</cite> <he>שבועות חָלוֹת וכ׳</he> oaths are binding &c.; <cite ref=\"Nedarim 15a\">Ned. 15ᵃ</cite>. ",
+				"<cite ref=\"Nedarim 17a:4\">Ib. 17ᵃ</cite> <he>אין חָלָה וכ׳</he> one vow of nazaritism does not take effect &c.; <cite ref=\"Chullin 101a:6\">Ḥull. 101ᵃ</cite> <he>איסור חל וכ׳</he>, v. <cite ref=\"A01405\"><he>אִיסּוּר</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:1:2\">Y. Sabb. VII, 9ᵃ</cite> top; a. v. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוּחַל"],
+			"senses": [
+				{
+					"gloss": " [<i>to be made to circle</i>,] <i>to be commenced, established</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 31a\">Ber. 31ᵃ</cite> <cite ref=\"H01028\"><he>הוּחֲלָה</he></cite> it (prayer at fixed times) was instituted."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

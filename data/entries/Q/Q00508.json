@@ -1,0 +1,27 @@
+{
+	"id": "Q00508",
+	"slug": "פטטרכא",
+	"headword": {
+		"text": "פְּטָטַרְכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּטָטַרְכָה"
+		}
+	],
+	"page": {
+		"number": 1154,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>פטרטר</he>, with formative <cite ref=\"K00000\"><he>כ</he></cite>) [<i>the discharger</i>,] <i>rectum</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 3:4\">Lev. R. s. 3</cite> <he>ומפ׳ לברא</he> and from the rectum it is discharged; <cite ref=\"Kohelet Rabbah 7:19\">Koh. R. to VII, 19</cite> <he>ומפַּטְרוֹכָא לעזקתא</he>, v. <cite ref=\"P00421\"><he>עִזְקָא</he> II</cite>; <cite ref=\"Yalkut Shimoni on Nach 976\">Yalk. ib. 976</cite> <cite ref=\"Q00642\"><he>פִּיטַרְכָא</he></cite>."
+			]
+		}
+	]
+}

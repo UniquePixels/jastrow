@@ -1,0 +1,22 @@
+{
+	"id": "G00513",
+	"slug": "זמזומי",
+	"headword": {
+		"text": "זַמְזוּמֵי"
+	},
+	"page": {
+		"number": 402,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (infin. of <he>זמזם</he> <i>tinnire</i>, P. Sm. 1132, v. <cite ref=\"G00526\"><he>זָמַם</he> I</cite>) <i>playing on a tingling instrument</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 104a:17\">Erub. 104ᵃ</cite> <he>כי קלא דז׳</he> as the sound of tingling; [Ms. M. <he>דמן מזומה</he>, Ms. Alf. <he>כי זמומי</he>; Asheri: <he>כמו זִימְזוּמֵי</he>; Sefer ha-Ittim <he>כמַזְמוּטֵי</he>]."
+			]
+		}
+	]
+}

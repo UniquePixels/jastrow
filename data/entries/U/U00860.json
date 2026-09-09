@@ -1,0 +1,28 @@
+{
+	"id": "U00860",
+	"slug": "שיחה-1",
+	"headword": {
+		"text": "שִׁיחָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוּ׳"
+		}
+	],
+	"page": {
+		"number": 1559,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00634\"><he>שָׁחַח</he></cite>; v. <cite ref=\"U00859\">preced.</cite>) <i>low talk, whisper</i> (cmp. ",
+			"units": [
+				"<cite ref=\"Isaiah 29:4\">Is. XXIX, 4</cite>). ",
+				"<cite ref=\"Shabbat 152a:8\">Sabb. 152ᵃ</cite> (ref. to <cite ref=\"Ecclesiastes 12:4\">Koh. XII, 4</cite>) <he>שאפי׳ קול שרים ושרות דומות עליו כשִׁי׳</he> Ms. M. (ed. <he>שירים ושירות כשׁוּ׳</he>, corr. acc.) even the loud songs of singers and songstresses sound to him like a whisper; <cite ref=\"Yalkut Shimoni on Nach 989\">Yalk. Koh. 989</cite>."
+			]
+		}
+	]
+}

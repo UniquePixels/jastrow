@@ -1,0 +1,29 @@
+{
+	"id": "M00165",
+	"slug": "מגיסטיר",
+	"headword": {
+		"text": "מָגִיסְטֵיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָגִסְ׳"
+		}
+	],
+	"page": {
+		"number": 728,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (magister) <i>a high imperial officer</i> (v. Sm. Ant. s. v.). ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 30:11\">Ex. R. s. 30</cite> <he>קרב קיסין למ׳</he> put the Magister in stocks. ",
+				"<cite ref=\"Vayikra Rabbah 28\">Lev. R. s. 28</cite> <he>מאן דעביד מ׳ פלטון וכ׳</he> he who used to appoint the Magister Palatii is now to be made a bather &c.—Pl. <he>מָגִיסְטְרֵי</he> (magistri). ",
+				"<cite ref=\"Bereishit Rabbah 26:7\">Gen. R. s. 26</cite> (expl. <he>זמזמים</he>, <cite ref=\"Deuteronomy 2:20\">Deut. II, 20</cite>, v. <cite ref=\"G00526\"><he>זָמַם</he> I</cite>) <he>מנטרומין מגיסטי מלחמה</he> (some ed. <he>מנטרמוי בג׳</he>; Yalk. ib. 47 <he>מנדמטין מגוסטי</he>) read: <he>מִנְסוֹרִין ומגיסטרי וכ׳</he> mensores (camp-surveyors) and magistri militum (chief commanders)."
+			]
+		}
+	]
+}

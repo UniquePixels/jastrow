@@ -1,0 +1,22 @@
+{
+	"id": "B00127",
+	"slug": "בדותא",
+	"headword": {
+		"text": "בָּדוּתָא"
+	},
+	"page": {
+		"number": 139,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בדי</he> I) <i>fiction, mistake</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 145a:14\">B. Bath. 145ᵃ</cite>, a. fr. <he>הא דר׳ … ב׳ היא</he> R. …’s account (or opinion) is a mistake. [Ar. reads <cite ref=\"B01215\"><he>בָּרוּתָא</he></cite> q. v.]"
+			]
+		}
+	]
+}

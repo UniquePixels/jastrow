@@ -1,0 +1,34 @@
+{
+	"id": "S00171",
+	"slug": "קדר-4",
+	"headword": {
+		"text": "קְדַר",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1318,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"S00170\">same</cite> <cite ref=\"Targum Jonathan on Deuteronomy 28:15\">Targ. Y. Deut. XXVIII, 15</cite>.—[<cite ref=\"Yalkut Shimoni on Nach 901:1\">Yalk. Job 901</cite> <he>וקדיר יתיה</he>, read as <cite ref=\"Vayikra Rabbah 22:4\">Lev. R. s. 22</cite>: <he>ומקים</he>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְקַדֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to become black</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Song of Songs 1:5\">Targ. Cant. I, 5</cite>. ",
+						"<cite ref=\"Aramaic Targum to Lamentations 5:10\">Targ. Lam. V, 10</cite>. ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 12:2\">Targ. Koh. XII, 2</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

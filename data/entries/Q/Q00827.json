@@ -1,0 +1,36 @@
+{
+	"id": "Q00827",
+	"slug": "פירא-2",
+	"headword": {
+		"text": "פֵּירָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פֵּרָא"
+		}
+	],
+	"page": {
+		"number": 1170,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"Q01785\"><he>פֶּרִי</he></cite>, <i>fruit, crop</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 36b:1\">B. Bath. 36ᵇ</cite> <he>פ׳ רבא</he> the large crop (of grain); <he>פ׳ זוטא</he> the small crop (of vegetables &c.). ",
+				"<cite ref=\"Sukkah 31b:6\">Succ. 31ᵇ</cite> <he>לא גמר פ׳</he> the fruit (Ethrog) is not ripe. ",
+				"<cite ref=\"Berakhot 39a:6\">Ber. 39ᵃ</cite> <he>פ׳ עדיף</he> fruit (vegetable) has the preference (over meat, for the purposes of benediction); a. fr.—Trnsf. <i>fruition, usufruct</i>. ",
+				"<cite ref=\"Ketubot 79a:13\">Keth. 79ᵃ</cite> <he>זרדתא … אמרי לה פ׳</he> some say the right of felling service-trees or fishing in a pond comes under the category of usufruct, opp. <cite ref=\"S02103\"><he>קרנא</he></cite> property (which the heir may sell). ",
+				"<cite ref=\"Ketubot 79b:9\">Ib.ᵇ</cite> <he>פ׳ תקינו … פ׳ דפ׳ וכ׳</he> the Rabbis allowed the husband the usufruct (the births of the animals belonging to his wife), but not the fruition of the usufruct (e.g. the fine which the thief has to pay for stealing the calf). ",
+				"<cite ref=\"Ketubot 79b:8\">Ib.</cite> <he>עיילא ליה גלימא פ׳ הוי וכ׳</he> if she brought in a cloak, he has the use of it, he may cover himself with it, until it is worn out; a. fr.—Pl. <cite ref=\"Q00856\"><he>פֵּירֵי</he></cite>, <he>פֵּירִין</he>, <cite ref=\"Q00839\"><he>פֵּר׳</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 1:11\">Targ. Gen. I, 11</cite>, sq. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:19\">Targ. Prov. VIII, 19</cite> <cite ref=\"Q01794\"><he>פִּרְיַי</he></cite>; a. fr.—",
+				"<cite ref=\"Shevuot 48a:4\">Shebu. 48ᵃ</cite> <he>פ׳ עבידי דמרקבי</he> fruits are liable to rot; a. fr."
+			]
+		}
+	]
+}

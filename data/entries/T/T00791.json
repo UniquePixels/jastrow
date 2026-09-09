@@ -1,0 +1,29 @@
+{
+	"id": "T00791",
+	"slug": "רמה-1",
+	"headword": {
+		"text": "רָמָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1481,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>high</i>, v. <cite ref=\"T00780\"><he>רָם</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>height</i>.—Pl. <he>רָמוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Megillah 14a:12\">Meg. 14ᵃ</cite>, v. <cite ref=\"R00672\"><he>צָפָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

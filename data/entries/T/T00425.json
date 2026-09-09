@@ -1,0 +1,25 @@
+{
+	"id": "T00425",
+	"slug": "רופילא",
+	"headword": {
+		"text": "רוּפִילָא"
+	},
+	"page": {
+		"number": 1463,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (rufulus) <i>a military tribune chosen by the general himself</i>; (adopted in the Persian bureaucracy) <i>a high official, royal adjutant</i> or <i>viceroy</i>. ",
+			"units": [
+				"<cite ref=\"Shevuot 6b:11\">Shebu. 6ᵇ</cite> <he>כגון מלכא ור׳ וכ׳</he> as, for instance, the king is followed by the Rufila, and the Alḳafta by the Resh Galutha. ",
+				"<cite ref=\"Bava Metzia 49b:4\">B. Mets. 49ᵇ</cite>; <cite ref=\"Bava Metzia 107b:16\">107ᵇ</cite> <he>פרזק ר׳</he>.—Pl. <he>רוֹפִילִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Ruth 1:2\">Targ. Ruth I, 2</cite> <he>והוו תמן ר׳</he> and they became there military tribunes (h. text <he>ויהיו שם</he>). ",
+				"<cite ref=\"Aramaic Targum to Esther 9:6\">Targ. Esth. IX, 6</cite>; <cite ref=\"Aramaic Targum to Esther 9:12\">ib. 12</cite> (ed. Vien. <he>רוֹפִלִין</he>)."
+			]
+		}
+	]
+}

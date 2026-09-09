@@ -1,0 +1,24 @@
+{
+	"id": "A01207",
+	"slug": "איחטא",
+	"headword": {
+		"text": "אִיחֲטָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 46,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Ithp. of <cite ref=\"H00582\"><he>חטא</he></cite>) <i>one in the habit of sinning</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 1:1:15\">Y. Taan. I, 64ᵃ</cite> top <he>הוה א׳ בלישניה</he> was foul-mouthed; v. ",
+				"<cite ref=\"Arakhin 15b\">Arakh. 15ᵇ</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "S01072",
+	"slug": "קיסם-2",
+	"headword": {
+		"text": "קֵיסֶם"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִיסְמָא"
+		}
+	],
+	"page": {
+		"number": 1365,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"S01071\">same</cite> [<cite ref=\"Aramaic Targum to Proverbs 14:30\">Targ. Prov. XIV, 30</cite> ed. Lag., read with ed. Wil. <cite ref=\"S01056\"><he>קיסא</he></cite>.] <cite ref=\"Targum Jonathan on Numbers 25:3\">Targ. Y. I Num. XXV, 3</cite>; a. e.—",
+			"units": [
+				"<cite ref=\"Shabbat 54b:13\">Sabb. 54ᵇ</cite>, v. <cite ref=\"T01142\"><he>רִתְמָא</he></cite>."
+			]
+		}
+	]
+}

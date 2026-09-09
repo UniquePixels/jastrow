@@ -1,0 +1,29 @@
+{
+	"id": "O01160",
+	"slug": "סנאה-2",
+	"headword": {
+		"text": "סַנְאָה"
+	},
+	"page": {
+		"number": 1004,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01159\">preced.</cite>) <i>hater</i>, <i>enemy</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 23:5\">Targ. Ex. XXIII, 5</cite>. Targ. II Esth. VI, 10; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:12\">Y. Ber. II, 5ᵃ</cite> top <he>סַנְאֵיהוֹן דישראל</he> the enemy of Israel. ",
+				"<cite ref=\"Chullin 43b:15\">Ḥull. 43ᵇ</cite> (euphem.) <he>כלפי סַנְאֵיה דרבא</he> (not <he>סנאוה</he>) against (the enemy of) Raba.—Pl. <cite ref=\"O01163\"><he>סַנְאִין</he></cite>, <he>סַנְאַיָּא</he>, <cite ref=\"O01162\"><he>סַנְאֵי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 35:19\">Targ. Ps. XXXV, 19</cite> (ed. Wil. <cite ref=\"O01162\"><he>סָנְאַי</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 1:10\">Targ. Ex. I, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 129:5\">Targ. Ps. CXXIX, 5</cite> (Ms. <cite ref=\"O01162\"><he>סַנְאֵי</he></cite>; some ed. <cite ref=\"O01222\"><he>סַנֵי</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 45:6\">Ib. XLV, 6</cite> (some ed. <cite ref=\"O00213\"><he>שַׂ׳</he></cite>); a. e.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:11\">Y. Taan. IV, 68ᵈ</cite> <he>שַׂנְאַיָּיא</he>.—V. <cite ref=\"U01567\"><he>שַׂנְאוּתָא</he></cite>."
+			]
+		}
+	]
+}

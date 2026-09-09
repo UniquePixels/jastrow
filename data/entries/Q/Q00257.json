@@ -1,0 +1,23 @@
+{
+	"id": "Q00257",
+	"slug": "פונא",
+	"headword": {
+		"text": "פּוּנָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1143,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00256\">preced.</cite>) <i>change</i>.—Pl. <cite ref=\"Q00281\"><he>פּוּנִין</he></cite> (adv.) <i>alternately</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 4:16\">Targ. Job IV, 16</cite> Ms. (ed. <he>סוגעין</he>)."
+			]
+		}
+	]
+}

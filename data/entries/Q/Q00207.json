@@ -1,0 +1,23 @@
+{
+	"id": "Q00207",
+	"slug": "פול-3",
+	"headword": {
+		"text": "פּוּל",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1141,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01075\"><he>פָּלַל</he></cite>; cmp. <cite ref=\"Q00959\"><he>פָּלָה</he></cite>) <i>decision, search</i>; <he>בּעַל הַפּ׳</he> a superintendent of the Temple, <i>guardsman</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kelim Kamma 1:6\">Tosef. Kel. B. Kam. I, 6</cite> (R. S. to <cite ref=\"Mishnah Kelim 1:9\">Kel. I, 9</cite> <cite ref=\"N01054\"><he>הפיל</he></cite>)."
+			]
+		}
+	]
+}

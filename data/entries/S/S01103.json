@@ -1,0 +1,29 @@
+{
+	"id": "S01103",
+	"slug": "קיפופא",
+	"headword": {
+		"text": "קִיפּוּפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִיפּוֹ׳"
+		},
+		{
+			"text": "קִפּ׳"
+		}
+	],
+	"page": {
+		"number": 1366,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01102\">same</cite>, <i>owl</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:17\">Targ. Lev. XI, 17</cite> (O. ed. Berl. <cite ref=\"K00605\"><he>קִיפּ׳</he></cite>, oth. ed. O. a. Y. <cite ref=\"K00605\"><he>קִיפ׳</he></cite>, <cite ref=\"S01096\"><he>קִפ׳</he></cite>; h. text <he>ינשוף</he>); <cite ref=\"Onkelos Deuteronomy 14:16\">Targ. O. Deut. XIV, 16</cite> (h. text <he>ינשוף</he>); Y. ed. Amst. <cite ref=\"S00038\"><he>קְפוּ׳</he></cite> (ed. Vien. <he>כְּפוּפָא</he>; h. text <cite ref=\"K00316\"><he>כוס</he></cite>).—",
+				"<cite ref=\"Niddah 23a:37\">Nidd. 23ᵃ</cite> <he>קפ׳</he> (Rashi <cite ref=\"K00605\"><he>קיפ׳</he></cite>). ",
+				"<cite ref=\"Berakhot 57b\">Ber. 57ᵇ</cite> <he>קפ׳</he>."
+			]
+		}
+	]
+}

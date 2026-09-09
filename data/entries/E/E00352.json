@@ -1,0 +1,33 @@
+{
+	"id": "E00352",
+	"slug": "היזמא",
+	"headword": {
+		"text": "הִיזְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הוּזְ׳"
+		},
+		{
+			"text": "אִיזְמָא"
+		}
+	],
+	"page": {
+		"number": 344,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>הזם</he>, cmp. <he>חזם</he>) <i>a prickly shrub</i>, prob. <i>Spina Regia</i> (v. Löw Aram. Pfl. p. 231 a. quot. ib. from Plin. Hist. Nat.). ",
+			"units": [
+				"<cite ref=\"Tosefta Kilaim 1:11\">Tosef. Kil. I, 11</cite> you must not plant <i>cuscuta</i> <he>על גבי האי׳</he> ed. Zuck. (Var. <cite ref=\"A00977\"><he>אזמאזמא</he></cite>, corr. acc.) on <i>izma</i>.—Pl. <he>הִיזְמֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 31:40\">Targ. Job XXXI, 40</cite> <he>הז׳</he> (Ms. <he>הוּ׳</he>).—",
+				"<cite ref=\"Ketubot 77b:13\">Keth. 77ᵇ</cite> <he>שכר של הי׳</he> beer containing (in place of hops) cuscuta growing on <i>hizmé</i>.—Mostly in connection with <he>היגי</he>, v. <cite ref=\"E00340\"><he>הֵיגְתָא</he></cite>. ",
+				"<cite ref=\"Shabbat 107b\">Sabb. 107ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

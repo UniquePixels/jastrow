@@ -1,0 +1,29 @@
+{
+	"id": "M01782",
+	"slug": "מניכא",
+	"headword": {
+		"text": "מָנִיכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְ׳"
+		}
+	],
+	"page": {
+		"number": 801,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01772\"><he>מני</he></cite>, v. <cite ref=\"E00631\"><he>הַמְנִיכָא</he></cite>) [<i>badge of office</i>,] <i>necklace</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 41:42\">Targ. Gen. XLI, 42</cite>; a. e.—",
+				"<cite ref=\"Tamid 32a:68\">Tam. 32ᵃ</cite>.—Pl. <he>מָנִיכִין</he>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 49:22\">Targ. Y. II, Gen. XLIX, 22</cite>."
+			]
+		}
+	]
+}

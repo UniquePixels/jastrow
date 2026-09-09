@@ -1,0 +1,22 @@
+{
+	"id": "E00344",
+	"slug": "הידור-1",
+	"headword": {
+		"text": "הִידוֹר"
+	},
+	"page": {
+		"number": 343,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ὕδωρ) <i>water</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 35a:4\">Succ. 35ᵃ</cite> <he>א״ת הָדָר אלא ה׳ וכ׳</he> Ms. M. 2 (ed. <cite ref=\"A01157\"><he>אידור</he></cite>, Ar. <cite ref=\"E00107\"><he>הִדוֹר</he></cite>) read not <i>hadar</i> (<cite ref=\"Leviticus 23:40\">Lev. XXIII, 40</cite>) but <i>hydor</i>, for in Greek water is called h.; <cite ref=\"Yalkut Shimoni on Torah 651:12\">Yalk. Lev. 651</cite>."
+			]
+		}
+	]
+}

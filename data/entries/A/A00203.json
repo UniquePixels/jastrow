@@ -1,0 +1,26 @@
+{
+	"id": "A00203",
+	"slug": "אבר-5",
+	"headword": {
+		"text": "אֲבָר"
+	},
+	"page": {
+		"number": 9,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A00200\"><he>אָבַר</he></cite>; b. h. <i>lead</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 52a:9\">Snh. 52ᵃ</cite> <he>פתילה של א׳</he> a string (bar) of lead. ",
+				"<cite ref=\"Chullin 8a:4\">Ḥull. 8ᵃ</cite> <he>א׳ מעיקרו</he> lead directly from the mine (hot). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:39\">Y. Sabb. VII, 10ᵇ</cite> bot. ",
+				"<cite ref=\"Mishnah Kelim 14:5\">Kel. XIV, 5</cite> <he>הא׳ שבצד וכ׳</he> the lead hanging down from the neck of the animal (as ornament or mark). ",
+				"<cite ref=\"Gittin 19a\">Git. 19ᵃ</cite>; <cite ref=\"Shabbat 104b:4\">Sabb. 104ᵇ</cite> <he>כתבו בא׳</he> if he wrote the document with lead (solution); a. fr."
+			]
+		}
+	]
+}

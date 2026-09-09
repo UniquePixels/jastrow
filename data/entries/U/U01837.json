@@ -1,0 +1,22 @@
+{
+	"id": "U01837",
+	"slug": "שקועה",
+	"headword": {
+		"text": "שְׁקוּעָה"
+	},
+	"page": {
+		"number": 1621,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>sh’ḳu‘ah</i>, a substitute for <cite ref=\"U00081\"><he>שְׁבוּעָה</he></cite>, v. <cite ref=\"K00566\"><he>כִּינּוּי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 1:2:4\">Y. Ned. I, 37ᵃ</cite> top."
+			]
+		}
+	]
+}

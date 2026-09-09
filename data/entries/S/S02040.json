@@ -1,0 +1,28 @@
+{
+	"id": "S02040",
+	"slug": "קריה-2",
+	"headword": {
+		"text": "קִרְיָה",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קִירְ׳"
+		}
+	],
+	"page": {
+		"number": 1419,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (= <cite ref=\"S02030\"><he>קִרְיָאָה</he></cite>, v. <cite ref=\"S00606\"><he>קוּרְיָיאָה</he></cite> a. <cite ref=\"S02049\"><he>קִרְיָיא</he></cite>) <i>townsman, villager</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 18:3\">Gen. R. s. 18</cite> (ref. to <cite ref=\"Genesis 2:22\">Gen. II, 22</cite>) <he>טבוי לק׳ דמלכא שושביניה</he> lucky is the townsman whose groomsman is the king (‘Rashi’ <he>טבות לקרתא דמלכא שושבינה</he>); Yalk. ib. 24 <he>טובוי לקי׳</he>."
+			]
+		}
+	]
+}

@@ -1,0 +1,75 @@
+{
+	"id": "V00844",
+	"slug": "תפס-2",
+	"headword": {
+		"text": "תְּפַס"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּפַשׂ"
+		}
+	],
+	"page": {
+		"number": 1688,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00843\">same</cite>, <i>to seize, catch</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 10:9\">Targ. Ps. X, 9</cite>. Targ. II Esth. III, 8; a. e.—",
+				"<cite ref=\"Ketubot 84b:8\">Keth. 84ᵇ</cite> <he>קריביה … תָּפוּס פרה וכ׳</he> relatives of R. J. seized a cow that belonged to heirs, out of an alley; <he>שפיר תְּפַסְתּוּהָ</he> you have seized her legally; <cite ref=\"Ketubot 84b:8\">ib.</cite> <he>תַּפְסִיתוּהָ</he>. ",
+				"<cite ref=\"Ketubot 84b:8\">Ib.</cite> <he>ההוא … דתַפְסֵי תורא מיניה</he> there was a cowherd for heirs (minors) from whom they (creditors) seized an ox; <he>מחיים תְּפִיסְנָא ליה</he> I took it when the father was yet living; a. fr.—<i>Part. pass.</i> <he>תָּפִיס</he> <i>holding</i>. ",
+				"<cite ref=\"Bava Metzia 102b:9\">B. Mets. 102ᵇ</cite> <he>משום דת׳</he> because he is in possession; <he>הכא נמי קא ת׳</he> here, too, he is in possession; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַתְפֵּיס"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to seize, to deposit with</i> (as security). ",
+					"units": [
+						"<cite ref=\"Bava Batra 174a:15\">B. Bath. 174ᵃ</cite> <he>אַתְפְּסֵיה</he> (not <he>אתפסוה</he>); <cite ref=\"Bava Batra 174b:8\">ib.ᵇ</cite> <he>דאתפסיה</he> (not <he>דאתפסה</he>); <cite ref=\"Ketubot 107a\">Keth. 107ᵃ</cite> <he>דאַתְפְּסָהּ צררי</he>, v. <cite ref=\"R00812\"><he>צְרָרָא</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתַּפֵּס", "אִיתַּפֵּשׂ"],
+			"senses": [
+				{
+					"gloss": "; <i>Ithpe.</i> <cite ref=\"V00844\"><he>אִתְּפִיס</he></cite>, <cite ref=\"I00251\"><he>אִתְּפִישׁ</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be seized, arrested</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 11:4\">Targ. Koh. XI, 4</cite> (ed. Vien. <cite ref=\"M02749\"><he>מִתְפַּס</he></cite>).—",
+						"<cite ref=\"Temurah 26b:10\">Tem. 26ᵇ</cite> <he>למימרא דתחת לישנא דאִיתַּפּוּסֵי הוא</he> shall we say that <i>taḥath</i> has the meaning of being arrested, i.e. if you say, this animal shall be <i>taḥath</i> (in the place of) that animal, it becomes consecrated according to the law of exchange (<cite ref=\"V00667\"><he>תְּמוּרָה</he></cite>)? <cite ref=\"Temurah 26b:8-14\">Ib.</cite> <he>תחת … לישנא דאתפוסי ולישנא דאחולי</he> <i>taḥath</i> appears in the sense of being arrested and in the sense of redeeming; <he>לישנא דאיתפוסי דכתיב וכ׳</he> in the sense of being arrested, as we read (<cite ref=\"Leviticus 13:23\">Lev. XIII, 23</cite>) &c. Ib. 27ᵃ; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be deposited</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 107b:8\">Keth. 107ᵇ</cite> <he>לא מִתְּפִיס</he>, v. <cite ref=\"R00812\"><he>צְרָרָא</he> I</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to hold one’s self, cling to</i>. ",
+					"units": [
+						"<cite ref=\"Nedarim 11b:8\">Ned. 11ᵇ</cite> <he>בהיתירא קא מתפיס</he> he clings to the idea of permission, i.e. by saying, ‘this thing be unto me like flesh of a peace-offering after the blood has been sprinkled’, he proves that he means to emphasize the permission to enjoy the thing; <he>אלא כגון … בעיקרו קא מתפיס ות׳</he> but in a case like this, when he puts down flesh of a peace-offering, and places some permitted food beside it, and says, ‘this be like this’: does he mean to refer to the original condition of the peace-offering &c.? (v. <cite ref=\"R00637\"><he>צִנְנָא</he></cite>). Ib. 12ᵃ <he>בקרבן קא תפיס</he> he refers to the sacred character of a sacrifice; <he>כמתפיס בדבר האסור</he> as if referring to something ritually forbidden (not to something made forbidden by consecration or vow). Ib. <he>בעיקר קא מתפיס</he> he refers to the original day (of his father’s death). ",
+						"<cite ref=\"Nazir 22b\">Naz. 22ᵇ</cite>, v. <cite ref=\"R00637\"><he>צִנְנָא</he></cite>. ",
+						"<cite ref=\"Nazir 21a:11\">Ib. 21ᵃ</cite> <he>חד בחבריה מתפיס</he> (in saying, ‘and I’) each refers to him that spoke immediately before him; <he>בקמא מִיתַּפְּסֵי</he> they all refer to the first person; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

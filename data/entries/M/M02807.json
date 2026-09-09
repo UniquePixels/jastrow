@@ -1,0 +1,23 @@
+{
+	"id": "M02807",
+	"slug": "משבחא",
+	"headword": {
+		"text": "מְשַׁבְּחָא"
+	},
+	"page": {
+		"number": 849,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00099\"><he>שְׁבַח</he></cite>) <i>singer</i>.—Pl. <he>מְשַׁבְּחַיָּא</he>, <he>מְשַׁבְּחִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 9:33\">Targ. I Chr. IX, 33</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 15:17\">Targ. Jer. XV, 17</cite> (h. text <he>משחקים</he>)."
+			]
+		}
+	]
+}

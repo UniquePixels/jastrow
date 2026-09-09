@@ -1,0 +1,23 @@
+{
+	"id": "U00486",
+	"slug": "שוער-1",
+	"headword": {
+		"text": "שׁוֹעֵר"
+	},
+	"page": {
+		"number": 1538,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; denom. of <cite ref=\"U01686\"><he>שַׁעַר</he></cite>)<i>gate-keeper</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 2\">Deut. R. s. 2<sup>3</sup></cite> <he>היה מבקש מן הש׳ וכ׳</he> asked the gate-keeper to be allowed to enter the palace; a. e.—Pl. <he>שׁוֹעֲרִים</he>. ",
+				"<cite ref=\"Bereishit Rabbah 91:6\">Gen. R. s. 91</cite> <he>וכן הש׳ כל אחד שלו</he> and so did the gate-keepers report, every one his own (the name of one of the sons of Jacob); a. e."
+			]
+		}
+	]
+}

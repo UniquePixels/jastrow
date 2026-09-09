@@ -1,0 +1,29 @@
+{
+	"id": "E00249",
+	"slug": "הונאה",
+	"headword": {
+		"text": "הוֹנָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הוֹנָיָיה"
+		}
+	],
+	"page": {
+		"number": 339,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"A00722\"><he>אוֹנָאָה</he></cite>; <he>ינה</he>) <i>oppression, wrong</i>. Sifra B’har ch. III, Par. 3 <he>הניית ממון … הניית דברים</he>, read <cite ref=\"E00253\"><he>הוֹנָיַית</he></cite>.—Esp. (law) <i>imposition, fraudulent representation; redress in case of overreaching</i>, v. <cite ref=\"A00722\"><he>אוֹנָאָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 4:6\">B. Mets. IV, 6</cite> Y. ed. (Mish. ib. IV, 7 <cite ref=\"A01338\"><he>או׳</he></cite>) <he>ההינייה וכ׳</he> the overreaching, to be actionable, must be at least four M’ah &c. Y. Keth. XI, 34ᶜ top <he>אין למקח ה׳ וכ׳</he> against purchase there is no claim for overreaching, i.e. the purchase itself is not invalidated. ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 4:3:2\">Y. B. Mets. IV, 9ᵈ</cite> top <he>ה׳ עצמה</he> the actual amount overcharged. ",
+				"<cite ref=\"Yoma 2a:8\">Ib.</cite> <he>הוֹנָיָיתוֹ</he> the amount with which he was overcharged. Sifra l. c. <he>יש ה׳</he> legal redress can be claimed; a. v. fr.—Pl. <he>הוֹנָיוֹת</he>, v. <cite ref=\"A00740\"><he>אוֹנָיָה</he></cite>."
+			]
+		}
+	]
+}

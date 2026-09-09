@@ -1,0 +1,23 @@
+{
+	"id": "I00746",
+	"slug": "טרח-4",
+	"headword": {
+		"text": "טְרַח",
+		"homograph": 2
+	},
+	"page": {
+		"number": 551,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"I00224\"><he>טוּרְחָא</he></cite>, <i>painstaking, trouble</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 51a:5\">Ḥull. 51ᵃ</cite> <he>ט׳ טְרִיחַ לההוא גברא</he> what trouble has been taken by that man (myself)!—[Oth. version: <he>ט׳ טַרְיֵיה וכ׳</he> weariness (of travel) made me shaky.]"
+			]
+		}
+	]
+}

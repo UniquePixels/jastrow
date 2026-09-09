@@ -1,0 +1,25 @@
+{
+	"id": "B00581",
+	"slug": "ביטולא",
+	"headword": {
+		"text": "בִּיטּוּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּטּ׳"
+		}
+	],
+	"page": {
+		"number": 160,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00580\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 15:22\">Targ. Prov. XV, 22</cite>.—",
+				"<cite ref=\"Avodah Zarah 53b:8\">Ab. Zar. 53ᵇ</cite>"
+			]
+		}
+	]
+}

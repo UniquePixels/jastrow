@@ -1,0 +1,31 @@
+{
+	"id": "Q01905",
+	"slug": "פרנק-1",
+	"headword": {
+		"text": "פִּרְנֵק"
+	},
+	"page": {
+		"number": 1232,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<i>Parel</i> of <cite ref=\"Q01209\"><he>פָּנַק</he></cite>) <i>to delight; to treat with dainties</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְפַּרְנֵק"],
+			"senses": [
+				{
+					"gloss": "<i>to enjoy dainties</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 7:2\">Cant. R. to VII, 2</cite> <he>מִתְפַּרְנְקִין</he>, v. <cite ref=\"H00582\"><he>חָטָא</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

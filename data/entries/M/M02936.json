@@ -1,0 +1,22 @@
+{
+	"id": "M02936",
+	"slug": "משמש-3",
+	"headword": {
+		"text": "מַשְׁמָשׁ"
+	},
+	"page": {
+		"number": 857,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M02935\">preced.</cite> wds.; cmp. <cite ref=\"M01684\"><he>מַמָּשׁ</he></cite>) <i>substance</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:5:19\">Y. Ber. III, 6ᵈ</cite> bot. <he>מַשְׁמָשָׁהּ קיים</he> its substance remains visible; <he>מים אין מַשְׁמָשָׁן קיים</he> (not <he>משמשה</he>, ed. Lehm. <he>משמוש׳</he>) of liquids there is no substance left (when the spot is dried up)."
+			]
+		}
+	]
+}

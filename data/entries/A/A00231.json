@@ -1,0 +1,28 @@
+{
+	"id": "A00231",
+	"slug": "אבשונא",
+	"headword": {
+		"text": "אַבְשׁוּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲבִישְׁנָא"
+		}
+	],
+	"page": {
+		"number": 10,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אבש</he> = <cite ref=\"J00069\"><he>יבש</he></cite>) <i>something dried; parched</i> or <i>dried ears of grain</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 7b\">Meg. 7ᵇ</cite>; <cite ref=\"Pesachim 39b\">Pes. 39ᵇ</cite> <he>קמחא דא׳</he> flour of roasted ears. ",
+				"<cite ref=\"Pesachim 40a\">Ib. 40ᵃ</cite> <he>חצבא דאבשו׳</he> Ar. (ed. <he>אבי׳</he>) a basin wherein ears are roasted."
+			]
+		}
+	]
+}

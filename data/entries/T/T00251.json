@@ -1,0 +1,28 @@
+{
+	"id": "T00251",
+	"slug": "רדידא-1",
+	"headword": {
+		"text": "רְדִידָא"
+	},
+	"page": {
+		"number": 1452,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"T00250\">same</cite>, <i>gauze, veil</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 24:65\">Targ. Y. Gen. XXIV, 65</cite> (h. text <cite ref=\"R00653\"><he>צעיף</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 38:14\">Ib. XXXVIII, 14</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = <he>רַרִּיד</he> (<i>a chain of</i>) <i>hammered gold</i>.—Pl. <he>רְדִידִין</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:5\">Targ. Cant. II, 5</cite> (cmp. Targ. ib. V, 7 <cite ref=\"V00080\"><he>תגא</he></cite> for h. text <he>רדידי</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

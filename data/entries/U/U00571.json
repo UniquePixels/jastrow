@@ -1,0 +1,34 @@
+{
+	"id": "U00571",
+	"slug": "שושיפא",
+	"headword": {
+		"text": "שׁוֹשִׁיפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוֹשִׁפָּא"
+		}
+	],
+	"page": {
+		"number": 1543,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>שפשיפ׳</he>, v. <he>שפשף</he>; cmp. τρίβων) <i>a coarse cloak</i>, used also as a <i>bed-sheet</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 2:8\">Targ. II Kings II, 8</cite> (h. text <cite ref=\"A00479\"><he>אדרת</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 21:10\">Targ. I Sam. XXI, 10</cite> (h. text <cite ref=\"U01490\"><he>שמלה</he></cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 22:17\">Targ. Deut. XXII, 17</cite>. ",
+				"<cite ref=\"Onkelos Genesis 38:18\">Targ. O. Gen. XXXVIII, 18</cite> (ed. Berl. <cite ref=\"U00571\"><he>שׁוֹשִׁיפָ׳</he></cite>; ed. Vien. <cite ref=\"U00578\"><he>שׁוֹשִׁפָּ׳</he></cite>; h. text <cite ref=\"Q02165\"><he>פתיל</he></cite>); ib. 25; Y. II <cite ref=\"Onkelos Genesis 38:18\">ib.</cite> ",
+				"<cite ref=\"Targum Jonathan on Exodus 32:4\">Targ. Y. Ex. XXXII, 4</cite> (h. text <he>בחרט</he>; v. <cite ref=\"G00396\"><he>זַיְפָא</he></cite>); a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 6\">Lev. R. s. 6</cite> <he>הוו ציירין בשׁוֹשִׁיפָהּ וכ׳</he> three Denars were tied up in her cloak.—Pl. <he>שׁוֹשִׁיפִין</he>, <he>שׁוֹשִׁיפַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 3:22\">Targ. Is. III, 22</cite> (h. text <he>מעטפות</he>). ",
+				"<cite ref=\"Targum Jerusalem, Exodus 12:34\">Targ. Y. II, Ex. XII, 34</cite>."
+			]
+		}
+	]
+}

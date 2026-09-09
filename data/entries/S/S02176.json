@@ -1,0 +1,23 @@
+{
+	"id": "S02176",
+	"slug": "קרקעית",
+	"headword": {
+		"text": "קַרְקָעִית"
+	},
+	"page": {
+		"number": 1426,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S02175\">preced.</cite>) <i>ground, bottom</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 147b\">Sabb. 147ᵇ</cite>, v. <cite ref=\"D00630\"><he>דִּימְסִית</he></cite>. ",
+				"<cite ref=\"Yevamot 116b:16\">Yeb. 116ᵇ</cite> <he>בק׳ של ספינה</he> at the bottom of the ship; <cite ref=\"Chagigah 23a:4\">Ḥag. 23ᵃ</cite> <he>בקַרְקְעִיתָהּ וכ׳</he>."
+			]
+		}
+	]
+}

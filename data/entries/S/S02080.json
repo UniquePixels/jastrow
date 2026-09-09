@@ -1,0 +1,53 @@
+{
+	"id": "S02080",
+	"slug": "קריר-2",
+	"headword": {
+		"text": "קָרִיר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קְרִירָא"
+		},
+		{
+			"text": "קְרִירְתָּא"
+		}
+	],
+	"page": {
+		"number": 1421,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>קְרַר</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cool, cold</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Nahum 3:17\">Targ. Nah. III, 17</cite>.—",
+				"<cite ref=\"Bereishit Rabbah 48:8\">Gen. R. s. 48</cite> <he>בארבע … טולא ק׳ וכ׳</he> at four hours of the day the shade is cool, and the sun hot. ",
+				"<cite ref=\"Shabbat 53a:11\">Sabb. 53ᵃ</cite> (prov.) <he>חמרא … ק׳ ליה</he> the ass feels cold even at the solstice of Tammuz. ",
+				"<cite ref=\"Bava Batra 24b:9\">B. Bath. 24ᵇ</cite>, a. e. <he>ולא ק׳</he>, v. <cite ref=\"H01179\"><he>חַמִּים</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 99:3\">Gen. R. s. 99</cite>, v. <cite ref=\"P00582\"><he>עִילִיתָא</he> II</cite>; a. e.—[<cite ref=\"Zevachim 79b\">Zeb. 79ᵇ</cite>; <cite ref=\"Zevachim 98a\">98ᵃ</cite>, v. <cite ref=\"S00168\"><he>קְדַר</he> I</cite>.]—Pl. <he>קָרִירֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:25\">Targ. Prov. XXV, 25</cite>.—",
+				"<cite ref=\"Niddah 36b:75\">Nidd. 36ᵇ</cite> <he>עיילוה … אפקוה מק׳</he> they got him hot to relieve him from chills; <he>עיילוה בק׳ וכ׳</he> they got him cold to relieve him from fever. ",
+				"<cite ref=\"Avodah Zarah 28a:8\">Ab. Zar. 28ᵃ</cite> <he>מק׳ ק׳ דחיטי</he> from eating very cold wheat dishes; a. e.—Esp. <he>קרירי</he> (<he>מיא</he>) <i>cold water</i>. ",
+				"<cite ref=\"Avodah Zarah 28b:4\">Ib.ᵇ</cite> <he>לא ק׳ וכ׳</he> neither cold nor hot, but tepid. ",
+				"<cite ref=\"Chullin 46b\">Ḥull. 46ᵇ</cite>, v. <cite ref=\"I00906\"><he>טְרַשׁ</he> I</cite>. ",
+				"<cite ref=\"Shabbat 55a\">Sabb. 55ᵃ</cite>, v. <cite ref=\"H01179\"><he>חַמִּים</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"S00587\"><he>קוֹרָה</he> I</cite>) <i>satisfaction, pleasure</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 47:4\">Gen. R. s. 47</cite> <he>לא תמלי … קריר וכ׳</he> fill not my spirit with too much pleasure (awaken not in me too high aspirations), Oh that thou wouldst not withdraw from me the present grant!; <cite ref=\"Yalkut Shimoni on Torah 82:6\">Yalk. ib. 82</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

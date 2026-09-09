@@ -1,0 +1,28 @@
+{
+	"id": "U01226",
+	"slug": "שלהיא",
+	"headword": {
+		"text": "שַׁלְהַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁלְהַיָּיא"
+		}
+	],
+	"page": {
+		"number": 1578,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"U01215\"><he>שְׁלָה</he></cite>) <i>careless ease, security, arrogance</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 30:5\">Targ. Job XXX, 5</cite> (Levy quotes <cite ref=\"U01228\"><he>שַׁלְהֲיָיא</he></cite> f. sing.; h. text <cite ref=\"C00262\"><he>גֵּו</he></cite>)."
+			]
+		}
+	]
+}

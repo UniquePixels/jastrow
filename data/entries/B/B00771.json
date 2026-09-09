@@ -1,0 +1,34 @@
+{
+	"id": "B00771",
+	"slug": "בכורה-1",
+	"headword": {
+		"text": "בִּכּוּרָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּיכּ׳"
+		}
+	],
+	"page": {
+		"number": 169,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>בכר</he>)<i>early fruit</i>, esp. <i>fig</i>.",
+			"units": []
+		},
+		{
+			"gloss": "Pl. <he>בִּכּוּרוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 22\">Gen. R. s. 22</cite> <he>היה אוכל הב׳ וכ׳</he> ate the early fruits himself and offered the late to the king. ",
+				"<cite ref=\"Sanhedrin 91b:1\">Snh. 91ᵇ</cite>; <cite ref=\"Vayikra Rabbah 4:5\">Lev. R. s. 4</cite> <he>ב׳ נאות</he> fine early figs. ",
+				"<cite ref=\"Mishnah Terumot 4:6\">Ter. IV, 6</cite> <he>בב׳</he> at the time of early ripening.—2) Pl. <he>בִּכּוּרִים</he> m. (b. h.) <i>first fruits</i> (to be offered), (sub. <he>מנחת</he>) <i>offering of first fruits</i>. ",
+				"<cite ref=\"Mishnah Bikkurim 1:1\">Bicc. I, 1</cite>; a. fr.—<i>Biccurim</i>, name of a treatise of the Mishnah, belonging to the order of Seeds <he>(זרעים</he>)."
+			]
+		}
+	]
+}

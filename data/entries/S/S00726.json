@@ -1,0 +1,41 @@
+{
+	"id": "S00726",
+	"slug": "קטור-2",
+	"headword": {
+		"text": "קְטוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְטוֹרָא"
+		}
+	],
+	"page": {
+		"number": 1346,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְטַר</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>knot</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 33:23\">Targ. Y. I Ex. XXXIII, 23</cite> <he>ק׳ דתפילי</he> (strike out <he>דבידא</he>, or <he>דבירא</he>, which came over from Y. II)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>band, girdle</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 18:4\">Targ. Y. Deut. XVIII, 4</cite> (v. ",
+				"<cite ref=\"Chullin 138a\">Ḥull. 138ᵃ</cite>).—Pl. constr. <he>קְטוֹרֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 50:11\">Targ. Y. Gen. L, 11</cite> (ed. Vien. <cite ref=\"S00844\"><he>קְטוּ׳</he></cite>).—V. <cite ref=\"S00814\"><he>קִיטְרָא</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

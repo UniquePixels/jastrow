@@ -1,0 +1,39 @@
+{
+	"id": "S00405",
+	"slug": "קומקום",
+	"headword": {
+		"text": "קוּמְקוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּמְקוּמוֹס"
+		},
+		{
+			"text": "קוּמְקוּמָס"
+		},
+		{
+			"text": "קוּמְקְמ׳"
+		}
+	],
+	"page": {
+		"number": 1333,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cucuma, κουκκούμιον, prob. of Semitic origin; the form cucumus is not recorded in Lat. Dict.) <i>kettle</i> (smaller than <cite ref=\"M01119\"><he>מיחם</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 3:7\">Kel. III, 7</cite> <he>קומקום</he> Mish. ed. (Talm. ed. <cite ref=\"S00405\"><he>קומקומוס</he></cite>; Maim. <cite ref=\"S00405\"><he>קומקומס</he></cite>). Ib. XIV, 1 <cite ref=\"S00405\"><he>קומקום</he></cite> (ed. Dehr. <cite ref=\"S00407\"><he>קומקמוס</he></cite>). ",
+				"<cite ref=\"Tosefta Mikvaot 7:1\">Tosef. Mikv. VII</cite> (<cite ref=\"Tosefta Mikvaot 8:1\">VIII</cite>), 1 <he>קומקומים</he> ed. Zuck. (corr. acc.; oth. ed. <cite ref=\"S00405\"><he>קומקום</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 6:1:7\">Y. Pes. VI, 33ᵃ</cite> bot. <he>כבק׳ הזה אני יורד לו</he> (not <he>בק׳</he>) I would meet him as if attacking him with a (boiling) kettle; <he>מה הק׳ הזה וכ׳</he> as a kettle scalds and wounds and blackens (if thrown at a person), so would I &c.; <cite ref=\"Menachot 109b:18\">Men. 109ᵇ</cite> <he>אני מטיל עליו ק׳ וכ׳</he> I would throw a kettle of hot water at him. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 2:5:3\">Y. Bets. II, 61ᶜ</cite>. ",
+				"<cite ref=\"Devarim Rabbah 2\">Deut. R. s. 2</cite>; <cite ref=\"Yalkut Shimoni on Nach 517:4\">Yalk. Hos. 517</cite> <cite ref=\"S00407\"><he>קוּמְקְמִין</he></cite>; a. fr.—Pl. <he>קוּמְקוֹמוֹסִין</he>, <cite ref=\"S00407\"><he>קוּמְקְמוֹ׳</he></cite>, <cite ref=\"S00407\"><he>קוּמְקְמִין</he></cite>. ",
+				"<cite ref=\"Shabbat 151a:9\">Sabb. 151ᵃ</cite> <he>קומקמוסין</he> Ms. M. (ed. <cite ref=\"S00407\"><he>קומקמין</he></cite>). ",
+				"<cite ref=\"Avodah Zarah 75b\">Ab. Zar. 75ᵇ</cite>; Y. ib. V, end, 45ᵇ; <cite ref=\"Sifrei Bamidbar 158\">Sifré Num. 158</cite> <he>קוּמְקְמָסִים</he>; Tanḥ. Ḥuck. 2 <he>קוּנְקוֹמוֹסִין</he> (ed. Bub. <he>קומקמסין</he>)."
+			]
+		}
+	]
+}

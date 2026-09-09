@@ -1,0 +1,23 @@
+{
+	"id": "D00113",
+	"slug": "דגלותא",
+	"headword": {
+		"text": "דַּגָּלוּתָא"
+	},
+	"page": {
+		"number": 280,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00107\"><he>דְּגַל</he></cite>) <i>cunning, scheme</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 17:4\">Targ. Prov. XVII, 4</cite> ed. Lag. (Var. <cite ref=\"T00001\"><he>ר׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 30:8\">Ib. XXX, 8</cite> <he>דיגלתא</he> ed. Lag. (Var. <he>ריג׳</he>); v. <cite ref=\"D00111\"><he>דַּגָּלָא</he></cite>."
+			]
+		}
+	]
+}

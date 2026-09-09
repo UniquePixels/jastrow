@@ -1,0 +1,56 @@
+{
+	"id": "O01217",
+	"slug": "סנטר-2",
+	"headword": {
+		"text": "סַנְטֵר"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַנְטֵיר"
+		}
+	],
+	"page": {
+		"number": 1006,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01216\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>guardsman</i>, <i>bailiff</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 4:7\">B. Bath. IV, 7</cite> <he>המוכר … מכר את הס׳</he> if one sells a township, he sells with it the <i>sanṭer</i> (a slave, v. <cite ref=\"A01591\"><he>אִיקוֹנוֹמוֹס</he></cite>); expl. ",
+				"<cite ref=\"Bava Batra 68a:7\">ib. 68ᵃ</cite> <he>בר מחווניתא</he>, v. <cite ref=\"M00813\"><he>מַחְוָונִיתָא</he></cite>; [oth. opin. ",
+				"<cite ref=\"Bava Batra 68a:7\">ib.</cite> <he>באגי</he> <i>the fields around the town</i>]; <cite ref=\"Tosefta Bava Batra 3:5\">Tosef. ib. III, 5</cite>. ",
+				"<cite ref=\"Sanhedrin 98b:8\">Snh. 98ᵇ</cite> <he>פגע בו ס׳</he> a bailiff meets him (trying to contest his title to the field). ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 5:5:9\">Y. B. Mets. V, 10ᶜ</cite> <he>ישראל שמינה … או ס׳</he> an Israelite who appointed a gentile his manager or guardsman. ",
+				"<cite ref=\"Gittin 80b:1\">Gitt. 80ᵇ</cite> <he>אפי׳ … לשם ס׳ שבעיר</he> even if he dates a letter of divorce from the rule of a bailiff of the town. Tanḥ. B’rakhah 6 <he>כס׳ הזה וכ׳</he> like the guardsman that speaks before the king; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the guarded land outside of a township</i>. B. Bath. l. c., v. supra.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. meanings of <cite ref=\"L00342\"><he>לֶחִי</he></cite>, and phrases like <he>שמר פתחי פיך</he>, <cite ref=\"Micah 7:5\">Mic. VII, 5</cite>) [<i>fence</i>,] <i>jaw, jawbone, chin</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 24b:1\">Ber. 24ᵇ</cite> <he>וכשהוא … מניח ידו על סַנְטֵרוֹ</he> (Ms. M. <he>סַנְטֵירוֹ</he>) and when he yawned, he put his hand on his chin (to cover his mouth)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " a sort of <i>cloak</i>, <i>sanṭer</i> (cmp. <cite ref=\"C00434\"><he>גּוּנְדָּא</he> II</cite>). ",
+			"units": [
+				"<cite ref=\"Tractate Derekh Eretz Rabbah 11:14\">Treat. Der. Er. ch. XI</cite> <he>סַנְטֵרוֹ לצדדין וקובעו וכ׳</he> he who walks with his <i>sanṭer</i> hanging sideways and his cap turned back …, belongs to the haughty."
+			],
+			"label": "4"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "S01666",
+	"slug": "קסם-2",
+	"headword": {
+		"text": "קְסַם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1396,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01665\">same</cite><i>to cut, chip</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 2:5:4\">Y. Shebi. II, 34ᵃ</cite> <he>וקַסְמָהּ בידיה וכ׳</he> he chipped it (their argument) with his hand, i.e. made a motion with his hand to indicate his dissent (and said) &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to divine</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 21:26\">Targ. Ez. XXI, 26</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 18:10\">Targ. Deut. XVIII, 10</cite> <he>קָסֵים</he> ed. Berl. (oth. ed. <cite ref=\"S01666\"><he>קָסֵם</he></cite>, incorr. <cite ref=\"S00476\"><he>קוֹסֵם</he></cite>); a. e.—",
+				"<cite ref=\"Gittin 68b:2\">Gitt. 68ᵇ</cite> <he>חזי … קָסֵים אחיך</he> saw a diviner who was divining, and laughed (at him). ",
+				"<cite ref=\"Gittin 68b:13\">Ib.</cite> <he>לִקְסוֹם … תותיה</he> let him divine what is under him."
+			],
+			"label": "2"
+		}
+	]
+}

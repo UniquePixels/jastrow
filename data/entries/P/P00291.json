@@ -1,0 +1,84 @@
+{
+	"id": "P00291",
+	"slug": "עון-2",
+	"headword": {
+		"text": "עוּן"
+	},
+	"page": {
+		"number": 1053,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to be round, curved;</i> denom. <cite ref=\"P00601\"><he>עַיִן</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִיֵּין"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"P00601\"><he>עַיִן</he></cite>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to look in, read</i>. Tanḥ. Ki Thissa 34 <he>אסור … לעַיֵּין בתורה וכ׳</he> the interpreter must not look into the Torah (Hebrew text) and translate; (<cite ref=\"Pesikta Rabbati 5:1\">Pesik. R. s. 5</cite> <he>ליתן עיניו</he>).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to look carefully; to search, investigate</i> (cmp. <cite ref=\"D00325\"><he>דּוּק</he></cite> a. <cite ref=\"D00989\"><he>דִּקְדֵּק</he></cite>). ",
+					"units": [
+						"<cite ref=\"Bava Batra 115a:9\">B. Bath. 115ᵃ</cite> (ref. <he>ובן אין לו</he>, <cite ref=\"Numbers 27:8\">Num. XXVII, 8</cite>) <he>עַיֵּין עליו</he> (Ar. <cite ref=\"A01238\"><he>אַיֵּין</he></cite>) investigate his case (whether he has really no male issue); <cite ref=\"Yevamot 22b\">Yeb. 22ᵇ</cite>. ",
+						"<cite ref=\"Kiddushin 4a:6\">Kidd. 4ᵃ</cite> (ref. to <cite ref=\"Leviticus 22:13\">Lev. XXII, 13</cite> <he>וזרע אין לה</he>) <he>עיין לה</he>; <cite ref=\"Yevamot 70a:7\">Yeb. 70ᵃ</cite> <he>עיין עלה</he> (Chald.)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to speculate, contemplate</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 55a:1\">Ber. 55ᵃ</cite> <he>המאריך בתפלתו ומְעַיֵּין בה</he> he who stays long in prayer and speculates on it (expecting its fulfillment as a reward for his lengthy prayer); <cite ref=\"Yalkut Shimoni on Nach 950:13\">Yalk. Prov. 950</cite>; <cite ref=\"Berakhot 32b\">Ber. 32ᵇ</cite>; a. e."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": " [<i>to measure with the eye</i>] <i>to balance exactly</i>, opp. <he>הכריע</he> (v. <cite ref=\"K01257\"><he>כָּרַע</he></cite>). ",
+					"units": [
+						"<cite ref=\"Bava Batra 89a:2-5\">B. Bath. 89ᵃ</cite> <he>אין מְעַיְּינִין … במקום שמעיינין</he> where it is customary to give overweight, you dare not sell by exact weight, and <i>vice versa</i>; a. e.—<i>Part. pass.</i> <he>מְעוּיָּין</he> "
+					],
+					"label": "4",
+					"senses": [
+						{
+							"gloss": " (adv.) <i>weighed exactly, even-balanced</i>. ",
+							"units": [
+								"<cite ref=\"Bamidbar Rabbah 16:11\">Num. R. s. 16</cite>, end (ref. to <he>עין בעין</he>, <cite ref=\"Numbers 14:14\">Num. XIV, 14</cite>) <he>הרי מאזנים מע׳ אתה וכ׳</he> behold the scales are evenly balanced, thou sayest …, and I say &c.; <cite ref=\"Devarim Rabbah 5:13\">Deut. R. s. 5</cite> <he>הרי מדת הדין בכף מאזנים מע׳</he> judgment lies on evenly balanced scales. Tanḥ. Ki Thissa 34; <cite ref=\"Pesikta Rabbati 5\">Pesik. R. s. 5</cite>, beg. <he>המאזניים מע׳</he> the claims on both sides are equal. Y. Snh. X, beg. 27ᶜ <he>היה מע׳</he> if it (his sins and his merits) be even; Y. Peah I, 16ᵇ bot.; Y. Kidd. I, end, 61ᵈ <he>מחציין</he> (corr. acc.); <cite ref=\"Yalkut Shimoni on Nach 784:1\">Yalk. Ps. 784</cite> <he>כף מאזניים מע׳</he> [<cite ref=\"E00230\"><he>היה</he></cite>]; a. e.—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>having eyes</i> (<i>rings</i>) or <i>colors</i>. Y. Kil. I, 27ᵃ, v. <cite ref=\"L00601\"><he>לְעוּנִים</he></cite>.",
+							"units": [],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["עוֹנֵן"],
+			"senses": [
+				{
+					"gloss": " (b. h.) [<i>to contemplate; to augur;</i>] <i>to produce apparitions, to conjure</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 65b\">Snh. 65ᵇ</cite>, a. e. (interpret. <he>מעונן</he>, <cite ref=\"Deuteronomy 18:10\">Deut. XVIII, 10</cite>) <he>המעביר … על העין</he>, v. <cite ref=\"G00450\"><he>זְכוּרוּ</he></cite>. ",
+						"<cite ref=\"Deuteronomy 18:10\">Ib.</cite> (oth. interpret.) <he>האוהז את העינים</he>, v. <cite ref=\"A01021\"><he>אָחַז</he></cite>. ",
+						"<cite ref=\"Deuteronomy 18:10\">Ib.</cite> (oth. interpret.; cmp. <i>Pi.</i>) <he>המחשב עתים ושעות וכ׳</he> who calculates what times and hours are auspicious &c.; [Comment. on <he>המחשב עתים</he> explain <cite ref=\"P00302\"><he>עונן</he></cite> as denomin. of <cite ref=\"P00297\"><he>עוֹנָה</he> I</cite>]; <cite ref=\"Tosefta Shabbat 7:14\">Tosef. Sabb. VII</cite> (<cite ref=\"Tosefta Shabbat 8:14\">VIII</cite>), 14 <he>נותני עתים וכ׳</he>."
+					]
+				}
+			],
+			"stem": "Polel."
+		}
+	]
+}

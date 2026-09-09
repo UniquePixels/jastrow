@@ -1,0 +1,28 @@
+{
+	"id": "A00725",
+	"slug": "אונאיתא",
+	"headword": {
+		"text": "אוֹנָאִיתָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹנָאוּתָא"
+		}
+	],
+	"page": {
+		"number": 28,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"A00722\"><he>אוֹנָאָה</he></cite> , <i>oppression, tyranny</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 74:20\">Targ. Ps. LXXIV, 20</cite> (ed. Ven. <cite ref=\"A00723\"><he>אוֹנִאוּתָא</he></cite>; h. text <cite ref=\"N00016\"><he>נְאוֹת</he></cite>!). V. <cite ref=\"A00746\"><he>אוֹנָיָתָא</he></cite>."
+			]
+		}
+	]
+}

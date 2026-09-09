@@ -1,0 +1,22 @@
+{
+	"id": "Q01902",
+	"slug": "פרנסות",
+	"headword": {
+		"text": "פַּרְנָסוּת"
+	},
+	"page": {
+		"number": 1232,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"Q01898\"><he>פַּרְנָס</he></cite>) <i>administrative office</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 9:10:2\">Y. Sot. IX, 24ᵃ</cite>, v. <cite ref=\"U01539\"><he>שָׁמַשׁ</he></cite>."
+			]
+		}
+	]
+}

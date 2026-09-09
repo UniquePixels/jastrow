@@ -1,0 +1,42 @@
+{
+	"id": "D01093",
+	"slug": "דרישה",
+	"headword": {
+		"text": "דְּרִישָׁה"
+	},
+	"page": {
+		"number": 323,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>דרש</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>inquiry</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 11b:8\">Snh. 11ᵇ</cite> <he>כל ד׳ שאתה דורש וכ׳</he> whatever inquiry about common affairs you have to make."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>examination of witnesses, cross-examination</i>. v. <cite ref=\"H01558\"><he>חֲקִירָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 4:1\">Snh. IV, 1</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>interpretation</i> of the Biblical text. ",
+			"units": [
+				"<cite ref=\"Pesachim 22b:10\">Pes. 22ᵇ</cite>; a. e., v. <cite ref=\"Q01837\"><he>פְּרִישָׁה</he></cite>.—Pl. <he>דְּרִישׁוֹת</he>. ",
+				"<cite ref=\"Vayikra Rabbah 13:1\">Lev. R. s. 13</cite>, beg. <he>שתי ד׳</he> two queries."
+			],
+			"label": "3"
+		}
+	]
+}

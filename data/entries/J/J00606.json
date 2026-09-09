@@ -1,0 +1,48 @@
+{
+	"id": "J00606",
+	"slug": "ירוד-4",
+	"headword": {
+		"text": "יָרוֹד"
+	},
+	"altHeadwords": [
+		{
+			"text": "יָרוֹדָא"
+		},
+		{
+			"text": "יָרוּדָא"
+		}
+	],
+	"page": {
+		"number": 594,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (v. P. Sm. 1630) 1) <cite ref=\"J00605\">same</cite>. ch. (v. P. Sm. 1630) ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"J00605\">same</cite>.—Pl. <he>יָרוֹדִין</he>, <he>יָרוֹדֵי</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Micah 1:8\">Targ. Mic. I, 8</cite>, a. fr. (ed. Lag. everywhere <he>ירורין</he>; h. text <cite ref=\"V00749\"><he>תַּנִּים</he></cite>).—",
+				"<cite ref=\"Aramaic Targum to Job 30:29\">Targ. Job. XXX, 29</cite> <he>ירורין</he> ed. Lag. (Var. <he>יַלּוֹלִין</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 74:14\">Targ. Ps. LXXIV, 14</cite> <he>לירודי</he> (ed. Lag. <he>לירורי</he>, h. text <he>לציים</he>!)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"P01320\"><he>עָרוֹד</he></cite>, <cite ref=\"P01320\"><he>עָרוֹדָא</he></cite>) <i>wild ass</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 2:24\">Targ. Jer. II, 24</cite> <he>כירודא</he> (ed. Lag. <he>כירורא</he>, h. text <he>תאנתה</he>, v. Rashi a. l.). ",
+				"<cite ref=\"Ketubot 49b:4\">Keth. 49ᵇ</cite> <he>יארוד ילדה ואבני וכ׳</he> ed. (Ar. <he>יר׳</he>) a <i>yarod</i> gives birth and casts (her young) upon the people of the town, i.e. a parent must support his minor children. ",
+				"<cite ref=\"Sanhedrin 59b:24\">Snh. 59ᵇ</cite> <he>י׳ נאלא</he> thou howling <i>y.</i> (talking out of the way; <cite ref=\"Yalkut Shimoni on Torah 14:2\">Yalk. Gen. 14</cite> <he>תנין שוטה</he> h.).—Pl. as ab. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 14:6\">Targ. Jer. XIV, 6</cite> (ed. Lag. <he>ירור׳</he>; h. text <he>תנים</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:10\">Targ. Y. I Deut. XXXII, 10</cite> <he>שידין וי׳</he> (ed. Amst. <he>וִידוּרִין</he>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 13:22\">Targ. Is. XIII, 22</cite> <he>וי׳</he> (in connection with <he>חתולין</he>, ed. Lag. <he>וירורין</he>; h. text <he>ותַנִּים</he>).—<i>Fem.</i> pl. <he>יְרוֹדָאתָא</he>. ",
+				"<cite ref=\"Eichah Rabbah 4:25\">Lam. R. to IV, 3</cite> (ref. to <he>גם תנין וכ׳</he>, <cite ref=\"Eichah Rabbah 4:25\">ib.</cite>) <he>אילין י׳ כמין מסווין פריסין וכ׳</he> (Ar. <he>אילין י׳ אית להון כמין וכ׳</he>) those <i>yaruds</i> (knowing their ferocious instincts) have a sort of mask spread over their faces when sucking their young &c.; [diff. interpret. of the verse in Tanḥ. ",
+				"<cite ref=\"Leviticus 3:17\">B’ḥuck. 3</cite>, ed. Bub. 5.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "C00708",
+	"slug": "גייס-2",
+	"headword": {
+		"text": "גַּיָּיס"
+	},
+	"page": {
+		"number": 237,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גּוּס</he> II) <i>troop</i>, esp. <i>ravaging troop, invaders, robbers</i> (= b. h. <cite ref=\"C00170\"><he>גְּדוּד</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 3:7\">Pes. III, 7</cite> (<cite ref=\"Pesachim 49a:4\">49ᵃ</cite>) (if one left his home) <he>להציל מן הג׳</he> Y. ed. a. Ms. M. (ed. <he>עכום</he>, <he>גויים</he>, v. Rabb. D. S. a. l. note) to rescue (Israelites &c.) from an invading troop. ",
+				"<cite ref=\"Yevamot 122b:5\">Yeb. 122ᵇ</cite> <he>רדף אחרינו ג׳</he> a band pursued us; a. fr.—Pl. <he>גַּיָּיסוֹת</he>. ",
+				"<cite ref=\"Mishnah Yevamot 16:7\">Ib. XVI, 7</cite> (<cite ref=\"Yevamot 122a:11\">122ᵃ</cite>) the country is <he>משובשת בג׳</he> in confusion on account of invaders. ",
+				"<cite ref=\"Ruth Rabbah 2:10\">Ruth R. to I, 5</cite>; a. fr.—Denom. <cite ref=\"C00447\"><he>גִּיֵּיס</he></cite> <i>to arrange battle, to orderout troops; to array</i>. ",
+				"<cite ref=\"Ruth Rabbah 2:10\">Ib.</cite> <he>כמה גייסות … לגַיֵּיס</he> how many troops can I send out. ",
+				"<cite ref=\"Ruth Rabbah 2:10\">Ib.</cite>; <cite ref=\"Vayikra Rabbah 17\">Lev. R. s. 17</cite> <he>התחיל מְגַיֵּיס חיילותיו וכ׳</he> he began to arrange his armies for battle; a. fr. [<cite ref=\"C00663\"><he>גייס</he></cite> pr. n. m., v. <cite ref=\"C00663\"><he>גַּיּוּס</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "P00306",
+	"slug": "עונקתא",
+	"headword": {
+		"text": "עוּנְקְתָא"
+	},
+	"page": {
+		"number": 1055,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"P00304\"><he>עוּנְקָא</he></cite> (v. <cite ref=\"A00760\"><he>אוּנְקָא</he> I</cite>) <i>neck</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:8:11\">Y. Ber. II, 5ᶜ</cite> bot. <he>עד כדון עוּנְקְתֵיה … רפיא</he> is this man’s neck loose yet?; <cite ref=\"Jerusalem Talmud Berakhot 2:8:11\">ib.</cite> <he>ההיא ע׳ דהוות וכ׳</he> this neck which was loose is now laced (thou art going to be hanged)."
+			]
+		}
+	]
+}

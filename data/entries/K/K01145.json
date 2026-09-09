@@ -1,0 +1,32 @@
+{
+	"id": "K01145",
+	"slug": "כרח-1",
+	"headword": {
+		"text": "כָּרַח"
+	},
+	"page": {
+		"number": 666,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"K01097\"><he>כְּרַהּ</he></cite> a. <cite ref=\"K01185\"><he>כָּרַךְ</he></cite>) <i>to be tied, narrowed in</i>.—Denom. <cite ref=\"K01147\"><he>כֹּרַח</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִכְרִיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to force, subdue</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 75\">Gen. R. s. 75</cite>, beg. (ref. to <he>הכריעהו</he>, <cite ref=\"Psalms 17:13\">Ps. XVII, 13</cite>) <he>הַכְרִיחֵהוּ וכ׳</he> force him down on the scale of guilt, break his resistance; (<cite ref=\"Yalkut Shimoni on Torah 130:17\">Yalk. Gen. 130</cite> <he>הכריעהו</he>). ",
+						"<cite ref=\"Shir HaShirim Rabbah 4:12\">Cant. R. to IV, 12</cite> <he>אם בנפשותן הן מַכְרִיחִין וכ׳</he> (not <he>בעשותן</he>) if they did violence to their souls, how much more &c.; (Pesik. B’shall. p. 82ᵇ <he>שליטין</he>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

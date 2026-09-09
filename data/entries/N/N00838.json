@@ -1,0 +1,37 @@
+{
+	"id": "N00838",
+	"slug": "נכסא",
+	"headword": {
+		"text": "נִכְסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִכְסְתָא"
+		},
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 911,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00837\">preced.</cite>) <i>slaughter; slaughtering</i> (according to the ritual, <cite ref=\"U00645\"><he>שְׁחִיטָה</he></cite>); <i>sacrifice, feast</i> (= h. <cite ref=\"G00031\"><he>זֶבַח</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 34:6\">Targ. Is. XXXIV, 6</cite> (h. text <he>טבח</he>).—",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 14:21\">Targ. Y. Deut. XIV, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 17:13\">Targ. Y. Lev. XVII, 13</cite> (ed. Vien. <he>נִיכְסַתֵּיה</he>). ",
+				"<cite ref=\"Onkelos Genesis 31:45\">Targ. Gen. XXXI, 45</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Genesis 43:16\">Targ. Y. Gen. XLIII, 16</cite> <he>בות נ׳</he> the place for ritual cutting <he>(בות השחיטה</he>), <i>ritually cut throat</i>.—",
+				"<cite ref=\"Bava Batra 92a:3\">B. Bath. 92ᵃ</cite> <he>אי גברא דזבין לנ׳ לנ׳</he> if it is a man that sells cattle for food, the purchase was made for slaughtering (and not for work); <cite ref=\"Bava Kamma 46a:2\">B. Kam. 46ᵃ</cite> (not <he>לנכסותא</he>; v. Rabb. D. S. a. l.); a. fr.—Pl. <he>נִכְסָן</he>, <cite ref=\"N00838\"><he>נִכְסָתָא</he></cite>; constr. <he>נִכְסַת</he>, <cite ref=\"M01772\"><he>נִי׳</he></cite>; (also <cite ref=\"N00842\"><he>נִכְסִין</he></cite>, <cite ref=\"M01772\"><he>נִי׳</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 32:6\">Targ. O. Ex. XXXII, 6</cite> <he>ניכסן</he> ed. Berl. (oth. ed. a. Y. <he>ניכסין</he>). Ib. XVIII, 12; a. fr.—",
+				"<cite ref=\"Aramaic Targum to Psalms 106:28\">Targ. Ps. CVI, 28</cite> <cite ref=\"N00842\"><he>נִכְסֵי</he></cite> (Ms. <he>נכסת</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "V00505",
+	"slug": "תירוצא",
+	"headword": {
+		"text": "תִּירוּצָא"
+	},
+	"page": {
+		"number": 1666,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V01053\"><he>תְּרַץ</he></cite>) <i>straightness, uprightness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 96:10\">Targ. Ps. XCVI, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 111:8\">Ib. CXI, 8</cite>."
+			]
+		}
+	]
+}

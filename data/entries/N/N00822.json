@@ -1,0 +1,30 @@
+{
+	"id": "N00822",
+	"slug": "נכייתא",
+	"headword": {
+		"text": "נַכְיָיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נַכְיָתָא"
+		}
+	],
+	"page": {
+		"number": 910,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00821\">preced.</cite> wds.) <i>reduction of a debt against a landed security</i> (<cite ref=\"M02910\"><he>מַשְׁכַּנְתָּא</he></cite>) <i>by deducting a stipulated amount every year for usufruct</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 67b:4\">B. Mets. 67ᵇ</cite> top <he>האי משכנתא … לא ניכול אלא בנ׳</he> where the usage prevails that a land pledge can be redeemed at any time, the creditor must not have the usufruct except for the consideration of a rent deductible from the debt, v. <cite ref=\"M02910\"><he>מַשְׁכַּנְתָּא</he></cite>. ",
+				"<cite ref=\"Bava Metzia 67b:4\">Ib.</cite> <he>בלא נ׳</he> without paying any rent by deduction. ",
+				"<cite ref=\"Bava Metzia 62a:15\">Ib. 62ᵃ</cite> <he>משכנתא בלא נכיתא</he> (Rashi <he>נכיי׳</he>) in the case of usufruct from pledged land without consideration; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:5:7\">Y. Ber. IX, 14ᵇ</cite> bot. <he>מה נ׳</he> ed. Lehm., v. <cite ref=\"E00685\"><he>הַנְכָּיָיה</he></cite>."
+			]
+		}
+	]
+}

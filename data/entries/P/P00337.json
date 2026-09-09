@@ -1,0 +1,28 @@
+{
+	"id": "P00337",
+	"slug": "עוקמנותא",
+	"headword": {
+		"text": "עוּקְמָנוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַקְ׳"
+		}
+	],
+	"page": {
+		"number": 1056,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00336\">preced.</cite>) <i>trickery, insincerity</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 6:4\">Targ. Y. I Deut. VI, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 125:5\">Targ. Ps. CXXV, 5</cite>. (Ms. <he>עוּקְמַתְ׳</he>).—V. <cite ref=\"P01181\"><he>עֲקִימוּתָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "A00901",
+	"slug": "אורכותא",
+	"headword": {
+		"text": "אוֹרָכוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹרִיכוּתָא"
+		}
+	],
+	"page": {
+		"number": 34,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"A03102\"><he>אֲרִיכוּת</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>length</i> (of life). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 91:16\">Targ. Ps. XCI, 16</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>waiting, hope</i>. Ibid. XXXIX, 8; a. e.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>tarrying</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 2:31\">Targ. Y. Deut. II, 31</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

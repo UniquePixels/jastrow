@@ -1,0 +1,49 @@
+{
+	"id": "B00481",
+	"slug": "בחן-1",
+	"headword": {
+		"text": "בָּחַן"
+	},
+	"page": {
+		"number": 155,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בח</he> , v. Ges. H. Dict. s. v.; cmp. <he>בה</he> s. v. <cite ref=\"B00170\"><he>בהי</he></cite>) prop. <i>to distinguish, examine</i> (cmp. <cite ref=\"B00280\"><he>בון</he></cite>, <cite ref=\"H00525\"><he>חזי</he></cite>), hence <i>to try, probe</i> (of metals); <i>to find out</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 107a:2\">Snh. 107ᵃ</cite> <he>בְּחָנֵנִי</he> try me.—Part. pass. <he>בָּחוּן</he>. ",
+				"<cite ref=\"Pesachim 87a\">Pes. 87ᵃ</cite> <he>בְּחוּנֶיךָ</he> Ms. M. (ed. <he>חנוניך</he>, v. Rabb. D. S. a. l.) thy tried servants. ",
+				"<cite ref=\"Pesachim 87b:5\">Ib.ᵇ</cite> <he>בְּחוּנַי</he> my tried servants. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 515:2\">Yalk. Hos. 515</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּיחֵן"],
+			"senses": [
+				{
+					"gloss": "<i>to inquire</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 73b\">Yoma 73ᵇ</cite>; <cite ref=\"Shevuot 35b:15\">Shebu. 35ᵇ</cite> <he>לא ביחנו</he> they did not ask distinctly. Y. B. Kam. IV, 4ᵇ bot. <he>שב״ד מְבַחֲנִין וכ׳</he> for the court (appointing him guardian) inquires after his character."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִבְחִין"],
+			"senses": [
+				{
+					"gloss": "<i>to distinguish</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 8b\">Snh. 8ᵇ</cite> a. e. <he>להַבְחִין בין וכ׳</he> in order to be able to distinguish between the ignorant and the willful transgressor. ",
+						"<cite ref=\"Yevamot 42a\">Yeb. 42ᵃ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

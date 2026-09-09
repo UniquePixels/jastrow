@@ -1,0 +1,45 @@
+{
+	"id": "N00651",
+	"slug": "ניחותא",
+	"headword": {
+		"text": "נִיחוּתָא"
+	},
+	"page": {
+		"number": 904,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00340\"><he>נוּחַ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mildness, gentleness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 31:18\">Targ. Job XXXI, 18</cite> (v. <cite ref=\"V00241\"><he>תּוּנַחְתָּא</he></cite>).—",
+				"<cite ref=\"Taanit 4a:3\">Taan. 4ᵃ</cite>, v. <cite ref=\"A01934\"><he>אֲלַף</he> II</cite>. ",
+				"<cite ref=\"Arakhin 17a:17\">Arakh. 17ᵃ</cite> <he>לעניין תוקפא וכ׳</he> as regards ruling with rigor or with leniency. ",
+				"<cite ref=\"Bava Batra 25b:4\">B. Bath. 25ᵇ</cite> <he>דאתיא מיטרא בנ׳</he> when the rain comes down gently, opp. <he>בשפיכותא</he>. ",
+				"<cite ref=\"Shabbat 34a:4\">Sabb. 34ᵃ</cite>, a. e. <he>צריך למימרינהו בנ׳</he> he must say them in a gentle way; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>submission, humility</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 36b\">Gitt. 36ᵇ</cite>, v. <cite ref=\"P00249\"><he>עוּלְבַּן</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>ease of mind, satisfaction</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 30b:21\">Snh. 30ᵇ</cite>; <cite ref=\"Pesachim 32b:13\">Pes. 32ᵇ</cite> <he>מאי נ׳</he> why this ease of mind (why does he say, Let thy mind be set at rest as thou didst mine)?"
+			],
+			"label": "3"
+		}
+	]
+}

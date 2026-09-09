@@ -1,0 +1,25 @@
+{
+	"id": "U01069",
+	"slug": "שירותא-1",
+	"headword": {
+		"text": "שֵׁירוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׁר׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1569,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01068\">same</cite>.—<he>מלאכי ש׳</he> ministering angels (v. <cite ref=\"U02049\"><he>שָׁרֵת</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 18:20\">Targ. Y. Gen. XVIII, 20</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "M00293",
+	"slug": "מדין-4",
+	"headword": {
+		"text": "מִדְיָן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 734,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"D00634\"><he>דִּין</he></cite>)<i>strife</i>.—Pl. <he>מִדְיָנִים</he>, <he>מִדְיָנִין</he>. ",
+			"units": [
+				"<cite ref=\"Horayot 10b:13\">Hor. 10ᵇ</cite> <he>שהטיל מ׳ בין וכ׳</he> he (Lot) cast strife between Israel and Ammon; <cite ref=\"Nazir 23b:1\">Naz. 23ᵇ</cite> (corr. acc.)."
+			]
+		}
+	]
+}

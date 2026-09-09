@@ -1,0 +1,37 @@
+{
+	"id": "I00512",
+	"slug": "טלם",
+	"headword": {
+		"text": "טְלַם"
+	},
+	"page": {
+		"number": 537,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to bend, press</i>, esp. (corresp. to h. <cite ref=\"P01495\"><he>עָשַׁק</he></cite>) <i>to take undue advantage of, to oppress</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 5:21\">Targ. Y. Lev. V, 21</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 119:122\">Targ. Ps. CXIX, 122</cite>; a. fr.—Part. pass. <cite ref=\"I00512\"><he>טְלִים</he></cite>, <he>(טְלוּם</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:33\">Targ. Y. Deut. XXVIII, 33</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 103:6\">Targ. Ps. CIII, 6</cite> (some ed. incorr. <cite ref=\"I00480\"><he>טָלוֹ׳</he></cite>); a. e.—",
+				"<cite ref=\"Vayikra Rabbah 12:1\">Lev. R. s. 12</cite> (ref. to <cite ref=\"Proverbs 23:35\">Prov. XXIII, 35</cite>) <he>טָלְמִין ליה וכ׳</he> they overcharge him (in his drunkenness), and he knows it not &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טַלֵּים"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00511\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum of I Chronicles 16:21\">Targ. I Chr. XVI, 21</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "S00854",
+	"slug": "קיבוץ",
+	"headword": {
+		"text": "קִיבּוּץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִבּ׳"
+		}
+	],
+	"page": {
+		"number": 1354,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00092\"><he>קָבַץ</he></cite>) <i>gathering, reunion</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 88a:5\">Pes. 88ᵃ</cite>, v. <cite ref=\"C00919\"><he>גָּלוּת</he></cite>. ",
+				"<cite ref=\"Ketubot 8a:4\">Keth. 8ᵃ</cite> <he>בק׳ בניה וכ׳</he> when her children shall be reunited in her midst (in Palestine); a. e."
+			]
+		}
+	]
+}

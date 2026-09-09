@@ -1,0 +1,33 @@
+{
+	"id": "C00198",
+	"slug": "גדידה",
+	"headword": {
+		"text": "גְּדִידָה"
+	},
+	"page": {
+		"number": 212,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גָּדַד</he> I Hithpa.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>incision in the flesh, wounding</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 35b:17\">Kidd. 35ᵇ</cite> <he>או אינו אלא</he> (<cite ref=\"A02595\"><he>אף</he></cite>) <he>לג׳</he> perhaps the exemption of females (intimated by <he>בנים</he> <cite ref=\"Deuteronomy 14:1\">Deut. XIV, 1</cite>) refers (also) to the law forbidding incisions? <cite ref=\"Deuteronomy 14:1\">Ib.</cite> <he>שריטה וג׳ אחת היא</he> <i>s’ritah</i> and <i>g’didah</i> are legally the same. ",
+				"<cite ref=\"Makkot 21a:2\">Macc. 21ᵃ</cite> <he>שריטה ביד וג׳ בכלי</he> <i>s’ritah</i> is done with the hand (nails), <i>g’didah</i> with an instrument."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cutting dates</i>, v. <cite ref=\"C00216\"><he>גְּדִירָה</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

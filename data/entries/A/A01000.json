@@ -1,0 +1,27 @@
+{
+	"id": "A01000",
+	"slug": "אחוא",
+	"headword": {
+		"text": "אַחְוָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַחְוָה"
+		}
+	],
+	"page": {
+		"number": 39,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= b. h. <he>אָחוּ</he>, v. Ges. H. Dict. s. v.) [green], <i>meadow-grass, reed</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 41:2\">Targ. O. Gen. XLI, 2</cite>."
+			]
+		}
+	]
+}

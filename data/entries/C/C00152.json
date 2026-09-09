@@ -1,0 +1,34 @@
+{
+	"id": "C00152",
+	"slug": "גד-2",
+	"headword": {
+		"text": "גָּד"
+	},
+	"page": {
+		"number": 209,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Gad</i> ",
+			"units": []
+		},
+		{
+			"gloss": " son of Jacob. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 71:9\">Gen. R. s. 71</cite>; a. fr.—<he>תנאי בני גד</he>, v. <cite ref=\"V00719\"><he>תְּנַאי</he></cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " the prophet in the days of David. ",
+			"units": [
+				"<cite ref=\"Bava Batra 15a:8\">B. Bath. 15ᵃ</cite> <he>דאסקיה ג׳ החוזה וכ׳</he> Gad, the seer, and Nathan, the prophet, continued the Book of Samuel (from XXVIII, 3; Ms. O. <he>דאתא ג׳ … וסיימוה</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

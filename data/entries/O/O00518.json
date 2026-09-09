@@ -1,0 +1,24 @@
+{
+	"id": "O00518",
+	"slug": "סיאור",
+	"headword": {
+		"text": "סִיאוּר"
+	},
+	"page": {
+		"number": 974,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סאר</he> = <cite ref=\"U00048\"><he>שאר</he></cite>) <i>fermentation, leaven</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Challah 2:6\">Ḥall. II, 6</cite> <he>וסִיאוּרָן</he> Ar. (ed. <he>ושאורן</he>) the leaven required for them.—Trnsf. <i>original immoral condition; evil nature</i>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:13\">Y. Ab. Zar. II, 41ᵃ</cite> top <he>חזר לסִיאוּרוֹ</he> he returned to his old condition (heathenism). ",
+				"<cite ref=\"Kohelet Rabbah 7:8:1\">Koh. R. to VII, 8</cite> <he>אילולי כן חזר הפרסי לסיאורו</he> because but for it (Samuel’s forbearance) that Persian would have gone back to heathenism; a. e.—V. <cite ref=\"O00412\"><he>סוֹר</he></cite>."
+			]
+		}
+	]
+}

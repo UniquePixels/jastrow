@@ -1,0 +1,29 @@
+{
+	"id": "J00457",
+	"slug": "יסודא",
+	"headword": {
+		"text": "יְסוֹדָא"
+	},
+	"page": {
+		"number": 582,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"J00456\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 29:12\">Targ. Ex. XXIX, 12</cite>; a. fr.—Pl. <he>יְסוֹדַיָּא</he>, constr. <he>יְסוֹדֵי</he>. ",
+				"<cite ref=\"Onkelos Numbers 5:17\">Targ. O. Num. V, 17</cite> (ed. Berl. <he>אֵיסוֹדֵי</he>; h. text <cite ref=\"S02174\"><he>קרקע</he></cite>).—",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 10:1:4\">Y. B. Mets. X, beg. 12ᶜ</cite> <he>תרוייהו אילין י׳</he> both (the upper and the lower portions) are foundations (v. <cite ref=\"J00452\"><he>יָסַד</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pl. rest, head-rest</i> (cmp. <cite ref=\"A01400\"><he>אִיסָדָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 28:10\">Targ. Y. II, Gen. XXVIII, 10</cite> <he>תחות י׳ רישיה</he> in place of his headrest."
+			],
+			"label": "2"
+		}
+	]
+}

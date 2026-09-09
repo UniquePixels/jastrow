@@ -1,0 +1,35 @@
+{
+	"id": "M00297",
+	"slug": "מדינתא",
+	"headword": {
+		"text": "מְדִינְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "… תָּה"
+		},
+		{
+			"text": "מְדִינָא"
+		}
+	],
+	"page": {
+		"number": 734,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"M00295\"><he>מְדִינָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 10:13\">Targ. Is. X, 13</cite> (ed. Lag. <cite ref=\"M00295\"><he>מדינה</he></cite>). Targ. II Esth. VIII, 9.—",
+				"<cite ref=\"Aramaic Targum to Proverbs 16:32\">Targ. Prov. XVI, 32</cite> (h. text <cite ref=\"P00672\"><he>עיר</he></cite>). ",
+				"<cite ref=\"Targum Jerusalem, Numbers 24:24\">Targ. Y. II, Num. XXIV, 24</cite> <he>מ׳ רבתא</he> Constantinople (or Rome); a. e.—",
+				"<cite ref=\"Taanit 19b:1\">Taan. 19ᵇ</cite>, v. <cite ref=\"B01083\"><he>בַּצּוֹרְתָא</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> beg. <he>תרע פילי דהאי מ׳</he> the gate of that city; a. fr.—Pl. <cite ref=\"M00294\"><he>מְדִינָן</he></cite>, <cite ref=\"M00297\"><he>מְדִינָתָא</he></cite>. Targ. II Esth. l. c. ",
+				"<cite ref=\"Targum Jonathan on I Kings 20:14\">Targ. I Kings XX, 14</cite>. Targ. II Esth. IV, 11; a. fr."
+			]
+		}
+	]
+}

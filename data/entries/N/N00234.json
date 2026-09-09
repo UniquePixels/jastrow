@@ -1,0 +1,48 @@
+{
+	"id": "N00234",
+	"slug": "נדנד",
+	"headword": {
+		"text": "נִדְנֵד"
+	},
+	"page": {
+		"number": 879,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<i>Pilp.</i> of <he>וָדַד</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to make restless, shake, weaken</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 18\">Lev. R. s. 18</cite> (ref. to <cite ref=\"N00198\"><he>נֵד</he></cite>, <cite ref=\"Isaiah 17:11\">Is. XVII, 11</cite>) <he>נִדְנַדְתֶּם עליכם קצירן וכ׳</he> (or <he>קצירין</he>; Ar. <he>נִדַּדְתֶּם</he>, fr. <cite ref=\"N00211\"><he>נָדַד</he></cite>) (through your willing acceptance of the Law) you had made powerless over you the harvest (harvests, destructive forces) of the governments &c.; <cite ref=\"Yalkut Shimoni on Nach 287\">Yalk. Is. 287</cite> <he>נדית עלי</he> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (neut. verb) <i>to be rocked</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 53:10\">Gen. R. s. 53</cite> <he>לא נִדְנְדָה עריסה וכ׳</he> never was a cradle rocked before it was rocked in the house of Abraham, i.e. never before was there such a festival at the weaning of a child."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְנַדְנִד"],
+			"senses": [
+				{
+					"gloss": "<i>to be moved, stirred up</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 20\">Ex. R. s. 20</cite>, end <he>נ׳ הארון</he> Joseph’s coffin (sunk in the Nile) was stirred up (and came to the surface; Tanḥ. Ekeb 6 <cite ref=\"G00589\"><he>נזדעזע</he></cite>; Tanḥ. ",
+						"<cite ref=\"Exodus 2\">B’shall. 2</cite>, a. e. <cite ref=\"R00667\"><he>צף</he></cite>). ",
+						"<cite ref=\"Shir HaShirim Rabbah 6:10\">Cant. R. to VI, 10</cite> (play on <he>כנ̇ד̇ג̇ל̇ו̇ת̇</he>, <cite ref=\"Shir HaShirim Rabbah 6:10\">ib.</cite>) <he>כדור שנתנ̇ד̇נ̇ד̇ לג̇ל̇ו̇ת̇ו</he> like the generation (of Hezekiah) that was stirred up for its exile; <cite ref=\"Shir HaShirim Rabbah 6:10:1\">ib.</cite> <he>כדור שנ׳ לגלות ולא גילה</he> (read: <he>שיִתְנַדְנֵד … ולא יגלה</he>) like the generation (of the Messiah) which shall be moved about as if to go into exile, but shall not go. ",
+						"<cite ref=\"Shir HaShirim Rabbah 6:10:1\">Ib.</cite> <he>מִתְנַדְנְדִים ממסע וכ׳</he> moving from journey to journey; a. e."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "M01619",
+	"slug": "מלקות-2",
+	"headword": {
+		"text": "מַלְקוּת",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מַלְקוּתָא"
+		}
+	],
+	"page": {
+		"number": 793,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01618\">same</cite>, <i>chastisement</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 25:3\">Targ. Y. Deut. XXV, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 7:14\">Targ. II Sam. VII, 14</cite>."
+			]
+		}
+	]
+}

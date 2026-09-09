@@ -1,0 +1,31 @@
+{
+	"id": "H01652",
+	"slug": "חרחבינא",
+	"headword": {
+		"text": "חַרְחֲבִינָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַרְחֲבִינָה"
+		}
+	],
+	"page": {
+		"number": 501,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a comp. of <cite ref=\"H01651\"><he>חרח</he></cite> = <he>חרחר</he>, <i>to bore, sting</i>, v. <cite ref=\"H01766\"><he>חֲרַר</he> II</cite>, a. <cite ref=\"B00635\"><he>בּוּן</he></cite>, v. <cite ref=\"B00641\"><he>בִּינָא</he> III</cite>, <he>בִּינְתָא</he> II) <i>a hair-like creeper, creeper on palm-trees</i> (cmp. <cite ref=\"H01596\"><he>חַרְגִּינִּין</he></cite>, <cite ref=\"E00829\"><he>הַרְדּוֹפַנִּין</he></cite>). ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 5:3\">Tosef. Shebi. V, 3</cite> <he>הרחבינה</he> ed. Zuck. (Var. <he>החרח׳</he>). ",
+				"<cite ref=\"Mishnah Pesachim 2:6\">Pes. II, 6</cite>, expl. ",
+				"<cite ref=\"Pesachim 39a:3\">ib. 39ᵃ</cite>, v. <cite ref=\"A02859\"><he>אַצְוָוא</he></cite>.—Pl. <he>חַרְחֲבִינִין</he>. ",
+				"<cite ref=\"Pesachim 39a:4\">Ib.</cite> <he>בחרחלין ובח׳</he> ed. (Ms. M. 1 <he>ובחרחבנין</he>; Ms. M. 2 <he>ובחרבנין</he>), v. <cite ref=\"H01656\"><he>חִרְחַלִּין</he></cite>. ",
+				"<cite ref=\"Pesachim 39a:6\">Ib.</cite> <he>ובחַרְבִּינִין ובחרגינין וכ׳</he> ed. (Ms. M. <he>ובחרחבינה</he>, v. Rabb. D. S. a. l. note 200) with palm-ivy, garden-ivy and wall-ivy."
+			]
+		}
+	]
+}

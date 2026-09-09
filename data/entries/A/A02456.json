@@ -1,0 +1,28 @@
+{
+	"id": "A02456",
+	"slug": "אסכמא",
+	"headword": {
+		"text": "אַסְכְּמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אסכמה",
+			"reconstructed": true
+		}
+	],
+	"page": {
+		"number": 94,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סכם</he>, v. P. Sm. 307 sq. <he>אסכם</he> a. denomin.; an adoption of σχῆμα, -ατος would read <he>אסכימטא</he>) <i>planning, simulation</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 7:10\">Targ. Prov. VII, 10</cite> (h. text <cite ref=\"U01103\"><he>שית</he></cite>); cmp. <cite ref=\"A02457\">next w.</cite>"
+			]
+		}
+	]
+}

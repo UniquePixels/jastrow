@@ -1,0 +1,24 @@
+{
+	"id": "K01241",
+	"slug": "כרניבאות",
+	"headword": {
+		"text": "כַּרְנִיבָּאוֹת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 672,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (χέρνιψ, -βος) <i>vessels containing lustral water</i>, placed at the doors of Greek and Roman temples (v. Sm. Ant. s. v.). ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 158\">Sifré Num. 158</cite> <cite ref=\"K01092\"><he>כרדוכאות</he></cite> (corr. acc.; Ar. <cite ref=\"K01238\"><he>כַּרְנִבָּאוֹת</he></cite>)."
+			]
+		}
+	]
+}

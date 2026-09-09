@@ -1,0 +1,23 @@
+{
+	"id": "G00711",
+	"slug": "זריעה",
+	"headword": {
+		"text": "זְרִיעָה"
+	},
+	"page": {
+		"number": 414,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00722\"><he>זָרַע</he></cite>) <i>sowing, seed</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 35b:7\">Ber. 35ᵇ</cite> <he>בשעת ז׳</he> at seed-time. ",
+				"<cite ref=\"Shabbat 91a:3\">Sabb. 91ᵃ</cite> <he>לז׳</he> to use it for seed; a. fr."
+			]
+		}
+	]
+}

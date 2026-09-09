@@ -1,0 +1,24 @@
+{
+	"id": "B01049",
+	"slug": "בעיץ-2",
+	"headword": {
+		"text": "בְּעִיץ",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 181,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (part. pass. of a verb <he>בעץ</he>, denom. of <cite ref=\"B01061\"><he>בעצא</he></cite>) <i>tinned, wrapt in tin-foil</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 32:11\">Targ. Jer. XXXII, 11</cite> (a. 14, in some ed.) <he>כתיב ב׳ וחתים</he> written, wrapt in tinfoil and tied up (v. <he>חתם</he>) with a seal, opp. to <he>שטרא פתיחא</he>."
+			]
+		}
+	]
+}

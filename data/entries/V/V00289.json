@@ -1,0 +1,22 @@
+{
+	"id": "V00289",
+	"slug": "תורגסא",
+	"headword": {
+		"text": "תּוּרְגְּסָא"
+	},
+	"page": {
+		"number": 1657,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ארג</he> with afformative <cite ref=\"O00000\"><he>ס</he></cite>; cmp. <cite ref=\"A02984\"><he>אַרְגָּז</he></cite>, a. <cite ref=\"A02974\"><he>אַרְבָּא</he></cite>) <i>floss.—</i>Pl. <he>תּוּרְגְּסִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 5:23\">Targ. I Kings V, 23</cite> ed. Lag. (ed. Wil. <cite ref=\"V00305\"><he>תּוּרְנַ׳</he></cite>, corr. acc.); <cite ref=\"Targum of II Chronicles 2:15\">Targ. II Chr. II, 15</cite>."
+			]
+		}
+	]
+}

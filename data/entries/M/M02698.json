@@ -1,0 +1,24 @@
+{
+	"id": "M02698",
+	"slug": "מרכב",
+	"headword": {
+		"text": "מֶרְכָּב"
+	},
+	"page": {
+		"number": 844,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T00745\"><he>רָכַב</he></cite>)<i>riding seat, saddle, handle of the saddle</i>, esp. (<he>טומאת</he>) <he>מ׳</he> <i>that degree of uncleanness which arises from an unclean man’s riding</i> (<cite ref=\"Leviticus 15:9\">Lev. XV, 9</cite>); <i>unclean saddle</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Batra 2:7\">Tosef. Kel. B. Bath. II, 7</cite>; <cite ref=\"Eruvin 27a:8\">Erub. 27ᵃ</cite> <he>האוכף טמא מושב והתפוס טמא מ׳</he> the saddle itself (on which an unclean man sat) is unclean as a seat, and its handle is unclean as a riding implement. ",
+				"<cite ref=\"Mishnah Kelim 1:3\">Kel. I, 3</cite>. ",
+				"<cite ref=\"Mishnah Zavim 5:8\">Zab. V, 8</cite>; a. fr."
+			]
+		}
+	]
+}

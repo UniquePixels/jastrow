@@ -1,0 +1,23 @@
+{
+	"id": "A02130",
+	"slug": "אנדרטין",
+	"headword": {
+		"text": "אנדרטין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 82,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., <cite ref=\"Tosefta Keilim Metsia 4:8\">Tosef. Kel. B. Mets. IV, 8</cite>, prob. <he>אוֹדוֹנְטוֹטִי</he> (ὀδοντωτή, sub. ξύστρα) <i>a teethed strigil;</i> cmp. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 14:3\">Kel. XIV, 3</cite> <cite ref=\"M00172\"><he>מגירה</he></cite>."
+			]
+		}
+	]
+}

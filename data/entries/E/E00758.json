@@ -1,0 +1,22 @@
+{
+	"id": "E00758",
+	"slug": "הפקעה",
+	"headword": {
+		"text": "הַפְקָעָה"
+	},
+	"page": {
+		"number": 362,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01502\"><he>פָּקַע</he></cite>; cmp. <cite ref=\"A02782\"><he>אַפְקַעְתָּא</he></cite>) <i>cancellation, release from debt</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 113b:6\">B. Kam. 113ᵇ</cite> <he>הַפְקָעַת הלואתו</he> the cancellation of his (the gentile’s) loan."
+			]
+		}
+	]
+}

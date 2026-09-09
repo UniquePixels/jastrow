@@ -1,0 +1,73 @@
+{
+	"id": "O01276",
+	"slug": "סעד-2",
+	"headword": {
+		"text": "סְעַד"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְעוֹד"
+		},
+		{
+			"text": "סְעֵיד"
+		}
+	],
+	"page": {
+		"number": 1009,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01275\">same</cite><i>to assist, help</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 7:12\">Targ. I Sam. VII, 12</cite> (ed. Wil. <i>Pa.</i>).—",
+				"<cite ref=\"Onkelos Genesis 27:37\">Targ. Gen. XXVII, 37</cite> (h. text <cite ref=\"O01098\"><he>סמך</he></cite>); a. fr.—",
+				"<cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite> <he>לא נִסְעוֹד וכ׳</he>, v. <cite ref=\"O00939\"><he>סְכַף</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with or without <cite ref=\"L00405\"><he>לִיבָּא</he></cite>) <i>to dine, eat</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 19:5\">Targ. Jud. XIX, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 14:4\">Targ. Ps. XIV, 4</cite>.—",
+				"<cite ref=\"Gittin 67b:19\">Gitt. 67ᵇ</cite> <he>מאי טעמא לא סָעֵיד מר גבן</he> why will you not dine with us?"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to satiate</i>, contrad. to <cite ref=\"G00192\"><he>זון</he></cite> and to <cite ref=\"C01392\"><he>גרר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Berakhot 35b:18\">Ber. 35ᵇ</cite> <he>חמרא סָעֵיד</he> wine satisfies; <he>נהמא מִיסְעַד סעיד וכ׳</he> bread satisfies but does not exhilarate; a. e."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַעֵיד"],
+			"senses": [
+				{
+					"gloss": "<i>to support, help</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 28:23\">Targ. II Chr. XXVIII, 23</cite>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 17:12\">Targ. Y. Ex. XVII, 12</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִסְתָּעֵד"],
+			"senses": [
+				{
+					"gloss": "<i>to be supported</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 5:6\">Targ. Is. V, 6</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

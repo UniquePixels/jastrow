@@ -1,0 +1,24 @@
+{
+	"id": "N00333",
+	"slug": "נווסין",
+	"headword": {
+		"text": "נַוְוסִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 885,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (ναῦς) <i>ships, ship-building</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 16\">Gen. R. s. 16</cite> Ar., ed. <he>בנימוסין</he>, v. <cite ref=\"N00681\"><he>נִימוֹס</he> II</cite>."
+			]
+		}
+	]
+}

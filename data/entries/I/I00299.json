@@ -1,0 +1,38 @@
+{
+	"id": "I00299",
+	"slug": "טיבו",
+	"headword": {
+		"text": "טִיבוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "טֵיבוּ"
+		},
+		{
+			"text": "טֵיבוּתָא"
+		}
+	],
+	"page": {
+		"number": 529,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"I00112\"><he>טוֹבָה</he></cite> , <i>goodness, good deed; profit, enjoyment, pleasure</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 23:13\">Targ. Gen. XXIII, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 4:8\">Targ. Koh. IV, 8</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 77ᵈ</cite> bot. <he>חדא ט׳</he> one good deed. ",
+				"<cite ref=\"Tamid 32a:51\">Tam. 32ᵃ</cite> <he>יעביד ט׳ עם וכ׳</he> let him act kindly towards &c. ",
+				"<cite ref=\"Taanit 23b:2\">Taan. 23ᵇ</cite> <he>ולא נחזיק ט׳ וכ׳</he> without having credit given to us. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:16\">Y. Ber. II, 5ᵃ</cite> bot., v. <cite ref=\"H00554\"><he>חֲזַק</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 5</cite>; a. fr.—",
+				"<cite ref=\"Menachot 52a:16\">Men. 52ᵃ</cite> <he>מטֵיבוּתָן לא אמרי</he> Ms. M. (ed. <he>מטֵבוּתִין</he>) of our good teachings they do not speak. ",
+				"<cite ref=\"Menachot 52a:17\">Ib.</cite> <he>הני נמי מטיבותן היא</he> Ms. M. (ed. <he>טבותין</he>) this is also one of our good things."
+			]
+		}
+	]
+}

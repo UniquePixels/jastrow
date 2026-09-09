@@ -1,0 +1,97 @@
+{
+	"id": "P00973",
+	"slug": "עני-4",
+	"headword": {
+		"text": "עֲנֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲנָא"
+		}
+	],
+	"page": {
+		"number": 1093,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P00972\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַנֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to tarry, be detained, late</i>. Y. Sot. I, 16ᵈ bot. <he>חד זמן ע׳ דריש</he> once he (R. Meïr) was long in preaching (preached to a late hour, or came late); <cite ref=\"Bamidbar Rabbah 9:20\">Num. R. s. 9</cite> <he>אִיעַנֵּי דרשה</he> (<i>Ithpa.</i>, read <cite ref=\"D01077\"><he>דָּרוֹשָׁה</he></cite> or <cite ref=\"D01131\"><he>דָּרְשָׁא</he></cite>); <cite ref=\"Vayikra Rabbah 9:9\">Lev. R. s. 9</cite> <he>תנתא מדרשא</he> (corr. acc.). Y. Bicc. III, 65ᶜ bot. <he>חד זמן ע׳ מיסק</he> (not <cite ref=\"M01929\"><he>מסיק</he></cite>) once he was late in coming; (<cite ref=\"Ketubot 62b:4\">Keth. 62ᵇ</cite> <he>משכתיה שמעתא</he>); a. e.—<he>עַנִּי מרי</he> be slow, my lord (a respectful form of interrupting and introducing an objection or correction). ",
+					"units": [
+						"<cite ref=\"Menachot 17a:7\">Men. 17ᵃ</cite> <he>ע׳ מ׳ משמיה דרב וכ׳</he> beg pardon, sir; (do you mean to say) ‘in the name of Rab?’ Said he, yes. Ib. 81ᵃ <he>ע׳ מ׳ ארבעין וכ׳</he> beg pardon, he deserves forty lashes (for exchanging sacrifices), and yet his act is legal?; <cite ref=\"Sanhedrin 26b:3\">Snh. 26ᵇ</cite> <he>ע׳ מ׳ ארבעין … וכשר</he> he deserves forty lashes, and yet his testimony is admissible? <cite ref=\"Bava Kamma 49b:9\">B. Kam. 49ᵇ</cite> <he>ע׳ מורי וכ׳</he>; [Rashi interprets: <i>give answer</i>, my lord, v. <cite ref=\"P00973\"><he>עֲנֵי</he> I</cite>]."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to afflict, oppress</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 22:21\">Targ. O. Ex. XXII, 21</cite>, sq. ",
+						"<cite ref=\"Onkelos Exodus 1:12\">Ib. I, 12</cite> <he>מְעַנַּן</he> (Y. <he>מְעַנְיַין</he>); a. e.—Part. pass. <cite ref=\"M02149\"><he>מְעַנֵּי</he></cite>; pl. <he>מְעַנָּן</he>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 53:4\">Targ. Is. LIII, 4</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to violate</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 22:24\">Targ. O. Deut. XXII, 24</cite> (ed. Amst. <cite ref=\"P00971\"><he>עָנֵי</he></cite>, corr. acc.); a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": " (with, or sub. <cite ref=\"N01085\"><he>נפשא</he></cite>) <i>to afflict one’s self, fast</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 3:33\">Targ. Lam. III, 33</cite> (ed. Amst. <cite ref=\"P00971\"><he>עָנֵי</he></cite>). ",
+						"<cite ref=\"Onkelos Leviticus 16:31\">Targ. Lev. XVI, 31</cite>; a. fr.—Part. pass. as ab. Tanḥ. ",
+						"<cite ref=\"Genesis 2\">B’resh. 2</cite> <he>בשבת גופא לא מע׳</he> he does not fast on the Sabbath itself."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְעַנֵּי", "אִיעַנֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to be delayed</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 9:24\">Num. R. s. 9</cite>, v. supra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be afflicted, suffer; to fast</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 2:26\">Targ. I Kings II, 26</cite>. ",
+						"<cite ref=\"Targum Jonathan on Zechariah 7:5\">Targ. Zech. VII, 5</cite>; a. e.—Y. Ber. III, 6ᵇ top; Y. Naz. VII, 56ᵃ bot. <he>בעי מזקפוניה ואשכחוניה איע׳</he> they wanted to help him up, but found that he was suffering; <cite ref=\"Kohelet Rabbah 7:2\">Koh. R. to VII, 2</cite> (not <he>איע׳ בדבורא</he>).—4) <i>to be violated</i>. ",
+						"<cite ref=\"Aramaic Targum to Lamentations 5:11\">Targ. Lam. V, 11</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיעֲנִי"],
+			"senses": [
+				{
+					"gloss": "<i>to become poor</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 23b:12\">Taan. 23ᵇ</cite> <he>אמר לִיעֲנוּ ואִיעֲנוּ</he> he said, let them become poor, and they became poor."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

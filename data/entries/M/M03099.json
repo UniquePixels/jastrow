@@ -1,0 +1,87 @@
+{
+	"id": "M03099",
+	"slug": "מתק-1",
+	"headword": {
+		"text": "מָתַק"
+	},
+	"page": {
+		"number": 864,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be sweet, palatable</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 3:4\">Ukts. III, 4</cite> <he>עד שיִמְתּוֹקוּ</he> until they are made palatable (by pressing). ",
+				"<cite ref=\"Bereishit Rabbah 85:3\">Gen. R. s. 85</cite> <he>יִמְתַּק לכם</he> may it be sweet to (well agree with) you, v. <cite ref=\"B01003\"><he>בָּסַם</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to partake with delight, smack, gnaw</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 910:2\">Yalk. Job 910</cite> (ref. to <cite ref=\"Job 24:20\">Job XXIV, 20</cite>) <he>שמָתַק רמה מהם</he> the worm gnawed at them with delight; <cite ref=\"Bereishit Rabbah 33\">Gen. R. s. 33</cite> <he>שמִיתְּקוּ רמה מהם</he> (<i>Pi.</i>) the worms did &c.—",
+				"<cite ref=\"Yalkut Shimoni on Nach 962:15\">Yalk. Prov. 962</cite> <he>סופו להיות מוֹתֵק עליו</he> shall finally feed on him; <cite ref=\"Yalkut Shimoni on Nach 961:29\">ib. 961</cite> <he>מותח</he> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מִיתֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to partake with delight</i>, s. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to sweeten, season</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Beitsah 3:15\">Tosef. Bets. III, 15</cite> <he>אין מְמַתְּקִין וכ׳</he> you must not (on the Holy Day) sweeten a mustard mixture by dipping a live coal into it; <cite ref=\"Shabbat 134a\">Sabb. 134ᵃ</cite>; Y. Bets. IV, 62ᶜ bot. ",
+						"<cite ref=\"Shabbat 90a:1\">Sabb. 90ᵃ</cite> <he>למַתֵּק קדרה</he> to season a dish. ",
+						"<cite ref=\"Berakhot 5a:19\">Ber. 5ᵃ</cite> <he>מלח מְמַתֶּקֶת וכ׳</he> salt seasons the meat; a. fr.—Trnsf. <i>to pacify</i>. Y. Ab. Zar. II, 42ᵃ top <he>והוא יודע למתק וכ׳</he> he knows how to calm the great Ocean. Y. Meg. III, 74ᵃ bot. (in a secret letter) <he>תמר … ובקשנו למַתְּקָה וכ׳</he> Tamar still endures in her bitterness (hostility), and we attempted to sweeten her (by bribery), ‘but the melter has refined in vain’ (<cite ref=\"Jeremiah 6:29\">Jer. VI, 29</cite>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to indulge</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 961:29\">Yalk. Prov. 961</cite> (ref. to <cite ref=\"Proverbs 29:21\">Prov. XXIX, 21</cite>) <he>כל מי שמְמַתֵּק וכ׳</he> he who indulges his passion in his youth (v. <cite ref=\"M01746\"><he>מָנוֹן</he></cite>).—",
+						"<cite ref=\"Taanit 9b\">Taan. 9ᵇ</cite>, v. infra."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִמְתִּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to sweeten</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 5:16\">Cant. R. to V, 16</cite> (play on <cite ref=\"M01691\"><he>ממתקים</he></cite>, <cite ref=\"Shir HaShirim Rabbah 5:16\">ib.</cite>) <he>ה׳ להם וכ׳</he> he sweetened (softened) the word for them; <cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10</cite>, beg."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְמַתֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to become sweet, to be quieted</i>. Y. Ab. Zar. l. c. <he>בשעה שהמים … מִתְמַתְּקִין</he> when the waters praise their Creator, they grow calm. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 13\">Gen. R. s. 13</cite>, a. e. <he>מִתְמַתְּקִים הן בעבים</he> (some ed. <he>ממת׳</he>, corr. acc.) the salt water becomes sweet in the clouds; <cite ref=\"Taanit 9b\">Taan. 9ᵇ</cite> Ms. M. (ed. <cite ref=\"M01691\"><he>ממתקין</he></cite>, corr. acc.)."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

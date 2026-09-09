@@ -1,0 +1,34 @@
+{
+	"id": "E00696",
+	"slug": "הסבה-1",
+	"headword": {
+		"text": "הֶסֵּבָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶסֵּיבָּה"
+		},
+		{
+			"text": "הֶיסֵּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 359,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"E00695\">same</cite>; <i>lying down for a meal in company</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 43a:2\">Ber. 43ᵃ</cite>, v. <cite ref=\"E00676\"><he>הֲנִי</he></cite>. ",
+				"<cite ref=\"Berakhot 43a:2\">Ib.</cite> <cite ref=\"E00469\"><he>היסבה</he></cite> (Ms. M. <cite ref=\"E00695\"><he>הֶסֵּב</he></cite>), v. <cite ref=\"E00695\">preced.</cite> ",
+				"<cite ref=\"Berakhot 52b:31\">Ib. 52ᵇ</cite> <he>הֶסֵּבַּת גוים</he> Ms. M. (ed. <cite ref=\"M01840\"><he>מְסִבַּת</he></cite>) a banqueting of gentiles. ",
+				"<cite ref=\"Pesachim 108a:9\">Pes. 108ᵃ</cite> <he>הֶסּיבַּת ימין</he> lying on the right side at the Passover meal; a. fr."
+			]
+		}
+	]
+}

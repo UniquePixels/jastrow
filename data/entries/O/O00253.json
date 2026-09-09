@@ -1,0 +1,23 @@
+{
+	"id": "O00253",
+	"slug": "סוגני",
+	"headword": {
+		"text": "סוּגְנֵי"
+	},
+	"page": {
+		"number": 961,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl., with suffix <he>סוּגְנוֹי</he> (<he>סְגֵי</he> I, v. <cite ref=\"O00249\"><he>סוּגוּ</he></cite>, <cite ref=\"O00249\"><he>סוּגוּן</he></cite>) <i>plenty of it</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 27:28\">Targ. Y. Gen. XXVII, 28</cite>."
+			]
+		}
+	]
+}

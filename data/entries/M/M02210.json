@@ -1,0 +1,27 @@
+{
+	"id": "M02210",
+	"slug": "מפטרא-2",
+	"headword": {
+		"text": "מִפְטְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִפַּטְרָא"
+		}
+	],
+	"page": {
+		"number": 820,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00547\"><he>פָּטַר</he></cite>) <i>divorced</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 21:7\">Targ. Y. Lev. XXI, 7</cite>; <cite ref=\"Targum Jonathan on Leviticus 21:14\">14</cite>."
+			]
+		}
+	]
+}

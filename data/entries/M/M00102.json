@@ -1,0 +1,22 @@
+{
+	"id": "M00102",
+	"slug": "מבשקרנא",
+	"headword": {
+		"text": "מְבַשְׁקְרָנָא"
+	},
+	"page": {
+		"number": 725,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B01367\"><he>בַּשְׁקַר</he></cite>) [<i>what is known by searching</i>,] <i>innermost, true nature</i> (corresp. to b. h. <cite ref=\"H01567\"><he>חֵקֶר</he></cite>).—Pl. <he>מְבשְׁקְרָנֵי</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 37:16\">Targ. Job XXXVII, 16</cite> (h. text <he>מִפְלְשֵׂי</he>, cmp. <cite ref=\"Q01126\"><he>פָּלַשׁ</he> I</cite>)."
+			]
+		}
+	]
+}

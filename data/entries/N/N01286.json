@@ -1,0 +1,56 @@
+{
+	"id": "N01286",
+	"slug": "נשב-1",
+	"headword": {
+		"text": "נָשַׁב"
+	},
+	"page": {
+		"number": 938,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to blow</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 3b:29\">Ber. 3ᵇ</cite> <he>בא … ונוֹשֶׁבֶת בו</he> (Ms. M. <he>ומְנַשֶּׁבֶת</he> <i>Pi.</i>) the north wind came and blew at him. ",
+				"<cite ref=\"Pirkei Avot 3:17\">Ab. III, 17</cite> <he>אפילו … ונוֹשְׁבוֹת בו</he> even if all the winds of the world came and blew at it (to uproot it) &c.; <cite ref=\"Taanit 20a\">Taan. 20ᵃ</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִשֵּׁב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01285\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 4:16\">Cant. R. to IV, 16</cite>. ",
+						"<cite ref=\"Yoma 21b\">Yoma 21ᵇ</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to blow</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 111b:6-12\">Keth. 111ᵇ</cite> <he>הקב״ה … ומְנַשְּׁבָהּ עליה</he> the Lord brings a wind … and lets it pass over it (the wheat)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשִּׁיב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01285\">same</cite>. <he>מַשִּׁיב הרוח ומוריד הגשם</he> ‘who causes the wind to blow and the rain to descend’, a clause inserted in <i>G’buroth</i> (v. <he>גְּבוּרוֹת</he>) during the winter season. ",
+					"units": [
+						"<cite ref=\"Taanit 3b:4\">Taan. 3ᵇ</cite> <he>אמר משיב הרוח אין וכ׳</he> if he said in his prayers, ‘Who causes the wind to blow’ only. ",
+						"<cite ref=\"Taanit 24a\">Ib. 24ᵃ</cite> <he>אמר מ׳ הרוח וכ׳</he> as soon as he said, ‘Who causes &c.’, a wind arose; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

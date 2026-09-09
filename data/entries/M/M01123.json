@@ -1,0 +1,23 @@
+{
+	"id": "M01123",
+	"slug": "מיטב",
+	"headword": {
+		"text": "מֵיטָב"
+	},
+	"page": {
+		"number": 772,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., constr. <cite ref=\"M01123\"><he>מֵיטַב</he></cite> (b. h.; <i>the choice of</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 7a:9\">B. Kam. 7ᵃ</cite> (ref. to <cite ref=\"Exodus 22:4\">Ex. XXII, 4</cite>) <he>מ׳ שדהו של ניזק</he> it means the highest assessment of damage of the property of the injured party; <he>מ׳ שדהו של מזיק</he> the best property of the injurer is held responsible for the damage. ",
+				"<cite ref=\"Exodus 22:4\">Ib.</cite> <he>מ׳ אין מידי אחרינא לא</he> must he pay only in the best value (as property, cash &c.) and in no other stock? Ib.ᵇ <he>כל מילי מ׳ הוא</he> all movable objects are payment in good value (must be accepted); a. fr."
+			]
+		}
+	]
+}

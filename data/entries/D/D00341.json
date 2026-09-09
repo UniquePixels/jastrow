@@ -1,0 +1,78 @@
+{
+	"id": "D00341",
+	"slug": "דור-1",
+	"headword": {
+		"text": "דּוּר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 288,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.)[<i>to form a circle or enclosure</i> (v. Fl. to Levy Talm. Dict. I, p. 440ᵃ sq.).—Denom. <cite ref=\"D00343\"><he>דּוּר</he> II</cite>, <cite ref=\"D00345\"><he>דּוֹר</he></cite>, <cite ref=\"D00731\"><he>דִּירָה</he></cite> &c.].",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"D00731\"><he>דִּירָה</he></cite>) <i>to reside, dwell</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 8a:22\">Ber. 8ᵃ</cite> <he>לעולם יָדוֹר וכ׳</he> one must try to live in the same place with his teacher. ",
+				"<cite ref=\"Ketubot 72a\">Keth. 72ᵃ</cite>; a. fr. <he>אין אדם דָּר וכ׳</he>, v. <cite ref=\"K01019\"><he>כְּפִיפָה</he></cite>. ",
+				"<cite ref=\"Ketubot 110b:23\">Ib. 110ᵇ</cite> <he>בל הדָּר בא״י</he> whoever lives in Palestine.—",
+				"<cite ref=\"Sukkah 35a:5\">Succ. 35ᵃ</cite> (ref. to <i>hadar</i>, <cite ref=\"Leviticus 23:40\">Lev. XXIII, 40</cite>) <he>א״ת הָדָר אלא הַדָּר דבר שֶדָּר וכ׳</he> ed. (Ms. M. <he>הָדָר דבר הַדָּר וכ׳</he>) read not <i>hadar</i> but <i>haddar</i>, something which remains on its tree from year to year (without withering); a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to lodge</i>, v. infra.",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דִּיֵּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to cause a circuit;</i> <he>ד׳ שדה</he> <i>to let cattle change folds within a field, to collect manure in a field, by letting cattle live on it</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 3:4\">Shebi. III, 4</cite>. Y. ib. 34ᶜ bot. <he>מְדַיְּירִין בטובה</he> you may let your cattle live on one’s field as a favor; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lodge</i>, v. infra.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֵדִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to lodge</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 3\">Pesik. R. s. 3</cite>, beg. (play on <cite ref=\"D01033\"><he>דָּֽ֗רְ֗בָ֗ן֗</he></cite>) <he>שמֵדִ֗יר̇ ב̇ינ̇ה בפרה</he> it (the goad) causes understanding to dwell in the cow; Pesik. Baḥod. p. 153ᵃ <he>שמורה</he> (ed. O. <he>שמדיר</he>); <cite ref=\"Kohelet Rabbah 12:11:1\">Koh. R. to XII, 11</cite> [read:] <he>שהוא מְדַיֵּיר</he>; <cite ref=\"Bamidbar Rabbah 14:4\">Num. R. s. 14</cite> <cite ref=\"U00284\"><he>שדָּר</he></cite>; Y. Snh. Tanḥ. B’haăl 15 <he>דָּר אצל הפרה וכ׳</he>.—[Num. R. l. c. the words of the wise <he>דָּ֗רִ֗ים ב̇ינ̇ה וכ׳</he> lodge understanding with men.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִדּיָּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to be manured</i> by cattle living in folds, v. Piel. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 4:2\">Shebi. IV, 2</cite>; <cite ref=\"Moed Katan 13a\">M. Kat. 13ᵃ</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

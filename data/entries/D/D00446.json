@@ -1,0 +1,23 @@
+{
+	"id": "D00446",
+	"slug": "דיאו-1",
+	"headword": {
+		"text": "דִּיאֵו",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 294,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דאו</he> = <he>דאו</he> formed like <cite ref=\"P00346\"><he>עִוֵּר</he></cite>, v. <cite ref=\"D00500\"><he>דֵּיו</he></cite>) <i>longing, faint, love-sick</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 2:9:3\">Cant. R. to II, 9</cite>, v. <cite ref=\"D00500\"><he>דֵּיו</he></cite>."
+			]
+		}
+	]
+}

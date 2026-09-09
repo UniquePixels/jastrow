@@ -1,0 +1,31 @@
+{
+	"id": "M02081",
+	"slug": "מעולה",
+	"headword": {
+		"text": "מְעוּלֶה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְעוּלָּה"
+		}
+	],
+	"page": {
+		"number": 814,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00772\"><he>עָלָה</he></cite>, <i>Pi.</i>) <i>prominent, distinguised</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 10b:19\">Ber. 10ᵇ</cite> (expl. <cite ref=\"P00794\"><he>עֲלִיַּת</he></cite>, <cite ref=\"II Kings 4:10\">II Kings IV, 10</cite>) <he>מ׳ בבתים</he> the most distinguished room (the <i>exedra</i>); <cite ref=\"Nedarim 56a:4\">Ned. 56ᵃ</cite> (expl. <cite ref=\"E00716\"><he>העלייה</he></cite>, Mish. ",
+				"<cite ref=\"Mishnah Nedarim 7:4\">ib. VII, 4</cite>) <he>מ׳ שבבתים</he> (Var. <he>שבנכסיו</he>) the best room. ",
+				"<cite ref=\"Menachot 108b:24\">Men. 108ᵇ</cite> <he>מ׳ שבביתי</he> (Ms. M. <he>מעלייה שבבתיו</he>) my best room. B. Kam, 16ᵇ (expl. <he>מן העלייה</he>, Mish. ",
+				"<cite ref=\"Mishnah Menachot 1:4\">ib. I, 4</cite>) <he>במ׳ שבנכסיו</he> with the best portion of his estate; a. e.—Pl. <he>מְעוּלִּים</he>, <he>מְעוּלִּין</he>. ",
+				"<cite ref=\"Mishnah Menachot 1:4\">Ib.</cite> <he>מ׳ שבמשפחה</he> the most distinguished of his family; a. e."
+			]
+		}
+	]
+}

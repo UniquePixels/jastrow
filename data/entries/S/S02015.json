@@ -1,0 +1,34 @@
+{
+	"id": "S02015",
+	"slug": "קרטע-1",
+	"headword": {
+		"text": "קִרְטֵעַ"
+	},
+	"page": {
+		"number": 1417,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<i>Parel</i> of <cite ref=\"S00804\"><he>קָטַע</he></cite>) [<i>to cut</i>; cmp. <cite ref=\"C00338\"><he>גּוּז</he></cite>,] <i>to caper, leap</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 38\">Gen. R. s. 38</cite> <he>ארכיליסטיס מְקַרְטֵעַ</he> Ar. the chief robber (Satan) cuts his capers (ed. <he>השטן מקטרג</he>). ",
+				"<cite ref=\"Bereishit Rabbah 74\">Gen. R. s. 74</cite> <he>מְקַרְטְעִים בו</he> Var., v. <cite ref=\"S02182\"><he>קִרְקֵר</he> II</cite>. Tanḥ. Ki Thissa 19 <he>נוער כשהוא מְקַרְטֵעַ</he> (read: <cite ref=\"T00011\"><he>נראה</he></cite>) appearing as if it (the golden calf) were leaping, v. <cite ref=\"T00557\"><he>רָטַט</he></cite>. ",
+				"<cite ref=\"Chullin 75a:5\">Ḥull. 75ᵃ</cite> <he>דג מקרטע</he> (Ms. H. <cite ref=\"S02015\"><he>המִתְקַרְטֵעַ</he></cite>; Ms. R. 1 <he>המקורטע</he>; <cite ref=\"Chullin 2a\">2</cite> <he>המטרטע</he> corr. acc.; v. Rabb. D. S. a. l. note 2) a fish jumping (in the death agony); a. e.—",
+				"<cite ref=\"Pesikta Rabbati 40\">Pesik. R. s. 40</cite> [read:] <he>שלא נראה המאכלת בא</he>(<cite ref=\"E00000\"><he>ה</he></cite>) <he>עלי ונְקַרְטֵעַ ונִיפָּסֵל וכ׳</he> lest we (I) see the knife coming on me, and make a convulsive movement, and become unfit for a sacrifice; [Friedm. corrects: <he>שלא אראה … וַאֲקַרְטֵעַ ואִיפָּסֵל</he> lest I see the knife &c.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְקַרְטֵעַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S02014\">same</cite>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

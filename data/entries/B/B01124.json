@@ -1,0 +1,31 @@
+{
+	"id": "B01124",
+	"slug": "בקיעין",
+	"headword": {
+		"text": "בְּקִיעִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּקִיעִין"
+		},
+		{
+			"text": "כפר"
+		}
+	],
+	"page": {
+		"number": 186,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>B’kiin</i>, (<i>K’far</i>) <i>P’kiin</i>, modern <i>Fukin</i>, a place in Southern Palestine between Lydda and Jabneh, residence of R. Joshua. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Chagigah 1:1:3\">Y. Ḥag. I, beg. 75ᵈ</cite>. ",
+				"<cite ref=\"Sanhedrin 32b:10\">Snh. 32ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

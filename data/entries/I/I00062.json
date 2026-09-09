@@ -1,0 +1,97 @@
+{
+	"id": "I00062",
+	"slug": "טבל-1",
+	"headword": {
+		"text": "טָבַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 517,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"I00076\"><he>טָבַע</he> I</cite>)<i>to dip</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 93b\">Zeb. 93ᵇ</cite>, a. e. <he>וט׳ ולא מספג</he>, v. <cite ref=\"O01313\"><he>סָפַג</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to immerse, to bathe for purification</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 7:4\">Yoma VII, 4</cite> <he>ירד וט׳</he> went down to the bath and took an immersion. ",
+				"<cite ref=\"Berakhot 2b:13\">Ber. 2ᵇ</cite> <he>שהכהנים טוֹבְלִין וכ׳</he> when the priests (that have been unclean) bathe in order to be permitted to partake of their priestly share; a. v. fr.—",
+				"<cite ref=\"Berakhot 22a:19\">Ib. 22ᵃ</cite> <he>טוֹבְלֵי שחרין</he> those taking a bath in the morning (after emission of semen virile); Y. ib. III, 6ᶜ top <he>ט׳ שחרית</he>.—",
+				"<cite ref=\"Tosefta Yadayim 2:20\">Tosef. Yad. II, 20</cite> <he>טובלי שחרין</he> (Var. <he>טוֹבְלָנֵי</he>) morning bathers (Essenes, v. Graetz Gesch. d. Jud. III<sup>2</sup>, p. 468, a. for correct vers. R. S. to <cite ref=\"Mishnah Yadayim 4:8\">Yad. IV, 8</cite>).—<i>Part. pass.</i> <cite ref=\"I00033\"><he>טָבוּל</he></cite>.—<he>טְבוּל יום</he> (one who has bathed in day-time,) <i>one who has bathed but must wait for sunset to be perfectly clean</i> (<cite ref=\"Leviticus 22:7\">Lev. XXII, 7</cite>). ",
+				"<cite ref=\"Mishnah Tevul Yom 1:1\">T’bul Yom I, 1</cite>; a. fr.—",
+				"<cite ref=\"Niddah 30a:4\">Nidd. 30ᵃ</cite> <he>טְבוּלַת יום ארוך</he> a woman after bathing whose day is adjourned (having to wait a long time for perfect levitical purity).—טְבוּל יוֹם <i>T’bul Yom</i>, name of a treatise of Mishnah and Tosefta of the order of <i>Tahăroth</i>"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טִיבֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to dip into vinegar, salt &c., to make tasty;</i> esp. <i>to take a luncheon, to take the first course of a meal consisting of relishes; to take the antepast</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maasrot 4:1\">Maasr. IV, 1</cite> <he>המְטַבֵּל בשדה</he> he who makes a luncheon (of fruits) in the field. ",
+						"<cite ref=\"Mishnah Pesachim 10:3\">Pes. X, 3</cite> <he>מטבל בחזרת</he> he takes lettuce as antepast. ",
+						"<cite ref=\"Tosefta Pesachim 10:9\">Tosef. ib. X, 9</cite> <he>לא טי׳ וכ׳</he> if he has eaten as antepast only &c. ",
+						"<cite ref=\"Pesachim 107b:5\">Pes. 107ᵇ</cite> <he>אבל מטבל וכ׳</he> Ms. M. a. comment. (ed. <he>מטביל</he>) but he may make a luncheon of &c. ",
+						"<cite ref=\"Pesachim 107b:5\">Ib.</cite> <he>השמש מטבל בבני וכ׳</he> comment. (ed. <he>מטביל</he>; <cite ref=\"Tosefta Pesachim 10:5\">Tosef. ib. X, 5</cite> <cite ref=\"M01346\"><he>מכביש</he></cite>, v. <cite ref=\"K00081\"><he>כָּבַשׁ</he></cite>); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <he>תבל</he>) <i>to season with spices</i>. <i>Part. pass.</i> <cite ref=\"I00660\"><he>מְטוּבָּל</he></cite>. Y. Shek. III, 47ᶜ top <he>מבושל כמ׳</he> boiled (wine) is (in ritual law) like spiced wine; v. infra.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִטְבִּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to immerse</i> vessels for purification, <i>to order immersion</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Terumot 2:3\">Ter. II, 3</cite> <he>המַטְבִּיל כלים וכ׳</he> he who immerses vessels on the Sabbath. ",
+						"<cite ref=\"Mishnah Beitzah 2:2\">Bets. II, 2</cite> <he>מַטְבִּילִין את הכל וכ׳</he> you must immerse whatever needs immersion (both persons and vessels) before &c.—",
+						"<cite ref=\"Mishnah Beitzah 2:3\">Ib. 3</cite> (<cite ref=\"Beitzah 17b\">17ᵇ</cite>), v. <cite ref=\"C00031\"><he>גַּב</he></cite>.—",
+						"<cite ref=\"Niddah 29b\">Nidd. 29ᵇ</cite>, v. <cite ref=\"I00053\"><he>טְבִילָה</he></cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to take luncheon</i>, v. supra.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to season</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 28b:2\">Erub. 28ᵇ</cite> <he>מטבילין בו וכ׳</he> they used to season the roast with it (in place of pepper)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּטְבָּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be immersed, to be made clean</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Mikvaot 5:6\">Mikv. V, 6</cite> <he>לא הוּטְבָּלוּ</he> are not considered as clean through immersion; <cite ref=\"Tosefta Mikvaot 4:10\">Tosef. ib. IV, 10</cite>."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "A00061",
+	"slug": "אבודיינא",
+	"headword": {
+		"text": "אַבּוּדְיָינָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַבּוּדְיָנָא"
+		}
+	],
+	"page": {
+		"number": 3,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Abbud’yana</i>, a gentile name (referring to idolatry). ",
+			"units": ["<cite ref=\"Gittin 11a:2\">Git. 11ᵃ</cite>"]
+		}
+	]
+}

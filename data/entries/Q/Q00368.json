@@ -1,0 +1,23 @@
+{
+	"id": "Q00368",
+	"slug": "פורסא-1",
+	"headword": {
+		"text": "פּוּרְסָא"
+	},
+	"page": {
+		"number": 1147,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פְּרַס</he> I) <i>division, arrangement, order, proper time</i> (cmp. <cite ref=\"S01779\"><he>קֵץ</he></cite>). ",
+			"units": [
+				"<cite ref=\"Shabbat 129b:3\">Sabb. 129ᵇ</cite> <he>פ׳ דדמא כל וכ׳</he> the order (proper period) for blood-letting is every thirty days; <he>פ׳ דדמא חד וכ׳</he> the order (proper day) for blood-letting is the first day of the week &c. ",
+				"<cite ref=\"Gittin 37a:1\">Gitt. 37ᵃ</cite> (explaining <he>פרוסבול</he>) <he>פ׳ דמילתא</he> the arrangement (institution) of a measure."
+			]
+		}
+	]
+}

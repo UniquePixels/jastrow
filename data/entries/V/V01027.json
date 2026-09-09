@@ -1,0 +1,62 @@
+{
+	"id": "V01027",
+	"slug": "תרס-2",
+	"headword": {
+		"text": "תְּרַס"
+	},
+	"page": {
+		"number": 1700,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		},
+		{
+			"gloss": "<i>to shield</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 41:7\">Targ. Job XLI, 7</cite> <he>מַתְרִיסִין</he> Var. ed. Lag. (ed. <he>תְּרֵיסִין</he> noun)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to fight, challenge, oppose</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:3:16\">Y. Ab. Zar. II, 41ᵇ</cite> top <he>ולא על יאות … מְתָרֵס לקיבליה</he> but R. Ḥ. opposed him improperly; <cite ref=\"Jerusalem Talmud Demai 3:4:5\">Y. Dem. III, 23ᶜ</cite> bot. <he>ולא עאל יאות … מַתְרִיס לקבל</he> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Gittin 3:1:6\">Y. Gitt. III, 44ᵈ</cite> <he>לא דריש לקיש מַתְרִיס לקבל וכ׳</he> not that R. L. opposed R. J. because they differed in theory, but &c. ",
+				"<cite ref=\"Tamid 32a:61\">Tam. 32ᵃ</cite> <he>מה דין אַתְרִיסְתּוּן לקבלי</he> (Rashi <he>אִיתְרִ׳</he> <i>Ithpe.</i>) why, now, did you oppose me?"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to put on armor</i>. Y. Kidd. III, 63ᵈ <he>והוה … מתרס כליו וכ׳</he> and R. Ḥ. put his armor on against (took up a debate with) &c.",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"A03452\"><he>אַתְרֵיס</he></cite>, <i>Pa.</i> <cite ref=\"V00993\"><he>תָּרֵיס</he></cite> same, ",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְרִיס"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V01026\">same</cite>, <i>to oppose</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 111a\">B. Bath. 111ᵃ</cite> <he>השתא איכו נח</he> … <he>אִיתְרִיסַת לקבלי</he> Ms. M. (ed. <he>השתא כי</he>) now if R. H. were dead, you might have opposed me (by referring to his authority)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

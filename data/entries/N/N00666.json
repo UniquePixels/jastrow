@@ -1,0 +1,29 @@
+{
+	"id": "N00666",
+	"slug": "ניכוש",
+	"headword": {
+		"text": "נִיכּוּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִכּ׳"
+		}
+	],
+	"page": {
+		"number": 904,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00848\"><he>נָכַשׁ</he></cite>) <i>weeding; lopping</i> (<i>trees</i>). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 29:7\">Kel. XXIX, 7</cite> <he>קרדום של נכ׳</he> (perh. <cite ref=\"N00815\"><he>נָכוֹשׁ</he></cite>; ed. Dehr. <cite ref=\"N00850\"><he>נַכָּשׁ</he></cite>) the axe used for lopping trees (v. Maim. a. l. ed. Dehr.); <cite ref=\"Jerusalem Talmud Megillah 1:7:2\">Y. Meg. I, 71ᵇ</cite> top <cite ref=\"K00949\"><he>ניכ׳</he></cite>; <cite ref=\"Jerusalem Talmud Nedarim 4:1:2\">Y. Ned. IV, beg. 38ᶜ</cite> <cite ref=\"M01367\"><he>מכוש</he></cite> (corr. acc.). ",
+				"<cite ref=\"Tosefta Bava Metzia 7:6\">Tosef. B. Mets. VII, 6</cite> <he>גמר נִיכּוּשׁוֹ</he> (ed. Zuck. <he>נְכִישׁוֹ</he>) if he finished the weeding for which he was hired. ",
+				"<cite ref=\"Bereishit Rabbah 39:8\">Gen. R. s. 39</cite> <he>ראה אותן עסוקין בנ׳ בשעת הנ׳ וכ׳</he> when he saw them engaged in weeding (lopping) at the proper season &c.; a. fr.—[<cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite> <he>קטה כמין נ׳</he>, ed. Fr. <cite ref=\"N00665\"><he>ניכו׳</he></cite>, read: <he>כווי קטנה</he>, v. <cite ref=\"K00209\"><he>כַּוָּוי</he></cite>; Fr. emends: <he>כווי קטנה כמין צינור</he>.]"
+			]
+		}
+	]
+}

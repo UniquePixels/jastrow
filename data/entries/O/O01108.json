@@ -1,0 +1,27 @@
+{
+	"id": "O01108",
+	"slug": "סמלק",
+	"headword": {
+		"text": "סִמְלָק"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִי׳"
+		}
+	],
+	"page": {
+		"number": 1002,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>jasmine</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 43b:1\">Ber. 43ᵇ</cite> top (v. Rabb. D. S. a. l. note 1)."
+			]
+		}
+	]
+}

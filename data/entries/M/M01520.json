@@ -1,0 +1,49 @@
+{
+	"id": "M01520",
+	"slug": "מלח-1",
+	"headword": {
+		"text": "מָלַח"
+	},
+	"page": {
+		"number": 788,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <cite ref=\"M01523\"><he>מֶלַח</he></cite>)<i>to salt, brine</i>; esp. (in ritual law) <i>to strew salt on raw meat</i> to resorb its blood. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 5:3\">Midd. V, 3</cite> <he>היו מוֹלְחִין עורות וכ׳</he> they put salt on the hides of sacrifices.—",
+				"<cite ref=\"Chullin 113a:10\">Ḥull. 113ᵃ</cite> <he>אלא א״כ מוֹלְחוֹ יפה יפה וכ׳</he> unless one salts it carefully and washes it thoroughly. ",
+				"<cite ref=\"Chullin 113a:10\">Ib.</cite> <he>מדיח ומוֹלֵחַ וכ׳</he> one must first wash the meat, then salt it and again wash it. ",
+				"<cite ref=\"Bava Batra 74b:6\">B. Bath. 74ᵇ</cite> <he>ומְלָחָהּ לצדיקים וכ׳</he> and preserved it in salt for the benefit of the righteous &c. Ḥull. l. c. <he>דג טהור שמְלָחוֹ וכ׳</he> a clean fish which was salted together with an unclean one; a. fr.—Part. pass. <cite ref=\"M01505\"><he>מָלוּחַ</he></cite> (v. <cite ref=\"M01552\"><he>מְלִיחַ</he></cite>); pl. <he>מְלוּחִים</he>, <he>מְלוּחִין</he>. Ib. <he>שניהם מ׳</he> both were salted, opp. <cite ref=\"V00827\"><he>תָּפֵל</he></cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 887\">Yalk. Ps. 887</cite> <he>מ׳</he> salty secretions.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:19\">Y. Taan. IV, 69ᵇ</cite> top <he>מיני מ׳</he> various kinds of salted food. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:4:5\">Y. Sabb. I, 3ᶜ</cite> bot. <he>מְלוּחֵיהֶן</he> brines prepared by gentiles; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוּמְלָח", "הָמְלַח"],
+			"senses": [
+				{
+					"gloss": "<i>to be strewn with salt</i>. Sifra Vayikra, N’dab., Par. 9, ch. XI <he>שלא הוּמְלְחָה</he> no salt had been put on it.",
+					"units": []
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["מוּלָּח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M01519\">same</cite>. Part. <he>מְמוּלָּח</he> <i>salted</i>, trnsf. <i>bright</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 29b:11\">Kidd. 29ᵇ</cite> <he>אם היה בנו זריז וממ׳</he> (Var. <he>וממולא</he>) if his son is eager to learn and bright; [our w. missing in <cite ref=\"Tosefta Bekhorot 6:10\">Tosef. Bekh. VI, 10</cite>)."
+					]
+				}
+			],
+			"stem": "Pu."
+		}
+	]
+}

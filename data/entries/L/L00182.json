@@ -1,0 +1,39 @@
+{
+	"id": "L00182",
+	"slug": "לובן",
+	"headword": {
+		"text": "לוֹבֶן"
+	},
+	"altHeadwords": [
+		{
+			"text": "לֹבֶן"
+		}
+	],
+	"page": {
+		"number": 694,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00099\"><he>לָבָן</he></cite>) <i>white matter, white color</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 57a:15\">Gitt. 57ᵃ</cite>, a. e. <he>ל׳ ביצה</he> the white of an egg. ",
+				"<cite ref=\"Mishnah Negaim 4:1\">Neg. IV, 1</cite> <he>מראה ל׳</he> the white color (of leprosy). ",
+				"<cite ref=\"Niddah 31a\">Nidd. 31ᵃ</cite>, a. e. <he>הל׳</he> the white substance (semen virile). ",
+				"<cite ref=\"Niddah 31a:27\">Ib.</cite> <he>הל׳ שבעין</he> the white of the eye; a. fr.—Pl. <he>לוֹבְנִים</he>. ",
+				"<cite ref=\"Kohelet Rabbah 5:10:2\">Koh. R. to V, 10</cite> <he>לובן שממנו הל׳</he> the white (semen) out of which are formed the white substances of the embryonic body."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (<he>לָבַן</he> I) <i>the mass of clay for bricks</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei DeRabbi Eliezer 48:13\">Pirké d’R. El. ch. XLVIII</cite> <he>בין ל׳ הלבנים</he> in the clay stamped for bricks."
+			],
+			"label": "2"
+		}
+	]
+}

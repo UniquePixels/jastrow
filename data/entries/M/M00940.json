@@ -1,0 +1,30 @@
+{
+	"id": "M00940",
+	"slug": "מחרישה",
+	"headword": {
+		"text": "מַחֲרֵישָׁה"
+	},
+	"page": {
+		"number": 764,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"M00941\"><he>מַחֲרֶשֶׁת</he></cite>; <cite ref=\"H01777\"><he>חָרַשׁ</he></cite>)<i>plough</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 14:1\">Tosef. Sabb. XIV</cite> (<cite ref=\"Tosefta Shabbat 15:1\">XV</cite>), 1 <he>יתד של מ׳</he> the pin of the plough; Y. ib. XVII, beg. 16ᵃ. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 7:1:3\">Y. Naz. VII, beg. 55ᵈ</cite> <he>כדי שלא תעלם המ׳</he> so that the plough might not stir them up. ",
+				"<cite ref=\"Mishnah Bava Metzia 9:13\">B. Mets. IX, 13</cite> <he>ואת המ׳ ביום</he> and must give him back the (pledged) plough for the day; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>strigil</i>. Ib. 113ᵇ <he>מ׳ דכספא</he> a silver strigil (which, if pledged, the creditor may sell and give the debtor a common one); <cite ref=\"Ketubot 68a:5\">Keth. 68ᵃ</cite> <he>מ׳ דכספא</he> (such a luxury as) a silver strigil.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

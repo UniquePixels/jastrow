@@ -1,0 +1,45 @@
+{
+	"id": "H00175",
+	"slug": "חדד-1",
+	"headword": {
+		"text": "חָדַד"
+	},
+	"page": {
+		"number": 425,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to cut, point</i>,] <i>to be sharp, pointed</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִידֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to sharpen, whet, point</i>. Y. Bets. V, 63ᵇ top <he>לחַדֵּד ראשו וכ׳</he> they differ as to pointing the top of the spit (on the Holy Day)—Trnsf. <i>to whet the mind, to try somebody’s acumen, to puzzle</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 7a:8\">Taan. 7ᵃ</cite> (ref. to <cite ref=\"Proverbs 27:17\">Prov. XXVII, 17</cite>) <he>אף … מְחַדְּדִין וכ׳</he> so do two scholars whet each other’s mind &c. ",
+						"<cite ref=\"Nazir 59b\">Naz. 59ᵇ</cite>, a. e. <he>לא אמר … לחַדֵּד בה וכ׳</he> R. J. said it only in order to encourage the students in raising points; a. e.—<i>Part. pass.</i> <he>מְחוּדָּד</he> <i>sharpened, well discussed, clear and ready</i>. ",
+						"<cite ref=\"Kiddushin 30a:15\">Kidd. 30ᵃ</cite> (ref. to <he>ושננתם</he>, <cite ref=\"Deuteronomy 6:7\">Deut. VI, 7</cite>) <he>שיהו ד״ת מְחוּדָּדִים בפיך</he> that the words of the Law be ever ready in thy mouth (<cite ref=\"Sifrei Devarim 34:1\">Sifré Deut. 34</cite> <he>מְסוּדָּרִים</he>), v. <cite ref=\"C00998\"><he>גִּמְגֵּם</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְחַדֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to be whetted</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 69:2\">Gen. R. s. 69</cite> <he>אין סכין מִתְחַדֶּדֶת וכ׳</he> a knife is whetted on the broad side of another, <he>כך אין ת״ח מִתְחַדֵּד וכ׳</he> so is a student’s mind whetted by a fellow-student, v. supra."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

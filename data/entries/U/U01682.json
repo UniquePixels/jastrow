@@ -1,0 +1,35 @@
+{
+	"id": "U01682",
+	"slug": "שער-4",
+	"headword": {
+		"text": "שָׂעַר"
+	},
+	"page": {
+		"number": 1612,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"O01295\"><he>סָעַר</he> II</cite>)<i>to be rough</i>, denom. <cite ref=\"U01684\"><he>שֵׂעָר</he></cite>; <i>to shudder, fear</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 318:15\">Sifré Deut. 318</cite> (expl. <he>שערום</he>, <cite ref=\"Deuteronomy 32:17\">Deut. XXXII, 17</cite>) <he>שלא עמדה שערת וכ׳</he> your fathers’ hair did not stand on end before them (v. <cite ref=\"U01680\"><he>שָׁעַר</he> II</cite>); Yalk. ib. 545."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׂעִיר"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"U01684\"><he>שֵׂעָר</he></cite>) <i>to grow hair, be hairy</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 44a\">Ḥull. 44ᵃ</cite> <he>עד מקום שיַשְׂעִיר</he> Ms. M. a Rashi (ed. <he>כדי</he>, corr. acc.) to the place (of the stomach) where it becomes covered with hair. ",
+						"<cite ref=\"Chullin 44a:9\">Ib.</cite> (Chald. diction) <he>תורא דמַשְׂעִיר טפי</he> an ox, which is more hairy (on the stomach). ",
+						"<cite ref=\"Niddah 25b:30\">Nidd. 25ᵇ</cite> <he>עד שישעיר</he> until the embryo has hair."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

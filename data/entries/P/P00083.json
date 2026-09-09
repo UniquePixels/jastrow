@@ -1,0 +1,29 @@
+{
+	"id": "P00083",
+	"slug": "עגול-2",
+	"headword": {
+		"text": "עָגוֹל"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲגוּלָּה"
+		}
+	],
+	"page": {
+		"number": 1040,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"P00090\"><he>עָגֹל</he></cite>, <he>עֲגְלָּה</he>; <cite ref=\"P00089\"><he>עָגַל</he></cite>)<i>round</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 8:4\">Nidd. VIII, 4</cite> (<cite ref=\"Niddah 58b:31\">58ᵇ</cite>) <he>ע׳</he> a round blood-stain, opp. <cite ref=\"M02828\"><he>משוך</he></cite> lengthy. Y. Pes. VIII, 36ᵃ bot. <he>גל ע׳</he> a round heap of debris, opp. <cite ref=\"A03026\"><he>ארוך</he></cite>. ",
+				"<cite ref=\"Mishnah Sanhedrin 4:3\">Snh. IV, 3</cite>; <cite ref=\"Shemot Rabbah 5\">Ex. R. s. 5</cite> <he>גורן ע׳</he>, v. <cite ref=\"C00498\"><he>גּוֹרֶן</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 2:1:4\">Y. Erub. II, 20ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

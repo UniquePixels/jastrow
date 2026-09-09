@@ -1,0 +1,73 @@
+{
+	"id": "B01003",
+	"slug": "בסם-1",
+	"headword": {
+		"text": "בָּסֵם"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּשֵׂם"
+		}
+	],
+	"page": {
+		"number": 179,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>בס</he>, <he>בש</he>, cmp. <cite ref=\"B01359\"><he>בָּשַׁל</he></cite>, <i>to boil, ripen, be warm, ferment</i>) <i>to be sweet, pleasant, pleasing</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:52\">Lam. R. to I, 9</cite> <he>יערב לך ויִבְסַם לך</he> may (the sacrifice) be sweet unto thee (Moloch), may it be pleasing unto thee. ",
+				"<cite ref=\"Bereishit Rabbah 85:14\">Gen. R. s. 85</cite> <he>יערב לכם יבושם וכ׳</he> (<cite ref=\"Yalkut Shimoni on Torah 144\">Yalk. Gen. 144</cite>, Josh. 35 <he>יבסם</he>) may (the wine you drank) be sweet to you, may it well agree with you.—Denom. <he>בּוֹסֶם</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּסֵּם", "בִּיסֵּם"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"B00745\"><he>בִּישֵּׂם</he></cite> <i>to make a person look well</i>, esp. (denom. of <he>בּוֹסֶם</he>) <i>to perfume with oil</i> &c. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 23:4\">Ex. R. s. 23</cite> a bride <he>מקשטין אותה ומְבַסְּמִין אותה</he> is adorned and made handsome (her toilet is attended to).—Part. pass. <he>מְבוּסָּם</he>, f. <he>מְבוּסֶּמֶת</he>, <he>מְבוּשּׂ׳</he> <i>perfumed, sweet</i> &c. ",
+						"<cite ref=\"Bamidbar Rabbah 20:7\">Num. R. s. 20</cite> <he>מקושטת ומב׳</he> in full toilet. ",
+						"<cite ref=\"Tosefta Berakhot 6:5\">Tosef. Ber. VI</cite> (<cite ref=\"Tosefta Berakhot 5:5\">V</cite>), 5 it is not becoming for a scholar <he>שיצא מבוסם</he> to go out with perfumed oil on his head; <cite ref=\"Berakhot 43b:11\">Ber. 43ᵇ</cite> <he>מבוש׳</he>. ",
+						"<cite ref=\"Mishnah Bava Batra 6:3\">B. Bath. VI, 3</cite> <he>יין מב׳</he> sweet wine (guaranteed as not sour). [<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> <he>בישם העולם</he>; Ruth. R. beg. <he>ביסם</he>, read <cite ref=\"B01007\"><he>בִּיסֵּס</he></cite>, v. <cite ref=\"B01007\"><he>בָּסַס</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְבַּסֵּם", "הִתְבַּשֵּׂ׳"],
+			"senses": [
+				{
+					"gloss": "; <i>Nithpa.</i> <cite ref=\"B01007\"><he>נִתְבַּסֵּם</he></cite>, <cite ref=\"B01368\"><he>נִתְבַּשֵּׂ׳</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to perfume one’s self with oil</i> &c. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 17:5\">Gen. R. s. 17</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become exhilarated, to feel the wine</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 11:9\">Koh. R. to XI, 9</cite> <he>אכל ושתה ונת׳</he> he ate and drank and felt well."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " trnsf. <i>to grow better, improve</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 67:13\">Gen. R. s. 67</cite>, end <he>נִתְבַּסְּמָה דעתו עליו</he> his character grew better (play on <he>בשמת</he> <cite ref=\"Genesis 26:34\">Gen. XXVI, 34</cite>).—[<cite ref=\"Bereishit Rabbah 66:6\">Gen. R. s. 66</cite> <he>נתבשם העולם</he>, v. <cite ref=\"B01007\"><he>בָּסַס</he></cite>.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,94 @@
+{
+	"id": "S02018",
+	"slug": "קרי-2",
+	"headword": {
+		"text": "קרי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קָרָא"
+		}
+	],
+	"page": {
+		"number": 1417,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to call, name; to invite</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 7b:10\">Ber. 7ᵇ</cite> <he>מיום שברא … שקְרָאוֹ … וּקְרָאוֹ אדון</he> from the day that the Lord created the world there was no man that called the Holy One, blessed be He, lord, until Abraham came and called him lord (<cite ref=\"Genesis 15:2\">Gen. XV, 2</cite> <cite ref=\"A00435\"><he>אדני</he></cite>). ",
+				"<cite ref=\"Bereishit Rabbah 56:10\">Gen. R. s. 56</cite> <he>אברהם קראו יראה</he> Abraham called it (the Temple site) <i>yeraëh</i> (<cite ref=\"Genesis 22:14\">Gen. XXII, 14</cite>), <he>שם ק׳ אותו שלם</he> Shem called it Salem (ib. XIV, 18), <he>הריני קוֹרֵא אותו ירושלם</he> I will call it Jerusalem. ",
+				"<cite ref=\"Sanhedrin 70b:15\">Snh. 70ᵇ</cite> <he>אין … לִקְרוֹא אבא וכ׳</he> no sooner does a child know to call ‘father’ and ‘mother’, than it tastes grain food. ",
+				"<cite ref=\"Bamidbar Rabbah 15:13\">Num. R. s. 15</cite>, beg. <he>ק׳ אותו אוהב</he> he invited that friend. ",
+				"<cite ref=\"Bamidbar Rabbah 15:13\">Ib.</cite> <he>והיה קורא אומניות</he>, v. <cite ref=\"A00708\"><he>אוּמָנוּת</he></cite>; a. v. fr.—Part. pass. <cite ref=\"S01923\"><he>קָרוּא</he></cite>, <cite ref=\"S01935\"><he>קָרוּי</he></cite>; f. <he>קְרוּאָה</he>, <cite ref=\"S01940\"><he>קְרוּיָה</he></cite>; Pl. <he>קְרוּאִים</he>, <he>קְרוּאִין</he>, <he>קְרוּיִים</he>, <he>קְרוּיִם</he>, <he>קְרוּיִין</he>, <he>קְרוּיִן</he>; <cite ref=\"S01941\"><he>קְרוּאוֹת</he></cite>, <cite ref=\"S01941\"><he>קְרוּיוֹת</he></cite>. ",
+				"<cite ref=\"Bava Metzia 114b:2\">B. Mets. 114ᵇ</cite>, a. e. (ref. to <cite ref=\"Ezekiel 34:31\">Ez. XXXIV, 31</cite>) <he>אתם ק׳ אדם וכ׳</he> you are called men, but idolaters &c. Sifra Aḥăré, end <he>כל העריות ק׳ טומאה</he> all illicit connections are called uncleanness; a. fr.—Esp. <he>קְרוּאִים</he>, <he>קְרוּיִין</he> <i>those called up to read from the Torah</i> (v. infra). ",
+				"<cite ref=\"Bereishit Rabbah 70:5\">Gen. R. s. 70</cite> (ref. to <cite ref=\"Genesis 29:2\">Gen. XXIX, 2</cite>) <he>אלו שלשה ק׳</he> this is typical of the three persons called up to read from the Torah (priest, Levite, and Israelite). ",
+				"<cite ref=\"Jerusalem Talmud Megillah 3:5:4\">Y. Meg. III, 74ᵇ</cite> <he>ולא שבעה ק׳ אינון</he> are not seven persons called up (on the Sabbath)?; a. fr.—V. <cite ref=\"S01941\"><he>קְרוּיוֹת</he></cite>.—2) <i>to read, recite</i> (esp. from the Scriptures). ",
+				"<cite ref=\"Mishnah Yoma 1:6\">Yoma I, 6</cite> <he>אם רגיל לִקְרוֹת … קוֹרִין לפניו</he> if he (the high priest) is accustomed to read (the Scriptures), he reads himself, if not, they read to him; <he>ובמה קורין לפניו</he> and from what books do they read to him? <cite ref=\"Mishnah Yoma 1:6\">Ib.</cite> <he>פעמים הרבה קָרִיתִי וכ׳</he> many a time I read to him from Daniel. ",
+				"<cite ref=\"Mishnah Megillah 2:1\">Meg. II, 1</cite> <he>הקורא את המגילה וכ׳</he>, v. <cite ref=\"M02249\"><he>מִפְרֵעַ</he></cite>. ",
+				"<cite ref=\"Mishnah Megillah 2:2\">Ib. 2</cite> <he>קְרָאָהּ סירוגין</he>, v. <cite ref=\"O00836\"><he>סֵירוּג</he></cite>. ",
+				"<cite ref=\"Mishnah Megillah 2:3\">Ib. 3</cite> <he>קורא כמקומו</he> he must read in accordance with the usage of the place he came from. ",
+				"<cite ref=\"Mishnah Megillah 2:4\">Ib. 4</cite> <he>הכל כשרין לִקְרוֹת וכ׳</he> all persons are qualified to recite the Book of Esther (before the congregation). ",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:1:9\">Y. Meg. IV, 74ᵈ</cite> bot. <he>וקְרָיָיהּ</he> and read from it; a. fr.—Esp. <i>to read from the Torah</i> at public services. Ib. III, 4 <he>קורין בפרשת שקלים</he> they (those who are called up, v. supra) read the section of Sheḳalim (<cite ref=\"Exodus 30:11-16\">Ex. XXX, 11-16</cite>). Ib. 6 <he>אחד קורא את כולן</he> one person must read the entire chapter (of the curses). Ib. IV, 1 <he>בשני … קורין שלשה</he> on Mondays … three persons read. Ib. 4 <he>הקורא בתורה לא יפחות וכ׳</he> he who is designated to read from the Torah must read no less than three verses; <he>לא יִקְרָא למתורגמן וכ׳</he> he must read to the interpreter one verse at a time, but from the Prophets, three verses. ",
+				"<cite ref=\"Mishnah Bikkurim 1:1\">Bicc. I, 1</cite> <he>יש מביאין … וקורין וכ׳</he> there are those who are bound to bring the first-fruits and to read (<cite ref=\"Deuteronomy 26:5-10\">Deut. XXVI, 5-10</cite>), and those who must bring but not read &c. Ib. 4; a. v. fr.—Esp. (<he>את שמע</he>) <he>ק׳</he> <i>to recite the Sh’mʿa</i> in the morning and in the evening prayer. ",
+				"<cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite> <he>לא קָרִינוּ וכ׳</he> we omitted to read the Sh’mʿa. ",
+				"<cite ref=\"Mishnah Berakhot 2:3\">Ib. II, 3</cite> <he>ק׳ וטעה</he> if one read the Sh’mʿa and made a mistake. ",
+				"<cite ref=\"Mishnah Berakhot 2:4\">Ib. 4</cite> <he>האומנין קוֹרְאִין וכ׳</he> (Bab. ed. 16ᵃ <he>קורין</he>) workingmen read the Sh’mʿa on top of a tree, or on the scaffolding; a. v. fr.—<he>אל תִּקְרֵי … אלא</he> (or <he>תִּיקְרִי</he> Chald. form; abbrev. <cite ref=\"A03391\"><he>א״ת</he></cite>) read not … but—, i.e. change the traditional (Massoretic) reading (for homiletical purposes). Ib. 64ᵃ (ref. to <cite ref=\"Isaiah 54:13\">Is. LIV, 13</cite> <he>א״ת בָּנַיִךְ אלא בּוֹנַיִךְ</he> read not <i>banayikh</i> (thy children) but <i>bonayikh</i> (thy builders, the scholars). ",
+				"<cite ref=\"Moed Katan 9b:6\">M. Kat. 9ᵇ</cite> (ref. to <cite ref=\"Psalms 49:12\">Ps. XLIX, 12</cite>) <he>א״ת קִרְבָּם אלא קִבְרָם</he> read not <i>ḳirbam</i> (their innermost) but <i>ḳibram</i> (their grave); a. fr."
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קֵרֵא"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S02017\">same</cite>, <i>to call, invite</i>. Part. pass. <cite ref=\"M02401\"><he>מְקוֹרָא</he></cite>, pl. <he>מְקוֹרָאִים</he>, <he>מְקוֹרָאִין</he>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 13:14\">Num. R. s. 13</cite> <he>יש חתן … למק׳ וכ׳</he> does a bridegroom give a banquet for the invited guests and not sit with them?; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִקְרָא"],
+			"senses": [
+				{
+					"gloss": "<i>to be called</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 1:13\">Lev. R. s. 1</cite>, beg. <he>נִקְרְאוּ הנביאים וכ׳</he>, v. <cite ref=\"B00753\"><he>בַּיִת</he></cite>. ",
+						"<cite ref=\"Shemot Rabbah 1:33\">Ex. R. s. 1</cite> (ref. to <cite ref=\"Exodus 2:13\">Ex. II, 13</cite>) <he>מכאן … נ׳ רשע</he> from here we learn that when a man lifts up his hand to strike his neighbor, even if he does not strike, he is called a wicked man; <cite ref=\"Sanhedrin 58b\">Snh. 58ᵇ</cite>. ",
+						"<cite ref=\"Avodah Zarah 19a:8\">Ab. Zar. 19ᵃ</cite> (ref. to <cite ref=\"Psalms 1:2\">Ps. I, 2</cite>) <he>בתחלה נִקְרֵאת … נקראת וכ׳</he> first it (the Law) is called the Lord’s, and then his (the student’s); a. fr.— <i>to be read, recited</i>. ",
+						"<cite ref=\"Mishnah Megillah 1:1\">Meg. I, 1</cite> <he>מגלה נקראת וכ׳</he> the Book of Esther may be read at public service on the eleventh &c. Ib. IV, 10 <he>מעשה ראובן נ׳ ולא וכ׳</he> the story of Reuben (<cite ref=\"Genesis 35:22\">Gen. XXXV, 22</cite>) is read at public service but not translated. ",
+						"<cite ref=\"Genesis 35:22\">Ib.</cite> <he>לא נִקְרָאִין וכ׳</he> (Y. ed. <cite ref=\"N00689\"><he>נִיקְרִין</he></cite>) must be neither read nor interpreted. Tosef. ib. IV (III), 31 <he>יש נקראין ומתרגמין וכ׳</he> certain verses are read but not interpreted &c.; <cite ref=\"Megillah 25a:18\">Meg. 25ᵃ</cite> <he>נִקְרִין</he>; a. v. fr."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִקְרִיא"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to call, to lead in reading</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 10a\">Sot. 10ᵃ</cite> sq. (ref. to <cite ref=\"Genesis 21:33\">Gen. XXI, 33</cite>) <he>א״ת וַיִּקְרָא אלא וַיַּקְרִיא</he> read not <i>vayiḳra</i> (and he called) but <i>vayaḳri</i> (and he made call), <he>מלמד שה׳ וכ׳</he> intimating that Abraham caused the name of the Lord to be called by the mouth of every passer-by. Y. ib. V, 20ᶜ top <he>קטן שהוא מַקְרֵא וכ׳</he> a child that reads the Hallel at school, and they (the class) respond by repeating each sentence (v. <cite ref=\"P00970\"><he>עָנָה</he> I</cite>); <he>גדול שהוא מקרא וכ׳</he> an adult that leads in reciting …, when the congregation responds with the first sentence (as refrain). ",
+						"<cite ref=\"Mishnah Sukkah 3:10\">Succ. III, 10</cite> <he>מי שהיה … מַקְרִין אותו וכ׳</he> if a slave, a woman, or a child reads to him, he responds with Hallelujah. ",
+						"<cite ref=\"Mishnah Gittin 3:1\">Gitt. III, 1</cite> <he>שמע קול סופרים מקרין וכ׳</he> heard the teaching scribes as they made the practicing children read, ‘such and such … divorces &c.’—Esp. <i>to teach the Scriptures</i> (<cite ref=\"M02452\"><he>מִקְרָא</he></cite>). ",
+						"<cite ref=\"Eichah Rabbah 1:44\">Lam. R. to I, 6</cite> <he>הַקְרינִי דף אחד … השניני וכ׳</he> teach me a page of the Scriptures, teach me a chapter of the Mishnah; a. fr.—[<cite ref=\"Eruvin 104b:10\">Erub. 104ᵇ</cite> <he>שהקרו</he>, v. <cite ref=\"S02193\"><he>קָרַר</he> I</cite>.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

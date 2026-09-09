@@ -1,0 +1,23 @@
+{
+	"id": "G00668",
+	"slug": "זרגונה",
+	"headword": {
+		"text": "זַרְגּוּנָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 411,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>zargunah</i>, name of a <i>tree</i> or <i>shrub</i> with copious twigs, but bare beneath. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 3:2:2\">Y. Succ. III, beg. 53ᶜ</cite>"
+			]
+		}
+	]
+}

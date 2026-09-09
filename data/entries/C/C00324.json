@@ -1,0 +1,26 @@
+{
+	"id": "C00324",
+	"slug": "גוהרקא-1",
+	"headword": {
+		"text": "גּוּהַרְקָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 219,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (a corrupt. of <he>גרהוקא</he>, carruca, καροῦχα, καῤῥοῦχα) <i>a carriage used by persons of distinction</i> (v. Sm. Ant. s. v.). ",
+			"units": [
+				"<cite ref=\"Taanit 20b:11\">Taan. 20ᵇ</cite> <he>ג׳ דדהבא</he> a gilt carruca (aurea carruca, v. Sm. Ant. l. c.); <cite ref=\"Gittin 31b:12\">Gitt. 31ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 73b:8\">B. Mets. 73ᵇ</cite> <he>מעייל להו בג׳ דרבא</he> made them draw Raba’s carriage. ",
+				"<cite ref=\"Bava Metzia 85b:9\">Ib. 85ᵇ</cite> <he>ג׳ דר׳ חייא</he> the carriage in which R. Ḥiya will rise to heaven.—Pl. <he>גּוּהַרְקֵי</he>. ",
+				"<cite ref=\"Bava Metzia 85b:9\">Ib.</cite> <he>בכולהו ג׳</he> Ms. H. (v. Rabb. D. S. a. l. note 90)."
+			]
+		}
+	]
+}

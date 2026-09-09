@@ -1,0 +1,22 @@
+{
+	"id": "M00074",
+	"slug": "מבהתנא",
+	"headword": {
+		"text": "מְבַהֲתָנָא"
+	},
+	"page": {
+		"number": 724,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00196\"><he>בְּהַת</he></cite>) <i>causing shame, degenerate</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 10:5\">Targ. Prov. X, 5</cite>; <cite ref=\"Aramaic Targum to Proverbs 17:2\">XVII, 2</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "A01359",
+	"slug": "אימתן",
+	"headword": {
+		"text": "אֵימְתָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵימִתָנָא"
+		},
+		{
+			"text": "אֵימָ׳"
+		}
+	],
+	"page": {
+		"number": 52,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"A01357\"><he>אימתא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fear-inspiring, powerful</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 3:30\">Targ. Jud. III, 30</cite>.—Pl. <he>אֵימְתָנִין</he>, <he>אֵימְתָנֵי</he>, <cite ref=\"A01359\"><he>אֵימָ׳</he></cite>. Targ. Ḥab. I, 7. ",
+				"<cite ref=\"Onkelos Genesis 14:5\">Targ. Gen. XIV, 5</cite> (Y. II, <he>אמתניא</he>, h. text <he>אֵימִים</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>timid</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 3:3:3\">Y. Meg. III, 74ᵃ</cite> bot. <he>ספרא הוה אימתן וכ׳</he> (ed. Krot. <cite ref=\"A01327\"><he>אימהן</he></cite>, corr. acc.) the school-master was a timid man and but for R. Abbahu that passed by, he would not have cleared the children out of the premises of the Synagogue. [Hebr. form, v. <cite ref=\"A02078\"><he>אֵמְתָן</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

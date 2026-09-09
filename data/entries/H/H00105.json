@@ -1,0 +1,45 @@
+{
+	"id": "H00105",
+	"slug": "חבק-2",
+	"headword": {
+		"text": "חֲבַק"
+	},
+	"page": {
+		"number": 421,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"H00104\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 4:8\">Targ. Prov. IV, 8</cite> <he>חַבֵּיקְיָהּ</he> embrace her (Wisdom). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 5:20\">Ib. V, 20</cite>; a. e.—",
+				"<cite ref=\"Pesachim 111b:5\">Pes. 111ᵇ</cite> <he>חַבְּקֵיה לדיקלא</he> (Ms. M. <he>חנקיה</he>, v. Rabb. D. S. a. l. note, Rashi <he>נפלא אדיקלא</he>, Rashb. <he>נפקא אד׳</he>) he threw his arms around the tree."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to fold hands</i>, cmp. <cite ref=\"H00072\"><he>חֲבִינָנוּתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 6:10\">Targ. Prov. VI, 10</cite> (h. text <he>חִבֻּק</he>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>חַבֵּק</he> ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

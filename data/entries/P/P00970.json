@@ -1,0 +1,75 @@
+{
+	"id": "P00970",
+	"slug": "עני-1",
+	"headword": {
+		"text": "עני"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָנָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1093,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to turn, come out in turn</i>,] <i>to begin to speak; to respond; to speak</i> or <i>sing in chorus; to answer</i>. ",
+			"units": [
+				"<cite ref=\"Temurah 16a:59\">Tem. 16ᵃ</cite> <he>ע̇תנ̇יא̇ל̇ שעֲנָאו̇ א̇ל̇</he> he was surnamed Othniel, because God answered his prayer (ref. to <cite ref=\"I Chronicles 4:10\">I Chr. IV, 10</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Sotah 5:4:2\">Y. Sot. V, 20ᶜ</cite> top <he>והן עוֹנִין אחריו על כל דבר ודבר</he> and they (the class) repeat each sentence after him; <he>משה … והן עונין אחריו אשירה</he> Moses said, I will sing &c., and they repeated in chorus, I will sing &c. ",
+				"<cite ref=\"Yoma 2a:4\">Ib.</cite> <he>משה אמר עזי והן עונין וכ׳</he> Moses said, My strength &c., and they responded, I will sing &c. ",
+				"<cite ref=\"Tosefta Sotah 6:2\">Tosef. ib. VI, 2</cite> <he>ועונין על כל עינין ועינין</he> and they (the class) repeat each sentence. ",
+				"<cite ref=\"Tosefta Sotah 6:3\">Ib. 3</cite> <he>ועונין אחריו עינין ראשון</he> and they (the people) always repeated the first sentence (as refrain). ",
+				"<cite ref=\"Sukkah 38b:1\">Succ. 38ᵇ</cite> <he>מצוה לַעֲנוֹת הללויה</he> it is proper to say in response Halleluiah. ",
+				"<cite ref=\"Mishnah Moed Katan 3:9\">M. Kat. III, 9</cite> <he>כולן עוֹנוֹת כאחת</he> all start the dirge at once; <he>אחת מדברת וכולן עונות אחריה</he> one speaks, and all repeat in chorus after her, v. <cite ref=\"P00612\"><he>עִינּוּי</he> I</cite>. ",
+				"<cite ref=\"Berakhot 47a:7\">Ber. 47ᵃ</cite> <he>עד שיכלה אמן מפי העוֹנִים</he> until the Amen of the responding company is finished. ",
+				"<cite ref=\"Pesachim 36a:7\">Pes. 36ᵃ</cite> <he>לחם שעונין וכ׳</he>, v. <cite ref=\"P00299\"><he>עוֹנִי</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 3:10:4\">Y. Succ. III, 54ᵃ</cite> top <he>אם בירכך גוי עֲנֵה אחריו אמן</he> if a gentile blesses thee, say after him Amen; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַעֲנֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to be answered, to have one’s prayer granted</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 30a:5\">Sabb. 30ᵃ</cite> <he>וכשאמר זכור … מיד נ׳</he> but when he said, Remember &c. (<cite ref=\"Exodus 32:13\">Ex. XXXII, 13</cite>), his prayer was at once granted. ",
+						"<cite ref=\"Rosh Hashanah 18a:3\">R. Hash. 18ᵃ</cite> <he>זה התפלל ונ׳ וכ׳</he> one prays and is heard, another prays and is not heard; <cite ref=\"Kohelet Rabbah 9:11\">Koh. R. to IX, 11</cite>, v. <cite ref=\"Q00085\"><he>פָּגַע</he></cite>. ",
+						"<cite ref=\"Bereishit Rabbah 60\">Gen. R. s. 60</cite> [read:] <he>שלשה הם שנַעֲנוּ במענה פיהם</he> three persons (mentioned in the Scriptures) were answered as soon as they had uttered their prayer; <cite ref=\"Yalkut Shimoni on Torah 108\">Yalk. ib. 108</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be called upon to speak; to answer, to deliver an opinion</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 40b:8\">Kidd. 40ᵇ</cite> <he>נ׳ ר״ט ואמר וכ׳</he> R. Ṭ. (being asked his opinion) answered saying &c.; <he>נַעֲנוּ כולם ואמרו וכ׳</he> all of them in turn answered saying &c.; <cite ref=\"Sifrei Devarim 41:15\">Sifré Deut. 41</cite>; <cite ref=\"Moed Katan 28b:20\">M. Kat. 28ᵇ</cite> (at a mourner’s house); a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " [<i>to be made to respond Amen</i>,] <i>to be sworn; to promise allegiance</i>. Y. Dem. II, 23ᵃ top <he>הוא נ׳ לחבורה … נַעֲנִין לו</he> he (the head of the house) promises allegiance to the order (v. <cite ref=\"H00121\"><he>חֲבֵרוּת</he></cite>), and the members of his house make the promise to him.",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["עִינָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to speak</i> or <i>sing in chorus</i>, esp. <i>to lament</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Moed Katan 3:9\">M. Kat. III, 9</cite>, <he>מְעַנּוֹת</he>, v. <cite ref=\"P00612\"><he>עִינּוּי</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

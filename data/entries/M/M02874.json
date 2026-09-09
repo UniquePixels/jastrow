@@ -1,0 +1,28 @@
+{
+	"id": "M02874",
+	"slug": "משיחה-2",
+	"headword": {
+		"text": "מְשִׁיחָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 852,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>מָשַׁח</he> II) <i>band, cord</i>, esp. <i>flax rope for surveying</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Eiruvin 6:13\">Tosef. Erub. VI</cite> (<cite ref=\"Tosefta Eiruvin 5:13\">V</cite>), 13. ",
+				"<cite ref=\"Mishnah Kelim 21:3\">Kel. XXI, 3</cite> <he>בחוט ובמ׳</he> the string or the rope (of the saw). ",
+				"<cite ref=\"Tosefta Shabbat 5:2\">Tosef. Sabb. V</cite> (<cite ref=\"Tosefta Shabbat 6:2\">VI</cite>), 2 <he>כרכן במ׳</he> (ed. Zuck. <he>במשיחא</he>) tied a cord around them; <cite ref=\"Shabbat 50a\">Sabb. 50ᵃ</cite>. ",
+				"<cite ref=\"Tosefta Chullin 3:7\">Tosef. Ḥull. III</cite> (<cite ref=\"Tosefta Chullin 4:22\">IV</cite>), 22 <he>כל הנותן ע״ג מ׳ החולק וכ׳</he> when you place a fowl on a rope, that fowl which divides its claws &c., is unclean; <cite ref=\"Chullin 65a:3\">Ḥull. 65ᵃ</cite> <he>מותחין לו חוט של מ׳</he> you stretch a cord for it in a line; a. fr.—Pl. <cite ref=\"M02875\"><he>מְשִׁיחוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Kilayim 9:9\">Kil. IX, 9</cite> <he>מ׳ של ארגמן</he> purple-colored ribbons, v. <cite ref=\"M01590\"><he>מָלַל</he></cite> I end; Y. ib. 32ᵈ. ",
+				"<cite ref=\"Tosefta Keilim Metsia 4:7\">Tosef. Kel. B. Mets. IV, 7</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "H01745",
+	"slug": "חרפייא",
+	"headword": {
+		"text": "חֲרָפַיָּיא"
+	},
+	"page": {
+		"number": 505,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"H01738\"><he>חֵרֶף</he></cite>) <i>ḥărafaya</i>, a phonetic substitute of <cite ref=\"H01738\"><he>חֵרֶף</he></cite> in place of <cite ref=\"H01716\"><he>חֵרֶם</he></cite>. ",
+			"units": [
+				"<cite ref=\"Nedarim 10b\">Ned. 10ᵇ</cite>, v. <cite ref=\"H01763\"><he>חֲרָקַיָּיא</he></cite>."
+			]
+		}
+	]
+}

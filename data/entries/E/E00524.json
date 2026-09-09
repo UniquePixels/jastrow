@@ -1,0 +1,36 @@
+{
+	"id": "E00524",
+	"slug": "הכרע",
+	"headword": {
+		"text": "הֶכְרַע"
+	},
+	"page": {
+		"number": 351,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>כָּרַע</he> <i>Hif.</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>customary additional weight in retailing, boot</i>, v. <cite ref=\"C00821\"><he>גֵּירוּמִים</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 89a:13\">B. Bath. 89ᵃ</cite>. ",
+				"<cite ref=\"Keritot 5a:84\">Ker. 5ᵃ</cite> <he>בה׳ הוא שוקל וכ׳</he> must he weigh (the frank incense) with boot or exactly (v. <cite ref=\"P00601\"><he>עַיִן</he></cite>)? <cite ref=\"Sanhedrin 102a:1\">Snh. 102ᵃ</cite> <he>אחד מכ״ד בה׳ ליטרא</he> one twenty fourth of the overweight of a litra (a minute portion)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (Gramm.) <i>decision as to the junction of a word with the preceding or the following word</i> (v. <cite ref=\"E00525\">next w.</cite>), <i>construction, syntax</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 52a:8\">Yoma 52ᵃ</cite> in five verses <he>אין להם ה׳</he> the grammatical construction is undecided; <cite ref=\"Bereishit Rabbah 80:5\">Gen. R. s. 80</cite>; Tanḥ. ",
+				"<cite ref=\"Exodus 26\">B’shall. 26</cite>; Mekh. B’shall., Amalek 1; a. e.—Pl. <cite ref=\"E00523\"><he>הֶכְרֵיעִים</he></cite>. Y. Meg. IV, 74ᵈ bot. (ref. to <cite ref=\"Nehemiah 8:8\">Neh. VIII, 8</cite> <he>ויבינו</he>) <he>אלו הה׳</he> that means the grammatical constructions."
+			],
+			"label": "2"
+		}
+	]
+}

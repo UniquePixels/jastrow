@@ -1,0 +1,27 @@
+{
+	"id": "B00367",
+	"slug": "בורכא",
+	"headword": {
+		"text": "בּוּרְכָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּרְכְּתָא"
+		}
+	],
+	"page": {
+		"number": 150,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <he>ברך</he>) <i>something hollow, absurdity;</i> cmp. <cite ref=\"B00333\"><he>בּוֹר</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Ketubot 63b:5\">Keth. 63ᵇ</cite>; <cite ref=\"Chullin 88b:5\">Ḥull. 88ᵇ</cite>; <cite ref=\"Shevuot 12b:2\">Shebu. 12ᵇ</cite> <he>הא ב׳</he> this is entirely unfounded (or absurd). <he>מאי בורכתיה</he> (… <he>תא</he>) wherein does its absurdity (or hollowness) consist?—[<he>בּוּרְכָּא</he> <i>knee, shoot</i>, v. <cite ref=\"B01290\"><he>בִּרְכָּא</he></cite>.]."
+			]
+		}
+	]
+}

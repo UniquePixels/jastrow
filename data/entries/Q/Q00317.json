@@ -1,0 +1,35 @@
+{
+	"id": "Q00317",
+	"slug": "פוקדנא",
+	"headword": {
+		"text": "פּוּקְדָנָא"
+	},
+	"page": {
+		"number": 1145,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01450\"><he>פְּקַד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>commandment</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 2:1\">Targ. Prov. II, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 6:23\">Ib. VI, 23</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>safe-keeping, trust</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 5:21\">Targ. O. Lev. V, 21</cite>; <cite ref=\"Onkelos Leviticus 5:23\">23</cite> (ed. Bon. a. Y. <cite ref=\"Q01452\"><he>פִּקְדּוֹנָא</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

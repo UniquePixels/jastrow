@@ -1,0 +1,34 @@
+{
+	"id": "S01906",
+	"slug": "קרדום-1",
+	"headword": {
+		"text": "קַרְדּוֹם"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּרְ׳"
+		}
+	],
+	"page": {
+		"number": 1412,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"S01915\"><he>קַרְדֹּם</he></cite>; <cite ref=\"S01915\"><he>קרדם</he></cite>, cmp. <cite ref=\"C01282\"><he>גַּרְדֵּם</he></cite>)<i>cutting tool, spade, mattock, hatchet</i> (with a pointed and a broad side). ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 4:5\">Ab. IV, 5</cite> <he>ולא ק׳ לחפור בהם</he> make not the words of the Law a spade to dig with them (the means for selfish ends). ",
+				"<cite ref=\"Tosefta Moed Kattan 1:4\">Tosef. M. Kat. I, 4</cite> <he>תוחב בשפוד ומכה בק׳ וכ׳</he> he sticks (into the ground where moles are suspected to hide) a spit, or strikes with a mattock and stamps the ground under him; Y. ib. I, 80ᶜ; Bab. ",
+				"<cite ref=\"Moed Katan 7a\">ib. 7ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Beitzah 4:3\">Bets. IV, 3</cite> <he>ואין … בק׳</he> (when splitting wood for immediate use on the Holy Day) you must not use the hatchet, expl. ",
+				"<cite ref=\"Beitzah 31b:3\">ib. 31ᵇ</cite> <he>נקבות שלו</he> the broad side of it. ",
+				"<cite ref=\"Beitzah 31b:4\">Ib.</cite> <he>ק׳ וקופיץ</he> a tool combining axe and bill, v. <cite ref=\"S00508\"><he>קוּפִּיץ</he></cite>; a. fr.—",
+				"<cite ref=\"Gittin 30b:5\">Gitt. 30ᵇ</cite> <he>מלא ק׳</he> a ground having room for the mattock to work in, a common-sized field, opp. to <he>מלא מחט</he> a diminutive patch of ground.—Pl. <he>קַרְדּוּמּוֹת</he>. ",
+				"<cite ref=\"Tosefta Bava Metzia 2:1\">Tosef. B. Mets. II, 1</cite>, v. <cite ref=\"M00937\"><he>מַחֲרזוֹת</he></cite>; a. e."
+			]
+		}
+	]
+}

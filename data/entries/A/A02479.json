@@ -1,0 +1,28 @@
+{
+	"id": "A02479",
+	"slug": "אספוג",
+	"headword": {
+		"text": "אִסְפּוֹג"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִי׳"
+		}
+	],
+	"page": {
+		"number": 95,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ספג</he>, v. <cite ref=\"O01323\"><he>סְפוֹג</he></cite>) <i>sponge-cake, spungy bread</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 29:23\">Targ. O. Ex. XXIX, 23</cite>; a. e.—Pl. <he>אִסְפּוֹגִין</he>. ",
+				"<cite ref=\"Onkelos Exodus 29:2\">Ib. 2</cite>; a. e. (Editions also <cite ref=\"A02479\"><he>אֶסְפּוֹג׳</he></cite>)."
+			]
+		}
+	]
+}

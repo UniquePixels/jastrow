@@ -1,0 +1,74 @@
+{
+	"id": "C01048",
+	"slug": "גמליאל",
+	"headword": {
+		"text": "גַּמְלִיאֵל"
+	},
+	"page": {
+		"number": 254,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (b. h.) <i>Gamaliel, Gamliel;</i> ",
+			"units": []
+		},
+		{
+			"gloss": " Tannaim, ",
+			"units": [],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " Rabban G. senior <he>(הזקן</he>), grandson of Hillel. ",
+					"units": [
+						"<cite ref=\"Mishnah Rosh Hashanah 2:5\">R. Hash. II, 5</cite>. ",
+						"<cite ref=\"Mishnah Gittin 4:2\">Gitt. IV, 2</cite>; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " Rabban G. (of Jabneh), grandson of the former. ",
+					"units": [
+						"<cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite>. ",
+						"<cite ref=\"Mishnah Peah 6:6\">Peah VI, 6</cite>.—",
+						"<cite ref=\"Berakhot 27b:19\">Ber. 27ᵇ</cite> sq. ",
+						"<cite ref=\"Tosefta Niddah 9:17\">Tosef. Nidd. IX, 17</cite>; a. fr. (v. Frank. Darkhé Mish. p. 69)."
+					],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": " Amoraim, ",
+			"units": [],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " R. G. B’ribbi (Bar Rabbi) I, son of R. Judah han-Nasi I. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Challah 4:4:4\">Y. Ḥall. IV, 60ᵃ</cite> top <he>ר׳ ג׳ ב״ר</he>. ",
+						"<cite ref=\"Ketubot 103b:22\">Keth. 103ᵇ</cite>. ",
+						"<cite ref=\"Ketubot 10b:5\">Ib. 10ᵇ</cite>. ",
+						"<cite ref=\"Menachot 84b:14\">Men. 84ᵇ</cite>; a. e. [<cite ref=\"Pirkei Avot 2:2\">Ab. II, 2</cite>.]—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " R. G. B’ribbi II, son of R. Judah han-Nasi II. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:1:7\">Y. Ab. Zar. I, 39ᵇ</cite>.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " (also <he>גַּמְלִיֵּיל</he>) G. Zuga <cite ref=\"Jerusalem Talmud Challah 4:4:4\">Y. Ḥall. IV, 60ᵃ</cite> top; a. fr.; a. others (v. Frank. M’bo p. 72ᵃ sq.).",
+					"units": [],
+					"label": "c"
+				}
+			]
+		}
+	]
+}

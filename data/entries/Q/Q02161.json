@@ -1,0 +1,31 @@
+{
+	"id": "Q02161",
+	"slug": "פתיחא",
+	"headword": {
+		"text": "פְּתִיחָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּתִיחָה"
+		}
+	],
+	"page": {
+		"number": 1253,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02144\"><he>פְּתַח</he></cite>) [<i>opening</i>,] <i>preliminary legal proceeding</i>, esp. <i>summons to appear before</i>, or <i>to obey the decision of the court</i> under penalty of excommunication; <i>warrant</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 31b:4\">R. Hash. 31ᵇ</cite> <he>כתב פ׳ עילווה</he> (Ms. M. 2 <cite ref=\"Q00905\"><he>פיתקא</he></cite>) he wrote a warrant out against her. ",
+				"<cite ref=\"Bava Kamma 112b:9-10\">B. Kam. 112ᵇ</cite> <he>נטרינן ליה … פתיחה עילויה וכ׳</he> we wait for him a Monday and a Thursday and another Monday; if he does not appear, we write a warrant against him, giving him ninety days &c. ",
+				"<cite ref=\"Bava Kamma 112b:18\">Ib.</cite> <he>והני מילי לשמתא אבל לפ׳ וכ׳</he> this is the case with reference to decreeing excommunication, but for writing a warrant (at the defendant’s expense) it is not so (the court messenger’s statement is not so valid as the testimony of two). ",
+				"<cite ref=\"Bava Kamma 113a:6\">Ib. 113ᵃ</cite> <he>האי מאן דכתיב עליה פ׳</he> (Ms. M. <he>דנקיט</he>) if a warrant has been issued against a person; a. e."
+			]
+		}
+	]
+}

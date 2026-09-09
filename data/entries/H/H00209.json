@@ -1,0 +1,30 @@
+{
+	"id": "H00209",
+	"slug": "חדקא-2",
+	"headword": {
+		"text": "חִדְקָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חִי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 427,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḥidka</i>, a Tannai, disciple of R. Akiba. ",
+			"units": [
+				"<cite ref=\"Shabbat 117b:11\">Sabb. 117ᵇ</cite>; <cite ref=\"Ketubot 64b:14\">Keth. 64ᵇ</cite>. ",
+				"<cite ref=\"Bava Batra 119a:6\">B. Bath. 119ᵃ</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "O00995",
+	"slug": "סליקוסתא-2",
+	"headword": {
+		"text": "סְלִיקוּסְתָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 995,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (Pales of <cite ref=\"O01027\"><he>סְלַק</he></cite>) <i>refuse of boiled dates after brewing</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 31a:1\">B. Kam. 31ᵃ</cite> top (Ms. F. <cite ref=\"O00996\"><he>סְלִיקוּתָא</he></cite>; Ms. H. a. Ar. <he>חַלְקוּסְתָּא</he>, <cite ref=\"H01064\"><he>חֲלִיקוּסְתָֹּא</he></cite>, fr. <he>חלק</he>, v. etymology of <cite ref=\"U01380\"><he>שָׁלַק</he></cite>)."
+			]
+		}
+	]
+}

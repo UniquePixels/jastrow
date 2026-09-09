@@ -1,0 +1,72 @@
+{
+	"id": "T00915",
+	"slug": "רעע-2",
+	"headword": {
+		"text": "רְעַע"
+	},
+	"page": {
+		"number": 1488,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00914\">same</cite>, <i>to shatter, break</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 9:53\">Targ. Jud. IX, 53</cite> <he>ורָעַת</he> (Levita <he>ורְעִיעַת</he>; some ed. <he>ורעתת</he>, corr. acc.). ",
+				"<cite ref=\"Targum Jerusalem, Exodus 15:6\">Targ. Y. II, Ex. XV, 6</cite> <cite ref=\"T00890\"><he>רָעָא</he></cite> (some ed. <he>רעע</he>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Job 20:19\">Targ. Job XX, 19</cite> (ed. Wil. <cite ref=\"T00914\"><he>רָעַע</he></cite> <i>Pa.</i>); a. e.—Part. pass. <he>רְעִיעַ</he>, <he>רְעִיעָא</he>; f. <he>רְעִיעָא</he>, <cite ref=\"T00109\"><he>רְעִיעֲתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 42:3\">Targ. Is. XLII, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 12:6\">Targ. Koh. XII, 6</cite>; a. e.—",
+				"<cite ref=\"Taanit 20b:6\">Taan. 20ᵇ</cite> <he>אשיתא ר׳</he> Ms. M. (ed. <he>רעועה</he> h.) a threatening wall. ",
+				"<cite ref=\"Taanit 20b:7\">Ib.</cite> <he>ביתא ר׳</he> a ruinous-looking house; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רָעַע"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00914\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 20:10\">Targ. Job XX, 10</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 20:19\">Ib. 19</cite>, v. supra; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אֵרַע"],
+			"senses": [
+				{
+					"gloss": "<i>to do harm</i>. Ib. XXIV, 21 <cite ref=\"M02728\"><he>מֵרַע</he></cite> (Ms. <he>מְיָירַע</he>; h. text <cite ref=\"T00418\"><he>רֹעֶה</he></cite>).",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְרַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be shaken, broken; be afraid</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 20:3\">Targ. Y. Deut. XX, 3</cite> (Var. <he>תִּתְיָרְע׳</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be shaken, impaired</i>. ",
+					"units": [
+						"<cite ref=\"Horayot 12a:12\">Hor. 12ᵃ</cite> <he>ומִיתְרַע מזליה</he> and his luck may be shaken, v. <cite ref=\"T00669\"><he>רִיעַ</he> II</cite>. ",
+						"<cite ref=\"Bava Batra 59a:3\">B. Bath. 59ᵃ</cite> <he>דתִיתְרַע וכ׳</he>, v. <cite ref=\"A03300\"><he>אֲשִׁיתָא</he></cite>. ",
+						"<cite ref=\"Chullin 10a:12\">Ḥull. 10ᵃ</cite> <he>סכין אִיתְרְעָאִי וכ׳</he> the status of the knife has been impaired (the knife having been found notched after slaughtering), but the status of the slaughtered animal (the presumption of its ritual fitness) has not been shaken, v. <cite ref=\"T00673\"><he>רֵיעוּתָא</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

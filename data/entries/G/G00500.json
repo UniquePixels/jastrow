@@ -1,0 +1,59 @@
+{
+	"id": "G00500",
+	"slug": "זלף-1",
+	"headword": {
+		"text": "זָלַף"
+	},
+	"page": {
+		"number": 402,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>זלח</he>, <he>דלף</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to pour, empty over</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Moed Katan 2:1\">M. Kat. II, 1</cite>, sq. <he>זוֹלֵף וכ׳</he> he may empty the contents of the vat into the press and finish the process &c. Y. ib. 81ᵃ bot. <he>זוֹלְפִין את יינו</he> they put his grapes for him into the press. ",
+				"<cite ref=\"Mishnah Tahorot 10:7\">Toh. X, 7</cite> <he>הזוֹלֵף את הבור</he> if one empties the wine or oil pit."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to sprinkle</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 6:2\">Par. VI, 2</cite> <he>זָלַף וכ׳</he> (R. S. <cite ref=\"G00500\"><he>זִילֵּף</he></cite>) if he used all the water for sprinkling. Ib. 3 <he>יזלף</he> ed. (comm. <he>זוֹלֵף</he>; <cite ref=\"Yoma 58a:10\">Yoma 58ᵃ</cite> <he>זולף והולך</he>) he may sprinkle &c. (Bart. a. Rashi to Yoma l. c. he may empty the water into bottles &c.). Ib. VII, 8 <he>זולף</he> (Maim.: he empties &c.); a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זִילֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to drip, sprinkle</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Parah 6:2\">Par. VI, 2</cite>, sq., v. supra.—Y. Sabb. IX, 12ᵃ <he>מְזַלְּפִין וכ׳</he> you may drip hot water on the wound; <cite ref=\"Tosefta Shabbat 15:4\">Tosef. ib. XV</cite> (<cite ref=\"Tosefta Shabbat 16:4\">XVI</cite>), 4. ",
+						"<cite ref=\"Mishnah Shabbat 19:3\">Sabb. XIX, 3</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִזְלִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to flow, squirt</i> (neut. verb). ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 59b:1\">Ab. Zar. 59ᵇ</cite> <he>מַזְלִיף</he> (Ms. M. <he>מזלף</he>; <cite ref=\"Tosefta Avodah Zarah 7:5\">Tosef. ib. VII</cite> (<cite ref=\"Tosefta Avodah Zarah 8:5\">VIII</cite>), 5 <he>מנתז</he>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

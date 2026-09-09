@@ -1,0 +1,23 @@
+{
+	"id": "Q02208",
+	"slug": "פתרן",
+	"headword": {
+		"text": "פַּתְרָן"
+	},
+	"page": {
+		"number": 1256,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פתר</he> <i>to spread, relax</i>; v. Fl. to Levy Targ. Dict. II, p. 574<sup>2</sup>) <i>weak, lean</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 109:24\">Targ. Ps. CIX, 24</cite> (h. text <he>כחש</he>).—Pl. <he>פַּתְרָנִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 13:20\">Targ. Y. I Num. XIII, 20</cite> (Ar. <cite ref=\"A02850\"><he>אפתרין</he></cite>; h. text <cite ref=\"T00464\"><he>רזה</he></cite>)."
+			]
+		}
+	]
+}

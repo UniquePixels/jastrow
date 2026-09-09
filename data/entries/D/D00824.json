@@ -1,0 +1,38 @@
+{
+	"id": "D00824",
+	"slug": "דלות",
+	"headword": {
+		"text": "דַּלּוּת"
+	},
+	"page": {
+		"number": 309,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>דלל</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>poverty</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Mishlei 22:6\">Midr. Prov. ch. XXII</cite>; a. fr.—<he>בד׳</he> in poverty, i.e. sacrifice of poverty (birds), opp. <he>בעשירות</he> lambs, goats &c.; <he>בדַלֵּי ד׳</he> the sacrifice of extreme poverty (flour). ",
+				"<cite ref=\"Keritot 10b:51\">Kerith. 10ᵇ</cite>. ",
+				"<cite ref=\"Horayot 9a:5\">Hor. 9ᵃ</cite> (v. Ms. M. a. l.). Kerith. l. c. <he>עֲלֵיה דְדַלּוּת</he> upon the person coming under the category of <i>dalluth;</i> <he>עליה דדלי דלות</he> upon the person coming under the category of extreme <i>dalluth</i>. ",
+				"<cite ref=\"Jerusalem Talmud Horayot 2:6:2\">Y. Hor. II, 46ᵈ</cite> (ref. to <cite ref=\"Leviticus 14:21\">Lev. XIV, 21</cite>) <he>מי שהוא ראוי לבוא לידי ד׳</he> only he who may possibly come under the category &c. (Bab. ",
+				"<cite ref=\"Leviticus 14:21\">ib.</cite> l. c. <he>בא לידי עניות</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>vacillation</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 9b\">Yoma 9ᵇ</cite> (ref. to <cite ref=\"D00864\"><he>דלת</he></cite>, <cite ref=\"Song of Songs 8:9\">Cant. VIII, 9</cite>) <he>שעליתם בד׳</he> (Ms. M. 2) that ye left the Babylonian captivity with vacillation, opp. to <he>כחומה</he>, ‘as a wall’, i.e. all combined and firm; (Ms. Ms. 1 <he>שעשיתם עצמיכם כדלת</he>, ed. <he>שעליתם כדלתות</he>; Ar. ed. pr. s. v. <he>סממגור</he> quotes <he>בדַלְדַּלּוּת</he>, Ms. Koh. <he>בדלי דלות</he>; <cite ref=\"Yalkut Shimoni on Nach 994\">Yalk. Cant. 994</cite> Ms. <he>בדלי דלות</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

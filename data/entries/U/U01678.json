@@ -1,0 +1,22 @@
+{
+	"id": "U01678",
+	"slug": "שעף",
+	"headword": {
+		"text": "שְׁעַף"
+	},
+	"page": {
+		"number": 1612,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"U01636\"><he>שַׁעֲוָא</he></cite>) <i>a gum</i> used as a spice, <i>tragacanth</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 37:25\">Targ. O. Gen. XXXVII, 25</cite>; <cite ref=\"Onkelos Genesis 43:11\">XLIII, 11</cite> (h. text <he>נכאת</he>)."
+			]
+		}
+	]
+}

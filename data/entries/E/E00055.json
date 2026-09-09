@@ -1,0 +1,22 @@
+{
+	"id": "E00055",
+	"slug": "הגא-2",
+	"headword": {
+		"text": "הֶגֶא"
+	},
+	"page": {
+		"number": 330,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (h. <cite ref=\"E00062\"><he>הֶגֶה</he></cite>; <cite ref=\"E00066\"><he>הגי</he></cite>) <i>thought, utterance</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 37:2\">Targ. Job XXXVII, 2</cite>."
+			]
+		}
+	]
+}

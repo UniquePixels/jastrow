@@ -1,0 +1,31 @@
+{
+	"id": "Q00623",
+	"slug": "פיטורין",
+	"headword": {
+		"text": "פִּיטּוּרִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּטּ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1161,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"Q00548\"><he>פְּטַר</he></cite>) <i>discharge, divorce</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 24:3\">Targ. O. Deut. XXIV, 3</cite> (ed. Berl. <cite ref=\"Q00541\"><he>פִּיט׳</he></cite>, without Dagesh). ",
+				"<cite ref=\"Targum Jonathan on Exodus 21:11\">Targ. Y. Ex. XXI, 11</cite> <he>פְּט׳</he>; a. e.—",
+				"<cite ref=\"Mishnah Gittin 9:3\">Gitt. IX, 3</cite> (in a formula of a letter of divorce) <he>גט פ׳</he> (absent in Y. ed.); <cite ref=\"Nedarim 5b:6\">Ned. 5ᵇ</cite>"
+			]
+		}
+	]
+}

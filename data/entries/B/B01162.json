@@ -1,0 +1,42 @@
+{
+	"id": "B01162",
+	"slug": "בראשית",
+	"headword": {
+		"text": "בְּרֵאשִׁית"
+	},
+	"page": {
+		"number": 189,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>in the beginning</i>, as a cosmological term (ref. to <cite ref=\"Genesis 1:1\">Gen. I, 1</cite>) <i>creation, primeval period, Nature, Universe</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 28:29\">Targ. Is. XXVIII, 29</cite>; a. e.—מִבְּ׳ <i>from the beginning</i>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 41:4\">Ib. XLI, 4</cite>.—<he>מעשה ב׳</he> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>creation</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 3:9\">Gen. R. s. 3</cite>; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>cosmogony</i>, contrad. to <he>מעשה מרכבה</he> theosophy, <cite ref=\"Mishnah Chagigah 2:1\">Ḥag. II, 1</cite>; a. fr.—",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Sheviit 1:1:2\">Y. Shebi. I, beg. 33ᵃ</cite> <he>שבת ב׳</he> the Sabbath commemorative of creation, i.e. the regular weekly Sabbath, contrad. to Holy Days. [In later Hebr. <he>שבת ב׳</he> the Sabbath on which the first section of the Pentateuch is read.]—",
+						"<cite ref=\"Mishnah Berakhot 9:2\">Ber. IX, 2</cite> <he>ברוך עושה</he> (<cite ref=\"M02186\"><he>מעשה</he></cite>) <he>ב׳</he> praised be the Author of creation—a formula of benediction for awe-inspiring natural phenomena; v. ",
+						"<cite ref=\"Mishnah Berakhot 9:2\">ib.</cite> a. Y. ib. 13ᶜ bot.—<he>ששת ימי ב׳</he> from the six days of creation. ",
+						"<cite ref=\"Ketubot 8b:8\">Keth. 8ᵇ</cite> <he>נתיב הוא מש׳ וכ׳</he> this is the way (the lot of humanity) since the world existed.—",
+						"<cite ref=\"Tosefta Ma'asrot 3:14\">Tosef. Maasr. III, 14</cite>: a. fr.—Y. Taan. II, 65ᵃ bot. <he>מי ב׳</he>; <cite ref=\"Eichah Rabbah 3:22\">Lam. R. to III, 40</cite> <he>מימי ב׳</he> primeval waters, <i>Ocean</i> &c. (v. ",
+						"<cite ref=\"Genesis 1:9\">Gen. I, 9</cite> sq.).—ספר ב׳ <i>The Book of Genesis</i>. ",
+						"<cite ref=\"Bereishit Rabbah 3:9\">Gen. R. s. 3</cite>; a. e.—ב׳ רבה <i>B’reshith Rabbah</i> (Gen. R.), name of the first book of the Midrash Rabbah."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

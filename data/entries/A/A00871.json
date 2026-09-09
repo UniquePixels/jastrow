@@ -1,0 +1,28 @@
+{
+	"id": "A00871",
+	"slug": "אורזנייא",
+	"headword": {
+		"text": "אוּרְזָנַיָּיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּרְזָנַיָּיה"
+		}
+	],
+	"page": {
+		"number": 33,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"A00869\"><he>אורזא</he></cite>) <i>a rice dish</i> (prepared with wine). [Oth. opin. <i>cedar-fruits; millet</i>.] Y. Maas. Sh. II, beg. 53ᵇ. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 8:3:2\">Y. Yoma VIII, 45ᵃ</cite> top; Y. Shebu. III, 34ᵇ bot. <he>אורזרייה</he> (corr. acc.)."
+			]
+		}
+	]
+}

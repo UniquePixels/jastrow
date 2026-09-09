@@ -1,0 +1,23 @@
+{
+	"id": "R00580",
+	"slug": "צמיתא",
+	"headword": {
+		"text": "צְמִיתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1288,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00602\"><he>צְמַת</he></cite>) <i>gathering together, summons</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 25:14\">Targ. Y. Gen. XXV, 14</cite> (transl. of <he>משמע</he>, pr. n. pl., cmp. <he>וישמע</he> <cite ref=\"I Samuel 15:4\">I Sam. XV, 4</cite>); v. <cite ref=\"R00348\"><he>צַיְיתָא</he></cite>."
+			]
+		}
+	]
+}

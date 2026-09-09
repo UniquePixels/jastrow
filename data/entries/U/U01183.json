@@ -1,0 +1,25 @@
+{
+	"id": "U01183",
+	"slug": "שכר-2",
+	"headword": {
+		"text": "שָׂכַר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׂכַר"
+		}
+	],
+	"page": {
+		"number": 1576,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to fill up, dam</i>, v. <cite ref=\"O00941\"><he>סָכר</he></cite>, <cite ref=\"O00941\"><he>סְכַר</he></cite>.—",
+			"units": [
+				"<cite ref=\"Sanhedrin 95a\">Snh. 95ᵃ</cite>, v. <cite ref=\"B00409\"><he>בִּזָּאי</he></cite>, a. <cite ref=\"U01135\"><he>שְׂכוֹר</he></cite>."
+			]
+		}
+	]
+}

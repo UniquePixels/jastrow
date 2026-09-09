@@ -1,0 +1,47 @@
+{
+	"id": "M02495",
+	"slug": "מרביינא",
+	"headword": {
+		"text": "מַרְבְּיָינָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַרְבְּיָנָא"
+		}
+	],
+	"page": {
+		"number": 835,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00083\"><he>רְבֵי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>educator, teacher</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 2:17\">Targ. Prov. II, 17</cite> ed. Lag. (ed. <cite ref=\"M02503\"><he>מַרְבִּיתָא</he></cite> <i>teaching</i>; h. text <cite ref=\"A01825\"><he>אלוף</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= h. <cite ref=\"J00380\"><he>יָלִיד</he></cite>) <i>raised</i> (<i>servant</i> or <i>child</i>).—Pl. <he>מַרְבְּיָינִין</he>, constr. <cite ref=\"M02495\"><he>מַרְבְּיָינֵי</he></cite>, <he>מַרְבְּיָ׳</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 14:14\">Targ. Y. I Gen. XIV, 14</cite> (<cite ref=\"Targum Jonathan on Genesis 2:25\">II</cite> <cite ref=\"M02501\"><he>מרביצי</he></cite>, corr. acc.). Ib. XVII, 12. ",
+				"<cite ref=\"Targum Jonathan on Numbers 13:23\">Targ. Y. Num. XIII, 23</cite>; <cite ref=\"Targum Jonathan on Numbers 13:28\">28</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (<i>pl.</i>) <i>sprouts</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 65:11\">Targ. Ps. LXV, 11</cite> <he>מַרְבְּיָנֵי צמחהא</he> (Ms. <he>נִצְיָינָהָא</he>; h. text <he>תלמיה</he>)."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A01412",
+	"slug": "איסטגלילית",
+	"headword": {
+		"text": "אִיסְטַגְלִילִית",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 54,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (Ispe. of <he>סגלל</he>, r. <he>סגל</he>; cmp. <cite ref=\"O00149\"><he>סגלגל</he></cite> a. b. h. <cite ref=\"A03305\"><he>אֶשְׁכּוֹל</he></cite>) <i>cluster, a crowded band</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 51a:13\">Ber. 51ᵃ</cite> <he>א׳ של מלאכים וכ׳</he> Ms. Beth Nath. (Ar. <he>אִסִתַּלְגִּינִית</he>, ed. <cite ref=\"A01522\"><he>אִיסְתַּלְגָנִית</he></cite>. transpose <he>איסתגל׳</he>, Ms. M. <he>איסתלתנות</he> read <he>אִיסְתַּלְתָּלִית</he> fr. <cite ref=\"V00639\"><he>תלתל</he></cite>; v. Rabb. D. S. a. l.) a cluster of angels of destruction."
+			]
+		}
+	]
+}

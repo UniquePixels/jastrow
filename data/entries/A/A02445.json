@@ -1,0 +1,22 @@
+{
+	"id": "A02445",
+	"slug": "אסיר-1",
+	"headword": {
+		"text": "אָסִיר"
+	},
+	"page": {
+		"number": 93,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>אסר</he>)<i>prisoner.—</i>Pl. <he>אֲסִירִין</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 12:1\">Kel. XII, 1</cite> <he>קורות … של א׳</he> prisoners’ stocks (a metal frame in which the prisoner’s feet were shut up)."
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "K00849",
+	"slug": "כני-1",
+	"headword": {
+		"text": "כני"
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּנָה"
+		}
+	],
+	"page": {
+		"number": 648,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to qualify, define; to surname, to nickname; to modify an expression, circumscribe; to compare</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 58b:13\">B. Mets. 58ᵇ</cite> <he>המְכַנֶּה שם רע וכ׳</he> he who calls his neighbor by a nickname. ",
+				"<cite ref=\"Shevuot 36a:21\">Shebu. 36ᵃ</cite> <cite ref=\"K00836\"><he>כַּנֵּה</he></cite> circumscribe (use the third person as euphemism). ",
+				"<cite ref=\"Sifrei Bamidbar 84\">Sifré Num. 84</cite>, a. fr. <he>כי׳ הכתוב</he> the Bible modifies the expression (to avoid anthropomorphism, e.g. ",
+				"<cite ref=\"Zechariah 2:12\">Zech. II, 12</cite> <he>עינו</he> for <he>עיני</he>). ",
+				"<cite ref=\"Mishnah Megillah 4:9\">Meg. IV, 9</cite> <he>המבנה בעריות</he> he who modifies (symbolizes) in translating the laws of incest (e.g. ",
+				"<cite ref=\"Leviticus 18:7\">Lev. XVIII, 7</cite>, ‘uncover not thy parents’ weakness or disgrace’). ",
+				"<cite ref=\"Yalkut Shimoni on Torah 771:6\">Yalk. Num. 771</cite>, v. <cite ref=\"Q00229\"><he>פּוֹלְיָיטוֹן</he></cite>; a. fr. Part. pass. <cite ref=\"M01358\"><he>מְכוּנֶּה</he></cite>. Tanḥ. Ki Thissa 17 (ref. to <he>באדם</he>, <cite ref=\"Psalms 68:19\">Ps. LXVIII, 19</cite>) <he>מכ׳ משה באדם</he> (not <he>לאדם</he>) the name of Moses is here disguised by the substitute <i>Adam</i>.—[<cite ref=\"Yalkut Shimoni on Nach 832\">Yalk. Ps. 832</cite> <cite ref=\"M01358\"><he>מכונה</he></cite>, v. <cite ref=\"K00859\"><he>כָּנַן</he></cite>.]"
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"K00835\"><he>כִּנָּה</he></cite>, <cite ref=\"K00565\"><he>כִּינָּה</he></cite> (b. h., v. <cite ref=\"K00826\"><he>כֵּן</he> I</cite>) ",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

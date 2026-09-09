@@ -1,0 +1,84 @@
+{
+	"id": "D00633",
+	"slug": "דין-3",
+	"headword": {
+		"text": "דִּין",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "דּוּן"
+		}
+	],
+	"page": {
+		"number": 300,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., v. Ges. H. Dict. s. v.) [<i>to rule</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to hold court, pass sentence, punish</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 2:2\">Snh. II, 2</cite> <he>המלך לא דָן ולא דָנִין וכ׳</he> the king must not act as judge, nor be summoned before court. ",
+				"<cite ref=\"Bava Kamma 82a:3\">B. Kam. 82ᵃ</cite> <he>ודנין בשני וב׳</he> court is held on Mondays and Thursdays. ",
+				"<cite ref=\"Mishnah Sanhedrin 7:5\">Snh. VII, 5</cite> <he>דנין את העדים וכ׳</he> witnesses are examined &c., v. <cite ref=\"K00566\"><he>כִּינּוּי</he></cite>. ",
+				"<cite ref=\"Sanhedrin 5a:10\">Ib. 5ᵃ</cite> <he>ידין ידין</he> dare he hold court? He dare; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to argue, conclude</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 27b:10\">Pes. 27ᵇ</cite> <he>דָּנוּ דִין אחר</he> they argued differently. ",
+				"<cite ref=\"Mishnah Maaser Sheni 2:9\">Maas. Sh. II, 9</cite>; <cite ref=\"Mishnah Eduyot 1:10\">Eduy. I, 10</cite> <he>הַדָּנִין לפני חכמים</he> those who argued before the scholars; <cite ref=\"Sanhedrin 17b:10\">Snh. 17ᵇ</cite> by ‘those who argued &c.’ are meant R. Shimeon &c. ",
+				"<cite ref=\"Mishnah Avodah Zarah 3:5\">Ab. Zar. III, 5</cite> (<cite ref=\"Avodah Zarah 45a:4\">45ᵃ</cite>) <he>אני אובין ואָדוּן</he> (v. Rabb. D. S. a. l. note 8), v. <cite ref=\"B00635\"><he>בִּין</he></cite>. ",
+				"<cite ref=\"Rosh Hashanah 7a:18\">R. Hash. 7ᵃ</cite> <he>דנין שנה … משנה וכ׳</he> we compare the word <i>shanah</i> (year), used in connection with <i>months</i>, with <i>shanah</i> used &c. (<cite ref=\"Numbers 28:14\">Num. XXVIII, 14</cite> with <cite ref=\"Exodus 12:2\">Ex. XII, 2</cite>); a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to judge, form an opinion of</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 1:6\">Ab. I, 6</cite>, v. <cite ref=\"G00452\"><he>זְכוּת</he></cite>; a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִידּוֹן", "נִדּוֹן"],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"D00633\"><he>נָדוֹן</he></cite>) <i>to be judged, be called to account, summoned, punished, sentenced</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Rosh Hashanah 1:2\">R. Hash. I, 2</cite> <he>העולם נ׳</he> sentence is passed upon the world (prosperity or failure decreed). ",
+						"<cite ref=\"Rosh Hashanah 16a:3\">Ib. 16ᵃ</cite> <he>נִידּוֹנֶת לשעבר</he> sentence has been passed upon it in the previous year (on the Passover, <i>before</i> the seed was sown), <he>נ׳ להבא</he> on the Passover of this same year (after the seed has been planted). ",
+						"<cite ref=\"Rosh Hashanah 16a:13\">Ib.</cite> <he>אדם נ׳ בכל יום</he> judgment is passed on man every day. ",
+						"<cite ref=\"Rosh Hashanah 12a:4\">Ib. 12ᵃ</cite> <he>ברותחין נִידּוֹנוּ</he> they were punished with (found their death in) hot water. ",
+						"<cite ref=\"Pirkei Avot 3:15\">Ab. III, 15</cite> <he>בטוב העולם נ׳</he> the world is ruled with divine mercy. ",
+						"<cite ref=\"Chullin 45a\">Ḥull. 45ᵃ</cite> <he>נ׳ כמוח</he> is subject to the same law as the brain. ",
+						"<cite ref=\"Mishnah Bava Kamma 2:5\">B. Kam. II, 5</cite> <he>להיות כנ׳</he>, v. <cite ref=\"D00444\"><he>דַּי</he></cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["דִּיֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to argue, discuss, dispute</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 2:8\">Koh. R. to II, 8</cite> <he>היתה מְדַיֶּינֶת וכ׳</he> she argued (contended) with him. ",
+						"<cite ref=\"Kohelet Rabbah 2:8\">Ib.</cite> <he>שמְדַיְּינִין בהלכה</he> who argue legal questions.—",
+						"<cite ref=\"Bereishit Rabbah 3:6\">Gen. R. s. 3</cite> <he>היו מדיינין זה עם זה</he> contended with one another; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

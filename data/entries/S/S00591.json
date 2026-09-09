@@ -1,0 +1,29 @@
+{
+	"id": "S00591",
+	"slug": "קורט",
+	"headword": {
+		"text": "קוֹרֶט"
+	},
+	"page": {
+		"number": 1342,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קדט</he>, cmp. <cite ref=\"S02141\"><he>קָרַץ</he></cite>) <i>a particle, grain,</i> (<i>coagulated</i>) <i>drop</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 43a:10\">Snh. 43ᵃ</cite>, v. <cite ref=\"L00055\"><he>לְבוֹנָה</he></cite>. ",
+				"<cite ref=\"Mishnah Avodah Zarah 2:6\">Ab. Zar. II, 6</cite>, v. <cite ref=\"H00796\"><he>חִילְתִּית</he></cite>. ",
+				"<cite ref=\"Menachot 11a:24\">Men. 11ᵃ</cite> <he>ועמדה על ק׳ אחד</he> so that only one grain of frankincense remained. ",
+				"<cite ref=\"Chullin 50b:11\">Ḥull. 50ᵇ</cite>, sq. <he>ק׳ דם</he> a drop of coagulated blood; a. fr.—Pl. <he>קוֹרָטִין</he>, <he>קֳרָטִין</he>, <he>קֳרָטִים</he>. ",
+				"<cite ref=\"Chullin 58b\">Ib. 58ᵇ</cite> <he>בק׳</he> concerning the tears of assafœtida, opp. to <he>עלין</he> leaves. Men. l. c. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:7:13\">Y. Sabb. III, end, 6ᶜ</cite> <he>ק׳ של בוסם</he> grains of burnt spices (remnants in the coal pan); Bab. ",
+				"<cite ref=\"Shabbat 47a:2\">Sabb. 47ᵃ</cite> <he>דאית ביה ק׳</he> some grains were yet left in it. ",
+				"<cite ref=\"Shabbat 47a:3\">Ib.</cite> <he>ק׳ בי רבי וכ׳</he> did those of the house of Rabbi care for the grains left unburnt? <cite ref=\"Tosefta Menahot 1:17\">Tosef. Men. I, 17</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"id": "A01411",
+	"slug": "איסטבא",
+	"headword": {
+		"text": "אִיסְטְבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְטְוָוא"
+		},
+		{
+			"text": "אִסְ׳"
+		},
+		{
+			"text": "אִיצְ׳"
+		},
+		{
+			"text": "אִצְ׳"
+		}
+	],
+	"page": {
+		"number": 54,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " [also <he>ָ</he><cite ref=\"E00000\"><he>ה</he></cite>, a. with one <cite ref=\"F00000\"><he>ו</he></cite>] m. (Ispe. noun of <he>סב</he>, <he>סבב</he> = h. <cite ref=\"A01433\"><he>אִיסְטֵיב</he></cite> q. v., b. h. <cite ref=\"M01839\"><he>מֵסֵב</he></cite>; v. <he>אִיסְ־</he>) <i>a surrounding, attachment</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>balcony, colonnade, portico</i> (also <i>an independent colonnade</i>), esp. <he>הָאִ׳</he> the Itst’ba (Ist’ba) <i>the Temple portico</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 1:5\">Pes. I, 5</cite> (<cite ref=\"Pesachim 11b\">11ᵇ</cite>) <he>על גג האיצ׳</he> Ms. M. (Bab. ed. incorr. <he>גב</he>, Var. <cite ref=\"A01421\"><he>אִסְטְוָה</he></cite>, v. Rabb. D. S. a. l. note). Ib. 13ᵇ one recited <he>על גב</he> on top (inside) …, say <he>על גג הא׳</he> on the roof of the Its. (so as to expose it to public view). Y. Sabb. I, 2ᵈ bot. <he>איסטוה וכ׳</he>; Bab. ",
+				"<cite ref=\"Shabbat 7a:4\">Sabb. 7ᵃ</cite> <he>איצ׳ שלפני העמודים</he> a balcony in front of the columns (projecting into the street, used as a stand for dealers, v. <cite ref=\"A01433\"><he>אִיסְטֵיב</he></cite>). ",
+				"<cite ref=\"Shabbat 7a\">Ib.</cite> <he>דוקא א׳ דלא ניחא תשמישיה</he> Ms. M. (ed. <he>א׳ הוא דלא</he>) only the colonnade the use of which for passers by is not convenient. ",
+				"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> two columns of silver which were placed in front of the Ark <he>כמין איסטווה</he> (<cite ref=\"Shir HaShirim Rabbah 1:11\">Cant. R. to I, 11</cite> <he>אִיסְטְוִוין</he> pl.) forming a kind of balcony; <cite ref=\"Jerusalem Talmud Sotah 8:3:8\">Y. Sot. VIII, 22ᶜ</cite> <he>תנם לא׳</he> allow the surplus of three handbreadths (over the space occupied by the Tablets) for the balcony.—",
+				"<cite ref=\"Yoma 49a:4\">Yoma 49ᵃ</cite> <he>דעבוד מעשה אסטווה</he> Ar. (ed. <he>איצ׳</he>) they (the laymen) served only the purpose of a portico (holding the bowls up to view, v. ",
+				"<cite ref=\"Mishnah Pesachim 1:5\">Pes. I, 5</cite>, but not handing them to the altar).—",
+				"<cite ref=\"Jerusalem Talmud Sukkah 5:1:4\">Y. Succ. V, 55ᵃ</cite> bot., v. <cite ref=\"D00679\"><he>דִּיפְּלֵי</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"E00695\"><he>הֶסֵּב</he></cite>, <he>הֲסִיבָּה</he>) <i>something to recline on; couch, seat</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 70a:15\">Kidd. 70ᵃ</cite>, (to one using the high-toned <he>קרפיטא</he> q. v.) <he>א׳ דאמרי אינשי</he> call it itst’ba as the people do.—",
+				"<cite ref=\"Moed Katan 10b:2\">M. Kat. 10ᵇ</cite> <he>למבני א׳</he> Ar. a. ed. (Var. as Yoma l. c.) to build a temporary <i>banqueting place</i> for guests during the festive week, cmp. <cite ref=\"A01676\"><he>אַכְוַרְנְקָא</he></cite>, (Rashi: <i>stone building</i>, Ms. Rashi <he>כסא</he>).—Pl. <he>אִיצְטְבָאוֹת</he> (h. form). ",
+				"<cite ref=\"Shemot Rabbah 31\">Ex. R. s. 31</cite> (basilicas).—<he>אִיצְטְבֵי</he> (Chald. form). ",
+				"<cite ref=\"Pesachim 65b:6\">Pes. 65ᵇ</cite> <he>דמסגי אא׳</he> they (the priests) walked alongside the walls on balconies (projecting boards made for them that they should not tread on the blood); Y. ib. V, 32ᶜ bot. <he>מִסְטְוָיוֹת</he>, V. <he>מִסְטְוָה</he>."
+			],
+			"label": "2"
+		}
+	]
+}

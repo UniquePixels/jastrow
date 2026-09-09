@@ -1,0 +1,32 @@
+{
+	"id": "E00949",
+	"slug": "התך",
+	"headword": {
+		"text": "התך"
+	},
+	"page": {
+		"number": 371,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"E00561\"><he>הִיתֵּךְ</he></cite> (sec. verb of <cite ref=\"N01380\"><he>נתך</he></cite>, fr. <i>Hif.</i>) <i>to melt</i>. <i>Part. pass.</i> <he>מְהוּתָּךְ</he>; <he>חלב מה׳</he> melted tallow. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Shabbat 2:1:21\">Y. Sabb. II, 4ᵈ</cite> top; Bab. ",
+						"<cite ref=\"Shabbat 21a\">Sabb. 21ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

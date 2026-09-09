@@ -1,0 +1,22 @@
+{
+	"id": "E00722",
+	"slug": "הערב",
+	"headword": {
+		"text": "הַעֲרֵב"
+	},
+	"page": {
+		"number": 360,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Inf. Hif. of <cite ref=\"P01242\"><he>עָרַב</he></cite>) <he>ה׳ שמש</he> <i>sunset</i>, required for the unclean person, after purification, to be entirely clean (<cite ref=\"Leviticus 11:27\">Lev. XI, 27</cite>; a. fr.). ",
+			"units": [
+				"<cite ref=\"Yoma 6a:10\">Yoma 6ᵃ</cite> <he>והא בעי ה׳ הש׳</he> does he not require the sunset to pass before he may officiate?; a. fr."
+			]
+		}
+	]
+}

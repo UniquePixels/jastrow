@@ -1,0 +1,30 @@
+{
+	"id": "I00748",
+	"slug": "טרחא-2",
+	"headword": {
+		"text": "טִרְחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִירְ׳"
+		}
+	],
+	"page": {
+		"number": 552,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00747\">preced.</cite> wds.) <i>trouble, labor, discomfort</i>. ",
+			"units": [
+				"<cite ref=\"Temurah 24a:31\">Tem. 24ᵃ</cite> <he>דקא טרח טי׳ וכ׳</he> because he would undertake a labor unfit for him (on the Holy Day). ",
+				"<cite ref=\"Bava Metzia 93b:9\">B. Mets. 93ᵇ</cite> <he>לט׳ יתירתא</he> with reference to special painstaking. ",
+				"<cite ref=\"Shevuot 45a:17\">Shebu. 45ᵃ</cite> bot. <he>טי׳ ליה מלתא</he>, v. <cite ref=\"I00744\"><he>טְרַח</he> I</cite>. ",
+				"<cite ref=\"Moed Katan 13a:13\">M. Kat. 13ᵃ</cite> <he>מועד משום ט׳ ולא ט׳</he> Ms. M. (ed. only <he>משום ט׳</he>) in the festive week it is forbidden only for being a labor to some extent; a. fr."
+			]
+		}
+	]
+}

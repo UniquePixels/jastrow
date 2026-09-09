@@ -1,0 +1,45 @@
+{
+	"id": "P00225",
+	"slug": "עוי-1",
+	"headword": {
+		"text": "עוי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָוָה"
+		}
+	],
+	"page": {
+		"number": 1049,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be curved, bent, crooked; to curve</i> &c.,] <i>to pervert, do wrong</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 3:8\">Yoma III, 8</cite> <he>עָוִיתִי פשעתי וכ׳</he> I have done wrong, I have transgressed &c. ",
+				"<cite ref=\"Mishnah Yoma 6:2\">Ib. VI, 2</cite> <he>עָווּ פשעו וכ׳</he> thy people Israel has done wrong &c.; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִיוָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to subvert, lay waste</i> (cmp. <cite ref=\"E00740\"><he>הָפַךְ</he></cite>). ",
+					"units": [
+						"<cite ref=\"Chullin 60b:10\">Ḥull. 60ᵇ</cite> (play on <cite ref=\"P00808\"><he>עַוִּים</he></cite>, <cite ref=\"Deuteronomy 2:23\">Deut. II, 23</cite>) <he>שעִיוּוּ את מקומן</he> Ar. a. Rashi (ed. <he>שעִיוְּתוּ</he>) they laid waste their home (deserted it); <cite ref=\"Yalkut Shimoni on Torah 809\">Yalk. Deut. 809</cite>; <cite ref=\"Yalkut Shimoni on Nach 22:8\">Yalk. Josh. 22</cite> <he>שעִוּוּ</he>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to curve one’s self</i> (like a serpent, v. <cite ref=\"P00229\"><he>עִוְיָא</he></cite>), <i>wriggle</i>. Ib. <he>שעיוו לאלוהות הרבה</he> Ar. they wriggled before many deities (ed. <he>שאִיוּוּ</he>, v. <cite ref=\"A00626\"><he>אָוָה</he> I</cite>).",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "B00349",
+	"slug": "בורדלא",
+	"headword": {
+		"text": "בּוּרְדְּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּרְדִּילָא"
+		}
+	],
+	"page": {
+		"number": 149,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a corrupt. of flagellum, cmp. <cite ref=\"Q01564\"><he>פַּרְגַּל</he></cite>; late Lat. burdillus; cmp. late Greek βουρδουλίζειν, Sachs Beitr. II, 88 note) <i>club, whip.—</i>Pl. <cite ref=\"B00352\"><he>בּוּרְדְּלִין</he></cite> <i>blows, lashes</i>. Pesik. B’shall. p. 81ᵇ; <cite ref=\"Yalkut Shimoni on Torah 225\">Yalk. Ex. 225</cite> <cite ref=\"B00373\"><he>בורלודין</he></cite> (corr. acc.; Mekh. B’shall. 1 <cite ref=\"M01369\"><he>מכות</he></cite>).—<cite ref=\"B00349\"><he>בַּרְדִּילַיָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 13\">Num. R. s. 13</cite> <he>חמית שוטיא וב׳</he> she beheld the rods and whips."
+			]
+		}
+	]
+}

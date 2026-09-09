@@ -1,0 +1,27 @@
+{
+	"id": "A03414",
+	"slug": "אתחנונתא",
+	"headword": {
+		"text": "אִתְחֲנוּנָתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִתְחַנָּנוּתָא"
+		}
+	],
+	"page": {
+		"number": 133,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01310\"><he>חנן</he></cite>) <i>praying</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 31:23\">Targ. Ps. XXXI, 23</cite>."
+			]
+		}
+	]
+}

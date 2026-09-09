@@ -1,0 +1,57 @@
+{
+	"id": "N01251",
+	"slug": "נקש-1",
+	"headword": {
+		"text": "נָקַשׁ"
+	},
+	"page": {
+		"number": 935,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"S02256\"><he>קִשְׁקַשׁ</he> I</cite>) <i>to strike against; to touch closely</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 7:6\">Bekh. VII, 6</cite> (<cite ref=\"Bekhorot 45a\">45ᵃ</cite>) (expl. <he>עיקל</he>) <he>כל שמקיף … נוֹקְשׁוֹת וכ׳</he> (Mish. ed. <he>נושקות</he>) he whose legs do not touch each other when he puts his feet together. ",
+				"<cite ref=\"Megillah 12b\">Meg. 12ᵇ</cite>, v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִקִּישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause striking against; to knock</i>. Bekh. l. c. (44ᵇ) <he>המַקִּישׁ בקרסוליו וכ׳</he> he who knocks his ankle-bones against each other (in walking, because his legs are bent outward), or rubs his legs against each other (his feet being bent outward). Midr. Sam. ch. IX <he>מַקֶּשֶׁת ברגליה ומקשת בקרניה</he> she knocks (creates a loud sound) with her feet and with her horns. ",
+					"units": [
+						"<cite ref=\"Mishnah Zavim 4:1\">Zab. IV, 1</cite>, sq. <he>ה׳ על וכ׳</he> if he knocked against &c. ",
+						"<cite ref=\"Megillah 12b\">Meg. 12ᵇ</cite> (play on <he>בן קיש</he>, <cite ref=\"Esther 2:5\">Esth. II, 5</cite>) <he>שה׳ על וכ׳</he> (Ms. M. <he>שנָקַשׁ</he>) he (Mordecai) knocked at the gates of mercy &c.; a. fr.—Esp. (cmp. <cite ref=\"N00168\"><he>נָגַן</he></cite>, <cite ref=\"N00809\"><he>נָכָה</he></cite>) <i>to strike an instrument, play</i>. ",
+						"<cite ref=\"Mishnah Tamid 7:3\">Tam. VII, 3</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 18\">Gen. R. s. 18</cite> (play on <he>הפעם</he>, <cite ref=\"Genesis 2:23\">Gen. II, 23</cite>) <he>עתידה להַקִּישׁ עלי כזוג</he> (‘Rashi’: <he>לקשקש</he>) she is destined to be loud against me like a bell. ",
+						"<cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite>; <cite ref=\"Midrash Tehillim 137:1\">Midr. Till. to Ps. CXXXVII</cite> <he>אני מבקש שתעמדו ותַקִּישׁוּ</he> … <he>כדרך שהייתם מַקִּישִׁין וכ׳</he> I desire that you play on the cithern before me and the idol, as you played before your God. ",
+						"<cite ref=\"Midrash Tehillim 137:1\">Ib.</cite> <he>אנו עומדים להַקִּישׁ וכ׳</he> shall we stand playing before this dwarf (Nebuchadnezzar) and this idol? <cite ref=\"Midrash Tehillim 92\">Midr. Till. to Ps. XCII</cite>, end (play on <cite ref=\"J00590\"><he>יקשן</he></cite>, <cite ref=\"Genesis 25:2\">Gen. XXV, 2</cite>) <he>שהיו מקישין בתוף לעכו״ם</he> they struck the timbrel before idols; Yalk. Chr. 1073; <cite ref=\"Bereishit Rabbah 61\">Gen. R. s. 61</cite> <he>מקשין בית׳</he> (corr. acc.).—2) (cmp. <cite ref=\"N01233\"><he>נָקַף</he></cite>) <i>to bring under the same category by juxtaposition, to compare</i>. ",
+						"<cite ref=\"Kiddushin 5a\">Kidd. 5ᵃ</cite>, a. fr. (ref. to <he>ויצאה</he> a. <he>והיתה</he> in the same verse, <cite ref=\"Deuteronomy 24:2\">Deut. XXIV, 2</cite>) <he>מקיש הויה ליציאה</he>, v. <cite ref=\"E00232\"><he>הֲוָיָה</he></cite>. ",
+						"<cite ref=\"Sanhedrin 60b:14\">Snh. 60ᵇ</cite> (ref. to <cite ref=\"Exodus 22:19\">Ex. XXII, 19</cite> a. ",
+						"<cite ref=\"Exodus 34:14\">XXXIV, 14</cite>) <he>זביחה בכלל … להַקִּישׁ אליה</he> slaughtering for the idol would have been included in worshipping, and why is it singled out? To compare all other idolatrous functions with it: as slaughtering is a function performed inside &c. ",
+						"<cite ref=\"Zevachim 5b:4\">Zeb. 5ᵇ</cite> <he>הִקִּישׁוֹ הכתוב וכ׳</he> the text (<cite ref=\"Leviticus 7:37\">Lev. VII, 37</cite>) places it side by side with peace offerings; a. fr."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּקַּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be placed side by side, to be compared</i>. ",
+					"units": [
+						"<cite ref=\"Keritot 3a:52\">Ker. 3ᵃ</cite> (ref. to <cite ref=\"Numbers 15:29\">Num. XV, 29</cite>, sq.) <he>הוּקְּשָׁה כל התורה וכ׳</he> all the laws of the Torah are here placed on an equality with idolatry (as regards conditions of punishment). Ib. 2ᵇ <he>הוּקְּשׁוּ כל העריות כולן וכ׳</he> all laws concerning incest are put on an equality with &c. (<cite ref=\"Leviticus 18:29\">Lev. XVIII, 29</cite>); a. fr.—Part. <cite ref=\"M00600\"><he>מוּקָּשׁ</he></cite>. ",
+						"<cite ref=\"Bereishit Rabbah 35\">Gen. R. s. 35</cite> (play on <he>קשתי</he>, <cite ref=\"Genesis 9:13\">Gen. IX, 13</cite>) <he>דבר שהוא מ׳ לי</he> something comparable with me (with the Divine Glory); Yalk. ib. 61; v. <cite ref=\"S01218\"><he>קִישׁוּת</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

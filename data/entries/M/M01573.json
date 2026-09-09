@@ -1,0 +1,37 @@
+{
+	"id": "M01573",
+	"slug": "מלך-5",
+	"headword": {
+		"text": "מֶלֶךְ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מְלֵיךְ"
+		},
+		{
+			"text": "מַלְכָּא"
+		}
+	],
+	"page": {
+		"number": 791,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01572\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 24:7\">Targ. Ps. XXIV, 7</cite>; <cite ref=\"Aramaic Targum to Psalms 24:9\">9</cite>. ",
+				"<cite ref=\"Onkelos Exodus 1:8\">Targ. Ex. I, 8</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 110a:2\">Snh. 110ᵃ</cite> <he>איהו הוה מ׳</he> he (Moses) himself is chief. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 16:3:2\">Y. Yeb. XVI, 15ᶜ</cite>, v. <cite ref=\"A03214\"><he>אָרְסְקִינָס</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:4:15\">Y. Ter. VIII, 46ᵇ</cite> bot. <he>אתעביד מ׳</he> he (Dioclet) became king; a. fr.—Pl. <he>מַלְכֵין</he>, <cite ref=\"M01583\"><he>מַלְכַיָּא</he></cite>, <cite ref=\"M01581\"><he>מַלְכֵי</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 17:6\">Targ. Gen. XVII, 6</cite>. ",
+				"<cite ref=\"Onkelos Genesis 14:5\">Ib. XIV, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:15\">Targ. Prov. VIII, 15</cite>; a. fr.—",
+				"<cite ref=\"Gittin 62a:14\">Gitt. 62ᵃ</cite> <he>שלמא עלייכו מ׳</he> (to scholars) peace be with you, chiefs!—",
+				"<cite ref=\"Shevuot 6b:8\">Shebu. 6ᵇ</cite> <he>תרי מ׳ וכ׳</he> two kings and two viceroys (hyparchs); a. fr."
+			]
+		}
+	]
+}

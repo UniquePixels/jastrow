@@ -1,0 +1,82 @@
+{
+	"id": "B00199",
+	"slug": "בוא",
+	"headword": {
+		"text": "בּוֹא"
+	},
+	"page": {
+		"number": 143,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<cite ref=\"B00005\"><he>בא</he></cite>, <he>בה</he>, v. <cite ref=\"B00170\"><he>בהי</he></cite>, <i>to enter into, split, insert;</i> v. <he>בבא</he>, <cite ref=\"B00280\"><he>בון</he></cite>; <i>to be vacant, clear</i>, v. <he>באר</he>, <he>בור</he>; <i>to be disordered</i>, v. <he>באש</he>, <cite ref=\"B00394\"><he>בוש</he></cite>)<i>to enter, come</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 1:2\">R. Hash. I, 2</cite> <he>בָּאֵי העולם</he> those come into the world, i.e. mortals. ",
+				"<cite ref=\"Chullin 54b:6\">Ḥull. 54ᵇ</cite> <he>בּוֹאֲכֶם בשלום</he> be welcome!—Tanḥ. Vaëra 14; <cite ref=\"Midrash Tehillim 105:7\">Midr. Till. to Ps. LXXVIII, 47</cite>, a. e. (play on <he>ב̇ח̇נ̇מ̇ל̇</he> ibid.) [<he>ב̇א נ̇ח̇ מ̇ל̇</he>] <he>ב̇א ח̇ן̇ מ̇ל̇</he> it (the locust) comes, encamps [rests], and plucks. ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 8:1:8\">Y. Shebu. VIII, 38ᶜ</cite> top, a. e. <he>במקום שבאת</he>, v. <cite ref=\"C00581\"><he>גְּזֵרָה</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:21\">Y. Peah I, 15ᶜ</cite> top, a. fr. <he>יָבֹא עלי אם וכ׳</he> may (evil) befall me, if—; cmp. <cite ref=\"A03397\"><he>אֲתָא</he></cite>; <cite ref=\"Kohelet Rabbah 10:8\">Koh. R. to X, 8</cite> <he>אם לא יבא וכ׳</he> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " with <he>על</he> (b. h. <i>to have sexual connection</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Keritot 1:1\">Kerith. I, 1</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " with <cite ref=\"L00429\"><he>לְיַד</he></cite> or <he>לִידֵי</he> <i>to fall into the power of</i>.—",
+			"units": [
+				"<cite ref=\"Pirkei Avot 2:1\">Aboth II, 1</cite> <he>ואין אתה בא לידי עבירה</he> and sin will have no power over thee. ",
+				"<cite ref=\"Yoma 86b:8\">Yoma 86ᵇ</cite> <he>בא לידו דבר וכ׳</he> (not <he>באת</he>) he had the power (the chance) to commit a sin &c.; <cite ref=\"Kiddushin 39b\">Kidd. 39ᵇ</cite>; a. fr.—<he>בּוֹא וראה</he> come and see (I will prove). Yoma l. c.; a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵבִיא"],
+			"senses": [
+				{
+					"gloss": "<i>to bring, carry</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Gittin 1:1\">Gitt. I, 1</cite> <he>המֵבִיא וכ׳</he> he who brings (as a messenger) a letter of divorce from abroad; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to offer</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bikkurim 1:1\">Bicc. I, 1</cite>; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to draw an object toward’s one’s self</i>, opp. <cite ref=\"E00561\"><he>הוֹלִיךְ</he></cite>, v. <cite ref=\"E00561\"><he>הָלַךְ</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 2:3\">Ḥull. II, 3</cite> <he>הוליך ולא ה׳</he> he put the knife out (in slaughtering) but did not draw it backward; <he>ה׳ ולא וכ׳</he> or drew it toward himself but did not then move forward; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to bring about, produce, cause</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 1:17\">Aboth I, 17</cite> <he>מביא חטא</he> begets sin; a. fr."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": "<i>to lead, procure admittance</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 20b\">Ab. Zar. 20ᵇ</cite> Torah <he>מביאה לידי וכ׳</he> (v. supra) leads to careful conduct &c. ",
+						"<cite ref=\"Avodah Zarah 18a:12\">Ib. 18ᵃ</cite> <he>אתה מְבִיאֵנִי וכ׳</he> wilt thou procure me (promise me) admittance into the world to come?; a. fr."
+					],
+					"label": "5"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

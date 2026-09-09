@@ -1,0 +1,28 @@
+{
+	"id": "B01244",
+	"slug": "בריאותא",
+	"headword": {
+		"text": "בְּרִיאוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּרִיּוּתָא"
+		},
+		{
+			"text": "בְּרִיּיוּתָא"
+		}
+	],
+	"page": {
+		"number": 193,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01243\">same</cite>.",
+			"units": [
+				"<cite ref=\"Niddah 47b:51\">Nidd. 47ᵇ</cite> <he>מחמת בריאותֵה</he> (or read … <he>תא</he>) on account of (his) obesity. ",
+				"<cite ref=\"Bekhorot 45b:4\">Bekh. 45ᵇ</cite> <he>ב׳ אתחלא וכ׳</he> it is (unusual) strength which happened to rest in the left hand (and left-handedness is therefore no defect), opp. <cite ref=\"K00461\"><he>כחישותא</he></cite> weakness."
+			]
+		}
+	]
+}

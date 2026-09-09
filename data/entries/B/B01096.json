@@ -1,0 +1,35 @@
+{
+	"id": "B01096",
+	"slug": "בצלאל",
+	"headword": {
+		"text": "בְּצַלְאֵל"
+	},
+	"page": {
+		"number": 184,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (b. h.) <i>Bezaleel</i>; ",
+			"units": []
+		},
+		{
+			"gloss": " the artificer of the Tabernacle. ",
+			"units": [
+				"<cite ref=\"Berakhot 55a:13\">Ber. 55ᵃ</cite>. ",
+				"<cite ref=\"Shemot Rabbah 48:6\">Ex. R. s. 48</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " R. B., an Amora. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 3:11:2\">Cant. R. to III, 11</cite> <he>ר׳ ברכיה בשם ר׳ ב׳</he> (<cite ref=\"Bamidbar Rabbah 12:10\">Num. R. s. 12</cite> <cite ref=\"B01097\"><he>בצלה</he></cite>; Pesik. Vayhi, p. 4ᵇ <cite ref=\"L00247\"><he>לוי</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 369:6\">Yalk. Ex. 369</cite> only <he>בשם ר׳</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "D00626",
+	"slug": "דימוסנאי",
+	"headword": {
+		"text": "דִּימוֹסְנָאֵי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּימְסוֹנָאֵי"
+		},
+		{
+			"text": "דימסנאי"
+		}
+	],
+	"page": {
+		"number": 300,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (a corrupt. of δημοσιῶναι = publicani) <i>farmers of public revenues</i> under the Roman government. Meg. Taan. ch. III, quot. in <cite ref=\"Sanhedrin 91a:6\">Snh. 91ᵃ</cite> [read:] <he>איתבטילו ד׳ וכ׳</he> (v. Rabb. D. S. a. l. note) the <i>demosionai</i> were removed.",
+			"units": []
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "A02672",
+	"slug": "אפיוטות",
+	"headword": {
+		"text": "אִפְיוֹטוֹת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 102,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"Q00183\"><he>פוט</he></cite>) prop. <i>able to talk</i> (sensibly), hence <i>children</i> of about six or seven years. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 5:8:2\">Y. Gitt. V, 47ᵇ</cite> bot. <he>א׳ פרייא</he> <i>ifyototh</i> (Mish. ",
+				"<cite ref=\"Mishnah Gittin 5:8\">ib. V, 8</cite> referred to reads <cite ref=\"Q01373\"><he>פְּעוּטוֹת</he></cite> q. v.) means <i>little ones</i> (v. <cite ref=\"Q01527\"><he>פרא</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 4:3:4\">Y. Maas. Sh. IV, 55ᵃ</cite> <he>פתר לה … א׳ וכ׳</he> expounds the subject by analogy with the law concerning minors, for we read in the Mishnah &c., v. supra."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "C00295",
+	"slug": "גובתא-2",
+	"headword": {
+		"text": "גּוּבְתָא"
+	},
+	"page": {
+		"number": 218,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"C00029\"><he>גֵּב</he></cite>) <i>little reservoir</i>, whence <i>tube, channel</i>. Targ. II Esth. I, 3 <he>ג׳ דכוחלא</he> the tube containing the eye-paint; <cite ref=\"Berakhot 18b\">Ber. 18ᵇ</cite> <he>גּוּבְתָאִי דכ׳</he> my tube &c.—",
+			"units": [
+				"<cite ref=\"Shabbat 90b:4\">Sabb. 90ᵇ</cite> <he>רמי ליה בג׳ דנחשא</he> one puts it into a bronze tube. ",
+				"<cite ref=\"Shabbat 146b:4\">Ib. 146ᵇ</cite> <he>ג׳</he> to insert a tube into the barrel. ",
+				"<cite ref=\"Chullin 58b:7\">Ḥull. 58ᵇ</cite> <he>ההיא ג׳ וכ׳</he> a channel was discovered forming the passage from the second stomach &c. ",
+				"<cite ref=\"Yevamot 75b:16\">Yeb. 75ᵇ</cite> <he>ג׳ דשכבת זרע</he> the channel for the effusion of semen."
+			]
+		}
+	]
+}

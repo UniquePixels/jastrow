@@ -1,0 +1,24 @@
+{
+	"id": "A02693",
+	"slug": "אפימליטיס",
+	"headword": {
+		"text": "אֶפִּימְלֵיטֵיס"
+	},
+	"page": {
+		"number": 103,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἐπιμελήτης) <i>manager, commissioner</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Batra 10:5\">Tosef. B. Bath. X, 5</cite> <he>אפומ׳</he> ed. Zuck. (ed. <cite ref=\"A02623\"><he>אפולמוטוס</he></cite>, corr. acc.). ",
+				"<cite ref=\"Bava Batra 144b\">B. Bath. 144ᵇ</cite> <cite ref=\"Q00238\"><he>פולמוסטוס</he></cite> ed. (Ms. <he>פומליטוס</he>, oth. var. v. Rabb. D. S. a. l. note 2; corr. acc.). ",
+				"<cite ref=\"Menachot 85b\">Men. 85ᵇ</cite> <cite ref=\"Q00238\"><he>פולמוסטוס</he></cite> ed. (Ar. <cite ref=\"Q01083\"><he>פלמיטוס</he></cite>); corr. acc."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "D00689",
+	"slug": "דיצא-1",
+	"headword": {
+		"text": "דִּיצָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 304,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>דּוּץ</he> II) <i>pricking pain</i> in the eye. ",
+			"units": [
+				"<cite ref=\"Beitzah 22a:13\">Bets. 22ᵃ</cite>; <cite ref=\"Avodah Zarah 28b:12\">Ab. Zar. 28ᵇ</cite>"
+			]
+		}
+	]
+}

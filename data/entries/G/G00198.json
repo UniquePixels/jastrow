@@ -1,0 +1,39 @@
+{
+	"id": "G00198",
+	"slug": "זונה-2",
+	"headword": {
+		"text": "זוֹנָה"
+	},
+	"page": {
+		"number": 388,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"G00569\"><he>זָנָה</he></cite>) [<i>degenerate, degraded</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": " (in marriage law) <i>one unfit to marry a priest</i> (v. <cite ref=\"G00102\"><he>זָהַם</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Yevamot 6:5\">Yeb. VI, 5</cite> <he>שהיא ז׳ האמורה וכ׳</he> for that (<cite ref=\"A01283\"><he>אַיְלוֹנִית</he></cite>) is the <i>zonah</i> meant in the Law (<cite ref=\"Leviticus 21:7\">Lev. XXI, 7</cite>, as one not married for propagation). ",
+				"<cite ref=\"Leviticus 21:7\">Ib.</cite> <he>אין ז׳ אלא וכ׳</he> a <i>zonah</i> (unfit to marry a priest) is none but a proselyte, a freed-woman and one who has had connection in forbidden grades of relationship. Ib. 61ᵇ, a. e. <he>פנוי … עשאה ז׳</he> if an unmarried man has had connection with an unmarried woman without the intention of marriage, he has made her a <i>zonah</i> (for priesthood), Ib. <he>ז׳ ז׳ כשמה</he> the Biblical <i>zonah</i> means what the name indicates (a faithless wife); ib. <he>ז׳ מופקרת</he> <i>zonah</i> means a prostitute; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>harlot</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 23a:14\">Ber. 23ᵃ</cite>. ",
+				"<cite ref=\"Chagigah 15a:7\">Ḥag. 15ᵃ</cite> (in Chald. diction) <he>אשכח ז׳</he> he met a prostitute. ",
+				"<cite ref=\"Sanhedrin 82a:8\">Snh. 82ᵃ</cite>; a. fr.—Pl. <he>זוֹנוֹת</he>. ",
+				"<cite ref=\"Avodah Zarah 17b:14\">Ab. Zar. 17ᵇ</cite>, a. e. <he>קובה של ז׳</he> (Roman) house of prostitution. ",
+				"<cite ref=\"Sanhedrin 95b\">Snh. 95ᵇ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

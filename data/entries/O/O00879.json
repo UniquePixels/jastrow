@@ -1,0 +1,25 @@
+{
+	"id": "O00879",
+	"slug": "סכוכית-1",
+	"headword": {
+		"text": "סְכוּכִית",
+		"homograph": 1
+	},
+	"page": {
+		"number": 989,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"G00445\"><he>זְכוּכִית</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 8:21\">Tosef. Sabb. VIII</cite> (<cite ref=\"Tosefta Shabbat 9:21\">IX</cite>), 21 ed. Zuck. (Var. <he>ז׳</he>). ",
+				"<cite ref=\"Mishnah Shabbat 8:6\">Sabb. VIII, 6</cite> (<cite ref=\"Shabbat 81a:3\">81ᵃ</cite>) Ms. M. (ed. <he>ז׳</he>).—Pl. <he>סְכוּכִיּוֹת</he>. ",
+				"<cite ref=\"Tosefta Bava Kamma 2:6\">Tosef. B. Kam. II, 6</cite> ed. Zuck. (Var. <he>ז׳</he>)."
+			]
+		}
+	]
+}

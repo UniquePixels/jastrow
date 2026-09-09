@@ -1,0 +1,33 @@
+{
+	"id": "P00347",
+	"slug": "עור-6",
+	"headword": {
+		"text": "עִוֵּר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1057,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to blind; to cause perversion of judgment</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 144:10\">Sifré Deut. 144</cite> (ref. to <cite ref=\"Deuteronomy 16:19\">Deut. XVI, 19</cite>) <he>כי השוחד יְעַוֵּר שאומר על וכ׳</he> ‘bribe blindeth’, that means, that (in old age) he will declare unclean what is clean &c.; Yalk. ib. 907; <cite ref=\"Ketubot 105a:15\">Keth. 105ᵃ</cite> (v. ",
+				"<cite ref=\"Mishnah Peah 8:9\">Peah VIII, 9</cite>); Mekh. Mishp., s. 20 (ref. to <cite ref=\"Exodus 23:8\">Ex. XXIII, 8</cite>) <he>יעור עיני חכמים בתורה</he> blinds the judgment of scholars of the Law."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְעַוֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be blinded</i>. Tanḥ. Aḥăré 1 <he>נִתְעַוִּרוּ עיניו</he> his eyes were put out.",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

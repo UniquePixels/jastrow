@@ -1,0 +1,23 @@
+{
+	"id": "N00594",
+	"slug": "ניא",
+	"headword": {
+		"text": "נִיא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 902,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>climate</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Batra 2:4:2\">Y. B. Bath. II, 13ᶜ</cite> top, v. <cite ref=\"N00317\"><he>נָוֶה</he></cite> II a. <cite ref=\"N00354\"><he>נוֹי</he></cite>."
+			]
+		}
+	]
+}

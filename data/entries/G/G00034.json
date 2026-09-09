@@ -1,0 +1,23 @@
+{
+	"id": "G00034",
+	"slug": "זביחה",
+	"headword": {
+		"text": "זְבִיחָה"
+	},
+	"page": {
+		"number": 378,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00030\"><he>זָבַח</he></cite>) <i>slaughtering ceremony</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 31b:19\">Ḥull. 31ᵇ</cite> <he>כוונה לז׳</he> intention to slaughter according to ritual, contrad. to <cite ref=\"H01886\"><he>חתיכה</he></cite> the cutting operation as such. ",
+				"<cite ref=\"Sanhedrin 60b:15\">Snh. 60ᵇ</cite> <he>יצתה ז׳</he> slaughtering for idolatry is especially mentioned (<cite ref=\"Exodus 22:19\">Ex. XXII, 19</cite>); a. fr."
+			]
+		}
+	]
+}

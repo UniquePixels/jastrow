@@ -1,0 +1,30 @@
+{
+	"id": "I00353",
+	"slug": "טייפה",
+	"headword": {
+		"text": "טַיְיפָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְיוֹפָה"
+		},
+		{
+			"text": "טַיְיפָה סַמּוֹקָה"
+		}
+	],
+	"page": {
+		"number": 531,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Tayfa Sammoka</i> (dyer of red colors?). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 3:4:3\">Y. Dem. III, 23ᶜ</cite>; Y. Yeb. VIII, beg. 8ᶜ <he>טיו׳ סמוקי</he>."
+			]
+		}
+	]
+}

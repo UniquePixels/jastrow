@@ -1,0 +1,36 @@
+{
+	"id": "U01328",
+	"slug": "שלימותא",
+	"headword": {
+		"text": "שְׁלִימוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁלֵי׳"
+		},
+		{
+			"text": "שַׁלְמוּתָא"
+		},
+		{
+			"text": "שְׁלֶמְתָּא"
+		}
+	],
+	"page": {
+		"number": 1584,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01327\">preced. art.</cite>) <i>completeness, perfection, fulness, integrity</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 5:26\">Targ. Job V, 26</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 25:21\">Targ. Ps. XXV, 21</cite> <he>שלימו׳</he> (ed. Lag. <he>שלמתא</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 78:72\">Ib. LXXVIII, 72</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 4:6\">Targ. Job IV, 6</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"id": "T00516",
+	"slug": "רחם-1",
+	"headword": {
+		"text": "רָחַם"
+	},
+	"page": {
+		"number": 1467,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to love</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִיחֵם"],
+			"senses": [
+				{
+					"gloss": " (with <he>על</he>) <i>to have compassion on, pity; to befriend</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 33a\">Ber. 33ᵃ</cite> <he>כל מי … אסור לרַחֵם עליו</he> you must not befriend him who has no sense (ref. to <cite ref=\"Isaiah 27:11\">Is. XXVII, 11</cite>). ",
+						"<cite ref=\"Shabbat 151b:14\">Sabb. 151ᵇ</cite> <he>כל המְרַחֵם … מְרַחֲמִין עליו וכ׳</he> he who shows mercy to creatures (men), will be shown mercy in heaven (ref. to <cite ref=\"Deuteronomy 13:18\">Deut. XIII, 18</cite>), v. <cite ref=\"T00528\"><he>רַחֲמָן</he></cite>. ",
+						"<cite ref=\"Avodah Zarah 18a:7\">Ab. Zar. 18ᵃ</cite> <he>מן השמים יְרַחֵמוּ</he> heaven will have mercy (protect me); <cite ref=\"Niddah 45a:44\">Nidd. 45ᵃ</cite>. ",
+						"<cite ref=\"Mishnah Sotah 8:1\">Sot. VIII, 1</cite> <he>יְרַחֲמוּ עליכם</he> they will have mercy on you (spare your lives); a. fr.—Trnsf. <i>to give suck to a strange animal</i>. ",
+						"<cite ref=\"Bekhorot 24a:17\">Bekh. 24ᵃ</cite> <he>אינה מְרַחֶמֶת אלא וכ׳</he> no dam gives suck to a stranger, unless she has had a child of her own. ",
+						"<cite ref=\"Bekhorot 24a:10\">Ib.</cite> <he>מרחמת אע״פ וכ׳</he> she may give suck, even if she has never given birth."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to stimulate the maternal instinct</i> (v. <cite ref=\"T00520\"><he>רֶחֶם</he></cite>) of an animal after confinement by inserting a lump of salt into the womb. ",
+					"units": [
+						"<cite ref=\"Tosefta Shabbat 15:1\">Tosef. Sabb. XV</cite> (<cite ref=\"Tosefta Shabbat 16:2\">XVI</cite>), 2 <he>מְרַחֲמִין היינו בהמה טהורה ביו״ט</he> ed. Zuck. (Var. <he>על בהמה</he>) we (in my father’s house) used to stimulate &c. on a Holy Day; <cite ref=\"Shabbat 128b:16\">Sabb. 128ᵇ</cite> <he>על בהמה</he>; Y. ib. XVIII, end, 16ᶜ <he>על הבהמה</he>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְרַחֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to have pity</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9<sup>24</sup></cite> <he>אם נופלים אנו … מִתְרַחֵם עלינו אין אנו מִתְרַחֲמִים עליו</he> if we fall into David’s hands, he will have pity on us, but if David fall into our hands, we shall have no pity on him; Y. Sot. I, 17ᵇ bot. <he>הוא מרחם … אנו מרחמין</he>)."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

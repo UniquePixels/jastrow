@@ -1,0 +1,35 @@
+{
+	"id": "H01233",
+	"slug": "חמש-2",
+	"headword": {
+		"text": "חֲמֵשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַמְשָׁא"
+		},
+		{
+			"text": "חַמְשָׁה"
+		}
+	],
+	"page": {
+		"number": 480,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. <cite ref=\"H01232\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 45:11\">Targ. Gen. XLV, 11</cite>. ",
+				"<cite ref=\"Onkelos Genesis 47:2\">Ib. XLVII, 2</cite>; a. fr.—",
+				"<cite ref=\"Yoma 84a:3\">Yoma 84ᵃ</cite> <he>ח׳ ומעלי וכ׳</he> on Thursday and on Friday; a. fr.—Pl. <cite ref=\"H01789\"><he>חַמְשִׁין</he></cite> <i>fifty</i>. ",
+				"<cite ref=\"Onkelos Numbers 31:47\">Targ. Num. XXXI, 47</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 51a:7\">B. Mets. 51ᵃ</cite>; a. fr.—<he>חֲמֵישַׁת עַשְׂרָה</he> (<he>חֲמֵישְׁתְּ</he>) <i>fifteen</i>. ",
+				"<cite ref=\"Onkelos Leviticus 23:6\">Targ. O. Lev. XXIII, 6</cite>; a. fr.; v. <cite ref=\"H01184\"><he>חֲמֵיסַר</he></cite>."
+			]
+		}
+	]
+}

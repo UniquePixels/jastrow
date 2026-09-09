@@ -1,0 +1,76 @@
+{
+	"id": "K00157",
+	"slug": "כהי-2",
+	"headword": {
+		"text": "כְּהִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּהָא"
+		}
+	],
+	"page": {
+		"number": 615,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"K00156\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 27:1\">Targ. Gen. XXVII, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 14:4\">Targ. I Kings XIV, 4</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Nedarim 9:1:7\">Y. Ned. IX, 41ᵇ</cite> bot. <he>עיני כַּהֲיָיא</he> my eye-sight is failing."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּהֵי", "כַּהֵה"],
+			"senses": [
+				{
+					"gloss": "<i>to dim, make blind</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 69b\">Yoma 69ᵇ</cite>; <cite ref=\"Sanhedrin 64a\">Snh. 64ᵃ</cite> <he>כַּהֲיִינְהוּ לעיניה</he> Ar. (ed. <cite ref=\"K00468\"><he>כחלינהו</he></cite>, cmp. <cite ref=\"K00048\"><he>כְּבִי</he></cite>) they made his eye-sight dim. Ib. 27ᵃ <he>ליכַהֲיוּהוּ לעיניה</he> (v. Rabb. D. S. a. l. note 80) he shall be blinded."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (sub. <he>לִבֵּיה</he>) <i>to be angry;</i> (with <cite ref=\"B00000\"><he>ב־</he></cite> of person) <i>to rebuke</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 3:13\">Targ. I Sam. III, 13</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַכְהֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to dim</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 32:7\">Targ. Ez. XXXII, 7</cite> <he>באַכְהָיוּתִי</he> when I make dim (h. text <he>בכבותך</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make the heart faint, to annoy, reproach</i> (<i>falsely</i>). Ib. XIII, 22 <he>אַכְהֵיתִין לב וכ׳</he> ye denounced the heart of the righteous to be false (h. text <he>הכאות</he>).",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְכְּהִי"],
+			"senses": [
+				{
+					"gloss": "<i>to be reproached</i>. Ib. (h. text <he>הכאבתיו</he>).",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

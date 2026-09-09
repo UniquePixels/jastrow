@@ -1,0 +1,24 @@
+{
+	"id": "F00088",
+	"slug": "ורדינא-1",
+	"headword": {
+		"text": "וַרְדִּינָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 375,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"F00084\"><he>וַרְדָּא</he></cite>) (<i>wild</i>) <i>rose-bush, thorn-hedge</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 67a:2\">Sabb. 67ᵃ</cite>.—Pl. <he>וַרְדִּינֵי</he>. ",
+				"<cite ref=\"Bava Kamma 80a:12\">B. Kam. 80ᵃ</cite>"
+			]
+		}
+	]
+}

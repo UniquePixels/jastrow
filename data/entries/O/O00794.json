@@ -1,0 +1,31 @@
+{
+	"id": "O00794",
+	"slug": "סיפטא",
+	"headword": {
+		"text": "סִיפְטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִפְ׳"
+		}
+	],
+	"page": {
+		"number": 985,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (mostly as collect. noun; cmp. <cite ref=\"R00031\"><he>צבט</he></cite>, <he>צבת</he>) <i>luggage, bag, bags</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 73b\">B. Mets. 73ᵇ</cite>; <cite ref=\"Yevamot 46a\">Yeb. 46ᵃ</cite> Ar. (ed. <cite ref=\"I00670\"><he>טַפְסָא</he></cite>). ",
+				"<cite ref=\"Taanit 21a:11\">Taan. 21ᵃ</cite> <he>מלא ס׳ דאבנים וכ׳</he> (omitted in Ms. M., v. Rabb. D. S. a. l. note 2) a load of precious stones &c. ",
+				"<cite ref=\"Taanit 21a:11\">Ib.</cite> <he>שקלינהו לסִיפְטֵיה וכ׳</he> (Ms. M. <he>שקלו כל מה דהוה בסיפטיהו</he>) they took out (the contents of) his bags and filled them with earth. ",
+				"<cite ref=\"Taanit 21a:12\">Ib.</cite> <he>שרינהו לס׳</he> (Ms. M. <he>לסַיפְטַיְהוּ</he>; Ms. M. 2 everywhere <he>טפס׳</he>) they untied his bags; <cite ref=\"Sanhedrin 109a\">Snh. 109ᵃ</cite> (v. Rabb. D. S. a. l. note 60); <cite ref=\"Yalkut Shimoni on Nach 312\">Yalk. Is. 312</cite> (Ms. <he>ספת׳</he>, v. Rabb. D. S. to Taan. l. c. note). ",
+				"<cite ref=\"Sanhedrin 82a:6\">Snh. 82ᵃ</cite> <he>אותביה בס׳</he> he put it (the skull) into a bag; <cite ref=\"Sanhedrin 104a:9\">ib. 104ᵃ</cite> <he>בסִיפְתָּא</he>."
+			]
+		}
+	]
+}

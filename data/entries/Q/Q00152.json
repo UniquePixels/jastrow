@@ -1,0 +1,51 @@
+{
+	"id": "Q00152",
+	"slug": "פוג-1",
+	"headword": {
+		"text": "פּוּג"
+	},
+	"page": {
+		"number": 1138,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"Q00174\"><he>פוח</he></cite>)<i>to evaporate, become faint; to escape</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 3:5\">Tosef. Sabb. III</cite> (<cite ref=\"Tosefta Shabbat 4:5\">IV</cite>), 5 <he>שתָּפוּג צינתן</he> sufficient time for the cold in them to escape; <cite ref=\"Shabbat 40b\">Sabb. 40ᵇ</cite> <he>שתפוג</he> Ms. M. (ed. <he>שתָּפִיג</he>); Y. ib. III, 6ᵇ top <he>שתפיג</he>. ",
+				"<cite ref=\"Yoma 34b\">Yoma 34ᵇ</cite> <he>שתפוג</he> Ms. M. (ed. <he>שתפיג</he>). ",
+				"<cite ref=\"Keritot 6b:9\">Ker. 6ᵇ</cite> <he>כדי שלא תפוג ריחה</he> that its fragrance may not escape. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:9:2\">Y. Bets. I, 60ᵈ</cite> top <he>שטעמן פָּג</he> their flavor would escape; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵפִיג"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q00151\">same</cite>, v. supra. ",
+					"units": [
+						"<cite ref=\"Eruvin 64a\">Erub. 64</cite> <cite ref=\"Q00151\">same</cite>, v. supra. ",
+						"<cite ref=\"Eruvin 64b:9\">Erub. 64ᵇ</cite> <he>עד שיָפִיג יינינו</he> until the wine we drank has escaped (the effect of the wine is overcome)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lose taste, intensity; to cause to escape; to cool off; to mitigate</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 41a:7\">Pes. 41ᵃ</cite> <he>מים שאין מְפִיגִין טעמן</he> water, which does not give up its taste (to the substance boiled in it) <he>שאר משקין שמפיגין וכ׳</he> other liquids, which do communicate their taste. ",
+						"<cite ref=\"Beitzah 14a:5\">Bets. 14ᵃ</cite> <he>כל התבלין מפיגין טעמן … מְפִיגָה וכ׳</he> all spices lose their taste (when pounded a day before), but salt does not &c. ",
+						"<cite ref=\"Midrash Tehillim 79:2\">Midr. Till. to Ps. LXXIX</cite> <he>ה׳ את חמתו וכ׳</he> let out his anger on wood and stone. ",
+						"<cite ref=\"Sanhedrin 22b:13\">Snh. 22ᵇ</cite> <he>דרך … מפיגין את היין</he> a walk of a mile, or a little sleep cause the wine to escape (counteract the effect of the wine); Erub. l. c. Ib. <he>שדרך מפיגה וכ׳</he> that walking counteracts &c. ",
+						"<cite ref=\"Bava Batra 10a:12\">B. Bath. 10ᵃ</cite> <he>יין מְפִיגוֹ</he>, v. <cite ref=\"Q00446\"><he>פַּחַד</he></cite>.—",
+						"<cite ref=\"Mishnah Yoma 1:7\">Yoma I, 7</cite> <he>והָפֵג אחת וכ׳</he> and drive out (thy drowsiness, cool thy feet) &c., v. <cite ref=\"A00994\"><he>אֶחָד</he></cite>. ",
+						"<cite ref=\"Yoma 75b:11-13\">Ib. 75ᵇ</cite> <he>דברים … מן מְפִיגָן</he> the manna counteracted the effect of such food as traders sold them; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

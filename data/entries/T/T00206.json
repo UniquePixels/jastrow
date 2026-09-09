@@ -1,0 +1,33 @@
+{
+	"id": "T00206",
+	"slug": "רגלאה",
+	"headword": {
+		"text": "רִגְלָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִגְלַי"
+		},
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1449,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"T00208\"><he>רַגְלִי</he></cite>, <i>footman</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 12:37\">Targ. O. Ex. XII, 37</cite> ed. Berl. (oth. ed. <he>רִגְלָאִין</he> pl.). ",
+				"<cite ref=\"Onkelos Numbers 11:21\">Targ. O. Num. XI, 21</cite> (Y. <he>רִגְלְיָין</he>, <i>pl.</i>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 12:5\">Targ. Jer. XII, 5</cite>; a. e.—[<cite ref=\"Targum Jonathan on Leviticus 8:21\">Targ. Y. Lev. VIII, 21</cite>; <cite ref=\"Aramaic Targum to Proverbs 19:28\">Targ. Prov. XIX, 28</cite>, v. preced.]—<i>Pl.</i> <he>רִגְלָאִין</he>, <he>רִגְלְיָין</he>, <cite ref=\"T00053\"><he>רִי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 15:8\">Targ. Jud. XV, 8</cite> (ed. Wil. <cite ref=\"T00086\"><he>רַ׳</he></cite>); a. e., v. supra."
+			]
+		}
+	]
+}

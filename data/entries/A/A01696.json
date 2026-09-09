@@ -1,0 +1,103 @@
+{
+	"id": "A01696",
+	"slug": "אכל-1",
+	"headword": {
+		"text": "אָכַל"
+	},
+	"page": {
+		"number": 63,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>אך</he> <i>to rub</i>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to gnaw, eat, consume</i>. Inf. in Y. freq. <he>לוֹכַל</he> = <he>לֶאֱכוֹל</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite>; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " trnsf. <i>to absorb, occupy, take away</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shevuot 7:7:4\">Y. Shebu. VII, 38ᵃ</cite> <he>בשרבית אוֹכֶלֶת בו</he> when interests gnaw on (absorb) the property. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 4:3:2\">Y. Erub. IV, 21ᵈ</cite> bot. <he>ד׳ אמות אוֹכְלוֹת וכ׳</he> four cubits entering into the area of Tiberias. ",
+				"<cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4</cite> <he>כמה לוחות אוֹכְלוֹת</he> how much space did the tablets occupy &c.? <cite ref=\"Bava Batra 14a\">B. Bath. 14ᵃ</cite> (interchanging with <he>איגרות</he>, Var. <he>אוגדות</he>, v. Rabb. D. S. a. l. note 5, 6)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (euphem.) <i>to sleep with</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 5:9\">Keth. V, 9</cite>, differ. of opin. ",
+				"<cite ref=\"Ketubot 65b:6\">ib. 65ᵇ</cite>; Y. ib. 30ᵇ top a. bot."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶאֱכַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be eaten</i> &c. ",
+					"units": [
+						"<cite ref=\"Mishnah Zevachim 1:3\">Zeb. I, 3</cite>; <cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["אִיכֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to consume, burn</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Tamid 1:4\">Tam. I, 4</cite> <he>המְאוּכָּלוֹת הפנימיות</he> (Talm. ed. <he>המעו׳</he>) the thoroughly lighted coals in the centre; Y. Yoma II, 39ᶜ"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶאֱכִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to give to eat, cause to eat</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Ketubot 5:3\">Keth. V, 3</cite> <he>היבם אינו מַאֵכִיל וכ׳</he> the Yabam does not transfer the privilege of eating T’rumah to his sister-in-law. ",
+						"<cite ref=\"Kiddushin 31a:14\">Kidd. 31ᵃ</cite> <he>יש מאכיל וכ׳</he> one may feed his father on pheasants &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְאַכֵּל", "נִתְאַכֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be consumed, burnt up, digested</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Berakhot 8:7\">Ber. VIII, 7</cite> <he>עד כדי שיִתְאַכֵּל וכ׳</he> Ar. (ed. <he>שיתע׳</he>) until the food is digested (or absorbed) in his bowels. ",
+						"<cite ref=\"Mishnah Tamid 2:1\">Tam. II, 1</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be worn off, spent</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 6:12\">Snh. VI, 12</cite> Y. ed. <he>נתא׳ הבשר</he> (Mish. ib. VI, 6 <he>נתע׳</he>) when the flesh of the corpse was gone. ",
+						"<cite ref=\"Shir HaShirim Rabbah 4:4\">Cant. R. to IV, 4</cite> <he>שלא נתא׳ אחת מהן</he> none of them was worn off. ",
+						"<cite ref=\"Kiddushin 59a:9\">Kidd. 59ᵃ</cite> <he>נתא׳ המעות</he> the money was spent; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa. a. Nithpa."
+		}
+	]
+}

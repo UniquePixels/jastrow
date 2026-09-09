@@ -1,0 +1,28 @@
+{
+	"id": "K00344",
+	"slug": "כופר-2",
+	"headword": {
+		"text": "כּוֹפֶר"
+	},
+	"altHeadwords": [
+		{
+			"text": "כֹּפֶר",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 624,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>cyprus flower</i> (v. Löw Pfl. p. 212). ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 7:6\">Shebi. VII, 6</cite> <he>והכו׳</he> Ms. M. (ed. <he>והכפ׳</he>); <cite ref=\"Niddah 8a\">Nidd. 8ᵃ</cite>.—Chald. <cite ref=\"K00997\"><he>כְּפוֹרָא</he></cite>."
+			]
+		}
+	]
+}

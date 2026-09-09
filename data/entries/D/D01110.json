@@ -1,0 +1,23 @@
+{
+	"id": "D01110",
+	"slug": "דרן",
+	"headword": {
+		"text": "דֶּרֶן"
+	},
+	"page": {
+		"number": 324,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. b. h. <he>דֵּרָאוֹן</he>) <i>deren</i>, name of a parasite worm.—Pl. <cite ref=\"D00136\"><he>דְּרָנִים</he></cite>, constr. <he>דַּרְנֵי</he>. ",
+			"units": [
+				"<cite ref=\"Chullin 67b:11\">Ḥull. 67ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 54b:18\">Sabb. 54ᵇ</cite> <he>ד׳ ראשה</he> the worms in the sheep’s head."
+			]
+		}
+	]
+}

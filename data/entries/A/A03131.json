@@ -1,0 +1,23 @@
+{
+	"id": "A03131",
+	"slug": "ארכבתא",
+	"headword": {
+		"text": "אַרְכַּבְתָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 121,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>רכב</he>) (a rider,) <i>the uppermost layer of a clay dam around a field</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 103b:10\">B. Mets. 103ᵇ</cite> <cite ref=\"B00249\"><he>בוכרא</he></cite> the first, <he>טפתא</he> the additional (middle), <he>א׳</he> the uppermost. [<cite ref=\"Targum Jonathan on Leviticus 9:17\">Targ. Y. Lev. IX, 17</cite> read <cite ref=\"A00413\"><he>אַדְכַּרְתָּהּ</he></cite>.]"
+			]
+		}
+	]
+}

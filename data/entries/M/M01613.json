@@ -1,0 +1,34 @@
+{
+	"id": "M01613",
+	"slug": "מלק-1",
+	"headword": {
+		"text": "מָלַק"
+	},
+	"page": {
+		"number": 793,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to pinch</i> a bird’s neck with the finger nail. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 6:5\">Zeb. VI, 5</cite>; <cite ref=\"Mishnah Zevachim 7:5\">Ib. VII, 5</cite>; a. fr.—Part. pass. <he>מָלוּק</he>; f. <cite ref=\"M03033\"><he>מְלוּקָה</he></cite>, pl. <he>מְלוּקוֹת</he>. Sifra Vayikra, N’dab., Par. 9, ch. XI <he>מְלוּקַת רשות</he> a bird that has been pinched for a profane purpose, opp. <he>מ׳ מציה</he>. ",
+				"<cite ref=\"Mishnah Zevachim 7:5\">Ib.</cite> <he>מלוקית ישראל</he> birds pinched by Israelites (not for sacrificial purposes), opp. <he>מ׳ כהנים</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִמְלַק"],
+			"senses": [
+				{
+					"gloss": "<i>to be killed by pinching</i>. Y. Sabb. II, 5ᵃ bot. <he>משנִמְלְקָה</he> after the pinching has been performed. ",
+					"units": [
+						"<cite ref=\"Avot D'Rabbi Natan 1:6\">Ab. d’R. N. ch. I</cite> <he>כמה עופות נִמְלְקוּ עליך</he> how many birds have been pinched for thee (the altar)!; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

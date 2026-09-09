@@ -1,0 +1,27 @@
+{
+	"id": "O01201",
+	"slug": "סנוורתא",
+	"headword": {
+		"text": "סַנְוַורְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַנְוַארְתָּה"
+		}
+	],
+	"page": {
+		"number": 1005,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01200\">preced.</cite>; cmp. Syr. <he>סנורא</he>, lorica, P. Sm. 2680) <i>polished metal helmet</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 62a:6\">Sabb. 62ᵃ</cite>, expl. <cite ref=\"S01635\"><he>קסדא</he></cite> (Ms. M. <cite ref=\"O01242\"><he>סנירתא</he></cite>, read <he>סנור׳</he>; v. Rabb. D. S. a. l. note for Var. lect.)."
+			]
+		}
+	]
+}

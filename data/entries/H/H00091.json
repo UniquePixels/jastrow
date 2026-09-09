@@ -1,0 +1,28 @@
+{
+	"id": "H00091",
+	"slug": "חבלא-3",
+	"headword": {
+		"text": "חַבְּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַבָּלָא"
+		}
+	],
+	"page": {
+		"number": 420,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"H00095\"><he>חַבָּלָה</he></cite>, <i>destruction</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 4:25\">Targ. Y. I Ex. IV, 25</cite> <he>מלאך ח׳</he> (II <cite ref=\"M00802\"><he>מְחַבְּלָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 22:10\">Targ. Y. I Gen. XXII, 10</cite> (<cite ref=\"Targum Jonathan on Genesis 2\">II</cite> some ed. <cite ref=\"H00095\"><he>חַבָּלָה</he></cite>), v. <cite ref=\"H00090\">preced.</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "A00736",
+	"slug": "אוני-2",
+	"headword": {
+		"text": "אוֹנִי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹנִי"
+		}
+	],
+	"page": {
+		"number": 28,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"A00729\"><he>אוֹנוּ</he></cite>) <he>אוֹנִית</he> f. = <cite ref=\"A00735\"><he>אוֹנָה</he></cite>, cmp. <cite ref=\"A00745\"><he>אוֹנִיתָא</he></cite>. [The phonetic coïncidence with ὠνή produced the peculiar use of our w. in connection with Greek terms, in the Palest. literature.] <cite ref=\"Bereishit Rabbah 2:2\">Gen. R. s. 2</cite> beg. <he>בא׳ אחת ובטימי וכ׳</he> in one bill of sale and for the same price. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 4:9:7\">Y. Pes. IV, 31ᵇ</cite> bot. <he>מיסתיוסיס בא׳ היא וכ׳</he> (read <he>מיסתוס׳</he>) it is a lease with a title of possession (for the term), and is (for the time being) an acquisition like a purchase. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:5:7\">Y. Kidd. I, 60ᶜ</cite> (<cite ref=\"A00735\"><he>אוני</he></cite> a. <he>אונו</he>); a. e.—Pl. <he>אוֹנִיוֹת</he>. ",
+				"<cite ref=\"Bereishit Rabbah 84:22\">Gen. R. s. 84</cite>, end <he>כמה א׳ וכ׳</he> how many deeds were written for him (how many times was he sold)?, cmp. <cite ref=\"A00717\"><he>אוֹן</he></cite>. [<cite ref=\"Midrash Tehillim 34:1\">Midr. Till. to Ps. CIV, 24</cite>; Pesik. Rosh. Hash. p. 151ᵃ, v. <cite ref=\"A00740\"><he>אוֹנָיָה</he></cite>.]"
+			]
+		}
+	]
+}

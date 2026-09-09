@@ -1,0 +1,42 @@
+{
+	"id": "U00939",
+	"slug": "שילוח-1",
+	"headword": {
+		"text": "שִׁילּוּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁלּוּחַ"
+		}
+	],
+	"page": {
+		"number": 1563,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01265\"><he>שָׁלַח</he></cite>)<i>sending away, letting go</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 9a:7\">Sot. 9ᵃ</cite> (ref. to <cite ref=\"Isaiah 27:8\">Is. XXVII, 8</cite>) <he>אין הקב״ה … עד שעת שִׁילּוּחָהּ</he> the Lord does not visit her sins upon a nation until the time comes to send her away (into captivity); <he>אין הקב״ה … שִׁילּוּחוֹ</he> the Lord does not punish a king, until the time comes to drive him away (depose him). ",
+				"<cite ref=\"Mishnah Chullin 12:1\">Ḥull. XII, 1</cite>, a. fr. <he>ש׳ הקן</he>, v. <cite ref=\"S01505\"><he>קֵן</he></cite>. ",
+				"<cite ref=\"Chullin 140a:11\">Ib. 140ᵃ</cite> <he>לש׳</he> with regard to the duty of letting the mother bird go. Sifra M’tsorʿa, Neg., Par. 1 <he>ש׳ ציפרים</he> letting the birds (of the leper’s sacrifice) fly (<cite ref=\"Leviticus 14:7\">Lev. XIV, 7</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 1:1:8\">Y. B. Kam. I, 2ᵇ</cite> <he>פרשת ש׳ טמאין</he> the section treating of the sending out of the camp of the unclean (<cite ref=\"Numbers 5:1\">Num. V, 1</cite> sq.). ",
+				"<cite ref=\"Bamidbar Rabbah 7:10\">Num. R. s. 7<sup>10</sup></cite> <he>נתחייבו ש׳ וכ׳</he> they were condemned to be sent out of the camp, this means exile. ",
+				"<cite ref=\"Bereishit Rabbah 61:7\">Gen. R. s. 61</cite> <he>שטר ש׳</he> a document referring to the sending away of children with gifts (<cite ref=\"Genesis 25:6\">Gen. XXV, 6</cite>); a. fr.—Pl. <he>שִׁילּוּחִים</he>, <he>שִׁילּוּחִין</he>, <cite ref=\"U00942\"><he>שִׁלּ׳</he></cite>. Ḥull. l. c. <he>קודם שִׁלּוּחֶיהָ</he> before sending her off. ",
+				"<cite ref=\"Sanhedrin 102a:2\">Snh. 102ᵃ</cite> (ref. to <cite ref=\"Micah 1:14\">Mic. I, 14</cite>) <he>מי … תתנו ש׳ לבניו</he> he who slew the Philistine (Goliath) and gave you Gath as a possession:—will you give a dismissal to his descendants (will you abandon the house of David)?—Esp. <he>שִׁילּוּחִין</he>, <cite ref=\"U00942\"><he>שִׁלּ׳</he></cite> <i>banishment, exile</i>. ",
+				"<cite ref=\"Bereishit Rabbah 19\">Gen. R. s. 19</cite> <he>דנתי אותו בש׳</he> I punished him with banishment (from Eden); Lam. R. introd. (R. Abbahu 1); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "(cmp. <cite ref=\"M02915\"><he>מִשְׁלַחַת</he></cite>) <i>letting loose, visitation</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 114b:17\">Yeb. 114ᵇ</cite> <he>ש׳ נחשים וכ׳</he> a plague of serpents and scorpions.—[Y. Gitt. II, 44ᵇ <he>בינה שילוח</he>, v. <cite ref=\"U00934\"><he>שִׁילָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

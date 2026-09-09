@@ -1,0 +1,112 @@
+{
+	"id": "N00572",
+	"slug": "נטל-2",
+	"headword": {
+		"text": "נְטַל"
+	},
+	"page": {
+		"number": 900,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00571\">same</cite> (corresp. to h. <cite ref=\"N01284\"><he>נָשָׂא</he></cite>) <i>to take, lift, move, carry</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 10:13\">Targ. Ex. X, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 134:2\">Targ. Ps. CXXXIV, 2</cite> <he>טוּלוּ</he> (imperat.); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (corresp. to h. <cite ref=\"N00954\"><he>נָסַע</he></cite>) <i>to move</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 20:1\">Targ. Gen. XX, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 55:9\">Targ. Ps. LV, 9</cite> <cite ref=\"N00573\"><he>נָטְלָא</he></cite> (Bxt. <cite ref=\"N00561\"><he>נטילה</he></cite>; h. text <he>סעה</he>); a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to wash the hands</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 8:2:11\">Y. Ber. VIII, 12ᵃ</cite> bot. <he>הוה נ׳ ידיה</he> is to be considered as if he had washed his hands."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַטֵּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to lift, carry</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 32:11\">Targ. O. Deut. XXXII, 11</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 63:9\">Targ. Is. LXIII, 9</cite>; a. e.—<i>Part. pass.</i> <he>מְנַטַּל</he>, <he>מְנַטְּלָא</he>; f. <he>מְנַטְּלָא</he>; pl. <he>מְנַטְּלִין</he>, <he>מְנַטְּלַיָּא</he>; <he>מְנַטְּלָתָא</he> <i>exalted, high</i>. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 28:13\">Targ. Y. Deut. XXVIII, 13</cite> (opp. <he>מאיסין</he>). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 4:7\">Targ. Y. I ib. IV, 7</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 57:15\">Targ. Is. LVII, 15</cite>. Targ. II Esth. I, 2. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 30:13\">Targ. Prov. XXX, 13</cite>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 15:1\">Targ. Y. Ex. XV, 1</cite> (not <he>מַנְטְלַ׳</he>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 2:14\">Targ. Is. II, 14</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַטֵּיל", "אַנְטֵיל"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to move, to pass</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 15:22\">Targ. Ex. XV, 22</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 78:26\">Targ. Ps. LXXVIII, 26</cite>. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 26:9\">Targ. Y. Deut. XXVI, 9</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to throw</i>; <cite ref=\"A00006\"><he>א׳</he></cite> (<cite ref=\"B00000\"><he>ב</he></cite>)<he>אבנין</he> <i>to stone</i> to death. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 13:11\">Targ. Y. Deut. XIII, 11</cite> <he>תְאַנְטלוּן</he>, <he>תְאַטְּ׳</he> (!); a. fr.—[<cite ref=\"Targum Jerusalem, Exodus 33:22\">Targ. Y. II, Ex. XXXIII, 22</cite>, v. <cite ref=\"I00509\"><he>טְלַל</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְנַטֵּל", "אִינַּ׳"],
+			"senses": [
+				{
+					"gloss": "; <i>Ithpe.</i> <cite ref=\"N00584\"><he>אִתְנְטִיל</he></cite>, <cite ref=\"N01120\"><he>אִינְּ׳</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be lifted up; to be exalted</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 90:2\">Targ. Ps. XC, 2</cite>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 15:1\">Targ. Y. Ex. XV, 1</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lift one’s self up, be overbearing</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 17:5\">Targ. Y. Num. XVII, 5</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be taken away, removed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 4:21\">Targ. Job IV, 21</cite>. ",
+						"<cite ref=\"Aramaic Targum to Esther 8:10\">Targ. Esth. VIII, 10</cite>; a. e.—[<cite ref=\"Sanhedrin 91a:6\">Snh. 91ᵃ</cite> (quot. fr. Meg. Taan. ch. III) <he>אתנטילו דימוסנאי</he>, v. <cite ref=\"D00626\"><he>דִּימוֹסְנָאֵי</he></cite>.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

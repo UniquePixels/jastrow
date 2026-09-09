@@ -1,0 +1,30 @@
+{
+	"id": "T00477",
+	"slug": "רחב-5",
+	"headword": {
+		"text": "רֹחַב"
+	},
+	"altHeadwords": [
+		{
+			"text": "רוֹחַב"
+		}
+	],
+	"page": {
+		"number": 1465,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T00476\">preced.</cite> wds.) <i>width</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 2:6\">Midd. II, 6</cite> <he>אורך … על ר׳ וכ׳</he> one hundred and twenty-five cubits in length by eleven in width. ",
+				"<cite ref=\"Mishnah Middot 4:1\">Ib. IV, 1</cite> <he>ורָחְבּוֹ וכ׳</he> and its width was ten cubits. ",
+				"<cite ref=\"Tamid 29b:31\">Tam. 29ᵇ</cite>; <cite ref=\"Mishnah Shekalim 8:5\">Shek. VIII, 5</cite> <he>ורָחְבָּהּ</he>; a. fr.—",
+				"<cite ref=\"Sifrei Devarim 120\">Sifré Deut. 120</cite> <he>בר׳ יד</he> with liberality."
+			]
+		}
+	]
+}

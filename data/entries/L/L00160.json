@@ -1,0 +1,38 @@
+{
+	"id": "L00160",
+	"slug": "להט-1",
+	"headword": {
+		"text": "לָהַט"
+	},
+	"page": {
+		"number": 693,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>להב</he>)<i>to glisten, glow</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 21:9\">Gen. R. s. 21</cite>, end <he>מי מציל … מאש לוֹהֶטֶת זו</he> what will save my children from this glowing fire (hell)?; a. e.—Part. pass. <he>לָהוּט</he>, f. <he>לְהוּטָה</he>; pl. <cite ref=\"L00052\"><he>לְהוּטִים</he></cite>, <he>לְהוּטִין</he>; <he>לְהוּטוֹת</he> <i>glowing;</i> (with <he>אחר</he>) <i>passionately following, anxious for</i>. ",
+				"<cite ref=\"Bereishit Rabbah 94\">Gen. R. s. 94</cite> <he>ל׳ אחר גרונו</he>, v. <cite ref=\"C01302\"><he>גָּרוֹן</he></cite>. Y. Taan. VI, 69ᵇ; Pesik. Dibré, p. 114ᵃ <he>שהיו ישראל ל׳ אחר וכ׳</he> (not <he>שיהו</he>) the Israelites were greedy for sweet things. ",
+				"<cite ref=\"Bereishit Rabbah 22:5\">Gen. R. s. 22</cite> <he>היו ל׳ אחר האדמה</he> had a passion for agriculture. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:4:7\">Cant. R. to I, 4</cite> <he>ל׳ … אחרי שכינה</he> the Israelites were anxious for the Divine Presence; a. fr.—Tanḥ. Ḥuck. 4 (ref. to <cite ref=\"Psalms 57:5\">Ps. LVII, 5</cite>) <he>שהיו לוֹהֲטִים אחר לה״ר</he> (= <cite ref=\"L00052\"><he>לְהוּטִים</he></cite>) they had a passion for denunciation; <cite ref=\"Midrash Tehillim 7:8\">Midr. Till. to Ps. VII; Yalk. ib. 637</cite>; <cite ref=\"Yalkut Shimoni on Nach 213:1\">Yalk. Kings 213</cite> <he>להוטים</he>; <cite ref=\"Jerusalem Talmud Peah 1:1:42\">Y. Peah I, 16ᵃ</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["לִיהֵט"],
+			"senses": [
+				{
+					"gloss": "<i>to glow</i>; <i>to make glowing</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite> <he>האש מְלַהֶטֶת סביבותיו</he> the fire was shining around him. ",
+						"<cite ref=\"Bereishit Rabbah 21:9\">Gen. R. s. 21</cite>, end (ref. to <cite ref=\"Genesis 3:24\">Gen. III, 24</cite>) <he>שהיא מתהפכת … ומְלַהַטְתּוֹ וכ׳</he> it (the fire of hell) turns around man and heats him through from top to bottom &c. ",
+						"<cite ref=\"Bamidbar Rabbah 18\">Num. R. s. 18</cite> <he>לִיהֲטוֹ האש</he> the fire seized him; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

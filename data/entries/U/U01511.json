@@ -1,0 +1,88 @@
+{
+	"id": "U01511",
+	"slug": "שמע-1",
+	"headword": {
+		"text": "שָׁמַע"
+	},
+	"page": {
+		"number": 1598,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be still,</i>] <i>to hear, listen, obey; to understand</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 4:2\">R. Hash. IV, 2</cite> <he>כל עיר … ושׁוֹמַעַת וכ׳</he> every township near Jerusalem from where you can see (the city) and hear (the Shofar) &c. ",
+				"<cite ref=\"Rosh Hashanah 21b:3\">Ib. 21ᵇ</cite> <he>עד שיִשְׁמְעוּ … מקודש</he> until they heard from the mouth of the court <i>m’ḳuddash</i> (v. <cite ref=\"S02199\"><he>קָרַשׁ</he></cite>). ",
+				"<cite ref=\"Sanhedrin 90a:10\">Snh. 90ᵃ</cite> <he>שְׁמַע לו</he> listen to him (obey the prophet’s command); <he>אל תִּשְׁמַע לו</he> listen not to him. ",
+				"<cite ref=\"Ketubot 5b:2\">Keth. 5ᵇ</cite> <he>אם יִשְׁמַע וכ׳</he> if a man hears an improper word &c., v. <cite ref=\"U01736\"><he>שָׁפָה</he> II</cite>. ",
+				"<cite ref=\"Berakhot 13a:34\">Ber. 13ᵃ</cite> the text (<cite ref=\"Deuteronomy 6:4\">Deut. VI, 4</cite>) says ‘hear’ (or ‘understand’), <he>בכל לשון שאתה שׁוֹמֵעַ</he> recite the Sh’mʿa in whatever language you understand. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 3:7\">R. Hash. III, 7</cite> <he>אם קול שופר ש׳</he> if he heard the sound of a Shofar; <he>ואם קול הברה ש׳</he>, v. <cite ref=\"E00053\"><he>הֲבָרָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Horayot 1:2:6\">Y. Hor. I, 46ᵃ</cite> top <he>נותנין לו שהות עד שׁיִשְׁמַע</he> we allow him time enough that he may have heard (the decision of the other court), opp. to <he>עד שישמע</he> (not <he>שישפע</he>) (he is not guilty) until he has really heard it; a. v. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁמִיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to hear; to announce</i>. Ber. l. c. <he>הַשְׁמַע לאזניך וכ׳</he> let thy ears hear what thou utterest &c. Ib. <he>לא ה׳ לאזנו</he> if he read the Sh’inʿa inaudibly to himself. ",
+					"units": [
+						"<cite ref=\"Rosh Hashanah 28b:6\">R. Hash. 28ᵇ</cite> <he>עד שיתכוין שומע ומַשְׁמִיעַ</he> until he that hears (the Shofar) and he that causes to hear (that blows) have the intention to perform a religious act. ",
+						"<cite ref=\"Mishnah Shekalim 1:1\">Shek. I, 1</cite> <he>מַשְׁמִיעִין על השקלים וכ׳</he> (Y. ed. <he>מְשַׁמְּעִין</he>, <i>Pi.</i>) public announcement is made concerning the contribution of the half-Shekels &c.; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (sub. <he>עצמו</he>) <i>to show one’s self obedient, be persuaded, surrender</i>, v. <i>Nif.</i>",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["שִׁימֵּעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to announce</i>, v. supra. Y. Shek. I, beg. 45ᶜ; Y. Meg. I, 71ᵃ.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to assemble</i> for mourning services, <i>invite</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 47a:6\">Snh. 47ᵃ</cite> <he>הלינו לכבודו לשַׁמֵּעַ עליו וכ׳</he> if burial is postponed for the honor of the dead, to assemble the surrounding townships for his funeral, to bring on lamenting women &c."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִשְׁמַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be heard; to be listened to, be obeyed</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 6a:22\">Ber. 6ᵃ</cite> <he>אין תפלה … נִשְׁמַעַת וכ׳</he> man’s prayer is heard only in the house of prayer. Y. ib. V, end, 9ᵇ <he>שׁנִשְׁמְעָה תפלתו</he> that his prayer will be heard (his petition be granted). ",
+						"<cite ref=\"Eruvin 18b:16\">Erub. 18ᵇ</cite> <he>כל בית שׁנִשְׁמָעִין וכ׳</he> a house in which the words of the Law are heard by night will never be destroyed. ",
+						"<cite ref=\"Yevamot 65b:6\">Yeb. 65ᵇ</cite> <he>כשם … דבר הנִשְׁמָע וכ׳</he> as well as it is proper to say a thing that has been heard (to mention one’s authority), so it is proper not to say a thing that has not been heard (for which you cannot cite your authority); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to show one’s self willing; to submit to authority</i>; (of woman) <i>to surrender</i>. ",
+					"units": [
+						"<cite ref=\"Rosh Hashanah 25b:4\">R. Hash. 25ᵇ</cite> <he>אשרי הדור שהגדולים נִשְׁמָעִים וכ׳</he> blessed the generation in which the superiors (in wisdom) submit to the authority of their inferiors, and how much more when inferiors acknowledge the authority of their superiors!—",
+						"<cite ref=\"Sanhedrin 82a:11\">Snh. 82ᵃ</cite> <he>הִשָּׁמְעִי לי</he> (ed. <he>הַשְׁמִיעִי לי</he>) surrender thyself to me; <he>לא תִשָּׁמְעִי אלא וכ׳</he> surrender thyself only to a prominent man among them; <cite ref=\"Sifrei Bamidbar 131:1\">Sifré Num. 131</cite>; <cite ref=\"Sifrei Bamidbar 131:2\">ib.</cite> <he>רצונך שׁאֶשָּׁמַע לך הנזר וכ׳</he> if thou desirest me to surrender myself to thee, renounce the law of Moses; <cite ref=\"Yalkut Shimoni on Torah 771:1\">Yalk. ib. 771</cite>. Y. Succ. V, 55ᵇ top <he>נִשְׁמָעוֹת … לליגיונותי וכ׳</he> if you will surrender to my legions, I will not put you to death. ",
+						"<cite ref=\"Sanhedrin 93a:7\">Snh. 93ᵃ</cite> <he>הַשְׁמִיעִי אל וכ׳</he> surrender thyself to Zedekiah; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

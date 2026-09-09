@@ -1,0 +1,30 @@
+{
+	"id": "R00807",
+	"slug": "צרצרא",
+	"headword": {
+		"text": "צַרְצְרָא"
+	},
+	"page": {
+		"number": 1305,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"R00805\"><he>צַרְצוּר</he></cite>, <i>cricket</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 33\">Lev. R. s. 33</cite>, end; <cite ref=\"Shir HaShirim Rabbah 2:14\">Cant. R. to II, 14</cite> <cite ref=\"R00807\"><he>צַרְצְרָה</he></cite>, v. <cite ref=\"N01143\"><he>נְצַר</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>croaker</i>,] <i>raven</i> (in Arab. <i>accipiter</i>, v. Freit. Dict. s. v.). ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 3:2\">Esth. R. to I, 9</cite>; (ib. 4 <he>בת קבריא</he>), v. <cite ref=\"C00870\"><he>גַּלְגֵּל</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

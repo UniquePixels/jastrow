@@ -1,0 +1,23 @@
+{
+	"id": "Q00027",
+	"slug": "פארור",
+	"headword": {
+		"text": "פָּארוּר",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1132,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Parur</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 31a\">Ab. Zar. 31ᵃ</cite> Ms. M. (ed. <cite ref=\"Q01623\"><he>פרוד</he></cite>). [Perh. <cite ref=\"Q01610\"><he>פַּרְוָאר</he></cite>?]"
+			]
+		}
+	]
+}

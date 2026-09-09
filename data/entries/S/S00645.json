@@ -1,0 +1,22 @@
+{
+	"id": "S00645",
+	"slug": "קורקור",
+	"headword": {
+		"text": "קוּרְקוּר"
+	},
+	"page": {
+		"number": 1344,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"S01201\"><he>קִירְקוּר</he></cite>) <i>croaking</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 23a:1\">B. Bath. 23ᵃ</cite> <he>אפיקו לי ק׳</he> get that croaking (those ravens) away from here."
+			]
+		}
+	]
+}

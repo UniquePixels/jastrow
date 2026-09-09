@@ -1,0 +1,31 @@
+{
+	"id": "P01239",
+	"slug": "ערא-2",
+	"headword": {
+		"text": "עָרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1109,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>bay-tree</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69b\">Gitt. 69ᵇ</cite> <he>טרפא דע׳</he> Ar. (ed. <he>אטרפא דערא׳</he>; Rashi <he>דארעא</he>, expl. <he>עלה של עץ ארא</he>) bay-leaves (v. Löw, Pfl.,<he>ע׳</he>ăronim p. 299)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " a species of <i>cedar, pine</i>.—Pl. <cite ref=\"P01343\"><he>עָרֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 81a:1\">B. Bath. 81ᵃ</cite>; <cite ref=\"Rosh Hashanah 23a:7\">R. Hash. 23ᵃ</cite> (<cite ref=\"P01330\"><he>ערונים</he></cite>) <he>ארונים ע׳</he> <i>ãronim</i> (v. <cite ref=\"A03191\"><he>אֹרֶן</he></cite>) is (in Ch.) <i>ʿaré</i> (Rashi: laurel tree); (<cite ref=\"Yalkut Shimoni on Nach 314\">Yalk. Is. 314</cite> <he>ארמונים ערובי׳</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

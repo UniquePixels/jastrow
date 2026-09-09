@@ -1,0 +1,29 @@
+{
+	"id": "O01212",
+	"slug": "סנטורי",
+	"headword": {
+		"text": "סַנְטוּרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַנְטוּרַיָּא"
+		}
+	],
+	"page": {
+		"number": 1006,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>סנטר</he>; cmp. <cite ref=\"N00583\"><he>נָטַר</he></cite>) <i>grudge, hidden hatred, vindictiveness</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 67\">Gen. R. s. 67</cite> <he>עד</he> … <he>סנטורי דרומי</he> Ar. (ed. <he>סנטרי׳</he>, <he>סנטרוי</he>, corr. acc.) to this day people exclaim, ‘the vindictiveness of Rome’ (with play on <i>senatores</i>); Yalk. ib. 115 <he>סנטוראי דרומאי</he> (<cite ref=\"O01215\"><he>סנטיראי</he></cite>; corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:2:7\">Y. Ab. Zar. I, 39ᶜ</cite> (play on Saturnalia, v. <cite ref=\"O00514\"><he>סְטַרְנַלְיָיא</he></cite>) <he>ברומי צווהין ליה סַנְטוֹרַיָּיה דעשו</he> in Rome they (the Jews) call it (that festival of apparent good-will) the hidden hatred of Esau (Rome)."
+			]
+		}
+	]
+}

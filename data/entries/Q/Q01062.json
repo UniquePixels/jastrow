@@ -1,0 +1,22 @@
+{
+	"id": "Q01062",
+	"slug": "פליליה",
+	"headword": {
+		"text": "פְּלִילִיָּה"
+	},
+	"page": {
+		"number": 1182,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) <cite ref=\"Q01061\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Megillah 15b:6\">Meg. 15ᵇ</cite> <he>אין פ׳ אלא משפט</he> Ms. M. (ed. <he>אין פ׳ אלא דיינין</he>; some ed. <cite ref=\"Q01061\"><he>פלילה</he></cite>, v. <cite ref=\"Q01061\">preced.</cite>) <i>p’liliyyah</i> means verdict."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "P00270",
+	"slug": "עולשין-1",
+	"headword": {
+		"text": "עוּלְשִׁין"
+	},
+	"page": {
+		"number": 1052,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>endives</i> (v. Löw Pfl., p. 255). ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:2\">Kil. I, 2</cite> <he>ע׳ ועוּלְשֵׁי שדה</he> (garden) endives and field endives; Y. ib. 27ᵃ top <he>ע׳ טרוקסימון</he> <i>‘ulshin</i> are endives that are eaten raw, <he>ע׳ שדה עולתין</he> field <i>‘ulshin</i> are known as <i>‘ulthin</i> (Chald.). ",
+				"<cite ref=\"Mishnah Pesachim 2:6\">Pes. II, 6</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "V00048",
+	"slug": "תבירא",
+	"headword": {
+		"text": "תְּבִירָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1644,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00047\">preced.</cite>) <i>lame</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 44:30\">Targ. Jer. XLIV, 30</cite> <he>פרעה ת׳</he> (h. text <he>חפרע</he>)."
+			]
+		}
+	]
+}

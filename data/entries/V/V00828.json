@@ -1,0 +1,22 @@
+{
+	"id": "V00828",
+	"slug": "תפלא-1",
+	"headword": {
+		"text": "תַּפְלָא"
+	},
+	"page": {
+		"number": 1686,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00827\">preced.</cite>) <i>tafla</i> (<i>child</i>), a word introduced to derive the Galilean pronunciation, meant for <cite ref=\"I00068\"><he>טַבְלָא</he></cite> <i>board</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 53b:8\">Erub. 53ᵇ</cite> (ed. Sonc. <cite ref=\"I00663\"><he>טַפְלָא</he></cite>)."
+			]
+		}
+	]
+}

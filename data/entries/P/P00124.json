@@ -1,0 +1,25 @@
+{
+	"id": "P00124",
+	"slug": "עדה-2",
+	"headword": {
+		"text": "עֵדָה",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 1043,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"P00127\"><he>עֵדוּת</he></cite>, <i>testimony</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bekhorot 3:8\">Tosef. Bekh. III, 8</cite> <he>שכר עֵדָתוֹ</he> ed. Zuck. (oth. ed. <he>עדותו</he>) pay for his testimony.—Pl. <cite ref=\"P00127\"><he>עֵדוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Bekhorot 4:6\">Bekh. IV, 6</cite> (<cite ref=\"Bekhorot 29a:5\">29ᵃ</cite>) <he>עֵדוֹתָיו בטילין</he> <i>masc.</i> (Var. in Mish. ed. <he>עדותו בטילה</he>) his testimonies are void; (<cite ref=\"Kiddushin 58b:8\">Kidd. 58ᵇ</cite> <he>עדותו בטילה</he>)."
+			]
+		}
+	]
+}

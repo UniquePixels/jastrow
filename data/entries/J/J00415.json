@@ -1,0 +1,26 @@
+{
+	"id": "J00415",
+	"slug": "ימם",
+	"headword": {
+		"text": "יְמָם"
+	},
+	"altHeadwords": [
+		{
+			"text": "יֵימָם"
+		}
+	],
+	"page": {
+		"number": 580,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<he>יוֹמָם</he> , <i>day-time;</i> (adv.) <i>by day</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 34:10\">Targ. Is. XXXIV, 10</cite>; a. e. ",
+				"<cite ref=\"Aramaic Targum to Job 5:14\">Targ. Job V, 14</cite> <cite ref=\"B00628\"><he>בִּימָם</he></cite> (Ms. <he>בְּיֵימָם</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 42:9\">Targ. Ps. XLII, 9</cite>; a. e."
+			]
+		}
+	]
+}

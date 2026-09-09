@@ -1,0 +1,42 @@
+{
+	"id": "L00364",
+	"slug": "לחם-2",
+	"headword": {
+		"text": "לָחַם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 703,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"L00363\">preced.</cite>) <i>to join</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִלְחָם"],
+			"senses": [
+				{
+					"gloss": " (cmp. use of <cite ref=\"G00118\"><he>זָוַג</he></cite> <i>Nithpa.</i>) <i>to come in</i> (<i>hostile</i>) <i>contact, to battle</i>; with <cite ref=\"L00000\"><he>ל</he></cite> of person, <i>to assist, battle for</i>. Mekh. B’shall. 2 (ref. to <cite ref=\"Exodus 14:14\">Ex. XIV, 14</cite>) <he>לא … יִלָּחֵם לכם אלא לעולם ילחם כנגדן וכ׳</he> not only this time will he assist you, but he will always battle against your enemies. Tanḥ. Masé 6 <he>כשהלך להִלָּחֵם בישראל</he> when he (Sisera) went to war against &c. ",
+					"units": [
+						"<cite ref=\"Exodus 14:14\">Ib.</cite> Vayera 7 (ref. <he>בלחומו</he>, <cite ref=\"Job 20:23\">Job XX, 23</cite>) <he>על המלחמות שהיו נִלְחָמִים עם וכ׳</he> for the battles which they fought against the Lord; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְלַחֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to contest, dispute</i>. Y. M. Kat. III, 81ᵈ top <he>אם חברים מִתְלַחֲמִים וכ׳</he> if scholars are at variance with one another, what concern is it to you? (<cite ref=\"Bava Metzia 59b:3\">B. Mets. 59ᵇ</cite> <he>מנצחים זה את זה וכ׳</he>).",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

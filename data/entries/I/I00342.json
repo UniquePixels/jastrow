@@ -1,0 +1,23 @@
+{
+	"id": "I00342",
+	"slug": "טייל-2",
+	"headword": {
+		"text": "טַיָּיל"
+	},
+	"page": {
+		"number": 531,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00341\">preced.</cite>) <i>one at leisure</i>, opp. to <cite ref=\"Q00302\"><he>פועל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Ketubot 62a:10\">Keth. 62ᵃ</cite> bot.—Pl. <he>טַיָּילִים</he>, <cite ref=\"L00289\"><he>לִין …</he></cite> <cite ref=\"Mishnah Ketubot 5:6\">Ib. V, 6</cite> (<cite ref=\"Ketubot 61b\">61ᵇ</cite>). ",
+				"<cite ref=\"Ketubot 62a:10\">Keth. 62ᵃ</cite> <he>מאי ט׳</he> who are meant by <i>tayyalin</i>?"
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "M00714",
+	"slug": "מזג-3",
+	"headword": {
+		"text": "מְזָג"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִזְגָג"
+		}
+	],
+	"page": {
+		"number": 753,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n.<i>M’zag</i> (<i>Mizgag</i>), eponymous hero of a tribe answering to <i>Mazices, Mazyes</i> (<i>Maxyes</i>) in Northern Africa (v. Sm. Greek a. Roman Geogr. s. v. Mauretania). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 10:7\">Targ. Y. Gen. X, 7</cite>; <cite ref=\"Targum of I Chronicles 1:9\">Targ. I Chr. I, 9</cite> (ed. Lag. <he>מזגג</he>); <cite ref=\"Targum of I Chronicles 1:32\">ib. 32</cite> (h. text <he>דדן</he>)."
+			]
+		}
+	]
+}

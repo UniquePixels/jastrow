@@ -1,0 +1,22 @@
+{
+	"id": "P00281",
+	"slug": "עומה",
+	"headword": {
+		"text": "עוּמָּה"
+	},
+	"page": {
+		"number": 1053,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"P00864\"><he>עֻמָּה</he></cite>; <cite ref=\"P00903\"><he>עָמַם</he></cite>, cmp. <cite ref=\"P00847\"><he>עִם</he></cite>)<i>junction</i>; <he>לְעוּמַּת</he> <i>corresponding, against</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 5:8\">Keth. V, 8</cite> <he>פוסק לְעוּמָּתָן וכ׳</he> must give her other products of the same nutritious quality."
+			]
+		}
+	]
+}

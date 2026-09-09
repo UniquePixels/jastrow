@@ -1,0 +1,20 @@
+{
+	"id": "K01024",
+	"slug": "כפיתה",
+	"headword": {
+		"text": "כְּפִיתָה"
+	},
+	"page": {
+		"number": 659,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01061\"><he>כָּפַת</he></cite>) <i>binding, collar-band</i> for animals. ",
+			"units": ["<cite ref=\"Mishnah Kelim 12:1\">Kel. XII, 1</cite>."]
+		}
+	]
+}

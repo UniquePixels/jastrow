@@ -1,0 +1,23 @@
+{
+	"id": "G00435",
+	"slug": "זך",
+	"headword": {
+		"text": "זָךְ"
+	},
+	"page": {
+		"number": 397,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00466\"><he>זכך</he></cite> , v. <cite ref=\"G00443\"><he>זָכָה</he></cite>) <i>clear, transparent; pure</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 8:5\">Men. VIII, 5</cite> (<cite ref=\"Menachot 86a:29\">86ᵃ</cite>). ",
+				"<cite ref=\"Menachot 86b:2\">Men. 86ᵇ</cite> <he>אין זך אלא נקי</he> <i>zakh</i> means pure."
+			]
+		}
+	]
+}

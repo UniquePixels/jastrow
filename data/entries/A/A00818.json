@@ -1,0 +1,24 @@
+{
+	"id": "A00818",
+	"slug": "אופתא",
+	"headword": {
+		"text": "אוּפְתָּא"
+	},
+	"page": {
+		"number": 31,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A00798\"><he>אוּפֵי</he></cite>) prop. <i>the large central branch</i>, hence <i>trunk, stalk</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 32a:10\">Succ. 32ᵃ</cite> <he>ואימא א׳</he> may I not say (as you insist on the palm-branch being <i>kafuth</i>, tied, joined) that I must use the stalk?—",
+				"<cite ref=\"Chullin 47b\">Ḥull. 47ᵇ</cite> lungs resembling <he>לא׳</he> a trunk (in color, touch &c.). ",
+				"<cite ref=\"Chullin 16a:5\">Ib. 16ᵃ</cite> <he>וי״ו דכתיב אא׳</he> a Vav. written on a trunk (being broken on account of the rough surface = <i>idle-talk</i>)."
+			]
+		}
+	]
+}

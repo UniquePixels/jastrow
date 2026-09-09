@@ -1,0 +1,29 @@
+{
+	"id": "K00925",
+	"slug": "כסילא",
+	"headword": {
+		"text": "כְּסִילָא"
+	},
+	"page": {
+		"number": 654,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00924\">same</cite><i>fool</i>.—Pl. <he>כְּסִילַיָּיא</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 49:11\">Targ. Ps. XLIX, 11</cite> (Bxt. <i>sing.</i>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 94:8\">Ib. XCIV, 8</cite> (some ed. <he>כְּסִילֵי</he>). [In Targ. mostly <he>סכלא</he>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Orion</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 5:8\">Targ. Am. V, 8</cite> (v. <cite ref=\"N00737\"><he>נִיפְלָא</he></cite>).—",
+				"<cite ref=\"Berakhot 58b:11\">Ber. 58ᵇ</cite> <cite ref=\"K00942\"><he>כִּסְלָא</he></cite> (Ms. M. <cite ref=\"K00327\"><he>כּוּסְלָא</he></cite>, Ms. F. <cite ref=\"K00594\"><he>כִּיסְ׳</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

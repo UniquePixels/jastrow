@@ -1,0 +1,53 @@
+{
+	"id": "C00871",
+	"slug": "גלגל-3",
+	"headword": {
+		"text": "גַּלְגַּל"
+	},
+	"page": {
+		"number": 244,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"C00870\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>wheel</i>, esp. <i>the wheel-work at wells, crane</i> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 5:4\">Midd. V, 4</cite>. ",
+				"<cite ref=\"Tosefta Bava Batra 2:16\">Tosef. B. Bath. II, 16</cite> <he>בית גולגל לרבים</he> ed. Zuck. (Var. <cite ref=\"C00722\"><he>גילגל</he></cite>) a public well. ",
+				"<cite ref=\"Mishnah Bava Batra 4:5\">B. Bath. IV, 5</cite> <he>את הג׳</he> the crane of the wine or oil press, v. <cite ref=\"H00396\"><he>חוּמַרְתָּא</he></cite>. ",
+				"<cite ref=\"Mishnah Eruvin 10:14\">Erub. X, 14</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>globe, celestial sphere</i>, esp. <i>the sphere of the zodiac</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 20b:11\">Yoma 20ᵇ</cite>, a. e. <he>ג׳ חמה</he> the revolution of the Sun. ",
+				"<cite ref=\"Pesachim 94b:3\">Pes. 94ᵇ</cite> <he>ג׳ קבוע ומזלות וכ׳</he> the sphere of the zodiac is stationary, and the planets make the circuit; <he>ג׳ חוזר וכ׳</he> the sphere (wheel) turns around and the planets are stationary; a. fr.—",
+				"<cite ref=\"Bava Batra 16b\">B. Bath. 16ᵇ</cite> Ms. M. <he>מה עדש זה דומה לג׳ וכ׳</he> as the lentil resembles a sphere, so is mourning a sphere making a circuit in the world; (diff. in ed., v. <cite ref=\"C00869\"><he>גִּלְגֵּל</he></cite>); <cite ref=\"Yalkut Shimoni on Torah 110:31\">Yalk. Gen. 110</cite> <he>מה עדשים האלו ג׳ וכ׳</he>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>the eye-ball</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 42:7\">Gen. R. s. 42</cite>; <cite ref=\"Vayikra Rabbah 11:7\">Lev. R. s. 11</cite>; Ruth R. introd. 6 (ref. to <he>עין משפט</he> <cite ref=\"Genesis 14:7\">Gen. XIV, 7</cite>) <he>ג׳ עינו של עולם</he> the eye-ball of the world (Abraham). ",
+				"<cite ref=\"Sanhedrin 108a:9\">Snh. 108ᵃ</cite> <he>בשביל ג׳ העין וכ׳</he> on account of (the covetousness of) the eye-ball (v. <cite ref=\"C00872\">next w.</cite>); a. e.—Pl. <he>גַּלְגִּלִּים</he>. ",
+				"<cite ref=\"Mishnah Makhshirin 3:8\">Makhsh. III, 8</cite> wheel works. ",
+				"<cite ref=\"Bava Batra 58a:6\">B. Bath. 58ᵃ</cite> <he>שני גַּלְגִּלִּי חמה</he> two Sun-globes.—",
+				"<cite ref=\"Jerusalem Talmud Niddah 3:2:7\">Y. Nidd. III, 50ᶜ</cite> bot. <he>ג׳ אדם וכ׳</he> the apples of man’s eyes are round.—Trnsf. <i>the rotation of fortune, changes</i> (v. ",
+				"<cite ref=\"Bava Batra 16b\">B. Bath. 16ᵇ</cite> quot. above). ",
+				"<cite ref=\"Shabbat 151b:14\">Sabb. 151ᵇ</cite> (ref. to <he>בִּגְלַל</he> <cite ref=\"Deuteronomy 15:10\">Deut. XV, 10</cite>) <he>ג׳ הוא וכ׳</he> a wheel rotates in this world, i.e. changes of fortune take place constantly; <cite ref=\"Shemot Rabbah 31:14\">Ex. R. s. 31</cite>, a. e.—3) (= <cite ref=\"C01257\"><he>גַּרְגַּר</he></cite>) <i>globule, grain</i>. ",
+				"<cite ref=\"Shabbat 64b\">Sabb. 64ᵇ</cite>; <cite ref=\"Shabbat 65a:7\">65ᵃ</cite>, v. <cite ref=\"C01257\"><he>גַּרְגַּר</he></cite>.—<i>Pl.</i> as above. Y. Maasr. V, end, 52ᵃ; <cite ref=\"Tosefta Ma'asrot 3:14\">Tosef. ib. III, 14</cite> Egyptian beans are those <he>שגַּלְגִּלֵּיהֶן חדין</he> (ed. Zuck. <he>גלוגל׳</he>, Var. <he>גלגל הן</he>, corr. acc.) whose globules are pointed."
+			],
+			"label": "3"
+		}
+	]
+}

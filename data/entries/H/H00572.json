@@ -1,0 +1,27 @@
+{
+	"id": "H00572",
+	"slug": "חזרת",
+	"headword": {
+		"text": "חֲזֶרֶת"
+	},
+	"page": {
+		"number": 447,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>lettuce</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:2\">Kil. I, 2</cite> <he>ח׳ וח׳ גלין</he> (garden) lettuce and hill-lettuce (wild lettuce). ",
+				"<cite ref=\"Mishnah Pesachim 2:6\">Pes. II, 6</cite> (expl. ",
+				"<cite ref=\"Pesachim 39a:15\">ib. 39ᵃ</cite> <cite ref=\"H01331\"><he>חסא</he></cite>). Ib. X, 3; a. e.—Pl. <cite ref=\"H00566\"><he>חֲזָרִים</he></cite>, <cite ref=\"H00566\"><he>חֲזָרִין</he></cite>. ",
+				"<cite ref=\"Mishnah Oktzin 1:2\">Ukts. I, 2</cite>. ",
+				"<cite ref=\"Mishnah Oktzin 2:7\">Ib. II, 7</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:3:4\">Y. Sabb. I, 3ᵇ</cite> bot. <he>לקנב חיזרין</he> (read: <cite ref=\"H00566\"><he>חזרין</he></cite>)."
+			]
+		}
+	]
+}

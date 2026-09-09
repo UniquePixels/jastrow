@@ -1,0 +1,22 @@
+{
+	"id": "G00495",
+	"slug": "זלילה",
+	"headword": {
+		"text": "זְלִילָה"
+	},
+	"page": {
+		"number": 401,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<cite ref=\"G00494\">preced.</cite>) <i>cheap</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 5:6:4\">Y. B. Mets. V, 10ᶜ</cite> bot. <he>בשער ז׳ … שתא</he> (not <he>בשעה</he>, <he>בשעת</he>) at the lowest price of the entire year."
+			]
+		}
+	]
+}

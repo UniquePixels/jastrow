@@ -1,0 +1,22 @@
+{
+	"id": "V00969",
+	"slug": "תרופה",
+	"headword": {
+		"text": "תְּרוּפָה"
+	},
+	"page": {
+		"number": 1697,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"T00421\"><he>רוף</he></cite>, v. <cite ref=\"T00957\"><he>רָפַף</he></cite>, a. <cite ref=\"T00927\"><he>רָפָא</he></cite>)<i>release, healing</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 100a:12\">Snh. 100ᵃ</cite> (ref. to <cite ref=\"Ezekiel 47:12\">Ez. XLVII, 12</cite>) <he>ר׳ יוחנן אמר לת׳ ממש</he> (Ms. F. <he>לתרפיון</he>, v. Rabb. D. S. a. l. note 400) R. J. says, it means ‘for medicine’ in its real sense, v. <cite ref=\"V01049\"><he>תְּרַפְיוֹן</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 383:15\">Yalk. Ez. 383</cite> <he>לתרפיון</he> (corr. acc.).—[<cite ref=\"Jerusalem Talmud Pesachim 1:8:4\">Y. Pes. I, 28ᵃ</cite> <he>במקום התרופה</he>, read: <he>התּוֹרְפָה</he>.]"
+			]
+		}
+	]
+}

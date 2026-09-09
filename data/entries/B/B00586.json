@@ -1,0 +1,27 @@
+{
+	"id": "B00586",
+	"slug": "ביטשא",
+	"headword": {
+		"text": "בִּיטְשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּטְשָׁא"
+		}
+	],
+	"page": {
+		"number": 160,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00534\"><he>בטש</he></cite>) <i>stamping, fulling</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 99a:8\">B. Kam. 99ᵃ</cite> <he>ב׳ ב׳ וכ׳</he> (<cite ref=\"B00580\"><he>בִּט׳</he></cite>) for every stamping manipulation one M’ah.—Pl. <he>בִּיטְשֵׁי</he> <cite ref=\"Bava Kamma 99a:8\">Ib.</cite> (Var. <he>לבטושי</he>), v. <cite ref=\"B00534\"><he>בְּטַשׁ</he></cite>."
+			]
+		}
+	]
+}

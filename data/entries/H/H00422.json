@@ -1,0 +1,35 @@
+{
+	"id": "H00422",
+	"slug": "חופאה",
+	"headword": {
+		"text": "חוֹפָאָה"
+	},
+	"page": {
+		"number": 437,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חפא</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cover, roofing</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 26:14\">Targ. Ex. XXVI, 14</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:6\">Targ. Ez. XXVII, 6</cite> <cite ref=\"H00181\"><he>בית ח׳</he></cite> a house (theatre) with awnings."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>coating, plate</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 17:3\">Targ. O. Num. XVII, 3</cite>, sq. (ed. Berl. <he>חוּפָ׳</he>), v. <cite ref=\"H01442\"><he>חַפְיָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

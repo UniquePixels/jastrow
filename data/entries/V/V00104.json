@@ -1,0 +1,23 @@
+{
+	"id": "V00104",
+	"slug": "תדונא",
+	"headword": {
+		"text": "תַּדְוָנָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1647,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00232\"><he>דוי</he></cite>, cmp. <he>דּד</he>) [<i>flow,</i>] <i>kindness, liberality</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 5:19\">Targ. Prov. V, 19</cite> (ed. Lag. <cite ref=\"E00223\"><he>הֲוָונָא</he></cite>)."
+			]
+		}
+	]
+}

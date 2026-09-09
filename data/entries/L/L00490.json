@@ -1,0 +1,27 @@
+{
+	"id": "L00490",
+	"slug": "ליניא",
+	"headword": {
+		"text": "לִינְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִינְיָה"
+		}
+	],
+	"page": {
+		"number": 708,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (linea) <i>line; string</i>. Tanḥ. B’midb., ed. Bub., 23 <he>ל׳ אחת של וכ׳</he> one string of fine pearls; (Tanḥ. ib. 20 <he>סחורה אחרת</he>; ed. Const. <he>לנוח</he>, ed. Ven. <cite ref=\"L00234\"><he>לוח</he></cite>, corr. acc.); <cite ref=\"Yalkut Shimoni on Nach 316\">Yalk. Is. 316</cite> <cite ref=\"L00446\"><he>ליטמא</he></cite> (corr. acc.; <cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4</cite>, beg. <he>פרגמטיס</he>). ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:10\">Cant. R. to I, 10</cite> <cite ref=\"B00833\"><he>בלוניא</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 983\">Yalk. ib. 983</cite> <he>כלינייס</he>, <cite ref=\"K00706\"><he>כלוניא</he></cite>, read: <he>כליניא</he>, v. <cite ref=\"H01646\"><he>חָרַז</he></cite>."
+			]
+		}
+	]
+}

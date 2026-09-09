@@ -1,0 +1,28 @@
+{
+	"id": "A02547",
+	"slug": "אסקריטון",
+	"headword": {
+		"text": "אִסְקְרִיטָוָן"
+	},
+	"page": {
+		"number": 97,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. ch. 1) = <cite ref=\"A02548\">next w.</cite> Targ. O. f. pl. ch. ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"A02548\">next w.</cite> ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 16:31\">Targ. O. Ex. XVI, 31</cite>.—*2) read <he>מִקְסוֹטֵירִין</he> (μυξωτῆρες as LXX Zach. IV, 12) <i>tubes, lamp-mozzles</i>. Targ. Zach. l. c."
+			],
+			"label": "1"
+		}
+	]
+}

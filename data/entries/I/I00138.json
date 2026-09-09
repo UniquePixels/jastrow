@@ -1,0 +1,29 @@
+{
+	"id": "I00138",
+	"slug": "טוות-1",
+	"headword": {
+		"text": "טְוָות"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְוָת"
+		}
+	],
+	"page": {
+		"number": 522,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (stem <he>טה</he>, <he>טו</he>, cmp. <he>טהר</he>; cmp. Arab. <i>ṭavi</i>) [<i>clearness, emptiness</i>,] (adv.) <i>with an empty stomach, without meal, fasting</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 6:19\">Dan. VI, 19</cite>.—",
+				"<cite ref=\"Pesachim 107a:3\">Pes. 107ᵃ</cite>, v. <cite ref=\"B00752\"><he>בִּית</he></cite>—",
+				"<cite ref=\"Berakhot 55a:15\">Ber. 55ᵃ</cite> <he>כל חלום בלא ט׳</he> Ms. M. (ed. <cite ref=\"F00059\"><he>ולא</he></cite>) no dream is to be feared in which fasting plays no part; [Ar.: every dream has some reality, except that which one dreams while fasting]."
+			]
+		}
+	]
+}

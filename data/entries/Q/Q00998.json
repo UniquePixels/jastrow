@@ -1,0 +1,52 @@
+{
+	"id": "Q00998",
+	"slug": "פלט-2",
+	"headword": {
+		"text": "פְּלַט"
+	},
+	"page": {
+		"number": 1179,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00997\">same</cite><i>to discharge, vomit</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jonah 2:11\">Targ. Jon. II, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 20:15\">Targ. Job XX, 15</cite> Ms. (ed. <i>Pa.</i>); a. e.—",
+				"<cite ref=\"Nedarim 49b\">Ned. 49ᵇ</cite>; <cite ref=\"Tamid 27b:49\">Tam. 27ᵇ</cite> <he>כל מילי לא תִיפְלוֹט וכ׳</he> thou must not spit out anything in the presence of thy teacher (thou must suppress vomiting), except &c. ",
+				"<cite ref=\"Chullin 112b:2\">Ḥull. 112ᵇ</cite> <he>אגב דוחקא דסכינא פָּלֵיט</he> through the pressure of the knife it (the flesh) gives out (blood). ",
+				"<cite ref=\"Chullin 112b:4\">Ib.</cite> <he>קדמי ופלטי</he> are the first to give out (their serum); <he>בתר … פְּלִיטֵי עופות וכ׳</he> after the fish cease to discharge, the fowl (lying in salt with them) discharge, and they (the fish) absorb; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to escape</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 12:13\">Targ. Prov. XII, 13</cite>; a. e.—",
+				"<cite ref=\"Yevamot 114b:14\">Yeb. 114ᵇ</cite> <he>הוא פליט</he> is it likely that he will escape? <cite ref=\"Ketubot 112a:15\">Keth. 112ᵃ</cite> <he>פַּלְטִי לי מחדא</he> I have escaped one (evil destiny). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:1:15\">Y. Ber. III, 6ᵃ</cite> <he>חדא מתרתי לא פַלְטַת לכון</he> one of two (mistakes) did not fail you, i.e. of the two things you did, one must be wrong; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to detach, take off</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 13:4\">Targ. Job XIII, 4</cite>, v. <cite ref=\"M00625\"><he>מוּרְדְּקָא</he></cite>."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּלֵּט"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q00997\">same</cite>, <i>to give out, discharge</i>. Ib. XX, 15, v. supra.—Y. Taan. I, 63ᵈ top (transl. <he>וארץ רפאים תפיל</he>, <cite ref=\"Isaiah 26:19\">Is. XXVI, 19</cite>) <he>וארעא תפקידה תְּפַלֵּט</he> the earth shall give forth her trust (the dead); Y. Ber. V, 9ᵇ top; <cite ref=\"Yalkut Shimoni on Nach 207\">Yalk. Kings 207</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

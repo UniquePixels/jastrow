@@ -1,0 +1,110 @@
+{
+	"id": "C01064",
+	"slug": "גמר-4",
+	"headword": {
+		"text": "גְּמַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 255,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01063\">same</cite><i>to finish</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 57:3\">Targ. Ps. LVII, 3</cite> <he>דְּיִגְמַר</he> (ed. Lag. <he>די גמר</he>, corr. acc.); a. fr.—",
+				"<cite ref=\"Pesachim 55a:15\">Pes. 55ᵃ</cite> <he>גַּמְרִינָן</he> we dare finish a work commenced. ",
+				"<cite ref=\"Pesachim 55a:15\">Ib.</cite> <he>מִיגְמַר אין אתחולי לא</he> to finish is permitted, but not to begin; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to consume, destroy</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 1:16\">Targ. Job I, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 22:20\">Ib. XXII, 20</cite>; a. fr. (also <i>Pa.</i>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to end, cease</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 12:2\">Targ. Ps. XII, 2</cite> <he>גְּמִירוּ</he> they are gone. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 5:11\">Targ. Prov. V, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 22:8\">Ib. XXII, 8</cite>; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to conclude, derive</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 98b:8\">Ḥull. 98ᵇ</cite> <he>ולִיגְמַר מיניה</he> now let one draw a conclusion from this (by analogy)! <cite ref=\"Chullin 98b:9\">Ib.</cite> <he>מחידוש לא גַבְרִינָן</he> from an exception we draw no conclusions; a. fr."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>to be perfect, ready to answer, to know well</i>. [<cite ref=\"Targum Jonathan on Deuteronomy 6:7\">Targ. Y. Deut. VI, 7</cite> <he>ותִגְמְרִינוּן וכ׳</he>, read <he>ותַגְ׳</he>, v. infra.]—<i>Part.</i> <cite ref=\"C01035\"><he>גָּמֵיר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shabbat 63a:15\">Sabb. 63ᵃ</cite> <he>והוה גְמִירְנָא וכ׳</he> and I knew well the whole Talmud (v. Rabh. D. S. a. l.). ",
+				"<cite ref=\"Taanit 7a:18\">Taan. 7ᵃ</cite> bot. <he>דגְמִירֵי</he> who are learned; <cite ref=\"Taanit 7b:1\">ib. 7ᵇ</cite> top <he>טפי הוו ג׳</he> they would be more learned; a. fr.—Whence: <i>to learn by heart</i>, esp. <i>to learn traditional law</i> (cmp. <cite ref=\"C01375\"><he>גְּרַס</he> II</cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 22:22\">Targ. Job XXII, 22</cite> (h. text <cite ref=\"S00682\"><he>קח</he></cite>, cmp. <cite ref=\"L00676\"><he>לֶקַח</he></cite>).—Sabb. l. c. <he>לִיגְמַר איניש והדר ליסבר</he> one must first learn traditions, and then he may reason; <cite ref=\"Avodah Zarah 19a:19\">Ab. Zar. 19ᵃ</cite>, v. <cite ref=\"C01375\"><he>גְּרַס</he> II</cite>.—",
+				"<cite ref=\"Berakhot 43a:1\">Ber. 43ᵃ</cite> <he>וברכת … גַּמְרִינָן</he> and we are not sufficiently familiar with the laws concerning grace at meals. ",
+				"<cite ref=\"Yoma 29a:2\">Yoma 29ᵃ</cite> <he>מִיגְמַר בעתיקא וכ׳</he> to remember well something old (to refresh the memory) is more difficult than to commit to memory a fresh thing. Sabb. l. c. <he>למיגמר מיניה</he> from whom to receive traditions. ",
+				"<cite ref=\"Sotah 36b:21\">Sot. 36ᵇ</cite> <he>לא הוה קגמר</he> he could not remember; a. fr.—",
+				"<cite ref=\"Shabbat 96b:2\">Sabb. 96ᵇ</cite> <he>גמרא גְמִירֵי לה</he> they (the scholars) know it by tradition; <cite ref=\"Shabbat 97a:19\">ib. 97ᵃ</cite> <he>הילכתא ג׳ לה</he>.—<he>גְּמִירֵי</he> they have a tradition, <i>it is a well-known maxim</i>. ",
+				"<cite ref=\"Sanhedrin 37b:2\">Snh. 37ᵇ</cite> bot. ",
+				"<cite ref=\"Sotah 34a\">Sot. 34ᵃ</cite>. ",
+				"<cite ref=\"Gittin 47a:8\">Gitt. 47ᵃ</cite>; a. fr."
+			],
+			"label": "5"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּמֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to finish; to consume</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 21:13\">Targ. Job XXI, 13</cite> ed. (Ms. <he>גַּמְרִין</he> Part. Pe.). ",
+						"<cite ref=\"Aramaic Targum to Job 13:28\">Ib. XIII, 28</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַגְמֵיר"],
+			"senses": [
+				{
+					"gloss": "<i>to teach verbally</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 6:7\">Targ. Y. Deut. VI, 7</cite> [read:] <he>ותַגְמְרִינוּן</he> and thou shalt teach them (v. ",
+						"<cite ref=\"Berakhot 13b\">Ber. 13ᵇ</cite>).—",
+						"<cite ref=\"Sotah 36b:21\">Sot. 36ᵇ</cite> <he>אַגְמְרֵיה ולא גמר</he> he taught him (the Hebrew language), but he (Pharaoh) could not remember it. ",
+						"<cite ref=\"Chullin 45b:21\">Ḥull. 45ᵇ</cite> <he>אַגְמְרָךְ גמרא</he> I will teach thee a tradition. ",
+						"<cite ref=\"Bava Kamma 17a:7\">B. Kam. 17ᵃ</cite> <he>לאַגְמוּרֵי</he> as to teaching. ",
+						"<cite ref=\"Berakhot 13b\">Ber. 13ᵇ</cite>, v. <cite ref=\"C01375\"><he>גְּרַס</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְגְּמַר", "אִגְּמַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be finished; to be destroyed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 23:17\">Targ. Job XXIII, 17</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 109:23\">Targ. Ps. CIX, 23</cite>.—",
+						"<cite ref=\"Targum Jonathan on Numbers 18:14\">Targ. Y. Num. XVIII, 14</cite> <he>דמִגְּמַר</he> (h. text <cite ref=\"H01716\"><he>חֵרֶם</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Exodus 22:19\">Targ. Y. Ex. XXII, 19</cite> <he>יִתְגַּמְרוּן</he> (h. text <he>יָחֳרָם</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

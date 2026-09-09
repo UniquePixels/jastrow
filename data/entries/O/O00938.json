@@ -1,0 +1,34 @@
+{
+	"id": "O00938",
+	"slug": "סכף-1",
+	"headword": {
+		"text": "סָכַף"
+	},
+	"page": {
+		"number": 992,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<i>Saf.</i> of <he>כפף</he>; cmp. Del. Assyr. Handwört. s. v. <he>סכף</he>) <i>to bend, knock down, maltreat; to discourage</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 7:10\">B. Mets. VII, 10</cite> (<cite ref=\"Bava Metzia 93b\">93ᵇ</cite>) <he>סְכָפָהּ</he> Y. ed. a. Ar. (v. Rabb. D. S. a. l. note 9), v. <cite ref=\"O00163\"><he>סָגַף</he></cite>.—Part. pass. <cite ref=\"O00887\"><he>סָכוּף</he></cite>; pl. <he>סְכוּפִים</he>, <he>סְכוּפִין</he>. ",
+				"<cite ref=\"Bereishit Rabbah 88:1\">Gen. R. s. 88</cite>, beg. <he>דווים וס׳</he>, (<cite ref=\"Yalkut Shimoni on Torah 146:1\">Yalk. ib. 146</cite> <he>שחופים</he>; <cite ref=\"Yalkut Shimoni on Nach 735\">Yalk. Ps. 735</cite> <he>סַחופין</he>, v. <cite ref=\"O00461\"><he>סָחַף</he></cite>), v. <cite ref=\"O00163\"><he>סָגַף</he></cite>; v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִסְכִּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to bend</i> (a person’s courage), <i>to cause defeat</i>, opp. <he>סעד</he>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 2:9\">Lam. R. to II, 2</cite> <he>לא תסעוד ולא תַסְכִּיף</he> (some ed. <he>תִסְכּוֹף</he> <i>Kal</i>; Ar. <he>לא תסעדינן ולא תִסְכְּפִינָן</he> Chald.) neither raise up nor bend down (neither assist, nor discourage us); Y. Taan. IV, 68ᵈ bot. <he>תכסוף</he> (corr. acc.); ib. 69ᵃ (in the third person) <he>לא יסעוד ולא יסמוך</he> (read: <he>יַסְכִּיף</he> or <he>יִסְכּוֹף</he>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

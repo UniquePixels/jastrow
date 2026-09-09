@@ -1,0 +1,27 @@
+{
+	"id": "S00731",
+	"slug": "קטותא",
+	"headword": {
+		"text": "קְטוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְטוּ"
+		}
+	],
+	"page": {
+		"number": 1347,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00685\"><he>קְטָא</he></cite>) <i>branch, switch</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:50\">Lam. R. to I, 3</cite> (some ed. <cite ref=\"S00773\"><he>קְטִיתָא</he></cite>); <cite ref=\"Bamidbar Rabbah 12:3\">Num. R. s. 12</cite>."
+			]
+		}
+	]
+}

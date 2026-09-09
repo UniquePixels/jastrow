@@ -1,0 +1,28 @@
+{
+	"id": "L00434",
+	"slug": "ליווקאי",
+	"headword": {
+		"text": "לִיוְוקָאֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְוְו׳"
+		}
+	],
+	"page": {
+		"number": 706,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Λίβυκοι) <i>Libyans</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 1:11\">Targ. I Chr. I, 11</cite> (ed. Lag. <he>לאק׳</he>, corr. acc.); <cite ref=\"Targum Jonathan on Genesis 10:13\">Targ. Y. I Gen. X, 13</cite> (h. text <he>לְהָבִים</he>), v. <cite ref=\"L00177\"><he>לוּבָא</he></cite>."
+			]
+		}
+	]
+}

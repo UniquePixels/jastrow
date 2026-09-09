@@ -1,0 +1,25 @@
+{
+	"id": "A01790",
+	"slug": "אלהין",
+	"headword": {
+		"text": "אִלָּהֵין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִילָּהֵין"
+		}
+	],
+	"page": {
+		"number": 67,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>אלא הן</he>) <i>but that, unless, except, only</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 32:27\">Targ. Gen. XXXII, 27</cite>; a. fr.—אף א׳ <i>even only</i>, i.e. <i>so much the more</i> (or <i>less</i>), <i>not to say</i>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 8:27\">Targ. I Kings VIII, 27</cite>; <cite ref=\"II Kings 5:13\">II Kings V, 13</cite>.  v. <cite ref=\"L00168\"><he>לָהֵן</he></cite>; cmp. <cite ref=\"A01772\"><he>אֶלָּא</he></cite>."
+			]
+		}
+	]
+}

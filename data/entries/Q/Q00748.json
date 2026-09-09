@@ -1,0 +1,29 @@
+{
+	"id": "Q00748",
+	"slug": "פיסול",
+	"headword": {
+		"text": "פִּיסּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּסּ׳"
+		}
+	],
+	"page": {
+		"number": 1167,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01325\"><he>פָּסַל</he></cite>) <i>cutting off</i> dry twigs, <i>trimming</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 2:3\">Shebi. II, 3</cite> <he>כפִיסּוּלָהּ של חמישית</he> the trimming as it is done in the fifth year, contrad. to <cite ref=\"G00421\"><he>זֵירוּד</he></cite>. ",
+				"<cite ref=\"Mishnah Sheviit 2:3\">Ib.</cite> <he>כל זמן … רשאי אני בפִסּוּלוֹ</he> as long as I am permitted to do what is necessary to cultivate the tree, I am also permitted to trim it; Y. ib. 33ᵈ <he>אני רשאי בפיסולו עד העצרת</he> ‘I am permitted to trim it’, that means up to the festival of Shabuoth.—Pl. <he>פִּיסּוּלִים</he>, <he>פִּיסּוּלִין</he>, <cite ref=\"Q00748\"><he>פִּסּ׳</he></cite> <i>chiselled</i> (millstones). ",
+				"<cite ref=\"Chullin 88b:9\">Ḥull. 88ᵇ</cite>, v. <cite ref=\"N01247\"><he>נִקְרָה</he></cite>."
+			]
+		}
+	]
+}

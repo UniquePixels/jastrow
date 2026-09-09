@@ -1,0 +1,53 @@
+{
+	"id": "T00995",
+	"slug": "רצף-1",
+	"headword": {
+		"text": "רָצַף"
+	},
+	"page": {
+		"number": 1494,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"T00990\"><he>רָצַם</he></cite>)<i>to press, crush</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 14a:28\">Nidd. 14ᵃ</cite> <he>שמש רְצָפָהּ</he> the membrum may have crushed it.—Part. pass. <he>רָצוּף</he>; f. <he>רְצוּפָה</he>; pl. <he>רְצוּפִים</he>, <he>רְצוּפִין</he>; <he>רְצוּפוֹת</he>. ",
+				"<cite ref=\"Niddah 14a:28\">Ib.</cite> <he>מאכולת ר׳</he> a crushed louse."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K01393\"><he>כָּתַת</he></cite> a. denom.) <i>to join closely, to place in rows; to pave with blocks</i>. Ohol. XVIII, 5 <he>הרוֹצֵף … באבנים</he> if one paves an unclean field (v. <cite ref=\"Q01911\"><he>פְּרָס</he></cite>) with stones. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Orlah 1:1:4\">Y. Orl. I, beg. 60ᶜ</cite> <he>במשנה … לעצים ברוצף</he> when he changes the usual order of planting; if he wants to use them for fuel, he plants the trees close together, &c., opp. <he>משפה</he> planting wide apart. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 3:4:4\">Y. Kil. III, 28ᵈ</cite> bot. <he>רוצף</he> he who plants vegetables in a row, opp. <he>עושה קלחים יחידים</he>; a. e.—Part. pass. as ab. ",
+				"<cite ref=\"Esther Rabbah 2:7\">Esth. R. to I, 6</cite> <he>היה ביתו ר׳ וכ׳</he> his house was paved with precious stones and jewels. ",
+				"<cite ref=\"Mishnah Negaim 11:9\">Neg. XI, 9</cite> <he>השתי אם היה ר׳</he> if the warp (on the loom) is close (the threads being properly arranged). ",
+				"<cite ref=\"Bava Batra 29a:9\">B. Bath. 29ᵃ</cite> <he>שלש … שאכלן ר׳</he> by the three years of which they speak is meant that he had the undisturbed usufruct for three years in succession, opp. <he>מפוזרות</he>. ",
+				"<cite ref=\"Bava Batra 37b:5\">Ib. 37ᵇ</cite> <he>אכלן ר׳</he> if he has had the usufruct of trees planted close together in rows (which shows that they were intended to be transplanted when grown older). ",
+				"<cite ref=\"Bava Batra 37b:5\">Ib.</cite> <he>מכרן ר׳ וכ׳</he> if he sold closely planted trees, the buyer cannot claim the soil. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:4:5\">Y. M. Kat. I, 80ᶜ</cite> top, a. e. <he>ר׳</he>, opp. <he>מרווחין</he>, v. <cite ref=\"T00326\"><he>רָוַוח</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 8:10:4\">Y. Gitt. VIII, end, 49ᵈ</cite> <he>בר׳</he> when the signatures are close together, opp. <he>מסורגין</he>, v. <cite ref=\"O01526\"><he>סָרַג</he></cite>. ",
+				"<cite ref=\"Tractate Soferim 1:10\">Treat. Sof’rim I, 10</cite>, v. <cite ref=\"O01526\"><he>סָרַג</he></cite>; a. fr.—Trnsf. <i>crowded, stuffed</i>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:4:2\">Cant. R. to IV, 4</cite>; <cite ref=\"Bereishit Rabbah 32\">Gen. R. s. 32</cite>; a. fr., v. <cite ref=\"T00706\"><he>רֵיקָן</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִרְצַף"],
+			"senses": [
+				{
+					"gloss": "<i>to be squeezed, crushed</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 25b:49\">Nidd. 25ᵇ</cite>, v. <cite ref=\"T00990\"><he>רָצַם</he></cite>. ",
+						"<cite ref=\"Beitzah 28b:5\">Bets. 28ᵇ</cite> <he>שפוד שנ׳</he> (Ms. M. <he>שנרצם</he>, corr. acc.) a roasting spit which has been squeezed and bent, contrad. to <cite ref=\"T00990\"><he>נרצם</he></cite>.—[<cite ref=\"Tosefta Moed Kattan 1:2\">Tosef. M. Kat. I, 2</cite> <he>מרצפין</he> ed. Zuck., read: <he>מרבצין</he> or <he>מרביצין</he>, v. <cite ref=\"T00137\"><he>רָבַץ</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

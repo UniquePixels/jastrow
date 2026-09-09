@@ -1,0 +1,23 @@
+{
+	"id": "C01396",
+	"slug": "גררא-1",
+	"headword": {
+		"text": "גְּרָרָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 273,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= h. <cite ref=\"C01289\"><he>גֵּרָה</he> III</cite>, 2) <i>cud</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 14:6\">Targ. Y. II, Deut. XIV, 6</cite> sq. (some ed. <cite ref=\"C01271\"><he>גְּרָדָא</he></cite>)."
+			]
+		}
+	]
+}

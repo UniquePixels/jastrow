@@ -1,0 +1,28 @@
+{
+	"id": "Q01531",
+	"slug": "פרא-5",
+	"headword": {
+		"text": "פָּרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1213,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02018\"><he>פְּרַר</he></cite>; cmp. <cite ref=\"N00821\"><he>נַכֵּי</he></cite>) <i>less</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite>, end <he>לפום חילך אכול ופ׳ מן מה דאת לביש וכ׳</he> spend according to thy means on eating, but less on clothing, and more on dwelling. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 4:4:5\">Y. Ab. Zar. IV, 43ᵈ</cite> bot. <he>תבר כולהון פ׳ חד</he> he broke all of them save one. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 2:5:2\">Y. Erub. II, 20ᵇ</cite> <he>חמשא אלפין פ׳ מאת</he> (read <he>מאה</he>) five thousand minus one hundred. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 6:6:3\">Y. Keth. VI, 30ᵈ</cite> bot. <he>תרין חולקין פ׳ ציבחד</he> a little less than two thirds. ",
+				"<cite ref=\"Ruth Rabbah 5:12\">Ruth R. to III, 3</cite> [read:] <he>זרעה ואעל ועבדת פ׳ ממאה אמר ליה לא אמר מרי דהיא עבד׳ מאה כורין א״ל אין א״ל זרעית ואעלית ועבדת פ׳ ממאה אמר לו הן וכ׳</he> he sowed and harvested, and it brought less than one hundred <i>kor</i>. Said he to him, did you not say it brought one hundred <i>kor</i>? Said he, yes. Said he to him, I sowed and harvested, and it brought less than one hundred &c.; [perh. to be read <he>פָּרֵי ממאה</he>]. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 2:2:2\">Y. Meg. II, beg. 73ᵃ</cite> (expl. <he>סירוסים</he>) <he>חד פָּרָה חד</he> (he reads) one verse less one, i.e. every other verse."
+			]
+		}
+	]
+}

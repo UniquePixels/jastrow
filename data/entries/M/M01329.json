@@ -1,0 +1,28 @@
+{
+	"id": "M01329",
+	"slug": "מיתוריין",
+	"headword": {
+		"text": "מִיתוֹרְיִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִיתוֹרִין"
+		}
+	],
+	"page": {
+		"number": 780,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (μεσθόρια) <i>borders, frontiers</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 50\">Gen. R. s. 50</cite>, beg. Ar. (v. <cite ref=\"A00890\"><he>אוֹרְיָין</he> I</cite>); <cite ref=\"Vayikra Rabbah 27\">Lev. R. s. 27</cite> <cite ref=\"M03037\"><he>מתורין</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

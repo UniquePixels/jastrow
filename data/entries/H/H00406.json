@@ -1,0 +1,28 @@
+{
+	"id": "H00406",
+	"slug": "חוניו",
+	"headword": {
+		"text": "חוֹנְיוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוֹנְיִי"
+		}
+	],
+	"page": {
+		"number": 436,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (<cite ref=\"H00405\">preced.</cite>) <i>Onias</i>, the founder of the Onias Temple, <cite ref=\"H00464\"><he>בֵּית ח׳</he></cite>, in Egypt. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 13:10\">Men. XIII, 10</cite>. ",
+				"<cite ref=\"Menachot 109b:16\">Ib. 109ᵇ</cite>; a. e.—V. <cite ref=\"N00478\"><he>נְחוּנְיוֹן</he></cite>."
+			]
+		}
+	]
+}

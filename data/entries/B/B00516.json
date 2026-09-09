@@ -1,0 +1,97 @@
+{
+	"id": "B00516",
+	"slug": "בטל-2",
+	"headword": {
+		"text": "בְּטֵל"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּטֵיל"
+		}
+	],
+	"page": {
+		"number": 157,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00515\">same</cite>; 1) as h. Kal 1). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 5:15\">Targ. Lam. V, 15</cite>; a. e.—",
+				"<cite ref=\"Sotah 33a:8\">Sot. 33ᵃ</cite> <he>בטילת עבידתא וכ׳</he> the decree enforcing idol worship in the Temple has been repealed. Meg. Taan. XI on the twenty second (of Shebat) <he>ב׳ עבידתא</he> was the decree &c. revoked. ",
+				"<cite ref=\"Shabbat 139a:6\">Sabb. 139ᵃ</cite>, <cite ref=\"Sanhedrin 98a:9\">Snh. 98ᵃ</cite> <he>אי בטלי וכ׳</he>; v. <cite ref=\"A01980\"><he>אַמְגּוֹשָׁא</he></cite>. ",
+				"<cite ref=\"Rosh Hashanah 18b:15\">R. Hash. 18ᵇ</cite> <he>בטילת אדכרתא</he> (Meg. Taan. VII <he>אתנטילת</he>, read <he>אתב׳</he>), v. <cite ref=\"A00413\"><he>אַדְכַּרְתָּא</he></cite>; a. fr.—2) as h. Kal 2). ",
+				"<cite ref=\"Targum Jonathan on Exodus 17:1\">Targ. Y. Ex. XVII, 1</cite> [read:] <he>דבְטִילוּ אידיהון</he> when their hands were lazy &c.—Part. pass. <cite ref=\"B00510\"><he>בָּטִיל</he></cite> <i>annulled; neutralized</i> (in a larger quantity, v. <cite ref=\"B00515\">preced.</cite> Pi.). ",
+				"<cite ref=\"Chullin 100a:8\">Ḥull. 100ᵃ</cite>, a. fr. (in Hebr. phraseol.) <he>מין במינו לא ב׳</he> in a mixture of homogeneous things (of which one is forbidden) the rule of neutralization by quantity takes no effect. ",
+				"<cite ref=\"Chullin 99a:3\">Ib. 99ᵃ</cite> <he>ברובא ב׳</he> it is neutralized in any larger quantity (than the forbidden ingredient); a. fr.—",
+				"<cite ref=\"Chullin 100a:8\">Ib. 100ᵃ</cite> top <he>ותבטיל</he>, v. Ithpe."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּטֵּיל"],
+			"senses": [
+				{
+					"gloss": " as h. Pi. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 33:10\">Targ. Ps. XXXIII, 10</cite> (some ed. incorr. <cite ref=\"B00510\"><he>בְּטִיל</he></cite>); a. e.—",
+						"<cite ref=\"Eruvin 66b:14\">Erub. 66ᵇ</cite> <he>למאן נִיבַטֵּיל</he> to whom should he resign his right of usage (for Sabbath purposes)? <he>לִיבַטֵּיל וכ׳</he> shall he resign &c.? Ib. 67ᵃ <he>בַּטּוּלֵי … מְבַטֵיל</he>. ",
+						"<cite ref=\"Pesachim 6b:15\">Pes. 6ᵇ</cite> <he>לְבַטְּלֵיה</he> let him renounce it (the leavened thing). ",
+						"<cite ref=\"Pesachim 6b:17\">Ib.</cite> <he>וניבטליה בארבע</he> let him renounce it at four hours of the day. ",
+						"<cite ref=\"Gittin 36b:9\">Gitt. 36ᵇ</cite> <he>אֲבַטְּלִינֵיה</he> I would repeal it (that law). ",
+						"<cite ref=\"Gittin 32a:9\">Ib. 32ᵃ</cite> <he>דבטולי בטליה</he> that he revoked it (the letter of divorce); a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַבְטֵיל"],
+			"senses": [
+				{
+					"gloss": " = Pa. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 6:7\">Targ. Y. Gen. VI, 7</cite> 1) = Pa. ",
+						"<cite ref=\"Targum Jonathan on Genesis 6:7\">Targ. Y. Gen. VI, 7</cite> <he>אַבְטִיל</he> I will undo (h. text <he>אמחה</he>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " = h. Hif. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 30:11\">Targ. Is. XXX, 11</cite> <he>אַבְטְלוּנָא מ־</he> make ye us free from tradition."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְבְּטִיל"],
+			"senses": [
+				{
+					"gloss": ", contr. <cite ref=\"B01093\"><he>אִיבְּטִיל</he></cite>. ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be abolished, removed, undone</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 17:11\">Targ. Job XVII, 11</cite>; a. fr.—",
+						"<cite ref=\"Gittin 32a:3\">Gitt. 32ᵃ</cite>; <cite ref=\"Gittin 32b:9\">32ᵇ</cite> <cite ref=\"B00515\"><he>בָּטֵל</he></cite> has two meanings <he>משמע דבטל ומשמע דלִיבְּטִיל</he> it may mean ‘it is void’, and may mean ‘be it declared void’. ",
+						"<cite ref=\"Chullin 100a:8\">Ḥull. 100ᵃ</cite> <he>ותבְּטִיל ברובא</he> (or <he>ותִבְטִיל</he>) let it be neutralized in the larger mixture; (why is it not &c.?)"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be disturbed, to be forced to be idle</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 12:3\">Targ. Koh. XII, 3</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "Q01218",
+	"slug": "פנתירי",
+	"headword": {
+		"text": "פַּנְתֵּירִי"
+	},
+	"page": {
+		"number": 1191,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01217\">preced.</cite>) [<i>spotted stone</i>,] name of a <i>jewel</i> (corresp. to h. <cite ref=\"J00702\"><he>ישפה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:20\">Targ. O. Ex. XXVIII, 20</cite> ed. Berl. (ed. <cite ref=\"Q01159\"><he>פַּנְטֵירֵי</he></cite>; Y. <cite ref=\"A02742\"><he>אַפַּנְטוּרִין</he></cite>, ed. Vien. <he>אפנטורע</he>, corr. acc.); ib. XXXIX, 13 (ed. Vien. <cite ref=\"Q01219\"><he>פַּנְתֵּרֵי</he></cite>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 28:13\">Targ. Ez. XXVIII, 13</cite> <cite ref=\"Q01219\"><he>פַּנְתֵּירִין</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "S00221",
+	"slug": "קובה",
+	"headword": {
+		"text": "קוּבָּה"
+	},
+	"page": {
+		"number": 1323,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"S00028\"><he>קֻבָּה</he></cite>; <he>קבב</he> , v. <he>קב</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>arched room, compartment</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 8b:4\">Taan. 8ᵇ</cite> <he>כמין ק׳ יש וכ׳</he> there is a sort of room in heaven from which the rains proceed; (<cite ref=\"Yalkut Shimoni on Nach 789:4\">Yalk. Ps. 789</cite> <he>קורה</he> <i>web</i>; v. Rabb. D. S. a. l. note 8). ",
+				"<cite ref=\"Menachot 31b:6\">Men. 31ᵇ</cite> <he>שלא יעשנה כק׳</he> that he do not write the door-post inscription in the shape of an arch."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>tent of prostitution</i> (<cite ref=\"Numbers 25:8\">Num. XXV, 8</cite>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 17b\">Ab. Zar. 17ᵇ</cite>, sq. <he>על בתו לישב בק׳</he> Ar. (ed. <he>בק׳ של זונות</he>) his daughter was condemned to sit in a brothel. ",
+				"<cite ref=\"Bereishit Rabbah 91\">Gen. R. s. 91</cite> <he>שמא בק׳ הוא</he> (some ed. <he>בקובא</he>) perhaps he (Joseph) is in a brothel (sold, for sodomy); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

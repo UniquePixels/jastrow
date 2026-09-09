@@ -1,0 +1,28 @@
+{
+	"id": "S02090",
+	"slug": "קרמא-1",
+	"headword": {
+		"text": "קְרָמָא"
+	},
+	"page": {
+		"number": 1421,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"S01945\"><he>קְרוּם</he></cite>, <i>skin, membrane</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 45a:14\">Ḥull. 45ᵃ</cite> <he>ק׳ עילאה</he> the upper (outer) membrane of the brain; <he>ק׳ תיתאה</he> the lower (inner) membrane. Ib. 46ᵃ <he>ק׳ עילאה וכ׳</he> the outer membrane of the lungs &c.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fine cloth</i>, v. <cite ref=\"S02091\">next w.</cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

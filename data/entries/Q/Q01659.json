@@ -1,0 +1,31 @@
+{
+	"id": "Q01659",
+	"slug": "פרוזדור",
+	"headword": {
+		"text": "פְּרוֹזְדּוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּרוֹסְדּוֹר"
+		}
+	],
+	"page": {
+		"number": 1219,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (πρόθυρον; θ rendered by <cite ref=\"G00070\"><he>זד</he></cite>) <i>verandah, vestibule</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 7:7\">Targ. I Kings VII, 7</cite> <cite ref=\"Q01706\"><he>פרוסדא</he></cite> (ed. Lag. <he>פורסדא</he>; corr. acc.).—",
+				"<cite ref=\"Pirkei Avot 4:16\">Ab. IV, 16</cite> <he>העולם חזה דומה לפ׳ וכ׳</he> (Ar. <he>לפרוס׳</he>) this world is like a vestibule to the world to come; prepare thyself in the vestibule &c. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:12:1\">Cant. R. to IV, 12</cite> <he>בא וישב עליה בפ׳</he> he (the king) came and sat down in judgment over it on the verandah (in the sight of all people).—Trnsf. <i>the forepart of female genitals, the lower end of the vagina</i> or <i>uterus</i>. ",
+				"<cite ref=\"Mishnah Niddah 2:5\">Nidd. II, 5</cite>. ",
+				"<cite ref=\"Tosefta Niddah 3:9\">Tosef. ib. III, 9</cite> <he>פרסדיר</he> ed. Zuck. (Var. <cite ref=\"Q01659\"><he>פרוזדור</he></cite>). Y. ib. II, 50ᵃ; a. e."
+			]
+		}
+	]
+}

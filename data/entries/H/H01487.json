@@ -1,0 +1,32 @@
+{
+	"id": "H01487",
+	"slug": "חץ",
+	"headword": {
+		"text": "חֵץ"
+	},
+	"page": {
+		"number": 493,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <cite ref=\"H01533\"><he>חָצַץ</he> I)</cite><i>wedge, arrow</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 10:8\">Mikv. X, 8</cite> <he>חץ שהוא תחוב באדם</he> an arrow sticking in a person’s body; <cite ref=\"Tosefta Mikvaot 7:9\">Tosef. ib. VII</cite> (<cite ref=\"Tosefta Mikvaot 8:9\">VIII</cite>), 9. ",
+				"<cite ref=\"Arakhin 15b:78\">Arakh. 15ᵇ</cite> <he>חץ עד מ״ה אמה</he> the range of an arrow is forty five cubits. ",
+				"<cite ref=\"Arakhin 15b:44\">Ib.</cite> <he>אין חץ אלא לשון</he> arrow means (an evil) tongue (ref. to <cite ref=\"Jeremiah 9:7\">Jer. IX, 7</cite>); a. fr. [<cite ref=\"Jerusalem Talmud Ketubot 2:1:4\">Y. Keth. II., beg. 26ᵃ</cite> <he>שחיצה</he>, read: <he>שחֶצְיָהּ</he>]—Pl. <he>חִצִּים</he>, <he>חִצִּין</he>, <cite ref=\"H00367\"><he>חִי׳</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 3:4\">Lam. R. to III, 12</cite> (expl. <he>כמטרה לחץ</he> <cite ref=\"Eichah Rabbah 3:4\">ib.</cite>) <he>כקורת ח׳ וכ׳</he> like the post for arrows (for military practice) at which all shoot &c.—Tanḥ. Nitsab. 1 (ref. to <cite ref=\"Deuteronomy 32:23\">Deut. XXXII, 23</cite>) <he>חִצַּי כלין וכ׳</he> my arrows will be spent, but they (Israel) shall not cease; <cite ref=\"Deuteronomy 32:23\">ib.</cite> <he>חִצָּיו כלין וכ׳</he> his arrows will be spent, but the post will remain; <cite ref=\"Sotah 9a:11\">Sot. 9ᵃ</cite>. ",
+				"<cite ref=\"Bava Kamma 22a:3\">B. Kam. 22ᵃ</cite> <he>אשו משום חִצָּיו</he> he is responsible for his fire, because it is his arrows (i.e. his action), opp. <he>משום ממונו</he> because it is his property which caused the damage. ",
+				"<cite ref=\"Bava Kamma 22a:5\">Ib.</cite> <he>חציו דכלב</he> it is the action of (his) dog; <he>חציו דגמל</he> of his camel; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>shaft</i>.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Sukkah 12b\">Succ. 12ᵇ</cite>; <cite ref=\"Sukkah 15a\">15ᵃ</cite> <he>ה׳ זכרים</he> plain shafts, opp. <cite ref=\"N01160\"><he>נקבות</he></cite> shafts with a hole into which the arrow-head is sat."
+			],
+			"label": "2"
+		}
+	]
+}

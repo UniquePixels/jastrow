@@ -1,0 +1,55 @@
+{
+	"id": "U01764",
+	"slug": "שפך-1",
+	"headword": {
+		"text": "שָׁפַךְ"
+	},
+	"page": {
+		"number": 1616,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.;<i>Shaf.</i> of <he>הפך</he>) [<i>to invert,</i>] <i>to pour; to empty</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 2:8\">Lam. R. to IV, 11</cite> <he>מזמר אני שהפך חופתו</he> … <he>ולא ש׳ חמתו וכ׳</he> I sing, because he (the king) has upset his son’s bridal chamber, but has not poured out his anger over his son; <he>שש׳ הקב״ה … ולא ש׳</he> because the Lord has poured his anger over wood and stone, and did not pour it out over Israel. ",
+				"<cite ref=\"Yevamot 75b:9\">Yeb. 75ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 23:2\">Deut. XXIII, 2</cite>) <he>מי שע״י כריתה שׁוֹפֵךְ</he> he who pours (semen, instead of shooting forth, <he>מקלח</he>) in consequence of cutting. ",
+				"<cite ref=\"Mishnah Sukkah 2:9\">Succ. II, 9</cite>, v. <cite ref=\"S01226\"><he>קִיתוֹן</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 12:4:4\">Y. Sabb. XII, end, 13ᵈ</cite> <he>וכתב לא השופך</he> ‘and he writes’ (<cite ref=\"Deuteronomy 24:3\">Deut. XXIV, 3</cite>), but not ‘he pours’ (a chemical fluid over a sympathetic writing to make it legible); <cite ref=\"Deuteronomy 24:3\">ib.</cite> <he>שופך דיו וכ׳</he> he pours ink in which there is no gall-nut, and this catches (settles on) the written letters; <cite ref=\"Jerusalem Talmud Gittin 2:3:2\">Y. Gitt. II, 44ᵇ</cite> top <cite ref=\"U01746\"><he>שָׁפֵיךְ</he></cite> (Chald.); a. fr.—ש׳ דמים <i>to shed blood</i>. ",
+				"<cite ref=\"Bereishit Rabbah 34:14\">Gen. R. s. 34</cite>. ",
+				"<cite ref=\"Bava Metzia 58b\">B. Mets. 58ᵇ</cite>, v. <cite ref=\"L00095\"><he>לָבַן</he> II</cite>; a. fr.—[<cite ref=\"Midrash Tehillim 22\">Midr. Till. to Ps. XXII, 16</cite> <cite ref=\"U00504\"><he>שופכין</he></cite>, read: <he>שׁוֹפְתִין</he>, v. <cite ref=\"U01812\"><he>שָׁפַת</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִשְׁפַּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be poured out, emptied</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 47b:11\">Ḥull. 47ᵇ</cite> <he>ריאה  שׁנִשְׁפְּכָה כקיתון</he> a lung which (by tearing the membrane) is emptied like a ladle. ",
+						"<cite ref=\"Sotah 42b:11\">Sot. 42ᵇ</cite> (play on <cite ref=\"U00503\"><he>שופך</he></cite>, v. <cite ref=\"U00318\"><he>שׁוֹבַךְ</he></cite>) <he>שכל הרואה אותו נ׳ לפניו וכ׳</he> whoever saw him, was poured out before him like a ladle (his courage failed him, cmp. <cite ref=\"M01978\"><he>מָסַס</he></cite>). ",
+						"<cite ref=\"Pesachim 22b:1\">Pes. 22ᵇ</cite> <he>דם שנ׳ כמים וכ׳</he> blood that is poured out like water makes susceptible of uncleanness. ",
+						"<cite ref=\"Pesachim 22a:10\">Ib. 22ᵃ</cite> <he>כמים הנִשְׁפָּכִין</he> like water that is poured out (ordinary water), opp. <he>המתנסכין</he> used for libation. ",
+						"<cite ref=\"Pesachim 20b:24\">Ib. 20ᵇ</cite> <he>תִּשָּׁפֵךְ חבל</he>, v. <cite ref=\"H00085\"><he>חֲבַל</he> II</cite>. ",
+						"<cite ref=\"Mishnah Zevachim 8:7\">Zeb. VIII, 7</cite>, sq. <he>יִשָּׁפֵךְ לאמה</he> shall be poured into the sewer; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["שִׁפֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to make slanting</i>. Part. pass. <he>מְשׁוּפָּךְ</he>. ",
+					"units": [
+						"<cite ref=\"Yoma 68b:2\">Yoma 68ᵇ</cite> (ref. to <he>שפך</he>, <cite ref=\"Leviticus 4:12\">Lev. IV, 12</cite>) <he>שיהא מקומו מש׳</he> the place for the ashes must be sloping; Sifra Vayikra, Hob., Par. 3, ch. V; <cite ref=\"Zevachim 106a:3\">Zeb. 106ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

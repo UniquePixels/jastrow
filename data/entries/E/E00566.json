@@ -1,0 +1,54 @@
+{
+	"id": "E00566",
+	"slug": "הלכה",
+	"headword": {
+		"text": "הֲלָכָה"
+	},
+	"page": {
+		"number": 353,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>הלך</he>) ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"M01727\"><he>מִנְהָג</he></cite>) <i>practice, adopted opinion, rule</i>.—<he>ה׳ כ־</he> in practice, the opinion of … is the rule. ",
+			"units": [
+				"<cite ref=\"Ketubot 77a:7\">Keth. 77ᵃ</cite> <he>ה׳ כמותו</he>; a. v. fr.—<he>ה׳ למשה מסיני</he> a usage dating from Moses as delivered from Sinai, i.e. <i>a traditional law</i> or <i>a traditional interpretation of a written law</i>. ",
+				"<cite ref=\"Kiddushin 38b:8\">Kidd. 38ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " in gen. <i>traditional law, tradition, custom</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Orlah 3:9\">Orl. III, 9</cite> <he>הערלה ה׳</he> the application of the laws of Orlah (v. <cite ref=\"P01387\"><he>עָרְלָה</he></cite>) outside of Palestine is traditional or a custom (<he>הילכות מדינה</he>, v. ",
+				"<cite ref=\"Kiddushin 38b:8\">Kidd. 38ᵇ</cite>).—",
+				"<cite ref=\"Jerusalem Talmud Beitzah 2:1:3\">Y. Bets. II, 61ᵇ</cite> top <he>לה׳</he> as a traditional opinion (of a teacher), opp. <he>לעובדא</he> as his own decision for practice. ",
+				"<cite ref=\"Jerusalem Talmud Demai 3:4:9\">Y. Dem. III, 23ᶜ</cite> bot., sq. <he>מה׳</he> according to a custom. ",
+				"<cite ref=\"Keritot 13b:47\">Ker. 13ᵇ</cite> ‘which the Lord has spoken’ (<cite ref=\"Leviticus 10:11\">Lev. X, 11</cite>) <he>זו ה׳</he> that means traditional interpretations. Ib. III, 9 (15ᵇ) <he>אם ה׳ נקבל אם לדין וכ׳</he> if it is a tradition, we must accept it, but if it is a logical inference, there may be an objection to it."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>law</i>, contrad. to <cite ref=\"A00247\"><he>אֲגָדָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Berakhot 31a:22\">Ber. 31ᵃ</cite> <he>מתוך דבר ה׳</he> from discussion about a law, opp. <he>ה׳ פסוקה</he> a decision arrived at after discussion. ",
+				"<cite ref=\"Berakhot 47b:13\">Ib. 47ᵇ</cite> <he>המחדדין … בה׳</he> who whet each other’s wits in legal discussion. ",
+				"<cite ref=\"Sanhedrin 82a:3\">Snh. 82ᵃ</cite> <he>נתעלמה ממנו ה׳</he> the law had escaped his memory. ",
+				"<cite ref=\"Sanhedrin 82a:3\">Ib.</cite> <he>ראה … ונזכר ה׳</he> he saw an act and recalled the law; a. v. fr.—Pl. <cite ref=\"E00567\"><he>הֲלָכוֹת</he></cite>, constr. <cite ref=\"E00567\"><he>הִלְכוֹת</he></cite>, <cite ref=\"E00570\"><he>הִילְ׳</he></cite>. Kidd. l. c. <he>הי׳ מדינה</he> (v. R. S. to <cite ref=\"Mishnah Orlah 3:9\">Orl. III, 9</cite>; ed. <he>הלכתא מדינה</he>, corr. acc.) the usages of the country (outside of Palestine). ",
+				"<cite ref=\"Jerusalem Talmud Horayot 3:5:12\">Y. Hor. III, end, 48ᶜ</cite> <he>אילו ה׳</he> that means the collections of laws (Mishnah). ",
+				"<cite ref=\"Temurah 14b:49\">Tem. 14ᵇ</cite> <he>כותבי ה׳</he> those who reduce traditions (oral law) to writing. ",
+				"<cite ref=\"Sanhedrin 67b:12\">Snh. 67ᵇ</cite> <he>הי׳ כשפים</he> the laws concerning the punishment of witchcraft. ",
+				"<cite ref=\"Sanhedrin 67b:12\">Ib.</cite> <he>הלְ׳ יצירה</he> mystic practices. ",
+				"<cite ref=\"Shabbat 32a:7\">Sabb. 32ᵃ</cite>; <cite ref=\"Tosefta Shabbat 2:10\">Tosef. ib. II, 10</cite>; a. v. fr.—[<cite ref=\"E00566\"><he>הלכה</he></cite> in Talmud Y., heading of <i>Mishnah</i>, in Talm. Bab. <he>מתני׳</he>.]"
+			],
+			"label": "3"
+		}
+	]
+}

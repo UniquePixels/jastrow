@@ -1,0 +1,28 @@
+{
+	"id": "J00181",
+	"slug": "יוחס",
+	"headword": {
+		"text": "יוֹחָס"
+	},
+	"page": {
+		"number": 568,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>יוֹחֲסִים</he>, (<cite ref=\"J00301\"><he>יָחַס</he></cite>) <he>יוֹחֲסִין</he> <i>genealogical records, traced genealogy</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 4:1\">Kidd. IV, 1</cite> <he>עשרה י׳ עלו וכ׳</he> ten classes of Jews of traced genealogy went up from Babylonian captivity. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:2:13\">Y. Taan. IV, 68ᵃ</cite> bot.; <cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite> <he>מגילת י׳ מצאו וכ׳</he> a roll containing genealogical records was found &c. ",
+				"<cite ref=\"Mishnah Yevamot 4:13\">Yeb. IV, 13</cite>; <cite ref=\"Yevamot 49b:6\">ib. 49ᵇ</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Sukkah 5:8:6\">Y. Succ. V, end, 55ᵈ</cite>; <cite ref=\"Shir HaShirim Rabbah 5:5:1\">Cant. R. to V, 5</cite> <cite ref=\"U01401\"><he>שלשלת</he></cite> (<cite ref=\"E00000\"><he>ה</he></cite>)<he>י׳</he> the genealogical chain; <cite ref=\"Bereishit Rabbah 82\">Gen. R. s. 82</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 82\">Ib.</cite> <he>בכורת י׳</he> the genealogical privileges of the first-born, opp. to <he>בכורת ממון</he> the material privileges (double-share). Ruth R., end <he>מה אתם יש לכם י׳</he> what records have you to show?—",
+				"<cite ref=\"Pesachim 62b:15\">Pes. 62ᵇ</cite> <he>מיום שנגנז ספר י׳</he> since the Book of Genealogy (a commentary to Chronicles) was suppressed (or disappeared, in the Roman days). ",
+				"<cite ref=\"Pesachim 62b:8\">Ib.</cite> <he>ניתני לי מר ספר י׳</he> teach me the book of records (Chronicles); a. e.—V. <cite ref=\"J00273\"><he>יִחוּס</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "U01646",
+	"slug": "שעותא",
+	"headword": {
+		"text": "שַׁעַוְתָּא"
+	},
+	"page": {
+		"number": 1610,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"U01637\"><he>שַׁעֲוָה</he></cite>, <i>wax</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 22:15\">Targ. Ps. XXII, 15</cite> Ms. (ed. <cite ref=\"U01636\"><he>שַׁעֲוָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Micah 1:4\">Targ. Mic. I, 4</cite> <cite ref=\"U01662\"><he>שָׁעִיתָא</he></cite>.—V. <cite ref=\"U01636\"><he>שַׁעֲוָא</he></cite>."
+			]
+		}
+	]
+}

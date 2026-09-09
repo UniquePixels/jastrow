@@ -1,0 +1,34 @@
+{
+	"id": "S02004",
+	"slug": "קרטיסין",
+	"headword": {
+		"text": "קְרָטִיסִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְרָטִיסִיס"
+		}
+	],
+	"page": {
+		"number": 1417,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (not <he>ים …</he>) f. (κράτησις, S.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>dominion, power, possession</i>, esp. (sub. <cite ref=\"J00194\"><he>יום</he></cite>) <i>a Roman festival</i> commemorating the conquest of eastern countries. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 1:3\">Ab. Zar. I, 3</cite> (<cite ref=\"Avodah Zarah 8a\">8ᵃ</cite>) (Mish. Nap. <he>קריטיסים</he>; Y. ed. <cite ref=\"S02014\"><he>קרטסים</he></cite>; v. Rabb. D. S. a. l. note 5); ib. 8ᵇ; Y. ib. I, 39ᶜ; Tosef. ib. I, 4 <cite ref=\"S02003\"><he>קרטיסים</he></cite> (Var. <he>קראטיס׳</he>, <he>טוסם …</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>royal prohibition</i>. Pesik. Baḥod., p. 104ᵇ sq. <he>קבע ק׳ בני וכ׳</he> he issued a prohibition, that the Romans must not go down to Syria &c.; <he>התיר ק׳</he> he cancelled the prohibition; <cite ref=\"Yalkut Shimoni on Torah 273:1\">Yalk. Ex. 273</cite> (Ar. <he>קבע קרטיסים בים</he>, corr. acc.).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

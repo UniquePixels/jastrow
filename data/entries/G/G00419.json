@@ -1,0 +1,23 @@
+{
+	"id": "G00419",
+	"slug": "זירא-2",
+	"headword": {
+		"text": "זֵירָא"
+	},
+	"page": {
+		"number": 396,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (= <cite ref=\"G00598\"><he>זְעֵירָא</he></cite>) <i>Zera</i> (<i>Little</i>), name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Ketubot 110b:25\">Keth. 110ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Ketubot 43b:1\">Ib. 43ᵇ</cite>, a. fr.; v. <cite ref=\"G00598\"><he>זְעֵירָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "B00135",
+	"slug": "בדידה",
+	"headword": {
+		"text": "בְּדִידָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוֹדִידָה"
+		}
+	],
+	"page": {
+		"number": 140,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בדד</he>, v. <cite ref=\"B00095\"><he>בַּד</he> II</cite>) <i>small olive press</i>. Sifra B’har ch. I one may grind the olives in the large tank <he>ומכניס לבד׳</he> and then put them into the small press; <cite ref=\"Mishnah Sheviit 8:6\">Shebi. VIII, 6</cite> <he>לבוד׳</he>.—Pl. <he>בְּדִידוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 31\">Gen. R. s. 31</cite> Ar. (ed. <cite ref=\"B00110\"><he>בדדיות</he></cite>, <he>בדריות</he>, corr. acc.)."
+			]
+		}
+	]
+}

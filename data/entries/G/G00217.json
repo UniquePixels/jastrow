@@ -1,0 +1,61 @@
+{
+	"id": "G00217",
+	"slug": "זוע-1",
+	"headword": {
+		"text": "זוּעַ"
+	},
+	"page": {
+		"number": 388,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to drip</i>, v. <i>Hif.</i>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to move, shake, tremble</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 26:1\">Pesik. R. s. 26</cite> <he>איברי זָעוּ עלי</he> (read with <cite ref=\"Yalkut Shimoni on Nach 262:1\">Yalk. Jer. 262</cite>: <he>קרבי</he>) my bowels within me trembled."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵזִיעַ", "הִזִּיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to perspire, drip</i>. ",
+					"units": [
+						"<cite ref=\"Zevachim 18b:20\">Zeb. 18ᵇ</cite> (ref. to <he>ביזע</he>, <cite ref=\"Ezekiel 44:18\">Ez. XLIV, 18</cite>) <he>במקום שמַזִּיעִין</he> on that part of the body where one perspires. ",
+						"<cite ref=\"Mishnah Tahorot 9:1\">Toh. IX, 1</cite>; <cite ref=\"Meilah 21a:21\">Meïl. 21ᵃ</cite> <he>משיַזִּיעוּ</he> Ar. (ed. <he>משיָּזוּעוּ</he>) from the time the olives begin to drip, v. <cite ref=\"M02100\"><he>מַעֲטָן</he></cite>. Sifra B’ḥuck., Par. 2, ch. V <he>השמים מַזִּיעִים</he> the heavens perspire (vapors, rain); <he>הנחושת מזיע</he> (read: <he>מַזִּיעָה</he>) bronze sweats. ",
+						"<cite ref=\"Bereishit Rabbah 20:10\">Gen. R. s. 20</cite> (ref. to <cite ref=\"Genesis 3:19\">Gen. III, 19</cite>) <he>הִזִּיעוּ פניו</he> his face began to drip (tears, v. ",
+						"<cite ref=\"Pesachim 118a\">Pes. 118ᵃ</cite>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to move</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shevi'it 3:4\">Tosef. Shebi. III, 4</cite> <he>מחרישה מְזִיעֲתָן</he>, v. <cite ref=\"G00589\"><he>זִעֲזֵע</he></cite>. ",
+						"<cite ref=\"Kohelet Rabbah 1:13\">Koh. R. to I, 13</cite>, v. <cite ref=\"G00145\"><he>זוּז</he> I</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be agitated</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 4:4\">Cant. R. to IV, 4</cite> <he>אפשר שלא ה׳ וכ׳</he> is it possible that the sensual desire was not at all agitated?"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

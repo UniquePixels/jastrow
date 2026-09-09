@@ -1,0 +1,25 @@
+{
+	"id": "A01392",
+	"slug": "אינקורא",
+	"headword": {
+		"text": "אִינְקוֹרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִנְקוֹרָא"
+		}
+	],
+	"page": {
+		"number": 53,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01241\"><he>נקר</he></cite>) <i>a bird with traces of bites or wounds on its legs;</i> [<i>black bird with white spots on its head</i>, quot. in Rashi; to be read <he>אינקודי</he>?].—Pl. <cite ref=\"A01392\"><he>אִינְקוֹרֵי</he></cite>, <he>אִנְ׳</he>. ",
+			"units": ["<cite ref=\"Chullin 57a:4\">Ḥull. 57ᵃ</cite>"]
+		}
+	]
+}

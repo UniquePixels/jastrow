@@ -1,0 +1,38 @@
+{
+	"id": "P00233",
+	"slug": "עויר",
+	"headword": {
+		"text": "עֲוִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲוִירָא",
+			"homograph": 1
+		},
+		{
+			"text": "עֲוִו׳"
+		},
+		{
+			"text": "עַוִּ׳"
+		}
+	],
+	"page": {
+		"number": 1049,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"P00346\"><he>עִוֵּר</he></cite>, <i>blind</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 21:18\">Targ. O. Lev. XXI, 18</cite>. ",
+				"<cite ref=\"Onkelos Exodus 4:11\">Targ. O. Ex. IV, 11</cite>; a. fr.—",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד מאת׳</he> 7), v. <cite ref=\"N00033\"><he>נָאקְתָא</he></cite>. ",
+				"<cite ref=\"Gittin 69a:3\">Gitt. 69ᵃ</cite> <he>ונימא ליה ע׳ וכ׳</he> and let the blind man say to him &c. ",
+				"<cite ref=\"Bava Kamma 85a:21\">B. Kam. 85ᵃ</cite> <he>עינא ע׳</he>, v. <cite ref=\"A02428\"><he>אָסֵי</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 30:9\">Gen. R. s. 30</cite>, v. <cite ref=\"O01080\"><he>סָמֵי</he></cite>; a. fr.—",
+				"<cite ref=\"Shabbat 151b:17\">Sabb. 151ᵇ</cite> <he>תרתי תכלא ועִיוְּרָא</he> shall I be both, childless and blind? (v. <cite ref=\"P00234\">next w.</cite>)—Pl. <he>עִיוְּרִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 4:14\">Targ. Lam. IV, 14</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "Q00632",
+	"slug": "פיטק",
+	"headword": {
+		"text": "פִּיטֵּק"
+	},
+	"page": {
+		"number": 1161,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פטק</he> = <cite ref=\"Q02196\"><he>פתק</he></cite>) [<i>ball, stone</i>; cmp. <cite ref=\"Q00654\"><he>פַּיִּיס</he></cite>,] <i>lot, ballot</i>. —Pl. <he>פִּיטְּקִין</he>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 8:11\">Cant. R. to VIII, 11</cite>, v. <cite ref=\"D00131\"><he>דָּדָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:4:7\">Y. Snh. I, 19ᶜ</cite> bot. <he>נטל … פ׳ וכ׳</he> Moses took twenty two thousand ballots and wrote on them &c.; <he>בואו וטלו פִּיטְּקֵיכֶן</he> come and draw your ballots.—V. <cite ref=\"Q02196\"><he>פִּתֵּק</he></cite>."
+			]
+		}
+	]
+}

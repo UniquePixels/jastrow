@@ -1,0 +1,25 @@
+{
+	"id": "R00045",
+	"slug": "צביעה-1",
+	"headword": {
+		"text": "צְבִיעָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1258,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>צָבַע</he> I) <i>handling</i>; <he>בית הצ׳</he> that part of a vessel by which it is handled, v. <cite ref=\"R00041\"><he>צְבִיטָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 25:7\">Kel. XXV, 7</cite> <he>כל הכלים … ובית הצ׳</he> all vessels have backs, insides and handling places (independent of one another, v. <cite ref=\"R00041\"><he>צְבִיטָה</he></cite>); <cite ref=\"Mishnah Kelim 25:8\">ib. 8</cite> <he>כיצד … אחזו בבית צְבִיעָתוֹ וכ׳</he> how is this? If one’s hands are clean, and the back of a cup is unclean, and he seizes it by its handling place. ",
+				"<cite ref=\"Mishnah Kelim 25:8\">Ib.</cite> <he>נטילתו באחת צביעתו באחת</he> that which is taken up with one hand (at one special place) has one handling place (for the purposes of levitical cleanness); <he>מקום אחיזתו שם צביעתו</he> at whatever place a vessel is taken hold of, there is its handle. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 3:1:2\">Y. Ḥag. III, 78ᵈ</cite> bot.; a. fr."
+			]
+		}
+	]
+}

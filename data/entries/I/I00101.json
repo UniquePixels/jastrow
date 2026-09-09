@@ -1,0 +1,102 @@
+{
+	"id": "I00101",
+	"slug": "טהר-1",
+	"headword": {
+		"text": "טָהֵר"
+	},
+	"altHeadwords": [
+		{
+			"text": "טָהַר"
+		}
+	],
+	"page": {
+		"number": 520,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>צהר</he>, <he>זהר</he>) [<i>to be bright, to glitter</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be clean, pure</i>, esp. <i>to be levitically clean; to be unsusceptible of levitical uncleanness</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 10:8\">Neg. X, 8</cite> <he>שט׳ שעה אחת</he> which has been declared clean once. ",
+				"<cite ref=\"Mishnah Mikvaot 2:2\">Mikv. II, 2</cite> <he>עד שיודע שט׳</he> until it is ascertained that it has become clean. ",
+				"<cite ref=\"Mishnah Mikvaot 3:2\">Ib. III, 2</cite> <he>ויִטְהֲרוּ העליונים מן וכ׳</he> so that the waters coming from above become cleansed from the impurity of the lower waters. ",
+				"<cite ref=\"Mishnah Negaim 7:4\">Neg. VII, 4</cite> <he>ויִטְהַר ממנו</he> and is declared clean from it (the last scall); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be cleared, removed</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 2b:4\">Ber. 2ᵇ</cite>, v. <cite ref=\"I00102\">next w.</cite>"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טִיהֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to purify, make</i> (<i>levitically</i>) <i>clean; to absolve from sin</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Yoma 8:9\">Yoma VIII, 9</cite> <he>מי מְטַהֵר וכ׳</he> who is it that absolves you? <cite ref=\"Mishnah Yoma 8:9\">Ib.</cite> (ref. to <cite ref=\"Jeremiah 17:13\">Jer. XVII, 13</cite>) <he>מה מקוה מט׳ וכ׳</he> as the ritual bath (v. <cite ref=\"M02388\"><he>מִקְוֶה</he></cite>) cleanses the unclean, so does the Lord &c.; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to keep clean, guard against contact with unclean things</i>. ",
+					"units": [
+						"<cite ref=\"Rosh Hashanah 16b:8-9\">R. Hash. 16ᵇ</cite> <he>חייב … לטַהֵר את עצמו וכ׳</he> one is bound to keep one’s self clean for the festive days."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to declare</i> <cite ref=\"I00100\"><he>טָהוֹר</he></cite>, <i>to decide in favor of cleanness</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 17a:22\">Snh. 17ᵃ</cite> bot. <he>מי שיודע לטַ׳ וכ׳</he> one who knows how to prove a creeping thing to be clean. ",
+						"<cite ref=\"Sanhedrin 17a:22\">Ib.</cite> <he>אני אדון ואֲטַהֲרֶנוּ</he> I will argue and prove it to be clean. ",
+						"<cite ref=\"Mishnah Eduyot 8:7\">Eduy. VIII, 7</cite> <he>לטמא ולטַ׳</he> to decide on unclean and clean; a. v. fr.—<i>Part. pass.</i> <he>מְטוֹהָר</he>, pl. <he>מְטוֹהָרִים</he>. ",
+						"<cite ref=\"Berakhot 2b:4\">Ber. 2ᵇ</cite>, v. <cite ref=\"I00100\">preced.</cite>"
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to become clean</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 94b:17\">Snh. 94ᵇ</cite> <he>מיד ט׳</he> it becomes clean at once. ",
+						"<cite ref=\"Chullin 60b:13\">Ḥull. 60ᵇ</cite> <he>טִיהֲרוּ</he>; <cite ref=\"Gittin 38a:3\">Gitt. 38ᵃ</cite> <he>טהרו</he>, v. <cite ref=\"O00602\"><he>סִיחוֹן</he></cite>."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִטְהַר"],
+			"senses": [
+				{
+					"gloss": "<i>to become clean</i>. Tanḥ. Metsora 7 <he>נִטְהֲרָה וכ׳</he> she became clean on the eighth day. Ib. <he>ונִטְהֶרֶת</he> and becomes clean; a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִטָּהֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to be cleansed, to cleanse one’s self; to amend</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 38b:16\">Yoma 38ᵇ</cite> <he>בא לִטָּהֵר מסייעים אותו</he> (Ms. M. 2 <he>להִטָּהֵר</he>) if one is willing to do good, he will be assisted; <cite ref=\"Shabbat 104a\">Sabb. 104ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Nach 935:12\">Yalk. Prov. 935</cite> <he>לִיטָּהֵר</he>; a. e.—",
+						"<cite ref=\"Mishnah Yoma 8:9\">Yoma VIII, 9</cite> (<cite ref=\"Yoma 85b:8\">85ᵇ</cite>) <he>לפני מי אתם מִיטַּהֲרִים</he> Mish. a. Y. ed. (Bab. ed. <he>מִטַּ׳</he>) before whom do you cleanse yourselves (from sin)?; a. e."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

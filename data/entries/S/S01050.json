@@ -1,0 +1,24 @@
+{
+	"id": "S01050",
+	"slug": "קינסין",
+	"headword": {
+		"text": "קִינְסִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1364,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"S01603\"><he>קָנַס</he></cite>; cmp. <cite ref=\"C00581\"><he>גְּזֵרָה</he></cite>) <i>decisions, decrees</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 1:1\">Esth. R. to I, 1</cite> <he>הביאו לי ק׳ הנעתקין</he> (not <cite ref=\"S01049\"><he>קינסון</he></cite>) bring me the decrees which have been removed (transferred to the archive of Ecbatana)."
+			]
+		}
+	]
+}

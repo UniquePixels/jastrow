@@ -1,0 +1,25 @@
+{
+	"id": "A00163",
+	"slug": "אבלונים",
+	"headword": {
+		"text": "אבלונים",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אבליניס"
+		}
+	],
+	"page": {
+		"number": 7,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(?) name of a <i>spring</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 33\">Gen. R. s. 33</cite> (<cite ref=\"Sanhedrin 108a:10\">Snh. 108ᵃ</cite> <he>בלועה דגדר</he>). Cmp. <cite ref=\"A00135\"><he>אבילין</he></cite>, <cite ref=\"A00530\"><he>אובלין</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "S00744",
+	"slug": "קטיזמא",
+	"headword": {
+		"text": "קְטִיזְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְטִיזְמָה"
+		}
+	],
+	"page": {
+		"number": 1347,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (κτίσμα) <i>creature, creation</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 18:28\">Midr. Till. to Ps. XVIII, 36</cite> <he>בו״ד … ק׳ שלו אלא מזכיר ק׳ וכ׳</he> ed. Bub. (not <cite ref=\"S00742\"><he>קטיגמא</he></cite>) when a human being sets a memorial to his name, he mentions first his name, and then his creation, but not so the Lord, he records his creation first and then his name, as we read (<cite ref=\"Genesis 1:1\">Gen. I, 1</cite>), ‘In the beginning created God;’ <cite ref=\"Bereishit Rabbah 1:12\">Gen. R. s. 1</cite> (misplaced and curtailed, v. Ar. s. v. <cite ref=\"S00744\"><he>קטיזמא</he></cite>); Tanḥ. ed. Bub. ",
+				"<cite ref=\"Genesis 4\">B’resh. 4</cite> <he>קטומה</he> (corr. acc.); <cite ref=\"Genesis 5\">ib. 5</cite> <cite ref=\"E00316\"><he>הטיומא</he></cite> (corr. acc.); <cite ref=\"Yalkut Shimoni on Nach 162\">Yalk. Sam. 162</cite> <cite ref=\"S00742\"><he>קטיומא</he></cite> (corr. acc.).—",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 5:5:3\">Y. B. Kam. V, 5ᵃ</cite> top [read:] <he>רשב״ג אומר אומר קְטִיזְמִי היא זו</he> (not <he>קוט׳</he>) R. S. b. G. says, he (the purchaser of a breeding slave) may say, it is my creation (i.e. damages for injury to his slave’s embryo belong to him)."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "T00289",
+	"slug": "רהן",
+	"headword": {
+		"text": "רָהַן"
+	},
+	"page": {
+		"number": 1454,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"T00270\"><he>הִרְהִין</he></cite> (a contract, of <he>רהבן</he>, cmp. <cite ref=\"T00274\"><he>רַהֲבוֹנָא</he></cite> a. Lat. arrha; v. <cite ref=\"P01272\"><he>עֵרָבוֹן</he></cite>) <i>to deposit as a pledge</i>, contrad. to <cite ref=\"M02905\"><he>מִשְׁכֵּן</he></cite> to take a pledge. ",
+					"units": [
+						"<cite ref=\"Tosefta Ma'aser Sheni 1:1\">Tosef. Maas. Sh. I, 1</cite> <he>מעשר שני … ואין מַרְהִינִין אותו</he> ed. Zuck. (Var. <he>מְהַרְהִינִין</he>) second tithes must neither be sold, nor taken or given as a pledge; Y. ib. I, 52ᶜ top. Ib. <he>עבר והי׳ וכ׳</he> if he pledged it in defiance of the law, he is fined. ",
+						"<cite ref=\"Pesachim 31a:9\">Pes. 31ᵃ</cite> <he>כשהִרְהִינוֹ אצלו</he> when he deposited it (the leavened matter) with him (the gentile) as a pledge. ",
+						"<cite ref=\"Pesachim 31b\">Ib.ᵇ</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

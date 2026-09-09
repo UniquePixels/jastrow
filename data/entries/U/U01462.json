@@ -1,0 +1,48 @@
+{
+	"id": "U01462",
+	"slug": "שמיא",
+	"headword": {
+		"text": "שְׁמַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁמַיָּיא"
+		}
+	],
+	"page": {
+		"number": 1595,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. = h. <cite ref=\"U01468\"><he>שָׁמַיִם</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>heaven</i>; trnsf. <i>God</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:1\">Targ. Gen. I, 1</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 10:14\">Targ. Deut. X, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 25:19\">Targ. Y. Num. XXV, 19</cite> (<cite ref=\"Targum Jonathan on Numbers 26:1\">XXVI, 1</cite>); a. v. fr.—",
+				"<cite ref=\"Berakhot 58b:11\">Ber. 58ᵇ</cite> <he>שבילי דש׳</he> (Ms. M. <he>דרקיעא</he>), v. <cite ref=\"N00280\"><he>נְהַר</he> I</cite>. ",
+				"<cite ref=\"Berakhot 7b:14\">Ib. 7ᵇ</cite>; <cite ref=\"Ketubot 105b\">Keth. 105ᵇ</cite>, a. fr. <he>מילי דש׳</he>, v. <cite ref=\"M01165\"><he>מִילָּא</he> II</cite>. ",
+				"<cite ref=\"Chagigah 12b:15\">Ḥag. 12ᵇ</cite> <he>חשוכא קמי ש׳</he>, v. <cite ref=\"H01822\"><he>חֲשׁוֹכָא</he> II</cite>. ",
+				"<cite ref=\"Sanhedrin 105a:15\">Snh. 105ᵃ</cite> <he>כלפי ש׳</he>, v. <cite ref=\"H00437\"><he>חוּצְפָּא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 11:4:1\">Y. Ned. XI, end, 42ᵈ</cite>, v. <cite ref=\"T00508\"><he>רָחִיק</he> II</cite>; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>שְׁמֵי שַׁרְיָיתָא</he>, <he>שְׁמֵי טְלָלָא</he> <i>arch, ceiling</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 6:15\">Targ. I Kings VI, 15</cite>.—",
+				"<cite ref=\"Berakhot 48a:3\">Ber. 48ᵃ</cite>, v. <cite ref=\"I00511\"><he>טְלָלָא</he></cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

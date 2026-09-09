@@ -1,0 +1,23 @@
+{
+	"id": "H01457",
+	"slug": "חפיתא",
+	"headword": {
+		"text": "חָפִיתָא"
+	},
+	"page": {
+		"number": 492,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"H01417\"><he>חָף</he></cite>) <i>fish remaining on the shore after the water receded, mud-fish</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:4:7\">Cant. R. to I, 4</cite> (ref. to <he>תדוץ דאבה</he>, <cite ref=\"Job 41:14\">Job XLI, 14</cite>, cmp. <cite ref=\"D00005\"><he>דָּאַב</he></cite>) <he>מקרטעא כהדא ח׳</he> jumping like raked fish. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:9:3\">Y. Ab. Zar. II, 42ᵃ</cite> <cite ref=\"H01457\"><he>חָפִיתָה</he></cite>; cmp. <cite ref=\"H00851\"><he>חִיפּוּשָׁא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "I00577",
+	"slug": "טנן-1",
+	"headword": {
+		"text": "טָנַן"
+	},
+	"page": {
+		"number": 541,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"I00388\"><he>טִין</he></cite>) <i>to be moistened and softened</i>, (of grains) <i>to be easily pealed in grinding</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makhshirin 3:4\">Makhsh. III, 4</cite> <he>וטָנְנוּ</he> and the wheat grew prepared for grinding. [Tanḥ. Vayiggash 9 <he>טננתה</he> some ed., read <he>טִגַּ׳</he>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טִינֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to prepare for grinding</i>. Makhsh. l. c. <he>המְטַנֵּן בחול</he> if one prepares wheat by mixing with sand; ib. 5 <he>המט׳ בטיט וכ׳</he> with dried clay.—Part. pass. <he>מְטוּנָּן</he>, f. <he>מְטוּנֶּנֶת</he>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 6b\">M. Kat. 6ᵇ</cite> <he>שדה מ׳</he> moist and fat soil, opp. <he>גריד</he>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֵטֵן"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00576\">same</cite>. Makhsh. l. c. <he>מְטִינִּים בחול</he> (or <he>מֵטִינִ׳</he> fr. <cite ref=\"I00388\"><he>טין</he></cite>). Ib. 5 <he>לְהָטֵן</he> Mish. ed. (Talm. ed. <he>להָטֵל</he> fr. <cite ref=\"I00508\"><he>טָלַל</he></cite>). Tosef. ib. II, 2 <he>להטיח</he> ed. Zuck. (Var. <he>להָטֵין</he>). ",
+					"units": [
+						"<cite ref=\"Tosefta Shevi'it 5:16\">Tosef. Shebi. V, 16</cite> (twice) <he>להטיל</he> (Var. <he>להטין</he>), (once) <he>להטין</he>; Y. ib. VII, beg., 37ᵇ <he>מהו לחטן בחוטין</he> (read: <he>להָטֵן בו חטין</he>); ib. (repeatedly) <he>לחטן</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "P01141",
+	"slug": "עקא-1",
+	"headword": {
+		"text": "עָקָא"
+	},
+	"page": {
+		"number": 1104,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00326\"><he>עוּק</he></cite>) <i>trouble, distress</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 30:6\">Targ. Is. XXX, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 23:27\">Targ. Prov. XXIII, 27</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Numbers 12:12\">Targ. Y. II, Num. XII, 12</cite> <he>הות עמנא בעַקְנָא</he> she was with us in (shared) our trouble; a. e.—",
+				"<cite ref=\"Sanhedrin 26a:19\">Snh. 26ᵃ</cite> <he>דא ע׳</he> that is the trouble (that thou callest them wicked).—Pl. <he>עָקָן</he>. ",
+				"<cite ref=\"Onkelos Leviticus 10:19\">Targ. O. Lev. X, 19</cite> <he>וערען … ע׳</he> (v. Berl. Targ. O. II, p. 34).—",
+				"<cite ref=\"Sanhedrin 11a:8\">Snh. 11ᵃ</cite> <he>וע׳ סגיאן עתידן וכ׳</he> and great troubles are destined to come over the world; <cite ref=\"Tosefta Sotah 13:4\">Tosef. Sot. XIII, 4</cite> <he>ע׳ סגיאין</he> (corr. acc.; Var. <he>ע׳ רברבן</he>); <cite ref=\"Shir HaShirim Rabbah 8:9:3\">Cant. R. to VIII, 9</cite>; a. e.—V. <cite ref=\"P01231\"><he>עַקְתָא</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 10:3:2\">Y. B. Kam. X, 7ᶜ</cite> top <he>בר נש דעָקִין</he> (masc. form) a man of troubles (a very poor man). ",
+				"<cite ref=\"Midrash Tehillim 18:9\">Midr. Till. to Ps. XVIII, 5</cite> <he>עָקַיָּא</he> (ed. Bub. <cite ref=\"P01231\"><he>עקתא</he></cite>), v. <cite ref=\"Q01191\"><he>פְּנַי</he> II</cite>."
+			]
+		}
+	]
+}

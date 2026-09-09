@@ -1,0 +1,25 @@
+{
+	"id": "P01508",
+	"slug": "עשרונא",
+	"headword": {
+		"text": "עִשְׂרוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִסְ׳"
+		},
+		{
+			"text": "עֶ׳"
+		}
+	],
+	"page": {
+		"number": 1127,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P01507\">same</cite> <cite ref=\"Onkelos Numbers 28:13\">Targ. Num. XXVIII, 13</cite>; a. fr.—Pl. <he>עִשְׂרוֹנִין</he>, <cite ref=\"P01508\"><he>עִסְ׳</he></cite>, <cite ref=\"P00167\"><he>עֶ׳</he></cite>. ",
+			"units": ["<cite ref=\"Onkelos Numbers 28:12\">Ib. 12</cite>; a. fr."]
+		}
+	]
+}

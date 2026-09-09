@@ -1,0 +1,30 @@
+{
+	"id": "M01215",
+	"slug": "מינוי-2",
+	"headword": {
+		"text": "מִינּוּי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מִינּוּיָא"
+		},
+		{
+			"text": "מִנּוּיָיה"
+		}
+	],
+	"page": {
+		"number": 776,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01214\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 31:13\">Targ. II Chr. XXXI, 13</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:2:37\">Y. Snh. I, 19ᵃ</cite> bot. <he>תמן קרון למ׳ וכ׳</he> there (in Babylonia) they call the ordination <i>s’mikhutha</i> (v. <cite ref=\"O01092\"><he>סְמִיכוּת</he></cite>); a. e.—Pl. <he>מִינּוּיִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:2:9\">Y. Taan. IV, 68ᵃ</cite> <he>הוה ממני תרין מ׳</he> ordained only two (each year); <cite ref=\"Kohelet Rabbah 7:7\">Koh. R. to VII, 7</cite> <cite ref=\"M01704\"><he>מנאין</he></cite> (read <he>מִנּוּיִין</he>)."
+			]
+		}
+	]
+}

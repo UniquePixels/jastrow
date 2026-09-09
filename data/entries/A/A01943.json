@@ -1,0 +1,31 @@
+{
+	"id": "A01943",
+	"slug": "אלצרין",
+	"headword": {
+		"text": "אִלְצָרִין",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אִלְסָרִין"
+		}
+	],
+	"page": {
+		"number": 73,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Syr. <he>אלסרא</he> P. Sm. 155; 212; an abbrev. of <cite ref=\"A01892\"><he>אלכסנדרין</he></cite>, v. <cite ref=\"A01892\"><he>אֲלַכְסִין</he></cite>) <i>a species of pistachio</i> (tree or fruit). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:2\">Y. Dem. II, beg. 22ᵇ</cite>; Y. Maasr. I, 48ᵈ bot. <he>אלצ׳</he>.—",
+				"<cite ref=\"Tosefta Ma'asrot 1:1\">Tosef. ib. I, 1</cite> <he>אילס׳</he>. ",
+				"<cite ref=\"Tosefta Ma'asrot 3:14\">Ib. III, 14</cite> <cite ref=\"A01270\"><he>אִילָאסָרִין</he></cite> ed. Zuck. (Var. <he>אלרסין</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "K00933",
+	"slug": "כסיתא-2",
+	"headword": {
+		"text": "כְּסִיתָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 654,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. a phonetic rendition of <cite ref=\"S02246\"><he>קְשִׂיטָה</he></cite> q. v. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 79:7\">Gen. R. s. 79</cite> (corr. vers. after Ar. s. v. <cite ref=\"S02246\"><he>קשיטה</he></cite>) (they heard one woman say to another) <he>אשאלי לי כְּסִיתְּתָךְ</he> (for <he>קשיטתך</he>, meaning to say <he>מרגליתיך</he>); (and furthermore) <he>אפיק הדא כ׳ למרעיא</he> lead this <i>K’sitta</i> out to pasture (meaning to say <cite ref=\"A01354\"><he>אִימַּרְתָּא</he></cite>); [Ar. reads <he>קשיט׳</he>]."
+			]
+		}
+	]
+}

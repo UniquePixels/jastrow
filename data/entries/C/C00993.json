@@ -1,0 +1,33 @@
+{
+	"id": "C00993",
+	"slug": "גם-1",
+	"headword": {
+		"text": "גַּם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 251,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <he>גמם</he>) [<i>junction</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>too, also</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 108b:22\">Snh. 108ᵇ</cite>; <cite ref=\"Taanit 21a:12\">Taan. 21ᵃ</cite> <he>ג׳ זו לטובה</he> this, too, is for the best. <he>איש גם זו</he>, v. <cite ref=\"C01014\"><he>גִּמְזוֹ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the particle gam</i> in the Bible text. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 94a:3\">B. Kam. 94ᵃ</cite> <he>ג׳ לב״ה קשיא</he> <i>the gam</i> (<cite ref=\"Deuteronomy 23:19\">Deut. XXIII, 19</cite>) is unaccounted for according to Beth Hillel’s opinion; <cite ref=\"Temurah 30b:48\">Tem. 30ᵇ</cite>. ",
+				"<cite ref=\"Esther Rabbah 3:2\">Esth. R. to I, 9</cite> (ref. to <cite ref=\"C00993\"><he>גם</he></cite> <cite ref=\"Esther Rabbah 3:2\">ib.</cite>) <he>אין ג׳ אלא ריבוי</he> <i>gam</i> intimates an amplification, a. e.—Pl. <he>גַּמִּים</he>, <he>גַּמִּין</he> <cite ref=\"Bereishit Rabbah 1:14\">Gen. R. s. 1</cite>; <cite ref=\"Jerusalem Talmud Berakhot 9:5:10\">Y. Ber. IX, 14ᵇ</cite> bot. <he>אתין וג׳ ריבויין</he> the <i>eths</i> and the <i>gams</i> intimate an extended qualification (by implication), v. <cite ref=\"A03395\"><he>אֵת</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

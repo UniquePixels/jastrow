@@ -1,0 +1,32 @@
+{
+	"id": "S01858",
+	"slug": "קצת-2",
+	"headword": {
+		"text": "קְצַת"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְצָת"
+		}
+	],
+	"page": {
+		"number": 1409,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01857\">same</cite><i>part.</i> ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 22:41\">Targ. O. Num. XXII, 41</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 4:12\">Targ. Job IV, 12</cite>. ",
+				"<cite ref=\"Onkelos Genesis 47:2\">Targ. Gen. XLVII, 2</cite> ed. Bon. (oth. ed. <cite ref=\"M02442\"><he>מקצת</he></cite>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>extreme end</i>. Targ. Y. Num. l. c.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

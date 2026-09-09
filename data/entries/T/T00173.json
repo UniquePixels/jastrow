@@ -1,0 +1,73 @@
+{
+	"id": "T00173",
+	"slug": "רגז-1",
+	"headword": {
+		"text": "רָגַז"
+	},
+	"page": {
+		"number": 1447,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"T00158\"><he>רגג</he></cite>)<i>to be unsteady, restless; to be agitated</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 10b:7\">Taan. 10ᵇ</cite> (ref. to <cite ref=\"Genesis 45:24\">Gen. XLV, 24</cite>) <he>שמא תִרְגּוֹז עליכם הדרך</he> lest the road become unsteady for you (you lose your way); <cite ref=\"Yalkut Shimoni on Torah 152:2\">Yalk. Gen. 152</cite> <he>תִרְגַּז</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְגִּיז"],
+			"senses": [
+				{
+					"gloss": "<i>to stir, excite, incite to anger</i>. Ruth R. end <he>אַרְגֵּיו יצרך</he> (= <cite ref=\"E00815\"><he>הַרְגֵּיז</he></cite>), v. <cite ref=\"K00970\"><he>כָּעַס</he></cite>; <cite ref=\"Midrash Tehillim 4:11\">Midr. Till. to Ps. IV, 5</cite>; <cite ref=\"Yalkut Shimoni on Nach 627:11\">Yalk. ib. 627</cite>; Pesik. Shub., p. 158ᵃ. Midr. Till. l. c. <he>עד מתי … ומַרְגִּיזִין וכ׳</he> how long will you sin and create anger by saying &c.?; Yalk. l. c. <he>ומְרַגְּזִים</he> (v. infra). ",
+					"units": [
+						"<cite ref=\"Berakhot 5a:2\">Ber. 5ᵃ</cite> (ref. to Ps. l. c.) <he>לעולם יַרְגִּיז וכ׳</he> at all times let man stir up his good inclination against his evil inclination. ",
+						"<cite ref=\"Bava Batra 16a:6\">B. Bath. 16ᵃ</cite> <he>יורד</he> … <he>ומַרְגִּיז וכ׳</he> Satan comes down and leads (men) astray, and goes up and arouses (the Lord’s) anger, takes permission and takes life. Tanḥ. Emor 2 <he>לא היה לך להַרְגִּיז לבוראך וכ׳</he> hadst thou no other means to provoke thy Creator to anger than through me, making me an object of worship?; <cite ref=\"Vayikra Rabbah 26\">Lev. R. s. 26</cite>. ",
+						"<cite ref=\"Esther Rabbah 8:7\">Esth. R. to IV, 15</cite> <he>וידע המרגיז וכ׳</he> and let this provoker (Haman) know that thou hast not forgotten &c.; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be excited, fear</i>. Tanḥ. l. c. <he>הייתי מרגיז שמא וכ׳</he> I (Samuel) was frightened, lest it be the judgment day, and I feared myself.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִרְגַּז"],
+			"senses": [
+				{
+					"gloss": "<i>to be excited; to quarrel</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 16b:55\">Nidd. 16ᵇ</cite> <he>שר הנִרְגָּז</he> (<he>בבית המשתאות</he>) a chief officer (or scholar) that gets excited in the drinking house (a variant to <he>הנרגן</he>), v. <cite ref=\"T00202\"><he>רָגַל</he></cite> a. <cite ref=\"T00215\"><he>רָגַן</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["רִגֵּז"],
+			"senses": [
+				{
+					"gloss": "<i>to rage</i>. Mekh. B’shall., Shir., s. 9 <he>התחילו מְרַגְּזִין</he> they began to rage. Yalk. Ps. l. c., v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְרַגֵּז"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00172\">same</cite>. Mekh. l. c. <he>מִתְרַגְּזִין</he>; <cite ref=\"Yalkut Shimoni on Torah 251:7\">Yalk. Ex. 251</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

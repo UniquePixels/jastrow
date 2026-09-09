@@ -1,0 +1,24 @@
+{
+	"id": "M00434",
+	"slug": "מוהרנקי",
+	"headword": {
+		"text": "מוֹהַרְנְקֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 739,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. name of <i>a Persian</i> and of <i>a Babylonian festive season</i>, (v. <cite ref=\"M00433\">preced.</cite> a. <cite ref=\"M00435\">next w.</cite>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 11b:7\">Ab. Zar. 11ᵇ</cite> (Ms. M. <he>מוהרסנקי</he> for the Persian season; ed. Ven. a. oth. <he>מהרנקי</he>); Y. ib. I, 39ᶜ <cite ref=\"M03065\"><he>מתירקנה</he></cite>, a Median season (prob. a corruption of our w.). [V. Fl. to Levy Talm. Dict. p. 305<sup>2</sup>.]"
+			]
+		}
+	]
+}

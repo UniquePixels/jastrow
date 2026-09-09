@@ -1,0 +1,72 @@
+{
+	"id": "D00792",
+	"slug": "דכר-1",
+	"headword": {
+		"text": "דְּכַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 307,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"G00467\"><he>זָכַר</he></cite> [<i>to mark</i>,] <i>to remember</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 3:19\">Targ. Lam. III, 19</cite> sq. ",
+				"<cite ref=\"Aramaic Targum to Psalms 88:6\">Targ. Ps. LXXXVIII, 6</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 12b:2\">Sabb. 12ᵇ</cite> <he>רחמנא יִדְכְּרִינָךְ וכ׳</he> the Lord remember thee for health.—Part. <cite ref=\"D00792\"><he>דְּכָר</he></cite>, <cite ref=\"D00793\"><he>דָּכְרָא</he></cite>, pass. <cite ref=\"D00777\"><he>דְּכִיר</he></cite>, <cite ref=\"D00778\"><he>דְּכִירָא</he></cite> <i>remembering, reminded</i>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 137:1\">Targ. Ps. CXXXVII, 1</cite> <he>הוינא דָכְרִין</he> (ed. Lag. <he>דְּכִירִין</he>). ",
+				"<cite ref=\"Onkelos Genesis 8:1\">Targ. Gen. VIII, 1</cite>; a. fr.; v. <cite ref=\"D00777\"><he>דְּכִיר</he></cite>.—2) <i>to mention, remind</i>. ",
+				"<cite ref=\"Onkelos Genesis 40:14\">Targ. Gen. XL, 14</cite> (with <he>על</he>).—[<cite ref=\"Targum Jonathan on Numbers 24:1\">Targ. Y. I Num. XXIV, 1</cite>, v. <i>Af.</i>].—",
+				"<cite ref=\"Shabbat 57a:6\">Sabb. 57ᵃ</cite>, a. fr. <he>מאן ד׳ שמיה</he> who mentioned his (its) name, i.e. what has this to do here?"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַדְכַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to remind, call to remembrance</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 41:9\">Targ. Gen. XLI, 9</cite>. ",
+						"<cite ref=\"Targum Jerusalem, Numbers 24:1\">Targ. Y. II, Num. XXIV, 1</cite> (Y. I <he>מִד׳</he>, corr. acc.); a. e.—",
+						"<cite ref=\"Berakhot 31a\">Ber. 31ᵃ</cite>, a. e. <he>אַדְכַּרְתָּן מילתא וכ׳</he> thou recallest to my mind what R. … said; <cite ref=\"Sukkah 53a\">Succ. 53ᵃ</cite> bot.—",
+						"<cite ref=\"Sanhedrin 82a:2\">Snh. 82ᵃ</cite> <he>אַדְכְּרֵיה רב לגמריה</he> (by reciting the verse) he recalled to Rabs’ mind a tradition, v. <cite ref=\"C01067\"><he>גְּמָרָא</he></cite>. ",
+						"<cite ref=\"Niddah 24b:45\">Nidd. 24ᵇ</cite> <he>דכי מַדְכְּרוּ ליה מִדְּכַר</he> that when they mention it (the reason), one should be reminded (that he has heard the law before). ",
+						"<cite ref=\"Ketubot 20a:9\">Keth. 20ᵃ</cite> <he>מַדְכַּר חד לחבריה</he> one (witness) may recall (the circumstances) to the other’s mind. ",
+						"<cite ref=\"Berakhot 18b:4\">Ber. 18ᵇ</cite> <he>לאַדְּכּוּרֵיה</he> to recall it."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִידְּכַר", "אִדְּ׳"],
+			"senses": [
+				{
+					"gloss": " ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be remembered</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 11:19\">Targ. Jer. XI, 19</cite> <he>יִדְּכַר</he> (not <he>יִדְכַּר</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be reminded, recollect</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 25:6\">Targ. Ps. XXV, 6</cite>; a. e.—",
+						"<cite ref=\"Ketubot 20b:1\">Keth. 20ᵇ</cite>. ",
+						"<cite ref=\"Niddah 24b\">Nidd. 24ᵇ</cite>, v. supra; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

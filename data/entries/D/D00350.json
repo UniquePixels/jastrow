@@ -1,0 +1,23 @@
+{
+	"id": "D00350",
+	"slug": "דורא-4",
+	"headword": {
+		"text": "דּוּרָא",
+		"homograph": 4
+	},
+	"page": {
+		"number": 289,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דרי</he> II) <i>burden, load</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 92b:16\">B. Kam. 92ᵇ</cite> (prov.) <he>אי דלית ד׳ וכ׳</he> (our w. missing in Ar. s. v. <he>דלא</he>) if thou wilt lift the burden, I shall lift (if you will share the responsibility, I shall take the lead)."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "M00956",
+	"slug": "מחתנא",
+	"headword": {
+		"text": "מַחֲתָנָא"
+	},
+	"page": {
+		"number": 765,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00534\"><he>נְחַת</he></cite>) <i>declivity</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 7:5\">Targ. Josh. VII, 5</cite> (h. text <cite ref=\"M00620\"><he>מורד</he></cite>); a. e., v. <cite ref=\"M00838\"><he>מָחוֹתִיתָא</he></cite>."
+			]
+		}
+	]
+}

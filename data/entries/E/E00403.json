@@ -1,0 +1,25 @@
+{
+	"id": "E00403",
+	"slug": "הילכך",
+	"headword": {
+		"text": "הִילְכָךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "הִלְכָךְ"
+		}
+	],
+	"page": {
+		"number": 346,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <cite ref=\"E00403\"><he>הֵי לְכָךְ</he></cite>) <i>therefore</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 74b:15\">Yoma 74ᵇ</cite> <he>הי׳ מאן וכ׳</he> therefore (since sight aids in satisfying the appetite) &c. ",
+				"<cite ref=\"Megillah 21b:6\">Meg. 21ᵇ</cite> <he>הי׳</he> therefore (since the opinions differ); a. fr. [Ms. M. 2 reads <he>הולכך</he>, v. Rabb. D. S. vol. VI, preface, p. I, note.]"
+			]
+		}
+	]
+}

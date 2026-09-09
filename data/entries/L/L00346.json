@@ -1,0 +1,30 @@
+{
+	"id": "L00346",
+	"slug": "לחייתא",
+	"headword": {
+		"text": "לְחָיָיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְחַיָּ׳"
+		}
+	],
+	"page": {
+		"number": 702,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"L00344\"><he>לִחְיָא</he></cite>2) <i>palisades</i>, whence <he>לְחָיַית מו̇אָב</he>, <cite ref=\"L00346\"><he>לְחַיָּת</he></cite> = <cite ref=\"P01233\"><he>עָר</he></cite> (<cite ref=\"M00383\"><he>מו̇אָב</he></cite>) pr. n. pl. <i>Fort</i> (<i>of Moab</i>). ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 21:15\">Targ. O. Num. XXI, 15</cite> <cite ref=\"L00346\"><he>לְחַיָּת</he></cite>; Y. <he>לחיית</he>. ",
+				"<cite ref=\"Onkelos Numbers 21:15\">Ib.</cite> O. 28 <he>לחית מואב</he> (Y. II <he>ל׳ קרתהון וכ׳</he>). In gen. <i>fortresses</i>. ",
+				"<cite ref=\"Aramaic Targum to Esther 9:27\">Targ. Esth. IX, 27</cite>."
+			]
+		}
+	]
+}

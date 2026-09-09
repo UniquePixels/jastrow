@@ -1,0 +1,24 @@
+{
+	"id": "B00824",
+	"slug": "בלו",
+	"headword": {
+		"text": "בְּלוֹ"
+	},
+	"page": {
+		"number": 171,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>a tax</i> (cmp. Assyr. <i>biltu</i>, v. Schr. KAT Gloss. II, s. v. <he>ובל</he>). ",
+			"units": [
+				"<cite ref=\"Ezra 4:13\">Ezra IV, 13</cite>; a. e.—",
+				"<cite ref=\"Bava Batra 8a:5\">B. Bath. 8ᵃ</cite> expl. <i>capitation tax;</i> <cite ref=\"Nedarim 62b:2\">Ned. 62ᵇ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 64:10\">Gen. R. s. 64</cite>; Esth. R. introd., v. <cite ref=\"Q01611\"><he>פרובגירון</he></cite>."
+			]
+		}
+	]
+}

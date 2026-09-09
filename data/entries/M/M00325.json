@@ -1,0 +1,31 @@
+{
+	"id": "M00325",
+	"slug": "מדר-2",
+	"headword": {
+		"text": "מָדַר"
+	},
+	"page": {
+		"number": 735,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"S00168\"><he>הִמְדִּיר</he></cite> (denom. of <cite ref=\"M00331\"><he>מַדְרוֹן</he></cite>) <i>to slant, to incline</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 22b:7\">B. Bath. 22ᵇ</cite> <he>במַמְדִּיר את וכ׳</he> Ar. a. Ms. F. (Ms. M. <he>בממרי׳</he>; ed. <he>במדיר</he>. Ms. H. <he>במְרַדֵּד</he>; Ms. O. <he>בממרדיר</he>, v. Rabb. D. S. a. l. note) when he inclines the sill of his wall (so that none can stand or lean on it)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

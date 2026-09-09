@@ -1,0 +1,47 @@
+{
+	"id": "S01487",
+	"slug": "קמצא-2",
+	"headword": {
+		"text": "קַמְצָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1386,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. ",
+			"units": []
+		},
+		{
+			"gloss": " (<he>קְמַץ</he> 4) [<i>hopper</i>,] <i>locust</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Nahum 3:15\">Targ. Nah. III, 15</cite> (h. text <cite ref=\"J00400\"><he>ילק</he></cite>).—",
+				"<cite ref=\"Mishnah Eduyot 8:4\">Eduy. VIII, 4</cite>, a. e. <he>איל ק׳</he>, v. <cite ref=\"A01264\"><he>אַיִל</he></cite>. ",
+				"<cite ref=\"Shabbat 77b:9\">Sabb. 77ᵇ</cite> <he>מ״ט קרנא דק׳ וכ׳</he> why is the proboscis of the locust soft (flexible)?; [Rashi: = <cite ref=\"N00882\"><he>נמלה</he></cite>, v. infra; early ed. Rashi: <cite ref=\"U00141\"><he>שבלול</he></cite>]. ",
+				"<cite ref=\"Shabbat 77b:9\">Ib.</cite> <he>האי מאן … לק׳ וכ׳</he> if you want to make a locust blind, break off its proboscis. ",
+				"<cite ref=\"Yevamot 121b:12\">Yeb. 121ᵇ</cite> <he>ודילמא ק׳ בעלמא וכ׳</he> perhaps it was merely a dead locust (or ant) to which playing children gave a man’s name?; a. fr.—Pl. <he>קַמְצִין</he>, <he>קַמְצֵי</he>. ",
+				"<cite ref=\"Onkelos Numbers 13:33\">Targ. Num. XIII, 33</cite> (h. text <he>חגבים</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 30:27\">Targ. Prov. XXX, 27</cite> (h. text <cite ref=\"A02956\"><he>ארבה</he></cite>); a. e.—",
+				"<cite ref=\"Taanit 21b:9\">Taan. 21ᵇ</cite> <he>אמרו … אתו ק׳ וכ׳</he> when they told R. J. that the locusts were coming, he ordered a fast; a. fr.—[<cite ref=\"Jerusalem Talmud Avodah Zarah 5:4:6\">Y. Ab. Zar. V, 44ᵈ</cite> bot. <he>אכל קמצין</he>, prob. to be read: <he>חמיצן</he>, v. <cite ref=\"H01214\"><he>חָמֵץ</he> II</cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (<he>קְמַץ</he> 1) [<i>scraper, collector</i>,] <i>ant</i>. Sabb. l. c.; Yeb. l. c., v. supra.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Berakhot 54b:4\">Ber. 54ᵇ</cite> <he>אייתי … ק׳ וכ׳</he> the Lord sent ants which made holes in the mountain &c."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>snail</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 21:5\">Gen. R. s. 21</cite> <he>כהדין ק׳ דלבושיה וכ׳</he> (‘Rashi’ <cite ref=\"S00402\"><he>קומצא</he></cite>) like the snail whose garment is part of its body. [The entire phrase is a gloss, v. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 34\">Yalk. Gen. 34</cite>, and <cite ref=\"S01486\"><he>קמצא</he></cite> is perhaps a clerical error for <he>לימצ״א</he> q. v.]"
+			],
+			"label": "3"
+		}
+	]
+}

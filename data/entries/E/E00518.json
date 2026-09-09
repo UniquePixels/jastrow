@@ -1,0 +1,42 @@
+{
+	"id": "E00518",
+	"slug": "הכנסה",
+	"headword": {
+		"text": "הַכְנָסָה"
+	},
+	"page": {
+		"number": 351,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00860\"><he>כָּנַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>carrying in, putting in</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 2b:13\">Sabb. 2ᵇ</cite>, v. <cite ref=\"E00266\"><he>הוֹצָאָה</he></cite>; Y. ib. I, beg. 2ᵇ. ",
+				"<cite ref=\"Jerusalem Talmud Horayot 1:3:3\">Y. Hor. I, 46ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Yevamot 55b:10\">Yeb. 55ᵇ</cite> <he>הַכְנָסַת עטרה</he> insertion of the corona of the membrum virile; <cite ref=\"Bava Metzia 91a:12\">B. Mets. 91ᵃ</cite> <he>ה׳</he> the coupling.—",
+				"<cite ref=\"Jerusalem Talmud Yevamot 12:1:13\">Y. Yeb. XII, 12ᶜ</cite>; <cite ref=\"Jerusalem Talmud Bava Batra 3:3:6\">Y. B. Bath. III, 14ᵃ</cite> top <he>הַכְנָסַת פירות</he> the bringing home of the crop.—",
+				"<cite ref=\"Bamidbar Rabbah 17:1\">Num. R. s. 17</cite> <he>ה׳ ישראל לארץ</he> the leading of Israel into the promised land.—<he>ה׳ כלה</he> the leading of the bride into the chamber, in gen. <i>wedding ceremonies</i>. ",
+				"<cite ref=\"Sukkah 49b:4\">Succ. 49ᵇ</cite>.—",
+				"<cite ref=\"Megillah 3b\">Meg. 3ᵇ</cite>; <cite ref=\"Ketubot 17a\">Keth. 17ᵃ</cite>; a. e.—ה׳ אורחים <i>hospitality</i>. ",
+				"<cite ref=\"Shabbat 127a\">Sabb. 127ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>entering, coming home</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 5:1:8\">Y. Yoma V, 42ᵇ</cite> bot. <he>ה׳ יתירה</he> an unnecessary entrance into the Holy of Holies.—",
+				"<cite ref=\"Bereishit Rabbah 72:4\">Gen. R. s. 72</cite> <he>ה׳</he> the time required by the laborer for going home from the field, v. <cite ref=\"E00266\"><he>הוֹצָאָה</he></cite> 4)."
+			],
+			"label": "2"
+		}
+	]
+}

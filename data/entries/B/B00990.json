@@ -1,0 +1,50 @@
+{
+	"id": "B00990",
+	"slug": "בסים-2",
+	"headword": {
+		"text": "בָּסִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּסִימָא"
+		},
+		{
+			"text": "בְּסִימְתָּא"
+		}
+	],
+	"page": {
+		"number": 178,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בסם</he>) <i>boiled, ripe</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": " (Var. <cite ref=\"B00989\"><he>בְּסִים</he></cite>, <cite ref=\"B00990\"><he>בַּסִּים</he></cite>, <cite ref=\"B00991\"><he>בַּסִּימָא</he></cite>) <i>sweet, pleasant, well-seasoned</i> &c. (= h. <he>ערב</he>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 141:2\">Targ. Ps. CXLI, 2</cite> (h. text <he>ערב</he>, translated in both senses); a. fr.—",
+				"<cite ref=\"Ketubot 104a:4\">Keth. 104ᵃ</cite> top <he>דמדליא וב׳ אוירא</he> which lies high and whose air is pleasant (temperate). ",
+				"<cite ref=\"Rosh Hashanah 21a:2\">R. Hash. 21ᵃ</cite> <he>ב׳ תבשילא וכ׳</he> (Ms. M. 2 margin <he>כמה ב׳</he>; v. Rabb. D. S. a. l. note 80) how well tastes the food of the Babylonians on the day when in Palestine they observe the Day of Atonement! <cite ref=\"Bava Metzia 60a:11\">B. Mets. 60ᵃ</cite> <he>לא הוה ב׳</he> (the wine) was not good. ",
+				"<cite ref=\"Bava Metzia 69b:2\">Ib. 69ᵇ</cite> <he>דאיכא דב׳ וכ׳</he> that there is good and bad wine. ",
+				"<cite ref=\"Berakhot 56a:10\">Ber. 56ᵃ</cite> <he>ב׳ חמרך</he> thy wine will be good.—Pl. <he>בְּסִימִין</he>, fem. <cite ref=\"B00991\"><he>בְּסִימָן</he></cite>, <cite ref=\"B00990\"><he>בְּסִימָתָא</he></cite> (also as nouns, as h. <he>נעימים</he>, <he>נעימית</he>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 33:28\">Targ. Y. Num. XXXIII, 28</cite> sq.; a. e.—V. <cite ref=\"B00994\"><he>בַּסִּימַיָּא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"H00959\"><he>חַלָּא</he></cite>) <i>fermenting, sour</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 4:6:9\">Y. Maas. Sh. IV, 55ᶜ</cite> top <he>חמרא … מיפוק בסים</he> this man’s (thy) wine shall turn sour (ferment); v. <cite ref=\"B00995\"><he>בַּסִּין</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> (<he>חד מאתינס</he> 7) <he>וחד דבסים</he> and one bag with sour wine. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Ib.</cite> <he>דבסימא תסיס</he> the dripping of the sour wine bubbles. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Ib.</cite> (<he>חד כותאי</he>) <he>ונפיק כוליה בסים</he> and it will all turn sour."
+			],
+			"label": "2"
+		}
+	]
+}

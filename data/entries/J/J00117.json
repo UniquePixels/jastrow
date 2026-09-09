@@ -1,0 +1,22 @@
+{
+	"id": "J00117",
+	"slug": "יהדות",
+	"headword": {
+		"text": "יַהֲדוּת"
+	},
+	"page": {
+		"number": 566,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"J00125\"><he>יְהוּדִי</he></cite>) <i>Jewish religion, monotheism</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 7:11\">Esth. R. to III, 7</cite> <he>והחזיקו ביַהֲדוּתָן</he> (not <he>ביהודתן</he>) and clung to their creed."
+			]
+		}
+	]
+}

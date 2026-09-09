@@ -1,0 +1,21 @@
+{
+	"id": "E00851",
+	"slug": "הרזיקי",
+	"headword": {
+		"text": "הַרְזִיקֵי"
+	},
+	"page": {
+		"number": 367,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"E00850\">preced.</cite>) <cite ref=\"A00121\"><he>בֵּי ה׳</he></cite> <i>guard-house, a gate house</i> with one door opening to the court and another leading to the entrance to the inner rooms or buildings; cmp. <cite ref=\"K00673\"><he>כְּלָאֵי</he></cite>. ",
+			"units": ["<cite ref=\"Menachot 33b:12\">Men. 33ᵇ</cite>"]
+		}
+	]
+}

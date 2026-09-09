@@ -1,0 +1,39 @@
+{
+	"id": "S01783",
+	"slug": "קצב-1",
+	"headword": {
+		"text": "קָצַב"
+	},
+	"page": {
+		"number": 1404,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to cut, decide, determine, limit, bound</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 4:1:7\">Y. Maasr. IV, 51ᵇ</cite> top <he>ק׳ להיסב וכ׳</he> if he had determined to recline for a meal, but did not do so. [<cite ref=\"Jerusalem Talmud Chagigah 2:4:3\">Y. Ḥag. II, 78ᵃ</cite> bot. <he>חוגג וקוצב</he>, read: <he>וקוֹצֵר</he>.]—Part. pass. <he>קָצוּב</he>; f. <he>קְצוּבָה</he>; pl. <he>קְצוּבִים</he>, <he>קְצוּבִין</he>; <he>קְצוּבוֹת</he>. ",
+				"<cite ref=\"Tosefta Terumot 1:10\">Tosef. Ter. I, 10</cite> <he>דבר הק׳ מן התורה</he> a thing (duty) the scope of which is clearly defined in the Torah, v. <cite ref=\"S01786\"><he>קִצְבָה</he></cite>. ",
+				"<cite ref=\"Gittin 50b:16\">Gitt. 50ᵇ</cite> <he>לפי שאין ק׳</he> because they (the alimonies of a widow and of orphaned daughters) are not definite (vary according to social position). ",
+				"<cite ref=\"Beitzah 16a:1\">Bets. 16ᵃ</cite> top <he>כל … ק׳ וכ׳</he> the means of support are definitely assigned to man from the beginning of the year, except the expenses for the Sabbaths … and for education &c. Cant. R. to IV, 2 (ref. to <he>קצובות</he>, ib.) <he>מלין ק׳</he> definitely regulated things (laws); ib. 4 (some ed. <he>קְצִי׳</he>). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:1:4\">Y. Ber. V, beg. 8ᵈ</cite> <he>הלכות ק׳</he> decided (settled) questions of law; (Bab. ",
+				"<cite ref=\"Berakhot 31a:5\">ib. 31ᵃ</cite> <he>הלכה פסוקה</he>); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִיצֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to carve, chop</i> (meat). ",
+					"units": [
+						"<cite ref=\"Mishnah Beitzah 1:5\">Bets. I, 5</cite> <he>לקַצֵּב עליו בשר</he> to carve meat on it. ",
+						"<cite ref=\"Tosefta Beitsah 1:11\">Tosef. ib. I, 11</cite> <he>אם קי׳ על העלי</he> if he used the pestle to carve meat on it. Y. Macc. II, beg. 31ᶜ <he>טבח שהוא מְקַצֵּב וכ׳</he> a butcher that chops meat and kills a man (by a slip of the hatchet &c.); a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

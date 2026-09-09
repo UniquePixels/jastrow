@@ -1,0 +1,41 @@
+{
+	"id": "A01886",
+	"slug": "אליתא-4",
+	"headword": {
+		"text": "אַלִּיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲלִיתָא"
+		}
+	],
+	"page": {
+		"number": 70,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"A01783\"><he>אֵלָה</he></cite>, <cite ref=\"A01816\"><he>אַלּוֹן</he></cite> &c.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fig-tree</i> (of a certain species).—<he>בְּרַת א׳</he> name of a fig species. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 15:7\">Gen. R. s. 15</cite>, end <he>ברת א׳ וכ׳</he> Ar. (ed. <cite ref=\"A01833\"><he>אלי</he></cite>) it is called <i>brath alitha</i> (daughter of mourning, v. <cite ref=\"A01884\"><he>אַלְיָתָא</he></cite>), because it has brought wailing and weeping into the world (as the fruit of the tree of knowledge)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>wood of the fig-tree</i>, used as kindling wood on the altar (h. . ",
+			"units": [
+				"<cite ref=\"Mishnah Tamid 2:4\">Tam. II, 4</cite> (Mish. <he>תא …</he>, Talm. 29ᵃ … <he>תה</he>). ",
+				"<cite ref=\"Yoma 24b:9\">Yoma 24ᵇ</cite>. Y. ib. II, 39ᶜ top.—Pl. <he>אַלִּיתוֹת</he>. ",
+				"<cite ref=\"Mishnah Parah 3:9\">Par. III, 9</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

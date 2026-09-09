@@ -1,0 +1,23 @@
+{
+	"id": "N00092",
+	"slug": "נבל-4",
+	"headword": {
+		"text": "נָבָל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 869,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00091\"><he>נבל</he></cite>) <i>Nabal</i> (<i>Filth</i>), name of the genius of poverty. ",
+			"units": [
+				"<cite ref=\"Pesachim 111b:13\">Pes. 111ᵇ</cite>, v. <cite ref=\"A01510\"><he>אִיסְרָא</he> II</cite>."
+			]
+		}
+	]
+}

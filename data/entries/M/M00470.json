@@ -1,0 +1,55 @@
+{
+	"id": "M00470",
+	"slug": "מוך-1",
+	"headword": {
+		"text": "מוּךְ"
+	},
+	"page": {
+		"number": 741,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be crushed; to be low, sink; to be poor</i>. Tanḥ. B’har 3 <he>על שמָךְ בעונות</he> because he sank into sins.—V. <cite ref=\"M01339\"><he>מָךְ</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵמִיךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M00469\">same</cite>. Mekh. B’shall., Amal., s. 1 <he>כשהוא מֵמִיךְ ידיו עתידין ישראל להָמִיךְ ול׳</he> when he (Moses) let his hands sink, (it intimated) that Israel is destined to sink in the knowledge of the words of the Law to be given through his hands; Tanḥ. ",
+					"units": ["<cite ref=\"Exodus 27\">B’shall. 27</cite>."],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lower, let sink</i>. Ib., v. supra.—",
+					"units": [
+						"<cite ref=\"Sifrei Bamidbar 90:1\">Sifré Num. 90</cite> <he>כאן הקב״ה ממיך ומשה מגביה וכ׳</he> here the Lord lowers (his anger) and Moses raises (is more angry), but when the golden calf was made, the Lord raised, and Moses lowered (tried to soften his anger); <cite ref=\"Yalkut Shimoni on Torah 735:11\">Yalk. Num. 735</cite> <he>מַמְאִיךְ</he> (fr. <cite ref=\"M00035\"><he>מָאַךְ</he></cite>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נָמוֹךְ"],
+			"senses": [
+				{
+					"gloss": "; f. <cite ref=\"N00858\"><he>נְמוּכָה</he></cite>; pl. <he>נְמוּכִים</he> <i>low</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kilayim 4:7\">Kil. IV, 7</cite> <he>נ׳ מי׳ טפחים</he> lower than ten handbreadths. ",
+						"<cite ref=\"Ruth Rabbah 5:12\">Ruth R. to III, 3</cite> <he>בנ׳ שבעיר</he> in the lowest part of the city. Y. Maas. Sh. V, end, 56ᵈ; Y. Sot. IX, 24ᵃ bot. <he>קול נ׳</he> in a low voice, opp. <cite ref=\"C00053\"><he>גבוה</he></cite>. ",
+						"<cite ref=\"Berakhot 10b\">Ber. 10ᵇ</cite>. ",
+						"<cite ref=\"Sifrei Bamidbar 58\">Sifré Num. 58</cite>. ",
+						"<cite ref=\"Sifrei Bamidbar 83:3\">Ib. 83</cite>, v. <cite ref=\"N00880\"><he>נָמַךְ</he></cite>. ",
+						"<cite ref=\"Pirkei Avot 5:19\">Ab. V, 19</cite> <he>רוח נְ׳</he> a lowly spirit, v. <cite ref=\"C00053\"><he>גָּבוֹהַּ</he></cite>.—",
+						"<cite ref=\"Shir HaShirim Rabbah 4:4\">Cant. R. to IV, 4</cite> <he>ההרים הנ׳</he> the lower mountains; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "K00828",
+	"slug": "כן-4",
+	"headword": {
+		"text": "כֵּן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 647,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", with suff. <he>כַּנּ־</he>, m. (b. h.; <cite ref=\"K00296\"><he>כּוּן</he></cite> or <cite ref=\"K00859\"><he>כָּנַן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>base, stand, rest</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:1:11\">Cant. R. to I, 1</cite> (ref. to <he>והנה חלום</he>, <cite ref=\"I Kings 3:15\">I Kings III, 15</cite>) <he>החלום … על כַּנּוֹ</he> the dream (after he awoke) remained standing on its firm stand (was realized); <cite ref=\"Yalkut Shimoni on Nach 175:5\">Yalk. Kings 175</cite>. ",
+				"<cite ref=\"Mishnah Yoma 5:3\">Yoma V, 3</cite>, sq. <he>הניחו על כ׳ וכ׳</he> he set it down on the stand. ",
+				"<cite ref=\"Tosefta Keilim Metsia 2:17\">Tosef. Kel. B. Mets. II, 17</cite> <he>מחוסרין כן</he> vessels that have lost their rest; a. fr.—Pl. <he>כַּנִּים</he>, constr. <cite ref=\"K00849\"><he>כַּנֵּי</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 11:3\">Kel. XI, 3</cite>.— Trnsf. <i>social status</i>. ",
+				"<cite ref=\"Yevamot 77b:1\">Yeb. 77ᵇ</cite> <he>גיורת מכַּנָּהּ</he> a proselyte of her own status, i.e. born after the conversion of her parents both of whom were of the same nation."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K00296\"><he>כּוּן</he></cite> <i>Pi.</i>) <i>ruler</i>. Ib. XII, 8; <cite ref=\"Tosefta Keilim Batra 7:12\">Tosef. Kel. B. Bath. VII, 12</cite> <he>הכן והכַּנָּה</he> (Var. <he>והכַּנָּא</he>) the ruler and that which is ruled (the writing material); oth. opin.: the ruled material and the ruler; [oth. opin.: (cmp. σταθμός) the <i>base</i> of the scales and the <i>scales</i>; oth. opin. <i>the strike</i> and <i>the measure</i>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

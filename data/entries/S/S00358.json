@@ -1,0 +1,32 @@
+{
+	"id": "S00358",
+	"slug": "קולסיתא",
+	"headword": {
+		"text": "קוּלְסִיתָא"
+	},
+	"page": {
+		"number": 1329,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00357\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>turban, head-dress</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 2:4:5\">Y. Kidd. II, 62ᵈ</cite> <he>דמטמרא לה תחות קלוסיתה דראשה</he> (corr. acc.) she had hidden it (her blemish) under her head-dress."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>belt</i>. Y. Sebu. VI, 37ᵃ bot. <he>והוה … דקוּלְסִיתָהּ וכ׳</he> she had two Denars tied up between the folds of her belt.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

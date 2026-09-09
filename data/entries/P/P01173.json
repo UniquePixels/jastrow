@@ -1,0 +1,31 @@
+{
+	"id": "P01173",
+	"slug": "עקיבא-3",
+	"headword": {
+		"text": "עֲקִיבָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲקִיבָה"
+		}
+	],
+	"page": {
+		"number": 1105,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>‘Ãḳiba</i>, a renowned Tannai who began to study at an advanced age, and who, after taking part in the insurrection of Bar Kokhba, died a martyr. ",
+			"units": [
+				"<cite ref=\"Yevamot 16a:6\">Yeb. 16ᵃ</cite> <he>אתה הוא ע׳ בן יוסף וכ׳</he> art thou that ʿÃ. ben Joseph whose fame goes from one end of the world to the other? <cite ref=\"Avodah Zarah 5a:9\">Ab. Zar. 5ᵃ</cite> <he>כיון שהגיע לדורו של ר׳ ע׳</he> when he (Adam, in the revelations he received) came to the days of R. A., he rejoiced &c.; v. <cite ref=\"P01091\"><he>עָצַב</he></cite>. ",
+				"<cite ref=\"Berakhot 61b:16\">Ber. 61ᵇ</cite> (the story of his martyrdom). ",
+				"<cite ref=\"Mishnah Sotah 5:1\">Sot. V, 1</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 1:14\">Gen. R. s. 1</cite>; a. v. fr.—V. Fr. Darkhé Mish., p. 111 sq."
+			]
+		}
+	]
+}

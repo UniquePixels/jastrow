@@ -1,0 +1,52 @@
+{
+	"id": "N00065",
+	"slug": "נבט-1",
+	"headword": {
+		"text": "נָבַט"
+	},
+	"page": {
+		"number": 868,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.;cmp. <cite ref=\"B00502\"><he>בטט</he></cite>, v. Friedr. Del. Proleg. p. 98) <i>to burst forth, to shine</i>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִבִּיט"],
+			"senses": [
+				{
+					"gloss": "<i>to illumine</i>. Targ. II Esth. I, 2 (in an enigma about nafta) <he>נשפך כמים ומַבִּיט לבית</he> it is poured out like water and illumines the house.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"R00224\"><he>הֵצִיץ</he></cite> fr. <cite ref=\"R00432\"><he>צִיץ</he></cite>) <i>to look</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 76\">Yalk. Gen. 76</cite> (ref. to <cite ref=\"Genesis 15:5\">Gen. XV, 5</cite>) <he>אין הַבֵּט וכ׳</he> (<cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite> <cite ref=\"E00033\"><he>הַבָּטָה</he></cite> q. v.). ",
+						"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> [read:] <he>האיקונין הזו … מַבִּיטִים בה … בי היא מַבֶּטֶת</he> a thousand people look at a portrait, every one says, it is looking at me. ",
+						"<cite ref=\"Pesikta Rabbati 21:1\">Ib.</cite> <he>ולהַבִּיט בכל אחד ואחד וכ׳</he> and for the Lord to look at every one of the Israelites and say &c. ",
+						"<cite ref=\"Pesikta Rabbati 21:1\">Ib.</cite> <he>מה לך מביט באלו</he> why dost thou look up to those men?; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִיבֵּט"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00064\">same</cite>, <i>to have a vision</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 101b:5\">Snh. 101ᵇ</cite> (play on <cite ref=\"N00067\"><he>נבט</he></cite>) <he>שני׳ ולא ראה</he> he (Nebat) had a vision but did not see (interpret it properly); <cite ref=\"Sanhedrin 101b:7\">ib.</cite> <he>שלשה נִבְּטוּ וכ׳</he>; <cite ref=\"Yalkut Shimoni on Nach 196:4\">Yalk. Kings 196</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

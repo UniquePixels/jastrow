@@ -1,0 +1,24 @@
+{
+	"id": "B00495",
+	"slug": "בטויא",
+	"headword": {
+		"text": "בִּטְוַיָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 156,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"B00504\"><he>בטי</he></cite>) = h. <cite ref=\"B00500\"><he>בְּטַח</he> II</cite>, <cite ref=\"A00095\"><he>אַבְּטַי</he></cite>, <i>column-like receptacles</i> (of water). ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 25:5\">Lev. R. s. 25</cite> (ref. to <he>בטחות</he>, <cite ref=\"Job 38:36\">Job XXXVIII, 36</cite>, taking <cite ref=\"B00000\"><he>ב</he></cite> as a radical letter, ‘receptacles of wisdom’) <he>מהו בטוחות ב׳</he> what is battuḥoth? Answ. <i>Bitvaya</i>. [Ar. reads <he>בטיוטא</he>, taking <cite ref=\"B00000\"><he>ב</he></cite> as propos., v. Koh. Ar. Compl. s. v. <cite ref=\"I00329\"><he>טיטויא</he></cite>, IV, p. 27. Mat. K. guesses at <he>טויא</he> as a name of <i>a bird</i>, as parallel to <he>שכוי</he>.]"
+			]
+		}
+	]
+}

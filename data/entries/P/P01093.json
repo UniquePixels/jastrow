@@ -1,0 +1,23 @@
+{
+	"id": "P01093",
+	"slug": "עצב-3",
+	"headword": {
+		"text": "עָצָב"
+	},
+	"page": {
+		"number": 1101,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.;<cite ref=\"P01091\"><he>עָצַב</he></cite><i>form</i>, esp. <i>idol</i>.—Pl. <he>עֲצַבִּים</he>. Sifra K’dosh., beg. <he>ע׳ על שם שנעשו פרקים פרקים</he> idols are called ‘forms’, because they are made limb by limb; Mekh. Mishp. s. 20; <cite ref=\"Avot D'Rabbi Natan 34:3\">Ab. d’R. N. ch. XXXIV</cite>.—",
+			"units": [
+				"<cite ref=\"Sanhedrin 63b:14\">Snh. 63ᵇ</cite> <he>ועושין דמות עֲצַבֵּיהֶם</he> (not <he>עצבים</he>, v. Rabb. D. S. a. l. note 1) they made an image of their (the rich men’s) figures; <cite ref=\"Yalkut Shimoni on Nach 529:4\">Yalk. Hos. 529</cite>."
+			],
+			"label": "1"
+		}
+	]
+}

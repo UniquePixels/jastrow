@@ -1,0 +1,22 @@
+{
+	"id": "P00021",
+	"slug": "עבדקן",
+	"headword": {
+		"text": "עַבְדְּקַן"
+	},
+	"page": {
+		"number": 1035,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (comp. of <cite ref=\"P00007\"><he>עַב</he></cite> a. <cite ref=\"D01012\"><he>דְּקַן</he></cite>; cmp. <cite ref=\"G00479\"><he>זַלְדְּקַן</he></cite>) <i>thick-bearded</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 100b:8\">Snh. 100ᵇ</cite> (Mss. F. a. K. <he>עב דקן</he>), v. <cite ref=\"O00937\"><he>סַכְסַן</he></cite>."
+			]
+		}
+	]
+}

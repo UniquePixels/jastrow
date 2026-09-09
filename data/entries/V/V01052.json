@@ -1,0 +1,22 @@
+{
+	"id": "V01052",
+	"slug": "תרפתא",
+	"headword": {
+		"text": "תְּרַפְתָּא"
+	},
+	"page": {
+		"number": 1702,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>תרף</he>, cmp. <he>רפא</he>) <i>healing, cicatrization</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 39b\">Keth. 39ᵇ</cite> <he>כי ת׳ דסיכורי</he> Vers. in Rashi a. Ar. as much pain as is caused by the healing of the puncture made in letting blood."
+			]
+		}
+	]
+}

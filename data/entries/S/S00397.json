@@ -1,0 +1,23 @@
+{
+	"id": "S00397",
+	"slug": "קומנטריסין",
+	"headword": {
+		"text": "קוּמַּנְטָרִיסִין"
+	},
+	"page": {
+		"number": 1333,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<i>pl.</i> of κομμενταρήσιος, S. = commentariensis) <i>those having charge of public records</i>, esp. <i>registrars of prisoners, jailers</i> (v. Sm. Ant. s. v. Commentarius). ",
+			"units": [
+				"<cite ref=\"Gittin 28b:12\">Gitt. 28ᵇ</cite> <he>מק׳ של נכרים וכ׳</he> if one heard from gentile jailers, ‘such and such a man is dead’, ‘such and such a man has been put to death’, you cannot allow his wife to marry again; <cite ref=\"Jerusalem Talmud Yevamot 16:5:2\">Y. Yeb. XVI, 15ᵈ</cite> <he>מקֹמַנְטְרִיסֵי המלך</he> from the (Roman) king’s jailers."
+			]
+		}
+	]
+}

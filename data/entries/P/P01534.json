@@ -1,0 +1,23 @@
+{
+	"id": "P01534",
+	"slug": "עתיקא",
+	"headword": {
+		"text": "עַתִּיקָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1129,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>אַתִּיק</he>) [<i>support?</i>] <i>a kind of peristyle</i>.—Pl. <he>עַתִּיקַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 41:16\">Targ. Ez. XLI, 16</cite>."
+			]
+		}
+	]
+}

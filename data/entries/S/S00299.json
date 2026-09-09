@@ -1,0 +1,27 @@
+{
+	"id": "S00299",
+	"slug": "קוט-3",
+	"headword": {
+		"text": "קוֹט"
+	},
+	"altHeadwords": [
+		{
+			"text": "ן"
+		}
+	],
+	"page": {
+		"number": 1326,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00797\"><he>קָטָן</he></cite>) <i>minority, childhood</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 2:10\">Keth. II, 10</cite> <he>ואלו … בגודלן מה שראו בקוֹטְנָן</he> the following are admitted, when they are of age, to testify to what they have seen as minors. Y. ib. 27ᵃ top <he>הא בקוטנן לא</he> but as long as they are minors are they not admitted?"
+			]
+		}
+	]
+}

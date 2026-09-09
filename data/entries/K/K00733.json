@@ -1,0 +1,29 @@
+{
+	"id": "K00733",
+	"slug": "כליל-1",
+	"headword": {
+		"text": "כָּלִיל"
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּלוּל"
+		}
+	],
+	"page": {
+		"number": 642,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K00758\"><he>כָּלַל</he></cite>)<i>entire</i>, esp. <i>Kalil, a sacrifice burnt entirely</i>. Sifra Tsav, Par. 3, ch. V; <cite ref=\"Menachot 51b:15\">Men. 51ᵇ</cite> <he>בכ׳ תקטר</he> shall be burned as a <i>Kalil</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 3:6:5\">Y. Sot. III, 19ᵇ</cite> top <he>קריבה בכלול</he> is offered as a <i>K</i>.—",
+				"<cite ref=\"Menachot 74a:20\">Men. 74ᵃ</cite>; a. e.—",
+				"<cite ref=\"Tosefta Parah 1:2\">Tosef. Par. I, 2</cite>; <cite ref=\"Mishnah Zevachim 5:4\">Zeb. V, 4</cite> <he>כ׳ לאישים</he>, v. <cite ref=\"A01618\"><he>אִישֶּׁה</he></cite>."
+			]
+		}
+	]
+}

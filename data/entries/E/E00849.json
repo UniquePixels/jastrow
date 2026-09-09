@@ -1,0 +1,28 @@
+{
+	"id": "E00849",
+	"slug": "הרזיפו",
+	"headword": {
+		"text": "הַרְזיפּוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַרְזִיפֵּי"
+		}
+	],
+	"page": {
+		"number": 366,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Rashi) (v. <cite ref=\"A03060\"><he>אַרְזַפְתָּא</he> II</cite>) name of a <i>bitter herb</i> (not generally used as food). ",
+			"units": [
+				"<cite ref=\"Pesachim 39a:12\">Pes. 39ᵃ</cite> (Ms. M. 2 <he>אַרְזִיפָּא</he>, Ms. O. <he>הדרוף</he>, v. <cite ref=\"E00488\"><he>הִירְדּוּף</he></cite>; v. Rabb. D. S. a. l. note 9)."
+			]
+		}
+	]
+}

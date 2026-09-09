@@ -1,0 +1,42 @@
+{
+	"id": "B01267",
+	"slug": "בריכה-1",
+	"headword": {
+		"text": "בְּרִיכָה"
+	},
+	"page": {
+		"number": 194,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>ברך</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bending the knee</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 39:12\">Gen. R. s. 39</cite>; <cite ref=\"Jerusalem Talmud Berakhot 1:5:12\">Y. Ber. I, 3ᶜ</cite> bot. (diff. fr. <cite ref=\"K01175\"><he>כריעה</he></cite>). Ib. 3ᵈ top <he>לך ב׳</he> unto thee bending is due; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denomin. of <cite ref=\"B01289\"><he>בֶּרֶךְ</he></cite>) <i>knee, young shoot</i>. Orlah I, 5 if a tree has been dying <he>ובו ב׳ וכ׳</he> but there is a shoot on it …: the old stem is again like a young shoot (with ref. to the fruits of the first years, v. <cite ref=\"P01387\"><he>עָרְלָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 15b:5\">R. Hash. 15ᵇ</cite>; <cite ref=\"Tosefta Shevi'it 4:20\">Tosef. Shebi. IV, 20</cite> ed. Zuck. <he>אילן העושה ב׳ אחת</he> (ed. <he>ברך</he>) a tree which shoots only once a year (its fruits growing all at once), opp. <he>שתי בריכות</he> (expl. R. Hash. l. c. <he>כעין שתי ב׳</he>) two crops, i.e. early and late fruits."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (from the position of the hatching bird) <i>brood</i>, esp. of doves. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 5:3\">B. Bath. V, 3</cite>; <cite ref=\"Beitzah 10a:11\">Bets. 10ᵃ</cite> <he>ב׳ ראשונה</he> the first brood of the year.—Pl. <he>בְּרִיכוֹת</he>. R. Hash. l. c.; Tosef. Shebi. l. c. ",
+				"<cite ref=\"Yevamot 63a:6\">Yeb. 63ᵃ</cite> <he>בִּרְכּוֹת</he>, v. <cite ref=\"B01287\"><he>בָּרַךְ</he></cite> Hif."
+			],
+			"label": "3"
+		}
+	]
+}

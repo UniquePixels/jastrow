@@ -1,0 +1,23 @@
+{
+	"id": "C00102",
+	"slug": "גבישתא",
+	"headword": {
+		"text": "גְּבִישָׁתָא"
+	},
+	"page": {
+		"number": 207,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>גבש</he>) <i>hills</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Zephaniah 1:10\">Targ. Zeph. I, 10</cite>, v. <cite ref=\"C00127\"><he>גְּבְעֲתָא</he></cite>."
+			]
+		}
+	]
+}

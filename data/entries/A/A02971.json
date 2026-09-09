@@ -1,0 +1,48 @@
+{
+	"id": "A02971",
+	"slug": "ארבעה-2",
+	"headword": {
+		"text": "אַרְבְּעָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְבַּע"
+		}
+	],
+	"page": {
+		"number": 114,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. <cite ref=\"A02970\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 14:9\">Targ. O. Gen. XIV, 9</cite>; a. fr.—Constr. "
+			],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"A02969\"><he>אַרְבְּעַת</he></cite> Targ. Y. ibid.—",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <he>אַרְבְּעֵי</he>, <cite ref=\"A02973\"><he>אַרְבַּעְתֵּי</he></cite> <cite ref=\"Shabbat 73a:2\">Sabb. 73ᵃ</cite> (omitting the object numbered); a. fr.—",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 2:3\">Targ. Y. Num. II, 3</cite>; a. fr.—Y. Gitt. V, 46ᵈ top <he>ארבעתי דינרייא</he> four denars—<cite ref=\"A02973\"><he>אַרְבַּעְתָּא</he></cite>, <cite ref=\"A02973\"><he>אַרְבְּעִיתָא</he></cite> m. <i>the fourth</i> (day of the week). ",
+						"<cite ref=\"Bereishit Rabbah 11\">Gen. R. s. 11</cite>; <cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23</cite>, beg. Ibid. p. 120ᵃ ed. Fr. <he>ארבעיא</he>, ed. Prag <cite ref=\"A02973\"><he>ארבעיתא</he></cite>. Ibid. p. 115ᵇ <he>באַרְבַּעְתָּה</he> on Wednesday.—Pl. <he>אַרְבְּעִין</he> <i>forty</i>. ",
+						"<cite ref=\"Onkelos Genesis 5:13\">Targ. Gen. V, 13</cite>; a. fr.—",
+						"<cite ref=\"Sanhedrin 26b:21\">Snh. 26ᵇ</cite> <he>א׳ בכתפיה</he> forty (lashes) rest on his shoulders, i.e. he is punishable (v. <cite ref=\"A02970\">preced.</cite>); a. fr.—<cite ref=\"A02960\"><he>אַרְבֵּיסַר</he></cite>, <he>אַרְבַּעְסְרֵי</he>, <he>אַרְבַּע סְרֵי</he> <i>fourteen, fourteenth</i>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 14:5\">Targ. Y. Gen. XIV, 5</cite> <he>בּירְבֵּיסְרֵי</he>; a. fr. ",
+						"<cite ref=\"Megillah 2b:9\">Meg. 2ᵇ</cite> <he>בא׳</he> on the fourteenth of Adar. ",
+						"<cite ref=\"Shabbat 98b:9\">Sabb. 98ᵇ</cite>.—אַרְבֵּסְרָאָה <i>the fourteenth</i>. ",
+						"<cite ref=\"Targum of I Chronicles 24:13\">Targ. I Chr. XXIV, 13</cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

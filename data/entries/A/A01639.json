@@ -1,0 +1,31 @@
+{
+	"id": "A01639",
+	"slug": "אית-2",
+	"headword": {
+		"text": "אִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיתָא"
+		}
+	],
+	"page": {
+		"number": 61,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(h. <cite ref=\"J00674\"><he>יֵשׁ</he></cite>; <cite ref=\"A00939\"><he>אות</he></cite>, cmp. <cite ref=\"J00711\"><he>יַת</he></cite>, <cite ref=\"A01615\"><he>אִישׁ</he></cite>, <cite ref=\"A03395\"><he>אֵת</he></cite> &c.) prop. <i>being, existence</i>, hence <i>there is, are; est qui</i> &c. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 18:24\">Targ. Gen. XVIII, 24</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:8:3\">Y. Ber. VI, end, 10ᵈ</cite> <he>א׳ תניי תני וכ׳</he> one Tannai reads … <cite ref=\"Rosh Hashanah 11b\">R. Hash. 11ᵇ</cite>, a. fr. <he>כדאיתא</he> as it is, i.e. as stated.—אית לי <i>I have, I hold</i> (the opinion).—",
+				"<cite ref=\"Sanhedrin 90a:16\">Snh. 90ᵃ</cite>, a. fr. <he>מר כדאית ליה וכ׳</he> the one in accordance with the opinion he holds, and the other &c.—",
+				"<cite ref=\"Bava Metzia 5a:15\">B. Mets. 5ᵃ</cite>, a. fr. <he>אם איתא לדר׳ …</he> if the opinion of R. … has (had) any substance, i.e. if we must adopt his authority.—",
+				"<cite ref=\"Yoma 41a:14\">Yoma 41ᵃ</cite> <he>מאי א׳ לך למימר</he> what hast thou to reply?—",
+				"<cite ref=\"Bava Metzia 3a:13\">B. Mets. 3ᵃ</cite> <he>מאי א׳ לי גבי וכ׳</he> what have I to do with the hired man?—",
+				"<cite ref=\"Yevamot 116a:6\">Yeb. 116ᵃ</cite> <he>כי אִיתְנֵכוּ בש׳</he> when ye are in Shili &c.—Compounds <he>אית־כא</he>, contr. <cite ref=\"A01249\"><he>אִיכָּא</he></cite>; <he>לא איתא</he> contr. <cite ref=\"L00533\"><he>לֵיתָא</he></cite>. [<he>אִיתָאִי</he>, <cite ref=\"A01646\"><he>אִיתִי</he></cite>, <i>my existence, I am</i> = h. <he>עוֹדִי</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 104:33\">Targ. Ps. CIV, 33</cite>; a. e.] Cmp. <cite ref=\"A01645\"><he>אִיתַי</he></cite>."
+			]
+		}
+	]
+}

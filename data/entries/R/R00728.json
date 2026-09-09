@@ -1,0 +1,47 @@
+{
+	"id": "R00728",
+	"slug": "צר-3",
+	"headword": {
+		"text": "צַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1299,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"R00727\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (adj.) <i>narrow</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 12:2\">Par. XII, 2</cite> <he>צלוחית שפיה צר</he> a flask with a narrow neck; a. e.—<he>צַר עַיִן</he>, pl. <he>צָרֵי עין</he> <i>narrow-minded, selfish, envious</i>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:6:2\">Y. Taan. III, 66ᵈ</cite> (ref. to <cite ref=\"Job 36:19\">Job XXXVI, 19</cite>) <he>אם סדרתה תפלה לא יהו לך צ׳ ע׳ מלמעלה</he> if thou orderest thy prayer well, thou shalt have no envious adversaries in heaven above; a. e.; v. <cite ref=\"P00601\"><he>עַיִן</he></cite>.—<i>Fem.</i> <cite ref=\"R00743\"><he>צָרָה</he></cite>. ",
+				"<cite ref=\"Esther Rabbah 2:5\">Esth. R. to I, 5</cite>, a. e., v. <cite ref=\"P00601\"><he>עַיִן</he></cite>; a. fr.—Pl. <he>צָרוֹת</he>. Y. Sot. IX, 24ᵃ bot. <he>רחבות מלמעלן וצ׳ וכ׳</he> wide above, and narrow below; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>anguish, trouble</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 65a:10\">Erub. 65ᵃ</cite> <he>בַּצַּר אל יורה</he>, v. <cite ref=\"J00601\"><he>יָרָה</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>oppressor, adversary</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 61:7\">Gen. R. s. 61</cite>, end, v. <cite ref=\"R00245\"><he>צוֹר</he></cite>.—[<cite ref=\"Yalkut Shimoni on Torah 62:3\">Yalk. Gen. 62</cite> <he>שונא וצר</he>, v. <cite ref=\"P01233\"><he>עָר</he></cite>.]—Pl. <he>צָרִים</he>. ",
+				"<cite ref=\"Shemot Rabbah 21:7\">Ex. R. s. 21</cite> (ref. to Job l. c.) <he>ערוך שועך … צ׳ מלמעלן</he> order thy prayer before thy Maker, that thou have no adversaries (accusers) in heaven above; <cite ref=\"Sanhedrin 44b:7\">Snh. 44ᵇ</cite> <he>כל המאמץ … אין לו צ׳ וכ׳</he> he who strengthens himself (makes a strong effort) for prayer, has no adversaries &c. ",
+				"<cite ref=\"Sanhedrin 44b:7\">Ib.</cite> <he>ואל יהיו צ׳ וכ׳</he> and that he may have no adversaries &c. ",
+				"<cite ref=\"Shemot Rabbah 27:6\">Ex. R. s. 27</cite> <he>צָרֵיהֶם של ישראל</he> Israel’s allied adversaries; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

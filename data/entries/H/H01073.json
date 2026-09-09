@@ -1,0 +1,162 @@
+{
+	"id": "H01073",
+	"slug": "חלל-1",
+	"headword": {
+		"text": "חָלַל"
+	},
+	"page": {
+		"number": 469,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.;v. Ges. H. Dict.<sup>10</sup> s. vv. <he>חלל</he> I, II) ",
+			"units": []
+		},
+		{
+			"gloss": " (v. <cite ref=\"H00319\"><he>חוּל</he></cite>) <i>to roll, turn</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 32a:21-22\">Ber. 32ᵃ</cite> (ref. to <he>ייחל</he>, <cite ref=\"Exodus 32:11\">Ex. XXXII, 11</cite>) <he>שחַל עליהם מדת הדין למדת הרחמים</he> Ms. M. (v. <cite ref=\"H00987\"><he>חָלָה</he></cite>) he (Moses) turned justice into mercy in their behalf; <cite ref=\"Yalkut Shimoni on Torah 392\">Yalk. Ex. 392</cite> <cite ref=\"H01073\"><he>הֵחֵל</he></cite> (<i>Hif.</i>).—[Tanḥ. Yithro 1 <he>מת חולל</he>, read <he>וחָלָל</he>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to bore, hollow, pierce</i>, v. <cite ref=\"H01045\"><he>חָלִיל</he></cite>, <cite ref=\"H01076\"><he>חָלָל</he> I</cite>. I.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to surround; to place outside a circle</i>, v. <cite ref=\"H00325\"><he>חוֹל</he> III</cite>, <cite ref=\"H00767\"><he>חִילּוֹנִי</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְלַל"],
+			"senses": [
+				{
+					"gloss": " (v. <cite ref=\"H01076\"><he>חָלָל</he> I</cite>) <i>to be cut all around, be severed</i>. ",
+					"units": [
+						"<cite ref=\"Nazir 54a:1\">Naz. 54ᵃ</cite> (ref. to <cite ref=\"Numbers 19:18\">Num. XIX, 18</cite>) <he>בחלל זה אבר הנ׳ מן החי וכ׳</he> ‘on something severed’, that means a limb which has been cut off a living body, and on which there was not flesh enough to have made healing possible; <he>במת זה אבר הנ׳ וכ׳</he> ‘on something dead’, that means a limb severed from a corpse; ib. 53ᵇ"
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נָחוֹל"],
+			"senses": [
+				{
+					"gloss": "<i>to become</i> <cite ref=\"H00351\"><he>חוּלִּין</he></cite>, <i>to cease to be sacred</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 1:8\">Shebi. I, 8</cite> <he>עד שיֵחוֹלּוּ</he> until the fruits become available for private use; Y. ib. 33ᶜ top <he>מהו עד שיח׳ עד שיפדו או עד שיעשו חולין וכ׳</he> what does <i>ad sheyeḥôllu</i> mean? Until they are redeemed (in the fourth year), or until they become <i>ḥullin</i> of themselves (in the fifth year)?"
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֵיחֵל"],
+			"senses": [
+				{
+					"gloss": " [ [<i>to set in motion</i>,] <i>to begin</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Bamidbar 134:5\">Sifré Num. 134</cite> (ref. to <cite ref=\"Deuteronomy 3:24\">Deut. III, 24</cite>) <he>אתה הֲחִילּוֹתָ וכ׳</he> thou hast begun to open the door &c. ",
+						"<cite ref=\"Mishnah Demai 7:4\">Dem. VII, 4</cite> <he>ומֵיחֵל ושותה</he> Y. ed. (v. Rabb. D. S. a. l. note) and he may at once commence drinking (Maim.; v. infra)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make</i> <cite ref=\"H00351\"><he>חוּלִּין</he></cite>; <i>to break a vow; to profane</i>. Ber. l. c. (ref. to <cite ref=\"Numbers 30:3\">Num. XXX, 3</cite>) <he>הוא אינו מֵיחֵל אבל אחרים מְחַלִּין לו</he> he himself cannot break a vow, but others may break it for him (absolve him; <cite ref=\"Chagigah 10a\">Ḥag. 10ᵃ</cite> … <he>מיחל … מוֹחֲלִין</he>; <cite ref=\"Shemot Rabbah 43\">Ex. R. s. 43</cite> <he>מוחל אבל … חכם מוֹחֵל</he>, corr. acc.). Dem. l. c. <he>ומיחל ושותה</he> and thus he <i>redeems</i>, and he may drink (R. S.); Tosef. ib. VIII, 7 <he>ומ׳ ושותה מיד</he>.—",
+					"units": [
+						"<cite ref=\"Kiddushin 77a:8\">Kidd. 77ᵃ</cite> (ref. to <cite ref=\"Leviticus 21:15\">Lev. XXI, 15</cite>) <he>מֵיחֵל</he> he <i>produces profanation</i> (begets degraded priests), v. <cite ref=\"H01077\"><he>חָלָל</he> II</cite>.—3) <i>to turn, change</i>. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 392\">Yalk. Ex. 392</cite>, v. supra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["חִלֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to break a vow, to profane, to desecrate; to degrade</i>. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 2:8\">Deut. R. s. 2</cite> (play on <he>החלת</he>, <cite ref=\"Deuteronomy 3:24\">Deut. III, 24</cite>) <he>חִלַּלְתָּ וכ׳</he> hast thou not broken the oath? (<cite ref=\"Sifrei Bamidbar 134:5\">Sifré Num. 134</cite> <he>הֲחִלּוֹתָ</he>, v. supra). ",
+						"<cite ref=\"Pirkei Avot 3:11\">Ab. III, 11</cite> <he>המְחַלֵּל את הקדשים</he> who treats profanely sacred things (causes them to be carried out and burnt). ",
+						"<cite ref=\"Avodah Zarah 28a:7\">Ab. Zar. 28ᵃ</cite> <he>מְחַלְּלִין עליה וכ׳</he> you may desecrate the Sabbath for the sake of curing it; a. fr.—Esp. <i>to cause the loss of the priestly status</i>. ",
+						"<cite ref=\"Makkot 2a:7\">Macc. 2ᵃ</cite> <he>המְחַלֵּל אינו מִתְחַלֵּל</he> he (the priest marrying a divorced woman) who causes the loss of priestly status (to his issue) does not lose the priestly status himself; <he>הבא לחַלֵּל ולא חִילֵּל</he> he who intended to cause the loss of priestly status (by false testimony) and did not succeed."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (v. ",
+					"units": [
+						"<cite ref=\"Deuteronomy 14:24\">Deut. XIV, 24</cite>, sq.) <i>to redeem, to make available for private use</i>. ",
+						"<cite ref=\"Mishnah Maaser Sheni 1:2\">Maas. Sh. I, 2</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["חוּלָּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be removed from the priestly status, become a</i> <cite ref=\"H01076\"><he>חָלָל</he></cite>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 77a:12\">Kidd. 77ᵃ</cite> (ref. to <cite ref=\"Leviticus 21:15\">Lev. XXI, 15</cite> ‘he shall not degrade’) <he>לא יְחוּלָּל זה וכ׳</he> no degradation shall be caused—which can only refer to a person who had a status and now becomes degraded (i.e. his wife)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be redeemed, to become secular again</i>. Part. <he>מְחוּלָּל</he>, f. <he>מְחוּלֶּלֶת</he>. ",
+					"units": [
+						"<cite ref=\"Mishnah Demai 5:1\">Dem. V, 1</cite>, a. fr. <he>ומח׳ על המעות</he> and it is redeemed by setting aside its value. ",
+						"<cite ref=\"Mishnah Maaser Sheni 2:10\">Maas. Sh. II, 10</cite> <he>מה … סלע זו ח׳ עליו</he> (not <he>על זו</he>, v. Rabb. D. S. a. l.) this Sela (which has been set apart as an equivalent for second tithes) shall be redeemed against the wine which the clean (sons of mine) may drink in Jerusalem, i.e. I buy with this Sela only that portion of the wine which the clean may drink. ",
+						"<cite ref=\"Mishnah Maaser Sheni 2:10\">Ib.</cite> <he>הרי מעות האלו מְחוּלָּלִים וכ׳</he> that money (dedicated for purchasing equivalents in Jerusalem) shall be redeemed against thy fruits; a. v. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be loosely joined, to be a movable link</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 52b:9\">Sabb. 52ᵇ</cite> <he>במְחוּלָּלִין</he> referring to movable links, (v. <cite ref=\"H00347\"><he>חוּלְיָא</he> I</cite>). Y. Pes. I, 27ᶜ top <he>במְחוּלָּלוֹת</he> when the vessels can be rolled about, opp. <he>אפוצות</he> close together (v. <cite ref=\"H01018\"><he>חִלְחֵל</he></cite>)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["הִתְחַלֵּל"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְחַלֵּל"],
+			"senses": [
+				{
+					"gloss": " [ [<i>to be perforated</i>,] (of bowels) <i>to be loose</i>. ",
+					"units": [
+						"<cite ref=\"Esther Rabbah 2:13\">Esth. R. to I, 8</cite> <he>שיִתְחַלְּלוּ מעיו</he>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be profaned, desecrated, degraded</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 1:11\">Ab. I, 11</cite>. ",
+						"<cite ref=\"Makkot 2a:7\">Macc. 2ᵃ</cite>, v. supra. ",
+						"<cite ref=\"Yevamot 79a:7\">Yeb. 79ᵃ</cite> <he>ואל יתְחַלֵּל וכ׳</he> rather than that the name of the Lord be profaned in public; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

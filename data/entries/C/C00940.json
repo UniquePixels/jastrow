@@ -1,0 +1,25 @@
+{
+	"id": "C00940",
+	"slug": "גליד-2",
+	"headword": {
+		"text": "גְּלִיד"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּלִידָא"
+		}
+	],
+	"page": {
+		"number": 248,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00939\">same</cite>; <i>ice, hoar-frost</i> (h. <cite ref=\"K00992\"><he>כפור</he></cite>, <cite ref=\"S01971\"><he>קרח</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 147:16\">Targ. Ps. CXLVII, 16</cite>. ",
+				"<cite ref=\"Onkelos Genesis 31:40\">Targ. O. Gen. XXXI, 40</cite> (Y. <cite ref=\"S01963\"><he>קרושא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "Q02061",
+	"slug": "פשח-1",
+	"headword": {
+		"text": "פָּשַׁח"
+	},
+	"page": {
+		"number": 1245,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <i>Pi.</i>) <i>to split, tear off, strip</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 16:5:5\">Y. Yeb. XVI, 15ᵈ</cite> <he>נתלה … ופְשָׁחוֹ</he> he suspended himself from a branch of an olive tree and tore it off (for a weapon); Bab. ",
+				"<cite ref=\"Yevamot 122b\">ib. 122ᵇ</cite>; <cite ref=\"Tosefta Yevamot 14:10\">Tosef. ib. XIV, 10</cite>.—[<cite ref=\"Tosefta Negaim 5:13\">Tosef. Neg. V, 13</cite> <he>פשח מן הנימין</he>, read with R. S. to <cite ref=\"Mishnah Negaim 11:10\">Neg. XI, 10</cite> <cite ref=\"Q02052\"><he>פָּשָׂה</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִפְשַׁח"],
+			"senses": [
+				{
+					"gloss": "<i>to be stripped, split</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 4:6\">Shebi. IV, 6</cite> <he>אילן שנ׳ וכ׳</he> if a tree is split, you may tie it up in the Sabbatical year, not that it may grow together again, but that it may not split farther. ",
+						"<cite ref=\"Mishnah Oktzin 3:8\">Ukts. III, 8</cite>; <cite ref=\"Tosefta Kelim Kamma 1:13\">Tosef. Kel. B. Kam. I, 13</cite>; <cite ref=\"Chullin 128b\">Ḥull. 128ᵇ</cite>, v. <cite ref=\"P01342\"><he>עָרָה</he> II</cite>. ",
+						"<cite ref=\"Chullin 127b\">Ib. 127ᵇ</cite> <he>אילן שנ׳ ובו פירות</he> if a tree is stripped, and on it (on the branch torn off) are fruits; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

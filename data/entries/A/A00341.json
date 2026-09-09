@@ -1,0 +1,24 @@
+{
+	"id": "A00341",
+	"slug": "אגרא",
+	"headword": {
+		"text": "אַגְרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 14,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Agra</i>, father-in-law of R. Abba; father of R. Y’hudah. ",
+			"units": [
+				"<cite ref=\"Chullin 104b:12\">Ḥull. 104ᵇ</cite>; <cite ref=\"Chullin 134a:12\">134ᵃ</cite>. ",
+				"<cite ref=\"Niddah 53a:44\">Nidd. 53ᵃ</cite>"
+			]
+		}
+	]
+}

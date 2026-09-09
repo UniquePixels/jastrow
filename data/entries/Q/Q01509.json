@@ -1,0 +1,27 @@
+{
+	"id": "Q01509",
+	"slug": "פקפוק",
+	"headword": {
+		"text": "פִּקְפּוּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיקְ׳"
+		}
+	],
+	"page": {
+		"number": 1211,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01511\"><he>פִּקְפֵּק</he></cite>) <i>shaking, battering</i>.—Pl. <he>פִּקְפּוּקִין</he>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:3:9\">Y. Snh. II, 20ᵇ</cite> (ref. to <cite ref=\"Q00318\"><he>פוקה</he></cite>, <cite ref=\"I Samuel 25:31\">I Sam. XXV, 31</cite>) <he>פִּיקְפּוּקֵי דברים היה שם</he> there was a battering attack with words (to demolish David’s arguments)."
+			]
+		}
+	]
+}

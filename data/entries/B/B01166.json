@@ -1,0 +1,23 @@
+{
+	"id": "B01166",
+	"slug": "ברביי",
+	"headword": {
+		"text": "בַּרְבַּיִי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 189,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (abbr. of <he>בַּר בַּיִת</he>) <i>intimate, familiar</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 5:15:1\">Cant. R. to V, 15</cite>; <cite ref=\"Vayikra Rabbah 25:8\">Lev. R. s. 25</cite> <he>אזיל ומתעביד ב׳</he> (Cant. R. <cite ref=\"B01163\"><he>ברבוי</he></cite>, some ed.) he grows to be like an inmate of the house."
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "O00089",
+	"slug": "סבר-6",
+	"headword": {
+		"text": "סֵבֶר"
+	},
+	"page": {
+		"number": 952,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"U00172\"><he>שֵׂבֶר</he></cite>; <cite ref=\"O00084\"><he>סָבַר</he></cite>)<i>hope</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 91:6\">Gen. R. s. 91</cite> (ref. to <cite ref=\"Genesis 42:1\">Gen. XLII, 1</cite>) <he>אל תהי קורא יש שבר אלא יש ס׳ … שסִבְרוֹ וכ׳</he> read not <i>yesh sheber</i> (there is corn) but <i>yesh seber</i> (there is hope) &c., v. <cite ref=\"A02514\"><he>אִסְפַּקְלַרְיָא</he></cite>. Sifra Aḥăré, Par. 9, ch. XIII <he>ושמא תאמר אבד סִבְרִי ואבד סכויי … אני סִבְרְךָ וכ׳</he> lest thou say, my hope is gone, my outlook is frustrated, therefore it reads, ‘I am the Lord’, I am thy hope &c. ",
+				"<cite ref=\"Yoma 72a:12\">Yoma 72ᵃ</cite> <he>אבד סִבְרָן ובטל סכויין</he> their prospect of restoration is gone &c. ",
+				"<cite ref=\"Eruvin 21b:2\">Erub. 21ᵇ</cite> <he>אבד סִבְרָם וכ׳</he> they are beyond hope (of return to God) &c. ",
+				"<cite ref=\"Bava Metzia 33b:5\">B. Mets. 33ᵇ</cite> <he>פסק סברם ובטל סכוים</he> there is no hope for them &c.; <cite ref=\"Yalkut Shimoni on Nach 371\">Yalk. Is. 371</cite> … <he>שכרן … שיכויין</he> (read <he>שִׂבְרָן</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " with <cite ref=\"Q01198\"><he>פָּנִים</he></cite>, <i>brightness, friendly expression</i>; in gen. <i>countenance</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 1:15\">Ab. I, 15</cite> <he>הוי מקבל … בס׳ פ׳ יפות</he> receive every man with a countenance of friendliness. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:5:3\">Cant. R. to II, 5</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>understanding, plain sense</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 158:1\">Yalk. Sam. 158</cite> <he>כך הוא סִבְרוֹ של דבר</he> this is the plain sense of the thing (the common opinion), opp. to <he>עיקרו של דבר</he> the root, the deeper cause; v. <cite ref=\"O00091\"><he>סְבָרָא</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

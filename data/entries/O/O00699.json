@@ -1,0 +1,31 @@
+{
+	"id": "O00699",
+	"slug": "סימטא-1",
+	"headword": {
+		"text": "סִימְטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִמְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 981,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סמט</he>, Saf. of <he>מוט</he>, cmp. <he>שמט</he>; v. <cite ref=\"A01470\"><he>אִיסְמְטָא</he></cite>) <i>recess, alley</i> adjoining an open place to which merchants retire to transact business; <i>market-stand</i> under a colonnade. ",
+			"units": [
+				"<cite ref=\"Ketubot 84b\">Keth. 84ᵇ</cite>, opp. <he>רשות הרבים</he>. ",
+				"<cite ref=\"Pesachim 50b:7\">Pes. 50ᵇ</cite>; <cite ref=\"Tosefta Bikkurim 2:16\">Tosef. Bicc. II, 16</cite> <he>תגרי ס׳</he> traders in market-stands. Sifra B’har, ch. VII, Par. 6, [read as:] <cite ref=\"Yalkut Shimoni on Torah 667:2\">Yalk. Lev. 667</cite> (ref. to <cite ref=\"Leviticus 25:42\">Lev. XXV, 42</cite>) <he>לא יעשה ס׳ ויעמידם על וכ׳</he> one must not put up a stand and put them on the auction stone; a. e.—<i>Pl.</i> (h. form) <cite ref=\"O00702\"><he>סִימְטָיוֹת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:1:25\">Y. Sabb. I, 2ᵈ</cite> bot. <he>ס׳ שבין העמודים</he>; (Bab. ",
+				"<cite ref=\"Shabbat 7a\">ib. 7ᵃ</cite> only <he>בין העמודים</he>) the stands between the columns."
+			]
+		}
+	]
+}

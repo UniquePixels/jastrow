@@ -1,0 +1,28 @@
+{
+	"id": "J00722",
+	"slug": "יתור-1",
+	"headword": {
+		"text": "יִתּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "יִיתּוּר"
+		}
+	],
+	"page": {
+		"number": 603,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00746\"><he>יָתַר</he></cite>) <i>addition</i>. <he>י׳ בגדים</he> putting on more than the prescribed number of priestly garments (v. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 7:5\">Yoma VII, 5</cite>). ",
+				"<cite ref=\"Zevachim 19a:4\">Zeb. 19ᵃ</cite>; <cite ref=\"Eruvin 103b:10\">Erub. 103ᵇ</cite>"
+			]
+		}
+	]
+}

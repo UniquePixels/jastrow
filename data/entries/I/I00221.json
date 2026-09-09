@@ -1,0 +1,24 @@
+{
+	"id": "I00221",
+	"slug": "טורזיא",
+	"headword": {
+		"text": "טוּרְזַיָּא"
+	},
+	"page": {
+		"number": 526,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"I00741\"><he>טרז</he></cite> = <cite ref=\"I00714\"><he>טרד</he> II</cite>; cmp. <cite ref=\"I00723\"><he>טְרוּזָא</he></cite>) [<i>locked up things</i>, cmp. <cite ref=\"A00825\"><he>אוֹצָר</he></cite>,] <i>royal wardrobe, armory</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 56a:19\">Ber. 56ᵃ</cite> <he>ריש ט׳ וכ׳</he> (some ed. <cite ref=\"I00222\"><he>טורזינא</he></cite>, Ar. <cite ref=\"I00742\"><he>טרזיא</he></cite>) the chief of the royal wardrobe dreamt. ",
+				"<cite ref=\"Berakhot 56a:19\">Ib.</cite> <he>אתיוה לריש ט׳ וכ׳</he> (Ms. M. <he>אמר קיסר אייתיה לריש טריא</he>) they brought the chief … up, and he was put do death. [For Var. lect., v. Rabb. D. S. a. l. notes 1, 2.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"id": "G00119",
+	"slug": "זוג-2",
+	"headword": {
+		"text": "זְוַג"
+	},
+	"page": {
+		"number": 383,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"G00141\"><he>זַוֵּג</he></cite>, <cite ref=\"G00141\"><he>זַוֵּוג</he></cite>, <cite ref=\"G00141\"><he>זַוֵּיג</he></cite> same, <i>to join, couple</i> &c. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 16:21\">Targ. Y. Deut. XVI, 21</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 68:7\">Targ. Ps. LXVIII, 7</cite>. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 33:7\">Targ. Y. I Deut. XXXIII, 7</cite>; a. e.—<i>Part. pass.</i> <he>מְזַוַּוג</he> <i>joined</i>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 26:24\">Targ. Y. Ex. XXVI, 24</cite> (h. text <he>תאמים</he>). ",
+						"<cite ref=\"Targum Jerusalem, Numbers 7:3\">Targ. Y. II, Num. VII, 3</cite> <he>מְזַוְּוגָן</he> with teams and harness (h. text <cite ref=\"R00015\"><he>צָב</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִזְדַּוַּוג"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"G00118\">preced.</cite> <i>Hithpa.</i> ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 5:27\">Targ. Y. Deut. V, 27</cite>; a. e.—",
+						"<cite ref=\"Targum Jonathan on Exodus 21:13\">Targ. Y. Ex. XXI, 13</cite> (h. text <cite ref=\"R00100\"><he>צדה</he></cite>); a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "P01480",
+	"slug": "עשיק-1",
+	"headword": {
+		"text": "עָשִׁיק",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1125,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01496\"><he>עֲשַׁק</he></cite>; v. P. Sm. 3006 s. v. <he>עשק</he>) <i>perverse, tricky</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 14:2\">Targ. Prov. XIV, 2</cite> (Var. ed. Lag. <cite ref=\"P01483\"><he>עשיר</he></cite>; h. text <cite ref=\"L00228\"><he>נלוז</he></cite>)."
+			]
+		}
+	]
+}

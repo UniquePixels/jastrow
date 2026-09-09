@@ -1,0 +1,34 @@
+{
+	"id": "U00519",
+	"slug": "שוק-2",
+	"headword": {
+		"text": "שׁוּק",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1540,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <i>Polel;</i> cmp. <he>נשק</he>) <i>to touch, join, come in contact;</i> (cmp. <he>חפץ</he>) <i>to desire</i>.—Denom. <cite ref=\"V01077\"><he>תְּשׁוּקָה</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁתּוֹקֵק"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpol</i>. <he>נִשְׁתּוֹקֵק</he> (denom. of <cite ref=\"V01077\"><he>תשוקה</he></cite> = <he>התשוקק</he>) <i>to long for</i> (with <he>על</he>). ",
+					"units": [
+						"<cite ref=\"Yevamot 62b:17\">Yeb. 62ᵇ</cite> (ref. to <he>תשוקתך</he>, <cite ref=\"Genesis 3:16\">Gen. III, 16</cite>) <he>האשה מִשְׁתּוֹקֶקֶת על וכ׳</he> the wife has a desire for her husband when he is about to go on the road; <cite ref=\"Eruvin 100b\">Erub. 100ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Torah 32\">Yalk. Gen. 32</cite>. ",
+						"<cite ref=\"Ketubot 65a:1\">Keth. 65ᵃ</cite> (ref. to <he>שקויי</he>, <cite ref=\"Hosea 2:7\">Hos. II, 7</cite>) <he>דברים … משתוקקת עליהן וכ׳</he> things which a woman longs for: jewelry. ",
+						"<cite ref=\"Bamidbar Rabbah 10:1\">Num. R. s. 10</cite>, beg. (ref. to <he>שוקיו</he>, <cite ref=\"Song of Songs 5:15\">Cant. V, 15</cite>) <he>זה העולם שנ׳ הקב״ה וכ׳</he> that means the world, which the Lord has been longing to create; a. e."
+					]
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

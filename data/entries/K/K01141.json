@@ -1,0 +1,35 @@
+{
+	"id": "K01141",
+	"slug": "כרזילא",
+	"headword": {
+		"text": "כַּרְזִילָא"
+	},
+	"page": {
+		"number": 665,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01136\"><he>כְּרַז</he></cite>, with format, <cite ref=\"L00000\"><he>ל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the shepherd’s assistantthat gathers the scattered flock</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 56b:6\">B. Kam. 56ᵇ</cite> <he>מסרו לרועה לכַרְזִילֵיה</he> Ar. (ed. <he>לב׳</he>, corr. acc.) ‘he surrendered it to the shepherd’ (in Mish.) means to his assistant."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>he who calls to, and leads in prayer</i>.—Pl. <cite ref=\"K01143\"><he>כַּרְזִילִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:8\">Targ. Cant. I, 8</cite> <cite ref=\"K01141\"><he>כַּרְזִילָהָא</he></cite> (not <cite ref=\"B00002\"><he>בַּ׳</he></cite>, v. ed. Lag. II, p. XIV) her (the congregation’s) leaders. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 10:10\">Targ. Koh. X, 10</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

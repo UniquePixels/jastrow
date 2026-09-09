@@ -1,0 +1,39 @@
+{
+	"id": "T00808",
+	"slug": "רמי-2",
+	"headword": {
+		"text": "רמי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָמָה"
+		}
+	],
+	"page": {
+		"number": 1482,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to move</i>,] <i>to throw, swing</i>. Mekh. B’shall., Shir., s. 2 (ref. to <cite ref=\"Exodus 15:1\">Ex. XV, 1</cite> a. ",
+			"units": [
+				"<cite ref=\"Exodus 15:4\">4</cite>) <he>ר׳ שהיו עולין למרום וכ׳</he> <i>ramah</i> means that they were hurled upward, <i>yarah</i>, that they were thrown down the deep."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִמָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to impose upon, deceive; to be cunning</i>. Y. Hor. III, 48ᵃ bot. (he was no deceiver) <he>אלא שהיה מְרַמֶּה במצות</he> but he was cunning in charitable deeds (waited until others had subscribed, and then gave as much as all of them combined); <cite ref=\"Devarim Rabbah 4\">Deut. R. s. 4</cite>; Tanḥ. R’eh 5. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 85\">Gen. R. s. 85</cite> <he>אתה רִמִּיתָ באביך בגדי … שתמר מְרַמָּה בך וכ׳</he> thou (Judah) didst deceive thy father by means of a kid (<cite ref=\"Genesis 37:31\">Gen. XXXVII, 31</cite>); by thy life! Tamar shall deceive thee through a kid (ib. XXXVIII, 20); Yalk. ib. 145 <he>לאביך … לך</he>; a. e.—Part. pass. <cite ref=\"M02593\"><he>מְרוּמֶּה</he></cite>. ",
+						"<cite ref=\"Sanhedrin 32b:4\">Snh. 32ᵇ</cite>, a. e. <he>דין מ׳</he>, v. <cite ref=\"D00635\"><he>דִּין</he> II</cite>"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

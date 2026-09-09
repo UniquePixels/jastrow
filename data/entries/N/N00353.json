@@ -1,0 +1,36 @@
+{
+	"id": "N00353",
+	"slug": "נוי-2",
+	"headword": {
+		"text": "נוי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נָוָה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 887,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>הִתְנַוֶּה</he> <i>to fall away</i>, v. <cite ref=\"N00380\"><he>נִוְנֶה</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "A03134",
+	"slug": "ארכובה",
+	"headword": {
+		"text": "אַרְכּוּבָה"
+	},
+	"page": {
+		"number": 121,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>רכב</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the leg from under the hip-bone to the ankle, the knee and its surrounding parts</i> (containing three sections each of which is called <he>א׳</he> and defined by a different surname). ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 4:6\">Ḥull. IV, 6</cite>; v. ",
+				"<cite ref=\"Chullin 76a:3\">ib. 76ᵃ</cite> (also <cite ref=\"T00755\"><he>רְכוּבָה</he></cite>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>anything joined, joint</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 7:1\">Kil. VII, 1</cite> <he>הא׳ שבגפן</he> (<cite ref=\"Tosefta Kilaim 4:11\">Tosef. ib. IV, 11</cite>, Var. <he>הבריכה שבסלע</he>) that part of the vine which is bent down and laid in the ground to rise at another place. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:10\">Y. Meg. I, 71ᶜ</cite> bot. <he>א׳ של למ״ד</he> the lower joint of the Lammed. ",
+				"<cite ref=\"Mishnah Kelim 14:8\">Kel. XIV, 8</cite> <he>מפתח של א׳ וכ׳</he> (<cite ref=\"Tosefta Keilim Metsia 4:15\">Tosef. Kel. B. Mets. IV, 15</cite> <he>רוֹכְבָּה … רְכוּבָתוֹ</he>) a key with a joint, broken at the joint.—Pl. <he>אַרְכּוּבוֹת</he>. ",
+				"<cite ref=\"Niddah 30b:41\">Nidd. 30ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 105a\">B. Mets. 105ᵃ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

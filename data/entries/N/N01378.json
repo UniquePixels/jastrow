@@ -1,0 +1,32 @@
+{
+	"id": "N01378",
+	"slug": "נתיקה",
+	"headword": {
+		"text": "נְתִיקָה"
+	},
+	"page": {
+		"number": 944,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01387\"><he>נָתַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>breaking loose</i>. Pesik. Shub., p. 163ᵃ (ref. to <he>אתקנך</he>, <cite ref=\"Jeremiah 22:24\">Jer. XXII, 24</cite>) <he>ממקום נְתִיקָתוֹ תהא תקנתו</he> from where he will be torn away will arise his regeneration (through repentance); <cite ref=\"Shir HaShirim Rabbah 8:6:2\">Cant. R. to VIII, 6</cite> <he>ממקום שנְתִיקָתְךָ שם וכ׳</he>; <cite ref=\"Yalkut Shimoni on Nach 303\">Yalk. Jer. 303</cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>forcing a door open</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 7:13:3\">Y. Snh. VII, 25ᵈ</cite> (in Chald. dict.) <he>יהיב ליה</he> (<cite ref=\"H00168\"><he>חד</he></cite>) <he>בנ׳</he> struck him by opening the door forcibly; v. <cite ref=\"M02786\"><he>מַרְתּוֹקָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

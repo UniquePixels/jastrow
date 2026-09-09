@@ -1,0 +1,29 @@
+{
+	"id": "L00016",
+	"slug": "לאי-4",
+	"headword": {
+		"text": "לַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "לַאיי"
+		},
+		{
+			"text": "לַיי"
+		}
+	],
+	"page": {
+		"number": 686,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>לָא הִי</he>) = <cite ref=\"L00009\"><he>לַאו</he></cite>. Tosef. Erub. XI (VIII), 23 <he>הא לאי ביריא הוות</he> (ed. Zuck. <cite ref=\"L00207\"><he>לְווּ</he></cite>, read <cite ref=\"L00207\"><he>לַוו</he></cite>) was this (the first tongs) not a divine creation?, i.e. it was nothing else than &c.; <cite ref=\"Pesachim 54a:7\">Pes. 54ᵃ</cite> <he>הא ל׳ בריה בידי שמים היא</he> (v. Rabb. D. S. a. l. notes 9 a. 10); <cite ref=\"Tosefta Chagigah 1:9\">Tosef. Ḥag. I, 9</cite> <he>הא ל׳</he> (ed. Zuck. <cite ref=\"A01770\"><he>אלא</he></cite>, Var. <he>הא לוי</he> read: <cite ref=\"L00207\"><he>לוו</he></cite>).—",
+			"units": [
+				"<cite ref=\"Keritot 12a:37\">Ker. 12ᵃ</cite> <he>לאיי ה״נ לא עמדתי בטומאתי</he> Ar. (ed. only <he>ה״נ לא עמדתי</he>) no; in this case, too, he may correct himself (saying), I did not remain &c. Ib. 6ᵇ <he>לאיי מיצרך צריכי</he> it is not so; they <i>are</i> necessary. Ib. <he>ל׳ דכתיב וכ׳</he> it is not; for it is written &c.—",
+				"<cite ref=\"Sanhedrin 40b:4\">Snh. 40ᵇ</cite> <he>לאיי אפנויי מופנה</he> it is not so; there is indeed an expression in the text open for interpretation; <cite ref=\"Shabbat 64a:17\">Sabb. 64ᵃ</cite> <he>לאי וכ׳</he> is it not? it is indeed &c. ",
+				"<cite ref=\"Yoma 22b:13\">Yoma 22ᵇ</cite> <he>ל׳ אפרעו מגופיה</he> no? Indeed, he was punished on his body."
+			]
+		}
+	]
+}

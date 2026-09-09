@@ -1,0 +1,27 @@
+{
+	"id": "Q00794",
+	"slug": "פיצעא",
+	"headword": {
+		"text": "פִּיצְעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּצְ׳"
+		}
+	],
+	"page": {
+		"number": 1169,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"Q01441\"><he>פֶּצַע</he></cite>, <i>wound</i>.—Pl. <cite ref=\"Q00588\"><he>פִּיצְעִין</he></cite>, <cite ref=\"Q00794\"><he>פִּצְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 1:8:4\">Koh. R. to I, 8</cite> <he>עד דאיתמלאון פִּיצְעֵי פ׳</he> until their heads were full of wounds."
+			]
+		}
+	]
+}

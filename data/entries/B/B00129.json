@@ -1,0 +1,72 @@
+{
+	"id": "B00129",
+	"slug": "בדי-1",
+	"headword": {
+		"text": "בדי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּדָא"
+		},
+		{
+			"text": "בָּדָה"
+		}
+	],
+	"page": {
+		"number": 139,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., √<he>בד</he> , v. <he>בדד</he>) <i>to dig out</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"B01157\"><he>ברא</he></cite>) <i>to take out</i> (a piece of dough) and <i>shape, to form</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 5:1\">Men. V, 1</cite>; Sifra Emor Par. 10, ch. XIII <he>השאור בּוֹדֶה וכ׳</he> he gets the leaven required for the loaves out of themselves (taking a piece of dough out of that intended for the loaves)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to create, invent</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 10a:12\">Ned. 10ᵃ</cite> <he>לשון שבָּדוּ וכ׳</he> terms (for vows) which the Scholars have (arbitrarily) invented (as disguises). ",
+				"<cite ref=\"Vayikra Rabbah 9:9\">Lev. R. s. 9</cite> <he>לשון בָּדוּי</he> an invented expression. ",
+				"<cite ref=\"Bereishit Rabbah 100\">Gen. R. s. 100</cite> <he>דברים בְּדוּיִים</he> fictitious words. ",
+				"<cite ref=\"Bereishit Rabbah 100\">Ib.</cite> s. 48 <he>בדויים</he> (sub. <he>דברים</he>, some ed. <he>בדאות</he>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּידָּא", "בִּידָּה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"B00128\">same</cite>. Y. Meg. I, 71ᶜ top <he>בי׳ להן וכ׳</he> made up for them a false Latin translation (of the Bible) from the Greek; v. <cite ref=\"B01335\"><he>בָּרַר</he></cite>.—Y. Keth. II, 26ᵇ bot. <he>מְבַדִּין היינו</he> we have been inventing, i.e. speaking in fun; <cite ref=\"Tosefta Ketubot 2:1\">Tosef. ib. II, 1</cite> <he>מבודין אנו</he> (corr. acc.; Var. <he>בדאים</he>). [Y. Kidd. III, 64ᵈ <he>מבדין אתם וכ׳</he>, prob. to be read <he>מן הדין</he>.] [Y. Shebi. IV, 35ᵇ bot. <he>מבדין בחדשים</he>, v. <cite ref=\"B00162\"><he>בָּהָה</he></cite>.]",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to disprove, refute</i>. Tanḥ. Balak, 14; ed. Bub. 23 (ref. to <i>baddim</i>, <cite ref=\"Isaiah 44:25\">Is. XLIV, 25</cite>) <he>מְבַדִּין וכ׳</he> they frustrate their predictions.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְבַּדָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be tempted to a falsehood, turn a liar</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 4a:6\">Ber. 4ᵃ</cite>; <cite ref=\"Tractate Derekh Eretz Zuta 3\">Der. Er. Zut. ch. III</cite> train thy tongue to say, I do not know, <he>שמא תִּתְבַּדֶּה וכ׳</he> lest thou be induced to tell a falsehood and be caught."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

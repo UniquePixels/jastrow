@@ -1,0 +1,24 @@
+{
+	"id": "P01507",
+	"slug": "עשרון",
+	"headword": {
+		"text": "עִשָּׂרוֹן"
+	},
+	"page": {
+		"number": 1127,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P01506\">preced.</cite> wds.) <i>one-tenth</i> of an Ephah, <i>ʿissaron</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 13:1\">Men. XIII, 1</cite> <he>הרי עלי ע׳ וכ׳</he> if a person says, ‘I vow an <i>ʿissaron</i>, he must offer one <i>minḥah</i>. ",
+				"<cite ref=\"Mishnah Menachot 13:2\">Ib. 2</cite> <he>מנחה של ששים ע׳</he> a meal offering of sixty <i>ʿissarons</i>; a. fr.—Pl. <he>עֶשְׂרוֹנִים</he>, <he>עֶשְׂרוֹנוֹת</he>. ",
+				"<cite ref=\"Mishnah Menachot 13:1\">Ib. 1</cite> <he>ע׳ יביא וכ׳</he> (Bab. ed. 104ᵇ <he>עשרונות</he>) if a person says, ‘I vow <i>ʿesronim</i>, he must offer two <i>minḥahs</i>. Ib. <he>יביא מנחות של ע׳ מאחד ועד ששים</he> he must bring (sixty) offerings of <i>ʿesronim</i>, beginning with one <i>ʿissaron</i> and progressing up to sixty; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "M00872",
+	"slug": "מחיצה-1",
+	"headword": {
+		"text": "מְחִיצָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 760,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00917\"><he>מָחַץ</he></cite>) <i>striking, wounding</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 91b:13\">Snh. 91ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 32:39\">Deut. XXXII, 39</cite>) <he>מה מ׳ ורפואה באחד וכ׳</he> as striking and healing refer to the same person, so do death and life refer to the same person; <cite ref=\"Yalkut Shimoni on Torah 946:14\">Yalk. Deut. 946</cite> <he>מחצי׳</he> (corr. acc.)."
+			]
+		}
+	]
+}

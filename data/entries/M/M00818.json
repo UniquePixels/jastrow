@@ -1,0 +1,30 @@
+{
+	"id": "M00818",
+	"slug": "מחוזאה",
+	"headword": {
+		"text": "מְחוֹזָאָה"
+	},
+	"page": {
+		"number": 757,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00817\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>belonging to harbors or trading places.—</i>Pl. <he>מְחוֹזָאֵי</he>. Targ. II Esth. VIII, 13.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>of Maḥoza</i>, v. <cite ref=\"M00821\"><he>מְחוֹזְנָאָה</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

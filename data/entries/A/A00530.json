@@ -1,0 +1,28 @@
+{
+	"id": "A00530",
+	"slug": "אובלים",
+	"headword": {
+		"text": "אוּבְלִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּבְלִין"
+		}
+	],
+	"page": {
+		"number": 21,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (v. <cite ref=\"A00135\"><he>אֲבֵילִין</he></cite>) <i>Ub’lim, Ub’lin</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 12a:1\">Erub. 12ᵃ</cite> top (var. v. Rabb. D. S. a. l. note 1). ",
+				"<cite ref=\"Chullin 55b:22\">Ḥull. 55ᵇ</cite> <cite ref=\"A00530\"><he>אובלים</he></cite> (ed. <cite ref=\"A02549\"><he>אי׳</he></cite>)."
+			]
+		}
+	]
+}

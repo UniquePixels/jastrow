@@ -1,0 +1,22 @@
+{
+	"id": "K01256",
+	"slug": "כרסתן",
+	"headword": {
+		"text": "כַּרְסָתָן"
+	},
+	"page": {
+		"number": 672,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"K01245\"><he>כַּרְסָא</he></cite>) <i>large-bellied, stout</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 60a:6\">Ḥull. 60ᵃ</cite> <he>שור כ׳ וכ׳</he> an ox (in order to fetch a high price) must be stout, have large hoofs &c."
+			]
+		}
+	]
+}

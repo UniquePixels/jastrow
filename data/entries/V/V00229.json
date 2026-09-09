@@ -1,0 +1,23 @@
+{
+	"id": "V00229",
+	"slug": "תומן",
+	"headword": {
+		"text": "תּוֹמָן"
+	},
+	"page": {
+		"number": 1654,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Chaldaism; v. <cite ref=\"V00695\"><he>תַּמְנֵי</he></cite>) <i>Toman</i>, one eighth of a Kab. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 1:7:2\">Y. Sot. I, 17ᵃ</cite> <he>רובע ות׳ וחצי ת׳ וכ׳</he> a Robʿa (one fourth of a Kab), and a T., and a half-T., and an Ukhla; Bab. ",
+				"<cite ref=\"Sotah 8b:16\">Sot. 8ᵇ</cite> (corr. acc.); <cite ref=\"Bava Batra 89b:9\">B. Bath. 89ᵇ</cite>, sq.; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A01958",
+	"slug": "אלתית",
+	"headword": {
+		"text": "אִלְתִּית"
+	},
+	"page": {
+		"number": 74,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>Iltith</i>, name of a large fish (prob. from its place, v. <cite ref=\"H00367\"><he>חוּלְתָּא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Makhshirin 6:3\">Makhsh. VI, 3</cite> (Mish. ed. <he>אלתות</he>). ",
+				"<cite ref=\"Tosefta Keilim Metsia 5:7\">Tosef. Kel. B. Mets. V, 7</cite>."
+			]
+		}
+	]
+}

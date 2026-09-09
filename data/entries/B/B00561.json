@@ -1,0 +1,37 @@
+{
+	"id": "B00561",
+	"slug": "ביזא-2",
+	"headword": {
+		"text": "בִּיזָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּזָּא",
+			"homograph": 2
+		},
+		{
+			"text": "בִּיזְתָא"
+		},
+		{
+			"text": "בִּזְּתָא"
+		}
+	],
+	"page": {
+		"number": 159,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"B00438\"><he>בִּזָּה</he></cite> <i>dividing; plunder, spoil</i>. ",
+			"units": [
+				"<cite ref=\"Nahum 3:1\">Nah. III, 1</cite>. ",
+				"<cite ref=\"Onkelos Exodus 15:9\">Targ. O. Ex. XV, 9</cite>; a. fr.—",
+				"<cite ref=\"Eichah Rabbah 2:17\">Lam. R. to II, 13</cite> <he>בערביא וכ׳</he> in Arabia they call spoil (<he>ביזתא</he>) ăditha (with ref. to <he>אעידך</he> <cite ref=\"Eichah Rabbah 2:17\">ib.</cite>). Cmp. <he>עֲדוּדָה</he>. [<cite ref=\"Targum Jonathan on Isaiah 60:16\">Targ. Is. LX, 16</cite> (h. text <he>שׁד̇</he>); v. <cite ref=\"B00560\">preced.</cite> w.]—Trnsf. <cite ref=\"B00224\"><he>בִּיזְתָא</he></cite> <i>robbed</i> woman. ",
+				"<cite ref=\"Midrash Tehillim 1:15\">Midr. Till. to Ps. I, 2</cite> <he>הא ב׳ עלובתא</he> this poor robbed woman; <cite ref=\"Yalkut Shimoni on Torah 750:2\">Yalk. Num. 750</cite> (incorr. vers.)."
+			]
+		}
+	]
+}

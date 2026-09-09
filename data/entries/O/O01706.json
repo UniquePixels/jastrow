@@ -1,0 +1,55 @@
+{
+	"id": "O01706",
+	"slug": "סתם-2",
+	"headword": {
+		"text": "סְתַם"
+	},
+	"page": {
+		"number": 1032,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01705\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 32:3\">Targ. II Chr. XXXII, 3</cite>. Targ. II Esth. I, 2 (3) <he>ס׳ נפשיה</he> (the gate) closed itself; a. fr.—Part. pass. <he>סְתִים</he>; f. <cite ref=\"O01697\"><he>סְתִימָא</he></cite>; pl. <he>סְתִימִין</he>, <he>סְתִימַיָּא</he>; <cite ref=\"O01697\"><he>סְתִימָן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 41:16\">Targ. Ez. XLI, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 49:1\">Targ. Y. I Gen. XLIX, 1</cite>; a. e.—",
+				"<cite ref=\"Chullin 49b:14\">Ḥull. 49ᵇ</cite> <he>חד סָתֵים</he> one of them stops up a perforation (by close adhesion, v. <cite ref=\"O01705\">preced.</cite>). ",
+				"<cite ref=\"Chullin 49b:14\">Ib.</cite> sq. <he>אינהו … ולדידן מִיסְתַּם נמי לא ס׳</he> they eat (that kind of fat), and for us was it not even to have the effect of closing up the perforation (that the animal in the case be permitted)?; a. fr.—Esp. <i>to conceal an authority; to state a law without naming the author</i>. ",
+				"<cite ref=\"Beitzah 2a:10\">Bets. 2ᵃ</cite> (ref. to <cite ref=\"Mishnah Shabbat 24:4\">Sabb. XXIV, 4</cite>) <he>דס׳ לן תנא כר״ש</he> where the editor of the Mishnah states the law anonymously, in agreement with R. S.’s opinion. Ib.ᵇ (ref. to <cite ref=\"Mishnah Beitzah 4:3\">Bets. IV, 3</cite>) <he>דס׳ לן תנא כד״י</he> where the editor gives R. Judah’s opinion anonymously; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַתֵּם"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O01705\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Gittin 68a:10\">Gitt. 68ᵃ</cite> <he>וסַתְּמִינְהוּ בגבבי וכ׳</he> and stopped the waters up with wool.—Part. pass. <he>מְסַתַּם</he>; f. <he>מְסַתְּמָא</he>; pl. <he>מְסַתְּמִין</he>; <he>מְסַתְּמָן</he>. ",
+						"<cite ref=\"Megillah 3a\">Meg. 3ᵃ</cite> in the Prophets <he>איכא מילי … דמ׳</he> (Ms. O. <he>דסְתִימָן</he>) some things are clearly stated, others obscurely."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִסְתַּתַּם"],
+			"senses": [
+				{
+					"gloss": "; <i>Ithpe.</i> <he>אִסְתְּתַם</he> <i>to be closed, stopped up, sealed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 8:10\">Targ. Esth. VIII, 10</cite>. ",
+						"<cite ref=\"Aramaic Targum to Esther 5:14\">Ib. V, 14</cite> (some ed. <he>אסתממו</he>, incorr.); a. fr.—",
+						"<cite ref=\"Targum Jonathan on Leviticus 15:3\">Targ. Y. Lev. XV, 3</cite> <he>אִיתְסַתַּם</he> (v. <cite ref=\"H01900\"><he>חֲתַם</he></cite>).—",
+						"<cite ref=\"Ketubot 106a:1\">Keth. 106ᵃ</cite> <he>איסתתם טענתיה</he> (v. <cite ref=\"O01705\">preced.</cite>) he declared he had nothing to say (was intimidated). ",
+						"<cite ref=\"Shevuot 30b:4\">Shebu. 30ᵇ</cite> <he>מִסְתַּתְּמָן טענתיה דבעל וכ׳</he> (Ms. M. <he>קמִסְתַּתְּמָא</he>) the opponent will be intimidated; <cite ref=\"Yalkut Shimoni on Torah 922\">Yalk. Deut. 922</cite> <he>מִיסַּתְּמָא טענתיה וכ׳</he>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

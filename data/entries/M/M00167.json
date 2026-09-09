@@ -1,0 +1,29 @@
+{
+	"id": "M00167",
+	"slug": "מגיסתא-1",
+	"headword": {
+		"text": "מְגִיסְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְגוּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 728,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"M00163\"><he>מְגִיסָא</he></cite>) <i>tray, plate</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 7:13\">Targ. O. Num. VII, 13</cite> (ed. Amst. <cite ref=\"M00165\"><he>מְגִסְ׳</he></cite>; h. text <cite ref=\"S01693\"><he>קערה</he></cite>); a. fr.—Pl. <cite ref=\"M00167\"><he>מְגִיסָתָא</he></cite>, <cite ref=\"M00167\"><he>מְגוּ׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 8:8:3\">Y. Snh. VIII, end, 26ᶜ</cite> [read:] <he>מיסב מְגִיסָתַיי מיני</he> to steal my (silver) plate."
+			]
+		}
+	]
+}

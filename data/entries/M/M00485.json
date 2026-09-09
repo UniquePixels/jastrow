@@ -1,0 +1,29 @@
+{
+	"id": "M00485",
+	"slug": "מולא-1",
+	"headword": {
+		"text": "מוּלָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹלָא"
+		}
+	],
+	"page": {
+		"number": 742,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01461\"><he>מלא</he></cite>; cmp. b. h. <cite ref=\"M01464\"><he>מְלֹא</he></cite>) <i>plenty, power</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 6:31\">Targ. Prov. VI, 31</cite> Ms. (v. Bxt. s. v. <he>מדל</he>; ed. <he>מזלא</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 12:6\">Targ. Job XII, 6</cite> first vers. <he>דזמין אֵל מ׳ וכ׳</he> ed. Lag. (some ed. <he>אלמולא</he> corr. acc.; in oth. ed. our w. is omitted)."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "T01034",
+	"slug": "רקיעא",
+	"headword": {
+		"text": "רְקִיעָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1497,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T01049\"><he>רְקַע</he></cite>, v. <cite ref=\"T01028\"><he>רְקוֹעַ</he></cite>) <i>patch, rag.—Pt</i>. constr. <he>רְקִיעֵי</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 13:18\">Targ. Ez. XIII, 18</cite> <he>ר׳ חשוך</he> (ed. Lag. <he>רִקְעֵי</he>) dark rags (h. text <he>כסתות</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 13:20\">Ib. 20</cite> <he>ר׳ חשוככן</he> ed. Lag. (ed. Wil. <he>חשיכין</he>, corr. acc.)."
+			]
+		}
+	]
+}

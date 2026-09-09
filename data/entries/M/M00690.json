@@ -1,0 +1,59 @@
+{
+	"id": "M00690",
+	"slug": "מות-1",
+	"headword": {
+		"text": "מוֹת"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוּת"
+		}
+	],
+	"page": {
+		"number": 751,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to die</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 7:3\">Gitt. VII, 3</cite>, a. fr. <he>אם מַתִּי</he> if I should die. ",
+				"<cite ref=\"Bereishit Rabbah 9:5\">Gen. R. s. 9</cite> (play on <cite ref=\"M00005\"><he>מְאֹד</he></cite>, <cite ref=\"Genesis 1:31\">Gen. I, 31</cite>) <he>והנה טזב מוֹת</he> behold, it is good to die.—",
+				"<cite ref=\"Kiddushin 72b:2\">Kidd. 72ᵇ</cite> <he>כשמֵת ר׳ וכ׳</he> when R … died. ",
+				"<cite ref=\"Moed Katan 28a:5\">M. Kat. 28ᵃ</cite> <he>מת פתאום</he> if one dies suddenly. ",
+				"<cite ref=\"Shabbat 55b:2\">Sabb. 55ᵇ</cite> <he>בחטאם מֵתוּ</he> died for their sin. ",
+				"<cite ref=\"Tamid 32a:44\">Tam. 32ᵃ</cite> (in Chald. dict.) <he>מה יעביד אינש ויָמוֹת וכ׳</he> what must man do in order to die? Let him feed himself, v. <cite ref=\"E00230\"><he>הָיָה</he></cite>. ",
+				"<cite ref=\"Shevuot 18a\">Shebu. 18ᵃ</cite>, v. <cite ref=\"F00029\"><he>וָטוּב</he></cite>; a. v. fr.—V. <cite ref=\"M03002\"><he>מֵת</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵמִית"],
+			"senses": [
+				{
+					"gloss": "<i>to put to death; to cause death</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 53a:9\">Snh. 53ᵃ</cite> <he>אם אי אתה יכול לַהֲמִיתוֹ … שאתה מֵמִיתוֹ וכ׳</he> that if you cannot put him to death in the manner legally prescribed, you must execute judgment by whatever means you can. ",
+						"<cite ref=\"Sanhedrin 56b:12\">Ib. 56ᵇ</cite> <he>דברים … מְמִיתִין עליהן</he> acts on which a Jewish court passes a sentence of death. Tam. l. c. (in Chald. dict.) <he>מה יעבד אינש … יָמִית עצמו</he> what must man do in order to live?… Let him starve himself (his appetites). ",
+						"<cite ref=\"Berakhot 63b:14\">Ber. 63ᵇ</cite> <he>אין ד״ת … שממית עצמו עליה</he> the words of the Law remain only with him who kills himself (denies himself all enjoyments) for its sake (with play on <cite ref=\"Numbers 19:14\">Num. XIX, 14</cite>); a. v. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּמָת"],
+			"senses": [
+				{
+					"gloss": "<i>to be put to death</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 37b\">Keth. 37ᵇ</cite> <he>מוּמָתִין בסייף</he> those put to death by the sword. ",
+						"<cite ref=\"Sanhedrin 55b:6\">Snh. 55ᵇ</cite> <he>מומתין על ידה</he> are put to death on her account; a. fr."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

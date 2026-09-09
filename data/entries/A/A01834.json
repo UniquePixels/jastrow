@@ -1,0 +1,39 @@
+{
+	"id": "A01834",
+	"slug": "אלי-2",
+	"headword": {
+		"text": "אלי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲלָא"
+		}
+	],
+	"page": {
+		"number": 68,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <cite ref=\"J00392\"><he>ילל</he></cite>, v. <cite ref=\"A01288\"><he>אִילְיָא</he></cite>) <i>to lament, wail</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 1:17\">Targ. II Sam. I, 17</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַלָּא"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"A01833\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 11:40\">Targ. Jud. XI, 40</cite> <he>לאַלָּאָה</he> (some ed. <he>לאֲלָאָה</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

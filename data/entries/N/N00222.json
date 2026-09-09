@@ -1,0 +1,60 @@
+{
+	"id": "N00222",
+	"slug": "נדי-1",
+	"headword": {
+		"text": "נדי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָדָה"
+		}
+	],
+	"page": {
+		"number": 878,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"N00221\">preced.</cite>) <i>to be restless, flee</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִדָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to banish, excommunicate</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 19a:10\">Ber. 19ᵃ</cite> <he>את מי נִדּוּ</he> whom did they (the scholars) excommunicate? <cite ref=\"Berakhot 19a:7\">Ib.</cite> <he>ב״ד מְנַדִּין על כבוד הרב</he> the court proclaims the ban to protect a teacher’s authority. ",
+						"<cite ref=\"Pesachim 52a:3\">Pes. 52ᵃ</cite> <he>מנדין על שני וכ׳</he> we excommunicate for disregarding the second Holy Day observed in the diaspora; a. v. fr.—[<cite ref=\"Yalkut Shimoni on Nach 287\">Yalk. Is. 287</cite> <he>נדית עלי</he>, v. <cite ref=\"N00234\"><he>נִדְּנֵד</he></cite>.]—Part. pass. <he>מְנוּדֶּה</he>; pl. <he>מְנוּדִּין</he>. ",
+						"<cite ref=\"Moed Katan 15a:21\">M. Kat. 15ᵃ</cite> <he>מנ׳ לשמים</he> one excommunicated by the Lord, i.e. a mourner. ",
+						"<cite ref=\"Moed Katan 15a:21\">Ib.</cite> <he>מנ׳ מהו בד״ת</he> dare an excommunicated person study the Law? <cite ref=\"Moed Katan 15a:23\">Ib.</cite> <he>מנ׳ מהו בקריעה</he> must an excommunicated person rend his garments? <cite ref=\"Mishnah Nedarim 1:1\">Ned. I, 1</cite> <he>מנ׳ אני לך</he> I vow to be excommunicated towards thee, i.e. I vow not to receive any favors at thy hands. ",
+						"<cite ref=\"Moed Katan 17a:1\">M. Kat. 17ᵃ</cite> <he>מנ׳ לרב מנ׳ לתלמיד</he> one excommunicated by a teacher must be treated as such by his disciple (the latter cannot raise the ban). ",
+						"<cite ref=\"Moed Katan 17a:17\">Ib.</cite> <he>מנ׳ לעירו</he> one excommunicated by the authorities of his own city. ",
+						"<cite ref=\"Moed Katan 15b:16\">Ib. 15ᵇ</cite> <he>כל אותן שנים … מנ׳ היו</he> during all the years the Israelites were in the wilderness, they were excommunicated (by the Lord); a. v. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְנַדֶּה"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְנַדֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be excommunicated</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Eduyot 5:6\">Eduy. V, 6</cite> <he>ח״ו שעקביא נ׳</he> God forbid (to say) that ‘A. was excommunicated. ",
+						"<cite ref=\"Mishnah Eduyot 5:6\">Ib.</cite> <he>כל המִתְנַדֶּה ומת וכ׳</he> he who dies while under excommunication has a stone placed on his coffin; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

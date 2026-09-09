@@ -1,0 +1,38 @@
+{
+	"id": "S00493",
+	"slug": "קופאי",
+	"headword": {
+		"text": "קוּפָּאֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּי קוּפָּאֵי"
+		},
+		{
+			"text": "בֵּית קוּפָּאֵי"
+		}
+	],
+	"page": {
+		"number": 1337,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. pr. n. pl. <i>Be-Ḳuppaë</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 31a\">Ber. 31ᵃ</cite>, v. <cite ref=\"K00606\"><he>כֵּיפֵי</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. gent. <i>Beth-Ḳuppaë</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 15b:7\">Yeb. 15ᵇ</cite> <he>משפחת ב׳ ק׳ מבן מקושש</he> the family of Beth-Ḳuppaë (in Jerusalem) of Ben-M’ḳoshesh; Y. ib. I, 3ᵃ bot. <he>משפחת בית נקיפי מבית קושש</he>."
+			],
+			"label": "2"
+		}
+	]
+}

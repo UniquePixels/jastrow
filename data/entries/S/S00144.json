@@ -1,0 +1,27 @@
+{
+	"id": "S00144",
+	"slug": "קדירה-2",
+	"headword": {
+		"text": "קְדִירָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְדִידָה"
+		}
+	],
+	"page": {
+		"number": 1315,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00168\"><he>קָדַר</he></cite>) <i>round segment, hole</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 57b:6\">Ḥull. 57ᵇ</cite> <he>קְדִירַת קנה בכמה</he> (Ar. a. Rashi Ms. <cite ref=\"S00134\"><he>קְדִידַת</he></cite>) how large must a hole in the windpipe be (to make the animal <i>ṭ’refah</i>)?"
+			]
+		}
+	]
+}

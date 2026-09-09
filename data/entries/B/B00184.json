@@ -1,0 +1,44 @@
+{
+	"id": "B00184",
+	"slug": "בהק-1",
+	"headword": {
+		"text": "בָּהַק"
+	},
+	"page": {
+		"number": 143,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. in <cite ref=\"B00186\"><he>בֹּהַק</he></cite>; √<he>בה</he> , v. <cite ref=\"B00170\"><he>בהי</he></cite>) <i>to shine with a pale light, be white, glisten</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 45b\">Bekh. 45ᵇ</cite> <cite ref=\"B00216\"><he>בּוֹהֵק</he></cite> one glistening (with unsteady eyes, <i>albino</i>), diff. fr. <he>לבן</he> white-complected."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִבְהִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to shine, be bright</i>. Y. Pes. I, beg. 27ᵇ top <he>בשעה שהיו מבהיקים</he> when the candles burned brightly. ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>מַבְהִיקוֹת</he>; <cite ref=\"Bereishit Rabbah 31:11\">Gen. R. s. 31</cite> <he>מַבְהֶקֶת</he> (of glistening jewels). ",
+						"<cite ref=\"Bereishit Rabbah 40:5\">Gen. R. s. 40</cite> <he>הבהיקה כל וכ׳</he> the whole land of Egypt was brightened by her (Sarah’s) beauty; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to brighten, make bright</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 100a\">Snh. 100ᵃ</cite>.—Part. Hof. <he>מוּבְהָק</he> <i>distinguished, prominent</i>. ",
+						"<cite ref=\"Kiddushin 33a:13\">Kidd. 33ᵃ</cite> <he>ברבו המ׳</he> when his teacher is a distinguished scholar. ",
+						"<cite ref=\"Gittin 11a:2\">Gitt. 11ᵃ</cite> <he>שמות מוּבְהָקִין</he> names of a distinctly gentile character (which Jews do not assume). [Sifra Thazr. ch. I <he>שאת מובהקת</he>, read with R. S. to <cite ref=\"Mishnah Negaim 1:1\">Neg. I, 1</cite> <he>מוגבהת</he>, v. <cite ref=\"C00049\"><he>גָּבַהּ</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

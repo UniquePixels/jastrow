@@ -1,0 +1,23 @@
+{
+	"id": "K00390",
+	"slug": "כורסאיי",
+	"headword": {
+		"text": "כּוּרְסָאיֵי"
+	},
+	"page": {
+		"number": 626,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (prob.) <i>people of Karsa</i> or <i>Karsana</i> (v. <cite ref=\"K01253\"><he>כַּרְסָנָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:5:13\">Y. M. Kat. III, 82ᶜ</cite>"
+			]
+		}
+	]
+}

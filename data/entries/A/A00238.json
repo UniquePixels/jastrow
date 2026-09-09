@@ -1,0 +1,24 @@
+{
+	"id": "A00238",
+	"slug": "אגבין",
+	"headword": {
+		"text": "אַגְבִּין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 10,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>אוֹגְבִין</he>, h. <cite ref=\"C00098\"><he>גְּבִיעַ</he></cite>, <cite ref=\"C00124\"><he>גִּבְעוֹל</he></cite>) <i>calix</i> or <i>corolla</i> of flowers. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:1:8\">Y. Kil. IX, 32ᵃ</cite> top <he>א׳ קסריי</he> the <i>cissaros blossom</i> (v. Lat. Dict. s. v. <i>cissaros</i>, Gr. Dict. s. v. χρυσάνθεμον) “a woolly substance growing on stones at the Dead Sea, looking like gold, and being very soft; its name is <he>כלך</he> (χάλκη, κάλχη) and it resembles sheep-wool”.—(R. Ash. a. l. in Mishn.). Y. Sabb. II, 4ᶜ top <he>אנב׳ ק׳</he>, corr. acc. [Var. lect. <he>אצבין</he> = <cite ref=\"A02859\"><he>אַצְוָוא</he></cite>?, <cite ref=\"A00287\"><he>אגטין</he></cite>.—",
+				"<cite ref=\"Shabbat 20b\">Sabb. 20ᵇ</cite>, our w. appears as <cite ref=\"C00509\"><he>גושקרא</he></cite>, <he>גשקרא</he>, obviously a corruption of <i>cissaros;</i> Rashi <cite ref=\"Shabbat 20b\">ib.</cite> expl. ‘the shell of the cocoon’, prob. confounding with <i>chrysallis</i> which is likewise named from its gold color.]"
+			]
+		}
+	]
+}

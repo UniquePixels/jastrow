@@ -1,0 +1,26 @@
+{
+	"id": "G00057",
+	"slug": "זגג",
+	"headword": {
+		"text": "זַגָּג"
+	},
+	"page": {
+		"number": 380,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זגג</he> <i>to clear</i>, cmp. <cite ref=\"G00466\"><he>זכך</he></cite> a. <he>דכך</he>, v. Ges. Thes. s. v.) <i>glass-maker; dealer in glass-ware</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 13b\">M. Kat. 13ᵇ</cite>; <cite ref=\"Pesachim 55b:13\">Pes. 55ᵇ</cite> <he>בית הז׳</he> the glass-maker’s work-shop.—",
+				"<cite ref=\"Bereishit Rabbah 19:6\">Gen. R. s. 19</cite> <he>חנותו של ז׳</he> a glass-dealer’s shop. ",
+				"<cite ref=\"Bereishit Rabbah 25\">Gen. R. s. 25</cite>; a. fr.—Pl. <he>זַגָּגִין</he>. ",
+				"<cite ref=\"Mishnah Kelim 24:8\">Kel. XXIV, 8</cite> <he>מטה של ז׳</he> the frame used by the glass-makers to put their ware on. ",
+				"<cite ref=\"Bava Kamma 31a\">B. Kam. 31ᵃ</cite>"
+			]
+		}
+	]
+}

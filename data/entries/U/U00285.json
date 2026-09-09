@@ -1,0 +1,55 @@
+{
+	"id": "U00285",
+	"slug": "שדר-3",
+	"headword": {
+		"text": "שְׁדַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1526,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"U00284\">preced.</cite>; cmp. <he>שזר</he>) <i>to turn around, twist</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁדֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to wrestle</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Genesis 32:26\">Targ. Y. II, Gen. XXXII, 26</cite> <he>בשַׁדָּרוּתֵיה</he> (verbal noun), v. <cite ref=\"U00278\"><he>שְׁדַל</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתַּדַּר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּדַר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00284\">same</cite>, esp. <i>to rebel</i>, v. <cite ref=\"A03369\"><he>אֶשְׁתַּדּוּר</he></cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (trnsf.) <i>to rise, grow stiff</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 48b:1\">Nidd. 48ᵇ</cite> <he>אִשְׁתַּדְּרוּ דדיך</he> Ar. thy breasts grew stiff (Var. in Ar. <he>אשתררו</he>, v. <cite ref=\"U02031\"><he>שְׁרַר</he></cite>; ed. <he>אישתדו</he>, v. <cite ref=\"U00267\"><he>שְׁדֵי</he></cite>), v. <cite ref=\"K01261\"><he>כְּרַף</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

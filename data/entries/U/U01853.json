@@ -1,0 +1,44 @@
+{
+	"id": "U01853",
+	"slug": "שקיא-1",
+	"headword": {
+		"text": "שַׁקְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁ׳"
+		},
+		{
+			"text": "שִׁיקְיָא"
+		}
+	],
+	"page": {
+		"number": 1622,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. <cite ref=\"U01852\">same</cite><i>irrigation; pool</i>; <cite ref=\"U00037\"><he>בֵּית שַׁ׳</he></cite>, <he>גִּינַת שַׁ׳</he> <i>irrigated soil, garden</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 13:10\">Targ. Gen. XIII, 10</cite> (h. text <cite ref=\"M02957\"><he>משקה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Joshua 15:19\">Targ. Josh. XV, 19</cite>; <cite ref=\"Judges 1:15\">Jud. I, 15</cite> (h. text <he>גלת</he>). ",
+				"<cite ref=\"Onkelos Numbers 24:6\">Targ. O. Num. XXIV, 6</cite>; a. e.—",
+				"<cite ref=\"Targum Jonathan on Isaiah 32:20\">Targ. Is. XXXII, 20</cite>, v. infra.—Pl. <cite ref=\"U01861\"><he>שַׁקְיָין</he></cite>, <cite ref=\"U01853\"><he>שַׁקְיָן</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:5\">Targ. Koh. II, 5</cite>.—<i>Masc.</i> pl. <cite ref=\"U01049\"><he>שִׁיקַיָּיא</he></cite> <i>pools, canals</i>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 32:20\">Targ. Is. XXXII, 20</cite> (some ed. <cite ref=\"U01049\"><he>שִׁיקְיָיא</he></cite>; ed. Wil. <cite ref=\"U01853\"><he>שַׁקְיָא</he></cite>; ed. Lag. <he>שקיא</he>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 8:1\">Targ. Y. Ex. VIII, 1</cite> (h. text <he>אגמים</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"U00037\"><he>בֵּית שַׁ׳</he></cite> or <cite ref=\"U00156\"><he>שַׁ׳</he></cite> <i>trough</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 24:20\">Targ. O. Gen. XXIV, 20</cite> (Y. II <he>ש׳</he> only; Y. I <he>בית שַׁקְתֵי</he>). Targ. O. ib. XXX, 38.—Pl. <cite ref=\"U01862\"><he>שַׁקְיָיתָא</he></cite>. Targ. Y. ib.—V. <cite ref=\"U01842\"><he>שָׁקוּתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

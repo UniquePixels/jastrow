@@ -1,0 +1,39 @@
+{
+	"id": "P01076",
+	"slug": "עפר-2",
+	"headword": {
+		"text": "עָפַר"
+	},
+	"page": {
+		"number": 1100,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>עִיפֵּר</he> (b. h.; <i>to cast dust, cover with mud</i>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְעַפֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be soiled</i>. Lam. R. introd. (R. Abbahu 6) <he>והם ישנים … ומִתְעַפְּרִים בעפר</he> they sleep on the bare earth and become soiled with dust; ib. to III, 13.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

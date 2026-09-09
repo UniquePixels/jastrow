@@ -1,0 +1,25 @@
+{
+	"id": "N01205",
+	"slug": "נקיט-1",
+	"headword": {
+		"text": "נָקִיט"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְקִיטָה"
+		}
+	],
+	"page": {
+		"number": 933,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00286\"><he>קוּט</he></cite>) [<i>shrinking</i>,] <i>feeling aversion, disgusted</i>. Pesik. Dibré, p. 111ᵃ <he>ונפשו נ׳ עליו ממנה</he> and he has a disgust for it; Yalk. Lam. 998; <cite ref=\"Yalkut Shimoni on Nach 932\">Yalk. Prov. 932</cite> <cite ref=\"S01581\"><he>קניטה</he></cite> (corr. acc.); v. <cite ref=\"S01581\"><he>קָנִיט</he></cite>.",
+			"units": []
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "T00960",
+	"slug": "רפק-1",
+	"headword": {
+		"text": "רָפַק"
+	},
+	"page": {
+		"number": 1491,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>רבק</he> in <cite ref=\"T00143\"><he>רִבְקָה</he> I</cite>)<i>to join</i>.—Denom. <cite ref=\"M02751\"><he>מַרְפֵּק</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְרַפֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to join one’s self</i>; (with <he>על</he>, cmp. <cite ref=\"H00051\"><he>חָבִיב</he></cite>) <i>to endear one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 45\">Gen. R. s. 45</cite> (they were childless for some time) <he>כדי שיהיו מִתְרַפְּקוֹת … בנויין</he> (Ar. <he>מתפרקדות</he>, corr. acc.) in order that they might endear themselves to their husbands through their beauty; <cite ref=\"Yalkut Shimoni on Nach 986:17\">Yalk. Cant. 986</cite> (some ed. <he>מתפרקות</he>, corr. acc.); <cite ref=\"Shir HaShirim Rabbah 2:14:8\">Cant. R. to II, 14</cite> <he>כדי שלא יהו וכ׳</he> (corr. acc.).—[<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite> <he>מתרפקת</he>, read: <he>מִתְפָּרֶקֶת</he>, v. <cite ref=\"Q01980\"><he>פָּרַק</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "V00756",
+	"slug": "תסבר",
+	"headword": {
+		"text": "תִּסְבָּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּיסְ׳"
+		}
+	],
+	"page": {
+		"number": 1682,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"V00757\">next w.</cite>) <i>store, storehouse.—</i>Pl. <he>תִּסְבָּרִין</he>, <cite ref=\"V00014\"><he>תִּי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:1:16\">Y. Snh. X, 27ᵈ</cite> bot. <he>ת׳ של פרעה נגלו וכ׳</he> (not <cite ref=\"C00926\"><he>נגלה</he></cite>) Pharaoh’s stores from Migdol to the sea were revealed to him (Korah). Tanḥ. ed. Bub. ",
+				"<cite ref=\"Exodus 3\">Mishp. 3</cite> <he>התיסברון</he> (corr. acc.; Tanḥ. ib. 5 <he>אוצרותי</he>)."
+			]
+		}
+	]
+}

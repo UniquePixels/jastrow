@@ -1,0 +1,29 @@
+{
+	"id": "M02338",
+	"slug": "מצנפתא",
+	"headword": {
+		"text": "מִצְנֶפְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַצְנִיפָא"
+		},
+		{
+			"text": "מַצְנֵפָא"
+		}
+	],
+	"page": {
+		"number": 827,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M02337\">same</cite> <cite ref=\"Targum Jonathan on Isaiah 22:18\">Targ. Is. XXII, 18</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:37\">Targ. Ex. XXVIII, 37</cite>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 3:5\">Targ. Zech. III, 5</cite>; a. e.—Pl. <cite ref=\"M02336\"><he>מַצְנִיפָן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 28:4\">Targ. Y. Ex. XXVIII, 4</cite> (ed. Vien. <cite ref=\"M02320\"><he>מְצִינְפָן</he></cite>; O. ed. Berl. <he>מַצִּינְפָן</he>)."
+			]
+		}
+	]
+}

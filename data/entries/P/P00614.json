@@ -1,0 +1,26 @@
+{
+	"id": "P00614",
+	"slug": "עינויא-2",
+	"headword": {
+		"text": "עִינּוּיָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עִנּ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1072,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = <he>עִינּיּי</he> II. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 3:19\">Targ. Lam. III, 19</cite>."
+			]
+		}
+	]
+}

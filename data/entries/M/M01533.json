@@ -1,0 +1,57 @@
+{
+	"id": "M01533",
+	"slug": "מלט-1",
+	"headword": {
+		"text": "מָלַט"
+	},
+	"page": {
+		"number": 789,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to stand forth, project</i> (cmp. <cite ref=\"B00850\"><he>בָּלַט</he></cite>),] <i>to escape</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מִלֵּט"],
+			"senses": [
+				{
+					"gloss": "<i>to rescue</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 41:3\">Midr. Till. to Ps. XLI</cite> <he>ביום רעה אֲמַלֶּטְךָ</he> on the day of evil I shall save thee. ",
+						"<cite ref=\"Taanit 23a:13\">Taan. 23ᵃ</cite> <he>מִילַּטְתּוֹ בתפלתךָ</he> thou hast saved it (the generation) through thy prayer. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 777:1\">Yalk. Ps. 777</cite> <he>מיכל מְמַלֶּטֶת וכ׳</he> Michael helped David to escape from within and Jonathan from without; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִמְלָט"],
+			"senses": [
+				{
+					"gloss": "<i>to be saved, to escape</i>. Esth. R. introd. <he>נח ראש לנִמְלָטִים</he> Noah is the first of those saved (mentioned in the Bible). ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 9:15:8\">Koh. R. to IX, 15</cite> <he>כל השומע ליצר טוב נ׳</he> whosoever listens to the suggestions of his good inclination will be saved; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְמַלֵּט"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M01532\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 854:3\">Yalk. Deut. 854</cite> <he>ואתם מִתְמַלְּטִים וכ׳</he> and you will be saved from the judgment of &c."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

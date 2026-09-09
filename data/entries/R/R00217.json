@@ -1,0 +1,32 @@
+{
+	"id": "R00217",
+	"slug": "צוף-2",
+	"headword": {
+		"text": "צוּף",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1269,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"R00216\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִצְטַיֵּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to look out</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Numbers 21:20\">Targ. Y. II, Num. XXI, 20</cite> <he>דמִצְטַיְּיפָא</he> (Bxt. <he>דמִצְטַפְיָיא</he>; Targ. O. <he>ומסטבייא</he>; h. text <he>ונשקפה</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

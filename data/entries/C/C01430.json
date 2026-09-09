@@ -1,0 +1,24 @@
+{
+	"id": "C01430",
+	"slug": "גת-2",
+	"headword": {
+		"text": "גַּת",
+		"homograph": 2
+	},
+	"page": {
+		"number": 274,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., with suffix <cite ref=\"C01429\"><he>גִּתּ־</he></cite>, <he>גִּיתּ־</he> (contr. of <he>גֶּנֶת</he>) <i>a marked-off space</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ohalot 15:7\">Tosef. Ohol. XV, 7</cite> ‘the court of a burying place’ <he>זו הגת … לתוכה</he> (R. S. to Ohol. XV, 8, ed. Zuck. <he>לתוכו</he>, Var. <cite ref=\"C00848\"><he>גל</he></cite>) is the marked space into which the caverns open.—",
+				"<cite ref=\"Mishnah Parah 4:2\">Par. IV, 2</cite> <he>שרפה חוץ מגִּתָּהּ</he> if he burnt the cow outside of the place selected for the purpose; <cite ref=\"Mishnah Zevachim 14:1\">Zeb. XIV, 1</cite>; <cite ref=\"Tosefta Parah 3:9\">Tosef. Par. III, 9</cite> sq.—Pl. <he>גִּתּוֹת</he>, <cite ref=\"C01432\"><he>גִּיתּ׳</he></cite>. Par. l. c."
+			]
+		}
+	]
+}

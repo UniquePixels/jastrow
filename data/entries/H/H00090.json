@@ -1,0 +1,35 @@
+{
+	"id": "H00090",
+	"slug": "חבלא-2",
+	"headword": {
+		"text": "חַבְלָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲבָלָא"
+		}
+	],
+	"page": {
+		"number": 420,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00089\">preced.</cite>) <i>injury, ruin</i>. [<cite ref=\"Daniel 3:25\">Dan. III, 25</cite> <cite ref=\"H00655\"><he>חֲבַל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Ezra 4:22\">Ezra IV, 22</cite> <cite ref=\"H00090\"><he>חֲבָלָא</he></cite>.]—Constr. <cite ref=\"H00655\"><he>חֲבַל</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 5:21\">Targ. Job V, 21</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 5:22\">Ib. 22</cite> (ed. Wil. <cite ref=\"H00084\"><he>חַבֵּל</he></cite>). ",
+				"<cite ref=\"Targum Jerusalem, Genesis 22:10\">Targ. Y. II, Gen. XXII, 10</cite> <he>גובא דח׳</he> (= h. <he>בְּאֵר שַׁחַת</he>). ",
+				"<cite ref=\"Targum Jonathan on Jonah 2:7\">Targ. Jon. II, 7</cite>; a. e.—",
+				"<cite ref=\"Bava Kamma 89b:4\">B. Kam. 89ᵇ</cite> <he>בחַבְלֵיה</he> for the injury he sustained. ",
+				"<cite ref=\"Bekhorot 8b:20\">Bekh. 8ᵇ</cite> <he>חַבְלֵיה</he> Rashi, v. <cite ref=\"H00066\"><he>חֲבִילָא</he></cite>. ",
+				"<cite ref=\"Sanhedrin 100b\">Snh. 100ᵇ</cite> <he>ליזול לח׳</he> go to ruin."
+			]
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "U01035",
+	"slug": "שיציו-1",
+	"headword": {
+		"text": "שֵׁיצְיוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׁיצָיוּ"
+		},
+		{
+			"text": "שֵׁיצָיוּתָא"
+		},
+		{
+			"text": "שֵׁצָ׳"
+		}
+	],
+	"page": {
+		"number": 1567,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"U01034\">same</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>completion, perfection</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 139:22\">Targ. Ps. CXXXIX, 22</cite> <he>שיציו</he> Ms. (ed. Lag. <he>שֵׁיצִיאוּת</he>; ed. Wil. <he>שֵׁיצִיאֵית</he>, corr. acc.; h. text <cite ref=\"V00546\"><he>תכלית</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>end, consumption</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 13:19\">Targ. II Kings XIII, 19</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

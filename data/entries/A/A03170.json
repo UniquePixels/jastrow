@@ -1,0 +1,23 @@
+{
+	"id": "A03170",
+	"slug": "ארמון-1",
+	"headword": {
+		"text": "אַרְמוֹן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 122,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h., prob. fr. <cite ref=\"A03164\"><he>ארם</he></cite> = <he>חרם</he>)<i>enclosure, palace</i> (poëtic). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 24b:17\">Ab. Zar. 24ᵇ</cite> praised <he>בדביר א׳</he> in the innermost of the Palace (Temple). [<cite ref=\"Shemot Rabbah 5:14\">Ex. R. s. 5</cite> <cite ref=\"A00172\"><he>בית א׳</he></cite>; Pesik. Zakh. p. 27ᵃ, v. <cite ref=\"A03144\"><he>אַרְכִיּוֹן</he></cite>.] Cmp. <cite ref=\"A03164\"><he>ארם</he></cite> Schr. KAT p. 536."
+			]
+		}
+	]
+}

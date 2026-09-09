@@ -1,0 +1,84 @@
+{
+	"id": "B01004",
+	"slug": "בסם-2",
+	"headword": {
+		"text": "בְּסַם"
+	},
+	"page": {
+		"number": 179,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01003\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 15:25\">Targ. Ex. XV, 25</cite>; a. fr.—<i>Part. pass.</i> <cite ref=\"B00989\"><he>בְּסִים</he></cite>, v. <cite ref=\"B00990\"><he>בָּסִים</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּסֵּים"],
+			"senses": [
+				{
+					"gloss": "<i>to sweeten, season;</i> trnsf. <i>to make happy, to delight</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 18:19\">Targ. Y. Num. XVIII, 19</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 119:122\">Targ. Ps. CXIX, 122</cite>; a. e.—",
+						"<cite ref=\"Sukkah 51a\">Succ. 51ᵃ</cite>; <cite ref=\"Arakhin 11a:8\">Arakh. 11ᵃ</cite> <he>לבַסּוּמֵי קלא</he> to sweeten the sound (by means of instrumental accompaniment)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to embalm</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 50:2\">Targ. Y. Gen. L, 2</cite>; <cite ref=\"Targum Jonathan on Genesis 50:26\">26</cite>.—Part. pass. <he>מְבַסַּם</he>. Targ. O. XXX, 25."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְבַּסֵּם"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיתְבְּסַם"],
+			"senses": [
+				{
+					"gloss": ", contr. <he>אִיבְּסִים</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be sweet, well-seasoned, prepared</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 24:20\">Targ. Job XXIV, 20</cite>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 30:25\">Targ. Y. Ex. XXX, 25</cite> <he>מִתְבַּשֵּׂם</he>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be embalmed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 50:3\">Targ. Y. Gen. L, 3</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be cheerful, feel the wine;</i> cmp. <cite ref=\"B00826\"><he>בְּלוּזְמָא</he></cite>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 38a:2\">Snh. 38ᵃ</cite> <he>כיון דאִיבְּסוּם</he> when they were feeling the wine. ",
+						"<cite ref=\"Shabbat 66b\">Sabb. 66ᵇ</cite>. ",
+						"<cite ref=\"Bava Batra 73b\">B. Bath. 73ᵇ</cite> bot.—",
+						"<cite ref=\"Megillah 7b:7\">Meg. 7ᵇ</cite> <he>מיחייב אינש לִבְּסוּמֵי וכ׳</he> (= <he>לאיבסומי</he>, v. Rashi a. l.) one must cheer himself up with wine &c. ",
+						"<cite ref=\"Megillah 7b:8\">Ib.</cite> <he>איבסום</he> they were feeling the wine (v. Rabb. D. S. a. l. note). [<cite ref=\"Aramaic Targum to Song of Songs 2:5\">Targ. Cant. II, 5</cite> <he>אתבסם</he>, v. <cite ref=\"B01008\"><he>בְּסַס</he></cite>.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "A00659",
+	"slug": "אולבנא",
+	"headword": {
+		"text": "אוּלְבָּנָא"
+	},
+	"page": {
+		"number": 25,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <cite ref=\"A00851\"><he>אוּלְבָּנִין</he></cite> (denom. of <cite ref=\"L00056\"><he>לְבוּנְתָּא</he></cite>) <i>unguent made of incense</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 4:11\">Targ. Cant. IV, 11</cite>; (h. text <cite ref=\"L00107\"><he>לבנון</he></cite>, LXX ἀρώματα, as if <cite ref=\"L00110\"><he>לְבֹנִין</he></cite>)."
+			]
+		}
+	]
+}

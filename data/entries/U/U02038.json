@@ -1,0 +1,65 @@
+{
+	"id": "U02038",
+	"slug": "שרש-3",
+	"headword": {
+		"text": "שָׁרַשׁ"
+	},
+	"page": {
+		"number": 1635,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.), <i>Hif.</i> <cite ref=\"U01387\"><he>הִשְׁרִישׁ</he></cite> (denom. of <cite ref=\"U02036\"><he>שֹׁרֶשׁ</he></cite>) <i>to take root</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 2:7\">Shebi. II, 7</cite> <he>שהִשְׁרִישׁוּ לפני וכ׳</he> which have taken root before the New Year; <cite ref=\"Rosh Hashanah 13b\">R. Hash. 13ᵇ</cite>. ",
+				"<cite ref=\"Rosh Hashanah 13b\">Ib.</cite>; <cite ref=\"Tosefta Shevi'it 2:5\">Tosef. Shebi. II, 5</cite> <he>ומקצתו ה׳ לאחר וכ׳</he> and part of which took root after the New Year; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שֵׁרֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to uproot, tear out</i>. Ib. 11, sq. <he>אין … לשָׁרֵשׁ וכ׳</he> we do not force him to tear out &c. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 4:4\">Shebi. IV, 4</cite> <he>יְשָׁרֵשׁ</he> he must take it out with the root, opp. <he>יגום</he>, v. <cite ref=\"C01054\"><he>גָּמַם</he></cite>. ",
+						"<cite ref=\"Bava Batra 80b:10\">B. Bath. 80ᵇ</cite> <he>חופר ומְשָׁרֵשׁ</he> he has the right to dig and take them out with the roots; <cite ref=\"Taanit 25b:2\">Taan. 25ᵇ</cite> <he>חופר … ומְשָׁרֵישׁ</he>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁתָּרֵשׁ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִשְׁתָּרֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be uprooted, plucked out</i>. Tanḥ. M’tsorʿa 2 (ref. to <cite ref=\"Psalms 52:7\">Ps. LII, 7</cite>) <he>דואג נ׳ וכ׳</he> Doeg was rooted out of the life of this world and of the hereafter.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (of roots) <i>to spread</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 14\">Num. R. s. 14<sup>4</sup></cite> (ref. to <cite ref=\"Ecclesiastes 12:11\">Koh. XII, 11</cite>) <he>כשם … מִשְׁתָּרְשִׁים … ומשתרשים וכ׳</he> as roots of a tree spread in all directions, so the words of the Law enter and penetrate the whole body; (<cite ref=\"Pesikta Rabbati 3:1\">Pesik. R. s. 3</cite> <he>משתילים</he>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (v. <cite ref=\"U02039\">next w.</cite>) <i>to gain, profit</i> (cmp. <cite ref=\"T00343\"><he>רָוַח</he></cite>). ",
+					"units": [
+						"<cite ref=\"Bava Kamma 67b\">B. Kam. 67ᵇ</cite> sq. <he>מפני שנ׳ בחטא</he> because he became the gainer in sin (he gained possession of the stolen object by a change of form or ownership, v. <cite ref=\"U00973\"><he>שִׁינּוּי</he></cite>); <he>אילימא לפני יאוש מי איכא נ׳</he> if you mean (that he slaughtered or sold it) before the owner had given it up (v. <cite ref=\"J00009\"><he>יֵאוּשׁ</he></cite>): there is no gain in sin in the case (since he has not gained possession through the change)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

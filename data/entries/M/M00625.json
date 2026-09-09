@@ -1,0 +1,32 @@
+{
+	"id": "M00625",
+	"slug": "מורדקא",
+	"headword": {
+		"text": "מוּרְדְּקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַרְדְּ׳"
+		},
+		{
+			"text": "מַרְטְקָא"
+		}
+	],
+	"page": {
+		"number": 749,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. <i>murdah</i> mortuus, v. Fl. to. Lev. Targ. Dict. I, p. 418<sup>1</sup>; cmp. <cite ref=\"M02790\"><he>מָרְתְּכָא</he></cite>) <i>dead, withered flesh</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 121a:7\">Ḥull. 121ᵃ</cite> (expl. <he>אלל</he>, Mish. ",
+				"<cite ref=\"Mishnah Chullin 9:1\">ib. IX, 1</cite>) R. J. says <cite ref=\"M02558\"><he>מרדקא</he></cite> Ar. s. v. <he>אלל</he> (ed. a. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 906:18\">Yalk. Job 906</cite> <he>מרטקא</he>); R. Lak. says, <he>בשר שפלטתו סכין</he> (v. <cite ref=\"Q00997\"><he>פָּלַט</he></cite>); [<cite ref=\"Aramaic Targum to Job 13:4\">Targ. Job. XIII, 4</cite>, a gloss to <he>אלל</he>, combining both opinions: <he>ומורדקא דפלטיה סכינא</he> ed. Lag. (ed. Wil. <he>מודר׳</he>; Ar. ed. Koh. s. v. <he>אלל</he>: <he>דמ׳</he>]."
+			]
+		}
+	]
+}

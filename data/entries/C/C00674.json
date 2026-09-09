@@ -1,0 +1,40 @@
+{
+	"id": "C00674",
+	"slug": "גיותנא",
+	"headword": {
+		"text": "גֵּיוְתָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גֵּאוְ׳"
+		},
+		{
+			"text": "גֵּוְ׳"
+		},
+		{
+			"text": "גֵּיפְ׳"
+		}
+	],
+	"page": {
+		"number": 236,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"C00673\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 36:12\">Targ. Ps. XXXVI, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 49:25\">Targ. Is. XLIX, 25</cite> (Vers.); a. e.—Pl. <he>גֵּיוְתָנִין</he> &c. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 16:49\">Targ. Ez. XVI, 49</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (in a good sense) <i>exalted</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 22:29\">Targ. Job XXII, 29</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

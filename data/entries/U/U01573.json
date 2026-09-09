@@ -1,0 +1,37 @@
+{
+	"id": "U01573",
+	"slug": "שנו",
+	"headword": {
+		"text": "שְׁנוּ"
+	},
+	"page": {
+		"number": 1604,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01586\"><he>שְׁנֵי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>change, reverse</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 16:34\">Targ. Ez. XVI, 34</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>strangeness, something bewildering</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 5:30\">Targ. Jer. V, 30</cite> (h. text <he>שערורה</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 18:13\">Ib. XVIII, 13</cite> (ed. Wil. <cite ref=\"U01576\"><he>שְׁנוּי</he></cite>; h. text <he>שעררת</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 23:14\">Ib. XXIII, 14</cite> (ed. Wil. <cite ref=\"U01573\"><he>שְׁנוֹ</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Hosea 6:10\">Targ. Hos. VI, 10</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

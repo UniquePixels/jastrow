@@ -1,0 +1,23 @@
+{
+	"id": "N00394",
+	"slug": "נופך-2",
+	"headword": {
+		"text": "נוֹפֶךְ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 889,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"E00740\"><he>הָפַךְ</he></cite>; cmp. <cite ref=\"A02619\"><he>אַפּוּכִי</he></cite>) <i>exchange, consideration</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 99b:4\">B. Kam. 99ᵇ</cite>; <cite ref=\"Kiddushin 48b:5\">Kidd. 48ᵇ</cite> <he>אם הוסיף לה נ׳ משלו</he> if he gave her in addition a consideration (a small coin) out of his own."
+			]
+		}
+	]
+}

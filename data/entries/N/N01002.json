@@ -1,0 +1,47 @@
+{
+	"id": "N01002",
+	"slug": "נעץ-1",
+	"headword": {
+		"text": "נָעַץ"
+	},
+	"page": {
+		"number": 921,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"P00322\"><he>עוץ</he></cite>, <cite ref=\"A00820\"><he>אוץ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to prick, stick; to wedge in</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 64b:6\">Men. 64ᵇ</cite> <he>נ׳ צפרניו וכ׳</he> the swine pressed its nails against the wall; <cite ref=\"Sotah 49b:9\">Sot. 49ᵇ</cite>; <cite ref=\"Jerusalem Talmud Berakhot 4:1:13\">Y. Ber. IV, 7ᵇ</cite>, a. e.—",
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:1:18\">Y. Shek. V, 48ᵈ</cite> bot. <he>כשהיה נוֹעֵץ גודלו וכ׳</he> when he inserted his thumb into his month. ",
+				"<cite ref=\"Shabbat 17a:6\">Sabb. 17ᵃ</cite> <he>נָעֲצוּ חרב וכ׳</he> they stuck a sword into the floor of the college; a. fr.—Part. pass. <he>נָעוּץ</he>. ",
+				"<cite ref=\"Beitzah 7b\">Bets. 7ᵇ</cite>, v. <cite ref=\"D01019\"><he>דֶּקְר</he></cite>. ",
+				"<cite ref=\"Mishnah Eruvin 3:3\">Erub. III, 3</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cut a wedge-like ditch</i> (<cite ref=\"N00985\"><he>נָעִיץ</he></cite>). Y. Sabb. V, 9ᵈ bot.; Y. Kil. VII, 31ᵇ bot., v. <cite ref=\"H01749\"><he>חָרַץ</he></cite>; a. e.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִנְעָץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be fixed, stuck in</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 67a:18\">Sabb. 67ᵃ</cite> bot. (in an incantation, v. <cite ref=\"N00986\"><he>נָעַל</he></cite>) <he>נִנְעַצְתָּה כמחט</he> (not … <he>תא</he>) thou art stuck in like a pin."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

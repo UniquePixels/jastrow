@@ -1,0 +1,23 @@
+{
+	"id": "A00447",
+	"slug": "אדרא-1",
+	"headword": {
+		"text": "אֲדָרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 18,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A00441\"><he>אָדַר</he></cite>, cmp. Ges. H. Dict. s. v.) <i>flag</i> of a ship. ",
+			"units": [
+				"<cite ref=\"Bava Batra 73a:4\">B. Bath. 73ᵃ</cite> (for b. h. <cite ref=\"N00913\"><he>נֵס</he></cite>); Ms. M. <he>אֲדָארָא</he> (v. Rabb. D. S. a. l.)."
+			]
+		}
+	]
+}

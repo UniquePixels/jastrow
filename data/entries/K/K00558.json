@@ -1,0 +1,25 @@
+{
+	"id": "K00558",
+	"slug": "כילתא-2",
+	"headword": {
+		"text": "כִּילְתָא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 633,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"K00523\"><he>כַּיְילָא</he></cite>) <i>measure, vessel</i>.—",
+			"units": [
+				"<cite ref=\"Bava Metzia 40a\">B. Mets. 40ᵃ</cite> Ms. H., v. <cite ref=\"K00523\"><he>כַּיְילָא</he></cite>.—Pl. constr. <cite ref=\"K00536\"><he>כִּילָוַות</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 38:37\">Targ. Job XXXVIII, 37</cite> (Ms. <cite ref=\"B00616\"><he>בִּילָוַות</he></cite>?; h. text <he>נִבְלֵי</he>)."
+			]
+		}
+	]
+}

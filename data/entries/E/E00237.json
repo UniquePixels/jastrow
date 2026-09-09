@@ -1,0 +1,35 @@
+{
+	"id": "E00237",
+	"slug": "הולכה",
+	"headword": {
+		"text": "הוֹלָכָה"
+	},
+	"page": {
+		"number": 339,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>הָלַךְ</he> <i>Hif.</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>leading, carrying</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 27a:8\">Yoma 27ᵃ</cite> <he>הוֹלָכַת איברים וכ׳</he> the carrying of the portions of the sacrifice to the altar ascent. ",
+				"<cite ref=\"Zevachim 14a:19\">Zeb. 14ᵃ</cite> <he>ה׳ שלא ברגל לא שמה ה׳</he> carrying without moving the feet (handing over without walking from the spot) is not called <i>holakhah</i>. ",
+				"<cite ref=\"Zevachim 15a:10\">Ib. 15ᵃ</cite> <he>ה׳ זוטרתי</he> immediate sprinkling from a slaughtering place near the altar, opp. <he>ה׳ רבתי</he> actual carrying.—<he>שליח לה׳</he> a delegate sent by the husband to deliver the letter of divorce, opp. <he>שליח לקבלה</he> a delegate authorized by the wife to receive &c. ",
+				"<cite ref=\"Gittin 62b:14\">Gitt. 62ᵇ</cite>; a. fr.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>drawing the slaughterer’s knife in a forward direction</i>, v. <cite ref=\"E00024\"><he>הֲבָאָה</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

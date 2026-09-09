@@ -1,0 +1,51 @@
+{
+	"id": "N00146",
+	"slug": "נגח-2",
+	"headword": {
+		"text": "נְגַח"
+	},
+	"page": {
+		"number": 873,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00145\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 21:28\">Targ. O. Ex. XXI, 28</cite> (ed. Vien. <he>יַגַּח</he> <i>Af.</i>).—",
+				"<cite ref=\"Bava Kamma 47a:2\">B. Kam. 47ᵃ</cite> <he>כי נַגְחָהּ</he> at the time he gored her; a. e.—נ׳ קרבא <i>to wage war</i>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 21:10\">Targ. Y. Gen. XXI, 10</cite> (v. <cite ref=\"C00690\"><he>גִּיחַ</he></cite>).—Part. pass. <cite ref=\"N00158\"><he>נְגִיחַ</he></cite> <i>breaking through, flowing over</i>. ",
+				"<cite ref=\"Bava Batra 68b\">B. Bath. 68ᵇ</cite> <he>דנ׳ קאיהו לגיו</he> Ms. M. (ed. <he>קאיהי</he>; Rashb. <he>דנגח</he>; Ms. F. a. R. <he>דנגחקייהו</he> in one w., Ar. <he>דנגהק׳</he>, corr. acc.) when their outlet runs inside of the township (v. <cite ref=\"S00008\"><he>קָאיָיא</he></cite>, cmp. <cite ref=\"C00649\"><he>גִּיהָא</he></cite>).—Trnsf. <i>enough</i> (cmp. <cite ref=\"D00444\"><he>דַּי</he></cite>). ",
+				"<cite ref=\"Moed Katan 16b\">M. Kat. 16ᵇ</cite> <he>לא … בתיגריה נְגִיחָא לך</he> ed. Ven. (v. Rashi a. l.) have you not enough (that I escorted you thus far)? attend now to your business yourself; v. <cite ref=\"N00127\"><he>נְגַהּ</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַגַּח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00145\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 44:6\">Targ. Ps. XLIV, 6</cite>; a. e.—",
+						"<cite ref=\"Bava Kamma 21a\">B. Kam. 21ᵃ</cite>; <cite ref=\"Sotah 48a:17\">Sot. 48ᵃ</cite> <he>מְנַגַּח כי תורא</he> he butts like an ox."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַגַּח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00145\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Tosefta Sotah 13:5\">Tosef. Sot. XIII, 5</cite>, a. e. <he>לאַגָּחָא קרבא</he> to wage war. ",
+						"<cite ref=\"Niddah 65b:35\">Nidd. 65ᵇ</cite> <he>דמַגְּחֵי וכ׳</he> Var., v. <cite ref=\"C00690\"><he>גִּיחַ</he></cite> a. <cite ref=\"N00127\"><he>נְגַהּ</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

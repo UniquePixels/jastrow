@@ -1,0 +1,23 @@
+{
+	"id": "U01781",
+	"slug": "שפם-1",
+	"headword": {
+		"text": "שָׂפָם"
+	},
+	"page": {
+		"number": 1618,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"U01711\"><he>שָׂפָה</he></cite>) <i>upper lip</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:7:1\">Cant. R. to I, 7</cite> <he>על שְׂפָמוֹ</he>, v. <cite ref=\"P00437\"><he>עָטָה</he></cite>. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 17\">Pirké d’R. El. ch. XVII</cite>, end <he>היה שפמו מכוסה וכ׳</he> if his upper lip was covered, they knew that he was a mourner; <he>לא היה שפמו וכ׳</he> if his upper lip was not covered, they knew that he was excommunicated; a. e."
+			]
+		}
+	]
+}

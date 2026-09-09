@@ -1,0 +1,22 @@
+{
+	"id": "C00955",
+	"slug": "גליפה",
+	"headword": {
+		"text": "גְּלִיפָה"
+	},
+	"page": {
+		"number": 249,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C00977\"><he>גָּלַף</he></cite>) <i>shaping, formation</i> (of speech, cmp. <he>גזם</he>, <cite ref=\"C00350\"><he>גּוּזְמָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 33:1\">Pesik. R. s. 33</cite> <he>גְּלִיפַת שפתים</he> eloquence (ref. to <cite ref=\"Isaiah 57:19\">Is. LVII, 19</cite>)."
+			]
+		}
+	]
+}

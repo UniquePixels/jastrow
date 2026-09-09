@@ -1,0 +1,39 @@
+{
+	"id": "N00486",
+	"slug": "נחיל-1",
+	"headword": {
+		"text": "נָחִיל"
+	},
+	"page": {
+		"number": 894,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00319\"><he>חוּל</he></cite>, <cite ref=\"H01073\"><he>חָלַל</he></cite>; cmp. <cite ref=\"N00498\"><he>נַחַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>basket</i> for catching fish. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 13:6:2\">Y. Sabb. XIII, end, 14ᵇ</cite> [read:] <he>ולהעלות נ׳ של דגים וכ׳</he> and to bring up a basket of fish with the child; (<cite ref=\"Menachot 64a\">Men. 64ᵃ</cite> <cite ref=\"M02281\"><he>מצודה</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bee-hive</i>, also <i>the bees of a hive, swarm</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 4:2:5\">Y. Sabb. IV, 7ᵃ</cite> top <he>נ׳ של דבורין</he> (Bab. ",
+				"<cite ref=\"Shabbat 43a:14\">ib. 43ᵃ</cite> <he>כוורת</he>); <cite ref=\"Jerusalem Talmud Beitzah 5:1:5\">Y. Bets. V, beg. 62ᵈ</cite>; a. e.—",
+				"<cite ref=\"Mishnah Bava Kamma 10:2\">B. Kam. X, 2</cite> <he>מכאן יצא נ׳ זה</he> this swarm came from here. ",
+				"<cite ref=\"Tosefta Beitsah 3:4\">Tosef. Bets. III, 4</cite>. ",
+				"<cite ref=\"Tosefta Moed Kattan 1:6\">Tosef. M. Kat. I, 6</cite> <he>נחול דבורים שברח וכ׳</he> ed. Zuck. (Var. <he>נחיל</he>) a swarm of bees that flew away may be brought back (during the festive week); a. fr.—Pl. <cite ref=\"N01041\"><he>נְחִילִים</he></cite>, <he>נְחִילִין</he>. ",
+				"<cite ref=\"Mishnah Bava Batra 5:3\">B. Bath. V, 3</cite> <he>פירות כוורת נוטל שלשה נ׳ וכ׳</he> he who buys the issue (bees) of a bee-hive takes three swarms of young bees &c., v. <cite ref=\"O01646\"><he>סָרַס</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "D01100",
+	"slug": "דרכון-2",
+	"headword": {
+		"text": "דַּרְכּוֹן"
+	},
+	"page": {
+		"number": 324,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (late b. h. , hellenized Δαρεικός) <i>Daric</i>, a Persian gold (and silver) coin, v. infra.—*<cite ref=\"Tosefta Bava Batra 11:2\">Tosef. B. Bath. XI, 2</cite> <cite ref=\"D01087\"><he>דָּרִיכוֹן</he></cite> ed. Zuck. (Var. <cite ref=\"D01082\"><he>דריאבון</he></cite>).—Pl. <he>דַּרְכּוֹנוֹת</he>.—",
+			"units": [
+				"<cite ref=\"Mishnah Shekalim 2:1\">Shek. II, 1</cite> (in carrying the half-Shekel contributions to Jerusalem) <he>מצרפין שקלים לד׳</he> (old ed. <he>לדרב׳</he>) you may exchange them for Darics. ",
+				"<cite ref=\"Mishnah Bava Batra 10:2\">B. Bath. X, 2</cite> (<cite ref=\"Bava Batra 165b:17\">165ᵇ</cite>) if in a note is found <he>ד׳ דאינונ וכ׳</he> (Var. <he>דַּרְכְּמוֹנוֹמ</he>) ‘Darics which are’—and the rest is blurred. ",
+				"<cite ref=\"Mishnah Shekalim 2:4\">Shek. II, 4</cite> after the Jews came from Babylonia <he>היו שוקלין ד׳</he> they offered their half-Shekels in (half-)Darics of silver (this being the standard coin); Y. ib. 46ᵈ top <he>ד׳ דינרין</he> <i>Darics</i>, which is <i>denars</i> (of silver, v. <cite ref=\"D00649\"><he>דִּינָר</he></cite>). Tosef. ib. II, 4; Y. ib. III, 47ᶜ bot. <he>דרכונות של זהב</he> (Bab. ed. Var. <he>דַּרְכְּמוֹנֵי זהב</he>; Ms. M. <cite ref=\"D01032\"><he>דַּרְכּוֹנֵי</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "G00469",
+	"slug": "זכר-3",
+	"headword": {
+		"text": "זֵכֶר"
+	},
+	"altHeadwords": [
+		{
+			"text": "זֶכֶר"
+		}
+	],
+	"page": {
+		"number": 400,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00467\"><he>זָכַר</he></cite>)<i>memorial, remembrance, symbol, mnemonical allusion</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sukkah 3:12\">Succ. III, 12</cite> <he>ז׳ למקדש</he> as a reminiscence of the Temple usages; <cite ref=\"Pesachim 115a:8\">Pes. 115ᵃ</cite>. ",
+				"<cite ref=\"Pesachim 116a:4\">Ib. 116ᵃ</cite> <he>ז׳ לתפוח</he> typical of the apple tree (<cite ref=\"Song of Songs 8:5\">Cant. VIII, 5</cite>; v. ",
+				"<cite ref=\"Sotah 11b\">Sot. 11ᵇ</cite>); <he>ז׳ לטיט</he> typical of the clay (which the Israelites had to tread). ",
+				"<cite ref=\"Berakhot 2b:8\">Ber. 2ᵇ</cite>; <cite ref=\"Tosefta Shabbat 7:8\">Tosef. Sabb. VII</cite> (<cite ref=\"Tosefta Shabbat 8:4\">VIII</cite>), 4, a. e. <he>אע״פ שאין … ז׳ לדבר</he> although there is no proof for it (in the Bible), there is a mnemonical allusion to it; a. fr."
+			]
+		}
+	]
+}

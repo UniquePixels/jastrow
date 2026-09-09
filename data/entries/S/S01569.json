@@ -1,0 +1,69 @@
+{
+	"id": "S01569",
+	"slug": "קני-4",
+	"headword": {
+		"text": "קְנֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קְנָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1391,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"S01568\">same</cite> <cite ref=\"Onkelos Genesis 31:18\">Targ. Gen. XXXI, 18</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 47:23\">Targ. Y. ib. XLVII, 23</cite>; a. fr.—",
+				"<cite ref=\"Ketubot 82b:6\">Keth. 82ᵇ</cite> <he>דקְנָאִי ודקָנִינָא</he> which I have acquired (own), and which I may acquire in the future. ",
+				"<cite ref=\"Bava Batra 44b:6\">B. Bath. 44ᵇ</cite> <he>דאִיקְנֵי קנה וכ׳</he> if the document reads ‘that which I may obtain’ (shall be seizable for my debt), and be bought and sold again …, it cannot be seized; <cite ref=\"Bava Batra 157a\">ib. 157ᵃ</cite>. ",
+				"<cite ref=\"Bava Batra 168a:14\">Ib. 168ᵃ</cite> <he>אסמכתא קַנְיָא</he>, v. <cite ref=\"A02466\"><he>אַסְמַכְתָּא</he></cite>. ",
+				"<cite ref=\"Bava Metzia 66b:4\">B. Mets. 66ᵇ</cite> <he>וא״ל קְנִי קְנֵי</he> and he said to him, take possession (of the collateral, I shall not redeem it), he has obtained it. ",
+				"<cite ref=\"Bava Metzia 66b:16\">Ib.</cite> <he>כל דְּאִי לא קָנֵי</he> an obligation with an ‘if’ (conditional forfeiture) gives no title; a. v. fr.—",
+				"<cite ref=\"Chullin 77a\">Ḥull. 77ᵃ</cite> <he>דקני</he>, <cite ref=\"D01012\"><he>דקנא</he></cite>, <he>דקנה</he>, v. <cite ref=\"T00715\"><he>רִירָא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַקְנֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to make one a bondman</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Zechariah 13:5\">Targ. Zech. XIII, 5</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to give possession, sell</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 21:3\">Targ. II Chr. XXI, 3</cite>.—",
+						"<cite ref=\"Bava Batra 44b:4\">B. Bath. 44ᵇ</cite> <he>אי א׳ … אגב וכ׳</he> if he gave him possession of movable chattel by dint of immovables jointly sold (v. <cite ref=\"A00235\"><he>אַגַּב</he></cite>) &c. ",
+						"<cite ref=\"Bava Metzia 72a:10\">B. Mets. 72ᵃ</cite> <he>אַקְנְיֵיה לבנו וכ׳</he> he signed it over to his minor son. ",
+						"<cite ref=\"Kiddushin 7a:5\">Kidd. 7ᵃ</cite> <he>מַקְנְיָא נפשה</he> she may give possession of herself (become his wife); a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיקְּנֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be obtained, acquired</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 77a:1\">B. Bath. 77ᵃ</cite> <he>מִיקְּנִין</he> (Rashb. <he>מִיקְּנוּ</he>), v. <cite ref=\"M01165\"><he>מִילָּא</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

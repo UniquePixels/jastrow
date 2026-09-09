@@ -1,0 +1,23 @@
+{
+	"id": "P00217",
+	"slug": "עוז-3",
+	"headword": {
+		"text": "עוֹז",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1049,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. name of <i>a bird</i>, prob. <i>black eagle</i> (b. h. . ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 17:14\">Kel. XVII, 14</cite>; <cite ref=\"Tosefta Keilim Metsia 7:5\">Tosef. Kel. B. Mets. VII, 5</cite>.—V. <cite ref=\"P00220\"><he>עוּזְיָא</he></cite>."
+			]
+		}
+	]
+}

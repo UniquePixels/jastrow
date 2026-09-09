@@ -1,0 +1,26 @@
+{
+	"id": "M02804",
+	"slug": "משארת",
+	"headword": {
+		"text": "מִשְׁאֶרֶת"
+	},
+	"page": {
+		"number": 848,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U00047\"><he>שָׁאַר</he></cite> <i>to swell, rise</i>; cmp. <cite ref=\"U00016\"><he>שְׂאוֹר</he></cite>) <i>baking trough</i> or <i>dish</i>. Tanḥ. Vaëra 14 (ref. to <cite ref=\"Exodus 7:28\">Ex. VII, 28</cite>) <he>אימתי מ׳ מצויה וכ׳</he> when is the trough near the oven?",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (<he>שָׁאַר</he> <i>to remain</i>) <i>remainder</i>.—Pl. <he>מִשְׁאָרוֹת</he>. Mekh. Bo s. 13 (ref. to <he>משארתם</he>, <cite ref=\"Exodus 12:34\">Ex. XII, 34</cite>; v. Targ.) <he>אלו שיורי מצה ומרור</he> that means the remnants of the unleavened bread and the bitter herbs (of the Passover meal); Tanḥ. Bo 8.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "B00579",
+	"slug": "ביטוי",
+	"headword": {
+		"text": "בִּיטּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּטּוּי"
+		}
+	],
+	"page": {
+		"number": 160,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00504\"><he>בטי</he></cite>) <i>vain, useless talk</i>, ref. to vows and oaths which neither benefit nor injure anybody; <he>שבועת ב׳</he> a useless oath, contrad. to <he>ש׳ שוא</he> a false oath or one asserting something impossible. ",
+			"units": [
+				"<cite ref=\"Mishnah Shevuot 3:9\">Shebu. III, 9</cite> sq. ",
+				"<cite ref=\"Shevuot 49b:9\">Ib. 49ᵇ</cite>; <cite ref=\"Bava Metzia 36a:2\">B. Mets. 36ᵃ</cite> an oath imposed in court <he>אין בה משום שבועת ב׳</he> does not come under the law of vain oaths (as to sacrifices). ",
+				"<cite ref=\"Bava Metzia 36a:2\">Ib.</cite> <he>ב׳ שפתים</he> erroneous statement without legal consequences, oppos. to <he>כפירת ממון</he> whereby somebody lost money. [Y. Naz. I, beg. 51ᵃ <he>שביטוי שבועה</he>, read <he>שכִּינּוּיֵי</he>.]"
+			]
+		}
+	]
+}

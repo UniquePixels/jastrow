@@ -1,0 +1,26 @@
+{
+	"id": "A00431",
+	"slug": "אדנדקי",
+	"headword": {
+		"text": "אֲדַנְדְּקֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 17,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (a Babyl. corrupt. of ἐθνάρχοι, v. <he>אדנקא</he> P. Sm. 40) <i>chiefs of tribes</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 60b:9\">Ḥull. 60ᵇ</cite> <he>א׳ שלהן חמשה</he> Ar. (ed. <cite ref=\"A03040\"><he>ארונקי</he></cite>, Mus. <cite ref=\"A00388\"><he>אדונקי</he></cite>) the six tribes had only five chiefs (v. ",
+				"<cite ref=\"Joshua 12:3\">Josh. XII, 3</cite>). ",
+				"<cite ref=\"Joshua 12:3\">Ib.</cite> <he>כתוב א׳ וכ׳</he> record the word <he>א׳</he> in thy lecture notes (as a foreign word) and explain it."
+			]
+		}
+	]
+}

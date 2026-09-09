@@ -1,0 +1,30 @@
+{
+	"id": "P01034",
+	"slug": "עסבא",
+	"headword": {
+		"text": "עִסְבָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִי׳"
+		}
+	],
+	"page": {
+		"number": 1097,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"P01464\"><he>עֵשֶׂב</he></cite>, <i>herb, plants</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:29\">Targ. Gen. I, 29</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 37:2\">Targ. Ps. XXXVII, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 90:5\">Ib. XC, 5</cite> (some ed. <cite ref=\"P01465\"><he>עִשְׂבָּא</he></cite>); a. e.—Pl. <he>עִסְבִּין</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 1:30\">Targ. Y. Gen. I, 30</cite>; a. e.—V. <cite ref=\"P01465\"><he>עֲשַׂב</he></cite>."
+			]
+		}
+	]
+}

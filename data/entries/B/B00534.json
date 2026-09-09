@@ -1,0 +1,49 @@
+{
+	"id": "B00534",
+	"slug": "בטש",
+	"headword": {
+		"text": "בְּטַשׁ"
+	},
+	"page": {
+		"number": 158,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"B00502\"><he>בְּטַט</he></cite>2) <i>to tread; to kick, knock down</i> (with one’s foot), <i>crush</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 24:10\">Targ. Y. I Ex. XXIV, 10</cite>.—",
+				"<cite ref=\"Shabbat 116b:2\">Sabb. 116ᵇ</cite> <he>אתא חמרא וב׳ לשרגא</he> the ass (offered to the judge as a bribe) came and knocked the (gold) lamp over. ",
+				"<cite ref=\"Bava Kamma 62a:8\">B. Kam. 62ᵃ</cite> <he>דב׳ בכספתא וכ׳</he> who kicked the money box aside so that he threw it into the river."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּטֵּישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to stamp</i>. Targ. II, <cite ref=\"Esther 3:8\">Esth. III, 8</cite>.—",
+					"units": [
+						"<cite ref=\"Bava Kamma 99a\">B. Kam. 99ᵃ</cite> he hired him <he>לבַטּוּשֵׁי</he> (Rashi a. Ms. R.) for stamping; v. <cite ref=\"B00586\"><he>בִּיטְשָׁא</he></cite>.—Transf. <i>to treat with contempt, sneer at</i>. ",
+						"<cite ref=\"Targum Jonathan on Numbers 14:9\">Targ. Y. Num. XIV, 9</cite>.—",
+						"<cite ref=\"Eruvin 54a:1\">Erub. 54ᵃ</cite> top. *<cite ref=\"Shevuot 30b:7\">Shebu. 30ᵇ</cite> <he>בטש ביה ואוקמיה לע״ה</he> (Ms. F. only … <he>אוקמיה</he>) he insulted the ignorant man and made him stand up; v., however, <cite ref=\"B01397\"><he>בְּתַשׁ</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְבַּטֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be stamped in, mixed up</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 24:10\">Targ. Y. I Ex. XXIV, 10</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

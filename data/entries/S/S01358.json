@@ -1,0 +1,32 @@
+{
+	"id": "S01358",
+	"slug": "קלם",
+	"headword": {
+		"text": "קְלַם",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1378,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"S01358\"><he>קַלֵּם</he></cite> (cmp. <he>קרם</he>) <i>to pare off</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:2\">Y. Ab. Zar. II, 40ᵈ</cite> top <he>חמתה מחלחלה וקַלְּמָה</he> he saw that it (the plaster) was poisoned, and he pared it off; [prob. to be read: <he>וקַלְקָהּ</he>, v. <cite ref=\"S01410\"><he>קְלַק</he></cite>]."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

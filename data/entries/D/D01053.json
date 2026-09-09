@@ -1,0 +1,23 @@
+{
+	"id": "D01053",
+	"slug": "דרוכות",
+	"headword": {
+		"text": "דָּרוֹכוֹת"
+	},
+	"page": {
+		"number": 321,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>דרך</he>) <i>grape or olive treaders</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 3:4\">Ter. III, 4</cite>. Y. ib. 42ᵃ bot.; <cite ref=\"Jerusalem Talmud Avodah Zarah 4:9:2\">Y. Ab. Zar. IV, 44ᵇ</cite> top <he>דרוכית</he> (corr. acc.)."
+			]
+		}
+	]
+}

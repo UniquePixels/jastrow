@@ -1,0 +1,44 @@
+{
+	"id": "K00581",
+	"slug": "כיסוי",
+	"headword": {
+		"text": "כִּיסּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּסּ׳"
+		}
+	],
+	"page": {
+		"number": 634,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>כָּסָה</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>act of covering</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 6:1\">Ḥull. VI, 1</cite> <he>כ׳ הדם</he> the law concerning the covering with ashes of the blood of killed animals (<cite ref=\"Leviticus 17:13\">Lev. XVII, 13</cite>). Ib. 4 <he>כ׳ אחד לכולן</he> for all of them one covering up is sufficient.—",
+				"<cite ref=\"Kohelet Rabbah 4:6\">Koh. R. to IV, 6</cite> (ref. to <he>וכסה</he>, <cite ref=\"Leviticus 16:13\">Lev. XVI, 13</cite>) <he>הכ׳ הזה וכ׳</he> what this expression ‘to cover’ meant &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cover, lid, roofing</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4</cite> <cite ref=\"K00876\"><he>כי׳</he></cite> interch. with <he>כסוי</he> (b. h. <cite ref=\"K00904\"><he>כְּסוּי</he></cite> constr.). ",
+				"<cite ref=\"Bereishit Rabbah 1\">Gen. R. s. 1</cite> <he>וכִיסּוּיוֹ</he>, v. <cite ref=\"A01942\"><he>אִלְפֵּס</he></cite>. ",
+				"<cite ref=\"Pesachim 94a:9\">Pes. 94ᵃ</cite> <he>ככ׳ קדירה</he> like the lid of a pot. ",
+				"<cite ref=\"Mishnah Kelim 12:3\">Kel. XII, 3</cite>, v. <cite ref=\"I00573\"><he>טְנִי</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 4:11\">Tosef. Kel. B. Mets. IV, 11</cite> <he>כ׳ קביא</he>, v. <cite ref=\"S00046\"><he>קַבְיָא</he></cite>; a. fr.—[<cite ref=\"Pesikta Rabbati 39:1\">Pesik. R. s. 39</cite> <he>בחדש שהוא כי׳</he>, read: <cite ref=\"K00904\"><he>כָּסוּי</he></cite>, v. <cite ref=\"K00915\"><he>כָּסָה</he> I</cite>.]—Pl. <he>כִּיסּוּיִין</he>, <cite ref=\"K00581\"><he>כִּסּ׳</he></cite>. Tosef. l. c.; a. e.—[<cite ref=\"Jerusalem Talmud Terumot 8:3:21\">Y. Ter. VIII, 45ᵈ</cite> <he>הכיסוין</he>, read: <he>הכְּסוּיִין</he>, v. <cite ref=\"K00917\"><he>כָּסָה</he> II</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

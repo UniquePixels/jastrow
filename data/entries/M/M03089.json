@@ -1,0 +1,38 @@
+{
+	"id": "M03089",
+	"slug": "מתנה-3",
+	"headword": {
+		"text": "מַתָּנָה"
+	},
+	"page": {
+		"number": 863,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"N01384\"><he>נָתַן</he></cite>)<i>gift, present, donation; grant, privilege</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 3:7:15\">Y. Peah III, 17ᵈ</cite> bot. <he>איזו היא מ׳ … מ׳ וכ׳</he> what is a <i>mattanah?</i> All my property be given to—as a gift from now, contrad. to <cite ref=\"D00459\"><he>דִּיאֲתִיקִי</he></cite>. ",
+				"<cite ref=\"Bava Batra 147a:4\">B. Bath. 147ᵃ</cite> <he>מניין למַתְּנַת שכיב וכ׳</he> how can it be proven that the donation of one expecting to die is legal by Biblical law (without formal possession)? <cite ref=\"Kiddushin 6b:13\">Kidd. 6ᵇ</cite>, a. fr. <he>מ׳ ע״מ להחזיר שמה מ׳</he> a present made with the condition that it must be returned, is legally a present (the recipient’s property for the time being); a. v. fr.—Pl. <cite ref=\"M03070\"><he>מַתָּנוֹת</he></cite>. ",
+				"<cite ref=\"Berakhot 5a:20\">Ber. 5ᵃ</cite>; a. fr.—<he>מַתְּנוֹת כהונה</he>, v. <cite ref=\"K00152\"><he>כְּהוּנָּה</he></cite>.—",
+				"<cite ref=\"Tosefta Demai 2:7\">Tosef. Dem. II, 7</cite> <he>מ׳ גבולין</he> the priestly privileges outside of the Temple. ",
+				"<cite ref=\"Tosefta Demai 2:8\">Ib. 8</cite> <he>יש לו במ׳</he> has a right to priestly gifts. ",
+				"<cite ref=\"Tosefta Peah 2:13\">Tosef. Peah II, 13</cite> <he>ארבע מ׳ בכרם</he> there are four gifts for the poor connected with the vineyard; <cite ref=\"Chullin 131a:11\">Ḥull. 131ᵃ</cite> <he>מַתְּנוֹת עניים</he>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (<cite ref=\"Leviticus 8:15\">Lev. VIII, 15</cite>) <i>sprinkling or smearing the blood</i> (on the altar &c.). ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 5:1\">Zeb. V, 1</cite> <he>מ׳ אחת מהן וכ׳</he> one of those applications if omitted makes the sacrifice invalid. ",
+				"<cite ref=\"Mishnah Zevachim 8:10\">Ib. VIII, 10</cite> <he>הנתנין מ׳ אחת וכ׳</he> blood of a sacrifice which requires only one application if mixed with blood &c., v. <cite ref=\"M03082\"><he>מַתָּן</he></cite>; a. v. fr.—Pl. as ab. ",
+				"<cite ref=\"Mishnah Zevachim 5:3\">Ib. V, 3</cite> <he>ארבע מ׳ על וכ׳</he> four applications (with the finger dipped in the blood) at the four corners. ",
+				"<cite ref=\"Mishnah Zevachim 5:4\">Ib. 4</cite> <he>שתי מ׳ שהן ארבע</he> two sprinklings appearing like four, i.e. towards two opposite corners of the altar; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

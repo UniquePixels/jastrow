@@ -1,0 +1,24 @@
+{
+	"id": "M01837",
+	"slug": "מסאתא",
+	"headword": {
+		"text": "מְסָאתָא"
+	},
+	"page": {
+		"number": 803,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00915\"><he>נְסָא</he></cite>; v. P. Sm. 2179; 2391) <i>balance, pair of scales</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 16:11\">Targ. Prov. XVI, 11</cite> ed. Lag. (ed. Wil. <cite ref=\"M01888\"><he>מְסָחָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:1\">Ib. XI, 1</cite> ed. Lag. (Var. <he>מסאכא</he>, corr. acc.; ed. Wil. <cite ref=\"M01888\"><he>מסחא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 20:23\">Ib. XX, 23</cite> (ed. Lag. a. oth. <cite ref=\"M02860\"><he>מִשְׁחֲתָא</he></cite>); v. <cite ref=\"M01894\"><he>מִסְחֲתָא</he></cite>."
+			]
+		}
+	]
+}

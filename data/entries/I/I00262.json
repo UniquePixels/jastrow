@@ -1,0 +1,29 @@
+{
+	"id": "I00262",
+	"slug": "טחוריא",
+	"headword": {
+		"text": "טְחוֹרַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְחוֹרין"
+		}
+	],
+	"page": {
+		"number": 528,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h. <i>k’ri</i> <he>טְחֹרִים</he>; v. <cite ref=\"I00275\"><he>טְחַר</he></cite>) <i>piles, hemorrhoids</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:27\">Targ. Deut. XXVIII, 27</cite>; a. e.—",
+				"<cite ref=\"Aramaic Targum to Psalms 78:66\">Targ. Ps. LXXVIII, 66</cite> (h. text <cite ref=\"A01017\"><he>אחור</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "G00318",
+	"slug": "זיור",
+	"headword": {
+		"text": "זִיוֵּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִוֵּיר"
+		}
+	],
+	"page": {
+		"number": 392,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00233\"><he>זור</he></cite>) <i>one whose eyes are unsteady</i>, v. <cite ref=\"G00233\"><he>זוּר</he></cite> ch.—",
+			"units": [
+				"<cite ref=\"Bekhorot 44a:13\">Bekh. 44ᵃ</cite> Ar. (ed. <cite ref=\"G00700\"><he>זריד</he></cite>, corr. acc.); Tosef. ib. V, 9 <cite ref=\"G00303\"><he>זיוד</he></cite>. <cite ref=\"G00310\"><he>זיויד</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

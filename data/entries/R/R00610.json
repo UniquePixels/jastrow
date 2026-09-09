@@ -1,0 +1,28 @@
+{
+	"id": "R00610",
+	"slug": "צנון",
+	"headword": {
+		"text": "צְנוֹן"
+	},
+	"page": {
+		"number": 1290,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"R00635\"><he>צָנַן</he></cite>) (<i>full grown, round</i>) <i>radish</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 36a:15\">Ber. 36ᵃ</cite>; <cite ref=\"Eruvin 28b:19\">Erub. 28ᵇ</cite>, v. <cite ref=\"Q00158\"><he>פּוּגְלָא</he></cite>. ",
+				"<cite ref=\"Berakhot 57b:17\">Ber. 57ᵇ</cite>. ",
+				"<cite ref=\"Avodah Zarah 11a:6\">Ab. Zar. 11ᵃ</cite> <he>צ׳ מחתך אוכל</he> radishes cut (digest) the food. ",
+				"<cite ref=\"Mishnah Kilayim 1:5\">Kil. I, 5</cite> (differ. fr. <cite ref=\"N01024\"><he>נפוץ</he></cite>). ",
+				"<cite ref=\"Mishnah Makhshirin 4:6\">Makhsh. IV, 6</cite> <he>צ׳ שבמערה</he> radishes that grow in the water of a cavern; a. fr.—Pl. <he>צְנוֹנוֹת</he>. ",
+				"<cite ref=\"Mishnah Shabbat 2:2\">Sabb. II, 2</cite> <he>שמן צ׳</he> radish-oil. ",
+				"<cite ref=\"Tosefta Shabbat 2:3\">Tosef. ib. II, 3</cite> <he>מה יעשו … אלא שמן צ׳ בלבד</he> what shall the Alexandrians do who have only radish oil (for their lamps)? <cite ref=\"Mishnah Kilayim 1:9\">Kil. I, 9</cite>; Y. ib. 27ᵇ; a. e."
+			]
+		}
+	]
+}

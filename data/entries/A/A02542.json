@@ -1,0 +1,27 @@
+{
+	"id": "A02542",
+	"slug": "אסקפא",
+	"headword": {
+		"text": "אִסְקָפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְקָפִי"
+		}
+	],
+	"page": {
+		"number": 97,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (σκάφη, scapha) <i>light boat, skiff</i>. Pl. <he>אִסְקְפָאוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sukkah 3:12\">Tosef. Succ. III, 12</cite> <he>איסיפק׳</he>, ed. Zuck. (ed. <he>אספק׳</he>, corr. acc.)."
+			]
+		}
+	]
+}

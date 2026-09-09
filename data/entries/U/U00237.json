@@ -1,0 +1,24 @@
+{
+	"id": "U00237",
+	"slug": "שגר-5",
+	"headword": {
+		"text": "שֶׁגֶר"
+	},
+	"page": {
+		"number": 1522,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U00234\"><he>שגר</he></cite>) [<i>that which is cast</i>,] <i>birth, foetus, premature birth</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 3a:17\">Bekh. 3ᵃ</cite> (ref. to <cite ref=\"Exodus 13:12\">Ex. XIII, 12</cite>) <he>פטר שגר בהמה ש׳ בהמה</he> Rashi Var. ‘the first cast of an animal’, even the premature first birth of an animal is sacred; (ed. <he>שֶׁגָּר בבהמה</he> that which dwells in an animal).—2) <i>run, flight</i> (of a dove). ",
+				"<cite ref=\"Mishnah Bava Batra 2:5\">B. Bath. II, 5</cite> <he>מלא ש׳ היונה</he> a far as the dove flies (for food)."
+			],
+			"label": "1"
+		}
+	]
+}

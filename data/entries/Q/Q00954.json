@@ -1,0 +1,29 @@
+{
+	"id": "Q00954",
+	"slug": "פלגש",
+	"headword": {
+		"text": "פִּלֶּגֶשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּילֶגֶשׁ"
+		}
+	],
+	"page": {
+		"number": 1177,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"Q00935\"><he>פלג</he></cite> , v. Delitzsch Genesis<sup>4</sup> 360) <i>concubine</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 5:2:3\">Y. Keth. V, 29ᵈ</cite> top <he>אשה יש לה כתובה פ׳ אין וכ׳</he> the wife has a marriage contract securing a settlement for her (<cite ref=\"K01350\"><he>כְּתוּבָּה</he></cite>), the concubine has none; (oth. opin.) <he>אשה יש לה כתובה ותנאי כתובה פ׳ וכ׳</he> the wife has a marriage contract containing besides the settlement all conditions of a marriage contract (alimentation &c.), the concubine has the contract but without the conditions; a. fr.—<he>פ׳ בגבעה</he>, v. <cite ref=\"C00123\"><he>גִּבְעָה</he></cite>.—Pl. <he>פִּלַּגְשִׁים</he>, <cite ref=\"Q01125\"><he>פִּילַ׳</he></cite>. ",
+				"<cite ref=\"Sanhedrin 21a:17\">Snh. 21ᵃ</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite> (ref. to <cite ref=\"Song of Songs 6:8\">Cant. VI, 8</cite>) <he>שמונים … ונקראו פ׳ שהפ׳ חשודות</he> there are eighty families (of nations) that know their mothers but not their fathers, and they are called ‘concubines’, for the concubines are suspected (of faithlessness)."
+			]
+		}
+	]
+}

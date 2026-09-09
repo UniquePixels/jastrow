@@ -1,0 +1,28 @@
+{
+	"id": "H01138",
+	"slug": "חמא-2",
+	"headword": {
+		"text": "חָמָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 475,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḥama</i>, name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Niddah 3:2:9\">Y. Nidd. III, 50ᶜ</cite> bot. R. Ḥ., father of R. Hoshaya.—",
+				"<cite ref=\"Jerusalem Talmud Peah 8:8:7\">Y. Peah VIII, 21ᵇ</cite> top; <cite ref=\"Jerusalem Talmud Shekalim 5:2:5\">Y. Shek. V, 49ᵃ</cite> bot.; a. e. (v. Fr. M’bo, p. 85ᵇ).—Ib. 49ᵇ; <cite ref=\"Jerusalem Talmud Shabbat 6:2:4\">Y. Sabb. VI, 8ᵃ</cite>; <cite ref=\"Bava Metzia 86b:17\">B. Mets. 86ᵇ</cite>, a. fr. R. Ḥ. bar Ḥănina.—",
+				"<cite ref=\"Bava Kamma 99b:8\">B. Kam. 99ᵇ</cite>; <cite ref=\"Jerusalem Talmud Kiddushin 3:12:8\">Y. Kidd. III, 64ᵈ</cite>, a. fr. R. Ḥ. bar Gurya.—",
+				"<cite ref=\"Jerusalem Talmud Eruvin 7:3:2\">Y. Erub. VII, 23ᶜ</cite>; Bab. ",
+				"<cite ref=\"Eruvin 65b\">Erub. 65ᵇ</cite> bot. Ms. M. (ed. <cite ref=\"H01292\"><he>חנינא</he></cite>, v. Rabb. D. S. a. l. note) R. Ḥ. bar Joseph.—",
+				"<cite ref=\"Jerusalem Talmud Kilayim 8:2:4\">Y. Kil. VIII, 31ᶜ</cite> top, a. fr. R. Ḥ. bar Ukba."
+			]
+		}
+	]
+}

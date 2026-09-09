@@ -1,0 +1,29 @@
+{
+	"id": "H01206",
+	"slug": "חמס-3",
+	"headword": {
+		"text": "חֲמַס"
+	},
+	"page": {
+		"number": 478,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01205\">same</cite>.—Denom. <cite ref=\"H00381\"><he>חומָסָא</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְחַמֵּס"],
+			"senses": [
+				{
+					"gloss": "<i>to do violence to one’s self, to restrain one’s self</i>. Targ. II Esth. V, 10, v. <cite ref=\"H01202\"><he>חֲמַם</he></cite>. [<cite ref=\"Targum Jonathan on Genesis 7:21\">Targ. Y. Gen. VII, 21</cite> <he>אתחמסי</he>, read: <cite ref=\"M01911\"><he>אִתְמְסִי</he></cite> or <he>אִתְהַמְסִי</he>, v. <cite ref=\"M01841\"><he>מְסִי</he></cite>.]",
+					"units": []
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

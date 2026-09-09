@@ -1,0 +1,22 @@
+{
+	"id": "Q02170",
+	"slug": "פתין",
+	"headword": {
+		"text": "פָּתִין"
+	},
+	"page": {
+		"number": 1254,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02125\"><he>פָּתָה</he></cite>) <i>the principal</i> or <i>king-beam</i>, common to two adjoining buildings, opp. to <he>ראשים</he> the cross-beams. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 13:2\">Neg. XIII, 2</cite> <he>בית הבנוי ראש ופ׳</he> if a (twin-) house is built with cross-beam and king-beam common to both compartments.—[<cite ref=\"Tosefta Keilim Metsia 7:8\">Tosef. Kel. B. Mets. VII, 8</cite> <cite ref=\"Q02170\"><he>פתין</he></cite> ed. Zuck., v. <cite ref=\"Q02154\"><he>פֶּתִי</he></cite>.]"
+			]
+		}
+	]
+}

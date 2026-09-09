@@ -1,0 +1,26 @@
+{
+	"id": "C00124",
+	"slug": "גבעול",
+	"headword": {
+		"text": "גִּבְעוֹל"
+	},
+	"page": {
+		"number": 208,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>גבע</he>, <cite ref=\"L00000\"><he>ל</he></cite> dimin.; cmp. <cite ref=\"C00098\"><he>גָּבִיעַ</he></cite>)<i>calyx</i> or <i>capsule</i> of plants. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 12:2\">Par. XII, 2</cite> (of hyssop).—Pl. <he>גִּבְעוֹלִין</he>. ",
+				"<cite ref=\"Mishnah Parah 12:2\">Ib. 2</cite>; <cite ref=\"Mishnah Parah 12:5\">5</cite>; <cite ref=\"Yoma 14b:1\">Yoma 14ᵇ</cite>.—",
+				"<cite ref=\"Yoma 75a:11\">Ib. 75ᵃ</cite> <he>זרע פשתן בגבעולין</he> (Ms. M. 2 <he>בגִבְעוֹלָיו</he>) the seed of flax in (its) capsules; v. <cite ref=\"C00154\"><he>גַּד</he> II</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 7:4\">Num. R. s. 7</cite> <he>נעשה ג׳</he> the flax had formed capsules; <cite ref=\"Vayikra Rabbah 18:3\">Lev. R. s. 18</cite> <he>ומצאה ג׳</he> (when no longer good for linen). ",
+				"<cite ref=\"Mishnah Parah 11:7\">Par. XI, 7</cite>, v. <cite ref=\"C01037\"><he>גָּמַל</he></cite>; a. fr."
+			]
+		}
+	]
+}

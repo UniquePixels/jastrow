@@ -1,0 +1,31 @@
+{
+	"id": "K01196",
+	"slug": "כרכוז",
+	"headword": {
+		"text": "כַּרְכּוּז",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "עִיזָּא"
+		},
+		{
+			"text": "כ׳"
+		},
+		{
+			"text": "ד"
+		}
+	],
+	"page": {
+		"number": 669,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", name of a goat-like animal, <i>Carcuz-goat</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 59b:6\">Ḥull. 59ᵇ</cite> ed. <he>עיזא כ׳</he> ed. (Ar. <he>עיוא דכרבין</he> goat of <i>Carbin</i> (a place); Var. <cite ref=\"K01082\"><he>כרביז</he></cite>, <cite ref=\"K01205\"><he>כרכין</he></cite>, v. Ar. Compl. s. v.)."
+			]
+		}
+	]
+}

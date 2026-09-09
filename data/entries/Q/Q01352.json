@@ -1,0 +1,24 @@
+{
+	"id": "Q01352",
+	"slug": "פסק-3",
+	"headword": {
+		"text": "פֶּסֶק"
+	},
+	"page": {
+		"number": 1200,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01351\">preced.</cite>) <i>detached piece, remainder.—</i>Pl. <he>פְּסָקִים</he>, constr. <he>פִּסְקֵי</he>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 6:6\">Kil. VI, 6</cite> <he>פ׳ עריס</he>, v. <cite ref=\"P01365\"><he>עָרִיס</he> I</cite>; <cite ref=\"Tosefta Kilaim 4:8\">Tosef. ib. IV, 8</cite>; Y. ib. VI, end, 30ᶜ; a. e.—2) <i>disjunction</i>, esp. <i>peseḳ</i> (Chald. <i>p’siḳ</i>), a disjunctive sign (|) between two words. ",
+				"<cite ref=\"Shemot Rabbah 2:6\">Ex. R. s. 2</cite> <he>אתה מוצא באברהם אברהם יש בו פ׳</he> you will find in ‘Abraham Abraham’ (<cite ref=\"Genesis 22:11\">Gen. XXII, 11</cite>) there is a <i>peseḳ</i>; in ‘Jacob Jacob’ (ib. XLVI, 2) there is a <i>peseḳ</i>; in ‘Samuel Samuel’ (<cite ref=\"I Samuel 3:10\">I Sam. III, 10</cite>) &c.; <he>משה משה אין בו פ׳</he> but in ‘Moses Moses’ (<cite ref=\"Exodus 3:4\">Ex. III, 4</cite>) there is no <i>peseḳ.—</i> Pl. as ab. <he>פסקי טעמים</he> <i>the division of words into clauses in accordance with the sense, punctuation</i>. ",
+				"<cite ref=\"Megillah 3a:18\">Meg. 3ᵃ</cite> (ref. to <cite ref=\"Nehemiah 8:8\">Neh. VIII, 8</cite>) <he>ויבינו במקרא אלו פ׳ ט׳</he> ‘and they taught how to understand the Scripture’, this refers to the division of clauses &c.; <cite ref=\"Nedarim 37b:4\">Ned. 37ᵇ</cite> <cite ref=\"Q00751\"><he>פִּיסּוּק</he></cite>.—V. <cite ref=\"Q00765\"><he>פִּיסָּק</he></cite>."
+			]
+		}
+	]
+}

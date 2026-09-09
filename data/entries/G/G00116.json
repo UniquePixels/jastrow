@@ -1,0 +1,25 @@
+{
+	"id": "G00116",
+	"slug": "זוב-3",
+	"headword": {
+		"text": "זוֹב",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זָבָא"
+		}
+	],
+	"page": {
+		"number": 383,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"G00115\">same</cite>.",
+			"units": [
+				"<cite ref=\"Shabbat 110b:1\">Sabb. 110ᵇ</cite> (in an incantation) <he>קום מזוֹבִיךְ</he> (Ms. M. a. some ed. <he>מזָבִיךְ</he>) rise (be cured) from thy flux."
+			]
+		}
+	]
+}

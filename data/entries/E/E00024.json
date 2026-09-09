@@ -1,0 +1,36 @@
+{
+	"id": "E00024",
+	"slug": "הבאה",
+	"headword": {
+		"text": "הֲבָאָה"
+	},
+	"page": {
+		"number": 328,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B00199\"><he>בּוֹא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>carrying, bringing</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bikkurim 2:2\">Bicc. II, 2</cite> require <he>הֲבָאַת מקום</he> to be brought to the Temple place (<cite ref=\"Deuteronomy 12:5\">Deut. XII, 5</cite> sq.). ",
+				"<cite ref=\"Chagigah 4b:2\">Ḥag. 4ᵇ</cite> <he>ישנו בה׳</he> is subject to the law of offering festive sacrifices. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:3:7\">Y. Sabb. III, 6ᵃ</cite> <he>הבאת לונטיות</he> carrying home the bathing sheets; Y. Erub. VIII, 25ᵇ top; a. fr.—Pl. <he>הֲבָאוֹת</he>. ",
+				"<cite ref=\"Yoma 47a:4\">Yoma 47ᵃ</cite> (ref. to <cite ref=\"Leviticus 16:12\">Lev. XVI, 12</cite>) <he>הבאה … ולא שתי ה׳</he> the Law speaks of <i>one</i> carrying in but not of offering in two instalments.—2) <i>bringing about, making</i>. ",
+				"<cite ref=\"Mishnah Peah 1:1\">Peah I, 1</cite> <he>הבאת שלום וכ׳</he> making peace between &c.; <cite ref=\"Yevamot 109a\">Yeb. 109ᵃ</cite>; a. e.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>drawing home</i> of the slaughtering knife &c., opp. to <cite ref=\"E00237\"><he>הוֹלָכָה</he></cite> moving forward; (used in commentaries and digests).]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

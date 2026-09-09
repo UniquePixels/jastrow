@@ -1,0 +1,31 @@
+{
+	"id": "A01960",
+	"slug": "אם-1",
+	"headword": {
+		"text": "אִם"
+	},
+	"page": {
+		"number": 74,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A00517\"><he>אוֹ</he></cite> a. <cite ref=\"A01113\"><he>אִי</he></cite>)<i>if, when</i>. Mekh. Yithro, end <he>כל א׳ שבתורה רשות</he> every <i>Im</i> (If) in the Torah refers to voluntary actions (which you may or may not do) except three &c. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 7:3:4\">Y. Gitt. VII, 48ᵈ</cite> <he>בגין דאמר א׳</he> because he said, <i>If</i> (I die), i.e. conditional divorce. ",
+				"<cite ref=\"Sukkah 53a:3\">Succ. 53ᵃ</cite> <he>א׳ אני כאן</he> when I am here; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>whether</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 3:1\">Yoma III, 1</cite>; a. fr.—<he>א׳</he> … <he>א׳</he> <i>whether … or</i>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 6:1:2\">Y. Pes. VI, beg. 33ᵃ</cite> <he>א׳ פסח וכ׳</he> whether or not the Passover ceremonies supersede the Sabbath; a. fr. [<cite ref=\"Jerusalem Talmud Pesachim 6:1:2\">Ib.</cite> <he>אם יש תוחלת</he> read <he>יש וכ׳ אפשר</he>, as before.]—<he>אִם כֵּן</he> (abbrev. <he>א״כ</he>) <i>if this be so</i>. ",
+				"<cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite>; a. fr.—<he>אֶלָּא אִם כֵּן</he> (abbr. <he>אא״כ</he>) <i>only when indeed, not until, unless</i>. ",
+				"<cite ref=\"Ketubot 76a:1\">Keth. 76ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

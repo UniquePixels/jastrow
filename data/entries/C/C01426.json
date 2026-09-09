@@ -1,0 +1,32 @@
+{
+	"id": "C01426",
+	"slug": "גשש-2",
+	"headword": {
+		"text": "גְּשַׁשׁ"
+	},
+	"page": {
+		"number": 274,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>גַּשֵּׁשׁ</he> <cite ref=\"C01425\">same</cite>, <i>to feel, touch</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 27:12\">Targ. Y. Gen. XXVII, 12</cite>; <cite ref=\"Targum Jonathan on Genesis 27:22\">22</cite> (h. text <cite ref=\"M00678\"><he>מוש</he></cite>). ",
+						"<cite ref=\"Gittin 67b:21\">Gitt. 67ᵇ</cite> bot. <he>גַּשְּׁשֵׁיה</he> he (being blind) touched it (and felt the bone)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

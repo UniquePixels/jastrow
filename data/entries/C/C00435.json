@@ -1,0 +1,24 @@
+{
+	"id": "C00435",
+	"slug": "גונדלית",
+	"headword": {
+		"text": "גּוּנְדְּלִית",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 223,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גדל</he> II; <cite ref=\"N00001\"><he>נ</he></cite> inserted, cmp. <cite ref=\"C00436\">next ws.</cite>) <i>spiral form</i>, (sub. <cite ref=\"K01340\"><he>כתב</he></cite>) <i>writing in spiral form</i> (cmp. Greek <i>bustrophedon</i>), esp. signatures of witnesses alternately in Hebrew handwriting (from the right to the left) and in Greek (from the left to the right). ",
+			"units": [
+				"<cite ref=\"Gittin 87b:8\">Gitt. 87ᵇ</cite> (ref. to two documents side by side on the same sheet with two Hebrew and two Greek signatures going through from under one document to the other), <he>דילמא ג׳ חתים וכולהו וכ׳</he> perhaps it was signed <i>gund’lith</i>, and all the signatures belong to one document (to the one on the right in the case of Hebrew commencing the spire, to that on the left, if Greek begins the spire). ",
+				"<cite ref=\"Gittin 87b:8\">Ib.</cite> (ref. to a case when Hebrew and Greek signatures alternate with each other) <he>דילמא ג׳ חתים ותלתא וכ׳</he> perhaps it was signed <i>gund’lith</i>, so that three of the signatures belong to one document, and only one to the other. [For oth. interpret. v. comment. a. Ar. Compl. s. v. <he>גנדל</he>.]"
+			]
+		}
+	]
+}

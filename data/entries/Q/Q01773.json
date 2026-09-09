@@ -1,0 +1,22 @@
+{
+	"id": "Q01773",
+	"slug": "פרטום",
+	"headword": {
+		"text": "פַּרְטוּם"
+	},
+	"page": {
+		"number": 1225,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01763\"><he>פָּרַט</he></cite>) <i>a fraction, a small portion</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 353:12\">Sifré Deut. 353</cite> <he>וכי כמה ארצות … פ׳ זה קטן</he> has Joshua conquered so many lands? Did he not conquer only this small portion (of the earth)?; Yalk. ib. 959 (not <he>פרטוס</he>).—[Tanḥ. Shof’tim 9 <he>פרטומין</he>, v. <cite ref=\"Q01670\"><he>פְּרוֹטוֹמִי</he></cite>.]"
+			]
+		}
+	]
+}

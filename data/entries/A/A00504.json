@@ -1,0 +1,31 @@
+{
+	"id": "A00504",
+	"slug": "אהלא-2",
+	"headword": {
+		"text": "אַהֲלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹהֳלָא"
+		}
+	],
+	"page": {
+		"number": 20,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  = h. <cite ref=\"A00502\"><he>אֳהָל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 9:30\">Targ. Job. IX, 30</cite> (h. text <he>בור</he>). ",
+				"<cite ref=\"Shabbat 90a:4\">Sabb. 90ᵃ</cite>, v. <cite ref=\"A00502\"><he>אֳהָל</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= b. h. <he>אהלים</he>, <cite ref=\"A00506\"><he>אהלות</he></cite>?) <i>aloë</i> (used for medicinal purposes, v. Sm. Ant. s. v. Aloë). Ib. 110ᵇ <he>א׳ תולענא</he>; <cite ref=\"Gittin 69b\">Git. 69ᵇ</cite> <he>א׳ תולאנא</he> purple-colored aloë.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

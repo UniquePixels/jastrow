@@ -1,0 +1,23 @@
+{
+	"id": "A01591",
+	"slug": "איקונומוס",
+	"headword": {
+		"text": "אִיקוֹנוֹמוֹס"
+	},
+	"page": {
+		"number": 60,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (οἰκόνομος) <i>steward, town-clerk</i> (a slave). Y. B. Mets. IX, beg. 12ᵃ. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Batra 4:7:2\">Y. B. Bath. IV, 14ᶜ</cite> bot. <cite ref=\"A01589\"><he>איקומנוס</he></cite> (corr. acc.). ",
+				"<cite ref=\"Bava Batra 68b\">B. Bath. 68ᵇ</cite> <he>אינקלמוס</he>, <he>אנקולמוס</he>, <he>אנקל׳</he>, <cite ref=\"A02297\"><he>אונק׳</he></cite> (popul. corrupt.)."
+			]
+		}
+	]
+}

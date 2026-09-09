@@ -1,0 +1,24 @@
+{
+	"id": "H00438",
+	"slug": "חוצפית",
+	"headword": {
+		"text": "חוּצְפִּית"
+	},
+	"page": {
+		"number": 438,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḥutspith</i>, surnamed the Interpreter, a Tannai, one of the martyrs of the Hadrianic persecution. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 10:6\">Shebi. X, 6</cite>; <cite ref=\"Tosefta Shevi'it 8:10\">Tosef. ib. VIII, 10</cite>. ",
+				"<cite ref=\"Chullin 142a:9\">Ḥull. 142ᵃ</cite>. ",
+				"<cite ref=\"Berakhot 27b:19\">Ber. 27ᵇ</cite>. Y. ib. IV, 7ᵈ top (some ed. <he>חצפית</he>)."
+			]
+		}
+	]
+}

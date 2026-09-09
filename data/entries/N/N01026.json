@@ -1,0 +1,104 @@
+{
+	"id": "N01026",
+	"slug": "נפח-2",
+	"headword": {
+		"text": "נְפַח"
+	},
+	"page": {
+		"number": 922,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01025\">same</cite><i>to blow</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 2:7\">Targ. Gen. II, 7</cite>; a. fr.—Y. Bets. II, end, 62ᵇ (<cite ref=\"L00000\"><he>ל</he></cite>) <he>מִנְפּוֹחַ וכ׳</he> to blow meat up. ",
+				"<cite ref=\"Gittin 69a:13\">Gitt. 69ᵃ</cite> bot. <he>לִינְפַּח ליה חבריה וכ׳</he> let his neighbor blow white cress-seeds (into his throat) through a straw. ",
+				"<cite ref=\"Chullin 46b:3\">Ḥull. 46ᵇ</cite> <he>ונַפְחִינָא לה</he> and we blow the lungs up; a. fr.—<i>Part. pass.</i> <cite ref=\"N01040\"><he>נְפִיחַ</he></cite>; f. <cite ref=\"N01040\"><he>נְפִיחָא</he></cite>; pl. <he>נְפִיחִין</he>; <cite ref=\"N01040\"><he>נְפִיחָן</he></cite> <i>blown, ignited; blown up, swollen</i>. ",
+				"<cite ref=\"Aramaic Targum to Job 20:26\">Targ. Job XX, 26</cite>. ",
+				"<cite ref=\"Onkelos Numbers 5:21\">Targ. O. Num. V, 21</cite>; a. fr.—",
+				"<cite ref=\"Chullin 47b:2\">Ḥull. 47ᵇ</cite> <he>א״ד דנפיחא</he> (not <he>דנפיחה</he>) some explain <he>דמיא לאופתא</he> (v. <cite ref=\"A00818\"><he>אוּפְתָּא</he></cite>) as meaning lungs which look as if distended (white). ",
+				"<cite ref=\"Shabbat 33a:12\">Sabb. 33ᵃ</cite> <he>נְפִיחֵי כפן</he>, v. <cite ref=\"K01035\"><he>כַּפְנָא</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be blown up, to swell</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 5:27\">Targ. O. Num. V, 27</cite>, v. <i>Ithpa.</i> (Y. <he>ותְנָפַח</he>, prob. to be read: <he>ותִתְנְפַח</he>).—",
+				"<cite ref=\"Vayikra Rabbah 33:6\">Lev. R. s. 33</cite>; <cite ref=\"Shir HaShirim Rabbah 2:14\">Cant. R. to II, 14</cite>, v. <cite ref=\"S00372\"><he>קוּלְתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַפַּח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01025\">same</cite>, <i>to blow, cause swelling</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 5:22\">Targ. Y. Num. V, 22</cite> (O. <he>לְאַפָּחָא</he>, <i>Af.</i>; ed. Amst. <he>לַאֲפָחָא</he>); a. e.—Part. pass. <he>מְנַפַּח</he>; f. <he>מְנַפְּחָא</he>; pl. <he>מְנַפְּחִין</he>; <he>מְנַפְּחָן</he>. Targ. Y. ib. 21.—",
+						"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד כות׳</he> 1) <he>כל עמא מְנַפְּחִין לי וכ׳</he> (I dreamt) all the people were blowing at me with their full cheeks. ",
+						"<cite ref=\"Eichah Rabbah 1:1\">Ib.</cite> <he>דאינון מנפחין</he> (it meant) that it (the wheat) was swollen (through rain drippings). ",
+						"<cite ref=\"Sanhedrin 43a:11\">Snh. 43ᵃ</cite>; <cite ref=\"Bava Batra 134b:8\">B. Bath. 134ᵇ</cite> <he>מְנַפֵּח רב ששת וכ׳</he> R. Sh. blew into his hand (intimating that the question raised was scurrilous); a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַפַּח", "אֲפַח"],
+			"senses": [
+				{
+					"gloss": "<i>to blow, swell</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 5:22\">Targ. O. Num. V, 22</cite>, v. supra. ",
+						"<cite ref=\"Aramaic Targum to Psalms 11:6\">Targ. Ps. XI, 6</cite> <he>מַפְּחִין דאשתא</he> (Ms. <he>מפ׳ אש׳</he>) blowers (winds) of fire (h. text <he>פחים אש</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (with <he>נפש</he>) <i>to incite longing, to cause despair</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 31:39\">Targ. Job XXXI, 39</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 2:33\">Targ. I Sam. II, 33</cite> (h. text <he>לאדיב</he>).—V. <cite ref=\"M02203\"><he>מַפַּח</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתַּפַּח"],
+			"senses": [],
+			"stem": "Ittaf."
+		},
+		{
+			"forms": ["אִתְנַפַּח", "אִינַּ׳"],
+			"senses": [
+				{
+					"gloss": "; <i>Ithpe.</i> <cite ref=\"N01026\"><he>אִתְנְפַח</he></cite>, <cite ref=\"N01120\"><he>אִינְּ׳</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be swollen</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 5:27\">Targ. Y. Num. V, 27</cite> (v. supra; O. <he>ויִפְּחוּן</he>, ed. Berl. <he>ויִפְחוּן</he>). ",
+						"<cite ref=\"Aramaic Targum to Job 19:26\">Targ. Job XIX, 26</cite> (ed. Wil. <cite ref=\"N01026\"><he>אִתְּפָח</he></cite>; h. text <he>נקפו</he>). ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 12:5\">Targ. Koh. XII, 5</cite>.—Y. Maas. Sh. IV, end, 55ᶜ <he>אִינַּפְּחָן</he> the wheat shall swell (v. supra)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be blown, ignited</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 26a:2\">Sabb. 26ᵃ</cite> <he>אינפח בה נורא</he> she caught fire."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "U00764",
+	"slug": "שטף-3",
+	"headword": {
+		"text": "שֶׁטֶף"
+	},
+	"page": {
+		"number": 1555,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.;<cite ref=\"U00763\">preced.</cite><i>flood, shower</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 1:1:12\">Y. Shek. I, 46ᵃ</cite>, v. <cite ref=\"U00762\"><he>שָׁטַף</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 73:10\">Gen. R. s. 73</cite> <he>ש׳ של גשמים</he> a flood caused by rains (brought the rams from Laban’s fold to Jacob’s); <cite ref=\"Yalkut Shimoni on Torah 130:9\">Yalk. ib. 130</cite>; a. e.—Trnsf. <i>passion, anger</i>. ",
+				"<cite ref=\"Vayikra Rabbah 24:2\">Lev. R. s. 24</cite>, beg. <he>בזמן שהוא נותן … שיש ש׳ בדינו</he> when he orders execution (punishment), none praise him, for they know that there is passion in his judgment; <cite ref=\"Yalkut Shimoni on Nach 843:14\">Yalk. Ps. 843</cite>; <cite ref=\"Jerusalem Talmud Berakhot 9:5:2\">Y. Ber. IX, 14ᵇ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>washing, rinsing;</i> <he>כלי ש׳</he> a vessel which requires only rinsing in order to be restored to Levitical cleanness. ",
+			"units": [
+				"<cite ref=\"Chullin 25a:8\">Ḥull. 25ᵃ</cite>; <cite ref=\"Zevachim 3b:19\">Zeb. 3ᵇ</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>wool that is gained by washing</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 166:9\">Sifré Deut. 166</cite> (ref. to <cite ref=\"Deuteronomy 18:4\">Deut. XVIII, 4</cite>) <he>ראשית גז ולא ראשית הש׳</he> the first of the wool that is cut, but not the first of the wool that comes out by washing.—4) <he>ש׳ של עזים</he> <i>goat-skin made hairless by washing</i>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:11\">Cant. R. to IV, 11</cite>; <cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite>; <cite ref=\"Yalkut Shimoni on Torah 115:9\">Yalk. ib. 115</cite> <he>אין לך … מהש׳ וכ׳</he> there is no smell more offensive than that of washed goat-skins."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>hair that is fallen out, bald pate</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 1:8\">Koh. R. to I, 8</cite> (in enigmatic speech) <he>שִׁיטְפִי מאלל</he> (not <he>שיטפו</he>) my hair is going."
+			],
+			"label": "5"
+		}
+	]
+}

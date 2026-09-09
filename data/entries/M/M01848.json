@@ -1,0 +1,31 @@
+{
+	"id": "M01848",
+	"slug": "מסגר",
+	"headword": {
+		"text": "מַסְגֵּר"
+	},
+	"page": {
+		"number": 804,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"O00165\"><he>סָגַר</he></cite>)<i>enclosure</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15:8\">Ex. R. s. 15</cite> <he>ונעל המ׳ בפניה</he> he locked the enclosure up before it (the cattle). ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 5:4:3\">Y. B. Kam. V, 4ᵈ</cite> bot.; ib. VI, 5ᵇ bot. (in Chald. diction) <he>דאית לה מ׳</he> (not <he>ליה</he>) when it (the stack of grain) has an enclosure around it."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>locksmith;</i> (allegorically) <i>scholar</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 38a:5\">Snh. 38ᵃ</cite>; <cite ref=\"Gittin 88a:22\">Gitt. 88ᵃ</cite>; v. <cite ref=\"O00165\"><he>סָגַר</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

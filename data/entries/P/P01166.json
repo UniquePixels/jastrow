@@ -1,0 +1,32 @@
+{
+	"id": "P01166",
+	"slug": "עקוש-1",
+	"headword": {
+		"text": "עָקוֹשׁ",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "עָקִישׁ"
+		},
+		{
+			"text": "בֶּן עָקוֹשׁ"
+		}
+	],
+	"page": {
+		"number": 1105,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ben ʿAḳosh</i>, (<i>‘Aḳish</i>). ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 2:9\">Koh. R. to II, 9</cite> (perhaps to be read <he>שאול בן קיש</he>)."
+			]
+		}
+	]
+}

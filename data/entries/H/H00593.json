@@ -1,0 +1,23 @@
+{
+	"id": "H00593",
+	"slug": "חטבה",
+	"headword": {
+		"text": "חֲטָבָה"
+	},
+	"page": {
+		"number": 447,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חָטַב</he> I) <i>cutting, chopping</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 2:2\">Macc. II, 2</cite> <he>חֲטָבַת עצים</he>; <cite ref=\"Sifrei Devarim 182\">Sifré Deut. 182</cite> <cite ref=\"H00623\"><he>חֲטִיבַת</he></cite>. ",
+				"<cite ref=\"Makkot 8a:13\">Macc. 8ᵃ</cite> <he>ממאי דמח׳ עצים דרשות וכ׳</he> how can you prove that we derive the rule from an ordinary cutting of wood, perhaps a cutting of wood for a Succah is meant &c.?"
+			]
+		}
+	]
+}

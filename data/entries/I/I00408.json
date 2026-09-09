@@ -1,0 +1,24 @@
+{
+	"id": "I00408",
+	"slug": "טיף-2",
+	"headword": {
+		"text": "טִיף",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 533,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"I00409\">next w.</cite>) <i>receptacle of overflow, a stand for a portable stove</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kelim Kamma 5:4\">Tosef. Kel. B. Kam. V, 4</cite>."
+			]
+		}
+	]
+}

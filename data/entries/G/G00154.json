@@ -1,0 +1,47 @@
+{
+	"id": "G00154",
+	"slug": "זוח-4",
+	"headword": {
+		"text": "זוּחַ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 385,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"G00153\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 20:3\">Targ. Y. Deut. XX, 3</cite> (O. <cite ref=\"G00217\"><he>זוע</he></cite>; h. text <cite ref=\"J00643\"><he>יֵרַךְ</he></cite>).). ",
+				"<cite ref=\"Aramaic Targum to Job 8:14\">Targ. Job VIII, 14</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (act. verb) <i>to remove, turn away</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 4:19\">Targ. Y. Num. IV, 19</cite> (prob. to be read: <he>וְיָזִיחוּן</he> Af.)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אֲזִיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to tremble</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 50:23\">Targ. Jer. L, 23</cite> (ed. Lag. <he>מזיע</he>, v. <cite ref=\"G00217\"><he>זוּעַ</he></cite>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "U00536",
+	"slug": "שור-4",
+	"headword": {
+		"text": "שׁוּר",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1541,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>שרר</he>)<i>wall, fortification, stronghold</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 98:18\">Gen. R. s. 98</cite> (ref. to <cite ref=\"U00538\"><he>שׁוֹר</he></cite>, <cite ref=\"Genesis 49:6\">Gen. XLIX, 6</cite>; v. Targ. O. a. Y. 1) <he>עקרתון שׁוּרָן של גרים</he> you have uprooted the stronghold (reliance) of proselytes (by dealing faithlessly with the Shechemites); <he>בשביל … עקרתם שורן וכ׳</he> in order to gratify your passion, you have uprooted &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>protected habitation, civilized condition</i> (cmp. <cite ref=\"J00681\"><he>יִשּׁוּב</he></cite>), opp. <he>מדבר</he>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 24:4\">Ex. R. s. 24</cite> (play on <he>מדבר שור</he>, <cite ref=\"Exodus 15:22\">Ex. XV, 22</cite>) <he>עד שלא יצאו … נעשה העולם ש׳</he> before Israel went out of Egypt, the world was a desert (lawless); when they went forth, the world became civilized; <he>עד שלא קיבלו … ש׳</he> before Israel received the Law, the world was a desert; when they received it, the world became &c."
+			],
+			"label": "2"
+		}
+	]
+}

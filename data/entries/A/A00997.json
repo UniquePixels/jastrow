@@ -1,0 +1,32 @@
+{
+	"id": "A00997",
+	"slug": "אחדא",
+	"headword": {
+		"text": "אַחֲדָא"
+	},
+	"page": {
+		"number": 39,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A00996\">foreg.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bolt</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 18:19\">Targ. Prov. XVIII, 19</cite> (read … <he>היך א׳ ד</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>shutting up</i>. <he>אֵחֲדַת רחמי</he> shutting up of the womb, barrenness. Ibid. XXX, 16.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

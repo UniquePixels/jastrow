@@ -1,0 +1,38 @@
+{
+	"id": "P00498",
+	"slug": "עיגול-2",
+	"headword": {
+		"text": "עִיגּוּל",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עִיגּוּלָא"
+		},
+		{
+			"text": "עִגּ׳"
+		}
+	],
+	"page": {
+		"number": 1066,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00497\">same</cite><i>circle</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 8a:3\">Succ. 8ᵃ</cite> <he>ע׳ דנפיק מגו ריבועא</he> a tangent circle within a square; <he>ריבועא דנפיק מגו ע׳</he> a tangent square within a circle; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"P00084\"><he>עֲגוֹל</he></cite>) <i>cake, loaf</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shevuot 6:5:3\">Y. Shebu. VI, 37ᵃ</cite> bot. <he>ואיערכו גו ע׳</he>, v. <cite ref=\"P01376\"><he>עֲרַךְ</he></cite>. Ib. 37ᵇ top <he>קצון חד עיגל וכ׳</he> (corr. acc.) they cut one loaf and found &c.; <cite ref=\"Vayikra Rabbah 6\">Lev. R. s. 6</cite> <cite ref=\"P00083\"><he>עגולה</he></cite> (corr. acc.). Gen. R. S. 49 <he>חד ע׳ דריפתא בעשר פולרין</he> (Ar. ed. Koh. <he>חד ע׳ דפיתא בעיגול פולרי</he>, corr. acc.) one loaf of bread for ten follera. ",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 3:3:20\">Y. Bicc. III, 65ᵈ</cite> <he>ולא הוה ליה ע׳ מיכליה</he> and had not a loaf of bread to eat; a. fr.—Pl. <he>עִיגּוּלִין</he>. Lev. R. l. c. ",
+				"<cite ref=\"Eichah Rabbah 1:22\">Lam. R. to III, 16</cite> <he>תמנין ע׳</he> Ar. (ed. <he>פטילקין</he>); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

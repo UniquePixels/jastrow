@@ -1,0 +1,31 @@
+{
+	"id": "Q00296",
+	"slug": "פוע-1",
+	"headword": {
+		"text": "פּוּעַ"
+	},
+	"page": {
+		"number": 1144,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"Q00174\"><he>פּוּחַ</he></cite>) <i>to blow</i>, v. <cite ref=\"Q01372\"><he>פָּעָה</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵפִיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to make breathe, revive</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 1:13\">Ex. R. s. 1</cite> (ref. to <cite ref=\"Q00298\"><he>פועה</he></cite> <cite ref=\"Exodus 1:15\">Ex. I, 15</cite>) <he>שהיתה מְפִיעָה את התינוק וכ׳</he> she revived the infant (blew air into it), when people said, it is dead.—[<cite ref=\"Devarim Rabbah 1\">Deut. R. s. 1</cite> <he>מפיע את מלכותי</he> some ed., read: <he>מוֹפִיעַ</he>, fr. <cite ref=\"J00511\"><he>יָפַע</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

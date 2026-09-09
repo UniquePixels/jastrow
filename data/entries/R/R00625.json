@@ -1,0 +1,30 @@
+{
+	"id": "R00625",
+	"slug": "צניעות",
+	"headword": {
+		"text": "צְנִיעוּת"
+	},
+	"page": {
+		"number": 1291,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00624\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>secrecy, retirement</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite> (ref. to <cite ref=\"Isaiah 47:2\">Is. XLVII, 2</cite>) <he>פרשי צְנִיעוּתֵךְ וכ׳</he> uncover thy secret, that means the (Babylonian) king that is kept behind seven enclosures. ",
+				"<cite ref=\"Bamidbar Rabbah 1:3\">Num. R. s. 1</cite> <he>יפה היא הצ׳</he> the privacy (in the Tabernacle) is becoming; a. e.— <i>discretion, chastity, decency, piety</i>. ",
+				"<cite ref=\"Megillah 13b:1\">Meg. 13ᵇ</cite> <he>בשכר צ׳ … ברחל וכ׳</he> as a reward for Rachel’s discretion Saul was her descendant. ",
+				"<cite ref=\"Megillah 13b:6\">Ib.</cite> <he>ומה צ׳ היתה וכ׳</he> and wherein consisted Rachel’s discretion? <cite ref=\"Eruvin 100b:29\">Erub. 100ᵇ</cite> <he>אילמלא … צ׳ מחתול</he> if the Law had not been given to us, we might have learned decency from the cat; a. e."
+			],
+			"label": "1"
+		}
+	]
+}

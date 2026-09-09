@@ -1,0 +1,44 @@
+{
+	"id": "K00915",
+	"slug": "כסי-1",
+	"headword": {
+		"text": "כסי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּסָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 653,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>כסח</he>) <i>to make incisions, mark, count</i>. <i>Part. pass.</i> <cite ref=\"K00904\"><he>כָּסוּי</he></cite> <i>marked, distinguished</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 39:1\">Pesik. R. s. 39</cite> (ref. to <cite ref=\"Psalms 81:4\">Ps. LXXXI, 4</cite>, v. <cite ref=\"K00894\"><he>כֶּסֶא</he></cite>) <he>מהו בכסא בחדש שהוא כ׳</he> (not <cite ref=\"K00581\"><he>כיסוי</he></cite>) what is <i>bakkesé?</i> In the month which is marked (v. infra)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִכְסֶה"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִתְכַּסֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be marked, distinguished</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 29:6\">Lev. R. s. 29</cite> (ref. to Ps. l. c.) <he>וכל החדשים אינן נִכְסִין אלא ליום חגנו</he> are all other months (or New Moon Days) not marked?—But (it must be marked by) ‘a festive day’; [read:] <he>חגו בפני עצמו והלא ניסן חדש נִכְסֶה ויש לו חג</he>: (Ar. … <he>חדש ונתכסה</he>) but is not Nisan a marked month with a festival? (Answ.) Its festival is separate from it (not coinciding with the New Moon Day); <he>אלא איזהו חדש נ׳ ויש לו חג וכ׳</he> but what month is there that is marked and has a festival, and that on the same day?; Pesik. Baḥod., p. 153ᵃ"
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

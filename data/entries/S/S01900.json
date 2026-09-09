@@ -1,0 +1,22 @@
+{
+	"id": "S01900",
+	"slug": "קרדא",
+	"headword": {
+		"text": "קַרְדָּא"
+	},
+	"page": {
+		"number": 1412,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01899\">preced.</cite>; cmp. Arab. <i>ḳurd</i>, ricinus) [<i>scraping</i>,] <i>abdominal pain caused by a parasitic worm</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 18\">Lev. R. s. 18</cite>; <cite ref=\"Bamidbar Rabbah 7\">Num. R. s. 7</cite> (ref. to <he>לזרא</he>, <cite ref=\"Numbers 11:20\">Num. XI, 20</cite>) [read:] <he>לק׳ שאהיה נותן דורא במעיהן</he> (some ed. <he>לקדרא</he>) it will cause <i>ḳurda</i>, as I will put a parasite (<i>dura</i>) in their bowels; v. <cite ref=\"D01128\"><he>דְּרַרְיָא</he></cite>."
+			]
+		}
+	]
+}

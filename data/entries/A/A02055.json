@@ -1,0 +1,52 @@
+{
+	"id": "A02055",
+	"slug": "אמץ",
+	"headword": {
+		"text": "אָמַץ"
+	},
+	"page": {
+		"number": 78,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>אם</he>, cmp. <cite ref=\"A02037\"><he>אמם</he></cite>, <cite ref=\"H01212\"><he>חמץ</he></cite>)<i>to press, harden</i>. <he>אוֹמְצֵי הלב</he> hard-hearted. ",
+			"units": [
+				"<cite ref=\"Tosefta Sotah 14:7\">Tosef. Sot. XIV, 7</cite>; v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִמֵּץ", "אִימֵּץ"],
+			"senses": [
+				{
+					"gloss": "<i>to make strong, to strengthen</i>. Y. Taan. III, 66ᵈ all shall be <he>מְאַמְּצִין כחך</he> strengthening thy power (assist thee). ",
+					"units": [
+						"<cite ref=\"Sanhedrin 44b\">Snh. 44ᵇ</cite> <he>מאמץ עצמו וכ׳</he> who concentrates his energies for prayer."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to press, close; to make impervious</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 47b:21\">Sot. 47ᵇ</cite> <he>מאַמְּצֵי הלב</he> those who close their hearts, the hard-hearted; v. supra. [<cite ref=\"Mishnah Shabbat 23:5\">Sabb. XXIII, 5</cite> <he>מאמצין את המת</he> Y. ed. (Mish. <he>מעמ׳</he>, Bab. ib. 151ᵇ <he>מעצמין</he>, Ms. M. <he>מעמ׳</he>) <i>to close</i> the eyes of a deceased person. Tosef. ib. XVII (XVIII), 19 <he>לעַמֵּץ</he> ed. Zuck. (Var. <he>לאַמֵּץ</he>). ",
+						"<cite ref=\"Shabbat 77b:3\">Sabb. 77ᵇ</cite> <he>מעמצין או מאמצין וכ׳</he> is <i>m’amm’tsin</i> (l. c.) spelt with <cite ref=\"P00000\"><he>ע</he></cite> or with <cite ref=\"A00000\"><he>א</he></cite>? Answer by ref. to <he>עוצם</he> <cite ref=\"Isaiah 33:15\">Is. XXXIII, 15</cite>(!).] V. <cite ref=\"A00712\"><he>אוּמְצָא</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְאַמֵּץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be closed</i>. Tosef. l. c. <he>מִתְאַמְּצוֹת מאיליהן</he> they will be closed of themselves.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

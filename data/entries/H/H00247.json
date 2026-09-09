@@ -1,0 +1,29 @@
+{
+	"id": "H00247",
+	"slug": "חובץ-1",
+	"headword": {
+		"text": "חוּבָּץ",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּר׳ ח׳"
+		}
+	],
+	"page": {
+		"number": 429,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Bar-Ḥubbats</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:45\">Y. Peah I, 16ᵃ</cite> v. <cite ref=\"H00248\">next w.</cite> ",
+				"<cite ref=\"Yoma 2a:7\">Ib.</cite> <he>בר חביץ</he> (corr. acc.)."
+			]
+		}
+	]
+}

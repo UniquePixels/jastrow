@@ -1,0 +1,28 @@
+{
+	"id": "U01709",
+	"slug": "שפד-2",
+	"headword": {
+		"text": "שְׁפַד"
+	},
+	"page": {
+		"number": 1613,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01708\">same</cite><i>to point</i>.—Part. pass. <he>שָׁפִיד</he>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 40a:21\">Bekh. 40ᵃ</cite>, v. <cite ref=\"Q01909\"><he>פְּרַס</he> I</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"U01715\"><he>שפודא</he></cite>) <i>to put on the spit, roast</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 111a\">Ḥull. 111ᵃ</cite> sq. <he>חזייה … דקא שָׁפֵיד וכ׳</he> he saw the son of R. b. A. put a liver on the spit over a piece of meat. ",
+				"<cite ref=\"Pesachim 74b:9\">Pes. 74ᵇ</cite> <he>שַׁפְדֵּיה בשפודא</he> (or <he>שַׁפְּדֵיה</he> <i>Pa.</i>) if he put it on the spit (and roasted it)."
+			],
+			"label": "2"
+		}
+	]
+}

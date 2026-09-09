@@ -1,0 +1,26 @@
+{
+	"id": "P00237",
+	"slug": "עוית-2",
+	"headword": {
+		"text": "עַוִּית",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1049,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00206\"><he>עָוָה</he></cite>) <i>convulsion</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 60b:10\">Ḥull. 60ᵇ</cite> (play on <cite ref=\"P00808\"><he>עַוִּים</he></cite>, v. <cite ref=\"P00206\"><he>עָוָה</he></cite>) <he>שכל הרואה אותם אוחזתו ע׳</he> whoever saw them was seized with convulsions (from fright); <cite ref=\"Yalkut Shimoni on Torah 809:2\">Yalk. Deut. 809</cite>; <cite ref=\"Yalkut Shimoni on Nach 22:8\">Yalk. Josh. 22</cite>. ",
+				"<cite ref=\"Gittin 70a:16\">Gitt. 70ᵃ</cite>. ",
+				"<cite ref=\"Tosefta Shabbat 7:21\">Tosef. Sabb. VII</cite> (<cite ref=\"Tosefta Shabbat 8:21\">VIII</cite>), 21, v. <cite ref=\"Q00797\"><he>פִּיקָה</he> II</cite>. ",
+				"<cite ref=\"Kohelet Rabbah 1:18:1\">Koh. R. to I, 18</cite> <he>ראית מימיך חמור ע׳ עליו וכ׳</he> hast thou ever seen an ass in spasms, a camel in spasms?; v. <cite ref=\"A00021\"><he>אַבְאָבִית</he></cite>."
+			]
+		}
+	]
+}

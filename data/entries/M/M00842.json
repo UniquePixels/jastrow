@@ -1,0 +1,29 @@
+{
+	"id": "M00842",
+	"slug": "מחזי",
+	"headword": {
+		"text": "מִחְזֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִיחְ׳"
+		}
+	],
+	"page": {
+		"number": 758,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (used as sing.; <cite ref=\"H00526\"><he>חֲזִי</he></cite>) <i>appearance</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 13:3\">Targ. O. Lev. XIII, 3</cite>; a. e. (some ed. <he>מֶ׳</he>).—With suffix <he>מִחְזוֹהִי</he>, <cite ref=\"M00839\"><he>מִחְזָהָא</he></cite>. ",
+				"<cite ref=\"Onkelos Leviticus 13:4\">Ib. 4</cite>; <cite ref=\"Onkelos Leviticus 13:20\">ib. 20</cite> (some ed. <cite ref=\"M00373\"><he>מַחֲ׳</he></cite>); a. fr."
+			]
+		}
+	]
+}

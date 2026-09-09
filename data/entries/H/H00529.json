@@ -1,0 +1,25 @@
+{
+	"id": "H00529",
+	"slug": "חזיא-3",
+	"headword": {
+		"text": "חֶזְיָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֶזְיַן"
+		}
+	],
+	"page": {
+		"number": 443,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"H00528\">preced.</cite>) <i>mirror</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 38:8\">Targ. Y. II, Ex. XXXVIII, 8</cite> (ed. Amst. <he>חֶזְיַית</he> constr.)."
+			]
+		}
+	]
+}

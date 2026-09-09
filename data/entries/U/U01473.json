@@ -1,0 +1,29 @@
+{
+	"id": "U01473",
+	"slug": "שמיני",
+	"headword": {
+		"text": "שְׁמִינִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁמִינִית"
+		}
+	],
+	"page": {
+		"number": 1595,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U01504\"><he>שְׁמֹנֶה</he></cite>)<i>eighth; one eighth</i>. Sifra Sh’mini, Milluim, beg. <he>ש׳ למנין</he> the eighth day in the order of counting (from the initiation of the priests); <he>ש׳ לחדש</he> the eighth day of the month. Y. Sabb. VIII, 11ᵃ bot.; <cite ref=\"Jerusalem Talmud Pesachim 10:1:14\">Y. Pes. X, 37ᶜ</cite> bot. <he>חצי שמינית</he> half an eighth (of a Log); a. v. fr.—Esp. <cite ref=\"U01473\"><he>שמיני</he></cite>, or <he>ש׳ של חג</he> <i>the eighth day of the Succoth festival</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 47a:4\">Succ. 47ᵃ</cite> <he>אומרים זמן בש׳ של חג</he> we recite the benediction for the entrance of a festival (<cite ref=\"G00537\"><he>זְמָן</he></cite>) on the eighth day &c. ",
+				"<cite ref=\"Sukkah 47a:4\">Ib.</cite>, a. fr. <he>ש׳ רגל וכ׳</he> the eighth day is a festival for itself; a. fr.—<i>Pl. fem</i>. <he>שְׁמִינִיּוֹת</he>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 1048:7\">Yalk. Esth. 1048</cite> <he>ארבעים ש׳</he> (not <cite ref=\"U01524\"><he>שמציות</he></cite>) forty eighths (of a Kab), v. <cite ref=\"V00229\"><he>תּוֹמָן</he></cite>."
+			]
+		}
+	]
+}

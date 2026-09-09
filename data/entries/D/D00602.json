@@ -1,0 +1,28 @@
+{
+	"id": "D00602",
+	"slug": "דילטור",
+	"headword": {
+		"text": "דִּילָטוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּלָטוֹר"
+		}
+	],
+	"page": {
+		"number": 299,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (delator) <i>informer, sycophant</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 43b:6\">Snh. 43ᵇ</cite>; a. e.—Pl. <he>דִּילָטוֹרִין</he>, <cite ref=\"D00603\"><he>דִּלָ׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:46\">Y. Peah I, 16ᵃ</cite>; <cite ref=\"Vayikra Rabbah 26:2\">Lev. R. s. 26</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "B01268",
+	"slug": "בריכה-2",
+	"headword": {
+		"text": "בְּרֵיכָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּרֵכָה"
+		}
+	],
+	"page": {
+		"number": 194,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>ברך</he>)<i>pond, lake</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 6:11\">Mikv. VI, 11</cite> <he>אחד משלש … לב׳</he> one three hundred and twentieth part of the bathing pond. ",
+				"<cite ref=\"Bereishit Rabbah 39:12\">Gen. R. s. 39</cite> (ref. to <cite ref=\"B01292\"><he>בְּרָכָה</he></cite> <cite ref=\"Genesis 12:12\">Gen. XII, 12</cite>) <he>קרי ביה ב׳ וכ׳</he> read <i>b’rekhah</i>, a pond, as the pond cleanses the unclean (by immersion) &c.; <cite ref=\"Bamidbar Rabbah 11:8\">Num. R. s. 11</cite>; a. fr.—Pl. <he>בְּרֵיכוֹת</he>, <he>בְּרֵכ׳</he>. ",
+				"<cite ref=\"Mishnah Makhshirin 2:3\">Makhsh. II, 3</cite>.—Cmp. <cite ref=\"N00108\"><he>נִבְרֶכֶת</he></cite>."
+			]
+		}
+	]
+}

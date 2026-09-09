@@ -1,0 +1,36 @@
+{
+	"id": "K01287",
+	"slug": "כרתי-3",
+	"headword": {
+		"text": "כָּרָתֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּרָתַיָּא"
+		},
+		{
+			"text": "כָּרָתִין"
+		}
+	],
+	"page": {
+		"number": 675,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. ch. = h.<he>כָּרֵישִׁין</he> (v. <cite ref=\"K01177\"><he>כָּרֵישָׁה</he></cite>) <i>leek</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 11:5\">Targ. Num. XI, 5</cite> ed. Berl. <he>כָּ׳</he> (oth. ed. <he>כְּ׳</he>; Yarg. Y. II <cite ref=\"K01287\"><he>כְּרָתַיָּא</he></cite>, some ed. <cite ref=\"K01287\"><he>כְּרַתְיָא</he></cite>; h. text <cite ref=\"H01529\"><he>חָצִיר</he></cite>).—",
+				"<cite ref=\"Avodah Zarah 10b:2\">Ab. Zar. 10ᵇ</cite> <he>שדר ליה כ׳</he> he (the emperor) sent him leek (symbolically alluding to <he>כרת</he>, ‘my progeny will be cut off’, Rashi). ",
+				"<cite ref=\"Keritot 6a:4\">Ker. 6ᵃ</cite>; <cite ref=\"Horayot 12a:12\">Hor. 12ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 4:6:5\">Y. Kil. IV, end, 29ᶜ</cite> <he>זרע כרמיה כרתין</he> planted leek in his vineyard. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:23\">Y. Sabb. VII, 10ᵃ</cite> <he>ההן דגזז … כ׳ וכ׳</he> he who cuts (on the Sabbath) coriander …, leek &c. Bab. ",
+				"<cite ref=\"Shabbat 110b:4\">Sabb. 110ᵇ</cite>, v. <cite ref=\"B01381\"><he>בַּתְוָוא</he></cite> a. <cite ref=\"K01338\"><he>כָּתָא</he></cite>; a. fr."
+			]
+		}
+	]
+}

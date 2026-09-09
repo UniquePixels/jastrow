@@ -1,0 +1,59 @@
+{
+	"id": "N00145",
+	"slug": "נגח-1",
+	"headword": {
+		"text": "נָגַח"
+	},
+	"page": {
+		"number": 873,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to break forth</i> (v. <cite ref=\"C00690\"><he>גִּיחַ</he></cite>); <i>to gore, butt, fight</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 5:1\">B. Kam. V, 1</cite> <he>שור שנ׳ וכ׳</he> if an ox gored a cow, and her embryo is found (dead) by her side. ",
+				"<cite ref=\"Mishnah Bava Kamma 5:1\">Ib.</cite> <he>אם עד שלא נְגָחָהּ וכ׳</he> whether she gave birth before he gored her. Tosef. ib. IV, 6 <he>עד שיתכוין לִיגַּח</he> unless he pushes intentionally. Ib. 10 <he>יש בנוֹגֵחַ וכ׳</he> there are laws concerning the butter (that killed a person) which do not apply &c.; a. v. fr.—[<cite ref=\"Bereishit Rabbah 32\">Gen. R. s. 32</cite>, end <he>נוגח דם</he> some ed., read: <he>גּוֹנֵחַ</he>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִגֵּחַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00144\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Chullin 51a:10\">Ḥull. 51ᵃ</cite> <he>זכרים המְנַגְּחִין וכ׳</he> rams that butt one another. ",
+						"<cite ref=\"Shemot Rabbah 41\">Ex. R. s. 41</cite>, end <he>אתמול מְנַגֵּחַ בהם וכ׳</he> yesterday he (Moses) pushed them (the angels of destruction) away, and now he is afraid of them. Tanḥ. Balak 3; <cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20</cite>, beg. <he>מה שור מנ׳ … מְנַגְּחִים וכ׳</he> as the ox fights with his horns, so do the Israelites fight (their enemies) with their prayers. ",
+						"<cite ref=\"Berakhot 56b:16\">Ber. 56ᵇ</cite> <he>נְגָחוֹ … שמְנַגְּחִין בתורה</he> if (in his dream) an ox attacked him, he will have children who fight in (discussing) the Law; a. fr.—Part. pass. <he>מְנוּגָּח</he>. ",
+						"<cite ref=\"Tosefta Bava Kamma 3:6\">Tosef. B. Kam. III, 6</cite> <he>אפי׳ זה מנ׳</he> even if the one is found gored."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִגִּיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to stir up to fighting</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Kamma 4:4\">B. Kam. IV, 4</cite> <he>כי יִגַּח שלא שיַגִּיחוּהוּ</he> ‘if he butt’ (<cite ref=\"Exodus 21:28\">Ex. XXI, 28</cite>), but not when they stir him up (in the arena)."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְנַגֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to fight with one another</i>. Tanḥ. Vayigg. 4 <he>שור וארי מִתְנַגְּחִין וכ׳</he> ox and lion fighting with each other; a. e.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

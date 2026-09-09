@@ -1,0 +1,23 @@
+{
+	"id": "H00570",
+	"slug": "חזרנותא",
+	"headword": {
+		"text": "חַזְרָנוּתָא"
+	},
+	"page": {
+		"number": 447,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"H00289\"><he>חוֹזְרָנוּתָא</he></cite>) <i>surrounding</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 44:14\">Targ. Ps. XLIV, 14</cite> (ed. Lag. <he>חזרני׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 41:6\">Targ. Job XLI, 6</cite> (constr.); a. e."
+			]
+		}
+	]
+}

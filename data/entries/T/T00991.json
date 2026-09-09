@@ -1,0 +1,61 @@
+{
+	"id": "T00991",
+	"slug": "רצע-1",
+	"headword": {
+		"text": "רָצַע"
+	},
+	"page": {
+		"number": 1494,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"T00990\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to press, flatten</i>; denom. <cite ref=\"T00977\"><he>רְצוּעָה</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to bore</i> with the awl, esp. <i>to perforate</i> the ear of a Hebrew bondsman (according to <cite ref=\"Exodus 21:6\">Ex. XXI, 6</cite>). ",
+			"units": [
+				"<cite ref=\"Kiddushin 21b\">Kidd. 21ᵇ</cite>; <cite ref=\"Sifrei Devarim 122:2\">Sifré Deut. 122</cite> <he>אין רוֹצְעִים וכ׳</he>, v. <cite ref=\"M01196\"><he>מֵילַת</he></cite>; <cite ref=\"Bekhorot 37b:12\">Bekh. 37ᵇ</cite> <he>רוֹצְעִין</he>; a. fr.—Part. pass. <he>רָצוּעַ</he>; f. <cite ref=\"T00977\"><he>רְצוּעָה</he></cite>; pl. <he>רְצוּעִים</he>; <he>רְצוּעוֹת</he>. ",
+				"<cite ref=\"Tosefta Bekhorot 5:3\">Tosef. Bekh. V, 3</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"T00977\"><he>רְצוּעָה</he></cite>) <i>to lash</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 70a:10\">Kidd. 70ᵃ</cite> <he>אליהו כופתו והקב״ה רוֹצְעוֹ</he> Elijah shall bind and the Lord lash him."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִרְצַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be perforated</i>; (of the Hebrew bondsman) <i>to have the ear bored through</i>. Ib. 21ᵇ <he>אין … כהן נ׳ וכ׳</he> a bondsman priest must not have his ear bored through, because it would unfit him for priestly service. Ib. I, 2 <he>הנִרְצָע וכ׳</he>, v. <cite ref=\"T00987\"><he>רְצִיעָה</he></cite>. Ib. 14ᵇ <he>המוכר עצמו אינו נ׳</he> he that sells himself need not undergo the operation of boring (in order to prolong his service); a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["רִיצֵּעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to lash</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Sotah 15:7\">Tosef. Sot. XV, 7</cite> <he>מסרוהו לרוצען ורִיצְּעוֹ</he> (ed. Zuck. incorr.) they handed him over to the strap-bearer, and he attempted to lash him; (Y. ib. IX, 24ᵇ top <he>לבעל הרצועה וסטרו</he>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

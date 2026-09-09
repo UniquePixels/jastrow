@@ -1,0 +1,23 @@
+{
+	"id": "J00336",
+	"slug": "יינובריס",
+	"headword": {
+		"text": "יָינוּבְרִיס"
+	},
+	"page": {
+		"number": 576,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Januarius</i>, name of a legendary Roman general who sacrificed his life to save his country. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:2:4\">Y. Ab. Zar. I, 39ᶜ</cite> <he>הוה תמן … שמיה י׳ וכ׳</he> there was there (in Rome) an old man whose name was J., and who had twelve sons. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:2:4\">Ib.</cite> <he>בגין כן … קלנדס י׳</he> therefore they name it (that day) calendae Januariae. Cmp. <cite ref=\"J00405\"><he>יַמְבְּרִיס</he></cite>."
+			]
+		}
+	]
+}

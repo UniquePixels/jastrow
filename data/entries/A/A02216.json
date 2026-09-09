@@ -1,0 +1,40 @@
+{
+	"id": "A02216",
+	"slug": "אני-1",
+	"headword": {
+		"text": "אני"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָנָה"
+		}
+	],
+	"page": {
+		"number": 84,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= b. h. <he>ינה</he>, sec. r. of <he>און</he>, cmp. <cite ref=\"A02252\"><he>אָנַן</he></cite> a. b. h. <cite ref=\"P00970\"><he>ענה</he></cite>); <i>Pi.</i> (<he>אִנָּה</he>) <he>אִינָּה</he> <i>to press, wrong, oppress; to impose, overreach in dealing</i>, v. <cite ref=\"A00722\"><he>אוֹנָאָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 59b:12\">B. Mets. 59ᵇ</cite> <he>המְאַנֶּה את הגר</he> he who wounds a stranger’s (proselyte’s) feeling. ",
+				"<cite ref=\"Bava Metzia 49b:14\">Ib. 49ᵇ</cite> <he>תן לי מה שאִינִּיתָנִי</he> return to me the amount with which thou hast overreached me. ",
+				"<cite ref=\"Bava Metzia 50a:1\">Ib. 50ᵃ</cite> top <he>מה שאניתני</he> (Ms. R. 1 <he>שנִתְאוֹנַנְתִּי</he>, v. infra). ",
+				"<cite ref=\"Bava Metzia 51a:9\">Ib. 51ᵃ</cite> <he>שאניתני</he> (Ms. M. <he>שאֲנַנְתָּנִי</he>, fr. <cite ref=\"A02252\"><he>אָנַן</he></cite>; Mish. ",
+				"<cite ref=\"Mishnah Bava Metzia 4:2\">ib. IV, 2</cite> <he>שאוֹנִיתָנִי</he>, v. <cite ref=\"A00722\"><he>אוֹנָאָה</he></cite>, Ms. R. 1 <he>שהוֹנִיתָנִי</he>, v. <cite ref=\"E00249\"><he>הוֹנָאָה</he></cite>, Ms. R. 2 <he>שאונתני</he>, v. Rabb. D. S. a. l. note)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְאַנֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be overreached</i>. Ib. 49ᵇ <he>מי נ׳</he> which of them has been overreached? Ib. 50ᵇ <he>מי שנ׳</he> (Ms. M. <he>מִתְאוֹנֶה</he>); a. fr. [Nithpol. of <he>אנן</he>, <cite ref=\"A02252\"><he>נִתְאוֹנֵן</he></cite>, v. supra.] [In. Y. <cite ref=\"A00735\"><he>אוֹנָה</he></cite>, v. <cite ref=\"A00722\"><he>אוֹנָאָה</he></cite>.]",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

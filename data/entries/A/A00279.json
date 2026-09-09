@@ -1,0 +1,21 @@
+{
+	"id": "A00279",
+	"slug": "אגורא-2",
+	"headword": {
+		"text": "אֲגוֹרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 12,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἀγορά) <i>market-place, court-session, court</i>. Pl. <he>אֲגוֹרָאוֹת</he> <cite ref=\"Gittin 88b:10\">Git. 88ᵇ</cite> <he>א׳ של נכרים</he> (ed. <cite ref=\"A00283\"><he>אגוריאות</he></cite> corr. acc.) gentile courts.",
+			"units": []
+		}
+	]
+}

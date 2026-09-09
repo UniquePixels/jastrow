@@ -1,0 +1,23 @@
+{
+	"id": "C00738",
+	"slug": "גימול",
+	"headword": {
+		"text": "גִּימוֹל"
+	},
+	"page": {
+		"number": 239,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גמל</he> <i>to wean, train</i>) <i>a pointed pole tied to the neck of a calf to prevent it from sucking</i> (v. <cite ref=\"U02051\"><he>שִׁירְתּוּעַ</he></cite>), or <i>a little yoke</i> put on the calf for breaking it in. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 5:4:5\">Y. Sabb. V, 7ᶜ</cite> top <he>אית תניין תני ג׳</he> some teachers read (Mish. ",
+				"<cite ref=\"Mishnah Shabbat 5:4\">ib. V, 4</cite>) <i>gimol</i> (in place of <i>gimon</i>) in the sense of <he>גמל</he> in <cite ref=\"I Samuel 1:24\">I Sam. I, 24</cite>; v. <cite ref=\"C00739\">next w.</cite>"
+			]
+		}
+	]
+}

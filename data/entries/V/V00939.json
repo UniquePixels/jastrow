@@ -1,0 +1,28 @@
+{
+	"id": "V00939",
+	"slug": "תרגום",
+	"headword": {
+		"text": "תַּרְגּוּם"
+	},
+	"page": {
+		"number": 1695,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00943\"><he>תִּרְגֵּם</he></cite>) <i>interpretation, translation, version</i>, esp. <i>Targum</i>, the Chaldaic (Aramaic) versions of the Scriptures. ",
+			"units": [
+				"<cite ref=\"Megillah 3a:4\">Meg. 3ᵃ</cite> <he>ת׳ של תורה וכ׳</he> the translation of the Torah was composed by Onkelos the proselyte from the mouth (by direction) of R. El. and R. Joshua; <he>ת׳ של נביאים וכ׳</he> the translation of the prophets was made by Jonathan ben Uzziel from the mouth of Haggai &c. ",
+				"<cite ref=\"Megillah 3a:4\">Ib.</cite> <he>ועוד בקש לגלות ת׳ של כתובים</he> and he wanted furthermore to reveal the rendition of the Hagiographa. ",
+				"<cite ref=\"Megillah 3a:4\">Ib.</cite> <he>מפורש זה ת׳</he>, v. <cite ref=\"Q02021\"><he>פָּרַשׁ</he></cite>. ",
+				"<cite ref=\"Tosefta Shabbat 13:2\">Tosef. Sabb. XIII</cite> (<cite ref=\"Tosefta Shabbat 14:2\">XIV</cite>), 2; <cite ref=\"Shabbat 115a:7\">Sabb. 115ᵃ</cite> <he>היו כתובין ת׳ וכ׳</he> if Scriptural books are written in Targum (Aramaic) or in any other language; <cite ref=\"Shabbat 115a:7\">ib.</cite> <he>ובידו ספר איוב ת׳</he> and had in his hand the Book of Job in Targum. Ib.ᵇ <he>ת׳ שכתבו</he> … <he>שכתבו ת׳</he> Aramaic Biblical passages written in Hebrew translation, or Hebrew passages written in Aramaic. Ib. <he>ת׳ שבתורה</he> Aramaic words in the Pentateuch (Y’gar Sahădutha, <cite ref=\"Genesis 31:47\">Gen. XXXI, 47</cite>). ",
+				"<cite ref=\"Kiddushin 49a:11\">Kidd. 49ᵃ</cite> <he>ת׳ דידן</he> our (the authorized Babylonian) Targum. ",
+				"<cite ref=\"Berakhot 8a:30\">Ber. 8ᵃ</cite> bot., v. <cite ref=\"U01596\"><he>שְׁנַיִם</he></cite>. ",
+				"<cite ref=\"Mishnah Yadayim 4:5\">Yad. IV, 5</cite> <he>ת׳ שבעזרא וכ׳</he> the Aramaic passages in Ezra &c.; a. fr."
+			]
+		}
+	]
+}

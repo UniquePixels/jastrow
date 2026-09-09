@@ -1,0 +1,55 @@
+{
+	"id": "J00072",
+	"slug": "יבש-4",
+	"headword": {
+		"text": "יְבֵשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְבֵישׁ"
+		}
+	],
+	"page": {
+		"number": 562,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"J00071\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 8:14\">Targ. O. Gen. VIII, 14</cite> <cite ref=\"J00046\"><he>יְבֵישַׁת</he></cite> ed. Berl. (oth. ed. <he>יַבִּישַׁת</he>).—",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:8:3\">Y. Taan. III, 66ᵈ</cite> <he>יַבְשַׁת ידיה</he> his hand withered. ",
+				"<cite ref=\"Gittin 69b:11\">Gitt. 69ᵇ</cite> <he>כי היכי דיביש הדא ידא וכ׳</he> (read <he>דיְבִישַׁת</he>) as this hand (of the dead man) is withered, so may the milt of … dry (shrink to its normal size); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יַבֵּשׁ", "יַי׳"],
+			"senses": [
+				{
+					"gloss": "<i>to dry</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Joshua 2:10\">Targ. Josh. II, 10</cite>.—",
+						"<cite ref=\"Aramaic Targum to Proverbs 17:22\">Targ. Prov. XVII, 22</cite>; a. e.—Gitt. l. c. <he>ונְיַיבְּשִׁינְהוּ בטולא</he> and let him dry them (the leeches) in the shade; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְיַבֵּשׁ", "אִיַּיבֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be dried up, withered</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 102:5\">Targ. Ps. CII, 5</cite> Ms. (missing in ed.). ",
+						"<cite ref=\"Targum Jonathan on Genesis 8:14\">Targ. Y. Gen. VIII, 14</cite>; a. e.—",
+						"<cite ref=\"Aramaic Targum to Job 38:11\">Targ. Job XXXVIII, 11</cite> Ms. (ed. <he>תשוי</he>).—Gitt. l. c. <he>נִיַּיבֵּשׁ ההיא טוחלא</he>, v. supra."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

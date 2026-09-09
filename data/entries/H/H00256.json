@@ -1,0 +1,47 @@
+{
+	"id": "H00256",
+	"slug": "חוד-1",
+	"headword": {
+		"text": "חוּד"
+	},
+	"page": {
+		"number": 430,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"A00996\"><he>אֲחַד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to connect, finish an arch</i> by inserting the keystone. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:7:3\">Y. Ab. Zar. I, 40ᵃ</cite> bot. <he>דהוא חָיֵיד כל וכ׳</he> for he finishes the entire arch (cmp. Bab. ",
+				"<cite ref=\"Avodah Zarah 19b:13\">Ab. Zar. 19ᵇ</cite> <he>מכוש אחרון</he>, v. <cite ref=\"M01366\"><he>מַכּוֹשׁ</he> II</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. Syr. <he>אחד</he> claudere enigma, P. Sm. 116) <i>to bring to a point, to compose an enigma, allegory</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 14:12\">Targ. Jud. XIV, 12</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 17:2\">Targ. Ez. XVII, 2</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָחֵיד"],
+			"senses": [
+				{
+					"gloss": "<i>to connect</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 44:13\">Targ. Is. XLIV, 13</cite> <he>מְאָחֵיד</he> (<he>מְאַחֵיד</he>, fr. <cite ref=\"A00996\"><he>אֲחַד</he></cite>).]"
+					]
+				}
+			],
+			"stem": "[."
+		}
+	]
+}

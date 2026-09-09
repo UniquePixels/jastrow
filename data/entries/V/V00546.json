@@ -1,0 +1,30 @@
+{
+	"id": "V00546",
+	"slug": "תכלית",
+	"headword": {
+		"text": "תַּכְלִית"
+	},
+	"page": {
+		"number": 1668,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"K00692\"><he>כָּלָה</he></cite>)<i>end, destruction</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 18:12\">Num. R. s. 18<sup>12</sup></cite> <he>ויש אומרים ת̇</he>' <he>כלייה וכ׳</he> and some say (the <he>ת̇</he> in <he>מחלוקת̇</he>) intimates <i>takhlith</i>, that is, it brings destruction &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>end, object, perfection</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 17a:11\">Ber. 17ᵃ</cite> <he>ת׳ חכמה תשובה וכ׳</he> the end of wisdom is repentance and good deeds, lest a man study … and treat his father with contempt &c."
+			],
+			"label": "2"
+		}
+	]
+}

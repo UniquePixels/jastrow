@@ -1,0 +1,27 @@
+{
+	"id": "E00324",
+	"slug": "הטרית",
+	"headword": {
+		"text": "הִטְּרִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "הִי׳"
+		}
+	],
+	"page": {
+		"number": 343,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>נטר</he>, v. <cite ref=\"A01106\"><he>אִטְּרִי</he></cite>, <cite ref=\"I00826\"><he>טָרִית</he></cite>) <i>a preserve of gourd</i>.—Pl. <he>הִטְּרִיּוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Nedarim 49a\">Ned. 49ᵃ</cite> <he>ה׳ רכות וכ׳</he> soft preserves with which the sick eat their bread; Y. ib. VI, 39ᶜ bot. (for <he>הרופא</he> read <he>החולה</he>); <cite ref=\"Tosefta Nedarim 3:1\">Tosef. ib. III, 1</cite> <he>טריות רכות</he> ed. Zuck. (Var. <he>אימר וחרכית</he>, <he>סיטרות רכות</he>, read: … <he>איטריות</he>, <he>היטריות</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "U00395",
+	"slug": "שוי-5",
+	"headword": {
+		"text": "שָׁוְי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁוְיָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1533,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. part. of <cite ref=\"U00392\"><he>שְׁוֵי</he></cite>, q. v.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " = h. <cite ref=\"U00338\"><he>שָׁוֶה</he></cite>, <i>valued, worth</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 9:3\">Lev. R. s. 9</cite>; <cite ref=\"Yalkut Shimoni on Nach 763\">Yalk. Ps. 763</cite>, v. <cite ref=\"U00436\"><he>שׁוּם</he></cite> I ch. ",
+				"<cite ref=\"Bava Metzia 7b:18\">B. Mets. 7ᵇ</cite> <he>שטרא דאית … כמה ש׳ וכ׳</he> how much is a dated document worth, and how much one without a date? <cite ref=\"Bava Kamma 85a\">B. Kam. 85ᵃ</cite>, v. <cite ref=\"M00191\"><he>מַגָּן</he></cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>worth its money, cheap</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 34b:5\">Ab. Zar. 34ᵇ</cite> <he>דש׳ חמרא</he> where wine is cheap."
+			],
+			"label": "3"
+		}
+	]
+}

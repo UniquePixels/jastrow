@@ -1,0 +1,28 @@
+{
+	"id": "Q00621",
+	"slug": "פיטורה",
+	"headword": {
+		"text": "פִּיטּוּרָה",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּטּ׳"
+		}
+	],
+	"page": {
+		"number": 1161,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"Q00622\">next w.</cite>) <i>weir, canal-bed</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:9:4\">Y. Kil. I, 27ᵇ</cite> bot. <he>בזורע ע״ג הים ע״ג פ׳ וכ׳</he> if one sows in a lake, in a canal-bed &c."
+			]
+		}
+	]
+}

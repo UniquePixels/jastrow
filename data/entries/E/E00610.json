@@ -1,0 +1,28 @@
+{
+	"id": "E00610",
+	"slug": "המייפוס",
+	"headword": {
+		"text": "הֵמְיִיפּוֹס",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "הֵמִיפּוֹס"
+		}
+	],
+	"page": {
+		"number": 355,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἡμίιππος, S.) <i>half-horse, a mule whose sire is a horse</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 82:2\">Gen. R. s. 82</cite>, end (expl. <cite ref=\"J00415\"><he>יֵמִם</he></cite>, <cite ref=\"Genesis 36:24\">Gen. XXXVI, 24</cite>) <cite ref=\"E00615\"><he>המיסו</he></cite> (corr. acc., in oppos. to <cite ref=\"E00605\"><he>המיונס</he></cite>); <cite ref=\"Jerusalem Talmud Berakhot 8:5:6\">Y. Ber. VIII, 12ᵇ</cite> top <he>ורבנן אמרין היימים</he> (corr. acc.)."
+			]
+		}
+	]
+}

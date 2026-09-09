@@ -1,0 +1,47 @@
+{
+	"id": "D00556",
+	"slug": "דייטא",
+	"headword": {
+		"text": "דְּיֵיטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּיֵיטִי"
+		},
+		{
+			"text": "דְּיוֹטָא"
+		},
+		{
+			"text": "דִּיאֲטִי"
+		}
+	],
+	"page": {
+		"number": 298,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (δίαιτα, diaeta) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>chamber, sitting-room</i> (generally up-stairs); <i>compartment, story</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 11:2\">Sabb. XI, 2</cite> (<cite ref=\"Shabbat 96a\">96ᵃ</cite>) <he>בדייטי אחת</he> Y. ed. a. Ar. (Bab. <he>דיוטא</he>, v. Rabb. D. S. a. l. note 1) in the same story (of separate buildings). ",
+				"<cite ref=\"Bava Batra 63a:7\">B. Bath. 63ᵃ</cite> <he>דיי׳ העליונה</he> Ar. (ed. <he>דיו׳</he>) upper story. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 1:6:2\">Y. Yeb. I, 3ᵃ</cite> bot. <he>לד׳ התחתונה וכ׳</he> to the nethermost room of the nether world (utmost degree of damnation; <cite ref=\"Bereishit Rabbah 68\">Gen. R. s. 68</cite>, a. e. <cite ref=\"A01973\"><he>אמבטה</he></cite>, <cite ref=\"A01974\"><he>אַמְבְּטִי</he></cite>; <cite ref=\"B00505\"><he>בְּטִי</he></cite>, <cite ref=\"B00583\"><he>ביטי</he></cite>). Tosef. Erub. IX (VI), 21 <he>דיוטא</he> ed. Zuck. (Var. <cite ref=\"D00451\"><he>דיאטה</he></cite>, ed. <he>דיאטס</he>, corr. acc.); a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 62\">Gen. R. s. 62</cite> they buried him <he>בדיוטרין שלו</he> (corr. acc.) in the compartment designated for him.—Pl. <he>דְּיֵיטוֹת</he>, <he>דְּיוֹטוֹת</he>, <he>דְּיוֹטָאוֹת</he>. ",
+				"<cite ref=\"Mishnah Eruvin 8:11\">Erub. VIII, 11</cite> (<cite ref=\"Eruvin 88a:19\">88ᵃ</cite>) <he>שתי ד׳ וכ׳</he> two upper compartments opposite each other (with a common yard between them). Tosef. ib. VIII (V), 11, v. <cite ref=\"A01947\"><he>אִלְקְטִי</he></cite>. Ib. XI (VIII), 4; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>arbitrator’s office</i>, whence <i>diaeta</i>, name of a prison in Cæsarea in the Roman days. Esth. R. introd., beg. (some ed. <cite ref=\"D00551\"><he>דְּיָטִי</he></cite>).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

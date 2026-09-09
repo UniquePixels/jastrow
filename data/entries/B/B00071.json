@@ -1,0 +1,28 @@
+{
+	"id": "B00071",
+	"slug": "בג",
+	"headword": {
+		"text": "בַּג"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֶּן בַּג בַּג"
+		}
+	],
+	"page": {
+		"number": 137,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ben Bag Bag</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 27b:16\">B. Kam. 27ᵇ</cite>; a. fr. ",
+				"<cite ref=\"Kiddushin 10b:12\">Kidd. 10ᵇ</cite> Joh. son of B. B."
+			]
+		}
+	]
+}

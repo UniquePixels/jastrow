@@ -1,0 +1,67 @@
+{
+	"id": "S00096",
+	"slug": "קבר-2",
+	"headword": {
+		"text": "קְבַר"
+	},
+	"page": {
+		"number": 1312,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"S00095\">same</cite>, <i>to bury</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 23:4\">Targ. Gen. XXIII, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 79:3\">Targ. Ps. LXXIX, 3</cite>; a. fr.—Part. pass. <he>קְבִיר</he>; f. <cite ref=\"S02080\"><he>קְבִירָא</he></cite> &c. ",
+				"<cite ref=\"Onkelos Deuteronomy 33:21\">Targ. O. Deut. XXXIII, 21</cite> (Y. <he>קָבוּר</he>, Hebr. form). ",
+				"<cite ref=\"Aramaic Targum to Ruth 1:17\">Targ. Ruth I, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 27:15\">Targ. Job XXVII, 15</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 46b:16\">Snh. 46ᵇ</cite> <he>לא בעינא דלִיקְבְּרוּהָ וכ׳</he> I do not want them to bury this man (I want not to be buried when I am dead). ",
+				"<cite ref=\"Sanhedrin 46b:12\">Ib.</cite> <he>מדקַבְרֵיה וכ׳</he> because the Lord buried Moses. ",
+				"<cite ref=\"Shabbat 151b\">Sabb. 151ᵇ</cite> <he>וקביר</he>, v. <cite ref=\"H01453\"><he>חֲפִיר</he></cite>; a. fr.—",
+				"<cite ref=\"Avodah Zarah 38a:9\">Ab. Zar. 38ᵃ</cite> <he>וק׳ ביה ישראל וכ׳</he> after an Israelite had hidden a pumpkin in it (the oven)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of tide) <i>to overflow, inundate</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 13\">Gen. R. s. 13</cite>; <cite ref=\"Kohelet Rabbah 1:7:2\">Koh. R. to I, 7</cite> <he>דמרבי וקָבֵר</he> which grows and floods, v. <cite ref=\"S00099\"><he>קַבְרִיאֵל</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַבֵּר"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"S00095\">preced.</cite> <i>Pi.</i> ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 33:4\">Targ. Num. XXXIII, 4</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְקַבַּר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְקְבַר", "אִיקְּכַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be buried</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 15:15\">Targ. Gen. XV, 15</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 8:2\">Targ. Jer. VIII, 2</cite>; a. fr.—Snh. l. c. <he>מדאִיקְּבוּר צדיקי</he> since righteous men are buried (it would seem that burial is not for the sake of purging the dead from sin). Ib. <he>הנך נמי לִיקַּבְּרוּ וכ׳</he> they (the other members of the house of Jeroboam) ought also to have been buried for the sake of atonement. Ib. 104ᵃ <he>קברה ולא אִיקְבְּרָא וכ׳</he> he buried it (Joiakim’s skull), and it would not remain under ground, buried it again &c.; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

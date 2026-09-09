@@ -1,0 +1,61 @@
+{
+	"id": "I00189",
+	"slug": "טוס-1",
+	"headword": {
+		"text": "טוּס"
+	},
+	"page": {
+		"number": 524,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"I00248\"><he>טוּשׂ</he></cite>) [",
+			"units": []
+		},
+		{
+			"gloss": "<i>to glisten</i>. Denom. <cite ref=\"I00133\"><he>טַוָּוס</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"H01098\"><he>חָלַף</he></cite>)] <i>to fly swiftly</i>.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:22\">Y. Taan. IV, 69ᵇ</cite> <he>לא נראה עיף טָס וכ׳</he> no bird has been seen flying in all Palestine; Lam. R. introd. end.—",
+				"<cite ref=\"Devarim Rabbah 6\">Deut. R. s. 6</cite> <he>קושט … וטס כעוף</he> goes straight like an arrow, and swift like a bird. ",
+				"<cite ref=\"Midrash Tehillim 90:9\">Midr. Till. to Ps. XC, 10</cite> <he>גזין חשין וטָסִין</he> they pass, hasten and fly; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טִיֵּיס"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00188\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 9:7\">Koh. R. to IX, 7</cite> <he>ט׳ וחזר וט׳</he> he flew to and back."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֵטִיס"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to fly, to bring on by flight</i>. ",
+					"units": [
+						"<cite ref=\"Ruth Rabbah 7:7\">Ruth R. to IV, 1</cite> <he>הטִיסוֹ וכ׳</he> the Lord would have made him fly and brought him (to the place). ",
+						"<cite ref=\"Bereishit Rabbah 59\">Gen. R. s. 59</cite>, end. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:9:4\">Cant. R. to I, 9</cite> <he>הֵטִיסָן</he>; <cite ref=\"Shemot Rabbah 23:1\">Ex. R. s. 23</cite> end <he>הסיטן</he> (corr. acc.).—",
+						"<cite ref=\"Vayikra Rabbah 16:1\">Lev. R. s. 16</cite> <he>הסיט׳</he>, (read as) <cite ref=\"Yalkut Shimoni on Nach 232\">Yalk. Kings 232</cite>. ",
+						"<cite ref=\"Vayikra Rabbah 11\">Lev. R. s. 11</cite>, beg. <he>הסיטן</he> (corr. acc.) he winged them; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

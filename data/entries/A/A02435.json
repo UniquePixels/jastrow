@@ -1,0 +1,23 @@
+{
+	"id": "A02435",
+	"slug": "אסיינא",
+	"headword": {
+		"text": "אַסְיינָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 93,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אסי</he>) <i>physician</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:5:5\">Y. Sabb. VI, 8ᶜ</cite> top <he>אסייניה דר׳ וכ׳</he> the physician of &c."
+			]
+		}
+	]
+}

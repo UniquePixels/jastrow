@@ -1,0 +1,30 @@
+{
+	"id": "P01062",
+	"slug": "עפי-2",
+	"headword": {
+		"text": "עֳפִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָפְיָא"
+		}
+	],
+	"page": {
+		"number": 1099,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01061\">preced.</cite>) <i>sprouting, foliage, branches</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:16\">Targ. Cant. I, 16</cite> (fr. ",
+				"<cite ref=\"Daniel 4:18\">Dan. IV, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 31:3\">Targ. Ez. XXXI, 3</cite> <he>עָפְיֵיה</he> Regia (ed. <he>נוֹפֵיה</he>).—Pl. <cite ref=\"A02680\"><he>עַפְיָין</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:2\">Targ. Cant. II, 2</cite> <he>עַפְיָהָא</he>.—V. <cite ref=\"A00798\"><he>אוּפֵי</he></cite>."
+			]
+		}
+	]
+}

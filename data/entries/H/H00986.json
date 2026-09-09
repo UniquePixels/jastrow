@@ -1,0 +1,24 @@
+{
+	"id": "H00986",
+	"slug": "חלדין",
+	"headword": {
+		"text": "חִלְדִּין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 464,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"H00985\">preced.</cite> wds.) <i>cave-dwellers</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 37:6\">Gen. R. s. 37</cite>, transl. of <cite ref=\"H00310\"><he>חִוִּי</he></cite> (<cite ref=\"Genesis 10:17\">Gen. X, 17</cite>); cmp. <cite ref=\"H00310\"><he>חִוְיָא</he></cite>."
+			]
+		}
+	]
+}

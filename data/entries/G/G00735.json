@@ -1,0 +1,35 @@
+{
+	"id": "G00735",
+	"slug": "זרק-2",
+	"headword": {
+		"text": "זְרַק"
+	},
+	"page": {
+		"number": 415,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"G00734\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 24:6\">Targ. O. Ex. XXIV, 6</cite> (Y. <cite ref=\"D01122\"><he>דריק</he></cite>); a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 53\">Gen. R. s. 53</cite>, end; s. 86, end [read:] <he>זְרוֹק חוטרא … נפיל</he> throw a stick in the air and it will fall back to its origin (the ground), i.e. innate disposition will always come forth; (cmp. Tanḥ. Balak 17; <cite ref=\"Bamidbar Rabbah 20:23\">Num. R. s. 20</cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִזְדְּרֵיק"],
+			"senses": [
+				{
+					"gloss": "<i>to be sprinkled</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 19:13\">Targ. Num. XIX, 13</cite>; a. e.—",
+						"<cite ref=\"Pesachim 78b:22\">Pes. 78ᵇ</cite> bot. <he>אשתקד כי איז׳ דם</he> last year when the blood of the Passover sacrifice was sprinkled."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

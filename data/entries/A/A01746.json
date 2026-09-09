@@ -1,0 +1,35 @@
+{
+	"id": "A01746",
+	"slug": "אכפא",
+	"headword": {
+		"text": "אַכְפָּא"
+	},
+	"page": {
+		"number": 65,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A01745\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>load, weight</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 69a:1\">B. Bath. 69ᵃ</cite> <he>אבני דא׳</he> stones to weight the sheaves down to protect them from the wind."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a contrivance to carry loads</i>, as a <i>hand-barrow</i> or <i>hand-basket</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 66b:5\">Sabb. 66ᵇ</cite> <he>חמרא דא׳</he>, v. <cite ref=\"A02291\"><he>אָנְקִטְמִין</he></cite>. ",
+				"<cite ref=\"Beitzah 30a\">Bets. 30ᵃ</cite> (var. <he>אכיתפא</he> <i>on the shoulder</i>, v. Rabb. D. S. a. l.)."
+			],
+			"label": "2"
+		}
+	]
+}

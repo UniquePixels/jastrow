@@ -1,0 +1,54 @@
+{
+	"id": "A02598",
+	"slug": "אפא-1",
+	"headword": {
+		"text": "אַפָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 99,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. c. <cite ref=\"A02597\">same</cite>; ",
+			"units": []
+		},
+		{
+			"gloss": "<i>face, presence</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 1:6\">Targ. Ez. I, 6</cite>; a. e.; v. <cite ref=\"A02266\"><he>אַנְפָּא</he></cite>.—",
+				"<cite ref=\"Bereishit Rabbah 35:3\">Gen. R. s. 35</cite>, beg. <he>למיחזי סבר אַפָּאִי</he> to see my countenance. ",
+				"<cite ref=\"Bereishit Rabbah 87:10\">Gen. R. s. 87</cite> it is right <he>הדין אַפָּהּ כסי</he> that the face of this (idol) is covered.—",
+				"<cite ref=\"Moed Katan 20b:11\">M. Kat. 20ᵇ</cite> <he>באַפָּהּ</he> in her presence, <he>בלא א׳</he> in her absence.—Transf. <i>front</i>. ",
+				"<cite ref=\"Chullin 47a:2\">Ḥull. 47ᵃ</cite> <he>אפה וכ׳</he> the front (of the lungs) facing the examiner.—With <cite ref=\"L00000\"><he>ל</he></cite>-, <i>towards, opposite</i>. ",
+				"<cite ref=\"Sanhedrin 72a:4\">Snh. 72ᵃ</cite> <he>קאי לאפאי</he> he places himself opposite me (for defence). ",
+				"<cite ref=\"Pesachim 111b:9\">Pes. 111ᵇ</cite> <he>לאפֵּיה דשמאליה</he> (Ms. M. <he>להדיה ש׳</he>) towards, by his left side.—Pl. <he>אַפִּין</he>, <cite ref=\"A02669\"><he>אַפַּיָּא</he></cite>, <i>face</i> (b. h. <he>אפים</he>, <he>פנים</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 1:6\">Targ. Ez. I, 6</cite>; a. fr.—",
+				"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> <he>א׳ בא׳</he> face to face. ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:11:2\">Cant. R. to III, 11</cite> the angel has <he>חמש א׳</he> five faces. ",
+				"<cite ref=\"Eichah Rabbah 5:5\">Lam. R. to V, 5</cite> <he>א׳ בשחור</he> in darkness of countenance, in sadness. ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 4:2:3\">Y. B. Mets. IV, 9ᶜ</cite> bot <he>ולא אמרין לה לכל א׳</he> but one must not say so in the presence of all (publicly)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (only in pl.) <i>modes, ways</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:11\">Targ. Cant. I, 11</cite>.—",
+				"<cite ref=\"Nedarim 41a:5\">Ned. 41ᵃ</cite> <he>אַפֵּי הלבתא</he> methods of talmudical disquisitions. ",
+				"<cite ref=\"Eichah Rabbah 2:25\">Lam. R. to II, 2</cite> <he>שיתין א׳</he> sixty ways of interpretation. ",
+				"<cite ref=\"Berakhot 4b:25\">Ber. 4ᵇ</cite> <he>בתמניא א׳</he> (Var. <he>אלפין</he>, Ms. M. <he>אלף בית</he>) in eight ways, eightfold acrosticon.—באפי נפשיה <i>for itself, separately</i>. ",
+				"<cite ref=\"Sanhedrin 56b:2\">Snh. 56ᵇ</cite>; a. fr.; v. <cite ref=\"N01085\"><he>נַפְשָׁא</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " esp. in the pl. <cite ref=\"A02669\"><he>אַפַּיָּא</he></cite>, <cite ref=\"A02669\"><he>אַפַּיָּיא</he></cite> <i>character, nature</i> Esth. R. introd. <he>א׳ חציפתא</he> impudent people (h. . ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:14\">Y. Snh. X, 28ᶜ</cite> bot. and if the Lord will not hear me <he>כל א׳ שוין</he> all natures (divinities) are alike (proverbial expression of distrust in God); Lam. R. introd. (R. Yitsḥ. 2) Ar. (ed. <cite ref=\"A02680\"><he>אַפַּיִּין</he></cite>); Pesik. Shubah p. 162ᵇ; <cite ref=\"Ruth Rabbah 5:6\">Ruth R. to II, 14</cite>. Cmp. <cite ref=\"A00799\"><he>אוֹפִי</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

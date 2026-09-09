@@ -1,0 +1,46 @@
+{
+	"id": "V00891",
+	"slug": "תקל-2",
+	"headword": {
+		"text": "תָּקַל"
+	},
+	"page": {
+		"number": 1691,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"V00905\"><he>תָּקַע</he></cite>) <i>to strike, knock</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְקַל"],
+			"senses": [
+				{
+					"gloss": "<i>to strike against, stumble</i> (cmp. <cite ref=\"K01313\"><he>כָּשַׁל</he></cite>). ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 764:13\">Yalk. Num. 764</cite> <he>כשתראה שנִתְקְלוּ בדבר וכ׳</he> when thou seest that they (Israel) have stumbled in anything, leap thou against (attack) them. ",
+						"<cite ref=\"Mishnah Bava Kamma 3:1\">B. Kam. III, 1</cite> <he>המניח … ונ׳ בה ושברה</he> if one left his pitcher on public ground, and another man came and struck against it, and broke it. ",
+						"<cite ref=\"Mishnah Bava Kamma 3:4\">Ib. 4</cite> <he>ונ׳ הראשון ונפל ונ׳ וכ׳</he> and the first man stumbled and fell, and the second man stumbled over the first. ",
+						"<cite ref=\"Bava Kamma 28b:13\">Ib. 28ᵇ</cite> <he>נ׳ באבן ונשוף וכ׳</he> if he struck against a stone, and the vessel was smashed by the stone; <he>נ׳ בקרקע וכ׳</he> if he struck against soft ground, and the vessel was smashed through falling on the stone. Ib. 29ᵇ <he>נ׳ פושע הוא</he> he that does damage by stumbling is legally considered like one criminally negligent; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְקִיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V00890\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 44:1\">Pesik. R. s. 44</cite> <he>הושע</he> … <he>אלא מַתְקֶלֶת</he> Hosea declared her (Israel) nothing more than a stumbler (ref. to <he>כשלת</he>, <cite ref=\"Hosea 14:2\">Hos. XIV, 2</cite>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "V00681",
+	"slug": "תמינאה",
+	"headword": {
+		"text": "תְּמִינָאָה"
+	},
+	"page": {
+		"number": 1677,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00695\"><he>תַּמְנֵי</he></cite>) <i>the eighth</i>. Targ. II Esth. I, 1. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 22:27\">Targ. Lev. XXII, 27</cite>; a. fr.—<i>Fem.</i> <he>תְּמִינֵיתָא</he>, <he>תְּמִינֵתָא</he>. ",
+				"<cite ref=\"Onkelos Leviticus 25:22\">Ib. XXV, 22</cite> (ed. Vien. <he>תְּמִינָתָא</he>)."
+			]
+		}
+	]
+}

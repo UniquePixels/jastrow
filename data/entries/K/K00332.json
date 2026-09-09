@@ -1,0 +1,24 @@
+{
+	"id": "K00332",
+	"slug": "כוסתא",
+	"headword": {
+		"text": "כּוּסְתָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 623,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (an adapt. of ξέστης, by confusion with <cite ref=\"K00314\"><he>כּוֹס</he></cite>, <cite ref=\"K00891\"><he>כַּסָּא</he></cite>) <i>kusta</i>, a liquid measure. ",
+			"units": [
+				"<cite ref=\"Shabbat 109b:9\">Sabb. 109ᵇ</cite> <he>חד כ׳ דשיכרא</he> (Ms. O. <cite ref=\"K00593\"><he>כִּיסְתָּא</he></cite>) one <i>k.</i> of beer.—Pl. <he>כּוּסְיָתָא</he> (fem.). ",
+				"<cite ref=\"Shabbat 109b:8\">Ib.</cite> <he>חמש עשר כ׳</he> Ms. M. (ed. <he>חמשא כוסתא</he>, Ms. O. <he>כסתתא</he>; Rashi <cite ref=\"K00319\"><he>כּוֹסָאתָא</he></cite>, v. Rabb. D. S. a. l. note). [Oth. opin. <cite ref=\"K00332\"><he>כּוֹסְתָא</he></cite> fem. form of <cite ref=\"K00317\"><he>כּוֹסָא</he></cite>, v. <cite ref=\"K00891\"><he>כַּסָּא</he></cite>.]"
+			]
+		}
+	]
+}

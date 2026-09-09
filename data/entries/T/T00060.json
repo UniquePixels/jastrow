@@ -1,0 +1,43 @@
+{
+	"id": "T00060",
+	"slug": "רבה-3",
+	"headword": {
+		"text": "רַבָּה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1439,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"T00042\"><he>רַבָּא</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>large, great; senior</i>. <he>בִּדְרַ׳ מיניה</he>, v. <cite ref=\"S00999\"><he>קִים</he></cite>.—<he>אַדְּרַ׳</he>, v. <cite ref=\"A00449\"><he>אַדְּרַבָּא</he></cite>.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 7:2:5\">Y. Shebi. VII, end. 37ᶜ</cite> <he>ודמיא היא כל ר׳</he> is this case altogether the same?; <cite ref=\"Jerusalem Talmud Orlah 1:5:5\">Y. Orl. I, 61ᵇ</cite> bot. <he>ורמיה היא לכל רביה</he> (corr. acc.).—<he>דְּרַבָּה</he>, v. <cite ref=\"T00305\"><he>רוּבָּה</he> II</cite>.—",
+				"<cite ref=\"Midrash Tehillim 17:2\">Midr. Till. to Ps. XVII</cite> (ref. to <cite ref=\"T00042\"><he>רב</he></cite>, <cite ref=\"II Samuel 24:16\">II Sam. XXIV, 16</cite>) <he>ר׳ הוא משכונא גבך</he> ed. Bub. (oth. ed. <he>ר׳ היא משכונתך</he>, corr. acc.) the pledge thou hast taken (with the death of Abishai) is large enough. ",
+				"<cite ref=\"Berakhot 19b:11\">Ber. 19ᵇ</cite> <he>גברא ר׳ אמר וכ׳</he> a great man (scholar) has said something, laugh not at it; <cite ref=\"Gittin 55b:7\">Gitt. 55ᵇ</cite>; <cite ref=\"Niddah 50b:17\">Nidd. 50ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 59b:8\">Sabb. 59ᵇ</cite> <he>גברא ר׳ וכ׳</he> (some ed. <cite ref=\"T00082\"><he>רבא</he></cite>), v. <cite ref=\"A03099\"><he>אָרֵיכָא</he></cite>; <cite ref=\"Ketubot 103b:10\">Keth. 103ᵇ</cite>. ",
+				"<cite ref=\"Yevamot 21b:7\">Yeb. 21ᵇ</cite> <he>הא</he> … <he>מגברא ר׳ וכ׳</he> I have heard this from a great scholar. ",
+				"<cite ref=\"Yevamot 21b:7\">Ib.</cite> <he>אבא ר׳</he> grandfather. ",
+				"<cite ref=\"Bereishit Rabbah 1:1\">Gen. R. s. 1</cite>, beg. <he>ר׳ הושעיה ר׳</he> R. Ḥ. senior (contrad. to <cite ref=\"G00598\"><he>זעירא</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 4:11:2\">Y. Yeb. IV, 6ᵃ</cite> <he>ר׳ חייא ר׳</he> R. Ḥ. senior; a. v. fr.—<he>מדרש ר׳</he> (pl. <he>רַבּוֹת</he>), v. <cite ref=\"M00337\"><he>מִדְרָשׁ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>teacher</i>. Y. l. c. 6ᵇ top <he>הידינו ר׳ ר׳ דמתניתא ר׳ דאולפנא</he> what teacher do you mean? a teacher of the Mishnah (a Tannai), or a teacher of tradition? <cite ref=\"Vayikra Rabbah 22:6\">Lev. R. s. 22</cite> <he>ואיפשר כן ר׳ שאל וכ׳</he> can that be? did the teacher ask his pupil? <cite ref=\"Bava Metzia 101a:7\">B. Mets. 101ᵃ</cite> <he>כגון דא צריכה ר׳</he> a thing like this requires a teacher (to say it)!; a. fr.—Pl. <he>רַבְוָותָא</he>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 102b:4\">Snh. 102ᵇ</cite> <he>נפתח בר׳</he> (Ms. F. <he>ברברבתא</he>) let us open our meeting with (speaking of our) teachers (opp. to <he>חברין</he>).—<i>Fem.</i> <cite ref=\"T00151\"><he>רַבְּתָא</he></cite>, q. v.; <cite ref=\"T00152\"><he>רַבָּתִי</he></cite>. ",
+				"<cite ref=\"Yevamot 21b:6\">Yeb. 21ᵇ</cite> <he>אימא ר׳</he> grandmother.—<he>אבל ר׳</he> (<he>מסכת</he>), v. <cite ref=\"A00157\"><he>אֵבֶל</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

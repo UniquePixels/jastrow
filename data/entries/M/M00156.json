@@ -1,0 +1,31 @@
+{
+	"id": "M00156",
+	"slug": "מגיזתא-1",
+	"headword": {
+		"text": "מְגִיזְתָּא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "מְגִזְתָּא"
+		}
+	],
+	"page": {
+		"number": 727,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C00538\"><he>גְזַז</he></cite> or <cite ref=\"C00338\"><he>גּוּז</he></cite>), constr. <cite ref=\"M00154\"><he>מְגִיזַת</he></cite>, <he>מְגִוַּת</he>, <i>ford, pass</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 19:19\">Targ. II Sam. XIX, 19</cite>. ",
+				"<cite ref=\"Onkelos Numbers 21:11\">Targ. Num. XXI, 11</cite>; a. e.—Pl. <cite ref=\"M00156\"><he>מְגִיזָתָא</he></cite>, <he>מְגִזָּ׳</he>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 33:45\">Targ. Y. Num. XXXIII, 45</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 22:20\">Targ. Jer. XXII, 20</cite>; a. e."
+			]
+		}
+	]
+}

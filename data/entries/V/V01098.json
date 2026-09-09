@@ -1,0 +1,34 @@
+{
+	"id": "V01098",
+	"slug": "תשמיש-2",
+	"headword": {
+		"text": "תַּשְׁמִישׁ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּשְׁמִישָׁא"
+		}
+	],
+	"page": {
+		"number": 1704,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V01097\">same</cite><i>implement.—</i>Pl. <he>תַּשְׁמִישִׁין</he>, <cite ref=\"V01099\"><he>תַּשְׁמִישַׁיָּא</he></cite>, <cite ref=\"V01097\"><he>תַּשְׁמִישֵׁי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 7:26\">Targ. Y. Deut. VII, 26</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with or without <cite ref=\"P01404\"><he>ערסא</he></cite>) <i>marital connection, copulation</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 19:8\">Targ. Y. II, Gen. XIX, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 19:15\">Targ. Y. Ex. XIX, 15</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

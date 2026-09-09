@@ -1,0 +1,36 @@
+{
+	"id": "L00633",
+	"slug": "לפי-2",
+	"headword": {
+		"text": "לְפֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְפָא"
+		}
+	],
+	"page": {
+		"number": 715,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to join</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַלְפֵי"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"L00565\"><he>לָמַד</he></cite>) <i>to arrange</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 6:5\">Targ. Y. Lev. VI, 5</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

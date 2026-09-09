@@ -1,0 +1,23 @@
+{
+	"id": "A01381",
+	"slug": "איני-1",
+	"headword": {
+		"text": "אֵינִי"
+	},
+	"page": {
+		"number": 52,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " = 1) = <he>אֵין אֲנִי</he>, v. <cite ref=\"A01363\"><he>אֵין</he></cite>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"A01374\"><he>אִין הִי</he></cite>, v. <cite ref=\"A01364\"><he>אִין</he> I</cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

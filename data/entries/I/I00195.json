@@ -1,0 +1,99 @@
+{
+	"id": "I00195",
+	"slug": "טוף",
+	"headword": {
+		"text": "טוּף"
+	},
+	"page": {
+		"number": 525,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"R00216\"><he>צוּף</he></cite> [<i>to shine</i>,] <i>to come to the surface, float, bubble up</i>. Part. <cite ref=\"I00010\"><he>טָאֵיף</he></cite>, <cite ref=\"I00195\"><he>טָיֵיף</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 21:1\">Targ. Y. Deut. XXI, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 28:10\">Targ. Y. Gen. XXVIII, 10</cite>; a. e.—",
+				"<cite ref=\"Kohelet Rabbah 5:8:5\">Koh. R. to V, 8</cite> (mixed diction) <he>וטָפַת בארה של וכ׳</he> Miriam’s well came up.—",
+				"<cite ref=\"Pirkei Avot 2:6\">Ab. II, 6</cite>; <cite ref=\"Sukkah 53a\">Succ. 53ᵃ</cite>, v. infra.—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 9:1:13\">Y. Shebi. IX, 38ᵈ</cite>; Pesik. B’shall. p. 89ᵇ <he>הוה טָיֵיף</he> the corpse came up to the surface. ",
+				"<cite ref=\"Bereishit Rabbah 81:2\">Gen. R. s. 81</cite> (in Hebr. dict.) <he>וטָפַת רוחי וכ׳</he> and my mind in me was swimming (I became proud, v. <cite ref=\"I00636\"><he>טָפַח</he></cite>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"I00407\"><he>טיף</he></cite>) <i>to drip; to be inundated</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 49:12\">Targ. O. Gen. XLIX, 12</cite>; a. e.—",
+				"<cite ref=\"Ketubot 111b:22\">Keth. 111ᵇ</cite> <he>חלבא טייף וכ׳</he> milk was dripping &c. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:11:4\">Y. Taan. III, end, 67ᵃ</cite> <he>הוה עלמא ט׳</he> the world would have been flooded. ",
+				"<cite ref=\"Bereishit Rabbah 32\">Gen. R. s. 32</cite>; <cite ref=\"Yalkut Shimoni on Torah 57:2\">Yalk. ib. 57</cite> <he>דלא טף וכ׳</he> it (the mount Gerizim) was not flooded by the waters of the flood; a. e.—[<cite ref=\"Targum Jonathan on Deuteronomy 21:23\">Targ. Y. Deut. XXI, 23</cite> <he>תטופון</he>, v. <cite ref=\"I00582\"><he>טְנַף</he></cite> a. <cite ref=\"N00578\"><he>נְטַף</he></cite>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טַיֵּיף", "טָאֵף"],
+			"senses": [
+				{
+					"gloss": "<i>to direct the overflow, to assign channels</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 38:24\">Targ. Job XXXVIII, 24</cite>, v. <cite ref=\"I00410\"><he>טְיָפָא</he></cite>.—",
+						"<cite ref=\"Gittin 69b:1\">Gitt. 69ᵇ</cite> top <he>ונִיטַּיְיפֵיה וכ׳</he> and let it (the milk) run over &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to glisten, to turn in all directions</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 60b\">Keth. 60ᵇ</cite> <he>מְטַיְּפֵי עינא</he> Ar. (ed. <he>מציצי</he>, v. infra) with restless eyes."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to cause to float</i>, v. infra.",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אָטֵיף", "אַטֵּיף"],
+			"senses": [
+				{
+					"gloss": " (fr. <cite ref=\"N00578\"><he>נְטַף</he></cite>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to make flow</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 11:4\">Targ. Deut. XI, 4</cite>.—[Keth. l. c. <he>מְטִיפֵי עינא</he> Ar. s. v. <cite ref=\"I00623\"><he>טף</he></cite> I ‘with dripping eyes’, v. supra.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to float</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 2:6\">Ab. II, 6</cite> <he>על דאֲטֵפְתְּ אֲטִיפוּךְ וסוף מְטִיפָיךְ יְטוּפוּן</he> ed. Strack (oth. eds. <he>אַטְפוּךְ</he>; Strack reads <he>מְטַיְפָיךְ</he> <i>Pa.</i>; oth. pointed eds. <he>מְטיְּפָיִךְ</he> h. form) because thou (the person whose skull was seen to float) hast caused (a corpse) to float, they made thee float, and those who made thee float, shall also float."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיטַּיֵּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to be glittering, to be turned in all directions</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 92b\">B. Kam. 92ᵇ</cite>; <cite ref=\"Megillah 14b\">Meg. 14ᵇ</cite> <he>ועיניה מִטַּיְּיפֵי</he> and its eyes look all around (for food)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

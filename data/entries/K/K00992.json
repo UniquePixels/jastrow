@@ -1,0 +1,33 @@
+{
+	"id": "K00992",
+	"slug": "כפור-1",
+	"headword": {
+		"text": "כִּפּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּיפּ׳"
+		}
+	],
+	"page": {
+		"number": 657,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>כִּפֻּרִים</he>; <cite ref=\"K01046\"><he>כָּפַר</he></cite>)<i>redemption, atonement</i>; mostly pl. <he>כִּפּוּרִים</he>, <cite ref=\"K00030\"><he>כִּי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Meilah 2:1\">Meïl. II, 1</cite> <he>מחוסר כ׳</he> one wanting the ceremony of atonement for full restoration to cleanness; a. fr.—<he>יוֹם כִּפּוּר</he>, mostly <he>יום הַכִּפּוּרִים</he> (abbr. <he>יוה״כ</he>, <he>יה״כ</he>, <he>י״ה</he>) <i>Day of Atonement</i>, the tenth day of Tishri. ",
+				"<cite ref=\"Yoma 85b:2\">Yoma 85ᵇ</cite> <he>יום כפור</he> ed. (Ms. M. <he>יום הכפורים</he>). Y. Shebu. I, 32ᵈ bot. <he>י״ה</he> a. <he>יום הכפו׳</he>. ",
+				"<cite ref=\"Mishnah Zevachim 5:1\">Zeb. V, 1</cite>. ",
+				"<cite ref=\"Mishnah Yoma 1:1\">Yoma I, 1</cite>. ",
+				"<cite ref=\"Mishnah Yoma 1:4\">Ib. 4</cite> <he>ערב יוה״כ</he> on the eve of the Day of Atonement (the ninth of Tishri). ",
+				"<cite ref=\"Mishnah Yoma 8:9\">Ib. VIII, 9</cite> <he>אחטא … אין יה״כ מכפר</he> if one says, I will sin, and repent, the Day of At. will bring him no atonement. Y. ib. VII, 45ᵇ bot., v. <cite ref=\"A02841\"><he>אֶפֶשׁ</he></cite>; a fr.—",
+				"<cite ref=\"Sifrei Bamidbar 24:1\">Sifré Num. 24</cite> <he>ומה כפורים וכ׳</he> (= <he>יה״כ</he>) the institution of the Day of Atonement being a strict one &c.—יה״כ <i>Yom hak-Kippurim</i>, name of a treatise of the Tosefta, v. <cite ref=\"J00195\"><he>יוֹמָא</he></cite>."
+			]
+		}
+	]
+}

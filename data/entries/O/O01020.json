@@ -1,0 +1,29 @@
+{
+	"id": "O01020",
+	"slug": "סלף-1",
+	"headword": {
+		"text": "סָלַף"
+	},
+	"page": {
+		"number": 996,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"O01011\"><he>סִלְסֵל</he></cite>)<i>to twist, pervert</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִילֵּף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O01019\">same</cite>. Tanḥ. Noah 19 <he>לא תְסַלְּפוּ הדרך</he> do not pervert the way (deviate from the right path).",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

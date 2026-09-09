@@ -1,0 +1,28 @@
+{
+	"id": "K01156",
+	"slug": "כריה",
+	"headword": {
+		"text": "כְּרִיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּרִיָיה"
+		}
+	],
+	"page": {
+		"number": 666,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01095\"><he>כָּרָה</he></cite>) <i>digging</i>, esp. <i>digging a pit</i> through which an animal was injured (<cite ref=\"Exodus 21:33\">Ex. XXI, 33</cite>). Mekh. Mishp., N’zikin, s. 11; <cite ref=\"Tosefta Bava Kamma 6:13\">Tosef. B. Kam. VI, 13</cite> <he>נפל לפניו מקול כ׳</he> if the animal fell forward (into the pit) frightened by the sound of digging (within the pit), <he>נפל לאחריו מקול הכ׳</he> if it tumbled backward &c. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 49b:17\">B. Kam. 49ᵇ</cite> <he>על עסקי כ׳</he> for the act of digging a pit (although not on his own soil). ",
+				"<cite ref=\"Bava Kamma 50a:7\">Ib. 50ᵃ</cite> <he>ה״א כ׳ הוא דבעי כיסוי</he> I might have thought only when he dug the pit he is bound to cover it up; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "U01670",
+	"slug": "שעמומיתא",
+	"headword": {
+		"text": "שַׁעֲמוּמִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁעֲמִי׳"
+		}
+	],
+	"page": {
+		"number": 1611,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01669\">preced.</cite>) <i>dullness, idiocy</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:20\">Targ. Y. Deut. XXVIII, 20</cite> Ar. (ed. <cite ref=\"P01268\"><he>ערבובא</he></cite>; h. text <cite ref=\"M00355\"><he>מהומה</he></cite>); v. <cite ref=\"U01673\"><he>שַׁעֲמָמוּתָא</he></cite>.—",
+				"<cite ref=\"Nedarim 81a:1\">Ned. 81ᵃ</cite> scabs arising from neglected clothes <he>מתיא לידי ש׳</he> lead to idiocy."
+			]
+		}
+	]
+}

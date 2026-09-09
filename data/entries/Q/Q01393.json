@@ -1,0 +1,38 @@
+{
+	"id": "Q01393",
+	"slug": "פעפע-1",
+	"headword": {
+		"text": "פִּעְפֵּעַ"
+	},
+	"page": {
+		"number": 1203,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"Q01389\"><he>פְּעַע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to crush, crumble</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 1:1:20\">Y. Yoma I, 38ᶜ</cite> bot. <he>אנו פִּעְפַּעְנוּ את הכתלים</he> we (through our sins) have smashed the walls (with ref. to <cite ref=\"Psalms 137:7\">Ps. CXXXVII, 7</cite>); Midr. Till. to Ps. l. c. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:19\">Y. Sabb. VII, 9ᵈ</cite> sq. <he>המְפַעְפֵּעַ גושים</he> he that crushes clods."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to spread; to pierce, penetrate</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Orlah 1:2:9\">Y. Orl. I, 61ᵃ</cite> <he>השרשים מְפַעְפְּעִין אותו</he> the roots pierce it (the pot). ",
+				"<cite ref=\"Bava Batra 10a:12\">B. Bath. 10ᵃ</cite> <he>ברזל קשה אור מְפַעְפְּעוֹ</he> iron is hard, fire penetrates it; <cite ref=\"Kohelet Rabbah 7:26:2\">Koh. R. to VII, 26</cite> <he>והאש מְפַעְפַּעְתּוֹ</he>. ",
+				"<cite ref=\"Chullin 105a:17\">Ḥull. 105ᵃ</cite> <he>החמין מפעפעין את הידים וכ׳</he> hot water enters into the skin of the hands, but does not wash away the fatty substance. ",
+				"<cite ref=\"Eichah Rabbah 4:12\">Lam. R. to IV, 9</cite> <he>היה אותו הריח מפעפע בהם וכ׳</he> the flavor permeated them (creating a morbid appetite), and they died. ",
+				"<cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite>, v. <cite ref=\"P00742\"><he>עֶכֶן</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:15\">Y. Snh. X, 28ᵈ</cite> top <he>והיה ריחו מפעפע</he> and the flavor of wine spread. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:1:10\">Y. Ḥag. II, 77ᵇ</cite> bot.; <cite ref=\"Ruth Rabbah 6:4\">Ruth R. to III, 13</cite>; <cite ref=\"Kohelet Rabbah 7:8\">Koh. R. to VII, 8</cite>, v. <cite ref=\"K01244\"><he>כֶּרֶס</he></cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

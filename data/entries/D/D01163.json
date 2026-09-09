@@ -1,0 +1,24 @@
+{
+	"id": "D01163",
+	"slug": "דתבריא",
+	"headword": {
+		"text": "דְּתָבְרַיָּא"
+	},
+	"page": {
+		"number": 327,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. Fl. to Levy Talm. Dict. I, 440ᵇ; 444ᵇ) <i>judges</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 3:2\">Dan. III, 2</cite>.—",
+				"<cite ref=\"Shir HaShirim Rabbah 7:9:1\">Cant. R. to VII, 9</cite>, expl. <he>איסכולסטיקי</he>, v. <cite ref=\"A01466\"><he>אִיסְכּוֹלַסְטִיקָא</he></cite>."
+			]
+		}
+	]
+}

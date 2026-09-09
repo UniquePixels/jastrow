@@ -1,0 +1,56 @@
+{
+	"id": "C00849",
+	"slug": "גלא-1",
+	"headword": {
+		"text": "גַּלָּא"
+	},
+	"page": {
+		"number": 243,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00848\">same</cite><i>heap</i>. Pl. <cite ref=\"C00929\"><he>גַּלִּין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 25:2\">Targ. Is. XXV, 2</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " also <cite ref=\"C00962\"><he>גְּלָלָא</he></cite> <i>wave</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 11:1\">Koh. R. to XI, 1</cite>.—Pl. <cite ref=\"C00929\"><he>גַּלִּין</he></cite>, <cite ref=\"C00933\"><he>גַּלַּיָּא</he></cite>, <cite ref=\"C00927\"><he>גַּלֵּי</he></cite>, <cite ref=\"C00946\"><he>גְּלָלַיָּא</he></cite>, <he>גַּלְלַ׳</he>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 10:11\">Targ. Zech. X, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 42:8\">Targ. Ps. XLII, 8</cite> (some ed. <cite ref=\"C00946\"><he>גְּלִילַ׳</he></cite>); a. e. ",
+				"<cite ref=\"Targum Jonathan on Exodus 15:18\">Targ. Y. I Ex. XV, 18</cite> [read:] <he>בֵּנֵי גְּלָלַיָּיא</he> between the waves.—",
+				"<cite ref=\"Yevamot 121a:13\">Yeb. 121ᵃ</cite> <he>גלי אשפלו</he> the waves may have cast him out (alive)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>revolving door</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 112a:14\">B. Kam. 112ᵃ</cite>. ",
+				"<cite ref=\"Sanhedrin 113a:15\">Snh. 113ᵃ</cite> bot. <he>דטרקיה לגַלֵּיה וכ׳</he> who locked his door and lost the key.—Pl. <cite ref=\"C00927\"><he>גַּלֵּי</he></cite>. ",
+				"<cite ref=\"Berakhot 28a:11\">Ber. 28ᵃ</cite> <he>טרוקו ג׳</he> close ye the (college doors); <cite ref=\"Avodah Zarah 58a:1\">Ab. Zar. 58ᵃ</cite>. ",
+				"<cite ref=\"Bava Metzia 108a\">B. Mets. 108ᵃ</cite>, v. <cite ref=\"A00301\"><he>אִגְלָא</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " pl. <cite ref=\"C00933\"><he>גַּלַּיָּא</he></cite>, <cite ref=\"C00927\"><he>גַּלֵּי</he></cite> <i>excrements, ordure</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 4:12\">Targ. Ezek. IV, 12</cite>; <cite ref=\"Targum Jonathan on Ezekiel 4:15\">15</cite> (incorr. <cite ref=\"C00927\"><he>גְּלֵי</he></cite>)."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": " (v. <cite ref=\"C00901\"><he>גִּלּוּל</he></cite>) <i>Gallaya</i>, cacophemism for similarly sounding idolatrous names. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:6:3\">Y. Ab. Zar. III, 43ᵃ</cite> bot.; <cite ref=\"Tosefta Avodah Zarah 6:4\">Tosef. ib. VI</cite> (<cite ref=\"Tosefta Avodah Zarah 7:4\">VII</cite>), 4, v. <cite ref=\"C00156\"><he>גַּדָּא</he></cite> (<cite ref=\"Avodah Zarah 46a:3\">Ab. Zar. 46ᵃ</cite>; <cite ref=\"Temurah 28b:21\">Tem. 28ᵇ</cite>; v. <cite ref=\"C00932\"><he>גַּלְיָא</he> II</cite>). ",
+				"<cite ref=\"Megillah 6a:13\">Meg. 6ᵃ</cite> <he>בית גליא שלהן</he> their house of idolatry. [<he>גלין</he>, <cite ref=\"Shabbat 138a:2\">Sabb. 138ᵃ</cite>, v. <cite ref=\"C00883\"><he>גִּלָּה</he></cite>.] [<cite ref=\"Targum Jonathan on II Kings 23:6\">Targ. II Kings XXIII, 6</cite>; <cite ref=\"Jeremiah 26:23\">Jer. XXVI, 23</cite>, v. <cite ref=\"C00927\"><he>גְּלֵי</he></cite>.]"
+			],
+			"label": "5"
+		}
+	]
+}

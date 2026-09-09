@@ -1,0 +1,31 @@
+{
+	"id": "H01651",
+	"slug": "חרח",
+	"headword": {
+		"text": "חֲרַח"
+	},
+	"page": {
+		"number": 501,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H01651\"><he>חָרֵחַ</he></cite> (= h. <cite ref=\"H01658\"><he>חִרְחֵר</he></cite>) <i>to inflame</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 26:21\">Targ. Prov. XXVI, 21</cite> <he>מְחָרֵח</he> Ms. (ed. Lag. <he>מחרחר</he>, oth. ed. <he>מחרחי</he>, corr. acc.; ed. Wil. <he>מְחַרֵה</he>, fr. <cite ref=\"H01608\"><he>חֲרַהּ</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

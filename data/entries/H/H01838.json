@@ -1,0 +1,22 @@
+{
+	"id": "H01838",
+	"slug": "חשיכה-2",
+	"headword": {
+		"text": "חֲשִׁיכָה"
+	},
+	"page": {
+		"number": 510,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"H01847\"><he>חָשַׁךְ</he></cite> I <i>Hif.</i>) <i>awaiting the nightfall</i> (on the Sabbath), <i>approaching the Sabbath limit in day-time and waiting there for the night for the transaction of business</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 151a:1\">Sabb. 151ᵃ</cite> <he>רשאי אני בחֲשִׁיכָתוֹ</he> (Mish. <he>להחשיך עליו</he>) I am permitted to take the preliminary steps for it before nightfall."
+			]
+		}
+	]
+}

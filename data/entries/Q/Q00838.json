@@ -1,0 +1,29 @@
+{
+	"id": "Q00838",
+	"slug": "פירוכא-2",
+	"headword": {
+		"text": "פֵּירוּכָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פֵּר׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1170,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פְּרַךְ</he> II, v. <cite ref=\"Q00839\">next w.</cite>) [<i>dried ears</i>,] <i>sheaf</i>.—Pl. <cite ref=\"Q00840\"><he>פֵּירוּכִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 37:7\">Targ. Y. Gen. XXXVII, 7</cite>, v. <cite ref=\"K01164\"><he>כְּרִיכָא</he> II</cite>."
+			]
+		}
+	]
+}

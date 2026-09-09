@@ -1,0 +1,39 @@
+{
+	"id": "J00582",
+	"slug": "יקר-3",
+	"headword": {
+		"text": "יָקָר"
+	},
+	"page": {
+		"number": 592,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"J00581\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>heavy; dear, precious, worthy; honored</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Kamma 9:12\">Tosef. B. Kam. IX, 12</cite> <he>המתבייש מן הי׳</he> who is put to shame by a person of high dignity (opp. <cite ref=\"Q00046\"><he>פגום</he></cite>).—<i>Pl.</i> <he>יְקָרִים</he>, <he>יְקָרִין</he>. ",
+				"<cite ref=\"Bava Batra 100b:3\">B. Bath. 100ᵇ</cite>; <cite ref=\"Megillah 23b:9\">Meg. 23ᵇ</cite> (address to mourners) <he>עמדו י׳ עמודו וכ׳</he> stand up, dear friends, stand up &c. ",
+				"<cite ref=\"Menachot 44a:2\">Men. 44ᵃ</cite> <he>דמיו י׳</he> its price is high; a. fr.—",
+				"<cite ref=\"Tosefta Kelim Kamma 3:2\">Tosef. Kel. B. Kam. III, 2</cite> <he>היְקָרִין</he> R. S. to <cite ref=\"Mishnah Kelim 3:5\">Kel. III, 5</cite> (ed. <he>היקירן</he>, <he>הייקרין</he>) the heavy earthen vessels used for boiling pitch.—<i>Fem.</i> <cite ref=\"J00584\"><he>יְקָרָה</he></cite>, pl. <cite ref=\"J00586\"><he>יְקָרוֹת</he></cite>. ",
+				"<cite ref=\"Ketubot 106a:13\">Keth. 106ᵃ</cite>; <cite ref=\"Sanhedrin 43a:10\">Snh. 43ᵃ</cite> <he>נשים י׳ וכ׳</he> worthy women in Jerusalem.—V. <cite ref=\"J00574\"><he>יַקִּיר</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (noun) <i>precious object, prize; choice</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 67:2\">Gen. R. s. 67</cite> (ref. to <cite ref=\"Proverbs 12:27\">Prov. XII, 27</cite>) <he>כדי … שהוא יְקָרוֹ של עולם וכ׳</he> in order that Jacob might come who is the choice of the world &c.; <cite ref=\"Proverbs 12:27\">ib.</cite> <he>שאינם נוטלים מן יְקָרָם שלעתיד לכוא וכ׳</he> that they shall receive in this world nothing of their prize reserved for the hereafter; Yalk. ib. 115, v. <cite ref=\"H01749\"><he>חָרַץ</he></cite>.—Pl. <cite ref=\"J00586\"><he>יְקָרוֹת</he></cite>. ",
+				"<cite ref=\"Proverbs 12:27\">Ib.</cite> <he>כדי … ויטול את הברכות שהן י׳ של עולם חרוצות לו</he> in order that Jacob might come and take the blessings, which are the choice of the world, decreed to him (Gen. R. l. c. <he>שמעיקר העולם חרוצות לו</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

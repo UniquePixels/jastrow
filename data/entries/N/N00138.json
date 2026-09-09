@@ -1,0 +1,23 @@
+{
+	"id": "N00138",
+	"slug": "נגודא-4",
+	"headword": {
+		"text": "נְגוּדָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 873,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., constr. <cite ref=\"N00133\"><he>נְגוּד</he></cite> (<cite ref=\"N00118\"><he>נְגַד</he></cite>) <i>duct, canal</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 6:15\">Targ. Job VI, 15</cite> (some ed. <cite ref=\"N00154\"><he>נְגִיד</he></cite>); v. <cite ref=\"N00120\"><he>נָגְדָּא</he></cite>."
+			]
+		}
+	]
+}

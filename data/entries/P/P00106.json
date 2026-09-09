@@ -1,0 +1,45 @@
+{
+	"id": "P00106",
+	"slug": "עגן-2",
+	"headword": {
+		"text": "עֲגַן"
+	},
+	"page": {
+		"number": 1042,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00105\">same</cite>, <i>to press, tie; to seclude, imprison</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 24:22\">Targ. Is. XXIV, 22</cite> <he>וִיעַגְנוּנוּן וכ׳</he> and they shall press them into the prison house (ed. Lag. <he>ויגונונון</he>, ed. Ven. <he>ויגינונון</he>, contr. of <he>ויַעְגִּינוּ׳</he> <i>Af.</i> (?); Ar. <he>ויִעַגְּנוּן</he> <i>Ithpa.</i>; h. text <he>סֻגְּרוּ</he>).—Part. pass. <he>עָגִין</he>; pl. <he>עֲגִינִין</he>. Ib. XLII, 7. Ib. 22, v. <cite ref=\"P00107\">next w.</cite> Ib. XLIX, 9."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַגֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to make lonely, desert</i> (a wife). ",
+					"units": [
+						"<cite ref=\"Gittin 26b:5\">Gitt. 26ᵇ</cite> <he>ומְעַגַּן ומותיב לה</he> he might desert her."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְעַגֵּן", "אִיעַגֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to be secluded, tied up;</i> (of a woman) <i>to be prevented from marrying, be an</i> <he>עֲגוּנָה</he>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 19a:8\">B. Mets. 19ᵃ</cite> <he>משום דלא תִתְעַגֵּן ותתיב הוא</he> Ms. M. (ed. <he>תעגין</he>, corr. acc.) it was done in order that she might not remain a widow in life."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

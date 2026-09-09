@@ -1,0 +1,20 @@
+{
+	"id": "M00457",
+	"slug": "מוחק",
+	"headword": {
+		"text": "מוֹחֵק"
+	},
+	"page": {
+		"number": 740,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00931\"><he>מָחַק</he></cite>) <i>the flat end of the writing instrument, used for erasing</i>, v. <cite ref=\"K00418\"><he>כּוֹתֵב</he></cite>. ",
+			"units": ["<cite ref=\"Mishnah Kelim 13:2\">Kel. XIII, 2</cite>; a. e."]
+		}
+	]
+}

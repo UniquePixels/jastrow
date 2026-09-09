@@ -1,0 +1,32 @@
+{
+	"id": "N00168",
+	"slug": "נגן-1",
+	"headword": {
+		"text": "נָגַן"
+	},
+	"page": {
+		"number": 874,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>נגע</he>)<i>to strike, knock</i>, v. <cite ref=\"N00161\"><he>נְגִינָה</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִגֵּן"],
+			"senses": [
+				{
+					"gloss": " (cmp. Lat. pulso) <i>to play on a musical instrument</i>, in gen. <i>to make music</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 63b:1\">Ber. 63ᵇ</cite> <he>חנניה יְנַגֵּן בכנור</he> let Hananiah play on the harp (act as a Levite). ",
+						"<cite ref=\"Midrash Tehillim 113\">Midr. Till. to Ps. CXIII</cite>; <cite ref=\"Yalkut Shimoni on Nach 872\">Yalk. Ps. 872</cite> <he>והייתי מְנַגֶּנֶת לך</he> and I (Israel) was singing unto thee; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

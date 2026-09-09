@@ -1,0 +1,43 @@
+{
+	"id": "A02462",
+	"slug": "אסלא-2",
+	"headword": {
+		"text": "אַסְלָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אַסְלָה"
+		},
+		{
+			"text": "עַסְלָא"
+		}
+	],
+	"page": {
+		"number": 94,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A02460\"><he>אסל</he></cite>, <he>עסל</he>, dial. for <he>אצל</he>, <he>עצל</he>, cmp. <cite ref=\"N00709\"><he>נִיסֵל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>foot-stool, folding stool</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 138a:2\">Sabb. 138ᵃ</cite> <he>מטה וכסא טרסקל וא׳</he> (Ms. M. <he>וערסלא</he>, Alf. <he>איסקלא</he>, v. Rabb. D. S. a. l. note, v. <cite ref=\"I00854\"><he>טְרִסְקֵל</he></cite>) couch, folding chair, and foot-stool."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>privy, iron frame of a privy-stool</i> covered, with leather. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 22:10\">Kel. XXII, 10</cite> <he>הא׳</he> (Var. in R. S. <he>הסלא</he>); <cite ref=\"Eruvin 10b\">Erub. 10ᵇ</cite> <cite ref=\"P00001\"><he>ע׳</he></cite> ed. (Ar. <he>א׳</he>); <cite ref=\"Tosefta Keilim Batra 1:4\">Tosef. Kel. B. Bath. I, 4</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

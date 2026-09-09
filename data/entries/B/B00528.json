@@ -1,0 +1,22 @@
+{
+	"id": "B00528",
+	"slug": "בטנון",
+	"headword": {
+		"text": "בָּטְנוֹן"
+	},
+	"page": {
+		"number": 158,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בטן</he>) a musical instrument, a sort of <i>bagpipe;</i> (oth. opin.) <i>cittern fastened around the body;</i> (oth. opin.) <i>workingman’s pinafore</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 15:6\">Kel. XV, 6</cite> (Ar. <he>בטנים</he>, oth. vers. <cite ref=\"B00497\"><he>בטונין</he></cite>, <cite ref=\"B00513\"><he>בטינין</he></cite>, v. Ar. Compl. ed. Koh. s. v.)."
+			]
+		}
+	]
+}

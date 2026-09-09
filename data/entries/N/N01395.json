@@ -1,0 +1,38 @@
+{
+	"id": "N01395",
+	"slug": "נתר-4",
+	"headword": {
+		"text": "נֶתֶר"
+	},
+	"page": {
+		"number": 946,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.;<cite ref=\"N01394\">preced.</cite> ; v. esp. ",
+			"units": [
+				"<cite ref=\"Nazir 42a\">Naz. 42ᵃ</cite> quot. quot. in <cite ref=\"N01394\">preced.</cite>) "
+			]
+		},
+		{
+			"gloss": " (<i>nitron</i>,) <i>natron, native carbonate of soda</i> (v. Sm. Bibl. Dict. s. v. Nitre, a. Sm. Ant. s. v. Nitron). ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 9:5\">Sabb. IX, 5</cite>; <cite ref=\"Mishnah Niddah 9:6\">Nidd. IX, 6</cite>. ",
+				"<cite ref=\"Niddah 62a:9\">Ib. 62ᵃ</cite>; <cite ref=\"Shabbat 90a:3\">Sabb. 90ᵃ</cite>, v. <cite ref=\"A01895\"><he>אֲלֶכְסַנְדְּרִי</he></cite> a. <cite ref=\"A02191\"><he>אַנְטִיפַּטְרִית</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " כלי נ׳ <i>a vessel made of alum crystals</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 2:1\">Kel. II, 1</cite>. ",
+				"<cite ref=\"Avodah Zarah 33b:6\">Ab. Zar. 33ᵇ</cite> (expl. <he>כלי מחפורת וכ׳</he>, v. <cite ref=\"M00913\"><he>מַחְפּוֹרֶת</he></cite>); a. fr. [v., however, Maim. to Kel. l. c.]"
+			],
+			"label": "2"
+		}
+	]
+}

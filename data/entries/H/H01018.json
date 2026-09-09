@@ -1,0 +1,65 @@
+{
+	"id": "H01018",
+	"slug": "חלחל-1",
+	"headword": {
+		"text": "חִלְחֵל"
+	},
+	"page": {
+		"number": 466,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; Pilp. of <cite ref=\"H01073\"><he>חלל</he></cite>)<i>to penetrate into cavities; to perforate</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 7b\">Sot. 7ᵇ</cite>; <cite ref=\"Bamidbar Rabbah 9:33\">Num. R. s. 9</cite> <he>מְחַלְחֵל ויורד</he> (the powder on a wound) penetrates and goes down (into the body). ",
+				"<cite ref=\"Bereishit Rabbah 98:14\">Gen. R. s. 98</cite> <he>ריסו מח׳ וכ׳</he> its venom penetrates (the body of the bitten one) after (the serpent’s) death."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to shake, roll</i> (in a vessel &c.); <i>to rinse</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makhshirin 3:6\">Makhsh. III, 6</cite> <he>ח׳ לתוכן</he> if he washed olives by rolling them in the rain water.—<i>Part. pass.</i> <he>מְחוּלְחָל</he>, f. <he>מְחוּלְחֶלֶת</he> <i>hollow, blown up</i>; <i>loosely put in</i>. Oh. IX, 7 <he>כלי מח׳</he> a hollow vessel (not packed entirely), opp. <he>אֲפוּצָה</he>. ",
+				"<cite ref=\"Mishnah Kelim 10:3\">Kel. X, 3</cite> <he>מגופת החבית המח׳ וכ׳</he> (Bart. <he>המִתְחַלְחֶ׳</he>) the stopper of a keg which can be moved around, without, however, falling out of itself. Teb. Yom I, 1; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְחַלְחֵל"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpalp</i>. <he>נִתְהַלְחֵל</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to permeate</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 9:23\">Num. R. s. 9</cite> <he>שהם מִתְחַלְחֲלִים וכ׳</he> that they will permeate all her limbs."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be shaken in a hollow space, to be thrown about</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Mikvaot 4:3\">Mikv. IV, 3</cite> <he>היו צרורות מתח׳ וכ׳</he> if pebbles rolled about in the spout."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be permeated</i> (with poison) <i>to be affected, injured</i>. Y. B. Kam. I, beg. 2ᵇ <he>ונתח׳ כולו</he> and the whole of it is damaged (by the heat &c.).",
+					"units": [],
+					"label": "3"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"H00987\"><he>חָלָה</he></cite>) <i>to be weakened, be neutralized</i>. Y. Ter. VIII, 46ᵃ top <he>ע״י מליחה מתח׳</he> through salting it, the poison is neutralized.",
+					"units": [],
+					"label": "4"
+				}
+			],
+			"stem": "Hithpalp."
+		}
+	]
+}

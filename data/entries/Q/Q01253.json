@@ -1,0 +1,32 @@
+{
+	"id": "Q01253",
+	"slug": "פסח-1",
+	"headword": {
+		"text": "פָּסַח"
+	},
+	"page": {
+		"number": 1193,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to leap over; to spare</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15:23\">Ex. R. s. 15</cite> <he>שאני פוֹסֵחַ עליכם ומגין וכ׳</he> I (the Lord) will pass over and protect you. ",
+				"<cite ref=\"Mishnah Pesachim 10:5\">Pes. X, 5</cite> <he>פֶּסַח על שום שפ׳ המקום וכ׳</he> the Passover lamb is symbolical of the fact that the Lord passed over the houses &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִפְסַח"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"Q01255\"><he>פִּסֵּחַ</he></cite>) <i>to become lame</i>. Y. Ber. I, 3ᶜ bot. <he>ונ׳ ונתרפא</he> and became lame, but was cured; <cite ref=\"Bereishit Rabbah 39\">Gen. R. s. 39</cite>; a. e.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

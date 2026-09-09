@@ -1,0 +1,27 @@
+{
+	"id": "N01348",
+	"slug": "נשר-4",
+	"headword": {
+		"text": "נֶשֶׁר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 942,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"N01345\"><he>נָשַׁר</he></cite> <i>Pi.</i>) <i>eagle</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 13b:5\">Ḥag. 13ᵇ</cite> <he>מּלך שבעופות נ׳</he> the king of birds is the eagle. ",
+				"<cite ref=\"Chullin 60b:16\">Ḥull. 60ᵇ</cite> sq. (ref. to <cite ref=\"Leviticus 11:13\">Lev. XI, 13</cite>) <he>נ׳ מה נ׳ וכ׳</he> the text specifies the eagle to intimate, as the eagle has no additional toe …, so all birds like him are unclean. ",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:31\">Y. Peah I, 15ᵈ</cite> top <he>נ׳ שהוא רחמן</he> the eagle who is kind (to his young ones); <cite ref=\"Yalkut Shimoni on Nach 963:2\">Yalk. Prov. 963</cite>. Mekh. Yithro, Baḥod., s. 2; a. fr.—",
+				"<cite ref=\"Sanhedrin 12a:6\">Snh. 12ᵃ</cite> (in a secret letter) <he>ותפשו נ׳</he> and the eagle (Roman) caught them (the messengers, v. <cite ref=\"N01124\"><he>נְצִיב</he></cite>).—Pl. <he>נְשָׁרִים</he>. ",
+				"<cite ref=\"Sanhedrin 92b:1\">Ib. 92ᵇ</cite> <he>עושה להם כנפים כנ׳ וכ׳</he> he shall give them (the righteous) wings like those of the eagles, and they shall soar &c.; a. e."
+			]
+		}
+	]
+}

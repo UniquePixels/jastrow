@@ -1,0 +1,46 @@
+{
+	"id": "J00642",
+	"slug": "ירך-1",
+	"headword": {
+		"text": "יָרֵךְ"
+	},
+	"page": {
+		"number": 597,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", constr. <he>יֶרֶךְ</he> f. (b. h.; cmp. <cite ref=\"A03124\"><he>ארך</he></cite>) [<i>length-side</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>haunch, thigh</i>, i.e. “the thick and fleshy member which commences at the bottom of the spine and extends to the lower leg (<cite ref=\"U00522\"><he>שׁוֹק</he></cite>)” (Ges. H. Dict. s. v.). ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 7:1\">Ḥull. VII, 1</cite> <he>נוהג בי׳ של ימין</he> applies to the right leg. ",
+				"<cite ref=\"Mishnah Chullin 7:2\">Ib. 2</cite> <he>שולח אדם י׳ וכ׳</he> one may send to a gentile a haunch with the nervus ischiadicus (v. <cite ref=\"C00626\"><he>גִּיד</he></cite>) in it. ",
+				"<cite ref=\"Sotah 11b:15\">Sot. 11ᵇ</cite>; <cite ref=\"Shemot Rabbah 1:14\">Ex. R. s. 1</cite> <he>י׳ מכאן וי׳ מכאן וכ׳</he> a leg on one side, and a leg on the other, and the potter’s mould between; a. fr.—Y. Pes. VII, beg. 34ᵃ <he>כיָרֵיךְ עבה עבד וכ׳</he> R. J … wants the Passover lamb roasted like a thick (stuffed) thigh.—יוצאי י׳ <i>descendants</i>. ",
+				"<cite ref=\"Mishnah Bava Batra 8:2\">B. Bath. VIII, 2</cite> <he>כל יוצאי יְרֵיכוֹ של בן וכ׳</he> all direct descendants of the (deceased) son (male heir) have the precedence to the daughter (the decedent’s sister); a. fr.—<i>Du.</i> <he>יְרֵכַיִם</he>. ",
+				"<cite ref=\"Tosefta Ohalot 3:4\">Tosef. Ohol. III, 4</cite>, sq.—Pl. <he>יְרֵיכוֹת</he>. Sot. l. c.; Ex. R. l. c. (expl. <he>אָבְנַיִם</he>, <cite ref=\"Exodus 1:16\">Ex. I, 16</cite>) <he>בשעה … יְרֵכיֹתֶיהָ … כאבנים</he> when a woman is about to give birth, her thighs grow cold like stones."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>side</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 69:2\">Gen. R. s. 69</cite>, v. <cite ref=\"H00175\"><he>חָדד</he></cite>. ",
+				"<cite ref=\"Megillah 13a:23\">Meg. 13ᵃ</cite> <he>אין אשה … בי׳ של חבירתה</he> a woman is made jealous only by the side of another woman (rival). "
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>the perpendicular stroke of a letter, leg</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:6\">Y. Meg. I, 71ᶜ</cite> top <he>יְרֵיכוֹ של ה״א</he> the leg (stroke on the left side) of the <i>He</i>; <cite ref=\"Jerusalem Talmud Megillah 1:9:6\">ib.</cite> <he>י׳ קטנה</he> a small indication of it. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:6\">Ib.</cite> <he>אם גורדו … י׳ קטנה</he> if he erases the (blotted letter <i>Gimmel</i>) and there remains a slight leg (indication of the vertical stroke connecting the head of the <i>Gimmel</i> with its foot).—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Gittin 20a:12\">Gitt. 20ᵃ</cite>, v. <cite ref=\"H01563\"><he>חָקַק</he></cite>. ",
+				"<cite ref=\"Shabbat 138b:8\">Sabb. 138ᵇ</cite> <he>כירה … אחת מִיְּרֵכוֹתֶיהָ</he> a portable stove one of whose legs is off."
+			],
+			"label": "3"
+		}
+	]
+}

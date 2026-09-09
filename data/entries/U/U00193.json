@@ -1,0 +1,23 @@
+{
+	"id": "U00193",
+	"slug": "שבשבת",
+	"headword": {
+		"text": "שַׁבְשֶׁבֶת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1519,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"U00192\">same</cite>, esp. a <i>twig smeared with a paste, lime-twig</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:4\">Sabb. VIII, 4</cite> (<cite ref=\"Shabbat 78b:2\">78ᵇ</cite>) <he>דבק כדי ליתן בראש הש׳</he> Mish. a. Y. ed. (Bab. ed. <he>השַׁפְשָׁף</he>) as much paste as is required to put on the top of the lime-twig. Ib. 80ᵃ <he>בראש ש׳ שבראש וכ׳</he> Ms. M. (ed. <he>שפשף</he>, v. Rabb. D. S. a. l. note 3), v. <cite ref=\"U01810\"><he>שַׁפְשָׁף</he></cite>.—[<cite ref=\"Eichah Rabbah 5\">Lam. R. to V, 16</cite> <he>ר׳ ירמיה דש׳</he> some ed., v. <cite ref=\"U00195\"><he>שְׁבִשְׁתָּא</he></cite>."
+			]
+		}
+	]
+}

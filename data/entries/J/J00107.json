@@ -1,0 +1,77 @@
+{
+	"id": "J00107",
+	"slug": "ידע-2",
+	"headword": {
+		"text": "יְדַע"
+	},
+	"page": {
+		"number": 565,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"J00106\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 4:1\">Targ. Gen. IV, 1</cite>; a. fr.—",
+				"<cite ref=\"Onkelos Genesis 30:26\">Ib. XXX, 26</cite>; a. fr:—Fut. <cite ref=\"J00107\"><he>יִדַּע</he></cite>, <cite ref=\"N00236\"><he>יִנְדַּע</he></cite> (fr. <cite ref=\"N00236\"><he>נדע</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 39:5\">Targ. Ps. XXXIX, 5</cite> <he>אִידַּע</he> Ms. (ed. <he>אֵידַע</he>). ",
+				"<cite ref=\"Onkelos Exodus 8:6\">Targ. Ex. VIII, 6</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 33b:19\">Ber. 33ᵇ</cite> <he>אנא לא האי יְדַעְנָע</he> I learned nothing either about this &c. ",
+				"<cite ref=\"Sanhedrin 103a:8\">Snh. 103ᵃ</cite> (prov.—of one who derives no lesson from adversity or success) <he>בכיי ליה למר ולא י׳ וכ׳</he> Ms. M. (ed. <he>דלא</he>, v. Rabb. D. S. a. l.) they lament to you and you understand it not, they laugh to you and you understand it not; <he>וי ליה למאן דלא י׳ וכ׳</he> (not <he>למר</he>) woe to him who knows not the difference between good and evil; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אוֹדַע", "הוֹדַע"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"J00106\">preced.</cite> <i>Hif.</i> ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 33:13\">Targ. Ex. XXXIII, 13</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 106:8\">Targ. Ps. CVI, 8</cite> <he>לאוֹדָעָה</he> (Ms. <he>לאַנְדָּ׳</he>, v. supra); a. fr.—",
+						"<cite ref=\"Sanhedrin 11b:3\">Snh. 11ᵇ</cite> <he>מְהוֹדְעִין אנחנא וכ׳</he> we (the Sanhedrin) notify you &c.; Y. ib. I, 18ᵈ top <he>מוֹדַעְנָא</he>; Tosef. ib. II, 6 <he>מְהוֹדַעְנָא</he> (Var. <he>מְהוֹדְעֵי אנחנא</he>). ",
+						"<cite ref=\"Shabbat 33b:6\">Sabb. 33ᵇ</cite> <he>מאן לוֹדְעֵיה לבר וכ׳</he> (Ms. M. <he>מוֹדְעֵיה</he>) Oh, that some one would inform the son of Yoḥai &c. ",
+						"<cite ref=\"Nedarim 62a:10\">Ned. 62ᵃ</cite> <he>לאוֹדוּעֵי נפשיה</he> to make one’s self known (as a scholar). ",
+						"<cite ref=\"Bereishit Rabbah 11:5\">Gen. R. s. 11</cite> <he>מנאן את מוֹדַע לי</he> (some ed. <he>מְיַדַּע</he>) how will you prove it to me?; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["יַדַּע"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"J00106\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 3:6:3\">Cant. R. to III, 6</cite> <he>לינא מְיַדַּע לדין וכ׳</he> shall I not let him know with whom he is dealing?. ",
+						"<cite ref=\"Bereishit Rabbah 11\">Gen. R. s. 11</cite>, v. supra.—<i>Part. pass.</i> <he>מְיַדַּע</he> <i>friend</i>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 88:9\">Targ. Ps. LXXXVIII, 9</cite> <he>מְיַדְּעַי</he> Ms. (ed. <he>מיודעי</he>, hebraism)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְיְרַע"],
+			"senses": [],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִתְיַדַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to be made known, to make one’s self known</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 45:1\">Targ. O. Gen. XLV, 1</cite>. ",
+						"<cite ref=\"Onkelos Genesis 41:21\">Ib. XLI, 21</cite>; a. fr.—[<cite ref=\"Targum Jonathan on Deuteronomy 21:11\">Targ. Y. Deut. XXI, 11</cite> <he>תתידעון</he>, read: <he>תיתרעון</he>, as in v. 14.]—",
+						"<cite ref=\"Horayot 2a:18\">Hor. 2ᵃ</cite> <he>כי מִתְיַדַּע להו לבי דינא</he> if the court were made aware of it. ",
+						"<cite ref=\"Shabbat 71b:4\">Sabb. 71ᵇ</cite> <he>א׳ ליה קודם וכ׳</he> he became aware of it before setting the sacrifice aside; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

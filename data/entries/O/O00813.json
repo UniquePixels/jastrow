@@ -1,0 +1,27 @@
+{
+	"id": "O00813",
+	"slug": "סיקורא",
+	"headword": {
+		"text": "סִיקוֹרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִיקוּרְיָא"
+		}
+	],
+	"page": {
+		"number": 986,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (securis) <i>hatchet</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 19:5\">Targ. Y. I Deut. XIX, 5</cite>, <cite ref=\"Targum Jerusalem, Deuteronomy 19:5\">Targ. Y. II, Deut. XIX, 5</cite>."
+			]
+		}
+	]
+}

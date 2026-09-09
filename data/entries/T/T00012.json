@@ -1,0 +1,42 @@
+{
+	"id": "T00012",
+	"slug": "ראי-2",
+	"headword": {
+		"text": "רֳאִי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "רוֹאִי"
+		}
+	],
+	"page": {
+		"number": 1436,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T00011\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sight</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Horayot 2:5\">Tosef. Hor. II, 5</cite>; <cite ref=\"Gittin 58a:9\">Gitt. 58ᵃ</cite> <he>תינוק … יפה עינים וטוב ר׳</he> there is a boy in prison … ‘fair of eyes and goodly to look upon’ (<cite ref=\"I Samuel 16:12\">I Sam. XVI, 12</cite>). ",
+				"<cite ref=\"Vayikra Rabbah 20:1\">Lev. R. s. 20</cite>, beg. (ref. to I Sam. l. c.) <he>טוב ר׳ בהלכה וכ׳</he> ‘goodly to look upon’ in legal decision; whoever looked up to him recalled what he had learned."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"E00857\"><he>הֲרֵי</he> I</cite>) <i>aspect, nature of a case</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 3b:19\">B. Kam. 3ᵇ</cite> sq. <he>לא ר׳ הקרן … כר׳ השן וכ׳</he> the case of goring, when nobody is benefited by the damage done, is not analogous to the case of damage by the tooth &c. ",
+				"<cite ref=\"Zevachim 5a:15\">Zeb. 5ᵃ</cite> <he>לא ר׳ זה כר׳ זה … הצד השוה וכ׳</he> the nature of this (the burnt-offering) is not analogous to the nature of that (the guilt-offering): what is common to both is that &c.; <cite ref=\"Kiddushin 21a:6\">Kidd. 21ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

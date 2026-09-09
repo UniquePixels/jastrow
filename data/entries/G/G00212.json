@@ -1,0 +1,24 @@
+{
+	"id": "G00212",
+	"slug": "זונרא",
+	"headword": {
+		"text": "זוֹנָרָא"
+	},
+	"page": {
+		"number": 388,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ζωνάριον) <i>belt</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 31:24\">Targ. Prov. XXXI, 24</cite> (ed. Wil. <cite ref=\"G00195\"><he>זונארא</he></cite>).—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:19\">Y. Snh. X, 29ᵃ</cite> top hast thou any claim on us <he>אלא הדין ז׳ וכ׳</he> except this belt and this cloak (insignia of office)?—Pl. <he>זוֹנָרִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:4:4\">Y. Sabb. VI, 8ᵇ</cite> bot. (expl. <he>חריטים</he>, <cite ref=\"Isaiah 3:22\">Is. III, 22</cite>) <he>ז׳ מציירין</he> girdles embroidered with figures."
+			]
+		}
+	]
+}

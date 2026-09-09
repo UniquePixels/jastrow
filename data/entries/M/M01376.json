@@ -1,0 +1,45 @@
+{
+	"id": "M01376",
+	"slug": "מכיך",
+	"headword": {
+		"text": "מַכִּיךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַכִּיכָא"
+		},
+		{
+			"text": "מַכִּיכְתָּא"
+		}
+	],
+	"page": {
+		"number": 782,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01387\"><he>מְכַךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>low</i>; <i>lowly, humble</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 13:20\">Targ. Lev. XIII, 20</cite>, sq.—",
+				"<cite ref=\"Aramaic Targum to Proverbs 18:14\">Targ. Prov. XVIII, 14</cite> (ed. Wil. <cite ref=\"M01389\"><he>מְכִכְתָּא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 17:27\">Ib. XVII, 27</cite>; a. fr.—Pl. <he>מַכִּיכִין</he>, <he>מַכִּיכַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 57:15\">Targ. Is. LVII, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 5:11\">Targ. Job V, 11</cite>; a. fr.—",
+				"<cite ref=\"Shir HaShirim Rabbah 4:4:4\">Cant. R. to IV, 4</cite>, v. <cite ref=\"M01375\">preced.</cite> ["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bolster, cushion</i>, v. <cite ref=\"M01388\"><he>מַכָּכָא</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

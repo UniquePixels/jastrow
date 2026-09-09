@@ -1,0 +1,106 @@
+{
+	"id": "U01586",
+	"slug": "שני-4",
+	"headword": {
+		"text": "שְׁנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁנָא"
+		}
+	],
+	"page": {
+		"number": 1605,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01585\">same</cite><i>to repeat</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 26:8\">Targ. I Sam. XXVI, 8</cite> ed. Wil. (v. <cite ref=\"V00743\"><he>תְּנֵי</he></cite>).—",
+				"<cite ref=\"Sanhedrin 59a:10\">Snh. 59ᵃ</cite> <he>ולמה לי למִישְׁנֵי בסיני</he> and why is it repeated at Sinai?; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to change; to be different</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 34:7\">Targ. O. Deut. XXXIV, 7</cite>.—",
+				"<cite ref=\"Vayikra Rabbah 22:3\">Lev. R. s. 22</cite> <he>כל מאי דהוה הדין ש׳ הדין ש׳</he> as the one (the mosquito) changed, so did the other (Titus) change. ",
+				"<cite ref=\"Yevamot 21b:12\">Yeb. 21ᵇ</cite> <he>או דילמא לא שנא</he> (abbrev. <he>ל״ש</he>) or is there no difference (between the wife of a brother on the mother’s side and that of a brother on the father’s side)? <cite ref=\"Sukkah 29b:5\">Succ. 29ᵇ</cite> <he>ל״ש ביו״ט … ול״ש וכ׳</he> no difference whether it is the first Holy Day or the second. ",
+				"<cite ref=\"Sukkah 30a:1\">Ib. 30ᵃ</cite> <he>ל״ש לפני וכ׳</he> no difference whether before &c. ",
+				"<cite ref=\"Shabbat 6a:1\">Sabb. 6ᵃ</cite> <he>הכי נמי ל״ש</he> in this case, too, it is the same; a. v. fr.—Yeb. l. c. <he>מאי ש׳ הני מאי ש׳ הא</he> (abbrev. <he>מ״ש</he>) what difference is there between the former and the latter? <cite ref=\"Shabbat 4a:2\">Sabb. 4ᵃ</cite> <he>ומאי ש׳</he> and wherein lies the difference? <cite ref=\"Shabbat 2b:4\">Ib. 2ᵇ</cite> <he>מ״ש הכא … ומ״ש התם וכ׳</he> wherein lies the difference (what reason is there) that the Mishnah says here, ‘two which are four within, and two which are four without’, and there (<cite ref=\"Mishnah Shevuot 1:1\">Shebu. I, 1</cite>) only, ‘two which are four’?; a. fr.—<i>Part.</i> <cite ref=\"U00038\"><he>שָׁאנֵי</he></cite> <i>it is different</i>. ",
+				"<cite ref=\"Sukkah 21b:4\">Succ. 21ᵇ</cite> <he>ש׳ שוורים הואיל וכ׳</he> it is different in the case of oxen, because &c. ",
+				"<cite ref=\"Shabbat 7b:5\">Sabb. 7ᵇ</cite> <he>ש׳ צרור וכ׳</he> it is different with bundles and other objects &c. ",
+				"<cite ref=\"Keritot 11a:72\">Ker. 11ᵃ</cite> <he>והכא ש׳</he> but here it is different; a. v. fr.—V. <cite ref=\"U01590\"><he>שׁנִיא</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁנֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to change; to act strangely</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 41:14\">Targ. Gen. XLI, 14</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 89:35\">Targ. Ps. LXXXIX, 35</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 34:1\">Ib. XXXIV, 1</cite>. ",
+						"<cite ref=\"Targum Jerusalem, Deuteronomy 32:5\">Targ. Y. II, Deut. XXXII, 5</cite>; a. fr.—[<cite ref=\"Targum Jerusalem, Deuteronomy 32:41\">Ib. 41</cite> <he>אישני</he>, read: <he>אישנן</he>, v. <cite ref=\"U01602\"><he>שְׁנַן</he></cite>.—",
+						"<cite ref=\"Targum Jonathan on Judges 20:16\">Targ. Jud. XX, 16</cite> <he>משנן</he>, read: <he>משגן</he>, v. <cite ref=\"U00222\"><he>שְׁגֵי</he></cite>.]—",
+						"<cite ref=\"Taanit 24b:9\">Taan. 24ᵇ</cite> <he>שַׁנִּי דוכתיך</he> change thy place; <he>ש׳ דוכתיה</he> he changed his place. ",
+						"<cite ref=\"Keritot 11a:41\">Ker. 11ᵃ</cite> <he>לישנא דשׁנּוּיֵי</he>, v. <cite ref=\"H01739\"><he>חָרַף</he></cite>. ",
+						"<cite ref=\"Beitzah 30a:10\">Bets. 30ᵃ</cite> <he>כמה דאפשר לשנויי מְשַׁנִּינָן וכ׳</he> as much as it is feasible to change (the mode of doing a thing), we must change on the Holy Day; <cite ref=\"Shabbat 128b\">Sabb. 128ᵇ</cite>; <cite ref=\"Shabbat 117b:9\">ib. 117ᵇ</cite> <cite ref=\"M02946\"><he>מְשַׁנִּין</he></cite>. Bets. l. c. <he>והא הני נשי … ולא מְשַׁנְּיָין וכ׳</he> but there are those women that fill their pitchers … without any change, and we say nothing to them (to interfere)! <cite ref=\"Sanhedrin 96a:1\">Snh. 96ᵃ</cite> top <he>שני נפשך</he> (Rashi <cite ref=\"U01586\"><he>אַשְׁנִי</he></cite>) disguise thyself; <he>במאי אִישַׁנֵּי</he> how shall I disguise (myself)?; <cite ref=\"Yalkut Shimoni on Nach 276:1\">Yalk. Is. 276</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to reply</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 7b:5\">Sabb. 7ᵇ</cite> <he>זימנין מְשַׁנֵּי לה וכ׳</he> at times he replied to it (met the objection by saying) &c. ",
+						"<cite ref=\"Shabbat 3b:1\">Ib. 3ᵇ</cite> <he>דמשני לך</he>; <cite ref=\"Ketubot 98b:3\">Keth. 98ᵇ</cite> <he>דשַׁנִּינָן</he>, v. <cite ref=\"U00974\"><he>שִׁינּוּיָא</he></cite>. ",
+						"<cite ref=\"Pesachim 20b:19\">Pes. 20ᵇ</cite> <he>ומְשַׁנֵּי שאני התם וכ׳</he> and he answered, it is different in that case; a. fr.—",
+						"<cite ref=\"Shevuot 21a:1\">Shebu. 21ᵃ</cite> top <he>כדשני ליה</he> (Rashi <he>כדמשני</he>) as he (Abayi) replied to him (R. Papa, further below)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַשְׁנֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to change, act strangely</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Malachi 3:6\">Targ. Mal. III, 6</cite>. Targ. O. a. Y. I <cite ref=\"Deuteronomy 32:5\">Deut. XXXII, 5</cite>; a. fr.—[<cite ref=\"Aramaic Targum to Psalms 71:17\">Targ. Ps. LXXI, 17</cite> <cite ref=\"U01586\"><he>אשני</he></cite>, read with ed. Lag. <he>אתני</he>.]—",
+						"<cite ref=\"Sanhedrin 96a:4\">Snh. 96ᵃ</cite> top, v. supra."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִשְׁתַּנֵּי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּנֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be changed</i>. Targ. Deut. l. c. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 4:1\">Targ. Lam. IV, 1</cite>; a. e.—",
+						"<cite ref=\"Sanhedrin 71b:2\">Snh. 71ᵇ</cite> <he>נימא הואיל וא׳ א׳</he> let us say, because his status has changed, he is a different person (not responsible for acts committed in his previous condition); <he>האי דינו א׳ מיתתו לא א׳</he> this man’s legal status has changed, but the mode of his execution is not affected thereby. ",
+						"<cite ref=\"Sanhedrin 71b:2\">Ib.</cite> <he>הואיל וא׳ א׳ … דא׳ לגמרי</he> because a change has taken place (by her becoming of age), she is a different person (and the mode of her execution must be different): so much the more here (in the case of a proselyte) where a complete change has taken place. Ib. 96ᵃ <he>א׳ אפיה והוה וכ׳</he> his face changed, and he looked like a dog. ",
+						"<cite ref=\"Shabbat 36a\">Sabb. 36ᵃ</cite> <he>הני … א׳ שמייהו וכ׳</he> the names of the following three things have changed since the destruction of the Temple; <cite ref=\"Sukkah 34a\">Succ. 34ᵃ</cite>; a. e."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

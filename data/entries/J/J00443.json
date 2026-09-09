@@ -1,0 +1,33 @@
+{
+	"id": "J00443",
+	"slug": "ינן",
+	"headword": {
+		"text": "יָנַן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 581,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>נענע</he> a. <cite ref=\"J00438\"><he>יְנִי</he> II)</cite> (neut. verb) <i>to move quickly; to glisten, be bright</i>.",
+			"units": [],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יִינֵּן"],
+			"senses": [
+				{
+					"gloss": " (= <he>נענע</he>) <i>to shake, awaken, stir up</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 32:2\">Pirké d’R. El. ch. XXXII</cite> the Messiah is named <i>Yinnon</i> (v. <cite ref=\"J00430\"><he>יִנּוֹן</he></cite>) <he>שהוא עתיר ליַינֵּן ישני עפר</he> (Mus. quotes <he>לִינוֹן</he> <i>Kal</i>, cmp. <he>לִישוֹן</he> fr. <cite ref=\"J00696\"><he>ישן</he></cite>, <cite ref=\"Ecclesiastes 5:11\">Koh. V, 11</cite>) for he will awaken those sleeping in the dust; <cite ref=\"Midrash Tehillim 93:2\">Midr. Till. to Ps. XCIII</cite> <he>לִינוֹן</he> (missing in ed. Bub.); <cite ref=\"Yalkut Shimoni on Nach 200:1\">Yalk. Kings 200</cite> <he>עתיד ליינן רשעי ארץ</he> he will stir up the wicked of the earth; <cite ref=\"Yalkut Shimoni on Torah 45:1\">Yalk. Gen. 45</cite> <he>ליַאנֵּן לעבו״ם</he>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

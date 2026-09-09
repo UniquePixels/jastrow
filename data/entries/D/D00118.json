@@ -1,0 +1,32 @@
+{
+	"id": "D00118",
+	"slug": "דגן-2",
+	"headword": {
+		"text": "דְּגַן"
+	},
+	"page": {
+		"number": 280,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִידְּגַן</he> <i>to be piled up, stored</i>. ",
+					"units": [
+						"<cite ref=\"Nedarim 55a:2\">Ned. 55ᵃ</cite> shall we judge (fr. R. Meir’s opinion VII, 2, v. <cite ref=\"D00117\">preced.</cite>) <he>כל דמִידְּגַן משמע</he> <i>dagan</i> implies everything which is piled up?—",
+						"<cite ref=\"Berakhot 47b\">Ber. 47ᵇ</cite>; <cite ref=\"Beitzah 13b\">Bets. 13ᵇ</cite> <cite ref=\"E00010\"><he>האי</he></cite> (<cite ref=\"D00792\"><he>אִדְּ׳</he></cite>) <he>אי׳ וכ׳</he> the one (the piled up) has become <i>dagan</i>, the other (standing in the ears) is not yet <i>dagan</i> (with ref. to <cite ref=\"Numbers 18:27\">Num. XVIII, 27</cite>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

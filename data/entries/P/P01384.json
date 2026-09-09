@@ -1,0 +1,24 @@
+{
+	"id": "P01384",
+	"slug": "ערל-2",
+	"headword": {
+		"text": "עָרֵל"
+	},
+	"page": {
+		"number": 1119,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"P01387\"><he>עָרְלָה</he></cite>) [<i>covered</i>,] <i>uncircumcised; gentile</i>. Mekh. Bo s. 15 (ref. to <cite ref=\"Exodus 12:43\">Ex. XII, 43</cite>) <he>אבל ישראל ע׳ שומע וכ׳</he> I might deduce from this that an uncircumcised Israelite may pertake of the Passover lamb; <cite ref=\"Pesachim 96a:19\">Pes. 96ᵃ</cite> <he>אבל ע׳ דלבו לשמים</he> but an uncircumcised Israelite whose heart is directed towards heaven (and who remained uncircumcised, because his older brothers had died from circumcision). ",
+			"units": [
+				"<cite ref=\"Mishnah Yevamot 8:1\">Yeb. VIII, 1</cite> <he>הע׳ וכל וכ׳</he> an uncircumcised priest, and all unclean persons must not eat T’rumah. ",
+				"<cite ref=\"Tosefta Chullin 1:1\">Tosef. Ḥull. I, 1</cite> <he>אפי׳ ע׳</he> even an uncircumcised Israelite; <cite ref=\"Chullin 5a:6\">Ḥull. 5ᵃ</cite> <he>האי ע׳ היכי וכ׳</he> what is meant by this <i>ʿarel?</i> Do you mean an Israelite whose brothers died from circumcision? <cite ref=\"Pesachim 92a:9\">Pes. 92ᵃ</cite> <he>ע׳ נכרי</he> an uncircumcised gentile (a proselyte that was circumcised on the eve of Passover); <he>ע׳ ישראל</he> an Israelite that was circumcised on the eve of Passover; a. fr.—[<cite ref=\"Jerusalem Talmud Sheviit 7:2:3\">Y. Shebi. VII, end, 37ᶜ</cite> <he>חוץ מן הערל</he>, read: <he>העֲדָל</he>.]—Pl. <he>עֲרֵלִים</he>. Mekh. l. c. <he>עבדים ע׳</he> (not <he>וע׳</he>) uncircumcised slaves. ",
+				"<cite ref=\"Mishnah Nedarim 3:11\">Ned. III, 11</cite> <he>קונם … לע׳ מותר בעַרְלֵי ישראל</he> he who vows that he will not receive any benefits from uncircumcised persons, is permitted benefits from uncircumcised Israelites, and forbidden benefits from circumcised gentiles (the word <i>ʿărelim</i> being meant only for non-Jews; v. <cite ref=\"P01387\"><he>עָרְלָה</he></cite>); a. fr."
+			]
+		}
+	]
+}

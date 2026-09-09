@@ -1,0 +1,31 @@
+{
+	"id": "R00335",
+	"slug": "צייד-2",
+	"headword": {
+		"text": "צַיָּיד",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צַיָּידָא"
+		},
+		{
+			"text": "צַיָּד׳"
+		}
+	],
+	"page": {
+		"number": 1276,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00334\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 79:6\">Gen. R. s. 79</cite> <he>חמא חד צ׳ קאים וצָיֵיד וכ׳</he> saw a fowler stand catching birds; <cite ref=\"Jerusalem Talmud Sheviit 9:1:13\">Y. Shebi. IX, 38ᵈ</cite>. ",
+				"<cite ref=\"Moed Katan 11a:19\">M. Kat. 11ᵃ</cite> <he>אדא צ׳</he> Ada the fisher; a. fr.—Pl. <he>צַיָּידִין</he>, <cite ref=\"R00335\"><he>צַיָּד׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 33:21\">Targ. Is. XXXIII, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 16:16\">Targ. Jer. XVI, 16</cite>."
+			]
+		}
+	]
+}

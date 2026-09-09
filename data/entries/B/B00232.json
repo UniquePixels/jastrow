@@ -1,0 +1,29 @@
+{
+	"id": "B00232",
+	"slug": "בוטיתא",
+	"headword": {
+		"text": "בּוּטִּיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּיטִּיתָא"
+		}
+	],
+	"page": {
+		"number": 144,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B00502\"><he>בטט</he></cite>; cmp. <cite ref=\"B00228\"><he>בּוֹטְטָא</he></cite>) <i>flower-bud of the caper tree, capers</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 36b:12\">Ber. 36ᵇ</cite> <he>ושקליה לניצא דפרחא וחייא בו׳</he> Ar. (ed. <he>לפרחא דבי׳ ואיקיים …</he> Ms. M. … <he>לניצא דפרחא והויא בי׳</he>) the blossom of the caper was cut off, but the bud survived. [Ib. 58ᵃ <he>בו׳ דנורא</he> Ms. M. read <cite ref=\"B00230\"><he>בּוֹטִיטָא</he></cite>, v. <cite ref=\"B00228\"><he>בּוֹטְטָא</he></cite>.]—Pl. <cite ref=\"B00232\"><he>בּוּטְיָתָא</he></cite>, <cite ref=\"B00585\"><he>בִּיטְיָתָא</he></cite>. ",
+				"<cite ref=\"Chullin 59a:3\">Ḥull. 59ᵃ</cite> <he>שב ב׳ וכ׳</he> seven blossoming capers (Rashi: stones of the caper fruit). ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 4:4:6\">Y. Maasr. IV, end, 51ᶜ</cite> <he>מרימין … בי׳</he> to remove the buds. [<cite ref=\"Jerusalem Talmud Pesachim 1:1:7\">Y. Pes. I, beg. 27ᵃ</cite> <he>באילין בוטיתא</he>, v. <cite ref=\"B00507\"><he>בְּטִיטָא</he></cite>.]"
+			]
+		}
+	]
+}

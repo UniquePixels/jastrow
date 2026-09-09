@@ -1,0 +1,33 @@
+{
+	"id": "I00667",
+	"slug": "טפס-1",
+	"headword": {
+		"text": "טָפַס"
+	},
+	"page": {
+		"number": 548,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"I00674\"><he>טָפַף</he> I</cite>) <i>to join;</i> part. <cite ref=\"I00208\"><he>טוֹפֵס</he></cite> q. v.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִטַּפֵּס"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"I00634\"><he>טְפַז</he></cite>) <i>to seize with hands or feet, to climb</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Tahorot 7:10\">Tosef. Toh. VII, 10</cite> <he>הרבים מִטַּפְּסִין וכ׳</he> many climb (over the fences) and walk therein. ",
+						"<cite ref=\"Eruvin 21a:3\">Erub. 21ᵃ</cite> <he>אדם מִטַּפֵּס ועולה מט׳ וכ׳</he> a human being may climb up and down; Y. ib. IX, beg. 25ᶜ <he>כמִטַּרְפֵּס וכ׳</he> (fr. <cite ref=\"I00881\"><he>טִרְפֵּס</he></cite>) it is as in the case of accessibility by climbing &c. ",
+						"<cite ref=\"Bava Batra 11b:3\">B. Bath. 11ᵇ</cite> <he>מטפס וכ׳</he> Ms. M. a. oth. (ed. <he>מטפיס</he>, corr. acc., v. Rabb. D. S. a. l. note) the chicken climbs &c. Cmp. <cite ref=\"V00843\"><he>תָּפַס</he></cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

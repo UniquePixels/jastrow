@@ -1,0 +1,34 @@
+{
+	"id": "J00658",
+	"slug": "ירקא",
+	"headword": {
+		"text": "יַרְקָא"
+	},
+	"page": {
+		"number": 598,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"J00657\">same</cite>, <i>herb</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 11:10\">Targ. Deut. XI, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 21:2\">Targ. I Kings XXI, 2</cite>; a. e.—",
+				"<cite ref=\"Menachot 85a:3\">Men. 85ᵃ</cite> (prov.) <he>לבית י׳ י׳ שקול</he> Ms. M. (Ms. L. <he>למַת</he>, ed. <he>למתא</he>) to Herbtown carry herbs.—Pl. <he>יַרְקִין</he>, <he>יַרְקַיָּא</he>, <he>יַרְקֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 15:19\">Targ. Y. Ex. XV, 19</cite> (ed. Amst. <he>יִרְקֵי</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:23\">Targ. Y. Deut. XXVIII, 23</cite>.—",
+				"<cite ref=\"Rosh Hashanah 20a:9\">R. Hash. 20ᵃ</cite> <he>משום י׳</he> on account of the herbs (which would spoil by lying over two days, if the Day of Atonement would immediately precede or follow the Sabbath)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (adj.) <i>green</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 28:19\">Targ. Job XXVIII, 19</cite> <he>מרגלא י׳</he> (h. text <cite ref=\"Q00496\"><he>פטדה</he></cite>, v. <cite ref=\"J00663\"><he>יַרְקָן</he></cite>).—Pl. <he>יַרְקִין</he>, <i>fem.</i> <cite ref=\"J00663\"><he>יַרְקַן</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 1:6\">Targ. Esth. I, 6</cite>.—",
+				"<cite ref=\"Onkelos Leviticus 14:37\">Targ. O. Lev. XIV, 37</cite> (Y. <cite ref=\"J00245\"><he>יוּרְקַן</he></cite>), v. <cite ref=\"J00609\"><he>יָרוֹקָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

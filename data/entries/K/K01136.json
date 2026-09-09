@@ -1,0 +1,36 @@
+{
+	"id": "K01136",
+	"slug": "כרז-2",
+	"headword": {
+		"text": "כְּרַז"
+	},
+	"page": {
+		"number": 665,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַכְרֵיז</he> same. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jonah 3:7\">Targ. Jon. III, 7</cite> (h. text <he>ויזעק</he>); a. fr.—",
+						"<cite ref=\"Aramaic Targum to Psalms 105:16\">Targ. Ps. CV, 16</cite> Ms. (ed. <he>ואכלי</he>, v. <he>כְּלֵי</he> II). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 24:3\">Targ. Y. Deut. XXIV, 3</cite> <he>אַכְרִיזוּ וכ׳</he> it has been announced (decreed) in heaven.—",
+						"<cite ref=\"Kiddushin 81a:5\">Kidd. 81ᵃ</cite> <he>מר זוטרא מלקי ומַכְרִיז</he> M. Z. punished (a woman for being closeted with a man) and published the fact (in order to protect her children’s legitimacy). ",
+						"<cite ref=\"Kiddushin 81a\">Ib.</cite> <he>אי לאו דקא מַכְרִיזֵי</he> (<he>מַכְרְזֵי</he>) <he>וכ׳</he> if it had not been called out in heaven, Beware of R. M. &c. ",
+						"<cite ref=\"Yoma 72b\">Yoma 72ᵇ</cite>, a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

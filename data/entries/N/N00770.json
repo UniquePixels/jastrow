@@ -1,0 +1,41 @@
+{
+	"id": "N00770",
+	"slug": "ניקור",
+	"headword": {
+		"text": "נִיקּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִקּ׳"
+		}
+	],
+	"page": {
+		"number": 908,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נָקַר</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>picking, biting; chiselling</i>.—נ׳ עינים <i>putting out the eyes</i>. Pesik. Aḥăré, p. 168ᵇ; <cite ref=\"Vayikra Rabbah 20\">Lev. R. s. 20</cite>; Tanḥ. Vaëthḥ. 1; <cite ref=\"Kohelet Rabbah 8:17\">Koh. R. to VIII, 17</cite>.—נ׳ אבנים <i>chiselling of stones</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 46b\">Sot. 46ᵇ</cite>.—Esp. <i>the picking</i> or <i>biting</i> done by birds, snakes &c., <i>traces of biting</i>. ",
+				"<cite ref=\"Avodah Zarah 35a:8\">Ab. Zar. 35ᵃ</cite> (<cite ref=\"N00519\"><he>נחש</he></cite>) <he>משום נ׳</he> because a serpent may have touched it. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:33\">Y. Ter. VIII, 46ᵃ</cite> top <he>דג נ׳</he> a fish showing traces of bites; a. fr.—Pl. <he>נִיקּוּרִים</he>, <he>נִיקּוּרִין</he>, <cite ref=\"N00763\"><he>נִקּ׳</he></cite>. ",
+				"<cite ref=\"Mishnah Terumot 8:6\">Ter. VIII, 6</cite> <he>נִיקּוּרֵי תאנים וכ׳</he> figs &c. which appear to have been bitten at (possibly by snakes); <cite ref=\"Tosefta Terumot 7:16\">Tosef. ib. VII, 16</cite> <he>נ׳ תבשיל וכ׳</he> a dish &c. showing traces of bites. ",
+				"<cite ref=\"Kiddushin 80a\">Kidd. 80ᵃ</cite>, sq. <he>נמצאו נ׳ נ׳ וכ׳</he> the dough shows that it has been pecked at (by chickens); a. fr.—Esp. <i>niḳḳurin, laws concerning food suspected of having been touched by snakes</i>. Y. Ter. l. c.; v. <cite ref=\"A02728\"><he>אֲפַּךְ</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pl. worm-eaten cloth, shreds</i>. Midr. Sam. ch. XXII (some ed. <he>ניקוד׳</he>, corr. acc.); Yalk. ib. 129, v. <cite ref=\"B01205\"><he>בְּרוּקְלֵי</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

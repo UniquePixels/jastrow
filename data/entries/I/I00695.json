@@ -1,0 +1,31 @@
+{
+	"id": "I00695",
+	"slug": "טקס-1",
+	"headword": {
+		"text": "טָקַס"
+	},
+	"page": {
+		"number": 549,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>טִיקַּס</he> (v. <he>טכס</he>) [<i>to stuff, press</i>,] <i>to harness, equip</i>.—Part. pass. <he>מְטוּקָּס</he>, f. <he>מְטוּקֶּסֶת</he>, pl. <he>מְטוּקָּסִּין</he>, <he>מְטוּקָּסוֹת</he>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> <he>אין צב אלא מט׳ וכ׳</he> wagons of <i>tsab</i> (<cite ref=\"Numbers 7:3\">Num. VII, 3</cite>) means fully equipped, nothing wanting; <cite ref=\"Sifrei Bamidbar 45\">Sifré Num. 45</cite>; <cite ref=\"Yalkut Shimoni on Torah 713\">Yalk. ib. 713</cite>; <cite ref=\"Shir HaShirim Rabbah 6:4\">Cant. R. to VI, 4</cite> <he>מְטוּכָּס׳</he>; <cite ref=\"Yalkut Shimoni on Nach 372\">Yalk. Is. 372</cite> <he>מטוכ׳</he>.—V. <cite ref=\"I00696\">next w.</cite> end."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

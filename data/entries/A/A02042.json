@@ -1,0 +1,32 @@
+{
+	"id": "A02042",
+	"slug": "אמנה-2",
+	"headword": {
+		"text": "אֲמָנָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 78,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. (b. h.) <i>Amanah, Abanah</i> (Banas), a river crossing the city of Damascus. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 5:12\">Targ. II Kings V, 12</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"A02041\"><he>אֲמָנָה</he></cite>, (<cite ref=\"A02045\"><he>אמנם</he></cite>) <cite ref=\"A02043\"><he>אֲמָנוֹס</he></cite>, <cite ref=\"A02043\"><he>אֲמָנוֹן</he></cite> <i>Amanah</i>, hellenized <i>Amanos, Amanon</i> &c. (Banias), a mountain range forming the northern limits of the Holy Land. ",
+			"units": [
+				"<cite ref=\"Tosefta Terumot 2:12\">Tosef. Ter. II, 12</cite> <cite ref=\"A02043\"><he>אמנוס</he></cite> (Var. <cite ref=\"A02043\"><he>אמנון</he></cite>, <cite ref=\"O01118\"><he>סמנון</he></cite>). ",
+				"<cite ref=\"Tosefta Terumot 2:12\">Ib.</cite> ",
+				"<cite ref=\"Mishnah Challah 2:11\">Ḥall. II, 11</cite> <cite ref=\"A02043\"><he>אמנוס</he></cite> (Var. <cite ref=\"A02043\"><he>אמנון</he></cite>). ",
+				"<cite ref=\"Gittin 8a\">Git. 8ᵃ</cite> <he>ון …</he> (Ar. <he>אמנים</he>, <cite ref=\"O01121\"><he>סמנים</he></cite>); <cite ref=\"Jerusalem Talmud Challah 4:4:7\">Y. Ḥall. IV, 60ᵃ</cite> bot. <cite ref=\"A02045\"><he>אמנם</he></cite> (ref. to <cite ref=\"A02041\"><he>אמנה</he></cite> <cite ref=\"Song of Songs 4:8\">Cant. IV, 8</cite>). ",
+				"<cite ref=\"Mishnah Sheviit 6:1\">Shebi. VI, 1</cite>; <cite ref=\"Mishnah Challah 4:8\">Ḥall. IV, 8</cite> (Ms. M. <he>ם …</he>); <cite ref=\"Shemot Rabbah 23:5\">Ex. R. s. 23</cite>.  v. <cite ref=\"I00137\"><he>טַוְורוֹס</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "M01197",
+	"slug": "מילת-3",
+	"headword": {
+		"text": "מֵילַת",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵילְתָא"
+		}
+	],
+	"page": {
+		"number": 775,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01196\">same</cite> (interch. with <cite ref=\"M01162\"><he>מֵילָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fine wool</i>, also <i>a cloak of fine wool</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:18\">Targ. Ez. XXVII, 18</cite> (v. <cite ref=\"K00050\"><he>כְּבֵינָא</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 49:11\">Targ. O. Gen. XLIX, 11</cite>, v. <cite ref=\"M01162\"><he>מֵילָא</he> I</cite>; a. e.—",
+				"<cite ref=\"Sanhedrin 44a\">Snh. 44ᵃ</cite>; <cite ref=\"Moed Katan 28b\">M. Kat. 28ᵇ</cite>, v. <cite ref=\"A02376\"><he>אִסְטְלָא</he></cite>.—Pl. <he>מֵילָתִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Esther 1:6\">Targ. Esth. I, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 2:20\">Targ. Lam. II, 20</cite> ed. Lag. (ed. <he>מִילָתֵיה</he>, read: <he>מֵילָתַיָּה</he>).—<cite ref=\"M01197\"><he>מֵילָתָא</he></cite>. ",
+				"<cite ref=\"Shabbat 10b:6\">Sabb. 10ᵇ</cite>, v. <cite ref=\"L00119\"><he>לְבֵשׁ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ear-lap</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 21b\">Kidd. 21ᵇ</cite>, v. <cite ref=\"M01196\">preced.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

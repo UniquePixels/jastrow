@@ -1,0 +1,27 @@
+{
+	"id": "O00743",
+	"slug": "סינרא",
+	"headword": {
+		"text": "סִינָּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִנָּ׳"
+		}
+	],
+	"page": {
+		"number": 983,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O00742\">preced.</cite>) = <cite ref=\"R00615\"><he>צִנּוֹרָא</he> I</cite>, <i>door-socket.—</i>Pl. <he>סִינָּרֵי</he>. ",
+			"units": [
+				"<cite ref=\"Shabbat 67a:1\">Sabb. 67ᵃ</cite> <he>שבעה … שבעה ס׳</he> seven specimens of earth from under seven door-sockets; v. <cite ref=\"O00654\"><he>סִיכְרָא</he> I</cite>."
+			]
+		}
+	]
+}

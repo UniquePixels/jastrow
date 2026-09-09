@@ -1,0 +1,27 @@
+{
+	"id": "O00162",
+	"slug": "סגעא",
+	"headword": {
+		"text": "סִגְעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִיגְ׳"
+		}
+	],
+	"page": {
+		"number": 955,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00161\">preced.</cite>) <i>greatness, multitude</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 5:11\">Targ. Ps. V, 11</cite>, v. <cite ref=\"O00140\"><he>סְגִיעוּתָא</he></cite>.—Pl. m. <he>סִגְעֵי</he>, v. <cite ref=\"O00254\"><he>סוּגְעָא</he></cite>."
+			]
+		}
+	]
+}

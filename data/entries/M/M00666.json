@@ -1,0 +1,23 @@
+{
+	"id": "M00666",
+	"slug": "מורסא",
+	"headword": {
+		"text": "מוּרְסָא"
+	},
+	"page": {
+		"number": 750,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"A03208\"><he>אֶרֶס</he></cite>) <i>abscess</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 2:5\">Eduy. II, 5</cite>; <cite ref=\"Tosefta Eduyot 1:8\">Tosef. ib. I, 8</cite>, a. e., v. <cite ref=\"Q01339\"><he>פָּסַס</he></cite>. ",
+				"<cite ref=\"Gittin 69b\">Gitt. 69ᵇ</cite> <he>למ׳</he> a remedy for an abscess."
+			]
+		}
+	]
+}

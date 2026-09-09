@@ -1,0 +1,25 @@
+{
+	"id": "A01325",
+	"slug": "אימה-3",
+	"headword": {
+		"text": "אֵימָה"
+	},
+	"page": {
+		"number": 50,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"A01317\"><he>אָיַם</he></cite>)<i>fear, awe</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 9:33\">Num. R. s. 9</cite>; <cite ref=\"Jerusalem Talmud Sotah 1:1:2\">Y. Sot. I, beg. 16ᵇ</cite> <he>אלא מתוך דבר של אמה</he> (read <cite ref=\"A01323\"><he>אימה</he></cite>) but from a solemn conversation (v., however, Maim. ",
+				"<cite ref=\"Mishnah Sotah 4:18\">Sotah IV, 18</cite> a. comment.). ",
+				"<cite ref=\"Rosh Hashanah 17a:11\">R. Hash. 17ᵃ</cite>; a. fr.—Pl. <he>אֵימוֹת</he>. ",
+				"<cite ref=\"Shabbat 77b:7\">Sabb. 77ᵇ</cite> <he>חמש א׳ הן</he> there are five sorts of fear. [Tanḥ. Tsav 2 (<he>אימות</he>) <he>אימת שירוף</he>, v. <cite ref=\"A01332\"><he>אִימּוּס</he></cite>.]"
+			]
+		}
+	]
+}

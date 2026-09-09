@@ -1,0 +1,39 @@
+{
+	"id": "A02041",
+	"slug": "אמנה-1",
+	"headword": {
+		"text": "אֲמָנָה"
+	},
+	"page": {
+		"number": 77,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"A02040\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>faith, trust</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 48b:9\">B. Bath. 48ᵇ</cite>; <cite ref=\"Ketubot 19b:5\">Keth. 19ᵇ</cite> if witnesses say <he>א׳ היו דברינו</he> our statement (over our signatures as to having seen the loan handed over) was a matter of trust (that the negotiation would be consummated afterwards). ",
+				"<cite ref=\"Ketubot 19b:3\">Ib.</cite> <he>שטר א׳</he> a bill of indebtedness signed on trust (that the loan would be consummated subsequently). ",
+				"<cite ref=\"Bava Metzia 63a:6\">B. Mets. 63ᵃ</cite> <he>א׳ בפירות</he> advanced payment at present prices for future delivery; <he>א׳ בדמים</he> with the option of paying the difference. ",
+				"<cite ref=\"Bereishit Rabbah 100:9\">Gen. R. s. 100</cite> end, <he>שמר א׳</he> to deal in good faith with. ",
+				"<cite ref=\"Tosefta Bava Batra 5:8\">Tosef. B. Bath. V, 8</cite> <he>אֲמָנַת המדות</he> honesty in measures. ",
+				"<cite ref=\"Bava Metzia 49a:9\">B. Mets. 49ᵃ</cite> <he>מחוסרי א׳</he> (the way of) those lacking honesty (unfair dealing); <cite ref=\"Bekhorot 13b:14\">Bekh. 13ᵇ</cite> <he>מחוסר א׳</he>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>faith in Providence</i>. Mekh. B’shall. s. 6, v. <cite ref=\"E00017\"><he>הַאֲמָנָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Sotah 48b:19\">Sot. 48ᵇ</cite> <he>אנשי א׳</he> men of faith, trusting in God; <cite ref=\"Sotah 48b:19\">ib.</cite> <he>קטני א׳</he> wanting in faith; <cite ref=\"Bereishit Rabbah 32:6\">Gen. R. s. 32</cite> <he>מחוסר א׳</he> same; a. fr. Cmp. <cite ref=\"A02001\"><he>אֱמוּנָה</he></cite>, <cite ref=\"E00017\"><he>הַאֲמָנָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

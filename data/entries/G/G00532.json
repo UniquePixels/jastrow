@@ -1,0 +1,28 @@
+{
+	"id": "G00532",
+	"slug": "זמם-7",
+	"headword": {
+		"text": "זְמָם",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "זָמֵם"
+		}
+	],
+	"page": {
+		"number": 403,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זָמַם</he> I) <i>false testimony</i>. ",
+			"units": [
+				"<cite ref=\"Makkot 2b:15\">Macc. 2ᵇ</cite> <he>בגניבתו ולא בזְמָמוֹ</he> ‘one is sold for theft’ (<cite ref=\"Exodus 22:2\">Ex. XXII, 2</cite>), but not for false testimony (which might eventually have caused the sale of the alleged thief); Y. Sot. III, end, 19ᵇ; <cite ref=\"Tosefta Makkot 1:1\">Tosef. Macc. I, 1</cite> <he>בזְמֵימוֹ</he>."
+			]
+		}
+	]
+}

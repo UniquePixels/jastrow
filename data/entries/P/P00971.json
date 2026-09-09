@@ -1,0 +1,69 @@
+{
+	"id": "P00971",
+	"slug": "עני-2",
+	"headword": {
+		"text": "עֲנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲנָא"
+		},
+		{
+			"text": "עֲנָה"
+		}
+	],
+	"page": {
+		"number": 1093,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P00970\">same</cite> Targ. II Esth. VI, 10. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 12:7\">Targ. I Kings XII, 7</cite>.—",
+				"<cite ref=\"Aramaic Targum to Psalms 34:5\">Targ. Ps. XXXIV, 5</cite> (Ms. <cite ref=\"P00989\"><he>עַנְיָינִי</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 102:3\">Ib. CII, 3</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sukkah 3:10:3\">Y. Succ. III, 54ᵃ</cite> top <he>מה נַעְנֵי</he> what shall we say in response? <cite ref=\"Jerusalem Talmud Sukkah 3:10:3\">Ib.</cite> <he>ר׳ יונה ע׳ הכין והכין</he> R. J. responded, so be it, and so be it. ",
+				"<cite ref=\"Avodah Zarah 18a:16\">Ab. Zar. 18ᵃ</cite> bot. <he>אימא אלהא דמאיר עֲנֵנִי</he> say, O God of Meïr, hear me; a. fr.—[<cite ref=\"Menachot 17a:7\">Men. 17ᵃ</cite> <he>עני מרי</he>, v. <cite ref=\"P00227\"><he>עֲנֵי</he> II</cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַנֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to speak</i> or <i>sing in chorus; to respond</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 15:21\">Targ. O. Ex. XV, 21</cite>. Targ. II Esth. VI, 11."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְעַנֵּי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְעֲנֵי", "אִיעֲנֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be answered</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 19:19\">Targ. O. Ex. XIX, 19</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 21:13\">Targ. Prov. XXI, 13</cite> <he>נתעני</he> ed. Wil. (ed. Lag. <he>נַעֲנוֹי</he> will answer him; h. text <cite ref=\"J00491\"><he>יֵעָנֶה</he></cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (euphem.) <i>to be gratified, be eased</i>. Y. Shebi. III, 34ᶜ bot. <he>ההן דאזיל ולא מִתְעַנֵּי …</he> he who went out to ease his bowels without success; [perhaps to be read <he>מתפני</he>, v. <cite ref=\"Q01189\"><he>פְּנֵי</he></cite>?]",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

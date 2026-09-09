@@ -1,0 +1,35 @@
+{
+	"id": "U01145",
+	"slug": "שכיבה",
+	"headword": {
+		"text": "שְׁכִיבָה"
+	},
+	"page": {
+		"number": 1573,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01114\"><he>שָׁכַב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lying down, lying position</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 11a:2\">Ber. 11ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 6:7\">Deut. VI, 7</cite>) <he>בשעת ש׳ ש׳ ממש וכ׳</he> at the time of lying down, (and) literally in a reclining position, and at the time of rising, (and) literally in an erect position (must the Sh’mʿa be recited, v. <cite ref=\"S01002\"><he>קִימָה</he></cite> a correct quot. acc.). Ib. 4ᵇ <he>מקיש ש׳ לקימה וכ׳</he> the text (Deut. l. c.) puts lying down parallel to rising, as at rising (in the morning) the reading of the Sh’mʿa precedes the prayer (<cite ref=\"V00831\"><he>תְּפִלָּה</he></cite>), <he>אף ש׳ וכ׳</he> so at lying down (in the evening) the reading of the Sh’mʿa precedes &c. Ib. <he>מאי קימה … אף ש׳ נמי סמוך למיטתו</he> as in the morning the Sh’mʿa is read near the bed (immediately after rising), so in the evening the Sh’mʿa is read near the bed (before going to bed). Y. ib. I, 3ᶜ <he>מפני שכתוב בה ש׳ וקימה</he> because lying down and rising are mentioned therein (in the chapter of Balaam, <cite ref=\"Numbers 23:24\">Num. XXIII, 24</cite>; <cite ref=\"Numbers 24:9\">XXIV, 9</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Gittin 3:1:5\">Y. Gitt. III, 44ᵈ</cite> top; <cite ref=\"Tosefta Keilim Metsia 1:14\">Tosef. Kel. B. Mets. I, 14</cite> <he>אחת לש׳ וכ׳</he> one mattress to lie on, and another &c.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>lying with, carnal connection</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 54b:7-12\">Snh. 54ᵇ</cite> (ref. to <cite ref=\"Leviticus 18:23\">Lev. XVIII, 23</cite>) <he>לא תתן שְׁכָבְתְּךָ … שְׁכִיבָתְךָ</he> thou shalt not give thy <i>sh’khobeth</i> means, thou shalt not allow thy lying with (any connection, either active or passive); <cite ref=\"Yalkut Shimoni on Torah 348\">Yalk. Ex. 348</cite>; <cite ref=\"Yalkut Shimoni on Torah 599\">Yalk. Lev. 599</cite>. Snh. l. c. <he>לדברי … שכבתך ושכיבתך חדא היא</he> according to R. ʿAk. he is guilty of one act only, for thy <i>sh’khobeth</i> and thy <i>sh’khibah</i> are the same."
+			],
+			"label": "2"
+		}
+	]
+}

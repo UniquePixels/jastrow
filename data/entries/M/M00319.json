@@ -1,0 +1,20 @@
+{
+	"id": "M00319",
+	"slug": "מדף-1",
+	"headword": {
+		"text": "מֵדֵף"
+	},
+	"page": {
+		"number": 735,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דפף</he>; v. <cite ref=\"D00952\"><he>דּף</he></cite>) <i>clap-board, trap</i> for birds. ",
+			"units": ["<cite ref=\"Mishnah Kelim 23:5\">Kel. XXIII, 5</cite>."]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "U01439",
+	"slug": "שמועא-2",
+	"headword": {
+		"text": "שָׁמוֹעָא"
+	},
+	"page": {
+		"number": 1592,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01512\"><he>שְׁמַע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>listening, attentive</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 21:28\">Targ. Prov. XXI, 28</cite> (some ed. <cite ref=\"U01440\"><he>שָׁמוּעָה</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>one that surrenders himself to the enemy, deserter.—</i>Pl. <he>שָׁמוֹעַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 25:11\">Targ. II Kings XXV, 11</cite>; <cite ref=\"Targum Jonathan on Jeremiah 52:15\">Targ. Jer. LII, 15</cite> Kimḥi (ed. <cite ref=\"U01476\"><he>שְׁמִיעיָּא</he></cite>; h. text <he>הנפלים</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>reporter of a tradition.—</i>Pl. <he>שָׁמוֹעִין</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:2:3\">Y. Ber. V, 9ᵇ</cite> bot. <he>לא בגין … ש׳ וכ׳</he> not because you are two reporters (is this the adopted law), but because of &c."
+			],
+			"label": "3"
+		}
+	]
+}

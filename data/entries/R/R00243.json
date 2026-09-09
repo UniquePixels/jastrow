@@ -1,0 +1,23 @@
+{
+	"id": "R00243",
+	"slug": "צור-4",
+	"headword": {
+		"text": "צוּר",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1271,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00242\">preced.</cite> wds.) [<i>twist</i>,] <he>צ׳ דקל</he> <i>band made of palm-bark</i> (cmp. <cite ref=\"N01146\"><he>נֵצֶר</he> III</cite>).—Pl. constr. <he>צוּרֵי</he>. ",
+			"units": [
+				"<cite ref=\"Shabbat 90b:3\">Sabb. 90ᵇ</cite> <he>צ׳ דקל שתים</he> (Ms. M. <he>צַוָּארֵי</he>; Ar. <cite ref=\"R00762\"><he>צָרֵי</he></cite>) he who carries palm-bands abroad (on the Sabbath), has transgressed the law by carrying two strips."
+			]
+		}
+	]
+}

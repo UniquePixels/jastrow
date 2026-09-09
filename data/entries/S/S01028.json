@@ -1,0 +1,24 @@
+{
+	"id": "S01028",
+	"slug": "קינומא",
+	"headword": {
+		"text": "קִינוּמָא"
+	},
+	"page": {
+		"number": 1363,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קנם</he> <i>to establish</i>, cmp. <he>קנן</he>; v. P. Sm. 3667 s. v. <he>קנום</he>) <i>covenant, oath</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 23:1\">Targ. II Chr. XXIII, 1</cite> (ed. Wil. <cite ref=\"S00885\"><he>קִיּוּמָא</he></cite>). ",
+				"<cite ref=\"Targum of II Chronicles 15:15\">Ib. XV, 15</cite> (ed. Lag. <cite ref=\"S00447\"><he>קוֹנָּמָא</he></cite>); a. e.—Pl. <he>קִינוּמִין</he>, constr. <he>קִינוּמֵי</he>. ",
+				"<cite ref=\"Targum of II Chronicles 34:24\">Ib. XXXIV, 24</cite>."
+			]
+		}
+	]
+}

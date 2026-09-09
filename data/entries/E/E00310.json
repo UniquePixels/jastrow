@@ -1,0 +1,38 @@
+{
+	"id": "E00310",
+	"slug": "הטבה",
+	"headword": {
+		"text": "הֲטָבָה"
+	},
+	"page": {
+		"number": 342,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00107\"><he>טוב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>doing good</i>, esp. <i>a vow to benefit one’s self</i> (or <i>others</i>), opp. <cite ref=\"T00889\"><he>הרעה</he></cite> self-abnegation (or harm to others). ",
+			"units": [
+				"<cite ref=\"Mishnah Shevuot 3:5\">Shebu. III, 5</cite> <he>דברים שיש בהן הרעה או ה׳</he> vows in which a self-abnegation or an enjoyment is implied. ",
+				"<cite ref=\"Shevuot 27a:7\">Ib. 27ᵃ</cite> <he>מה ה׳ רשות וכ׳</he> as well as the vow of enjoyment refers to something religiously indifferent, so &c. ",
+				"<cite ref=\"Shevuot 27a:10\">Ib.</cite> <he>הֲטָבַת אחרים</he> a vow comprising a benefit to others; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. ",
+			"units": [
+				"<cite ref=\"Exodus 30:7\">Ex. XXX, 7</cite>) <i>preparing, trimming</i>. ",
+				"<cite ref=\"Yoma 14b\">Yoma 14ᵇ</cite>; <cite ref=\"Yoma 33a\">ib. 33ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 32:2\">Lev. R. s. 32</cite>; <cite ref=\"Shir HaShirim Rabbah 2:14:4\">Cant. R. to II, 14</cite>, a. e. (ref. to <he>היטיבו</he>, <cite ref=\"Deuteronomy 18:17\">Deut. XVIII, 17</cite>) <he>ה׳ כהֲטָבַת הנרות</he> a well considered word (which has its effect) like well-trimmed lights; <he>כה׳ הקטורת</he> like the well-prepared frank-incense."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "C00846",
+	"slug": "גיתא",
+	"headword": {
+		"text": "גֵּיתָא"
+	},
+	"page": {
+		"number": 243,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גאה</he>, cmp. <cite ref=\"C00262\"><he>גֵּו</he></cite>, <cite ref=\"C00358\"><he>גּוֹי</he></cite>) [<i>growth, accrued property,</i>] <i>herd, flock</i> (corresp. to h. <cite ref=\"M02434\"><he>מִקְנֶה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 28:1\">Targ. I Chr. XXVIII, 1</cite>.—Pl. <he>גֵּיתִין</he>, <cite ref=\"C00847\"><he>גֵּיתֵי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Amos 1:1\">Targ. Am. I, 1</cite>. ",
+				"<cite ref=\"Onkelos Genesis 46:34\">Targ. Gen. XLVI, 34</cite>; a. fr.—",
+				"<cite ref=\"Nedarim 38a:14\">Ned. 38ᵃ</cite> (quot. fr. Targ. Am. l. c.)."
+			]
+		}
+	]
+}

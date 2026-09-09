@@ -1,0 +1,51 @@
+{
+	"id": "N00367",
+	"slug": "נום-3",
+	"headword": {
+		"text": "נוּם"
+	},
+	"page": {
+		"number": 887,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N00366\">same</cite> <cite ref=\"Targum Jonathan on Isaiah 5:27\">Targ. Is. V, 27</cite>; a. e.—Part. <cite ref=\"N00019\"><he>נָאִים</he></cite>, <he>נָיֵים</he>, <cite ref=\"N00669\"><he>נָיֵם</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 121:3\">Targ. Ps. CXXI, 3</cite>, sq. <he>ינום</he> Ms. (ed. <cite ref=\"N00669\"><he>נָיֵם</he></cite>, <cite ref=\"N00019\"><he>נאים</he></cite>).—",
+				"<cite ref=\"Eruvin 65a:14\">Erub. 65ᵃ</cite> <he>לא בעי מר מֵינַם פורתא</he> would you not take a little nap? <cite ref=\"Eruvin 65a:14\">Ib.</cite> <he>השתא … ונֵינוּם טובא</he> soon will come the days which are long and yet short (of deeds), when we shall have a long sleep. ",
+				"<cite ref=\"Pesachim 120b:3\">Pes. 120ᵇ</cite> <he>מינם קא נאים מר</he> were you asleep?, v. infra. ",
+				"<cite ref=\"Yevamot 24b\">Yeb. 24ᵇ</cite>, a. fr. <he>כי ניים ושכיב וכ׳</he> Rab must have said so when he was sleepy and going to bed; <cite ref=\"Bava Kamma 47b\">B. Kam. 47ᵇ</cite>; <cite ref=\"Bava Kamma 65a\">65ᵃ</cite> (Ms. M. <cite ref=\"C00028\"><he>גאני</he></cite>, v. <cite ref=\"C01132\"><he>גְּנֵי</he></cite>). ",
+				"<cite ref=\"Sanhedrin 7a:12\">Snh. 7ᵃ</cite> <he>היא נָיְימָא</he>, v. <cite ref=\"D00700\"><he>דִּיקוּלָא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַמְנֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to be drowsy; to doze</i>. Pes. l. c. <he>אין נַמְנוּמֵי קא מְנַמְנְמִי</he> Ms. O. (ed. incorr., v. Rabb. D. S. a. l. note 90) no, I was dozing. ",
+					"units": [
+						"<cite ref=\"Kiddushin 17b\">Kidd. 17ᵇ</cite>, v. <cite ref=\"E00459\"><he>הֵינוּמָא</he></cite>.—Esp. <i>to be in a comatose condition, be dying</i>. ",
+						"<cite ref=\"Moed Katan 28a:17\">M. Kat. 28ᵃ</cite> <he>דהוה קא מְנַמְנֵם</he> that he was dying. ",
+						"<cite ref=\"Kiddushin 72a:9\">Kidd. 72ᵃ</cite> bot. <he>כי הוה קא מנ׳ רבי</he> Ar. (ed. <he>ניחא נפשיה</he>) when Rabbi was dying."
+					]
+				}
+			],
+			"stem": "Palp."
+		},
+		{
+			"forms": ["אִיתְנַמְנֵם", "אִינַּ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be drowsy</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 76:6\">Targ. Ps. LXXVI, 6</cite>.—Y. Yeb. I, 3ᵃ bot. <he>שריין מִתְנַמְנְמִין</he> they began to be drowsy. Y. Meg. II, 73ᵃ bot.; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

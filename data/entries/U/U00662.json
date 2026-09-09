@@ -1,0 +1,34 @@
+{
+	"id": "U00662",
+	"slug": "שחל-3",
+	"headword": {
+		"text": "שְׁחַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁחֵיל"
+		}
+	],
+	"page": {
+		"number": 1548,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00661\">same</cite><i>to let slip; to draw out of</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 2:10\">Targ. O. Ex. II, 10</cite> (Y. ed. Vien. <he>שַׁחֵילְ׳</he> <i>Pa.</i>; h. text <cite ref=\"M02813\"><he>משה</he></cite>). ",
+				"<cite ref=\"Targum of I Chronicles 4:18\">Targ. I Chr. IV, 18</cite>.—",
+				"<cite ref=\"Berakhot 8a:13\">Ber. 8ᵃ</cite> <he>כמִשְׁחַל בניתא וכ׳</he>, v. <cite ref=\"B00655\"><he>בִּינְתָא</he></cite> II (perh. to be read: <he>כמְשַׁחֵל</he> <i>Pa.</i>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to discharge through pores, exude</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 78a:8\">Yoma 78ᵃ</cite> <he>דמִישְׁחַל שָׁחֵיל</he> it (the unglazed earthen vessel) lets the moisture ooze through."
+			],
+			"label": "2"
+		}
+	]
+}

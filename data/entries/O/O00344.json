@@ -1,0 +1,25 @@
+{
+	"id": "O00344",
+	"slug": "סומכא",
+	"headword": {
+		"text": "סוּמְכָא"
+	},
+	"page": {
+		"number": 966,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01098\"><he>סְמַךְ</he></cite>) <i>thickness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 7:26\">Targ. I Kings VII, 26</cite>; a. fr.—",
+				"<cite ref=\"Chullin 55b:2\">Ḥull. 55ᵇ</cite> <he>בסוּמְכֵיה</he> on the thick part of the milt, opp. <cite ref=\"S00371\"><he>קולשא</he></cite>. ",
+				"<cite ref=\"Shabbat 98a:4\">Sabb. 98ᵃ</cite> <he>ס׳ דקרש</he> the thickness of each board. ",
+				"<cite ref=\"Sukkah 53b:2\">Succ. 53ᵇ</cite> <he>ס׳ דארעא</he> the thickness of the rind of the earth (beneath which there is water); a. e."
+			]
+		}
+	]
+}

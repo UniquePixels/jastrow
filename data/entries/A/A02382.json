@@ -1,0 +1,35 @@
+{
+	"id": "A02382",
+	"slug": "אסטמא",
+	"headword": {
+		"text": "אִסְטְמָא"
+	},
+	"page": {
+		"number": 90,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Ispe. noun of <he>אסם</he> = <cite ref=\"H01397\"><he>חסם</he></cite>, v. <cite ref=\"H00833\"><he>חִיסּוּם</he></cite>, the h. equiv. of our w.) <i>forging steel, steel-edge</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 62b:1\">Ber. 62ᵇ</cite> <he>כא׳ לפרזלא</he> (Ms. M. <he>אסטימא</he> read <he>אִסְטוּמָא</he>, Ms. O. <he>סטומא</he>, Var. <cite ref=\"A01411\"><he>אִצְ׳</he></cite>, <cite ref=\"A01411\"><he>אִיצְ׳</he></cite>) what the steel edge is to the iron."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>frontlet</i>, v. <cite ref=\"A01445\"><he>אִיסְטְמָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " a word in a charm formula. ",
+			"units": [
+				"<cite ref=\"Shabbat 67a\">Sabb. 67ᵃ</cite>, v. <cite ref=\"A01446\"><he>איסטמאה</he></cite>"
+			],
+			"label": "3"
+		}
+	]
+}

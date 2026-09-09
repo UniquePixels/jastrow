@@ -1,0 +1,41 @@
+{
+	"id": "P01385",
+	"slug": "ערל-3",
+	"headword": {
+		"text": "עָרֵל",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲרַל"
+		},
+		{
+			"text": "עָרֵלָא"
+		},
+		{
+			"text": "עַרְלָא"
+		},
+		{
+			"text": "עַרְלָאָה"
+		},
+		{
+			"text": "עַרְלַאי"
+		}
+	],
+	"page": {
+		"number": 1119,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P01384\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:43\">Targ. Deut. XXVIII, 43</cite> (h. text <he>הגר</he>). ",
+				"<cite ref=\"Onkelos Exodus 12:48\">Targ. Ex. XII, 48</cite> (Y. <cite ref=\"P01385\"><he>עַרְלָאֵי</he></cite>, read: <cite ref=\"P01385\"><he>עַרְלַאי</he></cite>); a. fr.—Pl. <he>עֲרֵלִין</he>, <he>עַרְלִין</he>, <he>עַרְלַיָּא</he>, <he>עַרְלָאִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 5:7\">Targ. Josh. V, 7</cite> (ed. Lag. <he>עֲרילִ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 9:24\">Targ. Jer. IX, 24</cite>, sq. ",
+				"<cite ref=\"Aramaic Targum to Esther 1:5\">Targ. Esth. I, 5</cite>; a. e."
+			]
+		}
+	]
+}

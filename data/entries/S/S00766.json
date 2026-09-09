@@ -1,0 +1,23 @@
+{
+	"id": "S00766",
+	"slug": "קטיפה-1",
+	"headword": {
+		"text": "קְטִיפָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1348,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00810\"><he>קָטַף</he></cite>) <i>plucking</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 11a:2\">Pes. 11ᵃ</cite> <he>בשעת ק׳</he> while engaged in plucking (instead of cutting the ears for the ʿOmer with the sickle), v. <cite ref=\"S00903\"><he>קִיטּוּף</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "H01611",
+	"slug": "חרוב-3",
+	"headword": {
+		"text": "חֲרוּב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 499,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01577\"><he>חרב</he></cite>) [<i>dry</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>carob-pod; carob-tree</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 4:8\">B. Bath. IV, 8</cite> <he>ח׳ שאינו מורכב</he> a carob-tree which has not yet been ingrafted (bears no fruit). ",
+				"<cite ref=\"Bava Metzia 59b:2\">B. Mets. 59ᵇ</cite>; a. fr.—Pl. <he>חֲרוּבִים</he>, <he>חֲרוּבִין</he>. ",
+				"<cite ref=\"Rosh Hashanah 15b:11\">R. Hash. 15ᵇ</cite>. ",
+				"<cite ref=\"Bava Batra 70a:7\">B. Bath. 70ᵃ</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 35:6\">Lev. R. s. 35</cite>, a. e. (play on <he>חרב תאכלו</he>, <cite ref=\"Isaiah 1:20\">Is. I, 20</cite>) <he>ח׳ תֹּאכְלוּ</he> (some ed. <he>וחרבין</he>, corr. acc.) ye shall eat carobs (live in poverty); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a variety of beans</i>, the pods of which resemble the carob, v. <cite ref=\"H01613\"><he>חֲרוּבָא</he></cite>. ",
+			"units": ["<cite ref=\"Mishnah Kilayim 1:2\">Kil. I, 2</cite>."],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "A03398",
+	"slug": "אתא-3",
+	"headword": {
+		"text": "אָתָא",
+		"reconstructed": true,
+		"homograph": 3
+	},
+	"page": {
+		"number": 132,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"P01460\"><he>עָשׁ</he></cite>, <cite ref=\"P00699\"><he>עַיִשׁ</he></cite>) the constellation called the <i>Great Bear, Ursa Major</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 58b:6\">Ber. 58ᵇ</cite> Ms. M. (ed. <cite ref=\"J00251\"><he>יוֹתָא</he></cite>, v. Rabb. D. S. a. l., a. Ges. H. Dict. s. v. <cite ref=\"P01460\"><he>עָשׁ</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "E00735",
+	"slug": "הפיכא",
+	"headword": {
+		"text": "הָפִיכָא"
+	},
+	"page": {
+		"number": 361,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"E00741\"><he>הֲפַךְ</he></cite>) <i>perverse</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 10:31\">Targ. Prov. X, 31</cite> Ms. (ed. <he>דהֲפִיכוּ</he>).—Pl. <cite ref=\"E00738\"><he>הֲפִיכָתָא</he></cite> <i>perverse things, perverseness</i>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 16:30\">Ib. XVI, 30</cite>."
+			]
+		}
+	]
+}

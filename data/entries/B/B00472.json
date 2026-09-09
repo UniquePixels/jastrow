@@ -1,0 +1,35 @@
+{
+	"id": "B00472",
+	"slug": "בחור",
+	"headword": {
+		"text": "בָּחוּר"
+	},
+	"page": {
+		"number": 154,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>בחר</he>)<i>chosen</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 105a:2\">Sabb. 105ᵃ</cite> (ref. to <he>א̇ב̇</he>, <cite ref=\"Genesis 17:5\">Gen. XVII, 5</cite>) I have made thee <he>א̇ב</he> a father of the nations, <he>ב̇' נתתיך וכ׳</he> I have made thee a chosen one among the nations. ",
+				"<cite ref=\"Bereishit Rabbah 76\">Gen. R. s. 76</cite>, beg.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>young man, youth, unmarried</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 7b:3\">Keth. 7ᵇ</cite>, opp. <cite ref=\"A01913\"><he>אַלְמוֹן</he></cite>.—",
+				"<cite ref=\"Bereishit Rabbah 39:16\">Gen. R. s. 39</cite> <he>ב׳ ובתולה מיכן</he> a young man and a virgin on the one side (of the coin). ",
+				"<cite ref=\"Chagigah 14a:3\">Ḥag. 14ᵃ</cite>; a. fr.—Fem. <he>בַּחוּרָה</he>. ",
+				"<cite ref=\"Bereishit Rabbah 71:10\">Gen. R. s. 71</cite>; a. e.—Pl. <he>בַּחוּרִים</he>, f. <he>בַּחוּרוֹת</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 10:25\">Num. R. s. 10</cite>, beg. <he>לב׳ קול וכ׳</he> to the young (the strong) ‘the voice of the Lord (at revelation) sounded with might’, opp. <he>תשים</he>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "H01515",
+	"slug": "חצות",
+	"headword": {
+		"text": "חָצוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲצוֹת"
+		}
+	],
+	"page": {
+		"number": 495,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"H01504\"><he>חָצָה</he></cite>)<i>half</i>, (sub. <cite ref=\"E00574\"><he>הלילה</he></cite>) <i>midnight</i>. ",
+			"units": ["<cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite>; a. fr."]
+		}
+	]
+}

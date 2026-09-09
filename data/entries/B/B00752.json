@@ -1,0 +1,59 @@
+{
+	"id": "B00752",
+	"slug": "בית-1",
+	"headword": {
+		"text": "בִּית"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּת"
+		}
+	],
+	"page": {
+		"number": 167,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", inf. <cite ref=\"B00400\"><he>בּוּת</he></cite> (sec. r. of <cite ref=\"B00199\"><he>בוא</he></cite>) <i>to go in, lodge, pass the night</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 6:19\">Dan. VI, 19</cite>. ",
+				"<cite ref=\"Onkelos Genesis 32:22\">Targ. Gen. XXXII, 22</cite>; a. fr.—",
+				"<cite ref=\"Pesachim 107a:3\">Pes. 107ᵃ</cite> <he>בת טוות</he> (Dan. l. c.) he went to bed without tasting food. ",
+				"<cite ref=\"Sanhedrin 95a:5\">Snh. 95ᵃ</cite> (prov.) <he>בת דינא וכ׳</he> if punishment is procrastinated, punishment is gone. ",
+				"<cite ref=\"Taanit 24b:6\">Taan. 24ᵇ</cite> <he>ביתו כולי וכ׳</he> go ye all to bed fasting. ",
+				"<cite ref=\"Pesachim 42a\">Pes. 42ᵃ</cite> <he>מיא דביתו</he> (Chald. transl. of the ambiguous <he>מים שֶׁלָּנוּ</he>) water kept in vessels over night. ",
+				"<cite ref=\"Berakhot 60b:13\">Ber. 60ᵇ</cite> <he>בת בדברא</he> he slept in the open field. ",
+				"<cite ref=\"Sanhedrin 63b:12\">Snh. 63ᵇ</cite>.—",
+				"<cite ref=\"Sanhedrin 109a:2\">Ib. 109ᵃ</cite> top <he>בעי למֵיבַת</he> he wanted to stay over night; a. e.—Part. <cite ref=\"B00031\"><he>בָּאֵית</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 58:5\">Targ. Is. LVIII, 5</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּיֵּית"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"B00751\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Eruvin 73a\">Erub. 73ᵃ</cite> (opp. to taking meals)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אָבִית"],
+			"senses": [
+				{
+					"gloss": "<i>to keep over night, postpone burial</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 47a:5\">Snh. 47ᵃ</cite> <he>מֵבִית ליה למת</he> dare one postpone the burial of the dead?"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

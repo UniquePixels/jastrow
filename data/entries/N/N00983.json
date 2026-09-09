@@ -1,0 +1,42 @@
+{
+	"id": "N00983",
+	"slug": "נעימה",
+	"headword": {
+		"text": "נְעִימָה"
+	},
+	"page": {
+		"number": 919,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00982\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " fem. of <cite ref=\"N00981\"><he>נָעִים</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>taste, disposition</i>. ",
+			"units": [
+				"<cite ref=\"Avot D'Rabbi Natan 4:6\">Ab. d’R. N. ch. IV</cite>, end (<cite ref=\"Sanhedrin 38a\">Snh. 38ᵃ</cite> <cite ref=\"D00950\"><he>דעת</he></cite>).—Pl. <he>נְעִימוֹת</he>. ",
+				"<cite ref=\"Sanhedrin 38a\">Ib.</cite> <he>שינה הקב״ה נ׳ בני אדם זה מזה</he> the Lord made the dispositions of men different one from the other."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>tune, chant; trill</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:1:18\">Y. Shek. V, 48ᵈ</cite> bot. <he>יודע נ׳ יתירה היה</he> he knew an extraordinary way of singing; <cite ref=\"Yoma 38b:2\">Yoma 38ᵇ</cite> <he>כשהוא נותן קולו בנ׳</he> when he tuned his voice to a trill. ",
+				"<cite ref=\"Kiddushin 71a:12\">Kidd. 71ᵃ</cite> <he>הבליע שם בנְעִימַת וכ׳</he> he let the Divine Name (the Tetragrammaton which he pronounced) be drowned in the chant of his brother priests; <cite ref=\"Bamidbar Rabbah 11\">Num. R. s. 11</cite>, end <he>אמרו בתוך נעימת וכ׳</he> he pronounced it during the chant &c. Y. Shek. V, 55ᶜ bot. <he>סורח את הנ׳</he>, v. <cite ref=\"A00451\"><he>אִדְרַבְלִיס</he></cite>. ",
+				"<cite ref=\"Megillah 32a:12\">Meg. 32ᵃ</cite> <he>הקורא בלא נ׳</he> he who recites Bible verses without chanting; <cite ref=\"Tractate Soferim 3:10\">Treat. Sof’rim III, 10</cite>. Cant. R. to VIII, 14 <he>בנ׳ אחת</he> in one accord; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

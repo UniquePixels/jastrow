@@ -1,0 +1,53 @@
+{
+	"id": "K01327",
+	"slug": "כשר-4",
+	"headword": {
+		"text": "כָּשַׁר"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּשְׁרָא"
+		},
+		{
+			"text": "כְּשֵׁירָא"
+		},
+		{
+			"text": "כָּשְׁרָא"
+		},
+		{
+			"text": "כְּשֵׁירְתָּא"
+		}
+	],
+	"page": {
+		"number": 678,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"K01326\">same</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fit, adapted, proper</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 20:5\">Targ. Num. XX, 5</cite> ed. Berl. <he>כָּ׳</he> (oth. ed. <he>כְּ׳</he>; Y. <cite ref=\"K01324\"><he>כְּשָׁר</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Judges 17:6\">Targ. Jud. XVII, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 3:5\">Targ. Zech. III, 5</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"G00703\"><he>זָרִיז</he></cite>, <cite ref=\"H01634\"><he>חָרוּץ</he></cite>) <i>well-equipped; quick, zealous, industrious, worthy</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 6:11\">Targ. Prov. VI, 11</cite> (h. text <he>איש מגן</he>).—",
+				"<cite ref=\"Kohelet Rabbah 3:9:1\">Koh. R. to III, 9</cite> <he>וכ׳ בכשרותיה</he> and what has the industrious profited by his industry? (v. <cite ref=\"A00709\"><he>אוּמָנוּתָא</he></cite>); a. fr. [Y. Taan. II, 65ᵇ, v. <cite ref=\"H01523\"><he>חָצִיף</he></cite>.]—Pl. <he>כַּשְׁרִין</he>, <he>כְּשֵׁירִין</he>; f. <cite ref=\"K01327\"><he>כָּשְׁרָן</he></cite>. ",
+				"<cite ref=\"Onkelos Leviticus 4:2\">Targ. Lev. IV, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 3:3\">Targ. Zech. III, 3</cite>, sq.; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

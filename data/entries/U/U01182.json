@@ -1,0 +1,79 @@
+{
+	"id": "U01182",
+	"slug": "שכר-1",
+	"headword": {
+		"text": "שָׂכַר"
+	},
+	"page": {
+		"number": 1575,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"K01095\"><he>כָּרָה</he></cite>)<i>to hire, engage; to rent</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 6:1\">B. Mets. VI, 1</cite> <he>השׂוֹכֵר את וכ׳</he> if one engages artisans (through an agent). ",
+				"<cite ref=\"Mishnah Bava Metzia 8:2\">Ib. VIII, 2</cite> <he>שאלה … ושְׂכָרָהּ וכ׳</he> if he borrowed the cow for half a day, and hired her for half a day. ",
+				"<cite ref=\"Tosefta Bava Metzia 9:1\">Tosef. ib. IX, 1</cite>, sq. <he>השׂוֹכֵר שדה</he> if one rents a field; a. v. fr.—שׂוֹכֵר <i>hirer, employer; tenant</i>. ",
+				"<cite ref=\"Bava Metzia 103a:2\">B. Mets. 103ᵃ</cite> <he>ש׳ מהימן בשבועה</he> the employer is believed on his oath (that he has paid the wages). ",
+				"<cite ref=\"Bava Metzia 102b:7\">Ib. 102ᵇ</cite> <he>כוליה לש׳</he> the whole (rent for the thirteenth month of the leap year) goes to the tenant, i.e. he need not pay extra rent for the intercalated month; a. v. fr.—Esp. <he>שוכר</he> <i>tenant of land for rent payable in money</i>, contrad. to <he>חכיר</he>. ",
+				"<cite ref=\"Tosefta Demai 6:2\">Tosef. Dem. VI, 2</cite> <he>ש׳ במעות וכ׳</he> the <i>sokher</i> pays the rent in cash, the <i>ḥakkir</i> (or <i>ḥokher</i>) in kind; a. fr.—Part. pass. <he>שָׂכוּר</he>; f. <he>שְׂכוּרָה</he>. ",
+				"<cite ref=\"Mishnah Bava Metzia 8:2\">B. Mets. VIII, 2</cite> if the hirer says, <he>ש׳ מתה</he> it is the hired cow that died; <he>ביום שהיתה ש׳ מתה</he> she died on the day when I used her for hire; <he>בשעה … ש׳ וכ׳</he> she died at that time of the day when I used her for hire; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׂכִּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to lease, let</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 110a:4\">B. Bath. 110ᵃ</cite> <he>לעולם יַשְׂכִּיר אדם את עצמו וכ׳</he> a man should hire himself out for &c., v. <cite ref=\"P00033\"><he>עֲבוֹרָה</he></cite>. ",
+						"<cite ref=\"Mishnah Bava Metzia 8:7\">B. Mets. VIII, 7</cite> <he>המַשְׂכִּיר … המשכיר וכ׳</he> if one lets a house …, the landlord has to furnish &c. ",
+						"<cite ref=\"Mishnah Bava Metzia 8:8\">Ib. 8</cite> <he>ה׳ לו להדשים … למשכיר</he> if he let the house by the month, … the landlord has the benefit of the intercalated month, v. <cite ref=\"P00059\"><he>עָבַר</he></cite>. ",
+						"<cite ref=\"Pesachim 4a:9\">Pes. 4ᵃ</cite> <he>על המ׳ לבדוק</he> the landlord is obliged to search the house for leavened matter; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"U01184\"><he>שָׂכָר</he></cite>) <i>to cause to profit, to benefit</i>. Tanḥ. ed. Bub., Vayesheb 13 <he>צריך … משכיר אותו</he> (not <he>משביר</he>) a man must pray for the welfare of him that benefits him.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִשְׂכַּר"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"U01184\"><he>שָׂכָר</he></cite>) <i>to be rewarded, benefited; to have the advantage</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 92b:4\">Yeb. 92ᵇ</cite> <he>אם כן מצינו חוטא נִשְׂכָּר</he> if this be the law, then he that sinned would be at an advantage; <cite ref=\"Ketubot 11a\">Keth. 11ᵃ</cite>, a. e. <he>שלא יהא חוטא נ׳</he> it is done in order that the sinner should not be at an advantage. ",
+						"<cite ref=\"Pesachim 50b:10\">Pes. 50ᵇ</cite>; <cite ref=\"Tosefta Yevamot 4:8\">Tosef. Yeb. IV, 8</cite>, v. <cite ref=\"G00703\"><he>זָרִיז</he></cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִשְׂתַּכּר"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִשְׂתַּכֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to profit; to deal in</i>. Tanḥ. l. c. <he>לפי … מִשְׂתַּכֵּר מצאנו וכ׳</he> because Jacob was benefited by his flock &c. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 40:1\">Pesik. R. s. 40</cite> <he>ונִשְׂתַּכַּרְתִּי</he>, v. <cite ref=\"N01108\"><he>נָצַח</he></cite>. Pes. l. c. <he>המשתכר בקנים וכ׳</he> he that deals in reeds and vessels. Ib. 54ᵇ <he>ואין אדם יודע במה משתכר</he> and no man knows which of his enterprises will turn out profitable; Mekh. B’shall., Vayass‘a, s. 5. ",
+						"<cite ref=\"Bava Batra 91a:2\">B. Bath. 91ᵃ</cite> <he>אין מִשְׂתַּכְּרִין בא״י וכ׳</he> in Palestine you must not be a dealer in provisions, as wine &c. (serve as middleman between producer and consumer); <cite ref=\"Tosefta Avodah Zarah 4:1\">Tosef. Ab. Zar. IV</cite> (<cite ref=\"Tosefta Avodah Zarah 5:1\">V</cite>), 1; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

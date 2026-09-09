@@ -1,0 +1,35 @@
+{
+	"id": "P00635",
+	"slug": "עיף-1",
+	"headword": {
+		"text": "עָיֵף"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָיֵיף"
+		}
+	],
+	"page": {
+		"number": 1073,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00311\"><he>עוּף</he> I)</cite><i>fainting, wearied; exhausted</i>. Pesik. Zakhor, p. 28ᵃ (ref. to <cite ref=\"Deuteronomy 25:18\">Deut. XXV, 18</cite>) <he>ע׳ בצמא</he> faint from thirst; Tanḥ. Ki Thetse 10; a. e.—Pl. <he>עֲיֵפִים</he>, <he>עֲיֵפִין</he>, <cite ref=\"P00618\"><he>עֲיֵי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 19:5\">Ex. R. s. 19</cite> <he>מפני שהיו ע׳ מן הריח</he> because they were fainting from the smell (of the Passover sacrifice)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"J00089\"><he>יָגֵעַ</he></cite>) <i>hard-working, industrious</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 94b:8\">Snh. 94ᵇ</cite> (ref. to <cite ref=\"Isaiah 8:23\">Is. VIII, 23</cite>) <he>אין נמסר עַם ע׳ בתורה ביד מי המציק לו</he> the people (of Judah) that studies the Law with painstaking shall not be delivered into the hands of him who distresses it."
+			],
+			"label": "2"
+		}
+	]
+}

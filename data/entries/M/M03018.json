@@ -1,0 +1,27 @@
+{
+	"id": "M03018",
+	"slug": "מתוביתא",
+	"headword": {
+		"text": "מְתוּבִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְתוּבְתָּא"
+		}
+	],
+	"page": {
+		"number": 860,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>יְתַב</he>) <i>seat</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 5:11\">Targ. Jud. V, 11</cite> <cite ref=\"M03018\"><he>מְתוּבִית</he></cite> ed. Lag. (oth. ed. <he>מְתוּבַת</he>) constr.—V. <cite ref=\"M03050\"><he>מְתִיבְתָּא</he></cite>."
+			]
+		}
+	]
+}

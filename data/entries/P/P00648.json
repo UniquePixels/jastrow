@@ -1,0 +1,22 @@
+{
+	"id": "P00648",
+	"slug": "עיציא",
+	"headword": {
+		"text": "עִיצְיָא"
+	},
+	"page": {
+		"number": 1074,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"P01103\"><he>עָצֶה</he></cite>, <i>backbone</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Leviticus 3:9\">Targ. Y. II, Lev. III, 9</cite> (ed. Vien. <cite ref=\"P00648\"><he>עֵיצַיָּא</he></cite>)."
+			]
+		}
+	]
+}

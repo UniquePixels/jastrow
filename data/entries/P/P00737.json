@@ -1,0 +1,51 @@
+{
+	"id": "P00737",
+	"slug": "עכל-1",
+	"headword": {
+		"text": "עָכַל"
+	},
+	"page": {
+		"number": 1078,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>עִיכֵּל</he> (v. <cite ref=\"A01696\"><he>אָכַל</he></cite>) <i>to consume</i>.—Part. pass. <he>מְעוּכָּל</he>; f. <he>מְעוּכֶּלֶת</he>; pl. <he>מְעוּכָּלִים</he>; <he>מְעוּכָּלוֹת</he>. ",
+					"units": [
+						"<cite ref=\"Mishnah Tamid 1:4\">Tam. I, 4</cite>, v. <cite ref=\"A01696\"><he>אָכַל</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְעַכֵּל"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְעַכֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be consumed</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Berakhot 8:7\">Ber. VIII, 7</cite>, v. <cite ref=\"A01696\"><he>אָכַל</he></cite>. ",
+						"<cite ref=\"Mishnah Sanhedrin 6:6\">Snh. VI, 6</cite>, v. <cite ref=\"A01696\"><he>אָכַל</he></cite>. ",
+						"<cite ref=\"Bamidbar Rabbah 14:1\">Num. R. s. 14</cite> (ref. to ʿĂkhinai<cite ref=\"Psalms 108:10\">Ps. CVIII, 10</cite>) <he>מה הבשר מִתְעַכֵּל בסיר כך נִתְעַכְּלוּ שם</he> as flesh is consumed (boiled to a pulp) in the pot, so they (David’s family) were consumed there (in Moab; v. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 147\">Yalk. Sam. 147</cite>; Tanḥ., ed. Bub., Vayera 25)."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "O00814",
+	"slug": "סיקורה",
+	"headword": {
+		"text": "סִיקוּרָה",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "סִיקִי׳"
+		}
+	],
+	"page": {
+		"number": 986,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Siculus, Σίκελος) <i>Sicilian</i>, esp. <i>Sicilian cook</i> (v. Sm. Ant. Engl. ed.<sup>3</sup> s. v. Cena, I, p. 394ᵇ) <i>sausage-maker</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 4:5:2\">Y. Bets. IV, 62ᶜ</cite> bot., v. <cite ref=\"B00079\"><he>בגומא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:28\">Y. Sabb. VII, 10ᵃ</cite> bot. <he>ההן ס׳ כד מבחר וכ׳</he> (not <he>מכחד</he>) when the sausage-maker selects from the scraped meat, from the garlic &c. (v. <cite ref=\"B00484\"><he>בְּחַר</he></cite>).—Pl. <he>סִיקוּרַיָּיא</he>, <cite ref=\"O00814\"><he>סִיקִי׳</he></cite>. Y. Shek., Bab. ed. VII, 2 <he>יחכמון ס׳ וכ׳</he> (Ms. M. <he>סִיקוּרֵי</he>, Var. in eds. <he>סילוקוס</he>, <he>סיליוקיס</he>; Y. ed. 50ᶜ bot. <cite ref=\"O00817\"><he>סיקייריא</he></cite>) let the sausage-makers identify their product (whether the sausage found was or was not of their make), v. <cite ref=\"N00412\"><he>נוּקָנִיקָא</he></cite>."
+			]
+		}
+	]
+}

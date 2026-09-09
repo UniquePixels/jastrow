@@ -1,0 +1,29 @@
+{
+	"id": "A01729",
+	"slug": "אכסילגוס",
+	"headword": {
+		"text": "אַכְסִילְגּוֹס",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אַכְסִלְגָּס"
+		}
+	],
+	"page": {
+		"number": 64,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ξύληγος) <i>wood-carrier, forester</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 97a:2\">Men. 97ᵃ</cite> <he>כליא׳</he> common wooden vessels; <cite ref=\"Chagigah 26b\">Ḥag. 26ᵇ</cite> <he>כלי אכסלגס</he> Ar. (ed. <cite ref=\"A01731\"><he>אכסלגים</he></cite> Ms. M. <he>אבלוגסין</he> corr. acc.).—",
+				"<cite ref=\"Zevachim 94a\">Zeb. 94ᵃ</cite> <he>כלי אַכְסִלְגְּיָא</he> (Ms. M. <he>אכסלמוס</he>) forester’s apparel (leather covers &c.); v. <cite ref=\"A00164\"><he>אַבְלוּסְמוֹס</he></cite>."
+			]
+		}
+	]
+}

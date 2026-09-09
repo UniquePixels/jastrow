@@ -1,0 +1,24 @@
+{
+	"id": "A01015",
+	"slug": "אחונייא",
+	"headword": {
+		"text": "אַחְוָנַיָּיא"
+	},
+	"page": {
+		"number": 39,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Syr. <he>חחוניתא</he>, v. <cite ref=\"H00292\"><he>חוֹחָא</he></cite>, a. Löw Aram. Pfl. p. 149) <i>plums</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:2:4\">Y. Ber. VI, 10ᵇ</cite> bot. (Bab. ",
+				"<cite ref=\"Berakhot 39a\">ib. 39ᵃ</cite> <cite ref=\"D00375\"><he>דורמסקין</he></cite>)."
+			]
+		}
+	]
+}

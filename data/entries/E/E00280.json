@@ -1,0 +1,35 @@
+{
+	"id": "E00280",
+	"slug": "הורמיז",
+	"headword": {
+		"text": "הוֹרְמִיז"
+	},
+	"page": {
+		"number": 341,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n.<i>Ormuzd</i> (Ahuramazda), the good principle in the Zendavesta. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 39a:9\">Snh. 39ᵃ</cite>, v. <cite ref=\"A00491\"><he>אֲהוּרְמִין</he></cite>.—[<cite ref=\"Bava Batra 73a:8\">B. Bath. 73ᵃ</cite> bot., v. next w.]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " a gentile (Persian) proper noun, v. <cite ref=\"B00184\"><he>בָּהַק</he></cite>. ",
+			"units": ["<cite ref=\"Gittin 11a:2\">Gitt. 11ᵃ</cite>"],
+			"label": "2"
+		},
+		{
+			"gloss": " <he>איפרא ה׳</he>, v. <cite ref=\"A01561\"><he>אִיפְרָא</he></cite>.",
+			"units": [],
+			"label": "3"
+		},
+		{
+			"gloss": " <he>ה׳ ארדשיר</he> pr. n. pl. <i>Hormiz</i> (<i>Ormuzd</i>)-<i>Ardjir</i>, prob. identical with Ardjir, v. <cite ref=\"A03012\"><he>אַרְדְּשִׁיר</he></cite>. ",
+			"units": ["<cite ref=\"Bava Batra 52a:7\">B. Bath. 52ᵃ</cite>"],
+			"label": "4"
+		}
+	]
+}

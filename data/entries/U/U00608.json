@@ -1,0 +1,32 @@
+{
+	"id": "U00608",
+	"slug": "שזרה",
+	"headword": {
+		"text": "שִׁזְרָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1545,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00607\">preced.</cite>) <i>cord</i>, esp. <i>spinal column; skeleton</i> (interch. with <cite ref=\"U00289\"><he>שִׁדְרָה</he></cite>); trnsf. <i>stem, rib</i> of a plant. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 9:1:8\">Y. Sot. IX, 23ᶜ</cite> top <he>מציינין על הש׳ וכ׳</he> you must mark the spot as unclean if you find a spinal column or a skull. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 2:2:3\">Y. Taan. II, 65ᶜ</cite> top <he>כנגד … שבש׳</he> corresponding to the eighteen vertebræ of the spinal column. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 3:1:2\">Y. Succ. III, 53ᶜ</cite> bot. <he>לולב … ש׳</he> the Lulab must be a handbreadth high, not counting the stem; a. fr.—Pl. <he>שִׁזְרוֹת</he>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:9:4\">Y. Ab. Zar. II, 42ᵃ</cite> <he>כל שהראשים והש׳ וכ׳</he> (fish-brine) in which the heads and the spines are intact; (Bab. ",
+				"<cite ref=\"Avodah Zarah 40a:2\">ib. 40ᵃ</cite> <he>ראש ושדרה</he>).—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:1:6\">Y. Sabb. III, beg. 5ᶜ</cite> <he>שִׁיזְרֵי חריות</he> stems of dry twigs (prob. to be read: <he>שִׁיּוּרֵי</he>, v. <cite ref=\"H01675\"><he>חֶרְיָה</he></cite>)."
+			]
+		}
+	]
+}

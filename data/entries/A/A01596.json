@@ -1,0 +1,30 @@
+{
+	"id": "A01596",
+	"slug": "איקונין",
+	"headword": {
+		"text": "אִיקוֹנִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אקונין"
+		}
+	],
+	"page": {
+		"number": 60,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (εἰκόνιον) <i>picture, image;</i> <cite ref=\"Targum Jonathan on Genesis 4:5\">Targ. Y. Gen. IV, 5</cite> <i>features</i> (pl.); a. fr.—",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15:22\">Ex. R. s. 15</cite>. ",
+				"<cite ref=\"Devarim Rabbah 4\">Deut. R. s. 4</cite>, v. <cite ref=\"A01593\"><he>אִיקוֹנְיָא</he> II</cite>; a. fr.—Esp. <he>זִיו א׳</he> the brightness of expression, <i>features</i>.—",
+				"<cite ref=\"Bereishit Rabbah 53:6\">Gen. R. s. 53</cite>; a. fr.—",
+				"<cite ref=\"Shemot Rabbah 35:6\">Ex. R. s. 35</cite> <he>א׳ נאה</he> (sub. <cite ref=\"G00299\"><he>זיו</he></cite>) <i>fine appearance;</i> <cite ref=\"Shir HaShirim Rabbah 3:11\">Cant. R. to III, 11</cite> <cite ref=\"A00943\"><he>אותונין</he></cite> (corr. acc.).—Pl. v. <cite ref=\"A01590\"><he>אִיקוֹן</he></cite>"
+			]
+		}
+	]
+}

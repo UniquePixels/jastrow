@@ -1,0 +1,30 @@
+{
+	"id": "M01529",
+	"slug": "מלחייא",
+	"headword": {
+		"text": "מִלְחַיָּיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִלְחַיָּא"
+		}
+	],
+	"page": {
+		"number": 789,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Milḥaya</i>, native place of R. José, prob. in Galilee (v. Hildesh. Beitr. p. 9; Neub. Géogr. p. 269). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:4:9\">Y. Ab. Zar. II, 41ᶜ</cite> top. ",
+				"<cite ref=\"Bereishit Rabbah 42\">Gen. R. s. 42</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 26\">Lev. R. s. 26</cite>. ",
+				"<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 9</cite>; <cite ref=\"Yalkut Shimoni on Nach 302\">Yalk. Is. 302</cite> <he>יוסף ממלי</he> (corr. acc.)."
+			]
+		}
+	]
+}

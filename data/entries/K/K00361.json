@@ -1,0 +1,46 @@
+{
+	"id": "K00361",
+	"slug": "כוץ",
+	"headword": {
+		"text": "כְּוֵץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּוֵיץ"
+		},
+		{
+			"text": "כְּוַוץ"
+		}
+	],
+	"page": {
+		"number": 625,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"S00526\"><he>קָוַץ</he></cite>, <cite ref=\"C00454\"><he>גָּוַע</he></cite>) <i>to curl, shrink</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 20b:13\">Sabb. 20ᵇ</cite> <he>צמר מִכְוַוץ כָּוֵויץ</he> wool (if used as a wick) curls. ",
+				"<cite ref=\"Niddah 3a:50\">Nidd. 3ᵃ</cite> <he>מוך … מכוץ כויץ</he> the lint … shrinks (and leaves room for the blood to pass). ",
+				"<cite ref=\"Sukkah 23b:1\">Succ. 23ᵇ</cite> <he>כיון דמייתא כַּוְוצָא</he> when the animal is dead, the body shrinks. ",
+				"<cite ref=\"Chullin 43b:11\">Ḥull. 43ᵇ</cite> <he>כל שחותכו וכויץ</he> that portion of the gullet which shrinks when you cut it. ",
+				"<cite ref=\"Chullin 46b\">Ib. 46ᵇ</cite>, v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּוֵּוץ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to shrink</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 19a\">Sabb. 19ᵃ</cite> <he>וכַוְּוצֵיה</he> for he made it shrink (by using too hot water). ",
+						"<cite ref=\"Chullin 46b\">Ḥull. 46ᵇ</cite>; <cite ref=\"Chullin 47b\">47ᵇ</cite> [read:] <he>בחמימי לא דמְכַוְּוצֵי</he> not in boiling water, for it causes the lungs to shrink (Ar. ed. Koh. <he>בקרירי לא דכווצא</he> not in cold water, for it will contract, v. <cite ref=\"I00906\"><he>טְרַשׁ</he> I</cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

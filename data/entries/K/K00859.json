@@ -1,0 +1,33 @@
+{
+	"id": "K00859",
+	"slug": "כנן",
+	"headword": {
+		"text": "כָּנַן"
+	},
+	"page": {
+		"number": 649,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"K00296\"><he>כּוּן</he></cite> a. <cite ref=\"K00308\"><he>כּוֹנָנִית</he></cite>) <i>to nest</i>.—Denom. <cite ref=\"K00565\"><he>כִּינָּה</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּנֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to form circles, to wind around</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Parah 7:7\">Par. VII, 7</cite> <he>המְכַנֵּן … על יד על יד</he> (Talm. ed. only once <he>על יד</he>) he who winds the rope (for drawing the bucket up) around his hand until a sufficient length is wound up; <he>ואם כִּנְּנוֹ באחרונה</he> but if he winds it after he has finished drawing; Tosef. ib. VII (VI), 4 <he>וחזר ובנאו</he> ed. Zuck. (Var. <he>וכי</he>, read: <he>וכיננו</he> as R. S. to Par. l. c.).—<i>Part. pass.</i> <he>מְכוּנָּן</he> a) <i>wound around</i>. ",
+						"<cite ref=\"Mishnah Makhshirin 4:1\">Makhsh. IV, 1</cite> <he>בחבל שהוא מכ׳ וכ׳</he> with the rope which is wound around the neck of the vessel.—2) <i>nested</i>. ",
+						"<cite ref=\"Bereishit Rabbah 37\">Gen. R. s. 37</cite> <he>מכ׳ כביצה</he> shut up in the nest like an egg, i.e. selfish; <cite ref=\"Yalkut Shimoni on Nach 832\">Yalk. Ps. 832</cite> <cite ref=\"M01358\"><he>מכונה</he></cite> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

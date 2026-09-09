@@ -1,0 +1,35 @@
+{
+	"id": "D00082",
+	"slug": "דברא-3",
+	"headword": {
+		"text": "דַּבְרָא"
+	},
+	"page": {
+		"number": 279,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דבר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>pasture, field</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 4b:9\">Taan. 4ᵇ</cite>. ",
+				"<cite ref=\"Avodah Zarah 68b:16\">Ab. Zar. 68ᵇ</cite> <he>בדד׳</he> concerning a field mouse; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. pl. <i>Dabra</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 4:43\">Targ. Y. Deut. IV, 43</cite> (h. text <cite ref=\"C00404\"><he>גּוֹלָן</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

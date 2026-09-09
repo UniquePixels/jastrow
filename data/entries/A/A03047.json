@@ -1,0 +1,31 @@
+{
+	"id": "A03047",
+	"slug": "ארז-1",
+	"headword": {
+		"text": "ארז",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 117,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>אר</he>, v. <he>ארר</he>; cmp. <he>חרז</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to penetrate deeply, to take deep root</i>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be prickly, dry, hard</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 155a:6\">Sabb. 155ᵃ</cite> <he>זירין דאַרְזֵי</he> Zirin are called bundles of twigs which are hard. ",
+				"<cite ref=\"Shabbat 155a:7\">Ib.</cite> <he>כיפין דא׳</he>; [oth. opin., v. <cite ref=\"A03049\"><he>אַרְזָא</he></cite>]. Denom. <cite ref=\"A00869\"><he>אוּרְזָא</he></cite>, <cite ref=\"A03024\"><he>אָרוּזָא</he></cite>, a. <cite ref=\"A03048\">next ws.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

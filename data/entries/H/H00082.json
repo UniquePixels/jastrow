@@ -1,0 +1,30 @@
+{
+	"id": "H00082",
+	"slug": "חביתים",
+	"headword": {
+		"text": "חֲבִיתִּים"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲבִיתִּין"
+		}
+	],
+	"page": {
+		"number": 419,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl.(b. h. <cite ref=\"H00082\"><he>חֲבִתִּים</he></cite>; <cite ref=\"H00128\"><he>חבת</he></cite>, cmp. <cite ref=\"H00102\"><he>חבץ</he></cite>, <cite ref=\"H00074\"><he>חָבִיץ</he></cite>) a sort of <i>cakes</i> (cmp. <cite ref=\"M00805\"><he>מַחֲבַת</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 1:1:5\">Y. Yoma I, beg. 38ᵃ</cite> <he>נאמר תמיד בח׳</he> the word <i>tamid</i> is used in connection with <i>ḥăbittin</i> (<cite ref=\"Leviticus 6:13\">Lev. VI, 13</cite>). ",
+				"<cite ref=\"Leviticus 6:13\">Ib.</cite> <he>אין ח׳ מעכבת</he> (sub. <he>הקרבת</he>) the offering of the cakes at the Highpriest’s inauguration is no indispensable requirement. ",
+				"<cite ref=\"Mishnah Menachot 11:3\">Men. XI, 3</cite> <he>חֲבִיתֵּי כ״ג</he> the cakes at the Highpriest’s inauguration."
+			]
+		}
+	]
+}

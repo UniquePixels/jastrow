@@ -1,0 +1,53 @@
+{
+	"id": "B01137",
+	"slug": "בקר-2",
+	"headword": {
+		"text": "בְּקַר"
+	},
+	"page": {
+		"number": 187,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01136\">same</cite>.—<i>Pa.</i> <cite ref=\"B01140\"><he>בַּקַּר</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to search, examine</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 13:36\">Targ. O. Lev. XIII, 36</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to clear, glean</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 24:20\">Targ. Y. I Deut. XXIV, 20</cite> (<cite ref=\"Targum Jonathan on Deuteronomy 2\">II</cite> <he>תתב׳</he>, read <he>תבקרון</he>, h. text <he>תפאר</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to let the herd graze</i> (cmp. <cite ref=\"B01063\"><he>בער</he></cite>), <i>to drive unmuzzled animals</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 13:7\">Targ. Y. Gen. XIII, 7</cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to visit the sick</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 18:20\">Targ. Y. Ex. XVIII, 20</cite>; a. e.—Y. Sabb. VI, 8ᶜ bot.; a. fr."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": " (= <cite ref=\"B01136\">preced.</cite> Hif.) <i>to abandon, leave unclaimed, declare free</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 23:11\">Targ. Y. Ex. XXIII, 11</cite> Ar. (some ed. <he>ותפקד</he>, read <he>ותפקר</he>). Y. Shebi. IX, 39ᵃ top <he>וַאֲבַקְּרָה קומיהון</he> and I will declare it free goods in their presense. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>ומְבַקְּרִין ליה</he> and declare ye it free property."
+			],
+			"label": "5"
+		}
+	]
+}

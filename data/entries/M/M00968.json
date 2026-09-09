@@ -1,0 +1,35 @@
+{
+	"id": "M00968",
+	"slug": "מטה-2",
+	"headword": {
+		"text": "מִטָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִיטָּה"
+		}
+	],
+	"page": {
+		"number": 765,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"N00555\"><he>נָטָה</he></cite>)<i>couch, bed, frame, bier</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 7:5\">Ned. VII, 5</cite>, v. <cite ref=\"D01041\"><he>דַּרְגֵּשׁ</he></cite>. ",
+				"<cite ref=\"Nedarim 56a:5\">Ib. 56ᵃ</cite>, a. fr. <he>הכופה את מִטָּתוֹ</he>, v. <cite ref=\"K01007\"><he>כָּפָה</he></cite>. ",
+				"<cite ref=\"Nedarim 56b:1\">Ib. 56ᵇ</cite> <he>מ׳ המיוחדת לכלים</he> a bed designated for the exhibit of garments (not slept upon); <cite ref=\"Sanhedrin 20a:13\">Snh. 20ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Berakhot 3:1\">Ber. III, 1</cite> <he>נושאי המ׳</he> those carrying the bier; a. fr.—<he>מ׳ של גילה</he>, <he>מ׳ גלילתא</he>, v. <cite ref=\"C00883\"><he>גִּלָּה</he></cite>, <cite ref=\"C00950\"><he>גְּלִילְתָּא</he></cite>.—",
+				"<cite ref=\"Shabbat 47a:6\">Sabb. 47ᵃ</cite>, v. <cite ref=\"I00849\"><he>טרְסִי</he> I</cite>.—Pl. <he>מִטּוֹת</he>, <cite ref=\"M01393\"><he>מִי׳</he></cite>. ",
+				"<cite ref=\"Nedarim 56a:5\">Ned. 56ᵃ</cite>; a. fr.—Trnsf. <i>family, offspring</i>. ",
+				"<cite ref=\"Vayikra Rabbah 36:2\">Lev. R. s. 36</cite> <he>שהיתה מִטָּתוֹ שלימה</he> his bed was perfect, his children were all righteous; Sifra B’ḥuck., Par. 2, ch. VIII. ",
+				"<cite ref=\"Berakhot 60b\">Ber. 60ᵇ</cite>. ",
+				"<cite ref=\"Pesachim 56a:7\">Pes. 56ᵃ</cite> <he>שמא … יש במִיטָּתִי פסול</he> perhaps there is a blemish in my family; a. e."
+			]
+		}
+	]
+}

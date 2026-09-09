@@ -1,0 +1,32 @@
+{
+	"id": "S01829",
+	"slug": "קצע-2",
+	"headword": {
+		"text": "קְצַע"
+	},
+	"page": {
+		"number": 1406,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>קַצֵּעַ</he> <cite ref=\"S01828\">same</cite>, <i>to trim, cut</i>. ",
+					"units": [
+						"<cite ref=\"Zevachim 94a:4\">Zeb. 94ᵃ</cite> <he>דחשיב עלה לקַצְּעָהּ</he> when he had planned to trim it. ",
+						"<cite ref=\"Zevachim 94a:4\">Ib.</cite> <he>עד דמְקַצַּע לה</he>, v. <cite ref=\"S01828\">preced.</cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

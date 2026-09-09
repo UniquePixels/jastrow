@@ -1,0 +1,24 @@
+{
+	"id": "P00762",
+	"slug": "עלא",
+	"headword": {
+		"text": "עֲלָא"
+	},
+	"page": {
+		"number": 1080,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"P00770\"><he>עָלֶה</he></cite>, <i>leaf</i>.—Pl. <he>עֲלַיָּא</he>, <cite ref=\"P00794\"><he>עֲלַיָּה</he></cite>, <he>עֲלָיֵי</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 5:2:5\">Y. Shebi. V, 35ᵈ</cite> bot. [read:] <he>שיתין יומין שיתא ע׳ שיתא יומין שיתין ע׳</he> the first sixty days bring forth six leaves, the next six days, sixty leaves. ",
+				"<cite ref=\"Chullin 92a:16\">Ḥull. 92ᵃ</cite>, v. <cite ref=\"A01651\"><he>אִיתְכָּלָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:2:7\">Y. Shek. VI, 50ᵃ</cite> bot., v. <cite ref=\"V01049\"><he>תְּרַפְיוֹן</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "S00561",
+	"slug": "קורא-1",
+	"headword": {
+		"text": "קוֹרָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּרָא"
+		}
+	],
+	"page": {
+		"number": 1341,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"S00560\">same</cite> <cite ref=\"Onkelos Genesis 8:22\">Targ. Gen. VIII, 22</cite> (O. ed. Berl. <cite ref=\"S00596\"><he>קוּ׳</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 24:7\">Targ. Job XXIV, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 147:17\">Targ. Ps. CXLVII, 17</cite>; a. e."
+			]
+		}
+	]
+}

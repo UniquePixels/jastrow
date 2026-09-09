@@ -1,0 +1,27 @@
+{
+	"id": "A02763",
+	"slug": "אפסניא",
+	"headword": {
+		"text": "אָפְסַנְיָא"
+	},
+	"page": {
+		"number": 106,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ὀψώνιον, cmp. <cite ref=\"A02753\"><he>אָפְסוֹנִין</he></cite>) <i>provision</i>, esp. <i>supply and pay for an army</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 18b:10\">Snh. 18ᵇ</cite> <he>מלך משום א׳</he> the king (is excluded from the court deciding on the intercalation of a thirteenth month) on account of the soldiers’ pay (it being to his interest to create an embolistic year). ",
+				"<cite ref=\"Mishnah Sanhedrin 2:4\">Ib. II, 4</cite> (<cite ref=\"Sanhedrin 21b:6\">21ᵇ</cite>) (Mish. a. ",
+				"<cite ref=\"Sanhedrin 21b:6\">Ib.</cite> ed. <cite ref=\"A01489\"><he>אספ׳</he></cite> throughout the whole page, Ms. M. <he>אפס׳</he>) <he>כדי ליתן א׳</he> as much as is required for the stipends he has to pay. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:6:1\">Y. Snh. II, 20ᶜ</cite> top <he>אפסנייא</he>.—Pl. <he>אָפְסַנְיוֹת</he> (doubtful, prob. <cite ref=\"A01740\"><he>אַכְסַנְיוּת</he></cite>). ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:2\">Cant. R. to I, 2</cite> <he>שהיה מהלך א׳</he> (read <he>מחלק</he>, ed. <he>אפסיניות</he>, <cite ref=\"A02697\"><he>אפיסניות</he></cite>). ",
+				"<cite ref=\"Sifrei Devarim 328:1\">Sifré Deut. 328</cite>; <cite ref=\"Yalkut Shimoni on Torah 946:13\">Yalk. ib. 946</cite> <he>אָפְסַנְיָאוֹת</he>."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "M01661",
+	"slug": "ממזרות",
+	"headword": {
+		"text": "מַמְזֵרוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַמְזֵי׳"
+		}
+	],
+	"page": {
+		"number": 795,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01660\">preced.</cite>) <i>the legal condition of a mamzer, bastardship</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 4:2:3\">Y. Gitt. IV, beg. 45ᶜ</cite> <he>שלא תבוא לידי מ׳</he> in order to prevent cases of bastardship. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 4:2:3\">Ib.</cite> <he>בניה באין לידי מ׳</he> her children will be subjected to the restrictions of &c. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:1:21\">Y. Kidd. I, 58ᵈ</cite> top <he>מ׳ בנתים ואת וכ׳</he> the difference between the two opinions concerns bastardship, and you say so (that the several followers of the two opinions did not hesitate to intermarry)?; <cite ref=\"Jerusalem Talmud Yevamot 1:6:8\">Y. Yeb. I, end, 3ᵇ</cite> <cite ref=\"M01663\"><he>ממזרית</he></cite> (corr. acc.). ",
+				"<cite ref=\"Yoma 18b:3\">Yoma 18ᵇ</cite> <he>וממלא … מ׳</he> and fills the world with cases of bastardship; <cite ref=\"Yalkut Shimoni on Torah 617:1\">Yalk. Lev. 617</cite>; (<cite ref=\"Yevamot 37b:3\">Yeb. 37ᵇ</cite> <he>ממזרין</he>; a. e."
+			]
+		}
+	]
+}

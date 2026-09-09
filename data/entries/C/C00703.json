@@ -1,0 +1,23 @@
+{
+	"id": "C00703",
+	"slug": "גיידור",
+	"headword": {
+		"text": "גַּיְידּוֹר",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 237,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (γαΰδαρος, Sachs Beitr. I, 155; mod. Greek γάδαρος; prob. an adaptation of <cite ref=\"P01320\"><he>עָרוֹד</he></cite>, v. S. s. v. γαρασδοειδής) <i>a small ass</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 6:3:5\">Y. B. Mets. VI, 11ᵃ</cite>. Cmp. <cite ref=\"C00816\"><he>גִּירְדּוֹנָא</he></cite>."
+			]
+		}
+	]
+}

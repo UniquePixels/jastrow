@@ -1,0 +1,43 @@
+{
+	"id": "C00864",
+	"slug": "גלגול-1",
+	"headword": {
+		"text": "גִּלְגּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּילְ׳"
+		}
+	],
+	"page": {
+		"number": 244,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גלגל</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rolling, turning</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 1:2:7\">Y. Sot. I, 16ᶜ</cite> bot. <he>כדי ג׳ ביצה</he> as much time as is required for roasting an egg in the ashes; <cite ref=\"Bamidbar Rabbah 9:10\">Num. R. s. 9</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Pesachim 3:3:2\">Y. Pes. III, 30ᵃ</cite> <he>לאחר גִּילְגּוּלָהּ</he> after the dough has been rolled (formed).—",
+				"<cite ref=\"Ketubot 111a:21\">Keth. 111ᵃ</cite> <he>ע״י ג׳</he> by rolling under the ground (for resurrection in the Holy Land)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with or without <cite ref=\"U00081\"><he>שבועה</he></cite>) <i>the rule permitting the court to insert in an oath an affirmation to which the person concerned could not have been compelled directly; an oath by implication</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 27b:10\">Kidd. 27ᵇ</cite>. Y. ib. I, 60ᵈ. ",
+				"<cite ref=\"Yevamot 58b:5\">Yeb. 58ᵇ</cite>; Kidd. l. c. <he>ע״י ג׳</he> by implication (the woman including in her oath the time of her betrothal); a. fr.—4) (cmp. <cite ref=\"C00848\"><he>גַּל</he></cite>) <he>בית ג׳</he> <i>a field full of hills and depressions</i>. ",
+				"<cite ref=\"Mishnah Tahorot 6:6\">Toh. VI, 6</cite>; <cite ref=\"Eruvin 22b:16\">Erub. 22ᵇ</cite> (Var. in Ar. <cite ref=\"C00160\"><he>גדגד</he></cite>, ref. to <cite ref=\"C00632\"><he>גִּידּוּד</he></cite>). [<cite ref=\"Tosefta Bava Batra 2:16\">Tosef. B. Bath. II, 16</cite> <he>בית גילגל</he>, v. <cite ref=\"C00871\"><he>גַּלְגַּל</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "J00085",
+	"slug": "יגיע-2",
+	"headword": {
+		"text": "יְגִיעַ"
+	},
+	"page": {
+		"number": 562,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"J00088\"><he>יָגַע</he></cite>)<i>painstaking, labor</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 8a:21\">Ber. 8ᵃ</cite> <he>הנהנה מִיגִיעוֹ</he> he who enjoys the fruits of his own labor. ",
+				"<cite ref=\"Kohelet Rabbah 1:3:1\">Koh. R. to I, 3</cite> <he>כמה צער וכמה י׳ וכ׳</he> how much trouble and how much weariness does he experience. ",
+				"<cite ref=\"Midrash Tehillim 2:2\">Midr. Till. to Ps. II</cite> <he>וכל יְגִיעָן וכ׳</he> and all their toil is in vain; a. fr."
+			]
+		}
+	]
+}

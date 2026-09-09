@@ -1,0 +1,23 @@
+{
+	"id": "S00213",
+	"slug": "קהרמנא",
+	"headword": {
+		"text": "קָהַרְמָנָא"
+	},
+	"page": {
+		"number": 1323,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. <i>Ḳaharmân</i>) <i>administrator, curator</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 46b\">B. Bath. 46ᵇ</cite> <he>ק׳ שוויה</he> Ar. (read: <he>שויוהו</he>; v. <cite ref=\"E00882\"><he>הַרְמנְיָא</he></cite>) they made him an administrator (of their property, and as such he let it out to tenants). ",
+				"<cite ref=\"Eruvin 59a:9\">Erub. 59ᵃ</cite> <he>דשכיחי גבי ק׳</he> Ar. (ed. <cite ref=\"E00881\"><he>הרמנא</he></cite>) they are accustomed to meet at the office of the curator of the city, v. <cite ref=\"E00881\"><he>הַרְמָנָא</he></cite>."
+			]
+		}
+	]
+}

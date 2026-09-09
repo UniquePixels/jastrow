@@ -1,0 +1,25 @@
+{
+	"id": "T01000",
+	"slug": "רצפתא",
+	"headword": {
+		"text": "רִצְפְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִיצְ׳"
+		}
+	],
+	"page": {
+		"number": 1495,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h. <cite ref=\"T00998\"><he>רִצְפָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 16:17\">Targ. II Kings XVI, 17</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 40:17\">Targ. Ez. XL, 17</cite>, sq."
+			]
+		}
+	]
+}

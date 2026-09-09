@@ -1,0 +1,41 @@
+{
+	"id": "I00215",
+	"slug": "טור-2",
+	"headword": {
+		"text": "טוּר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טוּרָא",
+			"homograph": 1
+		},
+		{
+			"text": "טַוְורָא"
+		}
+	],
+	"page": {
+		"number": 526,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00214\">preced.</cite>, cmp. b. h. <cite ref=\"R00242\"><he>צוּר</he></cite>) <i>mount, mountain</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 3:12\">Targ. O. Ex. III, 12</cite> (Y. <he>טוורא</he>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 23:2\">Targ. Y. Gen. XXIII, 2</cite>; a. fr.—",
+				"<cite ref=\"Chullin 7b:10\">Ḥull. 7ᵇ</cite>, v. <cite ref=\"C00050\"><he>גְּבַהּ</he></cite>. ",
+				"<cite ref=\"Shabbat 152a:3\">Sabb. 152ᵃ</cite> <he>ט׳ תלג</he> a mountain of snow (my head is white). ",
+				"<cite ref=\"Bereishit Rabbah 32:10\">Gen. R. s. 32</cite>, v. <cite ref=\"B01288\"><he>בְּרַךְ</he></cite>; a. fr.—Pl. <he>טוּרִין</he>, <he>טוּרַיָּא</he>, <he>טוּרֵי</he>, <cite ref=\"I00156\"><he>טַוְו׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 9:5\">Targ. Job. IX, 5</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 11:11\">Targ. Deut. XI, 11</cite>; a. fr.—Gen. R. l. c. <he>אי מט׳ רמיא</he> if it belongs among the high mountains; a. e.—[<cite ref=\"Shabbat 98b:4\">Sabb. 98ᵇ</cite> <he>כי טירין</he>, v. <cite ref=\"I00780\"><he>טָרִיז</he></cite>.]—<he>טור מלכא</he> (h. <he>הר המלך</he>) <i>King’s Mountain</i>, <he>ט׳ שמעון</he> <i>Mount Simeon</i>. ",
+				"<cite ref=\"Gittin 55b:16\">Gitt. 55ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:16\">Y. Taan. IV, 69ᵃ</cite>; <cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite> (v. Neub. Géogr. p. 41; p. 267).—ט׳ פרזלא <i>Iron Mount</i>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 34:3\">Targ. Y. Num. XXXIV, 3</cite>.—For other compounds, v. respective determinants."
+			]
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	"id": "S02049",
+	"slug": "קרייא-1",
+	"headword": {
+		"text": "קִרְיָיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִרְיָיה"
+		},
+		{
+			"text": "קוֹ׳"
+		},
+		{
+			"text": "קוּ׳"
+		},
+		{
+			"text": "קִרְיְיתָא"
+		},
+		{
+			"text": "קִרְיְתָא"
+		},
+		{
+			"text": "קי׳"
+		}
+	],
+	"page": {
+		"number": 1420,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"S02039\"><he>קִרְיָה</he></cite>, <i>town, settlement, village</i>. Targ. II Esth. IV, 1. Ib. IX, 28. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 18:19\">Targ. Prov. XVIII, 19</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:12\">Y. Ber. II, 5ᵃ</cite> top <he>הוה עייל ק׳ ונפיק ק׳</he> (not <he>ונפקא</he>) he went from place to place; <cite ref=\"Shir HaShirim Rabbah 1:6:4\">Cant. R. to I, 6</cite> <he>הוה עליל לק׳ ונפיק לק׳</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 5:14:3\">Ib. to V, 14</cite> <he>למזבן עיבור מן ק׳</he> to buy up the grain of the place; a. e.—Pl. <cite ref=\"S02056\"><he>קִרְיָין</he></cite>, <cite ref=\"S00596\"><he>קוּ׳</he></cite>, <he>קִרְיָיתָא קוֹ׳</he>, <cite ref=\"S02085\"><he>קִרְיָתָא</he></cite>, <cite ref=\"S00089\"><he>קִי׳</he></cite>. ",
+				"<cite ref=\"Targum Jerusalem, Numbers 35:2\">Targ. Y. II, Num. XXXV, 2</cite> (not <he>קִרְיָת</he>). ",
+				"<cite ref=\"Targum Jerusalem, Numbers 35:7\">Targ. Y. ib. 7</cite>; <cite ref=\"Targum Jerusalem, Numbers 35:8\">8</cite>; a. fr.—Constr. <he>קוּרְיֵי</he>, <cite ref=\"S00336\"><he>קוֹ׳</he></cite>. ",
+				"<cite ref=\"Targum Jerusalem, Numbers 32:26\">Targ. Y. ib. XXXII, 26</cite>; <cite ref=\"Targum Jerusalem, Numbers 32:33\">33</cite>; <cite ref=\"Targum Jerusalem, Numbers 32:36\">36</cite>; a. e., v. <cite ref=\"S01923\"><he>קִרְוָא</he></cite>.—Y. Ḥag. I, 76ᶜ <he>ר׳ יודה</he> … <he>בק׳ דארעא וכ׳</he> R. Judah, the Nasi sent forth … to visit the small places of Palestine and arrange for them primary teachers &c.; Lam. R. introd. (R. Abba 2). ",
+				"<cite ref=\"Sukkah 44b:6\">Succ. 44ᵇ</cite> <he>ק׳ אית לי</he> I own villages (or <i>sing.</i>). ",
+				"<cite ref=\"Sukkah 44b:6\">Ib.</cite> <he>בני ק׳</he> the villagers. ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 2:2:4\">Y. Maasr. II, 49ᵈ</cite> <he>דנפקין וסחרין … קוריין וכ׳</he> who go out trading in four or five places (during the day) and sleep in their own homes; a. e."
+			]
+		}
+	]
+}

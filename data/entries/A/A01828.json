@@ -1,0 +1,22 @@
+{
+	"id": "A01828",
+	"slug": "אלותא-1",
+	"headword": {
+		"text": "אַלְוָתָא"
+	},
+	"page": {
+		"number": 68,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A01794\"><he>אַלְוָא</he></cite>) <i>a piece of aloe-wood</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 33b:6\">Bets. 33ᵇ</cite>; v. <cite ref=\"A01956\"><he>אַלָּתָא</he></cite>."
+			]
+		}
+	]
+}

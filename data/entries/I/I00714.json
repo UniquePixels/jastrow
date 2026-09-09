@@ -1,0 +1,37 @@
+{
+	"id": "I00714",
+	"slug": "טרד-3",
+	"headword": {
+		"text": "טְרַד",
+		"homograph": 2
+	},
+	"page": {
+		"number": 550,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"I00887\"><he>טרק</he></cite> a. <cite ref=\"N00584\"><he>נְטַר</he></cite>) <i>to guard, lock up, bolt</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 19:6\">Targ. Y. Gen. XIX, 6</cite> Ar. a. Levita (ed. <he>אחד</he>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 14:3\">Targ. Y. Ex. XIV, 3</cite>; a. e.—",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>ט׳ תרעא</he> (<he>חד מירו׳</he>) <cite ref=\"T00152\"><he>רבתי</he></cite> locked the door. ",
+				"<cite ref=\"Eichah Rabbah 1:18\">Ib. to I, 18</cite> <he>טְרוֹדוּ תרעין</he> shut the doors closely.—Y. Keth. VII, 31ᶜ <he>תרעה טָרִיד</he> if her door is found locked, contrad. to <he>מוגף</he>, v. <cite ref=\"C00455\"><he>גּוּף</he> I</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיטְּרַד"],
+			"senses": [
+				{
+					"gloss": "<i>to be locked</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Genesis 49:1\">Targ. Y. II, Gen. XLIX, 1</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

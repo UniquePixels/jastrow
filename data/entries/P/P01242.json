@@ -1,0 +1,89 @@
+{
+	"id": "P01242",
+	"slug": "ערב-1",
+	"headword": {
+		"text": "עָרַב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1109,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A02949\"><he>אָרַב</he></cite>) [<i>to insert, press into, interweave</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to mix, confuse</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 808:2\">Yalk. Deut. 808</cite> <he>עָרְבוּ את העיסה</he> (or <cite ref=\"P01266\"><he>עֵרְבוּ</he></cite> <i>Pi.</i>; not <he>ערכו</he>), v. <cite ref=\"P00629\"><he>עִיסָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to substitute, put in place of</i>,] <i>to vouch for</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:4:1\">Cant. R. to I, 4</cite> <he>אבותינו עוֹרְבִים אותנו</he> let our ancestors be our surety (for our observance of the Law); <cite ref=\"Yalkut Shimoni on Nach 982\">Yalk. Cant. 982</cite>. ",
+				"<cite ref=\"Devarim Rabbah 3:3\">Deut. R. s. 3</cite> <he>מבקשים אתם שנַעֲרוֹב אתכס וכ׳</he> do you want us to guarantee to you that, if you separate your tithes properly, the mice will not attack your grain any more? <cite ref=\"Devarim Rabbah 3:3\">Ib.</cite> <he>ע׳ אותן והלכו</he> he did guarantee to them, and the mice went &c. Tanḥ. Vayigg. 5 <he>מפני מה לא עָרַבְתָּ את וכ׳</he> why didst thou not pledge thyself for thy brother &c?; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עֵירֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to mix</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 52b:14\">Gitt. 52ᵇ</cite> <he>שמואל אמר מְעָרֵב</he> Samuel explains (<he>המנסך</he> ib. V, 4, v. <cite ref=\"N00946\"><he>נָסַךְ</he></cite>), he who mixes forbidden wine with his neighbor’s permitted wine. ",
+						"<cite ref=\"Kohelet Rabbah 9:13\">Koh. R. to IX, 13</cite>, a. e. <he>המערב מים ביין וכ׳</he> who puts water into wine &c., v. <cite ref=\"C00860\"><he>גְּלַבְקְיָא</he></cite>. ",
+						"<cite ref=\"Moed Katan 8b:9\">M. Kat. 8ᵇ</cite> <he>אין מְעָרְבִין שמחה בשמחה</he> you must not mix one rejoicing with another (e.g. celebrate a wedding during the Festive Week); <cite ref=\"Bereishit Rabbah 70\">Gen. R. s. 70</cite>. Y. Ber. II, 4ᵈ top; Y. Meg. I, 71ᶜ <he>עי׳ את האותיות</he> if one made the letters of a word of uneven sizes (so that they are not in a line). ",
+						"<cite ref=\"Bereishit Rabbah 15:7\">Gen. R. s. 15</cite> <he>שלא לעָרֵב את האותיות</he> he said <he>המוציא</he> in order not to confound the letters (by saying <he>העולם מוציא</he>); Y. Ber. VI, 10ᵃ bot. <he>ראשי אותיות</he>; a. fr.—Part. pass. <cite ref=\"M02092\"><he>מְעוּרָב</he></cite>; f. <he>מְעוּרֶבֶת</he>; pl. <he>מְעוּרָבִים</he>, <he>מְעוּרָבִין</he>; <he>מְעוּרָבוֹת</he>. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 808:2\">Yalk. Deut. 808</cite> <he>וראה הפת מע׳ קיבר</he> and saw that the bread was mixed with coarse flour. ",
+						"<cite ref=\"Eruvin 27a:14\">Erub. 27ᵃ</cite> <he>כשקרבי דגים מע׳ בהן</he> when entrails of fish are mixed up with the brine; a. e.—",
+						"<cite ref=\"Vayikra Rabbah 20\">Lev. R. s. 20</cite> (in Chald. dict.) <cite ref=\"M02092\"><he>מעורב</he></cite>, v. <cite ref=\"P01261\"><he>עַרְבֵּב</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"P00680\"><he>עֵירוּב</he></cite> 2) <i>to lay an ʿErub, to create a symbolical community of residence</i> or <i>continuity of action</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Eruvin 3:1\">Erub. III, 1</cite> <he>מערבין לנזיר ביין</he> you may use wine for an ʿErub for the benefit of a Nazarite. ",
+						"<cite ref=\"Eruvin 84b\">Ib. 84ᵇ</cite>; <cite ref=\"Eruvin 87b:16\">87ᵇ</cite> <he>עד שיְעָרְבוּ</he> until they connect them symbolically by an ʿErub; a. v. fr.—Part. pass. as ab. ",
+						"<cite ref=\"Mishnah Shabbat 16:3\">Sabb. XVI, 3</cite> <he>חצר המע׳</he> a court which has been made available for Sabbath movements by means of an ʿErub; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to pledge</i>. Part. pass. as ab. ",
+					"units": [
+						"<cite ref=\"Esther Rabbah 1:1\">Esth. R. to I, 1</cite> (ref. to <he>בני התערבות</he>, <cite ref=\"II Chronicles 25:24\">II Chr. XXV, 24</cite>) <he>שהיו מְעוּרָבוֹתֵיהֶן של אבותיהן</he> they were the hostages for their fathers."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְעָרֵב"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְעָרֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to be mixed</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 6:5\">Ḥull. VI, 5</cite> <he>דם שנ׳ במים</he> if blood (which requires covering up, v. <cite ref=\"K00581\"><he>כִּיסּוּי</he></cite>) has been mixed with water. ",
+						"<cite ref=\"Tosefta Terumot 5:15\">Tosef. Ter. V, 15</cite> <he>פרוסות … שנִתְעָרְבוּ וכ׳</he> if pieces of show-bread have become mixed up with a hundred times as many pieces of secular bread; <cite ref=\"Yevamot 81b:4\">Yeb. 81ᵇ</cite> <he>פרוסה … שנִתְעָרְבָה וכ׳</he>; Y. Orl. II, 61ᵈ bot. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:3\">Cant. R. to I, 3</cite> <he>מה השמן הזה אין מִתְעָרֵב … אין מִתְעָרְבִים וכ׳</he> as oil cannot be mixed with other liquids, so Israel should not be mixed with the nations of the world; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

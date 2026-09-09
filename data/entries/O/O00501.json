@@ -1,0 +1,31 @@
+{
+	"id": "O00501",
+	"slug": "סטף",
+	"headword": {
+		"text": "סָטַף"
+	},
+	"page": {
+		"number": 973,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>סִיטֵּף</he> (<i>Saf.</i> of <he>נ־טף</he>) [<i>to cause dripping</i>,] <i>to scarify</i> sycamores &c.—Part. pass. f. pl. <he>מְסוּטָּפוֹת</he> <i>fruit burst open</i> (naturally or through scarification). ",
+					"units": [
+						"<cite ref=\"Mishnah Demai 1:1\">Dem. I, 1</cite> Y. ed. a. Ms. M. (ed. <he>מוסטפות</he>, corr. acc.).—V. <he>סְטִיפָה</he>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

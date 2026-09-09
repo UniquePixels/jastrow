@@ -1,0 +1,31 @@
+{
+	"id": "A03417",
+	"slug": "אתינס",
+	"headword": {
+		"text": "אַתִּינָס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַתּוּנָא"
+		},
+		{
+			"text": "אַתִּינָה"
+		}
+	],
+	"page": {
+		"number": 133,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (Ἀθῆναι, acc.—ας) <i>Athens</i>, the capital of Attica; in Talm. liter. freq. mentioned for wisdom and wit. ",
+			"units": [
+				"<cite ref=\"Bekhorot 8b:4\">Bekh. 8ᵇ</cite> <he>סבי דבי אתו׳</he> the elders (sages) of the Athenian school. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite>, s. v. <i>Rabbathi</i>, freq. <he>אתינה</he> a. <cite ref=\"A03417\"><he>אתינס</he></cite>."
+			]
+		}
+	]
+}

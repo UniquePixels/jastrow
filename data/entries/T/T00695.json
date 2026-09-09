@@ -1,0 +1,28 @@
+{
+	"id": "T00695",
+	"slug": "ריקוד",
+	"headword": {
+		"text": "רִיקּוּד"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִקּ׳"
+		}
+	],
+	"page": {
+		"number": 1476,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T01018\"><he>רָקַד</he></cite>) <i>dancing</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 5:2:10\">Y. Bets. V, 63ᵃ</cite> bot. <he>ר׳ עוקר אחת וכ׳</he> in dancing one lifts up one foot and rests the other, opp. <cite ref=\"S01104\"><he>קִיפּוּץ</he></cite>.—Pl. <cite ref=\"T00677\"><he>רִיקּוּדִין</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 12\">Lev. R. s. 12</cite>; a. e."
+			]
+		}
+	]
+}

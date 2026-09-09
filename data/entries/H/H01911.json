@@ -1,0 +1,47 @@
+{
+	"id": "H01911",
+	"slug": "חתר-2",
+	"headword": {
+		"text": "חֲתַר"
+	},
+	"page": {
+		"number": 515,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01910\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 8:8\">Targ. Ez. VIII, 8</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְחַתַּר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְחֲתַר", "אִיחֲ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be broken into</i>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 25b:14\">M. Kat. 25ᵇ</cite> <he>אִיתְחַתְּרוּ שבעין מחתרתא וכ׳</he> Ms. M. (ed. <he>אִיחְתְּרוּ</he>) seventy robberies were committed in Tiberias (ed. in N’hardea). ",
+						"<cite ref=\"Sanhedrin 109a:16\">Snh. 109ᵃ</cite> <he>אִחְתְּרִין … מחתרתא וכ׳</he> (Ms. O. <he>אִיחְתְּרוּ וכ׳</he>) that night three hundred robberies were committed in S."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to break in for one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 12:7\">Targ. Ez. XII, 7</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

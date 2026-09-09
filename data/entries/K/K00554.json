@@ -1,0 +1,32 @@
+{
+	"id": "K00554",
+	"slug": "כילכית",
+	"headword": {
+		"text": "כִּילְכִּית"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּילְבִּית"
+		},
+		{
+			"text": "כִּלְ׳"
+		}
+	],
+	"page": {
+		"number": 632,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>כילכלית</he>, v. <he>כלכל</he>; or denom. of <he>כלב</he>, cmp. <cite ref=\"K00263\"><he>כּוּלָב</he></cite>) name of a <i>small fish</i>, supposed to be <i>stickleback</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Avodah Zarah 4:11\">Tosef. Ab. Zar. IV</cite> (<cite ref=\"Tosefta Avodah Zarah 5:11\">V</cite>), 11 <he>כל שכילכ׳ אחת או שתי כּוּלְכִּיּוֹת וכ׳</he> ed. Zuck. (Var. <he>כלכלת … כלכליות</he>, <he>כלבת … כלביות</he>) when one or two <i>k.</i> swim in it (the brine); <cite ref=\"Avodah Zarah 39b:19\">Ab. Zar. 39ᵇ</cite> bot. <he>כילבית … כילביות</he> ed. (Ms. M. <cite ref=\"M01581\"><he>מלכי</he></cite>, read <cite ref=\"K00876\"><he>כי׳</he></cite> as <cite ref=\"Avodah Zarah 40a:2\">ib. 40ᵃ</cite>; Alf. ed. Cost. <he>כלכלית</he>, v. Rabb. D. S. a. l. note). ",
+				"<cite ref=\"Shabbat 77b:7\">Sabb. 77ᵇ</cite> <he>אימת כילב׳ וכ׳</he> ed. (Ms. M. <cite ref=\"K00754\"><he>כּוּלְכִּית</he></cite>, Ms. O. <he>כילכ׳</he>) the fear which the Leviathan has of the <i>k.</i>—",
+				"<cite ref=\"Chullin 97a:3\">Ḥull. 97ᵃ</cite>"
+			]
+		}
+	]
+}

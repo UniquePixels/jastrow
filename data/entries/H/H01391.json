@@ -1,0 +1,29 @@
+{
+	"id": "H01391",
+	"slug": "חסית-2",
+	"headword": {
+		"text": "חָסִית",
+		"homograph": 2
+	},
+	"page": {
+		"number": 488,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00408\"><he>חוּס</he></cite>) <i>saving, protection</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 200:1\">Yalk. Ex. 200</cite> <he>אין פסיחה אלא ח׳</he> passing over (the root <cite ref=\"Q01254\"><he>פסח</he></cite>) means sparing; (Mekh. Bo, Pisḥa, s. 11 <cite ref=\"H00740\"><he>חַיִיס</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (<he>חָסָה</he>) <i>shady place</i>, v. <cite ref=\"H01360\"><he>חָסוּת</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

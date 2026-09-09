@@ -1,0 +1,34 @@
+{
+	"id": "O01368",
+	"slug": "ספיקולא-1",
+	"headword": {
+		"text": "סְפִיקוּלָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "סְפִיקוּלָה"
+		},
+		{
+			"text": "סְפִקוּלָ׳"
+		}
+	],
+	"page": {
+		"number": 1014,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (spiculum) <i>dart</i>, <i>javelin;</i> <he>נתן ס׳</he> [<i>to put up the javelin</i>,] <i>to call for judgment; to sentence</i> (v. Sm. Ant. a. Luebker Reallex. s. v. Hasta), opp. <cite ref=\"D00618\"><he>דִּימוֹס</he> II</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:5:2\">Y. Ber. IX, 14ᵇ</cite> <he>וכשהוא נותן ס׳ הכל וכ׳</he> but when he orders judgment, all murmur against him; <cite ref=\"Vayikra Rabbah 24\">Lev. R. s. 24</cite>, beg. <cite ref=\"O01371\"><he>ספיקלא</he></cite>.—",
+				"<cite ref=\"Bereishit Rabbah 79\">Gen. R. s. 79</cite> <he>וכד … ס׳ וכ׳</he> and when he heard the divine voice say ‘judgment’, the bird was caught; <cite ref=\"Kohelet Rabbah 10:8\">Koh. R. to X, 8</cite> <cite ref=\"O01371\"><he>ספיקלא</he></cite> (correct the passage as in Gen. R. l. c.); a. e.—",
+				"<cite ref=\"Shemot Rabbah 15\">Ex. R. s. 15</cite> prepare the swords (v. <cite ref=\"A02528\"><he>אִסְפָּתִי</he></cite>), <he>שאם ימרדו ישמעו אִסְפִּיקוּלָא</he> that, in case they rebel, they may hear the call for judgment (‘spicula’). ",
+				"<cite ref=\"Midrash Tehillim 92:2\">Midr. Till. to Ps. XCII</cite> <he>ישב עליו בדין לספק לו</he>, read: <he>ישב עליו לס׳</he> (<he>בדין</he>, a gloss) he sat down to pronounce judgment upon him."
+			]
+		}
+	]
+}

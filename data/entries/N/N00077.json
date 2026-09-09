@@ -1,0 +1,25 @@
+{
+	"id": "N00077",
+	"slug": "נביאות",
+	"headword": {
+		"text": "נְבִיאוּת"
+	},
+	"page": {
+		"number": 869,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"N00074\"><he>נָבִיא</he></cite>) <i>prophecy, prophetic mission</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 15a:2\">Meg. 15ᵃ</cite> <he>כל</he> (<cite ref=\"M02395\"><he>מקום</he></cite>) <he>ששמו … בנ׳ וכ׳</he> (v. Rabb. D. S. a. l. note) wherever the name of a person and that of his father are mentioned in connection with prophecy, it is sure that he was a prophet and the son of a prophet. ",
+				"<cite ref=\"Sanhedrin 39b:13\">Snh. 39ᵇ</cite> <he>מפני מה זכה עובדיהו לנ׳</he> for what merit was Obadiah granted the gift of prophecy?—",
+				"<cite ref=\"Bekhorot 45a:11\">Bekh. 45ᵃ</cite> <he>עשו דבריהם כדברי נ׳</he> they made their verdicts like those of prophecy, i.e. they gave no reasons for their opinions. ",
+				"<cite ref=\"Bava Batra 12a:12\">B. Bath. 12ᵃ</cite>; <cite ref=\"Eruvin 60b:10\">Erub. 60ᵇ</cite> <he>אין אלו אלא דברי נ׳</he> these are prophetic verdicts, i.e. obviously well-established traditions; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "H00514",
+	"slug": "חזונא-2",
+	"headword": {
+		"text": "חֶזְוָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֵיזְוָ׳"
+		},
+		{
+			"text": "חֶזְוָו׳"
+		},
+		{
+			"text": "חִזְ׳"
+		}
+	],
+	"page": {
+		"number": 442,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00513\">preced.</cite> wds.) <i>vision, astounding spectacle; wonder</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 3:3\">Targ. O. Ex. III, 3</cite>; a. e.—Pl. <he>חֶזְוָנִין</he>. ",
+				"<cite ref=\"Onkelos Deuteronomy 26:8\">Targ. Deut. XXVI, 8</cite> (ed. Berl. sing.). Ib. XXXIV, 12 (ed. Berl. sing.; Y. II <he>חֵזְוָותָא</he>, pl. of <cite ref=\"H00506\"><he>חֵזוּ</he></cite>). [<cite ref=\"Targum of I Chronicles 29:29\">Targ. I Chr. XXIX, 29</cite>, v. preced.]"
+			]
+		}
+	]
+}

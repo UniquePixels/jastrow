@@ -1,0 +1,24 @@
+{
+	"id": "M01149",
+	"slug": "מיכה-2",
+	"headword": {
+		"text": "מִיכָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 773,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00470\"><he>מוּךְ</he></cite>) <i>decline, reduction to poverty</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 114a:10\">B. Mets. 114ᵃ</cite> <he>מי גמר מ׳ מ׳ מערכין</he> can an analogy between assessments of vowed values and assessments in cases of indebtedness be based on the use of the root <cite ref=\"M00470\"><he>מוּךְ</he></cite> (<cite ref=\"Leviticus 27:8\">Lev. XXVII, 8</cite> a. ",
+				"<cite ref=\"Leviticus 25:35\">XXV, 35</cite>)?"
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "T00673",
+	"slug": "ריעותא",
+	"headword": {
+		"text": "רֵיעוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רֵע׳"
+		}
+	],
+	"page": {
+		"number": 1476,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"T00669\"><he>רִיעַ</he> II</cite>) <i>being shaken, unsoundness; unfavorable condition; cause for suspicion</i> or <i>doubt</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 9a:10\">Ḥull. 9ᵃ</cite> <cite ref=\"J00368\"><he>אתיליד</he></cite>(<cite ref=\"A00000\"><he>א</he></cite>) <he>ביה ר׳</he> something happened by which the anatomical soundness of the animal is made doubtful (without the possibility of examination). ",
+				"<cite ref=\"Beitzah 34a:3\">Bets. 34ᵃ</cite> <he>מי מחזקינן ר׳ וכ׳</he> as regards slaughtering an animal on the Holy Day, must we take into consideration the fact that the presumption in favor of the soundness of the animal is shaken (and therefore abstain from slaughtering it) or not? <cite ref=\"Niddah 2b:20\">Nidd. 2ᵇ</cite> <he>התם איכא תרתי לר׳ … חדא לר׳</he> in that case there are two causes for suspicion, in this there is only one. ",
+				"<cite ref=\"Niddah 3a:9\">Ib. 3ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

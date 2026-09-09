@@ -1,0 +1,83 @@
+{
+	"id": "O00333",
+	"slug": "סום-2",
+	"headword": {
+		"text": "סוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִים"
+		}
+	],
+	"page": {
+		"number": 965,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O00332\">same</cite> <cite ref=\"Onkelos Leviticus 19:14\">Targ. O. Lev. XIX, 14</cite> <he>תְסִים</he> ed. Berl. (oth. ed. <he>תְשֵׂים</he>); a. e.—Part. <cite ref=\"O00015\"><he>סָאֵים</he></cite>, <cite ref=\"O00015\"><he>סָאֵם</he></cite>, <cite ref=\"O00015\"><he>סָיֵים</he></cite>, <he>סָיֵם</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 6:27\">Targ. Prov. VI, 27</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 26:24\">Ib. XXVI, 24</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:15\">Ib. XI, 15</cite>.—V. <cite ref=\"U00433\"><he>שׂוּם</he></cite>.—",
+				"<cite ref=\"Gittin 56b:3\">Gitt. 56ᵇ</cite> <he>הוה סיים חד וכ׳</he> he had tied (put on) one shoe. ",
+				"<cite ref=\"Taanit 22a:4\">Taan. 22ᵃ</cite> <he>הוה סיים וכ׳</he> used to wear black shoes; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַיֵּים"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00332\">same</cite>, esp. <i>to put on shoes</i> (cmp. ",
+					"units": [
+						"<cite ref=\"Ezekiel 24:17\">Ez. XXIV, 17</cite>). Gitt. l. c. <he>בעא למְסַיְּימָא וכ׳</he> he wanted to put on the other shoe. ",
+						"<cite ref=\"Taanit 12b:3\">Taan. 12ᵇ</cite> <he>דמסַיְּימֵי מסנייהו וכ׳</he> that they wear their shoes and come to the fast-meeting. ",
+						"<cite ref=\"Taanit 12b:4\">Ib.</cite> <he>כי מסיימי וכ׳</he>, v. <cite ref=\"A02746\"><he>אַפַּנְתָּא</he></cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to mark, define</i>. Y. Sabb. VI, 8ᶜ bot. <he>סַיְּימוּן וכן וכ׳</he> they marked (the time), and so it was.—Part. pass. <he>מְסַיַּים</he>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 100a:9\">B. Bath. 100ᵃ</cite> <he>דמְסיְּימָן מחיצתא</he> when the partitions are distinctly defined; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to finish</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 44:18\">Targ. Y. Gen. XLIV, 18</cite> Tosefta (ed. <cite ref=\"M00911\"><he>מחסיל</he></cite>).—",
+						"<cite ref=\"Megillah 25a:8\">Meg. 25ᵃ</cite> <he>סַיַּימְתִּינְהוּ לשבחיה וכ׳</he> hast thou exhausted all the praises of the Lord? <cite ref=\"Berakhot 12a:10\">Ber. 12ᵃ</cite> <he>פתח … דשכרא וס׳ בדחמרא</he> he began the benediction under the impression that it was beer, and closed with the benediction over wine. ",
+						"<cite ref=\"Berakhot 17a:4\">Ib. 17ᵃ</cite> <he>כי הוה מְסַיֵּים צלותיה וכ׳</he> when he closed his prayer, he said &c. ",
+						"<cite ref=\"Bava Metzia 76b:11\">B. Mets. 76ᵇ</cite> <he>סַיְּימוּהָ קמיה</he> they cited it (the Boraitha) before him to the end; a. fr.—Part. pass. as ab. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:11\">Cant. R. to I, 11</cite> <he>מְסַיְּימָה</he>, v. <cite ref=\"H01900\"><he>חֲתַם</he></cite>.—[<cite ref=\"Targum Jonathan on Deuteronomy 8:9\">Targ. Y. I Deut. VIII, 9</cite> <he>מסימין</he>, v. <cite ref=\"H01398\"><he>חֲסַם</he></cite>.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִסְתַּיֵּים"],
+			"senses": [
+				{
+					"gloss": "<i>to be marked, named</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 16b\">Ab. Zar. 16ᵇ</cite>, a. e. <he>מינאי ומינך תִּסְתַּיֵּים שמעתתא</he> this tradition will be named from myself and from thee."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be concluded, proved</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 31b:3\">Sabb. 31ᵇ</cite> <he>תסתיים דר׳ וכ׳</he> it can be conclusively proved that it was R. … who said &c.; <he>תסתיים</he> it is proved."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

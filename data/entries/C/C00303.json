@@ -1,0 +1,44 @@
+{
+	"id": "C00303",
+	"slug": "גודא-2",
+	"headword": {
+		"text": "גּוּדָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 218,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C00167\"><he>גְּדַד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>partition, wall</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 62:4\">Targ. Ps. LXII, 4</cite> (ed. Vien. <cite ref=\"C00304\"><he>גּוּדָא</he></cite>; Ms. <he>גודרא</he>, h. text <cite ref=\"C00246\"><he>גדר</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 10:8\">Targ. Koh. X, 8</cite> <he>ג׳ דעלמא</he> the world’s fence (morality).—",
+				"<cite ref=\"Bava Batra 2a:6\">B. Bath. 2ᵃ</cite> (explain. <he>מתיצה</he>, Mish. ",
+				"<cite ref=\"Mishnah Bava Batra 1:1\">ib. I, 1</cite>) it means <he>ג׳</he> <i>wall</i> (not <cite ref=\"Q00964\"><he>פלוגתא</he></cite> division). Ib. 36ᵃ <he>מג׳ דערודי ולבר</he> the land outside the fence which is erected to protect the fields from beasts. ",
+				"<cite ref=\"Shabbat 110b:3\">Sabb. 110ᵇ</cite> <he>בין תנורא לג׳</he> between the stove and the wall. ",
+				"<cite ref=\"Taanit 21a:2\">Taan. 21ᵃ</cite> <he>ג׳ רעיעא</he> (Ms. M.; <cite ref=\"Yalkut Shimoni on Torah 897:10\">Yalk. Deut. 897</cite> <he>אשיתא</he>) a ruinous wall. ",
+				"<cite ref=\"Kohelet Rabbah 10:7\">Koh. R. to X, 7</cite> <he>טריף רישיה אג׳</he> he knocked his head against the wall. ",
+				"<cite ref=\"Bava Kamma 92b:14\">B. Kam. 92ᵇ</cite> (prov.) <he>קרית חברך … רמי ג׳ רבה שדי ביה</he> (Ms. M. <he>דחי גידא רבא וכ׳</he>, Ms. R. a. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 364:2\">Yalk. Ez. 364</cite> <he>דחי ג׳ רמי שדי עילויה</he>) when thou hast called thy neighbor (cautioning him), and he would not answer, push down a big wall and throw it at him (he deserves to suffer).—Pl. with suff. <he>גּוּדָּהָא</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 80:13\">Targ. Ps. LXXX, 13</cite> (ed. Vien. <he>גּוּדְרָהָא</he>, Ms. <he>גדירהא</he>, h. text <he>גְּדֵרֶיהָ</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"C00632\"><he>גִּידּוּד</he></cite>) <i>banks</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 24b\">Taan. 24ᵇ</cite>; <cite ref=\"Yoma 77b:11\">Yoma 77ᵇ</cite> <he>ג׳ דנהר וכ׳</he> the hanks of &c. *<cite ref=\"Gittin 73a:16\">Gitt. 73ᵃ</cite> <he>אַגּוּדָּא דנהר וכ׳</he> Ar. (ed. <he>אגידא</he>, v. <cite ref=\"C00304\">next w.</cite>) on the banks of &c."
+			],
+			"label": "2"
+		}
+	]
+}

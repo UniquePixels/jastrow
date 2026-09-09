@@ -1,0 +1,36 @@
+{
+	"id": "K00598",
+	"slug": "כיף-3",
+	"headword": {
+		"text": "כֵּיף"
+	},
+	"altHeadwords": [
+		{
+			"text": "כֵּף"
+		}
+	],
+	"page": {
+		"number": 634,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"K01043\"><he>כָּפַף</he></cite>) [<i>ball</i>,] <i>rock</i>.—Pl. <he>כֵּיפִים</he>, constr. <cite ref=\"K00606\"><he>כֵּיפֵי</he></cite>, <cite ref=\"K00606\"><he>כֵּפֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:2:4\">Y. Shek. VI, 50ᵃ</cite>; <cite ref=\"Bereishit Rabbah 23:7\">Gen. R. s. 23</cite>, v. <cite ref=\"B01172\"><he>בַּרְבַּרְיָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"K00603\"><he>כִּיפָּה</he></cite>) <i>arch, tuft, umbel</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Batra 5:5\">Tosef. Kel. B. Bath. V, 5</cite> <he>כ׳ של נייר</he> a tuft of papyrus; <he>כ׳ של סיב</he> of hemp.—Pl. <he>כֵּיפִין</he>, <cite ref=\"K00607\"><he>כֵּפִ׳</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Batra 5:5\">Ib.</cite>, sq.; v. <cite ref=\"K00603\"><he>כִּיפָּה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "C01413",
+	"slug": "גשושא",
+	"headword": {
+		"text": "גָּשׁוֹשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּשׁוֹשָׁאָה"
+		}
+	],
+	"page": {
+		"number": 273,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C01412\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>one carrying the sounding pole in advance of the ship, sounder</i>. Pl. <cite ref=\"C01412\"><he>גָּשׁוֹשֵׁי</he></cite> <cite ref=\"Shabbat 100b:10\">Sabb. 100ᵇ</cite> (Ms. O. <cite ref=\"C01413\"><he>גְּשׁוֹשָׁאֵי</he></cite>).",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>one tracing treasures buried in the ground</i>.—Pl. <cite ref=\"C01413\"><he>גְּשׁוֹשָׁאֵי</he></cite>. ",
+			"units": ["<cite ref=\"Bava Metzia 42a:7\">B. Mets. 42ᵃ</cite>"],
+			"label": "2"
+		}
+	]
+}

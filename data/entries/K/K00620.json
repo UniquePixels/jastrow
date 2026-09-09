@@ -1,0 +1,33 @@
+{
+	"id": "K00620",
+	"slug": "כירה-2",
+	"headword": {
+		"text": "כִּירָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 636,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01095\"><he>כָּרָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>digging, making a pit</i>. Mekh. Mishp., N’zik., s. 11 (prob. to be read: <cite ref=\"K01156\"><he>כְּרִיָּה</he></cite>).",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>selecting</i>,] <i>buying, sale</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 26a:19\">R. Hash. 26ᵃ</cite> <he>היו קורין למכירה כ׳</he> (in the sea-towns) I heard them call a sale <i>kirah</i> (which accounts for <he>כריתי</he>, <cite ref=\"Genesis 50:5\">Gen. L, 5</cite>); <cite ref=\"Sotah 13a:8\">Sot. 13ᵃ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

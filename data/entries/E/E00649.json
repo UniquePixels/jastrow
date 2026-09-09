@@ -1,0 +1,54 @@
+{
+	"id": "E00649",
+	"slug": "הן-2",
+	"headword": {
+		"text": "הֵן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "הֵין"
+		}
+	],
+	"page": {
+		"number": 356,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " h. a. ch. (b. h. <cite ref=\"E00648\"><he>הֵן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>here is, behold</i>. <cite ref=\"E00464\"><he>הִינָּם</he></cite>, <cite ref=\"E00460\"><he>הִינָּן</he></cite> <i>behold, they are</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 5:6\">Ned. V, 6</cite> (<cite ref=\"Nedarim 48a:6\">48ᵃ</cite>) <he>והי׳ לפניך אלא וכ׳</he> Bab. ed. (Mish. <he>ואינן</he>; Y. ed. <he>והן בפניך עד</he>) and behold they are before thee (thine), but only in order that my father &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (introducing a question or exclamation) <i>how?, indeed!</i> <cite ref=\"Jerusalem Talmud Shekalim 1:1:6\">Y. Shek. I, 45ᵈ</cite> bot. <he>הן נקרא ולא וכ׳</he> can we, indeed, read this and not feel ashamed? (Bab. ed. <he>הניקרא</he>, marginal correct. Ms. M. <he>הן נק׳</he>).",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>if</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 2:5\">Dan. II, 5</cite>, sq.; a. fr.—<he>הן</he>—הן <i>whether</i>—<i>or</i>. ",
+				"<cite ref=\"Ezra 7:26\">Ezra VII, 26</cite>.—",
+				"<cite ref=\"Mishnah Bava Batra 7:2\">B. Bath. VII, 2</cite> <he>הן חסר הן יתר</he> whether it be less (than a Beth Kor) or more. ",
+				"<cite ref=\"Mishnah Bava Batra 7:3\">Ib. 3</cite>; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>yes</i> (cmp. <cite ref=\"A01364\"><he>אִין</he> I</cite>). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 49a:6\">B. Mets. 49ᵃ</cite>, v. <cite ref=\"E00442\"><he>הִין</he></cite> II Mekh. Yithro s. 4 answer <he>על לאו לאו ועל הן הן</he> <i>no</i> to a prohibition and <i>yes</i> to a positive command. Ib. s. 5 <he>ה׳ וה׳</he> yes, indeed; a fr.—",
+				"<cite ref=\"Nedarim 11a:2\">Ned. 11ᵃ</cite>, a. fr. <he>מכלל לאו אתה שומע הן</he> from the negative we derive the affirmative by implication; Y. ib. I, end, 37ᵃ, a. e. <he>ממשמע לאו וכ׳</he>. ",
+				"<cite ref=\"Mishnah Menachot 10:3\">Men. X, 3</cite> (<cite ref=\"Menachot 65a:7\">65ᵃ</cite>)."
+			],
+			"label": "4"
+		}
+	]
+}

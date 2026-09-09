@@ -1,0 +1,26 @@
+{
+	"id": "P00673",
+	"slug": "עיר-2",
+	"headword": {
+		"text": "עִיר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1075,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00343\"><he>עוּר</he></cite>) <i>guardian, angel</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 109:8\">Midr. Till. to Ps. CXVIII, 8</cite> <he>ולא ירד עמו לא ע׳ ולא שרף וכ׳</he> ed. Bub. (oth. ed. <he>לא ע׳ ולא קדיש</he>, borrowed from <cite ref=\"Daniel 4:10\">Dan. IV, 10</cite>) nor went down with him (Abraham) a guardian, or Seraph, or angel. ",
+				"<cite ref=\"Daniel 4:10\">Ib.</cite> to <cite ref=\"Psalms 1\">Ps. 1</cite> (play on <cite ref=\"P00672\"><he>עיר</he></cite>, <cite ref=\"Genesis 11:4\">Gen. XI, 4</cite>) <he>ואין ע׳ אלא אלוה</he> <i>ʿir</i> means a deity (ref. to Dan. l. c.).—Pl. <he>עִירִין</he>. ",
+				"<cite ref=\"Pesachim 33a:11\">Pes. 33ᵃ</cite> (quot. fr. ",
+				"<cite ref=\"Daniel 4:14\">Dan. IV, 14</cite>) <he>בגזירת ע׳ וכ׳</he> by the decree of the guardians (scholars) the word (is established) &c., i.e. they have so decided at college.—[<he>עִיר</he> <i>awake</i>, v. <cite ref=\"P00343\"><he>עוּר</he></cite> ch.]"
+			]
+		}
+	]
+}

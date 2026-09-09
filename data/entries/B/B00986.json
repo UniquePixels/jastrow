@@ -1,0 +1,30 @@
+{
+	"id": "B00986",
+	"slug": "בסיליון",
+	"headword": {
+		"text": "בָּסִילְיוֹן"
+	},
+	"page": {
+		"number": 178,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ( m. (βασίλειον, τὸ) <i>royal seat, palace</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:6:7\">Y. Snh. II, 20ᶜ</cite> <he>מלכא יתיב על ב׳ דידיה וכ׳</he> (read <he>בי ב׳</he>) the King sits in his palace, and thou sayest thou art the King?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (genit. of βασίλεια, τὰ) <i>of the palace</i>, or <i>of the royal affairs</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 93:10\">Gen. R. s. 93</cite> <he>פטרון ב׳</he> (πάτρων τῶν βασιλείων) <i>superintendent of</i> &c."
+			],
+			"label": "2"
+		}
+	]
+}

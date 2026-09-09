@@ -1,0 +1,48 @@
+{
+	"id": "U02076",
+	"slug": "שתאס",
+	"headword": {
+		"text": "שְׁתַאס"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁתַס"
+		}
+	],
+	"page": {
+		"number": 1636,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"U01106\"><he>שִׁיתְאָסָא</he></cite>) <i>to lay the foundation of, establish</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 38:4\">Targ. Job XXXVIII, 4</cite> <he>במִשְׁתָּסִי</he> (ed. <he>במִשְׁתְּ׳</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַשְׁתֵּס"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U02075\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 8:3\">Targ. Ps. VIII, 3</cite>, v. <cite ref=\"U00642\"><he>שְׁתֵי</he> II</cite>"
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִישְׁתָּאס"],
+			"senses": [
+				{
+					"gloss": "<i>to be founded</i>. Ib. 38 ed. Lag. (ed. Wil. <cite ref=\"U01492\"><he>אֶשְׁתְּאַם</he></cite>, corr. acc.).",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

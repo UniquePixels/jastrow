@@ -1,0 +1,22 @@
+{
+	"id": "M01890",
+	"slug": "מסחיט",
+	"headword": {
+		"text": "מַסְחֵיט"
+	},
+	"page": {
+		"number": 805,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00452\"><he>סָחַט</he></cite>) <i>squeezing appliance, wringer</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 6:7\">Tosef. Kel. B. Mets. VI, 7</cite> <he>מ׳ של דלת</he> a wringer on hinges."
+			]
+		}
+	]
+}

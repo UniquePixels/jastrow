@@ -1,0 +1,42 @@
+{
+	"id": "I00214",
+	"slug": "טור-1",
+	"headword": {
+		"text": "טוּר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 526,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"I00354\"><he>טַיֵּיר</he></cite> (cmp. <cite ref=\"V00271\"><he>תּוּר</he></cite>) <i>to espy, to augur</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 44:8\">Targ. Y. Gen. XLIV, 8</cite>; <cite ref=\"Targum Jonathan on Genesis 44:15\">15</cite> (h. text <cite ref=\"N00519\"><he>נחש</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַטְיַר"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"I00356\"><he>טַיָּיר</he></cite>) <i>to consult divination</i>. Ib. XXX, 27.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

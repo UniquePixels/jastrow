@@ -1,0 +1,41 @@
+{
+	"id": "V00938",
+	"slug": "תרג",
+	"headword": {
+		"text": "תָּרַג"
+	},
+	"page": {
+		"number": 1695,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to give oranges to eat</i>. Y. Maasr. II, 50ᵃ bot. <he>הַתְרִיגוּ וכ׳</he> (ed. Krot. <he>התריגי</he>), v. <cite ref=\"B00181\"><he>בַּהָם</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to make bright</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 53b:13\">Erub. 53ᵇ</cite> (in enigmatic speech) <he>הַתְרִיגוּ לפחמין</he> Ms. M. a. Ar. (ed. <he>אַתְרִיגוּ</he> Chaldaism) make the coals bright, v. <cite ref=\"G00080\"><he>זָהָב</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>הִתְרִיג</he> (denom. of <cite ref=\"A03447\"><he>אֶתְרוֹג</he></cite>) ",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

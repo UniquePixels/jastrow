@@ -1,0 +1,23 @@
+{
+	"id": "E00212",
+	"slug": "הודרנא",
+	"headword": {
+		"text": "הוּדְרָנָא"
+	},
+	"page": {
+		"number": 337,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>הדר</he>) <i>circle</i>, only in <he>הֲדַר ה׳</he> <i>all-around</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 76a\">Pes. 76ᵃ</cite> <he>סולת דה׳ הוּדְרָנֵיה</he> (missing in Ms. M., v. Rabb. D. S. a. l.) the flour around it. ",
+				"<cite ref=\"Shabbat 77b:5\">Sabb. 77ᵇ</cite> <he>לאפוקי הדר הו׳</he> (Ms. M. <he>ה׳ הדרנא</he>; in ed. <he>חדר</he> left out, v. marg. note a. Rabb. D. S. a. l.) to exclude what is required for rubbing all around the sore."
+			]
+		}
+	]
+}

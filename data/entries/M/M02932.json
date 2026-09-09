@@ -1,0 +1,22 @@
+{
+	"id": "M02932",
+	"slug": "משמרת-1",
+	"headword": {
+		"text": "מִשְׁמֶרֶת"
+	},
+	"page": {
+		"number": 856,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"M02931\">preced.</cite>) <i>guard</i>, trnsf. (v. <cite ref=\"C00246\"><he>גֶּדֶר</he></cite>) <i>preventive measure</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 5a:21\">M. Kat. 5ᵃ</cite>; <cite ref=\"Yevamot 21a:12\">Yeb. 21ᵃ</cite> (ref. to <cite ref=\"Leviticus 18:30\">Lev. XVIII, 30</cite>) <he>עשו מ׳ למִשְׁמַרְתִּי</he> make a guard to my guard, enact measures to prevent a transgression of Biblical laws."
+			]
+		}
+	]
+}

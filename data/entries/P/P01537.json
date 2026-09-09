@@ -1,0 +1,23 @@
+{
+	"id": "P01537",
+	"slug": "עתירה-1",
+	"headword": {
+		"text": "עֲתִירָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1129,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עתר</he> = <cite ref=\"H01910\"><he>חָתַר</he></cite>, <i>to dig</i>) <i>opening made by digging, breach</i>. ",
+			"units": [
+				"<cite ref=\"Ruth Rabbah 5:6\">Ruth R. to II, 14</cite>, v. <cite ref=\"H01893\"><he>חֲתִירָה</he></cite>."
+			]
+		}
+	]
+}

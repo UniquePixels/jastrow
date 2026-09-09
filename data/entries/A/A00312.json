@@ -1,0 +1,24 @@
+{
+	"id": "A00312",
+	"slug": "אגמא-3",
+	"headword": {
+		"text": "אַגְמָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 13,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Agma</i>, in Babylon. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 86a\">B. Mets. 86ᵃ</cite>.—",
+				"<cite ref=\"Bava Batra 127a\">B. Bath. 127ᵃ</cite>; <cite ref=\"Kiddushin 72a:11\">Kidd. 72ᵃ</cite> <he>אקרא דא׳</he> Akra d’Agma, v. <cite ref=\"A02939\"><he>אַקְרָא</he></cite> <cite ref=\"Sanhedrin 38b:1\">Snh. 38ᵇ</cite> <he>אקרא דא׳</he> (Ar. <he>אגמא דוקירי</he>; oth. var. v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

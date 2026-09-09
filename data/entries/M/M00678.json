@@ -1,0 +1,31 @@
+{
+	"id": "M00678",
+	"slug": "מוש-1",
+	"headword": {
+		"text": "מוּשׁ"
+	},
+	"page": {
+		"number": 751,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"M02984\"><he>מָשַׁשׁ</he></cite>) <i>to feel, touch</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נָמוֹשׁ"],
+			"senses": [
+				{
+					"gloss": ", part. pl. <he>נְמוֹשׁוֹת</he> [<i>gropers, searchers</i>,] <i>the last troop of gleaners</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Peah 8:1\">Peah VIII, 1</cite> <he>משילכו הנ׳</he> from the time the last gleaners go. Y. ib. 20ᵈ <he>למה נקרא שמן נ׳ … בסוף וכ׳</he> why are they called <i>n’moshoth</i> (searchers)? Because they come out last. Ib. <he>אית תני׳ נ׳ וכ׳</he> (not <he>נמושית</he>) some read <i>n’moshoth</i>, others <i>mashoshoth</i> &c.; he who reads <i>mash</i>. calls them so, because they feel their way in walking (old people); <cite ref=\"Bava Metzia 21b:11\">B. Mets. 21ᵇ</cite>; <cite ref=\"Taanit 6b:3\">Taan. 6ᵇ</cite> <he>מאי נ׳ סבי וכ׳</he> what is meant by <i>n’moshoth?</i> Old men walking on a staff; (oth. opin.) <he>לקוטי וכ׳</he>, v. <cite ref=\"L00667\"><he>לָקוֹטָא</he></cite>. Y. Peah l. c. <he>היה יוצא בין הנ׳</he> (not <he>מן</he>) used to go out among the last gleaners."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

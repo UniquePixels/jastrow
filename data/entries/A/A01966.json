@@ -1,0 +1,27 @@
+{
+	"id": "A01966",
+	"slug": "אמאוס",
+	"headword": {
+		"text": "אִמָּאוּס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִימָּאוּס"
+		}
+	],
+	"page": {
+		"number": 74,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (Ἐμμαούς, Ἀμμαούς, hellenized form of <he>חמה</he>, <cite ref=\"H01244\"><he>חמתה</he></cite>) <i>Emmaus, Ammaus</i>, a town in the plain of Judæa (or Philistæa), renowned, in Talmudic days, for its warm springs and luxurious life. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 7:7\">Koh. R. to VII, 7</cite>, a. e. [<cite ref=\"Kohelet Rabbah 11\">Ib. 11</cite> <he>אימוניס</he> prob. <he>אימאוס</he>.] Cmp. <cite ref=\"D00630\"><he>דימסית</he></cite>. [Other forms: <cite ref=\"P00853\"><he>עמאוס</he></cite>, <he>עמיס</he>, <he>אמאום</he>, <he>עמאים</he>. For other places by that name, v. Neub. Géogr. p. 100.]"
+			]
+		}
+	]
+}

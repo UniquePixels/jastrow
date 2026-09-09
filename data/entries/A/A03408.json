@@ -1,0 +1,30 @@
+{
+	"id": "A03408",
+	"slug": "אתונא-2",
+	"headword": {
+		"text": "אַתּוּנָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 132,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אתן</he>, sec. r. of <cite ref=\"A00939\"><he>אות</he></cite>, v. <cite ref=\"A01639\"><he>אִית</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"A03332\"><he>אשן</he></cite>, <he>עשן</he>, <he>אשונא</he>) <i>fire-place, stove</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 19:18\">Targ. Ex. XIX, 18</cite>; a. e.—",
+				"<cite ref=\"Ketubot 67b:13\">Keth. 67ᵇ</cite> <he>ההוא א׳ וכ׳</he> a fire-place of which the fire has been scraped out. ",
+				"<cite ref=\"Esther Rabbah 3:14\">Esth. R. to I, 12</cite> <he>זרוק גופר׳ באתוניה</he> cast sulphur into his stove i.e. inflame his passion."
+			],
+			"label": "1"
+		}
+	]
+}

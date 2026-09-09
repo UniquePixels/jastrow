@@ -1,0 +1,29 @@
+{
+	"id": "B00486",
+	"slug": "בחש-1",
+	"headword": {
+		"text": "בָּחַשׁ"
+	},
+	"page": {
+		"number": 155,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>בח</he>, v. <he>בחן</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to search, examine;</i> v. <cite ref=\"B00487\">next w.</cite>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to stir, to go to the bottom of a thing</i> (v. P. Sm. 508). ",
+			"units": [
+				"<cite ref=\"Berakhot 38a\">Ber. 38ᵃ</cite>; <cite ref=\"Shabbat 156a\">Sabb. 156ᵃ</cite>, v. <cite ref=\"U02113\"><he>שָׁתִית</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

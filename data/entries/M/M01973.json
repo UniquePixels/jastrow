@@ -1,0 +1,33 @@
+{
+	"id": "M01973",
+	"slug": "מסן",
+	"headword": {
+		"text": "מְסַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְסָנָא"
+		}
+	],
+	"page": {
+		"number": 809,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"M01832\"><he>מְסָאנָא</he></cite>) <i>shoe</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 14:23\">Targ. O. Gen. XIV, 23</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 16:10\">Targ. Ez. XVI, 10</cite>; a. fr.—",
+				"<cite ref=\"Eichah Rabbah 1:31\">Lam. R. to I, 5</cite> <he>חד מ׳ דידיה</he> one of his shoes; <he>חד מ׳ חורן</he> the other shoe; a. e.—",
+				"<cite ref=\"Kiddushin 22b:19\">Kidd. 22ᵇ</cite> bot. <he>מְסָנָאִי</he> (prob. to be read: <he>מְסָאנִי</he>) my shoe.—Pl. <he>מְסָנִין</he>, <he>מְסָנַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 9:5\">Targ. Josh. IX, 5</cite> (ed. Wil. <he>מְסָנָן</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 3:18\">Targ. Is. III, 18</cite> (h. text <he>עכסים</he>).—Hebr. pl. <he>מְסָנִים</he>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 10:1:6\">Y. Pes. X, beg. 37ᵇ</cite>, v. <cite ref=\"R00230\"><he>צוֹצָל</he></cite>."
+			]
+		}
+	]
+}

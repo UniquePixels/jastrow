@@ -1,0 +1,52 @@
+{
+	"id": "B00742",
+	"slug": "בישו",
+	"headword": {
+		"text": "בִּישׁוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּושׁוּת"
+		},
+		{
+			"text": "בִּישׁוּתָא"
+		},
+		{
+			"text": "בְּאִישׁ׳"
+		}
+	],
+	"page": {
+		"number": 167,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בִּישׁ</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bad quality</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 24:2\">Targ. Jer. XXIV, 2</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>wickedness, evil</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 31:52\">Targ. O. Gen. XXXI, 52</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 156a:8\">Sabb. 156ᵃ</cite> <he>חדא לב׳</he> one quality on the bad side; <he>כולי לב׳</he> all bad. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>בישו עבדית וכ׳</he> (<cite ref=\"T00152\"><he>רבתי</he></cite>) (not <he>בישי</he>) have I done wrong that I &c.? Pesik. Zakh. p. 24ᵇ [read twice:] <he>למיגזי לבישא בִּישׁוּתֵיה</he>; (Tanḥ. Ki Thetse 6 <he>בִּישְׁתֵּיה</he>, ed. Bub. ib. <he>בישותיה</he>) to repay the bad man his badness. ",
+				"<cite ref=\"Bava Kamma 115a:16\">B. Kam. 115ᵃ</cite> <he>מפורסם לב׳</he> notorious for vice.—",
+				"<cite ref=\"Menachot 52a:16\">Men. 52ᵃ</cite> <he>מבישותין וכ׳</he> of our shortcomings they speak to them. ",
+				"<cite ref=\"Avodah Zarah 65a:4\">Ab. Zar. 65ᵃ</cite> <he>עינא … ב׳</he> the eye which desires to see your misfortune. ",
+				"<cite ref=\"Ketubot 25b:6\">Keth. 25ᵇ</cite>; <cite ref=\"Makkot 5b:4\">Macc. 5ᵇ</cite> <he>הדר הזייה לר׳ א׳ בישות</he> he turned around and looked at R. E. with displeasure; <cite ref=\"Pesachim 53b:13\">Pes. 53ᵇ</cite> <he>חזא ביה … ב׳</he> (Ms. M. 2 a. Oxf. <he>בבישות</he>, v. Rabb. D. S. a. l. note 400).—",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:4:2\">Y. Taan. III, 66ᶜ</cite> bot. <he>ומדינתא אזלא בבאישות</he> and the city perishes in wickedness (by pestilence)."
+			],
+			"label": "2"
+		}
+	]
+}

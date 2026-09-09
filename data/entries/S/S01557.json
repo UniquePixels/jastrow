@@ -1,0 +1,55 @@
+{
+	"id": "S01557",
+	"slug": "קנטינר",
+	"headword": {
+		"text": "קִנְטִינָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִנְטְנָר"
+		},
+		{
+			"text": "קִי׳"
+		},
+		{
+			"text": "קַ׳"
+		}
+	],
+	"page": {
+		"number": 1389,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (centenarium) ",
+			"units": []
+		},
+		{
+			"gloss": " (= centuria) [<i>a number of acres of ground</i>,] <i>large court</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Batra 6:24\">Tosef. B. Bath. VI, 24</cite> <he>ק׳ אני מוכר וכ׳</he> if a man says, I sell thee a <i>centenar</i>, he must deliver to him an area of twelve (cubits) by twelve; <cite ref=\"Bava Batra 98b\">B. Bath. 98ᵇ</cite> <cite ref=\"S01624\"><he>קנתיר</he></cite> (Ms. M. <cite ref=\"S01624\"><he>קנתור</he></cite>; Ms. H. <cite ref=\"S01624\"><he>קנתינר</he></cite>; Ms. R. <cite ref=\"S01557\"><he>קנטינר</he></cite>); expl. ",
+				"<cite ref=\"Bava Batra 98b:10\">ib.</cite> <he>תרבץ אפדני</he> court for a villa."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a hundred thousand sesterces, a weight</i> corresp. to h. <cite ref=\"K00664\"><he>כִּכָּר</he></cite>; (abbrev.) <cite ref=\"S01558\"><he>קִנְטֵיר</he></cite>, <cite ref=\"S01559\"><he>קִנְטֵר</he></cite>, <cite ref=\"S01558\"><he>קִנְטְרָא</he></cite>, <cite ref=\"S00089\"><he>קִי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 25:39\">Targ. Y. Ex. XXV, 39</cite> <cite ref=\"S01557\"><he>קנטנר</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 37:24\">Ib. XXXVII, 24</cite> <cite ref=\"S01557\"><he>קנטינר</he></cite> (Ar. <he>קנטר</he>). ",
+				"<cite ref=\"Targum of I Chronicles 20:2\">Targ. I Chr. XX, 2</cite> <he>קנטר</he>, <cite ref=\"S01557\"><he>קנטינר</he></cite> ed. Lag. (ed. Rahmer <he>קנטיניר</he>, Var. <he>קנטר</he>). ",
+				"<cite ref=\"Targum of II Chronicles 23:11\">Targ. II Chr. XXIII, 11</cite>; a. e.—",
+				"<cite ref=\"Bekhorot 50a:8\">Bekh. 50ᵃ</cite> <he>איכא … לקינטרא תיקלא</he> there is a place where the <i>centenarium</i> is called <i>tikla</i>; <cite ref=\"Bava Metzia 87a:3\">B. Mets. 87ᵃ</cite> <he>לקנטירא</he>.—Pl. <he>קִנְטִינָרִין</he>, <he>קִנְטֵירִין</he>, <cite ref=\"S00435\"><he>קִינְטְרִין</he></cite>, <he>קִנְטְרֵי</he>, <he>קִנְטְרַיָּא</he>, <cite ref=\"S01557\"><he>קַ׳</he></cite>, <cite ref=\"S00089\"><he>קִי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 38:24\">Targ. Y. Ex. XXXVIII, 24</cite>; <cite ref=\"Targum Jonathan on Exodus 38:25\">25</cite>; <cite ref=\"Targum Jonathan on Exodus 38:27\">27</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 19:6\">Targ. I Chr. XIX, 6</cite>; a. e.—Bekh. l. c. <he>כל כסף … דכתובין ק׳ וכ׳</he> wherever ‘silver’ is mentioned in the Pentateuch, it means Sela, in the Prophets, <i>litrae</i>, in the Hagiographa, <i>centenaria</i>, except the silver mentioned in the transaction of Ephron (<cite ref=\"Genesis 23\">Gen. XXIII</cite>) where it means <i>centenaria</i>; B. Mets. l. c. <he>דלא שקל מיניה אלא ק׳</he> (v. Rabb. D. S. a. l. note 70) he (Ephron) would not accept anything of him (Abraham) but <i>centenaria</i>; <cite ref=\"Yalkut Shimoni on Torah 102:19\">Yalk. Gen. 102</cite>; <cite ref=\"Bereishit Rabbah 58\">Gen. R. s. 58</cite> <he>קונ׳</he>. ",
+				"<cite ref=\"Shemot Rabbah 42\">Ex. R. s. 42</cite>, v. <cite ref=\"M01940\"><he>מֶסֶךְ</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 28:6\">Lev. R. s. 28</cite> <he>עשרת … ק׳ דכספא</he> the ten thousand hundredweights of silver (<cite ref=\"Esther 3:9\">Esth. III, 9</cite>). ",
+				"<cite ref=\"Esther 3:9\">Ib.</cite> <he>בעשרה ק׳</he> worth ten <i>centenaria</i>; Pesik. Haʿomer, p. 71ᵇ; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

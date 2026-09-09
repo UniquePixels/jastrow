@@ -1,0 +1,22 @@
+{
+	"id": "M01044",
+	"slug": "מטעמת",
+	"headword": {
+		"text": "מַטְעֶמֶת"
+	},
+	"page": {
+		"number": 769,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00609\"><he>טָעַם</he></cite>) <i>tasting</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 14a:8\">Ber. 14ᵃ</cite> <he>מ׳ אינה טעונה ברכה</he>, v. <cite ref=\"M01043\">preced.</cite>"
+			]
+		}
+	]
+}

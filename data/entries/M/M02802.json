@@ -1,0 +1,23 @@
+{
+	"id": "M02802",
+	"slug": "משאר",
+	"headword": {
+		"text": "מִשְׁאַר"
+	},
+	"page": {
+		"number": 848,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. constr. (<cite ref=\"U00048\"><he>שְׁאַר</he></cite>) <i>the rest of, others</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 35:34\">Targ. Y. II, Ex. XXXV, 34</cite> <he>מ׳ אומניא</he> the other mechanics. ",
+				"<cite ref=\"Targum Jonathan on Numbers 19:3\">Targ. Y. Num. XIX, 3</cite> <he>מ׳ בעירן</he> other (not dedicated) animals."
+			]
+		}
+	]
+}

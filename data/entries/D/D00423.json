@@ -1,0 +1,33 @@
+{
+	"id": "D00423",
+	"slug": "דחלא-2",
+	"headword": {
+		"text": "דַּחֲלָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּחַלְתָּא"
+		}
+	],
+	"page": {
+		"number": 292,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00422\">preced.</cite>) <i>fear</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 2:11\">Targ. Ps. II, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 1:7\">Targ. Prov. I, 7</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:5:6\">Y. B. Mets. II, 8ᶜ</cite> bot. <he>בגין דַּחַלְתֵּיךְ</he> from fear of thee; a. e.—Trnsf. (cmp. <cite ref=\"J00592\"><he>יִרְאָה</he></cite>) m. <i>deity</i>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 2:22\">Targ. Is. II, 22</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 32:15\">Targ. Y. II, Deut. XXXII, 15</cite>. Targ. Y. I ib. 18 <he>דַּחֲלַת</he> (Ms. <cite ref=\"D00424\"><he>דחלא</he></cite>); a. fr. Pl. <he>דַּחְלָן</he>. Ib. 17; a. fr.—<cite ref=\"D00423\"><he>דַּחֲלָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 55:5\">Targ. Ps. LV, 5</cite>."
+			]
+		}
+	]
+}

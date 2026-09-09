@@ -1,0 +1,39 @@
+{
+	"id": "Q01241",
+	"slug": "פסול-3",
+	"headword": {
+		"text": "פָּסוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּסוּלָה"
+		}
+	],
+	"page": {
+		"number": 1192,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01325\"><he>פָּסַל</he></cite>; cmp. <he>פגם</he>) <i>defective, blemished, unfit, disqualified</i>, opp. <cite ref=\"K01324\"><he>כשר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 2:1\">Zeb. II, 1</cite> <he>נשפך ואספו פ׳ …</he> if the blood was spilt over the pavement, and one collects it again, it is unfit for sprinkling. ",
+				"<cite ref=\"Mishnah Zevachim 2:3\">Ib. 3</cite>, v. <cite ref=\"Q00577\"><he>פִּיגּוּל</he></cite>. ",
+				"<cite ref=\"Mishnah Chullin 1:4\">Ḥull. I, 4</cite> <he>שחיטתו פ׳</he> his slaughtering act is illegitimate (the animal so slaughtered is forbidden to be eaten). ",
+				"<cite ref=\"Mishnah Chullin 1:4\">Ib.</cite> <he>כשר בשחיטה פ׳ במליקה וכ׳</he> what is right in slaughtering, is illegal in pinching (the neck) &c. ",
+				"<cite ref=\"Mishnah Zevachim 3:2\">Zeb. III, 2</cite> <he>קבל הכשר ונתן לפ׳</he> if a person qualified for the service received the blood and handed it to one disqualified. ",
+				"<cite ref=\"Bereishit Rabbah 70:13\">Gen. R. s. 70</cite> <he>אליעזר פְּסוּל הבית היה וכ׳</he> Eliezer was the disqualified (servant) of the house, and yet it is written &c. ",
+				"<cite ref=\"Mishnah Kiddushin 4:6\">Kidd. IV, 6</cite> <he>פ׳ מן הכהונה לעולם</he> is forever unfit for priesthood (his female descendants are forbidden to priests); <he>בתו פ׳ לכהונה</he> his daughter cannot marry a priest; a. v. fr.—Pl. <he>פְּסוּלִים</he>, <he>פְּסוּלִין</he>; <he>פְּסוּלוֹת</he>. ",
+				"<cite ref=\"Mishnah Sanhedrin 3:3\">Snh. III, 3</cite> <he>אלו הן הפ׳</he> the following are disqualified (for judges or witnesses). ",
+				"<cite ref=\"Mishnah Gittin 9:4\">Gitt. IX, 4</cite> <he>שלשה גטין פ׳</he> three kinds of letters of divorce are invalid. ",
+				"<cite ref=\"Mishnah Zevachim 3:1\">Zeb. III, 1</cite> <he>כל הפ׳ ששחטו וכ׳</he> if any of those unfit for priestly service did the slaughtering, his act is legal. ",
+				"<cite ref=\"Kiddushin 77a:15\">Kidd. 77ᵃ</cite> <he>כל שנולדה מן הפ׳</he> born of disqualified parents; <he>מאי פ׳ אילימא פ׳ לו</he> what do you mean by ‘disqualified’? Do you mean disqualified (forbidden in marriage) to him (the father)? <cite ref=\"Kiddushin 77a:15\">Ib.</cite> <he>פְּסוּלֵי כהונה</he> persons disqualified for the priesthood (degraded priests). Y. ib. III, 64ᶜ <he>כשרין הוזהרו על הפ׳ וכ׳</he> qualified persons are cautioned (in the Law) not to marry disqualified women, … but qualified women are not forbidden to marry disqualified men. ",
+				"<cite ref=\"Mishnah Shekalim 7:7\">Shek. VII, 7</cite> <he>הקינין הפ׳</he> consecrated birds that became disqualified (or unavailable) for sacrificial purposes. ",
+				"<cite ref=\"Mishnah Bekhorot 5:1\">Bekh. V, 1</cite>, a. fr. <he>פסולי המוקדשים</he> dedicated objects which became unfit for the purpose to which they were dedicated; a. v. fr."
+			]
+		}
+	]
+}

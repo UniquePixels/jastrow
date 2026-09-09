@@ -1,0 +1,23 @@
+{
+	"id": "A00087",
+	"slug": "אבטא-2",
+	"headword": {
+		"text": "אַבְטָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 4,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בט</he>; cmp. <he>בוט</he>, <cite ref=\"B00308\"><he>בוץ</he></cite>, <cite ref=\"B00502\"><he>בטט</he></cite> a. deriv.) <i>belly</i>, whence <i>leather wine-bag</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 34b:1\">Ab. Zar. 34ᵇ</cite> <he>א׳ דטייעי</he> (Ar. <cite ref=\"A01685\"><he>אכטא</he></cite>) the travellers’ wine-bag. [<cite ref=\"Jerusalem Talmud Yevamot 4:2:5\">Y. Yeb. IV, 5ᵈ</cite>, v. <cite ref=\"A02655\"><he>אֶפְטָא</he></cite>.] [<he>אבטאות</he>, v. <cite ref=\"A00096\"><he>אַבְּטִי</he></cite>.]"
+			]
+		}
+	]
+}

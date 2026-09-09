@@ -1,0 +1,32 @@
+{
+	"id": "S01513",
+	"slug": "קנאי-1",
+	"headword": {
+		"text": "קַנַּאי"
+	},
+	"page": {
+		"number": 1388,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"S01510\"><he>קַנָּא</he></cite>; <cite ref=\"S01512\">preced.</cite>)<i>zealous</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 82b:4\">Snh. 82ᵇ</cite> <he>ק׳ בן ק׳ הוא</he> he (Eleazar) is a zealous man, son of a zealous man; <cite ref=\"Vayikra Rabbah 33:4\">Lev. R. s. 33</cite> <he>ק׳ בר ק׳</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>revengeful</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 72:5\">Yalk. Gen. 72</cite>, v. <cite ref=\"S00442\"><he>קוּנְיוֹן</he></cite>.—Pl. <he>קַנָּאִים</he>, <he>קַנָּאִין</he>. ",
+				"<cite ref=\"Mishnah Sanhedrin 9:6\">Snh. IX, 6</cite> (<cite ref=\"Sanhedrin 81b:17\">81ᵇ</cite>) <he>הק׳ פיגעין בו</he> (<he>בשעת מעשה</he>) Ms. M. (ed. <he>ק׳ פוגעין בו</he>; Y. ed. <he>פיגעין בהן</he>, omitting <he>ק׳</he>) zealous people (like Phineas) have a right to strike him (them) when caught in the act; Y. ib. IX, end, 27ᵇ; <cite ref=\"Bamidbar Rabbah 20:25\">Num. R. s. 20</cite> end.—Esp. <i>the zealots, the terrorists</i> during the siege of Jerusalem by the Romans. ",
+				"<cite ref=\"Avot D'Rabbi Natan 6:3\">Ab. d’R. N. ch. VI</cite>, end <he>בקשו ק׳ לשרוף וכ׳</he> the zealots wanted to burn all this wealth (v. <cite ref=\"O00824\"><he>סִיקָרִין</he></cite>).—<i>Fem.</i> <cite ref=\"S01515\"><he>קַנָּאִית</he></cite>; v. <cite ref=\"S01517\"><he>קִנְאָנִית</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

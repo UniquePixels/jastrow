@@ -1,0 +1,24 @@
+{
+	"id": "Q01769",
+	"slug": "פרטא-2",
+	"headword": {
+		"text": "פְּרָטָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1224,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>P’raṭa</i>, father of R. Eleazar. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 3:4\">Gitt. III, 4</cite>. ",
+				"<cite ref=\"Avodah Zarah 17b:9\">Ab. Zar. 17ᵇ</cite>; a. e.—[<cite ref=\"Vayikra Rabbah 23:12\">Lev. R. s. 23</cite> <he>לוי בן פ׳</he>, v. <cite ref=\"Q01000\"><he>פַּלְטָא</he></cite>.]"
+			]
+		}
+	]
+}

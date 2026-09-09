@@ -1,0 +1,28 @@
+{
+	"id": "A00529",
+	"slug": "אובלא-2",
+	"headword": {
+		"text": "אוּבְלָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּכְלָא"
+		},
+		{
+			"text": "אָכְלָא"
+		}
+	],
+	"page": {
+		"number": 21,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " m. (<cite ref=\"J00049\"><he>יבל</he></cite>) <i>vessel made of willow twigs; basket</i>, or <i>perforated trough</i>; (as to shape v. Sm. Ant. s. v. <i>Călathus</i>). ",
+			"units": [
+				"<cite ref=\"Bekhorot 43b\">Bekh. 43ᵇ</cite>, v. <cite ref=\"B00617\"><he>בִּילוֹן</he></cite> a. <cite ref=\"K00541\"><he>כִּילוֹן</he></cite>. Sab. 123ᵇ; <cite ref=\"Sanhedrin 92a:2\">Snh. 92ᵃ</cite>, a. e. <he>א׳ דקצרי</he> Ar. (ed. <he>אוכ׳</he>) the fuller’s trough. Ib. 28ᵇ the father of the husband and the father of the wife are no more kinsmen <he>אלא כי א׳ לדנא</he> (ed. <he>אכלא</he>) than is a basket related to a barrel. [For <he>אכלא</he>, <cite ref=\"A00529\"><he>אוכלא</he></cite> cmp. <he>כְּלִיל</he>, <cite ref=\"K00757\"><he>כַּלְכָּלָה</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "M01482",
+	"slug": "מלבן",
+	"headword": {
+		"text": "מַלְבֵּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַלְבֵּין"
+		}
+	],
+	"page": {
+		"number": 786,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"L00094\"><he>לָבַן</he> I</cite> , v. <cite ref=\"L00103\"><he>לְבֵנָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>press, frame, mould</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 11a:15\">Sot. 11ᵃ</cite> (ref. to <cite ref=\"Exodus 1:11\">Ex. I, 11</cite>) <he>הביאו מ׳ וכ׳</he> they brought a brick mould and suspended it from Pharaoh’s neck; <cite ref=\"Shemot Rabbah 1:1\">Ex. R. s. 1</cite>. ",
+				"<cite ref=\"Zevachim 54a:8\">Zeb. 54ᵃ</cite> <he>מ׳ שהוא שלשים וכ׳</he> a frame of thirty-two by thirty-two cubits (which was filled with stones, cement &c.). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 12:1:4\">Y. Sabb. XII, beg. 13ᶜ</cite> <he>כנוטל מ׳ וכ׳</he> like taking a frame and putting it over the piled up bricks (which cannot be called building). ",
+				"<cite ref=\"Tosefta Shabbat 13:1\">Tosef. Sabb. XIII</cite> (<cite ref=\"Tosefta Shabbat 14:15\">XIV</cite>), 15 <he>מ׳ של מיטה</he> the frame (bottom) of a bedstead. Tosef. Erub. XI (VIII), 17 <he>מ׳ של ספקלריא</he> a window frame. ",
+				"<cite ref=\"Tosefta Bava Batra 2:14\">Tosef. B. Bath. II, 14</cite> <he>מ׳ או צורת וכ׳</he> a window frame or the shape of a door; <cite ref=\"Mishnah Bava Batra 3:6\">B. Bath. III, 6</cite>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 5:9\">Tosef. Kel. B. Mets. V, 9</cite> <he>מ׳ להיות נותנו וכ׳</he> a bedstead bottom intended to be moved from one bed to another, opp. intended for one particular bed. ",
+				"<cite ref=\"Tosefta Ohalot 13:5\">Tosef. Ohol. XIII, 5</cite> [read:] <he>מ׳ שהוא מלובש וכ׳</he>, v. <cite ref=\"L00118\"><he>לָבַשׁ</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Batra 1:8\">Tosef. Kel. B. Bath. I, 8</cite> <he>מ׳ של מסר הגדול</he> the frame of a large saw. ",
+				"<cite ref=\"Mishnah Negaim 13:3\">Neg. XIII, 3</cite> <he>מ׳ הבנוי וכ׳</he> a casing to protect that portion of the beam which rests on the wall.—",
+				"<cite ref=\"Bereishit Rabbah 38:6\">Gen. R. s. 38</cite>; <cite ref=\"Yalkut Shimoni on Nach 961:45\">Yalk. Prov. 961</cite> (ref. to <cite ref=\"Proverbs 27:22\">Prov. XXVII, 22</cite>) <he>כזה שהוא … במ׳</he> like one undertaking to crush barley in a frame; a. fr.—Pl. <he>מַלְבֵּנִים</he>, <he>מַלְבֵּנִין</he>, <he>מַלְבֵּנוֹת</he>, <cite ref=\"M01478\"><he>מַלְבֵּי׳</he></cite>. Neg. l. c. ",
+				"<cite ref=\"Bava Batra 69a:12\">B. Bath. 69ᵃ</cite> <he>מ׳ של פתחים</he> door frames; <he>מ׳ של חלונות</he> window frames; <he>מ׳ של כרעי המטה</he> sockets for the legs of a bedstead. ",
+				"<cite ref=\"Mishnah Kelim 18:3\">Kel. XVIII, 3</cite> <he>מֵלְבְּנֵי בני לוי</he> stands for the musical instruments of the Levites; <cite ref=\"Tosefta Keilim Metsia 5:9\">Tosef. Kel. B. Mets. V, 9</cite> <he>מ׳ לוי</he> ed. Zuck. (corr. acc.); a. e.—2) (from its shape) <i>a small garden-bed, a plot</i> (of three hand-breadths in width).—Pl. as ab. ",
+				"<cite ref=\"Mishnah Peah 3:1\">Peah III, 1</cite>. ",
+				"<cite ref=\"Mishnah Peah 3:4\">Ib. 4</cite> <he>מ׳ הבצלים שבין הירק</he> plots of onions between vegetables. ",
+				"<cite ref=\"Mishnah Peah 7:2\">Ib. VII, 2</cite> <he>ג׳ שורות של שני מ׳</he> three rows at a distance of two <i>malbenim</i> (six hand-breadths) from one another; <cite ref=\"Tosefta Peah 3:10\">Tosef. ib. III, 10</cite>. ",
+				"<cite ref=\"Mishnah Terumot 4:8\">Ter. IV, 8</cite> <he>המ׳</he> (sub. <he>דבלי</he>) figs pressed in quadrangular moulds, opp. <he>עגולים</he>."
+			],
+			"label": "1"
+		}
+	]
+}

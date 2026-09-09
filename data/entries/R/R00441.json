@@ -1,0 +1,45 @@
+{
+	"id": "R00441",
+	"slug": "ציצית-2",
+	"headword": {
+		"text": "צִיצִית",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צִיצִיתָא"
+		}
+	],
+	"page": {
+		"number": 1280,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00440\">same</cite><i>lock</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:2\">Targ. Cant. V, 2</cite>.—",
+				"<cite ref=\"Menachot 42a:4\">Men. 42ᵃ</cite>, v. <cite ref=\"R00229\"><he>צוּצִיתָא</he></cite>.—Pl. <cite ref=\"R00441\"><he>צִיצְיָתָא</he></cite>, <cite ref=\"R00439\"><he>צִיצְיָי׳</he></cite>, constr. <cite ref=\"R00440\"><he>צִיצְיָת</he></cite>, <cite ref=\"R00439\"><he>צִיצְיַית</he></cite>. Targ. Cant. l. c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>show-fringe</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 15:39\">Targ. Y. Num. XV, 39</cite> (ed. Amst. <cite ref=\"R00440\"><he>צִיצִיַּת</he></cite>). ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 22:12\">Targ. Y. II, Deut. XXII, 12</cite> (Y. I <cite ref=\"R00439\"><he>צִיצְיַית</he></cite>).—Y. Snh. X, 28ᶜ [read:] <he>ובלעיה ארזא וסרחא צִיצִיתָה דגולתיה</he> the cedar swallowed him (Isaiah) up, but the fringes of his cloak remained hanging out. ",
+				"<cite ref=\"Midrash Tehillim 7:20\">Midr. Till. to Ps. VII, 5</cite> (ref. to <cite ref=\"I Samuel 24:6\">I Sam. XXIV, 6</cite>) <he>מה בין קטע צ׳ וכ׳</he> what is the difference between cutting off (a man’s) show-fringes (depriving him of the privilege of religious observance) and cutting off (a man’s) head?—Pl. <he>צִיצִין</he>, <cite ref=\"R00439\"><he>צִיצְיָין</he></cite> (v. <cite ref=\"R00434\"><he>צִיצָא</he></cite>); <cite ref=\"R00299\"><he>צִיצְיָיתָא</he></cite>, <he>צִיצִיָּית</he>, <cite ref=\"R00440\"><he>צִיצִיָּת</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 15:38\">Targ. Y. I Num. XV, 38</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 15:39\">Ib. 39</cite>, v. supra."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>fin</i> (?). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 14:9\">Targ. Y. Deut. XIV, 9</cite>.—Pl. <he>צִיצִין</he>, v. <cite ref=\"R00434\"><he>צִיצָא</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

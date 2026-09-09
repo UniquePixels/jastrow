@@ -1,0 +1,30 @@
+{
+	"id": "D00630",
+	"slug": "דימסית",
+	"headword": {
+		"text": "דִּימְסִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּמְסִית"
+		}
+	],
+	"page": {
+		"number": 300,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (cmp. <cite ref=\"D00622\"><he>דִּימוֹסִין</he></cite>) <i>Dimsith (Bath)</i>, identical with Emmaus, v. <cite ref=\"A01966\"><he>אִמָּאוּס</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shabbat 147b:9\">Sabb. 147ᵇ</cite> <he>קרקעיתה של ד׳</he> Ar. (ed. <cite ref=\"D00516\"><he>דיומסת</he></cite>, <cite ref=\"D00516\"><he>דיומסית</he></cite>, corr. acc.) the mud of D.—",
+				"<cite ref=\"Shabbat 147b:9\">Ib.</cite> <he>מיא דיומס׳</he> (read <he>מיא דדימסית</he>, v. Rabb. D. S. a. l. note 20). ",
+				"<cite ref=\"Avot D'Rabbi Natan 14\">Ab. d’R. N. ch. XIV</cite>, end (cmp. Sabb. l. c., a. ",
+				"<cite ref=\"Kohelet Rabbah 7:7\">Koh. R. to VII, 7</cite>)."
+			]
+		}
+	]
+}

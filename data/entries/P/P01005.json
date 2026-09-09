@@ -1,0 +1,24 @@
+{
+	"id": "P01005",
+	"slug": "ענף-2",
+	"headword": {
+		"text": "עֲנַף"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲנָפָא"
+		}
+	],
+	"page": {
+		"number": 1096,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P01004\">same</cite> <cite ref=\"Targum Jonathan on Ezekiel 17:8\">Targ. Ez. XVII, 8</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 17:6\">Targ. Is. XVII, 6</cite> (ed. Lag. <cite ref=\"R00643\"><he>צנפא</he></cite>; h. text <cite ref=\"A02025\"><he>אָמִיר</he></cite>)."
+			]
+		}
+	]
+}

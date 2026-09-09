@@ -1,0 +1,22 @@
+{
+	"id": "M00865",
+	"slug": "מחייה-2",
+	"headword": {
+		"text": "מְחִיּיה"
+	},
+	"page": {
+		"number": 760,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00809\"><he>מָחָה</he></cite>; v. <cite ref=\"M00823\"><he>מָחוּי</he></cite>) <i>enervation</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 10:1\">Num. R. s. 10</cite> (ref. to <he>למחות</he>, <cite ref=\"Proverbs 31:3\">Prov. XXXI, 3</cite>) <he>הזהר … מְחִיַּית וכ׳</he> be on thy guard against those things which are (the cause of) the enervation of kings."
+			]
+		}
+	]
+}

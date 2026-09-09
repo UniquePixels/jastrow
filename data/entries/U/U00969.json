@@ -1,0 +1,24 @@
+{
+	"id": "U00969",
+	"slug": "שינא-1",
+	"headword": {
+		"text": "שֵׁינָא",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"page": {
+		"number": 1564,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U00965\"><he>שַׁיִן</he></cite>, <i>urine, urinating</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 62b\">Ber. 62ᵇ</cite> Mus. (ed. <cite ref=\"U00972\"><he>שֵׁינָה</he></cite> <i>sleep</i>)."
+			]
+		}
+	]
+}

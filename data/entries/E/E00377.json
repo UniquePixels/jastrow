@@ -1,0 +1,46 @@
+{
+	"id": "E00377",
+	"slug": "היכדין",
+	"headword": {
+		"text": "הֵיכְדֵין"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֵכְ׳"
+		}
+	],
+	"page": {
+		"number": 345,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"E00376\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>even so</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 16:21\">Targ. Y. Deut. XVI, 21</cite>; a. e. [Targ. II Esth. III, 8 <he>ה׳</he>—<he>ה׳</he> ed. Lag., oth. ed. <he>ה׳</he>—<he>כה׳</he> even as—so.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (interrog.) <i>how now?</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 73:11\">Targ. Ps. LXXIII, 11</cite> (not <cite ref=\"E00377\"><he>הַכְּ׳</he></cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (exclam.) <i>Oh, how!</i> Ib. Ib. 19.",
+			"units": [],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>one like this</i>. Pesik. Zakh., p. 23ᵇ; <cite ref=\"Yalkut Shimoni on Torah 135:2\">Yalk. Gen. 135</cite>, v. <cite ref=\"B00562\"><he>בִּיזָּא</he> III</cite>.",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

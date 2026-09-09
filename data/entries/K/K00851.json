@@ -1,0 +1,27 @@
+{
+	"id": "K00851",
+	"slug": "כניא",
+	"headword": {
+		"text": "כַּנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּנְיָא פַּרְוָוא"
+		}
+	],
+	"page": {
+		"number": 648,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>Kanya Parva</i>, name of an unclean bird. ",
+			"units": [
+				"<cite ref=\"Chullin 62b\">Ḥull. 62ᵇ</cite> <he>כ׳ פ׳ אסיר</he> Ar. (ed. <he>בוניא שרי פ׳ אסיר</he>)."
+			]
+		}
+	]
+}

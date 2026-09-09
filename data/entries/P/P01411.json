@@ -1,0 +1,58 @@
+{
+	"id": "P01411",
+	"slug": "ערע-2",
+	"headword": {
+		"text": "עֲרַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1121,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (apocop. of <cite ref=\"P01419\"><he>ערער</he></cite>, transpos. of <cite ref=\"T00921\"><he>רערע</he></cite>; cmp. <cite ref=\"K00934\"><he>כֶּסֶךְ</he></cite> a. <cite ref=\"K00938\"><he>כַּסְכַּס</he></cite>) <i>to come in contact with; to join, meet</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 41:6\">Targ. Jer. XLI, 6</cite> (h. text <cite ref=\"Q00100\"><he>פגש</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 32:2\">Targ. O. Gen. XXXII, 2</cite> (h. text <cite ref=\"Q00086\"><he>פגע</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 1:10\">Targ. O. Ex. I, 10</cite>; a. fr.; v. <cite ref=\"A03216\"><he>אֲרַע</he> I</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["(ערְעַר) עָרע"],
+			"senses": [
+				{
+					"gloss": "<i>to join, be added to</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 7:27\">Koh. R. to VII, 27</cite> <he>חדא מְעָרְעָא חדא וכ׳</he> (ed. <he>מְעַרְעֲרָא</he>) one (sin) is added to another &c., v. <cite ref=\"A03216\"><he>אָרַע</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְעָרַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be met; to happen; to come before</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 1:6\">Targ. II Sam. I, 6</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 20:1\">Ib. XX, 1</cite>. ",
+						"<cite ref=\"Targum Jonathan on Hosea 11:7\">Targ. Hos. XI, 7</cite>. ",
+						"<cite ref=\"Targum Jonathan on Hosea 11:8\">Ib. 8</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 4:20\">Targ. Jer. IV, 20</cite>; a. e.—["
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be added, increased</i>. Y. Ḥall. II, 58ᵈ top <he>אִתְעָרְעוּן</he> (ed. <he>אזדרעון</he>), v. <cite ref=\"S00026\"><he>קַבָּא</he></cite>.]",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

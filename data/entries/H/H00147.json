@@ -1,0 +1,34 @@
+{
+	"id": "H00147",
+	"slug": "חגי",
+	"headword": {
+		"text": "חַגַּי"
+	},
+	"page": {
+		"number": 424,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m.",
+			"units": []
+		},
+		{
+			"gloss": "<i>Haggai</i>, the Prophet. ",
+			"units": [
+				"<cite ref=\"Nazir 53a:7\">Naz. 53ᵃ</cite>. ",
+				"<cite ref=\"Yevamot 16a:9\">Yeb. 16ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " also <cite ref=\"H00150\"><he>חַגַּיי</he></cite>, name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:6:5\">Y. Ber. II, 5ᵇ</cite> top.—",
+				"<cite ref=\"Jerusalem Talmud Demai 3:2:4\">Y. Dem. III, 23ᵇ</cite> bot. ",
+				"<cite ref=\"Bava Kamma 42a:14\">B. Kam. 42ᵃ</cite>, v. <cite ref=\"H00135\"><he>חַגָּא</he> II</cite>. V. Fr. M’bo, p. 79ᵇ, sq."
+			],
+			"label": "2"
+		}
+	]
+}

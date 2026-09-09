@@ -1,0 +1,37 @@
+{
+	"id": "I00573",
+	"slug": "טני",
+	"headword": {
+		"text": "טְנִי"
+	},
+	"page": {
+		"number": 541,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"I00565\"><he>טֶנֶא</he></cite>, cmp. <cite ref=\"I00185\"><he>טוּנָא</he> I</cite>) [<i>traveller’s load</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>T’ni</i>, a certain dry measure. ",
+			"units": [
+				"<cite ref=\"Mishnah Tamid 3:6\">Tam. III, 6</cite>, v. <cite ref=\"V01056\"><he>תַּרְקַב</he></cite>. ",
+				"<cite ref=\"Mishnah Tamid 3:9\">Ib. 9</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>travelling box, basket</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 12:3\">Kel. XII, 3</cite> <he>כסוי ט׳ וכ׳</he> the metal cover of a box; <he>של רופאים</he> physicians’ medicine box. Ib. XIV, 6; XVI, 7; Tosef. ib., <cite ref=\"Mishnah Bava Metzia 2:9\">B. Mets. II, 9</cite> <cite ref=\"K00922\"><he>כסיטנא</he></cite> (corr. acc.); <cite ref=\"Mishnah Bava Metzia 4:11\">ib. IV, 11</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Sotah 9:13:5\">Y. Sot. IX, 24ᵇ</cite> bot. <he>לתוך ט׳ וכ׳</he>; Bab. ",
+				"<cite ref=\"Sotah 48b:10\">Sot. 48ᵇ</cite> <he>בט׳</he> Ar. (ed. <cite ref=\"A01224\"><he>אִיטְּנִי</he></cite> q. v.) into a box made of lead and filled with barley husks."
+			],
+			"label": "2"
+		}
+	]
+}

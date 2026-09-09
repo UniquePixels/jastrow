@@ -1,0 +1,22 @@
+{
+	"id": "M00975",
+	"slug": "מטוויאתא",
+	"headword": {
+		"text": "מַטְוֵויאֲתָא"
+	},
+	"page": {
+		"number": 766,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>טְוִי</he> I) <i>spider</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 8:14\">Targ. Job VIII, 14</cite> <cite ref=\"M02894\"><he>בֵּי מ׳</he></cite> (Ms. <he>מַטְוויְתָא</he>) spiderweb."
+			]
+		}
+	]
+}

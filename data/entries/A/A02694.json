@@ -1,0 +1,28 @@
+{
+	"id": "A02694",
+	"slug": "אפיס",
+	"headword": {
+		"text": "אָפִיס",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "סָר אָפִיס"
+		}
+	],
+	"page": {
+		"number": 103,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (<i>Sarapis</i>, Σάραπις) <i>Serapis</i>, the Nile-god. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 43a:5\">Ab. Zar. 43ᵃ</cite> the figure of <he>מיניקה וסר א׳</he> ed. (Ms. <cite ref=\"O01661\"><he>סָרָפִיס</he></cite>; v. Rabb. D. S. a. l.) a nursing woman (Isis) and of Serapis. [Cmp. Sachs Beitr. II, 99 and illustr. in Sm. Ant. s. v. Coma.] [<cite ref=\"Tosefta Parah 5:2\">Tosef. Par. V</cite> (<cite ref=\"Tosefta Parah 4:2\">IV</cite>), 2 <he>האפיס</he> ed., read with ed. Zuck. <cite ref=\"H01421\"><he>חפאים</he></cite>, v. <he>חַפַּאי</he>.]"
+			]
+		}
+	]
+}

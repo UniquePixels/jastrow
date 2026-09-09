@@ -1,0 +1,26 @@
+{
+	"id": "C00454",
+	"slug": "גוע",
+	"headword": {
+		"text": "גָּוַע"
+	},
+	"page": {
+		"number": 224,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"K00361\"><he>כְּוַץ</he></cite>, <cite ref=\"S00526\"><he>קָוַץ</he></cite>) [<i>to shrink</i>,] <i>fail, fall away</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 31\">Gen. R. s. 31</cite> (explain. <he>יגוע</he>, <cite ref=\"Genesis 6:17\">Gen. VI, 17</cite>) <he>יצמוק</he> (<cite ref=\"Yalkut Shimoni on Torah 55:2\">Yalk. Gen. 55</cite> <he>ינמוק</he>), v. <cite ref=\"R00588\"><he>צָמַק</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 12:6\">Gen. R. s. 12</cite> <he>גזעה</he>; s. 19 <he>גרעה</he>, read: <he>גָּוְעָה וכ׳</he> his stature was reduced."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (act. v.) <i>to diminish</i>. Tanḥ. Noah 7; ed. Bub. 10 <he>והן גָּוְעוּ אותן וכ׳</he> and they (the wild beasts) diminished their numbers, as it says (<cite ref=\"Genesis 7:21\">Gen. VII, 21</cite>) and there were diminished &c.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

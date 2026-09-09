@@ -1,0 +1,30 @@
+{
+	"id": "Q02191",
+	"slug": "פתן-3",
+	"headword": {
+		"text": "פֶּתֶן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּתְנָא"
+		},
+		{
+			"text": "פִּו׳"
+		}
+	],
+	"page": {
+		"number": 1255,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q02190\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 11:8\">Targ. Is. XI, 8</cite> <he>חוי פתן</he> (ed. Wil. <he>פָּתָן</he>) a winding serpent (h. text <cite ref=\"Q02189\"><he>פתן</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 49:17\">Targ. O. Gen. XLIX, 17</cite> (h. text <he>שפיפן</he>); a. e.—Pl. <he>פִּתְנִין</he>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 32:33\">Targ. O. Deut. XXXII, 33</cite> ed. Berl. (oth. ed. <he>פִּתְנֵי</he>, <he>פַּתְנֵי</he>, <he>פֵּתָנֵי</he>; Y. I <cite ref=\"Q00896\"><he>פִּיתוּנַיָּא</he></cite>; v. <cite ref=\"Q02188\"><he>פתמנאי</he></cite>)."
+			]
+		}
+	]
+}

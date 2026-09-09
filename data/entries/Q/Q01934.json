@@ -1,0 +1,52 @@
+{
+	"id": "Q01934",
+	"slug": "פרסם-1",
+	"headword": {
+		"text": "פִּרְסֵם"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּירְ׳"
+		}
+	],
+	"page": {
+		"number": 1234,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (enlargement of <cite ref=\"Q01908\"><he>פָּרַס</he></cite>) <i>to spread, divulge, publish; to uncover, expose</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 86b:17\">Yoma 86ᵇ</cite> <he>מְפַרְסְמִין</he>, v. <cite ref=\"H01321\"><he>חָנֵף</he></cite>. ",
+				"<cite ref=\"Sotah 9a:3-4\">Sot. 9ᵃ</cite> <he>היא עשתה … פִּירְסְמָהּ בגלוי</he> she acted in secret, the Lord exposes her in public. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:1:10\">Y. Meg. I, 70ᵇ</cite> top <he>רבי היה מְפַרְסֵם עצמו וכ׳</he> Rabbi used to make himself conspicuous (act ostentatiously) on two days in the year (as a protest against certain ritual restrictions). ",
+				"<cite ref=\"Bamidbar Rabbah 21\">Num. R. s. 21</cite> <he>כשם שהקב״ה … לפַרְסְמָן וכ׳</he> as the Lord busies himself with the praise of the righteous in order to make them known in the world, so &c. ",
+				"<cite ref=\"Bamidbar Rabbah 21\">Ib.</cite> <he>פנחס פִּירְסְמוֹ לשבח וכ׳</he> he published Phineas for praise, and Zimri for blame. ",
+				"<cite ref=\"Bamidbar Rabbah 21\">Ib.</cite> <he>ופי׳ את בתו בקלון</he> and exposed his daughter for prostitution. Tanḥ. Ki Thissa 16 <he>מה כלה … ואינה מְפַרְסֶמֶת עצמה וכ׳</he> as the bride is retired in her father’s house and does not unveil herself (show herself in public) until she is about to enter the bridal chamber …: so must a scholar be retired, and be revealed (renowned) by his good deeds; <cite ref=\"Shemot Rabbah 41\">Ex. R. s. 41</cite>; a. fr.—Part. pass. <he>מְפוּרְסָם</he>; f. <he>מְפוּרְסֶמֶת</he>; pl. <he>מְפוּרְסָמִים</he>, <he>מְפוּרְסָמִין</he>; <he>מְפוּרְסָמוֹת</he>. ",
+				"<cite ref=\"Shemot Rabbah 41\">Ib.</cite> ",
+				"<cite ref=\"Vayikra Rabbah 32:7\">Lev. R. s. 32</cite> <he>בזמן שאינו מפ׳</he> when he is not generally known (as a bastard). ",
+				"<cite ref=\"Yalkut Shimoni on Torah 391\">Yalk. Ex. 391</cite> <he>מפ׳ במעשיו … שהיא מפ׳</he> well-known by his deeds, as the bride is unveiled (on her wedding day), v. supra; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 36\">Gen. R. s. 36</cite> <he>יצא חם</he> … <he>וכלב מפ׳ בתשמישו</he> Ham came out of the ark black, and the dog disgraced by the mean way of his copulation; <cite ref=\"Jerusalem Talmud Taanit 1:6:10\">Y. Taan. I, end, 64ᵈ</cite> <he>מְפוּרְצָם</he> (<cite ref=\"Sanhedrin 108b:15\">Snh. 108ᵇ</cite> <he>כלב נקשר</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְפַּרְסֵם"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְפַּרְסֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to be published, made known, exposed</i>. Lev. R. l. c. (ref. to <cite ref=\"Leviticus 6:18\">Lev. VI, 18</cite>) <he>במקום … כדי שלא יִתְפַּרְסְמוּ החטאים</he> ‘in the place where the burnt offering is killed shall the sin offering be killed’, … in order that the sinners be not exposed to shame. ",
+					"units": [
+						"<cite ref=\"Leviticus 6:18\">Ib.</cite> <he>אבל אם נ׳</he> but if he is known (as a bastard); a. e."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

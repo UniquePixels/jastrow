@@ -1,0 +1,22 @@
+{
+	"id": "M01501",
+	"slug": "מלוויתא",
+	"headword": {
+		"text": "מְלַוִּויתָא"
+	},
+	"page": {
+		"number": 787,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"L00248\"><he>לְוֵי</he></cite>) <i>funeral escort, wailing ceremonies</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 104\">Midr. Till. to Ps. CIV, 26</cite> (play on <he>לויתן זה</he>, <cite ref=\"Midrash Tehillim 104\">ib.</cite>) <he>זה טובוי מן הדא מ׳</he> this (the reward of the hereafter) does him more good than that funeral service (with its eulogies, <cite ref=\"Ecclesiastes 12:5\">Koh. XII, 5</cite>; ed. Bub. <he>טיבוי מן ואת מלוותא</he>; <cite ref=\"Yalkut Shimoni on Nach 862:21\">Yalk. Ps. 862</cite> <he>זה טיביו מן דאת מְלַוִּיתֵי׳</he> (corr. acc.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"id": "J00288",
+	"slug": "יחידי-2",
+	"headword": {
+		"text": "יְחִידִי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "… דַי"
+		},
+		{
+			"text": "יְחִידָאָה"
+		},
+		{
+			"text": "דָאִי"
+		},
+		{
+			"text": "יְחִידָיָיא"
+		}
+	],
+	"page": {
+		"number": 574,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"J00287\">same</cite><i>lonely; only one</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 25:16\">Targ. Ps. XXV, 16</cite> (ed. Lag. <he>יְחִידָאִי</he>).—",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:50\">Targ. Y. Deut. XXXII, 50</cite> (ed. Amst. <he>דָאֵי …</he> incorr.). ",
+				"<cite ref=\"Aramaic Targum to Job 14:4\">Targ. Job XIV, 4</cite> Ms. (ed. <cite ref=\"H00168\"><he>חד</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>single authority, opinion of one</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 103b\">Pes. 103ᵇ</cite> <he>לא יחידאה אנא</he> (v. Rabb. D. S. a. l.) I do not report the opinion of one man. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 6:1:6\">Y. Ter. VI, beg. 44ᵃ</cite> <he>אתיא די׳ דהכא כסתמא דתמן וכ׳</he> the opinion of the single authority here agrees with the anonymous (editorially adopted) one there &c.; Y. Ned. VII, beg. 40ᵇ. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:3:4\">Y. Sabb. III, 6ᵃ</cite> bot. <he>לית אנן … לי׳</he> we need not consider the opinion of a single authority; a. fr.—Pl. <he>יְחִידָאִין</he>, <he>יְחִידָאֵי</he>, <he>יְחִידָיִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 22:10\">Targ. Y. Gen. XXII, 10</cite> (v. <cite ref=\"J00284\"><he>יָחִיד</he></cite> 2).—",
+				"<cite ref=\"Bava Kamma 81b:24\">B. Kam. 81ᵇ</cite> bot. <he>בי׳ לא אמרינן</he> we do not speak of single authorities. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:1:9\">Y. Ḥag. II, 77ᵇ</cite> top <he>י׳</he> single-handed, each for himself, v. <cite ref=\"I00616\"><he>טְעַן</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

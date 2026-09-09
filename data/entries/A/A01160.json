@@ -1,0 +1,28 @@
+{
+	"id": "A01160",
+	"slug": "אידי-2",
+	"headword": {
+		"text": "אִידִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִידִית"
+		}
+	],
+	"page": {
+		"number": 45,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Idi, Idith</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 7:1:2\">Y. Yoma VII, beg. 44ᵃ</cite>. ",
+				"<cite ref=\"Sanhedrin 38b:8\">Snh. 38ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

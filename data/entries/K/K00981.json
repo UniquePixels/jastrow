@@ -1,0 +1,69 @@
+{
+	"id": "K00981",
+	"slug": "כף-4",
+	"headword": {
+		"text": "כַּף",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּפָּא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 657,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00980\">same</cite><i>palm, hand</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 3:19\">Targ. Y. Gen. III, 19</cite>.—Pl. <cite ref=\"K00719\"><he>כַּפַּיָּא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 98:8\">Targ. Ps. XCVIII, 8</cite> (v., however, <cite ref=\"Bamidbar Rabbah 13:15\">Num. R. s. 13</cite>, s. v. <cite ref=\"H01417\"><he>חָף</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>border, shore</i>, v. <cite ref=\"K00614\"><he>כֵּיפָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>bundle, sheaf</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 26b:26\">Snh. 26ᵇ</cite> bot. <he>חד גנב כ׳</he> Ar. (v. Rabb. D. S. a. l. note 6, Var. in Ar. <he>הזמת כ׳</he>, v. <cite ref=\"E00304\"><he>הזמת</he></cite>; ed. <he>קבא דשערי</he>) one stole a sheaf.—Pl. (<cite ref=\"K00606\"><he>כֵּיפֵי</he></cite>) <cite ref=\"K01016\"><he>כַּפִּין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:2:3\">Y. Sabb. III, 5ᵈ</cite> bot. <he>מיתן תלתא כ׳ וכ׳</he> to bring three bunches (of twigs) and put dishes upon them. ",
+				"<cite ref=\"Gittin 86b:15\">Gitt. 86ᵇ</cite> <he>דביני כיפי</he>, v. <cite ref=\"D00491\"><he>דִּידְבָא</he></cite>. ",
+				"<cite ref=\"Pesachim 40a:18\">Pes. 40ᵃ</cite>, v. <cite ref=\"E00741\"><he>הֲפַךְ</he></cite>. ",
+				"<cite ref=\"Nedarim 48b:1\">Ned. 48ᵇ</cite> top <he>כי׳ דכיתנא</he> flax bunches, v. <cite ref=\"U01454\"><he>שְׁמַט</he></cite>; a. e.—",
+				"<cite ref=\"Nedarim 48b:1\">Ib.</cite> bot. <he>דשדיא בכיפי</he>, v. <cite ref=\"K01013\"><he>כְּפֵילָא</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>top branch</i> of palm trees (v. <cite ref=\"K00603\"><he>כִּיפָּה</he></cite>).—Pl. <cite ref=\"K00988\"><he>כַּפֵּי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Sukkah 32a:12\">Succ. 32ᵃ</cite> <he>ואימא תרתי כ׳ דתמרי</he> perhaps <i>kappoth</i> (<cite ref=\"Leviticus 23:40\">Lev. XXIII, 40</cite>) means two tops of palm trees?"
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>pan, spoon</i> &c. ",
+			"units": [
+				"<cite ref=\"Pesachim 28a:3\">Pes. 28ᵃ</cite>, v. <cite ref=\"H00608\"><he>חֲטַט</he> I</cite>. ",
+				"<cite ref=\"Shabbat 142b:16\">Sabb. 142ᵇ</cite> <he>מנח כ׳ אכיפי</he> (Ms. M. <cite ref=\"K00614\"><he>כיפא</he></cite>) placed a ladle on a pile of sheaves. ",
+				"<cite ref=\"Chullin 54a:3\">Ḥull. 54ᵃ</cite> <he>מאי כ׳</he> what <i>kappa</i> do yon mean?—<he>כ׳ דידא</he> pan of the fore foot (shoulder), <he>כ׳ דמוחא</he> <i>scull</i>"
+			],
+			"label": "5"
+		},
+		{
+			"gloss": "<i>shoulder</i> (also of human beings). ",
+			"units": [
+				"<cite ref=\"Bava Batra 96b\">B. Bath. 96ᵇ</cite> top <he>אכ׳</he> Ms. M. a. Ar. (ed. <he>אכתפא</he>); <cite ref=\"Sotah 34a:7\">Sot. 34ᵃ</cite> bot. <he>בכ׳</he> Ar. (ed. <he>לכתפיה</he>); <cite ref=\"Taanit 23b:3\">Taan. 23ᵇ</cite> <he>אחד כַּפֵּיה</he> Ar. (ed. <he>כתפיה</he>), v. <cite ref=\"K01383\"><he>כַּתְּפָא</he></cite>.—",
+				"<cite ref=\"Sotah 6b\">Sot. 6ᵇ</cite> … <he>אטו בכַפָּהּ תלי לה</he> Ar. (ed. <he>בכיפה</he>) do the young priests (that guard the woman) suspend her by her shoulder (Rashi: by her cap), i.e. can they watch all her movements?"
+			],
+			"label": "6"
+		}
+	]
+}

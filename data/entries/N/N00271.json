@@ -1,0 +1,37 @@
+{
+	"id": "N00271",
+	"slug": "נהם-1",
+	"headword": {
+		"text": "נָהַם"
+	},
+	"page": {
+		"number": 881,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"N00259\"><he>נְהֵי</he> I</cite>) <i>to be agitated; to make a noise</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 32a:9\">Ber. 32ᵃ</cite> <he>אין ארי נוֹהֵם וכ׳</he> the lion does not get excited over a heap of straw but over a heap of flesh, i.e. plenty produces haughtiness. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 277:1\">Yalk. Jer. 277</cite> (play on <he>בן הֹנֹםֹ</he>, <cite ref=\"Jeremiah 19:2\">Jer. XIX, 2</cite>) <he>שקולו של תינוק נ̇ו̇הֵ֗ם̇ וכ׳</he> for the voice of the child shrieked under the fire; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיהֵם"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00270\">same</cite>, esp. <i>to cco</i> (in love, longing &c.). ",
+					"units": [
+						"<cite ref=\"Berakhot 3a\">Ber. 3ᵃ</cite> <he>מְנַהֶמֶת כיונה</he> cooing (in mourning) like a dove. ",
+						"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite>, a. e., v. <cite ref=\"N00265\"><he>נְהִימָה</he></cite>.—",
+						"<cite ref=\"Midrash Tehillim 106:5\">Midr. Till. to Ps. CVI, 9</cite> <he>מְנַהֵם עליהם כנהמת ים</he> (adapted fr. ",
+						"<cite ref=\"Isaiah 5:30\">Is. V, 30</cite>) he roared over them &c.; <cite ref=\"Yalkut Shimoni on Nach 864:5\">Yalk. Ps. 864</cite> <he>ויִנְהםֹ</he>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

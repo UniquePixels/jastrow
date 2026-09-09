@@ -1,0 +1,28 @@
+{
+	"id": "A02970",
+	"slug": "ארבעה-1",
+	"headword": {
+		"text": "אַרְבָּעָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 114,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., <cite ref=\"A02968\"><he>אַרְבַּע</he></cite> f. (b. h.) <i>four</i> (frequently represented by <cite ref=\"D00001\"><he>ד׳</he></cite>). ",
+			"units": [
+				"<cite ref=\"Chagigah 14b:8\">Ḥag. 14ᵇ</cite> <he>א׳ נכנסו וכ׳</he> four men entered into theosophical speculation; a. fr.—Constr. <he>אַרְבַּעַת</he> followed by singul. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:20\">Y. Ber. I, 2ᶜ</cite> <he>אַרְבַּעַת מיל</he> = <he>אַרְבָּעָה מילין</he>; <cite ref=\"Jerusalem Talmud Yoma 3:2:3\">Y. Yoma III, beg. 40ᵇ</cite>; (cmp. ",
+				"<cite ref=\"Bereishit Rabbah 50\">Gen. R. s. 50</cite>).—Pl. <he>אַרְבָּעִים</he> (<cite ref=\"M00001\"><he>מ׳</he></cite>) <i>forty</i>. ",
+				"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> <he>א׳ חסר אחת</he> thirty nine.—",
+				"<cite ref=\"Mishnah Makkot 1:1\">Macc. I, 1</cite>, a. fr. <he>לוקה א׳</he> receives forty (thirty nine) lashes; v. ",
+				"<cite ref=\"Mishnah Makkot 3:10\">ib. III, 10</cite>."
+			]
+		}
+	]
+}

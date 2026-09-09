@@ -1,0 +1,32 @@
+{
+	"id": "H01522",
+	"slug": "חצינא",
+	"headword": {
+		"text": "חֲצִינָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲצֵינָא"
+		}
+	],
+	"page": {
+		"number": 495,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01516\"><he>חצי</he></cite>) <i>carpenter’s adze</i>, also <i>pick-axe</i> or <i>spade</i> (v. Sm. Ant. s. v. Dolabra). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 44:12\">Targ. Is. XLIV, 12</cite> (h. text <cite ref=\"M02159\"><he>מעצד</he></cite>); a. e.—",
+				"<cite ref=\"Shabbat 123b:7\">Sabb. 123ᵇ</cite> <he>ח׳ דנגרי</he> carpenters’ adze. ",
+				"<cite ref=\"Bava Batra 73b:5\">B. Bath. 73ᵇ</cite> <he>נפל ליה ח׳ וכ׳</he> Ms. M. a. Ar. (ed. <cite ref=\"H01525\"><he>חציצא</he></cite>) a carpenter lost his adze there. ",
+				"<cite ref=\"Eruvin 77b\">Erub. 77ᵇ</cite>, v. <cite ref=\"M02480\"><he>מָרָא</he> II</cite>; a. e.—Pl. <he>חֲצִינֵי</he>. ",
+				"<cite ref=\"Bava Kamma 119b:18\">B. Kam. 119ᵇ</cite> <he>באתרא … תרי ח׳ וכ׳</he> in the place of our Tanna (in the Mishnah) there are two <i>ḥătsiné</i> a large one called <cite ref=\"K01305\"><he>כשיל</he></cite> (axe), and a small one called <cite ref=\"M02159\"><he>מעצד</he></cite> (adze). ",
+				"<cite ref=\"Yoma 37b\">Yoma 37ᵇ</cite>; <cite ref=\"Beitzah 33b\">Bets. 33ᵇ</cite>, v. <cite ref=\"N01257\"><he>נַרְגָּא</he></cite>."
+			]
+		}
+	]
+}

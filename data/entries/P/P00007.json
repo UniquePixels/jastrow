@@ -1,0 +1,31 @@
+{
+	"id": "P00007",
+	"slug": "עב-1",
+	"headword": {
+		"text": "עָב",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "עָבָה"
+		}
+	],
+	"page": {
+		"number": 1034,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00011\"><he>עָבַב</he></cite>) <i>thick, dense, large</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 3:2\">Men. III, 2</cite>, v. <cite ref=\"B00862\"><he>בְּלִילָה</he></cite>. ",
+				"<cite ref=\"Pesachim 36b:16\">Pes. 36ᵇ</cite> sq.; <cite ref=\"Beitzah 22b:3\">Bets. 22ᵇ</cite> <he>אין אופין פת ע׳ וכ׳</he> you must not bake thick bread on the Passover; <he>וכמה פת ע׳ טפח</he> and how high must it be to be called thick bread? One handbreadth; <cite ref=\"Beitzah 22b:3\">ib.</cite> (Rabbi’s interpret.) <he>פת מרובה</he> a large batch; a. fr.—Pl. <he>עָבִים</he>, <cite ref=\"P00048\"><he>עָבִין</he></cite>; <cite ref=\"P00035\"><he>עָבוֹת</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Batra 5:11\">Tosef. Kel. B. Bath. V, 11</cite> <he>אלו הן הע׳</he> these are the thick (heavy) garments; <cite ref=\"Mishnah Kelim 28:8\">Kel. XXVIII, 8</cite>; <cite ref=\"Jerusalem Talmud Shabbat 2:3:2\">Y. Sabb. II, 4ᵈ</cite> bot. <he>הע׳ הרכים</he> the thick but soft garments. ",
+				"<cite ref=\"Mishnah Mikvaot 8:3\">Mikv. VIII, 3</cite> <he>טפין ע׳</he> thick (turbid) drops; a. fr.—[<cite ref=\"Jerusalem Talmud Kilayim 5:1:6\">Y. Kil. V, beg. 29ᵈ</cite> <he>היו עבות</he>, ed. Krot. <he>העבות</he>, R. S. to <cite ref=\"Mishnah Kilayim 5:1\">Kil. V, 1</cite> <he>היו עבים</he>, read: <he>הֶעֱבוּ</he>, v. <cite ref=\"P00007\"><he>עָבָה</he></cite>.]"
+			]
+		}
+	]
+}

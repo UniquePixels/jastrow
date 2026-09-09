@@ -1,0 +1,27 @@
+{
+	"id": "E00559",
+	"slug": "הלין-1",
+	"headword": {
+		"text": "הָלֵין"
+	},
+	"page": {
+		"number": 352,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (contract. of <he>הָאִילֵּין</he>) <i>these, those, these things</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 24:23\">Targ. Prov. XXIV, 23</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 31:8\">Ib. XXXI, 8</cite>.—",
+				"<cite ref=\"Nedarim 91b:2\">Ned. 91ᵇ</cite>. ",
+				"<cite ref=\"Nedarim 79b:5\">Ib. 79ᵇ</cite> <he>ה׳ וה׳</he> both; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 25:3\">Lev. R. s. 25</cite> <he>הֵילֵין תאיניא</he> (<cite ref=\"Kohelet Rabbah 2:20:1\">Koh. R. to II, 20</cite> <he>הלין</he>) these figs here."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "U01032",
+	"slug": "שיצאה",
+	"headword": {
+		"text": "שֵׁיצָאָה"
+	},
+	"page": {
+		"number": 1567,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"U01033\">next w.</cite>) <i>finishing, destruction</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 10:23\">Targ. Is. X, 23</cite>; <cite ref=\"Targum Jonathan on Isaiah 28:22\">XXVIII, 22</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 40:17\">Ib. XL, 17</cite> (h. text <he>תהו</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 13:13\">Targ. Ez. XIII, 13</cite>."
+			]
+		}
+	]
+}

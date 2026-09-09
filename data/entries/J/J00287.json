@@ -1,0 +1,41 @@
+{
+	"id": "J00287",
+	"slug": "יחידי-1",
+	"headword": {
+		"text": "יְחִידִי"
+	},
+	"page": {
+		"number": 574,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"J00286\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>singular, single, lonely</i>. ",
+			"units": [
+				"<cite ref=\"Makkot 23b:16\">Macc. 23ᵇ</cite> <he>בלשון י׳</he> in the singular number, opp. <he>ל׳ רבים</he>.—",
+				"<cite ref=\"Kiddushin 20a:8\">Kidd. 20ᵃ</cite> (expl. <he>בגפו</he>, <cite ref=\"Exodus 21:3\">Ex. XXI, 3</cite>) <he>י׳ נכנס וכ׳</he> single (unmarried) he entered &c. ",
+				"<cite ref=\"Pirkei Avot 3:4\">Ab. III, 4</cite> <he>המהלך בדרך י׳</he> who travels alone. ",
+				"<cite ref=\"Pirkei Avot 4:8\">Ib. IV, 8</cite> <he>אל תהי דן י׳ וכ׳</he> do not hold court as a single judge, for there is only One who judges singly; a. fr.—<i>Fem.</i> <cite ref=\"J00287\"><he>יְחִידִית</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 2:8:2\">Y. Kil. II, 28ᵃ</cite> bot. <he>גפן י׳</he> a single (isolated) vine tree. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 4:4:10\">Y. Ab. Zar. IV, 44ᵃ</cite> top <he>מצבה כל שהיא י׳</he> it is called <i>matsebah</i> when consisting of one piece (v. <cite ref=\"B00630\"><he>בִּימוּס</he></cite>); a. e.—Pl. <he>יְחִידִיּוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 5:1:3\">Y. Kil. V, beg. 29ᵈ</cite> <he>בי׳</he> in the case of isolated vine trees. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 9:2:3\">Y. Sot. IX, 23ᶜ</cite> top <he>י׳</he> isolated tombstones."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>believer in One God</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 6:2\">Esth. R. to II, 5</cite>, v. <cite ref=\"J00125\"><he>יְהוּדִי</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

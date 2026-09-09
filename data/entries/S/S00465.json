@@ -1,0 +1,22 @@
+{
+	"id": "S00465",
+	"slug": "קוסטודיא",
+	"headword": {
+		"text": "קוּסְטוֹדְיָא"
+	},
+	"page": {
+		"number": 1336,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (custodia) <i>a guard</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 9:1:5\">Y. Ned. IX, beg. 41ᵇ</cite> <cite ref=\"S01646\"><he>קסטוריא</he></cite> (corr. acc.), v. <cite ref=\"S00366\"><he>קוֹלָר</he></cite>."
+			]
+		}
+	]
+}

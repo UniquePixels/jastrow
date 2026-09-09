@@ -1,0 +1,29 @@
+{
+	"id": "S00558",
+	"slug": "קור-2",
+	"headword": {
+		"text": "קוֹר"
+	},
+	"page": {
+		"number": 1340,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"S02194\"><he>קוֹרֵר</he></cite>, <i>Ithpol.</i> <he>אִתְקוֹרָר</he>, v. <cite ref=\"S02193\"><he>קְרַר</he> I</cite>, II.",
+					"units": []
+				}
+			],
+			"stem": "Pol."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A03310",
+	"slug": "אשכרא",
+	"headword": {
+		"text": "אֶשְׁכְּרָא"
+	},
+	"page": {
+		"number": 128,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (prob. a denom. of <cite ref=\"K01071\"><he>כַּר</he></cite>) <i>a wagon, wagon-load</i>; [b. h. <i>gift, tribute;</i> cmp. ",
+			"units": [
+				"<cite ref=\"Isaiah 16:1\">Is. XVI, 1</cite>]. . ",
+				"<cite ref=\"Targum Jonathan on Isaiah 5:10\">Targ. Is. V, 10</cite> (h. text <he>צמד</he>). Targ. II Esth. I, 3 <he>א׳ ומרגליין</he> (read <he>דמ׳</he>) loads (gifts) of &c. (after <cite ref=\"Psalms 72:10\">Ps. LXXII, 10</cite>)."
+			]
+		}
+	]
+}

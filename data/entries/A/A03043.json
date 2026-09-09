@@ -1,0 +1,30 @@
+{
+	"id": "A03043",
+	"slug": "ארוסין",
+	"headword": {
+		"text": "אֵרוּסִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵירוּסִין"
+		}
+	],
+	"page": {
+		"number": 117,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"A03210\"><he>אָרַס</he></cite>) <i>betrothal, preliminary act of marriage</i>, answering to the Roman <i>sponsalia; promise in marriage</i>, disting. fr. <cite ref=\"N00795\"><he>נישואין</he></cite>, or <cite ref=\"K00854\"><he>כניסה</he></cite>, marriage proper, the latter consisting in conducting the bride to the groom’s permanent (or improvised) home. [The betrothal carries with it almost all the legal consequences of marriage, excepting some modifications mostly of a civil (pecuniary) character, and is, according to Talmudic usage, preceded by a benediction <he>(בִּרְכַת א׳</he>), while the act itself is performed by the bride-groom (or his mandatary) delivering into the hands of the bride (or her mandatary, or her father, if she be a minor) an object representing any value not below the smallest coin (P’rutah), whereby the purpose of the delivery is stated and assented to by acceptance.] <cite ref=\"Mishnah Ketubot 1:2\">Keth. I, 2</cite> <he>אלמנה מן הא׳</he> a widow whose betrothed died before marriage proper. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 5:1\">Ib. V, 1</cite>; a. fr. ",
+				"<cite ref=\"Yevamot 43a:14\">Yeb. 43ᵃ</cite>, a. fr. <he>סעודת א׳</he> the repast following the betrothal.—Metaph. of the relation between Israel and God, <i>covenant</i>. ",
+				"<cite ref=\"Shemot Rabbah 15:31\">Ex. R. s. 15</cite>, end; a. e."
+			]
+		}
+	]
+}

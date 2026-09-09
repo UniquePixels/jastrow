@@ -1,0 +1,27 @@
+{
+	"id": "S00388",
+	"slug": "קומטיטון",
+	"headword": {
+		"text": "קומטיטון"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוֹמִיסָטוֹן"
+		}
+	],
+	"page": {
+		"number": 1332,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (comessatum, κομεσσᾶτον S.; cmp. <cite ref=\"A02709\"><he>אֶפִּיקוֹמָן</he></cite>) (<i>comissatio</i>,) <i>the aftermeal entertainment consisting of an open door reception</i>, at which food and drink are served (v. Sm. Ant. s. v. Comissatio). ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 2:5\">Esth. R. to I, 5</cite> <he>הדא שושן … כבית ק׳ היה וכ׳</he> that (entertainment at) Susa was like the house of a comissatio, food and drink being served there."
+			]
+		}
+	]
+}

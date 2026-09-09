@@ -1,0 +1,37 @@
+{
+	"id": "G00219",
+	"slug": "זועא",
+	"headword": {
+		"text": "זוֹעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זַרְעָא"
+		}
+	],
+	"page": {
+		"number": 388,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00218\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>trembling, fear</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 2:25\">Targ. Y. Deut. II, 25</cite> <he>זֵוְעָתָךְ</he> the fear of thee (v. <cite ref=\"G00221\"><he>זוֹעֲפָא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>tempest</i> <cite ref=\"Aramaic Targum to Job 37:9\">Targ. Job XXXVII, 9</cite> Ms. (ed. <cite ref=\"G00391\"><he>זִיעָא</he></cite>).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

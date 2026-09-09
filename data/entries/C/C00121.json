@@ -1,0 +1,29 @@
+{
+	"id": "C00121",
+	"slug": "גבע-1",
+	"headword": {
+		"text": "גְּבַע"
+	},
+	"page": {
+		"number": 208,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>גבח</he>) <i>to be arched</i>.—Part. <cite ref=\"C00098\"><he>גְּבִיעַ</he></cite>, v. <cite ref=\"C00083\"><he>גְּבִיחַ</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַגְבַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to waddle</i>. Y. Dem. I, 22ᵃ top saw one mouse (which had swallowed a jewel) <he>מַגְבַּע ואתי</he> come in waddling.",
+					"units": []
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

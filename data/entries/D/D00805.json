@@ -1,0 +1,31 @@
+{
+	"id": "D00805",
+	"slug": "דלג-2",
+	"headword": {
+		"text": "דְּלַג"
+	},
+	"page": {
+		"number": 308,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00804\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>דַּלֵּג</he> <i>to reduce</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 82a:1\">Gitt. 82ᵃ</cite> top <he>מְדַלֵּג ותני חד חד</he> (the author of the Boraitha, Tosef. ib. VIII (VI), 9) drops only one by one (seven foldings with six signatures, six with five &c.). [<cite ref=\"Targum Jonathan on Genesis 41:14\">Targ. Y. Gen. XLI, 14</cite> <he>דלוגיה</he>, some ed., <he>דלגיה</he> Buxt., read <he>דלוניה</he>, v. <cite ref=\"D00828\"><he>דְּלֵי</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

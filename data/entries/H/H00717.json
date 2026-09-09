@@ -1,0 +1,58 @@
+{
+	"id": "H00717",
+	"slug": "חיי-2",
+	"headword": {
+		"text": "חֲיִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲיָא"
+		}
+	],
+	"page": {
+		"number": 454,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00716\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 5:3\">Targ. Gen. V, 3</cite>; a. v. fr.—<i>Part.</i> <cite ref=\"H00002\"><he>חָאִי</he></cite>, <he>חָיֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 21:8\">Targ. Y. Num. XXI, 8</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 8:3\">Targ. Deut. VIII, 3</cite>; a. fr.—",
+				"<cite ref=\"Taanit 25a:19\">Taan. 25ᵃ</cite> <he>דחֲיִית … או דחָיֵינָא</he> (v. Ms. M. a. Rashi) is what I have lived more or what I have yet to live? Answ. <he>דחֲיַית</he> what thou hast lived. ",
+				"<cite ref=\"Sanhedrin 81a:10\">Snh. 81ᵃ</cite> <he>מאן דעביד לכולהו הוא דח׳</he> will he only live who practiced all these virtues?; a. fr.—",
+				"<cite ref=\"Chullin 7b:13\">Ḥull. 7ᵇ</cite> <he>הא קחזינא דחָיֵי</he> but do’nt we see that they do recover?—",
+				"<cite ref=\"Sanhedrin 91a:5\">Snh. 91ᵃ</cite> <he>דחָיִין מיתי דמיתי חָיִין</he> if those who live must die, can those who died, live again?; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַיֵּי"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"H00716\">preced.</cite> <i>Pi.</i> ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 71:20\">Targ. Ps. LXXI, 20</cite> <he>תְּחַיֵּי</he> (some ed. <he>תֶּחִי</he>). ",
+						"<cite ref=\"Aramaic Targum to Job 36:6\">Targ. Job XXXVI, 6</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחֵי", "אַחְיֵי"],
+			"senses": [
+				{
+					"gloss": ", <he>אַחְיָיא</he> <cite ref=\"H00716\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 8:1\">Targ. II Kings VIII, 1</cite>.—",
+						"<cite ref=\"Targum Jerusalem, Deuteronomy 3:1\">Targ. Y. II, Deut. III, 1</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

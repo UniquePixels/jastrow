@@ -1,0 +1,30 @@
+{
+	"id": "Q00860",
+	"slug": "פירכוס-2",
+	"headword": {
+		"text": "פִּירְכּוּס",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּרְ׳"
+		}
+	],
+	"page": {
+		"number": 1171,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פִּרְכֵּס</he> II) <i>jerking motion, struggling, spasmodic movement</i>, as a symptom of vitality. ",
+			"units": [
+				"<cite ref=\"Chullin 38a:1\">Ḥull. 38ᵃ</cite> <he>הרי זה פ׳</he> these are symptoms of vitality (proving that the slaughtered animal was not on the point of dying a natural death). ",
+				"<cite ref=\"Chullin 38a:10\">Ib.</cite> <he>פ׳ שאמרו בתחלת שחיטה</he> the symptoms of vitality of which they speak refer to the beginning of the slaughtering act. ",
+				"<cite ref=\"Avodah Zarah 16a:14\">Ab. Zar. 16ᵃ</cite> <he>חיה … בהמה דקה לפ׳</he> a large beast of chase is like a small domestic animal as regards the symptoms of vitality required at slaughtering; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "U00243",
+	"slug": "שגש-2",
+	"headword": {
+		"text": "שָׁגַשׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1523,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U00242\"><he>שִׁגֵּשׁ</he></cite> (v. <cite ref=\"U00247\"><he>שַׁגְשֵׁג</he></cite>) <i>to confuse</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 150:1\">Yalk. Gen. 150</cite> play on <he>והשגתם</he> a. <he>ישיגם</he>, <cite ref=\"Genesis 44:4\">Gen. XLIV, 4</cite>; <cite ref=\"Genesis 44:6\">6</cite>) <he>בשִׁ״ין כתיב</he> (<he>שַׁגֵּשׁ אותם בדברים וכ׳</he> it is written with (may be read as) <i>Shin</i>, confuse them with words, now soft and now hard; <he>וכך עשה וישיגם שִׁגֵּשׁ וכ׳</he> and so did he, <i>vayasshigem</i>, he confused them &c."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

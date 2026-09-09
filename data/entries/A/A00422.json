@@ -1,0 +1,23 @@
+{
+	"id": "A00422",
+	"slug": "אדמה",
+	"headword": {
+		"text": "אֲדָמָה"
+	},
+	"page": {
+		"number": 17,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h., prob. fr. <cite ref=\"D00903\"><he>דמם</he></cite> , cmp. <cite ref=\"A00421\">foreg.</cite>; <i>thick and moist</i>) [earth], <i>clay</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 14:8\">Gen. R. s. 14</cite> the potter takes sand (<he>עפר</he>) which is male (masc. gender) and clay (<cite ref=\"A00422\"><he>אדמה</he></cite>) which is female (fem. gender).—",
+				"<cite ref=\"Mishnah Shabbat 8:5\">Sabb. VIII, 5</cite> <he>א׳ כחותם וכ׳</he> as much clay as is required for a seal on bag-knots. [For the meaning of the phonetic equivalents of our w. in other Semit. tongues, v. Ges. H. Dict. s. v.]"
+			]
+		}
+	]
+}

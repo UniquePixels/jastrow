@@ -1,0 +1,46 @@
+{
+	"id": "O01637",
+	"slug": "סרכא-1",
+	"headword": {
+		"text": "סִרְכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִירְ׳"
+		}
+	],
+	"page": {
+		"number": 1028,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01636\">same</cite><i>adhesion</i>, <i>cohesion</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 40a:15\">Bets. 40ᵃ</cite> <he>משום ס׳ דמשכא</he> on account of the adhesion of the skin (because the hide is hard to flay unless the animal is watered before slaughtering).—[In ritual: <he>ס׳</he> <i>an adhesion</i> of lobes of the lungs to each other or to the chest.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>climbing</i>, v. <cite ref=\"O01617\"><he>סְרִיכָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>habit</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 30a:13\">Ab. Zar. 30ᵃ</cite> <he>ס׳ דגברא נקיטה</he> she is supposed to have adopted her husband’s habits. ",
+				"<cite ref=\"Sanhedrin 51b:5\">Snh. 51ᵇ</cite> <he>ס׳ בעלמא נקט</he> (v. Rabb. D. S. a. l.) he merely used the customary phraseology. ",
+				"<cite ref=\"Berakhot 16a:5\">Ber. 16ᵃ</cite> <he>סִרְכֵיה נקט</he>, v. <cite ref=\"D00220\"><he>דַּוְושָׁא</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (cmp. b. h. <cite ref=\"U01924\"><he>שָׂרִיג</he></cite>) <i>branch</i>, <i>scion</i> of a figtree. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:1:6\">Cant. R. to I, 1</cite> (prov.) <he>ס׳ דאקים תאינתא</he> a scion which confirms (the reputation of) the fig tree, i.e. a good son of a good father; (<cite ref=\"Yalkut Shimoni on Nach 134\">Yalk. Sam. 134</cite> <he>בִּרְכָּא תניתא</he> (some ed. <cite ref=\"K01194\"><he>כרכה</he></cite>), prob. to be read: <he>ברכא דמקים תינתא</he>).—[<he>סרכי</he>, <cite ref=\"Yalkut Shimoni on Torah 116\">Yalk. Gen. 116</cite>, v. <cite ref=\"U01993\"><he>שְׂרָכָא</he></cite>]."
+			],
+			"label": "4"
+		}
+	]
+}

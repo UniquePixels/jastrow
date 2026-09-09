@@ -1,0 +1,36 @@
+{
+	"id": "G00147",
+	"slug": "זוז-3",
+	"headword": {
+		"text": "זוּז",
+		"homograph": 2
+	},
+	"page": {
+		"number": 385,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>זהזה</he>, v. <he>זהה</he>) [<i>the glittering</i>, cmp. <cite ref=\"A01506\"><he>אִיסָר</he></cite>, <cite ref=\"A02575\"><he>אִסְתִּירָא</he></cite> &c.) <i>Zuz</i>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a silver coin</i>, one fourth of a Shekel, = <cite ref=\"D00649\"><he>דִּינָר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 1:5\">Keth. I, 5</cite>; a. fr.—Pl. <he>זוּזִים</he>, <cite ref=\"G00150\"><he>זוּזִין</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 22:8\">Num. R. s. 22</cite>, end, a. e., v. <cite ref=\"G00145\"><he>זוּז</he> I</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a weight</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 10:8\">Ter. X, 8</cite>; <cite ref=\"Tosefta Terumot 9:1\">Tosef. ib. IX, 1</cite> (Var. <cite ref=\"G00375\"><he>זִין</he></cite>); Y. ib. X, 47ᵇ top <cite ref=\"G00375\"><he>זִין</he></cite>.—Pl. <he>זוּזִים</he>. Tosef. l. c. ed. Zuck.; Y. l. c. <he>זִינִין</he>."
+			],
+			"label": "2"
+		}
+	]
+}

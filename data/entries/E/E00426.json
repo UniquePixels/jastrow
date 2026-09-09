@@ -1,0 +1,28 @@
+{
+	"id": "E00426",
+	"slug": "הימלטא",
+	"headword": {
+		"text": "הִימְלְטָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "הַמְלְטָא"
+		},
+		{
+			"text": "הִימְלְטֵי"
+		}
+	],
+	"page": {
+		"number": 347,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"M01535\"><he>מֶלֶט</he></cite>, v. <cite ref=\"M01539\"><he>מַלְטֵט</he></cite>) <i>the casings for the beams in wall openings</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 6a:9\">B. Bath. 6ᵃ</cite> <he>אע״ג דמנח ביה המלטא</he> Ar. (ed. Koh. <he>הַמְלָטָה</he>, Ms. M. <he>דמתנח ביה חמולט׳</he>, ed. <he>דעביד ליה הימלטי</he>) although he placed sills thereon (intimating that the neighbor may in future rest beams on them). V. <cite ref=\"M02094\"><he>מַעֲזִיבָה</he></cite>."
+			]
+		}
+	]
+}

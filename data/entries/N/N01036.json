@@ -1,0 +1,41 @@
+{
+	"id": "N01036",
+	"slug": "נפי-1",
+	"headword": {
+		"text": "נפי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָפָה"
+		}
+	],
+	"page": {
+		"number": 923,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>נִיפָּה</he> (denom. of <cite ref=\"N01036\"><he>נָפָה</he></cite>) <i>to fan, winnow, sift</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maasrot 4:5\">Maasr. IV, 5</cite>, v. <cite ref=\"N01025\"><he>נָפַח</he></cite>. ",
+						"<cite ref=\"Bava Batra 94a:7\">B. Bath. 94ᵃ</cite> <he>אם בא לנַפּוֹת מְנַפֶּה וכ׳</he> if the buyer winnows (a sample of the wheat, and it is found to contain more than the legally allowed refuse), he winnows the entire quantity, and the seller has to indemnify him for the entire quantity lost by winnowing. ",
+						"<cite ref=\"Jerusalem Talmud Maasrot 4:3:2\">Y. Maasr. IV, 51ᵇ</cite> bot. <he>ובלבד שלא יְנַפֶּה וכ׳</he> (better <he>יְנַפֵּחַ</he>) but he must not blow the chaff out over a basket; a. e.—Part. pass. <he>מְנוּפֶּה</he>; f. <he>מְנוּפָּה</he>. ",
+						"<cite ref=\"Mishnah Menachot 10:4\">Men. X, 4</cite>; <cite ref=\"Mishnah Menachot 6:7\">VI, 7</cite> <he>מנ׳ בשלש עשרה נפה</he> sifted thirteen times. ",
+						"<cite ref=\"Mishnah Menachot 6:7\">Ib.</cite> <he>סלת מנ׳ כל צרכה</he> fine flour sufficiently sifted. Tanḥ. T’tsavveh 5, v. <cite ref=\"O01041\"><he>סָלַת</he></cite>; a. e.—",
+						"<cite ref=\"Pesikta Rabbati 3\">Pesik. R. s. 3</cite> (ref. to <he>כברת</he>, <cite ref=\"Genesis 48:7\">Gen. XLVIII, 7</cite>) <he>מנ׳ … בכברה בזמן שהארץ</he> (not <he>ככברה</he>) at a season when the ground can be sifted and be shaken in the sieve."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

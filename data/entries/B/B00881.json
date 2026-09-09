@@ -1,0 +1,41 @@
+{
+	"id": "B00881",
+	"slug": "בלם-1",
+	"headword": {
+		"text": "בָּלַם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 173,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <cite ref=\"B00824\"><he>בְּלוֹם</he></cite>, √<he>בל</he>, <cite ref=\"B00880\"><he>בלל</he></cite> , <i>fodder-bag, nose-bag, muzzle</i>) <i>to muzzle, restrain</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 743:18\">Yalk. Num. 743</cite> (read in place of <he>כדו בלום וכ׳</he>:) <he>פיו בָּלוּם לעמו של משה יכול הוא לִבְלוֹם צפורנו של אחד מהם</he> the mouth of the people of Moses is tied up (we dare not talk), but can he tie up (disable) the nail of any of them (the Canaanites)? <cite ref=\"Chullin 89a:9\">Ḥull. 89ᵃ</cite> (play on <cite ref=\"B00864\"><he>בלימה</he></cite>, <cite ref=\"Job 26:7\">Job XXVI, 7</cite>) <he>שבּוֹלֵם וכ׳</he> who restrains himself in strife (refrains from violence, keeps silence &c.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " part. pass. <cite ref=\"B00830\"><he>בָּלוּם</he></cite> (cmp. <cite ref=\"A01906\"><he>אִלֵּם</he></cite>) <i>unfit for use, lame, sore, swollen, closed by a tumor</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 40b:5\">Bekh. 40ᵇ</cite> <he>פיו ב׳</he> one whose mouth is swollen (one opin. in Rashi: <i>shrunk</i>); <he>רגליו מְבוּלָּמוֹת</he> (Pu.) one whose feet are swollen (shrunk). Ib. 43ᵇ <he>חוטמו ב׳</he> Ar. (ed. <he>בולם</he>, corr. acc.) whose nose is obstructed.—",
+				"<cite ref=\"Gittin 67a:8\">Gitt. 67ᵃ</cite> <he>אוצר ב׳</he> a packed treasury of knowledge; v. <cite ref=\"B00892\"><he>בָּלַס</he></cite>.—<i>Part. Pu</i>. <cite ref=\"M02198\"><he>מְבוּלָּם</he></cite>, v. supra."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִבְלִים"],
+			"senses": [
+				{
+					"gloss": "<i>to restrict</i> … Y. Ḥag. II, 78ᵃ bot. <he>ובלבד שיַבְלִים לעיסתו</he> provided that (when cutting &c.) he does only as much as is needed for his dough for the offering; [Tosaf. to <cite ref=\"Chagigah 17b\">Ḥag. 17ᵇ</cite>, s. v. <cite ref=\"A01770\"><he>אלא</he></cite>, cites <he>שיכלה עיסתו</he>, v. <cite ref=\"K00692\"><he>כָּלָה</he></cite>.]",
+					"units": []
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

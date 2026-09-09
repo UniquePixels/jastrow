@@ -1,0 +1,44 @@
+{
+	"id": "E00317",
+	"slug": "הטייה",
+	"headword": {
+		"text": "הַטָּיָיה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֲטָיָיה"
+		}
+	],
+	"page": {
+		"number": 342,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>נטה</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>being inclined</i>, i.e. <i>giving a verdict according to the majority of votes</i> (<cite ref=\"Exodus 23:2\">Ex. XXIII, 2</cite> <he>אחרי רבים להטות</he>). ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 1:6\">Snh. I, 6</cite> <he>לא כהַטָּיָיתְךָ וכ׳</he> thy verdict against the defendant must not be given in the same way as thy verdict of acquittal; for the latter suffices a majority of one, for the former there must be a majority of two."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>perversion of justice</i> (<cite ref=\"Exodus 23:6\">Ex. XXIII, 6</cite>). ",
+			"units": [
+				"<cite ref=\"Sotah 47b:21\">Sot. 47ᵇ</cite> <he>הַטָּיַית משפט</he>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (euphem.) <i>performing coition with a virgin without causing a bleeding</i>. ",
+			"units": ["<cite ref=\"Ketubot 6b\">Keth. 6ᵇ</cite>"],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "H01501",
+	"slug": "חצדא-2",
+	"headword": {
+		"text": "חֲצָדָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חַצְדָּא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 494,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " m. = h. <cite ref=\"H01497\"><he>חֲצָד</he></cite> or <cite ref=\"H01493\"><he>חֲצָב</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:5:6\">Y. Ab. Zar. I, 39ᵈ</cite> bot. (ref. to <cite ref=\"H01498\"><he>חצד</he></cite>, Mish.) <he>מין הוא ושמו ח׳</he> it is a species (of dates) named Ḥ."
+			]
+		}
+	]
+}

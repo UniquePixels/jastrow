@@ -1,0 +1,29 @@
+{
+	"id": "A00848",
+	"slug": "אורבא",
+	"headword": {
+		"text": "אוּרְבָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָרְבָּא"
+		}
+	],
+	"page": {
+		"number": 33,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ארב</he>, <he>ערב</he> <i>to braid, interlace</i> &c.); pl. <he>אוּרְבֵּי</he>, <cite ref=\"T00082\"><he>אָרְבֵּי</he></cite> <i>meshes, void spaces, intervals</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 50b\">Sabb. 50ᵇ</cite> <he>ביני או׳</he> ed. (Ar. <cite ref=\"T00082\"><he>ארבי</he></cite>, Var. <cite ref=\"A03140\"><he>אַרְכֵי</he></cite>, v. <cite ref=\"A03128\"><he>אַרְכָא</he> I</cite>; <cite ref=\"A00410\"><he>אדכי</he></cite>, v. Ar. ed. Koh. S. V. <cite ref=\"A03140\"><he>ארכי</he></cite>, note) between the meshes or void spaces between the bricks. ",
+				"<cite ref=\"Gittin 69b\">Git. 69ᵇ</cite>. ",
+				"<cite ref=\"Bava Batra 3a\">B. Bath. 3ᵃ</cite> (Ms. <he>ירכי</he>, oth. Var. v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

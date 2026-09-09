@@ -1,0 +1,38 @@
+{
+	"id": "A01819",
+	"slug": "אלונטית-2",
+	"headword": {
+		"text": "אֲלוּנְטִית",
+		"homograph": 2
+	},
+	"page": {
+		"number": 68,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " corr. <cite ref=\"A01823\"><he>אֲלוּנְתִּית</he></cite> (<cite ref=\"A01823\"><he>אֲלַנְתִּית</he></cite>) f., <cite ref=\"A01869\"><he>אֲלִינְתִּין</he></cite> m. (a corrupt. of οἰνάνθη, οἰνάνθινος, œnanthe, œnanthinus; cmp. <cite ref=\"A02223\"><he>אניגרון</he></cite> as to <cite ref=\"N00001\"><he>נ</he></cite> a. <cite ref=\"L00000\"><he>ל</he></cite>) made of the grape (or <i>leaves</i>) of wild vine (œnanthe), whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>an aromatic water</i>. Y. Ber. VI, 10ᵈ he who sprinkles <he>אלינת׳</he> œnanthe.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>an unguent</i>. Y. ib. I, 3ᵃ top <he>סכין אלוונ׳ וכ׳</he> (corr. acc.) you may oint a sick person with œn. on the Sabbath. Y. Sabb. XIV, 14ᶜ bot. <cite ref=\"A01869\"><he>אלינתין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 7:1:2\">Y. Shebi. VII, beg. 37ᵇ</cite> <he>יצאת א׳ … לתְּפֵילִין</he> (read … <he>תית</he>) except œn. which is only for children (after circumcision)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>a wine</i> (vinum œnanthinum), used esp. after bathing. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 30a\">Ab. Zar. 30ᵃ</cite> (expl. as a mixture of old wine, pure water and balsam); <cite ref=\"Shabbat 140a:9\">Sabb. 140ᵃ</cite> <he>אלונט׳</he> ed. (Ms. M. <he>אלונת׳</he>). ",
+				"<cite ref=\"Chullin 6a\">Ḥull. 6ᵃ</cite> wine to be put <he>לתוך הא׳</he> into a mixture called <i>ăluntith</i>; <cite ref=\"Tosefta Demai 1:24\">Tosef. Dem. I, 24</cite>. Y. Bets. I, 60ᵈ top."
+			],
+			"label": "3"
+		}
+	]
+}

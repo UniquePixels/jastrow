@@ -1,0 +1,28 @@
+{
+	"id": "U00281",
+	"slug": "שדפון",
+	"headword": {
+		"text": "שִׁדָּפוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1525,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U00280\">preced.</cite>) <i>blast</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 106a:1\">B. Mets. 106ᵃ</cite> <he>כל העולם כולו בש׳ וכ׳</he> if the whole world (all the fields around) was stricken with blast, and his with mildew. ",
+				"<cite ref=\"Bava Metzia 106a:1\">Ib.</cite>; <cite ref=\"Mishnah Arakhin 9:1\">Arakh. IX, 1</cite> <he>היתה שנת ש׳ וירקון</he> if a year of blast or mildew intervened; a. fr."
+			]
+		}
+	]
+}

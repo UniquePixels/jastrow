@@ -1,0 +1,23 @@
+{
+	"id": "T00551",
+	"slug": "רטב-3",
+	"headword": {
+		"text": "רְטַב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1471,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00550\">preced.</cite>) <i>juice, broth</i> (v. <cite ref=\"T00355\"><he>רוֹטְבָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 65:4\">Targ. Is. LXV, 4</cite> ed. Wil., a. Ar. Var. (ed. Lag. a. oth. <cite ref=\"T00575\"><he>רְטַף</he></cite>; h. text <he>מרק</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,74 @@
+{
+	"id": "C00128",
+	"slug": "גבר-1",
+	"headword": {
+		"text": "גָּבַר"
+	},
+	"page": {
+		"number": 208,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <he>גבב</he>) <i>to be uppermost, prevail; to be strong</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 7:4\">Num. R. s. 7</cite> <he>לשון גָּבַר</he>, v. <cite ref=\"A02150\"><he>אָנוּשׁ</he></cite>. ",
+				"<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite> <he>גָּבְרוּ בעלי זרוע</he> the violent prevailed. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 2:7:2\">Y. Bets. II, 61ᶜ</cite> top; <cite ref=\"Tosefta Chagigah 2:11\">Tosef. Ḥag. II, 11</cite>; <cite ref=\"Beitzah 20a:13\">Bets. 20ᵃ</cite> <he>גָּבְרָה יָדָן וכ׳</he> the Shammaites prevailed over (outnumbered) the Hillelites; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גִּבֵּר", "גִּיבֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to make strong, strengthen, sustain</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 3:13\">Lam. R. to III, 1</cite> <he>גִּבְּרַנִי לעמוד בכולן</he> he made me strong enough to survive all these calamities; ib. 12. ",
+						"<cite ref=\"Shir HaShirim Rabbah 2:14\">Cant. R. to II, 14</cite> <he>מְגַבְּרָן לישראל</he> (ed. Wil. <he>מַגְבִּירָן</he> Hif.) sustains Israel. ",
+						"<cite ref=\"Shir HaShirim Rabbah 3:7\">Ib. III, 7</cite> <he>שהן מְגַבְּרִין את וכ׳</he> they (the sixty words of the priestly benediction) strengthen Israel. Mekh. B’shall., Amalek, s. 1 <he>וכי … מְגַבְּרוֹת ישראל</he> can Moses’ (uplifted) hands make Israel victorious?; a. fr.—Part. pass. <he>מְגוּבָּר</he>, v. infra."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִגְבִּיר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"C00127\">same</cite>; v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to grow strong</i>. Ib. <he>עתידין … לְהַגְבִּיר בד״ת וכ׳</he> (Moses’ uplifted hands indicated that the Lord remembered that) Israel would in the future be strong in the Law which was to be given through his (Moses’) hands, opp. <he>להמיך</he>; <cite ref=\"Yalkut Shimoni on Torah 264\">Yalk. Ex. 264</cite>.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְגַּבֵּר"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְגַּבֵּר</he> <i>to rise, swell; to grow strong, gather courage; to make one’s self master</i>. Tanḥ. ",
+					"units": [
+						"<cite ref=\"Genesis 7\">B’resh. 7</cite> <he>המים מִתְגַּבְּרִין</he> the waters of the Nile rose. ",
+						"<cite ref=\"Bamidbar Rabbah 19:25\">Num. R. s. 19</cite> <he>ומִתְגַּבֶּרֶת שם</he> and rose there. ",
+						"<cite ref=\"Bamidbar Rabbah 19\">Ib.</cite> <he>מלא מים מְגוּבָּרִין</he> full of high waters. ",
+						"<cite ref=\"Sanhedrin 96a:4\">Snh. 96ᵃ</cite> <he>לא נ׳ עד וכ׳</he> had no courage until he came to Dan. ",
+						"<cite ref=\"Mishnah Rosh Hashanah 3:8\">R. Hash. III, 8</cite> <he>היו מִתְגַּבְּרִין</he> they were victorious. ",
+						"<cite ref=\"Chagigah 16a\">Ḥag. 16ᵃ</cite>, a. e. if one feels <he>שיצרו מתג׳ עליו</he> that his passion threatens to make itself master over him; <cite ref=\"Kiddushin 80b:11\">Kidd. 80ᵇ</cite>. ",
+						"<cite ref=\"Nedarim 81a:3\">Ned. 81ᵃ</cite> <he>מפני שהן מתגברין על הצבור</he> because they lord it over the people (Ar. <he>מתגדרין</he>, v. <cite ref=\"C00244\"><he>גָּדַר</he></cite>). ",
+						"<cite ref=\"Bamidbar Rabbah 18:22\">Num. R. s. 18</cite>, v. <cite ref=\"C00049\"><he>גָּבַהּ</he></cite>. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 287\">Yalk. Is. 287</cite> (ref. to <cite ref=\"Isaiah 17:11\">Is. XVII, 11</cite>) <he>מכה מִתְגַּבֶּרֶת</he> (<cite ref=\"Vayikra Rabbah 18\">Lev. R. s. 18</cite> <cite ref=\"M00229\"><he>מגרת</he></cite>, corr. acc. or <he>מגברת</he>) an affliction which makes itself the master, v. <cite ref=\"A02150\"><he>אָנוּשׁ</he></cite>. ",
+						"<cite ref=\"Bereishit Rabbah 76\">Gen. R. s. 76</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

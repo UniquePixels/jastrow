@@ -1,0 +1,33 @@
+{
+	"id": "N00680",
+	"slug": "נימוס-2",
+	"headword": {
+		"text": "נִימוֹס",
+		"homograph": 1
+	},
+	"page": {
+		"number": 905,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Nimos</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " <he>נ׳ הגרדי</he>, v. <cite ref=\"A00178\"><he>אַבְנִימוֹס</he></cite>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " N., brother of Joshua the grist-maker. ",
+			"units": [
+				"<cite ref=\"Bekhorot 10b:2\">Bekh. 10ᵇ</cite>; <cite ref=\"Tosefta Makhshirin 3:13\">Tosef. Makhsh. III, 13</cite> <he>אונימיס</he> ed. Zuck. (oth. ed. <he>אינ׳</he>), read <cite ref=\"A00178\"><he>אַוְנִימוֹס</he></cite>, v. <cite ref=\"A00178\"><he>אַבְנִימוֹס</he></cite>"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "M01955",
+	"slug": "מסכת",
+	"headword": {
+		"text": "מַסֶּכֶת"
+	},
+	"page": {
+		"number": 808,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"O00903\"><he>סָכַךְ</he> I)</cite><i>web on the loom</i>. Ohol. VIII, 4 <he>מ׳ הפרוסה</he> the spread web, i.e. the web hanging from the transverse beam (vestis pendens, v. Sm. Ant. s. v. Tela). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 21:1\">Kel. XXI, 1</cite> <he>נפש המ׳</he> <i>the woof</i>, opp. to <he>שתי עומד</he> the warp of the standing loom. ",
+				"<cite ref=\"Midrash Tehillim 38\">Midr. Till. to Ps. XXXVIII</cite>; <cite ref=\"Yalkut Shimoni on Nach 733:1\">Yalk. Ps. 733</cite> <he>אנו המ׳ וכ׳</he> we are the web, and Thou the weaver; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. Lat. textus) <i>construction, Talmudic treatise</i>. ",
+			"units": [
+				"<cite ref=\"Ruth Rabbah 4:9\">Ruth R. to II, 9</cite> (play on <he>וַיַּסֵּךְ</he>, <cite ref=\"II Samuel 23:16\">II Sam. XXIII, 16</cite>) <he>עשאה מ׳ וקבעה וכ׳</he> (not <cite ref=\"M01956\"><he>מסכתא</he></cite>) he (David) constructed it and fixed it as a rule for future generations that the king forces the road &c. (v. ",
+				"<cite ref=\"Mishnah Sanhedrin 2:4\">Snh. II, 4</cite>); Midr. Sam. ch. XX; <cite ref=\"Jerusalem Talmud Sanhedrin 2:5:4\">Y. Snh. II, 20ᶜ</cite> top. ",
+				"<cite ref=\"Shabbat 114a:8\">Sabb. 114ᵃ</cite>, v. <cite ref=\"K00691\"><he>כַּלָּה</he></cite>; a. fr.—Pl. <he>מַסֶּכְתּוֹת</he>. ",
+				"<cite ref=\"Midrash Tehillim 118:16\">Midr. Till. to Ps. CIV, 25</cite> <he>אלו המ׳ דבר וכ׳</he> those are the systematic collections of Bar <i>Ḳ</i>. &c. ",
+				"<cite ref=\"Bamidbar Rabbah 18:12\">Num. R. s. 18</cite> <he>ששים מ׳</he> sixty Talmudic treatises [editions, however, count sixty-three]; Tanḥ. Korah 12; <cite ref=\"Shir HaShirim Rabbah 6:9:2\">Cant. R. to VI, 9</cite> (not … <he>תיות</he>); a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

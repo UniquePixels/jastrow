@@ -1,0 +1,40 @@
+{
+	"id": "D00868",
+	"slug": "דם-2",
+	"headword": {
+		"text": "דָּם",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּמָא"
+		}
+	],
+	"page": {
+		"number": 312,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00867\">same</cite><i>blood; life</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 4:10\">Targ. O. Gen. IV, 10</cite>. Targ. ib. IX, 6; a. fr.—",
+				"<cite ref=\"Bava Batra 58b:2\">B. Bath. 58ᵇ</cite> <he>בריש כל מרעין אנא ד׳ וכ׳</he> at the head of all diseases (chief cause of physical disorders) am I, the blood. ",
+				"<cite ref=\"Yoma 82b:1\">Yoma 82ᵇ</cite>, a. e. <he>מאי חזית דד׳ דידך וכ׳</he> what right hast thou to assume that thy blood is redder than thy neighbor’s (you have no right to commit murder even under compulsion). ",
+				"<cite ref=\"Kiddushin 81a:13\">Kidd. 81ᵃ</cite> <he>נשויתיה</he> (<he>שויתי</he>) <he>לָדָמָךְ וכ׳</he> I should have valued thy life two <i>M’ah</i>, i.e. I should not have spared thee; <cite ref=\"Pesachim 112b:11\">Pes. 112ᵇ</cite> Ms. M. (ed. <he>סכנתיך</he>, v. Rabb. D. S. a. l. note 200, a. note 3). ",
+				"<cite ref=\"Ketubot 60b:15\">Keth. 60ᵇ</cite> bot. <he>על דמא דחמרא</he> Ar. s. v. <he>גרדן</he> (ed. <cite ref=\"T00783\"><he>רמא</he></cite>) on the blood of an ass.—Pl. <cite ref=\"D00892\"><he>דְּמֶי</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 4:11\">Targ. Gen. IV, 11</cite>; a. fr.—",
+				"<cite ref=\"Gittin 57b:2\">Gitt. 57ᵇ</cite>, v. <cite ref=\"D00892\"><he>דְּמֵי</he> I</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>congestion</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 28b:12\">Ab. Zar. 28ᵇ</cite>; <cite ref=\"Beitzah 22a:13\">Bets. 22ᵃ</cite> <he>ד׳ דמעתא וכ׳</he> congestion of the eye, tears &c. ",
+				"<cite ref=\"Gittin 68b:21\">Gitt. 68ᵇ</cite> <he>לד׳ דרישא</he> for congestion of the head (head-ache). [<he>דְּמֵי</he> <i>equivalent</i>, v. <cite ref=\"D00898\"><he>דָּמִין</he></cite>.] V. <cite ref=\"A00419\"><he>אִדְמָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

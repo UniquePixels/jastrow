@@ -1,0 +1,32 @@
+{
+	"id": "C01135",
+	"slug": "גניבה",
+	"headword": {
+		"text": "גְּנֵיבָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּנֵבָה"
+		}
+	],
+	"page": {
+		"number": 259,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>גנב</he>)<i>theft, the stolen object; deception</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 10:3\">B. Kam. X, 3</cite> <he>ויצא לו שם ג׳ בעיר</he> and the report of his being robbed had spread in town. ",
+				"<cite ref=\"Mishnah Bava Kamma 10:8\">Ib. 8</cite> did not know <he>בגְנֵיבָתוֹ</he> that it had been stolen. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 3:8:7\">Y. Sot. III, end, 19ᵇ</cite> <he>ג׳ אחת</he> one theft; <cite ref=\"Kiddushin 18a:9\">Kidd. 18ᵃ</cite>. ",
+				"<cite ref=\"Kiddushin 18a:11\">Ib.</cite> <he>גְּנֵיבוֹ אלף</he> if what he has stolen is worth one thousand (Shekel &c.); a. fr.—Pl. <cite ref=\"C01136\"><he>גְּנֵיבוֹת</he></cite>, <he>גְּנֵבוֹת</he>. ",
+				"<cite ref=\"Kiddushin 18a:11\">Ib.</cite>—Mekh. Mishp., N’zikin, s. 13 <he>גנב שלש ג׳ וכ׳</he> he committed three frauds &c., v. <cite ref=\"C01078\"><he>גָּנַב</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 7\">Num. R. s. 7</cite>; a. fr."
+			]
+		}
+	]
+}

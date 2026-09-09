@@ -1,0 +1,36 @@
+{
+	"id": "D00459",
+	"slug": "דיאתיקי",
+	"headword": {
+		"text": "דִּיאֲתִיקִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּיָיתִיקִי"
+		},
+		{
+			"text": "דְּיוֹ׳"
+		}
+	],
+	"page": {
+		"number": 294,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (διαθήκη) <i>a disposition of property</i>, esp. <i>by will and testament; covenant, contract</i>, v. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 3:7:14\">Y. Peah III, 17ᵈ</cite> bot. for difference between <he>ד׳</he> a. <he>מתנה</he>.—",
+				"<cite ref=\"Targum Jonathan on Genesis 24:10\">Targ. Y. Gen. XXIV, 10</cite> <he>ד׳ דריבונא</he> Ar. (ed. <he>שפר אפותיקי</he>); <cite ref=\"Bereishit Rabbah 59:11\">Gen. R. s. 59</cite>, end (ref. to Gen. l. c.) <he>זו ד׳</he> this means (his master’s) will (in favor of Isaac).—Y. Ber. V, 9ᵇ top <he>בד׳ נתתיו לו וכ׳</he> have I given it to him as a bequest (which may be cancelled)? I have given it to him as a donation. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 8:7:4\">Y. B. Bath. VIII, 16ᵇ</cite> bot. <he>ויחזור בדְיָיתִיקָתוֹ</he> he may change his will. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 8:7:4\">Ib.</cite>; Bab. ",
+				"<cite ref=\"Bava Batra 152b:4\">B. Bath. 152ᵇ</cite> <he>ד׳ מבטלת ד׳</he> the later will cancels the prior. Y. B. Mets. I, end, 8ᵃ <he>אין … לפגם דייתיקין וכ׳</he> nobody is likely to make a defective will (by anticipating in it the receipt of a debt before it has been collected).—Pl. <he>דְּיָיתִיקָאוֹת</he>. ",
+				"<cite ref=\"Bava Metzia 19a:14\">B. Mets. 19ᵃ</cite>. ",
+				"<cite ref=\"Tosefta Bava Batra 11:6\">Tosef. B. Bath. XI, 6</cite>; a. e."
+			]
+		}
+	]
+}

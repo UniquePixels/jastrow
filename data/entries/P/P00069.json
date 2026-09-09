@@ -1,0 +1,33 @@
+{
+	"id": "P00069",
+	"slug": "עברה-3",
+	"headword": {
+		"text": "עֲבָרָה"
+	},
+	"page": {
+		"number": 1040,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00059\"><he>עָבַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"E00713\"><he>הַעֲבָרָה</he></cite> q. v.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>passing by;</i> <he>ע׳ מ־</he> <i>passing from one act to another, ceasing</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 2:4:2\">Y. B. Kam. II, 3ᵃ</cite> top <he>בשעת עֲבָרָתָן</he> while they were passing by. ",
+				"<cite ref=\"Mishnah Niddah 1:7\">Nidd. I, 7</cite> <he>בשעת עברתן מלאכול וכ׳</he> when they cease to eat T’rumah."
+			],
+			"label": "2"
+		}
+	]
+}

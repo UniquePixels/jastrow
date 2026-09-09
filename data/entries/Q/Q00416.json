@@ -1,0 +1,40 @@
+{
+	"id": "Q00416",
+	"slug": "פותיא",
+	"headword": {
+		"text": "פּוּתְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פּוּתְיָה"
+		}
+	],
+	"page": {
+		"number": 1149,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00415\">same</cite><i>width</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 26:8\">Targ. Ex. XXVI, 8</cite>; a. fr.—",
+				"<cite ref=\"Yevamot 63a:7\">Yeb. 63ᵃ</cite> <he>לפ׳</he> Rashi (ed. <he>לפוּתְיָהּ</he>) widthwise (of the field); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>enlargement, delivery</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 118:5\">Targ. Ps. CXVIII, 5</cite> Ms. (ed. Wil. <cite ref=\"Q02155\"><he>פַּתְיָא</he></cite>; ed. Lag. <cite ref=\"Q02117\"><he>פְּתָאוָא</he></cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " שור פ׳ <i>the wide, open road, proper conduct</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 7:6:7\">Y. Keth. VII, 31ᶜ</cite> <he>ולא תיצבי בשור פ׳</he> and not choose the open road (behave with propriety)."
+			],
+			"label": "3"
+		}
+	]
+}

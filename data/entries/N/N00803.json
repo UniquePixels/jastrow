@@ -1,0 +1,28 @@
+{
+	"id": "N00803",
+	"slug": "ניתוח",
+	"headword": {
+		"text": "נִיתּוּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִתּ׳"
+		}
+	],
+	"page": {
+		"number": 910,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01364\"><he>נָתַח</he></cite>) <i>dissection</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 5:4\">Zeb. V, 4</cite>, v. <cite ref=\"E00769\"><he>הֶפְשֵׁט</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 34\">Gen. R. s. 34</cite>; a. fr."
+			]
+		}
+	]
+}

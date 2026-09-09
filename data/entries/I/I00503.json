@@ -1,0 +1,23 @@
+{
+	"id": "I00503",
+	"slug": "טליקא",
+	"headword": {
+		"text": "טְלִיקָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 537,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00525\"><he>טְלַק</he></cite> = <cite ref=\"I00888\"><he>טְרַק</he></cite>) <i>box</i> for papers, documents. ",
+			"units": [
+				"<cite ref=\"Gittin 28a:4\">Gitt. 28ᵃ</cite>; <cite ref=\"Bava Metzia 20b:4\">B. Mets. 20ᵇ</cite> (Ms. F. <he>טלוקא</he>, Ms. R. 1 <he>טליסקא</he>, v. Rabb. D. S. a. l. note 400), v. <cite ref=\"C00911\"><he>גְּלוּסְקְמָא</he></cite>."
+			]
+		}
+	]
+}

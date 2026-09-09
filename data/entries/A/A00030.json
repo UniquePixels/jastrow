@@ -1,0 +1,72 @@
+{
+	"id": "A00030",
+	"slug": "אבד-1",
+	"headword": {
+		"text": "אָבַד"
+	},
+	"page": {
+		"number": 2,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<cite ref=\"A00013\"><he>אב</he></cite> , v. <he>אבב</he>) <i>to be pressed, go around in despair</i> (v. ",
+			"units": [
+				"<cite ref=\"Proverbs 31:6\">Prov. XXXI, 6</cite>; <cite ref=\"Deuteronomy 26:6\">Deut. XXVI, 6</cite>) <i>to be given up</i>, whence "
+			]
+		},
+		{
+			"gloss": "<i>to be lost, perish; to be beyond recognition</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 301\">Sifré Deut. 301</cite> (ref. to <cite ref=\"Deuteronomy 26:5\">Deut. XXVI, 5</cite>) <he>לא ירד … אלא לאובד</he> (read <he>לוֹבֵד</he> or <he>לֶאֱבוֹד</he>; Yalk. Deut. a. l. <he>לאבדם</he> prob. <he>לאַבְרָּן</he>; Ms. Zer. Abr. 3 <he>לֵיאָבֵר</he>) Jacob went to Aram with no hope but to perish (be a slave &c.). Ohol. XVII, 3 a field <he>שא׳ בו קבר</he> in which there is a grave that cannot be located. ",
+				"<cite ref=\"Mishnah Ketubot 13:7\">Keth. XIII, 7</cite> <he>אָבְדָה דרך וכ׳</he> the path to his field cannot be traced. ",
+				"<cite ref=\"Bereishit Rabbah 91:9\">Gen. R. s. 91</cite> <he>אבידה א׳ לנו</he> we have lost something; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to lose</i>. Ib. <he>ואנו שאָבַדְנוּ ר׳ ס׳</he> and we who have lost (mourn for) R. S.; a. fr.—Part. pass. <he>אָבוּד</he> <i>lost, irretrievable, perishing, decayed</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 108a:2\">Keth. 108ᵃ</cite> <he>על הא׳</he> on a contribution to the Temple which has been lost on the road. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 9:1:11\">Y. Shebi. IX, 38ᵈ</cite> top <he>מאיליהן הן אֲבוּדִין</he> they perish of themselves (they decay naturally); a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶאֱבַד"],
+			"senses": [
+				{
+					"gloss": "<i>to be lost, perish</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 104a\">Keth. 104ᵃ</cite>; a. fr. ",
+						"<cite ref=\"Sifrei Devarim 301\">Sifré Deut. 301</cite> <he>לֵיאָבֵד</he>, v. supra."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["אִיבֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to waste, lose, forfeit, destroy</i>. ",
+					"units": [
+						"<cite ref=\"Nedarim 33b:3\">Ned. 33ᵇ</cite> <he>אי׳ את מעותיו</he> he wasted his money, (cannot reclaim it). ",
+						"<cite ref=\"Mishnah Ketubot 13:6\">Keth. XIII, 6</cite> <he>אי׳ את זכותו</he> he forfeited his claim. ",
+						"<cite ref=\"Avodah Zarah 55a:6\">Ab. Zar. 55ᵃ</cite> <he>אנו נְאַבֵּד וכ׳</he> shall we give up our honest dealing? <cite ref=\"Mishnah Avodah Zarah 4:7\">Ib. IV, 7</cite> <he>יְאַבֵּד עולמו</he> shall He destroy His world? <cite ref=\"Chagigah 3a:17\">Ḥag. 3ᵃ</cite> <he>ובקשתם לאַבְּדָהּ ממני</he> and you wanted to deprive me of it? <cite ref=\"Chagigah 4a:1\">Ib. 4ᵃ</cite> <he>זה המְאַבֵּד וכ׳</he> one who destroys what is given to him.—א׳ עצמו לדעת <i>to commit suicide wilfully</i>. ",
+						"<cite ref=\"Bereishit Rabbah 82\">Gen. R. s. 82</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to drop from memory, to forget</i>. ",
+					"units": ["<cite ref=\"Pirkei Avot 5:12\">Aboth V, 12</cite>; a. e."],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

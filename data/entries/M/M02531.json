@@ -1,0 +1,27 @@
+{
+	"id": "M02531",
+	"slug": "מרד-4",
+	"headword": {
+		"text": "מֶרֶד",
+		"homograph": 1
+	},
+	"page": {
+		"number": 836,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; denom. of <cite ref=\"J00597\"><he>יָרַד</he></cite>) [<i>running away, running against</i>, cmp. <cite ref=\"M02124\"><he>מַעַל</he></cite>,] <i>desertion, rebellion</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 55b:7\">Pes. 55ᵇ</cite> <he>אחר שלשה למִרְדָהּ</he> after three days since her (the bird’s) deserting the eggs; <cite ref=\"Pesachim 55b:7\">ib.</cite> <he>למוֹרְדָהּ</he>. ",
+				"<cite ref=\"Midrash Tehillim 90:5\">Midr. Till. to Ps. XC</cite> <he>בשביל המ׳ שמרדתי אני וכ׳</he> I beg for amnesty for the rebellion which I made. ",
+				"<cite ref=\"Bereishit Rabbah 23:7\">Gen. R. s. 23</cite>; s. 26 (ref. to <he>הוחל</he>, <he>החל</he>, <cite ref=\"Genesis 4:26\">Gen. IV, 26</cite>; <cite ref=\"Genesis 6:1\">VI, 1</cite>; <cite ref=\"Genesis 10:8\">X, 8</cite>) <he>לשון מ׳</he> it means desertion from the Lord (cmp. <cite ref=\"H01073\"><he>חָלַל</he></cite>, <cite ref=\"H00351\"><he>חוּלִּין</he></cite>); a. fr.—<he>איגרת מ׳</he> a document stating a wife’s, or a husband’s, refusal of duties, v. <cite ref=\"M02528\"><he>מָרַד</he> I</cite>. ",
+				"<cite ref=\"Ketubot 64a:3\">Keth. 64ᵃ</cite>; Y. ib. V, 30ᵇ bot.; <cite ref=\"Jerusalem Talmud Kiddushin 1:2:7\">Y. Kidd. I, 59ᵃ</cite> bot.; a. fr.—Pl. <he>מְרָדִים</he> <i>rebellious acts</i>, contrad. to sins of passion <he>(זדונות</he>). ",
+				"<cite ref=\"Tosefta Yoma 2:1\">Tosef. Yoma II, 1</cite>; <cite ref=\"Yoma 36b\">Yoma 36ᵇ</cite>; Y. ib. III, 40ᵈ bot., v. <cite ref=\"Q02087\"><he>פֶּשַׁע</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "B00692",
+	"slug": "ביקוע",
+	"headword": {
+		"text": "בִּיקּוּעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּקּוּעַ"
+		}
+	],
+	"page": {
+		"number": 165,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בקע</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>splitting, chopping</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:3\">Kel. XIII, 3</cite> <cite ref=\"B00922\"><he>בית ב׳</he></cite> that part of the spade (or shovel) which is used for chopping. ",
+				"<cite ref=\"Mishnah Kelim 29:7\">Ib. XXIX, 7</cite>; <cite ref=\"Jerusalem Talmud Megillah 1:7:2\">Y. Meg. I, 71ᵇ</cite> top <he>קרדום של ב׳</he> an axe for chopping, opp. <he>של ניכוש</he> (a hoe) for weeding; <cite ref=\"Jerusalem Talmud Nedarim 4:1:2\">Y. Ned. IV, beg. 38ᶜ</cite> <he>קורדום של בקעי</he> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"B01128\"><he>בָּקַע</he></cite>) <i>trimming the</i> (olive) <i>tree</i>. Sifra B’har, beg.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

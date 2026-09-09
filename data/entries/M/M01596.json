@@ -1,0 +1,28 @@
+{
+	"id": "M01596",
+	"slug": "מללא-1",
+	"headword": {
+		"text": "מַלְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִלְלָא"
+		}
+	],
+	"page": {
+		"number": 792,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01595\">preced.</cite>) <i>word, speech</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 15:11\">Targ. Job XV, 11</cite>. Targ. II Esth. VII, 9 <cite ref=\"M01593\"><he>מֶלֶל</he></cite> (constr.); a. e.—Pl. <he>מַלְלִין</he>, constr. <he>מַלְלֵי</he>. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 31:24\">Targ. Y. II, Deut. XXXI, 24</cite> (ed. Amst. <he>מַלָּלֵי</he>)."
+			]
+		}
+	]
+}

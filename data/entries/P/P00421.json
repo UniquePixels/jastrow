@@ -1,0 +1,41 @@
+{
+	"id": "P00421",
+	"slug": "עזקא-2",
+	"headword": {
+		"text": "עִזְקָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עִי׳",
+			"homograph": 2
+		},
+		{
+			"text": "עִזְקְתָא"
+		},
+		{
+			"text": "עִיזְ׳"
+		}
+	],
+	"page": {
+		"number": 1062,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00420\">preced.</cite>; cmp. <cite ref=\"H00700\"><he>חִיזְקָא</he></cite>) <i>clasp, ring, signet-ring</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:11\">Targ. Ex. XXVIII, 11</cite> (O. ed. Vien. <he>עִזְקָן</he> <i>pl.</i>). ",
+				"<cite ref=\"Onkelos Genesis 38:18\">Targ. O. Gen. XXXVIII, 18</cite>; a. fr.—",
+				"<cite ref=\"Gittin 68a:10\">Gitt. 68ᵃ</cite> <he>ע׳ דחקיק עלה שם</he> a ring on which the divine name was engraven; <cite ref=\"Midrash Tehillim 78:7\">Midr. Till. to Ps. LXXVIII, 45</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 4:4:7\">Y. Ab. Zar. IV, 44ᵃ</cite> top <he>חד ע׳ צר</he> a ring on which was a figure (Bub. ib. 43ᵃ <he>טבעת ועליה צורת דרקין</he>); a. fr.—[<cite ref=\"Vayikra Rabbah 13:4\">Lev. R. s. 13</cite> <he>כעזקתא סומקתא</he>, read: <he>כעַרְקְתָא</he>.]—Trnsf. (v. <cite ref=\"I00086\"><he>טַבַּעַת</he></cite>) <i>anus, end of the rectum</i>. ",
+				"<cite ref=\"Kohelet Rabbah 7:19:3\">Koh. R., to VII, 19</cite>; <cite ref=\"Yalkut Shimoni on Nach 976\">Yalk. ib. 976</cite>.—<i>Pl.</i> <he>עִזְקיָּא</he>, <cite ref=\"P00421\"><he>עִיזְ׳</he></cite>; <cite ref=\"P00421\"><he>עִזְקָתָא</he></cite>, <he>עִזְקָן</he>; <cite ref=\"P00072\"><he>עִי׳</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 25:12\">Targ. Ex. XXV, 12</cite>; <cite ref=\"Onkelos Exodus 25:14\">14</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:4:3\">Y. Sabb. VI, 8ᵇ</cite> bot. (expl. <he>וטבעת</he> <cite ref=\"Numbers 31:50\">Num. XXXI, 50</cite>)."
+			]
+		}
+	]
+}

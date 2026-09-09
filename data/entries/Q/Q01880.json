@@ -1,0 +1,32 @@
+{
+	"id": "Q01880",
+	"slug": "פרן-3",
+	"headword": {
+		"text": "פְּרַן"
+	},
+	"page": {
+		"number": 1230,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַפְרַן</he> <cite ref=\"Q01879\">same</cite>, esp. (of the husband) <i>to endow the wife, settle the dowry</i> (<cite ref=\"M00431\"><he>מוֹהַר</he></cite> or <cite ref=\"K01350\"><he>כְּתוּבָּה</he></cite>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 22:15\">Targ. Y. I Ex. XXII, 15</cite> <he>מִפְרָנָא יַפְרִין</he> (Y. II <he>יִפְרָן</he>; h. text <he>מהר ימהר׳</he>). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 21:13\">Targ. Y. Deut. XXI, 13</cite> (h. text <he>ובעלתה</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "U00770",
+	"slug": "שטר-5",
+	"headword": {
+		"text": "שְׁטָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁטַר"
+		}
+	],
+	"page": {
+		"number": 1555,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"U00767\"><he>שָׁטַר</he></cite>) <i>writ, document</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 1:1\">Kidd. I, 1</cite> a woman may be acquired as wife <he>בכסף בש׳ וכ׳</he> by handing her money (or money’s worth), by a writ (handing her a paper on which is written, ‘thou art betrothed unto me’) &c. ",
+				"<cite ref=\"Mishnah Kiddushin 1:2\">Ib. 2</cite> a slave is acquired <he>בש׳</he> by a document (bill of sale). ",
+				"<cite ref=\"Kiddushin 3b\">Ib. 3ᵇ</cite>; a. fr.—Esp. <he>ש׳ חוב</he> (or sub. <cite ref=\"H00231\"><he>חוב</he></cite>) <i>note of indebtedness, bond</i>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:55\">Y. Peah I, 16ᵇ</cite> bot. <he>חוטף ש׳ אחד</he>, v. <cite ref=\"N01284\"><he>נָשָׂא</he></cite>; <cite ref=\"Jerusalem Talmud Sanhedrin 10:1:5\">Y. Snh. X, beg. 27ᶜ</cite>; <cite ref=\"Jerusalem Talmud Kiddushin 1:9:3\">Y. Kidd. I, end, 61ᵈ</cite> <he>חוטף אחד</he> (corr. acc.); Yalk. Num. 744 <he>ש׳ חוב אחד</he>. ",
+				"<cite ref=\"Mishnah Bava Metzia 1:8\">B. Mets. I, 8</cite> <he>מצא ש׳ בין שְׁטָרוֹתָין וכ׳</he> if a person finds (another man’s) bond among his papers, and does not know its nature (by whom it was deposited &c.); a. fr.—Pl. <he>שְׁטָרוֹת</he>, constr. <he>שְׁטָרֵי</he>. ",
+				"<cite ref=\"Mishnah Gittin 1:5\">Gitt. I, 5</cite>, v. <cite ref=\"P01381\"><he>עַרְכִי</he></cite>. B. Mets. l. c. <he>תכריך של ש׳</he> a roll of bonds; <he>אגודה של ש׳</he> a bundle of bonds. Ib. <he>ש׳ חליצה</he>, <he>ש׳ מיאונין</he> v. respective determinants. Ib. 6; a. v. fr."
+			]
+		}
+	]
+}

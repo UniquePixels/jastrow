@@ -1,0 +1,36 @@
+{
+	"id": "K00681",
+	"slug": "כלבה",
+	"headword": {
+		"text": "כַּלבָּה"
+	},
+	"page": {
+		"number": 639,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"K00677\"><he>כֶּלֶב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>she-dog</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 4</cite> (not <cite ref=\"K00680\"><he>כלבא</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 6:3:6\">Y. Snh. VI, 23ᵇ</cite> bot. <he>נזקקין לכ׳</he> having connection with a dog. ",
+				"<cite ref=\"Kohelet Rabbah 7:26\">Koh. R. to VII, 26</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>tongs, pinchers</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 3:11\">Tosef. Kel. B. Mets. III, 11</cite> <he>כ׳ של ספרין וכ׳</he> the barbers’ tongs, the physicians’ &c.; v. <cite ref=\"K00683\"><he>כַּלְבּוּס</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

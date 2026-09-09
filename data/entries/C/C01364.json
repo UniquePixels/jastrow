@@ -1,0 +1,24 @@
+{
+	"id": "C01364",
+	"slug": "גרמני-1",
+	"headword": {
+		"text": "גִּרְמָנִי"
+	},
+	"page": {
+		"number": 270,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Germanus, v. <cite ref=\"C01363\">preced. art.</cite>) <i>German, one of the Caucasian race, white man</i>, opp. <cite ref=\"K00402\"><he>כּוּשִׁי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 86:3\">Gen. R. s. 86</cite> everywhere you find <he>ג׳ מוכר כושי</he> one of the white race sells a dark man. ",
+				"<cite ref=\"Mishnah Negaim 2:1\">Neg. II, 1</cite>, v. <cite ref=\"B00194\"><he>בַּהֶרֶת</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Yoma 8:5:4\">Y. Yoma VIII, 45ᵇ</cite> top <he>ג׳ עבדיה וכ׳</he> a German, a slave of &c.; <cite ref=\"Jerusalem Talmud Shabbat 6:9:8\">Y. Sabb. VI, 8ᶜ</cite> bot. <he>גרמניא</he> (corr. acc.); Y. Ab. Zar. II, end, 42ᵃ <cite ref=\"C01363\"><he>גרמנא</he></cite>."
+			]
+		}
+	]
+}

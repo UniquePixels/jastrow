@@ -1,0 +1,55 @@
+{
+	"id": "J00707",
+	"slug": "ישראל",
+	"headword": {
+		"text": "יִשְׂרָאֵל"
+	},
+	"page": {
+		"number": 602,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n.(b. h.)<i>Israel</i>.",
+			"units": []
+		},
+		{
+			"gloss": " I. (Jacob), the patriarch. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 68:11\">Gen. R. s. 68</cite> <he>י׳ סבא</he> the patriarch I. (not the people); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " I., the people. ",
+			"units": [
+				"<cite ref=\"Berakhot 6a:25\">Ber. 6ᵃ</cite>; a. fr.—<he>שונאי י׳</he> the enemies of Israel, often euphem. for <i>Israel</i>. ",
+				"<cite ref=\"Berakhot 32a:14\">Ib. 32ᵃ</cite> <he>נתמוטטו … של ש׳ י׳</he> the feet of Israel would totter (in judgment); a. fr.—V. <cite ref=\"K00865\"><he>כְּנֶסֶת</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <he>י׳</he> (= <he>בן י׳</he>) <i>an Israelite</i>, ",
+			"units": [],
+			"label": "3",
+			"senses": [
+				{
+					"gloss": " one not belonging to the priestly or levitic tribe; ",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>a Jew</i>, opp. <cite ref=\"N00847\"><he>נכרי</he></cite>, <cite ref=\"C00358\"><he>גוי</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Gittin 5:8\">Gitt. V, 8</cite>. ",
+						"<cite ref=\"Tosefta Kiddushin 5:3\">Tosef. Kidd. V, 3</cite>; a. fr.—",
+						"<cite ref=\"Tosefta Avodah Zarah 3:5\">Tosef. Ab. Zar. III, 5</cite>, sq. ",
+						"<cite ref=\"Mishnah Avodah Zarah 2:6\">Ab. Zar. II, 6</cite>; a. fr.—בַּת י׳ <i>an Israelitish woman</i>. Tosef. l. c. 1; 3; a. fr.—Pl. <he>יִשְׂרְאֵלוֹת</he> (opp. to <he>כַּהֲנוֹת</he>, <he>לְוִיּוֹת</he>). ",
+						"<cite ref=\"Tosefta Sanhedrin 4:2\">Tosef. Snh. IV, 2</cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

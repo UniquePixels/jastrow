@@ -1,0 +1,24 @@
+{
+	"id": "C00318",
+	"slug": "גודרות",
+	"headword": {
+		"text": "גּוֹדְרוֹת"
+	},
+	"page": {
+		"number": 218,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (denom. of <he>גדרה</he> <i>fold</i>, <cite ref=\"Numbers 32:16\">Num. XXXII, 16</cite>) <i>animals living in folds</i> (which they leave in day-time), in gen. <i>moving live stock</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 36a:9\">B. Bath. 36ᵃ</cite>; <cite ref=\"Gittin 20b:15\">Gitt. 20ᵇ</cite>; <cite ref=\"Ketubot 84b:10\">Keth. 84ᵇ</cite> <he>הג׳ אין להם חזקה</he> the possession of fold-animals is no evidence of ownership (as they may have come over by accident). ",
+				"<cite ref=\"Bava Metzia 69a:9\">B. Mets. 69ᵃ</cite> <he>בג׳ כ״ד חדש</he> fold-animals (small cattle given out for raising on half-profit) must be attended to twenty four months (before a division of profits can be demanded by the keeper)."
+			]
+		}
+	]
+}

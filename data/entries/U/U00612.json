@@ -1,0 +1,34 @@
+{
+	"id": "U00612",
+	"slug": "שחד",
+	"headword": {
+		"text": "שְׁחַד"
+	},
+	"page": {
+		"number": 1545,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"U00365\"><he>שׁוֹחַד</he></cite>) <i>to win the favor of, bribe</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 16:33\">Targ. Ez. XVI, 33</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 6:22\">Targ. Job VI, 22</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁחֵד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00611\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 43b:7\">Snh. 43ᵇ</cite> <he>שַחוּדֵי שַׁחֲדֵיה במילי</he> he (Joshua) won him (Achan) over with persuasive words."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

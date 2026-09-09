@@ -1,0 +1,29 @@
+{
+	"id": "K01309",
+	"slug": "כשכר",
+	"headword": {
+		"text": "כַּשְׁכָּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּשְׁכָּר"
+		}
+	],
+	"page": {
+		"number": 676,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Cashkar, Cascara</i> (v. P. Sm. 1843) in Babylonia. ",
+			"units": [
+				"<cite ref=\"Yoma 10a:4\">Yoma 10ᵃ</cite> <he>אכד זה כ׳</he> Ms. M. 2 a. Ms. L. (ed. <cite ref=\"B00002\"><he>ב׳</he></cite>; v. Rabb. D. S. a. l. note 10) Accad is C. ",
+				"<cite ref=\"Shabbat 139a:15\">Sabb. 139ᵃ</cite> <cite ref=\"B01316\"><he>בני ב׳</he></cite>. ",
+				"<cite ref=\"Gittin 80b\">Gitt. 80ᵇ</cite> <he>אסטנדרא דב׳</he>, v. <cite ref=\"A02386\"><he>אִסְטַנְדְּרָא</he></cite>. [V. Schr. KAT<sup>2</sup>, p. 346<sup>5</sup> Arku, Nipur, Kiš.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "U00971",
+	"slug": "שינדפין",
+	"headword": {
+		"text": "שִׁינְדְּפִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁנְ׳"
+		}
+	],
+	"page": {
+		"number": 1564,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>שן דפיל</he>) <i>ivory</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 50:1\">Targ. Y. I Gen. L, 1</cite>, <cite ref=\"Targum Jerusalem, Genesis 50:1\">Targ. Y. II, Gen. L, 1</cite> (not <he>שִׁינְדָּ׳</he>)."
+			]
+		}
+	]
+}

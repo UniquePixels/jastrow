@@ -1,0 +1,28 @@
+{
+	"id": "M00649",
+	"slug": "מוריין",
+	"headword": {
+		"text": "מוֹרְיָין"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹרְיָינָא"
+		}
+	],
+	"page": {
+		"number": 750,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00629\"><he>יְרִי</he></cite>) <i>teacher, scholar</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 23a:16\">Keth. 23ᵃ</cite> <he>בנן דמ׳ אינון</he> they are the daughters of a scholar. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 8:1:9\">Y. Sabb. VIII, 11ᵇ</cite> top <he>מ׳ דנשיא</he> (not <he>דנש׳</he>) the teacher of the Nasi (R. Judah); <cite ref=\"Jerusalem Talmud Shekalim 3:2:9\">Y. Shek. III, 47ᶜ</cite>; ib. VIII, beg. 51ᵃ <he>מוֹרְיָינֵיה דנשייא</he>."
+			]
+		}
+	]
+}

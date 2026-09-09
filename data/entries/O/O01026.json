@@ -1,0 +1,124 @@
+{
+	"id": "O01026",
+	"slug": "סלק-2",
+	"headword": {
+		"text": "סְלֵק"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְלֵיק"
+		}
+	],
+	"page": {
+		"number": 997,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", ch. <cite ref=\"O01025\">same</cite>, (corresp. to h. <cite ref=\"P00772\"><he>עָלָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to rise, go up; to go away</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 19:28\">Targ. Gen. XIX, 28</cite> (Y. ed. Amst. <cite ref=\"O01026\"><he>סַלִּיק</he></cite>). Ib. XXXII, 27 (Y. ed. Amst. <cite ref=\"O01026\"><he>סַלִּיק</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 13:18\">Targ. Ex. XIII, 18</cite>; a. fr.—",
+				"<cite ref=\"Beitzah 38a:9\">Bets. 38ᵃ</cite>, a. fr. <he>כי ס׳ ר׳ וכ׳</he> when R. A. went up (from Babylonia to Palestine); <cite ref=\"Beitzah 38a:9\">ib.</cite> <he>כי ס׳ להתם</he> Ms. M. when he arrived there; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to occur</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 21a:11\">Taan. 21ᵃ</cite> <he>כל מילתא דהוה סַלְקָא ליה הוה אמר וכ׳</he> (Ms. M. <he>כל דהוה ס׳ ביה</he>) whatever happened to him, he said, this, too, is for good; <cite ref=\"Sanhedrin 108b:22\">Snh. 108ᵇ</cite> bot.; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (interch. with <i>Pa.</i>) <i>to stop, hush, keep silence</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 3:19\">Targ. Jud. III, 19</cite>; <cite ref=\"Targum Jonathan on Amos 6:10\">Targ. Am. VI, 10</cite>; <cite ref=\"Targum Jonathan on Amos 8:3\">VIII, 3</cite> (h. text <he>הס</he>)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to turn out, result</i>, (with <cite ref=\"A01838\"><he>אליבא</he></cite>) <i>to agree with</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 11:11\">Targ. I Chr. XI, 11</cite>.—",
+				"<cite ref=\"Bava Kamma 92a:23\">B. Kam. 92ᵃ</cite> bot. <he>לא הוה סלקא ליה שמעתא וכ׳</he> Ms. H. (ed. <he>סליק</he>, v. Rabb. D. S. a. l. note 30) whatever tradition he reported turned out not to be in agreement with the <i>halakha</i>"
+			],
+			"label": "4"
+		},
+		{
+			"gloss": " with <he>על ליבא</he>, <cite ref=\"D00951\"><he>דעתא</he></cite> &c. (= h. <he>עלה על לב</he>) <i>to occur to the mind; to desire; to entertain an opinion</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 7:11\">Targ. II Chr. VII, 11</cite>.—In Talm. <he>סלקא דעתא</he> = <he>סלק אד׳</he>, v. <cite ref=\"D00951\"><he>דַּעְתָּא</he></cite>.—",
+				"<cite ref=\"Chullin 64b:4\">Ḥull. 64ᵇ</cite>, a. fr. <he>לא ס״ד</he> that cannot rise in your mind, no idea of it."
+			],
+			"label": "5"
+		},
+		{
+			"gloss": " (cmp. <he>עלתה ארוכה העלה ארוכה</he>, v. <cite ref=\"A03029\"><he>אֲרוּכָה</he> II</cite>) <i>to grow, heal up</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 134b:8\">Sabb. 134ᵇ</cite>, a. e., v. <cite ref=\"E00362\"><he>הַיָיא</he></cite>."
+			],
+			"label": "6"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַלֵּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to remove</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 45:9\">Targ. Ez. XLV, 9</cite> (not <he>סְלִי׳</he>). ",
+						"<cite ref=\"Aramaic Targum to Job 34:29\">Targ. Job XXXIV, 29</cite> (not <he>ויסלף</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 102:25\">Targ. Ps. CII, 25</cite>; a. fr.—",
+						"<cite ref=\"Niddah 51b:43\">Nidd. 51ᵇ</cite> <he>בתר דסַלִּיקוּ וכ׳</he> after they have taken off their phylacteries. ",
+						"<cite ref=\"Gittin 52b:6\">Gitt. 52ᵇ</cite> <he>ואֵיסַלְּקִינֵיה</he> and I shall remove him (from office). ",
+						"<cite ref=\"Gittin 52b:6\">Ib.</cite> <he>מְסַלְּקִינָן ליה</he> we (the court) must discharge him; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (with or without <he>בזוזא</he>) <i>to dismiss with payment; to settle, satisfy</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 68a:3\">B. Mets. 68ᵃ</cite> <he>מצי מְסַלֵּק ליה</he> he has a right to settle with him (satisfy the mortgage). ",
+						"<cite ref=\"Bava Metzia 67a\">Ib. 67ᵃ</cite>, v. <cite ref=\"M02910\"><he>מַשְׁכַּנְתָּא</he></cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִסְתַּלֵּיק"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִסְתְּלֵיק", "אִיסְּלֵיק"],
+			"senses": [
+				{
+					"gloss": "<i>to remove one’s self, rise, go away; to be removed, taken away; to die</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 12:8\">Targ. Gen. XII, 8</cite>. ",
+						"<cite ref=\"Targum of I Chronicles 5:1\">Targ. I Chr. V, 1</cite> (ed. Lag. a. oth. <he>אשתקלת</he>); a. fr.—",
+						"<cite ref=\"Targum Jonathan on Exodus 12:43\">Targ. Y. Ex. XII, 43</cite> <he>דא׳</he> who deserted the Jewish faith (O. ed. Berl. <he>דאשתמד</he>; oth. ed. <he>דאסתלק</he>; h. text <he>בן נכר</he>).—",
+						"<cite ref=\"Ketubot 106a:2\">Keth. 106ᵃ</cite> <he>כיון דעבד הכי א׳</he> after he had done this, he (Elijah) stayed away (ceased to appear to him); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be accounted</i>. ",
+					"units": [
+						"<cite ref=\"Rosh Hashanah 27a:4\">R. Hash. 27ᵃ</cite> <he>תִּיסְּלֵק לה בתרתי</he> let it be accounted as two notes.—[<cite ref=\"Berakhot 56b\">Ber. 56ᵇ</cite> <he>אסתליק</he> Ms. M., v. <cite ref=\"R00549\"><he>צְלַק</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "U00920",
+	"slug": "שיכון",
+	"headword": {
+		"text": "שִׁיכּוּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁכּ׳"
+		}
+	],
+	"page": {
+		"number": 1562,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01173\"><he>שָׁכַן</he></cite>; v. Del. Assyr. Handw. s. v. <he>שכן</he>) <i>establishment, realization, execution; use of the phrase</i> <he>כן עשה</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 31\">Gen. R. s. 31</cite>, end (ref. to <cite ref=\"Genesis 6:22\">Gen. VI, 22</cite>) <he>זה ש׳ לעשיית התיבה</he> this refers to the carrying out of the command to make the ark; <cite ref=\"Genesis 6:22\">ib.</cite> s. 32 (ref. to ib. VII, 5 <he>ויעש … ככל וכ׳</he>) <he>זה ש׳ לכינוס בהמה</he> this refers to the execution of the command to bring in the beasts; Yalk. ib. 55; 56 <he>שכיון</he> (corr. acc.). ",
+				"<cite ref=\"Bereishit Rabbah 34\">Gen. R. s. 34</cite> (ref. to <cite ref=\"Genesis 8:20\">Gen. VIII, 20</cite> a. ",
+				"<cite ref=\"Genesis 9:1\">IX, 1</cite>) <he>זה ש׳ לזכות הקרבנות</he> (not <he>שיכן בזכות</he>) this is an establishment (standard passage, cmp. <he>בנין אב</he>, s. v. <cite ref=\"A00017\"><he>אָב</he></cite>) of the reward of sacrifices."
+			]
+		}
+	]
+}

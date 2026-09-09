@@ -1,0 +1,58 @@
+{
+	"id": "N00185",
+	"slug": "נגר-2",
+	"headword": {
+		"text": "נְגַר"
+	},
+	"page": {
+		"number": 876,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00184\">same</cite><i>to scrape, plane, saw</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 10:16\">Targ. Is. X, 16</cite> (ed. Lag. <he>נגד׳</he>; corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " interch. with <cite ref=\"A01369\"><he>נגד</he></cite>) <i>to be prolonged, continue</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 28:16\">Targ. Prov. XXVIII, 16</cite> <he>נִיגְּרוּן יומוי</he> (ed. Wil. <he>נגד׳</he>); <cite ref=\"Aramaic Targum to Proverbs 28:2\">ib. 2</cite> <he>ניגרון</he> (ed. Wil. <he>נגדון</he>; h. text <he>יאריך</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to run along, flow</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 40:23\">Targ. Job XL, 23</cite> (ed. Lag. a. oth. <cite ref=\"N00152\"><he>נגיד</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 16:21\">Targ. Y. Ex. XVI, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 8:6\">Targ. Is. VIII, 6</cite> Ar. (ed. <he>נגד׳</he>); a. e.; v. <cite ref=\"N00118\"><he>נְגַד</he></cite>."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַגֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to saw</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 10:15\">Targ. Is. X, 15</cite> <he>נַגָּרִית</he> ed. Wil. (v. supra)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"N00190\"><he>נַגְרָא</he></cite>) <i>to bolt</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jonah 2:7\">Targ. Jon. II, 7</cite> <he>נַגְּרַת</he> (Bxt. <he>נַגֶּרֶת</he>; ed. Lag. a. oth. <he>נגדת</he> corr. acc.; h. text <he>בְּרִחֶהָ</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

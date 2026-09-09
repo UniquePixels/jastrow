@@ -1,0 +1,32 @@
+{
+	"id": "S01390",
+	"slug": "קלע-1",
+	"headword": {
+		"text": "קָלַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1380,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to swing</i>,] <i>to cast, sling</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִילֵּעַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S01389\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Shabbat 152b:7\">Sabb. 152ᵇ</cite> <he>ומְקַלְּעִין נִשְׁמָתָן זה לזה</he> and they (the angels) cast their (the sinners’) souls to one another (like washers) (with ref. to <cite ref=\"I Samuel 25:29\">I Sam. XXV, 29</cite>, v. <cite ref=\"G00182\"><he>זוּם</he></cite>); <cite ref=\"Yalkut Shimoni on Nach 134\">Yalk. Sam. 134</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

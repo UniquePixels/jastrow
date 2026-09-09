@@ -1,0 +1,34 @@
+{
+	"id": "U00709",
+	"slug": "שחר-6",
+	"headword": {
+		"text": "שְׁחַר",
+		"disambiguator": 3
+	},
+	"page": {
+		"number": 1551,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00708\">same</cite>.",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 47:5\">Ex. R. s. 47</cite> <he>למדו תורה דשְׁחִירִין ודקרין בלילה</he> (ed. Wil. <he>דשַׁחְרִין</he>, some ed. <he>דשִׁיחֲרִין</he>) learn the Law from those who get up early (to study), and who read (teach) by night, opp. <cite ref=\"A01337\"><he>אִימְּטִין</he></cite> q. v."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁחֵר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00708\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 29:20\">Targ. Is. XXIX, 20</cite> (h. text <cite ref=\"U01829\"><he>שקד</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

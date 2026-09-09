@@ -1,0 +1,34 @@
+{
+	"id": "Q00031",
+	"slug": "פאתא-1",
+	"headword": {
+		"text": "פָּאתָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּתָא"
+		}
+	],
+	"page": {
+		"number": 1132,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"Q00006\"><he>פֵּאָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 19:9\">Targ. O. Lev. XIX, 9</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 19:27\">Ib. 27</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 23:22\">Ib. XXIII, 22</cite> (ed. Berl. <he>פתא</he>). Ib. XXI, 5 (ed. Berl. <he>פתא</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 3:16\">Targ. Is. III, 16</cite> <he>בפָתְהֶן מקפן</he> they cut their locks (v. infra). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 3:24\">Ib. 24</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 9:25\">Targ. Jer. IX, 25</cite>; <cite ref=\"Targum Jonathan on Jeremiah 25:23\">XXV, 23</cite>.—Pl. <cite ref=\"Q00170\"><he>פָּוָותָא</he></cite>, <cite ref=\"Q00411\"><he>פָּוָתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 3:16\">Targ. Is. III, 16</cite> <he>בפָוָתְהֶין</he> ed. Ven. I (v. supra)."
+			]
+		}
+	]
+}

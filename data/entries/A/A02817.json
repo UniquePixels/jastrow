@@ -1,0 +1,29 @@
+{
+	"id": "A02817",
+	"slug": "אפריון",
+	"headword": {
+		"text": "אַפִּרְיוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַפִּירְיוֹן"
+		}
+	],
+	"page": {
+		"number": 108,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>אַפִּרְ׳</he>; = <he>על פריון</he>, <cite ref=\"Q00328\"><he>פּוּר</he></cite>, <cite ref=\"Q02017\"><he>פָּרַר</he></cite>; cmp. <cite ref=\"A02702\"><he>אפיפיירות</he></cite>, <cite ref=\"Q00785\"><he>פיפיורא</he></cite>, <cite ref=\"Q00328\"><he>פּוּר</he></cite>ְיָא &c.) [<i>on a frame</i>,] <i>frame and hangings of a palanquin, litter of parade</i>, esp. for a bride in the wedding procession. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 9:14\">Sot. IX, 14</cite> (<cite ref=\"Sotah 49a\">49ᵃ</cite>); Tosef. ib. XV, 9.—",
+				"<cite ref=\"Sotah 12a:13\">Sot. 12ᵃ</cite> <he>הושיבה בא׳</he> (<cite ref=\"Pesikta Rabbati 43:1\">Pesik. R. s. 43</cite> <he>בפוריא</he>), a. e. he placed her in the litter, arranged a wedding procession for her. ",
+				"<cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20</cite>, end, <he>לישב בא׳</he> to take her seat in the litter (for the wedding procession); a. e."
+			]
+		}
+	]
+}

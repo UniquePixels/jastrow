@@ -1,0 +1,29 @@
+{
+	"id": "U00543",
+	"slug": "שורבינא",
+	"headword": {
+		"text": "שׁוּרְבִּינָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוּרְבָּנָא"
+		}
+	],
+	"page": {
+		"number": 1542,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Shaf. of <cite ref=\"T00084\"><he>רְבֵי</he> I</cite>) a species of <i>cedar</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 23a:6\">R. Hash. 23ᵃ</cite> (expl. <he>תאשור</he>, <cite ref=\"Isaiah 41:19\">Is. XLI, 19</cite>) Ms. M. (ed. <cite ref=\"U00546\"><he>שוריבנא</he></cite>, corr. acc.; v. Rabb. D. S. a. l. note); <cite ref=\"Bava Batra 80b:17\">B. Bath. 80ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Nach 314\">Yalk. Is. 314</cite>.—Pl. <cite ref=\"U00543\"><he>שׁוּרְבָּנֵי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:17\">Targ. Cant. I, 17</cite> (not <he>ניה …</he>). ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 3:9\">Ib. III, 9</cite>."
+			]
+		}
+	]
+}

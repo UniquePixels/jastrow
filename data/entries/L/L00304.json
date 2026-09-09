@@ -1,0 +1,23 @@
+{
+	"id": "L00304",
+	"slug": "לופי",
+	"headword": {
+		"text": "לוֹפֵי"
+	},
+	"page": {
+		"number": 700,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"L00647\"><he>לְפַף</he></cite>), <he>בית ל׳</he> <i>place of coupling, border</i> (= b. h. <cite ref=\"M00957\"><he>מַחְבֶּרֶת</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 26:4\">Targ. O. Ex. XXVI, 4</cite> (Y. <cite ref=\"L00509\"><he>ליפופא</he></cite>); Y. a. O. ib. XXXVI, 11, sq.; a. e."
+			]
+		}
+	]
+}

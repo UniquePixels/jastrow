@@ -1,0 +1,96 @@
+{
+	"id": "P01243",
+	"slug": "ערב-2",
+	"headword": {
+		"text": "עֲרַב"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲרֵיב"
+		}
+	],
+	"page": {
+		"number": 1110,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P01242\">same</cite><i>to vouch for, be surety for</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 6:1\">Targ. Prov. VI, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 17:3\">Targ. Job XVII, 3</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Demai 1:3:8\">Y. Dem. I, 22ᵃ</cite> top <he>אמרו ליה עוֹרְבָן ועַרְבוֹן וכ׳</he> they said to him, pledge thyself to us (that the mice will not attack our produces, if we separate the tithes properly, v. <cite ref=\"P01242\">preced.</cite>), and he did pledge himself to them, and they suffered no longer (v. <cite ref=\"N00819\"><he>נְכֵי</he></cite>). Y. Kil. IX, 32ᶜ bot <he>ריגלוי … עַרְבוּנֵיה למיקמתיה וכ׳</he> (not <he>ערבתיה</he>) man’s feet are pledged to place him where he is wanted (to die); <cite ref=\"Sukkah 53a:4\">Succ. 53ᵃ</cite> <he>רגלוהי … אינון עַרְבִין ביה וכ׳</he>. ",
+				"<cite ref=\"Bekhorot 48b:10\">Bekh. 48ᵇ</cite> <he>מכדי נכסוהי … ערבין ביה</he> is a man’s property pledged for his personal debts (that you can seize it, even if it is sold)?; <cite ref=\"Bava Batra 174a:3\">B. Bath. 174ᵃ</cite> <he>ניכסי</he> … <he>ערבין ביה</he> Ms. M. (ed. <he>מערבין יתיה</he>) a man’s property is pledged for him (you can attach it without previous summons); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to mix</i>, v. infra, a. <cite ref=\"P01347\"><he>עָרִיב</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to combine</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 65b:10\">B. Kam. 65ᵇ</cite> <he>עַרְבֵיה</he>, v. <cite ref=\"Q01351\"><he>פְּסַק</he></cite> <i>Af</i>"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עָרֵיב"],
+			"senses": [
+				{
+					"gloss": "<i>to mix; to mix up, confound</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 30:40\">Targ. O. Gen. XXX, 40</cite> (Bxt. <cite ref=\"P00893\"><he>עֲ׳</he></cite> <i>Pe.</i>; Y. <cite ref=\"P01261\"><he>עַרְבֵּיב׳</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 7:23\">Targ. Y. I Deut. VII, 23</cite> (ed. Vien. <he>וִיעַרְבִּ׳</he> <i>Pe.</i>; Y. II <he>ויערבב׳</he>); a. e.—",
+						"<cite ref=\"Chullin 6a:18\">Ḥull. 6ᵃ</cite> <he>כמאן דע׳ בידים דמי</he> it is as if he had mixed it (added leaven and spices) with his own hands. ",
+						"<cite ref=\"Avodah Zarah 39b:15\">Ab. Zar. 39ᵇ</cite> <he>דילמא מייתי ומְעָרֵב ביה</he> lest he bring (unclean milk) and mix it with the clean milk; a. e.—Part. pass. <cite ref=\"M02167\"><he>מְעָרַב</he></cite>, <cite ref=\"M02167\"><he>מְעַרַב</he></cite>; pl. <he>מְעַרְבִין</he>, <cite ref=\"M02171\"><he>מְעַרְבֵי</he></cite>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 16:18\">Targ. Y. Lev. XVI, 18</cite> (not <he>מְעַרְבּ׳</he>, <cite ref=\"M00020\"><he>מֵ׳</he></cite>). ",
+						"<cite ref=\"Onkelos Exodus 30:35\">Targ. Ex. XXX, 35</cite> (ed. Vien. <cite ref=\"M02167\"><he>מַעֲרַב</he></cite> <i>Af.</i>) <i>well-mixed, seasoned</i> (h. text <he>מְמֻלָּח</he>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 1:22\">Targ. Is. I, 22</cite> (ed. Wil. <cite ref=\"M02167\"><he>מַעֲרָב</he></cite> <i>Af.</i>); a. e.—",
+						"<cite ref=\"Shabbat 85b:2\">Sabb. 85ᵇ</cite> <he>והא קא מערבי להדי הדדי</he> Ms. M. (ed. <he>מִיתְעָרְבֵי בהדדי</he>, <i>Ithpa.</i>) but will not the leaves of the seeds grow into each other?"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lay an ʿErub</i> (v. <cite ref=\"P01242\">preced.</cite> Pi. 2). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 16:5\">Targ. Y. Ex. XVI, 5</cite> <he>וִיעָ׳</he> (ed. Vien. <he>ויעַ׳</he>, corr. acc.).—Y. Bets. I, 61ᵇ top <he>אנשינן מְעָרְבָה</he> we forgot to make ʿErub Tabshilin (v. <cite ref=\"P00680\"><he>עֵירוּב</he></cite>); a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to vouch, be surety</i>. Part. pass. as ab. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 44:32\">Targ. O. Gen. XLIV, 32</cite> <cite ref=\"M02167\"><he>מְעָרַב</he></cite> (not <cite ref=\"M02167\"><he>מְעָרֵב</he></cite>)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְעָרֵב"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיעֲרֵיב"],
+			"senses": [
+				{
+					"gloss": "<i>to be mixed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Joshua 23:7\">Targ. Josh. XXIII, 7</cite>. ",
+						"<cite ref=\"Targum Jerusalem, Deuteronomy 7:3\">Targ. Y. II, Deut. VII, 3</cite> (h. text <he>תתחתן</he>); a. e.—Sabb. l. c., v. supra.—Ab. Zar. l. c. <he>אי משום אִיעֲרוּבֵי</he> shall we apprehend an admixture (of wine in the honey)? <cite ref=\"Zevachim 76a:10\">Zeb. 76ᵃ</cite> <he>סוף סוף איערובי מִיעֲרַב</he> at the end it is mixed up. ",
+						"<cite ref=\"Zevachim 76a:6\">Ib.</cite> <he>דאיע׳</he> when it became mixed; <cite ref=\"Zevachim 75b\">ib. 75ᵇ</cite> <he>דאִיעֲרוּב</he> Ms. M. (ed. <he>דאיעבד</he>) when things have become mixed; a. e.—[Ab. Zar. l. c. <he>ולא מיערב</he>, read <cite ref=\"M02167\"><he>מְעָרֵב</he></cite>.]"
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

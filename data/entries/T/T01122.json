@@ -1,0 +1,69 @@
+{
+	"id": "T01122",
+	"slug": "רתח-1",
+	"headword": {
+		"text": "רָתַח"
+	},
+	"page": {
+		"number": 1502,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>רתע</he>)<i>to bubble, boil, be hot</i>.—Part. <cite ref=\"T00455\"><he>רוֹתֵחַ</he></cite>; f. <he>רוֹתַחַת</he>; pl. <he>רוֹתְחִים</he>, <he>רוֹתְחִין</he>; <he>רוֹתְחוֹת</he>. [Tradit. pronunc. <cite ref=\"T00455\"><he>רוּתָח</he></cite> adj.] <cite ref=\"Jerusalem Talmud Sotah 9:10:3\">Y. Sot. IX, 24ᵃ</cite> <he>חלב ר׳</he> milk fresh from the goat. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 7:1:3\">Y. Pes. VII, beg. 34ᵃ</cite> <he>והרי הוא ר׳ ומרתיח</he> but is not the iron spit hot and does is not impart heat (to the lamb on it)? Bab. ",
+				"<cite ref=\"Pesachim 76a:3\">Pes. 76ᵃ</cite> <he>סולת ר׳</he> heated flour. ",
+				"<cite ref=\"Pesachim 94b:1\">Ib. 94ᵇ</cite> <he>כל העולם כולו ר׳ וכ׳</he> (in the summer) the whole world is hot, and the springs are cold; <he>כל … מעיינות ר׳</he> (in the winter) the whole world is cold, and the springs are hot; a. fr.—Esp. <he>רוֹתְחִין</he> <i>hot water</i>. ",
+				"<cite ref=\"Sanhedrin 108b:3\">Snh. 108ᵇ</cite>; <cite ref=\"Rosh Hashanah 12a:4\">R. Hash. 12ᵃ</cite>, v. <cite ref=\"S01415\"><he>קִלְקֵל</he></cite>. Y. Ber. II, 5ᵇ bot., v. <cite ref=\"K00204\"><he>כָּוָה</he></cite>. ",
+				"<cite ref=\"Devarim Rabbah 3:15\">Deut. R. s. 3</cite> <he>כשתראה אותי נותן ר׳ וכ׳</he> when thou seest me put hot water (to the wine), put thou cold water in &c., i.e. when I am angry, appease thou me &c.; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְתִּיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause bubbling, foaming</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 61b:4\">B. Mets. 61ᵇ</cite> <he>ובמשורה שלא יַרְתִּיחַ</he> ‘and in liquid measure’ (<cite ref=\"Leviticus 19:35\">Lev. XIX, 35</cite>) one is warned that one must not make the liquid foam; <cite ref=\"Bava Batra 89b\">B. Bath. 89ᵇ</cite>; <cite ref=\"Tosefta Bava Batra 5:5\">Tosef. ib. V, 5</cite> <he>אין … לא להַרְתִּיחַ … ולא להקפיצה</he> (Var. <he>להרתיע</he>) the storekeeper is not permitted to make the liquid bubble in the measure, or to make it bound."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to heat</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Yoma 1:20\">Tosef. Yoma I, 20</cite> <he>עששיות … היו מַרְתִּיחִין וכ׳</he> they heated &c.; (<cite ref=\"Yoma 34b:4\">Yoma 34ᵇ</cite> <he>מחמין</he>); v. <cite ref=\"P01515\"><he>עֲשָׁשִׁית</he></cite>. Y. B. Bath. II, beg. 13ᵇ <he>הסלעים מרתיחין</he> the rocks give out heat; Y. Sabb. IV, 6ᵇ bot. ",
+						"<cite ref=\"Shir HaShirim Rabbah 2:17:1\">Cant. R. to II, 17</cite> <he>עד שאַרְתִּיחַ היום</he> until I shall make the day hot (for Israel’s enemies); a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to grow hot</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Pesachim 5:8\">Tosef. Pes. V, 8</cite> <he>אינו מַרְתִּיחַ</he> does not get hot, v. <cite ref=\"U02003\"><he>שָׂרַף</he> I</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 67:5\">Gen. R. s. 67</cite> <he>התחילו … מרתיחים</he> (not <he>מרתיתים</he>) the walls of the house began to be hot; <cite ref=\"Yalkut Shimoni on Torah 115:1\">Yalk. ib. 115</cite>. ",
+						"<cite ref=\"Esther Rabbah 1:1\">Esth. R. to I, 1</cite> (playon <he>אר̇ת̇ח̇ש̇ש̇ת̇א</he>) <he>שהיה מר̇ת̇יח̇ ות̇ש̇</he> he used to be hot (angry), and weaken (relent) again. ",
+						"<cite ref=\"Shir HaShirim Rabbah 4:5\">Cant. R. to IV, 5</cite> two families <he>אחת מיקרת ואחת מַרְתַּחַת</he> one of which was cold-blooded, and the other hot-blooded; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["רִיתֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to heat, boil</i>. [<cite ref=\"Yalkut Shimoni on Torah 27:3\">Yalk. Gen. 27</cite> <he>רי׳ עליו</he>, v. <cite ref=\"T01117\"><he>רָתָה</he></cite>]—Part. pass. <he>מְרוּתָּח</he>, pl. <he>מְרוּתָּחִין</he>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 14\">Lev. R. s. 14</cite> <he>מיעיה של אשה מר׳ וכ׳</he> the inner parts of woman are hot &c. ",
+						"<cite ref=\"Mishnah Shabbat 3:5\">Sabb. III, 5</cite>; <cite ref=\"Pesachim 40b:8\">Pes. 40ᵇ</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

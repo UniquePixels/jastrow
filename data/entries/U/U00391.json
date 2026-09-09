@@ -1,0 +1,129 @@
+{
+	"id": "U00391",
+	"slug": "שוי-1",
+	"headword": {
+		"text": "שוי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁוָה"
+		}
+	],
+	"page": {
+		"number": 1532,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to join, combine</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be even, equal, alike</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 9b\">M. Kat. 9ᵇ</cite> (ref. to <cite ref=\"Proverbs 3:15\">Prov. III, 15</cite>) <he>כל חפצך … הא חפצי שמים יִשְׁווּ בה</he> all thy affairs are not of equal value with her (the Torah), but heaven’s affairs (pious deeds) are of equal value with her (you may interrupt study for pious works); <he>וכתיב … חפצי שמים לא ישוו בה</he> but it is also written (ib. VIII, 11), ‘and all affairs &c.’ (which implies that) even heaven’s affairs are not equal to her! <cite ref=\"Jerusalem Talmud Peah 1:1:36\">Y. Peah I, 15ᵈ</cite> bot. <he>חפציך וחפצי לא ישוו בה</he> I sent thee something with which thy affairs and my affairs cannot compare; a. e.—Denom. <cite ref=\"U00338\"><he>שָׁוֶה</he></cite>, q. v."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"U00338\"><he>שָׁוֶה</he></cite>) ",
+			"units": [],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " <i>to be of value</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 15b:2\">Meg. 15ᵇ</cite> (ref. to <cite ref=\"Esther 5:13\">Esth. V, 13</cite>) <he>מלמד … כל זה איננו שֹׁוֶה לי</he> this indicates that all that wicked man’s treasures were engraven (registered) in the tablet on his heart, but when he saw Mordecai, he said, ‘all this is of no value to me’.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>to value, weigh, consider</i>. Ib. 16ᵃ (ref. to <cite ref=\"Esther 7:4\">Esth. VII, 4</cite>) <he>צר זה אינו שוה בנזק וכ׳</he> this enemy has no consideration for the king’s loss &c.",
+					"units": [],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁוָה"],
+			"senses": [
+				{
+					"gloss": "<i>to place side by side</i>. Y. Ber. I, 2ᶜ top <he>זה … צריך להַשְׁווֹת את רגליו</he> he that stands up to pray must set his feet together.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make even, smooth, level</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Kamma 11:14\">Tosef. B. Kam. XI, 14</cite> <he>אם עתיד להַשְׁווֹתוֹ וכ׳</he> if the hatcheller has to make the web even (cut away the protruding threads), he may take even a handbreadth (they belong to him); <he>מַשְׁוֵיהוּ לאורכו וכ׳</he> he must shear it lengthwise, but not widthwise; <cite ref=\"Bava Kamma 119b\">B. Kam. 119ᵇ</cite>. ",
+						"<cite ref=\"Eruvin 93a\">Erub. 93ᵃ</cite> <he>ה׳ פצימיה</he> if he made the posts even, i.e. made walls to connect them in one line. ",
+						"<cite ref=\"Sukkah 19a:3\">Succ. 19ᵃ</cite> <he>כשה׳ את קירויו</he> when he made its ceiling even, i.e. extended it in a horizontal direction over the whole building; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to compare, make alike, place on a level standard</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Batra 8:5\">B. Bath. VIII, 5</cite> <he>וה׳ להן את חבכור</he> and made the first-born alike with them, i.e. assigned to him an equal share with his brothers. ",
+						"<cite ref=\"Niddah 46b:1\">Nidd. 46ᵇ</cite> <he>ה׳ הכתוב הקטן כגדול וכ׳</he> the Scriptural text places the minor on a level with the adult as regards the laws of &c. Y. Kidd. I, 61ᵇ bot. <he>ה׳ הכתוב מצוה … מצוה וכ׳</he> the Scripture puts the lightest command on a level with the most difficult (as regards reward). ",
+						"<cite ref=\"Bava Kamma 15a\">B. Kam. 15ᵃ</cite>; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to harmonize, find in harmony</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 34\">Gen. R. s. 34</cite> <he>שה׳ דעתו לדעת וכ׳</he> for he found his (Antoninus’) opinion in harmony with the Scriptural intimation; <cite ref=\"Bereishit Rabbah 34:10\">ib.</cite> <he>שהִשְׁוָהּ לדעת וכ׳</he> for he found it in harmony &c. ",
+						"<cite ref=\"Vayikra Rabbah 4\">Lev. R. s. 4</cite>; <cite ref=\"Yalkut Shimoni on Torah 137\">Yalk. Gen. 137</cite> we are the majority <he>עמנו לע״א</he> (<he>עצמיכם</he>) <he>מפני מה אינכם מַשְׁוִים</he> why do you not accommodate yourselves to us with regard to idolatry? <cite ref=\"Yalkut Shimoni on Torah 137:1\">Ib.</cite> <he>ומַשְׁוֶה אתה עמהן</he> and dost thou create harmony among them (thy sons)? <he>עד … להשוות עמך והַשְׁוֵה עם בניך</he> instead of asking me to agree with thee, go and make harmony among thy sons; Lev. R. l. c. <he>עד שאתה משוה אותנו לך והשוה את בניך</he>; a. e."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִשְׁוָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be compared, be equal</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 244:6\">Yalk. Ex. 244</cite> <he>להִשָּׁווֹת</he>, v. <cite ref=\"N00314\"><he>נָוָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["שִׁוָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to place</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 119:5\">Midr. Till. to Ps. CXIX, 9</cite> (ref. to <cite ref=\"Psalms 16:8\">Ps. XVI, 8</cite>, sq.) <he>ובשביל ששִׁוִּיתִי וכ׳</he> and because I placed the Lord before me continually, therefore my heart rejoices &c.; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " [<i>to level obstacles, overcome temptations</i>,] <i>to achieve</i>. Tanḥ. Naso 28 (ref. to <he>מצליח</he>, <cite ref=\"Genesis 39:2\">Gen. XXXIX, 2</cite>) <he>שִׁוִּיתָ מה שלא ש׳ וכ׳</he> thou hast achieved what Adam could not achieve (to resist temptation), v. <cite ref=\"U00398\"><he>שְׁוִיָּה</he></cite>.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִשְׁתַּוֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be made alike; to join</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 16\">Num. R. s. 16<sup>20</sup></cite> <he>שאלו לא נִשְׁתַּוּוּ וכ׳</he> for if they had not joined the spies &c.; Tanḥ. ed. Bub. Sh’laḥ 20; (Tanḥ. ib. 11 <he>שמעו</he>)."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

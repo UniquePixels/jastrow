@@ -1,0 +1,22 @@
+{
+	"id": "M02345",
+	"slug": "מצעד",
+	"headword": {
+		"text": "מִצְעָד"
+	},
+	"page": {
+		"number": 827,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"R00648\"><he>צָעַד</he></cite>) <i>step</i>.—[<cite ref=\"Tosefta Keilim Batra 1:7\">Tosef. Kel. B. Bath. I, 7</cite>, v. <cite ref=\"M02159\"><he>מַעֲצָד</he></cite>.]—Pl. <he>מִצְעָדִים</he>, constr. <he>מִצְעֲדֵי</he>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 550:6\">Yalk. Jon. 550</cite> <he>ומ׳ כל חי אתה בוחן</he> and the steps of every living creature dost thou examine.—[<cite ref=\"Mishnah Arakhin 6:3\">Arakh. VI, 3</cite> (<cite ref=\"Arakhin 23b:47\">23ᵇ</cite>) <he>מצעדין</he>, v. <cite ref=\"M02159\"><he>מַעֲצָד</he></cite>.]"
+			]
+		}
+	]
+}

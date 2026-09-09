@@ -1,0 +1,25 @@
+{
+	"id": "U01505",
+	"slug": "שמנונית",
+	"headword": {
+		"text": "שַׁמְנוּנִית"
+	},
+	"page": {
+		"number": 1598,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01498\"><he>שָׁמֵן</he></cite>) <i>fatty, oily substance</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 1:6:2\">Y. Meg. I, 71ᵃ</cite> <he>כדי להעביר ש׳ וכ׳</he> in order to remove the fat from it (the knife); <cite ref=\"Jerusalem Talmud Beitzah 3:6:6\">Y. Bets. III, end, 62ᵇ</cite> <he>שמינ׳</he> (corr. acc.); Bab. ",
+				"<cite ref=\"Beitzah 28a:14\">Bets. 28ᵃ</cite> <cite ref=\"U01506\"><he>שַׁמְנוּנִיתָהּ</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 2:6:3\">Y. Pes. II, 29ᶜ</cite> <he>בשיש בהן ש׳</he> when there is fat in them. ",
+				"<cite ref=\"Chullin 111a:1\">Ḥull. 111ᵃ</cite> top Rashi, v. <cite ref=\"U01506\">next w.</cite>; a. e."
+			]
+		}
+	]
+}

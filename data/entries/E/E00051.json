@@ -1,0 +1,32 @@
+{
+	"id": "E00051",
+	"slug": "הבראה",
+	"headword": {
+		"text": "הַבְרָאָה"
+	},
+	"page": {
+		"number": 330,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B01191\"><he>בָּרָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>recovery to health</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 137a:27\">Sabb. 137ᵃ</cite> <he>יום הַבְרָאָתוֹ</he> the day on which the child recovers.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>refreshment</i>, esp. <he>סעודת ה׳</he> <i>the meal of comfort given the mourner after funeral</i>, v. <cite ref=\"B01238\"><he>ברי</he> II</cite> Hif. In commentaries and digests.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

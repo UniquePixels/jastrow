@@ -1,0 +1,45 @@
+{
+	"id": "N00182",
+	"slug": "נגף-2",
+	"headword": {
+		"text": "נְגַף"
+	},
+	"page": {
+		"number": 875,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N00181\">same</cite> <cite ref=\"Aramaic Targum to Psalms 89:24\">Targ. Ps. LXXXIX, 24</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 21:35\">Targ. Ex. XXI, 35</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַגֵּף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00181\">same</cite>. <i>Part. pass.</i> <he>מְנַגַּף</he> <i>bruised, wounded</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 53a:25\">Yoma 53ᵃ</cite> <he>עד דמְנַגְּפַן כרעיה וכ׳</he> (some ed. <he>דמִינַּגְּפַן</he> <i>Ithpa.</i>; Ms. M. a. Ar. <he>דהוה מנקפן</he>, v. Rabb. D. S. a. l. note) until his feet were bruised (bleeding) &c."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְנַגַּף", "אִינַּגַּף"],
+			"senses": [
+				{
+					"gloss": "<i>to strike against, be bruised</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 13:16\">Targ. Jer. XIII, 16</cite>.—Yoma l. c., v. supra."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

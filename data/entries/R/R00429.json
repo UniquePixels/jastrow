@@ -1,0 +1,31 @@
+{
+	"id": "R00429",
+	"slug": "ציפתא",
+	"headword": {
+		"text": "צִיפְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִפְ׳"
+		}
+	],
+	"page": {
+		"number": 1279,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"R00402\"><he>צִיפָּא</he> II</cite>, <i>matting, mat</i>.—[<cite ref=\"Targum Jerusalem, Deuteronomy 32:9\">Targ. Y. II, Deut. XXXII, 9</cite> <he>בצ׳</he> ed. Vien., read: <he>בפִיצְּתָא</he>.]—",
+			"units": [
+				"<cite ref=\"Shabbat 140b:3-13\">Sabb. 140ᵇ</cite> <he>בר … אצ׳ חדתא וכ׳</he> a student at the school house should not sit down on new matting, because it ruins the garments. ",
+				"<cite ref=\"Nedarim 50a:1\">Ned. 50ᵃ</cite> top <he>דלי לצ׳ וכ׳</he> he lifted up the mat (on which he had been sitting), and said &c. ",
+				"<cite ref=\"Kiddushin 12b:11\">Kidd. 12ᵇ</cite> <he>צ׳ דאסא</he> a braid of myrtle twigs (worth less than a P’ruṭah). ",
+				"<cite ref=\"Gittin 68a:3\">Gitt. 68ᵃ</cite> <he>שדו ליה צ׳ עילויה</he> Rashi (ed. <cite ref=\"R00422\"><he>ציפיתא</he></cite>) they threw a mat over it (the pit). ",
+				"<cite ref=\"Gittin 68a:3\">Ib.</cite> <he>צ׳ דשדיא</he> I see a map that is thrown down."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "Q00795",
+	"slug": "פיצתא",
+	"headword": {
+		"text": "פִּיצְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּצְּתָּא"
+		}
+	],
+	"page": {
+		"number": 1169,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01445\"><he>פְּצַץ</he></cite> or <cite ref=\"Q00311\"><he>פוץ</he></cite> <i>to split, break</i>; cmp. <cite ref=\"Q00743\"><he>פִּיסָא</he></cite>) <i>arbitration, lot, share</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:8\">Targ. Y. Deut. XXXII, 8</cite>, sq. (not <cite ref=\"R00429\"><he>ציפתא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 4:34\">Ib. IV, 34</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 18:18\">Targ. Prov. XVIII, 18</cite> (ed. Wil. <cite ref=\"Q01447\"><he>פִּצְתָּא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 125:3\">Targ. Ps. CXXV, 3</cite>; a. fr."
+			]
+		}
+	]
+}

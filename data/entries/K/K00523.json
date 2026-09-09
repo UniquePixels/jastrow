@@ -1,0 +1,29 @@
+{
+	"id": "K00523",
+	"slug": "כיילא",
+	"headword": {
+		"text": "כַּיְילָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּיְלָא"
+		}
+	],
+	"page": {
+		"number": 631,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00522\">preced.</cite>) <i>measure</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 40a\">B. Mets. 40ᵃ</cite> (Ms. H. <he>בכילתא</he>, v. Rabb. D. S. a. l. note 6). ",
+				"<cite ref=\"Beitzah 38b:4\">Bets. 38ᵇ</cite> <he>כיי׳ חסריה</he> Ms. M. (ed. <cite ref=\"K00876\"><he>כי׳</he></cite>) he lessened the measure (quantity) of his wheat by taking out the pebbles. ",
+				"<cite ref=\"Beitzah 29a\">Ib. 29ᵃ</cite> <he>מנא דכ׳</he> a vessel used for measuring."
+			]
+		}
+	]
+}

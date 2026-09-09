@@ -1,0 +1,29 @@
+{
+	"id": "O01126",
+	"slug": "סמפורין",
+	"headword": {
+		"text": "סִמְפּוֹרִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִימְ׳"
+		}
+	],
+	"page": {
+		"number": 1003,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>ספר</he>; cmp. <cite ref=\"R00687\"><he>צִפּוֹרֶן</he></cite>) <i>nails</i>, <i>points</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 41:15\">Targ. Is. XLI, 15</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 20:3\">Targ. I Chr. XX, 3</cite> (ed. Rahm. <cite ref=\"O00792\"><he>סִיפּוֹרִין</he></cite>)."
+			]
+		}
+	]
+}

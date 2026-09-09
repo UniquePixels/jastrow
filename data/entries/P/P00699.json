@@ -1,0 +1,22 @@
+{
+	"id": "P00699",
+	"slug": "עיש",
+	"headword": {
+		"text": "עַיִשׁ"
+	},
+	"page": {
+		"number": 1077,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (= b. h.) <i>Ursa Major</i> (?). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 38:32\">Targ. Job XXXVIII, 32</cite> Ms. Var. for <cite ref=\"G00069\"><he>זַגְתָּא</he></cite>, q. v."
+			]
+		}
+	]
+}

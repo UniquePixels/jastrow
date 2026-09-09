@@ -1,0 +1,23 @@
+{
+	"id": "G00142",
+	"slug": "זוויי",
+	"headword": {
+		"text": "זַוְויֵי"
+	},
+	"page": {
+		"number": 385,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"G00138\"><he>זָוָוא</he></cite>) <i>change of</i> (cmp. <he>חלף</he>); prep. <i>instead, in place of</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 3:9:4\">Y. Taan. III, 66ᵈ</cite> bot. <he>ז׳ דהיות וכ׳</he> (v. <cite ref=\"E00231\"><he>הֲוִי</he></cite>) where it (the ground) used to grow vineyards &c.; <cite ref=\"Midrash Tehillim 126\">Midr. Till. to Ps. CXXVI</cite> (corr. acc.)."
+			]
+		}
+	]
+}

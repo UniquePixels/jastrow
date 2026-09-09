@@ -1,0 +1,35 @@
+{
+	"id": "N01042",
+	"slug": "נפיל-2",
+	"headword": {
+		"text": "נָפִיל",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נְפִילָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 924,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. <cite ref=\"N01041\">same</cite><i>giant</i>. ",
+			"units": [
+				"<cite ref=\"Ruth Rabbah 4:3\">Ruth R. to II, 1</cite> <he>נסיב נ׳ לנ׳</he> when a giant marries a giantess."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Orion</i>.—Pl. <cite ref=\"N01041\"><he>נְפִילִין</he></cite>, v. <cite ref=\"N00738\"><he>נִיפְלָא</he> I</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "E00363",
+	"slug": "היידא",
+	"headword": {
+		"text": "הַיְידָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַיְידָּה"
+		}
+	],
+	"page": {
+		"number": 344,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>היי דא</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>this very thing, even this, it is this</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 1:3:24\">Y. Dem. I, 22ᵇ</cite> top <he>ה׳ מחלוקת</he> this very thing is controverted. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:51\">Y. Sabb. VII, 10ᶜ</cite> bot. <he>ה׳ משום נטילת וכ׳</he> this is because it is an act of killing. Y. Taan. V, 67ᵈ top <he>וה׳ אמר</he> and this he said."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"E00341\"><he>הֵי דָא</he></cite>) <i>which? where?</i> <cite ref=\"Jerusalem Talmud Maaser Sheni 5:2:6\">Y. Maas. Sh. V, 56ᵃ</cite> top <he>בה׳ אתיתא</he> by which road did you come? <cite ref=\"Yoma 2a:8\">Ib.</cite> <he>ולא חכים בה׳</he> and he did not know by which.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:5:8\">Y. Sabb. II, 5ᵃ</cite> bot. <he>ה׳ היא</he> which (transgression) is it (that he is guilty of)? Ib. VII, 10ᶜ, a. fr. <he>וה׳ אמרה דא</he> and what (Mishnah, Boraitha) says this (where is your authority)?; <cite ref=\"Jerusalem Talmud Pesachim 2:4:10\">Y. Pes. II, 29ᵇ</cite> bot. <he>והַיְדָּא</he>.—Contr. <cite ref=\"F00037\"><he>וַיְידָּא</he></cite>. Ib. VII, 34ᵇ bot. <he>ו׳ אמר</he> and it is this he said; i.e. in this connection he said it.—<cite ref=\"L00453\"><he>לַיְידָּא</he></cite>, v. <cite ref=\"E00360\"><he>הַיי</he></cite>.—<he>היידא ל־</he> (cmp. h. <he>הִנֶּנּוּ</he>) <i>behold, there is</i>. ",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 2:1:5\">Y. Bicc. II, beg. 64ᶜ</cite> <he>והַיְידָּלוֹן חמשים וכ׳</he> (= <he>וה׳ לון</he>) and behold, here are fifty two.—",
+				"<cite ref=\"Bereishit Rabbah 84:10\">Gen. R. s. 84</cite> (ref. to <cite ref=\"E00545\"><he>הַלָּזֶה</he></cite>, <cite ref=\"Genesis 37:19\">Gen. XXXVII, 19</cite>) <he>הַיְידִּי ליה וכ׳</he> (= <he>היידא הִי</he>) behold, it is himself, he comes carrying his dreams; (Yalk. ib. 141 <he>דיליה</he>, corr. acc.).—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 8:1:2\">Y. Snh. VIII, beg. 26ᵃ</cite> <he>היי די ליה אב וכ׳</he> behold, he is a father and not a son."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "M01174",
+	"slug": "מילוי",
+	"headword": {
+		"text": "מִילּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִלּ׳"
+		}
+	],
+	"page": {
+		"number": 774,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01461\"><he>מָלֵא</he></cite>) <i>filling, drawing water</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 7:2\">Par. VII, 2</cite> <he>המלאכה פוסלת במ׳</he> labor during the act of filling makes the water unfit (for the sprinkling ceremony). ",
+				"<cite ref=\"Tosefta Parah 4:11\">Tosef. ib. IV</cite> (<cite ref=\"Tosefta Parah 3:11\">III</cite>), 11. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 4:6:3\">Y. Succ. IV, 54ᶜ</cite> bot. <he>צריך שיהא מִילּוּיָין לשם החג</he> the water must be drawn especially for the purpose of libation on the Festival. Bab. ",
+				"<cite ref=\"Sukkah 54a:9\">Succ. 54ᵃ</cite> <he>אין תוקעין למ׳ המים וכ׳</he> on the Sabbath (during the festival of Succoth) the horn is not blown at drawing water for the altar; a. e.—V. <cite ref=\"M01494\"><he>מִלּוּא</he></cite>."
+			]
+		}
+	]
+}

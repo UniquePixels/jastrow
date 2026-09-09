@@ -1,0 +1,93 @@
+{
+	"id": "D00076",
+	"slug": "דבר-2",
+	"headword": {
+		"text": "דְּבַר"
+	},
+	"page": {
+		"number": 278,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00075\">same</cite><i>to seize, take, lead, drive</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 19:15\">Targ. Gen. XIX, 15</cite>; a. fr. (h. <he>לקח</he>).—",
+				"<cite ref=\"Onkelos Genesis 31:18\">Ib. XXXI, 18</cite>; a. fr. (h. <he>נהג</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to conduct one’s self</i> (cmp. <cite ref=\"N00250\"><he>נָהַג</he></cite>). ",
+			"units": [
+				"<cite ref=\"Eruvin 14b:19\">Erub. 14ᵇ</cite>, a. e. <he>פוק חזי מאי עמא ד׳</he> go out and see how the people conduct themselves (what the religious usage is). ",
+				"<cite ref=\"Kohelet Rabbah 9:10\">Koh. R. to IX, 10</cite>, v. <cite ref=\"K00703\"><he>כְּלוּם</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּבַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to lead, drive</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 3:1\">Targ. O. Ex. III, 1</cite> ed. Berl. (ed. <cite ref=\"D00076\"><he>דְּבַר</he></cite>). Ib. XIV, 21 (ed. <cite ref=\"D00076\"><he>דְּבַר</he></cite>, h. text <he>ויולך</he>). ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 16:12\">Targ. Ez. XVI, 12</cite>; a. e.—",
+						"<cite ref=\"Ketubot 62b:3\">Keth. 62ᵇ</cite> sq. <he>עד כמה קא מְדַבְּרַת אלמנות חיים</he> how long yet wilt thou lead a life of living widowhood (separation from a living husband)?"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to carry off</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 33:6\">Targ. Ezek. XXXIII, 6</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַדְבֵּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to take, lead</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 14:2\">Targ. Is. XIV, 2</cite>; a. fr.—",
+						"<cite ref=\"Beitzah 21b:11\">Bets. 21ᵇ</cite> <he>אַדְבְּרֵיה וכ׳</he> took him out on a walk; <cite ref=\"Beitzah 29a\">ib. 29ᵃ</cite>. Y. Yeb. XIII, 13ᶜ bot. <he>מַדְבְּרוּן לה גבר</he> they introduce to her a suitor."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְדַּבַּר", "אִידַּבַּר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִידְּבַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be seized, taken away</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 24:11\">Targ. Prov. XXIV, 11</cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 33:6\">Targ. Ez. XXXIII, 6</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Kings 2:9\">Targ. II Kings II, 9</cite> sq.; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to conduct one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 33:14\">Targ. Gen. XXXIII, 14</cite> <cite ref=\"D00076\"><he>אֵידַבַּר</he></cite> ed. Berl. (h. text <he>אתנהלה</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "Q00730",
+	"slug": "פיניתא",
+	"headword": {
+		"text": "פִּינִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּינְתָא"
+		},
+		{
+			"text": "פִּנְ׳"
+		}
+	],
+	"page": {
+		"number": 1165,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"Q00720\"><he>פִּינָּה</he></cite>, <i>street-corner</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 7:8\">Targ. Prov. VII, 8</cite>, v. <cite ref=\"P00619\"><he>עֵינוּתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 7:12\">Ib. 12</cite>."
+			]
+		}
+	]
+}

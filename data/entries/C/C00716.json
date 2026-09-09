@@ -1,0 +1,28 @@
+{
+	"id": "C00716",
+	"slug": "גיל-2",
+	"headword": {
+		"text": "גִּיל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 238,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"C00715\">preced.</cite>) <i>circle, association of coevals</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 27b:13\">B. Mets. 27ᵇ</cite>; <cite ref=\"Yevamot 120a:15\">Yeb. 120ᵃ</cite> the same mark <he>מצויה בבן גִּילוֹ</he> is frequently found with those born at the same hour (under the same planetary influences, cmp. <cite ref=\"C00871\"><he>גַּלְגַּל</he></cite>). ",
+				"<cite ref=\"Megillah 11a:15\">Meg. 11ᵃ</cite> <he>בן גילו וכ׳</he> of the same character. ",
+				"<cite ref=\"Nedarim 39b:16\">Ned. 39ᵇ</cite> <he>בן גילו</he> (Ar. <cite ref=\"B00942\"><he>בני</he></cite>) of the same age; B. ",
+				"<cite ref=\"Beitzah 30b\">Bets. 30ᵇ</cite>. ",
+				"<cite ref=\"Ruth Rabbah 2:7\">Ruth R. to I, 3</cite> <he>מת אחד מן הג׳ ידאג כל הג׳</he> if one of the circle (of the coevals) died, the whole circle must take it to heart.—Pl. <he>גִּילִין</he>. ",
+				"<cite ref=\"Ruth Rabbah 2:7\">Ib.</cite>—v. <cite ref=\"C00720\"><he>גִּילָאֵי</he></cite>. [Y. Orl. II, 61ᵈ bot. <he>גיל השבט</he>, v. <cite ref=\"C00560\"><he>גָּזֵל</he></cite>.]"
+			]
+		}
+	]
+}

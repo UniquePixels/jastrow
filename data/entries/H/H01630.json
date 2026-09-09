@@ -1,0 +1,24 @@
+{
+	"id": "H01630",
+	"slug": "חרוסת",
+	"headword": {
+		"text": "חֲרוֹסֶת"
+	},
+	"page": {
+		"number": 500,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01727\"><he>חרס</he></cite>; cmp. <cite ref=\"E00890\"><he>הַרְסָנָא</he></cite>) <i>a pap made of fruits and spices with wine or vinegar</i>, used for sweetening the bitter herb on the Passover night. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 10:3\">Pes. X, 3</cite>. ",
+				"<cite ref=\"Pesachim 116a:4\">Ib. 116ᵃ</cite> (play on <cite ref=\"H01724\"><he>חֶרֶס</he> I</cite>) <he>ח׳ זכר לטיט</he>, v. <cite ref=\"G00469\"><he>זֵכֶר</he></cite>. ",
+				"<cite ref=\"Tosefta Pesachim 10:9\">Tosef. ib. X, 9</cite>; a. e."
+			]
+		}
+	]
+}

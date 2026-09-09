@@ -1,0 +1,28 @@
+{
+	"id": "H00972",
+	"slug": "חלבון",
+	"headword": {
+		"text": "חֶלְבּוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֶלְבּוֹן"
+		}
+	],
+	"page": {
+		"number": 464,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. Ar.) (v. <cite ref=\"H00971\">preced.</cite> wds.) <i>glair, white of an egg</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 40a:13\">Ab. Zar. 40ᵃ</cite>; <cite ref=\"Chullin 64a:7\">Ḥull. 64ᵃ</cite>, v. <cite ref=\"H01091\"><he>חֶלְמוֹן</he></cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Terumot 10:6:11\">Y. Ter. X, 47ᵇ</cite> bot. <he>בלובן חלבין</he>, read: <he>בחלבון</he> (v. cit. in Tosaf. to <cite ref=\"Chullin 64b:3\">Ḥull. 64ᵇ</cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "R00607",
+	"slug": "צנה-1",
+	"headword": {
+		"text": "צִנָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִינָּה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1290,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"R00635\"><he>צָנַן</he></cite>) <i>polished buckler</i> or <i>cuirass</i> (cmp. <cite ref=\"O01201\"><he>סַנְוַורְתָּא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 1:20\">Midr. Till. to Ps. I</cite> <he>מנין … ת״ל וכ׳</he> whence do we learn to include the fourth side (as protected)? We read (<cite ref=\"Psalms 5:13\">Ps. V, 13</cite>) ‘as with a cuirass &c.’ <cite ref=\"Midrash Tehillim 35:2\">Midr. Till. to Ps. XXXV, 2</cite> <he>וכי למגן וצ׳ וכ׳</he> (ed. Bub.) do I need buckler and cuirass?; <cite ref=\"Yalkut Shimoni on Nach 722\">Yalk. ib. 722</cite>. Tanḥ. Naso, ed. Bub. 27 (ref. to <cite ref=\"Psalms 91:4\">Ps. XCI, 4</cite>) <he>צ׳ אני נעשה לכל מי שהוא סוחר בתורה</he> I am a cuirass to whosoever travels about with the Law; <cite ref=\"Yalkut Shimoni on Nach 842:4\">Yalk. Ps. 842</cite>; Tanḥ. Naso 23. ",
+				"<cite ref=\"Shemot Rabbah 40:4\">Ex. R. s. 40</cite> (ref. to <he>צנן</he>, <cite ref=\"Joshua 15:37\">Josh. XV, 37</cite>) [read:] <he>צנן שהוא צ׳</he> Jerusalem is surnamed Zenan, because it is a cuirass (the Temple being a protection); a. e."
+			]
+		}
+	]
+}

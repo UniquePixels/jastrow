@@ -1,0 +1,32 @@
+{
+	"id": "M01308",
+	"slug": "מישא-2",
+	"headword": {
+		"text": "מֵישָׁא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מַיְישָׁא"
+		}
+	],
+	"page": {
+		"number": 779,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"M00033\"><he>מאישא</he></cite>, <cite ref=\"M01081\"><he>מיאשא</he></cite>) pr. n. m. <i>Mesha</i> (= <he>משחא</he>, v. Nöld. Mand. Gr., p. 64), name of several persons. ",
+			"units": [
+				"<cite ref=\"Eruvin 13b\">Erub. 13ᵇ</cite> <he>לא ר׳ מאיר</he> … <he>אלא מיישא</he> Ms. M. (ed. <cite ref=\"N00256\"><he>נהוראי</he></cite>, v. Rabb. D. S. a. l. note), v. <cite ref=\"M00031\"><he>מֵאִיר</he></cite>. ",
+				"<cite ref=\"Mishnah Peah 2:6\">Peah II, 6</cite> <he>מישא</he> Y. ed. (Ms. M. <he>מיי׳</he>; ed. <he>מיא׳</he>, v. Rabb. D. S. a. l. note); <cite ref=\"Nazir 56b\">Naz. 56ᵇ</cite> <he>מיא׳</he>.—",
+				"<cite ref=\"Chullin 121a:9\">Ḥull. 121ᵃ</cite> <he>מיי׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Orlah 1:3:10\">Y. Orl. I, 61ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Maasrot 5:1:7\">Y. Maasr. V, 51ᵈ</cite> top.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:2:8\">Y. Sabb. I, 3ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Berakhot 2:9:4\">Y. Ber. II, end, 5ᵈ</cite> <cite ref=\"J00451\"><he>יסא</he></cite> (corr. acc.).—Ib. 4ᶜ bot. M., grandson of R. Joshua b. Levi.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:1:10\">Y. Sabb. I, 2ᶜ</cite> top.—",
+				"<cite ref=\"Jerusalem Talmud Nazir 9:3:8\">Y. Naz. IX, 57ᵈ</cite> bot. M., son of R. Jeremiah.—",
+				"<cite ref=\"Jerusalem Talmud Pesachim 4:1:12\">Y. Pes. IV, 30ᵈ</cite> top <he>בני מ׳</he> members of the Mesha family."
+			]
+		}
+	]
+}

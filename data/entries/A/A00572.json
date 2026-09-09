@@ -1,0 +1,23 @@
+{
+	"id": "A00572",
+	"slug": "אודרך",
+	"headword": {
+		"text": "אוּדְרָךְ",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 22,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דרך</he>) <i>a crushing tool, pestle, pounding club</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 27:22\">Targ. Prov. XXVII, 22</cite> ed. Buxt. (better, like oth. ed. <cite ref=\"A00855\"><he>אוּרְדָּךְ</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "J00436",
+	"slug": "יני-1",
+	"headword": {
+		"text": "יני"
+	},
+	"altHeadwords": [
+		{
+			"text": "יָנָה"
+		}
+	],
+	"page": {
+		"number": 581,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>הוֹנָה</he> (b. h.; v. <cite ref=\"A02138\"><he>אָנָה</he></cite>) <i>to oppress, treat overbearingly, vex, taunt</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 88\">Gen. R. s. 88</cite>, beg. <he>שלא יהו מוֹנִים את וכ׳</he> that they might not taunt Israel saying &c. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:6\">Cant. R. to I, 6</cite>. Tanḥ. Vayera 14 <he>כל מי שיוֹנֶה להבירו</he> whoever aggrieves his neighbor. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:6\">Ib.</cite> <he>הוֹנֵת את עצמה</he> humbled herself; a. fr.—V. <cite ref=\"E00249\"><he>הוֹנָאָה</he></cite>, <cite ref=\"A00722\"><he>אוֹנָאָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "V00100",
+	"slug": "תגרנא",
+	"headword": {
+		"text": "תִּגְרָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּי׳"
+		}
+	],
+	"page": {
+		"number": 1647,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"V00093\"><he>תִּגְרָא</he> I</cite>) <i>quarrelsome man</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 22:10\">Targ. Prov. XXII, 10</cite> (h. text <he>מדון</he>, sub. <cite ref=\"A01615\"><he>איש</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 26:21\">Ib. XXVI, 21</cite>.—<i>Fem.</i> <cite ref=\"V00420\"><he>תִּגְרָנִיתָא</he></cite>, <cite ref=\"V00014\"><he>תִּי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 21:9\">Ib. XXI, 9</cite> (ed. Wil. <he>תַּ׳</he>)."
+			]
+		}
+	]
+}

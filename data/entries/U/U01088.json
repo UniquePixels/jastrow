@@ -1,0 +1,28 @@
+{
+	"id": "U01088",
+	"slug": "שירתא",
+	"headword": {
+		"text": "שִׁירְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁירָא"
+		}
+	],
+	"page": {
+		"number": 1569,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"U01061\"><he>שִׁירָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 30:1\">Targ. Ps. XXX, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:1\">Targ. Cant. I, 1</cite> (ed. Vien. <cite ref=\"U01975\"><he>שִׁירָ׳</he></cite>); a. e.—Pl. <cite ref=\"U01088\"><he>שִׁירָתָא</he></cite> <cite ref=\"Aramaic Targum to Song of Songs 1:1\">Ib.</cite>"
+			]
+		}
+	]
+}

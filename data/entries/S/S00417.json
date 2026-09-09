@@ -1,0 +1,37 @@
+{
+	"id": "S00417",
+	"slug": "קונדיטון",
+	"headword": {
+		"text": "קוֹנְדִּיטוֹן"
+	},
+	"page": {
+		"number": 1334,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (conditum, κονδῖτον) ",
+			"units": []
+		},
+		{
+			"gloss": " (sub. vinum) <i>spiced wine</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:4\">Y. Ter. VIII, 45ᶜ</cite> <he>החד ק׳</he> <i>ḥad</i> (sharp) means spiced wine; Y. Ab. Zar. III, 41ᵃ top. Pesik. Baḥod., p. 102ᵇ <he>מה ק׳ הזה וכ׳</he> (not <he>טין …</he>) as spiced wine contains wine, honey and pepper &c. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 10:7:4\">Y. Yeb. X, 11ᵇ</cite> <he>אנא משקי ליה ק׳</he> I shall give him spiced wine to drink; <he>הא אזיל ק׳</he> the spiced wine (that was promised) is gone (forfeited). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:1:17\">Y. Ber. II, 4ᵇ</cite> bot. ",
+				"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 12</cite> <he>קונט׳</he>, <he>קנוט׳</he> (corr. acc.); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>spices to be put in wine</i> (prob. to be read: <cite ref=\"S00418\"><he>קוֹנְדִּיטִין</he></cite> <i>pl.</i>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:9:3\">Y. Bets. I, 60ᵈ</cite> <he>מהו מישחוק ק׳ וכ׳</he> how about grinding spices for wine on the Holy Day? <cite ref=\"Jerusalem Talmud Beitzah 1:9:3\">Ib.</cite> [read:] <he>שחק מר ק׳ וכ׳</he> do you grind spices &c.? <cite ref=\"Jerusalem Talmud Shabbat 19:1:6\">Y. Sabb. XIX, 16ᵈ</cite> bot.; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

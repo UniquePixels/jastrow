@@ -1,0 +1,23 @@
+{
+	"id": "P01022",
+	"slug": "ענתא-2",
+	"headword": {
+		"text": "עַנְתָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1097,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01020\"><he>ענת</he></cite>, cmp. <he>ענש</he>, a. <cite ref=\"P00227\"><he>עֲנֵי</he> II</cite>, 2, v. P. Sm. 2935) <i>oppressor, wrong-doer</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 16:33\">Targ. Prov. XVI, 33</cite> <he>דע׳</he> Pesh. (ed. <he>דעצתא</he>)."
+			]
+		}
+	]
+}

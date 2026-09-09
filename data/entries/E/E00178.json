@@ -1,0 +1,52 @@
+{
+	"id": "E00178",
+	"slug": "הוא-1",
+	"headword": {
+		"text": "הוּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הִיא"
+		}
+	],
+	"page": {
+		"number": 335,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) <i>he, it; she; it is</i> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 3:3\">Snh. III, 3</cite> (<cite ref=\"Sanhedrin 24b:19\">24ᵇ</cite>) if he has no trade <he>אלא הוא</he> (Y. ed., <cite ref=\"Eruvin 82a:5\">Erub. 82ᵃ</cite> <he>היא</he>) except this (gambling &c.); <he>יש לו אומנות שלא הוא</he> (<he>היא</he>) if he has a trade besides this (v. Rabb. D. S. a. l. note 80).—<he>הוא</he>—<he>הוא</he>, <he>היא</he>—<he>היא</he> it is the same, i.e. there is no difference between the two. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:2:9\">Y. Ber. I, 3ᵇ</cite> <he>היא היא</he> both are equally precious. ",
+				"<cite ref=\"Bereishit Rabbah 9:13\">Gen. R. s. 9</cite>, end <he>הוא מאד הוא אדם</he> the word <cite ref=\"M00005\"><he>מאד</he></cite> has the same letters as <he>אדם</he>. ",
+				"<cite ref=\"Berakhot 2b:1\">Ber. 2ᵇ</cite> <he>דילמא ביאת אורו הוא</he> perhaps it is (means) the arrival of his day, v. <cite ref=\"A00842\"><he>אוֹר</he> II</cite>; a. v. fr.—[<cite ref=\"Mishnah Sheviit 3:8\">Shebi. III, 8</cite> <he>עושה הוא</he>; <cite ref=\"Mishnah Sheviit 4:5\">IV, 5</cite> <he>מכסה הוא</he>, Y. ed. <he>עוֹשֵׂהוּ</he>, <he>מְכַסֵּהוּ</he>; ib. X, 6 <he>מזכה הוא</he>; Ms. M., <cite ref=\"Gittin 37a:13\">Gitt. 37ᵃ</cite> <he>מְזַכֵּהוּ</he>.]—<he>ולא היא</he> but it is not so (it has a different reason &c.). ",
+				"<cite ref=\"Berakhot 57a:20\">Ber. 57ᵃ</cite>; a. fr.—<he>כל שהוא</he> (<he>כל שהיא</he>) "
+			],
+			"senses": [
+				{
+					"gloss": " <i>whosoever, whatsoever</i> (<i>is</i>). ",
+					"units": [
+						"<cite ref=\"Mishnah Peah 2:4\">Peah II, 4</cite> <he>כל ש׳ אוכל</he> whatever is eatable &c.; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>whatever it may be, a minimum</i>, v. <cite ref=\"K00669\"><he>כָּל</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 10:6\">Shebi. X, 6</cite> <he>כל שהוא</he>; Gitt. l. c. <he>כל שֶׁהוּ</he>; a. fr.—ספר היא <i>the Book Hi</i>, name of a Pentateuch scroll in the Temple in which <he>היא</he> occurs nine times (for the archaic <he>הִוא</he>), whereas in others it appears eleven times (v. ",
+						"<cite ref=\"Avot D'Rabbi Natan 34:11\">Ab. d’R. N. ch. XXXIV</cite>, ed. Schechter). ",
+						"<cite ref=\"Sifrei Devarim 356:2\">Sifré Deut. 356</cite>; <cite ref=\"Jerusalem Talmud Taanit 4:2:9\">Y. Taan. IV, 68ᵃ</cite> bot.—<cite ref=\"E00174\"><he>הַהוּא</he></cite>, <cite ref=\"E00174\"><he>הַהִיא</he></cite>, mostly in Chald. diction, v. next w.—Pl. <cite ref=\"E00587\"><he>הֵם</he></cite> m., <cite ref=\"E00648\"><he>הֵן</he></cite> c. ",
+						"<cite ref=\"Berakhot 2b:13\">Ber. 2ᵇ</cite> <he>והלא כהנים … הם טובלים</he> but do not priests bathe &c.?—",
+						"<cite ref=\"Megillah 14b:3\">Meg. 14ᵇ</cite> <he>רהמניות הן</he> are compassionate. ",
+						"<cite ref=\"Chullin 127b:13\">Ḥull. 127ᵇ</cite> <he>הרי הן וכ׳</he> they are to be treated as if &c.; a. v. fr.—<he>הן … הן</he> are the same. Y. Ab. Zar. II, end, 42ᵃ, v. <cite ref=\"A02350\"><he>אִסְטַגְיוֹת</he></cite>.—With prep. <he>מֵהֶם</he>, <cite ref=\"M00375\"><he>מֵהֶן</he></cite>, <cite ref=\"L00167\"><he>לָהֶם</he></cite> &c."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

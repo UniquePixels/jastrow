@@ -1,0 +1,23 @@
+{
+	"id": "V00683",
+	"slug": "תמירות",
+	"headword": {
+		"text": "תְּמִירוֹת"
+	},
+	"page": {
+		"number": 1677,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"V00703\"><he>תָּמַר</he></cite>) <i>the pillars supporting the framework of a lantern</i> (v. Sm. Ant. s. v. Laterna). ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 2:6\">Tosef. Kel. B. Mets. II, 6</cite>."
+			]
+		}
+	]
+}

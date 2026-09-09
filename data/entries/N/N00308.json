@@ -1,0 +1,73 @@
+{
+	"id": "N00308",
+	"slug": "נוד-2",
+	"headword": {
+		"text": "נוּד",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 883,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00307\">same</cite><i>to move, be unsteady</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 24:19\">Targ. Is. XXIV, 19</cite>; a. e.—Part. <he>נָאֵיד</he>, <cite ref=\"N00656\"><he>נָיֵיד</he></cite>; f. <he>נָיְידָא</he>; pl. <he>נַיְידִין</he>, <he>נַיְידֵי</he>; <he>נַיְידָן</he>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 14:15\">Targ. I Kings XIV, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 1:13\">Targ. I Sam. I, 13</cite>.—",
+				"<cite ref=\"Eruvin 46a:2\">Erub. 46ᵃ</cite> <he>מיא … מֵינַד ניידי</he> the waters in the cloud are constantly in motion. ",
+				"<cite ref=\"Ketubot 15a:4\">Keth. 15ᵃ</cite> <he>הני ניידי</he> these (the caravans) are unsteady, opp. <he>קביעי</he> stationary (v. <cite ref=\"D00131\"><he>דדי</he></cite> ch.). ",
+				"<cite ref=\"Zevachim 73b:1\">Zeb. 73ᵇ</cite> <he>דניידי</he>, v. infra.—",
+				"<cite ref=\"Berakhot 59b:5\">Ber. 59ᵇ</cite> <he>והאי דניידי עינייהו</he> and the reason why their eyes are unsteady. ",
+				"<cite ref=\"Kiddushin 72a:9\">Kidd. 72ᵃ</cite> <he>כי הוה … היינו דובא ניידא</he> when he saw a Persian on horseback, he said, this is a restless bear. ",
+				"<cite ref=\"Bava Batra 25b:14\">B. Bath. 25ᵇ</cite> <he>הוה ניידא אפדניה</he> his cottage shook; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with <he>ל־</he>) <i>to shake the head, sympathize</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 2:11\">Targ. Job II, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 42:11\">Ib. XLII, 11</cite> <he>ונַיְדוּ</he>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָנֵיד"],
+			"senses": [
+				{
+					"gloss": "<i>to scare</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 26:6\">Targ. O. Lev. XXVI, 6</cite> <he>מָנֵיד</he> (Y. <cite ref=\"M01776\"><he>מָנֵיט</he></cite>); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to shake</i>, (with <he>רישא</he> or <he>ברישא</he>) <i>to shake the head; to nod</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Zephaniah 2:15\">Targ. Zeph. II, 15</cite>. Targ. II Esth. I, 2. ",
+						"<cite ref=\"Targum Jonathan on II Kings 19:21\">Targ. II Kings XIX, 21</cite>; a. e.—",
+						"<cite ref=\"Sanhedrin 95a:4\">Snh. 95ᵃ</cite> <he>ומניד ברישיה</he> and shook his head (in derision)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִינַּיֵיד"],
+			"senses": [
+				{
+					"gloss": "<i>to be chased, scattered</i>. ",
+					"units": [
+						"<cite ref=\"Zevachim 73b:1\">Zeb. 73ᵇ</cite> <he>ניכבשינהו דנִינַּיְידוּ</he> Rashi (Ms. M. <he>דניניידן</he>, ed. <he>דניידי</he>; corr. acc.) let us force them to scatter."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

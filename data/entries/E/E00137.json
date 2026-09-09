@@ -1,0 +1,27 @@
+{
+	"id": "E00137",
+	"slug": "הדס-3",
+	"headword": {
+		"text": "הַדָס"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֲדַס"
+		}
+	],
+	"page": {
+		"number": 334,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Hadas</i>, (prob.) <i>Edessa</i> in Mesopotamia. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 10:10\">Targ. Y. Gen. X, 10</cite> (h. text <cite ref=\"A03127\"><he>אֶרֶךְ</he></cite>, v. <cite ref=\"A03162\"><he>אַרְכַת</he></cite>)."
+			]
+		}
+	]
+}

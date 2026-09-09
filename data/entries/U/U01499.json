@@ -1,0 +1,36 @@
+{
+	"id": "U01499",
+	"slug": "שמן-4",
+	"headword": {
+		"text": "שְׁמַן"
+	},
+	"page": {
+		"number": 1597,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01498\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cream</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 18:8\">Targ. O. Gen. XVIII, 8</cite> (Y. <he>לוואי שָׁמִין</he>; h. text <cite ref=\"H01142\"><he>חמאה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 55:22\">Targ. Ps. LV, 22</cite> <he>ש׳ דגובנין</he> (h. text <he>מחמאות</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fat</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 30:23\">Targ. Is. XXX, 23</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 18:7\">Targ. Y. Gen. XVIII, 7</cite> <cite ref=\"U01470\"><he>שְׁמֵין</he></cite>.—V. <cite ref=\"U00449\"><he>שׁוּמְנָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "M02705",
+	"slug": "מרכוף",
+	"headword": {
+		"text": "מַרְכּוֹף"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַרְכּוֹב"
+		}
+	],
+	"page": {
+		"number": 844,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"A03139\"><he>אַרְכּוֹף</he></cite>) <i>markof</i>, name of a <i>musical instrument</i> made stationary. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 15:6\">Kel. XV, 6</cite> <he>המ׳ טהור</he> the <i>m.</i> (used in the Temple) is not susceptible of uncleanness. ",
+				"<cite ref=\"Mishnah Kelim 16:7\">Ib. XVI, 7</cite> <he>מ׳ של זמר</he> the <i>m.</i> used for the accompaniment of songs; <cite ref=\"Tosefta Keilim Metsia 5:10\">Tosef. Kel. B. Mets. V, 10</cite>."
+			]
+		}
+	]
+}

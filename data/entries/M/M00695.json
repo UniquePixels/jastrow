@@ -1,0 +1,32 @@
+{
+	"id": "M00695",
+	"slug": "מותב",
+	"headword": {
+		"text": "מוֹתָב"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹתְבָא"
+		}
+	],
+	"page": {
+		"number": 752,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>יְתַב</he>) = h. <cite ref=\"M00680\"><he>מוֹשָׁב</he></cite>, <i>seat, dwelling; session</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 48:15\">Targ. Ez. XLVIII, 15</cite>. ",
+				"<cite ref=\"Onkelos Exodus 12:42\">Targ. O. Ex. XII, 42</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 165b\">B. Bath. 165ᵇ</cite>, a. fr. <he>במוֹתַב תלתא</he> in a session of three judges. ",
+				"<cite ref=\"Kohelet Rabbah 3:6:1\">Koh. R. to III, 6</cite> [read:] <he>יהב להון מוֹתְבֵיהוֹן וכ׳</he> he assigned to them their place in a dark compartment of the ship; a. fr.—בית מ׳ <i>court, school</i>. ",
+				"<cite ref=\"Bekhorot 5b:3\">Bekh. 5ᵇ</cite> <he>בבית מ׳ רבה</he> in the Great College; <cite ref=\"Yalkut Shimoni on Torah 224:2\">Yalk. Ex. 224</cite> <cite ref=\"M00695\"><he>מוֹתְבָה</he></cite>.—Pl. <cite ref=\"M00703\"><he>מוֹתְבִין</he></cite>, constr. <he>מוֹתְבֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 34:13\">Targ. Ez. XXXIV, 13</cite>.—[<cite ref=\"Targum Jonathan on Deuteronomy 18:8\">Targ. Y. I Deut. XVIII, 8</cite> <he>מותבי</he>, v. <cite ref=\"M00424\"><he>מוֹהֲבָא</he></cite>.]"
+			]
+		}
+	]
+}

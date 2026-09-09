@@ -1,0 +1,28 @@
+{
+	"id": "C01051",
+	"slug": "גמלנא",
+	"headword": {
+		"text": "גַּמְלָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּמְלָנִיתָא"
+		}
+	],
+	"page": {
+		"number": 254,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"C01047\"><he>גַּמְלוֹן</he></cite> , <i>large-sized</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 66b:22\">Sabb. 66ᵇ</cite> <he>שומשמנא ג׳</he> Ar. (ed. <cite ref=\"C01045\"><he>גמלא</he></cite>) a large ant.—",
+				"<cite ref=\"Avodah Zarah 28b:5\">Ab. Zar. 28ᵇ</cite>, v. <cite ref=\"H00853\"><he>חִיפּוּשִׁיתָא</he></cite>."
+			]
+		}
+	]
+}

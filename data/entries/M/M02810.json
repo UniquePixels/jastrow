@@ -1,0 +1,23 @@
+{
+	"id": "M02810",
+	"slug": "משבר",
+	"headword": {
+		"text": "מַשְׁבֵּר"
+	},
+	"page": {
+		"number": 849,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U00174\"><he>שָׁבַר</he></cite>) [<i>orifice of the matrix</i>,] (in Talm.) <i>travailing chair</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 23:4\">Kel. XXIII, 4</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 72\">Gen. R. s. 72</cite>; <cite ref=\"Jerusalem Talmud Berakhot 9:3:8\">Y. Ber. IX, 14ᵃ</cite> bot. <he>ביושבת על המ׳</he> when she is seated on the travailing chair; a. e."
+			]
+		}
+	]
+}

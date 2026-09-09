@@ -1,0 +1,38 @@
+{
+	"id": "C00155",
+	"slug": "גד-5",
+	"headword": {
+		"text": "גָּד",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּד",
+			"homograph": 3
+		}
+	],
+	"page": {
+		"number": 209,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"C00166\"><he>גדד</he></cite>, cmp. <he>גזר</he>)<i>decree, fate</i>, esp. <i>Gad</i> (<i>Fortune</i>), a god worshipped by the Babylonians and the Jewish exiles. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 63b:10\">Snh. 63ᵇ</cite> <he>ג׳ נמי מיכתב כתיב</he> Gad is also one of the names of idols mentioned in the Bible. ",
+				"<cite ref=\"Shabbat 67b:1\">Sabb. 67ᵇ</cite> <he>ג׳ אינו אלא לשון ע״א</he> Gad is nothing else than a designation of an idol, v. <cite ref=\"C00156\">next w.</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>גַּד יָוָן</he> pr. n. <i>Gad Yavan</i> (<i>Greek Fortune</i>) near Jerusalem. ",
+			"units": [
+				"<cite ref=\"Mishnah Zavim 1:5\">Zab. I, 5</cite> <he>כְּמִן ג׳ י׳ לשילוה</he> as long as it takes from G. Y. to Siloah; Tosef. ib. I, 10 <he>כְּמִגַּדְיָוָן לשילה</he>; <cite ref=\"Sanhedrin 63b:10\">Snh. 63ᵇ</cite> <he>כְּמִיגַּדְיָוָן לשילה</he> (corr. acc.)—[<i>Gad Yavan</i> is prob. the name of a pool connected with the Siloah, perh. <i>Fount of the Virgin</i>, v. Sm. Bible Dict. s. v. Siloam.] [<cite ref=\"Mishnah Tahorot 6:6\">Toh. VI, 6</cite>; <cite ref=\"Eruvin 22b\">Erub. 22ᵇ</cite> <he>בית גד גד</he>, v. <cite ref=\"C00864\"><he>גִּלְגּוּל</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "J00187",
+	"slug": "יולד-2",
+	"headword": {
+		"text": "יוֹלֵד"
+	},
+	"page": {
+		"number": 568,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. <he>יוֹלְדִים</he> (b. h.; <i>parents</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 7:6\">Keth. VII, 6</cite> <he>המקללת יוֹלְדָיו בפניו</he> she who curses his (her husband’s) parents in his presence; quot. ",
+				"<cite ref=\"Ketubot 72b:5\">ib. 72ᵇ</cite> <he>יוֹלֵידָיו</he> (an emphatic form), and interpreted <he>במקללת יוֹלֵידָיו בפני מוֹלֵידָיו</he> (v. <cite ref=\"M00490\"><he>מוֹלֵד</he></cite>) also when she curses his parents before any one of his begotten; Y. ib. VII, 31ᵇ bot. <he>וולדיו בפני יולדיו</he>, v. <cite ref=\"F00061\"><he>וָלָד</he></cite>."
+			]
+		}
+	]
+}

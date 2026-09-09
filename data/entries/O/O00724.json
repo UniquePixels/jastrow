@@ -1,0 +1,25 @@
+{
+	"id": "O00724",
+	"slug": "סינא",
+	"headword": {
+		"text": "סֵינָא"
+	},
+	"page": {
+		"number": 982,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O00723\">preced.</cite>) <i>shoe</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 25:9\">Targ. O. Deut. XXV, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 5:15\">Targ. Josh. V, 15</cite> (ed. Wil. <cite ref=\"O01206\"><he>סִינָ׳</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 3:5\">Targ. O. Ex. III, 5</cite>.—",
+				"<cite ref=\"Yevamot 39b:11\">Yeb. 39ᵇ</cite> <he>ושרת סֵינֵיה וכ׳</he> and she has loosened his shoe &c.; Y. ib. XII, end, 13ᵃ; <cite ref=\"Jerusalem Talmud Sanhedrin 1:2:39\">Y. Snh. I, 19ᵃ</cite> bot."
+			]
+		}
+	]
+}

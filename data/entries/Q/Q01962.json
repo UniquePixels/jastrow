@@ -1,0 +1,31 @@
+{
+	"id": "Q01962",
+	"slug": "פרפר-2",
+	"headword": {
+		"text": "פַּרְפֵּר"
+	},
+	"page": {
+		"number": 1236,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"Q01961\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְפַּרְפֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be crushed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 22:15\">Targ. Ps. XXII, 15</cite> (Ms. <he>אתפררן</he>, h. text <he>התפרדו</he>)."
+					]
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

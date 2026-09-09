@@ -1,0 +1,32 @@
+{
+	"id": "H00102",
+	"slug": "חבץ",
+	"headword": {
+		"text": "חָבַץ"
+	},
+	"page": {
+		"number": 420,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>חִיבֵּץ</he> (cmp. <cite ref=\"H00040\"><he>חָבַט</he></cite>) <i>to beat</i> milk &c. into a pulp, <i>to make a pulp, to scramble</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 95a\">Sabb. 95ᵃ</cite>; <cite ref=\"Tosefta Shabbat 9:13\">Tosef. ib. IX</cite> (<cite ref=\"Tosefta Shabbat 10:13\">X</cite>), 13 <he>המְחַבֵּץ והמגבן</he> he who makes thick milk (on the Sabbath, oth. opin. in Rashi: <i>who presses thick milk</i> in a bag to let the fluid run out). Ib. XII (XIII), 14 <he>ובלבד שלא יְחַבֵּץ</he> (Var. <he>יַחְבּוֹץ</he>, v. ed. Zuck. note) provided, he does not beat it into a pulp. ",
+						"<cite ref=\"Mishnah Tevul Yom 2:4\">T’bul Yom II, 4</cite> <he>אם חי׳</he> if the unclean person stirred (the jelly with the oil on top). Y. Maasr. II, 50ᵃ top; a. e. [<cite ref=\"Jerusalem Talmud Orlah 1:3:13\">Y. Orl. I, 61ᵇ</cite> top <he>המחבץ</he>, read: <he>המחמץ</he>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

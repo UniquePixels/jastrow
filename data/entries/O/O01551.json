@@ -1,0 +1,25 @@
+{
+	"id": "O01551",
+	"slug": "סרוד",
+	"headword": {
+		"text": "סָרוּד"
+	},
+	"page": {
+		"number": 1023,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O01537\"><he>סְרָדָא</he></cite>) [<i>arrangement</i>,] <i>stand with shelves, frame</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 15:2\">Kel. XV, 2</cite> <he>ס׳ של נחתומין</he> (Ar. <cite ref=\"O01606\"><he>סריד</he></cite>) the bakers’ frame; Sifra M’tsor‘a, Zab., Par. 1, ch. II <he>הס׳</he> (Rabad <he>הסִדּוּר</he>); <cite ref=\"Tosefta Keilim Metsia 5:4\">Tosef. Kel. B. Mets. V, 4</cite> <he>הסַוָּור</he>, v. <cite ref=\"O00226\"><he>סַוָּאר</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 5:5\">Ib. 5</cite>, v. <cite ref=\"R00699\"><he>צְפִירָה</he> II</cite>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 10:5\">Ib. X, 5</cite> <he>ס׳ של חייטין</he> ed. Zuck. (oth. ed. <cite ref=\"O01606\"><he>סריד</he></cite>) the frame of the tailors. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 10:2:2\">Y. Sabb. X, 12ᶜ</cite> top; a. fr."
+			]
+		}
+	]
+}

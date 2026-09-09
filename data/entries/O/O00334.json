@@ -1,0 +1,32 @@
+{
+	"id": "O00334",
+	"slug": "סום-3",
+	"headword": {
+		"text": "סוּם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 965,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (or <cite ref=\"O01109\"><he>סָמַם</he></cite>) (<cite ref=\"O00333\">preced.</cite>) [<i>to tie up the eye</i>,] <i>to blind; to be blind</i>.—V. <cite ref=\"O01078\"><he>סמי</he></cite>, <cite ref=\"O00336\"><he>סוּמָא</he> I</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיסּוֹם", "נָסוֹם"],
+			"senses": [
+				{
+					"gloss": "<i>to be blinded</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 21a:10\">Taan. 21ᵃ</cite> <he>עיני … יִסּוֹמוּ</he> (or <he>יִסּוֹמּוּ</he>) may my eyes … become blind.—V. <cite ref=\"O01054\"><he>סָמָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

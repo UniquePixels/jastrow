@@ -1,0 +1,23 @@
+{
+	"id": "G00373",
+	"slug": "זימנה",
+	"headword": {
+		"text": "זִימְנָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 395,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00536\"><he>זמן</he></cite>) <i>summons</i> for public labor. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23—24</cite> <he>אייתין ז׳ וכ׳</he> they issued a summons for millers; (<cite ref=\"Jerusalem Talmud Peah 1:1:26\">Y. Peah I, 15ᶜ</cite> bot. <he>אתת צמות</he>; <cite ref=\"Jerusalem Talmud Kiddushin 1:7:10\">Y. Kidd. I, 61ᵇ</cite> bot. <he>אתא מצוותא</he>)."
+			]
+		}
+	]
+}

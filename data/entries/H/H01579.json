@@ -1,0 +1,46 @@
+{
+	"id": "H01579",
+	"slug": "חרב-3",
+	"headword": {
+		"text": "חָרֵב",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲרֵבָה"
+		},
+		{
+			"text": "חֲרֵי׳"
+		}
+	],
+	"page": {
+		"number": 498,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"H01578\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ruined</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:3:9\">Y. Ber. IV, 8ᵃ</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 110:32\">Yalk. Gen. 110</cite>, p. <cite ref=\"H01577\"><he>חָרֵב</he> I</cite>; a. fr.—Pl. <he>חֲרֵבִים</he>, <cite ref=\"H01579\"><he>חֲרֵי׳</he></cite>; f. <he>חֲרֵבוֹת</he>, <cite ref=\"H01579\"><he>חֲרֵי׳</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 31:17\">Ex. R. s. 31</cite> (ref. to <cite ref=\"Numbers 24:5\">Num. XXIV, 5</cite>) <he>ומַשְׁכנותיך כשהם ח׳</he> thy pledges, when they are in ruins, v. <cite ref=\"M02900\"><he>מַשְׁכּוֹן</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>dry</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 3:1:5\">Y. Sot. III, beg. 18ᶜ</cite> <he>ח׳ של חטין</he> the dry (oil-less) offering of wheat, opp. <cite ref=\"B00830\"><he>בלול</he></cite>. ",
+				"<cite ref=\"Kiddushin 62a:1\">Kidd. 62ᵃ</cite> top; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

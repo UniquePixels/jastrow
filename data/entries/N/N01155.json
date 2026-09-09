@@ -1,0 +1,49 @@
+{
+	"id": "N01155",
+	"slug": "נקב-1",
+	"headword": {
+		"text": "נָקַב"
+	},
+	"page": {
+		"number": 930,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>קבב</he> s. v. <cite ref=\"S00025\"><he>קַב</he></cite>)<i>to bore, perforate</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 97b:4\">Snh. 97ᵇ</cite> <he>מקרא זה נוֹקֵב וכ׳</he> this verse bores and penetrates to the depth. ",
+				"<cite ref=\"Sanhedrin 6b\">Ib. 6ᵇ</cite>, a. e. <he>יִקּוֹב הדין וכ׳</he>, v. <cite ref=\"D00635\"><he>דִּין</he> II</cite>; a. e.—Part. pass. <cite ref=\"N01172\"><he>נָקוּב</he></cite>; f. <cite ref=\"N01174\"><he>נְקוּבָה</he></cite>; pl. <he>נְקוּבִים</he>, <he>נְקוּבִין</he>; <he>נְקוּבוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 12:3:3\">Y. Keth. XII, 35ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Kilayim 9:3:3\">Y. Kil. IX, 32ᵇ</cite> top; (<cite ref=\"Bereishit Rabbah 100:2\">Gen. R. s. 100</cite> <he>נקופה</he>), v. <cite ref=\"A03034\"><he>אָרוֹן</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 8:5\">Cant. R. to VIII, 5</cite> <he>מצאתי חככם נ׳ וכ׳</he> I found your palate perforated, unable to receive blessings.—Esp. <cite ref=\"N01174\"><he>נקובה</he></cite> <i>the case of an animal found to have a vital organ perforated</i>. ",
+				"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite> <he>נְקוּבַת הושט</he>, v. <cite ref=\"F00096\"><he>וֶשֶׁט</he></cite>. ",
+				"<cite ref=\"Chullin 43a:10\">Ib. 43ᵃ</cite>; a. fr.—Esp. (<he>נְקָבִים</he>) <he>נְקוּבִים</he> <i>female parts</i>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:15\">Y. Meg. I, 71ᵈ</cite> bot. (reported as one of the changes adopted in the Greek translation of the Pentateuch, ref. to <cite ref=\"Genesis 1:27\">Gen. I, 27</cite>, a. ",
+				"<cite ref=\"Genesis 5:2\">V, 2</cite>) <he>זכר ונְקוּבָיו בראם</he> a male with corresponding female parts created he them; <cite ref=\"Bereishit Rabbah 8\">Gen. R. s. 8</cite>; Mekh. Bo, s. 14 (v. Gen. R. l. c., beg.).—[<cite ref=\"Jerusalem Talmud Megillah 1:9:8\">Y. Meg. I, 71ᶜ</cite> <he>לנקוביו</he>, v. <cite ref=\"N01157\"><he>נֶקֶב</he></cite>.]—2) (cmp. <cite ref=\"A03247\"><he>אָרַר</he></cite>) <i>to curse, blaspheme</i>. ",
+				"<cite ref=\"Sanhedrin 56a:6\">Snh. 56ᵃ</cite> (ref. to <cite ref=\"Leviticus 24:16\">Lev. XXIV, 16</cite>) <he>ממאי דהאי נוֹקֵב וכ׳</he> whence do you prove that this <i>noḳeb</i> is used in the sense of blasphemy?… perhaps it means <i>to perforate?</i> <cite ref=\"Leviticus 24:16\">Ib.</cite> <he>למימרא דנוקב וכ׳</he> to indicate that <i>noḳeb</i> means curse."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to point out, to pronounce</i>. Ib. <he>אימא פרושי שמיה חוא</he> I might say, <i>noḳeb</i> means uttering His name (the Tetragrammaton)? Tanḥ. Emor 24 <he>התחיל לִנְקוֹב וכ׳</he> he began to pronounce the Name and curse Him.—[<cite ref=\"Midrash Tehillim 1:18\">Midr. Till. to Ps. I</cite> <he>ונקובות ידים</he>; ed. Bub. <he>נקיבת ירק</he>, read: <he>קְנִיבַת ירק</he>, v. <cite ref=\"S01571\"><he>קְנִיבָה</he></cite>.]",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיקַּב", "נִקַּב"],
+			"senses": [
+				{
+					"gloss": "<i>to be perforated, punctured</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite> <he>הריאה שנִיקְּבָה</he> if a lung is found to be perforated. ",
+						"<cite ref=\"Mishnah Chullin 3:1\">Ib.</cite> <he>עד שתִּינָּקֵב וכ׳</he> until the puncture reaches &c. Ib. 43ᵃ <he>נ׳ זה בלא זה</he> if only one of the two is perforated. ",
+						"<cite ref=\"Bekhorot 44b:6\">Bekh. 44ᵇ</cite> <he>אם נִקְּבוּ זה וכ׳</he> if there is a perforation going from one channel to the other; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

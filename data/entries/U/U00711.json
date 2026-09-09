@@ -1,0 +1,24 @@
+{
+	"id": "U00711",
+	"slug": "שחר-8",
+	"headword": {
+		"text": "שַׁחַר"
+	},
+	"page": {
+		"number": 1551,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U00704\"><he>שָׁחַר</he> I</cite>, cmp. <cite ref=\"B01138\"><he>בֹּקֶר</he></cite>)<i>morning dawn, early morning</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 4:1\">Ber. IV, 1</cite> <he>תפלת הש׳</he> the morning prayer. ",
+				"<cite ref=\"Mishnah Berakhot 1:4\">Ib. I, 4</cite> <he>בש׳ מברך וכ׳</he> when reading the Sh’mʿa in the morning prayer, you recite two benedictions &c. ",
+				"<cite ref=\"Mishnah Tamid 4:1\">Tam. IV, 1</cite> <he>של ש׳</he> (sub. <cite ref=\"V00672\"><he>תמיד</he></cite>) the daily offering of the morning; a. v. fr.—<he>עמוד הש׳</he>, v. <cite ref=\"P00866\"><he>עַמּוּד</he></cite>.—<he>אילת הש׳</he>, v. <cite ref=\"A01272\"><he>אַיָּלָה</he></cite>.—Pl. <cite ref=\"U01527\"><he>שְׁחָרִין</he></cite>, v. <cite ref=\"U00719\"><he>שַׁחֲרִית</he></cite>."
+			]
+		}
+	]
+}

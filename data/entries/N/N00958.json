@@ -1,0 +1,108 @@
+{
+	"id": "N00958",
+	"slug": "נסק-2",
+	"headword": {
+		"text": "נְסַק"
+	},
+	"page": {
+		"number": 918,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00957\">same</cite>, <i>to go up</i>. Impf. <he>יִסַּק</he>, <he>יֵיסַק</he>; inf. <cite ref=\"M01252\"><he>מִיסַּק</he></cite>, <cite ref=\"M01252\"><he>מֵיסַק</he></cite>; imper. <cite ref=\"O01441\"><he>סַק</he></cite>, <he>סוּק</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 5:22\">Targ. II Sam. V, 22</cite>, sq. ",
+				"<cite ref=\"Onkelos Numbers 20:19\">Targ. O. Num. XX, 19</cite> <cite ref=\"N00957\"><he>נֵיסָּק</he></cite> ed. Berl. ",
+				"<cite ref=\"Onkelos Genesis 44:17\">Targ. Gen. XLIV, 17</cite>; a. fr.—",
+				"<cite ref=\"Kiddushin 50a:10\">Kidd. 50ᵃ</cite> <he>אדעתא למֵיסַק וכ׳</he> with the idea of going up to Palestine. ",
+				"<cite ref=\"Beitzah 27a:6\">Bets. 27ᵃ</cite> <he>אזכי ואִסַּק</he>; <cite ref=\"Moed Katan 22a\">M. Kat. 22ᵃ</cite> <he>ואֵיסק</he> (not <he>ואסיק</he>), a. e., v. <cite ref=\"G00456\"><he>זְכֵי</he></cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסֵּיק", "אֲסֵיק"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to rise, to bring up, offer</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 2:9\">Targ. Lev. II, 9</cite>, a. fr. (h. text <cite ref=\"S00823\"><he>הקטיר</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on II Samuel 6:2\">Targ. II Sam. VI, 2</cite> <he>לַאֲסָקָא</he> ed. Wil. ",
+						"<cite ref=\"Onkelos Leviticus 11:3\">Targ. Lev. XI, 3</cite>, sq.; a. fr.—",
+						"<cite ref=\"Targum Jonathan on Joshua 17:13\">Targ. Josh. XVII, 13</cite> <he>מַסְקֵי מסין</he> <i>tributaries</i>.—Y. Keth. XI, 34ᵇ bot. <he>והוה מַסֵּיק לון מזונין וכ׳</he> and he offered them support as long as they lived. ",
+						"<cite ref=\"Gittin 56b\">Gitt. 56ᵇ</cite>, a. fr. <he>אַסְּקֵיה וכ׳</he>, v. <cite ref=\"N00156\"><he>נְגִידָא</he> III</cite>. Y. Peah I, 15ᶜ <he>אַסְּקוּנֵיה למאתים וכ׳</he> they raised the offer to two hundred, to one thousand; Y. Kidd. I, 61ᵇ top <he>אַסְּקִינֵיה</he>. Y. Maas. Sh. IV, end, 55ᶜ <he>מַסִּיק חסין</he> will produce lettuce; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (sub. <cite ref=\"B00748\"><he>בישרא</he></cite>) <i>to produce new flesh, to heal</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 69a:13\">Gitt. 69ᵃ</cite> <he>לאַסּוּקֵי וכ׳</he> for healing let him take &c."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to heat</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 2:6\">Targ. Koh. II, 6</cite>."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to finish</i>. ",
+					"units": [
+						"<cite ref=\"Sukkah 39a:1\">Succ. 39ᵃ</cite> <he>אַסּוּקֵי מילתא</he> the winding up of a proceeding; <cite ref=\"Yevamot 106b\">Yeb. 106ᵇ</cite> Ar. (ed. <he>אפסוקי</he>)."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": " (with <he>בִּשְׁמָא</he>) <i>to name after, to adopt a name</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 38b:4\">Yoma 38ᵇ</cite> <he>לא מַסְּקִינָן בשמייהו</he> we do not name children after them. ",
+						"<cite ref=\"Gittin 11b:2\">Gitt. 11ᵇ</cite> <he>דלא שכיחי ישראל דמַסְּקֵי בשמהתייהו</he> names which Israelites are not in the habit of adopting. ",
+						"<cite ref=\"Shevuot 29a\">Shebu. 29ᵃ</cite> <he>ואסיק להו</he> (<he>שמא</he>) <he>זוזי</he> and named them coins; a. e."
+					],
+					"label": "5"
+				},
+				{
+					"gloss": " (with <he>זוזי</he>, a. <cite ref=\"B00000\"><he>ב</he></cite> of person) <i>to produce a claim against</i>. ",
+					"units": [
+						"<cite ref=\"Shevuot 41b:13-14\">Shebu. 41ᵇ</cite> <he>הב לי … דמַסִּיקְנָא בך</he> give me the one hundred Zuz which I claim against thee (which thou owest me). ",
+						"<cite ref=\"Ketubot 85a:4\">Keth. 85ᵃ</cite> <he>הוו מַסְּקֵּי ביה זוזי וכ׳</he>, v. <cite ref=\"H00285\"><he>חוֹזָאֵי</he></cite>. ",
+						"<cite ref=\"Bava Kamma 97a:5\">B. Kam. 97ᵃ</cite> <he>אינשי דמסיק בהו זוזי</he> persons against whom he had a claim; a. e."
+					],
+					"label": "6"
+				},
+				{
+					"gloss": " (with <he>אדעתא</he>) <i>to have in mind</i>. ",
+					"units": [
+						"<cite ref=\"Shevuot 29a:12\">Shebu. 29ᵃ</cite> <he>דמסקי אדעתייהו וכ׳</he> they might have in mind an idol."
+					],
+					"label": "7"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתַּסַּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be offered up</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 2:12\">Targ. O. Lev. II, 12</cite> <he>יִתַּסְּקוּן</he> ed. Berl. (oth. ed. a. Y. <he>יְתַסְקוּן</he>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be kindled, burnt</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 78:21\">Targ. Ps. LXXVIII, 21</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ittaf."
+		}
+	]
+}

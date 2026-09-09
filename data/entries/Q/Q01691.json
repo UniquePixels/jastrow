@@ -1,0 +1,22 @@
+{
+	"id": "Q01691",
+	"slug": "פרומאה",
+	"headword": {
+		"text": "פְּרוֹמָאָה"
+	},
+	"page": {
+		"number": 1220,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01869\"><he>פְּרַם</he></cite>) <i>house-breaker, burglar</i>.—Pl. <he>פּרוֹמָאֵי</he>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 42a:7\">B. Mets. 42ᵃ</cite> <he>והאידנא דשכיחי פ׳</he> and nowadays when burglars are frequent (who split joists to hunt for money hidden in them)."
+			]
+		}
+	]
+}

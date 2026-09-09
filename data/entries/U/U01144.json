@@ -1,0 +1,39 @@
+{
+	"id": "U01144",
+	"slug": "שכיב-2",
+	"headword": {
+		"text": "שָׁכִיב"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁכִיבָא"
+		}
+	],
+	"page": {
+		"number": 1573,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"U01143\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lying</i>; <he>שְׁכִיב מרע</he> <i>dangerously ill</i>, v. <cite ref=\"M02730\"><he>מְרַע</he> II</cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>dead, deceased</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 25:5\">Targ. Y. Deut. XXV, 5</cite>, sq. ",
+				"<cite ref=\"Aramaic Targum to Psalms 31:13\">Targ. Ps. XXXI, 13</cite>; a. fr.—[<cite ref=\"Bava Metzia 73b:7\">B. Mets. 73ᵇ</cite>, read: <he>שְׁכִיבְנָא</he>, v. <cite ref=\"U01115\"><he>שְׁכֵב</he></cite>.]—Pl. <cite ref=\"U01300\"><he>שְׁכִיבַיָּא</he></cite>, <he>שְׁכִיבִין</he>, <he>שְׁכִיבֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Ruth 1:8\">Targ. Ruth I, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 4:2\">Targ. Koh. IV, 2</cite> (not <cite ref=\"U01144\"><he>שכיבא</he></cite>); a. e.—",
+				"<cite ref=\"Sanhedrin 46b\">Snh. 46ᵇ</cite>, v. <cite ref=\"J00584\"><he>יְקָרָא</he></cite>. ",
+				"<cite ref=\"Shabbat 109b\">Sabb. 109ᵇ</cite> <he>בי ש׳</he> Ar. <i>in the cemetery</i>, v. <cite ref=\"U00784\"><he>שֵׁיבָבָא</he></cite>; a. e.—V. <cite ref=\"U01117\"><he>שִׁכְבָּא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

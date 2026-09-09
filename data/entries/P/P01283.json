@@ -1,0 +1,25 @@
+{
+	"id": "P01283",
+	"slug": "ערבית-1",
+	"headword": {
+		"text": "עֲרָבִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַרְבִית"
+		}
+	],
+	"page": {
+		"number": 1113,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>Arabian woman</i>, v. <cite ref=\"P01280\"><he>עֲרָבִי</he></cite> h.",
+			"units": []
+		}
+	]
+}

@@ -10,7 +10,7 @@ truth layer, compile truth into serving artifacts on every deploy
 |---|---|---|---|
 | Source acquisition | `fetch.ts` | working | on demand, re-runnable |
 | Print locator index | `page-index/build.ts` | built 2026-08-17, data committed | once (needs the IA hOCR) |
-| Migration (source → truth) | `migrate.ts` | built, awaiting blessing | once, then retires |
+| Migration (source → truth) | `migrate.ts` | run 2026-09-09 | done; retires at CP-2 |
 | Compile (truth → serving) | `compile.ts` | designed, not built | every deploy |
 
 Migration and compile are specified in the
@@ -81,9 +81,13 @@ layer (`data/entries/`), per the
 closed tag vocabulary, refs resolution, slug assignment, and the
 print-locator (`page`/`column`) enrichment — read from the hOCR page
 index (`data/page-index/entries.jsonl`, all 32,512 entries). Gated by
-blessing checks (golden
-render diffs, round-trips, chain agreement); runs once, then retires
-into repo history.
+the nine blessing gates of the
+[migrate spec](../../docs/specs/2026-09-06-migrate-design.md) §4.1 —
+round-trips, text conservation, schema, chain agreement, internal
+targets, slugs, pages, composition. Run once on 2026-09-09 with all
+nine green; evidence in
+[docs/v2/migration-blessing.md](../../docs/v2/migration-blessing.md).
+Retires into repo history at the CP-2 layout cleanup.
 
 ## Stage 3 — Compile (`compile.ts`, not yet built)
 

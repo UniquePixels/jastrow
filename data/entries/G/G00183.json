@@ -1,0 +1,23 @@
+{
+	"id": "G00183",
+	"slug": "זום-2",
+	"headword": {
+		"text": "זוֹם"
+	},
+	"page": {
+		"number": 387,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00182\">preced.</cite>, cmp. <cite ref=\"G00525\"><he>זָמִית</he></cite>) <i>juice, brine</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 7:4\">Num. R. s. 7</cite> <he>הז׳ של בשר</he> the juice (or brine) of meat.—",
+				"<cite ref=\"Mishnah Pesachim 3:1\">Pes. III, 1</cite>, v. <cite ref=\"G00184\">next w.</cite>"
+			]
+		}
+	]
+}

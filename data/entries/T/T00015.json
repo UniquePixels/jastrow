@@ -1,0 +1,56 @@
+{
+	"id": "T00015",
+	"slug": "ראיה-1",
+	"headword": {
+		"text": "רְאִיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְאִיָּיה"
+		}
+	],
+	"page": {
+		"number": 1436,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00011\"><he>רָאָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>seeing, look, glance</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 2b:13\">B. Bath. 2ᵇ</cite> <he>היזק ר׳ לאו וכ׳</he> the discomfort of being exposed to (a neighbor’s) sight is no claimable damage; <cite ref=\"Bava Batra 3a:6\">ib. 3ᵃ</cite>; <cite ref=\"Bava Batra 59b:4\">59ᵇ</cite>. ",
+				"<cite ref=\"Niddah 31a:29\">Nidd. 31ᵃ</cite> <he>רְאִיַּית העיין</he> the faculty of sight. ",
+				"<cite ref=\"Bereishit Rabbah 9:3\">Gen. R. s. 9</cite> (ref. to <cite ref=\"Genesis 1:31\">Gen. I, 31</cite>) <he>מלך … ר׳ אחת וכ׳</he> when a human king builds a palace, he casts one (examining) glance at the upper stories and another at the lower; <he>אבל … ר׳ אחת</he> but the Lord casts one look at both; <he>העוה״ז … ר׳ אחת</he> with one glance the Lord surveyed this world and the world to come; Yalk. ib. 15 <he>בר׳</he>. ",
+				"<cite ref=\"Eichah Rabbah 5:1\">Lam. R. to V, 1</cite> <he>ר׳ מרחוק</he> <i>raah</i> is used for looking from a distance, v. <cite ref=\"E00033\"><he>הַבָּטָה</he></cite>; a. fr.—Pl. <he>רְאִיּוֹת</he>, <he>רְאִיּיוֹת</he>. ",
+				"<cite ref=\"Shemot Rabbah 3:2\">Ex. R. s. 3</cite> (ref. to <he>ראה ראיתי</he>, <cite ref=\"Exodus 3:7\">Ex. III, 7</cite>) <he>ואני רואה שתי ר׳</he>, v. <cite ref=\"T00011\"><he>רָאָה</he></cite>; Tanḥ. Sh’moth 20; <cite ref=\"Shemot Rabbah 42:5\">Ex. R. s. 42</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <cite ref=\"S02017\"><he>קרי</he></cite>, <cite ref=\"D00867\"><he>דם</he></cite>, <cite ref=\"G00263\"><he>זיבה</he></cite> &c.) <i>feeling, affection, attack</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zavim 1:1\">Zab. I, 1</cite> <he>הרואה ר׳ אחת של זוב</he> he who has had one attack of gonorrhœa. ",
+				"<cite ref=\"Mishnah Zavim 1:6\">Ib. 6</cite> <he>מקצת הר׳ מהיום וכ׳</he> one of the attacks on one day, and another on the day after; a. fr.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Niddah 37b:14\">Nidd. 37ᵇ</cite> <he>מטמיא בר׳ כבימים</he> becomes unclean by a certain number of attacks (even if they all be on one day) as well as by a certain number of days. ",
+				"<cite ref=\"Bava Kamma 24a:1\">B. Kam. 24ᵃ</cite> <he>קירבה רְאִיּוֹתֶיהָ</he> if she had her attacks at short intervals; <he>ריחקה ר׳</he> at long intervals; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (with ref. to <cite ref=\"Exodus 23:17\">Ex. XXIII, 17</cite>) <i>appearance in the Temple, pilgrimage</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chagigah 1:1\">Ḥag. I, 1</cite> <he>הכל חייבים בר׳ וכ׳</he> all (males) are under obligation to appear in the Temple, except &c. ",
+				"<cite ref=\"Mishnah Chagigah 1:2\">Ib. 2</cite> <he>הר׳ מעה כסף</he> the pilgrim’s burnt-offering must be worth a m’ʿah of silver (v. <cite ref=\"T00018\"><he>רֵאָיוֹן</he></cite>). ",
+				"<cite ref=\"Chagigah 7a:3\">Ib. 7ᵃ</cite> (ref. to <cite ref=\"T00018\"><he>ראיון</he></cite>, <cite ref=\"Mishnah Peah 1:1\">Peah I, 1</cite>) <he>רְאִיַּית פנים בעזרה</he> it means the appearance in the Temple (has no limits, you may visit the Temple during the festive season as often as you desire); (another opinion) <he>ראיית פנים בקרבן</he> it means the visit connected with a sacrifice (and you must offer a sacrifice as often as you appear); <cite ref=\"Jerusalem Talmud Peah 1:1:8\">Y. Peah I, 15ᵃ</cite> bot. [read:] <he>מתניתן בר׳ פנים אבל ר׳ קרבן יש לה שיעור</he> the Mishnah in saying that <i>reayon</i> has no limits refers to the number of appearances, but as regards the visit attended with sacrifice, it has a limit (as to the minimum value of the sacrifice). ",
+				"<cite ref=\"Chagigah 6a:11\">Ḥag. 6ᵃ</cite> <he>עולה … עולת ר׳ הואי</he> the burnt-offering which the Israelites brought in the desert (<cite ref=\"Exodus 24:15\">Ex. XXIV, 15</cite>) was the offering of appearance before God; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

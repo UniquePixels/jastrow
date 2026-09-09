@@ -1,0 +1,29 @@
+{
+	"id": "T01010",
+	"slug": "רקב-3",
+	"headword": {
+		"text": "רְקֵב"
+	},
+	"page": {
+		"number": 1495,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T01009\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִירְקִיב</he> <i>to become</i> <cite ref=\"T01011\"><he>רָקָב</he></cite> (v. <cite ref=\"T01009\">preced.</cite> <i>Hif.</i>). ",
+					"units": ["<cite ref=\"Nazir 51a:10\">Naz. 51ᵃ</cite>, sq."]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

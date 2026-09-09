@@ -1,0 +1,23 @@
+{
+	"id": "H00375",
+	"slug": "חומטא-2",
+	"headword": {
+		"text": "חוּמְטָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 435,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H00374\">preced.</cite>; prob. from its gray-blackish color) <i>a lizard</i> (<i>chamæleon</i>). ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:30\">Targ. O. Lev. XI, 30</cite> (h. text <cite ref=\"H01169\"><he>חֹמֶט</he></cite>)."
+			]
+		}
+	]
+}

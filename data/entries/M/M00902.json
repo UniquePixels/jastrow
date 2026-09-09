@@ -1,0 +1,31 @@
+{
+	"id": "M00902",
+	"slug": "מחמר",
+	"headword": {
+		"text": "מְחַמַּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְחַמְּרָא"
+		},
+		{
+			"text": "מַחְמְ׳"
+		}
+	],
+	"page": {
+		"number": 762,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חֲמַר</he> I) <i>a pile of debris, mound</i> (<i>of a ruined place</i>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 17:1\">Targ. Is. XVII, 1</cite> <cite ref=\"M00687\"><he>כרך מ׳</he></cite> a fortress of debris.—Pl. <he>מְחַמְּרִין</he>, <cite ref=\"M00902\"><he>מַחְמְ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 140:11\">Targ. Ps. CXL, 11</cite>.—V. <cite ref=\"D00890\"><he>דִּמְחַמְרָא</he></cite>."
+			]
+		}
+	]
+}

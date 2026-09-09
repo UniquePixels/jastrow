@@ -1,0 +1,23 @@
+{
+	"id": "I00812",
+	"slug": "טריפולאי",
+	"headword": {
+		"text": "טְרִיפוֹלָאֵי"
+	},
+	"page": {
+		"number": 554,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (denom. of Tripolis) <i>Tripolitans, residents of Tripolis</i> on the Phoenician coast. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 10:17\">Targ. Y. II, Gen. X, 17</cite> (h. text <cite ref=\"H00308\"><he>חוי</he></cite>)."
+			]
+		}
+	]
+}

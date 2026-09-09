@@ -1,0 +1,32 @@
+{
+	"id": "V00031",
+	"slug": "תאר-2",
+	"headword": {
+		"text": "תָּאַר"
+	},
+	"page": {
+		"number": 1642,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>תֵּאֵר</he> (denom. of <cite ref=\"V00141\"><he>תּוֹאַר</he></cite>) <i>to shape; to give a fine appearance to, improve</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10<sup>10</sup></cite> <he>הגילוח מְתָאֲרוֹ ומייפהו</he> cutting his hair improves his appearance, and makes him handsome.—Part. pass. <he>מְתוֹאָר</he>. ",
+						"<cite ref=\"Pirkei DeRabbi Eliezer 11\">Pirké d’R. El. ch. XI</cite> <he>היה מת׳ בדמות וכ׳</he> was formed in the image of God."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

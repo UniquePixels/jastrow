@@ -1,0 +1,57 @@
+{
+	"id": "C00779",
+	"slug": "גיסטרא",
+	"headword": {
+		"text": "גִּיסְטְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּסְטְרָא"
+		},
+		{
+			"text": "גִּצְטְרָא"
+		}
+	],
+	"page": {
+		"number": 240,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>גזרזרא</he>, a reduplic. of <he>גזר</he>; for assimilation of sibilants cmp. Nöld. Mand. Gr. p. 45 sq.) <i>something defective, mutilated</i> ;",
+			"units": []
+		},
+		{
+			"gloss": "<i>a large vessel which turned out defective or unwieldy</i>, by having its handles broken off or being cracked, and is therefore used as a <i>receptacle for refuse,</i> as <i>a pickling pot</i>, as <i>a receiver of drippings</i> from a leaking vessel &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 2:6\">Kel. II, 6</cite> <he>גס׳ שנמצאת וכ׳</he> (Ar.  a defective vessel found in the furnace (in which vessels are put for baking); Tosef. ",
+				"<cite ref=\"Mishnah Kelim 2:6\">ib.</cite> ",
+				"<cite ref=\"Mishnah Bava Kamma 3:10\">B. Kam. III, 10</cite> <he>ואם היתה גסטרה</he> but if the jug turned out a <i>gistra</i>, contrad. to <he>נפחתה</he>. ",
+				"<cite ref=\"Mishnah Bava Kamma 3:10\">Ib.</cite> <he>אי זו היא גסטרא כל שנסדקין אזניה וכ׳</he> (<cite ref=\"Mishnah Kelim 4:3\">Kel. IV, 3</cite> <he>גיס׳ כל שניטלו וכ׳ …</he>) when is a vessel called <i>gistra?</i> When its handles are split (broken off) &c. Ib. 2 <he>גי׳ שנתרועעה וכ׳</he> if a <i>gistra</i> is broken so as to be no longer a receptacle for liquids, though it may yet receive eatables, it is not susceptible of uncleanness, for there is no fragment of a fragment, i.e. a fragment of a <i>gistra</i> is no longer considered a vessel. ",
+				"<cite ref=\"Shabbat 96a:1\">Sabb. 96ᵃ</cite> (a leaking <i>gistra</i> is not considered a vessel) because nobody says <he>הָבֵא ג׳ לג׳</he> bring a <i>g</i>. to be put under a <i>gistra;</i> a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>an animal body maimed to disfigurement</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 21a:9\">Ḥull. 21ᵃ</cite>; <cite ref=\"Chullin 32b:7\">32ᵇ</cite> <he>עשאה ג׳ נבלה</he> if one made an animal a <i>gistra</i> by lacerating some of its limbs, it is considered a carcass. ",
+				"<cite ref=\"Chullin 52a:19\">Ib. 52ᵃ</cite> <he>ג׳ קאמריתו</he> ye speak of a maimed body (a rib on each side disjointed)! <cite ref=\"Chullin 27a:7\">Ib. 27ᵃ</cite> <he>דלא לישוייה ג׳</he> that in cutting the animal’s throat one must not make it a <i>gistra</i> (by cutting the head off). ",
+				"<cite ref=\"Sanhedrin 52b:15\">Snh. 52ᵇ</cite> <he>דעביד ליה ג׳</he> that the culprit be cut in two.—",
+				"<cite ref=\"Chullin 124a:11\">Ḥull. 124ᵃ</cite> <he>דעבדיה ג׳</he> he split the stove lengthwise.—Pl. <he>גִּיסְטְרָאוֹת</he>, <cite ref=\"C01171\"><he>גִּיסְטְרָיוֹת</he></cite>. ",
+				"<cite ref=\"Tosefta Kelim Kamma 3:8\">Tosef. Kel. B. Kam. III, 8</cite> <he>שרובן מן הג׳</he> for most of the fragments of pottery found in the potter’s place come from misshaped vessels. ",
+				"<cite ref=\"Mishnah Makhshirin 2:3\">Makhsh. II, 3</cite> <he>ג׳ שישראל וכ׳</he> pots into which Israelites and gentiles cast their refuse.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:1:5\">Y. Sabb. III, beg. 5ᶜ</cite> <he>ממלא גִּצְרָא וכ׳</he> one may fill a large pot with hot ashes &c."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (castra) <i>camp</i>, v. <cite ref=\"C01169\"><he>גַּסְטְרָא</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

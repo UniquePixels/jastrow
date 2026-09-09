@@ -1,0 +1,22 @@
+{
+	"id": "M03043",
+	"slug": "מתחתא",
+	"headword": {
+		"text": "מְתַחְתָּא"
+	},
+	"page": {
+		"number": 861,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M03040\"><he>מְתַח</he></cite>) <i>stretching</i>; <he>מ׳ דמגילתא</he> <i>the borders of stretched</i> parchment, distinguishable by their darker color. ",
+			"units": [
+				"<cite ref=\"Gittin 88a:4\">Gitt. 88ᵃ</cite> <he>דידיעא ביה מ׳ דמ׳</he> when the borders of the document are distinguishable (evidence that nothing has been cut off)."
+			]
+		}
+	]
+}

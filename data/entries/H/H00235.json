@@ -1,0 +1,38 @@
+{
+	"id": "H00235",
+	"slug": "חובא-1",
+	"headword": {
+		"text": "חוֹבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוֹבָה"
+		}
+	],
+	"page": {
+		"number": 429,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"H00233\"><he>חוֹב</he> I</cite><i>debt</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 19:15\">Targ. Y. Deut. XIX, 15</cite> <he>חוֹב ממון</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 3:12\">Targ. Is. III, 12</cite> <he>מרי ח׳</he> creditors (h. text <he>נָשִׁים</he>!)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sin, guilt</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 20:9\">Targ. Gen. XX, 9</cite> (O. ed. Amst. <cite ref=\"H00239\"><he>חוֹבָאָה</he></cite>); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 77ᵈ</cite> bot. <he>דין עבד חדא ח׳</he> this one comitted one sin and died in it; <cite ref=\"Jerusalem Talmud Sanhedrin 6:6:5\">Y. Snh. VI, 23ᶜ</cite> <he>חד חובה</he>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 6:6:5\">Ib.</cite> <he>ומה ח׳ וכ׳</he> and what was the sin he committed?—Pl. <he>חוֹבִין</he>, <he>חוֹבַיָּא</he>, <he>חוֹבֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 10:4\">Targ. Koh. X, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 13:1\">Targ. I Sam. XIII, 1</cite>; a. e.—",
+				"<cite ref=\"Eichah Rabbah 1:26\">Lam. R. to I, 2</cite> <he>ח׳ בישיא וכ׳</he> (not <cite ref=\"B00740\"><he>בישא</he></cite>) bad debts have you contracted &c."
+			],
+			"label": "2"
+		}
+	]
+}

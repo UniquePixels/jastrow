@@ -1,0 +1,45 @@
+{
+	"id": "R00566",
+	"slug": "צמח-2",
+	"headword": {
+		"text": "צְמַח"
+	},
+	"page": {
+		"number": 1287,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"R00565\">same</cite> <cite ref=\"Onkelos Genesis 2:5\">Targ. Gen. II, 5</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 7:10\">Targ. Ez. VII, 10</cite>; a. fr.—",
+				"<cite ref=\"Chullin 60b:6\">Ḥull. 60ᵇ</cite> <he>שדי … ולא צ׳</he> he put seed in it, but it did not sprout, <he>אתא מיטרא וצ׳</he> a rain came, and it sprouted. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 2:3:3\">Y. Kil. II, 27ᵈ</cite> <he>מן דזרע צַמְחִין</he> after he had sown, they (the vines which had been cut down) grew up again. Y. Maas. Sh. IV, end, 55ᶜ <he>צמחין</he> the wheat in the storehouse will sprout (and be ruined)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַצְמַח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"R00565\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 10:5\">Targ. O. Ex. X, 5</cite> (Y. <i>Pe.</i>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to grow, produce</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 2:9\">Targ. O. Gen. II, 9</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 132:17\">Targ. Ps. CXXXII, 17</cite>; a. e.—",
+						"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד כות׳</he> 1) <he>דאינון מַצְמְחִין עשבין וכ׳</he> that they (the wheat stores) shall produce sproutings, and this man (thou) shall have no benefit of them."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "S01523",
+	"slug": "קנבוס",
+	"headword": {
+		"text": "קַנְבּוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַנְבִּיס"
+		},
+		{
+			"text": "קַנְבָּס"
+		}
+	],
+	"page": {
+		"number": 1388,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κάνναβος, κάνναβις) <i>hemp</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 2:5\">Kil. II, 5</cite> (Ar. <he>קנביס</he>). Ib. V, 8 <he>הק׳</he> hemp planted in a vineyard; a. fr.—[<cite ref=\"Shabbat 120a:1\">Sabb. 120ᵃ</cite> <he>הקנבוס</he> Ms. M., v. <cite ref=\"S00326\"><he>קוֹלְבִין</he></cite>.]"
+			]
+		}
+	]
+}

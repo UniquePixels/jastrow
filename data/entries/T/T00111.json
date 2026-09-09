@@ -1,0 +1,31 @@
+{
+	"id": "T00111",
+	"slug": "רבית-1",
+	"headword": {
+		"text": "רִבִּית"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1443,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00046\"><he>רָבַב</he></cite> = b. h. <cite ref=\"V00932\"><he>תַּרְבִּית</he></cite>) [<i>profit</i>,] <i>interest</i> on a loan, <i>usury</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 61b\">B. Kam. 61ᵇ</cite>, v. <cite ref=\"S01836\"><he>קָצַץ</he></cite>, a. <cite ref=\"A00188\"><he>אָבָק</he></cite>. ",
+				"<cite ref=\"Tosefta Bava Kamma 4:3\">Tosef. ib. IV, 3</cite>, v. <cite ref=\"E00726\"><he>הַעֲרָמָה</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 31:17\">Ex. R. s. 31</cite>, a. fr. <he>מלוה</he> (<cite ref=\"B00000\"><he>ב</he></cite>)<he>ר׳</he>, v. <cite ref=\"L00206\"><he>לָוָה</he></cite>. Tosef. l. c. <he>יש דברים שהן ר׳ ואינן ר׳</he> there are such transactions as have the appearance of usury, but are not usury (are not forbidden). ",
+				"<cite ref=\"Bava Metzia 63a:11\">B. Mets. 63ᵃ</cite>, a. fr. <he>צד אחד בר׳</he> one-sided (eventual) usury, a transaction which may eventually result in paying interest on a loan, e.g. advanced payment for fruit to be delivered at some future time at present prices with the option, in case of a rise in the market, of returning the money and paying the difference, in which latter case it looks like paying interest on a loan; a. v. fr.—Pl. <he>רִבִּיּוֹת</he>, <cite ref=\"T00053\"><he>רִי׳</he></cite>. ",
+				"<cite ref=\"Tosefta Bava Metzia 6:17\">Tosef. B. Mets. VI, 17</cite> <he>מלוי ר׳ כופרין וכ׳</he> those who lend on interest deny the essence &c. (v. <cite ref=\"P00666\"><he>עִיקָּר</he></cite>); (Y. ib. V, end, 10ᵈ <he>מלוה ברבית</he>). Tosef. l. c. 18."
+			]
+		}
+	]
+}

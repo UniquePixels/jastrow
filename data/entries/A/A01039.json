@@ -1,0 +1,22 @@
+{
+	"id": "A01039",
+	"slug": "אחמר",
+	"headword": {
+		"text": "אַחְמַר"
+	},
+	"page": {
+		"number": 40,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חמר</he>) <i>ruby</i>, name of a jewel in the High-priest’s breast-plate. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:14\">Targ. Cant. V, 14</cite>; v. <cite ref=\"O01132\"><he>סַמְקָן</he></cite>."
+			]
+		}
+	]
+}

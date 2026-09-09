@@ -1,0 +1,23 @@
+{
+	"id": "R00749",
+	"slug": "צרור-1",
+	"headword": {
+		"text": "צֵרוּר",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1300,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>צָרַר</he> I) <i>enmity</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 21:6\">Num. R. s. 21</cite> <he>בזיון ומלחמות וצ׳</he> disgrace, wars and enmity (Tanḥ. Pinḥ. 3 <he>צרות</he>)."
+			]
+		}
+	]
+}

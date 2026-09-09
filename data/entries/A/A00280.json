@@ -1,0 +1,23 @@
+{
+	"id": "A00280",
+	"slug": "אגורה",
+	"headword": {
+		"text": "אֲגוֹרָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 12,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A00340\"><he>אגר</he></cite>) prop. <i>store-room</i>, hence <i>the compartments of the nut-shell</i>. Pl. <he>אֲגוֹרוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite> as the nut has <he>ארבע א׳</he> four compartments (<cite ref=\"Yalkut Shimoni on Nach 992:41\">Yalk. Cant. 992</cite> <he>מגורות</he>)."
+			]
+		}
+	]
+}

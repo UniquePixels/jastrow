@@ -1,0 +1,37 @@
+{
+	"id": "M00038",
+	"slug": "מאכולת",
+	"headword": {
+		"text": "מַאֲכוֹלֶת"
+	},
+	"page": {
+		"number": 723,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A01696\"><he>אָכַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>louse</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 14a:28\">Nidd. 14ᵃ</cite>. ",
+				"<cite ref=\"Niddah 52b:47\">Ib. 52ᵇ</cite>. ",
+				"<cite ref=\"Tosefta Shabbat 16:21\">Tosef. Sabb. XVI</cite> (<cite ref=\"Tosefta Shabbat 17:21\">XVII</cite>), 21; <cite ref=\"Shabbat 12a:10\">Sabb. 12ᵃ</cite>; a. fr.—Pl. <cite ref=\"M00038\"><he>מַאֲכוֹלוֹת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Niddah 2:1:7\">Y. Nidd. II, 49ᵈ</cite> bot. (ed. Krot. sing.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>wood-worm</i>.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:7:2\">Y. Taan. IV, 69ᶜ</cite> <he>אינן עושין מ׳</he> do not produce worms (are never worm-eaten); Lam. R. introd. (R. Z’era) <he>לֶת …</he> (sing.)."
+			],
+			"label": "2"
+		}
+	]
+}

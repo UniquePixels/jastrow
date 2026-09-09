@@ -1,0 +1,28 @@
+{
+	"id": "S01202",
+	"slug": "קירקנות",
+	"headword": {
+		"text": "קִירְקָנוֹת"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּרְ׳"
+		}
+	],
+	"page": {
+		"number": 1370,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (= <he>קירקרנ׳</he>, v. <cite ref=\"S01201\">preced.</cite>) <i>clappers</i>, a sort of <i>castanets</i>, used at wedding processions. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 43:1\">Pesik. R. s. 43</cite> <he>טוענים קי׳ וכ׳</he> (ed. Fr. <he>קו׳</he>) carrying castanets and marching before her."
+			]
+		}
+	]
+}

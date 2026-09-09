@@ -1,0 +1,31 @@
+{
+	"id": "U01029",
+	"slug": "שיץ-1",
+	"headword": {
+		"text": "שִׁיץ"
+	},
+	"page": {
+		"number": 1567,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"U01033\"><he>שֵׁיצֵי</he></cite>) <i>to go forth</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁיֵּיץ"],
+			"senses": [
+				{
+					"gloss": "<i>to finish</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 78\">Gen. R. s. 78</cite>; <cite ref=\"Yalkut Shimoni on Torah 133:2\">Yalk. ib. 133</cite> <he>שַׁיְּיצַת</he>, v. <cite ref=\"O00227\"><he>סוּב</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

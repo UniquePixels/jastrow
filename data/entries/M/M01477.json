@@ -1,0 +1,24 @@
+{
+	"id": "M01477",
+	"slug": "מלבוש",
+	"headword": {
+		"text": "מַלְבּוּשׁ"
+	},
+	"page": {
+		"number": 786,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"L00118\"><he>לָבַשׁ</he></cite>)<i>dress, cover</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shekalim 5:1\">Shek. V, 1</cite> <he>על המ׳</he>, v. <cite ref=\"L00118\"><he>לָבַשׁ</he></cite> <i>Hif.</i>—",
+				"<cite ref=\"Devarim Rabbah 7\">Deut. R. s. 7</cite>, end <cite ref=\"M01477\"><he>מַלְבּוּשׁוֹ</he></cite> its dress (shell), v. <cite ref=\"H01013\"><he>חִלָּזוֹן</he></cite>. ",
+				"<cite ref=\"Shabbat 113a:14\">Sabb. 113ᵃ</cite> <he>שלא יהא מַלְבּוּשְׁךָ של שבת כמלבושך וכ׳</he> that thy Sabbath dress be not the same as thy weekday dress."
+			]
+		}
+	]
+}

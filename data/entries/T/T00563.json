@@ -1,0 +1,23 @@
+{
+	"id": "T00563",
+	"slug": "רטיבא-2",
+	"headword": {
+		"text": "רְטִיבָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1471,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"T00354\"><he>רוֹטָב</he></cite>, <i>soft, green date</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 40b\">Erub. 40ᵇ</cite>, v. <cite ref=\"T00954\"><he>רִפְסָא</he></cite>."
+			]
+		}
+	]
+}

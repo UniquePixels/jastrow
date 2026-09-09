@@ -1,0 +1,25 @@
+{
+	"id": "U01308",
+	"slug": "שליח-1",
+	"headword": {
+		"text": "שָׁלִיחַ"
+	},
+	"page": {
+		"number": 1583,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01265\"><he>שָׁלַח</he></cite>) <i>deputy, agent</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 4:1\">Gitt. IV, 1</cite>. ",
+				"<cite ref=\"Gittin 62b:12\">Ib. 62ᵇ</cite> <he>ש׳ להולכה</he>, <he>ש׳ לקבלה</he>, v. <cite ref=\"E00237\"><he>הוֹלָכָה</he></cite>. ",
+				"<cite ref=\"Kiddushin 41a:9\">Kidd. 41ᵃ</cite> <he>הוא עושה ש׳</he> he (the husband) can appoint a deputy (to hand to her the letter of divorce); <he>היא עושה ש׳</he> she can depute an agent (to receive the letter of divorce); <he>הש׳ עושה ש׳</he> the agent may depute an agent. Ib.ᵇ <he>אין העבד נעשה ש׳ וכ׳</he> a slave cannot be deputed to receive a letter of divorce. Ib. 42ᵇ, a. fr. <he>אין ש׳ לדבר עבירה</he> there is no deputy for an illegal act, i.e. the responsibility for an illegal act cannot be shifted to the employer. ",
+				"<cite ref=\"Mishnah Berakhot 5:5\">Ber. V, 5</cite>, a. e. <he>ש׳ צבור</he>, v. <cite ref=\"R00295\"><he>צִיבּוּר</he></cite>; a. v. fr.—Pl. <he>שְׁלוּחִים</he>, v. <cite ref=\"U01243\"><he>שָׁלוּחַ</he></cite>."
+			]
+		}
+	]
+}

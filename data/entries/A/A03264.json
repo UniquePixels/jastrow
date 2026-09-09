@@ -1,0 +1,23 @@
+{
+	"id": "A03264",
+	"slug": "אשדתא",
+	"headword": {
+		"text": "אַשְׁדָּתָא"
+	},
+	"page": {
+		"number": 126,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>שדי</he> = h. <he>יָדוֹת</he>) <i>lateral supports, arms</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 10:19\">Targ. I Kings X, 19</cite>."
+			]
+		}
+	]
+}

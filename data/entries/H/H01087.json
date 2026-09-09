@@ -1,0 +1,22 @@
+{
+	"id": "H01087",
+	"slug": "חלמא-2",
+	"headword": {
+		"text": "חָלְמָא"
+	},
+	"page": {
+		"number": 471,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01086\">preced.</cite>, v. P. Sm. 1284) <i>dreamer, or interpreter of dreams</i>.—Pl. <he>חָלְמַיָּא</he>, constr. <he>חַלְמֵי</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 29:8\">Targ. Jer. XXIX, 8</cite> <he>חַלְמֵי חֶלְמֵיכוֹן וכ׳</he> (not <cite ref=\"H00967\"><he>חֶלְ׳</he></cite>, <cite ref=\"H01086\"><he>חִילְ׳</he></cite>) your dreamers (or interpreters) whom you consult."
+			]
+		}
+	]
+}

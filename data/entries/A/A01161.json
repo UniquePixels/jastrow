@@ -1,0 +1,42 @@
+{
+	"id": "A01161",
+	"slug": "אידין",
+	"headword": {
+		"text": "אֵידֵין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵידְנָא"
+		},
+		{
+			"text": "אַיְידָא אֵידָא"
+		},
+		{
+			"text": "אַיְידִי"
+		}
+	],
+	"page": {
+		"number": 45,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(h. <cite ref=\"A01194\"><he>אֵיזֶה</he></cite>, <cite ref=\"A01195\"><he>אֵיזוּ</he></cite>)<i>who now? what now? which now?</i> (<i>quisnam, quidnam</i>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 6:20\">Targ. I Sam. VI, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 2:10\">Targ. Jer. II, 10</cite>; a. fr.—",
+				"<cite ref=\"Tamid 32a:29\">Tam. 32ᵃ</cite> <he>א׳ מתקרי חכים</he> who is to be called wise? <cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> (<he>חד מאת׳</he> 4) <he>אחמי לי אידא וכ׳</he> show me now which of these is from a white goat &c. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 2:1:3\">Y. Pes. II, 28ᶜ</cite> top <he>ואיידא אמר דא</he> what (passage) now says this (is this derived from)? <cite ref=\"Jerusalem Talmud Sotah 5:5:4\">Y. Sot. V, 20ᶜ</cite> bot. <he>ואיידי חובתא עבדית</he> and what is the sin I have committed? <cite ref=\"Eichah Rabbah 3\">Lam. R. to III, 7</cite> <he>באידנא אסטרטיא וכ׳</he> by which road did you come? "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (ellipt.) <i>what do you want?</i> <cite ref=\"Jerusalem Talmud Bava Kamma 5:1:2\">Y. B. Kam. V, beg. 4ᵈ</cite>, v. <cite ref=\"E00341\"><he>הֵידָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

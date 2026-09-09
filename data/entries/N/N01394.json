@@ -1,0 +1,59 @@
+{
+	"id": "N01394",
+	"slug": "נתר-3",
+	"headword": {
+		"text": "נְתַר"
+	},
+	"page": {
+		"number": 946,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"N01345\"><he>נָשַׁר</he></cite> , <i>to fall off, drop; to fall apart, decay; to become wearied, faint</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 40:7\">Targ. Is. XL, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 64:5\">Ib. LXIV, 5</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 21b:14\">B. Mets. 21ᵇ</cite> <he>דנַתְרָא</he> that it (the fig) dropped (and was not taken off the tree). ",
+				"<cite ref=\"Bava Metzia 21b:15\">Ib.</cite> <he>אע״ג דנַתְרִין זיתי וכ׳</he> even when the olives have dropped &c. ",
+				"<cite ref=\"Shabbat 33b:9\">Sabb. 33ᵇ</cite> <he>וקא נַתְרָן דמעת עיניה</he> and the tears fell from his eyes; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַתֵּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to drop, shed, let fall</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ruth 2:16\">Targ. Ruth II, 16</cite>. ",
+						"<cite ref=\"Targum Jerusalem, Exodus 9:32\">Targ. Y. II, Ex. IX, 32</cite> <he>ואַתְּרַת</he> (not <he>ואִתָּ׳</he>).—Y. Kil. VII, beg. 30ᵈ <he>דמַתְּרָן טרפיהן וכ׳</he> where trees shed their leaves even in midsummer. ",
+						"<cite ref=\"Nazir 42a:13\">Naz. 42ᵃ</cite> <he>אדמה דלא מַתְּרָא</he> an earth which does not cause falling out of the hair; a. e.—Y. Yeb. XVI, 15ᵈ <he>אתרין</he>, v. infra."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["נַתֵּר"],
+			"senses": [
+				{
+					"gloss": " (neut. verb) <i>to crumble, fall in</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 9b:14\">B. Kam. 9ᵇ</cite> <he>בור דרכה לנַתּוּרֵי</he> a pit is liable to fall in (and mere covering it up is not a sufficient precaution)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to drop, shed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 1:30\">Targ. Is. I, 30</cite>; a. e.—Y. Yeb. XVI, 15ᵈ (if one says of a person) <he>נַתְּרִי פלוני</he>, ‘I have dropped that man’, you must not allow his wife to marry again (it does not necessarily mean that he saw him dead), for I may say, he means [read:] <he>אַתְּרִי לפלוני מאכל</he> I dropped that man something to eat."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

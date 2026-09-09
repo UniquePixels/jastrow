@@ -1,0 +1,27 @@
+{
+	"id": "H01065",
+	"slug": "חליקופרי",
+	"headword": {
+		"text": "חֲלִיקוּפְרִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲלִי קוּפְרִי"
+		}
+	],
+	"page": {
+		"number": 469,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (patron. of Σόλοι Κύπριοι) <i>one from Soloe</i> (<i>Aligora</i>), a sea-port town of Cyprus. ",
+			"units": [
+				"<cite ref=\"Mishnah Makhshirin 1:3\">Makhsh. I, 3</cite> Abba José <he>ח׳ איש טבעון</he> Ar. (ed. two words) of Soloe, a citizen of Tibon."
+			]
+		}
+	]
+}

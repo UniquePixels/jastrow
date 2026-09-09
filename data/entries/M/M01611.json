@@ -1,0 +1,23 @@
+{
+	"id": "M01611",
+	"slug": "מלפנא",
+	"headword": {
+		"text": "מַלְּפָנָא"
+	},
+	"page": {
+		"number": 793,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"M01562\"><he>מַלֵּיף</he></cite>) <i>teacher</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 21b:2\">Yeb. 21ᵇ</cite> <he>מ׳ הוית</he> thou shalt be a teacher. ",
+				"<cite ref=\"Bereishit Rabbah 68\">Gen. R. s. 68</cite>, beg. <he>מַלְּפָנִי</he>, v. <cite ref=\"M02048\"><he>מַעַבְדָּנָא</he></cite>."
+			]
+		}
+	]
+}

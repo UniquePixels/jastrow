@@ -1,0 +1,35 @@
+{
+	"id": "B00096",
+	"slug": "בד-4",
+	"headword": {
+		"text": "בַּד",
+		"homograph": 3
+	},
+	"page": {
+		"number": 138,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>בדד</he>)<i>single, separate</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 63b:12\">Ber. 63ᵇ</cite> (play on <i>baddim</i>, <cite ref=\"Jeremiah 50:36\">Jer. L, 36</cite>) <he>שיושבין ב׳ ב׳</he> who study separately (without interchange of ideas). Kerith 5ᵃ expl. ",
+				"<cite ref=\"Exodus 30:34\">Ex. XXX, 34</cite> <he>ב׳ בב׳</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " with pref. <he>לְ</he>, <cite ref=\"L00041\"><he>לְבַד</he></cite> (b. h.) <i>alone, only</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 8a:5\">Sot. 8ᵃ</cite> <he>אותה לְבַדָּהּ</he> <i>her</i> (<cite ref=\"Numbers 5:19\">Num. V, 19</cite>) indicates her alone (each separately); a. fr.—<he>בִּלְבַד</he> (adv.) <i>only</i>. ",
+				"<cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite> <he>ולא זו ב׳</he> (usu. with <he>אמרו</he>) and not only in this case did they make such a rule. ",
+				"<cite ref=\"Mishnah Megillah 1:5\">Meg. I, 5</cite> <he>אין בין … אלא … ב׳</he> there is no difference between Festivals and the Sabbath (as to forbidden labors) except only as to the preparation of the necessaries of life; a. fr.—וּבִלְבַד <i>but only, provided</i>. ",
+				"<cite ref=\"Mishnah Zevachim 5:8\">Zeb. V, 8</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

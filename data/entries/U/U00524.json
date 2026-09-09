@@ -1,0 +1,27 @@
+{
+	"id": "U00524",
+	"slug": "שוקא-2",
+	"headword": {
+		"text": "שׁוּקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוּקָה"
+		}
+	],
+	"page": {
+		"number": 1541,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"U00520\"><he>שׁוּק</he> II</cite>, <i>desire, pleasure, satisfaction</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 8:11\">Cant. R. to VIII, 11</cite> <he>לית ש׳ מן גביכון</he> no satisfaction comes from you (the angels), i.e. your compliance with the Law would afford no satisfaction to Me, because you have no temptations and trials to contend with."
+			]
+		}
+	]
+}

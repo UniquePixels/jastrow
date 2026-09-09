@@ -1,0 +1,24 @@
+{
+	"id": "C00695",
+	"slug": "גיחור",
+	"headword": {
+		"text": "גִּיחוֹר"
+	},
+	"page": {
+		"number": 237,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C00648\"><he>גִּיהַּ</he></cite> a. <cite ref=\"C00652\"><he>גִּיהְיָא</he></cite>) <i>red-spotted</i> in the face. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 7:6\">Bekh. VII, 6</cite>, expl. ",
+				"<cite ref=\"Bekhorot 45b:6\">ib. 45ᵇ</cite> <cite ref=\"O00351\"><he>סומקא</he></cite>. ",
+				"<cite ref=\"Berakhot 58b\">Ber. 58ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

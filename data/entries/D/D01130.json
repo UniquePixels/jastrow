@@ -1,0 +1,41 @@
+{
+	"id": "D01130",
+	"slug": "דרש-2",
+	"headword": {
+		"text": "דְּרַשׁ"
+	},
+	"page": {
+		"number": 325,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D01129\">same</cite>. [<cite ref=\"Targum Jonathan on Jeremiah 48:26\">Targ. Jer. XLVIII, 26</cite>, some ed., <he>ידרשון</he>, v. <cite ref=\"D01153\"><he>דְּשַׁשׁ</he></cite>.] <cite ref=\"Targum Jonathan on Judges 5:9\">Targ. Jud. V, 9</cite>.—",
+			"units": [
+				"<cite ref=\"Sukkah 51b:13\">Succ. 51ᵇ</cite> bot. <he>קרא אשכחו ודָרוּשׁ</he> they found a Bible verse and interpreted it. ",
+				"<cite ref=\"Arakhin 30b:3\">Arakh. 30ᵇ</cite> <he>איכא למִידְרְשִׁינְהוּ וכ׳</he> it may be interpreted in favor of a lenient practice &c.—",
+				"<cite ref=\"Sotah 21a:14\">Sot. 21ᵃ</cite> <he>דַּרְשַׁיה</he> … <he>להאי קרא</he> R. … interpreted this verse. ",
+				"<cite ref=\"Sotah 21a:15\">Ib.</cite> <he>מאי דָרוּשׁ</he> what verse did they interpret (to guide them in their action)?—",
+				"<cite ref=\"Beitzah 28a:19\">Bets. 28ᵃ</cite> <he>דַּרְשִׁינָן משמך</he> we taught in thy name. ",
+				"<cite ref=\"Yevamot 94a:10\">Yeb. 94ᵃ</cite> <he>הוה ליה</he> … <he>למִידְרַשׁ וכ׳</he> R. El. might have given a valuable interpretation &c., v. <cite ref=\"M02526\"><he>מַרְגְּנִיתָא</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 9:9\">Lev. R. s. 9</cite> <he>עד דיחסל מִמִּדְרַשׁ</he> until he ended his lecture. ",
+				"<cite ref=\"Berakhot 28a:13\">Ber. 28ᵃ</cite> <he>נִדְרוֹשׁ מר וכ׳</he> shall this teacher lecture one Sabbath, and the other &c.? <cite ref=\"Berakhot 28a:13\">Ib.</cite> <he>לִדְרוֹשׁ ר׳</he> (v. Rabb. D. S. a. l. note); a. v. fr.—דָּרֵישׁ <i>lecturer</i>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 12:6:6\">Y. Yeb. XII, 13ᵃ</cite> top <he>ד׳ ודיין וכ׳</he> to serve as lecturer, judge &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִידְּרִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be interpreted</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 63a:8\">Ber. 63ᵃ</cite> <he>האי קרא … מִדְּרִישׁ וכ׳</he> this verse (<cite ref=\"Psalms 119:126\">Ps. CXIX, 126</cite>) can be interpreted in its regular order (it is time to work &c., because people neglect the law) or in inverted order (the teachers ignore the letter of the law, because it is time to work for the Lord by guarding its spirit); ib. 60ᵃ; <cite ref=\"Sanhedrin 70a:17\">Snh. 70ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

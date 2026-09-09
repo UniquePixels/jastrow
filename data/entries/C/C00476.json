@@ -1,0 +1,25 @@
+{
+	"id": "C00476",
+	"slug": "גור-4",
+	"headword": {
+		"text": "גּוּר",
+		"homograph": 3
+	},
+	"page": {
+		"number": 226,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.;<cite ref=\"C01392\"><he>גרר</he></cite>, cmp. <he>בנו</he> <he>כרוך אחריו</he> <cite ref=\"Chullin 78b\">Ḥull. 78ᵇ</cite>) <i>young animal, whelp, cub</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 926:1\">Yalk. Job 926</cite> <he>עלה ג׳ אחד וכ׳</he> a young (R’êm) appeared in Palestine; <cite ref=\"Bereishit Rabbah 31:13\">Gen. R. s. 31</cite> <he>גורא א׳</he> (corr. acc.).—Pl. <he>גּוּרִים</he>. ",
+				"<cite ref=\"Bereishit Rabbah 31:13\">Ib.</cite> <he>גּוּרָיו וכ׳</he> his (the R’êm’s) whelps went into the ark. ",
+				"<cite ref=\"Bereishit Rabbah 98:10\">Gen. R. s. 98</cite> <he>גבורה של … של גוריו</he> the strength of the lion and the daring of his whelps.—<he>גּוּר אַרְיֵה</he> pr. n. m., v. <cite ref=\"C00493\"><he>גּוּרְיָא</he> II</cite>."
+			]
+		}
+	]
+}

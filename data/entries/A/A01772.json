@@ -1,0 +1,38 @@
+{
+	"id": "A01772",
+	"slug": "אלא-4",
+	"headword": {
+		"text": "אֶלָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִלָּא"
+		}
+	],
+	"page": {
+		"number": 66,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (contr. of <he>אִן לָא</he> = <he>אִם לֹא</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>if not, except, but, only</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 15:11\">Targ. O. Ex. XV, 11</cite> <he>לית אִ׳ את</he> none but thou, none besides thee; a. e.—",
+				"<cite ref=\"Mishnah Berakhot 5:1\">Ber. V, 1</cite> <he>אין עומדין … א׳ וכ׳</he> one must stand up for prayer in no other disposition but that of humility.—",
+				"<cite ref=\"Sanhedrin 4a\">Snh. 4ᵃ</cite> <he>לא נתן א׳ שלשה</he> he did only three times. ",
+				"<cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite> <he>ולא זו בלבד</he> (<he>אמרו</he>) <he>א׳ וכ׳</he> and not only in this case they said so, but wherever &c. ",
+				"<cite ref=\"Berakhot 5a:17\">Ib. 5ᵃ</cite> <he>אל תקרי תְלַמְּדֶנּוּ א׳ תְלַמְּדֵנוּ</he> read not <i>th’lamm’dennu</i> (thou instructest him) but <i>th’lamm’dēnu</i> (thou teachest us); a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (ellipt.) (you cannot say anything except …) <i>but</i>, a logical inference excluding all other explanations &c. Ib. 30ᵇ <he>א׳ לא שנא</he> but (the conclusion is proven) there is no difference. Ib. <he>א׳ אמר ר׳</he> but, said R. … we may derive it &c.; a. fr.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

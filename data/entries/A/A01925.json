@@ -1,0 +1,32 @@
+{
+	"id": "A01925",
+	"slug": "אלס-1",
+	"headword": {
+		"text": "אֲלַס"
+	},
+	"page": {
+		"number": 72,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"A01927\"><he>אַלַּס</he></cite>, <he>אַלֵּיס</he> (contr. of <he>אלעס</he>, v. <he>לעס</he>) <i>to craunch, bite</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 84a\">B. Kam. 84ᵃ</cite>. ",
+						"<cite ref=\"Gittin 70a:17\">Git. 70ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

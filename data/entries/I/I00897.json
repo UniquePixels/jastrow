@@ -1,0 +1,28 @@
+{
+	"id": "I00897",
+	"slug": "טרקיא",
+	"headword": {
+		"text": "טַרְקְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַרְקִין"
+		}
+	],
+	"page": {
+		"number": 558,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(Ar.  s. v. <cite ref=\"B00892\"><he>בלס</he></cite>: <cite ref=\"V01060\"><he>תַּרְקְיָא</he></cite>; cmp. <i>anthracias</i>, ἀνθράκιον) name of a <i>gem</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:19\">Targ. O. Ex. XXVIII, 19</cite> (Y. <cite ref=\"P01450\"><he>ערקין</he></cite>, corr. acc.); ib. XXXIX, 12. ",
+				"<cite ref=\"Targum Jonathan on Numbers 2:18\">Targ. Y. Num. II, 18</cite>."
+			]
+		}
+	]
+}

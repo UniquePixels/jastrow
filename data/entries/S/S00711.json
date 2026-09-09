@@ -1,0 +1,29 @@
+{
+	"id": "S00711",
+	"slug": "קטול-3",
+	"headword": {
+		"text": "קְטוֹל"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְטוֹלָא"
+		}
+	],
+	"page": {
+		"number": 1346,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00710\">preced.</cite>) <i>slaying, death</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 21:15\">Targ. Is. XXI, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 5:15\">Targ. Job V, 15</cite> Ms. (ed. <cite ref=\"S00748\"><he>קְטִילָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 2:26\">Targ. I Kings II, 26</cite>; a. fr.—Lam. R. introd. (R. Joḥ. 1) <he>ק׳ אכזראה</he> (some ed. <he>קטי׳</he>), v. <cite ref=\"A01680\"><he>אַכְזְרָאָה</he></cite>.—V. <cite ref=\"S00775\"><he>קְטָלָא</he></cite>, a. <cite ref=\"S00895\"><he>קִיטּוּל</he></cite>."
+			]
+		}
+	]
+}

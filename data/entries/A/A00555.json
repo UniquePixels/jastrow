@@ -1,0 +1,30 @@
+{
+	"id": "A00555",
+	"slug": "אודאה",
+	"headword": {
+		"text": "אוֹדָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹדָאוּתָא"
+		},
+		{
+			"text": "אוֹדוּתָא"
+		}
+	],
+	"page": {
+		"number": 22,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"F00017\"><he>ודי</he></cite>, Af. <cite ref=\"J00101\"><he>אודי</he></cite>) <i>thanksgiving</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 45:1\">Targ. Ps. XLV, 1</cite> (var. <he>אוֹדֵאָתָא</he>); a. e."
+			]
+		}
+	]
+}

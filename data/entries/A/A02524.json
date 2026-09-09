@@ -1,0 +1,32 @@
+{
+	"id": "A02524",
+	"slug": "אספרמקי",
+	"headword": {
+		"text": "אִסְפַּרְמְקֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִי׳"
+		},
+		{
+			"text": "אספרקמי"
+		}
+	],
+	"page": {
+		"number": 97,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. Löw Aram. Pfl. p. 152) <i>smelling herbs, scent-box</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 36b:7\">Bets. 36ᵇ</cite> <he>בא׳ וכ׳</he> (ed. <cite ref=\"A00121\"><he>בי א׳</he></cite>) in the scent-box of R. A.; <cite ref=\"Shabbat 121b:3\">Sabb. 121ᵇ</cite> <he>בא׳</he> (Var. <he>באי׳</he>). ",
+				"<cite ref=\"Menachot 43b\">Men. 43ᵇ</cite> <cite ref=\"A02526\"><he>אספרקמי</he></cite> ed."
+			]
+		}
+	]
+}

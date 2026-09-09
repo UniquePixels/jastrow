@@ -1,0 +1,24 @@
+{
+	"id": "M00545",
+	"slug": "מוסכין",
+	"headword": {
+		"text": "מוּסְכִּין"
+	},
+	"page": {
+		"number": 744,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (μόσχος, muscus) the animal perfume <i>musk</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:6:6\">Y. Ber. VI, end, 10ᵈ</cite> (Ar. <he>מוּסְקִין</he>), v. <cite ref=\"M00689\"><he>מוֹשְׁקְ</he></cite>. ",
+				"<cite ref=\"Ketubot 75a\">Keth. 75ᵃ</cite> <he>מוּשְׁקִין</he> Ar. (missing in ed.), v. <cite ref=\"M00606\"><he>מוּרָא</he></cite>."
+			]
+		}
+	]
+}

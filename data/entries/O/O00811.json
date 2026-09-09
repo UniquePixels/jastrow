@@ -1,0 +1,33 @@
+{
+	"id": "O00811",
+	"slug": "סיקוסים-2",
+	"headword": {
+		"text": "סִיקוֹסִים",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סִיקוֹסִין"
+		},
+		{
+			"text": "סִקֹ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 986,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (fr. <he>סיקוסיס</he>, σύκωσις, v. also Gr. Dict. s. vv. σῦκον a. συκῆ) <i>excrescences</i> (on trees), <i>lumps</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 41:1\">Gen. R. s. 41</cite>, beg. (ref. to <cite ref=\"Psalms 92:13\">Ps. XCII, 13</cite>) <he>מה התמרה … לא עומקין ולא ס׳</he> Ar. (‘Rashi’ <he>פקיסין</he>, Var. <he>ס׳</he>; ed. <he>עקומין</he> for <he>עומקין</he>) as the palm and the cedar have neither cavities (curves) nor excrescences, so the righteous have not (in their character) either &c.; <cite ref=\"Yalkut Shimoni on Nach 845:2\">Yalk. Ps. 845</cite> <cite ref=\"O00407\"><he>סוּקְיוֹסִין</he></cite>."
+			]
+		}
+	]
+}

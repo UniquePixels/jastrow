@@ -1,0 +1,66 @@
+{
+	"id": "A01697",
+	"slug": "אכל-2",
+	"headword": {
+		"text": "אֲכַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָכַל",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 63,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"A01696\">same</cite>.—Inf. <cite ref=\"M01153\"><he>מֵיכַל</he></cite>, <he>מֵיכוּל</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 2:16\">Targ. Gen. II, 16</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:36\">Y. Ter. VIII, 46ᵃ</cite> <he>כד אתון יֵיכלון</he> when they came and were about eating; <cite ref=\"Jerusalem Talmud Terumot 8:3:36\">ib.</cite> (more corr.) <he>אתון מיכל</he>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " with <he>קרצי</he> prop. <i>to eat</i> (<i>the bread of</i>) <i>destruction, eat the informer’s bread</i>, hence <i>to inform against</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 3:8\">Dan. III, 8</cite>; <cite ref=\"Daniel 6:25\">VI, 25</cite>.—",
+				"<cite ref=\"Aramaic Targum to Psalms 15:3\">Targ. Ps. XV, 3</cite>; a. fr.—",
+				"<cite ref=\"Gittin 56a:2\">Gitt. 56ᵃ</cite> <he>איכול בהו קו׳</he>; <cite ref=\"Eichah Rabbah 4:3\">Lam. R. to IV, 2</cite> <he>איכול קרצהון</he> I will inform against them."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אוֹכַל", "אַיְיכַל"],
+			"senses": [
+				{
+					"gloss": "<i>to give to eat, to support</i>. Y. Ter. X, 47ᵇ bot. <he>אוכלה ליה</he> he gave it to him to eat. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 48:14\">Gen. R. s. 48</cite>, end (read:) <he>אוכלית אשקית לוי</he> hast thou given (thy guest) to eat? to drink? do escort him, i.e. perform thy duties fully. Y. Kidd. I, 61ᵇ <he>הוה מייכל לאבוי וכ׳</he> fed his father on &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְאֲכַל", "אִתְאֲכִיל"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"A01697\"><he>אִתְאָכִיל</he></cite> <i>to be eaten, consumed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 68:23\">Targ. Ps. LXVIII, 23</cite>; a. fr. Tanḥ. Emor, 6 <he>ומה דהבא מִתְאֲכִיל וכ׳</he>; <cite ref=\"Vayikra Rabbah 27:1\">Lev. R. s. 27</cite> <he>ומה זה וכ׳</he> what is this? do they eat gold &c.? <cite ref=\"Kiddushin 59a:11\">Kidd. 59ᵃ</cite> <he>קא מתאכלי</he> were eaten up (spent). [<he>אכלי</he> Af. of <cite ref=\"K00715\"><he>כלי</he></cite> <i>to cry</i>, v. <cite ref=\"K00715\"><he>כלי</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

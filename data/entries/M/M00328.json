@@ -1,0 +1,35 @@
+{
+	"id": "M00328",
+	"slug": "מדרגה",
+	"headword": {
+		"text": "מַדְרֵגָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַדְרֵי׳"
+		}
+	],
+	"page": {
+		"number": 735,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"D01035\"><he>דָּרַג</he></cite>)<i>embankment, acclivity</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 6:2\">Kil. VI, 2</cite> <he>אחת בארץ ואחת במ׳</he> one row on level ground and one on the embankment. Y. ib. 30ᶜ top <he>שיפוע המ׳ כלמטן</he> (not <he>שופע</he>) the slope of the embankment is considered as if on a level with the lower ground; <cite ref=\"Jerusalem Talmud Shabbat 11:3:2\">Y. Sabb. XI, 13ᵃ</cite> bot.; a. fr.—Pl. <he>מַדְרֵגוֹת</he>, <cite ref=\"M00328\"><he>מַדְרֵי׳</he></cite>. ",
+				"<cite ref=\"Tosefta Peah 1:9\">Tosef. Peah I, 9</cite>. ",
+				"<cite ref=\"Mishnah Sheviit 2:8\">Shebi. II, 8</cite>; <cite ref=\"Tosefta Shevi'it 3:4\">Tosef. ib. III, 4</cite>, v. <cite ref=\"C00602\"><he>גַיְא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>step, rank</i>. ",
+			"units": ["<cite ref=\"Kiddushin 40b\">Kidd. 40ᵇ</cite>"],
+			"label": "2"
+		}
+	]
+}

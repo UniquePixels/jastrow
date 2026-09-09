@@ -1,0 +1,27 @@
+{
+	"id": "M02297",
+	"slug": "מצורע",
+	"headword": {
+		"text": "מְצוֹרָע"
+	},
+	"page": {
+		"number": 824,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"M02297\"><he>מְצֹרָע</he></cite>; <cite ref=\"R00791\"><he>צָרַע</he></cite>)<i>leper</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 13:11\">Neg. XIII, 11</cite>. ",
+				"<cite ref=\"Mishnah Negaim 14:1\">Ib. XIV, 1</cite>. ",
+				"<cite ref=\"Mishnah Megillah 1:7\">Meg. I, 7</cite> <he>מ׳ מוחלט</he>, <he>מ׳ מוסגר</he> v. <cite ref=\"H01022\"><he>חָלַט</he> II</cite>. ",
+				"<cite ref=\"Nedarim 64b:6\">Ned. 64ᵇ</cite>; a. v. fr.—Pl. <he>מְצוֹרָעִים</he>, <he>מְצוֹרָעִין</he>. ",
+				"<cite ref=\"Mishnah Negaim 14:13\">Neg. XIV, 13</cite>. ",
+				"<cite ref=\"Ketubot 77b:13\">Keth. 77ᵇ</cite> bot. <he>אין מ׳ בבבל</he> there are no lepers in Babylonia; a. fr."
+			]
+		}
+	]
+}

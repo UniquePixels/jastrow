@@ -1,0 +1,32 @@
+{
+	"id": "P00174",
+	"slug": "עובא",
+	"headword": {
+		"text": "עוּבָּא"
+	},
+	"page": {
+		"number": 1046,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (not <cite ref=\"P00174\"><he>עוּבָא</he></cite>) ch. (<cite ref=\"P00173\">preced.</cite>; cmp. <cite ref=\"H00237\"><he>חוּבָּא</he> I</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bosom</i>, <i>lap</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 13:7\">Targ. Y. Deut. XIII, 7</cite> <he>בעוּבָּךְ</he> (not <he>בעודך</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 5:20\">Targ. Prov. V, 20</cite> (ed. Lag. <he>עוּבָּהּ</he>; Var. <cite ref=\"H00001\"><he>ח׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 35:13\">Targ. Ps. XXXV, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 31:33\">Targ. Job XXXI, 33</cite> Ms. (ed. <he>עטפי</he>; h. text <he>חֻבִּי</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"H00234\"><he>חוֹב</he> II</cite>) <i>the full ramification of a tree</i>. Ib. XV, 32 (ed. Wil. <cite ref=\"P00173\"><he>עוֹב׳</he></cite>; h. text <cite ref=\"K00986\"><he>כִּפָּה</he></cite>).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "K00578",
+	"slug": "כיסא",
+	"headword": {
+		"text": "כֵּיסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּיסָּא"
+		}
+	],
+	"page": {
+		"number": 634,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00950\"><he>כְּסַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>thorn</i> (cmp. <cite ref=\"S01056\"><he>קֵיסָא</he></cite>).—Pl. <he>כֵּיסִין</he>, <he>כֵּיסֵי</he>, <cite ref=\"K00594\"><he>כִּיסּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:9:7\">Y. Sabb. VI, 8ᶜ</cite> bot. <he>מקטוע כ׳</he> to cut thorns. ",
+				"<cite ref=\"Shabbat 77b:8\">Sabb. 77ᵇ</cite> <he>אכל כ׳</he> (Ms. M. <he>בוצי</he>, <he>ביני</he>, Ar. <cite ref=\"B00660\"><he>ביסי</he></cite>) (the camel) eats thorns. ",
+				"<cite ref=\"Bava Metzia 42b\">B. Mets. 42ᵇ</cite>, sq. <he>בכ׳ … דמי כ׳</he> (Ms. H. <cite ref=\"B00002\"><he>ב׳</he></cite>, v. Rabb. D. S. a. l. note 6) when what he gave him in trust was thorns (on which the cuscuta was hanging), and he pays him the value of thorns."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fodder</i>, v. <cite ref=\"K00594\"><he>כִּיסְתָא</he> II</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

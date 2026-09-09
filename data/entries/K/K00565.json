@@ -1,0 +1,44 @@
+{
+	"id": "K00565",
+	"slug": "כינה",
+	"headword": {
+		"text": "כִּינָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּנָּה"
+		}
+	],
+	"page": {
+		"number": 633,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00859\"><he>כנן</he></cite>, cmp. <he>קנן</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>nest, cavity, chamber</i>.—Pl. <cite ref=\"K00572\"><he>כִּינִּים</he></cite>, <cite ref=\"K00572\"><he>כִּינִּין</he></cite>, <cite ref=\"K00567\"><he>כִּנִּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 14\">Lev. R. s. 14</cite> Ar. (ed. <he>קינין</he>); <cite ref=\"Yalkut Shimoni on Nach 905:4\">Yalk. Job 905</cite>; cmp. <cite ref=\"K00308\"><he>כּוֹנָנִית</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "(b. h. pl. <cite ref=\"K00572\"><he>כִּנִּים</he></cite>, collect. <cite ref=\"K00830\"><he>כִּנָּם</he></cite>) <i>vermin, louse</i> (also collect.). ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 9:2\">Par. IX, 2</cite> <he>הכ׳ שבתבואה</he> the vermin in grain. ",
+				"<cite ref=\"Chagigah 5a:11\">Ḥag. 5ᵃ</cite>; a. e.—<i>Pl.</i> as above. ",
+				"<cite ref=\"Bava Kamma 82a:11\">B. Kam. 82ᵃ</cite> <he>הורג כ׳ שבבני מעיים</he> (Var. in Ms. <cite ref=\"E00509\"><he>הכינה</he></cite>) (garlic) kills the parasites in entrails. ",
+				"<cite ref=\"Pesachim 112b:9\">Pes. 112ᵇ</cite>. ",
+				"<cite ref=\"Kiddushin 49b:9\">Kidd. 49ᵇ</cite>; <cite ref=\"Esther Rabbah 1:15\">Esth. R. to I, 3</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 107b:6\">Sabb. 107ᵇ</cite> <he>ביצי כ׳</he> <i>nits</i>, or a species of vermin called <i>lice-nits</i>; <cite ref=\"Avodah Zarah 3b:8\">Ab. Zar. 3ᵇ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

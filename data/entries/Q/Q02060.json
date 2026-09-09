@@ -1,0 +1,23 @@
+{
+	"id": "Q02060",
+	"slug": "פשושא",
+	"headword": {
+		"text": "פָּשׁוֹשָׁא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1245,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. name of <i>a bird</i>.—Pl. <he>פָּשׁוֹשִׁין</he>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 22\">Lev. R. s. 22</cite> <he>חמא תרין פ׳ מתכתשן</he> Ar. (Ar. s. v. <he>כתש</he>: <he>מכתשין</he>) saw two <i>pashoshin</i> fight (ed. <he>תרתין ציפרין מתנציין</he>)."
+			]
+		}
+	]
+}

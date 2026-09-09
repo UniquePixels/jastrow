@@ -1,0 +1,24 @@
+{
+	"id": "M03093",
+	"slug": "מתנים",
+	"headword": {
+		"text": "מָתְנַיִם"
+	},
+	"page": {
+		"number": 864,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. du. (b. h.; <he>מתן</he>, cmp. <cite ref=\"M03086\"><he>מִתְנָא</he></cite>) <i>loins</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 13b:90\">Nidd. 13ᵇ</cite> <cite ref=\"Pirkei DeRabbi Eliezer 31:13\">Pirké d’R. El. ch. XXXI</cite> <he>אזור מָתְנָיו וכ׳</he> the girdle of the loins of Elijah. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 31:13\">Ib.</cite> ch. XXX <he>במָתְנֶיהָ</he>, v. <cite ref=\"D01045\"><he>דַּרְדּוּר</he></cite>. ",
+				"<cite ref=\"Mishnah Sanhedrin 9:2\">Snh. IX, 2</cite>; a. e."
+			]
+		}
+	]
+}

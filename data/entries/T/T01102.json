@@ -1,0 +1,22 @@
+{
+	"id": "T01102",
+	"slug": "רשע-5",
+	"headword": {
+		"text": "רֶשַׁע"
+	},
+	"page": {
+		"number": 1501,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T01101\">preced.</cite>) <i>wickedness, guilt</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 47a:11\">Snh. 47ᵃ</cite> <he>נהרג מתוך רִשְׁעוֹ</he> one who is put to death for his wickedness; <he>מת מתוך רשעו</he> who dies (a natural death) for his wickedness; a. e."
+			]
+		}
+	]
+}

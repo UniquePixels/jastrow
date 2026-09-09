@@ -1,0 +1,45 @@
+{
+	"id": "C01389",
+	"slug": "גרף-2",
+	"headword": {
+		"text": "גְּרַף"
+	},
+	"page": {
+		"number": 272,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01388\">same</cite>.Targ. II Esth. III, 8 <he>גרפין חמיעא</he> they remove leavened things.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 2:7:6\">Y. Pes. II, end, 29ᶜ</cite> <he>גְּרוֹף מן תוחתיהון</he> scrape them at the bottom. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 4:5:3\">Y. Bets. IV, 62ᶜ</cite> bot. [read:] <he>איזלי גַרְפִין</he> go thou and sweep them (the stones) out. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:2:4\">Y. M. Kat. I, 80ᵇ</cite> bot.; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְגְּרִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to be scraped out, removed</i>. Targ. II Esth. l. c.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִיתְגַּרְגֵּיף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"C01388\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 7:12\">Targ. Job VII, 12</cite> like the Ocean <he>דמִתְגַּרְגֵּף וכ׳</he> Ms. which, at certain times, is swept (pours itself out over the shores; ed. <he>דמתרגיף</he>, v. <cite ref=\"T00221\"><he>רְגַף</he></cite>)."
+					]
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

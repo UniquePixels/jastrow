@@ -1,0 +1,23 @@
+{
+	"id": "B01014",
+	"slug": "בסר-5",
+	"headword": {
+		"text": "בְּסַר",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּסְרָא"
+		}
+	],
+	"page": {
+		"number": 180,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>flesh</i>, v. <cite ref=\"B01369\"><he>בְּשַׂר</he></cite>, <cite ref=\"B01372\"><he>בִּשְׂרָא</he></cite>.",
+			"units": []
+		}
+	]
+}

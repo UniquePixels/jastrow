@@ -1,0 +1,73 @@
+{
+	"id": "M02643",
+	"slug": "מרט-2",
+	"headword": {
+		"text": "מְרַט",
+		"homograph": 1
+	},
+	"page": {
+		"number": 841,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M02642\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 21:5\">Targ. O. Lev. XXI, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 16:6\">Targ. Jer. XVI, 6</cite>; a. e.—Part. <cite ref=\"M02643\"><he>מָרֵיט</he></cite>, pl. <he>מָרְטִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 50:6\">Targ. Is. L, 6</cite> ed. Lag. (oth. ed. <he>מָרְטָן</he>; ed. Wil. <he>מוֹרְטִין</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְמְרֵיט"],
+			"senses": [
+				{
+					"gloss": "<i>to be laid bare, to have the shoulder uncovered</i> (in mourning), v. <cite ref=\"H01109\"><he>חָלַץ</he></cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 29:18\">Targ. Ez. XXIX, 18</cite> (ed. Wil. <he>אִתְמְרט</he>; h. text <cite ref=\"M02582\"><he>מְרוּטָה</he></cite>; Pesh. <he>חליץ</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["מָרֵיט"],
+			"senses": [
+				{
+					"gloss": ", v. infra.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["מַרְטֵיט"],
+			"senses": [
+				{
+					"gloss": "<i>to pull to pieces, to divide, plunder</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 16:11\">Targ. Job XVI, 11</cite> <he>מְמַרְטֵט</he> ed. Lag. (Ms. <cite ref=\"M02643\"><he>מרטיט</he></cite>, Var. <he>מְמָרֵט</he> <i>Pa.;</i> h. text <he>ירטני</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 39:3\">Targ. Ps. XXXIX, 3</cite> <he>כיבי ממרטיט</he> he lacerates my wound (h. text <cite ref=\"P00749\"><he>נעכר</he></cite>).—",
+						"<cite ref=\"Chullin 92b:14\">Ḥull. 92ᵇ</cite> <he>ממרטט ליה</he> he pulled the fatty fibres out (going to the root). "
+					]
+				}
+			],
+			"stem": "Palp."
+		},
+		{
+			"forms": ["אִיתְמַרְטֵט", "אִימַּ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be torn to pieces, dismembered</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 69a:1\">Ab. Zar. 69ᵃ</cite> <he>אִימַּרְטוּטֵי אִימַּ׳</he> (the mouse in the liquid) was dismembered. ",
+						"<cite ref=\"Niddah 56b:28\">Nidd. 56ᵇ</cite> <he>אִמַּרְטוּטֵי אימרטיט</he> it would have been dismembered.—[<cite ref=\"Kohelet Rabbah 10:16\">Koh. R. to X, 16</cite> <he>איתמרטת</he>, read: <he>איתמרעת</he>, v. <cite ref=\"M02729\"><he>מְרַע</he> I</cite>.]"
+					]
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

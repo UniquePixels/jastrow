@@ -1,0 +1,29 @@
+{
+	"id": "Q01680",
+	"slug": "פרוילא",
+	"headword": {
+		"text": "פַּרְוִילָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְוִוי׳"
+		}
+	],
+	"page": {
+		"number": 1220,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"Q01639\"><he>פַּרְוָורָא</he></cite>.—Pl. <he>פַּרְוִילִין</he>, <cite ref=\"Q01680\"><he>פַּרְוִילֵי</he></cite>, <cite ref=\"Q01680\"><he>פַּרְוִוי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 35:2\">Targ. Y. I Num. XXXV, 2</cite>, <cite ref=\"Targum Jerusalem, Numbers 35:2-5\">Targ. Y. II, Num. XXXV, 2-5</cite> (ed. Amst. <he>פרז׳</he>, <he>פדורל׳</he>, <cite ref=\"Q00113\"><he>פדורוילי</he></cite>, <he>בדורל׳</he>, corr. acc.; h. text <he>מגרש׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 25:34\">Targ. Y. Lev. XXV, 34</cite> (Ar. <he>פרוורי</he>). ",
+				"<cite ref=\"Targum of I Chronicles 6:40\">Targ. I Chr. VI, 40</cite>; a. fr."
+			]
+		}
+	]
+}

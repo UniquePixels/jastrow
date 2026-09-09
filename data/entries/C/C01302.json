@@ -1,0 +1,23 @@
+{
+	"id": "C01302",
+	"slug": "גרון",
+	"headword": {
+		"text": "גָּרוֹן"
+	},
+	"page": {
+		"number": 266,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"C01289\"><he>גֵּרָה</he> III</cite>) <i>throat, palate</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 94:5\">Gen. R. s. 94</cite> <he>להוט אחר גְּרוֹנוֹ</he> anxious to gratify his appetite, to receive sustenance, v. <cite ref=\"L00160\"><he>לָהַט</he></cite>. ",
+				"<cite ref=\"Berakhot 36a\">Ber. 36ᵃ</cite>, a. e. <he>חשש בגרונו</he> to have a sore throat; a. e."
+			]
+		}
+	]
+}

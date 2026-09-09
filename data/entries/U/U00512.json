@@ -1,0 +1,22 @@
+{
+	"id": "U00512",
+	"slug": "שופרזא",
+	"headword": {
+		"text": "שׁוֹפְרָזָא"
+	},
+	"page": {
+		"number": 1540,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<i>Palez</i> of <he>שפר</he>, v. <cite ref=\"U00509\"><he>שׁוֹפָר</he></cite>) <i>drinking horn</i>.—Pl. <cite ref=\"U00512\"><he>שׁוֹפְרָזֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Ketubot 65a:9\">Keth. 65ᵃ</cite> <he>דהוו משקי ליה בש׳ כי האי</he> that they gave him to drink of horns like this (as large as my arm).—[Ar. reads <he>בשפר זייני</he> soldiers’ horn (?).]"
+			]
+		}
+	]
+}

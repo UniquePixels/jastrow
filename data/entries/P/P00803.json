@@ -1,0 +1,30 @@
+{
+	"id": "P00803",
+	"slug": "עליל-2",
+	"headword": {
+		"text": "עֲלִיל"
+	},
+	"page": {
+		"number": 1083,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00815\"><he>עָלַל</he></cite>)<i>entrance</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 45a\">Sot. 45ᵃ</cite>; Y. ib. IX, 23ᶜ bot. <he>נמצא בע׳ לעיר</he> if the slain was found at the entrance to a town (where there can be no doubt as to the nearest place); <cite ref=\"Tosefta Sotah 9:1\">Tosef. ib. IX, 1</cite> <he>בע׳ העיר</he> (Var. <he>בחלול של עיר</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"P00805\"><he>עֲלִילוּת</he></cite>) <i>reality</i>; <he>בע׳</he> <i>really, undoubtedly</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 1:5\">R. Hash. I, 5</cite> <he>נראה בע׳</he> if the crescent is clearly visible; <cite ref=\"Rosh Hashanah 21b:10\">ib. 21ᵇ</cite> <he>מאי משמע דהאי ע׳ לישנא דמיגלי הוא</he>, v. <cite ref=\"C00927\"><he>גְּלֵי</he></cite>; <cite ref=\"Shabbat 133b\">Sabb. 133ᵇ</cite>; <cite ref=\"Menachot 64a\">Men. 64ᵃ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

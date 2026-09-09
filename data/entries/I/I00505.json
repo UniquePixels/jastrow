@@ -1,0 +1,34 @@
+{
+	"id": "I00505",
+	"slug": "טלית-2",
+	"headword": {
+		"text": "טַלִּית",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טַלִּיתָא"
+		}
+	],
+	"page": {
+		"number": 537,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"I00504\">same</cite>.<i>sheet</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 22:26\">Targ. Y. Ex. XXII, 26</cite> (ed. Amst. <cite ref=\"I00504\"><he>טָלֵית</he></cite>, Var. <cite ref=\"I00527\"><he>טַלֵּת</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the Tallith</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 9:5:1\">Koh. R. to IX, 5</cite> <he>טַלִּיתֵיה</he> (<cite ref=\"Berakhot 18a\">Ber. 18ᵃ</cite> <he>תכלתיה</he>). ",
+				"<cite ref=\"Berakhot 18a\">Ib.</cite> <he>טלי טַלִּיתָיךְ</he>, v. <cite ref=\"I00493\"><he>טְלֵי</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

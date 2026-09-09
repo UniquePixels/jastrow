@@ -1,0 +1,23 @@
+{
+	"id": "Q00096",
+	"slug": "פגרא",
+	"headword": {
+		"text": "פַּגְרָא"
+	},
+	"page": {
+		"number": 1136,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פְּגַר</he> I) <i>damage</i> (to a ship); <i>indemnity for shipwreck</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 69b:12\">B. Mets. 69ᵇ</cite> <he>ספינתא … אגרא ופ׳</he> when hiring a ship … you must pay rent and indemnity for damage, v. <cite ref=\"A00339\"><he>אַגְרָא</he> I</cite>. ",
+				"<cite ref=\"Bava Metzia 70a:1\">Ib. 70ᵃ</cite> <he>אגרא … ופ׳ בשעת שבירה</he> the rent must be paid at the time of taking possession, and the indemnity, when the ship is wrecked."
+			]
+		}
+	]
+}

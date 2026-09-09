@@ -1,0 +1,24 @@
+{
+	"id": "P01008",
+	"slug": "ענק-3",
+	"headword": {
+		"text": "עֲנָק",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1096,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P01006\"><he>עָנַק</he></cite>)<i>giant</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 16:11\">Num. R. s. 16</cite>, a. e., v. <cite ref=\"P01006\"><he>עָנַק</he></cite>.—Pl. <he>עֲנָקִים</he>. ",
+				"<cite ref=\"Bereishit Rabbah 26:7\">Gen. R. s. 26</cite> (ref. to <cite ref=\"Genesis 6:4\">Gen. VI, 4</cite>) <he>שבע שמות … ע׳ וכ׳</he> they (of that race) are called by seven names: Emim, … ʿĂnaḳim; Yalk. ib. 47, v. <cite ref=\"P01006\"><he>עָנַק</he></cite>."
+			]
+		}
+	]
+}

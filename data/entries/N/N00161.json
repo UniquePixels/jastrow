@@ -1,0 +1,28 @@
+{
+	"id": "N00161",
+	"slug": "נגינה",
+	"headword": {
+		"text": "נְגִינָה"
+	},
+	"page": {
+		"number": 874,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"N00168\"><he>נָגַן</he></cite>)<i>knocking, affliction, defeat</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 18\">Ex. R. s. 18</cite> (ref. to <he>נְגִינָתִי</he>, <cite ref=\"Psalms 77:7\">Ps. LXXVII, 7</cite>) <he>נזכרתי אני השברים וכ׳</he> I remember the defeats &c.; <he>אין נגינתי אלא לשון שבר</he> <i>n’ginathi</i> means breaking; a. e. v. <cite ref=\"U00174\"><he>שָׁבַר</he> I</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>music</i>. Ib. (ref. to <he>נגינתי</he>, Ps. l. c.) <he>נזכרת אני שירים וכ׳</he> I remember the songs &c.—[In later Hebrew: <he>נ׳</he> <i>accent</i>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

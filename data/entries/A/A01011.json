@@ -1,0 +1,27 @@
+{
+	"id": "A01011",
+	"slug": "אחויתא",
+	"headword": {
+		"text": "אַחֲוֵיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַחֲוַויְתָא"
+		}
+	],
+	"page": {
+		"number": 39,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A01010\">foreg.</cite>) <i>instruction</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 49:5\">Targ. Ps. XLIX, 5</cite>; a. fr."
+			]
+		}
+	]
+}

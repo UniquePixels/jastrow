@@ -1,0 +1,22 @@
+{
+	"id": "O01202",
+	"slug": "סנוותאה",
+	"headword": {
+		"text": "סְנַוְותָּאָה"
+	},
+	"page": {
+		"number": 1005,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O01256\"><he>סְנַפְתָּא</he></cite>) <i>of S’navta</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 17b:4\">Sabb. 17ᵇ</cite> (Ms. <he>נתוואה</he>, v. Rabb. D. S. a. l. note); (<cite ref=\"Avodah Zarah 36a:8\">Ab. Zar. 36ᵃ</cite> <he>נִוְתָּאָה</he>, early eds. <he>נִיוְתָּ׳</he>; v. <cite ref=\"N00639\"><he>נִיוְתִּי</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"id": "I00520",
+	"slug": "טלע-2",
+	"headword": {
+		"text": "טְלַע",
+		"homograph": 2
+	},
+	"page": {
+		"number": 538,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"I00519\">preced.</cite>) <i>to loosen, untie</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ruth 4:7\">Targ. Ruth IV, 7</cite>; <cite ref=\"Aramaic Targum to Ruth 4:8\">8</cite> (h. text <he>שלף</he>). ",
+				"<cite ref=\"Aramaic Targum to Lamentations 4:3\">Targ. Lam. IV, 3</cite> (h. text <he>חלץ</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיטְּלַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be untied, taken off</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 29:4\">Targ. Y. Deut. XXIX, 4</cite>.—",
+						"<cite ref=\"Yevamot 39b:10\">Yeb. 39ᵇ</cite> <he>אִיטְּלַע לה וכ׳</he> ed. (Ar. <he>לך</he>) have the shoe of thy right food untied (for her); <he>ואַטְּלַע ליה וכ׳</he> Ar. and he loosened the shoe of …, and she took it off (ed. <he>ואיט׳ לה</he> and he had his shoe … loosened &c.); [other interpret., v. preced.]."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אַטְלַע"],
+			"senses": [
+				{
+					"gloss": "<i>to untie</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

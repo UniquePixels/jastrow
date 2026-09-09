@@ -1,0 +1,66 @@
+{
+	"id": "I00495",
+	"slug": "טלי-4",
+	"headword": {
+		"text": "טָלֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְלֵי"
+		},
+		{
+			"text": "טַלְיָא"
+		},
+		{
+			"text": "טַלְיָיא"
+		}
+	],
+	"page": {
+		"number": 536,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00492\"><he>טלי</he></cite>, cmp. <cite ref=\"I00474\"><he>טָלֶה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>tender, young; young man, servant</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 15:2\">Targ. Y. Lev. XV, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 37:25\">Targ. Ps. XXXVII, 25</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 41:12\">Targ. Y. Gen. XLI, 12</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Leviticus 16:27\">Targ. Y. Lev. XVI, 27</cite> <cite ref=\"I00470\"><he>טָלָא</he></cite>.—",
+				"<cite ref=\"Bava Batra 142b\">B. Bath. 142ᵇ</cite>, v. <cite ref=\"H00364\"><he>חוּלַּק</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 12:6:2\">Y. Yeb. XII, 12ᵈ</cite> bot. <he>הוא ט׳ וכ׳</he> if he is young and she old. ",
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite> <he>בגין דאית לי ט׳ וכ׳</he> (not <cite ref=\"I00471\"><he>טלאי</he></cite>) since I have a young slave &.; a. fr.—",
+				"<cite ref=\"Yevamot 114a:1\">Yeb. 114ᵃ</cite> top <he>טלי וטליא</he> <i>boys and girls</i>.—Pl. <cite ref=\"I00157\"><he>טָלַיָּא</he></cite>, <cite ref=\"I00495\"><he>טָלַיָּיא</he></cite>, <he>טָלִין</he>, <cite ref=\"I00472\"><he>טְלָאֵי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Joel 2:16\">Targ. Joel II, 16</cite>. Targ. II Esth. I, 2 <he>טָלִין וְטַלְיָין</he> ed. Lag. boys and girls, v. supra.—",
+				"<cite ref=\"Aramaic Targum to Proverbs 1:4\">Targ. Prov. I, 4</cite>; a. fr.—",
+				"<cite ref=\"Sotah 33a:8\">Sot. 33ᵃ</cite> <he>נצחו ט׳</he> the boys (sons of the Highpriest) have won the battle; Y. ib. IX, 24ᵇ. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 3:3:3\">Y. Meg. III, 74ᵃ</cite> bot. <he>טָלַיָּיה</he>. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:4:15\">Y. Ter. VIII, 46ᵇ</cite> bot. <he>טַלְיֵי דבי וכ׳</he> the boys of the Nasi’s house; a. fr.—<i>Fem.</i> v. <cite ref=\"I00506\"><he>טַלְיְתָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = h. <cite ref=\"I00474\"><he>טָלֶה</he></cite> <i>lamb</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 1:15\">Targ. Y. Ex. I, 15</cite>.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Targum Jonathan on Genesis 30:40\">Targ. Y. Gen. XXX, 40</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 118:27\">Targ. Ps. CXVIII, 27</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " pr. n. m. <i>Tali</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 52b:2\">Snh. 52ᵇ</cite>, v. <cite ref=\"A01354\"><he>אִימַּרְתָּא</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

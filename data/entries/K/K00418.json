@@ -1,0 +1,32 @@
+{
+	"id": "K00418",
+	"slug": "כותב",
+	"headword": {
+		"text": "כּוֹתֵב"
+	},
+	"page": {
+		"number": 627,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01340\"><he>כְּתַב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>writing, writer</i>, v. <cite ref=\"K01339\"><he>כָּתַב</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the pointed end</i> of the writing instrument (stilus), contrad. to <cite ref=\"M00457\"><he>מוחק</he></cite> the flat end for erasing. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:2\">Kel. XIII, 2</cite>; <cite ref=\"Tosefta Keilim Metsia 3:4\">Tosef. Kel. B. Mets. III, 4</cite>; <cite ref=\"Jerusalem Talmud Shabbat 8:5:2\">Y. Sabb. VIII, 11ᵇ</cite> bot."
+			],
+			"label": "2"
+		}
+	]
+}

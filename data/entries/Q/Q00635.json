@@ -1,0 +1,23 @@
+{
+	"id": "Q00635",
+	"slug": "פיטרא-2",
+	"headword": {
+		"text": "פִּיטְרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1162,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00548\"><he>פְּטַר</he></cite>) <i>farewell</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 96b\">Snh. 96ᵇ</cite> <he>שרא פ׳ בביתיה</he> Ms. M. (read <he>שדא פ׳ לביתיה</he>; ed. Crac. <cite ref=\"Q00199\"><he>פוטריתא</he></cite>, Rashi ed. Crac. <cite ref=\"Q00569\"><he>פטרתא</he></cite>; v. Rabb. D. S. a. l. note) he sent a farewell letter (disposal of his property) to his house; (ed. <cite ref=\"Q00340\"><he>פּוּרְטִיתָא</he></cite>, v. <cite ref=\"Q00852\"><he>פִּירְטָא</he></cite>)."
+			]
+		}
+	]
+}

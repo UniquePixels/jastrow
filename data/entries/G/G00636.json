@@ -1,0 +1,24 @@
+{
+	"id": "G00636",
+	"slug": "זקיפה",
+	"headword": {
+		"text": "זְקִיפָה"
+	},
+	"page": {
+		"number": 408,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00649\"><he>זָקַף</he></cite>) <i>putting up, erection</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 46a:20\">Ab. Zar. 46ᵃ</cite> <he>דמינכרא זְקִיפָתָהּ</he> the erection of which is noticeable. ",
+				"<cite ref=\"Sukkah 43b:8\">Succ. 43ᵇ</cite> <he>דלמא בז׳</he> perhaps the proper ceremony consists in posting it (by the side of the altar).—",
+				"<cite ref=\"Moed Katan 24a\">M. Kat. 24ᵃ</cite>, a. e. <he>זְקִיפַת המטה</he> the putting up of the couch (on the Sabbath during mourning), opp. <cite ref=\"K01010\"><he>כְּפִיָּיה</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"id": "U01339",
+	"slug": "שלך-1",
+	"headword": {
+		"text": "שָׁלַךְ"
+	},
+	"page": {
+		"number": 1585,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>הִשְׁלִיךְ</he> (b. h.) <i>to cast off, throw down</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 22a\">Erub. 22ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Torah 846:1\">Yalk. Deut. 846</cite> <he>להַשְׁלִיכוֹ</he>, v. <cite ref=\"M02816\"><he>מַשּׂוֹא</he></cite>. Tanḥ. Sh’mini 11 <he>הבחורים … ומַשְׁלִיכִין חומר וכ׳</he> young men and boys struck him (the drunken man) and cast mud in his face. ",
+						"<cite ref=\"Midrash Mishlei 1:9\">Midr. Prov. ch. I</cite> <he>נַשְׁלִיךְ אותו לבור</he> let us cast him into a pit. ",
+						"<cite ref=\"Midrash Mishlei 1:11\">Ib.</cite> <he>נטל חכה והִשְׁלִיכָהּ לים</he> he took a hook and threw it into the sea. ",
+						"<cite ref=\"Eichah Rabbah 2:2\">Lam. R. to II, 1</cite> <he>הִשְׁלִיכוֹ לארץ</he> he cast him off (his shoulder and) to the ground; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּשְׁלַךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be thrown</i>. Tanḥ. Vayesh. 2 <he>כיון שה׳ לבור וכ׳</he> when he was thrown into the pit, his face changed &c. Tanḥ. Noah 10 <he>ברשותו הוּשְׁלַכְנוּ וכ׳</he> by his order we have been thrown (into the furnace) &c.; a. e.—Part. <he>מוּשְׁלָךְ</he>; f. <he>מוּשְׁלֶכֶת</he> &c. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 8:5\">Gen. R. s. 8</cite>; <cite ref=\"Yalkut Shimoni on Torah 13\">Yalk. ib. 13</cite>, v. <cite ref=\"B00842\"><he>בלורין</he></cite>. ",
+						"<cite ref=\"Sifrei Devarim 43:30\">Sifré Deut. 43</cite> <he>נבלת … שהיתה מוש׳ וכ׳</he> the corpse of J.… which lay exposed to heat in day-time and to cold &c. Midr. Prov. l. c. <he>טורח … מוש׳ עליו</he> the care for the household was thrown upon him (Reuben)."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נִשְׁלַךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01338\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 20:9\">Ex. R. s. 20</cite> <he>ולמה … נִשְׁלַכְתִּי לתוכה וכ׳</he> why did not Moses strike it (the Nile)? He said, I have been thrown into it, and it did not harm me &c.; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

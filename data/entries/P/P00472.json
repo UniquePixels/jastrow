@@ -1,0 +1,31 @@
+{
+	"id": "P00472",
+	"slug": "עטף-4",
+	"headword": {
+		"text": "עֲטַף",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 1064,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>נטף</he>) <i>to float</i>. ",
+			"units": ["<cite ref=\"Sukkah 53a\">Succ. 53ᵃ</cite>, v. infra."]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַטֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to float; to drown</i>. Ib. <he>דעַטְּפַת עַטְּפוּךְ ודעַטְּפוּךְ יְעַטְפוּן</he> Ms. M. (ed. <he>דאטיפת אטפוך וכ׳</he>), v. <cite ref=\"I00195\"><he>טוּף</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

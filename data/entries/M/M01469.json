@@ -1,0 +1,23 @@
+{
+	"id": "M01469",
+	"slug": "מלאי-4",
+	"headword": {
+		"text": "מְלַאי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 786,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<cite ref=\"M01543\"><he>מְלֵי</he></cite>) <i>helve of an axe</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 2:4:3\">Y. Bets. II, 61ᶜ</cite> top, quot. in Ḥiddushé Meïri, v. <cite ref=\"M00502\"><he>מוּלְיֵי</he></cite>."
+			]
+		}
+	]
+}

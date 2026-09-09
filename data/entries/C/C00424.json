@@ -1,0 +1,34 @@
+{
+	"id": "C00424",
+	"slug": "גומרתא",
+	"headword": {
+		"text": "גּוּמַרְתָּא"
+	},
+	"page": {
+		"number": 223,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"C00423\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Chullin 11a:9\">Ḥull. 11ᵃ</cite> <he>דמנח ג׳ וכ׳</he> he may put a burning coal on it."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a local skin-disease</i>, prob. <i>a burn</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:4\">Y. Ab. Zar. II, 40ᵈ</cite> top; <cite ref=\"Jerusalem Talmud Shabbat 14:4:5\">Y. Sabb. XIV, 14ᵈ</cite> top."
+			],
+			"label": "2"
+		}
+	]
+}

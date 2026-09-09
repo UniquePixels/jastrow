@@ -1,0 +1,33 @@
+{
+	"id": "L00363",
+	"slug": "לחם-1",
+	"headword": {
+		"text": "לָחַם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 703,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"L00234\"><he>לוּחַ</he></cite>), <i>to join</i>, or <i>to be joined, be inserted</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִלְחִים"],
+			"senses": [
+				{
+					"gloss": "<i>to fit, insert; to tenon</i>. Y. Sabb. XII, 13ᶜ <he>המַלְחִים את וכ׳</he> he who inserts the shutters (of a shop); Y. Bets. I, 60ᶜ <he>המלחם</he> (corr. acc.). ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 5:12\">Cant. R. to V, 12</cite>; <cite ref=\"Shir HaShirim Rabbah 4:15\">ib. to IV, 15</cite>, v. <cite ref=\"L00343\"><he>לְחִי</he></cite>. ",
+						"<cite ref=\"Vayikra Rabbah 3:3\">Lev. R. s. 3</cite> (ref. to the harmonious parallelism of <cite ref=\"Isaiah 55:7\">Is. LV, 7</cite>) <he>כאדם שהוא מלחים שני נסרים ומדביקן זה לזה</he> as one fits (with tenon and mortise) two boards and glues them to one another; <he>כאדם שהוא מ׳ שתי כרעי המטה</he> (leave out <he>ומדביקן זה לזה</he>, v. Ar. s. v. <cite ref=\"M01521\"><he>מלח</he></cite>) as one inserts two legs of a bedstead."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

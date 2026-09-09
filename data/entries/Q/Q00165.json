@@ -1,0 +1,24 @@
+{
+	"id": "Q00165",
+	"slug": "פודעתא",
+	"headword": {
+		"text": "פּוּדְעֲתָא"
+	},
+	"page": {
+		"number": 1139,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00131\"><he>פְּדַע</he></cite>) <i>wound, bruise</i>.—Pl. <cite ref=\"Q00165\"><he>פּוּדְעָתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 23:29\">Targ. Prov. XXIII, 29</cite> (ed. Wil. <i>sing.</i>; ed. Lag. <cite ref=\"B00303\"><he>בועתא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 20:30\">Ib. XX, 30</cite> (ed. Lag. a. oth. <cite ref=\"Q00305\"><he>פועתתא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 27:6\">Ib. XXVII, 6</cite> (ed. Lag. <he>פועתת׳</he>); a. e."
+			]
+		}
+	]
+}

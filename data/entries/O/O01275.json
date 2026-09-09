@@ -1,0 +1,56 @@
+{
+	"id": "O01275",
+	"slug": "סעד-1",
+	"headword": {
+		"text": "סָעַד"
+	},
+	"page": {
+		"number": 1009,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; Saf. of <he>עוד</he>, cmp. <cite ref=\"O00211\"><he>סְהֵד</he></cite>)<i>to support, strengthen</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 2</cite>; <cite ref=\"Jerusalem Talmud Taanit 4:5:13\">Y. Taan. IV, 68ᵈ</cite> bot. <he>לא תִסְעוֹד</he>, v. <he>סָבַף</he>. ",
+				"<cite ref=\"Midrash Tehillim 41:3\">Midr. Till. to Ps. XLI, 3</cite> <he>אני סוֹעֲדוֹ ומעמידו</he> I will strengthen and raise him (from his sick-bed); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with or without <cite ref=\"L00030\"><he>לב</he></cite>) <i>to satisfy the appetite, to satiate</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 78:7\">Midr. Till. to Ps. CIV, 15</cite> <he>הלחם סוֹעד</he> (ed. Bub. <he>לבב</he>) bread satiates, v. <cite ref=\"M00736\"><he>מְזוֹנִיתָא</he></cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 675:4\">Yalk. Lev. 675</cite> (ref. to <cite ref=\"Leviticus 26:26\">Lev. XXVI, 26</cite>) <he>לרבות כל סוֹעֲדֵי לחם</he> (fr. a noun <cite ref=\"O00380\"><he>סוֹעָד</he></cite>) this include all supports by bread (all substitutes of food); Sifra B’ḥuck. Par. 2, ch. VI <he>מְסָעֲדֵי</he> or <he>מִסְעֲדֵי</he>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"O01284\"><he>סְעוּדָה</he></cite>) <i>to dine</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 7b:4\">Ḥull. 7ᵇ</cite> <he>רצונך סְעוֹד אצלי</he> please dine with me. ",
+				"<cite ref=\"Eruvin 53b:19\">Erub. 53ᵇ</cite> <he>מדוע אינך סוֹעֵד</he> why dost thou not eat?; <he>כבר סָעַדְתִּי וכ׳</he> I have had my meal in daytime; a. fr.—",
+				"<cite ref=\"Shabbat 62b:23\">Sabb. 62ᵇ</cite> <he>במה סָעַדְתָּ היום</he> what did you dine on to-day? (a lascivious metaphor).—[<cite ref=\"Shabbat 12b:3\">Ib. 12ᵇ</cite> <he>ששכינה סועד</he>, v. <cite ref=\"O01293\"><he>סָעַר</he> I</cite>.]"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִיעֵד"],
+			"senses": [
+				{
+					"gloss": "<i>to support, assist</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 760:2\">Yalk. Num. 760</cite> <he>לסַעֲדָהּ</he> in order to keep her (the cow) steady (on the ship). ",
+						"<cite ref=\"Mishnah Shabbat 18:3\">Sabb. XVIII, 3</cite> <he>אבל מְסַעֲדִין</he> but you may assist (an animal in child-birth); expl. ",
+						"<cite ref=\"Shabbat 128b\">ib. 128ᵇ</cite>. ",
+						"<cite ref=\"Shabbat 128b\">Ib.</cite> (quot. fr. ",
+						"<cite ref=\"Tosefta Shabbat 15:2\">Tosef. ib. XV</cite> (<cite ref=\"Tosefta Shabbat 16:2\">XVI</cite>), 2) <he>כיצד מסעדין אוחזין וכ׳</he> (Tosef. l. c. <he>מסייעין</he>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,72 @@
+{
+	"id": "U00742",
+	"slug": "שטח-2",
+	"headword": {
+		"text": "שְׁטַח"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁטֵיחַ"
+		}
+	],
+	"page": {
+		"number": 1553,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00741\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 11:32\">Targ. Num. XI, 32</cite> (O. ed. Berl. <he>שַׁטַּחוּ</he> <i>Pa.</i>; ed. Vien. O. <he>שחטו</he>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 38:21\">Targ. Is. XXXVIII, 21</cite> Regia (ed. <he>ישורטון</he>; ed. Lag. <he>וישיטרון</he>, Var. <he>וישרטון</he>; h. text <cite ref=\"M02630\"><he>מרח</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 8:2\">Targ. Jer. VIII, 2</cite>; a. e.—",
+				"<cite ref=\"Beitzah 11b:1\">Bets. 11ᵇ</cite> <he>מה לי למִשְׁטְחִינְהוּ וכ׳</he> what difference is there between spreading the hides (on the Holy Day) and salting them? <cite ref=\"Jerusalem Talmud Shabbat 7:2:24\">Y. Sabb. VII, 10ᵃ</cite> bot., v. <cite ref=\"M01844\"><he>מסבסלה</he></cite>; a. e.—",
+				"<cite ref=\"Ruth Rabbah 2:24\">Ruth R. to I, 17</cite> <he>ובתר … אנן שַׁטְחִין</he> (<he>שַׁטְחוּן</he>) <he>שַׁטְהִין קליה וכ׳</he> after the festival we shall spread the report of it (the precious stone), and whatever price it may fetch &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַשְׁטִח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00741\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 12:23\">Targ. Job XII, 23</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["שַׁטַּח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00741\">same</cite>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתַּטַּח"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּטַח"],
+			"senses": [
+				{
+					"gloss": "<i>to prostrate one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 17:17\">Targ. Y. I Gen. XVII, 17</cite> Ar. (ed. <he>נפל</he>). ",
+						"<cite ref=\"Onkelos Deuteronomy 9:25\">Targ. Deut. IX, 25</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 4:31\">Targ. Jer. IV, 31</cite>; a. fr.—",
+						"<cite ref=\"Bava Metzia 85b:10\">B. Mets. 85ᵇ</cite> <he>אִשְׁתֵּטְּחִי אמערתיה</he> I prostrated myself over his (Elijah’s) burial cave."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

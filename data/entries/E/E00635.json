@@ -1,0 +1,28 @@
+{
+	"id": "E00635",
+	"slug": "המסמסה",
+	"headword": {
+		"text": "הֲמַסְמָסָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַסְמָסָה"
+		}
+	],
+	"page": {
+		"number": 356,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01962\"><he>מִסְמֵס</he></cite>) <i>melting, softening</i> of the brain or spinal column. ",
+			"units": [
+				"<cite ref=\"Chullin 45b:16\">Ḥull. 45ᵇ</cite> <he>איזוהי … ואיזוהי ה׳</he> which (of the defects) is <i>hamrakhah</i>, and which <i>hămas-masah?</i> Answ. <he>מַסְמָסָה כל שאינו יכול לעמוד וכ׳</he> when the column does not remain upright (when held in the hand). ",
+				"<cite ref=\"Chullin 53b:13\">Ib. 53ᵇ</cite> <he>המ׳</he> <i>decayed flesh</i>"
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "A02327",
+	"slug": "אסהדותא",
+	"headword": {
+		"text": "אַסְהָדוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַסְהַדתָּא"
+		}
+	],
+	"page": {
+		"number": 89,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סהד</he>) <i>attestation, statement of an eye-witness</i>. ",
+			"units": [
+				"<cite ref=\"Temurah 18b:18\">Tem. 18ᵇ</cite> <he>מאי אסהדותיה</he> what is the object of his statement? <cite ref=\"Berakhot 14b\">Ber. 14ᵇ</cite>. ",
+				"<cite ref=\"Yevamot 64b\">Yeb. 64ᵇ</cite>"
+			]
+		}
+	]
+}

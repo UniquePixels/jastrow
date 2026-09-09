@@ -1,0 +1,23 @@
+{
+	"id": "S00611",
+	"slug": "קורייס-2",
+	"headword": {
+		"text": "קוֹרְיָיס",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1343,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḳorias</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Orlah 2:3:7\">Y. Orl. II, 62ᵃ</cite> <he>ר׳ ק׳</he> (ed. Amst. <he>ביריית</he>; v. Fr. M’bo, p. 122ᵃ; p. 69ᵃ)."
+			]
+		}
+	]
+}

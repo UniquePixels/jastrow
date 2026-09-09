@@ -1,0 +1,37 @@
+{
+	"id": "S00762",
+	"slug": "קטיעא",
+	"headword": {
+		"text": "קְטִיעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְטִיעָה"
+		}
+	],
+	"page": {
+		"number": 1348,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00761\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>dwarfed, puny</i>. Yalk. Dan. 1062, v. <cite ref=\"Q00403\"><he>פּוּשְׁקָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. m. <i>Ḳ’ṭiʿa</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 10b:11\">Ab. Zar. 10ᵇ</cite> <he>ק׳ בר שלום</he> name of a gentile Roman counsellor, who suffered death for pleading in favor of the Jews, saying to the emperor, They will call thee <he>מלכותא קטיעא</he> (v. <cite ref=\"S00761\">preced.</cite>); <cite ref=\"Yalkut Shimoni on Nach 373:1\">Yalk. Ez. 373</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

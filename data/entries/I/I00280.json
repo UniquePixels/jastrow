@@ -1,0 +1,28 @@
+{
+	"id": "I00280",
+	"slug": "טטראמולי",
+	"headword": {
+		"text": "טֶטְרָאמוּלִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "טֶטְרָאמוּלִין"
+		}
+	],
+	"page": {
+		"number": 528,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (τετράμουλος) <i>a chariot with four animals</i> (<i>mules</i>) <i>abreast</i>, (Lat.) <i>quadriga</i>; [a compound not recorded in Greek dictionaries]. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 3:1\">Ex. R. s. 3 I shall come down <he>בט׳ שלי</he> with my <i>quadriga</i> (ref. to Ez. I, 5); ib. s. 42 <he>מילין …</he> (corr. acc.); Tanḥ. Ki Thissa 21</cite><cite ref=\"Ezekiel 1:5\">Ez. I, 5</cite>); <cite ref=\"Ezekiel 1:5\">ib.</cite> s. 42 <he>מילין …</he> (corr. acc.); Tanḥ. Ki Thissa 21. ",
+				"<cite ref=\"Shemot Rabbah 43:8\">Ex. R. s. 43</cite> <he>והם שומטים אחד מן ט׳ וכ׳</he> and they will unhitch one of the four animals of my chariot."
+			]
+		}
+	]
+}

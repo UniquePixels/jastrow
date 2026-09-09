@@ -1,0 +1,24 @@
+{
+	"id": "A01756",
+	"slug": "אכרזתא",
+	"headword": {
+		"text": "אַכְרַזְתָּא"
+	},
+	"page": {
+		"number": 65,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= h. <cite ref=\"E00522\"><he>הַכְרָזָה</he></cite>; <he>כרּז</he>) <i>proclamation announcing public sale</i>, whence, <i>auction</i>, cmp. <cite ref=\"A00364\"><he>אִגֶּרֶת</he></cite>.—",
+			"units": [
+				"<cite ref=\"Bava Metzia 35b:4\">B. Mets. 35ᵇ</cite> <he>ימי א׳</he> time appointed for public sale. ",
+				"<cite ref=\"Ketubot 100b:14\">Keth. 100ᵇ</cite> <he>נכסי דא׳</he> property sold at auction. ",
+				"<cite ref=\"Ketubot 100b:14\">Ib.</cite> for capitation-tax &c. we sell <he>בלא א׳</he> without previous announcement; a. fr."
+			]
+		}
+	]
+}

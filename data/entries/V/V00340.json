@@ -1,0 +1,38 @@
+{
+	"id": "V00340",
+	"slug": "תותבא",
+	"headword": {
+		"text": "תּוֹתָבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוֹתָבָה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1659,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00142\"><he>תּוּב</he></cite>, <i>Ithpol.</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>restoration, recompense</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 4:8:4\">Y. Shebi. IV, end, 35ᶜ</cite> <he>ויאות עד כדון אית ת׳ וכ׳</he> would that be right? there is still retribution (justice) in the world to come."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>answer, refutation</i>. Y. Shebu. III, 34ᶜ top <he>כל יומוי … לא אשכחנן ת׳ וכ׳</he> as long as R. Ba bar M. lived, we found no answer; after his death we found an answer.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

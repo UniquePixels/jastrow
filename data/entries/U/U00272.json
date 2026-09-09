@@ -1,0 +1,28 @@
+{
+	"id": "U00272",
+	"slug": "שדימא",
+	"headword": {
+		"text": "שְׁדֵימָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁדֵימָה"
+		}
+	],
+	"page": {
+		"number": 1524,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"U00272\"><he>שְׁדֵמָה</he></cite>)<i>field, plain</i> (?). ",
+			"units": [
+				"<cite ref=\"Avot D'Rabbi Natan 6:3\">Ab. d’R. N. ch. VI</cite> <he>ראה אבן ש׳ ונטלה וכ׳</he> (ed. Schechter <he>הרימה</he>) he saw a stone of the plain (a clod of earth), and took it to his mouth."
+			]
+		}
+	]
+}

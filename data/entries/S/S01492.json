@@ -1,0 +1,28 @@
+{
+	"id": "S01492",
+	"slug": "קמצר",
+	"headword": {
+		"text": "קַמְצָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֶּן קַמְצָר"
+		}
+	],
+	"page": {
+		"number": 1387,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ben Ḳamtsar</i> (denom. of <cite ref=\"S01485\"><he>קֹמֶץ</he></cite>, writing four letters simultaneously with four pens between his fingers). ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 3:11\">Yoma III, 11</cite>. ",
+				"<cite ref=\"Yoma 38b:3\">Ib. 38ᵇ</cite>; Y. ib. III, end, 41ᵇ; <cite ref=\"Shir HaShirim Rabbah 3:6:5\">Cant. R. to III, 6</cite> <he>של בית ק׳</he> those of the house of Ḳ."
+			]
+		}
+	]
+}

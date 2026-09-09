@@ -1,0 +1,22 @@
+{
+	"id": "P01470",
+	"slug": "עשונית",
+	"headword": {
+		"text": "עִשּׁוֹנִית"
+	},
+	"page": {
+		"number": 1124,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"P01514\"><he>עֲשַׁשׁ</he></cite>, a. <cite ref=\"P01518\"><he>עֶשֶׁת</he></cite>) <i>hard and level ground</i>. Mekh. B’shall., Shir., s. 5 (ref. to <cite ref=\"Exodus 15:5\">Ex. XV, 5</cite>) <he>וכי תהומות יש שם והלא ע׳ היא</he> are any abysses there?, is not it (the bottom of the Red Sea) even and hard?; <he>וכי מצולות יש שם והלא ע׳ היתה</he> (read <he>היא</he>) are any whirlpools there? &c.; <cite ref=\"Yalkut Shimoni on Torah 246:6\">Yalk. Ex. 246</cite>; Tanḥ. ",
+			"units": [
+				"<cite ref=\"Exodus 14\">B’shall. 14</cite> <he>עשוניות</he> (some ed. <cite ref=\"P01479\"><he>עשיניות</he></cite>; corr. acc.)."
+			]
+		}
+	]
+}

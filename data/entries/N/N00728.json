@@ -1,0 +1,35 @@
+{
+	"id": "N00728",
+	"slug": "ניפול-1",
+	"headword": {
+		"text": "נִיפּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִפּ׳"
+		}
+	],
+	"page": {
+		"number": 907,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01054\"><he>נָפַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>falling off</i>, esp. (with ref. to <cite ref=\"Leviticus 11:32\">Lev. XI, 32</cite>) <i>of a limb detached from the body</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 74a:7\">Ḥull. 74ᵃ</cite> <he>מיתה עושה נ׳ וכ׳</he> the natural death of an animal causes the hanging limb (<cite ref=\"D00806\"><he>דִּלְדּוּל</he></cite>) to be considered as if detached (in life-time, so that it does not come under the law of <cite ref=\"N00097\"><he>נְבֵלָה</he></cite>), but slaughtering does not &c. (and the dangling limb is considered as a part of the slaughtered animal. ",
+				"<cite ref=\"Chullin 129a:15\">Ib. 129ᵃ</cite> <he>אי מיתה עושה נ׳ ליטמא וכ׳</he> if death causes the limb to be considered as detached, let it be susceptible of uncleanness as a limb cut off from a live animal, and if not &c.; a. fr.—Pl. <cite ref=\"N00733\"><he>נִיפּוּלִין</he></cite>. <he>פת נ׳</he> <i>bread which falls apart, spoiled bread</i>. ",
+				"<cite ref=\"Tosefta Bava Kamma 10:9\">Tosef. B. Kam. X, 9</cite>; <cite ref=\"Bava Kamma 99b:17\">B. Kam. 99ᵇ</cite>; <cite ref=\"Bava Batra 93b:11\">B. Bath. 93ᵇ</cite>. Sifra B’ḥuck., Par. 2, ch. VI <he>פת ניפולה</he> (corr. acc.; <cite ref=\"Yalkut Shimoni on Torah 675\">Yalk. Lev. 675</cite> <he>נוֹפֶלֶת</he>).—[V. <cite ref=\"N00733\"><he>נִיפּוֹלִין</he></cite>.]—2) <i>falling down</i> for prayer. ",
+				"<cite ref=\"Devarim Rabbah 2\">Deut. R. s. 2</cite>, beg. (as one of the expressions for prayer, with ref. to <cite ref=\"Deuteronomy 9:25\">Deut. IX, 25</cite>); Yalk. ib. 811; Sifré ib. 26."
+			],
+			"label": "1"
+		}
+	]
+}

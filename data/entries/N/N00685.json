@@ -1,0 +1,23 @@
+{
+	"id": "N00685",
+	"slug": "נימורת",
+	"headword": {
+		"text": "נִימוֹרֶת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 905,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00602\"><he>מוּר</he></cite>; cmp. <cite ref=\"A02008\"><he>אֲמוּרְיָא</he></cite>) <i>a detachment of troops sent to take hostages</i> until a requisition be complied with. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 4:9:7\">Y. Pes. IV, 31ᵇ</cite> bot., v. <cite ref=\"M02901\"><he>מַשְׁכּוֹנָא</he></cite>."
+			]
+		}
+	]
+}

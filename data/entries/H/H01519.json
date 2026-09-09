@@ -1,0 +1,23 @@
+{
+	"id": "H01519",
+	"slug": "חציבא-1",
+	"headword": {
+		"text": "חֲצִיבָא"
+	},
+	"page": {
+		"number": 495,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01490\"><he>חֲצַב</he></cite>) <i>a hewn stone, block</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 51:1\">Targ. Is. LI, 1</cite>.—Pl. <he>חֲצִיבִין</he> <i>chiselled stones</i>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 20:22\">Targ. Y. Ex. XX, 22</cite>."
+			]
+		}
+	]
+}

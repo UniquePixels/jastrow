@@ -1,0 +1,45 @@
+{
+	"id": "K01002",
+	"slug": "כפורתא",
+	"headword": {
+		"text": "כָּפוּרְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּפּ׳"
+		},
+		{
+			"text": "כַּפ׳"
+		},
+		{
+			"text": "כְּפ׳"
+		},
+		{
+			"text": "כַּפֹּרְתָּא"
+		}
+	],
+	"page": {
+		"number": 658,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"K01001\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:17\">Targ. Ex. XXV, 17</cite>; a. fr.—<he>בית כ׳</he>, v. <cite ref=\"K01000\"><he>כַּפּוֹרֵי</he></cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כְּפוּשָׁה"],
+			"senses": [
+				{
+					"gloss": " v. <cite ref=\"K01022\"><he>כְּפִישָׁה</he></cite>",
+					"units": []
+				}
+			],
+			"stem": ",."
+		}
+	]
+}

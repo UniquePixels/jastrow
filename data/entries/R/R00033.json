@@ -1,0 +1,56 @@
+{
+	"id": "R00033",
+	"slug": "צבי-1",
+	"headword": {
+		"text": "צבי"
+	},
+	"altHeadwords": [
+		{
+			"text": "צָבָה"
+		}
+	],
+	"page": {
+		"number": 1258,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"P00007\"><he>עָבָה</he></cite>)<i>to swell</i>. Y. B. Kam. VIII, beg. 6ᵇ <he>אם כוייו … וצָבַת</he> if one burnt a person with a heated spit on the palm of his hand, and it swelled; <cite ref=\"Yoma 2a\">ib.</cite> <he>על ראשו וצבת</he>, (read <he>וצבה</he>) a. e.—[<cite ref=\"Berakhot 6b\">Ber. 6ᵇ</cite> <he>לִצְבּוֹת</he> Ar., v. <cite ref=\"R00071\"><he>צָבַת</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִצְבָּה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"R00032\">same</cite>. Y. Sot. V, beg. 20ᵃ (line 20) <he>מים מגולין שתה ונ׳</he> (ed. Krot. <he>שתת ונצבית</he>, corr. acc.) he drank uncovered water (poisoned by a serpent) and his belly was swollen. ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> (line 25) <he>שתת ונִצְבֵּית</he> she drank &c."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["צִבֵּא", "צִבָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to swell</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 17\">Lev. R. s. 17</cite>; <cite ref=\"Yalkut Shimoni on Nach 808:3\">Yalk. Ps. 808</cite> [read:] <he>ולא צִבִּיתִים</he>, v. <cite ref=\"P00295\"><he>עוֹנָה</he> II</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause the appearance of being swollen</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Peah 4:14\">Tosef. Peah IV, 14</cite> <he>המְצַבֶּה את כריסו</he> he that feigns a swollen belly; Y. ib. VIII, 21ᵇ top <he>המְצַבֵּא</he>; <cite ref=\"Ketubot 68a:3\">Keth. 68ᵃ</cite> <he>המצב׳ את בטנו</he>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

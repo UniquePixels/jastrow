@@ -1,0 +1,42 @@
+{
+	"id": "A02705",
+	"slug": "אפיק",
+	"headword": {
+		"text": "אָפִיק"
+	},
+	"page": {
+		"number": 104,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <cite ref=\"A02775\"><he>אפק</he></cite>, √<he>פק</he>, v. <cite ref=\"Q00314\"><he>פוק</he></cite>, <he>פקק</he>, <he>נפק</he>, <he>פנק</he>; ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": "<i>to break through, go forth;</i> ",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>to be a free man, ruler</i>) ",
+					"units": [],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": "<i>spring, rivulet</i> (ch. .—Pl. <he>אֲפִיקִים</he>. ",
+			"units": ["<cite ref=\"Avodah Zarah 54b:22\">Ab. Zar. 54ᵇ</cite> bot."],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ruler</i>. <i>Pl.</i> as above. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 5:12:1\">Cant. R. to V, 12</cite> (allud. to <i>ăfiké mayim</i>, Cant. ",
+				"<cite ref=\"Shir HaShirim Rabbah 5:12:1\">ib.</cite>) <he>שהם א׳ על וכ׳</he> they (the scholars) are appointed officers over the waters of the Law."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "M02508",
+	"slug": "מרבעתא",
+	"headword": {
+		"text": "מַרְבַּעְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַרְבְּעוּתָא"
+		},
+		{
+			"text": "מַרְבְּעִי׳"
+		}
+	],
+	"page": {
+		"number": 835,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00129\"><he>רְבַע</he></cite>) <i>crounching; den, resting place</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 3:4\">Targ. Am. III, 4</cite> <he>מַרְבּוּעִיתֵיה</he> ed. Lag. (ed. Wil. <he>מַרְבּוּעָ׳</he>). Targ. II Esth. I, 2 <cite ref=\"M02508\"><he>מַרְבְּעוּ׳</he></cite>.—",
+				"<cite ref=\"Bava Batra 73a:9\">B. Bath. 73ᵃ</cite> <he>בי מַרְבַּעְתֵּיה דכוכבא זוטא</he> the resting place of a small star (Ms. F. <he>בי מַעְבַּרְתֵּיה</he> the transit of &c.; v. Rabb. D. S. a. l. note 40). ",
+				"<cite ref=\"Bava Batra 73b:2\">Ib.ᵇ</cite> <he>בי מ׳ דרישיה</he> the place where his head rests."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "V00805",
+	"slug": "תפוס",
+	"headword": {
+		"text": "תָּפוּס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1685,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00843\"><he>תָּפַס</he></cite>) <i>a piece of wood fastened to a saddle, which is grasped on mounting</i> (Rashi). ",
+			"units": [
+				"<cite ref=\"Eruvin 27a\">Erub. 27ᵃ</cite> (ed. Sonc. <cite ref=\"V00807\"><he>תפות</he></cite>, v. Rabb. D. S. a. l. note 9); <cite ref=\"Tosefta Keilim Batra 2:7\">Tosef. Kel. B. Bath. II, 7</cite> <he>תופס</he> ed. Zuck. (oth. ed. <he>תופו׳</he>; R. S. to <cite ref=\"Mishnah Kelim 23:2\">Kel. XXIII, 2</cite> <cite ref=\"V00824\"><he>תפית</he></cite>); v. <cite ref=\"V00824\"><he>תָּפִית</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "M01230",
+	"slug": "מינס",
+	"headword": {
+		"text": "מֵינַס"
+	},
+	"page": {
+		"number": 777,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A02260\"><he>אֲנַס</he></cite>) <i>oppression, violence</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 10:1\">Targ. Is. X, 1</cite> (h. text <cite ref=\"A00716\"><he>אָוֶן</he></cite>)."
+			]
+		}
+	]
+}

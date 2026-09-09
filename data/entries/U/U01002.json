@@ -1,0 +1,23 @@
+{
+	"id": "U01002",
+	"slug": "שיפא-2",
+	"headword": {
+		"text": "שִׁיפָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1565,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01001\">preced.</cite>) <i>planed board</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 101a:7\">Erub. 101ᵃ</cite> (expl. <he>דלת אלמנה</he>) <he>איכא דאמרי דחד ש׳</he> (Ms. O. <cite ref=\"D00953\"><he>דפא</he></cite>, v. Rabb. D. S. a. l. note 2) some say, it means a door consisting of one planed board."
+			]
+		}
+	]
+}

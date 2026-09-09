@@ -1,0 +1,88 @@
+{
+	"id": "H00125",
+	"slug": "חבש-1",
+	"headword": {
+		"text": "חָבַשׁ"
+	},
+	"page": {
+		"number": 423,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to tie;</i>",
+			"units": []
+		},
+		{
+			"gloss": "<i>to saddle, harness</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 55:8\">Gen. R. s. 55</cite>, end <he>חבשה שח׳ וכ׳</he> the harnessing which Abraham did."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to imprison, chain</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 9:12:4\">Y. Sot. IX, 24ᵇ</cite> top; <cite ref=\"Tosefta Sotah 15:7\">Tosef. ib. XV, 7</cite> (Var. lect.) <he>חֲבָשׁוֹ</he> attempted to force him by imprisonment, v. <cite ref=\"H00040\"><he>חָבַט</he></cite>. ",
+				"<cite ref=\"Devarim Rabbah 2:5\">Deut. R. s. 2</cite> <he>היה חוֹבֵשׁ וכ׳</he> he could imprison (condemn) whom he wanted to, opp. <cite ref=\"Q00110\"><he>פָּדָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 8:6:2\">Y. Pes. VIII, 36ᵃ</cite> bot. <he>חֲבָשׁוּהוּ ישראל</he> if Israelites keep him in prison (and promised to let him free for Passover); a. fr.—Part. pass. <cite ref=\"H00037\"><he>חָבוּשׁ</he></cite>, <he>חֲבוּשָׁה</he>. ",
+				"<cite ref=\"Berakhot 5b\">Ber. 5ᵇ</cite>, a. e. <he>אין ח׳ מתיר וכ׳</he> a prisoner cannot release himself from prison (one cannot do as much for himself as he can for others). ",
+				"<cite ref=\"Berakhot 54b\">Ib. 54ᵇ</cite>. ",
+				"<cite ref=\"Bava Batra 20a:11\">B. Bath. 20ᵃ</cite> <he>חֲבוּשֵׁי מלכית</he> imprisoned by royal authority; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (agric.) <i>to narrow in, to plant one species too near another species, to produce Kilayim</i> (<cite ref=\"K00674\"><he>כִּלְאַיִם</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 3:1:6\">Y. Kil. III, beg., 28ᶜ</cite>; <cite ref=\"Jerusalem Talmud Shabbat 9:2:3\">Y. Sabb. IX, 11ᵈ</cite> bot. <he>אין מין פוגע בחברו לחוֹבְשׁוֹ</he> one species must not meet with the other (in the soil) so as to prevent its growth. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 3:4:3\">Y. Kil. III, 28ᵈ</cite> <he>אורכו בכמה חוֹבֵשׁ</he> at what distance, lengthwise, does one interfere with the other (so as to be forbidden to plant)? Ib. II, 28ᵃ <he>אין אדם חובש וכ׳</he> one cannot make forbidden as Kilayim that which is not his own (by planting too near); a. fr.—<i>Part. pass.</i> <cite ref=\"H00037\"><he>חָבוּשׁ</he></cite>, f. <cite ref=\"H00039\"><he>חֲבוּשָׁה</he></cite> <i>too closely planted between different species</i>. Ib. I, end, 27ᶜ <he>שעורה ח׳ באמצע</he> barley planted between."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְבַּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be imprisoned, be detained</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Ketubot 2:9\">Keth. II, 9</cite> <he>האשה שנֶחְבְשָׁה וכ׳</he> a married woman that has been detained in the power of gentiles, if for money &c.; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be planted too closely, to become forbidden as Kilayim</i>. Y. Kil. III, 28ᵈ bot. <he>נ׳ בשמונה</he> becomes forbidden by a neighborhood of eight cubits. ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>שלא יֵחָבֵשׁ אלא וכ׳</he> that it is not made forbidden at a distance of more than eight cubits."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֶחְבִּישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be the cause of prohibition as Kilayim</i>. Ib. <he>שלא יַחֲבִישׁ וכ׳</he> that it does not cause a prohibition at a distance of more &c.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתִחַבֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be kept as prisoner</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 152b:5\">Sabb. 152ᵇ</cite> <he>והן יִתְחַבְּשׁוּ וכ׳</he> (Ms. M. <he>יֵחָבְשׁוּ</he>) and they, themselves, shall be kept in prison."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

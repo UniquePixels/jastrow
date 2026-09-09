@@ -1,0 +1,44 @@
+{
+	"id": "G00040",
+	"slug": "זבינא-2",
+	"headword": {
+		"text": "זְבִינָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 379,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", constr. <cite ref=\"G00038\"><he>זְבִין</he></cite> m. (<cite ref=\"G00052\"><he>זבן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>object of purchase, goods</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 17:12\">Targ. O. Gen. XVII, 12</cite> (Y. <he>זְבִינֵי</he> pl.). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 7:13\">Targ. Ez. VII, 13</cite>; a. e.—Y. Kidd. III, beg., 63ᶜ <he>זבין ז׳</he> bargaining for an object. ",
+				"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> <he>הא ז׳ והא וכ׳</he> here are the goods and here the salesman; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>purchase</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 25:42\">Targ. Y. Lev. XXV, 42</cite> (O. <cite ref=\"G00265\"><he>זִיבּוּן</he></cite>).—Pl. <he>זְבִינִין</he>, <he>זְבִינֵי</he>. ",
+				"<cite ref=\"Onkelos Leviticus 25:14\">Targ. O. Lev. XXV, 14</cite> (Y. some ed. <he>זַבִּינֵי</he>).—",
+				"<cite ref=\"Onkelos Genesis 49:32\">Targ. Gen. XLIX, 32</cite> (Y. some ed. <he>זַבִּ׳</he>); a. e.—",
+				"<cite ref=\"Pesachim 113a:6\">Pes. 113ᵃ</cite>, v. <cite ref=\"G00052\"><he>זְבַן</he></cite> <i>Pa</i>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>purchase money</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 25:16\">Targ. Lev. XXV, 16</cite> (Y. some ed. <he>זַבִּינִ׳</he>); a. e."
+			],
+			"label": "3"
+		}
+	]
+}

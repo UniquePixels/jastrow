@@ -1,0 +1,22 @@
+{
+	"id": "K01137",
+	"slug": "כרזא",
+	"headword": {
+		"text": "כְּרָזָא"
+	},
+	"page": {
+		"number": 665,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>כְּרָזֵי</he> name of two species of winged <i>locusts</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 62b:4\">Ḥull. 62ᵇ</cite> <he>כ׳ דבי חילפי וכ׳</he> (Ar. <he>כְּרָאזֵי</he>) those living in rushes are permitted, <he>דבי כורי וכ׳</he> Ar. (ed. <he>כרבי</he>, v. <cite ref=\"K01079\"><he>כְּרָבָא</he> II</cite>) those among heaps are forbidden (v. Tosaf. a. l.)."
+			]
+		}
+	]
+}

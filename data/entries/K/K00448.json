@@ -1,0 +1,31 @@
+{
+	"id": "K00448",
+	"slug": "כזר",
+	"headword": {
+		"text": "כְּזַר"
+	},
+	"page": {
+		"number": 628,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"K00444\"><he>כזז</he></cite>) <i>to shrink; to be hard</i> (v. <cite ref=\"A01679\"><he>אַכְזָר</he></cite> a. denom.).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְכְּזַר"],
+			"senses": [
+				{
+					"gloss": "<i>to loathe</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 10:1\">Targ. Job. X, 1</cite> <he>אִתְכַּזְרִית וכ׳</he> Ms. (Var. <he>אתבזיית</he>, ed. <he>אתגזרַת</he>) I myself loathe my life."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

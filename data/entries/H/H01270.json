@@ -1,0 +1,27 @@
+{
+	"id": "H01270",
+	"slug": "חנוקא",
+	"headword": {
+		"text": "חָנוֹקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָנוֹקָה"
+		}
+	],
+	"page": {
+		"number": 482,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01325\"><he>חֲנַק</he></cite>) <i>strangler, fighter</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 78:1\">Gen. R. s. 78</cite>, beg.; <cite ref=\"Shir HaShirim Rabbah 1:2:2\">Cant. R. to I, 2</cite>, a. e. <he>ח׳ סברת וכ׳</he> strangler, doest thou mean to choke me, i.e. do you think you can embarrass me with your arguments?"
+			]
+		}
+	]
+}

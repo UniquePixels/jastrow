@@ -1,0 +1,23 @@
+{
+	"id": "A02701",
+	"slug": "אפיפיורא",
+	"headword": {
+		"text": "אַפִּיפְיוֹרָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 103,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>על פיפיורא</he>, v. <cite ref=\"Q00785\"><he>פִּיפְיוֹרָא</he></cite> a. <cite ref=\"A02702\">next w.</cite>) <i>litter-carrier, chief lecticarius</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 11a:3\">Ab. Zar. 11ᵃ</cite> (v. <cite ref=\"Q00785\"><he>פיפיורא</he></cite> for correct versions)."
+			]
+		}
+	]
+}

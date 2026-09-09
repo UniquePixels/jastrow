@@ -1,0 +1,23 @@
+{
+	"id": "Q01444",
+	"slug": "פצעילין",
+	"headword": {
+		"text": "פַּצְעִילִין"
+	},
+	"page": {
+		"number": 1206,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"Q01439\"><he>פָּצַע</he></cite>, with format, <cite ref=\"L00000\"><he>ל</he></cite>) <i>burst fruits, fruits that fell off in an unripe state and were placed in the sun to ripen</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 45b:1\">Sabb. 45ᵇ</cite> top <he>פַּצְעִילֵי תמרה</he> dates lying on the roof to ripen; <cite ref=\"Beitzah 40a:17\">Bets. 40ᵃ</cite>; cmp. <cite ref=\"Q00792\"><he>פִּיצּוּלַיָּא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,65 @@
+{
+	"id": "D00856",
+	"slug": "דלק-1",
+	"headword": {
+		"text": "דָּלַק"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּלֵיק"
+		}
+	],
+	"page": {
+		"number": 311,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to burn; to be illumined</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 39\">Gen. R. s. 39</cite> saw a castle <he>דּוֹלֶקֶת</he> lighted. ",
+				"<cite ref=\"Mishnah Bava Kamma 6:5\">B. Kam. VI, 5</cite> <he>ודָלְקוּ</he> and they caught fire. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:1:11\">Y. Sabb. II, beg. 4ᶜ</cite> <he>והיא דְלֵיקָה והולכת</he> that it may continue to burn. Ib.ᵈ <he>דְּלֵיקִין</he> are burning.—Part. pass. <he>דָּלוּק</he> <i>enkindled, burning</i>. ",
+				"<cite ref=\"Bereishit Rabbah 11\">Gen. R. s. 11</cite> <he>מצאתי אותו דָ׳</he> (<cite ref=\"Yalkut Shimoni on Torah 16:20\">Yalk. ib. 16</cite> <he>דּוֹלֵק</he>) I found it still burning. ",
+				"<cite ref=\"Midrash Tehillim 7:11\">Midr. Till. to Ps. VII, 14</cite> (ref. to <he>לדלקים</he> <cite ref=\"Midrash Tehillim 7:11\">ib.</cite>) <he>שלבם דָּ׳ עליהם</he> (Yalk. a. l. <he>דולק</he>) whose hearts within them are burning (with lust).—",
+				"<cite ref=\"Eichah Rabbah 4\">Lam. R. to IV, 19</cite> [read:] <he>שהיו דולקין אחריהם מַעֲבִיּוֹת</he> (<cite ref=\"Kohelet Rabbah 5:2:1\">Koh. R. to V, 2</cite> <he>שמשליכין דֶּלֶק אחריהם</he>) they (the Romans) sent fire after them from their engines (tormenta), v. <cite ref=\"P00055\"><he>עָבִית</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pursue eagerly</i>. Lam. R. l. c. <he>דּוֹלְקֵיהֶם של ישראל</he> (Koh. R. l. c. <he>רודפ׳</he>; Midr. Till. l. c. <he>שונאין</he>) Israel’s persecutors.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִדְלַק"],
+			"senses": [
+				{
+					"gloss": "<i>to be burnt, destroyed by fire</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Orlah 3:1\">Orl. III, 1</cite> <he>יִדָּלֵק</he>; <he>יִּדָּלְקוּ</he> must be burnt. Ib. 2 sq.; a. fr.—Y. B. Kam. IV, 5ᶜ top <he>דרכן לִידָּלֵק</he> liable to take fire."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִדְלִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to kindle, light</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 2:1\">Sabb. II, 1</cite> <he>במה מַדְלִיקִין</he> what material may be used for the Sabbath lights? Ib. 7 <he>הַדְלִיקיּ וכ׳</he> light the lamps. Y. ib. II, 4ᶜ bot.; Y. Ter. XI, 48ᵇ top <he>באה להַדְלִיק וכ׳</he> she came to get a light from a priest’s wife; a. fr.—V. <cite ref=\"E00130\"><he>הַדְלָקָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

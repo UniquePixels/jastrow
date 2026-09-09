@@ -1,0 +1,33 @@
+{
+	"id": "S00030",
+	"slug": "קבה-3",
+	"headword": {
+		"text": "קֵבָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "קֵי׳"
+		}
+	],
+	"page": {
+		"number": 1307,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>קבב</he>)<i>maw</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 11:1\">Ḥull. XI, 1</cite>. ",
+				"<cite ref=\"Chullin 134b:19\">Ib. 134ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 18:3\">Deut. XVIII, 3</cite>) <he>להביא חלב שע״ג הק׳ וכ׳</he> this (<cite ref=\"U01971\"><he>הַ</he></cite>) serves to include the fat surrounding and inside the maw; a. e.—Esp. <i>rennet</i>, used to curdle milk. ",
+				"<cite ref=\"Mishnah Avodah Zarah 2:5\">Ab. Zar. II, 5</cite> <he>קֵיבַת נבלה</he>, <he>קיבה של נ׳</he>, v. <cite ref=\"P00859\"><he>עָמַד</he></cite>. ",
+				"<cite ref=\"Mishnah Avodah Zarah 2:5\">Ib.</cite> <he>קיבת עולה</he> rennet of a burnt-offering. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:1:8\">Y. Bets. I, 60ᵃ</cite> <he>קיבת הגוי</he> rennet supplied by a gentile. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:1:8\">Ib.</cite> bot. <he>ק׳ ממקום אחר באת</he> the rennet in the maw comes from outside (is not considered a part of the animal itself); a. fr.—Pl. <cite ref=\"S00045\"><he>קֵבוֹת</he></cite>, <cite ref=\"S00030\"><he>קֵי׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:1:8\">Ib.</cite> <he>התירו קֵיבוֹתֵיהֶם</he> they allowed to use the rennets of these sheep; <cite ref=\"Jerusalem Talmud Avodah Zarah 2:7:3\">Y. Ab. Zar. II, 41ᶜ</cite> bot."
+			]
+		}
+	]
+}

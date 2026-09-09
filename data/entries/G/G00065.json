@@ -1,0 +1,22 @@
+{
+	"id": "G00065",
+	"slug": "זגיד",
+	"headword": {
+		"text": "זָגֵיד"
+	},
+	"page": {
+		"number": 380,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"G00064\">preced.</cite>, cmp. <he>אפרקד</he>) <i>in a brooding position</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 62b:9\">Ḥull. 62ᵇ</cite> <he>מרדו ז׳ ואכיל</he> (Rashi <cite ref=\"M02652\"><he>מרה</he></cite>) <i>mardu broodingand eating</i> (name of a bird, prob. an adaptation of a foreign word), contrad. to <he>סגיד ואכיל</he> kneeling down and eating (like a bird of prey). [R. Gerson Ms. to Ḥull.: <he>מרדו מזרג</he>, leaving out <cite ref=\"K00260\"><he>אכיל</he></cite>; Ar. ed. Koh. III, p. 319.]"
+			]
+		}
+	]
+}

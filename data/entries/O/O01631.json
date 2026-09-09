@@ -1,0 +1,25 @@
+{
+	"id": "O01631",
+	"slug": "סריקותא-2",
+	"headword": {
+		"text": "סְרִיקוּתָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1027,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"O01623\"><he>סָרֵיק</he></cite>) <i>idleness; vanity; recklessness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 2:1\">Targ. Ps. II, 1</cite> (h. text <cite ref=\"T00691\"><he>רִיק</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 73:13\">Ib. LXXIII, 13</cite>; a. e.—",
+				"<cite ref=\"Targum Jonathan on Hosea 7:3\">Targ. Hos. VII, 3</cite> <he>סְרִיקוּתְהוֹן</he> ed. Lag. (ed. Wil. <he>סְרִיקַתְ׳</he>)."
+			]
+		}
+	]
+}

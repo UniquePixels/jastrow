@@ -1,0 +1,51 @@
+{
+	"id": "A02259",
+	"slug": "אנס-1",
+	"headword": {
+		"text": "אָנַס"
+	},
+	"page": {
+		"number": 86,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; sec. r. of <cite ref=\"A00779\"><he>אוס</he></cite>, √<cite ref=\"A00516\"><he>או</he></cite>; cmp. <cite ref=\"A00820\"><he>אוץ</he></cite>, <cite ref=\"A02284\"><he>אנץ</he></cite>, <cite ref=\"H00408\"><he>חוס</he></cite>; as to meaning cmp. <cite ref=\"K00334\"><he>כוף</he></cite>, <he>אנן</he> &c.)<i>to bend, force; to do violence; to outrage</i> &c. ",
+			"units": [
+				"<cite ref=\"Chullin 45a:12\">Ḥull. 45ᵃ</cite> <he>א׳ בסימנים</he> if one in cutting presses the windpipe and gullet out of their natural position. ",
+				"<cite ref=\"Chullin 45a:12\">Ib.</cite> <he>אָנְסָה עצמה</he> if the animal strained its neck so as to dislocate the organs. ",
+				"<cite ref=\"Gittin 44b\">Gitt. 44ᵇ</cite>; <cite ref=\"Chullin 131a:2\">Ḥull. 131ᵃ</cite> <he>הרי שאָנְסוּ וכ׳</he> if royal officers took forcible possession of (seized,) his barn. ",
+				"<cite ref=\"Mishnah Ketubot 3:4\">Keth. III, 4</cite> <he>האוֹנֵס</he> he who violates a woman. Part. pass. f. <he>אֲנוּסָה</he> <i>an outraged woman</i>. Y. Yeb. VI, 7ᶜ; a. fr.—Masc. <he>אָנוּס</he> <i>the victim of an accident, unavoidably prevented</i>. ",
+				"<cite ref=\"Nedarim 27a\">Ned. 27ᵃ</cite> <he>א׳ רחמנא וכ׳</he> the Merciful (the Law) acquits from responsibility him who is the victim of an unavoidable accident; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַנַּס"],
+			"senses": [
+				{
+					"gloss": "<i>to violate</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 14:7\">Num. R. s. 14</cite> <he>לאַנְּסָהּ</he> to violate her."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נֶאֱנַס"],
+			"senses": [
+				{
+					"gloss": "<i>to be forced, overcome, to meet with an accident</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 13b\">Ber. 13ᵇ</cite> <he>נ׳ בשינה</he> overcome by sleep. ",
+						"<cite ref=\"Chullin 31a\">Ḥull. 31ᵃ</cite> <he>נֶאֶנְסָה וטבלה</he> if she dipped in the water by an accident <cite ref=\"Chullin 45a:11\">Ib. 45ᵃ</cite> <he>ובלבד שלא תֵּאָנֵס</he> provided the animal is not forced so that its organs be dislocated. ",
+						"<cite ref=\"Mishnah Ketubot 1:10\">Keth. I, 10</cite> <he>נאנסה</he> she was outraged; a. v. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

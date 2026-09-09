@@ -1,0 +1,37 @@
+{
+	"id": "L00606",
+	"slug": "לעט",
+	"headword": {
+		"text": "לָעַט"
+	},
+	"page": {
+		"number": 714,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"L00623\"><he>לָעַס</he></cite>)<i>to swallow, glut</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 1\">Deut. R. s. 1</cite>, beg. (ref. to <he>לת̇ר̇ופ̇ה̇</he>, <cite ref=\"Ezekiel 47:12\">Ez. XLVII, 12</cite>, cmp. ",
+				"<cite ref=\"Menachot 98a:14\">Men. 98ᵃ</cite> <he>להת̇יר̇ פ̇ה̇ אלמים</he>)  <he>כל מי שהוא אלם ולוֹעֵט הימנה וכ׳</he> whoever is tongue-tied and eats greedily of it (the Law), will have his tongue loosened &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִלְעִיט"],
+			"senses": [
+				{
+					"gloss": "<i>to feed an animal by putting food into its mouth</i>, contrad. to <cite ref=\"A00181\"><he>אָבַס</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 24:3\">Sabb. XXIV, 3</cite> <he>אבל מַלְעִיטִין</he> but you may put food into the camel’s mouth; <cite ref=\"Bereishit Rabbah 63\">Gen. R. s. 63</cite> (with ref. to <he>הלעיטני</he>, <cite ref=\"Genesis 25:30\">Gen. XXV, 30</cite>); <cite ref=\"Bamidbar Rabbah 21\">Num. R. s. 21</cite>. ",
+						"<cite ref=\"Tosefta Bava Kamma 6:17\">Tosef. B. Kam. VI, 17</cite>, <cite ref=\"Tosefta Bava Kamma 6:17\">ib.</cite> ",
+						"<cite ref=\"Chullin 3a\">Ḥull. I</cite>II (IV), 19 <he>הִלְעִיטָהּ חלתית וכ׳</he> if he made the animal eat asafoetida &c.; a. e.—",
+						"<cite ref=\"Bava Kamma 69a:8\">B. Kam. 69ᵃ</cite> <he>הַלְעִיטֵהוּ לרשע וכ׳</he> let the wicked (robber) glut it and die."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

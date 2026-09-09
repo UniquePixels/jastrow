@@ -1,0 +1,29 @@
+{
+	"id": "D00335",
+	"slug": "דוקנא",
+	"headword": {
+		"text": "דַּוְקָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּוְוקָנָא"
+		}
+	],
+	"page": {
+		"number": 288,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00325\"><he>דּוּק</he></cite>) <i>calculating, accurate scholar</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 10a:1\">Ab. Zar. 10ᵃ</cite> <he>ספרא ד׳</he> an accurate scribe (paying attention to exact historical dates).—Pl. <cite ref=\"D00336\"><he>דַּוְקָנֵי</he></cite>, <cite ref=\"D00213\"><he>דַּוְו׳</he></cite>. ",
+				"<cite ref=\"Menachot 29b:6\">Men. 29ᵇ</cite> <he>ספרי ד׳</he> careful copyists of the Bible. ",
+				"<cite ref=\"Yevamot 43a:10\">Yeb. 43ᵃ</cite> <he>משום דמסיימי בה ד׳ זו וכ׳</he> because exact scholars report a traditional addition (to the Halachah in question), ‘These are the words of R. S.’"
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "Q00429",
+	"slug": "פזל",
+	"headword": {
+		"text": "פָּזַל",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1150,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"Q00424\"><he>פָּזַז</he></cite>) <i>to turn, twist</i> (the head). ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 14\">Pesik. R. s. 14</cite> [read:] <he>עלה עליה עול עיניה מתחלפות והיא פוֹזֶלֶת ומסתכלת בעול</he> once she has had a yoke on, her eyes change (she squints), and she turns her head and attempts to look at the yoke (Tanḥ. ed. Bub., Ḥuck. 3 <he>עיניה מפלבלות</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִפְזַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be twisted</i>. Pesik. R. l. c. <he>ועוד עינים מן העול שנ׳</he> (not <he>שנפלו</he>) and they had another evidence from the yoke (that had just been taken off her) the rope of which appeared twisted.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

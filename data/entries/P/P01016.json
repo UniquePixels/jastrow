@@ -1,0 +1,40 @@
+{
+	"id": "P01016",
+	"slug": "ענש-1",
+	"headword": {
+		"text": "עָנַשׁ"
+	},
+	"page": {
+		"number": 1096,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A02259\"><he>אָנַס</he></cite>) [<i>to press</i>,] <i>to punish, fine</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 106b:19\">Zeb. 106ᵇ</cite>, a. e., <he>לא ע׳ וכ׳</he>, v. <cite ref=\"G00104\"><he>זָהַר</he></cite>. ",
+				"<cite ref=\"Sanhedrin 54a\">Snh. 54ᵃ</cite>, a. fr. <he>אין עוֹנְשִׁין מן הדין</he>, v. <cite ref=\"D00635\"><he>דִּין</he> II</cite>.—",
+				"<cite ref=\"Sanhedrin 43b:11\">Ib. 43ᵇ</cite> <he>לא ע׳ על הנסתרות</he> the Lord did not punish undiscovered transgressions (committed in Israel’s camps). ",
+				"<cite ref=\"Sanhedrin 54b:17\">Ib. 54ᵇ</cite> <he>ע׳ והזהיר</he> the text defines the penalty, and forbids the act; a. fr.—<i>Part. pass.</i> <he>עָנוּשׁ</he> <i>punishable</i>. ",
+				"<cite ref=\"Yevamot 47a:14\">Yeb. 47ᵃ</cite> <he>ע׳ כרת</he> doomed to extinction; <he>ע׳ סקילה</he> doomed to death by stoning; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶעֱנַשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be punished; to suffer</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 56a\">Sabb. 56ᵃ</cite>; <cite ref=\"Kiddushin 43a\">Kidd. 43ᵃ</cite> (ref. to <cite ref=\"II Samuel 12:9\">II Sam. XII, 9</cite>) <he>מה חרב … אין אתה נ׳ עליו וכ׳</he> as well as thou art not to be punished for the use of the sword against the sons of Ammon, so shalt thou not be punished for the death of Uriah the Hittite. ",
+						"<cite ref=\"Shabbat 149b:6\">Sabb. 149ᵇ</cite> <he>כל שחבירו נ׳ על ידו וכ׳</he> he through whose instrumentality a fellowman was punished (who was instrumental in causing a fellowman to sin), will not be entered within the precincts of the Lord. ",
+						"<cite ref=\"Yoma 22b\">Yoma 22ᵇ</cite> <he>מפני מה נ׳ שאול</he> for what sin was Saul made to suffer? <cite ref=\"Rosh Hashanah 16b\">R. Hash. 16ᵇ</cite>; <cite ref=\"Bava Kamma 93a\">B. Kam. 93ᵃ</cite>, a. e. <he>המוסר … הוא נ׳ תחלה</he> he who appeals to the Lord for judgment against his neighbor, will himself be the first to be punished. ",
+						"<cite ref=\"Sanhedrin 8a:4\">Snh. 8ᵃ</cite> <he>על דבר זה נ׳ משה</he> for saying this (‘you shall bring to <i>me</i>’, <cite ref=\"Deuteronomy 1:17\">Deut. I, 17</cite>) Moses had to suffer (by being compelled to admit his own incapability, <cite ref=\"Numbers 27:5\">Num. XXVII, 5</cite>); a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

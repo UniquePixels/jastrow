@@ -1,0 +1,26 @@
+{
+	"id": "M01382",
+	"slug": "מכירה",
+	"headword": {
+		"text": "מְכִירָה"
+	},
+	"page": {
+		"number": 782,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01434\"><he>מָכַר</he></cite>) <i>sale</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 26b\">R. Hash. 26ᵇ</cite>; <cite ref=\"Sotah 13a:8\">Sot. 13ᵃ</cite>, v. <cite ref=\"K00620\"><he>כִּירָה</he> I</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:2:2\">Y. Kidd. I, 59ᵃ</cite> <he>מ׳ מ׳</he> we draw an analogy between the expressions <he>מכר</he> (<cite ref=\"Deuteronomy 15:12\">Deut. XV, 12</cite> a. ",
+				"<cite ref=\"Exodus 21:7\">Ex. XXI, 7</cite>). ",
+				"<cite ref=\"Exodus 21:7\">Ib.</cite> bot. <he>שביעית של מ׳</he> the seventh year counted from the date of sale, opp. <he>של עולם</he> the Sabbatical year. ",
+				"<cite ref=\"Bava Kamma 68a:25\">B. Kam. 68ᵃ</cite> <he>מ׳ שאינה חוזרת</he> a sale which cannot be reconsidered; a. fr.—Y. Maas. Sh. III, beg. 54ᵃ <he>מְכוּרָתוֹ מיוחדת</he> its sale is permitted in a special Biblical passage (<cite ref=\"Deuteronomy 14:24\">Deut. XIV, 24</cite>, sq.)."
+			]
+		}
+	]
+}

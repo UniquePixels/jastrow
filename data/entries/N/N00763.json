@@ -1,0 +1,41 @@
+{
+	"id": "N00763",
+	"slug": "ניקוד",
+	"headword": {
+		"text": "נִיקּוּד"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִקּ׳"
+		}
+	],
+	"page": {
+		"number": 908,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נָקַד</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>dot, point</i>.—Pl. <he>נִיקּוּדִים</he>, <he>נִיקּוּדִין</he>, <cite ref=\"N00763\"><he>נִקּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 11:13\">Tosef. Sabb. XI</cite> (<cite ref=\"Tosefta Shabbat 12:13\">XII</cite>), 13 <he>הכותב שני נ׳ וכ׳</he> if one writes (on the Sabbath) two dots, and another person finishes them up &c., v. <cite ref=\"N01178\"><he>נְקוּדָּה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pl.</i> (as ab.) <i>minute loaves, cakes</i> (of half the size of an egg). ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 5:1\">Ter. V, 1</cite> (oth. opin. <i>crumbled pieces</i>; v. ",
+				"<cite ref=\"Joshua 9:12\">Josh. IX, 12</cite>); <cite ref=\"Bekhorot 22b:2\">Bekh. 22ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 5:1:7\">Y. Ter. V, 43ᶜ</cite> top <he>והדין נ׳ כהדא חציי וכ׳</he> those <i>niḳḳadim</i> are half the size of eggs.—[Midr. Sam. ch. XXII <he>ניקודים</he> some ed., read: <he>נִיקּוּרִים</he>.]"
+			],
+			"label": "2"
+		}
+	]
+}

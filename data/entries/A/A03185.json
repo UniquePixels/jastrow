@@ -1,0 +1,25 @@
+{
+	"id": "A03185",
+	"slug": "ארמניא",
+	"headword": {
+		"text": "אַרְמַנְיָא"
+	},
+	"page": {
+		"number": 123,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " v. <cite ref=\"A03178\"><he>אַרְמִינְיָא</he></cite>.—[",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 1:1\">Targ. Job I, 1</cite> Naḥmanid. in comment., Ms. <cite ref=\"S00665\"><he>קושטנטינא</he></cite>, ed. <cite ref=\"P00322\"><he>עוץ</he></cite>, v. next w.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "T00622",
+	"slug": "ריחוש-1",
+	"headword": {
+		"text": "רִיחוּשׁ"
+	},
+	"page": {
+		"number": 1474,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00540\"><he>רָחַשׁ</he></cite>) <i>movement</i> (of the lips). ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 62:1\">Midr. Till. to Ps. LXII</cite>, beg. <he>מה ה״א … ר׳ שפתים וכ׳</he> as for pronouncing the Hé, no movement of the lips or pressing of the tongue is required &c."
+			]
+		}
+	]
+}

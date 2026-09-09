@@ -1,0 +1,29 @@
+{
+	"id": "Q02203",
+	"slug": "פתרא",
+	"headword": {
+		"text": "פִּתְרָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1256,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"Q02138\"><he>פָּתוֹרָא</he> I</cite>. a. <cite ref=\"Q02156\"><he>פַּתְיָא</he> II</cite>) a certain kind of <i>wine vessel.—</i>Pl. <he>פִּתְרַיָּיא</he>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:4:9\">Y. Ab. Zar. II, 41ᶜ</cite> top <he>באילין פ׳ רברבייא</he> concerning those large vessels (used by gentiles)."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "R00608",
+	"slug": "צנה-2",
+	"headword": {
+		"text": "צִנָּה",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צִינָּה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1290,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"R00635\"><he>צָנַן</he></cite>) <i>stinging palm, stone-palm</i> (whose wood is very hard and thorny).—Pl. <he>צִנִּים</he>, <he>צִנִּין</he>, <cite ref=\"R00030\"><he>צִי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:9:2\">Y. B. Mets. II, end, 8ᵈ</cite> <he>קורדום … לא צ׳ ועצי זית</he> if one finds an axe, he may use it for chopping ordinary wood, but not for stone-palms and olive trees; <cite ref=\"Tosefta Bava Metzia 2:22\">Tosef. B. Mets. II, 22</cite> <cite ref=\"R00634\"><he>צנם</he></cite> ed. Zuck. (Var. <cite ref=\"R00610\"><he>צנון</he></cite>, read: <cite ref=\"R00607\"><he>צנה</he></cite> or <he>צנין</he>). ",
+				"<cite ref=\"Mishnah Sukkah 3:1\">Succ. III, 1</cite> <he>צִינֵּי … כשרות</he> the palms of the Iron Mount are fit (for the festive wreath), expl. ",
+				"<cite ref=\"Sukkah 32b\">ib. 32ᵇ</cite>; <cite ref=\"Eruvin 19a\">Erub. 19ᵃ</cite>"
+			]
+		}
+	]
+}

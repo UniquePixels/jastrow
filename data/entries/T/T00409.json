@@ -1,0 +1,23 @@
+{
+	"id": "T00409",
+	"slug": "רונקי",
+	"headword": {
+		"text": "רוּנְקֵי"
+	},
+	"page": {
+		"number": 1462,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Chaldaism; <cite ref=\"T00431\"><he>רוּק</he> II</cite>, with anorg. <cite ref=\"N00001\"><he>נ</he></cite>; cmp. <cite ref=\"T00441\"><he>רוֹקֵן</he></cite>) <i>the contents of a pot upturned and emptied</i> on a flat vessel to cool off. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 2:5\">Kel. II, 5</cite> <he>מפני שהיא הופכת עליו את הר׳</he> (Var. in R. S. <he>הרומקי</he>, read: <he>הרוקמי</he>, v. infra) because she (the cook) inverts the contents of the pot on it (the lid); <cite ref=\"Tosefta Kelim Kamma 2:5\">Tosef. Kel. B. Kam. II, 5</cite> <he>הרוּקְמֵי</he> (cmp. <cite ref=\"T00700\"><he>רֵיקָם</he></cite>)."
+			]
+		}
+	]
+}

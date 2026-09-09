@@ -1,0 +1,22 @@
+{
+	"id": "S00140",
+	"slug": "קדימתא",
+	"headword": {
+		"text": "קְדִימְתָּא"
+	},
+	"page": {
+		"number": 1315,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"S00137\"><he>קָדִים</he></cite>, <i>east wind</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 3:8:5\">Y. Gitt. III, end, 45ᵇ</cite> (not <he>קדמיתא</he>), v. <cite ref=\"S00811\"><he>קְטַף</he> I</cite>."
+			]
+		}
+	]
+}

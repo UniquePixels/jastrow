@@ -1,0 +1,39 @@
+{
+	"id": "O00151",
+	"slug": "סגלגל-3",
+	"headword": {
+		"text": "סְגַלְגַּל",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סְגַלְגְּלָא"
+		}
+	],
+	"page": {
+		"number": 955,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. 1) (adj.) <cite ref=\"O00150\">same</cite>. ch. ",
+			"units": []
+		},
+		{
+			"gloss": " (adj.) <cite ref=\"O00150\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 7:23\">Targ. I Kings VII, 23</cite>; a. fr.—Pl. <he>סְגַלְגְּלִין</he>; <cite ref=\"O00151\"><he>סְגַלְגְּלָן</he></cite>. Ib. 31. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 1:7\">Targ. Ez. I, 7</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (noun) <i>door turning on pivots, folding door</i> (v. <cite ref=\"C00883\"><he>גִּלָּה</he></cite>).—Pl. <he>סְגַלְגְּלִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 6:34\">Targ. I Kings VI, 34</cite> (h. text <he>גלילים</he>). ",
+				"<cite ref=\"Aramaic Targum to Esther 1:6\">Targ. Esth. I, 6</cite>, v. <cite ref=\"D01139\"><he>דַּשָּׁא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

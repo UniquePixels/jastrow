@@ -1,0 +1,127 @@
+{
+	"id": "V00743",
+	"slug": "תני-2",
+	"headword": {
+		"text": "תְּנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּנָא"
+		}
+	],
+	"page": {
+		"number": 1681,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00742\">same</cite><i>to repeat, do a second time</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 20:10\">Targ. II Sam. XX, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 26:8\">Targ. I Sam. XXVI, 8</cite> (ed. Wil. <cite ref=\"U01586\"><he>אֶשְׁנֵי</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 18:34\">Targ. I Kings XVIII, 34</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 29:22\">Targ. Job XXIX, 22</cite> (ed. Wil. <i>Pa.</i>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 26:11\">Targ. Prov. XXVI, 11</cite> <he>דתָאנֵי</he> ed. Lag. (ed. Wil. <he>דתָנֵי</he>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to tell, relate; to teach</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 50:6\">Targ. Ps. L, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 49:14\">Ib. XLIX, 14</cite> (Ms. <i>Pa.</i>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 147:19\">Ib. CXLVII, 19</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 5:5\">Targ. Y. Deut. V, 5</cite> <he>למִתְנְיָא</he> (ed. Vien. <he>למִתַּנְיָא</he> <i>Ithpe.</i>); a. fr.—Esp. (denom. of <cite ref=\"M03094\"><he>מתניתא</he></cite>) <i>to teach</i> or <i>study Mishnah</i> or <i>Boraitha</i>; in gen. <i>to report a tradition, teach, study</i>. ",
+				"<cite ref=\"Eruvin 36b:9\">Erub. 36ᵇ</cite> <he>ליתא למתניתן מדתָנֵי איו דת׳ איו וכ׳</he> our Mishnah is no authority, as it is contradicted by what Ayo teaches, for Ayo taught &c. ",
+				"<cite ref=\"Yoma 27b:9\">Yoma 27ᵇ</cite> <he>והא אנן לא תְּנָן הכי</he> but we have not so learned in the Mishnah! <cite ref=\"Yoma 27b:10\">Ib.</cite> <he>הך … קתני הך … לא קתני</he> the Mishnah speaks of that which, if neglected, can be remedied; that which cannot be remedied it does not mention. ",
+				"<cite ref=\"Shabbat 2a:7\">Sabb. 2ᵃ</cite> <he>תנן התם וכ׳</he> there (in the Mishnah, <cite ref=\"Mishnah Shevuot 1:1\">Shebu. I, 1</cite>) we read &c. Ib.ᵇ <he>מאי שנא הכא דת׳ … ומ״ש התם דת׳ וכ׳</he> why does the Mishnah here read …, and there &c.? <cite ref=\"Berakhot 8b:23\">Ber. 8ᵇ</cite> <he>תְּנִינָא וכ׳</he> we are taught in the Mishnah &c. ",
+				"<cite ref=\"Berakhot 2a:6\">Ib. 2ᵃ</cite> <he>דקת׳ מאימתי</he>, v. <cite ref=\"S00007\"><he>קָאֵי</he></cite>. ",
+				"<cite ref=\"Berakhot 2a:11\">Ib.</cite> <he>כדתַנְיָא</he> as it is stated (in the Boraitha). ",
+				"<cite ref=\"Yoma 26a:1\">Yoma 26ᵃ</cite> <he>לכדתניא</he> (the word <i>peder</i> is needed) to intimate the law taught in the Boraitha. ",
+				"<cite ref=\"Yoma 26a:8\">Ib.</cite> <he>והתניא וכ׳</he> but has it not been taught &c.?; <cite ref=\"Yoma 28a:7\">ib. 28ᵃ</cite>, a. fr.—",
+				"<cite ref=\"Berakhot 28a:17\">Ber. 28ᵃ</cite>, a. fr. <he>והתניא</he> and so it has been taught.—",
+				"<cite ref=\"Jerusalem Talmud Challah 2:1:12\">Y. Ḥall. II, 58ᶜ</cite> <he>ר׳ יונה ת׳ דר״ש וכ׳</he> R. Jonah taught (and adopted) the opinion of R. S. b. J.—",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:1:19\">Y. Kidd. I, 58ᶜ</cite> bot. <he>תמן תנינן</he> there (in a Mishnah) we read &c. ",
+				"<cite ref=\"Megillah 24b:18\">Meg. 24ᵇ</cite> <he>לימא תנינן להא דתָנוּ רבנן וכ׳</he> shall we say that we are here taught that which the Rabbis have taught &c. (i.e. is this a confirmation of what &c.)?—",
+				"<cite ref=\"Berakhot 13a:2\">Ber. 13ᵃ</cite>, a. fr. <he>תָּנוּ רבנן</he> (abbrev. <he>ת״ר</he>) the Rabbis have taught (introducing a discussion); a. v. fr.—[In Talm. Babli <he>תנן</he> refers to Mishnah, <he>תניא</he> to Boraitha.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תַּנֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to change</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 14:20\">Targ. Job XIV, 20</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to tell, relate; to teach</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 22:20\">Targ. Y. Gen. XXII, 20</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 32:6\">Ib. XXXII, 6</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 30:10\">Targ. Ps. XXX, 10</cite> <he>הַיְתַנּוּן</he> ed. Lag. (Ms. <he>אפשר דיתנון</he>; ed. Wil. <he>החויתון</he>; oth. ed. <he>החויתינון</he>, corr. acc.). ",
+						"<cite ref=\"Targum of II Chronicles 9:2\">Targ. II Chr. IX, 2</cite>; a. fr.—",
+						"<cite ref=\"Berakhot 49a:15\">Ber. 49ᵃ</cite> <he>ברכת</he> … <he>וחַנּוּיֵי קא מְתַנִּינָא</he> Ms. M. (or <cite ref=\"M03094\"><he>מַתְנִינָא</he></cite> <i>Af.</i>; ed. <he>מְתַנִּינָן</he> or <he>מַתְנִינָן</he>) I have not learned the benediction over food, and shall I teach (Mishnah)?"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַתְנֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to stipulate, agree, make a condition</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 4:24\">Targ. Y. Ex. IV, 24</cite>.—",
+						"<cite ref=\"Ketubot 3a:11\">Keth. 3ᵃ</cite> <he>כיון דאיבעי ליה לאַתְנוּיֵי ולא א׳ וכ׳</he> because he ought to have made it a condition (not to count so common an obstacle as the absence of a ferry), and he did not make it, he has to take the consequences. ",
+						"<cite ref=\"Shevuot 11b:9\">Shebu. 11ᵇ</cite> <he>וכי קיימי ב״ד ומַתְנוּ משום עורה</he> Ms. M. (ed. <he>וקיימי ב״ד ומתנו אדעתא דעורה</he>) did the court establish a general law (that dead sacrificial animals need not be redeemed,) and stipulate that it must be redeemed for the value of its skin?; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to relate, teach</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 8b:23\">Ber. 8ᵇ</cite> <he>איכא דמַתְנֵי להא וכ׳</he> some one quoted that opinion of R. A. bar Ḥ. with reference to what has been taught, ‘R. S. b. Y. says &c.’ <cite ref=\"Ketubot 17a\">Keth. 17ᵃ</cite> sq. <he>וה״מ למאן דקרי ותני אבל למאן דמתני וכ׳</he> this has been said concerning the funeral only of one who was versed in Bible and a student of Mishnah, but as regards one who was a teacher of Mishnah, there is no limit (of attendance at his funeral). ",
+						"<cite ref=\"Chullin 48a:4\">Ḥull. 48ᵃ</cite> <he>הא … אתון אהא מַתְנִיתוּן לה אנן אדרבא מַתְנִינָן לה</he> you report that action of R. N. … in connection with this, we report it in connection with what Raba said &c.; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתַּנֵּי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיתְּנֵי", "אִיתְ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be repeated</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 41:32\">Targ. Gen. XLI, 32</cite>. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 27:26\">Targ. Y. Deut. XXVII, 26</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be told, reported</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 38:13\">Targ. Y. Gen. XXXVIII, 13</cite> (not <he>ואַתְ׳</he>). ",
+						"<cite ref=\"Targum Jerusalem, Genesis 44:18\">Targ. Y. II ib. XLIV, 18</cite> (ed. Vien. <he>אֲתַנֵּי</he>, corr. acc.); a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

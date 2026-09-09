@@ -1,0 +1,31 @@
+{
+	"id": "C00882",
+	"slug": "גלדנא",
+	"headword": {
+		"text": "גִּלְדָּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּילְ׳"
+		}
+	],
+	"page": {
+		"number": 246,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גלד</he>) <i>gildana</i>, name of a certain fish with a <i>thick fatty skin</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 100b:3\">Snh. 100ᵇ</cite> <he>לא תנטוש גיל׳ וכ׳</he> (Ms. M. <he>תפשוט</he>) do not begin to strip the <i>gildana</i> from its gill, lest its skin go to ruin (a citation from Ben Sira). ",
+				"<cite ref=\"Bava Batra 73b:6\">B. Bath. 73ᵇ</cite> <he>ההוא ג׳ וכ׳</he> that was a sea <i>gildana</i> (a small fish among the sea monsters). ",
+				"<cite ref=\"Horayot 12a:13\">Hor. 12ᵃ</cite>; <cite ref=\"Keritot 6a:11\">Ker. 6ᵃ</cite>.—Pl. <cite ref=\"C00882\"><he>גִּלְדָּנֵי</he></cite>, <cite ref=\"C00864\"><he>גִּילְ׳</he></cite>. ",
+				"<cite ref=\"Tamid 32b:8\">Tam. 32ᵇ</cite> <he>ג׳ דמלחא</he> Rashi (ed. <cite ref=\"C00384\"><he>גולדנא</he></cite>) salted g. ",
+				"<cite ref=\"Berakhot 44b:18\">Ber. 44ᵇ</cite>; <cite ref=\"Ketubot 105b:15\">Keth. 105ᵇ</cite>, v. <cite ref=\"C00719\"><he>גִּילָא</he> II</cite>."
+			]
+		}
+	]
+}

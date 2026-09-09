@@ -1,0 +1,26 @@
+{
+	"id": "Q00595",
+	"slug": "פיהי",
+	"headword": {
+		"text": "פִּיהֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּהֵי"
+		}
+	],
+	"page": {
+		"number": 1159,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"Q00146\"><he>פְּהֵי</he></cite>) <i>wandering about, idleness</i>; <he>בשיהי פ׳</he> in standing still and sauntering about, <i>in idleness</i>. Targ. II Esth. III, 8; <cite ref=\"Megillah 13b:19\">Meg. 13ᵇ</cite> Ms. M. (ed. <he>בשה״י פה״י</he>, expl. in Rashi as an acrostic abbreviation: <he>ש̇בת ה̇י̇ום</he>, <he>פ̇סח ה̇יו̇ם</he> to-day is Sabbath, to-day is Passover); <cite ref=\"Yalkut Shimoni on Nach 1054\">Yalk. Esth. 1054</cite> <he>בשהי פהי</he>.",
+			"units": []
+		}
+	]
+}

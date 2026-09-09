@@ -1,0 +1,107 @@
+{
+	"id": "Q01909",
+	"slug": "פרס-2",
+	"headword": {
+		"text": "פְּרַס",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1232,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01908\">same</cite><i>to split, divide, break</i>; esp. <i>to break bread and say grace</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 4:39\">Targ. II Kings IV, 39</cite> (h. text <he>פלח</he>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 9:13\">Targ. I Sam. IX, 13</cite> <he>פריס על מזונא</he> ed. Lag. (oth. ed. <he>פ׳ מזונא</he>; Ar. <he>יַפְרִיס נכסתא</he> <i>Af.</i>).—",
+				"<cite ref=\"Yalkut Shimoni on Nach 947:1\">Yalk. Prov. 947</cite> <he>פָּרֵיס מנחם ויהיב לאבל</he> the comforter breaks the bread and gives it to the mourner (ref. to <cite ref=\"Lamentations 1:17\">Lam. I, 17</cite>). ",
+				"<cite ref=\"Sanhedrin 49a:16\">Snh. 49ᵃ</cite> bot. <he>פריס להו</he> he divided with them, v. <cite ref=\"M00540\"><he>מוֹנִינֵי</he></cite>. ",
+				"<cite ref=\"Bava Metzia 40a:19\">B. Mets. 40ᵃ</cite> <he>פריס ר׳ י׳ שיתא וכ׳</he> R. J. sold at the rate of six <i>kuzé</i> for &c.; a. e.—Part. pass. <cite ref=\"Q01909\"><he>פָּרִיס</he></cite>; f. <cite ref=\"Q01813\"><he>פְּרִיסָא</he></cite>. ",
+				"<cite ref=\"Pesachim 37b:1\">Pes. 37ᵇ</cite> <he>והכא כמאן דפ׳ דמיא</he> and here it has the appearance of being broken; <cite ref=\"Menachot 78b\">Men. 78ᵇ</cite> (not <cite ref=\"D00891\"><he>דמי</he></cite>). ",
+				"<cite ref=\"Bekhorot 40a:21\">Bekh. 40ᵃ</cite> <he>דשפיד ופריס</he> (ed. <he>ופרוס</he>, Hebr. form) when the mouth is pointed and (the lip) parted (like that of swine); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to divide, arrange</i>; (= h. <cite ref=\"P01375\"><he>העריך</he></cite>, <he>סדר</he>) <i>to arbitrate, value</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 27:8\">Targ. O. Lev. XXVII, 8</cite>; a. fr.—Denom. <cite ref=\"Q00368\"><he>פּוּרְסָא</he></cite>, <cite ref=\"Q00369\"><he>פּוֹרָסָא</he></cite>, <cite ref=\"Q00371\"><he>פּוּרְסָנָא</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to distribute, spread; to publish</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 36:30\">Targ. Job XXXVI, 30</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 17:19\">Targ. II Sam. XVII, 19</cite> <he>ופַרְסַת</he> (not <he>ופֵ׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 29:5\">Targ. Prov. XXIX, 5</cite>; a. fr.—Part. pass. <cite ref=\"Q01909\"><he>פָּרִיס</he></cite>; f. <cite ref=\"Q01813\"><he>פְּרִיסָא</he></cite>; pl. <he>פְּרִיסִין</he>; <cite ref=\"Q01813\"><he>פְּרִיסַן</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 25:20\">Targ. Ex. XXV, 20</cite> (Bxt. <he>פָּרְסִין</he>); a. fr.—Targ. II Esth. IV, 8 <he>פָּרִיס</he> <i>published</i>.—",
+				"<cite ref=\"Berakhot 55b:11\">Ber. 55ᵇ</cite> <he>בעידנא דפַרְסֵי וכ׳</he> when they (the priests) spread their hands (to bless). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 20:1:3\">Y. Sabb. XX, beg. 17ᶜ</cite> <he>הוון פָּרְסִין קילעיה וכ׳</he> they spread the curtains on the day before up to four cubits, and the next day they spread them entirely. ",
+				"<cite ref=\"Berakhot 51a:20\">Ber. 51ᵃ</cite> (expl. <cite ref=\"P00532\"><he>עיטוף</he></cite>) <he>ר׳ אסי פָרֵיס סודרא וכ׳</he> R. A. used to spread a cloth over his head (before taking up the cup of benediction). ",
+				"<cite ref=\"Shabbat 48a\">Sabb. 48ᵃ</cite>. Y. ib. XVII, end, 15ᵈ, v. <cite ref=\"C00219\"><he>גְּדִישָׁא</he></cite>; a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פָּרֵיס"],
+			"senses": [
+				{
+					"gloss": "<i>to spread</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 1:17\">Targ. Lam. I, 17</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (<i>Pali</i>) <cite ref=\"Q01928\"><he>פַּרְסִי</he></cite> (v. P. Sm. 3276) <i>to publish, divulge</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Genesis 38:25\">Targ. Y. II, Gen. XXXVIII, 25</cite> <he>מפרסיא</he> (Y. I <he>מפרסמא</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַפְרֵס"],
+			"senses": [
+				{
+					"gloss": "<i>to distribute, arrange</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 9:13\">Targ. I Sam. IX, 13</cite> Ar. (v. supra)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to spread forth</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 25:11\">Targ. Is. XXV, 11</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (v. <cite ref=\"Q01908\">preced.</cite> <i>Hif.</i>) <i>to set the foot</i>. Targ. II Esth. I, 2.",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְפָּרַס"],
+			"senses": [
+				{
+					"gloss": "<i>to be spread, published</i>. Ib. III, 15; VIII, 13, sq. <he>אתפרסת</he> Ar. s. v. <he>דיטגמא</he> (ed. <he>אתפרסמת</he>).—",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite> <he>ולא תִתְפַּרְסִין וכ׳</he> (fr. <cite ref=\"Q01928\"><he>פַּרְסִי</he></cite>) rather than that the secrets of the government be divulged."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "O00128",
+	"slug": "סגיאותא",
+	"headword": {
+		"text": "סְגִיאוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְגִיּוּתָא"
+		},
+		{
+			"text": "סַגְיוּ׳"
+		}
+	],
+	"page": {
+		"number": 954,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סְגֵי</he> I) <i>multitude, greatness</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 27:28\">Targ. O. Gen. XXVII, 28</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 11:42\">Targ. O. Lev. XI, 42</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 25:16\">Ib. XXV, 16</cite>; a. fr."
+			]
+		}
+	]
+}

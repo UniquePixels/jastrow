@@ -1,0 +1,25 @@
+{
+	"id": "C00059",
+	"slug": "גבור-1",
+	"headword": {
+		"text": "גִּבּוֹר"
+	},
+	"page": {
+		"number": 205,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"C00129\"><he>גבר</he></cite>)<i>strong, brave, mighty; hero</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 38a:7\">Ned. 38ᵃ</cite> <he>על ג׳</he> on a strong man; <cite ref=\"Shabbat 92a:8\">Sabb. 92ᵃ</cite>. ",
+				"<cite ref=\"Pirkei Avot 4:1\">Ab. IV, 1</cite> <he>איזהו ג׳</he> who is a hero?; <cite ref=\"Tamid 32a:33\">Tam. 32ᵃ</cite>; a. fr.—Pl. <he>גִּבּוֹרִים</he>. ",
+				"<cite ref=\"Bereishit Rabbah 37:5\">Gen. R. s. 37</cite> <he>פלשתים ג׳</he> <i>Philisteans</i> which means giants, opp. <he>ננסים</he>. ",
+				"<cite ref=\"Sotah 42b:12\">Sot. 42ᵇ</cite> <he>ד׳ ג׳</he> four (Philistean) heroes; a. e."
+			]
+		}
+	]
+}

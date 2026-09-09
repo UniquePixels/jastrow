@@ -1,0 +1,36 @@
+{
+	"id": "E00796",
+	"slug": "הקמה",
+	"headword": {
+		"text": "הֲקָמָה"
+	},
+	"page": {
+		"number": 364,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>קום</he>) ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"E00795\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Nedarim 69a:6\">Ned. 69ᵃ</cite> <he>ה׳ ראשונה</he> the first confirmation (when he said the first <he>קיים ליכי</he>). ",
+				"<cite ref=\"Nedarim 69a:6\">Ib.</cite> <he>ולא תיחול ה׳</he> but my confirmation shall not take effect; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>erection</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 2b:10\">R. Hash. 2ᵇ</cite> <he>להֲקָמַת המשכן</he> dating from the erection of the Tabernacle. Y. Yoma I, 38ᶜ top; <cite ref=\"Bamidbar Rabbah 12:1\">Num. R. s. 12</cite>, a. e. <he>ה׳ הלילה</he> the putting up (of the Tabernacle) by night; a. e.—Pl. <he>הֲקָמוֹת</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 12:1\">Ib.</cite> <he>הֲקָמוֹתָיו</he> his repeated acts of putting up."
+			],
+			"label": "2"
+		}
+	]
+}

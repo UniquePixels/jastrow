@@ -1,0 +1,29 @@
+{
+	"id": "N00482",
+	"slug": "נחושתן-2",
+	"headword": {
+		"text": "נְחוּשְׁתָּן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נְחֻשְׁ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 894,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>Nehushtan</i>, name of the copper serpent erected by Moses. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 18:4\">Targ. II Kings XVIII, 4</cite>."
+			]
+		}
+	]
+}

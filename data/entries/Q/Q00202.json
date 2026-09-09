@@ -1,0 +1,23 @@
+{
+	"id": "Q00202",
+	"slug": "פוך",
+	"headword": {
+		"text": "פּוּךְ"
+	},
+	"page": {
+		"number": 1141,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>stibium, eye-paint</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 109a:1\">Sabb. 109ᵃ</cite> <he>פ׳ מעביר וכ׳</he> stibium removes (cures) the King’s Daughter (v. <cite ref=\"M01572\"><he>מֶלֶךְ</he></cite>), stops the tears, and advances the growth of the eyelashes. ",
+				"<cite ref=\"Bava Batra 16b\">B. Bath. 16ᵇ</cite> (expl. <he>קרן הפוך</he>, <cite ref=\"Job 42:14\">Job XLII, 14</cite>), v. <cite ref=\"T01110\"><he>רְשַׁק</he></cite>."
+			]
+		}
+	]
+}

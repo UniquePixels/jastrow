@@ -1,0 +1,40 @@
+{
+	"id": "N00990",
+	"slug": "נעם",
+	"headword": {
+		"text": "נָעֵם"
+	},
+	"page": {
+		"number": 920,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be pleasing, lovely</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִנְעִים"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00989\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 24a:12\">Snh. 24ᵃ</cite> (ref. to <cite ref=\"N00990\"><he>נֹעַם</he></cite> <cite ref=\"Zechariah 11:7\">Zech. XI, 7</cite>) <he>אלו … שמַנְעִימִים זה לזה וכ׳</he> this refers to the scholars in Palestine who are polite to one another in discussion, opp. <he>מחבלים</he>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to sweeten</i> the voice; <i>to sing, accompany</i>. Y. Shek. V, 48ᵈ bot. <he>היה מַנְעִים את קולו וכ׳</he> he sweetened his voice when singing, v. <cite ref=\"N00983\"><he>נְעִימָה</he></cite>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 23\">Gen. R. s. 23</cite> <he>שהיתה מַנְעֶמֶת בתוף וכ׳</he> she sang to the timbrel in honor of idolatry, v. <cite ref=\"N00992\"><he>נַעֲמָה</he></cite>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 4:4:1\">Cant. R. to IV, 4</cite> <he>מי מנעים זמירותיהם וכ׳</he> who sweetens Israel’s songs? David &c.; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,76 @@
+{
+	"id": "G00218",
+	"slug": "זוע-2",
+	"headword": {
+		"text": "זוּעַ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 388,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00217\">same</cite><i>to move, tremble; hesitate</i>. Targ. O. a. Y. II <cite ref=\"Exodus 20:15\">Ex. XX, 15</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 13:17\">Targ. O. ib. XIII, 17</cite> (h. text <he>ינחם</he>); a. fr.—",
+				"<cite ref=\"Pirkei Avot 5:22\">Ab. V, 22</cite> <he>מינה לא תָזוּעַ</he> thou shalt not move (deviate) from it (the Law).—Part. <cite ref=\"G00218\"><he>זָיַיע</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 4:24\">Targ. Jer. IV, 24</cite>; a. e.—",
+				"<cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite> <he>מן … לית את ז׳</he> thou shalt never leave my palace."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זַיַּיע"],
+			"senses": [
+				{
+					"gloss": "<i>to shake, frighten</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 6:24\">Targ. Y. Num. VI, 24</cite> <cite ref=\"M00754\"><he>מְזַיְּיעֵי</he></cite> frightening demons."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to sweat, drip</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 26:19\">Targ. Y. Lev. XXVI, 19</cite> (cmp. Sifra a. l., quot. in <cite ref=\"G00217\">preced. w.</cite>); <cite ref=\"Targum Jonathan on Deuteronomy 28:23\">Targ. Y. Deut. XXVIII, 23</cite> <he>מְזִיעַ</he> (Af.)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אָזִיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to shake, frighten</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 8:12\">Targ. Jud. VIII, 12</cite>; a. fr.—Part. pass. <he>מְזָעָא</he>, f. <he>מְזָעֲתָא</he>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 25:19\">Targ. Prov. XXV, 19</cite> Ms. (ed. <he>מועדא</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to sweat;</i> v. supra.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְזִיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be frightened</i>. Part. <he>מִתְזְיַע</he>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 17:12\">Targ. Prov. XVII, 12</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

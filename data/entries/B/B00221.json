@@ -1,0 +1,27 @@
+{
+	"id": "B00221",
+	"slug": "בוז-2",
+	"headword": {
+		"text": "בּוּז",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 144,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00220\">same</cite><i>to plunder, ransack</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 34:27\">Targ. Gen. XXXIV, 27</cite>; a. fr.—",
+				"<cite ref=\"Esther Rabbah 3:11\">Esth. R. to I, 10</cite> (play on <he>בזתא</he> ibid.) <he>בוז ביתיה</he> plunder his house."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to tread</i>. Ib. (play on <he>בגתא ואבגתא</he> ibid. as if from <cite ref=\"B00071\"><he>בג</he></cite>, cmp. <he>בגד</he>) <he>בוז ובזבז</he> tread and shatter (v. Targ. Esth. a. l.; cmp. <cite ref=\"B00423\"><he>בָּזוֹזָא</he></cite>). [Most of the forms may be derived fr. <cite ref=\"B00429\"><he>בזז</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

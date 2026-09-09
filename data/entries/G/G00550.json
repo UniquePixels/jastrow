@@ -1,0 +1,27 @@
+{
+	"id": "G00550",
+	"slug": "זמרא-4",
+	"headword": {
+		"text": "זִמְרָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זִי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 405,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Zimra</i>, father of R. Yosé, v. <cite ref=\"J00217\"><he>יוֹסֵי</he></cite>. ",
+			"units": ["<cite ref=\"Ketubot 96a:12\">Keth. 96ᵃ</cite>; a. fr."]
+		}
+	]
+}

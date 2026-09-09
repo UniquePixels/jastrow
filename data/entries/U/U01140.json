@@ -1,0 +1,43 @@
+{
+	"id": "U01140",
+	"slug": "שכחה",
+	"headword": {
+		"text": "שִׁכְחָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1572,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01137\"><he>שָׁכַח</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>forgetting, forgetfulness</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:57\">Y. Peah I, 16ᵇ</cite> bot.; <cite ref=\"Yalkut Shimoni on Nach 559:5\">Yalk. Mic. 559</cite>, v. <cite ref=\"U00412\"><he>שׁוֹכְחָן</he></cite>. ",
+				"<cite ref=\"Pirkei Avot 4:22\">Ab. IV, 22</cite>. ",
+				"<cite ref=\"Shabbat 31b:5\">Sabb. 31ᵇ</cite> <he>שמא תאמר ש׳ היא מהן</he> lest you say, they forget it (that their way leads to death); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>that which is forgotten</i>, esp. (with ref. to <cite ref=\"Deuteronomy 24:19\">Deut. XXIV, 19</cite>) <i>the forgotten sheaf, the poor man’s sheaf</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 6:1\">Peah VI, 1</cite> <he>אינו ש׳</he> does not come under the law concerning a forgotten sheaf, does not belong to the poor. ",
+				"<cite ref=\"Mishnah Peah 6:4\">Ib. 4</cite> <he>ושלאחריו ש׳</he> and a sheaf left behind the cutter belongs to the poor; <cite ref=\"Bava Metzia 11a:19\">B. Mets. 11ᵃ</cite>. ",
+				"<cite ref=\"Bava Metzia 11a:15\">Ib.</cite> <he>לרבות שִׁכְחַת העיר</he> to include a sheaf forgotten in town (at unloading). Pesik. Vattom., p. 132ᵃ (ref. to <cite ref=\"Isaiah 49:14\">Is. XLIX, 14</cite>) <he>כעומר הש׳</he> like the forgotten sheaf; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

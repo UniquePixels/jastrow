@@ -1,0 +1,34 @@
+{
+	"id": "H00208",
+	"slug": "חדקא-1",
+	"headword": {
+		"text": "חִדְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִידְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 427,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00207\">same</cite><i>thorn</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Micah 7:4\">Targ. Mic. VII, 4</cite>.—Pl. <he>חִדְקַיָּא</he>, <cite ref=\"H00367\"><he>חִי׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 2:1:12\">Y. Taan. II, 65ᵇ</cite> top (ref. to Mic. l. c., v. <cite ref=\"H00207\">preced.</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " חִידְקֵי <i>parts</i> or <i>limbs</i> of a candlestick <i>fastened in their places</i>, opp. <he>חוליות</he> movable limbs. ",
+			"units": [
+				"<cite ref=\"Shabbat 46a\">Sabb. 46ᵃ</cite> ed. a. Ms. M. (Ar. <he>חרקי</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

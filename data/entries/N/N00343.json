@@ -1,0 +1,50 @@
+{
+	"id": "N00343",
+	"slug": "נוח-4",
+	"headword": {
+		"text": "נוֹחַ",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נוֹחָה"
+		}
+	],
+	"page": {
+		"number": 886,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00342\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>pleasing, kind</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 3:12\">Ab. III, 12</cite> <he>הוי קל לראש ונ׳ לתשחורת</he> be quick (to serve) to thy superior, and kind to youth; <cite ref=\"Jerusalem Talmud Taanit 2:2:2\">Y. Taan. II, 65ᵇ</cite> bot. <he>ונ׳ תשח׳</he> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>easy</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 17:8\">Gen. R. s. 17</cite> <he>מפני מה האיש נ׳ להתפתות וכ׳</he> why is man easily pacified, and woman not? <cite ref=\"Pirkei Avot 5:11\">Ab. V, 11</cite> <he>נ׳ לכעוס ונ׳ וכ׳</he> easily angered and easily reconciled, opp. <he>קשה</he>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 845:1\">Yalk. Deut. 845</cite> <he>נֹחַ לקנות שונא וכ׳</he> it is easy to acquire an enemy, but hard to acquire a friend; <he>נח לעלות לבימה וכ׳</he> it is easy to be brought up to the platform of the court, but hard to come down (be acquitted); a. fr.—Pl. <he>נוֹחִים</he>, <he>נוֹחוֹת</he>, <cite ref=\"N00649\"><he>נֹח׳</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 90:4\">Gen. R. s. 90</cite> <he>ונח׳</he>; <cite ref=\"Yalkut Shimoni on Torah 148:7\">Yalk. ib. 148</cite> <he>ונוח׳</he>, v. <cite ref=\"J00511\"><he>יָפַע</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " נ׳ לו <i>it is good</i> (<i>better</i>) <i>for</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 13b:14\">Erub. 13ᵇ</cite> <he>נ׳ לו לאדם שלא נברא יותר וכ׳</he> it would have been better for man not to have been born at all than &c. ",
+				"<cite ref=\"Shabbat 56b:12\">Sabb. 56ᵇ</cite> <he>נ׳ לו לאותו … ואל וכ׳</he> it would have been better for that pious man, had he been a slave in an idolatrous temple, only that it might not be written about him &c.; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

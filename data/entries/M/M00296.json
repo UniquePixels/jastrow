@@ -1,0 +1,34 @@
+{
+	"id": "M00296",
+	"slug": "מדינחא",
+	"headword": {
+		"text": "מָדִינְחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַדִּי׳"
+		},
+		{
+			"text": "מְדִנְחָא"
+		}
+	],
+	"page": {
+		"number": 734,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00926\"><he>דְּנַח</he></cite>) <i>East</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 15:19\">Targ. Y. II, Gen. XV, 19</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 1:3\">Targ. Job I, 3</cite> (h. text <he>קדם</he>); a. fr.—Y. Gitt. II, 44ᵇ top <he>בני מ׳</he> (= h. <he>בני קדם</he>) nomads. ",
+				"<cite ref=\"Bereishit Rabbah 37:8\">Gen. R. s. 37</cite>, end (translating <he>הר הקדם</he>, <cite ref=\"Genesis 10:30\">Gen. X, 30</cite>) <he>טורי מ׳</he> the mountains of the East.—Constr. <cite ref=\"M00314\"><he>מַדְנַח</he></cite>. ",
+				"<cite ref=\"Onkelos Numbers 34:11\">Targ. Num. XXXIV, 11</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 2:8:2\">Y. B. Bath. II, 13ᶜ</cite> top <he>ממַדְנִיחֵיה</he> on the east-side of him."
+			]
+		}
+	]
+}

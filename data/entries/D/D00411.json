@@ -1,0 +1,69 @@
+{
+	"id": "D00411",
+	"slug": "דחיל-1",
+	"headword": {
+		"text": "דּחֵיל"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּחַל"
+		}
+	],
+	"page": {
+		"number": 292,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"G00247\"><he>זחל</he></cite> a. Arab. <i>daḥala</i>) [<i>to be depressed, bent</i>,] <i>to fear, be afraid of, shun; to worship, revere</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 18:15\">Targ. Gen. XVIII, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 33:8\">Targ. Ps. XXXIII, 8</cite>; a. fr.—<i>Part.</i> <cite ref=\"D00412\"><he>דָּחִיל</he></cite>, <cite ref=\"D00411\"><he>דְּחֵיל</he></cite>; constr. <cite ref=\"D00412\"><he>דְּחִיל</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 9:20\">Targ. Ex. IX, 20</cite>. ",
+				"<cite ref=\"Onkelos Genesis 19:30\">Targ. Gen. XIX, 30</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 23b:6\">Sabb. 23ᵇ</cite> <he>דד׳ מרבנן</he> he who reveres the scholars. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 9:6:2\">Y. Naz. IX, end 58ᵃ</cite> (play on <he>מורה</he> a. <cite ref=\"M00606\"><he>מורא</he></cite>, v. Mishn. ib. IX, 5) <he>מה ביזרא ד׳ וכ׳</he> as the grain is afraid of the iron (scythe), so is the hair &c.; a. fr.—",
+				"<cite ref=\"Shabbat 31b:3\">Sabb. 31ᵇ</cite>, a. fr. <he>דְּחִיל חטאין</he> shunning sin."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּחַל"],
+			"senses": [
+				{
+					"gloss": "<i>to frighten, to cause fear</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 14:15\">Targ. II Sam. XIV, 15</cite> <he>דַּחֲלוּנִי</he> ed. Lag. (ed. <he>דחלונני</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַדְחֵיל"],
+			"senses": [
+				{
+					"gloss": "<i>to frighten, scare</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 3:6:3\">Cant. R. to III, 6</cite> <he>מן הדא את מדחיל לי</he> with this (fire) wilt thou frighten me?—",
+						"<cite ref=\"Kohelet Rabbah 7:1\">Koh. R. to VII, 1</cite> (prov.) whom a snake once has bitten, <he>חבלא מדחיל ליה</he> a rope will frighten."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִידְּחִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to be afraid</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 9:8\">Lev. R. s. 9</cite> <he>אִידְּחִילַת מיניה</he> she was afraid of him."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"id": "Q00487",
+	"slug": "פחת-2",
+	"headword": {
+		"text": "פְּחַת"
+	},
+	"page": {
+		"number": 1154,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00486\">same</cite><i>to diminish</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 114a:2\">Pes. 114ᵃ</cite> <he>פְּחוֹת ממיכלך וכ׳</he> diminish from (spend less for) thy eating and drinking, and add to thy dwelling.—Part. pass. <cite ref=\"Q00474\"><he>פָּחִית</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 19:3\">Targ. Ps. XIX, 3</cite> (Var. ed. Lag. a. ed. <cite ref=\"Q02174\"><he>פתית</he></cite>).—V. <cite ref=\"Q00474\"><he>פְּחִית</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to become defective, be broken</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 1:3:14\">Y. Dem. I, 22ᵃ</cite> <he>פ׳ פתורא קומוי</he> (prob. to be read: <cite ref=\"Q00487\"><he>איפחת</he></cite>) the table before him broke down."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתְפְּחַת", "אִיפְּחַת"],
+			"senses": [
+				{
+					"gloss": ", <he>אִיפְּחִית</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to become defective, be broken, damaged</i>. Y. M. Kat. I, 80ᵇ bot., v. <cite ref=\"A01243\"><he>אֲיָירָא</he></cite>. ",
+					"units": [
+						"<cite ref=\"Ketubot 62a\">Keth. 62ᵃ</cite> <he>איפ׳ בי בנא וכ׳</he> the floor of the bath-house under him gave way. ",
+						"<cite ref=\"Ketubot 62a:8\">Ib.</cite> <he>אִיפַּחֲתָא דרגא וכ׳</he> the ladder under him broke down; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to grow less</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 892:1\">Yalk. Deut. 892</cite> <he>אי׳ ליה שנה מן שנה שנה עליו עידנא</he> (not <cite ref=\"O01410\"><he>לה</he></cite>) his crop grew less from year to year; time changed for him (nature changed on his account); Tanḥ. R’eh 10 <he>מי פחת וכ׳</he> (corr. acc.)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+	"id": "O00893",
+	"slug": "סכי-2",
+	"headword": {
+		"text": "סְכֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְכָא"
+		}
+	],
+	"page": {
+		"number": 989,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00892\">same</cite>, <i>to look out; to hope</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 18:43\">Targ. I Kings XVIII, 43</cite>. ",
+				"<cite ref=\"Onkelos Genesis 31:49\">Targ. O. Gen. XXXI, 49</cite> <he>יִסְךְ</he> ed. Berl. (oth. ed. <he>יִסַךְ</he>, <he>יִסְכֵּי</he>; Y. <he>יִסְתְּכִי</he> <i>Ithpe</i>; h. text <he>יצף</he>). Targ. Y. ib. XLV, 28. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 20:22\">Targ. Prov. XX, 22</cite>; a. fr. (interch. with <cite ref=\"O00090\"><he>סבר</he></cite>).—",
+				"<cite ref=\"Vayikra Rabbah 34:7\">Lev. R. s. 34</cite> <he>סְכִי בי אסתכל בי</he> (the poor man says) look at me, observe me; <he>סכי כי מה הוינא וכ׳</he> look at me (think) what I was, and observe what I am. Y. Taan. IV, 68ᵇ <he>סְכוֹן מיעול וכ׳</he> look out (be on your guard) that you come in while it is yet day-time; <cite ref=\"Jerusalem Talmud Rosh Hashanah 4:4:4\">Y. R. Hash. IV, 59ᶜ</cite> top <he>סבין מטול ומיעול</he> (corr. acc.)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַכֵּי"],
+			"senses": [],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַסְכֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00892\">same</cite>. Targ. ",
+					"units": [
+						"<cite ref=\"Habakkuk 2:1\">Hab. II, 1</cite> <cite ref=\"M01946\"><he>מְסַכֵּינָא</he></cite> (some ed. <he>אֵיסָכֵינָא</he>, incorr.). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 47:13\">Targ. Is. XLVII, 13</cite>; a. fr.—",
+						"<cite ref=\"Ketubot 62b\">Keth. 62ᵇ</cite> <he>הוות מְסַכְּיָא וכ׳</he> his wife was looking out (for him, saying,) now he is coming &c. ",
+						"<cite ref=\"Midrash Tehillim 105:8\">Midr. Till. to Ps. CV, 38</cite> [read]: <he>חמרא מַסְכֵּי … מיני ואיהו מסכי וכ׳</he> the ass was looking (hoping), when will he get down off me?, and he was looking, when shall I get down &c.; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"H01806\"><he>חָשַׁב</he></cite>) <i>to calculate, count, sum up</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 166b\">B. Bath. 166ᵇ</cite> sq. <he>אֲסוּכֵי מַסְכֵּי וכ׳</he> Rashi (ed. <cite ref=\"M01948\"><he>מסכן</he></cite>, read: <he>מַסְכּוּ</he>; v. Rabb. D. S. a. l. note) he (they) would count them (the P’rutahs) and state their amount in Zuzé."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִסְתְּכֵי"],
+			"senses": [],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִסְתַּכֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00892\">same</cite>, <i>to look, face; to hope, wait</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 15:5\">Targ. O. Gen. XV, 5</cite> (Y. <he>אסתכל</he>; h. text <he>הבט</he>). ",
+						"<cite ref=\"Onkelos Numbers 21:20\">Targ. O. Num. XXI, 20</cite> <he>מִסְתַּכְּיָא</he> (ed. Berl. <he>מִסְתַּכְיָא</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 37:32\">Targ. Ps. XXXVII, 32</cite>; a. fr.—",
+						"<cite ref=\"Sanhedrin 97b:2\">Snh. 97ᵇ</cite> <he>עד הכא לא תִסְתְּכֵי ליה … אִסְתְּכִי ליה</he> until that time do not hope for him (the Messiah), after that hope for him; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

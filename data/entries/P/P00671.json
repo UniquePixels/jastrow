@@ -1,0 +1,23 @@
+{
+	"id": "P00671",
+	"slug": "עיקתא-2",
+	"headword": {
+		"text": "עִיקְתָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1075,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01231\"><he>עקת</he></cite>, sec. r. of <he>עוק</he>), pl. <he>עִיקְתִין</he> <i>narrows</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 116:3\">Targ. Ps. CXVI, 3</cite> (h. text <cite ref=\"M02363\"><he>מצרי</he></cite>)."
+			]
+		}
+	]
+}

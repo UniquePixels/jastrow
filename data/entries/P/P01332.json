@@ -1,0 +1,27 @@
+{
+	"id": "P01332",
+	"slug": "ערוקא",
+	"headword": {
+		"text": "עָרוֹקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲרוֹקָאָה"
+		}
+	],
+	"page": {
+		"number": 1115,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., (<cite ref=\"P01442\"><he>עֲרַק</he></cite>) <i>runaway, fugitive</i>.—Pl. <he>עֲרוֹקָאֵי</he>. ",
+			"units": [
+				"<cite ref=\"Chullin 46a:9\">Ḥull. 46ᵃ</cite>.—V. <cite ref=\"P01373\"><he>עֲרִיק</he></cite>."
+			]
+		}
+	]
+}

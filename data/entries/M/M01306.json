@@ -1,0 +1,27 @@
+{
+	"id": "M01306",
+	"slug": "מירת",
+	"headword": {
+		"text": "מֵירַת"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵרַת"
+		}
+	],
+	"page": {
+		"number": 779,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00670\"><he>ירת</he></cite>, as <cite ref=\"V00507\"><he>תִּירוֹשׁ</he></cite> fr. <cite ref=\"J00669\"><he>ירש</he></cite>, v. Fl. to Levy Targ. Dict. II, p. 568<sup>1</sup>) <i>must, juice</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 29:5\">Targ. Y. Deut. XXIX, 5</cite> (h. text <he>שכר</he>). V. <cite ref=\"M02694\"><he>מְרֵית</he></cite>."
+			]
+		}
+	]
+}

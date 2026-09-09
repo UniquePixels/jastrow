@@ -1,0 +1,33 @@
+{
+	"id": "Q00149",
+	"slug": "פהק",
+	"headword": {
+		"text": "פָּהַק"
+	},
+	"page": {
+		"number": 1138,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>פִּיהֵק</he> <i>to open the mouth, yawn</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 24a\">Ber. 24ᵃ</cite> bot. ",
+						"<cite ref=\"Berakhot 24b:1\">Ib. 24ᵇ</cite> <he>כשהוא מְפָהֵק וכ׳</he>, v. <cite ref=\"O01217\"><he>סַנְטֵר</he></cite>. ",
+						"<cite ref=\"Mishnah Niddah 9:8\">Nidd. IX, 8</cite> <he>מְפָהֶקֶת</he>, v. <cite ref=\"P00485\"><he>עָטַשׁ</he></cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

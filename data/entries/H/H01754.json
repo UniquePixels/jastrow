@@ -1,0 +1,37 @@
+{
+	"id": "H01754",
+	"slug": "חרצא-2",
+	"headword": {
+		"text": "חַרְצָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 505,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01750\"><he>חֲרַץ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>groove, channel</i>, v. <cite ref=\"H01691\"><he>חֲרִיצָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K00941\"><he>כֶּסֶל</he></cite>) [<i>incision</i>,] <i>loins</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 33:11\">Targ. Deut. XXXIII, 11</cite> (Y. II <cite ref=\"H01751\"><he>חֶרֶץ</he></cite>).—",
+				"<cite ref=\"Onkelos Genesis 37:34\">Targ. Gen. XXXVII, 34</cite> (Y. <he>חַרְצוֹי</he> <i>pl.</i>); a. fr.—Pl. <he>חַרְצִין</he>, constr. <he>חַרְצֵי</he>. ",
+				"<cite ref=\"Onkelos Exodus 28:42\">Targ. O. Ex. XXVIII, 42</cite> (some ed. <cite ref=\"H01756\"><he>חַרְצָן</he></cite> <i>their</i> loins); Y. ",
+				"<cite ref=\"Onkelos Exodus 28:42\">ib.</cite> <he>אתר קטור חַרְצֵיהוֹן חַרְצֵיהוֹן</he> the place of the knot of their loins (belt). ",
+				"<cite ref=\"Targum Jonathan on Genesis 50:11\">Targ. Y. Gen. L, 11</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

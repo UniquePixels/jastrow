@@ -1,0 +1,25 @@
+{
+	"id": "Q01402",
+	"slug": "פפונא",
+	"headword": {
+		"text": "פָּפוּנָא"
+	},
+	"page": {
+		"number": 1203,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"Q01403\">next w.</cite>) <i>of Paphunia</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 115a:25\">B. Kam. 115ᵃ</cite> <he>זבניה לפ׳</he> he sold it to a Paphunian.—Pl. <cite ref=\"Q01402\"><he>פָּפוּנָאֵי</he></cite>. ",
+				"<cite ref=\"Bava Kamma 54b:28\">Ib. 54ᵇ</cite> <he>פ׳ ידעי טעמא וכ׳</he> the Paphunians know a reason for that (alluding to R. Aḥa b. Jacob of Paphunia); <cite ref=\"Kiddushin 35a:4\">Kidd. 35ᵃ</cite>. ",
+				"<cite ref=\"Chullin 139b:10\">Ḥull. 139ᵇ</cite>; a. e.—",
+				"<cite ref=\"Bava Metzia 68a:5\">B. Mets. 68ᵃ</cite> <he>טרשי פ׳</he> sales customary at Paphunia, v. <cite ref=\"I00909\"><he>טַרְשָׁא</he></cite>."
+			]
+		}
+	]
+}

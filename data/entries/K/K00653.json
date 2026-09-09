@@ -1,0 +1,30 @@
+{
+	"id": "K00653",
+	"slug": "כיתניתא",
+	"headword": {
+		"text": "כִּיתָּנִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּיתְ׳"
+		}
+	],
+	"page": {
+		"number": 637,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. collect. noun (<cite ref=\"K00652\">preced.</cite> wds.) <i>washed linen clothes, underwear</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 140a:13\">Sabb. 140ᵃ</cite> <he>כסכוסי כ׳</he> ed. (Or Zar. Sabb., end <cite ref=\"K00646\"><he>כיתונא</he></cite>, R. H. quot. ",
+				"<cite ref=\"Shabbat 140a:13\">ib.</cite> <he>כִּתַּנְיָאתָא</he> pl., Ms. M. <he>כִּיתְוַונְיָיתָא</he>, pl. of <cite ref=\"K00647\"><he>כִּיתּוּנִיתָא</he></cite>; Alf. a. Ash. <cite ref=\"K00648\"><he>כִּיתּוּנְתָּא</he></cite>, <cite ref=\"K01363\"><he>כִּתּוּ׳</he></cite>) to rub the starch out of linen underwear; <he>לרכוכי כ׳ וכ׳</he> he intends only to soften the linen &c. ",
+				"<cite ref=\"Shabbat 140a:13\">Ib.</cite> bot. <he>האי כ׳ וכ׳</he> (Or Zer. l. c. a. Ash. <cite ref=\"K00646\"><he>כיתונא</he></cite>, v. Rabb. D. S. a. l. for Var. lect.). ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:5:4\">Y. Snh. II, 20ᶜ</cite> bot. <cite ref=\"A00947\"><he>אותניתיה</he></cite> read: <he>כִּיתָּנִיתֵיה</he> (= <he>חלוקא דכיתנא</he> <cite ref=\"Jerusalem Talmud Sanhedrin 2:5:4\">ib.</cite>) his linen garments."
+			]
+		}
+	]
+}

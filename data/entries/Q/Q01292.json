@@ -1,0 +1,29 @@
+{
+	"id": "Q01292",
+	"slug": "פסיליא",
+	"headword": {
+		"text": "פְּסִילְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּסִילְיָיה"
+		}
+	],
+	"page": {
+		"number": 1195,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"Q01293\">next art.</cite>) an inferior kind of <i>beans</i> (cmp. <cite ref=\"Q00659\"><he>פַּיְישׂוֹנָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 38b:8\">Ab. Zar. 38ᵇ</cite> <he>היא המטליא היא פ׳ וכ׳</he> Ar. (Ms. M. <cite ref=\"Q01332\"><he>פסליא</he></cite>; ed. <cite ref=\"Q02084\"><he>פשליא</he></cite>) the same law applies to gentile preparations of <i>hemṭalia, psilia</i> and <i>sh’ʿitha</i>, v. <cite ref=\"E00601\"><he>הֵמְטַלְיָא</he></cite> a. <cite ref=\"U01663\"><he>שְׁעִיתָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:10:3\">Y. Bets. I, 60ᵈ</cite> bot. <he>תורמוסין ופ׳</he> lupines and <i>psilia</i> (inferior beans); <cite ref=\"Jerusalem Talmud Shabbat 7:2:35\">Y. Sabb. VII, 10ᵇ</cite> <he>ופְסִילְיָין</he> and the inferior beans among them (v. Bab. ",
+				"<cite ref=\"Shabbat 74a\">Sabb. 74ᵃ</cite> bot.)."
+			]
+		}
+	]
+}

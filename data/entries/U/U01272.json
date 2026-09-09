@@ -1,0 +1,30 @@
+{
+	"id": "U01272",
+	"slug": "שלחא-2",
+	"headword": {
+		"text": "שִׁלְחָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1580,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"U01268\"><he>שֶׁלַח</he></cite>; <cite ref=\"U01266\"><he>שְׁלַח</he></cite>)<i>missile, lance</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 33:18\">Targ. Job XXXIII, 18</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 36:12\">Ib. XXXVI, 12</cite> Var. Ms. (ed. <he>זיני קרבא</he>)."
+			]
+		}
+	]
+}

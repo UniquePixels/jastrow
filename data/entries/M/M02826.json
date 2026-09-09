@@ -1,0 +1,34 @@
+{
+	"id": "M02826",
+	"slug": "משוט-2",
+	"headword": {
+		"text": "מָשׁוֹט",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מְשׁוֹטָא"
+		}
+	],
+	"page": {
+		"number": 850,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"M02825\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:29\">Targ. Ez. XXVII, 29</cite>.—Pl. <he>מְשׁוֹטִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:6\">Ib. 6</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>light ship</i>.—Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 43:14\">Targ. Is. XLIII, 14</cite> (h. text <cite ref=\"T00625\"><he>רִיחִים</he></cite>!)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "S01482",
+	"slug": "קמפון",
+	"headword": {
+		"text": "קַמְפּוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּמְ׳"
+		}
+	],
+	"page": {
+		"number": 1386,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (campus, κάμπος, accus.) <i>plain</i> for exercise and amusement. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 23:2\">Kel. XXIII, 2</cite> <he>מפני שעומדין עליו בקמ׳</he> Ar. (ed. <he>בקומ׳</he>; Ar. s. v. <he>קנפון</he>: <he>בקנפון</he>) because soldiers at sports stand on it. Pesik. B’shall. 82ᵇ <he>כל עמא יפקון לק׳</he> let all people go out to the campus (for public court); <cite ref=\"Shir HaShirim Rabbah 2:14:2\">Cant. R. to II, 14</cite>; <cite ref=\"Vayikra Rabbah 6\">Lev. R. s. 6</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 31:4\">Lev. R. s. 31</cite> <he>יהו מחזירין אותו בק׳</he> they shall make him go around in the campus (for public disgrace); <cite ref=\"Yalkut Shimoni on Torah 810\">Yalk. Deut. 810</cite>; <cite ref=\"Devarim Rabbah 2\">Deut. R. s. 2</cite> Ar. Var. <he>קנ׳</he>, v. <cite ref=\"P01184\"><he>עֲקִיפִים</he></cite>. ",
+				"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> <he>מלך … בקימ׳</he> (corr. acc.) a king going out to the plain for sport, opp. <he>יוצא למלחמה</he>. ",
+				"<cite ref=\"Mishnah Kelim 24:1\">Kel. XXIV, 1</cite> <he>שמשחקין בו בקוּנְפּוֹן</he> (Ar. <he>בקנ׳</he>; Hai G. <he>בקופ׳</he>, corr. acc.) with which they play in the field; a. fr."
+			]
+		}
+	]
+}

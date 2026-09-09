@@ -1,0 +1,37 @@
+{
+	"id": "B01148",
+	"slug": "בקש",
+	"headword": {
+		"text": "בָּקַשׁ"
+	},
+	"page": {
+		"number": 188,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בק</he> , v. <he>בקא</he>; corresp. to ch. <cite ref=\"B01036\"><he>בעי</he></cite>); <i>Pi.</i> <he>בִּיקֵּשׁ</he>, <cite ref=\"B01148\"><he>בִּקֵּשׁ</he></cite> <i>to seek, desire, beg, ask</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 65a:14\">Kidd. 65ᵃ</cite> <he>מְבַקְּשִׁין וכ׳</he> the court begs him to give her a letter of divorce, opp. to <he>כופין</he>. ",
+				"<cite ref=\"Berakhot 12b:14\">Ber. 12ᵇ</cite> <he>בִּקְּשׁוּ לקבוע וכ׳</he> they (the Rabbis) intended to insert the chapter about Balak &c. ",
+				"<cite ref=\"Bereishit Rabbah 84:6\">Gen. R. s. 84</cite> <he>ב׳ לישב וכ׳</he> he intended to live in peace; a. fr.—ב׳ רחמים <i>to pray</i> (for mercy), v. <cite ref=\"B01036\"><he>בעי</he></cite>. Ber. l. c. ",
+				"<cite ref=\"Bava Batra 91b:3\">B. Bath. 91ᵇ</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְבַּקֵּשׁ"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְבַּקֵּשׁ</he> <i>to be sought, to be hunted for</i> (by detectives); <i>to be summoned</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 29a:14\">Taan. 29ᵃ</cite> (a disguised warning given to R. Gamliel) <he>בעל החוטם מִתְבַּקֵּשׁ</he> the well-known man is wanted; v. <cite ref=\"H00301\"><he>חוֹטֶם</he></cite>. ",
+						"<cite ref=\"Bava Metzia 86a\">B. Mets. 86ᵃ</cite>, v. <cite ref=\"J00689\"><he>יְשִׁיבָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

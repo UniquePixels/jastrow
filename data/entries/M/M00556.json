@@ -1,0 +1,35 @@
+{
+	"id": "M00556",
+	"slug": "מועד-1",
+	"headword": {
+		"text": "מוּעָד"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוּעֶדֶת"
+		}
+	],
+	"page": {
+		"number": 745,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00198\"><he>עוּד</he></cite>) <i>forewarned</i>, esp. (law) <i>Muʿad</i> (v. ",
+			"units": [
+				"<cite ref=\"Exodus 21:29\">Ex. XXI, 29</cite>), <i>an animal whose owner stands forewarned</i> on account of three successive injuries; <i>liable to full indemnity</i>, contrad. to <cite ref=\"V00642\"><he>תָּם</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Kamma 1:4\">B. Kam. I, 4</cite> <he>שור המ׳</he> an ox that has done damage three times. ",
+				"<cite ref=\"Mishnah Bava Kamma 1:4\">Ib.</cite> <he>השן מ׳ לאכול וכ׳</he> the tooth of an animal is considered a <i>muʿad</i> with reference to eating such things as are fit to be eaten by it, i.e. damages for eating must be paid in full without previous forewarning. ",
+				"<cite ref=\"Mishnah Bava Kamma 1:4\">Ib.</cite> <he>הרגל מ׳ לשבר וכ׳</he> the foot is a <i>muʿad</i> &c., i.e. what an animal treads upon on its way must be paid for in full without forewarning. ",
+				"<cite ref=\"Mishnah Bava Kamma 1:4\">Ib.</cite> <he>הנחש מ׳ לעולם</he> the serpent is always a <i>muʿad</i> (even when tamed). ",
+				"<cite ref=\"Mishnah Bava Kamma 1:4\">Ib.</cite> <he>מ׳ משלם נזק שלם וכ׳</he> the <i>muʿad</i> pays full damage, collectible from the owner’s best property. Ib. II, 4 <he>מ׳ כל שהעידו וכ׳</he> a <i>muʿad</i> is an animal against which three warnings on three days have been given; (another opin.) <he>מ׳ שהעידו … פעמים</he> against which three warnings have been given (even in one day). Ib. 5 <he>אדם מ׳ לעולם</he> damage done by a human being must under all circumstances be restored in full. Ib. 17ᵇ (<cite ref=\"E00343\"><he>הידוס</he></cite>) <he>הרי זה מ׳</he> damage done by chickens must be restored in full; <he>אינו מ׳</he> must not &c.; a. v. fr.—Trnsf. <he>מ׳ לעבירה</he> a <i>muʿad</i> for sin, i.e. <i>likely to sin again</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 9:24\">Num. R. s. 9</cite> <he>כיון שנשתלש בחטא נעשה מ׳ לע׳</he> having sinned three times, he has become a <i>muʿad</i> for sin.—Pl. <he>מוּעָדִים</he>, <he>מוּעָדִין</he>. ",
+				"<cite ref=\"Mishnah Bava Kamma 1:4\">B. Kam. I, 4</cite>; <cite ref=\"Tosefta Bava Kamma 1:4\">Tosef. ib. I, 4</cite> <he>חמשה מ׳</he> there are five kinds of <i>muʿads</i>. ",
+				"<cite ref=\"Bava Kamma 16a:10\">B. Kam. 16ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

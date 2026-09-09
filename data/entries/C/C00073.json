@@ -1,0 +1,65 @@
+{
+	"id": "C00073",
+	"slug": "גבי-2",
+	"headword": {
+		"text": "גבי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גָּבָה"
+		}
+	],
+	"page": {
+		"number": 205,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>גב</he>, v. <he>גבב</he>) <i>to collect</i> a bill, taxes &c.; <i>to make one’s self paid, to seize</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 90a:15\">Keth. 90ᵃ</cite>, a. fr. if a later creditor (second mortgagee) <he>שקדם וג׳ מה שג׳ ג׳</he> collected first, what he has collected is his own. ",
+				"<cite ref=\"Bava Metzia 13b:6\">B. Mets. 13ᵇ</cite> <he>גּוֹבֶה מנכסים ב״ח</he> he may make himself paid of unmortgaged property. ",
+				"<cite ref=\"Mishnah Ketubot 5:1\">Keth. V, 1</cite> <he>גּוֹבָה את הכל</he> she is entitled to the whole amount; a. v. fr.—",
+				"<cite ref=\"Vayikra Rabbah 11\">Lev. R. s. 11</cite> the king sent a treasury officer <he>לִגְבוֹת</he> to collect (the delinquent taxes); <cite ref=\"Bereishit Rabbah 42:3\">Gen. R. s. 42</cite> <he>לִגְבוֹתָהּ</he>; Tanḥ. Sh’mini 9. [Lev. R. l. c. <he>וגבו אותו</he>, read <he>והכו</he>, cmp. Gen. R. l. c.] <cite ref=\"Shemot Rabbah 30:16\">Ex. R. s. 30</cite> <he>מי ג׳ הימנו הדם וכ׳</he> who collected from him (punished him for) the blood on his hand? <he>לא ישראל גָּבוּ אותו וכ׳</he> not the Israelites collected it, but the Gibeonites did.—",
+				"<cite ref=\"Bereishit Rabbah 85\">Gen. R. s. 85</cite>; s. 92 end <he>מצא ב״ח מקום לגבות וכ׳</he> the creditor met with a chance to collect his bill, i.e. the Lord takes this occasion to visit our sins; a. fr.—Part. pass. <he>גָּבוּי</he> <i>collected, seized</i>. ",
+				"<cite ref=\"Bava Metzia 58a\">B. Mets. 58ᵃ</cite> <he>על הַגָּ׳</he> counting on the Shekel contributions collected (though not yet delivered in the Temple treasury); <cite ref=\"Ketubot 108a\">Keth. 108ᵃ</cite>; <cite ref=\"Jerusalem Talmud Shekalim 2:1:3\">Y. Shek. II, beg. 46ᶜ</cite>. ",
+				"<cite ref=\"Shevuot 48b\">Shebu. 48ᵇ</cite>, a. fr. <he>כג׳ דמי</he> is considered as if collected (in the possession of the creditor); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִגְבֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to be collected, to be collectible</i>. B. Mets. l. c. <he>על העתיד לִגָּבוֹת</he>; Y. Shek. l. c. <he>להִיגָּבוֹת</he> on what is yet to be collected. ",
+					"units": [
+						"<cite ref=\"Mishnah Peah 8:7\">Peah VIII, 7</cite> <he>הקופה נִגְבֵּית בשנים</he> the charity fund must be collected by two persons; <cite ref=\"Bava Batra 8b\">B. Bath. 8ᵇ</cite>; <cite ref=\"Sanhedrin 17b\">Snh. 17ᵇ</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be collected from, be taxed</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 10:1\">Pesik. R. s. 10</cite> <he>לא היו נִיגְּבִים וכ׳</he> they were not highly taxed; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִגְבָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to be collected</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Challah 3:1\">Ḥall. III, 1</cite> <he>מַגְבַּהַת חלתה</he> she orders the priest’s gift to be collected; v., however, <cite ref=\"C00049\"><he>גָּבַהּ</he></cite>. ",
+						"<cite ref=\"Gittin 35b:1\">Gitt. 35ᵇ</cite> <he>הַגְבּוּהָ את השאר</he> help her to collect the balance. [<cite ref=\"Tosefta Shabbat 6:3\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:1\">VII</cite>), 1 <cite ref=\"M00107\"><he>מגבה</he></cite>, v. <he>גָּבַח</he>.]—<i>Part. pass. fem</i>. <he>מוּגְבָּה</he> <i>collected fund</i>. Tanḥ. Emor 18."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

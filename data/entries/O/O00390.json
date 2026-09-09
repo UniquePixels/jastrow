@@ -1,0 +1,29 @@
+{
+	"id": "O00390",
+	"slug": "סופגנים",
+	"headword": {
+		"text": "סוּפְגָּנִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוּפְגָּנִין"
+		}
+	],
+	"page": {
+		"number": 968,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"O01323\"><he>סְפוֹג</he></cite>) <i>cakes made of spongy dough</i>, a sort of <i>crackers</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Challah 1:4\">Ḥall. I, 4</cite>, expl. Y. ib. 57ᵈ <cite ref=\"I00817\"><he>טְרִיקְטָא</he></cite>. Ḥall. l. c. 5 <he>תחלתה עיסה וסופה ס׳</he> if his first intention was to make regular dough (for bread), and then it was changed for crackers. Y. l. c. <he>ס׳ שנעשו באור</he> crackers baked over fire, opp. <he>בחמה</he> baked in the sun. ",
+				"<cite ref=\"Mishnah Kelim 5:8\">Kel. V, 8</cite>; a. fr."
+			]
+		}
+	]
+}

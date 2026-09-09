@@ -1,0 +1,22 @@
+{
+	"id": "I00124",
+	"slug": "טובתא",
+	"headword": {
+		"text": "טוּבְתָא"
+	},
+	"page": {
+		"number": 522,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"I00112\"><he>טוֹבָה</he></cite> , <i>blessing</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:50\">Targ. Y. I Deut. XXXII, 50</cite>. [<cite ref=\"Targum Jonathan on Judges 5:26\">Targ. Jud. V, 26</cite> some ed., read <cite ref=\"I00094\"><he>טַבְתָא</he></cite>.]"
+			]
+		}
+	]
+}

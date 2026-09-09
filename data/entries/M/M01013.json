@@ -1,0 +1,21 @@
+{
+	"id": "M01013",
+	"slug": "מטלנא-1",
+	"headword": {
+		"text": "מַטְלָנָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 768,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>javelin</i>, v. <cite ref=\"M00998\"><he>מְטָל</he></cite>.",
+			"units": []
+		}
+	]
+}

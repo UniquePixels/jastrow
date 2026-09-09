@@ -1,0 +1,33 @@
+{
+	"id": "S01454",
+	"slug": "קמח-1",
+	"headword": {
+		"text": "קְמַח"
+	},
+	"page": {
+		"number": 1384,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"S01456\"><he>קִמְחָא</he></cite>) <i>to dress hides with flour</i>. Part. pass. <he>קָמִיחַ</he>. ",
+			"units": [
+				"<cite ref=\"Megillah 19a\">Meg. 19ᵃ</cite>, v. <cite ref=\"D00686\"><he>דִּיפְתְּרָא</he></cite>; <cite ref=\"Gittin 22a:16\">Gitt. 22ᵃ</cite>; <cite ref=\"Shabbat 79a:8\">Sabb. 79ᵃ</cite>, v. <cite ref=\"M02272\"><he>מַצָּה</he></cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַקְמַח"],
+			"senses": [
+				{
+					"gloss": "<i>to pulverize</i>. ",
+					"units": [
+						"<cite ref=\"Nazir 53b:1\">Naz. 53ᵇ</cite> <he>דאַקְמַח אַקְמוּחֵי</he> he pulverized (the bones)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

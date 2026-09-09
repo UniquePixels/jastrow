@@ -1,0 +1,48 @@
+{
+	"id": "P00046",
+	"slug": "עביט",
+	"headword": {
+		"text": "עָבִיט"
+	},
+	"page": {
+		"number": 1037,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עבט</he>, v. <cite ref=\"P00028\"><he>עֲבוֹט</he></cite>; cmp. <cite ref=\"H00042\"><he>חֶבֶט</he> I</cite>) [<i>fastening</i>, <i>pressing</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": " (<he>של גמל</he>) <i>sumpter-saddle</i> consisting of a pair of panniers tied across the animal’s back (Lat. clitellae, Gr. κανθήλια); also <i>the cushion on the camel’s back</i> (Arab. gabiṭ). Sifra M’tsor‘a, Zab., Par. 2, ch. III; <cite ref=\"Mishnah Kelim 23:2\">Kel. XXIII, 2</cite>; a. e.—Pl. <he>עֲבִיטִין</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Eiruvin 3:1\">Tosef. Erub. III</cite> (<cite ref=\"Tosefta Eiruvin 2:1\">II</cite>), 1; <cite ref=\"Eruvin 16a:1\">Erub. 16ᵃ</cite> top; Y. ib. I, 19ᵇ bot.—Tanḥ. Emor 18 <he>עביטות</he>. v. <cite ref=\"P00028\"><he>עֲבוֹט</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>ע׳ של ענבים</he> (cmp. κανθήλια) <i>a large basket, strapped on the carrier’s back, in which grapes are carried during the vintage</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 5:7\">B. Mets. V, 7</cite> (<cite ref=\"Bava Metzia 72b\">72ᵇ</cite>); Tosef. ib. VI, 2. ",
+				"<cite ref=\"Tosefta Ma'asrot 3:13\">Tosef. Maasr. III, 13</cite> (ed. Zuck. <cite ref=\"P00028\"><he>עבוט</he></cite>, corr. acc.). ",
+				"<cite ref=\"Tosefta Demai 6:11\">Tosef. Dem. VI, 11</cite>; Y. ib. VI, 25ᶜ bot. <cite ref=\"P00037\"><he>עֶבֶט</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 5:1:7\">Y. Bets. V, beg. 62ᵈ</cite> <he>העבט</he>. ",
+				"<cite ref=\"Mishnah Tahorot 10:4\">Toh. X, 4</cite>, sq. <he>העביט</he> ed. Dehr. (ed. <he>העבט</he>; Ar. <cite ref=\"M02053\"><he>מעבט</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 2:1:5\">Y. M. Kat. II, beg. 81ᵃ</cite> <he>דורכין את עַבְטוֹ</he> you may press, for the mourner, the grapes in the basket (to prevent ruin by delay); a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " ע׳ של מימי רגלים <i>a large vessel for the collection of urine</i> (for manufacturing purposes). ",
+			"units": [
+				"<cite ref=\"Berakhot 25b:16\">Ber. 25ᵇ</cite> <he>גרף של רעי וע׳ וכ׳</he> a vessel for the collection of excrements, and a tub for urine; <cite ref=\"Tosefta Berakhot 2:16\">Tosef. ib. II, 16</cite> Var. ",
+				"<cite ref=\"Bava Batra 89b:10\">B. Bath. 89ᵇ</cite>.—",
+				"<cite ref=\"Ketubot 82b:12\">Keth. 82ᵇ</cite>, read with Tosaf.: <he>ע׳ של נחושת</he> a bronze tub."
+			],
+			"label": "3"
+		}
+	]
+}

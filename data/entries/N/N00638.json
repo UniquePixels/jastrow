@@ -1,0 +1,29 @@
+{
+	"id": "N00638",
+	"slug": "ניומתא",
+	"headword": {
+		"text": "נִיוּמְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְיוּ׳"
+		}
+	],
+	"page": {
+		"number": 903,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"N00637\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 6:4\">Targ. Prov. VI, 4</cite> ed. Lag. (ed. <cite ref=\"N00662\"><he>נַיְימָתָא</he></cite>; ed. Wil. <he>נִימְתָא</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 132:4\">Targ. Ps. CXXXII, 4</cite>.—Pl. <cite ref=\"N00638\"><he>נִיּוּמָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 33:15\">Targ. Job XXXIII, 15</cite> Ms. (ed. sing.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"id": "K00734",
+	"slug": "כליל-2",
+	"headword": {
+		"text": "כְּלִיל"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּלִילָא"
+		}
+	],
+	"page": {
+		"number": 642,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"K00759\"><he>כְּלַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>circle, wreath, crown</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 25:11\">Targ. Y. II, Ex. XXV, 11</cite>. ",
+				"<cite ref=\"Onkelos Numbers 6:7\">Targ. Num. VI, 7</cite> (h. text <cite ref=\"N00466\"><he>נֵזֶר</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 14:1\">Targ. Y. I Deut. XIV, 1</cite> <he>כ׳ דיסער</he> (cmp. <cite ref=\"K00751\"><he>כִּלְכּוּל</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 34:5\">Ib. XXXIV, 5</cite> fem. (also <cite ref=\"K00734\"><he>כְּלִילַת</he></cite> constr.). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 28:5\">Targ. Is. XXVIII, 5</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 152a:4\">Sabb. 152ᵃ</cite>, v. <cite ref=\"H00782\"><he>חִילְפָא</he> II</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite>, end (ref. to <he>נזיר</he>, <cite ref=\"Genesis 49:26\">Gen. XLIX, 26</cite>) <he>כְּלִילֵיהוֹן דאחוך</he> the crown of thy brothers. ",
+				"<cite ref=\"Gittin 7a:17\">Gitt. 7ᵃ</cite> <he>כ׳ לברתיה</he> a bridal wreath for his daughter. ",
+				"<cite ref=\"Bava Batra 4a:1\">B. Bath. 4ᵃ</cite>, v. <cite ref=\"J00331\"><he>יָילָא</he></cite>; a. e.—Pl. <he>כְּלִילַיָּא</he>, <cite ref=\"K00734\"><he>כְּלִילָן</he></cite>, <cite ref=\"K00735\"><he>כְּלִילֵי</he></cite>. Targ. Y. Deut. l. c. ",
+				"<cite ref=\"Aramaic Targum to Job 31:36\">Targ. Job XXXI, 36</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 8:26\">Targ. Jud. VIII, 26</cite> ed. Lag. (oth. ed. <i>sing.</i>); a. e.—",
+				"<cite ref=\"Bava Batra 16b:5\">B. Bath. 16ᵇ</cite> <he>כלילי הוו להו</he> Ms. M. (ed. <i>sing.</i>) they had wreaths (each dedicated to a friend)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>דמי כ׳</he> or <he>כ׳</he> <i>coronation tax</i> (aurum coronarium, v. Sm. Ant. s. v.). Ib. 8ᵃ <he>כההוא דמי כ׳ וכ׳</he> as in the case of a coronation tax which they put on the city of Tiberias. Ib. <he>פקע כ׳</he> (Ms. M. <cite ref=\"B00515\"><he>בטל</he></cite>) the tax was repealed.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " <he>כ׳ מלכא</he> or <he>כ׳</he> <i>melilot</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 77b\">Keth. 77ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 109b:9\">Sabb. 109ᵇ</cite> <he>חד כ׳</he> one dose of melilot.—Pl. <cite ref=\"K00735\"><he>כְּלִילֵי</he></cite>. ",
+				"<cite ref=\"Shabbat 109b:9\">Ib.</cite> <he>חמשא כ׳</he> five parts of melilot (Rashi: roses). [Y. M. Kat. II, 81ᵈ bot. <he>וגנבון מנהין כליליא</he>, read: <he>כל ליליא</he>.]"
+			],
+			"label": "3"
+		}
+	]
+}

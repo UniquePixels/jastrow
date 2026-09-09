@@ -1,0 +1,34 @@
+{
+	"id": "S02088",
+	"slug": "קרם-2",
+	"headword": {
+		"text": "קְרַם"
+	},
+	"page": {
+		"number": 1421,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S02087\">same</cite>, <i>to form a skin; to cover, overlay</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 7:16\">Targ. Prov. VII, 16</cite> <he>ובקרמא מצראה קְרִמְתָּהּ</he> ed. Lag. (ed. incorr.) and I covered it with Egyptian (fine) cloth.—Part. pass. <he>קְרִים</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 26:23\">Ib. XXVI, 23</cite> (some ed. <he>קריס</he>, corr. acc.; h. text <cite ref=\"M02347\"><he>מצפה</he></cite>).—[<cite ref=\"Aramaic Targum to Job 6:12\">Targ. Job VI, 12</cite>, v. <cite ref=\"S02112\"><he>קְרַס</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַקְרִים"],
+			"senses": [
+				{
+					"gloss": " (of wine) <i>to form a film</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 30a\">Ab. Zar. 30ᵃ</cite> bot. (edd. Const. a. Ven. <he>דאקריס</he>); <cite ref=\"Bava Batra 95b\">B. Bath. 95ᵇ</cite>; v. <cite ref=\"S02112\"><he>קְרַס</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "Q00893",
+	"slug": "פיתולא",
+	"headword": {
+		"text": "פִּיתּוּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּתּ׳"
+		}
+	],
+	"page": {
+		"number": 1173,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02183\"><he>פְּתַל</he></cite>) [<i>twisting</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>perverseness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 8:8\">Targ. Prov. VIII, 8</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>turn of events, vicissitudes</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 127:3\">Yalk. Gen. 127</cite> (play on <he>נפתולי</he>, <cite ref=\"Genesis 30:8\">Gen. XXX, 8</cite>) <he>פִּיתּוּלֵיה לא דידי הוה וכ׳</he> were not his vicissitudes mine? did not Jacob come to Laban for my sake (I being predestined to become his wife)?; <cite ref=\"Bereishit Rabbah 71\">Gen. R. s. 71</cite> <he>פִּיתּוּלַיֵּיה לא דידי הויין</he> (<i>pl.</i>)."
+			],
+			"label": "2"
+		}
+	]
+}

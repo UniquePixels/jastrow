@@ -1,0 +1,20 @@
+{
+	"id": "A02065",
+	"slug": "אמרה",
+	"headword": {
+		"text": "אִמְרָה"
+	},
+	"page": {
+		"number": 79,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"A02060\"><he>אמר</he></cite>)<i>speech</i>. *<cite ref=\"Bereishit Rabbah 42:8\">Gen. R. s. 42</cite> play on <i>Amraphel</i>, <he>א׳ אפילה</he> (quot. in Ar. s. v. <cite ref=\"A02520\"><he>אספרון</he></cite>) obscure speech (ed. <he>שהיתה אֲמִירָתוֹ אפ׳</he>).—Pl. <cite ref=\"A02075\"><he>אֲמָרוֹת</he></cite>, constr. <he>אִמְרוֹת</he>. Pesik. Parah, p. 30ᵇ (<i>promises</i>); Tanḥ. Ḥukk. 4. ",
+			"units": ["<cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite>."]
+		}
+	]
+}

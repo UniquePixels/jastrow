@@ -1,0 +1,38 @@
+{
+	"id": "P00290",
+	"slug": "עון-1",
+	"headword": {
+		"text": "עָוֹן"
+	},
+	"page": {
+		"number": 1053,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00206\"><he>עָוָה</he></cite>)<i>perversion, wrong</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 3:11\">Deut. R. s. 3</cite> <he>לא חטא ולא ע׳</he> no sin or wrong. ",
+				"<cite ref=\"Shabbat 30a:6\">Sabb. 30ᵃ</cite> <he>אותו ע׳</he> that sin (of David’s, against Uriah and Bathsheba); <cite ref=\"Sanhedrin 107a:17\">Snh. 107ᵃ</cite> <he>מחול לי על אותו ע׳ כולו</he> pardon me for that sin entirely. ",
+				"<cite ref=\"Shabbat 88b:4\">Sabb. 88ᵇ</cite> <he>עֲוֹן גדי</he>, v. <cite ref=\"K01228\"><he>כָּרַם</he></cite>. ",
+				"<cite ref=\"Sanhedrin 44b:11\">Snh. 44ᵇ</cite> <he>אם יש בי ע׳ זה</he> if I am guilty of that crime (for which I am to be put to death); a. fr.—<he>ע׳ גליון</he>, v. <cite ref=\"A00716\"><he>אָוֶן</he></cite>.—Pl. <he>עֲוֹנוֹת</he>, <he>עֲווֹנוֹת</he>. ",
+				"<cite ref=\"Sanhedrin 44b:11\">Ib.</cite> <he>תהא … עֲווֹנוֹתַיי</he> may my death be an atonement for all my wrong-doings. ",
+				"<cite ref=\"Berakhot 5b:1\">Ber. 5ᵇ</cite> <he>מוחלין לו כל עֲוֹנוֹתָיו</he> is forgiven all his sins. ",
+				"<cite ref=\"Mishnah Yoma 3:8\">Yoma III, 8</cite>. ",
+				"<cite ref=\"Yoma 39b:7\">Ib. 39ᵇ</cite> <he>עְווֹנוֹתֵיהֶן של ישראל</he> the sins of Israel; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <cite ref=\"P00307\"><he>עוֹנֶשׁ</he></cite>) <i>penalty</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 47a:14\">Yeb. 47ᵃ</cite> <he>מודיעין אותו עֲוֹן לקט וכ׳</he> we acquaint him (the proselyte) with the consequences of a neglect of the laws concerning the share of the poor &c., v. <cite ref=\"P00307\"><he>עוֹנֶשׁ</he></cite>.—<he>בַּעֲ׳</he> as <i>a punishment for, in consequence of</i>. ",
+				"<cite ref=\"Shabbat 32b:3\">Sabb. 32ᵇ</cite> <he>בע׳ נדרים</he> (sub. <cite ref=\"B00580\"><he>ביטול</he></cite>) as a punishment for the neglect of vows; <he>בע׳ מזוזה</he> for neglecting the law concerning the door-post inscription; <he>בע׳ ביטול תורה</he> for neglecting the study of the Law; <he>בע׳ גילוי עריות</he> for unchastity; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

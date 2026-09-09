@@ -1,0 +1,34 @@
+{
+	"id": "M02148",
+	"slug": "מענה-2",
+	"headword": {
+		"text": "מַעֲנָה"
+	},
+	"page": {
+		"number": 818,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"M02147\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>turn</i> of the plough, <i>furrow, furrow’s length</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Chullin 4:2\">Tosef. Ḥull. IV</cite> (<cite ref=\"Tosefta Chullin 5:6\">V</cite>), 6. Ohol. XVII, 2; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (perh. <cite ref=\"M02147\"><he>מַעֲנֶה</he></cite> m.) <i>handle of the plough; coulter</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 3:20\">Tosef. Shebi. III, 20</cite> <he>ובלבד שלא יסמוך לה מ׳</he>; Y. ib. IV, 35ᵇ bot. <he>ובלבד שלא יסמוך את המ׳</he> provided that (in training the cow for ploughing) he will not press the coulter (so as to make the appearance of real ploughing)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "A00350",
+	"slug": "אגרוף",
+	"headword": {
+		"text": "אֶגְרוֹף"
+	},
+	"page": {
+		"number": 14,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h., <he>גרף</he>; cmp. <cite ref=\"K00387\"><he>כּוּרְמֵיזָא</he></cite>)<i>fist;</i> fig. <i>power, usurpation</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 17:12\">Kel. XVII, 12</cite>. ",
+				"<cite ref=\"Shemot Rabbah 1:29\">Ex. R. s. 1</cite>.—בעל א׳ <i>mighty, violent</i>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 7:7:2\">Y. Peah. VII, 20ᶜ</cite> top; v. infra.—",
+				"<cite ref=\"Sotah 41b:7\">Sot. 41ᵇ</cite> <he>אגרופָהּ של חנופה</he> the power of sycophancy.—Pl. <he>אֶגְרוֹפִים</he>, <he>אֶגְרוֹפִין</he>. ",
+				"<cite ref=\"Kiddushin 76b:17\">Kidd. 76ᵇ</cite> <he>בעלי א׳ וכ׳</he> the men of power of the house of David; <cite ref=\"Sanhedrin 49a:9\">Snh. 49ᵃ</cite>. ",
+				"<cite ref=\"Pesachim 53b:6\">Pes. 53ᵇ</cite> <he>בעל א׳</he> a strong, violent man (opp. <he>גברא רבה</he> a great man)."
+			]
+		}
+	]
+}

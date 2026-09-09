@@ -1,0 +1,55 @@
+{
+	"id": "M01461",
+	"slug": "מלא-2",
+	"headword": {
+		"text": "מָלֵא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 785,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be full</i>, v. <cite ref=\"M01463\"><he>מָלֵא</he> II</cite>.—",
+			"units": [
+				"<cite ref=\"Tosefta Demai 5:24\">Tosef. Dem. V, 24</cite> <he>היאך מְלָאֲךָ ליבך</he> how could thy heart be so full of thyself, i.e. how daredst thou?"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מִלֵּא", "מִילֵּא"],
+			"senses": [
+				{
+					"gloss": "<i>to fill, to draw</i> (water). ",
+					"units": [
+						"<cite ref=\"Mishnah Eruvin 8:6\">Erub. VIII, 6</cite> <he>אין מְמַלְּאִין וכ׳</he> (Y. ed. <he>מְמַלִּין</he>) you must not draw water out of it on the Sabbath. ",
+						"<cite ref=\"Bava Batra 162b:5\">B. Bath. 162ᵇ</cite> <he>מִילְּאֵהוּ בקרובים</he> if he filled the vacant space on the document with the signatures of relatives; <cite ref=\"Gittin 87b\">Gitt. 87ᵇ</cite>. ",
+						"<cite ref=\"Horayot 11b:16\">Hor. 11ᵇ</cite> <he>ממלא מקום אבותיו הוה</he> he was filling his ancestors’ place, was a direct successor; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְמַלֵּא"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְמַלֵּא"],
+			"senses": [
+				{
+					"gloss": "<i>to be filled</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 3b\">Ber. 3ᵇ</cite>; <cite ref=\"Berakhot 59a:13\">59ᵃ</cite> <he>אין הבור מִתְמַלֵּא וכ׳</he>, v. <cite ref=\"H00347\"><he>חוּלְיָא</he> I</cite>. Y. Succ. III, end, 54ᵃ <he>עד שיִתְמַלֵּא זקנו</he> until he has a full beard. Y. Ber. IX, 13ᵈ bot. <he>הִתְמַלְּאִי דינרי זהב</he> be full of gold denars; <he>והיתה מתְמַלְּאָה</he> and it became filled with &c. ",
+						"<cite ref=\"Bereishit Rabbah 33:3\">Gen. R. s. 33</cite> <he>הִתְסַלְּאוּ רחמים אלו על אלו</he> be merciful to one another. ",
+						"<cite ref=\"Bereishit Rabbah 33\">Ib.</cite> <he>ראיתי … והִתְמַלֵּאתִי עליה רחמים</he> I saw her in distress and was filled with pity for her; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

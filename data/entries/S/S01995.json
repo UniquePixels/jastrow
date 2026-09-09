@@ -1,0 +1,24 @@
+{
+	"id": "S01995",
+	"slug": "קרטופנא",
+	"headword": {
+		"text": "קַרְטוּפְנָא"
+	},
+	"page": {
+		"number": 1416,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קרטף</he>, Parel of <cite ref=\"S00811\"><he>קטף</he></cite>; cmp. <cite ref=\"S00811\"><he>קָטָף</he></cite>) <i>incision, scratch, crack</i>.—Pl. <cite ref=\"S01995\"><he>קַרְטוּפְנֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 86a:6\">B. Kam. 86ᵃ</cite> <he>דאית ליה ק׳ וכ׳</he> if he has sores from scratches on his head &c., v. <cite ref=\"R00170\"><he>צְוַוח</he></cite>. ",
+				"<cite ref=\"Ketubot 107b:14\">Keth. 107ᵇ</cite> <he>דלית בהו ק׳</he> when the glazed vessels have no cracks. ",
+				"<cite ref=\"Pesachim 30b:7\">Pes. 30ᵇ</cite> <he>היכא דאית בהו ק׳</he> when they have cracks, opp. <he>שיעי</he>."
+			]
+		}
+	]
+}

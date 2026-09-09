@@ -1,0 +1,22 @@
+{
+	"id": "M01001",
+	"slug": "מטלול",
+	"headword": {
+		"text": "מַטְלוּל"
+	},
+	"page": {
+		"number": 767,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טְלַל</he> I) <i>shade, cover</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 14:14\">Targ. Y. Num. XIV, 14</cite>."
+			]
+		}
+	]
+}

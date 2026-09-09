@@ -1,0 +1,22 @@
+{
+	"id": "R00355",
+	"slug": "צילה",
+	"headword": {
+		"text": "צִילָּה"
+	},
+	"page": {
+		"number": 1276,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"R00475\"><he>צֵל</he></cite> <i>shade</i>, esp. <i>the shade from the covering of the Succah</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sukkah 1:1\">Succ. I, 1</cite> <he>שחמתה מרובה מצִילָּתָהּ</he> a Succah which has more sun (light) than shade. Ib. 4ᵃ <he>אם צַילָּתָם מרובה וכ׳</he> if they have more shade than sun; a. fr."
+			]
+		}
+	]
+}

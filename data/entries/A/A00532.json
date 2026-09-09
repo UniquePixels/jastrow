@@ -1,0 +1,25 @@
+{
+	"id": "A00532",
+	"slug": "אובצנא",
+	"headword": {
+		"text": "אוּבְצָנָא"
+	},
+	"page": {
+		"number": 21,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אבץ</he>. cmp. <he>חָבַץ</he> II, a. <cite ref=\"H00102\"><he>חבץ</he></cite> P. Sm. 1181 sq.) <i>heavy pressure, overload, prostration from heavy load</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 19:2\">Targ. Y. Num. XIX, 2</cite>.—",
+				"<cite ref=\"Bava Metzia 36b:10\">B. Mets. 36ᵇ</cite> <he>א׳ דהר</he> the prostration from carriyng a load up hill. ",
+				"<cite ref=\"Bava Metzia 78a:8\">Ib. 78ᵃ</cite> <he>מתה מחמת א׳</he> died from fatigue. ",
+				"<cite ref=\"Shabbat 106b:8\">Sabb. 106ᵇ</cite>. [Ar. reads <cite ref=\"A00657\"><he>אוכצנא</he></cite>, cmp. Syr. <he>אכץ</he> P. Sm. 190—corr. acc.]"
+			]
+		}
+	]
+}

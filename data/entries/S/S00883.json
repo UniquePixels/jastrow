@@ -1,0 +1,29 @@
+{
+	"id": "S00883",
+	"slug": "קיווץ",
+	"headword": {
+		"text": "קִיוֵּוץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִוֵּוץ"
+		}
+	],
+	"page": {
+		"number": 1356,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00526\"><he>קָוַץ</he></cite>) <i>one with curled hair</i>, opp. <cite ref=\"S01971\"><he>קרח</he></cite> bald-headed. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 3:2:10\">Y. Shek. III, 47ᶜ</cite> <he>ק׳ לא יתרום וכ׳</he> a curly-headed person must not handle the Temple treasure on account of suspicion (that he may hide coins in his hair), v. <cite ref=\"Q01345\"><he>פִּסְפֵּס</he> I</cite>.—Pl. <he>קִיוְּוצִים</he>, <cite ref=\"S00882\"><he>קִוְּו׳</he></cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 796:4\">Yalk. Ps. 796</cite> <he>מלך … כמה ק׳ כיוצא בו</he> when a human king marches to the camp, how many are there, handsome like him, curly-haired like him!—[<cite ref=\"Sifrei Devarim 343:12\">Sifré Deut. 343</cite>, v. <cite ref=\"S00264\"><he>קָווּץ</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "H01872",
+	"slug": "חתוי",
+	"headword": {
+		"text": "חִתּוּי"
+	},
+	"page": {
+		"number": 512,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H01913\"><he>חָתַת</he></cite>) <i>breaking, killing</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 27a:9\">Ḥull. 27ᵃ</cite> <he>זב ע״י ח׳ בעינן</he> the flow must have been caused by the action which kills (cutting)."
+			]
+		}
+	]
+}

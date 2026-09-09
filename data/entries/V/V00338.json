@@ -1,0 +1,30 @@
+{
+	"id": "V00338",
+	"slug": "תותב-2",
+	"headword": {
+		"text": "תּוֹתַב"
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוֹתְבָא"
+		},
+		{
+			"text": "תּוֹתָבָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1659,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00337\">same</cite>, <i>sheet, shirt</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 22:26\">Targ. O. Ex. XXII, 26</cite> (ed. Berl. <cite ref=\"V00314\"><he>תּוּ׳</he></cite>; Y. II <he>תותביה דנפלא</he> <i>fem.</i>; h. text <cite ref=\"U01490\"><he>שמלה</he></cite>).—",
+				"<cite ref=\"Shabbat 145b:15\">Sabb. 145ᵇ</cite> <cite ref=\"V00338\"><he>תּוֹתְבָאִי</he></cite> my shirt (dress), v. <cite ref=\"M03004\"><he>מָתָא</he></cite>.—Pl. <cite ref=\"V00344\"><he>תּוֹתְבֵי</he></cite>. ",
+				"<cite ref=\"Ketubot 67a:10\">Keth. 67ᵃ</cite> <he>ת׳ דבי מכסי</he> sheets manufactured in Be Mikhsé."
+			]
+		}
+	]
+}

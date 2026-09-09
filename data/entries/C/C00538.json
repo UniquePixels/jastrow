@@ -1,0 +1,80 @@
+{
+	"id": "C00538",
+	"slug": "גזז-2",
+	"headword": {
+		"text": "גְּזַז"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּזֵיז"
+		}
+	],
+	"page": {
+		"number": 229,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"C00537\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 38:13\">Targ. Gen. XXXVIII, 13</cite> <he>למִיגַּז</he> ed. Berl. (Y. <he>למִיגַז</he>). ",
+				"<cite ref=\"Onkelos Deuteronomy 15:19\">Targ. Deut. XV, 19</cite> <he>תִיגּוֹז</he> ed. Berl. (Y. <he>תֵיגוֹז</he>); a. e.—Y. Sabb. VII, 10ᵃ. ",
+				"<cite ref=\"Sukkah 30a:8\">Succ. 30ᵃ</cite> bot. <he>לא תִגְזְזוּ אתון לִגְזְזוּהָ אינהו וכ׳</he> (v. Rabb. D. S. a. l. note) do ye not cut (the myrtle) yourselves, but let them cut it. ",
+				"<cite ref=\"Chullin 138a:18\">Ḥull. 138ᵃ</cite> <he>מעידנא דאתחיל למֵיגַז</he> from the time he commenced shearing; a. e.—",
+				"<cite ref=\"Beitzah 6a\">Bets. 6ᵃ</cite>, v. <cite ref=\"C00541\"><he>גְּזִי</he></cite>. ",
+				"<cite ref=\"Niddah 17a:26\">Nidd. 17ᵃ</cite> <he>גָּז מידי וכ׳</he> if he cut something else afterwards.—Part. pass. <cite ref=\"C00538\"><he>גְּזִיז</he></cite> <i>cut, broken, shortened</i>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 72:6\">Targ. Ps. LXXII, 6</cite> <he>עסבא דג׳</he> (Ms. M. <he>גייז</he>) grass eaten up &c. (h. text <he>גֵז</he>). ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 4:2\">Targ. Cant. IV, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 14:1\">Targ. Job XIV, 1</cite>, v. <cite ref=\"C00471\"><he>גּוּצָא</he></cite>.—*<cite ref=\"Yoma 78b:7\">Yoma 78ᵇ</cite> <he>מאני גְזִיזֵי דפחרא</he> <i>defective</i> earthen vessels (Ms. M. 1 <he>פזיזי</he>, 2 a. Ar. <he>נזיזי</he>, Ms. L. <he>מאני</he>, <he>דפחרא בזוזא</he>, v. Rabb. D. S. a. l.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cross, pass</i> (v. <cite ref=\"C00338\"><he>גוז</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 51:10\">Targ. Is. LI, 10</cite>; a. fr., v. <cite ref=\"C00338\"><he>גּוּז</he></cite>.—",
+				"<cite ref=\"Ruth Rabbah 6:4\">Ruth R. to III, 13</cite> <he>גָּזֵיז בשוקא וכ׳</he> passing the street on horse-back; (<cite ref=\"Kohelet Rabbah 7:8:1\">Koh. R. to VII, 8</cite> <he>גייז</he>). ",
+				"<cite ref=\"Pesachim 111b:5\">Pes. 111ᵇ</cite> <he>לגְזוּזֵי לה</he> (v. Rabb. D. S. a. l. note) to go out of its way, v. <cite ref=\"C00541\"><he>גזי</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 12\">Lev. R. s. 12</cite> <he>גזוז נטוריא</he> Ar. ed. Koh. (oth. ed. <he>גזון</he>, differ. vers. in ed.) the watchmen are past."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to castrate</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 90b\">B. Mets. 90ᵇ</cite> top Ms. M., v. <cite ref=\"C01129\"><he>גְּנַח</he> II</cite>."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּזֵּיז"],
+			"senses": [
+				{
+					"gloss": "<i>to cut into, interrupt</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1:29\">Lam. R. to I, 3</cite> <he>ג׳ סוגיא וכ׳</he> interrupts the study of the midday, v. <cite ref=\"B00430\"><he>בְּזַז</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְגְּזִיז"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Amos 7:1\">Targ. Am. VII, 1</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

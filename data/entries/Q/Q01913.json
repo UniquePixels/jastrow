@@ -1,0 +1,34 @@
+{
+	"id": "Q01913",
+	"slug": "פרס-6",
+	"headword": {
+		"text": "פָּרָס"
+	},
+	"page": {
+		"number": 1233,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01908\"><he>פָּרַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>curtain, canopy, baldachin</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 10:4\">Num. R. s. 10</cite> <he>כמין פ׳ שטחה לו וכ׳</he> she (Pharaoh’s daughter) spread over him (Solomon) a sort of baldachin in which were fixed precious stones &c.—Pl. <he>פָּרָסִין</he>. Y’lamd. to Num. XV, 37 quot. in Ar., v. <cite ref=\"S00909\"><he>קִיטָּי</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>net</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Beitsah 3:1\">Tosef. Bets. III, 1</cite> (<cite ref=\"E00000\"><he>ה</he></cite>)<he>מעלה את פְּרָסוֹ וכ׳</he> (Var. <he>כל שפרסוהו</he>) if one puts up his net on the eve of the Holy Day, and, coming in on the Holy Day, finds it disturbed."
+			],
+			"label": "2"
+		}
+	]
+}

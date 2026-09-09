@@ -1,0 +1,38 @@
+{
+	"id": "P00496",
+	"slug": "עיבר-2",
+	"headword": {
+		"text": "עֵיבַר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עִיבְרָא"
+		},
+		{
+			"text": "עֶבְ׳"
+		}
+	],
+	"page": {
+		"number": 1066,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"P00061\"><he>עֵבֶר</he></cite>, <i>border, bank, side</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 46:19\">Targ. Ez. XLVI, 19</cite> (ed. Wil. <cite ref=\"P00063\"><he>עִבַּר</he></cite>; h. text <cite ref=\"K01381\"><he>כָּתֵף</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 40:18\">Ib. XL, 18</cite> (ed. Wil. <cite ref=\"P00063\"><he>עָבְרָא</he></cite>). ",
+				"<cite ref=\"Targum of II Chronicles 23:10\">Targ. II Chr. XXIII, 10</cite>. ",
+				"<cite ref=\"Onkelos Genesis 50:10\">Targ. O. Gen. L, 10</cite>; (Y. ed. Amst. <cite ref=\"P00183\"><he>עוּבְרָא</he></cite>); a. fr.—",
+				"<cite ref=\"Bava Batra 40b:6\">B. Bath. 40ᵇ</cite> <he>בעיבר ימינה</he> on the right bank. ",
+				"<cite ref=\"Bava Batra 91a:16\">Ib. 91ᵃ</cite> <he>ע׳ זעירא דכותי זהו וכ׳</he> the small side of Kuthi is Ur Kasdim; [comment.: <i>ʿIbra Z’ʿera</i>, pr. n. pl.]; a. e.—Pl. <he>עִיבְרַיָּא</he>, <cite ref=\"P00496\"><he>עֶבְ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 32:15\">Targ. O. Ex. XXXII, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 49:32\">Targ. Jer. XLIX, 32</cite>; a. e."
+			]
+		}
+	]
+}

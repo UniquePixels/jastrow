@@ -1,0 +1,22 @@
+{
+	"id": "A02158",
+	"slug": "אנחתא-1",
+	"headword": {
+		"text": "אֲנַחְתָּא"
+	},
+	"page": {
+		"number": 82,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>נוח</he>; cmp. <cite ref=\"A02155\"><he>אַנְחוּתָא</he></cite>) <i>rest</i>. <cite ref=\"A00172\"><he>בית א׳</he></cite> <i>rest for beams</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 6:4\">Targ. I Kings VI, 4</cite>."
+			]
+		}
+	]
+}

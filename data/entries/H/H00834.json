@@ -1,0 +1,27 @@
+{
+	"id": "H00834",
+	"slug": "חיסור",
+	"headword": {
+		"text": "חִיסּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִסּ׳"
+		}
+	],
+	"page": {
+		"number": 458,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01410\"><he>חָסַר</he></cite>) <i>lack, want</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 4:11\">Cant. R. to IV, 11</cite> <he>אם חסרה ח׳ וכ׳</he> if she is suffering from the absence of one of them."
+			]
+		}
+	]
+}

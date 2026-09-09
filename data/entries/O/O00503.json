@@ -1,0 +1,32 @@
+{
+	"id": "O00503",
+	"slug": "סטר-2",
+	"headword": {
+		"text": "סְטַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 973,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O00502\">same</cite> [<cite ref=\"Aramaic Targum to Proverbs 15:25\">Targ. Prov. XV, 25</cite> <he>נסטר</he> ed. Lag., v. <cite ref=\"O01713\"><he>סְתַר</he> II</cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסְטַר"],
+			"senses": [
+				{
+					"gloss": "<i>to strike with the flat hand; to flatten</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 104:2\">Targ. Ps. CIV, 2</cite> <he>מַסְטַר</he> Ms. (ed. <he>מתח</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

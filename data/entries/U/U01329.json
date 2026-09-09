@@ -1,0 +1,25 @@
+{
+	"id": "U01329",
+	"slug": "שליף-1",
+	"headword": {
+		"text": "שָׁלִיף"
+	},
+	"page": {
+		"number": 1584,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01370\"><he>שָׁלַף</he></cite>) [<i>sliding,</i>] <i>pouch</i> on an animal’s back, <i>saddle-bag, haversack</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 154b:2-7\">Sabb. 154ᵇ</cite> <he>היתה … טעונה ש׳ וכ׳</he> if (on the entrance of the Sabbath) his beast was carrying a bag full of grain, let him … pull it towards one side, so that it slips down of itself; Tosef. ib. XVIII, 1. ",
+				"<cite ref=\"Tosefta Bava Kamma 1:6\">Tosef. B. Kam. I, 6</cite>; Y. ib. I, beg. 2ᵃ. ",
+				"<cite ref=\"Kiddushin 22b\">Kidd. 22ᵇ</cite>; <cite ref=\"Bava Batra 75b\">B. Bath. 75ᵇ</cite>. ",
+				"<cite ref=\"Tosefta Bava Batra 4:2\">Tosef. ib. IV, 2</cite>; a. e."
+			]
+		}
+	]
+}

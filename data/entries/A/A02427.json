@@ -1,0 +1,62 @@
+{
+	"id": "A02427",
+	"slug": "אסי-2",
+	"headword": {
+		"text": "אֲסִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲסָא"
+		}
+	],
+	"page": {
+		"number": 92,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (sec. r. of <cite ref=\"A00779\"><he>אוס</he></cite>, v. <he>אנס</he>; cmp. <cite ref=\"J00674\"><he>יש</he></cite>, <cite ref=\"A01615\"><he>איש</he></cite>, <cite ref=\"A01394\"><he>אינש</he></cite> &c.; v. Ges. H. Dict. s. vv. <he>אשׁה</he>, <he>עשׂה</he>) <i>to be strong, well</i>. [Act. v. <i>to make well</i>, v. infra a. <cite ref=\"A02428\"><he>אָסֵי</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסִּי"],
+			"senses": [
+				{
+					"gloss": "<i>to cure</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 20:17\">Targ. O. Gen. XX, 17</cite> (Targ. Y. <cite ref=\"A02428\"><he>אָסֵי</he></cite>); a. fr.—<i>Part.</i> <cite ref=\"M01912\"><he>מַסֵּי</he></cite>, <he>מְאַסֵּי</he>.—",
+						"<cite ref=\"Nedarim 49a:8\">Ned. 49ᵃ</cite> <he>לאַסָּיֵיה</he>, <he>לאַסָּאָה יתיה</he> to cure him. ",
+						"<cite ref=\"Shabbat 111a:4\">Sabb. 111ᵃ</cite> <he>איכא מכה מסי</he> where there is a wound, it (the vinegar) heals it. ",
+						"<cite ref=\"Vayikra Rabbah 16:3\">Lev. R. s. 16</cite>, end, read: <he>מְאַסִּינָא ליה לגרמי</he> I shall cure him all alone. ",
+						"<cite ref=\"Gittin 56b\">Gitt. 56ᵇ</cite> <cite ref=\"M01912\"><he>מסיין</he></cite> = <he>מאסיין</he>, v. <cite ref=\"A02428\">next w.</cite>"
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתַּסִּי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיתְּסִי", "אִתְּ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be cured, to recover</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Joshua 5:8\">Targ. Josh. V, 8</cite>; a. fr.—",
+						"<cite ref=\"Shabbat 33a\">Sabb. 33ᵃ</cite>. ",
+						"<cite ref=\"Gittin 12b:12\">Gitt. 12ᵇ</cite> <he>דבעי אִתְּסוּיֵי ביה</he> for he wants to get cured with the money he receives as damages. ",
+						"<cite ref=\"Yoma 84a:6\">Yoma 84ᵃ</cite> <he>אִיתְּסָאִי</he> I got cured. ",
+						"<cite ref=\"Ketubot 62b:10\">Keth. 62ᵇ</cite> <he>איתסיאת</he> she grew well. ",
+						"<cite ref=\"Kohelet Rabbah 1:8\">Koh. R. to I, 8</cite> he went &c. <he>מִיתְאַסְּיָא</he> in order to be cured. Cmp. <cite ref=\"F00066\"><he>וֶסֶת</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

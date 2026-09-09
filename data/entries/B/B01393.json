@@ -1,0 +1,37 @@
+{
+	"id": "B01393",
+	"slug": "בתרא",
+	"headword": {
+		"text": "בַּתְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּתְרָאָה"
+		},
+		{
+			"text": "בַּתְרַאי"
+		}
+	],
+	"page": {
+		"number": 201,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B01392\">preced.</cite>) <i>the last, latest</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 4:8\">Targ. Ex. IV, 8</cite>; a. fr.—",
+				"<cite ref=\"Aramaic Targum to Psalms 78:4\">Targ. Ps. LXXVIII, 4</cite> <he>בַּתְרַאי</he> Ms. (ed. Vien. <he>בתרַי</he>, oth. ed. <cite ref=\"B01393\"><he>בַּתְרָאֵי</he></cite>).—",
+				"<cite ref=\"Gittin 47a:5\">Gitt. 47ᵃ</cite> <he>יומא ב׳</he> the gladiator’s last day; a. fr.—<he>בבא ב׳</he>, v. <cite ref=\"B00049\"><he>בָּב</he></cite>.—Pl. <he>בַּתְרָאִין</he>, <cite ref=\"B01393\"><he>בַּתְרָאֵי</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 33:2\">Targ. Gen. XXXIII, 2</cite>; a. e.—",
+				"<cite ref=\"Nazir 56b\">Naz. 56ᵇ</cite> <he>קמאי וב׳</he> the first and the last of the quoted authorities, opp. <he>מיצעי</he>.—",
+				"<cite ref=\"Chullin 105b:5\">Ḥull. 105ᵇ</cite> <he>ב׳ מיא</he> = h. <he>אחרונים מים</he>, v. <cite ref=\"A01050\"><he>אַחֲרוֹן</he></cite>.—Fem. <he>בַּתְרַיְתָא</he>, <he>בַּתְרֵיתָא</he>, <cite ref=\"B01264\"><he>בַּתְרַיְיתָא</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 51a\">Ab. Zar. 51ᵃ</cite>; a. fr.—בְּבָתְרֵיתָא <i>in the last place, last</i>. ",
+				"<cite ref=\"Onkelos Deuteronomy 13:10\">Targ. O. Deut. XIII, 10</cite>; a. e."
+			]
+		}
+	]
+}

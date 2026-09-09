@@ -1,0 +1,30 @@
+{
+	"id": "E00776",
+	"slug": "הפתקא-1",
+	"headword": {
+		"text": "הַפְתֵּקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַפְתֵּי׳"
+		},
+		{
+			"text": "הֶיפְתֵּי׳"
+		}
+	],
+	"page": {
+		"number": 363,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (<cite ref=\"E00775\">preced.</cite>) <i>treasury</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 47:14\">Targ. Y. Gen. XLVII, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 47:14\">Ib.</cite> ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 23:22\">Deut. XXIII, 22</cite> (constr.) <he>בהַפְתֵּיק וכ׳</he> in the treasury of the Lord (v. ",
+				"<cite ref=\"Chullin 139a\">Ḥull. 139ᵃ</cite> quot. s. v. <cite ref=\"C00516\"><he>גִּזָּא</he></cite>)."
+			]
+		}
+	]
+}

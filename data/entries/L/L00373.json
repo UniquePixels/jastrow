@@ -1,0 +1,61 @@
+{
+	"id": "L00373",
+	"slug": "לחש-3",
+	"headword": {
+		"text": "לְחַשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְחוֹשׁ"
+		}
+	],
+	"page": {
+		"number": 704,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"L00372\">same</cite>, <i>to whisper, charm</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 11:28\">Targ. Y. Gen. XI, 28</cite>.—Y. Sot. I, 16ᵈ bot. <he>כל … מִילְחוֹשׁ לעיינה תיתי תִילְחוֹשִׁי</he> let any woman that knows how to cure a sore eye by charm, come forth and charm for me. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>עבדי גרמיך לַחֲשָׁה ליה וכ׳</he> act as if you were charming to him and you may spit into his eye; <cite ref=\"Bamidbar Rabbah 9:20\">Num. R. s. 9</cite>; <cite ref=\"Vayikra Rabbah 9:9\">Lev. R. s. 9</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 14:4:8\">Y. Sabb. XIV, 14ᵈ</cite> bot., a. e., v. <cite ref=\"J00680\"><he>יֵשׁוּ</he></cite>. ",
+				"<cite ref=\"Yoma 82b:2\">Yoma 82ᵇ</cite>, v. infra; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["לַחֵשׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"L00372\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 12:19\">Targ. II Sam. XII, 19</cite>.—Y. Ber. I, 3ᶜ bot. <he>גחנין ומְלַחֲשִׁין</he> bending and whispering (a prayer)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִילְּחִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be whispered to, be relieved by a whispered charm</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 82b:2\">Yoma 82ᵇ</cite> [read:] <he>לחושו לה … לחשו לה ואִילְּחִישָׁא</he> whisper to her that to-day is the Day of Atonement. They did whisper to her and she was relieved (of her morbid appetite); [Ms. O. <he>ואילחיש</he> and the embryo in her womb was quieted; v. Rabb. D. S. a. l. notes 10 a. 20]."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to listen</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 59a\">B. Mets. 59ᵃ</cite> [read] <he>ותִילְּחִישׁ</he> and listen, v. <cite ref=\"C00471\"><he>גּוּץ</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

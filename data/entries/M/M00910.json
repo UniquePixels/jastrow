@@ -1,0 +1,32 @@
+{
+	"id": "M00910",
+	"slug": "מחסיא",
+	"headword": {
+		"text": "מְחַסְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָתָא מְחַסְיָא"
+		}
+	],
+	"page": {
+		"number": 763,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Matha M’ḥasia</i> (or <i>Maḥseia</i>, v. ",
+			"units": [
+				"<cite ref=\"Jeremiah 32:12\">Jer. XXXII, 12</cite>), prob. a suburb of Sura (v. Berl. Beitr. z. Geogr., p. 45, sq.). ",
+				"<cite ref=\"Ketubot 4a:4\">Keth. 4ᵃ</cite>. ",
+				"<cite ref=\"Berakhot 17b:5\">Ber. 17ᵇ</cite> <he>בני מ׳ מ׳ וכ׳</he> the (gentile) inhabitants of M. M. are obstinate. ",
+				"<cite ref=\"Kiddushin 33a:16\">Kidd. 33ᵃ</cite>. ",
+				"<cite ref=\"Bava Kamma 119b:20\">B. Kam. 119ᵇ</cite>. ",
+				"<cite ref=\"Sanhedrin 7b:4\">Snh. 7ᵇ</cite>; <cite ref=\"Horayot 3b:10\">Hor. 3ᵇ</cite>"
+			]
+		}
+	]
+}

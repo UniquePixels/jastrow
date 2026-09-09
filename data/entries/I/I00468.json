@@ -1,0 +1,30 @@
+{
+	"id": "I00468",
+	"slug": "טל-1",
+	"headword": {
+		"text": "טַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְלָל"
+		}
+	],
+	"page": {
+		"number": 535,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"I00508\"><he>טָלַל</he></cite>) [<i>hanging drop</i>, cmp. <cite ref=\"I00489\"><he>טִלְטוּלַיָּא</he></cite>,] <i>dew</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 3a:13\">Taan. 3ᵃ</cite> <he>בטל וברוחות וכ׳</he> as to mentioning dew and winds in the prayer &c.—",
+				"<cite ref=\"Taanit 3b:1\">Ib. 3ᵇ</cite> <he>טל דברכה</he> a fructifying dew; a. fr.—Pl. <he>טְלָלִים</he>, <he>טְלָלֵין</he>. ",
+				"<cite ref=\"Chagigah 12b:10\">Ḥag. 12ᵇ</cite> <he>עליית ט׳</he> the upper chamber (store) of dews, v. <cite ref=\"A00303\"><he>אֲגָלִים</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 28:5\">Lev. R. s. 28</cite> <he>ט׳ קשים</he> injurious dews; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "K01274",
+	"slug": "כרשינא",
+	"headword": {
+		"text": "כַּרְשִׁינָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 673,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (v. <cite ref=\"K01176\"><he>כָּרֵישׁ</he></cite>) <i>ball, pebble</i>.—Pl. <cite ref=\"K01277\"><he>כַּרְשִׁינֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shabbat 81a:7\">Sabb. 81ᵃ</cite> <he>כ׳ בבלייתא</he> Babylonian pebbles (cloddy and brittle)."
+			]
+		}
+	]
+}

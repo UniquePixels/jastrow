@@ -1,0 +1,34 @@
+{
+	"id": "P00264",
+	"slug": "עוללה-2",
+	"headword": {
+		"text": "עוֹלֵלָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוֹלֶלֶת"
+		}
+	],
+	"page": {
+		"number": 1051,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.  עוֹלֵלוֹת <i>pl.,</i> = <he>מְעוֹ׳</he>; <cite ref=\"P00815\"><he>עָלַל</he></cite>) [<i>that which is searched after</i>,] <i>gleaning reserved for the poor;</i> in gen. <i>small single bunch</i> (on a single branch, or hanging down directly from the trunk), opp. to <cite ref=\"A03305\"><he>אשכול</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 7:4\">Peah VII, 4</cite> <he>איזהו ע׳</he>, v. <cite ref=\"K01381\"><he>כָּתֵף</he></cite>. ",
+				"<cite ref=\"Mishnah Peah 7:4\">Ib.</cite> <he>ע׳ בארכובה</he> a bunch on the knee of a vine. ",
+				"<cite ref=\"Mishnah Peah 7:4\">Ib.</cite> <he>גרגר יחידי … ע׳</he> (Mish. ed. <he>עוֹלֵלוֹת</he> <i>pl.</i>) single berries … are considered gleanings (belong to the poor); Sifra K’dosh., Par. 1, ch. III; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 29:2\">Gen. R. s. 29</cite> <he>ראה עוללה אחת וכ׳</he> saw a single bunch (that wag ripe), and said a blessing over it; <he>כדאי הע׳ וכ׳</he> this single bunch is worth saying a blessing over it. ",
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 12</cite> (ref. to <cite ref=\"P00261\"><he>עולל</he></cite> <cite ref=\"Eichah Rabbah 1:57\">ib.</cite>) <he>קטף עוֹלְלָתִי</he> he cut my last bunch (destroyed me entirely), v. <cite ref=\"P00262\"><he>עוֹלְלָא</he></cite>.—<i>Pl.</i> <he>עוֹלֵלוֹת</he>. Sifra l. c.; <cite ref=\"Mishnah Peah 7:7\">Peah VII, 7</cite> <he>כרם שכולו ע׳</he> a vineyard in which all grapes grow in small separate bunches. ",
+				"<cite ref=\"Mishnah Peah 7:8\">Ib. 8</cite> <he>המקדיש … בו הע׳ וכ׳</he> if one consecrates his vineyards before the bunches (which would have been the poor man’s share) were distinguishable on it, they do not belong to the poor. ",
+				"<cite ref=\"Midrash Tehillim 121:1\">Midr. Till. to Ps. CXXI</cite> <he>אלקוט עוֹלְלוֹתֶיהָ של גפן</he> (not <he>עלילותי׳</he>) I will pluck the very gleanings of the vines; <he>ואת לקחת עד הע׳ וכ׳</he> (read <he>לקטת</he>) but thou hast plucked the last grapes. ",
+				"<cite ref=\"Esther Rabbah 3:2\">Esth. R. to I, 9</cite> (ref. to <cite ref=\"Isaiah 3:12\">Is. III, 12</cite>, and <cite ref=\"Leviticus 9:10\">Lev. IX, 10</cite>) <he>מקטפין עוֹלְלוֹתֵיהֶן</he> they (the officers) cut their gleanings (rob the people of their last belongings); a. fr."
+			]
+		}
+	]
+}

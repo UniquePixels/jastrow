@@ -1,0 +1,26 @@
+{
+	"id": "V00705",
+	"slug": "תמר-3",
+	"headword": {
+		"text": "תָּמָר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1679,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; cmp. <cite ref=\"A02062\"><he>אָמַר</he> II</cite>)<i>palm; date-palm; fruit of the date-palm, date</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 45b:9\">Succ. 45ᵇ</cite>; <cite ref=\"Megillah 14a:17\">Meg. 14ᵃ</cite>, v. <cite ref=\"L00030\"><he>לֵב</he></cite>. ",
+				"<cite ref=\"Megillah 14a:17\">Ib.</cite> (ref. to <cite ref=\"Judges 4:5\">Jud. IV, 5</cite>) <he>מאי שנא תחת תּוֹמֶר</he> why did she hold her sessions under a palm-tree? <cite ref=\"Midrash Tehillim 92:9\">Midr. Till. to Ps. XCII, 16</cite> (ref. to <cite ref=\"Midrash Tehillim 92:13\">ib. 13</cite>) <he>מה הת׳ והארז וכ׳</he> as the palm and the cedar are higher than all other trees, so Israel is &c.; <he>אי מה הת׳ וכ׳</he> you may think, as the palm and the cedar when uprooted from their places (transplanted) do not grow new shoots, so Israel does &c.; a. fr.—Pl. <he>תְּמָרִים</he> <i>dates</i>. ",
+				"<cite ref=\"Mishnah Terumot 11:2\">Ter. XI, 2</cite> <he>דבש ת׳</he> date honey. ",
+				"<cite ref=\"Mishnah Terumot 11:3\">Ib. 3</cite>; a. fr."
+			]
+		}
+	]
+}

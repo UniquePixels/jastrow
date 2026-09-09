@@ -1,0 +1,47 @@
+{
+	"id": "U00707",
+	"slug": "שחר-4",
+	"headword": {
+		"text": "שְׁחַר",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1551,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00706\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַשְׁחַר"],
+			"senses": [
+				{
+					"gloss": "<i>to get black</i>. ",
+					"units": [
+						"<cite ref=\"Sukkah 33b:6\">Succ. 33ᵇ</cite> <he>דאַשְׁחוּר אימת</he> when did they (the berries on the myrtle branch) become black?"
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["שַׁחֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to blacken</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 117b\">B. Mets. 117ᵇ</cite> <he>דקא״ל קא מְשַׁחְרַת לי לכותלאי</he> Ms. M. (differ. in ed., v. <cite ref=\"U00716\"><he>שַׁחְרוּרִיתָא</he></cite>) he may say to him, thou wilt make my wall black (by living in my house).—Part. pass. <he>מְשַׁחַר</he>; f. <he>מְשַׁחְרָא</he>; pl. <he>מְשַׁחְרֵי</he>; <he>מְשַׁחְרָן</he>. ",
+						"<cite ref=\"Yoma 28b:6\">Yoma 28ᵇ</cite> <he>מכי מש׳ כותלי</he> when the walls begin to grow dark (are no longer shone upon by the sun), v. <cite ref=\"K00429\"><he>כּוֹתְלָא</he></cite>. ",
+						"<cite ref=\"Berakhot 28a:9\">Ber. 28ᵃ</cite> <he>חזנהו … דמש׳</he> he saw that the walls of his room were sooty. ",
+						"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד מאת׳</he> 8) <he>רישיה גריע ומְשַׁחְרִין אפוי</he> (not <he>ושיחרור</he>) his head shaved, and his face blackened; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

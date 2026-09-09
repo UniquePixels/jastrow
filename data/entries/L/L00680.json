@@ -1,0 +1,36 @@
+{
+	"id": "L00680",
+	"slug": "לקט-4",
+	"headword": {
+		"text": "לֶקֶט",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "לְקָטָא"
+		},
+		{
+			"text": "לִיקְטָא"
+		}
+	],
+	"page": {
+		"number": 718,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"L00679\">same</cite>, <i>gleanings, poor man’s share</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 19:9\">Targ. Lev. XIX, 9</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the accumulated food in a bird’s crop</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 1:16\">Targ. Y. I Lev. I, 16</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

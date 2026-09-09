@@ -1,0 +1,46 @@
+{
+	"id": "V00483",
+	"slug": "תיקא-2",
+	"headword": {
+		"text": "תְּיָקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּיָיקָא"
+		},
+		{
+			"text": "תִּיאָקָא"
+		},
+		{
+			"text": "תֵּיקָא"
+		}
+	],
+	"page": {
+		"number": 1666,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contraction of <he>תיעק׳</he>; v. <cite ref=\"M02164\"><he>מַעֲקֶה</he></cite>; cmp. Arab. <i>waḳay</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>railing, gallery</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 22:8\">Targ. O. Deut. XXII, 8</cite> (Y. <he>תֵּיאַק גיפופין</he>; h. text <cite ref=\"M02164\"><he>מעקה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 6:10\">Targ. I Kings VI, 10</cite> <cite ref=\"V00482\"><he>תֵּיקָא</he></cite> (h. text <cite ref=\"J00532\"><he>יציע</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " trnsf. <i>safety, place to stand on</i> or <i>lean against</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 26:37\">Targ. Y. Lev. XXVI, 37</cite> <he>ת׳ למיקום</he> (h. text <cite ref=\"V00870\"><he>תקומה</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

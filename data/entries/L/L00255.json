@@ -1,0 +1,43 @@
+{
+	"id": "L00255",
+	"slug": "לויה-2",
+	"headword": {
+		"text": "לְוִיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְיִיָּיה",
+			"homograph": 2
+		},
+		{
+			"text": "לִוְיָה"
+		}
+	],
+	"page": {
+		"number": 698,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"L00206\"><he>לָוָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>consort, wife</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 54b\">Yoma 54ᵇ</cite> top (ref. to <he>וליות</he>, <cite ref=\"I Kings 7:36\">I Kings VII, 36</cite>), v. <cite ref=\"P01342\"><he>עָרָה</he> II</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"L00256\">next w.</cite>) <i>the wailing woman’s company</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:6:4\">Y. M. Kat. I, 80ᵈ</cite> top, [read:] <he>לא תעורר אשה לְוִיָּיתָהּ … רבי נחמן … אמר לִיוְיָתָהּ</he> a woman must not stir up her company for wailing during the festive week; R. N. read <i>livyatha</i> (with ref. to <he>עורר לויתן</he> <cite ref=\"Job 3:8\">Job III, 8</cite>; cmp. <cite ref=\"A01279\"><he>אִילַּוָּיוּתָא</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

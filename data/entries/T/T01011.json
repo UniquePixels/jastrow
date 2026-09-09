@@ -1,0 +1,24 @@
+{
+	"id": "T01011",
+	"slug": "רקב-4",
+	"headword": {
+		"text": "רָקָב"
+	},
+	"page": {
+		"number": 1496,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T01010\">preced.</cite>) <i>rottenness</i>, esp. <i>raḳab, a mass of earth from a grave containing parts of a decayed human body</i>, which causes uncleanness if of a certain quantity (<cite ref=\"V00958\"><he>תַּרְוָוד</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Nazir 7:2\">Naz. VII, 2</cite> <he>מלא תרווד ר׳</he> a spoonful of <i>raḳab</i>. ",
+				"<cite ref=\"Tosefta Ohalot 2:2\">Tosef. Ohol. II, 2</cite> <he>מלא תרווד ר׳ שאמרו וכ׳</he> the spoonful of <i>raḳab</i> of which they speak (as making unclean) means as much as is grabbed with the fingers from their roots and upwards. ",
+				"<cite ref=\"Tosefta Ohalot 2:3\">Ib. 3</cite> <he>ואיזהו מת שיש לו ר׳</he> what corpse is it to which the law of <i>raḳab</i> applies?; <cite ref=\"Nazir 51a:10\">Naz. 51ᵃ</cite>; Y. ib. VII, 56ᵇ bot.; a. fr."
+			]
+		}
+	]
+}

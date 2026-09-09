@@ -1,0 +1,23 @@
+{
+	"id": "O01695",
+	"slug": "סתידראות",
+	"headword": {
+		"text": "סְתִידְרָאוֹת"
+	},
+	"page": {
+		"number": 1031,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<i>Hithpa.</i> noun of <cite ref=\"O00199\"><he>סָדַר</he></cite>, as <cite ref=\"U02089\"><he>שְׁתַחְוָיָה</he></cite> for <cite ref=\"E00941\"><he>הִשְׁתַּחְוָיָה</he></cite>; cmp. <cite ref=\"A02569\"><he>אִסְתְּדִירָא</he></cite>, <cite ref=\"A01460\"><he>אִסְטְרִידָא</he></cite>) <i>riggings, sail-yards</i>. ",
+			"units": [
+				"<cite ref=\"Avot D'Rabbi Natan 31:3\">Ab. d’R. N. ch. XXXI</cite> <he>ס׳ בעולם ס׳ באדם וכ׳</he> there are sail-yards in the world, and so there are sail-yards in the structure of man, that is, his two arms."
+			]
+		}
+	]
+}

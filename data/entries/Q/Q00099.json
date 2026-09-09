@@ -1,0 +1,28 @@
+{
+	"id": "Q00099",
+	"slug": "פגש-3",
+	"headword": {
+		"text": "פַּגָּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּפַר פַּגָּשׁ"
+		}
+	],
+	"page": {
+		"number": 1136,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>K’far Paggash</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 5:4:4\">Y. Ab. Zar. V, 44ᵈ</cite>. ",
+				"<cite ref=\"Tosefta Avodah Zarah 6:8\">Tosef. Ab. Zar. VI</cite> (<cite ref=\"Tosefta Avodah Zarah 7:8\">VII</cite>), 8 <he>כפר פַּגָּשָׁה</he>."
+			]
+		}
+	]
+}

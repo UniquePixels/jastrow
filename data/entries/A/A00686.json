@@ -1,0 +1,23 @@
+{
+	"id": "A00686",
+	"slug": "אומא-1",
+	"headword": {
+		"text": "אוּמָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 26,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (v. <cite ref=\"A00685\">foreg.</cite>) <i>the leaven, flour used for leaven</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 42a:19\">Pes. 42ᵃ</cite> <he>קומניתא דא׳</he> (Ms. O. <he>דנהמא</he>) the decay of the flour-substance; v. <cite ref=\"K00422\"><he>כּוּתָּח</he></cite>. [V. also <cite ref=\"A00721\"><he>אוּנָא</he></cite> end.]"
+			]
+		}
+	]
+}

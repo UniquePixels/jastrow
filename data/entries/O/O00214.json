@@ -1,0 +1,37 @@
+{
+	"id": "O00214",
+	"slug": "סהדו",
+	"headword": {
+		"text": "סַהֲדוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַהֲדוּתָא"
+		},
+		{
+			"text": "שַׂ׳"
+		}
+	],
+	"page": {
+		"number": 959,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00213\">preced.</cite>) <i>testimony, evidence; warning</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 5:17\">Targ. Deut. V, 17</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 8:20\">Targ. Is. VIII, 20</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 3:9:23\">Y. Snh. III, end, 21ᵈ</cite> <he>קביל</he> … <he>ס׳ דלא באפוי וכ׳</he> R. E. heard evidence in the absence of the party; a. fr.—<he>ידע בס׳</he> to know evidence, to have something to testify to. ",
+				"<cite ref=\"Makkot 5b:11\">Macc. 5ᵇ</cite>; a. fr. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:1:19\">Y. Snh. I, 18ᵇ</cite> top <he>ידע ש׳</he>; a. fr.—Pl. <cite ref=\"O00217\"><he>סָהֶדְוָון</he></cite>, <cite ref=\"O00217\"><he>סָהֶדְוָן</he></cite>, <he>סָהֶידְ׳</he>, <he>סָהִידְ׳</he>; constr. <he>סָהִידְוַות</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 18:18\">Targ. Jer. XVIII, 18</cite> <he>סחדון</he> (ed. Lag. <he>סהֲדִין</he>, v. <cite ref=\"O00213\">preced.</cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 22:14\">Targ. Y. Deut. XXII, 14</cite> (not … <he>דַווֹן</he>) <i>evidence of virginity</i>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 119:14\">Targ. Ps. CXIX, 14</cite>; a. fr."
+			]
+		}
+	]
+}

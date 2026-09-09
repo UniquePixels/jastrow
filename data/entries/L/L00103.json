@@ -1,0 +1,32 @@
+{
+	"id": "L00103",
+	"slug": "לבנה-1",
+	"headword": {
+		"text": "לְבֵנָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְבֵי׳"
+		}
+	],
+	"page": {
+		"number": 690,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; לבן <i>to stamp, tread</i>, cmp. <he>לבד</he>; v. Schr. KAT<sup>2</sup>, p. 121 note) <i>brick</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 23:13\">Lev. R. s. 23</cite> (ref. to <cite ref=\"Exodus 24:10\">Ex. XXIV, 10</cite>, cmp. Targ. Y. ",
+				"<cite ref=\"Exodus 24:10\">ib.</cite>) <he>זה עד שלא נגאלו אבל משנגאלו היכן היתה דרכה של ל׳ להנתן וכ׳</he> this (brick of sapphire under his feet) was before they (the Israelites) were redeemed, but after their redemption the brick was placed where it belonged. ",
+				"<cite ref=\"Mishnah Kelim 9:6\">Kel. IX, 6</cite> <he>ל׳ שבלעה וכ׳</he> a brick in which a metal ring has entirely disappeared; <cite ref=\"Tosefta Mikvaot 6:5\">Tosef. Mikv. VI</cite> (<cite ref=\"Tosefta Mikvaot 7:12\">VII</cite>), 12 <he>טבעת שנתונה בל׳ וכ׳</he> a ring which was stuck into a brick of soft clay. ",
+				"<cite ref=\"Avodah Zarah 46a:20\">Ab. Zar. 46ᵃ</cite> <he>שזקף ל׳</he>, v. <cite ref=\"G00649\"><he>זָקַף</he></cite>; a. fr.—Pl. <he>לְבֵנִים</he>, <cite ref=\"L00103\"><he>לְבֵי׳</he></cite>, <cite ref=\"Shemot Rabbah 5:23\">Ex. R. s. 5</cite>. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 48:21\">Pirké d’R. El. ch. XLVIII</cite> <he>בין לובן הל׳</he> between the layers of bricks. ",
+				"<cite ref=\"Mishnah Bava Batra 1:1\">B. Bath. I, 1</cite>; a. fr.—Trnsf. <i>l’benah, the larger portion of a line filled out with writing</i>; [Rashi: <i>the blank</i>], v. <cite ref=\"A03092\"><he>אָרִיחַ</he></cite>."
+			]
+		}
+	]
+}

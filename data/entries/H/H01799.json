@@ -1,0 +1,22 @@
+{
+	"id": "H01799",
+	"slug": "חרתנא",
+	"headword": {
+		"text": "חַרְתָּנָא"
+	},
+	"page": {
+		"number": 508,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H01796\"><he>חַרְתָּא</he> II</cite>) <i>querulous man</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 16:28\">Targ. Prov. XVI, 28</cite> (ed. Lag. <he>הַ׳</he>; some ed. <cite ref=\"D01136\"><he>דרתנא</he></cite>, incorr.)"
+			]
+		}
+	]
+}

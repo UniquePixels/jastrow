@@ -1,0 +1,29 @@
+{
+	"id": "S01080",
+	"slug": "קיסר",
+	"headword": {
+		"text": "קֵיסַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "קֵסַר"
+		}
+	],
+	"page": {
+		"number": 1365,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Cæsar, Καῖσαρ) <i>Cæsar, Roman emperor</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:10\">Y. Ber. IX, 12ᵈ</cite> bot.; <cite ref=\"Bereishit Rabbah 8:9\">Gen. R. s. 8</cite>, v. <cite ref=\"A00271\"><he>אָגוּסְטוֹס</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 10b:12\">Ab. Zar. 10ᵇ</cite> <he>קטיעא חד מחשיבי דמלכותא דק׳ הוה וק׳ הוה סני וכ׳</he> Ms. M. Ḳ’ṭiʿa was one of the nobles of the imperial government, and the emperor hated the Jews (ed. <he>ההוא קֵיסָרָא דהוה סני וכ׳</he>). ",
+				"<cite ref=\"Sanhedrin 98b:16\">Snh. 98ᵇ</cite>, v. <cite ref=\"Q00942\"><he>פַּלְגּוּ</he></cite>; a. fr."
+			]
+		}
+	]
+}

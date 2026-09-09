@@ -1,0 +1,27 @@
+{
+	"id": "A03115",
+	"slug": "אריסטובולוס",
+	"headword": {
+		"text": "אֲרִיסְטוֹבּוֹלוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲרִיסְטוֹבְלוֹס"
+		}
+	],
+	"page": {
+		"number": 120,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (Ἀριστόβουλος) <i>Aristobule</i>, brother of Hyrcan, son of Alexander Jannai. ",
+			"units": [
+				"<cite ref=\"Menachot 64b:5\">Men. 64ᵇ</cite>; <cite ref=\"Bava Kamma 82b:16\">B. Kam. 82ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

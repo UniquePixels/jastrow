@@ -1,0 +1,29 @@
+{
+	"id": "H00050",
+	"slug": "חביב-1",
+	"headword": {
+		"text": "חָבִיב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 418,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00012\"><he>חָבַב</he></cite>) <i>beloved, dear, precious; favored, privileged</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 2:10\">Ab. II, 10</cite> <he>יהי … ח׳ עליך וכ׳</he> let thy neighbor’s honor be as dear to thee as thine own. ",
+				"<cite ref=\"Pirkei Avot 3:14\">Ib. III, 14</cite> <he>ח׳ אדם וכ׳</he> man is privileged (favored of God) in that he was created &c.; a. v. fr.—Pl. <he>חֲבִיבִים</he>, <he>חֲבִיבִין</he>. ",
+				"<cite ref=\"Berakhot 5b:10\">Ber. 5ᵇ</cite> <he>ח׳ עליך וסורין</he> are sufferings dear to thee (as divine trials)?—",
+				"<cite ref=\"Yoma 52a:1\">Yoma 52ᵃ</cite> <he>ח׳ ישראל וכ׳</he> Israel is favored, for the Lord made them independent of a mediator; a. v. fr.—<i>Fem.</i> <cite ref=\"H00055\"><he>חֲבִיבָה</he></cite>. ",
+				"<cite ref=\"Tosefta Berakhot 7:24\">Tosef. Ber. VII, 24</cite>; <cite ref=\"Berakhot 63a:10\">Ber. 63ᵃ</cite>; Y. ib. IX, end, 14ᵈ <he>ח׳ תורה וכ׳</he> the Law is appreciated. ",
+				"<cite ref=\"Pesachim 68b:1\">Pes. 68ᵇ</cite> <he>כמה ח׳ מצוה בשעתה</he> how much more preferable is a religious act when done betimes; a. e.—Pl. <he>חֲבִיבוֹת</he>. ",
+				"<cite ref=\"Sotah 13a:13\">Sot. 13ᵃ</cite> <he>כמה ח׳ … על וכ׳</he> how dear were religious acts to Moses."
+			]
+		}
+	]
+}

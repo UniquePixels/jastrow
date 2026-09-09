@@ -1,0 +1,34 @@
+{
+	"id": "U01399",
+	"slug": "שלשל-4",
+	"headword": {
+		"text": "שַׁלְשֵׁל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1589,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"U01398\"><he>שִׁלְשֵׁל</he> I</cite>, <i>to let down</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 19:12\">Targ. I Sam. XIX, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 2:15\">Targ. Josh. II, 15</cite>; <cite ref=\"Targum Jonathan on Joshua 2:18\">18</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:4:4\">Y. Snh. II, 20ᵇ</cite> bot. <he>הוה חמי ליה מְשַׁלְשֵׁל וכ׳</he> he saw him let his clothes down a little, and take them up a little; <cite ref=\"Jerusalem Talmud Sukkah 5:6:2\">Y. Succ. V, 55ᶜ</cite> top, <cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4</cite>, end <he>משולשל</he> (corr. acc.)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּלְשֵׁל"],
+			"senses": [
+				{
+					"gloss": "<i>to let one’s self down</i>. Y. Ter. VIII, 45ᵈ bot. <he>דהוא מִשְׁתַּלְשֵׁל</he> for it (the serpent) can let itself down (on the string).",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

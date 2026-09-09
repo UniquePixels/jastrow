@@ -1,0 +1,27 @@
+{
+	"id": "P00618",
+	"slug": "עינותא-1",
+	"headword": {
+		"text": "עַיְנוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַיְי׳"
+		}
+	],
+	"page": {
+		"number": 1072,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"P00602\"><he>עֵינָא</he></cite>) <i>well, spring</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 34:11\">Targ. Y. II, Num. XXXIV, 11</cite> (Y. I <he>עֵינְוָותָא</he>). Targ. Y. ib. 15; a. e.—Pl. <he>עֵינְוָותָא</he>, <he>עִינְוָתָא</he>, <cite ref=\"P00610\"><he>עֵינָוָון</he></cite>, <cite ref=\"P00617\"><he>עֵינָוָן</he></cite>, v. <cite ref=\"P00602\"><he>עֵינָא</he></cite>."
+			]
+		}
+	]
+}

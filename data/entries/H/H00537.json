@@ -1,0 +1,23 @@
+{
+	"id": "H00537",
+	"slug": "חזיזא-2",
+	"headword": {
+		"text": "חֲזִיזָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 443,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H00533\"><he>חָזִיז</he></cite>) <i>shaggy</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 44a:18\">Bekh. 44ᵃ</cite> <he>גדיא ח׳</he> a shaggy goat (called <cite ref=\"R00377\"><he>צִימֵּחַ</he></cite>, with long hair lumps and long-dependent ears, Capra Syriaca, v. Encyclop. Brit. s. v. Goat)."
+			]
+		}
+	]
+}

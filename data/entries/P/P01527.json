@@ -1,0 +1,64 @@
+{
+	"id": "P01527",
+	"slug": "עתד-2",
+	"headword": {
+		"text": "עֲתַד"
+	},
+	"page": {
+		"number": 1128,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P01526\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַתֵּד"],
+			"senses": [
+				{
+					"gloss": " = h. <he>הציב</he>, <i>to put up, place, fix</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 3:12\">Targ. Lam. III, 12</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 9:1\">Targ. Prov. IX, 1</cite> (h. text <he>חצבה</he>!). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 15:25\">Ib. XV, 25</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 17:6\">Targ. Job XVII, 6</cite> (Var. ed. Lag. <he>עדת׳</he>, some ed. <he>ערת׳</he>; corr. acc.).—Part. pass. <he>מְעַתַּד</he> (= b. h. <cite ref=\"N01097\"><he>נִצָּב</he></cite>, cmp. <cite ref=\"M02082\"><he>מְעוּמָּד</he></cite> fr. <cite ref=\"P00859\"><he>עָמַד</he></cite>). ",
+						"<cite ref=\"Onkelos Genesis 28:13\">Targ. O. Gen. XXVIII, 13</cite> (Y. <cite ref=\"M02143\"><he>מְעַמַּד</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 45:10\">Targ. Ps. XLV, 10</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to hold ready; to designate</i>. Ib. L, 10. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 24:27\">Targ. Prov. XXIV, 27</cite> <he>עַתְּדָהּ</he> (some ed. <he>עַתִּידְיָהּ</he>, corr. acc.).—Part. pass. <he>מְעַתַּד</he>; f. <cite ref=\"M02047\"><he>מְעַתְּדָא</he></cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 15:23\">Targ. Job XV, 23</cite> (ed. Lag. <he>מִיעַתַּד</he> <i>Ithpa.</i>). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 32:35\">Targ. Y. I Deut. XXXII, 35</cite>; a. e.—Y. B. Bath. II, beg. 13ᵇ <he>ע׳ ליה תכריכין</he> held shrouds ready for him. ",
+						"<cite ref=\"Bereishit Rabbah 45\">Gen. R. s. 45</cite> <he>עַתֵּיד לך וכ׳</he> Mus. (ed. <he>עביד</he>), v. <cite ref=\"Q00332\"><he>פּוּרְבִּי</he></cite>. Y. Keth. XII, 35ᵃ top. <he>אין אתא משיחא ואנא מְעַתַּד</he> that I be ready, when the Messiah comes; Y. Kil. IX, 32ᵇ top; (<cite ref=\"Bereishit Rabbah 100\">Gen. R. s. 100</cite> <he>איטימוס</he>). Y. Sabb. V, 7ᵇ bot. (expl. <he>שוזות</he>) <he>מְעַתְּדָן</he> prepared (for copulation, v. Bab. ",
+						"<cite ref=\"Shabbat 53b\">Sabb. 53ᵇ</cite> bot.); a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְעַתַּד", "אִיעַתַּד"],
+			"senses": [
+				{
+					"gloss": "<i>to be ready, designated</i>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to endure</i>, v. <cite ref=\"P01546\"><he>עֲתַר</he></cite>.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "A01860",
+	"slug": "אלים-1",
+	"headword": {
+		"text": "אֵלִים"
+	},
+	"page": {
+		"number": 69,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " <cite ref=\"M01502\"><he>בֵּית א׳</he></cite> pr. n. pl. <i>Beth-Elim</i>, near Mount Tabor. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 99:1\">Gen. R. s. 99</cite> beg. Mekh. Yithro s. 5 (<cite ref=\"A01789\"><he>אלהים</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"A01860\"><he>אֵלִים</he></cite> pl. of <cite ref=\"A01264\"><he>אַיִל</he></cite> q. v.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

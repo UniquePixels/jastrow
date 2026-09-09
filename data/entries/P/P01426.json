@@ -1,0 +1,58 @@
+{
+	"id": "P01426",
+	"slug": "ערף-1",
+	"headword": {
+		"text": "עָרַף"
+	},
+	"page": {
+		"number": 1122,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to divide, cut</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 306:20\">Sifré Deut. 306</cite> (ref. to <he>יערף</he>, <cite ref=\"Deuteronomy 32:2\">Deut. XXXII, 2</cite>) <he>אין יַעֲרֹף … פרוט … אלא עֲרוֹף לי וכ׳</he> <i>yaʿʿărof</i> is a Phoenician (mercantile) term, e.g. one does not say to one’s neighbor, <i>pʾroṭ</i> (break into small change) this Selʿa for me, but <i>ʿărof</i> for me &c.—Denom. <cite ref=\"P00360\"><he>עוֹרֶף</he></cite>.—2) (cmp. <cite ref=\"S00810\"><he>קָטַף</he></cite> a. <cite ref=\"S00812\"><he>קְטָף</he></cite>) <i>to drop, distill</i>. ",
+				"<cite ref=\"Taanit 7a:4\">Taan. 7ᵃ</cite> (ref. to Deut. l. c.) <he>אם ת״ח … ואם לאו עוֹרְפֵיהוּ כמטר</he> if a scholar is worthy, he is like dew; if unworthy, drop him like rain; <cite ref=\"Yalkut Shimoni on Torah 942:30\">Yalk. Deut. 942</cite> <he>עָרְפֵהוּ</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"P00360\"><he>עוֹרֶף</he></cite>) <i>to break the neck of;</i> esp. <i>to break the neck of a heifer to atone for a murder the author of which is unknown</i> (<cite ref=\"Deuteronomy 21:1-9\">Deut. XXI, 1–9</cite>); <i>to perform the ceremony of atonement</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 9:2\">Sot. IX, 2</cite> <he>לא היו עוֹרְפִין</he> they did not perform the ceremony. ",
+				"<cite ref=\"Sotah 45b\">Ib. 45ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Sotah 9:5\">Ib. IX, 5</cite> <he>ועורפין אותה בקופיץ וכ׳</he> and (if the ground is not hard and rough) they cut her head from behind with a hatchet.—Part. pass. <he>עָרוּף</he>; f. <he>עֲרוּפָה</he>.—<he>עגלה ע׳</he>, v. <cite ref=\"P00097\"><he>עֶגְלָה</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"A01044\"><he>אָחַר</he></cite>) (of copulations of animals) <i>to cover</i> (<i>from behind</i>). Ib. 42ᵇ (play on <cite ref=\"P01433\"><he>עָרְפָּה</he></cite>) <he>שהכל עורפין וכ׳</he> all covered her from behind.",
+			"units": [],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶעֱרַף"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִתְעָרֵף"],
+			"senses": [
+				{
+					"gloss": "<i>to have the neck broken</i>. Ib. IX, 7 (47ᵃ) <he>נמצא … עד שלא נֶעֶרְפָּה וכ׳</he> (Y. ed. <he>עד שלא תֵיעָרֵף</he>) if the murderer was discovered before the heifer was put to death; <he>משנִתְעָרְפָה העגלה</he> Mish. (Y. a. Bab. ed. <he>משנערפה</he>) after the ceremony had taken place. Ib. 46ᵃ <he>יבוא דבר … ויֵעָרֵף וכ׳</he> let there be brought a thing which has not yet produced fruit (a heifer) and be broken in a place which produces no fruit, and atone for the murder of him who was prevented from producing fruit (good deeds on earth). ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 42:9\">Ex. R. s. 42</cite>, end (play on <he>קשה ערף</he>, <cite ref=\"Exodus 32:9\">Ex. XXXII, 9</cite>) <he>ראויים הם להֵעָרֵף</he> they deserve to have their necks broken; a. e."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

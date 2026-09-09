@@ -1,0 +1,39 @@
+{
+	"id": "U01007",
+	"slug": "שיפה-2",
+	"headword": {
+		"text": "שִׁיפָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1565,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שׁוּף</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rubbing, smoothing</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 56b:3\">Ned. 56ᵇ</cite> <he>שִׁיפַת עור הדג</he> rubbing with the skin of a fish. ",
+				"<cite ref=\"Mishnah Menachot 6:5\">Men. VI, 5</cite>, v. <cite ref=\"B01045\"><he>בְּעִיטָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>paring, shavings</i> used for basket work, mats &c. (cmp. Syr. <he>שפיתא</he>, Brockelm. 383, <he>שיפתא</he> P. Sm. 4102). ",
+			"units": [
+				"<cite ref=\"Sukkah 20a:6\">Succ. 20ᵃ</cite>, a. e., v. <cite ref=\"H01843\"><he>חֲשִׂיפָה</he></cite>. Y. Dem. II, 22ᶜ bot. <he>פול … בש׳</he> Egyptian beans (offered for sale) tied with shavings. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 5:14:2\">Y. Ab. Zar. V, end, 45ᵇ</cite> <he>העקל … של ש׳</he> a bale … made of plaited shavings. ",
+				"<cite ref=\"Mishnah Makhshirin 5:8\">Makhsh. V, 8</cite> <he>הש׳ של לבנים</he> ed. Dehr. (ed. <he>השיפא</he>) the shavings (or mat) used for covering bricks; a. e.—Pl. <cite ref=\"U01017\"><he>שִׁיפוֹת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 4:2:3\">Y. Sabb. IV, 6ᵈ</cite> bot. <he>פורסין מחצלת על גבי ש׳ וכ׳</he> (not <he>שייפות</he>) you may spread a mat over the shavings which cover the bricks (on the Sabbath); Y. M. Kat. II, end, 81ᵇ <cite ref=\"U01021\"><he>שיפוף</he></cite> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

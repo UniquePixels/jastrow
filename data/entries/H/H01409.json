@@ -1,0 +1,35 @@
+{
+	"id": "H01409",
+	"slug": "חספניתא",
+	"headword": {
+		"text": "חַסְפְּנִיתָא"
+	},
+	"page": {
+		"number": 489,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01405\"><he>חֲסַף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>scaly skin</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 19\">Num. R. s. 19</cite>; <cite ref=\"Kohelet Rabbah 7:23\">Koh. R. to VII, 23</cite> <he>רגלוי … לח׳ דנונא</he> the feet of chickens resemble (as to their covering) the scale-covered skin of the fish, v. <cite ref=\"H01737\"><he>חַרְסְפִיתִין</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>scab, eruption</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 133b\">Sabb. 133ᵇ</cite>, sq. <he>האי מאן דמשי … ליה ח׳</he> (Ms. M. <he>חוספנתא</he>) he who washes his face and does not dry it well, will get a scab. ",
+				"<cite ref=\"Avodah Zarah 28b\">Ab. Zar. 28ᵇ</cite>, sq. (Rashi: <he>חוס׳</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "V00218",
+	"slug": "תולעבא",
+	"headword": {
+		"text": "תּוּלְעֲבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תֻּלְ׳"
+		}
+	],
+	"page": {
+		"number": 1653,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00593\"><he>לְעַב</he></cite>) <i>sneer, scorn, lasciviousness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 79:4\">Targ. Ps. LXXIX, 4</cite> (ed. Wil. <cite ref=\"V00314\"><he>תּוֹ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 28:11\">Targ. Is. XXVIII, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 33:31\">Targ. Ez. XXXIII, 31</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 51:18\">Targ. Jer. LI, 18</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "O01392",
+	"slug": "ספסופא",
+	"headword": {
+		"text": "סַפְסוּפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַפְסוּפָה"
+		}
+	],
+	"page": {
+		"number": 1015,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>אספס׳</he>; <he>אסף</he>) <i>riotous gathering</i>, or <i>indiscriminate capture</i> of people during a riot. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 8:4:13\">Y. Ter. VIII, 46ᵇ</cite> bot. <he>איתציד בס׳</he> was caught in a riot."
+			]
+		}
+	]
+}

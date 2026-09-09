@@ -1,0 +1,30 @@
+{
+	"id": "H01040",
+	"slug": "חליטה-2",
+	"headword": {
+		"text": "חֲלִיטָה",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "הַחֲלָטָה"
+		}
+	],
+	"page": {
+		"number": 468,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"H00994\"><he>חָלוּט</he></cite>, v. <cite ref=\"H01020\"><he>חָלַט</he> I</cite>) <i>a paste made of flour stirred in boiling water, dumpling</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Challah 1:6\">Ḥall. I, 6</cite>; Y. ib. 58ᵃ top <he>ח׳ קמח לתוך חמין</he> <i>ḥălitah</i> is flour put into hot water, contrad. to <cite ref=\"M02117\"><he>מעיסה</he></cite> which is <he>חמין לתוך קמח</he> (v. ",
+				"<cite ref=\"Tosefta Challah 1:1\">Tosef. ib. I, 1</cite>); <cite ref=\"Pesachim 37b:2\">Pes. 37ᵇ</cite> (Ms. O. <he>החלטה</he>; v. vers. in Rabb. D. S. a. l. note 6); Y. ib. II, 29ᶜ.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:1:22\">Y. Ber. VI, 10ᵇ</cite>"
+			]
+		}
+	]
+}

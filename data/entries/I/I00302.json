@@ -1,0 +1,23 @@
+{
+	"id": "I00302",
+	"slug": "טיבועין",
+	"headword": {
+		"text": "טִיבּוּעִין"
+	},
+	"page": {
+		"number": 529,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>טָבַע</he> I) <i>sinking</i>; <he>לט׳</he> <i>for being sunk, at the risk of receiving no consideration</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 76b:4\">Keth. 76ᵇ</cite> <he>קידושין לט׳ ניתנו</he> the object of value given at betrothal is made a present even at the risk of death before the consummation of marriage; <cite ref=\"Bava Batra 145a:7\">B. Bath. 145ᵃ</cite>"
+			]
+		}
+	]
+}

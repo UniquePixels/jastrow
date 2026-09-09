@@ -1,0 +1,31 @@
+{
+	"id": "M00338",
+	"slug": "מדרשא",
+	"headword": {
+		"text": "מִדְרָשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֶדְ׳"
+		}
+	],
+	"page": {
+		"number": 736,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M00337\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 9:9\">Lev. R. s. 9</cite> <he>תתנא מ׳</he> (read: <he>אתעני</he>; <cite ref=\"Bamidbar Rabbah 9:24\">Num. R. s. 9</cite> <he>איעני דרשה</he>) the lecture was delayed.—<cite ref=\"M02894\"><he>בי מ׳</he></cite> (in Targ. frequ. only <he>מ׳</he>) = h. <he>בית המדרש</he>, v. <cite ref=\"M00337\">preced.</cite> ",
+				"<cite ref=\"Targum Jonathan on Genesis 9:27\">Targ. Y. Gen. IX, 27</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 25:27\">Ib. XXV, 27</cite>; a. fr.—",
+				"<cite ref=\"Avodah Zarah 74b:4\">Ab. Zar. 74ᵇ</cite>; <cite ref=\"Eruvin 60a:7\">Erub. 60ᵃ</cite>, v. <cite ref=\"R00170\"><he>צְוַוח</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 3:6:4\">Y. Yoma III, 40ᶜ</cite> bot., v. <cite ref=\"H00222\"><he>חֲדַת</he></cite>. ",
+				"<cite ref=\"Pesachim 33a:11\">Pes. 33ᵃ</cite>; a. e.—Pl. <he>מִדְרָשִׁין</he>, <he>מִדְרָשַׁיָּא</he>, <cite ref=\"M00338\"><he>מֶדְ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 5:24\">Targ. Jud. V, 24</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 80:11\">Targ. Ps. LXXX, 11</cite>; a. e."
+			]
+		}
+	]
+}

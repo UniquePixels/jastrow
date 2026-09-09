@@ -1,0 +1,23 @@
+{
+	"id": "R00460",
+	"slug": "צירן",
+	"headword": {
+		"text": "צִירָן"
+	},
+	"page": {
+		"number": 1281,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"R00452\"><he>צִיר</he> I</cite>) <i>one whose eyes discharge a briny liquid, blear-eyed</i>; [Rashi: <i>one whose eyes have a cylindrical shape like a pivot</i>, fr. <cite ref=\"R00450\"><he>צִיר</he> II</cite>]. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 7:3\">Bekh. VII, 3</cite>, expl. ",
+				"<cite ref=\"Bekhorot 44a:12\">ib. 44ᵃ</cite> <he>עיניו תרוטות וצִירָנִיּוֹת</he> whose eyes are bleared and granulated; [Rashi: round or pivot-shaped]; <cite ref=\"Tosefta Bekhorot 5:3\">Tosef. ib. V, 3</cite> <he>עיניו מצודניות</he> ed. Zuck. (corr. acc., or read with oth. ed. <he>מְרוֹדָנִיּוֹת</he>)."
+			]
+		}
+	]
+}

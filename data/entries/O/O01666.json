@@ -1,0 +1,32 @@
+{
+	"id": "O01666",
+	"slug": "סרק-5",
+	"headword": {
+		"text": "סָרַק",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1030,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>סֵירֵק</he> (<i>Saf.</i> of <cite ref=\"J00653\"><he>ירק</he></cite>; cmp. <he>מרק</he>) <i>to stain</i> wood; <i>to paint</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kelim 15:2\">Kel. XV, 2</cite> <he>סֵירְקָן</he>; <cite ref=\"Mishnah Kelim 22:9\">XXII, 9</cite> <he>סֵירְקוֹ</he>, v. <cite ref=\"K01208\"><he>כִּרְכֵּם</he></cite>.—[<cite ref=\"Shir HaShirim Rabbah 1:1\">Cant. R. to I, 1</cite>; <cite ref=\"Yalkut Shimoni on Nach 960\">Yalk. Prov. 960</cite>, v. <cite ref=\"O00193\"><he>סָדַק</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

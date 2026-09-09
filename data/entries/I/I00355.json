@@ -1,0 +1,27 @@
+{
+	"id": "I00355",
+	"slug": "טייר-2",
+	"headword": {
+		"text": "טַיִּיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְיָיר"
+		}
+	],
+	"page": {
+		"number": 531,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00354\">preced.</cite>) <i>divination</i> from birds, <i>augury</i>. Pesik. Par. p. 33ᵇ <he>שהיו יודעים במזל וערומים בט׳</he> they understood astrology and were shrewd in augury; (<cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite>, v. <cite ref=\"A02403\"><he>אַסְטְרוֹלוֹגְיָא</he></cite>); Tanḥ. Ḥuck. 6; ed. Bub. 11; <cite ref=\"Kohelet Rabbah 7:23\">Koh. R. to VII, 23</cite> <he>קוסמין בעופות ובקיאין בט׳</he> divined from birds and were experts in divination.—Pl. <cite ref=\"I00293\"><he>טְיָירִין</he></cite> (<cite ref=\"I00293\"><he>טְיָארִין</he></cite>, <he>טִיאוּרִין</he>); <he>חכמת הט׳</he> the art of divination. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 7:23\">Ib.</cite> to X, 20 (ref. to <cite ref=\"P00311\"><he>עוף</he></cite> ib.) <he>זה הוא העורב בח׳ ט׳</he> Ar. (ed. <he>חכמת טיאריו</he>, read <he>בח׳ … ין</he>) that means, the raven (carries the sound) through the art of divination; <cite ref=\"Midrash Tehillim 7\">Midr. Till. to Ps. VII</cite>, beg. <he>וח׳ טיארין</he>; Yalk. Koh. 979 <he>העורב ח׳ טיאורין …</he> (read <he>בח׳</he>); <cite ref=\"Vayikra Rabbah 32\">Lev. R. s. 32</cite> <he>וח׳ טייארין</he>."
+			]
+		}
+	]
+}

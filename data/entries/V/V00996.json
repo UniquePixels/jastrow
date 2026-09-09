@@ -1,0 +1,31 @@
+{
+	"id": "V00996",
+	"slug": "תריסיות",
+	"headword": {
+		"text": "תְּרֵיסִיּוֹת"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּרֵסִ׳"
+		}
+	],
+	"page": {
+		"number": 1698,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"V00995\">preced.</cite>; cmp. <cite ref=\"N00986\"><he>נָעַל</he></cite> a. <cite ref=\"N00988\"><he>נַעַל</he></cite>) <i>the net-work of the strappings of sandals</i> (v. Sm. Ant., Engl. ed.<sup>3</sup>, s. v. Solea). ",
+			"units": [
+				"<cite ref=\"Shabbat 60b:5\">Sabb. 60ᵇ</cite> (of nails for ornament) <he>שתים … ואחת בתְרֵסִיּוֹתָיו</he> two on each side, and one in the strappings. ",
+				"<cite ref=\"Yevamot 102b:3-7\">Yeb. 102ᵇ</cite> <he>הוא … ותריסיותיו של שיער</he> if the sandal is of leather, and its strappings of hair. Y. ib. XII, 12ᵈ top <he>והן שיהו תרסיותיו של עץ</he> this means, that its strappings are of the vegetable kingdom, v. <cite ref=\"H00042\"><he>חֶבֶט</he> I</cite>. ",
+				"<cite ref=\"Tosefta Shabbat 12:14\">Tosef. Sabb. XII</cite> (<cite ref=\"Tosefta Shabbat 13:14\">XIII</cite>), 14; Y. ib. VI, 8ᵃ; a. e.—Bab. ",
+				"<cite ref=\"Shabbat 112b:3\">ib. 112ᵇ</cite> <he>סנדל שיש לו … וארבע תְּרֵסִיּוֹתִים</he> a sandal which has four loops, and four strapping arrangements."
+			]
+		}
+	]
+}

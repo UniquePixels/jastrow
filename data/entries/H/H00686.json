@@ -1,0 +1,61 @@
+{
+	"id": "H00686",
+	"slug": "חיור",
+	"headword": {
+		"text": "חִיוָּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִיוַּר"
+		},
+		{
+			"text": "חִיוְרָא"
+		},
+		{
+			"text": "חַוָּר"
+		},
+		{
+			"text": "חַוָּור"
+		}
+	],
+	"page": {
+		"number": 452,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00444\"><he>חֲוַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>white</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 30:35\">Targ. Gen. XXX, 35</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 58b:12\">B. Mets. 58ᵇ</cite> <he>דאזיל … ואתי ח׳</he> the red color (of the face) disappears, and the white takes its place; a. fr.—Pl. <cite ref=\"H00688\"><he>חִיוְּרִין</he></cite>, <he>חִוָּרִין</he>, <he>חִיוְּרֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 6:3\">Targ. Zech. VI, 3</cite> (ed. Wil. <he>חַוָּ׳</he>); a. fr.—",
+				"<cite ref=\"Berakhot 28a:1\">Ber. 28ᵃ</cite>, v. <cite ref=\"H01496\"><he>חַצְבָּא</he></cite>; a. fr.—<i>Fem.</i> <cite ref=\"H00686\"><he>חִיוָּרָא</he></cite>, <cite ref=\"H00692\"><he>חִיוָּו׳</he></cite>, <cite ref=\"H00445\"><he>חִיוַּרְתָּא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 13:4\">Targ. Y. Lev. XIII, 4</cite> (ed. Berl. <cite ref=\"H00445\"><he>חַוְרָא</he></cite>); a. fr.—(As a noun) <i>white skin, white spot</i> &c. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 22:22\">Targ. Y. Lev. XXII, 22</cite>.—",
+				"<cite ref=\"Gittin 68a:2\">Gitt. 68ᵃ</cite> <he>ח׳ באוכמתא</he> a white spot on a dark skin, v. <cite ref=\"A00648\"><he>אוּכָּם</he></cite>. ",
+				"<cite ref=\"Gittin 56a:11\">Ib. 56ᵃ</cite> <he>חיורתא</he> (Ar. <cite ref=\"H00689\"><he>חִיוָּרִיתָא</he></cite>) <i>white flour</i>, v. <cite ref=\"C00509\"><he>גּוּשְׁקְרָא</he></cite>; a. fr.—Pl. <cite ref=\"H00445\"><he>חִוְּרָן</he></cite>, <he>חַוְּ׳</he>, <cite ref=\"H00681\"><he>חִיוְורַן</he></cite>, <cite ref=\"H00681\"><he>חִיוָּורָתָא</he></cite>, <he>חִוָּו׳</he>. ",
+				"<cite ref=\"Onkelos Leviticus 13:38\">Targ. Lev. XIII, 38</cite>, sq.—",
+				"<cite ref=\"Berakhot 28a:1\">Ber. 28ᵃ</cite> <he>לית לך ח׳</he> thou hast no gray hair (art too young for the office); v. <cite ref=\"D01026\"><he>דָּרָא</he> I</cite>. ",
+				"<cite ref=\"Shabbat 110a:1\">Sabb. 110ᵃ</cite> top <he>תליסר חמרי ח׳</he> thirteen white she-asses. ",
+				"<cite ref=\"Chullin 7b:7\">Ḥull. 7ᵇ</cite>; <cite ref=\"Yoma 49a\">Yoma 49ᵃ</cite> <he>דח׳</he> (<cite ref=\"T00716\"><he>ריש</he></cite>) <he>כרעייהו</he> when their legs are white; a. fr. [<cite ref=\"Sanhedrin 98a:14\">Snh. 98ᵃ</cite> <he>חיור גוני</he>, v. <cite ref=\"E00306\"><he>הֲזָר</he></cite>.]—[<cite ref=\"Pesachim 42b:14\">Pes. 42ᵇ</cite> <he>מיא דחיורי</he>, v. <cite ref=\"H00702\"><he>חִיזְרָא</he> II</cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>leprous, leper, white-spotted</i> (from disease), <i>blanched</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 4:6\">Targ. O. Ex. IV, 6</cite> (Y. ed. Amst. <he>מְהַוְּורָא</he>, h. text <he>מצרעת</he>).—",
+				"<cite ref=\"Gittin 68a:2\">Gitt. 68ᵃ</cite> <he>טעמא דח׳</he> the taste of a leprous (white-spotted) animal. ",
+				"<cite ref=\"Sanhedrin 98b:14\">Snh. 98ᵇ</cite> <he>ח׳ דבי רבי שמו</he> the name of the Messiah is ‘the leper of the house of Rabbi’; a. fr. [<he>חמר חיור יין</he>, v. <cite ref=\"H00688\"><he>חִיוַּרְיַיִן</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

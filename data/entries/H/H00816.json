@@ -1,0 +1,27 @@
+{
+	"id": "H00816",
+	"slug": "חינגיתא",
+	"headword": {
+		"text": "חִינְגִּיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִנְ׳"
+		}
+	],
+	"page": {
+		"number": 458,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00815\">preced.</cite>) <i>a musical instrument</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 4:1\">Targ. Ps. IV, 1</cite> (ed. Lag. <cite ref=\"N00163\"><he>נְגִינָתָא</he></cite>, Ms. <cite ref=\"H00817\"><he>חִינְגָּנָתָא</he></cite>, v. <cite ref=\"H00817\">next w.</cite>)."
+			]
+		}
+	]
+}

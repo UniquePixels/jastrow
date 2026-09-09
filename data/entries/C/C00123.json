@@ -1,0 +1,36 @@
+{
+	"id": "C00123",
+	"slug": "גבעה",
+	"headword": {
+		"text": "גִּבְעָה"
+	},
+	"page": {
+		"number": 208,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>גבע</he>)<i>hill</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 10:9\">Lev. R. s. 10</cite> <he>כמין ג׳</he> like a hill (the bullock between the two rams). ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:6:1\">Cant. R. to IV, 6</cite> <he>עשה ערלותיהן ג׳</he> he piled up their preputia; <cite ref=\"Bereishit Rabbah 47:7\">Gen. R. s. 47</cite> <he>העמידן גִבְעַת ערלות</he>; a. e.—Pl. <he>גְּבָעוֹת</he>. ",
+				"<cite ref=\"Chagigah 15a:8\">Ḥag. 15ᵃ</cite> <he>ברא הרים ברא ג׳</he> He created mountains, and (corresponding to them) hills. ",
+				"<cite ref=\"Taanit 8b:5\">Taan. 8ᵇ</cite> (ref. to <cite ref=\"Job 37:13\">Job XXXVII, 13</cite>) <he>אם לשבט בהרים וג׳</he> if He sends rain as a scourge, He sends it on mountains and hills. ",
+				"<cite ref=\"Avodah Zarah 17a:13\">Ab. Zar. 17ᵃ</cite> <he>הרים וג׳</he> ye mountains and hills! <cite ref=\"Sotah 5a\">Sot. 5ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. pl. <i>Gibeah</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 6b:12\">Gitt. 6ᵇ</cite> <he>עסיק בפלגש ג׳</he> studying the case of the woman murdered in Gibeah (<cite ref=\"Judges 19\">Jud. XIX</cite> sq.). ",
+				"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite> <he>בפלגש בג׳</he> in the war about the woman of G.; a. e.—",
+				"<cite ref=\"Shevuot 35b:13\">Shebu. 35ᵇ</cite> <he>שמות האמורין בג׳</he> Rashi (ed. <he>בגִבְעַת בִּנְיָמִין</he>) the names (<i>Adonai, El</i> &c.) used in the chapter about Gibeah (<cite ref=\"Judges 20\">Jud. XX</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

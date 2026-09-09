@@ -1,0 +1,24 @@
+{
+	"id": "J00371",
+	"slug": "ילדותא-1",
+	"headword": {
+		"text": "יַלְדּוּתָא"
+	},
+	"page": {
+		"number": 578,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"J00370\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 44a:15\">B. Mets. 44ᵃ</cite> <he>ביַלְדּוּתֵיה מאי וכ׳</he> what was his view in his early years? (<cite ref=\"Avodah Zarah 52b:16\">Ab. Zar. 52ᵇ</cite> <he>בילדותו</he>, v. <cite ref=\"J00370\">preced.</cite>)."
+			],
+			"label": "1"
+		}
+	]
+}

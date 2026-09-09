@@ -1,0 +1,87 @@
+{
+	"id": "E00066",
+	"slug": "הגי-1",
+	"headword": {
+		"text": "הגי"
+	},
+	"altHeadwords": [
+		{
+			"text": "הָגָה"
+		}
+	],
+	"page": {
+		"number": 331,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"A00233\"><he>אָגָא</he></cite>) [<i>to point, pierce</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to reason, argue, deduct</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 1:16:1\">Koh. R. to I, 16</cite> <he>הלב הוֹגֶה</he> the heart reasons (ref. to <cite ref=\"Psalms 49:4\">Ps. XLIX, 4</cite> <he>הָגוּת</he>). ",
+				"<cite ref=\"Devarim Rabbah 11:2\">Deut. R. s. 11</cite> <he>הוֹגֶיהָ</he> those who study the Law, contrad. to <he>עוֹשֶׂיהָ</he>.—",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:11:3\">Y. Meg. I, 72ᵇ</cite> <he>ה׳ נח תורה וכ׳</he> Noah deducted a new law from a given law. ",
+				"<cite ref=\"Bereishit Rabbah 49:1\">Gen. R. s. 49</cite> <he>שהוא הוגה בתורה וכ׳</he> who shall discuss the Law in seventy languages; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pronounce, recite, spell</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 90:9\">Midr. Till. to Ps. XC, 9</cite> (ref. to <cite ref=\"E00062\"><he>הֶגֶה</he></cite>, <cite ref=\"Midrash Tehillim 90:9\">ib.</cite>) <he>זה נער שהוא הוגה</he> like a boy that spells (with difficulty). ",
+				"<cite ref=\"Sanhedrin 10a\">Snh. X </cite>(IX), 1 <he>ההוגה וכ׳</he> he who pronounces the Divine Name as it is written, v. <cite ref=\"A00233\"><he>אָגָא</he></cite>. ",
+				"<cite ref=\"Kohelet Rabbah 12:12\">Koh. R. to XII, 12</cite> (ref. to <cite ref=\"L00157\"><he>להג</he></cite> <cite ref=\"Kohelet Rabbah 12:12\">ib.</cite>) <he>לֶהֱגוֹת ניתנו וכ׳</he> they are good for reading exercises but not for painful study; v. <cite ref=\"E00069\"><he>הִגָּיוֹן</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:1:9\">Y. Meg. IV, 74ᵈ</cite> bot. <he>לא יהא הוגה מפיו וקורא</he> he must not spell (the letters of a Biblical book) from memory and dictate for writing a scroll."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to murmur a charm</i>, v. <i>Hif.</i>",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶהֱגֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to be spelled, read</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 12:4\">Sabb. XII, 4</cite>; <cite ref=\"Mishnah Shabbat 12:5\">5</cite>, <he>נֶהֱגִין זה עם זה</he> letters which can be read together (give sense)."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִגָּה"],
+			"senses": [
+				{
+					"gloss": "(also from <cite ref=\"J00078\"><he>יָגָה</he></cite>) <i>to pierce, sting;</i> <he>ה׳ מכה</he> <i>to prickle, open a wound;</i> trnsf. <i>to lay bare a person’s disgrace</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 4</cite> (interpret. <he>נוגות</he>, <cite ref=\"Eichah Rabbah 1:1\">ib.</cite>) they assaulted her …, <he>עד שהִגּוּ את מכתה</he> and then laughed at her disgrace. ",
+						"<cite ref=\"Eichah Rabbah 3:33\">Ib. to III, 33</cite> (ref. to <he>וַיַּגֶּה</he>); <cite ref=\"Shir HaShirim Rabbah 7:8:1\">Cant. R. to VII, 8</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶהֱגֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to murmur charms</i>.—<i>Part.</i> <he>מַהְגֶּה</he>, pl. <he>מַהְגִּים</he>, <he>מַהְגִּין</he>. ",
+					"units": [
+						"<cite ref=\"Sotah 12b:2\">Sot. 12ᵇ</cite> (ref. to <cite ref=\"Isaiah 8:19\">Is. VIII, 19</cite>) <he>מַ׳ ואינן וכ׳</he> they murmur but know not what &c.; <cite ref=\"Shemot Rabbah 1:1\">Ex. R. s. 1</cite> <cite ref=\"E00192\"><he>הוֹגִין</he></cite>. ",
+						"<cite ref=\"Vayikra Rabbah 6:1\">Lev. R. s. 6</cite> <he>המ׳ אלו המנהמין</he> <i>hammahgin</i> (Is. l. c.) that means the humming (sorcerers)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

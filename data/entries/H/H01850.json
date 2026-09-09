@@ -1,0 +1,29 @@
+{
+	"id": "H01850",
+	"slug": "חשך-6",
+	"headword": {
+		"text": "חשֶׁךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוֹשֶׁךְ"
+		}
+	],
+	"page": {
+		"number": 511,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H01847\"><he>חָשַׁךְ</he></cite>)<i>darkness</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 14:3\">Ex. R. s. 14</cite>. ",
+				"<cite ref=\"Chagigah 12a:7\">Ḥag. 12ᵃ</cite>; a. v. fr.—הָרֵי ח׳ <i>Dark Mountains</i>, behind which the Amazons live (<i>Amazonici Mountes</i>, v. Sm. Class. Dict. s. v.). ",
+				"<cite ref=\"Vayikra Rabbah 27:1\">Lev. R. s. 27</cite>; Pesik. Shor, p. 74ᵃ; <cite ref=\"Tamid 32a:16\">Tam. 32ᵃ</cite>. [The Jewish legend relating the meeting of Alexander the Great with the Amazons seems to point to Africa, v. <cite ref=\"S01989\"><he>קרטגינא</he></cite>)."
+			]
+		}
+	]
+}

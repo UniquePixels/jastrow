@@ -1,0 +1,51 @@
+{
+	"id": "T00242",
+	"slug": "רדי-2",
+	"headword": {
+		"text": "רְדֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְדָא"
+		}
+	],
+	"page": {
+		"number": 1451,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00241\">same</cite><i>to chastise</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 12:11\">Targ. I Kings XII, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 3:12\">Targ. Prov. III, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 31:1\">Ib. XXXI, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 12:7\">Targ. Ps. XII, 7</cite> <he>רָדָאן</he> (ed. Wil. <he>דדאן</he>, corr. acc.); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to drive, rule</i>. Ib. CX, 2. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 26:17\">Targ. Lev. XXVI, 17</cite>; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְרְדֵי", "אִתְרְדָא"],
+			"senses": [
+				{
+					"gloss": "<i>to be chastened; to be instructed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 6:8\">Targ. Jer. VI, 8</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 29:19\">Targ. Prov. XXIX, 19</cite>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 20:5\">Targ. Y. Lev. XX, 5</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

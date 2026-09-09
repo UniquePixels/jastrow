@@ -1,0 +1,76 @@
+{
+	"id": "Q01763",
+	"slug": "פרט-1",
+	"headword": {
+		"text": "פָּרַט"
+	},
+	"page": {
+		"number": 1224,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to split, open</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 5:3\">Lev. R. s. 5</cite> (ref. to <cite ref=\"Amos 6:5\">Am. VI, 5</cite>) <he>שהיו פוֹרְטִים פיהם וכ׳</he> they opened their mouths wide with cynical speech. ",
+				"<cite ref=\"Mishnah Maasrot 2:6\">Maasr. II, 6</cite> <cite ref=\"A00642\"><he>אוכל</he></cite>, <he>פּוֹרֵט</he> he splits (the pomegranate) and eats (a slice). ",
+				"<cite ref=\"Mishnah Maasrot 3:9\">Ib. III, 9</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"P01426\"><he>עָרַף</he></cite>) <i>to break into small change, to change money</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maaser Sheni 2:8\">Maas. Sh. II, 8</cite>, sq. <he>הפורט סלע וכ׳</he> he who breaks (changes at the banker’s) a Sela of second-tithes money. ",
+				"<cite ref=\"Bava Batra 8b:11-17\">B. Bath. 8ᵇ</cite> <he>גבאי צדקה … פּוֹרְטִין וכ׳</he> charity treasurers that have no poor among whom to distribute, may exchange for others (at a fee for the benefit of the fund), but not for themselves. ",
+				"<cite ref=\"Shemot Rabbah 35:1\">Ex. R. s. 35</cite> <he>יש אדם פורט זהוב וכ׳</he> a man changes one gold piece, and covers with it many expenses; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to single out, specify</i>. Mekh. Mishp., s. 5 <he>משמע שניהם כאחת … עד שיִפְרוֹט לך הכתוב יחדו</he> the Vav conjunctive may mean both together (<i>and</i>), or each separately (<i>or</i>), unless the text explicitly states ‘together’ (as <cite ref=\"Deuteronomy 22:10\">Deut. XXII, 10</cite>, sq.); <cite ref=\"Sanhedrin 85b\">Snh. 85ᵇ</cite>, a. e. <he>שיְפָרֵט</he> (<i>Pi.</i>). ",
+			"units": [
+				"<cite ref=\"Pesachim 21b:6\">Pes. 21ᵇ</cite> <he>כל מקום … עד שיפרוט לך הכתוב כדרך שפ׳ וכ׳</he> wherever the Law says, ye shall not eat &c., it implies the prohibition of both eating and using, unless the text explicitly permits the use as it does with reference to carcasses (<cite ref=\"Deuteronomy 14:21\">Deut. XIV, 21</cite>). Mekh. Bo, s. 5 <he>פרסמו ופְרָטוֹ וכ׳</he> (or <he>ופֵרְטוֹ</he> <i>Pi.</i>) the Scripture publishes and specifies him (by name); a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִפְרַט"],
+			"senses": [
+				{
+					"gloss": "<i>to be split, separated</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Peah 7:3\">Peah VII, 3</cite> <he>נפל לארץ ונ׳</he> if a cluster fell to the ground and was separated into single grapes (<cite ref=\"Q01765\"><he>פֶּרֶט</he></cite>); Sifra K’dosh., Par. 1, ch. III."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be specified, examined singly</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 11a\">Taan. 11ᵃ</cite> … <he>בשעת פטירתו נִפְרָטִין לפניו וכ׳</he> (not <he>נפטרין</he>, Ms. M. <he>נכתבין</he>) when man departs to his eternal home, all his deeds are called up before him one by one, and they say to him &c."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["פֵּירֵט"],
+			"senses": [
+				{
+					"gloss": "<i>to divide, specify</i> &c., v. supra.—Part. pass. <he>מְפוֹרָט</he>. ",
+					"units": [
+						"<cite ref=\"Tosefta Keilim Batra 5:10\">Tosef. Kel. B. Bath. V, 10</cite> <he>במ׳</he> ed. Zuck. (Var. <he>במְפוֹרָשׁ</he>) that part which is torn off (and attached only at one point; prob. to be read: <he>במְפוֹרָם</he>, v. <cite ref=\"Q01868\"><he>פָּרַם</he></cite>).—[<cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23-24</cite> <he>מפרטתו</he>, read: <he>מסטרתו</he>, v. <cite ref=\"O00502\"><he>סָטַר</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

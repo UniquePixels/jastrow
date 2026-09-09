@@ -1,0 +1,49 @@
+{
+	"id": "P01246",
+	"slug": "ערב-5",
+	"headword": {
+		"text": "עָרֵב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1110,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"P01242\"><he>עָרַב</he> I</cite>) [<i>to be well-mixed, seasoned</i>, cmp. esp. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 30:35\">Targ. Ex. XXX, 35</cite>,] <i>to be sweet, pleasant</i>. ",
+				"<cite ref=\"Eichah Rabbah 1:36\">Lam. R. to I, 9</cite> <he>יֶעֱרַב לך</he>, v. <cite ref=\"B01003\"><he>בָּסֵם</he></cite>. ",
+				"<cite ref=\"Devarim Rabbah 8:4\">Deut. R. s. 8</cite> <he>יערב עליכם</he> much good may it do you; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עֵירֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to sweeten; to gladden, humor</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 306:4\">Sifré Deut. 306</cite> <he>מְעָרְבִים וכ׳</he>, v. <cite ref=\"P00153\"><he>עָדַן</he></cite>.—Part. pass. <cite ref=\"M02092\"><he>מְעוּ֫רָב</he></cite>; f. <he>מְעוּרֶבֶת</he>. ",
+						"<cite ref=\"Ketubot 17a:1\">Keth. 17ᵃ</cite> <he>לעולם תהא דעתו של אדם מע׳ עם הבריות</he> at all times man’s disposition should be sweet in associating with men, i.e. sympathize with their feelings; <cite ref=\"Tractate Derekh Eretz Rabbah 6\">Treat. Der. Er. ch. VI</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶעֱרִיב"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to be sweet, pleasing</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 11b:17\">Ber. 11ᵇ</cite> <he>הַעֲרֶב נא וכ׳</he> let, I pray thee, the words of thy Law be sweet in our mouths &c."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

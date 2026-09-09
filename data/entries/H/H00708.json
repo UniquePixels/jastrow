@@ -1,0 +1,39 @@
+{
+	"id": "H00708",
+	"slug": "חיטוי",
+	"headword": {
+		"text": "חִיטּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִטּוּי"
+		}
+	],
+	"page": {
+		"number": 453,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <he>חטי</he> I, II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cleansing, purification</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 126:1\">Sifré Num. 126</cite> <he>לכלל ח׳</he> under the law of purification (ref. to <cite ref=\"Numbers 19:12\">Num. XIX, 12</cite>, <cite ref=\"Nazir 61b\">Naz. 61ᵇ</cite> <cite ref=\"I00105\"><he>טהרה</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>delicacy, luxury, enjoyment</i>.—Pl. <he>חִיטּוּיִין</he>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 7:2\">Cant. R. to VII, 2</cite> <cite ref=\"H00710\"><he>חיטטין</he></cite> (corr. acc.), v. <cite ref=\"H00582\"><he>חָטָא</he> I</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

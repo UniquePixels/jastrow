@@ -1,0 +1,35 @@
+{
+	"id": "N00399",
+	"slug": "נוצה",
+	"headword": {
+		"text": "נוֹצָה"
+	},
+	"page": {
+		"number": 889,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.; = <he>נוֹצְאָה</he>; <cite ref=\"J00515\"><he>יָצָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>growth</i>,] <i>feathers</i>, down. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 3:4\">Ḥull. III, 4</cite> <he>אם נטלה הנ׳</he> if the down is lost, contrad. to <cite ref=\"K00873\"><he>כָּנָף</he></cite>; <cite ref=\"Tosefta Chullin 3:18\">Tosef. ib. III</cite> (<cite ref=\"Tosefta Chullin 4:18\">IV</cite>), 18 <he>נוֹצָא</he>. ",
+				"<cite ref=\"Tosefta Chullin 6:11\">Ib. VI, 11</cite>. ",
+				"<cite ref=\"Mishnah Zevachim 6:5\">Zeb. VI, 5</cite> <he>והסיר את המוראה ואת הנ׳ וכ׳</he> he must remove the crop and the down-covered skin with the entrails that go along with it; <cite ref=\"Zevachim 65a:20\">ib. 65ᵃ</cite> <he>בנוצתה נוטל את הנ׳ עמה</he> ‘with its plumage’ (<cite ref=\"Leviticus 1:16\">Lev. I, 16</cite>), he must take the plumage that covers it with the crop; Sifra Vayikra, N’dab., ch. VIII, Par. 7 <he>יטלנה עם הנ׳</he>; a. fr.—",
+				"<cite ref=\"Shabbat 28b:1\">Sabb. 28ᵇ</cite> <he>נ׳ של עזים</he> <i>goats-hair</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " cmp. <cite ref=\"R00149\"><he>צוֹאָה</he></cite>) <i>maw containing the faeces</i> (= <cite ref=\"S00640\"><he>קורקבן</he></cite>). Zeb. l. c. (expl. <he>בנצתה</he>, Lev. l. c.) <he>נוטלה ונוטל וכ׳</he> he takes it (the crop) and takes the maw with it; Sifra l. c.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

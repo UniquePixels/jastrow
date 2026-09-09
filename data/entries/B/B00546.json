@@ -1,0 +1,32 @@
+{
+	"id": "B00546",
+	"slug": "ביבי-2",
+	"headword": {
+		"text": "בֵּיבַי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּיבַאי"
+		},
+		{
+			"text": "בֵּבַי"
+		}
+	],
+	"page": {
+		"number": 159,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.(b. h.,v. Ezra II , 11; <cite ref=\"Nehemiah 7:16\">Neh. VII, 16</cite>) <i>Bebai</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shekalim 5:1\">Shek. V, 1</cite> <he>בן בבי</he>; <cite ref=\"Yoma 23a:10\">Yoma 23ᵃ</cite> <cite ref=\"B01284\"><he>בי׳</he></cite>. ",
+				"<cite ref=\"Yoma 34b:4\">Ib. 34ᵇ</cite> <he>רב ב׳</he> R. B., an Amora. ",
+				"<cite ref=\"Bava Batra 36b:3\">B. Bath. 36ᵇ</cite>; a. e.—[<cite ref=\"Jerusalem Talmud Maasrot 5:3:7\">Y. Maasr. V, 52ᵃ</cite> <he>בעל ביבי</he>, read <cite ref=\"B00778\"><he>בֶּכִי</he></cite> q. v.]"
+			]
+		}
+	]
+}

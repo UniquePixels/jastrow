@@ -1,0 +1,32 @@
+{
+	"id": "D00430",
+	"slug": "דחס-2",
+	"headword": {
+		"text": "דְּחַס"
+	},
+	"page": {
+		"number": 293,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"D00429\">preced.</cite>) <i>to press, stamp</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 2:2\">Targ. Lam. II, 2</cite> ed. Lag.—",
+				"<cite ref=\"Yevamot 103a:7\">Yeb. 103ᵃ</cite> <he>צריך למִדְחֲסֵיה לכרעיה</he> must press his foot (rest it firmly on the ground). Y. B. Mets. IX, beg. 12 <he>הוו דחשין</he> (read: <he>דְּחִישִׁין</he> or <he>דְּחִיסִין</he>) they were crowded, opp. <cite ref=\"D00833\"><he>דְּלִיל</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּחֵיס"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"D00429\">same</cite>. Ib. [<cite ref=\"Targum Jonathan on Deuteronomy 25:9\">Targ. Y. Deut. XXV, 9</cite> <he>ויחדס</he> ed. pr., oth. <he>ויחכס</he>, prob. <he>וִידַחֵס</he>.]",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

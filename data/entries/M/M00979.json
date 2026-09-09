@@ -1,0 +1,31 @@
+{
+	"id": "M00979",
+	"slug": "מטול-1",
+	"headword": {
+		"text": "מְטוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָטוּל",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 766,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"I00163\"><he>טוּל</he></cite>, <cite ref=\"I00509\"><he>טְלַל</he></cite>, v. <cite ref=\"A02011\"><he>אַמְטוּל</he></cite>; cmp. <cite ref=\"C00746\"><he>גִּין</he></cite>) <i>on account of, for the sake of</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 25:8\">Targ. Y. I Num. XXV, 8</cite> <he>מ׳ אליין</he> on account of these persons. ",
+				"<cite ref=\"Aramaic Targum to Psalms 44:27\">Targ. Ps. XLIV, 27</cite> (h. text <he>למען</he>).—מ׳ ד־ <i>because, for</i>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 1:6\">Targ. Ps. I, 6</cite>.—<he>מ׳ היכנא</he>, <he>מ׳ הכי</he> <i>therefore</i> (h. <he>על כן</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 1:5\">Ib. 5</cite>. [<cite ref=\"Aramaic Targum to Psalms 1:4\">Ib. 4</cite> <he>מ׳ היכנא</he> ed. Wil., strike out <he>מ׳</he>, as ed. Lag.]—",
+				"<cite ref=\"Aramaic Targum to Psalms 49:15\">Ib. XLIX, 15</cite>; a. fr.—מְטוּלְתִּי <i>for my sake</i>, <he>מְטוּלְתָּךְ</he> <i>for thy sake</i>, &c. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:15\">Targ. Prov. VIII, 15</cite>, sq. Ms. (ed. <he>מטול אנא</he>!).—",
+				"<cite ref=\"Aramaic Targum to Psalms 115:1\">Targ. Ps. CXV, 1</cite>; a. fr."
+			]
+		}
+	]
+}

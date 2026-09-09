@@ -1,0 +1,23 @@
+{
+	"id": "Q00284",
+	"slug": "פונקלין",
+	"headword": {
+		"text": "פּוּנְקְלִין"
+	},
+	"page": {
+		"number": 1144,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (πανούκλιον, Hesych. s. v. πήνιον; πανοῦλκος quot. in Sm. Ant. s. v. Tela; Lat. panuncula) <i>threads wound around the bobbin</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 119b:7\">B. Kam. 119ᵇ</cite> <he>אין לוקחין … ולא פ׳</he> (Ms. M. <he>פונקנין</he>, Ms. H. <cite ref=\"Q00283\"><he>פונקין</he></cite>) you dare not buy from the weaver … threads of the bobbin (v. <cite ref=\"N00787\"><he>נִיר</he> IV</cite>); <cite ref=\"Tosefta Bava Kamma 11:11\">Tosef. ib. XI, 11</cite> <cite ref=\"Q00015\"><he>פָּאנִיקְנִין</he></cite> (Var. <cite ref=\"Q00017\"><he>פאנקין</he></cite>; anoth. var. <he>סנאקנין</he>, corr. acc.)."
+			]
+		}
+	]
+}

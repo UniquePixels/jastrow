@@ -1,0 +1,86 @@
+{
+	"id": "H00716",
+	"slug": "חיי-1",
+	"headword": {
+		"text": "חיי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָיָה"
+		}
+	],
+	"page": {
+		"number": 454,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to live</i>. ",
+			"units": [
+				"<cite ref=\"Tamid 32a:23-41\">Tam. 32ᵃ</cite> <he>מה … ויִחְיֶה</he> what must man do in order to live (long)?; a. v. fr.—<i>Part.</i> <cite ref=\"H00648\"><he>חָי</he></cite> (v. <cite ref=\"H00648\"><he>חַי</he></cite>).—",
+				"<cite ref=\"Mishnah Ketubot 1:6\">Keth. I, 6</cite> <he>לא מפיה אנו חָיִין</he> we do not live on what comes from her lips, i.e. we do not go by her evidence. Y. ib. II, 26ᶜ bot. <he>אנו כחיין מפיה</he> we (the court) are again in the condition of dependence on her own evidence. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 2:5:4\">Y. Shebi. II, 34ᵃ</cite> top <he>שהן חָיִין מִמֵּי וכ׳</he> they live (draw nourishment) from the waters of last year; <cite ref=\"Jerusalem Talmud Sheviit 2:5:4\">ib.</cite> (<he>הוא חָיָיה</he>) <he>הוא חָיָה</he> it draws &c.—",
+				"<cite ref=\"Sanhedrin 108a:11\">Snh. 108ᵃ</cite> <he>לא חיין ולא נידונין</he> they have no share in the resurrection nor will they be judged; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to heal; to recover, regain health</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 6a\">Keth. 6ᵃ</cite>, a. e. <he>עד שתִּחְיֶה המכה</he> until the wound is healed up. ",
+				"<cite ref=\"Chullin 7b:13\">Ḥull. 7ᵇ</cite> <he>וחָיָה</he> and did recover; <he>וחָיָת</he> and it (the wound) healed up; a. fr. [<cite ref=\"Jerusalem Talmud Maasrot 1:2:2\">Y. Maasr. I, 48ᵈ</cite> <he>חיתה</he>; <cite ref=\"Jerusalem Talmud Sheviit 4:6:2\">Y. Shebi. IV, 35ᵇ</cite> bot. <he>חייתה</he>, v. <cite ref=\"H00495\"><he>חוּת</he></cite>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִחְיָיה"],
+			"senses": [
+				{
+					"gloss": "<i>to be recalled to life, to resurrect</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 4:22\">Ab. IV, 22</cite> <he>והמתים להֵחָיוֹת</he> and the dead are destined to be revived. ",
+						"<cite ref=\"Sanhedrin 90b:2\">Snh. 90ᵇ</cite> <he>שעתיד להחיות</he> that he (Aaron) will resurrect."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["חִיָּיה", "חִיָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to keep alive, sustain</i>. ",
+					"units": [
+						"<cite ref=\"Tamid 32a:45\">Tam. 32ᵃ</cite> <he>יְחַיֶּה את עצמו</he> let him feed himself (his passions, be selfish). ",
+						"<cite ref=\"Yoma 71a:14\">Yoma 71ᵃ</cite> <he>מְחַיֶּה חיים</he> He who sustains the living; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to recall to life, to revive</i>. Snh. l. c. <he>הקב״ה מְחַיֶּיה מתים</he> the Lord revives the dead. Ib. <he>מה שאני ממית אני מְחַיֶּה</he> what I put to death, I revive again; a. fr.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶחְיָה", "הֶחְיָיה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H00715\">same</cite>. Ib. 92ᵇ <he>מתים שה׳ יחזקאל</he> the dead whom Ezekiel revived (<cite ref=\"Ezekiel 37\">Ez. XXXVII</cite>). ",
+					"units": [
+						"<cite ref=\"Ezekiel 37\">Ib.</cite> <he>והַחֲיֵיה מתים וכ׳</he> and revive the dead in the valley of Dura; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

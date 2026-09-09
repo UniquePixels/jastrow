@@ -1,0 +1,80 @@
+{
+	"id": "T00771",
+	"slug": "רכן-4",
+	"headword": {
+		"text": "רְכַן",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1480,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00770\">same</cite><i>to incline, sink, fall</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 46:29\">Targ. Y. Gen. XLVI, 29</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to bend, turn</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 21:1\">Targ. Prov. XXI, 1</cite>.—Part. pass. <he>רָכִין</he>; f. <he>רְכִינָא</he>; pl. <he>רְכִינִין</he>; <he>רְכִינָן</he>. ",
+				"<cite ref=\"Targum of I Chronicles 21:16\">Targ. I Chr. XXI, 16</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Yoma 8:5:6\">Y. Yoma VIII, 45ᵇ</cite> <he>בהוא דהוה ר׳</he> (ed. Krot. <cite ref=\"T00758\"><he>רכון</he></cite>) in the case of one in a bent position (under debris), opp. <he>קיים</he>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 2:3:6\">Y. B. Bath. II, 13ᵇ</cite> bot. <he>אילין עמודייא דר׳ וכ׳</he> those columns which are bent (declining or sinking) are so from the shock through wagons, v. <cite ref=\"S02059\"><he>קריית</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְכֵּין", "אַרְכֵן"],
+			"senses": [
+				{
+					"gloss": "<i>to bend, incline</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 49:15\">Targ. Y. Gen. XLIX, 15</cite> (not <cite ref=\"A00006\"><he>אָ׳</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on II Samuel 22:10\">Targ. II Sam. XXII, 10</cite>; <cite ref=\"Aramaic Targum to Psalms 18:10\">Targ. Ps. XVIII, 10</cite>, <cite ref=\"Aramaic Targum to Psalms 144:5\">Ib. CXLIV, 5</cite>; a. fr.—Part. pass. <cite ref=\"M02707\"><he>מַרְכַּן</he></cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 1:22\">Targ. Ez. I, 22</cite> (ed. Wil. <he>מַרְכֵין</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to sink</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 24:15\">Targ. Prov. XXIV, 15</cite> (h. text <he>תשדד</he>).—V. <he>רִיפוּנָא</he>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְרְכֵין"],
+			"senses": [
+				{
+					"gloss": "<i>to incline, let one’s self down; to fall</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 24:64\">Targ. Gen. XXIV, 64</cite> (h. text <he>ותפל</he>). ",
+						"<cite ref=\"Targum Jerusalem, Genesis 17:17\">Targ. Y. II ib. XVII; 17</cite>. ",
+						"<cite ref=\"Targum Jonathan on Numbers 14:5\">Targ. Y. Num. XIV, 5</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 14:12\">Targ. Is. XIV, 12</cite>; a. e.—",
+						"<cite ref=\"Targum Jonathan on II Samuel 22:8\">Targ. II Sam. XXII, 8</cite> (h. text <he>ויתגעשו</he>; <cite ref=\"Aramaic Targum to Psalms 18:8\">Targ. Ps. XVIII, 8</cite> <he>אתרטישו</he>, <he>אתרטיטו</he>).—",
+						"<cite ref=\"Bereishit Rabbah 60\">Gen. R. s. 60</cite> (transl. <he>ותפל</he>, <cite ref=\"Genesis 24:64\">Gen. XXIV, 64</cite>) <he>אִיתְרְכִינַת</he> she let herself down."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be dragged</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 14:19\">Targ. Is. XIV, 19</cite> (h. text <he>השלכת</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,66 @@
+{
+	"id": "T00345",
+	"slug": "רוח-3",
+	"headword": {
+		"text": "רוּחַ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1458,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"T00343\"><he>רָוַח</he></cite>)<i>wind, air; direction, side</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15:22\">Ex. R. s. 15<sup>22</sup></cite> <he>שלשה בריות … המים והר׳ וכ׳</he> three creations preceded the formation of the world: water, air, and fire; <he>הר׳ הרה וכ׳</he> the air (spirit) conceived and gave birth to wisdom. ",
+				"<cite ref=\"Bava Metzia 107b:3\">B. Mets. 107ᵇ</cite> <he>הכל בר׳</he> all (diseases) are caused by the air. ",
+				"<cite ref=\"Chagigah 12a:6\">Ḥag. 12ᵃ</cite> <he>עשרה … ר׳ ומים וכ׳</he> ten things were created on the first day: heaven …, air and water &c. ",
+				"<cite ref=\"Chagigah 12b:13\">Ib. 12ᵇ</cite> <he>הרים בר׳</he> the mountains are sustained by the air, <he>ר׳ בסערה</he> the air by the wind-storm.—",
+				"<cite ref=\"Berakhot 31a:22\">Ber. 31ᵃ</cite> <he>יכול … לכל ר׳ שירצה</he> you may think a man may pray facing any direction he may desire. ",
+				"<cite ref=\"Bava Batra 22b:8\">B. Bath. 22ᵇ</cite> <he>מר׳ אחת</he> from one side. ",
+				"<cite ref=\"Mishnah Bava Batra 2:9\">Ib. II, 9</cite> <he>לכל ר׳ עושה וכ׳</he> one may erect a tannery on any side of the town except the western. ",
+				"<cite ref=\"Bava Batra 25b:6\">Ib. 25ᵇ</cite> <he>ר׳ דרומית</he> the southern wind. ",
+				"<cite ref=\"Mishnah Kilayim 5:5\">Kil. V, 5</cite>; a. v. fr.—Pl. <he>רוּחוֹת</he>. ",
+				"<cite ref=\"Pirkei Avot 3:17\">Ab. III, 17</cite> <he>שאפי׳ כל הר׳ וכ׳</he> even if all the winds were to come and blow at them &c. ",
+				"<cite ref=\"Mishnah Kilayim 3:1\">Kil. III, 1</cite> <he>בארבע ר׳ הערוגה</he> on the four sides of the bed. Y. ib. VI, end, 30ᶜ <he>מגופף מארבע רוּחוֹתָיו</he> enclosed on its four sides. ",
+				"<cite ref=\"Pesachim 94a:10\">Pes. 94ᵃ</cite> <he>לארבע ר׳ העולם</he> he may turn towards any of the four directions of the world; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>mind, disposition, spirit</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 3:10\">Ab. III, 10</cite>, v. <cite ref=\"N00340\"><he>נוּחַ</he></cite> h. ",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:28\">Y. Peah I, 15ᶜ</cite> bot., a. e., v. <cite ref=\"E00672\"><he>הֲנָחָה</he></cite>. ",
+				"<cite ref=\"Pirkei Avot 4:7\">Ab. IV, 7</cite>, v. <cite ref=\"C01161\"><he>גַּס</he> III</cite>. ",
+				"<cite ref=\"Pirkei Avot 5:19\">Ib. V, 19</cite> <he>ר׳ נמוכה</he> a lowly spirit; a. v. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>spirit, soul</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 7\">Gen. R. s. 7</cite>, end <he>נפש חיה זה רוּחוֹ של וכ׳</he> ‘a living soul’ (<cite ref=\"Genesis 2:19\">Gen. II, 19</cite>), this means the soul of Adam. ",
+				"<cite ref=\"Bereishit Rabbah 2:4\">Gen. R. s. 2</cite> <he>ורוח אלהים זו רוחו וכ׳</he> ‘and the spirit of God’ (<cite ref=\"Genesis 1:2\">Gen. I, 2</cite>), this means the soul of the king Messiah; a. v. fr.—Esp. <he>ר׳ הקדש</he> (abbr. <he>רוה״ק</he>) <i>the holy spirit, prophetic inspiration, intuition</i>. ",
+				"<cite ref=\"Avodah Zarah 20b:11\">Ab. Zar. 20ᵇ</cite> <he>קדושה … רוה״ק</he> sanctity (of life) leads to prophetic inspiration. ",
+				"<cite ref=\"Megillah 7a:8\">Meg. 7ᵃ</cite> <he>אסתר ברוה״ק וכ׳</he> the Book of Esther was composed in a spirit of prophecy. ",
+				"<cite ref=\"Yoma 9b:16\">Yoma 9ᵇ</cite> <he>משמתו … נסתלקה רוה״ק וכ׳</he> with the death of the last prophets, Haggai …, the prophetic spirit was withdrawn from Israel. ",
+				"<cite ref=\"Berakhot 10a:21\">Ber. 10ᵃ</cite> <he>חזאי לי ברוה״ק וכ׳</he> I saw in a prophetic vision that unworthy children would go forth &c.; a. v. fr.—Snḥ. 65ᵇ, a. fr. <he>ר׳ טומאה</he> unholy inspiration (augury &c.)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (<i>evil</i>) <i>spirit, demon</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 112a:2\">Pes. 112ᵃ</cite> <he>ר׳ רעה</he> (<he>סכנת</he>) the danger threatening from an evil spirit; a. fr.—<he>ר׳ צרדה</he>, <he>ר׳ צרעת</he>, <he>ר׳ תזזית</he> &c., v. respective determinants.—Pl. <he>רוּחוֹת</he>, <he>רוּחִין</he>. ",
+				"<cite ref=\"Bereishit Rabbah 20:11\">Gen. R. s. 20</cite> <he>ר׳ הזכרים</he> male demons; <he>ר׳ נקבות</he> female demons. ",
+				"<cite ref=\"Eruvin 18b:10\">Erub. 18ᵇ</cite> <he>הוליד ר׳ ושדין וכ׳</he> begot spirits and demons &c.; a. fr."
+			],
+			"label": "4"
+		}
+	]
+}

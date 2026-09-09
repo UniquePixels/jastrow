@@ -1,0 +1,34 @@
+{
+	"id": "L00660",
+	"slug": "לצות",
+	"headword": {
+		"text": "לָצוּת"
+	},
+	"page": {
+		"number": 716,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"L00659\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>scorn, lasciviousness</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite> (play on <he>פלצות</he>, <cite ref=\"Isaiah 21:4\">Is. XXI, 4</cite>) <he>פה שהוא מפיץ דברי ל׳</he> the mouth which spreads words of lasciviousness; <he>ע״י שנפקו לדבר ל׳</he> because they went out for lascivious entertainment; cmp. <cite ref=\"L00518\"><he>לֵיצָנוּתָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sport, pleasure</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 6:4\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:4\">VII</cite>), 4 <he>שתהא לה ל׳</he> that she may be entertained; <cite ref=\"Yalkut Shimoni on Torah 587\">Yalk. Lev. 587</cite> <he>שהתחילה לצאת</he> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

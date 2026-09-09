@@ -1,0 +1,41 @@
+{
+	"id": "O00075",
+	"slug": "סבלון",
+	"headword": {
+		"text": "סִבְּלוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִי׳"
+		}
+	],
+	"page": {
+		"number": 950,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00074\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>load</i>. Sifra introd. <he>עשוי לסִיבְלוֹן אחר</he> made for the carrying of something else (than only persons).",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "pl. <he>סִבְלוֹנוֹת</he>, <cite ref=\"O00077\"><he>סִיבְ׳</he></cite> (cmp. b. h. <cite ref=\"M02796\"><he>מַשָּׂא</he></cite>, <he>מַשֵּׂאת</he>) <i>presents</i>, esp. <i>presents of betrothal</i> (donatio propter nuptias). ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 2:6\">Kidd. II, 6</cite> <he>אע״פ ששלח ס׳ וכ׳</he> although he sent presents after that (after an invalid betrothal). ",
+				"<cite ref=\"Kiddushin 50b:4\">Ib. 50ᵇ</cite> <he>חוששין לס׳</he> we have an apprehension concerning nuptial presents, i.e. the fact of a man’s having sent presents to a woman gives rise to the apprehension that a betrothal may have taken place (Tosaf.), or that the presents may have been meant as a means of betrothal (Rashi). ",
+				"<cite ref=\"Kiddushin 50b:4\">Ib.</cite> <he>אימא … כי קא משדר ס׳ אדעתא וכ׳</he> I might think … when he sent the presents he did so with the intention of making them the means of betrothal. ",
+				"<cite ref=\"Mishnah Bava Batra 9:5\">B. Bath. IX, 5</cite> <he>השולח ס׳ … אינן נגבין</he> if one sends presents …, they cannot be reclaimed (in case of death or divorce before marriage). ",
+				"<cite ref=\"Bava Batra 146a:7\">Ib. 146ᵃ</cite> <he>ס׳ העשויין ליבלות</he> presents intended for immediate consumption or wear; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

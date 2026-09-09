@@ -1,0 +1,23 @@
+{
+	"id": "V00932",
+	"slug": "תרבית",
+	"headword": {
+		"text": "תַּרְבִּית"
+	},
+	"page": {
+		"number": 1695,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"T00058\"><he>רָבָה</he></cite>)<i>increase, profit, interest</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 5:1\">B. Mets. V, 1</cite> <he>איזהו ת׳</he> what kind of interest is called <i>tarbith</i>?, v. <cite ref=\"T00058\"><he>רָבָה</he></cite>. ",
+				"<cite ref=\"Bava Metzia 60b:18\">Ib. 60ᵇ</cite> <he>ותיסברא דאיכא נשך בלא ת׳</he> am I to understand that there may be <i>neshekh</i> (receiving more than loaned) without <i>tarbith</i> (profit)? <cite ref=\"Bava Metzia 60b:14\">Ib.</cite> <he>נשך איכא … ות׳ ליכא וכ׳</he> in such a case there is <i>neshekh</i> …, but no <i>tarbith</i>, because he has no profit, having loaned him a Danḳa and received a Danḳa; a. fr."
+			]
+		}
+	]
+}

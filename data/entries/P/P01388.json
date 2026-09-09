@@ -1,0 +1,24 @@
+{
+	"id": "P01388",
+	"slug": "ערלות",
+	"headword": {
+		"text": "עַרְלוּת"
+	},
+	"page": {
+		"number": 1120,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01387\">preced.</cite>) <i>uncircumcision, the condition of one not circumcised</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 71a:18\">Yeb. 71ᵃ</cite> <he>ע׳ שלא בזמנה הויא ע׳</he> want of circumcision on account of untimeliness (the infant before its eighth day) creates the legal condition of the uncircumcised (with regard to the Passover meal, T’rumah &c.). ",
+				"<cite ref=\"Yevamot 70b:12\">Ib. 70ᵇ</cite> <he>ע׳ דגופיה</he> one’s own want of circumcision; <he>ע׳ דאחריני</he> omission to circumcise others. ",
+				"<cite ref=\"Chullin 4b\">Ḥull. 4ᵇ</cite>, sq. <he>מומר לע׳</he>, v. <cite ref=\"M00525\"><he>מוּמָר</he></cite>; a. e."
+			]
+		}
+	]
+}

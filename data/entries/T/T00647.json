@@ -1,0 +1,32 @@
+{
+	"id": "T00647",
+	"slug": "רימנא",
+	"headword": {
+		"text": "רֵימָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רֵימְ׳"
+		}
+	],
+	"page": {
+		"number": 1475,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"T00022\"><he>רְאֵם</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 39:9\">Targ. Job XXXIX, 9</cite>, sq. (h. text <he>רֵים</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 33:17\">Targ. Y. Deut. XXXIII, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 78:69\">Targ. Ps. LXXVIII, 69</cite> (ed. Wil. <cite ref=\"T00647\"><he>רֵימְ׳</he></cite>; h. text <he>רָמִים</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 92:11\">Ib. XCII, 11</cite>.—Pl. <he>רֵימָנִין</he>, <cite ref=\"T00647\"><he>רֵימְ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 29:6\">Ib. XXIX, 6</cite> <he>רֵמָנִין</he> Regia, v. <cite ref=\"T00021\"><he>רְאֵימָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 14:5\">Targ. Y. Deut. XIV, 5</cite> (ed. Vien. <cite ref=\"T00647\"><he>רִימְ׳</he></cite>; h. text <cite ref=\"D00742\"><he>דישן</he></cite>);—Y. Kil. VII, 31ᶜ bot. <he>רֵאמָנִין</he>."
+			]
+		}
+	]
+}

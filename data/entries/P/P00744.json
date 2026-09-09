@@ -1,0 +1,28 @@
+{
+	"id": "P00744",
+	"slug": "עכנאי",
+	"headword": {
+		"text": "עַכְנַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲכִינַאי"
+		}
+	],
+	"page": {
+		"number": 1079,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>ʿAkhnai</i> (<i>ʿkhinai</i>). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 5:10\">Kel. V, 10</cite> <he>תנורו של ע׳</he> the oven of ʿA. (consisting of tiles cemented with sand); <cite ref=\"Berakhot 19a:15\">Ber. 19ᵃ</cite>. ",
+				"<cite ref=\"Berakhot 19a:15\">Ib.</cite> <he>מהו ע׳ … שהקיפוהו הלכות כעכנא זה</he> (not <he>כעכנאי</he>) why is it called the oven of A.?… It intimates that they encircled it with discussions as the snake (winds itself around an object; v. Rabb. D. S. a. l. note 7); <cite ref=\"Bava Metzia 59b:1\">B. Mets. 59ᵇ</cite> <he>כעכנא זו</he>."
+			]
+		}
+	]
+}

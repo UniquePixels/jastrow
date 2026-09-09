@@ -1,0 +1,42 @@
+{
+	"id": "K01029",
+	"slug": "כפלא",
+	"headword": {
+		"text": "כַּפְלָא"
+	},
+	"page": {
+		"number": 660,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (or <cite ref=\"K00002\"><he>כִּ׳</he></cite>) m. (<cite ref=\"K01028\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>curve, winding road</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 40:4\">Targ. Is. XL, 4</cite> (h. text <cite ref=\"P01157\"><he>עָקֹב</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 42:16\">Ib. XLII, 16</cite> (h. text <he>מעקשים</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K00941\"><he>כֶּסֶל</he></cite>) <i>groin, loin</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 15:27\">Targ. Job XV, 27</cite>.—",
+				"<cite ref=\"Chullin 93a:7\">Ḥull. 93ᵃ</cite> <he>חמשא … ביה בכ׳</he> (Ar. <he>בהו בכַפְלֵי</he>) there are five veins (of forbidden fat) in the loin.—Pl. <he>כַּפְלֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 3:4\">Targ. Y. Lev. III, 4</cite> (ed. pr. <he>כָּ׳</he>); a. e.—",
+				"<cite ref=\"Aramaic Targum to Psalms 38:8\">Targ. Ps. XXXVIII, 8</cite>, v. <cite ref=\"K00942\"><he>כִּסְלָא</he></cite>.—",
+				"<cite ref=\"Chullin 8b:11\">Ḥull. 8ᵇ</cite>. ",
+				"<cite ref=\"Chullin 93a\">Ib. 93ᵃ</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " = h. <cite ref=\"K01028\"><he>כֶּפֶל</he></cite>, v. <cite ref=\"K01013\"><he>כְּפֵילָא</he></cite>",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

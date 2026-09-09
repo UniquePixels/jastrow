@@ -1,0 +1,34 @@
+{
+	"id": "H00988",
+	"slug": "חלה-2",
+	"headword": {
+		"text": "חַלָּה"
+	},
+	"page": {
+		"number": 464,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"H01073\"><he>חלל</he></cite>) [<i>rolled, rounded</i>] <i>cake</i>.—Pl. <he>חַלּוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 3:5\">Ukts. III, 5</cite> <he>ח׳ חריע</he> (<cite ref=\"Tosefta Ma'aser Sheni 1:13\">Tosef. Maas. Sh. I, 13</cite> <he>חַלַּת</he> (collect. noun), a. e., v. <cite ref=\"H01684\"><he>חֲרִיעַ</he></cite>.—",
+				"<cite ref=\"Mishnah Menachot 3:6\">Men. III, 6</cite> <he>שתי ח׳</he> the two loaves (offered on the Feast of Weeks, <cite ref=\"Leviticus 23:17\">Lev. XXIII, 17</cite>).—",
+				"<cite ref=\"Mishnah Bava Batra 5:3\">B. Bath. V, 3</cite>; <cite ref=\"Mishnah Oktzin 3:11\">Ukts. III, 11</cite> <he>ח׳ דבש</he> <i>honey-combs;</i> a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with ref. to <cite ref=\"Numbers 15:20\">Num. XV, 20</cite>, sq.) <i>Ḥallah</i>, <i>the priest’s share of the dough</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 2:6\">Sabb. II, 6</cite>, v. <cite ref=\"G00097\"><he>זָהִיר</he></cite>. ",
+				"<cite ref=\"Mishnah Challah 1:1\">Ḥall. I, 1</cite> <he>חייבין בח׳</he> are subject to the law of <i>Ḥallah</i>.—Ib. II, 7 <he>שעור הח׳</he> the quantity to be set aside for the priest. Ib. 8 <he>מעיסה שלא הורמה חַלָּתָהּ</he> Ms. M. (v. Rabb. D. S. a. l. note) from a dough from which the priest’s share has not yet been taken; a. fr.—<i>Pl.</i> as ab. Pesik. Shimu, p. 118ᵃ <he>שתי ח׳</he> two portions (one for being burnt, and one for the priest); <cite ref=\"Jerusalem Talmud Eruvin 3:9:3\">Y. Erub. III, end, 21ᶜ</cite>; <cite ref=\"Shir HaShirim Rabbah 1:6:5\">Cant. R. to I 6</cite>; a. e.—Trnsf. <i>ḥallah</i>, <i>the sanctification of creation, man</i>. ",
+				"<cite ref=\"Bereishit Rabbah 14:1\">Gen. R. s. 14</cite>, beg.; <cite ref=\"Yalkut Shimoni on Nach 962:11\">Yalk. Prov. 962</cite>, a. e. (ref. to <cite ref=\"Proverbs 29:4\">Prov. XXIX, 4</cite>, <he>ואיש תרומות</he>) that is Adam <he>שהיה גמר חַלָּתוֹ וכ׳</he> who was the final sanctification of the world; <cite ref=\"Bereishit Rabbah 17:8\">Gen. R. s. 17</cite>, end.—<i>Ḥallah</i>, name of a treatise of the Mishnah, Tosefta a. Talm. Y., of the Order of Z’raïm."
+			],
+			"label": "2"
+		}
+	]
+}

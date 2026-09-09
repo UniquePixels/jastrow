@@ -1,0 +1,32 @@
+{
+	"id": "D00052",
+	"slug": "דבוריא",
+	"headword": {
+		"text": "דְּבוֹרְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּבוֹר"
+		},
+		{
+			"text": "דְּבוֹרָא"
+		}
+	],
+	"page": {
+		"number": 277,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>bee-swarm, bee-hive</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 108a\">B. Bath. 108ᵃ</cite> (in Hebr. Diction). <he>הרחק חרדלך מדְּבוֹרְיִי</he> Rashi (ed. <he>מן דְּבוֹרָאִי</he>, Ms. F. a. R. <he>דבורי</he>) remove thy mustard plants from my bee-hive. ",
+				"<cite ref=\"Bava Batra 108a\">Ib.</cite> <he>דְּבוֹרְיָיךְ</he> Rashi (ed. <he>דבורך</he>).—Pl. <he>דְּבוֹרְיָין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 7:3:17\">Y. Peah VII, 20ᵇ</cite> top <he>דבש דד׳</he> bee-honey."
+			]
+		}
+	]
+}

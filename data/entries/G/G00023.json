@@ -1,0 +1,23 @@
+{
+	"id": "G00023",
+	"slug": "זבונא-1",
+	"headword": {
+		"text": "זְבוּנָא"
+	},
+	"page": {
+		"number": 378,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00052\"><he>זבן</he></cite>) <i>purchase</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 18:8\">Targ. Y. II, Deut. XVIII, 8</cite> <he>בר זְבוּנֵיה</he> that which he bought. Pl. <he>זְבוּנִין</he>. ",
+				"<cite ref=\"Ruth Rabbah 2:24\">Ruth R. to I, 17</cite> (sect. 3) <he>זבן ז׳</he> he made his purchases.—V. <cite ref=\"G00039\"><he>זְבִינָא</he></cite>."
+			]
+		}
+	]
+}

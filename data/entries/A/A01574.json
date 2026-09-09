@@ -1,0 +1,46 @@
+{
+	"id": "A01574",
+	"slug": "איצא-2",
+	"headword": {
+		"text": "אִיצָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיצְצָא"
+		},
+		{
+			"text": "אִיצַצְתָּא"
+		}
+	],
+	"page": {
+		"number": 59,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A00820\"><he>אוץ</he></cite>, <he>אצץ</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>squeezing, pressure</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 121b:1\">Yeb. 121ᵇ</cite> top, <he>אגב איצצא מזקי</he> (Ar. <cite ref=\"A01573\"><he>איצא</he></cite>) on account of the pressure (which the falling person exercises on the serpents in the pit) they injure him. ",
+				"<cite ref=\"Shabbat 144b:11\">Sabb. 144ᵇ</cite> <he>דאתי בתר איצצא</he> Ar. (ed. <cite ref=\"A01574\"><he>איצצתא</he></cite>; Ms. M. <he>אִיצִיצָא</he>) (the juice) which oozes out of the grapes through the pressure of their non weight. ",
+				"<cite ref=\"Moed Katan 11a:17\">M. Kat. 11ᵃ</cite> salted fish made fit for immediate use <he>אגב א׳</he> by squeezing (and washing) out the salt.—Pl. <he>אִיצְצֵי</he>. ",
+				"<cite ref=\"Moed Katan 11a:17\">Ib.</cite> <he>שיתין א׳</he> sixty times pressed and washed."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " trnsf. <i>depression, depreciation</i> in the market; [oth. opin. <i>deterioration</i> of quality]. ",
+			"units": [
+				"<cite ref=\"Ketubot 100b:17\">Keth. 100ᵇ</cite> <he>אע״ג דנפל ביה איצצתא</he> (read <he>דנפלא</he>; Ar. <he>דהוי ביה איצא</he>, Rashi <cite ref=\"A01574\"><he>איצצא</he></cite>) though there is a risk <i>of depreciation</i> (on account of large supply for the festive season) [or <i>of getting sour</i>]."
+			],
+			"label": "2"
+		}
+	]
+}

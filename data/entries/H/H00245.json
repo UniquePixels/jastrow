@@ -1,0 +1,22 @@
+{
+	"id": "H00245",
+	"slug": "חובלן",
+	"headword": {
+		"text": "חוֹבְלָן"
+	},
+	"page": {
+		"number": 429,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00083\"><he>חָבַל</he></cite>) <i>a wasteful, reckless person</i>. ",
+			"units": [
+				"<cite ref=\"Tractate Semachot 9:20\">Treat. S’maḥ. IX</cite>, end <he>שלא יהא ח׳</he> (Var. <cite ref=\"H00097\"><he>חבלן</he></cite>) not to be reckless by throwing garments upon the dead to be buried with them."
+			]
+		}
+	]
+}

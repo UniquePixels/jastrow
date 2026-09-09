@@ -1,0 +1,23 @@
+{
+	"id": "Q01562",
+	"slug": "פרגית",
+	"headword": {
+		"text": "פַּרְגִּית"
+	},
+	"page": {
+		"number": 1214,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., pl. <he>פַּרְגִּיּוֹת</he> (<cite ref=\"Q01546\"><he>פָּרַג</he></cite>; cmp. <cite ref=\"Q01755\"><he>פרח</he></cite>) <i>young poultry</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 39a:6\">Ber. 39ᵃ</cite>. ",
+				"<cite ref=\"Bava Metzia 24b:11\">B. Mets. 24ᵇ</cite> <he>אשכח פ׳ שחוטות</he> found ritually killed poultry; a. e."
+			]
+		}
+	]
+}

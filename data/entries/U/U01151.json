@@ -1,0 +1,24 @@
+{
+	"id": "U01151",
+	"slug": "שכינא-1",
+	"headword": {
+		"text": "שְׁכֵינָא"
+	},
+	"page": {
+		"number": 1573,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U01175\"><he>שָׁכֵן</he></cite>, <i>neighbor</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 27:10\">Targ. Prov. XXVII, 10</cite> Ms. (ed. <cite ref=\"U00929\"><he>שִׁיכְנָא</he></cite>, <cite ref=\"U00924\"><he>שָׁכְ׳</he></cite>).—Pl. <he>שְׁכֵינִין</he>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 4:3\">Targ. II Kings IV, 3</cite> (v. <cite ref=\"U00784\"><he>שֵׁיבָבָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 79:4\">Targ. Ps. LXXIX, 4</cite>; <cite ref=\"Aramaic Targum to Psalms 79:12\">12</cite> (ed. Wil. <he>שָׁכְנָנָא</he>; ed. Lag. <he>שיבב׳</he>)."
+			]
+		}
+	]
+}

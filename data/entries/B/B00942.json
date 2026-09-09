@@ -1,0 +1,74 @@
+{
+	"id": "B00942",
+	"slug": "בני-1",
+	"headword": {
+		"text": "בני"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּנָה"
+		}
+	],
+	"page": {
+		"number": 176,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; sec. r. of <he>בין</he>) [<i>to combine</i>,] <i>to build</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 12:1\">Sabb. XII, 1</cite> <he>הַבּוֹנֶה</he> he who builds (on the Sabbath). ",
+				"<cite ref=\"Mishnah Shabbat 12:1\">Ib.</cite>] 102ᵇ <he>משום בונה</he> (isguilty) because it is one of the labors classified under ‘building’; a. fr.—Metaph. <i>to educate, train</i>. ",
+				"<cite ref=\"Berakhot 64a:14\">Ber. 64ᵃ</cite> (ref. to <cite ref=\"Isaiah 54:93\">Is. LIV, 93</cite>) <he>א״ת בָּנַיִךְ אלא בוֹנַיִּךְ</he> read not <i>banayikh</i> (thy children), but <i>bonayikh</i> (thy builders, trainers); v. <cite ref=\"B00937\"><he>בַּנָּאִים</he></cite>.—",
+				"<cite ref=\"Shemot Rabbah 23:10\">Ex. R. s. 23</cite> (play on b’noth, <cite ref=\"Song of Songs 1:5\">Cant. I, 5</cite>) <he>בּוֹנוֹת וכ׳</he> the authorities directing the building of Jerusalem; v. Pi.—",
+				"<cite ref=\"Chullin 78b:1\">Ḥull. 78ᵇ</cite> <he>זה בנה אב</he>, v. <cite ref=\"A00017\"><he>אָב</he></cite>, a. <cite ref=\"B00953\"><he>בִּנְיָן</he></cite>. [<cite ref=\"Tosefta Parah 7:4\">Tosef. Par. VII</cite> (<cite ref=\"Tosefta Parah 6:4\">VI</cite>), 4 <he>בְּנָאוֹ</he> ed. Zuck., v. <cite ref=\"K00859\"><he>כָּנַן</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִבְנֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to be built up</i>. Y. B. Bath. III, 14ᵇ, a. fr. <he>לְהִיבָּנוֹת</he>, <he>לִיבָּנוֹת</he>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"B00932\"><he>בֵּן</he></cite>) <i>to get children</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 71:7\">Gen. R. s. 71</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִתְבַּנֶּה"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"B00932\"><he>בֵּן</he></cite>) <i>to be adopted, naturalized</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 43:1\">Pesik. R. s. 43</cite> <he>נִתְבַּנּוּ בישראל</he> they became full Israelitish citizens."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["בִּינָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to lay out, plan a city, determine its limits</i>. Ex. R. l. c. the Great Sanedrin held sessions <he>ומְבַנָּים אותה</he> (not <he>אותם</he>) and determined the limits of Jerusalem; v. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 1:5\">Snh. I, 5</cite>.—Part. Pu. <cite ref=\"M01653\"><he>מְבוּנֶּה</he></cite> <i>cultivated; built</i> (of human stature), <i>well-proportioned</i>. ",
+						"<cite ref=\"Ketubot 112a\">Keth. 112ᵃ</cite>; <cite ref=\"Sotah 34b:10\">Sot. 34ᵇ</cite> <he>היתה מְבוּנָּה על וכ׳</he> it (Hebron, in spite of the rocky nature of its soil) was seven times better cultivated than Zoan (one measure of its land yielding as much as did seven measures of the soil of Zoan). ",
+						"<cite ref=\"Sotah 42b:9\">Ib. 42ᵇ</cite> (play on <i>benayim</i>, <cite ref=\"I Samuel 17:4\">I Sam. XVII, 4</cite>) <he>מב׳ מכל מום</he> his build was without blemish."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

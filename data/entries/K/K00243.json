@@ -1,0 +1,69 @@
+{
+	"id": "K00243",
+	"slug": "כוי-1",
+	"headword": {
+		"text": "כוי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּוָה"
+		},
+		{
+			"text": "כָּוָא"
+		}
+	],
+	"page": {
+		"number": 618,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>כהה</he>) [<i>to cause discoloring</i>,] <i>to sear, cauterize; to scald</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 8:1\">B. Kam. VIII, 1</cite> <he>כְּוָאוֹ בשפוד וכ׳</he> if a person hurt another with a hot spit &c.; Y. ib. 6ᵃ; 6ᵇ (Mish. a. Ib.) <he>כְּוָייוֹ</he>, <he>כְּוָויוֹ</he>; a. e.—<i>Part. pass.</i> <cite ref=\"K00209\"><he>כָּווּי</he></cite> <i>burn-marked, flame-spotted</i>. ",
+				"<cite ref=\"Vayikra Rabbah 15\">Lev. R. s. 15</cite> … <he>חמורה ונכוית ויצא בנה כ׳</he> a she-ass was sick and was cauterized, and her child was born with a flame-mark; (<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite> <he>מרושם</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִכְוָה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K00242\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Negaim 7:4\">Neg. VII, 4</cite> <he>וה׳ את המחיה</he> if one cauterized the cicatrizing spot."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["כִּייָּה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K00242\">same</cite>. Num. R. l. c. <he>הוליכה … וכי׳ אותה</he> he took her to the veterinary surgeon, and he cauterized her.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִכְוֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to be burnt; to be cauterized</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 75a:15\">B. Bath. 75ᵃ</cite> <he>כל אחד וא׳ נִכְוָה חופתו מחופת וכ׳</he> Ms. M. (v. Rabb. D. S. a. l. note) each man’s tent will be stained by fire from his neighbor’s tent. Lev. R. l. c. <he>נִכְוֵית</he>, v. supra. Num. R. l. c. <he>ממה שנִכְוֵת אמו</he> because his mother had been cauterized. ",
+						"<cite ref=\"Shabbat 30b\">Sabb. 30ᵇ</cite>; <cite ref=\"Pesachim 117a:15\">Pes. 117ᵃ</cite> <he>תִּכָּוֶינָה</he> (his lips) be burnt. ",
+						"<cite ref=\"Tosefta Chagigah 2:6\">Tosef. Ḥag. II, 6</cite> <he>היטה לכאן וניכ׳ בארו … ונכווה בשלג</he> if he deviates this way, he will be burnt by the fire, if that way, he will be frost-bitten; (<cite ref=\"Avot D'Rabbi Natan 28:10\">Ab. d’R. N. ch. XXVIII</cite> <he>לוקה בצינה</he>). ",
+						"<cite ref=\"Tosefta Chullin 3:6\">Tosef. Ḥull. III, 6</cite> <he>יכולה לִיכָּווֹת וכ׳</he> she may be cauterized and recover.—Y. Sabb. III, 6ᵇ top <he>והיא נכוית</he> and it (the hand) is scalded (v. <cite ref=\"O00956\"><he>סָלַד</he></cite>). Y. Ber. II, 5ᵇ bot. <he>כמדומה … שאתם נִיכְוִין בפושרין וכ׳</he> I thought you would be scalded with tepid water (understand a slight hint), but you do not feel even hot water (distinct intimation); Bab. ",
+						"<cite ref=\"Berakhot 16b\">Ber. 16ᵇ</cite>.—Y. Nidd. III, 50ᵈ [read:] <he>רישיה דרישך יִכָּוֶה בפושרין ואתה לא תִיכָּוֶה אפי׳ ברותחין</he> thy head’s head (thy teacher’s teacher) feels tepid water, but thou &c., i.e. you must not claim superiority to your predecessors (cmp. ",
+						"<cite ref=\"Shabbat 55a\">Sabb. 55ᵃ</cite>); a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

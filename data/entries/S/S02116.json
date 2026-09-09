@@ -1,0 +1,23 @@
+{
+	"id": "S02116",
+	"slug": "קרסולא-2",
+	"headword": {
+		"text": "קַרְסוּלָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1423,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>קַרְסוּלִּין</he> (cmp. <cite ref=\"S02113\"><he>קֶרֶס</he></cite>) <i>nettles</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 34:13\">Targ. Is. XXXIV, 13</cite>; <cite ref=\"Targum Jonathan on Hosea 9:6\">Targ. Hos. IX, 6</cite> (h. text <cite ref=\"S01007\"><he>קימוש</he></cite>)."
+			]
+		}
+	]
+}

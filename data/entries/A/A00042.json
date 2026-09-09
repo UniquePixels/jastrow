@@ -1,0 +1,40 @@
+{
+	"id": "A00042",
+	"slug": "אבדלה",
+	"headword": {
+		"text": "אַבְדָּלָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַבְדַּלְתָּא"
+		}
+	],
+	"page": {
+		"number": 3,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch., (= <cite ref=\"E00028\"><he>הַבְדָּלָה</he></cite>; <he>בדל</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the act of distinguishing; separation</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 8:6:9\">Y. Ber. VIII, 12ᶜ</cite> top <he>א׳ ודאי</he> real separation."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Habdalah</i>, a formula of prayer for the exit of the Sabbath or Holy Days. Ibid. beg. 11ᵈ. ",
+			"units": [
+				"<cite ref=\"Pesachim 113a:12\">Pes. 113ᵃ</cite>; a. fr.—Pl. <he>אַבְדָּלוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:2:12\">Y. Ber. V, 9ᵇ</cite> bot. <he>שבעה א׳</he> seven objects of distinction (mentioned in the Habdalah)."
+			],
+			"label": "2"
+		}
+	]
+}

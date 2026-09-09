@@ -1,0 +1,36 @@
+{
+	"id": "A00722",
+	"slug": "אונאה",
+	"headword": {
+		"text": "אוֹנָאָה"
+	},
+	"page": {
+		"number": 28,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00436\"><he>יני</he></cite>; cmp. <cite ref=\"E00249\"><he>הוֹנָאָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>oppression, wrong</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 58b:11\">B. Mets. 58ᵇ</cite> <he>גדולה אוֹנָאַת דברים מא׳ ממון</he> the wrong you do by means of words (wounding one’s feelings) is worse than that by pecuniary imposition. ",
+				"<cite ref=\"Bava Metzia 59a:8\">Ib. 59ᵃ</cite> <he>לעולם יהא … באוֹנָאַת אשתו וכ׳</he> one should always be on his guard not to wound his wife’s feeling, for as her tears are frequent <he>אוֹנָאָתָהּ מרובה</he> so is her sense of wrong (sensibility) deep."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (law) <i>imposition, overreaching, fraudulent representation</i> (which invalidates the transaction or requires redress); hence, <i>redress in case of overreaching</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 4:3:3\">Y. B. Mets. IV, 9ᵈ</cite> top, a. fr. whoever concludes a bargain <he>במנת שאין לו א׳ וכ׳</he> with the provision that no legal redress shall be resorted to, is notwithstanding entitled to redress.—<i>Denomin. Verb</i> (<cite ref=\"A00735\"><he>אוֹנָה</he></cite>), Hithpa. <he>הִתְאוֹנֶה</he> <i>to be imposed upon, to feel one’s self overreached</i>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 4:3:3\">Y. B. Mets. IV, 9ᵈ</cite> top. <he>בשעה שהמוכר מִתְאוֹנֶה וכ׳</he> if the seller sues for undue advantage taken of him, he has the privilege of redress, provided the advantage amounts to one fifth or more of the price charged; if the buyer sues &c. [In Babli the denomin. verb is <he>אִינָּה</he>, v. <cite ref=\"A02216\"><he>אני</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

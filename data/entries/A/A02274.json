@@ -1,0 +1,23 @@
+{
+	"id": "A02274",
+	"slug": "אנפילוגוס",
+	"headword": {
+		"text": "אֶנְפִּילוֹגוֹס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 87,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἐπίλογος, epilogus) <i>concluding speech, argument, inference; peroration</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 10:16\">Koh. R. to X, 16</cite> <he>התחיל א׳ וכ׳</he> (Solomon) in his wisdom began a concluding argument; (<cite ref=\"Midrash Tehillim 72:1\">Midr. Till. to Ps. LXXII</cite> <he>פיו נובע</he>!)"
+			]
+		}
+	]
+}

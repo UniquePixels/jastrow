@@ -1,0 +1,23 @@
+{
+	"id": "K00794",
+	"slug": "כמון-2",
+	"headword": {
+		"text": "כַּמּוֹן"
+	},
+	"page": {
+		"number": 646,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"K00809\"><he>כַּמֹּן</he></cite>, v. <cite ref=\"K00807\"><he>כָּמַן</he></cite>, cmp. <cite ref=\"H01200\"><he>חֲמָם</he></cite>)<i>cumin</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Demai 2:1\">Dem. II, 1</cite>. ",
+				"<cite ref=\"Mishnah Terumot 10:4\">Ter. X, 4</cite> <he>בכ׳ של וכ׳</he> with cumin stalks of T’rumah."
+			]
+		}
+	]
+}

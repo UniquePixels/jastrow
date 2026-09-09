@@ -1,0 +1,25 @@
+{
+	"id": "A00233",
+	"slug": "אגא",
+	"headword": {
+		"text": "אָגָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָגָה"
+		}
+	],
+	"page": {
+		"number": 10,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Samar. <he>אגה</he> rendition of b. h. <i>to spell</i> (letters), <i>blaspheme, swear</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 101b:4\">Snh. 101ᵇ</cite> <he>תנא</he> (<cite ref=\"F00000\"><he>ו</he></cite>)<he>בגבולין ובלשון אגא</he> Ar. (ed. <he>עגה</he>), the Boraitha remarks (to <he>ההוגה</he> as in Mishn. a. l.) this (condemnation of one uttering the name of the Lord) refers to the country (not the Temple), and in the sense of Samaritan <i>aga</i> (swearing). Cmp. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:1:26\">Y. Snh. X, 28ᵇ</cite> top <he>כגון אילין כותאי וכ׳</he> in a way as those Samaritans swear."
+			]
+		}
+	]
+}

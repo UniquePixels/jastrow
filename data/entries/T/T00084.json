@@ -1,0 +1,40 @@
+{
+	"id": "T00084",
+	"slug": "רבי-5",
+	"headword": {
+		"text": "רְבֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רְבָא",
+			"homograph": 3
+		}
+	],
+	"page": {
+		"number": 1441,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>רבע</he>) <i>to lie down, die</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 4:8:2\">Y. Yeb. IV, 6ᵃ</cite>, v. <cite ref=\"A01935\"><he>אל״ף</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַבֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to crouch, flee to a hiding place</i>. ",
+					"units": [
+						"<cite ref=\"Beitzah 24a:17\">Bets. 24ᵃ</cite> <he>עבידי לרַבּוּיִי</he> are in the habit of hiding; <he>לא עבידי לרבויי</he> make no attempt to flee; <cite ref=\"Shabbat 106b:5\">Sabb. 106ᵇ</cite>; v. <cite ref=\"D00035\"><he>דְּבָא</he></cite>."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

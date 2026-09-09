@@ -1,0 +1,27 @@
+{
+	"id": "R00783",
+	"slug": "צריפה-2",
+	"headword": {
+		"text": "צְרִיפָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1302,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>cone-shaped roof</i>, v. <cite ref=\"R00781\"><he>צְרִיפָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"B00754\"><he>בֵּית</he></cite> (<cite ref=\"B00944\"><he>בְּנֵי</he></cite>) <he>צְ׳</he> pr. n. gent. <i>Beth</i> (<i>B’né</i>) <i>Ts’rifa</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 8:7\">Eduy. VIII, 7</cite>; Y. Kidd. IV, 65ᵈ bot.; Bab. ",
+				"<cite ref=\"Kiddushin 71a:8\">Kidd. 71ᵃ</cite> <he>בית הַצְּ׳</he>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "O01670",
+	"slug": "סרק-9",
+	"headword": {
+		"text": "סְרָק"
+	},
+	"page": {
+		"number": 1030,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סָרַק</he> I) <i>barrenness</i>, <i>desert</i>.—אילן ס׳ <i>a tree which bears no fruit; shade-tree, wild-tree</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 6:5\">Kil. VI, 5</cite> (ref. to <cite ref=\"Mishnah Kilayim 6:3\">ib. 3</cite>) <he>איזהו אילן ס׳ כל שאינו וכ׳</he> what tree is meant by <i>illan s’raḳ</i>? Any tree which bears no fruit; (oth. opin.) <he>הכל א׳ ס׳ חוץ מן הזית וכ׳</he> all trees are <i>s’raḳ</i>, except olive and fig trees; (oth. opin.) <he>כל שאין … הרי זה א׳ ס׳</he> whatever trees you do not plant in orchards, are called <i>illan s’raḳ</i>. ",
+				"<cite ref=\"Bava Kamma 91b:21\">B. Kam. 91ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 20:20\">Deut. XX, 20</cite>) <he>כי לא עץ … זה א׳ ס׳</he> ‘that it is not a fruit tree’, that means a tree which bears no edible fruit; <he>להקדים ס׳ למאכל</he> (sub. <he>אילן</he>) to prefer (for cutting down) the barren tree to one that has edible fruit; <cite ref=\"Sifrei Devarim 204:2\">Sifré Deut. 204</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 16:3\">Gen. R. s. 16</cite> <he>אומרים לאילני ס׳ וכ׳</he> they ask the fruitless trees, why are you so noisy? <cite ref=\"Bereishit Rabbah 16:3\">Ib.</cite> <he>אבל אילני ס׳ וכ׳</he> but the shade-trees are loud, because they are not burdened with fruit; a. fr."
+			]
+		}
+	]
+}

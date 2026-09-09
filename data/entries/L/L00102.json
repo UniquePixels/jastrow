@@ -1,0 +1,25 @@
+{
+	"id": "L00102",
+	"slug": "לבנא",
+	"headword": {
+		"text": "לִבְנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִי׳"
+		}
+	],
+	"page": {
+		"number": 690,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>brick</i>; pl. <cite ref=\"L00110\"><he>לִבְנִין</he></cite>, <cite ref=\"L00087\"><he>לִיבְ׳</he></cite>, v. <cite ref=\"L00075\"><he>לְבֵינְתָא</he></cite>.",
+			"units": []
+		}
+	]
+}

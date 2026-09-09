@@ -1,0 +1,29 @@
+{
+	"id": "F00015",
+	"slug": "ודה",
+	"headword": {
+		"text": "וָדָה"
+	},
+	"page": {
+		"number": 372,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>וִידָּה</he>, <i>Hithpa.</i> <cite ref=\"J00100\"><he>הִתְיַדָּה</he></cite>, v. <cite ref=\"J00096\"><he>יָדָה</he></cite>.—Denom. <cite ref=\"F00034\"><he>וִידּוּי</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

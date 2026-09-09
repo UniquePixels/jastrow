@@ -1,0 +1,51 @@
+{
+	"id": "O00091",
+	"slug": "סבר-8",
+	"headword": {
+		"text": "סְבָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְבָרָא"
+		}
+	],
+	"page": {
+		"number": 952,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00090\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>brightness of mind, ingenuity</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:10\">Targ. Cant. V, 10</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>speculation, logical argument</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 18b:9\">Meg. 18ᵇ</cite>, a. e. (expl. <he>מתנמנם</he>, v. <cite ref=\"N00669\"><he>נִים</he></cite>) <he>דקרו … ולא ידע לאהדורי ס׳</he> you call him, and he answers but cannot recall an argument. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:4:8\">Y. Ber. III, 6ᶜ</cite> top <he>כל סבר קשי דהוה לי תמן סבירתיה</he> any hard thinking I had to do, there I did it. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:4:8\">Ib.</cite> <he>כל ההוא סברא קשיא וכ׳</he> all that difficult subject of <cite ref=\"Mishnah Tevul Yom 1\">T’bul Yom I</cite> studied there.—Esp. <i>logical deduction, conclusion by reasoning</i>, opp. to <cite ref=\"C01067\"><he>גמרא</he></cite> verbal tradition. ",
+				"<cite ref=\"Yoma 33a:12\">Yoma 33ᵃ</cite> bot. <he>גמרא גמירנא ס׳ לא ידענא</he> I know the final decision as a tradition, the argument I do not know. ",
+				"<cite ref=\"Gittin 6b:10\">Gitt. 6ᵇ</cite> <he>בשלמא מילתא דתליא בס׳ לחיי וכ׳</he> if it were a thing which depends on reason, you might be right, but this is a tradition. ",
+				"<cite ref=\"Bava Batra 77a:1\">B. Bath. 77ᵃ</cite> <he>גמרא או ס׳</he> is this a tradition or a logical inference? <cite ref=\"Avodah Zarah 34b:13\">Ab. Zar. 34ᵇ</cite> <he>איבעית אימא ס׳ ואב״א קרא</he> I may say, it is founded on reason, or I may say, it is intimated in the Scriptures; a. v. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>common sense, ordinary conception</i>, opp. <he>עיקר</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:2:4\">Y. Ber. IX, 13ᶜ</cite> bot.; <cite ref=\"Midrash Tehillim 18:10\">Midr. Till. to Ps. XVIII, 8</cite> <he>כך הוא ס׳ דמילתא</he>, v. <cite ref=\"O00089\"><he>סֵבֶר</he></cite> 3."
+			],
+			"label": "3"
+		}
+	]
+}

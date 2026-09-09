@@ -1,0 +1,52 @@
+{
+	"id": "P01145",
+	"slug": "עקב-3",
+	"headword": {
+		"text": "עָקֵב"
+	},
+	"page": {
+		"number": 1104,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <he>עקב</he>, cmp. <he>עכב</he> , <i>to be curved</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>heel</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:18\">Y. Ber. I, 2ᶜ</cite> top; <cite ref=\"Shabbat 62b:19\">Sabb. 62ᵇ</cite>, v. <cite ref=\"C00312\"><he>גּוּדָל</he></cite>. ",
+				"<cite ref=\"Devarim Rabbah 3:2\">Deut. R. s. 3</cite> <he>אני דורך גיתה</he> … <he>בעֲקֵב רגלי</he> I shall tread Edom’s vat with the heel of my foot (v. ",
+				"<cite ref=\"Isaiah 63:1\">Is. LXIII, 1</cite> sq.). ",
+				"<cite ref=\"Mishnah Yevamot 12:1\">Yeb. XII, 1</cite> <he>סנדל שיש לו ע׳</he> a sandal which has a sole with a covering for the heel. ",
+				"<cite ref=\"Bereishit Rabbah 22\">Gen. R. s. 22</cite> <he>מתלא בעֲקֵיבוֹ</he> swinging his heel (dandy-like); <cite ref=\"Yalkut Shimoni on Nach 961:29\">Yalk. Prov. 961</cite> <he>מתלה בעֲקֵיבָיו</he> (<i>pl.</i>). ",
+				"<cite ref=\"Mishnah Zevachim 6:3\">Zeb. VI, 3</cite> (<cite ref=\"Zevachim 63b:1\">63ᵇ</cite>) <he>יורדין על הע׳</he> (Mish. ed. <he>חוזרים לע׳</he>, v. Rabb. D. S. a. l. note 200); <cite ref=\"Sukkah 48b:7\">Succ. 48ᵇ</cite> <he>חוזרין על הע׳</he> they turn around on their heels, i.e. go back the same way. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 272\">Yalk. Jer. 272</cite> <he>דשו בע׳</he> trod with the heel, i.e. ignored it wilfully. ",
+				"<cite ref=\"Midrash Tehillim 4:6\">Midr. Till. to Ps. IV, 7</cite>, <cite ref=\"U00490\"><he>שׁוּף</he> II</cite>. ",
+				"<cite ref=\"Midrash Tehillim 92:8\">Midr. Till. to Ps. XCII</cite>, v. <cite ref=\"U00490\"><he>שׁוּף</he> I</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"P00078\"><he>עֲגָבָה</he></cite>) <i>haunch with thigh, posteriors</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 20a:11\">Ned. 20ᵃ</cite> <he>המסתכל בעֲקֵבָהּ של אשה</he>, expl. ",
+				"<cite ref=\"Nedarim 20a:11\">ib.</cite> <he>במקום הטנופת שהוא מכוון כנגד ע׳</he> (Ar. <he>במקום התורפה</he>) he who gazes at the posteriors which correspond (in shape and position) to the heel. ",
+				"<cite ref=\"Nazir 51a:11\">Naz. 51ᵃ</cite> <he>רקב הבא מן הע׳</he> decayed matter that seems to come from the posteriors, Rashi (Tosaf.: the heel)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>rear-guard</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 8:6\">Sot. VIII, 6</cite> (<cite ref=\"Sotah 44a:13\">44ᵃ</cite>) <he>עקבו של עם</he> (Y. a. Bab. ed. <he>עקיבו</he>) the rear of the people.—Pl. <he>עֲקֵבִים</he>, <he>עֲקֵבִין</he>. ",
+				"<cite ref=\"Sanhedrin 108b:3\">Snh. 108ᵇ</cite> <he>הוא מביא לכם מבין עִקְבֵי רגליכם</he> he will bring you (the flood) from under your heels. Tanḥ. Ekeb 1 <he>מצות … ומשליכין אותן תחת עִקְבֵיהֶן</he> minor laws which people disregard and throw under their heels. ",
+				"<cite ref=\"Nazir 22b:4\">Naz. 22ᵇ</cite> <he>הריני נזירה בעִיקְבַיִךְ</he> I will be a Nazarite following thy heels (example); <he>הריני בעיקביך</he> I will follow thy example; a. e.—עִקְּבוֹת <i>foot-steps</i>. ",
+				"<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite> (<cite ref=\"Sotah 49b\">49ᵇ</cite>) (in Chald. dict.) <he>בע׳ משיחא</he> (borrowed fr. ",
+				"<cite ref=\"Psalms 89:52\">Ps. LXXXIX, 52</cite>) in the footsteps of (events paving the way to) the Messiah.—[Snh. l. c. <he>ועקב שמו</he>, v. <cite ref=\"P01157\"><he>עָקוֹב</he></cite>]."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "L00192",
+	"slug": "לוד-1",
+	"headword": {
+		"text": "לוֹד"
+	},
+	"page": {
+		"number": 694,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.(b. h. <he>לֹד</he>)<i>Lod, Lydda</i> in South Palestine (Roman name <i>Diospolis</i>). ",
+			"units": [
+				"<cite ref=\"Mishnah Maaser Sheni 5:2\">Maas. Sh. V, 2</cite> <he>ל׳ מן המערב</he> Lod was the westernmost term (of one day’s journey from Jerusalem). Tosef. Erub. IX (VI), 2. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:1:7\">Y. Meg. I, 70ᵃ</cite> bot. <he>ל׳ … מוקפות וכ׳</he> Lod and Ge Haḥarashim belong to the fortified towns of the conquest days (v. <cite ref=\"J00135\"><he>יְהוֹשׁוּעַ</he></cite>). ",
+				"<cite ref=\"Mishnah Bava Metzia 4:3\">B. Mets. IV, 3</cite> <he>תגרי ל׳</he> the merchants of L. ",
+				"<cite ref=\"Sanhedrin 32b:8\">Snh. 32ᵇ</cite> <he>אחר ר׳ אליעזר לל׳</he> follow R. El. to L.; a. fr."
+			]
+		}
+	]
+}

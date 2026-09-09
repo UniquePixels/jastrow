@@ -1,0 +1,36 @@
+{
+	"id": "U01344",
+	"slug": "שלל-2",
+	"headword": {
+		"text": "שָׁלַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1585,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to draw, capture; to carry off</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei DeRabbi Eliezer 38:1\">Pirké d’R. El. ch. XXXVIII</cite>; <cite ref=\"Yalkut Shimoni on Torah 134:1\">Yalk. Gen. 134</cite> <he>שְׁלָלָהּ וכ׳</he> he (Shechem) carried her off and slept with her.—Trnsf. (of water) <i>to make inroads</i>. ",
+				"<cite ref=\"Bava Kamma 61a:15\">B. Kam. 61ᵃ</cite>, a. e. <he>שׁוֹלְלִין</he>, v. <cite ref=\"U01250\"><he>שְׁלוּלִית</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁתּוֹלָל"],
+			"senses": [
+				{
+					"gloss": "<i>to be bereft</i> (of reason), <i>be senseless</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 97a:5\">Snh. 97ᵃ</cite> (expl. ",
+						"<cite ref=\"Isaiah 59:15\">Is. LIX, 15</cite>) <he>וסר מרע מִשְׁתּוֹלֵל על הבריות</he> he that departs from evil is considered by people as senseless."
+					]
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

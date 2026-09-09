@@ -1,0 +1,30 @@
+{
+	"id": "M00082",
+	"slug": "מבוע-2",
+	"headword": {
+		"text": "מַבּוּעַ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מַבּוּעָא"
+		}
+	],
+	"page": {
+		"number": 725,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M00081\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 18:14\">Targ. Jer. XVIII, 14</cite> (ed. Wil. <he>מַבּוּעֵי</he> <i>pl.</i>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 14:27\">Targ. Prov. XIV, 27</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 5:4:4\">Y. Ab. Zar. V, 44ᵈ</cite> <he>הא מ׳ וכ׳</he> the well is before thee, drink! (i.e. do what you please, I shall not assist you). ",
+				"<cite ref=\"Jerusalem Talmud Demai 1:3:10\">Y. Dem. I, 22ᵃ</cite> top <he>לית מַבּוּעָן וכ׳</he> our well does not supply us.—<i>Pl.</i> <he>מַבּוּעִין</he>, <he>מַבּוּעֵי</he>. ",
+				"<cite ref=\"Onkelos Exodus 15:27\">Targ. O. Ex. XV, 27</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 49:10\">Targ. Is. XLIX, 10</cite>; a. e., v. supra.—[<cite ref=\"Aramaic Targum to Psalms 104:6\">Targ. Ps. CIV, 6</cite> <he>מבועין</he> Ms., v. <cite ref=\"M00084\"><he>מְבַזְעָא</he></cite>.]"
+			]
+		}
+	]
+}

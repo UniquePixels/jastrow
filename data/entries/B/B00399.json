@@ -1,0 +1,32 @@
+{
+	"id": "B00399",
+	"slug": "בושת",
+	"headword": {
+		"text": "בּוֹשֶׁת"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּשֶׁת"
+		}
+	],
+	"page": {
+		"number": 151,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"B00394\"><he>בּוֹשׁ</he></cite>) (freq. with <he>פנים</he>) <i>shame, insult</i>; <i>bashfulness, chastity</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 32a:18\">Ber. 32ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Ketubot 67b:1\">Keth. 67ᵇ</cite> <he>בּוֹשְׁתָּהּ של וכ׳</he> the shame of a woman (in remaining single).—Trnsf. (sub. <cite ref=\"D00891\"><he>דמי</he></cite>) <i>indemnity for exposure</i>. ",
+				"<cite ref=\"Mishnah Bava Kamma 8:1\">B. Kam. VIII, 1</cite> sq. ",
+				"<cite ref=\"Bava Kamma 85b:7\">Ib. 85ᵇ</cite> <he>ב׳ דרק ליה וכ׳</he> an indictable insult (without physical injury) is (e.g.) spitting in one’s face. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 6:1:5\">Y. Yeb. VI, 7ᵇ</cite>, a. fr. <he>בית הב׳</he> <i>pudenda</i>. ",
+				"<cite ref=\"Vayikra Rabbah 14:3\">Lev. R. s. 14</cite> <he>במקום בָּשְׁתָּהּ</he> near her pudenda."
+			]
+		}
+	]
+}

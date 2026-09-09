@@ -1,0 +1,23 @@
+{
+	"id": "G00314",
+	"slug": "זיונא-3",
+	"headword": {
+		"text": "זִיּוּנָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 392,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זוּן</he> I) <i>management, expenses and risks of business</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 66b:6\">Keth. 66ᵇ</cite> <he>עיסקא זוטא דזוטר ז׳</he> a small capital the management of which is easy."
+			]
+		}
+	]
+}

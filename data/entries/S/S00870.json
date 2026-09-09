@@ -1,0 +1,24 @@
+{
+	"id": "S00870",
+	"slug": "קידה-2",
+	"headword": {
+		"text": "קִידָה"
+	},
+	"page": {
+		"number": 1354,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00111\"><he>קָדַד</he></cite> or <cite ref=\"S00113\"><he>קָדָה</he></cite>) <i>bowing to the ground</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 53a:7\">Succ. 53ᵃ</cite> <he>נועץ שני … והיא ק׳</he> he pressed both his big toes against the floor and bowed and kissed the pavement …, and this is <i>ḳidah</i>. ",
+				"<cite ref=\"Megillah 22b:17\">Meg. 22ᵇ</cite> a. e. <he>ק׳ על אפים</he> <i>ḳidah</i> means falling on the face (ref. to <cite ref=\"I Kings 1:31\">I Kings I, 31</cite>). ",
+				"<cite ref=\"I Kings 1:31\">Ib.</cite> <he>אחוי ק׳ וכ׳</he> showed the way of <i>ḳidah</i> …, and became lame; (<cite ref=\"Jerusalem Talmud Berakhot 1:5:12\">Y. Ber. I, 3ᶜ</cite> bot. <he>הראה כריעה</he>); a. e."
+			]
+		}
+	]
+}

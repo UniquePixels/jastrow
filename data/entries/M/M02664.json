@@ -1,0 +1,23 @@
+{
+	"id": "M02664",
+	"slug": "מריוטאי",
+	"headword": {
+		"text": "מַרְיוֹטָאֵי"
+	},
+	"page": {
+		"number": 842,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Μαρεώτης) <i>the people of Mareotis</i>, a district of Lower Egypt with the town of Marea. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 10:13\">Targ. Y. Gen. X, 13</cite> (some ed. <he>מַרְטִיּוֹטָ׳</he>); <cite ref=\"Targum of I Chronicles 1:11\">Targ. I Chr. I, 11</cite> ed. Rahmer (ed. Lag. <cite ref=\"M02487\"><he>מראטאי</he></cite>, read <he>יו</he> for <cite ref=\"A00000\"><he>א</he></cite>; h. text <he>ענמים</he>)."
+			]
+		}
+	]
+}

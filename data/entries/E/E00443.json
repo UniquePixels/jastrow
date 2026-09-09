@@ -1,0 +1,27 @@
+{
+	"id": "E00443",
+	"slug": "הין-3",
+	"headword": {
+		"text": "הִין",
+		"homograph": 2
+	},
+	"page": {
+		"number": 348,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>Hin</i>, a liquid measure, equal to twelve Log. ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 1:3\">Eduy. I, 3</cite>; <cite ref=\"Shabbat 15a:4\">Sabb. 15ᵃ</cite> Hillel said <he>מלא ה׳ וכ׳</he> a <i>hin</i> of &c., (using <i>hin</i> instead of <i>twelve Log</i>) because one must use his teacher’s words, v. <cite ref=\"L00705\"><he>לָשׁוֹן</he></cite>. ",
+				"<cite ref=\"Mishnah Menachot 9:2\">Men. IX, 2</cite>. ",
+				"<cite ref=\"Menachot 88a:11\">Ib. 88ᵃ</cite> <he>הוה ה׳ דעבד משה וכ׳</he> there was (in the Temple) the <i>hin</i> which Moses made for &c.; a. e.—2) homiletical interpretation of <i>hin tsedek</i> (<cite ref=\"Leviticus 19:36\">Lev. XIX, 36</cite>) = <cite ref=\"E00648\"><he>הֵן</he></cite>, <i>yes</i>. ",
+				"<cite ref=\"Bava Metzia 49a:6\">B. Mets. 49ᵃ</cite> <he>שיהא הן שלך וכ׳</he> that thy <i>yes</i> be true and thy <i>no</i> be true. ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 4:4:7\">Y. Maas. Sh. IV, 55ᵇ</cite> top <he>והינו היו צדק</he> and where is (what becomes of) the <i>hin tsedek</i> (that thy <i>yes</i> must be true &c.)?; <cite ref=\"Jerusalem Talmud Gittin 6:1:7\">Y. Gitt. VI, 47ᵈ</cite> bot. <he>והָן הוא ה׳ צ׳</he>."
+			]
+		}
+	]
+}

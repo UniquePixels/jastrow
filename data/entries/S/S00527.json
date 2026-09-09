@@ -1,0 +1,31 @@
+{
+	"id": "S00527",
+	"slug": "קוץ-2",
+	"headword": {
+		"text": "קְוַץ"
+	},
+	"page": {
+		"number": 1339,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"S00526\">same</cite> <cite ref=\"Sukkah 23b\">Succ. 23ᵇ</cite> <he>קַוְוצָא</he> Ar. (ed. <he>כוו׳</he>), v. <cite ref=\"K00361\"><he>כְּוֵץ</he></cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַוֵּוץ"],
+			"senses": [
+				{
+					"gloss": "<i>to curl.—Part. pass</i>. <he>מְקַוַּוץ</he> <i>dishevelled, unkempt</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite> <he>שעריה מק׳</he> (not <he>מקצץ</he>) with unkempt hair, opp. <he>סריק</he>, v. <cite ref=\"O01664\"><he>סְרַק</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

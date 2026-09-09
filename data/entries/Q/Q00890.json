@@ -1,0 +1,29 @@
+{
+	"id": "Q00890",
+	"slug": "פיתוח",
+	"headword": {
+		"text": "פִּיתּוּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּתּ׳"
+		}
+	],
+	"page": {
+		"number": 1172,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; פָּתַח <i>Pi.</i>) <i>incision, engraving, engraved design</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Niddah 3:3:5\">Y. Nidd. III, 50ᵈ</cite> <he>פ׳ ידים ורגלים וכ׳</he> it (the embryo) has no incisions indicating the outlines of hands and of feet. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:9:2\">Y. Ab. Zar. III, 43ᵇ</cite> bot. <he>הומר היא בפ׳</he> the law is stricter in the case of an engraving made on a tree (Asherah).—Pl. <he>פִּיתּוּחִים</he>, <he>פִּיתּוּחִין</he>, <cite ref=\"Q00890\"><he>פִּתּ׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:9:2\">Ib.</cite> <he>העכיר את הפ׳</he> if he effaced the engraving. Ohol. XIV, 1 <he>העטרות והפ׳</he> the wreaths and engravings (mouldings above the entrance); Tosef. ib. XIV, 10 <he>הפִּתּוּיִין</he>."
+			]
+		}
+	]
+}

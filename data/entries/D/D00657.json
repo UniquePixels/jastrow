@@ -1,0 +1,36 @@
+{
+	"id": "D00657",
+	"slug": "דיסקוס-1",
+	"headword": {
+		"text": "דִּיסְקוֹס",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּסְקוֹס"
+		}
+	],
+	"page": {
+		"number": 302,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (δίσκος) <i>disk, plate, trencher</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15:26\">Ex. R. s. 15</cite> <he>די׳ של לבנה</he> the disc of the Moon. ",
+				"<cite ref=\"Shemot Rabbah 15:26\">Ib.</cite> <he>דס׳ שלה</he> her (the Moon’s) disc. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:1:7\">Y. Ab. Zar. I, 39ᵇ</cite> <he>ד׳ מלא דינרין</he> (Bab. ",
+				"<cite ref=\"Avodah Zarah 6b:6\">ib. 6ᵇ</cite> <he>דינרא קיסרנאה</he>, v. <cite ref=\"D00650\"><he>דִּינְרָא</he></cite>) a plate full of (gold) denars. ",
+				"<cite ref=\"Bereishit Rabbah 33:1\">Gen. R. s. 33</cite> <he>דס׳ דדהב</he> a golden plate. ",
+				"<cite ref=\"Bereishit Rabbah 11\">Gen. R. s. 11</cite> <he>דיוסקום אחד טעון וכ׳</he> (corr. acc.; Var. Ar. <cite ref=\"I00871\"><he>טרפזין</he></cite>; <cite ref=\"Shabbat 119a\">Sabb. 119ᵃ</cite> <cite ref=\"U01278\"><he>שלחן</he></cite>; <cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23</cite> <cite ref=\"V00671\"><he>תמחוי</he></cite>) a large trencher carried on sixteen poles. ",
+				"<cite ref=\"Esther Rabbah 4:9\">Esth. R. to I, 19</cite>; a. e.—Pl. <he>דִּיסְקוֹסִים</he>, <he>דִּיסְקוֹסִין</he>. ",
+				"<cite ref=\"Bereishit Rabbah 10\">Gen. R. s. 10</cite> a bath-tub in which were <he>שני די׳ נאים</he> Ar. (ed. <he>דיו׳</he>; <cite ref=\"Yalkut Shimoni on Torah 16:13\">Yalk. Gen. 16</cite> <he>דיסקסי׳</he>, <he>דסקיוס׳</he>; <cite ref=\"Yalkut Shimoni on Nach 961:8\">Yalk. Prov. 961</cite> <he>רסיקיסין</he>, corr. acc.) two fine disks.—",
+				"<cite ref=\"Yalkut Shimoni on Nach 961:8\">Ib.</cite> <he>דיסקים</he>, v. <cite ref=\"D00663\"><he>דִּיסְקְרִין</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "U00039",
+	"slug": "שאנן",
+	"headword": {
+		"text": "שַׁאֲנָן"
+	},
+	"page": {
+		"number": 1508,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; שאן <i>to rest</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>at ease, undisturbed</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei DeRabbi Eliezer 38:6-8\">Pirké d’R. El. ch. XXXVIII</cite> <he>אז … בטח וש׳ וכ׳</he> then Jacob dwelt in Canaan safe and undisturbed; <cite ref=\"Yalkut Shimoni on Torah 138:1\">Yalk. Gen. 138</cite> <he>בטח ש׳ ושליו</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>rest, ease</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 10:9\">Gen. R. s. 10</cite> end <he>ומה … ש׳ ונחת שלוה והשקט</he> and what was created therein after he rested? Ease, rest, peace, and repose. Lam. R. introd. (R. Joḥ. 1) <he>זכורה אני בטחון וש׳ ושלוה שהייתי וכ׳</he> I remember the confidence and ease and contentment in which I used to dwell; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

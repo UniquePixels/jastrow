@@ -1,0 +1,23 @@
+{
+	"id": "H01002",
+	"slug": "חלוץ",
+	"headword": {
+		"text": "חִלּוּץ"
+	},
+	"page": {
+		"number": 465,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H01109\"><he>חָלַץ</he></cite> <i>Hif.</i>) <i>strength, quickness</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 16b:22\">Ber. 16ᵇ</cite> <he>חיים של ח׳ עצמות</he> (missing in Mss., v. Rabb. D. S. a. l. note 5) a life of healthfull energy (v. ",
+				"<cite ref=\"Isaiah 58:11\">Is. LVIII, 11</cite>)."
+			]
+		}
+	]
+}

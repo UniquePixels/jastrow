@@ -1,0 +1,23 @@
+{
+	"id": "B01080",
+	"slug": "בצוצרה",
+	"headword": {
+		"text": "בְּצוֹצְרָה"
+	},
+	"page": {
+		"number": 183,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (reduplic. of <he>בצר</he>; cmp. <cite ref=\"H01512\"><he>חצוצרה</he></cite>) <i>a compartment surrounded with bars, balustrade, balcony</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 2:5\">Midd. II, 5</cite> <he>והקיפוה ב׳ וכ׳</he> and they surrounded the cell (<cite ref=\"L00707\"><he>לשכה</he></cite>) with a balcony so that the women could sit above, while the men were seated beneath it; [<cite ref=\"Sukkah 51b\">Succ. 51ᵇ</cite> <cite ref=\"C00524\"><he>גזוזטרא</he></cite>, Ms. M. <he>גזוזטראות</he>; <cite ref=\"Tosefta Sukkah 4:1\">Tosef. ib. IV, 1</cite> <he>שלש גז׳</he>]. [The variations <he>כצוצרא</he>, <he>כצוצטרא</he> &c., v. Rabb. D. S. to <cite ref=\"Shabbat 96a\">Sabb. 96ᵃ</cite>, <cite ref=\"Eruvin 78b\">Erub. 78ᵇ</cite> notes, a. Ar. s. v. <cite ref=\"C00524\"><he>גזוזטרא</he></cite>, are clerical errors induced by assonance with the synonymous <cite ref=\"C00524\"><he>גזוזטרא</he></cite>. Ἔξώστρα as <i>balcony</i>, for h. <cite ref=\"P00794\"><he>עליה</he></cite>, Symm. ",
+				"<cite ref=\"II Kings 1:2\">II Kings I, 2</cite>, is itself an adaptation of <cite ref=\"C00524\"><he>גזוזטרא</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "M00003",
+	"slug": "מא",
+	"headword": {
+		"text": "מָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַא"
+		}
+	],
+	"page": {
+		"number": 721,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"M00340\"><he>מָה</he></cite><i>what?</i> <cite ref=\"Onkelos Genesis 31:26\">Targ. O. Gen. XXXI, 26</cite> ed. Berl. (mostly <cite ref=\"M00340\"><he>מָה</he></cite>, q. v.). <he>מָא אִם</he>, contr. <cite ref=\"M00024\"><he>מָאִים</he></cite> <i>what</i> (will happen) <i>if?, suppose, perhaps</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 18:24\">Targ. O. Gen. XVIII, 24</cite> <he>מא אם</he> ed. Berl. (oth. ed. a. Y. <cite ref=\"M00024\"><he>מאים</he></cite>); a. fr.—<he>מָא דֵין</he>, contr. <cite ref=\"M00292\"><he>מָדֵין</he></cite>, <cite ref=\"M00290\"><he>מַדֵּין</he></cite> <i>what is this?, why?</i> <cite ref=\"Targum Jonathan on I Kings 1:13\">Targ. I Kings I, 13</cite> (<he>מה</he>) <he>מא דין</he> (ed. Lag. <cite ref=\"M00292\"><he>מדין</he></cite>; h. text <he>מדוע</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 12:1\">Targ. Jer. XII, 1</cite>. ",
+				"<cite ref=\"Onkelos Genesis 40:7\">Targ. O. Gen. XL, 7</cite> (some ed. <he>מַה דֵּין</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>how!</i> Ib. XXVIII, 17 (ed. Berl. <cite ref=\"M00003\"><he>מַא</he></cite>, oth. ed. a. Y. <cite ref=\"M00340\"><he>מַה</he></cite>).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

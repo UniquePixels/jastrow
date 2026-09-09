@@ -1,0 +1,29 @@
+{
+	"id": "H00464",
+	"slug": "חורון-1",
+	"headword": {
+		"text": "חוֹרוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּית חוֹרוֹן"
+		}
+	],
+	"page": {
+		"number": 440,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Beth-Horon</i>, a border town between Benjamin and Ephraim. ",
+			"units": [
+				"<cite ref=\"Niddah 61a:38\">Nidd. 61ᵃ</cite>. ",
+				"<cite ref=\"Sanhedrin 32b:6\">Snh. 32ᵇ</cite> <he>מעלות בית ח׳</he> the ascent to Beth-H. (narrow); <cite ref=\"Eruvin 22b:7\">Erub. 22ᵇ</cite> <he>מעלות בית ח׳</he> ed. Sonc. (ed. <cite ref=\"M02594\"><he>מָרוֹן</he></cite>; ed. Sal. <he>בית מ׳</he> a. <cite ref=\"H00181\"><he>בית ח׳</he></cite>, v. ",
+				"<cite ref=\"Rosh Hashanah 18a\">R. Hash. 18ᵃ</cite>, a. D. S. a. l. note 4). [<cite ref=\"Mishnah Rosh Hashanah 2:4\">R. Hash. II, 4</cite>, v. <cite ref=\"H00278\"><he>חַוְורָן</he></cite>.]"
+			]
+		}
+	]
+}

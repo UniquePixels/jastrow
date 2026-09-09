@@ -1,0 +1,32 @@
+{
+	"id": "K01370",
+	"slug": "כתם-1",
+	"headword": {
+		"text": "כָּתַם"
+	},
+	"page": {
+		"number": 682,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be compressed, dark, hidden</i> (cmp. <cite ref=\"A01097\"><he>אטם</he></cite>, <cite ref=\"I00529\"><he>טמא</he></cite>, <cite ref=\"I00558\"><he>טמן</he></cite>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִכְתָּם"],
+			"senses": [
+				{
+					"gloss": "<i>to be stained, marked</i>. ",
+					"units": [
+						"<cite ref=\"Rosh Hashanah 18a\">R. Hash. 18ᵃ</cite>; <cite ref=\"Yevamot 105a\">Yeb. 105ᵃ</cite> (ref. to <cite ref=\"Jeremiah 2:22\">Jer. II, 22</cite>) taken as equivalent with <he>נחתם</he>.—<i>Part. Pu</i>. <he>מְכוּתָּם</he> <i>stained</i>. ",
+						"<cite ref=\"Midrash Tehillim 16\">Midr. Till. to Ps. XVI</cite> (play on <cite ref=\"M01454\"><he>מכתם</he></cite>) David said to the Lord <he>מכ׳ אני</he> ed. Bub. (oth. ed. <cite ref=\"M01454\"><he>מכתם</he></cite>, corr. acc.) I am stained (with sin)."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "P00522",
+	"slug": "עיז",
+	"headword": {
+		"text": "עִיז"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִיזָּא"
+		},
+		{
+			"text": "עִזָּא"
+		}
+	],
+	"page": {
+		"number": 1068,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. = h. <cite ref=\"P00387\"><he>עֵז</he></cite>, <i>goat</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 22:27\">Targ. O. Lev. XXII, 27</cite> (ed. Berl. <cite ref=\"P00387\"><he>עֵז</he></cite>). Targ. Y. ib. III, 12; a. fr.—",
+				"<cite ref=\"Megillah 3a:14\">Meg. 3ᵃ</cite> <he>ע׳ … מינאי</he> the goat in the butcher’s house is fatter than I am (a charm). ",
+				"<cite ref=\"Bava Batra 74a:7\">B. Bath. 74ᵃ</cite> <he>ע׳ דימא</he> the sea-goat (a fabulous animal); a. fr.—",
+				"<cite ref=\"Avodah Zarah 24b:5\">Ab. Zar. 24ᵇ</cite>; <cite ref=\"Menachot 22a:5\">Men. 22ᵃ</cite>, a. e. <he>ע׳ דקורקסא</he>, v. <cite ref=\"S00652\"><he>קוּרְקְסָא</he></cite>.—Pl. <he>עִיזִּין</he>, <he>עִיזַּיָּא</he>, <he>עִיזֵּי</he>, <he>עִזּ׳</he>. ",
+				"<cite ref=\"Onkelos Genesis 15:9\">Targ. O. Gen. XV, 9</cite>. Targ. ib. XXVII, 9. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 22:27\">Targ. Y. Lev. XXII, 27</cite>; a. fr.—",
+				"<cite ref=\"Bava Kamma 23b:13\">B. Kam. 23ᵇ</cite> <he>ע׳ דבי תרבו</he> goats of the house of Tarbu. ",
+				"<cite ref=\"Bava Kamma 23b:13\">Ib.</cite> <he>ע׳ דשוקא</he> goats intended for slaughter on market day; a. fr."
+			]
+		}
+	]
+}

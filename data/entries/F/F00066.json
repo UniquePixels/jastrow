@@ -1,0 +1,53 @@
+{
+	"id": "F00066",
+	"slug": "וסת",
+	"headword": {
+		"text": "וֶסֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "וֶו׳"
+		}
+	],
+	"page": {
+		"number": 374,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00472\"><he>יָסַת</he></cite>, intensive of <cite ref=\"P01466\"><he>עָשָׂה</he></cite>; as to <cite ref=\"P00000\"><he>ע</he></cite> a. (<cite ref=\"F00000\"><he>ו</he></cite>) <cite ref=\"J00000\"><he>י</he></cite>, v. Nöld. Mand. Gr. p. 72) [<i>habitual doing, condition,</i>] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>regular diet</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 101a:1\">Snh. 101ᵃ</cite>; <cite ref=\"Ketubot 110b:5\">Keth. 110ᵇ</cite>, a. e. <he>שינוי ו׳ וכ׳</he> a change of diet is the beginning of bowel diseases."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>conduct, way, manner</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 1:1:20\">Y. Yoma I, 38ᶜ</cite> bot. <he>כל וו׳ טובה וכ׳</he> every kind of good manners was found among them. ",
+				"<cite ref=\"Bereishit Rabbah 87\">Gen. R. s. 87</cite> <he>כך הי׳ יֶסְתָּן שׁל וכ׳</he> this was the custom of the gentiles. ",
+				"<cite ref=\"Mishnah Nedarim 9:9\">Ned. IX, 9</cite> <he>כך היא וֶוסְתּוֹ של וכ׳</he> such is that man’s way of acting."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>regular date</i>, or <i>regular premonitory symptoms, of menstruation</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 1:1\">Nidd. I, 1</cite> <he>כל אשה שיש לה ו׳</he> every woman of regular days &c. ",
+				"<cite ref=\"Niddah 4b:55\">Ib. 4ᵇ</cite> <he>שלא בשעת וֶסְתָּהּ</he> out of her regular time. ",
+				"<cite ref=\"Niddah 11b:45\">Ib. 11ᵇ</cite> <he>אשה שאיו לה ו׳</he> a woman who has no regular time. ",
+				"<cite ref=\"Mishnah Niddah 9:8\">Ib. IX, 8</cite> (<cite ref=\"Niddah 63a:68\">63ᵃ</cite>) <he>שיש לה ו׳</he> that has regular symptoms of approaching menstruation, v. infra. [Ib. 12ᵃ; 14ᵇ <he>שיעור ו׳</he>, v. <cite ref=\"A00593\"><he>אֶוְותִּיאוֹס</he></cite>.] Tosef. ib. I, 11 <he>כיוונה שעת וסתה</he> she had her courses again (after an intermission) exactly at the usual date; Y. ib. I, 49ᶜ top <he>כיוונה מחמ׳ הווסת</he> (corr. acc.). Ib. <he>וו׳ ארוכה</he> a delayed menstruation (which may be expected any time), contrad. to <he>הפסק עונה</he> a skipping over of one course; a. fr.—Pl. <he>וֶסְתּוֹת</he>. Ib. IX, 8 <he>ואלו הן הו׳</he> and these are the symptoms of approaching &c. Ib. 63ᵃ <he>התם בו׳ דיומי</he> there (ib. I, 1) regularity of date is meant, <he>הכא בו׳ דגופא</he> here regularity of symptoms. Ib. 15ᵃ, a. e. <he>ו׳ דאורייתא</he> the rule requiring a woman to examine herself on the regular day is of biblical origin. ",
+				"<cite ref=\"Yevamot 64b:22\">Yeb. 64ᵇ</cite> bot. <he>ו׳ ושור וכ׳</he> the law concerning the mode of establishing a regularity of menstruation (<cite ref=\"Mishnah Niddah 9:10\">Nidd. IX, 10</cite>) &c.—",
+				"<cite ref=\"Bereishit Rabbah 48:17\">Gen. R. s. 48</cite> (expl. <cite ref=\"P00157\"><he>עדנה</he></cite>, <cite ref=\"Genesis 18:12\">Gen. XVIII, 12</cite>), v. <cite ref=\"F00069\"><he>וֶוסְתָּנִית</he></cite>; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

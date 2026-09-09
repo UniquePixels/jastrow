@@ -1,0 +1,23 @@
+{
+	"id": "E00910",
+	"slug": "השבה",
+	"headword": {
+		"text": "הֲשָׁבָה"
+	},
+	"page": {
+		"number": 369,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"E00909\">same</cite>, <he>הֲשָׁבַת אבידה</he> the duty of restoring a neighbor’s lost property. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 5:7\">B. Kam. V, 7</cite> (<cite ref=\"Bava Kamma 54b\">54ᵇ</cite>) <he>לה׳ א׳</he> (Ms. M. a. Y. ed. <he>להָשֵׁיב</he>; Y. ib. V, end, 5ᵃ <he>להָשֵׁב</he>, v. <cite ref=\"E00909\">preced.</cite>); <cite ref=\"Yalkut Shimoni on Torah 281:2\">Yalk. Ex. 281</cite>; a. fr.—Pl. <he>הֲשָׁבוֹת</he>. ",
+				"<cite ref=\"Bava Kamma 57a:12\">B. Kam. 57ᵃ</cite>; <cite ref=\"Bava Metzia 31a:14\">B. Mets. 31ᵃ</cite> <he>מפני … ריבתה ה׳ הרבה</he> because the Biblical text speaks frequently of restoration (but does nos intimate that the owner must be notified of the restoration)."
+			]
+		}
+	]
+}

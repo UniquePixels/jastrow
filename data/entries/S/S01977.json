@@ -1,0 +1,29 @@
+{
+	"id": "S01977",
+	"slug": "קרחה-1",
+	"headword": {
+		"text": "קָרְחָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1415,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"S01968\"><he>קָרַח</he></cite>)<i>baldness</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 96:13\">Sifré Deut. 96</cite>; <cite ref=\"Makkot 20a:12\">Macc. 20ᵃ</cite> <he>לחייב על כל ק׳ וק׳</he> to be punishable for each act of making a bald spot; Sifra Emor, Par. 1, ch. I <cite ref=\"S02047\"><he>קְרִיחָה</he></cite>. ",
+				"<cite ref=\"Makkot 20b:2\">Macc. 20ᵇ</cite> <he>וכמה שיעור ק׳</he> what is the legal size of baldness (to be punishable)?; a. fr.—Trnsf. <i>gap, depopulation</i>. ",
+				"<cite ref=\"Sanhedrin 109b:11\">Snh. 109ᵇ</cite>, a. e., v. <cite ref=\"S01972\"><he>קֹרַח</he></cite>. ",
+				"<cite ref=\"Megillah 13b:18\">Meg. 13ᵇ</cite> <he>שמא תאמר ק׳ אני וכ׳</he> lest thou say that I may create depopulation in thy empire (by the extermination of the Jews); a. e.—Pl. <he>קָרְחוֹת</he>. ",
+				"<cite ref=\"Kiddushin 36a:5\">Kidd. 36ᵃ</cite> (<cite ref=\"Makkot 20a:12\">Macc. 20ᵃ</cite>, a. e. <he>קריחות</he>), v. <cite ref=\"S01968\"><he>קָרַח</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:2:12\">Y. Maasr. I, 48ᵈ</cite> bot., v. <cite ref=\"S01968\"><he>קָרַח</he></cite> <i>Hif.</i>—",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:1:13\">Y. Meg. IV, 75ᵃ</cite> top (to those who read from the Law without benedictions) <he>עד מתי אתם … ק׳ ק׳</he> how long will you make the law into bare patches (sterile of spiritual seeds)?"
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "R00403",
+	"slug": "ציפא-3",
+	"headword": {
+		"text": "צִיפָּא",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "צִיפָּה"
+		}
+	],
+	"page": {
+		"number": 1278,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"R00402\">preced.</cite>) <i>flake of wool, hatchelled wool</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 50a:8\">Sabb. 50ᵃ</cite> <he>יוצאין בפקורין ובצ׳</he> may go out with lint or a flake of wool (on a wound; oth. opin. in Tosaf.: with a <i>wig</i>); Tosef. ib. V (VI), 2 <he>ובצוּפָּא</he> (ed. Zuck. <he>ובציפי צמר</he>). ",
+				"<cite ref=\"Tosefta Kilaim 5:23\">Tosef. Kil. V, 23</cite> <he>והציפה</he>, v. <cite ref=\"Q00327\"><he>פּוֹקָרִין</he></cite>. Sifra Sh’mini, ch. VII, Par. 6 <he>יכול אף הצ׳</he> you may think the same law applies to raw wool (as to a woven garment); <cite ref=\"Yalkut Shimoni on Torah 537:15\">Yalk. Lev. 537</cite> <he>הצירעה</he> (corr. acc.).—Pl. m. (of <he>צֵיף</he>, <cite ref=\"R00216\"><he>צוּף</he></cite>) <he>צִיפִּים</he>, <cite ref=\"R00220\"><he>צוּפִּים</he></cite> (or <cite ref=\"R00220\"><he>צוּפִים</he></cite>). Y. B. Kam. IX, beg. 6ᵈ <he>כשעשאו צו׳</he> when the thief changed the stolen wool by making flakes of it. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>מצינו … בלא צ׳ שמא יש צ׳ וכ׳</he> cleansing of wool is sometimes done without hatchelling it, but is hatchelling ever done without previous washing?—Esp. <he>צִיפֵּי צמר</he>. ",
+				"<cite ref=\"Shabbat 48a\">Sabb. 48ᵃ</cite>; <cite ref=\"Bava Batra 19a:11\">B. Bath. 19ᵃ</cite> <he>בגיזי … ובצ׳ צמר</he> in shorn wool (before it is washed and hatchelled) or in hatchelled wool. Tosef. Sabb. l. c., v. supra. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 732:1-4\">Yalk. Num. 732</cite> <he>היה … בצִפִּין של צמר</he> he stamped upon it (the fire), and quenched it with hatchelled wool; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "R00377",
+	"slug": "צימח",
+	"headword": {
+		"text": "צִימֵּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִמֵּ׳"
+		}
+	],
+	"page": {
+		"number": 1277,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00565\"><he>צָמַח</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " v. <cite ref=\"R00201\"><he>צוּמָּח</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a goat with long hair lumps and long, dependent ears</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 44a:18\">Bekh. 44ᵃ</cite> <he>תנא אף הצ׳</he> (Ar. <he>הצימע</he>) it has been taught (in addition to the blemishes mentioned) also a person looking like a <i>tsimmeaḥ</i>; <he>לא הוו ידעי רבנן מאי צ׳ וכ׳</he> the Rabbis did not know what <i>ts.</i> was, when they heard an Arab (trader) call out, ‘who wants a <i>ts.</i>’?, and it was found to be a shaggy goat (v. <cite ref=\"H00537\"><he>חֲוִיזָא</he> II</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

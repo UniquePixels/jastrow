@@ -1,0 +1,51 @@
+{
+	"id": "A00417",
+	"slug": "אדם-2",
+	"headword": {
+		"text": "אָדַם"
+	},
+	"page": {
+		"number": 17,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<cite ref=\"D00867\"><he>דם</he></cite> , v. <cite ref=\"D00903\"><he>דמם</he></cite>) [<i>to be viscous, thick, dark</i>] <i>to be red, grow red</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִדֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to redden, make red</i>. Y. Sabb. VII, 10ᶜ top <he>המְאַדֵּם אודם</he> he who produces a red spot (congestion of blood, on a Sabbath).",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶאֱדִים"],
+			"senses": [
+				{
+					"gloss": " (b. h.) <i>to be, grow red</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 9:21\">Num. R. s. 9</cite> (p. 231ᵇ ed. Amst.) <he>מַאֲדֶמֶת</he> (<he>היתה</he>) if she was red-faced. ",
+						"<cite ref=\"Chullin 53b\">Ḥull. 53ᵇ</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to blush, put to shame</i> (usu. <cite ref=\"L00095\"><he>הלבין</he></cite>). ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4</cite> (p. 218ᵈ ed. Amst.) (play on <he>עובד אדום</he>).—<i>Part.</i> <he>מַאֲדִים</he> <i>the planet Mars</i>. ",
+						"<cite ref=\"Shabbat 156a\">Sabb. 156ᵃ</cite>.—<i>Part. Hof</i>. <he>מְאָדָּם</he>, <he>מְאוּדָּם</he>. Y. Sabb. VII, 10ᶜ top <he>מְאָדָּמִים</he> dyed red."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "Q01237",
+	"slug": "פסוגא",
+	"headword": {
+		"text": "פְּסוּגָא"
+	},
+	"page": {
+		"number": 1192,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01228\"><he>פְּסַג</he></cite>) <i>piece</i>.—Pl. <he>פְּסוּגַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 12:40\">Targ. Y. Ex. XII, 40</cite>; <cite ref=\"Targum of I Chronicles 7:21\">Targ. I Chr. VII, 21</cite> <he>ביני פ׳</he> at the covenant between the pieces, v. <cite ref=\"B01396\"><he>בְּתָרִים</he></cite>; Targ. Y. I. ",
+				"<cite ref=\"Leviticus 26:42\">Lev. XXVI, 42</cite> <he>פִּיסּוּגַיָּא</he>."
+			]
+		}
+	]
+}

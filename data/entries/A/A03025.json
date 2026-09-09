@@ -1,0 +1,26 @@
+{
+	"id": "A03025",
+	"slug": "ארויסא",
+	"headword": {
+		"text": "אַרְוִיסָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְוָוסָא"
+		}
+	],
+	"page": {
+		"number": 116,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a transpos. of <cite ref=\"A02762\"><he>אַפְסִירָא</he></cite>, <cite ref=\"A02766\"><he>אַפְסָרָא</he></cite>) <i>halter</i> (Rashi). [Ar. <i>chain</i>, Perl. Et. St. p. 21 = Pers. arvîs <i>rope</i>.] <cite ref=\"Yevamot 46a:10\">Yeb. 46ᵃ</cite> <he>רמו ליה ארוו׳ וכ׳</he> Ar. ed. Koh. (ed. <he>ארוי׳</he>, Ar. ed. <cite ref=\"A03042\"><he>ארוסיה</he></cite>) they put a halter around his neck (to prevent him from claiming his liberty).",
+			"units": []
+		}
+	]
+}

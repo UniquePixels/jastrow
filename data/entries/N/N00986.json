@@ -1,0 +1,71 @@
+{
+	"id": "N00986",
+	"slug": "נעל-1",
+	"headword": {
+		"text": "נָעַל"
+	},
+	"page": {
+		"number": 920,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to tie</i> (the door), <i>to lock up, close</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 6:1\">B. Kam. VI, 1</cite> <he>נ׳ בפניה כראוי</he> if he locked it in (secured the flock) properly. ",
+				"<cite ref=\"Tosefta Bava Batra 2:11\">Tosef. B. Bath. II, 11</cite>, a. e. <he>נ׳ וגדר וכ׳</he> if he fastened (something on the property), fenced in or tore down, it is possession (<cite ref=\"H00556\"><he>חֲזָקָה</he></cite>). ",
+				"<cite ref=\"Mishnah Shabbat 13:6\">Sabb. XIII, 6</cite> <he>ונ׳ אחד בפניו</he> and one blocked it (by placing himself in the entrance). ",
+				"<cite ref=\"Mishnah Shabbat 13:7\">Ib. 7</cite> <he>לנוֹעֵל את ביתו וכ׳</he> it is like one locking up (sitting at the entrance of) his house to guard it. Mekh. Mishp. s. 18 <he>שלא לִנְעוֹל בפני וכ׳</he> in order not to close the door to future proselytes (not to discourage them on account of advanced age). ",
+				"<cite ref=\"Sanhedrin 32a\">Snh. 32ᵃ</cite>, a. fr. <he>כדי שלא תִנְעוֹל וכ׳</he>, v. <cite ref=\"D00864\"><he>דֶּלֶת</he></cite>.—Y. Naz. VIII, 57ᵃ bot., v. <cite ref=\"F00071\"><he>וַעַד</he></cite>. ",
+				"<cite ref=\"Tosefta Sotah 5:9\">Tosef. Sot. V, 9</cite> [read:] <he>שנעל דלת וכ׳</he> who locked his wife up (to prevent her from going astray); Y. ib. I, 17ᵃ bot.; <cite ref=\"Gittin 90a\">Gitt. 90ᵃ</cite>; Y. Kidd. IV, 66ᵃ; a. fr.—",
+				"<cite ref=\"Shir HaShirim Rabbah 7:2\">Cant. R. to VII, 2</cite> (play on <he>בנעלים</he>, <cite ref=\"Shir HaShirim Rabbah 7:2\">ib.</cite>) <he>אתם נוֹעֲלִים לפני … ואני נועל וכ׳</he> you lock up (interrupt business) for my sake on Passover …, and I lock up (the rain) for your sake, v. <cite ref=\"N00979\"><he>נְעִילָה</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 7:2\">Ib.</cite> <he>מה היה … שהיו נועלין בעד כל הצרות</he> how great wa is the beauty of thy steps (pilgrimage to the Temple) which locked up (protected against) all troubles.—Part. pass. <he>נְעוּל</he>; f. <he>נְעוּלָה</he>; pl. <cite ref=\"N00972\"><he>נְעוּלִים</he></cite>, <he>נְעוּלִין</he>; <he>נְעוּלוֹת</he>. ",
+				"<cite ref=\"Midrash Tehillim 4:3\">Midr. Till. to Ps. IV</cite> <he>שערי תפלה … נ׳ וכ׳</he> the gates of prayer are sometimes open, sometimes closed, but the gates of tears are never closed; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to tie a sandal, to put shoes on</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 4:8\">Tosef. Sabb. IV</cite> (<cite ref=\"Tosefta Shabbat 5:8\">V</cite>), 8 <he>לא יִנְעוֹל אדם וכ׳</he> one must not put on a nail-studded sandal &c. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:7:16\">Y. M. Kat. III, 83ᶜ</cite> <he>הורי</he> … <he>לנעול בו ביום</he> R. … allowed (the people mourning for R. Yassa) to wear shoes on the same day. ",
+				"<cite ref=\"Tosefta Kiddushin 1:5\">Tosef. Kidd. I, 5</cite> <he>נ׳ לו סנדלו וכ׳</he> if the slave tied his sandals for him (the new master) or untied them, it is possession (v. supra); <cite ref=\"Bava Batra 53b:8\">B. Bath. 53ᵇ</cite> (Ms. M. <cite ref=\"N00986\"><he>הִנְעִיל</he></cite>); a. fr.—Part. pass. as ab., <i>shod</i>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 7:2\">Yalk. Josh. 7</cite> <he>וכי במנעלים אתה נ׳ וכ׳</he> dost thou wear shoes and observest not mourning?"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִנְעִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to put shoes on a person</i>. B. Bath. l. c.; <cite ref=\"Kiddushin 22b:15\">Kidd. 22ᵇ</cite> <he>הלבישו הִנְעִילוֹ וכ׳</he> if the slave helped him put on his clothes or his shoes or lifted him up (helped him into a conveyance), it is possession.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִנְעַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be closed</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 32b:5\">Ber. 32ᵇ</cite> <he>מיום … נִנְעֲלוּ שערי וכ׳</he> since the day the Temple was destroyed, the gates of prayer have been closed. ",
+						"<cite ref=\"Berakhot 32b:5\">Ib.</cite> <he>שערי דמעה לא ננעלו</he>; <cite ref=\"Midrash Tehillim 4:3\">Midr. Till. to Ps. IV</cite> <he>נִנְעָלִים</he>, v. supra. ",
+						"<cite ref=\"Bava Metzia 59a:7\">B. Mets. 59ᵃ</cite> <he>כל השערים נִנְעָלִים חוץ וכ׳</he> all gates (of prayer) are (at times) closed, except the gates for the cry of oppression. ",
+						"<cite ref=\"Bava Metzia 59a:8\">Ib.</cite> <he>הפרגוד ננעל</he>, v. <cite ref=\"Q01551\"><he>פַּרְגּוֹד</he></cite>. ",
+						"<cite ref=\"Eruvin 6b\">Erub. 6ᵇ</cite>, a. e. <he>אילמלא דלתותיה נִנְעָלוֹת</he> if its gates were not shut by night; a. fr.—",
+						"<cite ref=\"Shabbat 67a:18\">Sabb. 67ᵃ</cite> bot. (in an incantation for a swallowed fish-bone) <he>נִנְעַלְתָּה כתריס</he> (Ms. M. <he>מנעלתה בתריס</he>) thou art locked up as (within) a cuirass."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

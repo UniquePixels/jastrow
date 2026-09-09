@@ -1,0 +1,25 @@
+{
+	"id": "V01016",
+	"slug": "תרמילא",
+	"headword": {
+		"text": "תַּרְמִילָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוּרְ׳"
+		}
+	],
+	"page": {
+		"number": 1700,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V01015\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ruth 2:18\">Targ. Ruth II, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 17:40\">Targ. I Sam. XVII, 40</cite>."
+			]
+		}
+	]
+}

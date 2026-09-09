@@ -1,0 +1,35 @@
+{
+	"id": "O01128",
+	"slug": "סמפירינון",
+	"headword": {
+		"text": "סַמְפִּירִינוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַנְפִּי׳"
+		},
+		{
+			"text": "סַמְפִּרִ׳"
+		},
+		{
+			"text": "סַנְפִּרִ׳"
+		}
+	],
+	"page": {
+		"number": 1003,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (σαπφείρινον) <i>sapphir-like</i>; in gen. (= lapis sapphirinus) <i>sapphire</i>, <i>lapislazuli</i> (v. Sm. Ant. s. v. Sapphir). Tanḥ. Ki Thissa 26 <he>ושל סמ׳ היו וכ׳</he> and they (the tablets) were lapislazuli, and yet they were like a light object in his hands; <cite ref=\"Shir HaShirim Rabbah 5:14\">Cant. R. to V, 14</cite> [read:] <he>מעשה נסים היו של סנ׳ היו וכ׳</he> they were a miraculous work: they were of sapphire, and yet could be rolled up. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Exodus 21\">B’shall. 21</cite> <he>המטה של סמפר׳ היה</he> the staff (of Moses) was of sapphire; <cite ref=\"Shemot Rabbah 8\">Ex. R. s. 8</cite>. Pesik. ʿĂniya, p. 135ᵇ <he>נאה כס׳ הזה</he> beautiful like sapphire. Ib. <he>סמפ י̇ר̇ו׳</he> (corr. acc.); <cite ref=\"Pesikta Rabbati 32:1\">Pesik. R. s. 32</cite>; (<cite ref=\"Eichah Rabbah 4\">Lam. R. to IV, 7</cite> <cite ref=\"O01374\"><he>סַפִּיר</he></cite>); a. fr.—<i>Chald.</i> ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 4:13\">Targ. Y. Deut. IV, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 34:12\">Ib. XXXIV, 12</cite>."
+			]
+		}
+	]
+}

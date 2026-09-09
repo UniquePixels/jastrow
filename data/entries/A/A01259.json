@@ -1,0 +1,28 @@
+{
+	"id": "A01259",
+	"slug": "איכר",
+	"headword": {
+		"text": "אִיכָּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִכָּר"
+		}
+	],
+	"page": {
+		"number": 48,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h., <he>אכר</he>, √<cite ref=\"K01071\"><he>כר</he></cite>, cmp. <cite ref=\"K00664\"><he>כִּכָּר</he></cite>)<i>husbandman, farm-laborer</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Arakhin 6:3\">Arakh. VI, 3</cite> (<cite ref=\"Arakhin 23b:36\">23ᵇ</cite>) <he>אם היה אי׳</he> (Mish. <he>אכ׳</he>) if he is a husbandman; a. e.—Pl. <he>אִיכָּרִים</he>. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:5:6\">Y. M. Kat. III, 82ᵇ</cite> bot. <cite ref=\"A01137\"><he>איבריו</he></cite> (read <he>אִיכָּרָיו</he>) his farm-hands. [V. <cite ref=\"A01137\"><he>איבריו</he></cite>.]"
+			]
+		}
+	]
+}

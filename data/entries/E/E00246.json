@@ -1,0 +1,33 @@
+{
+	"id": "E00246",
+	"slug": "הון-2",
+	"headword": {
+		"text": "הוֹן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 339,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.;contr. of <he>הָווֹן</he>; <cite ref=\"E00230\"><he>היה</he></cite>; cmp. Gr. οὐσία)<i>possession, wealth</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:30\">Y. Peah I, 15ᵈ</cite> top (ref. to <cite ref=\"Proverbs 3:9\">Prov. III, 9</cite>) <he>בין שיש לך ה׳ וכ׳</he> whether or not thou art wealthy; <cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23—24</cite>; a. e.—",
+				"<cite ref=\"Pesikta Rabbati 25:1\">Pesik. R. s. 25</cite> (interpreting <he>מהונך</he>, Prov. l. c.) <he>ממה שחננך</he> from whatever He has graced thee with; Pesik. Asser, p. 97ᵃ, a. e"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>natural condition, nature; faculty; health, sanity</i>. Pesik. R. l. c. <he>כבד … שאם … נוי וכ׳</he> honor the Lord with thy nature; if thou art handsome &c. Ib. (another interpretation) <he>מהוֹנֶיךָ וכ׳</he> (pl.) while thou art in possession of thy powers (health); honor thy physician &c.; Ib. <he>בקולך …</he> with thy voice; Pesik. l. c.; a. fr.—Pesik. R. l. c. <he>עד שהוֹנוֹ עליו</he> while his mind was sound. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 78:11\">Gen. R. s. 78</cite> (interpret. <he>לאטי</he>, <cite ref=\"Genesis 33:14\">Gen. XXXIII, 14</cite>) <he>להוֹנִי להוני אני מהלך</he> I shall walk suitably to my condition (at my ease, slowly). ",
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 13</cite> <he>לְהוֹנְךָ לה׳</he> come to thy senses (be not rash)!"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "B01101",
+	"slug": "בצע-2",
+	"headword": {
+		"text": "בְּצַע"
+	},
+	"page": {
+		"number": 184,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01100\">same</cite>.<i>to break</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 91b:6\">B. Bath. 91ᵇ</cite> <he>כד הוה ב׳ ינוקא וכ׳</he> when a child broke apart a piece of St. John’s bread. ",
+				"<cite ref=\"Shabbat 140b:8\">Sabb. 140ᵇ</cite>, v. <cite ref=\"B00681\"><he>בִּיצּוּעָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to tear away, rescue</i> (cmp. <cite ref=\"Q01426\"><he>פצי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 33:18\">Targ. Job XXXIII, 18</cite> <he>יבצע</he> Ms. (ed. <he>ימנע</he>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּצַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to break</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 2:6\">Targ. O. Lev. II, 6</cite> (Var. <cite ref=\"B01101\"><he>בְּצַע</he></cite> Pe.). [Y. Taan. IV, 69ᵇ; Y. Meg. I, 70ᵃ bot. <he>מבצע</he> (<cite ref=\"Shir HaShirim Rabbah 1:16:3\">Cant. R. to I, 16</cite> <he>מצנעה</he>) read: <he>מנצב</he>, <he>מנצבה</he>, v. <cite ref=\"N01098\"><he>נְצַב</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

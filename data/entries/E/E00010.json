@@ -1,0 +1,27 @@
+{
+	"id": "E00010",
+	"slug": "האי",
+	"headword": {
+		"text": "הַאי"
+	},
+	"page": {
+		"number": 328,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (= <cite ref=\"E00010\"><he>הָ־אֵי</he></cite>) <i>this, that</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ruth 4:6\">Targ. Ruth IV, 6</cite>, v. <cite ref=\"C00336\"><he>גַּוְונָא</he></cite>. ",
+				"<cite ref=\"Berakhot 2a:14\">Ber. 2ᵃ</cite> <he>ה׳ וטהר</he> this <i>v’taher</i> (<cite ref=\"Leviticus 22:7\">Lev. XXII, 7</cite>). Ib. 4ᵇ <he>ה׳ אחד</he> this ‘one’ (<cite ref=\"Isaiah 6:6\">Is. VI, 6</cite>). Ib. 6ᵃ <he>ה׳ מאן דבעי וכ׳</he> he who wants &c. Ib. 7ᵇ bot. <he>מאי כוליה ה׳</he> (Ms. M. <he>למה לך כולי ה׳</he>) what is all this for?—Ib. 8ᵇ <he>בח׳ שעתא</he> at that hour. ",
+				"<cite ref=\"Eruvin 10a:2\">Erub. 10ᵃ</cite>; a. fr. <he>ה׳ מאי</he> what is that, i.e. what has this to do here?, this is no argument.—",
+				"<cite ref=\"Berakhot 43a:19\">Ber. 43ᵃ</cite> <he>ה׳ משחא וכ׳</he> as to balsam oil &c. ",
+				"<cite ref=\"Chagigah 4b:10\">Ḥag. 4ᵇ</cite> <he>כולי ה׳ ואולי</he> all that (suffering) and yet only ‘perhaps’!—",
+				"<cite ref=\"Chagigah 4b:10\">Ib.</cite> <he>ה׳ קרא</he> this (following) verse; a. v. fr.—With suffix <cite ref=\"K00000\"><he>ך</he></cite> (<i>locale</i>) <cite ref=\"E00012\"><he>הַאִיךְ</he></cite> <i>the one there, the former</i>. ",
+				"<cite ref=\"Rosh Hashanah 2b:10\">R. Hash. 2ᵇ</cite> <he>בשלמא ה׳</he> … <he>אלא האי וכ׳</he> I grant it as to the former (verse), for it says distinctly …, but as to the latter &c. ",
+				"<cite ref=\"Sanhedrin 4b:14\">Snh. 4ᵇ</cite> <he>ירשיעון דהאיך והאי</he> (Ms. M. <he>האיך והאי</he>) <i>the Elohim</i> which is the subject to <i>yarshiun</i> (<cite ref=\"Exodus 22:8\">Ex. XXII, 8</cite>) is the same in the preceding clause as in this, i.e. it means the same number of judges, and the repetition of <i>Elohim</i> does not intimate a differently construed court. ",
+				"<cite ref=\"Bava Batra 167b\">B. Bath. 167ᵇ</cite> <he>איתתיה דה׳</he> the other one’s wife; a. fr."
+			]
+		}
+	]
+}

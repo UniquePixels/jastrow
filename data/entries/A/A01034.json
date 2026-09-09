@@ -1,0 +1,23 @@
+{
+	"id": "A01034",
+	"slug": "אחילו",
+	"headword": {
+		"text": "אֲחִילוּ"
+	},
+	"page": {
+		"number": 40,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00757\"><he>חִיל</he></cite>) <i>chills and fever, trembling</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 70a:7\">Git. 70ᵃ</cite> (explained, as ‘fire of the bones’). ",
+				"<cite ref=\"Berakhot 32a:23\">Ber. 32ᵃ</cite> (play on <he>ויחל</he> <cite ref=\"Exodus 32:11\">Ex. XXXII, 11</cite>). [Ib. 12ᵇ <he>אחילו</he> Af. of <cite ref=\"H00321\"><he>חוּל</he> II</cite>.]"
+			]
+		}
+	]
+}

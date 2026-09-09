@@ -1,0 +1,68 @@
+{
+	"id": "Q00424",
+	"slug": "פזז",
+	"headword": {
+		"text": "פָּזַז"
+	},
+	"page": {
+		"number": 1150,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to move to and fro</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be bright, glisten</i>, v. <cite ref=\"Q00420\"><he>פָּז</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (of sound) <i>to jingle, rustle</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4</cite> <he>קולו פוֹזֵז</he>, v. <cite ref=\"O01244\"><he>סָנַן</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be rash</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 55b:9\">Sabb. 55ᵇ</cite> <he>פַּזְתָּה</he> (fr. <he>פּוּז</he>), v. <cite ref=\"G00174\"><he>זוּל</he></cite> h."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוּפָז"],
+			"senses": [
+				{
+					"gloss": ", part. <he>מוּפָז</he> <i>made of fine gold; glistening</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 44b\">Yoma 44ᵇ</cite> sq., v. <cite ref=\"Q00420\"><he>פָּז</he></cite>. Y. ib. IV, 41ᵈ top; <cite ref=\"Shir HaShirim Rabbah 3:10\">Cant. R. to III, 10</cite>; <cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite>, v. <cite ref=\"J00552\"><he>יָצַת</he></cite>."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["פִּיוֵּז"],
+			"senses": [
+				{
+					"gloss": "<i>to dance, sport</i>, v. <cite ref=\"A02651\"><he>אָפֵז</he></cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (of sound) <i>to jingle, rustle</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4</cite> (ref. to <cite ref=\"II Samuel 6:16\">II Sam. VI, 16</cite>) <he>מהו מְפַזֵּז וכ׳</he> what does <i>m’fazzez</i> mean?, v. <cite ref=\"O01244\"><he>סָנַן</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "A02244",
+	"slug": "אנך-1",
+	"headword": {
+		"text": "אָנַךְ"
+	},
+	"page": {
+		"number": 85,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (sec. r. of <cite ref=\"A01661\"><he>אך</he></cite>, cmp. <he>חנך</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to rub, polish, finish</i>, esp. <i>to glaze vessels, to line</i> (with onyx). ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 1:3\">Tosef. Kel. B. Mets. I, 3</cite> <he>כלים … שאֲנָכָן באנך וכ׳</he> (or <he>שאִנְּכָן</he> <i>Pi.</i>) clean vessels which one lined with unclean glaze (onyx); v. <cite ref=\"A02247\"><he>אָנָךְ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"H00938\"><he>חֲכָךְ</he></cite>) <i>to make sore, to grieve</i>. Denom. <cite ref=\"A01662\"><he>אַךְ</he> II</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

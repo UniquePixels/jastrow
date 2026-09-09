@@ -1,0 +1,46 @@
+{
+	"id": "A03215",
+	"slug": "ארע-1",
+	"headword": {
+		"text": "אָרַע"
+	},
+	"page": {
+		"number": 124,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<cite ref=\"T00864\"><he>רע</he></cite>, v. <he>רעע</he>) <i>to strike against</i>. <i>Nif.</i> <he>נֶאֱרַע</he> <i>to come in contact with</i> (cmp. <he>זווג</he>), <i>to happen, befall</i> (gen. of evil occurrences). ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 4:2\">Ber. IV, 2</cite> <he>שלא תֵּאָרַע וכ׳</he> (Bab. ed. 28ᵇ <he>שלא יֵאָרַע דבר וכ׳</he>) that no (religious) offence may happen through me (by an erroneous decision &c.). ",
+				"<cite ref=\"Mishnah Yoma 1:1\">Yoma I, 1</cite> <he>שׁמא יארע בו פסול</he> lest something may occur to him to unfit him for services. ",
+				"<cite ref=\"Esther Rabbah 6:5\">Esth. R. to II, 7</cite> <he>שיארע על ישראל</he> (read <he>שיארע לישר׳</he>) will happen to Israel; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אֵירַע", "אִירַע"],
+			"senses": [
+				{
+					"gloss": "<i>to strike, befall;</i> (neut. v.) <i>to occur</i>. Y. Kidd. I, 58ᵈ top <he>ולא א׳ מעשה</he> no accident (illegal act) <i>occurred</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 84\">Gen. R. s. 84</cite> <he>כל מה שאירע לזה וכ׳</he> whatever befell the one, befell also the other; a. fr.—",
+						"<cite ref=\"Mishnah Moed Katan 2:1\">M. Kat. II, 1</cite> <he>אֵירְעוֹ אבל</he> (Ms. M. <he>אירע בו</he>) mourning in the family befell him; a. e.—Y. Shek. V, 48ᵈ bot. <he>כך וכך אירע</he>; Y. Dem. I, 22ᵃ <he>אירעון …</he> (read <he>אירעוֹ</he>) so and so it happened to him. <i>Part. Pu</i>. <cite ref=\"M00016\"><he>מְאוֹרָע</he></cite> q. v."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְאָרֵעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be added to, to join</i>. Y. Sot. I, 17ᵃ <he>אחת מִתְאַרְעָה לאחת וכ׳</he> one (sin) is added to the other, until the account is full; <cite ref=\"Bamidbar Rabbah 9:7\">Num. R. s. 9</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

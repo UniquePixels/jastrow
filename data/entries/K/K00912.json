@@ -1,0 +1,27 @@
+{
+	"id": "K00912",
+	"slug": "כסותא",
+	"headword": {
+		"text": "כְּסוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּסוּ"
+		}
+	],
+	"page": {
+		"number": 652,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. <cite ref=\"K00911\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 22:8\">Targ. O. Ex. XXII, 8</cite> <he>כסו</he> ed. Berl. (oth. ed. a. Y. <cite ref=\"K00904\"><he>כּסוּי</he></cite> <i>m.</i>). Ib. 25; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "P00571",
+	"slug": "עילה",
+	"headword": {
+		"text": "עִילָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִילָא"
+		}
+	],
+	"page": {
+		"number": 1070,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00815\"><he>עָלַל</he></cite>; cmp. <cite ref=\"B00615\"><he>בִּילָה</he></cite> fr. <cite ref=\"B00880\"><he>בָּלַל</he></cite>) [<i>going about, bringing about</i>; cmp. <cite ref=\"O00529\"><he>סִיבָּה</he></cite> end,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>circumstance, cause; pretext</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 20b:3\">Keth. 20ᵇ</cite> <he>ע׳ מצאו וטהרו וכ׳</he> they found some (paltry) reason to declare clean a spot in the land of Israel; <cite ref=\"Nazir 65b:3\">Naz. 65ᵇ</cite> <cite ref=\"P00566\"><he>עילא</he></cite>; [Rashi: <cite ref=\"P00566\"><he>עילא</he></cite> = <cite ref=\"P00585\"><he>עילעא</he></cite> <i>rib</i> of a human body]. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 3:10:2\">Y. Keth. III, end, 28ᵃ</cite> <he>מצאתי ע׳ לשחררו</he> I have found an opportunity to set him free. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 10:5:6\">Y. Ter. X, 47ᵇ</cite>; <cite ref=\"Jerusalem Talmud Avodah Zarah 2:9:4\">Y. Ab. Zar. II, 42ᵃ</cite> (in Chald. dict.) <he>על ידי ע׳</he>, v. <cite ref=\"G00042\"><he>זְבִינְתָּא</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite>; s. 45; s. 63 <he>ואף היא על ידי ע׳</he> and even this in a round-about way (indirectly); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>crookedness, insidiousness, falsehood</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 5:7\">Eduy. V, 7</cite> <he>שמא ע׳ מצאת בי</he> (Mish. ed. <cite ref=\"P00250\"><he>עַוְלָה</he></cite>; Ms. M. <cite ref=\"P00244\"><he>עָוֶל</he></cite>) hast thou found any falsehood in me? <cite ref=\"Pesikta Rabbati 28:1\">Pesik. R. s. 28</cite> <he>נפלו עליהם בע׳</he> they turned against them with insidiousness.—V. <cite ref=\"P00804\"><he>עֲלִילָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,72 @@
+{
+	"id": "A01350",
+	"slug": "אימר-3",
+	"headword": {
+		"text": "אִימַּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִימְּרָא"
+		},
+		{
+			"text": "אִמַּר"
+		},
+		{
+			"text": "אִמְּרָא"
+		},
+		{
+			"text": "אִימְּרָה"
+		}
+	],
+	"page": {
+		"number": 51,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A02060\"><he>אמר</he></cite>, √<he>אם</he>, v. <cite ref=\"A02037\"><he>אמם</he></cite>; cmp. <he>עמרא</he>, <cite ref=\"H00395\"><he>חומרא</he></cite>, <cite ref=\"R00593\"><he>צמר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>thick, heavy</i>,] <i>lamb</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 30:32\">Targ. Gen. XXX, 32</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Nedarim 1:3\">Ned. I, 3</cite> ‘this be as forbidden to me <he>כאימרא</he> (Y. ib. I, end, 37ᵃ <he>כאימרה</he>) as <i>the</i> lamb’—<he>כאימר תמידא</he> that means, ‘as the lamb of the daily offering’. Lam. R. introd. (R. Josh. 2) <he>דהוה נכיס אמ׳ וכ׳</he> who slaughters a lamb and augurs from its liver. ",
+				"<cite ref=\"Eruvin 53b:3\">Erub. 53ᵇ</cite> (deriding the Galilean dialect) a Galilean cried <he>אמר למאן וכ׳</he> who wants <i>amar?</i> (indistinctly pronouncing the vowels, as well as the guttural sound of <cite ref=\"A00000\"><he>א</he></cite>), when they said to him …, <he>חמר למירכב או חמר למשתי עמר למילבש או אימר לאיתכסאה</he> (for var. lect., v. Rabb. D. S. a. l. note 10) do you mean <i>ḥǎmâr</i> (an ass) to ride on, or <i>ḥămar</i> (wine) to drink, or <i>ãmar</i> (wool) for putting on, or <i>immar</i> (lamb) for slaughtering?; a. fr.—Pl. <cite ref=\"M02530\"><he>אִימְּרִין</he></cite>, <cite ref=\"A01349\"><he>אִימְּרַיָּא</he></cite>, <he>אִימְּרַיָּיה</he>, <cite ref=\"M02307\"><he>אִמְּ׳</he></cite>. ",
+				"<cite ref=\"Ezra 7:9\">Ezra VII, 9</cite>; a. e.—",
+				"<cite ref=\"Onkelos Exodus 29:38\">Targ. Ex. XXIX, 38</cite>; <cite ref=\"Onkelos Exodus 12:5\">XII, 5</cite>; a. e.—Y. Snh. I, 18ᵈ top <he>אי׳ רכיכין</he> the lambs (of the spring) are yet tender (in a letter announcing the intercalation of a month); Bab. ",
+				"<cite ref=\"Sanhedrin 11b:3\">Snh. 11ᵇ</cite> <he>א׳ עדקין</he> (not <cite ref=\"P00681\"><he>ער׳</he></cite>; v. ",
+				"<cite ref=\"Tosefta Sanhedrin 2:6\">Tosef. ib. II, 6</cite>); a. e.—Fem. <cite ref=\"A01354\"><he>אִימַּרְתָּא</he></cite> <i>ewe</i>. ",
+				"<cite ref=\"Onkelos Leviticus 5:6\">Targ. Lev. V, 6</cite>; a. e.—",
+				"<cite ref=\"Chullin 51a:4\">Ḥull. 51ᵃ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 44:23\">Gen. R. s. 44</cite> end, the sow (Rome) pastures with twenty (young ones), <he>וא׳ ולא בחד</he> and the ewe (Sarah) not even with one."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"H00392\"><he>חוּמְרָא</he></cite>) <i>knot, bandage</i> on wounds. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 98a:2\">Snh. 98ᵃ</cite> <he>כולהו שרי ואסרי אי׳ וכ׳</he> Ar. (in ed. a. Ms. our w. omitted) all of them untie their bandages all at once and tie them up all at once, but he attends to one at a time."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>fringe, border</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 133:2\">Targ. Ps. CXXXIII, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 26:4\">Targ. Y. Ex. XXVI, 4</cite> (Var. <he>אֶימְרָא</he>). V. <cite ref=\"A01351\">next w.</cite>"
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "*  pr. n. pl. <cite ref=\"A01126\"><he>כפר א׳</he></cite> <i>K’far Imra</i> (Lamb-ville). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:13\">Y. Taan. IV, 69ᵃ</cite> bot.; (<cite ref=\"Eichah Rabbah 2:25\">Lam. R. to II, 2</cite> <cite ref=\"N00891\"><he>נמרא</he></cite>)."
+			],
+			"label": "4"
+		}
+	]
+}

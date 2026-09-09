@@ -1,0 +1,45 @@
+{
+	"id": "D00168",
+	"slug": "דואר-2",
+	"headword": {
+		"text": "דַּוָּאר",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּוָּואר"
+		},
+		{
+			"text": "דַּוָּור"
+		}
+	],
+	"page": {
+		"number": 282,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דּוּר</he> I, cmp. <cite ref=\"D00167\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (transl. of cursor) <i>mail-carrier, despatch-bearer</i>. Tanḥ. Ekeb 11 <he>ד׳ שהיה מהלך וכ׳</he> a <i>cursor</i> who travelled with an ordinance in his hand. ",
+			"units": [
+				"<cite ref=\"Shabbat 19a:7\">Sabb. 19ᵃ</cite> <he>קביע ד׳ במתא</he> Ms. M. (ed. <cite ref=\"D01080\"><he>בי ד׳</he></cite>) the mail-carrier (ed. the post office) is permanently located in town."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (Pers. dâvar, judge, ruler, Fl.) <cite ref=\"D01080\"><he>בֵּי ד׳</he></cite> <i>the (Persian) circuit court</i> consisting of regular law scholars, opp. <he>דייני דמגיסתא</he> squires in country places ignorant of the law. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 114a:1\">B. Kam. 114ᵃ</cite> (Ms. R. <he>אַבֵּי ד׳</he> in the &c., Ms. M. <he>בודאור</he>, corr. acc.). ",
+				"<cite ref=\"Gittin 58b:9\">Gitt. 58ᵇ</cite> <he>כיון דאיכא בי ד׳ וכ׳</he> since there exists (in Persia) a lawful court, and he did not sue (the tax officer). ",
+				"<cite ref=\"Avodah Zarah 26a:16\">Ab. Zar. 26ᵃ</cite> <he>נקיטא לי זימנא לבי ד׳</he> I am summoned to court (and have no time). [In later Hebr. literature <he>בי דואר</he> is used in the sense of <i>post-office</i>.]"
+			],
+			"label": "2"
+		}
+	]
+}

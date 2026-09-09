@@ -1,0 +1,26 @@
+{
+	"id": "E00884",
+	"slug": "הרנוגא",
+	"headword": {
+		"text": "הַרְנוֹגָא"
+	},
+	"page": {
+		"number": 368,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>harnoga</i>, name of a bird, one of eight about which there is a doubt as to being clean. ",
+			"units": ["<cite ref=\"Chullin 62b:5\">Ḥull. 62ᵇ</cite>"],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a thorn</i>, v. <cite ref=\"H01722\"><he>חַרְנוֹגָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

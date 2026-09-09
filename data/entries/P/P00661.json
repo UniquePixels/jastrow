@@ -1,0 +1,22 @@
+{
+	"id": "P00661",
+	"slug": "עיקל-1",
+	"headword": {
+		"text": "עִיקֵּל"
+	},
+	"page": {
+		"number": 1074,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01190\"><he>עָקַל</he></cite>) <i>bandy-legged</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 7:6\">Bekh. VII, 6</cite> (<cite ref=\"Bekhorot 45a\">45ᵃ</cite>), v. <cite ref=\"N01251\"><he>נָקַשׁ</he></cite>; Sifra Emor, ch. II, Par. 3 <cite ref=\"P00664\"><he>עִיקְלָן</he></cite>; <cite ref=\"Tosefta Bekhorot 5:9\">Tosef. Bekh. V, 9</cite> <cite ref=\"P01195\"><he>עִקְלָן</he></cite>."
+			]
+		}
+	]
+}

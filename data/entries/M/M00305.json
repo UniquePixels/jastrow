@@ -1,0 +1,24 @@
+{
+	"id": "M00305",
+	"slug": "מדלא-2",
+	"headword": {
+		"text": "מַדְלָא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 734,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. (<cite ref=\"D00828\"><he>דְּלֵי</he></cite>) <he>מַדְלַיָּיא</he> <i>drawing, resorbing</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 40a:3\">Pes. 40ᵃ</cite> <he>כל אגב מַדְלַיְּיהוּ וכ׳</he> as long as the grains absorb liquid, they do not ferment; v. <cite ref=\"M00763\"><he>מִזְּלָא</he></cite>."
+			]
+		}
+	]
+}

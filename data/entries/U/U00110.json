@@ -1,0 +1,53 @@
+{
+	"id": "U00110",
+	"slug": "שבי-2",
+	"headword": {
+		"text": "שְׁבֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁבָא"
+		}
+	],
+	"page": {
+		"number": 1513,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00109\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 21:1\">Targ. Num. XXI, 1</cite>. Targ. ",
+				"<cite ref=\"I Chronicles 5:21\">I Chr V, 21</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 106:46\">Targ. Ps. CVI, 46</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 6:36\">Targ. II Chr. VI, 36</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 14:2\">Targ. Is. XIV, 2</cite>; a. fr.—Part. pass. <cite ref=\"U00113\"><he>שָׁבֵי</he></cite>, pl. <cite ref=\"U00150\"><he>שָׁבָן</he></cite>, <cite ref=\"U00150\"><he>שְׁבָן</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 32:42\">Targ. O. Deut. XXXII, 42</cite> <he>שָׁ׳</he> Ms. I (ed. Berl. <cite ref=\"U00598\"><he>שְׁ׳</he></cite>; oth. ed. <cite ref=\"U00803\"><he>שִׁבְיָן</he></cite>; Y. <cite ref=\"U00803\"><he>שִׁיבִין</he></cite>; v. <cite ref=\"U00114\"><he>שִׁבְיָא</he></cite>).—",
+				"<cite ref=\"Berakhot 56a:1\">Ber. 56ᵃ</cite> <he>דאתו רומאי ושָׁבוּ לך</he> that the Romans came and made thee captive, v. <cite ref=\"U00710\"><he>שְׁחַר</he> IV</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּבֵּי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתַּבֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be taken captive, be carried off</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 14:14\">Targ. Gen. XIV, 14</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 30:3\">Targ. I Sam. XXX, 3</cite>; a. fr.—",
+						"<cite ref=\"Bava Metzia 39b:4\">B. Mets. 39ᵇ</cite> <he>אִשְׁתַּבָּאִי איהי וכ׳</he> she was captured and one of her daughters. ",
+						"<cite ref=\"Ketubot 23a:15\">Keth. 23ᵃ</cite> <he>אִישְׁתַּבְּיָין בנתיה וכ׳</he> the daughters of Mar Samuel were captured. ",
+						"<cite ref=\"Mishnah Ketubot 4:8\">Keth. IV, 8</cite> <he>אם תִּשְׁתַּבָּאִי וכ׳</he>, v. <cite ref=\"Q01981\"><he>פְּרַק</he></cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

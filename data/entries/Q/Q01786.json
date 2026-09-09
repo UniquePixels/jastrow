@@ -1,0 +1,33 @@
+{
+	"id": "Q01786",
+	"slug": "פריבטא",
+	"headword": {
+		"text": "פְּרִיבָטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּרִיבָטָה"
+		},
+		{
+			"text": "פְּרִיבָטַיָּיא"
+		}
+	],
+	"page": {
+		"number": 1225,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (privata, sub. balnea) <i>private baths</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 8:8:6\">Y. Shebi. VIII, 38ᵇ</cite> bot. ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:7\">Cant. R. to III, 7</cite> (ref. to <cite ref=\"Ecclesiastes 2:8\">Koh. II, 8</cite> <he>תענגות בני האדם</he>) <cite ref=\"Q01614\"><he>פרובטייה</he></cite> (read <he>פרי׳</he>) this means the private baths; <cite ref=\"Bamidbar Rabbah 11\">Num. R. s. 11</cite> <cite ref=\"Q01630\"><he>פרוובטה</he></cite>, <he>פרוזב׳</he> (corr. acc.).—<i>Hebr.</i> pl. <he>פְּרִיבָטָאוֹת</he>. Gen. R. s. l. ",
+				"<cite ref=\"Bereishit Rabbah 8:8\">Gen. R. s. 8</cite>; <cite ref=\"Yalkut Shimoni on Torah 13\">Yalk. Gen. 13</cite> <he>פרדכסיות</he>, read: <he>פְּרִיבָטָיוֹת</he>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "O01116",
+	"slug": "סמן-2",
+	"headword": {
+		"text": "סְמַן"
+	},
+	"page": {
+		"number": 1002,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"O01117\"><he>סַמֵּן</he></cite> <i>to believe in</i> <cite ref=\"O00710\"><he>סִימָן</he></cite>, <i>be superstitious</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 27b:11\">B. Mets. 27ᵇ</cite> <he>כיס וארנקי משום דמְסַמְּנֵי</he> people are not likely to lend a money bag or purse, because they are superstitious about it.—<i>Part. pass.</i> <cite ref=\"M01960\"><he>מְסַמַּן</he></cite>; f. <he>מְסַמְּנָא</he> <i>auspicious</i>. ",
+						"<cite ref=\"Kiddushin 59a:7\">Kidd. 59ᵃ</cite> <he>ולא מס׳ מילתא</he> and it is inauspicious (to sell the first field one has acquired)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִסְתַּמַּן"],
+			"senses": [
+				{
+					"gloss": "<i>to be marked</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 2:2\">Targ. Y. Num. II, 2</cite> <he>אתוון דמִסְתַּמְּנִין וכ׳</he> emblems which are marked out on &c."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

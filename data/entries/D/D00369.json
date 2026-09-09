@@ -1,0 +1,23 @@
+{
+	"id": "D00369",
+	"slug": "דורכאות-1",
+	"headword": {
+		"text": "דּוֹרְכָאוֹת"
+	},
+	"page": {
+		"number": 290,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"D00368\">preced.</cite>) <i>pomace</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ma'aser Sheni 1:10\">Tosef. Maas. Sh. I, 10</cite> <he>ד׳ של תמרה</he> ed. Zuck. (Var. <cite ref=\"T00739\"><he>ריתכאות</he></cite>)."
+			]
+		}
+	]
+}

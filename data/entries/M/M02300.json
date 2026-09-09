@@ -1,0 +1,25 @@
+{
+	"id": "M02300",
+	"slug": "מצותא-1",
+	"headword": {
+		"text": "מַצּוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַצּוּ"
+		}
+	],
+	"page": {
+		"number": 824,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"M02299\">same</cite> <cite ref=\"Onkelos Genesis 13:7\">Targ. O. Gen. XIII, 7</cite> (some ed. <he>מָצוֹ׳</he>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 3:7\">Targ. Ps. III, 7</cite> (h. text <he>רִבְבוֹת</he>!). ",
+				"<cite ref=\"Targum Jonathan on II Samuel 15:4\">Targ. II Sam. XV, 4</cite>; a. e."
+			]
+		}
+	]
+}

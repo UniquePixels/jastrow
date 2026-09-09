@@ -1,0 +1,32 @@
+{
+	"id": "P00185",
+	"slug": "עוברה",
+	"headword": {
+		"text": "עוּבָּרָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּבֶּרֶת"
+		}
+	],
+	"page": {
+		"number": 1047,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>מעוברת</he>; <cite ref=\"P00059\"><he>עָבַר</he></cite> <i>Pi.</i>) <i>pregnant woman</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 53a:3\">Erub. 53ᵃ</cite>, a. e., v. <cite ref=\"P00059\"><he>עָבַר</he></cite> <i>Pi.</i> ",
+				"<cite ref=\"Berakhot 29b:10\">Ber. 29ᵇ</cite>, v. <cite ref=\"P00491\"><he>עִיבּוּר</he></cite>. ",
+				"<cite ref=\"Gittin 23b:8\">Gitt. 23ᵇ</cite>; <cite ref=\"Temurah 25a:64\">Tem. 25ᵃ</cite> <he>אם היתה ע׳ זכתה לו</he> if she (the slave) was with child (at the time of the emancipation of herself and her eventual issue), she can accept the privilege for it. ",
+				"<cite ref=\"Yoma 82b:2\">Yoma 82ᵇ</cite> (in Chald. dict.) <he>ההיא ע׳ וכ׳</he>, v. <cite ref=\"T00615\"><he>רִיחַ</he></cite> ch. Tosef. Yoma V (IV), 4 <cite ref=\"P00068\"><he>עֻבָּרָה</he></cite> ed. Zuck., v. <cite ref=\"T00615\"><he>רִיחַ</he></cite> h.; a. fr.—Pl. <he>עוּבָּרוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 12:3:7\">Y. Keth. XII, 35ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Kilayim 9:3:7\">Y. Kil. IX, 32ᵇ</cite> bot. ",
+				"<cite ref=\"Niddah 60b:46\">Nidd. 60ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

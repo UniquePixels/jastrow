@@ -1,0 +1,42 @@
+{
+	"id": "U01844",
+	"slug": "שקט-2",
+	"headword": {
+		"text": "שָׁקַט",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1621,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to settle, be at rest, at ease</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 88a:6\">Sabb. 88ᵃ</cite> <he>למה שָׁקְטָה</he>, v. <cite ref=\"J00591\"><he>יָרֵא</he></cite>; <cite ref=\"Avodah Zarah 3a:7\">Ab. Zar. 3ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Nach 811:1\">Yalk. Ps. 811</cite>. Yalk. Hab. 563 <he>ש׳ העולם</he> the world remained undisturbed; Tanḥ. ed. Bub., Sh’mini 10 <he>שקטה הארץ</he>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁקִיט"],
+			"senses": [
+				{
+					"gloss": "<i>to be quiet, careless</i> (cmp. <cite ref=\"U01230\"><he>שָׁלֵו</he></cite>). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 36\">Gen. R. s. 36</cite>, beg. (ref. to <cite ref=\"Job 34:29\">Job XXXIV, 29</cite>) <he>והוא יַשְׁקִיט מעולמו</he> and he (the Lord) is unconcerned about his world; <cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite> (not <he>בעולמו</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to give rest, ease</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 31b:9\">Gitt. 31ᵇ</cite> (ref. to <cite ref=\"Job 37:17\">Job XXXVII, 17</cite>) <he>אימתי … בשעה שה׳ וכ׳</he> (Rashi <he>בשׁמַשְׁקִיט</he>) when are thy clothes warm? When he makes the world rest from the south (when the south wind abates); <cite ref=\"Yalkut Shimoni on Nach 922\">Yalk. Job 922</cite>.—[Tosef. Erub. IX (VI), 26 <he>המשקטין</he> Var., v. <cite ref=\"S02229\"><he>קָשַׁט</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

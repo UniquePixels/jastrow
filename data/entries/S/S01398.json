@@ -1,0 +1,31 @@
+{
+	"id": "S01398",
+	"slug": "קלעא-1",
+	"headword": {
+		"text": "קִלְעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִי׳",
+			"homograph": 2
+		},
+		{
+			"text": "קַלְ׳"
+		}
+	],
+	"page": {
+		"number": 1381,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"S01394\"><he>קֶלַע</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 20:16\">Targ. Jud. XX, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 26:8\">Targ. Prov. XXVI, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 41:18\">Targ. Job XLI, 18</cite> <cite ref=\"S01557\"><he>קַ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 41:20\">Ib. 20</cite> (Ms. <cite ref=\"S01557\"><he>קַ׳</he></cite>)."
+			]
+		}
+	]
+}

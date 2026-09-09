@@ -1,0 +1,23 @@
+{
+	"id": "Q01762",
+	"slug": "פרחתא",
+	"headword": {
+		"text": "פַּרְחֲתָא"
+	},
+	"page": {
+		"number": 1224,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01755\"><he>פְּרַח</he></cite>) <i>bird</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 1:17\">Targ. Prov. I, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 26:2\">Ib. XXVI, 2</cite>."
+			]
+		}
+	]
+}

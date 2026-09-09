@@ -1,0 +1,72 @@
+{
+	"id": "O00579",
+	"slug": "סידור-1",
+	"headword": {
+		"text": "סִידּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִדּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 976,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01678\"><he>סָרַר</he></cite>), corresp. to b. h. <cite ref=\"P01377\"><he>עֵרֶךְ</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>arrangement, order</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 32\">Gen. R. s. 32</cite> <he>סִידּוּרוֹ של עולם</he> the natural order, v. <cite ref=\"O00658\"><he>סִילּוֹן</he> II</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:2:2\">Y. Meg. IV, 75ᵃ</cite> bot. <he>שהיא סִדּוּרוֹ של יום</he> (not <he>סדורה</he>) for this (the section of Amalek) is the order of the day.—[In later Hebr. <he>ס׳</he> = <he>ס׳ תפלה</he>, the order of prayers, <i>Prayerbook</i>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>piling up, putting in order</i>, esp. on the altar, the golden table &c., opp. <cite ref=\"O00662\"><he>סילוק</he></cite>, removal. ",
+			"units": [
+				"<cite ref=\"Yoma 24b:6\">Yoma 24ᵇ</cite> <he>ס׳ בזיכין</he> the putting (on the show-bread) of the frankincense from the vessels; <he>ס׳ איברים</he> the offering of the sacrificial parts. ",
+				"<cite ref=\"Mishnah Menachot 11:6\">Men. XI, 6</cite> <he>ס׳ קנים</he> the arrangement of the tubes for the show-bread. ",
+				"<cite ref=\"Menachot 29a\">Ib. 29ᵃ</cite>, a. e. <he>סילוקו כסִידּוּרוֹ</he> when it (the show-bread) was removed, it was as fresh as when it was put on; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " [<i>that which is arranged before a person</i>,] <i>offering, present</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 9:4\">Lev. R. s. 9</cite> <he>טלו סִדּוּרוֹ</he> take what he has brought as his tribute."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>the daily ration</i>.—Pl. <he>סִידּוּרִים</he>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite> <he>ס׳ של דוב</he> the portions (of honey) designated for the bear (in the vivarium)."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": " (= <cite ref=\"P01377\"><he>עֵרֶךְ</he></cite>) <i>determination of a man’s obligation</i> (<i>to the sanctuary &c</i>.) <i>based upon his financial ability</i> (v. <cite ref=\"O00199\"><he>סָדַר</he></cite> <i>Pi.</i> 2); <i>exemption from seizure</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 113b:6\">B. Mets. 113ᵇ</cite> <he>עיקר ס׳ בערכין כתיב</he> the original exemption law is stated with reference to vows (<cite ref=\"Leviticus 27:8\">Lev. XXVII, 8</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Nazir 2:1:5\">Y. Naz. II, 51ᵈ</cite> bot. <he>סִידּוּרוֹ עלי וכ׳</he> if one said (pointing to a person), ‘I vow his <i>siddur</i>’ (instead of <he>ערכו</he>), he must pay his value according to his age."
+			],
+			"label": "5"
+		},
+		{
+			"gloss": "<i>net in the flour mill</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 2:15\">Tosef. Kel. B. Mets. II, 15</cite> <he>הס׳ והסדן וכ׳</he> the net and the block of the mill, if made of metal &c.—Sifra Metsorʿa, Zabim, Par. 1, ch. II, v. <cite ref=\"O01551\"><he>סָרוּד</he></cite>."
+			],
+			"label": "6"
+		}
+	]
+}

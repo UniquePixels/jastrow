@@ -1,0 +1,31 @@
+{
+	"id": "I00053",
+	"slug": "טבילה",
+	"headword": {
+		"text": "טְבִילָה"
+	},
+	"page": {
+		"number": 516,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>טָבַל</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>dipping</i>. Mekh. Bo, Pisḥa, s. 11 (ref. to <cite ref=\"Exodus 12:22\">Ex. XII, 22</cite>) <he>על בל הגעה ט׳</he> you must dip the hyssop into the blood for each time you strike. Sifra Vayikra, Ḥobah, ch. III, Par. 3.—",
+			"units": [
+				"<cite ref=\"Zevachim 93b:8\">Zeb. 93ᵇ</cite>; a. fr.—2) <i>immersion, purification</i>. ",
+				"<cite ref=\"Yoma 88a:1\">Yoma 88ᵃ</cite>, a. fr. <he>ט׳ בזמנה מצוה</he> the immersion in due time is obligatory (must not be postponed). ",
+				"<cite ref=\"Keritot 9a:30\">Kerith. 9ᵃ</cite>; a. v. fr.—Pl. <he>טְבִילוֹת</he>. ",
+				"<cite ref=\"Menachot 7b:11\">Men. 7ᵇ</cite> <he>שיעור ט׳</he> enough for all dippings.—Yoma l. c.; a. fr. <he>חייבי ט׳</he> those bound to take an immersion. ",
+				"<cite ref=\"Niddah 29b:22\">Nidd. 29ᵇ</cite> <he>ומטבילין אותה … ט׳</he> and we make her take immersions at intervals during ninety five days; a. fr."
+			],
+			"label": "1"
+		}
+	]
+}

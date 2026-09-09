@@ -1,0 +1,34 @@
+{
+	"id": "K00078",
+	"slug": "כבריתא-1",
+	"headword": {
+		"text": "כַּבָּרִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּבְרִיתָא"
+		},
+		{
+			"text": "כּוּבְ׳"
+		}
+	],
+	"page": {
+		"number": 609,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"K00077\">preced.</cite>) = h. <cite ref=\"C01215\"><he>גָּפְרִית</he></cite>; [<i>a thick porous lump</i>,] <i>sulphur</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 11:6\">Targ. Ps. XI, 6</cite> <he>כַּבָּ׳</he> Ms. (ed. Wil. <he>כָּבְ׳</he>; ed. Lag. <cite ref=\"K00353\"><he>כּוּפְרִיתָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 19:24\">Targ. Y. I Gen. XIX, 24</cite> <cite ref=\"K00078\"><he>כִּבְרֵיתָא</he></cite> (O. a. Y. II <cite ref=\"C00465\"><he>גופריתא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 29:22\">Targ. Y. Deut. XXIX, 22</cite> <cite ref=\"K00197\"><he>כּוּבְרֵיתָא</he></cite>.—",
+				"<cite ref=\"Gittin 86a:3\">Gitt. 86ᵃ</cite>. ",
+				"<cite ref=\"Niddah 62a:18\">Nidd. 62ᵃ</cite>; <cite ref=\"Shabbat 90a:4\">Sabb. 90ᵃ</cite> (expl. <he>בורית</he>) <he>כ׳</he> sulphur used for whitening clothes."
+			]
+		}
+	]
+}

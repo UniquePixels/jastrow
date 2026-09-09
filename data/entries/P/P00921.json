@@ -1,0 +1,27 @@
+{
+	"id": "P00921",
+	"slug": "עמקא-1",
+	"headword": {
+		"text": "עִמְקָא"
+	},
+	"page": {
+		"number": 1090,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00920\">same</cite><i>valley</i>.—Pl. <he>עִמְקַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 27:29\">Targ. I Chr. XXVII, 29</cite> ed. Lag. (ed. Rahmer <he>עִמְקָאֵי</he>, ed. Wil. <he>עִמְקָאַיָּה</he>, dwellers in valleys)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>depth</i>.—Pl. constr. <cite ref=\"P00925\"><he>עִמְקֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 69:3\">Targ. Ps. LXIX, 3</cite> (ed. Wil. <cite ref=\"P00925\"><he>עָמְקֵי</he></cite>), v. <cite ref=\"P00284\"><he>עוּמְקָא</he> I</cite>.—[<cite ref=\"Targum Jonathan on Ezekiel 3:5\">Targ. Ez. III, 5</cite> <cite ref=\"P00925\"><he>עִמְקֵי</he></cite>, v. <cite ref=\"P00888\"><he>עַמִּיק</he> I</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

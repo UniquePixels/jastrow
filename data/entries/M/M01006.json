@@ -1,0 +1,31 @@
+{
+	"id": "M01006",
+	"slug": "מטלטלין",
+	"headword": {
+		"text": "מִטַּלְטְלִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִיטַּ׳"
+		}
+	],
+	"page": {
+		"number": 767,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"I00490\"><he>טִלְטֵל</he></cite>) <i>movable goods, chattel</i>, opp. <cite ref=\"M02465\"><he>מקרקע</he></cite> immovable property. ",
+			"units": [
+				"<cite ref=\"Kiddushin 26b:6\">Kidd. 26ᵇ</cite>; <cite ref=\"Bava Batra 156b:2\">B. Bath. 156ᵇ</cite> <he>היו לו מ׳ הרבה</he> had a large fortune in movables. ",
+				"<cite ref=\"Bava Metzia 11b:6\">B. Mets. 11ᵇ</cite>, v. <cite ref=\"A00235\"><he>אַגַּב</he></cite>. ",
+				"<cite ref=\"Tosefta Kiddushin 1:8\">Tosef. Kidd. I, 8</cite>, sq. ",
+				"<cite ref=\"Mishnah Bava Metzia 4:1\">B. Mets. IV, 1</cite> <he>כל מ׳ קונין זה וכ׳</he> all movables (exchanged) buy each other, i.e. taking possession by the one gives possession to the other party; a. v. fr."
+			]
+		}
+	]
+}

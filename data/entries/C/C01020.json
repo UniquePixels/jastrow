@@ -1,0 +1,41 @@
+{
+	"id": "C01020",
+	"slug": "גמי-1",
+	"headword": {
+		"text": "גְּמִי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּמַע"
+		}
+	],
+	"page": {
+		"number": 252,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"C01020\"><he>גַּמֵּי</he></cite>, <cite ref=\"C01059\"><he>גַּמַּע</he></cite> ch. = h. to <i>swallow, quaff</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 39:30\">Targ. Job XXXIX, 30</cite> <he>גָּמְעָן</he> (Ms. <he>גַּמְעַאן</he>).—",
+						"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:7:7\">Y. Ab. Zar. II, 41ᶜ</cite> bot. (expl. <he>שורפה</he>, Mish. ",
+						"<cite ref=\"Mishnah Avodah Zarah 2:7\">Ab. Zar. II, 7</cite>) <he>גמי לה</he> (ed. <cite ref=\"C01027\"><he>גמילה</he></cite>, corr. acc.) he quaffs it, sucks it out. ",
+						"<cite ref=\"Sukkah 49b:5\">Succ. 49ᵇ</cite> <he>לִיגְמַע גַּמּוּעֵי</he> let him quaff (take full draughts); <cite ref=\"Sukkah 49b:5\">ib.</cite> <he>אגמע גמועי</he> (read: <he>מְגַמַּע</he> with Rashi, or <cite ref=\"C01059\"><he>גַּמַּע</he></cite>, v. Rabb. D. S. a. l. note 300). ",
+						"<cite ref=\"Shabbat 109b:7\">Sabb. 109ᵇ</cite> <he>וליגמע</he>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

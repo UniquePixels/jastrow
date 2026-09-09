@@ -1,0 +1,40 @@
+{
+	"id": "J00214",
+	"slug": "יוסטא",
+	"headword": {
+		"text": "יוּסְטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יוּסְטִי"
+		}
+	],
+	"page": {
+		"number": 570,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (abbrev. of Justus or Justinus) <i>Yusta, Yusti</i>. ",
+			"units": []
+		},
+		{
+			"gloss": " ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 6:12:1\">Cant. R. to VI, 12</cite> <he>י׳ חייטא</he> Yusta, the tailor."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 6:4:5\">Y. Erub. VI, 23ᶜ</cite> bot. <he>ר׳ יוסטי</he>; <cite ref=\"Jerusalem Talmud Shekalim 2:1:5\">Y. Shek. II, beg. 46ᶜ</cite> <he>ר׳ יוסטא</he>.—",
+				"<cite ref=\"Jerusalem Talmud Terumot 11:4:9\">Y. Ter. XI, 48ᵃ</cite>; <cite ref=\"Jerusalem Talmud Maaser Sheni 5:1:8\">Y. Maas. Sh. V, 55ᵈ</cite> bot. <he>יוסטי בר שונם</he>; <cite ref=\"Jerusalem Talmud Sheviit 6:1:23\">Y. Shebi. VI, 36ᵈ</cite> <he>יוסטא בר ש׳</he>."
+			],
+			"label": "2"
+		}
+	]
+}

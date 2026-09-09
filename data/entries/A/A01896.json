@@ -1,0 +1,33 @@
+{
+	"id": "A01896",
+	"slug": "אלכסנדריא",
+	"headword": {
+		"text": "אֲלֶכְסַנְדַּרְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲלֶכְסַנְדְּרִיאָה"
+		},
+		{
+			"text": "אֲלַכְ׳"
+		}
+	],
+	"page": {
+		"number": 70,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Alexandria</i>, in Egypt. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 30:15\">Targ. Ez. XXX, 15</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:2:5\">Y. Ḥag. II, 77ᵈ</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Kelim 15:1\">Kel. XV, 1</cite>, v. next w.—",
+				"<cite ref=\"Midrash Tehillim 19:8\">Midr. Till. to Ps. XIX</cite>, a ship coming <he>מא׳</he>. V. <cite ref=\"A01738\"><he>אַכְסַנְדַּרְיָא</he></cite>."
+			]
+		}
+	]
+}

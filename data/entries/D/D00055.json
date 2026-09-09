@@ -1,0 +1,32 @@
+{
+	"id": "D00055",
+	"slug": "דבח-2",
+	"headword": {
+		"text": "דְּבַח",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּבְחָא"
+		},
+		{
+			"text": "דִּיבְחָא"
+		}
+	],
+	"page": {
+		"number": 277,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"G00031\"><he>זֶבַח</he></cite> , <i>slaughtering, sacrifice, feast</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 5:17\">Targ. II Kings V, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 21:3\">Targ. Prov. XXI, 3</cite>; a. e.—Pl. <he>דִּבְחִין</he>, <he>דִּבְחַיָּא</he>, <he>דִּיבְ׳</he>. ",
+				"<cite ref=\"Onkelos Numbers 25:2\">Targ. Num. XXV, 2</cite> <he>דִּבְחֵי</he> (some ed. O. <he>דַּבְּ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on II Samuel 15:12\">Targ. II Sam. XV, 12</cite>; a. fr.—Esp. <i>the feast of Passover</i>. ",
+				"<cite ref=\"Shabbat 110a:7\">Sabb. 110ᵃ</cite> <he>בין ד׳ לעצרתא</he> between Passover and Pentecost."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "P00374",
+	"slug": "עות-2",
+	"headword": {
+		"text": "עוּת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1059,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"P00377\"><he>עַיֵּית</he></cite> (<cite ref=\"P00373\">preced.</cite>) <i>to make suitable, adjust</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 3\">Lam. R. to III, 9</cite> Ar., v. <cite ref=\"R00559\"><he>צְמַד</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

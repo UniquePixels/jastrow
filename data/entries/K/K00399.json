@@ -1,0 +1,30 @@
+{
+	"id": "K00399",
+	"slug": "כוש-2",
+	"headword": {
+		"text": "כּוּשׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 626,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. <i>Cush</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " son of Ham. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 10:6\">Targ. Gen. X, 6</cite>; a. e.—2) <i>the land of Cush, Aethiopia</i>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 19:9\">Targ. II Kings XIX, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 12:1\">Targ. Y. Num. XII, 1</cite>; a. e.—",
+				"<cite ref=\"Yalkut Shimoni on Torah 168:2\">Yalk. Ex. 168</cite>. ",
+				"<cite ref=\"Pesachim 94a\">Pes. 94ᵃ</cite>; <cite ref=\"Taanit 10a:9\">Taan. 10ᵃ</cite> <he>מצרים</he> … <he>בכ׳</he> Egypt is one sixtieth as large as Aethiopia. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:23\">Y. Ber. I, 2ᶜ</cite> bot. <he>תמצית כ׳ וכ׳</he> the juice (moisture) of Aeth. is absorbed by Egypt; a. e."
+			],
+			"label": "1"
+		}
+	]
+}

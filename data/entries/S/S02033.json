@@ -1,0 +1,33 @@
+{
+	"id": "S02033",
+	"slug": "קריב-2",
+	"headword": {
+		"text": "קָרֵיב"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָרֵב"
+		}
+	],
+	"page": {
+		"number": 1419,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., <he>קָרֵיבָא</he>, <he>קָרִי׳</he>, <he>קָרֵיבְתָּא</he> f. (<cite ref=\"S01884\"><he>קְרֵב</he></cite>) <i>near, related</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 22:2\">Targ. Deut. XXII, 2</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 21:3\">Targ. Lev. XXI, 3</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 18:6\">Ib. XVIII, 6</cite>; a. v. fr.—",
+				"<cite ref=\"Jerusalem Talmud Ketubot 9:2:2\">Y. Keth. IX, 33ᵃ</cite> top <he>כהדא קְרִיבְתֵּיה דרב וכ׳</he> as in the case of that relative of R. S.—Pl. <he>קָרִיבִין</he>, <he>קָרִיבַיָּא</he>; <he>קָרִיבַן</he>, <he>קְרִיבָתָא</he>. ",
+				"<cite ref=\"Onkelos Leviticus 18:17\">Targ. O. Lev. XVIII, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 38:12\">Targ. Ps. XXXVIII, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 23:5\">Targ. Ez. XXIII, 5</cite>; a. fr."
+			]
+		}
+	]
+}

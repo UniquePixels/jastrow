@@ -1,0 +1,30 @@
+{
+	"id": "V00540",
+	"slug": "תכל-3",
+	"headword": {
+		"text": "תַּכֵּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּכָּלָא"
+		},
+		{
+			"text": "תָּכְלָא"
+		}
+	],
+	"page": {
+		"number": 1668,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"V00539\">preced.</cite>) <i>bereft, childless</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 17:8\">Targ. II Sam. XVII, 8</cite>, v. <cite ref=\"V00539\">preced.</cite> Targ. O. ed. Berl. ",
+				"<cite ref=\"Exodus 23:26\">Ex. XXIII, 26</cite> (ed. Vien. a. oth. <he>מְתַכְּלָא</he>; Y. ed. Vien. <cite ref=\"V00540\"><he>תַּכְלָא</he></cite>); a. e.—",
+				"<cite ref=\"Pesachim 70b:11\">Pes. 70ᵇ</cite> <he>אבין ת׳</he> (Ms. M. 2 <he>אבון תַּכָּאלָא</he>) Abin the childless (surname of <cite ref=\"T00095\"><he>רבין</he></cite>); <cite ref=\"Chullin 110a:5\">Ḥull. 110ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 151b:17\">Sabb. 151ᵇ</cite> (Rashi <he>תיכ׳</he>), v. <cite ref=\"P00233\"><he>עֲוִירָא</he> I</cite>, II."
+			]
+		}
+	]
+}

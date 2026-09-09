@@ -1,0 +1,47 @@
+{
+	"id": "K00762",
+	"slug": "כלם-1",
+	"headword": {
+		"text": "כָּלַם"
+	},
+	"page": {
+		"number": 644,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"K00670\"><he>כָּלָא</he></cite>)<i>to be restrained, to be retired</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִכְלָם"],
+			"senses": [
+				{
+					"gloss": "<i>to be retired</i>, (cmp. <cite ref=\"K00444\"><he>כְּזַז</he></cite>) <i>to be put to shame, be rebuked</i>. ",
+					"units": [
+						"<cite ref=\"Avot D'Rabbi Natan 9\">Ab. d’R. N. ch. IX</cite> (ref. to <cite ref=\"Numbers 12:14\">Num. XII, 14</cite>) <he>שתִּכָּלֵם ז׳ ימים</he> that she should live in retirement for seven days (and not appear before the king); (<cite ref=\"Sifrei Bamidbar 106:1\">Sifré Num. 106</cite> <he>שתהא מוּכְלֶמֶת</he>). ",
+						"<cite ref=\"Berakhot 16b:20\">Ber. 16ᵇ</cite> <he>שלא נבוש ולא נִכָּלֵם מאבותינו</he> (v. Rabb. D. S. a. l. note 4) that we may not be put to shame and not be abashed when compared with our fathers (Y. ib. IV, 7ᵈ bot. <he>שלא נבוש מאבותינו לעו״הב</he>). ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:14:1\">Cant. R. to I, 14</cite> <he>בהִכָּלְמוֹ</he> in his shyness."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִכְלִים"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to retire, to rebuke, shame</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 31a:13\">Kidd. 31ᵃ</cite> bot. <he>ולא הִכְלִימָהּ</he> and he did not scold her. ",
+						"<cite ref=\"Kiddushin 31b:5\">Ib. 31ᵇ</cite> <he>כלום … ולא הִכְלַמְתָּהּ</he> did she (thy mother) throw a bag of money into the sea in thy presence, and thou didst not reproach her?—",
+						"<cite ref=\"Midrash Tehillim 4:8\">Midr. Till. to Ps. IV, 3</cite> <he>עד מתי אתם מַכְלִימִין וכ׳</he> how long will you slander me and my dignity?; a. e.—Part. Hof. <he>מוּכְלָם</he>, f. <he>מוּכְלֶמֶת</he>, v. supra."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

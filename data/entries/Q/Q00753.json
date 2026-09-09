@@ -1,0 +1,34 @@
+{
+	"id": "Q00753",
+	"slug": "פיסטין",
+	"headword": {
+		"text": "פִּיסְטִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיסְטִיס"
+		},
+		{
+			"text": "פִּסְ׳"
+		}
+	],
+	"page": {
+		"number": 1167,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (πίστις) <i>trust</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 672\">Yalk. Ps. 672</cite> <he>נוטלין … ופורעין בפ׳</he> they borrow from one another in trust (without witnesses or note) and pay in trust; <cite ref=\"Midrash Tehillim 19:7\">Midr. Till. to Ps. XIX</cite> <he>בפינוסין</he>, ed. Bub. <he>בפטסין</he> (corr. acc.).—Esp. <he>שטר פ׳</he> <i>a deed of trust</i>, an instrument by which property is conveyed to a person in trust (fideicommissum) to use it in a certain way; <i>a feigned sale</i> or <i>donation</i> (for the purpose of eluding creditors &c.). ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 2:2:1\">Y. Keth. II, 26ᵇ</cite> bot. <he>נאמנין … ושטר פ׳ הוא</he> (not <cite ref=\"Q00291\"><he>פוסיטים</he></cite>, <cite ref=\"Q00759\"><he>פיסיטים</he></cite>) witnesses (signed on an instrument) are credited when they say, it was a deed of trust (v. <cite ref=\"A02041\"><he>אֲמָנָה</he></cite>), or it was a feigned transfer. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 2:2:1\">Ib.</cite> (ref. to <cite ref=\"Job 11:14\">Job XI, 14</cite>) ‘if there be wrong in thy house, remove it’, this means a deed &c.; Bab. ",
+				"<cite ref=\"Ketubot 19b:2\">Keth. 19ᵇ</cite> <he>פסים</he>, (read with Ar. <cite ref=\"Q01300\"><he>פָּסִיס</he></cite> q. v.). Ib. 79ᵃ <he>הרוצה … כותבת שטר פסים לאחרים</he> if a woman desires to withhold her property from her husband’s control, she may write out a deed of trust (a feigned transfer) to a third person (prior to her marriage); Tosef. ib. IX, 2 <he>כותבן שטר פטים לאחר</he> ed. Zuck. (Var. <he>בטפיח</he>, <he>כותבתן בטפוס</he>, corr. acc.). ",
+				"<cite ref=\"Bava Batra 154b:6\">B. Bath. 154ᵇ</cite> <he>אם אמר שטר פסים הוא זה</he> (Ms. H. <he>פיס</he>) if he says, it was a feigned sale (you persuaded me to a nominal sale in order to make people believe that you are a man of means)."
+			]
+		}
+	]
+}

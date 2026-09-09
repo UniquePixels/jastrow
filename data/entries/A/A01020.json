@@ -1,0 +1,24 @@
+{
+	"id": "A01020",
+	"slug": "אחות",
+	"headword": {
+		"text": "אָחוֹת"
+	},
+	"page": {
+		"number": 39,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>אחה</he> , v. <cite ref=\"A00988\"><he>אָח</he> I</cite>) <i>sister</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yevamot 1:1\">Yeb. I, 1</cite>; a. fr.—",
+				"<cite ref=\"Chullin 114a:12\">Ḥull. 114ᵃ</cite> (of animals).—Pl. <cite ref=\"A01029\"><he>אַחֲיוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Yevamot 3:1\">Yeb. III, 1</cite>; a. e."
+			]
+		}
+	]
+}

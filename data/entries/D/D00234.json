@@ -1,0 +1,28 @@
+{
+	"id": "D00234",
+	"slug": "דוי-3",
+	"headword": {
+		"text": "דוי",
+		"disambiguator": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּוָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 284,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. preced; cmp. b. h. <cite ref=\"K00951\"><he>כָּסַף</he></cite>, <cite ref=\"K00692\"><he>כָּלָה</he></cite>) <i>to look out for, espy</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 35a\">Sabb. 35ᵃ</cite> <he>דָּוֵי למזרח</he> Ar. (ed. <cite ref=\"D00013\"><he>דָּאוֵי</he></cite>) he looked eastward (for the reflection of the setting sun). Ib. 53ᵇ they raise their nostrils [read:] <he>ומסגי כי דָּוֵי</he> (Ms. O. <he>כדובי</he>) and march like looking out (for the wolf). ",
+				"<cite ref=\"Keritot 6a\">Ker. 6ᵃ</cite> <he>דְּווּ לפומיה וכ׳</he> Ar. (ed. <he>חזו</he>) watch the lips of &c. ",
+				"<cite ref=\"Tamid 26b:23\">Tam. 26ᵇ</cite> <he>דוי להכא וכ׳</he> he (the watchman) looks out in both directions."
+			]
+		}
+	]
+}

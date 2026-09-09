@@ -1,0 +1,28 @@
+{
+	"id": "M01484",
+	"slug": "מלבנתא",
+	"headword": {
+		"text": "מַלְבֵּנְתָּא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "מַלְבֵּינְ׳"
+		}
+	],
+	"page": {
+		"number": 787,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01483\">preced.</cite> wds.) <i>quadrangular frame</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 33:20\">Targ. Y. Num. XXXIII, 20</cite> [prob. to be read:] <he>מַלְבֵּינָתָא דבניין</he> (<i>pl.</i>) building moulds."
+			]
+		}
+	]
+}

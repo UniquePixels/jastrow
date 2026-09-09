@@ -1,0 +1,30 @@
+{
+	"id": "H01670",
+	"slug": "חרי-5",
+	"headword": {
+		"text": "חָרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָרַיָּא"
+		}
+	],
+	"page": {
+		"number": 501,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>חרר</he>) <i>excrements</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 9b:7\">Taan. 9ᵇ</cite> <he>חריא דעיזי</he> excrements of goats (v. Rabb. D. S. a. l. note 7). ",
+				"<cite ref=\"Pesachim 110a:14\">Pes. 110ᵃ</cite> bot. <he>ח׳ חמימי וכ׳</he> hot excrements in broken baskets (words in an incantation). ",
+				"<cite ref=\"Gittin 70a\">Gitt. 70ᵃ</cite> <he>קורטמי דחרי</he> Ar. (ed. <he>דחחי</he>) carthamus growing in dunged fields."
+			]
+		}
+	]
+}

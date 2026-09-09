@@ -1,0 +1,28 @@
+{
+	"id": "H01613",
+	"slug": "חרובא-1",
+	"headword": {
+		"text": "חֲרוּבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲרוּבָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 499,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"H01611\"><he>חֲרוּב</he> I</cite> , <i>carob</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 35\">Lev. R. s. 35</cite> <he>צריכין ישראל לח׳ וכ׳</he> Israel needs carob (poverty) to do repentance; <cite ref=\"Yalkut Shimoni on Nach 256\">Yalk. Is. 256</cite>; <cite ref=\"Vayikra Rabbah 13\">Lev. R. s. 13</cite> (not <he>לחיר׳</he>). ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:2:1\">Y. Kil. I, 27ᵃ</cite> (expl. <cite ref=\"H01611\"><he>חרוב</he></cite> Mish. ",
+				"<cite ref=\"Mishnah Kilayim 1:2\">ib. I, 2</cite>) <he>כמין פול מצרי</he> (<he>פרסי</he>) <he>הוא … דמיין לח׳</he> it is a variety of the Egyptian (Persian?) bean, and its pods look like those of the carob. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 3:5:2\">Y. Succ. III, 53ᵈ</cite> top."
+			]
+		}
+	]
+}

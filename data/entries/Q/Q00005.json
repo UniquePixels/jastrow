@@ -1,0 +1,32 @@
+{
+	"id": "Q00005",
+	"slug": "פאגי",
+	"headword": {
+		"text": "פָּאגֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּגֵּי"
+		},
+		{
+			"text": "בֵּית פָּאגֵי"
+		}
+	],
+	"page": {
+		"number": 1130,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Beth Pagé</i> (Βηθφαγῆ), a fortified suburb of Jerusalem. ",
+			"units": [
+				"<cite ref=\"Pesachim 91a:5\">Pes. 91ᵃ</cite> (Ms. M. 2 <cite ref=\"Q00058\"><he>פגים</he></cite>, v. Rabb. D. S. a. l. note 5). ",
+				"<cite ref=\"Pesachim 63b:3\">Ib. 63ᵇ</cite> (Ms. M. 2 <cite ref=\"Q00058\"><he>פגים</he></cite>); <cite ref=\"Menachot 78b:2\">Men. 78ᵇ</cite>. ",
+				"<cite ref=\"Sotah 45a:9\">Sot. 45ᵃ</cite>; <cite ref=\"Sanhedrin 14b:4\">Snh. 14ᵇ</cite> <he>בית פאגי</he> (Ms. M. <he>בית הפאגי</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "H01822",
+	"slug": "חשוך-3",
+	"headword": {
+		"text": "חֲשׁוֹךְ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲשׁוֹכָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 509,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01821\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>darkness</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 10:21\">Targ. Ex. X, 21</cite>, sq.; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Ezekiel 13:18\">Targ. Ez. XIII, 18</cite>, v. <cite ref=\"T01034\"><he>רְקִיעָא</he> II</cite>.—",
+				"<cite ref=\"Pesachim 34b\">Pes. 34ᵇ</cite> <he>ארעא דח׳</he> a land of darkness (fogs). ",
+				"<cite ref=\"Chagigah 12b:15\">Ḥag. 12ᵇ</cite> bot. <he>ומי איכא ח׳ וכ׳</he> is there darkness before the Lord?; a. fr.—Pl. <he>חֲשׁוֹכַיָּא</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 88:7\">Targ. Ps. LXXXVIII, 7</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>charred wick, snuff</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 32a\">Bets. 32ᵃ</cite> <he>עדויי ח׳</he> Ar. (ed. <cite ref=\"H00491\"><he>חוּשְׁכָּא</he></cite>). v. <cite ref=\"M00849\"><he>מָחַט</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

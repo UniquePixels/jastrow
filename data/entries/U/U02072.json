@@ -1,0 +1,27 @@
+{
+	"id": "U02072",
+	"slug": "שתא-1",
+	"headword": {
+		"text": "שַׁתָּא"
+	},
+	"page": {
+		"number": 1636,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>שנתא</he>) = h. <cite ref=\"U01570\"><he>שָׁנָה</he></cite>, <i>year</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 26:12\">Targ. Gen. XXVI, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 144:13\">Targ. Ps. CXLIV, 13</cite> (h. text <cite ref=\"G00558\"><he>זן</he></cite>); a. v. fr.—",
+				"<cite ref=\"Avodah Zarah 34a:8\">Ab. Zar. 34ᵃ</cite>, a. fr. <he>תריסר ירחי ש׳</he> twelve months of the year, a regular year. ",
+				"<cite ref=\"Sanhedrin 18b:12\">Snh. 18ᵇ</cite> <he>ועברוה … לההיא ש׳</he> and the Rabbis declared that year a leap-year. ",
+				"<cite ref=\"Vayikra Rabbah 34:16\">Lev. R. s. 34</cite> <he>בלילי ריש ש׳</he> in the night of the New Year. ",
+				"<cite ref=\"Vayikra Rabbah 34:16\">Ib.</cite> <he>בסיפא דש׳</he> at the end of the year; a. v. fr.—Pl. <cite ref=\"U00202\"><he>שְׁנָתָא</he></cite>, v. <cite ref=\"U01562\"><he>שְׁנָא</he> II</cite>."
+			]
+		}
+	]
+}

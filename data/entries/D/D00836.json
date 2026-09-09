@@ -1,0 +1,27 @@
+{
+	"id": "D00836",
+	"slug": "דליקה",
+	"headword": {
+		"text": "דְּלֵיקָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּלֵקָה"
+		}
+	],
+	"page": {
+		"number": 310,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>דלק</he>) <i>fire, conflagration</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 16:1\">Sabb. XVI, 1</cite> sq.; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"id": "S02129",
+	"slug": "קרע-2",
+	"headword": {
+		"text": "קְרַע"
+	},
+	"page": {
+		"number": 1424,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"S02128\">same</cite> <cite ref=\"Moed Katan 20b:16\">M. Kat. 20ᵇ</cite> <he>אמימר … ק׳ עילויה</he> when Amemar’s grandson died, he rent his garment for him. ",
+			"units": [
+				"<cite ref=\"Ketubot 104a:5\">Keth. 104ᵃ</cite> <he>קַרְעִיה וכ׳</he>, v. <cite ref=\"S02131\"><he>קִרְעָא</he></cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קָרַע"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S02128\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 35:15\">Targ. Ps. XXXV, 15</cite> Ms. (ed. <cite ref=\"B00459\"><he>בזע</he></cite>).—Part. pass. <he>מְקָרַע</he>. ",
+						"<cite ref=\"Berakhot 58b\">Ber. 58ᵇ</cite>, v. <cite ref=\"F00041\"><he>וִילוֹן</he></cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיקְּרַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be torn, cut open</i>. ",
+					"units": [
+						"<cite ref=\"Bekhorot 42b:17\">Bekh. 42ᵇ</cite> <he>אטו כל דמִיקְּרַע וכ׳</he> is every <i>ṭumṭum</i> that is operated upon found to be a male?; <cite ref=\"Yevamot 83b:7\">Yeb. 83ᵇ</cite>"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

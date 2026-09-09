@@ -1,0 +1,48 @@
+{
+	"id": "L00466",
+	"slug": "ליל-3",
+	"headword": {
+		"text": "לַיִל"
+	},
+	"altHeadwords": [
+		{
+			"text": "לַיְלָה"
+		}
+	],
+	"page": {
+		"number": 707,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>night, evening</i>; <i>darkness</i>; metaph. <i>suffering, misery</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 2:17:1\">Cant. R. to II, 17</cite> <he>לֵילָן של מלכיות</he> the misery (of exile) under the governments; <he>לילן של מצוים</he> the sufferings in Egypt; v. <cite ref=\"Q00613\"><he>פִּיחָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 1:1:17\">Y. Taan. I, 64ᵃ</cite> top, v. <cite ref=\"B01138\"><he>בֹּקֶר</he></cite>. ",
+				"<cite ref=\"Berakhot 3a:12\">Ber. 3ᵃ</cite> <he>ג׳ משמרות הוי הל׳</he> the night is divided into three watches. ",
+				"<cite ref=\"Mishnah Zevachim 5:3\">Zeb. V, 3</cite> <he>ליום וָלַ׳ וכ׳</he> the same day and the night following to midnight. ",
+				"<cite ref=\"Sanhedrin 96a:13\">Snh. 96ᵃ</cite> <he>שנעשה עמו מעשה ל׳</he> Ms. M. (v. Rabb. D. S. a. l.) night-work was done for him (the stars helping, v. ",
+				"<cite ref=\"Judges 5:20\">Jud. V, 20</cite>); a. v. fr.—Pl. <he>לֵילוֹת</he>, constr. <cite ref=\"L00472\"><he>לֵילֵי</he></cite> (also used as a sing.: <i>night-time</i>, v. <cite ref=\"L00467\">next w.</cite>). ",
+				"<cite ref=\"Mishnah Berakhot 1:5\">Ber. I, 5</cite> <he>בַּלֵּ׳</he> at night (in the night prayer). ",
+				"<cite ref=\"Taanit 23a:1\">Taan. 23ᵃ</cite> <he>בל׳ רביעיות ובל׳ שבתות</he> (not <cite ref=\"T00107\"><he>רביעית</he></cite>) in the nights of Wednesdays and Sabbaths. Sifra <cite ref=\"Leviticus 1:17\">B’ḥuck. ch. I</cite> <he>מל׳ שבת לל׳ שבת</he> every Sabbath night; <cite ref=\"Vayikra Rabbah 35:4\">Lev. R. s. 35</cite> <he>בל׳ שבתות</he>. ",
+				"<cite ref=\"Pesachim 71a:2\">Pes. 71ᵃ</cite> <he>ל׳ יו״ט האחרון</he> the night of the last (eighth) day of the festival; <cite ref=\"Sukkah 48a:6\">Succ. 48ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. <i>Laylah</i> (ref. to <cite ref=\"Job 3:3\">Job III, 3</cite>), name of the angel of night and of conception. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 96a:13\">Snh. 96ᵃ</cite>. ",
+				"<cite ref=\"Niddah 16b:51\">Nidd. 16ᵇ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

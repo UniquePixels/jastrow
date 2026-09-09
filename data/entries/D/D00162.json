@@ -1,0 +1,23 @@
+{
+	"id": "D00162",
+	"slug": "דו-1",
+	"headword": {
+		"text": "דּוּ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 282,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>רְּהוּ</he>, cmp. <cite ref=\"D00442\"><he>דִּי</he></cite>) <i>who, which is, since he, it</i>, &c. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 19:1:3\">Y. Sabb. XIX, beg. 16ᵈ</cite> <he>דו אמר … הוא דאמר</he> the same that says …, says also &c. ",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:21\">Y. Peah I, 15ᶜ</cite> top <he>בגין דו בעי וכ׳</he> because he wants to teach &c. ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:4:5\">Y. Maasr. I, 49ᵃ</cite> bot. <he>מן דו</he> from the time that. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 9:6:2\">Y. Gitt. IX, 50ᶜ</cite> top nobody says ‘even’ <he>אלא דו מודה וכ׳</he> except he admits the preceding; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "C00994",
+	"slug": "גם-2",
+	"headword": {
+		"text": "גַּם",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּאַם"
+		},
+		{
+			"text": "גמא"
+		}
+	],
+	"page": {
+		"number": 251,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00993\">preced.</cite>) <i>joint, angle</i>, esp. <i>two sides of a rectangle</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 55a:5\">Erub. 55ᵃ</cite> <he>כמין גם</he> Ar. (ed. <he>גאם</he>) in the shape of a right angle. ",
+				"<cite ref=\"Zevachim 53b:5\">Zeb. 53ᵇ</cite> <cite ref=\"C00994\"><he>גמא</he></cite> (<cite ref=\"Yalkut Shimoni on Torah 441:1\">Yalk. Lev. 441</cite> <he>גאם</he>). ",
+				"<cite ref=\"Pesachim 8b:14\">Pes. 8ᵇ</cite> <he>שורה אחת כמין ג׳</he> one row of wine vessels, in the shape of &c., i.e. the front and the whole upper layer. Y. ib. I, 27ᵇ bot. <he>קולפו כמין גם</he>.—",
+				"<cite ref=\"Mishnah Kelim 14:8\">Kel. XIV, 8</cite> (<he>מפתח</he>) <he>של גם שנשבר מתוך גומו</he> a key whose bit is joined (opp. to <he>של ארכובה</he> of one piece) broken at its junction. [<cite ref=\"Shabbat 105a:12\">Sabb. 105ᵃ</cite> <he>על הגם</he> Ar., ed. <he>על הגַּס</he>, q. v.]—Pl. <he>גַּמִּים</he>, <he>גַּמִּין</he>. Y. Pes. l. c. <he>קולפו כמין שני ג׳</he> he takes off for examination two front and two upper layers, v. supra. Ib. if the vessels are arranged like steps <he>קולפו ג׳ ג׳</he> he must examine by front and upper layers on each landing. ",
+				"<cite ref=\"Bava Metzia 28a:7\">B. Mets. 28ᵃ</cite> <he>מדת גַּמָּיו</he> the combined measure of both dimensions of a piece of goods, square measure, opp. <he>מדת ארכו ומדת רחבו</he> the measure of each dimension specified.—",
+				"<cite ref=\"Shabbat 103b:13\">Sabb. 103ᵇ</cite> <he>גַּמִּין</he>, v. <he>גי״מל</he>.—[Commentators explain our w. = <i>Greek Gamma</i>, Γ, whence the Var. <cite ref=\"C00995\"><he>גַּמָּא</he></cite>.]"
+			]
+		}
+	]
+}

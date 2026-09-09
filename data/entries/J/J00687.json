@@ -1,0 +1,33 @@
+{
+	"id": "J00687",
+	"slug": "ישט-2",
+	"headword": {
+		"text": "יְשַׁט"
+	},
+	"page": {
+		"number": 600,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אוֹשֵׁיט</he> <cite ref=\"J00686\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 6:21\">Targ. Jud. VI, 21</cite>. ",
+						"<cite ref=\"Onkelos Exodus 22:7\">Targ. Ex. XXII, 7</cite>; a. fr.—",
+						"<cite ref=\"Jerusalem Talmud Megillah 4:1:4\">Y. Meg. IV, 74ᵈ</cite> top <he>מוֹשֵׁט תרגומא מן גו סיפרא</he> reaching forth for a Chaldaic version from between the (Hebrew) book."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

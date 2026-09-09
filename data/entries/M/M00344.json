@@ -1,0 +1,22 @@
+{
+	"id": "M00344",
+	"slug": "מהדורא-1",
+	"headword": {
+		"text": "מַהֲדוֹרָא"
+	},
+	"page": {
+		"number": 736,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"E00148\"><he>הֲדַר</he></cite>) <i>review, revision</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 157b:9\">B. Bath. 157ᵇ</cite> <he>מ׳ קמא דר׳ וכ׳</he> (in) the first revision (of the Talmudic traditions) by R. Ashi he told us (v. Rabb. D. S. a. l. note 3). [In later literature <he>מ׳</he> <i>edition</i>.]"
+			]
+		}
+	]
+}

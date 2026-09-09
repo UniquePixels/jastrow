@@ -1,0 +1,33 @@
+{
+	"id": "B00197",
+	"slug": "בהתא",
+	"headword": {
+		"text": "בַּהֲתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּהְתְּתָא"
+		},
+		{
+			"text": "בֵּיהוּתָא"
+		}
+	],
+	"page": {
+		"number": 143,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(h. <cite ref=\"B01376\"><he>בּשֶׁת</he></cite>; <cite ref=\"B00196\"><he>בהת</he></cite>, <cite ref=\"B00170\"><he>בהי</he></cite>)<i>shame, disgrace; nakedness</i> (= h. <cite ref=\"P01321\"><he>עֶרְוָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 8:22\">Targ. Job VIII, 22</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 102b\">Snh. 102ᵇ</cite>; <cite ref=\"Bereishit Rabbah 49\">Gen. R. s. 49</cite> <he>סבי דב׳</he> elders of disgrace, v. <cite ref=\"A03328\"><he>אַשְׁמָה</he></cite>. ",
+				"<cite ref=\"Chullin 56b:7\">Ḥull. 56ᵇ</cite> <he>איגלאי בהתייהו</he> their shame (diseased condition) has been revealed. ",
+				"<cite ref=\"Targum of II Chronicles 32:21\">Targ. II Chr. XXXII, 21</cite> <he>בֵּיהוּת</he>."
+			]
+		}
+	]
+}

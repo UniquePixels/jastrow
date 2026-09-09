@@ -1,0 +1,71 @@
+{
+	"id": "S00058",
+	"slug": "קבל-2",
+	"headword": {
+		"text": "קְבַל"
+	},
+	"page": {
+		"number": 1309,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00057\">same</cite> (with <cite ref=\"A02666\"><he>אפי</he></cite>) <i>to visit</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 41:7\">Targ. Ps. XLI, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 45:10\">Ib. XLV, 10</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " ק׳ למימרא <i>to listen, obey</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַבֵּל", "קַבֵּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to receive, take, accept</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 23:8\">Targ. Ex. XXIII, 8</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 14:14\">Targ. II Sam. XIV, 14</cite> (h. text <he>ישא נפש</he>!). ",
+						"<cite ref=\"Aramaic Targum to Psalms 24:5\">Targ. Ps. XXIV, 5</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 12:3\">Targ. Is. XII, 3</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 20:17\">Targ. Lev. XX, 17</cite>; a. fr.—",
+						"<cite ref=\"Aramaic Targum to Psalms 62:11\">Targ. Ps. LXII, 11</cite> ed. Lag. (ed. <he>תהבלו</he> = <he>חבל׳</he> <i>seize</i>), v. <cite ref=\"E00041\"><he>הֲבַל</he></cite>.—Esp. <he>ק׳ למימרא</he> <i>to accept, consent, listen to, obey</i>. ",
+						"<cite ref=\"Onkelos Genesis 3:17\">Targ. Gen. III, 17</cite> (Y. ed. Vien. <cite ref=\"S00079\"><he>קְבֵלַת</he></cite> <i>Pe.</i>). Ib. XVI, 2. ",
+						"<cite ref=\"Onkelos Deuteronomy 26:17\">Targ. Deut. XXVI, 17</cite>; a. fr.—",
+						"<cite ref=\"Bava Metzia 117a:3\">B. Mets. 117ᵃ</cite> <he>קַבִּילִי עלאי</he> I took upon myself (consented to, was prepared for), v. <cite ref=\"P00794\"><he>עֲלִיָּה</he></cite>. Y. Ḥag. II, 77ᵈ <he>מרתא דביתא דקַבַּלְתָּן</he> the mistress of the house who received us (whose guests we were). ",
+						"<cite ref=\"Shabbat 17a:6\">Sabb. 17ᵃ</cite> <he>גזור וקַבְּלוּ מינייהו</he> they decreed the prohibition, and the people accepted it of them. ",
+						"<cite ref=\"Bekhorot 38a:14\">Bekh. 38ᵃ</cite> <he>בר קַבּוּלֶי טומאה</he> susceptible of levitical uncleanness; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְקַבֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be received, accepted</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 15:7\">Targ. Num. XV, 7</cite>; <cite ref=\"Onkelos Numbers 15:10\">10</cite>; <cite ref=\"Onkelos Numbers 15:13\">13</cite>. ",
+						"<cite ref=\"Targum of II Chronicles 30:27\">Targ. II Chr. XXX, 27</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (v. <cite ref=\"S00057\">preced.</cite> <i>Hithpa.</i>) <i>to be made the recipient of, to have assigned to</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 33:21\">Targ. O. Deut. XXXIII, 21</cite> <he>ויתקבל בקדמיתא דיליה</he> ed. Berl. (oth. ed. <he>ואתק׳</he>) to him (to God) shall be (has been) assigned a share in the foremost part of it (of the land; h. text <he>וירא ראשית לו</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "U01922",
+	"slug": "שרברובי",
+	"headword": {
+		"text": "שְׁרַבְרוּבִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁרַבְרוּבִיתָא"
+		}
+	],
+	"page": {
+		"number": 1628,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"U01914\"><he>שְׁרַב</he></cite> a. <cite ref=\"U01917\"><he>שַׁרְבֵּב</he> II</cite>) <i>dry heat</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:1:12\">Y. Shek. V, 48ᵈ</cite> <he>אית ביה ש׳</he>, v. <cite ref=\"S02193\"><he>קְרַר</he> I</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:1:12\">Ib.</cite> <he>ועד היכן שְׁרַבְרוּבִיתֵיה מטייה</he> and how far its dry heat reaches."
+			]
+		}
+	]
+}

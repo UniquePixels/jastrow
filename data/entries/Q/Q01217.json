@@ -1,0 +1,27 @@
+{
+	"id": "Q01217",
+	"slug": "פנתיר",
+	"headword": {
+		"text": "פַּנְתֵּיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּנְתֵּר"
+		}
+	],
+	"page": {
+		"number": 1191,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (πάνθηρ) <i>panther</i> or <i>leopard</i>.—Pl. <cite ref=\"Q01219\"><he>פַּנְתֵּירִין</he></cite>, <cite ref=\"Q01219\"><he>פַּנְתֵּרִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 78:7\">Midr. Till. to Ps. LXXVIII, 45</cite> (expl. <he>ערב</he> <cite ref=\"Midrash Tehillim 78:7\">ib.</cite>) <he>מין חיה הוא ושמה פ׳ והביאן וכ׳</he> (not <he>והביאו</he>) it is a species of wild beasts named leopards, and the Lord sent them &c.; <cite ref=\"Yalkut Shimoni on Nach 820:6\">Yalk. ib. 820</cite>."
+			]
+		}
+	]
+}

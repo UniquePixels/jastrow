@@ -1,0 +1,22 @@
+{
+	"id": "U00101",
+	"slug": "שבחתא",
+	"headword": {
+		"text": "שְׁבַחְתָּא"
+	},
+	"page": {
+		"number": 1512,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"U00099\"><he>שְׁבָחָא</he></cite>, <i>praise</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 33:1\">Targ. Ps. XXXIII, 1</cite> <he>יאיא ש׳</he> Ms. (ed. <he>יאי</he>, corr. acc., or read <he>שבחא</he>)."
+			]
+		}
+	]
+}

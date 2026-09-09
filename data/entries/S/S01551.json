@@ -1,0 +1,32 @@
+{
+	"id": "S01551",
+	"slug": "קנח-3",
+	"headword": {
+		"text": "קְנַח"
+	},
+	"page": {
+		"number": 1389,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"S01550\"><he>קַנַּח</he></cite> ch. same. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 28\">Lev. R. s. 28</cite>, end <he>וקַנְּחֵיה</he>, v. <cite ref=\"A00948\"><he>אֲזָא</he></cite>; a. e.—",
+						"<cite ref=\"Nedarim 10b:7\">Ned. 10ᵇ</cite> <he>מְקַנַּחְנָא</he>, v. <cite ref=\"S01595\"><he>קְנַם</he></cite>.—[Y. Ab. Zar. III, 43ᵃ <he>מתקנחא</he>, read as <cite ref=\"Jerusalem Talmud Orlah 1:5:9\">Y. Orl. I, end, 61ᶜ</cite> <he>מתקנתה</he>, v. <cite ref=\"V00899\"><he>תְּקַן</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

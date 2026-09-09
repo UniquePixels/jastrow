@@ -1,0 +1,31 @@
+{
+	"id": "Q00636",
+	"slug": "פיטרא-3",
+	"headword": {
+		"text": "פִּיטְרָא",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיטְרָה"
+		},
+		{
+			"text": "פִּטְ׳"
+		}
+	],
+	"page": {
+		"number": 1162,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (πέτρα) <i>rock</i>. Y’lamd. to Num. XXIII, 9 quot. in Ar.; <cite ref=\"Yalkut Shimoni on Torah 766:5\">Yalk. Num. 766</cite> <he>חפר … יהיה מוצא למטה פ׳</he> he dug in one place and found a rock below; <cite ref=\"Yalkut Shimoni on Torah 766:5\">ib.</cite> <he>הרי מצאתי פ׳ לבנות וכ׳</he> I have found a rock (Abraham) on which to build and establish the world. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 5:2:10\">Y. Shebi. V, 36ᵃ</cite> top <cite ref=\"Q00197\"><he>פוטרה</he></cite>, v. <cite ref=\"Q00151\"><he>פּוּאָה</he></cite>.—[<cite ref=\"Jerusalem Talmud Kilayim 1:9:4\">Y. Kil. I, 27ᵇ</cite> bot., <cite ref=\"Q00636\"><he>פיטרה</he></cite> emend. in Levy Talm. Dict., v. <cite ref=\"Q00621\"><he>פִּיטּוּרָה</he></cite>.—Ib. 27ᵃ bot. <he>פטר פיטרה סולינון</he>, v. <cite ref=\"Q00639\"><he>פִּיטְרוֹסִילִינוֹן</he></cite>.]"
+			]
+		}
+	]
+}

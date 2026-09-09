@@ -1,0 +1,61 @@
+{
+	"id": "N01301",
+	"slug": "נשי-2",
+	"headword": {
+		"text": "נְשֵׁי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְשָּׁא"
+		}
+	],
+	"page": {
+		"number": 938,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01300\">same</cite>, <i>to forget</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 8:19\">Targ. Deut. VIII, 19</cite> (O. ed. Berl. <i>Ithpe.</i>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַנְשִׁי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01300\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 137:5\">Targ. Ps. CXXXVII, 5</cite>; a. e.—Y. Dem. IV, 24ᵃ [read:] <he>דילמא אַנְשִׁיתָה מתקנה</he> perhaps thou didst forget to prepare it (by giving tithes)? <cite ref=\"Ketubot 20a:9\">Keth. 20ᵃ</cite> <he>ומַנְשֵׁי חר וכ׳</he> and one of the witnesses has forgotten (that he knows of the case). ",
+						"<cite ref=\"Chullin 93b\">Ḥull. 93ᵇ</cite> <he>אַנְשְׁיוּהָ לדר׳ וכ׳</he> they have forgotten R. Judah’s opinion. ",
+						"<cite ref=\"Bereishit Rabbah 77\">Gen. R. s. 77</cite> <he>דילמא אַנְשִׁינָן כלום</he> perhaps we forgot something (left behind). ",
+						"<cite ref=\"Bereishit Rabbah 78:7\">Gen. R. s. 78</cite> <he>אַנְשִׁית מאה</he> I forgot one hundred (of the fables); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to forget</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 2:6\">Targ. Lam. II, 6</cite> (ed. Vien. <cite ref=\"N01301\"><he>אינשי</he></cite>, corr. acc.); a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְנְשֵׁי", "אִינְּשֵׁי"],
+			"senses": [
+				{
+					"gloss": "<i>to forget</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 8:19\">Targ. O. Deut. VIII, 19</cite> (v. supra); a. e.—Y. Shek. VII, 50ᶜ bot. <he>ואִינְשְׁתָהּ</he> and forgot to take it out; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

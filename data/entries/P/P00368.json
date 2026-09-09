@@ -1,0 +1,28 @@
+{
+	"id": "P00368",
+	"slug": "עושף",
+	"headword": {
+		"text": "עוֹשֶׁף"
+	},
+	"altHeadwords": [
+		{
+			"text": "עשֶׁף"
+		}
+	],
+	"page": {
+		"number": 1059,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"H01405\"><he>חסף</he></cite>, a. b. h. <he>חָשַׂף</he>) <i>the curved blade of a double-edged axe, that part which is used for paring or chipping, adze</i>, contrad. to <he>בית בקּיע</he> that part which is used for splitting, v. <cite ref=\"B00692\"><he>בִּיקּוּעַ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:3\">Kel. XIII, 3</cite> <he>עוֹשְׁפּוֹ</he> (Ar. <he>עָשְׁפּוֹ</he>; R. S. a. l. reads: <he>אָשְׁפּוֹ</he>). ",
+				"<cite ref=\"Tosefta Keilim Metsia 1:3\">Tosef. Kel. B. Mets. I, 3</cite> <he>קרדום … ועשפו מן הטהור</he> (ed. Zuck. <he>ועשהו</he>, R. S. to <cite ref=\"Mishnah Kelim 11:4\">Kel. XI, 4</cite> <he>ועשאו</he>, corr. acc.) an axe which one made of unclean material, but the adze-shaped part of it is of clean material."
+			]
+		}
+	]
+}

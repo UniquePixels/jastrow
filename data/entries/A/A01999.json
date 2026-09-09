@@ -1,0 +1,38 @@
+{
+	"id": "A01999",
+	"slug": "אמון-1",
+	"headword": {
+		"text": "אָמוֹן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 76,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"A02038\"><he>אמן</he></cite>)<i>artist;</i> (homilet.) ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " = <cite ref=\"A00699\"><he>אוֹמֵן</he></cite>, <i>tutor</i>; ",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " = <cite ref=\"A01999\"><he>אָמוּן</he></cite> <i>nursed</i> (<i>well-covered</i>)<i>;guarded;</i> ",
+					"units": [],
+					"label": "b"
+				},
+				{
+					"gloss": " = <cite ref=\"A02000\">next w.</cite>, <i>metropolis</i>, (great). ",
+					"units": ["<cite ref=\"Bereishit Rabbah 1:1\">Gen. R. s. 1</cite>."],
+					"label": "c"
+				}
+			]
+		}
+	]
+}

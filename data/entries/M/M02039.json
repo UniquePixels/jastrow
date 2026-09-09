@@ -1,0 +1,47 @@
+{
+	"id": "M02039",
+	"slug": "מסתיא",
+	"headword": {
+		"text": "מִסְתְּיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִסְתְּיָיא"
+		},
+		{
+			"text": "מִי׳"
+		}
+	],
+	"page": {
+		"number": 812,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"M02033\"><he>מִסַּת</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (<i>it is</i>) <i>enough</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 12:14\">Targ. Y. Num. XII, 14</cite> <he>מִסְתְּיָהּ</he> it is enough for her. ",
+				"<cite ref=\"Targum of I Chronicles 21:15\">Targ. I Chr. XXI, 15</cite>; <cite ref=\"Targum of I Chronicles 21:27\">27</cite> <he>מִסְתְּיָיךְ</he>; (<cite ref=\"Targum Jonathan on II Samuel 24:16\">Targ. II Sam. XXIV, 16</cite> <cite ref=\"M02033\"><he>מסת</he></cite>).—Y. Keth. I, 25ᶜ <he>לא מִסְתְּיָיהּ וכ׳</he> is it not enough for her that she has been raised to priesthood?—",
+				"<cite ref=\"Gittin 14b:3\">Gitt. 14ᵇ</cite> <he>לא מִיסְתֵּיה וכ׳</he> (some ed. <cite ref=\"M01257\"><he>מִיסְתְּיֵיה</he></cite>) not enough that he did not help us but &c. ",
+				"<cite ref=\"Gittin 56b:15\">Ib. 56ᵇ</cite> <he>מִיסְתְּיָיךְ דקא חזית וכ׳</he> thou art sufficiently rewarded by seeing the distress of thy enemy. ",
+				"<cite ref=\"Bava Batra 126a:10\">B. Bath. 126ᵃ</cite> <he>לא מי׳ וכ׳</he> was it not enough that thou didst sell his property &c.? <cite ref=\"Berakhot 55a:15\">Ber. 55ᵃ</cite> <he>חדויה מִסְתְּיֵיה</he> his joy (over his good dream) is enough for him (he must not expect its realization); a. fr.—",
+				"<cite ref=\"Yalkut Shimoni on Torah 62:7\">Yalk. Gen. 62</cite> <he>הא מי׳ דכוליה בישא</he> this (sample) is enough to prove that all the wine is bad; <cite ref=\"Bereishit Rabbah 38:8\">Gen. R. s. 38</cite> <he>מִסְתּוּ</he> Ar. (ed. <cite ref=\"M02950\"><he>מִשְׁפּוּ</he></cite>; prob. to be read: <he>משפו מ׳ וכ׳</he>, v. <cite ref=\"M02950\"><he>מִשְׁפּוּ</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. P. Sm. 2184) <i>saturation, plenty</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 6:7\">Targ. Job VI, 7</cite> (sec. vers.) <he>הנון … והוות מ׳ וכ׳</he> they made me sickly, and thus there was more than enough for my meal (h. text <he>המה כדוי</he>, play on <cite ref=\"D00444\"><he>דַּי</he></cite> a. <he>דָּוו</he>), v. <cite ref=\"D00221\"><he>דָּווּתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "A03222",
+	"slug": "ארעאה",
+	"headword": {
+		"text": "אַרְעָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְעָיָיה"
+		}
+	],
+	"page": {
+		"number": 125,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A03221\">preced.</cite>) <i>earth-ward, that which, he who, is below, nethermost</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 16:3\">Targ. Josh. XVI, 3</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:4:6\">Y. Kil. IX, end, 32ᵈ</cite> <he>שלח א׳</he> to put off the undergarment. ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 10:1:4\">Y. B. Mets. X, beg. 12ᶜ</cite> <cite ref=\"A03224\"><he>ארעייא</he></cite> who lives in the story below.—Pl. <he>אַרְעָאִין</he>, <he>אַרְעָאֵי</he>. ",
+				"<cite ref=\"Onkelos Genesis 6:16\">Targ. Gen. VI, 16</cite>; a. e.—",
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite> <he>עביד בא׳ וכ׳</he> deal with the inferiors (females) as thou didst with the superiors (men); <cite ref=\"Eichah Rabbah 4:19\">ib. to IV, 19</cite>; Y. Succ. V, 55ᵇ (incorr. vers.).—Fem. <cite ref=\"A03226\"><he>אַרְעִיתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 41:7\">Targ. Ez. XLI, 7</cite>; a. fr.—Y. Maas. Sh. V, 56ᶜ top.—Pl. <cite ref=\"A03226\"><he>אַרְעַיָּתָא</he></cite>, <he>אַרְעַיָּיתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 42:5\">Targ. Ez. XLII, 5</cite>; <cite ref=\"Targum Jonathan on Ezekiel 42:6\">6</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 1:1:21\">Y. Yoma I, 38ᶜ</cite>; Y. Meg. V, 75ᶜ bot., v. <cite ref=\"A02452\"><he>אִסְכּוּפְתָּא</he></cite>. [Targ. Esth. <he>אַרַע מיניה</he>, v. <he>לְאַרַע</he>.]"
+			]
+		}
+	]
+}

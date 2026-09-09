@@ -1,0 +1,23 @@
+{
+	"id": "D00353",
+	"slug": "דוראי",
+	"headword": {
+		"text": "דּוּרַאי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 289,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"D00351\"><he>דּוּרָא</he></cite>) <i>county governor</i>,—<he>מרי ד׳</he> (Mylord, the governor), title of an officer. ",
+			"units": [
+				"<cite ref=\"Yoma 82b:1\">Yoma 82ᵇ</cite>; <cite ref=\"Sanhedrin 74a:20\">Snh. 74ᵃ</cite>; <cite ref=\"Pesachim 25b:4\">Pes. 25ᵇ</cite> (Ms. M. <cite ref=\"D00197\"><he>דודאי</he></cite>; Rashi: the lord of <i>my village</i>, v. <cite ref=\"D00351\"><he>דּוּרָא</he> I</cite>)."
+			]
+		}
+	]
+}

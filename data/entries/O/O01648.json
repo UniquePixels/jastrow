@@ -1,0 +1,32 @@
+{
+	"id": "O01648",
+	"slug": "סרס-3",
+	"headword": {
+		"text": "סָרַס",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1029,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>סֵירֵס</he> (<i>Saf.</i> of <he>ארס</he>, cmp. <cite ref=\"A03109\"><he>אָרִיס</he></cite>) <i>to manage</i>; trnsf. <i>to argue</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Sanhedrin 1:2:5\">Y. Snh. I, 18ᶜ</cite> top; <cite ref=\"Shir HaShirim Rabbah 3:7:3\">Cant. R. to III, 7</cite> (ref. to <cite ref=\"O01620\"><he>סריס</he></cite>, <cite ref=\"II Kings 25:19\">II Kings XXV, 19</cite>) <he>שמְסָרֵס את ההלכה</he> he manages the decision (argues the point of law); <cite ref=\"Bereishit Rabbah 70\">Gen. R. s. 70</cite> (ed. Leipz. <he>מפרד</he>, corr. acc.), v. <cite ref=\"M00564\"><he>מוּפְלָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

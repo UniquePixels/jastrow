@@ -1,0 +1,50 @@
+{
+	"id": "E00029",
+	"slug": "הבהב-1",
+	"headword": {
+		"text": "הִבְהֵב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 329,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Pilp. of <cite ref=\"E00027\"><he>הבב</he></cite> <i>toglow;</i> cmp. <he>הבל</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to singe, parch</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 4:1:3\">Y. Maasr. IV, beg., 51ᵃ</cite> <he>המְהַבְהֵב שיבולין באור</he> if one parches ears over the fire; <cite ref=\"Tosefta Ma'asrot 3:1\">Tosef. ib. III, 1</cite> <he>המה׳ בשדה וכ׳</he> (sub. <he>שיבולין</he>). ",
+				"<cite ref=\"Mishnah Menachot 10:4\">Men. X, 4</cite> (<cite ref=\"Menachot 66a\">66ᵃ</cite>). ",
+				"<cite ref=\"Beitzah 34a\">Bets. 34ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Shabbat 2:3\">Sabb. II, 3</cite> <he>ולא הִבְהֲבָהּ</he> and did not singe it (to prepare it for a wick).—",
+				"<cite ref=\"Sanhedrin 37a\">Snh. 37ᵃ</cite> is it possible for fire to be in contact with flax <he>ואינה מְהַבְהֶבֶת</he> and not to singe?—<i>Part. pass.</i> <he>מְהוּבְהָב</he> <i>lightly roasted</i>. Y. ib. VIII, beg., 26ᵃ"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be like coals giving heat without flame; to nod consent without showing anxiety</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 34a:4\">Ber. 34ᵃ</cite> <he>שנים מהבהב</he> (Y. ib. V, 9ᶜ bot. <he>מעמעם</he>) if asked a second time, he must not consent &c."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְהַבְהֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to be affected by flames</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 41b:10\">Yoma 41ᵇ</cite> <he>נ׳ הלשון</he> if the band caught fire."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

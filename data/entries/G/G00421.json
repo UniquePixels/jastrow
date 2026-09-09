@@ -1,0 +1,23 @@
+{
+	"id": "G00421",
+	"slug": "זירוד-1",
+	"headword": {
+		"text": "זֵירוּד",
+		"homograph": 1
+	},
+	"page": {
+		"number": 396,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זָרַד</he> <i>Pi.</i>) <i>cutting shoots off, trimming, thinning</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 2:3\">Shebi. II, 3</cite>; Y. ib. 33ᵈ <he>זֵירוּדָהּ של חמישית</he> the trimming as it is done in the fifth year of the year-Sabbath."
+			]
+		}
+	]
+}

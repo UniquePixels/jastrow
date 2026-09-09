@@ -1,0 +1,43 @@
+{
+	"id": "A00968",
+	"slug": "אזי",
+	"headword": {
+		"text": "אֲזִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲזָא"
+		}
+	],
+	"page": {
+		"number": 37,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>אַזְעִי</he>, v. <cite ref=\"A00562\"><he>אוּדְיָיתָא</he></cite> a. <cite ref=\"G00388\"><he>זִיעַ</he></cite>) <i>to heat</i> (<i>make steam</i>). ",
+			"units": [
+				"<cite ref=\"Daniel 3:19\">Dan. III, 19</cite>; <cite ref=\"Daniel 3:22\">22</cite>.—",
+				"<cite ref=\"Targum Jonathan on Isaiah 33:4\">Targ. Is. XXXIII, 4</cite> <he>וַאֲזַן</he> (Regia <he>אֵיזִין</he>) and they shall heat (baths, ovens) therewith (h. text <he>מַשַּׂק</he> = <he>מַשַּׁק</he>), v. <cite ref=\"G00428\"><he>זִירְקְתָא</he></cite>; (cmp. ",
+				"<cite ref=\"Ezekiel 39:9\">Ezek. XXXIX, 9</cite>). Ib. XLIV, 15 (for baking); a. e.—Y. Ter. VIII, end, 46ᶜ a bath house <he>דאזייה וכ׳</he> which he had heated for seven days. ",
+				"<cite ref=\"Kohelet Rabbah 2:8\">Koh. R. to II, 8</cite>; a. e. <he>דהוון אָזְיִין בהון</he> that entertained the fires in them.—",
+				"<cite ref=\"Vayikra Rabbah 28\">Lev. R. s. 28</cite>, end <he>ועל מזגיה וקנחיה</he> (read <he>ואַזְּיֵיה</he> Pa.) and he (Haman) went and made him sweat and cleansed him (with the scraper)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְּזִי"],
+			"senses": [
+				{
+					"gloss": " (contr. of <he>אתאזי</he>) <i>to be heated</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 63:8\">Gen. R. s. 63</cite> <he>קלוון אנא דיִתְּזוּן וכ׳</he> I command that the bath-houses be heated. ",
+						"<cite ref=\"Bereishit Rabbah 63:8\">Ib.</cite> <he>אזלון ואִתְּזוּן</he> they went off, and the bath-houses were heated (some ed. <he>דְּיִחֲמוּן</he> a. <he>אַחְמוּן</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

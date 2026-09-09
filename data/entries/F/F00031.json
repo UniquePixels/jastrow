@@ -1,0 +1,42 @@
+{
+	"id": "F00031",
+	"slug": "וי",
+	"headword": {
+		"text": "וַי"
+	},
+	"altHeadwords": [
+		{
+			"text": "וַוי"
+		},
+		{
+			"text": "וַיי"
+		}
+	],
+	"page": {
+		"number": 373,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. h. a. ch.<i>woe;</i> (interj.) <i>oh! woe!</i> <cite ref=\"Aramaic Targum to Proverbs 23:29\">Targ. Prov. XXIII, 29</cite> ed. Wil. (ed. Lag. <cite ref=\"F00032\"><he>וָיָא</he></cite> or <cite ref=\"F00032\"><he>וַיָא</he></cite>). —",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 120:5\">Targ. Ps. CXX, 5</cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 26:4\">Gen. R. s. 26</cite> <he>לא ישלה ווי מפומך</he> the word <i>woe</i> shall never cease from thy lips. ",
+				"<cite ref=\"Bereishit Rabbah 26:4\">Ib.</cite> <he>ווי דלא וכ׳</he> woe that my son does not eat &c. ",
+				"<cite ref=\"Avodah Zarah 11b:4\">Ab. Zar. 11ᵇ</cite> <he>ו׳ לדין כד וכ׳</he> woe to this one (Esau), when that one (Jacob) shall rise. ",
+				"<cite ref=\"Megillah 16a:21\">Meg. 16ᵃ</cite> <he>ויי מביתא וכ׳</he> woe from inside, woe from outside! <cite ref=\"Megillah 11a:10\">Ib. 11ᵃ</cite> (play on <i>vayhi</i>, <cite ref=\"Esther 1:1\">Esth. I, 1</cite>) <he>ויי והי הדא וכ׳</he> (Ms. M. <he>ויי הוה מה וכ׳</he>; v. Rabb. D. S. a. l. note, a. marg. note in ed.) woe and grief, as it is written &c.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the preformative</i> <cite ref=\"F00031\"><he>וַי</he></cite> in the Imperfect with Vav Conversive.—Pl. <he>וַויִּן</he>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 70a:17\">Snh. 70ᵃ</cite> <he>י״ג ו׳ נאמרו ביין</he> thirteen times do we read <i>vay</i> (woe) in the chapter about wine (<cite ref=\"Genesis 9:20\">Gen. IX, 20</cite> to 24); <cite ref=\"Bereishit Rabbah 36:4\">Gen. R. s. 36</cite>. <he>כתיב בה ו׳ י״ד פעמים</he> fourteen times &c. (<cite ref=\"Genesis 9:20\">Gen. IX, 20</cite> to 25)."
+			],
+			"label": "2"
+		}
+	]
+}

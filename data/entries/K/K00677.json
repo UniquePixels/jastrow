@@ -1,0 +1,30 @@
+{
+	"id": "K00677",
+	"slug": "כלב-2",
+	"headword": {
+		"text": "כֶּלֶב"
+	},
+	"page": {
+		"number": 639,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K00676\">preced.</cite>) <i>dog</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 63b:16\">Snh. 63ᵇ</cite> (expl. <cite ref=\"N00064\"><he>נבחן</he></cite>, <cite ref=\"II Kings 17:31\">II Kings XVII, 31</cite>) <he>כ׳</he> they worshipped a dog. ",
+				"<cite ref=\"Mishnah Yoma 8:6\">Yoma VIII, 6</cite>, a. e. <he>כ׳ שוטה</he> a mad dog. ",
+				"<cite ref=\"Mishnah Kilayim 1:6\">Kil. I, 6</cite>, v. <cite ref=\"K00351\"><he>כּוּפְרִי</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 17:13\">Kel. XVII, 13</cite> <he>כ׳ המים</he> sea-dog. ",
+				"<cite ref=\"Bereishit Rabbah 77:3\">Gen. R. s. 77</cite>, v. <cite ref=\"A00353\"><he>אַגְרִיאוֹן</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 7:10:10\">Y. Snh. VII, 23ᶜ</cite> top (ref. to <cite ref=\"Psalms 22:21\">Ps. XXII, 21</cite>) <he>מכַּלְבּוֹ של וכ׳</he> from the dog (the vicious accuser) of that pious man, v. ib. 23ᵇ bot., sq.); a. fr. Pl. <he>כְּלָבִים</he>. ",
+				"<cite ref=\"Berakhot 3a:7\">Ber. 3ᵃ</cite>. ",
+				"<cite ref=\"Tosefta Bava Kamma 8:17\">Tosef. B. Kam. VIII, 17</cite>. ",
+				"<cite ref=\"Shemot Rabbah 20:19\">Ex. R. s. 20</cite> <he>עשו … כ׳ של וכ׳</he> the Egyptians made golden dogs by sorcery that they should bark &c.; a. fr."
+			]
+		}
+	]
+}

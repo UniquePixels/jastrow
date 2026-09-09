@@ -1,0 +1,23 @@
+{
+	"id": "U01300",
+	"slug": "שליביא",
+	"headword": {
+		"text": "שְׁלִיבַיָּא"
+	},
+	"page": {
+		"number": 1583,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. ch. <cite ref=\"U01299\">same</cite>, <i>fitted-in pieces, ledges</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 7:28\">Targ. I Kings VII, 28</cite>, sq. (h. text <cite ref=\"U01205\"><he>שְׁלַבִּים</he></cite>)."
+			]
+		}
+	]
+}

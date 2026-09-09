@@ -1,0 +1,38 @@
+{
+	"id": "R00066",
+	"slug": "צבעיא",
+	"headword": {
+		"text": "צַבָּעַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צַבָּעַיָּיא"
+		},
+		{
+			"text": "צַבָּעִין"
+		},
+		{
+			"text": "מַגְדַּל צַבָּעַיָּא"
+		},
+		{
+			"text": "מַגְדְּלָא דצַבָּעַיָּא"
+		}
+	],
+	"page": {
+		"number": 1259,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (v. <cite ref=\"R00060\"><he>צַבָּעָא</he></cite>) <i>Magdala of the Dyers</i>, near Tiberias. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:16\">Y. Taan. IV, 69ᵃ</cite> bot.; <cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 2</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 4:1:8\">Y. Pes. IV, 30ᵈ</cite> top <he>מגדל צַבָּעַיָּיה</he>; <cite ref=\"Shir HaShirim Rabbah 1:12\">Cant. R. to I, 12</cite> <he>מגדלא דצבעין</he> (also <cite ref=\"M00121\"><he>מגדלא</he></cite> only); <cite ref=\"Bereishit Rabbah 94:4\">Gen. R. s. 94</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 17:4\">Lev. R. s. 17</cite>."
+			]
+		}
+	]
+}

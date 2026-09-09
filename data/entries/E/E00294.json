@@ -1,0 +1,34 @@
+{
+	"id": "E00294",
+	"slug": "הזיה",
+	"headword": {
+		"text": "הַזָּיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַזָּיָיה"
+		},
+		{
+			"text": "הַזָּאָה"
+		}
+	],
+	"page": {
+		"number": 341,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>נזה</he>) <i>sprinkling</i> of the blood of sacrifices, of the water of purification upon the unclean. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 5:1\">Zeb. V, 1</cite> <he>ודמן טעון ה׳ וכ׳</he> and their blood must be sprinkled on the space between the bars &c.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:4:7\">Y. Ber. V, 9ᵈ</cite> top <he>הַזָּיָיתיֹ כשרה</he> the rite of sprinkling which he performed is valid. ",
+				"<cite ref=\"Mishnah Pesachim 6:2\">Pes. VI, 2</cite> <he>הזאה תוכיח</he> (Y. ed. <he>הזייה</he>) let the sprinkling (on the unclean) prove it; a. fr.—Pl. <he>הַזָּיוֹת</he>, <he>הַזָּאוֹת</he>. Y. Yoma V, 42ᵈ top. Bab. ",
+				"<cite ref=\"Yoma 55a:16\">ib. 55ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Menachot 3:6\">Men. III, 6</cite>; a. fr."
+			]
+		}
+	]
+}

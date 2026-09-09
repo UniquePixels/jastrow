@@ -1,0 +1,22 @@
+{
+	"id": "M01938",
+	"slug": "מסך-1",
+	"headword": {
+		"text": "מָסַךְ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 807,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <cite ref=\"M01940\"><he>מֶסֶךְ</he></cite>)<i>to temper, mix wine</i> (cmp. <cite ref=\"M00712\"><he>מָזַג</he></cite>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 58b\">Ab. Zar. 58ᵇ</cite>, v. <cite ref=\"M00712\"><he>מָזַג</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 10:4\">Num. R. s. 10</cite> <he>יין מָסְכָה וכ׳</he> Eve mixed wine for Adam. ",
+				"<cite ref=\"Bamidbar Rabbah 10\">Ib.</cite> <he>היו מוֹסְכִים יין וכ׳</he> they mixed strong with light wine; a. e."
+			]
+		}
+	]
+}

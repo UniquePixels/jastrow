@@ -1,0 +1,28 @@
+{
+	"id": "D00763",
+	"slug": "דכוון",
+	"headword": {
+		"text": "דִּכְוָון"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּי׳"
+		}
+	],
+	"page": {
+		"number": 306,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"D00242\"><he>דּוּךְ</he></cite>; cmp. <cite ref=\"D00765\"><he>דָּכוֹן</he></cite>) <i>marked off places, folds</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 32:16\">Targ. Y. II, Num. XXXII, 16</cite>; <cite ref=\"Targum Jerusalem, Numbers 32:24\">24</cite> (Targ. Y. I <he>דִּירִין</he>, h. text <he>גדרות</he>)."
+			]
+		}
+	]
+}

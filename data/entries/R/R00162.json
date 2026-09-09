@@ -1,0 +1,64 @@
+{
+	"id": "R00162",
+	"slug": "צוד-2",
+	"headword": {
+		"text": "צוּד",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צִיד"
+		}
+	],
+	"page": {
+		"number": 1266,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"R00161\">same</cite> <cite ref=\"Onkelos Genesis 27:3\">Targ. Gen. XXVII, 3</cite>; <cite ref=\"Onkelos Genesis 27:5\">5</cite>; <cite ref=\"Onkelos Genesis 27:33\">33</cite>; a. fr.—Part. <cite ref=\"R00334\"><he>צָיֵיד</he></cite>, <cite ref=\"R00002\"><he>צָאֵיד</he></cite>, <cite ref=\"R00002\"><he>צָאֵד</he></cite>; f. <he>צָיְידָא</he>, <he>צָיְדָא</he> &c. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 6:26\">Targ. Prov. VI, 26</cite> (Ms. <cite ref=\"R00106\"><he>צדיא</he></cite>, v. <cite ref=\"R00103\"><he>צְדֵי</he> I</cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 23:28\">Ib. XXIII, 28</cite> <he>צָאִידָא בניא וכ׳</he> ed. Lag. (ed. <he>צאר אבנא</he>, corr. acc.) she catches thoughtless youths. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 2:19\">Ib. II, 19</cite> <he>צָיְדִין</he> (some ed. <he>ציירין</he>, corr. acc.; h. text <he>ישיגו</he>); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:23\">Y. Sabb. VII, 10ᵃ</cite> <he>דצָיֵיד</he>, v. <cite ref=\"K00216\"><he>כַּוְורָא</he></cite>. ",
+				"<cite ref=\"Bava Metzia 85b:6\">B. Mets. 85ᵇ</cite> <he>וצָיִידְנָא טבי</he>; <cite ref=\"Ketubot 103b:19\">Keth. 103ᵇ</cite> <he>וצָיִדְנָא</he> (Rashi <he>וצדיינא</he>), v. <cite ref=\"I00050\"><he>טַבְיָא</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 67:2\">Gen. R. s. 67</cite> <he>ציידא היך צָדוּךְ</he> how they caught thee, O hunter! <cite ref=\"Jerusalem Talmud Bava Batra 10:10:4\">Y. B. Bath. X, end, 17ᵈ</cite> <he>בר נש דהוה צייד לחבריה וכ׳</he> if a man catches his neighbor in the street (for a debt), and one comes and says, let him go &c. Ib. VIII, 16ᵇ top <he>לא צייד כלום</he> he catches (obtains) nothing. ",
+				"<cite ref=\"Moed Katan 11a:14\">M. Kat. 11ᵃ</cite> <he>אזיל … צוּד</he> all went out and fished; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְצִיד", "אִיתְ׳"],
+			"senses": [],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִצְתַּיַּיד", "אִתְצַיַּיד"],
+			"senses": [
+				{
+					"gloss": "<i>to be caught</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 6:2\">Targ. Prov. VI, 2</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 3:26\">Ib. III, 26</cite>.—",
+						"<cite ref=\"Vayikra Rabbah 30\">Lev. R. s. 30</cite> <he>אתציד התוא וכ׳</he> (ed. Wil. <cite ref=\"R00162\"><he>אצתייד</he></cite>, oth. ed. <cite ref=\"R00162\"><he>אתצייד</he></cite>), v. <cite ref=\"L00493\"><he>לִיסְטָאָה</he></cite>. Y. Yeb. XVI, beg. 15ᶜ; Y. Sot. IX, 23ᶜ bot. <he>ואִתְצִידוּן וכ׳</he>, v. <cite ref=\"B00552\"><he>בִּידָּא</he></cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתַּצַּד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"R00161\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 79:6\">Gen. R. s. 79</cite> <he>הוות מִתַּצְּדָה וכ׳</he> it (the bird) was caught and captured, v. <cite ref=\"O01368\"><he>סְפִיקוּלָא</he> I</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ittaf."
+		}
+	]
+}

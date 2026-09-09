@@ -1,0 +1,25 @@
+{
+	"id": "A01964",
+	"slug": "אמא-3",
+	"headword": {
+		"text": "אְמָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אָמָא"
+		}
+	],
+	"page": {
+		"number": 74,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " f. = h. <cite ref=\"A01990\"><he>אָמָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 23:18\">Targ. O. Deut. XXIII, 18</cite>; v. <cite ref=\"A01991\"><he>אַמְהָא</he></cite>"
+			]
+		}
+	]
+}

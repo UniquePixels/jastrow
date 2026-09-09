@@ -1,0 +1,32 @@
+{
+	"id": "M01759",
+	"slug": "מנחה",
+	"headword": {
+		"text": "מִנְחָה"
+	},
+	"page": {
+		"number": 799,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"N00340\"><he>נוּחַ</he></cite>; cmp. <cite ref=\"N00532\"><he>נַחַת</he></cite>) [<i>laid down</i>,] <i>offering, present</i>.—Pl. <he>מְנָחוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 13:20\">Num. R. s. 13</cite> <he>שלשלמה הביאו האומות מ׳ וכ׳</he> as the nations brought gifts to Solomon &c.; a. e.—Esp. (in ritual) <i>meal-offering</i>. ",
+				"<cite ref=\"Mishnah Menachot 1:1\">Men. I, 1</cite> <he>מִנְחַת חוטא</he> the sinner’s meal-offering (<cite ref=\"Leviticus 5:11\">Lev. V, 11</cite>). Ib. X, 6 (68ᵇ) <he>מנחת בהמה</he> the meal-offering connected with animal offering (e. g. ",
+				"<cite ref=\"Leviticus 7:13\">Lev. VII, 13</cite>). Ib. XII, 3 <he>הרי עלי מ׳ וכ׳</he> I vow a <i>minḥah</i> of barley; a. v. fr.—<i>Pl.</i> as ab. Ib. I, 1; a. fr.—<i>M’naḥoth</i>, name of a treatise of the Mishnah, Tosefta, and Talmud Babli of the Order of Kodashim."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"M01758\">preced.</cite> 2) [<i>decline</i>,] <i>afternoon</i> (corresp. to b. h. <he>בֵּין הָעַרְבַּיִם</he>); <he>תְּפִלַּת המ׳</he> (or <cite ref=\"M01759\"><he>מִנְחָה</he></cite>) <i>afternoon-prayer</i>, <i>Minḥah</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 4:1\">Ber. IV, 1</cite> (<cite ref=\"Berakhot 26a:18\">26ᵃ</cite>) <he>תפלת המ׳ עד הערב</he> the <i>Minḥah</i> may be read until sunset; ib. 26ᵇ <he>תפלת המ׳ … שהרי תמיד של בין הערבים וכ׳</he> the Minḥah may be read &c., because the daily sacrifice of the afternoon could be offered until sunset. Ib. <he>עד פלג המ׳</he> up to the middle of the afternoon. Ib. <he>מ׳ גדולה</he> (<he>מ׳ קמא</he>) the large (first) afternoon, i.e. the time from six and a half hours after sunrise to sunset (the day being divided into twelve hours); (<he>מ׳ אחרונה</he>) <he>מ׳ קטנה</he> the smaller (later) afternoon, i.e. from nine and a half hours to sunset. Ib. <he>פלג מ׳ אחרונה</he> the middle of the late (small) afternoon. Ib. top <he>טעה ולא התפלל מ׳</he> if by mistake he failed to read the Minḥah; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

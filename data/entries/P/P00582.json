@@ -1,0 +1,50 @@
+{
+	"id": "P00582",
+	"slug": "עיליתא-2",
+	"headword": {
+		"text": "עִילִיתָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עִלִיתָא"
+		},
+		{
+			"text": "עֲלִי׳"
+		}
+	],
+	"page": {
+		"number": 1070,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00791\"><he>עֲלֵי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = h. <cite ref=\"P00794\"><he>עֲלִיָּה</he></cite>, <i>upper chamber, loft; upper story</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 3:23\">Targ. Jud. III, 23</cite>, sq.; a. fr.—Constr. <cite ref=\"P00691\"><he>עִילִית</he></cite>, <he>עִלִית</he>, <he>עֲלִיַת</he>, <he>עֲלִיַית</he>. ",
+				"<cite ref=\"Targum Jonathan on Judges 3:20\">Ib. 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 23:12\">Targ. II Kings XXIII, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 19:1\">Targ. II Sam. XIX, 1</cite>; a. e.—",
+				"<cite ref=\"Bava Metzia 14a:9\">B. Mets. 14ᵃ</cite> <he>זבין עי׳ וכ׳</he> Ms. M. (ed. <he>עלי׳</he>) bought an upper story of his sister. ",
+				"<cite ref=\"Bereishit Rabbah 99\">Gen. R. s. 99</cite> <he>ע׳ קרירתא</he> the summer chamber (<cite ref=\"Judges 3:20\">Jud. III, 20</cite>). ",
+				"<cite ref=\"Pesachim 114a:2\">Pes. 114ᵃ</cite>, v. <cite ref=\"S01867\"><he>קָקוּלָא</he></cite>; a. fr.—ע׳ דדינרי <i>a roomful of Denars, a certain amount of money</i>. ",
+				"<cite ref=\"Bava Batra 133b:6\">B. Bath. 133ᵇ</cite>.—Pl. <cite ref=\"P00579\"><he>עִילְיָן</he></cite>, <cite ref=\"P00579\"><he>עִלְיָין</he></cite>; <cite ref=\"P00581\"><he>עִילְיָתָא</he></cite>, <he>עֲלִיָתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 22:14\">Targ. Jer. XXII, 14</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 3:9\">Targ. II Chr. III, 9</cite>; a. e.—B. Bath. l. c. <he>תליסר עִלְיָיאתָא דדינרי</he> thirteen roomfuls of Denars; <cite ref=\"Shabbat 119a:5\">Sabb. 119ᵃ</cite> <cite ref=\"P00581\"><he>עִילְיָתָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"P00569\"><he>עִילָאָה</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

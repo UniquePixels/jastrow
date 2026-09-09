@@ -1,0 +1,25 @@
+{
+	"id": "B01082",
+	"slug": "בצורת",
+	"headword": {
+		"text": "בַּצּוֹרֶת"
+	},
+	"page": {
+		"number": 184,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>בַּצֹּרֶת</he>, <cite ref=\"B01109\"><he>בַּצָּרָה</he></cite>; <he>בצר</he>)<i>scarcity of provision, dearth</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 5:8\">Ab. V, 8</cite> <he>רעב של ב׳ וכ׳</he> a famine in consequence of high prices, when some are hungry, others are satisfied, <he>רעב של מהומה ושל ב׳</he> a famine through political disturbances and through dearth. ",
+				"<cite ref=\"Bereishit Rabbah 33:3\">Gen. R. s. 33</cite> <he>שנת ב׳</he> a year of dearth. ",
+				"<cite ref=\"Mishnah Taanit 3:1\">Taan. III, 1</cite> <he>מכת ב׳</he>, expl. ",
+				"<cite ref=\"Taanit 19b:1\">ib. 19ᵇ</cite> <he>מכה המביאה לידי ב׳</he> a calamity which will produce dearth (want of rain in season)."
+			]
+		}
+	]
+}

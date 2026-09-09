@@ -1,0 +1,32 @@
+{
+	"id": "J00144",
+	"slug": "יהר-2",
+	"headword": {
+		"text": "יָהַר"
+	},
+	"page": {
+		"number": 567,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"A00841\"><he>אור</he></cite>, <cite ref=\"N00280\"><he>נהר</he></cite>) <i>to be shining, showy, proud</i>, v. <cite ref=\"J00140\"><he>יָהִיר</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְיָהֵר"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"J00140\"><he>יָהִיר</he></cite>) <i>to assume airs, to be boastful</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 66b:6\">Pes. 66ᵇ</cite> <he>כל המִתְיָהֵר וכ׳</he> whoever is boastful, if he is wise, his wisdom will desert him &c. ",
+						"<cite ref=\"Bava Batra 10b:10\">B. Bath. 10ᵇ</cite> <he>שׁאין עושין אלא להִתְיָהֵר בו</he> they do good only to boast themselves thereof; <he>וכל המתיהר וכ׳</he> and whoever boasts, falls a prey to Gehenna."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "S01517",
+	"slug": "קנאנית",
+	"headword": {
+		"text": "קִנְאָנִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִנְאֲתָנִית"
+		}
+	],
+	"page": {
+		"number": 1388,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01516\">preced.</cite> wds.) <i>inclined to jealousy</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 18:2\">Gen. R. s. 18</cite> <he>ולא מן הלב שלא תהא קנאת׳</he> (some ed. <cite ref=\"S01626\"><he>קִנָּתָנִית</he></cite>) nor will I create her from Adam’s heart, lest she be of a jealous disposition; <cite ref=\"Yalkut Shimoni on Torah 24:1\">Yalk. ib. 24</cite>; <cite ref=\"Yalkut Shimoni on Nach 265\">Yalk. Is. 265</cite> <cite ref=\"S01517\"><he>קנאנית</he></cite>.—Pl. <he>קִנְאָנִיּוֹת</he>. ",
+				"<cite ref=\"Bereishit Rabbah 45:5\">Gen. R. s. 45</cite>; <cite ref=\"Devarim Rabbah 6:11\">Deut. R. s. 6</cite> (some ed. <he>קַנָּאִיּוֹת</he>, fr. <cite ref=\"S01515\"><he>קַנָּאִית</he></cite>)."
+			]
+		}
+	]
+}

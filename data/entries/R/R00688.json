@@ -1,0 +1,25 @@
+{
+	"id": "R00688",
+	"slug": "צפורת",
+	"headword": {
+		"text": "צִפּוֹרֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִיפּ׳"
+		}
+	],
+	"page": {
+		"number": 1296,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"R00410\"><he>צִיפּוֹר</he></cite>) <he>צ׳ כרמים</he> [<i>the bird of the vineyards</i>,] a species of <i>locusts</i>. Sifra Sh’mini, Par. 3, ch. V; <cite ref=\"Chullin 65a:9\">Ḥull. 65ᵃ</cite>, sq.; <cite ref=\"Yalkut Shimoni on Torah 537:14\">Yalk. Lev. 537</cite> (also <he>צִפּוֹר כ׳</he>). ",
+			"units": ["<cite ref=\"Mishnah Shabbat 9:7\">Sabb. IX, 7</cite>."]
+		}
+	]
+}

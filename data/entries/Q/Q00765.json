@@ -1,0 +1,34 @@
+{
+	"id": "Q00765",
+	"slug": "פיסק",
+	"headword": {
+		"text": "פִּיסָּק"
+	},
+	"page": {
+		"number": 1168,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01350\"><he>פָּסַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>interruption</i>.—Pl. <he>פִּיסְּקִין</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 3:2:5\">Y. Shek. III, 47ᵇ</cite> bot. <he>לשתותן בפ׳</he> to drink them (the four cups) at intervals, v. <cite ref=\"Q01350\"><he>פָּסַק</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>slope</i> or <i>embankment by the roadside</i>.—<i>Pl.</i> as ab. Tosef. Erub. X (VII), 2 <he>ההרים והפ׳ וכ׳</he> ed. Zuck. (oth. ed. <he>החרים והפסקן</he>; El. Wil. emends <cite ref=\"Q01363\"><he>פסקנין</he></cite>) hills, slopes, or a ship by the side of a public road (v. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 10:4\">Tosef. Sabb. X</cite> (<cite ref=\"Tosefta Shabbat 11:4\">XI</cite>), 4)."
+			],
+			"label": "2"
+		}
+	]
+}

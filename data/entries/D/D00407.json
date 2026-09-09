@@ -1,0 +1,76 @@
+{
+	"id": "D00407",
+	"slug": "דחי-2",
+	"headword": {
+		"text": "דְּחִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּחָא"
+		}
+	],
+	"page": {
+		"number": 291,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00406\">same</cite><i>to thrust, push, knock down</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 35:20\">Targ. O. Num. XXXV, 20</cite> <he>דְּחָהִי</he> he knocked him down (h. text <he>הדף</he>; Y. <cite ref=\"D00408\"><he>דַּחְיֵיה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 118:13\">Targ. Ps. CXVIII, 13</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to suspend, supersede</i> &c., v. <cite ref=\"D00406\">preced.</cite> 3). ",
+			"units": [
+				"<cite ref=\"Zevachim 12b:4\">Zeb. 12ᵇ</cite> <he>הוא ד׳ נפשיה בידים</he> he debarred himself from offering (on account of his apostasy). ",
+				"<cite ref=\"Pesachim 69b:11\">Pes. 69ᵇ</cite> <he>אימא לִידְחֵי</he> I might think they take precedence of the Sabbath. ",
+				"<cite ref=\"Berakhot 23a:2\">Ber. 23ᵃ</cite> <he>גברא דְחוּיָא הוא</he> the person was for the time in an unfit condition to pray (and his prayer does not count at all)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַדְחֵי"],
+			"senses": [
+				{
+					"gloss": ", <i>Pa.</i> <he>דַּחֵי</he> <i>to push aside, drive off</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 57a:3\">Pes. 57ᵃ</cite> <he>דַּחוּיֵי קא מַדְחֵי לן</he> he sends us off (with a vain promise)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִידָּחֵי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִידְּחֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be thrust down</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 36:13\">Targ. Ps. XXXVI, 13</cite> <he>אִידָּחֲיַין</he> Ms. (ed. <he>יִדְחֲיַן</he>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be superseded, postponed</i> &c. (v. <cite ref=\"D00406\">preced.</cite> Nif.). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 9:10\">Targ. Y. Num. IX, 10</cite>.—",
+						"<cite ref=\"Zevachim 12b:4\">Zeb. 12ᵇ</cite> <he>ממילא אי׳</he> he was debarred from offering through no fault of his. ",
+						"<cite ref=\"Zevachim 12b:4\">Ib.</cite> <he>גברא אי׳</he> the person was unfit; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

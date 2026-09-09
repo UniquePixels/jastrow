@@ -1,0 +1,42 @@
+{
+	"id": "A02539",
+	"slug": "אסקופתא",
+	"headword": {
+		"text": "אִסְקוּפְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְקוּפָּא"
+		},
+		{
+			"text": "אִיסְ׳"
+		}
+	],
+	"page": {
+		"number": 97,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " as <cite ref=\"A02538\">preced.</cite> 2. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 12:22\">Targ. Y. Ex. XII, 22</cite>; a. e. (O. <he>שקפא</he>).—Pl. <cite ref=\"A02539\"><he>אִסְקוּפָּתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:34\">Targ. Prov. VIII, 34</cite>.—Y. Yoma I, 38ᶜ, v. <cite ref=\"A02452\"><he>אִסְכּוּפְתָּא</he></cite>. ",
+				"<cite ref=\"Yoma 53a:25\">Yoma 53ᵃ</cite> <he>מיתווסן א׳ וכ׳</he> the thresholds … were stained with blood.—<he>אסקופין</he> (better <cite ref=\"A02536\"><he>אִסְקוּפָּן</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:6\">Y. Ab. Zar. III, 42ᶜ</cite> top <he>שובעין א׳ …</he> seventy door frames were upset."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>meat hanging on a crosspiece</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 7:2:7\">Y. Shek. VII, 50ᶜ</cite> bot., ed. Bab. to VII, 4 <he>משזגא … תֵּיה</he> (not <cite ref=\"M02867\"><he>משיגא</he></cite>) to wash his meat in the river; Y. Ab. Zar. II, 41ᵈ bot. <he>תה …</he>, read <he>תֵּיה …</he>"
+			],
+			"label": "2"
+		}
+	]
+}

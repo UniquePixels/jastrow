@@ -1,0 +1,23 @@
+{
+	"id": "Q00975",
+	"slug": "פלוליניא",
+	"headword": {
+		"text": "פְּלוּלִינַיָּא"
+	},
+	"page": {
+		"number": 1177,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>פלל</he>, cmp. <cite ref=\"Q01118\"><he>פלפלא</he></cite>; cmp. Syr. <he>פלילתא</he> fœnum græcum, P. Sm. 3130) <i>a preserve or sauce of fenugrec</i>, containing an admixture of fermenting matter. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 3:2:5\">Y. Pes. III, 30ᵃ</cite>"
+			]
+		}
+	]
+}

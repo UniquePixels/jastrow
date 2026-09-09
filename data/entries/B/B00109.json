@@ -1,0 +1,26 @@
+{
+	"id": "B00109",
+	"slug": "בדד-3",
+	"headword": {
+		"text": "בַּדָּד"
+	},
+	"page": {
+		"number": 139,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"B00095\"><he>בַּד</he> II</cite>) <i>olive-treader, workingman in the olive press</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 62a:6\">Gitt. 62ᵃ</cite>.—Pl. <cite ref=\"B00111\"><he>בַּדָּדִין</he></cite>. ",
+				"<cite ref=\"Mishnah Tahorot 10:1\">Toh. X, 1</cite> sq. ",
+				"<cite ref=\"Shabbat 19b:4\">Sabb. 19ᵇ</cite> <he>שמן של ב׳ וכ׳</he> the oil (remnants in corners) belonging to the pressers, and the mats which they use. ",
+				"<cite ref=\"Bava Kamma 119a:3\">B. Kam. 119ᵃ</cite> <he>והב׳ לוקחין מהן וכ׳</he> (read <he>מנשותיהן</he>, v. Rabb. D. S. a. l. note 40) you may buy from the oil pressers’ (Rashi: oil producers’) wives &c. ",
+				"<cite ref=\"Tosefta Ma'asrot 1:10\">Tosef. Maasr. I, 10</cite> <he>הב׳</he> (<cite ref=\"E00000\"><he>ה</he></cite>)<he>מדליקין וכ׳</he> the oil pressers who take their lighting oil (alternately) from one press and another."
+			]
+		}
+	]
+}

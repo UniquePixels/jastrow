@@ -1,0 +1,56 @@
+{
+	"id": "O00945",
+	"slug": "סכתא-1",
+	"headword": {
+		"text": "סִכְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִי׳"
+		}
+	],
+	"page": {
+		"number": 993,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"O00873\"><he>סִכָּא</he></cite>), (corresp. to h. <cite ref=\"J00716\"><he>יָתֵד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>thorn, peg, nail</i> (of the tent). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 4:21\">Targ. Jud. IV, 21</cite>, sq.; a. e.—",
+				"<cite ref=\"Gittin 32a:1\">Gitt. 32ᵃ</cite> <he>אפי׳ ס׳ וכ׳</he> even the peg in the wooden partition becomes loose (from the heat). ",
+				"<cite ref=\"Sanhedrin 112a\">Snh. 112ᵃ</cite> <he>תלי בס׳</he> Ms. M. (ed. <cite ref=\"O00540\"><he>סיבטא</he></cite>) it hangs on a peg; <cite ref=\"Arakhin 7b:3\">Arakh. 7ᵇ</cite>. ",
+				"<cite ref=\"Eruvin 53a:19\">Erub. 53ᵃ</cite> <he>ואנן כי ס׳ וכ׳</he> for us (the labor of impressing traditions on our memory is) like driving a peg into the wall. ",
+				"<cite ref=\"Avodah Zarah 38a:9\">Ab. Zar. 38ᵃ</cite> <he>דשדי ס׳ לאתונא</he> who threw a tent pin (or a coulter, v. infra) in the stove (to let it dry); <cite ref=\"Shabbat 74b:4\">Sabb. 74ᵇ</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Demai 1:3:13\">Y. Dem. I, 22ᵃ</cite> <he>בס׳ איתעריית</he> she remained hanging on a projecting peg (in the well). ",
+				"<cite ref=\"Yalkut Shimoni on Torah 386:7\">Yalk. Ex. 386</cite>, v. <cite ref=\"O00861\"><he>סִירְתָּא</he></cite>; a. e.—Pl. m. <he>סִיכֵּי</he>, <cite ref=\"O00893\"><he>סִכֵּי</he></cite> (from <cite ref=\"O00639\"><he>סִיכָּא</he></cite>). ",
+				"<cite ref=\"Shabbat 67a:1\">Sabb. 67ᵃ</cite> top <he>ז׳ ס׳ וכ׳</he> seven pegs from seven bridges, v. <cite ref=\"C01424\"><he>גִּשְׁרָא</he></cite>. ",
+				"<cite ref=\"Bava Batra 69a:12\">B. Bath. 69ᵃ</cite> <he>דנקיטי בס׳</he> when the door frames are fastened with pegs (easily removable); a. e.—",
+				"<cite ref=\"Yevamot 80b:8\">Yeb. 80ᵇ</cite> <he>ס׳ דיקנא הוה ליה</he> he had single prickly hairs in his beard."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a sort of spade</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 23:14\">Targ. O. Deut. XXIII, 14</cite> (ed. Amst. <cite ref=\"O00655\"><he>סִיכְתָא</he></cite>; Y. <cite ref=\"O00639\"><he>סִיכָּא</he></cite> (not <cite ref=\"O00639\"><he>סִיכָא</he></cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " = <he>סִכָּא דפדן</he>, <i>coulter</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 13:20\">Targ. I Sam. XIII, 20</cite> <he>סִיכַּת</he>, constr. (not <he>סִיכַת</he>).—Lam. R. introd., end <he>תקף ידיה אסִיכְּתֵיה</he> he pressed his hand on his coulter.—Pl. <cite ref=\"O00945\"><he>סִכָּתָא</he></cite>, <cite ref=\"O00946\"><he>סִיכָּ׳</he></cite>; constr. <he>סִיכַּת</he>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 13:21\">Targ. I Sam. XIII, 21</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

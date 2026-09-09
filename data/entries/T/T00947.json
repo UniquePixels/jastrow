@@ -1,0 +1,34 @@
+{
+	"id": "T00947",
+	"slug": "רפיון",
+	"headword": {
+		"text": "רִפְיוֹן"
+	},
+	"page": {
+		"number": 1490,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T00931\"><he>רָפָה</he></cite>)<i>laxity, feebleness</i>. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Exodus 25\">B’shall. 25</cite> (play on <he>ר̇פ̇י̇ד̇י̇ם̇</he>, <cite ref=\"Exodus 17:8\">Ex. XVII, 8</cite>) <he>שאין השונא בא אלא על ר̇פ̇יון י̇ד̇י̇ם̇ מן התורה</he> the enemy comes (against Israel) only for laxity of hands in upholding the Law. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:4:1\">Cant. R. to I, 4</cite> <he>מר׳ התורה וכ׳</he> for neglect of the Law are your children seized. ",
+				"<cite ref=\"Arakhin 5b:54\">Arakh. 5ᵇ</cite> (ref. to <cite ref=\"Ezra 4:3\">Ezra IV, 3</cite>) <he>משום ר׳ ידים הוא</he> the exclusion of the gentiles from participation in the building of the Temple had its reason in the weakening of the hands (the intention to discourage the Jews, ib. 4)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>swinging</i>,] <i>suspense</i> of judgment; <he>תלה בר׳</he> <i>to leave in suspense</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 22:12\">Gen. R. s. 22</cite> <he>תלאו בר׳ וכ׳</he> he kept his (Cain’s) judgment in suspense, until the flood came and carried him off; <cite ref=\"Bereishit Rabbah 22:12\">ib.</cite> s. 32 <he>היה תלוי בר׳</he>; <cite ref=\"Shemot Rabbah 31\">Ex. R. s. 31</cite>; <cite ref=\"Kohelet Rabbah 6:3:1\">Koh. R. to VI, 3</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 98:4\">Gen. R. s. 98</cite> <he>אני תולה אותך בר׳ וכ׳</he> I leave thy judgment in suspense, until Moses shall come &c. ",
+				"<cite ref=\"Shemot Rabbah 12\">Ex. R. s. 12</cite>, end <he>תלאן בר׳ ואימתי וכ׳</he> he held them (the thunders) in suspense, and when did they come down? In the days of Joshua &c.; a. e.—[<cite ref=\"Jerusalem Talmud Kiddushin 4:1:7\">Y. Kidd. IV, 65ᵇ</cite> bot. <he>תליין יהושע בדופן</he>; <cite ref=\"Jerusalem Talmud Sanhedrin 6:7:3\">Y. Snh. VI, 23ᶜ</cite> bot. <he>בריפן</he>, prob. to be read: <he>ברפיון</he>.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "I00488",
+	"slug": "טלטולא",
+	"headword": {
+		"text": "טַלְטוּלָא"
+	},
+	"page": {
+		"number": 536,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00487\">preced.</cite>) <i>an exile, homeless man</i>.—Pl. <he>טַלְטוּלִין</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 3:45\">Targ. Lam. III, 45</cite> (h. text <cite ref=\"O00454\"><he>סחי</he></cite>)."
+			]
+		}
+	]
+}

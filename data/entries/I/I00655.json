@@ -1,0 +1,23 @@
+{
+	"id": "I00655",
+	"slug": "טפילה",
+	"headword": {
+		"text": "טְפִילָה"
+	},
+	"page": {
+		"number": 547,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00660\"><he>טָפַל</he></cite>) <i>care, sustenance</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 8:6:2\">Y. Keth. VIII, 32ᵇ</cite> top <he>כדי טְפִילָתָן</he> as much as their sustenance costs. ",
+				"<cite ref=\"Jerusalem Talmud Orlah 1:1:10\">Y. Orl. I, 60ᵈ</cite> top <he>כדי טְפִילָתָהּ</he> worth the labor given to its (the grape-vine’s) cultivation (R. S. to <cite ref=\"Mishnah Orlah 1:2\">Orl. I, 2</cite> <he>נפילתה</he>)."
+			]
+		}
+	]
+}

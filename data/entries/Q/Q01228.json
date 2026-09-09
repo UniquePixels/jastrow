@@ -1,0 +1,52 @@
+{
+	"id": "Q01228",
+	"slug": "פסג-2",
+	"headword": {
+		"text": "פְּסַג"
+	},
+	"page": {
+		"number": 1192,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01227\">same</cite><i>to divide, cut apart</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 15:10\">Targ. Y. Gen. XV, 10</cite> (O. <cite ref=\"Q00935\"><he>פלג</he></cite>, h. text <he>בתר</he>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 26:31\">Ib. XXVI, 31</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 1:6\">Targ. Y. Lev. I, 6</cite>; a. e.—Part. pass. <cite ref=\"Q01228\"><he>פָּסִיג</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 100\">Gen. R. s. 100</cite> <he>פ׳ תִּרְעָךְ</he> may thy ill-luck be broken (no more evil befall thee,—which allowing the meaning ‘may thy gate (<cite ref=\"V01031\"><he>תַּרְעָא</he></cite>) be broken’, is corrected to <he>יסוג תורעך</he>, v. <cite ref=\"O00243\"><he>סוּג</he></cite> ch.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to break through a snare, escape</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 79\">Gen. R. s. 79</cite> <he>כד שמע … פַּסְגָּא</he> when R. S. heard the heavenly voice say <i>demos</i> (v. <cite ref=\"D00618\"><he>דִּימוֹס</he> II</cite>), it (the bird) escaped; Yalk. ib. 133 <he>פשגא</he> (Ar. <he>הות פשגה</he>).—",
+				"<cite ref=\"Bava Kamma 81b:13\">B. Kam. 81ᵇ</cite> <he>דנִיפְסוֹג</he> that he may be permitted to break through (the vineyard), v. <cite ref=\"Q01227\">preced.</cite>"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּסֵּיג"],
+			"senses": [],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַפְסֵיג"],
+			"senses": [
+				{
+					"gloss": "<i>to divide</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 1:12\">Targ. Y. Lev. I, 12</cite> <he>יַפְסֵיג</he> (some ed. <he>יְפַסֵּיג</he>; ed. Vien. <he>פַּיְסֵג</he>, corr. acc.). Targ. Y. I. ",
+						"<cite ref=\"Exodus 29:17\">Ex. XXIX, 17</cite> <he>תַּפְסֵיג</he> (Y. II <he>תְּפַסֵּג</he>; ed. Vien. <he>תְּפַסֵּק</he>).—",
+						"<cite ref=\"Eichah Rabbah 5:5\">Lam. R. to V, 5</cite> <he>מְפַסֵּג ליה וכ׳</he> (ed. Wil. <he>מפסל</he>, corr. acc.) he cut him up limb by limb."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

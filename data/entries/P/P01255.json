@@ -1,0 +1,35 @@
+{
+	"id": "P01255",
+	"slug": "ערבא-1",
+	"headword": {
+		"text": "עַרְבָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "עָרְ׳"
+		},
+		{
+			"text": "עֶרְ׳"
+		},
+		{
+			"text": "עִרְ׳"
+		},
+		{
+			"text": "עִי׳"
+		}
+	],
+	"page": {
+		"number": 1111,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P01254\">same</cite>, <i>woof</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 13:48\">Targ. Lev. XIII, 48</cite>, sq. (O. ed. Berl. <cite ref=\"P01269\"><he>עִירְ׳</he></cite>).—",
+				"<cite ref=\"Avodah Zarah 17b:10\">Ab. Zar. 17ᵇ</cite> <he>הי דשתיא והי דע׳</he> which coil is for the warp, and which for the woof?; a. e."
+			]
+		}
+	]
+}

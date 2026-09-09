@@ -1,0 +1,30 @@
+{
+	"id": "M02684",
+	"slug": "מרירה",
+	"headword": {
+		"text": "מְרִירָה"
+	},
+	"page": {
+		"number": 843,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"M02683\">preced.</cite> wds.) [b. h. <i>bile</i>,] <i>bitterness</i>, trnsf. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sin</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 43:3\">Ex. R. s. 43</cite> (ref. to <he>ויחל</he>, <cite ref=\"Exodus 32:11\">Ex. XXXII, 11</cite>) <he>חַלֵּי מְרִירָתָן וכ׳</he> sweeten thou the bitterness of Israel (pardon their sins) and heal them.—Pl. <cite ref=\"M02687\"><he>מְרִירוֹת</he></cite>. ",
+				"<cite ref=\"Exodus 32:11\">Ib.</cite> <he>מי שיחלה המ׳ שלנו</he> one to sweeten our bitternesses (to pray for us). ",
+				"<cite ref=\"Vayikra Rabbah 12:1\">Lev. R. s. 12</cite> (ref. to <cite ref=\"Deuteronomy 32:32\">Deut. XXXII, 32</cite>) <he>הללו שהביאו מ׳ וכ׳</he> it is they (the grapes) that brought sins &c.— (v. <cite ref=\"M02685\">next w.</cite>; cmp. <cite ref=\"L00621\"><he>לַעֲנָה</he> II</cite>) <i>curse</i>. ",
+				"<cite ref=\"Midrash Tehillim 90:9\">Midr. Till. to Ps. XC, 9</cite> (expl. <cite ref=\"E00062\"><he>הֶגֶה</he></cite> <cite ref=\"Midrash Tehillim 90:9\">ib.</cite>; cmp. <cite ref=\"E00061\"><he>הָגָה</he></cite> a. <cite ref=\"A00233\"><he>אָגָא</he></cite>) <he>זו מ׳</he> that means ‘curse’."
+			],
+			"label": "1"
+		}
+	]
+}

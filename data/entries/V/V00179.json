@@ -1,0 +1,30 @@
+{
+	"id": "V00179",
+	"slug": "תוון-2",
+	"headword": {
+		"text": "תָּוָון"
+	},
+	"altHeadwords": [
+		{
+			"text": "תָּוָן"
+		}
+	],
+	"page": {
+		"number": 1651,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"V00235\"><he>תָּאוָן</he></cite>; v. <cite ref=\"V00002\"><he>תָּא</he> I</cite>, a. <cite ref=\"V00136\"><he>תְּוָא</he> I</cite>) <i>cell, chamber</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 22:25\">Targ. I Kings XXII, 25</cite>; <cite ref=\"Targum of II Chronicles 18:24\">Targ. II Chr. XVIII, 24</cite>; a. fr.—Pl. <he>תְּוָונַיָּא</he>, <cite ref=\"V00182\"><he>תְּוָונֵי</he></cite>, <he>תְּוָנ׳</he>. ",
+				"<cite ref=\"Onkelos Deuteronomy 32:25\">Targ. O. Deut. XXXII, 25</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 31:33\">Targ. Job XXXI, 33</cite> <he>תווני לבי</he> Ms. Var. (h. text <he>חֻבִּי</he>, v. <cite ref=\"P00174\"><he>עוּבָּא</he></cite>).—",
+				"<cite ref=\"Niddah 20b:32\">Nidd. 20ᵇ</cite> <he>יהודאי בת׳ לבאי יתביתו</he> Rashi (ed. <he>בת׳ דלבא</he>) you Jews seem to sit in the inner chambers of men’s hearts (of the heart)."
+			]
+		}
+	]
+}

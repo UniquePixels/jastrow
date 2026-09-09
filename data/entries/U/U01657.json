@@ -1,0 +1,25 @@
+{
+	"id": "U01657",
+	"slug": "שעיעותא",
+	"headword": {
+		"text": "שְׁעִיעוּתָא"
+	},
+	"page": {
+		"number": 1610,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01656\">preced.</cite>) <i>smoothness</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 27:16\">Targ. Gen. XXVII, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 26:4\">Targ. Ez. XXVI, 4</cite>; <cite ref=\"Targum Jonathan on Ezekiel 26:14\">14</cite> (h. text <he>צחיח</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 6:24\">Targ. Prov. VI, 24</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 57:6\">Targ. Is. LVII, 6</cite> (some ed. <cite ref=\"U01654\"><he>שַׁעֲיוּת</he></cite>); a. e."
+			]
+		}
+	]
+}

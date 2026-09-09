@@ -1,0 +1,22 @@
+{
+	"id": "O01019",
+	"slug": "סלעמיתא",
+	"headword": {
+		"text": "סַלְעֲמִיתָא"
+	},
+	"page": {
+		"number": 996,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01018\">preced.</cite> wds.) <i>destruction, ruin</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 52:6\">Targ. Ps. LII, 6</cite> (Ms. <cite ref=\"O00323\"><he>סוּלְעְמוּתָא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "N00215",
+	"slug": "נדה-2",
+	"headword": {
+		"text": "נִדָּה"
+	},
+	"page": {
+		"number": 878,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"N00214\"><he>נָדָה</he></cite>) (v. <cite ref=\"N00624\"><he>נִידּוּי</he></cite>) <i>isolation, condition of uncleanness</i>, esp. <i>period of menstruation</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 64b\">Sabb. 64ᵇ</cite>, a. e. (ref. to <cite ref=\"Leviticus 15:33\">Lev. XV, 33</cite>) <he>בנִדָּתָהּ ההא וכ׳</he> she shall remain in her isolation (from her husband) until &c. Ib. VI, 5 <he>שהתקינה לנדתה</he> which she has prepared for her menstruating time. Ib. II, 6 <he>בנ׳</he> (= <he>במצות נ׳</he>) in the observance of the laws connected with menstruation; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <he>בעלת</he>) <i>a woman during menstruation, menstruant</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 1:7\">Nidd. I, 7</cite> <he>חוץ מן הנ׳</he>, expl. ",
+				"<cite ref=\"Niddah 11a:31\">ib. 11ᵃ</cite> <he>בתוך ימי נדתה</he> during the days of actual menstruation. Treat. Kallah beg. <he>נ׳ שלא טבלה</he> a woman after menstruation before she has taken the ritual bath; <he>כנ׳</he> is to be treated like a woman during menstruation; a. fr.—Pl. <he>נִדּוֹת</he>. ",
+				"<cite ref=\"Mishnah Niddah 4:1\">Nidd. IV, 1</cite> <he>נ׳</he> are to be treated like menstruants; a. fr.—<i>Niddah</i>, name of a treatise, of the Order of Tohăroth, of Mishnah, Tosefta and Talmud Babli and Y’rushalmi (fragmentary).—",
+				"<cite ref=\"Pirkei Avot 3:18\">Ab. III, 18</cite> <he>פתחי נדה</he> the laws treated in <cite ref=\"Mishnah Arakhin 2:1\">Arakh. II, 1</cite> (<cite ref=\"Arakhin 8a\">8ᵃ</cite>), v. <cite ref=\"Q02147\"><he>פֶּתַח</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

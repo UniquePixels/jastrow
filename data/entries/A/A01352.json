@@ -1,0 +1,23 @@
+{
+	"id": "A01352",
+	"slug": "אימרייא",
+	"headword": {
+		"text": "אִימְרָיָיא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 51,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M02651\"><he>מרי</he></cite>, v. <cite ref=\"A01353\">next w.</cite>) <i>rebellion</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 3\">Lam. R. to III, 13</cite> (rendering <he>בני אשפתו</he> ibid. ‘the children of those thrown down’ (into the dung, conquered), Rab explains ‘the children of his destruction’ (v. <cite ref=\"A00804\"><he>אוֹפִיכָא</he></cite>), <he>בני אִימְרָיֵיה</he> the children of rebellion against him. (Editions vary, <he>אימריה</he>, <he>רייא …</he>, <he>אמורים</he> &c., v. <cite ref=\"A01335\"><he>אֵימוּרִים</he> II</cite>). [<cite ref=\"Esther Rabbah 1\">Esth. R. to I, 1</cite>ᵇ, independently interpreted, v. <cite ref=\"A00641\"><he>אוּכַּיְיפָא</he></cite> a. <cite ref=\"A02008\"><he>אֲמוּרְיָא</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "U01231",
+	"slug": "שלו-3",
+	"headword": {
+		"text": "שָׁלֵו",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁלֵיו"
+		}
+	],
+	"page": {
+		"number": 1578,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01230\">preced.</cite>) <i>at ease, secure</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 138:1\">Yalk. Gen. 138</cite> <he>בטח ושאנן וש׳</he> in safety, without care, and at ease; (<cite ref=\"Pirkei DeRabbi Eliezer 38:1\">Pirké d’R. El. ch. XXXVIII</cite> only <he>בטח ושאנן</he>)."
+			]
+		}
+	]
+}

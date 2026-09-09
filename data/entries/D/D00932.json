@@ -1,0 +1,36 @@
+{
+	"id": "D00932",
+	"slug": "דנסטיס",
+	"headword": {
+		"text": "דָּנִסְטֵיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּנִיסְ׳"
+		},
+		{
+			"text": "דָּאנִ׳"
+		}
+	],
+	"page": {
+		"number": 315,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (δανειστής, danista) <i>money-lender, usurer, creditor</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 29:1\">Ex. R. s. 29</cite> <he>טוס …</he> (corr. acc.). ",
+				"<cite ref=\"Shemot Rabbah 31\">Ex. R. s. 31</cite>, beg. <cite ref=\"D00519\"><he>דיוסטוס</he></cite> (corr. acc.). ",
+				"<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite>, beg. <he>הד׳ משבר שיניו</he> the lender breaks the debtor’s teeth (enforces his claim). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:6:8\">Y. Sabb. II, 5ᵇ</cite> top (ref. to <cite ref=\"J00688\"><he>יַשִּׁי</he></cite>, <cite ref=\"Psalms 55:16\">Ps. LV, 16</cite>) he makes the angel of death <he>ד׳ שלו</he> (some ed. <he>דינ׳</he>) his creditor (to collect his debts, visit his sins). Y’lamd. Thazr. end (quot. in Ar.) <he>דנסטס</he>, (Var. <cite ref=\"D00647\"><he>דינסטיס</he></cite>, corr. acc.). [<cite ref=\"Psalms 55:16\">Ib.</cite> to <cite ref=\"Deuteronomy 4:30\">Deut. IV, 30</cite> <he>אני דינאסטוס וכ׳</he> ed. Koh. (v. Var. ",
+				"<cite ref=\"Deuteronomy 4:30\">ib.</cite>), v. <cite ref=\"D00638\"><he>דִּינָאטוֹס</he></cite>.]—Pl. <he>דָּנִסְטִין</he>. ",
+				"<cite ref=\"Deuteronomy 4:30\">Ib.</cite> to <cite ref=\"Deuteronomy 24:10\">Deut. XXIV, 10</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:5:4\">Y. B. Mets. II, 8ᶜ</cite> <he>אילין דאיסרטוס</he>; Y. Ab. Zar. V, 42ᵇ bot. <he>אילין דאוסיניסי</he>, read: <he>דָּאנִסְטִיסֵי</he>."
+			]
+		}
+	]
+}

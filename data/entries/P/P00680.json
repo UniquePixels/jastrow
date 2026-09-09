@@ -1,0 +1,67 @@
+{
+	"id": "P00680",
+	"slug": "עירוב",
+	"headword": {
+		"text": "עֵירוּב"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֵר׳"
+		}
+	],
+	"page": {
+		"number": 1075,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עָרַב</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>interweaving, mixture, conjunction</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kinnim 1:4\">Kinn. I, 4</cite> <he>שתי נשים שלקחו … בע׳</he> two women that bought their birds for sacrifices in common (not designating which of them belonged to the one and which to the other). ",
+				"<cite ref=\"Mishnah Mikvaot 6:7\">Mikv. VI, 7</cite> <he>ע׳ מקואות</he> in the case of two bathing reservoirs joined (a connection having formed between them); <cite ref=\"Chagigah 21b:4\">Ḥag. 21ᵇ</cite>; <cite ref=\"Yevamot 15a:18\">Yeb. 15ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 3:1:11\">Y. Pes. III, beg. 29ᵈ</cite> <he>על עֵירוּבוֹ</he> for eating leavened matter in a mixture, opp. <he>חמץ ברור</he>; Bab. ",
+				"<cite ref=\"Pesachim 43a:13\">Pes. 43ᵃ</cite>; a. e.—Pl. <he>עֶירוּבִין</he>, <cite ref=\"P00680\"><he>עֵר׳</he></cite>. Y. Orl. II, 61ᵈ bot. ",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 2:2:8\">Y. Bicc. II, 65ᵃ</cite> top <he>אין הביכורין … עֵירוּבֵיהֶן וכ׳</he> first-fruits have no prohibitive effect on mixtures or on what has grown of them as to eating them in Jerusalem. ",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 2:2:8\">Ib.</cite> <he>עֵירוּבֵי בכורים</he> mixtures of first-fruits with common ones; <he>ע׳ מעשר</he> mixtures of tithes with secular fruit.—עירוב פרשיות <i>an interweaving of biblical sections, clauses of one section taken over, for interpretative purposes, to a succeeding section; misplacement</i>. ",
+				"<cite ref=\"Bava Kamma 107a:1\">B. Kam. 107ᵃ</cite> (ref. to the clause <he>אשר יאמר … שניהם</he>, <cite ref=\"Exodus 22:8\">Ex. XXII, 8</cite>) <he>ע׳ פ׳ כתוב כאן וכ׳</he> here is a misplacement, and the words <i>Ki hu zeh</i> (which intimate that an oath can be administered only when the defendant admits a part of the claim) refer to the subject of loans (Ex. l. c. 24 sq.). ",
+				"<cite ref=\"Sanhedrin 2b:8\">Snh. 2ᵇ</cite> <he>אי קסבר ע׳ פ׳ … ליבעי נמי מומחין</he> if he adopts the opinion that here is a misplaced clause (and <i>ki hu zeh</i> refers to loans), let him also require authorized, learned judges (<cite ref=\"A01789\"><he>אלהים</he></cite>)!"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>‘Erub, a symbolical act by which the legal fiction of community</i> or <i>continuity is established</i>, e.g. ",
+			"units": [],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " with ref. to Sabbath limits <he>(תחומין</he>): a person deposits, before the Sabbath (or the Holy Day), certain eatables to remain in their place over the next day, by which act he transfers his abode to that place, and his movements on the Sabbath are measured from it as the centre; ",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " with ref. to buildings with a common court <he>(חצירות</he>): the inmates contribute their share towards a dish which is deposited in one of the dwellings, by which act all the dwellings are considered as common to all (one <cite ref=\"T01079\"><he>רָשׁוּת</he></cite>), and the carrying of objects on the Sabbath from one to the other and across the court is permitted; ",
+					"units": [],
+					"label": "b"
+				},
+				{
+					"gloss": " with ref. to preparing meals (<he>תבשילין</he>) for the Sabbath on a Holy Day occurring on a Friday: a person prepares a dish on Thursday and lets it lie over until the end of the Sabbath, by which fiction all the cooking for the Sabbath which he does on the Holy Day (Friday) is merely a continuation of the preparation begun on Thursday. ",
+					"units": [
+						"<cite ref=\"Mishnah Eruvin 3:2\">Erub. III, 2</cite> <he>השולח עֵרוּבוֹ … ביד מי שאינו מודה בע׳</he> if a person sends his ‘Erub (the eatables to be deposited) through a deaf mute or through one who does not believe in the Erub. (e.g. a Samaritan), <he>אינו ע׳</he> it is not a legal ‘Erub. Ib. 3 <he>אין ערובו ע׳</he> his Erub. is not legal. Ib. 5 <he>מתנה אדם על ערובו … עֵרוּבִי וכ׳</he> a person may make his Sabbath centre conditional (by laying two ‘Erubs on two opposite points) and say, if gentile troops should invade from the east, my Sabbath centre shall be on the western side &c. Ib. VI, 10 <he>נתנו עֵרוּבָן במקום וכ׳</he> if the inmates of a court placed their ‘Erub (common dish) at a certain place, but one, of the inner or of the outer court, had forgotten to contribute his share. Ib. VII, 9 <he>בתחלת ע׳</he> when the common dish is in its original state; <he>בשירי ע׳</he> when there are merely remnants left over. ",
+						"<cite ref=\"Beitzah 15b:17\">Bets. 15ᵇ</cite> <he>מי שהיה לו להניח ערובו וכ׳</he> he who had the means to prepare and leave a dish on Thursday and does not do it; a. fr.—<i>Pl.</i> as ab. ",
+						"<cite ref=\"Eruvin 21b:16\">Erub. 21ᵇ</cite> <he>בשעה שהתקין שלמה ע׳</he> when Solomon introduced the ‘Erub. Ib. VII, 11 <he>עֵרוּבֵי תחומין</he> ‘Erubs for the purpose of regulating Sabbath limits; <he>ע׳ חצירות</he> for the purpose of regulating the Sabbath movements of inmates of common courts. ",
+						"<cite ref=\"Yoma 28b:9-10\">Yoma 28ᵇ</cite> <he>קיים</he> … <he>אפי׳ עירובי תבשילין</he> Abraham observed even the regulations concerning preparations for the Sabbath on a Holy Day preceding it. Bets. l. c. <he>מי שלא היה לו להניח ע׳ תבשילין</he> he who had not the means to prepare a dish on Thursday &c. (v. supra). ",
+						"<cite ref=\"Bereishit Rabbah 49\">Gen. R. s. 49</cite> <he>אפי׳ הילכות עירובי חצירות וכ׳</he> Abraham knew even the laws regulating Sabbath movements among inmates of a court by means of ‘Erub; a. fr.—<i>‘Erubin</i>, name of a treatise, of the Order of Moʿed, of the Mishnah, Tosefta, Talmud Babli and Y’rushalmi."
+					],
+					"label": "c"
+				}
+			]
+		}
+	]
+}

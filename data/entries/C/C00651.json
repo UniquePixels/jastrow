@@ -1,0 +1,25 @@
+{
+	"id": "C00651",
+	"slug": "גיהוץ",
+	"headword": {
+		"text": "גִּיהוּץ"
+	},
+	"page": {
+		"number": 235,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00259\"><he>גהץ</he></cite>) <i>calendering clothes, fine laundry work</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:5:2\">Y. M. Kat. III, 82ᵃ</cite> bot. <he>איזהו ג׳ כלי וכ׳</he> the process called <i>gihuts</i> applies to woolen garments when they are new, and to white linen garments when laundried. ",
+				"<cite ref=\"Taanit 29b:6\">Taan. 29ᵇ</cite> <he>ג׳ שלנו ככיבוס שלהם</he> (Ms. M. always <cite ref=\"C00694\"><he>גִּיחוּץ</he></cite>) our (Babylonian) laundry work is like their (Palestinean) plain wash. ",
+				"<cite ref=\"Taanit 29b:6\">Ib.</cite> <he>אין בהן משום ג׳</he> are not included in the prohibition of laundry work (in the festive week &c.). ",
+				"<cite ref=\"Ketubot 10b:1\">Keth. 10ᵇ</cite> top."
+			]
+		}
+	]
+}

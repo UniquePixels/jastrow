@@ -1,0 +1,27 @@
+{
+	"id": "M00782",
+	"slug": "מזרח",
+	"headword": {
+		"text": "מִזְרָח"
+	},
+	"page": {
+		"number": 756,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00695\"><he>זָרַח</he></cite>)<i>sunrise, East</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 110a:4\">Men. 110ᵃ</cite> <he>מקרטיגני כלפי מ׳</he> from Carthagene eastward. ",
+				"<cite ref=\"Mishnah Tamid 1:3\">Tam. I, 3</cite> <he>דרך המ׳</he> in an eastern direction. ",
+				"<cite ref=\"Mishnah Tamid 1:4\">Ib. 4</cite> <he>למִזְרָחוֹ של כבש</he> east of the bridge. ",
+				"<cite ref=\"Mishnah Tamid 2:4\">Ib. II, 4</cite> <he>מִזְרָחָה</he> facing east. ",
+				"<cite ref=\"Mishnah Tamid 3:2\">Ib. III, 2</cite>; <cite ref=\"Mishnah Yoma 3:1\">Yoma III, 1</cite> <he>פני כל המ׳</he>, v. <cite ref=\"A00840\"><he>אוֹר</he> I</cite>.—",
+				"<cite ref=\"Shabbat 156b:1\">Sabb. 156ᵇ</cite> (Chald. dict.) <he>ומוקמינא ליה במ׳</he> and I will place it in the eastern horizon; a. fr."
+			]
+		}
+	]
+}

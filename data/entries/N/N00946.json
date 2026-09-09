@@ -1,0 +1,79 @@
+{
+	"id": "N00946",
+	"slug": "נסך-1",
+	"headword": {
+		"text": "נָסַךְ"
+	},
+	"page": {
+		"number": 917,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to pour, cast</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:25\">Y. Ber. I, 2ᵈ</cite> top, v. <cite ref=\"M01939\"><he>מָסַךְ</he> II</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִסֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to offer a libation</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sukkah 4:9\">Succ. IV, 9</cite> <he>ולִמְנַסֵּךְ אומרים לו וכ׳</he> and they said to him who offered the libation (of water), raise thy hand. ",
+						"<cite ref=\"Mishnah Sukkah 4:9\">Ib.</cite> <he>שפעם אחת ני׳ אחד וכ׳</he> for once it happened, that a priest poured the libation out at his feet. ",
+						"<cite ref=\"Sanhedrin 62b:5\">Snh. 62ᵇ</cite> <he>זיבח … וני׳ וכ׳</he> if one sacrificed, burnt incense, and offered a libation (to an idol) &c.; a. fr.—",
+						"<cite ref=\"Shir HaShirim Rabbah 4:12:3\">Cant. R. to IV, 12</cite> <he>מֵאָן היו ישראל מנטרים כל וכ׳</he> (read: <he>מְנַסְּכִים</he>, v. Matt. K. a. l.) whence did the Israelites take wine for their festive gatherings during the forty years &c.?"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make wine forbidden</i> (<he>יֵין נֶסֶךְ</he>) <i>by the manipulation of a gentile suspected of dedicating it to idolatrous purposes</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 27a\">Keth. 27ᵃ</cite>; <cite ref=\"Shabbat 41a:3\">Sabb. 41ᵃ</cite> <he>אין פנאי לנַסֵּךְ</he> they do not take the time to manipulate the wine. ",
+						"<cite ref=\"Avodah Zarah 56b:4\">Ab. Zar. 56ᵇ</cite> (in Chald. dict.) <he>והא קא מנסך בידיה</he> but might he not dedicate it to idolatry by putting his hand into it?; <he>והא קא מנסך ברגל</he> might he not do it with his foot (while treading the wine)? <cite ref=\"Mishnah Gittin 5:4\">Gitt. V, 4</cite> <he>המנסך</he> he who does damage to his neighbor by touching his wine for idolatrous purposes (v. interpret. ",
+						"<cite ref=\"Gittin 52b\">ib. 52ᵇ</cite>). Y. Ab. Zar. IV, 44ᵃ bot. <he>מנסך כל הבור</he> he causes all the wine in the pit to be forbidden; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִיסָּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be offered as libation, to be poured on the altar</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 22a:9\">Pes. 22ᵃ</cite> <he>כמים הנִיסָּסִין</he> like the water which is poured on the altar, opp. <he>הנשפכין</he> which is poured out at the foot of the altar."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְנַסֵּךְ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְנַסֵּךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00945\">same</cite>. Ib. <he>המִתְנַּסְּכִים</he>; a. fr.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be made forbidden</i> (<i>as dedicated to idolatry</i>). Y. Ab. Zar. l. c. <he>נתנ׳ הבור וכ׳</he> if the wine in the pit has been manipulated and become forbidden, the jet of wine poured into the pit becomes forbidden (affecting the wine in the vessel).",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

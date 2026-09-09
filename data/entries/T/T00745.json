@@ -1,0 +1,50 @@
+{
+	"id": "T00745",
+	"slug": "רכב-1",
+	"headword": {
+		"text": "רָכב"
+	},
+	"page": {
+		"number": 1478,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be joined</i>,] <i>to ride</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 1:2\">B. Mets. I, 2</cite> <he>היו רוֹכְבִין … אחד רוֹכֵב וכ׳</he> if two persons (each claiming to be the finder of an object) were riding …, or one was riding and one leading. ",
+				"<cite ref=\"Mishnah Chagigah 1:1\">Ḥag. I, 1</cite>; Y. ib. I, 76ᵃ top <he>כל שאינו יכול לִרְכּוֹב וכ׳</he> a child too young to be carried on his father’s shoulder. ",
+				"<cite ref=\"Berakhot 56b:16\">Ber. 56ᵇ</cite> <he>רְכָבוֹ</he> if he dreamt that he rode on him. ",
+				"<cite ref=\"Bereishit Rabbah 75:10\">Gen. R. s. 75</cite> <he>רוֹכְבֵי סוסים</he> riders on horses; a. fr.—<i>Part. pass.</i> <cite ref=\"T00752\"><he>רָכוּב</he></cite>; f. <cite ref=\"T00755\"><he>רְכוּבָה</he></cite> &c. <i>riding</i>. ",
+				"<cite ref=\"Shemot Rabbah 26\">Ex. R. s. 26</cite> <he>תינוק שהיה ר׳ על וכ׳</he> a child that was riding on his father’s shoulder. ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 1:3:1\">Y. B. Mets. I, beg. 7ᵈ</cite> <he>אשה … ר׳ וכ׳</he> if a woman rides on a beast led by two men; a. fr.—[Pesik. Vayhi, p. 4ᵃ <he>רכובים</he>, read <he>דב׳</he>, v. <cite ref=\"D00039\"><he>דָּבַב</he> II</cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְכִּיב"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to ride, put on</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 91b:1\">Snh. 91ᵇ</cite>, a. e. <he>ה׳ חיגר על וכ׳</he> he made the lame ride on the blind man. ",
+						"<cite ref=\"Sanhedrin 91b:1\">Ib.</cite> <he>בא והַרְכִּיבֵנִי</he> come and carry me on thy back; a. fr.—Part. pass. <he>מוּרְכָּב</he>. ",
+						"<cite ref=\"Sanhedrin 52b\">Ib. 52ᵇ</cite> I remember when I was a child <he>ומ׳ על כתיפו וכ׳</he> and rode on my father’s shoulder &c.; (Tosef. ib. IX, 11 <cite ref=\"T00752\"><he>רכוב</he></cite>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to join, combine</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shabbat 12:1\">Tosef. Sabb. XII</cite> (<cite ref=\"Tosefta Shabbat 13:14\">XIII</cite>), 14 <he>המַרְכִּיב קנה וכ׳</he> if one inserts the branch of a candlestick; (<cite ref=\"Shabbat 47a:6\">Sabb. 47ᵃ</cite> <he>המחזיר</he>). Y. ib. XII, beg. 13ᶜ <he>המרכיב מיטה וכ׳</he> he who sets up a folding couch; a. e.—Esp. <i>to inoculate, engraft</i>. ",
+						"<cite ref=\"Mishnah Sheviit 2:6\">Shebi. II, 6</cite> <he>אין … ואין מַרְכִּיבִין וכ׳</he> we must not plant, nor sink a vine, nor engraft before the Sabbatical year &c. ",
+						"<cite ref=\"Mishnah Pesachim 4:8\">Pes. IV, 8</cite>; a. fr.—Part. pass. as ab. Y. B. Bath. IV, end, 14ᵈ <he>החרוב המ׳</he> a newly inoculated carob tree; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

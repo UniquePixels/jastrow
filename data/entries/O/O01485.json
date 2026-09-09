@@ -1,0 +1,51 @@
+{
+	"id": "O01485",
+	"slug": "סקל-1",
+	"headword": {
+		"text": "סָקַל"
+	},
+	"page": {
+		"number": 1020,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to stone, put to death by stoning</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 6:1\">Snh. VI, 1</cite> (<cite ref=\"Sanhedrin 42b\">42ᵇ</cite>); <he>מוציאין אותו לסוֹקְלוֹ</he> (Mish. ed. <he>לסָקְלוֹ</he>) they take him out (from the court) to execute him. Ib. 46ᵃ <he>וסְקָלוּהוּ</he> and they condemned him to be stoned; a. fr.—",
+				"<cite ref=\"Tosefta Shabbat 6:5\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:5\">VII</cite>), 5 <he>האומר סִקְלוּ תרנגול זה וכ׳</he> (not <cite ref=\"V01024\"><he>תרנגולת</he></cite>) ed. Zuck. (Var. <he>שחטו</he>) if one says, stone this cock, for he crowed at evening,—that is a superstitious practice (v. <cite ref=\"A02007\"><he>אֱמוֹרִי</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִסְקַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be stoned, be condemned to death by stoning</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 43a\">Snh. 43ᵃ</cite> <he>אבן שנ׳ בה</he> the stone with which the culprit is to be put to death. ",
+						"<cite ref=\"Mishnah Sanhedrin 6:1\">Ib. VI, 1</cite> <he>יוצא לִיסָּקֵל</he> is taken out to be stoned. ",
+						"<cite ref=\"Mishnah Sanhedrin 6:3\">Ib. 3</cite> <he>האיש נ׳ ערום ואין האשה נִסְקֶלֶת וכ׳</he> the male convict is put to death undressed, but not so the woman. ",
+						"<cite ref=\"Mishnah Sanhedrin 6:4\">Ib. 4</cite> <he>כל הנִסְקָלִין נתלין</he> all those executed by stoning are afterwards hanged; a. fr.—<he>שור הנִסְקָל</he> the ox that is to be, or has been put to death by stoning, having killed a human being (<cite ref=\"Exodus 21:28\">Ex. XXI, 28</cite>). Ib. I, 4 <he>שור הנ׳ וכ׳</he> the case of an ox to be stoned is argued before a court of twenty-three. Mekh. Misp., Nziḳin, s. 10; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["סִיקֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to clear of stones</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 2:3\">Shebi. II, 3</cite> <he>מְסַקְּלִין עד וכ׳</he> you may clear fields of stones (in the sixth year) up to the beginning of the Sabbatical year. ",
+						"<cite ref=\"Tosefta Bava Kamma 2:12\">Tosef. B. Kam. II, 12</cite> <he>כדרך … לא יְסַקֵּל ואם סי׳ וכ׳</he> as one has no right to put dung on the public road, so one must not clear his field and deposit the stones on the road, and if he does clear it, he must carry the stones to &c. ",
+						"<cite ref=\"Tosefta Bava Kamma 2:13\">Ib. 13</cite> (to one who deposited stones on the road) <he>מפני מה אתה מְסַקֵּל מתוך וכ׳</he> why dost thou remove the stones from a place which is not thine to a place which is thine?; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "S01094",
+	"slug": "קיפא",
+	"headword": {
+		"text": "קֵיפֶא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קֵיפֶה"
+		},
+		{
+			"text": "קוֹפֶה"
+		},
+		{
+			"text": "קֵפֶה"
+		}
+	],
+	"page": {
+		"number": 1365,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01694\"><he>קָפָא</he></cite>, <cite ref=\"S01704\"><he>קָפָה</he></cite>) <i>coagulation, jelly, sediments of boiled meat</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 9:1\">Ḥull. IX, 1</cite> (expl. ",
+				"<cite ref=\"Chullin 120a:14\">ib. 120ᵃ</cite> <cite ref=\"Q00864\"><he>פִּירְמָא</he></cite>, q. v.; another explan. ",
+				"<cite ref=\"Chullin 120a:15\">ib.</cite> <he>תבלין</he> the settled spices in the meat pot). Ib. 112ᵇ (Ar. <he>קופה</he>, some ed. <cite ref=\"S01094\"><he>קיפא</he></cite>). ",
+				"<cite ref=\"Mishnah Nedarim 6:6\">Ned. VI, 6</cite>; <cite ref=\"Nedarim 52b\">ib. 52ᵇ</cite> (some ed. <he>קו׳</he>); <cite ref=\"Tosefta Nedarim 3:2\">Tosef. ib. III, 2</cite>. ",
+				"<cite ref=\"Mishnah Tevul Yom 2:5\">T’bul Yom II, 5</cite> <he>בשר הקדש שקרם עליו הקי׳</he> (ed. Dehr. <he>הקו׳</he>; Ar. <he>שקרש … הקו׳</he>) sacred flesh on the top of which a layer of jelly was formed. Mekh. B’shall., Shir., s. 6 (ref. to <he>קפאו</he>, <cite ref=\"Exodus 15:8\">Ex. XV, 8</cite>) <he>עשאן כמין ק׳ וכ׳</he> he made them like a congealed mass in the heart of the sea; (Tanḥ. ",
+				"<cite ref=\"Exodus 17\">B’shall. 17</cite> <cite ref=\"K00986\"><he>כִּפָּה</he></cite>). Sifra Sh’mini, ch. IV, Par. 3 <he>הקפֶה</he>."
+			]
+		}
+	]
+}

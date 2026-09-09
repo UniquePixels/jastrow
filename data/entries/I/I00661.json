@@ -1,0 +1,43 @@
+{
+	"id": "I00661",
+	"slug": "טפל-2",
+	"headword": {
+		"text": "טְפַל"
+	},
+	"page": {
+		"number": 547,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00660\">same</cite>, <i>to paste, plaster</i> &c. ",
+			"units": [
+				"<cite ref=\"Pesachim 74b:4\">Pes. 74ᵇ</cite> <he>טַפְלֵיה ההוא וכ׳</he> put a dough paste over a pigeon. ",
+				"<cite ref=\"Moed Katan 9b:21\">M. Kat. 9ᵇ</cite> <he>טַפְלָהּ אבר אבר</he> put a paste on her (for improving her complexion) limb-wise; <cite ref=\"Shabbat 80b:3\">Sabb. 80ᵇ</cite>.—Trnsf. (with <he>שקרא</he>) <i>to charge falsely, calumniate</i> (cmp. <cite ref=\"I00140\"><he>טוּחַ</he> I</cite>, v. ",
+				"<cite ref=\"Psalms 119:69\">Ps. CXIX, 69</cite>).—",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 1:1\">Targ. Y. I Deut. I, 1</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיטַּפֵּל"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיטְּפֵיל"],
+			"senses": [
+				{
+					"gloss": "<i>to be put on</i>. Part. <he>מִיטַּפַּל</he>, <he>מִיטַּפְלָא</he>, <he>מִטַּ׳</he> (not <cite ref=\"M01782\"><he>מְ׳</he></cite>) <i>forming a scab</i> (h. <cite ref=\"M01045\"><he>מִסְפַּחַת</he></cite>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 13:6\">Targ. Y. Lev. XIII, 6</cite>; <cite ref=\"Targum Jonathan on Leviticus 13:7\">7</cite>; <cite ref=\"Targum Jonathan on Leviticus 13:8\">8</cite>; <cite ref=\"Targum Jonathan on Leviticus 13:19\">19</cite>.—2) <i>to attend, care</i>. Y. Taan. IV, 68ᵈ top <he>עד דהוון מִיטַּפְּלִין ביה</he> while they were engaged in burying him.—3) <i>to join, attach one’s self</i>. ",
+						"<cite ref=\"Ketubot 23a:17\">Keth. 23ᵃ</cite> <he>אִיטְּפֵל בקריבותיך</he> marry one of thy relations. ",
+						"<cite ref=\"Sanhedrin 26a\">Snh. 26ᵃ</cite> <he>א׳ בהדיהו</he> joined them. Y. Kil. IX, 32ᶜ bot.; Y. Keth. XII, 35ᵇ <he>אזל וא׳ בהון מן תמן</he> (not <cite ref=\"G00536\"><he>זמן</he></cite>) he went and remained in their company from thence."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"id": "K00949",
+	"slug": "כסס-1",
+	"headword": {
+		"text": "כָּסַס"
+	},
+	"page": {
+		"number": 654,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to cut, grind, chew, nibble</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Berakhot 4:6\">Tosef. Ber. IV, 6</cite> <he>הכּוֹסֵס חטים</he> he who chews wheat grains; <cite ref=\"Berakhot 37a\">Ber. 37ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Bamidbar Rabbah 11\">Num. R. s. 11</cite> (ref. to <he>אש אכלת</he>, <cite ref=\"Exodus 24:17\">Ex. XXIV, 17</cite>) … <he>שבע היו כוֹסְסוֹת זו בזו</he> seven partitions (strata) of fire were eating into one another; Pesik. Haḥod. p. 45ᵃ; <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>בוססות</he> (corr. acc.); v. <cite ref=\"I00461\"><he>טָכַס</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (b. h.) <i>to make incisions, to mark, count</i>. Mekh. Bo. s. 3; <cite ref=\"Pesachim 61a\">Pes. 61ᵃ</cite>; Y. ib. V, 32ᵃ bot., v. <cite ref=\"N00836\"><he>נָכַס</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּסְכֵּס"],
+			"senses": [
+				{
+					"gloss": "<i>to chew</i> &c. Tanḥ. Vayigg. 3 <he>מְכַסְכֵּס בשיניו</he> cut (the bronze peas) with his teeth.—V. <cite ref=\"O00936\"><he>סִכְסֵךְ</he> II</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pilp."
+		},
+		{
+			"forms": ["נִתְכַּסְכֵּס", "נִיכַּ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be gnawed at</i> (by fire), <i>be charred</i>. Y. Bets. IV, 62ᶜ bot. <he>בשביל שלא תִכַּסְכֵּס</he> (prob. to be read <he>תתכ׳</he>) that it (the log) may not catch fire.",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

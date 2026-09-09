@@ -1,0 +1,27 @@
+{
+	"id": "U00463",
+	"slug": "שומשמנא",
+	"headword": {
+		"text": "שׁוּמְשְׁמָנָא"
+	},
+	"page": {
+		"number": 1537,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (transpos. of <he>משמש</he>, cmp. <cite ref=\"U01541\"><he>שַׁמָּשׁ</he></cite>) [<i>the busy one</i>,] <i>ant</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 6:6\">Targ. Prov. VI, 6</cite> (ed. Lag. <he>שומשמנה</he>; Ar. everywhere <cite ref=\"U00573\"><he>שׁוּשְׁמָנָא</he></cite>).—",
+				"<cite ref=\"Shabbat 66b:22\">Sabb. 66ᵇ</cite>, v. <cite ref=\"C01051\"><he>גַּמְלָנָא</he></cite>. ",
+				"<cite ref=\"Yevamot 76a:7\">Yeb. 76ᵃ</cite> (ed. <cite ref=\"U00464\"><he>שׁוּמְשָׁנָא</he></cite>). ",
+				"<cite ref=\"Yevamot 118b\">Ib. 118ᵇ</cite>; <cite ref=\"Ketubot 75a\">Keth. 75ᵃ</cite>, v. <cite ref=\"K00393\"><he>כּוּרְסַיָּא</he></cite>.—Pl. <cite ref=\"U00463\"><he>שׁוּמְשְׁמָנֵי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 30:25\">Targ. Prov. XXX, 25</cite> (Ms. <cite ref=\"U00464\"><he>שׁוּמְשָׁנֵי</he></cite>).—",
+				"<cite ref=\"Nedarim 24b:7\">Ned. 24ᵇ</cite> <he>קינא דש׳</he> an ant nest."
+			]
+		}
+	]
+}

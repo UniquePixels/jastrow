@@ -1,0 +1,29 @@
+{
+	"id": "S01030",
+	"slug": "קינוף",
+	"headword": {
+		"text": "קִינוֹף"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִינּוֹף"
+		}
+	],
+	"page": {
+		"number": 1363,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קנף</he>, sec. r. of <he>קף</he>, cmp. <cite ref=\"R00391\"><he>צִינוֹק</he></cite>, <cite ref=\"R00613\"><he>צִנּוֹר</he></cite> &c.; an adaptation of κωνωπεῖον) <i>the framework of a baldachin</i> or <i>canopy</i>, consisting of four columns over which a flat cover is spread, contrad. to <cite ref=\"N01224\"><he>נַקְלִיטִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sukkah 1:3\">Succ. I, 3</cite> (<cite ref=\"Sukkah 10a:13\">10ᵃ</cite>) <he>או שפירס ע״ג ק׳</he> (not <he>שפירסה</he>) or if he spread a sheet over a frame (so as to form a tent within the Succah); ib. 10ᵇ Ms. M. (ed. <he>קינופות</he>). ",
+				"<cite ref=\"Sanhedrin 68a:1\">Snh. 68ᵃ</cite> <he>הוא יושב בק׳ שלו</he> he was seated on his curtained couch.—Pl. <he>קִינוֹפוֹת</he>, <cite ref=\"S01016\"><he>קִינּ׳</he></cite>. Succ. l. c. <he>וק׳ ארבעה</he>, v. <cite ref=\"N01224\"><he>נַקְלִיטִין</he></cite>. Ib. <he>שאני ק׳ דקביעי</he> it is different with baldachin frames, for they are stationary, opp. to <cite ref=\"K00532\"><he>כִּילָה</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 2:8\">Tosef. Kel. B. Mets. II, 8</cite>.—[Κωνωπεῖον means the <i>net</i>, our w. refers to the <i>frame</i>.]"
+			]
+		}
+	]
+}

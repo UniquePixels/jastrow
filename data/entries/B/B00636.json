@@ -1,0 +1,54 @@
+{
+	"id": "B00636",
+	"slug": "בין-2",
+	"headword": {
+		"text": "בִּין",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּן"
+		}
+	],
+	"page": {
+		"number": 162,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00635\">same</cite>; v. infra.—<i>Pa.</i> <cite ref=\"B00598\"><he>בַּיֵּין</he></cite>, <cite ref=\"B00598\"><he>בַּיֵּן</he></cite> <i>to teach, make wise</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 119:27\">Targ. Ps. CXIX, 27</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 32:8\">Targ. Job XXXII, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 32:8\">Ib.</cite> v. 9 <he>יְבַיְּנוּן דינא</he> explain the law (ed. Vienn. <he>יְבִינוּן</he>, Pe., <i>understand</i>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְבְּיַן"],
+			"senses": [
+				{
+					"gloss": "<i>to reflect upon, to understand</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 32:12\">Targ. Job XXXII, 12</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 28:23\">Ib. XXVIII, 23</cite>; a. fr. "
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִתְבּוֹנַן"],
+			"senses": [
+				{
+					"gloss": "<i>to be considerate, cautious</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite>, beg., v. <cite ref=\"B00475\"><he>בְּחִי</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpol."
+		}
+	]
+}

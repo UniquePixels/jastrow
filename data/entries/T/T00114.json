@@ -1,0 +1,43 @@
+{
+	"id": "T00114",
+	"slug": "רביתא-2",
+	"headword": {
+		"text": "רְבִיתָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1443,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>רְבֵי</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>growth, that which advances growth, sanitary treatment</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 78b:7\">Yoma 78ᵇ</cite> <he>רְבִיתֵיה דינוקא וכ׳</he> the proper treatment of a child consists in (bathing in) warm water and (rubbing with) oil. ",
+				"<cite ref=\"Yoma 78b:7\">Ib.</cite> <he>הנך דלאו רְבִיתַיְיהוּ</he> (some ed. <he>רְבִיתַיְהוּ</he>) those things (as wearing shoes) which have nothing to do with their healthy growth; <he>הנך דרביתייהו וכ׳</he> those other things (as ointing) which are needed for their health &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>growth, spontaneous healing</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 46b:12\">Ḥull. 46ᵇ</cite> bot. <he>היינו רביתייהו</he> this position of the adhering lungs (one overlapping the other) is the means of healing; v., however, <cite ref=\"T00115\">next w.</cite>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " = <cite ref=\"T00078\"><he>רְבוּתָא</he></cite> <i>something great, remarkable</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 5:1:3\">Y. Keth. V, beg. 29ᶜ</cite> <he>אשכח גידול ר׳ ומר וכ׳</he> G. found something great and reported something small."
+			],
+			"label": "3"
+		}
+	]
+}

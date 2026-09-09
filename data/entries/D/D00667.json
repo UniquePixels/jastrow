@@ -1,0 +1,28 @@
+{
+	"id": "D00667",
+	"slug": "דיסתנא-1",
+	"headword": {
+		"text": "דִּיסְתָּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּסְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 303,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (dial. for <cite ref=\"D01157\"><he>דשתנא</he></cite>, reduplic. of <cite ref=\"D01149\"><he>דָּשְׁנָא</he></cite>) <i>gift, portion</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 156b:5\">Sabb. 156ᵇ</cite> <he>אנא שקלת די׳ דיהבו לי וכ׳</he> Ms. M. (v. Rabb. D. S. a. l. note, ed. <he>שקלתי ריסתנאי דיהבת</he>) I took the portion which was given to me (the bride) and gave it &c. ",
+				"<cite ref=\"Berakhot 42a\">Ber. 42ᵃ</cite> <he>שדא</he> … <he>ד׳</he> Ms. M. (read <cite ref=\"U00284\"><he>שדר</he></cite>; ed. <he>שדרו להו ר׳ מבי וכ׳</he>) the Resh Galutha sent them an honorary portion. ",
+				"<cite ref=\"Gittin 67b:21\">Gitt. 67ᵇ</cite> <he>ד׳ דחנקא חמותא</he> Ar. (ed. <he>ר׳ … חמתא</he>) a gift which chokes a mother-in-law (a colloquial expression for a treacherous gift, as from a diseased animal &c.; differ. in Rashi). ",
+				"<cite ref=\"Berakhot 50b:10\">Ber. 50ᵇ</cite> <he>שקל</he> … <he>פתק</he> … <he>ד׳</he> Mar Z. took (some of the fruits) and threw them to R. … as his portion of honor (Ms. M. <he>זרק … רומנא</he>)."
+			]
+		}
+	]
+}

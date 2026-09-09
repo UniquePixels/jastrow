@@ -1,0 +1,32 @@
+{
+	"id": "R00211",
+	"slug": "צונן",
+	"headword": {
+		"text": "צוֹנָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "צוֹנֶנֶת"
+		}
+	],
+	"page": {
+		"number": 1268,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00635\"><he>צָנַן</he></cite>) <i>something cold</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 76a:1\">Pes. 76ᵃ</cite> <he>צ׳ לתוך צ׳</he> if cold meat is put into cold milk. ",
+				"<cite ref=\"Pesachim 76a:2\">Ib.</cite> <he>בחרס צ׳</he> when the earthen vessel was cold. ",
+				"<cite ref=\"Mishnah Demai 5:3\">Dem. V, 3</cite> <he>מעשר … על הצ׳ ומן הצ׳ וכ׳</he> (Bab. ed. <he>ומן הצוננות</he>, corr. acc.) one may give the tithes from the hot bread for the cold, and from the cold for the hot; a. fr.—Pl. <he>צוֹנְנִין</he>, <cite ref=\"R00208\"><he>צוֹנִּין</he></cite>; <he>צוֹנְנוֹת</he>. ",
+				"<cite ref=\"Pesachim 94b:6\">Pes. 94ᵇ</cite> <he>כל העולם … ומעיינות צ׳ וכ׳</he> the whole world (the earth) is hot, and the springs are cold &c. ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 4:1:10\">Y. Maasr. IV, 51ᵇ</cite> top <he>תבשיל צונין</he> a dish of cold things (not yet cooked). ",
+				"<cite ref=\"Bereishit Rabbah 12:15\">Gen. R. s. 12</cite>, end (some ed. incorr. <he>צונן</he>). Y. Sabb. XX, 17ᶜ bot. <cite ref=\"R00208\"><he>צונין</he></cite>, opp. <he>פושרין</he>; a. fr."
+			]
+		}
+	]
+}

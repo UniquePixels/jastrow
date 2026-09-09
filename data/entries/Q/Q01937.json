@@ -1,0 +1,30 @@
+{
+	"id": "Q01937",
+	"slug": "פרסק",
+	"headword": {
+		"text": "פַּרְסֵק"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְסֵיק"
+		}
+	],
+	"page": {
+		"number": 1234,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Περσικόν, sub. μῆλον) <i>peach; peach tree</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 42:5\">Gen. R. s. 42</cite> <he>תפוח ופ׳</he> apple and peach trees; <cite ref=\"Yalkut Shimoni on Torah 72\">Yalk. ib. 72</cite>. ",
+				"<cite ref=\"Bava Metzia 116b:20\">B. Mets. 116ᵇ</cite> <he>דלית שע״ג פ׳ זה וכ׳</he> I sell thee a grape vine overhanging this peach tree; Y. ib. X, 12ᶜ <cite ref=\"Q01932\"><he>פַּרְסֵיקוֹ</he></cite>, v. <cite ref=\"D00838\"><he>דָּלִית</he></cite>. Y. Kil. I, 27ᵃ bot. <he>גוי … ע״ג פ׳</he> a gentile who engrafted a shoot of a nut tree on a peach tree; a. e.—Pl. <cite ref=\"A02833\"><he>פַּרְסְקִים</he></cite>, <cite ref=\"A02833\"><he>פַּרְסְקִין</he></cite>. ",
+				"<cite ref=\"Mishnah Kilayim 1:4\">Kil. I, 4</cite> <he>הפ׳ והשקדין וכ׳</he> (Bab. ed. <he>השק׳</he>; Ms. M. <he>האפרסקין</he>) peaches (and) almonds … although resembling one another are heterogeneous. ",
+				"<cite ref=\"Mishnah Maasrot 1:2\">Maasr. I, 2</cite> Y. ed. (Bab. a. Mish. ed. <he>האפ׳</he>). Y. Peah VII, 20ᵃ bot. (v. <cite ref=\"Q01214\"><he>פַּנְקְרִיסִין</he></cite>); a. e.—[<cite ref=\"Tosefta Ma'asrot 1:1\">Tosef. Maasr. I, 1</cite> <he>הפרסקין</he>, read: <he>הפִּיסְטְקִין</he>.]"
+			]
+		}
+	]
+}

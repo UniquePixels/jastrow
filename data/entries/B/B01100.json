@@ -1,0 +1,46 @@
+{
+	"id": "B01100",
+	"slug": "בצע-1",
+	"headword": {
+		"text": "בָּצַע"
+	},
+	"page": {
+		"number": 184,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בץ</he>; cmp. <cite ref=\"B00459\"><he>בזע</he></cite>, <he>בקע</he>, <he>פצע</he>)<i>to cut, break</i>, esp. <i>to break bread and say the blessing</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 7b:16\">Ḥull. 7ᵇ</cite> <he>מימיו לא ב׳ על וכ׳</he> never said grace over a piece of bread which was not his own (never accepted an invitation). ",
+				"<cite ref=\"Berakhot 46a\">Ber. 46ᵃ</cite> <he>בע״הב בּוֹצֵעַ וכ׳</he> the host breaks the bread and the guest says grace after meal. ",
+				"<cite ref=\"Berakhot 47a:7\">Ib. 47ᵃ</cite> <he>אין הבוצע רשאי לִבְצוֹעַ וכ׳</he> he who is chosen to break the bread, must not begin to break until the Amen of those that respond (to the blessing) is finished; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to split the difference, to adjust, compromise</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 6b:1\">Snh. 6ᵇ</cite> top <he>נגמר … לבצוע</he> after the legal proceedings are closed, thou must not act as an arbiter in a compromise. ",
+				"<cite ref=\"Sanhedrin 6b:5\">Ib.</cite> <he>אסור לב׳</he> the court is forbidden to attempt a settlement (you must let the law take its course). ",
+				"<cite ref=\"Sanhedrin 6b:5\">Ib.</cite> <he>מצוה לב׳</he> it is a meritorious act to bring about a settlement. ",
+				"<cite ref=\"Sanhedrin 6b:5\">Ib.</cite> (before having formed an opinion the judge may say) <he>צאו ובִצְעוּ</he> go out and settle; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּצַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to adjust</i>. Y. Snh. I, 18ᵇ top <he>המְבַצֵּעַ חוטא</he> the judge who settles a case is a sinner. ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>לְבַצֵּעַ</he> (interch. with <he>לבצוע</he>). V. <cite ref=\"B00680\"><he>בִּיצּוּעַ</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

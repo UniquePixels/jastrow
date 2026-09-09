@@ -1,0 +1,29 @@
+{
+	"id": "K00059",
+	"slug": "כבכב",
+	"headword": {
+		"text": "כַּבְכָּב"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּפְכָּף"
+		}
+	],
+	"page": {
+		"number": 608,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (reduplic. of <cite ref=\"K00028\"><he>כבב</he></cite> or <he>כפף</he>, v. <cite ref=\"K00028\"><he>כְּבַב</he></cite>) <i>an arched round vessel</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 2:3\">Kel. II, 3</cite> <he>כ׳ שעשאו לסל הפת</he> a <i>kabkab</i> which was intended for a cover for the bread-basket (and not as a receptacle). ",
+				"<cite ref=\"Tosefta Kelim Kamma 2:5\">Tosef. Kel. B. Kam. II, 5</cite> <he>כסוי כ׳ וכסוי אלפס</he> ed. Zuck. (ed. only <he>כסוי אלפס</he>) the lid of a <i>k.</i> and that of a pot. ",
+				"<cite ref=\"Tosefta Kelim Kamma 2:8\">Ib. 8</cite> <he>העשוי לכך ולכך כגון הכ׳ וכ׳</he> R. S. to <cite ref=\"Mishnah Kelim 3:1\">Kel. III, 1</cite> (ed. Zuck. a. oth. <cite ref=\"K00858\"><he>כנכב</he></cite>) a vessel made for both purposes (for liquids and for solid food), e.g. the <i>k.</i>, the stew-pot &c."
+			]
+		}
+	]
+}

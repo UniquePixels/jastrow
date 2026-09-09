@@ -1,0 +1,28 @@
+{
+	"id": "T00227",
+	"slug": "רגשא",
+	"headword": {
+		"text": "רְגָשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִגְשָׁא"
+		},
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1451,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00226\">same</cite>, <i>movement, noise</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 7:15\">Targ. Prov. VII, 15</cite> (ed. Wil. <cite ref=\"T00086\"><he>רַ׳</he></cite>).—",
+				"<cite ref=\"Megillah 29a:5\">Meg. 29ᵃ</cite> <he>שמעו קול רי׳</he> (Ms. M. <he>שמע … רוגשנא</he>) they heard the sound of a movement."
+			]
+		}
+	]
+}

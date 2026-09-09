@@ -1,0 +1,32 @@
+{
+	"id": "T00079",
+	"slug": "רבותא-3",
+	"headword": {
+		"text": "רַבּוּתָא"
+	},
+	"page": {
+		"number": 1440,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"T00042\"><he>רַבָּא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>seniority</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 43:33\">Targ. O. Gen. XLIII, 33</cite> <he>כרַבּוּתֵיה</he> ed. Berl. (ed. <he>כרביותיה</he>, corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>superiority</i>, v. <cite ref=\"T00078\">preced.</cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"id": "M02866",
+	"slug": "משי",
+	"headword": {
+		"text": "מְשֵׁי"
+	},
+	"page": {
+		"number": 851,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", <cite ref=\"M02795\"><he>מְשָׁא</he></cite> (cmp. <cite ref=\"M00678\"><he>מוּשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to feel, touch</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 27:22\">Targ. O. Gen. XXVII, 22</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with <cite ref=\"J00094\"><he>ידא</he></cite>) <i>to rub</i>, whence <i>to wash and dry</i>, esp. <i>one’s hands</i> before and after meals. ",
+			"units": [
+				"<cite ref=\"Berakhot 46b:14\">Ber. 46ᵇ</cite> <he>מְשִׁי ידך</he> wash thy hands. ",
+				"<cite ref=\"Chullin 107a:1\">Ḥull. 107ᵃ</cite> <he>מְשׁוּ ידייכו וכ׳</he> wash your hands in the morning. ",
+				"<cite ref=\"Chullin 46b\">Ib. 46ᵇ</cite> <he>ולא מְשִׁית ידיך</he> (not <he>ידיה</he>) and didst not wash thy hands. ",
+				"<cite ref=\"Chullin 46b\">Ib.</cite> <he>ואנא מָשֵׁינָא</he> and I should wash? <cite ref=\"Pesachim 112a:1\">Pes. 112ᵃ</cite>. ",
+				"<cite ref=\"Nedarim 91a:8\">Ned. 91ᵃ</cite> <he>מַשְׁיָא ידיה וכ׳</he> she washed her husband’s hands. ",
+				"<cite ref=\"Nedarim 91a:8\">Ib.</cite> <he>למִמְשָׁא</he> to wash; a. fr.—",
+				"<cite ref=\"Shabbat 77b:10\">Sabb. 77ᵇ</cite> <cite ref=\"M00069\"><he>מָאשֵׁי</he></cite>, v. <cite ref=\"M02882\"><he>מְשִׁיכְלָא</he></cite>. ",
+				"<cite ref=\"Kiddushin 52b:2\">Kidd. 52ᵇ</cite> <he>מַשְׁיָא כרעא וכ׳</he> was washing a foot in a basin of water."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַמְשֵׁי"],
+			"senses": [
+				{
+					"gloss": "<i>to handle, draw</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 153a:10\">B. Bath. 153ᵃ</cite>. <he>אַמְשִינְהוּ … במיא</he> they drew Raba’s clothes through water."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

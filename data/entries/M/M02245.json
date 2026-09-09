@@ -1,0 +1,22 @@
+{
+	"id": "M02245",
+	"slug": "מפריכה",
+	"headword": {
+		"text": "מַפְרֵיכָה"
+	},
+	"page": {
+		"number": 821,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., pl. (<cite ref=\"Q01844\"><he>פָּרַךְ</he></cite>) <he>מַפְרֵיכוֹת</he> = <cite ref=\"M01669\"><he>מֶמֶל</he></cite>, <i>press-beam</i> or <i>stone</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 67b\">B. Bath. 67ᵇ</cite> Ms. M. (ed. <he>מַפְרוֹ׳</he>; Ms. R. <he>מַפְרֵכ׳</he>); Y. ib. IV, beg. 14ᶜ; <cite ref=\"Tosefta Bava Batra 3:2\">Tosef. ib. III, 2</cite>."
+			]
+		}
+	]
+}

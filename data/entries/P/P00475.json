@@ -1,0 +1,69 @@
+{
+	"id": "P00475",
+	"slug": "עטר-1",
+	"headword": {
+		"text": "עָטַר"
+	},
+	"page": {
+		"number": 1064,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>חטר</he>) [<i>to cut off, surround</i>,] <i>to wreathe, adorn</i>.—Part. pass. <cite ref=\"P00439\"><he>עָטוּר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 9\">Pesik. R. s. 9</cite>, beg. <he>כוס … שיהא מודח ושיהא ע׳ וכ׳</he> the goblet of benediction must be cleansed (shining), wreathed and full; <cite ref=\"Jerusalem Talmud Berakhot 7:5:7\">Y. Ber. VII, end, 11ᵈ</cite> <he>מלא ע׳ ומודח</he> (not <cite ref=\"P00533\"><he>עיטור</he></cite>), v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִיטֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P00474\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Berakhot 51a\">Ber. 51ᵃ</cite> <he>ר׳ י׳ מְעַטְּרֵהוּ בתלמידים</he> R. J. wreathed it (the goblet of benediction) by placing scholars around it (v. supra). ",
+						"<cite ref=\"Mishnah Bikkurim 3:9\">Bicc. III, 9</cite> <he>מְעַטְּרִין את וכ׳</he> the first fruits must be decorated with plants not belonging to the seven kinds of fruits. Y. ib. 65ᶜ <he>היה מְעַטְּרָן תאנים</he> decorated them with figs. Y. Taan. IV, 68ᵇ bot. ",
+						"<cite ref=\"Beitzah 5a:9\">Bets. 5ᵃ</cite> <he>כדי לעַטֵּר שוקי וכ׳</he> in order to have the markets of Jerusalem decorated with fruits; a. fr.—Part. pass. <he>מְעוּטָּר</he>; f. <he>מְעוּטֶּרֶת</he>; pl. <he>מְעוּטָּרִים</he>, <he>מְעוּטָּרִין</he>; <he>מְעוּטָרוֹת</he>. ",
+						"<cite ref=\"Mishnah Avodah Zarah 1:4\">Ab. Zar. I, 4</cite> (<cite ref=\"Avodah Zarah 12b:7\">12ᵇ</cite>) <he>חניות מע׳</he> wreathed shops (in honor of the deity of the bazaar). Y. ib. I, 39ᵈ <he>במה מע׳</he> wherewith are they wreathed (in order to be recognized as dedicated to a deity)?; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to crown, offer a crown</i>. Tanḥ. Vaëra 5 <he>והיו … ומְעַטְּרִין אותו</he> and all the chiefs came and crowned him (Pharaoh); <cite ref=\"Shemot Rabbah 5:14\">Ex. R. s. 5</cite> <he>מַעֲטִירִין</he> (<i>Hif.</i>). ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 5:14\">Ib.</cite> <he>משעִטְּרוּ אותו</he> after they had crowned him. ",
+						"<cite ref=\"Shemot Rabbah 42:8\">Ex. R. s. 42</cite> <he>מדינה … לעַטֵּר למלך</he> a country that sent a delegate to offer the king a crown (of fealty); a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְעַטֵּר"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְעַטֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be surrounded, protected, saved</i>. Tanḥ. Tol’doth 4 (ref. to <cite ref=\"Proverbs 17:6\">Prov. XVII, 6</cite>) <he>הצדיקים מִתְעַטְּרִין בבני בניהם ובניהם מתעטרין באבותם</he> the righteous are saved for the sake of their grandchildren, and their children for the sake of their fathers; <he>אברהם נתע בזכות וכ׳</he> Abraham was saved (from the furnace) for the sake of Jacob &c. ",
+					"units": [
+						"<cite ref=\"Proverbs 17:6\">Ib.</cite> <he>יצחק נתע׳ וכ׳</he> Isaac was protected through Abraham, and Abraham through Isaac. ",
+						"<cite ref=\"Bereishit Rabbah 47\">Gen. R. s. 47</cite>, beg. (ref. to <cite ref=\"Proverbs 12:4\">Prov. XII, 4</cite>, as applied to Sarah) <he>בעלה נתע׳ בה והיא לא נִתְעַטְּרָה בבעלה</he> her husband was protected through her, but she was not protected through him; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be crowned, adorned, distinguished</i>. Y. Snh. II, 20ᵇ top (ref. to <cite ref=\"I Chronicles 2:24\">I Chr. II, 24</cite>; <cite ref=\"I Chronicles 2:26\">26</cite>) <he>הוא ירחמאל קדמוי גויה להִתְעַטֵּר בה …</he> it is the Jerahmeel mentioned before, only that he married a gentile woman (named <cite ref=\"P00480\"><he>עטרה</he></cite>) to be ennobled through her; Ruth R. end. Y. Dem. II, 22ᶜ bot. <he>אותה עטרה … להתעטר בה</he> the Lord has left to him this crown to be crowned with it (this distinction to become renowned by it), v. <cite ref=\"C00244\"><he>גָּדַר</he></cite>; a. e.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

@@ -1,0 +1,69 @@
+{
+	"id": "K00103",
+	"slug": "כדב",
+	"headword": {
+		"text": "כְּדַב"
+	},
+	"page": {
+		"number": 612,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <he>כזב</he>) <i>to be false</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 4:2\">Targ. Hos. IV, 2</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּדֵּיב"],
+			"senses": [
+				{
+					"gloss": "<i>to lie, give false evidence; to be faithless; to deny</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 18:15\">Targ. O. Gen. XVIII, 15</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 31:28\">Targ. Job XXXI, 28</cite> (Ms. <cite ref=\"K00106\"><he>כַּדְבֵּיב׳</he></cite>); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to give the lie, to refute</i>. Ib. XXIV, 25.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to flatter</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 18:45\">Targ. Ps. XVIII, 45</cite>; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְכַּדֵּיב"],
+			"senses": [
+				{
+					"gloss": "<i>to be proved false</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 4:16\">Targ. II Kings IV, 16</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 30:6\">Targ. Prov. XXX, 6</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to flatter, be submissive</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 22:45\">Targ. II Sam. XXII, 45</cite>. ",
+						"<cite ref=\"Onkelos Deuteronomy 33:29\">Targ. O. Deut. XXXIII, 29</cite> <he>יִתְכַּדְבוּן</he> (Y. <he>יִתְכָּ׳</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

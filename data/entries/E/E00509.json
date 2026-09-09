@@ -1,0 +1,23 @@
+{
+	"id": "E00509",
+	"slug": "הכינה",
+	"headword": {
+		"text": "הֲכִינָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 350,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"K00827\"><he>כֵּן</he></cite>; cmp. <he>כנה</he> <i>Pi.</i>) <i>by-name</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 20b:10\">Taan. 20ᵇ</cite> <he>בַּהֲכִינָתוֹ</he> (v. Rabb. D. S. a. l. note 8); <cite ref=\"Megillah 28a\">Meg. 28ᵃ</cite> <he>בח׳</he> ed. (v. Rabb. D. S. a. l. note 300), v. <cite ref=\"H01288\"><he>חֲנִיכָה</he></cite>."
+			]
+		}
+	]
+}

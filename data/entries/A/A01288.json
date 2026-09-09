@@ -1,0 +1,34 @@
+{
+	"id": "A01288",
+	"slug": "איליא",
+	"headword": {
+		"text": "אִילְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִילְיָיא"
+		},
+		{
+			"text": "אֶלְיָא"
+		},
+		{
+			"text": "אֶלְיָיה"
+		}
+	],
+	"page": {
+		"number": 49,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ילי</he>, <cite ref=\"A01833\"><he>אלי</he></cite>, v. <cite ref=\"J00392\"><he>ילל</he></cite>; cmp. <cite ref=\"A01835\"><he>אֱלִי</he></cite> <cite ref=\"Joel 1:8\">Joel I, 8</cite>) <i>mourning, lamentation, dirge</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 1:17\">Targ. II Sam. I, 17</cite>; <cite ref=\"II Chronicles 35:25\">II Chron. XXXV, 25</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sotah 7:2:4\">Y. Sot. VII, 21ᶜ</cite> top; Meg. I, 71ᵇ bot. <he>סורסי לאילייא</he> Syriac is adapted for dirges; <cite ref=\"Esther Rabbah 4:12\">Esth. R. to I, 22</cite> <he>פרסי לאלייה</he> (corr. acc.)."
+			]
+		}
+	]
+}

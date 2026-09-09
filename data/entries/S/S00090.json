@@ -1,0 +1,22 @@
+{
+	"id": "S00090",
+	"slug": "קבען",
+	"headword": {
+		"text": "קַבְעָן"
+	},
+	"page": {
+		"number": 1312,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְבַע</he> I) <i>violent man, robber</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 26b:1\">R. Hash. 26ᵇ</cite> top, v. <cite ref=\"S00084\"><he>קְבַע</he> I</cite>; [Rashi takes our w. as verb <cite ref=\"S00090\"><he>קַבְעָן</he></cite> <i>he has done us</i> (me) <i>violence</i>.]"
+			]
+		}
+	]
+}

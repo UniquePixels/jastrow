@@ -1,0 +1,48 @@
+{
+	"id": "D00825",
+	"slug": "דלח",
+	"headword": {
+		"text": "דְּלַח"
+	},
+	"page": {
+		"number": 309,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (as in Hebr. a. Syr.) <i>to stir up, make turbid</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 30:14\">Targ. Is. XXX, 14</cite> ed. (ed. Lag. <he>זלח</he>, h. text <he>חשף</he>) a sherd with which <he>למִדְלַח מיא וכ׳</he> to stir up some water out of a (dried up) pool."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be troubled, to fear</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 3:25\">Targ. Job III, 25</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 27:1\">Targ. Ps. XXVII, 1</cite>; a. e.—[<cite ref=\"Aramaic Targum to Job 38:25\">Targ. Job XXXVIII, 25</cite> <he>דלח</he> Ms., ed. <cite ref=\"D00800\"><he>דְּלָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּלֵּיחַ"],
+			"senses": [],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַדְלִיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to frighten</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 4:14\">Targ. Job IV, 14</cite> <he>דַּלֵּיחַ</he> Buxt. (some ed. a. Ms. <cite ref=\"D00825\"><he>דְּלִיחַ</he></cite>).—",
+						"<cite ref=\"Aramaic Targum to Proverbs 28:14\">Targ. Prov. XXVIII, 14</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

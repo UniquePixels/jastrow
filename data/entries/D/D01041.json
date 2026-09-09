@@ -1,0 +1,32 @@
+{
+	"id": "D01041",
+	"slug": "דרגש",
+	"headword": {
+		"text": "דַּרְגֵּשׁ"
+	},
+	"page": {
+		"number": 321,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<he>דרג</he>, with formative <cite ref=\"U00489\"><he>ש</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the footstool in front of a high bed</i> (<i>Scamnum</i>); ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>state bed with its footstool;</i> (v. ",
+			"units": [
+				"<cite ref=\"Nedarim 56a:7\">Ned. 56ᵃ</cite> sq. the discussions about the meaning of our w., a. Maim. comment. to Mish. a. l.). ",
+				"<cite ref=\"Mishnah Nedarim 7:5\">Ned. VII, 5</cite> <he>הנודר … מותר בד׳</he> if one vows abstinence from ‘bed’, he is allowed the use of the footstool. ",
+				"<cite ref=\"Mishnah Sanhedrin 2:3\">Snh. II, 3</cite> (<cite ref=\"Sanhedrin 20a:16\">20ᵃ</cite>). ",
+				"<cite ref=\"Moed Katan 27a:14\">M. Kat. 27ᵃ</cite>, v. <cite ref=\"C00156\"><he>גַּדָּא</he></cite>; <cite ref=\"Jerusalem Talmud Berakhot 2:9:4\">Y. Ber. II, 5ᵈ</cite> bot.; <cite ref=\"Jerusalem Talmud Nedarim 7:5:2\">Y. Ned. VII, end, 40ᶜ</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

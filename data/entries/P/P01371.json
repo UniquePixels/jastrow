@@ -1,0 +1,24 @@
+{
+	"id": "P01371",
+	"slug": "עריפה",
+	"headword": {
+		"text": "עֲרִיפָה"
+	},
+	"page": {
+		"number": 1118,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01426\"><he>עָרַף</he></cite>) <i>breaking the neck</i> (of the heifer, <cite ref=\"Deuteronomy 21:4\">Deut. XXI, 4</cite>), <i>use of the stem</i> <he>ערף</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Megillah 2:5\">Meg. II, 5</cite> <he>לעֲרִיפַת העגלה</he> for the ceremony of &c. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 9:1:9\">Y. Sot. IX, 23ᶜ</cite> <he>בע׳</he> as regards the ceremony of &c. Ib.ᵈ bot. <he>מקום עֲרִיפָתָהּ וכ׳</he> the place where a heifer has been killed; a. fr.—",
+				"<cite ref=\"Sifrei Devarim 306:27\">Sifré Deut. 306</cite> (ref. to <he>יערף</he>, <cite ref=\"Deuteronomy 32:2\">Deut. XXXII, 2</cite>) <he>אין ע׳ אלא הריגה</he> the verb <i>ʿaraf</i> means to kill; Yalk. ib. 942."
+			]
+		}
+	]
+}

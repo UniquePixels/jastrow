@@ -1,0 +1,40 @@
+{
+	"id": "N00823",
+	"slug": "נכיל-1",
+	"headword": {
+		"text": "נְכֵיל"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְכֵל"
+		}
+	],
+	"page": {
+		"number": 910,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to be crafty; to contrive</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 83:4\">Targ. Ps. LXXXIII, 4</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַכֵּיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00822\">same</cite>; (with accus.) <i>to deceive</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 25:18\">Targ. O. Num. XXV, 18</cite> ed. Berl. (oth. ed. <i>Pe.</i>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 12:3\">Targ. Ps. XII, 3</cite> (ed. Wil. <he>מנבל׳</he>). ",
+						"<cite ref=\"Targum of I Chronicles 12:17\">Targ. I Chr. XII, 17</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "O01278",
+	"slug": "סעד-4",
+	"headword": {
+		"text": "סְעַד",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סַעֲדָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1009,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"O01277\">same</cite>, <i>support</i>, <i>assistance</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 10:12\">Targ. I Kings X, 12</cite> <he>סעד</he> Bxt. (ed. <cite ref=\"O01276\"><he>סְעִיד</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 21:20\">Targ. Gen. XXI, 20</cite>; a. fr.—",
+				"<cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite> <he>ברייא בסַעֲדֵיכוֹן מן אלין</he> the Lord help you against these (Romans); (<cite ref=\"Jerusalem Talmud Taanit 4:5:15\">Y. Taan. IV, 69ᵃ</cite> <he>ברייכון סְעוֹדִינְכוֹן</he>, <cite ref=\"O01285\"><he>סְעוֹדוּנ׳</he></cite>).—Pl. <he>סַעֲדִין</he>, constr. <he>סַעֲדֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 26:26\">Targ. Y. Lev. XXVI, 26</cite> (v. <cite ref=\"O01275\"><he>סָעַד</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>food</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ruth 2:14\">Targ. Ruth II, 14</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " סַעֲדִין <i>root of the Cyperus Rotundus</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 72:6\">Gen. R. s. 72</cite> (expl. <he>דודאים</he>, <cite ref=\"Genesis 30:14\">Gen. XXX, 14</cite>) <he>ס׳</he> Ar. (ed. <cite ref=\"U01644\"><he>שעורין</he></cite>)."
+			],
+			"label": "3"
+		}
+	]
+}

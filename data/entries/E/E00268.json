@@ -1,0 +1,23 @@
+{
+	"id": "E00268",
+	"slug": "הוצן",
+	"headword": {
+		"text": "הוֹצֶן"
+	},
+	"page": {
+		"number": 340,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"E00262\"><he>הוּץ</he></cite> II a. <cite ref=\"E00264\"><he>הוּצָא</he></cite>), only in pl. constr. <he>הוֹצְנֵי פשתן</he> (<i>hard</i>) <i>flax-stalks</i> before they are prepared for spinning, opp. <he>אֲנִיצֵי</he>, v. <cite ref=\"A02240\"><he>אָנִיץ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sukkah 1:5\">Tosef. Succ. I, 5</cite>; <cite ref=\"Sukkah 12b:6\">Succ. 12ᵇ</cite>; Y. ib. I, 52ᵇ bot. V. <cite ref=\"E00286\"><he>הוֹשֶׁן</he></cite>.—",
+				"<cite ref=\"Tosefta Ma'asrot 3:8\">Tosef. Maasr. III, 8</cite> <he>ה׳ פשתן</he> (Var. <he>אוצני</he>) read: <he>ה׳ תלתן</he> stalks of fenugrec."
+			]
+		}
+	]
+}

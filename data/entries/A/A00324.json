@@ -1,0 +1,28 @@
+{
+	"id": "A00324",
+	"slug": "אגנתא",
+	"headword": {
+		"text": "אֲגַנְתָּא"
+	},
+	"page": {
+		"number": 13,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"A00318\"><he>אַגָּנָא</he></cite>. Targ. II Esth. I, 2.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (<he>גנן</he>) <i>protection, guard</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite>; <cite ref=\"Midrash Tehillim 91:2\">Midr. Till. to Ps. XCI, 2</cite> <i>maḥăsi</i> (Ps. l. c.) means <he>אֲגַנְתִּי</he> <i>my guard</i>"
+			],
+			"label": "2"
+		}
+	]
+}

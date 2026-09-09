@@ -1,0 +1,47 @@
+{
+	"id": "M01818",
+	"slug": "מנשה",
+	"headword": {
+		"text": "מְנַשֶּׁה"
+	},
+	"page": {
+		"number": 802,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Manasseh</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " son of Joseph; also <i>the tribe of Manasseh</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 84:20\">Gen. R. s. 84</cite> <he>מ׳ גרם לשבטים לקרוע</he> M. was the cause that the sons of Jacob rent their garments (<cite ref=\"Genesis 44:13\">Gen. XLIV, 13</cite>; v. ",
+				"<cite ref=\"Bereishit Rabbah 91:8\">Gen. R. s. 91</cite>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "M., King of Judah. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 10:2\">Snh. X, 2</cite>; <cite ref=\"Tosefta Sanhedrin 12:11\">Tosef. ib. XII, 11</cite>. ",
+				"<cite ref=\"Yevamot 49b:6\">Yeb. 49ᵇ</cite> <he>מ׳ הרג וכ׳</he> M. put Isaiah to death; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "M., grandfather of Jonathan (<cite ref=\"Judges 18:30\">Jud. XVIII, 30</cite>). ",
+			"units": [
+				"<cite ref=\"Tosefta Sanhedrin 14:8\">Tosef. Snh. XIV, 8</cite>; <cite ref=\"Bava Batra 109b:8\">B. Bath. 109ᵇ</cite> <he>וכי בן מ׳ וכ׳</he> was he the son of M.? Was he not the son of Moses? <cite ref=\"Bava Batra 109b:10\">Ib.</cite> <he>מתוך שעשה מעשה מ׳ וכ׳</he> because he acted like king Manasseh &c."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "M., a scholar. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 2:2:5\">Y. Meg. II, 73ᵃ</cite> bot."
+			],
+			"label": "4"
+		}
+	]
+}

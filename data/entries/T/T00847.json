@@ -1,0 +1,55 @@
+{
+	"id": "T00847",
+	"slug": "רנן-1",
+	"headword": {
+		"text": "רָנַן"
+	},
+	"page": {
+		"number": 1484,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to whiz, hum</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to murmur</i>, v. <cite ref=\"T00406\"><he>רוֹנָן</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to rejoice</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 24b:18\">Ab. Zar. 24ᵇ</cite> <he>רוֹנִּי וכ׳</he> rejoice, O holy ark, v. <cite ref=\"T00374\"><he>רוּם</he></cite> I h."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִינֵּן"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00846\">same</cite>, ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to murmur, complain</i>. Y. Ber. IV, 7ᵈ top <he>עד שרִינְּנוּ כל העם</he> until all the people murmured (became rebellious); Bab. ",
+					"units": [
+						"<cite ref=\"Berakhot 27b:19\">Ber. 27ᵇ</cite> <he>שרננו</he>; Y. Taan. IV, 67ᵈ <he>שריננו בו</he>; <cite ref=\"Bekhorot 36a\">Bekh. 36ᵃ</cite>. Y. Ber. IX, 14ᵇ <he>מְרַנְּנִים אחריו</he>, v. <cite ref=\"O01368\"><he>סְפִיקוּלָא</he> I</cite>. ",
+						"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12<sup>7</sup></cite> <he>כל … לא היתה מְרַנֶּנֶת</he> as long as she was engaged in making the purple cloak, she did not grumble; <cite ref=\"Pesikta Rabbati 5:1\">Pesik. R. s. 5</cite> <he>מרנונית</he> (corr. acc.; Tanḥ. Naso 12 <cite ref=\"M02657\"><he>מריבה</he></cite>). Num. R. l. c.; Pesik. R. l. c. <he>ווי … וִירַּנְּנוּ כשם שהיו מרננים</he> woe, (I am afraid,) lest they will again murmur as they were wont to do. ",
+						"<cite ref=\"Midrash Tehillim 33:1\">Midr. Till. to Ps. XXXIII</cite> (ref. to <cite ref=\"Song of Songs 4:11\">Cant. IV, 11</cite>) <he>בין משבחת בין מרננת אל תמנעי וכ׳</he> whether praising or complaining, refrain not thy voice, for ‘thy voice is sweet’; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to sing, praise</i>. Ib. <he>הכל מרננים צדיקים מרננים וכ׳</he> all give praise (to God), the righteous give praise, and the wicked give praise; <he>אבל אין הרשעים מרננין וכ׳</he> but the wicked praise not until he brings plagues upon them &c. Ib. <he>הכל מרננין לפניו וכ׳</he> all sing before Him, heaven and earth sing &c.; a. fr.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

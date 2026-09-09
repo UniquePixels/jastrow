@@ -1,0 +1,77 @@
+{
+	"id": "T01083",
+	"slug": "רשי-2",
+	"headword": {
+		"text": "רְשֵׁי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְשָׁא"
+		}
+	],
+	"page": {
+		"number": 1500,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T01082\">same</cite><i>to have power, be permitted, dare</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 106:2\">Targ. Ps. CVI, 2</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " with <cite ref=\"B00000\"><he>ב</he></cite>, <i>to claim power over, to claim a debt; to lend</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 15:2\">Targ. O. Deut. XV, 2</cite> <he>דיִרְשֵׁי</he> ed. Berl. (ed. Vien. <he>דיַרְ׳</he> <i>Af.</i>). Ib. XXIV, 10 <he>תִּירְשֵׁי</he> ed. Berl. (ed. Vien. <cite ref=\"V00305\"><he>תַּרְ׳</he></cite>); a. e.—Part. <cite ref=\"T01083\"><he>רָשֵׁי</he></cite>; pl. <cite ref=\"T01096\"><he>רָשָׁן</he></cite>, <he>רָשָׁאן</he>. Ib. 11. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 15:10\">Targ. Jer. XV, 10</cite>; a. e.—",
+				"<cite ref=\"Nedarim 51a:1\">Ned. 51ᵃ</cite> <he>חיטי דרָשֵׁינָא בך</he> the wheat which thou owest me. ",
+				"<cite ref=\"Nedarim 51a:1\">Ib.</cite> <he>חיטי דרשינא קא נסיבנא</he> that wheat on which I have a claim I take (I have no claim)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְשֵׁי"],
+			"senses": [
+				{
+					"gloss": "<i>to empower, permit</i>. Part. pass. <he>מַרְשֵׁי</he>; pl. <he>מַרְשַׁן</he>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 19:13\">Targ. Y. Ex. XIX, 13</cite> (O. ed. Berl. <he>מְרַשָּׁן</he> <i>Pa.</i>; oth. ed. <he>מְרָשָׁן</he>). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 16:8\">Targ. Y. Deut. XVI, 8</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to give leave, to dismiss</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 23:8\">Targ. II Chr. XXIII, 8</cite>. ",
+						"<cite ref=\"Targum of II Chronicles 25:10\">Ib. XXV, 10</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " with <cite ref=\"B00000\"><he>ב</he></cite>, <i>to claim</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 15:2\">Targ. O. Deut. XV, 2</cite>, a. e., v. supra. ",
+						"<cite ref=\"Targum Jonathan on I Kings 8:31\">Targ. I Kings VIII, 31</cite> <he>ויַרְשֵׁי ביה מומי</he> ed. Ven. I (oth. ed. <he>ויִרְשֵׁי</he> <i>Pe.</i>) and shall claim an oath (ask that he make oath; h. text <cite ref=\"N01284\"><he>נָשָׂא</he></cite>!)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["רַשֵּׁי"],
+			"senses": [
+				{
+					"gloss": "<i>to permit</i>. Part. pass. pl. <he>מְרַשָּׁן</he>, <he>מְרָשָׁן</he>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

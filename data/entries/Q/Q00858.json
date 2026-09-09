@@ -1,0 +1,30 @@
+{
+	"id": "Q00858",
+	"slug": "פירכא",
+	"headword": {
+		"text": "פִּירְכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּרְ׳"
+		}
+	],
+	"page": {
+		"number": 1171,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פְּרַךְ</he> I) <i>refutation, objection</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 83a:12\">Gitt. 83ᵃ</cite> <he>כולהו אית להו פ׳ … דלית ליה פ׳</he> to all of them objections may be raised, except the opinion of R. E. which is unobjectionable. ",
+				"<cite ref=\"Menachot 66a:15\">Men. 66ᵃ</cite> <he>חזי ליה פ׳</he> saw an objection to it. ",
+				"<cite ref=\"Bava Batra 130b:13\">B. Bath. 130ᵇ</cite> <he>כי אתא … וחזיתו ביה פ׳</he> if a legal decision of mine comes before you, and you see in it something objectionable; a. fr.—Pl. <cite ref=\"Q00874\"><he>פִּירְכֵי</he></cite>, <cite ref=\"Q00347\"><he>פִּרְ׳</he></cite>. ",
+				"<cite ref=\"Chullin 76b:14\">Ḥull. 76ᵇ</cite> <he>הדורי אפי׳</he>; (<cite ref=\"Niddah 65b:37\">Nidd. 65ᵇ</cite> <he>אפירכא</he>), v. <cite ref=\"E00148\"><he>הֲדַר</he></cite>."
+			]
+		}
+	]
+}

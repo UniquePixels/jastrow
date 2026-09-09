@@ -1,0 +1,23 @@
+{
+	"id": "O01524",
+	"slug": "סרבניתא",
+	"headword": {
+		"text": "סַרְבָּנִיתָא"
+	},
+	"page": {
+		"number": 1022,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01523\">preced.</cite>) <i>rebellious woman</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 20:30\">Targ. I Sam. XX, 30</cite> ed. Wil. a. oth. (v. <cite ref=\"O01523\">preced.</cite>).—Pl. <he>סַרְבַּנְיָן</he>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 26:35\">Targ. Y. II, Gen. XXVI, 35</cite> Ar. (ed. <he>סרהב׳</he>), v. <cite ref=\"O00418\"><he>סוּרְהֲבַן</he></cite>."
+			]
+		}
+	]
+}

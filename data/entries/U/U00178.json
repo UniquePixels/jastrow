@@ -1,0 +1,32 @@
+{
+	"id": "U00178",
+	"slug": "שבר-7",
+	"headword": {
+		"text": "שִׁבַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁבְרָא"
+		}
+	],
+	"page": {
+		"number": 1518,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"B01154\"><he>בַּר</he> II</cite>, <cite ref=\"B01154\"><he>בְּרָא</he></cite>) [<i>boy</i>, Syr.,] <i>simple, foolish</i> (corresp. to h. <cite ref=\"Q02154\"><he>פֶּתִי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 9:4\">Targ. Prov. IX, 4</cite> (some ed. <he>שכר</he>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 14:15\">Ib. XIV, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 5:2\">Targ. Job V, 2</cite> (ed. Wil. <cite ref=\"U00134\"><he>שְׁבִירָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 19:8\">Targ. Ps. XIX, 8</cite> (ed. Lag. <cite ref=\"U00810\"><he>שִׁיבְרָא</he></cite>; ed. Wil. <cite ref=\"U00067\"><he>שִׂבְ׳</he></cite>, corr. acc.); a. e.—Pl. <he>שַׁבְרֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 1:4\">Targ. Prov. I, 4</cite>; <cite ref=\"Aramaic Targum to Proverbs 1:22\">22</cite>; <cite ref=\"Aramaic Targum to Proverbs 1:32\">32</cite>; a. fr.—<i>Fem.</i> <cite ref=\"U00165\"><he>שְׁבַרְתָּא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 9:13\">Ib. IX, 13</cite> (ed. Wil. <he>שִׁבְרָתָה</he>; some ed. <he>שכ׳</he>, corr. acc.)."
+			]
+		}
+	]
+}

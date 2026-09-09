@@ -1,0 +1,30 @@
+{
+	"id": "E00196",
+	"slug": "הוגנא",
+	"headword": {
+		"text": "הוֹגָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הוֹגְנָא"
+		}
+	],
+	"page": {
+		"number": 337,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>הגן</he>, v. <cite ref=\"E00195\">preced.</cite> wds.; v. meanings of Arab. stem haġan in Fl. to Levy Targ. Dict. I, 423ᵃ) <i>young camel,</i> or <i>dromedary</i>. Pl. <cite ref=\"E00198\"><he>הוֹגְנִין</he></cite>, <he>הוֹגְנֵי</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 60:6\">Targ. Is. LX, 6</cite> (ed. Lag. <he>תגרי</he>, h. text <he>בכרי</he>). ",
+				"<cite ref=\"Targum of II Chronicles 9:1\">Targ. II Chr. IX, 1</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:1:5\">Y. Ḥag. II, beg. 77ᵃ</cite>. ",
+				"<cite ref=\"Sanhedrin 52a:21-26\">Snh. 52ᵃ</cite> (prov.) <he>נפישין … משכי דה׳</he> many old camels are laden with the hides of the young ones (many old men survive the young)."
+			]
+		}
+	]
+}

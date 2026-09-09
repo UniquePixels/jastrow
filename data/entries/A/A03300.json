@@ -1,0 +1,35 @@
+{
+	"id": "A03300",
+	"slug": "אשיתא-1",
+	"headword": {
+		"text": "אַשְׁיְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲשִׁיתָא"
+		},
+		{
+			"text": "אוּשְׁיְתָא"
+		}
+	],
+	"page": {
+		"number": 128,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= h. <he>אָשְׁיָה</he> <cite ref=\"Jeremiah 50:15\">Jer. L, 15</cite>, K’thib <he>אשויה</he>; <cite ref=\"U00391\"><he>שוי</he></cite>, cmp. <cite ref=\"U01103\"><he>שית</he></cite>) [<i>meshes, layers</i>, v. <cite ref=\"A03279\"><he>אַשְׁוָתָא</he></cite> a. <cite ref=\"A00848\"><he>אוּרְבָּא</he></cite>,] <i>frame-wall</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 7a:5\">B. Bath. 7ᵃ</cite>. ",
+				"<cite ref=\"Bava Batra 59a:3\">Ib. 59ᵃ</cite> <he>תיתרע אשיתאי</he> my framework will be shaken (by the hammering). ",
+				"<cite ref=\"Berakhot 56a:16\">Ber. 56ᵃ</cite> <he>א׳ דנפל</he> (read <he>דנפלא</he>; Ms. M. <he>דשא ברייתא</he>) that my wall fell in.—Pl. <cite ref=\"A03267\"><he>אַשְׁיָיתָא</he></cite>, <cite ref=\"A03300\"><he>אוּשְׁיָתָא</he></cite>, <cite ref=\"A00921\"><he>אוּשָׁיָיתָא</he></cite>, also <cite ref=\"A03279\"><he>אַשְׁוָתָא</he></cite>, <cite ref=\"A00919\"><he>אוּשְׁוָותָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 11:3\">Targ. Ps. XI, 3</cite> (h. text <cite ref=\"U02085\"><he>שתות</he></cite>); a. fr.—",
+				"<cite ref=\"Berakhot 28a:14\">Ber. 28ᵃ</cite> <he>אשיָתָא וכ׳</he> the walls of his house. ",
+				"<cite ref=\"Bava Kamma 20b\">B. Kam. 20ᵇ</cite>.—[Not to be confounded with <he>אוּשָּׁא</he> <i>foundation</i>.] V. <cite ref=\"A03279\"><he>אַשְׁוָתָא</he></cite>, <cite ref=\"A03267\"><he>אַשְׁוָה</he></cite>."
+			]
+		}
+	]
+}

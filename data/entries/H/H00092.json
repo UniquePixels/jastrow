@@ -1,0 +1,42 @@
+{
+	"id": "H00092",
+	"slug": "חבלא-4",
+	"headword": {
+		"text": "חַבְלָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲבָלָא"
+		}
+	],
+	"page": {
+		"number": 420,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch. = h. <cite ref=\"H00087\"><he>חֶבֶל</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rope, measure</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 8:2\">Targ. II Sam. VIII, 2</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Sotah 8:10:2\">Y. Sot. VIII, end, 23ᵃ</cite> <he>צווח לסיפיה דח׳ וכ׳</he> called the ending point of a rope measure its head. ",
+				"<cite ref=\"Vayikra Rabbah 14:3\">Lev. R. s. 14</cite>, v. <cite ref=\"H00067\"><he>חֲבִילָא</he> II</cite>.—",
+				"<cite ref=\"Kohelet Rabbah 9:10\">Koh. R. to IX, 10</cite> <he>אייתון חַבְלָה וכ׳</he> get a rope and tie it &c. ",
+				"<cite ref=\"Bereishit Rabbah 49:9\">Gen. R. s. 49</cite> <he>את תפיש ח׳ וכ׳</he> thou seizest the rope by both ends (demanding justice and mercy); <cite ref=\"Vayikra Rabbah 10:1\">Lev. R. s. 10</cite>, beg.; a. fr.—Pl. <he>חַבְלִין</he>, <he>חַבְלֵי</he>. Targ. II Sam. l. c. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 5:22\">Targ. Prov. V, 22</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:45\">Y. Sabb. VII, 10ᶜ</cite> top, v. <cite ref=\"A01876\"><he>אֶלִּיקָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:1:9\">Y. Meg. IV, 74ᵈ</cite> bot. <he>עבד ח׳ וכ׳</he> make ropes and catch deers."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>district</i>. Constr. <cite ref=\"H00655\"><he>חֲבַל</he></cite>, v. <cite ref=\"H00064\"><he>חֲבֵיל</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

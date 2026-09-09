@@ -1,0 +1,29 @@
+{
+	"id": "R00173",
+	"slug": "צווחה",
+	"headword": {
+		"text": "צְוָוחָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְיָחָה"
+		}
+	],
+	"page": {
+		"number": 1266,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"R00172\">preced.</cite>) <i>cry</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 20:1\">Midr. Till. to Ps. XX</cite> <he>איני יכולה</he> … <he>צִוְוחָתָהּ</he> I cannot bear her crying; a. e.—Pl. <he>צְוָוחוֹת</he>, <cite ref=\"R00174\"><he>צְוָח׳</he></cite>. ",
+				"<cite ref=\"Pesachim 57a:10\">Pes. 57ᵃ</cite> <he>ארבע צ׳ צָוְוחָה וכ׳</he> four cries did the Temple court utter; <cite ref=\"Yalkut Shimoni on Torah 469:39\">Yalk. Lev. 469</cite>. ",
+				"<cite ref=\"Mishnah Sotah 8:1\">Sot. VIII, 1</cite> <he>קול צ׳</he> (Y. ed. <he>צווחה</he>) the noise of the shoutings (of the enemy); (<cite ref=\"Sifrei Devarim 192:3\">Sifré Deut. 192</cite> <he>הצווחה</he>); a. e."
+			]
+		}
+	]
+}

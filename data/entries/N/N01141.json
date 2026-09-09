@@ -1,0 +1,28 @@
+{
+	"id": "N01141",
+	"slug": "נצצא",
+	"headword": {
+		"text": "נְצָצָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִיצְצָא"
+		}
+	],
+	"page": {
+		"number": 929,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"N01093\"><he>נַצָּא</he></cite>, <cite ref=\"N00541\"><he>בַּר נ׳</he></cite> <i>hawk</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 11:16\">Targ. Y. Lev. XI, 16</cite>; <cite ref=\"Targum Jonathan on Deuteronomy 14:15\">Targ. Y. Deut. XIV, 15</cite> (<cite ref=\"N01141\"><he>נָצְצָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 20:25\">Targ. Y. Lev. XX, 25</cite> <cite ref=\"M01772\"><he>נִי׳</he></cite>."
+			]
+		}
+	]
+}

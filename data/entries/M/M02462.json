@@ -1,0 +1,23 @@
+{
+	"id": "M02462",
+	"slug": "מקרין-2",
+	"headword": {
+		"text": "מַקְרִין",
+		"homograph": 2
+	},
+	"page": {
+		"number": 833,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>מַקְרִן</he>; denom. of <cite ref=\"S02102\"><he>קֶרֶן</he></cite>)<i>having horns</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 60a:8\">Ḥull. 60ᵃ</cite>; <cite ref=\"Shabbat 28b:7\">Sabb. 28ᵇ</cite>; <cite ref=\"Avodah Zarah 8a:11\">Ab. Zar. 8ᵃ</cite> <he>שור שהקריב … מ׳ מפריס</he> the ox which Adam offered had one horn in his forehead, for it is written (<cite ref=\"Psalms 69:32\">Ps. LXIX, 32</cite>) &c.; <he>מ׳ תרין משמע</he> but does not <i>maḳrin</i> mean ‘having two horns’ (as <he>מפריס</he> ‘having hoofs’)? <he>מקרן כתיב</he> it is written without <i>Yod</i> (intimating a defect)."
+			]
+		}
+	]
+}

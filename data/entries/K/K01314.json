@@ -1,0 +1,31 @@
+{
+	"id": "K01314",
+	"slug": "כשל-2",
+	"headword": {
+		"text": "כְּשַׁל"
+	},
+	"page": {
+		"number": 676,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K01313\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"K01325\"><he>אַכְשַׁל</he></cite> <i>to bring to fall</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 57a:8\">Gitt. 57ᵃ</cite> <he>אַכְשְׁלֵיה פומיה לבר וכ׳</he> his own mouth (his presumptuous prayer) caused Bar-Daroma’s downfall."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"id": "O00923",
+	"slug": "סכן-3",
+	"headword": {
+		"text": "סָכַן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 991,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"O00911\"><he>סָכַל</he> II</cite>)",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>סִכֵּן</he> <i>to be perplexed; to despair; to be in danger</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Berakhot 1:3\">Ber. I, 3</cite> <he>וסִכַּנְתִּי בעצמי וכ׳</he> and I despaired of my life on account of robbers (whom I met there); Y. ib. 3ᵇ bot. <he>וסִיכַּ׳</he>. ",
+						"<cite ref=\"Menachot 64b:12\">Men. 64ᵇ</cite> <he>בזוב סִיכְּנָה</he>, v. <cite ref=\"G00115\"><he>זוֹב</he></cite>; <he>בעינה ס׳</he> she was in danger of losing her eye-sight; <he>בים ס׳</he> she was in danger of drowning in the sea.—Part. pass. <cite ref=\"M01868\"><he>מְסוּכָּן</he></cite>; f. <he>מְסוּכֶּנֶת</he> q. v."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִסְתַּכֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to become confused, to be misled;</i>",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be exposed to danger</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Megillah 1:3\">Tosef. Meg. I, 3</cite>; <cite ref=\"Megillah 2a\">Meg. 2ᵃ</cite> Var. <he>הואיל ומִסְתַּכְּנִין בה</he>, v. <cite ref=\"O00911\"><he>סָכַל</he> II</cite>; Y. ib. I, 70ᵈ <he>במקום שנכנסין וכ׳</he> (read: <he>שמסתכנין</he>, or <he>שנִסְכָּנִין</he>, <i>Nif.</i>) where people might be misled, they must read the M’gillah on the fourteenth; <he>ר׳ יוסי בעי אם במקום שנכנסין אל יקראו וכ׳</he> (correct as above) R. José (taking <he>מסתכנין</he> in the sense of being in danger) objected, if danger to life is connected with reading the M’gillah, let them not read it at all."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"id": "O00203",
+	"slug": "סדרא",
+	"headword": {
+		"text": "סִדְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִדְרָה"
+		},
+		{
+			"text": "סִי׳"
+		}
+	],
+	"page": {
+		"number": 959,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch., constr. <cite ref=\"O00200\"><he>סְדַר</he></cite> a. <cite ref=\"O00202\"><he>סֵדֶר</he></cite>, same, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>row, order</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:17\">Targ. Ex. XXVIII, 17</cite>, sq. (h. text <cite ref=\"I00214\"><he>טוּר</he></cite>). ",
+				"<cite ref=\"Onkelos Leviticus 23:44\">Targ. O. Lev. XXIII, 44</cite> (Y. <cite ref=\"O00648\"><he>סִידּוּרֵי</he></cite>); a. fr.—Pl. <he>סִדְרִין</he>, <he>סְדָרִין</he>, <he>סִדְרַיָּא</he>, <he>סִדְרֵי</he>, <cite ref=\"O00067\"><he>סִי׳</he></cite>. Targ. Ex. l. c. (Y. ed. Vien. <cite ref=\"O00579\"><he>סְדָ׳</he></cite>). ",
+				"<cite ref=\"Onkelos Leviticus 24:6\">Targ. O. Lev. XXIV, 6</cite>, sq. (Y. <cite ref=\"O00579\"><he>סִידּוּר׳</he></cite>).—",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 5:28\">Targ. Y. Deut. V, 28</cite> <he>ס׳ דלעיל</he> the upper ranks (angels). ",
+				"<cite ref=\"Targum Jonathan on Genesis 14:8\">Targ. Y. Gen. XIV, 8</cite> <he>ס׳ קרבא</he> battle-lines. Targ. II Esth. III, 8 <he>בגו סִדְרוֹי</he> (ed. Vien. <he>בגו סדרי</he>; ed. Lag. <he>בניסרוי</he>, corr. acc.) when among his troops; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>order</i> or <i>section</i> of the Scriptures, <i>the portion of the Pentateuch</i> to be read at public service on Sabbaths &c.; in gen. <i>Scripture lesson</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 116b:3\">Sabb. 116ᵇ</cite> <he>פסקי ס׳ בכתובים</he> (not <he>דכת׳</he>) they closed the reading from the Pentateuch with a reading from the Hagiographa (v. <cite ref=\"E00730\"><he>הַפְטָרָה</he></cite>). ",
+				"<cite ref=\"Yoma 87a:17\">Yoma 87ᵃ</cite> bot. <he>הוה פסיק ס׳ וכ׳</he> was reading the Haftarah; a. fr.—",
+				"<cite ref=\"Sotah 49a:8\">Sot. 49ᵃ</cite> <he>קדושא דס׳</he>, v. <cite ref=\"S00874\"><he>קִידּוּשָׁא</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>order</i> or <i>part of the Mishnah</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 103b:19\">Keth. 103ᵇ</cite> <he>אתני סִדְרָךְ לחברך</he> teach thy fellow student the Order which thou hast learned; a. e.—Pl. as ab. ",
+				"<cite ref=\"Ketubot 103b:19\">Ib.</cite> [read:] <he>מתנינא שיתא סדרי לשיתא ינוקי סדרא לכל חד וחד</he> I taught six boys the six Orders of the Mishnah, one Order to each; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>colonnade</i>, esp. <i>the hall of studies</i> (cmp. <cite ref=\"A01720\"><he>אַכְסַדְרָא</he></cite>). Y. Sabb. VII, 8ᵃ <he>מן ס׳ רובא וכ׳</he> from the large colonnade to the store of &c.; <cite ref=\"Jerusalem Talmud Sanhedrin 10:1:22\">Y. Snh. X, 28ᵃ</cite> bot. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:1:25\">Y. Ber. III, 6ᵇ</cite> top <he>כד הוו מסקין ליה לס׳</he> when they were carrying him to the hall; a. fr.—[<cite ref=\"O00203\"><he>סִדְרָא</he></cite>, <cite ref=\"O00203\"><he>סְדָרָא</he></cite> <i>net</i>, v. <cite ref=\"O01537\"><he>סְרָדָא</he></cite>.]"
+			],
+			"label": "4"
+		}
+	]
+}

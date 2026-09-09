@@ -1,0 +1,23 @@
+{
+	"id": "M01993",
+	"slug": "מספר-1",
+	"headword": {
+		"text": "מִסְפָּר"
+	},
+	"page": {
+		"number": 810,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"O01415\"><he>סָפַר</he></cite>)<i>number, count</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 6:9:4\">Cant. R. to VI, 9</cite> (ref. to <cite ref=\"II Samuel 24:9\">II Sam. XXIV, 9</cite>) <he>מ׳ זה המנין וכ׳</he> <i>mispar</i> means counting, <i>mifḳad</i>, summing up. ",
+				"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite> <he>היו מ׳</he> they were a limited number; <he>שלא במ׳</he> innumerable; a. fr."
+			]
+		}
+	]
+}

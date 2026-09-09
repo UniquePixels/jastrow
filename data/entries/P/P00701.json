@@ -1,0 +1,47 @@
+{
+	"id": "P00701",
+	"slug": "עישונא",
+	"headword": {
+		"text": "עִישּׁוּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִשּׁ׳"
+		}
+	],
+	"page": {
+		"number": 1077,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01491\"><he>עֲשַׁן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"P01492\"><he>עָשְׁנָא</he></cite>, <i>strength</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 29:1\">Targ. Ps. XXIX, 1</cite> ed. Lag., v. <cite ref=\"P01492\"><he>עָשְׁנָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fort, stronghold</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 24:5\">Targ. Prov. XXIV, 5</cite> (ed. Lag. a. Wil. <cite ref=\"P01478\"><he>עֲשִׁינָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 61:4\">Targ. Ps. LXI, 4</cite> <he>קוסטל דע׳</he> ed. Wil. (ed. Lag. <he>בקושטא ע׳</he>; Ms. <he>קושקא עַשִּׁינָא</he>); a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"H00414\"><he>חוּסְנָא</he></cite>) <i>store-house</i>.—Pl. <cite ref=\"P00700\"><he>עִישּׁוּנֵי</he></cite>, <cite ref=\"P00701\"><he>עִשּׁ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 8:24\">Targ. Prov. VIII, 24</cite> <he>ע׳ דמיא</he> store-houses of water (h. text <he>נכבדי</he>)."
+			],
+			"label": "3"
+		}
+	]
+}

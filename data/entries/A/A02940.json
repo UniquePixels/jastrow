@@ -1,0 +1,23 @@
+{
+	"id": "A02940",
+	"slug": "אקראי",
+	"headword": {
+		"text": "אֶקְרָאִי"
+	},
+	"page": {
+		"number": 113,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קרא</he>, <cite ref=\"S02020\"><he>קרה</he></cite>; h. <i>accidental, chance</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 29b:4\">R. Hash. 29ᵇ</cite> <he>בית דינא דא׳</he> improvized court. ",
+				"<cite ref=\"Sanhedrin 25b:16\">Snh. 25ᵇ</cite>, a. fr. <he>א׳ בעלמא</he> a mere chance."
+			]
+		}
+	]
+}

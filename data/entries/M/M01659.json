@@ -1,0 +1,26 @@
+{
+	"id": "M01659",
+	"slug": "ממזר",
+	"headword": {
+		"text": "מַמְזֵר"
+	},
+	"page": {
+		"number": 794,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.;<cite ref=\"M00779\"><he>מזר</he></cite> , sec. r. of <he>זר</he>, cmp. <he>מַמְגֻּרָה</he>, <cite ref=\"M01667\"><he>מִמְכָּר</he></cite>, v. Arnheim Hebr. Gr. p. 173) [<i>rejected, outcast</i>,] <i>bastard</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yevamot 4:13\">Yeb. IV, 13</cite> <he>איזהו מ׳ כל שאר וכ׳</he> who is a <i>mamzer</i>? The issue of any connection forbidden in the Torah; (oth. opin.) <he>כל שחייבין עליו כרת וכ׳</he> the issue of a connection forbidden under the penalty of extinction; a. fr.—Pl. <cite ref=\"M01662\"><he>מַמְזֵרִים</he></cite>, <cite ref=\"M01662\"><he>מַמְזֵרִין</he></cite>, <cite ref=\"M01660\"><he>מַמְזֵי׳</he></cite>. ",
+				"<cite ref=\"Mishnah Kiddushin 3:13\">Kidd. III, 13</cite> <he>יכולין מ׳ ליטהר</he> there is a possibility for the issue of bastards to be rehabilitated. ",
+				"<cite ref=\"Mishnah Yevamot 8:3\">Yeb. VIII, 3</cite>. Y. ib. 9ᶜ bot. <he>מַמְזֵירֵיהֶן</he> the bastards among them; a. fr.—<i>Fem.</i> <cite ref=\"M01664\"><he>מַמְזֶרֶת</he></cite>. ",
+				"<cite ref=\"Tosefta Kiddushin 5:2\">Tosef. Kidd. V, 2</cite>. ",
+				"<cite ref=\"Yevamot 78b:11\">Yeb. 78ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

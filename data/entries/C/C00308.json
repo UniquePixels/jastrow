@@ -1,0 +1,24 @@
+{
+	"id": "C00308",
+	"slug": "גודגדין",
+	"headword": {
+		"text": "גּוּדְגַּדִּין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 218,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"C00152\"><he>גָּד</he></cite> h. <i>good luck, Fortune</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 6:1\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:1\">VII</cite>), 1 <he>המגבח לג׳</he> ed. Zuck. (Var. <he>גורגדין</he>; oth. ed. <he>המגבה לגרגרן</he>) he who shaves his head (makes a bald-pate) for good luck (a superstitious practice)."
+			]
+		}
+	]
+}

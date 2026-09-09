@@ -1,0 +1,41 @@
+{
+	"id": "K00617",
+	"slug": "כיר",
+	"headword": {
+		"text": "כִּיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּיד"
+		}
+	],
+	"page": {
+		"number": 636,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "(<cite ref=\"K00519\"><he>כִּיֵּיד</he></cite>) <cite ref=\"K00525\"><he>כִּיֵּיר</he></cite> (denom. of <cite ref=\"K00620\"><he>כִּירָה</he></cite> II or of <cite ref=\"K00099\"><he>כַּד</he> II</cite>) [<i>to do the work of the stove-setter</i> or <i>of the potter</i> (<cite ref=\"K00522\"><he>כַּיָּיר</he></cite> or <cite ref=\"K00519\"><he>כַּיָּיד</he></cite>, v. <cite ref=\"B01294\"><he>בִּרְכַּיָּיר</he></cite>),] <i>to cement; to lay out with tiles, panels</i> &c. [Ar. reads <cite ref=\"T00000\"><he>ר</he></cite>, editions mostly <cite ref=\"D00000\"><he>ד</he></cite>.] <cite ref=\"Bava Kamma 51a:19-30\">B. Kam. 51ᵃ</cite> bot. <he>אחד … וסייד וכ׳</he> (Ms. F. <he>וסייר וכייר</he>) if one dug a pit ten handbreadths deep, and another came and lined it with plaster and cemented it; Mekh. Mishp., N’zik., s. 11. ",
+					"units": [
+						"<cite ref=\"Mishnah Avodah Zarah 3:7\">Ab. Zar. III, 7</cite> (<cite ref=\"Avodah Zarah 47b\">47ᵇ</cite>) <he>סיידו וכִיְּירוֹ לאליל</he> Mish. (Bab. ed. <he>וכיידו לע״ז</he>) he plastered the room and put tiles on (v. Sm. Ant. s. v. Abacus) designing it for idolatrous purposes. ",
+						"<cite ref=\"Avodah Zarah 47b\">Ib.</cite> <he>סיידה וכִיְּירָהּ וכ׳</he> (Ms. M. <he>וציירה</he>) if one plastered and stuccoed a stone (slab) for an idolatrous purpose. ",
+						"<cite ref=\"Bereishit Rabbah 28\">Gen. R. s. 28</cite> <he>סיידה וכיירה וציירה</he> he plastered and panelled and painted the wedding chamber; <cite ref=\"Eichah Rabbah 2:8\">Lam. R. to IV, 11</cite> <he>וכיידה</he>. ",
+						"<cite ref=\"Tosefta Sotah 8:7\">Tosef. Sot. VIII, 7</cite> <he>כִּיְּירוּהוּ וסיידוהו וכ׳</he> (Var. <he>כִּיְּדוּהָ</he>, <he>כִּיְּרוּהָ</he>) they panelled the stone and stuccoed it and wrote upon it. ",
+						"<cite ref=\"Bava Batra 60b:8\">B. Bath. 60ᵇ</cite> <he>אין מסיידין ואין מְכַיְּירִין וכ׳</he> we must not decorate our rooms with plaster, panels and paintings in these days (after the destruction of the Temple); <cite ref=\"Tosefta Bava Batra 2:17\">Tosef. ib. II, 17</cite>.—Part. pass. <he>מְכוּיָּיר</he>, f. <he>מְכוּיֶּירֶת</he>. ",
+						"<cite ref=\"Tosefta Bava Batra 2:17\">Ib.</cite>"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

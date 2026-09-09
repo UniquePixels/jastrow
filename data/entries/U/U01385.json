@@ -1,0 +1,30 @@
+{
+	"id": "U01385",
+	"slug": "שלקות",
+	"headword": {
+		"text": "שַׁלְקוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁלְקִית"
+		},
+		{
+			"text": "בֶּן שַׁלְקוּת"
+		}
+	],
+	"page": {
+		"number": 1588,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ben-Shalkuth</i> (<i>Shalḳith</i>). ",
+			"units": [
+				"<cite ref=\"Niddah 52b:24\">Nidd. 52ᵇ</cite>; <cite ref=\"Tosefta Niddah 6:5\">Tosef. ib. VI, 5</cite>."
+			]
+		}
+	]
+}

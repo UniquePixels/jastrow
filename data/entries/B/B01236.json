@@ -1,0 +1,71 @@
+{
+	"id": "B01236",
+	"slug": "ברי-2",
+	"headword": {
+		"text": "ברי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּרָא"
+		}
+	],
+	"page": {
+		"number": 192,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בר</he> , v. <he>ברר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to hollow out, perforate</i>, v. Hif. a. <cite ref=\"B01191\"><he>בָּרָה</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to think out, plan</i> (cmp. <cite ref=\"B00101\"><he>בָּדָא</he></cite>, <cite ref=\"H01563\"><he>חָקַק</he></cite>); <i>to create</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 38b:8\">Snh. 38ᵇ</cite> when the Lord wanted <he>לִבְרֹאות את וכ׳</he> to create man. ",
+				"<cite ref=\"Bereishit Rabbah 8:11\">Gen. R. s. 8</cite> <he>שב׳ … ואח״כ בְּרָאוֹ</he> for He first created all the means of his support and then created him (Adam); a. v. fr.—Part. act. <cite ref=\"B00334\"><he>בּוֹרֵא</he></cite> q. v.—Part. pass. <cite ref=\"B01207\"><he>בָּרוּא</he></cite>, f. <he>בְּרוּאָה</he>. ",
+				"<cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite> (ref. to <cite ref=\"Isaiah 4:5\">Is. IV, 5</cite> <he>וּבָרָא</he>) <he>כבר היא ב׳ וכ׳</he> it (the futurity) is already created and prepared."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִבְרָא"],
+			"senses": [
+				{
+					"gloss": "<i>to be created</i>. Ib. s. 8 <he>אל יִבָּרֵא</he> let him not be created. ",
+					"units": ["<cite ref=\"Sanhedrin 38a:4\">Snh. 38ᵃ</cite>; a. v. fr."]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִבְרִיא"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"B01153\"><he>בַּר</he></cite>) <i>to come outside, bore, perforate</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 43b:3\">Ḥull. 43ᵇ</cite> <he>שמא ה׳</he> lest it (the thorn found in the throat) may have perforated (the gullet); v. infra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"B01239\"><he>בָּרִיא</he></cite>) <i>to get well, recover; to be strong</i> or <i>stout</i> (fat). ",
+					"units": [
+						"<cite ref=\"Meilah 17a:42\">Meïl. 17ᵃ</cite> <he>יכחיש או יַבְרִיא</he> does he wish him to be lean (feeble) or to be strong?—Y. Peah III, 17ᵈ bot. <he>שמא יבריא</he> for he may get well again. ",
+						"<cite ref=\"Chullin 33a:8\">Ḥull. 33ᵃ</cite> <he>הרוצה שיַבְ׳</he> he who wants to be strong. ",
+						"<cite ref=\"Mishnah Shabbat 19:5\">Sabb. XIX, 5</cite>; a. fr. [<cite ref=\"Chullin 43b:3\">Ḥull. 43ᵇ</cite> <he>שמא ה׳</he> lest the wound created by perforation be healed, Rashi; v. supra.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

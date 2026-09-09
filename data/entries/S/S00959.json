@@ -1,0 +1,30 @@
+{
+	"id": "S00959",
+	"slug": "קילוח",
+	"headword": {
+		"text": "קִילּוּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִלּ׳"
+		}
+	],
+	"page": {
+		"number": 1360,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01302\"><he>קָלַח</he></cite>) <i>spouting forth, continuous flow, jet</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 36a:2\">Ḥull. 36ᵃ</cite> <he>דם ק׳</he> the blood which comes forth in a jet (in blood-letting); <cite ref=\"Keritot 22a:50\">Ker. 22ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:4:12\">Y. Maasr. I, end, 49ᵇ</cite> <he>להערות עם הק׳</he> to pour (boiling water) from vessel to vessel in a jet (instead of in short spurts); <cite ref=\"Jerusalem Talmud Shabbat 3:5:3\">Y. Sabb. III, 6ᵇ</cite> <he>לערות מן הק׳</he>. ",
+				"<cite ref=\"Mishnah Tevul Yom 2:7\">T’bul Yom. II, 7</cite>. Y. B. Bath. III, end, 14ᵇ <he>מקום קִילּוּחוֹ בחצר</he> the place where the water gushes forth (from the spout) in the neighbor’s court; <cite ref=\"Tosefta Bava Batra 2:13\">Tosef. ib. II, 13</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 4:8:4\">Y. Ab. Zar. IV, 44ᵃ</cite> bot., v. <cite ref=\"N00946\"><he>נָסַךְ</he></cite>; a. e.—V. <cite ref=\"S01304\"><he>קֶלַח</he></cite>."
+			]
+		}
+	]
+}

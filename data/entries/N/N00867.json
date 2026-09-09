@@ -1,0 +1,24 @@
+{
+	"id": "N00867",
+	"slug": "נמטא",
+	"headword": {
+		"text": "נַמְטָא"
+	},
+	"page": {
+		"number": 913,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00458\"><he>מוּט</he></cite> or <cite ref=\"M00995\"><he>מְטֵי</he></cite>) <i>felt-mattress, felt-cloth</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 69a:7\">Yoma 69ᵃ</cite>; <cite ref=\"Beitzah 15a:1\">Bets. 15ᵃ</cite>, v. <cite ref=\"C01002\"><he>גְּמַד</he></cite>.—Pl. <he>נַמְטֵי</he>. ",
+				"<cite ref=\"Bava Metzia 84b:1\">B. Mets. 84ᵇ</cite>, v. <cite ref=\"M00470\"><he>מוּךְ</he></cite> ch. ",
+				"<cite ref=\"Bava Kamma 119b:10\">B. Kam. 119ᵇ</cite> <he>מאי בגדים נ׳</he> what kind of garments is meant? Felt-spreadings; <cite ref=\"Bava Kamma 93b:9\">ib. 93ᵇ</cite>"
+			]
+		}
+	]
+}

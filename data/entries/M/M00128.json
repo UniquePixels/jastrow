@@ -1,0 +1,23 @@
+{
+	"id": "M00128",
+	"slug": "מגוב",
+	"headword": {
+		"text": "מָגוֹב",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 726,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00039\"><he>גָּבַב</he></cite>) <i>rake</i>, an agricultural implement with many teeth, forming a sort of sieve to separate the grain from the chaff. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:7\">Kel. XIII, 7</cite>; <cite ref=\"Mishnah Tevul Yom 4:6\">T’bul Yom IV, 6</cite>; [Ar. s. v.: a sort of <i>glove</i>, oth. expl.: reading <he>מַגֵּיב</he>, fr. <cite ref=\"N00115\"><he>נָגַב</he></cite>, <i>an implement for drying</i> the grain by winnowing]."
+			]
+		}
+	]
+}

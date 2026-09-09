@@ -1,0 +1,49 @@
+{
+	"id": "V00890",
+	"slug": "תקל-1",
+	"headword": {
+		"text": "תְּקַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1691,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"U01870\"><he>שָׁקַל</he></cite>, <i>to weigh</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 23:16\">Targ. Gen. XXIII, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 46:6\">Targ. Is. XLVI, 6</cite>; a. fr.—[<cite ref=\"Aramaic Targum to Job 6:2\">Targ. Job VI, 2</cite>, V. <i>Ithpe.</i>]—Part. pass. <cite ref=\"V00880\"><he>תָּקִיל</he></cite>; pl. <he>תְּקִילִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 40:12\">Targ. Is. XL, 12</cite> <he>מִתְקַל תְּקִילִין</he> (ed. Wil. <he>מַתְקַל תַּקִילִין</he>, corr. acc.); a. e.—",
+				"<cite ref=\"Bava Kamma 119a:8\">B. Kam. 119ᵃ</cite> <he>רב חסדא</he> … <he>דהוה תָקֵיל ויהיב תקיל ושקיל</he> Rab Ḥ. had a tenant who weighed and gave, weighed and took (i.e. who was very close in settling; oth. opin. who took one-half of the produces, instead of the customary one-third). ",
+				"<cite ref=\"Bava Metzia 44b:5\">B. Mets. 44ᵇ</cite> <he>טבין ותקילין</he> in good and full-weight Denars."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַתְקַל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V00889\">same</cite>.—[<cite ref=\"Targum Jonathan on Isaiah 40:12\">Targ. Is. XL, 12</cite>, v. supra.]—Y. Shebi. IV, end, 35ᶜ <he>מַתְקל גושיא</he> weighed the clods (of the holy land); v. <cite ref=\"K00599\"><he>כֶּיפָא</he> I</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְּקַל"],
+			"senses": [
+				{
+					"gloss": " (<cite ref=\"V00890\"><he>אִתְקַל</he></cite>) <i>to be weighed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 6:2\">Targ. Job VI, 2</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 28:15\">Ib. XXVIII, 15</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

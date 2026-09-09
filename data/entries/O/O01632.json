@@ -1,0 +1,35 @@
+{
+	"id": "O01632",
+	"slug": "סריקין",
+	"headword": {
+		"text": "סְרִיקִין"
+	},
+	"page": {
+		"number": 1027,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Syriaci, Συρικοί) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>Syrians</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 5:1:6\">Y. Erub. V, beg. 22ᵇ</cite> (<he>דסִירְיָקִין</he>) <he>נפשה דס׳</he> the monument of the Syrians (near Tiberias)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"O00435\"><he>סוּרְסִי</he></cite>) <i>Syrian cakes</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Pesachim 1:7\">Tosef. Pes. I (II), 31</cite> <he>אין יוצאין בס׳</he> you do not comply with the law (commanding to eat unleavened ‘bread of misery’ on the first night of Passover) by eating Syrian cakes; <he>ס׳ מצויירין</he> Syrian cakes shaped in figures; Y. ib. II, 29ᵇ bot. <cite ref=\"O01564\"><he>סרוקין</he></cite> (corr. acc.); Bab. ib. 37ᵃ. Ib. <he>סְרִיקֵי בייתוס</he> the Syrian cakes in the house of Boëthos; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

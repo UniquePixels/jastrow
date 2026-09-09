@@ -1,0 +1,40 @@
+{
+	"id": "N00454",
+	"slug": "נזל-1",
+	"headword": {
+		"text": "נָזַל"
+	},
+	"page": {
+		"number": 892,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A00973\"><he>אזל</he></cite>)<i>to run, melt, be distilled</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 13:10\">Gen. R. s. 13</cite> (ref. to <cite ref=\"Job 36:28\">Job XXXVI, 28</cite>) <he>היכן הם נוֹזְלִין בשחקים</he> where are they (the salty waters of the Ocean) distilled? In the clouds; <cite ref=\"Yalkut Shimoni on Torah 20\">Yalk. Gen. 20</cite> (corr. acc.); <cite ref=\"Kohelet Rabbah 1:7:1\">Koh. R. to I, 7</cite> <he>איכן הם נעשים נוֹזְלִים בשחקים</he> where are they made into distilled (sweet) waters? In the clouds; <cite ref=\"Yalkut Shimoni on Nach 967\">Yalk. Koh. 967</cite>.—Esp. <he>נוֹזְלִים</he>, <he>נוֹזְלִין</he> <i>running waters</i>. Mekh. B’shall., Shir., s. 6; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִזֵּל"],
+			"senses": [],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִזִּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to flow; to distill</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 306\">Sifré Deut. 306</cite> (ref. to <cite ref=\"Deuteronomy 32:2\">Deut. XXXII, 2</cite>) <he>אם כנסת … לסוף שאתה מְנַזֵּל ומשקה וכ׳</he> if thou gatherest the words of the Law after the manner of those who collect rain water in the cistern, thou shalt finally be able to make them flow and give drink to others. ",
+						"<cite ref=\"Bava Batra 25a:13\">B. Bath. 25ᵃ</cite> (ref. to Deut. l. c.) <he>זה רוח צפונית שמַזֶּלֶת וכ׳</he> that is the nothern wind which makes the gold run (increases commerce; Rashi: <i>makes</i> gold <i>cheap</i>, v. <cite ref=\"G00174\"><he>זוּל</he></cite>). ",
+						"<cite ref=\"Shir HaShirim Rabbah 4:15:1\">Cant. R. to IV, 15</cite> (ref. to <he>ונזלים וכ׳</he>, <cite ref=\"Shir HaShirim Rabbah 4:15:1\">ib.</cite>) <he>זה מַזִּיל מקצת דבר וזה מזיל וכ׳</he> the one lets flow (utters, cmp. <cite ref=\"N00101\"><he>נָבַע</he></cite>) one part of the argument, and the other another part, until the <i>halakhah</i> shines forth like the Lebanon."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

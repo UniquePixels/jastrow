@@ -1,0 +1,47 @@
+{
+	"id": "V01042",
+	"slug": "תרעתא",
+	"headword": {
+		"text": "תִּרְעֲתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּירְ׳"
+		},
+		{
+			"text": "תּוּרְ׳"
+		},
+		{
+			"text": "תּוּרְעָא"
+		}
+	],
+	"page": {
+		"number": 1701,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V01031\"><he>תְּרַע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>breach</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 6:8\">Targ. II Sam. VI, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 11:27\">Targ. I Kings XI, 27</cite> (ed. Wil. <cite ref=\"V00305\"><he>תַּרְ׳</he></cite>); a. fr.—Y. M. Kat. III, 83ᶜ top <he>יסוג תּוּרְעֲתָךְ</he>, v. <cite ref=\"O00243\"><he>סוּג</he></cite> I ch.; <cite ref=\"Bereishit Rabbah 100:7\">Gen. R. s. 100</cite> <he>תּוּרְעָךְ</he>; <cite ref=\"Bereishit Rabbah 100:7\">ib.</cite> <he>פסיג תִּרְעָךְ</he>, v. <cite ref=\"Q01228\"><he>פְּסַג</he></cite>; a. e.—Pl. <cite ref=\"V01042\"><he>תִּרְעָתָא</he></cite>, <cite ref=\"V00014\"><he>תִּי׳</he></cite>, <cite ref=\"V00314\"><he>תּוּ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 13:5\">Targ. Ez. XIII, 5</cite> (ed. Wil. <cite ref=\"V01042\"><he>תַּרְעֲתָא</he></cite>, corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>gate</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 6:6:5\">Y. Snh. VI, 23ᶜ</cite> <he>תִּירְעַת גיהינם</he> the gate (door) of Gehenna; (Y. Ḥag. II, 77ᵈ bot. <he>צירא דתַרְעָא וכ׳</he> a hinge of the gate of Gehenna)."
+			],
+			"label": "2"
+		}
+	]
+}

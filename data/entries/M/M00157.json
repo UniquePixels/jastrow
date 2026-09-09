@@ -1,0 +1,23 @@
+{
+	"id": "M00157",
+	"slug": "מגיזתא-2",
+	"headword": {
+		"text": "מְגִיזְתָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 727,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C00538\"><he>גְּזַז</he></cite>) <i>arbitrary decision</i>. <he>דיני דמ׳</he> <i>the arbitration practice of untrained magistrates</i>, opp. to learned courts. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 30b:14\">B. Mets. 30ᵇ</cite> <cite ref=\"A01770\"><he>אלא</he></cite> (<cite ref=\"M00023\"><he>מאי</he></cite>) <he>דינא דמ׳ לדיינו</he> ed. (Ms. M. <cite ref=\"M00133\"><he>מגוסתא</he></cite>, v. Rabb. D. S. a. l. note) what else should they have done (in lieu of deciding according to the law of the Torah)? Should they have followed the practice of the arbitrators?—V. <cite ref=\"M00157\"><he>מְגִיסְתָּא</he> II</cite>."
+			]
+		}
+	]
+}

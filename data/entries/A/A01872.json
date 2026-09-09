@@ -1,0 +1,32 @@
+{
+	"id": "A01872",
+	"slug": "אליסטון",
+	"headword": {
+		"text": "אִלְיַסְטוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִלְיַיסְטוֹן"
+		},
+		{
+			"text": "הִלְיַיסְטוֹן"
+		}
+	],
+	"page": {
+		"number": 69,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἡλιαστός, acc., fr. ἡλιάζω, v. Gr. Dict.) <i>a luscious wine</i> (vinum dulce) for which the grapes were to be dried in the sun for three days, after which they were gathered and trodden on the fourth during the full fervor of the midday heat (Sm. Ant. s. v. <i>Vinum;</i> Columella XII, 27). ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 8:6\">Men. VIII, 6</cite> <he>אליוסטון</he> Mish. (Ar. ed. Koh. <he>אלייס׳</he>, Talm. ed. 86ᵇ <cite ref=\"E00557\"><he>הליסטיון</he></cite>, <he>היל׳</he>). ",
+				"<cite ref=\"Bava Batra 97b:3\">B. Bath. 97ᵇ</cite> <he>אלייסטון</he> Ar. (Var. a. ed. <he>היליסטון</he>; Ms. <he>והלאסטון</he>, <he>והיליסטיון</he>; v. Rabb. D. S. a. l.). ",
+				"<cite ref=\"Tosefta Menahot 9:9\">Tosef. Men. IX, 9</cite> (from which B. Bath. l. c. is quoted) <cite ref=\"A01872\"><he>אליסטון</he></cite>."
+			]
+		}
+	]
+}

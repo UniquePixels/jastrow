@@ -1,0 +1,31 @@
+{
+	"id": "V00809",
+	"slug": "תפח-2",
+	"headword": {
+		"text": "תָּפַח"
+	},
+	"page": {
+		"number": 1685,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " II = <cite ref=\"I00636\"><he>טָפַח</he> I</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טִפֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to slap</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Avodah Zarah 4:10\">Ab. Zar. IV, 10</cite> (<cite ref=\"Mishnah Avodah Zarah 4:11\">11</cite>) <he>מְתַפֵּחַ</he> Y. ed., v. <cite ref=\"I00636\"><he>טָפַח</he> I</cite>"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

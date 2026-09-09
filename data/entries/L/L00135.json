@@ -1,0 +1,37 @@
+{
+	"id": "L00135",
+	"slug": "לגלג-1",
+	"headword": {
+		"text": "לִגִלֵג"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִיגְ׳"
+		}
+	],
+	"page": {
+		"number": 692,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Pilp. of <cite ref=\"L00183\"><he>לוג</he></cite>, contr. of <he>לעג</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to stammer</i>, <i>be undecided</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 5:1\">Deut. R. s. 5</cite> <he>אל תהי מְלַגְלֵג בדין</he> do not give judgment in a hesitating manner (speak clearly and with full knowledge, cmp. <cite ref=\"C00998\"><he>גִּמְגֵּם</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 907:5\">Yalk. ib. 907</cite> <he>קץ</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with <he>על</he>) <i>to sneer</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 30b:9\">Sabb. 30ᵇ</cite> <he>לי׳ עליו וכ׳</he> a certain student sneered at him. ",
+				"<cite ref=\"Berakhot 39a:4\">Ber. 39ᵃ</cite> <he>על המלגלג אני כועס</he> I am angry with him who sneers; Y. ib. VI, 10ᶜ top <he>אתה למה לִגְלַגְתָּ</he> why didst thou laugh?; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

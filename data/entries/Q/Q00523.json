@@ -1,0 +1,48 @@
+{
+	"id": "Q00523",
+	"slug": "פטיר",
+	"headword": {
+		"text": "פַּטִּיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּטִּירָא"
+		},
+		{
+			"text": "פַּטִּירְתָּא"
+		}
+	],
+	"page": {
+		"number": 1155,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00548\"><he>פְּטַר</he></cite>) [<i>free from admixture</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>pure, plain, clear</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 13:10\">Targ. Ez. XIII, 10</cite>, sq. <he>טין פ׳ דלא תבן</he> (h. text <he>תפל</he>).—",
+				"<cite ref=\"Gittin 86a\">Gitt. 86ᵃ</cite>, v. <cite ref=\"H01638\"><he>חֲרוּרֵי</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>unleavened; unleavened bread</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 29:2\">Targ. Ex. XXIX, 2</cite>. ",
+				"<cite ref=\"Onkelos Exodus 12:8\">Ib. XII, 8</cite>. ",
+				"<cite ref=\"Onkelos Exodus 12:15\">Ib. 15</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 8:26\">Targ. Lev. VIII, 26</cite>; a. fr.—Pl. <he>פַּטִּירִין</he>, <cite ref=\"Q00526\"><he>פַּטִּירַיָּא</he></cite>, <he>פַּטִּירֵי</he>; <cite ref=\"Q00523\"><he>פַּטִּירָן</he></cite>, <cite ref=\"Q00526\"><he>פַּטִּירָתָא</he></cite>. ",
+				"<cite ref=\"Onkelos Leviticus 8:26\">Ib.</cite> ",
+				"<cite ref=\"Onkelos Exodus 12:17\">Targ. O. Ex. XII, 17</cite> Ms. (ed. <cite ref=\"Q00523\"><he>פטירא</he></cite>; Y. <he>פַּטִּירֵי</he>). Ib. XXIX, 2; a. fr.—Y. Meg. IV, 74ᵈ bot., v. <cite ref=\"J00612\"><he>יֵרוֹקָנָא</he></cite>; <cite ref=\"Jerusalem Talmud Bikkurim 3:4:10\">Y. Bicc. III, end, 65ᵈ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "P01254",
+	"slug": "ערב-13",
+	"headword": {
+		"text": "עֵרֶב"
+	},
+	"page": {
+		"number": 1111,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P01242\"><he>עָרַב</he> I)</cite><i>woof</i>, opp. <cite ref=\"U02091\"><he>שתי</he></cite> warp. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 1:5\">Kel. I, 5</cite> <he>חוט ע׳</he> a thread of the woof (thicker than that of the warp). ",
+				"<cite ref=\"Niddah 25b:21\">Nidd. 25ᵇ</cite> <he>כשל ע׳</he> as thick as a thread of the woof; a. fr.—Trnsf. <i>the latitudinal direction</i>, opp. to <cite ref=\"U02091\"><he>שתי</he></cite> longitudinal direction. ",
+				"<cite ref=\"Shabbat 85b:5\">Sabb. 85ᵇ</cite> <he>אם היו זרועין שתי זורען ע׳</he> if the beds (in a square) were planted lengthwise, he must plant (on the interspaces) crosswise. ",
+				"<cite ref=\"Chullin 109b:11\">Ḥull. 109ᵇ</cite> <he>קורעו שתי וע׳</he> he tears it (the udder) lengthwise and crosswise. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 3:2:7\">Y. Ter. III, 42ᵃ</cite> bot. <he>משהילכו בהן שתי וע׳</he> as soon as they trod on them (the grapes) once lengthwise and crosswise; a. fr.—[In later Hebrew <he>שתי וע׳</he> <i>cross</i>, emblem of Christianity.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>mixture</i>; <he>ע׳ רב</he> (= <he>ערברב</he>) <i>mixed multitude</i>. Tanḥ. Ki Thissa 30. ",
+			"units": [
+				"<cite ref=\"Beitzah 32b:4\">Bets. 32ᵇ</cite> <he>הני מע׳ רב וכ׳</he> they are descendants of the mixed multitude (that came from Egypt); a. e., v. <cite ref=\"P00677\"><he>עֵירַבְרְבִין</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

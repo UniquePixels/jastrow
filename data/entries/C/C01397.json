@@ -1,0 +1,33 @@
+{
+	"id": "C01397",
+	"slug": "גררא-2",
+	"headword": {
+		"text": "גְּרָרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 273,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C01392\"><he>גרר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>that which is carried along;</i> <he>אגב ג׳</he> <i>incidentally, occasionally</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 4b:15\">B. Mets. 4ᵇ</cite>; <cite ref=\"Shevuot 40b:10\">Shebu. 40ᵇ</cite>. ["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>scraping</i>, v. <cite ref=\"C00813\"><he>גִּירְדָּא</he> I</cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "C00549",
+	"slug": "גזילה",
+	"headword": {
+		"text": "גְּזֵילָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּזֵלָה"
+		}
+	],
+	"page": {
+		"number": 230,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"C00560\"><he>גָּזֵל</he></cite>, <cite ref=\"C00549\"><he>גְּזֵלָה</he></cite>; <cite ref=\"C00559\"><he>גזל</he></cite>)<i>robbery, robbed object, illegitimate gain</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 98b:14\">B. Kam. 98ᵇ</cite> <he>משלם כשעת הג׳</he> he must make retribution according to the value of the object at the time it was robbed. Y. ib. X, 7ᵇ bot. <he>ג׳ מפורסמת</he> a well-known robbery or robbed object. ",
+				"<cite ref=\"Tractate Semachot 9:19\">Treat. S’maḥ. ch. IX</cite> <he>מרובה גְזֵילַת המת וכ׳</he> severer is the crime of robbery (or wrong) committed against a dead person &c.—Pl. <he>גְּזֵילוֹת</he>, <he>גְּזֵלוֹת</he>. ",
+				"<cite ref=\"Mishnah Sanhedrin 1:1\">Snh. I, 1</cite> <he>ג׳ וחבלות</he> law-suits of larceny and mayhem. ",
+				"<cite ref=\"Gittin 55b:1\">Gitt. 55ᵇ</cite> that it may not be said <he>מזבח אוכל ג׳</he> the altar receives illegitimately acquired goods; Y. ib. V, 47ᵇ top.—",
+				"<cite ref=\"Ketubot 105a:4\">Keth. 105ᵃ</cite>; <cite ref=\"Mishnah Ketubot 13:1\">ib. XIII, 1</cite> <he>דייני ג׳</he> Y. ed. (Bab. <he>גזירות</he>) judges in suits of robbery; Bab. ib. 105ᵃ (harmonizing the two versions) <he>גוזרי גזירות על ג׳</he> decreeing fines in cases of robbery. [<cite ref=\"Aramaic Targum to Song of Songs 6:6\">Targ. Cant. VI, 6</cite> <cite ref=\"C00549\"><he>גְּזֵלָה</he></cite> a. <he>גְּזֵילוֹת</he> h. forms.]"
+			]
+		}
+	]
+}

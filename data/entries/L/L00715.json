@@ -1,0 +1,24 @@
+{
+	"id": "L00715",
+	"slug": "לתיתה",
+	"headword": {
+		"text": "לְתִיתָה"
+	},
+	"page": {
+		"number": 720,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"L00717\"><he>לָתַת</he></cite>) <i>moistening the grain</i> before grinding. ",
+			"units": [
+				"<cite ref=\"Pesachim 36a:14\">Pes. 36ᵃ</cite> <he>ל׳ ליתה בזריזין</he> the moistening is not done by careful persons (priests). ",
+				"<cite ref=\"Pesachim 40a:14\">Ib. 40ᵃ</cite> <he>אי אפשר לנקייה בלא ל׳</he> Ms. M. (ed. <cite ref=\"N01208\"><he>נקייה</he></cite>) white flour cannot be produced without moistening. ",
+				"<cite ref=\"Pesachim 40a:14\">Ib.</cite> <he>אי לא דבעי ל׳ וכ׳</he> if it required no moistening what is the guard for? (v. <cite ref=\"U00960\"><he>שִׁימּוּר</he></cite>)."
+			]
+		}
+	]
+}

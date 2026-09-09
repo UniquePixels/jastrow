@@ -1,0 +1,58 @@
+{
+	"id": "P01392",
+	"slug": "ערם-3",
+	"headword": {
+		"text": "עֲרַם"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲרֵים"
+		}
+	],
+	"page": {
+		"number": 1120,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P01391\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְעֲרִים", "אִיעֲרִים"],
+			"senses": [
+				{
+					"gloss": "; (also <i>Af.</i> <cite ref=\"P01392\"><he>אַעֲרִים</he></cite>)",
+					"units": []
+				},
+				{
+					"gloss": "<i>to become prudent</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 19:25\">Targ. Prov. XIX, 25</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be subtle, to deceive, pretend</i>. ",
+					"units": [
+						"<cite ref=\"Makkot 23b:14\">Macc. 23ᵇ</cite> <he>ודילמא אִיעֲרוּמֵי מִיעַרְמָא</he> (not <he>איערומא</he>) might she not have been subtle enough (to discover Solomon’s motive)? <cite ref=\"Sanhedrin 25a:11\">Snh. 25ᵃ</cite> <he>דילמא איערומי קא מַעֲרִים</he> perhaps he merely pretends (to be repentant)? <cite ref=\"Bava Metzia 90b:1\">B. Mets. 90ᵇ</cite> <he>הערמה … אַעֲרִימוּ עלייהו ויזדבנון</he> a trick has been employed regarding them, use a trick against them (that did it), and let the oxen be sold (and not be used for ploughing)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אַעֲרִים"],
+			"senses": [
+				{
+					"gloss": "<i>to use an artifice</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "Q01868",
+	"slug": "פרם-1",
+	"headword": {
+		"text": "פָּרַם"
+	},
+	"page": {
+		"number": 1230,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to tear open; to strip</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 3:8\">Sot. III, 8</cite> <he>האיש פורע ופוֹרֵם … פורעת ופוֹרֶמֶת</he> the (leprous) man must let his hair grow and tear his garments, but a woman should not &c.; Sifra Thazr. Par. 5, ch. XII; <cite ref=\"Jerusalem Talmud Sotah 3:8:1\">Y. Sot. III, end, 19ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Horayot 3:5\">Hor. III, 5</cite> <he>כהן גדול פורם מלמטה וכ׳</he> the high priest in mourning tears his lower garments; <cite ref=\"Horayot 12b:18\">ib. 12ᵇ</cite> <he>אינו פורם … פּוֹרְמִין</he> he does not tear his garments in the manner ordinary people in mourning do; Sifra Emor ch. I, Par. 2; <cite ref=\"Yoma 73a:6\">Yoma 73ᵃ</cite>; a. fr.—<i>Part. pass.</i> <cite ref=\"Q01734\"><he>פָּרוּם</he></cite>; f. <cite ref=\"Q00976\"><he>פְּרוּמָה</he></cite>; pl. <he>פְּרוּמִים</he>, <he>פְּרוּמִין</he>; <he>פְּרוּמוֹת</he> <i>exposed, bare</i>. ",
+				"<cite ref=\"Gittin 90b:1\">Gitt. 90ᵇ</cite> <he>ופ׳ משני צדדיה</he> bare on both her shoulders; Y. ib. IX, end, 50ᵈ <he>צדדיה פרומין</he>; <cite ref=\"Jerusalem Talmud Sotah 1:1:3\">Y. Sot. I, beg. 16ᵇ</cite> <he>מְפוֹרָמִין</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פֵּרֵם"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01867\">same</cite>. Part. pass. <he>מְפוֹרָם</he>; pl. <he>מְפוֹרָמִין</he>, v. supra.—[<cite ref=\"Bereishit Rabbah 22:13\">Gen. R. s. 22</cite>, end <he>כמפרים</he> some ed., v. <cite ref=\"Q01908\"><he>פָּרַס</he></cite>.]",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

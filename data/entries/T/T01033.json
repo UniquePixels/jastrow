@@ -1,0 +1,29 @@
+{
+	"id": "T01033",
+	"slug": "רקיע-3",
+	"headword": {
+		"text": "רְקִיעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְקִיעָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1497,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T01032\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:6\">Targ. Gen. I, 6</cite>, sq.; a. fr.—",
+				"<cite ref=\"Berakhot 58b\">Ber. 58ᵇ</cite> the Curtain (<cite ref=\"F00041\"><he>וִילוֹן</he></cite>) is rolled up, <he>ומתחזי נהורא דר׳</he> and the light of the Raḳi‘a is seen. ",
+				"<cite ref=\"Berakhot 58a\">Ib.ᵃ</cite>, v. <cite ref=\"M01580\"><he>מַלְכוּתָא</he></cite>. ",
+				"<cite ref=\"Pesachim 94a:5\">Pes. 94ᵃ</cite> <he>סומכא דר׳</he> the thickness (depth) of the sky; a. fr.—Pl. <cite ref=\"T00106\"><he>רְקִיעִין</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 24:6\">Targ. Y. I Num. XXIV, 6</cite>."
+			]
+		}
+	]
+}

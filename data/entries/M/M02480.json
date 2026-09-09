@@ -1,0 +1,41 @@
+{
+	"id": "M02480",
+	"slug": "מר-6",
+	"headword": {
+		"text": "מָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָרָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 834,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"M00060\"><he>מארא</he></cite>, v. <cite ref=\"A03013\"><he>אָרָה</he></cite>) <i>hoe, rake</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 77b:2\">Erub. 77ᵇ</cite> <he>דבעי מ׳ וחצינא</he> it requires hoe or pick-axe (to get it out). ",
+				"<cite ref=\"Megillah 28a:9\">Meg. 28ᵃ</cite>, v. <cite ref=\"D01079\"><he>דְּרֵי</he> II</cite>. ",
+				"<cite ref=\"Taanit 23b:14\">Taan. 23ᵇ</cite> top <he>ציבי ומ׳</he> the wood (he had collected) and the rake. ",
+				"<cite ref=\"Bava Metzia 82b:2\">B. Mets. 82ᵇ</cite> <he>מ׳ ופסל וקרדום</he> (Ms. <he>מר</he>, Ar. <he>מר פסל</he>) hoe and mattock and axe; <cite ref=\"Berakhot 57b:22\">Ber. 57ᵇ</cite> <he>מר פסל וקרדום</he>. ",
+				"<cite ref=\"Ketubot 64a:6\">Keth. 64ᵃ</cite> <he>בעינא</he> … <he>ומָרָה לקבורה</he> I want a staff to lean on and a hoe to make my grave, i.e. a son to support me in old age and to provide for my burial; <cite ref=\"Yevamot 65b:18\">Yeb. 65ᵇ</cite>. ",
+				"<cite ref=\"Taanit 21b:6\">Taan. 21ᵇ</cite>, v. <cite ref=\"G00037\"><he>זְבִילָא</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"M00060\"><he>מארא</he></cite>, denom. of <cite ref=\"A00845\"><he>אוּרָא</he></cite>; cmp. Arab. <i>marvu</i> silices &c.) <i>flint</i> for striking a light. ",
+			"units": [
+				"<cite ref=\"Zevachim 116b:3\">Zeb. 116ᵇ</cite> <he>אפיקו נורא ממ׳ חדתא</he> (Ms. M. <cite ref=\"M00105\"><he>ממַגָּאנָא</he></cite>, <cite ref=\"Yalkut Shimoni on Torah 579:5\">Yalk. Lev. 579</cite> <cite ref=\"M00193\"><he>ממַגָּנָה</he></cite>, v. <cite ref=\"M01710\"><he>מַנְגָּנָא</he></cite>; Ms. K. <cite ref=\"M00048\"><he>ממָאנָא</he></cite>; En Yaăk. <he>ממָנָא</he>) produce fire with a flint-stone which has not been used before."
+			],
+			"label": "2"
+		}
+	]
+}

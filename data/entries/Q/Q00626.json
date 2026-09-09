@@ -1,0 +1,25 @@
+{
+	"id": "Q00626",
+	"slug": "פיטלון",
+	"headword": {
+		"text": "פִּיטָלוֹן"
+	},
+	"page": {
+		"number": 1161,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (πέταλον) <i>a leaf of metal, gold-foil</i> (corresp. to h. <he>כתם</he>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 28:16\">Targ. Job XXVIII, 16</cite> ed. Lag. (ed. <he>פִּטְלְוָן</he>, Levita <he>פיטליין</he>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Job 28:19\">Ib. 19</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 31:24\">Ib. XXXI, 24</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 4:1\">Targ. Lam. IV, 1</cite> ed. Lag. (oth. ed. <cite ref=\"Q01019\"><he>פלטין</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

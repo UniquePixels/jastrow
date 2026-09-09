@@ -1,0 +1,23 @@
+{
+	"id": "H01101",
+	"slug": "חלף-4",
+	"headword": {
+		"text": "חֵלֶף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 472,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01100\">preced.</cite> wds.) <i>reversion</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:9\">Y. Sabb. VII, 9ᶜ</cite> <he>או ח׳</he> is not perhaps the reverse the case?"
+			]
+		}
+	]
+}

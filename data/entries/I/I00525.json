@@ -1,0 +1,56 @@
+{
+	"id": "I00525",
+	"slug": "טלק",
+	"headword": {
+		"text": "טְלַק"
+	},
+	"page": {
+		"number": 538,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"I00509\"><he>טלל</he></cite>) <i>to cast, throw</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 55:23\">Targ. Ps. LV, 23</cite>; <cite ref=\"Aramaic Targum to Lamentations 2:1\">Targ. Lam. II, 1</cite>; a. fr. (h. text <he>השליך</he>).—",
+				"<cite ref=\"Bereishit Rabbah 75\">Gen. R. s. 75</cite> <he>שלח … וטַלְקֵיה וכ׳</he> he took off the purple cloak and threw it down before him. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 12:2:5\">Y. Yeb. XII, 12ᵈ</cite> top; <cite ref=\"Jerusalem Talmud Shabbat 6:2:8\">Y. Sabb. VI, 8ᵃ</cite> bot. [read:] <he>טלקיה לחנותא דחליטרא</he> pitched it into a confectioner’s shop. [<cite ref=\"Targum Jerusalem, Exodus 21:18\">Targ. Y. II, Ex. XXI, 18</cite>, v. <i>Ithpa.</i>]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טַלֵּיק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00524\">same</cite>, also <i>to cast away, reject</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 51:13\">Targ. Ps. LI, 13</cite> (ed. Lag. <i>Pe.</i>).—Y. Sabb. l. c. <he>מְטַלֵּק לה</he>; (Y. Yeb. l. c. <he>מסלק</he>). Y. Keth. XII, 35ᵃ <he>טליק גרמיה</he> threw himself down; (Y. Kil. IX, 32ᵇ top <cite ref=\"I00525\"><he>טְלַק</he></cite>); a. e.—Part. pass. <he>מְטַלַּק</he>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 17:15\">Targ. Y. Lev. XVII, 15</cite>.—Y. Snh. VII, end, 25ᵈ <he>דאינון מְטַלְּקִין בימא</he> they have been thrown into the sea. ",
+						"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד מאת׳</he> 3) <cite ref=\"M01018\"><he>מְטַלְּקָא</he></cite>, v. <cite ref=\"M00265\"><he>מְדוֹכָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיטַּלַּק"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיטְּלִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to be thrown, to be cast away</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 3:4\">Targ. Job III, 4</cite>, v. <cite ref=\"A01096\"><he>אִטְלָקוּתָא</he></cite>. ",
+						"<cite ref=\"Targum Jerusalem, Exodus 21:18\">Targ. Y. II, Ex. XXI, 18</cite> [read:] <he>ויִטַּלַּק</he>, or <he>ויִטְּלֵיק</he> (h. text <he>נפל</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 22:11\">Targ. Ps. XXII, 11</cite>.—Y. Sot. V, 20ᵇ bot. <he>א׳ עלוי</he> it was thrown upon him, i.e. a penalty was imposed &c."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

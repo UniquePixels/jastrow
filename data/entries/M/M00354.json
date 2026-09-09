@@ -1,0 +1,29 @@
+{
+	"id": "M00354",
+	"slug": "מהולתא-2",
+	"headword": {
+		"text": "מְהוּלְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 737,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>מְהַל</he> I) <i>circumcision; foreskin</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 4:25\">Targ. Ex. IV, 25</cite>, sq. (O. ed. Berl. <cite ref=\"M00372\"><he>מֻהְלְתָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 45:4\">Targ. Y. Gen. XLV, 4</cite>; a. e."
+			]
+		}
+	]
+}

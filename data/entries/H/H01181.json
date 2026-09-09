@@ -1,0 +1,23 @@
+{
+	"id": "H01181",
+	"slug": "חמימתא",
+	"headword": {
+		"text": "חֲמִימָתָא"
+	},
+	"page": {
+		"number": 477,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (cmp. Arab. <i>ḥamâm</i>) [<i>dark-colored</i>] <i>a species of doves, ring-doves</i> (?). ",
+			"units": [
+				"<cite ref=\"Gittin 69b\">Gitt. 69ᵇ</cite> (oth. opin. <i>hens</i>)."
+			]
+		}
+	]
+}

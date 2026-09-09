@@ -1,0 +1,63 @@
+{
+	"id": "C00959",
+	"slug": "גלל-1",
+	"headword": {
+		"text": "גָּלַל"
+	},
+	"page": {
+		"number": 249,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to roll, unfold, fold</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 32a:16\">Meg. 32ᵃ</cite> he opens (the scroll), sees the place (to read from), <he>גּוֹלֵל ומברך</he> rolls it up again and says the benediction. ",
+				"<cite ref=\"Megillah 32a:7\">Ib.</cite> <he>הגּוֹלֵל ס״ת וכ׳</he> he who rolls the scrolls up (preparing the place to read from). ",
+				"<cite ref=\"Mishnah Bava Metzia 2:8\">B. Mets. II, 8</cite> (<cite ref=\"Bava Metzia 29b:4\">29ᵇ</cite>) <he>גוֹלְלָן</he> he must roll the scrolls over (for the purpose of airing); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. ",
+			"units": [
+				"<cite ref=\"Genesis 29:3\">Gen. XXIX, 3</cite>) <i>to roll off</i> (one’s shoulders), <i>disregard</i>. ",
+				"<cite ref=\"Bereishit Rabbah 21:3\">Gen. R. s. 21</cite> (play on <he>גללו</he>, <cite ref=\"Job 20:7\">Job XX, 7</cite>) <he>על שג׳ מצוה וכ׳</he> because he disregarded a light command."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִגְלַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be rolled, folded</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 5:14:1\">Cant. R. to V, 14</cite> <he>והיו נִגְלָלִין</he> they could be folded up. ",
+						"<cite ref=\"Sanhedrin 68a\">Snh. 68ᵃ</cite> my two arms which are like two scrolls of the Law <he>שנגללין</he> rolled up (not unfolded, i.e. with me learning is buried which I was prevented from teaching).—Trnsf., with <he>על</he>, <i>to be rolled on top of, to prevail</i>. ",
+						"<cite ref=\"Berakhot 7a:3\">Ber. 7ᵃ</cite> <he>יִגּוֹלּוּ רחמי על וכ׳</he> may my mercy prevail over my attributes (of justice &c.). ",
+						"<cite ref=\"Berakhot 7a:4\">Ib.</cite> <he>יגולו רחמיך</he>; v. <cite ref=\"C00869\"><he>גִּלְגֵּל</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הוּגְלָל"],
+			"senses": [
+				{
+					"gloss": "<i>to be rolled up, folded</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 21b\">Taan. 21ᵇ</cite>; <cite ref=\"Menachot 95a:18\">Men. 95ᵃ</cite> <he>הוּגְלְלוּ הפרוכות</he> when the curtains (of the Tabernacle) were folded up (for removing)."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

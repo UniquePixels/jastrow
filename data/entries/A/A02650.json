@@ -1,0 +1,38 @@
+{
+	"id": "A02650",
+	"slug": "אפותיקי-2",
+	"headword": {
+		"text": "אִפּוֹתִּיקִי"
+	},
+	"page": {
+		"number": 101,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ὑποθήκη) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>pledge, mortgage</i>; an object made a security without being placed in the possession of the pledgee, opp. to <cite ref=\"M02900\"><he>מַשְׁכּוֹן</he></cite>.—",
+			"units": [
+				"<cite ref=\"Bava Kamma 96a:3\">B. Kam. 96ᵃ</cite> <he>שווייה ניהליה א׳ וכ׳</he> he made it a mortgage by saying, ‘You can pay yourself only out of this thing’. ",
+				"<cite ref=\"Bava Kamma 11b:13\">Ib. 11ᵇ</cite> <he>עשה עבדו א׳</he> if he mortgaged his slave; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>mortgage-document, deed</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 8:6\">Tosef. Shebi. VIII, 6</cite> <he>שטר שיש בו א׳</he> (ed. Zuck. <cite ref=\"E00729\"><he>הִפּוֹתִּקִי</he></cite>) a note (contract) containing a mortgage obligation. ",
+				"<cite ref=\"Shemot Rabbah 31:6\">Ex. R. s. 31</cite> <he>כתוב לי א׳ על וכ׳</he> give me a mortgage on thy field.—Pl. <he>אִפּוֹתִּיקָאוֹת</he>. ",
+				"<cite ref=\"Bava Metzia 19a:18\">B. Mets. 19ᵃ</cite> <he>דייתיקאות א׳ וכ׳</he> (Ms. M. <he>הפותיקו׳</he>, v. Rabb. D. S. a. l. note) wills, mortgage deeds &c. ",
+				"<cite ref=\"Tosefta Shabbat 8:13\">Tosef. Sabb. VIII</cite> (<cite ref=\"Tosefta Shabbat 9:13\">IX</cite>), 13 <he>שטרי דייתיקי וא׳</he> ed. Zuck. (ed. <he>הפות׳</he>, read <he>והפ׳</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "H00587",
+	"slug": "חטאת",
+	"headword": {
+		"text": "חַטָּאת"
+	},
+	"page": {
+		"number": 447,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"H00579\"><he>חָטָא</he></cite>)<i>mistake, inadvertence, sin</i>.—Pl. <he>חַטָּאוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 33b:3\">B. Mets. 33ᵇ</cite> (ref. to <cite ref=\"Isaiah 58:1\">Is. LVIII, 1</cite>) <he>חַטֹּאתָם אלו וכ׳</he> ‘their mistakes’, this refers to the ignorant whose wilful sins are accounted to them as errors."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sacrifice expiating inadvertent sin, sin-offering</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 10b:10\">B. Bath. 10ᵇ</cite> (ref. to <cite ref=\"Proverbs 14:34\">Prov. XIV, 34</cite>) <he>וחסד לישראל ולאמים ח׳</he> (differ. in Ms. M., v. Rabb. D. S. a. l. note) but benevolence is a sin-offering for Israel as well as for gentiles. ",
+				"<cite ref=\"Proverbs 14:34\">Ib.</cite> <he>כשם שהח׳ מכפרת וכ׳</he> (differ. in Ms. M.) as well as the sin-offering brings atonement to Israel &c. ",
+				"<cite ref=\"Mishnah Zevachim 1:1\">Zeb. I, 1</cite>; a. fr.—Pl. <he>חַטָּאוֹת</he>; constr. <he>חַטְּאוֹת</he>, <cite ref=\"H00587\"><he>חַטֹּאת</he></cite>. ",
+				"<cite ref=\"Mishnah Zevachim 5:3\">Ib. V, 3</cite> <he>ח׳ הצבור</he> congregational sin-offerings. ",
+				"<cite ref=\"Zevachim 112a:13\">Ib. 112ᵃ</cite> <he>הפריש שתי ח׳ וכ׳</he> if he sets apart two sin-offerings for security’s sake; a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

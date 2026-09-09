@@ -1,0 +1,32 @@
+{
+	"id": "O01583",
+	"slug": "סרט-3",
+	"headword": {
+		"text": "סֶרֶט"
+	},
+	"page": {
+		"number": 1025,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01582\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (= b. h. <he>שֶׂרֶט</he>) <i>incision</i>, v. <he>שֶׂרֶט</he>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>that which is marked out for cutting</i>,] <i>stripe, strip of a sheet</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 9:9\">Kil. IX, 9</cite> (Ms. M. <cite ref=\"O01668\"><he>סֶרֶק</he></cite>); [<cite ref=\"Tosefta Kilaim 5:22\">Tosef. ib. V, 22</cite> <cite ref=\"O00195\"><he>סֶדֶק</he></cite> ed. Zuck.; oth. ed. <cite ref=\"O01669\"><he>סרק</he></cite>]."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "P00288",
+	"slug": "עומר",
+	"headword": {
+		"text": "עוֹמֶר"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֹמֶר"
+		}
+	],
+	"page": {
+		"number": 1053,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00927\"><he>עָמַר</he></cite>)<i>sheaf</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 4:3\">Peah IV, 3</cite> <he>ע׳ השכחה</he> the forgotten sheaf (<cite ref=\"Deuteronomy 24:19\">Deut. XXIV, 19</cite>); a. fr.—Pl. <cite ref=\"P00280\"><he>עוֹמְרִים</he></cite>, <cite ref=\"P00280\"><he>עוֹמְרִין</he></cite>, <he>עֳמָרִ׳</he>. Ib. VI, 5 <he>שני ע׳ שכחה</he> two sheaves left in the field are considered as forgotten (belong to the poor). Ib. 6 <he>שני ע׳ ובהם סאתים</he> two sheaves containing two S’ah between them (the ordinary size of a sheaf being one S’ah). Ib. <he>וכי מרוב הע׳ וכ׳</he> is the privilege of the owner strengthened or infringed by the quantity of the sheaves (irrespective of their sizes)? Ib. V, 1; a. fr. [<cite ref=\"Vayikra Rabbah 15\">Lev. R. s. 15</cite>; <cite ref=\"Yalkut Shimoni on Torah 551\">Yalk. ib. 551</cite>, v. <cite ref=\"P00280\"><he>עוֹמְדִים</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>the quantity of grain in a sheaf</i>,] <i>Omer</i>, a dry measure, esp. <i>the Omer of barley offered on the sixteenth day of Nisan</i> (<cite ref=\"Leviticus 23:10-14\">Lev. XXIII, 10—14</cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 10:1\">Men. X, 1</cite> <he>הע׳ היה בא בשבת וכ׳</he> the Omer, when offered on the Sabbath, was prepared by cutting three S’ah-fuls of barley (sifted down to one Omer). ",
+				"<cite ref=\"Tosefta Demai 1:28\">Tosef. Dem. I, 28</cite> <he>מותר ע׳</he> that which is left over when preparing the Omer. ",
+				"<cite ref=\"Mishnah Menachot 10:6\">Men. X, 6</cite> <he>הע׳ היה מתיר וכ׳</he> the offering of the Omer had the effect of allowing the use of the new crop in the country. ",
+				"<cite ref=\"Mishnah Menachot 10:7\">Ib. 7</cite> <he>קידם לע׳</he> before the Omer was to be offered (before the sixteenth of Nisan); a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

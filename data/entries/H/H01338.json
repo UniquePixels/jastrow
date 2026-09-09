@@ -1,0 +1,33 @@
+{
+	"id": "H01338",
+	"slug": "חסד-5",
+	"headword": {
+		"text": "חֶסֶד",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חִסְדָּא"
+		},
+		{
+			"text": "חִיסְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 486,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01337\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 20:17\">Targ. Y. Lev. XX, 17</cite> (v. Y. Yeb. Xl, 11ᵈ top, quot. in preced). ",
+				"<cite ref=\"Onkelos Genesis 39:21\">Targ. Gen. XXXIX, 21</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:11\">Y. Ab. Zar. III, 42ᶜ</cite> top; <cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 77ᵈ</cite> bot., v. <cite ref=\"C01038\"><he>גְּמַל</he></cite>; a. e.—Pl. <he>חִסְדַּיָּא</he>, <he>חַסְ׳</he>; <he>חִסְדִּין</he>, <he>חַסְ׳</he>, <cite ref=\"H01338\"><he>חִיסְ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 32:11\">Targ. O. Gen. XXXII, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 107:43\">Targ. Ps. CVII, 43</cite>; a. e."
+			]
+		}
+	]
+}

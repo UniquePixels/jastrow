@@ -1,0 +1,53 @@
+{
+	"id": "Q01756",
+	"slug": "פרח-3",
+	"headword": {
+		"text": "פֶּרַח"
+	},
+	"page": {
+		"number": 1223,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"Q01755\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>blossom, flower, an ornament in the shape of a flower</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 91\">Gen. R. s. 91</cite>, end, v. <cite ref=\"K01067\"><he>כַּפְתּוֹר</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 11:7\">Kel. XI, 7</cite> <he>הפ׳ והבסיס</he> the calyx of a candlestick and the shaft. ",
+				"<cite ref=\"Esther Rabbah 2:7\">Esth. R. to I, 6</cite> <he>אני ישנתי על פִּרְחוֹ של וכ׳</he> I slept on the flower (capital) of one of those columns, and there was room for a body at full length, with outstretched hands and feet. ",
+				"<cite ref=\"Menachot 28b:16\">Men. 28ᵇ</cite>; a. fr.—Pl. <he>פְּרָחִים</he>. ",
+				"<cite ref=\"Menachot 28b:15\">Ib.</cite> <he>פְּרָחֶיהָ … כמין פִּרְחֵי וכ׳</he> what did the flowers of the candlestick look like? Like the blossoms on the capitals of columns; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " פ׳ לבן <i>White Blossom</i>, name of <i>an aromatic shrub</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 6:2\">Deut. R. s. 6</cite>, beg. <he>פ׳ לבן הוא שכרו וכ׳</he> this is a White Blossom, the wages for working at it are half a goldpiece. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 7:1:3\">Y. Shebi. VII, beg. 37ᵇ</cite>; <cite ref=\"Tosefta Shevi'it 5:7\">Tosef. ib. V, 7</cite> <he>פ׳ לבין</he> ed. Zuck. (Var. <cite ref=\"Q01759\"><he>פרחבלין</he></cite>, <cite ref=\"Q01759\"><he>פרחבינ׳</he></cite>, <cite ref=\"Q01759\"><he>פרחביל׳</he></cite>, corr. acc.)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>youth.—</i>Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 1:8\">Midd. I, 8</cite>, a. fr. <he>פִּרְחֵי כהונה</he>, v. <cite ref=\"K00152\"><he>כְּהוּנָּה</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>young chicken.—Pl</i>. as ab. ",
+			"units": [
+				"<cite ref=\"Ketubot 59b\">Keth. 59ᵇ</cite> Ar. (ed. <he>אפרוחים</he>). Y. Ab. Zar. III, 42ᵈ top (expl. <he>סכות בנות</he>, <cite ref=\"II Kings 17:30\">II Kings XVII, 30</cite>) <he>תרנגולתא ופְרָחֶיהָ</he> a hen with her chickens."
+			],
+			"label": "4"
+		}
+	]
+}

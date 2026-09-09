@@ -1,0 +1,28 @@
+{
+	"id": "P00482",
+	"slug": "עטרן",
+	"headword": {
+		"text": "עִטְרָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִי׳"
+		}
+	],
+	"page": {
+		"number": 1065,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"P00478\"><he>עֲטַר</he> III</cite>, a. Samaritan <he>איטרן</he>, <cite ref=\"Genesis 37:25\">Gen. XXXVII, 25</cite> for h. <cite ref=\"L00379\"><he>לֹט</he></cite>) <i>ʿiṭran, a sort of resin</i> used for lighting in place of oil. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 2:2\">Sabb. II, 2</cite> (<cite ref=\"Shabbat 24b\">24ᵇ</cite>). ",
+				"<cite ref=\"Shabbat 26a\">Sabb. 26ᵃ</cite>; <cite ref=\"Tosefta Shabbat 2:4\">Tosef. ib. II, 4</cite>. Y. ib. II, 4ᵈ <he>ע׳ בין כבה בין דלק וכ׳</he> <i>ʿiṭran</i> smells badly whether extinguished or burning."
+			]
+		}
+	]
+}

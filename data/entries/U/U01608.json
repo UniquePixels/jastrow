@@ -1,0 +1,23 @@
+{
+	"id": "U01608",
+	"slug": "שנץ-2",
+	"headword": {
+		"text": "שֶׁנֶץ"
+	},
+	"page": {
+		"number": 1607,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01607\">preced.</cite>) <i>strap, lace</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 10:4\">Mikv. X, 4</cite> <he>ש׳ של סנדל</he> ed. Dehr. (ed. <cite ref=\"U01597\"><he>שניצן</he></cite>, read: <he>שְׁנָצִין</he>) laces of a sandal, contrad. to <cite ref=\"H00042\"><he>חֶבֶט</he></cite>.—Pl. <he>שְׁנָצוֹת</he>, with suffix <he>שְׁנָצָיו</he>. ",
+				"<cite ref=\"Mishnah Kelim 26:1\">Kel. XXVI, 1</cite>, sq. <he>כיס של ש׳</he> a bag which is closed by means of laces.—[<he>שנץ</he> pr. n. pl., v. <cite ref=\"U01820\"><he>שֶׁצֶת</he></cite>.]"
+			]
+		}
+	]
+}

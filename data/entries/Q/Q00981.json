@@ -1,0 +1,23 @@
+{
+	"id": "Q00981",
+	"slug": "פלומקיא",
+	"headword": {
+		"text": "פְּלוּמַקְיָא"
+	},
+	"page": {
+		"number": 1178,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (plumacia) <i>down-pillows</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 3\">Midr. Till. to Ps. III</cite> ed. Bub. (expl. <cite ref=\"M02895\"><he>משכב</he></cite>, <cite ref=\"II Samuel 17:28\">II Sam. XVII, 28</cite>) [read:] <he>אלו פ׳ ומצעות</he> (not <cite ref=\"Q00989\"><he>פלוקמיא</he></cite>, v. Bub. note a. l.) that means down-pillows and mattresses; (ed. <he>כרים וכסתות</he>); <cite ref=\"Yalkut Shimoni on Nach 151\">Yalk. Sam. 151</cite> <cite ref=\"Q00215\"><he>פולוסיקא</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "V00739",
+	"slug": "תנחומים",
+	"headword": {
+		"text": "תַּנְחוּמִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּנְחוּמִין"
+		}
+	],
+	"page": {
+		"number": 1681,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h.; <cite ref=\"N00503\"><he>נָחַם</he></cite>)<i>consolation</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 2:7\">Ber. II, 7</cite> <he>וכשמת … קבל עליו ת׳</he> when his slave Ṭabi died, he accepted condolence for him. ",
+				"<cite ref=\"Ketubot 10b:5\">Keth. 10ᵇ</cite> <he>ת׳ של הבל ניחמו וכ׳</he> R. G. offered this man a vain consolation; <cite ref=\"Bava Batra 16b:9\">B. Bath. 16ᵇ</cite>. ",
+				"<cite ref=\"Avodah Zarah 16b:17\">Ab. Zar. 16ᵇ</cite> <he>נכנסו … ולא קיבל ת׳</he> (not <he>ק׳ עליו</he>) his disciples came to console him, but he would accept no consolation; <cite ref=\"Yalkut Shimoni on Nach 937:13\">Yalk. Prov. 937</cite>; <cite ref=\"Yalkut Shimoni on Nach 551:5\">Yalk. Mic. 551</cite>. ",
+				"<cite ref=\"Avot D'Rabbi Natan 30:1\">Ab. d’R. N. ch. XXX</cite> <he>תַּנְחוּמֵי אבלים וכ׳</he> comforting the mourners, visiting the sick, and deeds of kindness bring good into the world. ",
+				"<cite ref=\"Pesikta Rabbati 29:1\">Pesik. R. s. 29-30</cite> <he>עמדי וקבלי כוס ת׳</he> stand up and accept the cup of consolation; <cite ref=\"Pesikta Rabbati 29:1\">ib.</cite> <he>כוס תַּנְחוּמַיִךְ</he>; <cite ref=\"Pesikta Rabbati 29:1\">ib.</cite> <he>הרי תַּנְחוּמֶיךָ נתונים לך</he> thy consolations are given back to thee (I will not accept them); a. fr."
+			]
+		}
+	]
+}

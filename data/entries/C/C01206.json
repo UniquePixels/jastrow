@@ -1,0 +1,38 @@
+{
+	"id": "C01206",
+	"slug": "גפס",
+	"headword": {
+		"text": "גָּפַס"
+	},
+	"altHeadwords": [
+		{
+			"text": "גָּפַת"
+		}
+	],
+	"page": {
+		"number": 262,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <he>גפף</he>) <i>to make air-tight, to paste with gypsum, clay</i> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 10:5\">Kel. X, 5</cite> <he>שגְּפָסָן עם וכ׳</he> Ar. a. R. H. G. (ed. <he>שגְּפָתָן</he>); <cite ref=\"Tosefta Kelim Kamma 7:7\">Tosef. Kel. B. Kam. VII, 7</cite> <he>שגפסן</he> (Var. <he>שגפת׳</he>, R. S. to Kel. l. c. <he>שגְּפָפָן</he>) which one closed up by connecting the paste with the rim (leaving an empty space between the cover and the body of the vessel)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִגְפַּס"],
+			"senses": [
+				{
+					"gloss": "<i>to harden and be closely consolidated with the ground</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Mikvaot 4:3\">Mikv. IV, 3</cite> Ar., Maim. a. Rabad (v. Tos’f. Yom Tob a. l.; ed. <cite ref=\"K00081\"><he>נכבש</he></cite>)."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

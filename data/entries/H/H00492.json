@@ -1,0 +1,38 @@
+{
+	"id": "H00492",
+	"slug": "חושלא",
+	"headword": {
+		"text": "חוּשְׁלָא"
+	},
+	"page": {
+		"number": 441,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חשל</he>; v. P. Sm. 1404) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>pounded grain</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:17\">Targ. Ez. XXVII, 17</cite> quot. in Rashi (ed. <cite ref=\"T00622\"><he>ריחוש</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>peeled barley</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 79a\">Yoma 79ᵃ</cite> without the husk <he>ח׳ קרי לה</he> Ms. M. a. Ar. (ed. <cite ref=\"A00925\"><he>אוּשְׁלָא</he></cite>) it is called <i>ḥushla</i> (not <cite ref=\"U01642\"><he>שעורה</he></cite>). ",
+				"<cite ref=\"Sanhedrin 27a\">Snh. 27ᵃ</cite> bot. ",
+				"<cite ref=\"Chullin 51a:7\">Ḥull. 51ᵃ</cite>.—Pl. <he>חוּשְׁלֵי</he>. ",
+				"<cite ref=\"Bava Kamma 30b:20\">B. Kam. 30ᵇ</cite> bot. <he>אפקר ח׳</he> ed. (Ms. M. <he>אוּשְׁלֵי</he>, Ms. H. <he>חֲשִׁילֵי</he>) declared as free property peeled barley (which one had spread on public ground for drying). ",
+				"<cite ref=\"Moed Katan 16b:13\">M. Kat. 16ᵇ</cite> <he>קא מניפה חוּשְׁלָאֵי</he> (omitted in Ms., v. Rabb. D. S. a. l.) was winnowing peeled barley."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "S00287",
+	"slug": "קוט-2",
+	"headword": {
+		"text": "קוּט",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1326,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"S00733\"><he>אִתְקוֹטָט</he></cite>, v. <cite ref=\"S00733\"><he>קְטַט</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Ithpol."
+		}
+	]
+}

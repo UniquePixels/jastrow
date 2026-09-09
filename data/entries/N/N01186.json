@@ -1,0 +1,23 @@
+{
+	"id": "N01186",
+	"slug": "נקורות",
+	"headword": {
+		"text": "נְקוֹרוֹת"
+	},
+	"page": {
+		"number": 931,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>נָקַר</he> I) <i>those sharpening the millstones, chisellers</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kiddushin 5:14\">Tosef. Kidd. V, 14</cite>; <cite ref=\"Kiddushin 82a\">Kidd. 82ᵃ</cite>"
+			]
+		}
+	]
+}

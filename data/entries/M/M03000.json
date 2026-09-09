@@ -1,0 +1,22 @@
+{
+	"id": "M03000",
+	"slug": "משתמודע",
+	"headword": {
+		"text": "מִשְׁתְּמוֹדַע"
+	},
+	"page": {
+		"number": 859,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A03382\"><he>אִשְׁתְּמוֹדַע</he></cite>) <i>acquaintance, friend</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 142:5\">Targ. Ps. CXLII, 5</cite>."
+			]
+		}
+	]
+}

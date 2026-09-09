@@ -1,0 +1,29 @@
+{
+	"id": "U01513",
+	"slug": "שמע-3",
+	"headword": {
+		"text": "שְׁמַע",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1599,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. ",
+			"units": [
+				"<cite ref=\"Deuteronomy 6:4\">Deut. VI, 4</cite>) <i>Sh’mʿa, the confession of faith</i> in the morning and evening prayers (recitation of <cite ref=\"Deuteronomy 6:4-9\">Deut. VI, 4-9</cite>; <cite ref=\"Deuteronomy 11:13-21\">XI, 13-21</cite>; <cite ref=\"Numbers 16:37-41\">Num. XVI, 37-41</cite>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 25:6\">Targ. Y. I Num. XXV, 6</cite>. Targ. II Esth. III, 8.—",
+				"<cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite> <he>מאימתי קורין את ש׳ וכ׳</he> from what time of the day may we read the Sh’mʿa of the evening prayer? <cite ref=\"Mishnah Berakhot 2:2\">Ib. II, 2</cite> (<cite ref=\"Berakhot 13a:34\">13ᵃ</cite>) <he>למה קדמה</he> (<he>פרשת</he>) <he>ש׳ וכ׳</he> why does the reading of the section of Sh’mʿa (<cite ref=\"Deuteronomy 6:4-9\">Deut. VI, 4–9</cite>) precede that of <i>v’hayah</i> (ib. XI, 13-21) Ib. <he>בין שניה לש׳ ובין ש׳ וכ׳</he> between the second benediction and Sh’mʿa (the first section), and between Sh’mʿa and <i>v’hayah</i> &c.; a. fr.—<he>קריאת ש׳</he> (abbr. <he>ק״ש</he>), v. <cite ref=\"S02030\"><he>קְרִיאָה</he></cite>. Ib. 2ᵃ <he>ק״ש דשכיבה</he> the recitation of Sh’mʿa at bed-time. ",
+				"<cite ref=\"Bamidbar Rabbah 20:21\">Num. R. s. 20<sup>20</sup></cite> <he>עומדין … וחוטפין ק״ש וכ׳</he> they rise from their sleep like lions, and hasten to read the Sh’mʿa, and proclaim the kingship of the Lord &c. ",
+				"<cite ref=\"Bamidbar Rabbah 20:21\">Ib.</cite> <he>והוא … בק״ש משומרי וכ׳</he> and with the recital of the Sh’mʿa he is handed over from the guards of the day to those of the night. ",
+				"<cite ref=\"Berakhot 4b:27\">Ber. 4ᵇ</cite> <he>אע״פ שקרא אדם ק״ש וכ׳</he> although one has read the Sh. in synagogue, it is proper to recite it again on going to bed. ",
+				"<cite ref=\"Berakhot 5a:5\">Ib. 5ᵃ</cite> <he>אם … ואם לאו יקרא ק״ש</he> if he conquers it (the evil thought), it is well, and if not, let him read the Sh.; a. v. fr."
+			]
+		}
+	]
+}

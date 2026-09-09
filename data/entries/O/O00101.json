@@ -1,0 +1,25 @@
+{
+	"id": "O00101",
+	"slug": "סגדא",
+	"headword": {
+		"text": "סִגְדָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִי׳"
+		}
+	],
+	"page": {
+		"number": 953,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"O00100\">preced.</cite>) <i>kneeling, worship</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 26:1\">Targ. O. Lev. XXVI, 1</cite> <cite ref=\"O00553\"><he>סיגדא</he></cite> ed. Berl. (oth. ed. <cite ref=\"O00129\"><he>סְגִידָא</he></cite>; h. text <he>משכית</he>).—Pl. m. <he>סִגְדִּין</he>, <cite ref=\"O00067\"><he>סִי׳</he></cite>; f. <cite ref=\"O00553\"><he>סִגְדָּתָא</he></cite>, <cite ref=\"O00067\"><he>סִי׳</he></cite>. ",
+				"<cite ref=\"Onkelos Numbers 31:10\">Targ. O. Num. XXXI, 10</cite> <he>בית סִגְדַּתְהוֹן</he>; Y. <he>בית סִגְדֵּיהוֹן</he> (ed. Vien. <cite ref=\"O00567\"><he>סַגְ׳</he></cite>; h. text <he>טירתם</he>)."
+			]
+		}
+	]
+}

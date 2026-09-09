@@ -1,0 +1,28 @@
+{
+	"id": "G00110",
+	"slug": "זהרורא-2",
+	"headword": {
+		"text": "זַהֲרוּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִיהֲ׳"
+		}
+	],
+	"page": {
+		"number": 382,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זהר</he>) <i>red light, glare, reflex</i>.—Pl. <he>זַהֲרוּרֵי</he>, <cite ref=\"G00538\"><he>זִי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Pesachim 13a:1\">Pes. 13ᵃ</cite> <he>וז׳ בעלמא וכ׳</he> (Ms. M. <he>זהרוריה</he>, Ms. M. 2 <he>וזהרירי</he>) and what he saw was merely the glare, v. <cite ref=\"C00726\"><he>גִּילְהֵי</he></cite>; <cite ref=\"Sanhedrin 42a:8\">Snh. 42ᵃ</cite>.—",
+				"<cite ref=\"Bava Metzia 84a:7\">B. Mets. 84ᵃ</cite> <he>והנהו ז׳ דנפקי מיניה מעין וכ׳</he> Ms. M. (ed. <he>וההוא ז׳ מעין</he>; Rashi: <he>זי׳</he>) and those reflexes issuing from it are a specimen of the beauty of &c."
+			]
+		}
+	]
+}

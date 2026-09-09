@@ -1,0 +1,20 @@
+{
+	"id": "E00009",
+	"slug": "האזנה",
+	"headword": {
+		"text": "הַאֲזָנָה"
+	},
+	"page": {
+		"number": 328,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A00981\"><he>אָזַן</he></cite>) <i>giving ear, close attention</i>, contrad. to <cite ref=\"U01477\"><he>שְׁמִיעָה</he></cite>. ",
+			"units": ["<cite ref=\"Sifrei Devarim 306:12\">Sifré Deut. 306</cite>."]
+		}
+	]
+}

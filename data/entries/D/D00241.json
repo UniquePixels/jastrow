@@ -1,0 +1,58 @@
+{
+	"id": "D00241",
+	"slug": "דוך-1",
+	"headword": {
+		"text": "דּוּךְ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 285,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to pound, break</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:9:1\">Y. Bets. I, 60ᵈ</cite> top <he>ויָדוֹךְ וכ׳</he> but why should he not pound a day before?—Part. pass. <cite ref=\"D00754\"><he>דָּךְ</he></cite>, v. <cite ref=\"D00755\"><he>דַּךְ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to designate, mark off</i>, v. <cite ref=\"D00243\"><he>דּוּךְ</he> II</cite>. [<cite ref=\"Bereishit Rabbah 5\">Gen. R. s. 5</cite>, v. <cite ref=\"D00244\"><he>דּוּךְ</he> III</cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִידּוֹךְ", "נָדוֹךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be pounded, crushed</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Beitzah 1:7\">Bets. I, 7</cite> <he>נִדּוֹכִין כדרכן</he> are pounded (on Holy Days) in their usual way. ",
+						"<cite ref=\"Beitzah 14a:8\">Ib. 14ᵃ</cite> <he>לָדוֹכָהּ וכ׳</he> as to pounding it (salt) alone. ",
+						"<cite ref=\"Yoma 75a:18\">Yoma 75ᵃ</cite> <he>דבר שנ׳ וכ׳</he> something which is pounded in the mortar (spices); a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["דּוֹכֵךְ"],
+			"senses": [
+				{
+					"gloss": ", part. pass. <he>מְדוּכָּךְ</he> <i>crushed</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 848:1\">Yalk. Ps. 848</cite> <he>מְדוּכָּכִים אנו</he> we are crushed (<cite ref=\"Bereishit Rabbah 5\">Gen. R. s. 5</cite> <he>מדוכנין</he>, v. <cite ref=\"D00783\"><he>דָּכַן</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pol."
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "M01817",
+	"slug": "מנרתא",
+	"headword": {
+		"text": "מְנָרְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְנַר׳"
+		}
+	],
+	"page": {
+		"number": 802,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"M01751\"><he>מְנוֹרָה</he></cite> , <i>lamp</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:31\">Targ. Ex. XXV, 31</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Yoma 3:8:7\">Y. Yoma III, 41ᵃ</cite> top, expl. <cite ref=\"N00110\"><he>נברשת</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 63:14\">Gen. R. s. 63</cite>, end (translat. <he>צפה הצפית</he>, <cite ref=\"Isaiah 21:5\">Is. XXI, 5</cite>) <he>סדר מ׳</he> arrange the lamp; <cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite> <he>אקימת מ׳ וכ׳</he> thou (Belshazzar) hast put up the lamp, kindled the light; a. fr.—Pl. <cite ref=\"M01817\"><he>מְנָרָתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 52:19\">Targ. Jer. LII, 19</cite>; a. e."
+			]
+		}
+	]
+}

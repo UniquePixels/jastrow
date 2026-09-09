@@ -1,0 +1,27 @@
+{
+	"id": "U01366",
+	"slug": "שלניא",
+	"headword": {
+		"text": "שְׁלַנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁלַנְיָיא"
+		}
+	],
+	"page": {
+		"number": 1587,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Sh’lanya</i> in Babylonia. ",
+			"units": [
+				"<cite ref=\"Moed Katan 12b:15\">M. Kat. 12ᵇ</cite> (Ms. M. <cite ref=\"U00950\"><he>שִׁילִינְיָא</he></cite>)."
+			]
+		}
+	]
+}

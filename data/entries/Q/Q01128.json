@@ -1,0 +1,31 @@
+{
+	"id": "Q01128",
+	"slug": "פלש-3",
+	"headword": {
+		"text": "פְּלַשׁ"
+	},
+	"page": {
+		"number": 1185,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִתְפַּלֵּשׁ</he> same. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Micah 1:10\">Targ. Mic. I, 10</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

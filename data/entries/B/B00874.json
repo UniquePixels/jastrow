@@ -1,0 +1,27 @@
+{
+	"id": "B00874",
+	"slug": "בליעי",
+	"headword": {
+		"text": "בְּלִיעֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּי בְּלִיעֵי"
+		}
+	],
+	"page": {
+		"number": 173,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= h. <he>בית הבליעה</he>, v. <cite ref=\"B00873\">preced.</cite>) <i>gullet</i>, whence (cmp. <cite ref=\"F00096\"><he>וֶשֶׁט</he></cite>) <i>straits</i> (prob. <i>Scylla and Charybdis</i>). ",
+			"units": [
+				"<cite ref=\"Bekhorot 9a:2\">Bekh. 9ᵃ</cite>.—Snh. 110ᶜ <he>בלועי דקרח</he> (corr. acc.) the chasm created for Korah."
+			]
+		}
+	]
+}

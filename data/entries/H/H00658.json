@@ -1,0 +1,31 @@
+{
+	"id": "H00658",
+	"slug": "חיבור",
+	"headword": {
+		"text": "חִיבּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִבּוּר"
+		}
+	],
+	"page": {
+		"number": 451,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00107\"><he>חָבַר</he></cite>) <i>junction, connection</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 3:6\">Kel. III, 6</cite> <he>אינה ח׳</he> is not considered a connection (touching the stopper by an unclean person &c. does not affect the contents of the cask). ",
+				"<cite ref=\"Mishnah Kelim 18:2\">Ib. XVIII, 2</cite>; <cite ref=\"Shabbat 44b:2\">Sabb. 44ᵇ</cite>; <cite ref=\"Shabbat 46a:3\">46ᵃ</cite>.—",
+				"<cite ref=\"Avodah Zarah 56b:3\">Ab. Zar. 56ᵇ</cite>, a. e. <he>נצוק ח׳</he> the jet produced by pouring out is a connection (the liquid at one end, if touched by a gentile &c., affects that in the vessel); <cite ref=\"Mishnah Tahorot 8:9\">Toh. VIII, 9</cite>; a. v. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sotah 8:4:2\">Y. Sot. VIII, 22ᵈ</cite> <he>אין … ח׳ לעיר</he> we do not consider it as connected with the town (as regards Sabbath limits). ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:6:3\">Y. Kil. IX, end, 32ᵈ</cite> <he>ח׳ לבגד</he> considered as connected (woven) with the garment; a. fr."
+			]
+		}
+	]
+}

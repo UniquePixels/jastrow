@@ -1,0 +1,30 @@
+{
+	"id": "U00822",
+	"slug": "שידה-1",
+	"headword": {
+		"text": "שִׁידָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁדָּה"
+		}
+	],
+	"page": {
+		"number": 1558,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.(?); prob. fr. <cite ref=\"U00255\"><he>שָׁדַד</he></cite> = <cite ref=\"U00257\"><he>שָׂדַד</he></cite> <i>to join</i>) <i>strong box, chest</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 15:1\">Kel. XV, 1</cite>. ",
+				"<cite ref=\"Mishnah Kelim 18:1\">Ib. XVIII, 1</cite>. ",
+				"<cite ref=\"Mishnah Mikvaot 6:5\">Mikv. VI, 5</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 2:1:13\">Y. Taan. II, 65ᵇ</cite> (ref. to <cite ref=\"Jonah 3:8\">Jon. III, 8</cite>) <he>מה שהיה בכף … בש׳ וכ׳</he> what robbery they had in their hands, they restored; what they had in the safe, chest, or closet they did not restore; a. e.—Pl. <he>שִׁידּוֹת</he>, <he>שִׁדִּים</he>. Ib. IV, 69ᵃ bot. <he>שמנים ש׳ של וכ׳</he> eighty metal chests were in Shiḥin; but R. G. said, a <i>shiddah</i> did not exist in our days; <cite ref=\"Gittin 68a:5\">Gitt. 68ᵃ</cite> <he>שלש מאות מיני שדים … ושידה עצמה איני יודע מה היא</he> (not <he>ושידת</he>) there were three hundred kinds of <i>shiddim</i> (chests) in Shiḥin, but what a <i>shiddah</i> really is, I do not know; [comment. erroneously read <cite ref=\"U00823\"><he>שֵׁידָה</he></cite>, <he>שֵׁדִים</he>].—V. <cite ref=\"U00823\">next art.</cite>"
+			]
+		}
+	]
+}

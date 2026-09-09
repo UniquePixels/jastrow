@@ -1,0 +1,27 @@
+{
+	"id": "E00458",
+	"slug": "הינוח",
+	"headword": {
+		"text": "הֵינוּחַ"
+	},
+	"page": {
+		"number": 348,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נוח</he>) <i>setting down, temporary deposit</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:2:2\">Y. B. Mets. II, beg. 8ᵇ</cite> <he>דרך ה׳</he> in the way an object is laid down (to be taken up again), opp. <cite ref=\"M02840\"><he>משוקע</he></cite> hidden away. ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:2:2\">Ib.</cite>; Bab. ",
+				"<cite ref=\"Bava Metzia 21a:12\">B. Mets. 21ᵃ</cite> <he>דרך ה׳</he>, opp. <he>דרך נפילה</he> accidental dropping. ",
+				"<cite ref=\"Bava Metzia 25b:8\">Ib. 25ᵇ</cite> <he>ספק ה׳</he> a case which leaves it doubtful whether an object was laid down to be called for again, or dropped.—",
+				"<cite ref=\"Zevachim 27a:9\">Zeb. 27ᵃ</cite> <he>מחשבת ה׳</he> the intention of letting the blood of the sacrifice stand over the due time (v. ",
+				"<cite ref=\"Mishnah Zevachim 3:6\">ib. III, 6</cite>)."
+			]
+		}
+	]
+}

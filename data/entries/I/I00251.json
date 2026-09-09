@@ -1,0 +1,35 @@
+{
+	"id": "I00251",
+	"slug": "טוש-4",
+	"headword": {
+		"text": "טוּשׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 527,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"I00915\"><he>טְשֵׁי</he></cite>), <i>Af.</i> <he>אָטֵישׁ</he> <i>to hide, reserve</i> (corresp. to h. <cite ref=\"R00702\"><he>צָפַן</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 31:20\">Targ. Ps. XXXI, 20</cite> <he>אָטֵשְתָּא</he> Ms. (ed. <he>אַטְשֵׁיתָא</he>, v. <cite ref=\"I00915\"><he>טְשִׁי</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 119:11\">Ib. CXIX, 11</cite> (some ed. <he>אשיש׳</he>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Job 10:13\">Targ. Job X, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 23:12\">Ib. XXIII, 12</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְטִישׁ", "אִתְּטִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be hidden</i>. Ib. XV, 20. Ib. XXIV, 1.—V. <cite ref=\"I00915\"><he>טְשֵׁי</he></cite>, <cite ref=\"N00589\"><he>נטש</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "S01701",
+	"slug": "קפדא",
+	"headword": {
+		"text": "קְפָדָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1398,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01700\">preced.</cite>) <i>anger, indignation</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 25:8\">Targ. Y. I Num. XXV, 8</cite> <he>בק׳</he>; [prob. a corrupt. for <he>בקבָתָהּ</he>, corresp. to h. text <he>אל קבתה</he>; Pesh. <he>בכרסה</he>]."
+			]
+		}
+	]
+}

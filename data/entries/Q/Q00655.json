@@ -1,0 +1,24 @@
+{
+	"id": "Q00655",
+	"slug": "פייס-2",
+	"headword": {
+		"text": "פַּיִיס"
+	},
+	"page": {
+		"number": 1162,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00741\"><he>פִּיס</he></cite>) <i>division</i>, (cmp. <cite ref=\"Q00328\"><he>פּוּר</he></cite>, a. <cite ref=\"B01100\"><he>בָּצַע</he></cite>) <i>compromise, arbitration</i>, esp. by counting out a certain number on the raised fingers of those among whom a decision is to be made (v. <cite ref=\"R00053\"><he>צָבַע</he></cite> <i>Hif.</i>), <i>allotment</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 2:2\">Yoma II, 2</cite> <he>התקינו … אלא בפ׳</he> it was ordained that the cleansing of the altar should not be done (by whosoever was the first to reach it) but according to arbitration by counting &c. ",
+				"<cite ref=\"Mishnah Yoma 2:2\">Ib.</cite> <he>וזה הפ׳ הראשון</he> and this was the first arbitration (on the Day of Atonement). Ib. 3 <he>הפ׳ השני מי וכ׳</he> the second count was to decide who was to slaughter &c.; a. fr.—Pl. <he>פְּיָיסוֹת</he>. Ib. 2 <he>ארבע פ׳ היו שם</he> four times arbitration took place there (on the Day of Atonement). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 6:1:18\">Y. Pes. VI, 33ᵇ</cite> <he>מפני קילקול פ׳</he> because it disturbs the arrangement of the various services allotted severally to the priests; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "B00995",
+	"slug": "בסין",
+	"headword": {
+		"text": "בַּסִּין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 178,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"B00962\"><he>בנס</he></cite>) <i>vinegar</i>. <he>את מינסב חסין וצבע בב׳</he> thou wilt take lettuce and dip in vinegar. [Prob. <he>בסים</he>.]",
+			"units": []
+		}
+	]
+}

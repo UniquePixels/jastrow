@@ -1,0 +1,30 @@
+{
+	"id": "K00292",
+	"slug": "כומרא-1",
+	"headword": {
+		"text": "כּוּמָרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוּמְרָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 621,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00291\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 17:5\">Targ. Jud. XVII, 5</cite>; <cite ref=\"Targum Jonathan on Judges 17:13\">13</cite> (interch. with <he>כהין</he> <cite ref=\"Targum Jonathan on Judges 17:10\">ib. 10</cite>; <cite ref=\"Targum Jonathan on Judges 17:12\">12</cite>; h. text <cite ref=\"K00163\"><he>כֹּהֵן</he></cite>); a. e.—",
+				"<cite ref=\"Eichah Rabbah 1:36\">Lam. R. to I, 9</cite> <he>ההוא כ׳</he> (<cite ref=\"Yalkut Shimoni on Nach 356:2\">Yalk. Ez. 356</cite> <he>ההיא אפיקורוס</he>).—Pl. <he>כּוּמָרִין</he>, <he>כּוּמָרַיָּא</he>, <cite ref=\"K01099\"><he>כּוּמְ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 18:30\">Targ. Jud. XVIII, 30</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 23:5\">Targ. II Kings XXIII, 5</cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 26\">Gen. R. s. 26</cite>, v. <cite ref=\"A01786\"><he>אֱלָהּ</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 9\">Ex. R. s. 9</cite> (prov.) <he>מחי אלהיא ויבעתון כ׳</he> strike the gods, and the priests will be frightened."
+			]
+		}
+	]
+}

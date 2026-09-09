@@ -1,0 +1,36 @@
+{
+	"id": "V00273",
+	"slug": "תור-3",
+	"headword": {
+		"text": "תּוֹר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1656,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"V00271\"><he>תּוּר</he> I</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>turn, order.—</i>Pl. <cite ref=\"V00291\"><he>תּוֹרִים</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:10:3\">Cant. R. to I, 10</cite> (ref. to <he>בתורים</he>, <cite ref=\"Shir HaShirim Rabbah 1:10:3\">ib.</cite>) <he>בשעה שקורין … בתוֹרֵיהֶן וכ׳</he> when they read the words of the Law in their due turn: the Passover laws on Passover &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>string, twist.—Pl</i>. as ab. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 8:2\">Tosef. Sabb. VIII</cite> (<cite ref=\"Tosefta Shabbat 9:31\">IX</cite>), 31; Y. ib. VIII, 11ᵇ top; Bab. ",
+				"<cite ref=\"Shabbat 90b:3\">ib. 90ᵇ</cite> <he>תּוֹרֵי דקל</he> strings made of the fibrous bast of the palm, contrad. to <he>צורי דקל</he>, v. <cite ref=\"R00243\"><he>צוּר</he> III</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

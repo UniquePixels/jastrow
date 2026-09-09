@@ -1,0 +1,38 @@
+{
+	"id": "A02003",
+	"slug": "אמורא",
+	"headword": {
+		"text": "אֲמוֹרָא"
+	},
+	"page": {
+		"number": 76,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A02060\"><he>אמר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>speaker, lecturer, interpreter;</i> esp. <i>Amora</i>, one who, in lengthy popular discourses, expounds what the lecturer (Tanna, v. <cite ref=\"V00716\"><he>תַּנָּא</he></cite>) says before him in brief and in a low voice; often called <cite ref=\"M03035\"><he>מְתוּרְגְּמָן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 8\">Ex. R. s. 8</cite>, end <he>כשם שהדורש … והא׳ וכ׳</he> as the lecturer sits … and the Amora speaks in his presence.—",
+				"<cite ref=\"Sanhedrin 7b:6\">Snh. 7ᵇ</cite> <he>קום עליה בא׳</he> stand by him as an expounder. ",
+				"<cite ref=\"Taanit 8a:12\">Taan. 8ᵃ</cite>, a. fr. <he>אוקים … א׳ עליה ודרש</he> S. … placed an Amora by his side and lectured. ",
+				"<cite ref=\"Sotah 40a:6\">Sot. 40ᵃ</cite> <he>ואמר אֲמוֹרֵיה חד טעמא</he> and his Amora gave a different reason. ",
+				"<cite ref=\"Chullin 15a\">Ḥull. 15ᵃ</cite> do people listen to the Tanna? <he>לא׳ צייתי</he> they listen to the Amora."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " in a particular sense <cite ref=\"A02003\"><he>אֲמוֹרָא</he></cite>, <i>Amora</i> (<i>Amoraïm</i>), that class of Talmudic authorities who lived after the final redaction of the Mishnah, and whose discussions on the opinions of the <i>Tannaïm</i> or authors of the <i>Mishnah</i> and <i>Boraitha</i>, are deposited in the <i>Guemara</i>, thus adding a second element to the development of the oral law, called <i>Talmud.—</i>Pl. <he>אֲמוֹרִין</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:15\">Y. Ber. I, 2ᶜ</cite> top, a. e. <he>תרי א׳</he> two Amoraïm differ, for which Babli usually: … <he>אֲמוֹרָאֵי נינהו ואליבא</he> two Amoras differ in their relation (or conception) of the opinion of … <cite ref=\"Shevuot 40b:6\">Shebu. 40ᵇ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

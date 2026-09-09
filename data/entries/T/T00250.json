@@ -1,0 +1,31 @@
+{
+	"id": "T00250",
+	"slug": "רדיד-2",
+	"headword": {
+		"text": "רָדִיד"
+	},
+	"page": {
+		"number": 1452,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T00231\"><he>רָדד</he></cite>) (b. h.) <i>a</i> (female’s) <i>wrap of fine texture, veil</i> (v. <cite ref=\"L00585\"><he>לְסוֹטָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 29:1\">Kel. XXIX, 1</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 750:4\">Yalk. Num. 750</cite> <he>פטרו חכמים את הר׳ וכ׳</he> the scholars exempted a woman’s <i>radid</i> from show fringes; <cite ref=\"Sifrei Bamidbar 115:1\">Sifré Num. 115</cite> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the extreme border of a web by which it is stretched</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:7:3\">Y. M. Kat. III, 83ᵇ</cite> top; <cite ref=\"Tractate Semachot 9\">Treat. S’maḥ. ch. IX</cite> <cite ref=\"H01618\"><he>חרוד</he></cite> (corr. acc.).—[<cite ref=\"Yalkut Shimoni on Torah 95:1\">Yalk. Gen. 95</cite> <he>ולקח את הר׳</he>, read <he>הדַּרְדּוּר</he>, as <cite ref=\"Pirkei DeRabbi Eliezer 30:3\">Pirké d’R. El. ch. XXX</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "S00060",
+	"slug": "קבל-4",
+	"headword": {
+		"text": "קְבַל",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1309,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00059\">same</cite>, <i>to cry out, complain, lament</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 4:1\">Targ. Esth. IV, 1</cite> (h. text <he>זעק</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 77:2\">Targ. Ps. LXXVII, 2</cite> (ed. Lag. a. oth. <he>קַבֵּילִית</he> <i>Pa.</i>; h. text <he>צעק</he>). ",
+				"<cite ref=\"Onkelos Exodus 22:22\">Targ. O. Ex. XXII, 22</cite> (Y. <he>צוח</he>); a. fr.—",
+				"<cite ref=\"Sanhedrin 31b:17\">Snh. 31ᵇ</cite> <he>עוקבן</he> … <he>ק׳ קדמנא</he> ʿU. the Babylonian brought suit before us. ",
+				"<cite ref=\"Kiddushin 59a:4-6\">Kidd. 59ᵃ</cite> <he>אזיל</he> … <he>קַבְלֵיה לר׳ זירא</he> R. G. came and complained against him to R. Z.; <he>אזל ר׳ ז׳ וקבליה וכ׳</he> R. Z. went and laid the suit before &c. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:7:15\">Y. Kidd. I, 61ᶜ</cite> top; <cite ref=\"Jerusalem Talmud Peah 1:1:32\">Y. Peah I, 15ᵈ</cite> <he>ק׳ לי על בריה וכ׳</he> he brought complaint before me against his son (asking) that he should support him; <cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23-24</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַבֵּיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S00059\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 35:9\">Targ. Job XXXV, 9</cite> (Bxt. <he>מַקְבְּלִין</he> <i>Af.</i>; h. text <he>יזעיקו</he>); v. supra."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "S02212",
+	"slug": "קש-2",
+	"headword": {
+		"text": "קַשׁ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1428,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; קשש <i>to be hard, stiff</i>; cmp. <cite ref=\"S02221\"><he>קָשֶׁה</he></cite>) <i>straw, stubble</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 3:1\">Sabb. III, 1</cite> <he>בקש ובגבבא</he> with straw or rakings. ",
+				"<cite ref=\"Shabbat 66a:13\">Ib. 66ᵃ</cite> <he>כוורת של קש</he>; <cite ref=\"Mishnah Kelim 15:1\">Kel. XV, 1</cite> <he>כוורת הקש</he>, v. <cite ref=\"K00220\"><he>כְּוֶורֶת</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 17:17\">Ib. XVII, 17</cite>, v. <cite ref=\"U01724\"><he>שְׁפוֹפֶרֶת</he></cite>. Y. Peah IV, beg. 18ᵃ <he>הנח … בקַשָּׁהּ</he> leave for them (the poor) the grain with its straw (stalks); a. fr.—[<cite ref=\"Tosefta Shabbat 9:8\">Tosef. Sabb. IX</cite> (<cite ref=\"Tosefta Shabbat 10:2\">X</cite>), 2 <he>הקש שבחזיר</he> some ed. the stiff bristle &c., v. <cite ref=\"S02221\"><he>קָשֶׁה</he></cite>.]—Pl. <he>קַשִּׁים</he>, <he>קַשִּׁין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 5:6:4\">Y. Peah V, end, 19ᵃ</cite> <he>בזוכר את הק׳</he> when he recalls the straw (with which he covered the sheaves). ",
+				"<cite ref=\"Taanit 6a:6\">Taan. 6ᵃ</cite> <he>בקַשֶּׁיהָ</he>, v. <cite ref=\"M01616\"><he>מַלְקוֹשׁ</he></cite>."
+			]
+		}
+	]
+}

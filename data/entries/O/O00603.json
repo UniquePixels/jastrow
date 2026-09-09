@@ -1,0 +1,23 @@
+{
+	"id": "O00603",
+	"slug": "סיט",
+	"headword": {
+		"text": "סִיט"
+	},
+	"page": {
+		"number": 977,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00283\"><he>סוּט</he></cite>; cmp. <cite ref=\"O00283\"><he>הֶסֵּיט</he></cite>), only with art. <cite ref=\"O00283\"><he>הַסִּיט</he></cite> (cmp. <cite ref=\"E00691\"><he>הַנֵּץ</he></cite>) [<i>swinging the forefinger</i>, cmp. the expression <he>נטה יד</he>,] <i>hassiṭ, the distance between the tip of the thumb and that thumb and that of the index finger when held apart, or between the root of the thumb and the tip of the index finger, when the former is leaning against the latter</i> <he>(כפוף</he>). [Commentators differ in the definition of our w.—Maim. to <cite ref=\"Mishnah Kelim 13:4\">Kel. XIII, 4</cite> distinguishes between <he>מלא הס׳</he> a. <he>מלא רחב הס׳</he>.] <cite ref=\"Mishnah Shabbat 13:4\">Sabb. XIII, 4</cite> <he>כמלא רחב הס׳ כפול</he> the double size of a <i>hassiṭ</i>; <cite ref=\"Shabbat 106a:6\">ib. 106ᵃ</cite> <he>רב יוסף מחוי כפול</he> R. J. showed the double measure (Ar. <he>כפוף</he>, v. supra); <he>רב חייא … מחוי פשוט</he> R. H. b. A. showed the single measure (Ar.: with the thumb stretched); Tosef. ib. IX (X), 3 <he>מלא הס׳ כפול</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Orlah 3:2\">Orl. III, 2</cite>; a. fr.—",
+				"<cite ref=\"Bamidbar Rabbah 18\">Num. R. s. 18</cite>; Tanḥ. Ḥuck. 1 <he>מלא הס׳ יש בו וכ׳</he> within a distance of a <i>hassiṭ</i> (in the human head) there are several wells (seats of mucous secretions)."
+			]
+		}
+	]
+}

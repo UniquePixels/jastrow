@@ -1,0 +1,34 @@
+{
+	"id": "C01269",
+	"slug": "גרד-2",
+	"headword": {
+		"text": "גְּרַד"
+	},
+	"page": {
+		"number": 265,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01268\">same</cite><i>to scrape, comb, strip;</i> trnsf. <i>to chastise</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 8:16\">Targ. Jud. VIII, 16</cite> <he>וגרד</he> Regia (ed. Lag. <cite ref=\"C01392\"><he>גרר</he></cite>, oth. ed. <he>תבר</he>; h. text <he>וַיֹּדַע</he>).—",
+				"<cite ref=\"Nazir 4b\">Naz. 4ᵇ</cite>, v. <cite ref=\"C01321\"><he>גְּרִי</he></cite>.—Part. pass. <cite ref=\"C01325\"><he>גְּרִיד</he></cite>. ",
+				"<cite ref=\"Shabbat 109b:7\">Sabb. 109ᵇ</cite> <he>דגְרִידָא מעילאי וכ׳</he> which has been stripped of its rind from the top downward."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to rub, create friction</i> (of sexual connection).—Part. <cite ref=\"C01324\"><he>גָּרֵיד</he></cite>. ",
+			"units": ["<cite ref=\"Yevamot 75b:13\">Yeb. 75ᵇ</cite>.—["],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to stimulate the appetite</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 35b\">Ber. 35ᵇ</cite>, a. fr. Ar. (ed. a. Ms. mostly <cite ref=\"C01393\"><he>גְּרַר</he></cite>).] [<i>Ithpa.</i>, v. <cite ref=\"C01393\"><he>גְּרַר</he></cite>.] V. <cite ref=\"C01379\"><he>גרע</he></cite>, <cite ref=\"C01392\"><he>גרר</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

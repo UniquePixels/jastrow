@@ -1,0 +1,43 @@
+{
+	"id": "D00412",
+	"slug": "דחיל-2",
+	"headword": {
+		"text": "דּחִיל"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּחִילָא"
+		}
+	],
+	"page": {
+		"number": 292,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00411\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fearing</i>, v. <cite ref=\"D00411\">preced.</cite>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fearful, terrible, awe-inspiring</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 28:17\">Targ. Y. Gen. XXVIII, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 76:5\">Targ. Ps. LXXVI, 5</cite> <he>דָּחִיל</he> Ms. (ed. <he>נהיר דחיל</he>, combin. of two versions). ",
+				"<cite ref=\"Onkelos Deuteronomy 10:17\">Targ. Deut. X, 17</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 8:15\">Ib. VIII, 15</cite>; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 9:9\">Lev. R. s. 9</cite> <he>מה ד׳ הדין שליטא</he> how severe is this ruler!—Pl. <cite ref=\"D01003\"><he>דְּחִילִין</he></cite>, f. <cite ref=\"D00413\"><he>דְּחִילַן</he></cite>. Targ. ",
+				"<cite ref=\"Habakkuk 1:7\">Hab. I, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 45:5\">Targ. Ps. XLV, 5</cite> (noun)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"id": "A02073",
+	"slug": "אמתא-1",
+	"headword": {
+		"text": "אַמְּתָא"
+	},
+	"page": {
+		"number": 79,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"A01989\"><he>אַמָּה</he></cite>.<i>cubit</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:10\">Targ. Ex. XXV, 10</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sotah 8:3:8\">Y. Sot. VIII, 22ᶜ</cite> bot. <he>א׳ אישתא</he> a cubit has six hand-breadths; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>membrum virile</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 17a:11\">M. Kat. 17ᵃ</cite> <he>טרקיה אאַמְּתֵיה</he> stung him on his membrum."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " trnsf. <i>enclosure; protection</i> (cmp. <cite ref=\"H00373\"><he>חוֹמָה</he></cite>). <he>א׳ דריחיא</he> enclosure of the millstones, mill. ",
+			"units": [
+				"<cite ref=\"Berakhot 18b\">Ber. 18ᵇ</cite>.—Pl. <he>אַמִּין</he> (fr. <cite ref=\"A01963\"><he>אַמָּא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 40:5\">Targ. Ezek. XL, 5</cite>; a. fr. <cite ref=\"A01995\"><he>אַמָּהָתָא</he></cite>. ",
+				"<cite ref=\"Chullin 59b:8\">Ḥull. 59ᵇ</cite> <he>תשע א׳</he> nine cubits."
+			],
+			"label": "3"
+		}
+	]
+}

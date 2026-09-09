@@ -1,0 +1,44 @@
+{
+	"id": "H00048",
+	"slug": "חבי-2",
+	"headword": {
+		"text": "חֲבֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲבָא"
+		}
+	],
+	"page": {
+		"number": 418,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H00047\">same</cite>.",
+			"units": ["<cite ref=\"Bekhorot 43b\">Bekh. 43ᵇ</cite>, v. infra."]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְחַבֵּא"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיחְבֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to hide one’s self; to be hidden, covered</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 1:3\">Targ. Lam. I, 3</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 7:19\">Targ. Y. Gen. VII, 19</cite>, sq. (ed. pr. = O. <he>אתחפ׳</he>).—",
+						"<cite ref=\"Bekhorot 43b:4\">Bekh. 43ᵇ</cite> <he>דחַבְיָא מִיחְבֵּי</he> (Rashi, ed. <he>מִחְ׳</he>) when the head is hidden (between the shoulders). ",
+						"<cite ref=\"Bava Kamma 60b:8\">B. Kam. 60ᵇ</cite> <he>מִחְבֵּי חַבּוּיֵי וכ׳</he> he hides himself and walks (by the way-sides)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

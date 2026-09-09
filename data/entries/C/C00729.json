@@ -1,0 +1,43 @@
+{
+	"id": "C00729",
+	"slug": "גילוי",
+	"headword": {
+		"text": "גִּילּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּלּוּי"
+		}
+	],
+	"page": {
+		"number": 238,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00926\"><he>גלי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>uncovering</i>.—<he>ג׳ עריות</he> uncovering of nakedness, <i>incest</i> (<cite ref=\"Leviticus 18:6\">Lev. XVIII, 6</cite>; a. fr.). ",
+			"units": [
+				"<cite ref=\"Yoma 9a:6\">Yoma 9ᵃ</cite>; a. fr.—ג׳ ראש <i>bareheadedness</i>. ",
+				"<cite ref=\"Shabbat 118b\">Sabb. 118ᵇ</cite>.—ג׳ פנים <i>barefacedness, defiance</i>. ",
+				"<cite ref=\"Sotah 42b\">Sot. 42ᵇ</cite>, v. <cite ref=\"C00957\"><he>גָּלְיַת</he></cite>. ",
+				"<cite ref=\"Eruvin 69a:7\">Erub. 69ᵃ</cite> <he>מומר וג׳ פנים</he> an apostate and a defiant person, expl. <he>מומר בג׳ פ׳</he> a defiant apostate; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the law forbidding the use of liquids that were left uncovered</i> (as possibly poisoned by serpents). ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 8:4\">Ter. VIII, 4</cite> <he>אסורים משום ג׳</he> are forbidden on account of <i>gilluy;</i> a. fr.—Pl. <cite ref=\"C00730\"><he>גִּילּוּיִים</he></cite>, <cite ref=\"C00730\"><he>גִּילּוּיִין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:3:2\">Y. Ab. Zar. II, 41ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Terumot 8:3:1\">Y. Ter. VIII, 45ᶜ</cite> bot. [read:] <he>שהיה מלגלג בג׳</he> (not <he>מגלגל</he>, not <he>בגילוי יין</he>) who sneered at the law of <i>gilluy</i>"
+			],
+			"label": "2"
+		}
+	]
+}

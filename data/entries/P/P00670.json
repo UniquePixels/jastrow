@@ -1,0 +1,24 @@
+{
+	"id": "P00670",
+	"slug": "עיקתא-1",
+	"headword": {
+		"text": "עִיקְתָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1075,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"P00655\"><he>עִיקָה</he></cite>) <i>distress, misfortune</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 21:13\">Targ. Y. Ex. XXI, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 16:3\">Targ. Ps. XVI, 3</cite>; a. e.—[Mostly <cite ref=\"P01231\"><he>עַקְתָא</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "Q01947",
+	"slug": "פרעה-1",
+	"headword": {
+		"text": "פְּרָעָה"
+	},
+	"page": {
+		"number": 1236,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., pl. <he>פְּרָעוֹת</he>(b. h.; ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"Q01946\">preced.</cite>, <i>wild irregular growth</i>, esp. <i>the case of protruding boughs on one of which is an uncleanness</i>, v. <cite ref=\"O00908\"><he>סְכָכָה</he></cite>. Ohol. VIII, 2 <he>והפ׳</he>, expl. <he>היוצאות מן הגדר</he> which protrude from the hedge; Tosef. ib. IX, 3 <he>פֶּרַע היוצא מן וכ׳</he>; <cite ref=\"Mishnah Nazir 7:3\">Naz. VII, 3</cite>; <cite ref=\"Nazir 54b\">54ᵇ</cite>. Y. ib. VII, 56ᶜ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (homilet.) <i>payment, retribution</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 119b:5\">Sabb. 119ᵇ</cite> (ref. to <cite ref=\"Judges 5:2\">Jud. V, 2</cite>) <he>מ״ט בפרוע פרעות משום דברכו ה׳</he> why are decreed punishments disarranged (reversed)? Because of ‘praise the Lord’; <cite ref=\"Yalkut Shimoni on Nach 46:2\">Yalk. Jud. 46</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

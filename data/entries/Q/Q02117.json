@@ -1,0 +1,29 @@
+{
+	"id": "Q02117",
+	"slug": "פתאוא",
+	"headword": {
+		"text": "פְּתָאוָא"
+	},
+	"page": {
+		"number": 1250,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"Q02116\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>enlargement</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 118:5\">Targ. Ps. CXVIII, 5</cite>, v. <cite ref=\"Q00416\"><he>פּוּתְיָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>open place</i>, v. <cite ref=\"Q02116\">preced.</cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

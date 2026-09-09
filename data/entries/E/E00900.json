@@ -1,0 +1,24 @@
+{
+	"id": "E00900",
+	"slug": "הרקדה",
+	"headword": {
+		"text": "הַרְקָדָה"
+	},
+	"page": {
+		"number": 369,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T01018\"><he>רָקַד</he></cite>) <i>shaking</i> (in the sieve), <i>sifting</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 11a:2\">Pes. 11ᵃ</cite> <he>טחינה וה׳ מא״ל</he> in grinding and sifting (the flour) what change from the ordinary process can he make? <cite ref=\"Pesachim 11a:2\">Ib.</cite> <he>ה׳ ע״ג נפה</he> he does the sifting on the back of the sieve. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:37\">Y. Sabb. VII, 10ᵇ</cite> bot.; a. e.—",
+				"<cite ref=\"Tosefta Menahot 11:4\">Tosef. Men. XI, 4</cite> <he>הֶרְקֵידָן</he>."
+			]
+		}
+	]
+}

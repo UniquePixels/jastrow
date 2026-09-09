@@ -1,0 +1,50 @@
+{
+	"id": "C00032",
+	"slug": "גב-4",
+	"headword": {
+		"text": "גַּב",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּבָּא"
+		}
+	],
+	"page": {
+		"number": 203,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00031\">same</cite><i>back, body</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 2:3\">Targ. Y. II, Ex. II, 3</cite> <he>ג׳ נהרא</he> river-side (Y. I <cite ref=\"C00787\"><he>גֵּיף</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 13:12\">Targ. Job XIII, 12</cite> <he>גב טינא</he> a body (lump) of clay.—",
+				"<cite ref=\"Chullin 47b\">Ḥull. 47ᵇ</cite> <cite ref=\"A00236\"><he>אגבא</he></cite> on top, opp. <he>מגואי</he> inside, below. ",
+				"<cite ref=\"Shabbat 109a:5\">Sabb. 109ᵃ</cite> <he>אג׳ דכרעיה</he> on his foot. ",
+				"<cite ref=\"Yoma 78a:10\">Yoma 78ᵃ</cite> <he>ג׳ דכרעא הוה</he> it was the back (dorsum) of the foot, cmp. <cite ref=\"C00031\">preced.</cite> <he>גב רגל</he>; a. fr.—Pl. <cite ref=\"C00090\"><he>גַּבִּין</he></cite>, <he>גַּבֵּי־</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 31:10\">Targ. Y. Gen. XXXI, 10</cite>; a. e.—[<he>גבייה</he>. ",
+				"<cite ref=\"Bereishit Rabbah 8:1\">Gen. R. s. 8</cite>, some ed., read <he>גביים</he>, v. preced.].—<he>עַל גַּב</he>, <he>עַל גַּבֵּי</he> as <cite ref=\"C00031\">preced.</cite> ",
+				"<cite ref=\"Targum of II Chronicles 21:3\">Targ. II Chr. XXI, 3</cite> <he>ע״ג קרקע</he>, v. <cite ref=\"A00235\"><he>אַגַּב</he></cite>. ",
+				"<cite ref=\"Targum Jerusalem, Leviticus 1:17\">Targ. Y. II, Lev. I, 17</cite>; a. e.—<he>ע״ג ידא</he> upon one’s hand; <he>כע״ג י׳</he> (<cite ref=\"K00098\"><he>כד</he></cite>, <cite ref=\"K00489\"><he>כִּיד</he></cite>) as upon one’s hand, i.e. exposed to danger. ",
+				"<cite ref=\"Aramaic Targum to Job 13:14\">Targ. Job. XIII, 14</cite>; a. fr.—Also ellipt. <he>כעל גב</he>. ",
+				"<cite ref=\"Targum Jonathan on Judges 9:17\">Targ. Jud. IX, 17</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (prep.) <cite ref=\"C00031\"><he>גַּב</he></cite>, <cite ref=\"C00104\"><he>גַּבֵּי</he></cite> <i>towards, with</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 21:9\">Targ. Y. II, Num. XXI, 9</cite>.—With suffix of pers. pron. ",
+				"<cite ref=\"Aramaic Targum to Job 19:4\">Targ. Job XIX, 4</cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 33:3\">Gen. R. s. 33</cite> <he>יתיב גַּבֵּיה</he> he sat with him. ",
+				"<cite ref=\"Bereishit Rabbah 33:3\">Ib.</cite> <he>גַּבְּכוֹן</he> in your country. Y. Ned. VI, 40ᵃ sent letters <he>גבי ר׳ יצחק</he> through R. &c. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <cite ref=\"C00114\"><he>גַּבָּן</he></cite> (thus we read) in our country. ",
+				"<cite ref=\"Berakhot 10a:21\">Ber. 10ᵃ</cite> <he>ליתי … גַּבָּאי</he> let Ezekiel come to me. ",
+				"<cite ref=\"Bereishit Rabbah 35:2\">Gen. R. s. 35</cite> <he>מן גַּבֵּיה ועד גַּבִּי</he> from those with him &c., from his generation to mine.—",
+				"<cite ref=\"Beitzah 25b:12\">Bets. 25ᵇ</cite> <he>זיל לגבי דר׳ וכ׳</he> go to see R. &c.; a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "H00039",
+	"slug": "חבושא-2",
+	"headword": {
+		"text": "חֲבוּשָׁא"
+	},
+	"page": {
+		"number": 417,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חבש</he>) <i>imprisonment</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 11:9\">Koh. R. to XI, 9</cite> <he>לחֲבוּשִׁי לית את סקר</he> my being imprisoned thou dost not take into consideration.—",
+				"<cite ref=\"Targum Jerusalem, Genesis 39:20\">Targ. Y. II, Gen. XXXIX, 20</cite> <he>בית חֲבוּשָׁה</he> (Ar. <he>חֲבוּשְׁיָא</he>) <i>prison</i>"
+			]
+		}
+	]
+}

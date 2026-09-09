@@ -1,0 +1,30 @@
+{
+	"id": "N01285",
+	"slug": "נשא-5",
+	"headword": {
+		"text": "נְשָׂא"
+	},
+	"page": {
+		"number": 938,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01284\">same</cite><i>to lift up</i>, v. <cite ref=\"N00927\"><he>נְסֵי</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to bring, offer</i>. Pesik. B’shall., p. 90ᵇ, sq. <he>אימיה נשא</he> (Ms. O. <he>נַשְׂאָה</he>) his mother was bringing (the bread); v., however, <cite ref=\"N00924\"><he>נְסַח</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (neut. verb) <i>to move, stir</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 24a\">Taan. 24ᵃ</cite>; <cite ref=\"Bava Metzia 85b\">B. Mets. 85ᵇ</cite>, v. <cite ref=\"N01287\"><he>נְשַׁב</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

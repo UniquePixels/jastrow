@@ -1,0 +1,35 @@
+{
+	"id": "S00400",
+	"slug": "קומפרומיסין",
+	"headword": {
+		"text": "קוֹמְפְּרוֹמִיסִין"
+	},
+	"page": {
+		"number": 1333,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<i>pl.</i> of compromissum) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>agreement between parties to submit to arbitration</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:3:3\">Y. M. Kat. III, 82ᵃ</cite> bot., expl. <he>שטרי בירורין</he>, v. <cite ref=\"B00711\"><he>בֵּירוּר</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. Harper’s Lat. Dict. s. v. Compromitto) <i>reciprocal promises</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 6:5\">Lev. R. s. 6</cite> <he>קופרמסאות נתנו וכ׳</he> (read: <he>קוֹמְפְּרוֹמִיסָאוֹת</he>) they made promises to each other, that he would never disown them, nor they him."
+			],
+			"label": "2"
+		}
+	]
+}

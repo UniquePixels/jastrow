@@ -1,0 +1,67 @@
+{
+	"id": "B01288",
+	"slug": "ברך-2",
+	"headword": {
+		"text": "בְּרַךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּרֵיךְ"
+		}
+	],
+	"page": {
+		"number": 195,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01287\">same</cite>. Part. Peil <cite ref=\"B01288\"><he>בְּרִיךְ</he></cite> <i>blessed</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 9:26\">Targ. Gen. IX, 26</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 67a:5\">Sabb. 67ᵃ</cite>, a. fr. <he>קודשא ב׳ הוא</he> the Holiness (Holy One), blessed be He. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:4:4\">Cant. R. to. IV, 4</cite>; <cite ref=\"Bereishit Rabbah 32:10\">Gen. R. s. 32</cite> <he>הדין טורא בְּרִיכָא</he> this blessed mount (Gerizim, revered by the Samaritans; <cite ref=\"Devarim Rabbah 3:1\">Deut. R. s. 3</cite> <he>קדיש</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בָּרֵיךְ", "בָּרִיךְ"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"B01287\">preced.</cite> Pi. ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to bless</i> &c. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 8:10\">Targ. Deut. VIII, 10</cite>; a. fr.—Esp. <i>to say grace after meal</i>. ",
+						"<cite ref=\"Berakhot 46a:2\">Ber. 46ᵃ</cite> <he>כי מטי לְבָרוּכֵי וכ׳</he> when it was time to say grace, he said, Will you please, say grace for us. Y. ib. VI, 10ᵇ <he>מהו למיבָרְכָה בסופה</he> what benediction must be said after it? Ib. bot. <he>לא אנא חכים מברכא</he> I do not know how to say grace after it.—Part. pass. <he>מְבָרַךְ</he>. ",
+						"<cite ref=\"Targum Jerusalem, Genesis 49:2\">Targ. Y. II, Gen. XLIX, 2</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to blaspheme</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 2:9\">Targ. Job II, 9</cite>.—",
+						"<cite ref=\"Sanhedrin 56a:6\">Snh. 56ᵃ</cite> <he>לישנא דברוכי</he> in the sense of blaspheming."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְבָּרֵיךְ"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"B01287\">preced.</cite> Hithpa. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 12:3\">Targ. Gen. XII, 3</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

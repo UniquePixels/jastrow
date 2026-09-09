@@ -1,0 +1,37 @@
+{
+	"id": "A02450",
+	"slug": "אסכולי",
+	"headword": {
+		"text": "אִסְכּוֹלִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְ׳"
+		}
+	],
+	"page": {
+		"number": 94,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (σχολή) <i>school</i>. Pesik. Baḥod. p. 101ᵇ; <cite ref=\"Shir HaShirim Rabbah 2:5\">Cant. R. to II, 5</cite>; <cite ref=\"Kohelet Rabbah 3:11\">Koh. R. to III, 11</cite>; Yalk. Ex. 272 (all of which compare to arrive at a corr. text). ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 9:6\">Ex. R. s. 9</cite>. ",
+				"<cite ref=\"Shemot Rabbah 20:1\">Ex. R. s. 20</cite>, beg.—Pl. <he>אִסְכּוֹלִיּוֹת</he>, <cite ref=\"A02348\"><he>אִיסְ׳</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:15\">Cant. R. to II, 15</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (scholæ, sub. palatinæ = scholares, D. C.) <i>imperial body guard, royal officers</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 2:29\">Deut. R. s. 2</cite> <he>אסכילי פרעה</he> (corr. acc.) Pharaoh’s attendants; Cant. R. to VII, 4 <cite ref=\"A02533\"><he>אסקולין</he></cite> (corr. acc., or read <he>אִסְכּוֹלָרִין</he>); <cite ref=\"Midrash Tehillim 4\">Midr. Till. to Ps. IV</cite>, beg.; <cite ref=\"Jerusalem Talmud Berakhot 9:1:14\">Y. Ber. IX, 13ᵃ</cite> <he>אוכלוסין</he>, <he>אוכלסין</he>; <cite ref=\"Yalkut Shimoni on Torah 167:3\">Yalk. Ex. 167</cite> <he>אוכלוס</he> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

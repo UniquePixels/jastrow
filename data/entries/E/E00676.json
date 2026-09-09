@@ -1,0 +1,75 @@
+{
+	"id": "E00676",
+	"slug": "הני-3",
+	"headword": {
+		"text": "הֲנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֲנָא"
+		}
+	],
+	"page": {
+		"number": 358,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (<cite ref=\"E00675\">preced.</cite>) <i>to please, to profit</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 31:25\">Targ. Jer. XXXI, 25</cite> <he>הֲנַתְנִי</he> ed. Lag. (oth. ed. <he>הֲנָאַתְנִי</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 44:10\">Targ. Is. XLIV, 10</cite> <he>לַהֲנָאָה</he> (h. text <cite ref=\"J00485\"><he>הוֹעִיל</he></cite>); a. e.—<i>Part.</i> <he>הָנֵי</he>. ",
+				"<cite ref=\"Bereishit Rabbah 8:1\">Gen. R. s. 8</cite> <he>עביד מה דה׳ לך</he> do what pleases thee.—Pl. <he>הַנְיָין</he>. ",
+				"<cite ref=\"Bereishit Rabbah 3:2\">Gen. R. s. 3</cite>; <cite ref=\"Bereishit Rabbah 9:2\">s. 9</cite> <he>דין ה׳ לי יתהון לא ה׳ לי</he> these (worlds) please me, those did not &c.; <cite ref=\"Midrash Tehillim 34:1\">Midr. Till. to Ps. XXXIV</cite>; <cite ref=\"Kohelet Rabbah 3:11:1\">Koh. R. to III, 11</cite>, v. <cite ref=\"D00918\"><he>דֵּן</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַהֲנִי"],
+			"senses": [
+				{
+					"gloss": "<i>to please, do good, benefit</i>. Targ. ",
+					"units": [
+						"<cite ref=\"Habakkuk 2:18\">Hab. II, 18</cite>; a. fr.—",
+						"<cite ref=\"Sanhedrin 99b:19\">Snh. 99ᵇ</cite> bot. <he>מאי אַהֲנוּ לן רבנן</he> (not <cite ref=\"E00676\"><he>אהני</he></cite>) what good have the Rabbis done us? <cite ref=\"Avodah Zarah 14b:8\">Ab. Zar. 14ᵇ</cite> <he>אַהֲנָאִי לכון וכ׳</he> I did you good inasmuch &c. Y. Ber. I, 4ᵇ bot. <he>ומה מְהַנְיָא ליה</he> (ed. Krot. <he>ומה</he> missing) what good will it do him?; Y. M. Kat. III, 83ᶜ bot. <he>ומה אנים ליה</he> (corr. acc.); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to take effect, be legal</i>. ",
+					"units": [
+						"<cite ref=\"Temurah 4b:32\">Tem. 4ᵇ</cite> <he>אי עביד מַהֲנֵי</he> if (what the law forbids) has been done, the act has its legal effect. ",
+						"<cite ref=\"Berakhot 43a:8\">Ber. 43ᵃ</cite> <he>מְהַנְיָא ליה הסבה</he> the lying down of a company for a meal has an influence (in that one says the benediction in behalf of all); a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְהֲנֵי"],
+			"senses": [],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִתְהַנֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to profit, enjoy, be gratified</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 1:6\">Targ. Y. Deut. I, 6</cite> <he>א׳ לכון</he> it benefitted you (v. ",
+						"<cite ref=\"Sifrei Devarim 5:1\">Sifré Deut. 5</cite>). ",
+						"<cite ref=\"Onkelos Genesis 37:26\">Targ. O. Gen. XXXVII, 26</cite>.—",
+						"<cite ref=\"Targum Jonathan on II Samuel 17:16\">Targ. II Sam. XVII, 16</cite> <he>דלמא יִתְהֲנִי וכ׳</he> (ed. Wil. <he>יִתַּהֲנִי</he>) perhaps it will please the king (h. text <he>יְבֻלַּע</he>). ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 16:31\">Targ. Ez. XVI, 31</cite>; a. e.—",
+						"<cite ref=\"Nedarim 50a:1\">Ned. 50ᵃ</cite> <he>דאִיתְהֲנִי וכ׳</he> that I should enjoy this world’s goods. ",
+						"<cite ref=\"Chagigah 15a:7\">Ḥag. 15ᵃ</cite> <he>לִיתְהֲנֵי וכ׳</he> let him (myself) enjoy the world. ",
+						"<cite ref=\"Yevamot 103a:17\">Yeb. 103ᵃ</cite> <he>מִתְהַנְיָא מעבירה</he> she derived gratification from a sinful act. Y. Snh. X, 29ᵇ top <he>ובר נש לא מִתְהֲנֵי כלום</he> (not <he>מתהנים</he>) and none were benefitted; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

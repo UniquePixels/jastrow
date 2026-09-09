@@ -1,0 +1,28 @@
+{
+	"id": "M00729",
+	"slug": "מזודה",
+	"headword": {
+		"text": "מְזוּדָה",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "מִזְוָדָה"
+		}
+	],
+	"page": {
+		"number": 753,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"G00131\"><he>זְוַד</he></cite>) <i>travelling bag</i> containing provision &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 20:1\">Kel. XX, 1</cite> Mish. ed. (Talm. ed. <cite ref=\"M00743\"><he>מזורה</he></cite>, <cite ref=\"M00780\"><he>מזרה</he></cite>, corr. acc.; ed. Dehr. <cite ref=\"M01108\"><he>מִיזְדָּה</he></cite>, Var. in Maim. <cite ref=\"M00780\"><he>מזרה</he></cite>)."
+			]
+		}
+	]
+}

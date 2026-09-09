@@ -1,0 +1,22 @@
+{
+	"id": "U00415",
+	"slug": "שוכתא",
+	"headword": {
+		"text": "שׁוּכְתָּא"
+	},
+	"page": {
+		"number": 1534,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<i>Shaf.</i> of <cite ref=\"N00852\"><he>נְכַת</he></cite>; v. <he>שתך</he>) <i>corrosion, rust</i> (cmp. Lat. morsus). ",
+			"units": [
+				"<cite ref=\"Shabbat 65a:14\">Sabb. 65ᵃ</cite> <he>אלא משום ש׳ וכ׳</he> but (if a coin is chosen to be put on a callus on the sole of the foot) on account of the corrosion (which softens the callus), let a metal foil be used!"
+			]
+		}
+	]
+}

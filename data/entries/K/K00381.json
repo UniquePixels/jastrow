@@ -1,0 +1,23 @@
+{
+	"id": "K00381",
+	"slug": "כורך",
+	"headword": {
+		"text": "כּוֹרֶךְ",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 625,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01185\"><he>כָּרַךְ</he></cite>; cmp. <cite ref=\"K01118\"><he>כְּרוּכָא</he></cite>) <i>part of a plough containing a receptacle out of which the seed falls during the ploughing</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 21:2\">Kel. XXI, 2</cite> R. Hai G.; v., however, <cite ref=\"B01289\"><he>בֶּרֶךְ</he></cite>."
+			]
+		}
+	]
+}

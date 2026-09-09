@@ -1,0 +1,23 @@
+{
+	"id": "K01050",
+	"slug": "כפרא-1",
+	"headword": {
+		"text": "כַּפְרָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 662,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01047\"><he>כְּפַר</he></cite>) <i>wipings</i>, or <i>covering</i>, <he>כ׳ דודי</he> (read: <he>דדודי</he>) sediments of dye (or rust) of the kettles. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 101a:1\">B. Kam. 101ᵃ</cite> top (Rashi <cite ref=\"K01039\"><he>כּוּפְ׳</he></cite>), v. <cite ref=\"K00752\"><he>כַּלְכּוֹס</he></cite>."
+			]
+		}
+	]
+}

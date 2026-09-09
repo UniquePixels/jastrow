@@ -1,0 +1,60 @@
+{
+	"id": "U02134",
+	"slug": "שתק-1",
+	"headword": {
+		"text": "שָׁתַק"
+	},
+	"page": {
+		"number": 1640,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be quiet, silent</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 14b:9\">Keth. 14ᵇ</cite> <he>ממזר וצווח חלל ושׁוֹתֵק</he> one who cries (protests) when called a bastard, but keeps his peace when called a <i>ḥalal</i> (v. <cite ref=\"H01077\"><he>חָלָל</he> II</cite>). ",
+				"<cite ref=\"Shabbat 33b:5\">Sabb. 33ᵇ</cite> <he>יוסי שש׳ וכ׳</he> Jose, who kept silence (when the Roman government was criticised), shall be exiled to Sepphoris. ",
+				"<cite ref=\"Menachot 72a:9\">Men. 72ᵃ</cite> <he>הוי פקח ושְׁתוֹק</he> be wise and keep thy peace. ",
+				"<cite ref=\"Bereishit Rabbah 51:6\">Gen. R. s. 51</cite> <he>שתיקה שש׳ לאברהם וכ׳</he> (God remembered to Lot) the silence which he observed towards Abraham when he said &c.; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁיתֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to be silent, silence, stop</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Chagigah 2:12\">Tosef. Ḥag. II, 12</cite> <he>שִׁיתְּקוֹ בגערה</he> he silenced him with a rebuke; Y. ib. II, 78ᵃ bot. <he>ושִׁתְּקוֹ בנזיפה</he>. ",
+						"<cite ref=\"Shabbat 67b:10\">Sabb. 67ᵇ</cite> <he>המְשַׁתֶּקֶת</he> (or <he>המַשְׁתֶּקֶת</he> <i>Hif.</i>), v. <cite ref=\"R00170\"><he>צָוַוח</he></cite>; <cite ref=\"Tosefta Shabbat 6:15\">Tosef. ib. VI</cite> (<cite ref=\"Tosefta Shabbat 7:15\">VII</cite>), 15 <he>השׁוֹתֶקֶת</he>. ",
+						"<cite ref=\"Mishnah Berakhot 5:3\">Ber. V, 3</cite> <he>האומר … מְשַׁתְּקִין אותו</he> he who (in reading the prayers) says … <i>modim modim</i> (we offer thanks, twice) must be stopped (as suspected of heresy). Tanḥ. Aḥăré 9 <he>בקש יהושע לשַׁתֵּק וכ׳</he> Joshua wanted to silence the sun (keep him from giving praise, ref. to <cite ref=\"Joshua 10:12\">Josh. X, 12</cite>); a. fr.—Esp. <i>to deny the claim of, dismiss</i>. ",
+						"<cite ref=\"Yevamot 100b:7\">Yeb. 100ᵇ</cite> <he>מאי שתוקי … שמשתקים אותו מנכסי אביו</he> in what respect is he considered a <i>sh’thuḳi</i> (v. <cite ref=\"U02084\"><he>שְׁתוּקִי</he></cite>)? Is it that we deny him a share in his father’s estate?; <cite ref=\"Yevamot 100b:7\">ib.</cite> <he>משתקין אותו מדיני כהונה</he> we deny him the privileges of priesthood (declare him a <i>ḥalal</i>); <cite ref=\"Ketubot 13b:16\">Keth. 13ᵇ</cite> <he>מַשְׁתִּיקִין</he> <i>Hif.</i>"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִשְׁתַּתֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to stop speaking, close the argument</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 49\">Gen. R. s. 49</cite>, end <he>נ׳ הסניגור וכ׳</he> when the defense stops, the judge rises; <he>עמד … נ׳ הסניגור</he> when the judge rises, the defense is bound to stop; Yalk. ib. 84; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become speechless, be struck dumb</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Gittin 7:1\">Gitt. VII, 1</cite> <he>נ׳ ואמרו לו וכ׳</he> if a man has lost his speech, and they say to him, shall we write a letter of divorce &c.? Y. Snh. VI, beg. 23ᵇ; Bab. ",
+						"<cite ref=\"Sanhedrin 43a\">Snh. 43ᵃ</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

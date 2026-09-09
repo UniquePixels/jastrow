@@ -1,0 +1,38 @@
+{
+	"id": "U00210",
+	"slug": "שגג",
+	"headword": {
+		"text": "שָׁגַג"
+	},
+	"page": {
+		"number": 1521,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be excited, confounded</i>,] <i>to err, do wrong inadvertently; to act under a wrong impression</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Keritot 4:1\">Ker. IV, 1</cite> <he>ש׳ … באיזה מהן ש׳</he> if he had connection with one of them under the impression that it was his wife, and it is unknown with which of them. ",
+				"<cite ref=\"Mishnah Keritot 2:4\">Ib. II, 4</cite> <he>עשה בה את המזיד כשׁוֹגֵג</he> with reference to her the law puts the wilful transgressor on a level with the inadvertent (obliging him to offer a sacrifice). ",
+				"<cite ref=\"Shabbat 69a:7\">Sabb. 69ᵃ</cite> <he>ש׳ בשבת והזיד במלאכות</he>, v. <cite ref=\"G00277\"><he>זִיד</he></cite>. ",
+				"<cite ref=\"Shabbat 69a:7\">Ib.</cite> <he>או שש׳ במלאכות וכ׳</he> or he acted inadvertently with regard to labors (not knowing that such a labor was forbidden on the Sabbath), but consciously as regards the Sabbath. ",
+				"<cite ref=\"Shabbat 69a:7\">Ib.</cite> <he>ש׳ בזה ובזה</he> if he was in error as to both. ",
+				"<cite ref=\"Shabbat 69a:7\">Ib.</cite> <he>עד שיִשְׁגּוֹג בלאו וכרת שבה</he> he must be ignorant of the prohibition (<he>לאו</he>) and of the eventual punishment of extinction <he>(כרת</he>); a. v. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵשֵׁג"],
+			"senses": [
+				{
+					"gloss": "<i>to confound</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 146:6\">Yalk. Gen. 146</cite> <he>מְשִׁיגִּין</he>, v. <cite ref=\"U00215\"><he>שָׁגָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

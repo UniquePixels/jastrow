@@ -1,0 +1,33 @@
+{
+	"id": "A01335",
+	"slug": "אימורים-2",
+	"headword": {
+		"text": "אֵימוּרִים",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵימוּרִין"
+		},
+		{
+			"text": "אֲמוּ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 50,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"M00603\"><he>מור</he></cite>, <cite ref=\"J00423\"><he>ימר</he></cite>) <i>exchange</i> (cmp. <cite ref=\"H01058\"><he>חליפין</he></cite> as to pl.). <he>בני א׳</he> <i>hostages</i> in place of their parents. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 3\">Lam. R. to III, 13</cite> ed. (Ar. <cite ref=\"A01352\"><he>אימְרָיָיא</he></cite> q. v.). V. also <cite ref=\"A02008\"><he>אֲמוּרְיָא</he></cite>."
+			]
+		}
+	]
+}

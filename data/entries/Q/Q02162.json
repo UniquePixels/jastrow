@@ -1,0 +1,38 @@
+{
+	"id": "Q02162",
+	"slug": "פתיחה",
+	"headword": {
+		"text": "פְּתִיחָה"
+	},
+	"page": {
+		"number": 1253,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q02143\"><he>פָּתַח</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>opening</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 49b:17\">B. Kam. 49ᵇ</cite> (ref. to <cite ref=\"Exodus 21:33\">Ex. XXI, 33</cite>) <he>אם על פ׳ חייב על כרייה וכ׳</he> if he is responsible for opening a pit, how much more is he so for digging! <cite ref=\"Exodus 21:33\">Ib.</cite> <he>על עסקי פ׳ וכ׳</he> for the act of opening &c. (the pit itself being on private ground). Ib. 50ᵃ. ",
+				"<cite ref=\"Pesachim 54a:6\">Pes. 54ᵃ</cite> <he>פְּתִיחַת פי האתון</he> the opening of the mouth of (Balaam’s) ass; <he>פ׳ פי הארץ</he> the opening of the mouth of the earth (to swallow Korah). ",
+				"<cite ref=\"Shabbat 129a\">Sabb. 129ᵃ</cite>, v. <cite ref=\"S00097\"><he>קֶבֶר</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 13:6\">Gen. R. s. 13</cite> <he>בזו פ׳ ובזו פ׳</he> with reference to the one (sustenance) <i>opening</i> (the stem <he>פתח</he>) is used (<cite ref=\"Deuteronomy 28:12\">Deut. XXVIII, 12</cite>) , and with reference to the other (resurrection) <i>opening</i> is used (<cite ref=\"Ezekiel 37:1\">Ez. XXXVII, 1</cite>; a. fr.—2) <he>פְּתִיחַת נדר</he> (v. <cite ref=\"Q02143\"><he>פָּתַח</he></cite>) <i>offering reasons for regretting a vow</i>. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 8:7:3\">Y. Ned. VIII, end, 41ᵃ</cite>; Y. Naz. VII, 52ᵃ top; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>introduction to a lecture, text</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:2:1\">Cant. R. to I, 2</cite> <he>רבנן עבדין יתהון פ׳ לויהי וכ׳</he> the Rabbis used them (the verses <cite ref=\"Song of Songs 1:2\">Cant. I, 2</cite> sq.) as a text for a lecture on Vayhi &c. (<cite ref=\"Numbers 7\">Num. VII</cite>)."
+			],
+			"label": "3"
+		}
+	]
+}

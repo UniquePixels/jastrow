@@ -1,0 +1,23 @@
+{
+	"id": "T00005",
+	"slug": "ראגתא",
+	"headword": {
+		"text": "רַאֲגָתָא"
+	},
+	"page": {
+		"number": 1435,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"T00004\">preced. art.</cite>) <i>gratification of desires, caresses</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 7:18\">Targ. Prov. VII, 18</cite> ed. Ven. (oth. ed. <cite ref=\"T00155\"><he>רִגְאֲגָתָא</he></cite>; ed. Lag. <cite ref=\"T00155\"><he>רגאתא</he></cite>, corr. acc.; h. text <he>אהבים</he>)."
+			]
+		}
+	]
+}

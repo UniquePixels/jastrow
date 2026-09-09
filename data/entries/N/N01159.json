@@ -1,0 +1,31 @@
+{
+	"id": "N01159",
+	"slug": "נקבה",
+	"headword": {
+		"text": "נְקֵבָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְקֵי׳"
+		}
+	],
+	"page": {
+		"number": 930,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"N01158\">preced.</cite> wds.) <i>female sex, female; female gender</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 3:2\">Nidd. III, 2</cite>, a. fr. <he>תשב לנ׳</he> she must observe the laws of cleanness for the birth of a female child (<cite ref=\"Leviticus 12:5\">Lev. XII, 5</cite>). Ib. 31ᵇ, v. <cite ref=\"N01195\"><he>נָקִי</he> I</cite>; a. v. fr.—<he>לשון נ׳</he> feminine gender. ",
+				"<cite ref=\"Kiddushin 2b:9\">Kidd. 2ᵇ</cite>, v. <cite ref=\"G00468\"><he>זָכָר</he></cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Yevamot 8:6:5\">Y. Yeb. VIII, end, 9ᵈ</cite> <he>ממקום נ׳</he>, v. next w.—Pl. <cite ref=\"N01160\"><he>נְקֵבוֹת</he></cite>, <cite ref=\"N01159\"><he>נְקֵי׳</he></cite>. ",
+				"<cite ref=\"Kiddushin 82b:2\">Kidd. 82ᵇ</cite>; a. v. fr.—",
+				"<cite ref=\"Sukkah 12b:3\">Succ. 12ᵇ</cite> <he>חצין נ׳</he>, v. <cite ref=\"H01487\"><he>חֵץ</he></cite>."
+			]
+		}
+	]
+}

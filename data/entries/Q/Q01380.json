@@ -1,0 +1,27 @@
+{
+	"id": "Q01380",
+	"slug": "פעיה",
+	"headword": {
+		"text": "פְּעִיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּעִיָּיה"
+		}
+	],
+	"page": {
+		"number": 1202,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01379\">preced.</cite>) <i>cry, exclamation, proclamation</i>. Tanḥ. Emor 11 (play on <he>מאפע</he>, <cite ref=\"Isaiah 41:24\">Is. XLI, 24</cite>) <he>כל הפעולות … בשכר פ׳ אחת שפּעו ישראל בסיני</he> all the good rewards &c. (v. <cite ref=\"Q01374\"><he>פְּעוּלָּה</he></cite>), will be bestowed for the sake of the one exclamation which Israel raised at Sinai (<cite ref=\"Exodus 24:7\">Ex. XXIV, 7</cite>); <cite ref=\"Vayikra Rabbah 27:7\">Lev. R. s. 27</cite> <he>בשביל פּוּעָה שפעיתם וכ׳</he> for the sake of the cry which you uttered &c.; a. e.—Pl. <he>פְּעִיּוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 27:7\">Ib.</cite>; Tanḥ. l. c. <he>מאה פ׳ שהאשה פועה וכ׳</he> the one hundred cries which the travailing woman utters; <cite ref=\"Yalkut Shimoni on Nach 314\">Yalk. Is. 314</cite>."
+			]
+		}
+	]
+}

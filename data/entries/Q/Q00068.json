@@ -1,0 +1,51 @@
+{
+	"id": "Q00068",
+	"slug": "פגל-1",
+	"headword": {
+		"text": "פָּגַל"
+	},
+	"page": {
+		"number": 1133,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"Q00074\"><he>פָּגַם</he></cite>) <i>to mutilate; to make rejectable, loathsome; to unfit</i>.—Denom. <cite ref=\"Q00045\"><he>פִּגּוּל</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיגֵּל"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"Q00045\"><he>פִּגּוּל</he></cite>) <i>to make a sacrifice rejectable through improper mental disposal</i> (<cite ref=\"Leviticus 19:7\">Lev. XIX, 7</cite>); <i>to be the cause of becoming piggul</i>. ",
+					"units": [
+						"<cite ref=\"Zevachim 13b:20\">Zeb. 13ᵇ</cite> <he>טבילת אצבע מְפַגֶּלֶת בחטאת</he> the act of dipping the finger in the blood of the sin-offering (with an inappropriate mental disposal, e.g. with the intention of offering the limbs the next day) unfits the sacrifice. ",
+						"<cite ref=\"Mishnah Menachot 2:3\">Men. II, 3</cite> <he>התודה מפגלת את … אינו מְפַגֵּל את התודה</he> an inappropriate intention connected with the thank-offering unfits also the bread (that goes with the thank-offering), but an inappropriate intention with regard to the bread does not affect the thank-offering. ",
+						"<cite ref=\"Mishnah Menachot 2:3\">Ib.</cite> <he>הכבשים מְפַגְּלִין וכ׳</he> improper intentions connected with the offering of the lambs affect &c. Ib. 13ᵇ <he>אין מתיר מפגל את המתיר</he> one act which fits the sacrifice for eating (v. <cite ref=\"M03064\"><he>מַתִּיר</he></cite>) cannot unfit another act of the same nature, e.g. if the priest on offering a handful of flour had in mind an unlawful application of the frankincense, the latter is not hereby made rejectable. Ib. <he>עד שיְפַגֵּל בשתיהן וכ׳</he> until he had in his mind an improper application of both of them to the extent of the size of an olive. Ib. 17ᵃ <he>הקטרה מפגלת הקטרה</he> one offering burnt on the altar (if connected with an improper intention) may cause the unfitness of another offering. Ib. <he>אין מפגלין בחצי מתיר</he> you cannot create <i>piggul</i> with one portion of the <i>mattir</i> (s. supra); a. fr.—Part. pass. <he>מְפוּגָּל</he>; f. <he>מְפוּגֶּלֶת</he>; pl. <he>מְפוּגָּלִים</he>, <he>מְפוּגָּלִין</he>; <he>מְפוּגָּלוֹת</he>. Ib. II, 3, sq. Tosef. ib. V, 5; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְפַּגֵּל"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְפַּגֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be made rejectable, to become</i> <cite ref=\"Q00045\"><he>פִּגּוּל</he></cite>. ",
+					"units": [
+						"<cite ref=\"Menachot 13b:16\">Men. 13ᵇ</cite> <he>פיגל בירך … לא נ׳ של שמאל</he> if he had an improper intention with regard to the right side of the offering, the left did not become <i>piggul</i> (the priest eating thereof is not guilty). ",
+						"<cite ref=\"Zevachim 28b:11\">Zeb. 28ᵇ</cite> <he>מה שלמים מפגלין ומִתְפַּגְּלִין וכ׳</he> as in the peace-offerings there are parts which create <i>piggul</i> (e.g. the sprinkling of the blood with a wrong intention concerning the limbs or the flesh) and again parts liable to become <i>piggul</i>, so in all things liable to become <i>piggul</i>, there must be parts which make, and parts which become <i>piggul</i>; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

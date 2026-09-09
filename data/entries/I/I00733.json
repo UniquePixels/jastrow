@@ -1,0 +1,30 @@
+{
+	"id": "I00733",
+	"slug": "טרופאה",
+	"headword": {
+		"text": "טְרוֹפָאָה"
+	},
+	"page": {
+		"number": 551,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>טְרוֹפָאֵי</he> (denom. of <cite ref=\"I00811\"><he>טְרֵפָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>those deciding on defects of animals</i> for ritual purposes, <i>meat-supervisors</i>. ",
+			"units": ["<cite ref=\"Chullin 55b:1\">Ḥull. 55ᵇ</cite>"],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>those who decided in favor of t’refah</i>, Ib. 48ᵇ. Ib. 49ᵃ <he>שקילו … דט׳</he> seize the cloak of those who decided &c. (make them pay damages).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

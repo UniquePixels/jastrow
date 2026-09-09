@@ -1,0 +1,24 @@
+{
+	"id": "O00024",
+	"slug": "סאתא-2",
+	"headword": {
+		"text": "סָאתָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 948,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"O00451\"><he>סְחוּתָא</he></cite>, <i>sweepings, refuse</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:44\">Lam. R. to I, 15</cite> (expl. <he>סלה</he>, <cite ref=\"Eichah Rabbah 1:44\">ib.</cite>) <he>עבדי ס׳ וכ׳</he> (some ed. <cite ref=\"O01694\"><he>סָאתֵי</he></cite> pl.) he made me like refuse before them. ",
+				"<cite ref=\"Eichah Rabbah 1:44\">Ib.</cite> <he>בבר גמזא צווחין לס׳ סרקי</he> (read <cite ref=\"O00973\"><he>סלותא</he></cite>; Ar. <he>בברגיא … לסחותא סולתא</he>) in Bar Gamza they call sweepings <i>sallutha</i> (that which is thrown away); v. <cite ref=\"O00459\"><he>סְחִיתָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "B00955",
+	"slug": "בניסא",
+	"headword": {
+		"text": "בְּנִיסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּנִיסְתָּא"
+		}
+	],
+	"page": {
+		"number": 177,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B00962\"><he>בנס</he></cite>) <i>sour; angry, sad</i>. Pl. <he>בְּנִיסִין</he>; f. <cite ref=\"B00955\"><he>בְּנִיסָתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 40:6\">Targ. Y. Gen. XL, 6</cite> (O. <he>נסיסין</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:23\">Targ. Prov. XXV, 23</cite>. [Y. Shek. IV, 48ᵇ bot. <he>בניסין</he>, read: <he>בֵּינֵיהוֹן</he>, v. <cite ref=\"B00638\"><he>בֵּין</he></cite> ch.]"
+			]
+		}
+	]
+}

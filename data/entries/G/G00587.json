@@ -1,0 +1,24 @@
+{
+	"id": "G00587",
+	"slug": "זעורי",
+	"headword": {
+		"text": "זְעוּרֵי"
+	},
+	"page": {
+		"number": 407,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"G00597\"><he>זְעַר</he></cite>) = h. <cite ref=\"N00972\"><he>נְעוּרִים</he></cite>, <i>youth, youthful days</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 12:2\">Targ. I Sam. XII, 2</cite> (ed. Wil. <cite ref=\"G00597\"><he>זְעֵר־</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on II Samuel 19:8\">Targ. II Sam. XIX, 8</cite> <he>זְעוּרָךְ</he> (sing.); a. e."
+			]
+		}
+	]
+}

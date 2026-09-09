@@ -1,0 +1,23 @@
+{
+	"id": "A02956",
+	"slug": "ארבה-1",
+	"headword": {
+		"text": "אַרְבֶּה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 114,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T00081\"><he>רבי</he></cite>)<i>locust</i> (also collect.). ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 13:7\">Ex. R. s. 13</cite>; a. fr. V. <cite ref=\"K00198\"><he>כּוֹבֵשׁ</he></cite>."
+			]
+		}
+	]
+}

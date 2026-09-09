@@ -1,0 +1,33 @@
+{
+	"id": "K00061",
+	"slug": "כבל-2",
+	"headword": {
+		"text": "כְּבַל"
+	},
+	"page": {
+		"number": 608,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00060\">same</cite>, part. pass. <cite ref=\"K00048\"><he>כְּבִיל</he></cite>, f. <cite ref=\"K00734\"><he>כְּבִילָא</he></cite> <i>impeded, detained</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 12:4\">Targ. Koh. XII, 4</cite> <he>ריגלך כְּבִילָן וכ׳</he> thy feet are detained from going out &c. (h. text <he>סגרו</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּבֵּל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K00060\">same</cite>; part. pass. <he>מְכַבַּל</he>, f. <cite ref=\"M00802\"><he>מְכַבְּלָא</he></cite> <i>tied up</i>, (cmp. <he>עצר</he>) <i>sterile</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 54a:4\">Sabb. 54ᵃ</cite> (ref. to <cite ref=\"I Kings 9:13\">I Kings IX, 13</cite>, v. <cite ref=\"K00060\">preced.</cite>; v. <cite ref=\"H00376\"><he>חוּמְטוֹן</he></cite>) <he>ואמרו אינשי ארעא מ׳ דלא עבדא פרי</he> (Ms. O. <cite ref=\"M00804\"><he>מְכַבַּלְתָּא</he></cite>) and people say, it is a tied up land, which bears no fruits."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

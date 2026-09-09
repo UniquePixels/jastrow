@@ -1,0 +1,36 @@
+{
+	"id": "A03015",
+	"slug": "ארובה",
+	"headword": {
+		"text": "אֲרוּבָּה"
+	},
+	"page": {
+		"number": 116,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"A02956\"><he>אֲרֻבָּה</he></cite>, <he>ארב</he>)<i>opening</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>an aperture in the roof looking to the ground floor</i> (answering to the Greek <i>hypaithron</i>, Roman <i>compluvium</i>), contrad. fr. <cite ref=\"H01000\"><he>חַלּוֹן</he></cite> a garret window in the wall projecting above the flat roof. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 5:1\">Bets. V, 1</cite> (<cite ref=\"Beitzah 35b:13\">35ᵇ</cite>); cmp. Rashi a. l. ",
+				"<cite ref=\"Niddah 20b:28\">Nidd. 20ᵇ</cite> <he>כסומא בא׳</he> like a blind man finding his way down from the <i>ărubbah</i>, i.e. hitting the truth by chance. Ohol. X, 1; a. fr.—Pl. <he>אֲרוּבּוֹת</he>. ",
+				"<cite ref=\"Niddah 4a\">Ib. 4</cite> sq.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the opening panel of folding doors.—Pl</i>. as supra. ",
+			"units": [
+				"<cite ref=\"Yoma 76a:8\">Yoma 76ᵃ</cite>. [<cite ref=\"Shabbat 43a\">Sabb. 43ᵃ</cite>; <cite ref=\"Shabbat 153b\">153ᵇ</cite>; <cite ref=\"Mishnah Kelim 15:2\">Kel. XV, 2</cite> read with Ar. <he>אֲרוּכוֹת</he>.]"
+			],
+			"label": "2"
+		}
+	]
+}

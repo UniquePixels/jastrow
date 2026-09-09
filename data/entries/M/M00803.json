@@ -1,0 +1,22 @@
+{
+	"id": "M00803",
+	"slug": "מחבלנא",
+	"headword": {
+		"text": "מְחַבְּלָנָא"
+	},
+	"page": {
+		"number": 757,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00802\">preced.</cite>) <i>destroyer</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 18:9\">Targ. Prov. XVIII, 9</cite>; <cite ref=\"Aramaic Targum to Proverbs 28:24\">XXVIII, 24</cite>."
+			]
+		}
+	]
+}

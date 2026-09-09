@@ -1,0 +1,24 @@
+{
+	"id": "B00511",
+	"slug": "בטילא",
+	"headword": {
+		"text": "בְּטֵילָא"
+	},
+	"page": {
+		"number": 156,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B00515\"><he>בטל</he></cite>; h. <i>idleness, loss of time</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 105a:12\">Keth. 105ᵃ</cite> <he>אגר ב׳</he> indemnity for loss of time. ",
+				"<cite ref=\"Ketubot 105a:13\">Ib.</cite> <he>קרנא ב׳ דמוכחא</he> (in the case of) Karna, the loss of time was ostensible (i.e. all knew that the fee he took for judging was needed to indemnify him for his loss of time). ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 4:3:3\">Y. Ned. IV, 38ᶜ</cite> bot. <he>שכר בְּטֵילָן</he> (in h. phraseol.) indemnity for their loss of time."
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "V00790",
+	"slug": "תעק",
+	"headword": {
+		"text": "תְּעַק"
+	},
+	"page": {
+		"number": 1684,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Tafel of <cite ref=\"P00326\"><he>עוּק</he></cite>) <i>to be narrow</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְתְּעֵיק", "אִתְּעֵק"],
+			"senses": [
+				{
+					"gloss": "<i>to be small, reduced</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 24:10\">Targ. Prov. XXIV, 10</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be distressed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 36:16\">Targ. Job XXXVI, 16</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

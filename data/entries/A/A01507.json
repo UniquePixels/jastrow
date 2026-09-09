@@ -1,0 +1,25 @@
+{
+	"id": "A01507",
+	"slug": "איסר-2",
+	"headword": {
+		"text": "אִיסָּר"
+	},
+	"page": {
+		"number": 57,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"A01507\"><he>אִסָּר</he></cite>, <cite ref=\"A02552\"><he>אֱסָר</he></cite>) prop. <i>band</i>, hence <i>vow of abstinence</i>, (cmp. <cite ref=\"A01404\"><he>איסור</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 1:1:5\">Y. Ned. I, beg. 36ᶜ</cite>.—Pl. <he>אִיסָּרוֹת</he>, <he>אִיסָּרִין</he>, <he>אֱסָרִין</he>. ",
+				"<cite ref=\"Yoma 2a\">Ibid.</cite> <he>אין לוקין על הא׳</he> the punishment of lashes is not applied for breaking vows. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 13:2:9\">Y. Yeb. XIII, 13ᵈ</cite> <he>אסורות</he> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 1:1:7\">Y. Ned. I, 36ᵈ</cite> top. [<he>אֵיסָר</he> <i>prisoner</i>, v. <cite ref=\"A01404\"><he>אֵיסוּר</he></cite>.] [<cite ref=\"Bereishit Rabbah 42:4\">Gen. R. s. 42</cite> <he>א׳ לשם אלסר</he> bands (chains) forged for Elasar, v. preced.]"
+			]
+		}
+	]
+}

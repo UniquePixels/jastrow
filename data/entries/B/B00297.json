@@ -1,0 +1,24 @@
+{
+	"id": "B00297",
+	"slug": "בוסתנא",
+	"headword": {
+		"text": "בּוּסְתָּנָא"
+	},
+	"page": {
+		"number": 147,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. bûstân) <i>garden, orchard</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 30b:1\">Sabb. 30ᵇ</cite>. ",
+				"<cite ref=\"Eruvin 25b:8\">Erub. 25ᵇ</cite>.—Pl. <cite ref=\"B00297\"><he>בּוּסְתָּנֵי</he></cite>. ",
+				"<cite ref=\"Bava Batra 61b:12\">B. Bath. 61ᵇ</cite>.—Targ. II Esth. III, 8 <he>בּוּסְתְּנָנָא</he> our <i>orchards</i> (collect.)."
+			]
+		}
+	]
+}

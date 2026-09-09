@@ -1,0 +1,31 @@
+{
+	"id": "H00945",
+	"slug": "חכמה-1",
+	"headword": {
+		"text": "חֲכָמָה"
+	},
+	"page": {
+		"number": 463,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. fem. of <cite ref=\"H00941\"><he>חָכָם</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:1:8\">Y. Shek. V, 48ᵈ</cite> top <he>הרי זו ח׳</he> that is a wise court; <cite ref=\"Sanhedrin 17b:3\">Snh. 17ᵇ</cite> <he>שלישית ח׳</he> a Sanhedrin containing three orators is a wise one."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>female physician, midwife</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 2:5\">R. Hash. II, 5</cite>; <cite ref=\"Eruvin 45a:7\">Erub. 45ᵃ</cite> <he>ח׳ הבאה לילד</he> a midwife called for assisting at birth. ",
+				"<cite ref=\"Mishnah Shabbat 18:3\">Sabb. XVIII, 3</cite> <he>וקורין לה ח׳ וכ׳</he> and we must call for her a midwife from another place (on the Sabbath); a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

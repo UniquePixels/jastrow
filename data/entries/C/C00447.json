@@ -1,0 +1,45 @@
+{
+	"id": "C00447",
+	"slug": "גוס-3",
+	"headword": {
+		"text": "גּוּס",
+		"homograph": 2
+	},
+	"page": {
+		"number": 224,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to come in contact, touch, be connected</i>. Denom. <cite ref=\"C00708\"><he>גַּיָּיס</he></cite>; <cite ref=\"C00772\"><he>גִּיס</he></cite>. [<cite ref=\"Mishnah Oktzin 2:6\">Ukts. II, 6</cite> <he>שיגוס</he>, v. <cite ref=\"N00174\"><he>נָגַס</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵגִיס"],
+			"senses": [
+				{
+					"gloss": "<i>to stir</i> (with a ladle &c.). ",
+					"units": [
+						"<cite ref=\"Mishnah Makhshirin 5:11\">Makhsh. V, 11</cite> <he>מֵגִיסָה בקדרה</he> she stirs the pot. ",
+						"<cite ref=\"Avodah Zarah 38b:1\">Ab. Zar. 38ᵇ</cite> top <he>ומֵגִיסָה</he> and may stir it.—",
+						"<cite ref=\"Shabbat 67b:8\">Sabb. 67ᵇ</cite> <he>המגיס בפני אפרוחים</he> (missing in Ms.) who stirs a dish before chickens (a superstitious practice). ",
+						"<cite ref=\"Meilah 17a\">Meïl. 17ᵃ</cite>, a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["גִּיֵּיס"],
+			"senses": [
+				{
+					"gloss": ", v. s. v. <cite ref=\"C00708\"><he>גַּיָּיס</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

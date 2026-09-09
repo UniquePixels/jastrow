@@ -1,0 +1,33 @@
+{
+	"id": "C01062",
+	"slug": "גמר-2",
+	"headword": {
+		"text": "גְּמַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 254,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"C01064\"><he>אִתְגְּמַר</he></cite> as <cite ref=\"C01061\">preced.</cite> <i>Hithpa.</i> ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Song of Songs 3:6\">Targ. Cant. III, 6</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 45:9\">Targ. Ps. XLV, 9</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

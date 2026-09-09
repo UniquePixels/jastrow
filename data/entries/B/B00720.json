@@ -1,0 +1,23 @@
+{
+	"id": "B00720",
+	"slug": "ביריי-2",
+	"headword": {
+		"text": "בִּירְיִי"
+	},
+	"page": {
+		"number": 166,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Biryi</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 10:6:8\">Y. Ter. X, 47ᵇ</cite> bot. (<cite ref=\"Chullin 98a:9\">Ḥull. 98ᵃ</cite> <cite ref=\"B00722\"><he>ביריים</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 2:4:11\">Y. Pes. II, end, 29ᶜ</cite> (Asheri to <cite ref=\"Pesachim 2a\">Pes. I</cite>I, s. 13, quotes <he>פדאי</he>)."
+			]
+		}
+	]
+}

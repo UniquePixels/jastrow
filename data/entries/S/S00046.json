@@ -1,0 +1,22 @@
+{
+	"id": "S00046",
+	"slug": "קביא-1",
+	"headword": {
+		"text": "קַבְיָא"
+	},
+	"page": {
+		"number": 1308,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"S00025\"><he>קַב</he></cite>, a. <cite ref=\"C00098\"><he>גָּבִיעַ</he></cite>) <i>a round metal pot</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 4:11\">Tosef. Kel. B. Mets. IV, 11</cite> <he>כיסוי ק׳ ומיחם</he> the lid of a <i>ḳabia</i> or of a caldron."
+			]
+		}
+	]
+}

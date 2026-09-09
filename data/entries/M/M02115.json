@@ -1,0 +1,47 @@
+{
+	"id": "M02115",
+	"slug": "מעין-3",
+	"headword": {
+		"text": "מַעְיָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַעְיָין"
+		}
+	],
+	"page": {
+		"number": 816,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00291\"><he>עוּן</he></cite>; cmp. <cite ref=\"P00601\"><he>עַיִן</he></cite>)<i>spring, fountain; source, issue</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 5:1\">Mikv. V, 1</cite>. ",
+				"<cite ref=\"Mishnah Mikvaot 5:3\">Ib. 3</cite>, v. <cite ref=\"N00229\"><he>נָדָל</he></cite>. ",
+				"<cite ref=\"Nedarim 41b\">Ned. 41ᵇ</cite> <he>מ׳ הנובע</he> a bubbling well, v. <cite ref=\"B00350\"><he>בּוּרְדָּם</he></cite>. Tanḥ. Thazr. 6 <he>כל שער … מ׳ בפני עצמו</he> for each hair … a separate well (which feeds it). ",
+				"<cite ref=\"Shemot Rabbah 24:1\">Ex. R. s. 24</cite> <he>ברא הקב״ה מ׳ וכ׳</he> (not <cite ref=\"M02083\"><he>מעון</he></cite>), v. <cite ref=\"C01265\"><he>גַּרְגֶּרֶת</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 26\">Gen. R. s. 26</cite>; <cite ref=\"Midrash Tehillim 1:14\">Midr. Till. to Ps. I, 2</cite> <he>כבש … מַעְיָינוֹ</he> the Lord held back his germinating issue. ",
+				"<cite ref=\"Vayikra Rabbah 32:5\">Lev. R. s. 32</cite>; <cite ref=\"Shir HaShirim Rabbah 4:12:1\">Cant. R. to IV, 12</cite> <he>מ׳ חתום אלו הזכרים</he> ‘a sealed well’ (Cant. l. c.), that means the (pure) males. ",
+				"<cite ref=\"Yevamot 64b:19\">Yeb. 64ᵇ</cite> <he>מ׳ גורם</he> the well (in her womb) is the cause of the death of her successive husbands. ",
+				"<cite ref=\"Niddah 11b:10\">Nidd. 11ᵇ</cite>; <cite ref=\"Niddah 35b:55\">ib. 35ᵇ</cite> <he>מ׳ אחד הוא</he> it is one and the same source (from which the menses and the blood at parturition issue); a. fr.—Pl. <he>מַעְיָנוֹת</he>, <cite ref=\"M02107\"><he>מַעְיָי׳</he></cite>. ",
+				"<cite ref=\"Niddah 35b:55\">Ib.</cite> ",
+				"<cite ref=\"Bava Metzia 87a:13\">B. Mets. 87ᵃ</cite>, a. e. <he>כשני מ׳</he> like two springs. ",
+				"<cite ref=\"Pesikta Rabbati 42:1\">Pesik. R. s. 42</cite> <he>יבש כל המ׳ שלו וכ׳</he> he laid dry all the wells (secretory organs) both his own and those of his household &c. ",
+				"<cite ref=\"Tosefta Sotah 15:3\">Tosef. Sot. XV, 3</cite>, a. e. <he>מ׳ חכמה</he> the well-springs of wisdom. ",
+				"<cite ref=\"Niddah 28b:22\">Nidd. 28ᵇ</cite> <he>מַעְיְנוֹתָיו</he>, <he>מַעְיְנוֹתֶיהָ</he> his, her (the leper’s) discharges; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"M02071\"><he>מֵעֶה</he></cite>) <i>inside, digestive organs</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 81b:16\">Snh. 81ᵇ</cite> <he>עד שיוקטן מעיינו</he> until his bowels are shrunk."
+			],
+			"label": "2"
+		}
+	]
+}

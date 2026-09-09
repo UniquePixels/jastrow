@@ -1,0 +1,33 @@
+{
+	"id": "M02605",
+	"slug": "מרור",
+	"headword": {
+		"text": "מָרוֹר"
+	},
+	"page": {
+		"number": 839,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M02773\"><he>מָרַר</he></cite>) (adj.) <i>bitter</i>.—Pl. <he>מְרוֹרִים</he>, <he>מְרוֹרִין</he>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 108b:17\">Snh. 108ᵇ</cite>; <cite ref=\"Eruvin 18b:15\">Erub. 18ᵇ</cite> <he>יהיו מזונותי מ׳ וכ׳</he> let my food be bitter as an olive leaf but given at thy (the Lord’s) hand &c.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bitter herb</i>, esp. <i>maror</i>, (cmp. πικρίς) a plant, prob. <i>Cichorium Itybus, Succory</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 2:6\">Pes. II, 6</cite>, expl. ",
+				"<cite ref=\"Pesachim 39a:13\">ib. 39ᵃ</cite> <he>מרריתא דאגמא</he> Ms. M. (ed. only <he>מרירתא</he>). ",
+				"<cite ref=\"Pesachim 39a:10\">Ib.</cite> <he>מה מ׳ תחילתו רך וכ׳</he> Ms. M. (ed. incorr.) as <i>maror</i> is soft (mild) in its beginning and hard (pungent) at its end (root). ",
+				"<cite ref=\"Pesachim 39a:13\">Ib.</cite> <he>ממאי דהאי מ׳ וכ׳</he> how can you tell that the <i>maror</i> (<he>מְרֹרִים</he>, <cite ref=\"Exodus 12:8\">Ex. XII, 8</cite>) means an herb, perhaps the gall of a <i>kufia</i> is meant? <cite ref=\"Exodus 12:8\">Ib.</cite> <he>אימא מ׳ חד</he> but may I not say, <i>maror</i> means one certain species exclusively? Ib.ᵇ <he>כל שיש בו טעם מ׳</he> whatever has the taste of <i>maror</i> (bitter, v. supra). Ib. <he>מ׳ דרבנן</he> bitter herbs which are subject to tithes merely by rabbinical enactment; a. fr.—Pl. <he>מְרוֹרִים</he>, <he>מְרוֹרִין</he>. Ib.ᵃ; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

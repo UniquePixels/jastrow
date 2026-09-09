@@ -1,0 +1,40 @@
+{
+	"id": "G00579",
+	"slug": "זני-2",
+	"headword": {
+		"text": "זְנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְנָא"
+		}
+	],
+	"page": {
+		"number": 406,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " <cite ref=\"G00578\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 38:24\">Targ. Y. Gen. XXXVIII, 24</cite> <he>זַנְיַית</he> (O. <he>זַנִּיאַת</he>); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זַנֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"G00578\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 22:21\">Targ. O. Deut. XXII, 21</cite> <he>לזַנָּ׳</he> ed. Berl. (ed. Amst. <he>לזְנָאָה</he>); a. e.—",
+						"<cite ref=\"Ketubot 81a:7\">Keth. 81ᵃ</cite> <he>ספק זַנָּאִי וכ׳</he> there is a doubt, did she or did she not commit adultery?—*Denom. <cite ref=\"A01233\"><he>אַיְיזַן</he></cite> f. <i>a runner</i> (<i>after men</i>). ",
+						"<cite ref=\"Sanhedrin 106a:17\">Snh. 106ᵃ</cite> bot. (prov.) <he>מסגני ושילטי הואי א׳ לגברי נגרי</he> (<he>נגדי</he>) after (living with) princes and governors she became a runner after ship draggers (or carpenters). [Our w. is absent in <cite ref=\"Yalkut Shimoni on Torah 785\">Yalk. Num. 785</cite> as well as in Ms. M., the latter having a marginal version <he>אזלא הויא</he>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

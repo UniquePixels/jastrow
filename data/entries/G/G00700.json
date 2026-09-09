@@ -1,0 +1,34 @@
+{
+	"id": "G00700",
+	"slug": "זריד",
+	"headword": {
+		"text": "זָרִיד"
+	},
+	"page": {
+		"number": 413,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זרד</he>) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"G00669\"><he>זֶרֶד</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (from its strengthening effect) <i>a broth</i> or <i>porridge of broken grain</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 37a\">Ber. 37ᵃ</cite> <he>ז׳ וערסן וכ׳</he> Ms. M. (ed. <cite ref=\"G00703\"><he>זָרִיז</he></cite>); expl. (in Ms. M. a. Ar., v. Rabb. D. S. a. l. note 30) <he>ז׳ ארבע ארבע</he> the dish is called <i>zarid</i>, when the grain is broken into four pieces (v. Sm. Ant. s. v. Alica; v. ",
+				"<cite ref=\"Moed Katan 13b\">M. Kat. 13ᵇ</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 6:2:2\">Y. Ned. VI, 39ᶜ</cite> bot. [<cite ref=\"Bekhorot 44a\">Bekh. 44ᵃ</cite>, v. <cite ref=\"G00318\"><he>זִיוֵּר</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

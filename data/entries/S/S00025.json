@@ -1,0 +1,55 @@
+{
+	"id": "S00025",
+	"slug": "קב-2",
+	"headword": {
+		"text": "קַב"
+	},
+	"page": {
+		"number": 1307,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; קבב <i>to hollow out, arch</i>; cmp. <he>גבב</he>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>Kab</i>, a measure of capacity, one sixth of a S’ah. ",
+			"units": [
+				"<cite ref=\"Shabbat 11b:10\">Sabb. 11ᵇ</cite> <he>הדיוט שהקק קב וכ׳</he> if an unskilled man caves out a Kab in a log (on the Sabbath); [Ar. refers to <cite ref=\"S00025\"><he>קַב</he></cite> 2, v. infra]. ",
+				"<cite ref=\"Tosefta Bava Batra 5:10\">Tosef. B. Bath. V, 10</cite> <he>בכל מקום … קב וכ׳</he> everywhere (in all shops) they must make (keep) measures … of a Kab, half a Kab &c.; <cite ref=\"Bava Batra 89b:11\">B. Bath. 89ᵇ</cite>. ",
+				"<cite ref=\"Sotah 8b:16\">Sot. 8ᵇ</cite> a. e. <he>קב וחצי קב וכ׳</he> minor measures of sin, v. <cite ref=\"O00007\"><he>סְאָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Challah 2:3:3\">Y. Ḥall. II, 58ᶜ</cite> bot. <he>קב טיברני</he> dough of a Tiberian Kab of flour. ",
+				"<cite ref=\"Bava Metzia 80b:3\">B. Mets. 80ᵇ</cite> <he>קב לכתף</he> one Kab (in addition to the load agreed upon) for a carrier is an unlawful overload; a. fr.—",
+				"<cite ref=\"Mishnah Sotah 3:4\">Sot. III, 4</cite>, a. e. <he>בקב ותפלות</he>, v. <cite ref=\"V00834\"><he>תִּפְלוּת</he></cite>. ",
+				"<cite ref=\"Sanhedrin 29b:6\">Snh. 29ᵇ</cite> (in Chald. dict.) <he>ההוא … קב רשו</he> there was a man whom they nicknamed ‘a Kabful of notes of indebtedness’.—<he>קב ונקי</he>, v. <cite ref=\"N01195\"><he>נָקִי</he> I</cite>.—<i>Du.</i> <cite ref=\"S00050\"><he>קַבַּיִים</he></cite>; pl. <he>קַבִּים</he>, <he>קַבִּין</he>. ",
+				"<cite ref=\"Bava Metzia 21a:17\">B. Mets. 21ᵃ</cite> <he>ק׳ בשמונה וכ׳</he> if one finds two Kabs of fruits scattered within a radius of eight cubits.—",
+				"<cite ref=\"Mishnah Challah 2:3\">Ḥall. II, 3</cite> <he>יעשנה ק׳</he> let him make his doughs Kab-wise (so as to be exempt from the priest’s share). ",
+				"<cite ref=\"Mishnah Challah 2:4\">Ib. 4</cite>. ",
+				"<cite ref=\"Kiddushin 49b:5\">Kidd. 49ᵇ</cite> <he>עשרה ק׳ וכ׳</he> ten measures of &c. ",
+				"<cite ref=\"Berakhot 22a:16\">Ber. 22ᵃ</cite> <he>תשעה ק׳</he> nine Kabs of water poured over a person in place of immersion; a. fr.—Denom. <he>קַבִּי</he>, pl. <cite ref=\"S00050\"><he>קַבִּיִּים</he></cite> <i>pieces of dough containing a Kab of flour each</i>. ",
+				"<cite ref=\"Mishnah Challah 2:3\">Ḥall. II, 3</cite> <he>אבל ק׳ אין להם חלק בשם</he> (Y. ed. <he>חלה</he>) doughs made of a Kab each have no share in the name of <i>ḥallah</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a piece of wood hollowed out for the stump of a leg, a sort of artificial foot</i> (cmp. <cite ref=\"A02291\"><he>אָנְקִטְמִין</he></cite>). ",
+			"units": [
+				"<cite ref=\"Yevamot 102b\">Yeb. 102ᵇ</cite> (<he>חלצה</he>) <he>בקב הקיטע</he> if a woman performed the ceremony of Ḥălitsah (<cite ref=\"H01060\"><he>חֲלִיצָה</he></cite>) by taking off the <i>Yabam’s</i> artificial foot. ",
+				"<cite ref=\"Mishnah Shabbat 6:8\">Sabb. VI, 8</cite>; a. e.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Chagigah 4a:13\">Ḥag. 4ᵃ</cite> <he>בעלי ק׳</he> stump-legged persons; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>cavity, the lower part of a trumpet</i> or <i>horn</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 11:7\">Kel. XI, 7</cite> <he>הקב שלה</he> Mish. ed. a. Ar. (Talm. ed. <he>הקו</he>, ed. Dehr. <he>הקב</he>)."
+			],
+			"label": "3"
+		}
+	]
+}

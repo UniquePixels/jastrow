@@ -1,0 +1,28 @@
+{
+	"id": "I00158",
+	"slug": "טוייה-טויה",
+	"headword": {
+		"text": "טְוִיָּיה טְוִיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְוִויָּה"
+		}
+	],
+	"page": {
+		"number": 523,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00152\"><he>טָוָה</he></cite>) <i>spinning</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 74b:6\">Sabb. 74ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 79a\">Ib. 79ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

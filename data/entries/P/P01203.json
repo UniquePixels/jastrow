@@ -1,0 +1,32 @@
+{
+	"id": "P01203",
+	"slug": "עקמותא",
+	"headword": {
+		"text": "עִקְמוּתָא"
+	},
+	"page": {
+		"number": 1107,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01202\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>crookedness, insincerity</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 7:16\">Targ. Hos. VII, 16</cite> Bxt., v. <cite ref=\"P01181\"><he>עֲקִימוּתָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>protuberance</i>, v. <cite ref=\"P01200\"><he>עַקְמוּמִיתָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "N00784",
+	"slug": "ניר-3",
+	"headword": {
+		"text": "נִיר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 909,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"N00783\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>clearing, ploughing over</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Metzia 9:24\">Tosef. B. Mets. IX, 24</cite> <he>בשעת הנ׳</he> (read: <he>בשנת</he>) in the year during which he cleared the land."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>newly broken land</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 2:1\">Peah II, 1</cite> <he>הבור והנ׳</he> fallow land or newly broken land. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 7:1:21\">Y. Naz. VII, 56ᵇ</cite> top; a. e.—Pl. <he>נִירִין</he>. ",
+				"<cite ref=\"Mishnah Sheviit 4:3\">Shebi. IV, 3</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

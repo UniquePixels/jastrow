@@ -1,0 +1,41 @@
+{
+	"id": "A02838",
+	"slug": "אפרשה",
+	"headword": {
+		"text": "אַפְרָשָׁה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַפְרָשָׁה"
+		}
+	],
+	"page": {
+		"number": 109,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q02021\"><he>פָּרַשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>separation, setting apart for a sacred purpose</i>, as the heave-offering (T’rumah, for the priest), or a sacrifice (Korban); also <i>isolation on account of levitical uncleanness</i>, or <i>on acc</i>. <i>of sacredness</i>. Trnsf. <i>the thing set apart, offering, gift</i>. Y. Yoma I, beg. 38ᵃ; Tosef. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 3:1\">Parah III</cite> (<cite ref=\"Mishnah Parah 2:1\">II</cite>), 1 <cite ref=\"G00078\"><he>זה</he></cite> (<cite ref=\"U01971\"><he>הַ</he></cite>)<he>אַפְרָשָׁתוֹ בטהרה וכ׳</he> (Babli <cite ref=\"Yoma 8b:1\">Yoma 8ᵇ</cite> <he>פרישתו</he>) the one is isolated for the purpose of purification (because of uncleanness), the other for sanctification (for the services of the Day of Atonement). ",
+				"<cite ref=\"Jerusalem Talmud Demai 7:4:4\">Y. Dem. VII, 26ᵇ</cite> bot. <he>תלוי בה׳</he> depends on the act of setting apart. ",
+				"<cite ref=\"Mishnah Bava Kamma 5:7\">B. Kam. V, 7</cite> <he>הַפְרָשַׁת הר סיני</he> the isolation of Mount Sinai prescribed as preparation for the giving of the Law (<cite ref=\"Exodus 19:13\">Ex. XIX, 13</cite>); a. fr.—Pl. <he>אַפְרָשׁוֹת</he>, <he>הַפְרָשׁוֹת</he>. Y. Shek. II, 46ᵈ top <he>שלש א׳</he> three kinds of sacred gifts."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>crossing the Ocean;</i> cmp. <cite ref=\"Q02021\"><he>פָּרַשׁ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 6:5\">Gen. R. s. 6</cite> <he>הפרשת וכ׳</he>; <cite ref=\"Vayikra Rabbah 25:3\">Lev. R. s. 25</cite> <cite ref=\"Q02026\"><he>פָּרָשַׁת</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

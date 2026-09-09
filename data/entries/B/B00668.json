@@ -1,0 +1,43 @@
+{
+	"id": "B00668",
+	"slug": "ביעא-2",
+	"headword": {
+		"text": "בֵּיעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּיעָה"
+		},
+		{
+			"text": "בֵּיעֲתָא"
+		},
+		{
+			"text": "בֵּעֲתָא"
+		}
+	],
+	"page": {
+		"number": 164,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (= h. <cite ref=\"B00679\"><he>בֵּיצָה</he></cite>; <cite ref=\"B00299\"><he>בוע</he></cite>) <i>egg</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 6:6\">Targ. Job VI, 6</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Nedarim 3:2:10\">Y. Ned. III, 38ᵃ</cite> top (Y. Shebu. III, 34ᵈ bot. <he>סגין</he>, corr. acc.) <he>כגון ב׳ ומרגליתא</he> as e.g. one swearing of an egg that it was a pearl (as an instance of <he>שבועת שקר</he>). ",
+				"<cite ref=\"Yoma 69b:12\">Yoma 69ᵇ</cite> <he>ב׳ בת יומא</he> a fresh egg of the same day; a. fr.—Pl. <he>בֵּיעִין</he>, <he>בֵּיעַיָּא</he>, <he>בֵּיעֵי</he>, <he>בֵּע׳</he>. ",
+				"<cite ref=\"Onkelos Deuteronomy 22:6\">Targ. O. Deut. XXII, 6</cite> (Y. <he>ביעיין</he>); a. fr.—",
+				"<cite ref=\"Ketubot 61a:1\">Keth. 61ᵃ</cite> top. ",
+				"<cite ref=\"Beitzah 6b:12\">Bets. 6ᵇ</cite> sq. <he>ב׳ דפחיא</he> the eggs of a cackling hen, opp. those found in the killed hen. ",
+				"<cite ref=\"Beitzah 6b:12\">Ib.</cite> <he>ב׳ דדיכרא</he> eggs from a hen impregnated by a cock, opp. <he>ב׳ דספנא מארעא</he> by friction on the ground. ",
+				"<cite ref=\"Chullin 93a:16\">Ḥull. 93ᵃ</cite> <he>ב׳ חשילתא</he>, v. <cite ref=\"H01841\"><he>חֲשִׁילָא</he></cite>. ",
+				"<cite ref=\"Shabbat 109a:3\">Sabb. 109ᵃ</cite> <he>פיעפועי ב׳</he> beaten eggs.—",
+				"<cite ref=\"Vayikra Rabbah 16:1\">Lev. R. s. 16</cite>; a. fr.—<he>זבן בכל בֵּיעָתָא</he> to buy (the hen) with all the eggs, i.e. to do a thing thoroughly. ",
+				"<cite ref=\"Vayikra Rabbah 11:7\">Lev. R. s. 11</cite>; Ruth R. (introd.) to I, 2; Esth. R. beg. <cite ref=\"B00756\"><he>ביתא</he></cite> (corr. acc.); v. <cite ref=\"B00679\"><he>בֵּיצָה</he></cite>."
+			]
+		}
+	]
+}

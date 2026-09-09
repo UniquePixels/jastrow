@@ -1,0 +1,30 @@
+{
+	"id": "U01055",
+	"slug": "שיר-3",
+	"headword": {
+		"text": "שִׁיר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1568,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>שרר</he>) [<i>chain, string;</i> cmp. <cite ref=\"H01646\"><he>חָרַז</he></cite>,] <i>verse, song, poetry, music</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tamid 5:6\">Tam. V, 6</cite> <he>שאחיו … לדבר בש׳</he> that his brother Levites were assembling to sing in chorus. ",
+				"<cite ref=\"Mishnah Tamid 7:4\">Ib. VII, 4</cite> <he>הש׳ שהיו הלוים וכ׳</he> these are the psalms that the Levites recited severally on each day; a. fr.—",
+				"<cite ref=\"Rosh Hashanah 28a:17\">R. Hash. 28ᵃ</cite> <he>התוקע לש׳</he> he who blows the Shofar (on the New Year’s Day) as a musical exercise (Ms. M. <he>לשֵׁד</he> to drive off a demon); <cite ref=\"Rosh Hashanah 33b\">ib. 33ᵇ</cite> (Ms. M. <he>לשֵׁיד</he>).—<he>כלי ש׳</he> musical instruments (used in the Temple during the offering of sacrifices). ",
+				"<cite ref=\"Taanit 4a\">Taan. I</cite>V (III), 3; a. e.—Pl. <cite ref=\"U01079\"><he>שִׁירִים</he></cite>, <cite ref=\"U01080\"><he>שִׁירִין</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:1:11\">Cant. R. to I, 1</cite> <he>דוד אמר ש׳ ושלמה אמר ש׳</he> David composed songs, and so did Solomon. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:1:11\">Ib.</cite> end (expl. <he>שיר השירים</he>) <he>המעולה שבש׳</he>; <he>המסולסל שבש׳</he>, v. <cite ref=\"O01011\"><he>סִלְסֵל</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:1:11\">Ib.</cite> <he>נאמר ש׳ ונשבח למי שעשאנו ש׳ בעולם</he> let us recite songs and praise to him who has made us to be songs (proclaimers of God’s praise) in the world; <he>נאמר ש׳ … שיורים לעולם</he> let us recite songs to him who made us remnants (has preserved us) for the world; a. fr.—<he>שיר הש׳</he> the Book of <i>Song of Songs</i> (<i>Canticum</i>). ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:1:11\">Ib.</cite>; <cite ref=\"Bava Batra 14b:11\">B. Bath. 14ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

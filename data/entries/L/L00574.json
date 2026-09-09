@@ -1,0 +1,37 @@
+{
+	"id": "L00574",
+	"slug": "למין",
+	"headword": {
+		"text": "לְמֵין"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִימֵן"
+		},
+		{
+			"text": "לִימֵין"
+		}
+	],
+	"page": {
+		"number": 712,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (λιμήν) <i>haven, bay</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 2:13\">Esth. R. to I, 8</cite> <he>שתי ספינית היו עולות בל׳ אחת מבקשת וכ׳</he> two ships attempting to enter the harbor (from different directions); one desires a northern wind &c. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 3:8:9\">Y. Yoma III, 41ᵃ</cite> <he>לְמֵינָהּ של יפו</he> the harbor of Japho. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 1:1:10\">Y. Gitt. I, 43ᵇ</cite> bot. <he>למינה של קסרין</he> of Cæsarea. ",
+				"<cite ref=\"Bereishit Rabbah 31\">Gen. R. s. 31</cite> <he>אם … שתהא עומדת בל׳</he> if a man wants to build a ship able to stand in the harbor; (<cite ref=\"Yalkut Shimoni on Nach 876:10\">Yalk. Ps. 876</cite> <he>במים</he>).—",
+				"<cite ref=\"Mishnah Eruvin 4:2\">Erub. IV, 2</cite> (<cite ref=\"Eruvin 41b\">41ᵇ</cite>) <he>נכנסו ללמן</he> Ar. (ed. <he>לנָמֵל</he>). ",
+				"<cite ref=\"Shemot Rabbah 48\">Ex. R. s. 48</cite>, beg.; <cite ref=\"Kohelet Rabbah 7:1\">Koh. R. to VII, 1</cite> (ref. to ‘the day of death’ &c. ",
+				"<cite ref=\"Kohelet Rabbah 7:1\">ib.</cite>) it is like two sea-faring ships <he>אחת יוצאת מן הל׳ וכ׳</he> one leaving the harbor, and one entering it; Midr. Sam. ch. XXIII; (<cite ref=\"Yalkut Shimoni on Nach 973\">Yalk. Koh. 973</cite> <cite ref=\"N00881\"><he>נמל</he></cite>). ",
+				"<cite ref=\"Kohelet Rabbah 6:5\">Koh. R. to VI, 5</cite>; a. e."
+			]
+		}
+	]
+}

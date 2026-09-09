@@ -1,0 +1,32 @@
+{
+	"id": "K01123",
+	"slug": "כרום-1",
+	"headword": {
+		"text": "כְּרוּם"
+	},
+	"page": {
+		"number": 665,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01228\"><he>כָּרַם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>coating</i>,] <i>color, esp. yellow</i> or <i>green</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:14\">Cant. R. to I, 14</cite> (play on <he>בכרמי</he>, <cite ref=\"Shir HaShirim Rabbah 1:14\">ib.</cite>) <he>זה יעקב … בכ׳ פניו וכ׳</he> that alludes to Jacob who went in to his father with paleness of face, trembling in his shame &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>K’rum</i>, name of a bird changing colors in the sun. ",
+			"units": ["<cite ref=\"Berakhot 6b:24\">Ber. 6ᵇ</cite>"],
+			"label": "2"
+		}
+	]
+}

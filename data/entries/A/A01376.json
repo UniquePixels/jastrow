@@ -1,0 +1,33 @@
+{
+	"id": "A01376",
+	"slug": "אינומילין",
+	"headword": {
+		"text": "אִינוֹמִילִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִינוֹמְלִין"
+		},
+		{
+			"text": "יִינוֹ׳"
+		}
+	],
+	"page": {
+		"number": 52,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (οἰνόμελι) <i>wine mixed with honey</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 20:2\">Sabb. XX, 2</cite> (<cite ref=\"Shabbat 139b:11\">139ᵇ</cite>) <cite ref=\"A02549\"><he>אי׳</he></cite> Ar. (ed. <he>אנ׳</he>, var. in Mss. <he>יינמילין</he>, <he>ינמי׳</he>, v. Rabb. D. S. a. l. note 20). ",
+				"<cite ref=\"Avodah Zarah 30a:2\">Ab. Zar. 30ᵃ</cite> defined as a mixture of wine, honey and pepper. ",
+				"<cite ref=\"Mishnah Terumot 11:1\">Ter. XI, 1</cite> <he>יינומלין</he> Ar. (ed. <cite ref=\"J00337\"><he>יינומלים</he></cite>; Ms. M. <he>אט׳</he>, read <he>אינו׳</he>). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 14:2:3\">Y. Sabb. XIV, 14ᶜ</cite> top <he>יינומילין</he>."
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "I00083",
+	"slug": "טבעון",
+	"headword": {
+		"text": "טִבְעוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִבְעִין"
+		},
+		{
+			"text": "טִי׳"
+		},
+		{
+			"text": "טִבְעִים"
+		}
+	],
+	"page": {
+		"number": 519,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Tibon</i> or <i>Tibin</i> (prob. <i>Tubun</i>, west of Sepphoris, Neub. Géogr. p. 196). ",
+			"units": [
+				"<cite ref=\"Mishnah Makhshirin 1:3\">Makhsh. I, 3</cite>, v. <cite ref=\"H01065\"><he>חֲלִיקוּפְרִי</he></cite>.—",
+				"<cite ref=\"Tosefta Megillah 2:5\">Tosef. Meg. II, 5</cite>; Y. ib. IV, beg. 74ᶜ <he>בה״כ של טיבעין</he> the synagogue of T.—",
+				"<cite ref=\"Sifrei Devarim 323:3\">Sifré Deut. 323</cite> <he>איש טיבעים</he>; <cite ref=\"Yalkut Shimoni on Torah 946:4\">Yalk. Deut. 946</cite> <he>כפר טיבעין</he>.—[<cite ref=\"Eruvin 29a:18\">Erub. 29ᵃ</cite> bot. <he>לטיבעין</he> (Var. <he>טביעים</he>, v. Rabb. D. S. a. l. note 6), missing in Tosef. ib. IX (VI), 4, v. <cite ref=\"P01300\"><he>עַרְדִּיסְקוֹס</he></cite>.]"
+			]
+		}
+	]
+}

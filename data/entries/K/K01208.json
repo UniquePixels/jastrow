@@ -1,0 +1,67 @@
+{
+	"id": "K01208",
+	"slug": "כרכם",
+	"headword": {
+		"text": "כִּרְכִּם"
+	},
+	"page": {
+		"number": 670,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (reduplic. of <he>כרם</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to draw a circle</i>; denom. <cite ref=\"K01198\"><he>כַּרְכּוֹם</he> II</cite>. ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K01123\"><he>כְּרוּם</he></cite>) <i>to paint, varnish; to polish, bronze</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 15:2\">Kel. XV, 2</cite> <he>סירקן או כִרְכְּמָן</he> if he painted or varnished the boards. ",
+				"<cite ref=\"Mishnah Kelim 22:9\">Ib. XXII, 9</cite> <he>כופת שסירקו או כִרְכְּמוֹ וכ׳</he> a block which one painted or varnished so as to give it a distinguishable surface. ",
+				"<cite ref=\"Chullin 25b\">Ḥull. 25ᵇ</cite> <he>לכַרְכֵּם</he> Ar. to polish or bronze (metal vessels), v. <cite ref=\"K01191\"><he>כִּרְכֵּב</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 6:1\">Tosef. Kel. B. Mets. VI, 1</cite> <he>ואם … לכרכם עד שיְכַרְכֵּם</he> if he intends to varnish (the leather goods), they cannot become unclean until he has varnished them. Cant. R. beg. <he>סיתתה וכִירְכְּמָהּ</he> he chiseled and polished the stone, v. <cite ref=\"M02760\"><he>מָרַק</he></cite>.—<he>כ׳ פנים</he> [<i>to braze the face</i>,] <i>to be bold, defiant</i> (cmp. <cite ref=\"J00653\"><he>יָרַק</he></cite>). Y’lamd. to Num. XX, 8 quot. in Ar. <he>והוא מְכִרְכֵּם פניו כנגדן</he> (some ed. Ar. <he>מכרכס</he>, (v. Koh. Ar. Compl. s. v.) and he (Moses) defied them; <cite ref=\"Yalkut Shimoni on Torah 763:18\">Yalk. Num. 763</cite> <he>נִתְכַּרְכְּמוּ פניו</he>, v. infra.—Part. pass. <he>מְכוּרְכָּם פנים מְכוּרְכָּמוֹת</he>; <i>green, pale face</i>. ",
+				"<cite ref=\"Bereishit Rabbah 99\">Gen. R. s. 99</cite> <he>יצאו ופניהם מכ׳</he> they went out pale-faced (abashed).—Denom. <cite ref=\"K01197\"><he>כַּרְכּוֹם</he> I</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְכַּרְכֵּם"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"K01197\"><he>כַּרְכּוֹם</he> I</cite>, cmp. <cite ref=\"J00653\"><he>יָרַק</he></cite>), with <he>פנים</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to look saffron-like, pale, abashed, grieved</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite> <he>נִתְכַּרְכְּמוּ פניו</he> he turned pale. Y. Snh. I, 19ᵃ bot. Pesik. Par. p. 38ᵃ; <cite ref=\"Bamidbar Rabbah 19\">Num. R. s. 19</cite> (some ed. <he>נתכרמו</he>, corr. acc.).—",
+						"<cite ref=\"Midrash Tehillim 18:27\">Midr. Till. to Ps. XVIII, 35</cite> <he>ופניו מִתְכַּרְכְּמִין</he> and his (Abraham’s) face turned pale (from jealousy); <cite ref=\"Yalkut Shimoni on Nach 162:1\">Yalk. Sam. 162</cite> <he>ופני אברהם מִתְכַּרְכְּמוֹת</he>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become bronze-colored</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 1:6\">Cant. R. to I, 6</cite> <he>נתכ׳ פניו</he> his face was tanned (from exposure to the sun; <cite ref=\"Yalkut Shimoni on Nach 982\">Yalk. ib. 982</cite> <cite ref=\"Q00478\"><he>נפחם</he></cite>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to become angry, defiant</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 763\">Yalk. Num. 763</cite>, v. supra."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"id": "N00743",
+	"slug": "ניץ-1",
+	"headword": {
+		"text": "נִיץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "נוּץ"
+		},
+		{
+			"text": "יְנַץ"
+		}
+	],
+	"page": {
+		"number": 907,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to sprout, blossom</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 90:6\">Targ. Ps. XC, 6</cite> <he>יְנִיץ</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 129:6\">Ib. CXXIX, 6</cite> <he>יֵינִיץ</he> Ms. (ed. <he>יציץ</he>).—",
+				"<cite ref=\"Sanhedrin 18b:12\">Snh. 18ᵇ</cite> <he>יֵינַץ</he>; <cite ref=\"Jerusalem Talmud Rosh Hashanah 2:5:4\">Y. R. Hash. II, 58ᵇ</cite> top <he>מֵינַץ</he>, v. <cite ref=\"B00789\"><he>בַּכִּיר</he></cite>; Y. Snh. I, 18ᶜ bot. <cite ref=\"I00398\"><he>טינץ</he></cite> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to shine</i> (cmp. <cite ref=\"N00065\"><he>נָבַט</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 132:18\">Targ. Ps. CXXXII, 18</cite> (h. text <he>יציץ</he>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָנֵיץ", "אֲנֵיץ"],
+			"senses": [
+				{
+					"gloss": "<i>to bring forth blossoms</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 17:23\">Targ. Num. XVII, 23</cite> (ed. Berl. <cite ref=\"A02239\"><he>אַנֵּיץ</he></cite>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

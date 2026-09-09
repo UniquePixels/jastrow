@@ -1,0 +1,28 @@
+{
+	"id": "H00811",
+	"slug": "חימתא-1",
+	"headword": {
+		"text": "חֵימְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּ׳"
+		}
+	],
+	"page": {
+		"number": 458,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"H01151\"><he>חֵמָה</he></cite> , <i>anger, passion</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 27:4\">Targ. Prov. XXVII, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 29:11\">Ib. XXIX, 11</cite> (some ed. <cite ref=\"H00811\"><he>חוּ׳</he></cite>); a. e."
+			]
+		}
+	]
+}

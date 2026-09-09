@@ -1,0 +1,32 @@
+{
+	"id": "M00242",
+	"slug": "מדברא-1",
+	"headword": {
+		"text": "מַדְבְּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַדְבַּרְתָּא"
+		}
+	],
+	"page": {
+		"number": 731,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. <cite ref=\"M00241\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 3:1\">Targ. Ex. III, 1</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 73b:11\">B. Bath. 73ᵇ</cite>; <cite ref=\"Bava Batra 74b:4\">74ᵇ</cite> <he>אזלינן במ׳</he> we were travelling in the desert; a. fr.—",
+				"<cite ref=\"Shir HaShirim Rabbah 4:4:8\">Cant. R. to IV, 4</cite> (ref. to <he>מדברך</he>, <cite ref=\"Shir HaShirim Rabbah 3\">ib. 3</cite>) <he>מִדְבָּרֵךְ יאי מַדְבַּרְתֵּךְ יאיא</he> thy <i>midbar</i> is beautiful, this means thy waste (the ruined Temple) is beautiful, v. preceding.; [Comment.: <i>thy speech</i>.]—Pl. <he>מַדְבְּרַיָּא</he>, f. <cite ref=\"M00246\"><he>מַדְבְּרָן</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 75:7\">Targ. Ps. LXXV, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 51:3\">Targ. Is. LI, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:14\">Targ. Cant. II, 14</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "S00028",
+	"slug": "קבה-1",
+	"headword": {
+		"text": "קַבָּה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1307,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"N01155\"><he>נָקַב</he></cite>) <i>curse</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 92a:1\">Snh. 92ᵃ</cite> top (ref. to <he>יקבהו</he>, <cite ref=\"Proverbs 11:26\">Prov. XI, 26</cite>) <he>אין ק׳ אלא קללה</he> (Ms. F. <cite ref=\"S00024\"><he>קֹב</he></cite>; Ag. Hatt. <cite ref=\"S00219\"><he>קוֹב</he></cite>, v. Rabb. D. S. a. l. note 1) <i>kabbah</i> (the noun from the same root as <he>יקבהו</he>) means curse (with ref. to <cite ref=\"Numbers 23:8\">Num. XXIII, 8</cite>); (<cite ref=\"Yalkut Shimoni on Nach 947:26\">Yalk. Prov. 947</cite> <he>יקבוהו</he>); <cite ref=\"Sotah 41b:13\">Sot. 41ᵇ</cite> <cite ref=\"S00219\"><he>קוֹב</he></cite>."
+			]
+		}
+	]
+}

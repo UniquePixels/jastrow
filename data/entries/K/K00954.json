@@ -1,0 +1,31 @@
+{
+	"id": "K00954",
+	"slug": "כסף-4",
+	"headword": {
+		"text": "כְּסַף",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּסְפָּא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 655,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00953\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 20:16\">Targ. Gen. XX, 16</cite>. ",
+				"<cite ref=\"Onkelos Genesis 44:8\">Ib. XLIV, 8</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:1:20\">Y. Kidd. I, 58ᵈ</cite> <cite ref=\"J00575\"><he>יַקִּירָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 3:3:17\">Y. Bicc. III, 65ᵈ</cite> top <he>מתמני בכ׳</he> appointed to office for money. ",
+				"<cite ref=\"Bava Kamma 87a:13\">B. Kam. 87ᵃ</cite> <he>אפחתה מכַּסְפָּהּ</he> Ms. M. he lessened her value; a. fr.—Pl. <he>כַּסְפַּיָּיא</he>. ",
+				"<cite ref=\"Onkelos Genesis 42:25\">Targ. Gen. XLII, 25</cite>; <cite ref=\"Onkelos Genesis 42:35\">35</cite>.—Y. Bicc. l. c. <he>לא בכ׳ אתמני</he> was it not through gifts of money that he was appointed?"
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "G00121",
+	"slug": "זוג-4",
+	"headword": {
+		"text": "זוּג"
+	},
+	"page": {
+		"number": 383,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00118\"><he>זָוַג</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>couple, pair, set</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 10:1\">Erub. X, 1</cite> <he>מכניסן ז׳ ז׳</he> he must bring them in, one set at a time (on his head and arm). ",
+				"<cite ref=\"Sanhedrin 12a:6\">Snh. 12ᵃ</cite> (in a secret letter) <he>ז׳ בא וכ׳</he> a couple (of scholars or messengers of Jewish authorities) came from Rakkath (Tiberias), and the eagle (Rome) caught them; a. fr.—בֶּן ז׳ <i>partner, equal, match, counterpart</i>. ",
+				"<cite ref=\"Gittin 90b:3\">Gitt. 90ᵇ</cite> <he>אין זה בן זוּגוֹ וכ׳</he> this (second husband) is not the equal of the first husband (is morally inferior). ",
+				"<cite ref=\"Bereishit Rabbah 11:8\">Gen. R. s. 11</cite> <he>שאין לו בן ז׳</he> it (the seventh day) has no match (the week having three couples of days and one single day). ",
+				"<cite ref=\"Bereishit Rabbah 11:8\">Ib.</cite> <he>כ״י היא בן זוּגָךְ</he> the congregation of Israel be thy match. ",
+				"<cite ref=\"Bereishit Rabbah 7:4\">Gen. R. s. 7</cite> <he>בהמות יש לו בן ז׳</he> the B’hemoth has a partner (is created male and female).—Pl. <he>זוּגוֹת</he>. ",
+				"<cite ref=\"Bereishit Rabbah 7:4\">Ib.</cite> <he>אין להם בן ז׳</he> (for <he>בני זוג</he>, cmp. <cite ref=\"B01219\"><he>ברזג</he></cite>) have no partners (females). ",
+				"<cite ref=\"Devarim Rabbah 2:31\">Deut. R. s. 2</cite> <he>שמים וארץ ז׳ וב׳</he> heaven and earth are couples, sun and moon are couples &c.—",
+				"<cite ref=\"Pesachim 110b:8\">Pes. 110ᵇ</cite> <he>יש בו משום ז׳</he> the apprehension of danger from even numbers applies to it, v. <cite ref=\"G00124\"><he>זוֹגָא</he></cite>; a. fr.—Esp. <i>Zugoth</i>, the two chiefs (<i>Nasi</i> and <i>Ab Beth Din</i>) of the Supreme Court since its reorganization after Simon the Just (v. ",
+				"<cite ref=\"Pirkei Avot 1:2\">Ab. I, 2</cite>; <cite ref=\"Pirkei Avot 1:4\">4</cite>, sq.). ",
+				"<cite ref=\"Nazir 56b\">Naz. 56ᵇ</cite>; <cite ref=\"Mishnah Peah 2:6\">Peah II, 6</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 9:10:2\">Y. Sot. IX, 24ᵃ</cite> top <he>וכל הז׳ היו וכ׳</he> were all the <i>Zugoth</i> no accomplished scholars? <cite ref=\"Jerusalem Talmud Sotah 9:10:2\">Ib.</cite> <he>כל הז׳ שעמדו</he> (<cite ref=\"Tosefta Bava Kamma 8:13\">Tosef. B. Kam. VIII, 13</cite> <he>האשכולות</he>). ",
+				"<cite ref=\"Tosefta Bava Kamma 8:13\">Ib.</cite> bot.; Y. Maas. Sh. V, end, 56ᵈ <he>העמיד ז׳</he> he (John Hyrcan) appointed double sets of guards."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (<i>pair of</i>) <i>scissors</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:1\">Kel. XIII, 1</cite> <he>ז׳ של ספרים</he> barbers’ scissors. ",
+				"<cite ref=\"Mishnah Negaim 4:4\">Neg. IV, 4</cite>; <cite ref=\"Mishnah Niddah 6:12\">Nidd. VI, 12</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "U00895",
+	"slug": "שיידן",
+	"headword": {
+		"text": "שַׁיְידָן"
+	},
+	"page": {
+		"number": 1561,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"U00251\"><he>שֵׁד</he></cite>, <cite ref=\"U00819\"><he>שֵׁיד</he></cite>) <i>demon-like, ferocious</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite> (expl. <he>איש שעיר</he>, <cite ref=\"Genesis 27:11\">Gen. XXVII, 11</cite>) <he>גבר ש׳</he> (ed. Wil. <he>שידין</he>, corr. acc.) a demon-like man (v. <cite ref=\"U01659\"><he>שָׂעִיר</he></cite>); Yalk. ib. 114."
+			]
+		}
+	]
+}

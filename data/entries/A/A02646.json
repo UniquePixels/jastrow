@@ -1,0 +1,28 @@
+{
+	"id": "A02646",
+	"slug": "אפורייא",
+	"headword": {
+		"text": "אָפּוֹרְיָיא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹפּוֹרְיָיא"
+		}
+	],
+	"page": {
+		"number": 101,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ὀπωριαῖα, τὰ) <i>fruit</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 72:2\">Gen. R. s. 72</cite> <he>בשעת בִּכּוּר כל מיני א׳</he> Ar. (ed. <cite ref=\"A01546\"><he>איפוריא</he></cite>, read <cite ref=\"E00189\"><he>אוֹ׳</he></cite>) in the season when all kinds of fruit ripen."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "U02098",
+	"slug": "שתיא-3",
+	"headword": {
+		"text": "שַׁתְיָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1637,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"U02100\"><he>שְׁתִיָּה</he> II</cite>, <i>foundation</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 3:11\">Targ. Koh. III, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 28:30\">Targ. Y. Ex. XXVIII, 30</cite> <cite ref=\"U02099\"><he>שְׁתִיָּה</he></cite> (Hebr. form)."
+			]
+		}
+	]
+}

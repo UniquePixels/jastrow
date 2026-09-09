@@ -1,0 +1,36 @@
+{
+	"id": "O00278",
+	"slug": "סוח-2",
+	"headword": {
+		"text": "סוּחַ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 962,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O00277\">same</cite> <cite ref=\"Chagigah 5b:8\">Ḥag. 5ᵇ</cite> <he>שמעיה דסַח וכ׳</he> heard him talk and laugh.—Part. <cite ref=\"O00620\"><he>סָיֵיח</he></cite>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 26\">Lev. R. s. 26</cite> <he>גחין וס׳ יתה</he> bending down and talking to her (rebuking her in a persuasive way; prob. to be read: <he>ומפייס</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אֲסִיחַ", "אֲשִׂיחַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00277\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 7:11\">Targ. Job VII, 11</cite>. ",
+						"<cite ref=\"Targum Jonathan on Numbers 21:27\">Targ. Y. I Num. XXI, 27</cite> (not <cite ref=\"M02870\"><he>מְשִׁיחַ</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Numbers 21:28\">Ib. 28</cite> (not <he>מְשִׁיחִין</he>); a. e.—[<cite ref=\"Aramaic Targum to Proverbs 8:15\">Targ. Prov. VIII, 15</cite> <he>אנא משיחין</he> ed. Lag. (ed. Wil. <cite ref=\"M02850\"><he>מָשְׁחָא</he></cite>), fr. <cite ref=\"M02851\"><he>מְשַׁח</he> I</cite>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

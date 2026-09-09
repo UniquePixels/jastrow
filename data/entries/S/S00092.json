@@ -1,0 +1,54 @@
+{
+	"id": "S00092",
+	"slug": "קבץ-1",
+	"headword": {
+		"text": "קָבַץ"
+	},
+	"page": {
+		"number": 1312,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to press, gather</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 19a:14\">Ab. Zar. 19ᵃ</cite> (ref. to <cite ref=\"Proverbs 13:11\">Prov. XIII, 11</cite>) <he>ואם קוֹבֵץ על יד ירבה</he> but if he collects learning little by little, he will increase it, v. <cite ref=\"H00068\"><he>חֲבִילָה</he></cite>; <cite ref=\"Eruvin 54b\">Erub. 54ᵇ</cite> (corr. acc.).—Part. pass. <cite ref=\"S00039\"><he>קָבוּץ</he></cite>; pl. <he>קְבוּצִים</he>, <he>קְבוּצִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 2:2:5\">Y. Shebi. II, 33ᵈ</cite> top <he>נוטל את הק׳ עמו</he> (not <he>עמה</he>) he may take with him the collected rakings. ",
+				"<cite ref=\"Gittin 56b:11\">Gitt. 56ᵇ</cite> (ref. to <cite ref=\"Ecclesiastes 8:10\">Koh. VIII, 10</cite>) <he>א״ת קבורים אלא קבוצים</he> read not <i>ḳ’burim</i> (buried) but <i>ḳ’butsim</i> (the wicked taking up <i>heaps</i> of spoil)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִבֵּץ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S00091\">same</cite>, <i>to collect</i>. Ib. 7ᵃ quot. in Ar. (ref. to <cite ref=\"Joshua 15:21\">Josh. XV, 21</cite> <he>קבצאל ועדר ויגור</he>) <he>כל המְקַבֵּץ עדרים … יגור וכ׳</he> he who gathers flocks (students) to the study of the Law, shall dwell in the partition of the Lord. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 107:4\">Midr. Till. to Ps. CVII</cite> <he>אני אֲקַבֵּץ וכ׳</he> I (the Lord) will gather you in due time; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִקְבָּץ"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִתְקַבֵּץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be collected, gathered</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 112a:12\">Snh. 112ᵃ</cite> <he>נִקְבָּצִין לתוכה</he> those things which can be brought together to the condemned city (with ref. to <cite ref=\"Deuteronomy 13:17\">Deut. XIII, 17</cite>). ",
+						"<cite ref=\"Megillah 17b:16\">Meg. 17ᵇ</cite> <he>כיון שנִתְקַבְּצוּ גליות וכ׳</he> when the diasporas are collected, judgment is executed on the wicked. ",
+						"<cite ref=\"Zevachim 116a:23\">Zeb. 116ᵃ</cite> <he>נִתְקַבְּצוּ כולם אצל וכ׳</he> they all gathered themselves around Balaam; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

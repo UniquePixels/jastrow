@@ -1,0 +1,23 @@
+{
+	"id": "H00117",
+	"slug": "חברברי",
+	"headword": {
+		"text": "חֲבַרְבְּרֵי"
+	},
+	"page": {
+		"number": 422,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"H00116\">preced.</cite> wds.) <i>groping in the dark, temporary loss of direction</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 19:11\">Targ. Y. II, Gen. XIX, 11</cite> Var. (ed. <cite ref=\"H01591\"><he>חַרְבָּרֵיה</he></cite>, read <he>חברברַיָּה</he>); v. <cite ref=\"H00687\"><he>חִיוַּרְוָרַיָּא</he></cite>."
+			]
+		}
+	]
+}

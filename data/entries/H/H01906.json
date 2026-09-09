@@ -1,0 +1,26 @@
+{
+	"id": "H01906",
+	"slug": "חתנות",
+	"headword": {
+		"text": "חֲתָנוּת"
+	},
+	"page": {
+		"number": 514,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01905\">preced.</cite> wds.) <i>marital relation, intermarriage, wedlock</i> (connubium). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 31b:7\">Ab. Zar. 31ᵇ</cite>, a. e. <he>משום ח׳</he> as a guard against intermarriage (between Jews and gentiles). ",
+				"<cite ref=\"Avodah Zarah 36b:6\">Ib. 36ᵇ</cite>, v. <cite ref=\"A01621\"><he>אִישׁוּת</he></cite>. ",
+				"<cite ref=\"Yevamot 76a:15\">Yeb. 76ᵃ</cite> <he>לית להו ח׳</he> they have no connubium (a marriage with them is not legally recognized); a. e.—בית ח׳ <i>additional rooms for the young couple</i> in the bridegroom’s paternal house. ",
+				"<cite ref=\"Mishnah Bava Batra 6:4\">B. Bath. VI, 4</cite> (<cite ref=\"Bava Batra 98b:5\">98ᵇ</cite>). ",
+				"<cite ref=\"Taanit 14b:9\">Taan. 14ᵇ</cite>"
+			]
+		}
+	]
+}

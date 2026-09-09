@@ -1,0 +1,30 @@
+{
+	"id": "H00160",
+	"slug": "חגר-5",
+	"headword": {
+		"text": "חִגֵּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִיגֵּר"
+		}
+	],
+	"page": {
+		"number": 424,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חָגַר</he> I; cmp. <cite ref=\"A01906\"><he>אִלֵּם</he></cite>) [<i>tied</i>,] <i>limping, lame</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chagigah 1:1\">Ḥag. I, 1</cite>. ",
+				"<cite ref=\"Sanhedrin 91b:1\">Snh. 91ᵇ</cite>; a. fr.—Pl. <he>חִגְּרִים</he>, <he>חִגְּרִין</he>, <cite ref=\"H00367\"><he>חִי׳</he></cite>. ",
+				"<cite ref=\"Mishnah Sanhedrin 8:4\">Ib. VIII, 4</cite>. Mekh. Yithro, Baḥod., s. 9; a. e.—Fem. <he>חִגֶּרֶת</he>, <cite ref=\"H00367\"><he>חִי׳</he></cite>. ",
+				"<cite ref=\"Bava Kamma 78b\">B. Kam. 78ᵇ</cite>; <cite ref=\"Tosefta Bava Kamma 7:15\">Tosef. ib. VII, 15</cite> <he>החי׳</he> a lame animal. [Y. Shebi. VII, 37ᶜ top <he>החגר</he>, read: <he>התַּגָּר</he>.]"
+			]
+		}
+	]
+}

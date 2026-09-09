@@ -1,0 +1,36 @@
+{
+	"id": "A01334",
+	"slug": "אימורים-1",
+	"headword": {
+		"text": "אֵימוּרִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲמוּרִים"
+		},
+		{
+			"text": "אֵימוּרִין",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 50,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"A02060\"><he>אמר</he></cite>, v. Ges. H. Dict. s. v.; cmp. ",
+			"units": [
+				"<cite ref=\"Deuteronomy 26:17\">Deut. XXVI, 17</cite> sq.) <i>devoted objects, sacrifices</i>. ",
+				"<cite ref=\"Sukkah 55b:14\">Succ. 55ᵇ</cite> <he>אֲמוּרֵי הרגלים וכ׳</he> (Mish. ",
+				"<cite ref=\"Mishnah Sukkah 1:1\">ib.</cite> <cite ref=\"A01359\"><he>אֵימ׳</he></cite>) are not the festive Emurim (v. infra) the Lord’s, i.e. to be offered on the altar? Answ. <he>מה שאמור ברגלים</he> <i>Emuré</i> &c. means, whatever is consecrated as offering for festivals.—Esp. <i>Emurim, Emurin, those portions of sacrifices offered on the altar</i>. ",
+				"<cite ref=\"Pesachim 71a:15\">Pes. 71ᵃ</cite> <he>אֵימוּרֵי חגיגה וכ׳</he> the Emurim of the pilgrim’s feast offering. ",
+				"<cite ref=\"Mishnah Zevachim 2:2\">Zeb. II, 2</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "U00124",
+	"slug": "שביס",
+	"headword": {
+		"text": "שָׁבִיס"
+	},
+	"page": {
+		"number": 1514,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>שבס</he>, cmp. <cite ref=\"U00185\"><he>שָׁבַשׁ</he></cite>; cmp. b. h. <he>שְׂרוֹךְ</he> a. <he>שָׂרַךְ</he>)<i>band</i>, esp. (<he>של סבכה</he>) <he>ש׳</he> <i>metal</i> (or <i>woolen</i>) <i>band with which the hair-net is fastened</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Batra 5:15\">Tosef. Kel. B. Bath. V, 15</cite> <he>ש׳ של שבכה טמא וכ׳</he> a net-band is susceptible of uncleanness for itself, because one may (detach and) fit it for another net. ",
+				"<cite ref=\"Tosefta Keilim Batra 5:16\">Ib. 16</cite> <he>ומשום חיבורי ש׳ וכ׳</he> but (gold foils and plates) used as fastenings of a hair-band are susceptible of uncleanness. ",
+				"<cite ref=\"Mishnah Kelim 28:10\">Kel. XXVIII, 10</cite> <he>ש׳ שלה</he> the band of the net. ",
+				"<cite ref=\"Mishnah Negaim 11:11\">Neg. XI, 11</cite>. Sifra Sh’mini, ch. VII, Par. 8 <he>שָׁבִיץ של סבכה</he>; ib. ch. XI, Par. 10 <he>שביס וכ׳</he> a woolen net-band. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:4:4\">Y. Sabb. VI, 8ᵇ</cite> bot. (ref. to <he>שביסים</he>, <cite ref=\"Isaiah 3:18\">Is. III, 18</cite>) braided bands (v. <cite ref=\"O00953\"><he>סִלְבּוֹנַיָּא</he></cite>) <he>כמה דאת אמר ש׳ של סבכה</he> as you say, <i>shabis</i> of the hair-net."
+			]
+		}
+	]
+}

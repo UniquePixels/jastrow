@@ -1,0 +1,23 @@
+{
+	"id": "U01769",
+	"slug": "שפכותא",
+	"headword": {
+		"text": "שִׁפְכוּתָא"
+	},
+	"page": {
+		"number": 1617,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01768\">preced.</cite> wds.) <i>gutter, slope</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 21:15\">Targ. Y. Num. XXI, 15</cite> (v. <cite ref=\"U01720\"><he>שָׁפוֹךְ</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 3:17\">Targ. Y. Deut. III, 17</cite> (ed. Vien. <cite ref=\"U00156\"><he>שַׁ׳</he></cite>)."
+			]
+		}
+	]
+}

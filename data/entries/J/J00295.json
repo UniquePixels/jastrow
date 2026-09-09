@@ -1,0 +1,43 @@
+{
+	"id": "J00295",
+	"slug": "יחם-2",
+	"headword": {
+		"text": "יְחַם"
+	},
+	"page": {
+		"number": 575,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"J00294\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 18:1\">Targ. O. Gen. XVIII, 1</cite>; <cite ref=\"Targum Jonathan on II Samuel 4:5\">Targ. II Sam. IV, 5</cite> <cite ref=\"M01119\"><he>מֵיחַם</he></cite> (perh. fr. <cite ref=\"H01202\"><he>חֲמַם</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יַחֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to heat</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 30:41\">Targ. O. Gen. XXX, 41</cite> <he>ליָחָמוּתְהֵין</he> ed. Berl. (ed. <he>ליַתֱמוֹתְהֶן</he>; Y. <he>ליַחְמוּתְ׳</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְיַחַם"],
+			"senses": [
+				{
+					"gloss": "<i>to be heated, to conceive</i>. Ib. 38, sq.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

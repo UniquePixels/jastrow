@@ -1,0 +1,32 @@
+{
+	"id": "Q00870",
+	"slug": "פירעון",
+	"headword": {
+		"text": "פֵּירָעוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "פֵּרָ׳"
+		}
+	],
+	"page": {
+		"number": 1172,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01943\"><he>פָּרַע</he></cite>) <i>paying a debt, payment</i>. ",
+			"units": [
+				"<cite ref=\"Shevuot 41b:12\">Shebu. 41ᵇ</cite> (in Chald. dict.) <he>פ׳ מעליא הוי</he> it was a real payment of a debt (and not a mere deposit). ",
+				"<cite ref=\"Moed Katan 9b:17\">M. Kat. 9ᵇ</cite>; <cite ref=\"Avodah Zarah 6b:15\">Ab. Zar. 6ᵇ</cite> <he>עכ״ום לענין פ׳ לעולם מיצר</he> the gentile will always grieve over the payment of a debt (whereas the Jew is glad to have rid himself of an obligation). ",
+				"<cite ref=\"Bava Metzia 13b\">B. Mets. 13ᵇ</cite>, a. fr. <he>חיישינן לפ׳</he> (in the case of a note of indebtedness being found) we apprehend that payment may have been made (and therefore it must not be returned to the creditor). ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 10:6:2\">Y. Keth. X, end, 34ᵃ</cite> <he>אל יהא לך פ׳ אלא מזה</he> you shall be paid only from this (only this portion of my property is pledged). ",
+				"<cite ref=\"Kohelet Rabbah 7:2\">Koh. R. to VII, 2</cite> <he>מדה שיש בה פ׳</he>; <he>מדת פ׳</he> an act of benevolence with which a divine reward is connected. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 180:2\">Yalk. Ex. 180</cite> <he>קבל פ׳ מהקב״ה</he> he received payment (was punished) at the hands of God; a. fr."
+			]
+		}
+	]
+}

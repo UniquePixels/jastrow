@@ -1,0 +1,25 @@
+{
+	"id": "I00615",
+	"slug": "טען-2",
+	"headword": {
+		"text": "טְעַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְעֵין"
+		}
+	],
+	"page": {
+		"number": 544,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00614\">same</cite>, <i>to plead</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 105b:14\">Keth. 105ᵇ</cite> <he>אי בעי טָעֵין וכ׳</he> if he chooses, he may plead thus. ",
+				"<cite ref=\"Gittin 58b:4\">Gitt. 58ᵇ</cite> <he>אי דקא טעין וכ׳</he> is it that he pleads (demurs) and says &c.?; a. fr."
+			]
+		}
+	]
+}

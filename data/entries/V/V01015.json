@@ -1,0 +1,35 @@
+{
+	"id": "V01015",
+	"slug": "תרמיל",
+	"headword": {
+		"text": "תַּרְמִיל"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּרְמֵל"
+		},
+		{
+			"text": "תּוּרְ׳"
+		}
+	],
+	"page": {
+		"number": 1699,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<i>leather</i>) <i>bag</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 31a:8\">Sabb. 31ᵃ</cite> <he>גר … במקלו ובתַרְמִילוֹ</he> the mean proselyte who came with nothing but his staff and travelling bag (I being without merit or ancestry). ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 8:1:13\">Y. Shebu. VIII, 38ᶜ</cite> bot. <he>כיון … ותרמילו עליה חייב</he> as soon as he puts his staff and his bag on that animal, he becomes responsible; <cite ref=\"Tosefta Bava Metzia 8:17\">Tosef. B. Mets. VIII, 17</cite>. Sifra Metsorʿa, Zab., Par. 1, ch. II <he>התורמל חמשת קבים</he> a <i>turmel</i> is a bag of five Kabs capacity; <cite ref=\"Mishnah Kelim 20:1\">Kel. XX, 1</cite>. ",
+				"<cite ref=\"Mishnah Kelim 19:8\">Ib. XIX, 8</cite> <he>התו׳ שנפחת וכ׳</he> a bag the inside pocket of which has become defective. ",
+				"<cite ref=\"Tosefta Beitsah 3:17\">Tosef. Bets. III, 17</cite> <he>ולא הרועה בתרמילו</he> neither dare the shepherd go out with his bag (on the Holy Day); a. fr.—Trnsf. <i>seed-bag, pod</i>. ",
+				"<cite ref=\"Tosefta Shevi'it 2:6\">Tosef. Shebi. II, 6</cite> <he>על מה נחלקו על הת׳</he> they differ concerning the laws of the Sabbatical year as applicable to plants in the stage of formation of pods, v. <cite ref=\"V01017\"><he>תִּרְמֵל</he></cite>.—Pl. <he>תּוּרְמְלִין</he>. ",
+				"<cite ref=\"Mishnah Kelim 24:11\">Kel. XXIV, 11</cite> <he>שלש ת׳ הן וכ׳</he> there are three kinds of bags (with regard to levitical cleanness): those having the standard capacity (five Kabs, v. supra)."
+			]
+		}
+	]
+}

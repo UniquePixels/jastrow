@@ -1,0 +1,30 @@
+{
+	"id": "A00169",
+	"slug": "אבלס",
+	"headword": {
+		"text": "אַבְלַס",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אַוְולַס"
+		}
+	],
+	"page": {
+		"number": 7,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Avlas</i>, in Cilicia, mentioned as one of the northern border places of the land of Israel. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 34:8\">Targ. Y. I Num. XXXIV, 8</cite> <he>אב׳ דקילקאי</he>; Y. II ibid. <he>תחומא דאַוְו׳ דקל׳</he> (the district of) A. of the Cilicians. ",
+				"<cite ref=\"Tosefta Shevi'it 4:11\">Tosef. Shebi. IV, 11</cite> <he>עילי רבתא</he> ed. Zuck. (Var. <cite ref=\"A00674\"><he>אולם</he></cite>); <cite ref=\"Sifrei Devarim 51\">Sifré Deut. 51</cite> <he>לולא רבתא</he>; <cite ref=\"Yalkut Shimoni on Torah 624\">Yalk. Deut. 624</cite> <he>לילא רבתא</he>; Y. Shebi. VI, 36ᶜ <he>אולם רבתא</he>. [Probably identical with Pylæ Ciliciæ, Πύλαι τῆς Κιλίκιας.] [<cite ref=\"Sifrei Bamidbar 131:2\">Sifré Num. 131</cite> <he>סבטיא מאולם</he>; Y. Snh. X, 28ᵈ <he>סובתה מאולם</he> S. of Ulam; Bab. ",
+				"<cite ref=\"Sanhedrin 64a:13\">Snh. 64ᵃ</cite> <he>סבטא בן אלס</he>(?).]"
+			]
+		}
+	]
+}

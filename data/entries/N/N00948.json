@@ -1,0 +1,37 @@
+{
+	"id": "N00948",
+	"slug": "נסך-3",
+	"headword": {
+		"text": "נֶסֶךְ"
+	},
+	"page": {
+		"number": 917,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"N00947\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>libation</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15:24\">Ex. R. s. 15</cite> <he>יֵין נ׳</he> wine from which a libation has been poured on the altar.—Pl. <he>נְסָכִים</he>, <he>נְסָכִין</he>; constr. <he>נִסְכֶי</he>, <cite ref=\"M01772\"><he>נִי׳</he></cite>. ",
+				"<cite ref=\"Mishnah Zevachim 9:1\">Zeb. IX, 1</cite> <he>הנ׳ ירדו</he> the libations brought on the altar illegally, may be taken down. ",
+				"<cite ref=\"Tosefta Zevahim 5:1\">Tosef. ib. V, 1</cite>; <cite ref=\"Menachot 15b:12\">Men. 15ᵇ</cite>, a. e. <he>נסכי בהמה</he> the libations connected with an animal sacrifice. ",
+				"<cite ref=\"Mishnah Menachot 2:4\">Ib. II, 4</cite> <he>ונְסָכָיו</he> and the libations belonging thereto; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>יֵין נ׳</he> (<he>יין שנתנסך לע״ז</he>; abbrev. <he>י״נ</he>) <i>wine known</i> (or <i>suspected</i>) <i>to have been manipulated by an idolater, wine forbidden to Jews because of such</i> (<i>known or suspected</i>) <i>manipulation</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 4:8\">Ab. Zar. IV, 8</cite> (<cite ref=\"Avodah Zarah 55a:11\">55ᵃ</cite>) <he>ואינו נעשה י״נ וכ׳</he> (Bab. ed. <he>עושה</he>) it does not become (the gentile does not make it) forbidden wine until &c. Ib. V, 1 <he>לעשות עמו ביין נ׳</he> to work with him in wine dedicated to an idol. Ib. 2 <he>יין נ׳ שנפל וכ׳</he> if forbidden wine was poured over grapes. Ib. 74ᵃ bot. <he>יין נ׳</he> really idolatrous wine, opp. <he>סתם יין</he> suspected; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

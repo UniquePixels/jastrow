@@ -1,0 +1,98 @@
+{
+	"id": "O01078",
+	"slug": "סמי-1",
+	"headword": {
+		"text": "סמי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סָמָא"
+		},
+		{
+			"text": "סָמָה"
+		}
+	],
+	"page": {
+		"number": 999,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"O00334\"><he>סוּם</he> II</cite>) <i>to tie up, close; to make blind</i>.—Part. pass. <cite ref=\"O01065\"><he>סָמוּי</he></cite>; f. <he>סְמוּיָה</he>, <he>סְמוּיָיה</he>; pl. <he>סְמוּיִים</he>, <he>סְמוּיִין</he>; <he>סְמוּיוֹת</he> ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>tied up, hidden</i> (cmp. <cite ref=\"O00689\"><he>סִימָה</he></cite>). ",
+					"units": [
+						"<cite ref=\"Taanit 8b:13\">Taan. 8ᵇ</cite> (ref. to <he>אסמיך</he>, <cite ref=\"Deuteronomy 28:8\">Deut. XXVIII, 8</cite>) <he>דבר הס׳ מן העין</he> that which is hidden from sight (the exact quantity of which you do not know); <cite ref=\"Bava Metzia 42a\">B. Mets. 42ᵃ</cite>; a. e.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>blinded, blind</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 24b:12\">Kidd. 24ᵇ</cite> <he>הרי שהיתה עינו ס׳ וכ׳</he> if the slave’s eye was blind, and he (the master) cut it out. ",
+						"<cite ref=\"Ketubot 105a:15\">Keth. 105ᵃ</cite> <he>כמה ס׳ עיניהם וכ׳</he> how blind are the eyes of (how short-sighted are) those who receive bribes!"
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִמֵּא", "סִימֵּא"],
+			"senses": [
+				{
+					"gloss": "<i>to blind, make blind</i>. Kidd. l. c. <he>סי׳ עובר וכ׳</he> he injured the eye of the embryo (while operating on the mother). Ib. <he>הרי שהיתה … וסִמְּאָהּ</he> suppose the slave’s eye was dim, and he (the master) made it entirely blind. Y. Kil. VIII, 31ᶜ top <he>וסִימְּיָיהּ</he>; <cite ref=\"Bava Kamma 91a:11\">B. Kam. 91ᵃ</cite> <he>וסִימְּאוֹ</he> (Ms. M. <he>וסימאה</he>) and he made him blind. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Kamma 8:7\">Ib. VIII, 7</cite> <he>האומר סַמֵּא וכ׳</he> if one says (to his neighbor), blind my eye, the neighbor is responsible. ",
+						"<cite ref=\"Bereishit Rabbah 75\">Gen. R. s. 75</cite>, end <he>לו … לסַמּוֹת וכ׳ שלח</he> he sent him a present in order to blind his eyes (with ref. to <cite ref=\"Deuteronomy 16:19\">Deut. XVI, 19</cite>). ",
+						"<cite ref=\"Shabbat 109a:1\">Sabb. 109ᵃ</cite> top <he>יד מְסַמְּאָה</he> an unwashed hand put on the eye makes blind. ",
+						"<cite ref=\"Bereishit Rabbah 42\">Gen. R. s. 42</cite> (ref. to <he>עין משפט</he>, <cite ref=\"Genesis 14:7\">Gen. XIV, 7</cite> <he>עין … לסַמּוֹתָהּ</he> they wanted to blind the eye (of him) that established the rule of justice in the world; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to tie up one’s own eyes; to simulate blindness</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Peah 4:14\">Tosef. Peah IV, 14</cite>; Y. ib. VIII, 21ᵇ top; <cite ref=\"Ketubot 68a:3\">Keth. 68ᵃ</cite> <he>המְסמֵּא את עינו</he> (a beggar) who ties his eye up."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִסְמָא", "נִסְמָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be blinded; to become blind</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 7:8\">Num. R. s. 7</cite>, beg. ",
+						"<cite ref=\"Mishnah Bekhorot 5:5\">Bekh. V, 5</cite> (<cite ref=\"Bekhorot 36b:16\">36ᵇ</cite>) <he>שנִסְמֵת עינו</he> (Talm. ed. <he>שנִסְמֵית</he>) that became blind on one eye; <cite ref=\"Ketubot 77a:5\">Keth. 77ᵃ</cite> <he>נִיסְמֵת</he>; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִסְתַּמֵּא"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִסְתַּמֵּא", "נִסְתַּמָּה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O01077\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Arakhin 17b\">Arakh. 17ᵇ</cite>, sq. <he>פִּתֵּחַ ונ׳</he> if he was open-eyed and became blind; <cite ref=\"Bava Batra 128a\">B. Bath. 128ᵃ</cite>. ",
+						"<cite ref=\"Bamidbar Rabbah 18:22\">Num. R. s. 18</cite> <he>מיד היה מִסְתַּמֵּא</he> (not <he>היתה</he>) he would get blind at once; a. e."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

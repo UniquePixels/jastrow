@@ -1,0 +1,35 @@
+{
+	"id": "P00695",
+	"slug": "עירנית-1",
+	"headword": {
+		"text": "עִירָנִית",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1076,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A01602\"><he>אִירָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"A01603\"><he>אִירוֹנִית</he></cite>, <i>vessel of white clay</i>. Y. B. Bath. IX, 16ᵈ bot. <he>אפי׳ ע׳</he> (ed. Krot. <he>עירוניה</he>, corr. acc.) even if the adult heirs added a clay vessel to the estate, the minors have a share in it.—Pl. <he>עִירָנִיּוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Beitzah 32a:14\">Bets. 32ᵃ</cite> Ms. M. (ed. <he>ערניות</he>), v. <cite ref=\"A01603\"><he>אִירוֹנִית</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (in enigmatic speech) <i>light-complexioned, handsome</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 53b:14\">Erub. 53ᵇ</cite> (play on words) <he>נערה אהרונית אחרונית ע׳ והנעירתו</he>, v. <cite ref=\"A00513\"><he>אַהֲרוֹנִית</he></cite>, a. <cite ref=\"N01007\"><he>נָעַר</he> II</cite>; [Rashi, fr. <cite ref=\"P00343\"><he>עוּר</he></cite>: <i>wide awake, bright</i>]."
+			],
+			"label": "2"
+		}
+	]
+}

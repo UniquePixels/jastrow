@@ -1,0 +1,33 @@
+{
+	"id": "S01927",
+	"slug": "קרוב-3",
+	"headword": {
+		"text": "קָרוֹב",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קָרוֹבָא"
+		},
+		{
+			"text": "קָרוֹבָה"
+		}
+	],
+	"page": {
+		"number": 1413,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְרֵב</he> <i>Pa.</i> 3) <i>leader in prayer, hymnologist, reader</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 30\">Lev. R. s. 30</cite> <he>קרוב ופייטן</he> Ar. (ed., a. Pesik. Ul’ḳaḥ. p. 179ᵃ <he>פייטן ודרשן</he>) hymnologist and poet; <cite ref=\"Shir HaShirim Rabbah 3:6:4\">Cant. R. to III, 6</cite> <he>קָרֵיבוֹי ופייטויי</he>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:5:14\">Y. Ber. I, 3ᶜ</cite> bot. [read:] <he>ר׳ … הוה סמיך לק׳ וכ׳</he> R. Z. (in his prayer of the section <i>Modim</i>) kept pace with the reader in order to bow simultaneously with him at the beginning and at the end. ",
+				"<cite ref=\"Vayikra Rabbah 19:2\">Lev. R. s. 19</cite>; <cite ref=\"Shir HaShirim Rabbah 5:11:3\">Cant. R. to V, 11</cite> <he>ר׳ אלכסנדרי ק׳</he> R. A. the hymnologist.—[In liturgy <he>קרובות</he> (not <he>קרובץ</he>): <i>the poetical insertions</i>, on special occasions, in the Prayer of Benedictions.]"
+			]
+		}
+	]
+}

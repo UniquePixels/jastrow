@@ -1,0 +1,62 @@
+{
+	"id": "K00951",
+	"slug": "כסף-1",
+	"headword": {
+		"text": "כָּסַף"
+	},
+	"page": {
+		"number": 655,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to peel, whiten</i> (cmp. <cite ref=\"H01405\"><he>חָסַף</he></cite>).—Part. pass. <he>כָּסוּף</he>, pl. <he>כְּסוּפִים</he> <i>bright</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 13:2\">Sifré Deut. 13</cite> <he>וותיקים כ׳</he> distinguished (of position), bright of intellect; <cite ref=\"Sifrei Devarim 13:2\">ib.</cite> Num. 92 <he>וכסופים</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִכְסִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to grow pale, fade, wither</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Pesachim 3:5\">Pes. III, 5</cite> (expl. <cite ref=\"U00776\"><he>שיאור</he></cite>) <he>כל שהִכְסִיפוּ פניו כאדם וכ׳</he> a dough the surface of which becomes pale and wrinkled, like (the sight of) a man whose hair (<cite ref=\"U01679\"><he>שַׂעַר</he></cite>) stands up from fright. ",
+						"<cite ref=\"Niddah 47a:55\">Nidd. 47ᵃ</cite> <he>משיַכְסִיף ראש וכ׳</he> when the centre of the oblate portion of the breast begins to be wrinkled; <cite ref=\"Tosefta Niddah 6:4\">Tosef. ib. VI, 4</cite> <he>משיִכָּסֵף</he> (<i>Nif.</i>). ",
+						"<cite ref=\"Shabbat 34b\">Sabb. 34ᵇ</cite> <he>ה׳ התחתון</he> when the lower horizon becomes pale (is no longer red); Y. Ber. I, 2ᵇ bot.—",
+						"<cite ref=\"Pesachim 39a:8\">Pes. 39ᵃ</cite> <he>פניו מַכְסִיפִין</he> the leaves look faded (and curled); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to deteriorate, fall in value</i>, opp. <cite ref=\"U00096\"><he>השביח</he></cite> (cmp. <cite ref=\"H01410\"><he>חָסַר</he></cite>). ",
+					"units": [
+						"<cite ref=\"Arakhin 30a:56\">Arakh. 30ᵃ</cite> <he>וה׳ ועמד על מנה</he> and fell until it was worth only one Manah. ",
+						"<cite ref=\"Ketubot 80b:4\">Keth. 80ᵇ</cite> <he>שמא תַכְסִיף</he> the soil may deteriorate (through neglect); a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to put to shame; to frighten, to alarm</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 35:5\">Ex. R. s. 35</cite> (play on <cite ref=\"K00953\"><he>כֶּסֶף</he></cite>, <cite ref=\"I Chronicles 29:4\">I Chr. XXIX, 4</cite>) <he>שהיה מַכְסִיף כל הזהבים</he> it alarmed all gold-workers (emptying their shops); <cite ref=\"Shir HaShirim Rabbah 3:10:4\">Cant. R. to III, 10</cite>; Y. Yoma IV, 41ᵈ top <he>שהיה מ׳ בעד וכ׳</he> spread alarm among all the shops of &c."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִכְסַף"],
+			"senses": [
+				{
+					"gloss": "<i>to grow pale</i> &c., v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"id": "L00118",
+	"slug": "לבש-1",
+	"headword": {
+		"text": "לָבַשׁ"
+	},
+	"page": {
+		"number": 691,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to join closely</i>; denom. <cite ref=\"L00059\"><he>לְבוּשׁ</he></cite> <i>garment</i>, whence] <cite ref=\"L00118\"><he>לָבֵשׁ</he></cite>, <cite ref=\"L00118\"><he>לָבַשׁ</he></cite> <i>to be dressed</i>; <i>to put on</i> (an undergarment), contrad. to <he>עטף</he>, <cite ref=\"K00915\"><he>כסה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 1:3:5\">Y. R. Hash. I, 57ᵇ</cite> top <he>אדם … לוֹבֵשׁ שחורים ומתעטף וכ׳</he> a defendant before a human court puts on dark clothes and wraps himself in dark clothes, …; <he>אבל ישראל אינו כן אלא לוֹבְשִׁים וכ׳</he> but not so the Israelites (on the New Year), but they put on white (festive) clothes &c. ",
+				"<cite ref=\"Moed Katan 17a:12\">M. Kat. 17ᵃ</cite> <he>יִלְבַּשׁ שחורים ויתעטף וכ׳</he> let him put on dark clothes &c.; <cite ref=\"Kiddushin 40a\">Kidd. 40ᵃ</cite>; <cite ref=\"Chagigah 16a\">Ḥag. 16ᵃ</cite>.—",
+				"<cite ref=\"Bereishit Rabbah 75:10\">Gen. R. s. 75</cite> <he>לוֹבְשֵׁי ברזל</he>; <cite ref=\"Yalkut Shimoni on Torah 130:15\">Yalk. ib. 130</cite> <he>לְבוּשֵׁי</he>, v. <cite ref=\"B01227\"><he>בַּרְזֶל</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 15:22\">Ex. R. s. 15</cite> <he>בריאים כדי לִלְבּוֹשׁ וכ׳</he> strong enough to wear helmets &c.; a. fr.—Part. pass. <cite ref=\"L00059\"><he>לָבוּשׁ</he></cite>, pl. <he>לְבוּשִׁים</he>. ",
+				"<cite ref=\"Shemot Rabbah 15\">Ib.</cite> <he>אחד ערום ואחד ל׳</he> one (the depth) was naked, the other (the earth) was covered (with water). Pesik. Aḥăré, p. 177ᵇ <he>ל׳ לבנים וכ׳</he> clad in white and wrapped in white. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 130:15\">Yalk. Gen. 130</cite>, v. supra; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["לִבֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to invest</i>; part. pass. <he>מְלוּבָּשׁ</he>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 122a:4\">B. Bath. 122ᵃ</cite> <he>מל׳ אורים וכ׳</he> invested with the Urim and Tummim. ",
+						"<cite ref=\"Tosefta Ohalot 13:5\">Tosef. Ohol. XIII, 5</cite> [read with R. S. to Ohol. XII, 4) <he>מלבין שׁהוא מלובש בפיקות</he> a bed frame upholstered with tufts."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִלְבִּישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to clothe, invest</i>. Ex. R. l. c. <he>הפשיט … והִלְבִּישָׁהּ לחבירו</he> he caused one slave to take off his garment and the other to put it on. ",
+					"units": [
+						"<cite ref=\"Sotah 14a:4\">Sot. 14ᵃ</cite> <he>מה הוא מַלְבִּישׁ … אף אתה הַלְבֵּשׁ וכ׳</he> as He clothes the naked …, so do thou &c. Tanḥ. Ḥayé 3 <he>ומַלְבִּישָׁן כלי זיין וכ׳</he> (not <he>ומלביש</he>) and clothes them in armor &c. ",
+						"<cite ref=\"Sotah 14a:4\">Ib.</cite> (ref. to <cite ref=\"Psalms 104:1\">Ps. CIV, 1</cite>) <he>זה העוז שהִלְבַּשְׁתִּיךָ בים</he> that is the strength with which I invested thee at the Red Sea. ",
+						"<cite ref=\"Psalms 104:1\">Ib.</cite> <he>מהודך והדרך הִלְבַּשְׁתָּ לראשו וכ׳</he> part of thy glory and majesty hast thou put on Abraham’s head by granting him the dignity of old age. ",
+						"<cite ref=\"Yoma 5b:7\">Yoma 5ᵇ</cite> <he>כיצד הִלְבִּישָׁן</he> in what order did Moses clothe them?—Y. Shek. V, 49ᵃ (expl. <he>פנחס המַלְבִּישׁ</he>, ib. V, 1, Mish. ed. <he>על המלבוש</he>) <he>שהיה מַלְבִּישׁ בגדי וכ׳</he> he invested (the appointed person) with (had in charge) the high priest’s garments; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

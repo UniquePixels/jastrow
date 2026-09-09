@@ -1,0 +1,33 @@
+{
+	"id": "U00245",
+	"slug": "שגש-4",
+	"headword": {
+		"text": "שְׂגַשׂ"
+	},
+	"page": {
+		"number": 1523,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>שגשג</he> = <he>סגסג</he>, denom. of <cite ref=\"O00549\"><he>סִיג</he> I</cite>) <i>to be debased</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 18\">Lev. R. s. 18</cite> <he>שְׂגִישְׂתּוּן בי וכ׳</he> you acted basely towards me, as it is said (<cite ref=\"Psalms 78:36\">Ps. LXXVIII, 36</cite>) &c.; <cite ref=\"Yalkut Shimoni on Nach 287\">Yalk. Is. 287</cite> <he>שגשגישתון ככסף</he> [<cite ref=\"O00560\"><he>סיגים</he></cite>] <he>מצופה על חרס וכ׳</he> (corr. acc., or <he>שַׁגְשְׁגִיתוּן</he>) you were base like ‘an earthen vessel overlaid with silver [dross]’ (<cite ref=\"Proverbs 26:23\">Prov. XXVI, 23</cite>), as it is written (Ps. l. c.) &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׂגֵּשׂ"],
+			"senses": [
+				{
+					"gloss": "<i>to debase</i>. Lev. R. l. c. <he>שַׂגִּישְׂתּוּן אורחא וכ׳</he> you debased your manners, as it is written (Prov. l. c.), ‘an earthen vessel’ &c.—",
+					"units": [
+						"<cite ref=\"Bava Batra 9a\">B. Bath. 9ᵃ</cite> sq. <he>עולא מְשַׂגֵּשׂ ארחתיה דאימיה</he> a child that caused the deterioration of his mother’s ways (who refused his mother’s entreaties until she uncovered her breasts, saying, look at the breasts that gave thee suck)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "I00078",
+	"slug": "טבע-3",
+	"headword": {
+		"text": "טָבַע",
+		"homograph": 2
+	},
+	"page": {
+		"number": 518,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to round, shape</i>, denom. <cite ref=\"I00080\"><he>טֶבַע</he></cite>, fr. which <cite ref=\"I00076\"><he>טָבַע</he></cite>] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to coin</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 4:5\">Snh. IV, 5</cite> (<cite ref=\"Sanhedrin 37a:15\">37ᵃ</cite>) <he>אדם טוֹבֵעַ כמה מטבעות וכ׳</he>, v. <cite ref=\"H00498\"><he>חוֹתָם</he></cite>; Y. ib. VI, 22ᵇ bot.; a. e.—Trnsf. <i>to formulate</i>. ",
+				"<cite ref=\"Gittin 5b\">Gitt. 5ᵇ</cite>, a. e. <he>כל המשנה ממטבע שטָבְעוּ וכ׳</he> he who deviates from the formula of the deed of divorce which the scholars have fixed. ",
+				"<cite ref=\"Berakhot 40b:3\">Ber. 40ᵇ</cite> <he>כל המשנה … שט׳ … בברכות</he> he who changes the formula of benedictions which &c.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to specify, mention explicitly</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20</cite> (ref. to <cite ref=\"Deuteronomy 27:12\">Deut. XXVII, 12</cite>, sq.) <he>בברכות היה מזכירן … לא היה טוֹבְעָן</he> in ordering blessings He mentioned them (the people) …, but in ordering curses He did not mention them explicitly; (Tanḥ. Balak 12 <he>לא היה מזכירם</he>; ed. Bub. 18 <he>תובען</he>, <cite ref=\"Yalkut Shimoni on Torah 766\">Yalk. Num. 766</cite> <he>תובעין</he>, incorr.)"
+			],
+			"label": "2"
+		}
+	]
+}

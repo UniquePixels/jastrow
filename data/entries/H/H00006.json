@@ -1,0 +1,20 @@
+{
+	"id": "H00006",
+	"slug": "חאפון",
+	"headword": {
+		"text": "חָאפוּן"
+	},
+	"page": {
+		"number": 415,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H01458\"><he>חָפַן</he></cite>) <i>a handful, a grab</i>. <he>בן ח׳</he> <i>grabber</i> (a play on <he>כְּאָפוּן</he>, v. <cite ref=\"A02627\"><he>אָפוּן</he></cite>). Y. Yoma IV, 43ᶜ bot. (Bab. ",
+			"units": ["<cite ref=\"Yoma 39a\">ib. 39ᵃ</cite> sq. <he>בן חַמְצָן</he>)."]
+		}
+	]
+}

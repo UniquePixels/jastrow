@@ -1,0 +1,33 @@
+{
+	"id": "C00931",
+	"slug": "גליא-1",
+	"headword": {
+		"text": "גַּלְיָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 248,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. (Gallia) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>Gaul, country of the Gauls</i> in Europe. ",
+			"units": [
+				"<cite ref=\"Yevamot 63a\">Yeb. 63ᵃ</cite> ships going <he>מג׳ לאספמיא</he> from Gaul to Spain."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Gallia</i> or <i>Galatia</i> in Asia Minor. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 26a\">R. Hash. 26ᵃ</cite>. ",
+				"<cite ref=\"Ketubot 60a:12\">Keth. 60ᵃ</cite> Naḥum <he>איש ג׳</he> the Galatian."
+			],
+			"label": "2"
+		}
+	]
+}

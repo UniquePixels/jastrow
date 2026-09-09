@@ -1,0 +1,42 @@
+{
+	"id": "O00498",
+	"slug": "סטן-2",
+	"headword": {
+		"text": "סְטַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׂטַן",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 973,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00497\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 22:22\">Targ. Y. Num. XXII, 22</cite> <he>למִשְׂטַן</he> (O. <he>לשָׂטָן</he>; ed. Berl. <he>לסָטָן</he>). Ib. 32 <he>למִישְׂטַן</he> (O. ed. Vien. <he>למִסְטַן</he>; ed. Berl. <he>לסָטָן</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 38:21\">Targ. Ps. XXXVIII, 21</cite> <he>סָטְנַן</he> Levita (ed. <i>Af.</i>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 109:4\">Ib. CIX, 4</cite> <he>סְטַנוּ</he> (Ms. <he>שַׂטְנוּ</he>); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסְטֵין"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00497\">same</cite>. Ib. XXXVIII, 21, v. supra.—2) (denom. of same. <cite ref=\"O00499\"><he>סָטָן</he></cite>) <i>to mislead</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 20a:1\">Yoma 20ᵃ</cite> <he>לית ליה רשותא לאַסְטוּנֵי</he> (not <he>לאיס׳</he>) has no permission to seduce to sin."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

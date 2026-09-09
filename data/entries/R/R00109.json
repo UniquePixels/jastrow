@@ -1,0 +1,25 @@
+{
+	"id": "R00109",
+	"slug": "צדיותא",
+	"headword": {
+		"text": "צַדְיוּתָא"
+	},
+	"page": {
+		"number": 1262,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>צְדֵי</he> II) <i>desolation, destruction</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 6:12\">Targ. Is. VI, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 34:11\">Ib. XXXIV, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:10\">Targ. Y. I Deut. XXXII, 10</cite> (ed. Amst. <cite ref=\"R00111\"><he>צְדִיּיוֹת</he></cite>, ed. Vien. <he>צריות</he>, read: <cite ref=\"R00111\"><he>צְדִיּיוּת</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Esther 1:4\">Targ. Esth. I, 4</cite> <he>צַדְיוּתֵיה דבבל</he> (ed. Lag. <he>צַדְאוּתֵיה</he>) the destruction of Babylon; a. e.—V. <cite ref=\"R00090\"><he>צָדוּ</he></cite>."
+			]
+		}
+	]
+}

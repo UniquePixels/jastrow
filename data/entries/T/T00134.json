@@ -1,0 +1,24 @@
+{
+	"id": "T00134",
+	"slug": "רבעי",
+	"headword": {
+		"text": "רְבָעִי"
+	},
+	"page": {
+		"number": 1445,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"T00130\"><he>רֶבַע</he></cite>) <i>that which is in its fourth year</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 1:1\">Par. I, 1</cite> (difference between <he>רביעי</he> and <cite ref=\"T00134\"><he>רבעי</he></cite>). ",
+				"<cite ref=\"Mishnah Maaser Sheni 5:1\">Maas. Sh. V, 1</cite> <he>כרם ר׳</he> a vineyard in its fourth year (v. ",
+				"<cite ref=\"Leviticus 19:24\">Lev. XIX, 24</cite>). Ib. 2 <he>כרם ר׳ היה וכ׳</he> the product of a vineyard in its fourth year was carried to Jerusalem, if the vineyard was within one day’s journey. Ib. 4 <he>כיצד פודין נטע ר׳</he> how are the fruits of a plantation in its fourth year redeemed?; a. v. fr."
+			]
+		}
+	]
+}

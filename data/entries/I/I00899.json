@@ -1,0 +1,28 @@
+{
+	"id": "I00899",
+	"slug": "טרקלילא",
+	"headword": {
+		"text": "טְרַקְלִילָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְטַרְקְלִילָא"
+		}
+	],
+	"page": {
+		"number": 558,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (comp. of <cite ref=\"I00888\"><he>טְרַק</he></cite> II a. <cite ref=\"S01336\"><he>קלילא</he></cite>) <i>the runner’s strapping, leggin, greave</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 5:9\">Targ. Esth. V, 9</cite> <cite ref=\"A02425\"><he>אִסְטַרְקְלִילֵיה</he></cite> his leggin.—Pl. <cite ref=\"I00821\"><he>טְרַקְלִילִין</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 18:6\">Targ. I Sam. XVIII, 6</cite> (ed. Lag. <he>טְרִיקְלִ׳</he>; Kimḥi Vers. <he>טרקלין</he>). [<he>טרקלילין</he>, <cite ref=\"Tosefta Shabbat 16:18\">Tosef. Sabb. XVI</cite> (<cite ref=\"Tosefta Shabbat 17:18\">XVII</cite>), 18; <cite ref=\"Tosefta Beitsah 2:10\">Tosef. Bets. II, 10</cite> Ar., v. <cite ref=\"I00822\"><he>טְרִיקְלִין</he></cite>.]"
+			]
+		}
+	]
+}

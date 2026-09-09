@@ -1,0 +1,25 @@
+{
+	"id": "K01235",
+	"slug": "כרמלית",
+	"headword": {
+		"text": "כַּרְמְלִית"
+	},
+	"page": {
+		"number": 671,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"K01229\"><he>כֶּרֶם</he></cite>) <i>a marked off plot in a public thoroughfare</i>, in gen. <i>an area which cannot be classified either as private ground</i> (<he>רשות היחיד</he>) <i>or as public ground</i> <he>(רשות הרבים</he>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 11:2:4\">Y. Sabb. XI, 13ᵃ</cite> <he>כל המעכב … נקרא כ׳</he> whatever obstructs the public road is called <i>karm’lith</i>. ",
+				"<cite ref=\"Tosefta Shabbat 1:1\">Tosef. ib. I, 1</cite>; <cite ref=\"Shabbat 6a:9\">Sabb. 6ᵃ</cite>, v. <cite ref=\"T01079\"><he>רָשׁוּת</he></cite>. ",
+				"<cite ref=\"Shabbat 6a:7-12\">Ib.</cite> <he>אבל … ואיסטוונית והכ׳</he> but the sea, the valley, the colonnade and the <i>carm’lith</i>; expl. ",
+				"<cite ref=\"Shabbat 7a:3\">ib. 7ᵃ</cite> <he>קרן זוית הסמוכה לרה״ר</he> a corner plot adjoining the public road; a. fr.—Pl. <he>כַּרְמְלִיּוֹת</he>. Y. ib. XI, end, 13ᵇ"
+			]
+		}
+	]
+}

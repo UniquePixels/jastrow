@@ -1,0 +1,22 @@
+{
+	"id": "M01632",
+	"slug": "מלשין",
+	"headword": {
+		"text": "מַלְשִׁין"
+	},
+	"page": {
+		"number": 794,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00711\"><he>לָשַׁן</he></cite>) <i>slanderer, informer</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 120\">Midr. Till. to Ps. CXX</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "Q01747",
+	"slug": "פרזומא-2",
+	"headword": {
+		"text": "פִּרְזוּמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּירְ׳"
+		}
+	],
+	"page": {
+		"number": 1223,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01752\"><he>פַּרְזֵם</he></cite>) <i>juice, brewage</i>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>beer</i> of figs, thorns &c. ",
+			"units": [
+				"<cite ref=\"Pesachim 107a:5\">Pes. 107ᵃ</cite> <he>ומה פ׳ דבעאי וכ׳</he> Ar. (ed. <cite ref=\"Q01961\"><he>פיר׳</he></cite>; Ms. M. <cite ref=\"Q00336\"><he>פורזימא</he></cite>, Ms. M. 2 <cite ref=\"Q00338\"><he>פורזמא</he></cite>; the words in ed. a. Mss. between <he>פ׳</he> a. <he>דבעאי</he>, are a gloss to <he>פ׳</he>, read as in Ms. O. <he>שכר תאיני ואסיני</he>) since I asked … even with regard to <i>pirzuma</i> (which is superior to barley beer) &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " פ׳ דשיכרא <i>the second run of barley beer</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 52b\">Kidd. 52ᵇ</cite> Ar. (Rashi <cite ref=\"Q01663\"><he>פרוזמא</he></cite>; ed. a. Var. Ar. <cite ref=\"Q01690\"><he>פְּרוּמָא</he></cite> q. v.)."
+			],
+			"label": "2"
+		}
+	]
+}

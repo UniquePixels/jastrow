@@ -1,0 +1,22 @@
+{
+	"id": "M02056",
+	"slug": "מעברא-1",
+	"headword": {
+		"text": "מַעַבְרָא"
+	},
+	"page": {
+		"number": 813,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., constr. (<cite ref=\"P00060\"><he>עֲבַר</he></cite>) <cite ref=\"M02055\"><he>מַעֲבַר</he></cite> <i>passing, mustering</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 30:32\">Targ. Is. XXX, 32</cite>.—V. <cite ref=\"M02057\">next w.</cite>"
+			]
+		}
+	]
+}

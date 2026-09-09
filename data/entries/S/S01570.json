@@ -1,0 +1,39 @@
+{
+	"id": "S01570",
+	"slug": "קני-5",
+	"headword": {
+		"text": "קָנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַנְיָא"
+		}
+	],
+	"page": {
+		"number": 1392,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., constr. <cite ref=\"S01567\"><he>קְנֵי</he></cite> = h. <cite ref=\"S01535\"><he>קָנֶה</he></cite>, <i>reed, stalk, branch</i>, &c. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 68:31\">Targ. Ps. LXVIII, 31</cite> (some ed. <cite ref=\"S01570\"><he>קָנַיָּא</he></cite> <i>pl.</i>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 19:6\">Targ. Is. XIX, 6</cite> (ed. Lag. <he>קנה</he>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 18:21\">Targ. II Kings XVIII, 21</cite>.—",
+				"<cite ref=\"Onkelos Exodus 30:23\">Targ. Ex. XXX, 23</cite> (some ed. <he>קנה</he>).—",
+				"<cite ref=\"Targum Jonathan on Ezekiel 40:3\">Targ. Ez. XL, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 41:8\">Ib. XLI, 8</cite> (not <cite ref=\"S01570\"><he>קָנַיָא</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 25:31\">Targ. Ex. XXV, 31</cite> (ed. Vien. <cite ref=\"S01533\"><he>קְנַה</he></cite>); a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 6:3\">Lev. R. s. 6</cite> <he>נטל חד קנה וכ׳</he> he took a cane and made a cavity in it into which he put those Denars; <he>א״ל צור הדין ק׳ בידך וכ׳</he> he said to him, hold this cane in thy hand while I am being sworn; <he>נסתיה לקָנֵיה וכ׳</he> he took his cane and knocked it to the ground &c.; <cite ref=\"Nedarim 25a:6\">Ned. 25ᵃ</cite> (the same occurrence before Raba). ",
+				"<cite ref=\"Nedarim 25a:6\">Ib.</cite> <he>לאפוקי מק׳ דרבא</he> to prevent such an occasion as occurred before Raba; <cite ref=\"Shevuot 29a:11\">Shebu. 29ᵃ</cite>. ",
+				"<cite ref=\"Chullin 111a:2\">Ḥull. 111ᵃ</cite> <he>ק׳ בקופיה</he>, v. <cite ref=\"S00490\"><he>קוֹפָא</he> II</cite>; a. e.—Pl. <cite ref=\"S01587\"><he>קָנִין</he></cite>, <cite ref=\"S01570\"><he>קָנַיָּא</he></cite>, <cite ref=\"S01570\"><he>קָנֵי</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 25:33\">Targ. Ex. XXV, 33</cite>. Targ. II Esth. I, 2; a. e.—",
+				"<cite ref=\"Chullin 53b:8\">Ḥull. 53ᵇ</cite> <he>על לביני ק׳</he> went among the reeds. ",
+				"<cite ref=\"Chullin 45b:7\">Ib. 45ᵇ</cite> <he>תלתא ק׳ הוו</he> there are three branches (of the windpipe), one branches off towards &c.; a. e."
+			]
+		}
+	]
+}

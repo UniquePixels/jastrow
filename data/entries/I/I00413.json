@@ -1,0 +1,23 @@
+{
+	"id": "I00413",
+	"slug": "טיפוח",
+	"headword": {
+		"text": "טִיפּוּחַ"
+	},
+	"page": {
+		"number": 533,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טָפַח</he> I) <i>clapping</i> of hands (in mourning or rejoicing). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 5:2:9\">Y. Bets. V, 63ᵃ</cite> <he>ט׳ שהוא לרצונו</he> <i>tippuaḥ</i> means a clapping which is done purposely, opp. <cite ref=\"O00788\"><he>סיפוק</he></cite> spontaneous clapping; M.",
+				"<cite ref=\"Moed Katan 27b:7\">M. Kat. 27ᵇ</cite> <he>ט׳ ביד</he> <i>tippuaḥ</i> is done with the hands, opp. <cite ref=\"S00966\"><he>קילוס</he></cite>, striking of feet.—"
+			]
+		}
+	]
+}

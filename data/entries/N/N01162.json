@@ -1,0 +1,39 @@
+{
+	"id": "N01162",
+	"slug": "נקד-1",
+	"headword": {
+		"text": "נָקַד",
+		"homograph": 1
+	},
+	"page": {
+		"number": 931,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"S00111\"><he>קָדַד</he></cite>) <i>to sting, point, puncture, break through</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 2:2:4\">Y. Keth. II, 26ᵇ</cite> bot. <he>לבי נוֹקְדֵינִי</he> my conscience stings me (I am afraid that I may have sinned); <cite ref=\"Jerusalem Talmud Yevamot 10:3:5\">Y. Yeb. X, 11ᵃ</cite> top <he>נוקריני</he> (corr. acc.). ",
+				"<cite ref=\"Gittin 56a:8\">Gitt. 56ᵃ</cite> (play on <he>נ̇ק̇ד̇ימון</he>) <he>שנָ֗קְ֗דָ֗ה לו חמה בעבורו</he> for his sake did the sun break through again (after being obscured); <cite ref=\"Yalkut Shimoni on Torah 809:3\">Yalk. Deut. 809</cite>; <cite ref=\"Taanit 20a:5\">Taan. 20ᵃ</cite> Ms. M. (ed. <he>שנקדרה</he>). ",
+				"<cite ref=\"Taanit 20a:5\">Ib.</cite> <he>אילו לא נ׳ החמה</he> Ms. M. (ed. <he>נקדרה</he>). [<cite ref=\"Taanit 20a:5\">Ib.</cite> <he>שלשה נקדה</he> Ms. M. (ed. <he>נקדמה</he>, read, as <cite ref=\"Avodah Zarah 25a\">Ab. Zar. 25ᵃ</cite>: <cite ref=\"P00862\"><he>עמדה</he></cite>.]—2) (Massorah) <i>to dot, mark with diacritical points</i>. ",
+				"<cite ref=\"Avot D'Rabbi Natan 34:5\">Ab. d’R. N. ch. XXXIV</cite>, <he>כבר נָקַדְתִּי עליהן</he> I (Ezra) have marked these words with dots.—Part. pass. <cite ref=\"N01199\"><he>נָקיּד</he></cite>. ",
+				"<cite ref=\"Avot D'Rabbi Natan 34:5\">Ib.</cite> <he>נ׳ על י׳ שביניך</he> there is a dot over the Yod of <i>benekhah</i> (<cite ref=\"Genesis 16:6\">Gen. XVI, 6</cite>). ",
+				"<cite ref=\"Sanhedrin 43b:10\">Snh. 43ᵇ</cite> <he>למה נ׳ על לנו וכ׳</he> why are there dots over <i>lanu</i> &c. (<cite ref=\"Deuteronomy 29:28\">Deut. XXIX, 28</cite>)? <cite ref=\"Mishnah Pesachim 9:2\">Pes. IX, 2</cite> <he>לפיכך נ׳ על וכ׳</he> therefore the Hé (of <he>רחקה</he>, <cite ref=\"Numbers 9:10\">Num. IX, 10</cite>) is marked &c.; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיקָּד"],
+			"senses": [
+				{
+					"gloss": "<i>to be spotted</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maasrot 1:3\">Maasr. I, 3</cite> <he>החרובים משיִנָּקְדוּ</he> carobs are subject to tithes as soon as they get dark spots; Y. ib. 48ᵈ bot. <he>משיִנָּקֵידוּ</he>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

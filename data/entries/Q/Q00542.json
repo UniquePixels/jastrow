@@ -1,0 +1,36 @@
+{
+	"id": "Q00542",
+	"slug": "פטפט-1",
+	"headword": {
+		"text": "פִּטְפֵּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיטְ׳"
+		}
+	],
+	"page": {
+		"number": 1156,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"Q00541\">preced.</cite>, a. <cite ref=\"Q00506\"><he>פַּטָּטָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to talk, babble</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 65a:12\">Men. 65ᵃ</cite> <he>חוץ מזקן אחד שהיה מְפַטְפֵּט כנגדו</he> except one old man who talked (childishly) against him."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " פ׳ ביצרו <i>to talk or argue with one’s own passion, to conquer one’s self</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 109b:12\">B. Bath. 109ᵇ</cite> (play on <he>בנות פ̇וט̇יאל</he>, <cite ref=\"Exodus 6:25\">Ex. VI, 25</cite>) <he>דאתי מיוסף שפ׳ ביצרו</he> Elazar was a descendant of Joseph, who (is surnamed Putiel, because he) conquered his passion; <cite ref=\"Shemot Rabbah 7\">Ex. R. s. 7</cite>, end <he>שהיתה אשתו … יוסף שפ׳ ביצרו … שפ̇יט̇ם וכ׳</he> his wife was a descendant of two families, being on one side of the tribe of Joseph who conquered his passion, and on the other of the family of Jethro who fattened &., v. <cite ref=\"Q00535\"><he>פָּטַם</he></cite>; <cite ref=\"Sotah 43a\">Sot. 43ᵃ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

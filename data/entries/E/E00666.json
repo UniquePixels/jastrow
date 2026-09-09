@@ -1,0 +1,23 @@
+{
+	"id": "E00666",
+	"slug": "הנדקוקי",
+	"headword": {
+		"text": "הִנְדְּקוֹקֵי"
+	},
+	"page": {
+		"number": 357,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>דקק</he>, with prefixed <cite ref=\"E00000\"><he>ה</he></cite> a. <cite ref=\"N00001\"><he>נ</he></cite> inserted; corresp. to h. <cite ref=\"C00162\"><he>גַּדְגַּדְנִיּוֹת</he></cite>) <i>melilot</i>, a kind of clover used as a relish.—",
+			"units": [
+				"<cite ref=\"Eruvin 28a:10\">Erub. 28ᵃ</cite> <he>ה׳ מדאי</he> Median Melilot. Y. ib. III, 20ᵈ top; <cite ref=\"Jerusalem Talmud Peah 8:4:4\">Y. Peah VIII, 21ᵃ</cite> top."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "C01101",
+	"slug": "גנובתא-1",
+	"headword": {
+		"text": "גְּנוּבְתָּא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוֹנְבָא"
+		}
+	],
+	"page": {
+		"number": 257,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גנב</he>) <i>tail</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 40:17\">Targ. Job XL, 17</cite> Ms. (ed. <he>דונביה</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 14:9\">Targ. Y. Deut. XIV, 9</cite> <he>גּוֹנְבֵיה</he>. ",
+				"<cite ref=\"Shabbat 77b\">Sabb. 77ᵇ</cite>; <cite ref=\"Moed Katan 17a:24\">M. Kat. 17ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "E00805",
+	"slug": "הקריה",
+	"headword": {
+		"text": "הַקְרָיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַקְרָיָיה"
+		}
+	],
+	"page": {
+		"number": 365,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>קָרָה</he> Hif.) <i>preparation, arrangement</i>. Sifra Num. 159; Yalk. ib. 787 (interpret. <he>הקריתם</he>, <cite ref=\"Numbers 35:11\">Num. XXXV, 11</cite>).",
+			"units": []
+		}
+	]
+}

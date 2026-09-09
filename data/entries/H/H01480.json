@@ -1,0 +1,43 @@
+{
+	"id": "H01480",
+	"slug": "חפש-3",
+	"headword": {
+		"text": "חָפַשׁ"
+	},
+	"page": {
+		"number": 493,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be white</i>, cmp. Arab. <i>ḥafaš decorticare</i>, cmp. <cite ref=\"H01475\"><he>חֲפַר</he> II</cite>,] <i>to be free</i> (cmp. <cite ref=\"H00448\"><he>חוֹר</he> II</cite>). V. <cite ref=\"H01481\">next w.</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִיפֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to deliver</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 8:1\">Pesik. R. s. 8</cite> (ref. to <he>אֲחַפֵּשׂ</he>, <cite ref=\"Zephaniah 1:12\">Zeph. I, 12</cite>) <he>לא תהא קורא סמי״ך אלא שי״ן אֲחַפֵּשׁ וכ׳</he> read not the word with <i>Samme</i> but with <i>Shin</i>, ‘I shall deliver &c.’; Yalk. Zeph. 567."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["חוּפָּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be set free</i>. ",
+					"units": [
+						"<cite ref=\"Keritot 11a:69\">Kerith. 11ᵃ</cite> (ref. to <cite ref=\"Leviticus 19:20\">Lev. XIX, 20</cite>) <he>מכלל דהוא ח׳</he> this implies that he (her betrothed) has been liberated, is a freedman."
+					]
+				}
+			],
+			"stem": "Pu."
+		}
+	]
+}

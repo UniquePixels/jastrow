@@ -1,0 +1,32 @@
+{
+	"id": "H00169",
+	"slug": "חד-2",
+	"headword": {
+		"text": "חַד",
+		"homograph": 2
+	},
+	"page": {
+		"number": 425,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., <cite ref=\"H00190\"><he>חֲדָא</he></cite> c. = h. <cite ref=\"A00994\"><he>אֶחָד</he></cite>, <i>one, singular, particular</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:5\">Targ. Gen. I, 5</cite>; a. v. fr.—<he>חד בשבא</he> first day in the week. Targ. II Esth. III, 7.—",
+				"<cite ref=\"Aramaic Targum to Psalms 27:4\">Targ. Ps. XXVII, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 18:10\">Targ. Ez. XVIII, 10</cite> (some ed. <he>חדת</he>); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:1:11\">Y. Ab. Zar. I, 39ᵇ</cite> bot. <he>בחד בשובא</he>, v. supra. ",
+				"<cite ref=\"Megillah 11a:21\">Meg. 11ᵃ</cite>, a. fr. <he>חד … וחד וכ׳</he> one authority …, another authority &c. ",
+				"<cite ref=\"Berakhot 28a:3\">Ber. 28ᵃ</cite> <he>חדא היא לך או חדת וכ׳</he> is this a unique subject to thee (the only thing learned from R. Joḥ.) or a novel (strange) thing?—",
+				"<cite ref=\"Gittin 44a:18\">Gitt. 44ᵃ</cite>; <cite ref=\"Bekhorot 3a:8\">Bekh. 3ᵃ</cite> <he>טפי חד</he> one time more (eleven times the value of the sold object); a. v. fr.—[<cite ref=\"Shabbat 67a:17\">Sabb. 67ᵃ</cite> bot. <he>חד חד</he>, v. <cite ref=\"H01657\"><he>חַרְחַר</he></cite>.]—<cite ref=\"K00455\"><he>כַּחֲדָא</he></cite> [<i>like one</i>,] <i>together, simultaneously</i>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 2:2\">Targ. Ps. II, 2</cite>; a. fr.—לַחֲדָא <i>singularly, very much, too much</i>. ",
+				"<cite ref=\"Onkelos Genesis 1:31\">Targ. Gen. I, 31</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 119:8\">Targ. Ps. CXIX, 8</cite>; a. fr."
+			]
+		}
+	]
+}

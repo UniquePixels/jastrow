@@ -1,0 +1,48 @@
+{
+	"id": "H00347",
+	"slug": "חוליא-1",
+	"headword": {
+		"text": "חוּלְיָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּלְיָה"
+		},
+		{
+			"text": "חוּלְיָי׳"
+		}
+	],
+	"page": {
+		"number": 434,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"H00964\"><he>חֶלְיָה</he></cite>; <cite ref=\"H01028\"><he>חלי</he></cite>, cmp. <cite ref=\"H01078\"><he>חָלָל</he> III</cite>; cmp. <cite ref=\"C00883\"><he>גִּלָּה</he></cite>) [<i>loose part, something movable</i>,] <i>limb, link; vertebra of the spinal column</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 6:5\">Bekh. VI, 5</cite> <he>בין ח׳ לח׳</he> (Talm. ed. 39ᵇ <he>מח׳ לח׳</he>) between two vertebrae.—",
+				"<cite ref=\"Chullin 52a:1\">Ḥull. 52ᵃ</cite> if a rib is displaced <he>וח׳ עמה</he> and a vertebra with it. ",
+				"<cite ref=\"Chullin 42b:3\">Ib. 42ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sukkah 1:1:4\">Y. Succ. I, 51ᵈ</cite> <he>ח׳ של עמוד</he> <i>a segment</i> of a column. ",
+				"<cite ref=\"Menachot 38b:14\">Men. 38ᵇ</cite> <he>ח׳</he> <i>a joint</i> of the plaited show-threads.—Pl. <he>חוּלְיוֹת</he>, <he>חֲלָיוֹת</he>. ",
+				"<cite ref=\"Mishnah Kelim 11:8\">Kel. XI, 8</cite> a chain <he>שח׳ שלה וכ׳</he> the links of which are of metal stringed on &c. ",
+				"<cite ref=\"Mishnah Kelim 11:8\">Ib.</cite> <he>ח׳ של אבנים וכ׳</he> links consisting of jewels, pearls &c. ",
+				"<cite ref=\"Bereishit Rabbah 79:7\">Gen. R. s. 79</cite>, v. <cite ref=\"D00714\"><he>דְּיָקִינְתִּין</he></cite>. Ohol. I, 8 <he>שמונה עשרה ח׳</he> eighteen vertebrae.—",
+				"<cite ref=\"Beitzah 22a:5\">Bets. 22ᵃ</cite> <he>מנורה של חליות</he> a candlestick which can be taken apart. ",
+				"<cite ref=\"Shabbat 46a:2\">Sabb. 46ᵃ</cite>, v. <cite ref=\"H00208\"><he>חִדְקָא</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 5:8\">Kel. V, 8</cite>; <cite ref=\"Mishnah Kelim 5:10\">10</cite> <he>חתכו ח׳</he> if he cut the burned clay of an oven into tiles; a. fr.—Esp. <i>a segment of earth</i> cut out in digging a pit and piled up on its borders; (collect.) <i>the entrenchment around a well</i> (increasing its capacity). ",
+				"<cite ref=\"Berakhot 3b\">Ber. 3ᵇ</cite>; <cite ref=\"Berakhot 59a:2\">59ᵃ</cite> (prov.) <he>אין הבור מתמלא מחוּלְיָתוֹ</he> a pit cannot be filled up with its own earth, i.e. a community cannot live on its own resources. ",
+				"<cite ref=\"Mishnah Shabbat 11:2\">Sabb. XI, 2</cite> (<cite ref=\"Shabbat 99a:6\">99ᵃ</cite>) <he>חוּלְיַת הבור</he> (<cite ref=\"H00347\"><he>חוּלְיַית</he></cite>, Mish. <he>חוּלְיוֹת</he>, pl.) the entrenchment of a well. ",
+				"<cite ref=\"Eruvin 78a\">Erub. 78ᵃ</cite>; <cite ref=\"Shabbat 99a:6\">Sabb. 99ᵃ</cite> <he>בור וחוּלְיָתָהּ</he> (<he>וחוּלְיָי׳</he>) <he>וכ׳</he> the depth of the well and its entrenchment are counted together to make up ten hand-breadths. ",
+				"<cite ref=\"Shabbat 99b:8\">Ib.ᵇ</cite> <he>בור תשעה … ח׳</he> if the pit was nine hand-breadths deep, and he took out of the bottom one segment (which had been cut before this). ",
+				"<cite ref=\"Shabbat 99b:8\">Ib.</cite> <he>ונתן לתוכה ח׳</he> and threw a segment in. ",
+				"<cite ref=\"Bava Kamma 51a:18\">B. Kam. 51ᵃ</cite> <he>עקרו שניהם ח׳ וכ׳</he> both of them took the last segment out together, so as to complete the legal depth &c. ",
+				"<cite ref=\"Yoma 84b:7\">Yoma 84ᵇ</cite> <he>עוקר ח׳</he> break loose one segment of the entrenchment; a. fr."
+			]
+		}
+	]
+}

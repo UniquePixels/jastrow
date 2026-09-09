@@ -1,0 +1,48 @@
+{
+	"id": "O00242",
+	"slug": "סוג-1",
+	"headword": {
+		"text": "סוּג",
+		"homograph": 1
+	},
+	"page": {
+		"number": 960,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to cut off, separate</i>,] <i>to fence in, mark off</i>. Y. Ab. Zar. IV, 43ᶜ, sq. <he>כל שהוא סָג וכ׳</he> any stone that is put up to mark the sea-shore or the roads. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:4:5\">Y. M. Kat. I, 80ᶜ</cite> <he>פירצה שהיא סָגָה וכ׳</he> a fence which, though broken, still bars the ground behind it (from falling out); <cite ref=\"Jerusalem Talmud Sheviit 3:7:3\">Y. Shebi. III, end, 34ᵈ</cite>; a. e.—Trnsf. (v. <cite ref=\"O00551\"><he>סְיָג</he></cite> a. <cite ref=\"C00244\"><he>גָּדַר</he></cite>) <i>to guard against trespassing a law, to make a prohibition more restrictive; to exaggerate</i>. ",
+				"<cite ref=\"Avot D'Rabbi Natan 1:7\">Ab. d’R. N. ch. I</cite> <he>סייג שסָג … לדבריו</he> (v. ed. Schechter) the guard which Adam set to his words (by adding the prohibition to touch the tree of knowledge). ",
+				"<cite ref=\"Avot D'Rabbi Natan 1:7\">Ib.</cite> <he>אם סג אדם לדבריו וכ׳</he> if a person exaggerates his words, he cannot abide by them."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִיֵּיג"],
+			"senses": [
+				{
+					"gloss": "<i>to fence in</i>. Part. pass. <he>מְסוּיָּיג</he>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 5:14\">Koh. R. to V, 14</cite> <he>והיה מס׳ וכ׳</he> it (the vineyard) was fenced in on all sides."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִסִּיג"],
+			"senses": [
+				{
+					"gloss": " (with <cite ref=\"C00055\"><he>גְּבוּל</he></cite>) <i>to remove the landmark</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 85a:2\">Sabb. 85ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 19:14\">Deut. XIX, 14</cite>) <he>גבול … לא תַסִּיג</he> do not remove the landmark which those before thee (the Canaanites) have set."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

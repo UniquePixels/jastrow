@@ -1,0 +1,27 @@
+{
+	"id": "F00003",
+	"slug": "ווא",
+	"headword": {
+		"text": "וָוא"
+	},
+	"altHeadwords": [
+		{
+			"text": "וָוה"
+		}
+	],
+	"page": {
+		"number": 371,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Va, Vah</i>, abbrev. of <cite ref=\"A00017\"><he>אַבָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:5:10\">Y. Ber. III, 6ᵈ</cite> bot. Ib. 6ᵃ top; a. fr. V. <cite ref=\"A00018\"><he>אַבָּא</he> II</cite>."
+			]
+		}
+	]
+}

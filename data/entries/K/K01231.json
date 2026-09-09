@@ -1,0 +1,24 @@
+{
+	"id": "K01231",
+	"slug": "כרמון",
+	"headword": {
+		"text": "כַּרְמון",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 671,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01230\">preced.</cite>) <i>a row of vines in a vineyard</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 4:1:2\">Y. Kil. IV, beg. 29ᵃ</cite> <he>נסב חד כ׳</he> if the owner took away one of the five rows.—Pl. <cite ref=\"K01232\"><he>כַּרְמִין</he></cite> (prob. to be read: <he>כַּרְמוֹנִין</he>). ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 4:1:2\">Ib.</cite> <he>תלתא כ׳ ותרי ביניין</he> three rows and two intervals."
+			]
+		}
+	]
+}

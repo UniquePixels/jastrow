@@ -1,0 +1,25 @@
+{
+	"id": "A00700",
+	"slug": "אומן-2",
+	"headword": {
+		"text": "אוֹמַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּמְנָא"
+		}
+	],
+	"page": {
+		"number": 27,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A00699\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 19:9\">Targ. Y. I Lev. XIX, 9</cite> (h. text <cite ref=\"Q00006\"><he>פאה</he></cite>); <cite ref=\"Targum Jonathan on Leviticus 19:9\">Targ. Y. II ib.</cite> <he>אוֹ מִן</he> (read <cite ref=\"A00700\"><he>אוֹמַן</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 19:9\">Ib.</cite> v. 27 Ar. (ed. <he>צדדי</he>), XXI, 5 (of the beard, h. text <he>פאת זקנך</he>)."
+			]
+		}
+	]
+}

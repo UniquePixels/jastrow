@@ -1,0 +1,22 @@
+{
+	"id": "C00313",
+	"slug": "גודלנא",
+	"headword": {
+		"text": "גּוֹדְלָנָא"
+	},
+	"page": {
+		"number": 218,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גדל</he>, v. <cite ref=\"C00205\"><he>גְּדִיל</he></cite>) <i>the heap, the difference between stricken and heaped measure</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 4:9:9\">Y. Pes. IV, end, 31ᶜ</cite> [read:] <he>אנא מחשׂכנא ג׳ וכ׳</he> I will deduct the difference from my dowry, v. <cite ref=\"H01846\"><he>חֲשַׂךְ</he></cite>."
+			]
+		}
+	]
+}

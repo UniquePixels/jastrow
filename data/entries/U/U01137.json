@@ -1,0 +1,95 @@
+{
+	"id": "U01137",
+	"slug": "שכח-1",
+	"headword": {
+		"text": "שָׁכַח"
+	},
+	"page": {
+		"number": 1572,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"U01157\"><he>שכך</he></cite>) [<i>to sink,</i>] <i>to forget, discard</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 32b:10-15\">Ber. 32ᵇ</cite> (ref. to <cite ref=\"Isaiah 49:14\">Is. XLIX, 14</cite>) <he>אדם … אתה עזבתני ושְׁכַחְתָּנִי</he> if a man marries a woman after abandoning his first wife, he remembers the doings of his first wife, but thou hast abandoned me and also forgotten me. ",
+				"<cite ref=\"Isaiah 49:14\">Ib.</cite> <he>כלום אֶשְׁכַּח עולות וכ׳</he> will I ever forget the burnt-offerings of rams and the first born that thou didst offer &c.? <cite ref=\"Isaiah 49:14\">Ib.</cite> <he>שמא תִשְׁכַּח … סיני</he> wilt thou forget what I did at Sinai? <cite ref=\"Mishnah Peah 5:7\">Peah V, 7</cite> <he>העומר ששְׁכָחוּהוּ … ולא ש׳ וכ׳</he> a sheaf which the laborers overlooked in collecting, but the employer had not overlooked. ",
+				"<cite ref=\"Mishnah Peah 7:1\">Ib. VII, 1</cite> <he>ושְׁכָחוֹ</he> and he forgot it (left it on the tree). ",
+				"<cite ref=\"Pirkei Avot 3:8\">Ab. III, 8</cite> <he>כל השׁוֹכֵחַ וכ׳</he>, v. <cite ref=\"M02941\"><he>מִשְׁנָה</he></cite>. ",
+				"<cite ref=\"Mishnah Middot 2:5\">Midd. II, 5</cite> <he>שָׁכַחְתִּי מה וכ׳</he> I forgot what purpose it served; <cite ref=\"Yoma 16a:3\">Yoma 16ᵃ</cite>; a. v. fr.—Part. pass. <he>שָׁכוּחַ</he>; f. <cite ref=\"U01133\"><he>שְׁכוּחָה</he></cite>, "
+			],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"G00447\"><he>זָכוּר</he></cite>) <i>forgetting</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Shabbat 6:1:2\">Y. Sabb. VI, 7ᵈ</cite> <he>והיא ש׳</he> and she may forget herself, v. <cite ref=\"U00694\"><he>שַׁחֲצָנִית</he></cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>forgotten</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 11a:10\">B. Mets. 11ᵃ</cite> <he>ש׳ מעיקרו</he> a sheaf forgotten at the start (overlooked in collecting); <he>זכור ולבסוף ש׳</he>, v. <cite ref=\"G00467\"><he>זָכַר</he></cite>. Ber. l. c. (ref. to Is. l. c.) <he>היינו עזובה היינו ש׳</he> is not abandoned the same as forgotten? (Ms. O. <he>עֲזִיבָה … שְׁכִיחָה …</he>)."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁכֵּחַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01136\">same</cite>. Y. Ber. V, 9ᵃ top <he>לא במהרה הוא מְשַׁכֵּחַ</he> will not easily forget it. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 99a:12-22\">Snh. 99ᵃ</cite> <he>כל … ומְשַׁכְּחָהּ וכ׳</he> he who studied the Law and neglects it (fails to review it) is like a woman that gives birth and buries; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause forgetting</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 2:2\">Ab. II, 2</cite> <he>שיגיעת … מְשַׁכַּחַת עון</he> (or <he>מַשְׁכַּחַת</he>) the employment of the mind in both of them causes man to forget sin. ",
+						"<cite ref=\"Tosefta Sotah 3:12\">Tosef. Sot. III, 12</cite> <he>אתם מְשַׁכְּחִין … אני אֲשַׁכֵּחַ וכ׳</he> you make the law of free trade forgotten among you, I will cause you to be forgotten in the world; <cite ref=\"Sanhedrin 109a\">Snh. 109ᵃ</cite>, a. e. <he>באו ונְשַׁכֵּחַ וכ׳</he>, v. <cite ref=\"T00204\"><he>רֶגֶל</he></cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁכִּיחַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01136\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Beitzah 15b:4\">Bets. 15ᵇ</cite> <he>להַשְׁכִּיחוֹ</he>, v. <cite ref=\"G00467\"><he>זָכַר</he></cite>. Ab. l. c., v. supra; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִשְׁכַּח"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִשְׁתַּכֵּחַ"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִשְׁתַּכֵּחַ</he> <i>to be forgotten</i>. ",
+					"units": [
+						"<cite ref=\"Temurah 14b:16\">Tem. 14ᵇ</cite> <he>מוטב … ואל תִּשְׁתַּכֵּחַ וכ׳</he> (some ed. <he>תִּשָּׁבֵחַ</he>) it is better that a law be uprooted (disregarded) than that the Law be forgotten in Israel. ",
+						"<cite ref=\"Temurah 15b:37\">Ib. 15ᵇ</cite> <he>שלשה … נִשְׁתַּכְּחוּ וכ׳</he> three thousand traditional rules were forgotten during the days of mourning for Moses. ",
+						"<cite ref=\"Temurah 16a:16\">Ib. 16ᵃ</cite> <he>אף … נִשְׁתַּכְּחָה וכ׳</he> also the rule concerning a sin offering whose owner died (before it was brought) was forgotten during &c. ",
+						"<cite ref=\"Temurah 16a:63\">Ib.</cite> <he>שלא יִשְׁתַּכֵּחַ … מלבי</he> that what I have learned be not forgotten out of my mind. ",
+						"<cite ref=\"Pesachim 54b:3\">Pes. 54ᵇ</cite> <he>על המת שישתכח מן הלב</he> that the dead should be forgotten out of mind; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

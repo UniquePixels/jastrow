@@ -1,0 +1,47 @@
+{
+	"id": "H00586",
+	"slug": "חטאה-2",
+	"headword": {
+		"text": "חֶטְאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַטְ׳"
+		},
+		{
+			"text": "חֶטְהָא"
+		},
+		{
+			"text": "חֵטא"
+		},
+		{
+			"text": "חֵט"
+		},
+		{
+			"text": "חֵיטָא"
+		}
+	],
+	"page": {
+		"number": 447,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"H00581\"><he>חֵטא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 19:15\">Targ. Deut. XIX, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 10:26\">Targ. I Sam. X, 26</cite>. ",
+				"<cite ref=\"Onkelos Genesis 4:7\">Targ. Gen. IV, 7</cite> (ed. Berl. <cite ref=\"H00586\"><he>חִטְאָה</he></cite>, some ed. <cite ref=\"H00587\"><he>חַטַּאת</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 21:4\">Targ. Prov. XXI, 4</cite> (ed. Lag. <he>חטהא</he>); a. e.—",
+				"<cite ref=\"Moed Katan 16a:7\">M. Kat. 16ᵃ</cite> <he>פרטינן חֶטְאֵיה וכ׳</he> we must specify his sin publicly. ",
+				"<cite ref=\"Sanhedrin 37b:6\">Snh. 37ᵇ</cite> <he>חטא אחריתי</he> the sin of another act.—Pl. <he>חֶטְאִין</he>, <he>חִיטְ׳</he>, <he>חֶטְאֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 14:19\">Targ. Jer. XIV, 19</cite> (ed. Lag. <he>חובין</he>). ",
+				"<cite ref=\"Onkelos Leviticus 18:7\">Targ. O. Lev. XVIII, 7</cite> (v. <cite ref=\"G00362\"><he>זִימָּה</he> II</cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 14:34\">Targ. Prov. XIV, 34</cite> (ed. Lag. <he>חֶטִהֵי</he>); a. fr. [<cite ref=\"Aramaic Targum to Proverbs 28:13\">Ib. XXVIII, 13</cite> <he>חֶטּוֹי</he>, v. <cite ref=\"H00618\"><he>חֲטָי</he></cite>.]"
+			]
+		}
+	]
+}

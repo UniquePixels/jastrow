@@ -1,0 +1,23 @@
+{
+	"id": "O01668",
+	"slug": "סרק-7",
+	"headword": {
+		"text": "סֶרֶק",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1030,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01667\">preced.</cite> wds.) [<i>that which is marked out with paint for cutting</i>,] <i>a strip</i> of a sheet. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 9:9\">Kil. IX, 9</cite> Ms. M.; <cite ref=\"Tosefta Kilaim 5:22\">Tosef. ib. V, 22</cite> (ed. Zuck. <he>סדק</he>); v. <cite ref=\"O01583\"><he>סֶרֶט</he></cite> 2."
+			]
+		}
+	]
+}

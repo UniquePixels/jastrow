@@ -1,0 +1,22 @@
+{
+	"id": "B01215",
+	"slug": "ברותא-2",
+	"headword": {
+		"text": "בָּרוּתָא"
+	},
+	"page": {
+		"number": 191,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"B01156\"><he>בַּר</he> I</cite> ch.) <i>outside, rejected;</i> cmp. <cite ref=\"B01264\"><he>בָּרַיְיתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 9a:15\">B. Mets. 9ᵃ</cite>; a. fr. Ar. (ed. sometimes <cite ref=\"B00127\"><he>בָּדוּתָא</he></cite> q. v.)."
+			]
+		}
+	]
+}

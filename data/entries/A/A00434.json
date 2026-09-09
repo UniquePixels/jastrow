@@ -1,0 +1,33 @@
+{
+	"id": "A00434",
+	"slug": "אדני-2",
+	"headword": {
+		"text": "אַדְנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַבְנֵי"
+		},
+		{
+			"text": "אַדְנֵי הַשָּׂדֶה"
+		}
+	],
+	"page": {
+		"number": 17,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>name of a mythical animal, orangoutang</i> (?). ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 7:5\">Kil. VII, 5</cite>, defined Y. ibid. 31ᶜ bot. <he>בר נש דטור</he> <i>mountain-man</i>, brought forth by the mountain and drawing nourishment from the ground (cmp. ",
+				"<cite ref=\"Job 5:23\">Job V, 23</cite>). ",
+				"<cite ref=\"Kohelet Rabbah 6:11:1\">Koh. R. to VI, 11</cite>."
+			]
+		}
+	]
+}

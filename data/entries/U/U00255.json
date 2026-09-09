@@ -1,0 +1,43 @@
+{
+	"id": "U00255",
+	"slug": "שדד-1",
+	"headword": {
+		"text": "שָׁדַד"
+	},
+	"page": {
+		"number": 1524,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to overpower, rob</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 26:1\">Pesik. R. s. 26</cite> <he>יבואו השׁוֹדְדִים וִישַׁדְּדוּ אותה</he> let the plunderers come and plunder her; <cite ref=\"Yalkut Shimoni on Nach 262:1\">Yalk. Jer. 262</cite> <he>יבואו השונאים וִישׁוֹדְדוּ בה</he> (not <cite ref=\"B00181\"><he>בהם</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁדֵּד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00254\">same</cite>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִשְׁדָּד"],
+			"senses": [
+				{
+					"gloss": "<i>to be robbed</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 75:1\">Gen. R. s. 75</cite> (ref. to <cite ref=\"Psalms 12:6\">Ps. XII, 6</cite>) <he>ואימתי אני לכשאראה עניים נִשְׁדָּדִים וכ׳</he> (not <he>לכשתראה</he>) when do I rise? When I see the poor robbed and the needy in anguish; <cite ref=\"Yalkut Shimoni on Nach 625\">Yalk. Ps. 625</cite>; <cite ref=\"Yalkut Shimoni on Nach 569\">Yalk. Zech. 569</cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

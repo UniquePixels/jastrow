@@ -1,0 +1,28 @@
+{
+	"id": "M01235",
+	"slug": "מינתא",
+	"headword": {
+		"text": "מִינְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִינְתָּה"
+		}
+	],
+	"page": {
+		"number": 777,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (mentha, μένθα) <i>mint</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 1:2\">Ukts. I, 2</cite> (Mish. ed. <he>המיתנא</he>, corr. acc.; Var. in R. S. a. l. <cite ref=\"A02028\"><he>אַמִּיתָא</he></cite> q. v.). ",
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:13\">Y. Dem. II, 22ᶜ</cite> bot."
+			]
+		}
+	]
+}

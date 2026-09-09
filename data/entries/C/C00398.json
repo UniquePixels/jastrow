@@ -1,0 +1,50 @@
+{
+	"id": "C00398",
+	"slug": "גולם",
+	"headword": {
+		"text": "גּוֹלֶם"
+	},
+	"page": {
+		"number": 222,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"C00398\"><he>גֹּלֶם</he></cite>, <he>גלם</he>)<i>a rolled up, shapeless mass</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lump, a shapeless or lifeless substance</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Niddah 3:3:5\">Y. Nidd. III, 50ᵈ</cite> and the other limbs of the embryo look <he>כמין ג׳ מצומתים</he> like a lump, squeezed together. ",
+				"<cite ref=\"Bereishit Rabbah 14\">Gen. R. s. 14</cite> <he>העמידו ג׳</he> He made him stand, a large, lifeless mass. ",
+				"<cite ref=\"Bereishit Rabbah 14\">Ib.</cite> s. 24 <he>ג׳ בראו וכ׳</he> He formed him into a huge body, which extended from one end &c. ",
+				"<cite ref=\"Bereishit Rabbah 14\">Ib.</cite> (ref. to <cite ref=\"Psalms 139:16\">Ps. CXXXIX, 16</cite>) <he>ג׳ שראו עיניך</he> (read <he>גּוֹלָמִים</he>) the embryos which Thy eyes have seen, have all been recorded (preordained) &c.; <cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23</cite>; a. fr.—",
+				"<cite ref=\"Pesikta Rabbati 33:1\">Pesik. R. s. 33</cite> <he>גלומי היו</he> (read <he>גְּלוּמִין</he> or <he>גולמין</he>) they were (hard) lumps (blocks)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>unfinished matter, a vessel wanting finishing</i>, opp. <he>פשוט</he> plain surface, forming no receptacle. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 22b:3\">Snh. 22ᵇ</cite> <he>אשה ג׳ היא ואינה וכ׳</he> woman (unmarried) is an unfinished vessel, and she makes a covenant with (cares for) none but him who made her a vessel.—Pl. <he>גּוֹלָמִים</he>, <cite ref=\"C00927\"><he>גֳּלָ׳</he></cite>, constr. <cite ref=\"C00401\"><he>גּוֹלְמֵי</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 12:6\">Kel. XII, 6</cite> <he>ג׳ כלי מתכות</he> unfinished metal vessels, v. defin. ",
+				"<cite ref=\"Chullin 25a:12\">Ḥull. 25ᵃ</cite>; <cite ref=\"Tosefta Keilim Metsia 2:10\">Tosef. Kel. B. Mets. II, 10</cite>.—",
+				"<cite ref=\"Tosefta Keilim Metsia 7:12\">Ib. VII, 12</cite> <he>גֹלָמִין</he> (ed. Zuck. <he>גלמי</he>) pumpkins in their natural shape, opp. to <he>חתוכין ומנוקבין</he>.—",
+				"<cite ref=\"Sifrei Bamidbar 158:1\">Sifré Num. 158</cite> <he>כלים ולא גלומים</he> (<cite ref=\"Yalkut Shimoni on Torah 786:3\">Yalk. ib. 786</cite> <he>גּוֹלְמִין</he>) ‘vessels’ which means finished vessels but not half-finished.—Trnsf. <i>uneducated, unrefined</i>. ",
+				"<cite ref=\"Pirkei Avot 5:7\">Ab. V, 7</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>body</i>. Pl. as above. ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 131:5\">Sifré Num. 131</cite>; <cite ref=\"Yalkut Shimoni on Torah 771:21\">Yalk. ib. 771</cite> the spear entered <he>בשני ג׳</he> both bodies."
+			],
+			"label": "3"
+		}
+	]
+}

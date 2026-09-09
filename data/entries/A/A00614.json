@@ -1,0 +1,27 @@
+{
+	"id": "A00614",
+	"slug": "אוחדתא-2",
+	"headword": {
+		"text": "אוּחַדְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹחַדְתָּא"
+		}
+	],
+	"page": {
+		"number": 24,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>חִידָה</he>; v. <he>חוּד</he> II)<i>enigma, epigram</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 49:5\">Targ. Ps. XLIX, 5</cite> (Ms. <he>אחדותא</he>)."
+			]
+		}
+	]
+}

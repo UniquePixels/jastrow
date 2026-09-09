@@ -1,0 +1,22 @@
+{
+	"id": "M02572",
+	"slug": "מרוד-2",
+	"headword": {
+		"text": "מָרוֹד"
+	},
+	"page": {
+		"number": 838,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>מָרַד</he> I) <i>rebel</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ma'aser Sheni 1:5\">Tosef. Maas. Sh. I, 5</cite> <he>מטבע מ׳</he> (not <he>המטבע</he>, Var. <cite ref=\"M00273\"><he>מדור</he></cite>, corr. acc.) a coin issued by a rebel (Bar Kokhba); Y. ib. I, 52ᵈ top, v. <cite ref=\"M02528\"><he>מָרַד</he> I</cite>."
+			]
+		}
+	]
+}

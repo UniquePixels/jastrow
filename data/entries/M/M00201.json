@@ -1,0 +1,27 @@
+{
+	"id": "M00201",
+	"slug": "מגע",
+	"headword": {
+		"text": "מַגָּע"
+	},
+	"page": {
+		"number": 729,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00176\"><he>נָגַע</he></cite>) <i>touch, contact</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 1:1\">Kel. I, 1</cite>, a. fr. <he>מטמא במ׳</he>, makes unclean by contact. ",
+				"<cite ref=\"Mishnah Tahorot 6:4\">Toh. VI, 4</cite> <he>ספק מַגַּע טומאה וכ׳</he> a doubt as to having touched an unclean thing is judged in favor of uncleanness; <cite ref=\"Avodah Zarah 70a:12\">Ab. Zar. 70ᵃ</cite>, a. e.—<he>מַגַּע נכרי</he> wine touched by a gentile suspected of idolatrous manipulations. ",
+				"<cite ref=\"Avodah Zarah 58b:3\">Ib. 58ᵇ</cite>.—",
+				"<cite ref=\"Avodah Zarah 69a:12\">Ib. 69ᵃ</cite> <he>מ׳ חבירו</he> another ignorant man’s touching things kept in levitical cleanness; a. fr.—Pl. <he>מַגָּעוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:18\">Y. Sabb. VII, 9ᵈ</cite> bot., v. <cite ref=\"M00321\"><he>מִדָּף</he></cite>.—Constr. <he>מַגָּעֵי</he>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 7:7:9\">Y. Pes. VII, 34ᵈ</cite> bot. <he>מ׳ זבין</he> those unclean through contact with gonorrhoeists."
+			]
+		}
+	]
+}

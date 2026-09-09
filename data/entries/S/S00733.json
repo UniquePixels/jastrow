@@ -1,0 +1,68 @@
+{
+	"id": "S00733",
+	"slug": "קטט-2",
+	"headword": {
+		"text": "קְטַט"
+	},
+	"page": {
+		"number": 1347,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"S00732\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָקֵיט"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"R00661\"><he>צָעַר</he></cite>) <i>to vex, annoy</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 61b:2\">B. Mets. 61ᵇ</cite> (in Hebrew diction) <he>לא תגנב על מנת למֵיקַט</he> (some ed. <he>למֵקַט</he>; Ms. M. <he>למקט׳</he>, corr. acc.) ‘thou shalt not steal (<cite ref=\"Exodus 20:15\">Ex. XX, 15</cite>), not even if it be only with the intention of vexing (thy neighbor, until thou restore the stolen object); <cite ref=\"Tosefta Bava Kamma 10:37\">Tosef. B. Kam. X, 37</cite>; <cite ref=\"Yalkut Shimoni on Torah 605\">Yalk. Lev. 605</cite>; Sifra Ḳ’dosh. ch. III, Par. 2; Y. Snh. X, beg. 30ᵃ"
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["קַטֵּיט"],
+			"senses": [
+				{
+					"gloss": " [<i>to thin</i>,], (music) <i>to produce a fine</i> (<i>high</i>) <i>sound, to sing tenor</i> or <i>soprano</i>. ",
+					"units": [
+						"<cite ref=\"Arakhin 13b:55\">Arakh. 13ᵇ</cite> <he>הני מְקַטְּטֵי וכ׳</he> they (the young Levites) sang high, and they (the older Levites) could not do it."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיקַּט"],
+			"senses": [
+				{
+					"gloss": " (v. <cite ref=\"S00734\">next w.</cite>) <i>to quarrel</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 67b:36\">Nidd. 67ᵇ</cite> <he>לאו הכי הוה עובדא … דאִיקּוּט וכ׳</he> was it not so with the wife of Abba Mari … when they had a quarrel, and R. N. went &c.?"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִתְקוֹטַט"],
+			"senses": [
+				{
+					"gloss": " (fr. <cite ref=\"S00286\"><he>קוּט</he></cite>) same. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 24:10\">Targ. Y. Lev. XXIV, 10</cite>. ",
+						"<cite ref=\"Aramaic Targum to Lamentations 4:15\">Targ. Lam. IV, 15</cite>."
+					]
+				}
+			],
+			"stem": "Ithpol."
+		}
+	]
+}

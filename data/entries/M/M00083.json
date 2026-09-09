@@ -1,0 +1,22 @@
+{
+	"id": "M00083",
+	"slug": "מבורא",
+	"headword": {
+		"text": "מַבּוֹרָא"
+	},
+	"page": {
+		"number": 725,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"M00096\"><he>מַבָּרָא</he></cite>) <i>ferry-man</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 94a\">Ḥull. 94ᵃ</cite> <he>מַבּוֹרִין</he> (not <he>מבוריה</he>) our ferry-man, v. <cite ref=\"Q00741\"><he>פִּיס</he></cite> ch."
+			]
+		}
+	]
+}

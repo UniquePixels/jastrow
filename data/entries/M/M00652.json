@@ -1,0 +1,31 @@
+{
+	"id": "M00652",
+	"slug": "מוריקא",
+	"headword": {
+		"text": "מוֹרִיקָא"
+	},
+	"page": {
+		"number": 750,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00654\"><he>יְרַק</he></cite>) <i>crocus, saffron</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 4:14\">Targ. Cant. IV, 14</cite>.—[<cite ref=\"Aramaic Targum to Psalms 113:9\">Targ. Ps. CXIII, 9</cite>, v. <cite ref=\"J00654\"><he>יְרַק</he></cite>.]—",
+				"<cite ref=\"Jerusalem Talmud Kilayim 2:6:2\">Y. Kil. II, 28ᵃ</cite>, v. <cite ref=\"H01684\"><he>חֲרִיעַ</he></cite>. ",
+				"<cite ref=\"Gittin 70a:17\">Gitt. 70ᵃ</cite>, v. <cite ref=\"D01052\"><he>דַּרְדָּרָא</he></cite>. ",
+				"<cite ref=\"Chullin 47b:2\">Ḥull. 47ᵇ</cite> <he>דדמי … וכמ׳</he> which has the color of cuscuta or saffron; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"M02603\"><he>מָרוֹקָא</he> I</cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

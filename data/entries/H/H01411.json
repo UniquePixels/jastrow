@@ -1,0 +1,50 @@
+{
+	"id": "H01411",
+	"slug": "חסר-2",
+	"headword": {
+		"text": "חֲסַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָסַר"
+		}
+	],
+	"page": {
+		"number": 489,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01410\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 16:18\">Targ. Y. Ex. XVI, 18</cite> (O. ed. Berl. <cite ref=\"H01410\"><he>חַסָּר</he></cite>, oth. ed. <cite ref=\"H01411\"><he>חֲסַר</he></cite>, <cite ref=\"H01388\"><he>חַסִּיר</he></cite>) had less. ",
+				"<cite ref=\"Onkelos Deuteronomy 2:7\">Targ. Deut. II, 7</cite>; a. fr.—",
+				"<cite ref=\"Niddah 68a:4\">Nidd. 68ᵃ</cite> <he>חַסְרַת</he>, v. <cite ref=\"D00196\"><he>דּוּדָא</he></cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַסַּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01410\">same</cite>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lessen, deprive, reduce</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 8:6\">Targ. Ps. VIII, 6</cite>. ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 4:8\">Targ. Koh. IV, 8</cite>; a. fr.—",
+						"<cite ref=\"Sanhedrin 22a:14\">Snh. 22ᵃ</cite> <he>חַסְּרֵיה וכ׳</he> v. <cite ref=\"C01083\"><he>גַּנָּבָא</he></cite>; a. e.—<i>Part. pass.</i> <he>מְחַסַּר</he> (v. <cite ref=\"H01410\">preced.</cite> <i>Pi.</i>) <i>wanting</i>. ",
+						"<cite ref=\"Targum Jonathan on Numbers 11:32\">Targ. Y. Num. XI, 32</cite>.—",
+						"<cite ref=\"Beitzah 24a\">Bets. 24ᵃ</cite>; <cite ref=\"Bekhorot 39a:19\">Bekh. 39ᵃ</cite>, a. fr. <he>חַסּוּרֵי מְחַסְּרָא</he> (or <he>מִיחַסְּרָא</he> <i>Ithpa.</i>) the relation is defective (a clause has been omitted)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

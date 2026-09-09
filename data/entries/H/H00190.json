@@ -1,0 +1,59 @@
+{
+	"id": "H00190",
+	"slug": "חדי",
+	"headword": {
+		"text": "חֲדֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲדָא"
+		}
+	],
+	"page": {
+		"number": 426,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"H00177\"><he>חָדָה</he></cite>, cmp. <he>חדר</he>)<i>to be bright, glad; to rejoice</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:63\">Targ. O. Deut. XXVIII, 63</cite> ed. Berl. (oth. ed. a. Y. <cite ref=\"H00190\"><he>חַדֵּי</he></cite>, incorr.). ",
+				"<cite ref=\"Aramaic Targum to Psalms 122:1\">Targ. Ps. CXXII, 1</cite>; a. fr.—",
+				"<cite ref=\"Pesachim 68b:13\">Pes. 68ᵇ</cite> <he>חֲדָאִי נפשאי</he> (Ms. M. <he>נפש</he>, v. Rabb. D. S. a. l.) be glad, my soul!—",
+				"<cite ref=\"Sanhedrin 39b:17\">Snh. 39ᵇ</cite>; <cite ref=\"Megillah 10b:25\">Meg. 10ᵇ</cite> <he>מי ח׳ קודשא וכ׳</he> (v. Rabb. D. S. a. l.) does the Lord rejoice in the downfall &c.?; a. e. [<cite ref=\"Jerusalem Talmud Sanhedrin 6:6:5\">Y. Snh. VI, 23ᶜ</cite> bot.; <cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 78ᵃ</cite> top, v. next w.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַחְדֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to gladden</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 30:2\">Targ. Ps. XXX, 2</cite>; a. fr.—[<cite ref=\"Onkelos Exodus 28:28\">Targ. O. Ex. XXVIII, 28</cite> <he>ויַחֲדוּן</he>, fr. <cite ref=\"A00996\"><he>אֲחד</he></cite>.]—Y. Snh. l. c., v. infra."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["חַדֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H00189\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 21:7\">Targ. Ps. XXI, 7</cite>; a. e.—Y. Ḥag. l. c. <he>ומְחַדְּיֵי לכין</he> who will entertain you (Y. Snh. l. c. <he>ומַחְדֵּי</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to observe a festival</i>, v. <cite ref=\"H00183\"><he>חֶדְוָה</he></cite>. Y. M. Kat. II, 81ᵇ top <he>מְחַדֵּי את מועדא וכ׳</he> wouldst thou enjoy the festival? Drink &c.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

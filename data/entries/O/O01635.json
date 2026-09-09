@@ -1,0 +1,82 @@
+{
+	"id": "O01635",
+	"slug": "סרך-2",
+	"headword": {
+		"text": "סְרַךְ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1027,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"O01634\">preced.</cite>; cmp. <cite ref=\"O01569\"><he>סָרַח</he> I</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to clutch, hold fast, hang to</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 86b:3\">B. Bath. 86ᵇ</cite> <he>שאני בהמה דסַרְכָא</he> (Ms. R. <he>דמְסָרְכָא</he> <i>Pa.</i>, v. Rabb. D. S. a. l. note "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " it is different with taking possession of an animal, because it clutches (the ground). ",
+			"units": [
+				"<cite ref=\"Chullin 51a:7\">Ḥull. 51ᵃ</cite> <he>אית לה מידי למִיסְרַךְ</he> the animal has something to clutch (when falling, so as to break the shock); <he>והאי לית … למ׳</he> while this (kid) had nothing to cling to. ",
+				"<cite ref=\"Chullin 51a:7\">Ib.</cite> top <he>ליכא מידי למיסרך</he> there is no object for the blood to hang to (around which to coagulate); <he>כיון דאיכא מחט … מיסרך הוה סָרֵיךְ</he> since a needle has been found there, if the perforation had taken place before slaughtering, blood would have clung round it; a. e.—Part. pass. <cite ref=\"O01616\"><he>סָרִיךְ</he></cite>; f. <cite ref=\"O01617\"><he>סְרִיכָא</he></cite>; pl. <cite ref=\"O01632\"><he>סְרִיכִין</he></cite>; <cite ref=\"O01617\"><he>סְרִיכָן</he></cite>. ",
+				"<cite ref=\"Gittin 68b:16\">Gitt. 68ᵇ</cite> <he>שוטה בחדא מילתא לא ס׳</he> an insane person does not cling to one fiction (he will betray his insanity in some other way than merely by repeating the same thing). ",
+				"<cite ref=\"Chullin 46b\">Ḥull. 46ᵇ</cite> <he>הני … דס׳ להדדי</he> two lobes of the lungs which adhere to each other (by a membrane). ",
+				"<cite ref=\"Nedarim 50b:6\">Ned. 50ᵇ</cite> <he>ואם אית כיבא ס׳ עלה</he> if there be a sore in the bowels, it will cling to it (v. <cite ref=\"I00726\"><he>טְרוֹמִיטָא</he></cite>); a. e.—2) <i>to confound</i>, v. infra."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סָרֵיךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O01634\">same</cite>, ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to clutch</i>; (cmp. <cite ref=\"I00667\"><he>טָפַס</he></cite>) <i>to climb</i>. ",
+					"units": [
+						"<cite ref=\"Beitzah 11a:4\">Bets. 11ᵃ</cite> <he>סָרוּכֵי סָרוּךְ וסליקו</he> they clutched and climbed up. ",
+						"<cite ref=\"Bava Kamma 20a:1\">B. Kam. 20ᵃ</cite> <he>סריך סליק וכ׳</he> it climbed, came up and ate &c. ",
+						"<cite ref=\"Bava Kamma 20a:1\">Ib.</cite> <he>לסרוכי ולמסלק</he> (not <he>לסרוכיה</he>; Ms. F. <he>למיסרך</he>, v. Rabb. D. S. a. l. note 30) to climb up; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cling to, adhere</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 111a:10\">Ḥull. 111ᵃ</cite> <he>חלב סָרוּכֵי מְסָרֵיךְ</he> (not <he>סרוכיה</he>) milk adheres (and penetrates), opp. <he>מישרק שריק</he> glides off. ",
+						"<cite ref=\"Avodah Zarah 22b:9\">Ab. Zar. 22ᵇ</cite> <he>מְסָרֵיךְ אבתרה</he> (Ms. M. <he>מִיסְרַךְ סָרֵיךְ</he>) he clings to her (runs after her)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (v. <cite ref=\"O01634\">preced.</cite>) <i>to confound</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 51a:1\">Pes. 51ᵃ</cite> <he>משום דמְסָרְכֵי מילתא</he> (Ms. M. <he>דסריכי</he>; Ms. O. <he>דמְסָרְבֵי מילתא במילתא</he>, v. <cite ref=\"O01513\"><he>סְרַב</he> II</cite>) because they confound one thing with another (if you permit them one thing, they will allow themselves another); <he>הנך אינשי נמי סַרְכֵי מילתא</he> (Ms. M. <he>סְרִיכֵי</he>, Ms. O. <he>מסרבי מילתא במילתא</he>) those people (ignorant Jews) will likewise confound &c.; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיסְּרִיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to cling to</i>. Ab. Zar. l. c. <he>כרון דמִיסְּרִיךְ</he> Rashi (ed. <he>דמיגרי</he>), v. <cite ref=\"C01321\"><he>גְּרֵי</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

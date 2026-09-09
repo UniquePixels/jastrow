@@ -1,0 +1,65 @@
+{
+	"id": "T01009",
+	"slug": "רקב-2",
+	"headword": {
+		"text": "רָקֵב",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רָקַב"
+		}
+	],
+	"page": {
+		"number": 1495,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be perforated, hollow</i>; v. <cite ref=\"T00436\"><he>רוּקְבָּא</he> II</cite>,] <i>to be worm-eaten, rot, decay</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Terumot 6:3\">Tosef. Ter. VI, 3</cite> <he>יִרְקְבוּ</he> must be left to rot (cannot be used). ",
+				"<cite ref=\"Tosefta Terumot 6:4\">Ib. 4</cite> <he>תרום ותִרְקוֹב</he> separate the T’rumah, and let it rot; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְקִיב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T01008\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 141:2\">Yalk. Gen. 141</cite>, v. <cite ref=\"T01008\">preced.</cite> ",
+						"<cite ref=\"Tosefta Gittin 3:2\">Tosef. Gitt. III, 2</cite> same. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 141:2\">Yalk. Gen. 141</cite>, v. <cite ref=\"T01008\">preced.</cite> ",
+						"<cite ref=\"Tosefta Gittin 3:2\">Tosef. Gitt. III, 2</cite> <he>ואיני חושש שמא הִרְקִיבָה תבואה</he> and we need not take into consideration that the grain may have been attacked by worms. ",
+						"<cite ref=\"Tosefta Gittin 3:2\">Ib.</cite> <he>הלך ומצא שהִרְקִיבוּ</he> if he went (to examine) and found that it was ruined <he>הרי זה … עד שתַּרְקִיב וכ׳</he> he must take into consideration (the possibility of having consumed untithed grain) from the time that the grain may have begun to be attacked, or the wine to become sour. Ib. IX (VII), 12 <he>נימוק או שהִירְקִיב</he> if the document is decayed or worm-eaten. Y. Yoma VII, 44ᵇ bot. <he>שם היו מַרְקִיבִין</he> there they were allowed to rot; a. fr.—Esp. <i>to turn into a lump of decayed matter</i> (<cite ref=\"T01011\"><he>רָקָב</he></cite>). ",
+						"<cite ref=\"Nazir 51b:10\">Naz. 51ᵇ</cite> <he>טחנו וחזר וה׳</he> if he powdered the mass taken from the ground, and it turned again into a lump."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to rot, to eat through</i>. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 2:2\">Deut. R. s. 2</cite> <he>ומַרְקִיבָן</he> and eats them through, v. <cite ref=\"M01978\"><he>מָסַס</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִרְקַב"],
+			"senses": [
+				{
+					"gloss": "<i>to be worm-eaten, rot</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 91\">Gen. R. s. 91</cite> <he>גוזר … ונִרְקֶבֶת</he> he decrees concerning the grain, and it is worm-eaten; (Yalk. ib. 148 <he>ומַרְקֶבֶת</he>, <i>Hif.</i>)."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

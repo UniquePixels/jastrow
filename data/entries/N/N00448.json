@@ -1,0 +1,40 @@
+{
+	"id": "N00448",
+	"slug": "נזיר-3",
+	"headword": {
+		"text": "נָזִיר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נְזִירָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 891,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <i><cite ref=\"N00447\">same</cite></i>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>Nazarite</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 6:18\">Targ. Num. VI, 18</cite>; a. fr.—",
+				"<cite ref=\"Bamidbar Rabbah 10:8\">Num. R. s. 10</cite> (ref. to the precautions prescribed for the Nazarite, <cite ref=\"Numbers 6:3\">Num. VI, 3</cite>) <he>מתלא אמר לך לך אמרין</he> (<cite ref=\"L00000\"><he>ל</he></cite>)<he>נ׳ סחור וכ׳</he> the proverb says, go, go, they say (to the) Nazarite, go all around that thou mayest not come near the vineyard; <cite ref=\"Shabbat 13a:10\">Sabb. 13ᵃ</cite>, a. fr. <he>משום לך לך אמרי נ׳ וכ׳</he> as a measure of precaution; a. e.—Pl. <cite ref=\"N00445\"><he>נְזִירִין</he></cite>, <he>נְזִירַיָּא</he>. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 5:4:1\">Y. Naz. V, end, 54ᵇ</cite>; <cite ref=\"Bereishit Rabbah 91:3\">Gen. R. s. 91</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>crowned, nobleman</i>. <i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 4:7\">Targ. Lam. IV, 7</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

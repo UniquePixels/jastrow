@@ -1,0 +1,29 @@
+{
+	"id": "C00836",
+	"slug": "גירעון",
+	"headword": {
+		"text": "גֵּירָעוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "גֵּרָ׳"
+		}
+	],
+	"page": {
+		"number": 243,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"C00824\"><he>גֵּירוּעַ</he> I</cite>) <i>deduction</i>. ",
+			"units": [
+				"<cite ref=\"Arakhin 25b:30\">Arakh. 25ᵇ</cite> <he>בת ג׳</he> subject to the law of deduction. ",
+				"<cite ref=\"Mishnah Arakhin 9:7\">Ib. IX, 7</cite> (<cite ref=\"Arakhin 33a:29\">33ᵃ</cite>) <he>ובג׳ כסף … יוצאים</he> go back to their owners in the year of Jubilee or with a deduction from the purchasing price (<cite ref=\"Leviticus 25:27\">Lev. XXV, 27</cite>). ",
+				"<cite ref=\"Mishnah Kiddushin 1:2\">Kidd. I, 2</cite> (of the Hebrew slave); a. e."
+			]
+		}
+	]
+}

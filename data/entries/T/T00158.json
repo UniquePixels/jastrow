@@ -1,0 +1,67 @@
+{
+	"id": "T00158",
+	"slug": "רגג",
+	"headword": {
+		"text": "רְגַג"
+	},
+	"page": {
+		"number": 1447,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to be restless, anxious</i>,] <i>to desire, long, covet</i>. Imperf. <he>יֵירוֹג</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 5:18\">Targ. Deut. V, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 12:20\">Targ. Y. ib. XII, 20</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 84:3\">Targ. Ps. LXXXIV, 3</cite> <he>רְגָגַת</he> Ms. (ed. <he>רִגְגַת</he>, <cite ref=\"T00053\"><he>רִי׳</he></cite>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Psalms 68:17\">Ib. LXVIII, 17</cite> Ms. (ed. <i>Pa.</i>); a. fr.—<i>Part.</i> <cite ref=\"T00186\"><he>רָגִיג</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 63:2\">Ib. LXIII, 2</cite>.—V. <cite ref=\"T00186\"><he>רָגִיג</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַגֵּיג"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00157\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Joshua 7:21\">Targ. Josh. VII, 21</cite> <he>רַגִּיגְתִּנוּן</he> (ed. Wil. <he>רְגַגְתִּ׳</he>; ed. Lag. <he>ורגיתינון</he>, Var. <he>ורגגת</he>). ",
+						"<cite ref=\"Aramaic Targum to Song of Songs 2:3\">Targ. Cant. II, 3</cite>; a. fr.—<i>Part. pass.</i> <he>מְרַגַּג</he>; f. <he>מְרַגְּגָא</he> &c. <i>desirable, precious</i>. ",
+						"<cite ref=\"Onkelos Genesis 2:9\">Targ. Gen. II, 9</cite> (not <he>גֵּג …</he>). ",
+						"<cite ref=\"Targum Jonathan on Genesis 27:15\">Targ. Y. ib. XXVII, 15</cite>. ",
+						"<cite ref=\"Aramaic Targum to Lamentations 2:4\">Targ. Lam. II, 4</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["רַגְרֵג"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00157\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 132:13\">Targ. Ps. CXXXII, 13</cite> ed. Lag. (oth. ed. <i>Pa.</i>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 42:2\">Ib. XLII, 2</cite> Ms. (ed. <i>Pa.</i>); a. e."
+					]
+				}
+			],
+			"stem": "Palpel."
+		},
+		{
+			"forms": ["אִתְרַגֵּג"],
+			"senses": [
+				{
+					"gloss": ", <i>Ithpalp</i>. <he>אִתְרַגְרֵג</he> same. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 13:4\">Targ. Prov. XIII, 4</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 23:3\">Ib. XXIII, 3</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

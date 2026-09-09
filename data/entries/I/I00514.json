@@ -1,0 +1,23 @@
+{
+	"id": "I00514",
+	"slug": "טלמיא",
+	"headword": {
+		"text": "טַלְמָיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 538,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"I00167\"><he>טוּלְמָא</he> I</cite>) <i>cake-baker</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 5:10:1\">Koh. R. to V, 10</cite>. [Y. Snh. II, 20ᶜ bot. <he>מנהם טלמא</he>, perh. <he>מנחם טלמיא</he>.]"
+			]
+		}
+	]
+}

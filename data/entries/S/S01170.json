@@ -1,0 +1,23 @@
+{
+	"id": "S01170",
+	"slug": "קירוס-1",
+	"headword": {
+		"text": "קֵירוֹס",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1369,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (καῖρος) <i>the row of slips</i> or <i>thrums</i> in the loom to which the threads of the warp are attached. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 13:2\">Sabb. XIII, 2</cite> (<cite ref=\"Shabbat 105a\">105ᵃ</cite>), v. <cite ref=\"N00787\"><he>נִיר</he> IV</cite>; expl. Y. ib. 14ᵃ <he>בק׳ קירומה</he> (not <he>בקיריס</he>) <i>ḳeros</i> is (καίρωμα) the arrangement of slips &c."
+			]
+		}
+	]
+}

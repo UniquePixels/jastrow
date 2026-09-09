@@ -1,0 +1,29 @@
+{
+	"id": "Q01802",
+	"slug": "פריטא",
+	"headword": {
+		"text": "פְּרִיטָא"
+	},
+	"page": {
+		"number": 1226,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"Q01667\"><he>פְּרוּטָה</he></cite>, <i>small change; money.—</i>Pl. <he>פְּרִיטִין</he>, <cite ref=\"Q01786\"><he>פְּרִיטַיָּיא</he></cite>, <he>פְּרִיטֵי</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 14:25\">Targ. Y. Deut. XIV, 25</cite>.—",
+				"<cite ref=\"Bava Batra 165b:20\">B. Bath. 165ᵇ</cite> <he>פ׳ דכספא</he> small silver coins. ",
+				"<cite ref=\"Bava Batra 166a:1\">Ib. 166ᵃ</cite> <he>פ׳ דדהבא לא וכ׳</he> people do not use gold for small change. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:6:4\">Y. Kidd. I, 61ᵃ</cite> top [read:] <he>סמיכא גבי הדין פ׳ למחר למחר וכ׳</he> relying on it that he will collect the money (for the cow) the next day; but the next day &c.; <he>בעאי אינון פ׳</he> (not <he>בעא</he>) I want that money. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:12\">Y. Ber. II, 5ᵃ</cite> top <he>לית לי פ׳</he> I have no money; <cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite> end <he>ולבתר … ונסב פְּרִיטָיךְ</he> (not <he>פריעיך</he>, <he>פרועיך</he>) after a time I shall come and get thy money (for the clothes). ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:3:13\">Y. Ab. Zar. II, 41ᵃ</cite> bot. <he>אסור למיתן פ׳ וכ׳</he> you must not put coins in your mouth; a. v. fr.—",
+				"<cite ref=\"Kohelet Rabbah 11:9:1\">Koh. R. to XI, 9</cite> <he>פריוטי</he>, read: <he>פְּרִיטוֹי</he>, v. <cite ref=\"O01387\"><he>סְפַן</he></cite>; Pesik. Shub., p. 164ᵇ, v. <cite ref=\"Q02099\"><he>פְּשַׁר</he></cite>. ",
+				"<cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23-24</cite> <he>דילמא הוא בעי פ׳ יתר</he> (not <cite ref=\"Q01803\"><he>פריטות</he></cite>) maybe he wants more money."
+			]
+		}
+	]
+}

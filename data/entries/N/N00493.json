@@ -1,0 +1,34 @@
+{
+	"id": "N00493",
+	"slug": "נחירה",
+	"headword": {
+		"text": "נְחִירָה"
+	},
+	"page": {
+		"number": 894,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00515\"><he>נָחַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>stabbing</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 17a:12\">Ḥull. 17ᵃ</cite> <he>נ׳ שלהן וכ׳</he> the stabbing of them is named <i>sh’ḥiṭah</i>. ",
+				"<cite ref=\"Chullin 17a:12\">Ib.</cite> <he>בשר נ׳</he> flesh of an animal killed by stabbing (instead of ritual cutting). ",
+				"<cite ref=\"Mishnah Keritot 5:1\">Ker. V, 1</cite> <he>דם נ׳</he> blood of a stabbed animal; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the mucous discharge of a healing wound</i>. ",
+			"units": ["<cite ref=\"Niddah 64b:29\">Nidd. 64ᵇ</cite>"],
+			"label": "2"
+		}
+	]
+}

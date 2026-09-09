@@ -1,0 +1,34 @@
+{
+	"id": "T00990",
+	"slug": "רצם",
+	"headword": {
+		"text": "רָצַם"
+	},
+	"page": {
+		"number": 1494,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"T01001\"><he>רָצץ</he></cite>) <i>to press, flatten</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Niddah 3:4:2\">Y. Nidd. III, 50ᵈ</cite> <he>אין סנדל אלא שרְצָמוֹ חי</he> a sandal fœtus (v. <cite ref=\"O01178\"><he>סַנְדָּל</he></cite>) occurs only when a live fœtus has been pressing on it."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִרְצַם"],
+			"senses": [
+				{
+					"gloss": "<i>to be pressed, flattened</i>. Bab. ",
+					"units": [
+						"<cite ref=\"Niddah 25b:39\">Nidd. 25ᵇ</cite> <he>מתחלתו ולד הוא אלא שנ׳</he> Ar. (ed. <he>שנרצף</he>) the <i>sandal</i> was originally a normal embryo, but was flattened by pressure, v. supra. ",
+						"<cite ref=\"Beitzah 28b:5\">Bets. 28ᵇ</cite> <he>שפוד שנ׳</he> a roasting spit which has been crushed (and its point broken off), contrad. to <he>שנרצף</he>, v. <cite ref=\"T00995\"><he>רָצַף</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

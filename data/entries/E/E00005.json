@@ -1,0 +1,60 @@
+{
+	"id": "E00005",
+	"slug": "הא-1",
+	"headword": {
+		"text": "הָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 327,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (demonstr. pronoun) <i>this</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 26a:5\">Yoma 26ᵃ</cite> <he>הא שכיחא והא וכ׳</he> the one is a frequent (daily) performance, but the other is rare. ",
+				"<cite ref=\"Berakhot 2a:13\">Ber. 2ᵃ</cite> <he>והא קמ״ל</he> and this he intimates. ",
+				"<cite ref=\"Berakhot 4b:13\">Ib. 4ᵇ</cite> <he>והא דקאמרי וכ׳</he> and as to this (the fact) that they say, ‘Until midnight’, it is said in order to prevent &c. ",
+				"<cite ref=\"Berakhot 9a:14\">Ib. 9ᵃ</cite> <he>הא דר׳ אחא</he> as to this (opinion) of R. Aḥa. ",
+				"<cite ref=\"Berakhot 15b:10\">Ib. 15ᵇ</cite> <he>הא דידיה והא דרביה</he> the one represents his own opinion, the other that of his teacher; a. v. fr.—הא והא <i>both</i>. ",
+				"<cite ref=\"Taanit 25a:18\">Taan. 25ᵃ</cite> bot.; a. fr.—Contractions: <he>הָנַיְחָא</he> = <he>הא ניחא</he> this would be right. ",
+				"<cite ref=\"Yoma 3a\">Yoma 3ᵃ</cite>; a. fr.—<he>וְהָדְתַנְיָא</he> = <he>והא דת׳</he> and as to it being taught in the Boraitha. ",
+				"<cite ref=\"Bava Kamma 12a:18\">B. Kam. 12ᵃ</cite>; a. fr.—With prefixes: <he>דְּהָא</he> <i>of this</i>. ",
+				"<cite ref=\"Yoma 13b:3\">Yoma 13ᵇ</cite> <he>דגיטא דהא וכ׳</he> that the letter of divorce for this wife is invalid; a. fr.—<he>אַהָא</he> = <he>על הא</he> <i>referring to this</i>. ",
+				"<cite ref=\"Ketubot 40b:13\">Keth. 40ᵇ</cite> <he>אַתּוּן אהא וכ׳</he> ye cited it (Resh Lakish’s opinion) with reference to that, we used to cite it with reference to this; a. fr.—2) <i>here, here is</i>. ",
+				"<cite ref=\"Onkelos Genesis 22:7\">Targ. Gen. XXII, 7</cite>; a. fr.—",
+				"<cite ref=\"Bava Kamma 12a:18\">B. Kam. 12ᵃ</cite> <he>הא עולא וכ׳</he> here is (the opinion of) Ulla, here &c.; a. fr.—3) (as conjunction) [<i>there is this</i>,] "
+			],
+			"senses": [
+				{
+					"gloss": " introducing a self-evident consequent, <i>then of course</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 13a:12\">Yoma 13ᵃ</cite> <he>מיתה הך הא קיימא הא</he> if that one dies, there is the other one living; a. fr.—דְּהָא <i>for, of course</i>. ",
+						"<cite ref=\"Berakhot 3b:23\">Ber. 3ᵇ</cite> <he>דהא אשה וכ׳</he> for, of course, a woman is not liable to be found in the open field; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " introducing a counter-argument, [<i>here is a case speaking against you</i>,] <i>but, is’nt it?</i> &c. Ib. 4ᵇ <he>ואי אמרת … הא לא קא סמך … דהא וכ׳</he> and if you be right in saying that one must &c.; then he failed to do so, since he had to say <i>hashkibenu</i> between. Ib. 9ᵇ <he>הא בליליא נמי וכ׳</he> are they not by night, too, distinguishable?—Ib. 13ᵃ <he>לקרות והא קא קרי</he> you say, ‘if he directed his heart’ (Mish. ib. II, 1) means the intention to read in the Law? well, was he not reading?—Ib. <he>ולרבי נמי הא כתיב שמע</he> but according to Rabbi’s opinion, too, does not the text say <i>sh’ma</i> (you must understand)?—Contractions: <cite ref=\"K01339\"><he>הָכְתִיב</he></cite> = <he>הא כתיב</he>, <he>הָאֲמַר</he> = <he>הא אמר</he>, <he>הָתַנְיָא</he> = <he>הא תניא</he> do we not read?, did he not say?, has it not been taught? &c. ",
+					"units": [
+						"<cite ref=\"Yoma 26a:5\">Yoma 26ᵃ</cite>. ",
+						"<cite ref=\"Rosh Hashanah 34b:12\">R. Hash. 34ᵇ</cite>. ",
+						"<cite ref=\"Berakhot 14b:4\">Ber. 14ᵇ</cite>; a. fr.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " introducing an inference of limitation, <i>this means to say but</i>.—Ib. 13ᵇ <he>מקרא</he> … <he>הא מיגנא ש״ד</he> <i>read</i> he dare not (while lying on his back), but sleeping in that position is permitted?, <he>והא ר׳ וכ׳</he> but did’nt R. … say &c.?—",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Sukkah 5:1:2\">Y. Succ. V, beg. 55ᵃ</cite> (ref. to Mishnah: ‘playing the flute &c.) <he>הא של קרבן דוחה</he> this allows the inference that at offerings the playing does supersede the Sabbath.—[<cite ref=\"Targum Jonathan on Exodus 7:23\">Targ. Y. Ex. VII, 23</cite> <he>הא</he> some ed., read <cite ref=\"D00003\"><he>דָּא</he></cite>.]"
+					],
+					"label": "c"
+				}
+			]
+		}
+	]
+}

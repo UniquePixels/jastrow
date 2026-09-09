@@ -1,0 +1,22 @@
+{
+	"id": "M00512",
+	"slug": "מולכנא",
+	"headword": {
+		"text": "מוֹלְכָנָא"
+	},
+	"page": {
+		"number": 743,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01571\"><he>מְלַךְ</he></cite>) <i>counsel</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 21:29\">Targ. Y. I Num. XXI, 29</cite>.  v. <cite ref=\"M01585\"><he>מִלְכָּנָא</he></cite>."
+			]
+		}
+	]
+}

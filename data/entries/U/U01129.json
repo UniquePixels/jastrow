@@ -1,0 +1,22 @@
+{
+	"id": "U01129",
+	"slug": "שכול",
+	"headword": {
+		"text": "שַׁכּוּל"
+	},
+	"page": {
+		"number": 1571,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01160\"><he>שָׁכַל</he></cite>)<i>bereft of whelps</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei DeRabbi Eliezer 37:2\">Pirké d’R. El. ch. XXXVII</cite> <he>שעומד … כדוב ש׳ וכ׳</he> who stands on the road like a bear bereft of her whelps ready to kill mother and children."
+			]
+		}
+	]
+}

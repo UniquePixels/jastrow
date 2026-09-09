@@ -1,0 +1,43 @@
+{
+	"id": "J00471",
+	"slug": "יסר-2",
+	"headword": {
+		"text": "יְסַר"
+	},
+	"page": {
+		"number": 583,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"J00470\">same</cite><i>to tie, put on</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 15:3\">Targ. Is. XV, 3</cite> <he>יֵיסְרוּן וכ׳</he> ed. Lag. (ed. <he>יִסְרוּן</he>; h. text <he>חגרו</he>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to bind one’s self, to vow</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 30:3\">Targ. Num. XXX, 3</cite>, sq.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 2:12:2\">Y. Taan. II, 66ᵃ</cite> top (quot. fr. Meg. Taan. ch. XII) <he>יֵיסַר בצלו</he> (Meg. Taan. l. c. <he>יאסר</he>) may vow (a fast) in his prayer; Bab. ",
+				"<cite ref=\"Taanit 12a:6\">Taan. 12ᵃ</cite> (v. corr. vers. Ms. M. in Rabb. D. S. a. l. notes); v. <cite ref=\"A02551\"><he>אֲסַר</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְיַיסַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be tried</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 2:16\">Cant. R. to II, 16</cite> <he>ר׳ י׳ א׳ ועבד וכ׳</he> R. J. was tried and suffered with fever &c."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

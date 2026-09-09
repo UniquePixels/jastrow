@@ -1,0 +1,41 @@
+{
+	"id": "M00679",
+	"slug": "מוש-2",
+	"headword": {
+		"text": "מוּשׁ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 751,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"M00678\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 27:12\">Targ. O. Gen. XXVII, 12</cite>; a. e.—2) (perh. fr. <cite ref=\"M02985\"><he>מְשַׁשׁ</he></cite>; cmp. <he>משמש</he>) <i>to handle, attend to, prepare</i>. ",
+				"<cite ref=\"Moed Katan 27b\">M. Kat. 27ᵇ</cite> <he>תֵּימוּשׁ האי איתתא וכ׳</he> (v. Rabb. D. S. a. l. note; ed. incorr.) let that woman have her shroud in readiness. ",
+				"<cite ref=\"Bava Kamma 92b:5\">B. Kam. 92ᵇ</cite> <he>אוכפא לגביך מוֹשׁ</he> prepare a saddle for thy back, v. <cite ref=\"A00655\"><he>אוּכָּפָא</he></cite>."
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָמֵישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to allow to touch</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 16:26\">Targ. Jud. XVI, 26</cite> <he>ואֲמִישֵׁנִי</he> (ed. Lag. <he>ואמשני</he>, v. <cite ref=\"M02795\"><he>מְשָׁא</he></cite>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

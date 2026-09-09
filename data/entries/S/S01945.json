@@ -1,0 +1,26 @@
+{
+	"id": "S01945",
+	"slug": "קרום",
+	"headword": {
+		"text": "קְרוּם"
+	},
+	"page": {
+		"number": 1414,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02087\"><he>קָרַם</he></cite>) <i>skin, membrane</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 1:1\">Neg. I, 1</cite>, a. e. <he>כק׳ ביצה</he> the color of the membrane surrounding the egg. ",
+				"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite>, v. <cite ref=\"M00453\"><he>מוֹחַ</he></cite>. ",
+				"<cite ref=\"Chullin 43a:13\">Ib. 43ᵃ</cite> <he>ק׳ שעלה … אינו ק׳</he> a membrane formed in consequence of a wound in the gullet is no membrane (to make the gullet sound). ",
+				"<cite ref=\"Chullin 56a:10\">Ib. 56ᵃ</cite> <he>קְרוּמוֹ רך</he> its membrane is tender; a. fr.—Pl. <he>קְרוֹמִין</he>. ",
+				"<cite ref=\"Chullin 57b:6\">Ib. 57ᵇ</cite>, v. <cite ref=\"S01948\"><he>קְרוֹמִית</he></cite>."
+			]
+		}
+	]
+}

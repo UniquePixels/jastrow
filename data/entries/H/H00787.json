@@ -1,0 +1,29 @@
+{
+	"id": "H00787",
+	"slug": "חילק-1",
+	"headword": {
+		"text": "חֵילֶק",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "חֵלֶק"
+		}
+	],
+	"page": {
+		"number": 457,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>ḥelek</i>, name of a small fish preserved in brine, <i>ḥelek-brine</i>. [Latin: alec, alex, halec, allec, the variations indicating foreign origin; cmp. <cite ref=\"H00791\"><he>חֶילְקָא</he> II</cite>.] <cite ref=\"Mishnah Avodah Zarah 2:6\">Ab. Zar. II, 6</cite> (Mish. Nap. <he>חלק</he>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 39a:2\">Ib. 39ᵃ</cite>, expl. <cite ref=\"O00330\"><he>סוּלְתָּנִית</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 34b:2\">Ib. 34ᵇ</cite> <he>ח׳ אומן</he> <i>ḥelek</i>-brine prepared by a professional man."
+			]
+		}
+	]
+}

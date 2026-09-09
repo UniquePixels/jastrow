@@ -1,0 +1,32 @@
+{
+	"id": "H01846",
+	"slug": "חשך-2",
+	"headword": {
+		"text": "חֲשַׂךְ"
+	},
+	"page": {
+		"number": 510,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"H01392\"><he>חָסַךְ</he></cite>) <i>to spare, withhold</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 13:24\">Targ. Prov. XIII, 24</cite> <cite ref=\"H01845\"><he>חָשֵׂךְ</he></cite>, <cite ref=\"H01834\"><he>חָשֵׂיךְ</he></cite> (part.). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 17:27\">Ib. XVII, 27</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַחְשַׂךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to deduct</i>. Y. Pes. IV, end, 31ᶜ <he>מַחְשַׂכְנָא</he> (not <he>מחשב׳</he>), v. <cite ref=\"C00313\"><he>גּוֹדְלָנָא</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

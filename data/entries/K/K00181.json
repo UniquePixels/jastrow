@@ -1,0 +1,42 @@
+{
+	"id": "K00181",
+	"slug": "כובא-2",
+	"headword": {
+		"text": "כּוּבָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 616,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"K00180\">preced.</cite>; cmp. <cite ref=\"K00099\"><he>כַּד</he> II</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>wine cask</i> (h. . ",
+			"units": [
+				"<cite ref=\"Shabbat 48a\">Sabb. 48ᵃ</cite>. ",
+				"<cite ref=\"Avodah Zarah 60a:4\">Ab. Zar. 60ᵃ</cite> <he>נכרי אדנא וישראל אכ׳</he> the gentile attending to the barrel (emptying it) and the Israelite to the cask (receiving the wine). ",
+				"<cite ref=\"Avodah Zarah 60a:4\">Ib.</cite> <he>כ׳ מליא</he> (if the gentile carries) a cask which is brimful. ",
+				"<cite ref=\"Shabbat 141a:16\">Sabb. 141ᵃ</cite> [read:] <he>לא ליצדד … כ׳ בארעא</he> (v. Rabb. D. S. a. l. note) one must not (on the Sabbath) bend sideways a cask which rests in the ground; a. e.—Pl. <he>כּוּבֵּי</he>. ",
+				"<cite ref=\"Avodah Zarah 33b:7\">Ab. Zar. 33ᵇ</cite> <he>אנס הני כ׳ וכ׳</he> carried casks away from Pumbeditha by force. ",
+				"<cite ref=\"Bava Metzia 25b\">B. Mets. 25ᵇ</cite>.—בי כ׳ <i>the retailer’s wine shop</i>. ",
+				"<cite ref=\"Bava Kamma 86a:6\">B. Kam. 86ᵃ</cite>; <cite ref=\"Bava Metzia 64b:8\">B. Mets. 64ᵇ</cite> <he>מרקיד בי כ׳</he> he dances in the wine house."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K00193\"><he>כּוֹבַע</he></cite>, <cite ref=\"A02901\"><he>אֲקוִּנְבִּי</he></cite>), pl. <he>כּוּבֵּי</he> <i>turrets</i> of a fort. ",
+			"units": [
+				"<cite ref=\"Yoma 11a:4\">Yoma 11ᵃ</cite> <he>חזוק אקרא דכ׳</he> a support for the Fort of Turrets (of M’ḥuza); [Ms. L. <he>ליוקרא דכ׳</he> for the weight of &c.; v. Rabb. D. S. a. l. note 400.]—",
+				"<cite ref=\"Kiddushin 70b:10\">Kidd. 70ᵇ</cite> <he>בי כ׳ דפומבדיתא</he> the fort of P.—[<cite ref=\"Megillah 6a:10\">Meg. 6ᵃ</cite> <he>בי כ׳</he> ed. (Ms. M. <cite ref=\"K00915\"><he>כסי</he></cite>, Ms. O. <he>מִכְסֵי</he>); <cite ref=\"Ketubot 112a:1\">Keth. 112ᵃ</cite> <he>מִיכְסֵי</he>.]"
+			],
+			"label": "2"
+		}
+	]
+}

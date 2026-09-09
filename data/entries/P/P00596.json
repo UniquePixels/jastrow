@@ -1,0 +1,29 @@
+{
+	"id": "P00596",
+	"slug": "עימעום-2",
+	"headword": {
+		"text": "עִימְעוּם",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עִמְ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1071,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>ʿImʿum</i> (Emmaus, v. <cite ref=\"A01966\"><he>אִמָּאוּס</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Keritot 3:7\">Ker. III, 7</cite> (<cite ref=\"Keritot 15a:9\">15ᵃ</cite>) <he>איטליס של ע׳</he> Bab. ed. (Mish. <he>אמאום</he>) the bazaar of I.; <cite ref=\"Makkot 14a:7\">Macc. 14ᵃ</cite>. <he>איטליז של עימאום</he> (early eds. <cite ref=\"P00595\"><he>עימעום</he></cite>, v. Rabb. D. S. a. l. note 4)."
+			]
+		}
+	]
+}

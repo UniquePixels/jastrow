@@ -1,0 +1,30 @@
+{
+	"id": "A00835",
+	"slug": "אוקיינוס",
+	"headword": {
+		"text": "אוֹקְיָינוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹקְיָנוֹס"
+		},
+		{
+			"text": "אוֹקְיָאנוֹס"
+		}
+	],
+	"page": {
+		"number": 32,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Ὠκέανος) <i>Ocean</i>, mostly <i>Mediterranean Sea</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 1:7\">Targ. Y. Gen. I, 7</cite>; a. e.—Y. Ḥall. IV, 60ᵃ bot.; a. fr.—Tanḥ. Ḥaye 3, and so is <he>א׳ ים המת</he> the Okeanos called the Sea of (covering) the dead. [Var. <cite ref=\"A02297\"><he>אונק׳</he></cite>, <he>אנק׳</he>.]"
+			]
+		}
+	]
+}

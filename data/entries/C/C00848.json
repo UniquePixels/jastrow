@@ -1,0 +1,48 @@
+{
+	"id": "C00848",
+	"slug": "גל",
+	"headword": {
+		"text": "גַּל"
+	},
+	"page": {
+		"number": 243,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>גלל</he>)<i>heap of stones, bones</i> &c., esp. <i>rubbish, ruins</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 9:2\">Sot. IX, 2</cite> if the body of a murdered person was found <he>טמון בג׳</he> buried in a heap. ",
+				"<cite ref=\"Ketubot 15b:2\">Keth. 15ᵇ</cite> <he>לפקח עליו את הג׳</he> as to removing debris for saving one’s life (on the Sabbath). ",
+				"<cite ref=\"Shabbat 34a:2\">Sabb. 34ᵃ</cite> <he>עשהו ג׳ של עצמות</he> changed him into a heap of bones; a. fr.—Pl. <cite ref=\"C00951\"><he>גַּלִּים</he></cite>, <cite ref=\"C00929\"><he>גַּלִּין</he></cite>. ",
+				"<cite ref=\"Mishnah Niddah 9:5\">Nidd. IX, 5</cite>. ",
+				"<cite ref=\"Mishnah Kilayim 1:2\">Kil. I, 2</cite>, v. <cite ref=\"H00572\"><he>חֲזֶרֶת</he></cite>. Cmp. <cite ref=\"C00719\"><he>גִּילָּא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>wave, billow</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 5:6\">Mikv. V, 6</cite> <he>ג׳ שנתלש</he> a wave thrown on shore. ",
+				"<cite ref=\"Yevamot 121a:13\">Yeb. 121ᵃ</cite>; a. fr.—Pl. as above. ",
+				"<cite ref=\"Shemot Rabbah 19:7\">Ex. R. s. 19</cite> <he>הגיעוה ג׳</he> waves overcame her, i.e. she encountered storms; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>revolving door, turning on hinges or pivots</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 81a:2\">Sabb. 81ᵃ</cite> <he>של ג׳</he> the pivot of a revolving door. V. <cite ref=\"C00883\"><he>גִּלָּה</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "(v. LXX <cite ref=\"Hosea 12:12\">Hos. XII, 12</cite>) <i>turtoise</i>. <i>Pl.</i> as above. Sifra Sh’mini, ch. IV, Par. 3.",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

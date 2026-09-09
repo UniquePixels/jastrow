@@ -1,0 +1,23 @@
+{
+	"id": "S02042",
+	"slug": "קריון",
+	"headword": {
+		"text": "קֵרְיוֹן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1420,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κηρίων) <i>wax-candle</i>.—Pl. <he>קֵרְיוֹנִין</he>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 36\">Ex. R. s. 36</cite> (ed. <cite ref=\"S01942\"><he>קרוינין</he></cite>, <cite ref=\"S02068\"><he>קרינין</he></cite>, corr. acc.), v. <cite ref=\"O00545\"><he>סִיבַק</he></cite>."
+			]
+		}
+	]
+}

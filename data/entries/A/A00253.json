@@ -1,0 +1,37 @@
+{
+	"id": "A00253",
+	"slug": "אגדתא",
+	"headword": {
+		"text": "אֲגַדְתָּא"
+	},
+	"page": {
+		"number": 11,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (= h. <cite ref=\"A00247\"><he>אֲגָדָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>Agadah, homiletic literature</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 60b:11\">B. Kam. 60ᵇ</cite> opp. <cite ref=\"U01520\"><he>שמעתתא</he></cite>. ",
+				"<cite ref=\"Sotah 49a:8\">Sotah 49ᵃ</cite> <he>יהא שמיה רבא דא׳</he> (abbr. <he>יה״ש״ר</he>) the <i>kaddish</i> (prayer) after lectures. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 16:1:6\">Y. Sabb. XVI, 15ᶜ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the Haggadah</i>, i.e. <i>the recitations for the Passover night</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 115b:5\">Pes. 115ᵇ</cite> <he>א׳ והלילא</he> Haggadah and Hallel. ",
+				"<cite ref=\"Pesachim 116b:9\">Ib. 116ᵇ</cite> <he>מאן דאמר א׳ וכ׳</he> who recited the Hag. in the house of R. Joseph (who was blind)?"
+			],
+			"label": "2"
+		}
+	]
+}

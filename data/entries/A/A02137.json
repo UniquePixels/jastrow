@@ -1,0 +1,26 @@
+{
+	"id": "A02137",
+	"slug": "אנדרפטא",
+	"headword": {
+		"text": "אִנְדְּרַפְטָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אִנְדְּרַפְתָּא"
+		}
+	],
+	"page": {
+		"number": 82,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (prob. Pers.) <i>Indrafta</i>, name of two species of birds, one called <i>Shabur And.</i>, and permitted, the other <i>Peruz And.</i>, and forbidden. ",
+			"units": ["<cite ref=\"Chullin 62b:8\">Ḥull. 62ᵇ</cite>"]
+		}
+	]
+}

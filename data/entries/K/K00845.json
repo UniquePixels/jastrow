@@ -1,0 +1,33 @@
+{
+	"id": "K00845",
+	"slug": "כנופיא",
+	"headword": {
+		"text": "כְּנוּפְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּינּוּפְיָא"
+		}
+	],
+	"page": {
+		"number": 648,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>כְּנַף</he> I) <i>crowd, assembly</i> (cmp. <cite ref=\"D00231\"><he>דּוֹחֲקָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 33:25\">Targ. Y. Num. XXXIII, 25</cite> (transl. <he>מקהלות</he>) <he>אתר כ׳</he>.—",
+				"<cite ref=\"Shabbat 60b:18\">Sabb. 60ᵇ</cite> <he>איכא כי׳</he> there is a large gathering (in synagogues &c.). ",
+				"<cite ref=\"Shabbat 60b:18\">Ib.</cite> <he>כי׳ דאיסורא</he> gathering on a day when labor is not permitted. ",
+				"<cite ref=\"Rosh Hashanah 27a:14\">R. Hash. 27ᵃ</cite> <he>כל כי׳ דכסף הוא</he> all signals for assemblies were blown on silver horns. ",
+				"<cite ref=\"Yoma 51a:5\">Yoma 51ᵃ</cite> <he>אתי בכ׳</he> is offered by large crowds. ",
+				"<cite ref=\"Gittin 11a:9\">Gitt. 11ᵃ</cite> <he>כ׳ דארמאי</he> Ar. a. Rashi (ed. <he>כְּנוּפְיָאתָא</he> pl.) popular assemblies of gentiles, opp. <cite ref=\"P01379\"><he>ערכאות</he></cite>, v. <cite ref=\"P01381\"><he>עַרְכִי</he></cite>. ",
+				"<cite ref=\"Bava Kamma 113a:9\">B. Kam. 113ᵃ</cite> <he>וכי לדידכו כְּנוּפַיְכוּ</he> is your gathering (v. <cite ref=\"K00691\"><he>כַּלָּה</he></cite>) held for your individual benefit? (Var. v. <cite ref=\"K00872\"><he>כְּנַף</he> I</cite>).—Pl. <he>כְּנוּפְיָאתָא</he>, v. supra."
+			]
+		}
+	]
+}

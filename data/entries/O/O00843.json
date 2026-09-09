@@ -1,0 +1,29 @@
+{
+	"id": "O00843",
+	"slug": "סירחא-2",
+	"headword": {
+		"text": "סִירְחָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סִרְ׳"
+		}
+	],
+	"page": {
+		"number": 987,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סְרַח</he> III) <i>stench, decay</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 26a:8\">Succ. 26ᵃ</cite> <he>משום ס׳ דגרגישתא</he> on account of the bad odor of the clay (on the floor of the Succah). ",
+				"<cite ref=\"Bava Kamma 82b:13\">B. Kam. 82ᵇ</cite> (Rashi <cite ref=\"O00844\"><he>סֵירָחוֹן</he></cite>), v. <cite ref=\"O00844\">next w.</cite>"
+			]
+		}
+	]
+}

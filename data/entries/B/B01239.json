@@ -1,0 +1,55 @@
+{
+	"id": "B01239",
+	"slug": "ברי-5",
+	"headword": {
+		"text": "בָּרִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּרִיא"
+		}
+	],
+	"page": {
+		"number": 192,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"B01153\"><he>בָּרָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>in natural condition</i>, whence (cmp. <cite ref=\"A01655\"><he>אֵיתָן</he></cite>) <i>healthy, strong, stout, fat</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 147b\">B. Bath. 147ᵇ</cite> sq. (opp. sick). ",
+				"<cite ref=\"Jerusalem Talmud Nazir 6:3:4\">Y. Naz. VI, 55ᵇ</cite> top (opp. <cite ref=\"V01068\"><he>תש</he></cite>, of tender build); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sound, sure, evident</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 1:1:16\">Y. Succ. I, 52ᵇ</cite> top; <cite ref=\"Jerusalem Talmud Pesachim 2:4:11\">Y. Pes. II, 29ᵇ</cite> bot. <he>דבר ב׳ שלא וכ׳</he> it is sure that he did not &c.—<he>ב׳ לי</he> I am sure. ",
+				"<cite ref=\"Chullin 10a:8\">Ḥull. 10ᵃ</cite>; a. fr.—<he>ב׳ ושמא</he> ‘sure’ and ‘perhaps’, the plea of two litigants, one asserting a certainty, the other pleading ignorance or offering a possible alternative. ",
+				"<cite ref=\"Ketubot 12b:6\">Keth. 12ᵇ</cite>; <cite ref=\"Bava Metzia 37b:5\">B. Mets. 37ᵇ</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>sound, firm</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite> honey <he>ב׳ כאבן</he> as solid as a stone; a. fr.—Pl. <he>בְּרִיאִים</he>. ",
+				"<cite ref=\"Vayikra Rabbah 17:1\">Lev. R. s. 17</cite> <he>ב׳ כאולם</he> as sound as the Temple hall.—",
+				"<cite ref=\"Chullin 84a:22\">Ḥull. 84ᵃ</cite> <he>ממשפחת ב׳</he> of a healthy, stout family; a. fr.—Fem. <cite ref=\"B01242\"><he>בְּרִיאָה</he></cite>. ",
+				"<cite ref=\"Kiddushin 71b:12\">Kidd. 71ᵇ</cite> <he>בבל ב׳</he> Babylon is sound (as to purity of descent). ",
+				"<cite ref=\"Eruvin 62a:7\">Erub. 62ᵃ</cite> <he>שכירות ב׳</he> a sound (legitimate) lease, opp. <he>רעועה</he> rickety; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Eruvin 1:3:6\">Y. Erub. I, 19ᵃ</cite> <cite ref=\"B01261\"><he>בְּרִיָּיה</he></cite> a strong, solid rafter.—Pl. <cite ref=\"B01243\"><he>בְּרִיאוֹת</he></cite>, <cite ref=\"B01251\"><he>בְּרִיּיוֹת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 1:3:6\">Ib.</cite> top <he>ברויות</he> ed. Krot. (corr. acc.)."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "R00064",
+	"slug": "צבעון-2",
+	"headword": {
+		"text": "צִבְעוֹן",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צִי׳"
+		}
+	],
+	"page": {
+		"number": 1259,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>צָבַע</he> II) <i>color, dyed stuff.—</i>Pl. <he>צִבְעוֹנִים</he>, <he>צִי׳ וצִבְעוֹנִין</he>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 20:1\">Pesik. R. s. 20</cite> <he>הראהו ארבע צ׳ וכ׳</he> he showed him the four colors in the Tabernacle (<cite ref=\"Exodus 26:1\">Ex. XXVI, 1</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 7:7:2\">Y. Keth. VII, 31ᶜ</cite> <he>נדרה … בגדי צ׳</he> if a woman vows … not to wear dyed (expensive) clothes; <he>כלי פשתן … ככלי צ׳ הן</he> the fine linen garments from Beth Shean are like dyed clothes (included in the vow). ",
+				"<cite ref=\"Shabbat 57b:13\">Sabb. 57ᵇ</cite> <he>עניות עושין אותן של מיני צ׳ עשירות וכ׳</he> poor women make them (those garlands) of dyed wool, the rich of silver or gold; Y. ib. VI, 7ᵈ <he>צובעין תותבן</he>, read: <he>צבעונין או זהובין</he>."
+			]
+		}
+	]
+}

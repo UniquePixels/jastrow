@@ -1,0 +1,86 @@
+{
+	"id": "R00118",
+	"slug": "צדק-1",
+	"headword": {
+		"text": "צָדַק"
+	},
+	"page": {
+		"number": 1263,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; reduplic. of <he>זק</he>; cmp. <cite ref=\"G00443\"><he>זָכָה</he></cite>) [<i>to be clear, pure, sincere</i>,] <i>to be right, true, just; to be cleared</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 4:3:2\">Y. Snh. IV, 22ᵇ</cite> top <he>יכול אם צ׳ בדינך יִצְדַּק בדיני</he> you may think, if he (the guilty) is cleared in thy court, he will also be cleared in my (God’s) court."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צִדֵּק"],
+			"senses": [
+				{
+					"gloss": " (cmp. <he>זכה</he>) <i>to act in favor of a person; to be liberal</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 88b:4\">B. Bath. 88ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 25:15\">Deut. XXV, 15</cite>) <he>צַדֵּק משלך ותן לו</he> be liberal with what is thine own and give it to him, i.e. add overweight and overmeasure (<cite ref=\"C00821\"><he>גֵּירוּמִים</he></cite>); <cite ref=\"Chullin 134a:14\">Ḥull. 134ᵃ</cite> (ref. to the poor man’s share). ",
+						"<cite ref=\"Bamidbar Rabbah 2:8\">Num. R. s. 2</cite> (ref. to <he>ואתן צדק</he> <cite ref=\"Job 26:3\">Job XXVI, 3</cite>) <he>צי׳ עמהם שלא וכ׳</he> the Lord dealt kindly with them in not changing their arrangements."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to justify, declare or consider a person right; to defend</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 49:9\">Gen. R. s. 49</cite> (ref. to <cite ref=\"Psalms 45:8\">Ps. XLV, 8</cite>) <he>אהבת לצַדֵּק את בריותי וכ׳</he> thou (Abraham) lovest to defend my creatures, and hatest to condemn them. Y. Snh. IV, beg. 22ᵃ <he>צַדְּקֵיהוּ</he> consider him to be right (a true witness), opp. <he>חקריהו</he> cross-examine him; <cite ref=\"Devarim Rabbah 5:6\">Deut. R. s. 5</cite>.—Esp. <he>צ׳ את הדין</he> <i>to justify God’s judgment, to submit to divine dispensation as just, to punishment as deserved</i>. Sifra Sh’mini, introd. <he>כיון ששמע אהרן כך צ׳ … ושתק</he> when Aaron heard this, he submitted to divine judgment and kept his peace (<cite ref=\"Leviticus 10:3\">Lev. X, 3</cite>). ",
+						"<cite ref=\"Leviticus 10:3\">Ib.</cite> <he>אברהם צי׳ עליו וכ׳</he> Abraham resigned himself to God’s will, for we read (<cite ref=\"Genesis 18:27\">Gen. XVIII, 27</cite>), ‘I am dust and ashes’. ",
+						"<cite ref=\"Genesis 18:27\">Ib.</cite> <he>צִידְּקוּ עליהם וכ׳</he> they resigned themselves &c. Y. Sot. VIII, 22ᶜ bot. <he>צ̇ד̇ק̇יהו שצ̇יר̇ק̇ עליו וכ׳</he>. Shallum was surnamed Zedekiah (justifier of God), because he justified God’s judgment upon him. ",
+						"<cite ref=\"Avodah Zarah 18a:5\">Ab. Zar. 18ᵃ</cite> <he>בשעה שיצאו … צידקו עליהם וכ׳</he> all three of them, when they were taken out for execution, resigned themselves &c. (reciting an appropriate Bible verse); a. fr.—Part. pass. <he>מְצוּדָּק</he>; pl. <he>מְצוּדָּקִים</he>. Mekh. Mishp., s. 20 (ref. to <cite ref=\"Exodus 23:8\">Ex. XXIII, 8</cite>) <he>שונא דברים המצ׳ וכ׳</he> he will hate the justified words (the exhortations to justice) spoken at Sinai; <cite ref=\"Yalkut Shimoni on Torah 353:1\">Yalk. Ex. 353</cite> (not <he>דברי</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִצְדִּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to justify, clear, declare to be right; to make virtuous</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 10a:9\">Snh. 10ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 25:1\">Deut. XXV, 1</cite>) <he>עדים שהרשיעו את הצדיק ואתו … והִצְדִּיקוּ וכ׳</he> when witnesses denounced an innocent man, and other witnesses came and justified him that was right, and thus exposed those (first witnesses) as wicked men; <cite ref=\"Makkot 2b\">Macc. 2ᵇ</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 21\">Gen. R. s. 21</cite> (ref. to <cite ref=\"Psalms 16:5\">Ps. XVI, 5</cite>) <he>לכשיקיץ … אני מַצְדִּיקוֹ מאותה גזרה</he> when he that is created in thine (Adam’s) image shall awake (when the Messiah comes) …, then I shall clear him from this decree (of expulsion from Eden). ",
+						"<cite ref=\"Vayikra Rabbah 4:1\">Lev. R. s. 4</cite>, beg. (ref. to <cite ref=\"Ecclesiastes 3:16\">Koh. III, 16</cite>) <he>מקום שהִצְדַּקְתִּים וכ׳</he> there where I made them virtuous and called them divine beings …, there they acted wickedly &c. ",
+						"<cite ref=\"Bereishit Rabbah 43:6\">Gen. R. s. 43</cite> (ref. to <cite ref=\"Genesis 14:18\">Gen. XIV, 18</cite>) <he>המקום הזה מַצְדִּיק וכ׳</he> this place (Salem-Jerusalem) makes its inhabitants righteous.—ה׳ עליו את הדין <i>to deal strictly with</i>. ",
+						"<cite ref=\"Taanit 8a:16\">Taan. 8ᵃ</cite> <he>כל המצדיק … מַצְדִּיקִין עליו את הדין וכ׳</he> he who makes himself righteous here below (who strives for righteousness) is judged righteously (strictly dealt with) in the judgment above (cmp. ",
+						"<cite ref=\"Yevamot 121b\">Yeb. 121ᵇ</cite> quot. s. v. <cite ref=\"D00989\"><he>דִּקְדֵּק</he></cite>). ",
+						"<cite ref=\"Horayot 11b:18\">Hor. 11ᵇ</cite> (play on <he>צדקיהו</he>) <he>אמר לו יה יַצְדִּיק עליך וכ׳</he> he (Nebuchadnezzar) said to him, Yah shall deal strictly with thee, if thou wilt rebel against me; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to treat with</i> <cite ref=\"R00122\"><he>צְדָקָה</he></cite>, <i>to be liberal towards</i>. Y. Peah IV, end 18ᶜ (alluding to <cite ref=\"Psalms 82:3\">Ps. LXXXII, 3</cite>) <he>עני ורש הַצְדִּיקוּהוּ במתנותיו</he> (not <he>ועשיר</he>) treat the poor and needy liberally as regards the gifts belonging to him (v. ",
+					"units": [
+						"<cite ref=\"Chullin 134a:14\">Ḥull. 134ᵃ</cite> quot. supra).—3) <he>ה׳ את הדין</he> <i>to submit to divine judgment, be resigned</i> (v. supra). Sifra l. c. <he>למודים צדיקים שמַצְדִּיקִים וכ׳</he> the righteous are wont to resign themselves to the will of God. ",
+						"<cite ref=\"Taanit 11a:13\">Taan. 11ᵃ</cite> <he>מצדיק עליו וכ׳</he> he acknowledges the justice of the verdict and says, you have judged me rightly &c. ",
+						"<cite ref=\"Berakhot 19a:19\">Ber. 19ᵃ</cite> <he>והוא עומד ומצדיק וכ׳</he> he (the mourner) stands up and declares the judgment to be just &c.; a. fr.—<i>Part. pass.</i> <he>מוּצְדָּק</he> <i>justified, lawfully qualified</i>. ",
+						"<cite ref=\"Gittin 86a\">Gitt. 86ᵃ</cite> (in a Chaldaic formula of sale of a slave) <he>מ׳ לעבדו</he>, v. <cite ref=\"P00019\"><he>עַבְדּוּתָא</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִצְטַדֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to justify one’s self, excuse one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 92\">Gen. R. s. 92</cite> (ref. to <cite ref=\"Genesis 44:16\">Gen. XLIV, 16</cite>) <he>מה נִצְטַּדָּק בדינה</he> how can we justify ourselves for what we have done in the case of Dinah (that we killed the Shechemites)? &c.; Yalk. ib. 150."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

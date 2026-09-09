@@ -1,0 +1,22 @@
+{
+	"id": "U01260",
+	"slug": "שלוק-1",
+	"headword": {
+		"text": "שָׁלוּק"
+	},
+	"page": {
+		"number": 1579,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01380\"><he>שָׁלַק</he></cite>) <i>boiled preserves</i>.—Pl. <he>שְׁלוּקִים</he>, <he>שׁלוּקִין</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:4:5\">Y. Sabb. I, 3ᶜ</cite> bot. <he>שְׁלוּקֵיהֶן</he> boiled preserves made by gentiles."
+			]
+		}
+	]
+}

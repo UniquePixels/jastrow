@@ -1,0 +1,34 @@
+{
+	"id": "I00493",
+	"slug": "טלי-2",
+	"headword": {
+		"text": "טְלֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְלָא"
+		}
+	],
+	"page": {
+		"number": 536,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (<cite ref=\"I00492\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to lift up</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 9:5:1\">Koh. R. to IX, 5</cite> <he>טְלִי טליתיך</he> lift up thy cloak (<cite ref=\"Berakhot 18a:12\">Ber. 18ᵃ</cite> <he>דלי־</he>).—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to sport</i>, v. <cite ref=\"I00510\"><he>טְלַל</he> II</cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,79 @@
+{
+	"id": "O00063",
+	"slug": "סבך-1",
+	"headword": {
+		"text": "סָבַךְ"
+	},
+	"page": {
+		"number": 949,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to interweave, interlace</i>, esp. <i>to make a hedge</i> or <i>dam</i> with twigs, stones &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 3:8\">Shebi. III, 8</cite> <he>לא יִסְבּוֹךְ בעפר</he> Ms. M. a. R. S. a. l. (ed. <he>יסמוך</he>) he must not cover the dam with earth, opp. <he>עושה חייץ</he>, v. <cite ref=\"H00744\"><he>חַיִיץ</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִסְבַּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be caught, entangled</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 29\">Lev. R. s. 29</cite>, a. e., v. <cite ref=\"N00591\"><he>נָטַשׁ</he> II</cite>. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 782\">Yalk. Num. 782</cite>, v. infra; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִסְתַּבֵּךְ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִסְתּבֵּךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00062\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 56\">Gen. R. s. 56</cite> <he>מִסְתַּבְּכִין בצרות</he> entangled in troubles. ",
+						"<cite ref=\"Bereishit Rabbah 56\">Ib.</cite> [read:] <he>עתידין בניך להִסְתַּבֵּךְ במלכיות ונמשכין ממלכות למלכות</he> thy children will be entangled (come in conflict) with successive empires, and be drawn from empire to empire; <cite ref=\"Yalkut Shimoni on Torah 782:14\">Yalk. Num. 782</cite> <he>נִסְבָּכִין</he>. ",
+						"<cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite> <he>ונ׳ בשערו</he> and the chaff stuck in his hair. Y. Sabb. VII, 10ᵃ bot. <he>נִסְתַּבְּכוּ בגדיו וכ׳</he> if his garments were caught in thorns; a. e."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["הוּסְבָּךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00062\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Peah 7:3\">Peah VII, 3</cite> [read:] <he>עקץ … ה׳ בעלים ונפל לארץ וכ׳</he> if he cut a cluster off by its stalk, and it was intercepted by the foliage, and in falling to the ground single berries fell off."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["סִבֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to entangle</i>. [Y. Kil. II, end, 28ᵇ <he>מסבכין</he>, some ed., v. <cite ref=\"O00903\"><he>סָכַךְ</he></cite>.]—Part. pass. <he>מְסוּבָּךְ</he>. ",
+					"units": [
+						"<cite ref=\"Chullin 30b:9\">Ḥull. 30ᵇ</cite> <he>תחת צמר מס׳</he> if he put the slaughtering knife under the entangled wool (on the animal’s neck). ",
+						"<cite ref=\"Moed Katan 6a:2\">M. Kat. 6ᵃ</cite> top <he>במְסוּבָּכִין</he> when the trees in the field are irregularly scattered (not planted in rows). ",
+						"<cite ref=\"Sotah 48a\">Sot. 48ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Nach 292\">Yalk. Is. 292</cite> (ref. to <cite ref=\"A03052\"><he>ארזה</he></cite>, <cite ref=\"Zephaniah 2:14\">Zeph. II, 14</cite>) <he>בית המסובך בארזים</he> a house which lies in a thicket of cedars."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

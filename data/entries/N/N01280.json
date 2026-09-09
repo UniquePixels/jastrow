@@ -1,0 +1,32 @@
+{
+	"id": "N01280",
+	"slug": "נש",
+	"headword": {
+		"text": "נָשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָשָׁא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 937,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"A01394\"><he>אִינָשׁ</he></cite>, only in <cite ref=\"N00541\"><he>בַּר נ׳</he></cite> <i>son of man, human being</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 7:1\">Targ. Job VII, 1</cite>; <cite ref=\"Aramaic Targum to Job 7:20\">20</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Demai 1:3:11\">Y. Dem. I, 22ᵃ</cite> top; a. v. fr.—Pl. <cite ref=\"N01300\"><he>נָשָׁא</he></cite>, <he>בְּנֵי נָשׁ</he>, also <he>בְּנֵי נָשֵׁי</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 62:10\">Targ. Ps. LXII, 10</cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 60:8\">Gen. R. s. 60</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:4:9\">Y. Shek. V, end, 49ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

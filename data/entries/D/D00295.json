@@ -1,0 +1,30 @@
+{
+	"id": "D00295",
+	"slug": "דונאטיבא",
+	"headword": {
+		"text": "דּוֹנָאטִיבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דּוֹנָטִיבָא"
+		}
+	],
+	"page": {
+		"number": 286,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (donativa, pl.) <i>imperial donations</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 10\">Gen. R. s. 10</cite>, end (<he>בה …</he>, corr. acc.); <cite ref=\"Yalkut Shimoni on Torah 16:17\">Yalk. ib. 16</cite> <he>דונאט׳</he>. ",
+				"<cite ref=\"Shemot Rabbah 41:4\">Ex. R. s. 41</cite> <cite ref=\"D00300\"><he>דונה טיבה</he></cite> some ed. (corr. acc.). ",
+				"<cite ref=\"Bamidbar Rabbah 7:3\">Num. R. s. 7</cite>; a. fr."
+			]
+		}
+	]
+}

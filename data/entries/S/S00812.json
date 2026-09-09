@@ -1,0 +1,25 @@
+{
+	"id": "S00812",
+	"slug": "קטף-3",
+	"headword": {
+		"text": "קְטָף"
+	},
+	"page": {
+		"number": 1352,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00811\">preced.</cite>) [<i>incision</i>,] <i>resin gained by tapping, balsam</i>; <he>עץ הק׳</he> (or sub. <cite ref=\"P01088\"><he>עץ</he></cite>) <i>balsam-tree</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 7:6\">Shebi. VII, 6</cite> <he>אין לק׳ וכ׳</he> the law of the Sabbatical year does not apply to the balsam tree; <cite ref=\"Tosefta Shevi'it 5:12\">Tosef. ib. V, 12</cite> <he>יש לק׳ שביעית</he> (ed. Zuck. <he>לקט בש׳</he>, corr. acc.) the law does apply; <cite ref=\"Jerusalem Talmud Orlah 1:5:5\">Y. Orl. I, 61ᵇ</cite> bot. ",
+				"<cite ref=\"Niddah 8b:26\">Nidd. 8ᵇ</cite> <he>קְטָפוֹ זה פריו</he> its resin is its fruit. ",
+				"<cite ref=\"Keritot 6a:42-51\">Ker. 6ᵃ</cite> <he>הצרי</he> … <he>מעצי ק׳</he> <i>tsŏri</i> is the sap that drips from resinous trees. ",
+				"<cite ref=\"Bereishit Rabbah 91:11\">Gen. R. s. 91</cite>, v. <cite ref=\"B00894\"><he>בַּלְסָם</he></cite>; a. fr."
+			]
+		}
+	]
+}

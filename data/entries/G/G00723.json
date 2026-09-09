@@ -1,0 +1,54 @@
+{
+	"id": "G00723",
+	"slug": "זרע-2",
+	"headword": {
+		"text": "זְרַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 414,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"G00722\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 6:3\">Targ. Jud. VI, 3</cite>; a. fr.—Part. <cite ref=\"G00723\"><he>זָרֵעַ</he></cite>, (<cite ref=\"G00710\"><he>זְרִיעַ</he></cite>) <cite ref=\"G00710\"><he>זָרֵיעַ</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:18\">Targ. Prov. XI, 18</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Isaiah 28:25\">Targ. Is. XXVIII, 25</cite> <he>זָרְעֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 32:20\">Ib. XXXII, 20</cite> <he>זָרְעִין</he>.—",
+				"<cite ref=\"Rosh Hashanah 16a:4\">R. Hash. 16ᵃ</cite> <he>לִיזְרַע חרפא</he> let him sow early seed (barley &c.). ",
+				"<cite ref=\"Jerusalem Talmud Peah 7:3:15\">Y. Peah VII, 20ᵇ</cite> top <he>הוה ז׳ חקלא וכ׳</he> planted carrots on his field; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִזְדָּרַע"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִזְדְּרַע"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"G00722\">preced.</cite> <i>Nif.</i> ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 29:22\">Targ. O. Deut. XXIX, 22</cite>; a. e.—Y. Peah l. c. <he>אִזְדַּרְעוּן</he> they have been planted."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אַזְרַע"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"G00722\">preced.</cite> <i>Hif.</i> Y. Kil. I, 27ᵃ bot. <he>ומַזְרְעִין</he> and they copulated.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

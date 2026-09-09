@@ -1,0 +1,23 @@
+{
+	"id": "C01140",
+	"slug": "גניזה",
+	"headword": {
+		"text": "גְּנִיזָה"
+	},
+	"page": {
+		"number": 259,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גנז</he>) <i>removal of sacred objects</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 16:1\">Sabb. XVI, 1</cite> <he>טעונים ג׳</he> must be removed (in case of their being unfit for use). ",
+				"<cite ref=\"Megillah 26b:15\">Meg. 26ᵇ</cite> <he>זו היא גְנִיזָתָן</he> this (their use for shrouds) is their removal.—[<cite ref=\"Pesachim 118b:20\">Pes. 118ᵇ</cite> <he>בית גניזה</he>, v. <cite ref=\"C01122\"><he>גֵּנֶז</he></cite>)."
+			]
+		}
+	]
+}

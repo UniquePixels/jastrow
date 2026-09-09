@@ -1,0 +1,36 @@
+{
+	"id": "B00916",
+	"slug": "בלש-1",
+	"headword": {
+		"text": "בָּלַשׁ"
+	},
+	"page": {
+		"number": 175,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>בל</he>, v. <cite ref=\"B00880\"><he>בלל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " *<i>to hack and break the clods of earth</i> (v. <cite ref=\"B00253\"><he>בּוּל</he> II</cite>; v. Sm. Ant. s. v. Raster). ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 36\">Lev. R. s. 36</cite> on setting a vine <he>בּוֹלְשִׁין אותה וכ׳</he> (read <he>אותן</he>) you first break them (the large stony clods) under it and then you plant it. Cmp. <cite ref=\"A00165\"><he>אַבְלוֹשָׁא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (law) <i>to search</i> (for concealed goods &c.) <i>to hold a visitation</i>. Denom. <cite ref=\"B00919\"><he>בַּלְשִׁי</he></cite> &c.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (milit.) <i>to patrol</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 1:7\">Midd. I, 7</cite> <he>לִבְלוֹשׁ וכ׳</he> to patrol the Temple."
+			],
+			"label": "3"
+		}
+	]
+}

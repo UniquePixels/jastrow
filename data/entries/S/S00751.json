@@ -1,0 +1,40 @@
+{
+	"id": "S00751",
+	"slug": "קטין-2",
+	"headword": {
+		"text": "קַטִּין",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קַטִּינָא",
+			"homograph": 1
+		},
+		{
+			"text": "קַטִּינְתָּא"
+		}
+	],
+	"page": {
+		"number": 1348,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00794\"><he>קטן</he></cite>) <i>slender, thin, fine</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 62b:8\">Zeb. 62ᵇ</cite> <he>דאריך וק׳</he> that the altar may be long and narrow (an oblong instead of a square). ",
+				"<cite ref=\"Bava Metzia 85a:18\">B. Mets. 85ᵃ</cite>, v. <cite ref=\"H01625\"><he>חֲרוֹכָא</he></cite>. ",
+				"<cite ref=\"Arakhin 13b:66\">Arakh. 13ᵇ</cite> <he>ק׳ קלייהו</he> their voices were fine (high tenor), opp. <cite ref=\"P00007\"><he>עב</he></cite>, v. <cite ref=\"S00733\"><he>קְטַט</he></cite>. Y. Maas. Sh. IV, end, 55ᶜ <he>חמית</he> … <he>רגלי ק׳</he> I saw in my dream that my foot was emaciated. ",
+				"<cite ref=\"Chullin 48b:12\">Ḥull. 48ᵇ</cite> <he>ק׳</he> a thin pin. ",
+				"<cite ref=\"Eichah Rabbah 3:23\">Lam. R. to III, 19</cite> (prov.) <he>עד דשמינא עביד ק׳ נפשיה דק׳ וכ׳</he> by the time the stout becomes thin, the life of the thin is gone out (until the mighty are punished, the weak perish); a. e.—<he>ארעא ק׳</he>, v. next w.—Pl. <cite ref=\"S00754\"><he>קַטִּינֵי</he></cite>; f. <cite ref=\"S00756\"><he>קַטִּינָתָא</he></cite>. ",
+				"<cite ref=\"Bava Metzia 89a:6\">B. Mets. 89ᵃ</cite> <he>משליף ק׳ וכ׳</he> he pulls out the slender onions from among the large. ",
+				"<cite ref=\"Yevamot 43a:18\">Yeb. 43ᵃ</cite> <he>ק׳</he> thin (fine) combs, v. <cite ref=\"A01862\"><he>אַלִּים</he></cite>. ",
+				"<cite ref=\"Pesachim 112b:11\">Pes. 112ᵇ</cite> <he>גרמי ק׳</he> thin bones. ",
+				"<cite ref=\"Eruvin 65a:18\">Erub. 65ᵃ</cite>, v. <cite ref=\"N00367\"><he>נוּם</he></cite> ch.; a. e."
+			]
+		}
+	]
+}

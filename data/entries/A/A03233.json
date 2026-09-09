@@ -1,0 +1,23 @@
+{
+	"id": "A03233",
+	"slug": "ארקא-1",
+	"headword": {
+		"text": "אַרְקָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 125,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"A03221\"><he>אַרְעָא</he></cite>, cmp. <he>רקק</he>, v. <cite ref=\"A03230\"><he>אֶרֶץ</he></cite>) <i>earth</i>. ",
+			"units": [
+				"<cite ref=\"Jeremiah 10:11\">Jer. X, 11</cite>.—Pesik. Baḥod. p. 155ᵃ; <cite ref=\"Bereishit Rabbah 13:12\">Gen. R. s. 13</cite>; a. e."
+			]
+		}
+	]
+}

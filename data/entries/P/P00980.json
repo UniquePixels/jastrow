@@ -1,0 +1,23 @@
+{
+	"id": "P00980",
+	"slug": "עניבה-2",
+	"headword": {
+		"text": "עֲנִיבָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1094,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = <cite ref=\"P00943\"><he>עִנְּבָא</he></cite>, <i>berry</i>; <he>ע׳ דפילא</he> <i>elephant’s berry</i>, name of a plant the stalk of which is quadrangular. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shevuot 3:8:4\">Y. Shebu. III, 34ᵈ</cite> bot.; <cite ref=\"Jerusalem Talmud Maasrot 5:3:8\">Y. Maasr. V, end, 52ᵃ</cite> <he>אביבא דפ׳</he> (read: <he>אֲנִיבָא</he>); <cite ref=\"Jerusalem Talmud Nedarim 3:2:4\">Y. Ned. III, 37ᵈ</cite> bot. <he>ארכובה דיעלא</he> (prob. to be read: <he>דפילא</he>) <i>elephant’s foot</i> (elephantopos)."
+			]
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"id": "N01139",
+	"slug": "נצץ-1",
+	"headword": {
+		"text": "נָצַץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "נוּץ"
+		}
+	],
+	"page": {
+		"number": 929,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"R00224\"><he>צוּץ</he></cite>)<i>to sparkle, blossom</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 54a:5\">Erub. 54ᵃ</cite> <he>נוֹצְצִין</he>, v. <cite ref=\"E00536\"><he>הָלָה</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵנֵץ"],
+			"senses": [
+				{
+					"gloss": "<i>to sparkle</i>. Y. Ber. I, 2ᶜ <he>עד שתָּנֵץ החמה</he>; <cite ref=\"Bereishit Rabbah 50\">Gen. R. s. 50</cite>, a. e. (<cite ref=\"Pesachim 93b:13\">Pes. 93ᵇ</cite> <he>עד הנץ</he>), v. <cite ref=\"E00692\"><he>הָנֵץ</he></cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to blossom, sprout</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 4:10\">Shebi. IV, 10</cite> <he>משיָנֵצּוּ</he>; <cite ref=\"Pesachim 53a:1\">Pes. 53ᵃ</cite> <he>משיָנֵיצּוּ</he> (or <he>משיָנִיצוּ</he>) as soon as they blossom (expl. Y. Shebi. IV, end, 35ᶜ <he>משהכניסו רובע</he>, v. <cite ref=\"N01091\"><he>נֵץ</he></cite>). ",
+						"<cite ref=\"Bava Batra 147a:13\">B. Bath. 147ᵃ</cite> <he>בשעה שיניצו</he> (Ms. M. <he>שהֵנֵיצּוּ</he>) when they are in blossom. ",
+						"<cite ref=\"Kohelet Rabbah 12:5\">Koh. R. to XII, 5</cite>, v. <cite ref=\"R00224\"><he>צוּץ</he></cite>; a. fr.—2) <i>to cause to sprout</i>. ",
+						"<cite ref=\"Bereishit Rabbah 28\">Gen. R. s. 28</cite> <he>מֵנֵיץ</he> Ar. (ed. <he>מציץ</he>), v. <cite ref=\"R00224\"><he>צוּץ</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִצְנֵץ"],
+			"senses": [
+				{
+					"gloss": "<i>to sparkle, be enkindled</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 84\">Gen. R. s. 84</cite> <he>נִיצְנְצָה בו רוה״ק</he> the spirit of prophecy was enkindled within him; <cite ref=\"Shir HaShirim Rabbah 1:12\">Cant. R. to I, 12</cite>. ",
+						"<cite ref=\"Midrash Tehillim 90\">Midr. Till. to Ps. XC</cite>, end, <he>נ׳ עליו מזיו וכ׳</he> a ray of the Divine Glory shone upon him, v. <cite ref=\"G00104\"><he>זָהַר</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to sprout, grow</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 6:10:1\">Cant. R. to VI, 10</cite> <he>מְנַצְנֶצֶת ובאה</he> spreads wider and wider; (<cite ref=\"Midrash Tehillim 22:9\">Midr. Till. to Ps. XXII</cite> <he>מנפצת</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pilp."
+		}
+	]
+}

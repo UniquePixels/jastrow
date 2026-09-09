@@ -1,0 +1,22 @@
+{
+	"id": "O01270",
+	"slug": "סס",
+	"headword": {
+		"text": "סָס"
+	},
+	"page": {
+		"number": 1009,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>moth</i>, <i>worm</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 9b\">Yoma 9ᵇ</cite> <he>ארז מגור מן הסס</he> Ms. L. (v. Rabb. D. S. a. l. note 200) a cedar sawed out by the worm, v. <cite ref=\"O01274\"><he>סַסְמָגוֹר</he></cite>."
+			]
+		}
+	]
+}

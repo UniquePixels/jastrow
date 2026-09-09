@@ -1,0 +1,30 @@
+{
+	"id": "K01310",
+	"slug": "כשכש-1",
+	"headword": {
+		"text": "כִּשְׁכֵּשׁ"
+	},
+	"page": {
+		"number": 676,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"K01333\"><he>כשש</he></cite>; cmp. <cite ref=\"C01410\"><he>גִּשְׁגֵּשׁ</he></cite>) <i>to knock, strike, move to and fro, shake</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 20a:12\">Bets. 20ᵃ</cite> <he>כ׳ להם בזנבה</he> (Ms. M. <he>כ׳ לה</he>) he made for them (in their presence) striking movements with the animal’s tail (making believe it was a female); Y. ib. II, 61ᶜ top <he>התחיל מְכַשְׁכֵּשׁ בזנבה</he>; <cite ref=\"Jerusalem Talmud Chagigah 2:3:5\">Y. Ḥag. II, 78ᵃ</cite> bot.—",
+				"<cite ref=\"Mishnah Chullin 2:6\">Ḥull. II, 6</cite> <he>עד שׁתְּכַשְׁכֵּשׁ בזנבה</he> unless the animal strikes about with its tail (an evidence of vitality). ",
+				"<cite ref=\"Chullin 38a:1\">Ib. 38ᵃ</cite> top <he>כִּישְׁכְּשָׁה באזנה</he> if it shook its ears (with vital force). ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 2:1:5\">Y. B. Kam. II, beg. 2ᵈ</cite>; Bab. ",
+				"<cite ref=\"Bava Kamma 19b:3\">B. Kam. 19ᵇ</cite> <he>כ׳ בזנבה</he> if the beast struck (and did damage) with its tail. ",
+				"<cite ref=\"Bava Kamma 19b:6\">Ib.</cite> <he>כ׳ באמתה</he> (v. <cite ref=\"K01309\">preced.</cite>) if she struck (and did damage) with her fore-leg.—V. <cite ref=\"U01193\"><he>שִׁכְשֵׁךְ</he> II</cite>.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"U01192\"><he>שִׁכְשֵׁךְ</he></cite>; cmp. <cite ref=\"C01182\"><he>גִּעְגֵּעַ</he></cite>) <i>to soothe, pat</i>. Pesik. Zakh. p. 24ᵇ (<cite ref=\"G00078\"><he>את</he></cite>) <he>מְכַשְׁכְּשׁוֹ</he>, v. <cite ref=\"U01192\"><he>שִׁכְשֵׁךְ</he> I</cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

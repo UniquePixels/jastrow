@@ -1,0 +1,36 @@
+{
+	"id": "U00740",
+	"slug": "שטותא",
+	"headword": {
+		"text": "שְׁטוּתָא"
+	},
+	"page": {
+		"number": 1553,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"U00739\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:3\">Targ. Koh. II, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:13\">Ib. 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 25:1\">Targ. Y. Num. XXV, 1</cite> (v. <cite ref=\"U00739\">preced.</cite>); a. fr.—",
+				"<cite ref=\"Shabbat 121b:1\">Sabb. 121ᵇ</cite>; v. <cite ref=\"U00747\"><he>שַׁטְיָא</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite>, end <he>הדר שטיא לאורח שְׁטוּתֵיה</he> the fool will go back to his foolish way (with ref. to <cite ref=\"Proverbs 26:11\">Prov. XXVI, 11</cite>). ",
+				"<cite ref=\"Ketubot 17a\">Keth. 17ᵃ</cite>, v. <cite ref=\"U00386\"><he>שׁוֹטִיתָא</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"U00374\"><he>שׁוּט</he> II</cite>) <i>contempt</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 12:8\">Targ. Prov. XII, 8</cite>.—V. <cite ref=\"U00748\"><he>שַׁטְיוּתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

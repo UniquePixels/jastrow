@@ -1,0 +1,20 @@
+{
+	"id": "B01277",
+	"slug": "ברירה-2",
+	"headword": {
+		"text": "בְּרֵירָה"
+	},
+	"page": {
+		"number": 194,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>ברר</he>) <i>choosing, choice</i>, esp. as a dialectic term, <i>B’rerah, subsequent selection, retrospective designation</i>, i.e. the legal effect resulting from an actual selection or disposal of things previously undefined as to their purpose, e.g. a letter of divorce must be written, with special intention, for the persons concerned; now, “if one says to a scribe, ‘Write for me a letter of divorce for one of my wives whom I may choose to divorce’, none of them can be divorced with it” (<cite ref=\"Mishnah Gittin 3:1\">Gitt. III, 1</cite>), upon which the remark is made (ib. 24ᵇ) <he>הא קא משמע לן דאין ב׳</he> this rule of the Mishnah implies the adoption of the principle that subsequent disposal does not react on the original status of the letter of divorce, so as to say that this subsequent selection is equal to a defined intention at the time when the deed was to be written. [The question of B’rerah, i.e. whether a subsequent disposal has or has not a retrospective legal effect, is widely spread in the Talmud, referring both to judicial as well as to ritual cases.] <cite ref=\"Yoma 55b:5\">Yoma 55ᵇ</cite> <he>ר׳</he> … <he>לית ליה ב׳</he> R. Judah rejects the principle of B’rerah; <cite ref=\"Jerusalem Talmud Shekalim 6:4:2\">Y. Shek. VI, 50ᵇ</cite> <he>אי אמרינן ב׳ וכ׳</he> if we adopt the principle of B., let four Zuz (the value of one offering) be taken out of the bag and thrown into the water, and the balance of the money be permitted for use. ",
+			"units": ["<cite ref=\"Chullin 14b:4\">Ḥull. 14ᵇ</cite>; a. fr."]
+		}
+	]
+}

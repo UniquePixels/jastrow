@@ -1,0 +1,24 @@
+{
+	"id": "P00062",
+	"slug": "עבר-4",
+	"headword": {
+		"text": "עֵבֶר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1040,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00059\"><he>עָבַר</he></cite>)<i>border, bank, side</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 42:8\">Gen. R. s. 42</cite> (expl. <he>העברי</he>, v. <cite ref=\"P00061\">preced.</cite>) <he>כל העולם כולו מֵעֵ׳ אחד וכ׳</he> the whole world was on one side (idolaters), and he (Abraham) on the other side; <he>שהוא מע׳ הנהר וכ׳</he> because he came from the banks of the river (Euphrates), and spoke the Hebrew language (v. <cite ref=\"P00071\"><he>עִבְרִו</he></cite>).—מע׳ לים <i>beyond the sea</i>. ",
+				"<cite ref=\"Eruvin 55a\">Erub. 55ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 30:12\">Deut. XXX, 12</cite>) … <he>אם מע׳ לים לעבור אחריה</he> if the Law be beyond the sea, thou must go over to learn it."
+			]
+		}
+	]
+}

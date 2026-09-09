@@ -1,0 +1,27 @@
+{
+	"id": "H01135",
+	"slug": "חם-3",
+	"headword": {
+		"text": "חָם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 475,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H01201\"><he>חָמַם</he></cite>)<i>warm, hot, boiling</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 75b:2\">Pes. 75ᵇ</cite>, sq.; a. fr.—",
+				"<cite ref=\"Niddah 43a:28\">Nidd. 43ᵃ</cite> <he>בשרו חם</he> his membrum excited.—Pl. <cite ref=\"H01179\"><he>חַמִּים</he></cite>, <cite ref=\"H01182\"><he>חַמִּין</he></cite> (sub. <cite ref=\"M01199\"><he>מים</he></cite>) <i>hot water</i>. ",
+				"<cite ref=\"Shabbat 134b:21\">Sabb. 134ᵇ</cite> <he>ח׳ שהוחמו וכ׳</he> hot water which was made hot on the Sabbath; a. fr.—חַמֵּי טבריה <i>the hot springs of Tiberias</i>, in gen. <i>natural hot water</i>, opp. to <he>חמי האור</he> water heated by fire. ",
+				"<cite ref=\"Chullin 8a:4\">Ḥull. 8ᵃ</cite> (<cite ref=\"Mishnah Negaim 9:1\">Neg. IX, 1</cite> <cite ref=\"M01072\"><he>מֵי</he></cite>); a. fr.—<i>Fem.</i> <cite ref=\"H01152\"><he>חַמָּה</he></cite>. ",
+				"<cite ref=\"Mishnah Makhshirin 3:3\">Makhsh. III, 3</cite> <he>פת ח׳</he> hot bread."
+			]
+		}
+	]
+}

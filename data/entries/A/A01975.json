@@ -1,0 +1,23 @@
+{
+	"id": "A01975",
+	"slug": "אמבטיס",
+	"headword": {
+		"text": "אַמְבָּטֵיס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 74,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἀναβάτης, contr. ἀμβάτης) prop. <i>rider, traveller</i> on horseback &c.; hence (sub. <he>חמור</he>) <i>an ass used for marching</i> through the desert alongside of (and sometimes tied to) the camel. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 5:1:3\">Y. Sabb. V, 7ᵇ</cite> top <he>מהו א׳</he> what is an <i>ambates?</i> <he>חמר סלק</he> the ass of the traveller (from Egypt to Asia). Y. Kel. VIII, 31ᶜ <cite ref=\"A00051\"><he>אבהנוס</he></cite>, <cite ref=\"A00085\"><he>אבחטס</he></cite> (corr. acc.). V. <cite ref=\"L00410\"><he>לִיבְדְּקוֹס</he></cite>."
+			]
+		}
+	]
+}

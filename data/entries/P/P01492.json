@@ -1,0 +1,33 @@
+{
+	"id": "P01492",
+	"slug": "עשנא",
+	"headword": {
+		"text": "עָשְׁנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוֹשְׁ׳"
+		},
+		{
+			"text": "עוּשְׁ׳"
+		}
+	],
+	"page": {
+		"number": 1126,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01491\">preced.</cite>) = h. <cite ref=\"P00386\"><he>עֹז</he></cite>, <i>strength</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 21:2\">Targ. Ps. XXI, 2</cite> <he>בעָשְׁנָךְ</he> (Ms. <he>בעוּשְׁ׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 8:3\">Ib. VIII, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 29:1\">Ib. XXIX, 1</cite> Ms. (ed. <cite ref=\"P00701\"><he>עִישּׁוּנָא</he></cite>; ed. Wil. <cite ref=\"P01492\"><he>עֻשָּׁנָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 10:15\">Targ. Prov. X, 15</cite>; a. fr."
+			]
+		}
+	]
+}

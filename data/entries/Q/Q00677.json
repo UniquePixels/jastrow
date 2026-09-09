@@ -1,0 +1,28 @@
+{
+	"id": "Q00677",
+	"slug": "פילול",
+	"headword": {
+		"text": "פִּילּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "פּלּ׳"
+		}
+	],
+	"page": {
+		"number": 1163,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01075\"><he>פָּלַל</he></cite>) <i>pleading, pillul</i>, one of the terms for prayer. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 26:7\">Sifré Deut. 26</cite>; <cite ref=\"Devarim Rabbah 2\">Deut. R. s. 2</cite>; <cite ref=\"Yalkut Shimoni on Torah 811:1\">Yalk. ib. 811</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 260:4\">Yalk. Ex. 260</cite> <he>עלה פ׳ תפלתן וכ׳</he> (not <he>תכלתן</he>) the pleading of the prayer of the patriarchs arose &c.; (Mekh. B’shall., Vayassʿa, s. 3 <he>עלתה תפלתן</he>)."
+			]
+		}
+	]
+}

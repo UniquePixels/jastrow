@@ -1,0 +1,23 @@
+{
+	"id": "H00079",
+	"slug": "חבישה",
+	"headword": {
+		"text": "חֲבִישָׁה"
+	},
+	"page": {
+		"number": 419,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00125\"><he>חָבַשׁ</he></cite>) <i>imprisonment</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 78b:3\">Snh. 78ᵇ</cite> <he>ח׳ מנא לן</he> whence do we derive the right of committing to prison (to await the result of wounds afflicted)?—",
+				"<cite ref=\"Jerusalem Talmud Yevamot 12:5:2\">Y. Yeb. XII, 12ᵈ</cite> bot. <he>בית ח׳ דר׳ וכ׳</he> the prison where R. Akiba was confined."
+			]
+		}
+	]
+}

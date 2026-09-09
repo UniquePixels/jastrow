@@ -1,0 +1,27 @@
+{
+	"id": "D01154",
+	"slug": "דשתאה",
+	"headword": {
+		"text": "דִּשְׁתָּאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּישְׁ׳"
+		}
+	],
+	"page": {
+		"number": 326,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>דששאה</he>; <he>דשש</he>) <i>thresher</i> or <i>gritsmaker</i>. . ",
+			"units": [
+				"<cite ref=\"Menachot 22a:5\">Men. 22ᵃ</cite>, v. <cite ref=\"D01146\"><he>דַּשְׁיָתָא</he></cite>."
+			]
+		}
+	]
+}

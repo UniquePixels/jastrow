@@ -1,0 +1,34 @@
+{
+	"id": "I00042",
+	"slug": "טבח-2",
+	"headword": {
+		"text": "טְבַח"
+	},
+	"page": {
+		"number": 516,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"I00041\">same</cite>.",
+			"units": [
+				"<cite ref=\"Berakhot 56a:5\">Ber. 56ᵃ</cite> <he>טַבְחַת ולא אכלת</he> thou shalt prepare and not eat. ",
+				"<cite ref=\"Shabbat 129b:7\">Sabb. 129ᵇ</cite> <he>הוה ט׳ להו וכ׳</he> it (the wind or demon <cite ref=\"I00032\"><he>טָבוֹחַ</he></cite>) would have feasted on them (the Israelites), on their flesh and their blood; a. e.—V. <cite ref=\"M00963\"><he>מַטְבְּחַיָּיא</he></cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טַבַּח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00041\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 57:4\">Gen. R. s. 57</cite>, end <he>טבח טַבְּחוֹן</he> Tabaḥ (<cite ref=\"Genesis 22:24\">Gen. XXII, 24</cite>) means, ‘Slaughter them’ v. <cite ref=\"C00594\"><he>גַּחֲמוֹן</he></cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

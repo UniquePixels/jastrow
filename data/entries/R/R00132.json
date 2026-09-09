@@ -1,0 +1,28 @@
+{
+	"id": "R00132",
+	"slug": "צהוב-1",
+	"headword": {
+		"text": "צָהוֹב"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְהוֹבָה"
+		}
+	],
+	"page": {
+		"number": 1264,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"R00130\"><he>צָהֹב</he></cite>)<i>yellow</i>. SifraThazr., Neg., Par. 5, ch. IX <he>החליטו בשיער צ׳</he> if the priest declared him a leper on the ground of yellow hair (<cite ref=\"Leviticus 13:30\">Lev. XIII, 30</cite>). ",
+			"units": [
+				"<cite ref=\"Leviticus 13:30\">Ib.</cite> <he>אחת צ׳ ואחת שחורה</he> one yellow and one black hair. ",
+				"<cite ref=\"Mishnah Negaim 3:5\">Neg. III, 5</cite>; a. fr."
+			]
+		}
+	]
+}

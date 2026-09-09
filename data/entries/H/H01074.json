@@ -1,0 +1,84 @@
+{
+	"id": "H01074",
+	"slug": "חלל-2",
+	"headword": {
+		"text": "חֲלַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 469,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01073\">same</cite><i>to perforate</i>, v. <cite ref=\"H01044\"><he>חָלֵיל</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to degrade, profane</i>. Part. pass. <cite ref=\"H01045\"><he>חָלִיל</he></cite>, f. <cite ref=\"H01047\"><he>חֲלִילָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 21:14\">Targ. O. Lev. XXI, 14</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"H00326\"><he>חוּלָּא</he></cite>) <i>to be profaned</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 22:26\">Targ. Ez. XXII, 26</cite> <he>וְחַלַת</he>."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַלֵּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to desecrate, profane, degrade</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 30:9\">Targ. Prov. XXX, 9</cite>; a. e.—<i>Part. pass.</i> <he>מְחַלַּל</he>, f. <cite ref=\"M00042\"><he>מְחַלְלָא</he></cite>, <cite ref=\"M00887\"><he>מְחַלָּא</he></cite>. ",
+						"<cite ref=\"Onkelos Leviticus 21:7\">Targ. O. Lev. XXI, 7</cite> (ed. Berl. <cite ref=\"M00887\"><he>מַחְלָא</he></cite>, Regia <cite ref=\"M00887\"><he>מְחָלָא</he></cite>).—Y. Kil. IX, 32ᵇ top, a. e. <he>דילמא דחַלְּלִינָן וכ׳</he> did we perhaps desecrate the Sabbath?—",
+						"<cite ref=\"Berakhot 6a\">Ber. 6ᵃ</cite> <he>מְחַלְּלֵי</he> Ms. (ed. <he>מחליין</he>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to redeem</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 44b:10\">B. Mets. 44ᵇ</cite> <he>טבעא אפירא לא מְחַלְּלִינָן</he> we dare not redeem coins with goods."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחֵיל", "אָחֵיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01073\">same</cite>, <i>to desecrate</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 19:8\">Targ. O. Lev. XIX, 8</cite>. ",
+						"<cite ref=\"Targum Jonathan on Amos 2:7\">Targ. Am. II, 7</cite> <he>לאָחָלָא</he> (ed. Lag. <he>לאפסא</he>); a. fr.—Part. pass. f. <cite ref=\"M00887\"><he>מַחְלָא</he></cite>, v. supra."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתָּחַל", "אִתַּחַל"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"H01074\"><he>אִתְּחַל</he></cite> <i>to be profaned</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 36:23\">Targ. Ez. XXXVI, 23</cite> (not <cite ref=\"H01074\"><he>אַתְּחַל</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 7:24\">Ib. VII, 24</cite>; a. fr.—",
+						"<cite ref=\"Sanhedrin 51a\">Snh. 51ᵃ</cite> <he>היכא דמִיתַּחֲלָא השתא</he> if she degraded herself now; <he>מית׳ וקיימא</he> she was degraded before this."
+					]
+				}
+			],
+			"stem": "Ittaf."
+		}
+	]
+}

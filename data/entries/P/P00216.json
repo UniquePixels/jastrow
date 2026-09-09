@@ -1,0 +1,31 @@
+{
+	"id": "P00216",
+	"slug": "עוז-2",
+	"headword": {
+		"text": "עוֹז",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "עֹז"
+		}
+	],
+	"page": {
+		"number": 1048,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00403\"><he>עָזַז</he></cite>)<i>fortitude, strength, majesty</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 6a:19\">Ber. 6ᵃ</cite> <he>התפלין ע׳ הם לישראל</he> T’fillin are a sign of strength to Israel. ",
+				"<cite ref=\"Shemot Rabbah 8:1\">Ex. R. s. 8</cite> <he>לבושו של הקב״ה ע׳</he> the garment of the Lord is strength (with ref. to <cite ref=\"Psalms 93:1\">Ps. XCIII, 1</cite>). ",
+				"<cite ref=\"Midrash Tehillim 121:1\">Midr. Till. to Ps. VIII, 3</cite> <he>אין ע׳ אלא תורה וכ׳</he> ‘strength’ means the Law, as we read (<cite ref=\"Psalms 29:11\">Ps. XXIX, 11</cite>) &c.; Mekh. B’shall., Shir., s. 3 <he>אין עָוִּי וכ׳</he> ‘my strength’ (<cite ref=\"Exodus 15:2\">Ex. XV, 2</cite>) means &c. ",
+				"<cite ref=\"Berakhot 16b:19\">Ber. 16ᵇ</cite> <he>תתכסה בעָזְּךָ</he> clothe thyself in thy majesty; a. fr."
+			]
+		}
+	]
+}

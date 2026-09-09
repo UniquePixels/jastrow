@@ -1,0 +1,89 @@
+{
+	"id": "J00124",
+	"slug": "יהודה",
+	"headword": {
+		"text": "יְהוּדָה"
+	},
+	"page": {
+		"number": 566,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. <i>Judah</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " son of Jacob; <i>tribe of Judah</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 50a:15\">Pes. 50ᵃ</cite>. ",
+				"<cite ref=\"Yoma 12a:4\">Yoma 12ᵃ</cite>, a. e. <he>מחלקו של י׳</he> from the area of Judah.—",
+				"<cite ref=\"Bereishit Rabbah 85:13\">Gen. R. s. 85</cite>; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of several Tannaim; ",
+			"units": [],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " R. J. b. B’thera in Babylonia <cite ref=\"Berakhot 22a:24\">Ber. 22ᵃ</cite>; a. fr.—",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " J. b. Tabbai, chief of the Sanhedrin in the days of queen Salome. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 1:8\">Ab. I, 8</cite>. ",
+						"<cite ref=\"Mishnah Chagigah 2:2\">Ḥag. II, 2</cite>; a. fr.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " R. J. the priest. ",
+					"units": ["<cite ref=\"Mishnah Eduyot 8:3\">Eduy. VIII, 3</cite>.—"],
+					"label": "c"
+				},
+				{
+					"gloss": " R. J. b. Baba. Ib. 2. ",
+					"units": ["<cite ref=\"Shabbat 62b:23\">Sabb. 62ᵇ</cite>; a. fr.—"],
+					"label": "d"
+				},
+				{
+					"gloss": " R. J. b. Ilai, usu. mentioned in the Mishnah as R. J. only. ",
+					"units": [
+						"<cite ref=\"Berakhot 63b:24\">Ber. 63ᵇ</cite>; <cite ref=\"Shabbat 33b:5\">Sabb. 33ᵇ</cite>. ",
+						"<cite ref=\"Menachot 103b:13\">Men. 103ᵇ</cite>; a. v. fr.—"
+					],
+					"label": "e"
+				},
+				{
+					"gloss": " R. J. b. Tema. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 5:20\">Ab. V, 20</cite>. ",
+						"<cite ref=\"Eruvin 17a:21\">Erub. 17ᵃ</cite>; <cite ref=\"Tosefta Eiruvin 3:15\">Tosef. ib. III</cite> (<cite ref=\"Tosefta Eiruvin 2:6\">II</cite>), 6 (ed. Zuck. <cite ref=\"B01389\"><he>בתירה</he></cite>). ",
+						"<cite ref=\"Tosefta Gittin 7:8\">Tosef. Gitt. VII</cite> (<cite ref=\"Tosefta Gittin 5:8\">V</cite>), 8; a. fr.; a. others (v. Fr. Darkhé, p. 42; p. 137).—Esp. R. J. han-Nasi I a. II, surnamed Rabbi, v. <cite ref=\"T00085\"><he>רַבִּי</he></cite>."
+					],
+					"label": "f"
+				}
+			]
+		},
+		{
+			"gloss": " name of several Amoraim, the most renowned of whom is R. J. (b. Ezekiel), a Babylonian. ",
+			"units": [
+				"<cite ref=\"Ketubot 110b:25\">Keth. 110ᵇ</cite> bot.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 1:3:3\">Y. Taan. I, 64ᵇ</cite> top; a. fr.—V. Fr. M’bo p. 91ᵃ"
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>Judaea</i>, the southern province of Palestine. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 1:5\">Keth. I, 5</cite> (<cite ref=\"Ketubot 12a:13\">12ᵃ</cite>); Tosef. ib. I, 4. ",
+				"<cite ref=\"Kiddushin 6a:14\">Kidd. 6ᵃ</cite>; a. v. fr."
+			],
+			"label": "4"
+		}
+	]
+}

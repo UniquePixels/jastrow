@@ -1,0 +1,27 @@
+{
+	"id": "H00233",
+	"slug": "חוב-3",
+	"headword": {
+		"text": "חוֹב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 428,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H00232\">preced.</cite> wds.) <i>debt, indebtedness</i>.—<he>בעל ח׳</he> (abbr. <he>ב״ח</he>) <i>creditor</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 9:2\">Keth. IX, 2</cite> <he>והניח … וב״ח וכ׳</he> and left a widow, a creditor (claiming a debt) and heirs. ",
+				"<cite ref=\"Mishnah Ketubot 9:3\">Ib. 3</cite> <he>וב״ח יותר על חוֹבוֹ</he> and the creditor (seized) more than his debt amounted to. ",
+				"<cite ref=\"Ketubot 69a:11\">Ib. 69ᵃ</cite> <he>בת בעלת ח׳ הויא</he> a daughter (of a deceased father) has the privileges of a creditor, contrad. to <he>יורשת</he>, heiress; a. fr.—שטר ח׳ <i>note of indebtedness</i>. ",
+				"<cite ref=\"Mishnah Ketubot 13:8\">Ib. XIII, 8</cite> <he>המוציא ש׳ ח׳ וכ׳</he> if one produces a note against &c.; a. fr.—Pl. <he>חוֹבִין</he>. ",
+				"<cite ref=\"Nedarim 47b:2\">Ned. 47ᵇ</cite> <he>בעלי ח׳</he> creditors."
+			]
+		}
+	]
+}

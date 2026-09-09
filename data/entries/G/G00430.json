@@ -1,0 +1,39 @@
+{
+	"id": "G00430",
+	"slug": "זית",
+	"headword": {
+		"text": "זַיִת"
+	},
+	"page": {
+		"number": 397,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>זות</he>; cmp. <cite ref=\"D00579\"><he>דַּיֵּית</he></cite>)<i>outflow, run</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 86a:29\">Men. 86ᵃ</cite> <he>שמן זית מִזֵּיתוֹ</he> ‘olive-oil’ (<cite ref=\"Exodus 27:20\">Ex. XXVII, 20</cite>) that means of that which flows of itself (before pressing). ",
+				"<cite ref=\"Exodus 27:20\">Ib.</cite> (VIII, 4) <he>ז׳ ראשון</he> the first run."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>olive;</i> (sub. <cite ref=\"P01088\"><he>עץ</he></cite>) <i>olive tree</i>. Ib. <he>בראש הז׳</he>, v. <cite ref=\"C01255\"><he>גִּרְגֵּר</he></cite>; a. v. fr.—<he>כַּזַּ׳</he> the size of an olive; <he>כחצי ז׳</he> half the size of &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 1:1\">Bets. I, 1</cite> <he>זה וזה בכז׳</he> the legal size for both is that of &c. ",
+				"<cite ref=\"Mishnah Zevachim 3:3\">Zeb. III, 3</cite>. ",
+				"<cite ref=\"Mishnah Kelim 17:8\">Kel. XVII, 8</cite>, v. <cite ref=\"A00282\"><he>אֵגוֹרִי</he></cite>; a. v. fr.—Pl. <cite ref=\"G00434\"><he>זֵיתִים</he></cite>, <cite ref=\"G00741\"><he>זֵתִים</he></cite>. ",
+				"<cite ref=\"Berakhot 57a:8\">Ber. 57ᵃ</cite> <he>הרואה ז׳ וכ׳</he> one who dreams of olives. ",
+				"<cite ref=\"Mishnah Bava Metzia 8:5\">B. Mets. VIII, 5</cite> <he>המוכר זֵיתָיו וכ׳</he> he who sells his olive trees for the use of the wood. ",
+				"<cite ref=\"Mishnah Tevul Yom 3:6\">T’bul Yom III, 6</cite>. ",
+				"<cite ref=\"Mishnah Challah 3:9\">Ḥall. III, 9</cite> <he>זֵיתֵי מסיק</he>, v. <cite ref=\"M01927\"><he>מָסִיק</he></cite>; a. fr.—Tanḥ. ed. Bub. Ki Thetsé 10 <he>כַּזֵּ׳ כַּזֵּ׳</he> in pieces of olive-sizes; Pesik. Zakh., p. 25ᵇ <he>ז׳ ז׳</he>; <cite ref=\"Pesikta Rabbati 12\">Pesik. R. s. 12</cite>.—",
+				"<cite ref=\"Mishnah Oktzin 3:6\">Ukts. III, 6</cite> <he>פריצי ז׳</he> the proud among the olives; expl. ",
+				"<cite ref=\"Tosefta Uktsin 3:6\">Tosef. ib. III, 6</cite> <he>היוצאין מתחת וכ׳</he> such as come out uncrushed from under the press; <cite ref=\"Bava Metzia 105a:13\">B. Mets. 105ᵃ</cite> <he>רשעי ז׳</he> (yielding very little oil)."
+			],
+			"label": "2"
+		}
+	]
+}

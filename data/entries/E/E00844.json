@@ -1,0 +1,37 @@
+{
+	"id": "E00844",
+	"slug": "הרווחה",
+	"headword": {
+		"text": "הַרְוָוחָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַרְוָחָה"
+		}
+	],
+	"page": {
+		"number": 366,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"E00844\"><he>הָרְוָחָה</he></cite>; <cite ref=\"T00343\"><he>רָוַח</he></cite>)<i>relief, release</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 10:6\">Ex. R. s. 10</cite>, end; Tanḥ., ed. Bub., Vaëra 22; <cite ref=\"Yalkut Shimoni on Torah 186:3\">Yalk. Ex. 186</cite> (cmp. <cite ref=\"E00636\"><he>הֶמְסֵס</he></cite> as to fusion of article). Tanḥ. Mikk. 10, v. <cite ref=\"B01010\"><he>בָּסַר</he> I</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>plenty, liberal provision; comfort</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 21b:9\">Snh. 21ᵇ</cite> <he>לא צריכא לה׳</he> the word <cite ref=\"L00170\"><he>לוֹ</he></cite> is to intimate a liberal appropriation (for the army). ",
+				"<cite ref=\"Sifrei Devarim 306:6\">Sifré Deut. 306</cite> <he>ואין לשון פתיחה אלא לשון ה׳</he> the word ‘opening’ has the meaning of comfort, opp. <he>לשון דוחק</he>. ",
+				"<cite ref=\"Ketubot 43a:6\">Keth. 43ᵃ</cite> <he>אלמנתו לא ניחא ליה בה׳ וכ׳</he> as to his widow he cares not for her living comfortably (from her own earnings besides the legal alimentation) &c."
+			],
+			"label": "2"
+		}
+	]
+}

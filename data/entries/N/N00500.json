@@ -1,0 +1,39 @@
+{
+	"id": "N00500",
+	"slug": "נחל-3",
+	"headword": {
+		"text": "נָחַל"
+	},
+	"page": {
+		"number": 894,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <cite ref=\"N00502\"><he>נַחֲלָה</he></cite> , q. v.) <i>to inherit</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 8:1\">B. Bath. VIII, 1</cite> <he>יש נוֹחֲלִין ומַנְחִילִין</he> there are such relations as inherit from and eventually transmit to one another (e. g. father and son); <he>ויש נוחלין ולא מנחילין</he> and some inherit, but (when they die) do not transmit their estate to those whose natural heirs they would have been (e. g. son and mother). ",
+				"<cite ref=\"Mishnah Kiddushin 1:10\">Kidd. I, 10</cite> <he>ונוֹחֵל את הארץ</he> and shall inherit the land (of life everlasting). ",
+				"<cite ref=\"Sifrei Bamidbar 133:4\">Sifré Num. 133</cite> <he>יודע</he> … <he>שהבנות נוֹחֲלוֹת</he> Moses knew that daughters (in the absence of sons) are legal heirs. ",
+				"<cite ref=\"Midrash Tehillim 5:3\">Midr. Till. to Ps. V</cite>, beg. (ref. to <cite ref=\"Numbers 21:19\">Num. XXI, 19</cite>) <he>משנָחֲלוּ ע״ז בא עליהם וכ׳</he> when they adopted idolatry, the angel of death came upon them. ",
+				"<cite ref=\"Numbers 21:19\">Ib.</cite> <he>נחלו להק״בה לאלוה והוא נ׳ וכ׳</he> they adopted the Lord as God, and he adopted them as a people; <cite ref=\"Numbers 21:19\">ib.</cite> <he>ממתנה נָחַלְתִּי לאל</he> through the gift (of the well in the desert) I adopted God; <he>מתוך שנתן לי הקב״ה הבאר נחלתי אותו</he> (ed. Bub.) because the Lord gave me the well as a gift, I adopted him; <cite ref=\"Eruvin 54a:24\">Erub. 54ᵃ</cite> <he>וכיון שניתנה לו במתנה נְחָלוֹ אל</he> and since it (the Law) is given him as a gift, the Lord claims him as his own; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִנְחִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to transmit by legal succession; to give in possession</i>. B. Bath. l. c., v. supra. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Metzia 11:32\">Tosef. B. Mets. XI, 32</cite>, a. fr. <he>שעל מנת כן ה׳ וכ׳</he> for Joshua gave possession of the land with such provisions (restricting the rights of ownership). ",
+						"<cite ref=\"Mishnah Oktzin 3:12\">Ukts. III, 12</cite> <he>עתיד הקב״ה להַנְחִיל וכ׳</he> (<cite ref=\"Sanhedrin 100a:6\">Snh. 100ᵃ</cite> <he>ליתן</he>) the Lord will in the hereafter give every righteous man possession of &c. ",
+						"<cite ref=\"Bava Batra 114b:3\">B. Bath. 114ᵇ</cite> <he>אין הבן יורש את אמו בקבר להנחיל וכ׳</he> a son in the grave does not succeed his mother so as to transmit his estate to his paternal brothers; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

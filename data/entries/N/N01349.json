@@ -1,0 +1,39 @@
+{
+	"id": "N01349",
+	"slug": "נשר-5",
+	"headword": {
+		"text": "נְשַׁר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נִשְׁרָא"
+		},
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 942,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " <cite ref=\"N01348\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:13\">Targ. Lev. XI, 13</cite>; a. fr.—Pl. <he>נִשְׁרִין</he>, <he>נִשְׁרַיָּא</he>, <cite ref=\"M01772\"><he>נִי׳</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 19:4\">Targ. Ex. XIX, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 1:23\">Targ. II Sam. I, 23</cite>.—",
+				"<cite ref=\"Eruvin 53b:9\">Erub. 53ᵇ</cite>, v. <cite ref=\"N01233\"><he>נְקַף</he> I</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Nishra</i>, name of an Arabian deity (Sabaean: <i>Nasr</i>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 11b:8\">Ab. Zar. 11ᵇ</cite>.—[<cite ref=\"N01349\"><he>נשרא</he></cite>, <cite ref=\"Berakhot 8a:13\">Ber. 8ᵃ</cite>, v. <cite ref=\"N01346\"><he>נְשַׁר</he> I</cite>.]—<he>קַן נִשְׁרַיָּיא</he> pr. n. pl., v. <cite ref=\"S01505\"><he>קֵן</he></cite> ch."
+			],
+			"label": "2"
+		}
+	]
+}

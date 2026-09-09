@@ -1,0 +1,27 @@
+{
+	"id": "A01364",
+	"slug": "אין-5",
+	"headword": {
+		"text": "אִין",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵין"
+		}
+	],
+	"page": {
+		"number": 52,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Syr. = <cite ref=\"E00441\"><he>הֵין</he></cite>, <he>הֶן</he>) <i>yes, indeed</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 65a:14\">Keth. 65ᵃ</cite> <he>השתא א׳ וכ׳</he> now,—yes, but not before. ",
+				"<cite ref=\"Bava Metzia 98a:4\">B. Mets. 98ᵃ</cite> <he>חדא א׳ בעידן וכ׳</he> as regards the one (cow)—well, she died &c.; a. fr.—<cite ref=\"A01381\"><he>אֵינִי</he></cite> = <cite ref=\"A01374\"><he>אִין הִי</he></cite> <i>is it really so? indeed?</i>, i.e. it cannot be. ",
+				"<cite ref=\"Chullin 96b:10\">Ḥull. 96ᵇ</cite> <he>א׳ והאמר</he> it cannot be so; for did not R. … say &c.? <cite ref=\"Moed Katan 20a:2\">M. Kat. 20ᵃ</cite>; a. v. fr."
+			]
+		}
+	]
+}

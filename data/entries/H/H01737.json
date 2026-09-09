@@ -1,0 +1,25 @@
+{
+	"id": "H01737",
+	"slug": "חרספיתין",
+	"headword": {
+		"text": "חַרְסְפִיתִין"
+	},
+	"page": {
+		"number": 505,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"H01405\"><he>חסף</he></cite> with <cite ref=\"T00000\"><he>ר</he></cite> inserted, v. <cite ref=\"H01409\"><he>חַסְפְּנִיתָא</he></cite>) <i>scales</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 11:9\">Targ. Y. Lev. XI, 9</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 14:9\">Targ. Y. Deut. XIV, 9</cite> sq.—",
+				"<cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite> <he>דמיין לחַרְסְפוּתַיָּיא דנוני</he>, v. <cite ref=\"H01409\"><he>חַסְפְּנִיתָא</he></cite>; Pesik. Par., p. 35ᵃ <he>להחרפותא דיונה</he> (corr. acc.)."
+			]
+		}
+	]
+}

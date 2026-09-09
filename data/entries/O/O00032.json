@@ -1,0 +1,22 @@
+{
+	"id": "O00032",
+	"slug": "סבבא",
+	"headword": {
+		"text": "סִבְבָא"
+	},
+	"page": {
+		"number": 948,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00031\">preced.</cite>; cmp. <cite ref=\"U00784\"><he>שֵׁיבָבָא</he></cite>) <i>neighbor, borderer</i>.—Pl. <he>סִבְבַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 7:20\">Targ. Is. VII, 20</cite> <he>בס׳ ובמגריא בעברי וכ׳</he> (ed. Lag. <he>בסיבכיא במגריא</he>) read: <he>בס׳ בעברי וכ׳</he> (<he>במגריא</he> being a gloss to our w.) among the borderers on the sides of &c."
+			]
+		}
+	]
+}

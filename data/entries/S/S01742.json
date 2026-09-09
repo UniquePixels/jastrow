@@ -1,0 +1,24 @@
+{
+	"id": "S01742",
+	"slug": "קפיץ-1",
+	"headword": {
+		"text": "קָפִיץ"
+	},
+	"page": {
+		"number": 1401,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>קְפִיצִין</he> (cmp. <cite ref=\"S01764\"><he>קָפַץ</he></cite>; <cite ref=\"S00094\"><he>קֶבֶץ</he></cite>, a. Syr. <cite ref=\"S00518\"><he>קופסא</he></cite> <i>poples</i>, P. Sm. 3696) <i>joints, hams of the knee</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite> (ref. to <cite ref=\"Ezekiel 1:7\">Ez. I, 7</cite>) <he>אין להם ק׳</he> they have no joints (cannot bend their knees). ",
+				"<cite ref=\"Vayikra Rabbah 6:3\">Lev. R. s. 6</cite>; <cite ref=\"Pesikta Rabbati 22:1\">Pesik. R. s. 22</cite> <he>מלאכי … ק׳</he> the angels of destruction have no joints (cannot sit or lie down); a. e.—",
+				"<cite ref=\"Tosefta Parah 11:1\">Tosef. Par. XI</cite> (<cite ref=\"Tosefta Parah 10:1\">X</cite>), 1 <he>ספק הקְפָצִין</he> a doubtful levitical uncleanness based on contact with one’s legs, opp. to <he>הידים</he>."
+			]
+		}
+	]
+}

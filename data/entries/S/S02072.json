@@ -1,0 +1,25 @@
+{
+	"id": "S02072",
+	"slug": "קריספא",
+	"headword": {
+		"text": "קְרִיסְפָּא"
+	},
+	"page": {
+		"number": 1421,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḳ’rispa</i>, v. <cite ref=\"K01174\"><he>כְּרִיסְפָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:3:4\">Y. Ab. Zar. III, 42ᵈ</cite> (Var. <cite ref=\"S02073\"><he>קְרִיסְפְּדַאי</he></cite>). Y. R. Hash. I, 57ᵃ bot <he>קרוס׳</he> ed. Krot. Ib. II, 58ᵇ top; Y. Snh. I, 18ᶜ bot. <cite ref=\"S02073\"><he>קְרִיסְפְּדָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 7:2:4\">Y. Shek. VII, 50ᶜ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 1:1:14\">Y. Yeb. I, 2ᶜ</cite> top <cite ref=\"S02073\"><he>קְרִיסְפִּי</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 3:8:4\">Y. Snh. III, 21ᵇ</cite> bot. Y. M. Kat. III, end, 83ᵈ <cite ref=\"S01958\"><he>קְרוּסְפִּי</he></cite>."
+			]
+		}
+	]
+}

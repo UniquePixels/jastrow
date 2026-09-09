@@ -1,0 +1,23 @@
+{
+	"id": "P00859",
+	"slug": "עמד-3",
+	"headword": {
+		"text": "עָמָד",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1086,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"P00859\"><he>עָמַד</he> II</cite>, 2) <i>urin-soaked dung</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 39:15\">Gen. R. s. 39</cite> <he>בית הע׳</he>, v. <cite ref=\"D00149\"><he>דָּהוֹן</he></cite>."
+			]
+		}
+	]
+}

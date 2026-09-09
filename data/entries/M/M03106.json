@@ -1,0 +1,22 @@
+{
+	"id": "M03106",
+	"slug": "מתרותא",
+	"headword": {
+		"text": "מַתְרוּתָא"
+	},
+	"page": {
+		"number": 864,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>תְּרָא</he> I) = h. <cite ref=\"M02972\"><he>מִשְׁרָה</he></cite>, <i>infusion</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 6:3\">Targ. O. Num. VI, 3</cite> (ed. Berl. <cite ref=\"M03095\"><he>מַתְּ׳</he></cite>)."
+			]
+		}
+	]
+}

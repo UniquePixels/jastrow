@@ -1,0 +1,50 @@
+{
+	"id": "U01553",
+	"slug": "שמתא",
+	"headword": {
+		"text": "שַׁמְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁמְּתָא"
+		},
+		{
+			"text": "שַׁמַּתָּא"
+		}
+	],
+	"page": {
+		"number": 1603,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01552\">preced.</cite>) [<i>desolation</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>curse, ban</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 42:37\">Targ. Y. Gen. XLII, 37</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 21:24\">Targ. Y. Num. XXI, 24</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:16\">Targ. Cant. II, 16</cite>.—",
+				"<cite ref=\"Moed Katan 17a:24\">M. Kat. 17ᵃ</cite> <he>מאי ש׳</he> what is (the etymology of) <i>shamta?</i> Rab said <he>שׁם̇ מ̇ית̇ה</he> there is death; Samuel said, <he>שְׁמָמָה יהיה</he> (Ms. M. <cite ref=\"U01425\"><he>שַׁמָּה</he></cite>; Ar. <he>שם תהא</he>, read: <he>שמה תהא</he>) he shall be (be thou) a desolation. ",
+				"<cite ref=\"Moed Katan 17a:24\">Ib.</cite> <he>ליהוי האי גברא בש׳</he> that man (thou) be excommunicated. Ib. 16ᵃ <he>לא חל ש׳ עליה וכ׳</he> (masc.) the ban has not yet rested on him thirty days. Ib. <he>עד דחיילא ש׳ וכ׳</he> (it cannot be raised) before he has been under the ban thirty days. ",
+				"<cite ref=\"Sotah 5a:16\">Sot. 5ᵃ</cite> <he>בש׳ דאית ביה ובש׳ דלית ביה</he> he (the scholar) in whom there is pride deserves excommunication, and also he in whom there is no pride at all. ",
+				"<cite ref=\"Kiddushin 12b:8\">Kidd. 12ᵇ</cite> Rab ordered to be lashed <he>על דחלא ש׳ וכ׳</he> him who allowed excommunication (for contempt of court) to rest on him thirty days (and did not submit to authority). ",
+				"<cite ref=\"Bava Metzia 70a:9\">B. Mets. 70ᵃ</cite> <he>ולא מקבל עליה ש׳ דרבנ</he>‌<he>ן</he> Ms. M. and does not bring upon himself the ban of the Rabbis (but obeys their summons); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = h. <cite ref=\"H01716\"><he>חֵרֶם</he></cite>, <i>accursed object</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 13:18\">Targ. Y. Deut. XIII, 18</cite>.—Pl. <he>שַׁמְתִּין</he>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 7:26\">Ib. VII, 26</cite>, v. <cite ref=\"U01486\"><he>שַׁמִּיתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

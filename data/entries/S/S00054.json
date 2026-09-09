@@ -1,0 +1,29 @@
+{
+	"id": "S00054",
+	"slug": "קביע",
+	"headword": {
+		"text": "קְבִיעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְבִיעָא"
+		}
+	],
+	"page": {
+		"number": 1308,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"S00088\"><he>קֶבַע</he></cite>, <i>appointment</i>; <he>ק׳ דירחא</he> <i>the proclamation</i> of the New Moon Day. ",
+			"units": [
+				"<cite ref=\"Shabbat 86b\">Sabb. 86ᵇ</cite> (Ms. M. <cite ref=\"S00851\"><he>קִיבּוּעָא</he></cite>), v. <cite ref=\"J00624\"><he>יַרְחָא</he></cite>.—",
+				"<cite ref=\"Pesachim 51b:8\">Pes. 51ᵇ</cite> bot. <he>כגון אנא דבקעינא בק׳ די׳</he> Ms. M. (read: <he>דבקיענא</he>; ed. <he>אנן דידעינן</he>) for instance, I who know when the New Moon Day was appointed (v. Rabb. D. S. a. l. note).—Esp. <he>ק׳ דירחא</he> <i>the fixed regulation of the lunar calendar</i>. ",
+				"<cite ref=\"Beitzah 4b\">Bets. 4ᵇ</cite>, v. <cite ref=\"J00624\"><he>יַרְחָא</he></cite>.—V. <cite ref=\"S00089\"><he>קִבְעָא</he></cite>."
+			]
+		}
+	]
+}

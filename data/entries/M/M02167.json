@@ -1,0 +1,23 @@
+{
+	"id": "M02167",
+	"slug": "מערב",
+	"headword": {
+		"text": "מַעֲרָב"
+	},
+	"page": {
+		"number": 819,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P01251\"><he>עֶרֶב</he></cite>)<i>sun-set, West</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 3:5\">Erub. III, 5</cite>, v. <cite ref=\"P01306\"><he>עֵרוּב</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Batra 2:9\">B. Bath. II, 9</cite> <he>מַעֲרָבָהּ</he> west of the town; a. v. fr."
+			]
+		}
+	]
+}

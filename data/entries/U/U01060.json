@@ -1,0 +1,33 @@
+{
+	"id": "U01060",
+	"slug": "שירא-2",
+	"headword": {
+		"text": "שִׁירָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁירָאָה"
+		}
+	],
+	"page": {
+		"number": 1568,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. sericum) [<i>of Seres, Chinese</i>,] <i>silk</i>. Targ. II Esth. V, 1; VI, 10, v. <cite ref=\"Q01882\"><he>פְּרַנְגַּן</he></cite>.—",
+			"units": [
+				"<cite ref=\"Ketubot 63b:9\">Keth. 63ᵇ</cite> <he>הוה תפיסא חד שירא</he> (Rashi <he>חדא ש׳</he>) she seized a silk garment (Rashi: <i>a cloak</i>).—Pl. <he>שִׁירָאִין</he>, <cite ref=\"U01078\"><he>שִׁירָיִין</he></cite>, <he>שִׁירָאֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:19\">Targ. Ez. XXVII, 19</cite> <he>בשיריין</he> ed. Lag. (oth. ed. <he>בשִׁירִין</he>, corr. acc.).—",
+				"<cite ref=\"Shabbat 90a:10\">Sabb. 90ᵃ</cite> <he>תכך דש׳</he> the worm (<i>tʿkhakh</i>) in silk garments. ",
+				"<cite ref=\"Kiddushin 32a:7\">Kidd. 32ᵃ</cite> <he>קרע ש׳ וכ׳</he> tore silk garments in the presence of his son Rabbah (to test his filial respect). ",
+				"<cite ref=\"Sanhedrin 67b\">Snh. 67ᵇ</cite>, v. <cite ref=\"K01165\"><he>כְּרִיכָא</he> III</cite>. ",
+				"<cite ref=\"Berakhot 56a:19\">Ber. 56ᵃ</cite>, v. <cite ref=\"V00543\"><he>תִּכְלָא</he> II</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:2:16\">Y. Sabb. VI, 8ᵇ</cite> bot. (expl. <cite ref=\"U01948\"><he>שֵׁרוֹת</he></cite>, <cite ref=\"Isaiah 3:19\">Is. III, 19</cite>) <he>שיראין</he> silk cloaks (?)."
+			]
+		}
+	]
+}

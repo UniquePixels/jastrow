@@ -1,0 +1,36 @@
+{
+	"id": "A00111",
+	"slug": "אבידה",
+	"headword": {
+		"text": "אֲבֵידָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲבֵדָה"
+		}
+	],
+	"page": {
+		"number": 5,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"A00034\"><he>אֲבֵדה</he></cite>; <he>אבד</he>)<i>lost</i> or <i>missed object</i>. <he>שומר א׳</he> the keeper of a lost object waiting for its owner to claim it <cite ref=\"Bava Metzia 29a:2\">B. Mets. 29ᵃ</cite>; a. fr.—<he>בעל א׳</he> the owner of the lost thing. ",
+			"units": [
+				"<cite ref=\"Kiddushin 2b:13\">Kidd. 2ᵇ</cite> <he>בעל א׳ מחזיר וכ׳</he> the owner hunts for what he has lost, i.e. man woos woman (allud. to <cite ref=\"Genesis 2:21\">Gen. II, 21</cite>); a. fr.—",
+				"<cite ref=\"Moed Katan 25b:12\">M. Kat. 25ᵇ</cite> <he>בכו לאובדים ולא לא׳</he> Ms. M. (ed. <he>בכו לאבילים</he>) weep for the losers, but not for the lost (deceased)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>loss, decrease</i>. <he>אֲבֵידַת נפש</he> decrease of physical strength. ",
+			"units": [
+				"<cite ref=\"Yoma 74b\">Yoma 74ᵇ</cite>.—(Y. ib. VIII, 44ᵈ top <he>אב בית</he> read <he>אבידת</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

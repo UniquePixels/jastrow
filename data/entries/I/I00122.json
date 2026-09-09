@@ -1,0 +1,23 @@
+{
+	"id": "I00122",
+	"slug": "טובעני-1",
+	"headword": {
+		"text": "טוֹבְעָנִי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 522,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00121\">preced.</cite>) <i>land submerged by a flood</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 10a:10\">Taan. 10ᵃ</cite> <he>ט׳ ולא יובשני</he> better flooded land than rainless land."
+			]
+		}
+	]
+}

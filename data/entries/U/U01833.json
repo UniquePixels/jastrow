@@ -1,0 +1,33 @@
+{
+	"id": "U01833",
+	"slug": "שקוט",
+	"headword": {
+		"text": "שָׁקוּט"
+	},
+	"page": {
+		"number": 1621,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01843\"><he>שקט</he></cite>, Shaf. of <he>קט</he>; cmp. <he>קטט</he>, <he>קוט</he>) [<i>cut short</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>stubby, abnormally short</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 66b:6\">Ned. 66ᵇ</cite> <he>שמא … ש׳ הוא</he> is her neck graceful? It is too short. ",
+				"<cite ref=\"Tosefta Bekhorot 5:1\">Tosef. Bekh. V, 1</cite> <he>צוארו שמוט וש׳</he> whose neck is abnormally long or abnormally short; <cite ref=\"Bekhorot 43b:4\">Bekh. 43ᵇ</cite>, expl. <he>דחביא מיחבא</he>, v. <cite ref=\"H00048\"><he>חֲבֵי</he></cite>; v. <cite ref=\"U01430\"><he>שָׁמוּט</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>abruptly bent, angular</i>. Ib. VII, 1 (43ᵃ) <he>שראשו ש׳</he> (Mish. ed. <cite ref=\"U01836\"><he>שקוע</he></cite>) he whose head is angular, expl. ib.ᵇ <he>ש׳ מלפניו</he> <i>shaḳuṭ</i> refers to the front of the head (the forehead receding abruptly).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "S02223",
+	"slug": "קשואים",
+	"headword": {
+		"text": "קִשּׁוּאִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִשּׁוּאִין"
+		},
+		{
+			"text": "קִי׳"
+		}
+	],
+	"page": {
+		"number": 1429,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h.; <he>קשש</he> I , v. <cite ref=\"S01217\"><he>קִישׁוּת</he> I</cite>) <i>cucumbers</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 57b:17\">Ber. 57ᵇ</cite>, v. <cite ref=\"S02221\"><he>קָשֶׁה</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Kamma 8:1\">B. Kam. VIII, 1</cite> <he>שומר ק׳</he> watchman in a cucumber field. ",
+				"<cite ref=\"Mishnah Kilayim 3:4\">Kil. III, 4</cite>; a. fr."
+			]
+		}
+	]
+}

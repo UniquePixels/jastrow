@@ -1,0 +1,24 @@
+{
+	"id": "M00559",
+	"slug": "מועדא",
+	"headword": {
+		"text": "מוּעֲדָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 745,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = <cite ref=\"M00556\"><he>מוּעֶדֶת</he></cite><i>liable to do damage</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 25:19\">Targ. Prov. XXV, 19</cite> <he>רגלא מ׳</he> (h. text <he>מועדת</he>, v. ",
+				"<cite ref=\"Mishnah Bava Kamma 1:4\">B. Kam. I, 4</cite>; Ms. <he>מְזָעֲתָא</he>, v. <cite ref=\"G00217\"><he>זוּעַ</he></cite>; cmp. Lam. R. introd., R. Ḥănina 2, v. <cite ref=\"T00952\"><he>רָפַס</he></cite> a. <cite ref=\"M01027\"><he>מִטְמֵט</he></cite>)."
+			]
+		}
+	]
+}

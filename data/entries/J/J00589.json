@@ -1,0 +1,31 @@
+{
+	"id": "J00589",
+	"slug": "יקש",
+	"headword": {
+		"text": "יָקַשׁ"
+	},
+	"page": {
+		"number": 593,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>נקש</he>)<i>to clap, catch in a trap</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נוֹקָשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be entrapped</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Mishlei 6:1\">Midr. Prov. to VI, 2</cite> [read:] <he>נוֹקַשְׁתֶּם באמרי פיכם וכ׳</he> you have been entrapped through your own words (<cite ref=\"Exodus 24:7\">Ex. XXIV, 7</cite>), you have been caught (taken captives) through (neglecting) them."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

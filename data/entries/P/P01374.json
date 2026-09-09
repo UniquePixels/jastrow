@@ -1,0 +1,26 @@
+{
+	"id": "P01374",
+	"slug": "ערירי",
+	"headword": {
+		"text": "עֲרִירִי"
+	},
+	"page": {
+		"number": 1118,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P01455\"><he>ערר</he></cite>, cmp. <cite ref=\"P01341\"><he>עָרָה</he> I</cite>) [<i>stripped</i>,] <i>lonely, childless</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 44:9\">Gen. R. s. 44</cite>. ",
+				"<cite ref=\"Yevamot 55a:20\">Yeb. 55ᵃ</cite> (ref. to <cite ref=\"Leviticus 20:20\">Lev. XX, 20</cite> a. ",
+				"<cite ref=\"Leviticus 20:21\">21</cite>) <he>יש לו בנים קובדן … הולך ע׳</he> if he had children (at the time he committed the sin), he will bury them; if he had none, he will remain childless. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 7:5:3\">Y. Snh. VII, 24ᶜ</cite> <he>לצורך יצאת לידון בע׳</he> it is specified (in <cite ref=\"Leviticus 20:20\">Lev. XX, 20</cite>) for a purpose, namely for the punishment of <i>ʿăriri</i> (death without leaving issue).—Pl. <cite ref=\"P01374\"><he>עֲרִירִים</he></cite>. ",
+				"<cite ref=\"Leviticus 20:20\">Ib.</cite> <he>כל אתר דתימר ע׳ יהיו … ע׳ ימותו וכ׳</he> wherever the text says, ‘they shall be lonely’, it means, they shall be without children, where it says, ‘they shall die lonely’, it means they shall bury their children (v. supra); a. e.—[<he>ערירין</he>, <cite ref=\"Jerusalem Talmud Ketubot 6:4:3\">Y. Keth. VI, 30ᵈ</cite> <he>אשכחינון ע׳</he>, v. <cite ref=\"P01455\"><he>עֲרַר</he> I</cite>.]"
+			]
+		}
+	]
+}

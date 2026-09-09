@@ -1,0 +1,23 @@
+{
+	"id": "O01064",
+	"slug": "סמוותא",
+	"headword": {
+		"text": "סַמְוָותָא"
+	},
+	"page": {
+		"number": 999,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01079\"><he>סְמֵי</he></cite>) <i>blindness</i>; (sub. <he>בעיל</he>) <i>blind person</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 31b:8\">B. Kam. 31ᵇ</cite> <he>כחוטרא דס׳</he> Ms. R. (ed. <he>דסמיותא</he>) barring the road in the position of a blind man’s groping staff. ",
+				"<cite ref=\"Bava Kamma 52a:5\">Ib. 52ᵃ</cite> <he>כד רגיז</he> … <he>לנגדא ס׳</he> Ms. R. (ed. <cite ref=\"O01075\"><he>סַמְוָתָא</he></cite>) when the shepherd is angry with his flock, he makes the leader blind."
+			]
+		}
+	]
+}

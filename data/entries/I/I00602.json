@@ -1,0 +1,116 @@
+{
+	"id": "I00602",
+	"slug": "טעי-2",
+	"headword": {
+		"text": "טְעֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְעָא"
+		}
+	],
+	"page": {
+		"number": 542,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00601\">same</cite> (corresp. to b. h. <cite ref=\"V00776\"><he>תָּעָה</he></cite>) <i>to wander, be lost; to reel</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 21:14\">Targ. Y. Gen. XXI, 14</cite> <he>טָעָת</he> (O. ed. Berl. <he>טְעַת</he>, ed. Vien. <he>תָּעַת</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 28:7\">Targ. Is. XXVIII, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 19:13\">Ib. XIX, 13</cite>; a. fr.—",
+				"<cite ref=\"Gittin 68b:2\">Gitt. 68ᵇ</cite> <he>רויא דהוה קא טָעֵי באורחא</he> a drunken man that was lost on the road; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (corresp. to b. h. <cite ref=\"G00569\"><he>זָנָה</he></cite>) <i>to go astray, worship idols, to be licentious</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 7:17\">Targ. Am. VII, 17</cite>. ",
+				"<cite ref=\"Onkelos Exodus 34:15\">Targ. Ex. XXXIV, 15</cite> <he>ויִטְעוֹן</he> (ed. Amst. O. <he>ויִטְעוּן</he>). ",
+				"<cite ref=\"Onkelos Exodus 34:16\">Ib. 16</cite> <he>ויַטְעַיָן</he> ed. Berl. (ed. Amst. <he>ויִטְעַיַין</he>, Y. I <he>וכד טַעֲיָין</he>, Y. II <he>וִיטַעֲיָן</he>); a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 87\">Gen. R. s. 87</cite>, beg. (expl. <he>סררת</he> <cite ref=\"Proverbs 7:11\">Prov. VII, 11</cite>) <cite ref=\"I00612\"><he>טַעֲיָא</he></cite> running about, prostitute, v. <cite ref=\"I00608\"><he>טָעִיתָא</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to err, be mistaken</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 78:9\">Targ. Ps. LXXVIII, 9</cite> <cite ref=\"I00595\"><he>טְעוּ</he></cite> miscalculated the term of redemption (v. ",
+				"<cite ref=\"Shemot Rabbah 20\">Ex. R. s. 20</cite>).—",
+				"<cite ref=\"Yevamot 121a:13\">Yeb. 121ᵃ</cite> <he>מִיטְעָא טְעִינָא</he> I was mistaken; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to forget</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 2:17\">Targ. Prov. II, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 31:5\">Ib. XXXI, 5</cite>; <cite ref=\"Aramaic Targum to Proverbs 31:7\">7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 6:20\">Ib. VI, 20</cite> (ed. Vien. <he>תטעי מנימוסא</he> <i>deviate from</i>)."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַטְעֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to lead astray, to deceive</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 27:18\">Targ. Deut. XXVII, 18</cite> <he>יַטְעֵי</he> (not <he>יִטְ׳</he>). ",
+						"<cite ref=\"Onkelos Exodus 34:16\">Targ. Ex. XXXIV, 16</cite>; a. fr.—",
+						"<cite ref=\"Bava Metzia 76a:2\">B. Mets. 76ᵃ</cite> <he>אַטְעוּ פועלים וכ׳</he> the hired men deceived (the one engaging the others deceived them as to their wages, v. <cite ref=\"I00601\">preced.</cite>); (Var. <he>אִיטְּעוּ וכ׳</he> they were deceived by one of their own).—",
+						"<cite ref=\"Chullin 94b\">Ḥull. 94ᵇ</cite> <he>מַטְעוּ נפשייהו</he> they deceive themselves; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to prostitute</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 19:29\">Targ. O. Lev. XIX, 29</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"I00612\"><he>טַעֲוָא</he></cite>) <i>to deify, worship as deity</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 24:17\">Targ. II Chr. XXIV, 17</cite> (v. ",
+						"<cite ref=\"Shemot Rabbah 8\">Ex. R. s. 8</cite>).—["
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to cause to be forgotten, to ignore</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 17:14\">Targ. Prov. XVII, 14</cite> <cite ref=\"I00602\"><he>אַטְעֵי</he></cite> (ed. Lag. <he>מטעי</he>, prob. to be read: <he>אַטֵּישׁ</he>, h. text <cite ref=\"N00554\"><he>נְטוֹשׁ</he></cite>.]"
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיטְּעִי", "אִיטְּעָא"],
+			"senses": [
+				{
+					"gloss": "<i>to be deceived</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 76a\">B. Mets. 76ᵃ</cite>, v. supra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be forgotten</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 6:33\">Targ. Prov. VI, 33</cite> (h. text <he>תמחה</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

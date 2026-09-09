@@ -1,0 +1,21 @@
+{
+	"id": "Q01009",
+	"slug": "פלטיא-2",
+	"headword": {
+		"text": "פְּלַטְיָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1179,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.(b. h. <he>פלטיה</he>)<i>Plaṭia</i>. ",
+			"units": ["<cite ref=\"Kohelet Rabbah 1:4:5\">Koh. R. to I, 4</cite>."]
+		}
+	]
+}

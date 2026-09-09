@@ -1,0 +1,30 @@
+{
+	"id": "D00925",
+	"slug": "דנה",
+	"headword": {
+		"text": "דְּנָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּנָא"
+		}
+	],
+	"page": {
+		"number": 315,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " v. v. <cite ref=\"D00918\"><he>דֵּן</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " = <cite ref=\"D00157\"><he>דַּאֲנָא</he></cite> <i>which I</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 5:7:2\">Y. Pes. V, 32ᶜ</cite> bot. (<cite ref=\"Jerusalem Talmud Taanit 3:11:2\">Y. Taan. III, 67ᵃ</cite> bot. <he>דאנא</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

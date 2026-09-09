@@ -1,0 +1,26 @@
+{
+	"id": "P00118",
+	"slug": "עדא-3",
+	"headword": {
+		"text": "עָדָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲדָא"
+		}
+	],
+	"page": {
+		"number": 1043,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " f. = <cite ref=\"A00372\"><he>אָדָא</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 45b:15\">Bekh. 45ᵇ</cite> <he>ע׳ אמרה</he> this proves. ",
+				"<cite ref=\"Pesachim 53b:13\">Pes. 53ᵇ</cite> <he>ע׳ תהא</he> let it be this (I admit).—V. <cite ref=\"P00135\"><he>עָדֵי</he> I</cite>"
+			]
+		}
+	]
+}

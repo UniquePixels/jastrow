@@ -1,0 +1,24 @@
+{
+	"id": "Q00301",
+	"slug": "פועל-1",
+	"headword": {
+		"text": "פּוֹעַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1144,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"Q01383\"><he>פֹּעַל</he></cite>; <cite ref=\"Q01383\"><he>פָּעַל</he></cite>)<i>work, achievement</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 44\">Midr. Till. to Ps. XLIV</cite> ed. Bub. <he>פ׳ שפעלת שיצאו וכ׳</he> the work which thou didst accomplish, that they went forth from Egypt; <cite ref=\"Yalkut Shimoni on Nach 746:1\">Yalk. ib. 746</cite>. ",
+				"<cite ref=\"Nedarim 62a:9\">Ned. 62ᵃ</cite> <he>עשה דברים לשם פָּעֳלָם</he> do things for the sake of their effect (for the good which is achieved through them (Treat. Der. Er. Zutta ch. II <he>לשום פְּעוּלָּתָן</he>); [Rashi: <he>לשם פּוֹעֲלָם</he> in the name of their <i>Maker</i>]."
+			]
+		}
+	]
+}

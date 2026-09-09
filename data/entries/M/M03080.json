@@ -1,0 +1,41 @@
+{
+	"id": "M03080",
+	"slug": "מתן-2",
+	"headword": {
+		"text": "מְתַן"
+	},
+	"page": {
+		"number": 863,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M03079\">same</cite>, <i>to cause delay, to let wait</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 32:4\">Targ. Job XXXII, 4</cite> (h. text <cite ref=\"H00911\"><he>חִכָּה</he></cite>).—Part. pass. <cite ref=\"M03056\"><he>מְתִין</he></cite> <i>waiting, detained</i>, fr. which <cite ref=\"M03056\"><he>מְתִין</he></cite>, <cite ref=\"M03056\"><he>מְתֵין</he></cite> <i>to wait for, hope; to be slow</i>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 2:16\">Targ. Lam. II, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 2:12\">Targ. Esth. II, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 56:7\">Targ. Ps. LVI, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 130:5\">Ib. CXXX, 5</cite> <he>מְתֵינִית</he> Ms. (ed. <he>אַמְתִּינֵית</he> <i>Af.</i>); a. e.—",
+				"<cite ref=\"Yevamot 63a:10\">Yeb. 63ᵃ</cite> <he>מְתוֹן נסיב וכ׳</he> be slow in taking a wife, opp. <cite ref=\"S01721\"><he>קפוץ</he></cite>.—V. <cite ref=\"M03056\"><he>מְתִין</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַמְתֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to tarry, remain; to wait</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 2:25\">Targ. Y. I Gen. II, 25</cite> (v. ",
+						"<cite ref=\"Bereishit Rabbah 18:5\">Gen. R. s. 18</cite>, quot. in <cite ref=\"M03079\">preced.</cite>). Ib. XXXI, 28 <he>לא אַמְתַּנְתַּנִי</he> thou didst not wait for me (give me an opportunity, h. text <he>נטשתני</he>). ",
+						"<cite ref=\"Targum of I Chronicles 4:18\">Targ. I Chr. IV, 18</cite>; a. fr.—",
+						"<cite ref=\"Yevamot 91b:5\">Yeb. 91ᵇ</cite> <he>איבעי לה לאַמְתּוּנֵי</he> she ought to have waited."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

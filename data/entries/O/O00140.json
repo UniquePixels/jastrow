@@ -1,0 +1,28 @@
+{
+	"id": "O00140",
+	"slug": "סגיעותא",
+	"headword": {
+		"text": "סְגִיעוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְגִיעֲתָא"
+		}
+	],
+	"page": {
+		"number": 954,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00139\">preced.</cite>) <i>greatness, multitude</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 51:3\">Targ. Ps. LI, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 5:11\">Ib. V, 11</cite> <he>סְגִיעַת</he> Ms. (ed. <cite ref=\"O00162\"><he>סגעא</he></cite>, <he>סיגעא</he>, read: <he>סִגְעַת</he>)."
+			]
+		}
+	]
+}

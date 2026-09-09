@@ -1,0 +1,28 @@
+{
+	"id": "N00746",
+	"slug": "ניצוח",
+	"headword": {
+		"text": "נִיצּוּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִצּ׳"
+		}
+	],
+	"page": {
+		"number": 907,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01108\"><he>נָצַח</he></cite>) <i>glory; use of the stem</i> <he>נָצַח</he> <i>for song</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 4:4\">Midr. Till. to Ps. IV</cite> (expl. <he>למנצח</he>) <he>למי שנִצּוּחוֹ נצח נצחים</he> to him whose glory is everlasting. ",
+				"<cite ref=\"Midrash Tehillim 4:6\">Ib.</cite> <he>בני׳ וכ׳</he> with glorification (use of <he>נצח</he>) &c.; <cite ref=\"Pesachim 117a:12\">Pes. 117ᵃ</cite>, a. e. <cite ref=\"N00616\"><he>נִיגּוּן</he></cite>."
+			]
+		}
+	]
+}

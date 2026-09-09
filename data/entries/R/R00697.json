@@ -1,0 +1,34 @@
+{
+	"id": "R00697",
+	"slug": "צפיר",
+	"headword": {
+		"text": "צְפִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְפִירָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1297,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (late b. h.  I) <i>young he-goat</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 16:9\">Targ. Lev. XVI, 9</cite>, sq. ",
+				"<cite ref=\"Onkelos Genesis 37:31\">Targ. Gen. XXXVII, 31</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 38:26\">Targ. Y. II, Gen. XXXVIII, 26</cite> <cite ref=\"R00697\"><he>צַפִּירָא</he></cite>; a. fr.—",
+				"<cite ref=\"Yoma 66b:19\">Yoma 66ᵇ</cite> <he>מאי שהי</he> (<cite ref=\"L00000\"><he>ל</he></cite>)<he>צ׳ דין דדרי חובין סגיאין</he> Ms. M. (v. Rabb. D. S. a. l. note; Ar. <he>משוך צפירה וכ׳</he>) why does this scape-goat tarry that carries so many sins?.—Pl. <he>צְפִירִין</he>, <he>צְפִירַיָּא</he>. ",
+				"<cite ref=\"Onkelos Leviticus 16:7\">Targ. Lev. XVI, 7</cite>, sq.; a. fr.—<i>Fem.</i> <cite ref=\"R00700\"><he>צְפִירְתָּא</he></cite>. ",
+				"<cite ref=\"Onkelos Leviticus 4:28\">Ib. IV, 28</cite>; a. e.—",
+				"<cite ref=\"Pesachim 42b:1\">Pes. 42ᵇ</cite> top <he>צ׳ דלא אִפְּתַח</he> (sub. <he>רחמה</he>) a she-goat that has not given birth (Ms. M. 2 <cite ref=\"R00427\"><he>ציפרתא</he></cite> a bird that has not laid; v. Rabb. D. S. a. l. note 5, a. Ar. s. v. <cite ref=\"R00697\"><he>צפיר</he></cite>); <cite ref=\"Gittin 69b:10\">Gitt. 69ᵇ</cite> <he>טחלא דצ׳ וכ׳</he> Rashi (ed. <cite ref=\"R00427\"><he>ציפרתא</he></cite>) the milt of &c."
+			]
+		}
+	]
+}

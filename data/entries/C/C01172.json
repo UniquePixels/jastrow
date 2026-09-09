@@ -1,0 +1,24 @@
+{
+	"id": "C01172",
+	"slug": "גסיוטאי",
+	"headword": {
+		"text": "גַּסְיוֹטָאֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 261,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. n. gent. (Κασίωτις, Κάσιος) <i>inhabitants of Casiotis</i>, a district surrounding Mount Casius, East of Pelusium in Egypt. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 10:14\">Targ. Y. I Gen. X, 14</cite> <he>נסיוט׳</he> (corr. <he>ג׳</he>, Y. II <cite ref=\"Q00684\"><he>פִּילוּסָאֵי</he></cite>; h. text <he>פתרסים</he>); <cite ref=\"Targum of I Chronicles 1:12\">Targ. I Chr. I, 12</cite> <he>נסיוט׳</he>, <he>נסאט׳</he> (corr. acc.)."
+			]
+		}
+	]
+}

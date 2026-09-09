@@ -1,0 +1,49 @@
+{
+	"id": "K00857",
+	"slug": "כנישא",
+	"headword": {
+		"text": "כְּנִישָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּנִישְׁתָּא"
+		},
+		{
+			"text": "כְּנִשְׁ׳"
+		}
+	],
+	"page": {
+		"number": 649,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00856\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>gathering</i>; <i>assembly</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:10\">Targ. O. Gen. I, 10</cite> <he>בית כְּנִישַׁת מיא</he> (h. text <cite ref=\"M02388\"><he>מקוה</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 35:1\">Targ. Ex. XXXV, 1</cite> (ed. Amst. <he>כְּנִישְׂ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Joel 1:14\">Targ. Joel I, 14</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 48:12\">Targ. Ps. XLVIII, 12</cite> (some ed. <cite ref=\"K00857\"><he>כְּנִישָׁתָא</he></cite> pl., h. text <cite ref=\"B00941\"><he>בנות</he></cite>); a. fr.—Y. Peah I, 15ᵈ <he>איזיל צור כ׳ עליה</he> shall I call a meeting against him?; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>כ׳</he> or (<he>בי</he>) <he>בית כ׳</he> <i>synagogue, school-house</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 11:16\">Targ. Ez. XI, 16</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:1:11\">Y. M. Kat. III, 81ᵈ</cite> bot. <he>קומי חדא כ׳</he> before a certain synagogue. ",
+				"<cite ref=\"Berakhot 7b:10\">Ber. 7ᵇ</cite>; a. fr.—כ׳ רבתא <i>the Great Synagogue, Synagoga Magna</i>, v. <cite ref=\"K00865\"><he>כְּנֶסֶת</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 6:5\">Targ. Cant. VI, 5</cite>; a. e.—Pl. <cite ref=\"K00857\"><he>כְּנִישָׁתָא</he></cite>, v. supra; <cite ref=\"K00857\"><he>כְּנִישָׁן</he></cite>, <cite ref=\"K00853\"><he>כְּנִיסָן</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:6\">Y. Kil. IX, 32ᵇ</cite> top <he>אשירוניה תמני עסרי כ׳</he> they stopped the funeral procession eighteen times for mourning assemblies; <cite ref=\"Jerusalem Talmud Ketubot 12:3:6\">Y. Keth. XII, 35ᵃ</cite> <cite ref=\"B00956\"><he>בניסן</he></cite> (corr. acc.).—[<cite ref=\"Bava Metzia 21a:13\">B. Mets. 21ᵃ</cite> <he>כ׳ דבי דרי</he> Ar., v. <cite ref=\"M01417\"><he>מַכְנַשְׁתָּא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

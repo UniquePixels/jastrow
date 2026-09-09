@@ -1,0 +1,27 @@
+{
+	"id": "U00962",
+	"slug": "שימושא",
+	"headword": {
+		"text": "שִׁימּוּשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁמּ׳"
+		}
+	],
+	"page": {
+		"number": 1563,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00961\">same</cite>, <i>service, office</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 40:13\">Targ. Gen. XL, 13</cite>; <cite ref=\"Onkelos Genesis 41:13\">XLI, 13</cite> (h. text <cite ref=\"K00825\"><he>כַּן</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 22:19\">Targ. Is. XXII, 19</cite> (h. text <cite ref=\"M02143\"><he>מעמד</he></cite>).—Esp. <i>Temple service</i>. ",
+				"<cite ref=\"Onkelos Exodus 31:10\">Targ. Ex. XXXI, 10</cite> (h. text <cite ref=\"U01932\"><he>שרד</he></cite>). ",
+				"<cite ref=\"Onkelos Numbers 4:12\">Targ. Num. IV, 12</cite> (h. text <he>שרת</he>); a. fr."
+			]
+		}
+	]
+}

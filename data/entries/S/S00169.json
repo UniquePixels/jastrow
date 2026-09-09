@@ -1,0 +1,49 @@
+{
+	"id": "S00169",
+	"slug": "קדר-2",
+	"headword": {
+		"text": "קְדַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְדַד"
+		}
+	],
+	"page": {
+		"number": 1318,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00168\">same</cite>, <i>to penetrate</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 83a:9\">Men. 83ᵃ</cite> <he>בשר אגב דשמין קָדֵיר</he> (Ms. M. <cite ref=\"S02196\"><he>קריר</he></cite>, v. Rabb. D. S. a. l. note) meat being fat penetrates (the fat is communicated to an object with which it comes in contact); <cite ref=\"Zevachim 98a:7\">Zeb. 98ᵃ</cite> <he>משום דקריר</he> (Ms. K. <he>דקדיר</he>; Ms. R. 1 <he>דקריד</he>; v. Rabb. D. S. a. l. note 6). ",
+				"<cite ref=\"Zevachim 79b:4\">Ib. 79ᵇ</cite> <he>שאני רוק דקדיר</he> Ms. M. (ed. <he>דקריר</he>; Ms. R. 2 a. Ms. K. <he>דקריד</he>; Ms. R. 1 <he>דקרור</he>) it is different with saliva, because it penetrates."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַדֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to measure level distances</i>. Y. Bicc. I, end, 64ᵇ <he>מאן דמְקַדֵּר וכ׳</he>, v. <cite ref=\"U00240\"><he>שִׁגְרוֹנַיָּיה</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["(אִתְקְדַד) אִתְקְדַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be caved</i> or <i>arched</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 8:10\">Targ. Esth. VIII, 10</cite> <he>אִתְקַדְּרוּ פיסת וכ׳</he> (ed. Lag. <he>אתקדדו</he>) the soles of their feet were arched (so that they, in running, touched the ground only with their toes)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

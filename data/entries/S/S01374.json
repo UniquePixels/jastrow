@@ -1,0 +1,23 @@
+{
+	"id": "S01374",
+	"slug": "קלניתא-1",
+	"headword": {
+		"text": "קַלָּנִיתָא"
+	},
+	"page": {
+		"number": 1379,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01356\"><he>קְלַל</he></cite>) name of <i>a very lean bird, ḳallanitha</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 102b:6\">Ḥull. 102ᵇ</cite> <he>בק׳</he> such is the case with the ḳ.; <he>והא ק׳ עוף טמא הוא</he> but the ḳ. is an unclean bird?; <he>כעין ק׳</he> a clean bird similar in build to the ḳ.—",
+				"<cite ref=\"Bava Batra 20a:10\">B. Bath. 20ᵃ</cite> <he>ק׳ לא מסרטא</he> but the ḳ. does not scratch (and a child may play with it)!; <he>כעין ק׳</he> (a bird that does scratch, but is) similar &c."
+			]
+		}
+	]
+}

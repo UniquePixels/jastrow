@@ -1,0 +1,24 @@
+{
+	"id": "N00311",
+	"slug": "נודיין",
+	"headword": {
+		"text": "נוֹדִיִּין"
+	},
+	"page": {
+		"number": 884,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (perh. from their shape, v. <cite ref=\"N00310\">preced.</cite>) <i>Nodiin</i>, name of a superior variety of <i>olives</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 7:2:3\">Y. Peah VII, 20ᵃ</cite> <he>זיתי נ׳</he> (not <cite ref=\"G00430\"><he>זית</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Peah 7:2:3\">Ib.</cite> <he>דרכן ליבחן בנ׳</he> (not <he>כנ׳</he>) they are usually examined to see whether there are Nodiin among them."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "C00599",
+	"slug": "גט-2",
+	"headword": {
+		"text": "גֵּט",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּטָּא"
+		},
+		{
+			"text": "גִּיטָּא"
+		}
+	],
+	"page": {
+		"number": 233,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00598\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 24:1\">Targ. O. Deut. XXIV, 1</cite> (ed. Berl. <cite ref=\"C00598\"><he>גַּט</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 21:14\">Targ. Y. Gen. XXI, 14</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Gittin 9:3\">Gitt. IX, 3</cite> <he>גט פטורין</he> = h. <he>גט כריתות</he>, v. preced.—",
+				"<cite ref=\"Yevamot 106b:9\">Yeb. 106ᵇ</cite> <he>ג׳ דחליצתא</he> = h. <he>גט חליצה</he>, v. <cite ref=\"C00598\">preced.</cite>; a. fr.—Pl. <he>גִּיטִּין</he>, <he>גִּיטֵּי</he>. ",
+				"<cite ref=\"Gittin 84b:14\">Gitt. 84ᵇ</cite>"
+			]
+		}
+	]
+}

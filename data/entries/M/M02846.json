@@ -1,0 +1,40 @@
+{
+	"id": "M02846",
+	"slug": "משח-1",
+	"headword": {
+		"text": "מָשַׁח",
+		"homograph": 1
+	},
+	"page": {
+		"number": 850,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to stroke, smear;</i> esp. <i>to anoint; to install in office by anointing</i>. ",
+			"units": [
+				"<cite ref=\"Keritot 5b:85\">Ker. 5ᵇ</cite> <he>מושְׁחִין את המלכים כמין נזר וכ׳</he> in anointing kings you draw the figure of a crown with the oil on your finger &c., v. <cite ref=\"K00473\"><he>כי</he></cite>. ",
+				"<cite ref=\"Keritot 5b:19\">Ib.</cite> <he>אין מושחין מלך וכ׳</he> a king succeeding his father is not anointed; a. v. fr.—Part. pass. <cite ref=\"M02822\"><he>מָשׁוּחַ</he></cite>, pl. <he>מְשׁוּחִים</he>, <he>מְשׁוּחִין</he>. <he>כהן מ׳</he> a high priest installed with the ceremony of anointing, contrad. to <he>מרובה בגדים</he>, v. <cite ref=\"M02569\"><he>מְרוּבֶּה</he></cite>. ",
+				"<cite ref=\"Mishnah Horayot 3:4\">Hor. III, 4</cite>; <cite ref=\"Mishnah Megillah 1:9\">Meg. I, 9</cite> <he>אין כין כהן מ׳ בשמן וכ׳</he> there is no difference between the anointed and the unanointed high priest except &c. Sifré Tsav, Par. 3, ch. V; a. fr., v. <cite ref=\"M02870\"><he>מָשִׁיחַ</he></cite>.—<he>מְשׁוּחַ מלחמה</he> the priest anointed as the chaplain of the army. ",
+				"<cite ref=\"Yoma 72b:20\">Yoma 72ᵇ</cite>; a. fr., v. <cite ref=\"M02870\"><he>מָשִׁיחַ</he></cite>.—",
+				"<cite ref=\"Pesikta Rabbati 8:1\">Pesik. R. s. 8</cite> <he>מ׳ מלחמה</he>, v. <cite ref=\"M02870\"><he>מָשִׁיחַ</he></cite> end. ",
+				"<cite ref=\"Horayot 12a:15\">Hor. 12ᵃ</cite>, v. <cite ref=\"J00419\"><he>יָמַן</he></cite>. ",
+				"<cite ref=\"Horayot 11b:13\">Ib. 11ᵇ</cite> <he>מלכי בית דוד מ׳ וכ׳</he> the kings of the house of David are anointed kings, those of Israel are not installed by anointment; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִמְשַׁח"],
+			"senses": [
+				{
+					"gloss": "<i>to be anointed</i>. Ib. <he>יהוא לא נ׳ וכ׳</he> Jehu would not have been anointed but for the contest of Joram’s followers. Ib. <he>וממנו היה נִמְשָׁח המשכן וכ׳</he> with that oil (prepared by Moses) were anointed the Tabernacle &c.; Y. Sot. VIII, 22ᶜ. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> <he>עד שנִמְשְׁחוּ כולם</he> until all the vessels were anointed; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

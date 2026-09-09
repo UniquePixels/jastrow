@@ -1,0 +1,23 @@
+{
+	"id": "Q01418",
+	"slug": "פץ",
+	"headword": {
+		"text": "פַּץ"
+	},
+	"page": {
+		"number": 1204,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01445\"><he>פצץ</he></cite>, <i>to split</i>) <i>board</i>.—Pl. <cite ref=\"Q01432\"><he>פַּצִּים</he></cite>, <cite ref=\"Q01432\"><he>פַּצִּין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 1:7\">Maasr. I, 7</cite> <he>מבין הפ׳</he> Mish. a. Y. ed. (Bab. ed. <he>הפַּסִּים</he>; Ms. M. <he>הפצ׳</he>) oil from between boards of the press. ",
+				"<cite ref=\"Menachot 33b:4\">Men. 33ᵇ</cite> <he>הניחה בפצין</he> (Rashi <he>בפצים</he>) if he placed the inscription in the boards of the door frame; v. <cite ref=\"Q01432\"><he>פַּצִּים</he></cite>."
+			]
+		}
+	]
+}

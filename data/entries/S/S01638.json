@@ -1,0 +1,29 @@
+{
+	"id": "S01638",
+	"slug": "קסוה",
+	"headword": {
+		"text": "קִסְוָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִסְוָוא"
+		}
+	],
+	"page": {
+		"number": 1395,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. pl. <cite ref=\"S02227\"><he>קְשָׂוֹת</he></cite>; cmp. <cite ref=\"K00915\"><he>כָּסָה</he> I</cite>)<i>marked measure</i>, esp. <i>vessel for libation</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 9:6\">Snh. IX, 6</cite> <he>הגונב את הק׳</he> (Y. ed. <he>הקסווא</he>) if one steals the <i>ḳisvah</i>, expl. ib. 81ᵇ <he>מאי ק׳ כלי שרת</he> (Ms. M. <cite ref=\"S01057\"><he>קיסווא</he></cite>) <i>ḳ.</i> means service vessels (ref. to <cite ref=\"Numbers 4:7\">Num. IV, 7</cite>); Y. ib. IX, end, 27ᵇ, v. <cite ref=\"S01065\"><he>קִיסְטָא</he> II</cite>. Bab. ib. 82ᵇ. ",
+				"<cite ref=\"Tosefta Zevahim 1:12\">Tosef. Zeb. I, 12</cite> <he>היין שניסכו בקיסוא וכ׳</he> ed. Zuck. (Var. <he>בקסווה</he>) if wine for libation was poured into the <i>ḳ.</i> and thence into a <i>hin</i> measure.—Pl. <he>קִסְוָואוֹת</he>, <he>קִשְׂוָו׳</he>. ",
+				"<cite ref=\"Sukkah 48b\">Succ. 48ᵇ</cite> <he>שני קס׳ וכ׳</he> (sub. <he>מיני</he>) ed. Pes. a. oth. (Ms. M. 1 <cite ref=\"S02222\"><he>קִשְׂוָא׳</he></cite>; Ms. M. 2 <cite ref=\"S01632\"><he>קְסָאוֹת</he></cite>; ed. <he>קשוו׳</he>) two sets of bowls were there, one for water, and one for wine libations."
+			]
+		}
+	]
+}

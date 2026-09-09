@@ -1,0 +1,28 @@
+{
+	"id": "M02381",
+	"slug": "מקדח",
+	"headword": {
+		"text": "מַקְדֵּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַקְדֵּיחַ"
+		}
+	],
+	"page": {
+		"number": 829,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00125\"><he>קָדַח</he></cite>) <i>borer</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:4\">Kel. XIII, 4</cite>. Ib. XVII, 12 <he>כמלא מ׳ גדול של לשכה וכ׳</he> as large as the hole made with the large carpenters’ borer kept in the Temple cell, which is the size of an Italian <i>dipondium</i> &c.; Ohol. XIII, 1; Tosef. ib. XIV, 1. Ohol. II, 3 <he>באיזה מ׳ … בקטז וכ׳</he> what borer do they mean? The small one used by physicians &c. Ib. XIV, 2 <he>מלא מ׳ כל שהוא</he> any hole made with the borer, v. <cite ref=\"M01494\"><he>מִלּוּא</he></cite>; Tosef. ib. XIV, 7. ",
+				"<cite ref=\"Tosefta Shabbat 13:17\">Tosef. Sabb. XIII</cite> (<cite ref=\"Tosefta Shabbat 14:17\">XIV</cite>), 17 <cite ref=\"M02381\"><he>מקדיח</he></cite>; a. fr.—[<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite> <he>מ׳ של חרס</he> some ed., read <cite ref=\"M02380\"><he>מַקֵּדָה</he></cite>.]"
+			]
+		}
+	]
+}

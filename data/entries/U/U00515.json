@@ -1,0 +1,35 @@
+{
+	"id": "U00515",
+	"slug": "שופתא",
+	"headword": {
+		"text": "שׁוּפְתָּא"
+	},
+	"page": {
+		"number": 1540,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שׁוּף</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"U01705\"><he>שִׁפָּא</he></cite>) <i>chip, pin</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 32a:1\">Gitt. 32ᵃ</cite>; <cite ref=\"Shabbat 102b:8\">Sabb. 102ᵇ</cite>, v. <cite ref=\"S00506\"><he>קוֹפִינָא</he></cite>. ",
+				"<cite ref=\"Horayot 13a\">Hor. 13ᵃ</cite> <he>אפי׳ ש׳ דמרא וכ׳</he> (not <cite ref=\"M02479\"><he>מרא</he></cite>, v. Rabb. D. S. a. l. note 400) they (the mice) gnaw even at the pin in the hoe."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the smooth part</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 140a:6\">Sabb. 140ᵃ</cite> <he>ש׳ דתומא</he> the inner part of garlic; (Ms. M. <he>שִׂיפְוָותָא</he> <i>borders</i> of garlic)."
+			],
+			"label": "2"
+		}
+	]
+}

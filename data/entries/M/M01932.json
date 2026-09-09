@@ -1,0 +1,23 @@
+{
+	"id": "M01932",
+	"slug": "מסיקה",
+	"headword": {
+		"text": "מְסִיקָה"
+	},
+	"page": {
+		"number": 807,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"M01927\"><he>מָסִיק</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shabbat 17a\">Sabb. 17ᵃ</cite>.—Pl. <he>מְסִיקוֹת</he>. ",
+				"<cite ref=\"Bava Batra 36b:7\">B. Bath. 36ᵇ</cite> <he>שלש מ׳</he> three olive-crops."
+			]
+		}
+	]
+}

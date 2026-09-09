@@ -1,0 +1,29 @@
+{
+	"id": "M02731",
+	"slug": "מרע-4",
+	"headword": {
+		"text": "מְרַע",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "מַרְעָא"
+		}
+	],
+	"page": {
+		"number": 845,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"M02730\">preced.</cite>) <i>evil, sickness, affliction</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 8:37\">Targ. I Kings VIII, 37</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 6:2\">Targ. Koh. VI, 2</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 153a:12\">B. Bath. 153ᵃ</cite> (in a formula of a deed of donation) <he>ומגו מַרְעֵיה וכ׳</he> and in consequence of (this) his sickness he departed &c.—Pl. <he>מַרְעִין</he>. ",
+				"<cite ref=\"Onkelos Exodus 23:25\">Targ. O. Ex. XXIII, 25</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 116:3\">Targ. Ps. CXVI, 3</cite> <he>מַרְעֵי</he> Ms. (ed. <cite ref=\"M02735\"><he>מְרָעֵי</he></cite>); a. fr."
+			]
+		}
+	]
+}

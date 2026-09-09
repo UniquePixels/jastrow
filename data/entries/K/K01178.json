@@ -1,0 +1,35 @@
+{
+	"id": "K01178",
+	"slug": "כרית-1",
+	"headword": {
+		"text": "כְּרִית"
+	},
+	"page": {
+		"number": 667,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01095\"><he>כָּרָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the groove</i> in the mountain slopes made by running water. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:1:4\">Y. M. Kat. I, 80ᵇ</cite> top <he>עד כדי שתפרח הכ׳</he> (ed. <he>הב׳</he>, corr. acc.) until the grooves bloom (are covered with vegetation). ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:1:4\">Ib.</cite> <he>פרחה כ׳ ולא פסקו</he> if the grooves have bloomed, but the rains have not ceased (set in again); <cite ref=\"Jerusalem Talmud Terumot 8:3:30\">Y. Ter. VIII, 46ᵃ</cite> top <he>עד כדי שתפוח הכ׳</he> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (b. h.) <i>K’rith</i>, name of a brook. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 17:3\">Targ. I Kings XVII, 3</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

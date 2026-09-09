@@ -1,0 +1,28 @@
+{
+	"id": "D00944",
+	"slug": "דעוון",
+	"headword": {
+		"text": "דַּעֲוָון"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּעֲוָן"
+		}
+	],
+	"page": {
+		"number": 316,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. ch. (<cite ref=\"D00943\">preced.</cite>) <i>opinions</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 1:1:18\">Y. Yeb. I, 2ᶜ</cite> bot.; <cite ref=\"Jerusalem Talmud Ketubot 6:1:2\">Y. Keth. VI, beg. 30ᶜ</cite> <he>ד׳ ד׳ אית וכ׳</he> there are different opinions related in behalf of &c.; ib. V, 30ᵃ top <he>רעיון רעיון</he> (corr. acc.)."
+			]
+		}
+	]
+}

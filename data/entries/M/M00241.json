@@ -1,0 +1,29 @@
+{
+	"id": "M00241",
+	"slug": "מדבר-2",
+	"headword": {
+		"text": "מִדְבָּר"
+	},
+	"page": {
+		"number": 731,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"D00076\"><he>דְּבַר</he></cite>) <i>pasture-ground, desert</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 31\">Gen. R. s. 31</cite>, end. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:4:8\">Cant. R. to IV, 4</cite> (play on <he>מדברך</he> <cite ref=\"Shir HaShirim Rabbah 3\">ib. 3</cite>) <he>אע״פ שהוא מ׳ וכ׳</he> although the Temple is a desert, you are bound to observe the sacredness of its precincts now that it is ruined &c.; a. fr.—<he>מֵתֵי מ׳</he> the generation that died in the wilderness. ",
+				"<cite ref=\"Bava Batra 73b:11\">B. Bath. 73ᵇ</cite> bot.; a. fr.—",
+				"<cite ref=\"Tosefta Makkot 3:2\">Tosef. Macc. III</cite> (<cite ref=\"Tosefta Makkot 2:2\">II</cite>), 2; <cite ref=\"Makkot 9b:16\">Macc. 9ᵇ</cite>; Y. ib. II, 31ᵈ top <he>בצר במ׳</he> (b. h.) <i>Bezer in the Wilderness</i>, on the eastern side of the Jordan.—",
+				"<cite ref=\"Tosefta Menahot 9:13\">Tosef. Men. IX, 13</cite> <he>כבשים ממ׳</he>, read: <he>ממִדְבַּר חברון</he> from the pasture-ground of Hebron; v. ",
+				"<cite ref=\"Menachot 87a\">Men. 87ᵃ</cite>; <cite ref=\"Sotah 34b\">Sot. 34ᵇ</cite>.—Pl. <cite ref=\"M00244\"><he>מִדְבָּרוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Berakhot 9:2\">Ber. IX, 2</cite>. ",
+				"<cite ref=\"Berakhot 54b:12\">Ib. 54ᵇ</cite> <he>הולכי מ׳</he> those travelling in the deserts; a. e."
+			]
+		}
+	]
+}

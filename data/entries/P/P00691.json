@@ -1,0 +1,22 @@
+{
+	"id": "P00691",
+	"slug": "עירית",
+	"headword": {
+		"text": "עִירִית"
+	},
+	"page": {
+		"number": 1076,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"A01602\"><he>אִירָא</he></cite>, a. <cite ref=\"P00695\"><he>עִירָנִית</he></cite>) <i>a plant with woolly leaves, mullein</i> (Lat. verbascum, v. Sm. Ant., a. Lydd. et Scott Gr. Dict. s. v. φλόμος). ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 5:17\">Tosef. Shebi. V, 17</cite> (Var. <cite ref=\"P00512\"><he>עִידִּית</he></cite>, cmp. <cite ref=\"A01156\"><he>אִידָּא</he></cite>, a. <cite ref=\"A01166\"><he>אִידָּן</he></cite>)."
+			]
+		}
+	]
+}

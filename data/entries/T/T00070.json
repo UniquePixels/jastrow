@@ -1,0 +1,32 @@
+{
+	"id": "T00070",
+	"slug": "רבוכה",
+	"headword": {
+		"text": "רְבוּכָה"
+	},
+	"page": {
+		"number": 1440,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>רבך</he>, cmp. <cite ref=\"T00054\"><he>רָבַג</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>irregular pile, deposit</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Zevahim 7:6\">Tosef. Zeb. VII, 6</cite> <he>חלון … ור׳ היתה וכ׳</he> (ed. Zuck. <he>ורְבִיכָה</he>) there was an opening on the western side of the ascent to the altar, called <i>r’bukhah</i>, whither they cast &c., v. <cite ref=\"T00066\"><he>רְבוּבָה</he> I</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pulp of flour mixed with hot water and oil</i>, v. <cite ref=\"T00094\"><he>רְבִיכָה</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

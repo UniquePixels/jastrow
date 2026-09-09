@@ -1,0 +1,35 @@
+{
+	"id": "T00916",
+	"slug": "רעף",
+	"headword": {
+		"text": "רַעַף"
+	},
+	"page": {
+		"number": 1488,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>רְעָפִים</he>, <he>רְעָפִין</he> (<cite ref=\"T00916\"><he>רעף</he></cite>, cmp. <he>רצף</he>, <i>to press, flatten</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>flints</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 8:5:8\">Y. Ber. VIII, 12ᵇ</cite> bot. <he>זימן לו הקב״ה שני ר׳ וכ׳</he> the Lord made him (Adam) find two flints which he struck against each other and produced fire; <cite ref=\"Bereishit Rabbah 11:2\">Gen. R. s. 11</cite>; s. 12; s. 82. ",
+				"<cite ref=\"Mishnah Beitzah 4:7\">Bets. IV, 7</cite> (<cite ref=\"Beitzah 33a:9\">33ᵃ</cite>) <he>אין מוציאין את האור … ולא מן הר׳</he> Bab. ed. (absent in Mish. a. Y. ed.) you must not produce fire (on the Holy Day) from wood … or from flints."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>glazed tiles</i>. Ib. <he>אין … את הר׳</he>, v. <cite ref=\"L00095\"><he>לָבַן</he> II</cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 5:9\">Men. V, 9</cite> <he>מאפה ר׳</he> what is baked on hot tiles; <cite ref=\"Tosefta Menahot 7:20\">Tosef. ib. VII, 20</cite> <he>עשאן … ובר׳</he> if he baked them in a brazier or on tiles; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

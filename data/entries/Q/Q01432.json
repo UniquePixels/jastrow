@@ -1,0 +1,29 @@
+{
+	"id": "Q01432",
+	"slug": "פצים-1",
+	"headword": {
+		"text": "פַּצִּים"
+	},
+	"page": {
+		"number": 1205,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01438\"><he>פצם</he></cite>) <i>board</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:7\">Sabb. VIII, 7</cite> <he>כדי ליתן בין פ׳ לחבירו</he> as much as is required between one board and another (when they are piled up).—[<cite ref=\"Mishnah Maasrot 1:7\">Maasr. I, 7</cite> <he>הפצים</he>, v. <cite ref=\"Q01418\"><he>פַּץ</he></cite>.]—Esp. <i>the board nailed against the wall to form a door-frame, door-post</i>. ",
+				"<cite ref=\"Menachot 34a:4\">Men. 34ᵃ</cite> <he>בית שאין לו אלא פ׳ אחד</he> a room which has only one door-post (the corner wall serving for the other post). ",
+				"<cite ref=\"Menachot 33b:4\">Ib. 33ᵇ</cite> <he>הניחה בפצים</he> Rashi, v. <cite ref=\"Q01418\"><he>פַּץ</he></cite>.—Pl. <he>פַּצִּימִין</he>. ",
+				"<cite ref=\"Menachot 33b:10\">Ib.</cite> <he>לפי שאין לה פ׳</he> because it (the exedra) has no door-frame. ",
+				"<cite ref=\"Menachot 33b:10\">Ib.</cite> <he>עדי פצימו</he> ed. (Ms. M. <he>פצימין</he>, read: <cite ref=\"Q01433\"><he>פַּצִּימָיו</he></cite>), v. <cite ref=\"P00135\"><he>עָדֵי</he> I</cite>. ",
+				"<cite ref=\"Eruvin 93a:1\">Erub. 93ᵃ</cite> <he>פַּצִּימֶיהָ</he>, v. <cite ref=\"U00337\"><he>שָׁוָה</he></cite>. ",
+				"<cite ref=\"Bava Batra 12a:2\">B. Bath. 12ᵃ</cite> <he>פרץ את פַּצִימָיו</he> if he broke open its door-frame (opened again a walled up entrance). ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:7:2\">Y. Ab. Zar. III, 43ᵇ</cite> <he>מפרק את פצימיו</he> he takes out its door-posts; a. e."
+			]
+		}
+	]
+}

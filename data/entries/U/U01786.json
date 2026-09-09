@@ -1,0 +1,123 @@
+{
+	"id": "U01786",
+	"slug": "שפע-1",
+	"headword": {
+		"text": "שָׁפַע"
+	},
+	"page": {
+		"number": 1618,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"U01736\"><he>שָׁפָה</he> II</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be smooth</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 14:6\">Gen. R. s. 14</cite> <he>קורה שׁוֹפַעַת</he> a smooth-trimmed trunk (of a palm-tree, v. <cite ref=\"U01790\"><he>שִׁפְעָה</he> I</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to incline, slide</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 10:10\">Neg. X, 10</cite> <he>השׁוֹפֵעַ וכ׳</he>, v. <cite ref=\"C00070\"><he>גַּבַּחַת</he></cite>; Sifra Thazr. Par. 5, ch. X. ",
+				"<cite ref=\"Tosefta Kelim Kamma 6:15\">Tosef. Kel. B. Kam. VI, 15</cite> <he>תנור ששפתיו שׁוֹפְעוֹת לתוכו</he> (not <he>ששפתות</he>) a stove the rims of which incline towards the inside; <he>שפתיו שופעות לאחוריו</he> if its rims incline towards its outer walls. Ohol. VII, 2 <he>אהל שהוא שופע וכ׳</he> a tent the top of which goes slanting down, so that the flat roof is only of the size of a finger; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to pour out, run, discharge</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 554:1\">Yalk. Lev. 554</cite> <he>כל זמן ששופע לתוכה וכ׳</he> as long as it (the spring) discharges its overflow into the garden, the vegetables get black (dark green) &c. ",
+				"<cite ref=\"Mishnah Niddah 9:8\">Nidd. IX, 8</cite> (among the symptoms of approaching menstruation) <he>ושׁוֹפַעַת</he> and she discharges, expl. ",
+				"<cite ref=\"Niddah 63b\">ib. 63ᵇ</cite> top. ",
+				"<cite ref=\"Mishnah Bekhorot 3:1\">Bekh. III, 1</cite> <he>בהמה גסה ששָׁפְעָה וכ׳</he> a large domestic animal that discharged a clod of blood; a. e.—[<cite ref=\"Jerusalem Talmud Horayot 1:2:6\">Y. Hor. I, 46ᵃ</cite> top <he>עד שישפע</he>, read: <he>שישמע</he>, v. <cite ref=\"U01511\"><he>שָׁמַע</he></cite>.]"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁפִּיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to make slanting</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 43b:15\">Erub. 43ᵇ</cite> <he>משְׁפִּיעַ ועולה משפיע ויורד</he> (not <he>משפיעו</he>) let him make the wall slanting (from the centre) upwards and downwards (so that it should cast no shade)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to pour abundantly; to sell in large quantities;</i> trnsf. <i>to give in abundance</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Demai 2:4\">Dem. II, 4</cite> <he>כל המַשְׁפִּיעִים במדה גסה</he> (Y. ed. <he>המשופעים</he>, corr. acc.) all wholesale dealers; <he>אלו הן המַשְׁפִּיעִין וכ׳</he> these are considered wholesale dealers &c., v. <cite ref=\"O00605\"><he>סִיטוֹן</he></cite>. ",
+						"<cite ref=\"Berakhot 32a:8\">Ber. 32ᵃ</cite> (ref. to <he>ודי זהב</he>, <cite ref=\"Deuteronomy 1:1\">Deut. I, 1</cite>) <he>בשביל … וזהב שהִשְׁפַּעְתָּ להם וכ׳</he> on account of the silver and gold which thou didst pour upon them, until they said, enough!—this was why they made the golden calf; (<cite ref=\"Yoma 86b:14\">Yoma 86ᵇ</cite> <he>שהרבית</he>). ",
+						"<cite ref=\"Sanhedrin 108a:1-7\">Snh. 108ᵃ</cite> <he>דור … בשביל טובה שה׳ וכ׳</he> the generation of the flood became overbearing only on account of the wealth that the Lord bestowed upon them. ",
+						"<cite ref=\"Sanhedrin 108a:8\">Ib.</cite> <he>בטובה שהִשְׁפַּעְתִּי וכ׳</he> with the very blessing that I bestowed upon them, do they provoke me to anger; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to give overmeasure</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Batra 5:3\">Tosef. B. Bath. V, 3</cite> <he>מקום שנהגו להַשְׁפִּיעַ משפיע וכ׳</he> where it is customary to give overmeasure, you must pour as much as is required: as long as the back and the bottom rim of the vessel are not wetted; a. e.—Part. pass. <he>מוּשְׁפָּע</he>, v. infra."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["שִׁפֵּעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to make slanting</i>. Part. pass. <cite ref=\"M02840\"><he>מְשׁוּפָּע</he></cite>; f. <he>מְשׁוּפַּעַת</he>; pl. <he>מְשׁופָּעִים</he>, <he>מְשׁוּפָּעִין</he>; <he>מְשׁוּפָּעוֹת</he>. ",
+					"units": [
+						"<cite ref=\"Shabbat 5a:18\">Sabb. 5ᵃ</cite> <he>כותל מש׳</he> a slanting wall. Y. Ned. V, beg. 39ᵃ <he>היה המקום מש׳ וכ׳</he> if the place in his court is sloping …, the neighbor may protest (against washing being done in it), for he may say, thou pourest out, and it comes to my ground; a. e.—[<cite ref=\"Yalkut Shimoni on Torah 571\">Yalk. Lev. 571</cite> <he>דרך משופע</he>, v. <cite ref=\"M02839\"><he>מְשׁוּפָּשׁ</he></cite>.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to flow</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 4\">Lam. R. to IV, 15</cite> <he>מהו ושפח וש׳ וכ׳</he> what is <i>v’sippaḥ</i> (<cite ref=\"Isaiah 3:17\">Is. III, 17</cite>)? It means <i>v’shippʿa</i> (he caused them to discharge blood), in order that the holy seed be not mixed up &c.—<i>Part. pass.</i> as ab. <i>abundant, eloquent, verbose</i>. ",
+						"<cite ref=\"Midrash Tehillim 1:19\">Midr. Till. to Ps. I, 5</cite> ed. Bub. (ref. to <cite ref=\"Proverbs 15\">Prov. XV</cite>, 7ᵇ) <he>אלו המש׳ וכ׳</he> this refers to those who are extremely fluent, but in whom there is not the sap of the Law; <cite ref=\"Yalkut Shimoni on Nach 953:2\">Yalk. Prov. 953</cite> <he>המוּשְׁפָּעִים</he>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["שׁוּפַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to be made slanting</i>; part. <cite ref=\"M02840\"><he>מְשׁוּפָּע</he></cite>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be poured</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 69:8\">Gen. R. s. 69</cite> end; <cite ref=\"Yalkut Shimoni on Torah 120\">Yalk. ib. 120</cite>, v. <cite ref=\"Q00909\"><he>פַּךְ</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pu."
+		},
+		{
+			"forms": ["הִשְׁתַּפֵּעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to slant</i>. Y. Erub. X, 26ᵇ bot. <he>במִשְׁתַּפֵּעַ עשרה וכ׳</he> when the wall slants at the grade of ten hand-breadths to three.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

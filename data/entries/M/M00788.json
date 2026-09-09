@@ -1,0 +1,38 @@
+{
+	"id": "M00788",
+	"slug": "מזרק-2",
+	"headword": {
+		"text": "מִזְרַק"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַזְרְקָא"
+		},
+		{
+			"text": "מַזִּירְ׳"
+		}
+	],
+	"page": {
+		"number": 756,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"M00787\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 7:13\">Targ. O. Num. VII, 13</cite> <he>מַזְ׳</he> ed. Berl. (Mss. <cite ref=\"M00716\"><he>מִזְ׳</he></cite>, <cite ref=\"M00788\"><he>מַזִּרְ׳</he></cite>; Y. <cite ref=\"M00760\"><he>מַזִּירְקָא</he></cite>, <he>מזרק</he>); a. fr.—Pl. <he>מִזְרְקַיָּא</he>, <cite ref=\"M00788\"><he>מַזִּירְ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 27:3\">Targ. O. Ex. XXVII, 3</cite> <cite ref=\"M00788\"><he>מַזִּירְק׳</he></cite> ed. Berl. (Y. <cite ref=\"M00788\"><he>מְזִירְ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Zechariah 14:20\">Targ. Zech. XIV, 20</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>blood-vessel, jugular vain</i>.—Pl. <he>מִזְרְקֵי</he>, <cite ref=\"M00716\"><he>מִיזְ׳</he></cite>, <cite ref=\"M00788\"><he>מַזִּירְ׳</he></cite> <i>the neck with the jugular veins</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 93b:6\">Ḥull. 93ᵇ</cite>; <cite ref=\"Pesachim 74b:11\">Pes. 74ᵇ</cite> <cite ref=\"M00788\"><he>מזיר׳</he></cite>. ",
+				"<cite ref=\"Pesachim 74b:11\">Ib.</cite> (used as a sing.) <he>וכן מ׳ חתכיה וכ׳</he> (missing in Ms. M.) and so the neck-piece, if he cut it &c."
+			],
+			"label": "2"
+		}
+	]
+}

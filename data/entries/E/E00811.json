@@ -1,0 +1,23 @@
+{
+	"id": "E00811",
+	"slug": "הרבעה",
+	"headword": {
+		"text": "הַרְבָּעָה"
+	},
+	"page": {
+		"number": 365,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00128\"><he>רָבַע</he></cite>) <i>the</i> (<i>forbidden</i>) <i>coupling of heterogeneous animals</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 56b:3\">Snh. 56ᵇ</cite> <he>הַרְבָּעַת בהמה</he>; Sifra Aḥaré Par. 9, ch. XIII. ",
+				"<cite ref=\"Chullin 71a:22\">Ḥull. 71ᵃ</cite> <he>לה׳</he> with reference to forbidden coupling; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "O00600",
+	"slug": "סיחה",
+	"headword": {
+		"text": "סִיחָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׂיחָה"
+		}
+	],
+	"page": {
+		"number": 977,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"O00806\"><he>שִׂ׳</he></cite>; <cite ref=\"O00277\"><he>סוּחַ</he></cite>)<i>talk, conversation</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 78b:11\">B. Bath. 78ᵇ</cite> <he>ואמאי קרי ליה סיח שמהלך אחר ס׳ נאה</he> and why do they call a young ass <i>sayyaḥ</i>? Because it follows a persuasive talk (of its driver, whereas the old ass must be struck). ",
+				"<cite ref=\"Bava Batra 78b:14\">Ib.</cite> (play on <he>עיר סיחון</he>, <cite ref=\"Numbers 21:27\">Num. XXI, 27</cite>) <he>אם משים … כְּעַיִר שמהלך אחר ס׳ נאה</he> if a man makes himself like (is as obedient as) the young ass that follows &c. ",
+				"<cite ref=\"Numbers 21:27\">Ib.</cite> (play on <cite ref=\"P01235\"><he>ער</he></cite> ib. 28) <he>זה המהלך אחר יצרו … ס׳ נאה</he> that is he who follows his evil inclination as the young ass follows &c. ",
+				"<cite ref=\"Sanhedrin 94a:12\">Snh. 94ᵃ</cite> (play on <he>ס̇נח̇ר̇י̇ב̇</he>) <he>שסִיֹחָתוֹ ר̇י̇ב̇</he> whose talk is strife. ",
+				"<cite ref=\"Kiddushin 71b:2\">Kidd. 71ᵇ</cite> <he>כל שסיחתו בבבל</he> he whose conversation shows that he is a Babylonian. ",
+				"<cite ref=\"Chagigah 5b:7\">Ḥag. 5ᵇ</cite> (ref. to <cite ref=\"Amos 4:13\">Am. IV, 13</cite>) <he>אפי׳ ש׳ יתירה וכ׳</he> even superfluous talk between husband and wife is brought up against man in his hour of death; <cite ref=\"Vayikra Rabbah 26:7\">Lev. R. s. 26</cite> <he>אפי׳ ש׳ קלה שאדם משיח וכ׳</he> even frivolous talk &c. ",
+				"<cite ref=\"Sukkah 28a:3\">Succ. 28ᵃ</cite> <he>שִׂיחַת חולין</he> profane (secular) talk. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 764:13\">Yalk. Num. 764</cite> <he>שיחת כנענים</he> the language of the Canaanites; a. fr.—Pl. <he>סִיחוֹת</he>, <cite ref=\"O00806\"><he>שִׂ׳</he></cite>. Y. Gitt. IX, end, 50ᵈ (<cite ref=\"U00001\"><he>ש׳</he></cite>) <he>ס׳ בני אדם משיחין</he> when people talk what people say (i.e. when you can trace the rumor; v. Bab. ",
+				"<cite ref=\"Gittin 89a\">Gitt. 89ᵃ</cite>); a. e."
+			]
+		}
+	]
+}

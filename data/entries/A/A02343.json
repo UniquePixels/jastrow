@@ -1,0 +1,33 @@
+{
+	"id": "A02343",
+	"slug": "אסותא",
+	"headword": {
+		"text": "אָסוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָסוּ"
+		}
+	],
+	"page": {
+		"number": 89,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אסי</he>) <i>cure, remedy</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 58:8\">Targ. Is. LVIII, 8</cite>. ",
+				"<cite ref=\"Onkelos Genesis 3:6\">Targ. Gen. III, 6</cite>. (some ed. O. <cite ref=\"A01401\"><he>אִיסוּ</he></cite>); a. fr. ",
+				"<cite ref=\"Bava Metzia 86a:1\">B. Mets. 86ᵃ</cite> top <he>ואסו דרבי וכ׳</he> and Rabbi’s cure shall be effected through him. ",
+				"<cite ref=\"Bava Kamma 85a\">B. Kam. 85ᵃ</cite>, a. fr. <he>מאי אֲסוּתֵיה</he> what is the remedy for it? <cite ref=\"Shabbat 110a:1\">Sabb. 110ᵃ</cite> perhaps the Rabbis’ snake (excommunication) has bitten him <he>דלית ליה א׳</he> for which there is no remedy.—Pl. <he>אַסְוָון</he>. ",
+				"<cite ref=\"Bava Batra 58b:2\">B. Bath. 58ᵇ</cite> <he>בריש כל א׳ אנא חמר</he> I, the wine, stand at the head of all medicines.—<cite ref=\"A01808\"><he>אַסְוָותָא</he></cite>. ",
+				"<cite ref=\"Bava Metzia 113b:8\">B. Mets. 113ᵇ</cite> <he>אַסְוָתַיְיהוּ</he> remedies for them. ",
+				"<cite ref=\"Vayikra Rabbah 37\">Lev. R. s. 37</cite> <he>אסוותך</he> (read <he>אֲסוּתָךְ</he>)."
+			]
+		}
+	]
+}

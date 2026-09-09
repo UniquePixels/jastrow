@@ -1,0 +1,32 @@
+{
+	"id": "S01601",
+	"slug": "קנן-1",
+	"headword": {
+		"text": "קָנַן"
+	},
+	"page": {
+		"number": 1393,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to put up, build</i> (cmp. <cite ref=\"K00859\"><he>כָּנַן</he></cite>).—Denom. <cite ref=\"S01505\"><he>קֵן</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִנֵּן", "קִינֵּן"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"S01505\"><he>קֵן</he></cite>) <i>to build a nest, to nest</i>. Y. Peah VII, 20ᵇ top; <cite ref=\"Ketubot 111b:13\">Keth. 111ᵇ</cite>, v. <cite ref=\"L00652\"><he>לֶפֶת</he></cite>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 2:14\">Cant. R. to II, 14</cite> <he>ומצא … מְקַנֵּן</he> and found there a serpent nesting; a. e.—Part. pass. <he>מְקוּנָּן</he>. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 62\">Yalk. Gen. 62</cite> (<cite ref=\"Bereishit Rabbah 37:4\">Gen. R. s. 37</cite> <he>מְכוּנָּן</he>), v. <cite ref=\"K00859\"><he>כָּנַן</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

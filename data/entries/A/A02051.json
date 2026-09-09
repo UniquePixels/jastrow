@@ -1,0 +1,29 @@
+{
+	"id": "A02051",
+	"slug": "אמפורין",
+	"headword": {
+		"text": "אַמְפּוּרִין",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אִמְפּוֹרִין"
+		}
+	],
+	"page": {
+		"number": 78,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (ἔμποροι) <i>travelers, traders</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 25:3\">Targ. Y. I Gen. XXV, 3</cite> (a gloss to preceding <he>תגרין</he>; Targ. Y. II inserts <he>אומנין</he> for <he>לְטוּשִׁם</he>; h. text <cite ref=\"A03276\"><he>אַשּׁוּרִים</he></cite>). Ib. XLVI, 23 (h. text <he>חשים</he>). [<cite ref=\"Bereishit Rabbah 61\">Gen. R. s. 61</cite>, quoting <cite ref=\"Onkelos Genesis 25:3\">Targ. Gen. XXV, 3</cite>, reads <he>לופרין</he>!]"
+			]
+		}
+	]
+}

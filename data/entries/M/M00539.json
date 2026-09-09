@@ -1,0 +1,30 @@
+{
+	"id": "M00539",
+	"slug": "מונייק",
+	"headword": {
+		"text": "מוּנְיָיק"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָנְ׳"
+		}
+	],
+	"page": {
+		"number": 744,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (μανιάκης, v. <cite ref=\"E00631\"><he>הַמְנִיכָא</he></cite>) <i>necklace</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 4:2\">Deut. R. s. 4</cite> [read:] <he>הרי מ׳ והרי כבלים אם עשית רצוני הרי מ׳ של זהב ואם לאו וכ׳</he> (v. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 256\">Yalk. Is. 256</cite>) here is a necklace and here are chains; if thou doest my will, here is a golden necklace for thee; if not &c. ",
+				"<cite ref=\"Pesikta Rabbati 29:1\">Pesik. R. s. 29-30</cite>.—Pl. <he>מוּנְיָיקוֹת</he>. ",
+				"<cite ref=\"Pesikta Rabbati 29:1\">Ib.</cite> (ref. to <he>ענקים</he>, <cite ref=\"Proverbs 1:9\">Prov. I, 9</cite>) <he>עשה הקב״ה … כמ׳ וכ׳</he> (not … <he>קית</he>) the Lord made the letters of the Torah like necklaces and suspended them &c."
+			]
+		}
+	]
+}

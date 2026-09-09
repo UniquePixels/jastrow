@@ -1,0 +1,23 @@
+{
+	"id": "P00539",
+	"slug": "עיטרא",
+	"headword": {
+		"text": "עִיטְרָא"
+	},
+	"page": {
+		"number": 1068,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"P00533\"><he>עִיטּוּר</he></cite>2) <i>separation, deed of partition</i> between partners or heirs. ",
+			"units": [
+				"<cite ref=\"Bava Batra 29b:5\">B. Bath. 29ᵇ</cite> <he>ולא אמרן אלא דלא כתוב ע׳ אבל כתוב ע׳ וכ׳</he> Ms. M. a. early eds. <cite ref=\"A00006\"><he>א׳</he></cite>) this (that two partners, having arranged between themselves that their common slave should serve one of them alternately each year, cannot rest their claim of ownership on the ground of undisturbed possession for three consecutive years) has been said only, when they have not written an agreement of partition, but if they have &c. ",
+				"<cite ref=\"Bava Metzia 39b:2\">B. Mets. 39ᵇ</cite> <he>דלא עביד ע׳</he> Ms. R. 2 (Ms. M. <cite ref=\"A01226\"><he>איטרא</he></cite>; ed. <cite ref=\"P00530\"><he>עיטדא</he></cite>, corr. acc.) when no partition of the inherited estate has been made."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "J00416",
+	"slug": "יממא",
+	"headword": {
+		"text": "יְמָמָא"
+	},
+	"page": {
+		"number": 580,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00415\">preced.</cite>) <i>day-time, day-light</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 13:21\">Targ. Ex. XIII, 21</cite>, sq.; a. fr.—",
+				"<cite ref=\"Berakhot 3a:8\">Ber. 3ᵃ</cite> <he>י׳ הוא</he> there is the day-light (to indicate the end of the night-watch); a. fr.—Pl. <he>יְמָמִין</he>, <cite ref=\"J00417\"><he>יְמָמֵי</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 7:4\">Targ. Gen. VII, 4</cite>; a. e.—",
+				"<cite ref=\"Horayot 4a:17\">Hor. 4ᵃ</cite> <he>בִּימָמֵי</he> in day-time."
+			]
+		}
+	]
+}

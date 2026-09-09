@@ -1,0 +1,27 @@
+{
+	"id": "J00691",
+	"slug": "ישיטא",
+	"headword": {
+		"text": "יְשִׁיטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּר יְשִׁיטָא"
+		}
+	],
+	"page": {
+		"number": 600,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Bar-Y’shita</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 4:10:5\">Y. Meg. IV, 75ᶜ</cite> top."
+			]
+		}
+	]
+}

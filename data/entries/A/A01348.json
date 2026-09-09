@@ -1,0 +1,23 @@
+{
+	"id": "A01348",
+	"slug": "אימר-1",
+	"headword": {
+		"text": "אֵימַר"
+	},
+	"page": {
+		"number": 51,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (= h. <cite ref=\"A02063\"><he>אֵמֶר</he></cite>) <i>speech, utterance</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 24:3\">Targ. Num. XXIV, 3</cite>; a. e.—Pl. <cite ref=\"A01349\"><he>אִימְרַיָּא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 4:5\">Targ. Prov. IV, 5</cite> Ms. (ed. <he>מַאֲמָרֵי</he>); a. e."
+			]
+		}
+	]
+}

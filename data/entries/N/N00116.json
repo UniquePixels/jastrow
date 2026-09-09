@@ -1,0 +1,63 @@
+{
+	"id": "N00116",
+	"slug": "נגב-3",
+	"headword": {
+		"text": "נְגֵב"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְגוּב"
+		},
+		{
+			"text": "נְגֵיב"
+		}
+	],
+	"page": {
+		"number": 871,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00115\">same</cite>, <i>to be dry, to dry out</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 8:13\">Targ. Gen. VIII, 13</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 5:1:4\">Y. Sabb. V, beg. 7ᵇ</cite> <he>כדו נגיב אינון וכ׳</he> when it is dry, they name it Egyptian bean; <cite ref=\"Jerusalem Talmud Kilayim 8:3:4\">Y. Kil. VIII, 31ᶜ</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Gittin 7:6:4\">Y. Gitt. VII, end, 49ᵃ</cite> <he>ונ׳ נהרא</he> the canal dried up. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 7:6:4\">Ib.</cite> <he>דיִיגַּב וכ׳</he> that the canal may dry up; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַגֵּיב"],
+			"senses": [
+				{
+					"gloss": "<i>to dry, wipe</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 24a:2\">B. Mets. 24ᵃ</cite> <he>ונ׳ בגלימא וכ׳</he> wiped (his hands) on his neighbor’s cloak; a. e.—<i>Part. pass.</i> <he>מְנַגַּב</he>; f. <he>מְנַגְּבָא</he> <i>parched</i>. ",
+						"<cite ref=\"Targum Jonathan on Numbers 11:6\">Targ. Y. Num. XI, 6</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְנְגִיב"],
+			"senses": [],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִתְנַגֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to be dried up</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 1:9\">Targ. Y. Gen. I, 9</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 106:9\">Targ. Ps. CVI, 9</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

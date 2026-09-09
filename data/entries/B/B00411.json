@@ -1,0 +1,43 @@
+{
+	"id": "B00411",
+	"slug": "בזבז-1",
+	"headword": {
+		"text": "בִּזְבֵּז"
+	},
+	"page": {
+		"number": 152,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Pilp. of <cite ref=\"B00406\"><he>בז</he></cite>, v. <cite ref=\"B00436\"><he>בְּזָא</he> II</cite>, a. b. h.  in H. in H. Dict.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to divide, distribute</i>. Tosef. Meg. IV (III), 21 <he>אין אדם מְבַזְבֵּז בידיו לעצמו</he> (v. ed. Zuck. Var.) one who distributes (honors) must take none to himself. ",
+			"units": [
+				"<cite ref=\"Bava Batra 142a\">B. Bath. 142ᵃ</cite> a convert died <he>ובזבזו וכ׳</he> and Israelites divided his property among themselves (he having left no legitimate heirs)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to give away liberally, to give charity on a large scale</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 50a:2\">Keth. 50ᵃ</cite> <he>הַמְבַזְבֵּז אל יְבַזְבֵּז וכ׳</he> he who wants to be liberal, must not give away more than &c. ",
+				"<cite ref=\"Ketubot 50a:5\">Ib.</cite> <he>קטנים כתבו ובזבזו</he> ‘minors’ ‘wrote’ and ‘gave away’ (ref. to the order of three traditions concerning minors, transfer of property and charity, related <cite ref=\"Ketubot 49b\">ib. 49ᵇ</cite> sq.). ",
+				"<cite ref=\"Bava Batra 11a:3\">B. Bath. 11ᵃ</cite> <he>שבזבז וכ׳</he> who gave away to charities his own and his father’s treasures; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to spend unnecessarily, squander</i>. ",
+			"units": ["<cite ref=\"Bereishit Rabbah 80:7\">Gen. R. s. 80</cite>. ["],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to divide spoils, to plunder</i>, v. <cite ref=\"B00429\"><he>בָּזַז</he></cite>, <cite ref=\"B00410\"><he>בַּזְבּוּזָא</he></cite> &c.]",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

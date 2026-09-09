@@ -1,0 +1,31 @@
+{
+	"id": "A02204",
+	"slug": "אנטליא",
+	"headword": {
+		"text": "אַנְטְלַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַנְטִילַיָּיא"
+		}
+	],
+	"page": {
+		"number": 84,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (of <cite ref=\"A02202\"><he>אנטל</he></cite>; from which Greek ἄντλος, ἄντλον &c. and our w. ἄντλεία, antlia) <i>baling out bilge-water, pump</i> (with wheels and buckets). ",
+			"units": [
+				"<cite ref=\"Ruth Rabbah 5:9\">Ruth R. to II, 19</cite> <he>גלגל אנטי׳</he>; <cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> <he>אנטל׳</he> (ed. <cite ref=\"A02183\"><he>אנטילא</he></cite>, corr. acc.) the pumping wheel. ",
+				"<cite ref=\"Tosefta Makhshirin 3:4\">Tosef. Makhsh. III, 4</cite> <he>מפני א׳ שלהן</he> on account of their baling machine (besprinkling the wheat). ",
+				"<cite ref=\"Tosefta Makhshirin 3:4\">Ib.</cite> ",
+				"<cite ref=\"Mishnah Mikvaot 4:2\">Mikv. IV, 2</cite> <he>אנטיליא</he>."
+			]
+		}
+	]
+}

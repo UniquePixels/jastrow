@@ -1,0 +1,24 @@
+{
+	"id": "M01814",
+	"slug": "מנקיות",
+	"headword": {
+		"text": "מְנַקִּיּוֹת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 802,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl.(b. h.; <cite ref=\"J00445\"><he>יָנַק</he></cite>; v. <cite ref=\"M01233\"><he>מֵינֶקֶת</he></cite>)<i>tubes</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 97a:6\">Men. 97ᵃ</cite> (ref. to <cite ref=\"Exodus 25:29\">Ex. XXV, 29</cite>) <he>מְנַקִּיּוֹתָיו אלו קנים</he> by <i>m’naḳḳiyoth</i> are meant the tubes placed between the show-loaves to let the air pass; Rashi: ‘which keep the bread clean from mould’, fr. <cite ref=\"N01193\"><he>נָקָה</he></cite>); v. <cite ref=\"O00903\"><he>סָכַךְ</he></cite> I <i>Pi.</i>—[LXX translates our w. with κύαθοι.]"
+			]
+		}
+	]
+}

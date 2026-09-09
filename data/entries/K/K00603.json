@@ -1,0 +1,85 @@
+{
+	"id": "K00603",
+	"slug": "כיפה-3",
+	"headword": {
+		"text": "כִּיפָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּפָּה"
+		}
+	],
+	"page": {
+		"number": 635,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"K01043\"><he>כָּפַף</he></cite>)<i>arch, doorway, bow</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 80b:5\">Yeb. 80ᵇ</cite> <he>עושה כ׳</he> forms a bow (when urinating). ",
+				"<cite ref=\"Yoma 11b:5\">Yoma 11ᵇ</cite>; <cite ref=\"Eruvin 11b:14\">Erub. 11ᵇ</cite> <he>כ׳ ר״מ וכ׳</he> as to an arched doorway R. M. says, it requires a M’zuzah. ",
+				"<cite ref=\"Tosefta Eiruvin 7:2\">Tosef. ib. VII</cite> (<cite ref=\"Tosefta Eiruvin 5:2\">V</cite>), 2 <he>עד מקום הכי׳</he> (ed. Zuck. <he>הקופא</he>) to the site of the (now ruined) arch (of Tiberias); Y. ib. V, 22ᵈ bot. <he>עד הכ׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 7:1:9\">Y. Naz. VII, 56ᵃ</cite> top <he>הגיעו לכ׳</he> when they arrived at the arch (or arcade). ",
+				"<cite ref=\"Mishnah Avodah Zarah 1:7\">Ab. Zar. I, 7</cite> (<cite ref=\"Avodah Zarah 16a:13\">16ᵃ</cite>) <he>כ׳ שמעמידין וכ׳</he> the arched chamber in the bath where they put up idolatrous statues. ",
+				"<cite ref=\"Pesikta Rabbati 41:1\">Pesik. R. s. 41</cite> <he>כ׳ של חשבונות … אותה כ׳</he> an arcade named Arch of Accounts (a sort of Exchange) existed outside of Jerusalem, and they used to go out and settle their accounts under this arcade &c. Tanḥ. ",
+				"<cite ref=\"Exodus 17\">B’shall. 17</cite> (ref. to <he>קפאו</he>, <cite ref=\"Exodus 15:8\">Ex. XV, 8</cite>) <he>כמין כפה</he> (Mekh. ",
+				"<cite ref=\"Exodus 15:8\">ib.</cite>, Shir. s. 6 <he>קופה</he>) like a vault; a. e.—Esp. <he>כִּיפַּת הרקיע</he>, or <cite ref=\"K00336\"><he>כִּופָּה</he></cite> <i>the heavenly arch, sky</i> (believed to be a solid mass). ",
+				"<cite ref=\"Bereishit Rabbah 48\">Gen. R. s. 48</cite>, beg. ",
+				"<cite ref=\"Bereishit Rabbah 4:5\">Gen. R. s. 4</cite> <he>הרקיע … ולמעלה … כ׳ וכ׳</he> the firmament is like a lake, and above the lake is the arch, and owing to the heat of the lake the arch exudes drops &c. ",
+				"<cite ref=\"Bava Batra 25b:1\">B. Bath. 25ᵇ</cite> <he>אחורי כ׳</he> back of (above) the sky. ",
+				"<cite ref=\"Megillah 11a\">Meg. 11ᵃ</cite> <he>ג׳ מלכו תחת הכ׳</he> Ms. M. 2 (ed. <he>בכ׳</he>, Ms. M. 1 <he>בקופה</he>) three persons ruled over the whole world; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a vaulted chamber, prison</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 9:3\">Snh. IX, 3</cite> <he>כונסין אותן לכ׳</he> they put them in prison (for life). ",
+				"<cite ref=\"Mishnah Sanhedrin 9:5\">Ib. 5</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>skull-cap, cap</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 4:4:5\">Y. Gitt. IV, 45ᵈ</cite> bot.; Bab. ",
+				"<cite ref=\"Gittin 20a\">Gitt. 20ᵃ</cite>; v. <cite ref=\"A02118\"><he>אנדכתרי</he></cite>; Treat. ʿĂbadim ch. III (ed. Kirchh.) <he>קיפה</he>. ",
+				"<cite ref=\"Shabbat 57b:2\">Sabb. 57ᵇ</cite> <he>כ׳ של צמר</he> a woolen cap, v. <cite ref=\"K00041\"><he>כָּבוּל</he> II</cite>. Y. ib. V, end, 7ᶜ <he>כ׳ של צמר</he> a woolen cap on the head of a lamb, v. <cite ref=\"H01264\"><he>חָנוּן</he> I</cite>; a. e.—",
+				"<cite ref=\"Tosefta Mikvaot 4:5\">Tosef. Mikv. IV, 5</cite>, v. infra."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"S00503\"><he>קוּפָּה</he></cite>) <i>heap, pile</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:1:15\">Y. Snh. X, 27ᵈ</cite> bot.; <cite ref=\"Jerusalem Talmud Moed Katan 3:7:15\">Y. M. Kat. III, 83ᶜ</cite> top <he>כ׳ של אבנים</he> a heap of stones; <cite ref=\"Bereishit Rabbah 100\">Gen. R. s. 100</cite> <he>כִּיפַּת אבנים</he>. ",
+				"<cite ref=\"Chullin 129a:7\">Ḥull. 129ᵃ</cite> <he>כִּיפַּת שאור וכ׳</he> a heap (lump) of leavened dough which one intended to use as a block to sit on; <cite ref=\"Pesachim 45b\">Pes. 45ᵇ</cite> <cite ref=\"K00357\"><he>כופת</he></cite> some ed. (corr. acc.; Ms. M. 2 <cite ref=\"K00876\"><he>כי׳</he></cite>; v. Rabb. D. S. a. l. note 90); v. <cite ref=\"K00357\"><he>כּוֹפֶת</he></cite>.—Pl. <cite ref=\"K00572\"><he>כִּיפִּין</he></cite>, <he>כִּפִּים</he> (or <he>כֵּיפִ׳</he> fr. <cite ref=\"K00598\"><he>כֵּיף</he></cite>) "
+			],
+			"label": "4",
+			"senses": [
+				{
+					"gloss": " <i>top-branches</i> (<i>arches</i>) <i>of palm-trees</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shevi'it 7:16\">Tosef. Shebi., VII, 16</cite> <he>על</he> (<he>של</he>) <he>בין הכֵּיפִ׳</he> ed. Zuck. (Var. <he>על מה שבכי׳</he>, <he>שבכופין</he>); <cite ref=\"Pesachim 53a:6\">Pes. 53ᵃ</cite> <he>על של בין הכ׳</he> as long as there are fruits in the tops. ",
+						"<cite ref=\"Tosefta Keilim Batra 2:1\">Tosef. Kel. B. Bath. II, 1</cite> <he>שכיפת שתי כ׳ של תמרה וכ׳</he> (R. S. to <cite ref=\"Mishnah Kelim 22:9\">Kel. XXII, 9</cite> <he>כופות</he>) who tied together two palm branches and sat upon them. ",
+						"<cite ref=\"Mishnah Shabbat 24:2\">Sabb. XXIV, 2</cite> <he>מפספסין את הכ׳</he> you may spread the bunches of branches (for fodder), contrad. to <cite ref=\"G00370\"><he>זִירִין</he></cite> a. <cite ref=\"Q01492\"><he>פְּקִיעִין</he></cite>. ",
+						"<cite ref=\"Shabbat 155a:7\">Ib. 155ᵃ</cite> <he>כ׳ תלתא</he> bunches are called <i>kippin</i> when tied with three bands.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>billow-crests, surf</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 34a:3\">Sot. 34ᵃ</cite>. ",
+						"<cite ref=\"Chagigah 19a:4\">Ḥag. 19ᵃ</cite>; <cite ref=\"Chullin 31b:4\">Ḥull. 31ᵇ</cite> <he>אין מטבילין בכ׳</he> you must not immerse vessels in the surf (caps of waves), contrad. to <he>ראשין</he>; <cite ref=\"Tosefta Mikvaot 4:5\">Tosef. Mikv. IV, 5</cite> <he>בכיפא</he> ed. Zuck. (oth. ed. <he>בכיפה</he>)."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

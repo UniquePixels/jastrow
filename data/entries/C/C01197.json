@@ -1,0 +1,30 @@
+{
+	"id": "C01197",
+	"slug": "גפא-1",
+	"headword": {
+		"text": "גַּפָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 262,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01196\">same</cite><i>wing, also winged animal</i> (interch. with <cite ref=\"C00239\"><he>גַּדְפָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 1:17\">Targ. Prov. I, 17</cite>; a. fr.—",
+				"<cite ref=\"Shir HaShirim Rabbah 4:8:1\">Cant. R. to IV, 8</cite> <he>דמנערא גפא</he> (<cite ref=\"Bereishit Rabbah 75:1\">Gen. R. s. 75</cite> <he>גרמה</he>, Var. <cite ref=\"A00334\"><he>אגפה</he></cite>), v. <cite ref=\"C00262\"><he>גֵּו</he></cite>.—Pl. <he>גַּפִּין</he>, <cite ref=\"C00195\"><he>גַּפַּיָּא</he></cite>, <cite ref=\"C01202\"><he>גַּפֵּי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 10:20\">Targ. Koh. X, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 1:6\">Targ. Ez. I, 6</cite>; a. fr.—",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> beg."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a pole with a hook</i> for cutting off fruits on high trees; [oth. opin. <i>a ladder hooked</i> into the tree.] <cite ref=\"Nedarim 89b:6\">Ned. 89ᵇ</cite> (a proverbial phrase) <he>רהיט בג׳ ותובלייא</he> he ran with hook and ropes (or baskets); i.e. he tried his utmost.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

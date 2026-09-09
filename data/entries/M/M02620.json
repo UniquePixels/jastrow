@@ -1,0 +1,24 @@
+{
+	"id": "M02620",
+	"slug": "מרזובלי",
+	"headword": {
+		"text": "מַרְזוּבְלֵי"
+	},
+	"page": {
+		"number": 840,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"T00462\"><he>רזב</he></cite>, transpos. of <cite ref=\"B01216\"><he>ברז</he></cite>, as in <cite ref=\"M02614\"><he>מַרְזֵב</he></cite>; cmp. <cite ref=\"B00361\"><he>בּוּרְיָא</he> II</cite>, <he>חוֹצֶלֶת</he> &c.) <i>mats</i> (used for partitions), <i>matting</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 20a:10\">Succ. 20ᵃ</cite>, explaining <he>חוצלות</he> (v. <cite ref=\"H00435\"><he>חוֹצֶלֶת</he></cite>) <he>מ׳</he> (some ed. <he>מרזובלים</he>); <cite ref=\"Sukkah 20a:10\">ib.</cite> <he>מאי מ׳ … מזבלי וכ׳</he> what is <i>marzublé?</i> R. A. (judging by phonetic resemblance) says, bags filled with foliage; R. S. says, real matting. ",
+				"<cite ref=\"Sukkah 20a:10\">Ib.</cite> <he>מ׳ של וכ׳</he> Ms. M. (ed. <he>מרזובלים</he>)."
+			]
+		}
+	]
+}

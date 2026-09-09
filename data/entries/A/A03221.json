@@ -1,0 +1,30 @@
+{
+	"id": "A03221",
+	"slug": "ארעא-2",
+	"headword": {
+		"text": "אַרְעָא"
+	},
+	"page": {
+		"number": 125,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (√<cite ref=\"T00864\"><he>רע</he></cite>, h.  q. v.) [the brittle] <i>land, earth, ground, field</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:1\">Targ. Gen. I, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 16:5\">Targ. Y. Gen. XVI, 5</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 29a:11\">B. Bath. 29ᵃ</cite> <he>חדא א׳</he> one field; v. <cite ref=\"B00009\"><he>בָּאגָא</he></cite>.—",
+				"<cite ref=\"Bekhorot 25b\">Bekh. 25ᵇ</cite> <he>א׳ דחשוכא</he> a land of darkness (Babylon); a. fr.—",
+				"<cite ref=\"Shabbat 65a:13\">Sabb. 65ᵃ</cite> <he>בת א׳</he> (a Chaldaic adaptation of ποδάγρα, podagra) <i>gout, sore on the toes</i>.—<he>עמא דא׳</he> = <he>עם הארץ</he>, v. <cite ref=\"A03230\"><he>אֶרֶץ</he></cite>.—Pl. <he>אַרְעָן</he>, <cite ref=\"A03221\"><he>אַרְעָאן</he></cite>, <he>אַרְעיָּין</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 28:8\">Targ. Jer. XXVIII, 8</cite> Levita, Targ. II Esth. IV, 1. Usu. <he>אַרְעָתָא</he>. ",
+				"<cite ref=\"Onkelos Genesis 26:3\">Targ. Gen. XXVI, 3</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 12b:11\">B. Bath. 12ᵇ</cite>; <cite ref=\"Bava Batra 61b:11\">61ᵇ</cite> <i>fields</i>.—",
+				"<cite ref=\"Bava Kamma 7a\">B. Kam. 7ᵃ</cite> <he>הוקר א׳</he>, <he>הוזל א׳</he> (Ms. M. <cite ref=\"G00173\"><he>זול</he></cite>, sub. <cite ref=\"D00891\"><he>דמי</he></cite>) land fell, rose in price. V. <he>לְאַרַע</he>."
+			]
+		}
+	]
+}

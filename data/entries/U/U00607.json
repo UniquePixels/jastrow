@@ -1,0 +1,22 @@
+{
+	"id": "U00607",
+	"slug": "שזרא",
+	"headword": {
+		"text": "שֵׁזְרָא"
+	},
+	"page": {
+		"number": 1545,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00606\">preced.</cite>) <i>twisted thread, cord;</i> v. <cite ref=\"U00600\"><he>שְׁזִיר</he></cite>.—Pl. <he>שֵׁזְרִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 39:3\">Targ. Y. Ex. XXXIX, 3</cite> (h. text <he>פתילם</he>)."
+			]
+		}
+	]
+}

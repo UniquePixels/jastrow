@@ -1,0 +1,24 @@
+{
+	"id": "Q01581",
+	"slug": "פרדיסקי-1",
+	"headword": {
+		"text": "פַּרְדִּיסְקֵי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1215,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (a corrupt. of παρατάξις, v. Ducange Gloss. Gr. 1531) <i>soldiers, police</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 94:9\">Gen. R. s. 94</cite>, end <he>שדר פ׳ בתריה</he> he (the royal officer) sent the police after him to arrest him.—V. <cite ref=\"Q01594\"><he>פַּרְדַּשְׁכָּא</he></cite>."
+			]
+		}
+	]
+}

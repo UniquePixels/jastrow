@@ -1,0 +1,28 @@
+{
+	"id": "U01925",
+	"slug": "שרגא-1",
+	"headword": {
+		"text": "שִׂרְגָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׂי׳"
+		}
+	],
+	"page": {
+		"number": 1628,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01923\"><he>שְׂרַג</he></cite>) <he>ש׳ דליבני</he> <i>pile of bricks</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 64b:9\">Snh. 64ᵇ</cite> (Ms. R. <he>שי׳</he>); <cite ref=\"Yalkut Shimoni on Torah 597:1\">Yalk. Lev. 597</cite>. ",
+				"<cite ref=\"Kiddushin 60a:4\">Kidd. 60ᵃ</cite>, v. <cite ref=\"U00392\"><he>שְׁוֵי</he></cite>."
+			]
+		}
+	]
+}

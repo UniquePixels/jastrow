@@ -1,0 +1,36 @@
+{
+	"id": "A01737",
+	"slug": "אכסנאי",
+	"headword": {
+		"text": "אַכְסְנָאִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַכְסְנַאי"
+		},
+		{
+			"text": "אַכְסְנַי"
+		}
+	],
+	"page": {
+		"number": 64,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (deriv. of <cite ref=\"A01739\"><he>אַכְסַנְיָא</he></cite>) <i>stranger, guest, lodger;</i> also (ξένος) <i>hired soldier</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 2:8:3\">Y. Erub. II, end 20ᵇ</cite> <he>יֵעָשֶׂה כא׳</he> let him be considered as a stranger (transient lodger). ",
+				"<cite ref=\"Tosefta Shevi'it 5:21\">Tosef. Shebi. V, 21</cite> <cite ref=\"A01734\"><he>אכסנא</he></cite> some ed. (ed. Zuck. <he>אַכְסְנָיִין</he> pl.) <i>soldier</i>, v. <cite ref=\"A01739\"><he>אַכְסַנְיָא</he></cite> 3).—",
+				"<cite ref=\"Arakhin 16b:86\">Arakh. 16ᵇ</cite> <he>א׳ דאקראי</he> an occasional guest. ",
+				"<cite ref=\"Arakhin 16b:78\">Ib.</cite> <he>א׳ פוגם ונפגם</he> a traveller (constantly changing his lodging place) discredits others a. himself; a. fr.—Pl. <he>אַכְסְנָיִין</he> (v. supra), <he>אַכְסְנִין</he> <cite ref=\"Vayikra Rabbah 27\">Lev. R. s. 27</cite>.—<cite ref=\"A01737\"><he>אַכְסְנֵי</he></cite>, <cite ref=\"A01739\"><he>אַכְסְנַיָּא</he></cite>, <cite ref=\"A01737\"><he>אַכְסְנָאֵי</he></cite>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 47:21\">Targ. Y. II, Gen. XLVII, 21</cite> <he>א׳ גילולאי</he> exiled strangers. ",
+				"<cite ref=\"Bereishit Rabbah 50\">Gen. R. s. 50</cite> <he>הב לאילין א׳</he> give these travellers &c.—*<he>אַכְסָנִים</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10</cite> (p. 239ᶜ ed. Amst.) <he>מנהג הא׳</he> custom of hospitality [prob. <cite ref=\"A01739\"><he>אכסניא</he></cite>]."
+			]
+		}
+	]
+}

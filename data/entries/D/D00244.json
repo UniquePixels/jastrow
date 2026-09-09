@@ -1,0 +1,25 @@
+{
+	"id": "D00244",
+	"slug": "דוך-4",
+	"headword": {
+		"text": "דּוּךְ",
+		"homograph": 3
+	},
+	"page": {
+		"number": 285,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"D00243\">preced.</cite>) <i>leader, chief commander</i>, only in <he>דּוּךְ דּוּכָנִין</he> (an adaptation of dux ducum, δώξ δωκῶν, v. Du Cange s. v.) the leader of the services of the Levites, v. <cite ref=\"D00249\"><he>דּוּכָן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 10:3:3\">Y. Sabb. X, 12ᶜ</cite>; <cite ref=\"Bamidbar Rabbah 7:3\">Num. R. s. 7</cite> (rendering of <he>נשיא נשיאי</he> <cite ref=\"Numbers 3:32\">Num. III, 32</cite>). ",
+				"<cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4</cite>, end [read:] <he>אלעזר היה דוך דוכנין וכ׳</he> Eleazar was chief commander, prince over princes; cmp. <cite ref=\"D00246\"><he>דּוּכּוֹס</he></cite>.—*Pl. <he>דּוּכִים</he>. ",
+				"<cite ref=\"Bereishit Rabbah 5:3\">Gen. R. s. 5</cite> (play on <he>ד̇כ̇י̇ם̇</he>, <cite ref=\"Psalms 93:3\">Ps. XCIII, 3</cite>) (‘the rivers lift up their voices’, saying to the waves of the Sea) <he>דּוֹּכִֹיֹםֹ קבלונו</he> ye leaders, receive us; [<cite ref=\"Yalkut Shimoni on Nach 848:1\">Yalk. Ps. 848</cite> <he>דַּכִּים אנו</he> we are crushed]."
+			]
+		}
+	]
+}

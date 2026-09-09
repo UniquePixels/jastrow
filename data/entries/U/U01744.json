@@ -1,0 +1,23 @@
+{
+	"id": "U01744",
+	"slug": "שפיטה",
+	"headword": {
+		"text": "שְׁפִיטָה"
+	},
+	"page": {
+		"number": 1615,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01730\"><he>שָׁפַט</he></cite>) <i>judging, judgeship</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 3b:16\">Snh. 3ᵇ</cite> (ref. to <cite ref=\"Numbers 35:24\">Num. XXXV, 24</cite> sq.) <he>משעת שְׁפִיטַת העדה</he> from the time that the assembly meets for judging (from the beginning of the legal proceedings, the court consists of twenty-three). ",
+				"<cite ref=\"Bamidbar Rabbah 14\">Num. R. s. 14<sup>9</sup></cite> <he>על שפיטת שמשון</he> the verse (<cite ref=\"Genesis 49:16\">Gen. XLIX, 16</cite>) refers to Samson’s judgeship."
+			]
+		}
+	]
+}

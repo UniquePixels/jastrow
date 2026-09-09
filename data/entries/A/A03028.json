@@ -1,0 +1,31 @@
+{
+	"id": "A03028",
+	"slug": "ארוכה-1",
+	"headword": {
+		"text": "אֲרוּכָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 116,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. fem. of <cite ref=\"A03026\"><he>אָרוּךְ</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (noun) <i>long board, longside of bedstead, bedside</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 15b:4\">Succ. 15ᵇ</cite> <he>א׳ ושתי כרעים</he> the long bedside with its two knees (supporters); <cite ref=\"Sukkah 16a:1\">16ᵃ</cite>.—Pl. <he>אֲרוּכוֹת</he>. ",
+				"<cite ref=\"Mishnah Sukkah 1:8\">Ib. I, 8</cite> (Var. <he>ארובות</he>, v. Rabb. D. S. ",
+				"<cite ref=\"Mishnah Sukkah 1:8\">ib.</cite> ad 15ᵃ, note 1); <cite ref=\"Shabbat 43a:7\">Sabb. 43ᵃ</cite>; <cite ref=\"Mishnah Shabbat 23:5\">ib. XXIII, 5</cite> (<cite ref=\"Shabbat 151b:1\">151ᵇ</cite>) <he>א׳ המטה</he> (some ed. <he>ארובות</he>, corr. acc.).—[<cite ref=\"Mishnah Kelim 15:2\">Kel. XV, 2</cite> <he>א׳ של נחתומים</he> Ar. Var. <i>the long ranging boards</i> used by the bakers: Maim.; the prevailing versions are <he>אֲרוּבּוֹת</he> or <he>אֲרֵיבוֹת</he>; <cite ref=\"Tosefta Bava Metzia 5:4\">Tosef. B. Mets. V, 4</cite> <he>ארובות</he>, (Var. <he>ארונות</he>) <i>basins</i> or <i>moulds</i> in which loaves or cakes are shaped.—Var. Ar. <cite ref=\"P01358\"><he>עֲרִיכוֹת</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

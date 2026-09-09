@@ -1,0 +1,41 @@
+{
+	"id": "U00678",
+	"slug": "שחנא",
+	"headword": {
+		"text": "שִׁחְנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1549,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00677\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = h. <cite ref=\"U00650\"><he>שְׁחִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 9:9\">Targ. O. Ex. IX, 9</cite>, sq. (O. ed. Berl. a. Y. <cite ref=\"U00650\"><he>שְׁחִין</he></cite>). Ib. 11. ",
+				"<cite ref=\"Onkelos Deuteronomy 28:27\">Targ. O. Deut. XXVIII, 27</cite> (Y. II <cite ref=\"U00370\"><he>שׁוֹחֲנָא</he></cite>; Y. I <he>שִׁיחְנֵי</he> pl.). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 20:30\">Targ. Prov. XX, 30</cite> (ed. Lag. a. oth. <he>שׁוּחֲנֵי</he>).—Pl. <he>שִׁחְנֵי</he>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>, <cite ref=\"U00366\"><he>שׁוּחֲ׳</he></cite>, v. supra."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"K01366\"><he>כְּתִיתָא</he></cite>, <cite ref=\"K01363\"><he>כְּתִישָׁא</he></cite>) <i>the scab on the camel’s back</i> from the friction and pressure of the load; trnsf. <i>heavy load</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 19:12\">Gen. R. s. 19</cite>, beg.; <cite ref=\"Sotah 13b:13\">Sot. 13ᵇ</cite>, a. e. <he>לפום גמלא ש׳</he>, v. <cite ref=\"C01042\"><he>גַּמְלָא</he> I</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

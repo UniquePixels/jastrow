@@ -1,0 +1,56 @@
+{
+	"id": "C00581",
+	"slug": "גזרה-2",
+	"headword": {
+		"text": "גְּזֵרָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּזֵירָה"
+		}
+	],
+	"page": {
+		"number": 232,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>גזר</he>)<i>a secluded and narrow place, dale, precipice</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 67b:6\">Yoma 67ᵇ</cite> <he>ומנין שבצוק ת״ל ג׳</he> and how do we know that the place (Azazel) must be precipitous? We read <i>g’zerah</i> (<cite ref=\"Leviticus 16:22\">Lev. XVI, 22</cite>) ; Sifra Aḥaré Par. 2, ch. II <cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite>, beg. <he>איזה לשם ואיזה לג׳</he> which (goat) for the Lord and which for the precipice.—2) <i>decree, edict, divine dispensation</i>; (in an evil sense) <i>persecution</i> by foreign governments. Sifra l. c. ch. VI, Par. 5 <he>יכול יהא גְּזֵרַת מלך</he> lest you may think it is a royal ordinance (the reason of which is not known); v. vers. in <cite ref=\"Yalkut Shimoni on Torah 576:5\">Yalk. Lev. 576</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 19:19\">Num. R. s. 19</cite> <he>ג׳ גזרתי</he> … <he>על גְּזֵרָתִי</he> I have decreed it, thou art not permitted to transgress my decree (though knowing no reason).—",
+				"<cite ref=\"Rosh Hashanah 18b:15\">R. Hash. 18ᵇ</cite> <he>גְּזֵרַת המלכות</he> (Ms. M. <he>שמד</he>) political persecution. ",
+				"<cite ref=\"Shabbat 145b:14\">Sabb. 145ᵇ</cite> to reflect <he>איזו ג׳ קשה אביא וכ׳</he> what hard dispensation to send them; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a rabbinical enactment issued as a guard</i> (v. <cite ref=\"C00246\"><he>גֶּדֶר</he></cite>), <i>preventive measure; in gen. prohibition, restriction</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 60b:20\">B. Bath. 60ᵇ</cite>, a. e. <he>אין גוזרין ג׳ על וכ׳</he> we must not impose a restriction on the public which the majority can not endure. ",
+				"<cite ref=\"Beitzah 2b:13\">Bets. 2ᵇ</cite>, a. fr. <he>ג׳ משום וכ׳</he> it is prohibited in order to prevent &c. ",
+				"<cite ref=\"Beitzah 3a:3\">Ib. 3ᵃ</cite> <he>ג׳ לג׳</he> a guard to a guard, i.e. a preventive measure enacted in order to prevent the violation of another preventive measure; a. fr.—Pl. <he>גְּזֵרוֹת</he>, <he>גְּזֵירוֹת</he>. B. Bath. l. c. <he>ג׳ רעות וקשות</he> Ms. M. (v. Rabb. D. S. a. l. note) bad and severe enactments (persecutions). ",
+				"<cite ref=\"Shabbat 30a:5\">Sabb. 30ᵃ</cite> Moses, our teacher <he>גזר כמה ג׳</he> issued so many restrictions. ",
+				"<cite ref=\"Makkot 24a:28\">Macc. 24ᵃ</cite> <he>ארבע ג׳ גזר וכ׳</he> four hardships did Moses pronounce over Israel. ",
+				"<cite ref=\"Eruvin 21b:5\">Erub. 21ᵇ</cite> <he>הרבה ג׳ גזרתי על עצמי וכ׳</he> many restrictions did I (Israel) impose upon myself beyond those which thou (the Lord, in the Torah) &c. ",
+				"<cite ref=\"Pesachim 87b:7\">Pes. 87ᵇ</cite>, v. <cite ref=\"A03164\"><he>אֲרָם</he></cite>; a. fr.—",
+				"<cite ref=\"Mishnah Moed Katan 3:3\">M. Kat. III, 3</cite>, v. <cite ref=\"C00575\"><he>גָּזָר</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (logics) <i>category</i>, esp. <he>ג׳ שָׁוָה</he> <i>G’zerah shavah, an equal or identic category</i>, i.e. an analogy between two laws established on the basis of verbal congruities in the texts, e.g. ",
+			"units": [
+				"<cite ref=\"Pesachim 66a:4\">Pes. 66ᵃ</cite>, <he>נאמר מועדו בפסח וכ׳</he> the Passover law contains the word <i>moădo</i> (due season, <cite ref=\"Numbers 11:2\">Num. XI, 2</cite>) and the law concerning the daily sacrifices uses the same word (ib. XXVIII, 2): as the word <i>moădo</i> in the latter indicates that it applies also to the Sabbath day (superseding the ordinary Sabbath law concerning labor), so does it in the former intimate that it supersedes the Sabbath law (if the eve of Passover occurs on a Sabbath). Ib. <he>אין אדם דן ג״ש מעצמו</he> you cannot establish an analogy from congruent expressions of your own accord, i.e. it must be authorized by tradition that the verbal congruity is applied to a certain analogy and no other.—",
+				"<cite ref=\"Jerusalem Talmud Yevamot 11:1:7\">Y. Yeb. XI, 11ᵈ</cite> top <he>ג״ש במקום שבאת</he> an analogy can be drawn wherever it occurs, i.e. a textual analogy once established must be carried through all details; ib. VIII, 9ᶜ bot. <he>ג״ש במקום שכתוב</he> (corr. acc.); Y. Kidd. IV, 65ᵈ top; <cite ref=\"Jerusalem Talmud Sanhedrin 9:1:10\">Y. Snh. IX, 26ᵈ</cite> bot.; a. e.—",
+				"<cite ref=\"Shabbat 97a:1\">Sabb. 97ᵃ</cite> <he>ג״ש לא גמיר</he> he had no tradition concerning that analogy; a. fr.—In gen. <he>ג״ש</he> <i>analogy</i>. ",
+				"<cite ref=\"Mishnah Beitzah 1:6\">Bets. I, 6</cite>; a. e.—Pl. <he>גְּזֵירוֹת שָׁווֹת</he>. ",
+				"<cite ref=\"Bereishit Rabbah 46:4\">Gen. R. s. 46</cite>; <cite ref=\"Vayikra Rabbah 25\">Lev. R. s. 25</cite>. [<cite ref=\"Jerusalem Talmud Berakhot 8:5:4\">Y. Ber. VIII, 12ᵇ</cite> top <he>גזירה דהוא רבע</he>, read <he>גזרית</he> or <he>גזירנא</he> I command that &c.; <cite ref=\"Jerusalem Talmud Ketubot 5:6:3\">Y. Keth. V, 30ᵃ</cite> <he>גזירה דגזרין</he>, v. <cite ref=\"C00532\"><he>גָּזוֹרָא</he></cite>.]"
+			],
+			"label": "4"
+		}
+	]
+}

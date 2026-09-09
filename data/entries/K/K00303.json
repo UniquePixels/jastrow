@@ -1,0 +1,32 @@
+{
+	"id": "K00303",
+	"slug": "כונה",
+	"headword": {
+		"text": "כַּוָּנָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּוָּו׳"
+		}
+	],
+	"page": {
+		"number": 622,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00296\"><he>כּוּן</he></cite>, <i>Pi.</i> a. <i>Hithpa.</i>) <i>intention; attention; devotion</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 13a:22\">Ber. 13ᵃ</cite> <he>ש״מ מצוות צריכות כ׳</he> shall we derive fom this (Mish. ",
+				"<cite ref=\"Mishnah Berakhot 2:1\">ib. II, 1</cite> <he>אם כיון לבו וכ׳</he>) that religious exercises require the intention (of complying with the law, and must be repeated if performed without such intention)? <cite ref=\"Rosh Hashanah 28b\">R. Hash. 28ᵇ</cite>, a. fr. <he>מצוות אין צריכות כ׳</he> the intention of compliance is not indispensable; <cite ref=\"Eruvin 95b:21\">Erub. 95ᵇ</cite> <he>לצאת בעי כ׳</he> (v. Rabb. D. S. a. l. notes 90 a. 100) in order to have complied with the law, intention of compliance is required. ",
+				"<cite ref=\"Berakhot 13b:10\">Ber. 13ᵇ</cite> <he>כ׳ בלא קריאה</he> meditating (on the Biblical passage to be recited) without audible recitation. ",
+				"<cite ref=\"Berakhot 13b:13\">Ib.</cite> <he>עד כאן צריכה כַּוָּנַת הלב</he> up to this (<i>sh’ma</i> to <i>eḥad</i>) attention to the meaning is indispensable. ",
+				"<cite ref=\"Megillah 20a:2\">Meg. 20ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 6:6\">Deut. VI, 6</cite>) <he>אחר כ׳ הלב הן הן הדברים</he> the value of ‘the words’ (the recitation) depends on the attention of the mind (devotion). ",
+				"<cite ref=\"Chullin 31a:14\">Ḥull. 31ᵃ</cite> <he>כ׳ לשחיטה</he> the intention to slaughter according to the ritual; opp. <he>לחתיכה</he>; a. fr."
+			]
+		}
+	]
+}

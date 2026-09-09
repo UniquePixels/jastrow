@@ -1,0 +1,31 @@
+{
+	"id": "V00166",
+	"slug": "תוהו-2",
+	"headword": {
+		"text": "תּוֹהוּ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "תֹּהוּ"
+		}
+	],
+	"page": {
+		"number": 1651,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (v. <cite ref=\"V00116\"><he>תָּהָה</he></cite>2) <i>regret</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 32:12\">Targ. Y. Ex. XXXII, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 32:14\">Ib. 14</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 6:6\">Targ. Y. II, Gen. VI, 6</cite> Ar. (ed. <he>והות תְּהֵי</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:36\">Targ. Y. I Deut. XXXII, 36</cite> <cite ref=\"V00127\"><he>תְּהָן</he></cite> (read <he>תהו</he>); a. e."
+			]
+		}
+	]
+}

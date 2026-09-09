@@ -1,0 +1,22 @@
+{
+	"id": "Q02100",
+	"slug": "פשר-3",
+	"headword": {
+		"text": "פַּשַּׁר"
+	},
+	"page": {
+		"number": 1249,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02099\">preced.</cite>) <i>interpreter</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 40:8\">Targ. O. Gen. XL, 8</cite> ed. Berl. (oth. ed. <cite ref=\"Q02098\"><he>פָּשַׁר</he></cite>). Ib. XLI, 15."
+			]
+		}
+	]
+}

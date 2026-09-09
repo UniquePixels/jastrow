@@ -1,0 +1,23 @@
+{
+	"id": "A01939",
+	"slug": "אלפבטרין",
+	"headword": {
+		"text": "אַלְפַבֵּטָרִין"
+	},
+	"page": {
+		"number": 73,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (ἀλφαβητάριον) <i>alphabetic acrostics, songs</i>. ",
+			"units": [
+				"<cite ref=\"Ruth Rabbah 6:4\">Ruth R. to III, 13</cite> (ed. <cite ref=\"A01941\"><he>אלפנטרין</he></cite>, <cite ref=\"A01941\"><he>אלפבתרין</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

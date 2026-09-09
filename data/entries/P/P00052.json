@@ -1,0 +1,33 @@
+{
+	"id": "P00052",
+	"slug": "עבירה-2",
+	"headword": {
+		"text": "עֲבֵירָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲבֵרָה"
+		}
+	],
+	"page": {
+		"number": 1038,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00051\">preced.</cite>) <i>transgression</i>, <i>sin</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 3a:3\">Sot. 3ᵃ</cite> (play on <cite ref=\"P00061\"><he>עבר</he></cite> <i>Hif.</i>, with ref. to <he>ויעבירו</he>, <cite ref=\"Exodus 36:6\">Ex. XXXVI, 6</cite>) <he>אדם עובר ע׳ בסתר והקב״ה מכריז וכ׳</he> man commits a sin in secret, and the Lord causes his exposure in public; <he>ואין ע׳ אלא לשון הכרזה וכ׳</he> and the word <i>‘ăberah</i> (cmp. <cite ref=\"P00051\">preced.</cite>) has the meaning of publication (passing forth) &c. ",
+				"<cite ref=\"Exodus 36:6\">Ib.</cite> <he>אין אדם עובר ע׳ אלא אם כן וכ׳</he> a man does not sin, unless a spirit of insanity has entered into him. ",
+				"<cite ref=\"Temurah 20b\">Tem. 20ᵇ</cite> <he>אין אדם … בדבר הבא בע׳</he> a person cannot obtain atonement by means of a thing which is connected with an offense, v. <cite ref=\"M02284\"><he>מִצְוָה</he></cite>; a. v. fr.—Esp. (cmp. <cite ref=\"A01407\"><he>אִיסּוּרָא</he></cite>) <i>sexual immorality</i>. ",
+				"<cite ref=\"Bereishit Rabbah 90:3\">Gen. R. s. 90</cite>. ",
+				"<cite ref=\"Sanhedrin 70a:1\">Snh. 70ᵃ</cite> top <he>שהכל מצויין אצלה בע׳</he> for all people will finally associate with her in an immoral way; a. v. fr.—Pl. <he>עֲבֵירוֹת</he>, <he>עֲבֵרוֹת</he>. ",
+				"<cite ref=\"Mishnah Yoma 8:8\">Yoma VIII, 8</cite> <he>ע׳ קלות</he> light transgressions. ",
+				"<cite ref=\"Mishnah Yoma 8:9\">Ib. 9</cite> <he>ע׳ שבין אדם למקום</he> sins affecting the relation of man to God; <he>ע׳ … לחבירו</he> sins affecting the relation of man to his fellowman; a. fr."
+			]
+		}
+	]
+}

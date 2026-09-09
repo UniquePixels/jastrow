@@ -1,0 +1,24 @@
+{
+	"id": "C00774",
+	"slug": "גיס-3",
+	"headword": {
+		"text": "גִּיס",
+		"homograph": 2,
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 240,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C00773\">preced.</cite>, cmp. <cite ref=\"C00777\"><he>גִּיסָא</he> III</cite>) <i>the wife’s sister’s husband, brother-in-law</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 3:4\">Snh. III, 4</cite> (<cite ref=\"Sanhedrin 27b\">27ᵇ</cite>) <he>גִּיסוֹ</he> (Y. ib. III, 7 <he>אֲגִיסוֹ</he>); a. fr.—Pl. <he>גִּיסִין</he>. Y. Shek. I, end, 46ᵇ; a. e."
+			]
+		}
+	]
+}

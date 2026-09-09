@@ -1,0 +1,66 @@
+{
+	"id": "A00338",
+	"slug": "אגר-4",
+	"headword": {
+		"text": "אֲגַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 14,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"A00335\"><he>אָגַר</he></cite>) (√<he>אג</he>, akin to <he>חכר</he>; v. <cite ref=\"A00337\">foreg.</cite>) prop. <i>to tie</i>, whence <i>to hire, employ, rent</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 30:16\">Targ. Gen. XXX, 16</cite>; a. fr.—",
+				"<cite ref=\"Kohelet Rabbah 4:6\">Koh. R. to IV, 6</cite>; <cite ref=\"Vayikra Rabbah 3:1\">Lev. R. s. 3</cite> beg. (prov.) <he>גינא וכ׳ דא׳</he> he who rents one garden will eat birds; him who rents gardens, the birds will eat. ",
+				"<cite ref=\"Gittin 73a:16\">Git. 73ᵃ</cite> <he>אגור מלחי</he> they hired boatsmen. ",
+				"<cite ref=\"Sanhedrin 73a\">Snh. 73ᵃ</cite> <he>מֵיגַר אֲגִירֵי</he> to hire help. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 1:4:6\">Y. Taan. I, 64ᵇ</cite> bot. <he>מיגר זנייתא</he> hiring prostitutes. ",
+				"<cite ref=\"Bava Metzia 79a:5\">B. Mets. 79ᵃ</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אוֹגַר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"A00337\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 23:5\">Targ. Y. Deut. XXIII, 5</cite> (<cite ref=\"Targum Jonathan on Deuteronomy 23:4\">4</cite>).—",
+						"<cite ref=\"Bava Metzia 77a\">B. Mets. 77ᵃ</cite> (interch. with Pe.) (<he>אגירי</he>) <he>אוגיר אגורי</he> engages laborers."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to rent out, lease</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 63b:11\">Erub. 63ᵇ</cite> <he>אוֹגַר לן רשותך</he> lease to us thy property. Y. Dem. VI, 25ᵇ top. Y. Taan. I, 64ᵇ bot. <he>אוגרית חמרי</he> I hired my ass out."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתַּגַּר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְּגַר"],
+			"senses": [
+				{
+					"gloss": " (contr. of <he>איתאגר</he>) <i>to be hired, to work as a laborer</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 23:25\">Targ. O. Deut. XXIII, 25</cite>; a. e.—",
+						"<cite ref=\"Yoma 20b:6\">Yoma 20ᵇ</cite> (prov.) <he>אי תגרת וכ׳</he> (combine into one w.) when thou hast hired thyself out to one, comb his wool (shrink from no labor)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "M00909",
+	"slug": "מחסורייתא",
+	"headword": {
+		"text": "מַחְסוֹרְיָיתָא"
+	},
+	"page": {
+		"number": 762,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"M00908\">preced.</cite>) <i>defects</i> (<i>of sight</i>). ",
+			"units": [
+				"<cite ref=\"Bekhorot 44a:9\">Bekh. 44ᵃ</cite> <he>אבל מ׳ לא</he> but mere defective eye-sight does not disqualify (opp. perfect blindness). ",
+				"<cite ref=\"Bekhorot 44a:9\">Ib.</cite> <he>מ׳ מדק</he> the disqualification from defective eye-sight is derived from <cite ref=\"D00985\"><he>דַּק</he></cite> (<cite ref=\"Leviticus 21:20\">Lev. XXI, 20</cite>)."
+			]
+		}
+	]
+}

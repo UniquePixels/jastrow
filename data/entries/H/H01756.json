@@ -1,0 +1,25 @@
+{
+	"id": "H01756",
+	"slug": "חרצן",
+	"headword": {
+		"text": "חַרְצַן"
+	},
+	"page": {
+		"number": 506,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>חַרְצַנִּים</he> (b. h.) <i>a pomace of kernels</i> or <i>shells of grapes;</i> v. <cite ref=\"G00054\"><he>זָג</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nazir 6:2\">Naz. VI, 2</cite>. ",
+				"<cite ref=\"Nazir 35a:3\">Ib. 35ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Nazir 38b:4\">Ib. 38ᵇ</cite> <he>אכל חרצן</he> if he ate the shell (or the interior) of one berry. ",
+				"<cite ref=\"Chullin 82b:13\">Ḥull. 82ᵇ</cite> <he>זרע חטה וח׳</he> if he sowed a wheat grain and a kernel; a. fr.—V. <cite ref=\"C00325\"><he>גּוּחַרְקָא</he> II</cite>."
+			]
+		}
+	]
+}

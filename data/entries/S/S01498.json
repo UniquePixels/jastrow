@@ -1,0 +1,23 @@
+{
+	"id": "S01498",
+	"slug": "קמרוטון",
+	"headword": {
+		"text": "קַמְרוֹטוֹן"
+	},
+	"page": {
+		"number": 1387,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (καμάρωτον, sub. ὄχημα, S.) <i>vaulted, arch-covered carriage.—</i>Pl. <cite ref=\"S01498\"><he>קַמְרוֹטִין</he></cite>, <cite ref=\"S01497\"><he>קַמְרוֹטָא</he></cite> (= καμάρωτα). ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 6:4:2\">Cant. R. to VI, 4</cite> (expl. <cite ref=\"R00015\"><he>צב</he></cite>, <cite ref=\"Numbers 7:3\">Num. VII, 3</cite>, v. <cite ref=\"S01494\"><he>קָמַר</he></cite>) <he>כמין ק׳ היו וכ׳</he> (not <he>קמרי׳</he>) the wagons were like the tilted carts, in order that the sacred vessels might not be split (through close packing), v. <cite ref=\"A02544\"><he>אִסְקְפַסְטִי</he></cite>; <cite ref=\"Bamidbar Rabbah 12:17\">Num. R. s. 12</cite> <he>כמין כמרוסא היו כיפין עשויות</he> (read <cite ref=\"S01497\"><he>קמרוטא</he></cite>, and strike out <he>כיפין</he> as a gloss expl. our w.); <cite ref=\"Jerusalem Talmud Shabbat 1:1:19\">Y. Sabb. I, 2ᵈ</cite> <cite ref=\"S01501\"><he>קמרסטא</he></cite>; Y. Succ. I, 52ᵃ top <cite ref=\"S01501\"><he>קמרסטה</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 713\">Yalk. Num. 713</cite> <cite ref=\"S01501\"><he>קמרסטא</he></cite> (obviously καμαραστα, fr. a verb καμαράζω). ",
+				"<cite ref=\"Bereishit Rabbah 31\">Gen. R. s. 31</cite> <he>כמין קומרוטין וכ׳</he> (some ed. <cite ref=\"S00409\"><he>קומרוטון</he></cite>, Ar. <he>קמרוטין</he>) Noah’s ark was shaped like the tilted wagons, and it was so curved that the top was one cubit broad; Yalk. ib. 54 <he>קמרוטין</he>."
+			]
+		}
+	]
+}

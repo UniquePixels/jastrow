@@ -1,0 +1,23 @@
+{
+	"id": "T00072",
+	"slug": "רבון-2",
+	"headword": {
+		"text": "רִבּוֹן"
+	},
+	"page": {
+		"number": 1440,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00046\"><he>רָבַב</he></cite>) <i>lord, master</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 93:10\">Gen. R. s. 93</cite> (expl. <he>לאדון</he>, <cite ref=\"Genesis 45:8\">Gen. XLV, 8</cite>) <he>לר׳</he> chief, contrad. to <cite ref=\"U01312\"><he>שליט</he></cite>. ",
+				"<cite ref=\"Yoma 87b:5\">Yoma 87ᵇ</cite> <he>ר׳ העולמים</he> Master of the worlds (opening words of a well-known prayer <he>ר׳ הע׳ לא על צדקותינו וכ׳</he>).—<he>רִבּוֹנוֹ של עולם</he> (abbrev. <he>רש״ע</he>) Master of the world! <cite ref=\"Berakhot 9b\">Ber. 9ᵇ</cite>; a. v. fr."
+			]
+		}
+	]
+}

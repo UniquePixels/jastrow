@@ -1,0 +1,27 @@
+{
+	"id": "H01307",
+	"slug": "חנם",
+	"headword": {
+		"text": "חִנָּם"
+	},
+	"page": {
+		"number": 484,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H01249\"><he>חֵן</he></cite>)<i>gratuitous act, favor</i>, mostly adv. <he>בח׳</he>, <he>לח׳</he>, <he>על ח׳</he> <i>gratuitously; for no reason</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 41:7\">Ex. R. s. 41</cite> <he>על ח׳ בראתני וכ׳</he> hast thou created me for no purpose?—",
+				"<cite ref=\"Bava Kamma 92b\">B. Kam. 92ᵇ</cite>, a. e., v. <cite ref=\"G00691\"><he>זַרְזִיר</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 28:1\">Ex. R. s. 28</cite>, beg. <he>נטלה ח׳</he> he took it gratuitously. ",
+				"<cite ref=\"Bamidbar Rabbah 1:7\">Num. R. s. 1</cite> <he>מה אלו ח׳ וכ׳</he> as these things (fire, water &c.) are free to all &c.—מַתְּנַת ח׳ <i>an undeserved gift</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 11:6\">Num. R. s. 11</cite>; a. fr.—שִׂנְאַת ח׳ <i>gratuitous hatred, hostility without cause</i>. ",
+				"<cite ref=\"Shabbat 32b:7\">Sabb. 32ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "I00333",
+	"slug": "טיטס",
+	"headword": {
+		"text": "טִיטָס"
+	},
+	"page": {
+		"number": 530,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (v. <cite ref=\"I00330\"><he>טִיטוֹס</he></cite>) <i>Titas</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:4:11\">Y. Ber. III, 6ᶜ</cite>; <cite ref=\"Jerusalem Talmud Bikkurim 3:6:3\">Y. Bicc. III, 65ᵈ</cite> <he>יודה בר ט׳</he>.—",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:6\">Y. Ter. VIII, 45ᶜ</cite> bot. <he>חייה בר ט׳</he>."
+			]
+		}
+	]
+}

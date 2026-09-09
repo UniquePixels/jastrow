@@ -1,0 +1,23 @@
+{
+	"id": "H00358",
+	"slug": "חולף-1",
+	"headword": {
+		"text": "חוֹלֵף"
+	},
+	"page": {
+		"number": 434,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01098\"><he>חָלַף</he></cite>) <i>slaughtering knife</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Batra 7:3\">Tosef. Kel. B. Bath. VII, 3</cite> <he>ושל ח׳</he> and the handle of &c. ",
+				"<cite ref=\"Tosefta Keilim Batra 7:3\">Ib.</cite> <he>בן ח׳</he> (not <he>בין</he>, v. R. S. to <cite ref=\"Mishnah Kelim 29:8\">Kel. XXIX, 8</cite>) a small slaughtering knife."
+			]
+		}
+	]
+}

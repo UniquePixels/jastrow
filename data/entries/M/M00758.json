@@ -1,0 +1,29 @@
+{
+	"id": "M00758",
+	"slug": "מזיק-2",
+	"headword": {
+		"text": "מַזִּיק",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מַזִּיקָא"
+		}
+	],
+	"page": {
+		"number": 755,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M00757\">same</cite>, esp. <i>demon</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 8:3\">Targ. Cant. VIII, 3</cite>.—",
+				"<cite ref=\"Kiddushin 29b:12\">Kidd. 29ᵇ</cite> <he>הוה ההוא מ׳ … דאביי</he> there was a demon dwelling in Abbayi’s school house.—Pl. <he>מַזִּיקַיָּא</he>, <he>מַזִּיקִין</he>, <he>מַזִּיקֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 5:7\">Targ. Job V, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 89:33\">Targ. Ps. LXXXIX, 33</cite> (ed. Lag. <he>מוז׳</he>); a. e.—",
+				"<cite ref=\"Chullin 105b:15\">Ḥull. 105ᵇ</cite> <he>משום דשכיחי מ׳</he> because demons frequent there; a. e."
+			]
+		}
+	]
+}

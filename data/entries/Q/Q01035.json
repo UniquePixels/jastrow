@@ -1,0 +1,85 @@
+{
+	"id": "Q01035",
+	"slug": "פלי-2",
+	"headword": {
+		"text": "פלי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּלָא"
+		}
+	],
+	"page": {
+		"number": 1180,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to split, separate; to remove; to search</i>; v. <cite ref=\"Q00926\"><he>פֶּלֶא</he></cite>, <cite ref=\"Q01041\"><he>פְּלִיאָה</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִפְלָא"],
+			"senses": [
+				{
+					"gloss": "<i>to be remote, hidden, obscure</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 119:8\">Midr. Till. to Ps. CXIX, 18</cite> <he>א־נה נִפְלֵאת וכ׳</he> it (the Law) is not hidden, as it is said (<cite ref=\"Deuteronomy 30:11\">Deut. XXX, 11</cite>) &c.; <he>לא נִפְלֵאת אלא ממך וכ׳</he> it is hidden from thee only (through thy own fault), who didst not take pains to study it. V. <cite ref=\"N01060\"><he>נִפְלָא</he> III</cite>"
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִפְלִיא"],
+			"senses": [
+				{
+					"gloss": " (cmp. <he>פרֹש</he>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to distinguish, speak distinctly, clearly</i>; esp. (sub. <cite ref=\"N00242\"><he>נֶדֶר</he></cite>) <i>to utter a distinct vow</i> (with ref. to <cite ref=\"Numbers 6:2\">Num. VI, 2</cite>). ",
+					"units": [
+						"<cite ref=\"Nazir 62a:2\">Naz. 62ᵃ</cite>; <cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10</cite> <he>יודע להַפְלוֹת</he>, <he>לַפְלוֹת</he> (from <cite ref=\"Q00959\"><he>פָּלָה</he></cite>) who knows how to express a vow (is conscious of its bearings); <cite ref=\"Sifrei Bamidbar 22\">Sifré Num. 22</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"Q00926\"><he>פֶּלֶא</he></cite>) <i>to do strange, wonderful things</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 60b:2\">Ber. 60ᵇ</cite> <he>מַפְלִיא לעשות</he> who does wonderful things.—[<cite ref=\"Tosefta Avodah Zarah 3:19\">Tosef. Ab. Zar. III</cite> (<cite ref=\"Tosefta Avodah Zarah 4:19\">IV</cite>), 19 <he>מפליא ויצא</he> ed. Zuck., missing in ed., a corrupt gloss for <he>מפליא ליצנותא</he>, v. <cite ref=\"L00518\"><he>לֵיצָנוּתָא</he></cite>.]"
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to search, question</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 3:3\">Midr. Till. to Ps. III</cite> <he>ואין מי שיַפְלִיא אחריהן</he> and none questions the correctness of their decision; <cite ref=\"Yalkut Shimoni on Nach 151\">Yalk. Sam. 151</cite>."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to be too difficult to decide</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 21\">Num. R. s. 21</cite> <he>וה׳ ממנו</he> and he (Moses) could not decide it. ",
+						"<cite ref=\"Bamidbar Rabbah 21:12\">Ib.</cite> <he>שה׳ מן משה שיש צדיקים וכ׳</he> Moses was unable to decide, because many a righteous man prides himself …, and the Lord weakens his power (as a punishment).—Part. pass. <cite ref=\"M00564\"><he>מוּפְלָא</he></cite> q. v."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["פִּלֵּא"],
+			"senses": [
+				{
+					"gloss": "<i>to search</i>, v. <cite ref=\"Q01036\">next w.</cite>",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

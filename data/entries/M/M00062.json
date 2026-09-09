@@ -1,0 +1,23 @@
+{
+	"id": "M00062",
+	"slug": "מארופה",
+	"headword": {
+		"text": "מַאֲרוֹפָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 724,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>ארף</he>, dial. for <he>גרף</he> or <he>חרף</he>; v. <cite ref=\"M00218\"><he>מַגְרֵיפָה</he></cite> a. <cite ref=\"H01632\"><he>חָרוֹפָה</he></cite>) <i>shovel, rake</i>.—Pl. <he>מַאֲרוֹפוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 5:4\">Shebi. V, 4</cite> ed. (Ms. M. <he>חָרוֹפוֹת</he>)."
+			]
+		}
+	]
+}

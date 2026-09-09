@@ -1,0 +1,31 @@
+{
+	"id": "D00933",
+	"slug": "דנק",
+	"headword": {
+		"text": "דְּנַק"
+	},
+	"page": {
+		"number": 315,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Difel of <cite ref=\"A02285\"><he>אנק</he></cite>, v. <cite ref=\"D00002\"><he>דְּ־</he></cite>) <i>to feel narrow, to choke</i>. <i>Ithpe.</i> <cite ref=\"D00073\"><he>אִידְּנַק</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to sigh, sob</i> (corresp. to h. <cite ref=\"A02285\"><he>אנק</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 24:17\">Targ. Ezek. XXIV, 17</cite>. ",
+				"<cite ref=\"Targum Jonathan on Malachi 2:13\">Targ. Mal. II, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 9:4\">Targ. Ezek. IX, 4</cite> <he>מידנ׳</he> ed. Lag. (ed. <he>מאנ׳</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"H01324\"><he>חָנַק</he></cite>) <i>to regret, despair</i>. Ib. VI, 9; XX, 43; XXXVI, 31.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

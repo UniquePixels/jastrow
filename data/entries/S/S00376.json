@@ -1,0 +1,23 @@
+{
+	"id": "S00376",
+	"slug": "קום-3",
+	"headword": {
+		"text": "קוֹם"
+	},
+	"page": {
+		"number": 1332,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"S00375\">preced.</cite> <i>Pe.</i> 2, a. <i>Af.</i> 2) <i>curdled milk, curd</i>; [Maim. <i>whey</i>]. ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 6:5\">Ned. VI, 5</cite>. ",
+				"<cite ref=\"Nedarim 52b\">Ib. 52ᵇ</cite>. Y. ib. VI, 39ᵈ top <he>מהו בק׳ חלבא מקטרא</he> what is <i>ḳom?</i> ‘Bound milk.’"
+			]
+		}
+	]
+}

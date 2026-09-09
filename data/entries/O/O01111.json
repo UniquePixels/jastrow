@@ -1,0 +1,31 @@
+{
+	"id": "O01111",
+	"slug": "סממיתא",
+	"headword": {
+		"text": "סְמָמִיתָא"
+	},
+	"page": {
+		"number": 1002,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (v. <cite ref=\"O01110\">preced.</cite>) [<i>poisonous animal</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>spotted lizard</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 11:30\">Targ. Y. Lev. XI, 30</cite> Ar. (ed. <cite ref=\"U00598\"><he>שְׁ׳</he></cite>; h. text <cite ref=\"E00547\"><he>הלטאה</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>spider</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:3:3\">Y. Sabb. I, 3ᵇ</cite> <he>ודמניא שְׂמָמִי</he> and the mite in garments is changed into a spider."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "I00886",
+	"slug": "טרפשא",
+	"headword": {
+		"text": "טַרְפְּשָׁא"
+	},
+	"page": {
+		"number": 557,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00860\"><he>טרף</he></cite>, with formative <cite ref=\"U00489\"><he>ש</he></cite>, as in <cite ref=\"I00838\"><he>טַרְכֵּשׁ</he></cite>; v. P. Sm. 1527 s. v. <he>טרפשתא</he>) <i>a rag-like, irregularly shaped organ, membrane</i> &c. ",
+			"units": [
+				"<cite ref=\"Chullin 49b:13\">Ḥull. 49ᵇ</cite> <he>ט׳ דליבא</he> pericardium with the fat attached to it.—Pl. <he>טַרְפְּשִׁין</he> <i>shreds</i>. ",
+				"<cite ref=\"Chullin 46a:11\">Ib. 46ᵃ</cite> (in Hebr. dict.) <he>נדלדלה כבד ומעורה בט׳</he> if the liver is detached and disarranged in shreds."
+			]
+		}
+	]
+}

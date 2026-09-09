@@ -1,0 +1,26 @@
+{
+	"id": "B00050",
+	"slug": "בב-2",
+	"headword": {
+		"text": "בָּב",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּב נַהֲרָא"
+		}
+	],
+	"page": {
+		"number": 136,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n.<i>Bab Nahăra</i> (Gate of the River) name of a tributary or a canal of the Euphrates. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 39a:4\">Ab. Zar. 39ᵃ</cite> <he>דב׳ נ׳</he> (Ms. M. <he>דנהרא</he>); <cite ref=\"Sukkah 18a\">Succ. 18ᵃ</cite> (Ms. M. 1 <he>דבנהרא</he>, 2 <he>דפום נהרא</he>, cmp. ",
+				"<cite ref=\"Yevamot 16b\">Yeb. 16ᵇ</cite> sq.)."
+			]
+		}
+	]
+}

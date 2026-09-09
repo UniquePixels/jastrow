@@ -1,0 +1,34 @@
+{
+	"id": "H01047",
+	"slug": "חלילא-2",
+	"headword": {
+		"text": "חֲלִילָא"
+	},
+	"page": {
+		"number": 468,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (v. <cite ref=\"H01046\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hollow</i>. Constr. <cite ref=\"H01045\"><he>חֲלִיל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 27:8\">Targ. Ex. XXVII, 8</cite> (h. text <cite ref=\"N00049\"><he>נְבוּב</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>rounded, going all around</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 61a\">B. Bath. 61ᵃ</cite>, v. <cite ref=\"B01319\"><he>בַּרְקָא</he> III</cite>.—",
+				"<cite ref=\"Avodah Zarah 10b:3\">Ab. Zar. 10ᵇ</cite>, v. <he>קמוניא</he>.—Pl. <he>חֲלִילַיָּא</he>, f. <cite ref=\"H01037\"><he>חֲלִילָתָא</he></cite>. ",
+				"<cite ref=\"Targum of II Chronicles 26:15\">Targ. II Chr. XXVI, 15</cite>.—",
+				"<cite ref=\"Shabbat 57a:8\">Sabb. 57ᵃ</cite> <he>תיכי ח׳</he> chains composed of chord rings (v. <cite ref=\"H00347\"><he>חוּלְיָא</he> I</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

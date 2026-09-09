@@ -1,0 +1,36 @@
+{
+	"id": "N00366",
+	"slug": "נום-2",
+	"headword": {
+		"text": "נוּם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 887,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to slumber</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְנַמְנֵם"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpalp</i>. <he>נִתְנַמְנֵם</he> <i>to be drowsy; to nap</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Megillah 2:2\">Meg. II, 2</cite> <he>ומִתְנַמְנֵם</he> or (he read the Book of Esther) while he was half asleep. ",
+						"<cite ref=\"Mishnah Pesachim 10:8\">Pes. X, 8</cite> <he>נִתְנַמְנְמוּ</he> if they napped (at the table), opp. <he>נרדמו</he>. ",
+						"<cite ref=\"Pesachim 120b\">Ib. 120ᵇ</cite>; <cite ref=\"Megillah 18b:9\">Meg. 18ᵇ</cite> <he>היכי דמי נתנמנם</he> what condition is meant by <i>nithnamnem?</i>, v. <cite ref=\"N00669\"><he>נים</he></cite>. ",
+						"<cite ref=\"Mishnah Yoma 1:7\">Yoma I, 7</cite> <he>בקש להִתְנַמְנֵם</he> if he showed a disposition to fall asleep; a. fr.—",
+						"<cite ref=\"Kohelet Rabbah 5:11\">Koh. R. to V, 11</cite> (in Chald. dict.) <he>נתנ׳ עבדא ודמך ליה</he> the slave was overcome with drowsiness and fell asleep."
+					]
+				}
+			],
+			"stem": "Hithpalp."
+		}
+	]
+}

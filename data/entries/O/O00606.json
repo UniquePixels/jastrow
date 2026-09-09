@@ -1,0 +1,31 @@
+{
+	"id": "O00606",
+	"slug": "סיטונא",
+	"headword": {
+		"text": "סִיטוֹנָא"
+	},
+	"page": {
+		"number": 978,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"O00605\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 4:1:10\">Y. Maas. Sh. IV, 54ᵈ</cite> <he>לחטוניא</he> (read: <he>לסיטונא</he> or <he>לסִיטוֹנֵיס</he>).)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= frumentarius) <i>commissary of the army</i>.—Pl. <he>סִיטוֹנִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 21:8\">Targ. Is. XXI, 8</cite> <he>בסִיטוֹנֵיהוֹן</he> (ed. Lag. <he>בסוטנהוּן</he>; v. Sm. Ant. s. v. Frumentarii)."
+			],
+			"label": "2"
+		}
+	]
+}

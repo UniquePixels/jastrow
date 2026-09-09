@@ -1,0 +1,37 @@
+{
+	"id": "A02027",
+	"slug": "אמירה-2",
+	"headword": {
+		"text": "אֲמִירָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 77,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A02026\">preced.</cite> 3); cmp. ",
+			"units": [
+				"<cite ref=\"Psalms 4:5\">Ps. IV, 5</cite>; <cite ref=\"Psalms 96:10\">XCVI, 10</cite>; <cite ref=\"Isaiah 3:10\">Is. III, 10</cite>) "
+			]
+		},
+		{
+			"gloss": "<i>proclamation, receiving homage</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 29:8\">Ex. R. s. 29</cite> when a human king <he>יוצא לא׳ וכ׳</he> comes forth for a reception of homage, he comes forth singly (not with his army)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>distinction, ornament</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 244:4\">Yalk. Ex. 244</cite>, v. <cite ref=\"A01351\"><he>אִימְּרָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

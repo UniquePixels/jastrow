@@ -1,0 +1,30 @@
+{
+	"id": "P00934",
+	"slug": "עמרם",
+	"headword": {
+		"text": "עַמְרָם"
+	},
+	"page": {
+		"number": 1091,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. pl. <i>Amram</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " father of Moses. ",
+			"units": [
+				"<cite ref=\"Shabbat 55b\">Sabb. 55ᵇ</cite>. ",
+				"<cite ref=\"Shemot Rabbah 1:22\">Ex. R. s. 1</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " A., an Amora. Y. Macc. I, beg. 31ᵃ <he>רב ע׳</he>; <cite ref=\"Jerusalem Talmud Sheviit 10:1:14\">Y. Shebi. X, 39ᶜ</cite> (insert <cite ref=\"T00042\"><he>רב</he></cite>).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

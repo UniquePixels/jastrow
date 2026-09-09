@@ -1,0 +1,34 @@
+{
+	"id": "P00878",
+	"slug": "עמי-1",
+	"headword": {
+		"text": "עמי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָמֶה"
+		}
+	],
+	"page": {
+		"number": 1087,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"P00904\"><he>עמם</he></cite>) <i>to be dark, dim, faint</i>. Tanḥ. Yithro 13 <he>קולו ע׳ וכהה</he> the sound he produces becomes fainter and duller (the longer he blows); <cite ref=\"Yalkut Shimoni on Torah 284:1\">Yalk. Ex. 284</cite> <he>קולו ע׳</he>, opp. <he>מגביה</he>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶעֱמָה"],
+			"senses": [
+				{
+					"gloss": "<i>to become faint</i>. Tanḥ. Haăz. 7 (play on <he>ע̇מ̇יאל בן ג̇מ̇ל̇י</he>, <cite ref=\"Numbers 13:12\">Num. XIII, 12</cite>) <he>הע̇מ̇ה כחו … וג̇מ̇ל̇ וכ׳</he> his strength failed him, because he said …, and he brought it upon himself that he did not enter Palestine.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

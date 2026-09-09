@@ -1,0 +1,58 @@
+{
+	"id": "B00154",
+	"slug": "בדק-1",
+	"headword": {
+		"text": "בָּדַק"
+	},
+	"page": {
+		"number": 141,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. √<he>בד</he> , v. <he>בדד</he>) <i>to split, break into, penetrate</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 13:9\">Keth. XIII, 9</cite> <he>הנוה היפה בּוֹדֵק</he> the removal to a better residence (and style of living) penetrates (the body and creates disease); v. ",
+				"<cite ref=\"Ketubot 110b:5\">ib. 110ᵇ</cite> <he>מאי ב׳ כדשמואל וכ׳</he> what does <i>bodek</i> mean? Answ. As it is expressed by Samuel …, a change of the mode of living (v. <cite ref=\"F00066\"><he>וֶסֶת</he></cite>) is the beginning of abdominal disease.—Esp. "
+			]
+		},
+		{
+			"gloss": "<i>to search, examine, investigate, try</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 5:1\">Sot. V, 1</cite> as well as the water <he>בּוֹדְקִין אותה וכ׳</he> tries her (eventually makes her sick), so does it try him (the adulterer). ",
+				"<cite ref=\"Mishnah Pesachim 1:1\">Pes. I, 1</cite> <he>ב׳ את החמץ</he> leavened bread is searched after (for the sake of removing it). ",
+				"<cite ref=\"Pesachim 9b\">Ib. 9ᵇ</cite> (<he>בית</he>) <he>בָּדוּק</he> a house which has been searched. ",
+				"<cite ref=\"Mishnah Sanhedrin 3:6\">Snh. III, 6</cite> <he>ב׳ את העדים</he> the witnesses are cross-examined. ",
+				"<cite ref=\"Mishnah Sanhedrin 4:5\">Ib. IV, 5</cite>; v. <cite ref=\"D01093\"><he>דְּרִישָׁה</he></cite>. ",
+				"<cite ref=\"Shabbat 139a:2\">Sabb. 139ᵃ</cite> <he>וכ׳ בְּדוֹק בדיינו</he> investigate the doings of the Israelitish judges. ",
+				"<cite ref=\"Mishnah Ketubot 7:8\">Keth. VII, 8</cite> <he>הוא בּוֹדְקָהּ וכ׳</he> he has her examined (as to bodily soundness) by his female relatives. ",
+				"<cite ref=\"Ketubot 75b:8\">Ib. 75ᵇ</cite> <he>חזקה אין … אא״כ בּוֹדְקוֹ</he> the presumption is that nobody will drink out of a cup, unless he has examined it (will not marry a woman before ascertaining her physical condition). ",
+				"<cite ref=\"Mishnah Kiddushin 4:4\">Kidd. IV, 4</cite> <he>צריך לבְדוֹק אחריה וכ׳</he> must investigate her family records up to four mothers &c. ",
+				"<cite ref=\"Mishnah Kiddushin 4:5\">Ib. 5</cite> <he>אין בודקין מן וכ׳</he> no family records are searched beyond the altar, i.e. the ascertained fact of a person’s admission to priestly services is sufficient evidence of unblemished descent for marriage purposes. ",
+				"<cite ref=\"Niddah 30b:23\">Nidd. 30ᵇ</cite> <he>ובדקן ומצאן</he> (read <he>ובדקו ומצאו</he>) they (the scholars) examined (made a post mortem examination); <cite ref=\"Tosefta Niddah 4:17\">Tosef. ib. IV, 17</cite>; <cite ref=\"Bekhorot 45a:17\">Bekh. 45ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to tend, cure</i> (plants), esp. <i>to cover with earth or manure</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 1:12\">Tosef. Shebi. I, 12</cite>; Y. ib. IV, 35ᵇ bot."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִבְדַּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be examined</i> &c. Y. Gitt. I, 43ᵇ; IX, end, 50ᵈ <he>נ׳ השם</he> the report was traced. ",
+					"units": [
+						"<cite ref=\"Mishnah Niddah 5:6\">Nidd. V, 6</cite> <he>נדריה נִבְדָּקִין</he> her vows are subject to examination (to find out whether she knows the import of a vow); a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

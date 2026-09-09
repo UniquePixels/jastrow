@@ -1,0 +1,41 @@
+{
+	"id": "V00767",
+	"slug": "תספורת",
+	"headword": {
+		"text": "תִּסְפּוֹרֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּסְפֹּרֶת"
+		}
+	],
+	"page": {
+		"number": 1683,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01415\"><he>סָפַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hair-cutting</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 9b:6\">Sabb. 9ᵇ</cite> <he>התחלת הת׳</he>, v. <cite ref=\"E00947\"><he>הַתְחָלָה</he></cite>. ",
+				"<cite ref=\"Shabbat 9b:4\">Ib.</cite> <he>ת׳ בן אלעשה</he> the hair-cutting of the style of Ben Elashah (clipping); <cite ref=\"Nedarim 51a:7\">Ned. 51ᵃ</cite> <he>והיינו ת׳ של וכ׳</he> and that is the style of the high priest’s hair-cutting; <cite ref=\"Sanhedrin 22b:22\">Snh. 22ᵇ</cite>, v. <cite ref=\"L00282\"><he>לוּלְיָינִית</he></cite>. ",
+				"<cite ref=\"Moed Katan 14b:21\">M. Kat. 14ᵇ</cite> <he>אבל אסור בת׳</he> a mourner is forbidden to have his hair cut; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <cite ref=\"K00715\"><he>כלי</he></cite>) <i>gardener’s shears</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 34a:4-10\">Bets. 34ᵃ</cite> <he>אין … בת׳ שלו</he> you must not trim vegetables (on the Holy Day) with the shears with which they are cut in the garden."
+			],
+			"label": "2"
+		}
+	]
+}

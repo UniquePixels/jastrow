@@ -1,0 +1,39 @@
+{
+	"id": "D00622",
+	"slug": "דימוסין",
+	"headword": {
+		"text": "דִּימוֹסִין"
+	},
+	"page": {
+		"number": 300,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (δημόσιον) ",
+			"units": []
+		},
+		{
+			"gloss": " (sub. βαλανεῖον) <i>public bath</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 7:13:3\">Y. Snh. VII, 25ᵈ</cite> top, a. fr. <he>ד׳ דטיבריא</he> the baths of Tiberias. ",
+				"<cite ref=\"Kohelet Rabbah 5:11\">Koh. R. to V, 11</cite> <cite ref=\"D00621\"><he>דִּימוֹסְיִין</he></cite>; a. fr.—Pl. <cite ref=\"D00625\"><he>דִּימוֹסְיָאוֹת</he></cite>, <cite ref=\"D00625\"><he>דִּימוֹסִיּוֹת</he></cite> (<he>דמוס׳</he>). ",
+				"<cite ref=\"Mishnah Avodah Zarah 1:7\">Ab. Zar. I, 7</cite> (<cite ref=\"Avodah Zarah 16a\">16ᵃ</cite>) <he>דימוסיא׳</he> Ar. (Ms. M. <he>דומסיא׳</he>, ed. <he>בימ׳</he>, corr. acc.). ",
+				"<cite ref=\"Bereishit Rabbah 1:12\">Gen. R. s. 1</cite> <he>דמוסיות</he>. ",
+				"<cite ref=\"Bereishit Rabbah 8:8\">Gen. R. s. 8</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 8:8:6\">Y. Shebi. VIII, 38ᵇ</cite> bot. <cite ref=\"D00280\"><he>דומסייא</he></cite> read <cite ref=\"D00619\"><he>דִּימוֹסַיָּיא</he></cite> public baths, opp. <cite ref=\"Q01786\"><he>פריבטה</he></cite> private baths."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>prison</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 2\">Ex. R. s. 2</cite>, beg. <he>בדימוס</he> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "A02871",
+	"slug": "אצטריא",
+	"headword": {
+		"text": "אִצְטַרְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִצְטַרְיָה"
+		},
+		{
+			"text": "אִצְטַרְיָיא"
+		},
+		{
+			"text": "אִיצְ׳"
+		},
+		{
+			"text": "אִיסְ׳"
+		}
+	],
+	"page": {
+		"number": 110,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01678\"><he>סרר</he></cite>, cmp. <he>אסטרניא</he>, <he>אצטרניא</he> P. Sm. 304 a. quot. ibid.; cmp. <cite ref=\"A00112\"><he>אֲבֵידָן</he></cite>) <i>place of debauchery</i>, an opprobrious name for the <i>theatres, arenas</i> &c. of the Romans, and a phonetic perversion of <i>theatrum</i>, θέατρον. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 1:7\">Ab. Zar. I, 7</cite> (<cite ref=\"Avodah Zarah 16a\">16ᵃ</cite>) you must not build … <he>גרדום אצטדייא וכ׳</he> (Ms. M. <he>אצטריבא</he>, prob. <he>אצטרינא</he>, v. supra; in Ib. 18ᵇ repeatedly <he>אצטר׳</he>, Mishn. Nap. <cite ref=\"A02865\"><he>אצטדיא</he></cite>, in comment. ib. <he>אצטרדיא</he>), expl. ib. 16ᵇ <he>בסיליקי של גרדום וכ׳</he> a building for public execution (court) or for public entertainment (amphitheatre &c.)—Pl. <cite ref=\"A02350\"><he>אִסְטַרְיוֹת</he></cite>. Sifra Aḥare IX, 13. [<cite ref=\"Menachot 103b:20\">Men. 103ᵇ</cite> <he>איסטריא של מלך</he> royal amphitheatre(?), v. <cite ref=\"A02412\"><he>אסטרטיא</he></cite>.] [Tanḥ. ",
+				"<cite ref=\"Genesis 2\">B’resh. 2</cite> <cite ref=\"A02409\"><he>אִסְטְרָטָאוֹת</he></cite>, Var. <cite ref=\"A02396\"><he>אִסְטְרָאוֹת</he></cite> <i>theatres</i>.] <cite ref=\"Avodah Zarah 18b:5\">Ab. Zar. 18ᵇ</cite> <he>לא הלך לאיסטרטאות</he> Ms. M. (ed. <cite ref=\"I00754\"><he>טַרְטְיָאוֹת</he></cite> q. v.; En Yak. <cite ref=\"I00756\"><he>תרט׳</he></cite>). [For the vers. <cite ref=\"A02865\"><he>אִצְטַדְיָא</he></cite> v. s. v.]"
+			]
+		}
+	]
+}

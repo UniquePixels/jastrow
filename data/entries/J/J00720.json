@@ -1,0 +1,57 @@
+{
+	"id": "J00720",
+	"slug": "יתום-1",
+	"headword": {
+		"text": "יָתוֹם"
+	},
+	"altHeadwords": [
+		{
+			"text": "יתוֹמָה"
+		}
+	],
+	"page": {
+		"number": 603,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) [<i>by one’s self</i>, cmp. <cite ref=\"C00456\"><he>גּוּף</he></cite>, <cite ref=\"C01195\"><he>גַּף</he> I</cite>,] <i>single, alone, forsaken</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 3b:5\">Ḥag. 3ᵇ</cite>; Mekh. Bo s. 16, a. e. <he>אין הדור י׳ וכ׳</he> that generation is not forsaken in which &c.—<he>אמן י׳</he>, v. <cite ref=\"A02039\"><he>אָמֵן</he></cite>.—Esp. "
+			]
+		},
+		{
+			"gloss": "<i>fatherless, orphan, public charge</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 13a:5\">Meg. 13ᵃ</cite> <he>המגדל י׳ וי׳ בתוך ביתו וכ׳</he> he who rears a male or female orphan in his house, is regarded as the parent. ",
+				"<cite ref=\"Tosefta Ketubot 6:8\">Tosef. Keth. VI, 8</cite> <he>י׳ וי׳ צריכין פרנסה מפרנסין את היתומה וכ׳</he> if an orphan boy and an orphan girl need public support, we must support the girl first &c.; <cite ref=\"Ketubot 67a:13\">Keth. 67ᵃ</cite>. ",
+				"<cite ref=\"Taanit 24a:8\">Taan. 24ᵃ</cite> <he>בי׳ וי׳</he> we were engaged in collecting for an orphaned couple to be married; a. v. fr.—<he>יתומה בחיי האב</he> self-depending in her father’s life-time, i.e. <i>a minor over whom her father has no control</i>, e.g. when he has given her away in marriage, and she being divorced or widowed returns to her paternal home. ",
+				"<cite ref=\"Mishnah Yevamot 13:6\">Yeb. XIII, 6</cite>. ",
+				"<cite ref=\"Ketubot 73b:15\">Keth. 73ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>an animal whose mother died during or soon after childbirth</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 9:4\">Bekh. IX, 4</cite>. ",
+				"<cite ref=\"Chullin 38b:2\">Ḥull. 38ᵇ</cite>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (Law) <i>a minor heir</i> whom the authorities must protect by appointing a guardian to plead his cause &c.; in gen. <i>heir</i> (mostly in the plural).—Pl. <he>יְתוֹמִים</he>, <he>יְתוֹמִין</he>; f. <he>יְתוֹמוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 70a:2\">B. Mets. 70ᵃ</cite> <he>מעות של י׳</he> minor heirs’ funds. ",
+				"<cite ref=\"Bava Batra 124a:2\">B. Bath. 124ᵃ</cite> <he>שבח שהשביחו י׳ לאחר וכ׳</he> improvements which the heirs made after their father’s death (before division). ",
+				"<cite ref=\"Mishnah Arakhin 6:1\">Arakh. VI, 1</cite> (<cite ref=\"Arakhin 21b:28\">21ᵇ</cite>) <he>שום הי׳</he> the assessment for public sale of minors’ (heirs’) property which the court sells to satisfy the decedent’s creditors. ",
+				"<cite ref=\"Mishnah Gittin 5:1\">Gitt. V, 1</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Yevamot 13:7\">Yeb. XIII, 7</cite> <he>שתי אחיות י׳</he> two orphan sisters; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

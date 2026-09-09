@@ -1,0 +1,23 @@
+{
+	"id": "D01025",
+	"slug": "דר-3",
+	"headword": {
+		"text": "דָּר",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 320,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00342\"><he>דּוּר</he></cite>) <i>row</i>.—Pl. <cite ref=\"D00898\"><he>דָּרִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 20:10\">Gen. R. s. 20</cite> (explain. <cite ref=\"D01051\"><he>דַּרְדַּר</he></cite>) <he>שהיא עשוייה ד׳ ד׳</he> because it consists of rows above rows (of the imbricated form of the artichoke)."
+			]
+		}
+	]
+}

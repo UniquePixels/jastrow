@@ -1,0 +1,26 @@
+{
+	"id": "M02009",
+	"slug": "מסר-4",
+	"headword": {
+		"text": "מַסָּר"
+	},
+	"page": {
+		"number": 811,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"M02816\"><he>מַשּׂוֹר</he></cite>; <cite ref=\"N00960\"><he>נָסַר</he></cite>)<i>a tool with rough edges</i> or <i>teeth, file, saw</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 17:4\">Sabb. XVII, 4</cite> <he>מ׳ הגדול</he> saw for cutting wood. ",
+				"<cite ref=\"Mishnah Kelim 21:3\">Kel. XXI, 3</cite>; <cite ref=\"Tosefta Keilim Batra 1:8\">Tosef. Kel. B. Bath. I, 8</cite> <he>מלבן של מ׳ הגדול</he> the frame of the saw. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 3:3:2\">Y. Succ. III, 53ᶜ</cite> bot. <he>כמין מ׳</he> leaves serrated like a saw, v. <cite ref=\"M00179\"><he>מַגָּל</he></cite>; <cite ref=\"Tosefta Sukkah 2:7\">Tosef. Succ. II, 7</cite>; Bab. ",
+				"<cite ref=\"Sukkah 34a:6\">Succ. 34ᵃ</cite> <he>דומה למ׳</he>. ",
+				"<cite ref=\"Bereishit Rabbah 6\">Gen. R. s. 6</cite>; Midr. Sam. ch. IX, v. <cite ref=\"N00960\"><he>נָסַר</he></cite>; <cite ref=\"Shemot Rabbah 5:13\">Ex. R. s. 5</cite> <he>כס׳</he> (Var. <he>כמַסְמָר</he>); a. e."
+			]
+		}
+	]
+}

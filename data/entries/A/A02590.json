@@ -1,0 +1,29 @@
+{
+	"id": "A02590",
+	"slug": "אע",
+	"headword": {
+		"text": "אָע"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָעָא"
+		}
+	],
+	"page": {
+		"number": 99,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (h. <cite ref=\"P01088\"><he>עֵץ</he></cite>) <i>wood, woods;</i> also <i>wooden handle</i>. ",
+			"units": [
+				"<cite ref=\"Ezra 5:8\">Ezra V, 8</cite>; a. e.—",
+				"<cite ref=\"Onkelos Leviticus 14:4\">Targ. O. Lev. XIV, 4</cite>; a. e. Y. Sabb. VII, 10ᶜ top, v. <cite ref=\"A01876\"><he>אֶלִּיקָה</he></cite>.—Pl. <he>אָעִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 9:21\">Targ. Josh. IX, 21</cite>; a. e.—Y. Pes. IV, 30ᵈ top.—<i>Hebr.</i> pl. <he>אָעִים</he>, <i>beams</i>. Y. Erub. I, 19ᶜ; Y. Succ. I, 52ᵃ"
+			]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "E00515",
+	"slug": "הכן-1",
+	"headword": {
+		"text": "הָכֵן"
+	},
+	"altHeadwords": [
+		{
+			"text": "הָכֵין",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 350,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>הָא כֵן</he>) <i>thus</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 23:7\">Targ. Prov. XXIII, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 51:6\">Targ. Is. LI, 6</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,93 @@
+{
+	"id": "Q01326",
+	"slug": "פסל-2",
+	"headword": {
+		"text": "פְּסַל"
+	},
+	"page": {
+		"number": 1197,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01325\">same</cite><i>to cut, hew, dig</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 34:1\">Targ. Ex. XXXIV, 1</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 6:11\">Targ. Deut. VI, 11</cite>; a. fr.—Part. pass. <cite ref=\"Q01286\"><he>פְּסִיל</he></cite>; f. <cite ref=\"Q01287\"><he>פְּסִילָא</he></cite>; pl. <he>פְּסִילִין</he>; <cite ref=\"Q01287\"><he>פְּסִילָן</he></cite>, <he>פְּסִל׳</he>. ",
+				"<cite ref=\"Onkelos Deuteronomy 6:11\">Ib.</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to make</i> or <i>declare unfit; to reject</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 23a:9\">Snh. 23ᵃ</cite> <he>בתר דפַסְלֵי להו וכ׳</he> after they (the parties) rejected them, shall they (the rejected judges) go and select another court? <cite ref=\"Sanhedrin 23a:26\">Ib.</cite> <he>רחמנא פַסְלֵיה</he> it is the Law that declared him unfit. ",
+				"<cite ref=\"Sanhedrin 23a:17\">Ib.</cite> <he>כל כמיניה דפָסֵיל דייני</he> is it in his power to reject judges?; a. fr.—Part. pass. as ab. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 22:10\">Targ. Y. II, Gen. XXII, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 7:18\">Targ. Y. I Lev. VII, 18</cite> (Y. II <cite ref=\"Q01241\"><he>פָּסוּל</he></cite> h. form; h. text <he>פגול</he>); a. e.—[<cite ref=\"Aramaic Targum to Psalms 18:27\">Targ. Ps. XVIII, 27</cite>, v. <cite ref=\"Q01287\"><he>פְּסִילָא</he></cite>.]—",
+				"<cite ref=\"Ketubot 61b:1\">Keth. 61ᵇ</cite> <he>מאן דעביד הכי פ׳ למאכל וכ׳</he> he who does a thing like this is unfit to prepare food for the king. ",
+				"<cite ref=\"Ketubot 105b:3\">Ib. 105ᵇ</cite> <he>האי דיינא … פ׳ למידן דינא</he> (some ed. <he>פסול</he>) a judge that is in the habit of borrowing (things from his neighbors) is unfit to judge cases. ",
+				"<cite ref=\"Ketubot 105b:13\">Ib.</cite> <he>פְּסִילְנָא לך לדינא</he> I am unfit to be a judge in thy case (because I have been offered a gift); a. fr.—V. <cite ref=\"Q01239\"><he>פְּסוֹל</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְפְּסַל", "אִתְפְּסֵיל"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"Q01351\"><he>אִיפְּסִיל</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be engraven</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 19:24\">Targ. Job XIX, 24</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be hewn out</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 51:1\">Targ. Is. LI, 1</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be disqualified, unfit, rejected</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 68:16\">Targ. Ps. LXVIII, 16</cite>. [<cite ref=\"Targum Jonathan on Numbers 8:24\">Targ. Y. Num. VIII, 24</cite> <he>מוּפְסָלִין</he> h. <i>Hof.</i>]—Y. Kil. VII, 31ᵃ top [read:] <he>א״ל טבא היא ואִיפְסְלַת</he> he said to him, it is a good coin, whereas it had been cancelled. ",
+						"<cite ref=\"Menachot 102b:7\">Men. 102ᵇ</cite> <he>לאִיפְּסוּלֵי דגופיה</he> (Ms. M. <he>לפסולא</he>) to become unfit for itself (but not for making unclean); <cite ref=\"Pesachim 20a:5\">Pes. 20ᵃ</cite> <he>לאיפסולי גופיה</he>; a. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אַפְסֵל"],
+			"senses": [
+				{
+					"gloss": "<i>to make unfit</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 36a:12\">Ḥull. 36ᵃ</cite> <he>לאַפְסוּלֵי גופיה</he> to cause the object itself to be forbidden (<cite ref=\"Chullin 37a:1\">ib. 37ᵃ</cite> <he>לפסולא דגופיה</he>), v. supra."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["פַּסֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to cut</i> (<i>stones</i>). ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 24:12\">Targ. II Chr. XXIV, 12</cite> <he>מְפַסְּלִין</he> stone-cutters."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

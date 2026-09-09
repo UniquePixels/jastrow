@@ -1,0 +1,23 @@
+{
+	"id": "P00979",
+	"slug": "עניבה-1",
+	"headword": {
+		"text": "עֲנִיבָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1094,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00940\"><he>עָנַב</he></cite>) <i>fastening with a loop</i>, opp. <cite ref=\"S02250\"><he>קשירה</he></cite> with a knot. ",
+			"units": [
+				"<cite ref=\"Pesachim 11a:19\">Pes. 11ᵃ</cite>; <cite ref=\"Shabbat 113a:6\">Sabb. 113ᵃ</cite>; <cite ref=\"Sukkah 33b:13\">Succ. 33ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

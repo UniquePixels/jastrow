@@ -1,0 +1,23 @@
+{
+	"id": "Q01476",
+	"slug": "פקח-3",
+	"headword": {
+		"text": "פְּקַח",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1208,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01475\">preced.</cite>) <i>brighteness, prudence</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 26:12\">Targ. Prov. XXVI, 12</cite> <he>פ׳ סכלא וכ׳</he> Ms. (ed. only <he>סכלא</he>, v. Pesh.) the cunning of a fool is better than his (h. text <cite ref=\"V00867\"><he>תקוה</he></cite>)."
+			]
+		}
+	]
+}

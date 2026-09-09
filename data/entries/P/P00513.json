@@ -1,0 +1,20 @@
+{
+	"id": "P00513",
+	"slug": "עידיתא",
+	"headword": {
+		"text": "עִידִּיתָא"
+	},
+	"page": {
+		"number": 1067,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", constr. <cite ref=\"P00512\"><he>עִידִּית</he></cite> same, esp. <i>choice dwellings</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 2:2\">Targ. Lam. II, 2</cite> (Bxt. <he>עֲדִית</he>, ed. Vien. <cite ref=\"P00512\"><he>עִידִית</he></cite>; v. Koh. Ar. Compl. s. v., end; h. text <he>נאות</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 83:13\">Targ. Ps. LXXXIII, 13</cite> (Ms. <he>דירוות</he>; ed. Wil. <cite ref=\"P00512\"><he>עִידִית</he></cite>)."
+			]
+		}
+	]
+}

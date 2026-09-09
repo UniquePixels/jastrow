@@ -1,0 +1,30 @@
+{
+	"id": "H00254",
+	"slug": "חוגג",
+	"headword": {
+		"text": "חוֹגֵג"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוֹג"
+		},
+		{
+			"text": "חוֹגְגִים"
+		},
+		{
+			"text": "חוּגִּים"
+		}
+	],
+	"page": {
+		"number": 430,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= b. h. <cite ref=\"H00141\"><he>חַגְוֵי</he></cite>, v. <cite ref=\"H00140\"><he>חֲגַג</he></cite> a. <cite ref=\"H00141\"><he>חַגְוָא</he></cite>) <i>clefts, precipices</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 42:3\">Midr. Till. to Ps. XLII, 5</cite> (ref. to <cite ref=\"H00254\"><he>חוגג</he></cite>, <cite ref=\"Midrash Tehillim 42:3\">ib.</cite>) <he>לשון יוני הוא ח׳ של מים</he> (ed. <cite ref=\"H00254\"><he>חוגים</he></cite>, <cite ref=\"Yalkut Shimoni on Nach 742:3\">Yalk. Ps. 742</cite> <cite ref=\"H00254\"><he>חוגגים</he></cite>) it is a Greek phrase ‘precipices of water’ (καταρράκτης); cmp. <cite ref=\"A00256\"><he>אָגוֹגָא</he></cite>."
+			]
+		}
+	]
+}

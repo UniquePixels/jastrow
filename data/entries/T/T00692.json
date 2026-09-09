@@ -1,0 +1,30 @@
+{
+	"id": "T00692",
+	"slug": "ריק-2",
+	"headword": {
+		"text": "רֵיק"
+	},
+	"altHeadwords": [
+		{
+			"text": "רֵק"
+		}
+	],
+	"page": {
+		"number": 1476,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T00432\"><he>רוּק</he></cite>)<i>empty, void; worthless man</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:16\">Y. Peah I, 15ᵇ</cite> bot., a. e. (ref. to <cite ref=\"Deuteronomy 32:47\">Deut. XXXII, 47</cite>) <he>ואם הוא ר׳ מכם וכ׳</he> and if it (a word of the Law) appear void (of meaning), it is your fault, because you do not toil to study it. ",
+				"<cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4<sup>20</sup></cite> (ref. to <cite ref=\"II Samuel 6:20\">II Sam. VI, 20</cite>) <he>הר׳ שבריקים זה וכ׳</he> the lowest of the low is the dancer, for there is none more void of all merits than he is; a. e.—Pl. <he>רֵיקִים</he>, <he>רֵיקִין</he>, <cite ref=\"T00693\"><he>רֵקִ׳</he></cite>. ",
+				"<cite ref=\"II Samuel 6:20\">Ib.</cite>; <cite ref=\"Jerusalem Talmud Sukkah 5:6:4\">Y. Succ. V, 55ᶜ</cite> top; Y. Snh. II, 20ᵇ bot.; a. e.—[<cite ref=\"Bereishit Rabbah 32:10\">Gen. R. s. 32</cite>, end <he>הריקין</he>, read: <he>הרֵיקָן</he>.]—<i>Fem.</i> <cite ref=\"T00693\"><he>רֵיקָה</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 20:3\">Num. R. s. 20<sup>21</sup></cite> (ref. to Deut. l. c.) <he>אפי׳ מצוה … ר׳ וקלה בה חיים וכ׳</he> even if there be a command which thou considerest empty and unimportant, there is in it life and length of days."
+			]
+		}
+	]
+}

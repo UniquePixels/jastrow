@@ -1,0 +1,28 @@
+{
+	"id": "I00579",
+	"slug": "טננא",
+	"headword": {
+		"text": "טְנָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִינְנָא"
+		}
+	],
+	"page": {
+		"number": 541,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00578\">preced.</cite>) <i>jealousy, zeal, agitation</i> (corresp. to h. <cite ref=\"S01511\"><he>קִנְאָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 69:10\">Targ. Ps. LXIX, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 5:2\">Targ. Job. V, 2</cite>. Targ. II Esth. V, 8 (Var. <cite ref=\"I00566\"><he>טְנָאנָא</he></cite>, <cite ref=\"I00566\"><he>טִנְאֲנָא</he></cite>). Ib. VII, 4 (h. text <cite ref=\"N00461\"><he>נֵזֶק</he></cite>!); a. fr."
+			]
+		}
+	]
+}

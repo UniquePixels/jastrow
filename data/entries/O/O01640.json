@@ -1,0 +1,24 @@
+{
+	"id": "O01640",
+	"slug": "סרכן",
+	"headword": {
+		"text": "סַרְכָן"
+	},
+	"page": {
+		"number": 1028,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O01638\"><he>סָרְכָא</he></cite>) <i>leader</i>, <i>officer</i> (corresp. to h. <cite ref=\"N00152\"><he>נָגִיד</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 41:41\">Targ. Y. Gen. XLI, 41</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 11:2\">Targ. I Chr. XI, 2</cite> (two versions, with <cite ref=\"A03137\"><he>ארכון</he></cite> a. <he>ס׳</he>, combined); a. fr.—",
+				"<cite ref=\"Targum Jonathan on Exodus 24:1\">Targ. Y. Ex. XXIV, 1</cite> <he>מיכאל סַרְכַן חכמתא</he> Michael, the prince (angel) of wisdom."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "A00548",
+	"slug": "אוגר-2",
+	"headword": {
+		"text": "אוֹגַר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹגְרָא"
+		}
+	],
+	"page": {
+		"number": 22,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A00335\"><he>אָגַר</he></cite>, <cite ref=\"C01393\"><he>גְּרַר</he></cite>) <i>heap of stones, stone-hill</i> (h. <cite ref=\"C00848\"><he>גַּל</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 31:46\">Targ. Y. Gen. XXXI, 46</cite> (Bab. <cite ref=\"D00104\"><he>דְּגוֹרָא</he></cite>); a. fr. V. <cite ref=\"A00278\"><he>אֱגוֹרָא</he> I</cite>."
+			]
+		}
+	]
+}

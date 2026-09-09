@@ -1,0 +1,45 @@
+{
+	"id": "O01348",
+	"slug": "ספי-1",
+	"headword": {
+		"text": "ספי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סָפָה"
+		}
+	],
+	"page": {
+		"number": 1013,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"O00385\"><he>סוּף</he></cite>)<i>to cut</i>, esp. <i>to cut a slice, to give a portion; to have a share in a meal</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 3b:11\">Pes. 3ᵇ</cite> <he>סְפוּ לי מאליה</he> give me a piece of the fat-tail. ",
+				"<cite ref=\"Midrash Tehillim 4\">Midr. Till. to Ps. IV, 7</cite> ed. Bub. <he>מי יתן</he> (<he>לנו</he>) <he>לִסְפּוֹת עמכם וכ׳</he> (differ. in ed., v. ed. Bub. note) oh, that we could share with you in the good of the hereafter; <cite ref=\"Yalkut Shimoni on Nach 627\">Yalk. ib. 627</cite> <he>לספור</he> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to consume, destroy</i>. Tanḥ. Vayera 8 (ref. to <cite ref=\"Genesis 18:23\">Gen. XVIII, 23</cite>) <he>בשר ודם האף סוֹפֶה אותו וכ׳</he> as regards a human being, anger consumes him (carries him away), is it so with thee? Wilt thou consume the righteous with the wicked?",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִסְפֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be destroyed, ruined</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 49:8\">Gen. R. s. 49</cite> (ref. to <cite ref=\"Proverbs 13:23\">Prov. XIII, 23</cite>) <he>ונמצא נ׳ בלא משפט מקומו</he> and thus he was ruined (by the tax-gatherers) not in accordance with the judgment of his place (which had been released from the tax in the meanwhile)."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

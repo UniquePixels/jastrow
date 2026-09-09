@@ -1,0 +1,50 @@
+{
+	"id": "G00277",
+	"slug": "זיד-1",
+	"headword": {
+		"text": "זִיד"
+	},
+	"altHeadwords": [
+		{
+			"text": "זוּד"
+		}
+	],
+	"page": {
+		"number": 391,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"D00194\"><he>דּוּד</he></cite>)<i>to flow over, boil</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 11a\">Sot. 11ᵃ</cite>; <cite ref=\"Shemot Rabbah 1\">Ex. R. s. 1</cite>, expl. <he>זדו</he> (<cite ref=\"Exodus 18:11\">Ex. XVIII, 11</cite>), v. <cite ref=\"B01359\"><he>בָּשַׁל</he></cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵזִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to boil, cook</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 69a:4\">Snh. 69ᵃ</cite> (ref. to <he>יזיד</he> <cite ref=\"Exodus 21:14\">Ex. XXI, 14</cite>) <he>איש מֵזִיד וכ׳</he> a man (adult) cooks (prepares semen virile) and begets; Y. ib. VIII, beg. 26ᵃ <he>משיָזִיד</he> from the time he prepares &c.; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to plan evil, to act with premeditation, in full consciousness of doing wrong</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 69a:7\">Sabb. 69ᵃ</cite> <he>ה׳ בזה ובזה זו מֵזִיד וכ׳</he> if he acted in full consciousness of both (of its being a Sabbath day and of such a labor being forbidden on the Sabbath), that is the wilful sinner meant in the Law (punishable). ",
+						"<cite ref=\"Shabbat 69a:7\">Ib.</cite> <he>שגג … וה׳ במלאכה</he> if he labored under a mistake as to the Sabbath day, but was aware of the sinful nature of the labor (if done on the Sabbath). ",
+						"<cite ref=\"Shemot Rabbah 5:22\">Ex. R. s. 5</cite>, end; a. fr.—Part. <cite ref=\"M00751\"><he>מֵזִיד</he></cite>, f. <cite ref=\"M00751\"><he>מְזִידָה</he></cite>, v. supra. Y. Sot. V, beg. 20ᵃ; a. fr.—<he>במֵ׳</he> if done wilfully, opp. <he>בשוגג</he>. ",
+						"<cite ref=\"Keritot 18a:25\">Ker. 18ᵃ</cite>; a. fr.—Pl. <he>מְזִידִין</he>. ",
+						"<cite ref=\"Beitzah 30a:9\">Bets. 30ᵃ</cite>, a. e. <he>מוטב … ואל יהיו מ׳</he> it is better that they be ignorant than that they know and transgress wilfully; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

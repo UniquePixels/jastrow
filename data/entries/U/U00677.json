@@ -1,0 +1,84 @@
+{
+	"id": "U00677",
+	"slug": "שחן-2",
+	"headword": {
+		"text": "שְׁחַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁחֵין"
+		}
+	],
+	"page": {
+		"number": 1549,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00676\">same</cite> (answering to h. <cite ref=\"H01133\"><he>חם</he></cite>, <he>חמם</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be warm</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 44:15\">Targ. Is. XLIV, 15</cite>, sq. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 4:11\">Targ. Koh. IV, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 37:17\">Targ. Job XXXVII, 17</cite> Ms. (ed. <he>מְשַׁחֲנִין</he>, <i>Pa.</i>; ed. Wil. <he>מִשְׁחֲנִין</he>, corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to heat, light a fire</i>. ",
+			"units": [
+				"<cite ref=\"Arakhin 31b:30\">Arakh. 31ᵇ</cite> <he>אנא קדים שָׁחֵין נורא וכ׳</he> I lighted a fire (moved into my house) before thee."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (with <he>על</he>) <i>to hatch</i>, v. infra.",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁחֵן"],
+			"senses": [
+				{
+					"gloss": "<i>to heat</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 10b\">Keth. 10ᵇ</cite>; <cite ref=\"Gittin 70a\">Gitt. 70ᵃ</cite> <he>מְשַׁחֲנַן</he>, v. <cite ref=\"U00161\"><he>שְׂבַע</he></cite>. Y. Sabb. I, end, 4ᵇ <he>מהו מיחזרתיה ומְשַׁחַנְתֵּיה</he> is it permitted to put it back (into the oven) and keep it warm? <cite ref=\"Vayikra Rabbah 25\">Lev. R. s. 25</cite> <he>היא … ומְשַׁחֲנָא להון</he> she (the mother hen) gathers them, and puts them under her wings, and keeps them warm."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to hatch, sit over</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 17:11\">Targ. Jer. XVII, 11</cite> (ed. Wil. <he>מְשָׁחִין</he>, read: <he>מְשַׁחֵין</he>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 59:5\">Targ. Is. LIX, 5</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 39:16\">Targ. Job XXXIX, 16</cite> <he>שַׁחֲנָא על בניא</he> (Ms. <he>תעיין בנהא</he>; h. text <he>הקשיח</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתַּחַן"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּחַן"],
+			"senses": [
+				{
+					"gloss": "<i>to be warmed, get warm</i>. Ib. XXXI, 20. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 22:11\">Targ. Y. Deut. XXII, 11</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

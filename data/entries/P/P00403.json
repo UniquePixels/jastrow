@@ -1,0 +1,57 @@
+{
+	"id": "P00403",
+	"slug": "עזז-1",
+	"headword": {
+		"text": "עָזַז"
+	},
+	"page": {
+		"number": 1061,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H00520\"><he>חזז</he></cite> , s. v. <cite ref=\"H00522\"><he>חֲזָזִית</he></cite>) [<i>to sting, be pointed, flinty</i>;] <i>to be hard, strong</i>, v. <cite ref=\"P00385\"><he>עַז</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵעֵז"],
+			"senses": [
+				{
+					"gloss": " (of color) <i>to be bright, intense</i>. Sifra Thazr., Neg., Par. 2, ch. II, v. <cite ref=\"K00150\"><he>כָּהָה</he></cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " ה׳ פנים <i>to set one’s face against; to dare, be insolent</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 131a:5\">B. Bath. 131ᵃ</cite> <he>והֵעַזְתִּי פני</he>, v. <cite ref=\"J00370\"><he>יַלְדּוּת</he></cite>. ",
+						"<cite ref=\"Berakhot 62a:2\">Ber. 62ᵃ</cite> <he>עד כאן הֵעַזְתָּ פניך ברבך</he> hast thou dared so much against thy teacher (as to enter into his private rooms)? <cite ref=\"Zevachim 102a:11\">Zeb. 102ᵃ</cite> <he>הָעֵיז פניך בו</he> <i>defy him</i>"
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to strengthen, encourage</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 109:7\">Midr. Till. to Ps. CXVIII, 7</cite> <he>תָּעֵיזּוּ לבבכם</he> (or <he>תָּעִיזוּ</he>, fr. <cite ref=\"P00215\"><he>עוּז</he></cite>) strengthen your hearts, take courage."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְעַזֵּז"],
+			"senses": [
+				{
+					"gloss": "<i>to become strong; to be daring, defiant</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 9:20\">Midr. Till. to IX, 20</cite> (ref. to <he>יָעֹז</he>, <cite ref=\"Midrash Tehillim 9:20\">ib.</cite>) <he>אל יִתְעַזְּזוּן במלכותן ואל יתעזזון בשלותן</he> let them not be defiant on account of their royal power, or on account of their prosperity; (ed. Bub., Chald. <he>לא יתע׳ במלכותיהן ובלישניהון</he> let them not be daring with their power or their tongues); Yalk. Ps. 645."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "A01172",
+	"slug": "אידרון",
+	"headword": {
+		"text": "אִידְּרוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִידְּרוֹנָא"
+		},
+		{
+			"text": "אִינְדְּרוֹנָא"
+		},
+		{
+			"text": "אִנְדְּרוֹנָא"
+		}
+	],
+	"page": {
+		"number": 45,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A00445\"><he>אדר</he></cite>; Assyr. <i>idrânu</i>, v. Fred. Del. Hebr. Lang. p. 24; cmp. <cite ref=\"H00214\"><he>חֵדֶר</he></cite>) <i>an enclosure, chamber</i>, esp. <i>dark alcove, bed-room</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 37:9\">Targ. Job XXXVII, 9</cite>. ",
+				"<cite ref=\"Megillah 26b:13\">Meg. 26ᵇ</cite> <he>איד׳ דהוה וכ׳</he> a room where the corpse was placed before burial. ",
+				"<cite ref=\"Bava Batra 7a:11\">B. Bath. 7ᵃ</cite> <he>השתא משוית לי איד׳</he> ed. (Ms. M. <he>והשתא אינד׳</he>) now thou makest my (formerly open) compartment a lightless alcove. ",
+				"<cite ref=\"Chullin 52b:16\">Ḥull. 52ᵇ</cite>; a. e.—",
+				"<cite ref=\"Menachot 33b\">Men. 33ᵇ</cite> (fem.) <he>א׳ מעלייתא</he> a fine room. ",
+				"<cite ref=\"Bava Kamma 85b\">B. Kam. 85ᵇ</cite>, v. <cite ref=\"E00852\"><he>הַרְזֵק</he></cite>. ",
+				"<cite ref=\"Taanit 25a:1\">Taan. 25ᵃ</cite> <he>עיילא לאינ׳</he> she went up to the bed-room."
+			]
+		}
+	]
+}

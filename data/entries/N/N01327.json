@@ -1,0 +1,22 @@
+{
+	"id": "N01327",
+	"slug": "נשכנית",
+	"headword": {
+		"text": "נַשְׁכָּנִית"
+	},
+	"page": {
+		"number": 940,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01326\">preced.</cite>) <i>an animal wont to bite, biter</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Batra 4:6\">Tosef. B. Bath. IV, 6</cite>; <cite ref=\"Bava Metzia 80a:3\">B. Mets. 80ᵃ</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "A00091",
+	"slug": "אבטומטוס",
+	"headword": {
+		"text": "אַבְטוֹמְטוֹס"
+	},
+	"page": {
+		"number": 4,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (αὐτόματος) <i>self-moving, self-growing, spontaneous</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 1:19\">Midr. Till. to Ps. I, 5</cite> <he>האומרים א׳ הוא העולם</he> Mus. (ed. <cite ref=\"I00178\"><he>טומטום</he></cite>, corr. acc.) who say the universe is a self-moving power (has no creator). [Better: <cite ref=\"A00091\"><he>אַבְטוֹמְטוֹן</he></cite> (αὐτόματον, S.) <i>chance</i>.]"
+			]
+		}
+	]
+}

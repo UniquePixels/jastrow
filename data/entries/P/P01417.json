@@ -1,0 +1,58 @@
+{
+	"id": "P01417",
+	"slug": "ערער-1",
+	"headword": {
+		"text": "עִרְעֵר"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִירְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1121,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Pilp. of <cite ref=\"P00343\"><he>עוּר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to stir up, excite to lamentation</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 8a:17\">M. Kat. 8ᵃ</cite> <he>לא יְעַרְעֵר וכ׳</he>, v. <cite ref=\"P00343\"><he>עוּר</he></cite> <i>Polel</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to stir up strife, disturb</i>,] <i>to contest the legality of an action, the legitimacy of a person, his fitness as judge, witness</i> &c. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 3:9:23\">Y. Snh. III, 21ᵈ</cite> top <he>אם בא ועי׳ עֲרָרוֹ קיים</he> if he comes and protests (against the judgment given in his absence), his protest is valid. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 5:6:4\">Y. Ned. V, end, 39ᵇ</cite> <he>כל מי שיבוא וִיעַרְעֵר וכ׳</he> whosoever may at some future time contest this donation (having a claim against the property); a. e.—[<cite ref=\"Megillah 25b:12\">Meg. 25ᵇ</cite> <he>המְעַרְעֲרִים</he> those inclined to argue,—a censorial change from <he>המומרים</he> or <he>המינים</he>; v. Rabb. D. S. a. l. note 8.]"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to stir on by chiding, to scold</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 3:3\">Sot. III, 3</cite> <he>מְעַרְעֲרִים אותה וכ׳</he> they (the court) chide her and make her drink by force; [Rashi seems to take our w. in the sense of <i>encouraging</i>]; <cite ref=\"Tosefta Sotah 2:3\">Tosef. ib. II, 3</cite> <he>מְרַעְרְעִין</he> ed. Zuck. (Var. <he>מערערין</he>). ",
+				"<cite ref=\"Tosefta Sotah 2:3\">Ib.</cite> <he>בצבת של ברזל … מדדין וכ׳</he> ed. Zuck. (Var. <he>מערערין</he>, read <he>ומע׳</he>) they opened her mouth … and urged her on and forced her to drink; <cite ref=\"Sotah 19b\">Sot. 19ᵇ</cite>. Y. ib. III, 18ᵈ bot. <he>מערערים אותה עד וכ׳</he> we urge her on to drink by chiding her until her face becomes pale; <cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite>; <cite ref=\"Yalkut Shimoni on Torah 708:12\">Yalk. ib. 708</cite> <he>מכין אותה ומע׳ וכ׳ …</he> they strike her with the broadside of a sword and urge her &c.; a. e."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְעַרְעֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to be stirred up</i>, v. <cite ref=\"P01454\"><he>עָרַר</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "M02290",
+	"slug": "מצולה-2",
+	"headword": {
+		"text": "מְצוּלָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 824,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01131\"><he>נָצַל</he></cite>; cmp. <cite ref=\"N00750\"><he>נִיצּוֹלֶת</he></cite>) <i>refuse, threshed-out halms, husks</i> &c. ",
+			"units": [
+				"<cite ref=\"Berakhot 9b\">Ber. 9ᵇ</cite>; <cite ref=\"Pesachim 119a:7\">Pes. 119ᵃ</cite> <he>כמ׳ שאין בה דגן</he> Var. lect. (v. Rabb. D. S. a. l. notes) like husks without grain.—Pl. <he>מְצוּלוֹת</he>. ",
+				"<cite ref=\"Tosefta Terumot 10:3\">Tosef. Ter. X, 3</cite> (Var. ed. Zuck. <cite ref=\"N00749\"><he>ניצולית</he></cite>), v. <cite ref=\"N00750\"><he>נִיצּוֹלֶת</he></cite>."
+			]
+		}
+	]
+}

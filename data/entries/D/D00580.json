@@ -1,0 +1,32 @@
+{
+	"id": "D00580",
+	"slug": "דייתא",
+	"headword": {
+		"text": "דַּיְּיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּיְּתָא"
+		},
+		{
+			"text": "דַּיּוּ"
+		}
+	],
+	"page": {
+		"number": 299,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " f. ch. = h. <cite ref=\"D00494\"><he>דַּיָּה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:14\">Targ. Lev. XI, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 11:19\">Targ. Y. ib. 19</cite> (v. <cite ref=\"D00494\"><he>דַּיָּה</he></cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 14:13\">Targ. Deut. XIV, 13</cite> (Targ. Y. V <cite ref=\"Onkelos Deuteronomy 14:13\">ib.</cite>, v. <cite ref=\"A01121\"><he>אִיבּוּ</he></cite>). Targ. Y. ib. 18.—",
+				"<cite ref=\"Ketubot 50a\">Keth. 50ᵃ</cite> <he>דיו חיוורתא</he> Ar. (ed. <cite ref=\"D00494\"><he>דַּיָּה</he></cite>). ",
+				"<cite ref=\"Bava Metzia 24b:8\">B. Mets. 24ᵇ</cite> <cite ref=\"D00500\"><he>דיו</he></cite> (masc.).—",
+				"<cite ref=\"Jerusalem Talmud Shekalim 7:2:7\">Y. Shek. VII, 50ᶜ</cite> bot.; <cite ref=\"Jerusalem Talmud Avodah Zarah 2:8:10\">Y. Ab. Zar. II, 41ᵈ</cite> bot."
+			]
+		}
+	]
+}

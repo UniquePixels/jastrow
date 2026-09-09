@@ -1,0 +1,30 @@
+{
+	"id": "S00488",
+	"slug": "קוף-2",
+	"headword": {
+		"text": "קוֹף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1337,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>ape</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 8:6\">Kil. VIII, 6</cite>. ",
+				"<cite ref=\"Bekhorot 8a:13\">Bekh. 8ᵃ</cite> <he>הפיל והק׳ והקיפוף וכ׳</he> the elephant, the ape, and the long-tailed ape (cercopithacos) give birth after three years of pregnancy. ",
+				"<cite ref=\"Bava Batra 58a:6\">B. Bath. 58ᵃ</cite> <he>כק׳ בפני אדם</he> as inferior in looks as the ape is to man. ",
+				"<cite ref=\"Yoma 29b:6\">Yoma 29ᵇ</cite> <he>כמו שסדרו הק׳</he> as if an ape had arranged it on the table (as an unconscious act). Tanḥ. P’ḳudé 3; a. e.—[<cite ref=\"Mishnah Parah 3:5\">Par. III, 5</cite> <he>בן הקוף</he>, Mish. ed., v. <cite ref=\"S01093\"><he>קַיָּף</he></cite>.]—Pl. <he>קוֹפִים</he>, <he>קוֹפִין</he>, <he>קוֹפוֹת</he>. ",
+				"<cite ref=\"Bava Kamma 80a\">B. Kam. 80ᵃ</cite>; <cite ref=\"Tosefta Bava Kamma 8:17\">Tosef. ib. VIII, 17</cite>. ",
+				"<cite ref=\"Sanhedrin 109a:5\">Snh. 109ᵃ</cite> <he>נעשו ק׳ ורוחות וכ׳</he> were turned into apes, spirits, demons and night-demons. ",
+				"<cite ref=\"Bereishit Rabbah 23:6\">Gen. R. s. 23</cite> (in the days of Enosh) <he>נעשו … כק׳</he> men’s faces were made to be ape-like. ",
+				"<cite ref=\"Kohelet Rabbah 6:11:1\">Koh. R. to VI, 11</cite> (ref. to <he>מרבים הבל</he>, <cite ref=\"Kohelet Rabbah 6:11:1\">ib.</cite>) <he>כגון מגדלי ק׳ וכ׳</he> as those who rear apes, cats &c.; a. e."
+			]
+		}
+	]
+}

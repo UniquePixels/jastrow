@@ -1,0 +1,32 @@
+{
+	"id": "V00225",
+	"slug": "תום-2",
+	"headword": {
+		"text": "תּוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוּמָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1654,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U00436\"><he>שׁוּם</he></cite>, <i>garlic</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:36\">Y. Ter. VIII, 46ᵃ</cite> <he>עבד ת׳ שחיק וכ׳</he> had ground garlic prepared in his house. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:27\">Y. Sabb. VII, 10ᵃ</cite> bot. <he>ההן דשחק ת׳</he> he that grinds garlic (on the Sabbath). ",
+				"<cite ref=\"Gittin 69a:11\">Gitt. 69ᵃ</cite> <he>ת׳ יחידאה</he> a single-headed garlic plant. ",
+				"<cite ref=\"Shabbat 140a\">Sabb. 140ᵃ</cite>, v. <cite ref=\"U00515\"><he>שׁוּפְתָּא</he></cite>; a. fr.—Pl. <cite ref=\"V00230\"><he>תּוּמַיָּא</he></cite>, <he>תּוּמֵי</he>. ",
+				"<cite ref=\"Onkelos Numbers 11:5\">Targ. Num. XI, 5</cite>."
+			]
+		}
+	]
+}

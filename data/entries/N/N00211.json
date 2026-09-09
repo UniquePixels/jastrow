@@ -1,0 +1,63 @@
+{
+	"id": "N00211",
+	"slug": "נדד-1",
+	"headword": {
+		"text": "נָדַד"
+	},
+	"page": {
+		"number": 877,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to move, shake, chase</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 107a:7\">Snh. 107ᵃ</cite> (ref. to <cite ref=\"Psalms 11:1\">Ps. XI, 1</cite>) <he>שלא יאמרו … צפור נְדַדְתּוֹ</he> lest they say, that mountain among you (David)—a bird has shaken it. ",
+				"<cite ref=\"Esther Rabbah 10:1\">Esth. R. to VI, 1</cite> <he>נָדְדוּ שמים כסאו וכ׳</he> the heavens shook the throne of &c. ",
+				"<cite ref=\"Sifrei Devarim 38:4\">Sifré Deut. 38</cite> <he>ונוֹדֵד שנת וכ׳</he> and chases away the sleep of his eyes (watches constantly) over it; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be restless, flee</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 15b:20\">Meg. 15ᵇ</cite> (ref. to <cite ref=\"Esther 6:1\">Esth. VI, 1</cite>) <he>נָדְדָה שנת מלכו וכ׳</he> the sleep of the King of the world fled; <cite ref=\"Esther 6:1\">ib.</cite> <he>נדדו עליונים וכ׳</he> those on high were agitated; <cite ref=\"Pirkei DeRabbi Eliezer 50:7\">Pirké d’R. El. ch. L</cite>; a. e.—",
+				"<cite ref=\"Tosefta Bava Kamma 9:27\">Tosef. B. Kam. IX, 27</cite> <he>ונדדה</he> and the tooth was loosened.—Part. pass. <cite ref=\"N00216\"><he>נָדוּד</he></cite>; f. <he>נְדוּדָה</he>. ",
+				"<cite ref=\"Tosefta Bava Kamma 9:27\">Ib.</cite> <he>היתה … שינו נ׳ וכ׳</he> (not <he>נדדה</he>) if his tooth had been loose, and he (the master) caused it to fall out; <cite ref=\"Kiddushin 24b\">Kidd. 24ᵇ</cite>; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִדֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to make unsteady, chase</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 10a:14\">B. Bath. 10ᵃ</cite> <he>שמְנַדְּדִין שינה מעיניהם</he> who chase the sleep from their eyes (study by night). ",
+						"<cite ref=\"Ketubot 62a:6\">Keth. 62ᵃ</cite> <he>שמְנַדְּדוֹת וכ׳</he> who keep themselves awake (while their husbands are studying); a. e.—",
+						"<cite ref=\"Vayikra Rabbah 18\">Lev. R. s. 18</cite>, v. <cite ref=\"N00234\"><he>נִדְנֵד</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְנַדֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to be shaken</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 571:3\">Yalk. Lev. 571</cite> <he>ובלבד שלא תהא מִתְנַדֶּדֶת</he> provided it (the bench) be not shaken (when they sit on it)."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

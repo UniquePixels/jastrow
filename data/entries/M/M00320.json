@@ -1,0 +1,20 @@
+{
+	"id": "M00320",
+	"slug": "מדף-2",
+	"headword": {
+		"text": "מַדָּף"
+	},
+	"page": {
+		"number": 735,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00237\"><he>נָדַף</he></cite>) <i>a vessel used for smoking bees out</i>, v. <cite ref=\"D00051\"><he>דְּבוֹרָה</he></cite>. ",
+			"units": ["<cite ref=\"Mishnah Kelim 16:7\">Kel. XVI, 7</cite>."]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "M00270",
+	"slug": "מדול",
+	"headword": {
+		"text": "מִדוֹל"
+	},
+	"page": {
+		"number": 733,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (apocopate infin. of <cite ref=\"D00828\"><he>דְּלֵי</he></cite>) <i>the act of drawing water</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 2:19\">Targ. Y. Ex. II, 19</cite>, v. <cite ref=\"D00831\"><he>דְּלִיָּה</he></cite>."
+			]
+		}
+	]
+}

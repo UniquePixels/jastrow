@@ -1,0 +1,31 @@
+{
+	"id": "I00788",
+	"slug": "טרייא-1",
+	"headword": {
+		"text": "טְרָיָיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְרָיָיה"
+		},
+		{
+			"text": "טוּרְ׳"
+		}
+	],
+	"page": {
+		"number": 553,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (?) <i>Traya, Turya;</i> <he>אִישׁ ט׳</he> surname of Abba Hoshaya. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 10:10:2\">Y. B. Kam. X, end, 7ᶜ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 58\">Gen. R. s. 58</cite>, beg.; a. fr. (V. Neub. Géogr. p. 267)."
+			]
+		}
+	]
+}

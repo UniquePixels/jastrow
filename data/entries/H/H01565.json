@@ -1,0 +1,36 @@
+{
+	"id": "H01565",
+	"slug": "חקר-1",
+	"headword": {
+		"text": "חָקַר"
+	},
+	"page": {
+		"number": 497,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to go around, to espy, to examine</i>; esp. <i>to cross-examine</i>, v. <cite ref=\"H01558\"><he>חֲקִירָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 1:9\">Ab. I, 9</cite> <he>הוי מרבה לַחְקוֹר וכ׳</he> cross-examine witnesses as much as possible. ",
+				"<cite ref=\"Sanhedrin 40b:4-6\">Snh. 40ᵇ</cite> <he>מדהוי ליה … חָקוֹר תַּחְקוֹר</he> the text might have read (for emphasis) thou shalt diligently inquire, or thou shalt diligently investigate (instead of the unusual phrase <he>ודרשת היטב</he>, <cite ref=\"Deuteronomy 17:4\">Deut. XVII, 4</cite>); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְקַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be investigated, examined</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 1:16:1\">Koh. R. to I, 16</cite> <he>הלב נ׳</he> the heart is examined (by the Lord). ",
+						"<cite ref=\"Mishnah Rosh Hashanah 3:1\">R. Hash. III, 1</cite> <he>נֶחְקְרוּ העדים</he> when the evidence was closed. ",
+						"<cite ref=\"Tosefta Sanhedrin 6:4\">Tosef. Snh. VI, 4</cite> <he>עד שתֵּחָקֵר עדותן וכ׳</he> until their examination in court has been closed; <he>נֶחְקְרָה עדותן וכ׳</he> after it has been closed, they cannot retract. Ib. 5; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

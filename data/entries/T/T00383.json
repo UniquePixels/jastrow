@@ -1,0 +1,28 @@
+{
+	"id": "T00383",
+	"slug": "רומה",
+	"headword": {
+		"text": "רוּמָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "רוּמָא"
+		}
+	],
+	"page": {
+		"number": 1461,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Ruma</i> in Galilee, near K’far Hananiah. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 4:8:3\">Y. Erub. IV, end, 22ᵃ</cite>; Bab. ",
+				"<cite ref=\"Eruvin 51b\">Erub. 51ᵇ</cite> Ms. M. (ed. <cite ref=\"A03031\"><he>ארומא</he></cite>, v. Rabb. D. S. a. l. note); <cite ref=\"Tosefta Eiruvin 4:1\">Tosef. ib. IV</cite> (<cite ref=\"Tosefta Eiruvin 3:17\">III</cite>), 17 (ed. Zuck. <cite ref=\"D01056\"><he>דרומא</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

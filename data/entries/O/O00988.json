@@ -1,0 +1,20 @@
+{
+	"id": "O00988",
+	"slug": "סליל-2",
+	"headword": {
+		"text": "סָלִיל"
+	},
+	"page": {
+		"number": 994,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (dimin. of <cite ref=\"O00948\"><he>סַל</he></cite>) <i>shuttle containing the spool</i>. ",
+			"units": ["<cite ref=\"Mishnah Negaim 11:9\">Neg. XI, 9</cite>."]
+		}
+	]
+}

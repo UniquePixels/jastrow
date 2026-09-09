@@ -1,0 +1,23 @@
+{
+	"id": "V00593",
+	"slug": "תלישה",
+	"headword": {
+		"text": "תְּלִישָׁה"
+	},
+	"page": {
+		"number": 1672,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01123\"><he>חָּלַשׁ</he></cite>) <i>tearing up, plucking; being detached, loose</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 9:1:5\">Y. Sabb. IX, 11ᵈ</cite> bot.; <cite ref=\"Jerusalem Talmud Avodah Zarah 3:6:5\">Y. Ab. Zar. III, 43ᵇ</cite> top <he>בית היתה לו שעת ת׳ וכ׳</he> a building has had a time when its material was loose, a cave has never had such a time. ",
+				"<cite ref=\"Shabbat 73b:7\">Sabb. 73ᵇ</cite> <he>אין דרך ת׳ בכך</he> this is not the ordinary way of plucking (dates). Y. ib. VII, 10ᶜ top <he>תְּלִישָׁתָהּ היא גיזתה</he> plucking it is in this case a form of shearing."
+			]
+		}
+	]
+}

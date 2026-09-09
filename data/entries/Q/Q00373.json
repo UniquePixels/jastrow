@@ -1,0 +1,28 @@
+{
+	"id": "Q00373",
+	"slug": "פורען-1",
+	"headword": {
+		"text": "פּוּרְעָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "פּוּרְעָנָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1147,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01944\"><he>פְּרַע</he></cite>) <i>payment</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 21:7\">Targ. Y. Ex. XXI, 7</cite> (ed. Pr. <cite ref=\"Q00391\"><he>פורקן</he></cite>).—Pl. <he>פּוּרְעָנִין</he>, v. <cite ref=\"Q00377\"><he>פּוּרְעָנוּתָא</he></cite>."
+			]
+		}
+	]
+}

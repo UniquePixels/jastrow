@@ -1,0 +1,52 @@
+{
+	"id": "A01453",
+	"slug": "איסטרוביל",
+	"headword": {
+		"text": "אִיסְטְרוֹבִיל"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְטְרוֹבְלָא"
+		},
+		{
+			"text": "אִסְ׳"
+		},
+		{
+			"text": "אִצְ׳"
+		},
+		{
+			"text": "אִיצְ׳"
+		}
+	],
+	"page": {
+		"number": 55,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (στρόβιλος) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cone</i>, also <i>kernel of the stone pine</i>, (nux pinea).—Pl. <he>אִיסְטְרוֹבְלִין</he>, <he>אִיסְטְרוֹבִילִין</he> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 1:5\">Ab. Zar. I, 5</cite> (<cite ref=\"Avodah Zarah 13b\">13ᵇ</cite> sq.); defined ibid. <i>fruit of the cedar</i> (stone pine); a. fr. ",
+				"<cite ref=\"Pesikta Rabbati 10:1\">Pesik. R. s. 10</cite> <he>אסטרובלית</he> (read <he>לִים</he>— or <he>לוֹת</he>—)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. Sm. Ant. s. v. Mola) <i>the cone</i> or <i>lower millstone</i> (which is immovable, hence included in the sale of the house). ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 4:3\">B. Bath. IV, 3</cite>. ",
+				"<cite ref=\"Mishnah Zavim 4:2\">Zabim IV, 2</cite>.—Pl. <he>אִסְטְרוֹבְלִין</he>, <cite ref=\"A01453\"><he>אִיסְטְרוֹבִילֵי</he></cite> &c. ",
+				"<cite ref=\"Bereishit Rabbah 28:3\">Gen. R. s. 28</cite>; a. e. ",
+				"<cite ref=\"Ketubot 69a\">Keth. 69ᵃ</cite> Ar. (ed. more correctly <he>בל …</he>, sing.)."
+			],
+			"label": "2"
+		}
+	]
+}

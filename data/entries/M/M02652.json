@@ -1,0 +1,56 @@
+{
+	"id": "M02652",
+	"slug": "מרי-3",
+	"headword": {
+		"text": "מרי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מָרָה"
+		}
+	],
+	"page": {
+		"number": 841,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"M02651\">preced.</cite>; cmp. <cite ref=\"M02480\"><he>מָר</he></cite>, <i>to rebel against</i>. Part. <cite ref=\"M00630\"><he>מוֹרֶה</he></cite>.—<he>סורר ומ׳</he> (<cite ref=\"B00932\"><he>בן</he></cite>) <i>the rebellious son</i>, amenable to the law (<cite ref=\"Deuteronomy 21:18-21\">Deut. XXI, 18–21</cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 8:1\">Snh. VIII, 1</cite> <he>מאימתי נעשה בן ס׳ ומ׳</he> when is one to be dealt with as a <i>sorer umoreh?</i> <cite ref=\"Sanhedrin 68b\">Ib. 68ᵇ</cite>; a. fr.—Pl. <cite ref=\"M00653\"><he>מוֹרִים</he></cite>, <he>מוֹרִין</he>, v. <cite ref=\"M00631\"><he>מוֹרֶה</he> II</cite>, a. <cite ref=\"M00634\"><he>מוֹרוֹס</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִמְרָה"],
+			"senses": [
+				{
+					"gloss": "<i>to make strong, energetic</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 42:8\">Gen. R. s. 42</cite>, end (play on <cite ref=\"M01679\"><he>מַמְרֵא</he></cite>) <he>שה׳ פנים וכ׳</he> he showed a stern countenance against Abraham (rebuking him)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to provoke, to rebel</i>. Y. Kidd. IV, beg. 65ᵇ (play on <cite ref=\"A02060\"><he>אמר</he></cite>, <cite ref=\"Nehemiah 7:61\">Neh. VII, 61</cite>) <he>שהִימְרוּ לאל וכ׳</he> they provoked God with their evil doings. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 1:36\">Ex. R. s. 1</cite>, end <he>שעתידים להַמְרוֹת וכ׳</he> that they will rebel at the Red Sea; a. fr.—Esp. <i>to disregard the authority of the Supreme Court</i> (v. <cite ref=\"M01680\"><he>מַמְרֵא</he> II</cite>). ",
+						"<cite ref=\"Sanhedrin 14b\">Snh. 14ᵇ</cite>; <cite ref=\"Sotah 45a:1\">Sot. 45ᵃ</cite>; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to incite one against the other, to arrange a race; to bet</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 25b:6\">Snh. 25ᵇ</cite> (expl. <he>מפריחי יונים</he>) <he>שמַמְרִין וכ׳</he> those who race doves (and bet on them). ",
+						"<cite ref=\"Shabbat 31a:1\">Sabb. 31ᵃ</cite> top <he>שהִמְרוּ זה את זה</he> who entered a wager."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

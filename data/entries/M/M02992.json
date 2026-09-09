@@ -1,0 +1,32 @@
+{
+	"id": "M02992",
+	"slug": "משתותא-1",
+	"headword": {
+		"text": "מִשְׁתּוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִישְׁ׳"
+		}
+	],
+	"page": {
+		"number": 859,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"M02989\"><he>מִשְׁתֶּה</he></cite> , <i>drinking; feast</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 7</cite> <he>מדכרא … דמ׳</he> she remembers the seven days of her wedding feast. ",
+				"<cite ref=\"Bereishit Rabbah 3\">Gen. R. s. 3</cite> <he>כן וכן אנא מפקד … דמִישְׁתּוּתִי</he> this is my order for my wedding feast. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 4:8:4\">Y. Shebi. IV, end, 35ᶜ</cite>; <cite ref=\"Vayikra Rabbah 11:2\">Lev. R. s. 11</cite>, beg., v. <cite ref=\"Q01668\"><he>פְּרוֹטוֹגַמְיָא</he></cite>. ",
+				"<cite ref=\"Kohelet Rabbah 3:2:3\">Koh. R. to III, 2</cite> <he>במִשְׁתּוּתֵיה</he> at his wedding. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:5:4\">Y. Ber. VI, 10ᶜ</cite> bot. <he>למִישְׁתִּיתֵיה וכ׳</he> to the wedding at &c.; a. e.—Pl. <he>מִשְׁתְּוָותָא</he>. ",
+				"<cite ref=\"Esther Rabbah 3:2\">Esth. R. to I, 9</cite> <he>מִשְׁתְּוָתֵיהוֹן</he>, v. <cite ref=\"C01393\"><he>גְּרַר</he></cite>."
+			]
+		}
+	]
+}

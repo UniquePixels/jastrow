@@ -1,0 +1,57 @@
+{
+	"id": "Q01319",
+	"slug": "פסיקתא-1",
+	"headword": {
+		"text": "פְּסִיקְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּסִקְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1196,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"Q01351\"><he>פְּסַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>apportionment, agreement to pay</i>, esp. <i>dowry</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 18b:7\">M. Kat. 18ᵇ</cite> <he>שטרי פ׳</he> agreements stating the amounts which the parents promise to their respective son or daughter; <cite ref=\"Kiddushin 9b:5\">Kidd. 9ᵇ</cite>; <cite ref=\"Ketubot 102b:13\">Keth. 102ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>section</i>, esp. <i>P’siḳta</i>, name of several Midrashim, ",
+			"units": [],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " <i>P</i>. <i>d’R. Kahăna</i> (or only <i>P’siḳta</i>) (edited by S. Buber).—",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>P. Rabbathi</i> (<i>Large P</i>.).—",
+					"units": [],
+					"label": "b"
+				},
+				{
+					"gloss": " (of late origin) P. <i>Zuṭarta</i> or <i>Zuṭrathi</i> (Small P.) (edited by S. Buber).—[",
+					"units": [],
+					"label": "c"
+				}
+			]
+		},
+		{
+			"gloss": "<i>a small share</i>, v. <cite ref=\"Q00771\"><he>פִּיסְקְתָא</he></cite>.]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

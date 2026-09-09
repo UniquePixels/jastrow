@@ -1,0 +1,23 @@
+{
+	"id": "P00201",
+	"slug": "עודה-1",
+	"headword": {
+		"text": "עוּדָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1048,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עוד</he>, cmp. <he>עִוְּדֻנִי</he> <cite ref=\"Psalms 119:61\">Ps. CXIX, 61</cite>) [<i>convolution</i>, <i>coil</i>,] <i>bundle</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 46a:11\">Sot. 46ᵃ</cite>; <cite ref=\"Avodah Zarah 23a:6\">Ab. Zar. 23ᵃ</cite>) <he>ע׳ של שקין</he> a bundle of (empty) bags; [oth. opin. in Rashi Ab. Zar. l. c.: <i>the pin used for knitting sack-cloth</i>.]"
+			]
+		}
+	]
+}

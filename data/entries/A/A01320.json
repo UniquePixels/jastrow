@@ -1,0 +1,48 @@
+{
+	"id": "A01320",
+	"slug": "אימא-3",
+	"headword": {
+		"text": "אִימָּא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אִמָּא"
+		},
+		{
+			"text": "אִימָּה"
+		}
+	],
+	"page": {
+		"number": 50,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (= h. <cite ref=\"A01961\"><he>אֵם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mother</i>, frequ. <i>my mother</i>; v. <cite ref=\"A00017\"><he>אַבָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 3:20\">Targ. Gen. III, 20</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 18b:3\">Ber. 18ᵇ</cite> <he>אֵימא לה לא׳</he> tell my mother; a. fr.—א׳ זקינה <i>grandmother</i>. ",
+				"<cite ref=\"Megillah 27b:19\">Meg. 27ᵇ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " trnsf. <i>the flesh of a stone fruit</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 143a:11\">Sabb. 143ᵃ</cite> <he>חזיין אגב אִימָּן</he> may be handled on account of the flesh (with which they were surrounded when Sabbath cause).—Pl. <cite ref=\"A01995\"><he>אִימָּהָתָא</he></cite>, <cite ref=\"A01994\"><he>אִמְהָתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 16:3\">Targ. Jer. XVI, 3</cite>; esp. <i>the arch-mothers</i> of the Israel. nation. ",
+				"<cite ref=\"Targum Jonathan on Exodus 17:9\">Targ. Y. Ex. XVII, 9</cite>; a. e.—",
+				"<cite ref=\"Kiddushin 82a:3\">Kidd. 82ᵃ</cite> <he>א׳ דינוקי</he> the mothers of school children. [V. also <cite ref=\"A01324\"><he>אִימָּה</he> II</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

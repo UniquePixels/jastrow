@@ -1,0 +1,54 @@
+{
+	"id": "K00714",
+	"slug": "כלי-1",
+	"headword": {
+		"text": "כְּלִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כֶּלִי"
+		}
+	],
+	"page": {
+		"number": 641,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K00715\">next w.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>vessel, receptacle; bag</i> &c. ",
+			"units": [
+				"<cite ref=\"Bava Batra 85a:3\">B. Bath. 85ᵃ</cite> <he>כֶּלְיוֹ של אדם וכ׳</he> a man’s vessel takes possession for him (of its contents). ",
+				"<cite ref=\"Berakhot 23a:19\">Ber. 23ᵃ</cite> <he>כ׳ שהוא כֶלְיָין</he> a receptacle which is intended for them (the T’fillin). ",
+				"<cite ref=\"Berakhot 23a\">Ib.</cite> <he>כ׳ בתוך כ׳</he> one wrapper within the other. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:59\">Y. Sabb. VII, 10ᵈ</cite> top <he>הגודל כְּלִי צורה</he> he who shapes an earthen vessel; <he>הנופח כ׳ זכוכית</he> who shapes a glass vessel by blowing; <he>העושה כ׳ בדפוס</he> who makes a vessel in a mould. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 3:2:1\">Y. Ḥag. III, 79ᵃ</cite> top, a. fr. <he>נזקקו לכֶילְיָין</he> they are tied to their vessel, i.e. the vessel in which they are offered makes them to be considered one mass, though they are otherwise disconnected; <cite ref=\"Mishnah Chagigah 3:2\">Ḥag. III, 2</cite> <he>הכ׳ מצרף וכ׳</he>. Mekh. Yithro, Amalek, 2 (ref. to <cite ref=\"Exodus 18:19\">Ex. XVIII, 19</cite>) <he>היה להם ככ׳ מלא דברות</he> be unto them like a vessel filled with divine revelations. ",
+				"<cite ref=\"Avot D'Rabbi Natan 2:1\">Ab. d’R. N., II</cite> vers., ch. II, v. <cite ref=\"J00268\"><he>יָחַד</he></cite>. Mekh. Bo., beg. <he>כלל לדברות</he>; Tanḥ. Bo. 5 <he>כלול לד׳</he> (read <cite ref=\"K00715\"><he>כלי</he></cite>) a vessel of revelation; a. fr.—Pl. <he>כֵּלִים</he>, constr. <cite ref=\"K00716\"><he>כְּלֵי</he></cite>. ",
+				"<cite ref=\"Mishnah Chagigah 3:1\">Ḥag. III, 1</cite> <he>כ׳ בתוך כ׳</he> vessels put into larger vessels. ",
+				"<cite ref=\"Mishnah Kelim 1:1\">Kel. I, 1</cite>. ",
+				"<cite ref=\"Mishnah Kelim 2:1\">Ib. II, 1</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>outfit, apparel, garment, tool, weapon</i>. <i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Ketubot 59b:9\">Keth. 59ᵇ</cite> <he>כ׳ פשתן</he> linen garments. ",
+				"<cite ref=\"Shabbat 114a:3\">Sabb. 114ᵃ</cite> <he>כ׳ לבנים</he> white garments; a. v. fr.—",
+				"<cite ref=\"Bereishit Rabbah 90:3\">Gen. R. s. 90</cite> (expl. ",
+				"<cite ref=\"Genesis 41:44\">Gen. XLI, 44</cite>) <he>כ׳ ידים</he> official badge of the hands (bracelets, rings &c.), <he>כ׳ רגלים</he> greaves &c.; (Ar. a. Rashi <cite ref=\"K00724\"><he>כלידרים</he></cite>, <cite ref=\"K00724\"><he>כלידרין</he></cite>, corrupt. of <he>כלי ידים</he>). ",
+				"<cite ref=\"Bereishit Rabbah 89:7\">Gen. R. s. 89</cite> <he>שאין עבד … כ׳ ידים</he> (some ed. <cite ref=\"K00724\"><he>כלידים</he></cite>, Ar. <cite ref=\"K00724\"><he>כלידרין</he></cite>; Yalk. ib. 147 <cite ref=\"K00697\"><he>כלודי</he></cite>, corr. acc.) that no servant was to hold office or wear rings &c. (v. Sm. Ant. s. v. Annulus).—<he>כלי זיין</he>, v. <cite ref=\"G00337\"><he>זַיִין</he></cite>.—",
+				"<cite ref=\"Mishnah Bava Metzia 9:13\">B. Mets. IX, 13</cite> <he>חייב משום שני כ׳</he> he is guilty of having seized two implements (the upper and the lower millstone). ",
+				"<cite ref=\"Mishnah Bava Metzia 9:13\">Ib.</cite> <he>שני כ׳</he> two objects of use (a mattress and a plough). ",
+				"<cite ref=\"Mishnah Bava Batra 5:2\">B. Bath. V, 2</cite> <he>כֵּלָיו</he> the outfit of the ass (saddle &c.); a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

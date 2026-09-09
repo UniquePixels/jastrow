@@ -1,0 +1,23 @@
+{
+	"id": "N01107",
+	"slug": "נצורא",
+	"headword": {
+		"text": "נָצוֹרָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 927,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>יצר</he>) <i>joiner’s frame, clasps</i> to keep glued objects in shape. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 44:13\">Targ. Is. XLIV, 13</cite> ed. Lag. (oth. ed. <he>נְצוֹרִין</he> pl.; Var. ed. Lag. <he>נצוריין</he>; ed. Ven. I a. Levita Var. <cite ref=\"N01134\"><he>נִצְמִין</he></cite>; h. text <he>מְחוּגָה</he>)."
+			]
+		}
+	]
+}

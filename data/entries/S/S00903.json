@@ -1,0 +1,39 @@
+{
+	"id": "S00903",
+	"slug": "קיטוף",
+	"headword": {
+		"text": "קִיטּוּף"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִטּ׳"
+		}
+	],
+	"page": {
+		"number": 1357,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00810\"><he>קָטַף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>plucking ears</i>, opp. to <he>קציר</he> cutting. Sifra K’dosh. Par. 1, ch. II; <cite ref=\"Jerusalem Talmud Peah 3:2:3\">Y. Peah III, 17ᶜ</cite> <he>לקט קצירך לא לקט ק׳</he> ‘the gleanings of thy harvest’ (<cite ref=\"Leviticus 19:19\">Lev. XIX, 19</cite>), but not the gleanings of plucking. ",
+			"units": [
+				"<cite ref=\"Pesachim 11a:9\">Pes. 11ᵃ</cite>; <cite ref=\"Menachot 68a:1\">Men. 68ᵃ</cite> <he>מתוך … אלא ע״י ק׳ וכ׳</he> because you allow him to take of the new crop only by plucking (forbidding regular harvesting before the ‘Omer is cut), he will be mindful (that he dare not eat of the produce before the second day of Passover); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>forming and smoothing the surface of dough</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 3:4:3\">Y. Pes. III, 30ᵇ</cite> top <he>גמרה … זה קִיטּוּפָהּ וכ׳</he> with the one woman her finishing means her kneading, with the next, her forming the cakes, with the third, her baking."
+			],
+			"label": "2"
+		}
+	]
+}

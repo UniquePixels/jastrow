@@ -1,0 +1,71 @@
+{
+	"id": "I00915",
+	"slug": "טשי",
+	"headword": {
+		"text": "טְשֵׁי"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְשָׁא"
+		}
+	],
+	"page": {
+		"number": 558,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"I00251\"><he>טוּשׁ</he> II</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to hide, protect; to reserve</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 27:5\">Targ. Ps. XXVII, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 2:1\">Targ. Prov. II, 1</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be hidden, lie in wait</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 56:7\">Targ. Ps. LVI, 7</cite> <he>יִטְשׁוּן בכמנא</he> (ed. Lag. <he>י׳ כמנא</he>; h. text <he>יצפינו</he>, K’ri <he>יצפונו</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 1:11\">Targ. Prov. I, 11</cite>; a. e.—",
+				"<cite ref=\"Taanit 24a:7\">Taan. 24ᵃ</cite> <he>טָשׁוּ מיניה</he> (<cite ref=\"E00218\"><he>הוו</he></cite>) they hid themselves before him. ",
+				"<cite ref=\"Taanit 29a:14\">Ib. 29ᵃ</cite> <he>טשא מינייהו</he> hid himself before the Romans. ",
+				"<cite ref=\"Avodah Zarah 70a:9\">Ab. Zar. 70ᵃ</cite> <he>כי היכי דטְשִׁינָא אנא אִיטְּשֵׁי וכ׳</he> as well as I hide myself here, an Israelite may have hidden himself &c.; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְטְשֵׁי", "אִיטְּשֵׁי"],
+			"senses": [
+				{
+					"gloss": "<i>to hide one’s self, to be hidden</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 28:28\">Targ. Prov. XXVIII, 28</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 27:5\">Ib. XXVII, 5</cite> <he>מִטַּשְׁיָא</he> hidden. ",
+						"<cite ref=\"Aramaic Targum to Psalms 83:4\">Targ. Ps. LXXXIII, 4</cite> <he>מִתְטְשִׁין</he> (some ed. <he>מִטַּטְשִׁין</he>).—",
+						"<cite ref=\"Avodah Zarah 70a:9\">Ab. Zar. 70ᵃ</cite>, v. supra."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אַטְשֵׁי"],
+			"senses": [
+				{
+					"gloss": "<i>to hide</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 25:2\">Targ. Prov. XXV, 2</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 26:15\">Ib. XXVI, 15</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"id": "P00823",
+	"slug": "עלם-6",
+	"headword": {
+		"text": "עָלַם",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲלַם"
+		},
+		{
+			"text": "עָלְמָא"
+		},
+		{
+			"text": "עַלְ׳"
+		}
+	],
+	"page": {
+		"number": 1084,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"P00266\"><he>עוֹלָם</he></cite>, <i>eternity, world</i> &c. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 9:16\">Targ. Gen. IX, 16</cite>. ",
+				"<cite ref=\"Onkelos Exodus 21:6\">Targ. O. Ex. XXI, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 61:7\">Targ. Ps. LXI, 7</cite>; a. v. fr.—",
+				"<cite ref=\"Rosh Hashanah 31a:8\">R. Hash. 31ᵃ</cite> <he>שיתא אלפי שני הוי ע׳ וכ׳</he> the world shall last six thousand years, and one thousand years it will be waste. ",
+				"<cite ref=\"Gittin 56b:10\">Gitt. 56ᵇ</cite>, v. <cite ref=\"H01807\"><he>חֲשֵׁב</he></cite>; a. v. fr.—Midr. Sam. ch. XXIV; Yalk. ib. 139 <he>ע׳ דשקר</he> the world of falsehood (this world); <cite ref=\"Vayikra Rabbah 26:9\">Lev. R. s. 26</cite> (some ed. <he>עולם</he>, h. form); <he>ע׳ דקושטא</he> the world of truth (the hereafter). ",
+				"<cite ref=\"Sotah 10b:5\">Sot. 10ᵇ</cite>, a. fr. <he>ע׳ דאתי</he> the world to come (= h. <he>עולם הבא</he>).—<he>בית ע׳</he> the house of eternity (euphem. for ‘the house of death’) <i>burial ground, cemetery</i>. ",
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 5</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 12:5\">Lev. R. s. 12</cite>, beg.; a. e.—",
+				"<cite ref=\"Kiddushin 80b:14\">Kidd. 80ᵇ</cite> <he>אינשי דע׳</he> common people (opp. to scholars).—<he>כל ע׳</he>, <he>כולי ע׳</he> (abbrev. <he>כ״ע</he>), v. <cite ref=\"K00262\"><he>כּוֹלָּא</he></cite>. ",
+				"<cite ref=\"Berakhot 36b:18\">Ber. 36ᵇ</cite> <he>כ״ע לא פליגי</he> all the authorities mentioned agree; a. v. fr.—בְּעַלְמָא <i>in a general way, merely</i>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 26:24\">Targ. Y. Lev. XXVI, 24</cite>; <cite ref=\"Targum Jonathan on Leviticus 26:28\">28</cite>.—",
+				"<cite ref=\"Shabbat 103b:12\">Sabb. 103ᵇ</cite>, v. <cite ref=\"B00084\"><he>בגלטורי</he></cite>. ",
+				"<cite ref=\"Shabbat 9b:2\">Ib. 9ᵇ</cite> <he>להזיע בע׳</he> merely to sweat (not to bathe); <he>לעיוני בע׳</he> merely to examine (not to do any labor); a. v. fr.—Pl. <cite ref=\"P00827\"><he>עָלְמִין</he></cite>, <he>עָלְמַיָּיא</he>; constr. <he>עָלְמֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 9:8\">Targ. Ps. IX, 8</cite>. ",
+				"<cite ref=\"Onkelos Exodus 15:18\">Targ. O. Ex. XV, 18</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Isaiah 42:11\">Targ. Is. XLII, 11</cite> <he>בתי עַלְמֵיהוֹן</he> <i>their graves</i> (v. supra)."
+			]
+		}
+	]
+}

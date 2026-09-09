@@ -1,0 +1,22 @@
+{
+	"id": "A00220",
+	"slug": "אברזין",
+	"headword": {
+		"text": "אֲבִרְזִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 9,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>בזא</he> II, v. <cite ref=\"B01218\"><he>בִּרְזָא</he> II</cite>; cmp. h. equiv. <he>עוּבְצָה</he>, <he>עוּבְצָא</he>) prop. <i>cutting, trimming</i>, hence <i>fur trimmed of its extremities</i> (<i>and pinked</i>), in gen. <i>carriage-robe, cover</i> [R. Hai Gaon declares our w. to be Persian, v. Ar. ed. Koh. s. v., a. Fl. to Levy Targ. Dict. II, 579ᵇ.] <cite ref=\"Bava Kamma 66b:15\">B. Kam. 66ᵇ</cite> <he>מעיקרא קרו וכ׳</he> (Ms. M. <he>אברזיד</he>) before its use was determined upon it was called <i>mishkha</i> (skin), and now (even before the trimming is done), it is called <i>ăbirzin</i> (fur, robe). V. <cite ref=\"S01129\"><he>קִיצּוּעַ</he></cite>.",
+			"units": []
+		}
+	]
+}

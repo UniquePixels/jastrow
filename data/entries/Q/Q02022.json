@@ -1,0 +1,188 @@
+{
+	"id": "Q02022",
+	"slug": "פרש-3",
+	"headword": {
+		"text": "פְּרַשׁ"
+	},
+	"page": {
+		"number": 1242,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q02021\">same</cite> (neut. verb) <i>to keep off, abstain</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 6:3\">Targ. Y. I Num. VI, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 6:2\">Ib. 2</cite> <he>יַפְרִישׁ</he>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 25:8\">Ib. XXV, 8</cite> [read:] <he>דהוה ליה למִיפְרַשׁ ולא פירש</he> (v. ",
+				"<cite ref=\"Sanhedrin 82b:2\">Snh. 82ᵇ</cite>, quot. in <cite ref=\"Q02021\">preced.</cite>); a. fr.—Part. <cite ref=\"Q01835\"><he>פָּרֵשׁ</he></cite>, <cite ref=\"Q01835\"><he>פָּרֵישׁ</he></cite>. Ib. XIX, 16; 18; a. fr.—",
+				"<cite ref=\"Chullin 45b:7\">Ḥull. 45ᵇ</cite> <he>חד פריש לליבא וכ׳</he> one artery branches off to the heart, the other to the lungs &c. ",
+				"<cite ref=\"Zevachim 73a:9\">Zeb. 73ᵃ</cite>, sq. <he>כל דפריש מרובא פריש</he> whatever comes out of a mixed multitude, is presumed to have come from the majority, i.e. has the legal status of the majority; <cite ref=\"Ketubot 15a:2\">Keth. 15ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cross</i> the ocean. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 6\">Gen. R. s. 6</cite> <he>בעא דיִפְרוֹשׁ</he>, v. infra. ",
+				"<cite ref=\"Kohelet Rabbah 3:6\">Koh. R. to III, 6</cite> <he>הוה אזיל פריש בימא</he> was about to go to sea; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to set aside, distinguish</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 4:34\">Targ. Y. Deut. IV, 34</cite>; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to explain</i>. Part. pass. <cite ref=\"Q01835\"><he>פָּרִישׁ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Chullin 52a:16\">Ḥull. 52ᵃ</cite> <he>ליבעי מיניה חדא דפ׳ לן תרתי</he> let him be asked one question by which both cases will be made clear to us; a. e."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פָּרֵישׁ"],
+			"senses": [
+				{
+					"gloss": " (neut. verb) <i>to depart, keep off</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 19:27\">Targ. Prov. XIX, 27</cite> (ed. Lag. a. oth. <i>Pe.</i>).—[<cite ref=\"Targum Jonathan on Numbers 25:8\">Targ. Y. Num. XXV, 8</cite> <he>פֵּירַשׁ</he> Hebraism, v. supra.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to go to sea</i>. Gen. R. l. c. <he>הוה מְפָרֵשׁ בימא</he> was about to undertake a sea voyage. Ib. <he>בעא … פָּרְשֵׁי</he> he wanted to go to sea; said the matron, do people go to sea at this season?; a. e.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to separate, divide, distinguish</i>. Targ. O. a. Y. II <cite ref=\"Deuteronomy 32:8\">Deut. XXXII, 8</cite> <he>בפָרָשׁוּתֵיה</he> (Y. I <he>באַפְרָ׳</he>, <i>Af.</i>); a. e.—Y. Ab. Zar. II, end, 42ᵃ <he>ידע אנא מְפָרְשָׁה בין וכ׳</he> I can tell the roe of clean fish from that of unclean fish.",
+					"units": [],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to express clearly, define</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 30:28\">Targ. O. Gen. XXX, 28</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 22:21\">Targ. O. Lev. XXII, 21</cite> (Y. <i>Af.</i>). Ib. XXIV, 11; 16; a. e.—Part. pass. <cite ref=\"M02253\"><he>מְפָרַשׁ</he></cite>. Targ. Y. II ib. XXIV, 11 <he>שמא מְפָרָשָׁא</he> (= h. <he>שם המפורש</he>, v. <cite ref=\"Q02021\">preced.</cite>; Y. I <i>Ithpe.</i>). ",
+						"<cite ref=\"Targum Jerusalem, Genesis 30:22\">Targ. Y. II, Gen. XXX, 22</cite>; a. e.—",
+						"<cite ref=\"Yoma 3b:4\">Yoma 3ᵇ</cite> <he>פָּרוּשֵׁי קא מְפָרַשׁ וכ׳</he> it is clearly indicated in the text that it is ‘from thine own’ (the high priest’s private property); a. e."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": "<i>to distinguish, make wonderful</i>.—Part. pass. as ab. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 13:18\">Targ. Jud. XIII, 18</cite> (h. text <cite ref=\"Q00931\"><he>פלאי</he></cite>)."
+					],
+					"label": "5"
+				},
+				{
+					"gloss": "<i>to explain, interpret</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 1:5\">Targ. O. Deut. I, 5</cite> (h. text <he>באר</he>).—",
+						"<cite ref=\"Bava Batra 121a:2\">B. Bath. 121ᵃ</cite> <he>גמיר … ולא ירע ליה לפָרוּשָׁהּ</he> he learned the Boraitha by heart, but knew not how to explain it. Y. Kil. I, 27ᵃ bot. <he>ופָרְשַׁנְתָּהּ תמן</he> and we explained it there (to <cite ref=\"Mishnah Bava Kamma 5:10\">B. Kam. V, 10</cite>); <cite ref=\"Mishnah Bava Kamma 5:10\">ib.</cite> <he>ופרשתנה</he> (corr. acc.). ",
+						"<cite ref=\"Eruvin 54a:1-23\">Erub. 54ᵃ</cite> <he>לא … עד דמְפָרְשַׁת וכ׳</he> thou shalt not rest on thy legs (sit down) until thou hast explained these verses to me. ",
+						"<cite ref=\"Rosh Hashanah 26a:18\">R. Hash. 26ᵃ</cite> <he>לפָרוּשֵׁי מאה וכ׳</he> it is important for the explanation of <i>meah ḳs’iṭah</i> (<cite ref=\"Genesis 33:19\">Gen. XXXIII, 19</cite>) &c.; a. fr."
+					],
+					"label": "6"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַפְרֵישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to separate, divide, make a distinction; to set aside, dedicate</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 1:4\">Targ. Gen. I, 4</cite>; <cite ref=\"Onkelos Genesis 1:6\">6</cite>. ",
+						"<cite ref=\"Onkelos Genesis 30:40\">Ib. XXX, 40</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 56:3\">Targ. Is. LVI, 3</cite>. ",
+						"<cite ref=\"Onkelos Numbers 18:24\">Targ. O. Num. XVIII, 24</cite> (Y. ed. Vien. <i>Pe.</i>); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (neut. verb) <i>to keep aloof, abstain</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 6:2\">Targ. Y. Num. VI, 2</cite> (v. supra)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to warn off, keep away</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 40b\">Sabb. 40ᵇ</cite> (<cite ref=\"L00000\"><he>ל</he></cite>)<he>אַפְרוּשֵׁי מאיסורא</he> to warn a person off from doing wrong."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to speak out, declare</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 6:2\">Targ. O. Num. VI, 2</cite> (ed. Berl. <i>Pa.</i>). ",
+						"<cite ref=\"Onkelos Leviticus 27:2\">Targ. Lev. XXVII, 2</cite> (O. ed. Berl. <i>Pa.</i>); a. e."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": "<i>to distinguish, make wonderful</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 28:59\">Targ. O. Deut. XXVIII, 59</cite>; a. e.—Part. pass. <cite ref=\"M02253\"><he>מַפְרַשׁ</he></cite>; f. <he>מַפְרְשָׁא</he>; pl. <he>מַפְרְשִׁין</he>; <he>מַפְרְשָׁן</he>. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 1:26\">Targ. II Sam. I, 26</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 29:14\">Targ. Is. XXIX, 14</cite>; a. e."
+					],
+					"label": "5"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְפָּרַשׁ", "אִיפָּ׳"],
+			"senses": [
+				{
+					"gloss": "; <i>Ithpe.</i> <cite ref=\"Q02022\"><he>אִתְפְּרַשׁ</he></cite>, <cite ref=\"Q02018\"><he>אִיפְּ׳</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be separated, to part, depart; to be set aside, dedicated</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 10:32\">Targ. Gen. X, 32</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 52:11\">Targ. Is. LII, 11</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 4:10\">Targ. Lev. IV, 10</cite> (O. ed. Berl. <i>Ittaf.</i>). ",
+						"<cite ref=\"Onkelos Exodus 29:27\">Targ. Ex. XXIX, 27</cite> (O. ed. Berl. <i>Ittaf.</i>); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be distinctly expressed, declared; to be explained, interpreted</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 1:17\">Targ. Num. I, 17</cite>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 24:11\">Targ. Y. Lev. XXIV, 11</cite> (v. supra); a. fr.—",
+						"<cite ref=\"Megillah 3a:9\">Meg. 3ᵃ</cite> <he>דמִיפָּרְשָׁן</he>, v. <cite ref=\"O01706\"><he>סְתַם</he></cite>. ",
+						"<cite ref=\"Bava Kamma 112b\">B. Kam. 112ᵇ</cite>, a. fr. <he>לדידי מִיפָּרְשָׁא לי מיניה וכ׳</he> to me it was explained by &c. Y. Keth. IV, 28ᵈ bot. <he>אתתבת ולא אִפָּרְשַׁת</he> a question was raised, but it was not made clear (solved); <he>אתתבת ואפ׳</he> it was raised and met."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתַּפְרַשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be set aside, dedicated; to be distinguished</i>. Targ. O., ed. Berl., <cite ref=\"Leviticus 4:10\">Lev. IV, 10</cite>; a. e., v. supra.—",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 3:18\">Targ. Y. I Gen. III, 18</cite> <he>יִתְאַפְרַשׁ</he> let there be a distinction."
+					]
+				}
+			],
+			"stem": "Ittaf."
+		}
+	]
+}

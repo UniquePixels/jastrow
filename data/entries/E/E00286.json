@@ -1,0 +1,23 @@
+{
+	"id": "E00286",
+	"slug": "הושן",
+	"headword": {
+		"text": "הוֹשֶׁן"
+	},
+	"page": {
+		"number": 341,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., only in pl. constr. <he>הוֹשְׁנֵי פשתן</he> <i>flax-stalks</i> in an intermediate station of preparation, contrad. to <he>אֲנִיצֵי</he> a. <he>הוֹצְנֵי</he> (v. <cite ref=\"A02240\"><he>אָנִיץ</he></cite> a. <cite ref=\"E00268\"><he>הוֹצֶן</he></cite>). ",
+			"units": [
+				"<cite ref=\"Sukkah 12b:6\">Succ. 12ᵇ</cite> <he>בה׳ פ׳ איני יודע</he> Ms. M. (v. Rabb. D. S. a. l.) if one covered the Succah with <i>hosh’neh</i> …, I do not know (whether or not the Succah is <i>kasher</i>). ",
+				"<cite ref=\"Sukkah 12b:6\">Ib.</cite> <he>וה׳ פשתן עצמן א״י מהן</he> Ms. M. (v. Rabb. D. S. a. l.) nor do I know what <i>hosh’ne</i> … are (in which stage they are called so)."
+			]
+		}
+	]
+}

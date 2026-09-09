@@ -1,0 +1,31 @@
+{
+	"id": "N00704",
+	"slug": "ניסוך-2",
+	"headword": {
+		"text": "נִיסּוּךְ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נִיסּוּכָא"
+		},
+		{
+			"text": "נִסּ׳"
+		}
+	],
+	"page": {
+		"number": 906,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00703\">same</cite>, <i>the act of libation</i>; (in Targ. Y. also) <i>the liquid used for libation</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 28:7\">Targ. Num. XXVIII, 7</cite>. ",
+				"<cite ref=\"Onkelos Numbers 4:7\">Ib. IV, 7</cite>; a. fr.—Pl. <he>נִיסּוּכִין</he>, <he>נִיסּוּכַיָּא</he>, <cite ref=\"N00703\"><he>נִסּ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Numbers 4:7\">Ib.</cite> O. some ed. ",
+				"<cite ref=\"Targum Jonathan on Numbers 15:13\">Targ. Y. ib. XV, 13</cite> (not <he>נְסוּכְיָיא</he>); a. fr.—V. <cite ref=\"N00950\"><he>נִסְכָּא</he> I</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,149 @@
+{
+	"id": "M01772",
+	"slug": "מני-5",
+	"headword": {
+		"text": "מני"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָנָה"
+		}
+	],
+	"page": {
+		"number": 799,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to divide, distribute</i>; <i>to count</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 9:7\">Bekh. IX, 7</cite> <he>ומוֹנֶה בשבט אחד וכ׳</he> (Bab. ed. 58ᵇ <he>ומונין א׳</he>) and he counts with the rod, one, two &c. Ib. <he>מְנָאָם רביצין</he> if he counted them while they were crouching. ",
+				"<cite ref=\"Shevuot 34a:22\">Shebu. 34ᵃ</cite> bot. <he>מָנֶה מָנִיתִי לך וכ׳</he> (not <he>מְנִיתִיךָ</he>, v. Rabb. D. S. a. l. note) I counted (delivered) to thee a Maneh (as a loan) in the presence &c.; <cite ref=\"Shevuot 34b:5\">ib.ᵇ</cite> <cite ref=\"Rosh Hashanah 12a:5\">R. Hash. 12ᵃ</cite> <he>חכמי ישראל מוֹנִין למבול וכ׳</he> the Jewish scholars count the dates of the flood in accordance with R. El. (beginning the year with Tishri), and the astronomical calendar in accordance with R. J. (beginning with Nisan), <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite>, beg. <he>אין מונין ללבנה וכ׳</he> we count by the moon (fix the date of the new month) only when seen after sunset. ",
+				"<cite ref=\"Sukkah 29a\">Succ. 29ᵃ</cite>, a. fr. <he>מונין ללבנה</he> regulate the seasons by the moon (have a lunar year). ",
+				"<cite ref=\"Menachot 65b:6\">Men. 65ᵇ</cite>, a. e. <he>מְנֵה ימים וכ׳</he> count the required number of days and proclaim (one day as) the New Moon Day. ",
+				"<cite ref=\"Mishnah Yoma 5:3\">Yoma V, 3</cite>; a. fr.—Part. pass. <he>מָנוּי</he>; f. <he>מְנוּיָה</he>; pl. <he>מְנוּיִים</he>, <he>מְנוּיִין</he>, <he>מְנוּיִן</he>; <he>מְנוּיוֹת</he> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>counted</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 8b\">Taan. 8ᵇ</cite> <he>דבר המ׳</he> that which has been counted (is known by number). ",
+						"<cite ref=\"Mishnah Bekhorot 9:7\">Bekh. IX, 7</cite> <he>אחד מן המ׳</he> one of the sheep already counted.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>classified</i>; (<i>pl.</i>) <i>class</i>. ",
+					"units": [
+						"<cite ref=\"Chagigah 17b:7\">Ḥag. 17ᵇ</cite> <he>מה חדש למְנוּיָיו אף עצרת למְנוּיָיו</he> (<cite ref=\"P01136\"><he>עצרת</he></cite> = <he>שבוע של ע׳</he>) as the New Moon festival belongs to its class (of days), so does the Pentecost (which is determined by counting weeks) belong to its class (of weeks), i.e. the pilgrim’s sacrifice (<cite ref=\"H00148\"><he>חגיגה</he></cite>) may be offered during the entire eighth week from Passover; <cite ref=\"Rosh Hashanah 5a:4\">R. Hash. 5ᵃ</cite> <he>למְנוּיָו</he>.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " (v. <i>Nif.</i>) <i>entered for a share in the sacrifice</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Zevachim 5:8\">Zeb. V, 8</cite> <he>אינו נאכל אלא למנויו</he> can be partaken of only by those registered for it. ",
+						"<cite ref=\"Mishnah Pesachim 5:3\">Pes. V, 3</cite> (<cite ref=\"Pesachim 61a:5\">61ᵃ</cite>) <he>שחטו שלא לאוכליו ושלא למנוייו</he> (Bab. ed. <he>למנויו</he>) if while slaughtering he had in mind such as were unable to partake of it (sick persons &c.) or such as had not been registered for it. Ib. 61ᵃ bot. <he>איתקש אוכלין למנויין</he> (Ms. M. <he>אוכליו למנוייו</he>) the partakers (to be held in mind) are analogous to the registered. Ib. 70ᵃ <he>אינה</he> … <he>למְנוּיֶהָ</he> Ms. M. (ed. incorr. <he>למנוייו</he>, <he>למנויו</he>) it (the pilgrim’s sacrifice) can only be partaken of by those registered for it; a. fr."
+					],
+					"label": "c"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִמְנֶה", "נִי׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be counted</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 1:12\">Num. R. s. 1</cite> <he>אינן נִמְנִים ולא נמדדין</he> are neither numbered nor measured. ",
+						"<cite ref=\"Beitzah 3b\">Bets. 3ᵇ</cite>, a. e. <he>את שדרכו לִימָּנוֹת</he>, v. <cite ref=\"A03395\"><he>אֵת</he></cite>. ",
+						"<cite ref=\"Mishnah Gittin 5:6\">Gitt. V, 6</cite> <he>נִמְנוּ</he> (usu. <he>נמנו וגמרו</he>) they (their votes) were counted, they resolved, v. <cite ref=\"C01063\"><he>גָּמַר</he> II</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be counted on for a share in the Passover lamb, to be registered</i> (<cite ref=\"Exodus 12:4\">Ex. XII, 4</cite>). ",
+					"units": [
+						"<cite ref=\"Mishnah Pesachim 8:3\">Pes. VIII, 3</cite> <he>לעולם נִימְנִין עליו וכ׳</he> persons may continually be entered for a share in it, as long as there remains for each &c. ",
+						"<cite ref=\"Mishnah Pesachim 8:3\">Ib.</cite> <he>נימנין ומושכין וכ׳</he> they may be entered and withdraw again. Ib. 89ᵃ <he>אבל לִימָּנוֹת</he> but as for registering (additional names). Tosef. ib. VII, 7 <he>רצו להמשך ולהִמָּנוֹת וכ׳</he> (ed. Zuck. incorr.) if some of them wish to withdraw and have others entered on their share &c.; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be specified</i>. Y. Taan. IV, 68ᵇ (ref. to Mish. ",
+					"units": [
+						"<cite ref=\"Mishnah Taanit 4:5\">ib. IV, 5</cite>) <he>מה ראה … להִימָּנוֹת</he> what reason was there for that specification of the time when each family of priests and the people had to offer wood?; Y. Shek. IV, beg. 47ᵈ; Y. Meg. I, 70ᶜ top."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִמְנָה", "הִי׳"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to be entered; to add to the number of sharers; to transmit one’s share to another person</i>. Y. Pes. VIII, 36ᵃ top <he>הי׳ אותו על חנם</he> he gave him a share gratuitously. Tosef. ib. l. c. <he>בני חבורה שרצו להַמְנוֹת וכ׳</he> (ed. Zuck. <he>לַמְנוֹת</he>) members of a party who desire to give others a share in their own portion. Ib. <he>המַמְנֶה אחרים על חלקו</he> (ed. Zuck. <he>פסחו</he>) he who assigns to others a share in his portion; a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּמְנֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to be added to the number; to be entered as a member of a group or of a family</i>. Tosef. ib. VIII, 3 <he>ה׳ על אחד מהם</he> if he (the orphan) has been entered as his guest by one of the guardians. Ib. 6 <he>בני חבורה שהוּמְנוּ וכ׳</he> ed. Zuck. (oth. ed. <he>שנמנו</he>) members of a group who have been entered (in a body) in addition to the original participants; a. e.",
+					"units": []
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["מִנָּה", "מִי׳"],
+			"senses": [
+				{
+					"gloss": "<i>to appoint, elect</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Gittin 5:4\">Gitt. V, 4</cite> <he>שמי׳ להן אביהן וכ׳</he> for whom their father had appointed an executor. ",
+						"<cite ref=\"Mishnah Gittin 5:4\">Ib.</cite> <he>שמִינָּהוּ אבי וכ׳</he> whom the father … has appointed. ",
+						"<cite ref=\"Taanit 10b:2\">Taan. 10ᵇ</cite> <he>כל שראוי למַנּוֹתוֹ וכ׳</he> who is worthy to be elected manager &c.; a. fr.—Part. pass. <cite ref=\"M01653\"><he>מְמוּנֶּה</he></cite>; pl. <he>מְמוּנִּים</he>. ",
+						"<cite ref=\"Sotah 42a:14\">Sot. 42ᵃ</cite> <he>למה סגן ממ׳</he> for what purpose is a deputy high priest appointed?; <cite ref=\"Yoma 39a:14\">Yoma 39ᵃ</cite> <he>מימינו</he> ed. (corr. acc.; v. Rabb. D. S. a. l. note); a. fr.—",
+						"<cite ref=\"Horayot 13b\">Hor. 13ᵇ</cite> <he>שאביהם ממונים פרנס וכ׳</he> Ms. M. (ed. <he>שממ׳ אביהם</he>, = <he>מן הממונים</he>) whose father is of those worthy to be elected manager (v. Taan. l. c.).—V. <cite ref=\"M01653\"><he>מְמוּנֶּה</he></cite>.—Esp. <i>to ordain as teacher and judge</i>. Y. Snh. I, 19ᵃ bot. <he>ב״ד שמי׳ שלא וכ׳</he> a court that ordained without the consent of the Nasi. ",
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>היה כל אחד מְמַנֶּה וכ׳</he> each teacher used to ordain his own pupils; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְמַנֶּה"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְמַנֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be appointed, designated as deputy, to be ordained</i>. Sifra Aḥăré Par. 5, ch. VIII <he>לרבות כהן אחר המִתְמַנֶּה</he> to imply the other priest that is designated as a deputy. Y. Bicc. III, 65ᵈ top <he>חכם שנ׳ וכ׳</he> when a scholar is ordained, his sins are forgiven. ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>זה שהוא מתמ׳ בכסף וכ׳</he> (not <he>מתמני</he>) before him who has been ordained for money, we must not stand up, nor do we call him rabbi, and the cloak upon him is like the cover of ass. ",
+						"<cite ref=\"Yoma 22b:8\">Yoma 22ᵇ</cite>. Y. Shek. V, 48ᵈ bot. <he>מאי אם זה שנ׳ על … אתם שאתם מִתְמַנִּין וכ׳</he> if this one appointed superintendent of wicks, was privileged to be counted among the great of the generation, how much more you who are to be appointed over the preservation of lives (as directors of charities). ",
+						"<cite ref=\"Mishnah Rosh Hashanah 2:9\">R. Hash. II, 9</cite> (<cite ref=\"Rosh Hashanah 25a:5\">25ᵃ</cite>) <he>שנִתְמַנּוּ ב״ד על וכ׳</he> Ms. O. (ed. <he>שעמדו</he>, v. Rabb. D. S. a. l. note 90) who have been ordained as a court for all Israel; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (of things) <i>to be assigned</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Sotah 7:20\">Tosef. Sot. VII, 20</cite> <he>נִתְמַנָּה לאדם פרנסה וכ׳</he> if a livelihood has been assigned to a man (by Providence, i.e. if he has succeeded in establishing a livelihood), he must buy a house; <he>חזר נ׳ לו יקח וכ׳</he> (v. ed. Zuckerm. note) if more has been provided for him, he must buy a field … and then marry a wife."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

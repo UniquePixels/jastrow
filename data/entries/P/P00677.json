@@ -1,0 +1,29 @@
+{
+	"id": "P00677",
+	"slug": "עירברבין",
+	"headword": {
+		"text": "עֵירַבְרְבִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִירַבְרוּבִין"
+		}
+	],
+	"page": {
+		"number": 1075,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (reduplic. of <cite ref=\"P01252\"><he>עֲרַב</he> I</cite>) <i>mixed multitudes</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 11:4\">Targ. O. Num. XI, 4</cite> <he>עירברב׳</he> ed. Berl. (oth. ed. <cite ref=\"P00681\"><he>עֲרַ׳</he></cite>, <cite ref=\"P00681\"><he>עָרַ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:12\">Targ. Cant. I, 12</cite> <he>עירברו׳</he> ed. Lag. (oth. ed. <cite ref=\"P00681\"><he>עִרַ׳</he></cite>)."
+			]
+		}
+	]
+}

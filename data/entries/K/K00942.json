@@ -1,0 +1,28 @@
+{
+	"id": "K00942",
+	"slug": "כסלא-1",
+	"headword": {
+		"text": "כִּסְלָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 654,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00941\">same</cite><i>ridge</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 6a:11\">Ber. 6ᵃ</cite> (Ar. <he>כְּסָלֵי</he> pl.), v. <cite ref=\"A00542\"><he>אוּגְיָא</he></cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>loin</i>.—Pl. <cite ref=\"K00948\"><he>כְּסָלִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 38:8\">Targ. Ps. XXXVIII, 8</cite> <he>כְּסָלַי</he> (Regia <cite ref=\"K01014\"><he>כְּפֵלַי</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

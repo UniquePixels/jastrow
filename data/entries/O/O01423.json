@@ -1,0 +1,51 @@
+{
+	"id": "O01423",
+	"slug": "ספר-9",
+	"headword": {
+		"text": "סָפַר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סַפְרָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1018,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"O00403\"><he>סוֹפֵר</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>scribe, writer of documents; copyist</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 36:20\">Targ. Jer. XXXVI, 20</cite>, sq.; a. fr.—",
+				"<cite ref=\"Avodah Zarah 9a:4\">Ab. Zar. 9ᵃ</cite>, v. <cite ref=\"B01090\"><he>בַּצִּירָא</he></cite>, <cite ref=\"Avodah Zarah 10a:1\">Ib. 10ᵃ</cite>, v. <cite ref=\"D00335\"><he>דַּוְקָנָא</he></cite>. ",
+				"<cite ref=\"Chullin 64b:7\">Ḥull. 64ᵇ</cite>, sq. <he>פסיק להו ס׳ וכ׳</he> the copyist (of the Scriptures) divides them into two words. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 2:5:2\">Y. Succ. II, 53ᵃ</cite> top <he>סַפְרָה דגופתא</he> the scribe of Gufta; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>scholar</i>, <i>teacher</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 3:2\">Targ. Is. III, 2</cite> (h. text <he>נביא</he>); <cite ref=\"Targum Jonathan on Isaiah 9:14\">ib. IX, 14</cite>. ",
+				"<cite ref=\"Onkelos Genesis 49:10\">Targ. O. Gen. XLIX, 10</cite> (h. text <he>מחקק</he>); a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 70:19\">Gen. R. s. 70</cite>, end <he>אית ס׳ דלית וכ׳</he> is there a teacher that has no pupils?, i.e. I (Laban) learned trickery from you (Jacob).—Esp. <i>Bible teacher</i>. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 1:7:3\">Y. Ḥag. I, 76ᶜ</cite>, a. e., v. <cite ref=\"M03092\"><he>מַתְנְיָין</he></cite>; a. fr.—<he>ס׳ מתא</he>, v. <cite ref=\"O00403\"><he>סוֹפֵר</he></cite>.—Pl. <he>סַפְרַיָּא</he>, <he>סַפְרַיָּיא</he>, <he>סַפְרִין</he>, <he>סַפְרֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 49:10\">Targ. Y. I Gen. XLIX, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 10:15\">Targ. I Sam. X, 15</cite> (h. text <he>נביאים</he>); a. fr.—",
+				"<cite ref=\"Mishnah Sotah 9:5\">Sot. IX, 5</cite> (<cite ref=\"Sotah 49a\">49ᵃ</cite>), v. <cite ref=\"H00918\"><he>חַכִּימָא</he></cite>. ",
+				"<cite ref=\"Midrash Tehillim 91:3\">Midr. Till. to Ps. XCI, 6</cite> <he>מפקיד לס׳ וכ׳</he> ordered the school teachers to let the children go free (during the summer) from the fourth to the ninth hour of the day; <cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 3</cite>; <cite ref=\"Bamidbar Rabbah 12:3\">Num. R. s. 12</cite> <he>לסַפְרַיָּה</he>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

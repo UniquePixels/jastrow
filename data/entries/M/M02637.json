@@ -1,0 +1,31 @@
+{
+	"id": "M02637",
+	"slug": "מרחק-2",
+	"headword": {
+		"text": "מְרָחַק"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְרַחֲקָא"
+		}
+	],
+	"page": {
+		"number": 841,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00538\"><he>רְחַק</he></cite>) <i>abominable, unclean</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 15:16\">Targ. Job XV, 16</cite> (h. text <he>נתעב</he>). ",
+				"<cite ref=\"Onkelos Leviticus 7:18\">Targ. O. Lev. VII, 18</cite> (h. text <he>פגול</he>). ",
+				"<cite ref=\"Onkelos Deuteronomy 7:26\">Targ. O. Deut. VII, 26</cite> <he>דמ׳</he> that which is abominable (cmp. <cite ref=\"D00890\"><he>דִּמְחַמְרָא</he></cite>). ",
+				"<cite ref=\"Onkelos Leviticus 20:21\">Targ. Lev. XX, 21</cite> (ed. Berl. <he>מְרָחַקָא</he>; h. text <he>נדה</he>); a. fr.—Pl. <he>מְרַחֲקִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 24:4\">Targ. Y. Deut. XXIV, 4</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "C00535",
+	"slug": "גזורי",
+	"headword": {
+		"text": "גְּזוֹרִי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוֹזְרָיָא"
+		}
+	],
+	"page": {
+		"number": 229,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>of Gezer</i> (?), v. <cite ref=\"C00533\"><he>גְּזוֹרָאָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 1:6:5\">Y. Meg. I, 71ᵃ</cite> top <he>ר׳ יודן גזו׳</he>. Y. R. Hash. III, end, 59ᵃ <he>ר׳ יודה גוז׳</he>. [Cmp. <cite ref=\"C00352\"><he>גּוֹזֵר</he></cite>.]"
+			]
+		}
+	]
+}

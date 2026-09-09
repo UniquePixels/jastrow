@@ -1,0 +1,23 @@
+{
+	"id": "U01102",
+	"slug": "שית-3",
+	"headword": {
+		"text": "שִׁית",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1570,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>wild fig.—Pl</i>. <cite ref=\"U00803\"><he>שִׁיתִין</he></cite> (or <he>שִׁיתִּין</he>). ",
+			"units": [
+				"<cite ref=\"Mishnah Demai 1:1\">Dem. I, 1</cite>; <cite ref=\"Tosefta Demai 1:1\">Tosef. ib. I, 1</cite>; <cite ref=\"Eruvin 18a\">Erub. 18ᵃ</cite>; <cite ref=\"Berakhot 40b:22\">Ber. 40ᵇ</cite> (expl. <he>מין תאנים</he>)."
+			]
+		}
+	]
+}

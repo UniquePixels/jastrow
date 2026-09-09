@@ -1,0 +1,41 @@
+{
+	"id": "O00866",
+	"slug": "סיתות",
+	"headword": {
+		"text": "סִיתּוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִתּ׳"
+		}
+	],
+	"page": {
+		"number": 988,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01719\"><he>סָתַת</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>chiselling, cutting</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 3:4:5\">Y. Shebi. III, end, 34ᵈ</cite> <he>צא חצי טפח לס׳ וכ׳</he> deduct half a handbreadth for chiselling on one side &c. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 9:1:4\">Y. Sabb. IX, 11ᵈ</cite> bot. <he>סִיתּוּתָן של אבנים וכ׳</he> the chiselling (smoothing) of stones is the finishing touch on them; <cite ref=\"Jerusalem Talmud Avodah Zarah 3:6:4\">Y. Ab. Zar. III, 43ᵇ</cite> top <he>סתיתן</he> (read <he>סתו׳</he>). Ib. IV, 43ᵈ bot. <he>על כל ס׳ וס׳</he> at every stroke by which he breaks the stone loose in the quarry; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>chip</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 10:5:2\">Y. B. Mets. X, end, 12ᶜ</cite> <he>והוזק בין בס׳ וכ׳</he> and a person was hurt either by a chip or by the stone itself. ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 10:5:2\">Ib.</cite> [read:] <he>אחר שמסרה הסתת לסבל והוזק בס׳ וכ׳</he> if a person was hurt after the stone-cutter had delivered it to the carrier, if by a chip, the cutter is responsible &c."
+			],
+			"label": "2"
+		}
+	]
+}

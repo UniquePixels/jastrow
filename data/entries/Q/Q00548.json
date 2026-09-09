@@ -1,0 +1,122 @@
+{
+	"id": "Q00548",
+	"slug": "פטר-2",
+	"headword": {
+		"text": "פְּטַר"
+	},
+	"page": {
+		"number": 1157,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00547\">same</cite>, <i>to free, dismiss, let go; to divorce</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 43:14\">Targ. Gen. XLIII, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 5:2\">Targ. Y. Num. V, 2</cite>, sq. ",
+				"<cite ref=\"Onkelos Deuteronomy 24:1\">Targ. O. Deut. XXIV, 1</cite>; a. fr.—",
+				"<cite ref=\"Bekhorot 4a:10\">Bekh. 4ᵃ</cite> <he>אינהו פַּטְרֵי אדם אדם פטר בהמה בהמה פטרי</he> they (the Levites) released (the firstborn Israelites) by substituting man for man, but the firstborn beasts were redeemed through their beasts.—V. <cite ref=\"Q00523\"><he>פַּטִּיר</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּטֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q00547\">same</cite>, esp. <i>to divorce</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 7:26\">Targ. Koh. VII, 26</cite> <he>יְפַטֵּיר</he> (ed. Vien. <he>יַפְטִיר</he> <i>Af.</i>).—",
+						"<cite ref=\"Gittin 85b:15\">Gitt. 85ᵇ</cite> <he>היך פלני … פַּטַּר ותריך וכי</he> (or <cite ref=\"Q00548\"><he>פְּטַר</he></cite>) how N. N. divorced and sent away N. N. his wife &c."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַפְטַר"],
+			"senses": [
+				{
+					"gloss": "<i>to dismiss</i>. Targ. Koh. l. c., v. supra.—",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> <he>דיהוון מַפְטִירִין טלייא וכ׳</he> that they should dismiss the school children at the fourth hour of the day (during the summer heat); <cite ref=\"Eichah Rabbah 1:29\">Lam. R. to I, 3</cite> <he>מפטרין רב טלאי</he> (corr. acc.)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to deliver a funeral address</i>. Y. Ber. II, 5ᶜ top <he>על׳ … וא׳ עילוי וכ׳</he> R. Z. came in, and spoke of him (as follows) &c. Ib.ᵇ bot. <he>ואיפטר</he> (corr. acc.). ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 5:11:3\">Koh. R. to V, 11</cite> <he>עול ואַפְטוֹר עלוי</he> go and deliver the address over him. ",
+						"<cite ref=\"Kohelet Rabbah 5:11\">Ib.</cite> <he>א׳ עלוי הדין פסוקא</he> he started his address with this verse &c.; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to take leave</i>. Tanḥ. ",
+					"units": [
+						"<cite ref=\"Genesis 13\">B’resh. 13</cite> <he>אַפְטְרוּ מיניה באורתא</he> they took leave of him in the evening; <he>בצפרא אתו וקא מַפְטְרֵי מיניה</he> in the morning they came and again took leave of him; <he>מי לא אַפְטְרִיתוּ קמאי מאתמול</he> did you not take leave of me last night? <cite ref=\"Eruvin 64a:10\">Erub. 64ᵃ</cite> (Ms. M. <cite ref=\"M01266\"><he>מִיפַּטְרֵי</he></cite> <i>Ithpe.</i>) were taking leave of one another; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to read the Hafṭarah</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 31b:2\">Meg. 31ᵇ</cite> <he>מאי מַפְטִירִינָן</he> what do we read as Hafṭarah?; <cite ref=\"Megillah 31a:14\">ib.ᵃ</cite> <he>אַפְטוּרֵי מאי מפטירינן</he> (not <he>מפטירין</he>). ",
+						"<cite ref=\"Megillah 30b:7\">Ib. 30ᵇ</cite> <he>קרו ומַפְטְרֵי</he> (not <he>קרא</he>) they read from the Law and recited the Hafṭarah; a. fr.—",
+						"<cite ref=\"Berakhot 53b:30\">Ber. 53ᵇ</cite> <he>מפטרייהו</he>, v. <cite ref=\"M02209\"><he>מִפְטָרָא</he></cite>."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְפַּטַּר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְפְּטַר", "אִיפְּטַר"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"A01567\"><he>אִפְּ׳</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to escape</i> (a thrust), <i>slip away</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 19:10\">Targ. I Sam. XIX, 10</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be divorced</i>, v. <cite ref=\"M02210\"><he>מִפְטְרָא</he></cite>.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be sent off, be escorted</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 44:3\">Targ. Gen. XLIV, 3</cite>.—Esp. <i>to be escorted to the burying place, be buried</i>. ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 7:1\">Targ. Koh. VII, 1</cite>.—",
+						"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"N00468\"><he>נח</he></cite> (<cite ref=\"T00152\"><he>רבתי</he></cite>) <he>נפשיה וא׳ לבית עלמין</he> he died and was carried to the burying place; a. e."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to take leave, part</i>. Erub. l. c., v. supra.",
+					"units": [],
+					"label": "4"
+				},
+				{
+					"gloss": "<i>to be exempted</i>. ",
+					"units": [
+						"<cite ref=\"Bekhorot 4a:10\">Bekh. 4ᵃ</cite> <he>אפי׳ מבכור בהמה נמי נִיפַּטְרוּ</he> let them also be exempt from consecrating the firstborn of cattle; a. e."
+					],
+					"label": "5"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

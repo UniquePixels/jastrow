@@ -1,0 +1,39 @@
+{
+	"id": "C01139",
+	"slug": "גניז",
+	"headword": {
+		"text": "גְּנִיז"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּנִיזָא"
+		}
+	],
+	"page": {
+		"number": 259,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "Part. pass. of ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " Part. pass. of <cite ref=\"C01121\"><he>גְּנַז</he></cite>.",
+					"units": [],
+					"label": "1"
+				}
+			]
+		},
+		{
+			"gloss": " = <cite ref=\"C01123\"><he>גִּנְזָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

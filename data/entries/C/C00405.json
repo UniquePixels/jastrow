@@ -1,0 +1,23 @@
+{
+	"id": "C00405",
+	"slug": "גולנית",
+	"headword": {
+		"text": "גּוֹלָנִית",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 222,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C00404\">preced.</cite>) <i>a coin</i> named after <i>Golan</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ma'aser Sheni 4:13\">Tosef. Maas. Sh. IV, 13</cite> Var. (ed. Zuck. <he>נולגית</he>)."
+			]
+		}
+	]
+}

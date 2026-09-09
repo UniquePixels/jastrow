@@ -1,0 +1,34 @@
+{
+	"id": "R00053",
+	"slug": "צבע-1",
+	"headword": {
+		"text": "צָבַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1259,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"R00031\"><he>צָבַט</he></cite>) <i>to seize, handle</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 22b:16\">Ḥag. 22ᵇ</cite> <he>שנקיי … צוֹבְעִין</he> ed., v. <cite ref=\"R00031\"><he>צָבַט</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִצְבִּיעַ"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"A02852\"><he>אֶצְבַּע</he></cite>) <i>to raise one or more fingers</i> for the casting of lots. ",
+					"units": [
+						"<cite ref=\"Mishnah Yoma 2:1\">Yoma II, 1</cite> <he>הממונה … הַצְבִּיעוּ</he> the superintending priest said to them, raise your fingers; <cite ref=\"Tamid 28a\">Tam. 28ᵃ</cite>; Y. Yoma II, 39ᵈ top, expl. <he>הוציאו אצבע</he>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

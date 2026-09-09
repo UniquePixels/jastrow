@@ -1,0 +1,27 @@
+{
+	"id": "S00508",
+	"slug": "קופיץ",
+	"headword": {
+		"text": "קוּפִּיץ"
+	},
+	"page": {
+		"number": 1338,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(ch.  form) (<cite ref=\"S01765\"><he>קְפַץ</he></cite>; cmp. <cite ref=\"S01742\"><he>קָפִיץ</he></cite>, a. <cite ref=\"S01766\"><he>קֶפֶץ</he></cite>) [<i>curved cutting tool,</i>] <i>hatchet</i> or <i>bill</i> for chopping bones. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 21:4\">Targ. Y. Deut. XXI, 4</cite> (ed. Vien. <cite ref=\"S00508\"><he>קוּפִיץ</he></cite>).—",
+				"<cite ref=\"Mishnah Beitzah 4:3\">Bets. IV, 3</cite> <he>אין מבקעין … אלא בק׳</he> you must not split wood (on the Holy Day for immediate use) with an axe …, but only with the butcher’s hatchet. ",
+				"<cite ref=\"Mishnah Beitzah 3:6\">Ib. III, 6</cite> <he>כנגד הק׳</he> by putting on the scale a hatchet (instead of the commercial weights); Y. ib. 62ᵃ bot. <cite ref=\"S00507\"><he>קופיס</he></cite>. ",
+				"<cite ref=\"Mishnah Sotah 9:5\">Sot. IX, 5</cite>, v. <cite ref=\"P01426\"><he>עָרַף</he></cite>. ",
+				"<cite ref=\"Pesachim 70a:17\">Pes. 70ᵃ</cite> <he>ק׳ קשורה וכ׳</he> (<i>fem.</i>) the hatchet tied to the slaughtering knife; a. fr.—",
+				"<cite ref=\"Tosefta Bekhorot 1:17\">Tosef. Bekh. I, 17</cite> <he>עורפו בקוּפָּץ וכ׳</he> (Var. <he>בקֻפִּיץ</he>) he breaks its neck with a hatchet from behind."
+			]
+		}
+	]
+}

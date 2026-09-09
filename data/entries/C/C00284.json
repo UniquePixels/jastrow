@@ -1,0 +1,22 @@
+{
+	"id": "C00284",
+	"slug": "גובלא",
+	"headword": {
+		"text": "גּוּבְלָא"
+	},
+	"page": {
+		"number": 217,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גבל</he>; v. <cite ref=\"C00087\"><he>גְּבִיל</he></cite>) <i>a thick dough-like mass</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 38a:1\">Ber. 38ᵃ</cite> <he>ג׳ בעלמא הוא</he> it is a mere thick mass (no bread)."
+			]
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "M00379",
+	"slug": "מהר-1",
+	"headword": {
+		"text": "מָהַר"
+	},
+	"page": {
+		"number": 737,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"M00602\"><he>מוּר</he></cite>)<i>to exchange, buy</i>. Denom. <cite ref=\"M00431\"><he>מוֹהַר</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מִהֵר"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"H01098\"><he>חָלַף</he></cite>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to hurry, be speedy</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 97a:6\">Sabb. 97ᵃ</cite> <he>מְמַהֶרֶת לבוא וכ׳</he> comes quicker than &c. ",
+						"<cite ref=\"Bava Kamma 93a\">B. Kam. 93ᵃ</cite> <he>מְמַהֲרִין לצועק וכ׳</he> he who cries for revenge will sooner be punished than he who is cried against. ",
+						"<cite ref=\"Sifrei Devarim 277:1\">Sifré Deut. 277</cite> <he>מְמַהֵר אני ליפרע ע״י עני</he> I (the Lord) will sooner take revenge when a poor man is wronged than when a rich man is; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to expedite</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 31b:10\">Kidd. 31ᵇ</cite> <he>מַהֲרוּנִי</he> expedite me (on my journey)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

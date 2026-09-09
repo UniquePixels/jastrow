@@ -1,0 +1,24 @@
+{
+	"id": "N01344",
+	"slug": "נשקי",
+	"headword": {
+		"text": "נַשְׁקִי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 942,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01343\">preced.</cite> wds.) <i>kiss</i> (of the foot), a form of <i>taking possession of a slave</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 43b:10\">Gitt. 43ᵇ</cite> <he>מאי נמוסו … נ׳</he> what is meant by the gentile’s doing to the slave his <i>nomos</i> (v. <cite ref=\"A00178\"><he>נִימוֹס</he></cite>)? (Answer.) <he>נ׳</he>. ",
+				"<cite ref=\"Gittin 43b:12\">Ib.</cite> <he>שדה בת נ׳ הוא</he> can a field be taken possession of by <i>nashḳi?</i>—[Ar. <i>armor</i>, Rashi <i>seal</i>, suspended from the slave’s neck]."
+			]
+		}
+	]
+}

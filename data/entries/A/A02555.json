@@ -1,0 +1,27 @@
+{
+	"id": "A02555",
+	"slug": "אסרדיוט",
+	"headword": {
+		"text": "אִסְרַדְיוֹט"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִי׳"
+		}
+	],
+	"page": {
+		"number": 98,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"A02416\"><he>אִסְטְרַטְיוֹט</he></cite> (cmp. stradiot, D. C. s. v. στρατιώτης) <i>Roman officer</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 11:1:1\">Koh. R. to XI, 1</cite>.  v. <cite ref=\"O01540\"><he>סְרַדְיוֹט</he></cite>."
+			]
+		}
+	]
+}

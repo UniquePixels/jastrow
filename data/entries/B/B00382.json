@@ -1,0 +1,32 @@
+{
+	"id": "B00382",
+	"slug": "בורסי-1",
+	"headword": {
+		"text": "בּוּרְסִי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "ברסי"
+		}
+	],
+	"page": {
+		"number": 150,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (βυρσεύς) <i>tanner</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 82a\">Kidd. 82ᵃ</cite> (Ar. <cite ref=\"B00382\"><he>ברסי</he></cite>, ed. <cite ref=\"B00387\"><he>בורסקי</he></cite> q. v.) read: <he>הגרע והבלן והב׳ אין וכ׳</he> (v. Tosef. ib. V, 14; Kes. Mish. to Maim. M’lachim I, 6). ",
+				"<cite ref=\"Ketubot 77a:9\">Keth. 77ᵃ</cite> <he>ב׳ גדול</he> a tanner on a large scale, <he>ב׳ קטון</he> on a small scale (who collects the excrements himself). ",
+				"<cite ref=\"Tosefta Kiddushin 2:2\">Tosef. Kidd. II, 2</cite>; <cite ref=\"Tosefta Kiddushin 2:4\">4</cite> <cite ref=\"B00387\"><he>בורסקי</he></cite> ed. Zuck. (Var. <he>בורסי</he>). ",
+				"<cite ref=\"Pesachim 65a:3\">Pes. 65ᵃ</cite>; <cite ref=\"Kiddushin 82b\">Kidd. 82ᵇ</cite>; a. fr.—Pl. <he>בּוּרְסִיִּים</he>. ",
+				"<cite ref=\"Sukkah 51b\">Succ. 51ᵇ</cite> Ms. M. (ed. <he>טַרְסִיִּים</he>)."
+			]
+		}
+	]
+}

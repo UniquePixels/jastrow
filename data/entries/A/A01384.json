@@ -1,0 +1,22 @@
+{
+	"id": "A01384",
+	"slug": "אינייא",
+	"headword": {
+		"text": "אִינְיָיא"
+	},
+	"page": {
+		"number": 52,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (cmp. <cite ref=\"A01382\"><he>אִינִי</he></cite>) <i>Inya</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 1:5:3\">Y. Git. I, 43ᵈ</cite> (Y. B. Bath. 16ᶜ <he>חייה</he>). V. <cite ref=\"A01385\">next w.</cite>"
+			]
+		}
+	]
+}

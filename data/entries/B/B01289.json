@@ -1,0 +1,41 @@
+{
+	"id": "B01289",
+	"slug": "ברך-3",
+	"headword": {
+		"text": "בֶּרֶךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוֹרֶךְ"
+		}
+	],
+	"page": {
+		"number": 195,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"B01288\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>knee</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:5:14\">Y. Ber. I, 3ᵈ</cite> top."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a knee-shaped pole</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 25b:6\">Taan. 25ᵇ</cite> <he>כמלא ב׳ חמחרישה</he> (Var. <cite ref=\"K00247\"><he>כוך</he></cite>, v. Rabb. D. S. a. l.) (until the rain penetrates) as far as the knee of the plough enters the soil; Ohol. XVII, 1 <cite ref=\"B01083\"><he>בו׳</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 21:2\">Kel. XXI, 2</cite> <cite ref=\"B01083\"><he>בו׳</he></cite>. [<cite ref=\"Tosefta Shevi'it 4:20\">Tosef. Shebi. IV, 20</cite> <he>ברך</he>, v. <cite ref=\"B01267\"><he>בְּרִיכָה</he></cite>.]—<i>Du.</i> <he>בִּרְכַּיִם</he>. ",
+				"<cite ref=\"Berakhot 34b\">Ber. 34ᵇ</cite>; <cite ref=\"Megillah 22b:10\">Meg. 22ᵇ</cite>; <cite ref=\"Shevuot 16b:9\">Shebu. 16ᵇ</cite> <he>כריעה על ב׳</he> the word <he>כרע</he> means falling on one’s knees. [<he>בִּרְכּוֹת</he>, v. <cite ref=\"B01267\"><he>בְּרִיכָה</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

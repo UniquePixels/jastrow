@@ -1,0 +1,38 @@
+{
+	"id": "G00404",
+	"slug": "זיקא-1",
+	"headword": {
+		"text": "זִיקָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 396,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00403\">same</cite><i>shooting star</i>, or <i>comet</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:2:3\">Y. Ber. IX, 13ᶜ</cite>.—Pl. <he>זִיקִין</he>, <he>זִיקֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 20:2\">Targ. Y. Ex. XX, 2</cite>, sq."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>blast, wind, draught</i> (<i>spirit</i>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 16:22\">Targ. Y. Lev. XVI, 22</cite> <he>רוח ז׳</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 4:15\">Targ. Job IV, 15</cite>; a. e.—",
+				"<cite ref=\"Avodah Zarah 28b:5\">Ab. Zar. 28ᵇ</cite> <he>ויזדהר מז׳</he> and let him beware of exposing his ear to a draught.—",
+				"<cite ref=\"Berakhot 40b:17\">Ber. 40ᵇ</cite> <he>תמרי ז׳</he> dates blown down by the wind. ",
+				"<cite ref=\"Nedarim 28b:4\">Ned. 28ᵇ</cite> <he>איכא ז׳ נפישא</he> a strong wind is blowing (threatening to mow down the standing crop). ",
+				"<cite ref=\"Esther Rabbah 3:14\">Esth. R. to I, 12</cite> <he>פח ז׳ וכ׳</he> blow a blast into his belly (arouse his anger). ",
+				"<cite ref=\"Taanit 24a:16\">Taan. 24ᵃ</cite> <he>נשב ז׳</he> (not <he>נשא</he>) a wind arose (gathering clouds); <cite ref=\"Taanit 25b:15\">ib. 25ᵇ</cite>; <cite ref=\"Bava Metzia 85b:12\">B. Mets. 85ᵇ</cite>; a. e.—",
+				"<cite ref=\"Shabbat 129a:22\">Sabb. 129ᵃ</cite> <he>היכא דכריך ז׳</he> in a room where the air is turned around, i.e. in a draught.—",
+				"<cite ref=\"Bereishit Rabbah 50\">Gen. R. s. 50</cite>, beg. (ref. to <he>כמראה הבזק</he>, <cite ref=\"Ezekiel 1:14\">Ez. I, 14</cite>) <he>כרוחא לז׳</he> as the wind drives the sparks at a conflagration; [comment.: as the wind shakes the suspended leather-hose, v. next w.]; <cite ref=\"Ezekiel 1:14\">ib.</cite> <he>כז׳ לעננא</he> as the wind scatters the clouds. ",
+				"<cite ref=\"Berakhot 59a:7\">Ber. 59ᵃ</cite> <he>כז׳ על פום דני</he> like the rumbling sound produced by blowing into wine vessels; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

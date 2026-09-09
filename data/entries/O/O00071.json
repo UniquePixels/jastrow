@@ -1,0 +1,38 @@
+{
+	"id": "O00071",
+	"slug": "סבל-1",
+	"headword": {
+		"text": "סָבַל"
+	},
+	"page": {
+		"number": 950,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to carry</i> a load; <i>to sustain; to endure</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 4\">Lev. R. s. 4</cite>, end <he>הנפש הזו סוֹבֶלֶת … והקב״ה סוֹבֵל את עולמו</he> the soul supports the body, and the Lord sustains his world; (Tanḥ. Ḥayé 3 <he>משמרת … משמר</he>). ",
+				"<cite ref=\"Pesachim 113b:10\">Pes. 113ᵇ</cite> <he>ארבעה אין … סוֹבַלְתָּן</he> there are four things which the mind (of man) cannot endure. ",
+				"<cite ref=\"Bereishit Rabbah 22:11\">Gen. R. s. 22</cite> (ref. to <cite ref=\"Genesis 4:13\">Gen. IV, 13</cite>) <he>לעליונים … אתה סובל ולפשעי אין אתה סובל</he> thou bearest those on high and those below, and my trespass thou wilt not bear? Y. R. Hash. II, end, 58ᵇ (ref. to <cite ref=\"Psalms 144:14\">Ps. CXLIV, 14</cite> <he>אלופינו מסבלים</he>) <he>בשעה שהגדולים סוֹבְלִין את וכ׳</he> when the great bear the small (take care of them), there is no breach &c.; <cite ref=\"Psalms 144:14\">ib.</cite> <he>בשעה שהקטנים סובלין וכ׳</he> when the small bear the great (respect their superiority), there is &c.; <cite ref=\"Yalkut Shimoni on Nach 888\">Yalk. Ps. 888</cite>; Ruth R. introd. <he>(ושם</he>). ",
+				"<cite ref=\"Shemot Rabbah 5\">Ex. R. s. 5</cite> <he>סָבְלוּ מכות</he> they endured maltreatment; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:53\">Y. Peah I, 16ᵇ</cite> <he>הפורק … ואיני סוֹבְלָהּ</he> he who throws off the yoke, that is, he who says, there is a law, but I will not bear it."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִיבֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to load</i>. Part. pass. <he>מְסוּבָּל</he>. ",
+					"units": [
+						"<cite ref=\"Berakhot 17a:17\">Ber. 17ᵃ</cite> (ref. to Ps. l. c.) <he>מְסוּבָּלִים במצות</he> laden with good deeds; <he>מס׳ בייסורים</he> laden with pains. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 963\">Yalk. Deut. 963</cite> <he>מסובלים כספם וכ׳</he> (<cite ref=\"Devarim Rabbah 11:7\">Deut. R. s. 11</cite> <he>היו סובלים</he>) carrying their silver and their gold; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

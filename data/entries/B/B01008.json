@@ -1,0 +1,45 @@
+{
+	"id": "B01008",
+	"slug": "בסס-2",
+	"headword": {
+		"text": "בְּסַס"
+	},
+	"page": {
+		"number": 179,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B01007\">same</cite>. Part. pass. <cite ref=\"B00996\"><he>בְּסִיס</he></cite> <i>based, firm</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:15\">Targ. Cant. V, 15</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּסֵּיס"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"B01007\">preced.</cite> Pi. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 3:3\">Targ. II Chr. III, 3</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְבַּסֵּס"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"B01007\">preced.</cite> Nithpa. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Song of Songs 2:5\">Targ. Cant. II, 5</cite> (not <he>אתבסם</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

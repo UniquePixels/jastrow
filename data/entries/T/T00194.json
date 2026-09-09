@@ -1,0 +1,25 @@
+{
+	"id": "T00194",
+	"slug": "רגילה-2",
+	"headword": {
+		"text": "רְגִילָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1448,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. Arab. riġlah) <i>portulaca, purslane</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 7:1\">Shebi. VII, 1</cite>. ",
+				"<cite ref=\"Mishnah Sheviit 9:5\">Ib. IX, 5</cite>; <cite ref=\"Tosefta Shevi'it 7:13\">Tosef. ib. VII, 13</cite>. ",
+				"<cite ref=\"Mishnah Oktzin 3:2\">Ukts. III, 2</cite>."
+			]
+		}
+	]
+}

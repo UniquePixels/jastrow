@@ -1,0 +1,45 @@
+{
+	"id": "O00461",
+	"slug": "סחף-1",
+	"headword": {
+		"text": "סָחַף"
+	},
+	"page": {
+		"number": 971,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H01466\"><he>חָפַף</he> II</cite>)<i>to rub, sweep</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei DeRabbi Eliezer 14\">Pirké d’R. El. ch. XIV</cite> <he>בעצבון … סוֹחֵף במעיו על הארץ</he> in the pain of its growth, it (the serpent) shall sweep along (drag itself) with its belly on the ground.—<i>Part. pass.</i> <he>סָחוּף</he>, pl. <he>סְחוּפִים</he>, <he>סְחוּפִין</he> <i>swept away, driven about</i>. Tanḥ. P’kudé 3 like a dog <he>שהוא ס׳ וכ׳</he> (some ed. <cite ref=\"H01823\"><he>חשוף</he></cite>, <he>חצוף</he>) that is pushed this way and that way. ",
+				"<cite ref=\"Yevamot 47a:13\">Yeb. 47ᵃ</cite> <he>דוויים דחופים ס׳ ומטורפין</he> broken down, pushed about, swept (from place to place) and tossed about; [Rashi: <i>covered</i> in mourning, v. <cite ref=\"H01423\"><he>חָפָה</he></cite> a. <cite ref=\"H01464\"><he>חָפַף</he> I</cite>]. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 735:3\">Yalk. Ps. 735</cite>, v. <cite ref=\"O00938\"><he>סָכַף</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִסְתָּחֵף"],
+			"senses": [
+				{
+					"gloss": "<i>to be swept, be inundated, ruined by a flood</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Ketubot 1:6\">Keth. I, 6</cite> (<cite ref=\"Ketubot 12b\">12ᵇ</cite>) <he>נִסְתַּחֲפָה שדך</he> (Y. a. Bab. ed. <he>שדהו</he>, euphemism) thy field has been ruined, i.e. it is thy misfortune, and I cannot be made to suffer for it. Ib. 2ᵃ <he>נ׳ שדהו</he> it is thy misfortune (that I was taken sick). Ib. VII, 8 <he>האב … ונ׳ שדהו</he> the father has to bring evidence that these blemishes arose while she was betrothed and therefore it was his (the husband’s) misfortune; a. e."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["נִסְחַף"],
+			"senses": [
+				{
+					"gloss": "<i>to be swept away, struck down</i>; (homilet. = <he>נספח</he>) <i>to be smitten with leprosy</i> (v. <cite ref=\"O01345\"><he>סַפַּחַת</he></cite>). Tanḥ. Thazr. 11; <cite ref=\"Yalkut Shimoni on Nach 229\">Yalk. Kings 229</cite>; <cite ref=\"Yalkut Shimoni on Nach 586\">Yalk. Zech. 586</cite> (interpret. <cite ref=\"O00461\"><he>נסחף</he></cite>, <cite ref=\"Jeremiah 46:15\">Jer. XLVI, 15</cite>); <cite ref=\"Yalkut Shimoni on Torah 555\">Yalk. Lev. 555</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

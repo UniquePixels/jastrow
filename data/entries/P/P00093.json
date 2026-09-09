@@ -1,0 +1,31 @@
+{
+	"id": "P00093",
+	"slug": "עגל-5",
+	"headword": {
+		"text": "עֲגַל",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲגָלָא"
+		}
+	],
+	"page": {
+		"number": 1041,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00090\"><he>עֲגַל</he></cite>) [<i>rolling</i>,] <i>swiftness</i>; <he>בע׳</he>, <he>לע׳</he> <i>very soon, swiftly, suddenly</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 20:5\">Targ. Job XX, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 29:1\">Targ. Prov. XXIX, 1</cite>. Targ. II Esth. VI, 10 <he>בע׳ בע׳</he> make haste.—",
+				"<cite ref=\"Berakhot 18b:15\">Ber. 18ᵇ</cite> <he>דלע׳ קא אתית</he> because thou shalt soon come (to us, the dead). ",
+				"<cite ref=\"Sanhedrin 52a:25\">Snh. 52ᵃ</cite> <he>כי היכי דלישרוף לע׳</he> in order that he may be burnt to death so much sooner; <cite ref=\"Pesachim 75a:16\">Pes. 75ᵃ</cite> <he>כי היכי דתימות בע׳</he> (Ms. O. <he>לעגל</he>) that she may die the sooner; <cite ref=\"Yalkut Shimoni on Torah 630\">Yalk. Lev. 630</cite>; a. e."
+			]
+		}
+	]
+}

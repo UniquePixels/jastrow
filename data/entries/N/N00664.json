@@ -1,0 +1,28 @@
+{
+	"id": "N00664",
+	"slug": "נייר",
+	"headword": {
+		"text": "נְיָיר"
+	},
+	"page": {
+		"number": 904,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נור</he>) [<i>blank</i>,] <i>paper, parchment, papyrus</i> &c. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 4:20\">Ab. IV, 20</cite> <he>דיו כתובה על נ׳ חדש</he> ink on a new blank, opp. <he>נ׳ מחוק</he> palimpsest. ",
+				"<cite ref=\"Gittin 9b:3\">Gitt. 9ᵇ</cite> <he>נ׳ חלק</he> blank paper, v. <cite ref=\"S02128\"><he>קָרַע</he></cite>. ",
+				"<cite ref=\"Gittin 19b:13\">Ib. 19ᵇ</cite> <he>נתן לה נ׳ חלק</he> if he handed her a blank sheet. ",
+				"<cite ref=\"Tosefta Kelim Kamma 7:11\">Tosef. Kel. B. Kam. VII, 11</cite>; <cite ref=\"Mishnah Kelim 10:4\">Kel. X, 4</cite>. ",
+				"<cite ref=\"Sifrei Devarim 160:5\">Sifré Deut. 160</cite> <he>לא על נ׳</he> not on a loose sheet, opp. <he>מגילה</he>; a. fr.—Pl. <he>נְיָירוֹת</he>. ",
+				"<cite ref=\"Pesachim 42b:16-19\">Pes. 42ᵇ</cite> <he>סופרים … מדבקין בהו נְיָירוֹתֵיהֶן</he> scribes … glue their parchments with it (Ms. M. <he>נַיְירוֹתַיְיהוּ</he> ch. form). ",
+				"<cite ref=\"Mishnah Kelim 2:5\">Kel. II, 5</cite> <he>כסוי … נ׳</he> (Var. <he>והנ׳</he>) covers … made of papyrus; <cite ref=\"Tosefta Kelim Kamma 2:5\">Tosef. Kel. B. Kam. II, 5</cite> <he>ניארות</he> ed. Zuck. (Var. <he>ונרות</he>, corr. acc.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "A02403",
+	"slug": "אסטרולוגיא",
+	"headword": {
+		"text": "אַסְטְרוֹלוֹגְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְ׳"
+		},
+		{
+			"text": "אסת׳"
+		},
+		{
+			"text": "אַצְ׳"
+		},
+		{
+			"text": "אִיצְ׳"
+		}
+	],
+	"page": {
+		"number": 91,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἀστρολογία) <i>astronomy</i>, mostly <i>astrology, sooth-saying, astrological prediction</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:13\">Y. Ab. Zar. II, 41ᵃ</cite> top <he>הוה חמי בא׳ דידיה</he> he foresaw by dint of astrol. speculation (prob. to be read <he>גין …</he>, v. infra). ",
+				"<cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite> <cite ref=\"A02401\"><he>אסטרוגילא</he></cite> (corr. acc.; cmp. <cite ref=\"I00355\"><he>טְיָיר</he></cite>).—Pl. <cite ref=\"A02403\"><he>אַסְטְרוֹלוֹגִין</he></cite> prop. <i>astrologers</i>, trnsf. <i>astrological books, implements, horoscope</i> &c. ",
+				"<cite ref=\"Bereishit Rabbah 85:2\">Gen. R. s. 85</cite> <he>רואה היתה בא׳ וכ׳</he> she saw in her astrological books (or horoscope). ",
+				"<cite ref=\"Devarim Rabbah 8\">Deut. R. s. 8</cite> <he>מביט באסטרולוגים</he>; <cite ref=\"Vayikra Rabbah 36\">Lev. R. s. 36</cite> <he>אצטרוגליס</he>, <he>לוגים …</he> &c. (corr. acc.)."
+			]
+		}
+	]
+}

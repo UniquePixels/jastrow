@@ -1,0 +1,22 @@
+{
+	"id": "G00639",
+	"slug": "זקירא",
+	"headword": {
+		"text": "זְקִירָא"
+	},
+	"page": {
+		"number": 409,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00656\"><he>זְקַר</he></cite>) <i>leap</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 22a\">B. Kam. 22ᵃ</cite> top (Rashi: <cite ref=\"G00640\"><he>זְקִירָה</he></cite> h. fem.)."
+			]
+		}
+	]
+}

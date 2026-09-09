@@ -1,0 +1,39 @@
+{
+	"id": "N01113",
+	"slug": "נצחון",
+	"headword": {
+		"text": "נִצָּחוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 928,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01112\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>victory, strength</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 8:1\">Sot. VIII, 1</cite> <he>בנִיצְחוֹנוֹ של וכ׳</he> (Y. ed. <he>בנצחת ב״וד</he>, corr. acc.) relying on the strength of &c.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>praise, song</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 84:1\">Midr. Till. to Ps. LXXXIV</cite>; <cite ref=\"Yalkut Shimoni on Nach 833:1\">Yalk. Ps. 833</cite> <he>כל מי שרואה … נותן עליה נ׳</he> whoever sees that wine press (<cite ref=\"Isaiah 63:1\">Is. LXIII, 1</cite> sq.), gives forth songs over it."
+			],
+			"label": "2"
+		}
+	]
+}

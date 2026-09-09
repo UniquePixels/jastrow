@@ -1,0 +1,28 @@
+{
+	"id": "O00535",
+	"slug": "סיבולת",
+	"headword": {
+		"text": "סִיבּוֹלֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִבּ׳"
+		}
+	],
+	"page": {
+		"number": 974,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00071\"><he>סָבַל</he></cite>; cmp. <he>סִבְלוֹנוֹת</he>) <i>sending provisions for a common meal, picnic</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 89b:7\">Pes. 89ᵇ</cite> <he>אפי׳ חמשה ועשו ס׳</he> (Ms. O. repeatedly <he>סבלונות</he>, v. Rabb. D. S. a. l. note 7) even (in ordinary cases) when five persons sent articles of food for a picnic; <cite ref=\"Tosefta Pesachim 7:10\">Tosef. ib. VII, 10</cite> (Var. <cite ref=\"O00041\"><he>סבול</he></cite>, <he>סיבלות</he>); Y. ib. VIII, 36ᵃ <cite ref=\"O00726\"><he>סִינְבּוּל</he></cite> (with anorg. <cite ref=\"N00001\"><he>נ</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 4:6:3\">Y. Maas. Sh. IV, 55ᵇ</cite> <he>אני אומר סיבולית וכ׳</he> I say (the inscriptions ‘in behalf of—’ intimate) that they have arranged a picnic among themselves (and each marked his contribution)."
+			]
+		}
+	]
+}

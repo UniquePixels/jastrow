@@ -1,0 +1,24 @@
+{
+	"id": "H00066",
+	"slug": "חבילא-1",
+	"headword": {
+		"text": "חֲבִילא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 419,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00084\"><he>חבל</he></cite>) <i>injury, loss</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 28b:5\">M. Kat. 28ᵇ</cite> <he>ויי לאזלא ויי לח׳</he> (Ms. M. <he>לחִבּוּלָא</he>) woe for him that is gone, woe for the loss!—",
+				"<cite ref=\"Bekhorot 8b:20\">Bekh. 8ᵇ</cite> <he>מנא דלא שוי חֲבִילֵיה</he> (Rashi <he>חבליה</he>) a utensil which is not worth the damage which it causes."
+			]
+		}
+	]
+}

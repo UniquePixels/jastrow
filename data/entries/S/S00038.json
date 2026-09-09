@@ -1,0 +1,37 @@
+{
+	"id": "S00038",
+	"slug": "קבוסאי",
+	"headword": {
+		"text": "קְבוּסַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְבוּסַיי"
+		},
+		{
+			"text": "קְפוּ׳"
+		}
+	],
+	"page": {
+		"number": 1307,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḳ’busay, Ḳ’fusay</i>, father of R. Joshua (v. Fr. Darkhé, p. 187). ",
+			"units": [
+				"<cite ref=\"Tosefta Mikvaot 6:3\">Tosef. Mikv. VI, 3</cite> (Var. <cite ref=\"S00519\"><he>קוּפְסַאי</he></cite>). ",
+				"<cite ref=\"Tosefta Makhshirin 3:15\">Tosef. Makhsh. III, 15</cite>; <cite ref=\"Tosefta Demai 1:14\">Tosef. Dem. I, 14</cite> <he>קופס׳</he> (Var. <he>קבוס׳</he>, <he>קביס׳</he>); Y. ib. III, 23ᶜ bot. <cite ref=\"S00082\"><he>קבסיי</he></cite>. ",
+				"<cite ref=\"Tosefta Bekhorot 3:19\">Tosef. Bekh. III, 19</cite> <cite ref=\"S00038\"><he>קפו׳</he></cite>; Bab. ",
+				"<cite ref=\"Bekhorot 35b\">ib. 35ᵇ</cite> <he>קפי׳</he>. ",
+				"<cite ref=\"Bekhorot 39a\">Ib. 39ᵃ</cite> <cite ref=\"S01722\"><he>קְפוּצַאי</he></cite>; <cite ref=\"Tosefta Bekhorot 4:5\">Tosef. ib. IV, 5</cite> <he>קפוס׳</he>. ",
+				"<cite ref=\"Shabbat 147a:10\">Sabb. 147ᵃ</cite> <he>כְּפוּסַאי</he> (Ms. M. <he>נפוצי</he>, read <cite ref=\"K00000\"><he>כ</he></cite> for <cite ref=\"N00001\"><he>נ</he></cite>). ",
+				"<cite ref=\"Avodah Zarah 32a\">Ab. Zar. 32ᵃ</cite> <cite ref=\"S00038\"><he>קפו׳</he></cite>; <cite ref=\"Tosefta Avodah Zarah 4:10\">Tosef. ib. IV</cite> (<cite ref=\"Tosefta Avodah Zarah 5:10\">V</cite>), 10 <cite ref=\"S01761\"><he>קופ׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 6:1:7\">Y. Pes. VI, 33ᵃ</cite> bot. <cite ref=\"S00082\"><he>קבסיו</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

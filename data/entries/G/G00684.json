@@ -1,0 +1,25 @@
+{
+	"id": "G00684",
+	"slug": "זרות",
+	"headword": {
+		"text": "זָרוּת"
+	},
+	"page": {
+		"number": 412,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"G00659\"><he>זָר</he></cite>) <i>the legal status of the non-priest, the laws concerning non-priests</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 5:1:10\">Y. Ter. V, 43ᶜ</cite> <he>איסור ז׳</he> the prohibition as far as it concerns the T’rumah to be eaten by non-priests. ",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 2:2:10\">Y. Bicc. II, 65ᵃ</cite> <he>היתר ז׳</he> inasmuch as they are permitted to non-priests. ",
+				"<cite ref=\"Jerusalem Talmud Orlah 2:9:3\">Y. Orl. II, end, 62ᶜ</cite> <he>משום ז׳</he> for violating the law forbidding non-priests &c.—",
+				"<cite ref=\"Yevamot 68b:2\">Yeb. 68ᵇ</cite>, a. e. (ref. to <he>וכל זר</he>, <cite ref=\"Leviticus 22:10\">Lev. XXII, 10</cite>) <he>ז׳ אמרתי לך וכ׳</he> the Law treats of non-priests, but not of the mourners; a. e."
+			]
+		}
+	]
+}

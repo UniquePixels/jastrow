@@ -1,0 +1,28 @@
+{
+	"id": "A00369",
+	"slug": "אדא-1",
+	"headword": {
+		"text": "אָדָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "הָדָא"
+		}
+	],
+	"page": {
+		"number": 15,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"E00005\"><he>הָא</he></cite>) <i>this, that</i>. Y. Ber. III. end, 7ᵃ, a. fr. <he>הדא אמרת היא הדא היא א׳</he> this shows that this is like that, i.e. <i>all the same</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 4:10:2\">Y. Erub. IV, end, 22ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

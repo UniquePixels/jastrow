@@ -1,0 +1,39 @@
+{
+	"id": "V00124",
+	"slug": "תהי-3",
+	"headword": {
+		"text": "תָּהֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "תָּהֲיָיא"
+		}
+	],
+	"page": {
+		"number": 1649,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00123\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>regret</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 6:6\">Targ. Y. II, Gen. VI, 6</cite> (Ar. <he>תהו</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>astonishment</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 66a:4\">Erub. 66ᵃ</cite> <he>מאי ת׳ דר׳ וכ׳</he> (ed. Sonc. <he>תָּהֲיֵיה</he>; Ar. <cite ref=\"V00427\"><he>תְּיוֹהָא</he></cite>) why this marvelling of R. El.?"
+			],
+			"label": "2"
+		}
+	]
+}

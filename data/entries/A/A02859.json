@@ -1,0 +1,23 @@
+{
+	"id": "A02859",
+	"slug": "אצווא",
+	"headword": {
+		"text": "אַצְוָוא"
+	},
+	"page": {
+		"number": 110,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., pl. <cite ref=\"A02863\"><he>אַצְוָתָא</he></cite>, <cite ref=\"A02861\"><he>אַצְוָותָא</he></cite> (<cite ref=\"R00189\"><he>צוי</he></cite>, cmp. <cite ref=\"R00033\"><he>צבי</he></cite> a. <he>סבב</he>) <i>creeper, vine</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 39a\">Pes. 39ᵃ</cite> (expl. <cite ref=\"H01652\"><he>חרחבינה</he></cite>) <he>אצווא דדיקלא</he> Ar. (ed. <cite ref=\"A02861\"><he>אַצְוָותָא</he></cite>, Ms. M. <cite ref=\"A02448\"><he>אסיתא</he></cite>, read <cite ref=\"A02343\"><he>אַסְוָתָא</he></cite>, R. Ḥan. <cite ref=\"A02329\"><he>אַסְוָא</he></cite>, v. Rabb. D. S. a. l. note); <cite ref=\"Ketubot 50a\">Keth. 50ᵃ</cite> <cite ref=\"A02863\"><he>אַצְוָתָא</he></cite>. ",
+				"<cite ref=\"Eruvin 26b\">Erub. 26ᵇ</cite> <he>אצוותא חרזייתא דדיקלא</he> Ar. (ed. <he>דדיקלא</he> omitted, also in Ms. M., cmp. Rabb. D. S. a. l. note) <i>arkablin</i> are the prickling creepers of the palm-tree; v. <cite ref=\"H01649\"><he>חַרְזָא</he></cite>. V. <cite ref=\"A02861\"><he>אַצְוָותָא</he></cite>."
+			]
+		}
+	]
+}

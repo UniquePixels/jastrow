@@ -1,0 +1,24 @@
+{
+	"id": "A00911",
+	"slug": "אורעיתא",
+	"headword": {
+		"text": "אוּרְעִיתָא"
+	},
+	"page": {
+		"number": 35,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A03216\"><he>ארע</he></cite>; corresp. to h. <cite ref=\"R00794\"><he>צִרְעָה</he></cite>) <i>wasp, hornet</i> (collect.). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 23:28\">Targ. Y. Ex. XXIII, 28</cite>; a. e.—Pl. <he>אוּרְעַיָּיתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 1:44\">Targ. Y. Deut. I, 44</cite>; a. e.—<cite ref=\"A00910\"><he>אוּרְעֵי</he></cite>, <he>אוּרְעַיָּה</he>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 11:20\">Targ. Y. Lev. XI, 20</cite> ed. pr. (corr. vowel signs; later ed. <cite ref=\"A00610\"><he>אוזפיה</he></cite>). Y. Sabb. I, 3ᵇ bot. <he>תולעתא דסוסיא וכ׳</he> the mite in the horse’s carcass turns into hornets. [Cmp. same ideas among the Greek, Sachs Beitr. II, 92; Nican Ther. 741.]"
+			]
+		}
+	]
+}

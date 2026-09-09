@@ -1,0 +1,105 @@
+{
+	"id": "N00176",
+	"slug": "נגע-1",
+	"headword": {
+		"text": "נָגַע"
+	},
+	"page": {
+		"number": 874,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to touch; to strike; to injure</i> (with <cite ref=\"B00000\"><he>ב</he></cite> of object). ",
+			"units": [
+				"<cite ref=\"Shabbat 13b:1\">Sabb. 13ᵇ</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 14:7\">Num. R. s. 14</cite> <he>אילו נ׳ באשת וכ׳</he> if he touched Potifar’s wife. ",
+				"<cite ref=\"Bamidbar Rabbah 14:7\">Ib.</cite> (ref. to <cite ref=\"Ecclesiastes 8:5\">Koh. VIII, 5</cite>) <he>שלא נ׳ בו הדבר</he> the thing (the speech of the chief butler) did not harm him, v. <cite ref=\"N00179\"><he>נִגְעָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 8:7:2\">Y. Peah VIII, 21ᵃ</cite> bot., a. e. <he>נָגְעוּ בה</he>, v. <cite ref=\"M01352\"><he>מַכָּה</he></cite>. Y. Yeb. I, end, 13ᵇ <he>לא היו ב״ש נוֹגְעִין בו</he> the Shammaites would not take up the case; a. v. fr.—נוֹגֵעַ בעדות <i>an interested witness</i>. ",
+				"<cite ref=\"Sanhedrin 34a:1\">Snh. 34ᵃ</cite> <he>דמיחזי כנ׳ בעדותו</he> he has the appearance of an interested witness. ",
+				"<cite ref=\"Bava Batra 43a:1\">B. Bath. 43ᵃ</cite> top <he>אמאי נוֹגְעִין בעדותן הן</he> why are they admitted to testify? Are they not interested witnesses? <cite ref=\"Kiddushin 43b\">Kidd. 43ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <i>Hif.</i>) <i>to arrive, to come to pass</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 84\">Gen. R. s. 84</cite> <he>שעתידין הדברים לִיגַּע</he> for these things (which Joseph dreamt) shall come to pass; <cite ref=\"Yalkut Shimoni on Torah 141\">Yalk. ib. 141</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִגִּיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to reach; to become the property of; to obtain; to cause to reach</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 10:5\">B. Mets. X, 5</cite> <he>הִגִּיעוּךָ</he> they shall be thine. ",
+						"<cite ref=\"Mishnah Arakhin 8:1\">Arakh. VIII, 1</cite>; <cite ref=\"Mishnah Arakhin 8:3\">3</cite> (<cite ref=\"Arakhin 27a\">27ᵃ</cite>, sq.) <he>הִגִּיעָתְךָ</he> it is thine (Bab. ed. <he>הִגַּעְתִּיךָ</he> I let thee have it), i.e. thy offer is accepted; Tosef. ib. IV, 20 <he>הִגַּעְתָּהוּ</he> thou hast acquired it. ",
+						"<cite ref=\"Tosefta Bava Batra 6:7\">Tosef. B. Bath. VI, 7</cite>, a. e. <he>הִגִּיעוֹ</he> it is his, i.e. he must pay for it. Y. Erub. III, 21ᵃ bot., a. e. <he>הִגִּיעוּךָ סוף</he> thou hast been made to reach the final conclusion, i.e. thou must admit, v. <cite ref=\"H00443\"><he>חָוַר</he></cite>. ",
+						"<cite ref=\"Mishnah Berakhot 9:3\">Ber. IX, 3</cite> (<cite ref=\"Berakhot 54a:3\">54ᵃ</cite>) <he>שהחינו וקיימנו והִגִּיעָנוּ לזמן הזה</he> (Mish. ed. only <he>שהחינו</he>) who hast granted us life and sustenance and suffered us to reach this period. ",
+						"<cite ref=\"Mishnah Pesachim 10:6\">Pes. X, 6</cite> <he>כן … יַגִּיעֵנוּ וכ׳</he> so may He allow us to reach &c.; a. v. fr.—<he>הַגַּע עצמך</he> put thyself in the position, i.e. <i>suppose</i>. Y. Gitt. III, 44ᵈ, v. <cite ref=\"G00118\"><he>זָוַג</he></cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to arrive, to come to pass; to concern</i>. Gen. R. l. c. <he>שתחיית המתים מַגַּעַת בימיו</he> that the resurrection of the dead will come to pass in his days. Ib. <he>שהדברים מַגִּיעִים לבלהה וכ׳</he> that these things concern Bilhah. &c. ",
+					"units": [
+						"<cite ref=\"Mishnah Gittin 8:3\">Gitt. VIII, 3</cite> <he>כיון שה׳ לאויר וכ׳</he> as soon as the letter of divorce reaches the space over the roof. ",
+						"<cite ref=\"Mishnah Gittin 7:7\">Ib. VII, 7</cite> <he>ה׳ לאנטיפטריס</he> if he came as far as Antipatris. ",
+						"<cite ref=\"Bamidbar Rabbah 5:4\">Num. R. s. 5</cite> <he>שלא יַגִּיעַ לכם כשם שה׳ וכ׳</he> that the same may not happen to you as happened to the sons of Aaron. ",
+						"<cite ref=\"Mishnah Nedarim 8:2\">Ned. VIII, 2</cite> <he>עד שיגיע</he> until the time (Passover) comes, opp. <he>עד שיצא</he> until it is passed; a. fr.—[<cite ref=\"Tosefta Tahorot 6:14\">Tosef. Toh. VI, 14</cite> <he>ומשהגיע</he>, v. <cite ref=\"J00088\"><he>יָגַע</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּגָּע"],
+			"senses": [
+				{
+					"gloss": "<i>to be brought to a condition</i>. ",
+					"units": [
+						"<cite ref=\"Zevachim 88a\">Zeb. 88ᵃ</cite>, sq. <he>הוּגְּעוּ למים</he> Rashi (ed. <he>במים</he>, v. Rabb. D. S. a. l. note 2) if they have come to such a condition as to need washing in water; <he>הוגעו לנתר ואהל</he> if they need cleansing with natron and aloes; (<cite ref=\"Yalkut Shimoni on Torah 381:3\">Yalk. Ex. 381</cite> <he>הוּגְעֲלוּ במים</he> if they can be cleansed with &c., v. <cite ref=\"C01190\"><he>גָּעַל</he></cite>)."
+					]
+				}
+			],
+			"stem": "*."
+		},
+		{
+			"forms": ["נִיגֵּעַ"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"N00178\"><he>נֶגַע</he></cite>) <i>to afflict</i> with leprosy.—Part. pass. <he>מְנוּגָּע</he>; f. <he>מְנוּגַּעַת</he>; pl. <he>מְנוּגָּעִים</he>; <he>מְנוּגָּעוֹת</he>. ",
+					"units": [
+						"<cite ref=\"Mishnah Negaim 13:9\">Neg. XIII, 9</cite> <he>מי שנכנס לבית המ׳</he> he who enters a house which is unclean on account of leprosy in the walls. ",
+						"<cite ref=\"Mishnah Eruvin 8:2\">Erub. VIII, 2</cite> <he>חצייה לבית המנ׳</he> half the time (required for consuming it) is the measure for the stay in a leprous house. ",
+						"<cite ref=\"Tosefta Negaim 6:1\">Tosef. Neg. VI, 1</cite> <he>בית המנ׳ לא היה וכ׳</he> a case of a leprous house has never occurred &c. ",
+						"<cite ref=\"Tosefta Negaim 6:1\">Ib.</cite> <he>אבנים מנ׳</he> stones from a leprous house; <cite ref=\"Sanhedrin 71a\">Snh. 71ᵃ</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִתְנַגֵּעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be afflicted with leprosy</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Keritot 2:3\">Ker. II, 3</cite> <he>מצורע שנ׳ נגעים הרבה</he> a leper that had several attacks in succession (before being purified from the first); <cite ref=\"Tosefta Negaim 9:7\">Tosef. Neg. IX, 7</cite>. ",
+						"<cite ref=\"Tosefta Bava Metzia 8:30\">Tosef. B. Mets. VIII, 30</cite> <he>המשכיר … וניתנ׳</he> if one rented a house to his neighbor, and it became leprous; <cite ref=\"Arakhin 20b\">Arakh. 20ᵇ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

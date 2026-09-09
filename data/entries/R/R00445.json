@@ -1,0 +1,27 @@
+{
+	"id": "R00445",
+	"slug": "ציקין",
+	"headword": {
+		"text": "צִיקִין"
+	},
+	"page": {
+		"number": 1280,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"J00547\"><he>יָצַק</he></cite>) [<i>cast in a mould</i>,] only in <he>צִיקֵי קדרה</he> <i>a sort of pudding</i> consisting of minced meats &c. mixed with wine and spices. ",
+			"units": [
+				"<cite ref=\"Chullin 77b:4\">Ḥull. 77ᵇ</cite> <he>עשאן צ׳ ק׳</he> he minced them (the bones &c.) for a pudding. ",
+				"<cite ref=\"Bava Metzia 86b:2\">B. Mets. 86ᵇ</cite> <he>הללו לצ׳ ק׳</he> those (the animals mentioned <cite ref=\"I Kings 5:3\">I Kings V, 3</cite>) were used for puddings. ",
+				"<cite ref=\"Yoma 75a:18\">Yoma 75ᵃ</cite> (ref. to <he>בשלו בפרור</he>, <cite ref=\"Numbers 11:8\">Num. XI, 8</cite>) <he>מלמד שירד להם … צ׳ ק׳ וכ׳</he> this intimates that, with the manna, the ingredients for puddings came down &c. ",
+				"<cite ref=\"Ketubot 65a:6\">Keth. 65ᵃ</cite> <he>יין לצ׳ ק׳</he> wine for puddings. ",
+				"<cite ref=\"Pesachim 56a:8\">Pes. 56ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

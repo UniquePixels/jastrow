@@ -1,0 +1,23 @@
+{
+	"id": "A01694",
+	"slug": "אככא",
+	"headword": {
+		"text": "אַכָּכָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 63,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אכך</he>, cmp. <cite ref=\"K00656\"><he>כַּכָּא</he></cite>) <i>ground</i> or <i>pounded drug, poultice</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 30:24\">Targ. Job XXX, 24</cite>, Var. for <cite ref=\"A02501\"><he>אספלניתא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "B00604",
+	"slug": "ביישן",
+	"headword": {
+		"text": "בַּיְישָׁן"
+	},
+	"page": {
+		"number": 161,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00394\"><he>בּוּשׁ</he></cite>) <i>bashful, chaste; chaste person, bashful man</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 20a:12\">Ned. 20ᵃ</cite> <he>סימן יפה באדם שהוא ב׳</he> it is a favorable indication in a man that he is bashful. ",
+				"<cite ref=\"Pirkei Avot 2:5\">Ab. II, 5</cite>. <he>הב׳</he> he who is ashamed (to ask questions at school); a. e.—Pl. <cite ref=\"B00605\"><he>בַּיְישָׁנִים</he></cite>, <cite ref=\"B00605\"><he>בַּיְישָׁנִין</he></cite>. ",
+				"<cite ref=\"Yevamot 79a:3\">Yeb. 79ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 6:7:3\">Y. Snh. VI, 23ᵈ</cite> <he>בויישנין</he>(?); <cite ref=\"Bamidbar Rabbah 8\">Num. R. s. 8</cite>; Midr. Sam. ch. XXVIII; <cite ref=\"Midrash Tehillim 1:15\">Midr. Till. to Ps. I</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"B00746\"><he>בֵּישָׁן</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

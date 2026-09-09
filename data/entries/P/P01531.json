@@ -1,0 +1,35 @@
+{
+	"id": "P01531",
+	"slug": "עתיד-2",
+	"headword": {
+		"text": "עֲתִיד"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲתִידָא"
+		},
+		{
+			"text": "עֲתִידָה"
+		}
+	],
+	"page": {
+		"number": 1129,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. <cite ref=\"P01530\">same</cite>, <i>ready, destined; future</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 32:35\">Targ. O. Deut. XXXII, 35</cite>. Targ. ",
+				"<cite ref=\"Habakkuk 2:1\">Hab. II, 1</cite> <he>קאים ע׳</he> (h. text <he>נצב</he>). ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 8:5\">Targ. Cant. VIII, 5</cite>; a. fr.—",
+				"<cite ref=\"Taanit 10a:10\">Taan. 10ᵃ</cite> <he>עתידה בבל דחצדא וכ׳</he> Ms. M. a time will come when Babylonia &c., v. <cite ref=\"H01498\"><he>חֲצַד</he> I</cite>.—Pl. <he>עֲתִידִין</he>, <he>עֲתִידֵי</he>; <cite ref=\"P01530\"><he>עֲתִידָן</he></cite>. Targ. Cant. l. c.; a. e.—",
+				"<cite ref=\"Taanit 25a:3\">Taan. 25ᵃ</cite> <he>חזאי בחלמא ע׳ צדיקי וכ׳</he> (differ. vers. in Ms. M.) I saw in a dream that the righteous are destined to eat at a golden table. ",
+				"<cite ref=\"Shabbat 152b:9\">Sabb. 152ᵇ</cite> <he>ע׳ צדיקי דהוו עפרא</he>, v. <cite ref=\"P01530\">preced.</cite>; a. e."
+			]
+		}
+	]
+}

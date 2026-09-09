@@ -1,0 +1,42 @@
+{
+	"id": "H01189",
+	"slug": "חמיר-1",
+	"headword": {
+		"text": "חֲמִיר",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲמִירָא"
+		}
+	],
+	"page": {
+		"number": 477,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"H01164\"><he>חָמוּר</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>loaded</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 49:14\">Targ. Y. Gen. XLIX, 14</cite> <he>ח׳ באורייתא</he> loaded with the (knowledge of the) Law."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>grave, strict, stringent</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 14:30\">Targ. Y. Num. XIV, 30</cite>.—",
+				"<cite ref=\"Chullin 10a:3\">Ḥull. 10ᵃ</cite> <he>ח׳ סכנתא וכ׳</he> regulations concerning health and life are made more stringent than ritual laws; a. fr.—Pl. f. <cite ref=\"H01181\"><he>חֲמִירָתָא</he></cite> <i>restrictions, strict measures</i>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:8:10\">Y. Ab. Zar. II, 41ᵈ</cite> bot. <he>מן ח׳ דרב</he> one of Rab’s strict regulations."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "J00592",
+	"slug": "יראה",
+	"headword": {
+		"text": "יִרְאָה"
+	},
+	"page": {
+		"number": 593,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"J00591\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " infin. of <cite ref=\"J00591\"><he>יָרֵא</he></cite> q. v.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fear</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 17a:7\">Ber. 17ᵃ</cite> <he>יִרְאָתִי</he> the fear of me. ",
+				"<cite ref=\"Berakhot 17a:9\">Ib.</cite> <he>ערום בי׳</he> cautious in religious affairs. ",
+				"<cite ref=\"Kohelet Rabbah 9:7:1\">Koh. R. to IX, 7</cite> <he>שתהא יִרְאָתְךָ וכ׳</he>, v. preced.—<he>עשה מִיִּ׳</he> (or <cite ref=\"P00014\"><he>עבד</he></cite>) to do good (to worship) from motives of fear, opp. <he>מאהבה</he>. ",
+				"<cite ref=\"Sotah 31a\">Sot. 31ᵃ</cite>; a. fr., v. <cite ref=\"A00483\"><he>אַהֲבָה</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Sotah 5:5:4\">Y. Sot. V, 20ᶜ</cite> bot. <he>פרוש י׳</he>, v. <cite ref=\"Q01738\"><he>פָּרוּשׁ</he></cite>; a. v. fr.—<he>יִרְאַת שמים</he> fear of the Lord; <he>יִרְאַת חטא</he> fear of sin (v. <cite ref=\"J00591\">preced.</cite>). ",
+				"<cite ref=\"Berakhot 6b\">Ber. 6ᵇ</cite>. ",
+				"<cite ref=\"Berakhot 16b\">Ib. 16ᵇ</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>object of fear, idol</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 106a:11\">Snh. 106ᵃ</cite> <he>הוציאה יִרְאָתָהּ וכ׳</he> she took her idol out of her bosom. Pesik. Vayhi. p. 65ᵇ; Mekh. Bo. s. 13 <he>יִרְאָתֵנוּ</he> our (Egyptian) deity; a. fr.—Pl. <he>יִרְאוֹת</he>. Ib. B’shall., Vayhi, s. 1; <cite ref=\"Yalkut Shimoni on Torah 230:8\">Yalk. Ex. 230</cite> <he>מכל הי׳ שלהם</he> of all their (the Egyptians’) gods."
+			],
+			"label": "3"
+		}
+	]
+}

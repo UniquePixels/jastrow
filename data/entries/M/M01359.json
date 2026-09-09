@@ -1,0 +1,23 @@
+{
+	"id": "M01359",
+	"slug": "מכונתא",
+	"headword": {
+		"text": "מְכַוַּנְתָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 781,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>כּוּן</he> <i>Pa.</i>) <i>looking out, lurking</i>.—",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 5:11\">Targ. Jud. V, 11</cite> <he>בית מְכַוְּנַת ליסטין</he> the place where robbers lie in wait."
+			]
+		}
+	]
+}

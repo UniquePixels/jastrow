@@ -1,0 +1,23 @@
+{
+	"id": "S01138",
+	"slug": "קיק-2",
+	"headword": {
+		"text": "קִיק",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1367,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>abnormally large membrum virile</i>; [Ar.: <i>abnormally large testicles</i>]. ",
+			"units": [
+				"<cite ref=\"Bekhorot 44b:12\">Bekh. 44ᵇ</cite>, v. <cite ref=\"C01241\"><he>גְּרַבְתָּן</he></cite>, a. <cite ref=\"S00939\"><he>קַיָּין</he></cite>."
+			]
+		}
+	]
+}

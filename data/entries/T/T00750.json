@@ -1,0 +1,28 @@
+{
+	"id": "T00750",
+	"slug": "רכבא-2",
+	"headword": {
+		"text": "רָכְבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רַכָּבָא"
+		}
+	],
+	"page": {
+		"number": 1479,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"T00747\"><he>רַכָּב</he></cite>, <i>rider</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 15:1\">Targ. O. Ex. XV, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 9:17\">Targ. II Kings IX, 17</cite>; a. e.—Pl. <he>רָכְבִין</he>, <he>רוֹכְ׳</he>. Targ. Y. I Ex. l. c.; (Y. II <he>רִכְבֵּ׳</he>, corr. acc.)."
+			]
+		}
+	]
+}

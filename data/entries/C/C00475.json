@@ -1,0 +1,38 @@
+{
+	"id": "C00475",
+	"slug": "גור-3",
+	"headword": {
+		"text": "גּוּר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 226,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (euphem., cmp. <cite ref=\"C00456\"><he>גּוּף</he></cite> ch.) <i>to have illegitimate intercourse;</i> (also as act. v.) <i>to seduce</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 36:20\">Targ. Job XXXVI, 20</cite> <he>תגור</he> Ms. (ed. <he>תְגַיֵּר</he>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 20:10\">Targ. Y. Lev. XX, 10</cite> (O. <cite ref=\"C00456\"><he>גוף</he></cite>); a. e.—Part. <cite ref=\"C00805\"><he>גָּיֵר</he></cite>, <cite ref=\"C00809\"><he>גָּיְרָא</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 3\">Lev. R. s. 3</cite>; <cite ref=\"Kohelet Rabbah 4:6\">Koh. R. to IV, 6</cite> <he>ג׳ בחזורין</he> Ar. (ed. <he>גָּיְפָא</he>), v. <cite ref=\"C00456\"><he>גּוּף</he></cite> ch.—",
+				"<cite ref=\"Avodah Zarah 10b:2\">Ab. Zar. 10ᵇ</cite> <he>הוה ליה ההיא ברתא דשמה גירא וכ׳</he> he (the emperor) had a daughter whose name was Gira (Ar. <cite ref=\"C00719\"><he>גילא</he></cite>), and who did wrong (was seduced); he sent to him (Rabbi) <cite ref=\"C01250\"><he>גרגירא</he></cite> (Ar. <cite ref=\"C01246\"><he>גרגילא</he></cite>) a <i>gargira</i> (rocket, play on <cite ref=\"C00809\"><he>גירא</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּיֵּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to seduce</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 26:20\">Targ. Job XXVI, 20</cite>, v. supra. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 6:32\">Targ. Prov. VI, 32</cite> <he>דגַיֵּיר איתתא</he> Ar. (ed. <he>דגָיֵיר בא׳</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

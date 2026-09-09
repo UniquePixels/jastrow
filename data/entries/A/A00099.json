@@ -1,0 +1,23 @@
+{
+	"id": "A00099",
+	"slug": "אבטיח",
+	"headword": {
+		"text": "אֲבַטִּיחַ"
+	},
+	"page": {
+		"number": 5,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"B00498\"><he>בטח</he></cite> , √<he>בט</he> <i>to swell;</i> cmp. <cite ref=\"A00087\"><he>אַבְטָא</he></cite>) <i>melon</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 1:5\">Maasr. I, 5</cite>.—Pl. <he>אֲבַטִּיחִים</he>. ",
+				"<cite ref=\"Mishnah Maasrot 1:4\">Ib. 4</cite>; a. fr."
+			]
+		}
+	]
+}

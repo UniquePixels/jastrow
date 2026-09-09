@@ -1,0 +1,39 @@
+{
+	"id": "T01039",
+	"slug": "רקם-1",
+	"headword": {
+		"text": "רָקַם"
+	},
+	"page": {
+		"number": 1497,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to variegate, embroider</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 72b\">Yoma 72ᵇ</cite> <he>רוֹקְמִין</he>, v. <cite ref=\"H01806\"><he>חָשַׁב</he></cite>. ",
+				"<cite ref=\"Yoma 72b:19\">Ib.</cite> <he>רוֹקֵם מעשה וכ׳</he> the embroiderer’s is needle work, therefore it has only one face; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִיקֵּם"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T01038\">same</cite>, trnsf. (v. ",
+					"units": [
+						"<cite ref=\"Psalms 139:15\">Ps. CXXXIX, 15</cite>) <i>to form the limbs of an embryo, shape</i>. ",
+						"<cite ref=\"Vayikra Rabbah 29\">Lev. R. s. 29</cite>, beg.; <cite ref=\"Pesikta Rabbati 46:1\">Pesik. R. s. 46</cite> <he>שלישית ביום צבר … רִיקְּמוֹ</he> at three hours of the day he gathered his (Adam’s) dust, at four he kneaded him, at five he shaped him; <cite ref=\"Midrash Tehillim 92:2\">Midr. Till. to Ps. XCII</cite> <he>חמשית … ששית רקמו</he> at five he made him a shapeless body, at six he articulated him. Y. Bets. I, 60ᵃ <he>בצים שרִיקֵּימוּ גוזלים שלא העלו עליהן וכ׳</he> (not <he>העליהן</he>) eggs which developed chicks without a formation of wings. ",
+						"<cite ref=\"Chullin 64a:7\">Ḥull. 64ᵃ</cite> <he>אם רִיקְּמָה וניקבה</he> if the egg had developed a distinct embryo, and was perforated; a. e.—Part. pass. <he>מְרוּקָּם</he>; f. <he>מְרוּקֶּמֶת</he>. ",
+						"<cite ref=\"Esther Rabbah 7:1\">Esth. R. to III, 1</cite> <he>עשה לו צלם מר׳ וכ׳</he> he (Haman) made himself an image embroidered on his garment over his breast. ",
+						"<cite ref=\"Mishnah Niddah 3:3\">Nidd. III, 3</cite> (<cite ref=\"Niddah 24b:46\">24ᵇ</cite>) <he>ואם היה מר׳</he> and if the fœtus was articulated. Y. ib. 50ᵈ top, v. <cite ref=\"T01075\"><he>רָשׁוֹן</he></cite>. Tosef. ib. IV, 12. ",
+						"<cite ref=\"Mishnah Chullin 9:6\">Ḥull. IX, 6</cite> (<cite ref=\"Chullin 126b:11\">126ᵇ</cite>) <he>ביצת השרץ המר׳</he> the egg of a creeping thing (serpent &c.) in a developed state; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

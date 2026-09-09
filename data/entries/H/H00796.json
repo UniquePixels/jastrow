@@ -1,0 +1,30 @@
+{
+	"id": "H00796",
+	"slug": "חילתית",
+	"headword": {
+		"text": "חִילְתִּית"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִלְתִּ׳"
+		}
+	],
+	"page": {
+		"number": 457,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"H00794\"><he>חֵילַת</he> II</cite>) <i>assa foetida</i>, an umbelliferous plant used, as a resin or in leaves, for a spice and for medicinal purposes. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 3:5\">Ukts. III, 5</cite>. ",
+				"<cite ref=\"Mishnah Shabbat 20:3\">Sabb. XX, 3</cite> (<cite ref=\"Shabbat 140a:11\">140ᵃ</cite>) <he>אין שורין את הח׳ וכ׳</he> (Mish. ed. <cite ref=\"H00796\"><he>חִילְתִּין</he></cite>) you must not dissolve the resin of asa-foetida in warm water (on the Sabbath). Y. ib. XX, 17ᶜ bot. <he>מי ח׳</he> a solution of &c. Ib. <he>ח׳ עצמה וכ׳</he> <i>asaf.</i> itself is used in food for healthy persons. ",
+				"<cite ref=\"Chullin 58b:14\">Ḥull. 58ᵇ</cite> (distinction between the medicinal properties of the gum and those of the leaves). ",
+				"<cite ref=\"Mishnah Avodah Zarah 2:6\">Ab. Zar. II, 6</cite> <he>קורט של ח׳</he> tears of &c. (Ar. <he>עלה וכ׳</he> leaves). Sifré Deut. s. 107; a. fr."
+			]
+		}
+	]
+}

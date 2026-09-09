@@ -1,0 +1,54 @@
+{
+	"id": "C00962",
+	"slug": "גלל-4",
+	"headword": {
+		"text": "גְּלָל"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּלָלָא"
+		}
+	],
+	"page": {
+		"number": 250,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00961\">same</cite><i>untrimmed stone, cobble</i> (v. <cite ref=\"C00364\"><he>גְּוִיל</he></cite>). [<cite ref=\"Ezra 5:8\">Ezra V, 8</cite>.]—",
+			"units": [
+				"<cite ref=\"Chullin 63a:11\">Ḥull. 63ᵃ</cite> <he>אתא ג׳</he> a stone fell (from on high); <cite ref=\"Yalkut Shimoni on Nach 578\">Yalk. Zech. 578</cite> <cite ref=\"C00853\"><he>גלאלא</he></cite>. ",
+				"<cite ref=\"Gittin 47a\">Gitt. 47ᵃ</cite> Ar. (ed. <cite ref=\"C00876\"><he>גַּלְגַּלְתָּא</he></cite>). ",
+				"<cite ref=\"Avodah Zarah 22b:6\">Ab. Zar. 22ᵇ</cite>, v. <cite ref=\"D00111\"><he>דַּגָּלָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>lump</i>.—Pl. <he>גְּלָלֵי</he>. ",
+			"units": [
+				"<cite ref=\"Chullin 112a:10\">Ḥull. 112ᵃ</cite> bot. <he>תרי ג׳ דמלחא</he> Rashi (ed. <he>ג׳ מלחא</he>) two lumps of salt."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>ordure</i>, v. <cite ref=\"C00849\"><he>גַּלָּא</he></cite>.—<i>Pl.</i> as supra. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 92b:11\">B. Kam. 92ᵇ</cite> (prov.) a dog in his hunger <he>ג׳ מבלע</he> (Ms. H. sing.) will swallow excrements (Rashi: stones)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>wave</i>, v. <cite ref=\"C00849\"><he>גַּלָּא</he></cite>.",
+			"units": [],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>consequence;</i> <he>בג׳</he> <i>on account of, in order to</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 40:12\">Targ. Ps. XL, 12</cite> (Ms. <he>ג׳ היכנא</he>). ",
+				"<cite ref=\"Targum of II Chronicles 24:25\">Targ. II Chr. XXIV, 25</cite>; a. e."
+			],
+			"label": "5"
+		}
+	]
+}

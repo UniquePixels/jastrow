@@ -1,0 +1,34 @@
+{
+	"id": "A01855",
+	"slug": "אליל-1",
+	"headword": {
+		"text": "אֱלִיל"
+	},
+	"page": {
+		"number": 69,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אלל</he> <i>to roll</i>, sec. r. of <cite ref=\"A00658\"><he>אול</he></cite>; cmp. <cite ref=\"H00319\"><he>חול</he></cite> a. <he>גִּלּוּלִים</he>) ",
+			"units": []
+		},
+		{
+			"gloss": " (cacophem.) <i>idol</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 4:3\">Ab. Zar. IV, 3</cite> (Talm. ed. <he>ע״ז</he>); a. e.—Pl. <he>אֱלִילִים</he>. <he>עבודת א׳</he> (abbr. <he>ע״א</he>) <i>idolatry;</i> also <i>idol</i> (cmp. <cite ref=\"J00592\"><he>יִרְאָה</he></cite>). ",
+				"<cite ref=\"Sanhedrin 97b\">Snh. 97ᵇ</cite>. ",
+				"<cite ref=\"Yoma 9b\">Yoma 9ᵇ</cite>; a fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>offal of meat</i>, <i>v</i>. <cite ref=\"A01900\"><he>אֱלָל</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "O00890",
+	"slug": "סכותא-1",
+	"headword": {
+		"text": "סָכוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 989,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00893\"><he>סְכֵי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>outlook, watchpost</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 23:14\">Targ. O. Num. XXIII, 14</cite> (h. text <he>צפים</he>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 38:21\">Targ. Y. Gen. XXXVIII, 21</cite> <he>סְכוֹת עיינין</he> (h. text <he>עינים</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>hope</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 4:17\">Targ. Lam. IV, 17</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "N00477",
+	"slug": "נחוניא",
+	"headword": {
+		"text": "נְחוּנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְחוּנְיָיה"
+		}
+	],
+	"page": {
+		"number": 893,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>N’ḥunia</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " son of one Joseph ben Pakhsas (Paskas). Sifra Emor, beg. (also <cite ref=\"H00405\"><he>חוניא</he></cite>); Y. Naz. I, beg. 55ᵈ; a. e.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " name of several Tannaim. ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 6:2\">Eduy. VI, 2</cite> <he>נ׳ בן אלינתן</he>.—",
+				"<cite ref=\"Mishnah Eduyot 7:9\">Ib. VII, 9</cite> <he>נ׳ בן גודגדא</he> (<cite ref=\"Mishnah Gittin 5:5\">Gitt. V, 5</cite> <cite ref=\"J00180\"><he>יוחנן</he></cite>).—",
+				"<cite ref=\"Pirkei Avot 3:5\">Ab. III, 5</cite>; <cite ref=\"Mishnah Berakhot 4:2\">Ber. IV, 2</cite>, a. fr. <he>נ׳ בן הקנה</he>; <cite ref=\"Megillah 28a:10\">Meg. 28ᵃ</cite>. ",
+				"<cite ref=\"Megillah 28a:10\">Ib.</cite> <he>נ׳ הגדול</he> (Ms. M. <cite ref=\"H01292\"><he>חנינא</he></cite>, v. Rabb. D. S. a. l. note)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:1:12\">Y. Shek. V, 48ᵈ</cite>; <cite ref=\"Bava Kamma 50a:20\">B. Kam. 50ᵃ</cite> <he>נ׳ חופר וכ׳</he> N. the well-digger. Cmp. <cite ref=\"H00404\"><he>חוֹנִי</he></cite>, <cite ref=\"H00405\"><he>חוּנְיָא</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

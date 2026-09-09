@@ -1,0 +1,38 @@
+{
+	"id": "A03062",
+	"slug": "ארח-2",
+	"headword": {
+		"text": "אֲרַח"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָרַח"
+		}
+	],
+	"page": {
+		"number": 118,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A03061\">same</cite>, esp. <i>to take lodging</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 19:17\">Targ. Jud. XIX, 17</cite>. [<he>ארח</he>, <he>ארחא</he> <cite ref=\"Yoma 82b\">Yoma 82ᵇ</cite>, a. e., Af. of <cite ref=\"T00615\"><he>רִיחַ</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְאֲרַח"],
+			"senses": [
+				{
+					"gloss": ", contr. <he>אִתְרַח</he> <i>to dwell as a stranger, sojourn</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 1:6\">Targ. Y. Deut. I, 6</cite>; v. <cite ref=\"A01044\"><he>אְחַר</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

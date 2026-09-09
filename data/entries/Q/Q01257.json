@@ -1,0 +1,29 @@
+{
+	"id": "Q01257",
+	"slug": "פסחא",
+	"headword": {
+		"text": "פִּסְחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּי׳"
+		}
+	],
+	"page": {
+		"number": 1194,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01256\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 12:11\">Targ. O. Ex. XII, 11</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 30:18\">Targ. II Chr. XXX, 18</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 8:1:6\">Y. Sabb. VIII, beg. 11ᵃ</cite> <he>שתי ארבעתי כסוי דלילי פ׳</he> drank the four cups of wine customary at the celebration of the Passover night. ",
+				"<cite ref=\"Chullin 129b:14\">Ḥull. 129ᵇ</cite> <he>פ׳ זעירא</he> the minor Passover (= <he>פסח שני</he>, v. <cite ref=\"Q01256\">preced.</cite>), the fifteenth of Iyar; <he>פ׳ רבה</he> the great Passover, the fifteenth of Nisan. ",
+				"<cite ref=\"Pesachim 69b:2\">Pes. 69ᵇ</cite> <he>קום מהול ועביד פ׳</he> go and get circumcised, and partake of the Passover lamb; a. fr.—Pl. <he>פִּסְחַיָּא</he>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 15:4\">Targ. I Sam. XV, 4</cite> <he>באמרי פ׳</he> by Passover lambs (h. text <he>בטלאים</he>)."
+			]
+		}
+	]
+}

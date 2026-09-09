@@ -1,0 +1,26 @@
+{
+	"id": "P00285",
+	"slug": "עומקא-2",
+	"headword": {
+		"text": "עוּמְקָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עוֹ׳"
+		}
+	],
+	"page": {
+		"number": 1053,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., constr. <cite ref=\"P00283\"><he>עוֹמֶק</he></cite>, <cite ref=\"P00283\"><he>עוֹמַק</he></cite>; pl. <cite ref=\"P00598\"><he>עוּמְקְוָון</he></cite>, <he>עוּמְקְיָין</he>, v. <cite ref=\"P00922\"><he>עָמְקָא</he></cite>.",
+			"units": []
+		}
+	]
+}

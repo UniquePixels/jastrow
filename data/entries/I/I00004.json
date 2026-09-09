@@ -1,0 +1,22 @@
+{
+	"id": "I00004",
+	"slug": "טאבא",
+	"headword": {
+		"text": "טָאבָא"
+	},
+	"page": {
+		"number": 515,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00003\">preced.</cite>) <i>good</i> (<i>thing</i>).—Pl. <he>טָאבֵי</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 14:22\">Targ. Prov. XIV, 22</cite> (ed. Wil. <cite ref=\"I00048\"><he>טָבֵי</he></cite>)."
+			]
+		}
+	]
+}

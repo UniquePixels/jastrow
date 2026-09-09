@@ -1,0 +1,27 @@
+{
+	"id": "A00319",
+	"slug": "אגניטוס",
+	"headword": {
+		"text": "אגניטוס",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אנגטוס"
+		}
+	],
+	"page": {
+		"number": 13,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Var. v. infra) name of a Roman general in the days of R. Yoḥ. b. Zakkai, or of R. Gamliël, prob. a corrupt. of <he>אגוינטוס</he> <i>Quintus</i>, or <he>אגויטוס</he> <i>Quietus;</i> [Graetz: <i>Atticus</i>, v. Monatsschr. 1885 p. 17 sq.]. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 351:2\">Sifré Deut. 351</cite> <cite ref=\"A00319\"><he>אגניטוס</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:2:47\">Y. Snh. I, 19ᵇ</cite> top <cite ref=\"A02097\"><he>אנגטוס</he></cite>; <cite ref=\"Jerusalem Talmud Sanhedrin 1:2:47\">ib.</cite> ᶜ bot. <he>אנטונונוס</he>; ib. ᵈ top <cite ref=\"A02173\"><he>אנטיגנס</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4</cite> (<he>קונגטיס</he>) <cite ref=\"E00250\"><he>הונגטוס</he></cite>; <cite ref=\"Bekhorot 5a\">Bekh. 5ᵃ</cite> <cite ref=\"S00434\"><he>קונטרוקוס</he></cite>. [<he>אגוינטוס</he>, <he>קוינטוס</he>, <he>קוינגטוס</he> seem most probable.]"
+			]
+		}
+	]
+}

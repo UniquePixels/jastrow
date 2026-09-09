@@ -1,0 +1,22 @@
+{
+	"id": "M02425",
+	"slug": "מקלוט",
+	"headword": {
+		"text": "מַקְלוֹט"
+	},
+	"page": {
+		"number": 831,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01307\"><he>קָלַט</he></cite>) <i>bag</i> for collecting the excrements of working cattle <cite ref=\"Jerusalem Talmud Bava Kamma 2:1:4\">Y. B. Kam. II, beg. 2ᵈ</cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:7\">Kel. XVI, 7</cite>, v. <cite ref=\"M01615\"><he>מַלְקוֹט</he></cite>."
+			]
+		}
+	]
+}

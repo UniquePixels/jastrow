@@ -1,0 +1,23 @@
+{
+	"id": "I00056",
+	"slug": "טביעה-1",
+	"headword": {
+		"text": "טְבִיעה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 517,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>טָבַע</he> I) <i>being drowned</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 14\">Num. R. s. 14</cite>, beg. <he>שהסרתי אותו מן הט׳ וכ׳</he> whom I saved from drowning through the intervention of &c. [<cite ref=\"Jerusalem Talmud Berakhot 5:2:8\">Y. Ber. V, 9ᵇ</cite> <he>תשנו מטביעה</he>, v. <cite ref=\"M00965\"><he>מַטְבֵּעַ</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "P00145",
+	"slug": "עדיף-2",
+	"headword": {
+		"text": "עָדִיף",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲדִיף"
+		},
+		{
+			"text": "עֲדִיפָא"
+		}
+	],
+	"page": {
+		"number": 1044,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (<cite ref=\"P00144\">preced.</cite>) <i>more, better, preferable</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 45:3\">Targ. Ps. XLV, 3</cite>.—",
+				"<cite ref=\"Megillah 3b:10\">Meg. 3ᵇ</cite> <he>מקרא מגילה ע׳</he> the reading of the M’gillah takes precedence; <he>מת מצוה ע׳</he> the burial of a dead person without relatives (v. <cite ref=\"M02284\"><he>מִצְוָה</he></cite>) takes precedence. ",
+				"<cite ref=\"Yevamot 39a:20\">Yeb. 39ᵃ</cite> <he>חליצת גדול ע׳</he> the discharge of the Y’bamah (v. <cite ref=\"H01060\"><he>חֲלִיצָה</he></cite>) by the elder brother is preferable; <he>ביאת קטון ע׳</he> the marriage of the Y’bamah to the younger brother is preferable; a. fr.—Pl. <he>עֲדִיפֵי</he>. ",
+				"<cite ref=\"Megillah 3a:12\">Meg. 3ᵃ</cite> <he>אינהו ע׳ מיניה</he> they (Haggai, Zechariah and Malachi) rank higher than he (Daniel); a. fr.–With personal pron. <i>to be better</i> &c. ",
+				"<cite ref=\"Bava Metzia 101b:10\">B. Mets. 101ᵇ</cite> <he>לא עֲדִיפַת מינאי</he> thou hast no more rights than I have. ",
+				"<cite ref=\"Ketubot 103b:3\">Keth. 103ᵇ</cite> <he>לא עֲדִיפְנָא ממשה וכ׳</he> I am not more than Moses our teacher; a. fr."
+			]
+		}
+	]
+}

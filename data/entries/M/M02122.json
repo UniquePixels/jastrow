@@ -1,0 +1,33 @@
+{
+	"id": "M02122",
+	"slug": "מעך-2",
+	"headword": {
+		"text": "מְעַךְ"
+	},
+	"page": {
+		"number": 816,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M02121\">same</cite>. Part. pass. <he>מְעִיךְ</he> <i>having crushed genitals</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 22:24\">Targ. Y. Lev. XXII, 24</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מַעֵךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M02121\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 57\">Gen. R. s. 57</cite>, end; <cite ref=\"Yalkut Shimoni on Torah 102:5\">Yalk. ib. 102</cite> (play on <he>מעכה</he>, <cite ref=\"Genesis 22:24\">Gen. XXII, 24</cite>) <he>מַעֲכוֹן</he> crush them; v. <cite ref=\"C00594\"><he>גַּחֲמוֹן</he></cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

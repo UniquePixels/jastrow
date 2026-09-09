@@ -1,0 +1,22 @@
+{
+	"id": "S01800",
+	"slug": "קצורא",
+	"headword": {
+		"text": "קְצוֹרָא"
+	},
+	"page": {
+		"number": 1404,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"S01826\"><he>קְצִירָא</he></cite>; <he>קְצוֹר ערסא</he> <i>sick in bed</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 29:15\">Targ. Job XXIX, 15</cite>."
+			]
+		}
+	]
+}

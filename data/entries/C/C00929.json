@@ -1,0 +1,23 @@
+{
+	"id": "C00929",
+	"slug": "גלי-4",
+	"headword": {
+		"text": "גַּלִּי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 248,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. γάλιον) <i>galium, bed-straw</i>, an odoriferous plant. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 21:12\">Targ. Y. Num. XXI, 12</cite> [read:] <he>דמרבי חילפי וג׳</he>."
+			]
+		}
+	]
+}

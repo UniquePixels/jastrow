@@ -1,0 +1,24 @@
+{
+	"id": "C00786",
+	"slug": "גיעול-2",
+	"headword": {
+		"text": "גִּיעוּל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 241,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C01190\"><he>גָּעַל</he></cite>, v. ",
+			"units": [
+				"<cite ref=\"Job 21:10\">Job XXI, 10</cite>), pl. constr. <he>גִּיעוּלֵי</he>, <he>ג׳ בצים</he> <i>abortive eggs</i> driven off by striking the hen. ",
+				"<cite ref=\"Tosefta Terumot 9:5\">Tosef. Ter. IX, 5</cite>; Y. ib. X, 47ᵇ bot.; <cite ref=\"Chullin 64b:2\">Ḥull. 64ᵇ</cite> (Rashi: <i>eggs scalded in hot water</i> together with forbidden eggs, v. <cite ref=\"C00785\">preced.</cite>)."
+			]
+		}
+	]
+}

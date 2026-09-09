@@ -1,0 +1,32 @@
+{
+	"id": "O00630",
+	"slug": "סייף",
+	"headword": {
+		"text": "סַיִּיף"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַיִּף"
+		}
+	],
+	"page": {
+		"number": 978,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סוּף</he> II) <i>sword</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:1\">Kel. XIII, 1</cite>. ",
+				"<cite ref=\"Mishnah Kelim 14:5\">Ib. XIV, 5</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 35\">Lev. R. s. 35</cite>; <cite ref=\"Sifrei Devarim 40\">Sifré Deut. 40</cite>, v. <cite ref=\"K01185\"><he>כָּרַךְ</he></cite>; a. fr.—Esp. <i>execution by the sword</i> (= <cite ref=\"E00814\"><he>הֶרֶג</he></cite>), v. ",
+				"<cite ref=\"Mishnah Sanhedrin 7:3\">Snh. VII, 3</cite>. ",
+				"<cite ref=\"Sanhedrin 50a:1\">Ib. 50ᵃ</cite> <he>סקילה חמורה מס׳</he> stoning is a severer punishment than beheading. ",
+				"<cite ref=\"Sanhedrin 52b:10\">Ib. 52ᵇ</cite> <he>בס׳</he> is to be put to death with the sword; a. fr."
+			]
+		}
+	]
+}

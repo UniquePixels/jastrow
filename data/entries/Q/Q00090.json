@@ -1,0 +1,33 @@
+{
+	"id": "Q00090",
+	"slug": "פגר-1",
+	"headword": {
+		"text": "פָּגַר"
+	},
+	"page": {
+		"number": 1135,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"Q00068\"><he>פִּיגֵּר</he></cite> (cmp. <he>פגם</he>, <he>בגר</he>, <he>פכר</he>) <i>to split, break up, destroy</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 11:3\">Midr. Till. to Ps. XI, 3</cite> <he>אם הצדיקים שהשתיתו … ופִיגְּרוּ אותם וכ׳</he> when the wicked come and destroy the righteous that have established thy world &c.; <cite ref=\"Yalkut Shimoni on Nach 653:3\">Yalk. ib. 653</cite> <he>אם השיתין … עמדו רשעים ופִגְּרוּם וכ׳</he> if the wicked have risen and destroyed the foundations (of the Temple) which face the deep (v. <cite ref=\"U01103\"><he>שִׁית</he></cite>). ",
+						"<cite ref=\"Midrash Tehillim 79:1\">Midr. Till. to Ps. LXXIX</cite> <he>ופיגרו את בניך</he> (ed. Bub. <he>והרגו</he>). ",
+						"<cite ref=\"Midrash Tehillim 10:5\">Midr. Till. to Ps. X</cite> <he>והצדיקים … ופגרו אותן</he> and the righteous in whom thou didst find pleasure, the enemies haven risen and destroyed them; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

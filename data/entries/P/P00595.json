@@ -1,0 +1,29 @@
+{
+	"id": "P00595",
+	"slug": "עימעום-1",
+	"headword": {
+		"text": "עִימְעוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִמְעוּם",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1071,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00914\"><he>עִמְעֵם</he></cite>) <i>obscuring</i> or <i>suppressing the law, irregular measure passed in an emergency</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 8:4:2\">Y. Shebi. VIII, 38ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Avodah Zarah 2:8:4\">Y. Ab. Zar. II, 41ᵈ</cite>, a. e. <he>מהלכות של ע׳</he> one of the regulations passed in an emergency contrary to the real law. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:8:4\">Ib.</cite> <he>ויש ע׳ לאיסור</he> dare you pass a prohibitory measure contrary to law?; <cite ref=\"Jerusalem Talmud Shabbat 1:4:6\">Y. Sabb. I, 3ᶜ</cite> bot. (also <cite ref=\"P00591\"><he>עִימּוּם</he></cite>)."
+			]
+		}
+	]
+}

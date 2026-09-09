@@ -1,0 +1,46 @@
+{
+	"id": "F00084",
+	"slug": "ורד-3",
+	"headword": {
+		"text": "וְרַד"
+	},
+	"altHeadwords": [
+		{
+			"text": "וַרְדָּא"
+		}
+	],
+	"page": {
+		"number": 375,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"F00083\">same</cite><i>rose</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:1\">Targ. Cant. II, 1</cite> sq. (h. text <cite ref=\"U00576\"><he>שושנה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:24\">Targ. Ez. XXVII, 24</cite> Ar., v. <cite ref=\"K00405\"><he>כּוּשְׁפָּא</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 7:1:4\">Y. Shebi. VII, beg. 37ᵇ</cite> <he>מהו לכבוש מן ההן וו׳</he> is it permitted to use roses for preserving in the Sabbatical year?—",
+				"<cite ref=\"Shabbat 152a:4\">Sabb. 152ᵃ</cite> <he>ינקותא כלילא דו׳</he> youth is a wreath of roses. ",
+				"<cite ref=\"Gittin 68b:22\">Gitt. 68ᵇ</cite> <he>ו׳ חיורא דקאי וכ׳</he> a white rose (or blossom) whose leaves are all on one side. ",
+				"<cite ref=\"Bava Batra 69a\">B. Bath. 69ᵃ</cite>, v. <cite ref=\"F00091\"><he>וַרְדָּנָא</he></cite>.—Pl. <he>וְרָדִין</he>, <he>וַורְדֵּי</he>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 6:2\">Targ. Cant. VI, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 7:3\">Ib. VII, 3</cite>.—",
+				"<cite ref=\"Bava Batra 84a:7\">B. Bath. 84ᵃ</cite> <he>דחלפא אבי וו׳ דג״ע</he> (Ms. II. … <he>אַוַּו׳</he>) he (the sun) passes the rose-garden of Paradise. ",
+				"<cite ref=\"Avodah Zarah 65a\">Ab. Zar. 65ᵃ</cite> <he>יתיב</he> … <he>בי וו׳</he> Ms. M. (ed. <he>בוורדא</he>) seated up to his neck in roses."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>rose-color</i>.—",
+			"units": [
+				"<cite ref=\"Chullin 46a:12\">Ḥull. 46ᵃ</cite> bot. <he>וסימנך כיתונא דוו׳ וכ׳</he> and thy sign-word (for remembering which of the two membranes of the lungs is of vital import) is, the rose-colored (precious) shirt, in which the lungs lie (i.e. the interior membrane)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " עינוניתא דוו׳ <i>the little rose-lobe</i>, name of an additional lobe of the lungs found with animals of the steppes (<cite ref=\"J00741\"><he>יְתֵירְתָּא</he></cite>). Ib. 47ᵃ bot.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

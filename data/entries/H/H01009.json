@@ -1,0 +1,25 @@
+{
+	"id": "H01009",
+	"slug": "חלוקה-1",
+	"headword": {
+		"text": "חֲלוּקָּה"
+	},
+	"page": {
+		"number": 466,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>חֲלֻקָּה</he>; <cite ref=\"H01112\"><he>חָלַק</he></cite>)<i>division, partition</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 122a:7\">B. Bath. 122ᵃ</cite> <he>לא כח׳ של עוה״ז וכ׳</he> the distribution of land in the future will not be like the one of the present. ",
+				"<cite ref=\"Bava Batra 126a:9\">Ib. 126ᵃ</cite> <he>יש לו לבכור קודם ח׳</he> the first-born is the legal owner of his share before the partition has taken place. ",
+				"<cite ref=\"Ketubot 26a:6\">Keth. 26ᵃ</cite> <he>בתורת ח׳</he> as an heir’s share. ",
+				"<cite ref=\"Ketubot 94b:2\">Ib. 94ᵇ</cite> <he>ח׳ עדיפא</he> division among two claimants (where evidence is wanted) is preferable (to discretionary adjudication to one, v. <cite ref=\"U00334\"><he>שׁוּדָּא</he></cite>); a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "A02175",
+	"slug": "אנטידיקוס",
+	"headword": {
+		"text": "אַנְטִידִיקוֹס"
+	},
+	"page": {
+		"number": 83,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἀντίδικος) <i>opponent in a suit</i>, in gen. <i>adversary</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 82\">Gen. R. s. 82</cite>.—",
+				"<cite ref=\"Bereishit Rabbah 100:9\">Gen. R. s. 100</cite> <cite ref=\"A02199\"><he>אנטירוקוס</he></cite> (corr. acc.); Pesik. Naḥa’mu p. 126ᵃ; a. fr.—Pl. <he>אַנְטִידִיקִין</he> <i>parties to a suit</i>. ",
+				"<cite ref=\"Devarim Rabbah 5:1\">Deut. R. s. 5</cite> <he>האנטיריקון</he> (corr. acc.)."
+			]
+		}
+	]
+}

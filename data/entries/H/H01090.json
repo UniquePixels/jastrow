@@ -1,0 +1,27 @@
+{
+	"id": "H01090",
+	"slug": "חלמה-2",
+	"headword": {
+		"text": "חֶלְמָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִלְמִית"
+		}
+	],
+	"page": {
+		"number": 471,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חָלַם</he> I) name of several <i>mucilaginous plants</i> (v. P. Sm. 1284 s. v. <he>חלמתא</he>), prob. <i>mallows</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 5:7:4\">Y. Kil. V, end, 30ᵃ</cite>; <cite ref=\"Jerusalem Talmud Berakhot 6:1:26\">Y. Ber. VI, 10ᵇ</cite> bot. <cite ref=\"H01052\"><he>חלימה</he></cite> (read: <cite ref=\"H01117\"><he>חֶילְ׳</he></cite>); <cite ref=\"Tosefta Kilaim 3:12\">Tosef. Kil. III, 12</cite> <cite ref=\"H00779\"><he>חִילְמִית</he></cite> ed. Zuck. (Var. <he>חלמית</he>)."
+			]
+		}
+	]
+}

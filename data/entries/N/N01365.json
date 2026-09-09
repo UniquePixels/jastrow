@@ -1,0 +1,43 @@
+{
+	"id": "N01365",
+	"slug": "נתח-2",
+	"headword": {
+		"text": "נְתַח"
+	},
+	"page": {
+		"number": 943,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		},
+		{
+			"gloss": " as <cite ref=\"N01364\">preced.</cite> 2. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 113a:7\">B. Mets. 113ᵃ</cite> <he>נַתּוּחֵי אין וכ׳</he> the court messenger may distrain out side of the house, but enter and seize he dare not?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to tear, pull</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 10b:14\">Bets. 10ᵇ</cite> <he>גוזלות מְנַתְּחֵי מהדדי</he> (not <he>אהדדי</he>; Ms. M. <he>מנתקי</he>) pigeons might pull against each other (and tear the bands); <cite ref=\"Gittin 51a\">Gitt. 51ᵃ</cite>"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>נַתֵּחַ</he> <cite ref=\"N01364\">same</cite>, ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

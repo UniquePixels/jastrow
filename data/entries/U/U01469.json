@@ -1,0 +1,23 @@
+{
+	"id": "U01469",
+	"slug": "שמין-1",
+	"headword": {
+		"text": "שָׁמִין",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1595,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"U01473\"><he>שְׁמִינִי</he></cite>) <i>Shamin</i>, a coin, one eighth of an Italian Isar (As). ",
+			"units": [
+				"<cite ref=\"Kiddushin 12a:10\">Kidd. 12ᵃ</cite> <he>שתי פרוטות לש׳</he> the Shamin has two P’ruṭahs; <cite ref=\"Tosefta Bava Batra 5:12\">Tosef. B. Bath. V, 12</cite> <he>לשמן</he> ed. Zuck. (Var. <he>לשווין</he>, corr. acc.); <cite ref=\"Jerusalem Talmud Kiddushin 1:1:24\">Y. Kidd. I, 58ᵈ</cite> <he>שני פרוטות שמין</he>.—Pl. <cite ref=\"U01509\"><he>שְׁמֹנִין</he></cite>. Kidd. l. c. <he>שני ש׳ להנץ</he> two Shamins make one Hannets (v. <cite ref=\"E00691\"><he>הַנֵּץ</he></cite>); Tosef. l. c.; Y. Kidd. l. c. <he>שני שמין ניצים</he> (corr. acc.)."
+			]
+		}
+	]
+}

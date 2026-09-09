@@ -1,0 +1,33 @@
+{
+	"id": "D00946",
+	"slug": "דעך-2",
+	"headword": {
+		"text": "דְּעַךְ"
+	},
+	"page": {
+		"number": 316,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00945\">same</cite>, esp. <i>to extinguish, quench</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 16:14\">Targ. Prov. XVI, 14</cite> <he>נִדְעֲכִנֵיה</he> ed. Lag. (some ed. <he>נדעינ׳</he>, corr. acc.).—דְּעֵיךְ <i>to be quenched</i>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 43:17\">Targ. Is. XLIII, 17</cite> <he>דָּעִיכוּ</he> (ed. Lag. <he>דעו׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 10:7\">Targ. Prov. X, 7</cite>; <cite ref=\"Aramaic Targum to Proverbs 13:9\">XIII, 9</cite>, a. e. <cite ref=\"D00945\"><he>נִדְעַךְ</he></cite> shall be quenched."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אדְעֵיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to quench</i>. Ib. XV, 18.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

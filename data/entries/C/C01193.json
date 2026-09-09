@@ -1,0 +1,57 @@
+{
+	"id": "C01193",
+	"slug": "געש",
+	"headword": {
+		"text": "גָּעַשׁ"
+	},
+	"page": {
+		"number": 261,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to rush forth, to quake, be agitated</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 35:4\">Yalk. Josh. 35</cite> (cit. fr. ",
+				"<cite ref=\"Shabbat 105b:10\">Sabb. 105ᵇ</cite>, ref. to <he>הר געש</he> <cite ref=\"Joshua 24:30\">Josh. XXIV, 30</cite>) <he>מלמד שג׳ עליהם ההר להרגם</he> it intimates that the mountain over them quaked (threatening) to slay them; Sabb. l. c. <he>שרגש</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:10:1\">Cant. R. to III, 10</cite> <he>ג׳ הים וכ׳</he> the sea rushed forth and flooded the cave."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cough</i> or <i>sneeze</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 3\">Lev. R. s. 3</cite> <he>ג׳ השור וכ׳</he>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִגְעִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to shake, cause to reel</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 7:1:4\">Koh. R. to VII, 1</cite> <he>להרעיש וגם להַגְעִישׁ וכ׳</he> to shake and even make reel the mountain &c., v. supra."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְגָּעַשׁ"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְגָּעַשׁ</he> <i>to be agitated, very busy, anxious</i>. Ruth R., introd. 2 <he>נִתְגָּעֲשׁוּ … מעשות ג״ח וכ׳</he> the Israelites were too much engrossed (in settling) to attend the funeral of Joshua; Koh. R. l. c.—Pesik. R. addit. s. 2 (ref. to <he>יגעשו</he>, <cite ref=\"Job 34:20\">Job XXXIV, 20</cite>) <he>מִתְגָּעֲשִׁים וכ׳</he> marched hurriedly to get out &c.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

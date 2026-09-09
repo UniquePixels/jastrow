@@ -1,0 +1,32 @@
+{
+	"id": "O00031",
+	"slug": "סבב-2",
+	"headword": {
+		"text": "סְבַב"
+	},
+	"page": {
+		"number": 948,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00030\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"A02324\"><he>אַסִּב</he></cite> <i>to go around</i> (announcing). ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Rosh Hashanah 2:1:8\">Y. R. Hash. II, 58ᵃ</cite> top <he>דהוון אילין מַסְּבִין יומא דין וכ׳</he> these went around (as messengers to announce the New-Moon) to-day, and others the day after. ",
+						"<cite ref=\"Jerusalem Talmud Rosh Hashanah 2:1:8\">Ib.</cite> <he>מהו דיַסְּבוּן</he>; <he>למה מַסְּבָה</he>, v. <cite ref=\"R00722\"><he>צְפַת</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

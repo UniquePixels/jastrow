@@ -1,0 +1,35 @@
+{
+	"id": "U00069",
+	"slug": "שבהור",
+	"headword": {
+		"text": "שִׁבְהוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁבְהוֹרָא"
+		},
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1510,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., <cite ref=\"U00789\"><he>שִׁבְהוֹרְתָּא</he></cite>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite> f. (<cite ref=\"U00070\">next w.</cite>) <i>splendor, glory</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 26:19\">Targ. Y. Deut. XXVI, 19</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 8:6\">Targ. Ps. VIII, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 2:7\">Targ. Prov. II, 7</cite> (ed. Lag. <cite ref=\"O00034\"><he>סבהיי</he></cite>, read: <he>סבהור</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 96:9\">Targ. Ps. XCVI, 9</cite> <cite ref=\"U00069\"><he>שִׁבְהוֹרַת</he></cite> constr.; a. fr.—Pl. constr. <cite ref=\"U00069\"><he>שִׁבְהוֹרֵי</he></cite>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 110:3\">Ib. CX, 3</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 16:29\">Targ. I Chr. XVI, 29</cite>."
+			]
+		}
+	]
+}

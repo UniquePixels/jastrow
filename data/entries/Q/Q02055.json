@@ -1,0 +1,32 @@
+{
+	"id": "Q02055",
+	"slug": "פשוטא",
+	"headword": {
+		"text": "פְּשׁוּטָא"
+	},
+	"page": {
+		"number": 1245,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02054\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>flat, plain</i>.—Pl. <he>פְּשׁוּטַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 31:22\">Targ. Y. Num. XXXI, 22</cite> <i>flat vessels</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>plain sense</i>, v. <cite ref=\"Q02065\"><he>פְּשָׁטָא</he></cite>.—[<cite ref=\"Yalkut Shimoni on Nach 352\">Yalk. Is. 352</cite> <he>מפשוטיהן</he>, v. <cite ref=\"Q02072\"><he>פְּשִׁיטָא</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

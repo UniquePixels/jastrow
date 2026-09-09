@@ -1,0 +1,22 @@
+{
+	"id": "J00685",
+	"slug": "ישועה",
+	"headword": {
+		"text": "יְשׁוּעָה"
+	},
+	"page": {
+		"number": 600,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"J00700\"><he>יָשַׁע</he></cite>)<i>redemption, help</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 14:7\">Midr. Till. to Ps. XIV</cite>; <cite ref=\"Vayikra Rabbah 24:4\">Lev. R. s. 24</cite>; <cite ref=\"Moed Katan 5a:23\">M. Kat. 5ᵃ</cite> <he>יְשׁוּעָתוֹ של חקב״ה</he> the salvation by the Lord; a. fr."
+			]
+		}
+	]
+}

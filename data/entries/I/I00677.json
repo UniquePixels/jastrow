@@ -1,0 +1,23 @@
+{
+	"id": "I00677",
+	"slug": "טפף-4",
+	"headword": {
+		"text": "טֶפֶף",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 548,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טָפַף</he> I) <i>addition to city limits, suburb</i>; pr. n. pl. <i>Tefef</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 75b:5-9\">B. Bath. 75ᵇ</cite> <he>עתיד … אלף ט׳ גינואות</he> in the future the Lord shall add to Jerusalem one thousand times the area of Tefef for gardens; Yalk. Zech. 568 (for Var. lect., v. Rabb. D. S. to B. Bath. l. c. note 40. Comment. takes <he>טפ״ף</he> as numerals = 169)."
+			]
+		}
+	]
+}

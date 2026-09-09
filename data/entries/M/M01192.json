@@ -1,0 +1,35 @@
+{
+	"id": "M01192",
+	"slug": "מילפפון",
+	"headword": {
+		"text": "מִילְפִּפּוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִלְ׳"
+		}
+	],
+	"page": {
+		"number": 775,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (μηλοπέπων) <i>an apple-shaped melon, cucumber-melon</i>, prob. the fruit <i>squash</i> (v. Sm. Ant. s. v.). ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:2\">Kil. I, 2</cite> <he>הקשות והמ׳ וכ׳</he> (Ms. M. <he>הקישות והמלפפין</he>) cucumbers and melopepons are not forbidden as mingled seeds (<cite ref=\"K00674\"><he>כִּלְאַיִם</he></cite>); <cite ref=\"Mishnah Terumot 2:6\">Ter. II, 6</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:2:2\">Y. Kil. I, 27ᵃ</cite> bot. <he>לפום כן … בלישנא יוני מ׳ …</he> (not <he>יונא</he>) therefore (because it is a hybrid product of apple [μῆλον] and pepon [σίκυα πέπων] they call it in Greek melopepon. ",
+				"<cite ref=\"Tosefta Shevi'it 5:3\">Tosef. Shebi. V, 3</cite> (missing in ed. Zuck.) <he>עיקר המלפפין</he> (Var. <he>הבלבסין</he>) the real fruit melopepon (contrad. to leaves). ",
+				"<cite ref=\"Tosefta Uktsin 2:10\">Tosef. Ukts. II, 10</cite> <cite ref=\"M01610\"><he>מלפין</he></cite> (Var. <he>טלפין</he>; corr. acc.). ",
+				"<cite ref=\"Tosefta Uktsin 2:14\">Ib. 14</cite> <he>מלפפין</he>. ",
+				"<cite ref=\"Tosefta Tahorot 5:4\">Tosef. Toh. V, 4</cite> <he>מלפפן</he>.—Pl. <he>מִילְפִּפּוֹנוֹת</he>, <he>מִילְפִּפּוֹנִין</he>, <cite ref=\"M01192\"><he>מִלְ׳</he></cite>. ",
+				"<cite ref=\"Tosefta Kilaim 1:1\">Tosef. Kil. I, 1</cite>. ",
+				"<cite ref=\"Mishnah Terumot 8:6\">Ter. VIII, 6</cite>; a. e.—",
+				"<cite ref=\"Yalkut Shimoni on Nach 968:28\">Yalk. Koh. 968</cite> <he>אפי׳ … מלפפונין וכ׳</he> even melopepons in Nisan were not absent from Solomon’s table; Tanḥ. Yithro 7 <cite ref=\"M01606\"><he>מלספנון</he></cite>; ed. Bub. 5 <he>בילפפונין</he> (corr. acc.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,81 @@
+{
+	"id": "K01046",
+	"slug": "כפר-1",
+	"headword": {
+		"text": "כָּפַר"
+	},
+	"page": {
+		"number": 661,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>כפף</he>)<i>to bend, arch over, cover</i>; v. <cite ref=\"K00994\"><he>כְּפוֹר</he></cite>, <cite ref=\"K00344\"><he>כּוֹפֶר</he></cite> &c.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to pass over with one’s palm</i> &c., <i>to wipe out, rub</i> (cmp. <cite ref=\"H01465\"><he>חפף</he></cite>),] <i>to deny, withhold the truth by claiming ignorance; to ignore</i> (mostly with <cite ref=\"B00000\"><he>ב</he></cite> of the object). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 4a:8\">B. Mets. 4ᵃ</cite> <he>הכּוֹפֵר במלוה</he> he who denied having received a loan (and was refuted before being sworn, v. <cite ref=\"E00475\"><he>הֶיסֵּת</he></cite>). ",
+				"<cite ref=\"Bava Metzia 4a:5\">Ib.</cite> <he>על מה שכ׳ וכ׳</he> he is sworn on what he denied. ",
+				"<cite ref=\"Mishnah Shevuot 4:1\">Shebu. IV, 1</cite> <he>עד שיִכְפְּרוּ בהן בב״ד</he> until they declare their ignorance (of the testimony) before court. ",
+				"<cite ref=\"Mishnah Shevuot 4:4\">Ib. 4</cite> <he>כָּפְרוּ שניהן וכ׳</he> if both witnesses pleaded ignorance at the same time. ",
+				"<cite ref=\"Mishnah Shevuot 4:4\">Ib.</cite> <he>כָּפְרָה הראשונה</he> if the first set of witnesses pleaded ignorance. Ib. VI, 3 <he>והודה … וכ׳ בקרקעות</he> and defendant admits the debt concerning vessels, but denies it as to landed estate. ",
+				"<cite ref=\"Shabbat 116a:8\">Sabb. 116ᵃ</cite> <he>מכירין וכוֹפְרִין</he> they know (true religion) and yet are disbelievers. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:14:3\">Cant. R. to I, 14</cite> (play on <he>הכפר</he>, <cite ref=\"Shir HaShirim Rabbah 1:14:3\">ib.</cite>) <he>שכ׳ באו״ה</he> He disowned the gentiles (did not assist them), opp. <cite ref=\"J00100\"><he>הודה</he></cite>; a. v. fr.—כ׳ בעיקר <i>to deny the principle of religion</i> (unity of God &c.). ",
+				"<cite ref=\"Bava Batra 16b\">B. Bath. 16ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 39a\">Snh. 39ᵃ</cite> <he>א״ל כּוֹפֵר</he> ed. (Ms. M. <cite ref=\"S01080\"><he>קיסר</he></cite>) an infidel said &c."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִכְפִּיר"],
+			"senses": [
+				{
+					"gloss": " (v. <cite ref=\"K01052\"><he>כַּפָּרָה</he></cite>) <i>to say of a person, ‘May his death be an atonement for his sins!</i>’ euphem. for <i>to be angry at</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 69a:5\">Pes. 69ᵃ</cite> <he>אל תַּכְפִּירֵנִי בשעת הדין</he> ed. (Ms. M. a. Ar. <he>תְּכַפְּרֵנִי</he>) do not make me an atonement (saying <he>תהא מיתתו כפרה</he>) at the time of judgment (differ. in comm.); <cite ref=\"Avodah Zarah 46b\">Ab. Zar. 46ᵇ</cite> (some eds. <he>תכפריני</he>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["כִּיפַּר", "כִּפֵּר"],
+			"senses": [
+				{
+					"gloss": " [<i>to wipe out</i>,] <i>to forgive, atone; to procure forgiveness</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 5a:5\">Yoma 5ᵃ</cite> <he>כאילו לא כ׳ וכפר</he> as if he (the priest) had not procured atonement (in the proper manner), although he has procured atonement (for the person concerned); <cite ref=\"Mishnah Negaim 14:10\">Neg. XIV, 10</cite> <he>כ׳ ומעלין עליו כאילו לא כ׳</he> he has brought atonement, but it is accounted to the officiating priest as if he had not done so. ",
+						"<cite ref=\"Berakhot 55a\">Ber. 55ᵃ</cite> … <he>כל זמן מזבח מְכַפֵּר על וכ׳</he> as long as the Temple existed, the altar was the means of atonement for Israel, but now each man’s table must be the means of atonement (ref. to <cite ref=\"Ezekiel 41:22\">Ez. XLI, 22</cite>). Tanḥ. Vayishl. 6 <he>כשם … מְכַפֶּרֶת וכ׳</he> as the altar brings atonement, so does she (the chaste wife) atone for her household. ",
+						"<cite ref=\"Kiddushin 57a:3\">Kidd. 57ᵃ</cite>, a. e. <he>מכשיר ומכפר</he>, v. <cite ref=\"K01324\"><he>כָּשֵׁר</he> I</cite>; a. v. fr.—[<cite ref=\"Avodah Zarah 46b\">Ab. Zar. 46ᵇ</cite>, v. supra]. "
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְכַּפֵּר"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְכַּפֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be expiated; to be forgiven</i>. ",
+					"units": [
+						"<cite ref=\"Rosh Hashanah 18a\">R. Hash. 18ᵃ</cite>; <cite ref=\"Yevamot 105a:13-14\">Yeb. 105ᵃ</cite> (ref. to <cite ref=\"I Samuel 3:14\">I Sam. III, 14</cite>) <he>בזבח … מִתְכַּפֵּר וכ׳</he> through sacrifice … it will not be expiated, but it may be so by the study of the Law. ",
+						"<cite ref=\"Shevuot 12a:14\">Shebu. 12ᵃ</cite> <he>אשם … שנִתְכַּפְּרוּ בעליו</he> an animal dedicated for a guilt-offering … whose owner has otherwise obtained atonement; (<cite ref=\"Mishnah Temurah 3:3\">Tem. III, 3</cite> <he>שכִּפְּרוּ וכ׳</he> whose owner has procured atonement &c.). ",
+						"<cite ref=\"Yoma 50b\">Yoma 50ᵇ</cite>, a. e. <cite ref=\"K01046\"><he>המִתְכַּפֵּר</he></cite> he for whose atonement the animal is dedicated. ",
+						"<cite ref=\"Yoma 51b:2\">Ib. 51ᵇ</cite> <he>שאין הצבור מִתְכַּפְּרִין בו</he> as the community is not to obtain forgiveness through it (the bullock); a. fr.—Y. Macc. II, 31ᵈ bot. <he>יעשה … ויִתְכַּפֶּר לו</he> let him repent and he shall be forgiven; Pesik. Shub. p. 158ᵇ; <cite ref=\"Yalkut Shimoni on Nach 358\">Yalk. Ez. 358</cite>; <cite ref=\"Yalkut Shimoni on Nach 702\">Yalk. Ps. 702</cite>. Tanḥ. T’rum. 8 <he>נתכ׳ להם</he> they were forgiven; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

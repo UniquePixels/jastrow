@@ -1,0 +1,49 @@
+{
+	"id": "U00244",
+	"slug": "שגש-3",
+	"headword": {
+		"text": "שְׁגַשׁ"
+	},
+	"page": {
+		"number": 1523,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>שַׁגֵּישׁ</he> <cite ref=\"U00243\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 23:27\">Targ. Y. Ex. XXIII, 27</cite> (O. Var. <he>וְאֶשַׁגֵּשׁ</he>, Ms. III <he>אֶשְׁגַּשׁ</he>; v. Berl. Targ. O. II, p. 27; h. text <he>והמתי</he>). Targ. O. ib. XIV, 24. ",
+						"<cite ref=\"Onkelos Deuteronomy 7:23\">Targ. O. Deut. VII, 23</cite>; a. fr.—",
+						"<cite ref=\"Bava Batra 9b\">B. Bath. 9ᵇ</cite>, sq. <he>עולא מְשַׁגֵּשׁ וכ׳</he>, v. <cite ref=\"P00247\"><he>עוּלָא</he> I</cite>; [v., however, <cite ref=\"U00245\"><he>שְׂגַשׂ</he></cite>]."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתַּגֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be confused, perplexed, excited</i>. Targ. II Esth. VI, 10. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 1:41\">Targ. I Kings I, 41</cite>; <cite ref=\"Targum Jonathan on I Kings 1:45\">45</cite> (h. text <cite ref=\"E00622\"><he>המם</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 39:7\">Targ. Ps. XXXIX, 7</cite> (h. text <he>יהמיון</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 46:4\">Ib. XLVI, 4</cite> <he>מִשְׁתַּגְֹּשִׁין</he> Ms. (ed. <he>מתרגשין</he>); a. fr.—",
+						"<cite ref=\"Targum Jonathan on Jeremiah 23:19\">Targ. Jer. XXIII, 19</cite> (h. text <he>מתחולל</he>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 25:16\">Ib. XXV, 16</cite>, v. <cite ref=\"U00247\"><he>שַׁגְשֵׁג</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

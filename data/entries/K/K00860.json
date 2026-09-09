@@ -1,0 +1,138 @@
+{
+	"id": "K00860",
+	"slug": "כנס-1",
+	"headword": {
+		"text": "כָּנַס"
+	},
+	"page": {
+		"number": 649,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"K00314\"><he>כּוֹס</he> I</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to collect, gather; to cover, shelter, bring home</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 6:1\">B. Kam. VI, 1</cite> <he>הכּוֹנס צאן לדיר</he> he who takes the flock into the stall; a. fr.—כ׳ משקה <i>to absorb</i> liquids through pores, opp. to <cite ref=\"J00515\"><he>הוציא</he></cite> to let liquids escape through pores. ",
+				"<cite ref=\"Niddah 49a:24\">Nidd. 49ᵃ</cite> <he>יביא … אם כָּנְסָה וכ׳</he> get a tub full of water and put the pot in, if it draws water &c. ",
+				"<cite ref=\"Mishnah Kelim 10:8\">Kel. X, 8</cite> <he>היו בכוֹנֵס משקה</he> (sub. <he>נקובין</he>) if the vessels were so porous as to be called absorbers of liquids. Nidd. l. c. <he>כיצד … לידע אם ניקב בכונס משקה</he> how do we examine to find out whether a vessel is porous to the extent of absorbing liquids? (v. supra); a. fr.—Esp. <i>to take a woman home, to consummate a marriage by conducting a woman to one’s house, to wed</i>, v. <cite ref=\"A01606\"><he>אֵירוּסִין</he></cite> a. <cite ref=\"N00795\"><he>נִישּׂוּאִין</he></cite>. ",
+				"<cite ref=\"Ketubot 3b:1\">Keth. 3ᵇ</cite> <he>וברביעי כּוֹנְסָהּ</he> and on the fourth day of the week he weds her. ",
+				"<cite ref=\"Ketubot 3b:2\">Ib.</cite> <he>ומסכנה ואילך נהגו … לִכְנוֹס וכ׳</he> and from the days of persecution … the people adopted the custom to wed on the third day; … <he>ובשני לא יִכְנוֹס</he> but on the second day one must not marry. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 4:11:10\">Y. Yeb. IV, 6ᵇ</cite> <he>כְּנָסָהּ ולא וכ׳</he> he took her to his home but did not touch her &c.; a. fr.—Part. pass. <cite ref=\"K00044\"><he>כְּנוּסָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 2:5:3\">Y. Sot. II, 18ᵇ</cite> top <he>שומרת יבם וכ׳</he> neither while waiting for the <i>yabam</i> nor after having been taken to his house."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of a sore) [<i>to gather</i>,] <i>to grow smaller, to contract</i>, opp. <he>פשה</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 4:7\">Neg. IV, 7</cite>; <cite ref=\"Tosefta Negaim 2:6\">Tosef. ib. II, 6</cite>; Sifra Thazr., Neg., Par. 2, ch. II; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (archit.) <i>to recede, to form a settle</i> or <i>recess</i> in a wall. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 3:1\">Midd. III, 1</cite> <he>עלה אמה וכ׳ אמה</he> (the altar) rose one cubit and then receded one cubit; <cite ref=\"Menachot 97b\">Men. 97ᵇ</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Eruvin 7:2:4\">Y. Erub. VII, 24ᵇ</cite> bot. (of an inclined plane) <he>עולה אמה וכוֹנֵס שלש</he> it rises vertically one cubit, while the incline measures three cubits, v. <cite ref=\"K00486\"><he>כִּיבּוּשׁ</he></cite>.—Part. pass. <cite ref=\"K00844\"><he>כָּנוּס</he></cite>, f. <cite ref=\"K00044\"><he>כְּנוּסָה</he></cite>. ",
+				"<cite ref=\"Tosefta Eiruvin 1:10\">Tosef. Erub. I, 10</cite> <he>כותל שצידו אחד כ׳ מחבירו וכ׳</he> a wall which is more receding on one side than on the other, either the inner wall being even &c.; <cite ref=\"Eruvin 9b\">Erub. 9ᵇ</cite>; <cite ref=\"Eruvin 15a\">15ᵃ</cite>; (Y. ib. 19ᵇ top <he>כותל הנכנס</he>). ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 1:1:10\">Y. Succ. I, 52ᵃ</cite> <he>אפי׳ כנוסה כמה</he> even if the reduction be ever so large."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִכְנַס"],
+			"senses": [
+				{
+					"gloss": "<i>to be brought in, to enter</i>, opp. <he>יצא</he>; <i>to assemble, meet</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 65a\">Erub. 65ᵃ</cite>, v. <cite ref=\"O00257\"><he>סוֹד</he></cite>. ",
+						"<cite ref=\"Eruvin 15b\">Ib. 15ᵇ</cite> <he>נ׳ ויוצא</he> is easily passed in and out. ",
+						"<cite ref=\"Mishnah Kelim 9:7\">Kel. IX, 7</cite> <he>מלא … נ׳</he> when a piece of the size … can be passed, <he>לא נ׳</he> when it cannot pass (exactly fitting in). Y. Erub. I, 18ᶜ bot. <he>אין … לִיכָּנֵס וכ׳</he> it is not the habit of man to enter through one door and leave through another.—",
+						"<cite ref=\"Chullin 3a\">Ḥull. 3ᵃ</cite>, a. fr. <he>יוצא ונ׳</he> superintending by going in and out. ",
+						"<cite ref=\"Shabbat 137b:6\">Sabb. 137ᵇ</cite> <he>כשם שנ׳ … יִכָּנס וכ׳</he> as he (the child) has been entered into the covenant, so may he be introduced to the study of the Law &c. ",
+						"<cite ref=\"Sanhedrin 101a:11\">Snh. 101ᵃ</cite> <he>נִכְנְסוּ תלמידיו וכ׳</he> his pupils came together to visit him. Tosef. Ber. VII (VI), 19, a. e. <he>לא יִכָּנֵס אדם להר וכ׳</he> one must not enter the Temple mount &c.—",
+						"<cite ref=\"Mishnah Megillah 1:3\">Meg. I, 3</cite> <he>מקום שנִכְנָסִין וכ׳</he> a place where the country people are in the habit of assembling on Mondays &c.; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to form a recess</i> or <i>settle</i>. Y. Erub. I, 19ᵇ top, v. supra.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be married</i>, v. supra. Y. Yeb. IV, 6ᵇ <he>הִיכָּנְסִי וכ׳</he> be my wife and raise thy sister’s children; <cite ref=\"Kohelet Rabbah 9:9\">Koh. R. to IX, 9</cite>; a. fr.",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["כִּינֵּס"],
+			"senses": [
+				{
+					"gloss": "<i>to gather, collect</i>. Tosef. Ber. VII (VI), 24 <he>בשעת המְכַנְּסִין … כַּנֵּס</he> when people collect (learning), scatter, when they scatter (are indifferent), gather in (withdraw); v. <cite ref=\"B00160\"><he>בְּדַר</he></cite>; <cite ref=\"Berakhot 63a:10\">Ber. 63ᵃ</cite> <he>המכניסים</he> (read: <he>המְכַנְּ׳</he>, v. Rabb. D. S. a. l. note 9). ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 17\">Ex. R. s. 17</cite>, beg. <he>שכִּינְּסָן מעל הארץ</he> which (waters) he gathered from upon the land. ",
+						"<cite ref=\"Devarim Rabbah 3\">Deut. R. s. 3</cite> <he>כִּינְּסָה את בניה</he> she assembled her children; a. fr.—Part. pass. <he>מְכוּנָּס</he>, f. <he>מְכוּנֶּסֶת</he>; pl. <he>מְכוּנָּסִין</he>, <he>מְכוּנָּסוֹת</he>. ",
+						"<cite ref=\"Eruvin 21a\">Erub. 21ᵃ</cite> (<cite ref=\"M01199\"><he>מים</he></cite>) <cite ref=\"M00001\"><he>מ׳</he></cite> collected water, opp. <he>מים חיים</he>. ",
+						"<cite ref=\"Midrash Tehillim 70:1\">Midr. Till. to Ps. LXX</cite> <he>הרי הצאן מכ׳</he> the flock is gathered again. ",
+						"<cite ref=\"Mishnah Negaim 4:3\">Neg. IV, 3</cite> <he>במ׳</he> when the hairs on the leprous spot are close together, opp. <he>מפוזר</he>; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִכְנִיס"],
+			"senses": [
+				{
+					"gloss": "<i>to bring in, to lay in, store up; to introduce, pass; to initiate</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 9:3\">Lev. R. s. 9</cite> <he>הִכְנִיסוֹ לביתו</he> he invited him to his house. ",
+						"<cite ref=\"Shemot Rabbah 20:14\">Ex. R. s. 20</cite> <he>אם אני מַכְנִיסָן וכ׳</he> if I lead them now into the land. ",
+						"<cite ref=\"Shemot Rabbah 20\">Ib.</cite> <he>ה׳ יינו וכ׳</he> he stored his wine in the cellar. ",
+						"<cite ref=\"Menachot 97a:10\">Men. 97ᵃ</cite> <he>ומכניס קנה וכ׳</he> and passes a tube under it. ",
+						"<cite ref=\"Shabbat 118b\">Sabb. 118ᵇ</cite> <he>ה׳ ידו וכ׳</he> put his hand under his belt. ",
+						"<cite ref=\"Shabbat 118b:7\">Ib.</cite> <he>מַכְנִיסֵי שבת</he> who usher the Sabbath in (with prayer). Ib. 137ᵇ <he>להַכְנִיסוֹ בבריתו וכ׳</he> to initiate him into the covenant &c. (v. supra). Y. Yeb. I, 3ᵃ bot. <he>הרי אתם מַכְנִיסִין ראשי וכ׳</he> you want me to put my head between two great mountains. Mekh. B’shall., Shir., s. 6 <he>לא מוציא ולא מַכְנִיס</he> neither lets escape nor receives, v. <cite ref=\"N00309\"><he>נוֹד</he></cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְכַּנֵּס"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְכַּנֵּס"],
+			"senses": [
+				{
+					"gloss": "<i>to assemble, meet, be reunited</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 27b:6\">Taan. 27ᵇ</cite> <he>מִתְכַּנְּסִין לבה״כ</he> meet at the synagogue. ",
+						"<cite ref=\"Bereishit Rabbah 39\">Gen. R. s. 39</cite>, a. e. <he>אם מתכנסין כל וכ׳</he> if all human beings were to join for creating &c.; <cite ref=\"Shir HaShirim Rabbah 1:3\">Cant. R. to I, 3</cite> <he>מִתְכַּנְּשִׁין</he>. Mekh. B’shall. s. 6 <he>אין הגליות מִתְכַּנְּסוֹת וכ׳</he> the diaspora will be reunited only as a reward for faith; a. fr.—",
+						"<cite ref=\"Bereishit Rabbah 12\">Gen. R. s. 12</cite>, beg. <he>מתכנסין ויוצאין</he>; (Koh. R. to II, 12 <he>נכנסין</he>) they go in and out."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to gather, become closer</i> (v. supra). ",
+					"units": [
+						"<cite ref=\"Mishnah Negaim 1:6\">Neg. I, 6</cite> <he>נִתְכַּנְּסָה</he> the sore gathered."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

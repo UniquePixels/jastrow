@@ -1,0 +1,42 @@
+{
+	"id": "N00979",
+	"slug": "נעילה",
+	"headword": {
+		"text": "נְעִילָה"
+	},
+	"page": {
+		"number": 919,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00986\"><he>נָעַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>closing, shutting</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 3:3:6\">Y. Erub. III, 21ᵃ</cite> <he>היא קשירה היא נ׳</he> tying a door (the stem <he>קשר</he>) means the same as shutting (the stem <he>נעל</he>). ",
+				"<cite ref=\"Bamidbar Rabbah 14:1\">Num. R. s. 14</cite> (play on <he>נעלי</he>, <cite ref=\"Psalms 60:10\">Ps. LX, 10</cite>) <he>בנְעִילַת גרונו</he> by tying up his throat (strangulation).—נעילת שערים <i>the time of closing the Temple gates</i>; (sub. <cite ref=\"V00829\"><he>תְּפִלַּת</he></cite>) <i>the concluding prayer on the Day of Atonement, on public fasts and Maʿămadoth</i> (v. <cite ref=\"M02143\"><he>מַעֲמָד</he></cite>); <i>the prayer called N’ʿilah</i> (<cite ref=\"N00979\"><he>נְעִילָה</he></cite>). ",
+				"<cite ref=\"Mishnah Taanit 4:1\">Taan. IV, 1</cite> <he>בשחרית … בנ׳ ש׳</he> during the morning prayer, the Musaf, the Minḥah and the N’ʿilah. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:23\">Y. Ber. IV, 7ᶜ</cite> top <he>אימתי הוא נ׳</he> when is the time for the N.? <he>בנעילת שערי שמים</he> when the gates of heaven are closed (sunset); <he>בנ׳ שערי היכל</he> when the Temple gates are closed. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:23\">Ib.</cite> <he>דנצלי נ׳ שערים</he> that we may offer the N. prayer. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:23\">Ib.</cite> <he>נ׳ פוטרת וכ׳</he>; <cite ref=\"Yoma 87b:12\">Yoma 87ᵇ</cite> <he>תפלת נ׳ וכ׳</he> the concluding prayer exempts from reading the evening prayer; a. fr.—Trnsf. <i>locking up, interruption of business</i>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 7:2:2\">Cant. R. to VII, 2</cite> (play on <he>בנעלים</he>, <cite ref=\"Shir HaShirim Rabbah 7:2:2\">ib.</cite>) <he>שתי נעלים נ׳ בפסח ונ׳ בחג</he> two cessations of business, one shutting up on Passover, and one &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>נעילת הסנדל</he> (or <cite ref=\"N00979\"><he>נעילה</he></cite>) <i>putting on sandals, wearing shoes</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 8:1\">Yoma VIII, 1</cite>. ",
+				"<cite ref=\"Yoma 74a\">Ib. 74ᵃ</cite>; <cite ref=\"Moed Katan 15b\">M. Kat. 15ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 100:7\">Gen. R. s. 100</cite> <he>נ׳ רשות</he> wearing shoes (by the mourner on the Sabbath) is a matter of choice, v. <cite ref=\"N01391\"><he>נת״ר</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

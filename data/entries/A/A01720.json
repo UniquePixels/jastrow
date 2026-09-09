@@ -1,0 +1,33 @@
+{
+	"id": "A01720",
+	"slug": "אכסדרא",
+	"headword": {
+		"text": "אַכְסַדְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַכְסִדְרָא"
+		},
+		{
+			"text": "אַכְסִדְרָה"
+		}
+	],
+	"page": {
+		"number": 64,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἐξέδρα, exedra) (Greek) <i>a covered place in front of the house;</i> (Roman) <i>recess, parlor, hall for conversations and discussions</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 3:23\">Targ. Jud. III, 23</cite>. [Pl. ",
+				"<cite ref=\"Aramaic Targum to Psalms 104:3\">Targ. Ps. CIV, 3</cite>, v. <cite ref=\"A01371\"><he>אִינְדְּרָא</he></cite>.] <cite ref=\"Bava Batra 11b:2\">B. Bath. 11ᵇ</cite> <he>א׳ דבי רב</he> the hall of the school house (philosophers’ exedra, v. Sm. Ant. s. v.), contrad. to <he>א׳ רומייתא</he> (Ms. Oxf. <he>דרומיתא</he>, v. Rabb. D. S. a. l. note 10) Roman exedra (open but surrounded by a railing). ",
+				"<cite ref=\"Bava Batra 25a:8\">Ib. 25ᵃ</cite>; <cite ref=\"Bava Batra 25b:7\">25ᵇ</cite> <he>עולם לא׳ וכ׳</he> the world resembles an exedra the northernmost side of which is not covered (<he>מסוככת</he> Ms. M., ed. <he>מסובבת</he> not surrounded); a. fr.—Pl. <he>אַכְסַדְרָאוֹת</he>. ",
+				"<cite ref=\"Tamid 28b:13\">Tam. 28ᵇ</cite> <he>א׳ של בנין</he> exedras forming, or belonging to, a structure (opp. to open exedra with plants)."
+			]
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"id": "I00543",
+	"slug": "טמי-1",
+	"headword": {
+		"text": "טְמִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְמָא"
+		}
+	],
+	"page": {
+		"number": 539,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"I00529\"><he>טָמֵא</he></cite>, <i>to be, become unclean</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 106:39\">Targ. Ps. CVI, 39</cite> <he>טְמִיאוּ</he> (some ed. incorr. <he>טַמִּי׳</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טַמֵּי", "טַמֵּא"],
+			"senses": [
+				{
+					"gloss": "<i>to make unclean</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Numbers 12:12\">Targ. Y. II, Num. XII, 12</cite>.—",
+						"<cite ref=\"Targum Jonathan on Micah 2:10\">Targ. Mic. II, 10</cite> <he>בדיל לטַמָּיוּתָהּ</he> ed. Lag. (ed. <he>בדיל ט׳</he> corr. acc.) in order to defile her.—",
+						"<cite ref=\"Chullin 3a\">Ḥull. 3ᵃ</cite> <he>לטַמְּיֵיה וטַמִּיתֵיה לבשר …</he> the person will make the knife unclean and then the knife will make the flesh unclean. ",
+						"<cite ref=\"Pesachim 79a:17\">Pes. 79ᵃ</cite> <he>דבשר הוא דמְטַמְּיָא ליה וכ׳</he> which affects only the flesh, but not the person. (Ms. M. <he>דמִיטַּמֵּי … מִיטַּמְּאֵי</he>, <i>Ithpe.</i>). ",
+						"<cite ref=\"Pesachim 67b:1\">Ib. 67ᵇ</cite> <he>טַמּוּיֵי מְטַמֵּי</he> makes unclean; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיטְּמֵי", "אִיטְּמָא"],
+			"senses": [
+				{
+					"gloss": "<i>to be made unclean</i>. ",
+					"units": ["<cite ref=\"Chullin 2b:14\">Ḥull. 2ᵇ</cite>; a. e."]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

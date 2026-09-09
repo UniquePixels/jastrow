@@ -1,0 +1,23 @@
+{
+	"id": "B00778",
+	"slug": "בכי-3",
+	"headword": {
+		"text": "בְּכִי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 169,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"B00777\">preced.</cite>) <i>weeping</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 68:4\">Gen. R. s. 68</cite>; <cite ref=\"Vayikra Rabbah 8:1\">Lev. R. s. 8</cite>, a. e. (playing on <he>בכושרות</he>, <cite ref=\"Psalms 68:7\">Ps. LXVIII, 7</cite>) <he>ב׳ ושירות</he> weeping and songs, <he>מאן דבעי אומר וכ׳</he> he who loves (his wife) sings, he who does not, weeps; <cite ref=\"Sanhedrin 22a:20\">Snh. 22ᵃ</cite>"
+			]
+		}
+	]
+}

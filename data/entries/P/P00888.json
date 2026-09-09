@@ -1,0 +1,38 @@
+{
+	"id": "P00888",
+	"slug": "עמיק-1",
+	"headword": {
+		"text": "עַמִּיק"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָמִיק",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1088,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"P00874\"><he>עָמוֹק</he></cite>, <i>deep</i>, (of color) <i>faint, light-shaded</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 13:3\">Targ. Lev. XIII, 3</cite>; a. fr.—Trnsf. <i>obscure, indistinct; profound</i>. ",
+				"<cite ref=\"Onkelos Exodus 4:10\">Targ. O. Ex. IV, 10</cite> (h. text <cite ref=\"K00030\"><he>כבד</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 33:19\">Targ. Is. XXXIII, 19</cite>.—Pl. <he>עֲמִיקִין</he>, <he>עֲמִיקֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 18:4\">Targ. Prov. XVIII, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:1\">Ib. XXV, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 92:6\">Targ. Ps. XCII, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 3:5\">Targ. Ez. III, 5</cite> ed. Lag. (ed. Wil. <cite ref=\"P00925\"><he>עִמְקֵי</he></cite>); a. e.—<i>Fem.</i> <he>עֲמִיקָא</he>, <cite ref=\"P00891\"><he>עֲמִיקְתָּא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:3\">Targ. Prov. XXV, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 22:14\">Ib. XXII, 14</cite> (ed. Wil. <he>עֲמִקְ׳</he>); a. e.—",
+				"<cite ref=\"Taanit 23b:10\">Taan. 23ᵇ</cite> [read:] <he>בדוכתא ע׳ צניעא</he> (v. Rabb. D. S. a. l. note 400) in a depressed, retired place. ",
+				"<cite ref=\"Bereishit Rabbah 63\">Gen. R. s. 63</cite>; <cite ref=\"Yalkut Shimoni on Torah 110:10\">Yalk. ib. 110</cite> <he>מילתא ע׳ הוא דין</he> this (that the name Israel includes Abraham) is a deep word (because it explains <cite ref=\"Exodus 12:40\">Ex. XII, 40</cite>; v. <cite ref=\"A01403\"><he>אִיסוֹפּוֹלִיטְיָא</he></cite>)."
+			]
+		}
+	]
+}

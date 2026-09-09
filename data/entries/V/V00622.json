@@ -1,0 +1,32 @@
+{
+	"id": "V00622",
+	"slug": "תלש-2",
+	"headword": {
+		"text": "תְּלַשׁ"
+	},
+	"page": {
+		"number": 1674,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00621\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 15:32\">Targ. Y. I Num. XV, 32</cite>, sq. (h. text <he>מְקשֵׁשׁ</he>, v. <cite ref=\"V00621\">preced.</cite>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 19:17\">Targ. Y. Ex. XIX, 17</cite>; a. e.—Y. Snh. VII, end, 25ᵈ <he>איתחמי מִיתְלַשׁ בה</he> he appeared to pluck it (the seed he had planted); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תַּלֵּשׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V00621\">same</cite>. Y. Kidd. I, 61ᶜ <he>פקדון … מְתַלְּשַׁן בשעריהון וכ׳</he> tell your wives, when they stand over the dead, that they should not tear their hair, lest they make a bald spot (<cite ref=\"Deuteronomy 14:1\">Deut. XIV, 1</cite>).",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

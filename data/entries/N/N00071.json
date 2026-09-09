@@ -1,0 +1,58 @@
+{
+	"id": "N00071",
+	"slug": "נבי-2",
+	"headword": {
+		"text": "נבי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נָבָא"
+		}
+	],
+	"page": {
+		"number": 868,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"N00101\"><he>נָבַע</he></cite>)<i>to burst forth, blow</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיבָּא"],
+			"senses": [
+				{
+					"gloss": "<i>to be inspired, to prophesy</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 39b:15\">Snh. 39ᵇ</cite> <he>יבא … ויִנָּבֵא על וכ׳</he> let Obadiah come … and prophesy against &c.; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְנַבֵּא"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְנַבֵּא"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00070\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 4\">Ex. R. s. 4</cite>. <he>כמה … שלא להִתְנַבְּאוֹת ונ׳ וכ׳</he> how much Jeremiah desired not to be a prophet, and yet he prophesied against his will. ",
+						"<cite ref=\"Sotah 12b:11\">Sot. 12ᵇ</cite> <he>נִתְנַבְּאָה שלא מדעתה</he> she prophesied unwittingly. ",
+						"<cite ref=\"Sotah 12b:22\">Ib.</cite> <he>מִתְנַבְּאָה ואינה וכ׳</he> she prophesied but did not know what she prophesied. ",
+						"<cite ref=\"Megillah 14a:4\">Meg. 14ᵃ</cite> <he>ארְבעים … נִתְנַבְּאוּ להם וכ׳</he> forty-eight prophets and seven prophetesses prophesied to Israel &c. ",
+						"<cite ref=\"Bava Batra 15b:3\">B. Bath. 15ᵇ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

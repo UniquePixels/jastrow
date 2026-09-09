@@ -1,0 +1,30 @@
+{
+	"id": "O01605",
+	"slug": "סריגתא",
+	"headword": {
+		"text": "סְרִיגְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְרִגְ׳"
+		}
+	],
+	"page": {
+		"number": 1026,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"O01601\"><he>סְרִיגָא</he></cite>) <i>net, net-work</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 18:8\">Targ. Job XVIII, 8</cite> (h. text <cite ref=\"U00139\"><he>שבכה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 7:18\">Targ. I Kings VII, 18</cite>; <cite ref=\"Targum Jonathan on I Kings 7:20\">20</cite>; a. fr.—Pl. <cite ref=\"O01605\"><he>סְרִיגָתָא</he></cite>, <cite ref=\"O01601\"><he>סְרִיגָן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 7:41\">Ib. 41</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on I Kings 7:17\">Ib. 17</cite>; a. fr."
+			]
+		}
+	]
+}

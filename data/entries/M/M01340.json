@@ -1,0 +1,24 @@
+{
+	"id": "M01340",
+	"slug": "מך-2",
+	"headword": {
+		"text": "מָךְ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 780,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M00470\"><he>מוּךְ</he></cite>)<i>lowly</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 10b:5\">Sot. 10ᵇ</cite> (play on <he>מ̇כ̇ת̇ם̇</he>, <cite ref=\"Psalms 56:1\">Ps. LVI, 1</cite>) <he>שהיה מ̇ך̇ ות̇ם̇ לכל</he> he was lowly and sincere to everybody. ",
+				"<cite ref=\"Vayikra Rabbah 34:6\">Lev. R. s. 34</cite> <he>מך שהוא מך לפני כל וכ׳</he> the poor man is called <i>makh</i>, because he is lowly before everybody, he is like the lowest threshold; <cite ref=\"Midrash Mishlei 22:6\">Midr. Prov. to ch. XXII</cite> <he>מך עד האסקופה וכ׳</he> he is lowly (bent down) to the lowest threshold."
+			]
+		}
+	]
+}

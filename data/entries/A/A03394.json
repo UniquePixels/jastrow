@@ -1,0 +1,37 @@
+{
+	"id": "A03394",
+	"slug": "את-3",
+	"headword": {
+		"text": "אָת"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַת"
+		},
+		{
+			"text": "אָתָא",
+			"homograph": 1
+		},
+		{
+			"text": "אַתְוָא"
+		}
+	],
+	"page": {
+		"number": 132,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (= b. h. <cite ref=\"A00939\"><he>אוֹת</he></cite>; fr. <he>תאה</he>, or <he>תאו</he>, sec. r. of <he>אה</he> or <cite ref=\"A00516\"><he>או</he></cite>; as to reject. of radical <cite ref=\"F00000\"><he>ו</he></cite> or <cite ref=\"E00000\"><he>ה</he></cite>, cmp. <cite ref=\"A00013\"><he>אב</he></cite>, <cite ref=\"A00989\"><he>אח</he></cite> &c.) <i>sign, type; letter</i> (v. <cite ref=\"A00940\"><he>אוֹת</he> II</cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 13:16\">Targ. Ex. XIII, 16</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Isaiah 7:11\">Targ. Is. VII, 11</cite>; a. fr.—Pl. <he>אָתִין</he>, <he>אָתַיָּא</he>. ",
+				"<cite ref=\"Onkelos Genesis 1:14\">Targ. Gen. I, 14</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 74:4\">Targ. Ps. LXXIV, 4</cite>; a. e.—<he>אַתְוָון</he>, <he>אַתְיָין</he>, <cite ref=\"A01808\"><he>אַתְוָותָא</he></cite>, <cite ref=\"A03404\"><he>אַתְוָאן</he></cite>, (<cite ref=\"A03429\"><he>אָתָן</he></cite>) <he>אַתְיָיתָא</he>. Targ. Ps. l. c. ",
+				"<cite ref=\"Onkelos Numbers 2:2\">Targ. O. Num. II, 2</cite> ed. Berl. <he>אַתְיַן</he>, Var. <he>אָתְיָן</he>, <he>אַתְוָון</he>; Y. <he>אתוון</he> (v. Berl. Targ. O. II, p. 39); a. fr.—",
+				"<cite ref=\"Kohelet Rabbah 1:13:1\">Koh. R. to I, 13</cite> <he>ה׳ אתואן</he> five letters of acrostics.—<he>אַתְוָיֵי</he> (<he>אַתְוֵוי</he>, <he>אִיתְוֵי</he>). ",
+				"<cite ref=\"Bamidbar Rabbah 13:16\">Num. R. s. 13</cite>, end <he>א׳ דידין וכ׳</he> the letters composing the one word (<he>קערת</he>) are the same as those composing the other (<he>קרעת</he>)."
+			]
+		}
+	]
+}

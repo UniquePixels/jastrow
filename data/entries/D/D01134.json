@@ -1,0 +1,48 @@
+{
+	"id": "D01134",
+	"slug": "דרתא-1",
+	"headword": {
+		"text": "דַּרְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּרְתָּא"
+		},
+		{
+			"text": "דָּרָא"
+		}
+	],
+	"page": {
+		"number": 326,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00341\"><he>דור</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>court-yard</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 27:12\">Targ. Ex. XXVII, 12</cite>; a. fr.—[Targ. II Esth. V, 1; VI, 5 <cite ref=\"D01029\"><he>דרא</he></cite>; I Esth. <cite ref=\"D01135\"><he>דרתא</he></cite>.]—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:1:22\">Y. Snh. X, 28ᵃ</cite> bot. <he>עד דַּרְתֵּיה דר׳ וכ׳</he> (ed. Krot. <cite ref=\"D01134\"><he>דַּרְתָּה</he></cite>) to the court of R. Ḥ.’s residence. ",
+				"<cite ref=\"Yoma 72b:12\">Yoma 72ᵇ</cite>; <cite ref=\"Shabbat 31b:1\">Sabb. 31ᵇ</cite> <he>דלית ליה ד׳ וכ׳</he> he who has no court, but makes a gate-way for his court (who possesses erudition but no fear of the Lord).—Pl. (<he>דַּרְתַּיָּא</he>) <he>דָּרָתָא</he>, <he>דָּרָאתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 21:5\">Targ. II Kings XXI, 5</cite> (ed. Lag. <he>דָּרָת</he> constr.). ",
+				"<cite ref=\"Aramaic Targum to Psalms 10:8\">Targ. Ps. X, 8</cite> <he>דורתיא</he> ed. Lag. (Var. <he>דדרתיא</he>, Ms. <he>דּוּרָאתָיָיא</he>). ",
+				"<cite ref=\"Targum of I Chronicles 23:28\">Targ. I Chr. XXIII, 28</cite> <he>דרתיא</he> ed. Lag. (ed. Rahmer <he>דראתא</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>buildings, dwellings</i> in a court.—Pl. <he>דָּרָתָא</he>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 67a:5\">B. Bath. 67ᵃ</cite> if he said <cite ref=\"D00736\"><he>דִּירָתָא</he></cite>, all agree, it meant <i>houses;</i> they differ only when he said <cite ref=\"D01134\"><he>דַּרְתָּא</he></cite> (Ms. O. <he>דָּרָאתָא</he>), the one says, the court is meant &c. ",
+				"<cite ref=\"Bava Batra 67a:5\">Ib.</cite> if he said <he>דָּרָאתָא</he> (Ms. M. <cite ref=\"D01135\"><he>דרתא</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "V00524",
+	"slug": "ת-2",
+	"headword": {
+		"text": "תִּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְבּוֹסֶת"
+		}
+	],
+	"page": {
+		"number": 1667,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00067\"><he>כָּבַס</he></cite>) <i>washing</i> (clothes). ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 23\">Ex. R. s. 23</cite> <he>אין להן ת׳</he> cannot be washed; <cite ref=\"Shir HaShirim Rabbah 1:5:4\">Cant. R. to I, 5</cite>, a. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 982\">Yalk. ib. 982</cite> <he>אין צריכין ת׳</he> (corr. acc.). ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:11\">Cant. R. to IV, 11</cite>; Pesik. B’shall., p. 92ᵃ, a. e. <he>ולא היו צריכין ת׳</he> but did they (their garments in the desert) not need washing? <cite ref=\"Moed Katan 15a\">M. Kat. 15ᵃ</cite>, a. e. <he>אבל אסור בת׳</he> a mourner is forbidden to wash his clothes. ",
+				"<cite ref=\"Chullin 31b\">Ḥull. 31ᵇ</cite> <he>ת׳ ראשונה</he> washing the first time (<cite ref=\"Leviticus 13:54\">Lev. XIII, 54</cite>), <he>ת׳ שניה</he> washing a second time (ib. 58); a. fr."
+			]
+		}
+	]
+}

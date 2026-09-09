@@ -1,0 +1,26 @@
+{
+	"id": "B00007",
+	"slug": "בא-3",
+	"headword": {
+		"text": "בָּא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 134,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (part. of <cite ref=\"B00199\"><he>בּוֹא</he></cite>) <i>coming, future</i>. <he>עולם הַבָּא</he> (abbr. <he>עו״הב</he>) <i>the world to come, futurity</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 10:1\">Snh. X, 1</cite>; a. fr.—<cite ref=\"L00154\"><he>לְהַבָּא</he></cite> (Bab.), <cite ref=\"L00033\"><he>לַבָּא</he></cite> (Y.) <i>in future</i>. <he>מכאן ול׳</he> (<he>מיכן</he>) from this date and further, opp. <he>למפרע</he> retrospectively, or <he>מעיקרא</he> in the past. ",
+				"<cite ref=\"Pesachim 7b\">Pes. 7ᵇ</cite> <he>לה׳ משמע</he> it refers to an act to be performed. ",
+				"<cite ref=\"Sanhedrin 27a:1\">Snh. 27ᵃ</cite> <he>מיכן ולה׳ וכ׳</he> he becomes disqualified as a witness from now and in future (previous testimonies not being effected). ",
+				"<cite ref=\"Jerusalem Talmud Terumot 1:1:7\">Y. Ter. I, 40ᵇ</cite> bot.; a. fr.—V. <cite ref=\"B00199\"><he>בּוֹא</he></cite>."
+			]
+		}
+	]
+}

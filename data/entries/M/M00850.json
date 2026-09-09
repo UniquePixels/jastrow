@@ -1,0 +1,41 @@
+{
+	"id": "M00850",
+	"slug": "מחט-2",
+	"headword": {
+		"text": "מַחַט"
+	},
+	"page": {
+		"number": 759,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חוּט</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>needle, pin</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 6:1\">Sabb. VI, 1</cite> <he>מ׳ שאינה נקיבה</he> a <i>maḥat</i> without a hole, i.e. a dress or hair-pin; <cite ref=\"Mishnah Shabbat 6:3\">ib. 3</cite> <he>מ׳ הנקובה</he> a needle. ",
+				"<cite ref=\"Mishnah Shabbat 1:3\">Ib. I, 3</cite> <he>לא יצא החייט במַחֲטוֹ וכ׳</he> the tailor must not go out with his needle near Sabbath eve; ib. 11ᵇ <he>במ׳ התחובה וכ׳</he> with his needle stuck in his garment; Tosef. ib. I, 8. ",
+				"<cite ref=\"Mishnah Shabbat 17:2\">Sabb. XVII, 2</cite> <he>מ׳ של יד</he> a small (sewing) needle, <he>של סקאיס</he> the sack-needle (for loose and coarse webs); <cite ref=\"Mishnah Kelim 13:5\">Kel. XIII, 5</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:8:2\">Y. M. Kat. I, 80ᵈ</cite> bot. ",
+				"<cite ref=\"Mishnah Orlah 1:4\">Orl. I, 4</cite>, v. <cite ref=\"M01327\"><he>מִיתּוּחַ</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>stitch</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 10:11:2\">Y. B. Kam. X, end, 7ᶜ</cite> <he>מלא מ׳</he> the length of a stitch which those of … interpreted to mean <he>כפליים כמלא מ׳</he> double the length of a stitch; Bar Ḳ. used the expression <he>מלא משיכת המ׳ וכ׳</he> as much as is required for making a stitch (carrying the needle), which R. J. interpreted (<he>כפליים</he>) <he>כמשיכת המ׳</he> double &c.; Bab. ",
+				"<cite ref=\"Bava Kamma 119b:13\">B. Kam. 119ᵇ</cite> <he>מלא מ׳ וחוץ למ׳ כמלא מ׳</he> the length of a stitch and besides it a thread the length of a stitch (Rashi: the length of a needle).—Pl. <he>מַחֲטִים</he>, <he>מַחֲטִין</he> (m.). ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:1:20\">Y. Kidd. I, 58ᶜ</cite> bot.; <cite ref=\"Jerusalem Talmud Shevuot 6:1:3\">Y. Shebu. VI, beg. 36ᵈ</cite> <he>שני מ׳</he> two needles (or pins). ",
+				"<cite ref=\"Shabbat 96b:9\">Sabb. 96ᵇ</cite> <he>תופרי … זורקין מַחֲטֵיהֶן וכ׳</he> the embroiderers of curtains threw their <i>spools</i> (v. <cite ref=\"M01327\"><he>מִיתּוּחַ</he></cite>) one to the other; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "A02490",
+	"slug": "אספינקי",
+	"headword": {
+		"text": "אִסְפִינְקִי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְפְּנִיקִי"
+		},
+		{
+			"text": "אִסְפַּנְקִי"
+		},
+		{
+			"text": "אִי׳"
+		}
+	],
+	"page": {
+		"number": 95,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (Ispe. noun of <he>פנק</he>) <i>the free-man’s</i> armor (for h.  q. v.). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 18:11\">Targ. II Sam. XVIII, 11</cite>; a. e. [Syr. <he>אספיניקא</he>, <he>אספנקא</he> <i>rubro colore tinctus</i>, P. Sm. 313.]"
+			]
+		}
+	]
+}

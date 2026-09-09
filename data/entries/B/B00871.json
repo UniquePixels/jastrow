@@ -1,0 +1,27 @@
+{
+	"id": "B00871",
+	"slug": "בליסטרי",
+	"headword": {
+		"text": "בַּלִּיסְטָרִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בליסטורי"
+		}
+	],
+	"page": {
+		"number": 173,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ballistarius, βαλιστάριος) <i>attendant of the catapult</i>, also <i>archer</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 60b:7\">Ḥull. 60ᵇ</cite> <he>או ב׳ היה …</he> was Moses a hunter or an archer (to have known the nature of animals so well)?"
+			]
+		}
+	]
+}

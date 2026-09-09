@@ -1,0 +1,26 @@
+{
+	"id": "M01522",
+	"slug": "מלח-3",
+	"headword": {
+		"text": "מְלַח",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מַלֵּחַ"
+		}
+	],
+	"page": {
+		"number": 788,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"M01525\"><he>מַלָּח</he></cite>) <i>to row</i>; <i>to balance</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 85a:1\">Keth. 85ᵃ</cite> <he>מְמַלַּח מַלּוּחֵי</he> (not <he>מימלח</he>) rowed the boat (as an act of possession). ",
+				"<cite ref=\"Bava Kamma 117b:10\">B. Kam. 117ᵇ</cite> <he>מ׳ ביה חד מינייהו</he> (Alf.) one of them tried to keep the boat in balance (against the ass that threatened to upset it); [ed. <he>מַ׳ ליה לחמרא</he> (Var. <cite ref=\"M01461\"><he>מלא</he></cite>, v. Rabb. D. S. a. l. note 90) he tried to counterbalance the ass]."
+			]
+		}
+	]
+}

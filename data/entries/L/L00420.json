@@ -1,0 +1,22 @@
+{
+	"id": "L00420",
+	"slug": "ליבנוס",
+	"headword": {
+		"text": "לִיבְנוֹס"
+	},
+	"page": {
+		"number": 706,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Λίβανος) <i>Lebanon</i>, the mountain range on the confines of Syria and Palestine. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 24:6\">Targ. Y. I Num. XXIV, 6</cite> (not <cite ref=\"L00551\"><he>לִיכְ׳</he></cite>)."
+			]
+		}
+	]
+}

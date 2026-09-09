@@ -1,0 +1,41 @@
+{
+	"id": "B01313",
+	"slug": "ברק-1",
+	"headword": {
+		"text": "בָּרַק"
+	},
+	"page": {
+		"number": 196,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בר</he> , v. <he>ברר</he>) <i>to be bright, shine, flash</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 97b\">B. Bath. 97ᵇ</cite> (<cite ref=\"J00335\"><he>יין</he></cite>) <cite ref=\"B00363\"><he>בּוֹרֵק</he></cite> white effervescent wine (not fully fermented; Var. <he>בּוֹדֵק</he> searching in the bowels, i.e. causing diarrhœa, v. <cite ref=\"B00154\"><he>בָּדַק</he></cite>); <cite ref=\"Tosefta Menahot 9:9\">Tosef. Men. IX, 9</cite> <he>הַבּוֹרֵיק</he> (sub. <cite ref=\"J00335\"><he>יין</he></cite>) the effervescent (wine), v. <cite ref=\"B00045\"><he>בָּארַג</he></cite>; <cite ref=\"Yoma 28b:1\">Yoma 28ᵇ</cite> top, v. <cite ref=\"B01314\">next w.</cite> ",
+				"<cite ref=\"Tosefta Terumot 7:16\">Tosef. Ter. VII, 16</cite> [read:] <he>ב׳ והניחו</he> if it was effervescent when he left it."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִבְרִיק"],
+			"senses": [
+				{
+					"gloss": " (cmp. <he>ברץ ברח</he>) <i>to cut through from end to end</i>. Y. Kil. V, 29ᵈ bot. <he>עד שיהא מַבְרִיק כדי וכ׳</he> until it (the ditch in the vineyard) passes through from end to end, wide enough for man and his tilling cattle.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"B01315\"><he>בָּרָק</he></cite>) <i>to be affected by lightning, get blind</i> (or <i>get vermin</i>). ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 6:3\">B. Mets. VI, 3</cite>, expl. ",
+						"<cite ref=\"Bava Metzia 78a\">ib. 78ᵃ</cite> <cite ref=\"A00083\"><he>אבזקת</he></cite> a. <cite ref=\"N00257\"><he>נהוריתא</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

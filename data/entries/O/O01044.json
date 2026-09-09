@@ -1,0 +1,45 @@
+{
+	"id": "O01044",
+	"slug": "סלת-4",
+	"headword": {
+		"text": "סֹלֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוֹלֶת"
+		}
+	],
+	"page": {
+		"number": 998,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"O01003\"><he>סָלַל</he> I</cite> , v. <cite ref=\"O01011\"><he>סִלְסֵל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sifted fine flour</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 12:3\">Men. XII, 3</cite> <he>קמח יביא ס׳</he> if one vows an offering of flour, he must bring fine flour. ",
+				"<cite ref=\"Sifrei Devarim 315:6\">Sifré Deut. 315</cite> <he>ונושרות סוֹלְתָן וכ׳</he> and drop their flour on the ground. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:1:11\">Cant. R. to I, 1</cite> <he>כל … לא ס׳</he> is not all of Solomon’s wisdom fine flour (choice)?; a. fr.—",
+				"<cite ref=\"Kiddushin 69b\">Kidd. 69ᵇ</cite>; <cite ref=\"Kiddushin 71b\">71ᵇ</cite> Ezra did not leave Babylonia, <he>עד שעשאה כס׳ נקיה</he> until he made her (the Jews in Babylonia) like the purest sifted flour, i.e. established the purity of descent of their families by careful investigation (cmp. <cite ref=\"P00629\"><he>עִיסָה</he></cite>).—Pl. <he>סֳלָתוֹת</he>. ",
+				"<cite ref=\"Mishnah Shekalim 4:3\">Shek. IV, 3</cite>. ",
+				"<cite ref=\"Avodah Zarah 37b\">Ab. Zar. 37ᵇ</cite> bot. ",
+				"<cite ref=\"Esther Rabbah 4:2\">Esth. R. to I, 14</cite>, v. <cite ref=\"M02725\"><he>מָרַס</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a dish made of fine flour, pudding</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 37a:4\">Ber. 37ᵃ</cite> (v. Rabb. D. S. a. l. note 20). Y. ib. VI, 10ᵇ; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

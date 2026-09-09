@@ -1,0 +1,41 @@
+{
+	"id": "V00068",
+	"slug": "תבע-2",
+	"headword": {
+		"text": "תְּבַע"
+	},
+	"page": {
+		"number": 1645,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00067\">same</cite>, <i>to ask, demand; to inquire, search</i> (corresp. to h. <he>דרש</he> a. <cite ref=\"B01148\"><he>בקש</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 6:29\">Targ. Jud. VI, 29</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 27:8\">Targ. Ps. XXVII, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 39:8\">Targ. Job XXXIX, 8</cite> Ms. (ed. <cite ref=\"B01036\"><he>בעי</he></cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 22:2\">Targ. Deut. XXII, 2</cite>. ",
+				"<cite ref=\"Onkelos Genesis 9:5\">Targ. Gen. IX, 5</cite> (Y. also <he>אֶתְבּוֹע׳</he>); a. fr.—",
+				"<cite ref=\"Ketubot 42b:16\">Keth. 42ᵇ</cite> bot. <he>כי קא ת׳ קנסא קא ת׳</he> when he claimed, he claimed the fine. ",
+				"<cite ref=\"Ketubot 43a:1\">Ib. 43ᵃ</cite> <he>לא קא שביק … ות׳ וכ׳</he>, v. <cite ref=\"S01115\"><he>קִיץ</he></cite> ch. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 10:5:2\">Y. Sabb. X, 12ᶜ</cite> bot. <he>שלח ר׳ ת׳ באיתתיה</he> Rabbi sent and proposed to his (R. Eleazar’s) widow. ",
+				"<cite ref=\"Chagigah 15a:7\">Ḥag. 15ᵃ</cite> <he>אשכח … תַּבְעָהּ</he> he met a harlot and asked her: a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְּבַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be searched, investigated</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 2:23\">Targ. Esth. II, 23</cite> (ed. Vien. <he>אִתְבַּע</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

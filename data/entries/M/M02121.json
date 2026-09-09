@@ -1,0 +1,76 @@
+{
+	"id": "M02121",
+	"slug": "מעך-1",
+	"headword": {
+		"text": "מָעַךְ"
+	},
+	"page": {
+		"number": 816,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"M00470\"><he>מוּךְ</he></cite>)<i>to crush; to dissolve by rubbing</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>מָעֲכוּ את הזקן</he> (<cite ref=\"P00342\"><he>העיר</he></cite>) they crushed an old man to death. ",
+				"<cite ref=\"Yevamot 34b:1\">Yeb. 34ᵇ</cite> <he>מוֹעֲכוֹת</he>, v. infra. ",
+				"<cite ref=\"Tosefta Pesachim 4:3\">Tosef. Pes. IV, 3</cite>, v. infra.—<i>Part. pass.</i> <he>מָעוּךְ</he>; f. <he>מְעוּכָה</he>; pl. <he>מְעוּכִים</he>, <he>מְעוּכִין</he>; <he>מְעוּכוֹת</he> <i>dissolved by rubbing, crushed</i>. ",
+				"<cite ref=\"Niddah 22b:19\">Nidd. 22ᵇ</cite> <he>מ׳ ע״י הדחק</he> a foetus which can be squashed by rubbing, although with some difficulty. ",
+				"<cite ref=\"Jerusalem Talmud Demai 6:5:3\">Y. Dem. VI, 25ᵈ</cite> top <he>מ׳ חיבור</he> a substance pressed into a mass (as olives in the vat) is considered as connected, v. <cite ref=\"H00658\"><he>חִיבּוּר</he></cite>. ",
+				"<cite ref=\"Midrash Tehillim 73\">Midr. Till. to Ps. LXXIII, 4</cite> <he>מעוכה</he> ed. Bub., v. <cite ref=\"S00810\"><he>קָטַף</he></cite>.—Lam. R. l. c. <he>פסח מעוכין</he> (not <he>מעוכן</he>) the Passover of the crushed (crowded); <cite ref=\"Pesachim 64b:8\">Pes. 64ᵇ</cite> <he>שנתמעך … פסח מ׳</he> when one old man was crushed to death, and they called it &c. ",
+				"<cite ref=\"Tosefta Pesachim 4:3\">Tosef. ib. IV, 3</cite> <he>נכנסו ישראל … פסח מ׳</he> the Israelites entered the Temple mount and it could not contain all of them, and they called it &c.; (Var. <he>מוֹעֲכִין</he> the Passover of the crushers; Var. <he>מוכין</he>); Pes. l. c., v. <cite ref=\"M02073\"><he>מְעוּבֶּה</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מִיעֵךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M02120\">same</cite>. Nidd. l. c. <he>מְמַעַכְתּוֹ ברוק וכ׳</he> she tests the nature of the foetus by pressing and rubbing with her nail moistened with spittle. Y. Yoma VIII, 44ᵈ bot. <he>צריך למַעֵךְ את חללה</he> you must squeeze the core of the olive together (to be used as a standard of size). ",
+					"units": [
+						"<cite ref=\"Yevamot 34b:1\">Yeb. 34ᵇ</cite> <he>תמר באצבע מִיעֲכָה</he> Tamar destroyed her virginity by friction with her finger; (<cite ref=\"Yevamot 34b:1\">ib.</cite> <he>מוֹעֲכוֹת</he> brides acting like Tamar). Y. Sabb. XX, 17ᶜ bot. <he>מְמַעֵךְ</he> (Bab. ",
+						"<cite ref=\"Shabbat 140a:2\">ib. 140ᵃ</cite> <he>מַמְחוֹ</he>, v. <cite ref=\"M00809\"><he>מָחָה</he></cite>). ",
+						"<cite ref=\"Ketubot 36b\">Keth. 36ᵇ</cite>; <cite ref=\"Gittin 81a\">Gitt. 81ᵃ</cite>.—",
+						"<cite ref=\"Esther Rabbah 4:2\">Esth. R. to I, 14</cite>, v. <cite ref=\"M02725\"><he>מָרַס</he></cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"M00470\"><he>מוּךְ</he></cite>) <i>to lower</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 45a:9\">Ber. 45ᵃ</cite> <he>יְמַעֵךְ הקורא קולו</he> (Var. <he>יַמְעִיךְ</he> <i>Hif.</i>), v. <cite ref=\"N00880\"><he>נָמַךְ</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְמַעֵךְ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְמַעֵךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be crushed, squashed, rubbed off</i>. Y. Maasr. I, 48ᵈ bot., v. <cite ref=\"M01978\"><he>מָסַס</he></cite>. Pes. l. c., v. supra. ",
+					"units": [
+						"<cite ref=\"Tosefta Mikvaot 6:1\">Tosef. Mikv. VI</cite> (<cite ref=\"Tosefta Mikvaot 7:14\">VII</cite>), 14 <he>והן מִתְמַעֲכִין על הבגדים</he> quot. in R. S. to <cite ref=\"Mishnah Mikvaot 9:2\">Mikv. IX, 2</cite> (ed. Zuck. <he>מתמעטין</he>) they are rubbed against (and stick to) the garments, v. <cite ref=\"C01220\"><he>גֵּץ</he></cite>. ",
+						"<cite ref=\"Mishnah Menachot 10:4\">Men. X, 4</cite> (<cite ref=\"Menachot 66a:17\">66ᵃ</cite>) <he>שלא יִתְמַעֵךְ</he> that its grains may not be crushed; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be lowered, flattened</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 47a\">Nidd. 47ᵃ</cite>, sq., v. <cite ref=\"K00980\"><he>כַּף</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

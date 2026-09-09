@@ -1,0 +1,22 @@
+{
+	"id": "M01333",
+	"slug": "מיתנא-2",
+	"headword": {
+		"text": "מֵיתָנָא"
+	},
+	"page": {
+		"number": 780,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A03397\"><he>אֲתָא</he></cite>) <i>bringing home, drawing towards one’s self</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 102a\">Sabb. 102ᵃ</cite>, v. <cite ref=\"L00559\"><he>לֶכְתָּא</he></cite>; [Rashi: <cite ref=\"M03086\"><he>מִתְנָא</he></cite> <i>rope</i>].—[<cite ref=\"Mishnah Oktzin 1:2\">Ukts. I, 2</cite> <he>המיתנא</he>, v. <cite ref=\"M01235\"><he>מִינְתָּא</he></cite>.]"
+			]
+		}
+	]
+}

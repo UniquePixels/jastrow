@@ -1,0 +1,31 @@
+{
+	"id": "R00090",
+	"slug": "צדו-2",
+	"headword": {
+		"text": "צָדוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "צָדוּתָא"
+		}
+	],
+	"page": {
+		"number": 1261,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>צְדֵי</he> II) <i>desolation, confusion, despair</i> (corresp. to h. <cite ref=\"U01425\"><he>שַׁמָּה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 13:9\">Targ. Is. XIII, 9</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 32:10\">Targ. Y. II, Deut. XXXII, 10</cite> (ed. Vien. <cite ref=\"R00459\"><he>צר׳</he></cite>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Psalms 109:10\">Targ. Ps. CIX, 10</cite> <he>מה הוות צָדוּתְהוֹן</he> Ms. (ed. Lag. <he>צדיתהון</he>; oth. ed. <he>מדהוות צרתהון</he>, corr. acc.). ",
+				"<cite ref=\"Onkelos Deuteronomy 28:37\">Targ. O. Deut. XXVIII, 37</cite>; a. fr.—Pesik. Naḥ., p. 126ᵇ (Hebr. dict.) <he>מושיבה צ׳</he>, (not <he>צרו</he>), v. <cite ref=\"Q00590\"><he>פִּיד</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 918:4\">Yalk. Job 918</cite>. ",
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 13</cite> (expl. <he>שוממה</he> a. <he>דוה</he> <cite ref=\"Eichah Rabbah 1:57\">ib.</cite>) <he>שוממה לצ׳ דוה לגרדום</he> <i>shomemah</i> means doomed to desolation, <i>davah</i>, to execution."
+			]
+		}
+	]
+}

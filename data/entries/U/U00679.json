@@ -1,0 +1,54 @@
+{
+	"id": "U00679",
+	"slug": "שחף-1",
+	"headword": {
+		"text": "שָׁחַף"
+	},
+	"page": {
+		"number": 1549,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"H01466\"><he>חָפַף</he> II</cite>) <i>to rub, scrape, peel.—Part. pass</i>. <cite ref=\"U00624\"><he>שָׁחוּף</he></cite> ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>one whose genitals are wasted</i> (v. <cite ref=\"M00823\"><he>מָחוּי</he></cite>). ",
+					"units": [
+						"<cite ref=\"Tosefta Bekhorot 5:4\">Tosef. Bekh. V, 4</cite> (expl. <he>מרוח אשך</he>, for which <cite ref=\"Mishnah Bekhorot 7:5\">Bekh. VII, 5</cite> <he>שנמרחו אשכיו</he>, v. <cite ref=\"M02630\"><he>מָרַח</he></cite>). ",
+						"<cite ref=\"Sotah 26b\">Sot. 26ᵇ</cite>. ",
+						"<cite ref=\"Esther Rabbah 5:3\">Esth. R. to II, 3</cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"H01374\"><he>חֲסִיךְ</he></cite>) <i>reduced, lean, losing flesh</i>. Sifra B’ḥuck., Par. 2, ch. IV (ref. to <cite ref=\"U00685\"><he>שחפת</he></cite>, <cite ref=\"Leviticus 26:16\">Lev. XXVI, 16</cite>) <he>או עתים שהוא ש׳ וכ׳</he> or at times one becomes reduced in flesh, but feels comfortable &c.; <cite ref=\"Yalkut Shimoni on Torah 673\">Yalk. Lev. 673</cite> <he>נשחוף</he> (corr. acc.).—",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 146:1\">Yalk. Gen. 146</cite> <he>שְׁחוּפִים</he>, v. <cite ref=\"O00938\"><he>סָכַף</he></cite>.—*"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " f. <he>שְׁחוּפָה</he>; pl. <he>שְׁחוּפוֹת</he> <i>of indistinct color, gray</i> (<i>wool</i>), opp. <cite ref=\"L00109\"><he>לבנות</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 11:2\">Ḥull. XI, 2</cite> (<cite ref=\"Chullin 135a:7\">135ᵃ</cite>; <cite ref=\"Chullin 136b:4\">ib. 136ᵇ</cite> (Ms. R. 2 <he>סחופות</he>; Ms. R. 1, a. Ar. <he>טחופות</he>, v. <cite ref=\"I00274\"><he>טָחַף</he></cite>)."
+					],
+					"label": "c"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִשְׁחָף"],
+			"senses": [
+				{
+					"gloss": "<i>to become reduced</i>. Sifra l. c. (ref. to <cite ref=\"U00685\"><he>שחפת</he></cite>, v. supra) <he>יש לך אדם … שהוא נ׳</he> (not <he>וכי יש</he>) sometimes a person is sick in bed, yet his flesh is preserved: therefore the text says, ‘and consumption’, which means that he is wasting away; Yalk. Lev. l. c.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

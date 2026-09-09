@@ -1,0 +1,23 @@
+{
+	"id": "A02472",
+	"slug": "אסנפר",
+	"headword": {
+		"text": "אָסְנַפַּר"
+	},
+	"page": {
+		"number": 95,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (prob. identical with Assurbanipal, Schr. K. A. T. p. 376) <i>Osnappar</i>. ",
+			"units": [
+				"<cite ref=\"Ezra 4:10\">Ezra IV, 10</cite>. ",
+				"<cite ref=\"Sanhedrin 94a:13\">Snh. 94ᵃ</cite> (referred to Sennacherib)."
+			]
+		}
+	]
+}

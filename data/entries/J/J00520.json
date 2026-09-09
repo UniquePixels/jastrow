@@ -1,0 +1,24 @@
+{
+	"id": "J00520",
+	"slug": "יצהר-1",
+	"headword": {
+		"text": "יִצְהָר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 588,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>צהר</he>)<i>oil</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 42\">Sifré Deut. 42</cite>. ",
+				"<cite ref=\"Sanhedrin 24a:13\">Snh. 24ᵃ</cite> (ref. to <cite ref=\"Zechariah 4:14\">Zech. IV, 14</cite>) <he>י׳ אלו ת״ח שמשמינים וכ׳</he> Ms. M. (ed. <he>שנוחים … כשמן</he>) ‘sons of oil’, those are the Palestinean scholars who oil (smoothe) one another in their discussions; Yalk. Zech. 579."
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "O01226",
+	"slug": "סניא-2",
+	"headword": {
+		"text": "סַנְיָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1007,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (preced) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>badness</i>, <i>inferiority</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 122a:10\">B. Bath. 122ᵃ</cite> <he>לשופרא וס׳</he> to equalize the distribution of land with regard to the better or inferior quality."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>evil nature</i>; (by way of antiphrasis for <cite ref=\"I00295\"><he>טיב</he></cite>) <i>nature</i>.—<he>ביש סַנְיֵיה</he> one whose nature is bad, <i>ill-natured</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 11:9\">Koh. R. to XI, 9</cite> (some ed. <he>ביש סַנְיָה</he>).—V. <cite ref=\"O00364\"><he>סוּנִיתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

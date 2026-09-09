@@ -1,0 +1,35 @@
+{
+	"id": "V00549",
+	"slug": "תכן",
+	"headword": {
+		"text": "תְּכַן"
+	},
+	"page": {
+		"number": 1669,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"K00859\"><he>כנן</he></cite> a. <he>כון</he>), <i>Pa.</i> <cite ref=\"V00549\"><he>תַּכֵּן</he></cite> (= b. h. <cite ref=\"V00549\"><he>תִּכֵּן</he></cite>) <i>to fasten, establish, arrange</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 107:36\">Targ. Ps. CVII, 36</cite> Ms. (ed. <he>אתקינו</he>); h. text <he>כונן</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 78:20\">Ib. LXXVIII, 20</cite> ed. Lag. (ed. Wil. <he>יתקן</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 15:35\">Targ. Job XV, 35</cite> (ed. Wil. <he>מַתְכְּנִין</he> <i>Af.</i>; Ms. <he>מְתַכֵּין</he>, some ed. <he>מַתְכִין</he>, corr. acc.)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַתְכֵּין"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V00548\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 48:5\">Targ. Is. XLVIII, 5</cite> <he>אַתְכִּינוּן</he> Bxt. (some ed. <he>אָתִיכונון</he>, corr. acc.; ed. Wil. <he>אַתְּכִי׳</he>, corr. acc.; h. text <he>צִוָּם</he>).—V. <cite ref=\"V00899\"><he>תְּקַן</he></cite>"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

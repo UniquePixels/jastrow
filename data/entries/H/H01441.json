@@ -1,0 +1,82 @@
+{
+	"id": "H01441",
+	"slug": "חפי-3",
+	"headword": {
+		"text": "חֲפֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲפָא"
+		}
+	],
+	"page": {
+		"number": 491,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01440\">same</cite>, <i>to cover, overlay</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 36:34\">Targ. Ex. XXXVI, 34</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Ezekiel 26:19\">Targ. Ez. XXVI, 19</cite> <he>ויִחֲפוּנִיךְ</he> they shall cover thee up (bury).—",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:11\">Targ. Y. Deut. XXXII, 11</cite> <he>וחָפָא וכ׳</he> he spread over them the shade etc.—",
+				"<cite ref=\"Avodah Zarah 39a:9\">Ab. Zar. 39ᵃ</cite> <he>חַפְיֵיה בדיקולא</he> Ms. M. (ed. <cite ref=\"H01442\"><he>חפיא</he></cite>, incorr.) he put a basket over it. ",
+				"<cite ref=\"Sotah 22b:6\">Sot. 22ᵇ</cite> <he>דחֲפוּ</he>, v. <cite ref=\"C00434\"><he>גּוּנְדָּא</he> II</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַפֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to cover, overlay</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 40:19\">Targ. Is. XL, 19</cite>; a. e.—Part. pass. <he>מְחַפָּא</he>, pl. <he>מְחַפִּין</he>, f. <he>מְחַפַּן</he>. ",
+						"<cite ref=\"Onkelos Exodus 26:32\">Targ. Ex. XXVI, 32</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " as <cite ref=\"H01440\">preced.</cite> <i>Pi.</i> 2. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 20:5\">Targ. Y. Lev. XX, 5</cite> (cmp. ",
+						"<cite ref=\"Shevuot 39a\">Shebu. 39ᵃ</cite>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַהֲפֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to cover, overlay</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 26:29\">Targ. Ex. XXVI, 29</cite>; a. e. (ed. Berl. <he>תִחְפֵּי</he> <i>Pe.</i>)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְחַפֵּי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְחֲפִי"],
+			"senses": [
+				{
+					"gloss": "<i>to be covered</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 18:45\">Targ. I Kings XVIII, 45</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 42:22\">Targ. Is. XLII, 22</cite> <he>אִתְחֲ׳ בהתא</he> were covered with shame (h. text <he>הפח</he>); a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

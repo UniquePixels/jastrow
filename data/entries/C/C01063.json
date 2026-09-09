@@ -1,0 +1,110 @@
+{
+	"id": "C01063",
+	"slug": "גמר-3",
+	"headword": {
+		"text": "גָּמַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 255,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. v. <he>גמם</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to polish, touch up, finish</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:26\">Y. Sabb. VII, 10ᵃ</cite> bot. <he>ג׳ מלאכתו</he> when he gives to his work the finishing touch; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (in gen.) <i>to complete, end</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 10:7\">Pes. X, 7</cite> <he>גּוֹמֵר עליו את ההלל</he> he reads over it (the fourth cup) the Hallel to the end, v. <cite ref=\"E00573\"><he>הַלֵּל</he></cite>.—",
+				"<cite ref=\"Tosefta Sukkah 3:2\">Tosef. Succ. III, 2</cite> <he>גּוֹמְרִין בהן וכ׳</he> on those occasions the <i>entire</i> Hallel is read; <cite ref=\"Berakhot 14a\">Ber. 14ᵃ</cite>; <cite ref=\"Arakhin 10a\">Arakh. 10ᵃ</cite>; <cite ref=\"Taanit 28b:11\">Taan. 28ᵇ</cite>. ",
+				"<cite ref=\"Berakhot 13b:19\">Ber. 13ᵇ</cite> <he>חוזר וגוֹמְרָהּ</he> (after the disciples left) did he take it up again and read the whole of the Sh’ma?—",
+				"<cite ref=\"Jerusalem Talmud Yevamot 2:1:3\">Y. Yeb. II, beg. 3ᶜ</cite> <he>הביאה גוֹמֶרֶת בה</he> coition consummates the levir’s marriage (Bab. ",
+				"<cite ref=\"Yevamot 18a:5\">ib. 18ᵃ</cite> <he>קונה קניין גמור</he>), v. <cite ref=\"M00044\"><he>מַאֲמַר</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:6:4\">Y. Ber. VI, 10ᵈ</cite> top <he>ג׳ מלאכול</he> after he has finished eating; a. fr.—Euphem. <i>to gratify the sexual appetite</i>. ",
+				"<cite ref=\"Mishnah Keritot 2:4\">Kerith. II, 4</cite>. ",
+				"<cite ref=\"Pesachim 87a:14\">Pes. 87ᵃ</cite> (play on <i>Gomer</i>, <cite ref=\"Hosea 1\">Hos. I</cite>, "
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <he>שהכל גּוֹמְרִים בה</he> all people could gratify their lust on her.—<he>וְגוֹמֵר</he> (abbr. <he>וגו׳</he>, <he>וג׳</he>) <i>and one finishes</i> (the sentence quoted) = <i>and so forth</i>, &c., a clerical term used in Bible citations to save the writing out of the entire quotation. ",
+			"units": [
+				"<cite ref=\"Chullin 98a\">Ḥull. 98ᵃ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 51\">Gen. R. s. 51</cite>, beg.; a. fr.—*<i>Part. pass.</i> <cite ref=\"C01314\"><he>גָּמוּר</he></cite>, f. <cite ref=\"C00062\"><he>גְּמוּרָה</he></cite> <i>finished, complete, real, valid</i>. ",
+				"<cite ref=\"Kiddushin 40b:6\">Kidd. 40ᵇ</cite>, a. fr. <he>צדיק ג׳</he> a perfectly righteous man (without faults); <he>רשע ג׳</he> a wicked man throughout (without any good quality). ",
+				"<cite ref=\"Yevamot 18b:7\">Yeb. 18ᵇ</cite>, a. fr. <he>קניין ג׳</he> real (legal) possession.—Pl. <he>גְּמוּרִים</he>, <he>גְּמוּרוֹת</he>. ",
+				"<cite ref=\"Chullin 89a:4\">Ḥull. 89ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Beitzah 2b:9\">Bets. 2ᵇ</cite>, a. e. <he>בצים ג׳</he> perfectly developed eggs (with shells), v. infra.—3) <i>to destroy</i>. ",
+				"<cite ref=\"Pesachim 87b:2\">Pes. 87ᵇ</cite> (play on <i>Gomer</i>, v. supra) <he>בזזו וגָמְרוּ</he> (Ms. M. <he>גמרו וגמרו</he>) they plundered and destroyed (they destroyed thoroughly)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to conclude, determine, decide</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:1\">Kel. XVI, 1</cite>. ",
+				"<cite ref=\"Berakhot 17a:7\">Ber. 17ᵃ</cite> <he>גְּמוֹר בכל לבבך וכ׳</he> be determined with all thy heart &c. ",
+				"<cite ref=\"Shevuot 26b:15\">Shebu. 26ᵇ</cite> <he>ג׳ בלבו</he> he resolved (vowed) in his heart, opp. <he>הוציא בשפתיו</he>; <cite ref=\"Chagigah 10a:11\">Ḥag. 10ᵃ</cite>.—",
+				"<cite ref=\"Eruvin 13b\">Erub. 13ᵇ</cite>, a. fr. <he>נמנו וגמרו</he> they were counted (their votes were taken) and they decided.—",
+				"<cite ref=\"Mishnah Sanhedrin 3:7\">Snh. III, 7</cite> (<cite ref=\"Sanhedrin 42a:19\">42ᵃ</cite>) <he>גמרו את הדבר</he> when they had closed the case (being ready for publishing the sentence); a. fr."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>to draw a conclusion by analogy</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 96b:2\">Sabb. 96ᵇ</cite> <he>ג׳ העברה העברה מיוה״כ</he> one forms an analogy between the expressions <i>heĕbir</i> &c.; a. fr."
+			],
+			"label": "5"
+		},
+		{
+			"gloss": "<i>to be fully developed</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Parah 11:7\">Tosef. Par. XI, 7</cite>, v. <cite ref=\"C01037\"><he>גָּמַל</he></cite>.—<he>בצים גמורות</he>, v. supra."
+			],
+			"label": "6"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גִּמֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to destroy</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 87b\">Pes. 87ᵇ</cite> <he>בקשו לגַמֵּר וכ׳</he> they intented to destroy the possessions of Israel in her (Gomer’s) days, v. supra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to develop, mature, ripen</i>. Y. Shebi. V, beg. 35ᵈ <he>אין פירותיה׳ מְגַמְּרִין וכ׳</he> their fruits ripen only every three years.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִגְמַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be finished, completed</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 6:1\">Snh. VI, 1</cite> <he>נ׳ הדין</he> when proceedings are finished (sentence pronounced). ",
+						"<cite ref=\"Bereishit Rabbah 12:5\">Gen. R. s. 12</cite> <he>נִגְמְרָה מלאכתן</he> they were finished; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "B00264",
+	"slug": "בולי-1",
+	"headword": {
+		"text": "בּוּלִי",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"page": {
+		"number": 146,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Buli</i> (prob. the assembly building of the Senate in Sepphoris, cmp. <cite ref=\"B00258\"><he>בּוּלֶבְטֵס</he></cite> end). Y. Shek. VII, 50ᶜ bot. (Bab. ed. <cite ref=\"K00269\"><he>כולי</he></cite>, oth. <he>כולית׳</he>, <he>קוליתא</he>, ed. Just. <he>ב׳</he>; v. Rabb. D. S. a. l. p. 62, note 30); <cite ref=\"Jerusalem Talmud Taanit 1:2:4\">Y. Taan. I, 64ᵃ</cite> bot. <he>כנישתא דב׳</he> assembly (or synagogue) of B.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:11:4\">Y. Ab. Zar. III, 43ᵇ</cite> bot. <he>צלמא דב׳</he> (ed. Krot. <he>דכ׳</he>) a statue (idol) in front of the Bulé(?)."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "C00883",
+	"slug": "גלה-1",
+	"headword": {
+		"text": "גִּלָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּילָּה"
+		}
+	],
+	"page": {
+		"number": 246,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גלל</he>, cmp. <cite ref=\"C00848\"><he>גַּל</he></cite> 3) <i>a valve, folding</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 12:1:4\">Y. Sabb. XII, beg. 13ᶜ</cite> <he>מטה של ג׳</he> folding couch.—Pl. <he>גִּלִּין</he>. Bab. ",
+				"<cite ref=\"Shabbat 138a:2\">Sabb. 138ᵃ</cite> <he>כסא ג׳</he> camp chair."
+			]
+		}
+	]
+}

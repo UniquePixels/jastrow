@@ -1,0 +1,24 @@
+{
+	"id": "A02690",
+	"slug": "אפיליון",
+	"headword": {
+		"text": "אַפִּילְיוֹן",
+		"reconstructed": true,
+		"homograph": 3
+	},
+	"page": {
+		"number": 103,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (pilleum, πιλίον) <i>felt-cap, hat</i> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 29:1\">Kel. XXIX, 1</cite> <he>א׳ של ראש</he> some ed. (others <cite ref=\"Q00679\"><he>פִּילְיוֹן</he></cite>).—[<cite ref=\"Shabbat 120a\">Sabb. 120ᵃ</cite> <cite ref=\"A02688\"><he>אפיליון</he></cite>, <cite ref=\"Q00679\"><he>פיליון</he></cite> Ms., ed. <cite ref=\"A02691\"><he>אפיליות</he></cite>, read <cite ref=\"A02738\"><he>אַפַּלְיוֹן</he></cite>, <cite ref=\"A02738\"><he>פַּלְיוֹן</he></cite> q. v.]"
+			]
+		}
+	]
+}

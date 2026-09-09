@@ -1,0 +1,28 @@
+{
+	"id": "Q00895",
+	"slug": "פיתום-2",
+	"headword": {
+		"text": "פִּיתוֹם",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיתּוּם"
+		}
+	],
+	"page": {
+		"number": 1173,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02125\"><he>פָּתָה</he></cite>, adapt. of πύθων) [<i>seducer</i>,] <i>necromancer, conjurer, ventriloquist</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 7:7\">Snh. VII, 7</cite> <he>בעל אוב זה פ׳ המדבר משחיו</he> <i>baʿal ob</i> is the <i>pithom</i> that makes the dead speak from his armpit; Sifra E’dosh. Par. 3, ch. VII; <cite ref=\"Mishnah Sanhedrin 7:7\">ib.</cite> Par. 4, ch. XI; <cite ref=\"Tosefta Sanhedrin 10:6\">Tosef. Snh. X, 6</cite> <he>פ׳ המדבר בין פרקיו וכ׳</he> that talks between his joints and from between his armpits; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "M00838",
+	"slug": "מחותיתא",
+	"headword": {
+		"text": "מָחוֹתִיתָא"
+	},
+	"page": {
+		"number": 758,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00837\">preced. art.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>declivity</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 15:5\">Targ. Is. XV, 5</cite>; <cite ref=\"Targum Jonathan on Jeremiah 48:5\">Targ. Jer. XLVIII, 5</cite> ed. Lag. (ed. Wil. <cite ref=\"M00954\"><he>מַחֲתֵית</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>alighting</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 1</cite> <he>לא הות מסוקיתיה כמְחוֹתִיתֵיה</he> his mounting was not like his alighting; his mounting was gradual, his coming down sudden; <cite ref=\"Yalkut Shimoni on Nach 528:1\">Yalk. Hos. 528</cite> <he>מַחֲתוּתֵיה</he>.—Pl. <cite ref=\"M00952\"><he>מַחֲתוּתְיָין</he></cite>. ",
+				"<cite ref=\"Kohelet Rabbah 12:5:1\">Koh. R. to XII, 5</cite> <he>אית תמן מסקין אית תמן מ׳</he> are there any ascents (on the road), or any declivities?; <cite ref=\"Vayikra Rabbah 18:1\">Lev. R. s. 18</cite> <he>מָחֲתִין</he>."
+			],
+			"label": "2"
+		}
+	]
+}

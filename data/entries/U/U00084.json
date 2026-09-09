@@ -1,0 +1,22 @@
+{
+	"id": "U00084",
+	"slug": "שבוקא-1",
+	"headword": {
+		"text": "שְׁבוֹקָא"
+	},
+	"page": {
+		"number": 1511,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., constr. <he>שְׁבוֹק</he> (<cite ref=\"U00169\"><he>שְׁבַק</he></cite>) <i>remission</i> (of taxes). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 2:18\">Targ. Esth. II, 18</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"id": "G00488",
+	"slug": "זלח-2",
+	"headword": {
+		"text": "זְלַח"
+	},
+	"page": {
+		"number": 401,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00487\">same</cite>, <i>to sprinkle, rain</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 36:28\">Targ. Job XXXVI, 28</cite> (Ms. <cite ref=\"G00247\"><he>זחל</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:13\">Targ. Cant. V, 13</cite>; a. e. [<cite ref=\"Targum Jonathan on Isaiah 30:14\">Targ. Is. XXX, 14</cite>, v. <cite ref=\"D00825\"><he>דְּלַח</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַזְלִיחַ", "אַזְלַח"],
+			"senses": [
+				{
+					"gloss": "<i>to cause a flux</i> or <i>diarrhœa</i> by fright. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 29:9\">Targ. Ps. XXIX, 9</cite> (h. text <he>יחולל</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִזְדְּלַח"],
+			"senses": [
+				{
+					"gloss": "<i>to be sprinkled, to gurgle forth</i>, v. <cite ref=\"G00490\"><he>זִלְחָא</he></cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 28:4\">Targ. Job XXVIII, 4</cite> <he>מִיזְדְלַח מרזביא</he> (Ms. <he>מזדלף</he>) gurgling (and forming) gutters (h. text <cite ref=\"C01225\"><he>גָּר</he></cite>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

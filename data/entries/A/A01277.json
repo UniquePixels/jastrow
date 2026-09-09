@@ -1,0 +1,29 @@
+{
+	"id": "A01277",
+	"slug": "אילוגין",
+	"headword": {
+		"text": "אֵילוֹגִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵלוֹגִין"
+		}
+	],
+	"page": {
+		"number": 49,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (elogium) <i>record, bill of indictment, sentence stating the crime, verdict</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15:12\">Ex. R. s. 15</cite> <he>שאעביר אי׳ שלכם</he> I may set aside (cancel) your verdict. ",
+				"<cite ref=\"Shemot Rabbah 31:1\">Ex. R. s. 31</cite> <he>אל׳</he>. [Corr. acc. ",
+				"<cite ref=\"Bamidbar Rabbah 16\">Num. R. s. 16</cite> <he>אליגון</he>; <cite ref=\"Bereishit Rabbah 28\">Gen. R. s. 28</cite>, beg. <cite ref=\"A00234\"><he>אגאליגין</he></cite>; <cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 14</cite> <cite ref=\"A02250\"><he>אנלוגין</he></cite>, <cite ref=\"A00662\"><he>אולוגלוגין</he></cite> Ar.; <cite ref=\"Midrash Tehillim 1:19\">Midr. Till. to Ps. I, 5</cite> <cite ref=\"A00304\"><he>אגלין</he></cite>; <cite ref=\"Pesikta Rabbati 44:1\">Pesik. R. s. 44</cite> <cite ref=\"A02033\"><he>אמלוגין</he></cite>, <he>אמלגין</he>.]"
+			]
+		}
+	]
+}

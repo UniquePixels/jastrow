@@ -1,0 +1,27 @@
+{
+	"id": "U00958",
+	"slug": "שימוט",
+	"headword": {
+		"text": "שִׁימּוּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁמּ׳"
+		}
+	],
+	"page": {
+		"number": 1563,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01453\"><he>שָׁמַט</he></cite>) <i>drawing out, unsheathing</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 192:1\">Sifré Deut. 192</cite> <he>ש׳ סייפים</he> the drawing of swords."
+			]
+		}
+	]
+}

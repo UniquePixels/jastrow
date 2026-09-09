@@ -1,0 +1,72 @@
+{
+	"id": "D00807",
+	"slug": "דלדל-1",
+	"headword": {
+		"text": "דִּלְדֵּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּילְ׳"
+		}
+	],
+	"page": {
+		"number": 308,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Pilp. of <cite ref=\"D00841\"><he>דָּלַל</he></cite>) <i>to reduce, weaken</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 9b:15\">Sot. 9ᵇ</cite> (play on <he>דלילה</he>) <he>דִּילְדְּלָה את כחו וכ׳</he> she weakened his strength, his understanding, his merits; <cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite>. Tanḥ. B’har 3 <he>מְדַלְדְּלוֹ וכ׳</he> the Lord reduces his income, and he must sell his property.—2) <i>to loosen, detach</i>. ",
+				"<cite ref=\"Kiddushin 24b:4\">Kidd. 24ᵇ</cite> <he>די׳ בו עצם</he> he loosened a tooth in the slave’s jaw.—Part. pass. <he>מְדוּלְדָּל</he> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>loosely connected, hanging down, detached</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> he is called <i>dal</i> <he>מד׳ מן הנכסים</he> which means detached from his property (homeless); <cite ref=\"Midrash Mishlei 22:6\">Midr. Prov. ch. XXII</cite> <he>דל מנכסיו</he> (insert <he>מדולדל</he>). ",
+						"<cite ref=\"Mishnah Keritot 3:8\">Ker. III, 8</cite> <he>אבר המ׳</he> (Talm. ed. 15ᵃ sq. <he>המְדוּלְדֶּלֶת</he>) a limb hanging down from the body (not yet entirely detached). ",
+						"<cite ref=\"Mishnah Chullin 9:7\">Ḥull. IX, 7</cite> <he>האבר … המְדוּלְדָּלִין</he> limb or a part of flesh hanging down in tangles. ",
+						"<cite ref=\"Mishnah Bekhorot 3:4\">Bekh. III, 4</cite>; v. <cite ref=\"D00069\"><he>דַּבְלוּל</he></cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>poverty-stricken, beggarly</i>. ",
+					"units": [
+						"<cite ref=\"Sukkah 22b\">Succ. 22ᵇ</cite>, v. <cite ref=\"D00069\"><he>דַּבְלוּל</he></cite>. Tanḥ. Vayakhel 7 <he>עניים ומְדוּלְדָּלִים</he> poor and miserable."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְדַּלְדֵּל", "הִידַּ׳"],
+			"senses": [
+				{
+					"gloss": "; <i>Nithpa.</i> <he>נִתְדַּלְדֵּל</he>, <cite ref=\"N00208\"><he>נִידַּ׳</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to become thin, sparse; to be reduced</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 5:2\">Num. R. s. 5</cite> (play on <cite ref=\"D00797\"><he>דל</he></cite>, <cite ref=\"Proverbs 22:22\">Prov. XXII, 22</cite>) <he>והם מִתְדַּלְדְּלִים וכ׳</he> they (the Levites) expose themselves to diminution for your sake.—2) <i>to be detached, loosely connected, disarranged, parted into shreds</i>. Y. Ab. Zar. V, 44ᵈ top <he>ני׳ חותמן</he> the berries are forcibly detached from the stalk, v. <cite ref=\"H00498\"><he>חוֹתָם</he></cite>. ",
+						"<cite ref=\"Chullin 46a:11\">Ḥull. 46ᵃ</cite> <he>נִידַּלְדְּלָה כבד וכ׳</he> the liver is parted into shreds and mixed up with the fat layers. ",
+						"<cite ref=\"Chullin 44a:15\">Ib. 44ᵃ</cite> <he>סימנים שנִדַּלְדְּלוּ וכ׳</he> gullet and windpipe which are torn loose from their connection so that the larger portion of their circumference is detached."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be disregarded</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite> (<cite ref=\"Sotah 49a:17\">49ᵃ</cite>) <he>נִדַּלְדְּלוּ וכ׳</he> miracle workers are not appreciated."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hithpalp."
+		}
+	]
+}

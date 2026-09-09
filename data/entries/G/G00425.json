@@ -1,0 +1,22 @@
+{
+	"id": "G00425",
+	"slug": "זירזא",
+	"headword": {
+		"text": "זִירְזָא"
+	},
+	"page": {
+		"number": 397,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00686\"><he>זרז</he></cite>, v. <cite ref=\"G00238\"><he>זוּרַיָּא</he></cite>) <i>bundle, bunch</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 101b:15\">Yeb. 101ᵇ</cite> <he>ז׳ דקני</he> a bundle of reeds; <cite ref=\"Shabbat 8b:9\">Sabb. 8ᵇ</cite>"
+			]
+		}
+	]
+}

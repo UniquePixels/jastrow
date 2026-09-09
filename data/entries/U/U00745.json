@@ -1,0 +1,77 @@
+{
+	"id": "U00745",
+	"slug": "שטי-3",
+	"headword": {
+		"text": "שטי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁטָה"
+		}
+	],
+	"page": {
+		"number": 1553,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"O00480\"><he>סָטָה</he></cite>) [<i>to go astray</i>,] <i>to be demented, foolish</i>. V. <cite ref=\"U00381\"><he>שׁוֹטֶה</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִשְׁטָה"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִשְׁתַּטֶּה"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <cite ref=\"U00391\"><he>נִשְׁתַּטֶּה</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to become demented</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Kamma 4:4\">Tosef. B. Kam. IV, 4</cite> <he>שנִישְׁטוּ בעלין</he> ed. Zuck. (Var. <he>שנִשְׁתַּטּוּ</he>) whose owner became insane; <cite ref=\"Bava Kamma 39b\">B. Kam. 39ᵇ</cite>. ",
+						"<cite ref=\"Mishnah Yevamot 14:1\">Yeb. XIV, 1</cite> <he>נִשְׁתַּטֵּית וכ׳</he> if the wife becomes insane, he cannot divorce her; <he>נ׳ וכ׳</he> if he becomes insane, he can never divorce her; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be mad; to rage, be impassioned</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20<sup>23</sup></cite> <he>היה נִשְׁטֶה אחריה וכ׳</he> he was mad with passion for her, as we read (<cite ref=\"Hosea 4:11\">Hos. IV, 11</cite>) &c.; Tanḥ. Balak 18 <he>היו משטתה וכ׳</he> (read: <he>היה מִשְׁתַּטֶּה</he>; ed. Bub. 25 <cite ref=\"U00745\"><he>נשטה</he></cite>). ",
+						"<cite ref=\"Hosea 4:11\">Ib.</cite> <he>והוא נ׳ וכ׳</he> and he in his rage for her slaughtered it to Baal Peor; Num. R. l. c. ",
+						"<cite ref=\"Tosefta Niddah 5:17\">Tosef. Nidd. V, 17</cite> <he>עד מתי אתם נִשְׁטִין וכ׳</he> how long will you rage? cry to him that created the sea. Tanḥ. Vayera 22 <he>והזקן הוא ה׳ וכ׳</he> and that old man (Abraham) has run mad, and he is going to slay thee. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 131:1\">Yalk. Sam. 131</cite> <he>והיתה צועקת ומִשְׁתַּטָּה … ומִשְׁתַּטֶּה מבחוץ</he> and she screamed and raged within, and David screamed and raged without; <cite ref=\"Midrash Tehillim 34:1\">Midr. Till. to Ps. XXXIV</cite> <he>והיו צועקות שתיהן ומַשְׁטוֹת … ומַשְׁטֶה בחוץ</he> and both of them (mother and daughter) screamed and raged &c. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 846\">Yalk. Ps. 846</cite> [read:] <he>מכאן שמשאדם רואה בנים כאילו הוא משתטה</he> from this we learn that, when a man lives to have children, he acts like a fool (in playing with them)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["הִשְׁטָה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00744\">same</cite>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "(with <cite ref=\"B00000\"><he>ב</he></cite>) <i>to fool, jest</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 106a\">Yeb. 106ᵃ</cite>; <cite ref=\"Bava Kamma 116a:4\">B. Kam. 116ᵃ</cite> <he>אמר ליה משטה אני בך</he> he may say, I was only jesting with thee. ",
+						"<cite ref=\"Bava Batra 175a:9\">B. Bath. 175ᵃ</cite> <he>אין אדם משטה בשעת מיתה</he> nobody jests in his dying hour (therefore a dying man’s admission of indebtedness does not require the usual formalities to be binding)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

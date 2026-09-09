@@ -1,0 +1,28 @@
+{
+	"id": "Q01274",
+	"slug": "פסיגא",
+	"headword": {
+		"text": "פְּסִיגָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּסִיגָה"
+		}
+	],
+	"page": {
+		"number": 1194,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01227\"><he>פָּסַג</he></cite>; v. <cite ref=\"Q01230\"><he>פִּסְגָּה</he></cite>) <i>branch, sprig</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 1:5\">Ukts. I, 5</cite> <he>פ׳ של אשכול שריקנה</he> (Talm. ed. <cite ref=\"Q01274\"><he>פסיגא</he></cite>) a sprig of a vine when stripped of its grapes.—Pl. <he>פְּסִיגִין</he>. ",
+				"<cite ref=\"Tosefta Peah 3:11\">Tosef. Peah III, 11</cite> (expl. <he>כתף</he>) <he>פ׳ המחוברות וכ׳</he> (ed. Zuck. <he>בסיגין</he>, Var. <he>סיגין</he>) sprigs which are joined to the trunk one above the other; Y. ib. VII, 20ᵃ bot. <he>פ׳ זו על גבי זו</he>."
+			]
+		}
+	]
+}

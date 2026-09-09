@@ -1,0 +1,27 @@
+{
+	"id": "V00879",
+	"slug": "תקופה",
+	"headword": {
+		"text": "תְּקוּפָה"
+	},
+	"page": {
+		"number": 1690,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"S00486\"><he>קוּף</he></cite>)<i>turn, cycle</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 59b:1\">Ber. 59ᵇ</cite> <he>בתְקוּפָתָהּ</he>, v. <cite ref=\"H01152\"><he>חַמָּה</he></cite>. ",
+				"<cite ref=\"Rosh Hashanah 8a\">R. Hash. 8ᵃ</cite> (Tosaf. <i>pl.</i>); a. e.—Esp. <i>turn of the sun, solstice</i>; <he>תְּקוּפַת ניסן</he> <i>vernal equinox</i>; <he>ת׳ תמוז</he> <i>summer solstice</i>; <he>ת׳ תשרי</he> <i>autumnal equinox</i>; <he>ת׳ טבת</he> <i>winter solstice</i>. ",
+				"<cite ref=\"Eruvin 56a:10\">Erub. 56ᵃ</cite>. ",
+				"<cite ref=\"Sanhedrin 11b\">Snh. 11ᵇ</cite>; <cite ref=\"Tosefta Sanhedrin 2:2\">Tosef. ib. II, 2</cite> <he>על שלשה … ועל הת׳</he> we declare a leap-year for three reasons: on account of the spring crop, on account of the fruits of the trees, and on account of the solstice; a. fr.—<i>Pl.</i> <he>תְּקוּפוֹת</he>. ",
+				"<cite ref=\"Pirkei Avot 3:18\">Ab. III, 18</cite> <he>ת׳</he> the calculation of cycles (astronomy), v. <cite ref=\"Q01967\"><he>פַּרְפֶּרֶת</he></cite>. ",
+				"<cite ref=\"Shabbat 75a\">Sabb. 75ᵃ</cite> <he>היודע לתשב ת׳ ומזלות וכ׳</he> he who understands the science of cycles and planets and does not practice it; a. e."
+			]
+		}
+	]
+}

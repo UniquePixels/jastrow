@@ -1,0 +1,25 @@
+{
+	"id": "T00700",
+	"slug": "ריקם-1",
+	"headword": {
+		"text": "רֵיקָם"
+	},
+	"page": {
+		"number": 1477,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T00692\"><he>רֵיק</he></cite>)<i>empty</i>; (adv.) <i>void, without effect</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4<sup>20</sup></cite> <he>שאין ר׳ הימנו וכ׳</he> none is emptier (of virtue) than he &c., v. <cite ref=\"T00692\"><he>רֵיק</he></cite>. ",
+				"<cite ref=\"Devarim Rabbah 1:15\">Deut. R. s. 1<sup>15</sup></cite> <he>ויצא לחוץ ר׳</he> and came out empty-handed (without the jewel which he was to produce). ",
+				"<cite ref=\"Berakhot 32b:8\">Ber. 32ᵇ</cite> <he>אין תפלתו חוזרת ר׳</he> his prayer will not come back void (unfulfilled). ",
+				"<cite ref=\"Rosh Hashanah 17b:7\">R. Hash. 17ᵇ</cite> <he>אינן חוזרות ר׳</he>, v. <cite ref=\"K01280\"><he>כָּרַת</he></cite>; a. fr."
+			]
+		}
+	]
+}

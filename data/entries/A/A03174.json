@@ -1,0 +1,40 @@
+{
+	"id": "A03174",
+	"slug": "ארמי-1",
+	"headword": {
+		"text": "אֲרַמִּי"
+	},
+	"page": {
+		"number": 123,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., <he>אֲרָמִית</he> f. ",
+			"units": []
+		},
+		{
+			"gloss": " (b. h.) <i>Aramaean, Aramaic, Chaldaic</i>. [<cite ref=\"Targum Jonathan on II Kings 18:26\">Targ. II Kings XVIII, 26</cite>.]—לשון א׳ <i>Chaldaic</i>. ",
+			"units": ["<cite ref=\"Shabbat 12b:2\">Sabb. 12ᵇ</cite>; a. fr."],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"A03033\"><he>אֲרוֹמִי</he></cite>; v. <cite ref=\"A03164\"><he>אֲרָם</he></cite>",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>Romish, Roman, heathen</i>. [Owing to Christian censors as well as timid Jewish copyists, many of the passages originally referring to Romans, Christians, &c., have been altered by substituting <i>Arammi, Kuthi, Goy</i> &c., so that only by keen criticism their real application can be ascertained.]—Fem. <i>gentile woman</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 8b\">Ber. 8ᵇ</cite> (Ms. M. <he>ארמאית</he>). ",
+				"<cite ref=\"Mishnah Sanhedrin 9:6\">Snh. IX, 6</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:4\">Y. Meg. I, 71ᶜ</cite> top <he>ארמית</he> <i>Latin;</i> v. <cite ref=\"B00101\"><he>בָּדָא</he></cite>.—Pl. <cite ref=\"A03174\"><he>אֲרַמִּים</he></cite> <cite ref=\"Megillah 11a\">Meg. 11ᵃ</cite> (some ed. <he>פרסיים</he>; Ms. M. <he>רוֹמִיִּים</he>; Sifra B’ḥukk. ",
+				"<cite ref=\"Mishnah Parah 2\">Par. II</cite>, ch. 8 <he>אספסיינוס</he>). V. <cite ref=\"A03033\"><he>אֲרוֹמִי</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

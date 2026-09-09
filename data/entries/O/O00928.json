@@ -1,0 +1,28 @@
+{
+	"id": "O00928",
+	"slug": "סכניא",
+	"headword": {
+		"text": "סִכְנַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְכַנְיָא"
+		}
+	],
+	"page": {
+		"number": 992,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (v. <cite ref=\"O00929\">next w.</cite>) <cite ref=\"O01089\"><he>כפר ס׳</he></cite> <i>K’far Sikhnaya</i> (or <i>S’khania</i>), the home of one Jacob, a disciple of Jesus. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 27b:6\">Ab. Zar. 27ᵇ</cite> (Ms. M. <he>סכינ׳</he>, v. Rabb. D. S. a. l. note); <cite ref=\"Yalkut Shimoni on Nach 551\">Yalk. Mic. 551</cite> <he>סכנייא</he>; (<cite ref=\"Tosefta Chullin 2:22\">Tosef. Ḥull. II, 22</cite> <cite ref=\"O01050\"><he>סמא</he></cite>; <cite ref=\"Jerusalem Talmud Shabbat 14:4:5\">Y. Sabb. XIV, 14ᵈ</cite> bot. <cite ref=\"O01050\"><he>סמא</he></cite>; <cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:5\">Y. Ab. Zar. II, 40ᵈ</cite> bot. <cite ref=\"O01050\"><he>סמא</he></cite>; Tosef. l. c. 24 <cite ref=\"O00929\"><he>סִכְנִין</he></cite>).—",
+				"<cite ref=\"Gittin 57a:14\">Gitt. 57ᵃ</cite> <he>כפר ס׳ של מצרים</he>(?)."
+			]
+		}
+	]
+}

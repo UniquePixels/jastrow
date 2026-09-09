@@ -1,0 +1,50 @@
+{
+	"id": "S01461",
+	"slug": "קמט-2",
+	"headword": {
+		"text": "קְמַט"
+	},
+	"page": {
+		"number": 1385,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", ch. <cite ref=\"S01460\">same</cite>, <i>to seize, hold fast; to tie</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 4:4\">Targ. Prov. IV, 4</cite> (ed. Wil. <he>יְקַמֵּט</he> <i>Pa.</i>; h. text <he>תמך</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 5:22\">Ib. V, 22</cite> (h. text <he>לכד</he>).—",
+				"<cite ref=\"Shabbat 110a:7\">Sabb. 110ᵃ</cite> <he>קָמֵיט ליה</he>, v. infra.—<i>Part. pass.</i> <cite ref=\"S01461\"><he>קָמִיט</he></cite> <i>bound, constipated</i>. ",
+				"<cite ref=\"Yevamot 64b:17-19\">Yeb. 64ᵇ</cite> <he>איכא … דק׳ דמא</he> there are families in which the blood is tied up (whose members bleed little when wounded), opp. <he>דרפי דמא</he> who bleed profusely. ",
+				"<cite ref=\"Pesachim 42b:13\">Pes. 42ᵇ</cite> <he>דק׳ מרפא ליה ודרפא מַקְמִיט ליה</he> on him who is constipated it acts as a laxative, and him who is loose it constipates; Sabb. l. c. <he>דק׳ … קָמֵיט ליה</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַמֵּיט"],
+			"senses": [],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַקְמֵיט"],
+			"senses": [
+				{
+					"gloss": "<i>to press down, double; to tie</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 4:4\">Targ. Prov. IV, 4</cite>, v. supra.—",
+						"<cite ref=\"Sanhedrin 95a:8\">Snh. 95ᵃ</cite> <he>תפשיה וקַמְּטֵיח</he> Ar. he seized and tied him (ed. <he>כפתיה קמטיה</he> he tied him, he pressed him down); <cite ref=\"Yalkut Shimoni on Nach 155:4\">Yalk. Sam. 155</cite> <he>נקטיה וק׳</he>. ",
+						"<cite ref=\"Gittin 47a:5\">Gitt. 47ᵃ</cite> <he>בעינא מְקַמְּטִינְכוּ וכ׳</he> Ar. (ed. <he>אַקְמְטִינְכוּ</he>, Rashi <he>אִיקַמְּטִי׳</he>) I want to tie you; <he>קַמְּטִינְהוּ</he> he did tie them."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause constipation</i>. Pes. l. c.; Sabb. l. c., v. supra.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

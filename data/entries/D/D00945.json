@@ -1,0 +1,31 @@
+{
+	"id": "D00945",
+	"slug": "דעך-1",
+	"headword": {
+		"text": "דָּעַךְ"
+	},
+	"page": {
+		"number": 316,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"D00242\"><he>דּוּךְ</he></cite>)<i>to crush, stamp upon</i>. ",
+			"units": ["<cite ref=\"Sifrei Bamidbar 160\">Sifré Num. 160</cite>."]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִדְעַךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be stamped upon, crushed, annihilated</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 35:1\">Pesik. R. s. 35</cite> <he>נִדְעֲכוּ והלכו להם</he> they were annihilated (their resistance broken) and gone."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

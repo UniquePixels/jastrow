@@ -1,0 +1,33 @@
+{
+	"id": "E00451",
+	"slug": "הינדוא",
+	"headword": {
+		"text": "הִינְדָּוָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הִינְדְּוָאה"
+		},
+		{
+			"text": "הִינְדְּוָו׳"
+		}
+	],
+	"page": {
+		"number": 348,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. <i>Indian</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 74b:2\">B. Bath. 74ᵇ</cite> <he>ר׳ יהודה ה׳</he> (v. Rabb. D. S. a. l. note 100) R. J. the Indian. ",
+				"<cite ref=\"Avodah Zarah 16a:3\">Ab. Zar. 16ᵃ</cite> <he>פרזלא ה׳</he> Indian iron (used for armour).—",
+				"<cite ref=\"Targum Jonathan on Jeremiah 13:23\">Targ. Jer. XIII, 23</cite>, v. <cite ref=\"E00342\"><he>הִידוֹאָה</he></cite>.—Pl. <cite ref=\"E00451\"><he>הִינְדָּוָאֵי</he></cite>.—בֵּי ה׳ <i>India</i>. ",
+				"<cite ref=\"Berakhot 36b:17\">Ber. 36ᵇ</cite>; <cite ref=\"Yoma 81b:8\">Yoma 81ᵇ</cite> (Ar. <cite ref=\"E00657\"><he>הִנְדְּוֵי</he></cite>)."
+			]
+		}
+	]
+}

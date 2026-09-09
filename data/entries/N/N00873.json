@@ -1,0 +1,25 @@
+{
+	"id": "N00873",
+	"slug": "נמיה-2",
+	"headword": {
+		"text": "נְמָיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְמָיָיה"
+		}
+	],
+	"page": {
+		"number": 913,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>נמי</he>, dialect. corresp. to <cite ref=\"N00070\"><he>נבי</he></cite>; cmp. Arab. <i>namay</i>) <i>sproutings</i>, v. <cite ref=\"N00086\"><he>נְבָיָיה</he></cite>.",
+			"units": []
+		}
+	]
+}

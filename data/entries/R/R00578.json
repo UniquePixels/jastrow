@@ -1,0 +1,36 @@
+{
+	"id": "R00578",
+	"slug": "צמירתא",
+	"headword": {
+		"text": "צְמִירְתָּא"
+	},
+	"page": {
+		"number": 1288,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00594\"><he>צְמַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hot</i>; <he>אשתא צ׳</he> <i>inflammatory fever</i>, v. <cite ref=\"A03255\"><he>אֶשָּׁא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Pesachim 25b:6\">Pes. 25ᵇ</cite>. ",
+				"<cite ref=\"Avodah Zarah 28a:2\">Ab. Zar. 28ᵃ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>stone in the bladder</i> or <i>kidneys</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 85a:3\">B. Mets. 85ᵃ</cite> (Ms. R. 1 <he>צימרתא</he>; Ag. Hatt. <cite ref=\"R00562\"><he>צמדתא</he></cite>). ",
+				"<cite ref=\"Gittin 69b:16\">Gitt. 69ᵇ</cite> (Rashi <cite ref=\"R00578\"><he>צְמַרְתָּא</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

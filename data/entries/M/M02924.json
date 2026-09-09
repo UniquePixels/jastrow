@@ -1,0 +1,30 @@
+{
+	"id": "M02924",
+	"slug": "משמע-1",
+	"headword": {
+		"text": "מִשְׁמָע"
+	},
+	"page": {
+		"number": 856,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01511\"><he>שָׁמַע</he></cite>)<i>obedience</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 357:38\">Sifré Deut. 357</cite> ref. to <cite ref=\"Deuteronomy 34:9\">Deut. XXXIV, 9</cite>) <he>אין לך מ׳ גדול וכ׳</he> there can be no obedience greater than this."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ordinary sense</i>.—כְּמִשְׁמָעוֹ <i>in its usual sense</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 61a:3\">Yoma 61ᵃ</cite> <he>מזבח כמ׳</he> ‘altar’ in its usual sense (requires no explanation); <he>הכהנים כְּמִשְׁמָעָן</he> ‘the priests’ &c.; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

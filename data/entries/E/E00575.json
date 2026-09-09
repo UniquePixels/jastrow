@@ -1,0 +1,43 @@
+{
+	"id": "E00575",
+	"slug": "הלם",
+	"headword": {
+		"text": "הָלַם"
+	},
+	"page": {
+		"number": 354,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.;cmp. <cite ref=\"H01081\"><he>חָלַם</he></cite> a. Arab. ḫilm <i>friend;</i> v. Fl. to Levy Talm. Dict. I, p. 558ᵃ) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to join, weld</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 44:7\">Gen. R. s. 44</cite> (ref. to <he>הוֹלֶם פעם</he> <cite ref=\"Isaiah 41:7\">Is. XLI, 7</cite>) <he>וה׳ את כל וכ׳</he> and welded all mankind to follow one road to the Lord; Yalk. ib. 76; <cite ref=\"Yalkut Shimoni on Nach 313\">Yalk. Is. 313</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be attached, fit closely</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 44a:7\">Ab. Zar. 44ᵃ</cite> <he>מתנשא שביקש להוֹלְמוֹ ולא הוֹלַמְתּוֹ</he> Ms. M. (ed. <he>שמתנשא לה׳</he>, corr. acc.) ‘he exalted himself’ (<cite ref=\"I Kings 1:5\">I Kings I, 5</cite>) means that he attempted to fasten (the crown to his head), but it would not fit him; <cite ref=\"Yalkut Shimoni on Nach 166:1\">Yalk. Kings 166</cite>; <cite ref=\"Sanhedrin 21b:21\">Snh. 21ᵇ</cite>.—[<cite ref=\"Tosefta Bekhorot 4:13\">Tosef. Bekh. IV, 13</cite> <he>מוהלמות</he>, read: <he>מְבוּלָּמוֹת</he>, v. <cite ref=\"B00881\"><he>בָּלַם</he></cite>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶהֱלִים"],
+			"senses": [
+				{
+					"gloss": "<i>to attach closely, paste on</i>. Y. Ter. X, 47ᵃ bot. <he>מַהֲלִימִין היו</he> they made the pastry adhere to the mouth of the vessel.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "P01373",
+	"slug": "עריק",
+	"headword": {
+		"text": "עֲרִיק"
+	},
+	"page": {
+		"number": 1118,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01442\"><he>עֲרַק</he></cite>) <i>fugitive, hunted</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 10:18\">Targ. Is. X, 18</cite> (h. text <cite ref=\"N00953\"><he>נֹסֵס</he></cite>)."
+			]
+		}
+	]
+}

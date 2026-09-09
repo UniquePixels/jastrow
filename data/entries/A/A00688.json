@@ -1,0 +1,30 @@
+{
+	"id": "A00688",
+	"slug": "אומאה",
+	"headword": {
+		"text": "אוֹמָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹמָתָא"
+		},
+		{
+			"text": "הוֹמָאָה"
+		}
+	],
+	"page": {
+		"number": 26,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>ימי</he>, Af. <cite ref=\"A00696\"><he>אוֹמִי</he></cite>) <i>the act of administering an oath, swearing, imprecation</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 5:1\">Targ. Y. Lev. V, 1</cite>; <cite ref=\"Targum Jonathan on Leviticus 5:4\">4</cite>.—*<cite ref=\"Targum Jerusalem, Deuteronomy 27:15\">Targ. Y. II, Deut. XXVII, 15</cite> <he>פתחו הוּמְהוֹם וכ׳</he> (Var. <he>פומהום</he>, ed. Vien. <he>קתחו</he> corr. acc.) they opened their imprecation with a blessing."
+			]
+		}
+	]
+}

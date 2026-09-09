@@ -1,0 +1,54 @@
+{
+	"id": "S01837",
+	"slug": "קצץ-2",
+	"headword": {
+		"text": "קְצַץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַץ"
+		}
+	],
+	"page": {
+		"number": 1407,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01836\">same</cite> to <i>cut</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 6:30\">Targ. Jud. VI, 30</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 19:5\">Targ. O. Deut. XIX, 5</cite>; a. fr.—Part. pass. <cite ref=\"S01837\"><he>קָצִיץ</he></cite>; f. <cite ref=\"S01820\"><he>קְצִיצָא</he></cite>; pl. <cite ref=\"S01822\"><he>קְצִיצִין</he></cite>; <cite ref=\"S01820\"><he>קְצִיצָן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 6:28\">Targ. Jud. VI, 28</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 5:4\">Targ. I Sam. V, 4</cite>; a. e.—",
+				"<cite ref=\"Sanhedrin 58b:21\">Snh. 58ᵇ</cite> <he>רב הונא קץ ידא</he> Rab Huna ordered the hand (of one in the habit of striking his neighbors) to be cut off; <cite ref=\"Niddah 13b:33\">Nidd. 13ᵇ</cite>. ",
+				"<cite ref=\"Bava Kamma 91b:19\">B. Kam. 91ᵇ</cite> <he>דקץ תאינתא וכ׳</he> he cut fig-trees down before their time; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to stipulate</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 67a:9\">B. Mets. 67ᵃ</cite> <he>לא קץ ליה</he> he had not stipulated a fixed amount of interest; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַצֵּיץ"],
+			"senses": [
+				{
+					"gloss": " (<cite ref=\"S01837\"><he>קָצֵיץ</he></cite>) <i>to cut; to mutilate</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 107:16\">Targ. Ps. CVII, 16</cite>. ",
+						"<cite ref=\"Aramaic Targum to Lamentations 2:3\">Targ. Lam. II, 3</cite> (ed. Lag. <cite ref=\"S01836\"><he>קיצץ</he></cite>, ed. Vien. <cite ref=\"S01831\"><he>קצף</he></cite>, corr. acc.). ",
+						"<cite ref=\"Onkelos Deuteronomy 7:5\">Targ. O. Deut. VII, 5</cite> <he>תְּקָצְצוּן</he> ed. Berl. (oth. ed. <he>תְּקוֹצְצוּן</he>; Y. <he>תְּקַצְּצוּן</he>); a. e.—B. Kam. l. c. <he>דיקלא … לִמְקַצְּצָה</he> it is forbidden to fell a date-tree as long as it bears a Kab of dates. ",
+						"<cite ref=\"Bereishit Rabbah 6\">Gen. R. s. 6</cite> (of the agony of death) <he>כמא נפשיה … מְקַצְּצָא ארזין ומקצצא וכ׳</he> how the soul of this man’s (my) brother is cutting cedars and cutting trees, and you sit laughing and know it not; a. e.—[<cite ref=\"Vayikra Rabbah 5:8\">Lev. R. s. 5</cite> <he>שעריה מקצץ</he>, v. <cite ref=\"S00527\"><he>קְוַץ</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "K00693",
+	"slug": "כלו",
+	"headword": {
+		"text": "כָּלוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּלוּ"
+		}
+	],
+	"page": {
+		"number": 640,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>כְּלֵי</he> I, sub. <cite ref=\"H00811\"><he>חֵימְתָא</he></cite>) <i>finishing, venting full wrath</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 29:27\">Targ. Y. Deut. XXIX, 27</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 59:14\">Targ. Ps. LIX, 14</cite> <he>בכָ׳</he> (Ms. <he>בכַיְלוּ</he>). ",
+				"<cite ref=\"Targum Jerusalem, Genesis 27:44\">Targ. Y. II, Gen. XXVII, 44</cite> <he>כולתיה</he> (read: <he>כְּלוּתֵיה</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 29:22\">Targ. Y. Deut. XXIX, 22</cite> <he>כְּלֵיתֵיה</he>."
+			]
+		}
+	]
+}

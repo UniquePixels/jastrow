@@ -1,0 +1,50 @@
+{
+	"id": "M02912",
+	"slug": "משל-2",
+	"headword": {
+		"text": "מָשַׁל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 855,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <cite ref=\"M02913\">next w.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to speak metaphorically</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 5:7\">Nidd. V, 7</cite> <he>מָשָׁל מָשְׁלוּ וכ׳</he> the scholars introduced metaphors for designating the stages of female puberty."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to compare, to give an illustration</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Berakhot 1:11\">Tosef. Ber. I, 11</cite> <he>משלו משל למה וכ׳</he> they made a comparison: what is this to be compared to? To &c. ",
+				"<cite ref=\"Rosh Hashanah 17b:18\">R. Hash. 17ᵇ</cite> <he>אֶמְשׁוֹל לך משל למה וכ׳</he> let me tell thee a parable: what is this like to? To &c. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:15:1\">Cant. R. to II, 15</cite> <he>כשחוא מוֹשֵׁל את המלכיות אינו מוֹשְׁלָן אלא באש</he> when one wants to find a simile for hostile governments, one compares them to fire; a. v. fr.—Part. pass. <he>מָשׁוּל</he>; f. <he>מְשׁוּלָה</he>; pl. <he>מְשׁוּלִים</he>, <he>מְשׁוּלִין</he>; <he>מְשׁוּלוֹת</he>. ",
+				"<cite ref=\"Megillah 16a:15\">Meg. 16ᵃ</cite> <he>אומה זו מ׳ לעפר ומ׳ וכ׳</he> that nation (Israel) is compared now to dust and now to the stars; a. v. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִמְשַׁל"],
+			"senses": [
+				{
+					"gloss": "<i>to be compared</i> (followed by <he>ל־</he>, <he>כ־</he> or <cite ref=\"B00000\"><he>ב־</he></cite>). ",
+					"units": [
+						"<cite ref=\"Taanit 7a:9\">Taan. 7ᵃ</cite> <he>נִמְשְׁלוּ דברי תורה לאש</he> Ms. M. (ed. <he>כאש</he>, <he>באש</he>. v. Rabb. D. S. a. l. note) the words of the Law are compared to fire. ",
+						"<cite ref=\"Bereishit Rabbah 41:9\">Gen. R. s. 41</cite> <he>התורה שנִמְשְׁלָה למים</he> the Law which is compared to water; a. v. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

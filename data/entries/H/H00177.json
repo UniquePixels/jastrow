@@ -1,0 +1,28 @@
+{
+	"id": "H00177",
+	"slug": "חדה",
+	"headword": {
+		"text": "חַדָּה"
+	},
+	"page": {
+		"number": 425,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. fem. of <cite ref=\"H00168\"><he>חַד</he> I</cite>; ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sharp side, edge</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:14\">Y. Ber. I, 2ᵇ</cite> bot. [<cite ref=\"H00177\"><he>חדה</he></cite>, <cite ref=\"Tosefta Shabbat 6:11\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:11\">VII</cite>), 11 Var., v. <cite ref=\"E00099\"><he>הָדָה</he> II</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

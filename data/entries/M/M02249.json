@@ -1,0 +1,40 @@
+{
+	"id": "M02249",
+	"slug": "מפרע",
+	"headword": {
+		"text": "מִפְרֵעַ"
+	},
+	"page": {
+		"number": 822,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01943\"><he>פָּרַע</he></cite>) <i>upsetting</i>; <he>לְמִ׳</he> (adv.; cmp. <he>הפך</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>irregularly, out of order</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Megillah 2:1\">Meg. II, 1</cite> <he>הקורא … למ׳</he> he who reads the Book of Esther in an irregular way (corresp. to <he>סירוסין</he>, ib. 18ᵇ top). Ib. 17ᵃ (ref. to <cite ref=\"Esther 9:27\">Esth. IX, 27</cite>) <he>מה זמנם למ׳ לא אף כתבם למ׳ לא</he> as you cannot disregard the order of these days in celebrating their season, so you must not transpose the order in which the events of these days are described. ",
+				"<cite ref=\"Esther 9:27\">Ib.</cite> (ref. to <cite ref=\"Esther 9:28\">Esth. IX, 28</cite>) <he>מה עשייה למ׳ לא אף זכירה למ׳ לא</he> as you cannot subvert the celebration, so you must not subvert the order of recitation. ",
+				"<cite ref=\"Berakhot 13a\">Ber. 13ᵃ</cite>; <cite ref=\"Sotah 32b\">Sot. 32ᵇ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>backward, retroactively, retrospectively</i>, opp. <he>מכאן ולהבא</he>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 27a:2\">Snh. 27ᵃ</cite> <he>למ׳ הוא נפסל</he> he becomes disqualified as witness retroactively, i.e. his testimonies are invalidated from the time that he perjured himself (opp. <he>מיכן ולהבא</he>, v. <cite ref=\"B00007\"><he>בָּא</he> III</cite>). ",
+				"<cite ref=\"Eruvin 37b\">Erub. 37ᵇ</cite>, sq … <he>ונמצא … למ׳</he> and the retroactive result would be that he drank untithed wine at the time; <cite ref=\"Jerusalem Talmud Demai 7:4:3\">Y. Dem. VII, 26ᵇ</cite> <he>למִפְרֵעוֹ</he>. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 3:8:4\">Y. Gitt. III, end, 45ᵇ</cite> <he>למפרעו הוא נעשה חומץ</he> is it to be considered as sour wine at the time, i.e. from the day that he was bound to examine it? <cite ref=\"Tosefta Sotah 11:9\">Tosef. Sot. XI, 9</cite> <he>מְנֵה … למ׳</he> count thirty-three days backward. ",
+				"<cite ref=\"Bereishit Rabbah 49\">Gen. R. s. 49</cite> <he>חזור בך למ׳</he> take up the argument going back gradually (from fifty to forty-five &c.); a. fr.—",
+				"<cite ref=\"Tosefta Berakhot 4:19\">Tosef. Ber. IV, 19</cite>, sq. <he>לברך למ׳</he> to say the blessing after meal, opp. <he>כתחלה</he>(<he>ל</he>); <cite ref=\"Pesachim 101b\">Pes. 101ᵇ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

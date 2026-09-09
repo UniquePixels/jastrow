@@ -1,0 +1,62 @@
+{
+	"id": "Q00092",
+	"slug": "פגר-3",
+	"headword": {
+		"text": "פְּגַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1135,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <i>Pi.</i>) <i>to be lax, faint</i> (cmp. <cite ref=\"Q00152\"><he>פּוּג</he></cite>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּגֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to relax, take vacation, be idle</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 129b:12\">Sabb. 129ᵇ</cite> <he>יומא דמְפַגְּרֵי ביה רבנן</he> a day on which the teachers took a hotiday."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to relax</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 103b:17\">Keth. 103ᵇ</cite> <he>ור׳ סבר לא אֲפַגְּרֵיה</he> and Rabbi thought, I will not cause him to relax (in his charitable work, by appointing him a member of the college; or ‘I will not wear him out’, overburden him)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיפַּגֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to take vacation, absent one’s self</i>. Ib. 111ᵇ <he>אי׳ … ולא אתא</he> he (the teacher) took a three days’ vacation and did not come (to school). Ib. <he>אמאי אִיפַּגְּרַת</he> why did you absent yourself? ",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אַפְגַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be indifferent, neglectful</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 94\">Gen. R. s. 94</cite> <he>מאי טעמא א׳ מר</he> why have you become indifferent (towards me)?"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

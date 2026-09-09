@@ -1,0 +1,23 @@
+{
+	"id": "M02733",
+	"slug": "מרעה",
+	"headword": {
+		"text": "מִרְעֶה"
+	},
+	"page": {
+		"number": 845,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T00882\"><he>רָעָה</he> I)</cite><i>pasture</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite>; <cite ref=\"Yalkut Shimoni on Nach 176:2\">Yalk. Kings 176</cite> (expl. <cite ref=\"T00889\"><he>רעי</he></cite>, <cite ref=\"I Kings 5:3\">I Kings V, 3</cite>) <he>מן המ׳</he> directly from the pasture ground. ",
+				"<cite ref=\"Bamidbar Rabbah 10:3\">Num. R. s. 10</cite> <he>כל המ׳</he> the whole flock; a. e."
+			]
+		}
+	]
+}

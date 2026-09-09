@@ -1,0 +1,24 @@
+{
+	"id": "V01050",
+	"slug": "תרפים",
+	"headword": {
+		"text": "תְּרָפִים"
+	},
+	"page": {
+		"number": 1702,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (b. h.) <i>Teraphim</i>, a certain form of idols. Tanḥ. Vayetsé 12 <he>וכי הת׳ מדברים הן</he> do the Teraphim talk? Ib. <he>למה נקראו ת׳ שהן מעשה תורף וכ׳</he>, v. <cite ref=\"V00315\"><he>תּוֹרְפָה</he></cite> (v. <cite ref=\"R00433\"><he>צִיץ</he> II</cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:3:24\">Y. Ab. Zar. II, 41ᵇ</cite>, v. <cite ref=\"V01046\"><he>תַּרְפּוּת</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 74:9\">Gen. R. s. 74</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "A03180",
+	"slug": "ארמלא",
+	"headword": {
+		"text": "אַרְמְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַרְמְלָה"
+		},
+		{
+			"text": "אַרְמַלְתָּא"
+		}
+	],
+	"page": {
+		"number": 123,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>אלמל׳</he> fr. <he>עלם</he>; v. <cite ref=\"A01913\"><he>אַלְמוֹן</he></cite>; v. P.; v. P. S. s. v. 391) <i>widow</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 38:11\">Targ. Gen. XXXVIII, 11</cite>; a. fr.—Y. Sabb. I, 3ᵈ top; a. fr.—Pl. <cite ref=\"A03180\"><he>אַרְמְלָן</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 22:23\">Targ. Ex. XXII, 23</cite>, a. e.—Y. Keth. I, beg. 24ᵈ.—<cite ref=\"A03182\"><he>אַרְמְלָאתָא</he></cite>, <cite ref=\"A03182\"><he>אַרְמְלָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 22:9\">Targ. Job XXII, 9</cite>; a. e.—Y. Meg. III, 74ᵃ top; a. e."
+			]
+		}
+	]
+}

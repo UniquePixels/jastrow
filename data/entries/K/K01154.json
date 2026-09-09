@@ -1,0 +1,44 @@
+{
+	"id": "K01154",
+	"slug": "כריא-1",
+	"headword": {
+		"text": "כַּרְיָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּרְיָה"
+		}
+	],
+	"page": {
+		"number": 666,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"K01153\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 105a:9\">B. Mets. 105ᵃ</cite> (in a tenant’s contract) <he>ואוקים כ׳ וכ׳</he> and I will place the pile (of my crop) before thee. Y. Maasr. I, 49ᵃ bot. (expl. <he>משיתמרח</he>) <he>מן דו ישפר אפוי דכ׳</he> from the time he gives shape to the pile; a. e.—Pl. <cite ref=\"K01108\"><he>כַּרְוָון</he></cite>, <cite ref=\"K00622\"><he>כֵּירָוָון</he></cite>, <cite ref=\"K00622\"><he>כֵּירָוָותָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 8:10\">Targ. Y. Ex. VIII, 10</cite>, v. <cite ref=\"K00368\"><he>כּוֹרָא</he></cite>. ",
+				"<cite ref=\"Targum of II Chronicles 31:6\">Targ. II Chr. XXXI, 6</cite>; <cite ref=\"Targum of II Chronicles 31:7\">7</cite>, sq. (h. text <he>ערמות</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>digging, ditch; well</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 8a:6\">B. Bath. 8ᵃ</cite> <he>רמי כ׳ חדתא וכ׳</he> (v. Rabb. D. S. a. l. note 80) put on orphans (heirs) the obligation of contributing towards a new ditch. ",
+				"<cite ref=\"Bava Batra 8a:7\">Ib.</cite> (<cite ref=\"E00513\"><he>הכל</he></cite>) <he>לכ׳</he> (<cite ref=\"D00000\"><he>ד</he></cite>)<he>פתיא וכ׳</he> (Ms. F. <cite ref=\"B00700\"><he>בֵּירָא</he></cite>, v. Rabb. D. S. a. l. note) even scholars must lend their services in digging a street-well; <cite ref=\"Bava Metzia 108a\">B. Mets. 108ᵃ</cite> (v. Rabb. D. S. a. l. note 60). ",
+				"<cite ref=\"Bava Metzia 110a:8\">Ib. 110ᵃ</cite> <he>וכרי כ׳</he> and must do what digging may be required (ditch, well), v. <cite ref=\"I00593\"><he>טַסְקָא</he></cite>. ",
+				"<cite ref=\"Bava Metzia 110a:9\">Ib.</cite> <he>לכ׳ דנהרא</he> for dredging the river (or channel).—*<he>בית כ׳</he> <i>House of Heaps</i> (Ruins), a cacophemistic change of the name <he>בֵּית גַּלְיָא</he>, v. <cite ref=\"C00932\"><he>גַּלְיָא</he> II</cite>. ",
+				"<cite ref=\"Avodah Zarah 46a:3\">Ab. Zar. 46ᵃ</cite>; <cite ref=\"Temurah 28b:21\">Tem. 28ᵇ</cite> (Var. <cite ref=\"K00720\"><he>כַּלְיָיא</he></cite> <i>destruction</i>).—[V., however, <cite ref=\"C00156\"><he>גַּדָּא</he></cite> a. <cite ref=\"C00849\"><he>גַּלָּא</he></cite>.]—",
+				"<cite ref=\"Megillah 6a\">Meg. 6ᵃ</cite> <he>בית כ׳ שלהן</he> Ms. M. (ed. <he>במיא</he>, v. Rabb. D. S. a. l. note)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "H00493",
+	"slug": "חושן-1",
+	"headword": {
+		"text": "חוֹשֶׁן"
+	},
+	"altHeadwords": [
+		{
+			"text": "חשֶׁן"
+		}
+	],
+	"page": {
+		"number": 441,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>חשן</he>, cmp. <he>חשל</he>)<i>breast-plate</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 88b:7\">Zeb. 88ᵇ</cite> <he>ח׳ מכפר וכ׳</he> the Highpriest’s breast-plate brings atonement for wrong judgments. ",
+				"<cite ref=\"Shabbat 139a:14\">Sabb. 139ᵃ</cite> <he>זכה לח׳ המשפט וכ׳</he> was privileged to wear the breast-plate of judgment upon his heart. ",
+				"<cite ref=\"Yoma 72a:9\">Yoma 72ᵃ</cite> <he>המזיח ח׳ מעל וכ׳</he> he who loosens the breast-plate from the <i>Ephod;</i> a. fr."
+			]
+		}
+	]
+}

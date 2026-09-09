@@ -1,0 +1,20 @@
+{
+	"id": "A00118",
+	"slug": "אביונה-1",
+	"headword": {
+		"text": "אֲבִיּוֹנָה"
+	},
+	"page": {
+		"number": 5,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h., <cite ref=\"A00107\"><he>אבי</he></cite>)<i>caper-tree</i>, or <i>caper-berry</i>, so called from the stimulating effects of its seed.—Pl. <cite ref=\"A00120\"><he>אִבְיוֹנוֹת</he></cite>. ",
+			"units": ["<cite ref=\"Mishnah Maasrot 4:6\">Maasr. IV, 6</cite>; a. e."]
+		}
+	]
+}

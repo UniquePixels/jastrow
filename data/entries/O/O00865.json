@@ -1,0 +1,23 @@
+{
+	"id": "O00865",
+	"slug": "סיתורייתא",
+	"headword": {
+		"text": "סִיתּוּרְיָיתָא"
+	},
+	"page": {
+		"number": 988,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>סְתַר</he> II) <i>used for tearing down</i>; <he>מאני ס׳</he> <i>sapping instruments</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 1</cite> (not <he>סות׳</he>)."
+			]
+		}
+	]
+}

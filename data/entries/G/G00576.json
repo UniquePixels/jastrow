@@ -1,0 +1,63 @@
+{
+	"id": "G00576",
+	"slug": "זנח-1",
+	"headword": {
+		"text": "זָנַח"
+	},
+	"page": {
+		"number": 406,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to glisten</i> (cmp. <cite ref=\"D00926\"><he>דנח</he></cite>) <i>to be fat; to be greasy, foul</i> (cmp. meanings of <he>זהם</he>, <he>צחן</he>, v. Ges. Thes. s. v. <cite ref=\"G00577\"><he>זנח</he></cite>); ",
+			"units": []
+		},
+		{
+			"gloss": " (act. verb) <i>to loathe</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 60:2\">Midr. Till. to Ps. LX</cite>; <cite ref=\"Yalkut Shimoni on Nach 777:5\">Yalk. Ps. 777</cite> <he>אני זָנַחְתִּי אתכם אתם זְנַחְתֶּם אותי</he> did I loathe you? You loathed me."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be loth</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 41:1\">Pesik. R. s. 41</cite> (ref. to <he>זונה</he>, <cite ref=\"Psalms 73:27\">Ps. LXXIII, 27</cite>) <he>שרחקו וזָנְחוּ הימך</he> because they removed themselves from and were loth of Thee."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִזְנִיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to declare rejectable, unclean;</i> (cmp. <he>זהם</he>) <i>to reject;</i> (cmp. <cite ref=\"O00004\"><he>סאב</he></cite>, <he>רחק</he>) <i>to remove</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 7a:2\">Ḥull. 7ᵃ</cite> <he>אין מַזְנִיחִין אותו</he> we must not detest him (remove him from college). Pesik. R. l. c. <he>מַזְנִיחִים עצמם הימך</he> they (through their sins) remove themselves from thee."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to polish, cleanse</i>. Lev. R. s. l, beg. (ref. to <he>אבי זנוח</he>) <cite ref=\"I Chronicles 4:18\">I Chr. IV, 18</cite>) that is Moses <he>שהיה אב למַזְנִיחִים שהִזְנִיחָם מע״ז</he> for he was the father of the cleaners, for he cleansed them from idolatry; Yalk. ib. 428.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["זִנֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to make glistening, to stroke, dress</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20</cite>; Tanḥ. Balak 12 <he>באתי</he> … <he>זִנַּחְתִּיהָ</he> I had come to kill her, and now I had to polish her up; (Tanḥ. ed. Bub. ib. 20 <he>זיניתה</he>; <cite ref=\"Yalkut Shimoni on Torah 768\">Yalk. Num. 768</cite>, Matt. K. to Num. R. l. c. quotes in Tanḥ. l. c. <he>דכיתיה</he>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

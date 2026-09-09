@@ -1,0 +1,35 @@
+{
+	"id": "P01530",
+	"slug": "עתיד-1",
+	"headword": {
+		"text": "עָתִיד"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲתִידָה"
+		}
+	],
+	"page": {
+		"number": 1129,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"P01526\"><he>עָתַד</he></cite>)<i>standing</i> (cmp. <cite ref=\"P00859\"><he>עָמַד</he></cite>); <i>ready, designated; in future</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 15b:3\">Meg. 15ᵇ</cite>; <cite ref=\"Sanhedrin 111b:3\">Snh. 111ᵇ</cite> <he>ע׳ הקב״ה להיות וכ׳</he> at a future time the Lord shall be a crown on the head of every righteous man. ",
+				"<cite ref=\"Shabbat 138b:12\">Sabb. 138ᵇ</cite> <he>ע׳ תורה שתשתכח וכ׳</he> a time will come when the Law will be forgotten in Israel; a. fr.—<he>הֶעָ׳ לָבֹא</he> (or <he>הֶעָ׳</he>) <i>the future</i>. ",
+				"<cite ref=\"Ketubot 87a:3\">Keth. 87ᵃ</cite> <he>משביעין אותה על הע׳ לבא</he> we administer an oath to her in regard to her conduct in the future, opp. <he>על שעבר</he>; a. fr.—Esp. <he>לֶעָתִיד לָבֹא</he> (abbrev. <he>לע״ל</he>) <i>in the Messianic future; in the hereafter</i> (v. <cite ref=\"P00266\"><he>עוֹלָם</he></cite>). ",
+				"<cite ref=\"Avodah Zarah 3b:3\">Ab. Zar. 3ᵇ</cite> <he>לע״ל באין אומות וכ׳</he> in the Messianic days the nations of the world will come and ask to be converted. ",
+				"<cite ref=\"Avodah Zarah 3b:18\">Ib.</cite> <he>אין גהינם לע״ל</he> there is no Gehenna (hell) in the hereafter, but the Lord leads the sun forth &c. ",
+				"<cite ref=\"Pirkei Avot 2:16\">Ab. II, 16</cite> <he>ודע שמתן … לע״ל</he> but remember that the reward of the righteous is reserved for the hereafter; a. fr.—Pl. <he>עֲתִידִים</he>, <he>עֲתִידִין</he>; <he>עֲתִידוֹת</he>. ",
+				"<cite ref=\"Berakhot 43b:4\">Ber. 43ᵇ</cite> <he>ע׳ בחורי ישראל וכ׳</he> the time will come when the youths of Israel shall give forth a flavor &c. ",
+				"<cite ref=\"Shabbat 152b:8\">Sabb. 152ᵇ</cite> <he>ע׳ צדיקים דהוו עפרא</he> (even) the righteous are destined to turn to dust. ",
+				"<cite ref=\"Yevamot 63a:7\">Yeb. 63ᵃ</cite> <he>ע׳ כל בעלי … שיעמדו וכ׳</he> time will be when all tradesmen will turn to agriculture; a. fr.—[<cite ref=\"Tosefta Keilim Metsia 7:12\">Tosef. Kel. B. Mets. VII, 12</cite> <he>עתידין</he>, v. <cite ref=\"P00736\"><he>עֲכִירִים</he></cite>.]"
+			]
+		}
+	]
+}

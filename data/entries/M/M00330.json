@@ -1,0 +1,22 @@
+{
+	"id": "M00330",
+	"slug": "מדרוכיתא",
+	"headword": {
+		"text": "מַדְרוֹכִיתָא"
+	},
+	"page": {
+		"number": 735,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. pr. n. (<he>דרך</he>) <i>Madrokhitha</i>, name of a peak. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 14:4\">Targ. I Sam. XIV, 4</cite> (h. text <cite ref=\"O01193\"><he>סֶנֶה</he></cite>)."
+			]
+		}
+	]
+}

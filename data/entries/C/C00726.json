@@ -1,0 +1,29 @@
+{
+	"id": "C00726",
+	"slug": "גילהי",
+	"headword": {
+		"text": "גִּילְהֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּלְהֵי"
+		}
+	],
+	"page": {
+		"number": 238,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"C00926\"><he>גלי</he></cite>; cmp. <cite ref=\"U00936\"><he>שִׁילְהֵי</he></cite> fr. <cite ref=\"U01290\"><he>שלה</he></cite>) [<i>uncoverings</i>,] <i>flashes, the glowing horizon</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 3b:11\">Taan. 3ᵇ</cite> <he>גי׳ דליליא</he> (Ms. M. <cite ref=\"C00674\"><he>גו׳</he></cite>) the glow after sunset. ",
+				"<cite ref=\"Pesachim 13a\">Pes. 13ᵃ</cite> top <he>בגי׳ וכ׳</he> Ms. M. (ed. <he>בגילויא</he>) he was standing in the glow before sunrise (mistaking it for the flashing of sunrise, v. <cite ref=\"E00692\"><he>הָנֵץ</he></cite>); <cite ref=\"Sanhedrin 42a\">Snh. 42ᵃ</cite> (ed. <he>בגילויא</he>)."
+			]
+		}
+	]
+}

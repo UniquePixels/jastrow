@@ -1,0 +1,44 @@
+{
+	"id": "C00984",
+	"slug": "גלש-1",
+	"headword": {
+		"text": "גָּלַשׁ"
+	},
+	"page": {
+		"number": 250,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>גלה</he>)<i>to come in sight, to come forth</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 4:1:3\">Cant. R. to IV, 1</cite> (ref. to <he>שגלשו מהר וכ׳</he> <cite ref=\"Shir HaShirim Rabbah 4:1:3\">ib.</cite>) <he>הר שגלשתן מתוכה עשיתיו גלעד לאו״ה</he> (not … <he>תי</he>) the mountain (of trouble) out of which ye came in sight again (ye escaped), I (the Lord) made it a hill of witness (a warning) to the nations; <he>אי זה זה ים סוף</he> what is this? It is the Red Sea [which R. Joshua … translated into Chaldean: <he>טורא דאתנהרתון מן גווה</he>]; <cite ref=\"Shir HaShirim Rabbah 4:1:3\">ib.</cite> to IV, 4 <he>הר שג׳</he> … <he>הר סיני</he> I made your escape memorable to the nations, it is Mount Sinai (by the giving of the Law); ib. repeatedly (referring to various escapes from dangers)."
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִגְלִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to bring to light, to publish</i>. Ib. to IV, 1 <he>ומה הגלשה הִגְלַשְׁתִּי וכ׳</he> (Ar. ed. Koh. <cite ref=\"C00988\"><he>גלשה</he></cite>) and what publication (institution or law) have I (the Lord) brought to light out of that event?",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּגְלָשׁ"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"C00986\"><he>גֶּלֶשׁ</he></cite> <i>baldness</i>) <i>to be made hot enough for scalding the hair or feathers of an animal’s skin</i>. Part. <he>מוּגְלָשׁ</he>, pl. <he>מוּגְלָשִׁין</he> <i>seething water</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 37b\">Pes. 37ᵇ</cite> (Rabad to <cite ref=\"Mishnah Eduyot 5:2\">Eduy. V, 2</cite> quotes a version <he>מַגְלוֹשִׁין</he> <i>scalding water</i>, Ar. <he>מֵי גְלָשִׁים</he>, fr. <cite ref=\"C00986\"><he>גֶּלֶשׁ</he></cite>; Y. Ḥall. I, 58ᵃ top <cite ref=\"H01182\"><he>חַמִּין</he></cite>)."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

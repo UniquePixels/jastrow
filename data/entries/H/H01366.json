@@ -1,0 +1,37 @@
+{
+	"id": "H01366",
+	"slug": "חסי",
+	"headword": {
+		"text": "חֲסִי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲסָא"
+		}
+	],
+	"page": {
+		"number": 487,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"H01335\"><he>חסד</he> II</cite>) <i>to be scraped</i>. Denom. <cite ref=\"H01367\"><he>חַסְיָא</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַחְסֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to revile, sneer at</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 1:6\">Targ. I Sam. I, 6</cite> <he>ומרגזה פנינה ארתח ומַחְסָא לה</he> Ar. s. v. <he>מחס</he> (ed. differ. vers.). V. <cite ref=\"M00831\"><he>מְחוֹסָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

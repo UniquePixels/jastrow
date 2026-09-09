@@ -1,0 +1,32 @@
+{
+	"id": "C00260",
+	"slug": "גהק",
+	"headword": {
+		"text": "גָּהַק"
+	},
+	"page": {
+		"number": 216,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>גִּיהֵק</he> (onomatop.) <i>to belch</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 24a\">Ber. 24ᵃ</cite>. ",
+						"<cite ref=\"Berakhot 24b:3\">Ib. 24ᵇ</cite> <he>מְגַהֵק</he>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

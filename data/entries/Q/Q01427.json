@@ -1,0 +1,47 @@
+{
+	"id": "Q01427",
+	"slug": "פציד",
+	"headword": {
+		"text": "פַּצִּיד"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּצִּידָא"
+		},
+		{
+			"text": "פְּ׳"
+		}
+	],
+	"page": {
+		"number": 1204,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01445\"><he>פצץ</he></cite>, <cite ref=\"Q01426\"><he>פצי</he></cite>, with format. <cite ref=\"D00000\"><he>ד</he></cite>; v. <cite ref=\"Q01426\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cut, trench, rivulet</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 30:14\">Targ. Is. XXX, 14</cite>.—Pl. <he>פַּצִּידִין</he>, <he>פַּצִּידַיָּא</he>, <he>פְּצִי׳</he>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 3:16\">Targ. II Kings III, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 14:11\">Targ. Job XIV, 11</cite> Ms. (ed. <cite ref=\"Q01979\"><he>פַּרְצִיד׳</he></cite>, <he>פַּרְצִד׳</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>that which is cut out</i>; cmp. <cite ref=\"B01133\"><he>בְּקַעַת</he></cite>,] <i>lump of ore</i>.—<i>Pl.</i> as ab. Ib. XL, 18.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"A02705\"><he>אָפִיק</he></cite>, <cite ref=\"Q01823\"><he>פָּרִיץ</he></cite>) <i>strong, violent man</i>.—Pl. as ab. Ib. XLI, 7.—V. <cite ref=\"Q01979\"><he>פַּרְצִידָא</he></cite>",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "B00005",
+	"slug": "בא-1",
+	"headword": {
+		"text": "בָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 134,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"A00017\"><he>אַבָּא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>father</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 3:24\">Targ. O. Num. III, 24</cite>; <cite ref=\"Onkelos Numbers 3:30\">30</cite> <he>רב בית בא</he> (and through the entire chapter ed. Berl.; oth. ed. <cite ref=\"A00017\"><he>אבא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. m. <i>Ba</i> = <i>Abba</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:16\">Y. Ber. I, 2ᶜ</cite> top (interchanging with <cite ref=\"A00017\"><he>אבא</he></cite>); a. v. fr. in Y., v. <cite ref=\"A00018\"><he>אַבָּא</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

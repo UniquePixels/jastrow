@@ -1,0 +1,32 @@
+{
+	"id": "C01207",
+	"slug": "גפסים",
+	"headword": {
+		"text": "גִּפְסִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּיפְסִים"
+		}
+	],
+	"page": {
+		"number": 262,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"C01206\">preced.</cite>; cmp. <cite ref=\"C01217\"><he>גֶּפֶת</he></cite>) <i>paste, plaster</i>, esp. <i>gypsum</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 10:2\">Kel. X, 2</cite> we must use <he>בסיד בג׳ וכ׳</he> lime or gypsum &c. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:2:2\">Y. M. Kat. I, 80ᵇ</cite> bot. <he>גיבסם</he>; Y. Shebi. III, 34ᶜ bot. <cite ref=\"C00795\"><he>גִּיפְסוֹס</he></cite>, v. infra. ",
+				"<cite ref=\"Tosefta Kelim Kamma 3:4\">Tosef. Kel. B. Kam. III, 4</cite> <cite ref=\"C01210\"><he>גִּפְסִית</he></cite> ed. Zuck. (oth. ed. <cite ref=\"C01209\"><he>גִּפְסִיס</he></cite>). ",
+				"<cite ref=\"Chullin 8a:4\">Ḥull. 8ᵃ</cite> <he>גפסית רותח</he>; <cite ref=\"Pesachim 75b\">Pes. 75ᵇ</cite> <he>גפסיס רותח</he>, Ar. <he>גפסים רותחין</he>. ",
+				"<cite ref=\"Tosefta Mikvaot 4:7\">Tosef. Mikv. IV, 7</cite> <cite ref=\"C01207\"><he>גפסים</he></cite>; a. fr. [Greek adoption: γύψος, readopted <cite ref=\"C00795\"><he>גִּיפְסוֹס</he></cite>, <cite ref=\"C00795\"><he>גִּיבְסוֹס</he></cite>.]"
+			]
+		}
+	]
+}

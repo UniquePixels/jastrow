@@ -1,0 +1,127 @@
+{
+	"id": "G00455",
+	"slug": "זכי-1",
+	"headword": {
+		"text": "זכי"
+	},
+	"altHeadwords": [
+		{
+			"text": "זָכָה"
+		}
+	],
+	"page": {
+		"number": 398,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"G00435\"><he>זָךְ</he></cite>) [<i>to be pure, clear</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be acquitted, be right</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 107b:7\">B. Mets. 107ᵇ</cite> <he>זוֹכֶה בדין</he> he will be successful in his plea before court. ",
+				"<cite ref=\"Berakhot 7b:18\">Ber. 7ᵇ</cite> <he>זוכה בדין</he> (v. Rabb. D. S. a. l. note) he will be found righteous in Divine judgment; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be found worthy of, to be privileged, to succeed</i>. Ib. I, 5 <he>ולא זָכִיתִי וכ׳</he> I did not succeed (in proving) that &c. Ib. 5ᵇ <he>לא … זוכה לשתי וכ׳</he> not every one is privileged to enjoy two tables (this world and the hereafter). ",
+			"units": [
+				"<cite ref=\"Chagigah 5b:18\">Ḥag. 5ᵇ</cite> <he>תִּזְכּוּ להקביל וכ׳</he> you will be privileged to receive &c. ",
+				"<cite ref=\"Pesachim 19a:9\">Pes. 19ᵃ</cite> <he>זָכִינוּ שאין וכ׳</he> it was a good thing for us that &c. ",
+				"<cite ref=\"Eruvin 54a:13\">Erub. 54ᵃ</cite> <he>ז׳ תאוות וכ׳</he> if one is favored, ‘thou givest him the desire of his heart’ (without prayer), if less favored &c. ",
+				"<cite ref=\"Yevamot 63a:3\">Yeb. 63ᵃ</cite>, v. <cite ref=\"N00119\"><he>נֶגֶד</he></cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to take possession, have authority; to own</i> (cmp. <cite ref=\"S01533\"><he>קָנָה</he></cite>); <i>to gain, obtain a privilege</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 1:3\">B. Mets. I, 3</cite> <he>אני זָכִיתִי בה</he> I took possession of it for myself; <he>ז׳ בה</he> it is his. Ib. 4 <he>זה שהחזיק בה ז׳ בה</he> the one that took a hold of it, is the legitimate owner. ",
+				"<cite ref=\"Mishnah Bava Metzia 1:3\">Ib.</cite> <he>זָכְתָה לי שדי</he> my field (in which the object lies) has taken possession for me. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:3:8\">Y. Kidd. I, 60ᵃ</cite> top <he>הראוי לִזְכּוֹת ע״י עצמו וכ׳</he> he who is legally qualified to acquire ownership through his own act, can obtain ownership through another person.—",
+				"<cite ref=\"Mishnah Eruvin 7:11\">Erub. VII, 11</cite> (<cite ref=\"Eruvin 81b:13\">81ᵇ</cite>), a. fr. <he>זָכִין לאדם שלא בפניו</he> you may obtain a privilege in behalf of a person in his absence, but you cannot act in his behalf to his disadvantage; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (v. <i>Pi.</i>) <i>to benefit another person by one’s own merit, to transfer blessing</i> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 2:9\">Eduy. II, 9</cite> <he>האב זוֹכֶה לבן וכ׳</he> a (good) father transmits to his son the benefits of beauty &c. ",
+				"<cite ref=\"Tosefta Eduyot 1:14\">Tosef. ib. I, 14</cite> <he>עד הפרק זוכה לו</he> up to the age of majority the father’s merit stands by him, <he>מכאן ואילך זוכה לעצמו</he> after that he lives on his own merits."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>to deserve well of, be of service to</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 34:14\">Lev. R. s. 34</cite> (ref. to <cite ref=\"Psalms 41:2\">Ps. XLI, 2</cite>) <he>הוי … היאך לִזְכּוֹת עמו</he> reflect well how to be of real service to him. ",
+				"<cite ref=\"Psalms 41:2\">Ib.</cite> <he>לזכות בו</he> to deserve divine reward through him. ",
+				"<cite ref=\"Psalms 41:2\">Ib.</cite> <he>שיהו זָכִין אלו לאלו</he> that they may deserve well of each other (the poor being the instrumentality of bliss to the giver); a. fr."
+			],
+			"label": "5"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זִכָּה", "זִיכָּ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to acquit, to argue</i> or <i>vote for acquittal</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 19a:5\">Erub. 19ᵃ</cite> <he>יפה זִכִּיתָ וכ׳</he> thou wast right in acquitting, in condemning. ",
+						"<cite ref=\"Mishnah Sanhedrin 3:5\">Snh. III, 5</cite> <he>שנים מְזַכִּין</he> if two vote for acquittal; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to obtain a privilege for, take possession in behalf of; to transfer, make an assignment to</i>. Y. Kidd. l. c. <he>זה זי׳ לבן דעת</he> the one obtained a privilege for a rational being. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Batra 8:6\">B. Bath. VIII, 6</cite> <he>זי׳ בה לאחר</he> if in his will (found on his body) he made an assignment to somebody else (as executor); a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to transfer divine favor, to exercise a protecting influence on</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 111a:4\">Snh. 111ᵃ</cite> <he>מְזַכֶּה את כל וכ׳</he> protects the entire town. ",
+						"<cite ref=\"Yoma 87a:4\">Yoma 87ᵃ</cite> <he>לא דיין שזוכין לעצמן אלא שמְזַכִּין וכ׳</he> Ms. M. not only do they obtain divine grace for themselves, but they also transfer the same on their children &c.; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to lead to righteousness, to convert, make better, purer</i>. Ib.; <cite ref=\"Pirkei Avot 5:18\">Ab. V, 18</cite>, a. e. <he>כל המזכה את וכ׳</he> whoever causes a community to do good. ",
+					"units": [
+						"<cite ref=\"Mishnah Makkot 3:16\">Macc. III, 16</cite> <he>רצה הקב״ה לזַכּוֹת וכ׳</he>, the Lord desired to make Israel pure; a. fr."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִזְדַּכֶּה"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִזְדַּכֶּה</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be acquitted, to be found not guilty</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 30a:18\">Snh. 30ᵃ</cite> <he>מדבריהם נז׳ פלוני</he> the defendant has been acquitted by their (the court’s) verdict. Y. ib. V, 22ᵈ top <he>ובאיזו מִזְדַּכֶּה פוטרין אותו</he> and on which-soever (of the two counts) he is found not guilty, he is acquitted; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to have favorable evidence</i> or <i>argument offered</i>. Ib. 23ᵃ <he>נ׳ מפי עצמו</he> if the defendant himself offers &c. Ib. <he>הרי שנ׳ מפי עצמו</he> (read <he>מפי עדו</he>).",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

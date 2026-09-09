@@ -1,0 +1,29 @@
+{
+	"id": "P01270",
+	"slug": "ערבוביתא",
+	"headword": {
+		"text": "עִרְבּוּבִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִי׳"
+		}
+	],
+	"page": {
+		"number": 1112,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01269\">preced.</cite>) <i>entanglement, tangles and scabs formed through uncleanliness</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 81a:1\">Ned. 81ᵃ</cite> <he>ע׳ דרישא מיתיא וכ׳</he> (Ar. <cite ref=\"H01744\"><he>חרפופיתא</he></cite>) tangles of the head cause blindness; <he>ע׳ דמאני</he> scabs arising from neglected clothes; <he>ע׳ דגופא</he> from neglect of the body. ",
+				"<cite ref=\"Nedarim 81a:1\">Ib.</cite> <he>צערא דע׳</he> (<cite ref=\"Yalkut Shimoni on Torah 787:9\">Yalk. Num. 787</cite> <he>דחיפופיתא</he>) the suffering caused by scabs &c.—Pl. <cite ref=\"P01270\"><he>עִרְבּוּבְיָתָא</he></cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 787:9\">Ib.</cite> <he>הזהרו בע׳</he> be on your guard against the consequences of uncleanliness."
+			]
+		}
+	]
+}

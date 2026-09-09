@@ -1,0 +1,57 @@
+{
+	"id": "N00459",
+	"slug": "נזק-1",
+	"headword": {
+		"text": "נָזַק"
+	},
+	"page": {
+		"number": 892,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"E00297\"><he>הִזִּיק</he></cite> (denom. of <cite ref=\"N00461\"><he>נֵזֶק</he></cite>) <i>to hurt, injure, damage</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 20\">Ex. R. s. 20</cite>, beg. <he>דלג … ולא הִזִּיקוֹ</he> stepped over the child and did not injure it. ",
+						"<cite ref=\"Mishnah Bava Kamma 1:1\">B. Kam. I, 1</cite> <he>לילך ולהַזִּיק</he> to do injury in moving (be an active agency of damage); <cite ref=\"Mishnah Bava Kamma 1:1\">ib.</cite> <he>וכשה׳ חב וכ׳</he> and when one of them caused damage, the offender (<cite ref=\"M00757\"><he>מַזִּיק</he></cite>) is responsible. Ib. III, 6 <he>והִזִּיקוּ זה וכ׳</he> and hurt one another (by collision); a. fr.—V. <cite ref=\"M00757\"><he>מַזִּיק</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּזָּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be hurt, injured, damaged</i>. Ib. III, 1, sq. Ib. 31ᵇ <he>שהוּזְּקוּ כלים בכלים</he> vessels (belonging to one person) were damaged by collision with (another person’s) vessels; a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נִיזַּק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00458\">same</cite>. Ex. R. l. c. end <he>שלא יִנָּזְקוּ</he> that they be not hurt (by the wolves). ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 7:10\">Deut. R. s. 7</cite> <he>ולא תִנָּזֵק צפורנו של אחד מהם</he> rather than a nail of one of them be injured; a. e.—Usu. part. <he>נִיזּוֹק</he>, <he>נִזּוֹק</he>; pl. <he>נִיזּוֹקִים</he>, <he>נִיזּוֹקִין</he>. ",
+						"<cite ref=\"Berakhot 9b:16\">Ber. 9ᵇ</cite> <he>אינו נ׳ כל וכ׳</he> has no evil to fear for the entire day. ",
+						"<cite ref=\"Berakhot 40a:4\">Ib. 40ᵃ</cite> <he>ואי אתה נ׳</he> and thou shalt not get sick; a. fr.—",
+						"<cite ref=\"Chullin 142a:7\">Ḥull. 142ᵃ</cite>; <cite ref=\"Pesachim 8b:4\">Pes. 8ᵇ</cite>, a. e. <he>שלוחי מצוה אינן נ׳</he> those going on a religious mission will not meet with evil; a. e.—V. <cite ref=\"N00641\"><he>נִיזָּק</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

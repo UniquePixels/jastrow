@@ -1,0 +1,28 @@
+{
+	"id": "R00195",
+	"slug": "צולקא",
+	"headword": {
+		"text": "צוּלְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צוּלְקְתָא"
+		}
+	],
+	"page": {
+		"number": 1267,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"R00550\"><he>צָלֶקֶת</he></cite>, <i>scar</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 2:5\">Targ. Y. Ex. II, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 13:23\">Targ. Y. Lev. XIII, 23</cite>; <cite ref=\"Targum Jonathan on Leviticus 13:28\">28</cite> (h. text <cite ref=\"R00734\"><he>צרבת</he></cite>)."
+			]
+		}
+	]
+}

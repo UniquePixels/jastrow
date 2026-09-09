@@ -1,0 +1,23 @@
+{
+	"id": "N00389",
+	"slug": "נוף-3",
+	"headword": {
+		"text": "נוֹף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 889,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.(b. h. <he>נֹף</he>)<i>Nof, Memphis</i> in Egypt. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 17:1\">Pesik. R. s. 17</cite>; Pesik. Vayhi, p. 63ᵇ, v. <cite ref=\"M01808\"><he>מִנְפִּיס</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "D00189",
+	"slug": "דוגית",
+	"headword": {
+		"text": "דּוּגִית"
+	},
+	"page": {
+		"number": 282,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"D00100\"><he>דגוגית</he></cite>, denom. of <cite ref=\"D00097\"><he>דָּג</he></cite>) <i>fisher-boat, light-going boat for shallows</i>, Palestinean word for Babylonian <cite ref=\"B00686\"><he>בִּיצִּית</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 73a:7\">B. Bath. 73ᵃ</cite>; <cite ref=\"Bava Batra 78b\">78ᵇ</cite>; Y. ib. V, beg. 15ᵃ"
+			]
+		}
+	]
+}

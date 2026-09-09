@@ -1,0 +1,23 @@
+{
+	"id": "S01334",
+	"slug": "קליל-1",
+	"headword": {
+		"text": "קָלִיל"
+	},
+	"page": {
+		"number": 1376,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"S00317\"><he>קוֹלָא</he></cite>) [<i>something hollow</i>,] <i>receptacle</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 66b:1\">Men. 66ᵇ</cite>, v. <cite ref=\"S01320\"><he>קָלִי</he></cite>.—Pl. (of <cite ref=\"S01688\"><he>קְלִילִית</he></cite>) <he>קְלִילִיּוֹת</he>. ",
+				"<cite ref=\"Tosefta Parah 3:4\">Tosef. Par. III</cite> (<cite ref=\"Tosefta Parah 2:4\">II</cite>), 4, v. <cite ref=\"S01353\"><he>קָלָל</he></cite>."
+			]
+		}
+	]
+}

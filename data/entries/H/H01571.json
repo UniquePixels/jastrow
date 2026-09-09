@@ -1,0 +1,23 @@
+{
+	"id": "H01571",
+	"slug": "חקרן",
+	"headword": {
+		"text": "חַקְרָן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 497,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01565\"><he>חָקַר</he></cite>) <i>overwise, critic</i>. Pl. <he>חַקְרָנִים</he>. ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 131:2\">Sifré Num. 131</cite>, v. <cite ref=\"N01249\"><he>נַקְרָן</he></cite>."
+			]
+		}
+	]
+}

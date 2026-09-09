@@ -1,0 +1,24 @@
+{
+	"id": "O00111",
+	"slug": "סגולא",
+	"headword": {
+		"text": "סְגוּלָא"
+	},
+	"page": {
+		"number": 953,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O00112\">next w.</cite>) <i>acquisition, property</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 14:21\">Targ. Y. II, Gen. XIV, 21</cite> (not <he>סגו לא</he>; h. text <he>רכש</he>). ",
+				"<cite ref=\"Targum Jerusalem, Genesis 31:18\">Ib. XXXI, 18</cite>.—Hebr. form <cite ref=\"O00113\"><he>סְגוּלָה</he></cite> (v. <cite ref=\"O00112\">next art.</cite>). ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 26:18\">Targ. Y. II, Deut. XXVI, 18</cite>."
+			]
+		}
+	]
+}

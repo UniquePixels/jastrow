@@ -1,0 +1,44 @@
+{
+	"id": "I00675",
+	"slug": "טפף-2",
+	"headword": {
+		"text": "טָפַף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 548,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"I00195\"><he>טוּף</he></cite>",
+			"units": []
+		},
+		{
+			"gloss": "<i>to float; to drip</i>.",
+			"units": [],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טִפְטֵף"],
+			"senses": [
+				{
+					"gloss": "<i>to drip, drop</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 78\">Midr. Till. to Ps. LXXVIII</cite>, beg. <he>טִיפְטְפָה דם</he> issued drops of blood. Y. Ter. VIII, 46ᵃ top <he>הגשמים מְטַפְטְפִין ויורדין</he> the rain dripped into it. ",
+						"<cite ref=\"Shabbat 44a:4\">Sabb. 44ᵃ</cite> <he>שמן המְטַפְטֵף</he> oil dripping from the lamp."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to glisten</i>. Y. Ber. I, 3ᵃ sq. <he>החמה מְטַפְטֶפֶת וכ׳</he> the sun glistens on the tops of the mountains.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pilp."
+		}
+	]
+}

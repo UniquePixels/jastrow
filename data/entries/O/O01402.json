@@ -1,0 +1,47 @@
+{
+	"id": "O01402",
+	"slug": "ספק-1",
+	"headword": {
+		"text": "סָפַק",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1015,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"O01315\"><he>סָפַד</he></cite>)",
+			"units": []
+		},
+		{
+			"gloss": "<i>to strike, clap</i>, esp. <i>to clap the hands against the hips to a certain tune</i> in mourning or in rejoicing; cmp. <cite ref=\"I00636\"><he>טָפַח</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 5:2\">Bets. V, 2</cite> (<cite ref=\"Beitzah 36b:16\">36ᵇ</cite>) <he>ולא מְסַפְּקִין וכ׳</he> you must not clap or dance (on the Sabbath or Holy Day). ",
+				"<cite ref=\"Tosefta Shabbat 6:2\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:2\">VII</cite>), 2 <he>המְסַפֵּק וכ׳</he> he who strikes the hip, claps hands or dances by a flame (a superstitious practice); a. e.—V. <cite ref=\"O00789\"><he>סִיפּוּק</he> I</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"N01233\"><he>נָקַף</he></cite>, <cite ref=\"N01251\"><he>נָקַשׁ</he></cite>) <i>to join closely; to attach; to engraft</i> <cite ref=\"Jerusalem Talmud Shabbat 5:2:2\">Y. Sabb. V, beg. 7ᵇ</cite> <he>במְסַפֵּק חבל על חבל</he> when he ties a rope to a rope (of the halter). ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 6:9\">Kil. VI, 9</cite> <he>סִפְּקָהּ בחבל וכ׳</he> if, in training the vine, he attached to it a rope or a reed (with which he fastened it to a plant). ",
+				"<cite ref=\"Mishnah Parah 12:1\">Par. XII, 1</cite> <he>האזוב … מְסַפְּקוֹ וכ׳</he> if the hyssop is too short, he ties it to a thread &c. ",
+				"<cite ref=\"Jerusalem Talmud Orlah 1:3:7\">Y. Orl. I, 61ᵃ</cite> bot. <he>ילדה שסִיפְּקָהּ</he> a young plant (subject to ‘Orlah) which one engrafted on an old tree; a. fr.—V. <cite ref=\"O00789\"><he>סִיפּוּק</he> I</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"O01404\"><he>סִיפֵּק</he></cite> ",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

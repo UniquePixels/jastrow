@@ -1,0 +1,25 @@
+{
+	"id": "G00417",
+	"slug": "זיר-3",
+	"headword": {
+		"text": "זִיר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זִירָא"
+		}
+	],
+	"page": {
+		"number": 396,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00416\">same</cite>, <i>wreath, crown, rim</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:11\">Targ. O. Ex. XXV, 11</cite> ed. Berl., v. <cite ref=\"D00725\"><he>דֵּיר</he> I</cite>."
+			]
+		}
+	]
+}

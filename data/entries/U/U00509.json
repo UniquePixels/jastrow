@@ -1,0 +1,42 @@
+{
+	"id": "U00509",
+	"slug": "שופר",
+	"headword": {
+		"text": "שׁוֹפָר"
+	},
+	"page": {
+		"number": 1540,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01798\"><he>שָׁפַר</he></cite>) [<i>rounded;</i> cmp. <cite ref=\"U01724\"><he>שְׁפוֹפֶרֶת</he></cite>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>horn, trumpet, Shofar</i>, contrad. to <he>חצצרות</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 3:3\">R. Hash. III, 3</cite> <he>ש׳ של ראש השנה וכ׳</he> the horn for the New Year’s Day (used in the Temple) was from a mountain-goat, straight, and its mouthpiece was inlaid with gold. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 3:3\">Ib.</cite> <he>ש׳ מאריך וכ׳</he> the tone of the <i>shofar</i> was prolonged, that of the accompanying trumpets short. Ib. 4. ",
+				"<cite ref=\"Vayikra Rabbah 29:6\">Lev. R. s. 29</cite>; a. v. fr.—Pl. <he>שׁוֹפָרוֹת</he>. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 3:2\">R. Hash. III, 2</cite>, v. <cite ref=\"S02102\"><he>קֶרֶן</he></cite>. Lev. R. l. c. <he>ובר״ה נוטלין שׁוֹפְרוֹתֵיהֶן וכ׳</he> and on New Year’s Day they take up their Shofars and blow before the Lord, and he rises from the throne of justice to that of mercy &c.; ib. <he>שׁוֹפָרֵיהֶן</he>; a. fr.—Esp. <he>שופרות</he> (also <cite ref=\"U00509\"><he>שופר</he></cite>) <i>shofaroth</i>, that section of the Musaf service of the New Year’s Day which treats of the <i>shofar</i> (of the Revelation). ",
+				"<cite ref=\"Mishnah Rosh Hashanah 4:5\">R. Hash. IV, 5</cite> <he>ש׳ ותוקע</he> the reader recites <i>shofaroth</i> and blows. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 4:6\">Ib. 6</cite> <he>אין פוחתין … מעשרה ש׳</he> you must cite no less than ten Biblical verses referring to the <i>shofar</i>. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 4:6\">Ib.</cite> (32ᵃ) <he>אין מזכירין מלכיות זכרונות וש׳ של פורענות</he> Ms. M. (ed. <he>זכרון מלכות ושופר</he>) you must not cite verses referring to rulership, memorials, and <i>shofar</i> which allude to evil dispensations; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>horn-shaped box</i> in the Temple to receive the money for sacrifices which are supplied by the Temple authorities. ",
+			"units": [
+				"<cite ref=\"Tosefta Shekalim 3:2\">Tosef. Shek. III, 2</cite> <he>ונותן לש׳</he> and puts the money into the proper box. ",
+				"<cite ref=\"Tosefta Shekalim 3:2\">Ib.</cite> <he>ש׳ של נדבה</he> box for free-will offerings. Ib. 3 <he>ש׳ לקינים</he> box for bird offerings; a. fr.—Pl. as ab. ",
+				"<cite ref=\"Mishnah Shekalim 6:1\">Shek. VI, 1</cite>; <cite ref=\"Tosefta Shekalim 3:1\">Tosef. ib. III, 1</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

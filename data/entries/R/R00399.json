@@ -1,0 +1,30 @@
+{
+	"id": "R00399",
+	"slug": "צינתא-1",
+	"headword": {
+		"text": "צִינְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִנְּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1278,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"R00608\"><he>צִנָּה</he> III</cite>, <i>cold</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 8:22\">Targ. Y. II, Gen. VIII, 22</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 6:16\">Targ. Job VI, 16</cite>.—",
+				"<cite ref=\"Vayikra Rabbah 16:8\">Lev. R. s. 16</cite> <he>יתיר חדא כסו וצ׳ אזלת</he> one more covering, and the cold is gone (not felt); Y. Snh. X, 29ᶜ [read:] <he>יתיר כסותא חדא והדא צ׳ וכ׳</he>; a. e."
+			]
+		}
+	]
+}

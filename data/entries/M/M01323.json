@@ -1,0 +1,32 @@
+{
+	"id": "M01323",
+	"slug": "מיתא-1",
+	"headword": {
+		"text": "מֵיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵתא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 780,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (infin. of <cite ref=\"A03397\"><he>אֲתָא</he></cite>) <i>coming</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 16:4\">Targ. I Sam. XVI, 4</cite> <he>מֵיתָךְ</he> ed. Lag. (ed. Wil. <he>מַתְיָךְ</he>); a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 60:14\">Gen. R. s. 60</cite> (ref. to <he>בא מבא</he>, <cite ref=\"Genesis 24:62\">Gen. XXIV, 62</cite>) <he>אתא ממ׳ וכ׳</he> he came from coming? Where did he go to?—Pl. <he>מֵיתַיָּא</he> (with sing. sense; cmp. <cite ref=\"M02127\"><he>מֵעֲלָא</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 24:62\">Targ. O. Gen. XXIV, 62</cite> <he>מֵיתוֹהִי</he>).—",
+				"<cite ref=\"Gittin 30a:2\">Gitt. 30ᵃ</cite> <he>לא שמיה מתיא</he> this is not called ‘coming home’ (as fulfilling the condition). ",
+				"<cite ref=\"Ketubot 17a:4\">Keth. 17ᵃ</cite> <he>בריך מֵיתַיִיךְ וכ׳</he> blessed by thy coming for peace; <cite ref=\"Sanhedrin 14a:12\">Snh. 14ᵃ</cite> <he>מֵתַיִיךְ</he>."
+			]
+		}
+	]
+}

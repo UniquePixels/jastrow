@@ -1,0 +1,23 @@
+{
+	"id": "S00686",
+	"slug": "קטא-2",
+	"headword": {
+		"text": "קְטָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1345,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00685\">preced.</cite>) <i>fragment, chip</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> <he>ההוא תלמידא ק׳ מן וכ׳</he> that student is a chip from (the rock of) Mount Sinai; Y. Snh. IV, beg. 22ᵃ <cite ref=\"S00720\"><he>קְטוֹעַ</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "S00402",
+	"slug": "קומצא-1",
+	"headword": {
+		"text": "קוּמְצָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוֹ׳"
+		},
+		{
+			"text": "קָמְצָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1333,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00401\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 2:2\">Targ. Lev. II, 2</cite>; a. fr.—",
+				"<cite ref=\"Megillah 16a:7\">Meg. 16ᵃ</cite> <he>מייתי מלי קוּמְצֵיה וכ׳</he> offered a handful of flour and was forgiven. ",
+				"<cite ref=\"Vayikra Rabbah 34:6\">Lev. R. s. 34</cite> <he>יהיבין … בגו קָמְצֵיה</he> they put six Denars in his bent hand; a. e.—Pl. <cite ref=\"S00637\"><he>קוּמְצִין</he></cite>, <he>קוּמְצֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 41:47\">Targ. Y. Gen. XLI, 47</cite>.—Meg. l. c. <he>אתא מלי ק׳ וכ׳</he> your handfuls (of offerings) have come to counteract my ten thousand talents of silver."
+			]
+		}
+	]
+}

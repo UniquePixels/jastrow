@@ -1,0 +1,19 @@
+{
+	"id": "A01042",
+	"slug": "אח״ס",
+	"headword": {
+		"text": "אח״ס"
+	},
+	"page": {
+		"number": 40,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", <he>אח״ס בט״ע</he>, a formula representing a permutation of letters wherein the first (<cite ref=\"A00000\"><he>א</he></cite>) interchanges with the eighth (<cite ref=\"H00000\"><he>ח</he></cite>) and with the fifteenth (<cite ref=\"O00000\"><he>ס</he></cite>); the second (<cite ref=\"B00000\"><he>ב</he></cite>) with the ninth (<cite ref=\"I00000\"><he>ט</he></cite>) and with the sixteenth (<cite ref=\"P00000\"><he>ע</he></cite>), &c. ",
+			"units": [
+				"<cite ref=\"Shabbat 104a:12\">Sabb. 104ᵃ</cite> <he>אח״ס בט״ע גי״ף</he> = <he>א̇ני ח̇ס̇ עליהם מפני שב̇ע̇ט̇ו בג̇י̇ף̇</he> I shall spare them because they resisted sensual temptations; v. <cite ref=\"C00789\"><he>גִּיף</he></cite>"
+			]
+		}
+	]
+}

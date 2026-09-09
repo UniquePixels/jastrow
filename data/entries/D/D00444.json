@@ -1,0 +1,31 @@
+{
+	"id": "D00444",
+	"slug": "די-3",
+	"headword": {
+		"text": "דַּי"
+	},
+	"page": {
+		"number": 293,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"D00204\"><he>דָּוָה</he></cite>, cmp. <cite ref=\"D00016\"><he>דַּאי</he></cite>)<i>sufficiency, plenty</i>; constr. <he>דֵּי</he> <i>enough for</i>; <cite ref=\"D00552\"><he>דּיִּי</he></cite> <i>enough for me</i>, <cite ref=\"D00242\"><he>דַּיֶּיךָ</he></cite> <i>enough for thee</i> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 1:1\">Nidd. I, 1</cite> <he>דַּיָּין שעתן</he> they have enough for the time being, i.e. the unclean condition, now discovered, has no retrospective effect, opp. <he>מפְּקִידָה לפקידה</he>. ",
+				"<cite ref=\"Pesachim 8b:11\">Pes. 8ᵇ</cite> <he>דַּיֵּינוּ</he> we should have been contented. ",
+				"<cite ref=\"Taanit 24b:14\">Taan. 24ᵇ</cite> <he>דַּיּוֹ בקב וכ׳</he> (Ms. M. <he>דַּיי לו קב</he>) he is contented with a Kab of &c. ",
+				"<cite ref=\"Mishnah Bava Kamma 2:5\">B. Kam. II, 5</cite> (<cite ref=\"Bava Kamma 25a:3\">25ᵃ</cite>) <he>דיו לבא מן הדין וכ׳</he> it is sufficient for the law which is derived by conclusion <i>ad majus</i> to be as strict as the law from which it is derived, i.e. you cannot go beyond the latter. B. Kam. <he>ור״ט לית ליה דיו</he> does R. T. not follow the principle of <i>dayyo</i> (that the derived law cannot go beyond the original)? <he>והא דיו דאורייתא הוא</he> is not the principle of <i>dayyo</i> biblical?—",
+				"<cite ref=\"Bereishit Rabbah 21\">Gen. R. s. 21</cite> <he>דייך פפוס</he> it is enough for thee, Papus, i.e. say no more; a. fr.—With prefix <cite ref=\"K00123\"><he>כְּדַי</he></cite> (v. <cite ref=\"K00128\"><he>כְּדָיי</he></cite>), constr. <cite ref=\"K00124\"><he>כְּדֵי</he></cite> <i>as much as is required for, corresponding to</i>, as conj. <i>in order to</i>. ",
+				"<cite ref=\"Mishnah Maasrot 5:6\">Maasr. V, 6</cite> <he>ומצא כ׳ מדתו</he> and found a quantity corresponding to what he had measured into it (reasonably increased); <he>יתר על כ׳ מדתו</he> more than the reasonable quantity.—<he>כ׳ דיבור</he> or <he>תוך כ׳ ד׳</he> as much, within as much, time as is needed for an utterance (e.g. a greeting, v. Y. Ber. I, 4ᵇ). ",
+				"<cite ref=\"Bava Kamma 73a\">B. Kam. 73ᵃ</cite>, a. fr. <he>תוך כ׳ דיבור כדיבור דמי</he> two statements following each other immediately are considered one. ",
+				"<cite ref=\"Bava Kamma 73b\">Ib. 73ᵇ</cite> <he>תרי ת׳ כ׳ ד׳</he> there are two different intervals comprised under the expression <i>tokh k’d’e dibbur</i>. ",
+				"<cite ref=\"Sanhedrin 31b\">Snh. 31ᵇ</cite> bot. <he>כ׳ לחלוק וכ׳</he> in order to give honor to &c. ",
+				"<cite ref=\"Sanhedrin 32a:16\">Ib. 32ᵃ</cite> bot. <he>כ׳ שלא תנעול דלת וכ׳</he> in order not to make loans too difficult, v. <cite ref=\"D00864\"><he>דֶּלֶת</he></cite>; a. fr."
+			]
+		}
+	]
+}

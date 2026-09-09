@@ -1,0 +1,42 @@
+{
+	"id": "V01117",
+	"slug": "תתובא",
+	"headword": {
+		"text": "תְּתוּבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּתוּבָה"
+		}
+	],
+	"page": {
+		"number": 1705,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"V01072\"><he>תְּשׁוּבָה</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>reply, refutation</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Challah 3:5:5\">Y. Ḥall. III, 59ᵇ</cite> bot. <he>לית הדא דר׳ זעירה ת׳ על וכ׳</he> (not <he>תתי׳</he>) what R. Z. said is no argument bearing on what R. Bun asked.—Pl. <he>תְּתוּבָתָא</he>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 4:2:8\">Y. Peah IV, 18ᵇ</cite> top <he>כל אילין התובתא</he> (prob. to be read: <he>תת׳</he>), v. <cite ref=\"E00945\"><he>הֲתוֹבְתָּא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>return</i> to God, <i>repentance</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 90:2\">Targ. Ps. XC, 2</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 33:13\">Targ. II Chr. XXXIII, 13</cite>; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 35:6\">Lev. R. s. 35</cite>, v. <cite ref=\"H01614\"><he>חֲרוּבָא</he> I</cite>; <cite ref=\"Vayikra Rabbah 35:6\">ib.</cite> s. 13; <cite ref=\"Yalkut Shimoni on Nach 256\">Yalk. Is. 256</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

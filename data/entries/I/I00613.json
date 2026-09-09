@@ -1,0 +1,23 @@
+{
+	"id": "I00613",
+	"slug": "טעמא",
+	"headword": {
+		"text": "טָעֲמָא"
+	},
+	"page": {
+		"number": 544,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00612\">preced.</cite>) <i>pleader</i>. Pl. <he>טָעֲמַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 1:15\">Esth. R. to I, 3</cite> <he>בני ט׳ ובני סגניא דיליה</he> his young pleaders and counselors. ",
+				"<cite ref=\"Esther Rabbah 1:15\">Ib.</cite> <he>בני ט׳ בני … דיליה</he> <i>pleaders</i> means his counsellors."
+			]
+		}
+	]
+}

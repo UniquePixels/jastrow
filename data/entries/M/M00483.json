@@ -1,0 +1,50 @@
+{
+	"id": "M00483",
+	"slug": "מול-2",
+	"headword": {
+		"text": "מוּל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 742,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"M00482\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to make an edge, to hem</i> or <i>fringe</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Batra 5:7\">Tosef. Kel. B. Bath. V, 7</cite> <he>עד שעה שׁיָמוּל</he> until he hems the girdle. ",
+				"<cite ref=\"Tosefta Keilim Batra 5:7\">Ib.</cite> <he>ומָל מרוח אחת</he> when he made a hem on one side (of the piece which he cut out of the middle of a piece of cloth)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to circumcise</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 19:4\">Sabb. XIX, 4</cite> <he>אחד למול אחר וכ׳</he> one child which was to be circumcised after the Sabbath &c.; <he>ושכח ומָל וכ׳</he> and by mistake he circumcised &c. Ib. 6 <he>מל ולא פרע וכ׳</he> if he circumcised but failed to split the prepuce &c. Ib. 5 (137ᵃ) <he>קטן … אין מוֹלִין</he> Ms. M. (ed. <he>מוהלין</he>) a sick infant must not be circumcised. ",
+				"<cite ref=\"Pesikta Rabbati 25:1\">Pesik. R. s. 25</cite> <he>מי מל לשמי וכ׳</he> who circumcised a son in honor of my name, unless I gave him a son?; <cite ref=\"Vayikra Rabbah 27:2\">Lev. R. s. 27</cite> <he>מלל</he> (corr. acc.); a. fr.—Part. pass. <cite ref=\"M00484\"><he>מוּל</he></cite>, pl. <cite ref=\"M00496\"><he>מוּלִים</he></cite>, <he>מוּלִין</he>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 285:3\">Yalk. Jer. 285</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִימּוֹל", "נִמּוֹל"],
+			"senses": [
+				{
+					"gloss": "<i>to be circumcised</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 19:5\">Sabb. XIX, 5</cite>. ",
+						"<cite ref=\"Vayikra Rabbah 25:6\">Lev. R. s. 25</cite>; <cite ref=\"Bereishit Rabbah 46:5\">Gen. R. s. 46</cite> <he>ומהיכן יִמּוֹל</he> on what part of the body should one be circumcised?—Y. Shebi. IV, end, 35ᶜ <he>משיִמּוֹלוּ</he> from the time they are circumcised. Gen. R. l. c. <he>גזר הרופא שימולו</he> the physician ordered that they must be circumcised; a. fr.—[<i>Polel</i> <he>מוֹלֵל</he>, v. <cite ref=\"M01590\"><he>מָלַל</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

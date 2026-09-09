@@ -1,0 +1,41 @@
+{
+	"id": "P00915",
+	"slug": "עמץ-1",
+	"headword": {
+		"text": "עָמַץ"
+	},
+	"page": {
+		"number": 1090,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"A02055\"><he>אָמַץ</he></cite>; cmp. <cite ref=\"P00909\"><he>עָמַס</he></cite>) <i>to press</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִימֵּץ"],
+			"senses": [
+				{
+					"gloss": "<i>to close</i> the eyes. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 23:5\">Sabb. XXIII, 5</cite> <he>אין מְעַמְּצִין וכ׳</he> Mish. ed. (Y. ed. <he>מאמצ׳</he>; Bab. ed. 151ᵇ <he>מְעַצְּמִין</he>, Ms. M. <he>מעמ׳</he>; v. Rabb. D. S. a. l. notes) you must not close the eyes of a deceased on the Sabbath <he>והמְעַמֵּץ עם יציאת וכ׳</he> (Y. ed. <he>מא׳</he>; Bab. ed. <he>המעצים</he>) and he who closes the eyes of a dying person &c. Ib. (in Gemarah) <he>המעמץ</he> (Ms. M. <he>המאמץ</he>). Ib. 77ᵇ, v. <cite ref=\"A02055\"><he>אָמַץ</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְעַמֵּץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be closed, to close itself</i>. Ib. 181ᵇ <he>הרוצה שיִתְעַמְּצוּ עיניו וכ׳</he> Ms. O. a. early eds. (Ms. M. <he>שתאמץ</he>, incorr.; ed. <he>שיִתְעַצְּמוּ</he>) he who wants to have the eyes of a deceased closed &c.; Tosef. ib. XVII, (XVIII), 19 <he>הרוצה לעַמֵּץ</he>. Ib. <he>והן מתאמצות וכ׳</he>; Sabb. l. c. <he>והן מִתְעַמְּצִין וכ׳</he> Ms. M. (ed. <he>מתעצמין</he>) and they will close themselves, v. <cite ref=\"A02055\"><he>אָמַץ</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

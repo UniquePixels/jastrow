@@ -1,0 +1,40 @@
+{
+	"id": "M01965",
+	"slug": "מסמס-4",
+	"headword": {
+		"text": "מַסְמֵס",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 808,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01964\">same</cite><i>to press, squeeze</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 4a:7\">Ḥull. 4ᵃ</cite> <he>מְמַסְמֵס ליה מַסְמוּסֵי</he> he holds the bird’s head closely in his hand (so that no mark, if there was any on it, could be recognized). "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to stimulate, sustain strength</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 42b:1\">Yeb. 42ᵇ</cite> <he>מְמַסְמְסָא ליה וכ׳</he> she may sustain the child’s strength with eggs and milk (replacing the mother’s milk)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְמַסְמֵס", "אִימַּ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be squeezed, mashed</i>. Y. Yeb. VIII, 9ᵃ top; Y. Sabb. XIX, 17ᵃ bot. [read:] <he>אתיליד ליה חד בר כד מִימַּסְמֵס ביה ומית</he> a son was born to him with his membrum mashed, and he died.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

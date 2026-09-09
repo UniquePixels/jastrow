@@ -1,0 +1,30 @@
+{
+	"id": "S02173",
+	"slug": "קרקסיות",
+	"headword": {
+		"text": "קִרְקְסָיוֹת"
+	},
+	"page": {
+		"number": 1426,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (an adapt. of κίρκος, circus) <i>circuses, buildings used for chariot races and other entertainments</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:2:4\">Y. Ber. IX, 13ᶜ</cite> bot. <he>בשעה … בבתי תיטריות ובבתי ק׳ וכ׳</he> when God looks down on the theatres and circuses as they stand undisturbed …, while his Temple is destroyed &c. ",
+				"<cite ref=\"Megillah 6a:14\">Meg. 6ᵃ</cite> (ref. to <cite ref=\"Zechariah 9:7\">Zech. IX, 7</cite>) <he>אלו … וק׳ שבאדום וכ׳</he> (Ms. M. <he>קִרְקַסְיָאוֹת שלהן</he>) this refers to the theatres and circuses in Edom (Rome) where in the days to come Judah’s chiefs shall teach the Law in public. ",
+				"<cite ref=\"Ketubot 5a\">Keth. 5ᵃ</cite> <he>קרקסאיות</he> Ar. (ed. <cite ref=\"S02165\"><he>קרקייאות</he></cite>, corr. acc.), v. <cite ref=\"Q01474\"><he>פָּקַח</he></cite>; <cite ref=\"Shabbat 150a\">Sabb. 150ᵃ</cite> <cite ref=\"S02171\"><he>קרקסאות</he></cite> (Ms. O. <cite ref=\"S02165\"><he>קרקיסיאות</he></cite>). ",
+				"<cite ref=\"Bereishit Rabbah 67\">Gen. R. s. 67</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 80\">Gen. R. s. 80</cite> <he>צריכין אנו … ולבתי ק׳ שלהם וכ׳</he> we must give credit to the nations that they bring actors to their theatres and circuses and amuse themselves with them, so that they may not talk with one another and come to vain quarrels. ",
+				"<cite ref=\"Eichah Rabbah 3\">Lam. R. to III, 13</cite>; <cite ref=\"Eichah Rabbah 3\">ib.</cite> introd. 17. ",
+				"<cite ref=\"Ruth Rabbah 2:28\">Ruth R. to I, 16</cite>. ",
+				"<cite ref=\"Pesikta Rabbati 6:1\">Pesik. R. s. 6</cite> <he>יום תיאטרון וקורקסיו</he>, read: <he>וקִירְקְסִין</he>, v. <cite ref=\"V00404\"><he>תִּיאַטְרוֹן</he></cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "S02225",
+	"slug": "קשוט-1",
+	"headword": {
+		"text": "קְשׁוֹט"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּשְׁטָא"
+		}
+	],
+	"page": {
+		"number": 1429,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02230\"><he>קְשַׁט</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>straightness</i>,] <i>truth, righteousness</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 24:48\">Targ. Gen. XXIV, 48</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on Genesis 5:22\">Targ. Y. ib. V, 22</cite>; <cite ref=\"Targum Jonathan on Genesis 5:24\">24</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 6:18\">Targ. II Chr. VI, 18</cite> (h. text <he>האמנם</he>); a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 26:7\">Lev. R. s. 26</cite> <he>אנא בעלם דק׳</he> … <he>מילין דק׳</he> I (Samuel) am now in the world of truth (v. <cite ref=\"P00823\"><he>עָלְמָא</he></cite>), and thou shalt hear from me none but words of truth; Tanḥ. Emor 2. ",
+				"<cite ref=\"Shabbat 104a:9\">Sabb. 104ᵃ</cite> <he>ק׳ קאי</he> truth stands firm (v. <cite ref=\"L00096\"><he>לְבַן</he></cite>). ",
+				"<cite ref=\"Sanhedrin 97a:6\">Snh. 97ᵃ</cite> <he>מריש … ליכא ק׳ בעלמא וכ׳</he> formerly I thought there was no truth in the world. ",
+				"<cite ref=\"Sanhedrin 97a:6\">Ib.</cite> <he>איקלע … ק׳ שמיה</he> he came to a place named Ḳushṭa (Truth); a. fr.—Pl. <he>קוּשְׁטִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 22:37\">Targ. Y. Num. XXII, 37</cite> <he>מן ק׳</he> (h. text <he>האמנם</he>).—Y. Ḥag. II, beg. 77ᵃ <he>ק׳ אתון אמרין דהין וכ׳</he> do you (Jews) indeed say that the world is maintained by air?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <cite ref=\"C00129\"><he>גבר</he></cite>) <i>true</i>. Targ. II Esth. I, 2 <he>תמים וק׳</he> upright and true.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

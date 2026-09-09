@@ -1,0 +1,39 @@
+{
+	"id": "T00580",
+	"slug": "ריב-1",
+	"headword": {
+		"text": "רִיב",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "רוּב"
+		}
+	],
+	"page": {
+		"number": 1472,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to contend, strive; to plead</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 21b:6\">Meg. 21ᵇ</cite> <he>הרָב את ריבנו</he> who pleaded our cause."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵרִיב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00579\">same</cite>. Tanḥ. Naso 12 <he>כל זמן … אינה מְרִיבָה</he> as long as she was engaged in it, she did not quarrel, v. <cite ref=\"T00847\"><he>רָנַן</he></cite>. Y. Taan. IV, 68ᵈ, v. <cite ref=\"M02012\"><he>מְסַרְבַּיי</he></cite>. Mekh. B’shall., Vayassʿa, s. 6 <he>כל … מְרִיבִין וכ׳</he> whenever you strive with me, you tempt God. Tanḥ. Mick. 10 <he>עד … מֵרִיב עמו</he> while he was yet in his mother’s womb, Esau was contending with him. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 5:1\">Num. R. s. 5</cite> <he>שלא יָרִיבוּ זה עם זה</he> that they might not quarrel with one another; <he>היה זה מריב וכ׳</he> this one contended and said, I want to load here &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

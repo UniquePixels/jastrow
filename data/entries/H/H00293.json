@@ -1,0 +1,27 @@
+{
+	"id": "H00293",
+	"slug": "חוט-1",
+	"headword": {
+		"text": "חוֹט"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּטִּין"
+		}
+	],
+	"page": {
+		"number": 431,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00608\"><he>חטט</he></cite>) <i>incisors</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 6:4\">Bekh. VI, 4</cite> (<cite ref=\"Bekhorot 39a:10\">39ᵃ</cite>) <he>ח׳ החיצונות</he> (Mish. ed. <he>חִיטָּיו</he>, read <cite ref=\"H00811\"><he>חוּ׳</he></cite>) the central two incisors, <he>הפנימיות</he> (Bab. ed. <he>הפנימים</he>) the one each to the right and left of the central incisors. Ib. 35ᵃ; 37ᵃ"
+			]
+		}
+	]
+}

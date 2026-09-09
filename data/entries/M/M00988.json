@@ -1,0 +1,28 @@
+{
+	"id": "M00988",
+	"slug": "מטחא",
+	"headword": {
+		"text": "מְטָחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִטְחָא"
+		}
+	],
+	"page": {
+		"number": 766,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טוּחַ</he> I, v. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 15:6\">Targ. Y. Gen. XV, 6</cite>) <i>rebellion, reproach</i>. ",
+				"<cite ref=\"Aramaic Targum to Job 1:22\">Targ. Job I, 22</cite> <he>מילי מ׳</he> Ar. s. v. <he>טח</he><sup>2</sup> (ed. <cite ref=\"M00854\"><he>מחטי</he></cite>, <cite ref=\"M01117\"><he>מיחטי</he></cite>, fr. <cite ref=\"H00615\"><he>חֲטָא</he> II</cite>, <i>sinful</i> words; h. text <he>תפלה</he>)."
+			]
+		}
+	]
+}

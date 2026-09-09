@@ -1,0 +1,72 @@
+{
+	"id": "S00150",
+	"slug": "קדם-1",
+	"headword": {
+		"text": "קָדַם"
+	},
+	"page": {
+		"number": 1316,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to bend, go forward</i>,] <i>to advance, precede; to anticipate</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 3:4:2\">Y. Meg. III, 74ᵃ</cite> bot. <he>צפה … מוטב שיִקְדּוֹם … לכספו וכ׳</he> the Lord foresaw that Haman the wicked would weigh his silver for Israel’s destruction (<cite ref=\"Esther 3:9\">Esth. III, 9</cite>), and he said, it is better that my children’s silver (the half-Shekel, <cite ref=\"Exodus 30:11\">Ex. XXX, 11</cite> sq.) anticipate Haman’s silver (to act as a protection from evil designs); ib. I, 70ᵈ bot. <he>שיַּקְדִּים</he> (<i>Hif.</i>). Sifra Vayiḳra, Ḥob., Par. 3, ch. V, v. infra. ",
+				"<cite ref=\"Bereishit Rabbah 1:4\">Gen. R. s. 1</cite> <he>ששה דברים קָדְמוּ וכ׳</he> six things preceded the creation of the world. ",
+				"<cite ref=\"Bereishit Rabbah 1:4\">Ib.</cite> <he>איני יודע איזה מהן קוֹדֵם אם התורה קָדְמָה וכ׳</he> I know not yet, which of them was first, whether the Torah was created before the throne of glory &c. ",
+				"<cite ref=\"Bereishit Rabbah 1:8\">Ib.</cite> <he>התורה קדמה וכ׳</he>, v. <cite ref=\"S02061\"><he>קְרִימָה</he></cite>. ",
+				"<cite ref=\"Chullin 100a\">Ḥull. 100ᵃ</cite>, sq. <he>ק׳ וסלקו</he> he removed it first (before putting in other pieces). ",
+				"<cite ref=\"Sanhedrin 38a\">Snh. 38ᵃ</cite>; <cite ref=\"Vayikra Rabbah 14\">Lev. R. s. 14</cite>, beg. <he>יתוש קְדָמְךָ</he>, v. <cite ref=\"J00724\"><he>יַתּוּשׁ</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Metzia 2:11\">B. Mets. II, 11</cite> <he>אבדתו … אבדתו קוֹדֶמֶת</he> if a man’s own loss and his father’s loss are to be attended to, his own has the precedence; <cite ref=\"Mishnah Bava Metzia 2:11\">ib.</cite> <he>שלו קודמת</he> (Bab. ed. 33ᵃ <he>קודם</he>). ",
+				"<cite ref=\"Pirkei Avot 3:9\">Ab. III, 9</cite> <he>כל … קודמת לחכמתו וכ׳</he> he to whom fear of sin comes before his learning, his learning will endure. Y. Ned. IX, 42ᶜ bot. <he>חיי העיר הזאת קוֹדְמִין וכ׳</he> the supply of provisions for the people of one’s own town has the precedence over &c. ",
+				"<cite ref=\"Mishnah Kelim 25:4\">Kel. XXV, 4</cite>, v. <cite ref=\"K01336\"><he>כַּתְּ</he></cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִקְדָּם"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"Taanit 20a:5\">Taan. 20ᵃ</cite> <he>נקדמה</he>, v. <cite ref=\"N01162\"><he>נָקַד</he> I</cite> .]",
+					"units": []
+				}
+			],
+			"stem": "[."
+		},
+		{
+			"forms": ["קִדֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to get the start of</i>. Y. Taan. I, end, 64ᵈ <he>שלא יְקַדְּמֶנּוּ אחר</he> lest another man get ahead of him (in proposing to a woman he desires to marry); Y. Bets. V, 63ᵃ bot. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 34:3\">Sifré Deut. 34</cite> <he>לא קִידְּמוּם מצוות וכ׳</he> no other commands were promulgated before them; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִקְדִּים"],
+			"senses": [
+				{
+					"gloss": "<i>to advance; to do first; to anticipate, provide against</i>. Y. Meg. l. c. <he>לפיכך מַקְדִּימִין וקירין וכ׳</he> therefore we read the section of <i>Sh’ḳalim</i> first (before the first of Adar, and before the Sabbath Zakhor); Bab. ib. 13ᵇ <he>לפיכך ה׳ שקליהן וכ׳</he> therefore the Lord ordered their Shekels in anticipation of his (Haman’s) Shekels, v. supra. Ib. 30ᵃ <he>מקדימין לשבת שעברה</he> we read it the Sabbath before, opp. <he>מאחרין</he>. Ib. when Purim falls on a Friday, <he>מקדימין פרשת זכור</he> we read the section Zakhor on the Sabbath previous. Y. Sot. VIII, 22ᵈ bot. <he>ה׳ לו שכרי</he> if he paid the builder in advance. ",
+					"units": [
+						"<cite ref=\"Zevachim 106a:3\">Zeb. 106ᵃ</cite> (ref. to <cite ref=\"Leviticus 4:12\">Lev. IV, 12</cite>) <he>שיהא שם דשן שיַקְדִּים לשם דשן</he> this means that ashes must be there, that he must first have put ashes there; Sifra Vayikra l. c. <he>שׁיִקְדּו̇ם</he>; a. fr.—ה׳ שלום <i>to salute first</i>. ",
+						"<cite ref=\"Berakhot 6b:37\">Ber. 6ᵇ</cite> <he>כל שיודע … יקדים לו שלום</he> he who knows his neighbor to be in the habit of greeting him, should salute him first. ",
+						"<cite ref=\"Berakhot 17a:10\">Ib. 17ᵃ</cite> <he>לא הִקְדִּימוֹ אדם וכ׳</he> never was a man the first in saluting him, not even a stranger &c. ",
+						"<cite ref=\"Shemot Rabbah 23\">Ex. R. s. 23</cite> <he>באו … להַקְדִּים שירה</he> the angels came wanting to be the first to offer song; <he>יַקְדִּימוּ בני תחלה</he> let my children be the first; a. v. fr.—Part. pass. <he>מוּקְדָּם</he>; f. <he>מוּקְדֶּמֶת</he>; pl. <he>מוּקְדָּמִים</he> &c. ",
+						"<cite ref=\"Pesachim 6b\">Pes. 6ᵇ</cite>, a. fr. <he>אין מ׳ ומאוחר וכ׳</he>, v. <cite ref=\"A01044\"><he>אָחַר</he></cite>. ",
+						"<cite ref=\"Mishnah Sheviit 10:5\">Shebi. X, 5</cite>, v. <cite ref=\"Q01646\"><he>פְּרוֹזְבּוּל</he></cite>. ",
+						"<cite ref=\"Mishnah Sheviit 10:5\">Ib.</cite> <he>שטרי חוב המ׳</he> antedated notes of indebtedness. M. Mets. V, 10 <he>נתן עיניו … זו היא רבית מ׳</he> if he intends to borrow money, and he sends his neighbor a gift and says, ‘in order to make thee inclined to lend me money’,—this is interest paid in advance; a. fr.—2) <i>to be early, zealous</i>. ",
+						"<cite ref=\"Nazir 23b\">Naz. 23ᵇ</cite>, a. e. <he>לעולם יקדים אדם לדבר וכ׳</he> man should always be anxious to do a good deed as early as possible. ",
+						"<cite ref=\"Pesachim 4a\">Pes. 4ᵃ</cite>, a. e. <he>מקדימין וכ׳</he>, v. <cite ref=\"G00703\"><he>זָרִיז</he></cite>; a. fr.—[Y. Erub. V, 22ᵈ top <he>שמקדימין העליון</he>, read: <he>שמקדירין</he> or <he>שמקדרין</he>, v. <cite ref=\"S00168\"><he>קָדַר</he> I</cite>.]"
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

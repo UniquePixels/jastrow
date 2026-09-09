@@ -1,0 +1,29 @@
+{
+	"id": "S00937",
+	"slug": "קיימא",
+	"headword": {
+		"text": "קַיָּימָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַיָּימָה"
+		}
+	],
+	"page": {
+		"number": 1359,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"S00934\"><he>קיָּים</he></cite>) <i>existence, duration, permanence</i> (used in Hebr. dict.). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 4:1:2\">Y. Yeb. IV, 5ᶜ</cite> <he>בן ק׳</he> a viable child. ",
+				"<cite ref=\"Mishnah Chullin 12:3\">Ḥull. XII, 3</cite> (ref. to <cite ref=\"Deuteronomy 22:6\">Deut. XXII, 6</cite>) <he>מה אפרוחים בני ק׳ אף בצים בני ק׳</he> as ‘the young’ means having vitality, so ‘the eggs’ must have vitality (by hatching). ",
+				"<cite ref=\"Mishnah Gittin 2:3\">Gitt. II, 3</cite> (<cite ref=\"Gittin 19a:4\">19ᵃ</cite>) <he>דבר שהוא של ק׳</he> (Var. <he>רושם</he>) any ink which lasts (v. <cite ref=\"S00374\"><he>קוּם</he></cite> h.); a. fr."
+			]
+		}
+	]
+}

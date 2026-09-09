@@ -1,0 +1,35 @@
+{
+	"id": "N00519",
+	"slug": "נחש-2",
+	"headword": {
+		"text": "נְחַשׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 896,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>נַחֵישׁ</he>, <he>נָ׳</he> same. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 21:6\">Targ. II Kings XXI, 6</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Kings 17:17\">Ib. XVII, 17</cite> (ed. Wil. <he>ונְחִישׁוּ</he> <i>Pe.</i>); a. fr.—",
+						"<cite ref=\"Chullin 95b:13\">Ḥull. 95ᵇ</cite> <he>דנָחֵישׁ</he> because he had made his movements dependent on an omen. ",
+						"<cite ref=\"Yevamot 120b:5\">Yeb. 120ᵇ</cite> <he>כיס … מְנַחֲשֵׁי אינשי וכ׳</he> as to purse and bag people are superstitious and do not lend them; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

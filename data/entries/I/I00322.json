@@ -1,0 +1,24 @@
+{
+	"id": "I00322",
+	"slug": "טיוסין",
+	"headword": {
+		"text": "טִיוְסִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 530,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>טוס</he>; v. P. Sm. 1443) <i>high-flying, proud</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15\">Ex. R. s. 15</cite> (some ed. <cite ref=\"I00160\"><he>טויסין</he></cite>).—V. <cite ref=\"I00348\"><he>טַיְיסָן</he></cite>."
+			]
+		}
+	]
+}

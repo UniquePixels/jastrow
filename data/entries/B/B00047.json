@@ -1,0 +1,56 @@
+{
+	"id": "B00047",
+	"slug": "באש",
+	"headword": {
+		"text": "בָּאַשׁ"
+	},
+	"page": {
+		"number": 136,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<cite ref=\"B00005\"><he>בא</he></cite> , v. <cite ref=\"B00199\"><he>בּוֹא</he></cite>) <i>to be disordered, bad</i> (cmp. <cite ref=\"T00864\"><he>רַע</he></cite>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִבְאִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause decay, to make smell badly</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 26\">Ex. R. s. 26</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (with <he>דברים</he>, or sub. <he>דברים</he>) <i>to use insulting language</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 10:1\">Koh. R. to X, 1</cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (neut. v.) <i>to deteriorate, ferment, decay</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Terumot 10:2\">Ter. X, 2</cite> <he>אע״פ שה׳ מימיו מותרין</he> Ms. M. (ed. <he>מימיו מימיו</he> corr. acc.) though the barley has begun to ferment &c. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1\">Cant. R. to I, 2ᵇ <he>המים מַבְאִישִׁים</he> liquids grow stale. Pesik. B’shall. p. 81</cite>ᵇ <he>דג מב׳</he> ill-smelling fish."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": " (v. <cite ref=\"B00015\"><he>בְּאוּשָׁה</he></cite>) [<i>to begin to ferment, to boil</i>,] <i>to be in the early stage of ripening, to be b’ushah</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maasrot 1:2\">Maasr. I, 2</cite> grapes are subject to the law of tithes <he>משהִבְ׳</he> from the time they would be called <i>b’ushah</i>, cmp. Y. ib. 48ᵈ. ",
+						"<cite ref=\"Mishnah Sheviit 4:8\">Shebi. IV, 8</cite>. ",
+						"<cite ref=\"Tosefta Ma'asrot 1:1\">Tosef. Maasr. I, 1</cite>."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

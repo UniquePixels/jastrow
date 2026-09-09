@@ -1,0 +1,36 @@
+{
+	"id": "H00672",
+	"slug": "חיה-2",
+	"headword": {
+		"text": "חַיָּה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 451,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"H00671\"><he>חָיָה</he></cite>) (adj.) v. <cite ref=\"H00648\"><he>חַי</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>animal</i>, esp. <i>beast of chase, deer</i> &c., contrad. to <cite ref=\"B00182\"><he>בְּהֵמָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 6:1\">Ḥull. VI, 1</cite> <he>ונוהג בח׳ ובעוף</he> and applies to beasts of chase and birds; a. fr.—",
+				"<cite ref=\"Pirkei Avot 5:9\">Ab. V, 9</cite>, a. fr. <he>ח׳ רעה</he> the plague of wild beasts. ",
+				"<cite ref=\"Shemot Rabbah 35:5\">Ex. R. s. 35</cite> (ref. to <cite ref=\"Psalms 68:31\">Ps. LXVIII, 31</cite>) <he>ח׳ הדרה וכ׳</he> the beast that lives between the reeds (Rome).—",
+				"<cite ref=\"Shabbat 151b:10\">Sabb. 151ᵇ</cite>; <cite ref=\"Sanhedrin 38b:3\">Snh. 38ᵇ</cite>, a. e. <he>אין ח׳ רעה שולטת וכ׳</he> no wild beast has power over man, unless he appears to it to resemble a brute creature; a. fr.—Pl. <cite ref=\"H00690\"><he>חַיּוֹת</he></cite>. ",
+				"<cite ref=\"Taanit 8a:11\">Taan. 8ᵃ</cite> <he>לע״ל … כל הח׳ וכ׳</he> in the future all the wild beasts shall gather and come to the serpent &c. ",
+				"<cite ref=\"Beitzah 25b:8\">Bets. 25ᵇ</cite> <he>כלב בח׳</he> the dog (is the most irrepressible) among the wild beasts. ",
+				"<cite ref=\"Berakhot 61b:7\">Ber. 61ᵇ</cite> <he>פקח שבח׳</he> the shrewdest of all animals; a. v. fr.—Esp. <i>Ḥayoth</i>, legendary celestial creatures (<cite ref=\"Ezekiel 1:5\">Ez. I, 5</cite>). ",
+				"<cite ref=\"Chagigah 13a:4\">Ḥag. 13ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

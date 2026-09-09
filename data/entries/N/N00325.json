@@ -1,0 +1,44 @@
+{
+	"id": "N00325",
+	"slug": "נוול-3",
+	"headword": {
+		"text": "נְוַול"
+	},
+	"page": {
+		"number": 885,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", <cite ref=\"N00362\"><he>נְוַל</he></cite> I ch. same. ",
+			"units": [
+				"<cite ref=\"Sotah 47b:21\">Sot. 47ᵇ</cite> <he>ומלכותא אזלא ונָוְלָא</he>, v. <cite ref=\"N00324\">preced.</cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַוֵּול"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"N00324\">preced.</cite> <i>Pi.</i> Ib. 8ᵇ <he>השתא נַוּוּלֵי מְנַוֵּויל לה וכ׳</he> since the law requires her disgrace (by stripping her upper body), can there be any question as to these (jewels)? <cite ref=\"Chullin 11b:6\">Ḥull. 11ᵇ</cite> <he>נִינַוְּולֵיה</he> we may dishonor his body (by a postmortem examination); a. e.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִינַּוֵּול"],
+			"senses": [
+				{
+					"gloss": "<i>to be disfigured, disgraced</i>. Ib. <he>הא קא מִינַּוֵּול</he> he would be disgraced (by autopsy, v. supra). ",
+					"units": [
+						"<cite ref=\"Bava Batra 8b:3\">B. Bath. 8ᵇ</cite> <he>האי קא מינוול וכ׳</he> the one (put to death by the sword) is disfigured &c. ",
+						"<cite ref=\"Bava Batra 154b:4\">Ib. 154ᵇ</cite> <he>לִינַּוּוֵל ולינוול</he> let him be disgraced (by autopsy, v. supra); a. e.—V. <cite ref=\"M01738\"><he>מְנַוַּולְתָּא</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

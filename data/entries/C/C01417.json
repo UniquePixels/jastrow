@@ -1,0 +1,29 @@
+{
+	"id": "C01417",
+	"slug": "גשם-3",
+	"headword": {
+		"text": "גֶּשֶׁם",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּשְׁמָא"
+		}
+	],
+	"page": {
+		"number": 274,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<cite ref=\"C01415\"><he>גשם</he></cite>, v. <cite ref=\"C00505\"><he>גּוּשְׁמָא</he></cite>) <i>body, self</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 4:30\">Dan. IV, 30</cite>.—Pl. <he>גִּשְׁמַיָּא</he>. ",
+				"<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 5</cite> <he>לא יהבין גִּשְׁמֵיהוֹן</he> (<cite ref=\"Kohelet Rabbah 7:11:1\">Koh. R. to VII, 11</cite> <he>גרמיהון</he>) they will not devote themselves to warfare."
+			]
+		}
+	]
+}

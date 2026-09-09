@@ -1,0 +1,33 @@
+{
+	"id": "K01389",
+	"slug": "כתר-4",
+	"headword": {
+		"text": "כְּתַר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּתְרָא"
+		},
+		{
+			"text": "כִּי׳"
+		},
+		{
+			"text": "כּוּ׳"
+		}
+	],
+	"page": {
+		"number": 682,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K01388\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 62:3\">Targ. Is. LXII, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 48:9\">Targ. Jer. XLVIII, 9</cite>; a. e.—Pl. <he>כִּתְרַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 3:23\">Targ. Is. III, 23</cite> (ed. Wil. <he>כִּתָּרַיָּא</he>)."
+			]
+		}
+	]
+}

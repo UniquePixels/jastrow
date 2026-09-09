@@ -1,0 +1,56 @@
+{
+	"id": "J00030",
+	"slug": "יבב-2",
+	"headword": {
+		"text": "יְבַב"
+	},
+	"page": {
+		"number": 560,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"J00029\">same</cite>",
+			"units": []
+		},
+		{
+			"gloss": " (= h. <cite ref=\"T00415\"><he>רוע</he></cite>) <i>to sound an alarm</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 10:7\">Targ. Num. X, 7</cite>; <cite ref=\"Onkelos Numbers 10:9\">9</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= h. <he>רעע</he>) <i>to dash</i> waves against one another. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 34:24\">Targ. Job XXXIV, 24</cite> <he>מְיַבֵּב</he> Ms. Var. (ed. <he>יתבר</he>; h. text <he>יָרֹעַ</he>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"J00029\"><he>יַבֵּב</he></cite> ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְיַבֵּב"],
+			"senses": [
+				{
+					"gloss": " (= h. <he>התרועע</he>) <i>to shout</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 65:14\">Targ. Ps. LXV, 14</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 108:10\">Ib. CVIII, 10</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

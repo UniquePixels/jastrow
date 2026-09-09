@@ -1,0 +1,23 @@
+{
+	"id": "O00846",
+	"slug": "סירטא",
+	"headword": {
+		"text": "סִירְטא"
+	},
+	"page": {
+		"number": 988,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01582\"><he>סְרַט</he></cite>) <i>incision, scratch</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Terumot 7:14\">Tosef. Ter. VII, 14</cite> <he>בזמן שיש בו ס׳</he> when he has a scratch (on the skin, whereby the poison might be communicated to the blood); <cite ref=\"Avodah Zarah 30b:8\">Ab. Zar. 30ᵇ</cite> <he>מקום שיש ס׳</he>; <cite ref=\"Jerusalem Talmud Terumot 8:3:17\">Y. Ter. VIII, 45ᵈ</cite> top <he>מקום ס׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:17\">Ib.</cite> <he>פניו כס׳ הם</he> a man’s face is as susceptible of poison as a scratched spot."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "V00523",
+	"slug": "תכא-3",
+	"headword": {
+		"text": "תַּכָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1667,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"V00522\">preced. art.</cite>; cmp. Assyr. <i>tukku</i> shield, a. Lat. scutum a. scutella) <i>salver, tray</i> (of twisted osiers). ",
+			"units": [
+				"<cite ref=\"Berakhot 42a:6\">Ber. 42ᵃ</cite> <he>לבתר דסליק ת׳ וכ׳</he> after the tray before them was removed. ",
+				"<cite ref=\"Berakhot 42a:6\">Ib.</cite> <he>אנן את׳ דריש וכ׳</he> we count on the tray of the Resh G’lutha (who sends us portions of what is placed before him). ",
+				"<cite ref=\"Bava Metzia 86a:4\">B. Mets. 86ᵃ</cite> <he>קריבו ת׳ קמיה</he> they placed a tray before him (with food and drink). ",
+				"<cite ref=\"Pesachim 110b:12\">Pes. 110ᵇ</cite> <he>תרי קמי ת׳ וחד את׳</he> two cups before the tray is brought in, and one during the meal. ",
+				"<cite ref=\"Yevamot 63b:3\">Yeb. 63ᵇ</cite>, v. <cite ref=\"S02230\"><he>קְשַׁט</he></cite>; a. fr."
+			]
+		}
+	]
+}

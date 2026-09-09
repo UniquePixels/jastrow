@@ -1,0 +1,23 @@
+{
+	"id": "A00421",
+	"slug": "אדמדמני",
+	"headword": {
+		"text": "אֲדַמְדְּמָנֵי"
+	},
+	"page": {
+		"number": 17,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"D00903\"><he>דמם</he></cite>) <i>lumps of dripping grapes</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 34:15\">Gen. R. s. 34</cite>, end <he>אנא גבלין ליה א׳</he> we make for it a dough of &c., v. <cite ref=\"D00045\"><he>דַבְדְּבָנִיּוֹת</he></cite>, <cite ref=\"D00876\"><he>דַּמְדְּמָנִיּוֹת</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "D00016",
+	"slug": "דאי",
+	"headword": {
+		"text": "דַּאי"
+	},
+	"page": {
+		"number": 275,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"D00444\"><he>דַּי</he></cite>) <i>sufficiency</i>.—<he>יותר מִדַּאי</he> more than enough, <i>too much</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 111a\">Keth. 111ᵃ</cite>; a. fr.—<cite ref=\"K00102\"><he>כְּדַאי</he></cite>, v. <cite ref=\"K00128\"><he>כְּדָי</he></cite>."
+			]
+		}
+	]
+}

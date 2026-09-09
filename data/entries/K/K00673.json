@@ -1,0 +1,23 @@
+{
+	"id": "K00673",
+	"slug": "כלאי",
+	"headword": {
+		"text": "כְּלָאֵי"
+	},
+	"page": {
+		"number": 638,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"K00716\"><he>כְּלָא</he> I</cite>), <he>כ׳ בבא</he> <i>guard-house at the gate</i> (cmp. <cite ref=\"E00851\"><he>הַרְזִיקֵי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Nedarim 91b:4\">Ned. 91ᵇ</cite> <he>אִיתִּיב בכ׳ ב׳</he> he was placed in the guard-house &c. [Ar. s. v. <cite ref=\"B00049\"><he>בב</he></cite>: <cite ref=\"B00808\"><he>בלאי</he></cite>, ed. Koh. <cite ref=\"K00673\"><he>כלאי</he></cite>.]"
+			]
+		}
+	]
+}

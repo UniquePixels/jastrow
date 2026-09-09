@@ -1,0 +1,36 @@
+{
+	"id": "N01307",
+	"slug": "נשיאות",
+	"headword": {
+		"text": "נְשִׂיאוּת"
+	},
+	"page": {
+		"number": 939,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01284\"><he>נָשָׂא</he></cite>, v. <cite ref=\"N01306\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lifting, carrying</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 6:4\">Num. R. s. 6</cite> <he>נאמר בהן נ׳ ראש</he> the expression ‘lifting up the head’ (<cite ref=\"Numbers 4:1\">Num. IV, 1</cite>; <cite ref=\"Numbers 4:21\">21</cite>; v. <cite ref=\"N01306\">preced.</cite>) is used in connection with them. ",
+				"<cite ref=\"Numbers 4:21\">Ib.</cite> <he>נ׳ ראש של בני קהת … בנ׳ הארון</he> the taking the census of the sons of Kehath (v. <cite ref=\"N01306\">preced.</cite>) is not made dependent on their genealogical descent but on their office of carrying the Ark. ",
+				"<cite ref=\"Bamidbar Rabbah 16:20\">Num. R. s. 16</cite> (ref. to <cite ref=\"Psalms 106:26\">Ps. CVI, 26</cite>, a. ",
+				"<cite ref=\"Numbers 14:1\">Num. XIV, 1</cite>) <he>נ׳ יד כנגד נ׳ קול</he> lifting up the hand (for oath) against lifting up the voice (for murmuring).—נ׳ עון <i>carrying sin, responsibility</i>. ",
+				"<cite ref=\"Tosefta Shevuot 3:4\">Tosef. Shebu. III, 4</cite> (ref. to <cite ref=\"Leviticus 5:1\">Lev. V, 1</cite>) <he>תלה הכתוב נ׳ ע׳ וכ׳</he> the text makes the responsibility dependent on the telling. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 1:1:22\">Y. Ter. I, 40ᶜ</cite> bot. (ref. to <cite ref=\"Numbers 18:32\">Num. XVIII, 32</cite>) <he>את שהוא בנ׳ ע׳ וכ׳</he> only he who is responsible can separate T’rumah; ib. II, end, 41ᵈ <he>ממה שהוא בנ׳ ע׳ וכ׳</he> from the fact that he is made responsible, you learn that his act is valid. ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 1:4:2\">Y. Shebu. I, 33ᵃ</cite> bot.; a. e.—2) (denom. of <cite ref=\"N01304\"><he>נָשִׂיא</he></cite>) <i>elevation to office, dignity</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 4:12\">Num. R. s. 4</cite> (ref. to <cite ref=\"Numbers 4:2\">Num. IV, 2</cite>) <he>אינו אומר פקוד … לשון נ׳</he> the text does not read <i>p’ḳod</i>, but <i>naso</i> …, which expresses elevation; <he>קבלו נ׳ מתוך וכ׳</he> they were given a superiority over the other sons of Levi.—Esp. <i>the office of the Nasi</i>. ",
+				"<cite ref=\"Ketubot 103b:22\">Keth. 103ᵇ</cite> <he>נהוג נְשִׂיאוּתְךָ וכ׳</he>, v. <cite ref=\"D00897\"><he>דָּמִים</he></cite>. ",
+				"<cite ref=\"Shabbat 15a:10\">Sabb. 15ᵃ</cite> <he>נהגו נְשִׂיאוּתָן וכ׳</he> occupied their office &c.; a. e."
+			],
+			"label": "1"
+		}
+	]
+}

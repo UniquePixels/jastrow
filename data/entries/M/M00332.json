@@ -1,0 +1,24 @@
+{
+	"id": "M00332",
+	"slug": "מדרון-2",
+	"headword": {
+		"text": "מִדְרוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹדְ׳"
+		}
+	],
+	"page": {
+		"number": 735,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"M00331\">same</cite> <cite ref=\"Targum Jonathan on Micah 1:4\">Targ. Mic. I, 4</cite> (ed. Wil. <cite ref=\"M00332\"><he>מוד׳</he></cite>; h. text <cite ref=\"M00620\"><he>מוֹרָד</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 83:14\">Targ. Ps. LXXXIII, 14</cite> (ed. Lag. <cite ref=\"M00332\"><he>מוד׳</he></cite>). V. <cite ref=\"N00241\"><he>נְדַר</he> II</cite>"
+			]
+		}
+	]
+}

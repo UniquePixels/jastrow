@@ -1,0 +1,27 @@
+{
+	"id": "Q00447",
+	"slug": "פחד-4",
+	"headword": {
+		"text": "פַּחַד",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּחְדָּא"
+		}
+	],
+	"page": {
+		"number": 1151,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"Q00446\">same</cite> <cite ref=\"Aramaic Targum to Esther 8:17\">Targ. Esth. VIII, 17</cite>; a. fr.—[<cite ref=\"Targum Jonathan on Leviticus 14:50\">Targ. Y. Lev. XIV, 50</cite> <he>דפחד</he> ed. Amst., v. <cite ref=\"Q00483\"><he>פְּחַר</he></cite>.]—",
+			"units": [
+				"<cite ref=\"Sotah 20b:12\">Sot. 20ᵇ</cite>, v. <cite ref=\"B00675\"><he>בִּיעֲתוּתָא</he></cite>. ",
+				"<cite ref=\"Sanhedrin 95b:16\">Snh. 95ᵇ</cite> bot. <he>ההוא גברא בההוא פ׳ נמי יתיב</he> this man, too, lives in that fear, i.e. that is the very thing that troubles me. ",
+				"<cite ref=\"Bava Metzia 66b:7\">B. Mets. 66ᵇ</cite> <he>דילמא לפכוחי פַחְדֵּיה קא שתי</he> perhaps he drinks to break his fear (to get courage)?; <cite ref=\"Taanit 13b:5\">Taan. 13ᵇ</cite> <he>פחודיה</he> some ed. (corr. acc.).—[V. <cite ref=\"Q00450\"><he>פַּחְדִּין</he></cite>.]"
+			]
+		}
+	]
+}

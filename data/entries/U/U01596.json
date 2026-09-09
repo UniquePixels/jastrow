@@ -1,0 +1,43 @@
+{
+	"id": "U01596",
+	"slug": "שנים",
+	"headword": {
+		"text": "שְׁנַיִם"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁנֵי"
+		},
+		{
+			"text": "שְׁתַּיִם"
+		},
+		{
+			"text": "שְׁתֵּי"
+		}
+	],
+	"page": {
+		"number": 1607,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) <i>two</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 8a:30\">Ber. 8ᵃ</cite> <he>ש׳ מקרא ואחד תרגום</he> reading the Scriptural portion of the week twice, and the Targum once. ",
+				"<cite ref=\"Berakhot 8a:30\">Ib.</cite> <he>שיעור ש׳ פתחים</he> a distance of two gates. ",
+				"<cite ref=\"Mishnah Zevachim 5:4\">Zeb. V, 4</cite>, v. <cite ref=\"M03089\"><he>מַתָּנָה</he></cite>. ",
+				"<cite ref=\"Mishnah Shabbat 1:1\">Sabb. I, 1</cite> <he>ש׳ שהן ארבע</he> two ways of transfer from place to place, which become four (by rabbinical addition). ",
+				"<cite ref=\"Mishnah Shabbat 1:1\">Ib.</cite> <he>שְׁנֵיהֶם פטורין</he> both of them are free. ",
+				"<cite ref=\"Mishnah Sanhedrin 5:3\">Snh. V, 3</cite> <he>בש׳ בחדש</he> on the second day of the month. ",
+				"<cite ref=\"Mishnah Sanhedrin 5:3\">Ib.</cite> <he>בש׳ שעות</he> in the second hour of the day. ",
+				"<cite ref=\"Mishnah Menachot 3:3\">Men. III, 3</cite>. ",
+				"<cite ref=\"Mishnah Menachot 3:6\">Ib. 6</cite>; a. v. fr.—<he>שְׁנֵים עָשָׂר</he>, <he>שְׁתֵּים עֶשְׂרֵה</he> <i>twelve</i>. ",
+				"<cite ref=\"Niddah 69b:35\">Nidd. 69ᵇ</cite>. ",
+				"<cite ref=\"Avodah Zarah 3b:7\">Ab. Zar. 3ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

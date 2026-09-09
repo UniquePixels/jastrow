@@ -1,0 +1,37 @@
+{
+	"id": "A01092",
+	"slug": "אטליז",
+	"headword": {
+		"text": "אַטְלֵיז"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיטְלֵיז"
+		},
+		{
+			"text": "אַטְלֵס"
+		},
+		{
+			"text": "אִיטְלֵיס"
+		}
+	],
+	"page": {
+		"number": 43,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00509\"><he>טלל</he></cite>, with format. <cite ref=\"G00000\"><he>ז</he></cite> or <cite ref=\"O00000\"><he>ס</he></cite>; cmp. <cite ref=\"A00931\"><he>אוּשְׁפֵּיז</he></cite>; v. <cite ref=\"I00510\"><he>טָלַל</he> II</cite>, <he>טְלַל</he> I, II) <i>a number of booths</i> put up for a <i>mercantile fair</i>, or for <i>popular entertainments;</i> whence (cmp. <cite ref=\"H01271\"><he>חָנוּת</he></cite>) <i>shops, bazaar</i> (v. esp. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 79\">Gen. R. s. 79</cite>, quot. bel.). ",
+				"<cite ref=\"Chullin 91b:5\">Ḥull. 91ᵇ</cite> <he>א׳ של אמאוס</he> the fair of Emmaus. Pesik. Asser p. 98ᵇ. ",
+				"<cite ref=\"Mishnah Arakhin 6:5\">Arakh. VI, 5</cite> (<cite ref=\"Arakhin 24a:22\">24ᵃ</cite>) <he>אם ממתינין אותה לאיטלס</he> if they delay the sale for the market day; a. fr.—Pl. <he>אַטְלֵסִין</he> &c. ",
+				"<cite ref=\"Bereishit Rabbah 79\">Gen. R. s. 79</cite> (ref. to <he>ויחן</he> ‘and he encamped’ = made a <cite ref=\"H01271\"><he>חנות</he></cite> <cite ref=\"Genesis 33:18\">Gen. XXXIII, 18</cite>) Jacob was the first <he>מעמיד א׳</he> Ar. (ed. also <he>הטלסין</he>, v. <cite ref=\"E00320\"><he>הֶטְלֵיס</he></cite>) to put up stores and sell cheap; [<cite ref=\"Kohelet Rabbah 10:8\">Koh. R. to X, 8</cite>; Est. R. to I, 9, sing., some ed. <cite ref=\"A01652\"><he>אִיתְּלִיס</he></cite>, <he>אַתְּלִיס</he> (!)]. Cmp. <cite ref=\"P00461\"><he>עַטְלֵיז</he></cite>, <cite ref=\"A02375\"><he>אִסְטֵל</he></cite> [<cite ref=\"Tosefta Chullin 1:7\">Tosef. Ḥull. I, 7</cite> <he>באטלס</he> read <he>באַטְלֵק</he> by <i>throwing;</i> cmp. ",
+				"<cite ref=\"Chullin 12b:4\">Ḥull. 12ᵇ</cite> <he>זרק סכין וכ׳</he>.] V. <cite ref=\"A01217\"><he>אִיטְלִיסִית</he></cite>."
+			]
+		}
+	]
+}

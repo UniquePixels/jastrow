@@ -1,0 +1,25 @@
+{
+	"id": "C00628",
+	"slug": "גידא-2",
+	"headword": {
+		"text": "גִּידָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 234,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"C00154\"><he>גַּד</he> II</cite>, <i>grain, coriander</i> &c. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 16:31\">Targ. O. Ex. XVI, 31</cite>; <cite ref=\"Numbers 11:7\">Num. XI, 7</cite> (Y. <cite ref=\"K00321\"><he>כּוּסְבַּר</he></cite>).—",
+				"<cite ref=\"Yoma 75a\">Yoma 75ᵃ</cite>, v. <cite ref=\"C00154\"><he>גַּד</he> II</cite>.—Pl. <cite ref=\"C00645\"><he>גִּידֵּי</he></cite>. ",
+				"<cite ref=\"Shabbat 109b\">Sabb. 109ᵇ</cite> <he>ג׳ דרוביא</he> Ms. O. (ed. <cite ref=\"C00830\"><he>גירי</he></cite>) grains of fenugreek, v. <cite ref=\"C00806\"><he>גּיר</he> III</cite>, 2."
+			]
+		}
+	]
+}

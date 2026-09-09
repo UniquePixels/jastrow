@@ -1,0 +1,123 @@
+{
+	"id": "G00456",
+	"slug": "זכי-2",
+	"headword": {
+		"text": "זְכֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְכָא"
+		}
+	],
+	"page": {
+		"number": 399,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00455\">same</cite><i>to be clear, pure</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 9:15\">Targ. Job IX, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 10:15\">Ib. X, 15</cite> <he>זְכִיתִי</he> (some ed. <he>זִכִּי׳</he>, corr. acc.); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to go unpunished</i> (h. <cite ref=\"N01193\"><he>נקה</he></cite>).). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 25:29\">Targ. Jer. XXV, 29</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to deserve welt, do good, to obtain a claim on divine favor</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 34:14\">Lev. R. s. 34</cite> [read:] <he>אדם … זְכִי בי או דְכִי בי</he> the beggar says … ‘obtain a claim &c. through me’, or ‘become pure through me’, (which means) <he>זַכֵּי גרמך בי</he> benefit thyself through me. ",
+				"<cite ref=\"Vayikra Rabbah 34:14\">Ib.</cite> <he>אנן זַכְיִין בך</he> we shall give thee something. ",
+				"<cite ref=\"Vayikra Rabbah 34:14\">Ib.</cite> <he>ז׳ בהאי אתתא</he> give this woman (me) something. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 1:7:6\">Y. Ḥag. I, 76ᶜ</cite> bot. <he>שלח … מִזְכֵּי וכ׳</he> sent his son to Tiberias for his improvement (through study); <cite ref=\"Jerusalem Talmud Pesachim 3:7:6\">Y. Pes. III, 30ᵇ</cite> bot. <he>יזכי</he> (corr. acc.); a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to become worthy of divine grace, to be privileged to enjoy, to live to see</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 20:17\">Targ. Job XX, 17</cite>; a. e.—",
+				"<cite ref=\"Berakhot 17a:14\">Ber. 17ᵃ</cite> <he>נשים במאי זַכְיָין</he> wherewith do women (who do not study the Law) deserve divine grace?—",
+				"<cite ref=\"Shabbat 21b:2\">Sabb. 21ᵇ</cite> <he>אי זְכָאִי</he> if I had been worthy (if the Lord had permitted me). ",
+				"<cite ref=\"Vayikra Rabbah 25:8\">Lev. R. s. 25</cite> <he>אי זָכִית אכלית</he> if the Lord permit, I may eat thereof. ",
+				"<cite ref=\"Vayikra Rabbah 25:8\">Ib.</cite> <he>אם זַכְיַת</he> (<he>תיכול</he>) <he>אכול</he> if thou shalt live long enough to eat thereof. ",
+				"<cite ref=\"Chullin 50a\">Ḥull. 50ᵃ</cite>; <cite ref=\"Beitzah 27a\">Bets. 27ᵃ</cite>, a. e. <he>אִזְכֵּי ואסיק וכ׳</he> the Lord permitting I will go &c.; a. fr.—4) <i>to take possession, acquire a title</i>. ",
+				"<cite ref=\"Bava Metzia 8a:6\">B. Mets. 8ᵃ</cite> <he>מיגו דזָכֵי לנפשיה</he> since he has a right to take possession for himself, v. <cite ref=\"M01085\"><he>מִיגּוֹ</he></cite>, s. v. <cite ref=\"C00263\"><he>גּוֹ</he></cite>.—",
+				"<cite ref=\"Bava Kamma 12b:11\">B. Kam. 12ᵇ</cite>; a. fr."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זַכֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to clear</i> (from rubbish). ",
+					"units": [
+						"<cite ref=\"Moed Katan 10b:7\">M. Kat. 10ᵇ</cite>; <cite ref=\"Bava Batra 54a\">B. Bath. 54ᵃ</cite>, v. <cite ref=\"G00351\"><he>זִיכֵּי</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to clear, acquit, justify; to leave unpunished</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 20:7\">Targ. O. Ex. XX, 7</cite> (Y. <he>מִזְכֵי</he>, read: <he>מְזַכֵּי</he>). ",
+						"<cite ref=\"Aramaic Targum to Song of Songs 7:3\">Targ. Cant. VII, 3</cite>; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to cleanse</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 73:13\">Targ. Ps. LXXIII, 13</cite> <he>זַכָּאִית</he> Ms. (ed. <he>זַכִּית</he>, ed. Wil. <cite ref=\"G00452\"><he>זַכְוַת</he></cite>, corr. acc.); a. e.—",
+						"<cite ref=\"Vayikra Rabbah 34:14\">Lev. R. s. 34</cite>, v. supra."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to win, defeat</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 10b\">Ab. Zar. 10ᵇ</cite>; <cite ref=\"Sanhedrin 39a:10\">Snh. 39ᵃ</cite> <he>כל דז׳ מלכא</he> Ms. M. (ed. <he>למלכא</he>) whosoever defeats the king in argument. ",
+						"<cite ref=\"Sanhedrin 107a:8\">Ib. 107ᵃ</cite> <he>עבדא ז׳ למריה</he> (old ed. <cite ref=\"K01010\"><he>כפייה</he></cite>) the servant conquered his master. ",
+						"<cite ref=\"Bekhorot 8b:11\">Bekh. 8ᵇ</cite> <he>אי זַכִּיתוּ לי</he> if you defeat me; <he>ואי זַכִּינָא בכו</he> (read <he>לכו</he>) and if we defeat you. ",
+						"<cite ref=\"Chullin 31b:19\">Ḥull. 31ᵇ</cite> <he>זַכַּנְהוּ וכ׳</he> R. N. defeated the Rabbis; a. e."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": "<i>to entitle, give possession to</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 78a:14\">Pes. 78ᵃ</cite> <he>שטרא מְזַכֵּי לבי תרי</he> a document giving a title to both contestants, i.e. one agreeing with two opposite opinions."
+					],
+					"label": "5"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִזְדַּכֵּי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִזְדְּכֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be cleared, to go unpunished; to clear one’s self, to defend one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 24:8\">Targ. Y. Gen. XXIV, 8</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 44:16\">Ib. XLIV, 16</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

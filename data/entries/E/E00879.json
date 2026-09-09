@@ -1,0 +1,26 @@
+{
+	"id": "E00879",
+	"slug": "הרמיני",
+	"headword": {
+		"text": "הַרְמִינֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "הוּרְמִינִי"
+		}
+	],
+	"page": {
+		"number": 368,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n.<i>Harmine</i> (<i>Hurmini</i>), prob. a province of Armenia. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 51:27\">Targ. Jer. LI, 27</cite> <he>הור׳</he> ed. Lag. a. oth. (h. text <cite ref=\"M01768\"><he>מִנִּי</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Amos 4:3\">Targ. Am. IV, 3</cite> <he>הר׳</he> (ed. Lag. <he>הור׳</he>; h. text <he>הרמונה</he>). ",
+				"<cite ref=\"Targum Jonathan on Micah 7:12\">Targ. Mic. VII, 12</cite> <he>חור׳ רבתא</he> (Var. ed. Lag. <he>הור׳</he>) <i>Armenia Major</i> (?)."
+			]
+		}
+	]
+}

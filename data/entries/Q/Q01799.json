@@ -1,0 +1,23 @@
+{
+	"id": "Q01799",
+	"slug": "פריזומטא",
+	"headword": {
+		"text": "פְּרִיזוֹמָטָא"
+	},
+	"page": {
+		"number": 1226,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (περιζώματα) <i>aprons</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:4:4\">Y. Sabb. VI, 8ᵇ</cite> bot. (expl. <he>המחלצות</he> <cite ref=\"Isaiah 3:22\">Is. III, 22</cite>) <he>פירז׳</he> (corr. acc.)."
+			]
+		}
+	]
+}

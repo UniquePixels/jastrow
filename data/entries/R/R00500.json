@@ -1,0 +1,37 @@
+{
+	"id": "R00500",
+	"slug": "צלח-1",
+	"headword": {
+		"text": "צָלַח"
+	},
+	"page": {
+		"number": 1283,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to split, pass through</i>,] <i>to succeed, prosper</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 46a:6\">Ber. 46ᵃ</cite> <he>ויִצְלַח מאוד וכ׳</he>, v. <cite ref=\"N00841\"><he>נְכָסִים</he></cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִצְלִיחַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"R00499\">same</cite>. Ib. 64ᵃ <he>עלה וה׳</he> he went and succeeded; <cite ref=\"Moed Katan 29a\">M. Kat. 29ᵃ</cite>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 19b:7\">Ab. Zar. 19ᵇ</cite> <he>נכסיו מַצְלִיחִין לו</he> his business enterprises will prosper. Y. R. Hash. III, end, 59ᵃ (ref. to <cite ref=\"Daniel 8:12\">Dan. VIII, 12</cite>) whenever Israel casts truth to the ground, <he>המלכות … גוזרת ומַצְלַחַת</he> that wicked (Roman) government decrees (persecution) and succeeds; Lam. R. introd. (R. Abba . ",
+						"<cite ref=\"Midrash Tehillim 1:17\">Midr. Till. to Ps. I, 3</cite> <he>ומַצְלִיחוֹת</he>, v. <cite ref=\"P01101\"><he>עֵצָה</he> II</cite>; a. fr.—2) <i>to cause to prosper</i>. ",
+						"<cite ref=\"Shabbat 63a:17\">Sabb. 63ᵃ</cite> <he>הקב״ה מַצְלִיחַ להם</he> the Lord helps them to success.—Part. pass. <he>מוּצְלָח</he>; pl. <he>מוּצְלָחִין</he>. ",
+						"<cite ref=\"Berakhot 46a:6\">Ber. 46ᵃ</cite> <he>ויהיו … מוצ׳</he> (Ms. M. <he>נכסיו מצליחין</he>), v. <cite ref=\"N00841\"><he>נְכָסִים</he></cite>; a. e."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

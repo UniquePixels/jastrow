@@ -1,0 +1,28 @@
+{
+	"id": "A01866",
+	"slug": "אלימותא",
+	"headword": {
+		"text": "אַלִּימוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַלְּמוּתָא"
+		}
+	],
+	"page": {
+		"number": 69,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אֲלַם</he> 1) <i>strength, force</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 30:21\">Targ. Job XXX, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 25:2\">Targ. Y. Ex. XXV, 2</cite>. Cmp. <cite ref=\"A00677\"><he>אוּלְמָא</he></cite>."
+			]
+		}
+	]
+}

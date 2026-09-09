@@ -1,0 +1,23 @@
+{
+	"id": "L00460",
+	"slug": "ליכא-1",
+	"headword": {
+		"text": "לִיכָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 707,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00548\"><he>לְכַךְ</he></cite>) <i>beating</i> (wine and oil) <i>into a mixture</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 134a:5\">Sabb. 134ᵃ</cite> <he>בעי ל׳</he> it requires beating."
+			]
+		}
+	]
+}

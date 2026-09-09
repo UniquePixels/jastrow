@@ -1,0 +1,27 @@
+{
+	"id": "A01667",
+	"slug": "אכבדא",
+	"headword": {
+		"text": "אכבדא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָכְבְּרָא"
+		}
+	],
+	"page": {
+		"number": 62,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Okhbara</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 71b\">Kidd. 71ᵇ</cite> Ar. (ed. <cite ref=\"B00075\"><he>בגדא</he></cite>, <cite ref=\"B00077\"><he>בגדת</he></cite>); v. <cite ref=\"A00719\"><he>אֲוָנָא</he> II</cite>."
+			]
+		}
+	]
+}

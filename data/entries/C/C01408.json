@@ -1,0 +1,28 @@
+{
+	"id": "C01408",
+	"slug": "גרתיקון",
+	"headword": {
+		"text": "גְּרֵתִיקוֹן",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "קְרֵטִיקוֹן"
+		}
+	],
+	"page": {
+		"number": 273,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (γῆ κρητική, creta) <i>chalk, white earth</i> used for cleansing silver ware. ",
+			"units": [
+				"<cite ref=\"Shabbat 50a\">Sabb. 50ᵃ</cite> <he>גרתי׳</he> Ar. (ed. <he>גרתקון</he>, <he>גרתקין</he>); Y. Bets. IV, 62ᶜ bot. <he>קרטי׳</he>; <cite ref=\"Tosefta Beitsah 4:10\">Tosef. Bets. IV, 10</cite> <cite ref=\"S01175\"><he>קירטון</he></cite> ed. Zuck. (Var. <he>קרקתין</he>, <he>קרתתין</he>). [Rashi to Sabb. l. c. expl. <cite ref=\"A01813\"><he>אלום</he></cite>, describing <i>tartar</i> deposited in wine vessels; Ar.: pulverised <i>resin</i>.]"
+			]
+		}
+	]
+}

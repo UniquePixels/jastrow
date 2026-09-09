@@ -1,0 +1,21 @@
+{
+	"id": "L00004",
+	"slug": "לא-2",
+	"headword": {
+		"text": "לָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 685,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"L00003\">same</cite> <cite ref=\"Onkelos Genesis 2:5\">Targ. Gen. II, 5</cite>; a. v. fr.—",
+			"units": [
+				"<cite ref=\"Pesachim 10b:19\">Pes. 10ᵇ</cite> <he>מקמיה … אין בתר … לא</he> before the time when it is forbidden, yes (he must search after leavened bread); after the time, no (he must not search). ",
+				"<cite ref=\"Pesachim 10b:19\">Ib.</cite> <he>לא שנא</he> there is no difference; a. v. fr."
+			]
+		}
+	]
+}

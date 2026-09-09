@@ -1,0 +1,126 @@
+{
+	"id": "U00267",
+	"slug": "שדי-2",
+	"headword": {
+		"text": "שְׁדֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁדָא"
+		}
+	],
+	"page": {
+		"number": 1524,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"A00393\"><he>אֲדִי</he></cite>, <cite ref=\"N00224\"><he>נְדֵי</he> II</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to swing, throw, cast, shoot; to sprinkle, pour</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 15:21\">Targ. O. Ex. XV, 21</cite> ed. Lsb. a. oth. (ed. <cite ref=\"T00783\"><he>רמא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 38:6\">Targ. Job XXXVIII, 6</cite> (h. text <he>ירה</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 91:5\">Targ. Ps. XCI, 5</cite> (v. <cite ref=\"U00269\"><he>שַׁדְיָא</he> II</cite>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 20:20\">Targ. I Sam. XX, 20</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 4:12\">Targ. Lev. IV, 12</cite> <he>מֵישַׁד</he> (infin.; h. text <he>שֶׁפֶךְ</he>); <cite ref=\"Onkelos Leviticus 4:18\">ib. 18</cite> <he>יֵישׁוֹד</he> (fr. <cite ref=\"A03262\"><he>אֲשַׁד</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:8\">Targ. Koh. II, 8</cite> <he>מרזבין דשַׁדְיָן וכ׳</he> (not <cite ref=\"D01151\"><he>דשרין</he></cite>) gutters discharging tepid, and gutters discharging hot waters (h. text <he>שדה ושדות</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 79:3\">Targ. Ps. LXXIX, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 62:9\">Ib. LXII, 9</cite> (ed. Wil. <cite ref=\"U01937\"><he>שרו</he></cite>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Lamentations 2:4\">Targ. Lam. II, 4</cite>; a. fr.—",
+				"<cite ref=\"Bava Kamma 92b:15\">B. Kam. 92ᵇ</cite> <he>לא תִשְׁדֵּי וכ׳</he>, v. <cite ref=\"B00700\"><he>בֵּירָא</he></cite>. ",
+				"<cite ref=\"Niddah 31a:32\">Nidd. 31ᵃ</cite> <he>ושְׁדִי בשרא וכ׳</he>, v. <cite ref=\"N01071\"><he>נְפַץ</he></cite>. ",
+				"<cite ref=\"Gittin 57b:19\">Gitt. 57ᵇ</cite> <he>אִישְׁדֵּי לך וכ׳</he> I will throw down a ring for thee, and thou bow down &c. ",
+				"<cite ref=\"Gittin 69b:2\">Ib. 69ᵇ</cite> <he>ונִישְׁדֵּי מיא וכ׳</he> and let him pour water on it. ",
+				"<cite ref=\"Gittin 69b:16\">Ib.</cite> <he>ולִישְׁדֵּי ליה וכ׳</he> and let him sprinkle it &c. ",
+				"<cite ref=\"Sanhedrin 30b:21\">Snh. 30ᵇ</cite>, a. e. <he>ש׳ ביה נרגא</he>, v. <cite ref=\"N01257\"><he>נַרְגָּא</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cast the spindle, to spin</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 72b:4\">Keth. 72ᵇ</cite> <he>שַׁדְיָא פילכה</he>, v. <cite ref=\"Q01073\"><he>פִּלְכָא</he></cite>. ",
+				"<cite ref=\"Gittin 69b:17\">Gitt. 69ᵇ</cite> <he>דשַׁדְתֵּיה דומה</he> (fr. <he>שוד</he> or <he>שדד</he>), v. <cite ref=\"D00277\"><he>דּוּמָה</he> I</cite>. ",
+				"<cite ref=\"Sukkah 16a\">Succ. 16ᵃ</cite> <he>מִשְׁדָּא</he>, v. <cite ref=\"A03316\"><he>אַשְׁלָא</he></cite>; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַשְׁדֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00266\">same</cite>, <i>to cast, pour, shed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 16:13\">Targ. II Sam. XVI, 13</cite>. ",
+						"<cite ref=\"Targum of I Chronicles 22:8\">Targ. I Chr. XXII, 8</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["שַׁדֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00266\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 15:4\">Targ. O. Ex. XV, 4</cite> ed. Berl. (oth. ed. <i>Pe.</i>); Y. I <cite ref=\"Onkelos Exodus 15:4\">ib.</cite> <cite ref=\"U00254\"><he>שַׁדָּא</he></cite> (h. text <he>ירה</he>).—[<cite ref=\"Aramaic Targum to Proverbs 13:12\">Targ. Prov. XIII, 12</cite> <he>מְשַׁדֵּי</he> ed. Wil., read <cite ref=\"M02977\"><he>מְשָׁרֵי</he></cite>, v. <cite ref=\"U01961\"><he>שְׁרֶי</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתַּדֵּי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּדֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be cast, poured out; to be shot</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 22:19\">Targ. Jer. XXII, 19</cite>. ",
+						"<cite ref=\"Aramaic Targum to Lamentations 4:1\">Targ. Lam. IV, 1</cite>. ",
+						"<cite ref=\"Targum Jonathan on Numbers 35:33\">Targ. Y. Num. XXXV, 33</cite> (O. <cite ref=\"U01677\"><he>אִתָּשַׁד</he></cite>, v. <cite ref=\"A03262\"><he>אֲשַׁד</he></cite>). ",
+						"<cite ref=\"Onkelos Exodus 19:13\">Targ. O. Ex. XIX, 13</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 12:9\">Targ. Jer. XII, 9</cite>; a. e.—",
+						"<cite ref=\"Niddah 48b\">Nidd. 48ᵇ</cite>, v. infra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be cast about, reel</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 24:20\">Targ. Is. XXIV, 20</cite> (h. text <cite ref=\"N00384\"><he>נוע</he></cite>).—V. <cite ref=\"A03370\"><he>אִשְׁתְּדָיוּתָא</he></cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (v. <cite ref=\"D00011\"><he>דָּאָה</he></cite>) <i>to hover, fly</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 28:49\">Targ. O. Deut. XXVIII, 49</cite> (h. text <cite ref=\"D00011\"><he>דאה</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 48:40\">Targ. Jer. XLVIII, 40</cite>. Targ. ",
+						"<cite ref=\"Habakkuk 1:8\">Hab. I, 8</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 6:6\">Targ. Is. VI, 6</cite> (ed. Lag. a. Ar. <cite ref=\"U00392\"><he>אשתוי</he></cite>, corr. acc.)."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": " denom. of <cite ref=\"U00250\"><he>שַׁד</he></cite>) <i>to be a full developed breast</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 48b\">Nidd. 48ᵇ</cite> <cite ref=\"A03369\"><he>אִשְׁתַּדּוּ</he></cite> (oth. opin. in Rashi: <i>to be poured out, emptied, dried up</i>), v. <cite ref=\"K01261\"><he>כְּרַף</he></cite>; [Ar. <cite ref=\"A03369\"><he>אשתדור</he></cite>, Var. <he>אשתרור</he>, v. <cite ref=\"U00285\"><he>שְׁדַר</he> II</cite>, a. <cite ref=\"U02031\"><he>שְׁרַר</he></cite>]."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

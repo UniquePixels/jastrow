@@ -1,0 +1,22 @@
+{
+	"id": "M02000",
+	"slug": "מסקא",
+	"headword": {
+		"text": "מַסָּקָא"
+	},
+	"page": {
+		"number": 810,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00958\"><he>נְסַק</he></cite>) <i>ascent</i>.—Pl. <he>מַסָּקִין</he>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 18:1\">Lev. R. s. 18</cite>; <cite ref=\"Kohelet Rabbah 12:5:1\">Koh. R. to XII, 5</cite>; v. <cite ref=\"M00838\"><he>מָחוֹתִיתָא</he></cite>."
+			]
+		}
+	]
+}

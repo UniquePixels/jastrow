@@ -1,0 +1,24 @@
+{
+	"id": "A03114",
+	"slug": "אריסטא",
+	"headword": {
+		"text": "אֲרִיסְטָא"
+	},
+	"page": {
+		"number": 120,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (corrupt. of <he>אריסטיטא</he>, ἀριστητής) <i>break-fasting</i>, in gen. <i>invited guest</i>. Pl. <he>אֲרִיסְטִין</he>, <he>אֲרִיסְטַיָּיא</he>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 1:3\">Koh. R. to I, 3</cite> <he>שביק א׳ וכ׳</he> let the guests eat (some ed. <cite ref=\"A03117\"><he>אריסטון</he></cite>, <i>our guests?</i>). ",
+				"<cite ref=\"Vayikra Rabbah 28\">Lev. R. s. 28</cite> <he>אריסייא</he> (corr. acc.). ",
+				"<cite ref=\"Eichah Rabbah 4:3\">Lam. R. to IV, 2</cite> <he>ביני א׳</he> among the seated guests."
+			]
+		}
+	]
+}

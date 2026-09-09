@@ -1,0 +1,23 @@
+{
+	"id": "P00760",
+	"slug": "על-5",
+	"headword": {
+		"text": "עָל",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1080,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"P00567\"><he>עִילָא</he> II</cite>) <i>plan</i>. Pesik. Vattom., p. 133ᵃ (ref. to <cite ref=\"Isaiah 5:19\">Is. V, 19</cite>) [read:] <he>ונדע על דמאן היא קיימא על דידן וכ׳</he> and let us know, whose plan will stand (be executed), our plan or his plan. ",
+			"units": [
+				"<cite ref=\"Isaiah 5:19\">Ib.</cite> <he>הא קמת על דידהון על דידי לא קמת</he> (not <he>היא</he>) now their plan stands, shall mine not stand?; <cite ref=\"Yalkut Shimoni on Nach 1033:1\">Yalk. Lam. 1033</cite>; <cite ref=\"Yalkut Shimoni on Nach 1034\">1034</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "U00640",
+	"slug": "שחי-2",
+	"headword": {
+		"text": "שחי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁחָה"
+		}
+	],
+	"page": {
+		"number": 1547,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; interch. with <cite ref=\"U00634\"><he>שָׁחַח</he></cite>)<i>to curve; to bend, bow; to lower one’s self</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Berakhot 1:9\">Tosef. Ber. I, 9</cite>; <cite ref=\"Berakhot 34a:14\">Ber. 34ᵃ</cite>; <cite ref=\"Bereishit Rabbah 39\">Gen. R. s. 39</cite>, a. e., v. <cite ref=\"U00634\"><he>שָׁחַח</he></cite>. Pesik. Shek., p. 11ᵇ (ref. to <cite ref=\"Isaiah 2:9\">Is. II, 9</cite>) <he>יודע אני ששָׁחוּ … והָשְׁפַּלְתִּי אני והם</he> I know that Israel lowered themselves by bowing to the calf, and I and they were humbled; <cite ref=\"Yalkut Shimoni on Torah 386\">Yalk. Ex. 386</cite>; <cite ref=\"Yalkut Shimoni on Nach 260\">Yalk. Is. 260</cite>; Tanḥ. Ki Thissa 4; <cite ref=\"Pesikta Rabbati 10:1\">Pesik. R. s. 10</cite> <he>אימתי שחו ונשפלו</he> when was it that they bent and were lowered?; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁתַּחֲוֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to prostrate one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 7:6\">Snh. VII, 6</cite> (<cite ref=\"Sanhedrin 60b\">60ᵇ</cite>) <cite ref=\"U00640\"><he>המִשְׁתַּחֲוֶה</he></cite> he that prostrates himself (before an idol). Ib. 62ᵃ <he>זיבח … וה׳ וכ׳</he> if a person sacrificed, burnt incense, offered libation, and prostrated himself, all in one act. ",
+						"<cite ref=\"Yoma 69a\">Yoma 69ᵃ</cite> <he>כיון שראה … וה׳ לפניו</he> when he (king Alexander) saw Simon the righteous, he alighted from his chariot and threw himself down before him; <he>מלך … יִשְׁתַּחֲוֶה וכ׳</he> should a great king like thee prostrate himself before this Jew?; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

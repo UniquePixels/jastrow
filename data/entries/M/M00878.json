@@ -1,0 +1,24 @@
+{
+	"id": "M00878",
+	"slug": "מחיקתא",
+	"headword": {
+		"text": "מְחִיקָתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 761,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"M00930\"><he>מְחַק</he></cite>) <i>a load counted by stricken measures</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 80b:1\">B. Mets. 80ᵇ</cite> (oth. opin.: <i>reduced in weight by being worm-eaten</i>)."
+			]
+		}
+	]
+}

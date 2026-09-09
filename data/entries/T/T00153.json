@@ -1,0 +1,22 @@
+{
+	"id": "T00153",
+	"slug": "רבתנא",
+	"headword": {
+		"text": "רַבְּתָנָא"
+	},
+	"page": {
+		"number": 1446,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>רבב</he>; v. <cite ref=\"T00042\"><he>רַבָּא</he></cite>) <i>nobility</i>; (collect. noun) <i>princes</i>; <he>מלכא דר׳</he> <i>king of princes</i> (= h. <he>המלך הגדול</he>) title of the king of Assyria. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 18:19\">Targ. II Kings XVIII, 19</cite> (ed. Lag. <he>מלכא רבא</he>); <cite ref=\"Targum Jonathan on II Kings 18:28\">ib. 28</cite> (ed. Lag. <he>מ׳ רבתנא</he>, read: <he>דר׳</he>); <cite ref=\"Targum Jonathan on Isaiah 36:4\">Targ. Is. XXXVI, 4</cite>; <cite ref=\"Targum Jonathan on Isaiah 36:13\">13</cite>."
+			]
+		}
+	]
+}

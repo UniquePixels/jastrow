@@ -1,0 +1,31 @@
+{
+	"id": "M01546",
+	"slug": "מליא",
+	"headword": {
+		"text": "מַלְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַלְיָיא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 789,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01545\">preced.</cite>) <i>fulness</i>. Pesik. Haḥod., p. 53ᵃ (ref. to <cite ref=\"Psalms 89:38\">Ps. LXXXIX, 38</cite>) <he>כהדין סיהרא על מ׳</he> like the moon growing to fulness. ",
+			"units": [
+				"<cite ref=\"Psalms 89:38\">Ib.</cite>; <cite ref=\"Yalkut Shimoni on Torah 190:3\">Yalk. Ex. 190</cite> <he>הא סיהרא על מ׳</he> this (Solomon’s reign) is the full moon; Yalk. Chr. 1082; (<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>מְלֵיאָתָהּ</he>).—Constr. <cite ref=\"M01543\"><he>מְלֵי</he></cite> (= h. <cite ref=\"M01464\"><he>מְלֹא</he></cite>) <i>the fill of, as much as</i>. ",
+				"<cite ref=\"Onkelos Exodus 9:8\">Targ. Ex. IX, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 96:11\">Targ. Ps. XCVI, 11</cite>; a. fr.—",
+				"<cite ref=\"Megillah 16a:7\">Meg. 16ᵃ</cite> <he>מ׳ קומציה</he> a handful.—V. <cite ref=\"M01492\"><he>מְלוֹא</he></cite>."
+			]
+		}
+	]
+}

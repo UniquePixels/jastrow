@@ -1,0 +1,38 @@
+{
+	"id": "P01376",
+	"slug": "ערך-2",
+	"headword": {
+		"text": "עֲרַךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲרֵיךְ"
+		}
+	],
+	"page": {
+		"number": 1118,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P01375\">same</cite>, <i>to work, knead</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 41:25\">Targ. Is. XLI, 25</cite> <he>דעָרֵיךְ</he> (h. text <he>ירמס</he>).—",
+				"<cite ref=\"Menachot 56a:18\">Men. 56ᵃ</cite> <he>דע׳ הוא ואפה הוא</he> when he himself kneaded and baked; <he>דעריך חבריה וכ׳</he> when his neighbor kneaded and gave it to him, and he baked. ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 6:5:3\">Y. Shebu. VI, 37ᵃ</cite> bot. <he>אזלת מֵיעֲרוֹךְ גבי חבירתה</he> she went to knead her bread at her neighbor’s.—Part. pass. <cite ref=\"P01356\"><he>עָרִיךְ</he></cite>, pl. <he>עֲרִיכִין</he> Ib.ᵇ top <he>אשכחון … ע׳ גו עיגולא</he> they found the two denars (that were missed) worked into the cake."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיעֲרִיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be worked in</i>. Ib.ᵃ bot. <he>אִיעַרְכוּ גו עיגולא</he>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

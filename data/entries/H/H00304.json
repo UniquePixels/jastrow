@@ -1,0 +1,31 @@
+{
+	"id": "H00304",
+	"slug": "חוטרא-1",
+	"headword": {
+		"text": "חוּטְרָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חַטְרָא"
+		}
+	],
+	"page": {
+		"number": 431,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H00644\"><he>חֲטַר</he></cite>, cmp. <cite ref=\"C00578\"><he>גִּזְרָא</he> II</cite>) <i>fold</i>, <i>enclosure</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Micah 2:12\">Targ. Mic. II, 12</cite>.—",
+				"<cite ref=\"Shabbat 32a:2\">Sabb. 32ᵃ</cite> (prov.) <he>אבב ח׳ מילי וכ׳</he> at the gate of the fold, there are words (bargaining), but in the stalls (where the sheep are delivered), strict account (in critical moments a woman’s sins are visited, v. <cite ref=\"H00164\"><he>חִגְּרָא</he></cite>).—Pl. <he>חוּטְרִין</he>, <cite ref=\"H00586\"><he>חַטְ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Numbers 32:16\">Targ. O. Num. XXXII, 16</cite> <cite ref=\"H00586\"><he>חַטְ׳</he></cite> ed. Berl. (ed. Lisb. <cite ref=\"H00586\"><he>חֹטְ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 24:4\">Targ. I Sam. XXIV, 4</cite> <cite ref=\"H00811\"><he>חוּ׳</he></cite> ed. Lag. (oth. ed. <cite ref=\"H00586\"><he>חַטְ׳</he></cite>)."
+			]
+		}
+	]
+}

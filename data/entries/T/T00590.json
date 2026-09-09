@@ -1,0 +1,30 @@
+{
+	"id": "T00590",
+	"slug": "ריבוע-2",
+	"headword": {
+		"text": "רִיבּוּעַ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רִיבּוּעָא"
+		},
+		{
+			"text": "רִבּ׳"
+		}
+	],
+	"page": {
+		"number": 1473,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T00589\">same</cite> <cite ref=\"Sukkah 8a:8\">Succ. 8ᵃ</cite>, v. <cite ref=\"P00498\"><he>עִיגּוּלָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Eruvin 57a:4\">Erub. 57ᵃ</cite>; <cite ref=\"Bava Batra 101b:4\">B. Bath. 101ᵇ</cite>, a. e. <he>כל אמתא בר׳ וכ׳</he>, v. <cite ref=\"A01891\"><he>אֲלַכְסוֹן</he></cite>. ",
+				"<cite ref=\"Eruvin 23b:9\">Erub. 23ᵇ</cite> <he>איכא … ר׳ דרבעוה רבנן</he> (Ms. M. <he>ר׳ דרבנן</he>) the difference between them refers to their attitude concerning the square which the (other) Rabbis adopt as a standard (seventy and a fraction by seventy and a fraction, Mish. ",
+				"<cite ref=\"Mishnah Eruvin 2:5\">ib. II, 5</cite>); [differ. interpret. in Tosaf. a. l.; reference to Mish. ib. IV, 8]."
+			]
+		}
+	]
+}

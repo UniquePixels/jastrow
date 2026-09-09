@@ -1,0 +1,58 @@
+{
+	"id": "K01257",
+	"slug": "כרע-1",
+	"headword": {
+		"text": "כָּרַע"
+	},
+	"page": {
+		"number": 672,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <cite ref=\"K01259\"><he>כֶּרַע</he></cite>)<i>to bow, bend the knee</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 12a:24\">Ber. 12ᵃ</cite> <he>כשהוא כוֹרֵעַ וכ׳</he> when bowing in prayer, one must bow at the word <i>barukh</i>, opp. <cite ref=\"G00649\"><he>זָקַף</he></cite>. ",
+				"<cite ref=\"Berakhot 34b:7\">Ib. 34ᵇ</cite>; Y. ib. I, 3ᶜ bot. (interch. with <he>שחה</he>); a. v. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִכְרִיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to kneel; to subdue; to humiliate, sadden</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite>; <cite ref=\"Yalkut Shimoni on Torah 114:3\">Yalk. Gen. 114</cite> <he>אני מַכְרִיעַ את אוהבי</he> I shall sadden my friend. ",
+						"<cite ref=\"Bereishit Rabbah 75\">Gen. R. s. 75</cite>, beg., v. <cite ref=\"K01145\"><he>כָּרַח</he></cite>. ",
+						"<cite ref=\"Bereishit Rabbah 67:8\">Gen. R. s. 67</cite> <he>מה אני מכריע וכ׳</he> (<cite ref=\"Yalkut Shimoni on Torah 116\">Yalk. ib. 116</cite> <he>מַעֲכִיר</he>) why shall I sadden my father?"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to put the knee of the balance down; to overbalance; to outweigh</i>. Y. Peah I, 16ᵇ bot. <he>הזכיות מַכְרִיעוֹת</he> the good deeds overbalance (the sins). ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 2:8\">Ab. II, 8</cite> <he>מַכְרִיעַ את כלם</he> outweighs them all. ",
+						"<cite ref=\"Mishnah Bava Batra 5:11\">B. Bath. V, 11</cite> <he>חייב להַכְרִיעַ לו טפח</he> (weighing a litra of meat or more) he must allow the scale (which contains the meat) to sink one handbreadth lower than the scale of weights, i.e. he must give overweight, opp. <he>עיין</he> to weigh exactly. ",
+						"<cite ref=\"Bava Batra 89a:12-13\">Ib. 89ᵃ</cite> <he>שקול לי … והַכְרִיעָהּ</he> weigh for me each litra for itself and give me the legal overweight on it; a. fr.—Y. Sabb. I, 3ᶜ bot. <he>הַכְרַע עליו כסף</he> put money to it in the balance (bribe him). ",
+						"<cite ref=\"Bereishit Rabbah 80\">Gen. R. s. 80</cite> <he>כמה ממון ה׳</he> how much money he put in the balance (paid for it).—Trnsf. <i>to cast the deciding vote, to decide</i>. ",
+						"<cite ref=\"Tosefta Chullin 7:1\">Tosef. Ḥull. VII, 1</cite>; <cite ref=\"Chullin 90b\">Ḥull. 90ᵇ</cite>; <cite ref=\"Pesachim 83b:6\">Pes. 83ᵇ</cite> <he>הדעת מַכְרַעַת</he> reason decides, v. <cite ref=\"D00950\"><he>דַּעַת</he></cite>. Y. Keth. II, 26ᵇ; Y. Yeb. X, 10ᵈ bot. <he>הדעת מכרעת בעידי מיתה</he> (not <he>לידי</he>) reason decides in favor of trusting the witnesses testifying to the death of a person."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to keep the balance;</i> trnsf. <i>to harmonize two contrary opinions, to compromise</i>. Sifra introd. <he>שני כתובים המכחישים … ויַכְרִיעַ ביניהם</he> when two Biblical verses contradict each other, you must not draw any conclusions until a third verse is found which harmonizes them. Ib. end (ref. to <cite ref=\"Exodus 19:20\">Ex. XIX, 20</cite> a. ",
+					"units": [
+						"<cite ref=\"Deuteronomy 4:36\">Deut. IV, 36</cite>) <he>הכ׳ השלישי</he> a third passage (<cite ref=\"Exodus 20:22\">Ex. XX, 22</cite>) harmonizes (that the Lord lowered the heavens so as to make them rest on Mount Sinai); Mekh. Yithro, Baḥod. s. 9. ",
+						"<cite ref=\"Sifrei Bamidbar 58\">Sifré Num. 58</cite>.—",
+						"<cite ref=\"Kiddushin 24b:7\">Kidd. 24ᵇ</cite> <he>המַכְרִיעִים לפני חכמים</he> the harmonizers arguing before the scholars. ",
+						"<cite ref=\"Shabbat 39b:6\">Sabb. 39ᵇ</cite> <he>כל מקום … ואחד מכריע הלכה כדברי המכ׳</he> whenever you find two scholars differing and one compromising, the practice follows the opinion of the compromiser; a. fr.—V. <cite ref=\"E00524\"><he>הֶכְרַע</he></cite>, <cite ref=\"E00525\"><he>הַכְרָעָה</he></cite>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "O00530",
+	"slug": "סיבו",
+	"headword": {
+		"text": "סֵיבוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "סֵיבוּתָא"
+		},
+		{
+			"text": "סֵב׳"
+		}
+	],
+	"page": {
+		"number": 974,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סִיב</he> I) <i>gray head, old age</i>. Targ. II Esth. VII, 9. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 15:15\">Targ. Gen. XV, 15</cite> (some ed. <cite ref=\"U00790\"><he>שֵׂיבוּ</he></cite>); a. fr.—",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 33:25\">Targ. Y. II, Deut. XXXIII, 25</cite> <he>סָבוּ׳</he>.—",
+				"<cite ref=\"Shir HaShirim Rabbah 8:7:1\">Cant. R. to VIII, 7</cite> <he>דלא שבקת לסֵיבוּתָיךְ כלום</he> that thou didst leave nothing for thyself in thy old age; <cite ref=\"Vayikra Rabbah 30\">Lev. R. s. 30</cite>; a. e.—",
+				"<cite ref=\"Yevamot 65b:15\">Yeb. 65ᵇ</cite> <he>מַסֵּיבוּ דילה</he> (not … <he>בי</he>) = <he>מה ס׳</he> what about her (my) old age?—Trnsf. <i>old men, elders</i>. ",
+				"<cite ref=\"Tosefta Chullin 2:24\">Tosef. Ḥull. II, 24</cite> (in Hebr. dict.) <he>אפשר שהס׳ הללו טועים וכ׳</he> is it possible that these elders &c., v. <cite ref=\"J00689\"><he>יְשִׁיבָה</he></cite>."
+			]
+		}
+	]
+}

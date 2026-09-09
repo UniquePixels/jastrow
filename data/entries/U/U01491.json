@@ -1,0 +1,83 @@
+{
+	"id": "U01491",
+	"slug": "שמם-1",
+	"headword": {
+		"text": "שָׁמֵם"
+	},
+	"page": {
+		"number": 1597,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to stand still,</i>] <i>to be astonished; to be waste</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sotah 15:10\">Tosef. Sot. XV, 10</cite> <he>ונמצא ישראל ש׳ וזרע וכ׳</he> and as a consequence Israel will be laid waste, and the seed of Abraham cease. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 2:4:5\">Y. Bets. II, 61ᶜ</cite> top <he>פעם … ומצא אותה שׁוֹמֶמֶת</he> once he entered the Temple court and found it deserted; <he>יָשֹׁמּוּ בתיהם … שׁהֵשֵׁימּוּ וכ׳</he> (or <he>יִשַּׁמּוּ</he>) deserted be the homes of those who caused the house of our God to be laid waste; <cite ref=\"Jerusalem Talmud Chagigah 2:3:5\">Y. Ḥag. II, 78ᵃ</cite> bot. <he>שׁהֵישַׁמּוּ</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 5:5\">Cant. R. to V, 5</cite> <he>ראה המדינה שוממת</he> he (Cyrus) saw that the country was ruined. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:3:12\">Y. Ber. IV, 8ᵃ</cite> <he>ההרוסה והשׁוֹמֵמָה</he> destroyed and deserted. ",
+				"<cite ref=\"Mishnah Megillah 3:3\">Meg. III, 3</cite> (ref. to <cite ref=\"Leviticus 26:31\">Lev. XXVI, 31</cite>) <he>קדושתן … שׁוֹמֵמִין</he> (Y. ed. <he>שׁוֹמֵימִין</he>) they remain holy, even when they lie in ruins. Lam. R. introd. (R. Joḥ. 1) <he>שָׁמְמָה עלי נפשי</he> my soul within me is waste (mourns); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁמֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to lay waste, ruin; to confound</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 959:31\">Yalk. Prov. 959</cite> <he>אם זכה משמחו ואם לאו מְשַׁמְּמוֹ</he> if a man is good, it (dreaming of wine) means joy to him, if not, it means confounding.—Part. pass. <cite ref=\"M02832\"><he>מְשׁוּמָּם</he></cite>; f. <he>מְשׁוּמֶּמֶת</he>. ",
+						"<cite ref=\"Tosefta Ketubot 7:10\">Tosef. Keth. VII, 10</cite> <he>מש׳ היא</he> (ed. Zuck. <cite ref=\"U01669\"><he>שעמומית</he></cite>) she (my daughter) is confused in her mind; v. <cite ref=\"U01671\"><he>שִׁעֲמֵם</he></cite>, <cite ref=\"U01669\"><he>שַׁעֲמוּמִית</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֵשֵׁם"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01490\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 26\">Gen. R. s. 26</cite> (play on <he>אנשי השם</he>, <cite ref=\"Genesis 4:4\">Gen. IV, 4</cite>) <he>שׁהֵשִׁימּוּ את העולם ושהוּשַׁמּוּ … שׁיִשּׁוֹם</he> they confounded the world, and they were ruined (driven) out of the world, and caused the world to be laid waste. Y. Bets. l. c.; Y. Ḥag. l. c., v. supra."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נָשַׁם"],
+			"senses": [
+				{
+					"gloss": ", <i>Hof.</i> <he>הוּשַׁם</he> <i>to be laid waste, ruined</i>. Gen. R. l. c., v. supra. ",
+					"units": [
+						"<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite>; <cite ref=\"Shir HaShirim Rabbah 2:13:4\">Cant. R. to II, 13</cite> <he>והגבלן יִשּׁוֹם</he>, v. <cite ref=\"C00113\"><he>גַּבְלָן</he></cite>. Y. Bets. l. c.; Y. Ḥag. l. c., v. supra."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִשְׁתּוֹמֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to be astounded</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 4\">Gen. R. s. 4</cite>, end (expl. <he>ש̇מ̇י̇ם̇</he>) <he>שהבריות מִשְׁתּוֹמְמִים … של אש̇ הן של מ̇י̇ם̇ הן</he> men wonder at them, (asking) are they of fire? are they of water?"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be waste, ruined</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 66a:12\">Kidd. 66ᵃ</cite> <he>והיה העולם מִשְׁתּוֹמֵם וכ׳</he> and the (Jewish) world was ruined (demoralized), until Simon b. Sh. came and restored the Law &c. ",
+						"<cite ref=\"Shabbat 33a:3\">Sabb. 33ᵃ</cite> <he>והדרכים מִשְׁתּוֹמְמִין</he> and the roads are desolate; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

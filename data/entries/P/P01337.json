@@ -1,0 +1,27 @@
+{
+	"id": "P01337",
+	"slug": "ערטיליותא",
+	"headword": {
+		"text": "עַרְטִילָּיוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַרְטַלְיוּ׳"
+		}
+	],
+	"page": {
+		"number": 1116,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01336\">preced.</cite>) <i>nakedness</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:48\">Targ. Deut. XXVIII, 48</cite> (O. ed. Amst. <he>עַרְטִילָתָא</he>, ed. Vien. <he>לְיָתָא …</he>, corr. acc.)."
+			]
+		}
+	]
+}

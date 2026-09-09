@@ -1,0 +1,36 @@
+{
+	"id": "R00479",
+	"slug": "צלב-1",
+	"headword": {
+		"text": "צָלַב"
+	},
+	"page": {
+		"number": 1282,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to hang, impale</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 2:13\">Esth. R. to I, 8</cite> <he>אתה … וצוֹלֵב לזה</he> when thou raisest the one to dignity, thou must decree hanging for the other. ",
+				"<cite ref=\"Bereishit Rabbah 30\">Gen. R. s. 30</cite> <he>אתמול … צוֹלֵב את צוֹלְבָיו</he> yesterday he was prepared to be hanged, and now he hangs those who had intended to hang him; a. fr.—Part. pass. <cite ref=\"R00489\"><he>צָלוּב</he></cite>; f. <he>צְלוּבָה</he> &c. ",
+				"<cite ref=\"Mishnah Yevamot 16:3\">Yeb. XVI, 3</cite> <he>ואפי׳ ראוהו … צ׳</he> even if witnesses saw him … nailed to the stake (v. <he>צְלוּכ</he> h.) <cite ref=\"Tosefta Gittin 7:1\">Tosef. Gitt. VII</cite> (<cite ref=\"Tosefta Gittin 5:1\">V</cite>), 1; Y. ib. VII, 48ᶜ bot. <he>היה צ׳ וכ׳</he> if a man was impaled or being bled to death, and motioned (to his friends) and said, write a letter of divorce &c. Ohol. III, 5; <cite ref=\"Tosefta Gittin 4:11\">Tosef. ib. IV, 11</cite> <he>צ׳ שדמו שותת</he> one nailed to the stake whose blood runs freely. ",
+				"<cite ref=\"Kohelet Rabbah 7:26:1\">Koh. R. to VII, 26</cite> <he>לצְלוּבִים</he>, v. <cite ref=\"B00789\"><he>בַּכִּיר</he></cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִצְלָב"],
+			"senses": [
+				{
+					"gloss": "<i>to be hanged, impaled</i>. Esth. R. introd. (ref. to <cite ref=\"Deuteronomy 28:66\">Deut. XXVIII, 66</cite>) <he>זה שהוא יוצא להִצָּלֵב</he> that is he who is taken out to be impaled. ",
+					"units": [
+						"<cite ref=\"Deuteronomy 28:66\">Ib.</cite> to I, 12 <he>אימתי … כשנ׳ המן</he> when was his wrath pacified? When Haman was hanged. Ib. to III, 1 <he>אף סופו … לִיצָּלֵב</he> this man, too, will in the end be hanged; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

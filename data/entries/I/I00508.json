@@ -1,0 +1,44 @@
+{
+	"id": "I00508",
+	"slug": "טלל-2",
+	"headword": {
+		"text": "טָלַל"
+	},
+	"page": {
+		"number": 537,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>דלל</he>, <he>תלל</he>)<i>to hang over</i>, (of liquids) <i>to form drops;</i> v. <cite ref=\"I00468\"><he>טַל</he></cite>.—<i>Part. pass.</i> <cite ref=\"I00478\"><he>טָלוּל</he></cite>, f. <cite ref=\"I00479\"><he>טְלוּלָה</he></cite> ",
+			"units": [],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " <i>hanging</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Avodah Zarah 4:4:7\">Y. Ab. Zar. IV, 44ᵃ</cite> bot. [read:] <he>שלא היתה שם טיפה אחת ט׳</he> that there should not have been there (in the vat) one drop hanging (which drops down on being touched or shaken). "
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " (with <he>שנה</he>, denom. of <cite ref=\"I00468\"><he>טַל</he></cite>) <i>blessed with dew</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 24b\">Taan. 24ᵇ</cite>; Y. Yoma V, 42ᶜ top.; <cite ref=\"Vayikra Rabbah 20\">Lev. R. s. 20</cite>; Tanḥ. Aḥăre 3; ed. Bub. ib. 4, v. <cite ref=\"C01415\"><he>גָּשַׁם</he></cite>."
+					],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": "<i>to be movable</i>, v. <cite ref=\"I00490\"><he>טִלְטֵל</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to cover</i>, v. <cite ref=\"I00504\"><he>טַלִּית</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

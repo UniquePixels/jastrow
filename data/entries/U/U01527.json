@@ -1,0 +1,30 @@
+{
+	"id": "U01527",
+	"slug": "שמר-3",
+	"headword": {
+		"text": "שֶׁמֶר"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁמָרִים"
+		},
+		{
+			"text": "שְׁמָרִין"
+		}
+	],
+	"page": {
+		"number": 1601,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"U01526\">preced.</cite>) <i>sediment, lees</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 146b:2\">Sabb. 146ᵇ</cite> <he>שניקבה למטה מן הש׳</he> when the jug has a hole below the line of the lees. ",
+				"<cite ref=\"Bava Batra 96b:3\">B. Bath. 96ᵇ</cite> <he>שִׁמְרֵי יין</he> wine lees. ",
+				"<cite ref=\"Bava Batra 96b:3\">Ib.</cite> <he>ש׳ … טעם יין</he> lees which have a taste (or flavor) of wine. ",
+				"<cite ref=\"Mishnah Bava Metzia 4:11\">B. Mets. IV, 11</cite> <he>אין מערבין שמרי … שְׁמָרָיו</he> you dare not mix wine lees (left of one jug) with wine, but you may give the purchaser the lees belonging to the wine sold; a. fr."
+			]
+		}
+	]
+}

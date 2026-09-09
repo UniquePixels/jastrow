@@ -1,0 +1,29 @@
+{
+	"id": "D00356",
+	"slug": "דורגון",
+	"headword": {
+		"text": "דּוּרְגּוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּרְגּוֹן"
+		}
+	],
+	"page": {
+		"number": 289,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דרג</he>) <i>a suite of graded officers</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Horayot 3:1:2\">Y. Hor. III, beg. 47ᵃ</cite> <he>הוא וכל דו׳ דידיה</he> Himself and His entire staff (of angels); <cite ref=\"Jerusalem Talmud Sanhedrin 2:1:4\">Y. Snh. II, 20ᵃ</cite> top <he>דר׳</he>. ",
+				"<cite ref=\"Shemot Rabbah 1:27\">Ex. R. s. 1</cite> <he>היה מניח דר׳ שלו</he> he (Moses) left his escort.—Y’lamd. to Num. XII, 1, quot. in Ar. <he>דרוגין</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4</cite> <he>שיהיו עושין דר׳ לפניו</he> that they should form a hierarchy of officers before him. Y. Keth. XII, 35ᵃ bot. <he>חמא דורגין דידיה וכ׳</he>; <cite ref=\"Kohelet Rabbah 9:10:1\">Koh. R. to IX, 10</cite> <he>דרגין</he> (corr. acc.) he saw his (R. Ḥiya’s) suite in the future world, and his eyes became dim."
+			]
+		}
+	]
+}

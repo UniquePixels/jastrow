@@ -1,0 +1,63 @@
+{
+	"id": "B00702",
+	"slug": "ביראי",
+	"headword": {
+		"text": "בֵּירַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּירַיי"
+		},
+		{
+			"text": "בֵּירַי"
+		}
+	],
+	"page": {
+		"number": 165,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <he>בַּיִר</he>, <cite ref=\"B00043\"><he>בְּאֵר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>watering station</i>, esp. in Palestine for Temple pilgrims.—Pl. <he>בֵּירָאוֹת</he>, <he>בֵּירָייוֹת</he>, <he>בֵּירָיוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 2:1\">Erub. II, 1</cite>; a. fr. Y. ib. 20ᵇ top <he>לביריי׳ ולא לבירות</he> (read <he>לבירייות ולא לבורות</he>) for watering stations but not for cisterns; v. Bab. ",
+				"<cite ref=\"Eruvin 18a:11\">ib. 18ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. pl. <i>Berai</i> or <i>Beri;</i> ",
+			"units": [],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " in Galilee. ",
+					"units": [
+						"<cite ref=\"Yevamot 83b\">Yeb. 83ᵇ</cite>. ",
+						"<cite ref=\"Bava Metzia 84b:12\">B. Mets. 84ᵇ</cite> <he>בני בירי</he> the inhabitants of B. (Ms. M. <he>בני בר מריון</he>). ",
+						"<cite ref=\"Jerusalem Talmud Pesachim 4:3:5\">Y. Pes. IV, 30ᵈ</cite> top. ",
+						"<cite ref=\"Jerusalem Talmud Sheviit 6:1:9\">Y. Shebi. VI, 36ᶜ</cite> top <he>ביריי רבתא</he> (a border-town); (v., however, Hildesh. Beitr. z. Geogr. p. 21).—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>B</i>. or <i>Be-B</i>. in Babylon, native place of Ulla, R. Dostai, a. oth. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 40a:14\">Ab. Zar. 40ᵃ</cite>. ",
+						"<cite ref=\"Eruvin 56a:3\">Erub. 56ᵃ</cite> <he>מולייתא דבי ב׳ וכ׳</he> the ascents between Berai a. Narash. ",
+						"<cite ref=\"Sotah 10a:18\">Sot. 10ᵃ</cite> <he>בי בארי</he>. ",
+						"<cite ref=\"Eruvin 45a:16\">Erub. 45ᵃ</cite> <he>בירי</he>. [<cite ref=\"Chullin 127a:13\">Ḥull. 127ᵃ</cite> <he>ביברי דנרש</he>, read <he>בי בירי ונרש</he>.]"
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

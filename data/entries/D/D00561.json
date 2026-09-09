@@ -1,0 +1,35 @@
+{
+	"id": "D00561",
+	"slug": "דיין-2",
+	"headword": {
+		"text": "דַּיָּין",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּיָּינָא"
+		},
+		{
+			"text": "דַּיָּ׳"
+		}
+	],
+	"page": {
+		"number": 298,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. <cite ref=\"D00560\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 7:12\">Targ. Ps. VII, 12</cite>; a. fr.—",
+				"<cite ref=\"Ketubot 94b:10\">Keth. 94ᵇ</cite> <he>אנא ד׳ וכ׳</he> I am an authorized judge &c. ",
+				"<cite ref=\"Sanhedrin 7b:6\">Snh. 7ᵇ</cite> <he>אוקמו ד׳ דלא וכ׳</he> appointed a judge (lecturer) who had not studied; a. fr.—Pl. <he>דַּיָּינִין</he>, <he>דַּיָּינַיָּא</he>, <cite ref=\"D00561\"><he>דַּיָּ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 16:18\">Targ. Deut. XVI, 18</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 29a:17\">B. Bath. 29ᵃ</cite> <he>ד׳ דשפלי דָיְינֵי הכי</he> Ms. M. (ed. <he>ד׳ דשיפלי הכי דָאִינֵי</he>) ignorant judges will so decide; <cite ref=\"Bava Batra 133b:2\">ib. 133ᵇ</cite> <he>ד׳ דחצצתא וכ׳</he> compromising judges (who know not the law) &c.; a. fr."
+			]
+		}
+	]
+}

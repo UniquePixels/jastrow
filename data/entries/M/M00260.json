@@ -1,0 +1,24 @@
+{
+	"id": "M00260",
+	"slug": "מדוה",
+	"headword": {
+		"text": "מַדְוֶה"
+	},
+	"page": {
+		"number": 733,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"D00204\"><he>דָּוָה</he></cite>)<i>flux</i>. ",
+			"units": [
+				"<cite ref=\"Makkot 14b:5\">Macc. 14ᵇ</cite>; <cite ref=\"Niddah 41b:12\">Nidd. 41ᵇ</cite> <he>עד שיצא מ׳ וכ׳</he> until the flux is discharged through &c. ",
+				"<cite ref=\"Niddah 54b:23\">Ib. 54ᵇ</cite> <he>מַדְוָהּ כמותה</he> what flows from her is subject to the same laws as her body. ",
+				"<cite ref=\"Niddah 54b:23\">Ib.</cite> <he>מַדְוָהּ מטמא</he> (not <he>מטמאה</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "J00703",
+	"slug": "ישר-1",
+	"headword": {
+		"text": "יָשַׁר"
+	},
+	"page": {
+		"number": 601,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A03348\"><he>אָשַׁר</he></cite>)<i>to be firm, strong, healthy; to be straight, right</i>. <he>יִישַׁר כֹּחֲךָ</he> or <he>חֵילְךָ</he> ‘may thy strength (health) be firm’, a phrase of approval and thanks. ",
+			"units": [
+				"<cite ref=\"Shabbat 87a:5\">Sabb. 87ᵃ</cite>, a. fr. (play on <cite ref=\"A03347\"><he>אֲשֶׁר</he></cite>, <cite ref=\"Exodus 34:1\">Ex. XXXIV, 1</cite>) <he>י׳ כ׳ ששברת</he>, be thanked for having broken (the tablets). ",
+				"<cite ref=\"Bereishit Rabbah 54\">Gen. R. s. 54</cite> (play on <he>וישרנה</he>, <cite ref=\"I Samuel 6:12\">I Sam. VI, 12</cite>) <he>י׳ חילכם</he>; a. e.—(<cite ref=\"J00703\"><he>יֵשַׁר</he></cite>) <cite ref=\"J00352\"><he>יִישַׁר</he></cite> (sub. <he>כחך</he>) <i>thanks! right!</i> <cite ref=\"Berakhot 42b:4\">Ber. 42ᵇ</cite>; <cite ref=\"Shabbat 53a:8\">Sabb. 53ᵃ</cite>; <cite ref=\"Eruvin 32b:7\">Erub. 32ᵇ</cite>; a. fr.—Cmp. <cite ref=\"A01629\"><he>אַיְשַׁר</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יִישֵּׁר", "יִשֵּׁ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to straighten, direct, to make firm</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 1:17\">Ex. R. s. 1</cite> (ref. to <he>יֵשֶׁר</he>, <cite ref=\"I Chronicles 2:18\">I Chr. II, 18</cite>) <he>זה כלב שיי׳ את עצמו</he> that is Caleb who kept himself straight (did not yield to the rest of the spies). ",
+						"<cite ref=\"Bamidbar Rabbah 8\">Num. R. s. 8</cite> (ref. to <cite ref=\"Psalms 50:23\">Ps. L, 23</cite> <he>ושם דרך</he>) <he>המְיַישֵּׁר אורחותיו וכ׳</he> he who directs his ways straight (pays regard to his doings).—Part. pass. <cite ref=\"M01105\"><he>מְיוּשָּׁר</he></cite>, f. <he>מְיוּשֶּׁרֶת</he>. ",
+						"<cite ref=\"Pirkei DeRabbi Eliezer 10:1\">Pirké d’R. El. ch. X</cite> <he>דרכי מי׳ לפני</he> my way is levelled before me.—",
+						"<cite ref=\"Megillah 18b:14\">Meg. 18ᵇ</cite> (ref. to <he>יישרו</he>, <cite ref=\"Proverbs 4:25\">Prov. IV, 25</cite>) <he>מְיוּשָּׁרִין הן אצל וכ׳</he> they remain firm with (in the memory of) &c."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "C00344",
+	"slug": "גוזזין",
+	"headword": {
+		"text": "גּוֹזְזִין"
+	},
+	"page": {
+		"number": 220,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>גזז</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cut wool</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:24\">Targ. Ezek. XXVII, 24</cite> (Ar. <cite ref=\"C00310\"><he>גודיזין</he></cite>, h. text <he>גלומי</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"C00540\"><he>גָּזְזִין</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

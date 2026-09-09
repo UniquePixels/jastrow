@@ -1,0 +1,36 @@
+{
+	"id": "K00142",
+	"slug": "כדן",
+	"headword": {
+		"text": "כָּדַן"
+	},
+	"page": {
+		"number": 614,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", (cmp. Assyr. <i>kidînu</i> servant, Friedr. Del. Proleg. p. 200 note 7) [<i>to bend</i>,] <i>to yoke, put to work</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:24\">Y. Peah I, 15ᶜ</cite> bot.; <cite ref=\"Jerusalem Talmud Kiddushin 1:7:10\">Y. Kidd. I, 61ᵇ</cite> (<he>בריחיים</he>) <he>כּוֹדְנוֹ לריחיים</he> he puts his father to treading the mill (Bab. ",
+				"<cite ref=\"Kiddushin 31a:14\">ib. 31ᵃ</cite> bot. <he>מטחינו</he>, v. <cite ref=\"I00270\"><he>טָחַן</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 4:3:7\">Y. Pes. IV, 31ᵃ</cite> top <he>לכשיזקין הוא כודנו בריחיים</he> when the horse grows old, he puts him &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּידֵּן"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K00141\">same</cite>.—Part. pass. <he>מְכוּדָּן</he>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1:50\">Lam. R. to I, 14</cite> (ref. to <he>נפש חיה</he>, <cite ref=\"Genesis 2:7\">Gen. II, 7</cite>, as if meaning <i>self-supporting</i>) <he>עשאו עבד מ׳ בפני עצמו וכ׳</he> the Lord made man a slave put to work for himself, for if he does not work, he has nothing to eat; <cite ref=\"Bereishit Rabbah 14\">Gen. R. s. 14</cite> <cite ref=\"M01363\"><he>מכורן</he></cite>, <he>מחורר</he>; <cite ref=\"Kohelet Rabbah 2:17\">Koh. R. to II, 17</cite> <he>מכורן עבד</he> (corr. acc.).—<i>Pl. fem</i>. <he>מְכוּדָּנוֹת</he>. ",
+						"<cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite> (play on <he>יְשִׂפַּח</he>, <cite ref=\"Isaiah 3:17\">Is. III, 17</cite>) <he>עשאן שְׁפָחוֹת מכ׳</he> the enemies made them handmaids, forced to hard labor; <cite ref=\"Isaiah 3:17\">ib.</cite> <he>מהו מ׳ אמהן משעבדן</he>; <cite ref=\"Eichah Rabbah 4:18\">Lam. R. to IV, 15</cite> <he>מכודניות</he> (corr. acc.).—V. <cite ref=\"K00203\"><he>כּוּדְנָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

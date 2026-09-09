@@ -1,0 +1,91 @@
+{
+	"id": "M02774",
+	"slug": "מרר-2",
+	"headword": {
+		"text": "מְרַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְרִיר"
+		}
+	],
+	"page": {
+		"number": 847,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M02773\">same</cite>, <i>to be bitter; to grieve, mourn</i>. Perf. <cite ref=\"M02479\"><he>מַר</he></cite>, imperf. <cite ref=\"J00334\"><he>יֵימַר</he></cite>, <cite ref=\"J00423\"><he>יֵמַר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 24:9\">Targ. Is. XXIV, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 30:6\">Targ. I Sam. XXX, 6</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Zechariah 12:10\">Targ. Zech. XII, 10</cite> <he>ויֵימְרוּן</he>, v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מָרַר"],
+			"senses": [
+				{
+					"gloss": "<i>to embitter, aggrieve</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ruth 1:13\">Targ. Ruth I, 13</cite> <he>תְמָרְרוּן</he> (ed. Amst. <he>תִמְרְ׳</he>). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 32:32\">Targ. Y. I Deut. XXXII, 32</cite> <he>מְמַרְרִין</he> (some ed. <he>מְמַרְרַן</he>; Y. II <he>מַרְרַן</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַמְרֵיר", "אַמַּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M02773\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ruth 1:20\">Targ. Ruth I, 20</cite> (not <he>אֲמַרִ׳</he>). ",
+						"<cite ref=\"Onkelos Exodus 1:14\">Targ. Ex. I, 14</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to arrange mourning</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Zechariah 12:10\">Targ. Zech. XII, 10</cite> <he>ויימרון … כמא דמַמְרִין וכ׳</he> they shall arrange mourning for him, as is arranged for &c. (v. infra).—[<he>אָמְרָרוּ</he>, v. <i>Ithpa.</i>]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["מַרְמֵר", "מַרְמֵיר"],
+			"senses": [
+				{
+					"gloss": "<i>to aggrieve</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 17:25\">Targ. Prov. XVII, 25</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 49:23\">Targ. Y. I Gen. XLIX, 23</cite> <he>ממרירו</he>, read: <he>מַרְמִירוּ</he>; (Y. II <he>אֲמָרוּ</he>, read: <cite ref=\"A02068\"><he>אַמָּ׳</he></cite> <i>Af.</i>)."
+					]
+				}
+			],
+			"stem": "Palp."
+		},
+		{
+			"forms": ["אִתְמָרֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to be enraged, fight</i>. Targ. O. Gen. l. c. (Var. <he>אָמְרָרוּ</he>, v. Berl. Targ. O. II, p. 18; oth. ed. <he>אַמְרָרוּ</he> <i>Af.</i>).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to mourn</i>. Targ. Zech. l. c. Var. (v. Lag. Proph. I, p. XLII).",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

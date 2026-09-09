@@ -1,0 +1,22 @@
+{
+	"id": "U00271",
+	"slug": "שדיך",
+	"headword": {
+		"text": "שַׁדִּיךְ"
+	},
+	"page": {
+		"number": 1524,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00274\"><he>שְׁדַךְ</he></cite>) <i>at rest, at ease</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 21:23\">Targ. Job XXI, 23</cite> (Ms. <cite ref=\"U00039\"><he>שאנן</he></cite>; h. text <he>שלאנן</he>)."
+			]
+		}
+	]
+}

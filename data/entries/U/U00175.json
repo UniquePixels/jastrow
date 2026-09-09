@@ -1,0 +1,32 @@
+{
+	"id": "U00175",
+	"slug": "שבר-4",
+	"headword": {
+		"text": "שָׁבַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1517,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <cite ref=\"U00177\"><he>שֶׁבֶר</he> II</cite>)<i>to buy provisions</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 91:6\">Gen. R. s. 91</cite> <he>אף</he> … <he>לִשְׁבָּר אוכל</he> Joseph, too, knew that his brothers were coming down to Egypt to buy food; <cite ref=\"Bereishit Rabbah 91:6\">ib.</cite> <he>כל מי שנכנס לִשְׁבּוֹר וכ׳</he> let whomsoever enters (Egypt) to buy food register his name &c; Tanḥ. Mikk. 8."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁבִּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to sell provisions, to supply</i>. Ib. (ref. to <he>מַשְׁבִּיר</he>, <cite ref=\"Proverbs 11:26\">Prov. XI, 26</cite>) <he>זה יוסף שזן וכ׳</he> that means Joseph who sustained the world &c.; Gen. R. l. c.; a. e.—[Tanḥ. ed. Bub. Vayesheb 13 <he>משביר אותו</he>, read: <he>מַשְׂכִּיר</he>.]",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

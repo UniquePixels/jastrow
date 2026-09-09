@@ -1,0 +1,29 @@
+{
+	"id": "M02417",
+	"slug": "מקידה",
+	"headword": {
+		"text": "מַקֵּידָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַקֵּדָה"
+		}
+	],
+	"page": {
+		"number": 830,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00556\"><he>יָקַד</he></cite>) <i>fire-pot, fragment of a vessel used for carrying fire</i>. Sifra M’tsor., Par. 1, ch. I <he>אי חרס יכול מ׳ וכ׳</he> from the word <i>ḥeres</i> (<cite ref=\"Leviticus 14:5\">Lev. XIV, 5</cite>) I might infer that a fragment of a vessel was meant, therefore it says ‘a vessel’. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 2:2:2\">Y. Sot. II, 17ᵈ</cite> bot. <he>מאן דמר … לא במ׳ בשניטל וכ׳</he> he who says … you must not use a <i>maḳḳeda</i>, means a vessel the larger portion of which is missing. ",
+				"<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite>; <cite ref=\"Sotah 9a:2\">Sot. 9ᵃ</cite> <he>מ׳ של חרס</he> a piece of an earthen vessel, opp. <he>כוסות משובחין</he>; <cite ref=\"Sotah 32b\">ib. 32ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Shabbat 24:5\">Sabb. XXIV, 5</cite>; a. fr."
+			]
+		}
+	]
+}

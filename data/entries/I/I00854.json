@@ -1,0 +1,23 @@
+{
+	"id": "I00854",
+	"slug": "טרסקל-1",
+	"headword": {
+		"text": "טְרִסְקֵל"
+	},
+	"page": {
+		"number": 555,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (τρισκελής, τρισκέλλων, sub. <he>כסא</he>) <i>a chair on three legs</i>, esp. <i>a camp-chair</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite>; Tanḥ. Naso 19; (Tanḥ. T’rumah 9; <cite ref=\"Bereishit Rabbah 68\">Gen. R. s. 68</cite> <cite ref=\"V00965\"><he>תְּרוֹנוֹס</he></cite>). ",
+				"<cite ref=\"Shabbat 138a:2\">Sabb. 138ᵃ</cite> <he>כסא ט׳</he> (Ms. O. <he>כסא וט׳</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "P01277",
+	"slug": "ערבות-3",
+	"headword": {
+		"text": "עֲרָבוֹת",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1113,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>ʿÃraboth</i> (<i>Steppes</i>), in Babylonia. ",
+			"units": [
+				"<cite ref=\"Nazir 43b:1\">Naz. 43ᵇ</cite> <he>פקתא דע׳</he> the valley of ʿĂ. (dangerous on account of robbers); <cite ref=\"Berakhot 54a\">Ber. 54ᵃ</cite>. ",
+				"<cite ref=\"Berakhot 54a:13\">Ib.</cite> <he>כי מטא לע׳</he> when he came again to ʿA."
+			]
+		}
+	]
+}

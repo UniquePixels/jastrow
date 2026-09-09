@@ -1,0 +1,43 @@
+{
+	"id": "I00080",
+	"slug": "טבע-5",
+	"headword": {
+		"text": "טֶבַע"
+	},
+	"page": {
+		"number": 519,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"I00078\"><he>טָבַע</he> II</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>coin, medal</i>. <he>טִבְעוֹ של פ׳ יצא</he> one’s coin passes, i.e. one’s authority is recognized. ",
+			"units": [
+				"<cite ref=\"Shevuot 6b:13\">Shebu. 6ᵇ</cite> <he>זו רומי חייבת שטִיבְעָהּ וכ׳</he> Ms. M. (ed. <he>פרס</he>) that is wicked Rome whose government is recognized all over the world. ",
+				"<cite ref=\"Megillah 14b:1\">Meg. 14ᵇ</cite> <he>לא יצא טִבְעֲךָ בעולם</he> thou art not yet the legitimate king; cmp. <cite ref=\"M00537\"><he>מוֹנִיטָא</he></cite>. [<cite ref=\"Jerusalem Talmud Berakhot 5:2:8\">Y. Ber. V, 9ᵇ</cite> <he>מטבעה של תפלה</he> ed. Lehm., oth. ed. <he>מטביעה</he>, v. <cite ref=\"M00965\"><he>מַטְבֵּעַ</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Tebʿa</i>, a coin equal to half a Sela. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 2:3:5\">Y. Shek. II, 46ᵈ</cite> top (the ten brothers) sold Rachel’s first-born for twenty silver pieces (denars) <he>ונפל לכל א׳ וא׳ מהם ט׳</he> so that a Tebʿa came upon each (Bab. ed. <he>טבעה</he>, <he>טיבעה</he>, Ms. M. <he>טובע</he>).—Pl. <he>טְבָעִים</he>, <he>טְבָעִין</he> (<cite ref=\"I00120\"><he>טוֹבְעִין</he></cite>, fr. <he>טוֹבַע</he>). ",
+				"<cite ref=\"Mishnah Shekalim 2:4\">Shek. II, 4</cite>. Y. l. c. <he>טו׳ פלגי סלעין</he> (Bab. <he>טבעין</he>) <i>tibʿin</i> i.e. half-Shekels."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>that which is to be shaped, substance, element</i>.—Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 14:12\">Num. R. s. 14</cite> <he>כנגד ארבעה ט׳ וכ׳</he> corresponding to the four elements of which the Lord created &c. [In later Hebr.: <i>nature, character; Nature</i>.]"
+			],
+			"label": "3"
+		}
+	]
+}

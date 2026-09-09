@@ -1,0 +1,41 @@
+{
+	"id": "M00913",
+	"slug": "מחפורת",
+	"headword": {
+		"text": "מַחְפּוֹרֶת"
+	},
+	"page": {
+		"number": 763,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01474\"><he>חָפַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mine</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 79b:9\">Keth. 79ᵇ</cite> <he>מ׳ של צריף</he> an alum-mine."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>product of the mine</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 33b:6\">Ab. Zar. 33ᵇ</cite> (expl. <he>כלי נתר</he>) <he>כלי מ׳ של צריף</he> vessels made of alum crystals."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. <cite ref=\"H01432\"><he>חֲפוּרָה</he> II</cite>) <i>fruits obtained by digging, bulbous vegetables</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ma'asrot 1:6\">Tosef. Maasr. I, 6</cite> <he>מ׳ של כרי</he> storaged vegetables (some ed. <cite ref=\"M00913\"><he>מַחְפּוֹרוֹת</he></cite> <i>pl.</i>)."
+			],
+			"label": "3"
+		}
+	]
+}

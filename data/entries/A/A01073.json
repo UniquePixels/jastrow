@@ -1,0 +1,27 @@
+{
+	"id": "A01073",
+	"slug": "אטו",
+	"headword": {
+		"text": "אָטוּ"
+	},
+	"page": {
+		"number": 42,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (abbrev. of <cite ref=\"A02011\"><he>אמטול</he></cite>, v. <cite ref=\"A02010\"><he>אַמְטוּ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>on account of, because of, for the sake of</i> (h. . <he>קנסו שוגג א׳ מזיד</he> they fined the inadvertent transgressor for the sake of the wilful one (in order to prevent wilful sin). ",
+			"units": ["<cite ref=\"Gittin 53b:7\">Git. 53ᵇ</cite>; a. fr."],
+			"label": "1"
+		},
+		{
+			"gloss": " (in questions expressing <i>surprise, indignation</i>) <i>is it because? do you mean to say?</i> Ib. 7ᵃ <he>א׳ אנא לא ידענא</he> do I not know it myself? Ib. 30ᵇ <he>א׳ ברשיעי עסקינן</he> is it with wicked men we have to deal? (i.e. shall we presume deliberate sin?); a. v. fr.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

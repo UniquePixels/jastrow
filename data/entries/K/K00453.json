@@ -1,0 +1,31 @@
+{
+	"id": "K00453",
+	"slug": "כחד-2",
+	"headword": {
+		"text": "כְּחַד"
+	},
+	"page": {
+		"number": 628,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"K00452\">same</cite>.[Y. Sabb. VII, 10ᵃ bot. <he>מכחד</he>, v. <cite ref=\"B00484\"><he>בְּחַר</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְכַּחַד"],
+			"senses": [
+				{
+					"gloss": "<i>to be destroyed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 4:7\">Targ. Job IV, 7</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

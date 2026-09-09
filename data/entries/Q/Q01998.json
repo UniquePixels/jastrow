@@ -1,0 +1,31 @@
+{
+	"id": "Q01998",
+	"slug": "פרקטונין",
+	"headword": {
+		"text": "פַּרְקְטוֹנִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּרַקְטָנִין"
+		}
+	],
+	"page": {
+		"number": 1240,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>פרקט</he>, <i>Parel</i> of <he>פקט</he>, v. <cite ref=\"Q01481\"><he>פִּקְטִים</he></cite>), <he>פ׳ דמיא</he> <i>torrents, freshets, fountains</i> (corresp. to h. <cite ref=\"M00081\"><he>מַבּוּעַ</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 14:3\">Targ. Y. Gen. XIV, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 21:34\">Targ. Y. I Num. XXI, 34</cite> (ed. Amst. <he>פִּרְקַטוּ׳</he>; Y. II <he>מבועין</he>). Ib. XXIV, 6 <he>פְּרַקְטוֹנֵי נהרין</he> (ed. Amst. <he>פַּרְקְטוֹ׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:6\">Targ. Koh. II, 6</cite> <he>פרקטנין דמ׳</he>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 7:5\">Targ. Cant. VII, 5</cite> <cite ref=\"Q01998\"><he>פְּרַקְטִינִין</he></cite>."
+			]
+		}
+	]
+}

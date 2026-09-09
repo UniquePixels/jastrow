@@ -1,0 +1,33 @@
+{
+	"id": "A00174",
+	"slug": "אבן-3",
+	"headword": {
+		"text": "אֹבֶן"
+	},
+	"page": {
+		"number": 7,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., only in Du. <he>אָבְנַיִם</he> (b. h., ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the potter’s turning implement</i>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the passage of the embryo, vagina</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 1:14\">Ex. R. s. 1</cite> (etym.) <he>מקום שהולד נפנה בו</he> (some ed. <cite ref=\"S01568\"><he>נקנה</he></cite> incorr.) where the child turns (to come to light). [Oth. etym. v. ibid. a. ",
+				"<cite ref=\"Sotah 11b\">Sot. 11ᵇ</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

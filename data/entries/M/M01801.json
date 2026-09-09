@@ -1,0 +1,47 @@
+{
+	"id": "M01801",
+	"slug": "מנע-2",
+	"headword": {
+		"text": "מְנַע"
+	},
+	"page": {
+		"number": 802,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01800\">same</cite>, <i>to diminish; to withhold</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 22:16\">Targ. Gen. XXII, 16</cite>. ",
+				"<cite ref=\"Onkelos Genesis 30:2\">Ib. XXX, 2</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 13:1\">Targ. O. Deut. XIII, 1</cite> (h. text <cite ref=\"C01379\"><he>גרע</he></cite>); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְמְנַע", "אִימְּנַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be diminished; to cease, omit</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 5:11\">Targ. Ex. V, 11</cite> (O. ed. Vien. <he>יִתִּמְנַע</he>; h. text <cite ref=\"C01379\"><he>גרע</he></cite>). ",
+						"<cite ref=\"Onkelos Exodus 9:29\">Ib. IX, 29</cite> (h. text <cite ref=\"H00198\"><he>חדל</he></cite>). ",
+						"<cite ref=\"Onkelos Deuteronomy 23:23\">Targ. Deut. XXIII, 23</cite> (O. ed. Vien. <he>תִתִּמְנַע</he>). ",
+						"<cite ref=\"Targum Jonathan on Judges 15:7\">Targ. Jud. XV, 7</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to restrain one’s self; to refuse, shrink</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 23:2\">Targ. Ex. XXIII, 2</cite>; a. e.—",
+						"<cite ref=\"Gittin 52b:7\">Gitt. 52ᵇ</cite> <he>אתי לאִימְּנוּעֵי</he> he might shrink (from becoming a guardian). Y. Sabb. VII, 9ᵇ bot. <he>לא מִתְמַנְעִין</he>, v. <cite ref=\"E00004\"><he>ה״א</he></cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

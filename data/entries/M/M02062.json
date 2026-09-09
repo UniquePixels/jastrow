@@ -1,0 +1,28 @@
+{
+	"id": "M02062",
+	"slug": "מעגל",
+	"headword": {
+		"text": "מַעֲגָל"
+	},
+	"page": {
+		"number": 813,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <i>the wagons surrounding the camp, ring</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 19\">Num. R. s. 19</cite>; <cite ref=\"Midrash Tehillim 7\">Midr. Till. to Ps. VII</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"M02060\"><he>מַעֲגִיל</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

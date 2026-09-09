@@ -1,0 +1,35 @@
+{
+	"id": "O01016",
+	"slug": "סלעא",
+	"headword": {
+		"text": "סִלְעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִי׳"
+		}
+	],
+	"page": {
+		"number": 996,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01015\">same</cite><i>Sela</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 30:13\">Targ. Ex. XXX, 13</cite> (h. text <he>שקל</he>); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:1:23\">Y. Kidd. I, 58ᵈ</cite> bot. <he>ס׳ ד׳ דינרין</he> one Sela has four Denars; a. fr.—Pl. <he>סַלְעִין</he>, <cite ref=\"O00662\"><he>סִלְ׳</he></cite>, <he>סִלְעַיָּא</he>, <cite ref=\"O00067\"><he>סִי׳</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 20:16\">Targ. Gen. XX, 16</cite>. Targ. Ex. l. c.; a. fr.—",
+				"<cite ref=\"Mishnah Bava Batra 10:2\">B. Bath. X, 2</cite> (<cite ref=\"Bava Batra 165b:17\">165ᵇ</cite>; v. Rabb. D. S. a. l. notes 6; <cite ref=\"Bava Batra 7a\">7</cite>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pl.</i> as ab. <i>scales</i> on the serpent. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 20:4\">Gen. R. s. 20</cite> <he>הלין ס׳ דביה וכ׳</he> (not <he>הדין</he>) those scales on the serpent are leprosy (v. <cite ref=\"O01015\">preced.</cite>); <cite ref=\"Shemot Rabbah 3:13\">Ex. R. s. 3</cite>; <cite ref=\"Yalkut Shimoni on Torah 30:2\">Yalk. Gen. 30</cite> (not <cite ref=\"T00088\"><he>רביה</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "I00363",
+	"slug": "טילא-1",
+	"headword": {
+		"text": "טִילָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 531,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00162\"><he>טול</he></cite>) <i>travel</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 29:1\">Targ. Y. Gen. XXIX, 1</cite> <he>לטִילָא</he> (perh. to be read <he>לטַיָּלָא</he>)."
+			]
+		}
+	]
+}

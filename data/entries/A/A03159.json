@@ -1,0 +1,23 @@
+{
+	"id": "A03159",
+	"slug": "ארכסא",
+	"headword": {
+		"text": "אַרְכְּסָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 122,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>רכס</he>) <i>thick, well-kneaded</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 43a:2\">Men. 43ᵃ</cite> <he>חמירא א׳</he> thick leaven of barley flour."
+			]
+		}
+	]
+}

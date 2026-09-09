@@ -1,0 +1,31 @@
+{
+	"id": "L00319",
+	"slug": "לוקיאני",
+	"headword": {
+		"text": "לַוְקְיָאנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "לַוְקְיָיא׳"
+		},
+		{
+			"text": "לַוְו׳"
+		}
+	],
+	"page": {
+		"number": 701,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (λευκόϊον) <i>a flower of the genus levcoium, snow-flakes</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 45b:3\">Bekh. 45ᵇ</cite> a man cried out, <he>מאן בעי ל׳ ואשתכח חיורי</he> (Rashi <he>לוקייני</he>; Ar. <he>לווקני</he>, v. <cite ref=\"L00320\">next w.</cite>) who wants to buy <i>levcoiums</i>?, and it was found to be white flowers (snow-flakes). [Rashi: <i>white lambs</i>.] V. <cite ref=\"L00322\"><he>לַוְקָן</he></cite>."
+			]
+		}
+	]
+}

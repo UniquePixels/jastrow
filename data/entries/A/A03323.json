@@ -1,0 +1,47 @@
+{
+	"id": "A03323",
+	"slug": "אשם-2",
+	"headword": {
+		"text": "אָשָׁם"
+	},
+	"page": {
+		"number": 129,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>guilt; guilt-offering, asham</i>, a special kind of offering.—<he>א׳ תלוי</he> (<cite ref=\"Leviticus 5:18\">Lev. V, 18</cite>) an <i>asham</i> to be offered when you are in doubt as to the commission of a sinful act. ",
+			"units": [
+				"<cite ref=\"Mishnah Keritot 3:1\">Kerith. III, 1</cite>; a. fr.; (ib. 17ᵇ differ. opin. as to the nature of the doubt). Ib. VI, 3 <he>אֲשַׁם חסידים</he> the <i>asham</i> offered by the over-scrupulous because they <i>may</i> have transgressed.—<he>א׳ ודאי</he> the <i>asham</i> for the undoubted commission of certain offenses, which are: "
+			],
+			"senses": [
+				{
+					"gloss": " <he>אֲ׳ גזילות</he> for illegal appropriation of private property (after pecuniary reparation; <cite ref=\"Leviticus 5:25\">Lev. V, 25</cite>); ",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <he>אֲ׳ מעילות</he> for misappropriation of sacred property (<cite ref=\"Leviticus 5:16\">Lev. V, 16</cite>); ",
+					"units": [],
+					"label": "b"
+				},
+				{
+					"gloss": " <he>אֲ׳ שפחה חרופה</he> for carnal connection with a slave betrothed to another man (<cite ref=\"Leviticus 19:21\">Lev. XIX, 21</cite>) ;—",
+					"units": [],
+					"label": "c"
+				},
+				{
+					"gloss": " <he>אֲ׳ נזיר</he> offering of a nazarite when interrupting the days of vowed nazaritism by levitical impurity (<cite ref=\"Numbers 6:12\">Num. VI, 12</cite>).—",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 1\">Deut. R. s. 1</cite>, beg. (alluding to <he>וַאֲשִׂמֵם</he> <cite ref=\"Deuteronomy 1:13\">Deut. I, 13</cite>) <he>וְאַשְׁמָם כתיב</he> it is so written that you may read <i>v’ashmam</i> (and their guilt); if you listen not to them <he>אשמה תלוי וכ׳</he> (read <he>אשמם</he>) their guilt shall fall upon your heads (you will be answerable for what offenses they may commit); differ. in <cite ref=\"Sifrei Devarim 13\">Sifré Deut. 13</cite>. [Our Bible editions, however, read <he>ואשימם</he>, <i>plene</i>.]—Pl. <he>אֲשָׁמוֹת</he>. ",
+						"<cite ref=\"Mishnah Keritot 6:4\">Kerith. VI, 4</cite>. Sifré l. c.; a. fr."
+					],
+					"label": "d"
+				}
+			]
+		}
+	]
+}

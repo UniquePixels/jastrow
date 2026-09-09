@@ -1,0 +1,48 @@
+{
+	"id": "A00634",
+	"slug": "אויר",
+	"headword": {
+		"text": "אָוִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲוִיר"
+		}
+	],
+	"page": {
+		"number": 24,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A00841\"><he>אור</he></cite>; cmp. <cite ref=\"T00615\"><he>רוּחַ</he></cite> a. <cite ref=\"T00343\"><he>רֶוַח</he></cite>); <i>space</i> corresp. to <cite ref=\"H01076\"><he>חָלָל</he></cite>, esp. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>open, empty space, blank</i>. Ohol. IV, 1 a tower <he>שעומד בא׳</he> standing isolated. Ib. XVIII, 10 <he>אוירָהּ של חצר</he> the open space in the court-yard.—",
+			"units": ["<cite ref=\"Bava Batra 163a\">B. Bath. 163ᵃ</cite>"],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. b. h. <he>מְאוּרָה</he>) <i>hollow, cavity of a vessel</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 2:1\">Kel. II, 1</cite> <he>מיתטמאין ומטמאין בא׳</he> become unclean and make unclean by contact with the hollow (of the vessel).—",
+				"<cite ref=\"Yevamot 67b:6\">Yeb. 67ᵇ</cite> <he>נפק לא׳ העולם</he> came forth into the lighted space of the world, i.e. was born; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. ἀήρ, aër) <i>air, atmosphere, climate, weather</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 14:12\">Num. R. s. 14</cite> <he>הא׳ שממנו וכ׳</he> (as one of the elements of nature) out of which the wind was made.—",
+				"<cite ref=\"Bereishit Rabbah 34:11\">Gen. R. s. 34</cite> <he>א׳ יפה</he> <i>fine weather</i>; a. fr.—Pl. <he>אֲוִירִין</he> <i>blank spaces in writings</i>. ",
+				"<cite ref=\"Bava Batra 163a:4\">B. Bath. 163ᵃ</cite>.—אֲוִירוֹת <i>climates</i>. ",
+				"<cite ref=\"Bereishit Rabbah 34:11\">Gen. R. s. 34</cite> <he>ברית נחלקה לא׳</he> a covenant has been made in favor of climates, i.e. God has implanted in man a love of his native soil even in bad climates."
+			],
+			"label": "3"
+		}
+	]
+}

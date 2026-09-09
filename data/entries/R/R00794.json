@@ -1,0 +1,31 @@
+{
+	"id": "R00794",
+	"slug": "צרעה",
+	"headword": {
+		"text": "צִרְעָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִי׳"
+		}
+	],
+	"page": {
+		"number": 1303,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"R00793\">preced.</cite> wds.) [<i>plague</i>,] <i>hornet</i> (collect. noun). Y. Sabb. XIV, beg. 14ᵃ <he>מותר להרוג את הצ׳ וכ׳</he> you may kill hornets on the Sabbath (because they are dangerous to life). Ib.; Bab. ",
+			"units": [
+				"<cite ref=\"Shabbat 121b:4\">Sabb. 121ᵇ</cite> <he>צ׳ שבנינוה</he>, v. <cite ref=\"N00693\"><he>נִינְוֵה</he></cite>. ",
+				"<cite ref=\"Midrash Tehillim 78:7\">Midr. Till. to Ps. LXXVIII, 45</cite> <he>וכן הצ׳ בימי וכ׳</he> the same was the case with the plague of hornets in Joshua’s days; <cite ref=\"Yalkut Shimoni on Nach 102\">Yalk. Sam. 102</cite>; a. e.—[<cite ref=\"Yalkut Shimoni on Torah 537:2\">Yalk. Lev. 537</cite> <he>יכול אף הצ׳</he>, read: <he>הצִיפָּה</he>.]—Pl. <he>צִרְעִים</he>, <he>צִרְעִין</he>, <he>צִרְעוֹת</he>. Yalk. Sam. l. c. <he>והיו שתי צ׳ קורעות וכ׳</he> two hornets split the stem &c.; Tanḥ. ",
+				"<cite ref=\"Exodus 18\">Mishp. 18</cite> <he>צִרְעָיוֹת</he>; ed. Bub. 12 <he>צרעות</he>. ",
+				"<cite ref=\"Mishnah Makhshirin 6:4\">Makhsh. VI, 4</cite> <he>דבש צ׳</he> hornets’ honey. ",
+				"<cite ref=\"Sotah 36a:10\">Sot. 36ᵃ</cite> <he>שתי צ׳ הואי וכ׳</he> there were two plagues of hornets, one in Moses’ days, and one in Joshua’s; a. e."
+			]
+		}
+	]
+}

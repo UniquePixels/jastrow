@@ -1,0 +1,28 @@
+{
+	"id": "Q00696",
+	"slug": "פיליא-1",
+	"headword": {
+		"text": "פִּילְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּלְ׳"
+		}
+	],
+	"page": {
+		"number": 1164,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Pilia</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 24:2\">Lev. R. s. 24</cite> <he>יודן בר פ׳</he>; <cite ref=\"Jerusalem Talmud Berakhot 9:5:5\">Y. Ber. IX, 14ᵇ</cite> <he>בן פילה</he>; <cite ref=\"Midrash Tehillim 101\">Midr. Till. to Ps. CI</cite> <cite ref=\"Q01058\"><he>פִּלְיָיא</he></cite> ed. Bub. (oth. ed. <cite ref=\"U00934\"><he>שילא</he></cite>, corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 5:2:2\">Y. Shebi. V, beg. 35ᵈ</cite> <he>פליא</he> Fr. M’bo, p. 95ᵇ (ed. Krot. <he>פדיא</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "M00073",
+	"slug": "מבגאי",
+	"headword": {
+		"text": "מַבְגַּאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַבְגַּיי"
+		}
+	],
+	"page": {
+		"number": 724,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Mabgay</i>, a Samaritan name. ",
+			"units": [
+				"<cite ref=\"Makkot 11a\">Macc. 11ᵃ</cite>; <cite ref=\"Bereishit Rabbah 80\">Gen. R. s. 80</cite> (<cite ref=\"M00106\"><he>מגבאי</he></cite>), v. <cite ref=\"C00574\"><he>גְּזַר</he></cite>.—",
+				"<cite ref=\"Eruvin 64b:6\">Erub. 64ᵇ</cite>; <cite ref=\"Tosefta Pesachim 1:27\">Tosef. Pes. I</cite> (<cite ref=\"Tosefta Pesachim 2:27\">II</cite>), 27 <he>מ׳ שמני</he> my name is M."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "B01155",
+	"slug": "בר-4",
+	"headword": {
+		"text": "בַּר",
+		"homograph": 3
+	},
+	"page": {
+		"number": 189,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>ברר</he>; v. <cite ref=\"B01156\"><he>בַּר</he> I</cite>)<i>clear, bright, clean, pure</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kilaim 3:6\">Tosef. Kil. III, 6</cite> (missing in ed. Zuckerm., v. Var. a. l.) <he>שהוא בר ובקי וכ׳</he> who is clear and well-versed in &c. ",
+				"<cite ref=\"Bamidbar Rabbah 10:22\">Num. R. s. 10</cite> (ref. to <cite ref=\"B01237\"><he>ברי</he></cite> <cite ref=\"Proverbs 31:2\">Prov. XXXI, 2</cite>, a. <he>בר</he> <cite ref=\"Psalms 2:12\">Ps. II, 12</cite>) the Law <he>שהיא נקראת בר</he> which is called <i>bar</i> (clear, pure, <cite ref=\"Psalms 19:9\">Ps. XIX, 9</cite>).—Pl. <cite ref=\"B01239\"><he>בָּרִים</he></cite>. ",
+				"<cite ref=\"Psalms 19:9\">Ib.</cite>"
+			]
+		}
+	]
+}

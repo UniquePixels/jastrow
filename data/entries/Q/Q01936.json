@@ -1,0 +1,23 @@
+{
+	"id": "Q01936",
+	"slug": "פרסנית",
+	"headword": {
+		"text": "פַּרְסָנִית"
+	},
+	"page": {
+		"number": 1234,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"Q01920\"><he>פַּרְסָה</he> II</cite>) <i>run-about</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 18:2\">Gen. R. s. 18</cite>, a. e., v. <cite ref=\"Q01589\"><he>פַּרְדָּנִית</he></cite>.—Pl. <he>פַּרְסָנִיּוֹת</he>. ",
+				"<cite ref=\"Bereishit Rabbah 45\">Gen. R. s. 45</cite> Ar. (ed. <he>יוצאניות</he>), v. <cite ref=\"J00225\"><he>יוֹצְאָנִית</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "C00899",
+	"slug": "גלויא",
+	"headword": {
+		"text": "גָּלוֹיָא"
+	},
+	"page": {
+		"number": 246,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00926\"><he>גלי</he></cite>) <i>exile, stranger</i>. Pl. <cite ref=\"C00900\"><he>גָּלוֹיֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 5:5\">Lev. R. s. 5</cite> <he>גלויא בר גלויי</he> Ar. (ed. <he>גלויי בר ג׳</he>, corr. acc.) thou stranger, son of strangers. Lam. R. introd. beg. <cite ref=\"C00895\"><he>גלוואי</he></cite>, read <he>גְּלוֹיָיאֵי</he> (Ar. <he>גְּלוֹלָאֵי</he>)."
+			]
+		}
+	]
+}

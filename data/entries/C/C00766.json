@@ -1,0 +1,50 @@
+{
+	"id": "C00766",
+	"slug": "גיניסיא",
+	"headword": {
+		"text": "גִּינִיסְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּינִיסִין"
+		},
+		{
+			"text": "גִּינוּ׳"
+		},
+		{
+			"text": "גְּנוּ׳"
+		}
+	],
+	"page": {
+		"number": 240,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (γενέσια, τὰ) ",
+			"units": []
+		},
+		{
+			"gloss": " (with <cite ref=\"J00194\"><he>יום</he></cite>) <i>bithday festival, anniversary of death;</i> in gen. <i>commemorative festival</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 3:8\">Targ. Esth. III, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 40:20\">Targ. Y. Gen. XL, 20</cite> <cite ref=\"C01114\"><he>גְּנוּסָא</he></cite> (v. <cite ref=\"C01145\"><he>גְּנִיסָא</he></cite> a. <cite ref=\"C01116\"><he>גְּנוּסַיָּיא</he></cite>).—",
+				"<cite ref=\"Mishnah Avodah Zarah 1:3\">Ab. Zar. I, 3</cite> (<cite ref=\"Avodah Zarah 8a:5\">8ᵃ</cite>) <he>יום ג׳ של מלכים</he> royal anniversaries, expl. Y. ib. 39ᶜ birthday festival (with ref. to <cite ref=\"Genesis 40:20\">Gen. XL, 20</cite>, v. supra); Bab. ib. 10ᵃ (after discussion) <he>יום שמעמידין בו המלך</he> installation of a king (Roman emperor). ",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 3:8:2\">Y. R. Hash. III, 59ᵃ</cite> top; Yalk. Hab. 564. ",
+				"<cite ref=\"Shemot Rabbah 15\">Ex. R. s. 15</cite> <he>יום ג׳</he> an anniversary (commemorative of his delivery); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= γενέθλια) <i>descent, nobility of birth</i>. Pesik. Naḥămu p. 126ᵃ; 126ᵇ; <cite ref=\"Yalkut Shimoni on Torah 162:3\">Yalk. Gen. 162</cite> <he>הודעתם ג׳ שלי</he> (<cite ref=\"Bereishit Rabbah 100:9\">Gen. R. s. 100</cite> <he>הודעתי הוגנוסים</he> corr. acc.) ye have made known my noble descent. Pesik. Haḥod. p. 53ᵃ <he>בת גִּינוּסִים</he>; <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>בת גינסין</he> (read <cite ref=\"C00766\"><he>גִּינִיסִין</he></cite>, <cite ref=\"Yalkut Shimoni on Torah 190\">Yalk. Ex. 190</cite> only <he>בת טובים</he>) a woman of noble birth. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:2\">Cant. R. to I, 2</cite>; a. fr. [<cite ref=\"Sotah 36b:19\">Sot. 36ᵇ</cite> <he>גְּנִיסֵי מלכות וכ׳</he> Ar. (ed. <he>גְּנוּנֵי</he>) I recognize in him royal nobility.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "B00565",
+	"slug": "ביזוע",
+	"headword": {
+		"text": "בִּיזּוּעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּזּ׳"
+		}
+	],
+	"page": {
+		"number": 160,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00459\"><he>בזע</he></cite>) <i>rending, rent</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joel 2:13\">Targ. Joel II, 13</cite>.—[<he>ביזועותא</he>, v. <cite ref=\"B00571\"><he>בִּיזְעָא</he></cite>.]"
+			]
+		}
+	]
+}

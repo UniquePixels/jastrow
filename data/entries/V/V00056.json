@@ -1,0 +1,28 @@
+{
+	"id": "V00056",
+	"slug": "תבלא-2",
+	"headword": {
+		"text": "תַּבְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּ׳"
+		}
+	],
+	"page": {
+		"number": 1644,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = b. h. <cite ref=\"V00054\"><he>תֶּבֶל</he></cite>, <i>unnatural act, defilement, abomination</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 18:23\">Targ. O. Lev. XVIII, 23</cite> <he>תַּ׳</he> ed. Berl. (oth. ed., a. Y. <cite ref=\"V00056\"><he>תִּ׳</he></cite>); ib. XX, 12. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 10:25\">Targ. Is. X, 25</cite> <cite ref=\"V00056\"><he>תִּ׳</he></cite>."
+			]
+		}
+	]
+}

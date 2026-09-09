@@ -1,0 +1,33 @@
+{
+	"id": "H01724",
+	"slug": "חרס-1",
+	"headword": {
+		"text": "חֶרֶס",
+		"homograph": 1
+	},
+	"page": {
+		"number": 504,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.  <cite ref=\"H01776\"><he>חֶרֶשׂ</he></cite>; <cite ref=\"H01727\"><he>חרס</he></cite> <i>to be rough; to scrape</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>common earthware</i>. <he>כלי ח׳</he> earthen vessel. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 3:1\">Kel. III, 1</cite> (ed. Dehr. <cite ref=\"H01777\"><he>חרש</he></cite>); a. v. fr.—",
+				"<cite ref=\"Mishnah Kelim 3:4\">Ib. 4</cite> <he>היה בה ח׳</he> if there remained of it a (sound) piece large enough to contain &c.—Tanḥ. Sh’laḥ. 1 (ref. to <cite ref=\"H01782\"><he>חֶרֶשׁ</he></cite>, <cite ref=\"Joshua 2:1\">Josh. II, 1</cite>) <he>קרי ביה ח׳</he> read it <i>ḥeres</i> (with earthware, in the disguise of potters); <cite ref=\"Bamidbar Rabbah 16:12\">Num. R. s. 16</cite>, beg. <cite ref=\"H01777\"><he>חרשׂ</he></cite>; a. fr.—Esp. (v. <cite ref=\"H01407\"><he>חַסְפָּא</he></cite>) <i>potsherd</i>. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 1:2:3\">Y. Ned. I, 37ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Nazir 1:1:6\">Y. Naz. I, beg. 51ᵃ</cite> <he>והתני … לא חספא</he> did not Bar K. say, <i>ḥeres</i> is a substitute for <i>ḥerem</i> (<cite ref=\"H01716\"><he>חֵרֶם</he></cite>)? now, does not this mean <i>a sherd</i> (which has no reference to anything forbidden either as sacred or as doomed to destruction)?; v. next w.—Pl. <he>חֲרָסִים</he>, <he>חֲרָסִין</he>. ",
+				"<cite ref=\"Mishnah Kelim 3:4\">Kel. III, 4</cite>. ",
+				"<cite ref=\"Mishnah Kelim 9:5\">Ib. IX, 5</cite> (Ar. <cite ref=\"H01789\"><he>חֲרָשִׂין</he></cite>); a. e.—",
+				"<cite ref=\"Chagigah 13b:2\">Ḥag. 13ᵇ</cite> (expl. <he>בזק</he>, <cite ref=\"Ezekiel 1:14\">Ez. I, 14</cite>) <he>כאור … מבין הח׳</he> like the flames from between the perforated earthen pieces (used in smelting gold)."
+			],
+			"label": "1"
+		}
+	]
+}

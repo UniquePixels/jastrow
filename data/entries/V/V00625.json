@@ -1,0 +1,51 @@
+{
+	"id": "V00625",
+	"slug": "תלת-1",
+	"headword": {
+		"text": "תַּלֵּת"
+	},
+	"page": {
+		"number": 1674,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"V00626\">next w.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to divide into three parts</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 19:3\">Targ. Deut. XIX, 3</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to do a third time</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 18:34\">Targ. I Kings XVIII, 34</cite>.—<i>Part. pass.</i> <he>מְתַלַּת</he>; f. <cite ref=\"M01018\"><he>מְתַלְּתָא</he></cite>; pl. <he>מְתַלְּתִין</he>; <he>מְתַלְּתַן</he> <i>divided into three, having three stories</i>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 42:3\">Targ. Ez. XLII, 3</cite>; <cite ref=\"Targum Jonathan on Ezekiel 42:6\">6</cite> (not <he>מִתַּ׳</he>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתַּלֵּית"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְּלֵית"],
+			"senses": [
+				{
+					"gloss": "<i>to be done a third time</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 27:26\">Targ. Y. Deut. XXVII, 26</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

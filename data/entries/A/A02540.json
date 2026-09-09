@@ -1,0 +1,34 @@
+{
+	"id": "A02540",
+	"slug": "אסקותא",
+	"headword": {
+		"text": "אַסָּקוּתָא"
+	},
+	"page": {
+		"number": 97,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>נסק</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>burning</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 1:29\">Targ. Y. Gen. I, 29</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>offering</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 30:14\">Targ. II Chr. XXX, 14</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

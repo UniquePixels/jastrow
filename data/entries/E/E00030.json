@@ -1,0 +1,33 @@
+{
+	"id": "E00030",
+	"slug": "הבהב-2",
+	"headword": {
+		"text": "הַבְהֵב"
+	},
+	"page": {
+		"number": 329,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"E00029\">same</cite>; part. pass. <he>מְהַבְהַב</he> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>glowing with passion, greedy</i>. <i>Pl. fem</i>. <he>מְהַבְהֲבָן</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 30:15\">Targ. Prov. XXX, 15</cite> ed. Lag. (ed. Wil. <he>הב הב</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>lightly roasted; rare</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 2:14\">Targ. Y. Lev. II, 14</cite> (h. text <he>קלוי</he>). ",
+				"<cite ref=\"Targum Jerusalem, Exodus 12:9\">Targ. Y. II, Ex. XII, 9</cite> (Y. I a. O. <he>כד חי</he>, h. text <cite ref=\"N00003\"><he>נא</he></cite>).—",
+				"<cite ref=\"Yalkut Shimoni on Torah 191:3\">Yalk. Ex. 191</cite> (symbolizing <cite ref=\"Exodus 12:9\">Ex. XII, 9</cite>), <he>לא תַבְעוּנָהּ מְהַבְהֲבָה</he> desire not to consume her (Rome) half-done (but well ripe for destruction); <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite>; Pesik. Haḥod. p. 56ᵇ (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

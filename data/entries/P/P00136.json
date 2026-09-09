@@ -1,0 +1,23 @@
+{
+	"id": "P00136",
+	"slug": "עדי-9",
+	"headword": {
+		"text": "עָדֵי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1044,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00131\"><he>עֲדֵי</he> I</cite>), sub <cite ref=\"N00255\"><he>נהורא</he></cite>, <i>passing light, flash</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Zechariah 14:6\">Targ. Zech. XIV, 6</cite> (some ed. <cite ref=\"P00132\"><he>עֲדִי</he></cite>; h. text <cite ref=\"J00586\"><he>יקרות</he></cite>, v. Rashi a. l.; Pesh. <he>עריא</he> <i>cold</i>, P. Sm. 2977).—V. <cite ref=\"P00132\"><he>עֲדִי</he> I</cite>.]"
+			]
+		}
+	]
+}

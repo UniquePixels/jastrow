@@ -1,0 +1,222 @@
+{
+	"id": "P00790",
+	"slug": "עלי-1",
+	"headword": {
+		"text": "עלי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָלָה"
+		}
+	],
+	"page": {
+		"number": 1081,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to go up, rise; to come up, arrive</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 8:3\">Pes. VIII, 3</cite> <he>מי שיַּעֲלֶה מכם וכ׳</he> whichever of you shall first arrive at Jerusalem (for the Passover), v. infra. ",
+				"<cite ref=\"Mishnah Sanhedrin 10:3\">Snh. X, 3</cite> <he>אינה עתידה לַעֲלוֹת</he> shall not rise (from the grave at the time of resurrection). ",
+				"<cite ref=\"Jerusalem Talmud Peah 5:5:3\">Y. Peah V, end, 19ᵃ</cite> (ref. to <he>גבול עולם</he>, <cite ref=\"Proverbs 22:28\">Prov. XXII, 28</cite>) <he>זו עוֹלֵי מצרים</he> this refers to those who came up from Egypt; <cite ref=\"Chagigah 3b:14\">Ḥag. 3ᵇ</cite>. ",
+				"<cite ref=\"Chagigah 3b:9\">Ib.</cite> <he>עולי בבל</he> those who came back from Babylonia. ",
+				"<cite ref=\"Berakhot 20a:7\">Ber. 20ᵃ</cite>, a. e. (ref. to <cite ref=\"Genesis 49:22\">Gen. XLIX, 22</cite>) <he>א״ת עֲלֵי עין אלא עוֹלֵי עין</he> read not <i>‘ăle ‘ayin</i>, but <i>‘ole ‘ayin</i>, those rising above the (evil) eye (whom the evil eye cannot affect). ",
+				"<cite ref=\"Sanhedrin 111a:12\">Snh. 111ᵃ</cite> <he>כשע׳ משה למרום</he> when Moses came up to heaven. ",
+				"<cite ref=\"Ketubot 61a:3\">Keth. 61ᵃ</cite> <he>עוֹלָה עמו וכ׳</he> she rises with him, but does not go down with him, i.e. the wife rises to the husband’s social position and can claim its comforts, if it be a higher one than her own, &c.; a. v. fr.—",
+				"<cite ref=\"Chullin 17b:3\">Ḥull. 17ᵇ</cite> <he>עוֹלֶה ויורד בסכין</he> a going up and down in a slaughtering knife, i.e. a curved blade.—<he>קרבן עולה ויורד</he>, v. <cite ref=\"J00597\"><he>יָרַד</he></cite>.—<he>עלה על דעת</he>, v. <cite ref=\"D00950\"><he>דַּעַת</he></cite>.—Esp. <i>to be put on the altar, be offered</i>. ",
+				"<cite ref=\"Mishnah Zevachim 9:1\">Zeb. IX, 1</cite> <he>אם עָלְתָה לא תרד</he> if it has been offered, it must not be taken down again. ",
+				"<cite ref=\"Mishnah Zevachim 9:2\">Ib. 2</cite>. ",
+				"<cite ref=\"Menachot 22b:1\">Men. 22ᵇ</cite> <he>מכאן לעוֹלִין שאינן מבטלין וכ׳</he> this proves that things which are offered up (e.g. blood of several sacrifices that has become mixed up) do not neutralize one another. ",
+				"<cite ref=\"Menachot 23a:9\">Ib. 23ᵃ</cite> <he>חיבורי עולין</he> that which is attached to things which go on the altar; a. fr.—Idiomatic uses: "
+			],
+			"senses": [
+				{
+					"gloss": " (sub. <he>לחשבון</he>) <i>to be counted in; to be accounted as</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Moed Katan 3:5\">M. Kat. III, 5</cite> <he>שבת עולה ואינה וכ׳</he> the Sabbath counts as one of the seven days of mourning, and does not discontinue the mourning, i.e. the mourning continues after the Sabbath; <he>רגלים מפסיקין ואינן עולין</he> festivals discontinue (the mourning begun before), but do not count, i.e. if the burial took place on a festive day, the mourning days begin after the festival. ",
+						"<cite ref=\"Pirkei Avot 4:13\">Ab. IV, 13</cite> <he>עוֹלָה זדון</he>, v. <cite ref=\"G00072\"><he>זָדוֹן</he></cite>. ",
+						"<cite ref=\"Mishnah Zevachim 1:3\">Zeb. I, 3</cite> <he>לא עָלוּ לבעלים משום חובה</he> the owners of the sacrifices are not credited with them as a compliance with their obligation; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>to rise in value; to be esteemed</i>. Ab. l. c. <he>וכתר שם טוב עוֹלֶה על גביהן</he> the crown of a good name is worth more than all of them; a. e.—",
+					"units": [],
+					"label": "b"
+				},
+				{
+					"gloss": " [<i>to rise on the scale, be outweighed</i>,] <i>to be void, be neutralized</i> (cmp. <cite ref=\"B00515\"><he>בָּטֵל</he></cite>). ",
+					"units": [
+						"<cite ref=\"Mishnah Terumot 4:7\">Ter. IV, 7</cite> <he>תרומה עולה באחד ומאה</he> T’rumah (mixed up in secular matter) is neutralized in one hundred and one (i.e. one against one hundred). ",
+						"<cite ref=\"Mishnah Terumot 4:11\">Ib. 11</cite> <he>תַּעֲלֶה באחד ומאה</he> is neutralized in &c.; <he>לא תעלה</he> is not neutralized. Ib. 13; a. fr.—"
+					],
+					"label": "c"
+				},
+				{
+					"gloss": " <he>ע׳ לרגל</he>, or <he>ע׳</he> <i>to go up</i> (to Jerusalem and the Temple) <i>for the festival</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 21a:3\">Yoma 21</cite> <he>בשעה שישראל עולין לרגל</he> when the Israelites were in the Temple on the festivals. ",
+						"<cite ref=\"Mishnah Chagigah 1:1\">Ḥag. I, 1</cite>. ",
+						"<cite ref=\"Chagigah 4a:9\">Ib. 4ᵃ</cite> <he>שאינן ראויין לעלות</he> who are not fit for the pilgrimage. ",
+						"<cite ref=\"Pesachim 8b:5\">Pes. 8ᵇ</cite>, a. e. <he>עוֹלֵי רגלים</he> pilgrims; a. fr.—"
+					],
+					"label": "d"
+				},
+				{
+					"gloss": " <he>ע׳ בידו</he> <i>to obtain, achieve</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 35b:8\">Ber. 35ᵇ</cite> <he>עָלְתָה בידן</he> they were successful. ",
+						"<cite ref=\"Nazir 23a:4\">Naz. 23ᵃ</cite> <he>מי שנתכוון לעלות בידו בשר חזיר וע׳ בידו בשר טלה</he> he who intended to obtain flesh of the swine, and happened to obtain mutton; a. fr."
+					],
+					"label": "e"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִילָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to elevate, exalt, praise</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 33b:5\">Sabb. 33ᵇ</cite> <he>יהודה שעי׳ יִתְעַלֶּה</he> Judah who elevated (praised the Roman government), shall be elevated (to high office). Y. Snh. X, 29ᶜ top <he>שעִילּוּ אותי וכ׳</he> who exalted me &c., v. <cite ref=\"G00030\"><he>זָבַח</he></cite>. ",
+						"<cite ref=\"Bereishit Rabbah 15:7\">Gen. R. s. 15</cite> (ref. to <he>וישם</he>, <cite ref=\"Genesis 2:8\">Gen. II, 8</cite>) <he>עי׳ אותו</he> God raised him (made him a dignitary, by analogy to <cite ref=\"Deuteronomy 17:15\">Deut. XVII, 15</cite>); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to prize, to acquire at the highest price, bid for</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 16:4\">Gen. R. s. 16</cite> (ref. to <he>ויקח</he>, <cite ref=\"Genesis 2:15\">Gen. II, 15</cite>) <he>עי׳ אותו</he> he acquired him (by analogy to <cite ref=\"Isaiah 14:2\">Is. XIV, 2</cite>; v. infra <i>Hithpa.</i>); Yalk. ib. 22. ",
+						"<cite ref=\"Bereishit Rabbah 40:5\">Gen. R. s. 40</cite> (ref. to <he>ויעלו</he>, <cite ref=\"Jeremiah 38:13\">Jer. XXXVIII, 13</cite>) <he>מְעַלִּין אותו</he> (or <he>מַעֲלִין</he>, <i>Hif.</i>) they bade for him."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶעֱלָה"],
+			"senses": [
+				{
+					"gloss": "<i>to raise, bring up</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Makhshirin 6:1\">Makhsh. VI, 1</cite> <he>המַעֲלֶה פירותיו וכ׳</he> if one carries his fruits up to the roof, v. <cite ref=\"K00852\"><he>כְּנִימָה</he></cite>; <cite ref=\"Tosefta Makhshirin 3:1\">Tosef. ib. III, 1</cite>. ",
+						"<cite ref=\"Pesikta Rabbati 26:1\">Pesik. R. s. 26</cite> <he>ובקושי הֶעֱלוּהוּ</he> and with hard work they brought him up (out of the pit); a. v. fr.—Esp. <i>to offer on the altar</i>. ",
+						"<cite ref=\"Mishnah Zevachim 14:3\">Zeb. XIV, 3</cite> <he>המַעֲלֶה מבשר וכ׳</he> he who offers parts of the flesh of a sin offering &c. ",
+						"<cite ref=\"Mishnah Zevachim 13:1\">Ib. XIII, 1</cite> <he>שחט בפנים וה׳ בחוץ</he> if he slaughtered a sacrifice within the Temple precincts, and offered it without; a. v. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to raise, promote to a higher dignity</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 20b:8\">Yoma 20ᵇ</cite>, a. fr. <he>מַעֲלִין בקדש ולא מורידין</he> we may promote (a person or thing) to a higher grade of sanctity, but must not degrade. ",
+						"<cite ref=\"Tosefta Nedarim 6:5\">Tosef. Ned. VI, 5</cite> <he>שמעלה … מטומאתן</he> which raises (relieves) the unclean from their uncleanness; <cite ref=\"Nedarim 75b:6\">Ned. 75ᵇ</cite>; Y. ib. X, 42ᵃ; a. fr.—<he>לא מעלה ולא מוריד</he>, v. <cite ref=\"J00597\"><he>יָרַד</he></cite>.—Idiomatic uses: "
+					],
+					"label": "2",
+					"senses": [
+						{
+							"gloss": " <i>to cause to go up from the reader’s place</i> (which was low, v. <cite ref=\"V00409\"><he>תֵּיבה</he></cite>); <i>to remove, discharge</i>. ",
+							"units": [
+								"<cite ref=\"Berakhot 29a:1\">Ber. 29ᵃ</cite> <he>ולא הָעֱלוּהוּ</he> and they did not remove him. ",
+								"<cite ref=\"Berakhot 29a:2\">Ib.</cite> <he>טעה … מעלין אותו</he> if a reader makes a mistake in the twelfth section of the T’fillah (v. <cite ref=\"M01208\"><he>מִין</he> III</cite>), he must be removed; a. fr.—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " (v. Kal, ",
+							"units": [],
+							"label": "b"
+						},
+						{
+							"gloss": " <i>to neutralize</i>. ",
+							"units": [
+								"<cite ref=\"Mishnah Terumot 4:8\">Ter. IV, 8</cite> <he>תאנים שחורות מַעֲלוֹת וכ׳</he> black figs help to neutralize in conjunction with white ones, i.e. the black and the white secular figs are counted together against the admixture of figs of T’rumah whether black or white; a. fr.—<i>c</i>) (v. Kal, a) <i>to account, credit</i> or <i>charge</i>. ",
+								"<cite ref=\"Bava Metzia 69b:13\">B. Mets. 69ᵇ</cite> <he>אני אעלה לך סלע וכ׳</he> I will give thee credit for one Sela each month (as a compensation for the use of the cow). ",
+								"<cite ref=\"Pirkei Avot 2:2\">Ab. II, 2</cite> <he>מעלה אני עליכם וכ׳</he> I (the Lord) shall credit you with a large reward, just as if you had accomplished (the good you had intended to do). ",
+								"<cite ref=\"Pirkei Avot 3:7\">Ib. III, 7</cite>, sq. <he>מעלה עליו הכתוב כאילו וכ׳</he> the Bible text (the Lord) charges him as if he had endangered his life (v. <cite ref=\"H00231\"><he>חוּב</he></cite>). ",
+								"<cite ref=\"Yoma 81b:9\">Yoma 81ᵇ</cite> <he>מעלה עליו הכתוב כאילו וכ׳</he> it is accounted to his credit, as if he had fasted on the ninth and the tenth; a. fr.—"
+							],
+							"label": "c"
+						},
+						{
+							"gloss": " (v. Kal, ",
+							"units": [],
+							"label": "d"
+						},
+						{
+							"gloss": " <i>to succeed, profit</i>. ",
+							"units": [
+								"<cite ref=\"Sanhedrin 90b:16\">Snh. 90ᵇ</cite> <he>הֶעֱלֵיתֶם בידכם</he>, v. <cite ref=\"J00485\"><he>יָעַל</he></cite>.—"
+							],
+							"label": "e"
+						},
+						{
+							"gloss": " <he>ה׳ חן</he> <i>to effect grace; to find favor</i>. ",
+							"units": [
+								"<cite ref=\"Bereishit Rabbah 9\">Gen. R. s. 9</cite> <he>הלואי תהא מַעֲלַת חן לפני</he> … <he>כשם שהֶעֱלִית וכ׳</he> Oh, that thou wouldst find favor before me (please me) at all times, as thou dost now; a. e.—"
+							],
+							"label": "f"
+						},
+						{
+							"gloss": " <he>ה׳ חֵמָה</he> [<i>to let anger rise</i>,] <i>to become angry</i>. ",
+							"units": [
+								"<cite ref=\"Bereishit Rabbah 93:6\">Gen. R. s. 93</cite> <he>בשעה שהיה יהודה מעלה ח׳ וכ׳</he> whenever Judah got angry, the hair &c.; a. e.—"
+							],
+							"label": "g"
+						},
+						{
+							"gloss": " (with or sub. <cite ref=\"A03028\"><he>ארוכה</he></cite>) <i>to heal up</i>. ",
+							"units": [
+								"<cite ref=\"Chullin 77a:1\">Ḥull. 77ᵃ</cite>, v. <cite ref=\"A03029\"><he>אֲרוּכָה</he> II</cite>. ",
+								"<cite ref=\"Mishnah Sheviit 4:6\">Shebi. IV, 6</cite> <he>לא שיַעֲלֶה</he>, v. <cite ref=\"Q02061\"><he>פָּשַׁח</he></cite>; a. fr."
+							],
+							"label": "h"
+						}
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נַעֲלָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be removed, withdraw</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Yoma 1:12\">Tosef. Yoma I, 12</cite> <he>בעון … שכינה נַעֲלַת</he> through the sin of bloodshed has the Divine Presence withdrawn (Sifré Num. 161 <he>מסתלקת</he>)."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְעַלֶּה"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְעַלֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be raised, exalted</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 33b:1\">Sabb. 33ᵇ</cite>, v. supra; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be raised in price, to be bargained for at auction</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 40\">Gen. R. s. 40</cite>, end (ref. to <he>וַתֻּקַּח</he>, <cite ref=\"Genesis 12:15\">Gen. XII, 15</cite>) <he>מִתְעַלָּה והולכת חד וכ׳</he> higher and higher prices were offered for her; one said, I give &c.; <cite ref=\"Esther Rabbah 6:10\">Esth. R. to II, 16</cite> (ref. to <he>ותלקח</he>, <cite ref=\"Esther Rabbah 6:10\">ib.</cite>) <he>מתעלה בליקוחין</he>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

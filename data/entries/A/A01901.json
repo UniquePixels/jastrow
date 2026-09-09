@@ -1,0 +1,28 @@
+{
+	"id": "A01901",
+	"slug": "אללא",
+	"headword": {
+		"text": "אַלְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּלְלָא"
+		}
+	],
+	"page": {
+		"number": 71,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A01899\"><he>אֲלַל</he></cite>; cmp. b. h. <cite ref=\"D01094\"><he>דָּרַךְ</he></cite>) <i>treading the wine or olive press; quantity put into the press at a time</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 105a:15\">B. Mets. 105ᵃ</cite> <he>הא באתרא</he> … <he>בא׳</he> Ar. (ed. <cite ref=\"A01338\"><he>או׳</he></cite>) the one Rabbi treats of a place where they ordinarily put one <i>khor</i> (measure) into the press at a time, &c. ",
+				"<cite ref=\"Esther Rabbah 1:10\">Esth. R. to I, 2</cite> (referring to Esth. l. c., and <cite ref=\"Nehemiah 13:15\">Neh. XIII, 15</cite> ‘in those days’; play on <i>al’la</i> a. <i>al’lay;</i> v. <cite ref=\"A01902\">next w.</cite>) <he>א׳ וּוַי וכ׳</he> ‘<i>wine pressing</i>’ (on Sabbath, Neh. l. c.) and ‘woe’ (persecution as punishment) were those days marked for."
+			]
+		}
+	]
+}

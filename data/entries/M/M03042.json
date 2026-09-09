@@ -1,0 +1,23 @@
+{
+	"id": "M03042",
+	"slug": "מתחלא",
+	"headword": {
+		"text": "מַתְחֲלָא"
+	},
+	"page": {
+		"number": 861,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00367\"><he>תְּחַל</he></cite>; cmp. <cite ref=\"V00184\"><he>תּוּחְלָא</he></cite>) <i>the calyx surrounding the date in its early stage</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 77b\">Keth. 77ᵇ</cite>.—Pl. <he>מַתְחֲלֵי</he>. ",
+				"<cite ref=\"Pesachim 52b:9\">Pes. 52ᵇ</cite>; <cite ref=\"Berakhot 36b:7\">Ber. 36ᵇ</cite>, v. <cite ref=\"U00454\"><he>שׁוֹמֵר</he></cite>."
+			]
+		}
+	]
+}

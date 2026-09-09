@@ -1,0 +1,27 @@
+{
+	"id": "C00928",
+	"slug": "גלי-3",
+	"headword": {
+		"text": "גְּלַי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּלַאי"
+		}
+	],
+	"page": {
+		"number": 248,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00926\"><he>גלי</he></cite>, cmp. <cite ref=\"C00726\"><he>גִּילְהֵי</he></cite>) <i>flash</i>. <he>בִּגְ׳</he> <i>as a flash, suddenly, rapidly</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 41:2\">Targ. Is. XLI, 2</cite>; <cite ref=\"Targum Jonathan on Isaiah 41:25\">25</cite>; <cite ref=\"Targum Jonathan on Hosea 11:11\">Targ. Hos. XI, 11</cite>."
+			]
+		}
+	]
+}

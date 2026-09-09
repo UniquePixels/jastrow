@@ -1,0 +1,27 @@
+{
+	"id": "H00352",
+	"slug": "חוליץ",
+	"headword": {
+		"text": "חוֹלֵיץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוֹלֵץ"
+		}
+	],
+	"page": {
+		"number": 434,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01109\"><he>חָלַץ</he></cite>) <i>tongs</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 4:5\">Tosef. Kel. B. Mets. IV, 5</cite> [read:] <he>ח׳ של נגר … המסמרים</he> the carpenter’s tongs with which he pulls nails."
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "M02651",
+	"slug": "מרי-2",
+	"headword": {
+		"text": "מרי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "מָרָא"
+		}
+	],
+	"page": {
+		"number": 841,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be strong, fat</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִמְרִיא"],
+			"senses": [
+				{
+					"gloss": "<i>to fatten, stuff</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 24:3\">Sabb. XXIV, 3</cite> (<cite ref=\"Shabbat 155b:12\">155ᵇ</cite>) <he>אין מַמְרִים וכ׳</he> (Y. ed. <he>מַמְרִין</he>; Bab. ed. <he>מאמירין</he>, v. <cite ref=\"A02062\"><he>אָמַר</he> II</cite>) you must not stuff calves (on the Sabbath), v. <cite ref=\"E00640\"><he>הַמְרָאָה</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

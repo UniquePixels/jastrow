@@ -1,0 +1,26 @@
+{
+	"id": "S00007",
+	"slug": "קאי",
+	"headword": {
+		"text": "קָאֵי"
+	},
+	"page": {
+		"number": 1306,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (abbrev. of <cite ref=\"S00009\"><he>קָאֵים</he></cite>) <i>standing</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 24:13\">Targ. Y. Gen. XXIV, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 24:16\">Targ. Prov. XXIV, 16</cite>; a. e.—",
+				"<cite ref=\"Berakhot 2a:6\">Ber. 2ᵃ</cite> <he>תנא היכא ק׳ דקתני וכ׳</he> where is the teacher of the Mishnah (<cite ref=\"Mishnah Taanit 1:1\">Taan. I, 1</cite>) standing (what does he refer to), when he says, ‘From what time does the duty of reading the Sh’mʿa begin’? <cite ref=\"Mishnah Taanit 1:1\">Ib.</cite> <he>תנא אקרא ק׳</he> the teacher has in his mind the Biblical text (<cite ref=\"Deuteronomy 6:7\">Deut. VI, 7</cite>). ",
+				"<cite ref=\"Taanit 2a:4\">Taan. 2ᵃ</cite> <he>תנא התם ק׳ דקתני וכ׳</he> the teacher refers to what has been taught there (<cite ref=\"Mishnah Berakhot 5:2\">Ber. V, 2</cite>) &c. ",
+				"<cite ref=\"Pesachim 43b:4\">Pes. 43ᵇ</cite> <he>מסתברא ק׳ באוכלין … ק׳ באוכלין מרבה נאכלין</he> it stands to reason, where the text speaks of eaters (‘thou must’ or ‘must not eat’), you extend its scope to eaters, but when the text speaks of eaters, would you extend its scope to things to be (or not to be) eaten?; a. v. fr."
+			]
+		}
+	]
+}

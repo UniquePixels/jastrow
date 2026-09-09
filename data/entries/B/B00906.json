@@ -1,0 +1,23 @@
+{
+	"id": "B00906",
+	"slug": "בלצא",
+	"headword": {
+		"text": "בַּלְצָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 175,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Baltsa</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 29:9\">Ex. R. s. 29</cite> <he>שאל ב׳ את ר׳ עקיבא</he> [prob. to be be read <he>אל׳ ז״ל</he> = <he>אליהו ז״ל</he>, cmp. Y. Ber. IX, 13ᶜ; <cite ref=\"Midrash Tehillim 18\">Midr. Till. to Ps. XVIII</cite>; <cite ref=\"Midrash Tehillim 104\">CIV</cite> end]."
+			]
+		}
+	]
+}

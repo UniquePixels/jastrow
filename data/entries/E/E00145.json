@@ -1,0 +1,29 @@
+{
+	"id": "E00145",
+	"slug": "הדק-2",
+	"headword": {
+		"text": "הָדַק"
+	},
+	"page": {
+		"number": 334,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"D01014\"><he>הִידֵּק</he></cite>, <i>to squeeze</i>, v. <cite ref=\"H00205\"><he>חָדַק</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

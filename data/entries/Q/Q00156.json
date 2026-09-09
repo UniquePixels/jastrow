@@ -1,0 +1,23 @@
+{
+	"id": "Q00156",
+	"slug": "פוגה",
+	"headword": {
+		"text": "פּוּגָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1139,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>פוגת</he>; <cite ref=\"Q00152\"><he>פּוּג</he></cite>) , <he>פּוּגַת נפש</he> <i>relaxation, recreation</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei DeRabbi Eliezer 33\">Pirké d’R. El. ch. XXXIII</cite> <he>ויצא לפ׳ נ׳ וכ׳</he> he went out to look at the harvesters as a recreation."
+			]
+		}
+	]
+}

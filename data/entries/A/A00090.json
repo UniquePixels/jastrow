@@ -1,0 +1,24 @@
+{
+	"id": "A00090",
+	"slug": "אבטולמוס",
+	"headword": {
+		"text": "אַבְטוֹלְמוֹס"
+	},
+	"page": {
+		"number": 4,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (prob. Πτολεμαῖος, or Εὐπτόλεμος = Εὐπόλεμος) <i>Abtolmos</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 3:4\">Erub. III, 4</cite> (<cite ref=\"Eruvin 35a:13\">35ᵃ</cite>) ed. (Ms. M. <he>אבטולס</he>). Ib. 36ᵃ; Y. ib. 21ᵃ bot. <he>אבטילס</he> (v. Rabb. D. S. Erub. l. c., notes). ",
+				"<cite ref=\"Shemot Rabbah 21\">Ex. R. s. 21</cite> (<he>אבטלוס</he>) <cite ref=\"A00089\"><he>אבטוליס</he></cite>.—",
+				"<cite ref=\"Moed Katan 18a:11\">M. Kat. 18ᵃ</cite> <he>אֲבִיטוּל</he> (prob. abbrev. of our w.), surnamed <he>ספראה</he> (v. Rabb. D. S. a. l.), an Amora."
+			]
+		}
+	]
+}

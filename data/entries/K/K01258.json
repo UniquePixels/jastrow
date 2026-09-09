@@ -1,0 +1,65 @@
+{
+	"id": "K01258",
+	"slug": "כרע-2",
+	"headword": {
+		"text": "כְּרַע"
+	},
+	"page": {
+		"number": 673,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K01257\">same</cite><i>to bow, bend the knee</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 24:26\">Targ. O. Gen. XXIV, 26</cite> (Y. <he>גחן</he>). Targ. II Esth. III, 2; a. e.—Y. Ber. II, 5ᵃ bot. <he>הוא כ׳ מגרמיה</he> it (the head) bowed spontaneously. "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of the balance) <i>to sink, outweigh</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 1:15\">Targ. Y. Ex. I, 15</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to decide by majority</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 25:1\">Targ. Y. Deut. XXV, 1</cite> (v. ",
+				"<cite ref=\"Sanhedrin 10a\">Snh. 10ᵃ</cite>)."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַכְרַע"],
+			"senses": [
+				{
+					"gloss": "<i>to sadden</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 11:35\">Targ. Jud. XI, 35</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to weigh</i>. Pesik. B’shall., p. 82ᵃ <he>באכרעתא דאַכְרְעוּן וכ׳</he>, v. <cite ref=\"A01758\"><he>אַכְרַעְתָּא</he></cite>.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְכְּרע"],
+			"senses": [
+				{
+					"gloss": "<i>to be weighed</i>. Ib.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

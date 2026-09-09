@@ -1,0 +1,32 @@
+{
+	"id": "J00061",
+	"slug": "יבם-4",
+	"headword": {
+		"text": "יָבָם",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "יָי׳"
+		},
+		{
+			"text": "יַבְמָא"
+		},
+		{
+			"text": "יְבִימָא"
+		}
+	],
+	"page": {
+		"number": 561,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h. <cite ref=\"J00058\"><he>יָבָם</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 27:4\">Targ. Y. Num. XXVII, 4</cite> <he>נטרא י׳</he> (= h. <he>שומרת יבם</he>), v. <cite ref=\"J00058\"><he>יָבָם</he></cite> h.—",
+				"<cite ref=\"Onkelos Deuteronomy 25:5\">Targ. Deut. XXV, 5</cite>. Y. ib. 9 (<cite ref=\"J00042\"><he>יְבִימָה</he></cite>) <cite ref=\"J00042\"><he>יְבִימָא</he></cite>; a. e."
+			]
+		}
+	]
+}

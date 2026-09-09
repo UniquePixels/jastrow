@@ -1,0 +1,36 @@
+{
+	"id": "B00612",
+	"slug": "ביל-2",
+	"headword": {
+		"text": "בִּיל"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּל"
+		}
+	],
+	"page": {
+		"number": 161,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (cmp. b. h. <cite ref=\"B00880\"><he>בָּלַל</he></cite>) <i>to mix, knead;</i> trnsf. (cmp. <cite ref=\"C01373\"><he>גרס</he></cite>, <he>דרש</he>) <i>to study thoroughly</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 65a:3\">Men. 65ᵃ</cite> (play on <he>בלשן</he>, <cite ref=\"Nehemiah 7:7\">Neh. VII, 7</cite>; cmp. <he>בלשׁ</he>) <he>הוה בָּיֵיל … ודריש</he> he studied languages and explained them."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּיֵּיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"B00611\">same</cite>; trnsf. <i>to discuss</i>. Y. Ab. Zar. III, 43ᵃ <he>מאן דתני אוֹבִיל נייבל</he> (read <he>נְבַיֵּיל</he>) he who reads in the Mish. (III, 5; v. <cite ref=\"B00635\"><he>בִּין</he></cite> Hif.) <i>obil</i>, means, Let us discuss the subject.",
+					"units": []
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

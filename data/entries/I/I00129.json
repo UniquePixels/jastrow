@@ -1,0 +1,28 @@
+{
+	"id": "I00129",
+	"slug": "טווזיג",
+	"headword": {
+		"text": "טַוְוזִיג",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "טַּוְזִ׳"
+		}
+	],
+	"page": {
+		"number": 522,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>טַב זִיג</he>, v. <cite ref=\"G00124\"><he>זוֹגָא</he></cite>) <i>merry company, picnic of young men</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 14a:11\">Ab. Zar. 14ᵃ</cite> <he>בט׳</he> (Ms. M. <he>בטווזא</he>) ‘the son’s feast’ of which R. Judah speaks (<cite ref=\"Tosefta Avodah Zarah 1:21\">Tosef. ib. I, 21</cite>) means a picnic (not a wedding). [Perles Et. St. p. 11 refers to Pers. <i>ṭ</i><i>ûz</i><i>͗</i><i>i.ṭuśi</i>, Arab. <he>תוזיע̇</he>.]"
+			]
+		}
+	]
+}

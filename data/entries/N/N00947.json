@@ -1,0 +1,57 @@
+{
+	"id": "N00947",
+	"slug": "נסך-2",
+	"headword": {
+		"text": "נְסַךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְסֵיךְ"
+		}
+	],
+	"page": {
+		"number": 917,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00946\">same</cite>, esp. <i>to offer a libation</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 4:15\">Targ. Cant. IV, 15</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַסֵּךְ", "נַסֵּיךְ"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"N00946\">preced.</cite> <i>Pi.</i> ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 30:9\">Targ. Ex. XXX, 9</cite>; a. fr.—",
+						"<cite ref=\"Shabbat 41a:3\">Sabb. 41ᵃ</cite> <he>לא מְנַסְּכֵי</he> they will not take the time to manipulate &c., v. <cite ref=\"N00946\">preced.</cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְנַסַּךְ"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִינְּסִיךְ"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"N00946\">preced.</cite> <i>Hithpa.</i> ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 28:7\">Targ. Num. XXVIII, 7</cite>; a. e.—",
+						"<cite ref=\"Avodah Zarah 71b:6\">Ab. Zar. 71ᵇ</cite> <he>קמא קמא אינ׳ ליה</he> every drop as it comes out becomes forbidden."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

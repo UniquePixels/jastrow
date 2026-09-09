@@ -1,0 +1,29 @@
+{
+	"id": "G00055",
+	"slug": "זגא-1",
+	"headword": {
+		"text": "זַגָּא"
+	},
+	"page": {
+		"number": 380,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00054\">same</cite><i>husk</i> or <i>kernel and flesh</i> of one berry, v. preced.—Pl. <he>זַגִּין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 6:4\">Targ. Y. Num. VI, 4</cite> <he>ז׳ גוואין וכ׳</he> the interior <i>zaggin</i>, v. <cite ref=\"G00054\">preced.</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bell</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:34\">Targ. O. Ex. XXVIII, 34</cite>; a. e.—Pl. <he>זַגִּין</he>, <he>זַגַּיָּא</he>, <cite ref=\"G00064\"><he>זַגֵּי</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 28:33\">Ib. 33</cite>; <cite ref=\"Onkelos Exodus 39:25\">XXXIX, 25</cite>.—",
+				"<cite ref=\"Niddah 17a:8\">Nidd. 17ᵃ</cite> <he>מקרקש זגי וכ׳</he> made the bells of his curtains ring; [Ar. <he>מק׳ גַּזֵּי</he> chased the <i>flies</i>, v. <cite ref=\"H00145\"><he>חִגְזִין</he></cite>]."
+			],
+			"label": "2"
+		}
+	]
+}

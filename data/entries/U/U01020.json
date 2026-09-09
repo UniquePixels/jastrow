@@ -1,0 +1,25 @@
+{
+	"id": "U01020",
+	"slug": "שיפועא",
+	"headword": {
+		"text": "שִׁיפּוּעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁפּ׳"
+		}
+	],
+	"page": {
+		"number": 1566,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01019\">same</cite>, <i>slant, slope</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 26:12\">Targ. Y. I Ex. XXVI, 12</cite> <cite ref=\"U01019\"><he>שיפוע</he></cite>, constr. (Y. II <he>שיפועה</he>, corr. acc.; h. text <cite ref=\"O01569\"><he>סרח</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 4:49\">Targ. Y. Deut. IV, 49</cite> Ar. (ed. <he>משפך</he>; h. text <he>אשדת</he>)."
+			]
+		}
+	]
+}

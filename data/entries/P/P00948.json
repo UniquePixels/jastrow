@@ -1,0 +1,55 @@
+{
+	"id": "P00948",
+	"slug": "ענג-1",
+	"headword": {
+		"text": "עָנַג"
+	},
+	"page": {
+		"number": 1091,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be pliable, soft, tender</i>.—[<cite ref=\"Bava Kamma 80a\">B. Kam. 80ᵃ</cite> <he>הענוגה</he> Ar. s. v. <he>ענג</he> 2, mistaken reading for <he>העגונה</he>, v. <cite ref=\"P00105\"><he>עָגַן</he></cite>.]—Denom. <cite ref=\"P00293\"><he>עוֹנֶג</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִנֵּג"],
+			"senses": [
+				{
+					"gloss": "<i>to soften</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Ma'aser Sheni 2:1\">Tosef. Maas. Sh. II, 1</cite>; <cite ref=\"Tosefta Terumot 10:4\">Tosef. Ter. X, 4</cite> <he>מְענֶּגֶת שערה וכ׳</he> (Var. <he>מעגנת</he>, <he>מעגלת</he>, v. <cite ref=\"P00105\"><he>עָגַן</he></cite>, <cite ref=\"P00089\"><he>עָגַל</he></cite>) she may soften her hair by pressing it against her (the priest’s daughter’s) hair."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"P00293\"><he>עוֹנֶג</he></cite>, with ref. to <cite ref=\"Isaiah 58:13\">Is. LVIII, 13</cite>, ‘and callest the Sabbath a delight’) <i>to celebrate pleasurably, to enjoy</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 118b:2\">Sabb. 118ᵇ</cite> <he>כל המְעַנֵּג את השבת וכ׳</he> to him who observes the Sabbath with enjoyments, his heart’s desires are granted. ",
+						"<cite ref=\"Shabbat 118b:2\">Ib.</cite> <he>במה מְעַנְּגוֹ</he> wherewith does one make it enjoyable? Tanḥ. ",
+						"<cite ref=\"Genesis 2\">B’resh. 2</cite> <he>עַנְּגֵהוּ</he> enjoy it (the Sabbath). ",
+						"<cite ref=\"Pesikta Rabbati 23\">Pesik. R. s. 23</cite>, end <he>ובשבת הם באים ומְעַנְּגִים</he> (prob. to be read: <he>ומִתְעַנְּגִים</he>) and on the Sabbath they come and enjoy themselves."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְעַנֵּג"],
+			"senses": [
+				{
+					"gloss": "<i>to enjoy one’s self; to indulge in luxuries</i>. Ib. <he>כל שהוא מִתְעַנֵּג בשבת שואל וכ׳</he> whoever enjoys the Sabbath may ask, and the Lord will grant (v. supra). ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 149:1-3\">Midr. Till. to Ps. CXLIX</cite> <he>בא … הצדיקים מִתְעַנְּגִים</he> come and see how the righteous enjoy luxuries (in the hereafter). ",
+						"<cite ref=\"Midrash Tehillim 149:3\">Ib.</cite> <he>והם מתענגים ואומרים וכ׳</he> and they act like persons used to comforts, saying, it is impossible to sleep in this bed &c.; a. e.—[<cite ref=\"Devarim Rabbah 7\">Deut. R. s. 7</cite>, end <he>היו מתענגים וכ׳</he> they enjoyed themselves by rolling in the flavored grass; prob. to be read: <he>מִתְעַגְּגִים</he> fr. <cite ref=\"P00079\"><he>עגג</he></cite>, v. <cite ref=\"C01182\"><he>גִּעְגֵּעַ</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

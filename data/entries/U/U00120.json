@@ -1,0 +1,22 @@
+{
+	"id": "U00120",
+	"slug": "שביט",
+	"headword": {
+		"text": "שְׁבִיט"
+	},
+	"page": {
+		"number": 1513,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"U00105\"><he>שְׁבַט</he></cite>) <i>rod;</i> <he>ככבא דש׳</he> <i>shooting star</i> or <i>comet</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 58b\">Ber. 58ᵇ</cite>, v. <cite ref=\"G00403\"><he>זֵיק</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "A03280",
+	"slug": "אשזון",
+	"headword": {
+		"text": "אַשְׁזוֹן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 127,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שזא</he>, cmp. <he>שדא</he> a. <cite ref=\"A03262\"><he>אשד</he></cite>) <i>winnowing</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 35:16\">Targ. Y. I Gen. XXXV, 16</cite> there was yet <he>סוגעי א׳ עללתא וכ׳</he> (comment. to Targ. Y. a. l. reads <cite ref=\"A03268\"><he>אשוון</he></cite>) much winnowing of the produces of the land &c. (h. text <he>כברת</he>, cmp. ",
+				"<cite ref=\"Bereishit Rabbah 82\">Gen. R. s. 82</cite>, a. ",
+				"<cite ref=\"Pesikta Rabbati 3:1\">Pesik. R. s. 3</cite>, explaining Gen. l. c.). [Targ. Y. II <he>כרוב וכ׳</he>; <cite ref=\"Targum Jonathan on Genesis 48:7\">Targ. Y. Gen. XLVIII, 7</cite> <he>בעוד סוגעי ארעא וכ׳</he>.]"
+			]
+		}
+	]
+}

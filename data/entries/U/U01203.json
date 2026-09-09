@@ -1,0 +1,23 @@
+{
+	"id": "U01203",
+	"slug": "שלבוקין",
+	"headword": {
+		"text": "שַׁלְבּוּקִין"
+	},
+	"page": {
+		"number": 1577,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"U01206\"><he>שִׁלְבֵּק</he></cite>) <i>pustules</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 9:9\">Targ. Y. II, Ex. IX, 9</cite>, sq. (Y. I <cite ref=\"U01377\"><he>שַׁלְפּוּקִין</he></cite>)."
+			]
+		}
+	]
+}

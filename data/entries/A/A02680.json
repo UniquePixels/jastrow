@@ -1,0 +1,33 @@
+{
+	"id": "A02680",
+	"slug": "אפיין",
+	"headword": {
+		"text": "אַפְיָין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַפְיָאן"
+		},
+		{
+			"text": "עַפְיָאן"
+		},
+		{
+			"text": "עַפְיָין"
+		}
+	],
+	"page": {
+		"number": 103,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A02666\"><he>אפי</he></cite>) <i>bake-fish</i> (cmp. <cite ref=\"O00330\"><he>סולתנות</he></cite>), a small fish believed to grow scales when reaching a certain age. ",
+			"units": [
+				"<cite ref=\"Chullin 66a\">Ḥull. 66ᵃ</cite> bot. Ar. <cite ref=\"A02680\"><he>אפיין</he></cite> (ed. <he>עפיאן</he>); <cite ref=\"Avodah Zarah 39a\">Ab. Zar. 39ᵃ</cite> <cite ref=\"P01065\"><he>עפיץ</he></cite> ed. (Ms. M. <he>עפאץ</he>, read <he>עפיין</he>, <he>עפיאן</he>); <cite ref=\"Tosefta Chullin 3:27\">Tosef. Ḥull. III</cite> (<cite ref=\"Tosefta Chullin 4:27\">IV</cite>), 27 <cite ref=\"A02273\"><he>אנפיא</he></cite> ed. Zuck. (Var. <cite ref=\"N01038\"><he>נפיא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "Q00816",
+	"slug": "פיקסינה",
+	"headword": {
+		"text": "פִּיקְסִינָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיקְסִינוֹן"
+		},
+		{
+			"text": "פִּקְ׳"
+		}
+	],
+	"page": {
+		"number": 1170,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (πύξινον = πύξος) <i>box-tree, box-wood</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 7:9:3\">Y. Keth. VII, end, 31ᵈ</cite> (expl. <he>תאשור</he>, <cite ref=\"Isaiah 41:19\">Is. XLI, 19</cite>) <cite ref=\"Q00816\"><he>פיקסינה</he></cite>; <cite ref=\"Bereishit Rabbah 15\">Gen. R. s. 15</cite> <cite ref=\"Q01501\"><he>פקסינון</he></cite>; Tanḥ. T’rum. 9 <cite ref=\"Q01483\"><he>פקטנין</he></cite>; ed. Bub. <cite ref=\"N01254\"><he>נקשנון</he></cite>, Var. <cite ref=\"N01254\"><he>נקשונין</he></cite>, <cite ref=\"N01231\"><he>נקסטן</he></cite> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Yoma 3:7:8\">Y. Yoma III, 41ᵃ</cite> top (expl. <cite ref=\"A03311\"><he>אשכרוע</he></cite>) <cite ref=\"Q01361\"><he>פסקינין</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

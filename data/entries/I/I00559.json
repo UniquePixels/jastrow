@@ -1,0 +1,33 @@
+{
+	"id": "I00559",
+	"slug": "טמע-1",
+	"headword": {
+		"text": "טָמַע"
+	},
+	"page": {
+		"number": 540,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", (cmp. <cite ref=\"I00556\"><he>טָמַן</he></cite>) <i>to hide, sink</i> (cmp. <cite ref=\"I00076\"><he>טָבַע</he> I</cite>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִטְמַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be hidden, sunk, to be mixed up beyond recognition</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 70b:11\">Kidd. 70ᵇ</cite> <he>וכולן נִטְמְעוּ בכהונה</he> and all of them have been lost among the priesthood (can no longer be distinguished from original priests). ",
+						"<cite ref=\"Kiddushin 71a\">Ib. 71ᵃ</cite> a family <he>שנִיטְמְעָה נ׳</he> (or <he>שנִיטַּמְּעָה</he> <i>Nithpa.</i>) once mixed with Israelites beyond traces of genealogical disabilities, shall remain so (shall not be traced up). ",
+						"<cite ref=\"Ketubot 14b\">Keth. 14ᵇ</cite>, v. <cite ref=\"P00629\"><he>עִיסָה</he></cite>; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

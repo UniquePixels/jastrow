@@ -1,0 +1,24 @@
+{
+	"id": "P01262",
+	"slug": "ערבה-1",
+	"headword": {
+		"text": "עֲרָבָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1112,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.  <cite ref=\"P01280\"><he>עֲרָבִים</he></cite> pl.; <cite ref=\"P01242\"><he>עָרַב</he> I</cite>, v. <cite ref=\"A02974\"><he>אֲרַבְתָּא</he></cite>) <i>willow, willow-branch</i>, esp. <i>the boughs of the willow attached to the Lulab</i>, and <i>the willow branch used in the Temple in procession around the altar during the Succoth festival</i>. Sifra Emor, Par. 12, ch. XVI, a. e. (ref. to <cite ref=\"Leviticus 23:40\">Lev. XXIII, 40</cite>) <he>ערבי נחל שתים ע׳ ללולב וע׳ למקדש</he> ‘willows of the brook’ alludes to two, one willow for the Lulab, and one for the Temple procession. ",
+			"units": [
+				"<cite ref=\"Sukkah 34a:1\">Succ. 34ᵃ</cite> <he>עשר נטיעות ע׳ ניסוך וכ׳</he> the law concerning ten young trees (<cite ref=\"Mishnah Sheviit 1:6\">Shebi. I, 6</cite>), the custom of the procession with the willow branch, and that of the water libation are Sinaitic traditions (v. <cite ref=\"E00566\"><he>הֲלָכָה</he></cite>). ",
+				"<cite ref=\"Mishnah Sheviit 1:6\">Ib.</cite> <he>ע׳ קנה שלה וכ׳</he> the willow (fit for the religious ceremony) has a red stem, its leaves are elongated, and their outlines plain (not curved or serried). Ib. IV, 1 <he>לולב וע׳ וכ׳</he> for the ceremony of the Lulab and of the willow branch there are six or eventually seven days. Ib. 3 <he>יום שביעי של ע׳</he> the seventh day of Succoth which is the special day for the ʿĂrabah (= <he>יום הושענא</he>, v. <cite ref=\"E00289\"><he>הוֹשַׁעְנָא</he></cite>); a. fr.—Pl. <cite ref=\"P01276\"><he>עֲרָבוֹת</he></cite>. Ib. III, 4 <he>שלשה הדסים ושתי ע׳</he> in the Lulab there must be three myrtle boughs and two willow boughs; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "H00456",
+	"slug": "חורבה",
+	"headword": {
+		"text": "חוֹרְבָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָרְבָּה"
+		}
+	],
+	"page": {
+		"number": 439,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"H01577\"><he>חָרַב</he></cite>)<i>ruin, ruins, deserted building</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 3a:12\">Ber. 3ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Demai 6:2:9\">Y. Dem. VI, 25ᶜ</cite> top <he>אויר חוֹרְבָּתוֹ</he> (if one sells) the space filled with debris belonging to him. ",
+				"<cite ref=\"Jerusalem Talmud Demai 6:2:9\">Ib.</cite> <he>תלוש מן הח׳ וכ׳</he> break some stones from this ruin by which thou mayest take possession of the space; a. fr. [<cite ref=\"Arakhin 12a\">Arakh. 12ᵃ</cite>, v. <cite ref=\"H00454\"><he>חוּרְבָּא</he> I</cite>.]—Pl. <he>חוֹרָבוֹת</he>, <cite ref=\"H01675\"><he>חֳרָבוֹת</he></cite>. Ber. l. c. <he>חורבה אחת מחוֹרְבוֹת וכ׳</he> one of the ruins of Jerusalem."
+			]
+		}
+	]
+}

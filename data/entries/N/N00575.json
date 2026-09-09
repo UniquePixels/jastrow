@@ -1,0 +1,49 @@
+{
+	"id": "N00575",
+	"slug": "נטע-1",
+	"headword": {
+		"text": "נָטַע"
+	},
+	"page": {
+		"number": 900,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to fix</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"N00555\"><he>נָטָה</he></cite>, <i>to pitch a tent; put up a temporary structure</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 5b:12\">Meg. 5ᵇ</cite> <he>נטיעה של שמחה נ׳</he> he put up a temporary structure for a festive religious occasion, v. <cite ref=\"A01676\"><he>אַכְוַרְנְקָא</he></cite>. ",
+				"<cite ref=\"Megillah 5b:12\">Ib.</cite> <he>היכי נ׳ נטיעה וכ׳</he> how dared he put up a temporary structure on Purim?—",
+				"<cite ref=\"Sanhedrin 111a:10\">Snh. 111ᵃ</cite> <he>ביקש מקום לִנְטוֹעַ אהלו</he> (<cite ref=\"Shemot Rabbah 6:4\">Ex. R. s. 6</cite> <he>לִנְטוֹת</he>) he wanted a place to put up his tent; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to insert, to plant</i>, contrad. to <cite ref=\"G00723\"><he>זרע</he></cite>.",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 2:4\">Kil. II, 4</cite> <he>זרועה ונמלך לנוֹטְעָהּ</he> if a field was sown, and he resolves to plant trees in it, <he>לא יאמר אֶטַּע וכ׳</he> he must not say, I will first plant and then &c., v. <cite ref=\"A02727\"><he>אָפַךְ</he></cite>. ",
+				"<cite ref=\"Mishnah Kilayim 1:8\">Ib. I, 8</cite> <he>אין נוֹטְעִין ירקות וכ׳</he> you must not plant vegetables &c.; a. v. fr.—Part. pass. <he>נָטוּעַ</he>; f. <he>נְטוּעָה</he>; pl. <he>נְטוּעִום</he>, <he>נְטוּעִין</he>; <he>נְטוּעוֹת</he>. Ib. V, 1; 4; sq.; a. fr.—Trnsf. <i>to beget</i>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 1:1:6\">Y. Yeb. I, 2ᵇ</cite>, a. e., v. <cite ref=\"N00563\"><he>נְטִיעָה</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיטַּע", "נִטַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to be planted</i> with trees. ",
+					"units": [
+						"<cite ref=\"Bava Batra 24b:7\">B. Bath. 24ᵇ</cite>; <cite ref=\"Eruvin 23b:14\">Erub. 23ᵇ</cite> <he>נ׳ רובו</he> if the larger portion of it was planted with trees, opp. <cite ref=\"G00722\"><he>נזרע</he></cite>. Ohol. XVIII, 3 <he>אינה נִטַּעת כל נטע</he> must not be planted with any kind of trees; Tosef. ib. XVII, 10; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

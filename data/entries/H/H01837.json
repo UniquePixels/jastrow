@@ -1,0 +1,28 @@
+{
+	"id": "H01837",
+	"slug": "חשיכה-1",
+	"headword": {
+		"text": "חֲשֵׁיכָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲשֵׁכָה"
+		}
+	],
+	"page": {
+		"number": 510,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>חָשַׁךְ</he> I)<i>darkness, nightfall</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 2:7\">Sabb. II, 7</cite> <he>עם ח׳</he> near nightfall. ",
+				"<cite ref=\"Mishnah Shabbat 2:7\">Ib.</cite> <he>ספק ח׳ וכ׳</he> if it is doubtful whether or not night has set in; a. fr.—Pl. <he>חֲשֵׁכוֹת</he> (<i>adj.</i>), v. <cite ref=\"H01820\"><he>חָשׁוּךְ</he></cite>."
+			]
+		}
+	]
+}

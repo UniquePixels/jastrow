@@ -1,0 +1,22 @@
+{
+	"id": "A00934",
+	"slug": "אושפיזכן",
+	"headword": {
+		"text": "אוּשְׁפִּיזְכָן"
+	},
+	"page": {
+		"number": 36,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Denom. of <cite ref=\"A00931\"><he>אושפיז</he></cite> = <he>אושפיזך</he>, with locat. <cite ref=\"K00000\"><he>ך</he></cite>, cmp. <cite ref=\"D00003\"><he>דָּא</he></cite>, <cite ref=\"D00754\"><he>דֵּךְ</he></cite>) <i>innkeeper, landlord, host</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 26a:14\">Meg. 26ᵃ</cite>; <cite ref=\"Yoma 12a:5\">Yoma 12ᵃ</cite>; <cite ref=\"Sotah 37a:2\">Sot. 37ᵃ</cite>; <cite ref=\"Zevachim 54a:1\">Zeb. 54ᵃ</cite> <he>נעשה א׳ וכ׳</he> Benjamin became the host of the Divine Presence (the Temple being partly situated in his territory)."
+			]
+		}
+	]
+}

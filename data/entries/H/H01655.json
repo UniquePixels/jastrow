@@ -1,0 +1,32 @@
+{
+	"id": "H01655",
+	"slug": "חרחורא",
+	"headword": {
+		"text": "חַרְחוּרָא"
+	},
+	"page": {
+		"number": 501,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01654\">preced.</cite>; = b. h. <cite ref=\"H01657\"><he>חַרְחֻר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fever</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:22\">Targ. O. Deut. XXVIII, 22</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <he>הרהר</he>) <i>heated imagination, fantasy, delirium</i>. Pl. constr. <he>חַרְחוּרֵי</he>. Targ. Y. Deut. l. c. <he>ח׳ דלוחי</he> (some ed. <cite ref=\"E00001\"><he>ה׳</he></cite>) the frightful fantasies of &c.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

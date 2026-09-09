@@ -1,0 +1,66 @@
+{
+	"id": "D01129",
+	"slug": "דרש-1",
+	"headword": {
+		"text": "דָּרַשׁ"
+	},
+	"page": {
+		"number": 325,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to examine, question</i>. Denom. <cite ref=\"D01093\"><he>דְּרִישָׁה</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to expound, interpret</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 1:5\">Ber. I, 5</cite> <he>עד שדְּרָשָׁהּ בן זומא</he> until Ben Zoma found an intimation of it in the Biblical wording. ",
+				"<cite ref=\"Taanit 5b:9\">Taan. 5ᵇ</cite> <he>מקרא אני דוֹרֵשׁ</he> I find it intimated in a Bible verse. ",
+				"<cite ref=\"Bava Metzia 104a:8\">B. Mets. 104ᵃ</cite> <he>היה ד׳ לשון הדיוט</he> interpreted the popular (Chaldaic) wording used in documents. ",
+				"<cite ref=\"Pesachim 22b:10\">Pes. 22ᵇ</cite>, v. <cite ref=\"A03395\"><he>אֵת</he></cite>; a. v. fr.—Part. pass. <he>דָּרוּשׁ</he>, f. <cite ref=\"D01077\"><he>דְּרוּשָׁה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 8:1:5\">Y. Yeb. VIII, 8ᵈ</cite> top <he>והלא ד׳ הוא</he> has not the word <he>ממנו</he> been employed for interpretation?, opp. <he>מופנה</he>.—Denom. <cite ref=\"D01093\"><he>דְּרִישָׁה</he></cite>, <cite ref=\"M00337\"><he>מִדְרָשׁ</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (in gen.) <i>to teach, lecture</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chagigah 2:1\">Ḥag. II, 1</cite> <he>אין דּוֹרְשִׁין ב־</he> you must not lecture on &c. ",
+				"<cite ref=\"Sanhedrin 99b:4\">Snh. 99ᵇ</cite> <he>ודורש בהגדות וכ׳</he> lectured on topics with the object of fault-finding; a. v. fr.—דּוֹרֵשׁ <i>lecturer</i>. ",
+				"<cite ref=\"Shemot Rabbah 42:3\">Ex. R. s. 42</cite>, beg. <he>אבא הַדֹּ׳</he> Abba, the lecturer. ",
+				"<cite ref=\"Shemot Rabbah 8\">Ex. R. s. 8</cite>, end, v. <cite ref=\"A02003\"><he>אֲמוֹרָא</he></cite>.—Pl. <he>דּוֹרְשִׁים</he>. ",
+				"<cite ref=\"Sanhedrin 38b:22\">Snh. 38ᵇ</cite>; <cite ref=\"Avodah Zarah 5a:9\">Ab. Zar. 5ᵃ</cite> <he>דור דור ודוֹרְשָׁיו</he> every generation with its preachers. <he>דּוֹרְשֵׁי חמורות</he>, v. <cite ref=\"H00390\"><he>חוֹמֶר</he></cite>; <he>ד׳ רשומות</he>, v. <he>רְשׁוּמָה</he>. [<cite ref=\"Mishnah Moed Katan 2:5\">M. Kat. II, 5</cite> (<cite ref=\"Moed Katan 13b:6\">13ᵇ</cite>) <he>דורשין</he> Ms. M. (ed. <he>עושין</he>), read <he>דּוֹשְׁשִׁין</he>.]"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִדְרַשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be interpreted, expounded</i>. Sifra, introd. rules <he>שהתורה נִדְרֶשֶׁת בהן</he> by which the Law is interpreted. Y. Peah II, 17ᵃ <he>דברים הַנִּדְרָשִׁין מן הכתב</he> things which are derived by interpretation from the written code (Torah); <he>הנדרשין מן הפה</he> derived from the oral code (Mishnah). Y. Meg. I, 70ᵃ top <he>נתנה להִידָּרֵשׁ</he> is a legitimate object of interpretation.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְדָּרֵשׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"D01128\">same</cite>. Y. Keth. III, 27ᵈ top <he>מִתְדָּרֵשׁ</he> (<he>מִתְדָּרְשָׁה</he>) <he>ולו וכ׳</he> the words <i>v’lo</i> &c. are open for interpretation, v. <cite ref=\"C00581\"><he>גְּזֵרָה</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

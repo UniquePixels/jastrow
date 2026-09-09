@@ -1,0 +1,24 @@
+{
+	"id": "M02094",
+	"slug": "מעזיבה",
+	"headword": {
+		"text": "מַעֲזִיבָה"
+	},
+	"page": {
+		"number": 814,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עזב</he>, v. infra) <i>a concrete of stone chippings</i>. <i>clay</i> &c., used for paving floors, <i>pavement</i> covering the ceiling (<cite ref=\"V00912\"><he>תִּקְרָה</he></cite>) of the lower story and serving as flooring to the upper story. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 10:2\">B. Mets. X, 2</cite> <he>התחתון … העליון את המ׳</he> the dweller below must provide the ceiling, and the one above the pavement. ",
+				"<cite ref=\"Bava Metzia 117a:11\">Ib. 117ᵃ</cite> <he>מ׳ אחזוקי וכ׳</he> the plaster preserves the ceiling (thus benefitting the owner of the lower story); (oth. opin.) <he>מ׳ אשוויי וכ׳</he> it serves only to level the floor. ",
+				"<cite ref=\"Mishnah Sukkah 1:7\">Succ. I, 7</cite> <he>תקרה שאין עליה מ׳</he> a ceiling not covered with pavement; a. fr.—[<he>עזב</he>, <cite ref=\"Nehemiah 3:8\">Neh. III, 8</cite> is supposed to mean: <i>to form a concrete for fortification purposes</i>.—Our w. seems to be a hebraization of <he>מלט</he> caementum (v. P. Sm. 2137), by confounding it with h. r. <cite ref=\"M01533\"><he>מָלַט</he></cite>; cmp. <cite ref=\"E00426\"><he>הִימְלְטָא</he></cite> a. <cite ref=\"M01539\"><he>מַלְטֵט</he></cite>.]"
+			]
+		}
+	]
+}

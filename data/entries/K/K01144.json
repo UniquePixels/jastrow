@@ -1,0 +1,23 @@
+{
+	"id": "K01144",
+	"slug": "כרזנייתא",
+	"headword": {
+		"text": "כַּרְזַנְיָיתָא"
+	},
+	"page": {
+		"number": 666,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"K01136\"><he>כְּרז</he></cite>) <i>calling out</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 40b\">B. Mets. 40ᵇ</cite>, v. <cite ref=\"B01229\"><he>בַּרְזָנִיתָא</he></cite>."
+			]
+		}
+	]
+}

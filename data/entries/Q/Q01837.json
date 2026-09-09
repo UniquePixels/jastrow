@@ -1,0 +1,37 @@
+{
+	"id": "Q01837",
+	"slug": "פרישה-1",
+	"headword": {
+		"text": "פְּרִישָׁה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1228,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q02021\"><he>פָּרַשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>separation, retirement, preparation</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 8b:1\">Yoma 8ᵇ</cite> <he>שזה פְּרִישָׁתוֹ לקדושה וכ׳</he> this one (the high priest) is isolated for sanctification (to prepare himself for the functions of the Day of Atonement), and this one (the priest designated to burn the red cow) is isolated for the sake of levitical cleanness. ",
+				"<cite ref=\"Chullin 72b:13\">Ḥull. 72ᵇ</cite> <he>משעת פְּרִישָׁתָן מאביהן</he> at the moment when they are cut loose from the main body (the garment); <he>פרישתן מאבר</he> when a piece of the embryo is cut loose from the limb to which it belongs; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>withdrawal, abstinence</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 22b:11\">Pes. 22ᵇ</cite> <he>כשם שקבלתי שכר על הדרישה … הפ׳</he> as I am rewarded for explaining (every <cite ref=\"G00078\"><he>את</he></cite> in the Scripture), so I shall be rewarded for abstaining (from interpreting the <cite ref=\"G00078\"><he>את</he></cite> in <cite ref=\"Deuteronomy 6:13\">Deut. VI, 13</cite>); <cite ref=\"Kiddushin 57a\">Kidd. 57ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 87a:1\">Sabb. 87ᵃ</cite> <he>בארבעה עבוד פ׳</he> on the fourth day of Sivan they began to observe abstinence (<cite ref=\"Exodus 19:15\">Ex. XIX, 15</cite>); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

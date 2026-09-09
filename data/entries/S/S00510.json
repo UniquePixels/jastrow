@@ -1,0 +1,23 @@
+{
+	"id": "S00510",
+	"slug": "קופלא-1",
+	"headword": {
+		"text": "קוּפְלָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1338,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְפַל</he> I, cmp. <he>כבל</he>) <i>metal rim on bags, lock</i>.—Pl. <he>קוּפְלֵי</he>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 110a\">Snh. 110ᵃ</cite> Ms. F. (Ar. s. v. <cite ref=\"S01253\"><he>קלד</he></cite>: <he>גופלי</he>, Var. <he>ק׳</he>; ed. <he>קילפי</he>; Ms. M. <he>קולפי</he>; v. Rabb. D. S. a. l. note); <cite ref=\"Pesachim 119a\">Pes. 119ᵃ</cite> Ms. M. (ed. <cite ref=\"S01347\"><he>קליפא</he></cite>, Rashi <he>קולפי</he>), v. <cite ref=\"C00880\"><he>גִּלְדָּא</he></cite>."
+			]
+		}
+	]
+}

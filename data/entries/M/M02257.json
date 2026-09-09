@@ -1,0 +1,34 @@
+{
+	"id": "M02257",
+	"slug": "מפתח-3",
+	"headword": {
+		"text": "מְפַתֵּחַ"
+	},
+	"page": {
+		"number": 822,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02143\"><he>פָּתַח</he></cite>, <i>Pi.</i> 2) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>engraver, sculptor.—</i>Pl. <he>מְפַתְּחִים</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 29:5\">Kel. XXIX, 5</cite> <he>מקבת של מְפַתְּחֵי אבנים</he> the sculptors’ mallet (contrad. to <cite ref=\"O01720\"><he>סַתָּת</he></cite> stone-cutter)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>seal-ring</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 4:11\">Tosef. Sabb. IV</cite> (<cite ref=\"Tosefta Shabbat 5:11\">V</cite>), 11 <he>מ׳ שבאצבעה</he>; <cite ref=\"Shabbat 62b:1\">Sabb. 62ᵇ</cite> <he>מ׳ שבידה</he> (corresp. to <he>טבעת שיש עליה חותם</he>, <cite ref=\"Mishnah Shabbat 6:3\">ib. VI, 3</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"id": "D00989",
+	"slug": "דקדק-1",
+	"headword": {
+		"text": "דִּקְדֵּק"
+	},
+	"page": {
+		"number": 318,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Pilp. of <he>דוק</he> or <he>דקק</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to crush, grind;</i> v. <i>Nithpa.—Part</i>. <i>pass.</i> <he>מְדוּקְדָּק</he> <i>broken, humiliated, afflicted</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 31\">Ex. R. s. 31</cite> <he>מדו׳ בעניות</he> afflicted with poverty. ",
+				"<cite ref=\"Bereishit Rabbah 100\">Gen. R. s. 100</cite> <he>עני מדו׳</he> a very poor man."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to even a woof by beating</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 8:2\">Tosef. Sabb. VIII</cite> (<cite ref=\"Tosefta Shabbat 9:2\">IX</cite>), 2; <cite ref=\"Shabbat 75b\">Sabb. 75ᵇ</cite>; <cite ref=\"Shabbat 97b\">97ᵇ</cite> (v. Rashi a. l.)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to examine minutely, search, investigate</i> (charity cases); <i>to trace genealogical records</i> (corresp. to <cite ref=\"B00154\"><he>בָּדַק</he></cite>); in gen. <i>to be very strict</i> in religious observances; (with <he>עם</he>) <i>to deal strictly with</i> (esp. used of divine retribution). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 8:6:8\">Y. Peah VIII, 21ᵃ</cite> <he>מְדַקְדְּקִין בכסות וכ׳</he> you must make inquiries if one asks for clothes, but you must not &c., if food is asked for; <cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> (<cite ref=\"Bava Batra 9a:6\">B. Bath. 9ᵃ</cite> <he>בודקין</he>).—",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 4:2:3\">Y. Kidd. IV, 65ᵈ</cite> <he>אין מד׳ אחריה</he> you must not trace its past records. Y. B. Bath. IV, end, 14ᵈ it is the custom in sales <he>להיות מְדַקְדְּקִין</he> to be strict, opp. <he>בעין יפה</he> liberal. ",
+				"<cite ref=\"Shemot Rabbah 31:15\">Ex. R. s. 31</cite> <he>מד׳ עמהם</he> he is stinting (illiberal) towards the poor. Y. Succ. I, 52ᵇ top <he>לא די׳ בה</he> he paid no particular attention to its preparation. ",
+				"<cite ref=\"Chullin 4a:13\">Ḥull. 4ᵃ</cite> <he>הרבה מד׳ בה יותר וכ׳</he> they are very strict in the observance, even more so than &c.; <cite ref=\"Tosefta Pesachim 1\">Tosef. Pes. I (II), 15</cite>.—",
+				"<cite ref=\"Yevamot 121b:8\">Yeb. 121ᵇ</cite> (ref. to <cite ref=\"Psalms 50:3\">Ps. L, 3</cite>) <he>הקב״ה מד׳ עם וכ׳</he> the Lord deals with those around Him (the good) strictly, to a hair’s breadth; <cite ref=\"Jerusalem Talmud Shekalim 5:1:12\">Y. Shek. V, 48ᵈ</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 27\">Lev. R. s. 27</cite>; a. fr.—Tanḥ. ",
+				"<cite ref=\"Exodus 11\">Mishp. 11</cite> <he>למה אתה תְדַקְדֵּק בהכאתה</he> why art thou so severe in punishing her?"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִדַּקְדֵּק"],
+			"senses": [
+				{
+					"gloss": " (= <he>נִתְדַּ׳</he>) <i>to be crushed, powdered</i>. Ohol. II, 7.",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

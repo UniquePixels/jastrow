@@ -1,0 +1,58 @@
+{
+	"id": "B01068",
+	"slug": "בעת-2",
+	"headword": {
+		"text": "בְּעֵת"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּעִית"
+		}
+	],
+	"page": {
+		"number": 183,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (v. <cite ref=\"B01067\">preced.</cite>) <i>to be excited</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 66b:27\">Nidd. 66ᵇ</cite> <he>משום דבעיתא</he> because she is excited (afraid of falling down)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּעֵית", "בַּעֵת"],
+			"senses": [
+				{
+					"gloss": "<i>to frighten</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 18:5\">Targ. Ps. XVIII, 5</cite> (Ms. <he>בְּעֵיתַת</he> Pe.).—",
+						"<cite ref=\"Ketubot 77b:10\">Keth. 77ᵇ</cite> <he>דילמא מְבַעֲתַת לי</he> lest thou frighten me. ",
+						"<cite ref=\"Chullin 53a\">Ḥull. 53ᵃ</cite> sq. <he>בַּעוּתֵי קא מְבַעֲתֵי אהדדי</he> they frighten each other. ",
+						"<cite ref=\"Niddah 66a:25\">Nidd. 66ᵃ</cite> <he>זיל בַּעֲתָהּ</he> go and frighten her (by a sudden noise)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְבְּעֵית", "אִיבְּעֵית"],
+			"senses": [
+				{
+					"gloss": "<i>to be afraid; to be agitated, anxious, in haste</i> (cmp. b. h. <cite ref=\"H01598\"><he>חָרַד</he></cite>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 21:2\">Targ. I Sam. XXI, 2</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 22:4\">Targ. Is. XXII, 4</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Kings 7:15\">Targ. II Kings VII, 15</cite> <he>באִתְבְּעָתוּתְהוֹן</he> Regia (ed. <he>באתבעותהון</he>); v. <cite ref=\"B01058\"><he>בְּעַע</he></cite> a. <cite ref=\"B01037\"><he>בְּעֵי</he> I</cite>. Y. Ab. Zar. V, 44ᵈ bot. <he>והוא מתבעת</he> and he is afraid (to touch the wine).—",
+						"<cite ref=\"Megillah 3a:14\">Meg. 3ᵃ</cite> <he>האי מאן דמִיבְּעִית</he> when one is suddenly seized with fright. ",
+						"<cite ref=\"Megillah 3a:13\">Ib.</cite> <he>איבעיתו</he>. ",
+						"<cite ref=\"Ketubot 106a:2\">Keth. 106ᵃ</cite> <he>הוה מיבעית ליה בעותי</he> he ran anxiously to meet him; cmp. Targ. I Sam. l. c.; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

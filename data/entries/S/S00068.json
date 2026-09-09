@@ -1,0 +1,22 @@
+{
+	"id": "S00068",
+	"slug": "קבלא-4",
+	"headword": {
+		"text": "קַבָּלָא"
+	},
+	"page": {
+		"number": 1310,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., constr. <cite ref=\"S00079\"><he>קַבָּלַת</he></cite> (v. <he>קְבַל</he> IV) <i>vapor, vanity</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 5:15\">Targ. Koh. V, 15</cite> <he>לק׳ רוחיה</he> for the vanity of his spirit (h. text <he>לרוח</he>)."
+			]
+		}
+	]
+}

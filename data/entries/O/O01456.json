@@ -1,0 +1,23 @@
+{
+	"id": "O01456",
+	"slug": "סקול",
+	"headword": {
+		"text": "סִקּוּל"
+	},
+	"page": {
+		"number": 1019,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<i>Saf.</i> of <he>קלל</he>) <i>mishap</i>, <i>accident</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 10:19\">Targ. Y. I Lev. X, 19</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 42:4\">Targ. Y. Gen. XLII, 4</cite>; <cite ref=\"Targum Jonathan on Genesis 42:38\">38</cite> <he>סְקַל</he> Ar. (ed. <cite ref=\"M00527\"><he>מותא</he></cite>; Sam. <he>אסקל</he>; h. text <cite ref=\"A02332\"><he>אסון</he></cite>)."
+			]
+		}
+	]
+}

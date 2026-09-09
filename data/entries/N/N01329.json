@@ -1,0 +1,32 @@
+{
+	"id": "N01329",
+	"slug": "נשל-2",
+	"headword": {
+		"text": "נְשַׁל",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 941,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"A03283\"><he>אַשֵּׁיל</he></cite> <i>to send off</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 24:1\">Targ. Y. Deut. XXIV, 1</cite> ed. pr. (oth. ed. <he>וִיטַיֵּיל</he>; h. text <he>ושלחה</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

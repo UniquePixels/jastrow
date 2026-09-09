@@ -1,0 +1,88 @@
+{
+	"id": "S00087",
+	"slug": "קבע-4",
+	"headword": {
+		"text": "קְבַע",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1311,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00086\">same</cite><i>to stick into, fix</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 2:14\">Targ. I Sam. II, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 19:10\">Ib. XIX, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 25:7\">Targ. Y. Ex. XXV, 7</cite>; a. e.—Part. pass. <cite ref=\"S00054\"><he>קָבִיעַ</he></cite>; f. <cite ref=\"S00054\"><he>קְבִיעָא</he></cite> &c. ",
+				"<cite ref=\"Targum Jonathan on Genesis 28:12\">Targ. Y. Gen. XXVIII, 12</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Exodus 20:21\">Targ. Y. II, Ex. XX, 21</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 4:9\">Targ. Cant. IV, 9</cite> (<i>engraven</i>); a. e.—Y. Ḥag. III, 78ᵈ, v. <cite ref=\"M01970\"><he>מַסְמְרָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 5:3:7\">Y. Pes. V, 32ᵇ</cite> top; <cite ref=\"Jerusalem Talmud Yevamot 13:1:7\">Y. Yeb. XIII, 13ᶜ</cite> top; v. <cite ref=\"M01970\"><he>מַסְמְרָא</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to fix, appoint, establish</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 32:8\">Targ. Y. II, Deut. XXXII, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 12:2\">Targ. Y. Ex. XII, 2</cite>; a. fr.—Part. pass. as ab. ",
+				"<cite ref=\"Targum Jonathan on Exodus 12:3\">Ib. 3</cite>; a. e.—",
+				"<cite ref=\"Avodah Zarah 11b:10\">Ab. Zar. 11ᵇ</cite> <he>חגתא … דלא קביעא</he> an Arabian fair which has no fixed date. ",
+				"<cite ref=\"Berakhot 43b:14\">Ber. 43ᵇ</cite>, v. <cite ref=\"P00515\"><he>עִידָּנָא</he></cite>; a. e.—",
+				"<cite ref=\"Keritot 18a:17\">Ker. 18ᵃ</cite>, v. infra."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to impart the character of an appointed meal</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 105a:2\">Pes. 105ᵃ</cite> <he>נפסיק ונִקְבְּעֵיה לשבתא</he> let us interrupt our meal, and (resuming it) appoint it as a Sabbath meal; <he>לא … שבתא קָבְעָה נפשה</he> you need not interrupt your meal, the Sabbath itself makes it an appointed meal. ",
+				"<cite ref=\"Beitzah 34b:6\">Bets. 34ᵇ</cite> <he>כיון דאמר … ק׳ ליה עילויה</he> as soon as he says, ‘from here I will take to eat to-morrow’, he makes it an appointment (and it is subject to tithes); a. e."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַבַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to set, garnish with</i>.—Part. pass. <he>מְקַבַּע</he>; pl. <he>מְקַבְּעִין</he>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 33:21\">Targ. Y. I Deut. XXXIII, 21</cite> <he>מ׳ אבנין וכ׳</he> (not <he>מִקְבַּע</he>) beset with precious stones; Y. II <he>מקבעין אבנין וכ׳</he> precious stones are set (in it). ",
+						"<cite ref=\"Aramaic Targum to Esther 8:15\">Targ. Esth. VIII, 15</cite>. Targ. II Esth. I, 2 <cite ref=\"M02570\"><he>מְקוּבַּע</he></cite>, <he>מְקוּבָּעִין</he> some eds. (Hebr. forms)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַקְבַּע"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S00086\">same</cite>, <i>to set, fasten</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 6a\">B. Bath. 6ᵃ</cite> <he>אַקְבּוּעֵי</he> Ms. R. a. Rashi, v. <cite ref=\"S00091\"><he>קַבְעָתָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְקְבִיעַ", "אִיקְּבַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be appointed, established</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 14:1\">Targ. Y. Num. XIV, 1</cite>.—",
+						"<cite ref=\"Keritot 18a:17\">Ker. 18ᵃ</cite> <he>שתי חתיכות א׳ איסורא לא קבעה וכ׳</he> where there are two pieces (one forbidden and one permitted) the presence of a prohibited element is established; one piece (of doubtful quality) does not establish the presence of a prohibited thing; <cite ref=\"Nazir 23a\">Naz. 23ᵃ</cite>. ",
+						"<cite ref=\"Shabbat 86b\">Sabb. 86ᵇ</cite>, sq., v. <cite ref=\"J00624\"><he>יַרְחָא</he></cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

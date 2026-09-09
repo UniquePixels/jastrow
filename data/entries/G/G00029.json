@@ -1,0 +1,31 @@
+{
+	"id": "G00029",
+	"slug": "זבזגא",
+	"headword": {
+		"text": "זַבְזְגָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "זַבְזְגֵי"
+		}
+	],
+	"page": {
+		"number": 378,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (reduplication of <he>זגא</he>, v. <cite ref=\"G00064\"><he>זְגֵי</he></cite>; for inserted <cite ref=\"B00000\"><he>ב</he></cite>, v. <cite ref=\"G00049\"><he>זַבְלְגָן</he></cite>) <i>nest, brood, hatch</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 28b:8\">M. Kat. 28ᵇ</cite> (in a funeral song) <he>אחנא תגרא אזַבְזְגֵיה מיבדיק</he> (or:) <he>תגרי … דאזַבְזְגֵי מיבדקו</he> (v. Rabb. D. S. a. l.; Rashi a. l.) our brother, the merchant, will be judged by the brood he left behind, (or) our brethren, the merchants, will be judged by the broods (allusion to <cite ref=\"Jeremiah 17:11\">Jer. XVII, 11</cite>). [En Yakob reads <he>תגרי … דאזְבוּנֵי מיבדקי</he> our (departed) brethren are merchants who (on crossing the frontier of life) are searched for goods.—Ms. M. 2 <he>דאזַוְקֵי וכ׳</he> who are searched for the wine bags they carry, v. <cite ref=\"G00404\"><he>זִיקָא</he></cite> II a. <cite ref=\"G00227\"><he>זוק</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"G00017\"><he>זְבוּגָא</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

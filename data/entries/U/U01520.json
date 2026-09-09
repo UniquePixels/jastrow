@@ -1,0 +1,35 @@
+{
+	"id": "U01520",
+	"slug": "שמעתא",
+	"headword": {
+		"text": "שְׁמַעְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁמַעְתְּתָא"
+		}
+	],
+	"page": {
+		"number": 1600,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"U01441\"><he>שְׁמוּעָה</he></cite>) <i>report, tradition, traditional law; outcome of a discussion, decision</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 11:11\">Targ. I Chr. XI, 11</cite> (ed. Rahmer <he>שמעת</he>, corr. acc.). ",
+				"<cite ref=\"Targum of I Chronicles 2:55\">Ib. II, 55</cite>.—",
+				"<cite ref=\"Eruvin 9b\">Erub. 9ᵇ</cite>; <cite ref=\"Kiddushin 50b\">Kidd. 50ᵇ</cite>, a. e. <he>ומותבינן אשְׁמַעְתִּין</he> but we must bring evidence against the tradition which we just cited; <cite ref=\"Berakhot 33a:29\">Ber. 33ᵃ</cite> <he>אשמעתיה</he> (corr. acc., v. Rabb. D. S. a. l. note 70). ",
+				"<cite ref=\"Sotah 21a:13\">Sot. 21ᵃ</cite> <he>דסלקא ליה ש׳ וכ׳</he> a scholar whose final conclusions agree with the adopted practice. ",
+				"<cite ref=\"Sanhedrin 38b:22\">Snh. 38ᵇ</cite> <he>ר״מ</he> … <he>תילתא ש׳ וכ׳</he> R. Meir used to divide his lectures into three parts, one part devoted to legal discussion, one to homily (v. <cite ref=\"A00247\"><he>אֲגָדָה</he></cite>), and one to parables. ",
+				"<cite ref=\"Berakhot 6b:13\">Ber. 6ᵇ</cite> <he>אגרא דש׳ סברא</he> the merit of studying traditions lies in the reasoning thereon; a. v. fr.—Pl. <cite ref=\"U01520\"><he>שְׁמָעָתָא</he></cite>, <cite ref=\"U01520\"><he>שְׁמַעְתָּתָא</he></cite>. ",
+				"<cite ref=\"Niddah 14a\">Nidd. 14ᵃ</cite> <he>שְׁמַעְתָּתֵיה</he>, v. <cite ref=\"H00176\"><he>חֲדַד</he></cite>; <cite ref=\"Ketubot 62b:13\">Keth. 62ᵇ</cite> <he>שְׁמָעָתֵיה</he>. ",
+				"<cite ref=\"Eruvin 65a:13\">Erub. 65ᵃ</cite> <he>מחדדן שְׁמָעָתָךְ</he> thou hast thy traditions always ready. ",
+				"<cite ref=\"Berakhot 42a:7\">Ber. 42ᵃ</cite> <he>לית הילכתא ככל הני ש׳ וכ׳</he> the adopted practice is not in agreement with all these traditions &c.; a. fr."
+			]
+		}
+	]
+}

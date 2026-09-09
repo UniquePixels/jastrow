@@ -1,0 +1,31 @@
+{
+	"id": "F00062",
+	"slug": "ולד-3",
+	"headword": {
+		"text": "וְלַד"
+	},
+	"altHeadwords": [
+		{
+			"text": "וָולַד"
+		},
+		{
+			"text": "וַלְדָּא"
+		}
+	],
+	"page": {
+		"number": 374,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"F00061\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 11:30\">Targ. Gen. XI, 30</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 63b:2\">Sabb. 63ᵇ</cite> <he>איתעקר וְלָדָהּ</he> her foetus was loosened; v. preced.—Pl. <he>וְלָדִין</he>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 32:16\">Targ. Y. II, Gen. XXXII, 16</cite>; a. e.—בֵּית ולדא <i>womb</i>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 20:18\">Targ. Y. Gen. XX, 18</cite>; O. <he>פְתַח ו׳</he>.—",
+				"<cite ref=\"Onkelos Genesis 40:20\">Targ. O. Gen. XL, 20</cite> <he>יום בית ו׳ דפ׳</he> the festival of Pharaoh’s <i>mother</i>"
+			]
+		}
+	]
+}

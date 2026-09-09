@@ -1,0 +1,33 @@
+{
+	"id": "B01232",
+	"slug": "ברחא",
+	"headword": {
+		"text": "בַּרְחָא"
+	},
+	"page": {
+		"number": 192,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ברח</he>, v. <cite ref=\"B01230\"><he>בָּרַח</he></cite>",
+			"units": []
+		},
+		{
+			"gloss": ") [<i>one that breaks through</i>, cmp. ",
+			"units": [
+				"<cite ref=\"Micah 2:13\">Mic. II, 13</cite>;] <i>leader of the flock</i> (h. <cite ref=\"P01529\"><he>עַתּוּד</he></cite>), <i>bell-wether, buck</i>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 10:8:2\">Y. B. Kam. X, end, 7ᶜ</cite> if the restored sheep is as distinguishable <he>כגון אהן ב׳</he> as the barḥa. ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 10:8:2\">Ib.</cite> what does <he>כגון אהן ב׳</he> mean? Some say <cite ref=\"H00303\"><he>חוטרא</he></cite> &c., v. <cite ref=\"Q01158\"><he>פַּנְדּוּרָא</he></cite> a. <cite ref=\"M02898\"><he>מַשְׂכּוֹכִית</he></cite>. Bab. ",
+				"<cite ref=\"Bava Kamma 20a:1\">B. Kam. 20ᵃ</cite> top. ",
+				"<cite ref=\"Bava Kamma 48a:6\">Ib. 48ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 18b\">Sabb. 18ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 152a:5\">Ib. 152ᵃ</cite> <he>ב׳ קרחא</he> a bald buck (sneer at R. Joshua b. Karḥa; v. <cite ref=\"C00351\"><he>גַּוְזַנְיָא</he></cite>)."
+			],
+			"label": "1"
+		}
+	]
+}

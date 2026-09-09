@@ -1,0 +1,66 @@
+{
+	"id": "J00580",
+	"slug": "יקר-1",
+	"headword": {
+		"text": "יָקַר"
+	},
+	"page": {
+		"number": 592,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be heavy;</i> (cmp. <cite ref=\"K00030\"><he>כָּבֵד</he></cite>, <cite ref=\"H00392\"><he>חוּמְרָא</he></cite> &c.) <i>to be weighty, important, honored</i>; [<i>to be dear, precious; to hold dear</i>, v. infra.] Tanḥ. ",
+			"units": [
+				"<cite ref=\"Exodus 27\">B’shall. 27</cite> <he>יָקְרוּ ידיו של משה וכ׳</he> Moses’ hands grew as heavy as &c.; Mekh. B’shall., Amalek, s. 1. Ib. <he>י׳ חטא על וכ׳</he> sin weighed heavily on Moses’ hands."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יִיקֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to hold dear, honor</i>. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 7\">Deut. R. s. 7</cite>, end <he>אני מגדול ומְיַיקֵּר אתכם וכ׳</he> I shall make you great and honored &c. ",
+						"<cite ref=\"Bamidbar Rabbah 23\">Num. R. s. 23</cite>, end (ref. to a citation <he>כי הנני משלחך כגבירה</he>, found nowhere in the Bible—probably a reference to <cite ref=\"Jeremiah 22:26\">Jer. XXII, 26</cite> a. ",
+						"<cite ref=\"Jeremiah 29:2\">XXIX, 2</cite>) <he>מה הגבירה הזו אדם מְיַקּר אותה וכ׳</he> (or <he>מֵיקַי</he> <i>Kal</i>) as one (surely) holds in honor the <i>g’birah</i> (king’s mother), so did he (Nebucadnezar) to him (Jehoiachin); Tanḥ. Massé 13; <cite ref=\"Jeremiah 29:2\">ib.</cite> ed. Bub. 10 <he>אדם מיקר לה</he>. (<cite ref=\"Bereishit Rabbah 18:2\">Gen. R. s. 18</cite> <he>מיקרת ראשה</he> she bears her head proudly; <cite ref=\"Yalkut Shimoni on Torah 24:2\">Yalk. Gen. 24</cite>; <cite ref=\"Yalkut Shimoni on Nach 265\">Yalk. Is. 265</cite> <he>מקלת</he>, v. <cite ref=\"S01355\"><he>קָלַל</he></cite>).—Part. pass. <he>מְיוּקָּר</he>. Num. R. l. c. <he>קשר אותו בקורכין שלו מי׳</he> he tied (and seated) him in his most honored (state) carriage; Tanḥ. l. c. … <he>בקורנין וכ׳</he>; ib. ed. Bub. l. c. <he>קשר אותו בקרובין ומוֹקֵר לו</he> (Ms. M. <he>בקרונין</he>) he tied … and paid him honor."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הוֹקִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to grow dear, scarce; to rise in value</i>. Y. Keth. XI, 34ᵇ bot. <he>ה׳ המקח</he> the price of the field was higher (than the amount due her for alimentation). Ib. XII, beg. 34ᵈ <he>היו בזול והוֹקִירוּ</he>, v. <cite ref=\"G00176\"><he>זוֹל</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 5:9\">B. Mets. V, 9</cite> <he>שמא יוֹקִירוּ חטים</he> wheat may rise in value; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to honor</i>. Tanḥ. ed. Bub. l. c., v. supra.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּקָר"],
+			"senses": [
+				{
+					"gloss": " as <i>Hif.</i> 1.—",
+					"units": [
+						"<cite ref=\"Mishnah Bava Batra 5:8\">B. Bath. V, 8</cite> <he>והוּקְרוּ</he>; <cite ref=\"Mishnah Bava Metzia 5:8\">B. Mets. V, 8</cite> <he>הוקרו</he> (Y. ed. <he>הוקירו</he>). ",
+						"<cite ref=\"Bereishit Rabbah 35\">Gen. R. s. 35</cite> <he>ה׳ השמן</he> oil became scarce (<cite ref=\"Yalkut Shimoni on Nach 228\">Yalk. Kings 228</cite> <cite ref=\"J00580\"><he>הוקיר</he></cite>); a. fr."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

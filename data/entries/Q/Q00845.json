@@ -1,0 +1,43 @@
+{
+	"id": "Q00845",
+	"slug": "פירור",
+	"headword": {
+		"text": "פֵּירוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "פֵּר׳"
+		}
+	],
+	"page": {
+		"number": 1171,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02017\"><he>פָּרַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>crumbling</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 28a:7\">Pes. 28ᵃ</cite> (in Chald. dict.) <he>בעי פ׳</he> must be crumbled (before being thrown into the river)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>crumb</i>.—Pl. <he>פֵּירוּרִים</he>, <cite ref=\"Q00840\"><he>פֵּירוּרִין</he></cite>, <cite ref=\"Q00839\"><he>פֵּר׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 21:3\">Sabb. XXI, 3</cite> (<cite ref=\"Shabbat 143a:7\">143ᵃ</cite>). ",
+				"<cite ref=\"Menachot 75b:11\">Men. 75ᵇ</cite> (ref. to <cite ref=\"Leviticus 2:6\">Lev. II, 6</cite>) <he>יכול יעשינה פ׳ וכ׳</he> you might think, he must break it up into crumbs &c., v. <cite ref=\"Q02175\"><he>פְּתִיתָה</he></cite>; a. fr.—",
+				"<cite ref=\"Avot D'Rabbi Natan 33:1-2\">Ab. d’R. N. ch. XXXIII</cite> <he>לא … עד שיֵעָשֶׂה לפנינו פ׳ פ׳</he> (ed. Schechter <he>שנעשה</he>) we shall not cross the sea until it is broken into solid pieces before us; Tanḥ. ",
+				"<cite ref=\"Exodus 10\">B’shall. 10</cite> <he>ונעשו המים פר׳</he>; <cite ref=\"Yalkut Shimoni on Torah 233:6\">Yalk. Ex. 233</cite> <he>ונעשה פ׳ פ׳</he> (with ref. to <he>פוררת</he>, <cite ref=\"Psalms 74:13\">Ps. LXXIV, 13</cite>).—3) = <cite ref=\"Q01967\"><he>פַּרְפֶּרֶת</he></cite>, <i>nibblings, desert, delicacies</i>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:7:2\">Y. Ber. VI, end, 10ᵈ</cite>, v. <cite ref=\"Q00888\"><he>פִּיתָּא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

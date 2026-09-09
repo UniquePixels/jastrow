@@ -1,0 +1,28 @@
+{
+	"id": "U01865",
+	"slug": "שקיעיא",
+	"headword": {
+		"text": "שְׁקִיעַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁקִיעִין"
+		}
+	],
+	"page": {
+		"number": 1622,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"U01878\"><he>שְׁקַע</he></cite>) <i>old, forgotten titles of consfiscated property</i> (v. <cite ref=\"O00825\"><he>סִיקָרִיקוֹן</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 10:5:3\">Y. Keth. X, end, 34ᵃ</cite> [read:] <he>קריבין … אזלון … נשין ואעלון להון נשין ש׳ וכ׳</he> relatives of R. J. bought fields from the family of Bar Tafḳan; then members of the family of B. T. went and married, and their wives brought them old titles (showing that the property sold had originally belonged to their family, and according to the <i>sicaricon</i> law the purchasers were bound to pay them one-fourth of the price paid for the property). They came to court, suing the relatives of R. José. Said R. M. to them, <he>אנא ידע … לא הוו אילין ש׳ קדמיכון</he> I know that when you sold those fields, you did not have those titles before you (consequently, when the sale took place, the original owners were unknown, and the <i>sicaricon</i> law had no application)."
+			]
+		}
+	]
+}

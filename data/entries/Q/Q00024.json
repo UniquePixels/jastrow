@@ -1,0 +1,54 @@
+{
+	"id": "Q00024",
+	"slug": "פאר-2",
+	"headword": {
+		"text": "פָּאַר"
+	},
+	"page": {
+		"number": 1131,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.), <i>Pi.</i> <cite ref=\"Q00023\"><he>פֵּאֵר</he></cite> (denom. of <cite ref=\"Q00023\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to cut the crown off</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 131a\">Ḥull. 131ᵃ</cite>, sq. (ref. to <he>תְפָאֵר</he>, <cite ref=\"Deuteronomy 24:20\">Deut. XXIV, 20</cite>) <he>שלא תטול תפארתו ממנו</he> thou must not cut the crown off it (the last berries)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to crown, glorify</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 2:5\">Lev. R. s. 2</cite> <he>כל מה … לגדלן ולפָאֲרָן פָּאֵר … להִתְפָּאֵר בהם</he> as much as thou canst praise Israel, praise, as much as thou canst raise and glorify them, glorify, for I am to be glorified through them; Tanḥ. Ki Thissa 8; Pesik. Shek., p. 17ᵇ <he>לפָאֲרוֹ פָּאֲרוֹ</he>; a. e.—Part. pass. <he>מְפוֹאָר</he>; f. <he>מְפוֹאָרָה</he>, <he>מְפוֹאֶרֶת</he>. ",
+				"<cite ref=\"Taanit 7a:17\">Taan. 7ᵃ</cite> (to R. Joshua) <he>אי חכמה מפ׳ בכלי מכוער</he> O for that glorious wisdom in an ugly vessel! <cite ref=\"Avodah Zarah 24b\">Ab. Zar. 24ᵇ</cite>, v. <cite ref=\"P00133\"><he>עֲדִי</he> II</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְפָּאֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to lord it, rule</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 284:3\">Sifré Deut. 284</cite> (ref. to <he>תפאר</he>, v. supra) <he>לא תִתְפָּאֵר לעני</he> do not make thyself the master of the poor man (i.e. do not decide who shall and who shall not get the gleanings &c.); <cite ref=\"Yalkut Shimoni on Torah 937\">Yalk. ib. 937</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be adorned, glorified</i>. Lev. R. l. c., a. e., v. supra. ",
+					"units": [
+						"<cite ref=\"Esther Rabbah 7:10\">Esth. R. to III, 6</cite>, v. <cite ref=\"Q00380\"><he>פּוּרְפּוּרָא</he></cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

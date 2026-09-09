@@ -1,0 +1,31 @@
+{
+	"id": "A01120",
+	"slug": "איבה",
+	"headword": {
+		"text": "אֵיבָה"
+	},
+	"page": {
+		"number": 44,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>אָיַב</he>, √<cite ref=\"A00516\"><he>או</he></cite> or <cite ref=\"A00013\"><he>אב</he></cite>, cmp. <cite ref=\"A00021\"><he>אַבְאָבִית</he></cite>, <cite ref=\"A00716\"><he>אָוֶן</he></cite>, <cite ref=\"P00290\"><he>עָוֹן</he></cite>)<i>enmity, hostility, grudge</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 3:5\">Snh. III, 5</cite> an enemy is he who has not spoken to his neighbor for three days <he>בא׳</he> in his grudge; a. fr.—<he>משום</he> (<he>מפני</he>) <he>א׳</he> for the sake of preventing ill-feeling. ",
+				"<cite ref=\"Jerusalem Talmud Demai 4:1:6\">Y. Dem. IV, 24ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>aversion, disgust, loss of attraction</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 8:1:12\">Y. Yoma VIII, 44ᵈ</cite> bot. <he>הכלה מפני א׳</he> the bride (is permitted to wash her face on the Day of Atone.) that she may not lose her attraction."
+			],
+			"label": "2"
+		}
+	]
+}

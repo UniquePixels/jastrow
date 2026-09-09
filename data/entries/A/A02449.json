@@ -1,0 +1,24 @@
+{
+	"id": "A02449",
+	"slug": "אסכדיא",
+	"headword": {
+		"text": "אִסְכַּדְיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 94,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (σχεδία) <i>raft, float;</i> cmp. <cite ref=\"A02326\"><he>אַסְדָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:5:9\">Y. Ber. IV, 8ᶜ</cite> top <cite ref=\"A02459\"><he>אסכריא</he></cite> (corr. acc.). ",
+				"<cite ref=\"Mishnah Negaim 12:1\">Neg. XII, 1</cite> Var.; <cite ref=\"Nazir 55a\">Naz. 55ᵃ</cite> <he>אסקדיא</he> Mus. (ed. <he>אסקר׳</he>; <cite ref=\"Tosefta Ohalot 18:5\">Tosef. Ohol. XVIII, 5</cite> <cite ref=\"A01743\"><he>אכסרא</he></cite>). V. <cite ref=\"A01738\"><he>אַכְסַנְדַּרְיָא</he></cite> a. <cite ref=\"A02546\"><he>אִסְקַרְיָא</he></cite>."
+			]
+		}
+	]
+}

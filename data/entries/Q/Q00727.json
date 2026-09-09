@@ -1,0 +1,27 @@
+{
+	"id": "Q00727",
+	"slug": "פינוקא",
+	"headword": {
+		"text": "פִּינּוּקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּנּ׳"
+		}
+	],
+	"page": {
+		"number": 1165,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01210\"><he>פְּנַק</he></cite>) <i>treating too tenderly, spoiling</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 19:10\">Targ. Prov. XIX, 10</cite> (h. text <cite ref=\"V00786\"><he>תענוג</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "M02735",
+	"slug": "מרעי-1",
+	"headword": {
+		"text": "מַרְעֵי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "מִירְעָא"
+		},
+		{
+			"text": "מִרְ׳"
+		}
+	],
+	"page": {
+		"number": 845,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"M02733\"><he>מִרְעֶה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 13:7\">Targ. Y. I Gen. XIII, 7</cite>. Targ. II Esth. IV, 1.—Pl. <he>מִרְעַיָּיא</he>, <cite ref=\"M02735\"><he>מִירְ׳</he></cite>. ",
+				"<cite ref=\"Temurah 18a\">Tem. 18ᵃ</cite> <he>אפי׳ ממִירְעַיְיהוּ</he> even if you have to take them away from their pastures, v. <cite ref=\"M00641\"><he>מוֹרִיגָא</he></cite>.—[<cite ref=\"Targum Jonathan on Deuteronomy 33:24\">Targ. Y. Deut. XXXIII, 24</cite>, v. <he>רְעֵי</he> II.]"
+			]
+		}
+	]
+}

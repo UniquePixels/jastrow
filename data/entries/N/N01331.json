@@ -1,0 +1,55 @@
+{
+	"id": "N01331",
+	"slug": "נשם-2",
+	"headword": {
+		"text": "נְשַׁם"
+	},
+	"page": {
+		"number": 941,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N01330\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְנְשִׁים", "אִינְּשַׁם"],
+			"senses": [],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִינַּשַּׁם"],
+			"senses": [
+				{
+					"gloss": "<i>to take breath, to rest</i>. Pesik. B’shall., p. 93ᵃ <he>בעי את למִנַּשְּׁמָא וכ׳</he> wouldst thou rest a while?",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to recover, get well</i>. Y. Sabb. XIV, 14ᵈ bot.; Y. Ab. Zar. II, 40ᵈ <he>לחש … וא׳</he> he whispered …, and the person recovered, v. <cite ref=\"J00680\"><he>יֵשׁוּ</he></cite>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 11</cite> <he>כחול … ואת מִנַּשְּׁמָה</he> use my eye-paint, and thou shalt get well. Y. Kil. IX, 32ᵇ bot. <he>אִינַּשְּׁמַת</he> it (the tooth) was cured; Y. Keth. XII, 35ᵃ bot.; <cite ref=\"Bereishit Rabbah 33\">Gen. R. s. 33</cite> <cite ref=\"N01331\"><he>אִתְנְשִׁימַת</he></cite> (some ed. <he>אִתְנַשְּׁמִית</he> I feel better). ",
+						"<cite ref=\"Vayikra Rabbah 9\">Lev. R. s. 9</cite> <he>רוקי … ואנא מִינְּשִׁים</he> spit in my face seven times, and I shall be cured."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִינַּשְׁתֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to breathe, to give signs of life</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 134a\">Sabb. 134ᵃ</cite> <he>האי</he> … <he>דלא מִינַּשְׁתֵּם</he> Rashi a. Ms. O. (ed. <he>מנשתי</he>, <he>מנשתיה</he>; Rashi Ms. <he>מִנְּשִׁים</he>, v. Rabb. D. S. a. l. note 40; Ms. M. <he>מנשתין</he>) an infant which gives no signs of life."
+					]
+				}
+			],
+			"stem": "Ittafel."
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "G00317",
+	"slug": "זיוף",
+	"headword": {
+		"text": "זִיּוּף"
+	},
+	"page": {
+		"number": 392,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00224\"><he>זוּף</he></cite>, <i>Pi.</i>) <i>informality, fault</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 2:2:2\">Y. Gitt. II, 44ᵃ</cite> bot. <he>זה זִיּוּפוֹ מד״א</he> such a document (written in day-time and signed by night) would be defective on account of a condition not perceptible from the document itself, opp. <he>מזוייף מתוכו</he>, v. <cite ref=\"G00223\"><he>זוּף</he> I</cite>."
+			]
+		}
+	]
+}

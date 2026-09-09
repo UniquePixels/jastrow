@@ -1,0 +1,48 @@
+{
+	"id": "O01387",
+	"slug": "ספן-2",
+	"headword": {
+		"text": "סְפַן"
+	},
+	"page": {
+		"number": 1015,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01386\">same</cite><i>to brighten, scour</i>; v. <i>Ithpe.</i>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to regard</i>. Targ. II Esth. I, 12. Ib. VII, 9 (10).—3) <i>to look out for, provide, store</i>; (of a bird’s ovary) <i>to be fructified</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 7a:3\">Bets. 7ᵃ</cite> <he>ביעי דסַפְנָא מארעא</he> eggs laid by a hen that was fecundated by friction in the dust, v. <cite ref=\"D00793\"><he>דִּכְרָא</he></cite>. ",
+				"<cite ref=\"Chullin 58a:7\">Ḥull. 58ᵃ</cite> <he>בדספנא מארעא</he> if the hen was fructified by friction &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִסְתְּפַן"],
+			"senses": [
+				{
+					"gloss": "<i>to be brightened, scoured</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 6:21\">Targ. Y. Lev. VI, 21</cite> (cmp. ",
+						"<cite ref=\"Tosefta Niddah 8:11\">Tosef. Nidd. VIII, 11</cite> <he>הצפינן</he>, quot. s. v. <cite ref=\"R00676\"><he>צָפוֹן</he> I</cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be provided, laid in</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 11:9\">Koh. R. to XI, 9</cite> [read:] <he>עד דאִיסְתַּפְנוּן פריטוי</he> until the money which he owes is hatched (brought together); (Pesik. Shub., p. 164ᵇ <he>מתפשר</he>, v. <cite ref=\"Q02099\"><he>פְּשַׁר</he></cite>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

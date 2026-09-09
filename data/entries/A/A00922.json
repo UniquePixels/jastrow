@@ -1,0 +1,26 @@
+{
+	"id": "A00922",
+	"slug": "אושכי",
+	"headword": {
+		"text": "אוּשְׁכִּי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אַשְׁכִּי"
+		}
+	],
+	"page": {
+		"number": 35,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " a word in a charm formula, supposed to mean <i>day</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 67b:1\">Sabb. 67ᵇ</cite> <he>או׳</he> Ar. (ed. <he>אש׳</he>, Ms. M. <he>אושקי</he>). Cmp. ",
+				"<cite ref=\"Tosefta Shabbat 7:1\">Tosef. Sabb. VII</cite> (<cite ref=\"Tosefta Shabbat 8:1\">VIII</cite>), 1."
+			]
+		}
+	]
+}

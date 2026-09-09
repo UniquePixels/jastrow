@@ -1,0 +1,23 @@
+{
+	"id": "G00002",
+	"slug": "זאזא",
+	"headword": {
+		"text": "זָאזָא"
+	},
+	"page": {
+		"number": 377,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (reduplic. of <he>זא</he> = <cite ref=\"G00584\"><he>זע</he></cite>, v. <cite ref=\"G00217\"><he>זוּעַ</he></cite> a. <he>זעזע</he>) <i>foliage, spray; young twigs</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 14:9\">Targ. Job XIV, 9</cite>; a. e.—",
+				"<cite ref=\"Shabbat 20b:3\">Sabb. 20ᵇ</cite> (expl. <he>עצים של בבל</he>) <he>ז׳</he> dry twigs and leaves used as fuel."
+			]
+		}
+	]
+}

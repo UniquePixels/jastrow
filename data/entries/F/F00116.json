@@ -1,0 +1,48 @@
+{
+	"id": "F00116",
+	"slug": "ותר-2",
+	"headword": {
+		"text": "וְתַר"
+	},
+	"page": {
+		"number": 376,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"F00115\"><he>וַותֵּר</he></cite> l) <i>to give a surplus, to profit, avail</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 10:2\">Targ. Prov. X, 2</cite>.—2) <i>to be indulgent, to overlook</i>. ",
+						"<cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite>, beg. <he>אם אין את מְוַותֵּר ציבחר וכ׳</he> unless thou overlook something &c.; <cite ref=\"Bereishit Rabbah 49:2\">Gen. R. s. 49</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְוַותֵּר", "אִיוַּותֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be loosened</i>. Y. Bets. II, end, 62ᵇ <he>מאן דאמר … יִתְיַתְּרוּן בני מעוי וכ׳</he> whoever says, the Lord is lax in dealing out justice,—may his bowels become relaxed; He is merely long-suffering &c.; Y. Shek. V, 48ᵈ; Y. Taan. II, 65ᵇ bot.; <cite ref=\"Midrash Tehillim 10:3\">Midr. Till. to Ps. X, 2</cite> <he>לִיוַותְּרוּן מעוהי</he>; <cite ref=\"Esther Rabbah 7:25\">Esth. R. to III, 15</cite>; <cite ref=\"Esther Rabbah 4:1\">IV, 1</cite>; <cite ref=\"Yalkut Shimoni on Nach 1056:13\">Yalk. ib. 1056</cite> <he>יִוַּותְּרוּ מ׳</he> <cite ref=\"Yalkut Shimoni on Torah 115:19\">Yalk. Gen. 115</cite> <he>יִוַּתְּרוּ</he>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be declared free, outlawed;</i> v. <cite ref=\"F00115\">preced.</cite>",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

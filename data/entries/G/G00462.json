@@ -1,0 +1,25 @@
+{
+	"id": "G00462",
+	"slug": "זכייה-2",
+	"headword": {
+		"text": "זְכִיָּיה"
+	},
+	"page": {
+		"number": 399,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00443\"><he>זָכָה</he></cite>) <i>possession, taking possession, claim</i>. Y. Peah V, beg. 19ᵇ, v. <cite ref=\"E00759\"><he>הֶפְקֵר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 2:2:13\">Y. Pes. II, 29ᵃ</cite> top <he>מאן דאמר ז׳</he> according to the opinion that renounced property does not go out of the owner’s possession until somebody took possession of it. ",
+				"<cite ref=\"Bava Kamma 12b:11\">B. Kam. 12ᵇ</cite> <he>אית להו לכהנים ז׳ בגויה</he> Ms. M. (ed. <he>בגוייהו</he>) the priests have a claim on it. ",
+				"<cite ref=\"Bava Kamma 12b:11\">Ib.</cite> <he>ולית להו זכיה</he> Ms. M. (omitted in ed.). ",
+				"<cite ref=\"Bava Metzia 12a:11\">B. Mets. 12ᵃ</cite> <he>אית ליה ז׳ לנפשיה</he> has a right to take possession in his own behalf; a. e."
+			]
+		}
+	]
+}

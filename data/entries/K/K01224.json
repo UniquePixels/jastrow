@@ -1,0 +1,26 @@
+{
+	"id": "K01224",
+	"slug": "כרכשא",
+	"headword": {
+		"text": "כַּרְכְּשָׁא"
+	},
+	"page": {
+		"number": 670,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>כַּרְכֵּשׁ</he> I) <i>large intestines, great-gut and rectum</i>). ",
+			"units": [
+				"<cite ref=\"Shabbat 82a\">Sabb. 82ᵃ</cite> [read with Rashi:] <he>האי כ׳ … יתיב</he> (or with Ms. O. <he>כַּרְכַּשְׁתָּא … יתבא</he>, v. Rabb. D. S. a. l. note) the rectum is supported by three teeth-like glands. ",
+				"<cite ref=\"Shabbat 82a:2\">Ib.</cite> <he>שיני דכרכשתא</he> the glands of &c. ",
+				"<cite ref=\"Gittin 57a\">Gitt. 57ᵃ</cite>; <cite ref=\"Berakhot 62b:6\">Ber. 62ᵇ</cite> <he>שמטיה לכַרְכְּשֵׁיה</he> he dropped his gut (from fright). ",
+				"<cite ref=\"Chullin 49b:13\">Ḥull. 49ᵇ</cite> <he>חיטי דכ׳</he> the fat glands surrounding the large intestines. ",
+				"<cite ref=\"Chullin 113a:11\">Ib. 113ᵃ</cite> <he>כ׳ ומעייא</he> great-gut and (small) intestines."
+			]
+		}
+	]
+}

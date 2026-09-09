@@ -1,0 +1,22 @@
+{
+	"id": "A03200",
+	"slug": "ארנטוס",
+	"headword": {
+		"text": "אָרְנָטוּס"
+	},
+	"page": {
+		"number": 123,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ornatus, ὀρνᾶτος) <i>decoration</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 4:1\">Lam. R. to IV, 1</cite> <he>שהיה דומה לא׳ של זהב</he> (ed. <cite ref=\"A03201\"><he>ארנטס</he></cite>, <cite ref=\"A03036\"><he>ארונטס</he></cite>) who was (to the nation) like a gold decoration."
+			]
+		}
+	]
+}

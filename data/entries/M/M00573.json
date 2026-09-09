@@ -1,0 +1,26 @@
+{
+	"id": "M00573",
+	"slug": "מוצא-2",
+	"headword": {
+		"text": "מוֹצָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 746,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. constr. <he>מוֹצָאֵי</he> (b. h.; <i>exit</i>; <he>מ׳ שבת</he> (abbrev. <he>מו״ש</he>, <he>מוצ״ש</he>) the night following the Sabbath; <he>מ׳ יו״ט</he> the night following a Holy Day. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 3:5\">Tosef. Sabb. III, 5</cite>; <cite ref=\"Chullin 15a\">Ḥull. 15ᵃ</cite>, a. e. <he>יאכל במו״ש</he> (or <he>למו״ש</he>) may be eaten after the Sabbath is past. ",
+				"<cite ref=\"Beitzah 30b:11\">Bets. 30ᵇ</cite>; <cite ref=\"Shabbat 45a:4\">Sabb. 45ᵃ</cite> <he>עד מ׳ יו״ט האחרון וכ׳</he> not before the end of the last day of the (Succoth) festival; a. v. fr.—<he>מ׳ שביעית</he> the period beginning with the end of the Sabbatical year. ",
+				"<cite ref=\"Mishnah Sheviit 4:2\">Shebi. IV, 2</cite>. ",
+				"<cite ref=\"Rosh Hashanah 9a\">R. Hash. 9ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

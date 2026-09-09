@@ -1,0 +1,23 @@
+{
+	"id": "K00168",
+	"slug": "כהני",
+	"headword": {
+		"text": "כֹּהֲנִי"
+	},
+	"page": {
+		"number": 615,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"K00163\"><he>כֹּהֵן</he></cite>) <i>one proving priestly descent, belonging to the priestly caste</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 4:1\">Kidd. IV, 1</cite>; <cite ref=\"Yevamot 37a:15\">Yeb. 37ᵃ</cite> (collective noun).—Pl. <cite ref=\"K00168\"><he>כֹּהֲנִים</he></cite>. ",
+				"<cite ref=\"Yevamot 85a:5\">Ib. 85ᵃ</cite>; v. <cite ref=\"J00708\"><he>יִשְׂרְאֵלִי</he></cite>."
+			]
+		}
+	]
+}

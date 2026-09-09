@@ -1,0 +1,29 @@
+{
+	"id": "M00125",
+	"slug": "מגדנין",
+	"headword": {
+		"text": "מִגְדָּנִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַגְ׳"
+		}
+	],
+	"page": {
+		"number": 726,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. ch. (v. <cite ref=\"M00116\"><he>מֶגֶד</he></cite>) <i>precious goods</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 24:53\">Targ. O. Gen. XXIV, 53</cite> (Y. <he>דורונין</he>, h. text <he>מגדנות</he>). ",
+				"<cite ref=\"Onkelos Deuteronomy 33:13\">Targ. O. Deut. XXXIII, 13</cite>, sq., v. <cite ref=\"M00117\"><he>מַגְדָּא</he></cite>."
+			]
+		}
+	]
+}

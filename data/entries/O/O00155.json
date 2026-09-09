@@ -1,0 +1,33 @@
+{
+	"id": "O00155",
+	"slug": "סגן-2",
+	"headword": {
+		"text": "סְגַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִגְנָא"
+		},
+		{
+			"text": "סִי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 955,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00154\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 52:24\">Targ. Jer. LII, 24</cite> <he>ס׳ כהניא</he> (h. text <he>כהן המשנה</he>), v. preced.—",
+				"<cite ref=\"Targum Jonathan on II Kings 23:4\">Targ. II Kings XXIII, 4</cite> (h. text <i>pl.</i>); a. fr.—<i>Pl.</i> <he>סִגְנִין</he>, <cite ref=\"O00928\"><he>סִגְנַיָּא</he></cite>, <he>סִגְנַיָּה</he>, <cite ref=\"O00568\"><he>סִגְנֵי</he></cite>, <cite ref=\"O00067\"><he>סִי׳</he></cite>. ",
+				"<cite ref=\"Targum of I Chronicles 18:16\">Targ. I Chr. XVIII, 16</cite>.—",
+				"<cite ref=\"Sanhedrin 110a:2\">Snh. 110ᵃ</cite> <he>ס׳ דכהנא</he> (Ms. M. <he>סגני כהנים</he>, v. Rabb. D. S. a. l. note). ",
+				"<cite ref=\"Sanhedrin 106a\">Ib. 106ᵃ</cite>, v. <cite ref=\"G00579\"><he>זְנֵי</he></cite>. ",
+				"<cite ref=\"Esther Rabbah 1:15\">Esth. R. to I, 3</cite>, v. <cite ref=\"I00613\"><he>טָעֲמָא</he></cite>."
+			]
+		}
+	]
+}

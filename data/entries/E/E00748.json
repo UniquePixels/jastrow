@@ -1,0 +1,35 @@
+{
+	"id": "E00748",
+	"slug": "הפלאה",
+	"headword": {
+		"text": "הַפְלָאָה"
+	},
+	"page": {
+		"number": 362,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00925\"><he>פָּלָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>distinction, peculiarity, use of the word</i> <he>פלא</he>. ",
+			"units": [
+				"<cite ref=\"Shabbat 138b:9\">Sabb. 138ᵇ</cite> <he>ה׳ זו וכ׳</he> this peculiarity of punishment (<cite ref=\"Deuteronomy 28:59\">Deut. XXVIII, 59</cite>) &c.; <he>ה׳ זו תורה</he> it means the Law (afflictions causing the Law to be forgotten, ref. to <cite ref=\"Isaiah 29:14\">Is. XXIX, 14</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>distinct and solemn specification of a vow</i> (from <cite ref=\"Leviticus 27:2\">Lev. XXVII, 2</cite>; <cite ref=\"Numbers 6:2\">Num. VI, 2</cite>; v. <cite ref=\"A02495\"><he>אִיסְפְּלִיאָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Tosefta Nazir 3:19\">Tosef. Naz. III, 19</cite> <he>לא ניתנה נזירות אלא לה׳</he> the law of the <i>nazir’s</i> vow applies only to distinct utterance (where there is no doubt); <cite ref=\"Nazir 34a\">Naz. 34ᵃ</cite>; a. e.—",
+				"<cite ref=\"Nazir 62a:12\">Ib. 62ᵃ</cite> of the two <i>ki yafli</i> (Lev. l. c. Num. l. c.) <he>אחד ה׳ לאיסור ואחד ה׳ וכ׳</he> one intimates a distinct binding expression, and one a distinctness which opens the way to absolution (v. <he>הֲָטָה</he>); <cite ref=\"Chagigah 10a:6\">Ḥag. 10ᵃ</cite> <he>אחת ה׳ וכ׳</he>."
+			],
+			"label": "2"
+		}
+	]
+}

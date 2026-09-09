@@ -1,0 +1,31 @@
+{
+	"id": "T00788",
+	"slug": "רמאי-1",
+	"headword": {
+		"text": "רַמַּאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רַמַּיי"
+		}
+	],
+	"page": {
+		"number": 1481,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>רָמָה</he> <i>Pi.</i>) <i>deceiver, impostor</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 3:4\">B. Mets. III, 4</cite>, sq., v. <cite ref=\"Q01231\"><he>פָּסַד</he></cite>. ",
+				"<cite ref=\"Devarim Rabbah 4:8\">Deut. R. s. 4</cite> <he>ולא שהיה ר׳ ח״ו וכ׳</he> not that, which God forbid, he was a deceiver, v. <cite ref=\"T00808\"><he>רָמָה</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 63:4\">Gen. R. s. 63</cite> (play on <he>ארמי</he>, <cite ref=\"Genesis 25:20\">Gen. XXV, 20</cite>) <he>אביה ר׳ ואחיה ר׳ וכ׳</he> her father was a deceiver, and her brother was a deceiver, and so were all the men of her place, v. <cite ref=\"T00813\"><he>רַמָּיוּת</he></cite>; a. fr.—Pl. <he>רַמָּאִים</he>, <he>רַמָּאִין</he>, <he>רַמָּיִין</he>. ",
+				"<cite ref=\"Ketubot 68a\">Keth. 68ᵃ</cite>, a. e., v. <cite ref=\"H00553\"><he>חָזַק</he></cite>. ",
+				"<cite ref=\"Mishnah Demai 3:5\">Dem. III, 5</cite>, v. <cite ref=\"A01049\"><he>אַחֲרָאִי</he></cite>; Y. Maasr. V, 51ᵈ; a. fr."
+			]
+		}
+	]
+}

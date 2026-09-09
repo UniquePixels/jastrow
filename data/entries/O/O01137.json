@@ -1,0 +1,32 @@
+{
+	"id": "O01137",
+	"slug": "סמר-2",
+	"headword": {
+		"text": "סְמַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1003,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"O01136\"><he>סַמֵּר</he></cite> same.—Part. pass. <cite ref=\"M01969\"><he>מְסַמַּר</he></cite>, <cite ref=\"M01970\"><he>מְסַמְּרָא</he></cite>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Chagigah 3:1:3\">Y. Ḥag. III, beg. 78ᵈ</cite> <he>עד … כיפא מ׳</he> to this day it is called the nail-studded rock."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

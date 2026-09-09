@@ -1,0 +1,41 @@
+{
+	"id": "H00558",
+	"slug": "חזקיה",
+	"headword": {
+		"text": "חִזְקִיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִזְקִיָּהוּ"
+		}
+	],
+	"page": {
+		"number": 446,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Ezekiah, Hizkiah, Hizkiahu;</i> ",
+			"units": []
+		},
+		{
+			"gloss": " King of Judæa. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 98b:12\">Snh. 98ᵇ</cite>. ",
+				"<cite ref=\"Bava Batra 15a:2\">B. Bath. 15ᵃ</cite> <he>ח׳ וסיעתו וכ׳</he> Ez. and his assistants edited the books of Isaiah, Proverbs &c.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Zevachim 75b:7\">Zeb. 75ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 8:2:5\">Y. Shebi. VIII, 38ᵃ</cite> top; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 3:9:24\">Y. Snh. III, 21ᵈ</cite> <he>ח׳ חוקוק</he> (v. Fr. M’bo, p. 81ᵇ).—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 14:4:5\">Y. Sabb. XIV, 14ᵈ</cite> top.—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 3:6:3\">Y. Shebi. III, 34ᵈ</cite> top."
+			],
+			"label": "2"
+		}
+	]
+}

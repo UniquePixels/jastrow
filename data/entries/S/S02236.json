@@ -1,0 +1,122 @@
+{
+	"id": "S02236",
+	"slug": "קשי-2",
+	"headword": {
+		"text": "קְשֵׁי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְשֵׁה"
+		},
+		{
+			"text": "קְשָׁא"
+		}
+	],
+	"page": {
+		"number": 1430,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S02235\">same</cite><i>to be hard, difficult</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 1:17\">Targ. Deut. I, 17</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 15:18\">Ib. XV, 18</cite>; a. e.—",
+				"<cite ref=\"Yoma 28b:16\">Yoma 28ᵇ</cite> <he>קָשׁוּ משמשא</he> are harder (on the eye) &c., v. <cite ref=\"U00184\"><he>שַׁבְרִירֵי</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to find a thing difficult to understand, to object, argue against, dispute</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 5:1:13\">Y. Ter. V, 43ᶜ</cite> bot. <he>ר׳ סימון קַשְׁיְיתָהּ … קיימה</he> R. Simon argued against it (refuted it), but R. Ba. … proved it to be correct. Y. Kidd. III, 64ᶜ top [read:] <he>לא כבר קְשׁוּנְתָּהּ הרי עולם לא כבר קַשְׁיְתָהּ וכ׳</he> have not mountains of the world (great scholars) disputed it? did not R. El. dispute it in the presence of &c.; Y. Ned. VIII, 40ᵈ sq. (corr. acc.). ",
+				"<cite ref=\"Bava Kamma 66b:14\">B. Kam. 66ᵇ</cite> <he>האי מילתא ק׳ בה רבה לרב וכ׳</he> Rabbah argued this difficulty before R. Joseph for twenty-two years, and it was not solved; <cite ref=\"Ketubot 42b:9\">Keth. 42ᵇ</cite> <he>האי</he> … <he>קְשָׁאֵי רבה ורב וכ׳</he> Rabbah and R. Joseph discussed this difficulty &c.—Part. <cite ref=\"S02238\"><he>קָשֵׁי</he></cite>; f. <cite ref=\"S02238\"><he>קַשְׁיָא</he></cite>, q. v."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to get old</i>, v. <cite ref=\"S02269\"><he>קְשַׁשׁ</he> II</cite>.",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַשֵּׁי"],
+			"senses": [
+				{
+					"gloss": "<i>to be in pain of travailing</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 35:17\">Targ. Gen. XXXV, 17</cite> <he>בקַשָּׁיוּתָהּ</he> (not <he>בקַשְׁיוּ׳</he>). ",
+						"<cite ref=\"Onkelos Genesis 35:16\">Targ. O. ib. 16</cite> (Y. II <i>Ithpa.</i>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to perplex</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 78b:15\">Pes. 78ᵇ</cite> <he>מתניתן קַשִּׁיתֵיה וכ׳</he> the Mishnah perplexed him; why does it read &c."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַקְשֵׁי", "אַקְשֵׁה"],
+			"senses": [
+				{
+					"gloss": "<i>to harden, make difficult</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 7:3\">Targ. Ex. VII, 3</cite>. ",
+						"<cite ref=\"Targum Jonathan on II Kings 2:10\">Targ. II Kings II, 10</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Kings 12:4\">Targ. I Kings XII, 4</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 95:8\">Targ. Ps. XCV, 8</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be hard on, press heavily</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 2:16:2\">Cant. R. to II, 16</cite> <he>כד הוה צערא קשי עלוי … וכד הוה מַקְשֵׁי וכ׳</he> when his suffering was severe, he said, God the faithful, but when it was severer on him than necessary &c."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to argue against, object, dispute</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 6:6\">Targ. Job VI, 6</cite> Ms. Var. <he>מדלית מַקְשׁה עליה</he> when there is none to dispute it.—",
+						"<cite ref=\"Yevamot 77a:1\">Yeb. 77ᵃ</cite> top <he>א׳ להו דואג כל הני קושייתא</he> Doeg brought up before them all those arguments. Y. Yoma I, 38ᵈ bot. <he>עד דאת מַקְשֵׁי … קְשַׁיְיתָהּ על וכ׳</he> (not <cite ref=\"S02248\"><he>קשייתא</he></cite>) instead of offering objection against R. J., rather offer it against &c.; a. v. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְקֵשֵּׁי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיקְּשֵׁי"],
+			"senses": [
+				{
+					"gloss": "<i>to be in pain of travailing</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Genesis 35:16\">Targ. Y. II, Gen. XXXV, 16</cite>, v. supra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be difficult, perplexing</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 40a:26\">Yeb. 40ᵃ</cite> <he>ומִיקְּשֵׁה היא דאיקשי לך וכ׳</he> (Rashi <he>דקשיא</he>) it was perplexing to thee, and thou didst reverse it."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

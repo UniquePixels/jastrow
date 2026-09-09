@@ -1,0 +1,24 @@
+{
+	"id": "M02956",
+	"slug": "משקדי",
+	"headword": {
+		"text": "מִשְׁקְדֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 858,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"U01829\"><he>שקד</he></cite>) <i>guards</i>; <he>מ׳ חלזוני</he> <i>snail-shells</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 28b:3\">Ab. Zar. 28ᵇ</cite> ed. (Ms. M. a. Ar. <cite ref=\"M02968\"><he>משקרי</he></cite>)."
+			]
+		}
+	]
+}

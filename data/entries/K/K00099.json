@@ -1,0 +1,38 @@
+{
+	"id": "K00099",
+	"slug": "כד-2",
+	"headword": {
+		"text": "כַּד",
+		"homograph": 2
+	},
+	"page": {
+		"number": 612,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>כדד</he>, cmp. <cite ref=\"K00146\"><he>כָּדַר</he></cite>, <i>to be rounded</i>) ",
+			"units": []
+		},
+		{
+			"gloss": " (adj.) <i>arched</i>, opp. <cite ref=\"H00168\"><he>חד</he></cite> pointed. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 40a:8\">Ab. Zar. 40ᵃ</cite>; <cite ref=\"Chullin 64a:6\">Ḥull. 64ᵃ</cite>, v. <cite ref=\"H00168\"><he>חַד</he> I</cite>.—Pl. <cite ref=\"K00105\"><he>כַּדִּין</he></cite>, <cite ref=\"Chullin 64a:6\">Ib.</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " c. (b. h.) <i>an arched, pouched vessel, jug</i> &c.; cmp. <cite ref=\"H00080\"><he>חָבִית</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 12:21\">Num. R. s. 12</cite> <he>מתגלגל ככד</he> rolling like a jug. ",
+				"<cite ref=\"Mishnah Bava Kamma 3:1\">B. Kam. III, 1</cite> (identical with <cite ref=\"H00080\"><he>חבית</he></cite>). ",
+				"<cite ref=\"Tosefta Keilim Metsia 10:1\">Tosef. Kel. B. Mets. X, 1</cite> <he>כַּדּוֹ ריקנית</he> (fem.) one’s vessel when empty; a. fr.—Pl. <cite ref=\"K00121\"><he>כַּדִּים</he></cite>, <cite ref=\"K00105\"><he>כַּדִּין</he></cite>. Tanḥ. Vayigg. 11 (ref. to <cite ref=\"Psalms 16:7\">Ps. XVI, 7</cite>) <he>נעשו … כשתי כ׳ של מים וכ׳</he> his two kidneys became like two water pitchers and they were giving forth a flow of religious wisdom; <cite ref=\"Psalms 16:7\">ib.</cite> ed. Bub. 12 <cite ref=\"U01360\"><he>שלמים</he></cite> (corr. acc.); <cite ref=\"Bereishit Rabbah 61:7\">Gen. R. s. 61</cite> <he>כמין שני רבנים</he> (corr. acc.); <cite ref=\"Midrash Tehillim 1:20\">Midr. Till. to Ps. I</cite> <he>כעין שני כדים</he> ed. Bub. (oth. ed. <he>כשני רבנן</he>, corr. acc.); Ab. d’R. Nath. ch. XXXIII <he>חכמים</he> (corr. acc.).—",
+				"<cite ref=\"Mishnah Ketubot 13:4\">Keth. XIII, 4</cite> <he>כַּדֵּי שמן</he> vessels with oil, opp. <he>קנקנים</he> empty vessels; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

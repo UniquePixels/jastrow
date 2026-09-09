@@ -1,0 +1,39 @@
+{
+	"id": "A02510",
+	"slug": "אספסתא",
+	"headword": {
+		"text": "אַסְפַּסְתָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 96,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (reduplic. of <cite ref=\"O01308\"><he>סף</he></cite>, v. <cite ref=\"O01348\"><he>ספי</he></cite>; cmp. b. h. <he>מִסְפּוֹא</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fodder for cattle</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 24:25\">Targ. Y. Gen. XXIV, 25</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (in Talm. Bab.) <i>any plant especially adapted for fodder, grass</i> (Pers. <i>ifsist, clover</i>, prob. an adaptation of our w.; v. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 93a:8\">Snh. 93ᵃ</cite>: ‘to import <he>ביזרא דא׳</he> <i>aspasta</i>-seed’; Yalk. Dan. 1060 <he>מא׳</he>, corr. acc.). ",
+				"<cite ref=\"Yevamot 121b:18\">Yeb. 121ᵇ</cite> <he>קטול א׳</he> cut grass. ",
+				"<cite ref=\"Bava Kamma 20a:7\">B. Kam. 20ᵃ</cite>; <cite ref=\"Avodah Zarah 28b:5\">Ab. Zar. 28ᵇ</cite> <he>פתילה דא׳</he> long stalks of asp.—",
+				"<cite ref=\"Avodah Zarah 28b:6\">Ib.</cite> <he>משחא דא׳</he> (Ms. a. old ed. <he>דאפרסמא</he>). ",
+				"<cite ref=\"Bava Batra 28b:10\">B. Bath. 28ᵇ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

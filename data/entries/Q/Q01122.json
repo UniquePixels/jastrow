@@ -1,0 +1,24 @@
+{
+	"id": "Q01122",
+	"slug": "פלצור",
+	"headword": {
+		"text": "פְּלָצוּר",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1185,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. a kind of <i>snare</i> (Arab. <i>wahaḳ</i>). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 23:5\">Kel. XXIII, 5</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 762\">Yalk. Num. 762</cite> (gloss: <he>עגול הקרון</he> <i>wheel</i>; Syr. <he>פלצורא</he>, <he>פלסורא</he> <i>press</i>, P. Sm. 3161, sq.)."
+			]
+		}
+	]
+}

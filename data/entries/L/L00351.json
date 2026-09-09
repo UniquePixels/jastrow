@@ -1,0 +1,45 @@
+{
+	"id": "L00351",
+	"slug": "לחינתא",
+	"headword": {
+		"text": "לְחֵינְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְחֵנְתָא"
+		},
+		{
+			"text": "לְחֵינָ׳"
+		}
+	],
+	"page": {
+		"number": 703,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>לחן</he>, cmp. <cite ref=\"L00234\"><he>לוח</he></cite>, <i>to join</i>; cmp. <cite ref=\"G00121\"><he>זוּג</he></cite>, <cite ref=\"L00254\"><he>לְוִיָּה</he> II</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>concubine</i> (= h. <cite ref=\"Q00954\"><he>פלגש</he></cite>); ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>maid-servant</i> (= h. <he>אמה</he>). ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 35:22\">Targ. O. Gen. XXXV, 22</cite> (some ed. … <he>תָּא</he>). ",
+				"<cite ref=\"Targum Jonathan on Judges 8:31\">Targ. Jud. VIII, 31</cite>; a. e.—Pl. <cite ref=\"L00350\"><he>לְחֵינָן</he></cite>, <cite ref=\"L00351\"><he>לְחֵינָתָא</he></cite>, <cite ref=\"L00351\"><he>לְחֵנָ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 11:3\">Targ. I Kings XI, 3</cite>. ",
+				"<cite ref=\"Onkelos Genesis 25:6\">Targ. O. Gen. XXV, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 20:17\">Targ. Y. ib. XX, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 19:15\">Targ. Job XIX, 15</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

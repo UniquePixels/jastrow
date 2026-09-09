@@ -1,0 +1,34 @@
+{
+	"id": "V00076",
+	"slug": "תברתא",
+	"headword": {
+		"text": "תְּבַרְתָּא"
+	},
+	"page": {
+		"number": 1646,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"V00072\"><he>תַּבְרָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>contradiction, refutation, answer</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 2b:14\">Ab. Zar. 2ᵇ</cite> <he>ועל דא תְּבַרְתְּהוֹן וכ׳</he> and the answer given them on this plea is: why would you not accept (the Law when it was offered you)?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = <i>receipt</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 56a:13\">Keth. 56ᵃ</cite> <he>דילמא מירכס ת׳ וכ׳</he> the receipt on account may get lost, and he (the creditor) may produce the note and collect the whole amount."
+			],
+			"label": "2"
+		}
+	]
+}

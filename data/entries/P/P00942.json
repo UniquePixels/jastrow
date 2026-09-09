@@ -1,0 +1,36 @@
+{
+	"id": "P00942",
+	"slug": "ענב-3",
+	"headword": {
+		"text": "עֵנָב"
+	},
+	"page": {
+		"number": 1091,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (b. h.; <cite ref=\"P00941\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>grapes with the tendrils</i>, also <i>berry</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 11:6:2\">Y. Ned. XI, 42ᵈ</cite> <he>קונם תאנה</he> … <he>ועוד ע׳</he> I swear that I will not taste figs and furthermore (after thirty days) grapes.—Pl. <he>עֲנָבִים</he>, <he>עֲנָבִין</he>; const. <he>עִנְּבֵי</he>, <cite ref=\"P00072\"><he>עִי׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 11:6:2\">Ib.</cite> ",
+				"<cite ref=\"Bereishit Rabbah 19:12\">Gen. R. s. 19</cite> <he>סחטה ע׳ וכ׳</he> she (Eve) pressed grapes and gave him the juice to drink. ",
+				"<cite ref=\"Pesachim 49a:7\">Pes. 49ᵃ</cite> <he>משל לע׳ הגפן בע׳ הגפן</he> (a marriage between a scholar and a scholar’s daughter is) like bunches of grapes combined with bunches of grapes; <he>לע׳ הגפן בע׳ הסנה</he> (a scholar married to an ignorant man’s daughter is) like a bunch of grapes with berries of thorns. ",
+				"<cite ref=\"Sanhedrin 99a:16\">Snh. 99ᵃ</cite> <he>יין המשומר בעֲנָבָיו מששת וכ׳</he> wine preserved in its grapes from the six days of creation (future reward of scholars); <cite ref=\"Berakhot 34b:32\">Ber. 34ᵇ</cite>.—",
+				"<cite ref=\"Mishnah Sukkah 3:2\">Succ. III, 2</cite> <he>ענביו מרובות מעליו</he> if the berries on the myrtle exceed its leaves; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. σταφύλωμα) <i>a growth on the eye</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 6:2\">Bekh. VI, 2</cite> <he>ועֵינָב</he> (Ar. <he>וענב</he>; Bab. ed. 38ᵃ <he>עצב</he>, corr. acc.); ib.ᵇ <he>עצב</he> (corr. acc.); Sifra Emor, ch. II, Par. 3 <cite ref=\"P00622\"><he>עֵינָיו</he></cite> (Rab. <he>ענב</he>); v. <cite ref=\"A01367\"><he>אֵינָב</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

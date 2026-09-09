@@ -1,0 +1,22 @@
+{
+	"id": "U00959",
+	"slug": "שימוע",
+	"headword": {
+		"text": "שִׁימּוּעַ"
+	},
+	"page": {
+		"number": 1563,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01511\"><he>שָׁמַע</he></cite>) <i>announcement</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 1:1:4\">Y. Shek. I, beg. 45ᵈ</cite> <he>ש׳ שקלים וכ׳</he> the announcement concerning the contributions for the Temple (Sh’kalim) and concerning mixed seeds (v. <cite ref=\"U01511\"><he>שָׁמַע</he></cite> <i>Hif.</i>)."
+			]
+		}
+	]
+}

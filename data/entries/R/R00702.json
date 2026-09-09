@@ -1,0 +1,73 @@
+{
+	"id": "R00702",
+	"slug": "צפן",
+	"headword": {
+		"text": "צָפַן"
+	},
+	"page": {
+		"number": 1297,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"R00672\"><he>צָפָה</he></cite>)<i>to look up to, respect, regard</i>, v. <cite ref=\"O01386\"><he>סָפַן</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to provide, store away, reserve, guard; to hide</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 7\">Deut. R. s. 7</cite> (ref. to <cite ref=\"Proverbs 2:1\">Prov. II, 1</cite>) <he>אתם צוֹפְנִים … ואני צוֹפֵן וכ׳</he> you treasure up learning and good deeds with me in this world, and I treasure up for you good reward in the hereafter (ref. to <cite ref=\"Psalms 31:20\">Ps. XXXI, 20</cite>); <cite ref=\"Shir HaShirim Rabbah 7:14\">Cant. R. to VII, 14</cite>; a. e.—Part. pass. <cite ref=\"R00676\"><he>צָפוּן</he></cite>; f. <cite ref=\"R00679\"><he>צְפוּנָה</he></cite>; pl. <he>צְפוּנִים</he>, <he>צְפוּנִין</he>; <he>צְפוּנוֹת</he>. ",
+				"<cite ref=\"Midrash Mishlei 2:1\">Midr. Prov. to ch. II</cite> <he>אם זכיתם להַצְפִּין תורתי … מטוב הצ׳ וכ׳</he> if you do well, guarding my Law (making provision for the study of the Law), I will satisfy you out of the good which is reserved for the hereafter (ref. to Ps. l. c.). ",
+				"<cite ref=\"Vayikra Rabbah 2:11\">Lev. R. s. 2</cite> (ref. to <he>צפנה וכ׳</he>, <cite ref=\"Leviticus 1:11\">Lev. I, 11</cite>) <he>כנגד מעשיהם … שהם צ׳ לפניו</he> this is typical of the deeds of Abraham …, which are stored up before him (the Lord, for the benefit of their descendants); v. <cite ref=\"R00679\"><he>צְפוּנָה</he></cite>. Midr. Prov. l. c. (ref. to <he>יצפן</he>, ib. II, 7) <he>משעה שאדם … צ׳ לו</he> while man is formed in his mother’s womb, (the reward for) the Law which he will study is reserved for him. ",
+				"<cite ref=\"Sukkah 52a:9\">Succ. 52ᵃ</cite> (play on <he>הצפוני</he>, <cite ref=\"Joel 2:20\">Joel II, 20</cite>) <he>זה יצר הרע שצ׳ ועומד בלבו וכ׳</he> that means the evil inclination that constantly lies in waiting in the heart of man. ",
+				"<cite ref=\"Bereishit Rabbah 90:4\">Gen. R. s. 90</cite>; <cite ref=\"Yalkut Shimoni on Torah 148:2\">Yalk. ib. 148</cite>, v. <cite ref=\"J00511\"><he>יָפַע</he></cite>; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִצְפַּן"],
+			"senses": [
+				{
+					"gloss": "<i>to be reserved, kept</i>. Tanḥ. ed. Bub. Yithro 8 <he>ונ׳ לשלש וכ׳</he> and he (Moses) was reserved for three months (for the giving of the Law in the third month, <cite ref=\"Exodus 19:1\">Ex. XIX, 1</cite>); <cite ref=\"Yalkut Shimoni on Torah 271\">Yalk. Ex. 271</cite>; <cite ref=\"Yalkut Shimoni on Torah 271:1\">ib.</cite> <he>ונצפון</he> (corr. acc.).",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִצְפִּין"],
+			"senses": [
+				{
+					"gloss": "<i>to guard, provide; to remove, hide</i>. Midr. Prov. l. c., v. supra. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 1\">Deut. R. s. 1</cite> (play on <he>צפנה</he>, <cite ref=\"Deuteronomy 2:3\">Deut. II, 3</cite>) <he>הַצְפִּינוּ עצמיכם ממנו</he> hide yourselves from him; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"R00677\"><he>צָפוֹן</he> II</cite>) <i>to turn north</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 25b:8\">B. Bath. 25ᵇ</cite> <he>יַצְפִּין</he> let him turn towards the north (in prayer)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"R00676\"><he>צָפוֹן</he> I</cite>) <i>to brighten, cleanse with soap</i>, v. <cite ref=\"R00676\"><he>צָפוֹן</he> I</cite>. I.",
+					"units": [],
+					"label": "3"
+				},
+				{
+					"gloss": " (in enigmatic speech) <i>to enlighten</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 53b:14\">Erub. 53ᵇ</cite> <he>הַצְפִּינֵנוּ היכן</he> … <he>צפון</he> ‘unhide’ unto us where R. … is hidden; [Rashi refers to <cite ref=\"R00672\"><he>צָפָה</he></cite>, with emphatic <cite ref=\"N00001\"><he>נ</he></cite>]."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

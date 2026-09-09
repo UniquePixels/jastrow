@@ -1,0 +1,27 @@
+{
+	"id": "G00206",
+	"slug": "זונית",
+	"headword": {
+		"text": "זוֹנִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְוָנִית"
+		}
+	],
+	"page": {
+		"number": 388,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., pl. <he>זוֹנִיּוֹת</he> (v. <cite ref=\"G00194\"><he>זֶוֶן</he></cite>) <i>outfit, armour</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 33:1\">Pesik. R. s. 33</cite>, v. <cite ref=\"G00199\"><he>זוֹנִי</he></cite>."
+			]
+		}
+	]
+}

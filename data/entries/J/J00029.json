@@ -1,0 +1,29 @@
+{
+	"id": "J00029",
+	"slug": "יבב-1",
+	"headword": {
+		"text": "יָבַב"
+	},
+	"page": {
+		"number": 560,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to break forth</i>, cmp. <he>רעע</he>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יִבֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to speak in a trembling voice, to lament</i>. Y. Yeb. XVI, 15ᵈ <he>מְיַבַּבְתּוֹ בין המתים</he> calling his name, in lamentation, among those of deceased persons; (<cite ref=\"Tosefta Yevamot 14:7\">Tosef. ib. XIV, 7</cite> <he>מַזְכַּרְתּוֹ</he>).",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

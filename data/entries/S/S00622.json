@@ -1,0 +1,23 @@
+{
+	"id": "S00622",
+	"slug": "קורנית",
+	"headword": {
+		"text": "קוֹרָנִית"
+	},
+	"page": {
+		"number": 1343,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"S02102\"><he>קֶרֶן</he></cite>) <i>thyme</i> or <i>origanum</i> (v. Löw, Pfl., pp. 181; 329). ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 14:12\">Tosef. Sabb. XIV</cite> (<cite ref=\"Tosefta Shabbat 15:12\">XV</cite>), 12; <cite ref=\"Shabbat 128a:14\">Sabb. 128ᵃ</cite>; Y. ib. VIII, 11ᵇ. ",
+				"<cite ref=\"Mishnah Maasrot 3:9\">Maasr. III, 9</cite>; <cite ref=\"Jerusalem Talmud Demai 1:1:10\">Y. Dem. I, beg. 21ᶜ</cite>; a. e."
+			]
+		}
+	]
+}

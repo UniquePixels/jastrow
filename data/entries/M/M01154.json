@@ -1,0 +1,39 @@
+{
+	"id": "M01154",
+	"slug": "מיכלא",
+	"headword": {
+		"text": "מֵיכְלָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵיכְלָה"
+		}
+	],
+	"page": {
+		"number": 773,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<he>אֲבַל</he> II, <cite ref=\"B00612\"><he>בּוּל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>measure</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 26:43\">Targ. Y. I Lev. XXVI, 43</cite> (<cite ref=\"Targum Jonathan on Leviticus 2\">II</cite> <cite ref=\"M01392\"><he>מְכֵלָא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"M00252\"><he>מִדָּה</he></cite>, <cite ref=\"M01379\"><he>מְכַילְתָּא</he></cite>) <i>system of laws, treatise, tract</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 10:3:12\">Y. Shebi. X, end, 39ᵈ</cite> <he>בר נש דתני חדא מ׳ וב׳</he> a man that has studied one tract and comes to a place where they honor him for two tracts, is bound to tell them <he>אנא חדא מ׳ אנא חכם</he> I know only one tract; Y. Macc. II, end, 32ᵃ.—Pl. <cite ref=\"M01154\"><he>מֵיכְלָן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 13:33\">Targ. Y. Num. XIII, 33</cite>, <he>מ׳ בישין</he> bad <i>manners</i> (cmp. <cite ref=\"M00252\"><he>מִדָּה</he></cite>).—Y. Macc. l. c. <he>תרין מ׳</he> (not <he>מיכלה</he>). ",
+				"<cite ref=\"Yalkut Shimoni on Nach 971:8\">Yalk. Koh. 971</cite> <he>מרי מנלן</he>, read <he>מֵכְלָן</he> or <cite ref=\"M01379\"><he>מְכִילָן</he></cite>, v. <cite ref=\"M01379\"><he>מְכִילָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

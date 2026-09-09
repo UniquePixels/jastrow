@@ -1,0 +1,29 @@
+{
+	"id": "Q01344",
+	"slug": "פסף",
+	"headword": {
+		"text": "פְּסַף"
+	},
+	"page": {
+		"number": 1199,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"Q01344\"><he>פַּסֵּף</he></cite>, v. <cite ref=\"Q01347\"><he>פַּסְפֵּס</he> II</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

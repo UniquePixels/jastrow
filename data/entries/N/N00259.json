@@ -1,0 +1,36 @@
+{
+	"id": "N00259",
+	"slug": "נהי-1",
+	"headword": {
+		"text": "נְהֵי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 881,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <he>נָהָה</he>; cmp. <he>נהם</he>)<i>to move</i>; <i>to be in commotion</i> (cmp. Syr. <cite ref=\"N00259\"><he>אתנהי</he></cite>, P. Sm. 2295).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְנְהִי"],
+			"senses": [
+				{
+					"gloss": "<i>to follow eagerly</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 7:2\">Targ. I Sam. VII, 2</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 3:17\">Targ. Jer. III, 17</cite> <he>ויִתְנְהוֹן</he> (some ed. <he>ויִתִּינְהוּן</he>; h. text <he>ונקוו</he>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 30:21\">Ib. XXX, 21</cite> (h. text <he>ונגש</he>). ",
+						"<cite ref=\"Targum Jonathan on Hosea 2:18\">Targ. Hos. II, 18</cite>; <cite ref=\"Targum Jonathan on Hosea 3:3\">ib. III, 3</cite>; a. e.—",
+						"<cite ref=\"Targum Jonathan on Isaiah 53:5\">Targ. Is. LIII, 5</cite> <he>ובדנִיתְנְהִי וכ׳</he> ed. Lag. (ed. Wil. <he>וכד נָצֵית</he>) and when he pursues (is eager for) &c."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

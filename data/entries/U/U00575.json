@@ -1,0 +1,36 @@
+{
+	"id": "U00575",
+	"slug": "שושן-2",
+	"headword": {
+		"text": "שׁוֹשַׁן"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוֹשַׁנָּא"
+		},
+		{
+			"text": "שׁוֹשַׁנְתָּא"
+		}
+	],
+	"page": {
+		"number": 1543,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"U00576\">next w.</cite> ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:33\">Targ. Ex. XXV, 33</cite> (h. text <cite ref=\"Q01755\"><he>פרח</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Hosea 14:6\">Targ. Hos. XIV, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 7:19\">Targ. I Kings VII, 19</cite>; a. fr.—Pl. <he>שׁוֹשַׁנִּין</he>, <he>שׁוֹשׁנַּיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 35:1\">Targ. Is. XXXV, 1</cite> (h. text <cite ref=\"H00103\"><he>חבצלת</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 25:31\">Targ. O. Ex. XXV, 31</cite>; <cite ref=\"Onkelos Exodus 25:34\">34</cite> (Y. <he>שׁוֹשַׁנְיָי׳</he>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 6:18\">Targ. I Kings VI, 18</cite> (h. text <he>צצים</he>). ",
+				"<cite ref=\"Targum of II Chronicles 3:10\">Targ. II Chr. III, 10</cite> (h. text <he>צעצעים</he>); a. e."
+			]
+		}
+	]
+}

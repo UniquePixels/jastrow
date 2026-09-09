@@ -1,0 +1,28 @@
+{
+	"id": "U00798",
+	"slug": "שיבוש",
+	"headword": {
+		"text": "שִׁיבּוּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁבּ׳"
+		}
+	],
+	"page": {
+		"number": 1557,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00185\"><he>שָׁבֵשׁ</he></cite>, v. <cite ref=\"U00195\"><he>שְׁבִשְׁתָּא</he></cite>) <i>confusion, blunder</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 30b:10\">R. Hash. 30ᵇ</cite> <he>כדי שיהא … שלא בש׳</he> so that there be time enough to offer … and to sing the appropriate psalm without confusion. ",
+				"<cite ref=\"Rosh Hashanah 30b:11\">Ib.</cite> <he>כיון דלא אמור כלל אין לך ש׳ וכ׳</he> since they recited no song at all (on account of the late hour), there could be no greater confusion than this."
+			]
+		}
+	]
+}

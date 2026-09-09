@@ -1,0 +1,23 @@
+{
+	"id": "K01165",
+	"slug": "כריכא-3",
+	"headword": {
+		"text": "כְּרִיכָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 667,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01164\">preced.</cite>) <i>bundle</i> or <i>band</i>.—Pl. <he>כְּרִיכֵי</he>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 67b:14\">Snh. 67ᵇ</cite> (of a juggler) <he>שדי כ׳ וכ׳</he> cast ribbons (or bundles) of silk out of his nose.—V. <cite ref=\"K01190\"><he>כְּרָכָא</he></cite>."
+			]
+		}
+	]
+}

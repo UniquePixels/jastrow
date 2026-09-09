@@ -1,0 +1,48 @@
+{
+	"id": "M00859",
+	"slug": "מחי-3",
+	"headword": {
+		"text": "מְחִי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מְחָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 760,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"M00858\">preced.</cite>) [<i>to diminish</i>, cmp. <cite ref=\"N00809\"><he>נָכָה</he></cite>,] <i>to smite, wound</i>.—",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 7:20\">Targ. Ex. VII, 20</cite>. Targ. II Esth. II, 21 <he>יִמְחֵיה חויא</he> the serpent will bite him; a. v. fr.—Part. <cite ref=\"M00860\"><he>מָחֵי</he></cite>, <cite ref=\"M00810\"><he>מַחְיָא</he></cite>; pl. <he>מַחְיִין</he>, <he>מַחְיָין</he>. Ib. XXI, 19 (Y. <cite ref=\"M00863\"><he>מְחַיָּיא</he></cite>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 10:15\">Targ. Is. X, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 3:15\">Targ. Y. Gen. III, 15</cite>; a. e.—Part. pass. pl. <he>מְחָן</he> (<he>מָחָן</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 53:4\">Targ. Is. LIII, 4</cite>.—",
+				"<cite ref=\"Bava Batra 21a:5\">B. Bath. 21ᵃ</cite> <he>כי מָחִית לינוקא לא תִימְחֵי וכ׳</he> when thou strikest a child, thou must strike it only with a shoe-strap. ",
+				"<cite ref=\"Moed Katan 17a:13\">M. Kat. 17ᵃ</cite> <he>דהוה מָחֵי לבנו גדול</he> was striking a grown up son. ",
+				"<cite ref=\"Bereishit Rabbah 41:2\">Gen. R. s. 41</cite>, a. e. <he>אין אמרת מְחֵי מָחֵינָא</he> as soon as thou sayest, ‘strike’, I shall strike. ",
+				"<cite ref=\"Sanhedrin 109b\">Snh. 109ᵇ</cite> <he>דמחי לאיתתא וכ׳</he> (v. Rabb. D. S. a. l. note) when a person struck his neighbor’s wife, and she miscarried &c.; a. fr.—V. <cite ref=\"M00950\"><he>מַחֲתָא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְמְחִי"],
+			"senses": [
+				{
+					"gloss": "<i>to be smitten</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 11:15\">Targ. II Sam. XI, 15</cite>. ",
+						"<cite ref=\"Aramaic Targum to Esther 7:9\">Targ. Esth. VII, 9</cite> <he>וזקיף יִתְמְחִי עלוהי</he> (<cite ref=\"Ezra 6:11\">Ezra VI, 11</cite>) and hanging thereon he shall be flogged (to death)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

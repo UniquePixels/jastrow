@@ -1,0 +1,40 @@
+{
+	"id": "K01338",
+	"slug": "כתא-2",
+	"headword": {
+		"text": "כָּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּתָּא"
+		}
+	],
+	"page": {
+		"number": 678,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01394\"><he>כְּתַת</he></cite>) = h. <cite ref=\"O01354\"><he>סָפִיחַ</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>concretion, glebe</i>, or <i>alluvial mound</i>.—Pl. <he>כָּתִין</he>, <cite ref=\"K00739\"><he>כַּתִּין</he></cite>, with suffix (<cite ref=\"K01383\"><he>כַּתָּהָא</he></cite>) <he>כָּתָהָא</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 14:19\">Targ. Job XIV, 19</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>after-crop</i>.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 37:30\">Targ. Is. XXXVII, 30</cite>; <cite ref=\"Targum Jonathan on II Kings 19:29\">Targ. II Kings XIX, 29</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 25:5\">Targ. Lev. XXV, 5</cite> (some ed. O. sing., v. Berl. Targ. O. II, p. 38). Ib. 11 <he>כָּתָהָא</he> ed. Berl. (oth. <cite ref=\"K01338\"><he>כַּתָּ׳</he></cite>; Y. <cite ref=\"K00009\"><he>כַּאֲוָותָהָא</he></cite>, some ed. <cite ref=\"B00002\"><he>בַּ׳</he></cite>, perh. to be read: <he>כַּתְוָותָהָא</he>).—[<cite ref=\"Shabbat 110b:4\">Sabb. 110ᵇ</cite> <he>מכבתותא דמישרי</he>, perh. <cite ref=\"M01452\"><he>מכַּתְוָותָא</he></cite> of the after-crop of valleys, v. <cite ref=\"B01381\"><he>בַּתְוָא</he></cite>].—<cite ref=\"K01367\"><he>כָּתְכָּתִין</he></cite>, <cite ref=\"K01367\"><he>כַּתְכַּתִּין</he></cite> <i>third crop</i>. Targ. Is. l. c.; Targ. II Kings l. c. (h. text <he>שחיס</he>, <he>סחיש</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

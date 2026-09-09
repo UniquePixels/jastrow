@@ -1,0 +1,29 @@
+{
+	"id": "A03259",
+	"slug": "אשבורן",
+	"headword": {
+		"text": "אֶשְׁבּוֹרָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶישְׁבּוֹרָן"
+		}
+	],
+	"page": {
+		"number": 126,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שבר</he>; cmp. <cite ref=\"M02388\"><he>מִקְוֶה</he></cite>) <i>collection of water, pond; cavity for reception of water</i>, opp. <cite ref=\"M00331\"><he>מַדְרוֹן</he></cite> slope. ",
+			"units": [
+				"<cite ref=\"Pesachim 42a:6\">Pes. 42ᵃ</cite> <he>מקום א׳</he> place where water poured out would remain stagnant. ",
+				"<cite ref=\"Avodah Zarah 72a:13\">Ab. Zar. 72ᵃ</cite>; Ohol. III, 3, opp. <he>קטפרס</he>. ",
+				"<cite ref=\"Mishnah Tahorot 8:9\">Toh. VIII, 9</cite>; a. e."
+			]
+		}
+	]
+}

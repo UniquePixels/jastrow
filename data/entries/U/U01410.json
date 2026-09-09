@@ -1,0 +1,48 @@
+{
+	"id": "U01410",
+	"slug": "שמאי",
+	"headword": {
+		"text": "שַׁמַּאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁמַּי"
+		},
+		{
+			"text": "שַׁמַּיי"
+		}
+	],
+	"page": {
+		"number": 1591,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Shammai</i> (abbrev. of <cite ref=\"U01519\"><he>שמעיה</he></cite>), ",
+			"units": []
+		},
+		{
+			"gloss": " (<he>הזקן</he>) <he>ש׳</he> Sh., the colleague of Hillel in the Sanhedrin under king Herod. ",
+			"units": [
+				"<cite ref=\"Mishnah Chagigah 2:2\">Ḥag. II, 2</cite>. ",
+				"<cite ref=\"Bava Batra 133b:13\">B. Bath. 133ᵇ</cite>; <cite ref=\"Jerusalem Talmud Nedarim 5:6:4\">Y. Ned. V, end, 39ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Sukkah 2:8\">Succ. II, 8</cite>, a. e. <he>ש׳ הזקן</he>. ",
+				"<cite ref=\"Mishnah Eduyot 1:1\">Eduy. I, 1</cite> sq. (differences between Sh. and Hillel). ",
+				"<cite ref=\"Mishnah Eduyot 1:4\">Ib. 4</cite>; a. v. fr.—<cite ref=\"U00037\"><he>בֵּית שַׁ׳</he></cite> (abbrev. <he>ב״ש</he>) the school of Sh., the disciples of Sh. ",
+				"<cite ref=\"Mishnah Eduyot 1:7\">Ib. 7</cite>. ",
+				"<cite ref=\"Mishnah Beitzah 1:1\">Bets. I, 1</cite>; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:2:2\">Y. Sabb. III, 5ᵈ</cite> bot.; a. fr. V. Fr. M’bo, p. 124ᵇ"
+			],
+			"label": "2"
+		}
+	]
+}

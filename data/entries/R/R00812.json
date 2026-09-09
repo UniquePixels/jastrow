@@ -1,0 +1,36 @@
+{
+	"id": "R00812",
+	"slug": "צרר-6",
+	"headword": {
+		"text": "צְרָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְרָרָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1305,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"R00750\"><he>צְרוֹר</he> I</cite>, <i>bundle; money-bag, purse</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 7:20\">Targ. Prov. VII, 20</cite>. ",
+				"<cite ref=\"Onkelos Genesis 42:35\">Targ. O. Gen. XLII, 35</cite> (ed. Vien. <cite ref=\"R00785\"><he>צְרִיר</he></cite>).—Pl. <he>צְרָרִין</he>, <he>צְרָרֵי</he>. ",
+				"<cite ref=\"Onkelos Genesis 42:35\">Ib.</cite>—",
+				"<cite ref=\"Beitzah 15a:2\">Bets. 15ᵃ</cite> <he>צ׳ דפשיטי</he> bags filled with money (if made of mixed webs). ",
+				"<cite ref=\"Bava Batra 174a:15\">B. Bath. 174ᵃ</cite> <he>אימר צ׳ אתפסיה</he> (not <he>אתפסוה</he>) I may say, the father, when he borrowed the money, gave the creditor bundles (of valuables) as security. ",
+				"<cite ref=\"Bava Batra 174b:7\">Ib.ᵇ</cite> <he>חיישינן לצ׳</he> we take into consideration the possibility of security’s being deposited with the creditor. ",
+				"<cite ref=\"Bava Batra 174b:8\">Ib.</cite> <he>אי לאו דאתפסיה צ׳ מעיקרא וכ׳</he> (not <he>דאתפסה</he>) unless he had secured him by a deposit, he (the guarantor) would not have assumed the guaranty. ",
+				"<cite ref=\"Ketubot 107a:3\">Keth. 107ᵃ</cite> <he>אימא צ׳ אתפסה</he> I may say, he (the husband on going away) left a deposit with her (his wife, with which to support herself). ",
+				"<cite ref=\"Ketubot 107b:8\">Ib.ᵇ</cite> <he>צ׳ לקטנה לא מתפיס</he> no money is likely to be deposited with a minor; a. e."
+			]
+		}
+	]
+}

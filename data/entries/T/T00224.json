@@ -1,0 +1,68 @@
+{
+	"id": "T00224",
+	"slug": "רגש-1",
+	"headword": {
+		"text": "רָגַשׁ"
+	},
+	"page": {
+		"number": 1450,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to tremble, shake; to rage</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְגִּישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to stir up, gather in a crowd</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 109:10\">Midr. Till. to Ps. CXVIII, 10</cite> <he>שהוא עתיד להַרְגִּישׁ וכ׳</he> he shall stir up all nations and bring them to Jerusalem; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be affected, feel, perceive</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 14\">Ex. R. s. 14</cite> <he>היו נוטלין … ולא היינו מַרְגִּישִׁין</he> they might have taken all our belongings in the days of darkness, and we should not have noticed it. ",
+						"<cite ref=\"Shemot Rabbah 15:1-8\">Ex. R. s. 15</cite> <he>הביא</he> … <he>ולא ה׳ פרעה</he> God brought plagues upon the Egyptians, but Pharaoh did not care; <he>כיון … התחיל מַרְגִּישׁ וכ׳</he> when the plague touched his own body, he began to feel it and cry &c. ",
+						"<cite ref=\"Megillah 15b:14\">Meg. 15ᵇ</cite> <he>אולי יַרְגִּישׁ המקום וכ׳</he> (Esther, in inviting Haman, thought,) perhaps God will feel (compassion at my self-humiliation), and do a miracle for us. ",
+						"<cite ref=\"Shabbat 13b:7\">Sabb. 13ᵇ</cite> <he>אין בשר המת מרגיש באיזמל</he> dead flesh feels not the knife (we have grown indolent through the frequency of persecutions); <he>אין … שבחי מרגיש וכ׳</he> the dead flesh in a living body feels not &c.; Y. Taan. III, 66ᵈ bot. Y. Ber. V, 9ᵃ bot. <he>לא הִרְגַּשְׁתָּ</he> didst thou not feel (the lizard’s bite)? <he>יבא עלי … אם הִרְגַּשְׁתִּי</he> may evil befall me, if, in my devotion …, I felt it. Y. Erub. I, 19ᵇ <he>שאילו ישמט הוא מרגיש</he> if it should slip off, he would find it out. ",
+						"<cite ref=\"Bereishit Rabbah 47\">Gen. R. s. 47</cite> <he>ה׳ ונצטער</he> he felt (the pain of circumcision) and suffered. ",
+						"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite> <he>כל הפירות … מַרְגִּישִׁים … וכילם … ומרגישים</he> of all fruits in a bag, you take some, and the others are not affected, but in the case of nuts … all are in heavy commotion; <he>כך ישראל … וכילם מרגישים</he> so is it with Israel: one man sins, and all feel the effect of it; <cite ref=\"Yalkut Shimoni on Nach 992:10\">Yalk. Cant. 992</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["רִגֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to create excitement</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 2:11\">Lam. R. to II, 7</cite> <he>קול צרות מְרַגְּשׁוֹת</he> the noise of exciting troubles."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְרַגֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to come in crowds, rush forth, storm</i>. Tanḥ. Lekh 9 <he>עתידין … להִתְרַגֵּשׁ עליהם</he> all kings shall come in a rage against them. Y. Ber. V, 8ᵈ bot. those hard times (v. <cite ref=\"H01531\"><he>חָצַף</he></cite>) <he>היוצאות המִתְרַגְּשׁות לבא לעולם</he> which go forth, which rush to enter the world. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 80b:11\">B. Kam. 80ᵇ</cite> <he>ושאר פורעניות המתרגשות ובאות וכ׳</he> and other calamities which break forth and visit a community; <cite ref=\"Taanit 14a\">Taan. 14ᵃ</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

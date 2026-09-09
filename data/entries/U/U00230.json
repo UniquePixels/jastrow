@@ -1,0 +1,56 @@
+{
+	"id": "U00230",
+	"slug": "שגם",
+	"headword": {
+		"text": "שָׁגַם"
+	},
+	"page": {
+		"number": 1522,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to smooth, plane, polish</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 22:10\">Kel. XXII, 10</cite> <he>הנסרים … ששִׁיגְּמָן</he> the boards in a bath which one planed; (Maim.: which one <i>joined with bamboo</i>, v. <cite ref=\"U00231\">next w.</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to bend</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 26:6\">Gen. R. s. 26</cite> (play on <he>בשגם</he>, <cite ref=\"Genesis 6:3\">Gen. VI, 3</cite>) <he>הרי אני מְשַׁגְּמָן ביסורין</he> I will bend them through suffering; <he>הריני משגמן אלו באלו</he> (‘Rashi’ <he>מְשַׁגְּשָׁן</he>) I will bend them (break their power) one through the other; <cite ref=\"Genesis 6:3\">ib.</cite> <he>ע״י שלא שִׁיגַּמְתִּי אותן וכ׳</he> because I had not bent them through suffering; Yalk. ib. 44."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U00233\"><he>שִׁיגֵּם</he></cite> (v. <cite ref=\"C01054\"><he>גָּמַם</he></cite>) ",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["שׁוֹגֵם"],
+			"senses": [
+				{
+					"gloss": ") <cite ref=\"U00230\"><he>שֶׁגֶם</he></cite> m. (<cite ref=\"U00229\">preced.</cite>) <i>joint</i> made of twisted reed (bamboo), <i>hinge</i>.—Pl. <he>שְׁגָמִין</he> or <cite ref=\"U00816\"><he>שִׁגְ׳</he></cite>, <he>שׁוֹגְמִין</he>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 26:6\">Gen. R. s. 26</cite> (v. <cite ref=\"U00229\">preced.</cite>) <he>הדלת הזה מי מעמידו שְׁגָמָיו</he> (or <he>שִׁגְמָיו</he>) what keeps the door in position? Its hinges. ",
+						"<cite ref=\"Mishnah Kelim 10:6\">Kel. X, 6</cite> <he>עשאן בסינין או בשוג׳</he> (Ar. a. Bart. <he>בשג׳</he>) if he joined the boards with tenons or with hinges (Maim.: <i>with bamboo</i>, v. <cite ref=\"O01154\"><he>סֵן</he></cite>)."
+					]
+				}
+			],
+			"stem": "(."
+		}
+	]
+}

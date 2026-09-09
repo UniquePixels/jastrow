@@ -1,0 +1,24 @@
+{
+	"id": "L00163",
+	"slug": "להטים",
+	"headword": {
+		"text": "לְהָטִים"
+	},
+	"page": {
+		"number": 693,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h.; Talm. etymol. fr. <cite ref=\"L00160\"><he>לָהַט</he></cite>)<i>glittering; delusions</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 67b:10\">Snh. 67ᵇ</cite> (ref. to <cite ref=\"Exodus 7:11\">Ex. VII, 11</cite>, a. ",
+				"<cite ref=\"Exodus 7:22\">22</cite>) <he>בלָטֵיהֶם אלו מעשה שדים בלַהֲטֵיהֶם וכ׳</he> ‘with their <i>laṭim’</i> (secret arts) refers to works of demons, ‘with their <i>l’haṭim</i>’—to works of sorcery (with ref. to <cite ref=\"L00160\"><he>לַהַט</he></cite> <cite ref=\"Genesis 3:24\">Gen. III, 24</cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "U01540",
+	"slug": "שמש-2",
+	"headword": {
+		"text": "שְׁמַשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁמֵּשׁ"
+		}
+	],
+	"page": {
+		"number": 1602,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " <cite ref=\"U01539\">same</cite>, <i>to minister, wait upon</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 18:8\">Targ. Gen. XVIII, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 1:2\">Targ. I Kings I, 2</cite>; <cite ref=\"Targum Jonathan on I Kings 1:4\">4</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 1:3\">Targ. I Sam. I, 3</cite>. ",
+				"<cite ref=\"Onkelos Exodus 28:1\">Targ. Ex. XXVIII, 1</cite>; a. fr.—Part. pass. <he>מְשַׁמַּשׁ</he>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 10:6\">Targ. Koh. X, 6</cite> <he>בש׳ באצלחותא וכ׳</he> (not <he>מְשַׁמֵּשׁ</he>) enjoying happiness from above.—",
+				"<cite ref=\"Avodah Zarah 10b:16\">Ab. Zar. 10ᵇ</cite> <he>אנטונינוס שַׁמְּשֵׁיה לרבי</he> Antoninus waited upon (entertained) Rabbi; a. e.—Trnsf. <i>to couple</i>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 15:18\">Targ. Y. Lev. XV, 18</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּמֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to make use of</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 1:13\">Ab. I, 13</cite> <he>ודיִשְׁתַּמַּשׁ בתגא חלף</he> he who makes use of the crown (of the Law) goes to ruin. ",
+						"<cite ref=\"Megillah 16a:1-8\">Meg. 16ᵃ</cite> <he>לאו … לאִשְׁתַּמּוּשֵׁי במני וכ׳</he> it is unbecoming to make use of royal garments in such a condition; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

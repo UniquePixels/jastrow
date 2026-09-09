@@ -1,0 +1,28 @@
+{
+	"id": "P00440",
+	"slug": "עטושיא",
+	"headword": {
+		"text": "עֲטוּשָׁיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲטוּשָׁיָיא"
+		}
+	],
+	"page": {
+		"number": 1063,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>of ʿAṭṭush</i>, surname of one R. Yitsḥak. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 3:1:5\">Y. Sot. III, beg. 18ᶜ</cite>. Y. Peah VIII, 20ᵈ bot. (ed. Krot. <he>עטישׂ׳</he>). ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:5:3\">Y. M. Kat. III, 82ᵇ</cite> top; a. e.—V. Fr. M’bo, p. 106ᵇ"
+			]
+		}
+	]
+}

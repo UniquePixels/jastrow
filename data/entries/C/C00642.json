@@ -1,0 +1,29 @@
+{
+	"id": "C00642",
+	"slug": "גידור",
+	"headword": {
+		"text": "גִּידּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּדּוּר"
+		}
+	],
+	"page": {
+		"number": 235,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00246\"><he>גדר</he></cite>) <i>fencing in, self-restraint</i>.—ג׳ ערוה <i>chastity</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 32:5\">Lev. R. s. 32</cite>; v. <cite ref=\"C00246\"><he>גֶּדֶר</he></cite> a. <cite ref=\"C00215\"><he>גְּדֵירָה</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Demai 3:3:5\">Y. Dem. III, 23ᶜ</cite> top <he>מפני גידורו</he>, read <he>גְּדֵירוֹ</he>, v. <cite ref=\"C00213\"><he>גָּדֵיר</he></cite>.—",
+				"<cite ref=\"Eruvin 93b\">Erub. 93ᵇ</cite>, v. <cite ref=\"C00632\"><he>גִּידּוּד</he></cite>."
+			]
+		}
+	]
+}

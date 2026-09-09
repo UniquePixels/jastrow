@@ -1,0 +1,34 @@
+{
+	"id": "S01420",
+	"slug": "קלקלתא",
+	"headword": {
+		"text": "קִלְקַלְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִלְקֶילְ׳"
+		},
+		{
+			"text": "קִי׳"
+		}
+	],
+	"page": {
+		"number": 1382,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"S01147\"><he>קִיקֶלְתָּא</he></cite>, <i>dunghill, ruins</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 19:2\">Targ. Jer. XIX, 2</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 156b:9\">Sabb. 156ᵇ</cite> <he>כי יתיב אקִילְקְלִיתָא</he> (Ms. O. <he>אקִיקְלִיתָא דמתא</he>, v. Rabb. D. S. a. l. note 80) while sitting near the place where the refuse of the town is collected, v. <cite ref=\"S01143\"><he>קִיקְלָא</he></cite>. ",
+				"<cite ref=\"Bava Kamma 21a:9\">B. Kam. 21ᵃ</cite> <he>בנה … אק׳ דיתמי</he> built a villa on the ruins belonging to minors. ",
+				"<cite ref=\"Avodah Zarah 28a:13\">Ab. Zar. 28ᵃ</cite> <he>קילקלתא</he> Ms. M. (ed. <cite ref=\"S01147\"><he>קיקלתא</he></cite>), v. <cite ref=\"N01246\"><he>נִקְרָא</he></cite>; a. fr.—[<cite ref=\"Midrash Tehillim 75:4\">Midr. Till. to Ps. LXXV</cite> <he>כהדא קלקילתא שהיא וכ׳</he> (ed. Bub. <he>איך חדא קילקלתא</he>) (a cup of punishment) shaped like a vessel for refuse, wide below and narrow above (?)]—Pl. <cite ref=\"S01420\"><he>קִלְקְלָתָא</he></cite>, <cite ref=\"S00089\"><he>קִי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 68:14\">Targ. Ps. LXVIII, 14</cite> (h. text <he>שפתים</he>)."
+			]
+		}
+	]
+}

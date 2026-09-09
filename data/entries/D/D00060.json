@@ -1,0 +1,30 @@
+{
+	"id": "D00060",
+	"slug": "דבילתא",
+	"headword": {
+		"text": "דְּבֵילְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּבֶלְתָּא"
+		},
+		{
+			"text": "דִּיבְלָא"
+		}
+	],
+	"page": {
+		"number": 277,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00059\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 9:11\">Targ. Jud. IX, 11</cite> (h. text <cite ref=\"V00723\"><he>תנובה</he></cite>); a. e.—Pl. <he>דִּיבְלִין</he>. ",
+				"<cite ref=\"Targum of I Chronicles 12:40\">Targ. I Chr. XII, 40</cite>.—<cite ref=\"D00060\"><he>דְּבֵילָתָא</he></cite>, <he>דִּבְלָ׳</he>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 30:12\">Targ. I Sam. XXX, 12</cite> (some ed. sing.). ",
+				"<cite ref=\"Targum Jonathan on Numbers 33:46\">Targ. Y. Num. XXXIII, 46</cite>."
+			]
+		}
+	]
+}

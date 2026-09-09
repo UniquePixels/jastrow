@@ -1,0 +1,30 @@
+{
+	"id": "A02340",
+	"slug": "אסורייתא",
+	"headword": {
+		"text": "אֲסוּרְיָיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֱיסוּרְיָיתָא"
+		}
+	],
+	"page": {
+		"number": 89,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>אסר</he>; cmp. <cite ref=\"A02338\"><he>אֱסָרוּתָא</he></cite>) <i>bundles, bunches</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 51b:15\">Ḥull. 51ᵇ</cite> <he>א׳</he> bundles of reeds. ",
+				"<cite ref=\"Beitzah 12b:14\">Bets. 12ᵇ</cite> <he>א׳ דחרדלא</he> bundles of mustard stalks. ",
+				"<cite ref=\"Beitzah 13a:10\">Ib. 13ᵃ</cite> <he>א׳ טבלא</he> when in bundles, they are Tebel (v. <cite ref=\"I00066\"><he>טֶבֶל</he></cite>)."
+			]
+		}
+	]
+}

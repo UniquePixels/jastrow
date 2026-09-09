@@ -1,0 +1,42 @@
+{
+	"id": "M00861",
+	"slug": "מחי-5",
+	"headword": {
+		"text": "מָחִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָחָא"
+		}
+	],
+	"page": {
+		"number": 760,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to interlace, weave</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 19:9\">Targ. Is. XIX, 9</cite> <he>מָחָן</he>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 23:7\">Targ. II Kings XXIII, 7</cite> <he>מָחְיָין</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 59:5\">Targ. Is. LIX, 5</cite> (v. <cite ref=\"M00860\">preced.</cite>).—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:45\">Y. Sabb. VII, 10ᶜ</cite> top <he>כד מָחְיָיא וכ׳</he> when she interlaces (plaits), she is guilty of an act of weaving. ",
+				"<cite ref=\"Shabbat 148a\">Sabb. 148ᵃ</cite>; <cite ref=\"Berakhot 24a\">Ber. 24ᵃ</cite>; <cite ref=\"Pesachim 42a\">Pes. 42ᵃ</cite>; <cite ref=\"Chullin 58b\">Ḥull. 58ᵇ</cite>, v. <cite ref=\"M00881\"><he>מָחִיתָא</he></cite>.—[<cite ref=\"M00861\"><he>מחא</he></cite>, <cite ref=\"Targum Jonathan on Isaiah 19:10\">Targ. Is. XIX, 10</cite> <he>שתי מ׳</he>, some ed., read: <cite ref=\"M00342\"><he>מֹהָא</he></cite>, v. <cite ref=\"M00469\"><he>מוֹי</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִימְּחָא"],
+			"senses": [
+				{
+					"gloss": "<i>to be interwoven, fastened</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 58a:17\">Sabb. 58ᵃ</cite> <he>דמָחָא</he> [<cite ref=\"B00537\"><he>ביה</he></cite>] <he>מִימְּחָא</he> Ms. M. a. Ar. (Ms. O. <he>דמָאחי מִיאֲחָא</he>, v. Rabb. D. S. a. l. note; ed. <he>דמיחא ביה מומחא</he>, some ed. <cite ref=\"M00520\"><he>מומחה</he></cite>, corr. acc.) it is fastened to it."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

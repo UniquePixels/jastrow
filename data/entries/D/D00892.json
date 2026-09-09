@@ -1,0 +1,96 @@
+{
+	"id": "D00892",
+	"slug": "דמי-2",
+	"headword": {
+		"text": "דְּמֵי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּמָא"
+		}
+	],
+	"page": {
+		"number": 313,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00891\">same</cite><i>to be dumb</i>. Targ. ",
+			"units": [
+				"<cite ref=\"Habakkuk 2:19\">Hab. II, 19</cite> <cite ref=\"D00237\"><he>דַּמְיָא</he></cite> (some ed. incorr. <cite ref=\"T00001\"><he>ר׳</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to imagine, suspect, consider</i>, <cite ref=\"Targum Jonathan on I Kings 8:27\">Targ. I Kings VIII, 27</cite> <cite ref=\"D00898\"><he>דָּמֵי</he></cite> (incorr. <cite ref=\"H01172\"><he>חמי</he></cite>).—Part. act. a. pass. <cite ref=\"D00898\"><he>דָּמֵי</he></cite> <i>suspected, considered; resembling, like</i>.—",
+			"units": [
+				"<cite ref=\"Yevamot 114b:15\">Yeb. 114ᵇ</cite> <he>אמרה בדְדָמֵי</he> she speaks of what was to be suspected (under the circumstances, though she has not seen it).—<he>שפיר דמי</he> it is considered as right, <i>it is right</i>. ",
+				"<cite ref=\"Avodah Zarah 38b:4\">Ab. Zar. 38ᵇ</cite> <he>ש׳ ד׳</he> it is all right (is permitted). ",
+				"<cite ref=\"Berakhot 13b:23\">Ber. 13ᵇ</cite> <he>הא מיגנא ש׳ ד׳</he> but to lie (on the back) is permitted; a. v. fr.—",
+				"<cite ref=\"Berakhot 25b:25\">Ber. 25ᵇ</cite> <he>כוליה ביתא … ד׳</he> the entire house is to be considered (for legal purposes) as four cubits. ",
+				"<cite ref=\"Berakhot 4b:15\">Ib. 4ᵇ</cite> <he>כתפלה אריכתא דַמְיָא</he> is to be considered as one continued prayer, v. <cite ref=\"A03101\"><he>אֲרִיכָא</he></cite>; a. fr.—<he>היכי דמי</he> (abbrev. <he>ה״ד</he>) what is it like? <i>in what case?</i> <cite ref=\"Yevamot 63b:3\">Yeb. 63ᵇ</cite> <he>ה״ד אשה רעה</he> what do you call ‘a bad wife’? <cite ref=\"Shabbat 4a:4\">Sabb. 4ᵃ</cite> <he>ה״ר אילימא וכ׳</he> what case do you mean? Do you mean the case of an involuntary transgressor &c.?; a. v. fr.—",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:32\">Targ. Y. I Deut. XXXII, 32</cite>, v. <i>Pa.</i>—",
+				"<cite ref=\"Eruvin 54a:22\">Erub. 54ᵃ</cite> <he>כהלולא ד׳</he> is like a wedding feast (soon passing away). ",
+				"<cite ref=\"Bava Kamma 85a:9\">B. Kam. 85ᵃ</cite> <he>דַּמְיַת עלי כאריא וכ׳</he>, v. <cite ref=\"A02950\"><he>אֲרַב</he></cite>. ",
+				"<cite ref=\"Taanit 21b:10\">Taan. 21ᵇ</cite> <he>דַּמְיָין מעייהו ל־</he> their entrails look like those of human beings; a. fr.—",
+				"<cite ref=\"Pesachim 14b:11\">Pes. 14ᵇ</cite>, a. fr. <he>מי דָמֵי</he> is this like (the other)?, i.e. there is no analogy between them."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּמֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to compare</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 40:25\">Targ. Is. XL, 25</cite>; a. fr.—",
+						"<cite ref=\"Chullin 55b\">Ḥull. 55ᵇ</cite>, a. e. <he>טרפות קא מְדַמְּיַת להדדי</he> you compare cases of <i>T’refoth</i> to one another (form an analogy)? (v. <cite ref=\"D00891\">preced.</cite> <i>Pi.</i>). ",
+						"<cite ref=\"Sanhedrin 47a:18\">Snh. 47ᵃ</cite> <he>מי קא מדמית וכ׳</he> can you compare &c.?—Part. pass. <he>מְדַמֵּי</he>, f. <cite ref=\"M00308\"><he>מְדַמְיָא</he></cite>, pl. <he>מְדַמְיָין</he>. ",
+						"<cite ref=\"Targum Jerusalem, Deuteronomy 32:32\">Targ. Y. II, Deut. XXXII, 32</cite> sq. (Y. I <he>דמי׳</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to imagine, speculate</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 11:23\">Targ. Jud. XI, 23</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 45:9\">Targ. Is. XLV, 9</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְדְּמֵי", "אִידְּמֵי"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"D00792\"><he>אִדְּ׳</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be like, to take an example</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 6:6\">Targ. Prov. VI, 6</cite> <he>אִתְדְּמֵא וכ׳</he> imitate the ant (ed. Vien. <cite ref=\"T00809\"><he>אִתְרְמֵי</he></cite>, read <he>אתד׳</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 102:7\">Targ. Ps. CII, 7</cite>; a. e.—Y. Shek. IV, 48ᵈ top; Y. Dem. I, 21ᵈ bot. <he>לא אִידְּמִינָן</he> we cannot compare ourselves. ",
+						"<cite ref=\"Gittin 57b:2\">Gitt. 57ᵇ</cite> <he>אייתו דמי ולא אִידְּמוּ</he> they brought blood of animals but it did not look like (the blood of the prophet); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to appear</i> in the disguise of. ",
+					"units": [
+						"<cite ref=\"Kiddushin 81a:3\">Kidd. 81ᵃ</cite> … <he>אי׳ ליה שטן כ</he> Satan appeared to him as a woman &c. ",
+						"<cite ref=\"Kiddushin 29b:2\">Ib. 29ᵇ</cite> <he>אי׳ ליה וכ׳</he> (a demon) appeared to him as a monster &c. ",
+						"<cite ref=\"Sanhedrin 95a:2\">Snh. 95ᵃ</cite> <cite ref=\"D00792\"><he>אד׳</he></cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

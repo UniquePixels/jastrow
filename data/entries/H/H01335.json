@@ -1,0 +1,35 @@
+{
+	"id": "H01335",
+	"slug": "חסד-2",
+	"headword": {
+		"text": "חָסַד",
+		"homograph": 2
+	},
+	"page": {
+		"number": 486,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H01410\"><he>חסר</he></cite>, <cite ref=\"H01405\"><he>חסף</he></cite>)",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H01334\"><he>חִסֵּד</he></cite>, <he>חִשֵּׂד</he> [<i>to scrape off</i>,] (cmp. <he>גדף</he>, <he>גרף</he>) <i>to jeer, scoff at, to shame</i>. ",
+					"units": [
+						"<cite ref=\"Ruth Rabbah 7:12\">Ruth R. to IV, 8</cite> <he>שחִסְּדָן ברבים</he> (or <he>שחֲסָדָן</he>; ed. Wil. <he>שחשדן</he>) he scoffed at them publicly (speaking ironically, with ref. to <cite ref=\"II Chronicles 13:8\">II Chr. XIII, 8</cite>); Y. Yeb. XVII, beg. 15ᶜ <he>שחִישֵּׂד וכ׳</he> he jeered at Jeroboam; <cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite>; <cite ref=\"Bereishit Rabbah 65\">ib.</cite> s. 73 <he>שחסדם</he> ed. Wil. (oth. <he>שחש׳</he>); <cite ref=\"Vayikra Rabbah 33\">Lev. R. s. 33</cite>; Midr. Sam. ch. XVIII <he>שחִיסְּדָן</he>; <cite ref=\"Yalkut Shimoni on Nach 205\">Yalk. Kings 205</cite> <he>ומְחַשֵּׂד</he>.—",
+						"<cite ref=\"Shemot Rabbah 30:16\">Ex. R. s. 30</cite> (ref. to <cite ref=\"Exodus 2:14\">Ex. II, 14</cite>) <he>שחִיסְּדוּ וכ׳</he> when Dathan and Abiram sneered at him. ",
+						"<cite ref=\"Exodus 2:14\">Ib.</cite> <he>בזה שחִיסַּדְתֶּם אותו וכ׳</he> with the very word (<cite ref=\"U00495\"><he>שופט</he></cite>) with which you sneered at him, I shall give him the rulership <he>(משפטים</he>). ",
+						"<cite ref=\"Pesikta Rabbati 42:1\">Pesik. R. s. 42</cite> <he>מְחַסְּדִים את שרה</he> (not <he>מחסרו׳</he>) jeered at Sarah; a. e.—V. <cite ref=\"H00829\"><he>חִיסּוּד</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "R00452",
+	"slug": "ציר-6",
+	"headword": {
+		"text": "צִיר",
+		"homograph": 4
+	},
+	"page": {
+		"number": 1281,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"R00242\"><he>צוּר</he></cite>) [<i>one going around</i>,] <i>messenger, agent</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei DeRabbi Eliezer 23:9\">Pirké d’R. El. ch. XXIII</cite> <he>כשולח ביד צ׳ נאמן לשולחיו</he> like one sending through a messenger faithful to those who send him (<cite ref=\"Proverbs 25:13\">Prov. XXV, 13</cite>); <cite ref=\"Yalkut Shimoni on Torah 58\">Yalk. Gen. 58</cite>. ",
+				"<cite ref=\"Avot D'Rabbi Natan 34:8\">Ab. d’R. N. ch. XXXIV</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"id": "S00126",
+	"slug": "קדח-2",
+	"headword": {
+		"text": "קְדַח"
+	},
+	"page": {
+		"number": 1315,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00125\">same</cite><i>to bore, perforate</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 40:25\">Targ. Job XL, 25</cite> (ed. Wil. <he>תַּקְדַח</he> <i>Af.</i>).—",
+				"<cite ref=\"Shir HaShirim Rabbah 1:10:2\">Cant. R. to I, 10</cite> <he>למִקְדַּח</he>, v. <cite ref=\"H01647\"><he>חֲרַז</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to break through</i>,] <i>to grow forth, sprout</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 56a:9\">Ber. 56ᵃ</cite> <he>חזן</he> … <he>דקַדְחָא וכ׳</he> I saw (in my dream) a pomegranate sprouting through the mouth of a wine jar. ",
+				"<cite ref=\"Bava Batra 28b:9\">B. Bath. 28ᵇ</cite> <he>דקַדְחָה ואכלה וכ׳</he> Ms. M. (Ar. <he>דקדח</he>, ed. <he>דקדיח</he>) it (clover or grass) grew forth, and he made use of it, and as it grew again (the next day), he made use of it &c. ",
+				"<cite ref=\"Chullin 110a\">Ḥull. 110ᵃ</cite> <he>קדְחֵי</he>, v. <cite ref=\"H00783\"><he>חִילְפָא</he> III</cite>. ",
+				"<cite ref=\"Sanhedrin 109b:3\">Snh. 109ᵇ</cite> (Sodomitic justice) <he>הבה … עד דקדחא</he> (Ms. M. <he>דקדחה</he>) give him the ass (whose ear he had cut off), until its ear is grown again; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be inflamed</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 28b:11\">Ab. Zar. 28ᵇ</cite> <he>דקדחה לה עינא</he> her eye was inflamed. ",
+				"<cite ref=\"Chagigah 5a:1\">Ḥag. 5ᵃ</cite> <he>קדחה</he> her knee was burned."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַקְדַּח"],
+			"senses": [
+				{
+					"gloss": "<i>to dig out, make a path for</i>. [Targ. Job l. c., v. supra.]—",
+					"units": [
+						"<cite ref=\"Moed Katan 4b:17\">M. Kat. 4ᵇ</cite> <he>לאַקְדּוּחֵי נהר וכ׳</he> to clean the canal of B. (in the festive week)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "G00076",
+	"slug": "זדנו",
+	"headword": {
+		"text": "זְדָנוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְדָנוּתָא"
+		}
+	],
+	"page": {
+		"number": 380,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"G00072\"><he>זָדוֹן</he></cite><i>wilfulness, rashness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Leviticus 24:12\">Targ. Y. II, Lev. XXIV, 12</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 29:18\">Targ. O. Deut. XXIX, 18</cite>; (ed. Berl. <cite ref=\"G00282\"><he>זֵידָנוּתָא</he></cite>; Y. <cite ref=\"G00075\"><he>זְדוֹנוּתָא</he></cite>). Targ. Y. ib. XV, 9 (ed. Amst. <he>זָדְנוּתָ׳</he>); a. e."
+			]
+		}
+	]
+}

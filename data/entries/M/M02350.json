@@ -1,0 +1,26 @@
+{
+	"id": "M02350",
+	"slug": "מצץ-2",
+	"headword": {
+		"text": "מְצַּץ"
+	},
+	"page": {
+		"number": 827,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M02349\">same</cite> <i>to suck, drain</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 12:9\">Targ. Ps. XII, 9</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 75:9\">Ib. LXXV, 9</cite> (some ed. <he>יְמַצְּצוּן</he> <i>Pa.</i>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <i>to wring, press</i>. Ib. LXXIII, 10 <he>מָצְצִין</he> Ms. (ed. <he>מחתין</he>; h. text <he>יִמָּצוּ</he>).—V. <cite ref=\"M00568\"><he>מוּץ</he></cite>, <cite ref=\"M02309\"><he>מְצִי</he> II</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

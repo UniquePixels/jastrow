@@ -1,0 +1,28 @@
+{
+	"id": "U00984",
+	"slug": "שיסוע",
+	"headword": {
+		"text": "שִׁיסּוּעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁסּ׳"
+		}
+	],
+	"page": {
+		"number": 1565,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01620\"><he>שָׁסַע</he></cite>) <i>splitting, rending</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 65b:1\">Zeb. 65ᵇ</cite> <he>אין ש׳ אלא ביד</he> Ms. M. (ed. <cite ref=\"U01620\"><he>שיסע</he></cite>) the rending of the sacrificial bird must be done with the hand; <cite ref=\"Yalkut Shimoni on Torah 447:1\">Yalk. Lev. 447</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 447:1\">Ib.</cite>; Sifra Vayikra, N’dab., Par. 7, ch. IX (ref. to <cite ref=\"Leviticus 1:17\">Lev. I, 17</cite>) <he>אותו בש׳ … בש׳</he> it (the bird) must be rent, but the burnt-offering of cattle must not; a. e.—[Pl. <he>שִׁיסּוּעִים</he>. Sifra Sh’mini, ch. V, Par. 4, v. <cite ref=\"U01620\"><he>שָׁסַע</he></cite>.]"
+			]
+		}
+	]
+}

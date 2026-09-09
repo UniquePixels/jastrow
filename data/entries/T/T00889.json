@@ -1,0 +1,53 @@
+{
+	"id": "T00889",
+	"slug": "רעי-1",
+	"headword": {
+		"text": "רעי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָעָה"
+		}
+	],
+	"page": {
+		"number": 1486,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to join, arrange</i>, cmp. <he>דבר</he>,] <i>to lead, pasture, feed</i>; (neut. verb) <i>to graze</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 2:3\">Ex. R. s. 2</cite> <he>כשהיה משה … רוֹעֶה צאנו וכ׳</he> when Moses … was feeding Jethro’s flock in the desert &c.; <he>חייך אתה תִרְעֶה וכ׳</he> as thou livest, thou shalt lead my flock, Israel. ",
+				"<cite ref=\"Shemot Rabbah 2:3\">Ib.</cite> <he>והיה מוציא הקטנים לִרְעוֹת כדי שיִרְעוּ וכ׳</he> he (David) took out the young first that they might eat the tender grass &c. ",
+				"<cite ref=\"Mishnah Yoma 6:1\">Yoma VI, 1</cite> <he>יִרְעֶה עד שיסתאב</he>, v. <cite ref=\"O00003\"><he>סָאַב</he></cite>; <cite ref=\"Mishnah Bekhorot 2:9\">Bekh. II, 9</cite> <he>ירעו עד וכ׳</he>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְעָה"],
+			"senses": [
+				{
+					"gloss": "<i>to lead to pasture, feed</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 17a\">Erub. 17ᵃ</cite>; <cite ref=\"Bava Kamma 81a:1\">B. Kam. 81ᵃ</cite> top <he>שיהו מַרְעִין וכ׳</he>, v. <cite ref=\"H00482\"><he>חוֹרֶשׁ</he></cite>; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["רִיעָה", "רֵעָה"],
+			"senses": [
+				{
+					"gloss": " (v. ",
+					"units": [
+						"<cite ref=\"Judges 14:20\">Jud. XIV, 20</cite>) <i>to associate, make a friend, companion</i>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 2:9:5\">Cant. R. to II, 9</cite> (ref. to <he>רעיתי</he>, <cite ref=\"Shir HaShirim Rabbah 10\">ib. 10</cite>) <he>בתו של יצחק שריעה אותי וייפה אותי וכ׳</he> the daughter of Isaac who declared me (the Lord) his friend and beautified me (the faith in God) on the altar. Lam. R. introd. (R. Josh. 1) <he>שתָּרֵיעַ לקבל וכ׳</he> (some ed. <he>שתָּרֵיעוּ</he>; from <he>רעע</he>, v. <cite ref=\"T00670\"><he>רֵיעַ</he></cite>) that thou (you) form a partnership &c., v. <cite ref=\"U01998\"><he>שָׂרַע</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

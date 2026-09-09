@@ -1,0 +1,23 @@
+{
+	"id": "K01272",
+	"slug": "כרר",
+	"headword": {
+		"text": "כָּרָר",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 673,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"K01071\"><he>כַּר</he></cite>) <i>upholsterer</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 13b\">M. Kat. 13ᵇ</cite> quot. in Kimḥi Shorash. s. v.; v. <cite ref=\"K00110\"><he>כַּדָּד</he></cite>."
+			]
+		}
+	]
+}

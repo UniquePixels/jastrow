@@ -1,0 +1,78 @@
+{
+	"id": "Q02099",
+	"slug": "פשר-2",
+	"headword": {
+		"text": "פְּשַׁר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1249,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q02098\">same</cite><i>to melt, be dissolved</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 16:21\">Targ. O. Ex. XVI, 21</cite>.—Trnsf. (of a charm) <i>to vanish, be broken</i>. ",
+				"<cite ref=\"Sanhedrin 67b:18\">Snh. 67ᵇ</cite> <he>כי מטא לאשקויי מייא פ׳ וכ׳</he> when he came (to a river) to let the ass drink, it disappeared (the charm was broken), and there stood a landing board (v. <cite ref=\"A00795\"><he>אוּסְקָנִיתָא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to dissolve</i>,] <i>to chew the cud</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 11:7\">Targ. Y. Lev. XI, 7</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 14:8\">Targ. Deut. XIV, 8</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to solve a riddle</i> or <i>a dream; to interpret</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 40:16\">Targ. Gen. XL, 16</cite>. ",
+				"<cite ref=\"Onkelos Genesis 41:12\">Ib. XLI, 12</cite>; a. fr. (in O. ed. Berl. interch. with <i>Pa.</i>).—",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>דלמא דאתון</he> (<he>חדא איתתא</he>) <he>רבתי חכימין למִיפְשַׁר חלמא וכ׳</he> do you understand how to interpret a dream which I had as well as your master?; a. e."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּשֵּׁר"],
+			"senses": [
+				{
+					"gloss": "<i>to disengage, tear loose</i>. Pesik. Shek., p. 11ᵃ <he>דאת מְפַשֵּׁר לה וכ׳</he> (not <he>ליה</he>) which thou makest loose here &c., v. <cite ref=\"Q02098\">preced.</cite> a. <cite ref=\"O00861\"><he>סִירְתָּא</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 953\">Yalk. Prov. 953</cite>; <cite ref=\"Yalkut Shimoni on Torah 386\">Yalk. Ex. 386</cite>.—Snh. l. c. <he>פַּשְּׁרָה לה</he> (Ms. K. <he>פַּשַּׁרְתָּהּ</he>) she released (disenchanted) her.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to solve</i> (a riddle), <i>interpret</i> (a dream). ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 41:15\">Targ. O. Gen. XLI, 15</cite> <he>וּמְפַשַּׁר</he> ed. Berl. (ed. Amst. <he>לְמִפְשַׁר</he>). Ib. XL, 16; a. fr. (v. supra).—",
+						"<cite ref=\"Aramaic Targum to Song of Songs 2:5\">Targ. Cant. II, 5</cite> (some ed. <he>מַפְשַׁר</he> <i>Af.</i>).—",
+						"<cite ref=\"Yoma 28b:11\">Yoma 28ᵇ</cite> <he>הוא חלים והוא מפשר</he> did he dream and himself interpret?, i.e. did he answer his own query? <cite ref=\"Berakhot 56a:2\">Ber. 56ᵃ</cite> <he>מפשר חלמי הוה</he> was an interpreter of dreams; <cite ref=\"Berakhot 56a:2\">ib.</cite> <he>מפשר ליה וכ׳</he>, v. <cite ref=\"C01339\"><he>גְּרִיעוּתָא</he></cite>. ",
+						"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד כות׳</he> 1) <he>חד … עביד נפשיה מפשר חלמין</he> a certain Samaritan professed to be an interpreter of dreams; a. fr.—Part. pass. <he>מְפַשַּׁר</he>. ",
+						"<cite ref=\"Berakhot 55b:7\">Ber. 55ᵇ</cite> <he>חלמא דלא מפ׳ וכ׳</he> a dream not interpreted is like a letter not read (has no effect)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to release, settle with</i>. Y. Keth. X, end, 34ᵃ [read as Asheri to <cite ref=\"Ketubot 91b\">Keth. 91ᵇ</cite>:] <he>קום פַּשֵּׁר</he> (or <he>פַּשְּׁרִין</he>) rise and settle with me; <he>יכיל מומר ליה פַּשְּׁרִין ואי טרף טרף</he> he may say to him, settle with me, and if he (the prior creditor) should seize (what you give me in settlement), he may seize it. Pesik. Shub., p. 164ᵇ <he>פשר פריטך</he> settle thy account; a. e.",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְפַּשִּׁר"],
+			"senses": [
+				{
+					"gloss": "<i>to be released</i>. Ib. <he>עד זמן דמִתְפַּשּׁר פריטוי</he> until he has redeemed his debt; <he>וכיון דנתפשר וכ׳</he> (read: <he>דאתפשר</he>) and when his account was settled (v. <cite ref=\"O01387\"><he>סְפַן</he></cite>).",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

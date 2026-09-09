@@ -1,0 +1,29 @@
+{
+	"id": "S01027",
+	"slug": "קינוי",
+	"headword": {
+		"text": "קִינּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִנּ׳"
+		}
+	],
+	"page": {
+		"number": 1363,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01507\"><he>קָנָא</he></cite>) <i>manifestation of jealousy, warning given to the suspected wife</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 2b:29\">Sot. 2ᵇ</cite> (ref. to Mish. ",
+				"<cite ref=\"Mishnah Sotah 1:1\">ib. I, 1</cite>, ‘he must warn her in the presence of two witnesses’) <he>אמר קרא בה ולא בק׳</he> the text (<cite ref=\"Numbers 5:13\">Num. V, 13</cite>) says, <i>bah</i> (there is no witness to it) that is to say, <i>to it</i> (her defilement) one witness would suffice, but not to her warning. ",
+				"<cite ref=\"Numbers 5:13\">Ib.</cite> <he>ק׳ על פי עצמו</he> the act may be certified by the husband’s own testimony; <he>ק׳ על פי שנים</he> two witnesses must testify to &c. Ib. 3ᵃ <he>אין ק׳</he> … <he>התראה</he> <i>ḳinnuy</i> means warning (in the presence of two witnesses). Y. ib. I, beg. 16ᵇ <he>הק׳ … חובה וכ׳</he> to warn is the husband’s duty; R. J. says, it is optional. Ib. <he>קִינּוּיוֹ ק׳</he> a warning (under such conditions) is legally valid; a. fr."
+			]
+		}
+	]
+}

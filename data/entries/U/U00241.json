@@ -1,0 +1,22 @@
+{
+	"id": "U00241",
+	"slug": "שגריר",
+	"headword": {
+		"text": "שַׁגְרִיר"
+	},
+	"page": {
+		"number": 1523,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00233\"><he>שָׁגַר</he></cite>) <i>messenger, ambassador</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shevuot 1:1:5\">Y. Shebu. I, 32ᵈ</cite> <he>לשני מלכים ושני שַׁגְרִירֵיהֶן מלכו … ושַׁגְרִירוֹ של זה וכ׳</he> as in the case of two kings and their two ambassadors, this one’s king being higher in rank than the other’s king, and this king’s ambassador higher than the other king’s ambassador, but this one’s ambassador is not higher than the other ambassador’s king.—Pl. <he>שַׁגְרִירִים</he>, v. supra."
+			]
+		}
+	]
+}

@@ -1,0 +1,87 @@
+{
+	"id": "R00103",
+	"slug": "צדי-4",
+	"headword": {
+		"text": "צְדֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צְדָא"
+		}
+	],
+	"page": {
+		"number": 1262,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00102\">same</cite>, <i>to desolate</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 9:7\">Targ. Ps. IX, 7</cite> <he>צְדִיתָא</he> (some ed. <i>Pa.</i>).—Part. pass. <cite ref=\"R00101\"><he>צָדֵי</he></cite>, (<cite ref=\"R00103\"><he>צַדִּי</he></cite>,); f. <cite ref=\"R00104\"><he>צַדְיָא</he></cite> = h. <cite ref=\"U01491\"><he>שָׁמֵם</he></cite>; fr. which (<cite ref=\"R00103\"><he>צַדֵּי</he></cite>) <he>צָדִי</he> <i>to be desolate; to be confounded, astounded</i>. ",
+				"<cite ref=\"Onkelos Leviticus 26:33\">Targ. Lev. XXVI, 33</cite>, sqq. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 9:9\">Targ. Jer. IX, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 36:4\">Targ. Ez. XXXVI, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 1:16\">Targ. Lam. I, 16</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 26:32\">Targ. O. Lev. XXVI, 32</cite> <he>וִיצַדּוֹן</he> ed. Berl. (ed. Vien., a. Y. <he>ויִצְדּוּן</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 26:16\">Targ. Ez. XXVI, 16</cite>; a. fr.—",
+				"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 2</cite>; <cite ref=\"Eichah Rabbah 4:18\">ib. to IV, 18</cite> (ref. to <he>צדו</he>, <cite ref=\"Eichah Rabbah 4:18\">ib.</cite>) <he>צַדִּיאָה אורחא וכ׳</he> deserted is the road, so that we cannot walk on our highways (v. Targ. a. l.).—[Y. Ber. I, beg. 2ᵃ <he>צדי לון</he>; <cite ref=\"Vayikra Rabbah 12\">Lev. R. s. 12</cite>, a. e. <he>צדי לי</he> some ed., v. <cite ref=\"R00757\"><he>צְרַח</he> II</cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַצְדֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to make desolate; to confound</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 79:7\">Targ. Ps. LXXIX, 7</cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 20:26\">Targ. Ez. XX, 26</cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 36:3\">Ib. XXXVI, 3</cite>. ",
+						"<cite ref=\"Targum Jonathan on Numbers 21:30\">Targ. Y. Num. XXI, 30</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["צַדֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"R00102\">same</cite>. Targ. O. Num. l. c. <he>צַדִּיוּ</he> ed. Berl. (oth. ed. <he>צַדִּיאוּ</he>; ed. Vien. <cite ref=\"R00312\"><he>צָדִ׳</he></cite>). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 16:7\">Targ. Job XVI, 7</cite> <cite ref=\"R00114\"><he>צַדִּיתָא</he></cite> (ed. Wil. <he>צַדְיָתָא</he>, corr. acc.); a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִצְטַדֵּי", "אִצְתַּדֵּי"],
+			"senses": [
+				{
+					"gloss": ", <i>Ittaf.</i> <he>אִתַּצְדֵּי</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be made desolate; to be confounded</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 9:7\">Targ. Ps. IX, 7</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 102:18\">Ib. CII, 18</cite> (h. text <cite ref=\"P01419\"><he>ערער</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Job 18:20\">Targ. Job XVIII, 20</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <he>צדד</he>) <i>to be removed, disturbed</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 45a:7\">Nidd. 45ᵃ</cite> <he>אִתַּצּוּדֵי הוא דלא מִתַּצְדֵּי</he> they (the tokens of virginity) are not disturbed (by coition); [prob. to be read: <he>אִתַּצוּרֵי … מִתַּצְרֵי</he> (fr. <cite ref=\"J00549\"><he>יְצַר</he></cite>) they have not yet been formed]."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

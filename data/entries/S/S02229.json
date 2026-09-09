@@ -1,0 +1,94 @@
+{
+	"id": "S02229",
+	"slug": "קשט-1",
+	"headword": {
+		"text": "קָשַׁט"
+	},
+	"page": {
+		"number": 1429,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) [<i>to be straight, strong</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to go in a straight line, to shoot forth</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> <he>יש מזיק … וקוֹשֵׁט כחץ</he> some demon flies like a bird and shoots through the air like an arrow; <cite ref=\"Midrash Tehillim 91\">Midr. Till. to Ps. XCI</cite>; <cite ref=\"Yalkut Shimoni on Nach 842\">Yalk. ib. 842</cite> <he>וקוֹשֵׁת</he>; Tanḥ. Naso 23 <he>וקושש</he> (corr. acc.); ed. Bub. 28.—",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:11:2\">Y. Meg. I, 72ᵇ</cite> <he>מאיכן ק׳ הקוֹשֵׁט הזה וכ׳</he> whence did this archer shoot (whence did he derive the opinion) that &c. (cmp. <cite ref=\"J00601\"><he>יָרָה</he></cite> <i>Hif.</i>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to correct</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 107b\">B. Mets. 107ᵇ</cite>, v. infra."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִישֵּׁט"],
+			"senses": [
+				{
+					"gloss": "<i>to shoot, aim, direct</i>. Tosef. Erub. IX (VI), 26 <he>ביבין המְקַשְּׁטִין וכ׳</he> ed. Zuck. (Var. <he>המשקטין</he>, <he>המְקַשְׁקְשִׁין</he>, v. <cite ref=\"S02258\"><he>קִשְׁקֵשׁ</he> II</cite>) gutters which gush under the houses (cmp. <cite ref=\"S01302\"><he>קָלַח</he></cite>). ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 3\">Lam. R. to III, 12</cite> <he>מקושטים בה</he> Ar. s. v. <cite ref=\"S00588\"><he>קורה</he></cite>, read: <he>מְקַשְּׁטִים</he> (Ar. ed. Koh. <he>מְקוֹשְׁשִׁים</he>; ed. <cite ref=\"M00653\"><he>מוֹרִים</he></cite>), v. <cite ref=\"H01487\"><he>חֵץ</he></cite>.—Part. pass. <he>מְקוּשָּׁט</he>; f. <he>מְקוּשֶּׁטֶת</he>; pl. <he>מְקוּשָּׁטִים</he>, <he>מְקוּשָּׁטִין</he>; <he>מְקוּשָּׁטוֹת</he>. ",
+						"<cite ref=\"Pesikta Rabbati 40:1\">Pesik. R. s. 40</cite> (play on <cite ref=\"M00643\"><he>מוריה</he></cite>, with ref. to <he>ירה יירה</he>, <cite ref=\"Exodus 19:13\">Ex. XIX, 13</cite>) <he>שהיתה מק׳ כנגד וכ׳</he> it (the holy land) was aimed towards (directly under) the heavenly altar (v. <cite ref=\"K00296\"><he>כּוּן</he></cite>); <cite ref=\"Yalkut Shimoni on Nach 988:31\">Yalk. Cant. 988</cite>. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 988:31\">Ib.</cite> <he>כשם שגודלת הזו … להיות מקושטים וכ׳</he> (not <he>מקושטת</he>) as the hair-dresser dressing the bride puts every ornament in its proper place, so must the words of the Law be aimed, every word in its due place."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <he>תקן</he>) <i>to dress, adorn, prepare</i>. Ib. <he>שמְקַשֶּׁטֶת לכלה</he>, v. supra. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 8\">Gen. R. s. 8</cite> <he>מְקַשֵּׁט כלות</he> he (the Lord) attires brides; <cite ref=\"Kohelet Rabbah 7:2\">Koh. R. to VII, 2</cite>. ",
+						"<cite ref=\"Kohelet Rabbah 7:2\">Ib.</cite>; <cite ref=\"Bereishit Rabbah 18:1\">Gen. R. s. 18</cite> <he>משקִשְּׁטָהּ וכ׳</he> after having fitted her out with twenty-four kinds of ornaments; a. fr.—Part. pass. as ab. ",
+						"<cite ref=\"Shabbat 25b:5\">Sabb. 25ᵇ</cite> <he>מטה מוצעת ואשה מק׳ לתלמיד חכם</he> the scholar’s happiness when the couch is spread and the wife dressed (for the Sabbath). Ib. 153ᵃ <he>כשהן מק׳</he> in festive dress, opp. <he>מלוכלכין</he>; a. fr.—Trnsf. <i>to set right, correct</i>. ",
+						"<cite ref=\"Sanhedrin 18a:11\">Snh. 18ᵃ</cite> (ref. to <he>התקוששו וקושו</he>, <cite ref=\"Zephaniah 2:1\">Zeph. II, 1</cite>) <he>קַשֵּׁט … קשט אחרים</he> first correct thyself, then correct others; ib. 19ᵃ; <cite ref=\"Bava Batra 60b\">B. Bath. 60ᵇ</cite>; <cite ref=\"Bava Metzia 107b:15\">B. Mets. 107ᵇ</cite> <he>קְשׁוֹט וכ׳</he>; <cite ref=\"Yalkut Shimoni on Nach 302:2\">Yalk. Jer. 302</cite>; <cite ref=\"Midrash Tehillim 53:1\">Midr. Till. to Ps. LIII</cite> <he>אם תרצה לקַשֵּׁט אחרים וכ׳</he> if thou wishest to correct others, correct thyself first."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִקְשִׁיט"],
+			"senses": [
+				{
+					"gloss": "<i>to prepare, make ready</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 28\">Gen. R. s. 28</cite> <he>הקב״ה היפך … והִקְשִׁיטָן וכ׳</he> the Lord turned day into night and prepared them for visitations; (<cite ref=\"Yalkut Shimoni on Nach 920:3\">Yalk. Job 920</cite> <he>והתקינן</he>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְקַשֵּׁט"],
+			"senses": [
+				{
+					"gloss": "<i>to dress, adorn one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 2\">Num. R. s. 2</cite> <he>אבן יקרה שמִתְקַשְּׁטוֹת וכ׳</he> a precious stone with which women adorn themselves; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be verified, justified</i> (cmp. <cite ref=\"S02225\"><he>קְשׁוֹט</he></cite>). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 55:1\">Gen. R. s. 55</cite> <he>בשביל שתִּתְקַשֵּׁט וכ׳</he>, v. <cite ref=\"S00662\"><he>קוֹשֶׁט</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 95:7\">Yalk. ib. 95</cite>; <cite ref=\"Yalkut Shimoni on Nach 777:6\">Yalk. Ps. 777</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

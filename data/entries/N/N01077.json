@@ -1,0 +1,35 @@
+{
+	"id": "N01077",
+	"slug": "נפקא",
+	"headword": {
+		"text": "נִפִקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 926,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01076\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": " = h. <cite ref=\"R00004\"><he>צֹאָה</he></cite>, <i>excrements</i>. ",
+			"units": ["<cite ref=\"Gittin 69b:1\">Gitt. 69ᵇ</cite> top."],
+			"label": "1"
+		},
+		{
+			"gloss": " = h. <cite ref=\"M00571\"><he>מוֹצָא</he></cite>, <i>outlet, opening</i>; [Ar.: <i>projection</i>].—Pl. <he>נִפְקֵי</he>, <cite ref=\"M01772\"><he>נִי׳</he></cite>. ",
+			"units": ["<cite ref=\"Eruvin 87b:13\">Erub. 87ᵇ</cite>"],
+			"label": "2"
+		}
+	]
+}

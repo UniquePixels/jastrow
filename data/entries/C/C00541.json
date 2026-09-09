@@ -1,0 +1,63 @@
+{
+	"id": "C00541",
+	"slug": "גזי",
+	"headword": {
+		"text": "גְּזֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּזָא"
+		}
+	],
+	"page": {
+		"number": 229,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <he>גזז</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to cut</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 150b:9\">Sabb. 150ᵇ</cite> <he>למִיגְזָא ליה אסא</he> (Ms. M. <he>למיגז</he>, v. <cite ref=\"C00538\"><he>גְּזַז</he></cite>) to cut a myrtle branch for one (attending a wedding, Rashi <cite ref=\"O01410\"><he>לה</he></cite> for the bride); <cite ref=\"Shabbat 150b:10\">ib.</cite> <he>למיגזא ליה גלימא</he> (Ms. M. <he>למיגז</he>, Ar. s. v. <cite ref=\"C00151\"><he>גד</he></cite>: <he>למיגד</he> ‘to cut’, v. <cite ref=\"C00166\"><he>גדד</he></cite>, or ‘to sew’, v. <cite ref=\"A00240\"><he>אֲגַד</he> I</cite>) to cut a shroud for the dead; <cite ref=\"Beitzah 6a:4\">Bets. 6ᵃ</cite> <he>למיגז</he> (Ms. M. <he>למיגד</he>, v. Rabb. D. S. a. l. note). ",
+				"<cite ref=\"Sanhedrin 106a:16\">Snh. 106ᵃ</cite> (prov.) when the camel asked for horns, <he>אודנין דהוו ליה גָּזְיִין מיניה</he> they cut off the ears he had. ",
+				"<cite ref=\"Sanhedrin 96a:1\">Ib. 96ᵃ</cite> <he>אִיגְזְיָיךְ אנא</he> I myself will cut thy hair. ",
+				"<cite ref=\"Sukkah 37b:5\">Succ. 37ᵇ</cite> <he>אתי למִגְזַיֵּיה</he> he may be induced to cut it (Ms. M. <he>למיכל … למיתלש</he>). ",
+				"<cite ref=\"Gittin 3a:9\">Gitt. 3ᵃ</cite> <he>אתי למיגזייה</he> he may cut it short, i.e. say only a portion of a lengthy legal formula, v. <cite ref=\"C00338\"><he>גּוּז</he></cite>. Y. ib. V, 47ᵇ top <he>ומה דאת גָּזֵי גְזֵי</he> and what crop thou mayest cut, cut, i.e. enjoy the crop as my tenant; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pass, go out of one’s way</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 111b:5\">Pes. 111ᵇ</cite> <he>לגְזוּיֵי לה</he> Rashi, v. <cite ref=\"C00538\"><he>גְּזַז</he></cite>. ",
+				"<cite ref=\"Pesachim 111b:5\">Ib.</cite> <he>וגזי לה</he> (Ms. M. <he>גייז ליה</he>, v. <cite ref=\"C00338\"><he>גּוּז</he></cite>) he went out of the demon’s way.—",
+				"<cite ref=\"Targum Jonathan on Jeremiah 8:6\">Targ. Jer. VIII, 6</cite> <he>דגָזְיָא</he> Ar. s. v. <he>גז</he> 4 (ed. <he>גזר</he>, corr. <cite ref=\"C00541\"><he>גזי</he></cite>) which passes swiftly (h. text <cite ref=\"U00389\"><he>שוטף</he></cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to deal out, dispense, repay</i>. Pesik. Zakhor p. 24ᵇ [read:] <he>למִיגְזֵי לטבא טיבותיה ולמ׳ לבישא בישותיה</he> (v. Bub. note 68 sq.) to repay the good man his goodness &c.; Tanḥ. Ki Thetsé 6 <he>למזגיה</he> (corr. acc.); ed. Bub. ib.; <cite ref=\"Tractate Soferim 14:7\">Treat. Sof’rim XIV, 7</cite> <he>למזגא</he>, <he>למגוא</he> (corr. acc.); <cite ref=\"Yalkut Shimoni on Nach 719\">Yalk. Ps. 719</cite>.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:6:4\">Y. Taan. IV, 69ᶜ</cite> top <he>וגזי ליה</he> and he (R. Ba bar Zabda) retaliated to him (R. Elazar) his refutation; <cite ref=\"Jerusalem Talmud Megillah 1:4:6\">Y. Meg. I, 70ᶜ</cite> top <he>וגזה ליה</he>."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּזֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to cut, design</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 44:13\">Targ. Is. XLIV, 13</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

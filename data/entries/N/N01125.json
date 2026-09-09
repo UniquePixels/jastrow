@@ -1,0 +1,31 @@
+{
+	"id": "N01125",
+	"slug": "נציב-4",
+	"headword": {
+		"text": "נְצִיב",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נְצִיבָא"
+		}
+	],
+	"page": {
+		"number": 929,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = <cite ref=\"N01099\"><he>נִצְבָּא</he></cite>, q. v. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 14:8\">Targ. Job XIV, 8</cite>, sq. Ms.—Pl. <he>נְצִיבִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 144:12\">Targ. Ps. CXLIV, 12</cite>.—",
+				"<cite ref=\"Vayikra Rabbah 25:5\">Lev. R. s. 25</cite>, v. <cite ref=\"N01098\"><he>נְצַב</he></cite>; a. e.—",
+				"<cite ref=\"Targum Jonathan on Exodus 26:15\">Targ. Y. Ex. XXVI, 15</cite> <he>כאורח נְצִיבֵיהוֹן</he> the way they grow, v. <cite ref=\"C00207\"><he>גְּדִילָה</he> I</cite>."
+			]
+		}
+	]
+}

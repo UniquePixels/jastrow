@@ -1,0 +1,39 @@
+{
+	"id": "T01048",
+	"slug": "רקע-1",
+	"headword": {
+		"text": "רָקַע"
+	},
+	"page": {
+		"number": 1497,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to beat</i>,] <i>to stretch, spread</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְקִיעַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T01047\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 146:2\">Midr. Till. to Ps. CXLVI, 5</cite> <he>משמתחתי … והִרְקַעְתִּי הארץ וכ׳</he> since I stretched the heaven and spread the land (over the water), have they ever moved from their position?"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (in enigmatic speech, denom. of <cite ref=\"T01032\"><he>רָקִיעַ</he></cite>) <i>to make to look blue</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 53b:13\">Erub. 53ᵇ</cite> <he>הַרְקִיעוּ</he> Ms. M. (ed. <he>אַרְקִיעוּ</he>), v. <cite ref=\"G00080\"><he>זָהָב</he></cite>; [Rashi: <i>spread</i> the glowing coals].—[<cite ref=\"Tosefta Bava Batra 11:9\">Tosef. B. Bath. XI, 9</cite> <he>שהרקיע</he> ed. Zuck., read: <he>שהִרְקִיב</he>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

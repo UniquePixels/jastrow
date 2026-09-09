@@ -1,0 +1,28 @@
+{
+	"id": "P01397",
+	"slug": "ערמונא",
+	"headword": {
+		"text": "עַרְמוֹנָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1120,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"P01392\"><he>עֲרַם</he></cite>; cmp. ",
+			"units": ["<cite ref=\"Genesis 3\">Gen. III</cite>, "]
+		},
+		{
+			"gloss": "<i>a venomous serpent</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 49:17\">Targ. Y. II, Gen. XLIX, 17</cite> Ar. (ed. <cite ref=\"H00473\"><he>חוּרְמָנָא</he></cite>)."
+			],
+			"label": "1"
+		}
+	]
+}

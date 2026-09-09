@@ -1,0 +1,22 @@
+{
+	"id": "Q01059",
+	"slug": "פליית",
+	"headword": {
+		"text": "פָּלְיַית"
+	},
+	"page": {
+		"number": 1182,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. constr. (<cite ref=\"Q01037\"><he>פְּלֵי</he></cite>) <i>searcher</i>; <he>פ׳ חֵיוָא</he> <i>hedgehog</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 11:30\">Targ. Y. Lev. XI, 30</cite> Ar. (Var. <cite ref=\"Q00653\"><he>פַּיְילַת</he></cite>, fr. <cite ref=\"Q00207\"><he>פּוּל</he></cite>; ed. <he>מינקת חויא</he>), v. <cite ref=\"J00331\"><he>יָילָא</he></cite>. Y’lamd. to Num. XXII, 29, quot. in Ar. (Tanḥ. Balak 9 <cite ref=\"N00031\"><he>אנקה</he></cite>)."
+			]
+		}
+	]
+}

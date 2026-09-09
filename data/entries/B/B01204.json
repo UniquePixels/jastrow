@@ -1,0 +1,28 @@
+{
+	"id": "B01204",
+	"slug": "ברוקא-3",
+	"headword": {
+		"text": "בָּרוֹקָא",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּרוֹקָה"
+		}
+	],
+	"page": {
+		"number": 191,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>morning star</i>, v. <cite ref=\"B01313\"><he>בָּרַק</he></cite> a. <cite ref=\"B01314\"><he>בְּרַק</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 3:1:2\">Y. Yoma III, beg. 40ᵇ</cite>; Y. R. Hash. I, beg. 57ᵈ"
+			]
+		}
+	]
+}

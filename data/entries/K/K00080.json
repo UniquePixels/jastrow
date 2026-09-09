@@ -1,0 +1,28 @@
+{
+	"id": "K00080",
+	"slug": "כבריתא-3",
+	"headword": {
+		"text": "כַּבְרִיתָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּבַרְתָּה"
+		}
+	],
+	"page": {
+		"number": 610,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (<cite ref=\"K00079\">preced.</cite>; cmp. <cite ref=\"N01086\"><he>נפת</he></cite>, Targ. <cite ref=\"Q01074\"><he>פלכין</he></cite>, <cite ref=\"Joshua 12:23\">Josh. XII, 23</cite>; <cite ref=\"Joshua 17:11\">XVII, 11</cite>; <cite ref=\"I Kings 4:11\">I Kings IV, 11</cite>) <i>Kabritha, K’bartha</i> (<i>el-Kabîre</i>, v. Hildesh. Beitr. p. 15), a border town of northern Palestine. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 4:11\">Tosef. Shebi. IV, 11</cite> <he>כברי׳</he> ed. Zuck. (Var. <he>כברתא</he>); Y. ib. VI, 36ᶜ <cite ref=\"K00080\"><he>כברתה</he></cite>; <cite ref=\"Sifrei Devarim 51:6\">Sifré Deut. 51</cite> <he>סברתה</he>; <cite ref=\"Yalkut Shimoni on Torah 874\">Yalk. Deut. 874</cite> <he>נברת׳</he> (corr. acc.)."
+			]
+		}
+	]
+}

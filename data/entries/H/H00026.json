@@ -1,0 +1,25 @@
+{
+	"id": "H00026",
+	"slug": "חבולה",
+	"headword": {
+		"text": "חֲבוֹלָה"
+	},
+	"page": {
+		"number": 416,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"H00026\"><he>חֲבֹלָה</he></cite>; <cite ref=\"H00083\"><he>חָבַל</he></cite><i>pledge</i>. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Exodus 19:25\">B’shall. 19</cite> (ref. to <he>חבל תחבל</he>, <cite ref=\"Exodus 22:25\">Ex. XXII, 25</cite>) … <he>חָבַלְתָּ ח׳ אחת חֲבוֹלוֹת הרבה</he> if thou seizest a pledge once, thou wilt finally be seized many times (cmp. ",
+				"<cite ref=\"Shemot Rabbah 31:17\">Ex. R. s. 31</cite>, quot. s. v. <cite ref=\"M02900\"><he>מַשְׁכּוֹן</he></cite>); <cite ref=\"Yalkut Shimoni on Torah 257:9\">Yalk. Ex. 257</cite>; Mekh. B’shall., Vayassa, s. 1 (corr. acc.). ",
+				"<cite ref=\"Tosefta Ketubot 11:8\">Tosef. Keth. XI, 8</cite> <he>המלוה … על חֲבִילָה וכ׳</he> if one gives a loan on a pawn &c.—Pl. <he>חֲבוֹלוֹת</he>, v. supra (Yalk. l. c. <he>חֲבֹלוֹת</he>)."
+			],
+			"label": "1"
+		}
+	]
+}

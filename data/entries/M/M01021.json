@@ -1,0 +1,24 @@
+{
+	"id": "M01021",
+	"slug": "מטמונית",
+	"headword": {
+		"text": "מַטְמוֹנִית"
+	},
+	"page": {
+		"number": 768,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01020\">preced.</cite>) <i>secrecy.—</i>Pl. <he>מַטְמוֹנִיּוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Demai 2:9\">Tosef. Dem. II, 9</cite> <he>חזרו … במ׳</he> (Var. <he>במטמונות</he>, <he>במטמורנית</he>, corr. acc.) if they repent in secret, opp. <he>בפרהסיא</he>; <cite ref=\"Avodah Zarah 7a:11\">Ab. Zar. 7ᵃ</cite>; <cite ref=\"Bekhorot 31a:1\">Bekh. 31ᵃ</cite>.—Lam. R., introd. (R. Josh. 1) <he>היו עובדין אותן במ׳</he> (some ed. <he>במטמניות</he>) they worshipped idols in secret; <cite ref=\"Yalkut Shimoni on Nach 348:1\">Yalk. Ez. 348</cite>.—",
+				"<cite ref=\"Bereishit Rabbah 52:5\">Gen. R. s. 52</cite> <he>הולך במ׳</he> he goes to her in secret; <cite ref=\"Bereishit Rabbah 52:5\">ib.</cite> s. 74 (v. <cite ref=\"M01020\">preced.</cite>). Ib. s. 17 <he>למה במ׳</he> why did he do it secretly (while Adam was asleep)?—",
+				"<cite ref=\"Pesikta Rabbati 8:1\">Pesik. R. s. 8</cite> whatever a man does <he>במ׳ בחשך וכ׳</he> in secret, in the dark or openly; <cite ref=\"Yalkut Shimoni on Nach 959:33\">Yalk. Prov. 959</cite>. Pesik. R. l. c. <he>שבמַטְמֹנִיּוֹת</he> whatever is hidden in the secret chambers (of the heart); a. e."
+			]
+		}
+	]
+}

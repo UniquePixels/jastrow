@@ -1,0 +1,28 @@
+{
+	"id": "M01718",
+	"slug": "מנדע",
+	"headword": {
+		"text": "מַנְדַּע"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַנְדְּעָא"
+		}
+	],
+	"page": {
+		"number": 797,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"M00316\"><he>מַדַּע</he></cite>; cmp. <cite ref=\"M01712\"><he>מִנְדָּה</he></cite>) <i>knowledge, wisdom</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 1:13\">Targ. Y. Deut. I, 13</cite> <he>מרי מ׳</he> possessors of knowledge (O., v. <cite ref=\"M00316\"><he>מַדַּע</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 33:3\">Targ. Job XXXIII, 3</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "U02127",
+	"slug": "שתן-1",
+	"headword": {
+		"text": "שָׁתַן"
+	},
+	"page": {
+		"number": 1639,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U02119\"><he>הִשְׁתִּין</he></cite> (b. h.; , Ges. Thes. s. v.), with, or sub. <cite ref=\"M01199\"><he>מים</he></cite>, <i>to urinate</i>. ",
+					"units": [
+						"<cite ref=\"Bekhorot 44b:6\">Bekh. 44ᵇ</cite> <he>ביקש להַשְׁתִּין מים ולא ה׳</he> needed to make water, and forewent it. ",
+						"<cite ref=\"Shabbat 67b:11\">Sabb. 67ᵇ</cite> (a superstitious custom) <he>המַשְׁתֶּנֶת בפני וכ׳</he> who urinates before her pot that it may boil quickly; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

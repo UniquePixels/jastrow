@@ -1,0 +1,22 @@
+{
+	"id": "S00800",
+	"slug": "קטנטין",
+	"headword": {
+		"text": "קְטַנְטִין"
+	},
+	"page": {
+		"number": 1351,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (reduplic. of <cite ref=\"S00794\"><he>קטן</he></cite>) <i>a subordinate officer, attendant of a magistrate</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 54:2\">Midr. Till. to Ps. LIV, 3</cite> <he>ק׳ שהוא רודף לאדם וכ׳</he> ed. Bub. (oth. ed. <he>אחר חבירו</he>, corr. acc.) if an attendant persecutes a man, he may complain against him to the lieutenant (hyparch), and if the lieutenant persecutes him, he may complain to the king; <cite ref=\"Yalkut Shimoni on Nach 771\">Yalk. ib. 771</cite> <he>קְטַנְתָּן … קובל עליו לאפיקורוס וכ׳</he> (read: <he>לאפיטרופוס</he>) if an attendant …, he appeals to the proconsul &c."
+			]
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"id": "H00109",
+	"slug": "חבר-3",
+	"headword": {
+		"text": "חָבֵר"
+	},
+	"page": {
+		"number": 421,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H00108\">preced.</cite> wds.) (with suff. <cite ref=\"H00076\"><he>חֲבֵיר־</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>associate, friend, partner</i> (in sacrifices); <i>colleague, fellow-student; fellow-being; of the same kind</i> (also of things). ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 2:9\">Ab. II, 9</cite> <he>ח׳ טוב</he> a true friend; <he>ח׳ רע</he> a false friend. Ib. 10 <he>כבוד חֲבֵרְךָ</he> thy neighbor’s honor. ",
+				"<cite ref=\"Shabbat 63a:1\">Sabb. 63ᵃ</cite> top <he>בח׳ טוב</he> with a good friend (an obscene disguise for a fair woman, v. <cite ref=\"C00490\"><he>גּוּרְדְּלִי</he></cite>); a. v. fr.—<he>ח׳ ותלמיד</he>, (in Babli) <he>תלמיד ח׳</he> colleague and pupil, a title of distinction for a student, <i>fellow</i>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 3:1:3\">Y. Shek. III, beg. 47ᵇ</cite>; Y. B. Bath. IX, end, 17ᵇ, a. e. <he>ח׳ ות׳ הוה וכ׳</he> was a fellow under R. Ak.; Bab. ",
+				"<cite ref=\"Bava Batra 158b:6\">B. Bath. 158ᵇ</cite>. ",
+				"<cite ref=\"Berakhot 27b:3\">Ber. 27ᵇ</cite> <he>דתלמיד ח׳ הוה</he> who was a fellow (under Rab)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Ḥaber, Fellow</i>, a scholar’s title, less than <cite ref=\"H00940\"><he>חַכִּים</he></cite> or <cite ref=\"G00642\"><he>זָקֵן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 33b:13\">Kidd. 33ᵇ</cite> (in Chald. phras.) <he>אנא ח׳</he>, <he>אתון חכימי</he> ye are <i>ḥakkime</i> (doctors), and I merely a fellow. ",
+				"<cite ref=\"Sanhedrin 8b:6\">Snh. 8ᵇ</cite>, a. e. <he>ח׳ אינו וכ׳</he>, v. <cite ref=\"E00956\"><he>הַתְרָאָה</he></cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 84:13\">Gen. R. s. 84</cite> (play on <he>חֶ֗בְ֗ר֗ו̇ן֗</he>) <he>ח̇ב̇ר̇ הנ̇אה וכ׳</he> that worthy scholar buried &c."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>Ḥaber,member of a religious or charitable association</i>, esp. <i>member of the order for the observance of levitical laws in daily intercourse</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Demai 2:3\">Dem. II, 3</cite>. ",
+				"<cite ref=\"Tosefta Demai 2:2\">Tosef. ib. II, 2</cite> <he>מקבלין אותו להיות ח׳</he> is accepted as a member of the order; a. v. fr.—Pl. <he>חֲבֵרִים</he>, <cite ref=\"H00121\"><he>חֲבֵי׳</he></cite>. ",
+				"<cite ref=\"Berakhot 28b:4\">Ber. 28ᵇ</cite> <he>ולא יכשלו חֲבֵרַי וכ׳</he> that my colleagues (in court) may not fail in a decision of the law. ",
+				"<cite ref=\"Berakhot 28b:7\">Ib.</cite> <he>הזהרו בכבוד חֲבֵירֵיכֶם</he> take heed of your fellow-students’ honor. ",
+				"<cite ref=\"Bekhorot 30b:11\">Bekh. 30ᵇ</cite> <he>בפני שלשה ח׳</he> in the presence of three members of the order. ",
+				"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite> <he>חֲבֵרֵיהֶם שלהם עוסקים וכ׳</he> the members of societies among them are engaged in charitable work. ",
+				"<cite ref=\"Pesikta Rabbati 11:1\">Ib.</cite> <he>ואין חביריהם מרגישים</he> and their neighbors (the fruits in the same bag) are not affected; a. v. fr.—<i>Fem.</i> <cite ref=\"H00078\"><he>חֲבֵירָה</he></cite>, <cite ref=\"H00118\"><he>חֲבֵרָה</he></cite>, <cite ref=\"H00124\"><he>חֲבֶרֶת</he></cite>, <cite ref=\"H00078\"><he>חֲבֶירֶת</he></cite>. ",
+				"<cite ref=\"Sanhedrin 8b:6\">Snh. 8ᵇ</cite> <he>אשה חבירה</he> a scholarly woman (acquainted with the law). ",
+				"<cite ref=\"Berakhot 48b\">Ber. 48ᵇ</cite>, a. fr. <he>אין מלכות נוגעת בחֲבֶרְתָּהּ וכ׳</he> one term of office does not touch upon its successor even at a hair’s breadth (duration of power is preordained). ",
+				"<cite ref=\"Devarim Rabbah 7\">Deut. R. s. 7</cite> <he>אין טיפה מתערבת בחברתה</he> one rain-drop does not mix itself with the other; a. fr.—Pl. <cite ref=\"H00118\"><he>חֲבֵרוֹת</he></cite>. ",
+				"<cite ref=\"Shabbat 129a:4\">Sabb. 129ᵃ</cite> <he>חֲבֵרוֹתֶיהָ וכ׳</he>, v. <cite ref=\"A00332\"><he>אֲגַף</he></cite>; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

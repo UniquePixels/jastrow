@@ -1,0 +1,34 @@
+{
+	"id": "M01803",
+	"slug": "מנעול-2",
+	"headword": {
+		"text": "מִנְעוֹל"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִנְעָל"
+		}
+	],
+	"page": {
+		"number": 802,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"N00986\"><he>נָעַל</he></cite> , v. <cite ref=\"N00988\"><he>נַעַל</he></cite>) <i>foot-covering, shoe</i>, contrad. to <cite ref=\"O01178\"><he>סנדל</he></cite> sole. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 26:4\">Kel. XXVI, 4</cite>. ",
+				"<cite ref=\"Esther Rabbah 8:7\">Esth. R. to IV, 15</cite>, v. <cite ref=\"L00354\"><he>לָחַךְ</he></cite>. ",
+				"<cite ref=\"Mishnah Yevamot 12:1\">Yeb. XII, 1</cite>. ",
+				"<cite ref=\"Tosefta Yevamot 12:10\">Tosef. ib. XII, 10</cite> <he>במ׳ שנפרם וכ׳</he> with a torn shoe which still covers the larger portion of the foot; a. fr.—Pl. <he>מִנְעָלִים</he>, <he>מִנְעָלִין</he>. ",
+				"<cite ref=\"Shabbat 129a:13\">Sabb. 129ᵃ</cite>. ",
+				"<cite ref=\"Pesachim 113b:14\">Pes. 113ᵇ</cite>, v. <cite ref=\"M01800\"><he>מָנַע</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:2:3\">Y. Sabb. VI, 8ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Kilayim 9:7\">Kil. IX, 7</cite> <he>מִנְעֲלוֹת הפינון</he>. cloth <i>socks</i>, v. <cite ref=\"D01048\"><he>דַּרְדְּסָא</he></cite>."
+			]
+		}
+	]
+}

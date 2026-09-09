@@ -1,0 +1,30 @@
+{
+	"id": "D00142",
+	"slug": "דהב-2",
+	"headword": {
+		"text": "דְּהַב"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּהֲבָא"
+		}
+	],
+	"page": {
+		"number": 281,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"G00080\"><he>זָהָב</he></cite> , <i>gold</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 2:11\">Targ. Gen. II, 11</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:5:7\">Y. B. Mets. II, 8ᶜ</cite> bot. <he>קופד דד׳</he> a golden piece resembling meat; <cite ref=\"Tamid 32a\">Tam. 32ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 70a:8\">B. Mets. 70ᵃ</cite>; <cite ref=\"Bava Batra 166a:2\">B. Bath. 166ᵃ</cite> <he>ד׳ פריכא</he> broken pieces of gold (for the melting pot). ",
+				"<cite ref=\"Bava Batra 165b:22\">Ib. 165ᵇ</cite> <he>ד׳ אין פחות וכ׳</he> if a note has the word ‘gold’ (without any further definition), it means no less than a Denar in gold (v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

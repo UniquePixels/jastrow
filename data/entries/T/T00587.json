@@ -1,0 +1,31 @@
+{
+	"id": "T00587",
+	"slug": "ריבויא",
+	"headword": {
+		"text": "רִיבּוּיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִיבּוּיָיא"
+		},
+		{
+			"text": "רִבּ׳"
+		}
+	],
+	"page": {
+		"number": 1472,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00586\">same</cite>, <i>amplification</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 33a:25\">Nidd. 33ᵃ</cite> <he>וכל ר׳ הוא</he> and the word <i>kol</i> (<cite ref=\"Leviticus 15:4\">Lev. XV, 4</cite>) is an amplification (and not a specification, <he>פרט</he>). ",
+				"<cite ref=\"Zevachim 8b:15\">Zeb. 8ᵇ</cite> <he>לזבח ר׳ הוא</he> the word <i>l’zebaḥ</i> (<cite ref=\"Leviticus 3:6\">Lev. III, 6</cite>) is merely an amplification (and not a generalization <he>כלל</he>). ",
+				"<cite ref=\"Shevuot 25b:5\">Shebu. 25ᵇ</cite> <he>דמר׳ דקראי אתו</he> which are derived from the amplification of Scriptural expressions, i.e. which are only implied, not explicitly stated. ",
+				"<cite ref=\"Yoma 6a:13\">Yoma 6ᵃ</cite> <he>נדה וכל דאתי מר׳</he> the menstruant and all that is implied (all persons made unclean by contact with her); a. fr.—Pl. <cite ref=\"T00587\"><he>רִיבּוּיֵי</he></cite>, <cite ref=\"T00586\"><he>רִבּ׳</he></cite>. ",
+				"<cite ref=\"Shevuot 26a:1\">Shebu. 26ᵃ</cite>; <cite ref=\"Sanhedrin 45b:6\">Snh. 45ᵇ</cite>, v. <cite ref=\"M01260\"><he>מִיעוּטָא</he></cite>."
+			]
+		}
+	]
+}

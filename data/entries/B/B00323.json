@@ -1,0 +1,22 @@
+{
+	"id": "B00323",
+	"slug": "בוקיון",
+	"headword": {
+		"text": "בּוּקְיוֹן"
+	},
+	"page": {
+		"number": 148,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (βουκκίων, bucco; v. Sachs Beitr. II, 121; Sm. Ant. s. v. Atellanæ Fabulæ) <i>bucco</i>, the clown in the Atellanæ Fabulæ of the Romans. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 18b:5\">Ab. Zar. 18ᵇ</cite>; <cite ref=\"Tosefta Avodah Zarah 2:6\">Tosef. ib. II, 6</cite> <he>ב׳ ומוקיון</he>; Y. ib. I, 40ᵃ <he>מוקיון מופיון</he> (corr. acc.) Bucco and Macchus."
+			]
+		}
+	]
+}

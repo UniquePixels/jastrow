@@ -1,0 +1,22 @@
+{
+	"id": "D00615",
+	"slug": "דימה",
+	"headword": {
+		"text": "דּימָה"
+	},
+	"page": {
+		"number": 300,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>דום</he> or <cite ref=\"D00903\"><he>דמם</he></cite>) <i>evil talk, gossip, envy</i> (cmp. <cite ref=\"D00041\"><he>דבב</he></cite> a. derivatives). ",
+			"units": [
+				"<cite ref=\"Niddah 66a:36\">Nidd. 66ᵃ</cite> <he>שמא דִּימַת עיריך וכ׳</he> ed. (Ar. <he>דמות</he>) perhaps the envy of thy towns-women has risen against thee (bewitched thee)."
+			]
+		}
+	]
+}

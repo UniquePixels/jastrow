@@ -1,0 +1,30 @@
+{
+	"id": "C00277",
+	"slug": "גובבתא",
+	"headword": {
+		"text": "גּוֹבְבָתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוֹפְפָתָא"
+		}
+	],
+	"page": {
+		"number": 217,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>גבב</he>) <i>hills</i>, esp. <i>Gob’batha</i>, near Sepphoris. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 98:11\">Gen. R. s. 98</cite> (ref. to <he>גת החפר</he>, <cite ref=\"I Kings 14:25\">I Kings XIV, 25</cite>) <he>אילין ג׳ דציפורין</he> that is G. near Sepph. ",
+				"<cite ref=\"Kohelet Rabbah 9:10\">Koh. R. to IX, 10</cite> the lamentations over the death of Rabbi at Sepph. were heard <he>עד גובבתה וכ׳</he> (some ed. <he>גובתתה</he>, <he>גובח׳</he>, corr. acc.) as far as Gob., a distance of three <i>mil;</i> <cite ref=\"Kohelet Rabbah 7:11\">ib. to VII, 11</cite> <cite ref=\"C00468\"><he>גופתתא</he></cite>; Y. Kil. V, 32ᵇ top <he>לגו פפתה</he> (combine in one w.); <cite ref=\"Jerusalem Talmud Ketubot 12:3:5\">Y. Keth. XII, 35ᵃ</cite> top <he>לגו פתתה</he> (corr. acc.). [<cite ref=\"Jerusalem Talmud Sanhedrin 7:13:6\">Y. Snh. VII, end, 25ᵈ</cite> <he>גופתא דציפורין</he>; Y. Ber. III, 6ᵃ bot.; <cite ref=\"Jerusalem Talmud Nazir 7:1:6\">Y. Naz. VII, 56ᵃ</cite> top <he>גופנא דציפ׳</he> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 7:2:11\">Y. Shek. VII, 50ᶜ</cite> bot.; <cite ref=\"Jerusalem Talmud Sukkah 2:5:2\">Y. Succ. II, 53ᵃ</cite> top <he>גופתא</he>—prob. the same as <he>גובב׳</he>.] V. <cite ref=\"C00294\"><he>גּוּבְתָּא</he></cite>."
+			]
+		}
+	]
+}

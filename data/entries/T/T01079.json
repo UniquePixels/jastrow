@@ -1,0 +1,24 @@
+{
+	"id": "T01079",
+	"slug": "רשות-1",
+	"headword": {
+		"text": "רָשׁוּת",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1499,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"T01061\"><he>רָשׁ</he></cite>) <i>poverty</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 24:1\">Midr. Till. to Ps. XXIV</cite> <he>יש רש ואין שמו לפי רָשׁוּתוֹ</he> (ed. Bub. <he>עניותו</he>) many a man is poor, but his reputation is not in harmony with his poverty (it being that he is wealthy). ",
+				"<cite ref=\"Yalkut Shimoni on Torah 147:4\">Yalk. Gen. 147</cite> (ref. to <cite ref=\"Ecclesiastes 4:14\">Koh. IV, 14</cite>) <he>במלכותו … נולדה רָשׁוּתוֹ וכ׳</he> with Joseph’s elevation to governorship Potiphar’s poverty was born; <cite ref=\"Bereishit Rabbah 89:3\">Gen. R. s. 89</cite> <he>רִשְׁתּוֹ</he>; <cite ref=\"Yalkut Shimoni on Nach 971:13\">Yalk. Koh. 971</cite> <he>רשתו</he>."
+			]
+		}
+	]
+}

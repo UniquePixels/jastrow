@@ -1,0 +1,28 @@
+{
+	"id": "A01657",
+	"slug": "איתניס",
+	"headword": {
+		"text": "אִיתְנִיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִתְנִיס"
+		},
+		{
+			"text": "אִתְנַס"
+		}
+	],
+	"page": {
+		"number": 62,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <cite ref=\"N00953\"><he>אתנסיס</he></cite>, <he>אתנסס</he>, v. <cite ref=\"N00953\"><he>נסס</he></cite>; or Ithpe. of <cite ref=\"N00382\"><he>נוס</he></cite> or <cite ref=\"N00698\"><he>ניס</he></cite>) <i>to be taken sick</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 145b:7\">Sabb. 145ᵇ</cite> <cite ref=\"N00927\"><he>אִיתְנַסִּי</he></cite> (Ms. M. <he>אִיתְנַיֵּיס אִיתְנַיְּיסִי</he> <i>Ithpa.</i>) I should have grown sick; (Ms. Oxf. <he>איסתכני</he> I should have been in danger). ",
+				"<cite ref=\"Gittin 56a\">Git. 56ᵃ</cite> <he>אִתְנִיסָא</he> (or <he>אִתְנַיְּסָה</he>) she grew sick (from aversion), fainted. Cmp. <cite ref=\"A01525\"><he>אִיסְתְּנִיס</he></cite>. [<cite ref=\"A01657\"><he>אִיתְנִיס</he></cite> = <cite ref=\"A02260\"><he>אִתְאֲנִיס</he></cite>, v. <cite ref=\"A02260\"><he>אֲנַס</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "R00598",
+	"slug": "צמרמורייה",
+	"headword": {
+		"text": "צְמַרְמוֹרַיָּיה"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְמַרְמוֹרִין"
+		}
+	],
+	"page": {
+		"number": 1289,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"R00597\">preced.</cite>) <i>chills and fever</i>. Y. Ab. Zar. II, 40ᵈ bot.; Y. Sabb. XIV, 14ᵈ bot. <he>צמר מורין</he> (corr. acc.). ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 2:16\">Cant. R. to II, 16</cite> <he>צמר מורייה</he> (corr. acc.)."
+			]
+		}
+	]
+}

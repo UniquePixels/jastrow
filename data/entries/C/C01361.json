@@ -1,0 +1,22 @@
+{
+	"id": "C01361",
+	"slug": "גרמיתא",
+	"headword": {
+		"text": "גַּרְמִיתָא"
+	},
+	"page": {
+		"number": 270,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (dimin. of <cite ref=\"C01354\"><he>גַּרְמָא</he></cite>) <i>a small bone</i> or <i>sinew</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 103b\">Ḥull. 103ᵇ</cite> Ar. (ed. <cite ref=\"C01301\"><he>גְּרוֹמִיתָא</he></cite>, <cite ref=\"C01301\"><he>גְּרוּמְתָּא</he></cite>)."
+			]
+		}
+	]
+}

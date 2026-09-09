@@ -1,0 +1,36 @@
+{
+	"id": "G00078",
+	"slug": "זה",
+	"headword": {
+		"text": "זֶה"
+	},
+	"altHeadwords": [
+		{
+			"text": "ז"
+		},
+		{
+			"text": "את"
+		},
+		{
+			"text": "זוּ"
+		}
+	],
+	"page": {
+		"number": 380,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) <i>this, that</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 53b:4\">Men. 53ᵇ</cite> <he>יבא זה וכ׳</he> let this one come and receive this &c.; <he>זה זה משה</he> ‘this one’ that means Moses; <he>זאת זו התורה</he> ‘this’—that means the Law. ",
+				"<cite ref=\"Bereishit Rabbah 4:7\">Gen. R. s. 4</cite> <he>לגיון זה</he> this legion; a. v. fr.—<cite ref=\"G00084\"><he>זֶהוּ</he></cite> = <he>זה הוא</he>, <i>this is</i>. ",
+				"<cite ref=\"Shabbat 40b:8\">Sabb. 40ᵇ</cite> <he>הפשרו זהו בישולו</he> (also <he>זה הוא</he>) warming it is the cooking of it, v. <cite ref=\"E00772\"><he>הֶפְשֵׁר</he></cite>; a. fr.—",
+				"<cite ref=\"Mishnah Gittin 8:4\">Gitt. VIII, 4</cite> <he>אי זֹהו</he> Y. ed. (Mish. <cite ref=\"A01194\"><he>אֵיזֶהוּ</he></cite>); a. v. fr."
+			]
+		}
+	]
+}

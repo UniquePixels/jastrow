@@ -1,0 +1,39 @@
+{
+	"id": "M02934",
+	"slug": "משמש-1",
+	"headword": {
+		"text": "מִשְׁמֵשׁ"
+	},
+	"page": {
+		"number": 856,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"M00678\"><he>מוּשׁ</he></cite>, <cite ref=\"M02984\"><he>מָשַׁשׁ</he></cite>) <i>to touch, feel; to handle, manipulate</i>; <i>to examine, search</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 21b:10\">B. Mets. 21ᵇ</cite> <he>אדם עשוי למַשְׁמֵשׁ בכיסו וכ׳</he> a person (carrying money with him on the road) usually feels for his bag at short intervals. ",
+				"<cite ref=\"Menachot 36a:7\">Men. 36ᵃ</cite> <he>מְמַשְׁמֵשׁ בהן</he> he puts his hand on them. ",
+				"<cite ref=\"Eruvin 54b:1\">Erub. 54ᵇ</cite> top <he>כל זמן שאדם ממשמש בה</he> as often as one searches it (the figtree); <he>כ״ז שהתינוק ממשמש בו</he> as often as the suckling touches the breasts. ",
+				"<cite ref=\"Shabbat 82a:6\">Sabb. 82ᵃ</cite> <he>יְמַשְׁמֵשׁ בצרור וכ׳</he> let him manipulate (stimulate the rectum) with pebbles. ",
+				"<cite ref=\"Eruvin 13b:14\">Erub. 13ᵇ</cite> <he>ימשמש במעשיו</he> let him examine what he is doing, contrad. to <he>יפשפש</he> search (investigate) his past doings. ",
+				"<cite ref=\"Ketubot 12a:9\">Keth. 12ᵃ</cite> <he>למַשְׁמֵשׁ את וכ׳</he> to be around (watch) the bridegroom and bride (in order to prevent deception). ",
+				"<cite ref=\"Sanhedrin 63b:14\">Snh. 63ᵇ</cite> <he>מְמַשְׁמְשִׁין בהן</he> they (the famished animals) licked them (begging for food); a. fr.—מ׳ ובא <i>to come gropingly, slowly</i>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 8:1:2\">Y. Peah VIII, beg. 20ᵈ</cite>, v. <cite ref=\"M00678\"><he>מוּשׁ</he></cite> h.—",
+				"<cite ref=\"Jerusalem Talmud Nedarim 3:5:2\">Y. Ned. III, 38ᵃ</cite> <he>ראה … ממשמשין ובאין</he> if he saw the king’s cutters come near and nearer, v. <cite ref=\"S01793\"><he>קָצוֹעַ</he></cite>; <cite ref=\"Jerusalem Talmud Nedarim 3:5:2\">ib.</cite> <he>ראה דליקה מְמַשְׁמֶשֶׁת ובאה</he> if he saw the fire coming near and nearer."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מוּשְׁמָשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be attended to, watched</i>. Keth. l. c. <he>כל שלא מ׳</he> when he was not watched.",
+					"units": []
+				}
+			],
+			"stem": "Pulpel."
+		}
+	]
+}

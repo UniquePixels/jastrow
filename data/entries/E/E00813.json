@@ -1,0 +1,23 @@
+{
+	"id": "E00813",
+	"slug": "הרג-2",
+	"headword": {
+		"text": "הָרָג"
+	},
+	"page": {
+		"number": 365,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"E00812\">preced.</cite>) <i>murderer, highway-man</i>, contrad. to <he>חרם</he> the oppressor who does not threaten to kill. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 4:7:1\">Y. B. Mets. IV, end, 9ᵈ</cite>.—Pl. <he>הָרָגִין</he>. ",
+				"<cite ref=\"Mishnah Nedarim 3:4\">Ned. III, 4</cite>, v. <cite ref=\"N00239\"><he>נָדַר</he></cite>."
+			]
+		}
+	]
+}

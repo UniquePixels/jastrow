@@ -1,0 +1,39 @@
+{
+	"id": "A02502",
+	"slug": "אספמיא",
+	"headword": {
+		"text": "אִסְפַּמְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְ׳"
+		}
+	],
+	"page": {
+		"number": 96,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. (= <he>סיף־ימא</he>, or <he>סיף־מיא</he>) ",
+			"units": []
+		},
+		{
+			"gloss": " (prob. of Phœn. origin) <i>Hispania, Spain</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 30b:45\">Nidd. 30ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Bava Batra 3:2\">B. Bath. III, 2</cite> <he>כדי שיהיה בא׳ וכ׳</he> long enough for the owner to be in Spain, while the present occupant may occupy his property for one year, and for people to travel a year and notify him, and for him to come back the next year (and raise his claim). ",
+				"<cite ref=\"Berakhot 62a:21\">Ber. 62ᵃ</cite>. ",
+				"<cite ref=\"Yevamot 63a:6\">Yeb. 63ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"A02741\"><he>אַפַּמְיָא</he></cite> q. v.) Apamæa, several towns, esp. one each in Bithynia, Mesopotamia and Syria. Y. Shebi. VI, beg. 36ᵃ (h. <he>קנזי</he>); <cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite>, end; a. fr.—",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 60\">Gen. R. s. 60</cite>, beg. <he>מא׳ ומחבירותיה</he> from Ap. and her sisters (country towns) (in Babylon or Mesopotamia); <cite ref=\"Bereishit Rabbah 60\">ib.</cite> s. 30 <cite ref=\"M00055\"><he>מאספוטמיא</he></cite>; s. 44 <he>ממספ׳</he> (corr. acc.)—[<cite ref=\"Targum Jonathan on Obadiah 1:20\">Targ. Ob. I, 20</cite> Ar. (ed. <cite ref=\"O01385\"><he>ספמיא</he></cite>)]. [<cite ref=\"Bava Batra 74b:12\">B. Bath. 74ᵇ</cite> <he>ימה של א׳</he> = <he>פמייס</he> as Ms. M.] V. <cite ref=\"A02504\"><he>אִסְפַּנְיָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

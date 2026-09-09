@@ -1,0 +1,21 @@
+{
+	"id": "A00522",
+	"slug": "אוב-2",
+	"headword": {
+		"text": "אוֹב",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 21,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; √<cite ref=\"A00013\"><he>אב</he></cite> or <cite ref=\"E00023\"><he>הב</he></cite>, v. <he>אבב</he>, <cite ref=\"E00025\"><he>הבאי</he></cite>)<i>cited ghost</i>.—בעל א׳ <i>necromancer</i>. ",
+			"units": ["<cite ref=\"Sanhedrin 65a:16\">Snh. 65ᵃ</cite>; a. fr."]
+		}
+	]
+}

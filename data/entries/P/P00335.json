@@ -1,0 +1,29 @@
+{
+	"id": "P00335",
+	"slug": "עוקמן",
+	"headword": {
+		"text": "עוֹקְמָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַקְ׳"
+		}
+	],
+	"page": {
+		"number": 1056,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01197\"><he>עָקַם</he></cite>) <i>trickster</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 33\">Gen. R. s. 33</cite>, v. <cite ref=\"K00812\"><he>כִּמָּנוֹן</he></cite>.—Pl. <he>עוֹקְמָנִים</he>, <he>עוֹקְמָנִין</he>, <cite ref=\"P00335\"><he>עַקְ׳</he></cite>. ",
+				"<cite ref=\"Sifrei Devarim 308:3\">Sifré Deut. 308</cite>; <cite ref=\"Yalkut Shimoni on Torah 942:36\">Yalk. ib. 942</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 7:3:4\">Y. Yoma VII, 44ᵇ</cite> bot. (not <he>עיק׳</he>); <cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite> <he>ע׳ שבלב</he>; <cite ref=\"Shir HaShirim Rabbah 4:4:4\">Cant. R. to IV, 4</cite>."
+			]
+		}
+	]
+}

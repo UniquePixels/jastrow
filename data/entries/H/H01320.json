@@ -1,0 +1,43 @@
+{
+	"id": "H01320",
+	"slug": "חנף-2",
+	"headword": {
+		"text": "חֲנֵף"
+	},
+	"page": {
+		"number": 485,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H01296\"><he>חַנֵּיף</he></cite> ch. same. ",
+					"units": [
+						"<cite ref=\"Moed Katan 17a:7\">M. Kat. 17ᵃ</cite> <he>דאפי׳ … לא חַנִּיפִי ליה</he> not even a man like thee did I flatter. ",
+						"<cite ref=\"Shevuot 30a:14\">Shebu. 30ᵃ</cite> <he>לחַנּוּפֵי ליה</he> that I should favor him in court?—",
+						"<cite ref=\"Ketubot 84b:11\">Keth. 84ᵇ</cite> <he>מְחַנְּפִיתוּ להו</he> would you favor them?; <cite ref=\"Ketubot 63b:9\">ib. 63ᵇ</cite> <he>מַחְנִיפִיתוּ ליה</he> (<i>Af.</i>) would you favor him?—Pesik. Asser, p. 98ᵃ (ref. to <cite ref=\"Isaiah 24:5\">Is. XXIV, 5</cite>) <he>את סבר מְחַנְּפָא לה והיא מְחַנְּפָה לך</he> thou meanest to deceive it (the land by withholding the tithes, v. <cite ref=\"H01319\">preced.</cite>), but it will disappoint thee; Tanḥ. R’eeh 14 <he>את כבר מחנף וכ׳</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחְנִיף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01319\">same</cite>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

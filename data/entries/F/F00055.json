@@ -1,0 +1,32 @@
+{
+	"id": "F00055",
+	"slug": "ויתק",
+	"headword": {
+		"text": "וִיתֵּק"
+	},
+	"page": {
+		"number": 373,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"F00114\"><he>ותק</he></cite>; cmp. <cite ref=\"P01545\"><he>עתק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>frail, weak-nerved</i>.—Pl. <he>וִיתְּקִין</he>. ",
+			"units": [
+				"<cite ref=\"Gittin 70a:15\">Gitt. 70ᵃ</cite> <he>הויין ליה בנים ו׳</he> (Ar. <cite ref=\"F00102\"><he>ותוקין</he></cite>, <he>וַתִּיקִין</he>) will have sickly children; <cite ref=\"Niddah 17a:33\">Nidd. 17ᵃ</cite> <he>הוין לו וכ׳</he>; <cite ref=\"Ketubot 77b:3\">Keth. 77ᵇ</cite> <cite ref=\"F00052\"><he>ויתיקין</he></cite> (Asheri <he>ויתקין</he>; Alf. <he>נִכְפִּין</he> <i>epileptic</i>); Treat. Kallah <he>ויתקין</he> (some ed. <he>וַותִּי׳</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <cite ref=\"M01369\"><he>מַכַּת</he></cite> or a similar w.) f. <i>senility, debility</i>. Gitt. l. c. <he>אחזתו ו׳</he> debility will befall him.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

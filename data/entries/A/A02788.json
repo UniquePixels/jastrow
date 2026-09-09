@@ -1,0 +1,27 @@
+{
+	"id": "A02788",
+	"slug": "אפקרסי",
+	"headword": {
+		"text": "אַפְקְרָסִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַפִּיקְרָסִי"
+		}
+	],
+	"page": {
+		"number": 107,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A02787\">preced.</cite>) <i>of an irreverent, rebellious disposition</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:1:17\">Y. Snh. X, 27ᵈ</cite> bot."
+			]
+		}
+	]
+}

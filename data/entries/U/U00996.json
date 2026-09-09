@@ -1,0 +1,23 @@
+{
+	"id": "U00996",
+	"slug": "שיעתא-1",
+	"headword": {
+		"text": "שִׁיעֲתָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1565,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"U00483\"><he>שׁוּעִיתָא</he></cite>, <i>talk</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 3:4:6\">Y. Taan. III, 66ᵈ</cite> top <he>מתחמד … שִׁיעֲתָהּ</he> because he desired to hear her talk."
+			]
+		}
+	]
+}

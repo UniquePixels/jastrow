@@ -1,0 +1,32 @@
+{
+	"id": "A01926",
+	"slug": "אלס-2",
+	"headword": {
+		"text": "אָלָס"
+	},
+	"page": {
+		"number": 72,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Alas</i> (Valens; v. <cite ref=\"F00064\"><he>וָולָס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:1:7\">Y. Kil. I, 27ᵃ</cite> top."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "(?) <cite ref=\"Sanhedrin 64a:13\">Snh. 64ᵃ</cite> Sabta son of A.; v. <cite ref=\"A00169\"><he>אַבְלַס</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

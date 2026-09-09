@@ -1,0 +1,29 @@
+{
+	"id": "R00150",
+	"slug": "צואי",
+	"headword": {
+		"text": "צוֹאִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "צֹאִי"
+		}
+	],
+	"page": {
+		"number": 1265,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"R00149\">preced.</cite>) <i>dirty</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 4:7\">Bekh. IV, 7</cite> <he>צמר מלובן וצ׳</he> (Ar. <he>וצוֹי</he>) washed or dirty wool, (corrected, ib. 29ᵇ <he>מלובן מצואתו</he>, v. <cite ref=\"R00149\">preced.</cite>). ",
+				"<cite ref=\"Mishnah Chullin 11:2\">Ḥull. XI, 2</cite> <he>מלובן ולא צ׳</he> (Mish. Cambridge <cite ref=\"R00189\"><he>צוי</he></cite>) washed, but not dirty wool; <cite ref=\"Tosefta Chullin 10:5\">Tosef. ib. X, 5</cite> <cite ref=\"R00189\"><he>צוי</he></cite> ed. Zuck. (oth. ed. <cite ref=\"R00005\"><he>צאוי</he></cite>, v. <cite ref=\"R00003\"><he>צָאָה</he></cite>).—Pl. <cite ref=\"R00150\"><he>צוֹאִים</he></cite>, <he>צוֹאִין</he>. ",
+				"<cite ref=\"Sanhedrin 93a:18\">Snh. 93ᵃ</cite> (ref. to <cite ref=\"Zechariah 3:3\">Zech. III, 3</cite>) <he>וכי דרכו … בגדים צ׳</he> was it Joshua’s habit to wear dirty clothes?; <cite ref=\"Yalkut Shimoni on Nach 309:2\">Yalk. Jer. 309</cite>.—Chald. <he>צוֹאִין</he>, v. <cite ref=\"R00008\"><he>צָאִי</he></cite>."
+			]
+		}
+	]
+}

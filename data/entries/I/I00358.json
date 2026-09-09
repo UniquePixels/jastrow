@@ -1,0 +1,23 @@
+{
+	"id": "I00358",
+	"slug": "טיכוס",
+	"headword": {
+		"text": "טִיכּוּס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 531,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00461\"><he>טָכַס</he></cite>) [<i>stamping</i>,] <i>rampart, earth-dam</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite> the sand stands before the Ocean <he>כט׳ וכחומה</he> like a dam and a wall (cmp. <cite ref=\"I00361\"><he>טִיכְסָא</he></cite>). [It is not likely that our w. is the Greek τεῖχος, which is identical in meaning with <cite ref=\"H00373\"><he>חומה</he></cite>.]"
+			]
+		}
+	]
+}

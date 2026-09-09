@@ -1,0 +1,28 @@
+{
+	"id": "S00913",
+	"slug": "קיטליזקי",
+	"headword": {
+		"text": "קִיטְלִיזְקֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִיטְלִיסְקֵי"
+		}
+	],
+	"page": {
+		"number": 1358,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (a corrupt. of κοιτωνίσκοι) <i>small bed-chambers</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 8:3\">Tosef. Kel. B. Mets. VIII, 3</cite>, v. <cite ref=\"C01414\"><he>גָּשִׁישׁ</he></cite>."
+			]
+		}
+	]
+}

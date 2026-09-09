@@ -1,0 +1,56 @@
+{
+	"id": "G00388",
+	"slug": "זיע-2",
+	"headword": {
+		"text": "זִיעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "זֵיעָא"
+		},
+		{
+			"text": "זְיָעָא"
+		}
+	],
+	"page": {
+		"number": 395,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (<cite ref=\"G00387\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>earthquake</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 1:1\">Targ. Am. I, 1</cite> (ed. Lag. <cite ref=\"G00342\"><he>זְיָיעָא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>tempest</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 37:9\">Targ. Job XXXVII, 9</cite>, v. <cite ref=\"G00219\"><he>זוֹעָא</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>sweat</i>, v. <cite ref=\"G00391\"><he>זִיעֲתָא</he></cite>.",
+			"units": [],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>trembling commotion</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 21:3\">Targ. Is. XXI, 3</cite> <he>זיעא</he> ed. Lag. (ed. <cite ref=\"G00391\"><he>זִיעֲיָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 48:7\">Targ. Ps. XLVIII, 7</cite> Ms. <cite ref=\"G00388\"><he>זְיָעָא</he></cite> (ed. <cite ref=\"G00594\"><he>זַעֲיָיא</he></cite>, <cite ref=\"G00594\"><he>זַעֲיָא</he></cite>, not <cite ref=\"G00594\"><he>זַעַיָּיא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 22:23\">Targ. Jer. XXII, 23</cite> <cite ref=\"G00388\"><he>זִיעַ</he></cite> (some ed. <cite ref=\"G00391\"><he>זיעתא</he></cite>)."
+			],
+			"label": "4"
+		}
+	]
+}

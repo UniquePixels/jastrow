@@ -1,0 +1,64 @@
+{
+	"id": "P00637",
+	"slug": "עיף-3",
+	"headword": {
+		"text": "עִיף",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּף"
+		}
+	],
+	"page": {
+		"number": 1073,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to bend, double</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 26:9\">Targ. Ex. XXVI, 9</cite> <he>ותְעוּף</he> Ms. I (Ms. II <he>ותְעִיף</he>; O. ed. Berl. a. Y. <he>ותֵיעוֹף</he>; oth. ed. <he>ותָעֵיף</he> <i>Af.</i>).—Part. pass. (<cite ref=\"P00635\"><he>עֵיף</he></cite>) <cite ref=\"P00636\"><he>עִיף</he></cite>. Ib. XXVIII, 16; XXXIX, 9 (Y. ed. Vien. <cite ref=\"P00635\"><he>עֵיף</he></cite>).—",
+				"<cite ref=\"Berakhot 56a:9\">Ber. 56ᵃ</cite>, v. <cite ref=\"H01331\"><he>חָסָא</he> I</cite>. ",
+				"<cite ref=\"Chullin 51b:14\">Ḥull. 51ᵇ</cite> <he>עִיף מֵיעַף</he> Ar. (Alf. <he>עָיֵיף מיעף</he>; ed. <he>עוף ומעופף</he>) if the cloak is well folded."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַיֵּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to double, fold</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 67b:15\">Keth. 67ᵇ</cite> <he>עַיְּיפִינְהוּ וכ׳</he> he doubled them (his gifts) and sent them to him. ",
+						"<cite ref=\"Shabbat 134a:12\">Sabb. 134ᵃ</cite> <he>ולְעַיֵּיף ליה לעילאי</he> (not <he>ועייף</he>; Rashi <he>ולעַפְפֵיה</he>; Ms. Rashi <he>וליכייפיה</he>, v. Rabb. D. S. a. l. note 10) let him bend the border upward. ",
+						"<cite ref=\"Eruvin 96b:10-11\">Erub. 96ᵇ</cite> <he>אדעתא … עייפינהו</he> he doubled them with the intention of making borders to a cloak. ",
+						"<cite ref=\"Menachot 42a\">Men. 42ᵃ</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אָעֵיף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P00636\">same</cite>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["עוֹפֵף"],
+			"senses": [
+				{
+					"gloss": ", v. <cite ref=\"P01071\"><he>עֲפַף</he></cite>",
+					"units": []
+				}
+			],
+			"stem": "Pol."
+		}
+	]
+}

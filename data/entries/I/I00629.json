@@ -1,0 +1,23 @@
+{
+	"id": "I00629",
+	"slug": "טפוחא-1",
+	"headword": {
+		"text": "טְפוּחָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 545,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>טְפַח</he> I) <i>rapping</i> (at the door).—Pl. <he>טְפוּחִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 27:30\">Targ. Y. Gen. XXVII, 30</cite> <he>כתרתין ט׳</he> about the time needed for two raps."
+			]
+		}
+	]
+}

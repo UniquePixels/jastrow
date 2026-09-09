@@ -1,0 +1,27 @@
+{
+	"id": "G00275",
+	"slug": "זיגד",
+	"headword": {
+		"text": "זִיגָּד"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִיגּוֹד"
+		}
+	],
+	"page": {
+		"number": 391,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ziggad, Ziggod</i> (cmp. <cite ref=\"A01191\"><he>אִיזְגְּדַר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Pesachim 113b:3\">Pes. 113ᵇ</cite>; <cite ref=\"Makkot 11a:15\">Macc. 11ᵃ</cite> (prov.) <he>טוביה חטא וז׳ מנגד</he> Tobias sinned and Z. was punished (because he was a single witness)."
+			]
+		}
+	]
+}

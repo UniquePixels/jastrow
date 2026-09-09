@@ -1,0 +1,29 @@
+{
+	"id": "T00479",
+	"slug": "רחבה",
+	"headword": {
+		"text": "רְחָבָה"
+	},
+	"page": {
+		"number": 1465,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. fem. of <cite ref=\"T00473\"><he>רָחָב</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>open place, market</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 8b:3\">Keth. 8ᵇ</cite> <he>ברכת ר׳</he>, v. <cite ref=\"B01292\"><he>בְּרָכָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 5:5:2\">Y. Ned. V, end, 39ᵇ</cite>; <cite ref=\"Tosefta Nedarim 2:9\">Tosef. ib. II, 9</cite> <he>ר׳ שדרך הרבים מפסקתה</he> a market which is crossed by a public (caravan) road."
+			],
+			"label": "2"
+		}
+	]
+}

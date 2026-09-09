@@ -1,0 +1,28 @@
+{
+	"id": "J00633",
+	"slug": "ירידה-2",
+	"headword": {
+		"text": "יְרִידָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 596,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00597\"><he>יָרַד</he></cite>) <i>going down, fall, decline, degradation</i>. <he>יְרִידַת גשמים</he> rain-fall. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:2:20\">Y. Ber. IX, 14ᵃ</cite> top; a. fr.—",
+				"<cite ref=\"Zevachim 53a:11\">Zeb. 53ᵃ</cite> <he>יְרִידָתוֹ מן הכבש</he> his descent from the inclined plane (v. <cite ref=\"K00084\"><he>כֶּבֶשׁ</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Horayot 3:1:2\">Y. Hor. III, beg. 47ᵃ</cite> <he>עלייתו י׳ היא לו</he> his elevation (to office) would rather be a degradation to him (placing him under legal disadvantages). ",
+				"<cite ref=\"Shemot Rabbah 42:3\">Ex. R. s. 42</cite> <he>שהיה לו י׳ מצד אחיו</he> degradation (excommunication) came to him from his brothers’ side. ",
+				"<cite ref=\"Vayikra Rabbah 29:2\">Lev. R. s. 29</cite> <he>כשם שלאלו י׳</he> as for these (nations) decline is in store; a. fr.—Pl. <he>יְרִידוֹת</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:1:10\">Cant. R. to I, 1</cite> <he>ג׳ י׳ ירד שלמה</he> Solomon had three declining periods of his power."
+			]
+		}
+	]
+}

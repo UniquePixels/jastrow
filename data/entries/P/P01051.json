@@ -1,0 +1,29 @@
+{
+	"id": "P01051",
+	"slug": "עססית",
+	"headword": {
+		"text": "עֲסָסִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲסִיסִית"
+		}
+	],
+	"page": {
+		"number": 1098,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עָסַס</he> <i>to stamp</i>), pl. <cite ref=\"P01050\"><he>עֲסָסִיּוֹת</he></cite>, <he>עֲסִיסִיּ׳</he>, <i>pounded wheat</i> or <i>peas</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Beitsah 1:23\">Tosef. Bets. I, 23</cite> <he>מפני שהן מאכל ע׳</he> (ed. Zuck. <he>מפני שנאכל ע׳</he>) because wheat may be eaten as a dish &c.; Y. ib. I, end, 61ᵃ; (Bab. ",
+				"<cite ref=\"Beitzah 14b:15\">ib. 14ᵇ</cite> <he>לודיות</he>). ",
+				"<cite ref=\"Shabbat 18b:7\">Sabb. 18ᵇ</cite>; <cite ref=\"Tosefta Shabbat 3:6\">Tosef. ib. III</cite> (<cite ref=\"Tosefta Shabbat 4:1\">IV</cite>), 1; Y. ib. III, 5ᵈ <he>עסי׳</he>; <cite ref=\"Jerusalem Talmud Terumot 2:1:21\">Y. Ter. II, 41ᶜ</cite> bot."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "U01338",
+	"slug": "שליתא",
+	"headword": {
+		"text": "שִׁלְיְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁלְיָא"
+		},
+		{
+			"text": "שִׁלְיי׳"
+		},
+		{
+			"text": "שִׁילְ׳"
+		}
+	],
+	"page": {
+		"number": 1584,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"U01302\"><he>שִׁלְיָה</he></cite>, <i>after-birth</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:57\">Targ. Y. Deut. XXVIII, 57</cite>.—",
+				"<cite ref=\"Berakhot 6a:7\">Ber. 6ᵃ</cite>; <cite ref=\"Shabbat 134a:6\">Sabb. 134ᵃ</cite>, v. <cite ref=\"O01002\"><he>סִלְיְתָא</he></cite>."
+			]
+		}
+	]
+}

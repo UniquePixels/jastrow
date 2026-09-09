@@ -1,0 +1,33 @@
+{
+	"id": "U00637",
+	"slug": "שחט-3",
+	"headword": {
+		"text": "שְׁחַט"
+	},
+	"page": {
+		"number": 1547,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00636\">same</cite>.—[<cite ref=\"Onkelos Numbers 11:32\">Targ. O. Num. XI, 32</cite> ed. Vien., v. <cite ref=\"U00742\"><he>שְׁטַח</he></cite>.]—",
+			"units": [
+				"<cite ref=\"Chullin 28a:11\">Ḥull. 28ᵃ</cite> sq. <he>היכי נעביד נִשְׁחֲטֵיה … קשְׁחִיט</he> how shall we proceed? shall we cut it and then examine (the gullet)? Maybe it was cut at a perforated spot. ",
+				"<cite ref=\"Megillah 7b:8\">Meg. 7ᵇ</cite> <he>שַׁחֲטֵיה לר׳ וכ׳</he> he cut R. Zera’s throat; a. fr.—Part. pass. <he>שְׁחִיט</he>, v. supra. ",
+				"<cite ref=\"Chullin 4a:5\">Ḥull. 4ᵃ</cite> <he>הוה ש׳ שפיר</he> was properly cut."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתְּחִיט"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut</i>. ",
+					"units": ["<cite ref=\"Gittin 69b\">Gitt. 69ᵇ</cite>"]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

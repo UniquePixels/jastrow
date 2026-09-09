@@ -1,0 +1,23 @@
+{
+	"id": "A03186",
+	"slug": "ארמניאה",
+	"headword": {
+		"text": "אַרְמַנִּיאָה"
+	},
+	"page": {
+		"number": 123,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Armannia</i> (Romania, New-Rome, Constantinople). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 4:21\">Targ. Lam. IV, 21</cite> Var. (h. text <cite ref=\"P00322\"><he>עוץ</he></cite>).—Deriv. pl. <cite ref=\"A03189\"><he>אַרְמַנְיָיאֵי</he></cite>. ",
+				"<cite ref=\"Targum of I Chronicles 1:17\">Targ. I Chr. I, 17</cite> ed. Beck. (ed. Rahm. <he>ארמצ׳</he> corr. acc.)."
+			]
+		}
+	]
+}

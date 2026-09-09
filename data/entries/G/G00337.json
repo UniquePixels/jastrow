@@ -1,0 +1,33 @@
+{
+	"id": "G00337",
+	"slug": "זיין-2",
+	"headword": {
+		"text": "זַיִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "זַיִן"
+		}
+	],
+	"page": {
+		"number": 393,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00191\"><he>זוּן</he></cite>) <i>armament, armor, weapon</i> (collect.), <i>steel</i>; <he>כלי ז׳</he> <i>implements of war</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Avodah Zarah 2:4\">Tosef. Ab. Zar. II, 4</cite> <he>אין … לא ז׳ ולא כלי ז׳</he> you must not sell them either armor (steel) or implements &c. ",
+				"<cite ref=\"Sanhedrin 104a:11\">Snh. 104ᵃ</cite> <he>ז׳ אוכל ז׳ וכ׳</he> he showed them steel consuming steel, i.e. the manufacture of hardened steel (cmp. ",
+				"<cite ref=\"Sanhedrin 96b\">ib. 96ᵇ</cite>); <cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite> <he>ז׳ בולע ז׳</he>. Tanḥ., ed. Bub., Lekh 23 <he>הריני חוגרו זְיָינִי</he> I will gird him with my (royal) armor. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:4\">Cant. R. to IV, 4</cite>; Pesik. Naḥ., p. 124ᵇ, a. e., v. <cite ref=\"G00199\"><he>זוֹנִי</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 45\">Ex. R. s. 45</cite> (ref. to <cite ref=\"P00128\"><he>עדי</he></cite>, <cite ref=\"Exodus 33:5\">Ex. XXXIII, 5</cite>), cmp. <cite ref=\"G00199\"><he>זוֹנִי</he></cite>; a. fr.—",
+				"<cite ref=\"Avodah Zarah 25b\">Ab. Zar. 25ᵇ</cite>; <cite ref=\"Yevamot 115a:3\">Yeb. 115ᵃ</cite> <he>אשה כלי זַיְינָהּ עליה</he> a woman has her armor with her, i.e. her physical weakness is her protection from murderous attacks. [<cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4</cite>, end <he>בזֹינו</he>, v. <cite ref=\"G00199\"><he>זוֹנִי</he></cite>.]—Pl. <he>זְיָינוֹת</he>. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 47:1\">Pirké d’R. El. ch. XLVII</cite>, beg."
+			]
+		}
+	]
+}

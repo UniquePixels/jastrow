@@ -1,0 +1,23 @@
+{
+	"id": "I00348",
+	"slug": "טייסן",
+	"headword": {
+		"text": "טַיְיסָן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 531,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טוס</he>, cmp. <cite ref=\"I00322\"><he>טִיוְסִין</he></cite>) <i>proud</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:1:17\">Y. Ber. III, 6ᵃ</cite> bot.; (<cite ref=\"Jerusalem Talmud Nazir 7:1:9\">Y. Naz. VII, 56ᵃ</cite> top <he>סייסן</he>; comment.: <cite ref=\"O00624\"><he>סייטן</he></cite> <i>flighty, restless</i>)."
+			]
+		}
+	]
+}

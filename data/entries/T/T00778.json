@@ -1,0 +1,42 @@
+{
+	"id": "T00778",
+	"slug": "רכפת",
+	"headword": {
+		"text": "רִכְפַּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִיכְ׳"
+		}
+	],
+	"page": {
+		"number": 1480,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>רכף</he>, cmp. <he>רכב</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>joined timber</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 6:9\">Targ. I Kings VI, 9</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pile, mass; multitude</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 18:12\">Targ. Ps. XVIII, 12</cite>; <cite ref=\"II Samuel 22:12\">II Sam. XXII, 12</cite>.—",
+				"<cite ref=\"Targum of II Chronicles 31:10\">Targ. II Chr. XXXI, 10</cite> (h. text <cite ref=\"E00597\"><he>המון</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 51:16\">Targ. Jer. LI, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 26:14\">Targ. Job XXVI, 14</cite> (h. text <cite ref=\"T00909\"><he>רעם</he></cite>!); a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

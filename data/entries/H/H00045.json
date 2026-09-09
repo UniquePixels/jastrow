@@ -1,0 +1,24 @@
+{
+	"id": "H00045",
+	"slug": "חבטה",
+	"headword": {
+		"text": "חֲבָטָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 418,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00040\"><he>חָבַט</he></cite>) <i>seizing an object violently</i> in order to take possession of it. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 118a\">B. Mets. 118ᵃ</cite>, v. <cite ref=\"E00033\"><he>הַבָּטָה</he></cite>. [<cite ref=\"Bava Kamma 50b:18\">B. Kam. 50ᵇ</cite>, v. <cite ref=\"H00043\"><he>חֶבֶט</he> II</cite>.—",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד כות׳</he> 2), v. preced.]"
+			]
+		}
+	]
+}

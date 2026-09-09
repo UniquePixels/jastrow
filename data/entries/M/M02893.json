@@ -1,0 +1,40 @@
+{
+	"id": "M02893",
+	"slug": "משך-4",
+	"headword": {
+		"text": "מְשַׁךְ",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מַשְׁכָא"
+		},
+		{
+			"text": "מִישְׁ׳"
+		},
+		{
+			"text": "מוֹשְׁ׳"
+		}
+	],
+	"page": {
+		"number": 853,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M02892\">preced.</cite>) <i>hide, skin</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 31:20\">Targ. O. Num. XXXI, 20</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 13:8\">Targ. Lev. XIII, 8</cite> (ed. Berl. <cite ref=\"M02893\"><he>מַשְׁכָּא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 3:14\">Targ. Y. Gen. III, 14</cite> <he>מִשְׁכ׳</he>; a. fr.—Y. Ned. III, 37ᵈ bot. <he>משך דחיוי</he> the hide of a serpent. ",
+				"<cite ref=\"Bava Kamma 66b:15\">B. Kam. 66ᵇ</cite>, v. <cite ref=\"A00220\"><he>אֲבִרְזִין</he></cite>. Tanḥ. ",
+				"<cite ref=\"Genesis 7\">B’resh. 7</cite> <he>הדין ערקא מן הדין מ׳</he> such a strap from such a hide (such poor work with such good material)!; a. fr.—Pl. <cite ref=\"M02903\"><he>מַשְׁכִין</he></cite>, <he>מַשְׁכֵי</he>, <cite ref=\"M01393\"><he>מִי׳</he></cite>, <cite ref=\"M03086\"><he>מוֹ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 26:14\">Targ. Ex. XXVI, 14</cite>. ",
+				"<cite ref=\"Onkelos Genesis 27:16\">Targ. Gen. XXVII, 16</cite>; a. fr."
+			]
+		}
+	]
+}

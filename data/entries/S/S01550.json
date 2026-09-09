@@ -1,0 +1,47 @@
+{
+	"id": "S01550",
+	"slug": "קנח-2",
+	"headword": {
+		"text": "קָנַח"
+	},
+	"page": {
+		"number": 1389,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>קִינֵּחַ</he> <i>to wipe off, cleanse</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Batra 5:4\">Tosef. B. Bath. V, 4</cite> <he>קוֹנֵחַ מן האגן</he> (ed. Zuck. <he>קודח מן האגד</he>, corr. acc.) he may wipe off (the wine or oil which is left after measuring) on the rim of the measure. ",
+						"<cite ref=\"Mishnah Berakhot 8:3\">Ber. VIII, 3</cite> <he>מְקַנֵּחַ ידיו וכ׳</he> a person may wipe his hands with the napkin and let it lie on the table. ",
+						"<cite ref=\"Mishnah Shabbat 21:3\">Sabb. XXI, 3</cite> <he>מְקַנְּחִין בו</he> you may wipe the table with it. ",
+						"<cite ref=\"Shabbat 81b:2\">Ib. 81ᵇ</cite> <he>לקַנֵּחַ וכ׳</he> to wipe off (the posteriors) with &c. ",
+						"<cite ref=\"Mishnah Bava Batra 5:10\">B. Bath. V, 10</cite> <he>הסיטון מקנח וכ׳</he> the wholesaler must cleanse (by rubbing) his measures once in thirty days; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִתְקַנֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be wiped off</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 36a\">Ḥull. 36ᵃ</cite> <he>בנ׳ הדם וכ׳</he> when the blood was wiped off between the cutting of one organ (<cite ref=\"O00710\"><he>סִימָן</he></cite>) and the other."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

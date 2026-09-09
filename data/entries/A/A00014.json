@@ -1,0 +1,52 @@
+{
+	"id": "A00014",
+	"slug": "אב-3",
+	"headword": {
+		"text": "אָב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>אבה</he>, cmp. <cite ref=\"A01961\"><he>אֵם</he></cite>) , const. <cite ref=\"A00107\"><he>אֲבִי</he></cite>, <cite ref=\"A00013\"><he>אַב</he></cite> [embracer], <i>father, ancestor, progenitor; teacher; chief, leader; author, originator</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 46:5\">Ex. R. s. 46</cite> end <he>המגדל אב</he> the educator is the real father. ",
+				"<cite ref=\"Vayikra Rabbah 1:15\">Lev. R. s. 1</cite> <he>אבי החכמה וכ׳</he>, the father of all wisdom, … the father of prophets. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 5:6:3\">Y. Ned. V, 39ᵇ</cite>; a. fr.—<he>אַב בית דין</he> (abbr. <he>אב״ד</he>) president of the Court (Great Sanhedrin), next in dignity to the <i>Nassi</i>. ",
+				"<cite ref=\"Mishnah Taanit 2:1\">Taan. II, 1</cite>; a. fr.—Metaph. <i>origin, cause</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 10:8\">Num. R. s. 10</cite> (play on <cite ref=\"A00065\"><he>אֲבוֹי</he></cite>, <cite ref=\"Proverbs 23:29\">Prov. XXIII, 29</cite>) <he>א׳ אוי</he> the cause of woe (sin).—<he>אב מלאכה</he> (for which also <he>עיקר</he>) <i>one of the chief labors forbidden on the Sabbath</i>, opp. <cite ref=\"V00212\"><he>תולדה</he></cite> a labor the prohibition of which is based on the ground of its being a species of the former, or derived from the former. ",
+				"<cite ref=\"Mishnah Shabbat 7:1\">Sabb. VII, 1</cite> sq.; a. fr.—[<cite ref=\"Jerusalem Talmud Shabbat 2:5:6\">Y. Sabb. II, 5ᵃ</cite>, <he>אב שלה</he>, sub. <cite ref=\"M01472\"><he>מלאכה</he></cite>.]—אב הטומאה <i>one of the original or direct causes of levitical uncleanness</i>, opp. <he>ולד</he> (child) secondary cause. ",
+				"<cite ref=\"Mishnah Tahorot 1:5\">Toh. I, 5</cite>; a. fr.—<he>א׳ הנזק</he> v. Pl.—בנין א׳ <i>creation of a class</i>, i.e. a conclusion, by analogy, from a case explicitly stated in the bibl. law on all similar cases not specified in detail. Sifra introd.—",
+				"<cite ref=\"Mishnah Tahorot 1:5\">Ib.</cite> K’doshim, end, ch. 11 (ref. to <cite ref=\"Leviticus 20:27\">Lev. XX, 27</cite>) <he>זה ב׳ א׳ לכל דמיהם בם</he> this forms the rule for all cases in which the Bible uses the word <i>d’mēhem bam</i> (that the penalty is stoning to death); a. fr.; v. also <cite ref=\"B00753\"><he>בֵּית אב</he></cite>.—Pl. <he>אָבוֹת־</he>, const. <he>אֲבוֹת</he>, "
+			]
+		},
+		{
+			"gloss": "<i>fathers, ancestors, patriarchs</i> &c. ",
+			"units": [
+				"<cite ref=\"Berakhot 26b:15\">Ber. 26ᵇ</cite> prayers <he>א׳ תקנום</he> have been instituted by the Patriarchs; a. fr.—<he>אבות בתי דינין</he>, v. supra. ",
+				"<cite ref=\"Mishnah Chagigah 2:2\">Ḥag. II, 2</cite>.—<he>בת א׳</he> a woman <i>of noble descent</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 1:12\">Num. R. s. 1</cite>; a. e.—Metaph. <i>principal, chief</i> <he>א׳ מלאכות</he>, v. supra. <he>א׳ הטומא׳</he> <cite ref=\"Mishnah Kelim 1:1\">Kel. I, 1</cite>; v. supra.—<he>א׳ נזיקין</he> (sing. <he>אב הנזק</he>) the chief actionable injuries or damages, from which the subordinate are deduced <he>(תולדות</he>). ",
+				"<cite ref=\"Mishnah Bava Kamma 1:1\">B. Kam. I, 1</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Aboth</i>, the first section of the Prayer of Benedictions (v. <cite ref=\"V00831\"><he>תְּפִלָּה</he></cite>), so called because it alludes to the Patriarchs. ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 4:5\">R. Hash. IV, 5</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>Aboth</i>, name of a treatise of the Mishnah, containing sayings of Talmudic authorities and belonging to the fourth section, <cite ref=\"N00445\"><he>נזיקין</he></cite>, of the Mishnah collection (<cite ref=\"M02944\"><he>משניות</he></cite>); also styled <he>פִּרְקֵי א׳</he> a. <he>מְסֶכֶת א׳</he>. A similar collection of a later date is contained in Talmud Babli editions, named <he>א׳ דרבי נתן</he> <i>Aboth d’Rabbi Nathan</i>. [<cite ref=\"Jerusalem Talmud Yoma 8:1:3\">Y. Yoma VIII, 44ᵈ</cite> top <he>אב בית נפש</he> v. <cite ref=\"A00111\"><he>אֲבֵידָה</he></cite>.]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

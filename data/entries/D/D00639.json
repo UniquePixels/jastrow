@@ -1,0 +1,27 @@
+{
+	"id": "D00639",
+	"slug": "דינג",
+	"headword": {
+		"text": "דִּינָג"
+	},
+	"altHeadwords": [
+		{
+			"text": "דּוּנָג"
+		}
+	],
+	"page": {
+		"number": 302,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f.<i>Dinag (Dunag)</i>, daughter of R. Naḥman. ",
+			"units": [
+				"<cite ref=\"Kiddushin 70a:16\">Kidd. 70ᵃ</cite> <he>די׳</he> Ar. (ed. <cite ref=\"D00213\"><he>דו׳</he></cite>)."
+			]
+		}
+	]
+}

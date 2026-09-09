@@ -1,0 +1,27 @@
+{
+	"id": "J00421",
+	"slug": "ימני",
+	"headword": {
+		"text": "יְמָנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְמָנִית"
+		}
+	],
+	"page": {
+		"number": 580,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"J00412\"><he>יְמִין</he></cite>) <i>right</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 2:4\">Neg. II, 4</cite> <he>יד הי׳</he> the right hand. Sifra Vayikra, Ḥoba, ch. III, Par. 3, v. <cite ref=\"J00419\"><he>יָמַן</he></cite>; a. e."
+			]
+		}
+	]
+}

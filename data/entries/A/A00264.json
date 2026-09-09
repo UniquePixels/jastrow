@@ -1,0 +1,23 @@
+{
+	"id": "A00264",
+	"slug": "אגויסטור",
+	"headword": {
+		"text": "אַגְוִיסְטוֹר",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 11,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>Quæstor</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 12\">Gen. R. s. 12</cite>, v. <cite ref=\"A02098\"><he>אנגיטוס</he></cite> a. <cite ref=\"A00271\"><he>אָגוּסְטוֹס</he></cite>, end."
+			]
+		}
+	]
+}

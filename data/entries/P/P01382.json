@@ -1,0 +1,32 @@
+{
+	"id": "P01382",
+	"slug": "ערכל",
+	"headword": {
+		"text": "עִרְכֵּל",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1119,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"P01451\"><he>ערקל</he></cite>) <i>to curve, twist</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְעַרְכֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be entangled, caught</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 31\">Gen. R. s. 31</cite> <he>היה בא ליכנס … מִתְעַרְכְּלוֹת</he> when one (of the giants) attempted to enter the ark, his feet became entangled (in the mud of the deep); [Matt. K. following ‘Rashi’; were <i>scalded</i> in the hot water of the flood, v. <cite ref=\"G00699\"><he>זְרִיבָה</he></cite>, taking <cite ref=\"P01382\"><he>ערכל</he></cite> as <i>Parel</i> of <cite ref=\"P00738\"><he>עֲכַל</he></cite>]; (<cite ref=\"Yalkut Shimoni on Torah 55:1\">Yalk. Gen. 55</cite> <he>מתערסלות</he>, Ar. s. v. <he>ערסל</he>: <he>מתערסלות במים</he>, v. <cite ref=\"P01408\"><he>עִרְסֵל</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 913\">Yalk. Job 913</cite> <he>מתערטלות</he>, v. <cite ref=\"P01338\"><he>עִרְטֵל</he></cite>)."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

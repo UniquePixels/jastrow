@@ -1,0 +1,38 @@
+{
+	"id": "B00843",
+	"slug": "בלורית",
+	"headword": {
+		"text": "בְּלוּרִית"
+	},
+	"page": {
+		"number": 171,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בלר</he>, √<he>בל</he>, v. <cite ref=\"B00880\"><he>בלל</he></cite>) <i>something twisted</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>chain, rope</i> or <i>wreath</i> (v. P. Sm. I, 532 <he>בלורא</he> = h. <he>מעשה מקשה</he>, a. <cite ref=\"B00840\"><he>בלוריא</he></cite> vincula jugi).—Pl. <cite ref=\"B00841\"><he>בְּלוּרִיּוֹת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 28:7\">Gen. R. s. 28</cite>; Yalk. Zeph. 566 <he>ב׳ של זהב</he> (Gen. R. l. c. some ed. <cite ref=\"B00841\"><he>בְּלֵרִיּוֹת</he></cite>) thick gold chains (as translation of <cite ref=\"J00749\"><he>יתר</he></cite>, <cite ref=\"Job 22:20\">Job XXII, 20</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>plait</i> or <i>locks</i>, esp. the long hair worn by the Roman and Greek youths of the upper classes and offered to the gods on arriving at puberty (v. Sm. Ant. s. v. κόμη). ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 1:3\">Ab. Zar. I, 3</cite> <he>יום תגלחת זקנו ובלוריתוֹ</he> the day of shaving his (the gentile’s) beard and cutting his locks (v. Maim. a. l.). Ib. 29ᵃ. ",
+				"<cite ref=\"Tosefta Shabbat 6:1\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:1\">VII</cite>), 1. ",
+				"<cite ref=\"Devarim Rabbah 2:18\">Deut. R. s. 2</cite> <he>העושה ב׳ וכ׳</he> he who grows a wig does so for none but an idolatrous purpose. ",
+				"<cite ref=\"Vayikra Rabbah 23:2\">Lev. R. s. 23</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 82a:12\">Snh. 82ᵃ</cite> <he>תפשה בבלוריתָהּ</he> he seized her by her plait."
+			],
+			"label": "2"
+		}
+	]
+}

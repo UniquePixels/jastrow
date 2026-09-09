@@ -1,0 +1,67 @@
+{
+	"id": "G00642",
+	"slug": "זקן-1",
+	"headword": {
+		"text": "זָקֵן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 409,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be thin, shrunk, hard</i>,] <i>to be old</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 48:18\">Gen. R. s. 48</cite> (ref. to <cite ref=\"Genesis 18:13\">Gen. XVIII, 13</cite>) <he>ואני זָקַנְתִּי מלעשות וכ׳</he> am I (the Lord) too old to do wonders?"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִזְקִין"],
+			"senses": [
+				{
+					"gloss": "<i>to grow old</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 100b:5\">Snh. 100ᵇ</cite> <he>הִזְקִינָה שמא וכ׳</he> when she arrives at old age, he is afraid lest &c. ",
+						"<cite ref=\"Eruvin 56a:3\">Erub. 56ᵃ</cite> <he>מַזְקִינִים בחצי וכ׳</he> they age in the middle of their days (prematurely). ",
+						"<cite ref=\"Shabbat 152a:6\">Sabb. 152ᵃ</cite> <he>כל זמן שמַזְקִינִין</he> the older they grow; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make old, consider old</i> (<i>feeble</i>). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 48:18\">Gen. R. s. 48</cite> <he>אתם … ומזקינים חביריכם</he> you consider each himself young, and each his partner old (<cite ref=\"Yalkut Shimoni on Torah 82\">Yalk. ib. 82</cite> <he>ומז׳ אדניכם</he> and believe your Lord too old [to do wonders]); v. supra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִזְקַן"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִזְדַּקֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to become old, weak, frail</i>. Y. Ber. IX, end 14ᶜ (ref. to prov. XXIII, 22) <he>אם נִזְדַּקְּנָה אומתך וכ׳</he> if thy nation is decaying (in faith), stand up and fence her in (prevent her being trodden upon); <cite ref=\"Yalkut Shimoni on Nach 960:38\">Yalk. Prov. 960</cite>.—2) (cmp. <he>דקדק</he>) <i>to be maturely considered, be clear</i> (beyond doubt);",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"S02251\"><he>קשיש</he></cite>) <i>to be hard, difficult</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Sanhedrin 7:7\">Tosef. Snh. VII, 7</cite> (the presiding judge declares) (<cite ref=\"G00642\"><he>נִיזְקַן</he></cite>) <he>נִזְקַן הדין</he> ed. Zuck. (Var. <cite ref=\"G00642\"><he>נזדקן</he></cite>, <cite ref=\"G00652\"><he>נזדקק</he></cite>); discussed in <cite ref=\"Sanhedrin 42a\">Snh. 42ᵃ</cite> <he>מאי נזד׳ הדין</he> what does <i>nizdakken</i> mean? Does it mean <he>קש דינא</he> the case is hard (difficult, so as to demand a reconsideration)?… It means <he>חכם דינא</he> the case is clear; Y. Snh. V, end, 23ᵃ"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

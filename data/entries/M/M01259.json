@@ -1,0 +1,60 @@
+{
+	"id": "M01259",
+	"slug": "מיעוט",
+	"headword": {
+		"text": "מִיעוּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִעוּט"
+		}
+	],
+	"page": {
+		"number": 777,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M02097\"><he>מָעַט</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>reduction of size, the space reduced</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 77a:12\">Erub. 77ᵃ</cite> <he>אם יש במִיעוּטוֹ וכ׳</he> if the reduction of the height (by lowering the wall or raising the embankment) extends over four handbreadths; <he>כנגד המ׳</he> only as far as the reduction extends."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>minority</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 7:6:3\">Y. Pes. VII, 34ᶜ</cite> bot. <he>כרוב או כמ׳</he> (not <he>כרוב׳ במ׳</he>) do we treat the case as if it were a majority (of unclean persons), or as if it were a minority? <cite ref=\"Jerusalem Talmud Pesachim 7:6:3\">Ib.</cite> <he>אין תימר כמ׳</he> (not <he>במ׳</he>) if you will consider it a minority. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:2:9\">Y. Kidd. I, 59ᵇ</cite> top. ",
+				"<cite ref=\"Yevamot 119a:9\">Yeb. 119ᵃ</cite> <he>מ׳ מפילות</he> a minority of women miscarry; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>the least of</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 11a:15\">R. Hash. 11ᵃ</cite>; <cite ref=\"Yevamot 42a:18\">Yeb. 42ᵃ</cite>; <cite ref=\"Niddah 38b:8\">Nidd. 38ᵇ</cite> (ref. to <cite ref=\"I Samuel 1:20\">I Sam. I, 20</cite>) <he>מ׳ תקופות וכ׳</he> the least of <i>t’kufoth</i> (plural number) is two (seasons, of three months each), the least of <i>yamin</i> is two days; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>narrowing qualification, limitation</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 43a:3\">Yoma 43ᵃ</cite>; <cite ref=\"Bava Kamma 86b:19\">B. Kam. 86ᵇ</cite>, a. fr. <he>הוי מ׳ אחר מ׳ ואין מ׳ אחר מ׳ אלא וכ׳</he> this is a limitation following a limitation, and a double limitation serves to widen the scope (because the repetition indicates that no limitation is meant, but only an exemplification); Y. Peah V, end, 19ᵈ (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Horayot 1:1:2\">Y. Hor. I, beg. 45ᶜ</cite> <he>מ׳ אחר מ׳ אחר מ׳</he> three successive limitations. ",
+				"<cite ref=\"Vayikra Rabbah 24:9\">Lev. R. s. 24</cite>, end <he>ת״ל רק לשון מ׳</he> it says ‘only’ (<cite ref=\"Deuteronomy 28:13\">Deut. XXVIII, 13</cite>) which intimates a limitation; a. fr.—Pl. <he>מִיעוּטִים</he>, <he>מִיעוּטִין</he>, <cite ref=\"M02189\"><he>מִע׳</he></cite>. ",
+				"<cite ref=\"Tosefta Shevuot 1:7\">Tosef. Shebu. I, 7</cite> <he>הוה דורש ריבויין ומ׳</he> interpreted the Bible texts with a view to widening and narrowing the limits of the respective laws. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:36\">Y. Sabb. VII, 10ᵇ</cite> <he>אך הוא הרי אלו מ׳ וכ׳</he> <i>akh</i> and <i>hu</i> (<cite ref=\"Exodus 12:16\">Ex. XII, 16</cite>, are limiting qualifications intimating that you must not cut, grind &c. (on the Holy Day). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:5:6\">Y. Ber. IX, 14ᵇ</cite> bot., v. <cite ref=\"A01661\"><he>אַךְ</he> I</cite>; a. fr."
+			],
+			"label": "4"
+		}
+	]
+}

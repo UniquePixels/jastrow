@@ -1,0 +1,24 @@
+{
+	"id": "G00595",
+	"slug": "זעייתא",
+	"headword": {
+		"text": "זַעֲיָיתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 407,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"G00593\"><he>זְעִי</he></cite>) <i>small</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 7:6\">Targ. Prov. VII, 6</cite> Lev. a. Buxt. (ed. Lag. <he>זעירתא</he>, Var. <he>זעיי׳</he>)."
+			]
+		}
+	]
+}

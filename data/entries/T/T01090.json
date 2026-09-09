@@ -1,0 +1,49 @@
+{
+	"id": "T01090",
+	"slug": "רשל-2",
+	"headword": {
+		"text": "רְשֵׁל"
+	},
+	"page": {
+		"number": 1500,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T01089\">same</cite>, <i>to flap, be lax, weak</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 35:3\">Targ. Is. XXXV, 3</cite> <he>דרָשְׁלָן</he> ed. Lag. (ed. Wil. <he>דמְרַשְּׁלָן</he>, some ed. <he>דרשליין</he>, corr. acc.; h. text <he>רפות</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַשֵּׁל"],
+			"senses": [
+				{
+					"gloss": "<i>to loosen, weaken</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Joshua 10:6\">Targ. Josh. X, 6</cite> (h. text <he>תרף</he>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 38:4\">Targ. Jer. XXXVIII, 4</cite>.—Part. pass. <he>מְרַשַּׁל</he>; f. <he>מְרַשְּׁלָא</he>; pl. <he>מְרַשְּׁלִין</he>; <he>מְרַשְּׁלָן</he>. ",
+						"<cite ref=\"Targum Jonathan on II Samuel 17:2\">Targ. II Sam. XVII, 2</cite>. Targ. Is. l. c., v. supra."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְרַשֵּׁל"],
+			"senses": [
+				{
+					"gloss": "<i>to be lax, weakened</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 4:1\">Targ. II Sam. IV, 1</cite>. ",
+						"<cite ref=\"Targum of II Chronicles 29:11\">Targ. II Chr. XXIX, 11</cite> (h. text <he>תִּשָּׁלוּ</he>); a. fr.—",
+						"<cite ref=\"Bava Batra 21b\">B. Bath. 21ᵇ</cite> bot <he>אתי לאִתְרַשּׁוּלֵי</he> the teacher may become discouraged (by competition)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

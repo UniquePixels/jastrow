@@ -1,0 +1,22 @@
+{
+	"id": "T00010",
+	"slug": "ראומטיקוס",
+	"headword": {
+		"text": "רֶאוְמָטִיקוֹס"
+	},
+	"page": {
+		"number": 1435,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ῥευματικός) <i>subject to, afflicted with flux</i> or <i>rheumatism</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 19:4\">Lev. R. s. 19</cite> <he>נעשה ר׳</he> (not <cite ref=\"D00001\"><he>ד׳</he></cite>; Ar. <he>רמתיקוס</he>, ed. Koh. <he>אירומתקוס</he>), v. <cite ref=\"P01122\"><he>עָצַל</he></cite>."
+			]
+		}
+	]
+}

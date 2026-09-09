@@ -1,0 +1,60 @@
+{
+	"id": "U00277",
+	"slug": "שדל-1",
+	"headword": {
+		"text": "שָׁדַל"
+	},
+	"page": {
+		"number": 1525,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<i>Shaf.</i> of <he>דלל</he>; cmp. <cite ref=\"D00864\"><he>דֶּלֶת</he></cite>) <i>to swing, be wide open</i> (v. Fr. Del. Proleg., p. 101).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁדֵּל"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"Q02125\"><he>פָּתָה</he></cite>) <i>to persuade, speak suasively</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 30b\">Kidd. 30ᵇ</cite> sq. <he>גלוי … מפני שמְשַׁדַּלְתּוֹ בדברים וכ׳</he> it was revealed and known before Him … that a child honors his mother more than his father, because she sways him by persuasive words, therefore did he place the honor of the father before &c. (<cite ref=\"Exodus 20:12\">Ex. XX, 12</cite>); Mekh. Yithro, s. 8; <cite ref=\"Yalkut Shimoni on Torah 297\">Yalk. Ex. 297</cite>. ",
+						"<cite ref=\"Yoma 35b:8-11\">Yoma 35ᵇ</cite> <he>בכל יום … משדלתו בדברים</he> every day did Potiphar’s wife try to win (entice) him with words; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁתַּדֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be persuaded, enticed</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 1:16:1\">Koh. R. to I, 16</cite> <he>הלב מִשְׁתַּדֵּל וכ׳</he> the heart is enticed, as it is said (<cite ref=\"Genesis 34:3\">Gen. XXXIV, 3</cite>), and he spoke &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make one’s self pleasant, to insinuate one’s self; to be on good terms</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 112a\">Pes. 112ᵃ</cite>; <cite ref=\"Pesachim 113a:10\">113ᵃ</cite> <he>הוי משתדל עם וכ׳</he> try to be on good terms with him on whom the hour smiles."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " [<i>to swing one’s self up</i>,] <i>to make an effort, strive</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Kiddushin 5:15\">Tosef. Kidd. V, 15</cite> <he>לעולם יִשְׁתַּדֵּל אדם ללמד את בנו וכ׳</he> (not <he>לומד</he>) under all circumstances a man must strive to have his son taught a trade which is &c.; <cite ref=\"Mishnah Kiddushin 4:10\">Kidd. IV, 10</cite> (<cite ref=\"Mishnah Kiddushin 4:11\">11</cite>) Y. ed. (Mish. a. Babli only <he>ילמד</he>); Y. ib. IV, end, 66ᵈ. ",
+						"<cite ref=\"Pirkei Avot 2:5\">Ab. II, 5</cite> <he>במקום … הִשְׁתַּדֵּל להיות איש</he> (Ar. <he>השתדר</he>) where there are no men, strive thou to be a man. Ib. IV, 18 <he>אל תִּשְׁתַּדֵּל וכ׳</he> (Ar. <he>תשתדר</he>), v. <cite ref=\"S01419\"><he>קַלְקָלָה</he></cite>; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

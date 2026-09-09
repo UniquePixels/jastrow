@@ -1,0 +1,45 @@
+{
+	"id": "U01975",
+	"slug": "שריין",
+	"headword": {
+		"text": "שִׁרְיָין"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁרְיָינָא"
+		},
+		{
+			"text": "שִׁרְיָן"
+		},
+		{
+			"text": "שִׁרְיָנָא"
+		},
+		{
+			"text": "שִׁירְ׳"
+		},
+		{
+			"text": "סִרְ׳"
+		}
+	],
+	"page": {
+		"number": 1631,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U01967\"><he>שִׁרְיוֹן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:32\">Targ. O. Ex. XXVIII, 32</cite> <cite ref=\"U01080\"><he>שִׁירְיָן</he></cite> ed. Berl. (ed. Vien. <cite ref=\"U01979\"><he>שִׂרְיָן</he></cite>); ib. XXXIX, 23 (Y. <cite ref=\"U01074\"><he>שיריא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 41:18\">Targ. Job XLI, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 17:5\">Targ. I Sam. XVII, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 51:3\">Targ. Jer. LI, 3</cite> <cite ref=\"O00001\"><he>ס׳</he></cite>; a. e.—Pl. <he>שִרְיָינַין</he>, <cite ref=\"U01967\"><he>שִׁרְיוֹ׳</he></cite>, <he>סִרְיָינַיָּיא</he>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>, <cite ref=\"O00067\"><he>סִי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 6:8\">Targ. Cant. VI, 8</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 26:14\">Targ. II Chr. XXVI, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 46:4\">Targ. Jer. XLVI, 4</cite> <cite ref=\"O00001\"><he>ס׳</he></cite>."
+			]
+		}
+	]
+}

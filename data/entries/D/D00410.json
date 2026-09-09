@@ -1,0 +1,43 @@
+{
+	"id": "D00410",
+	"slug": "דחיך",
+	"headword": {
+		"text": "דְּחֵיךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּחֵךְ"
+		},
+		{
+			"text": "דְּחַךְ"
+		}
+	],
+	"page": {
+		"number": 292,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"D00398\"><he>דְּחַהּ</he></cite>) <i>to laugh; to deride</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 11:3\">Targ. Job XI, 3</cite>; <cite ref=\"Aramaic Targum to Psalms 2:4\">Targ. Ps. II, 4</cite>, v. <cite ref=\"D00150\"><he>דְּהֵיךְ</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 22:8\">Targ. Ps. XXII, 8</cite> (ed. Lag. <he>רהב</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 1:26\">Targ. Prov. I, 26</cite> (Var. <he>דחף</he>, incorr.).—Pesik. B’shall. p. 93ᵇ <he>דַּחֲכָא וכ׳</he> laughing and weeping (<cite ref=\"Kohelet Rabbah 11:2\">Koh. R. to XI, 2</cite> <he>חייכת</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּחֵךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to make sport of, to play</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 79\">Gen. R. s. 79</cite> <he>לית אנא מְדַחֵךְ בהדין וכ׳</he> (<cite ref=\"Kohelet Rabbah 10:8\">Koh. R. to X, 8</cite> <he>מגחך</he>) will I not make sport of that elder of the Jews?! <cite ref=\"Kohelet Rabbah 3:2\">Koh. R. to III, 2</cite> children <he>מְדַחֲכִין וכ׳</he> (ed. Wil. <he>מדה׳</he>) playing in front of a dwelling."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "A02749",
+	"slug": "אפס-2",
+	"headword": {
+		"text": "אָפֵס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָפֶס"
+		}
+	],
+	"page": {
+		"number": 106,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., √<cite ref=\"Q01221\"><he>פס</he></cite> , v. <he>פסס</he> to cut off) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be gone</i>.—[As a noun: <i>there is an end of</i> …] <cite ref=\"Bava Batra 111a:8\">B. Bath. 111ᵃ</cite> <he>אפס</he> (<he>דברי</he>) <cite ref=\"G00473\"><he>זכריה</he></cite> (v. Rabb. D. S. a. l.) (the words of) Zachariah (to whom you refer as an authority) are (is) gone, i.e. they are no authority.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " homiletically used as though a Greek word (ἄφες) <i>let go, leave alone</i>. Pesik. Vattomer p. 130ᵃ (ref. to <i>heäfes</i>, <cite ref=\"Psalms 77:9\">Ps. LXXVII, 9</cite>) <he>לשון יוני הוא כמד״א אָפֵיס</he> it is a Greek word, as if you were to say, <i>afes</i> (let alone); <cite ref=\"Eichah Rabbah 1:26\">Lam. R. to I, 2</cite> <he>וכמד״א אמר אפס</he> (strike out <he>ואמר</he>, a. read <he>אפיס</he>); <cite ref=\"Shemot Rabbah 45:2\">Ex. R. s. 45</cite> <he>לשון יוני אפס הניח</he> in Greek <i>aphes</i> means, (he) <i>let go</i>; <cite ref=\"Yalkut Shimoni on Nach 816:2\">Yalk. Ps. 816</cite>.—[<cite ref=\"Bereishit Rabbah 40:4\">Gen. R. s. 40</cite> (ref. to <i>efes</i> <cite ref=\"Judges 4:9\">Jud. IV, 9</cite>); omitted in <cite ref=\"Yalkut Shimoni on Torah 67:6\">Yalk. Gen. 67</cite>,—an interpolation from passages quoted above.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

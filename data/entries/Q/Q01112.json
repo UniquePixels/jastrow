@@ -1,0 +1,26 @@
+{
+	"id": "Q01112",
+	"slug": "פלפולא",
+	"headword": {
+		"text": "פִּלְפּוּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּילְ׳"
+		}
+	],
+	"page": {
+		"number": 1184,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"Q01111\">same</cite> <cite ref=\"Nedarim 38a:6\">Ned. 38ᵃ</cite> <he>פ׳ בעלמא</he> only deductions by argument (were given to Moses exclusively, and he communicated them to the people). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 4:3:8\">Y. Ter. IV, 42ᵈ</cite> <he>מפִּילְפּוּל חבירייא שמעית הא</he> I learned this from the students’ arguments. ",
+				"<cite ref=\"Eruvin 67a:4\">Erub. 67ᵃ</cite> <he>רב ששת מרתע</he> … <he>מפִּילְפּוּלֵיה וכ׳</he> R. Sh. trembled all over his body, when R. H. argued. ",
+				"<cite ref=\"Ketubot 103b:18\">Keth. 103ᵇ</cite> <he>אם … מהדרני ליה מפִּילְפּוּלִי</he> if, God forefend, the Law should be forgotten in Israel, I could restore it by my argumentation; <cite ref=\"Bava Metzia 85b\">B. Mets. 85ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

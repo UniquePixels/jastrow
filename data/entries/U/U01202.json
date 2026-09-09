@@ -1,0 +1,23 @@
+{
+	"id": "U01202",
+	"slug": "שלבא",
+	"headword": {
+		"text": "שְׁלָבָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1577,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01201\">preced.</cite>) <i>close-fitting cock</i> or <i>stopper</i> (screwed in). ",
+			"units": [
+				"<cite ref=\"Shabbat 112b\">Sabb. 112ᵇ</cite> Ms. O. a. Ar. (ed. <cite ref=\"U01200\"><he>שלאכא</he></cite>, read: <cite ref=\"U01202\"><he>שְׁלָאבָא</he></cite>, v. Rabb. D. S. a. l. note 20)."
+			]
+		}
+	]
+}

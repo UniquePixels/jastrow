@@ -1,0 +1,24 @@
+{
+	"id": "V00103",
+	"slug": "תדאי",
+	"headword": {
+		"text": "תַּדַּאי"
+	},
+	"page": {
+		"number": 1647,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Taddai</i> (Thaddaeus). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:9:3\">Y. Kil. I, 27ᵇ</cite> <he>לעזר בן ת׳</he>; <cite ref=\"Jerusalem Talmud Shabbat 3:3:3\">Y. Sabb. III, 5ᵈ</cite> bot. Mekh. B’shall., Shir., s. 1 <he>אליעזר בן ת׳</he>; Tanḥ. ",
+				"<cite ref=\"Exodus 11\">B’shall. 11</cite> <he>אלעזר בן תדיי׳</he>, read: <cite ref=\"V00103\"><he>תַּדַּיי</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 242:1\">Yalk. Ex. 242</cite> <he>אליעזר בן עזריה</he> (corr. acc.); <cite ref=\"Shabbat 123a:9\">Sabb. 123ᵃ</cite>.—",
+				"<cite ref=\"Shabbat 38b:2\">Ib. 38ᵇ</cite> <he>ר׳ ת׳</he>."
+			]
+		}
+	]
+}

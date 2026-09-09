@@ -1,0 +1,30 @@
+{
+	"id": "M00136",
+	"slug": "מגור-1",
+	"headword": {
+		"text": "מָגוֹר"
+	},
+	"page": {
+		"number": 727,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"C00473\"><he>גּוּר</he> I)</cite><i>dwelling, neighborhood</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 149b:9\">Sabb. 149ᵇ</cite> (expl. <he>יגרך</he>, <cite ref=\"Psalms 5:5\">Ps. V, 5</cite>) <he>לא יגור במְגוֹרְךָ רע</he> a bad man shall not dwell in thy neighborhood; <cite ref=\"Chagigah 12b\">Ḥag. 12ᵇ</cite> evil shall not &c.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>rest, stand</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kelim Kamma 4:20\">Tosef. Kel. B. Kam. IV, 20</cite> (R. S. to <cite ref=\"Mishnah Kelim 5:11\">Kel. V, 11</cite> <he>מגיר</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

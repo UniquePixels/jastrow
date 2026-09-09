@@ -1,0 +1,67 @@
+{
+	"id": "H01023",
+	"slug": "חלט-4",
+	"headword": {
+		"text": "חֲלַט",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 467,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01022\">same</cite><i>Part.</i> <i>pass.</i> <he>חָלִיט</he>, <cite ref=\"H01036\"><he>חֲלִיטָא</he></cite> <i>irredeemably sold</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 47:20\">Targ. Y. Gen. XLVII, 20</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to sentence a leper</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 21:5\">Targ. Y. Deut. XXI, 5</cite> <he>למִחְלוֹט</he>, v. <i>Af.</i>"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַלֵּיט"],
+			"senses": [
+				{
+					"gloss": "<i>to sell irredeemably, to forfeit</i>. Y. Pes. IV, 31ᵇ bot. <he>ולא יְחַלְּטוּן בניהון</he> that they might not forfeit their pledged children. Y. Shebi. VI, 36ᶜ bot. [read:] <he>בגין דלא תְחַלְּטוּן … בידן</he> that you might not surrender the government to their (the Samaritans’) hands. Y. Keth. IX, 33ᵇ bot. <he>אנן מְחַלְּטִין וכ׳</he> we shall declare their property forfeited. ",
+					"units": [
+						"<cite ref=\"Arakhin 31b:71\">Arakh. 31ᵇ</cite> <he>ולחַלְּטֵיה הקדש</he> let the sacred treasury be declared its permanent owner; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחְלַט"],
+			"senses": [
+				{
+					"gloss": "<i>to sentence a leper</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 13:11\">Targ. Y. Lev. XIII, 11</cite>.—Part. pass. <he>מַחְלַט</he>, f. <he>מַחְלְטָא</he>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 13:51\">Ib. 51</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיחֲלַט"],
+			"senses": [
+				{
+					"gloss": "<i>to become irredeemable</i>. ",
+					"units": [
+						"<cite ref=\"Arakhin 32b:6\">Arakh. 32ᵇ</cite> <he>וירושלים מי מִיחֲלַט בה</he> are buildings in Jerusalem ever irredeemable?"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

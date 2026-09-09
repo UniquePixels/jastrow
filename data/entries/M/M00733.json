@@ -1,0 +1,33 @@
+{
+	"id": "M00733",
+	"slug": "מזון-1",
+	"headword": {
+		"text": "מָזוֹן"
+	},
+	"page": {
+		"number": 754,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00191\"><he>זוּן</he></cite>)<i>food, sustenance</i>; <i>meal; alimentation</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 3:1\">Erub. III, 1</cite> <he>הנודר מן המ׳ וכ׳</he> he who vows abstinence from <i>mazon</i> (nourishment) is permitted to partake of water and salt. ",
+				"<cite ref=\"Eruvin 30a:8\">Ib. 30ᵃ</cite>; <cite ref=\"Berakhot 35b:17\">Ber. 35ᵇ</cite> <he>מים ומלח הוא דלא איקרי מ׳ וכ׳</he> only water and salt are not called <i>mazon</i>, but all other food is included in <i>mazon</i>; <cite ref=\"Bereishit Rabbah 94:2\">Gen. R. s. 94</cite>, beg. ",
+				"<cite ref=\"Mishnah Eruvin 8:2\">Erub. VIII, 2</cite> <he>מ׳ ב׳ סעודות</he> food for two meals. ",
+				"<cite ref=\"Mishnah Berakhot 8:8\">Ber. VIII, 8</cite> <he>לאחר המ׳</he> for the after-meal (dessert). ",
+				"<cite ref=\"Mishnah Berakhot 8:8\">Ib.</cite> <he>מברך על המ׳</he> he says the grace after meal. Ib. 5 <he>נר ומ׳ וכ׳</he> the benediction for the light, then for the meal, then for the spices &c.; <cite ref=\"Pesachim 103a\">Pes. 103ᵃ</cite>.—<he>ברכת המ׳</he>, v. <cite ref=\"B01292\"><he>בְּרָכָה</he></cite>.—",
+				"<cite ref=\"Mishnah Berakhot 6:8\">Ber. VI, 8</cite> <he>והוא מְזוֹנוֹ</he> and this was his meal.—",
+				"<cite ref=\"Jerusalem Talmud Yevamot 15:3:8\">Y. Yeb. XV, 14ᵈ</cite> bot. <he>מ׳ האשה והבנות</he> the alimentation of wife and daughters (after a man’s death). Ib. VII, 8ᵃ bot. <he>מ׳ הבנות מדבריהן</he> the obligation to support the daughters from a man’s estate is a Rabbinical enactment; a. fr.—Pl. <he>מְזוֹנוֹת</he>. ",
+				"<cite ref=\"Berakhot 35b:17\">Ber. 35ᵇ</cite> <he>בורא מיני מ׳</he> (abbrev. <he>במ״מ</he>) (Blessed be he) who created various kinds of food. ",
+				"<cite ref=\"Mishnah Ketubot 4:6\">Keth. IV, 6</cite> <he>חייב במ׳ בתו</he> bound to support his daughter. ",
+				"<cite ref=\"Mishnah Ketubot 11:2\">Ib. XI, 2</cite> <he>אין לה מ׳</he> she cannot claim alimentation. ",
+				"<cite ref=\"Mishnah Ketubot 11:3\">Ib. 3</cite> <he>למ׳ מכרתי</he> I have sold (a portion of my widowhood) for my support. ",
+				"<cite ref=\"Mishnah Ketubot 12:2\">Ib. XII, 2</cite> <he>הבעל נותן לה מ׳ … דמי מ׳</he> her husband supports her, and they (the heirs) must give her the equivalent of her support; a. fr."
+			]
+		}
+	]
+}

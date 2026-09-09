@@ -1,0 +1,23 @@
+{
+	"id": "C00936",
+	"slug": "גליבא",
+	"headword": {
+		"text": "גְּלִיבָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 248,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גלב</he>) <i>shaved face</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 15:2\">Targ. Is. XV, 2</cite> Kimḥi (ed. <he>גילוח</he>)."
+			]
+		}
+	]
+}

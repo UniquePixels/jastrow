@@ -1,0 +1,28 @@
+{
+	"id": "S01212",
+	"slug": "קישוי",
+	"headword": {
+		"text": "קִישּׁוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִשּׁ׳"
+		}
+	],
+	"page": {
+		"number": 1370,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02219\"><he>קָשָׁה</he></cite>) <i>protracted travailing, laws of cleanness concerning discharges during protracted travailing</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 4:5\">Nidd. IV, 5</cite> (<cite ref=\"Niddah 36b:7\">36ᵇ</cite>) <he>כמה הוא קִשּׁוּיָהּ</he> (Bab. ed. <he>היא קִישּׁ׳</he>) how long may her travailing last (in order to apply to her the laws concerning &c.)?; <cite ref=\"Yevamot 83a:8\">Yeb. 83ᵃ</cite>; Y. ib. IV, 6ᵃ; <cite ref=\"Jerusalem Talmud Niddah 1:3:5\">Y. Nidd. I, 49ᵇ</cite> top <he>קִישּׁוּיָיהּ</he>; <cite ref=\"Jerusalem Talmud Niddah 1:3:5\">ib.</cite> <he>אין ק׳ יותר וכ׳</he> the laws apply only during two weeks. Bab. ",
+				"<cite ref=\"Niddah 66a:53\">Nidd. 66ᵃ</cite> <he>אין ק׳ לנפלים</he> the law of <i>ḳishshuy</i> does not apply to cases of abortion; a. e."
+			]
+		}
+	]
+}

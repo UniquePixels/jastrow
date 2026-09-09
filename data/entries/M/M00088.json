@@ -1,0 +1,22 @@
+{
+	"id": "M00088",
+	"slug": "מבלעתא",
+	"headword": {
+		"text": "מַבְלַעְתָּא"
+	},
+	"page": {
+		"number": 725,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B00899\"><he>בְּלַע</he></cite>) <i>the uppermost part of the gullet</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 43b:11\">Ḥull. 43ᵇ</cite>, expl. <he>תורבץ הוושט</he>."
+			]
+		}
+	]
+}

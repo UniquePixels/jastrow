@@ -1,0 +1,65 @@
+{
+	"id": "U00222",
+	"slug": "שגי-2",
+	"headword": {
+		"text": "שְׁגֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁגָא"
+		}
+	],
+	"page": {
+		"number": 1521,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00221\">same</cite><i>to reel, be intoxicated</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 20:1\">Targ. Prov. XX, 1</cite>.—",
+				"<cite ref=\"Yevamot 63b:9\">Yeb. 63ᵇ</cite> <he>ש׳ נפל</he> he reeled (from fright) and fell down."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to err, deviate</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 19:27\">Targ. Prov. XIX, 27</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be lost, missed</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 31:49\">Targ. Num. XXXI, 49</cite> (h. text <cite ref=\"Q01449\"><he>נפקד</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Judges 21:3\">Targ. Jud. XXI, 3</cite> (some ed. <he>למסגי</he>, corr. acc.). ",
+				"<cite ref=\"Onkelos Genesis 31:39\">Targ. O. Gen. XXXI, 39</cite>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 11:16\">Targ. Zech. XI, 16</cite>; a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַשְׁגֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to lead astray</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 28:10\">Targ. Prov. XXVIII, 10</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to miss</i> the aim. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 20:16\">Targ. Jud. XX, 16</cite> <he>משנן</he> (read: <he>מַשְׁגָּן</he>, v. Rashi)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "T00507",
+	"slug": "רחיק-2",
+	"headword": {
+		"text": "רָחִיק",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1466,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00506\">preced.</cite>) <i>distance</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 2:4\">Targ. Ex. II, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 10:1\">Targ. Ps. X, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 31:14\">Targ. Prov. XXXI, 14</cite> (Ms. <cite ref=\"T00350\"><he>רוֹחַק</he></cite>); a. fr."
+			]
+		}
+	]
+}

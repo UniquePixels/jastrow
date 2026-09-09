@@ -1,0 +1,43 @@
+{
+	"id": "K00946",
+	"slug": "כסן-1",
+	"headword": {
+		"text": "כְּסַן"
+	},
+	"page": {
+		"number": 654,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"K00950\"><he>כְּסַס</he></cite>) [<i>to scrape</i>, cmp. <cite ref=\"H01335\"><he>חָסַד</he> II</cite>,] <i>to rebuke, chastise</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 21:18\">Targ. Y. Deut. XXI, 18</cite>; a. e., v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּסֵּין", "כַּסֵּן"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K00945\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 38:2\">Targ. Ps. XXXVIII, 2</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַכְסֵין"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K00945\">same</cite>. Ib. XVII, 4. Ib. CXVIII, 18 <he>מִכְסְנָא אֲכְסְנַנִי</he> (some ed. <cite ref=\"M01420\"><he>מִכְסָא</he></cite>); a. fr.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "E00003",
+	"slug": "ה-3",
+	"headword": {
+		"text": "הָ־"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַ־"
+		}
+	],
+	"page": {
+		"number": 327,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (followed by Dagesh forte) ",
+			"units": []
+		},
+		{
+			"gloss": " the definite article, <i>the</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 1:1\">Ber. I, 1</cite> <he>הָאַשְׁמוֹרָה הָרִאשׁוֹנָה</he> the first night watch. ",
+				"<cite ref=\"Mishnah Berakhot 1:1\">Ib.</cite> <he>הַשַּׁחַר</he> the dawn; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " an interjection, <i>by</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 145a\">Sabb. 145ᵃ</cite>, v. <cite ref=\"A01798\"><he>אֱלוֹהַּ</he></cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (ch.) = <cite ref=\"E00005\"><he>הָא</he></cite> q. v.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

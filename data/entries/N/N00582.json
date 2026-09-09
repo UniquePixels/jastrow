@@ -1,0 +1,23 @@
+{
+	"id": "N00582",
+	"slug": "נטפיק",
+	"headword": {
+		"text": "נַטְפִּיק",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 901,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (transpos. of <he>נפטיק</he>, corresp. to Pers. <he>נפתיק</he>, Fl. to Levy Talm. Dict. s. v.) <i>naphtha-salve</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 86a:3\">Gitt. 86ᵃ</cite> <he>נ׳ חיורא</he> a salve of white naphtha."
+			]
+		}
+	]
+}

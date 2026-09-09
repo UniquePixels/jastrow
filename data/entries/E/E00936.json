@@ -1,0 +1,24 @@
+{
+	"id": "E00936",
+	"slug": "השקה",
+	"headword": {
+		"text": "הַשָּׁקָה"
+	},
+	"page": {
+		"number": 370,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01341\"><he>נָשַׁק</he></cite>, <i>Hif.</i>) [<i>causing contact</i>,] <i>dipping of a vessel, filled with an unclean water, so as to make its surface level with the surface of the water into which it is dipped</i>, a ceremony of levitical purification, contrad. to <cite ref=\"E00311\"><he>הטבלה</he></cite>, immersion. ",
+			"units": [
+				"<cite ref=\"Beitzah 18a:4\">Bets. 18ᵃ</cite> <he>נגזור ה׳ אטו הטבלה</he> let us prohibit levelling as a precaution against immersion (on the Holy Days). ",
+				"<cite ref=\"Beitzah 18b:11\">Ib.ᵇ</cite> <he>קשיא ה׳</he> the Mishnah permitting <i>hashshakah</i> is contradictory (to what Rabbi said in the Boraitha). ",
+				"<cite ref=\"Chullin 26b:2\">Ḥull. 26ᵇ</cite> <he>לא סלקא להו ה׳ למיא</he> the <i>hash</i>. will not affect the liquid (in the vessel)."
+			]
+		}
+	]
+}

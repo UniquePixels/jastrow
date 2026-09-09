@@ -1,0 +1,29 @@
+{
+	"id": "M02371",
+	"slug": "מצת",
+	"headword": {
+		"text": "מָצַת"
+	},
+	"page": {
+		"number": 828,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"M02371\"><he>מִצֵּת</he></cite>, <he>מִיצֵּת</he>, v. <cite ref=\"M02271\"><he>מָצָה</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

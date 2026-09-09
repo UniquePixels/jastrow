@@ -1,0 +1,42 @@
+{
+	"id": "E00378",
+	"slug": "היכי",
+	"headword": {
+		"text": "הֵיכִי"
+	},
+	"page": {
+		"number": 345,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>הי כי</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>how?</i> <cite ref=\"Berakhot 4b:14\">Ber. 4ᵇ</cite> <he>ה׳ מצי סמיך</he> how can he join?; a. fr.—<he>ה׳ דמי</he> (abbr. <he>ה״ד</he>), v. <cite ref=\"D00892\"><he>דְּמֵי</he> I</cite>.—Emphat. <cite ref=\"E00380\"><he>הֵיכִין</he></cite> <i>how now</i>? <cite ref=\"Nedarim 51b:6\">Ned. 51ᵇ</cite> <he>ה׳ משמע</he> how is it now to be decided?",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>כי ה׳</he> ",
+			"units": [],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " <i>as well as</i>, v. <cite ref=\"K00475\"><he>כִּי</he></cite> ch.—",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>so that, in order that</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 8a:7\">Ber. 8ᵃ</cite> <he>כי ה׳ דתורכו חיי</he> in order that you may prolong your lives. ",
+						"<cite ref=\"Berakhot 6b:2\">Ib. 6ᵇ</cite> <he>כי ה׳ דלא ליתזק</he> lest he may be injured; a. v. fr."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

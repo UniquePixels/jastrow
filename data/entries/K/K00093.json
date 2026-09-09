@@ -1,0 +1,27 @@
+{
+	"id": "K00093",
+	"slug": "כבשת",
+	"headword": {
+		"text": "כַּבֶּשֶׁת"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוּבֶּ׳"
+		}
+	],
+	"page": {
+		"number": 612,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00081\"><he>כָּבַשׁ</he></cite>) <i>pressed vegetables</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 4:16\">Tosef. Shebi. IV, 16</cite>, contrad. to <cite ref=\"J00074\"><he>יַבֶּשֶׁת</he></cite>."
+			]
+		}
+	]
+}

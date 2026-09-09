@@ -1,0 +1,62 @@
+{
+	"id": "K01008",
+	"slug": "כפי-2",
+	"headword": {
+		"text": "כְּפִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּפָא"
+		}
+	],
+	"page": {
+		"number": 658,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K01007\">same</cite><i>to bend, upturn, invert</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 68b:1\">Gitt. 68ᵇ</cite> top <he>כפא לקומתיה מיניה</he> he bent his body away from it (the wall of the hut). ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 77ᵈ</cite> bot. <he>וכְפוּנוּן על רישיהון</he> and they inverted the pots and put them over their heads; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to force</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 1:22\">Targ. Esth. I, 22</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Gittin 1:1:7\">Y. Gitt. I, 43ᵇ</cite> <he>כָּפוּנֵיה ויהב לה חורן</he> the court compelled him to give her another letter of divorce. ",
+				"<cite ref=\"Sanhedrin 107a\">Snh. 107ᵃ</cite>, v. <cite ref=\"K00334\"><he>כּוּף</he></cite> I ch. ",
+				"<cite ref=\"Bava Batra 8b\">B. Bath. 8ᵇ</cite> <he>רבא כַּפְיֵיה וכ׳</he> Ms. M. (ed. <he>אַכְפִּיה</he> <i>Af.</i>) Raba forced R. N. ",
+				"<cite ref=\"Kiddushin 45b:4\">Kidd. 45ᵇ</cite> <he>כַּפְתֵיה עד וכ׳</he> she forced him, until &c."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַכְפֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K01007\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 4a\">B. Bath. 4ᵃ</cite>, v. <cite ref=\"K00333\"><he>כּוּף</he> I</cite> ch. ",
+						"<cite ref=\"Berakhot 56a:4\">Ber. 56ᵃ</cite> <he>ואַכְפָּה לך וכ׳</he> (Beth Nathan <he>ואַכְפַּת</he>) and she shall finally make thee yield, and thou shalt give them (thy daughters) away to her relatives; a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְכְּפִי"],
+			"senses": [
+				{
+					"gloss": "<i>to be upset</i>. Y. Ab. Zar. III, 42ᶜ top <he>איתְכְּפוּן</he>, v. <cite ref=\"A02129\"><he>אַנְדְּרָטָא</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

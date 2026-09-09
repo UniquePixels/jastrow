@@ -1,0 +1,38 @@
+{
+	"id": "J00674",
+	"slug": "יש",
+	"headword": {
+		"text": "יֵשׁ"
+	},
+	"page": {
+		"number": 598,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; cmp. <cite ref=\"A01615\"><he>אִישׁ</he></cite>)<i>being, substance, wealth</i> (of knowledge &c.). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 5:6:3\">Y. Ned. V, end, 39ᵇ</cite>; <cite ref=\"Sukkah 28a:7\">Succ. 28ᵃ</cite>; <cite ref=\"Bava Batra 134a:8\">B. Bath. 134ᵃ</cite> (<cite ref=\"Proverbs 8:21\">Prov. VIII, 21</cite>, applied to R. Joh. b. Zaccai)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>there is, there are</i>, v. <cite ref=\"A01639\"><he>אִית</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 6:4\">Ber. VI, 4</cite> <he>אם יש ביניהם וכ׳</he> if there is among them one species &c. ",
+				"<cite ref=\"Mishnah Peah 8:8\">Peah VIII, 8</cite> <he>מי שיש לו וכ׳</he> he who possesses &c. ",
+				"<cite ref=\"Chagigah 14b:4\">Ḥag. 14ᵇ</cite> <he>יש נאה דורש וכ׳</he> many a one preaches well but does not act well; a. v. fr.—<he>יש אומרים</he> (abbr. <he>י״א</he>) some say (anonymous authority). ",
+				"<cite ref=\"Horayot 13b:17\">Hor. 13ᵇ</cite> <he>אסיקו … ולר׳ נתן י״א</he> the editors introduced ‘others say’ for R. M. and ‘some say’ for R. Nathan. ",
+				"<cite ref=\"Bava Batra 93b:5\">B. Bath. 93ᵇ</cite> <he>וי״א אף הוצאה</he> and some say, he must indemnify him also for carrying the seed out; <he>מאן י״א</he> who is meant by ‘some say’? (v. Tosaf. a. l.). ",
+				"<cite ref=\"Pirkei Avot 5:6\">Ab. V, 6</cite>; a. v. fr.—יֶשְׁנוֹ <i>he is, it is</i>. ",
+				"<cite ref=\"Mishnah Kiddushin 1:10\">Kidd. I, 10</cite> <he>כל שי׳ במקרא וכ׳</he> whosoever is (engaged) in the study of the Bible &c. ",
+				"<cite ref=\"Chagigah 4b:10\">Ḥag. 4ᵇ</cite> <he>כל שי׳ בביאה י׳ וכ׳</he> whosoever is bound to visit the Temple, is also bound &c., v. <cite ref=\"E00024\"><he>הֲבָאָה</he></cite>; a. fr.—יֶשְׁנָהּ <i>she is, it is</i>. ",
+				"<cite ref=\"Kiddushin 48a:8\">Kidd. 48ᵃ</cite>, a. fr. <he>י׳ לשכירות וכ׳</he> the relation of employment exists from beginning to end, i.e. the employer is under obligation for every portion of the contracted labor, opp. <he>אינה ל׳ … אלא בסוף</he> the obligation takes effect only when the work is finished; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

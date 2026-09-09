@@ -1,0 +1,37 @@
+{
+	"id": "S00078",
+	"slug": "קבלנות",
+	"headword": {
+		"text": "קַבְּלָנוּת"
+	},
+	"page": {
+		"number": 1310,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"S00075\"><he>קַבְּלָן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>assumption of an obligation, unconditional surety</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 174a:7\">B. Bath. 174ᵃ</cite>, v. <cite ref=\"S00075\"><he>קַבְּלָן</he></cite>. ",
+				"<cite ref=\"Bava Batra 173b:10\">Ib. 173ᵇ</cite> (ref. to <cite ref=\"Genesis 42:37\">Gen. XLII, 37</cite>) <he>הא ק׳ היא</he> this is a case of absolute obligation."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>work on contract</i>, opp. to time work. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 112a:9\">B. Mets. 112ᵃ</cite> <he>ק׳ עובר עליו וכ׳</he> as regards contract work, does the employer that withholds the wages transgress the law (<cite ref=\"Leviticus 19:13\">Lev. XIX, 13</cite>) &c.? <cite ref=\"Tosefta Bava Metzia 7:3\">Tosef. B. Mets. VII, 3</cite> <he>קבלן … לפי קַבְּלָנוּתוֹ</he> if the contract laborer meets with an accident which prevents his finishing the work, you must pay him in proportion, according to his contract.—3) <i>land tenancy on a fixed rent</i>. ",
+				"<cite ref=\"Tosefta Avodah Zarah 2:8\">Tosef. Ab. Zar. II, 8</cite> <he>אין נותנין להם עיריסיות וק׳</he> ed. Zuck. (oth. ed. <he>אריסיות וקַבָּלוּת</he>; Var. ed. Zuck. <he>וקִבֹּלֶת</he>) you must not give them (the gentiles in Palestine) tenancies on shares or on fixed rents. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:4:2\">Y. M. Kat. III, 82ᵃ</cite> bot. <he>שטרי ארסיות וקבלנית</he> (read: <he>אריסות וקבלנות</he>, or <he>אריסיות וקַבְּלָנִיּוֹת</he>, pl.) contracts of tenancy &c.—V. <cite ref=\"S00852\"><he>קִיבּוֹלֶת</he></cite>"
+			],
+			"label": "2"
+		}
+	]
+}

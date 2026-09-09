@@ -1,0 +1,47 @@
+{
+	"id": "U00704",
+	"slug": "שחר-1",
+	"headword": {
+		"text": "שָׁחַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1551,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H01770\"><he>חָרַר</he> I</cite>)<i>to break through, dig</i>; <i>to search, seek</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 119:5\">Midr. Till. to Ps. CXIX, 9</cite> <he>ששוקדים ושׁוֹחֲרִים וכ׳</he> they watch, and search, and investigate &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁחִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to pass through a cavity</i> or <i>a groove</i>. ",
+					"units": [
+						"<cite ref=\"Beitzah 35b\">Bets. 35ᵇ</cite> (ref. to Mish. ",
+						"<cite ref=\"Mishnah Beitzah 5:1\">ib. V, 1</cite> <he>ומאן דתני מַשְׁחִירִין וכ׳</he> nor is he wrong who reads <i>mashḥirin</i> (in place of <he>משילין</he>, referring for evidence to <he>השחור</he>, v. <cite ref=\"U00628\"><he>שָׁחוֹר</he> II</cite>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["שִׁחֵר"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"K01095\"><he>כָּרָה</he></cite>) <i>to choose, select</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 39:8\">Gen. R. s. 39</cite> <he>שִׁחַרְתִּיךָ לי</he>, v. <cite ref=\"T00520\"><he>רֶחֶם</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 869:3\">Yalk. Ps. 869</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

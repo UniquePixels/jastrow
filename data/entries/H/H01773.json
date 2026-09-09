@@ -1,0 +1,26 @@
+{
+	"id": "H01773",
+	"slug": "חרר-10",
+	"headword": {
+		"text": "חָרָר"
+	},
+	"page": {
+		"number": 506,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>needle-eye</i>, v. <cite ref=\"H00447\"><he>חוֹר</he></cite> 1. 1.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pile</i>, v. <cite ref=\"H00481\"><he>חוֹרָר</he></cite>.—<i>pl.</i> <he>חֲרָרִין</he>, v. <cite ref=\"H01775\"><he>חֲרָרָה</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

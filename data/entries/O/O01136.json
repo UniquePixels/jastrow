@@ -1,0 +1,34 @@
+{
+	"id": "O01136",
+	"slug": "סמר-1",
+	"headword": {
+		"text": "סָמַר"
+	},
+	"page": {
+		"number": 1003,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " [(b. h.) <i>to stand erect, bristle</i>.—Denom. <cite ref=\"M01969\"><he>מַסְמֵר</he></cite>; whence <cite ref=\"O01136\"><he>סָמַר</he></cite>] <i>to nail, fasten</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 4:11:2\">Y. Meg. IV, 75ᶜ</cite> bot. <he>זְמָרוֹ</he> he nailed it (against the door, in an inappropriate place)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִימֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to stud with nails</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kelim 14:2\">Kel. XIV, 2</cite>.—Part. pass. <cite ref=\"M01874\"><he>מְסוּמָּר</he></cite>. ",
+						"<cite ref=\"Mishnah Shabbat 6:2\">Sabb. VI, 2</cite>, a. fr. <he>סנדל המס׳</he> a nail-studded shoe."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

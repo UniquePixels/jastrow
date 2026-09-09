@@ -1,0 +1,29 @@
+{
+	"id": "C01086",
+	"slug": "גנברא-1",
+	"headword": {
+		"text": "גִּנְבָּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּינְבָּרָא"
+		}
+	],
+	"page": {
+		"number": 257,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"C00619\"><he>גִּיבַּר</he></cite>) <i>strong man, giant</i>.—Pl. <he>גִּנְבָּרַיָּא</he>, <cite ref=\"C01086\"><he>גִּנְבָּרֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 9:18\">Targ. Prov. IX, 18</cite> <he>גנברי</he> ed. Lag. (ed. Vien. <he>גוברי</he>, some ed. <cite ref=\"C01156\"><he>גנסרי</he></cite>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Genesis 14:1\">Targ. Y. Gen. XIV, 1</cite> <cite ref=\"C00656\"><he>גיובריא</he></cite> (read <he>גִּינְבָּ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 2:10\">Targ. Y. Deut. II, 10</cite> sq. [<cite ref=\"Targum Jonathan on Deuteronomy 2:11\">Ib. 11</cite> <he>מישר גיונברי</he>, corr. acc.]"
+			]
+		}
+	]
+}

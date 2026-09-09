@@ -1,0 +1,28 @@
+{
+	"id": "A00126",
+	"slug": "אבייה",
+	"headword": {
+		"text": "אַבָּיָיה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַבָּיִי"
+		}
+	],
+	"page": {
+		"number": 6,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (contr. of <cite ref=\"A00186\"><he>אבעיה</he></cite>; <cite ref=\"B01036\"><he>בעי</he></cite>) <i>prayer</i>. <cite ref=\"A02006\"><he>בר א׳</he></cite> <i>reader, precentor</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 5:7:2\">Y. Pes. V, 32ᶜ</cite> bot.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:9:8\">Y. Taan. III, end, 67ᵃ</cite>; Y. Sheb. I, 33ᵇ top <he>אביי</he>."
+			]
+		}
+	]
+}

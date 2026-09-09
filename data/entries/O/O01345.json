@@ -1,0 +1,23 @@
+{
+	"id": "O01345",
+	"slug": "ספחת",
+	"headword": {
+		"text": "סַפַּחַת"
+	},
+	"page": {
+		"number": 1012,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"O01342\"><he>סָפַח</he></cite>)<i>rising on the skin, sore</i>. Sifra Thazr., <cite ref=\"Mishnah Negaim 1\">Neg., ch. I</cite> (ref. to <cite ref=\"Leviticus 13:2\">Lev. XIII, 2</cite>) <he>ס׳ שני לשאת</he> (not <he>לבהרת</he>) <i>sappaḥath</i> is secondary to (is a species of) <i>s’eth</i>. ",
+			"units": [
+				"<cite ref=\"Leviticus 13:2\">Ib.</cite>; <cite ref=\"Shevuot 6b:4\">Shebu. 6ᵇ</cite> <he>אין ס׳ אלא טפילה</he> the word <i>sappaḥath</i> itself intimates an attachment to something (ref. to <cite ref=\"I Samuel 2:36\">I Sam. II, 36</cite>). ",
+				"<cite ref=\"Yevamot 47b\">Yeb. 47ᵇ</cite>; <cite ref=\"Yevamot 109b\">109ᵇ</cite>, a. e. <he>קשים גרים לישראל כס׳ בעור</he> proselytes are as bad to Israel as a sore on the skin (ref. to <he>ונספחו</he>, <cite ref=\"Isaiah 14:1\">Is. XIV, 1</cite>)."
+			]
+		}
+	]
+}

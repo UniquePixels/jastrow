@@ -1,0 +1,22 @@
+{
+	"id": "M02172",
+	"slug": "מערבלא",
+	"headword": {
+		"text": "מְעַרְבְּלָא"
+	},
+	"page": {
+		"number": 819,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01285\"><he>עַרְבֵּל</he></cite>) <i>whirlpool.—</i>Pl. constr. <cite ref=\"M02172\"><he>מְעַרְבְּלֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 38:16\">Targ. Job XXXVIII, 16</cite>."
+			]
+		}
+	]
+}

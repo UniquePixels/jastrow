@@ -1,0 +1,32 @@
+{
+	"id": "L00675",
+	"slug": "לקח-2",
+	"headword": {
+		"text": "לְקַח",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 717,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִלְּקַח</he> <i>to be taken, married</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Ketubot 4:11\">Keth. IV, 11</cite> (<cite ref=\"Ketubot 52b:7\">52ᵇ</cite>) <he>עד דתִלַּקְחוּן לגוברין</he> Bab. ed. (Mish. a. Y. ed. <he>דתינסבן</he>) until they shall be married; ib. 53ᵇ <he>דתִילַּקְחָן</he>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

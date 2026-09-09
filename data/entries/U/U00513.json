@@ -1,0 +1,27 @@
+{
+	"id": "U00513",
+	"slug": "שופרי",
+	"headword": {
+		"text": "שׁוּפְרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּית שׁוּפְרֵי"
+		}
+	],
+	"page": {
+		"number": 1540,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Beth-Shufré</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 22:4\">Lev. R. s. 22</cite> <he>בקעת ב׳ ש׳</he> the valley of Beth-Sh. (<cite ref=\"Kohelet Rabbah 5:8\">Koh. R. to V, 8</cite> <cite ref=\"I00212\"><he>טופת</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 972:1\">Yalk. ib. 972</cite> <he>נטופא</he>)."
+			]
+		}
+	]
+}

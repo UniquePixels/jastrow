@@ -1,0 +1,29 @@
+{
+	"id": "K00511",
+	"slug": "כיור-1",
+	"headword": {
+		"text": "כִּיּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּיּוּד"
+		}
+	],
+	"page": {
+		"number": 631,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00617\"><he>כִּיר</he></cite>, <cite ref=\"K00489\"><he>כִּיד</he></cite>) <i>paneling work, panel</i> (abacus). ",
+			"units": [
+				"<cite ref=\"Bava Batra 53b:7\">B. Bath. 53ᵇ</cite> <he>וסד בהן סיוד אחד או כ׳ אחד</he> and added one piece of stucco or one panel. ",
+				"<cite ref=\"Mishnah Middot 4:6\">Midd. IV, 6</cite> <he>אמה כ׳</he> one cubit for the paneling work (tablature of the ceiling in the Temple). ",
+				"<cite ref=\"Zevachim 62a:9\">Zeb. 62ᵃ</cite>, v. <cite ref=\"K01195\"><he>כַּרְכּוֹב</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "V00280",
+	"slug": "תורבינה",
+	"headword": {
+		"text": "תוּרְבִּינָה"
+	},
+	"page": {
+		"number": 1656,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00279\">preced.</cite>; cmp. <cite ref=\"M00613\"><he>מוּרְבִּית</he> I</cite>) <i>nursery, young trees, plants</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 2:6:6\">Y. Kil. II, 28ᵃ</cite> bot. <he>גדר מותר לזרוע בו כל מין ת׳</he> (not <he>תירבכינה</he>) as a fence you may plant any kind of plants."
+			]
+		}
+	]
+}

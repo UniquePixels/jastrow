@@ -1,0 +1,40 @@
+{
+	"id": "P00280",
+	"slug": "עומדים",
+	"headword": {
+		"text": "עוֹמְדִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוֹמְדִין"
+		}
+	],
+	"page": {
+		"number": 1052,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"P00279\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>upright loom</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 2:4\">Neg. II, 4</cite> <he>כאורגת בע׳</he> in the position of one weaving at an upright loom; Sifra Thazr., Neg., Par. 3, ch. IV (not <he>בעומר׳</he>); <cite ref=\"Vayikra Rabbah 15:8\">Lev. R. s. 15</cite> <he>בעמרים</he> (corr. acc.); <cite ref=\"Yalkut Shimoni on Torah 551:2\">Yalk. ib. 551</cite> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>side-pieces of a ladder</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 3:13\">Tosef. Kel. B. Mets. III, 13</cite> <he>אחר הע׳</he> the material of the side-pieces decides (v. <cite ref=\"P00171\"><he>עֲדָשָׁה</he></cite> 4)."
+			],
+			"label": "2"
+		}
+	]
+}

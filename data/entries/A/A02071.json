@@ -1,0 +1,30 @@
+{
+	"id": "A02071",
+	"slug": "אמש",
+	"headword": {
+		"text": "אֶמֶשׁ"
+	},
+	"page": {
+		"number": 79,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; √<he>אם</he>; cmp. <cite ref=\"A02021\"><he>אמיטתא</he></cite>)<i>twilight, evening, nightfall</i>. Pesik. Vayhi p. 63ᵇ; <cite ref=\"Pesikta Rabbati 17:1\">Pesik. R. s. 17</cite> <he>מא׳</he> (<cite ref=\"F00000\"><he>ו</he></cite>)<he>עד חצות</he> from nightfall to midnight.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (adv.) <i>this evening, last night</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 3a:21\">Meg. 3ᵃ</cite>, a. e. <he>א׳ ביטלתם וכ׳</he> this evening you neglected the evening offering.—",
+				"<cite ref=\"Sanhedrin 40b:18\">Snh. 40ᵇ</cite> <he>א׳ הרגו</he> last night he killed him. ",
+				"<cite ref=\"Bava Metzia 60a:10\">B. Mets. 60ᵃ</cite> <he>שמרים של א׳</he> dregs of last night (yesterday), opp. to <he>היום</he>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

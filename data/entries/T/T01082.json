@@ -1,0 +1,50 @@
+{
+	"id": "T01082",
+	"slug": "רשי-1",
+	"headword": {
+		"text": "רשי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָשָׁה"
+		}
+	],
+	"page": {
+		"number": 1500,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to have power</i>.—V. <cite ref=\"T01065\"><he>רַשַּׁאי</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְשָׁה"],
+			"senses": [
+				{
+					"gloss": "<i>to authorize, permit</i>. Y. Keth. X, 33ᵈ bot. <he>במַרְשׁוֹת זו את זו בשהִרְשֵׁת וכ׳</he> when they gave each other power of attorney, when the third wife authorized the second to go to law with the first. ",
+					"units": [
+						"<cite ref=\"Chagigah 14b:2\">Ḥag. 14ᵇ</cite> <he>רבי תַּרְשֵׁינִי לומר וכ׳</he> my teacher, wilt thou permit me to say something &c.?; Y. ib. II, 77ᵃ bot.; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּרְשָׁה"],
+			"senses": [
+				{
+					"gloss": "<i>to be authorized, permitted</i>. ",
+					"units": [
+						"<cite ref=\"Chagigah 13a:2\">Ḥag. 13ᵃ</cite> (fr. Ben Sira) <he>במה שהוּרְשֵׁיתָ התבונן וכ׳</he> speculate on that which has been given under thy control, and have nothing to do with secret things; Y. ib. II, 77ᶜ top; <cite ref=\"Bereishit Rabbah 8\">Gen. R. s. 8</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 68:3\">Gen. R. s. 68</cite> <he>מהיכן ה׳</he> from where did he take leave (to go away). ",
+						"<cite ref=\"Bereishit Rabbah 68:3\">Ib.</cite> s. 39 <he>עדיין לא ה׳</he> he had not yet had the permission to go away; a. e."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

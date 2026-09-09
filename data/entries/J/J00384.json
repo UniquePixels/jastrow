@@ -1,0 +1,31 @@
+{
+	"id": "J00384",
+	"slug": "יליל-2",
+	"headword": {
+		"text": "יָלֵיל"
+	},
+	"page": {
+		"number": 579,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (dial. for <cite ref=\"A01857\"><he>אָלֵיל</he></cite>, v. <cite ref=\"A01899\"><he>אֲלַל</he></cite>) <i>to espy</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 1:24\">Targ. Y. II, Deut. I, 24</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יַלֵּיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"J00383\">same</cite>. Y. Taan. IV, 68ᵈ top <he>הוון מְיַילְּלִין וכ׳</he> they went through the town espying and left again.—V. <cite ref=\"J00390\"><he>יָלַל</he> I</cite>",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

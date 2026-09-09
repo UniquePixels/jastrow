@@ -1,0 +1,24 @@
+{
+	"id": "A02758",
+	"slug": "אפסיות",
+	"headword": {
+		"text": "אִפְסִיּוֹת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 106,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl., prob. denomin. of <cite ref=\"A02748\"><he>אֶפֶס</he></cite> (<he>אפס דמים</he> <cite ref=\"I Samuel 17:1\">I Sam. XVII, 1</cite>) of <i>Ephes</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:13\">Y. Dem. II, 22ᶜ</cite> bot. <he>תמרין א׳</he> Ephes dates."
+			]
+		}
+	]
+}

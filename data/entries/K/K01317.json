@@ -1,0 +1,33 @@
+{
+	"id": "K01317",
+	"slug": "כשף-1",
+	"headword": {
+		"text": "כָּשַׁף"
+	},
+	"page": {
+		"number": 676,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H01806\"><he>חָשַׁב</he></cite>) [<i>to whisper</i>, v. Fl. to Levy Talm. Dict. II, p. 459,] <i>to think, devise</i>, v. <cite ref=\"K00405\"><he>כּוּשְׁפָּא</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּישֵּׁף"],
+			"senses": [
+				{
+					"gloss": "<i>to charm, practice sorcery</i> (cmp. <cite ref=\"L00371\"><he>לָחַשׁ</he></cite>). ",
+					"units": [
+						"<cite ref=\"Sanhedrin 43a\">Snh. 43ᵃ</cite> (suppressed in later eds., v. <cite ref=\"J00680\"><he>יֵשׁוּ</he></cite>) <he>על שכי׳ והסית וכ׳</he> because he practiced sorcery and enticed &c. ",
+						"<cite ref=\"Mishnah Sanhedrin 7:4\">Ib. VII, 4</cite> <he>המְכַשֵּׁף</he> he who practices witchcraft, expl. ",
+						"<cite ref=\"Mishnah Sanhedrin 7:11\">ib. 11</cite> <he>המכ׳ העושה מעשה וכ׳</he> he who produces a real effect is guilty, not he who produces an optical delusion, v. <cite ref=\"A01021\"><he>אָחַז</he></cite>; a. fr.—V. <cite ref=\"M01443\"><he>מְכַשֵּׁף</he></cite>. <cite ref=\"M01444\"><he>מְכַשֵּׁפָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

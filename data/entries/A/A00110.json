@@ -1,0 +1,33 @@
+{
+	"id": "A00110",
+	"slug": "אביב-2",
+	"headword": {
+		"text": "אָבִיב",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אָבִיבָא"
+		},
+		{
+			"text": "אַבִּיב"
+		},
+		{
+			"text": "אַבִּיבָא"
+		}
+	],
+	"page": {
+		"number": 5,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A00109\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 2:14\">Targ. O. Lev. II, 14</cite>; <cite ref=\"Exodus 13:4\">Ex. XIII, 4</cite>; a. e.—",
+				"<cite ref=\"Sanhedrin 11b\">Snh. 11ᵇ</cite>; Y. ib. I, 18ᵈ top <he>זימנא דא׳ וכ׳</he> the season of ripening has not yet come. [<cite ref=\"Jerusalem Talmud Maasrot 5:3:8\">Y. Maasr. V, 52ᵃ</cite> <he>אביבא דפילא</he>, read <cite ref=\"A03133\"><he>אַרְכּוּבָא</he></cite>.]—<i>Pl.</i> (adj.) <he>אַבִּיבִין</he>, <he>אָבִי׳</he>. ",
+				"<cite ref=\"Onkelos Exodus 9:31\">Targ. O. Ex. IX, 31</cite> (ed. Berl. sing.)."
+			]
+		}
+	]
+}

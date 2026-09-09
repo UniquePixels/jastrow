@@ -1,0 +1,28 @@
+{
+	"id": "S00403",
+	"slug": "קומצא-2",
+	"headword": {
+		"text": "קוּמְצָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קָמְצָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1333,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (= <cite ref=\"C00422\"><he>גּוּמְצָא</he></cite>, <cite ref=\"K00289\"><he>כּוּמְצָא</he></cite>) <i>pit</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 18:17\">Targ. II Sam. XVIII, 17</cite>.—Esp. <i>the pit in which grain is kept in years of plenty</i>, when the granaries are overflowing. ",
+				"<cite ref=\"Bereishit Rabbah 90:5\">Gen. R. s. 90</cite> (expl. <he>לקמצים</he>, <cite ref=\"Genesis 41:47\">Gen. XLI, 47</cite>) <he>מקומצא לריחיא</he> (ed. <he>מן קוצא</he>, <he>מקוצץ</he>, corr. acc.) from the pit they carried the grain to the mill (leaving the granaries untouched); Yalk. ib. 148 <he>מקמצא</he>.—Pl. f. <he>קַמְצָתָא</he>. ",
+				"<cite ref=\"Genesis 41:47\">Ib.</cite> <he>ורבנן אמרי דק׳ ודלא דק׳</he> the Rabbis say, they carried to the mill grain which had been put in pits and such even as had not been put in pits; Gen. R. l. c.; [strike out <he>דק׳ ובלא ק׳</he> after <he>לריחיא</he>]."
+			]
+		}
+	]
+}

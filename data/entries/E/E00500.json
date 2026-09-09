@@ -1,0 +1,28 @@
+{
+	"id": "E00500",
+	"slug": "הכאה",
+	"headword": {
+		"text": "הַכָּאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַכָּיָיה"
+		}
+	],
+	"page": {
+		"number": 350,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>נכה</he>, Hif.) <i>striking, beating, assault</i>. ",
+			"units": [
+				"<cite ref=\"Makkot 8b:17\">Macc. 8ᵇ</cite> sq., a. e. <he>ה׳ שאין בה שוה פרוטה</he> a striking for which no P’rutah can be claimed as damages. ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 4:6:3\">Y. B. Kam. IV, 4ᶜ</cite> <he>הַכָּיַית מיתה</he> a fatal blow; a. e.—Pl. <he>הַכָּאוֹת</he>. Tanḥ. Thazr. 9 <he>לסבול ה׳</he> to suffer blows."
+			]
+		}
+	]
+}

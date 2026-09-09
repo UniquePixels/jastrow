@@ -1,0 +1,36 @@
+{
+	"id": "C00040",
+	"slug": "גבב-2",
+	"headword": {
+		"text": "גְּבַב"
+	},
+	"page": {
+		"number": 203,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>גַּבֵּב</he> <cite ref=\"C00039\">same</cite>, <i>to rake, collect</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 5:7\">Targ. Ex. V, 7</cite> <he>וִיגָבְבוּן</he> ed. Berl. (ed. <he>וִיגַבְּבוּן</he>, Regia <he>ויִגְבּוּן</he>; h. text <he>קשש</he>); ib. 12 <he>לגָבָבָא</he> ed. Berl. ",
+						"<cite ref=\"Aramaic Targum to Psalms 109:11\">Targ. Ps. CIX, 11</cite> (h. text <he>ינקש</he>); a. fr.—",
+						"<cite ref=\"Aramaic Targum to Proverbs 8:10\">Targ. Prov. VIII, 10</cite> <he>גָבוּ לכון וכ׳</he> hoard ye unto yourselves knowledge. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 25:4\">Ib. XXV, 4</cite> <he>גָּבוּ</he> rake ye out (remove; h. text <he>הגו</he>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 46:6\">Targ. Is. XLVI, 6</cite> <he>גָּבָן וכ׳</he> they rake together gold (h. text <he>זלים</he>).—",
+						"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד כות׳</he> 1) <he>ההוא גברא מְגַבֵּב כובין וכ׳</he> this man (thou) will be a gatherer of thorns and when he brings them, all people will run away from him; [<cite ref=\"Jerusalem Talmud Maaser Sheni 4:6:4\">Y. Maas. Sh. IV, 55ᵇ</cite> bot., v. <cite ref=\"A01188\"><he>אִיזָּא</he></cite>]."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

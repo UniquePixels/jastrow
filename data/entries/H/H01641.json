@@ -1,0 +1,31 @@
+{
+	"id": "H01641",
+	"slug": "חרות-2",
+	"headword": {
+		"text": "חָרוּת",
+		"homograph": 1
+	},
+	"page": {
+		"number": 500,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חרת</he>, sec. r. of <he>חרה</he>, v. <cite ref=\"H01675\"><he>חֶרְיָה</he></cite>) <i>dried up by heat, shrunk</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 32a:1\">Succ. 32ᵃ</cite> top <he>ח׳ פסול</he> if the palm-branch is dried up, it is unfit for use; <he>דומה לח׳</he> if it only looks as if dried up (blackish) &c.—<i>Fem.</i> <cite ref=\"H01643\"><he>חֲרוּתָה</he></cite>. ",
+				"<cite ref=\"Mishnah Chullin 3:2\">Ḥull. III, 2</cite> <he>ח׳ בידי שמים</he> if the animal’s lungs are shrunk (wood-like) through an accident; <cite ref=\"Chullin 55b:9\">ib. 55ᵇ</cite> <he>ח׳ בידי אדם</he> by violence done to it. ",
+				"<cite ref=\"Tosefta Chullin 3:12\">Tosef. ib. III, 12</cite> <he>אי זוהי ח׳ וכ׳</he> what animal is called <i>ḥărutha?</i>—Answ. whose lungs are shrunk."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>engraven</i>, v. <cite ref=\"H01793\"><he>חָרַת</he></cite>. [<cite ref=\"Jerusalem Talmud Bava Batra 4:5:2\">Y. B. Bath. IV, 14ᶜ</cite> bot. <he>חרותין</he>, v. <cite ref=\"D00393\"><he>דּוּת</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

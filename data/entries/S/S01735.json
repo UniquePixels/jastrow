@@ -1,0 +1,26 @@
+{
+	"id": "S01735",
+	"slug": "קפיזא",
+	"headword": {
+		"text": "קְפִיזָא"
+	},
+	"page": {
+		"number": 1401,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>ḳ’fiza</i>, name of a small measure (Pers. ḳawij, Greek καπίθη). ",
+			"units": [
+				"<cite ref=\"Menachot 24a:10\">Men. 24ᵃ</cite> <he>ק׳ בקבא</he> if one hollowed out a ḳ. within a kab measure. ",
+				"<cite ref=\"Pesachim 48b:2\">Pes. 48ᵇ</cite> <he>נהוג למיפא ק׳ ק׳</he> are in the habit of baking only a ḳ. at a time. ",
+				"<cite ref=\"Chullin 25a:14\">Ḥull. 25ᵃ</cite> <he>חק ק׳ בקבא</he> he hollowed out a ḳ. in a block intended for a kab measure; <cite ref=\"Shabbat 103a:2\">Sabb. 103ᵃ</cite>; a. fr.—Pl. <he>קְפִיזֵי</he>. ",
+				"<cite ref=\"Shabbat 110b:4\">Ib. 110ᵇ</cite>. ",
+				"<cite ref=\"Menachot 78a:1\">Men. 78ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "A01642",
+	"slug": "איתו-1",
+	"headword": {
+		"text": "אִיתּוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִתּוּ"
+		},
+		{
+			"text": "אִנְתּוּ"
+		}
+	],
+	"page": {
+		"number": 61,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A01641\">preced.</cite>) = h. <cite ref=\"A01621\"><he>אִישׁוּת</he></cite> <i>matrimony;</i> <he>לא׳</he> <i>in matrimony, as wife</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 12:19\">Targ. Gen. XII, 19</cite>; a. fr."
+			]
+		}
+	]
+}

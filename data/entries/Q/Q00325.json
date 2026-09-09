@@ -1,0 +1,23 @@
+{
+	"id": "Q00325",
+	"slug": "פוקרי",
+	"headword": {
+		"text": "פּוּקְרֵי"
+	},
+	"page": {
+		"number": 1146,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"Q01518\"><he>פְּקַר</he></cite>), <cite ref=\"Q00005\"><he>בֵּי פ׳</he></cite> (euphem.) <i>anus</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 76a:3\">Yeb. 76ᵃ</cite>.—[<cite ref=\"Yalkut Shimoni on Torah 132:1\">Yalk. Gen. 132</cite>, v. <cite ref=\"Q00327\"><he>פּוֹקָרִין</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "R00790",
+	"slug": "צרם",
+	"headword": {
+		"text": "צָרַם"
+	},
+	"page": {
+		"number": 1303,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to incise, split</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 5:3\">Bekh. V, 3</cite> <he>הצוֹרֵם באוזן וכ׳</he> if one makes a slit in the ear of a firstborn animal. ",
+				"<cite ref=\"Mishnah Bekhorot 5:3\">Ib.</cite> <he>נטל … וצ׳ וכ׳</he>, v. <cite ref=\"Q00055\"><he>פִּגְיוֹן</he></cite>. ",
+				"<cite ref=\"Mishnah Bekhorot 5:3\">Ib.</cite> (35ᵃ) <he>הלך וצ׳ באזני וכ׳</he> (Talm. ed. <he>וצֵירֵם</he>, <i>Pl.</i>) he went and mutilated the ears of other first-born animals. ",
+				"<cite ref=\"Zevachim 25b:13\">Zeb. 25ᵇ</cite> <he>הצורם אזן הפר</he> if one mutilates the (priest’s sacrificial) bullock; <cite ref=\"Bekhorot 39b\">Bekh. 39ᵇ</cite> (Tosaf. <he>החורם</he>). ",
+				"<cite ref=\"Tosefta Parah 3:8\">Tosef. Par. III, 8</cite> <he>צ׳ לו באזנו</he> he slit his ear (to make him unfit for priestly service); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צֵירֵם"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"R00789\">same</cite>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

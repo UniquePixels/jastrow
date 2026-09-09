@@ -1,0 +1,25 @@
+{
+	"id": "U00144",
+	"slug": "שבלוליתא",
+	"headword": {
+		"text": "שַׁבְלוּלִיתָא"
+	},
+	"page": {
+		"number": 1515,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<i>Shaf.</i> of <cite ref=\"B00880\"><he>בלל</he></cite>; cmp. <cite ref=\"V00054\"><he>תֶּבֶל</he></cite>, <he>תַּבְלִין</he>) <i>fenugreek</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 110b\">Sabb. 110ᵇ</cite> Ms. M. (ed. <cite ref=\"U00147\"><he>שַׁבְלִילְתָּא</he></cite>). ",
+				"<cite ref=\"Menachot 42b\">Men. 42ᵇ</cite> <he>מיא דש׳</he> Ms. M. (ed. <he>דשבלילתא</he>) juice of fenugreek. ",
+				"<cite ref=\"Gittin 69a\">Gitt. 69ᵃ</cite> <he>ש׳</he> Rashi (ed. <cite ref=\"U00324\"><he>שׁוּבְלִילְתָּא</he></cite>). ",
+				"<cite ref=\"Avodah Zarah 38b\">Ab. Zar. 38ᵇ</cite> <cite ref=\"U00147\"><he>שבלילתא</he></cite>."
+			]
+		}
+	]
+}

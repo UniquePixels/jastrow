@@ -1,0 +1,58 @@
+{
+	"id": "U00489",
+	"slug": "ש-3",
+	"headword": {
+		"text": "ש"
+	},
+	"altHeadwords": [
+		{
+			"text": "ׁוּף"
+		}
+	],
+	"page": {
+		"number": 1538,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00488\">same</cite><i>to blow</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 2:5\">Gen. R. s. 2</cite> <he>ברית כרותה … רוחא שָׁיְיפָא</he> (not <cite ref=\"T00331\"><he>רוחה</he></cite>, <he>רוחו</he>) an assurance is given to the water that even during the hot season a wind shall blow.—Trnsf. (cmp. colloquial Engl. <i>to blow</i>) <i>to be proud</i>. ",
+				"<cite ref=\"Vayikra Rabbah 16:9\">Lev. R. s. 16</cite> (ref. to <he>גבהו</he>, <cite ref=\"Isaiah 3:16\">Is. III, 16</cite>) [read:] <he>דהוויין שָׁיְפָן ברומהון</he> they were proud of their high stature; <cite ref=\"Eichah Rabbah 4:25\">Lam. R. to IV, 15</cite> <he>ש׳ ברומיהון</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"N01338\"><he>נְשַׁף</he> II</cite>) <i>to slip</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 42b:7\">Ḥull. 42ᵇ</cite> <he>בוקא … דשָׁף מדוכתיה</he> a dislocated hip-bone; <cite ref=\"Chullin 54a\">ib. 54ᵃ</cite>, sq. ",
+				"<cite ref=\"Bava Metzia 84a\">B. Mets. 84ᵃ</cite> bot. he lamented, (<he>מיניה</he>) <he>עד דשף דעתיה</he> (Ms. H. <he>דשני</he>) until his mind slipped (from him), he lost consciousness; a. e.—<cite ref=\"J00712\"><he>יתיב</he></cite>(<cite ref=\"F00000\"><he>ו</he></cite>) <he>בי כנישתא דשף</he> the synagogue of ‘He slipped’ (away from the Temple) ‘and settled’ (in Babylonia), name of a synagogue in Nehardea (a reference to the belief that the Divine Majesty went with Israel into the Babylonian exile). ",
+				"<cite ref=\"Megillah 29a\">Meg. 29ᵃ</cite>; <cite ref=\"Rosh Hashanah 24b\">R. Hash. 24ᵇ</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to crouch, crawl, slide</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 7a:1\">B. Bath. 7ᵃ</cite> <he>שׁוֹף אכריסך וכ׳</he> crouch on thy belly and go in, crouch and go out, i.e. I am not bound to make the accesses to thy rooms. ",
+				"<cite ref=\"Sanhedrin 88b:9\">Snh. 88ᵇ</cite> <he>שָׁיֵיף עייל שייף ונפיק וכ׳</he> he that crawls in entering, and crawls in leaving (is very humble), and studies the Law &c. ",
+				"<cite ref=\"Zevachim 14b:16\">Zeb. 14ᵇ</cite> <he>דקשָׁיֵיף מֵישַׁף</he> when he (in a sitting position) slid himself to the altar."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁיֵּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to blow, fan</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 119a\">Sabb. 119ᵃ</cite> <he>מְשַׁיֵּיף נורא</he> Ar. (ed. <he>מוֹשִׁיף</he> <i>Af.</i>) fanning the fire."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,99 @@
+{
+	"id": "R00635",
+	"slug": "צנן-1",
+	"headword": {
+		"text": "צָנַן"
+	},
+	"page": {
+		"number": 1292,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"O01244\"><he>סָנַן</he></cite>) [<i>to sting</i>; (of taste) <i>to be pungent</i>; (of color) <i>to be bright, polished</i>]; (of temperature) <i>to be cold</i>. Mekh. Yithro s. 4 <he>רחק ממנה צ׳</he> if he is removed from it, he is cold. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 4:8:2\">Y. Pes. IV, 31ᵇ</cite> top <he>שלא תִיצַן</he> that she (the ass in heat) may not cool off (before copulation). ",
+				"<cite ref=\"Bereishit Rabbah 87:7\">Gen. R., s. 87</cite> <he>איקונין … וצָ׳ דמו</he> he saw his father’s image before him, and his blood grew cold; <cite ref=\"Bereishit Rabbah 87:7\">ib.</cite> s. 98 <he>וצינן</he> (corr. acc., or <he>וצוּנָּן</he>); a. e.—V. <cite ref=\"R00211\"><he>צוֹנָן</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵיצֵן"],
+			"senses": [],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נָצַן"],
+			"senses": [
+				{
+					"gloss": "<i>to become cold</i>. Y. Hor. III, 46ᵈ <he>יָצֵן</he> he must become cold (suppress his passion); <he>לא ה׳</he> if he does not cool off (what shall he do)? <cite ref=\"Yoma 2a\">Ib.</cite> <he>ויהא מֵיצַן</he> and he will cool off. ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>ראה … מיד ה׳</he> he saw his father’s image and at once was cooled off (v. supra).—",
+						"<cite ref=\"Bereishit Rabbah 20:6\">Gen. R. s. 20</cite> <he>שמא תִיצּוֹן</he> (<i>Nif.</i>), v. <cite ref=\"R00636\">next w.</cite>"
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הוּצַן"],
+			"senses": [
+				{
+					"gloss": "<i>to be cooled off</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Avodah Zarah 3:9\">Ab. Zar. III, 9</cite> <he>ישן יוּצַן</he> if it is an old oven, it must be allowed to cool off (before being used again); <cite ref=\"Pesachim 26b\">Pes. 26ᵇ</cite>; <cite ref=\"Pesachim 27a\">27ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["צִנֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to cool off</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 53a:11\">Sabb. 53ᵃ</cite> <he>לצַנְּנָהּ</he> to cause the perspiring animal to cool off, opp. <he>לחממה</he> to keep her warm. ",
+						"<cite ref=\"Bava Batra 74b\">B. Bath. 74ᵇ</cite> <he>סירס … וצי׳ הנקבה</he> he emasculated the male (Leviathan), and cooled the female. ",
+						"<cite ref=\"Shemot Rabbah 10:2\">Ex. R. s. 10</cite> <he>ומְצַנְּנִין אותו</he> (not <he>ומצנן</he>) they caused the stove to cool off. ",
+						"<cite ref=\"Pesachim 118a\">Pes. 118ᵃ</cite> the angel Gabriel said, <he>ארד וַאֲצַנֵּן וכ׳</he> let me go down and cool the furnace &c.; a. e.—[<cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite>, v. supra.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["צוּנָּן"],
+			"senses": [
+				{
+					"gloss": "<i>to be cooled off</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite>, v. supra.—Part. <he>מְצוּנָּן</he>; f. <he>מְצוּנֶּנֶת</he>. ",
+						"<cite ref=\"Mishnah Chullin 3:5\">Ḥull. III, 5</cite> <he>המצ׳</he> an animal suffering from frost; <cite ref=\"Tosefta Chullin 3:19\">Tosef. ib. III</cite> (<cite ref=\"Tosefta Chullin 4:19\">IV</cite>), 19."
+					]
+				}
+			],
+			"stem": "Pu."
+		},
+		{
+			"forms": ["הִצְטַנֵּן"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִצְטַנֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to become cold; to get chills</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 129a:10\">Sabb. 129ᵃ</cite> <he>הקיז דם ונ׳</he> if one has chills after blood-letting. ",
+						"<cite ref=\"Yoma 77a:3\">Yoma 77ᵃ</cite> <he>אלמלא לא נִצְטַנְּנוּ וכ׳</he> if the coals had not been cooled off on their transmission from the hand of the Cherub &c. ",
+						"<cite ref=\"Sotah 11b\">Sot. 11ᵇ</cite>; <cite ref=\"Shemot Rabbah 1:14\">Ex. R. s. 1</cite> <he>מִצְטַנְּנוֹת</he>, v. <cite ref=\"J00642\"><he>יָרֵךְ</he></cite>; a e."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

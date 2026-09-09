@@ -1,0 +1,47 @@
+{
+	"id": "I00634",
+	"slug": "טפז",
+	"headword": {
+		"text": "טְפַז"
+	},
+	"page": {
+		"number": 545,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (corresp. to h. <he>קפץ</he>) [<i>to join, contract</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to close</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 5:16\">Targ. Job V, 16</cite> <he>טָפְזַת</he> ed. Lag. (some ed. <he>טַפְּיַת</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to leap</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 21:35\">Targ. Y. Num. XXI, 35</cite>.—",
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:8\">Targ. Cant. II, 8</cite> <he>וט׳ על קיצא</he> (ed. Lag. <he>וטפו</he>, ed. Vien. <he>וטפן</he>, corr. acc.) leaped over (redeemed them before) the destined end of the captivity. ",
+				"<cite ref=\"Aramaic Targum to Psalms 68:17\">Targ. Ps. LXVIII, 17</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טַפֵּז"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00633\">same</cite>. Ib. CXIV, 6 <he>דאתון מְטַפְּזִין</he> Ms. (ed. <he>טפזו</he> incorr.). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 21:11\">Targ. Job XXI, 11</cite>; a. fr.—V. <he>טְפֵי</he> IV"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "A01991",
+	"slug": "אמהא",
+	"headword": {
+		"text": "אַמְהָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַמְתָא"
+		},
+		{
+			"text": "אַמְהֲתָא"
+		}
+	],
+	"page": {
+		"number": 75,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A01990\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 31:13\">Targ. Job XXXI, 13</cite>. ",
+				"<cite ref=\"Onkelos Genesis 16:1\">Targ. Gen. XVI, 1</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:1:11\">Y. M. Kat. III, 81ᵈ</cite>.—",
+				"<cite ref=\"Megillah 18a\">Meg. 18ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Eruvin 53b:9\">Erub. 53ᵇ</cite>.—Pl. <cite ref=\"A01994\"><he>אַמְהָתָא</he></cite>; <he>אַמְהָן</he>. ",
+				"<cite ref=\"Onkelos Genesis 20:17\">Targ. Gen. XX, 17</cite>; a. fr."
+			]
+		}
+	]
+}

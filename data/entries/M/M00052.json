@@ -1,0 +1,23 @@
+{
+	"id": "M00052",
+	"slug": "מאסא",
+	"headword": {
+		"text": "מְאַסָּא"
+	},
+	"page": {
+		"number": 724,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A02427\"><he>אֲסִי</he></cite>) <i>healer</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 31:18\">Targ. Job XXXI, 18</cite> Var. Ms. (ed. <cite ref=\"K00007\"><he>כְּאַבָּא</he></cite>, Ms. <cite ref=\"K00007\"><he>כְּאֵבָא</he></cite>).—Pl. <he>מְאַסֵּין</he>, constr. <he>מְאַסֵּי</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 13:4\">Ib. XIII, 4</cite> <he>כִּמְאֲסֵּי</he> (not <he>כִּמְאֲסֵי</he>)."
+			]
+		}
+	]
+}

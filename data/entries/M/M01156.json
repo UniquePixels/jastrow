@@ -1,0 +1,22 @@
+{
+	"id": "M01156",
+	"slug": "מיכלותא",
+	"headword": {
+		"text": "מֵיכְלוּתָא"
+	},
+	"page": {
+		"number": 773,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"M01153\"><he>מֵיכַל</he></cite>, <i>food</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 31:14\">Targ. Prov. XXXI, 14</cite> (ed. Wil. a. oth. <cite ref=\"M01348\"><he>מֵכְ׳</he></cite>)."
+			]
+		}
+	]
+}

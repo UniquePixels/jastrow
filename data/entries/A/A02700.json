@@ -1,0 +1,23 @@
+{
+	"id": "A02700",
+	"slug": "אפיפיון",
+	"headword": {
+		"text": "אֱפִיפְּיוֹן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 103,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἐφίππιον, ephippium) <i>saddle cloth</i>, a figurative expression for the protuberances of the human buttock; v. <cite ref=\"A01361\"><he>אַיִן</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 3:19:1\">Koh. R. to III, 19</cite> (ref. to ‘the advantage of man over beast’ Koh. l. c.) <he>ואפופרין כפוי עליו וכ׳</he> (corr. acc.) and an ephippium is pressed over it (the lock of the buttock) in order that he may not look as hideous as a beast; <cite ref=\"Bereishit Rabbah 17\">Gen. R. s. 17</cite> <cite ref=\"A02699\"><he>אפיפורין</he></cite> (and otherwise, to be corrected after Koh. R. l. c.); <cite ref=\"Yalkut Shimoni on Nach 969:1\">Yalk. Koh. 969</cite> <he>אפיפורי פרוסה על רגליו</he> (corr. acc.)."
+			]
+		}
+	]
+}

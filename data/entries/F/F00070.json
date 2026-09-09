@@ -1,0 +1,29 @@
+{
+	"id": "F00070",
+	"slug": "ועד-1",
+	"headword": {
+		"text": "וָעַד"
+	},
+	"page": {
+		"number": 374,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"J00476\"><he>וִיעֵד</he></cite>, v. <cite ref=\"J00476\"><he>יָעַד</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

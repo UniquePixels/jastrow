@@ -1,0 +1,34 @@
+{
+	"id": "V00606",
+	"slug": "תלמי-2",
+	"headword": {
+		"text": "תַּלְמַי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1672,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Hebrew adaptation) p. n. m. <i>Ptolemæus. Ptolemy</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " King of Adiabene, father of Monobazus and Izates. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 46:10\">Gen. R. s. 46</cite> (Jos. Ant. XX, 2, 1 Monobazus), v. <cite ref=\"M00530\"><he>מוּנְבָּז</he></cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " king of Egypt (Ptolemy II Philadelphus), during whose reign the Septuagint is said to have been produced. ",
+			"units": [
+				"<cite ref=\"Tractate Soferim 1:7\">Treat. Sof’rim I, 7</cite> <he>מעשה בחמשה … לת׳ המלך וכ׳</he> it occurred that five elders wrote the Torah in Greek for King Ptolemy, and that day was as ominous for Israel as &c. ",
+				"<cite ref=\"Tractate Soferim 1:8\">Ib. 8</cite> <he>שוב מעשה בת׳ וכ׳</he> another time it occurred that King P. assembled seventy-two elders &c.; <cite ref=\"Megillah 9a\">Meg. 9ᵃ</cite>. ",
+				"<cite ref=\"Megillah 9a\">Ib.</cite>; Y. ib. I, 71ᵈ bot. <he>שלשה … לת׳ המלך</he> thirteen passages the scholars changed (in their translation) for King P.; <cite ref=\"Bereishit Rabbah 38\">Gen. R. s. 38</cite> (ref. to <cite ref=\"Genesis 11:7\">Gen. XI, 7</cite>) <he>זה … לת׳ המלך</he> this is one of the texts they changed for King P.; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

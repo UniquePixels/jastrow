@@ -1,0 +1,30 @@
+{
+	"id": "J00315",
+	"slug": "יטור-2",
+	"headword": {
+		"text": "יְטוּר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "יְטוּרָא"
+		}
+	],
+	"page": {
+		"number": 576,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"I00215\"><he>טוּר</he> II</cite>; cmp. <cite ref=\"J00562\"><he>יְקוּם</he></cite>) <i>rising pillar</i> (of smoke). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 20:38\">Targ. Jud. XX, 38</cite>; <cite ref=\"Targum Jonathan on Judges 20:40\">40</cite> (ed. Lag. <cite ref=\"J00329\"><he>ייטור</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 8:11\">Targ. Ez. VIII, 11</cite>.—Pl. <he>יְטוּרִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Joel 3:3\">Targ. Joel III, 3</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "A02335",
+	"slug": "אסור-1",
+	"headword": {
+		"text": "אָסוּר"
+	},
+	"page": {
+		"number": 89,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h., part. pass. of <cite ref=\"A02550\"><he>אָסַר</he></cite>)<i>prisoner</i>. Pl. <cite ref=\"A02341\"><he>אֲסוּרִים</he></cite>, <cite ref=\"A02341\"><he>אֲסוּרִין</he></cite>.—<he>בית הא׳</he> (b. h.) <i>prison</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 91:6\">Gen. R. s. 91</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [Part. of <cite ref=\"A02550\"><he>אָסַר</he></cite>, q. v., <i>forbidden</i>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

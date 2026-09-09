@@ -1,0 +1,28 @@
+{
+	"id": "V00589",
+	"slug": "תלייה",
+	"headword": {
+		"text": "תְּלִיָּיה"
+	},
+	"page": {
+		"number": 1671,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00576\"><he>תָּלָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>suspension, hanging</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 46b:2\">Snh. 46ᵇ</cite> <he>אחד קושר … מצות ת׳</he> one ties (the body of the stoned culprit to the pole), and one unties, in order to comply formally with the command of hanging (<cite ref=\"Deuteronomy 21:22\">Deut. XXI, 22</cite>).—2) <i>suspense, doubt</i>. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 6:1:11\">Y. Yoma VI, 43ᶜ</cite> top <he>ועשהו חטאת קבעו בת׳ שלא יידחה</he> ‘and shall make it a sin-offering’ (<cite ref=\"Leviticus 16:9\">Lev. XVI, 9</cite>), the text declares it a sin-offering even during the suspense, so that it cannot be removed from its designation (by a subsequent event); <he>קבעו בת׳ שיזדווג וכ׳</he> the text puts it in suspense (makes its designation dependent on a condition), that it be matched with its fellow (and it loses its sacred character if the fellow goat is unavailable). Y. Ḥag. I, end, 76ᵈ <he>אם באת … לתלות ואם לשרוף … יותר מן הת׳</he> if a case (of T’rumah) comes before thee, and thou dost not know whether to declare it doubtful (<cite ref=\"V00578\"><he>תָּלוּי</he></cite>) or to condemn it to be burnt, be rather inclined to condemn than to declare doubtful; <cite ref=\"Jerusalem Talmud Sotah 8:2:2\">Y. Sot. VIII, beg. 22ᵇ</cite>"
+			],
+			"label": "1"
+		}
+	]
+}

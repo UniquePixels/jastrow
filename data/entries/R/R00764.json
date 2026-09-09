@@ -1,0 +1,28 @@
+{
+	"id": "R00764",
+	"slug": "צריד-1",
+	"headword": {
+		"text": "צָרִיד"
+	},
+	"altHeadwords": [
+		{
+			"text": "צָֽרִיר"
+		}
+	],
+	"page": {
+		"number": 1301,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00735\"><he>צָרַד</he></cite>) <i>hard and dry matter</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 36a:12\">Ḥull. 36ᵃ</cite>; <cite ref=\"Pesachim 20a:6\">Pes. 20ᵃ</cite>; <cite ref=\"Menachot 102b:8\">Men. 102ᵇ</cite> <he>צ׳ של מנחות</he> (Ms. M. every here <he>צריר</he>, v. Rabb. D. S. a. II. notes) the dry portion of meal offerings (not permeated with oil). ",
+				"<cite ref=\"Mishnah Eduyot 1:8\">Eduy. I, 8</cite> <he>יאכל צ׳</he> (early eds. <he>צריר</he>, v. Rabb. D. S. a. l. note 9) it must be eaten dry (coarsely pounded without being moistened); <cite ref=\"Mishnah Maaser Sheni 2:4\">Maas. Sh. II, 4</cite>."
+			]
+		}
+	]
+}

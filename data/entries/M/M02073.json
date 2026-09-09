@@ -1,0 +1,24 @@
+{
+	"id": "M02073",
+	"slug": "מעובה",
+	"headword": {
+		"text": "מְעוּבֶּה"
+	},
+	"page": {
+		"number": 813,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00007\"><he>עָבָה</he></cite>) <i>dense, large-sized</i>, opp. <cite ref=\"M01099\"><he>מידק</he></cite>, v. <cite ref=\"D01014\"><he>דָּקק</he></cite>. ",
+			"units": [
+				"<cite ref=\"Arakhin 25a:25\">Arakh. 25ᵃ</cite> <he>לא מְעֻבֶּה וכ׳</he> neither too densely, nor too sparsely sown. ",
+				"<cite ref=\"Mishnah Sukkah 4:9\">Succ. IV, 9</cite> (<cite ref=\"Sukkah 48b:1\">48ᵇ</cite>); a. e.—Pl. <he>מְעוּבִּין</he>. ",
+				"<cite ref=\"Pesachim 64b:8\">Pes. 64ᵇ</cite> <he>והיו קוראין אותו פסח מ׳</he> (not <he>אותן</he>, v. Rabb. D. S. a. l. note 9; Ms. M. <he>מְנוּיִן</he>, v. <cite ref=\"M01772\"><he>מָנָה</he></cite>) and they called it the Passover of the crowded, v. <cite ref=\"M02121\"><he>מָעַךְ</he></cite>."
+			]
+		}
+	]
+}

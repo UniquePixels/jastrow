@@ -1,0 +1,36 @@
+{
+	"id": "P00750",
+	"slug": "עכר-2",
+	"headword": {
+		"text": "עֲכַר"
+	},
+	"page": {
+		"number": 1079,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00749\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 34:30\">Targ. Gen. XXXIV, 30</cite>; a. fr.—",
+				"<cite ref=\"Niddah 20a:95\">Nidd. 20ᵃ</cite> <he>דלא לרמיה … ולִיעַכְרִינְהוּ אבל במנא כי ע׳ וכ׳</he> that he must not throw the earth in with his hands to make the water turbid, but when the earth is in the vessel, and he stirs with his hands, it is right. Y. ib. II, end, 50ᵇ <he>ר׳</he> … <he>ע׳</he> R. Ḥ. stirred the mixture up (in order to examine the color); a. e.—Part. pass. <he>עָכִיר</he>; f. <cite ref=\"P00734\"><he>עֲכִירָא</he></cite>; pl. <he>עֲכִירֵי</he>; <cite ref=\"P00735\"><he>עֲכִירָן</he></cite>. ",
+				"<cite ref=\"Chullin 55b:5\">Ḥull. 55ᵇ</cite>. ",
+				"<cite ref=\"Menachot 53a:15\">Men. 53ᵃ</cite> <he>דהוה ע׳ דעתיה</he> (Ms. M. <he>בדחא</he>) that his mind was troubled; <cite ref=\"Yalkut Shimoni on Torah 166\">Yalk. Ex. 166</cite>; <cite ref=\"Yalkut Shimoni on Nach 667\">Yalk. Ps. 667</cite> (not <cite ref=\"P00045\"><he>עבידא</he></cite>; v. Rabb. D. S. to Men. l. c. note 50)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתְעֲכַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be disturbed, spoiled</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 15:6\">Targ. Prov. XV, 6</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

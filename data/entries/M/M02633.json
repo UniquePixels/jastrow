@@ -1,0 +1,24 @@
+{
+	"id": "M02633",
+	"slug": "מרחמא",
+	"headword": {
+		"text": "מְרַחֲמָא"
+	},
+	"page": {
+		"number": 841,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00516\"><he>רְחַם</he></cite>) <i>friend</i>.—Pl. <he>מְרַחֲמִין</he>, <he>מְרַחֲמֵי</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 1:19\">Targ. Lam. I, 19</cite>. ",
+				"<cite ref=\"Onkelos Genesis 26:26\">Targ. O. Gen. XXVI, 26</cite> <cite ref=\"M02638\"><he>מֵרַ׳</he></cite> (ed. Berl. <he>רחמוהי</he>, v. Berl. Targ. O. II, p. 10); <cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite> <cite ref=\"M02638\"><he>מְרַ׳</he></cite>.—",
+				"<cite ref=\"Shabbat 32a:2\">Sabb. 32ᵃ</cite>, v. <cite ref=\"B00442\"><he>בִּזְיוּנָא</he> I</cite>."
+			]
+		}
+	]
+}

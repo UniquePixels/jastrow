@@ -1,0 +1,24 @@
+{
+	"id": "H00824",
+	"slug": "חינכי",
+	"headword": {
+		"text": "חִינְכֵי"
+	},
+	"page": {
+		"number": 458,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. ch. = h.<cite ref=\"H01289\"><he>חֲנִיכַיִים</he></cite> , <i>jaws</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69a:12\">Gitt. 69ᵃ</cite> <he>לח׳</he> for pains of the jaws. ",
+				"<cite ref=\"Bava Kamma 35a:5\">B. Kam. 35ᵃ</cite> <he>כייבין ליה חִינְכֵיה</he> Ms. H. (ed. <he>כיבין</he>) had pains in his jaws."
+			]
+		}
+	]
+}

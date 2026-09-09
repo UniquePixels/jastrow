@@ -1,0 +1,27 @@
+{
+	"id": "U01101",
+	"slug": "שית-2",
+	"headword": {
+		"text": "שִׁית",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1570,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שָׁתַת</he> II) <i>foundation</i>; (cmp. <cite ref=\"J00456\"><he>יְסוֹד</he></cite>) <i>bottom</i>, esp. <i>Shith, a pit by the side of the altar</i> into which the remainder of libations was poured. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 3:3\">Midd. III, 3</cite> <he>שבו יורדין לש׳ וכ׳</he> by which men went down the Sh. to cleanse it. ",
+				"<cite ref=\"Tosefta Sukkah 3:15\">Tosef. Succ. III, 15</cite> <he>יורדין לש׳ וכ׳</he> the wine goes down into the pit and is swallowed up there. ",
+				"<cite ref=\"Tosefta Sukkah 3:15\">Ib.</cite> (ref. to <he>וגם יקב</he>, <cite ref=\"Isaiah 5:2\">Is. V, 2</cite>) <he>זה הש׳</he> this refers to the Sh.; Y. ib. IV, 54ᵈ top; Bab. ib. 49ᵃ <he>השִׁיתִּין</he> (<i>pl.</i>).—<i>Pl.</i> <he>שִׁיתִּין</he>. Ib. <he>ש׳ מששת ימי וכ׳</he> the Shittin have existed from the six days of creation (are a natural cavity). Ib. 53ᵃ <he>בשעה שכרה דוד ש׳</he> when David began to dig the pits (for the Temple); <cite ref=\"Makkot 11a:18\">Macc. 11ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Nach 878:12\">Yalk. Ps. 878</cite> <he>שִׁתִּין</he>. ",
+				"<cite ref=\"Mishnah Meilah 3:3\">Meïl. III, 3</cite> (<cite ref=\"Meilah 11a\">11ᵃ</cite>) (<he>ירדו</he>) <he>יצאו לש׳ וכ׳</he> so soon as the wine is let down into the pits &c. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 653\">Yalk. Ps. 653</cite>, v. <cite ref=\"Q00090\"><he>פָּגַר</he></cite>."
+			]
+		}
+	]
+}

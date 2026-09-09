@@ -1,0 +1,23 @@
+{
+	"id": "P00651",
+	"slug": "עיק-2",
+	"headword": {
+		"text": "עיָק"
+	},
+	"page": {
+		"number": 1074,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00326\"><he>עוּק</he></cite>) <i>narrowness, anguish</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 6:9\">Targ. O. Ex. VI, 9</cite> <he>עֲיַק רוחא</he> (ed. Berl. <cite ref=\"P00650\"><he>עַיַק</he></cite>; ed. Vien. <he>מַעְיַק</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 31:10\">Targ. Ps. XXXI, 10</cite> (ed. Wil. <cite ref=\"P00555\"><he>עַיִק</he></cite>), v. <cite ref=\"P00326\"><he>עוּק</he></cite> ch."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "D01071",
+	"slug": "דרופתקי",
+	"headword": {
+		"text": "דָּרוּפִתְקֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 322,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. sing. a. pl. (a comp. of <cite ref=\"D01080\"><he>דרי</he></cite> <i>to carry</i>, a. pl. of <cite ref=\"Q02199\"><he>פִּתְקָא</he></cite>; cmp. <he>מקבלי פתקין</he> <cite ref=\"Mishnah Shabbat 10:4\">Sabb. X, 4</cite>) <i>bag for official documents, mail bag</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 99b:2\">Snh. 99ᵇ</cite> [read with Ms. M.] <he>כולהו גופי ד׳ נינהו טוביה לדזכי והוי ד׳ דאורייתא שנ׳ כי … בבטנך</he> (Ar. <cite ref=\"D01119\"><he>דרפתקי</he></cite>) all human bodies are mail bags (carrying the decrees of the Lord); happy they who are found worthy to be receptacles of the Law, as it says &c. (<cite ref=\"Proverbs 22:18\">Prov. XXII, 18</cite>)."
+			]
+		}
+	]
+}

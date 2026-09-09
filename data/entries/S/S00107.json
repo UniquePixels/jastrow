@@ -1,0 +1,25 @@
+{
+	"id": "S00107",
+	"slug": "קברניט-2",
+	"headword": {
+		"text": "קְבַרְנִיט",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1313,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κυβερνήτης) <i>steersman, pilot</i>. Tanḥ. Sh’laḥ. 15 <he>הושיט לו הק׳ וכ׳</he> the helmsman threw a rope to him, saying, hold to this rope &c.; <cite ref=\"Yalkut Shimoni on Torah 750:11\">Yalk. Num. 750</cite>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 91a\">B. Bath. 91ᵃ</cite> sq. (on Abraham’s death) [read:] <he>אוי לו … שאבד קְבַרְנִיטָהּ</he> woe to the world whose leader is gone, woe to the ship whose helmsman is gone; a. e.—Trnsf. (cmp. <he>רב החבל</he>, <cite ref=\"Jonah 1:6\">Jon. I, 6</cite>, a. <cite ref=\"V00349\"><he>תּחְבּוּלָה</he></cite>) <i>prudent manager</i>. Pesik. Aḥăré, p. 176ᵃ (ref. to <he>תחבלות</he>, <cite ref=\"Proverbs 24:6\">Prov. XXIV, 6</cite>) <he>לעולם יעשה אדם עצמו ק׳ וכ׳</he> man should always be at the helm (to look out,) how to do good; <cite ref=\"Vayikra Rabbah 21:5\">Lev. R. s. 21</cite>; a. e.—Pl. <he>קְבַרְנִיטִין</he>. ",
+				"<cite ref=\"Vayikra Rabbah 21:5\">Ib.</cite> <he>פתר קריא בק׳</he> interpreted the verse (Prov. l. c.) as referring to the art of the helmsmen. ",
+				"<cite ref=\"Pesikta Rabbati 47:1\">Pesik. R. s. 47</cite> (ref. to Prov. l. c.) <he>מה הספינה … אם אין לה ק׳ וכ׳</he> as the ship without a helmsman is bound to go down, so is Israel without leaders &c."
+			]
+		}
+	]
+}

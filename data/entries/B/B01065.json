@@ -1,0 +1,23 @@
+{
+	"id": "B01065",
+	"slug": "בערה",
+	"headword": {
+		"text": "בְּעֵרָה"
+	},
+	"page": {
+		"number": 183,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"B01062\"><he>בָּעַר</he></cite>)<i>fire, conflagration</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 6:4\">B. Kam. VI, 4</cite> <he>השולח את הב׳ ביד וכ׳</he> he who sends out a deaf and dumb, an idiot or a minor with burning materials (live coal &c.) thus causing or ordering a conflagration. ",
+				"<cite ref=\"Mishnah Bava Kamma 6:4\">Ib.</cite> <he>השולח את הב׳</he> he who starts a fire (himself). Ib. 60ᵇ, v. <cite ref=\"B01062\"><he>בָּעַר</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "A01605",
+	"slug": "אירוס-2",
+	"headword": {
+		"text": "אֵירוּס",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵרוּס"
+		}
+	],
+	"page": {
+		"number": 60,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (prob. from its use, v. <he>ארס</he> a. deriv.) <i>erus</i>, a musical instrument used at weddings and funerals, <i>drum, taboret</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 9:14\">Sot. IX, 14</cite> <he>על האי׳</he>—<he>גזרו</he> the use of the <i>erus</i> at weddings was interdicted; v. expl. Bab. ",
+				"<cite ref=\"Sotah 49b:5\">ib. 49ᵇ</cite>; Y. ib. 24ᶜ top. ",
+				"<cite ref=\"Mishnah Kelim 15:6\">Kel. XV, 6</cite> <he>הא׳</he> (used at funerals)."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "M01177",
+	"slug": "מילותא",
+	"headword": {
+		"text": "מִילְוָתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 774,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"M01543\"><he>מְלֵי</he></cite>; cmp. Syr. <he>מלותא</he> P. Sm. 2127) [<i>pitchers</i>,] name of <i>an aquatic plant bearing beans</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 1:1:7\">Y. Kil. I, 27ᵃ</cite> top (expl. <cite ref=\"I00200\"><he>טוֹפַח</he></cite>, q. v.)."
+			]
+		}
+	]
+}

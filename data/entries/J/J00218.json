@@ -1,0 +1,28 @@
+{
+	"id": "J00218",
+	"slug": "יוסינא",
+	"headword": {
+		"text": "יוֹסִינָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יוֹסִינָה"
+		}
+	],
+	"page": {
+		"number": 570,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Josina</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 4:5:3\">Y. Meg. IV, 75ᵇ</cite> bot.; <cite ref=\"Jerusalem Talmud Yevamot 13:1:11\">Y. Yeb. XIII, 13ᶜ</cite> top; ib. X, 10ᵈ top. ",
+				"<cite ref=\"Shir HaShirim Rabbah 5:1:1\">Cant. R. to V, 1</cite> <he>יוֹסָנָה</he>; <cite ref=\"Pesikta Rabbati 5:1\">Pesik. R. s. 5</cite> <he>יוֹסנִי</he>; <cite ref=\"Bamidbar Rabbah 13:2\">Num. R. s. 13</cite> <he>יוֹסַנְיָה</he>."
+			]
+		}
+	]
+}

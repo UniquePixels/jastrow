@@ -1,0 +1,33 @@
+{
+	"id": "B00559",
+	"slug": "ביונא",
+	"headword": {
+		"text": "בִּיּוּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּיּוּנָנוּתָא"
+		},
+		{
+			"text": "בִּיּוּנְתָּא"
+		},
+		{
+			"text": "בְּיוּ׳"
+		}
+	],
+	"page": {
+		"number": 159,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בין</he>) = <cite ref=\"B00639\"><he>בֹּינָא</he></cite> <i>understanding</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 2:3\">Targ. Prov. II, 3</cite>; a. fr."
+			]
+		}
+	]
+}

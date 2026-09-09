@@ -1,0 +1,46 @@
+{
+	"id": "K00725",
+	"slug": "כליה-1",
+	"headword": {
+		"text": "כִּלְיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוּלְיָה"
+		},
+		{
+			"text": "יָא"
+		}
+	],
+	"page": {
+		"number": 642,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"K00725\"><he>כִּלְיָה</he></cite>; <cite ref=\"K00715\"><he>כלי</he></cite> , v. <cite ref=\"K00270\"><he>כּוֹלְיָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>kidney</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:1:4\">Y. B. Mets. II, beg. 8ᵇ</cite>. ",
+				"<cite ref=\"Chullin 55a\">Ḥull. 55ᵃ</cite> <cite ref=\"K00270\"><he>כוליא</he></cite>; a. fr.—Pl. <he>כְּלָיוֹת</he>, constr. <he>כִּלְיוֹת</he>. ",
+				"<cite ref=\"Mishnah Chullin 3:2\">Ib. III, 2</cite>. ",
+				"<cite ref=\"Berakhot 61a:3\">Ber. 61ᵃ</cite>, a. e., v. <cite ref=\"J00493\"><he>יָעַץ</he></cite>. Tanḥ. Vayigg. 11, a. e. <he>כִּלְיוֹתָיו</he>, v. <cite ref=\"K00099\"><he>כַּד</he> II</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the belly</i> of a stove. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 2:11\">B. Bath. II, 11</cite> <he>כליא</he> (Ms. F. a. H. <cite ref=\"K00546\"><he>כיליא</he></cite>). ",
+				"<cite ref=\"Bava Batra 20b:7\">Ib. 20ᵇ</cite> <he>כ׳ דתנור טפח</he> the protuberance of the belly of the stove is one hand-breadth beyond the rim; <cite ref=\"Tosefta Bava Batra 1:3\">Tosef. ib. I, 3</cite> <cite ref=\"K00546\"><he>כיליא</he></cite> ed. Zuck. (Var. <cite ref=\"K00730\"><he>כִּלְיָיה</he></cite>, <cite ref=\"K00272\"><he>כּוּלְיָיה</he></cite>). [R. Ḥănanel: <cite ref=\"K00546\"><he>כיליא</he></cite> = κοιλία.]"
+			],
+			"label": "2"
+		}
+	]
+}

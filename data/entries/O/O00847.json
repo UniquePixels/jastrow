@@ -1,0 +1,22 @@
+{
+	"id": "O00847",
+	"slug": "סירטוט",
+	"headword": {
+		"text": "סִירְטוּט"
+	},
+	"page": {
+		"number": 988,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סרטט</he>, v. <cite ref=\"O01581\"><he>סָרַט</he></cite>) <i>ruling</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 1:1:3\">Y. Meg. I, 70ᵃ</cite> top; cmp. <cite ref=\"O01531\"><he>סִרְגֵּל</he></cite>.—Mostly <cite ref=\"U01072\"><he>שִׁירְטוּט</he></cite>."
+			]
+		}
+	]
+}

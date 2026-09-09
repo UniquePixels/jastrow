@@ -1,0 +1,93 @@
+{
+	"id": "V00905",
+	"slug": "תקע-1",
+	"headword": {
+		"text": "תָּקַע"
+	},
+	"page": {
+		"number": 1693,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"V00891\"><he>תָּקַל</he></cite>) [<i>to bring into contact, knock, insert</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to drive a peg in, put up a tent; to fasten</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 981:1\">Yalk. Cant. 981</cite> <he>הלואי יִתְקַע תורתי בלבנו וכ׳</he> Oh that he would drive his law into our heart as in former days. ",
+				"<cite ref=\"Shemot Rabbah 1\">Ex. R. s. 1<sup>17</sup></cite> Caleb is named Tekoa (<cite ref=\"I Chronicles 2:24\">I Chr. II, 24</cite>), <he>שת׳ לבו לאביו וכ׳</he> because he fastened his heart on his father in heaven. ",
+				"<cite ref=\"Yevamot 109b:4\">Yeb. 109ᵇ</cite> <he>תּוֹקֵעַ עצמו לדבר הלכה</he> he who nails himself to the matter of the law, i.e. confines himself to study, and is remiss in practical conduct; <he>ואיבעית אימא תוקע … בדיינא וכ׳</he> or I may explain, ‘he who nails himself to the matter of the law’ refers to a judge before whom a case comes, and he having learned a certain <i>hălakhah</i> decides by analogy, while there is a greater scholar than he whom he fails to consult; a. e.—<i>Part. pass.</i> <he>תָּקוּעַ</he> <i>lodged, placed</i>. ",
+				"<cite ref=\"Bava Metzia 85b:8\">B. Mets. 85ᵇ</cite> <he>אצל מי אתה ת׳</he> next to whom art thou placed (in heaven)? <cite ref=\"Jerusalem Talmud Sotah 9:2:3\">Y. Sot. IX, 23ᶜ</cite> <he>והסכין ת׳ בלבו</he> with the knife sticking in his heart; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"T00914\"><he>רָעַע</he></cite>) <i>to shout</i>, esp. <i>to blow</i> (<i>a horn</i>). ",
+			"units": [
+				"<cite ref=\"Bava Kamma 18b:17\">B. Kam. 18ᵇ</cite> <he>תרנגול … ות׳ בו ושברו</he> if a cock put his head into a glass vessel and crowed into it, and broke it; <cite ref=\"Kiddushin 24b:11\">Kidd. 24ᵇ</cite>. ",
+				"<cite ref=\"Kiddushin 24b:11\">Ib.</cite> <he>ת׳ באזנו וכ׳</he> if one blew on a horn into a person’s ear, and made him deaf; a. e.—Esp. "
+			],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " <i>to blow the Shofar at services; </i>",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>to sound the plain note</i> (<cite ref=\"V00884\"><he>תְּקִיעָה</he></cite>). ",
+					"units": [
+						"<cite ref=\"Mishnah Rosh Hashanah 3:5\">R. Hash. III, 5</cite> <he>בר״ה תּוֹקְעִין בשל זכרים</he> on New Year’s day they blow on a ram’s horn. ",
+						"<cite ref=\"Mishnah Rosh Hashanah 3:7\">Ib. 7</cite> <he>התוקע לתוך הבור וכ׳</he> if one blows (the Shofar) into a pit &c. ",
+						"<cite ref=\"Mishnah Rosh Hashanah 4:1\">Ib. IV, 1</cite> <he>יום טוב … תוקעים וכ׳</he> when New Year fell on a Sabbath, they blew in the Temple, but not in the country. Ib. 8 <he>אין מעכבין … מלִתְקוֹעַ</he> we do not prevent children from blowing the Shofar (on the Sabbath). Ib. 9 <he>תוקע ומריע ותוקע</he>, v. <cite ref=\"T00415\"><he>רוּעַ</he> I</cite>. ",
+						"<cite ref=\"Mishnah Taanit 2:5\">Taan. II, 5</cite> <he>תִּקְעיּ הכהנים תָּקְעוּ וכ׳</he> (the reader said,) sound the T’ḳiʿah, you priests, and they did so, (upon which he said,) He who has answered &c.; a. v. fr.—["
+					],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": "<i>to slap with the back of the hand</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 8:6\">B. Kam. VIII, 6</cite> (<cite ref=\"Bava Kamma 90a:13\">90ᵃ</cite>) <he>התוקע לחבירו</he> he who slaps his neighbor on the ear; oth. opin. who shouts into his neighbor’s ear.]"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְקִיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to blow</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Rosh Hashanah 4:7\">R. Hash. IV, 7</cite> <he>השני מַתְקִיעַ</he> the second reader orders the blowing of the Shofar."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִתְקַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be driven in, be inserted</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 54a\">Yeb. 54ᵃ</cite> <he>ונ׳</he> and his membrum was inserted."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be lodged</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 24a:10\">Taan. 24ᵃ</cite> <he>אוי לו לדור שנ׳ בכך</he> Ms. M. (ed. <he>שכן נ׳</he>) woe to the generation that is placed in such a (bad) position."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

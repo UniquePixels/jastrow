@@ -1,0 +1,54 @@
+{
+	"id": "I00561",
+	"slug": "טמר",
+	"headword": {
+		"text": "טְמַר"
+	},
+	"page": {
+		"number": 540,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"I00560\">preced.</cite>) <i>to hide, preserve, guard</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 35:4\">Targ. Gen. XXXV, 4</cite> (h. text <cite ref=\"I00558\"><he>טמן</he></cite>); a. fr.—Part. pass. <cite ref=\"I00553\"><he>טָמִיר</he></cite> q. v."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טַמַּר"],
+			"senses": [
+				{
+					"gloss": ", <i>Af.</i> <cite ref=\"I00214\"><he>אַטְמַר</he></cite> <i>to hide, withhold, keep removed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 29:10\">Targ. Is. XXIX, 10</cite>. ",
+						"<cite ref=\"Onkelos Exodus 2:2\">Targ. Ex. II, 2</cite>; a. e.—Part. pass. <he>מְטַמַּר</he>, v. infra."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיטַּמַּר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיטְּמַר", "אִיטְּמִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to be hidden, hide one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 3:8\">Targ. Gen. III, 8</cite>; a. fr.—",
+						"<cite ref=\"Bava Kamma 57a:16\">B. Kam. 57ᵃ</cite> <he>כיון דמִיטְּמַר וכ׳</he> when he hides himself from people; <cite ref=\"Bava Kamma 79b:3\">ib. 79ᵇ</cite> <he>דקא מִטַּמַּר מינייהו</he> Ms. M. (ed. <he>מטמרי</he>, incorr.; Ms. H. <he>מיטמר</he>). ",
+						"<cite ref=\"Bava Kamma 79b\">Ib.</cite> <he>מִטַּמְּרֵי אִיטַּמּוּרֵי</he>; a. e.—",
+						"<cite ref=\"Gittin 56b:12\">Gitt. 56ᵇ</cite> <he>מילי דמִטַּמְּרָן</he> (or <he>דמְטַמְּרָן</he>, v. supra) hidden treasures.—[<cite ref=\"Tosefta Shabbat 17:19\">Tosef. Sabb. XVII</cite> (<cite ref=\"Tosefta Shabbat 18:19\">XVIII</cite>), 19 <he>ואין מטמרין אותו</he>, ed. Zuck., a corrupt tautography of <he>אין משמרין אותו</he>.]"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

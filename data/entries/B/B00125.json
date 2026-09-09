@@ -1,0 +1,42 @@
+{
+	"id": "B00125",
+	"slug": "בדור",
+	"headword": {
+		"text": "בִּדּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּדּוּרָא"
+		},
+		{
+			"text": "בִּי׳"
+		}
+	],
+	"page": {
+		"number": 139,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בדר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>dispersion, scattering</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 8:22\">Targ. Is. VIII, 22</cite> (ed. Vien. <cite ref=\"B00125\"><he>בַּדּוּר</he></cite>), a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>one exiled</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 14:13\">Targ. II Sam. XIV, 13</cite> sq."
+			],
+			"label": "2"
+		}
+	]
+}

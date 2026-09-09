@@ -1,0 +1,32 @@
+{
+	"id": "L00596",
+	"slug": "לעג-2",
+	"headword": {
+		"text": "לְעַג"
+	},
+	"page": {
+		"number": 713,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַלְעֵיג</he>, <i>Pa.</i> <cite ref=\"L00610\"><he>לַעֵיג</he></cite> ch. same. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 8:18\">Targ. Jer. VIII, 18</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 28:11\">Targ. Is. XXVIII, 11</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

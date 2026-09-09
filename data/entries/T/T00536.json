@@ -1,0 +1,65 @@
+{
+	"id": "T00536",
+	"slug": "רחץ-2",
+	"headword": {
+		"text": "רְחֵץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְחֵיץ"
+		}
+	],
+	"page": {
+		"number": 1469,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (with <he>על</he>, or <cite ref=\"B00000\"><he>ב־</he></cite>) <i>to lean on; to trust; to be safe</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 118:8\">Targ. Ps. CXVIII, 8</cite>, sq. ",
+				"<cite ref=\"Aramaic Targum to Psalms 118:10\">Ib. 10</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on Genesis 27:40\">Targ. Y. I Gen. XXVII, 40</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 12:6\">Targ. Job XII, 6</cite>; a. fr.—Y. Ber. II, 5ᵃ <he>רְחִיצַיָּא אנן</he> we are sure (cmp. <he>מובטח</he>, v. <cite ref=\"B00498\"><he>בָּטַח</he></cite>). ",
+				"<cite ref=\"Sanhedrin 7a:13\">Snh. 7ᵃ</cite> <he>גברא דרחיצנא עליה וכ׳</he> the man in whom I trusted lifted up his club &c.; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְרַחֵיץ"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְרְחִיץ", "אִתְרְחֵץ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00535\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 18:19\">Targ. II Kings XVIII, 19</cite>, sq. ",
+						"<cite ref=\"Aramaic Targum to Psalms 25:2\">Targ. Ps. XXV, 2</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 36:8\">Ib. XXXVI, 8</cite> Ms. (v. <cite ref=\"T00349\"><he>רוּחְצָן</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 49:4\">Targ. Jer. XLIX, 4</cite>; a. fr.—",
+						"<cite ref=\"Bava Batra 91b:6\">B. Bath. 91ᵇ</cite> <he>דמודי … דמִתְרְחִיץ עליהון וכ׳</he> he who assents to them (pretends to share their errors) falls into their hand; he who confides in them,—what is his is theirs. Y. Sabb. II, 5ᵇ <he>לא תִתְרְחֵץ על צלותי</he> rely not on my prayer. ",
+						"<cite ref=\"Shir HaShirim Rabbah 7:2\">Cant. R. to VII, 2</cite> <he>בגין דאִיתְרְחִיצוּ ביה</he> because they trusted in him; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אַרְחֵיץ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to trust</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 36:15\">Targ. Is. XXXVI, 15</cite>; <cite ref=\"Targum Jonathan on II Kings 18:30\">Targ. II Kings XVIII, 30</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 29:31\">Targ. Jer. XXIX, 31</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

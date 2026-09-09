@@ -1,0 +1,24 @@
+{
+	"id": "P00527",
+	"slug": "עיט-2",
+	"headword": {
+		"text": "עַיִט",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1068,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; עוּט <i>to swing</i>) <i>bird of prey</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei DeRabbi Eliezer 28:6\">Pirké d’R. El. ch. XXVIII</cite>. <he>ואין הע׳ אלא בן דוד שנמשל לע׳</he> the <i>ʿayiṭ</i> (<cite ref=\"Genesis 15:11\">Gen. XV, 11</cite>) is typical of the son of David who is compared to a bird of prey. ",
+				"<cite ref=\"Genesis 15:11\">Ib.</cite> <he>כדי שלא ימשול בהם הע׳ וכ׳</he> that the bird of prey might not have control of them until evening; <cite ref=\"Yalkut Shimoni on Torah 76\">Yalk. Gen. 76</cite>; a. e."
+			]
+		}
+	]
+}

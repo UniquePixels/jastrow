@@ -1,0 +1,57 @@
+{
+	"id": "T00203",
+	"slug": "רגל-2",
+	"headword": {
+		"text": "רְגַל"
+	},
+	"page": {
+		"number": 1448,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00202\">same</cite>, <i>to move, run</i>. Part. <cite ref=\"T00191\"><he>רָגֵיל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 11a:5\">Bekh. 11ᵃ</cite>, v. <cite ref=\"T00185\"><he>רִגְיָא</he></cite>.—Part. pass. <cite ref=\"T00191\"><he>רָגִיל</he></cite> <i>used</i>, q. v.—",
+				"<cite ref=\"Shabbat 119a:5\">Sabb. 119ᵃ</cite> <he>דר׳ דזבן</he> who is wont to buy (fish for the Sabbath). ",
+				"<cite ref=\"Shabbat 119a:5\">Ib.</cite> bot. <he>אי רְגִילִיתוּ וכ׳</he> if you are accustomed to &c., v. <cite ref=\"S02088\"><he>קְרַם</he></cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַגֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to run</i>. Y. Ab. Zar. V, 45ᵃ <he>אהו דמְרַגֵּל זיקא וכ׳</he> he that makes the jet of wine run from above downward.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַרְגֵּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to lead; to accustom</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 85b:10\">Yeb. 85ᵇ</cite> <he>היא מַרְגְּלָא ליה</he> she leads (persuades) him, v. preced.—Part. pass. <he>מַרְגַּל</he>; f. <cite ref=\"M02517\"><he>מַרְגְּלָא</he></cite>, v. <cite ref=\"M02517\"><he>מַרְגְּלָא</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְרַגֵּל", "אִירַגֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to accustome one’s self, make it a habit</i>. ",
+					"units": [
+						"<cite ref=\"Nedarim 66b:3\">Ned. 66ᵇ</cite> <he>כי היכי דלא לִתְרַגְּלֵי למנדר</he> (Rashi <he>לִירַגְּלֵי</he>) that they may not make it a habit to vow."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

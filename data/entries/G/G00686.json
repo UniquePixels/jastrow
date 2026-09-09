@@ -1,0 +1,84 @@
+{
+	"id": "G00686",
+	"slug": "זרז-2",
+	"headword": {
+		"text": "זְרַז",
+		"homograph": 1
+	},
+	"page": {
+		"number": 412,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be quick, to hurry</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 24:20\">Targ. Y. II, Gen. XXIV, 20</cite> (h. text <he>מהר</he>).—",
+				"<cite ref=\"Aramaic Targum to Psalms 70:2\">Targ. Ps. LXX, 2</cite> <cite ref=\"G00704\"><he>זְרֵיז</he></cite> ed. (Ms. <he>זָ׳</he>; h. text <cite ref=\"H00488\"><he>חוש</he></cite>); a. e.—<i>Part. Pe</i>. <cite ref=\"G00703\"><he>זָרִיז</he></cite>, <i>Pa.</i> <he>מְזָרֵז</he>; pl. <he>זְרִיזִין</he>, <he>זַרְזִין</he>, <he>מְזָרְזִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 9:8\">Targ. Y. I Num. IX, 8</cite>, <cite ref=\"Targum Jerusalem, Numbers 9:8\">Targ. Y. II, Num. IX, 8</cite>, opp. <cite ref=\"M03027\"><he>מתון</he></cite>; v. also <cite ref=\"G00703\"><he>זָרִיז</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to quicken, strengthen</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 102b:12\">Yeb. 102ᵇ</cite> (expl. <he>יחליץ</he>, <cite ref=\"Isaiah 58:11\">Is. LVIII, 11</cite>) <he>זָרוּזֵי גרמי</he> it means quickening the bones. Cant. R. to II, 10 <he>זָרוֹזִי גרמיך</he> (not <cite ref=\"G00683\"><he>זרורזי</he></cite>) make thyself ready; <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>זָרְזִי</he>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"G00416\"><he>זֵיר</he></cite>, <cite ref=\"A00984\"><he>אָזַר</he></cite>) <i>to tie around, gird, arm; to harness, saddle</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 14:14\">Targ. O. Gen. XIV, 14</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 38:3\">Targ. Job XXXVIII, 3</cite> <he>זָרֵיז</he> Ms. (ed. <cite ref=\"G00704\"><he>זְרֵיז</he></cite>, <cite ref=\"G00686\"><he>זְרַז</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 29:9\">Targ. O. Ex. XXIX, 9</cite>; a. fr.—<i>Part. pass.</i> <he>מְזָרַז</he>, pl. <he>מְזַרְזִין</he>, <he>מְזַרְזַיָּא</he> <i>armed</i>. ",
+				"<cite ref=\"Onkelos Exodus 13:18\">Ib. XIII, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 15:4\">Targ. Is. XV, 4</cite>; a. fr.—Yeb. l. c. (ref. to <he>וחלצה</he>, <cite ref=\"Deuteronomy 25:9\">Deut. XXV, 9</cite>) <he>ואימא זָרוּזֵי הוא</he> may I not say, it means <i>tying on?</i>"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"G00704\"><he>זָרֵיז</he></cite> same; ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִזְדָּרֵז"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִזְדְּרִיז"],
+			"senses": [
+				{
+					"gloss": "<i>to strengthen one’s self</i> (so as not to give way to emotion). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 43:31\">Targ. Y. Gen. XLIII, 31</cite>. ",
+						"<cite ref=\"Aramaic Targum to Esther 5:10\">Targ. Esth. V, 10</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to gird one’s self, be armed</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 32:17\">Targ. Num. XXXII, 17</cite>; <cite ref=\"Onkelos Numbers 32:20\">20</cite>; a. e.—",
+						"<cite ref=\"Aramaic Targum to Proverbs 30:31\">Targ. Prov. XXX, 31</cite>, v. <cite ref=\"G00717\"><he>זַרְכֵּל</he></cite>.—Sifré Num. s. 157 <he>אין החלצו אלא אִיזְדָּרְזוּ</he> <i>heḥal’tsu</i> (<cite ref=\"Numbers 31:3\">Num. XXXI, 3</cite>) means, be armed; Yalk. ib. 785 <he>הִזְדָּרְזוּ</he> (Hebr.)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

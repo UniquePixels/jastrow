@@ -1,0 +1,32 @@
+{
+	"id": "A02991",
+	"slug": "ארגליא",
+	"headword": {
+		"text": "אֶרְגַּלְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶרְגַּלְיָיא"
+		},
+		{
+			"text": "אֶרְגַּלְיָיה"
+		}
+	],
+	"page": {
+		"number": 115,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (ἐργαλεῖα, τὰ) <i>tools, implements</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 40:1\">Ex. R. s. 40</cite>, beg. ",
+				"<cite ref=\"Vayikra Rabbah 23:8\">Lev. R. s. 23</cite>; <cite ref=\"Jerusalem Talmud Sukkah 4:3:7\">Y. Succ. IV, 54ᶜ</cite> top; <cite ref=\"Shir HaShirim Rabbah 4:8\">Cant. R. to IV, 8</cite> <he>היא וכל א׳ וכ׳</he> itself (the brick) and all the implements for making it. [Y’lamd. B’haaloth., quot. in Ar. <he>כלי א׳</he> implements of a ship.]"
+			]
+		}
+	]
+}

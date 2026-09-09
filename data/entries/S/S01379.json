@@ -1,0 +1,35 @@
+{
+	"id": "S01379",
+	"slug": "קלס-3",
+	"headword": {
+		"text": "קְלַס"
+	},
+	"page": {
+		"number": 1379,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"S01377\"><he>קַלֵּס</he></cite> ch. same, <i>to call out; to praise; to tramp</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 6:9\">Targ. Esth. VI, 9</cite>; <cite ref=\"Aramaic Targum to Esther 6:11\">11</cite> (h. text <he>קרא</he>). ",
+						"<cite ref=\"Targum Jerusalem, Deuteronomy 32:43\">Targ. Y. II, Deut. XXXII, 43</cite>. ",
+						"<cite ref=\"Targum Jerusalem, Exodus 32:18\">Targ. Y. II, Ex. XXXII, 18</cite>; a. fr.—",
+						"<cite ref=\"Ketubot 21b:1\">Keth. 21ᵇ</cite> <he>משום דקַלְּסָהּ … את נמי מְקַלְּסַת לה</he> because thy mother’s father commended it, thou commendest it likewise. ",
+						"<cite ref=\"Jerusalem Talmud Kilayim 8:1:6\">Y. Kil. VIII, 31ᵇ</cite>, a. e. <he>והוה … מְקַלֵּס ליה הזלים וכ׳</he> R. J. praised him by applying the verse (<cite ref=\"Isaiah 46:6\">Is. XLVI, 6</cite>) &c. Y. Maas. Sh. I, end, 53ᵃ <he>אמרה … וקַלְּסֵיה</he> he said it before R. Abina, and he applauded him, opp. <he>קנתריה</he>; a. e.—Y. Peah I, 15d; Y. Ab. Zar. I, 42ᶜ top <he>מקלס קומי וכ׳</he> did honor to bridal couples (singing, dancing &c.); (<cite ref=\"Ketubot 17a:5\">Keth. 17ᵃ</cite> <he>מרקד</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

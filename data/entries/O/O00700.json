@@ -1,0 +1,27 @@
+{
+	"id": "O00700",
+	"slug": "סימטא-2",
+	"headword": {
+		"text": "סִימְטָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סִמְ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 981,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"O00699\">preced.</cite>; cmp. Lat. abscessus) <i>abscess, carbuncle</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 28a:11\">Ab. Zar. 28ᵃ</cite> bot. ",
+				"<cite ref=\"Shabbat 67a\">Sabb. 67ᵃ</cite>"
+			]
+		}
+	]
+}

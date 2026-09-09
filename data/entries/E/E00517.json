@@ -1,0 +1,33 @@
+{
+	"id": "E00517",
+	"slug": "הכנה",
+	"headword": {
+		"text": "הֲכָנָה"
+	},
+	"page": {
+		"number": 350,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"E00516\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"E00516\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Beitzah 2b:12\">Bets. 2ᵇ</cite> <he>משום ה׳</he> on account of the law requiring readiness for use on the preceding day. ",
+				"<cite ref=\"Beitzah 4a:14\">Ib. 4ᵃ</cite> <he>ה׳ דרבה</he> the law about readiness as interpreted by Rabbah (<cite ref=\"Beitzah 2b:8\">ib. 2ᵇ</cite>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (ref. to <he>תכין</he> <cite ref=\"Deuteronomy 19:3\">Deut. XIX, 3</cite>) <i>marking out the road</i> to the city of refuge for the involuntary manslayer. ",
+			"units": ["<cite ref=\"Makkot 10b:1\">Macc. 10ᵇ</cite>"],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "U01842",
+	"slug": "שקותא",
+	"headword": {
+		"text": "שָׁקוּתָא"
+	},
+	"page": {
+		"number": 1621,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01851\"><he>שְׁקֵי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>drinking</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 1:8\">Targ. Esth. I, 8</cite>.—Pl. <cite ref=\"U01940\"><he>שַׁקְוָותָא</he></cite> (sub. <cite ref=\"B00942\"><he>בני</he></cite>) <i>cup-bearers, butlers</i>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 10:5\">Targ. I Kings X, 5</cite> ed. Lag. (ed. Wil. <he>שַׁקָיוּ׳</he>; oth. ed. <cite ref=\"O01481\"><he>שָׁקיּ׳</he></cite>); <cite ref=\"Targum of II Chronicles 9:4\">Targ. II Chr. IX, 4</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>watering</i>; (sub. <he>בית</he>) <i>trough</i> (v. <cite ref=\"U01853\"><he>שַׁקְיָא</he></cite>).—Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 29:22\">Targ. Y. II, Gen. XXIX, 22</cite> <he>שַׁקְוָותָן</he>; Y. I <he>בית שַׁקְיוּתָן</he> (read: <he>בתי</he>) our troughs."
+			],
+			"label": "2"
+		}
+	]
+}

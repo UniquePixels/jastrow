@@ -1,0 +1,32 @@
+{
+	"id": "I00721",
+	"slug": "טרודא",
+	"headword": {
+		"text": "טָרוֹדָא"
+	},
+	"page": {
+		"number": 550,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טְרַד</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a troublesome person, bore</i>. ",
+			"units": ["<cite ref=\"Sanhedrin 26a:16\">Snh. 26ᵃ</cite>. ["],
+			"label": "1"
+		},
+		{
+			"gloss": " = h. <cite ref=\"I00720\"><he>טָרוּד</he></cite> <i>busy, restless</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 36:30\">Targ. Y. Gen. XXXVI, 30</cite> quoted in ‘Rashi’ to <cite ref=\"Bereishit Rabbah 83\">Gen. R. s. 83</cite>, end, v. <cite ref=\"M01054\"><he>מִטְרְדָה</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

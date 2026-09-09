@@ -1,0 +1,31 @@
+{
+	"id": "H00299",
+	"slug": "חוטא",
+	"headword": {
+		"text": "חוּטָא"
+	},
+	"page": {
+		"number": 431,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00298\">same</cite><i>thread</i> &c. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 14:23\">Targ. Gen. XIV, 23</cite> (cmp. <cite ref=\"H00297\"><he>חֲוַט</he></cite>); a. fr.—",
+				"<cite ref=\"Bava Batra 91b:6\">B. Bath. 91ᵇ</cite> <he>ח׳ דדובשא</he> a continuous flow of honey; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>border-line</i> (v. <cite ref=\"H00298\">preced.</cite> 2). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 6:1:15\">Y. Shebi. VI, 36ᶜ</cite> bot. <he>ח׳ דנוה</he> the border-line of Naveh (separating the territory occupied by Jews from the neighboring heathen colony for levitical purposes).—Pl. <cite ref=\"H00293\"><he>חוּטִין</he></cite>, <he>חוּטַיָּא</he>, <he>חוּטֵי</he>. ",
+				"<cite ref=\"Onkelos Exodus 39:3\">Targ. O. Ex. XXXIX, 3</cite>; a. fr.—",
+				"<cite ref=\"Chullin 93a:8\">Ḥull. 93ᵃ</cite> <he>חמשא ח׳ הוו</he> there are five veins or sinews which must be removed; a. fr.—Esp. <i>the show-fringes</i> (<cite ref=\"R00440\"><he>צִיצִית</he></cite>). ",
+				"<cite ref=\"Chullin 110a:11\">Ib. 110ᵃ</cite> <he>לא רמי ח׳</he> had no show-fringes put on his garment; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

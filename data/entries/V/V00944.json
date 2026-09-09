@@ -1,0 +1,32 @@
+{
+	"id": "V00944",
+	"slug": "תרגם-2",
+	"headword": {
+		"text": "תַּרְגֵּם"
+	},
+	"page": {
+		"number": 1695,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00943\">same</cite><i>to read</i> (after reciting from the Pentateuch). Targ. II Esth. III, 8 <he>קרין בספריהון ומְתַרְגְּמִין בנביאיהון</he> they read from their books (the Pentateuch) and recite (as Haftarah, v. <cite ref=\"Q00547\"><he>פָּטַר</he></cite>) from their prophets.— ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to interpret, translate, explain</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 111b\">Sabb. 111ᵇ</cite>; <cite ref=\"Sanhedrin 8b\">Snh. 8ᵇ</cite>, v. <cite ref=\"V00943\">preced.</cite> ",
+				"<cite ref=\"Shabbat 10b:3\">Sabb. 10ᵇ</cite> <he>דמְתַרְגְּמִינָן וכ׳</he>, v. <cite ref=\"E00428\"><he>הֵימַן</he></cite>. ",
+				"<cite ref=\"Shabbat 28a\">Ib. 28ᵃ</cite>, v. <cite ref=\"O01272\"><he>סַסְגּוֹנָא</he></cite>. ",
+				"<cite ref=\"Shabbat 64a\">Ib. 64ᵃ</cite>. ",
+				"<cite ref=\"Rosh Hashanah 33b\">R. Hash. 33ᵇ</cite>. ",
+				"<cite ref=\"Gittin 68a:5\">Gitt. 68ᵃ</cite> (ref. to <he>שדה ושדות</he>, <cite ref=\"Ecclesiastes 2:8\">Koh. II, 8</cite>) <he>הכא תַרְגִּימוּ וכ׳</he> here (in Babylonia) they translate it &c. ",
+				"<cite ref=\"Chullin 80a\">Ḥull. 80ᵃ</cite>, v. <cite ref=\"V00282\"><he>תּוֹרְבָּלָא</he></cite>. ",
+				"<cite ref=\"Ketubot 110a:13\">Keth. 110ᵃ</cite> <he>תַּרְגְּמָהּ</he> … <he>אליבא וכ׳</he> R. N., developing the opinion of R. Sh., explained it &c.; <cite ref=\"Shabbat 52b\">Sabb. 52ᵇ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "F00107",
+	"slug": "ותינייקי",
+	"headword": {
+		"text": "וְתִינְיָיקִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "וְתוּ׳"
+		}
+	],
+	"page": {
+		"number": 376,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"F00106\">preced.</cite> Βιθυνιακή) <i>Bithynian</i>. Y. Ab. Zar. II, end, 42ᵃ <he>גבינה וו׳</he>, v. <cite ref=\"A00742\"><he>אוּנְיָיקִי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 2:5\">Ab. Zar. II, 5</cite> Y. ed. <he>ותיר׳</he> (corr. acc.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "U00008",
+	"slug": "שאגא",
+	"headword": {
+		"text": "שָׁאגָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁגָא"
+		}
+	],
+	"page": {
+		"number": 1505,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. Löw Pfl., p. 64) <i>teak</i>, an Indian tree. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 23a:6\">R. Hash. 23ᵃ</cite> (expl. <he>תדהר</he>, <cite ref=\"Isaiah 41:19\">Is. XLI, 19</cite>); <cite ref=\"Bava Batra 80b:17\">B. Bath. 80ᵇ</cite> (Ms. R. <he>שגא</he>). ",
+				"<cite ref=\"Shabbat 129a\">Sabb. 129ᵃ</cite> (Ms. O. <he>שגא</he>); <cite ref=\"Shabbat 119a\">ib. 119ᵃ</cite> <he>דשגא</he> Ar. (Ms. O. <he>דשיגא</he>, v. Rabb. D. S. a. l. note 1; ed. <he>דשינא</he>), v. <cite ref=\"V00562\"><he>תַּכְתַּקָּא</he></cite>.—Pl. <he>שָׁאגֵי</he>, <cite ref=\"U00222\"><he>שָׁגֵי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 3:9\">Targ. Cant. III, 9</cite>; <cite ref=\"Aramaic Targum to Song of Songs 1:17\">I, 17</cite> (ed. Vien. <cite ref=\"U00221\"><he>שגי</he></cite>, not <cite ref=\"U01585\"><he>שני</he></cite>)."
+			]
+		}
+	]
+}

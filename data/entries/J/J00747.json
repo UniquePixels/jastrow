@@ -1,0 +1,73 @@
+{
+	"id": "J00747",
+	"slug": "יתר-2",
+	"headword": {
+		"text": "יְתַר"
+	},
+	"page": {
+		"number": 604,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"J00746\">same</cite>.[<cite ref=\"Aramaic Targum to Ruth 2:16\">Targ. Ruth II, 16</cite>, a. e. <cite ref=\"M01336\"><he>מיתר</he></cite>, v. <cite ref=\"N01394\"><he>נְתַר</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אוֹתִיר", "אַיְיתַר"],
+			"senses": [
+				{
+					"gloss": "<i>to leave over</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 4:43\">Targ. II Kings IV, 43</cite>; a. e.—Y. Peah VII, 20ᵃ bot. <he>ואַיְיתְרוּן</he>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to bless with plenty</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 28:11\">Targ. O. Deut. XXVIII, 11</cite>; <cite ref=\"Onkelos Deuteronomy 30:9\">XXX, 9</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["יַיתֵּר"],
+			"senses": [
+				{
+					"gloss": ", as <cite ref=\"J00746\">preced.</cite> <i>Pi.</i>—<i>Part.</i> <i>pass.</i> <he>מְיַיתַּר</he>, f. <he>מְיַיתְּרָא</he> <i>larger</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 19a:21\">Meg. 19ᵃ</cite> <he>מחסרא או מיי׳</he> smaller in size or larger."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיַיתַּר", "אִיתַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be left over</i>; (in legal interpret.) <i>to be superfluous</i> in the Bible text and therefore <i>available for interpretation</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 36:7\">Targ. O. Ex. XXXVI, 7</cite> <he>וִיתָּרַת</he> (= <he>ואִיתָּ׳</he>, ed. Berl. <he>וְיִתַּרַת</he>, corr. acc.).—",
+						"<cite ref=\"Berakhot 35a\">Ber. 35ᵃ</cite>, v. <cite ref=\"E00394\"><he>הִילּוּל</he></cite>. ",
+						"<cite ref=\"Menachot 93a:8\">Men. 93ᵃ</cite> <he>אִיַּיתְּרוּ ליה תרי קראי</he> two verses remain for interpretation; <cite ref=\"Arakhin 2b:1\">Arakh. 2ᵇ</cite> <he>אייתרי להו תרי</he> (v. Rabb. D. S. to Men. l. c. note)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be added, included</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 64a:11\">Sabb. 64ᵃ</cite> <he>אִיַּיתּוּר ליה</he> (some ed. <cite ref=\"J00747\"><he>אייתר</he></cite>) they are now included (Ms. M. <he>אייתי</he> they include it, v. <cite ref=\"A03397\"><he>אֲתָא</he></cite>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

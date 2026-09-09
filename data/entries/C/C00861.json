@@ -1,0 +1,44 @@
+{
+	"id": "C00861",
+	"slug": "גלג",
+	"headword": {
+		"text": "גְּלַג"
+	},
+	"page": {
+		"number": 244,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>גַּלֵּיג</he> (reduplic. of <cite ref=\"C00848\"><he>גל</he></cite>, v. <he>גלה</he>) <i>to reveal</i> (v. P. Sm. 723), <i>to announce</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 36\">Gen. R. s. 36</cite> <he>זיל גַּלֵּיג וכ׳</he> Ar. (ed. <he>זיל גְּלוֹג</he>, not <cite ref=\"G00354\"><he>זילא</he></cite>) go, tell thy mother the good news; <cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite>.—",
+						"<cite ref=\"Vayikra Rabbah 25\">Lev. R. s. 25</cite>; <cite ref=\"Kohelet Rabbah 2:20\">Koh. R. to II, 20</cite> <he>איזילי גליג לאימיך</he> (not <he>גליגי</he>) I will go and tell thy mother. Pesik. Aniya, p. 137ᵃ [read:] <he>כל מה דאת יכיל למיגלג גלג למישבח שבח</he> as much as thou canst tell, tell; as much as thou canst praise, praise; <cite ref=\"Yalkut Shimoni on Nach 339\">Yalk. Is. 339</cite> (corr. acc.); (<cite ref=\"Pesikta Rabbati 32:1\">Pesik. R. s. 32</cite> <he>דרוש וכ׳</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיגַּלִּיג"],
+			"senses": [
+				{
+					"gloss": "<i>to boast</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite> is it these <he>דאת מִגַּלֵּיג עליהון</he> of whom thou art so boastful?"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

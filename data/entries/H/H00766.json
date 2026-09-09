@@ -1,0 +1,34 @@
+{
+	"id": "H00766",
+	"slug": "חילונאה",
+	"headword": {
+		"text": "חִילוֹנָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִילוֹנַאי"
+		},
+		{
+			"text": "חִילוֹנַי"
+		}
+	],
+	"page": {
+		"number": 456,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00319\"><he>חול</he></cite>; v. <cite ref=\"H00325\"><he>חוֹל</he> III</cite>) <i>outsider, stranger, non-priest, non-Israelite</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 24:2\">Targ. Is. XXIV, 2</cite>. ",
+				"<cite ref=\"Onkelos Exodus 29:33\">Targ. Ex. XXIX, 33</cite> (O. ed. Amst. <he>נַיָּא …</he>, incorr.); a. fr.—Pl. <cite ref=\"H00766\"><he>חִילוֹנָאֵי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 23:3\">Targ. Y. Deut. XXIII, 3</cite> (not <cite ref=\"H01025\"><he>חוֹל׳</he></cite>).—<i>Fem.</i> <cite ref=\"H00768\"><he>חִילוֹנִיתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 137:4\">Targ. Ps. CXXXVII, 4</cite> <he>ארעא ח׳</he> unholy land.—",
+				"<cite ref=\"Aramaic Targum to Proverbs 2:16\">Targ. Prov. II, 16</cite> (Ms. <cite ref=\"H00768\"><he>חִילוֹנְיֵיתָא</he></cite>)."
+			]
+		}
+	]
+}

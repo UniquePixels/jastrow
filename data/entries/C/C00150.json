@@ -1,0 +1,29 @@
+{
+	"id": "C00150",
+	"slug": "גגמי",
+	"headword": {
+		"text": "גַּגְמֵי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּגְמֵי"
+		}
+	],
+	"page": {
+		"number": 209,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (= <he>גמגמי</he>, r. <cite ref=\"C00994\"><he>גמא</he></cite>?) <i>stone-like peas</i>. ",
+			"units": [
+				"<cite ref=\"Horayot 13a\">Hor. 13ᵃ</cite> Ar. (Var. Ar. a. ed. <he>גְּלִימֵי</he>)."
+			]
+		}
+	]
+}

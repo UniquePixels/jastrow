@@ -1,0 +1,33 @@
+{
+	"id": "V00213",
+	"slug": "תולדותא",
+	"headword": {
+		"text": "תּוֹלְדוּתָא"
+	},
+	"page": {
+		"number": 1653,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00212\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>birth</i>. Targ. II Esth. III, 3 (ed. Lag. <he>תִּילְיּ׳</he>; ed. Vien. <he>תֻּלְדּ׳</he>).",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>descent, kinship</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 2:10\">Targ. Esth. II, 10</cite> (ed. Vien. <cite ref=\"V00218\"><he>תֻּלְ׳</he></cite>; ed. Lag. <cite ref=\"V00627\"><he>תִּילְ׳</he></cite>); Targ. II Esth. ",
+				"<cite ref=\"Aramaic Targum to Esther 2:10\">ib.</cite> <cite ref=\"V00213\"><he>תּוּלְדוּתָ׳</he></cite> ed. Vien. (oth. ed. <cite ref=\"V00214\"><he>תּוּלְדְּתָ׳</he></cite>; ed. Lag. <cite ref=\"J00371\"><he>יַלְדּוּתָ׳</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

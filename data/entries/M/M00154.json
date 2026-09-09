@@ -1,0 +1,29 @@
+{
+	"id": "M00154",
+	"slug": "מגיזה",
+	"headword": {
+		"text": "מְגִיזָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְזִיגָה"
+		}
+	],
+	"page": {
+		"number": 727,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (cmp. <cite ref=\"M00156\"><he>מְגִיזְתָּא</he></cite>) <i>M’gizah</i> (<i>Pass</i>), <i>Mazaca</i>, later Caesarea, capital of Cappadocia. ",
+			"units": [
+				"<cite ref=\"Yevamot 25b:5\">Yeb. 25ᵇ</cite> <he>מְגִיזַת קפוטקיא</he>; (Y. ib. II, end, 4ᵇ <he>קיסרין שבקפודקייא</he>; Tosef. ib. IV, 5 <he>בקפ׳</he> only). Y. ib. XVI, 15ᵈ top <he>מג׳ של קפ׳</he>; Tosef. ib. XIV, 5 <he>מְזִיגַת קפ׳</he> (Var. <he>מדינת</he>; Bab. ib. 121ᵃ <he>מדינת</he>; <cite ref=\"Kohelet Rabbah 11:1\">Koh. R. to XI, 1</cite> <he>מדינת</he>). ",
+				"<cite ref=\"Tosefta Shabbat 15:8\">Tosef. Sabb. XV</cite> (<cite ref=\"Tosefta Shabbat 16:8\">XVI</cite>), 8 <he>מז׳</he> (Var. <he>מדינת</he>). ",
+				"<cite ref=\"Moed Katan 26a:9\">M. Kat. 26ᵃ</cite> <he>מזיגת קסרי</he> (Ms. M. <he>מדינת דקסרי</he>)."
+			]
+		}
+	]
+}

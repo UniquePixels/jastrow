@@ -1,0 +1,30 @@
+{
+	"id": "T01103",
+	"slug": "רשעא",
+	"headword": {
+		"text": "רִשְׁעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִי׳"
+		},
+		{
+			"text": "רְשַׁע"
+		}
+	],
+	"page": {
+		"number": 1501,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T01102\">same</cite> <cite ref=\"Onkelos Deuteronomy 18:22\">Targ. O. Deut. XVIII, 22</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 18:22\">Targ. Ps. XVIII, 22</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 36:4\">Ib. XXXVI, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 36:5\">Ib. 5</cite> (some ed. <cite ref=\"T01087\"><he>רשיעא</he></cite>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:7\">Targ. Prov. VIII, 7</cite> (some ed. <cite ref=\"T01087\"><he>רשיעא</he></cite>, corr. acc.); a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"id": "B00700",
+	"slug": "ביר-2",
+	"headword": {
+		"text": "בֵּיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּירָא"
+		}
+	],
+	"page": {
+		"number": 165,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. ch. ",
+			"units": []
+		},
+		{
+			"gloss": " = h. <cite ref=\"B00043\"><he>בְּאֵר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 16:14\">Targ. Gen. XVI, 14</cite>; a. e. ",
+				"<cite ref=\"Berakhot 56a:2\">Ber. 56ᵃ</cite>. <he>מיבעי עסקך כי הני מידי דנפל לב׳</he> Ms. M., thy goods will be sought for like something fallen into a well (i.e. thy business will thrive; diff. vers. in ed. a. Mss., v. Rabb. D. S. a. l. note). ",
+				"<cite ref=\"Shabbat 66b:9\">Sabb. 66ᵇ</cite> <he>נפל פותא לב׳</he> Dyer’s Madder, as a remedy, has fallen into the pit (is not practiced). ",
+				"<cite ref=\"Bava Kamma 92b:2\">B. Kam. 92ᵇ</cite> (prov.) <he>ב׳ דשתית וכ׳</he> cast no stone into a well out of which thou once didst drink (never despise what once benefitted you).—",
+				"<cite ref=\"Chullin 106a:8\">Ḥull. 106ᵃ</cite> <he>בַּת בֵּירְתָא</he> a little gutter fed by a well.—Pl. <he>בֵּירִין</he>, <cite ref=\"B00713\"><he>בֵּירֵי</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 26:15\">Targ. Gen. XXVI, 15</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= h. <cite ref=\"B00329\"><he>בּוֹר</he></cite>) <i>pit, hole</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 85a:8\">B. Mets. 85ᵃ</cite> <he>ב׳ מליא וכ׳ …</he> the cavity (created by the taking out of a radish) stood full of water; [Ms. M. <he>כי ב׳ דמיא</he> like a well; v. Rabb. D. S. a. l. note].—Pl. as above. ",
+				"<cite ref=\"Onkelos Genesis 14:10\">Targ. Gen. XIV, 10</cite> (h. text <he>בֶּאֱרוֹת</he>); <cite ref=\"Bereishit Rabbah 42:2\">Gen. R. s. 42</cite>.—",
+				"<cite ref=\"Sanhedrin 7a:10\">Snh. 7ᵃ</cite> (prov.) <he>שב ב׳ וכ׳</he> seven pits are open for the righteous man (and he escapes), and one for the evil-doer (into which he falls). ",
+				"<cite ref=\"Shabbat 110b:3\">Sabb. 110ᵇ</cite>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <cite ref=\"B00700\"><he>בֵּירָא</he></cite> pr. n. pl. <i>Bera</i> (prob. ident. with <cite ref=\"B00702\"><he>בֵּירַאי</he></cite> 2, a), native place of R. Simlai. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 2:11:3\">Y. Taan. II, 65ᵈ</cite> bot. <he>ר׳ ש׳ דיב׳</he>; <cite ref=\"Jerusalem Talmud Megillah 1:11:5\">Y. Meg. I, 72ᶜ</cite> bot. <he>דב׳</he>; <cite ref=\"Kohelet Rabbah 3:14:1\">Koh. R. to III, 14</cite> <he>דברויירא</he> (corr. acc.)."
+			],
+			"label": "3"
+		}
+	]
+}

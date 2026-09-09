@@ -1,0 +1,40 @@
+{
+	"id": "I00486",
+	"slug": "טלטול-1",
+	"headword": {
+		"text": "טִלְטוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִילְ׳"
+		}
+	],
+	"page": {
+		"number": 536,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00490\"><he>טִלְטֵל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>moving, handling</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 43b:7\">Sabb. 43ᵇ</cite> <he>ט׳ מן הצד</he> moving a thing sideways (in an unusual manner); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>migration, exile</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 5:5\">Lev. R. s. 5</cite> (ref. to <cite ref=\"Isaiah 22:17\">Is. XXII, 17</cite>) <he>ט׳ אחר ט׳</he> repeated migration from land to land. ",
+				"<cite ref=\"Bereishit Rabbah 39:8\">Gen. R. s. 39</cite> (expl. <cite ref=\"N00212\"><he>נְדֹד</he></cite>, B. LV, 8), v. <cite ref=\"N00235\"><he>נִדְנוּד</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

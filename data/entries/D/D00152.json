@@ -1,0 +1,29 @@
+{
+	"id": "D00152",
+	"slug": "דהין-2",
+	"headword": {
+		"text": "דְּהִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "דּהִינא"
+		}
+	],
+	"page": {
+		"number": 281,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00151\">preced.</cite>) <i>fat, sappy</i>. ",
+			"units": [
+				"<cite ref=\"Shevuot 47b:6\">Shebu. 47ᵇ</cite> <he>קרב לגבי ר׳ ואִידַּהֵין</he> go near a fat man, and be fat.—Pl. <he>דְּהִינִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 92:15\">Targ. Ps. XCII, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 22:30\">Ib. XXII, 30</cite> (Var. <cite ref=\"T00609\"><he>רה׳</he></cite>)."
+			]
+		}
+	]
+}

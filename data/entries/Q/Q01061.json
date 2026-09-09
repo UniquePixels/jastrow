@@ -1,0 +1,23 @@
+{
+	"id": "Q01061",
+	"slug": "פלילה",
+	"headword": {
+		"text": "פְּלִילָה"
+	},
+	"page": {
+		"number": 1182,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"Q01060\">preced.</cite>) <i>argument, plea; decision, judgment</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 111b:5\">Snh. 111ᵇ</cite> (ref. to <cite ref=\"Q01062\"><he>פליליה</he></cite>, <cite ref=\"Isaiah 28:7\">Is. XXVIII, 7</cite>) <he>אין פ׳ אלא דיינים</he> <i>p’lilah</i> means the verdict of judges; <cite ref=\"Yalkut Shimoni on Nach 302\">Yalk. Is. 302</cite>; <cite ref=\"Megillah 15b:6\">Meg. 15ᵇ</cite>, v. next w.—Pl. <he>פְּלִילוֹת</he>. ",
+				"<cite ref=\"Sanhedrin 44a:14\">Snh. 44ᵃ</cite> (ref. to <he>ויפלל</he>, <cite ref=\"Psalms 106:30\">Ps. CVI, 30</cite>) <he>עשה פ׳ עם קונו</he> he pleaded with his Maker; ib. 82ᵇ; <cite ref=\"Yalkut Shimoni on Nach 865:4\">Yalk. Ps. 865</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "U01432",
+	"slug": "שמוטא-2",
+	"headword": {
+		"text": "שָׁמוֹטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁמוּ׳"
+		}
+	],
+	"page": {
+		"number": 1592,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01431\">preced.</cite>) <i>long stretched</i>, name of a species of <i>locusts</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 8:37\">Targ. I Kings VIII, 37</cite> (ed. Wil. <cite ref=\"U01438\"><he>שְׁמוֹ׳</he></cite>; h. text <he>חסיל</he>); <cite ref=\"Targum of II Chronicles 6:28\">Targ. II Chr. VI, 28</cite>. ",
+				"<cite ref=\"Targum Jonathan on Joel 1:4\">Targ. Joel I, 4</cite>.—[<cite ref=\"Targum Jonathan on Ezekiel 23:20\">Targ. Ez. XXIII, 20</cite> <cite ref=\"U01431\"><he>שְׁמוֹטָא</he></cite>, read with ed. Lag. <he>שמשא</he>; v. Kimḥi a. l.]"
+			]
+		}
+	]
+}

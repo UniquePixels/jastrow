@@ -1,0 +1,62 @@
+{
+	"id": "B00435",
+	"slug": "בזי-2",
+	"headword": {
+		"text": "בְּזֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּזָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 152,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00434\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 13:13\">Targ. Prov. XIII, 13</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Leviticus 18:8\">Targ. Y. Lev. XVIII, 8</cite> sq. (interchanging with Pa.) <he>לא תבזי</he> not expose. Y. Ḥag. II, 77ᵈ bot. <he>לא תִיבְזֵי וכ׳</he> despise not the children of thy Master (thy fellow-creatures).—Part. pass. <cite ref=\"B00435\"><he>בָּזֵי</he></cite>, f. <he>בַּזְיַת</he>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 16:5\">Targ. Y. II, Gen. XVI, 5</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בּזֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"B00434\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Song of Songs 8:1\">Targ. Cant. VIII, 1</cite>; a. fr.—",
+						"<cite ref=\"Bereishit Rabbah 63:8\">Gen. R. s. 63</cite> <he>לא תְבַזּוּן וכ׳</he> never despise, v. <cite ref=\"C00391\"><he>גּוּלְיָיר</he></cite>. ",
+						"<cite ref=\"Megillah 25b\">Meg. 25ᵇ</cite> if one is ill-reputed <he>שרי ליה לבַזּוּיֵיה בגי׳ 'מל וש״ין</he> you are permitted to show him your contempt with Gimmel and Shin (v. comment.)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְבַּזֵּי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיתְבְּזִי"],
+			"senses": [
+				{
+					"gloss": ", contr. <cite ref=\"B00462\"><he>אִיבְּזִי</he></cite> <i>to be despised</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 17:5\">Targ. Y. I Gen. XVII, 5</cite> <he>ויתבז איקרי</he> (read <he>ואיתבזי</he>).—",
+						"<cite ref=\"Ketubot 97b:9\">Keth. 97ᵇ</cite> <he>דתִיתְבַּזֵּי</he> that she (his wife) should be exposed to publicity in court. ",
+						"<cite ref=\"Ketubot 97b:9\">Ib.</cite> <he>דלִיבְּזוּ</he> that they (his heirs) should &c."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

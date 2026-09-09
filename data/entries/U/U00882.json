@@ -1,0 +1,31 @@
+{
+	"id": "U00882",
+	"slug": "שיטה-1",
+	"headword": {
+		"text": "שִׁיטָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁטָּה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1560,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.; = <he>שנטה</he>, Egypt. <cite ref=\"U01582\"><he>שנט</he></cite>, v. Ges. Thes. s. v. <cite ref=\"U01582\"><he>שנט</he></cite>) <i>acacia</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 23a:6\">R. Hash. 23ᵃ</cite> (as a species of cedar), expl. <cite ref=\"V00307\"><he>תּוֹרָנִיתָא</he></cite>; <cite ref=\"Bava Batra 80b:17\">B. Bath. 80ᵇ</cite> <he>שיטא</he> (corr. acc.). R. Hash. l. c. <he>כל ש׳ וש׳ שנטלו וכ׳</he> the Lord shall cause every acacia tree that the gentiles have taken from Jerusalem to be restored to her. Tanḥ. T’rum. 9 <he>כל ארון … ארז של ש׳ בו</he> in every ark (for the Torah scrolls) that Israelites make, they must put shiṭṭah-cedar. Ib. <he>ומכולן … הש׳ בלבד</he> and of all these (species of cedars) only the acacia was chosen (for the Tabernacle); a. e.—Trnsf. <i>the holy Ark</i>. ",
+				"<cite ref=\"Avodah Zarah 24a\">Ab. Zar. 24ᵃ</cite>; <cite ref=\"Bereishit Rabbah 54\">Gen. R. s. 54</cite>, v. <cite ref=\"T00374\"><he>רוּם</he></cite> I h.; Midr. Sam. ch. XII. ",
+				"<cite ref=\"Bereishit Rabbah 54\">Ib.</cite> <he>היו … כלפי ש׳ וכ׳</he> (Gen. R. l. c. <he>הארון</he>) the cows turned their faces towards the Ark, and recited songs.—Pl. <cite ref=\"U00753\"><he>שִׁיטִּים</he></cite>, <he>שִׁטּ׳</he>. Tanḥ. l. c. <he>ומתרפאין בש׳</he>, v. <cite ref=\"U00753\"><he>שִׁטִּים</he></cite>. Ib. <he>אמר … אני מרפא את הש׳</he> the Lord said, in the future I shall heal (restore) the acacias (ref. to <cite ref=\"Joel 4:18\">Joel IV, 18</cite>). ",
+				"<cite ref=\"Shemot Rabbah 35\">Ex. R. s. 35</cite>; a. fr.; v. <cite ref=\"U00753\"><he>שִׁטִּים</he></cite>."
+			]
+		}
+	]
+}

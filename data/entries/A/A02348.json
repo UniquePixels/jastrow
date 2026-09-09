@@ -1,0 +1,35 @@
+{
+	"id": "A02348",
+	"slug": "אסטבלא",
+	"headword": {
+		"text": "אִסְטַבְלָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אִצְ׳"
+		},
+		{
+			"text": "אִיסְ׳"
+		},
+		{
+			"text": "אִיצְ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 89,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (diminut. of <cite ref=\"A01411\"><he>אִיסְטְבָא</he></cite>) <i>colonnade-like walk</i>. Pl. <he>אִסְטַבְלָאוֹת</he>, <cite ref=\"A01411\"><he>אִצְ׳</he></cite> &c. ",
+			"units": [
+				"<cite ref=\"Eruvin 24a:5\">Erub. 24ᵃ</cite> <he>עשויין א׳ א׳</he> Mss. (ed. one <he>א׳</he>, v. Rabb. D. S. a. l.) planted so as to form colonnades."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "S01859",
+	"slug": "קקא-1",
+	"headword": {
+		"text": "קָקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָקְתָא"
+		}
+	],
+	"page": {
+		"number": 1409,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"S00022\"><he>קָאָת</he></cite>, <i>pelican</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 11:18\">Targ. Y. Lev. XI, 18</cite>; <cite ref=\"Deuteronomy 14:17\">Deut. XIV, 17</cite>.—",
+				"<cite ref=\"Aramaic Targum to Psalms 102:7\">Targ. Ps. CII, 7</cite> <he>קקתא</he> ed. Lag. (oth. ed. <he>קאתא</he>).—[<cite ref=\"Berakhot 20a\">Ber. 20ᵃ</cite>, a. e. <he>קָקֵי</he> Ar., v. <cite ref=\"S00016\"><he>קָאקָא</he></cite>.]"
+			]
+		}
+	]
+}

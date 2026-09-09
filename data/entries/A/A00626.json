@@ -1,0 +1,53 @@
+{
+	"id": "A00626",
+	"slug": "אוי-1",
+	"headword": {
+		"text": "אוי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָוָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 24,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., √<cite ref=\"A00516\"><he>או</he></cite> = <cite ref=\"A00013\"><he>אב</he></cite>, cmp. <cite ref=\"A00049\"><he>אָבָה</he></cite>)",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִיוָּה</he> <i>to desire, covet</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 63a\">Snh. 63ᵃ</cite> <he>אִיוּוּ אלוהות וכ׳</he> (<cite ref=\"Avodah Zarah 53b:10\">Ab. Zar. 53ᵇ</cite> <he>לאלוהות</he>, v. Rabb. D. S. a. l. note 8) they had a desire for many deities. Denom. <cite ref=\"V00015\"><he>תַּאֲוָה</he></cite>. Cmp. <cite ref=\"A00939\"><he>אוּת</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְאַוֶּה"],
+			"senses": [
+				{
+					"gloss": " (b. h.), <i>Nithpa.</i> <cite ref=\"A02216\"><he>נִתְאַוֶּה</he></cite> (denom. of <cite ref=\"V00015\"><he>תַּאֲוָה</he></cite>) <i>to desire, to be seized with a desire</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 10:8\">Num. R. s. 10</cite> (play on <he>י̇ת̇א̇ד̇ם̇</he> <cite ref=\"Proverbs 23:31\">Prov. XXIII, 31</cite>) the drunken man <he>וכ׳ לד̇ם̇ יִ֗תְ֗אַ֗וֶּה</he> will covet blood (forbidden intercourse). ",
+						"<cite ref=\"Bereishit Rabbah 51\">Gen. R. s. 51</cite>. ",
+						"<cite ref=\"Shemot Rabbah 24\">Ex. R. s. 24</cite>, end.—",
+						"<cite ref=\"Bamidbar Rabbah 2:3\">Num. R. s. 2</cite> <he>התחילו מִתְאַוִּים וכ׳</he> they began to express a desire for standards (in imitation of the angelic hosts). ",
+						"<cite ref=\"Bamidbar Rabbah 2:3\">Ib.</cite> divide them into standards <he>כמו שנִתְאַוּוּ</he> as they desired."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

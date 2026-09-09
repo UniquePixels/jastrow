@@ -1,0 +1,27 @@
+{
+	"id": "U01523",
+	"slug": "שמצה",
+	"headword": {
+		"text": "שִׁמְצָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1600,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U01522\">preced.</cite> wds.) <i>blemish, disgrace</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 20:10\">Lev. R. s. 20</cite> <he>דבר של ש׳</he> (some ed. <cite ref=\"U01522\"><he>שמצא</he></cite>) something disgraceful, v. <cite ref=\"G00331\"><he>זִיטִימָא</he></cite>."
+			]
+		}
+	]
+}

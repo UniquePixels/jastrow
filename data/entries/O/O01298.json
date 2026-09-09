@@ -1,0 +1,33 @@
+{
+	"id": "O01298",
+	"slug": "סער-6",
+	"headword": {
+		"text": "סְעָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַעַר"
+		},
+		{
+			"text": "סַעֲרָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1010,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01297\">preced. art.</cite>; cmp. <cite ref=\"G00224\"><he>זוּף</he></cite> II a. <cite ref=\"G00395\"><he>זַיִף</he></cite>) <i>hair</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 25:25\">Targ. O. Gen. XXV, 25</cite> ed. Berl.; a. fr. [Mostly with <he>שׂ</he>, v. <cite ref=\"U01690\"><he>שַׂעֲרָא</he></cite>.]—",
+				"<cite ref=\"Jerusalem Talmud Nazir 9:6:2\">Y. Naz. IX, end, 58ᵃ</cite> <cite ref=\"O01300\"><he>סַעֲרָה</he></cite>, v. <cite ref=\"U01690\"><he>שַׂעֲרָא</he></cite>.—Pl. <cite ref=\"O01305\"><he>סַעֲרָן</he></cite> f. ",
+				"<cite ref=\"Aramaic Targum to Psalms 69:5\">Targ. Ps. LXIX, 5</cite> (Ms. <cite ref=\"O01304\"><he>סַעֲרִין</he></cite>)."
+			]
+		}
+	]
+}

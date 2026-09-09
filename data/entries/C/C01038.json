@@ -1,0 +1,32 @@
+{
+	"id": "C01038",
+	"slug": "גמל-2",
+	"headword": {
+		"text": "גְּמַל"
+	},
+	"page": {
+		"number": 253,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01037\">same</cite>, <i>to do one good</i> or <i>evil</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 24:18\">Targ. I Sam. XXIV, 18</cite>; a. fr.—Y. Ḥag. II, 77ᵈ bot. the whole town stopped work <he>מִיגְמוֹל ליה חסד</he> in order to show kindness to him (to give him an honorable funeral).—",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:7\">Y. Ab. Zar. III, 42ᶜ</cite> top <he>גָּמֵיל חיסדא</he> the charitable."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְגְּמַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be laden with; to be bestowed</i>. Targ. II Esth. V, 2 (Targ. I <he>אטעינת</he>, h. text <he>וַתִּשָּׂא</he>).—Y. Ḥag. l. c. <he>לא איתג׳ ליה חסד</he> nobody cared to attend his funeral, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

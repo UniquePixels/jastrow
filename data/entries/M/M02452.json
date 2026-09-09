@@ -1,0 +1,65 @@
+{
+	"id": "M02452",
+	"slug": "מקרא-3",
+	"headword": {
+		"text": "מִקְרָא"
+	},
+	"page": {
+		"number": 832,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S02018\"><he>קָרָא</he></cite>)<i>call, convocation</i>. Sifra Emor, Par. 11, ch. XIV <he>אלא אם עשאו מ׳ קדש</he> unless one made it (the Day of Atonement) a holy call (observed it). Ib. ch. XIII, Par. 11 <he>בני ישראל מ׳ קדש וכ׳</he> the sons of Israel are a holy convocation (called to celebrate the festivals) &c. Mekh. Bo. s. 9; a. fr.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>reading</i>, esp. <i>the reading from the Scriptures</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 2:1\">Ber. II, 1</cite> <he>זמן במ׳</he> the time for reading the sh’mʿa. ",
+				"<cite ref=\"Megillah 3a:17\">Meg. 3ᵃ</cite>, a. fr. <he>מ׳ מגילה</he> the recitation of the Book of Esther. ",
+				"<cite ref=\"Tosefta Berakhot 2:20\">Tosef. Ber. II, 20</cite> <he>יש שם מ׳ ותפלה</he> reading the Scriptures and prayer are permitted there; <cite ref=\"Shabbat 10a:11\">Sabb. 10ᵃ</cite>; a. e.—Meg. l. c. (ref. to <cite ref=\"Nehemiah 8:8\">Neh. VIII, 8</cite> <he>ויקראו מ׳</he>) <he>זו</he> this means the reading of the text; <cite ref=\"Nedarim 37b:6\">Ned. 37ᵇ</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>pronunciation, vocalization</i>; <he>מ׳ סופרים</he> the traditional vocalization of the Scripture texts. Ib.",
+			"units": [],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>teaching the Bible, primary instruction</i>. Ib. IV, 3 <he>לא ילמדנו מ׳</he> he must not teach him Bible, contrad. to <cite ref=\"M00337\"><he>מדרש</he></cite> &c. Ib. 36ᵇ bot. <he>במקום … על המ׳</he> where is it customary to take remuneration for teaching the Bible. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 3:1:4\">Y. Meg. III, beg. 73ᵈ</cite>; <cite ref=\"Jerusalem Talmud Ketubot 13:1:2\">Y. Keth. XIII, beg. 35ᶜ</cite> <he>בית ספר למ׳ וכ׳</he> Beth Sepher was the school for Bible, Beth Talmud for Mishnah. ",
+				"<cite ref=\"Vayikra Rabbah 2\">Lev. R. s. 2</cite>, beg. <he>נכנסין למ׳</he> enter the primary school; a. fr."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>the Scriptures</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:2:15\">Y. Taan. IV, 68ᵃ</cite> bot. <he>חיזרנו על כל המ׳</he>, v. <cite ref=\"H00560\"><he>חָזַר</he></cite>; a. fr."
+			],
+			"label": "5"
+		},
+		{
+			"gloss": "<i>Biblical verse, text</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 5:2\">Sot. V, 2</cite> <he>שאין לו מ׳ מן התורה וכ׳</he> there is for it no passage in the Torah intimating that it is unclean. ",
+				"<cite ref=\"Mishnah Sotah 5:2\">Ib.</cite> <he>מביא לו מ׳ מן וכ׳</he> produces for it a Biblical text in evidence &c. ",
+				"<cite ref=\"Yevamot 11b:9\">Yeb. 11ᵇ</cite>, a. e. <he>אין מ׳ יוצא מידי פשוטו</he> a Bible verse can never lose its literal sense (although its meaning may be extended by the methods of interpretation). ",
+				"<cite ref=\"Sanhedrin 34a:11\">Snh. 34ᵃ</cite>, a. e. <he>מ׳ אחד יוצא וכ׳</he>, v. <cite ref=\"I00611\"><he>טַעַם</he></cite>. ",
+				"<cite ref=\"Sanhedrin 101a:10\">Ib. 101ᵃ</cite> <he>מ׳ זה מעצמו נדרש</he> this verse must be interpreted from its own wording. ",
+				"<cite ref=\"Sanhedrin 101a:10\">Ib.</cite> bot. <he>מנין לך … מ׳ אני דורש</he> how do you know this?… I interpret Bible verses; a. fr.—Pl. <he>מִקְרָאוֹת</he>, <he>מִקְרָיוֹת</he>. ",
+				"<cite ref=\"Menachot 19b:11\">Men. 19ᵇ</cite>; <cite ref=\"Zevachim 63b:6\">Zeb. 63ᵇ</cite>; <cite ref=\"Sotah 14b:14\">Sot. 14ᵇ</cite> <he>כ״מ שאתה מוצא שני מ׳ אחד וכ׳</he> wherever there are two possible interpretations of two parallel expressions one of which contradicts the other, and one of which confirms the other &c. ",
+				"<cite ref=\"Yoma 52a:10\">Yoma 52ᵃ</cite> bot., v. <cite ref=\"E00524\"><he>הֶכְרַע</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 8:8:2\">Y. Snh. VIII, 26ᶜ</cite> top <he>זה אחד משלשה מ׳</he> this is one of the three passages where the Law speaks metaphorically; Y. Keth. IV, 28ᶜ top; a. fr."
+			],
+			"label": "6"
+		}
+	]
+}

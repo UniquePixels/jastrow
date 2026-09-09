@@ -1,0 +1,22 @@
+{
+	"id": "P00359",
+	"slug": "עורמא",
+	"headword": {
+		"text": "עוּרְמָא"
+	},
+	"page": {
+		"number": 1059,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01392\"><he>עֲרַם</he></cite>) <i>heap, pile</i>.—Pl. <cite ref=\"P00359\"><he>עוּרְמָן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 15:8\">Targ. Y. Ex. XV, 8</cite>, v. <cite ref=\"P01362\"><he>עְרֵימָה</he></cite>."
+			]
+		}
+	]
+}

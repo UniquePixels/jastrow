@@ -1,0 +1,43 @@
+{
+	"id": "U00012",
+	"slug": "שאול-1",
+	"headword": {
+		"text": "שָׁאוּל"
+	},
+	"page": {
+		"number": 1505,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Shaul, Saul</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " king of Israel. ",
+			"units": [
+				"<cite ref=\"Megillah 14a:18\">Meg. 14ᵃ</cite> <he>ש׳ ויהוא וכ׳</he> Saul and Jehu, who were anointed out of a flask. ",
+				"<cite ref=\"Yoma 22b:20\">Yoma 22ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Nach 117:12\">Yalk. Sam. 117</cite>, v. <cite ref=\"P00972\"><he>עָנָה</he> II</cite>. ",
+				"<cite ref=\"Sotah 10a:10\">Sot. 10ᵃ</cite> <he>ש׳ בצוארו</he> Saul (bore a divine appearance) by reason of his neck (high stature); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " אַבָּא שָׁ׳ <i>Abba Shaul</i>, a Tannai (v. Fr. Darkhé, p. 176 sq.). ",
+			"units": [
+				"<cite ref=\"Tosefta Terumot 7:2\">Tosef. Ter. VII, 2</cite>. ",
+				"<cite ref=\"Tosefta Kilaim 4:10\">Tosef. Kil. IV, 10</cite>. ",
+				"<cite ref=\"Yevamot 3a:12\">Yeb. 3ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 133b:6\">Sabb. 133ᵇ</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 94:3\">Gen. R. s. 94</cite> <he>ר׳ יוחנן בר ש׳</he> ed. Wil. (oth. ed. <cite ref=\"U00015\"><he>שְׁאוּלָה</he></cite>)."
+			],
+			"label": "3"
+		}
+	]
+}

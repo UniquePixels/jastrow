@@ -1,0 +1,24 @@
+{
+	"id": "A01921",
+	"slug": "אלמנות",
+	"headword": {
+		"text": "אַלְמָנוּת"
+	},
+	"page": {
+		"number": 72,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) <i>widowhood</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 6:4\">B. Bath. VI, 4</cite> <cite ref=\"A00172\"><he>בית א׳</he></cite> (98ᵇ; Ms. M. <cite ref=\"A03182\"><he>אַרְמְלוּת</he></cite>) a house in which to live in case of widowhood. ",
+				"<cite ref=\"Yevamot 45a:10\">Yeb. 45ᵃ</cite>; a. e. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 5:4:2\">Y. Keth. V, 29ᵈ</cite> bot. <he>הרי אני מיגדת אַלְמְנוּתִי</he>, v. <cite ref=\"A00241\"><he>אָגַד</he> II</cite>."
+			]
+		}
+	]
+}

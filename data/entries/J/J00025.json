@@ -1,0 +1,49 @@
+{
+	"id": "J00025",
+	"slug": "יאשיה",
+	"headword": {
+		"text": "יֹאשִׁיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "יֹאשִׁיָּהוּ"
+		}
+	],
+	"page": {
+		"number": 560,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (b. h.) <i>Josiah</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " King of Judah. ",
+			"units": [
+				"<cite ref=\"Moed Katan 25b:10\">M. Kat. 25ᵇ</cite> (ref. to <cite ref=\"Amos 8:9\">Am. VIII, 9</cite>) <he>זה יומו של י׳</he> that is the day when J. was killed. Ib. 28ᵇ <he>כמספד די׳ וכ׳</he> like the lamentation over J. &c.; <cite ref=\"Megillah 3a\">Meg. 3ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " R. J. a Tannai. ",
+			"units": [
+				"<cite ref=\"Menachot 57b:4\">Men. 57ᵇ</cite>. ",
+				"<cite ref=\"Sanhedrin 66a:9\">Snh. 66ᵃ</cite> (v. Fr. Darkhé, p. 146, sq.)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " R. J. name of two Amoraim (v. Fr. M’bo, p. 90ᵇ sq.). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 9:4:3\">Y. Shebi. IX, 39ᵃ</cite> top. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 3:9:23\">Y. Snh. III, 21ᵈ</cite>; a. fr.—",
+				"<cite ref=\"Kiddushin 36b:4\">Kidd. 36ᵇ</cite>, v. <cite ref=\"D01026\"><he>דָּרָא</he> I</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

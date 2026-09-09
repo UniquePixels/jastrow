@@ -1,0 +1,25 @@
+{
+	"id": "P00315",
+	"slug": "עוף-5",
+	"headword": {
+		"text": "עוֹף"
+	},
+	"page": {
+		"number": 1055,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00311\"><he>עוּף</he> I)</cite> [<i>bend, wing</i>; cmp. <cite ref=\"K00873\"><he>כָּנָף</he></cite>,] <i>bird, fowl</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 92b:13\">B. Kam. 92ᵇ</cite> (quoted fr. <he>כתובים</he>) <he>כל ע׳ למינו ישכון ובן אדם לדומה לו</he> (not <he>ובני</he>; Tosaf. <he>ע׳ כנף</he>) every bird nests according to (with) its kind, and man with one like himself; <cite ref=\"Yalkut Shimoni on Torah 116:2\">Yalk. Gen. 116</cite>; <cite ref=\"Yalkut Shimoni on Nach 67:1\">Yalk. Jud. 67</cite>. ",
+				"<cite ref=\"Chullin 27b:16\">Ḥull. 27ᵇ</cite>, a. fr. <he>אין שחיטה לע׳ מן התורה</he> the ritual slaughtering of birds is not indicated in the Torah. ",
+				"<cite ref=\"Shabbat 130a:11\">Sabb. 130ᵃ</cite>, a. e. <he>במקומו … בשר ע׳ בחלב</he> in the native town of R. J. the Galilean they ate poultry prepared with milk; a. v. fr.—Pl. <he>עוֹפוֹת</he>. Ḥull. l. c. ",
+				"<cite ref=\"Bereishit Rabbah 67:2\">Gen. R. s. 67</cite>, v. <cite ref=\"O00935\"><he>סִכְסֵךְ</he> I</cite>; a. fr."
+			]
+		}
+	]
+}

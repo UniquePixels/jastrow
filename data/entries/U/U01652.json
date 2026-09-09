@@ -1,0 +1,34 @@
+{
+	"id": "U01652",
+	"slug": "שעי-1",
+	"headword": {
+		"text": "שעי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁעָה"
+		}
+	],
+	"page": {
+		"number": 1610,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"H01194\"><he>שָׁאָה</he></cite>, <cite ref=\"U00296\"><he>שָׁהָה</he></cite>) <i>to dwell, linger</i>, denom. <cite ref=\"U01634\"><he>שָׁעָה</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to look, care for, mind</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 318:16\">Sifré Deut. 318</cite> (ref. to <cite ref=\"Deuteronomy 32:17\">Deut. XXXII, 17</cite>) <he>אל תקרי לא שערום אלא לא שָׁעוּם וכ׳</he> read not <i>lo s’ʿarum</i>, but <i>lo shaʿum</i> (whom they did not regard); although they sacrificed and burnt incense to them, they were not afraid of them (with ref. to <cite ref=\"Genesis 4:5\">Gen. IV, 5</cite>); Yalk. ib. 945."
+			],
+			"label": "2"
+		}
+	]
+}

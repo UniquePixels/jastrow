@@ -1,0 +1,32 @@
+{
+	"id": "A02058",
+	"slug": "אמצעי-1",
+	"headword": {
+		"text": "אֶמְצָעִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶמְצָעִית"
+		}
+	],
+	"page": {
+		"number": 78,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A02057\">preced.</cite>) <i>central, middle</i>.—",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 5:2\">Erub. V, 2</cite> <he>הא׳</he> the intermediate village, opp. <he>חיצונים</he>; a. fr.—",
+				"<cite ref=\"Mishnah Sheviit 3:4\">Shebi. III, 4</cite> <he>הא … ית</he> the central part of the field, lying in the middle. ",
+				"<cite ref=\"Mishnah Kilayim 4:8\">Kil. IV, 8</cite>; a. fr.—Pl. <he>אֶמְצְעִיִּים</he>, <he>אֶמְצְעִיִּין</he> m.; <he>אֶמְצְעִיּוֹת</he> f. ",
+				"<cite ref=\"Jerusalem Talmud Peah 2:2:3\">Y. Peah II, 17ᵃ</cite> top; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:9\">Y. Ber. II, 4ᵈ</cite> bot. <he>הא׳</he> (sub. <he>ברכות</he>) the intermediate (central) sections of the benedictions (between the first three and the last three). ",
+				"<cite ref=\"Mishnah Kilayim 5:2\">Kil. V, 2</cite> <he>הא׳</he> the central garden beds; a. fr."
+			]
+		}
+	]
+}

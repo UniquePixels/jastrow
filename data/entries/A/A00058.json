@@ -1,0 +1,20 @@
+{
+	"id": "A00058",
+	"slug": "אבוברם",
+	"headword": {
+		"text": "אַבּוּבְרָם"
+	},
+	"page": {
+		"number": 3,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (= <he>אבו אברם</he>), <cite ref=\"A02006\"><he>בר א׳</he></cite> <i>Bar Abbub’ram</i>. ",
+			"units": ["<cite ref=\"Chullin 38a:14\">Ḥull. 38ᵃ</cite>"]
+		}
+	]
+}

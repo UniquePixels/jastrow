@@ -1,0 +1,38 @@
+{
+	"id": "A00980",
+	"slug": "אזמרגד",
+	"headword": {
+		"text": "אִזְמַרְגַּד"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִזְמַרְגְּדָא"
+		},
+		{
+			"text": "אִזְמַרְגְּדִין"
+		},
+		{
+			"text": "אִזְמַרְגְּזִין"
+		},
+		{
+			"text": "אִזְמְרַגְדִּין"
+		}
+	],
+	"page": {
+		"number": 38,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (σμάραγδος, σμαράγδιον) <i>emerald</i>, a jewel (also <i>colored crystal</i>; v. <cite ref=\"G00551\"><he>זמרגד</he></cite> a. <cite ref=\"G00552\"><he>זמרגדין</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 42:13\">Targ. Job. XLII, 13</cite>. ",
+				"<cite ref=\"Onkelos Exodus 28:18\">Targ. O. Ex. XXVIII, 18</cite> (<cite ref=\"Onkelos Exodus 28:18\">Targ. Y. ib.</cite> <cite ref=\"A00978\"><he>אִזְמוֹרַד</he></cite>); a. e. ",
+				"<cite ref=\"Shemot Rabbah 38\">Ex. R. s. 38</cite>, end <cite ref=\"A02467\"><he>אִסְמַרַגְדִּין</he></cite>."
+			]
+		}
+	]
+}

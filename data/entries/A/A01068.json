@@ -1,0 +1,29 @@
+{
+	"id": "A01068",
+	"slug": "אטבא",
+	"headword": {
+		"text": "אַטְבָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַטְבְּעָא"
+		}
+	],
+	"page": {
+		"number": 42,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00076\"><he>טבע</he></cite>, v. <cite ref=\"I00086\"><he>טַבַּעַת</he></cite>) <i>ring, hook, clasp</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 32a:3\">Men. 32ᵃ</cite> <he>א׳ דסיפרי</he> clasp for fastening the leaves of books while reading.—Pl. (<he>אַטְבְּעֵי</he>) <cite ref=\"I00063\"><he>אַטְבֵּי</he></cite>. ",
+				"<cite ref=\"Shabbat 98a:5\">Sabb. 98ᵃ</cite> Ar. <he>אטבי</he> (ed. <he>באטבעי אטבעי</he>, some ed. <he>בא׳ בטבעי</he>, corr. acc., Ms. M. only <he>בטבעי</he>, margin <he>אטבי</he>; v. Rabb. D. S. a. l.). ",
+				"<cite ref=\"Bamidbar Rabbah 6\">Num. R. s. 6</cite> (in Hebr. diction) <he>א׳ של ברזל</he> iron clasps (to fasten the boards on the wagon)."
+			]
+		}
+	]
+}

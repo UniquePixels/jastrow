@@ -1,0 +1,31 @@
+{
+	"id": "Q00913",
+	"slug": "פכח-1",
+	"headword": {
+		"text": "פָּכַח"
+	},
+	"page": {
+		"number": 1174,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"Q00918\"><he>פָּכַךְ</he></cite>) [<i>to break through</i>,] <i>to ooze out, evaporate</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּכֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause evaporation, to counteract the effect of</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 10a:12\">B. Bath. 10ᵃ</cite> <he>יין קשה שינה מְפַכַּחְתּוֹ</he>, Ms. R. <he>מפקחתו</he>, v. Rabb. D. S. a. l. note 6) wine is strong (overpowering man), sleep makes it evaporate."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"id": "C00574",
+	"slug": "גזר-2",
+	"headword": {
+		"text": "גְּזַר"
+	},
+	"page": {
+		"number": 231,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00573\">same</cite><i>to cut, split</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 74:13\">Targ. Ps. LXXIV, 13</cite> (h. text <he>פרר</he>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 25:3\">Targ. Y. Lev. XXV, 3</cite> sq. (h. text <he>זמר</he>); a. e.—",
+				"<cite ref=\"Bava Kamma 81b:11\">B. Kam. 81ᵇ</cite> <he>גזרתינהו לשקך וכ׳</he> ed. (Ar. <he>גַּזְרִית</he>, Ms. R. <he>גַּזְרִי</he>, Ms. F. <he>אַגְזַרְתִּינְהוּ</he> Af.) I should have split thy shoulder with the iron weapon (i.e. should have excommunicated thee).—ג׳ קיימא <i>to make a covenant</i> (h. <he>כָּרַת בְּרִית</he>). ",
+				"<cite ref=\"Onkelos Genesis 15:18\">Targ. Gen. XV, 18</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to circumcise, have one’s self circumcised</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 17:10\">Targ. Gen. XVII, 10</cite>; <cite ref=\"Onkelos Genesis 17:11\">11</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Leviticus 19:23\">Targ. Y. Lev. XIX, 23</cite> <he>ג׳ גזרא</he> (h. text <he>ערל ערלה</he>, v. <cite ref=\"P01387\"><he>עָרְלָה</he></cite>).—Part. pass. <cite ref=\"C00551\"><he>גְּזִיר</he></cite>, pl. <he>גְּזִירִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 17:13\">Targ. Y. Gen. XVII, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 5:5\">Targ. Josh. V, 5</cite>; a. e.—",
+				"<cite ref=\"Makkot 11a:16\">Macc. 11ᵃ</cite> (prov.) <he>שכם נסיב ומבגאי גזיר</he> (<cite ref=\"Bereishit Rabbah 80:8\">Gen. R. s. 80</cite> <he>ומגבאי קטע</he>) Shechem wants to marry (Dinah), and Mabgai (his subject) must submit to circumcision. Gen. R. l. c. <he>גְּזוֹר</he> be thou circumcised. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 3:12:13\">Y. Kidd. III, 64ᵈ</cite> bot. <he>מהו מִיגְזוֹר וכ׳</he> how about circumcising … on the Sabbath? <cite ref=\"Jerusalem Talmud Shabbat 19:1:6\">Y. Sabb. XIX, 16ᵈ</cite> bot. <he>הוה ליה עובדא למיגזור וכ׳</he> had a case, when he was to have his son … circumcised (on a Sabbath). ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:11:4\">Y. Meg. I, 72ᵇ</cite> bot. <he>אזל וג׳</he> he (Antoninus) went and had himself circumcised; (<cite ref=\"Jerusalem Talmud Sanhedrin 10:5:3\">Y. Snh. X, 29ᶜ</cite> <he>וגייר גרמיה</he>); <cite ref=\"Kohelet Rabbah 9:10:2\">Koh. R. to IX, 10</cite> <he>הוה גזיר</he> was circumcised; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to decree; to enact a prohibition as a precautionary measure, to prohibit, guard</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 22:28\">Targ. Job XXII, 28</cite>; a. e. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 21:17\">Targ. Is. XXI, 17</cite> <he>גְזִיר כן</he> it is so decreed.—",
+				"<cite ref=\"Avodah Zarah 36a:9\">Ab. Zar. 36ᵃ</cite> <he>ואתי אינהו וגָזוּר וכ׳</he> and they came and forbade (gentile bread &c.) even in the field. ",
+				"<cite ref=\"Shabbat 14a:2\">Sabb. 14ᵃ</cite> <he>גַּזְרֵי ביה … טומאה</he> declared him unclean.—",
+				"<cite ref=\"Shabbat 53b:9\">Ib. 53ᵇ</cite> <he>ולא גַזְרִינָן דילמא וכ׳</he> and we do not prohibit it (from fear) lest he may &c. ",
+				"<cite ref=\"Avodah Zarah 38b:15\">Ab. Zar. 38ᵇ</cite> <he>גזרינן הא אטו הא</he> we may forbid one thing in order to ward off from another thing; a. v. fr. V. <cite ref=\"C00581\"><he>גְּזֵרָה</he></cite>."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְגְּזַר", "אִתְגְּזֵיר"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut off</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 18:14\">Targ. Job XVIII, 14</cite>; a. e.—Ms. <he>מתגייר׳</he>; h. text <he>יתמלל׳</he>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 58:8\">Targ. Ps. LVIII, 8</cite> (Var. <he>מתגורר׳</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be decreed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 8:4\">Targ. Koh. VIII, 4</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

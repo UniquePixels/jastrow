@@ -1,0 +1,23 @@
+{
+	"id": "V00440",
+	"slug": "תיירא",
+	"headword": {
+		"text": "תַּיָּירָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1664,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"V00181\"><he>תַּוָּורָא</he></cite>, <i>ox-driver, plougher</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 54b:1\">B. Bath. 54ᵇ</cite> he gets possession of the whole field, when he digs <he>כדאזיל ת׳ דתורי והדר</he> (Ms. M. <cite ref=\"V00181\"><he>תוורא</he></cite>; Ms. H. <cite ref=\"V00440\"><he>תַּיָּארָא</he></cite>; Ms. R. <he>תַּיּוֹרָא</he>, v. Rabb. D. S. a. l. note) as far as the plougher goes with his oxen and turns around, i.e. when he digs the distance of an ordinary bed in the field; (Rashb. <he>כדאזיל תְּיָירָא דתורי וכ׳</he> when <i>a yoke of oxen</i> goes over the entire length (or breadth) of the field and turns back, i.e. two beds all along the field)."
+			]
+		}
+	]
+}

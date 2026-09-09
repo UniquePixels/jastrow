@@ -1,0 +1,28 @@
+{
+	"id": "Q00371",
+	"slug": "פורסן",
+	"headword": {
+		"text": "פּוּרְסָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "פּוּרְסָנָא"
+		}
+	],
+	"page": {
+		"number": 1147,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פְּרַס</he> I, cmp. <cite ref=\"Q00368\"><he>פּוּרְסָא</he></cite>) <i>distribution, arrangement, assessment, valuation</i> (h. <cite ref=\"P01377\"><he>עֶרֶךְ</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 27:2\">Targ. O. Lev. XXVII, 2</cite>, sq. ",
+				"<cite ref=\"Onkelos Leviticus 5:15\">Ib. V, 15</cite>; a. fr.—[Denom. <cite ref=\"A01569\"><he>אִיפַּרְסֵן</he></cite> q. v.]"
+			]
+		}
+	]
+}

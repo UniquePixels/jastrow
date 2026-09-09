@@ -1,0 +1,23 @@
+{
+	"id": "K00187",
+	"slug": "כוביתא",
+	"headword": {
+		"text": "כּוּבִּיתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 616,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00028\"><he>כְּבַב</he></cite>, cmp. <cite ref=\"K00179\"><he>כּוּב</he></cite>) <i>a little globe</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 24a:8\">R. Hash. 24ᵃ</cite> <he>כ׳ דעיבא וכ׳</he> ed. (Ms. M. 1 <cite ref=\"K00251\"><he>כּוֹכְבִיתָא</he></cite>, Ms. M. 2 a. Ar. <cite ref=\"K00255\"><he>כוכיתא</he></cite>) they saw merely a globe-shaped cloudlet (which, they thought, was the moon)."
+			]
+		}
+	]
+}

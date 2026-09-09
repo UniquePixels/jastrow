@@ -1,0 +1,37 @@
+{
+	"id": "U00151",
+	"slug": "שבנא",
+	"headword": {
+		"text": "שֶׁבְנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֶׁבְנָה"
+		}
+	],
+	"page": {
+		"number": 1515,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Shebna</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " officer in high position in King Hezekiah’s court. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 5:5\">Lev. R. s. 5</cite>. ",
+				"<cite ref=\"Sanhedrin 26b:2\">Snh. 26ᵇ</cite> <he>ש׳ בעל הנאה היה</he> Shebna was a sensual man; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " a brother of Hillel. ",
+			"units": [
+				"<cite ref=\"Sotah 21a:17\">Sot. 21ᵃ</cite>, v. <cite ref=\"P01056\"><he>עִסְקָא</he></cite>"
+			],
+			"label": "2"
+		}
+	]
+}

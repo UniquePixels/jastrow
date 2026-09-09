@@ -1,0 +1,23 @@
+{
+	"id": "S01540",
+	"slug": "קנווא",
+	"headword": {
+		"text": "קַנְוָוא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1389,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְנֵי</he> II) <i>he that gives possession</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 9:7:1\">Y. Snh. IX, end, 27ᵇ</cite>, v. <cite ref=\"S00940\"><he>קַיְינָא</he></cite>."
+			]
+		}
+	]
+}

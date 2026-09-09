@@ -1,0 +1,27 @@
+{
+	"id": "H01593",
+	"slug": "חרגא-2",
+	"headword": {
+		"text": "חִרְגָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִירְ׳"
+		}
+	],
+	"page": {
+		"number": 498,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H01592\">preced.</cite>) [<i>saw-dust</i>,] <i>sun-motes</i> (cmp. <cite ref=\"N00960\"><he>נָסַר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Yoma 20b:10\">Yoma 20ᵇ</cite> <he>האי ח׳ דיומא לא וכ׳</he> those sun-motes are called <i>la</i> (<cite ref=\"Daniel 4:32\">Dan. IV, 32</cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "T00768",
+	"slug": "רכן-1",
+	"headword": {
+		"text": "רָכַן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1479,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"T00767\">preced.</cite> wds.) <i>to be tender, soft</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִיכֵּן"],
+			"senses": [],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִרְכִּין"],
+			"senses": [
+				{
+					"gloss": "<i>to make tender; to prevent onion plants from forming hard bulbs</i>. Y. Shebi. V, 36ᵃ top [read:] <he>היתה שניה … אינו מְרַכְּנוֹ … בשביל שיהא מעשר שני</he> in the second year (of the Sabbatical period) going over to the third, you must not ‘soften’ it (the onion plant) nor deny it water, in order that it may be subject to the second tithes (as a growth of the second year, to the deprivation of the poor man); <he>היתה שלישית … מרכנו … מעשר עני</he> in the third year going over to the fourth, you may ‘soften’ and deny it water, in order that it be subject to the poor man’s tithes (as a growth of the third year); <cite ref=\"Tosefta Shevi'it 2:10\">Tosef. ib. II, 10</cite> <he>מַרְכִּיכִין</he> ed. Zuck. (Var. <he>מודכין</he>, prob. to be read <he>מוֹרְכִין</he> fr. <cite ref=\"M02696\"><he>מָרַךְ</he></cite>). ",
+					"units": [
+						"<cite ref=\"Tosefta Shevi'it 2:10\">Ib.</cite> <he>מותר לרַכֵּן ברגל</he> ed. Zuck. (Var. <he>לדכן</he>, oth. ed. <he>לדוכן</he>) it is permitted to ‘soften’ during the festive week.—[Y. Ter. IX, beg. 46ᶜ <he>המרכין</he>, v. <cite ref=\"T00772\"><he>רָכַס</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

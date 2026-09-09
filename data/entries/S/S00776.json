@@ -1,0 +1,33 @@
+{
+	"id": "S00776",
+	"slug": "קטלא-2",
+	"headword": {
+		"text": "קַטְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַטְלָה"
+		}
+	],
+	"page": {
+		"number": 1349,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (catella) <i>chain, necklace</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 11:8\">Kel. XI, 8</cite> <he>ק׳ שחוליות שלה וכ׳</he> a chain the links of which are of metal and strung on a linen or a woolen thread. ",
+				"<cite ref=\"Mishnah Kelim 11:8\">Ib.</cite> <he>שירי ק׳ וכ׳</he> the fragments of a necklace (in order to be susceptible of levitical uncleanness) must be large enough &c. ",
+				"<cite ref=\"Mishnah Meilah 5:1\">Meïl. V, 1</cite>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 1:9\">Tosef. Kel. B. Mets. I, 9</cite>; a. fr.—Pl. <cite ref=\"S00295\"><he>קַטְלָאוֹת</he></cite>, <he>קַטְלָיוֹת</he>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 1:13\">Ib. 13</cite>; Kel. l. c. ",
+				"<cite ref=\"Mishnah Avodah Zarah 1:8\">Ab. Zar. I, 8</cite> (<cite ref=\"Avodah Zarah 19b:15\">19ᵇ</cite>) <he>אין עושין … קוטלאות וכ׳</he> (omitted in Y. ed.) you must not manufacture jewelry for idols: necklaces &c.; a. e.—",
+				"<cite ref=\"Bereishit Rabbah 98:18\">Gen. R. s. 98</cite> <he>שירין וקַטְלִין וכ׳</he> chains, necklaces &c."
+			]
+		}
+	]
+}

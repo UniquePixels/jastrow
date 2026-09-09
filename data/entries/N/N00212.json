@@ -1,0 +1,56 @@
+{
+	"id": "N00212",
+	"slug": "נדד-2",
+	"headword": {
+		"text": "נְדַד"
+	},
+	"page": {
+		"number": 878,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00211\">same</cite>, <i>to be restless, flee</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 7:4\">Targ. Job VII, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 55:8\">Targ. Ps. LV, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 6:1\">Targ. Esth. VI, 1</cite> <he>נָדַת</he>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַדֵּד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00211\">same</cite>.",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 15:23\">Targ. Job XV, 23</cite> (some ed. <he>מַנְדַּד</he> part. pass. <i>Af. driven about</i>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make</i> (<i>sleep</i>) <i>flee, to keep awake</i>. Targ. Esth. l. c. <cite ref=\"N00212\"><he>נַדֵּיד</he></cite> ed. Lag. (ed. Amst. <cite ref=\"N00212\"><he>נְדַד</he></cite>; oth. ed. <cite ref=\"N00222\"><he>נַדֵּי</he></cite>; corr. acc.).",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to cause to be sleepless</i>. Targ. II Esth. l. c.",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְנְדַד"],
+			"senses": [
+				{
+					"gloss": "<i>to be restless, agitated</i>. Ib.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

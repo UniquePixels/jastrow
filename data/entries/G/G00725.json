@@ -1,0 +1,28 @@
+{
+	"id": "G00725",
+	"slug": "זרע-4",
+	"headword": {
+		"text": "זְרַע",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זַרְעָא"
+		}
+	],
+	"page": {
+		"number": 414,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00724\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:11\">Targ. O. Gen. I, 11</cite>; a. fr. <cite ref=\"G00325\"><he>בר ז׳</he></cite> that which is fit for propagation, <i>seed-capsule</i>, v. <cite ref=\"B00572\"><he>בִּיזְרָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:21\">Targ. Prov. XI, 21</cite>; a. fr.—",
+				"<cite ref=\"Aramaic Targum to Psalms 37:26\">Targ. Ps. XXXVII, 26</cite> Ms. (ed. <he>דרעיה</he>, v. <cite ref=\"D01117\"><he>דְּרַע</he> II</cite>).—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 7:13:4\">Y. Snh. VII, end, 25ᵈ</cite> <he>ז׳ דכיתן</he> flax-seed."
+			]
+		}
+	]
+}

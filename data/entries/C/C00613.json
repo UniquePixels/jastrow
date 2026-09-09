@@ -1,0 +1,23 @@
+{
+	"id": "C00613",
+	"slug": "גיבוי",
+	"headword": {
+		"text": "גִּיבּוּי"
+	},
+	"page": {
+		"number": 234,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00073\"><he>גבי</he></cite>) <i>collection</i> of debts, dues &c. ",
+			"units": [
+				"<cite ref=\"Bekhorot 5a:10\">Bekh. 5ᵃ</cite> <he>בג׳ כסף</he> in the Bibl. account concerning the collection of silver (<cite ref=\"Exodus 38:25\">Ex. XXXVIII, 25</cite> sq.). ",
+				"<cite ref=\"Ketubot 68a:6\">Keth. 68ᵃ</cite> <he>קודם שיבוא לידי ג׳</he> before it becomes due for collection through the court."
+			]
+		}
+	]
+}

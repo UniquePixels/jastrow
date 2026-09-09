@@ -1,0 +1,23 @@
+{
+	"id": "A01978",
+	"slug": "אמברא",
+	"headword": {
+		"text": "אִמְבְּרָא"
+	},
+	"page": {
+		"number": 75,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"P00031\"><he>עִבּוּרָא</he></cite>; <cite ref=\"M00001\"><he>מ׳</he></cite> inserted) <i>crop, store</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 105a\">Keth. 105ᵃ</cite> smelt at (was an expert of) <he>א׳ דחמרא</he> (Rashi, pl.) wine stores.—Pl. <he>אִמְבְּרֵי</he>. ",
+				"<cite ref=\"Gittin 56a:10\">Gitt. 56ᵃ</cite> <he>קלנהו להנהו א׳ וכ׳</he> set fire to all those stores of wheat and barley."
+			]
+		}
+	]
+}

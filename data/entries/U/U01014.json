@@ -1,0 +1,23 @@
+{
+	"id": "U01014",
+	"slug": "שיפויין",
+	"headword": {
+		"text": "שִׁיפּוּיָין"
+	},
+	"page": {
+		"number": 1566,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"U01013\"><he>שָׁיפּוּי</he> I</cite>) [<i>chips</i>?,] name of a sort of <i>cakes</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 16:31\">Targ. Y. II, Ex. XVI, 31</cite> (Y. I <cite ref=\"A03296\"><he>אֲשִׁישְׁיָין</he></cite>; h. text <he>צפיחת</he>)."
+			]
+		}
+	]
+}

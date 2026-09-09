@@ -1,0 +1,26 @@
+{
+	"id": "H01603",
+	"slug": "חרדל",
+	"headword": {
+		"text": "חַרְדָּל"
+	},
+	"page": {
+		"number": 499,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00168\"><he>חד</he></cite>, with <cite ref=\"T00000\"><he>ר</he></cite> inserted; cmp. <cite ref=\"C00153\"><he>גַּד</he> I</cite>) <i>mustard</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:2\">Kil. I, 2</cite> <he>ח׳ וח׳ המצרי</he> common mustard and Egyptian mustard. ",
+				"<cite ref=\"Berakhot 40a:7\">Ber. 40ᵃ</cite> <he>הרגיל בח׳ וכ׳</he> he who is used to take mustard once in &c. ",
+				"<cite ref=\"Berakhot 31a\">Ib. 31ᵃ</cite>, a. e. <he>כח׳</he> as large as a grain of mustard; a. fr.—Pl. <cite ref=\"H01604\"><he>חַרְדְּלִים</he></cite>, <cite ref=\"H01604\"><he>חַרְדְּלִין</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 6:11:1\">Cant. R. to VI, 11</cite> <he>כמה ח׳</he> ever so many grains of &c. ",
+				"<cite ref=\"Bava Batra 25b:10\">B. Bath. 25ᵇ</cite> <he>הרחק דבורך מן חַרְדְּלַיי</he> keep thy bee-hive from my mustard plants; <cite ref=\"Bava Batra 18a:15\">ib. 18ᵃ</cite> <cite ref=\"H01604\"><he>חַרְדְּלַאי</he></cite> (Ms. F. a. R. <cite ref=\"H01604\"><he>חרדלַי</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "P00918",
+	"slug": "עמק-2",
+	"headword": {
+		"text": "עֲמַק"
+	},
+	"page": {
+		"number": 1090,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P00917\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַעֲמִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to grow deeper</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 30:33\">Targ. Is. XXX, 33</cite> <he>לאַעֲמָקָא</he> ed. Lag. (ed. Wil. <he>לַעֲמִיקָא</he> = <he>לְאַעֲ׳</he>; oth. ed. <he>לעַמָּקָא</he>, <i>Pa.</i>), v. preced.—[<cite ref=\"Aramaic Targum to Proverbs 28:6\">Targ. Prov. XXVIII, 6</cite> <he>דמעמיק מן</he> Var. ed. Lag., v. <cite ref=\"P01198\"><he>עֲקם</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

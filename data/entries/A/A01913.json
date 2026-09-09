@@ -1,0 +1,23 @@
+{
+	"id": "A01913",
+	"slug": "אלמון-1",
+	"headword": {
+		"text": "אַלְמוֹן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 71,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <he>אלם</he>) <i>a cedar species, oak</i> [or <i>terebinth</i>]. . ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 23a:7\">R. Hash. 23ᵃ</cite>; <cite ref=\"Bava Batra 80b:18\">B. Bath. 80ᵇ</cite>; v. <cite ref=\"B00234\"><he>בּוּטְמָא</he></cite> a. <cite ref=\"B00828\"><he>בְּלוּט</he></cite>."
+			]
+		}
+	]
+}

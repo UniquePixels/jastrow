@@ -1,0 +1,52 @@
+{
+	"id": "R00273",
+	"slug": "צחי",
+	"headword": {
+		"text": "צְחִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְחָא"
+		},
+		{
+			"text": "צה׳"
+		}
+	],
+	"page": {
+		"number": 1273,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to be parched</i> in the sun,] <i>to be dry; to thirst</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 17:3\">Targ. O. Ex. XVII, 3</cite> (v. Berl. Targ. O. II, p. 25). ",
+				"<cite ref=\"Aramaic Targum to Ruth 2:9\">Targ. Ruth II, 9</cite> (ed. Lag. <cite ref=\"R00273\"><he>צה׳</he></cite>); a. fr.—Part. <cite ref=\"R00273\"><he>צָחֵי</he></cite>, <cite ref=\"R00274\"><he>צָחְיָא</he></cite>; f. <cite ref=\"R00274\"><he>צָחְיָא</he></cite>; pl. <he>צָחְיִין</he>, <he>צָחְיָין</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 21:14\">Targ. Is. XXI, 14</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 107:35\">Targ. Ps. CVII, 35</cite> (ed. Wil. <cite ref=\"R00331\"><he>צִיחֲיָא</he></cite>; ed. Lag. <he>צִיהֲ׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 107:5\">Ib. 5</cite> <cite ref=\"R00276\"><he>צָחְיָן</he></cite> ed. Wil. (ed. Lag. <he>צְהִינִין</he>; oth. ed. <he>צְחִינִ׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 78:17\">Ib. LXXVIII, 17</cite> <cite ref=\"R00273\"><he>צָחֵי</he></cite> (not <he>צְ׳</he>) a. fr.—",
+				"<cite ref=\"Aramaic Targum to Psalms 68:7\">Ib. LXVIII, 7</cite> Ms., v. <cite ref=\"R00272\"><he>צְחַח</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Pesachim 10:1:2\">Y. Pes. X, beg. 37ᵇ</cite> <he>סחה וצחא</he> bathed and became thirsty. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 10:1:2\">Ib.</cite> [read:] <he>בגין דאנא צחי וכ׳</he> since I am thirsty, may I drink? <cite ref=\"Bereishit Rabbah 98:13\">Gen. R. s. 98</cite>, v. <cite ref=\"Q00542\"><he>פַּטְפֵּט</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 6:4:5\">Y. Yoma VI, 43ᵈ</cite> top <he>צָחֵינָא</he> I am thirsty. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 6:4:5\">Ib.</cite> <he>צחייא אנא</he>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["(אַצְהֵי) אַצְחֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to make dry; to cause to feel thirst</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 48:21\">Targ. Is. XLVIII, 21</cite> <he>ולא אַצְחֵינוּן</he> (ed. Lag. <he>אצה׳</he>) I suffered them not to thirst. ",
+						"<cite ref=\"Aramaic Targum to Job 24:11\">Targ. Job XXIV, 11</cite> <he>ומריהון אַצְחִיאוּ</he> (ed. Lag. <he>אַצְהִיוּ</he>) and cause their (legitimate) owners to thirst (h. text <he>ויצמאו</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

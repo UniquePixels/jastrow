@@ -1,0 +1,30 @@
+{
+	"id": "A00286",
+	"slug": "אגחותא",
+	"headword": {
+		"text": "אַגָּחוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָגָחוּתָא"
+		},
+		{
+			"text": "אֲגִיח׳"
+		}
+	],
+	"page": {
+		"number": 12,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גוח</he>, <he>נגח</he>) <i>fighting</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 110:3\">Targ. Ps. CX, 3</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "T00959",
+	"slug": "רפפות",
+	"headword": {
+		"text": "רְפָפוֹת"
+	},
+	"page": {
+		"number": 1491,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"T00958\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>loose lattice work</i> (with wide meshes). Ohol. XIII, 1, contrad. to <cite ref=\"O01604\"><he>סריגות</he></cite>. Tosef. ib. XIV, 3 <he>ר׳ אלו הן סריגות אלו של … של אילקטאות</he> (not <he>איקלטאות</he>) <i>r’fafoth</i> are the same as <i>s’rigoth</i>, the latter being for storehouses, the former for sheds.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cases of levitical uncleanness arising from vibrations caused by unclean persons</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 11:2\">Par. XI, 2</cite> (synonymous with <he>רעדות</he>, v. <cite ref=\"T00879\"><he>רְעָדָה</he></cite>); <cite ref=\"Tosefta Parah 11:2\">Tosef. ib. XI</cite> (<cite ref=\"Tosefta Parah 10:1\">X</cite>), 1 <he>הרְפוּפוֹת</he> ed. Zuck. (oth. ed. <he>הרְפִיפוֹת</he>). Y. Ab. Zar. II, end, 42ᵃ <he>הן ר׳ הן רעלות</he>, v. <cite ref=\"T00879\"><he>רְעָדָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

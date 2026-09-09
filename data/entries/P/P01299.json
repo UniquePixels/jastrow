@@ -1,0 +1,28 @@
+{
+	"id": "P01299",
+	"slug": "ערדילין",
+	"headword": {
+		"text": "עַרְדִּילִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַרְדְּלִין"
+		}
+	],
+	"page": {
+		"number": 1114,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (prob. from their shape and softness, v. <cite ref=\"A03005\"><he>אַרְדִּילָא</he></cite>) <i>felt-soles with heels</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 15a:2\">Bets. 15ᵃ</cite> <he>ערדי׳</he> Ms. M. (ed. <he>ערדל׳</he>; Ar. <he>עדרילין</he>; v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "Q00633",
+	"slug": "פיטקא",
+	"headword": {
+		"text": "פִּיטְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּטְ׳"
+		},
+		{
+			"text": "פְּטִיקָא"
+		}
+	],
+	"page": {
+		"number": 1162,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00632\">same</cite><i>ballot, lot; fate, decree</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 3:2:3\">Koh. R. to III, 2</cite> <he>חייך דאת מחמי לי פִּיטְקִי</he> by thy life, thou must show me my fate.—Pl. <he>פִּיטְקַיָּא</he>, <cite ref=\"Q00713\"><he>פִּיטְקִין</he></cite>, <cite ref=\"Q00624\"><he>פִּטְ׳</he></cite>, <he>פְּטִיקַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 11:26\">Targ. Y. I Num. XI, 26</cite> (v. Y. Snh. I, 19ᶜ bot.).—Koh. R. l. c. <he>היך מה דלית … את שליט על פִּיטְקֵינָן וכ׳</he> as thou hast no power over our (the scholars’) fate &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>tablet, official letter</i> (corresp. to h. <he>ספר</he> or <he>אגרת</he>; cmp. <cite ref=\"Q02124\"><he>פִּתְגָּם</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 9:32\">Targ. Esth. IX, 32</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 31:35\">Targ. Job XXXI, 35</cite>; a. e.—Pl. as ab. ",
+				"<cite ref=\"Aramaic Targum to Esther 1:22\">Targ. Esth. I, 22</cite>; a. fr.—V. <cite ref=\"Q00905\"><he>פִּיתְקָא</he></cite>"
+			],
+			"label": "2"
+		}
+	]
+}

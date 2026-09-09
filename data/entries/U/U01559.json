@@ -1,0 +1,58 @@
+{
+	"id": "U01559",
+	"slug": "שנא-2",
+	"headword": {
+		"text": "שָׂנֵא"
+	},
+	"page": {
+		"number": 1604,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to hate</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 49b:11\">Pes. 49ᵇ</cite> <he>גדולה שנאה ששׂוֹנְאִין וכ׳</he> great is the hatred with which the ignorant hate the scholar, even greater than that which gentiles bear towards Israel. ",
+				"<cite ref=\"Pesachim 113b:8\">Ib. 113ᵇ</cite> <he>שלשה שׂוֹנְאָן</he> three classes of men does the Lord hate. ",
+				"<cite ref=\"Pesachim 113b:8\">Ib.</cite> <he>שלשה שונאין זה וכ׳</he> three kinds of creatures hate one another, the dog &c. ",
+				"<cite ref=\"Pesachim 113b:6\">Ib.</cite> <he>מצוה לִשְׂנֹאתוֹ</he> (Var. <he>מותר</he>) it is right (permitted) to hate him. ",
+				"<cite ref=\"Pesachim 113b:5\">Ib.</cite> <he>שִׂנְאוּ את אדניכם</he> hate your masters. ",
+				"<cite ref=\"Sanhedrin 108b:3\">Snh. 108ᵇ</cite> the raven said to Noah, <he>רבך שׂוֹנְאֵנִי ואתה שְׂנֵאתַנִי</he> thy master (God) hates me, and thou hatest me. ",
+				"<cite ref=\"Pirkei Avot 1:10\">Ab. I, 10</cite> <he>אהוב … ושְׂנָא וכ׳</he> love work and hate office; a. fr.—Part. pass. <cite ref=\"U01574\"><he>שָׂנוּא</he></cite>; f. <he>שְׂנוּאָה</he> &c. ",
+				"<cite ref=\"Kiddushin 68a:9\">Kidd. 68ᵃ</cite>; <cite ref=\"Yevamot 23a:2\">Yeb. 23ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 21:15\">Deut. XXI, 15</cite>) <he>וכי יש ש׳ לפני המקום וכ׳</he> is there before God a hated one and a beloved one (could it be supposed that the law should allow a discrimination between the children of a favored and of a hated wife)? <cite ref=\"Deuteronomy 21:15\">Ib.</cite> <he>ש׳ בנישואיה</he>, v. <cite ref=\"N00795\"><he>נִישּׂוּאִין</he></cite>; a. e.—Sifra K’doshim, Par. 3, ch. VIII <he>שָׂנְאוּי</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִשְׂנָא"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִשְׂתַּנֵּא"],
+			"senses": [
+				{
+					"gloss": "<i>to be hated</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4<sup>8</sup></cite> <he>הר ס̇ינ̇י שבו נִשְׂנְאוּ וכ׳</he> it is called Mount Sinai, because on it the gentiles became hateful to the Lord &c. (v. <cite ref=\"U01565\"><he>שִׂנְאָה</he></cite>); <cite ref=\"Yalkut Shimoni on Nach 363\">Yalk. Is. 363</cite> <he>נִשְׂתַּנְּאוּ</he>. ",
+						"<cite ref=\"Taanit 7b:9\">Taan. 7ᵇ</cite> (ref. to <he>ישנא</he>, <cite ref=\"Ecclesiastes 8:1\">Koh. VIII, 1</cite>) <he>א״ת ישונא אלא יִשָּׂנֵא</he> read not <i>y’shunne</i> (shall be changed), but <i>yissane</i> (shall be hated)."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["שׂוּנָּא"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01558\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite> (ref. to Koh. l. c.) <he>יְשׂוּנֶּא יְסוּנֶּה בסמ״ך</he> read <i>y’sunne</i>, with Samekh (v. supra)."
+					]
+				}
+			],
+			"stem": "Pu."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "J00650",
+	"slug": "ירע-1",
+	"headword": {
+		"text": "יָרַע"
+	},
+	"page": {
+		"number": 597,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"T00914\"><he>הוֹרַע</he></cite>; <i>Hof.</i> <cite ref=\"T00914\"><he>הוּרע</he></cite>, v. <cite ref=\"T00914\"><he>רָעַע</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

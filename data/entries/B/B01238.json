@@ -1,0 +1,41 @@
+{
+	"id": "B01238",
+	"slug": "ברי-4",
+	"headword": {
+		"text": "ברי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּרָה"
+		}
+	],
+	"page": {
+		"number": 192,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to cut out</i> (v. <cite ref=\"B01153\"><he>בָּרָא</he></cite>). Part. pass. <cite ref=\"B01207\"><he>בָּרוּי</he></cite>, fem. <he>בְּרוּיָה</he> <i>hollowed out</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kelim Kamma 3:3\">Tosef. Kel. B. Kam. III, 3</cite>, v. <cite ref=\"H00665\"><he>חִידּוּק</he></cite> a. <cite ref=\"K01095\"><he>כָּרָה</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִבְרָה"],
+			"senses": [
+				{
+					"gloss": "denom. of <cite ref=\"B01239\"><he>בָּרִי</he></cite> , v. <cite ref=\"B01236\"><he>ברי</he> I</cite> Hif.) <i>to strengthen, to offer refreshment</i>, esp. to mourners on coming from the funeral. ",
+					"units": [
+						"<cite ref=\"Mishnah Moed Katan 3:7\">M. Kat. III, 7</cite> <he>ואין מַבְרִין</he> and no mourner’s meal is offered (during the festive week). ",
+						"<cite ref=\"Mishnah Sanhedrin 2:3\">Snh. II, 3</cite>. ",
+						"<cite ref=\"Sanhedrin 20a:3\">Ib. 20ᵃ</cite>, v. <cite ref=\"K01095\"><he>כָּרָה</he></cite>; a. fr. V. <cite ref=\"E00051\"><he>הַבְרָאָה</he></cite>. [Y. Sabb. VII, 10ᵃ top <he>המברה בחרשים</he> read <he>המבְהֶה</he>, v. <cite ref=\"B00170\"><he>בהי</he></cite> h.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

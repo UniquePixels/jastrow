@@ -1,0 +1,26 @@
+{
+	"id": "D00799",
+	"slug": "דל-3",
+	"headword": {
+		"text": "דַּל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 308,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"D00841\"><he>דָּלַל</he></cite>)<i>thin, sparse; poor, needy</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 5:1\">Kil. V, 1</cite> <he>כרם ד׳</he> a sparsely planted vineyard; Y. ib. 29ᵈ bot. <he>ד׳ בגפנים וכ׳</he> poor concerning vines, and rich as regards labor (requiring as much labor as a thickly planted vineyard). ",
+				"<cite ref=\"Vayikra Rabbah 34:6\">Lev. R. s. 34</cite>, v. <cite ref=\"D00807\"><he>דִּלְדֵּל</he></cite>; a. fr.—Pl. <he>דַּלִּים</he>. ",
+				"<cite ref=\"Shabbat 104a:4\">Sabb. 104ᵃ</cite>, v. <cite ref=\"C00743\"><he>גימ״ל</he></cite>. Tanḥ. B’har 3 <he>ד׳ ממע״ט</he> they were void of good deeds. ",
+				"<cite ref=\"Bamidbar Rabbah 5:2\">Num. R. s. 5</cite> <he>ד׳ במניין</he> small in numbers; a. fr.—<he>דַּלֵּי דַלּוּת</he>, v. <cite ref=\"D00824\"><he>דַּלּוּת</he></cite>."
+			]
+		}
+	]
+}

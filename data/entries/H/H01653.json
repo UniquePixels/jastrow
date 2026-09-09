@@ -1,0 +1,25 @@
+{
+	"id": "H01653",
+	"slug": "חרחור-1",
+	"headword": {
+		"text": "חַרְחוֹר"
+	},
+	"page": {
+		"number": 501,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (reduplic. of <he>חור</he>, v. <cite ref=\"H01770\"><he>חָרַר</he> I</cite>) [<i>point of a lance</i>, v. Maim. to <cite ref=\"Mishnah Kelim 13:3\">Kel. XIII, 3</cite> ed. Dehr.,] <i>the coulter</i>, inserted into the horizontal pole (<cite ref=\"M02555\"><he>מַרְדֵּעַ</he></cite>) in front of the ploughshare (<cite ref=\"D01033\"><he>דָּרְבָן</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:3\">Kel. XIII, 3</cite>. ",
+				"<cite ref=\"Mishnah Kelim 25:2\">Ib. XXV, 2</cite>, v. <cite ref=\"V00193\"><he>תָּוֶךְ</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 3:7\">Tosef. Kel. B. Mets. III, 7</cite>. ",
+				"<cite ref=\"Tosefta Keilim Batra 3:5\">Tosef. Kel. B. Bath. III, 5</cite>."
+			]
+		}
+	]
+}

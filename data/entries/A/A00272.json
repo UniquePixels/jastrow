@@ -1,0 +1,24 @@
+{
+	"id": "A00272",
+	"slug": "אגוסטיאני",
+	"headword": {
+		"text": "אָגוּסְטְיָאנִי"
+	},
+	"page": {
+		"number": 12,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>Augustiani</i>, a Prætorian legion entitled to proclaim the emperor. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 1:15\">Esth. R. to I, 3</cite>, end <he>דקומייני א׳</he> the Decumani (or Decimani) and the Aug.—",
+				"<cite ref=\"Bereishit Rabbah 94\">Gen. R. s. 94</cite> <cite ref=\"C00674\"><he>גאו׳</he></cite> (corr. acc.); v. Sachs. Beitr. I, 113 sq."
+			]
+		}
+	]
+}

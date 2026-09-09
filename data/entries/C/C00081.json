@@ -1,0 +1,27 @@
+{
+	"id": "C00081",
+	"slug": "גביות",
+	"headword": {
+		"text": "גַּבָּיוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּבָּאוּת"
+		}
+	],
+	"page": {
+		"number": 206,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C00073\"><he>גבי</he></cite>) <i>collectorship, office of</i> <cite ref=\"C00038\"><he>גַּבַּאי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 2:3:7\">Y. Dem. II, 23ᵃ</cite> top <he>יצא מגַּבָּיוּתוֹ</he> (not <he>מגבייתו</he>); <cite ref=\"Tosefta Demai 3:4\">Tosef. ib. III, 4</cite> <he>פירש מגביותו</he> (ed. Zuck. <he>ייתו …</he>, some ed. <he>מגַּבָּאוּתוֹ</he>) as soon as he has resigned his office as (Roman) tax-collector."
+			]
+		}
+	]
+}

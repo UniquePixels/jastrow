@@ -1,0 +1,29 @@
+{
+	"id": "A01619",
+	"slug": "אישון",
+	"headword": {
+		"text": "אִישׁוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲשׁוּן"
+		}
+	],
+	"page": {
+		"number": 60,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. constr. (v. <cite ref=\"A03332\"><he>אֲשַׁן</he></cite> a. b. h. <cite ref=\"A01619\"><he>אִישׁוֹן</he></cite>) <i>essence, exact time, season</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 18:5\">Targ. Y. Gen. XVIII, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 28:10\">Ib. XXVIII, 10</cite>; a. fr. (in Targ. Y.).—Pl. <cite ref=\"A03269\"><he>אֲשׁוּנֵי</he></cite>, <he>אִשׁוּנֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 15:25\">Targ. Y. Lev. XV, 25</cite>; <cite ref=\"Deuteronomy 31:10\">Deut. XXXI, 10</cite>. Cmp. <cite ref=\"A01655\"><he>אֵיתָן</he></cite>."
+			]
+		}
+	]
+}

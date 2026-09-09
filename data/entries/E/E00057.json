@@ -1,0 +1,22 @@
+{
+	"id": "E00057",
+	"slug": "הגבלה",
+	"headword": {
+		"text": "הַגְבָּלָה"
+	},
+	"page": {
+		"number": 330,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גבל</he>) <i>setting bounds, marking off</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 87a:8\">Sabb. 87ᵃ</cite> <he>מצות ה׳</he> the command concerning the setting of bounds at Mount Sinai (<cite ref=\"Exodus 19:12\">Ex. XIX, 12</cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "D00106",
+	"slug": "דגל-1",
+	"headword": {
+		"text": "דָּגַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 279,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"D00106\"><he>דִּגֵּל</he></cite>, <he>דִּיגֵּל</he> (denom. of <cite ref=\"D00109\"><he>דֶּגֶל</he></cite>) <i>to outgeneral, play tricks</i> (cmp. στραταγέω a. καταστραταγέω). ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 2:4\">Cant. R. to II, 4</cite> (play on <he>ודגלו</he> <cite ref=\"Shir HaShirim Rabbah 2:4\">ib.</cite>) <he>אפי׳ אותן הַדִּיגּוּלִין שדִּיגֵּל … באביו</he> even those devices with which Jacob deceived his father."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִדְגִּיל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"D00105\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Shabbat 63a\">Sabb. 63ᵃ</cite> (play on <he>ודגלו</he>, v. supra) two students <he>המַדְגִּילִים זה לזה וכ׳</he> who outwit each other with sophistries (Tosaf. to <cite ref=\"Avodah Zarah 22b\">Ab. Zar. 22ᵇ</cite>). [Rashi: <i>who form an assembly</i> (<cite ref=\"D00109\"><he>דֶּגֶל</he></cite>) for studies, in the absence of a teacher.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"id": "D00186",
+	"slug": "דוגי",
+	"headword": {
+		"text": "דּוּגֵי"
+	},
+	"page": {
+		"number": 282,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"D00184\"><he>דוג</he></cite>, v. <cite ref=\"D00010\"><he>דָּאַג</he></cite>) <i>drippings</i> from melting fat.—<cite ref=\"D01080\"><he>בֵּי ד׳</he></cite> a receptacle for the drippings of a roast. ",
+			"units": ["<cite ref=\"Chullin 111b:2\">Ḥull. 111ᵇ</cite>"]
+		}
+	]
+}

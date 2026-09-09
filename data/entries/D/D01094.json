@@ -1,0 +1,46 @@
+{
+	"id": "D01094",
+	"slug": "דרך-1",
+	"headword": {
+		"text": "דָּרַךְ"
+	},
+	"page": {
+		"number": 323,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to tread, stamp, walk</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 1:9\">Ter. I, 9</cite> <he>ונמלך לדוֹרְכָן</he> and after consideration decided to use them for pressing. ",
+				"<cite ref=\"Shemot Rabbah 15:22\">Ex. R. s. 15</cite> <he>עתיד לִדְרוֹךְ וכ׳</he> He will tread with His shoe upon &c.; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִדְרַךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be trodden, pressed</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Terumot 1:8\">Ter. I, 8</cite> <he>ענבים הנִדְרָכוֹת</he> (Mish. ed. <he>הנִדְרָכִים</he>) grapes in the press or intended for the press."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִדְרִיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to lead, rear, train</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 76b\">Snh. 76ᵇ</cite>; <cite ref=\"Yevamot 62b:19\">Yeb. 62ᵇ</cite> <he>המַּדְרִיךְ בניו וכ׳</he> he who leads his sons … on the right path."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "M00932",
+	"slug": "מחק-4",
+	"headword": {
+		"text": "מֶחֶק"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַחַק"
+		}
+	],
+	"page": {
+		"number": 764,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00931\">preced.</cite> wds.) <i>erasure, erased spot</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 163b:8\">B. Bath. 163ᵇ</cite> bot. <he>הוא ועדיו על המ׳</he> the document itself and the signature of witnesses written over an erasure. ",
+				"<cite ref=\"Bava Batra 164a:2\">Ib. 164ᵃ</cite>; a. fr.—Pl. <he>מְחָקִין</he>. ",
+				"<cite ref=\"Bava Batra 161b:5\">Ib. 161ᵇ</cite> <he>כל המ׳ צריך וכ׳</he> all erasures written over must be ratified (on the margin)."
+			]
+		}
+	]
+}

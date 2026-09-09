@@ -1,0 +1,26 @@
+{
+	"id": "E00565",
+	"slug": "הלכא",
+	"headword": {
+		"text": "הָלְכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַלְכָא"
+		}
+	],
+	"page": {
+		"number": 353,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"E00401\"><he>הֵילֵךְ</he></cite>, <i>hither, thither</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 3:5\">Targ. O. Ex. III, 5</cite> (h. text <cite ref=\"E00575\"><he>הֲלֹם</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Judges 14:15\">Targ. Jud. XIV, 15</cite> (h. text <he>הְלֹא</he>, v. <cite ref=\"E00532\"><he>הָלָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 21:35\">Targ. Y. Num. XXI, 35</cite>; a. e."
+			]
+		}
+	]
+}

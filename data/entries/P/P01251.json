@@ -1,0 +1,37 @@
+{
+	"id": "P01251",
+	"slug": "ערב-10",
+	"headword": {
+		"text": "עֶרֶב"
+	},
+	"page": {
+		"number": 1111,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P01244\"><he>עָרַב</he> II)</cite><i>sunset, evening</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 1:3\">Ber. I, 3</cite>, sq. <he>בָּעֶ׳</he> in the evening (at prayer); a. v. fr.—Trnsf. <i>decline</i>. ",
+				"<cite ref=\"Bereishit Rabbah 50:3\">Gen. R. s. 50</cite> <he>בָּעֶרֶב בָּא עַרְבָהּ של סדום</he> <i>baʿereb</i> (<cite ref=\"Genesis 19:1\">Gen. XIX, 1</cite>), the evening of Sodom has come. Esth. R. introd. <he>מי יתן ערבה</he>, v. <cite ref=\"B01138\"><he>בֹּקֶר</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>entrance, the day preceding a certain day, the year preceding a certain period, eve</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 2:7\">Sabb. II, 7</cite> <he>ע׳ שבת</he> (abbrev. <he>ע״ש</he>) on Friday. ",
+				"<cite ref=\"Pesachim 99b:2\">Pes. 99ᵇ</cite> <he>ע׳ הפסח</he> the eve of the Passover. ",
+				"<cite ref=\"Mishnah Taanit 4:7\">Taan. IV, 7</cite> <he>ע׳ תשעה באב</he> the day preceding the ninth of Ab. ",
+				"<cite ref=\"Mishnah Sheviit 1:1\">Shebi. I, 1</cite> <he>ע׳ שביעית</he> the year preceding the Sabbatical year; a. v. fr.—<i>Du.</i> <he>עַרְבַּיִם</he>. ",
+				"<cite ref=\"Berakhot 26b:15\">Ber. 26ᵇ</cite>, a. fr. <he>בין הע׳</he> the time between the beginning of the decline of the sun and sunset (v. <cite ref=\"M01759\"><he>מִנְחָה</he></cite>), <i>afternoon</i>.—Pl. <cite ref=\"P01280\"><he>עֲרָבִים</he></cite>, constr. <cite ref=\"P01279\"><he>עַרְבֵי</he></cite>. ",
+				"<cite ref=\"Berakhot 12a:24\">Ber. 12ᵃ</cite>, v. <cite ref=\"P01244\"><he>עָרַב</he> II</cite>. [<cite ref=\"P01280\"><he>עֲרָבִין</he></cite>, v. <cite ref=\"P01284\"><he>עַרְבִית</he></cite>.]—",
+				"<cite ref=\"Mishnah Pesachim 10:1\">Pes. X, 1</cite> <he>ערבי פסחים</he> (Bab. ed. 99ᵇ <he>ערב</he>, Ms. M. <he>ערבי</he>). Ib. 99ᵇ <he>ע׳ שבתות וימים טובים</he> the eves of Sabbaths and Festivals; a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

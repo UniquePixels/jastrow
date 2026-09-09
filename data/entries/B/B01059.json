@@ -1,0 +1,26 @@
+{
+	"id": "B01059",
+	"slug": "בעץ-1",
+	"headword": {
+		"text": "בְּעַץ",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 182,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (dialectic for <cite ref=\"B01034\"><he>בְּעַט</he></cite>) <i>to tread</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 91:13\">Targ. Ps. XCI, 13</cite> <he>תבעוץ</he> some ed. (oth. <he>תבעוט</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to wrap in tin</i>, v. <cite ref=\"B01061\"><he>בְּעִיץ</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

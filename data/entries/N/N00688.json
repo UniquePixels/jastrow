@@ -1,0 +1,27 @@
+{
+	"id": "N00688",
+	"slug": "נימפיון",
+	"headword": {
+		"text": "נִימְפִּיּוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִמְ׳"
+		}
+	],
+	"page": {
+		"number": 905,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (νυμφεῖον, nympheum) <i>a fountain consecrated to the nymphs</i>, in gen. <i>fountain</i>. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Exodus 8\">Mishp. 8</cite> (some ed. <cite ref=\"N00887\"><he>נמסינן</he></cite>, corr. acc.); <cite ref=\"Shemot Rabbah 31\">Ex. R. s. 31</cite> <he>גיפיון</he> (corr. acc.)."
+			]
+		}
+	]
+}

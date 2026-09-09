@@ -1,0 +1,34 @@
+{
+	"id": "N00238",
+	"slug": "נדף-2",
+	"headword": {
+		"text": "נְדַף"
+	},
+	"page": {
+		"number": 879,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00237\">same</cite>; part. <he>נְדִיף</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 4:10\">Targ. Cant. IV, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 40:5\">Targ. Y. Ex. XL, 5</cite> (ed. Vien. <he>נָדִיף</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִינְּדִיף"],
+			"senses": [
+				{
+					"gloss": "<i>it blows</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 55a\">Ab. Zar. 55ᵃ</cite> <he>כי מִנְּדִיף בעלמא ולא אתי מיטרא</he> Ms. M., when a wind blows in the world and no rain comes, (v. <cite ref=\"C00572\"><he>גזף</he></cite>)."
+					]
+				}
+			],
+			"stem": "* ."
+		}
+	]
+}

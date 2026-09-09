@@ -1,0 +1,76 @@
+{
+	"id": "C01393",
+	"slug": "גרר-2",
+	"headword": {
+		"text": "גְּרַר"
+	},
+	"page": {
+		"number": 272,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01392\">same</cite><i>to drag, pull, push</i>.—Part. pass. <cite ref=\"C01393\"><he>גְּרִיר</he></cite> <i>dragged, following, guided by</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 14:25\">Targ. Y. II, Ex. XIV, 25</cite> <he>גְּרֵירַן וכ׳</he> (some ed. <he>גריד׳</he>) pushed from behind.—",
+				"<cite ref=\"Bava Kamma 18b:16\">B. Kam. 18ᵇ</cite> <he>בתר גופיה גְּרִירִין</he> they are clinging to his body. ",
+				"<cite ref=\"Taanit 24a:11\">Taan. 24ᵃ</cite> <he>אנן בתרייהו גרירין</he> Rashi (ed. <he>גררינן</he>, read <he>גְּרִירִינָן</he>, Ms. M. <he>קאזלינן</he>) we must be guided by their order. ",
+				"<cite ref=\"Avodah Zarah 72b:10\">Ab. Zar. 72ᵇ</cite> all the wine in the barrel <he>אגישתא … ג׳</he> moves towards the siphon. ",
+				"<cite ref=\"Bava Metzia 85a:2\">B. Mets. 85ᵃ</cite> <he>דג׳ עלמא וכ׳</he> that all the world followed David."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to scratch, scrape</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 8:16\">Targ. Jud. VIII, 16</cite>, v. <cite ref=\"C01269\"><he>גְּרַד</he></cite>.—",
+				"<cite ref=\"Chullin 83b\">Ḥull. 83ᵇ</cite> <he>ולִיגְרְרֵיה ונכסי</he> (Ar. <he>גרד</he>) let him scrape off the blood and cover it. ",
+				"<cite ref=\"Chullin 83b\">Ib.</cite> <he>ונִגְרוֹר</he>.—<i>Part.</i> <he>גָּרֵיר</he> <cite ref=\"Chullin 83b\">Ib.</cite>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to rub, to whet the appetite</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 35b:18\">Ber. 35ᵇ</cite> <he>כי היכי דנִגְרְרֵיה לליביה</he> (Ar. everywhere <he>גרד</he>) in order to stimulate his appetite. ",
+				"<cite ref=\"Berakhot 35b:18\">Ib.</cite> <he>טובא גָרֵיר</he> a large quantity has an appetizing effect. ",
+				"<cite ref=\"Pesachim 107b:7\">Pes. 107ᵇ</cite> <he>מִגְרַר גָּרֵיר</he>. ",
+				"<cite ref=\"Shabbat 140b:7\">Sabb. 140ᵇ</cite> <he>משום דג׳</he> because it stimulates the appetite."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גָּרֵיר"],
+			"senses": [
+				{
+					"gloss": "<i>to make appetizing</i>. ",
+					"units": [
+						"<cite ref=\"Esther Rabbah 3:2\">Esth. R. to I, 9</cite> [read:] <he>אנא מְגָרֵיר וכ׳</he> I will make their drinks appetizing (induce them to get intoxicated, interpreting <cite ref=\"Jeremiah 51:39\">Jer. LI, 39</cite>; differ. in comment.).—2) <i>to saw off</i>. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 33:20\">Targ. Y. Deut. XXXIII, 20</cite> <he>דמְגָרֵר וכ׳</he> (or <he>דמַגְרַר</he> Af., ed. <he>דמִגְרַר</he>, corr. acc.) for he cuts off the arm &c. (II <cite ref=\"M02251\"><he>מַפְרַק</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְגָּרַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be dragged</i>. Y. Kidd. I, 60ᵈ large bags <he>דארחיהון מִתְגָּרְרָה</he> which are commonly dragged (not lifted).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to stimulate, instigate one another</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 22:8\">Targ. Ps. XXII, 8</cite> <he>מִתְגָּרְרִין</he> (some ed. <he>מִתְגָּרְדִין</he>, ed. Lag. <he>מִתְגָּרִין</he>, fr. <cite ref=\"C01320\"><he>גרי</he></cite>; h. text <he>יפטירו</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

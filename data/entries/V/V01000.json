@@ -1,0 +1,37 @@
+{
+	"id": "V01000",
+	"slug": "תריץ-2",
+	"headword": {
+		"text": "תְּרִיץ"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּרִיצָא"
+		}
+	],
+	"page": {
+		"number": 1699,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V01053\"><he>תְּרַץ</he></cite>) <i>straight, upright</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 1:1\">Targ. Job I, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 23:7\">Ib. XXIII, 7</cite>; a. fr.—[<cite ref=\"Aramaic Targum to Psalms 45:7\">Targ. Ps. XLV, 7</cite> <he>מלכות תריץ</he> Ms. a kingdom of <i>righteousness</i>.]—Pl. <he>תְּרִיצִין</he>, <he>תְּרִיצַיָּא</he>, <he>תְּרִיצֵי</he>. ",
+				"<cite ref=\"Onkelos Exodus 23:8\">Targ. Ex. XXIII, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 107:43\">Targ. Ps. CVII, 43</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 2:21\">Targ. Prov. II, 21</cite>; a. fr.—",
+				"<cite ref=\"Chullin 8b:12\">Ḥull. 8ᵇ</cite> <he>כי תריצי</he> when the pieces of meat lie straight (as they should).—<i>Fem.</i> <cite ref=\"V01000\"><he>תְּרִיצָא</he></cite>, <cite ref=\"V01004\"><he>תְּרִיצְתָּא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 45:7\">Targ. Ps. XLV, 7</cite> <he>חוטרא ת׳</he> a straight staff (h. text <he>שבט מישר</he>, v. supra). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 12:15\">Targ. Prov. XII, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 37:37\">Targ. Ps. XXXVII, 37</cite> <he>אורחא ת׳</he> Ms. (ed. Lag. <cite ref=\"V01004\"><he>תריצתא</he></cite>, without <he>אורחא</he>; ed. Wil. <cite ref=\"V01003\"><he>תְּרִיצוּתָא</he></cite>); a. e.—Pl. <cite ref=\"V01000\"><he>תְּרִיצָן</he></cite>, <cite ref=\"V01004\"><he>תְּרִיצָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 75:3\">Ib. LXXV, 3</cite> (h. text <he>מישרים</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 2:13\">Targ. Prov. II, 13</cite>; a. fr."
+			]
+		}
+	]
+}

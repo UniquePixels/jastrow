@@ -1,0 +1,46 @@
+{
+	"id": "J00037",
+	"slug": "יבד",
+	"headword": {
+		"text": "יְבַד"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲבַד"
+		}
+	],
+	"page": {
+		"number": 560,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " Y. Shebi. IX, 38ᵈ <he>אפי׳ צפור … לא יָבְדָּא</he> even a bird perishes not without the will of God; [<cite ref=\"Bereishit Rabbah 79\">Gen. R. s. 79</cite>, a. e. <he>מתצדא</he>, <he>מצדיא</he>, v. <cite ref=\"R00100\"><he>צדי</he></cite>; <cite ref=\"Midrash Tehillim 17:11\">Midr. Till. to Ps. XVII</cite> <he>אתיא</he> (ed. Bub. <he>אתאי</he>); read: <cite ref=\"R00162\"><he>אתציד</he></cite>;] <cite ref=\"Esther Rabbah 3:2\">Esth. R. to I, 9</cite>; <cite ref=\"Kohelet Rabbah 10:8:1\">Koh. R. to X, 8</cite> <he>יברח</he> (corr. <he>יָבְדָּה</he>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יַבֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to ruin</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 12:4\">Targ. Prov. XII, 4</cite> <cite ref=\"M01166\"><he>מְיַבְּדָא</he></cite> (ed. Wil. <cite ref=\"M01291\"><he>מֵיבְדָא</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["יוֹבֵד"],
+			"senses": [
+				{
+					"gloss": ", v. <cite ref=\"J00037\"><he>אֲבַד</he></cite>",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A02923",
+	"slug": "אקמתא",
+	"headword": {
+		"text": "אַקְמְתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 112,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אקם</he> = <he>עקם</he>, cmp. <he>עכביש</he>, <cite ref=\"P00727\"><he>עכוביתא</he></cite>; Syr. <he>אמקתא</he>?, v. P. Sm. 243) <i>spider</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 30:28\">Targ. Prov. XXX, 28</cite>."
+			]
+		}
+	]
+}

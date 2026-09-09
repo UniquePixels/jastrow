@@ -1,0 +1,32 @@
+{
+	"id": "U00979",
+	"slug": "שיננא",
+	"headword": {
+		"text": "שִׁינְנָא"
+	},
+	"page": {
+		"number": 1564,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01602\"><he>שְׁנַן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>keen scholar;</i> [oth. opin.: <i>man with long teeth</i>]. ",
+			"units": [
+				"<cite ref=\"Chagigah 15b:13\">Ḥag. 15ᵇ</cite>; <cite ref=\"Berakhot 36a:15\">Ber. 36ᵃ</cite>; <cite ref=\"Eruvin 54a:4\">Erub. 54ᵃ</cite>, a. e. (applied to R. Judah)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>edge, blade</i>, v. <cite ref=\"U01604\"><he>שְׁנָנָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

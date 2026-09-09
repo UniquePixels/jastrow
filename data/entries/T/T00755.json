@@ -1,0 +1,30 @@
+{
+	"id": "T00755",
+	"slug": "רכובה",
+	"headword": {
+		"text": "רְכוּבָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְכוּבָא"
+		}
+	],
+	"page": {
+		"number": 1479,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00745\"><he>רָכַב</he></cite>; v. <cite ref=\"A03134\"><he>אַרְכּוּבָה</he></cite>) <i>joint, knee</i>; <i>bend</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 76a:6\">Ḥull. 76ᵃ</cite>; a. e.—",
+				"<cite ref=\"Tosefta Keilim Metsia 4:15\">Tosef. Kel. B. Mets. IV, 15</cite> <he>של רוֹכְבָה … רְכוּבָתוֹ</he>, v. <cite ref=\"A03134\"><he>אַרְכּוּבָה</he></cite>. ",
+				"<cite ref=\"Tosefta Mikvaot 5:5\">Tosef. Mikv. V, 5</cite> <he>סילון של רכובא</he> (R. S. to <cite ref=\"Mishnah Mikvaot 6:8\">Mikv. VI, 8</cite> <cite ref=\"T00755\"><he>רכובה</he></cite>) a knee-shaped tube.—",
+				"<cite ref=\"Bava Kamma 27b:10\">B. Kam. 27ᵇ</cite> <he>לר׳</he> the fine for kicking a neighbor with the knee; Y. ib. VIII, end, 6ᶜ"
+			]
+		}
+	]
+}

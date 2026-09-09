@@ -1,0 +1,22 @@
+{
+	"id": "O01237",
+	"slug": "סניותא",
+	"headword": {
+		"text": "סַנְיוּתָא"
+	},
+	"page": {
+		"number": 1007,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01224\"><he>סְנֵי</he></cite>) <i>dislike</i>, <i>displeasure</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 62a:2\">Ned. 62ᵃ</cite> <he>קסבר משום סַנְיוּת מילתא וכ׳</he> he thought that man spoke so from a dislike of the thing (spoke ironically because he was angry). Yalk. Dan. 1060, v. <cite ref=\"U01567\"><he>שַׂנְאוּתָא</he></cite>."
+			]
+		}
+	]
+}

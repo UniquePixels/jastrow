@@ -1,0 +1,28 @@
+{
+	"id": "S00525",
+	"slug": "קופתא",
+	"headword": {
+		"text": "קוּפְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּפְתָה"
+		}
+	],
+	"page": {
+		"number": 1339,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"S00503\"><he>קוּפָּה</he></cite>, <i>basket, tub</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 4:1:3\">Y. Sabb. IV, beg. 6ᵈ</cite> <he>כמרה גו ק׳ ויהבא ק׳ וכ׳</he> to keep it warm, put it in a large vessel, and put the vessel on peat (<cite ref=\"C00799\"><he>גִּיפְתָּא</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:25\">Y. Peah I, 15ᶜ</cite> bot. <he>יאות … זכותיה גו קוּפְתֵיה</he> (not <cite ref=\"S00525\"><he>קופתה</he></cite>) well the millers say, every man carries his worth in his own tub, i.e. there is a different way of doing good for every man; a. e.—Pl., v. <cite ref=\"S00491\"><he>קוּפָּא</he> I</cite>."
+			]
+		}
+	]
+}

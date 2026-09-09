@@ -1,0 +1,43 @@
+{
+	"id": "P00879",
+	"slug": "עמי-2",
+	"headword": {
+		"text": "עֲמֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲמָא"
+		}
+	],
+	"page": {
+		"number": 1087,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00878\">same</cite>, <i>to be dim</i>; trnsf. <i>to be faint, grieved</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 4:1\">Targ. Lam. IV, 1</cite> (ed. Amst. <cite ref=\"P00850\"><he>עַמָּא</he></cite>). ",
+				"<cite ref=\"Onkelos Leviticus 13:6\">Targ. O. Lev. XIII, 6</cite>; <cite ref=\"Onkelos Leviticus 13:56\">56</cite> <cite ref=\"P00851\"><he>עָמָא</he></cite> ed. Berl. (oth. ed. <cite ref=\"P00880\"><he>עַמְיָא</he></cite>; Y. <cite ref=\"P00850\"><he>עַמָּא</he></cite>). Ib. 26 <cite ref=\"P00880\"><he>עָמְיָא</he></cite> ed. Berl. (oth. ed., a. Y. <cite ref=\"P00880\"><he>עַמְיָא</he></cite>).—",
+				"<cite ref=\"Targum Jonathan on Isaiah 61:3\">Targ. Is. LXI, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 21:12\">Targ. Ez. XXI, 12</cite> <he>ותֶעְמֵי</he> ed. Wil. (ed. Lag. <he>ותעימי</he>, read <he>ותִיעֲמֵי</he>; Ar. <he>ויִתְעֲמֵי</he>, <i>Ithpe.</i>).—",
+				"<cite ref=\"Targum Jonathan on Isaiah 59:11\">Targ. Is. LIX, 11</cite> <he>עָמֵינָא</he> (ed. Lag. <he>עמנא</he>; ed. Wil. <he>עסינא</he>; h. text <cite ref=\"N00274\"><he>נֶהֱמֶה</he></cite>).—",
+				"<cite ref=\"Eichah Rabbah 4:9\">Lam. R. to IV, 1</cite> <he>איך עמא וכ׳</he> how has the gold become dim (transl. <he>יועם</he> <cite ref=\"Eichah Rabbah 4:9\">ib.</cite>). ",
+				"<cite ref=\"Berakhot 53b:5\">Ber. 53ᵇ</cite> <he>דעַמְיָא ואזלא</he> when the flame is growing dimmer and dimmer.—",
+				"<cite ref=\"Chullin 38a\">Ḥull. 38ᵃ</cite> <he>ע׳ קלה</he> her voice is getting fainter, opp. <cite ref=\"P00039\"><he>עבי</he></cite> is strong."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְעֲמֵי", "אִיעֲמֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to become faint</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

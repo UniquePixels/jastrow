@@ -1,0 +1,41 @@
+{
+	"id": "I00862",
+	"slug": "טרף-4",
+	"headword": {
+		"text": "טֶרֶף"
+	},
+	"page": {
+		"number": 556,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"I00861\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>prey</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 47b:21\">Sot. 47ᵇ</cite>, v. <cite ref=\"I00859\"><he>טָרַף</he></cite>.—",
+				"<cite ref=\"Bereishit Rabbah 99:8\">Gen. R. s. 99</cite> (ref. to <he>מטרף</he>, <cite ref=\"Genesis 49:9\">Gen. XLIX, 9</cite>) <he>מטַרְפּוֹ של יוסף</he> from making Joseph a prey, i.e. saving Joseph; <he>מטַרְפָּהּ של תמר</he> saving Tamar. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 637\">Yalk. Ps. 637</cite>; <cite ref=\"Midrash Tehillim 7\">Midr. Till. to Ps. VII</cite>, ed. Bub. <he>יושב על טַרְפּוֹ</he> (oth. ed. <he>טְרֵפָתוֹ</he>) sits over his prey."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>food</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 108b:17\">Snh. 108ᵇ</cite>, v. <cite ref=\"I00863\">next w.</cite>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. <cite ref=\"I00863\">next w.</cite>) <i>foliage, green</i>. Sifra Metsora, beg. <he>ובראשה ט׳</he> with green foliage on its top, v. <cite ref=\"I00863\">next w.</cite>; <cite ref=\"Jerusalem Talmud Sotah 2:2:5\">Y. Sot. II, 18ᵃ</cite> top <he>וראשה ט׳</he> (corr. acc., or read as <cite ref=\"Tosefta Negaim 8:2\">Tosef. Neg. VIII, 2</cite> <he>טרוף</he>).",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

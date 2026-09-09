@@ -1,0 +1,30 @@
+{
+	"id": "O01499",
+	"slug": "סקר-4",
+	"headword": {
+		"text": "סְקַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1021,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>סַקֵּר</he> <i>to sting, goad</i>, v. <cite ref=\"O01451\"><he>סְקַד</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

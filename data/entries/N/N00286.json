@@ -1,0 +1,25 @@
+{
+	"id": "N00286",
+	"slug": "נהרבלאי",
+	"headword": {
+		"text": "נְהַרְבְּלָאֵי"
+	},
+	"page": {
+		"number": 883,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>of N’harbel</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 104b:3\">B. Mets. 104ᵇ</cite>. ",
+				"<cite ref=\"Sanhedrin 17b:6\">Snh. 17ᵇ</cite> <he>נ׳ מתנו וכ׳</he> wherever it is said, ‘those (scholars) of N’harbel taught’, it alludes to &c. ",
+				"<cite ref=\"Beitzah 8b:10\">Bets. 8ᵇ</cite>"
+			]
+		}
+	]
+}

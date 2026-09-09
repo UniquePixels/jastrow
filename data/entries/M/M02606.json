@@ -1,0 +1,34 @@
+{
+	"id": "M02606",
+	"slug": "מרורא",
+	"headword": {
+		"text": "מְרוֹרָא"
+	},
+	"page": {
+		"number": 839,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M02605\">same</cite><i>bitterness, bitter taste</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 15:32\">Targ. I Sam. XV, 32</cite> <he>מְרוֹר</he> Regia, v. <cite ref=\"M02683\"><he>מָרִיר</he> II</cite>.—",
+				"<cite ref=\"Avodah Zarah 31b:10\">Ab. Zar. 31ᵇ</cite> <he>מ׳ דכשותא</he> the bitter sap of cuscuta."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bitter herb</i>.—Pl. <he>מְרוֹרִין</he>. Y. Meg. IV, 74ᵈ bot.; <cite ref=\"Jerusalem Talmud Bikkurim 3:4:10\">Y. Bicc. III, end, 65ᵈ</cite>, v. <cite ref=\"J00612\"><he>ירֵוֹקָנָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (trnsf.) <i>evil-doer</i>.—Pl. <he>מְרוֹרַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:2\">Targ. Y. I Deut. XXXII, 2</cite> [prob. to be read: <he>מְרוֹדַיָּא</he>, v. <cite ref=\"M02573\"><he>מָרוֹדָא</he></cite>.—",
+				"<cite ref=\"Aramaic Targum to Lamentations 1:5\">Targ. Lam. I, 5</cite> <he>מרורהא</he>, v. <cite ref=\"M02575\"><he>מְרוֹדָא</he></cite>]."
+			],
+			"label": "3"
+		}
+	]
+}

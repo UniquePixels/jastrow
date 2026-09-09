@@ -1,0 +1,29 @@
+{
+	"id": "G00673",
+	"slug": "זרדתא",
+	"headword": {
+		"text": "זַרְדְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זַרְתָּא"
+		}
+	],
+	"page": {
+		"number": 412,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>זרד</he>) <i>bushes of sorb</i>, or <i>service-tree</i>, growing in unhealthy marshes (v. Löw. Pfl. p. 289) <cite ref=\"Pesachim 111b:6\">Pes. 111ᵇ</cite> <he>דבי ז׳ שידי</he> (v. Rabb. D. S. a. l. note 400) the spirits of the sorb-bushes are named <i>shiddé</i> (demons). ",
+			"units": [
+				"<cite ref=\"Pesachim 111b:7\">Ib.</cite> <he>ז׳ סמיכא למתא וכ׳</he> a sorb-bush near a town has no less than sixty <i>shiddé;</i> [Ms. M. <he>זַרְזְתָא</he>, <cite ref=\"G00428\"><he>זִירְזְתָא</he></cite>, <cite ref=\"G00739\"><he>זַרְתָּא</he></cite>; v. Rabb. D. S. a. l. notes).—",
+				"<cite ref=\"Kiddushin 73b:2\">Kidd. 73ᵇ</cite> <he>ז׳ … יש בו וכ׳</he> a child exposed in a sorb-bush near a town (where it is likely to die) is considered a foundling (<cite ref=\"A02334\"><he>אֲסוּפִי</he></cite>). ",
+				"<cite ref=\"Ketubot 79a:13\">Keth. 79ᵃ</cite> <he>אבא ז׳ וכ׳</he> a forest (of timber), a sorb plantation and a fish-pond."
+			]
+		}
+	]
+}

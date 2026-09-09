@@ -1,0 +1,31 @@
+{
+	"id": "S00917",
+	"slug": "קיטנית-1",
+	"headword": {
+		"text": "קִיטְנִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִטְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1358,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00796\"><he>קָטֹן</he></cite>) <i>small fruit, pulse, beans, peas</i> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 1:8\">Bets. I, 8</cite> <he>הבורר ק׳ וכ׳</he> he that picks out (green) peas on the Holy Day. ",
+				"<cite ref=\"Mishnah Bava Metzia 9:8\">B. Mets. IX, 8</cite> <he>תבואה … ק׳ ק׳ וכ׳</he> if a person rents a field for the purpose of planting grain (<cite ref=\"V00036\"><he>תבואה</he></cite>), he has no right to plant pulse, if for pulse, he may plant grain (Var: the reverse); a. e.—Pl. <he>קִיטְנִיּוֹת</he>, <cite ref=\"S00915\"><he>קִטְ׳</he></cite>. ",
+				"<cite ref=\"Mishnah Beitzah 1:9\">Bets. I, 9</cite>. ",
+				"<cite ref=\"Tosefta Terumot 10:15\">Tosef. Ter. X, 15</cite>; a. fr."
+			]
+		}
+	]
+}

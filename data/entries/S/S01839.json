@@ -1,0 +1,36 @@
+{
+	"id": "S01839",
+	"slug": "קצצה",
+	"headword": {
+		"text": "קְצָצָה"
+	},
+	"page": {
+		"number": 1407,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01838\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>timber</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 4:12:1\">Cant. R. to IV, 12</cite> <he>ק׳ של ארזין</he> cedar planks; Pesik. B’shall. p. 84ᵃ <he>ק׳ של ארז</he>; <cite ref=\"Yalkut Shimoni on Torah 225\">Yalk. Ex. 225</cite> <cite ref=\"S01840\"><he>קְצָצִים</he></cite> (only).—Pl. <he>קְצָצוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 8:10:3\">Y. Keth. VIII, 32ᵇ</cite> bot. <he>אילנות וק׳ וכ׳</he> if heirs seize trees or timber, old or young, it is taken away from them."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cutting off, severing family connections; ḳ’tsatsah, a ceremony attending the sale of an heirloom to an outsider, and the marriage of a man beneath his social rank</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:5:3\">Y. Kidd. I, 60ᶜ</cite> <he>הזרו להיות קונים בק׳</he> then again the custom arose to take possession of an estate by <i>ḳ’tsatsah</i> (instead of taking off the shoe); <he>מהו בק׳ … נקצץ פלוני מאחוזתו</he> what is <i>ḳ.</i>? When a man sold his paternal estate, his relatives brought casks filled with parched ears and nuts, and broke them in the presence of children: the latter picked them up, and they said, this man has been cut off &c.; and when he bought it back, they did the same and called out, this man has returned to his heirloom &c.; <cite ref=\"Ruth Rabbah 7:11\">Ruth R. to IV, 7</cite>; <cite ref=\"Jerusalem Talmud Ketubot 2:10:7\">Y. Keth. II, 26ᵈ</cite> bot. <cite ref=\"S01821\"><he>קְצִיצָה</he></cite>; <cite ref=\"Jerusalem Talmud Ketubot 2:10:7\">Ib.</cite> <he>שאכלנו בקְצִיצַת פלוני</he> adults are admitted to testify, ‘we (as children) ate (grain and nuts) at that man’s <i>ḳ.</i>’; Bab. ",
+				"<cite ref=\"Ketubot 28b:13\">Keth. 28ᵇ</cite> <he>בקצצה של וכ׳</he> at the <i>ḳ.</i> when that man’s daughter was married; <he>וזו היא הק׳ וכ׳</he> and this is the <i>ḳ.</i> to which a child can testify (when grown up); Tosef. ib. III, 3."
+			],
+			"label": "2"
+		}
+	]
+}

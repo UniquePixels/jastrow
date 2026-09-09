@@ -1,0 +1,29 @@
+{
+	"id": "H01835",
+	"slug": "חשיך-2",
+	"headword": {
+		"text": "חֲשִׁיךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲשִׁיכָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 510,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חֲשַׁךְ</he> I) <i>dark, black</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 21:20\">Targ. Y. Lev. XXI, 20</cite> <he>חזוייה ח׳</he> Ar. s. v. <cite ref=\"H00502\"><he>חז</he></cite> whose complexion is very dark (v. <cite ref=\"H01820\"><he>חָשׁוּךְ</he></cite>; ed. <he>פחדוי וכ׳</he>).—<i>Fem.</i> <cite ref=\"H01835\"><he>חֲשִׁיכָא</he></cite>, pl. <cite ref=\"H01838\"><he>חֲשִׁיכַן</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 5:17\">Targ. Lam. V, 17</cite>."
+			]
+		}
+	]
+}

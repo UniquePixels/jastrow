@@ -1,0 +1,23 @@
+{
+	"id": "G00037",
+	"slug": "זבילא-2",
+	"headword": {
+		"text": "זְבִילָא"
+	},
+	"page": {
+		"number": 378,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"G00047\"><he>זֶבֶל</he></cite>) [<i>an implement for forming heaps</i>,] <i>shovel, mattock</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 21b:7\">Taan. 21ᵇ</cite> <he>שייל מרא וז׳ וכ׳</he> he lent mattock and shovel for burial. ",
+				"<cite ref=\"Bava Metzia 103b\">B. Mets. 103ᵇ</cite>. [<cite ref=\"Berakhot 8a\">Ber. 8ᵃ</cite>, v. <cite ref=\"G00266\"><he>זִיבּוּלָא</he></cite>.]"
+			]
+		}
+	]
+}

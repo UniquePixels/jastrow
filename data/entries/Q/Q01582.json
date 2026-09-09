@@ -1,0 +1,24 @@
+{
+	"id": "Q01582",
+	"slug": "פרדיסקי-2",
+	"headword": {
+		"text": "פַּרְדִּיסְקֵי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1215,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"Q01583\">next w.</cite>) <i>casks</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 65b\">Ab. Zar. 65ᵇ</cite> <he>פ׳ נקיטי בהדייהו</he> Ms. M. (v. Rabb. D. S. a. l. note; ed. <he>דמייתו פריסדקי וכ׳</he>) they had brought casks with them (instead of leather bottles; Rashi: besides the leather bottles, in reserve for eventual mishaps to the latter)."
+			]
+		}
+	]
+}

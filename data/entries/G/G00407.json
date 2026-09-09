@@ -1,0 +1,38 @@
+{
+	"id": "G00407",
+	"slug": "זיקה",
+	"headword": {
+		"text": "זִיקָה"
+	},
+	"page": {
+		"number": 396,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00652\"><he>זָקַק</he></cite>; cmp. <cite ref=\"B00615\"><he>בִּילָה</he></cite> fr. <cite ref=\"B00880\"><he>בלל</he></cite>) [<i>tie, chain</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>obligation, duty</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 6:2:5\">Y. Ter. VI, end, 44ᵇ</cite> <he>זִיקַת תרומה וכ׳</he> the obligation to pay <i>T’rumah</i> and tithes. Y. Maasr. II, 50ᵃ top <he>לא בא לז׳ וכ׳</he> it has not yet come under the obligation of tithes. ",
+				"<cite ref=\"Tractate Semachot 13:1\">Treat. S’maḥ. ch. XIII</cite> <he>ז׳ שמירתו עליו</he> the duty of watching the corpse rests upon him. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 151:1\">Yalk. Gen. 151</cite> <he>חוץ לזיקא הן עומדין</he> (corr. acc.) they are not pledged."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>legal restriction</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 50b:21\">Snh. 50ᵇ</cite> <he>זיקת הבעל</he> marital ties, betrothal.—Esp. <i>zikah, the interdependence of a childless widow and her late husband’s brothers, the levirate relation</i>. ",
+				"<cite ref=\"Yevamot 17b:16\">Yeb. 17ᵇ</cite>, a. fr. <he>יש ז׳</he> the relation between a woman and her eventual <i>yabam</i> is a real connection, i.e. carries with it all legal consequences as regards the laws of incest and the right of interference with her vows, <he>אין ז׳</he> the levirate relation is no marital connection as long as the levirate marriage is not consummated. ",
+				"<cite ref=\"Mishnah Yevamot 3:9\">Ib. III, 9</cite>, v. <cite ref=\"J00058\"><he>יָבָם</he></cite>. Y. ib. I, 2ᵈ; XIII, beg. 13ᵈ <he>ממאנת … לעקור זיקת המת</he> she may refuse the <i>yabam</i> so as to annul retrospectively the relation between herself and her deceased husband, v. <cite ref=\"M00046\"><he>מָאֵן</he></cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

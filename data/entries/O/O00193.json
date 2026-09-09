@@ -1,0 +1,64 @@
+{
+	"id": "O00193",
+	"slug": "סדק-1",
+	"headword": {
+		"text": "סָדַק"
+	},
+	"page": {
+		"number": 957,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Saf. of <cite ref=\"D00984\"><he>דק</he></cite>) <i>to cleave, tear apart</i>. Part. pass. <cite ref=\"O00181\"><he>סָדוּק</he></cite>; f. <he>סְדוּקָה</he>; pl. <he>סְדוּקִים</he>, <he>סְדוּקִין</he>; <he>סְדוּקוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Chullin 59a:13\">Ḥull. 59ᵃ</cite> <he>אם פרסותיה ס׳</he> if its hoofs are cloven. ",
+				"<cite ref=\"Shir HaShirim Rabbah 7:3\">Cant. R. to VII, 3</cite> <he>מה חיטה ס׳ וכ׳</he> as the wheat grain is split (has an incision) &c. ",
+				"<cite ref=\"Niddah 25b\">Nidd. 25ᵇ</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִידֵּק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00192\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 3:6\">Cant. R. to III, 6</cite> <he>סִידְּקָהּ כדג</he> he split it as a fish is split; <cite ref=\"Bereishit Rabbah 77\">Gen. R. s. 77</cite>; <cite ref=\"Yalkut Shimoni on Torah 132\">Yalk. ib. 132</cite> (corr. acc.)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to chip, chisel</i> (the surface of a stone). ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 1:1\">Cant. R. to I, 1</cite> <he>וסידקה וסתתה וכ׳</he> (ed. Wil. <he>וסירקה</he>, corr. acc.) he carved and chiselled and polished it; <cite ref=\"Yalkut Shimoni on Nach 182\">Yalk. Kings 182</cite> <he>וסתתה וסדקה</he>; <cite ref=\"Yalkut Shimoni on Nach 960\">Yalk. Prov. 960</cite> <he>וסרקה</he> (corr. acc.); (Koh. R. introd. <he>ושבבה וסתתה ומירקה</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִסְדַּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be split, cut into</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bekhorot 6:1\">Bekh. VI, 1</cite> <he>נִסְדְּקָה</he> if there is a slit in the ear of the first-born animal, contrad. to <he>נפגמה</he>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be chipped off</i>; trnsf. (cmp. <cite ref=\"Q01325\"><he>פָּסַל</he></cite>) <i>to become unfit for use, to be abrogated</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Kamma 9:2\">B. Kam. IX, 2</cite> <he>גזל מטבע ונ׳</he> if a man stole a coin and it became ‘chipped’; expl. ",
+						"<cite ref=\"Bava Kamma 97a\">ib. 97ᵃ</cite> <he>נ׳ ממש</he> chipped in its literal sense, i.e. the stamp was chipped off; [anoth. opin.] <he>פסלתו מלכות נמי היינו נ׳</he> if the government abrogated it, it is the same as chipped off; Y. ib. IX, beg. 6ᵈ"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

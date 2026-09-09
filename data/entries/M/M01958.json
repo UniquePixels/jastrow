@@ -1,0 +1,22 @@
+{
+	"id": "M01958",
+	"slug": "מסליא",
+	"headword": {
+		"text": "מְסַלְיָא"
+	},
+	"page": {
+		"number": 808,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00978\"><he>סְלֵי</he></cite>) <i>rejectable, drossy</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 26:23\">Targ. Prov. XXVI, 23</cite> <he>כספא מ׳</he> (h. text <he>כסף סיגים</he>)."
+			]
+		}
+	]
+}

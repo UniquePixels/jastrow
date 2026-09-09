@@ -1,0 +1,22 @@
+{
+	"id": "M00493",
+	"slug": "מולדא-2",
+	"headword": {
+		"text": "מוֹלֵדָא"
+	},
+	"page": {
+		"number": 742,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"M01167\"><he>מְיַלֶּדֶת</he></cite>, <i>midwife</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 26a:7\">Ab. Zar. 26ᵃ</cite> <he>מ׳ יהודייתא</he> thou, midwife of Jewesses &c."
+			]
+		}
+	]
+}

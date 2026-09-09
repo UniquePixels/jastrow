@@ -1,0 +1,38 @@
+{
+	"id": "M00179",
+	"slug": "מגל-1",
+	"headword": {
+		"text": "מַגָּל"
+	},
+	"page": {
+		"number": 728,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; perh. contr. of <cite ref=\"M02062\"><he>מעגל</he></cite> , v. <cite ref=\"P00089\"><he>עָגַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " <he>מַגַּל קציר</he> or <he>מ׳</he> <i>sickle, scythe</i>, an implement with indentations. ",
+			"units": [
+				"<cite ref=\"Sukkah 32a:1\">Succ. 32ᵃ</cite> <he>עקום דומה למ׳</he> a Lulab curved like a sickle. Y. ib. III, 53ᶜ bot. <he>עשוייה כמין מ׳</he> leaves shaped (and serried) like a sickle; Bab. ",
+				"<cite ref=\"Sukkah 34a:6\">ib. 34ᵃ</cite> <he>עלה שלה עגול ופיה דומה למ׳</he>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>מַגַּל יד</he> or <he>מ׳</he> <i>an implement combining knife and saw</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:1\">Kel. XIII, 1</cite>. ",
+				"<cite ref=\"Mishnah Chullin 1:2\">Ḥull. I, 2</cite>. ",
+				"<cite ref=\"Mishnah Beitzah 4:3\">Bets. IV, 3</cite> (used for splitting wood); a. fr.—",
+				"<cite ref=\"Sanhedrin 95b:10\">Snh. 95ᵇ</cite> <he>מֵגָּלְךָ נטושה</he> (<i>fem.</i>), v. <cite ref=\"N00589\"><he>נָטַשׁ</he> I</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

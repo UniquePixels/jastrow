@@ -1,0 +1,40 @@
+{
+	"id": "B01033",
+	"slug": "בעט-2",
+	"headword": {
+		"text": "בָּעַט",
+		"homograph": 2
+	},
+	"page": {
+		"number": 180,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בע</he>, akin to <he>בץ</he>, <he>בט</he>)<i>to trample, strike, kick</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 8:5:4\">Y. Yoma VIII, 45ᵇ</cite> top <he>בְּעָטָתוֹ פרדה</he> a mule kicked him. ",
+				"<cite ref=\"Shemot Rabbah 30:11\">Ex. R. s. 30</cite> <he>ב׳ בפילקי</he> knocked against the prison door (burst it open). ",
+				"<cite ref=\"Mishnah Avodah Zarah 4:8\">Ab. Zar. IV, 8</cite> <he>גת בְּעוּטָה</he> a wine press packed with stamped grapes.—Trnsf. (with <cite ref=\"B00000\"><he>ב</he></cite>) <i>to resist, reject</i>. ",
+				"<cite ref=\"Shabbat 104a\">Sabb. 104ᵃ</cite>, v. <cite ref=\"A01042\"><he>אח״ס</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּיעֵט"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"B01032\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Kamma 2:1\">B. Kam. II, 1</cite>. <he>היתה מְבָעֶטֶת</he> if the animal kicked. ",
+						"<cite ref=\"Berakhot 32a\">Ber. 32ᵃ</cite>; a. e.—Trnsf. <i>to kick against, rebel, be contumacious</i>. ",
+						"<cite ref=\"Sotah 22a\">Sot. 22ᵃ</cite>. Y. Ber. IX, 14ᵇ bot., a. e. <he>מְבָעֵט בייסורין</he> bearing suffering with contumacy (instead of showing repentance). ",
+						"<cite ref=\"Pesikta Rabbati 47:1\">Pesik. R. s. 47</cite>; <cite ref=\"Yalkut Shimoni on Nach 908:15\">Yalk. Job 908</cite> <he>התחיל מב׳</he> (sub. <he>בייסורין</he>) began to be contumacious (challenging the Lord)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

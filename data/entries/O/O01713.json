@@ -1,0 +1,65 @@
+{
+	"id": "O01713",
+	"slug": "סתר-3",
+	"headword": {
+		"text": "סָתַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1033,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>סחתר</he>, Saf. of <he>חתר</he>; cmp. Arab. <i>šatar</i>) [<i>to dig under</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to upset, tear down</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 31b:12\">Meg. 31ᵇ</cite> <he>אם אמרו לך זקנים סְתוֹר וכ׳</he> if the old tell thee, tear down, and the young, build, tear down and build not, v. <cite ref=\"O01702\"><he>סְתִירָה</he> II</cite>; <cite ref=\"Nedarim 40a\">Ned. 40ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> <he>הבונה והסוֹתֵר</he> he who builds (on the Sabbath) or who tears down. ",
+				"<cite ref=\"Yoma 10a:12\">Yoma 10ᵃ</cite> <he>שיפלו בונין ביד סוֹתְרִין</he> that the builders (of the Temple, the Persians) should fall through the hands of the destroyers (the Romans), v. <cite ref=\"O01691\"><he>סָתוֹרָא</he></cite>. ",
+				"<cite ref=\"Avot D'Rabbi Natan 6:2\">Ab. d’R. N. ch. VI</cite> <he>סְתָרוֹ ועקרו וכ׳</he> he dug under it (the rock) and broke it loose &c. ",
+				"<cite ref=\"Kohelet Rabbah 7:26\">Koh. R. to VII, 26</cite> <he>כותל קשה … וסוֹתְרוֹ</he> a wall is strong, but man has more power and tears it down; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to stir up</i>,] <i>to loosen, unravel</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 1:5\">Sot. I, 5</cite> <he>סותר את שערה</he> the priest loosens her hair (<cite ref=\"Numbers 5:18\">Num. V, 18</cite> <he>ופרע</he>); <he>אם … לא היה סוֹתְרוֹ</he> if her hair was beautiful, he did not loosen it. Treat. S’maḥ.ch. ch. VIII <he>סוֹתְרִים שערות וכ׳</he> you may untie the hair of dead brides; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to dissolve, decompose</i>. Lam. R. introd. (R. Ḥănina 1) (ref. to <cite ref=\"Proverbs 25:20\">Prov. XXV, 20</cite>) <he>כזה … וסוֹתְרוֹ כך היו סוֹתְרִים וכ׳</he> as one pours vinegar on natron and decomposes it, so they decomposed (counteracted) the words of the Law; v. infra.",
+			"units": [],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to undo, reverse, invalidate</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 3:8\">Snh. III, 8</cite> <he>כל זמן … סותר את הדין</he> whenever he offers new evidence, he reverses the decision, i.e. the court has to try his case again; <he>לאחר שלשים יום אינו סותר</he> after thirty days, the judgment cannot be disturbed.—Esp. <i>to make void the days of a Nazarite’s vow which have been observed, to begin anew</i>. ",
+				"<cite ref=\"Mishnah Nazir 2:10\">Naz. II, 10</cite> <he>סותר שבעים</he> he must count seventy days again. ",
+				"<cite ref=\"Mishnah Nazir 3:3\">Ib. III, 3</cite> <he>ס׳ את הכל</he> he must count over the whole period (of days); <he>אינו ס׳ אלא שבעה</he> he has to count only seven days over. Tosef. ib. II, 13 <he>יש לו לִסְתּוֹר סותר וכ׳</he> if there is a portion of the period left to undo, i.e., if the period of his vow has not yet expired, he must count thirty days again; <he>כל … ואין לו לסתור סותר וכ׳</he> whenever he becomes unclean on a day on which it is improper to offer a sacrifice, and he has nothing left to undo, i.e. his term has expired, and he lacks only a sacrifice to be released: he must count seven days; a. fr.—5 (logics) <i>to contradict, disprove</i>. ",
+				"<cite ref=\"Sukkah 26b\">Succ. 26ᵇ</cite>, a. fr. <he>מעשה לסתור</he>, v. <cite ref=\"M02186\"><he>מַעֲשֶׂה</he></cite>. ",
+				"<cite ref=\"Shabbat 13b:8\">Sabb. 13ᵇ</cite> <he>שאלמלא … שהיו דבריו סוֹתְרִין וכ׳</he> but for him, the Book of Ezekiel would have been expunged from the canon, because its words seemed to contradict the words of the Law. Ib. 30ᵃ <he>לא דייך שדבריך סותרין וכ׳</he> not only do thy words contradict those of David, but they contradict one another; a. fr.—",
+				"<cite ref=\"Bamidbar Rabbah 13\">Num. R. s. 13</cite> <he>לא אחד מהן סותר על חבירו</he> neither of them conflicts with the other.—[<cite ref=\"Yalkut Shimoni on Torah 356:3\">Yalk. Ex. 356</cite> <he>שלא יסתרו</he>, v. <cite ref=\"O01646\"><he>סָרַס</he></cite> I <i>Hithpa.</i>]"
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִסְתַּתֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be disarranged, be undone</i>. Y. Kil. IX, end, 32ᵈ; Y. Sabb. XIII, beg. 14ᵃ <he>מִיסְתַּתֵּר הוא</he> the web will go apart again, opp. <he>מתקיים</he>.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

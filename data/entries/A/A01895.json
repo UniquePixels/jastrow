@@ -1,0 +1,37 @@
+{
+	"id": "A01895",
+	"slug": "אלכסנדרי",
+	"headword": {
+		"text": "אֲלֶכְסַנְדְּרִי"
+	},
+	"page": {
+		"number": 70,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>Alexandrian</i>. Sifra B’ḥukk. chap. V, Lulianus the Alex.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. m. <i>Alexandri</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 4:8:3\">Y. R. Hash. IV, 59ᶜ</cite> bot; a. e.—Cant. R. to IV, 2 <he>דרא …</he> (corr. acc.)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " v. <cite ref=\"A01892\"><he>אֲלַכְסִין</he></cite>.—Pl. <he>אֲלֶכְסַנְדְּרִיִּים</he>; fem. <cite ref=\"A01897\"><he>אֲלֶכְסַנְדְּרִיּוֹת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Menachot 100a:17\">Men. 100ᵃ</cite> <i>Alexandrians</i>. ",
+				"<cite ref=\"Menachot 28b:15\">Ib. 28ᵇ</cite> <he>כוסות א׳</he> (<cite ref=\"Yalkut Shimoni on Torah 369:11\">Yalk. Ex. 369</cite> … <he>רִיּוֹת</he>) Alexandrian cups (lengthy and narrow). ",
+				"<cite ref=\"Tosefta Megillah 3:21\">Tosef. Meg. III</cite> (<cite ref=\"Tosefta Megillah 2:6\">II</cite>), 6 <he>בה״כ של א׳</he> a Synagogue built by Alexandrians in Jerusalem."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "N00442",
+	"slug": "נזיפה",
+	"headword": {
+		"text": "נְזִיפָה"
+	},
+	"page": {
+		"number": 891,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00457\"><he>נָזַף</he></cite>) <i>anger, rebuke</i>, esp. <i>n’zifah</i>, a lower degree of excommunication; v. <cite ref=\"N00624\"><he>נִידּוּי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 68a:2\">Snh. 68ᵃ</cite> <he>גער בו ויצא בנ׳</he> he frowned at him, and he (the son) went away feeling the rebuke. ",
+				"<cite ref=\"Shabbat 31a:5\">Sabb. 31ᵃ</cite> <he>והוציאו בנ׳</he> and made him go out in anger. ",
+				"<cite ref=\"Shabbat 97a:3\">Ib. 97ᵃ</cite> <he>ההוא בנ׳ בעלמא</he> this (<he>בם</he>, <cite ref=\"Numbers 12:9\">Num. XII, 9</cite>) refers only to the anger (of the Lord, not to leprosy). ",
+				"<cite ref=\"Moed Katan 16a:20\">M. Kat. 16ᵃ</cite> <he>אין נ׳ פחות וכ׳</he> the minor ban lasts no less than seven days. ",
+				"<cite ref=\"Moed Katan 16b:10\">Ib. 16ᵇ</cite> <he>נ׳ דידהו</he> their (the Palestinian) <i>n’zifah</i>; <he>נ׳ דידן</he> our (the Babylonian) <i>n.</i>; a. fr."
+			]
+		}
+	]
+}

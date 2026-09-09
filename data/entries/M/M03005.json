@@ -1,0 +1,24 @@
+{
+	"id": "M03005",
+	"slug": "מתאי",
+	"headword": {
+		"text": "מַתַּאי"
+	},
+	"page": {
+		"number": 859,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Mattai</i> (abbr. of <he>מַתִּתְיָהוּ</he>), <i>Matthew</i>, a disciple of Jesus. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 43a:22\">Snh. 43ᵃ</cite> (in a passage omitted in most editions), <he>חמשה תלמידים היה לו לישו מ׳ וכ׳</he> Jesus had five disciples; M. etc. ",
+				"<cite ref=\"Sanhedrin 43a:22\">Ib.</cite> (by way of play on <cite ref=\"M03046\"><he>מָתַי</he></cite>, <cite ref=\"Psalms 42:3\">Ps. XLII, 3</cite>, a. ",
+				"<cite ref=\"Psalms 41:6\">XLI, 6</cite>) <cite ref=\"M03044\"><he>מַתַּי</he></cite>, v. <cite ref=\"B00284\"><he>בּוּנִי</he></cite>.—V. <cite ref=\"M03048\"><he>מַתְּיָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	"id": "D00231",
+	"slug": "דוחקא",
+	"headword": {
+		"text": "דּוּחֲקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דּוּחְקָא"
+		}
+	],
+	"page": {
+		"number": 284,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00230\">same</cite><i>squeezing, forcing</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 22:24\">Targ. Y. Num. XXII, 24</cite> <he>בד׳</he> in a narrow place.—",
+				"<cite ref=\"Pesachim 14b\">Pes. 14ᵇ</cite>, a. e. <he>מאי דּוֹחֲקֵיה דר׳ וכ׳</he> what forces R. … (logically) to put it &c.—",
+				"<cite ref=\"Chullin 8b:5\">Ḥull. 8ᵇ</cite> <he>ד׳ דסכינא</he> the force of the knife (the blade forcing its way)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>crowded state, pushing</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 6a:5\">Ber. 6ᵃ</cite> <he>ד׳ דכלה</he> Ms. M. (ed. <he>ד׳ דהוה בכלה</he>) the pushing at public lectures, v. <cite ref=\"K00691\"><he>כַּלָּה</he></cite>. ",
+				"<cite ref=\"Berakhot 6b:12\">Ib.ᵇ</cite>, v. <cite ref=\"A00339\"><he>אַגְרָא</he> I</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>oppression, extortion, distress</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 3:9\">Targ. Ex. III, 9</cite>; a. e.—",
+				"<cite ref=\"Gittin 45a:14\">Gitt. 45ᵃ</cite> <he>משום ד׳ דציבורא</he> because the exorbitant price is an extortion of the community."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>difficulty</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 30a:3\">Bets. 30ᵃ</cite> <he>דדרו בד׳</he> (Ms. M. <cite ref=\"T00290\"><he>רהקא</he></cite>) a load carried (on ordinary days) with a great effort."
+			],
+			"label": "4"
+		}
+	]
+}

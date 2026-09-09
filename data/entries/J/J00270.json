@@ -1,0 +1,58 @@
+{
+	"id": "J00270",
+	"slug": "יחוד-1",
+	"headword": {
+		"text": "יִחוּד"
+	},
+	"altHeadwords": [
+		{
+			"text": "יִיחוּד"
+		}
+	],
+	"page": {
+		"number": 573,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00269\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>private meeting</i>, esp. <i>privacy between man and woman</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 11:1:3\">Y. Keth. XI, beg. 34ᵃ</cite> <he>דברים של יי׳</he> private attendance, e.g. assistance at washing and ointing. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 1:1:10\">Y. Sot. I, 16ᶜ</cite> top <he>אין זה י׳</he> this is no ascertained private meeting (with her former husband, on account of which a second letter of divorce would be required). ",
+				"<cite ref=\"Sanhedrin 21a\">Snh. 21ᵃ</cite>, sq. <he>גזרו על הי׳ ועל וכ׳</he> they forbade privacy (with a married woman) and with a single woman. ",
+				"<cite ref=\"Sanhedrin 21a\">Ib.</cite> <he>י׳ דאורייתא הוא</he> is not privacy with a married woman biblically interdicted?—",
+				"<cite ref=\"Kiddushin 81a:4\">Kidd. 81ᵃ</cite> <he>מלקין על הי׳ … משום הי׳</he> we punish private meetings between a man and a woman, but we do not prohibit the wife to her husband on account of her private meeting with a man. ",
+				"<cite ref=\"Kiddushin 81a:7\">Ib.</cite> <he>בעלה בעיר אין חוששין משום י׳</he> if her husband is in town, we do not consider her private meeting with a man a suspicious act; a. fr.—<he>בְּיִ׳</he> "
+			],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " <i>privately</i>. ",
+					"units": [
+						"<cite ref=\"Beitzah 22b\">Bets. 22ᵇ</cite>; <cite ref=\"Pesachim 37a:4\">Pes. 37ᵃ</cite> <he>שאילית את רבי בי׳</he> I asked my teacher privately.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>particularly, exactly; by a special sign</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shekalim 6:2\">Shek. VI, 2</cite>; <cite ref=\"Yoma 54a\">Yoma 54ᵃ</cite>"
+					],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": " (later Hebr.) <he>י׳ השם</he> <i>declaration of the unity of God</i>. Pesik. Zutr., Nitsabim, end.—[<cite ref=\"Bereishit Rabbah 99\">Gen. R. s. 99</cite>, end <he>כיחודו של עולם</he>, read: <he>כיחידוֹ</he>, v. <cite ref=\"J00284\"><he>יָחִיד</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"id": "N00224",
+	"slug": "נדי-3",
+	"headword": {
+		"text": "נְדֵי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נְדָא"
+		}
+	],
+	"page": {
+		"number": 878,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"N00426\"><he>נָזָה</he></cite><i>to bespatter, asperse</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 49a:10\">Kidd. 49ᵃ</cite> <he>ואזלא נַדְיָא</he> (<he>בי</he>) <he>גבי וכ׳</he> Ar., that she may go and asperse me before my neighbors."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (neut. verb) <i>to spatter, be sprinkled</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 9:33\">Targ. II Kings IX, 33</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַדֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N00223\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 6:20\">Targ. Lev. VI, 20</cite>, <he>יַדֵּי</he> (Ms. III <he>דיִדֵּי</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to sprinkle</i>. Ib. IV, 17; a. fr.—",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 118:27\">Targ. Ps. CXVIII, 27</cite> <he>ותַדּוּן</he> ed. Lag. (some ed. <he>יִתְּדוּן</he>, corr. acc.; ed. Wil. <he>ותִשְׁדּוּן</he>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to throw, pitch</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 98a\">B. Kam. 98ᵃ</cite>, a. e. <he>אַדְּיֵיה אַדּוּיֵי</he>, v. <cite ref=\"A00393\"><he>אֲדִי</he></cite>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "M01446",
+	"slug": "מכתב-1",
+	"headword": {
+		"text": "מִכְתָּב"
+	},
+	"page": {
+		"number": 785,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K01339\"><he>כָּתַב</he></cite>)<i>writ, letter</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 5:6\">Ab. V, 6</cite>, a. e. <he>הכתב והמ׳</he>, v. <cite ref=\"K01341\"><he>כְּתָב</he></cite>.—Pl. <he>מִכְתָּבִים</he>, <he>מִכְתָּבִין</he>. ",
+				"<cite ref=\"Tosefta Shabbat 17:8\">Tosef. Sabb. XVII</cite> (<cite ref=\"Tosefta Shabbat 18:8\">XVIII</cite>), 8 <he>המ׳ שבכרכים</he> (ed. Zuck. <he>המִכְתָּמִין</he>) the public announcements in cities."
+			]
+		}
+	]
+}

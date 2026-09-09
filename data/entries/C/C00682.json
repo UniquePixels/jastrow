@@ -1,0 +1,28 @@
+{
+	"id": "C00682",
+	"slug": "גיזום",
+	"headword": {
+		"text": "גִּיזּוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּזוּם"
+		}
+	],
+	"page": {
+		"number": 237,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00568\"><he>גָּזַם</he></cite>) <i>cutting, tapping</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 50b:6\">Ab. Zar. 50ᵇ</cite> <he>ג׳ אברויי וכ׳</he> tapping is an act of strengthening the tree. ",
+				"<cite ref=\"Avodah Zarah 50b:6\">Ib.</cite> <he>סכין שמן לג׳</he> you may put oil on the cut (to stop the flow of sap)."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "C00778",
+	"slug": "גיסה",
+	"headword": {
+		"text": "גִּיסָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּיזָה"
+		}
+	],
+	"page": {
+		"number": 240,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"C00451\"><he>גּוֹסֵס</he></cite>) <i>agony of death, dying stage</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 9:5:10\">Y. Sot. IX, 23ᵈ</cite> bot. <he>מקום גִּיסָתָהּ</he> the place where the expiatory heifer died; <cite ref=\"Tosefta Sotah 9:1\">Tosef. Sot. IX, 1</cite> <he>גִּיזָתָהּ</he>."
+			]
+		}
+	]
+}

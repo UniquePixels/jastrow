@@ -1,0 +1,25 @@
+{
+	"id": "D00728",
+	"slug": "דיר-4",
+	"headword": {
+		"text": "דִּיר",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 305,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00342\"><he>דּוּר</he></cite>) <i>shed</i>, esp. for cattle, wood &c.; <i>stable, store-house</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 6:1\">B. Kam. VI, 1</cite>; a. fr.—",
+				"<cite ref=\"Yalkut Shimoni on Torah 191:3\">Yalk. Ex. 191</cite> <he>מִדִּירוֹ</he> (Pesik. Haḥod. p. 55ᵃ <he>מדידן</he>, Var. <he>מדורות</he>, <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>מדִּירוֹת</he>) when taken directly from its stable.—Pl. <he>דִּירִים</he>. ",
+				"<cite ref=\"Mishnah Nedarim 1:3\">Ned. I, 3</cite> <he>כד׳</he> (Y. a. Bab. ed., 10ᵇ, <he>דִּירַיִים</he> <i>Du.</i>) as forbidden as the Temple sheds for cattle or wood. Ib. 13ᵃ <he>דירים</he>; Y. ib. 37ᵃ; Tosef. ib. I, 3 <he>דיריים</he>."
+			]
+		}
+	]
+}

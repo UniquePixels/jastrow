@@ -1,0 +1,27 @@
+{
+	"id": "A01251",
+	"slug": "איכה",
+	"headword": {
+		"text": "אֵיכָה"
+	},
+	"page": {
+		"number": 48,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h. = <cite ref=\"A01251\"><he>אֵי־כֹה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>oh how! oh!</i> <cite ref=\"Bereishit Rabbah 19:9\">Gen. R. s. 19</cite>; a. fr.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Ekhah</i>, name of the Book of Lamentations, also <he>מגילת א׳</he>.—א׳ רבתי <i>Ekhah Rabbathi</i> (<i>Lam. R.</i>), Midrash Rabboth on Lamentations.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

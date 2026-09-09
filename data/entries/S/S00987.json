@@ -1,0 +1,37 @@
+{
+	"id": "S00987",
+	"slug": "קילקולא",
+	"headword": {
+		"text": "קִילְקוּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִלְ׳"
+		}
+	],
+	"page": {
+		"number": 1361,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00986\">same</cite><i>disarrangement, faulty action</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 17:15\">Targ. Y. Lev. XVII, 15</cite> <he>קִילְקוּל נכסתא</he> faulty slaughtering."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>disgrace, degradation</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 6:2\">Targ. Y. Num. VI, 2</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>dunghill</i>, v. <cite ref=\"S01143\"><he>קִיקְלָא</he></cite>.—[<cite ref=\"Pesachim 114a\">Pes. 114ᵃ</cite> <he>דאכיל קילקולא</he> Ms. M., v. <cite ref=\"S01867\"><he>קָקוּלָא</he></cite>.]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

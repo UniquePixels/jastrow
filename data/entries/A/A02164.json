@@ -1,0 +1,28 @@
+{
+	"id": "A02164",
+	"slug": "אנטוכי",
+	"headword": {
+		"text": "אַנְטוּכִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַנְטְיוֹכִי"
+		}
+	],
+	"page": {
+		"number": 83,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A02165\">next w.</cite>) <i>Antiochian, native of Antiochia, resident of A</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 44b:5\">Gitt. 44ᵇ</cite> <he>אנטו׳</he>; <cite ref=\"Tosefta Avodah Zarah 3:18\">Tosef. Ab. Zar. III</cite> (<cite ref=\"Tosefta Avodah Zarah 4:18\">IV</cite>), 18; Y. Gitt. IV, 46ᵃ top <he>אנטיו׳</he>.—Pl. ch. <cite ref=\"A02163\"><he>אַנְטוּכָאֵי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 10:18\">Targ. Y. Gen. X, 18</cite> (ed. <he>אנטכואי</he>, <cite ref=\"A02165\"><he>אנטוכיא</he></cite> corr. acc.; h. text <he>חֲמָתִי</he>)."
+			]
+		}
+	]
+}

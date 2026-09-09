@@ -1,0 +1,27 @@
+{
+	"id": "M01713",
+	"slug": "מנדו",
+	"headword": {
+		"text": "מַנְדּוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּפַר מַנְדּוּ"
+		}
+	],
+	"page": {
+		"number": 797,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>K’far Mandu</i> (Kafr Menda, north of Sepphoris; v. Sm. Bible Dict. s. v. Madon, a. Fischer a. Guthe Map of Palestine). Pesik. Shub., p. 163ᵇ; <cite ref=\"Yalkut Shimoni on Nach 906:3\">Yalk. Job 906</cite>; <cite ref=\"Bereishit Rabbah 52\">Gen. R. s. 52</cite> a. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 1\">Lev. R. s. 1</cite> ed. Wil. <cite ref=\"M01714\"><he>מנְדִּי</he></cite>.—[<cite ref=\"Tosefta Yevamot 10:3\">Tosef. Yeb. X, 3</cite> <he>כפר מנורי</he> ed. Zuck., Var. <cite ref=\"M01716\"><he>מַנְדִּין</he></cite>.]"
+			]
+		}
+	]
+}

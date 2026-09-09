@@ -1,0 +1,38 @@
+{
+	"id": "D00051",
+	"slug": "דבורה",
+	"headword": {
+		"text": "דְּבוֹרָה"
+	},
+	"page": {
+		"number": 276,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.  <cite ref=\"D00083\"><he>דְּבֹרָה</he></cite>; <he>דבר</he> <i>to lead, join</i>) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>swarm</i>,] <i>bee</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 795:2\">Yalk. Deut. 795</cite> (play on <he>הדברים</he>, <cite ref=\"Deuteronomy 1:1\">Deut. I, 1</cite>) <he>מה הד׳ הזו בניה מתנהגין וכ׳</he> as the bee is followed by the young, so are the Israelites led by the righteous &c.; (<cite ref=\"Devarim Rabbah 1:6\">Deut. R. s. 1</cite> <he>כדְּבוֹרִים היו וכ׳</he> like bees my children were guided &c.). ",
+				"<cite ref=\"Devarim Rabbah 1:6\">Ib.</cite> <he>מה הד׳ הזו וכ׳</he> as the bee whose honey &c.; a. fr.—Pl. <he>דְּבוֹרִים</he>. ",
+				"<cite ref=\"Mishnah Kelim 16:7\">Kel. XVI, 7</cite> <he>מדף של ד׳</he> the vessel used for smoking the bees out. ",
+				"<cite ref=\"Bekhorot 7b:8\">Bekh. 7ᵇ</cite> <he>דבש ד׳</he> bee-honey. Deut. R. l. c., v. supra."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. f. <i>Deborah</i>, the heroine and prophetess. ",
+			"units": [
+				"<cite ref=\"Megillah 14a:13\">Meg. 14ᵃ</cite>; a. fr.—שִׁירַת ד׳ <i>the song of Deborah</i> (<cite ref=\"Judges 5:12\">Jud. V</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Megillah 3:7:3\">Y. Meg. III, 74ᵇ</cite> bot.; <cite ref=\"Tractate Soferim 12:10\">Treat. Sof’rim XII, 10</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

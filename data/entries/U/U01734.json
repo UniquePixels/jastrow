@@ -1,0 +1,80 @@
+{
+	"id": "U01734",
+	"slug": "שפי-1",
+	"headword": {
+		"text": "שפי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁפָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1614,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"U00490\"><he>שׁוּף</he> II</cite>)<i>to crush.—Part. pass</i>. <cite ref=\"U01718\"><he>שָׁפוּי</he></cite>, pl. <he>שְׁפוּיִין</he> <i>crushed, humble, contrite</i> (= b. h. <cite ref=\"D00756\"><he>דַּכָּא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Tosefta Chagigah 2:9\">Tosef. Ḥag. II, 9</cite> <he>עניו וש׳</he> humble and contrite; <cite ref=\"Tosefta Sanhedrin 7:1\">Tosef. Snh. VII, 1</cite> <he>וש׳</he> (only); Y. ib. I, 19ᶜ. ",
+				"<cite ref=\"Bereishit Rabbah 60\">Gen. R. s. 60</cite> <he>דווין וש׳</he> Ar. (ed. <he>ושפופין</he>) broken down and crushed (poor); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to rub, smooth, plane.—Part. pass</i>. as ab. ",
+			"units": [],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " <i>smooth</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 12:14\">Koh. R. to XII, 14</cite> two paths <he>אחד ש׳ ואחד מלא וכ׳</he> one smooth, and the other full of thorns and pebbles.—",
+						"<cite ref=\"Yalkut Shimoni on Torah 62:13\">Yalk. Gen. 62</cite> <he>בור ש׳</he> (<cite ref=\"Sanhedrin 109a\">Snh. 109ᵃ</cite> <cite ref=\"U00045\"><he>שָׁאפֵי</he></cite>; Ar. <cite ref=\"U01812\"><he>שפת</he></cite>, corr. acc.) a smooth (blank, empty) pit, v. <cite ref=\"B00386\"><he>בּוֹרְסִיף</he></cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"H01113\"><he>חָלָק</he></cite>) <i>unimpaired, unscathed</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 45\">Gen. R. s. 45</cite>, v. <cite ref=\"T01146\"><he>רָתַק</he></cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁפָּה", "שִׁי׳"],
+			"senses": [
+				{
+					"gloss": "<i>to plane, saw, trim</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 125a:13\">Ḥull. 125ᵃ</cite> <he>קולית שש׳ וכ׳</he> a thigh-bone which one sawed through lengthwise. ",
+						"<cite ref=\"Avodah Zarah 42a\">Ab. Zar. 42ᵃ</cite> <he>ישראל שש׳ ע״ז וכ׳</he> if an Israelite chipped off an idol whether for his own purpose (to use the wood) or for its sake (to improve its appearance). ",
+						"<cite ref=\"Avodah Zarah 49b:9\">Ib. 49ᵇ</cite>. Y. Gitt. V, 47ᵃ bot. <he>גזלו ושִׁיפָּהוּ</he> if he took a block by force and planed it. ",
+						"<cite ref=\"Tosefta Keilim Metsia 3:1\">Tosef. Kel. B. Mets. III, 1</cite> <he>שפת הימנה וכ׳</he> (read: <cite ref=\"U01734\"><he>שפה</he></cite>) if he filed off a part of it and made of it &c.; a. e.—Part. pass. <he>מְשׁוּפֶּה</he>; pl. <he>מְשׁוּפִּים</he>, <he>מְשׁוּפִּין</he>. Y. Gitt. l. c. <he>גזלו מש׳</he> if he took it planed. Y. Succ. I, 52ᶜ top <he>במש׳ לכלים</he> (not <he>בכלים</he>) when the boards are planed preparatory to making them into utensils; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to smooth, polish</i>, <cite ref=\"Mishnah Kelim 14:5\">Kel. XIV, 5</cite> <he>משׁיְשַׁפֶּנּוּ</he> Ar.; <cite ref=\"Nedarim 56b:3\">Ned. 56ᵇ</cite> <he>משׁיְשַׁפֵּם</he>, v. <cite ref=\"U00490\"><he>שׁוּף</he> II</cite>.—Trnsf. <i>to pacify, give satisfaction</i>. Y. B. Mets. V, 10ᵇ <he>המבטל … חייב לשַׁפּוֹת לו</he> if a tenant or an agent neglects his neighbor’s field, he must indemnify him; ib. IX, beg. 12ᵃ",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to leave smooth places</i>, (cmp. <cite ref=\"H01112\"><he>חָלַק</he></cite> <i>Hif.</i>) <i>to plant wide apart</i>. Y. Orl. I, beg. 60ᶜ <he>לקורות במְשַׁפֶּה</he> (or <he>במַשְׁפֶּה</he> <i>Hif.</i>) when he plants the trees wide apart, it is an indication that he wants to raise them for beams, opp. <cite ref=\"T00995\"><he>רָצַף</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Batra 5:4\">B. Bath. V, 4</cite> <he>הגדילו לא יְשַׁפֶּה</he> (or <cite ref=\"J00702\"><he>יַשְׁפֶּה</he></cite>) if they (the trees bought in a person’s field) grew large, he (the owner of the field) has no right to smooth the field (cut the trees down). ",
+						"<cite ref=\"Mishnah Bava Batra 5:4\">Ib.</cite> <he>הגדילו ישפה</he> when they are grown large, he (the owner of the trees) may cut them (in order to use the ground they occupy); a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

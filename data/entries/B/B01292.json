@@ -1,0 +1,68 @@
+{
+	"id": "B01292",
+	"slug": "ברכה",
+	"headword": {
+		"text": "בְּרָכָה"
+	},
+	"page": {
+		"number": 195,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>ברך</he>)<i>blessing, bestowal of prosperity, good wishes, choice, plenty</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 5a:7\">Keth. 5ᵃ</cite> <he>הואיל … ב׳ לדגים</he> because on it the blessing was given to the fish (<cite ref=\"Genesis 1:22\">Gen. I, 22</cite>, to be fruitful). Y. ib. I, beg. 24ᵈ <he>אין כתיב ב׳ וכ׳</he> the blessing (<cite ref=\"Genesis 2:3\">Gen. II, 3</cite>) refers not to man but to the day.—",
+				"<cite ref=\"Eruvin 63b:10\">Erub. 63ᵇ</cite>, a. fr. <he>תבא עליו ב׳</he> blessing rest upon him (he acts rightly). ",
+				"<cite ref=\"Ketubot 103a:22\">Keth. 103ᵃ</cite>; <cite ref=\"Bava Batra 144b:5\">B. Bath. 144ᵇ</cite> <he>בִּרְכַת הבית ברובה</he> the blessing of a house consists in the number of inmates (every member of a household contributes to its comfort); <cite ref=\"Tosefta Ketubot 12:3\">Tosef. Keth. XII, 3</cite> <he>ב׳ הבית מרובה</he>. ",
+				"<cite ref=\"Bava Metzia 42a:5\">B. Mets. 42ᵃ</cite> <he>אין הב׳ מצוייה וכ׳</he> blessing (unexpected supply, miraculous increase) will not take place in things which are weighed &c.; <cite ref=\"Taanit 8b:14\">Taan. 8ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Pesachim 50b:10\">Pes. 50ᵇ</cite>, a. fr. <he>אינו רואה סימן ב׳ לעולם</he> will never see a sign of prosperity; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>benediction, prayer to be recited on certain occasions</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 35a:20\">Ber. 35ᵃ</cite> man must not taste anything <he>בלא ב׳</he> without a blessing. ",
+				"<cite ref=\"Berakhot 40b:10\">Ib. 40ᵇ</cite> <he>כל ב׳ שאין וכ׳</he> a benediction in which the Name of the Lord is not invoked, is no benediction; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "—Pl. <he>בְּרָכוֹת</he>. ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>blessings, benedictions</i>. Ib. 45ᵇ; a. v. fr.—",
+					"units": [
+						"<cite ref=\"Shabbat 115b:2\">Sabb. 115ᵇ</cite> <he>כותבי ב׳</he> those who write out the formulas of prayer.—"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " <i>B’rakhoth</i>, the first treatise of the Mishnah, Talmud, a. Tosefta.—Compounds: <he>בִּרְכַת אבלים</he> the prayer for consolation inserted in the mourners’ grace after meal. ",
+					"units": [
+						"<cite ref=\"Ketubot 8b:2\">Keth. 8ᵇ</cite>; a. fr.—<he>ב׳ ארוסין</he> benediction preceding betrothal, v. <cite ref=\"A03043\"><he>אֵרוּסִין</he></cite> <cite ref=\"Ketubot 7b\">Ib. 7ᵇ</cite>.—<he>ב׳ הארץ</he> that portion of the grace after meal which refers to Palestine. ",
+						"<cite ref=\"Ketubot 8b:2\">Ib. 8ᵇ</cite>.—<he>ב׳ הזבח</he> the benediction before partaking of the festive offering (<cite ref=\"H00148\"><he>חֲגִיגָה</he></cite>) which accompanies the Paschal lamb. ",
+						"<cite ref=\"Mishnah Pesachim 10:9\">Pes. X, 9</cite> (<cite ref=\"Pesachim 120a\">120ᵃ</cite>).—<he>ב׳ הזימון</he> the appeal to the partakers of a meal to say grace, <i>common prayer</i>. ",
+						"<cite ref=\"Berakhot 45b:18\">Ber. 45ᵇ</cite>.—<he>ב׳ חתנים</he> benediction on performing the marriage ceremony, also inserted in the grace after wedding meals during seven days. ",
+						"<cite ref=\"Ketubot 8b:2\">Keth. 8ᵇ</cite>.—<he>ב׳ כהנים</he> the priestly benediction (<cite ref=\"Numbers 6:24-26\">Num. VI, 24—26</cite>). ",
+						"<cite ref=\"Mishnah Sotah 7:6\">Sot. VII, 6</cite>.—<he>ב׳ המזון</he> grace after meal. Keth. l. c.—<he>ב׳ המצוות</he> benediction on performing a divine command (of a symbolic nature). Ib. 7ᵇ.—<he>ב׳ רחבה</he> benediction of consolation pronounced in open air on the mourners’ return from burial (v. <cite ref=\"E00051\"><he>הַבְרָאָה</he></cite>). Ib. 8ᵇ.—<he>ב׳ התורה</he> benediction before and after reading the Law. ",
+						"<cite ref=\"Jerusalem Talmud Berakhot 1:5:4\">Y. Ber. I, 3ᶜ</cite>.—[For other compounds see the respective determinants.]"
+					],
+					"label": "2"
+				}
+			]
+		},
+		{
+			"gloss": "<i>blasphemy</i>. <he>בִּרְכַת השם</he>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 56a\">Snh. 56ᵃ</cite> sq.; (<cite ref=\"Tosefta Avodah Zarah 8:4\">Tosef. Ab. Zar. VIII</cite> (<cite ref=\"Tosefta Avodah Zarah 9:4\">IX</cite>), 4 <he>קיללת</he>)."
+			],
+			"label": "3"
+		}
+	]
+}

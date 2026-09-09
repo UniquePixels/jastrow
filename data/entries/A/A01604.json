@@ -1,0 +1,29 @@
+{
+	"id": "A01604",
+	"slug": "אירוס-1",
+	"headword": {
+		"text": "אֵירוּס",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵרוּס"
+		}
+	],
+	"page": {
+		"number": 60,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (supposed to be = ἴρις) <i>Erus</i>, a lily with an aromatic root. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 5:8\">Kil. V, 8</cite>, expl. Y. ib. 30ᵃ bot. <cite ref=\"A01613\"><he>אִירְסַיָּה</he></cite> (pl. of <cite ref=\"A01612\"><he>אִירְסָא</he></cite>, v. P. Sm. s. v.). ",
+				"<cite ref=\"Tosefta Kilaim 3:13\">Tosef. ib. III, 13</cite>. Ohol. VIII, 1."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "O00925",
+	"slug": "סכנא",
+	"headword": {
+		"text": "סִכְנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִי׳"
+		}
+	],
+	"page": {
+		"number": 992,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Sikhna</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 4:17\">Koh. R. to IV, 17</cite> <he>שמעון ס׳</he> (prob. to be read: <he>סִכְנָאָה</he>, v. <cite ref=\"O00929\"><he>סִכְנִין</he></cite>)."
+			]
+		}
+	]
+}

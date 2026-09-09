@@ -1,0 +1,27 @@
+{
+	"id": "T01147",
+	"slug": "רתקא",
+	"headword": {
+		"text": "רִתְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1504,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T01146\">preced.</cite>) <i>chain-like fence, twisted hedge</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 107b:1\">B. Mets. 107ᵇ</cite> top <he>דקא מהדר ליה שורא ור׳</he> when he surrounds his field with a wall or a hedge (excluding it from sight)."
+			]
+		}
+	]
+}

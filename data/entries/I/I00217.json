@@ -1,0 +1,24 @@
+{
+	"id": "I00217",
+	"slug": "טורא-2",
+	"headword": {
+		"text": "טוּרָא",
+		"reconstructed": true,
+		"homograph": 3
+	},
+	"page": {
+		"number": 526,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>tura</i>, name of a bitter herb. ",
+			"units": [
+				"<cite ref=\"Pesachim 39a\">Pes. 39ᵃ</cite> (Ms. M. <cite ref=\"O00413\"><he>סורא</he></cite>)."
+			]
+		}
+	]
+}

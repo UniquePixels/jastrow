@@ -1,0 +1,42 @@
+{
+	"id": "G00233",
+	"slug": "זור-2",
+	"headword": {
+		"text": "זוּר"
+	},
+	"page": {
+		"number": 389,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00232\">same</cite> (with <he>מ־</he>) <i>to turn away</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 16:26\">Targ. Num. XVI, 26</cite> (h. text <cite ref=\"O00408\"><he>סור</he></cite>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with <he>ל־</he>) [<i>to turn from the road to</i>,] <i>to enter as a guest, to lodge</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 19:2\">Targ. Gen. XIX, 2</cite>, sq.; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זַוֵּור"],
+			"senses": [
+				{
+					"gloss": "<i>to turn, roll</i>.—<i>Part. pass.</i> <he>מְזַוַּור</he>. ",
+					"units": [
+						"<cite ref=\"Bekhorot 44a:13\">Bekh. 44ᵃ</cite> <he>דמְזַוְּורָן עיניה</he> Ar. (ed. <he>דמְזַוֵּר עיניה</he>, Rashi <he>דמזורדן</he>, read: <he>דמזוורן</he>) one whose eyes are rolled about (ed. who rolls his eyes); v. <cite ref=\"G00318\"><he>זִיּוֵּר</he></cite>.—2) <he>זַיֵּיר</he> (cmp. <cite ref=\"R00242\"><he>צוּר</he></cite>, <cite ref=\"G00737\"><he>זרר</he></cite>) <i>to tie up, keep</i> (as a pledge); <i>to press</i>. ",
+						"<cite ref=\"Bava Metzia 16b\">B. Mets. 16ᵇ</cite> <he>אפשיטי … ז׳ ליה</he> he keeps the document until the writer’s fee is paid. V. <cite ref=\"G00349\"><he>זַיָּירָא</he></cite>, <cite ref=\"M00742\"><he>מְזוֹרָה</he></cite>, <cite ref=\"G00238\"><he>זוּרְיָא</he></cite> &c."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

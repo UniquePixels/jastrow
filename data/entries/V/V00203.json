@@ -1,0 +1,33 @@
+{
+	"id": "V00203",
+	"slug": "תוכחה-2",
+	"headword": {
+		"text": "תּוֹכֵחָה",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוֹכֵחָא"
+		},
+		{
+			"text": "תּוֹכֵי׳"
+		},
+		{
+			"text": "תּוֹכַחְתָּא"
+		}
+	],
+	"page": {
+		"number": 1652,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00202\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Micah 6:2\">Targ. Mic. VI, 2</cite>.—",
+				"<cite ref=\"Shabbat 152a:6\">Sabb. 152ᵃ</cite> <he>תוכיחא</he> Ms. M. (ed. <cite ref=\"V00202\"><he>תוכחה</he></cite>), v. <cite ref=\"U01331\"><he>שְׁלִיף</he> II</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 52\">Gen. R. s. 52</cite> (ref. to <cite ref=\"Genesis 20:16\">Gen. XX, 16</cite> <he>ונכחת</he>) <he>כבר תּוֹכַחְתֵּיה … גביה וכ׳</he> this man’s (thy) reproof is already with him (thee, that thou didst not clothe thy wife honorably) &c.; Yalk. ib. 91 (not <cite ref=\"C00073\"><he>גבי</he></cite>)."
+			]
+		}
+	]
+}

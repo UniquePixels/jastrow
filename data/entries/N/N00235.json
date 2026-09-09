@@ -1,0 +1,28 @@
+{
+	"id": "N00235",
+	"slug": "נדנוד",
+	"headword": {
+		"text": "נִדְנוּד"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 879,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00234\">preced.</cite>) <i>moving about, exile</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 39:8\">Gen. R. s. 39</cite> (expl. <cite ref=\"N00212\"><he>נְדֹד</he></cite>, <cite ref=\"Psalms 55:9\">Ps. LV, 9</cite>) <he>נ׳ טלטול וכ׳</he> <i>n’dod</i> means moving about, exile after exile.—2) (sub. <he>ראש</he>) <i>head-shaking</i>; <he>נ׳ עבירה</he> an act at which people shake their heads as being wrong. ",
+				"<cite ref=\"Tosefta Yevamot 4:8\">Tosef. Yeb. IV, 8</cite>; <cite ref=\"Pesachim 50b:3\">Pes. 50ᵇ</cite> (Ar. <he>ני׳ לעברה</he>)."
+			]
+		}
+	]
+}

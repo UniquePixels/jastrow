@@ -1,0 +1,32 @@
+{
+	"id": "A03326",
+	"slug": "אשמאי",
+	"headword": {
+		"text": "אַשְׁמַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַשְׁמַיי"
+		}
+	],
+	"page": {
+		"number": 129,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A03322\"><he>אָשַׁם</he></cite>",
+			"units": []
+		},
+		{
+			"gloss": "<i>waste</i> (in mind); <i>ignorant, neglected;</i> cmp. <cite ref=\"B00329\"><he>בּוֹר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 32b:8\">Kidd. 32ᵇ</cite> <he>זקן א׳</he> an uncultured, rough old man. Sifra to <cite ref=\"Mishnah Parah 3\">Par. III</cite>, ch. VII <he>אשמיי</he> (as noun). Cmp. <cite ref=\"A03328\"><he>אַשְׁמָה</he></cite>."
+			],
+			"label": "1"
+		}
+	]
+}

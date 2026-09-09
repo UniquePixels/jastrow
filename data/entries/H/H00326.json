@@ -1,0 +1,27 @@
+{
+	"id": "H00326",
+	"slug": "חולא-1",
+	"headword": {
+		"text": "חוּלָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוֹלָא"
+		}
+	],
+	"page": {
+		"number": 433,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00325\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 10:10\">Targ. Lev. X, 10</cite>; a. fr.—Pl. <cite ref=\"H00351\"><he>חוּלִּין</he></cite>, (<cite ref=\"H01025\"><he>חוֹל׳</he></cite>) <cite ref=\"H00345\"><he>חוּלֵּי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 22:30\">Targ. Y. Ex. XXII, 30</cite> <he>ח׳ בדכותא</he> (= <he>חולין שנעשו על טהרת הקדש</he>, v. <cite ref=\"H00325\">preced.</cite>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 6:21\">Targ. Y. Lev. VI, 21</cite>.—",
+				"<cite ref=\"Targum Jonathan on Genesis 18:25\">Targ. Y. Gen. XVIII, 25</cite> <he>ח׳ הוא לך</he>, v. <cite ref=\"H00325\">preced.</cite>"
+			]
+		}
+	]
+}

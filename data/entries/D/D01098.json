@@ -1,0 +1,28 @@
+{
+	"id": "D01098",
+	"slug": "דרכא-2",
+	"headword": {
+		"text": "דָּרְכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דּוֹרְכָא"
+		}
+	],
+	"page": {
+		"number": 324,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דרך</he>) <i>threshing, threshing time</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 25:4\">Targ. Y. I Deut. XXV, 4</cite>, <cite ref=\"Targum Jerusalem, Deuteronomy 25:4\">Targ. Y. II, Deut. XXV, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 26:5\">Targ. Y. Lev. XXVI, 5</cite> (<cite ref=\"D01097\"><he>דַּרְכָא</he></cite>)."
+			]
+		}
+	]
+}

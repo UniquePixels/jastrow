@@ -1,0 +1,35 @@
+{
+	"id": "H00938",
+	"slug": "חכך-4",
+	"headword": {
+		"text": "חֲכָךְ"
+	},
+	"page": {
+		"number": 462,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00937\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>scab, sore;</i> trnsf. <i>tribulation, visitation</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:1:7\">Y. M. Kat. III, 81ᵈ</cite> top; (<cite ref=\"Bava Metzia 59b\">B. Mets. 59ᵇ</cite> <cite ref=\"A01661\"><he>אַךְ</he></cite>, Var. <cite ref=\"A02595\"><he>אַף</he></cite>).—Pl. <he>חֲכָכִים</he> <i>inflammations</i>. ",
+				"<cite ref=\"Bereishit Rabbah 19:1\">Gen. R. s. 19</cite>, beg. (v., however, <cite ref=\"A00021\"><he>אַבְאָבִית</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cough, catarrh</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:3:3\">Y. Snh. X, 29ᵇ</cite> bot. <he>בתחלה הוא … ח׳</he> first He causes a cold to enter them; (Tanḥ., ed. Bub., R’eh 10 <cite ref=\"H00753\"><he>חִיכּוּךְ</he></cite>); Pesik. Asser 97ᵇ <he>הקב״ה ח׳</he> (insert <he>מכניס בהם</he>); v. <cite ref=\"F00022\"><he>וָהּ</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

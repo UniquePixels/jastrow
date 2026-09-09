@@ -1,0 +1,31 @@
+{
+	"id": "A00798",
+	"slug": "אופי-1",
+	"headword": {
+		"text": "אוּפֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּפְיֵי"
+		}
+	],
+	"page": {
+		"number": 31,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (= <cite ref=\"P01062\"><he>עֳפִי</he></cite> <cite ref=\"Daniel 4:9\">Dan. IV, 9</cite>; cmp. b. h. <cite ref=\"P01004\"><he>עָנָף</he></cite>, a. <cite ref=\"A01117\"><he>אִיבָּא</he></cite>, <cite ref=\"A02086\"><he>אִנְבָּא</he></cite>) <i>branches</i>, esp. <i>dry twigs, spray-wood</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 44b:23\">Ber. 44ᵇ</cite> <he>א׳ פרסייתא</he> twigs of Persian trees. ",
+				"<cite ref=\"Chullin 105a:11\">Ḥull. 105ᵃ</cite> <he>פתכא דא׳</he> Ar. (ed. <he>אופיי</he>) a bundle of twigs. ",
+				"<cite ref=\"Bava Metzia 30b\">B. Mets. 30ᵇ</cite>. ",
+				"<cite ref=\"Gittin 61a:4\">Git. 61ᵃ</cite> <he>שדי אופיי</he> (Ar. <he>אופי</he>) threw twigs down (which he cut off), and dates fell off (v. Tossaf. a. l.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "P00193",
+	"slug": "עוגיא",
+	"headword": {
+		"text": "עוּגְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּגְיָה"
+		}
+	],
+	"page": {
+		"number": 1047,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>עגי</he>, v. <cite ref=\"A00543\"><he>אוּגְיָה</he></cite>) <i>cavity dug around a tree</i>.—Pl. <he>עוּגְיוֹת</he>, <he>עוּגְיָאוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Moed Katan 1:1\">M. Kat. I, 1</cite>. ",
+				"<cite ref=\"Moed Katan 3a:20\">Ib. 3ᵃ</cite>; <cite ref=\"Moed Katan 4b:3\">ib. 4ᵇ</cite> expl. <cite ref=\"B00960\"><he>בִּנְכֵּי</he></cite> or <he>בְּדִידִין</he>; Y. ib. I, 80ᵇ top; <cite ref=\"Tosefta Moed Kattan 1:2\">Tosef. ib. I, 2</cite>; <cite ref=\"Tosefta Shevi'it 1:7\">Tosef. Shebi. I, 7</cite>. ",
+				"<cite ref=\"Tosefta Shevi'it 3:7\">Ib. III, 7</cite> <he>ועושין ע׳ מזה לזה</he> and you may make ruts from one tree to another (Var. <he>ועושין ע׳ לגפנים מזו לזו</he>); Sifra B’har, Par. 1 <he>עוגיאות בין אילן לאילן חבירו</he>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:19\">Y. Sabb. VII, 10ᵃ</cite> top; a. e."
+			]
+		}
+	]
+}

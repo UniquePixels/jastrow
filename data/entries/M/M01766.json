@@ -1,0 +1,40 @@
+{
+	"id": "M01766",
+	"slug": "מנטר",
+	"headword": {
+		"text": "מִנְטַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִי׳"
+		}
+	],
+	"page": {
+		"number": 799,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00584\"><he>נְטַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (infin. of <cite ref=\"N00584\"><he>נְטַר</he></cite>) <he>דמסיר למ׳</he> <i>the charge of</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 3:36\">Targ. Y. Num. III, 36</cite> (O. <he>דמסיר למיטר ל־</he> ed. Berl., oth. ed. <he>למַטַּר</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>guard</i>,] <i>border, edge</i> of a cloak (corresp. to Lat. clavus). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 28:31\">Targ. Y. Ex. XXVIII, 31</cite>; <cite ref=\"Targum Jonathan on Exodus 28:34\">34</cite>.—Trnsf. (like clavus) <i>tunic</i>. ",
+				"<cite ref=\"Targum of I Chronicles 15:27\">Targ. I Chr. XV, 27</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

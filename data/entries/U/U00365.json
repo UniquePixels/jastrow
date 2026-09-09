@@ -1,0 +1,23 @@
+{
+	"id": "U00365",
+	"slug": "שוחד",
+	"headword": {
+		"text": "שׁוֹחַד"
+	},
+	"page": {
+		"number": 1530,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"U00612\"><he>שֹׁחַד</he></cite> ; <i>Shaf.</i> of <cite ref=\"H00168\"><he>חד</he></cite>(<cite ref=\"A00000\"><he>א</he></cite>) or <he>יחד</he> <i>to conciliate, win favor</i>) <i>favor, gift</i>, esp. <i>bribe, bribery</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 17:3\">Midr. Till. to Ps. XVII, 2</cite> <he>כתבת בתורה … ליקח ש׳ … אבל אתה שאתה נוטל ש׳ מן הרשעים וכ׳</he> thou hast written in the Law (<cite ref=\"Exodus 23:8\">Ex. XXIII, 8</cite>), ‘thou shalt take no bribe’, and they (men) are afraid to take presents and judge me, but thou who acceptest means of conciliation from sinners, such as repentance, good deeds, and prayer: let thy judgment go forth from before thee. ",
+				"<cite ref=\"Ketubot 105b:1-8\">Keth. 105ᵇ</cite> (ref. to Ex. l. c.) <he>אינו … ש׳ ממון אלא אפי׳ ש׳ דברים וכ׳</he> not only a bribe in the shape of money, but even a bribe in acts (service) is forbidden. Ib.ᵃ <he>כמה סמויות … מקבלי ש׳</he>, v. <cite ref=\"O01063\"><he>סָמָה</he></cite>. Ib.ᵇ <he>ש̇וח̇ד̇ ש̇הוא ח̇ד̇</he> (Ar. <he>אח̇ד̇</he>) why is it called <i>shoḥad?</i> Because it is one (the recipient and the giver are made like one person); a. fr."
+			]
+		}
+	]
+}

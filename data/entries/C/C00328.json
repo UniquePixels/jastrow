@@ -1,0 +1,44 @@
+{
+	"id": "C00328",
+	"slug": "גווזא",
+	"headword": {
+		"text": "גַּוָּוזָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 219,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00338\"><he>גוז</he></cite>) = h. <cite ref=\"C00571\"><he>גֶּזַע</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>trunk, stem</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 40a\">Ber. 40ᵃ</cite>; <cite ref=\"Berakhot 40b\">40ᵇ</cite> <he>איתיה לג׳ וכ׳</he> (Ms. F. <he>גִּזְעָא</he>, Ar. <cite ref=\"C00516\"><he>גִּזָּא</he></cite>) there remains a stem which produces fruits again. ",
+				"<cite ref=\"Avodah Zarah 35b:4\">Ab. Zar. 35ᵇ</cite> <he>קטפא דגַוָּזָא</he> ed. (Ms. M. <cite ref=\"C00328\"><he>גווזא</he></cite>, Ar. <he>גזא</he>, <cite ref=\"C01123\"><he>גנזא</he></cite>, v. Koh. Ar. Compl. s. v. <he>גז</he> II, p. 262) ; <cite ref=\"Niddah 8b:15\">Nidd. 8ᵇ</cite> <he>קטפא דגווזא</he> the gum which oozes out of the stem, opp. <he>דפירי</he>.—",
+				"<cite ref=\"Nedarim 50a:7\">Ned. 50ᵃ</cite> (became rich) <he>מן גַּוָּזָא</he> through a (hollowed out) trunk. ",
+				"<cite ref=\"Nedarim 50a:7\">Ib.</cite> <he>לא אשכחו אלא גווזא וכ׳</he> they found on the sea shore nothing (of the wrecked ship) except a trunk. ",
+				"<cite ref=\"Nedarim 50a:7\">Ib.</cite> <he>וכולי עיסקא מחית בההוא גוזא</he> (Ar. <he>גיאזא</he>, read <cite ref=\"C00674\"><he>גו׳</he></cite>) and the entire treasure of the ship was hidden in that trunk; [Rashi: <i>chest</i>, v. <cite ref=\"C00341\"><he>גּוּזָּא</he></cite>].—2) [<i>that which is cut off</i>,] <i>branches;</i> [<i>that which is chopped</i>,] <i>wood</i>. ",
+				"<cite ref=\"Chullin 8b:2\">Ḥull. 8ᵇ</cite> <he>פסק ביה ג׳ לע״ז</he> (Ar. <cite ref=\"C00265\"><he>גואזא</he></cite>) he cut wood with it for idolatrous purposes. ",
+				"<cite ref=\"Bava Kamma 22b:9\">B. Kam. 22ᵇ</cite> <he>ג׳ סילתא וכ׳</he> (Ms. O. a. Ar. <cite ref=\"C00265\"><he>גואזא</he></cite>) chopped wood, kindling chips and light. ",
+				"<cite ref=\"Shabbat 154b:14\">Sabb. 154ᵇ</cite> <he>גואזא פרסכנא</he> ed. (Ms. M. <he>גווזא ופ׳</he>, v. Rabb. D. S. a. l. note) low and spreading ramifications (forming the fourth wall of a <i>Succah</i>). ",
+				"<cite ref=\"Gittin 69b:1\">Gitt. 69ᵇ</cite>, v. <he>מרמהין</he>.—<he>גַּוָּוזֵי</he>. ",
+				"<cite ref=\"Shabbat 155a\">Sabb. 155ᵃ</cite> let him rest the ladder <he>אגוו׳ וכ׳</he> Ms. M. (ed. <he>אגַּוָּואזֵי</he>, Ms. O. <cite ref=\"C00265\"><he>גואזא</he></cite>) on the branches spreading beyond the circumference of the tree (Rashi: <i>on pegs</i> reaching beyond &c.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pl. <he>גַּאוָּזִין</he> (cmp. <cite ref=\"A01497\"><he>איסקוזות</he></cite>) <i>lots, division by lots</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד מאת׳</he> 1) <he>נעביד ג׳</he> let us divide by lots (comment.: <i>pieces of wood</i> on which names are written for raffling)."
+			],
+			"label": "3"
+		}
+	]
+}

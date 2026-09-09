@@ -1,0 +1,52 @@
+{
+	"id": "O00977",
+	"slug": "סלי-1",
+	"headword": {
+		"text": "סלי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סָלָא"
+		},
+		{
+			"text": "סָלָה"
+		}
+	],
+	"page": {
+		"number": 994,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to swing</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִסְלִיא"],
+			"senses": [],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["סִילֵּא"],
+			"senses": [
+				{
+					"gloss": " [ [<i>to make rise</i>,] <i>to balance, outweigh</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 82b:11\">Snh. 82ᵇ</cite> (play on <he>סלוא</he>, <cite ref=\"Numbers 25:14\">Num. XXV, 14</cite>) <he>על שה׳ וכ׳</he> because he outweighed the sins of his family; [oth. opin.: he caused the sins of his family to rise, i.e. become notorious]; Tanḥ. Pinḥ. 2; <cite ref=\"Yalkut Shimoni on Torah 772\">Yalk. Num. 772</cite>; <cite ref=\"Bamidbar Rabbah 21\">Num. R. s. 21</cite> <he>בן שסילא וכ׳</he>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to throw away, reject</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 104b:10\">Snh. 104ᵇ</cite>, v. <cite ref=\"Q01325\"><he>פָּסַל</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

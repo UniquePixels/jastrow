@@ -1,0 +1,39 @@
+{
+	"id": "N00072",
+	"slug": "נבי-3",
+	"headword": {
+		"text": "נְבֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְבָא"
+		}
+	],
+	"page": {
+		"number": 868,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִיתְנַבָּא</he>, <cite ref=\"N00927\"><he>אִיתְנַבֵּי</he></cite>, <cite ref=\"N00927\"><he>אִינַּבֵּי</he></cite> same. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 11:25\">Targ. Num. XI, 25</cite>, sq.; a. fr.—",
+						"<cite ref=\"Megillah 14b:5\">Meg. 14ᵇ</cite> <he>ובמקום דקאי ירמיהו היכי מִיתְנַבְּיָא איהי</he> how could she (Huldah) dare to prophesy in the same place with Jeremiah? <cite ref=\"Sanhedrin 96b:6\">Snh. 96ᵇ</cite> <he>דאינ׳ להו לישראל בחורבתא וכ׳</he> who had prophesied to Israel the destruction of the Temple. ",
+						"<cite ref=\"Bava Batra 15b:3\">B. Bath. 15ᵇ</cite> <he>אִינַּבּוּיֵ אינבי לאומות העולם</he> (read. <he>אינַבּוּ</he>; Ms. M. <he>אִינַּבִּיאוּ</he>) they prophesied for the gentiles; <cite ref=\"Bava Batra 15b:3\">ib.</cite> <he>הכא נמי איוב אינבוי אינבי לעכ״ום</he> so Job likewise prophesied for the gentiles. ",
+						"<cite ref=\"Bava Batra 15b:3\">Ib.</cite> [read:] <he>אטו כולהו נביאי מי לא אִינַּבּוּ וכ׳</he> (Ms. M. <he>אינביאו</he>, v. Rabb. D. S. a. l. note) did not all prophets prophesy for the gentiles?"
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

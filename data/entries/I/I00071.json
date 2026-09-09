@@ -1,0 +1,27 @@
+{
+	"id": "I00071",
+	"slug": "טבלאי",
+	"headword": {
+		"text": "טַבְלַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַבְלַיי"
+		}
+	],
+	"page": {
+		"number": 518,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Tablai</i>, an Amora. Y. Erub. V, 25ᵃ bot.; (<cite ref=\"Shabbat 101a:5\">Sabb. 101ᵃ</cite> <cite ref=\"I00068\"><he>טַבְלָא</he></cite>).—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:2:5\">Y. Sabb. VI, 8ᵃ</cite> bot.; a. e."
+			]
+		}
+	]
+}

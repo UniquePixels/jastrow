@@ -1,0 +1,27 @@
+{
+	"id": "M02234",
+	"slug": "מפסלתא",
+	"headword": {
+		"text": "מִפְסַלְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִיפְ׳"
+		}
+	],
+	"page": {
+		"number": 821,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (<cite ref=\"M02233\">preced.</cite>) <i>sculptor’s work, engraving</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 74:6\">Targ. Ps. LXXIV, 6</cite> <cite ref=\"M01268\"><he>מִיפְסְלַת</he></cite> ed. Lag. (some ed. <he>מִפְסוֹ׳</he>; ed. Wil. <he>מַפְ׳</he>), v. <cite ref=\"D00520\"><he>דְּיוֹסְטַר</he></cite>."
+			]
+		}
+	]
+}

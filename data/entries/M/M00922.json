@@ -1,0 +1,25 @@
+{
+	"id": "M00922",
+	"slug": "מחצה",
+	"headword": {
+		"text": "מֶחֱצָה"
+	},
+	"page": {
+		"number": 763,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"H01504\"><he>חָצָה</he></cite>)<i>division, half</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shekalim 7:1\">Shek. VII, 1</cite> <he>מ׳ למ׳</he> at an equal distance from each. ",
+				"<cite ref=\"Chullin 29a:7\">Ḥull. 29ᵃ</cite>; <cite ref=\"Pesachim 79a:23\">Pes. 79ᵃ</cite> <he>מ׳ על מ׳ כרוב</he> half to half (if the nation is equally divided between clean and unclean), we treat it as if the majority were clean. ",
+				"<cite ref=\"Chullin 28b:15\">Ḥull. 28ᵇ</cite> <he>מ׳ על מ׳ כרוב</he> half (of the vital organ) cut and half uncut is considered as if the larger portion were cut. ",
+				"<cite ref=\"Vayikra Rabbah 10:5\">Lev. R. s. 10</cite> <he>תשובה עושה מ׳</he> repentance effects half (the atonement); a. fr."
+			]
+		}
+	]
+}

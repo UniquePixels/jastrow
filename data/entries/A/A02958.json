@@ -1,0 +1,23 @@
+{
+	"id": "A02958",
+	"slug": "ארבונא",
+	"headword": {
+		"text": "אַרְבּוּנָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 114,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ארב</he>, cmp. <he>ערב</he>) <i>confounding of colors, thickness</i>, whence <i>feeble sight</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 111b:11\">Pes. 111ᵇ</cite> the following three things <he>יהיבי א׳ וכ׳</he> (Ms. Oxf. <he>עוורונא</he>; Ms. M. v. Rabb. D. S. a. l.) cause defective eye-sight."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "J00411",
+	"slug": "ימים-2",
+	"headword": {
+		"text": "יֵמִים",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "יֵי׳"
+		}
+	],
+	"page": {
+		"number": 580,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h.; <he>המה</he>)<i>mules</i> (v. Targ. Y. to <cite ref=\"Genesis 36:24\">Gen. XXXVI, 24</cite>). Y. Ber. VIII, 12ᵇ; <cite ref=\"Bereishit Rabbah 82\">Gen. R. s. 82</cite>, end, v. <cite ref=\"E00605\"><he>הֶמְיוֹנָס</he></cite>. ",
+			"units": [
+				"<cite ref=\"Chullin 7b:13\">Ḥull. 7ᵇ</cite> (v. ",
+				"<cite ref=\"Pesachim 54a:1\">Pes. 54ᵃ</cite>)."
+			]
+		}
+	]
+}

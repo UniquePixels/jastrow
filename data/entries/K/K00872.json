@@ -1,0 +1,82 @@
+{
+	"id": "K00872",
+	"slug": "כנף-2",
+	"headword": {
+		"text": "כְּנַף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 650,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00871\">same</cite>, <i>to press, crowd; to gather</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 41:7\">Targ. Ps. XLI, 7</cite> (v. <cite ref=\"K00861\"><he>כְּנַס</he></cite>).—",
+				"<cite ref=\"Taanit 23b\">Taan. 23ᵇ</cite> <he>ניתי לִיכְנוֹף גבי הדדי</he> Ms. M. (ed. <he>נִיכְּנִיף הדדי</he>) let us go and crowd together (for prayer). ",
+				"<cite ref=\"Avodah Zarah 19b:9\">Ab. Zar. 19ᵇ</cite> <he>כָּנוּף ואתי וכ׳</he> all the world crowded about him.—Part. pass. <cite ref=\"K00872\"><he>כְּנִיף</he></cite>. ",
+				"<cite ref=\"Sanhedrin 29b:13\">Snh. 29ᵇ</cite> <he>כְּנִיפֵי ויתבי</he> if they (before whom he made the admission, v. <cite ref=\"A00566\"><he>אוֹדִיתָא</he></cite>) were assembled (for some other business), opp. to <he>כּנּפִינְהוּ איהו</he> if he himself called them to a meeting."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּנֵּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to collect, grab</i> (corresp. to <cite ref=\"C00039\"><he>גָּבַב</he></cite>). ",
+					"units": [
+						"<cite ref=\"Shabbat 73b:4\">Sabb. 73ᵇ</cite> <he>האי מאן דכ׳ וכ׳</he> he who grabs (skims with his palm) salt out of the salina. ",
+						"<cite ref=\"Beitzah 33b\">Bets. 33ᵇ</cite> <he>מחזי כמאן דמְכַנֵּיף וכ׳</he> Ms. M. (ed. <he>מכניא</he>, corr. acc.) it looks as though he raked together for the next day."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to assemble, call a meeting</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 1:1\">Targ. Y. I Deut. I, 1</cite>.—Snh. l. c., v. supra. ",
+						"<cite ref=\"Bava Kamma 113a\">B. Kam. 113ᵃ</cite> <he>לדידכו כַּנְּפִינְהוּ</he> Ms. M. (ed. v. <cite ref=\"K00845\"><he>כְּנוּפְיָא</he></cite>) have we assembled them for your individual benefit?—Part. pass. <he>מְכַנַּף</he>. ",
+						"<cite ref=\"Berakhot 58b:14\">Ber. 58ᵇ</cite> <he>כמאה … דמְכַנְּפֵי</he> like one hundred stars … collected in one spot, opp. <he>מבדרי</he>. ",
+						"<cite ref=\"Gittin 20a\">Gitt. 20ᵃ</cite>, v. infra."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (corresp. to <cite ref=\"S01746\"><he>קָפַל</he></cite>) <i>to fold, crease</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 147a:8\">Sabb. 147ᵃ</cite> <he>אדעתא דלכַנּוּפֵי</he> with the intention of creasing."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְכַּנַף"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְכְּנִיף", "אִיכְּנִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to be assembled, to meet, join</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Song of Songs 8:7\">Targ. Cant. VIII, 7</cite>.—",
+						"<cite ref=\"Taanit 23b\">Taan. 23ᵇ</cite>, v. supra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be compressed</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 20a:15\">Gitt. 20ᵃ</cite> <he>כַּנּוּפֵי מִכְּנִיף</he> (ed. Rashi <he>מְכַנַּף</he>), v. <cite ref=\"H01750\"><he>חֲרַץ</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

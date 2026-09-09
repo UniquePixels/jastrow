@@ -1,0 +1,56 @@
+{
+	"id": "K01061",
+	"slug": "כפת-1",
+	"headword": {
+		"text": "כָּפַת"
+	},
+	"page": {
+		"number": 662,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"K01060\">preced.</cite>) <i>to twist, tie</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tamid 4:1\">Tam. IV, 1</cite> <he>לא היו כוֹפְתִין וכ׳</he> they did not twist (tie together the four feet of) the lamb, opp. <cite ref=\"P01153\"><he>העקיד</he></cite>, v. <cite ref=\"P01153\"><he>עָקַד</he></cite>. ",
+				"<cite ref=\"Sanhedrin 70b:2\">Snh. 70ᵇ</cite> (ref. to <cite ref=\"Proverbs 31:1\">Prov. XXXI, 1</cite>) <he>שכְּפָתתּוֹ אמו וכ׳</he> Ms. M. (ed. <he>שכפאתו</he>) his mother tied him to a post; <cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10</cite> <he>כפפתו</he> (corr. acc.). ",
+				"<cite ref=\"Mishnah Parah 3:9\">Par. III, 9</cite> <he>כְּפָתוּהָ וכ׳</he> they tied her (the red heifer) with a rope &c. ",
+				"<cite ref=\"Bereishit Rabbah 56\">Gen. R. s. 56</cite> <he>כל מה … עוקד … כופת וכ׳</he> (some ed. <cite ref=\"K00198\"><he>כובש</he></cite>) as much as Abraham bound Isaac …, the Lord tied (held in check) the genii of the gentiles; <cite ref=\"Yalkut Shimoni on Torah 101:1\">Yalk. Gen. 101</cite>; <cite ref=\"Yalkut Shimoni on Nach 561:2\">Yalk. Nah. 561</cite>. Gen. R. l. c. <he>כְּפָתֵנִי וכ׳</he> tie me well. ",
+				"<cite ref=\"Mishnah Makkot 3:12\">Macc. III, 12</cite> <he>כופת שתי ידיו וכ׳</he> (some ed. <cite ref=\"K00336\"><he>כופה</he></cite>) one puts both his hands in stocks on the pole. ",
+				"<cite ref=\"Gittin 14b:4\">Gitt. 14ᵇ</cite> <he>אומרין כְּפוֹתוּ כּוֹפְתִין</he> when they (the officers) say, put him in stocks, they put him &c. ",
+				"<cite ref=\"Sukkah 32a:12\">Succ. 32ᵃ</cite> (ref. to <he>כפת</he>, <cite ref=\"Leviticus 23:40\">Lev. XXIII, 40</cite>) <he>כָּפוּת אם היה פרוד יִכְפְּתֶנּוּ</he> (Ms. M. omits <cite ref=\"K01003\"><he>כפות</he></cite>) it must be tied; if the branch is spread, one must tie it closely. ",
+				"<cite ref=\"Leviticus 23:40\">Ib.</cite> <he>כָּפוּת מכלל וכ׳</he> ‘tied’ implies that it is sometimes spread, while this (the stalk) is always tied (closely pressed together). ",
+				"<cite ref=\"Mishnah Tahorot 7:5\">Toh. VII, 5</cite> <he>אפי׳ כפות</he>, v. <cite ref=\"J00048\"><he>יָבַל</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 1:5:6\">Y. Gitt. I, end, 43ᵈ</cite>; <cite ref=\"Jerusalem Talmud Kiddushin 3:4:7\">Y. Kidd. III, 64ᵃ</cite> bot. <he>ויוסי אחי כ׳ וכ׳</he> and (I saw) my brother J. in stocks and the lash passing over him. ",
+				"<cite ref=\"Midrash Tehillim 2:5\">Midr. Till. to Ps. II, 3</cite> (ref. to ‘their bands’, <cite ref=\"Midrash Tehillim 2:5\">ib.</cite>) <he>אלו שבע מצות שהן כְּפוּתִין בהן</he> (not <he>כתופין כתיפ׳</he>, v. ed. Bub. note) those are the seven (Noachidic) laws by which they (the gentiles) are tied (restrained); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּיפֵּת"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K01060\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Tosefta Keilim Batra 2:1\">Tosef. Kel. B. Bath. II, 1</cite>. Y. Hor. III, 48ᵇ bot. <he>מְכַפֵּת</he>, v. <cite ref=\"K01043\"><he>כָּפַף</he></cite>.—Part. pass. <he>מְכוּפָּת</he>, pl. <he>מְכוּפָּתִין</he>. ",
+						"<cite ref=\"Esther Rabbah 2:7\">Esth. R. to I, 6</cite>, v. <cite ref=\"K01065\"><he>כְּפָתָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִכְפָּת"],
+			"senses": [
+				{
+					"gloss": "<i>to be tied</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 1:14\">Cant. R. to. I, 14</cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

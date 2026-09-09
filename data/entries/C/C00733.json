@@ -1,0 +1,22 @@
+{
+	"id": "C00733",
+	"slug": "גילוע",
+	"headword": {
+		"text": "גִּילּוּעַ"
+	},
+	"page": {
+		"number": 238,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00974\"><he>גָּלַע</he></cite>) <i>exposure, attack</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 8:6:5\">Y. Yeb. VIII, end, 9ᵈ</cite>, v. <cite ref=\"C00974\"><he>גָּלַע</he></cite>."
+			]
+		}
+	]
+}

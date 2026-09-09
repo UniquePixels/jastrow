@@ -1,0 +1,23 @@
+{
+	"id": "M00972",
+	"slug": "מטהרת",
+	"headword": {
+		"text": "מְטָהֶרֶת"
+	},
+	"page": {
+		"number": 766,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00101\"><he>טָהַר</he></cite>) <i>water pipe of a bath, gutter</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 6:11\">Mikv. VI, 11</cite>; <cite ref=\"Tosefta Mikvaot 5:8\">Tosef. ib. V, 8</cite>. ",
+				"<cite ref=\"Tosefta Mikvaot 6:4\">Ib. VI, 4</cite> <he>בזמן שמ׳ שלה וכ׳</he> when the gutter of the bath opens into private ground.—Pl. <he>מְטָהֲרוֹת</he>. Tosef. Erub. XI (VIII), 9."
+			]
+		}
+	]
+}

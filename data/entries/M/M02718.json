@@ -1,0 +1,28 @@
+{
+	"id": "M02718",
+	"slug": "מרמם",
+	"headword": {
+		"text": "מְרָמַם"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְרַמְמָא"
+		}
+	],
+	"page": {
+		"number": 844,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00374\"><he>רוּם</he></cite>) <i>uplifted, high</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 6:6\">Targ. O. Ex. VI, 6</cite> (ed. Vien. <cite ref=\"M02709\"><he>מְרָמָא</he></cite>; Y. <cite ref=\"M02591\"><he>מְרוֹמָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 14:8\">Targ. Y. I Ex. XIV, 8</cite>; a. fr."
+			]
+		}
+	]
+}

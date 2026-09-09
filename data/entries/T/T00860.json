@@ -1,0 +1,56 @@
+{
+	"id": "T00860",
+	"slug": "רסס-2",
+	"headword": {
+		"text": "רְסַס"
+	},
+	"page": {
+		"number": 1484,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00859\">same</cite><i>to crush, crack</i>.—Part. pass. <cite ref=\"T00855\"><he>רְסִיס</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 22:24\">Targ. O. Lev. XXII, 24</cite> (h. text <cite ref=\"K01365\"><he>כתית</he></cite>).—",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:33\">Targ. Y. Deut. XXVIII, 33</cite> <he>רְסִיסִין</he> Bxt. (ed. <he>דְּרִיסִין</he>; h. text <he>רציץ</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"P01426\"><he>עָרַף</he></cite>) <i>to distil, drop, moisten</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 7:17\">Targ. Prov. VII, 17</cite> <he>רַסֵּית</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 3:20\">Ib. III, 20</cite> <he>וענני רַסּוּ טלא</he> (or <he>רְסוּ</he> fr. <cite ref=\"T00854\"><he>רסי</he></cite>) Ar. (Ms. <he>ושחקי רַסָּן</he>; ed. corrupt <he>שמיא צעי</he> (<cite ref=\"D00000\"><he>ד</he></cite>)<cite ref=\"M01007\"><he>מטליא</he></cite>; for <cite ref=\"R00651\"><he>צעי</he></cite>, read <he>ענני</he> as a Var. of <cite ref=\"U01462\"><he>שמיא</he></cite>, and for <he>דמטליא</he> read: <he>רסו טליא</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 33:28\">Targ. Y. I Deut. XXXIII, 28</cite> <he>רַסְיַין</he> (fr. <cite ref=\"T00854\"><he>רסי</he></cite>; ed. Vien. <he>דסיין</he>, corr. acc.)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַסֵּיס"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to drip</i>, (of a sore) <i>to run</i>. Part. pass. <he>מְרַסַּס</he>; f. <he>מְרַסְּסָא</he>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 1:6\">Targ. Is. I, 6</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִרְסִיס"],
+			"senses": [
+				{
+					"gloss": "<i>to be crushed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 22:24\">Targ. Y. Lev. XXII, 24</cite> <he>דְּמִרְסִיס</he> (ed. Vien. <he>דִּמְרְסִיס</he>, corr. acc.), v. supra."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "R00207",
+	"slug": "צומת-2",
+	"headword": {
+		"text": "צוֹמֶת"
+	},
+	"page": {
+		"number": 1268,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00601\"><he>צָמַת</he></cite>; cmp. <cite ref=\"R00200\"><he>צוּמּוּת</he></cite>) <i>juncture</i>; <he>צ׳ הגידין</he> <i>the bunch of converging sinews in the thigh</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 4:6\">Ḥull. IV, 6</cite>; expl. ",
+				"<cite ref=\"Chullin 76a:16\">ib. 76ᵃ</cite> <he>מקום שהגידים צוֹמְתִין בו</he> there where the sinews converge. ",
+				"<cite ref=\"Tosefta Chullin 3:6\">Tosef. ib. III, 6</cite>; a. e."
+			]
+		}
+	]
+}

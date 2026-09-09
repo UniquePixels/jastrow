@@ -1,0 +1,69 @@
+{
+	"id": "D00342",
+	"slug": "דור-2",
+	"headword": {
+		"text": "דּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּיר"
+		}
+	],
+	"page": {
+		"number": 288,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00341\">same</cite>, <i>to dwell</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 105:23\">Targ. Ps. CV, 23</cite>; a. fr.—",
+				"<cite ref=\"Pesachim 113a\">Pes. 113ᵃ</cite> top (v. Rabb. D. S. a. l. note 6).—Part. <cite ref=\"D00022\"><he>דָּאִיר</he></cite>, <he>דָּיֵיר</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 57:5\">Targ. Ps. LVII, 5</cite> <he>דָיְירָא</he> Ms. (ed. <he>חיירא</he>).—",
+				"<cite ref=\"Yevamot 52a\">Yeb. 52ᵃ</cite> <he>דאיר בבי וכ׳</he> he resides with his father-in-law. ",
+				"<cite ref=\"Bava Metzia 117a:6\">B. Mets. 117ᵃ</cite> <he>דהוו דָיְירֵי</he> who occupied. ",
+				"<cite ref=\"Taanit 24a:15\">Taan. 24ᵃ</cite> <he>דָּיִירְנָא וכ׳</he> I live in a poor village."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּוַּור", "דַּוַּאר"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"D00576\"><he>דַּיֵּיר</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to go around, to peddle</i> (cmp. h. <cite ref=\"O00465\"><he>סָחַר</he></cite>). ",
+					"units": [
+						"<cite ref=\"Rosh Hashanah 9b:8\">R. Hash. 9ᵇ</cite> (expl. <cite ref=\"D01075\"><he>דְּרוֹר</he></cite>, <cite ref=\"Leviticus 25:10\">Lev. XXV, 10</cite>) <he>כמְדַיֵּיר דיירא ומוביל וכ׳</he> Ms. M. (ed. <he>בי דיירא</he>, Ar. s. v. <he>דר</he> 3: <he>כי מדַוַּאר דריא</he>) as a traveller is licensed to go around and carry his goods through the whole district."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to deposit manure</i>, v. <cite ref=\"D00341\">preced.</cite> <i>Pi.</i>—",
+					"units": [
+						"<cite ref=\"Bava Kamma 113b:19\">B. Kam. 113ᵇ</cite> <he>הני דדַיְּירֵי דירי</he> Rashi (ed. <cite ref=\"D01080\"><he>דרי</he></cite>, Ms. R. <he>דמְדַיְּירֵי דיירי</he>, v. Rabb. D. S. a. l. note) those (gentiles) who manure fields for pay by letting cattle live on them in folds."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to place around</i> (<i>in a row</i>, Rashi). ",
+					"units": [
+						"<cite ref=\"Kiddushin 81a:10\">Kidd. 81ᵃ</cite> <he>ד׳ גולפי</he> placed jugs around (as a partition)."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to round a person, to overtake</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 92b:16\">B. Kam. 92ᵇ</cite>; <cite ref=\"Bava Metzia 107b\">B. Mets. 107ᵇ</cite> (prov.) <he>רהוט … ולא דַּוְּורוּהוּ וכ׳</he> Ar. (ed. <cite ref=\"M00973\"><he>מטו</he></cite>, <cite ref=\"A02010\"><he>אמטו</he></cite>) runners run but overtake not one who has taken a morning meal."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

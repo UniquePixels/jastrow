@@ -1,0 +1,26 @@
+{
+	"id": "A03075",
+	"slug": "ארטסיס",
+	"headword": {
+		"text": "ארטסיס",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "ארסטוס"
+		},
+		{
+			"text": "ארסיסיס"
+		}
+	],
+	"page": {
+		"number": 118,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", <cite ref=\"Shemot Rabbah 13:3\">Ex. R. s. 13</cite> <he>וא׳ נכנס</he>, read: <he>ואין רוטב נכנס בתוכה</he> but no juice enters into it, <he>כך נעשה לבו של פרעה ולא היה מקבל וכ׳</he> so was Pharaoh’s heart made and it received not &c.; v. ",
+			"units": ["<cite ref=\"Mishnah Terumot 10:11\">Ter. X, 11</cite>."]
+		}
+	]
+}

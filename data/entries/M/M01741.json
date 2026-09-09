@@ -1,0 +1,24 @@
+{
+	"id": "M01741",
+	"slug": "מנוח-2",
+	"headword": {
+		"text": "מָנוֹחַ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 798,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"N00340\"><he>נוּחַ</he></cite>)<i>rest</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 152b:8\">Sabb. 152ᵇ</cite> <he>יש להן מ׳</he> (Ms. M. <cite ref=\"M01742\"><he>מנוחה</he></cite>) find rest. ",
+				"<cite ref=\"Eichah Rabbah 1:29\">Lam. R. to I, 3</cite> <he>אילו מצאה מ׳ וכ׳</he> if she (Judah) had found rest (among the nations), she would not have returned (to the Lord); a. e."
+			]
+		}
+	]
+}

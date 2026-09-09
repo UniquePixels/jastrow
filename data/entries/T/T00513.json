@@ -1,0 +1,33 @@
+{
+	"id": "T00513",
+	"slug": "רחל-1",
+	"headword": {
+		"text": "רָחֵל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1466,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " f. (b. h.) pr. n. f. <i>Rachel</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " wife of Jacob. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 71:9\">Gen. R. s. 71</cite> (play on <he>עקרה</he>, <cite ref=\"Genesis 29:31\">Gen. XXIX, 31</cite>) <he>ר׳ תהיה עיקרו וכ׳</he> Rachel shall be the chief person of the household; <cite ref=\"Genesis 29:31\">ib.</cite> <he>לפי שכל הדברים תלויין בר׳ וכ׳</he> because all depends on R., therefore is Israel called by her name; <cite ref=\"Ruth Rabbah 7:13\">Ruth R. to IV, 11</cite>, v. <cite ref=\"P00666\"><he>עִיקָּר</he></cite>; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " R. Akiba’s wife. ",
+			"units": [
+				"<cite ref=\"Avot D'Rabbi Natan 6:2\">Ab. d’R. N. ch. VI</cite>.—3) R., mother of Rab Mari. ",
+				"<cite ref=\"Shabbat 154a:4\">Sabb. 154ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

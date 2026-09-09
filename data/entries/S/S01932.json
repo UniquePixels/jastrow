@@ -1,0 +1,37 @@
+{
+	"id": "S01932",
+	"slug": "קרוח",
+	"headword": {
+		"text": "קְרוּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָרוֹחַ"
+		}
+	],
+	"page": {
+		"number": 1413,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"S01966\"><he>קֵרֵחַ</he></cite>, <i>bald</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 13:40\">Targ. Y. Lev. XIII, 40</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>white-spotted</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 30:32\">Targ. Y. Gen. XXX, 32</cite> (h. text <he>טלוא</he>); <cite ref=\"Targum Jonathan on Genesis 30:33\">ib. 33</cite> <cite ref=\"S01161\"><he>קִירוּחַ</he></cite>.—Pl. <he>קְרוּחִין</he>, <he>קְרוּחיָּיא</he>; f. <cite ref=\"S01934\"><he>קְרוּחָתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 30:35\">Ib. 35</cite>; <cite ref=\"Targum Jonathan on Genesis 30:39\">39</cite> (h. text <cite ref=\"N01166\"><he>נקדים</he></cite>); a. e.—",
+				"<cite ref=\"Targum Jonathan on Genesis 31:10\">Ib. XXXI, 10</cite> <cite ref=\"S01161\"><he>קִירְוָוחִין</he></cite>, <he>קִירְוָחִ׳</he>."
+			],
+			"label": "2"
+		}
+	]
+}

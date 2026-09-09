@@ -1,0 +1,74 @@
+{
+	"id": "C01037",
+	"slug": "גמל-1",
+	"headword": {
+		"text": "גָּמַל"
+	},
+	"page": {
+		"number": 253,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to tie, couple, load</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to load</i> (<i>good or evil</i>) <i>on, to deal with,</i> esp. <i>to do good to</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 38:3\">Gen. R. s. 38</cite> <he>שהוא ג׳ עליך תחלה</he> for he was the first to do thee good; <cite ref=\"Yalkut Shimoni on Nach 956:10\">Yalk. Prov. 956</cite>.—",
+				"<cite ref=\"Shabbat 104a:4\">Sabb. 104ᵃ</cite> <he>גְּמוֹל דלים</he>, v. <cite ref=\"C00743\"><he>גימ״ל</he></cite>.—ג׳ חסד <i>to be kind, charitable</i>. ",
+				"<cite ref=\"Shabbat 104a:4\">Ib.</cite> <he>שכן דרכו של גּוֹמֵל חסדים וכ׳</he> (Ms. M. <he>דרכן של גּוֹמְלֵי</he>) for such is the habit of the charitable to run after the poor. ",
+				"<cite ref=\"Yevamot 79a\">Yeb. 79ᵃ</cite>; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to make even, repay</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Demai 4:6\">Dem. IV, 6</cite> <he>אע״פ שהן כגוֹמְלִין זה את זה</he> although it has the appearance as if they were repaying each other (by mutual recommendations). ",
+				"<cite ref=\"Avodah Zarah 61b:10\">Ab. Zar. 61ᵇ</cite> <he>חיישינן לגומלין</he> we reject witnesses suspected of favoring each other; <cite ref=\"Ketubot 24a\">Keth. 24ᵃ</cite>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"C01061\"><he>גָּמַר</he></cite> a. <cite ref=\"H01396\"><he>חֲסַל</he></cite>) [<i>to finish</i>,] <i>to wean</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 87a\">B. Mets. 87ᵃ</cite> on that day <he>שג׳ אברהם וכ׳</he> when Abraham celebrated the weaning of Isaac &c.; <cite ref=\"Yalkut Shimoni on Torah 93\">Yalk. Gen. 93</cite>; <cite ref=\"Devarim Rabbah 1:25\">Deut. R. s. 1</cite> <he>שמל</he> (corr. acc.). ",
+				"<cite ref=\"Pesikta Rabbati 25:1\">Pesik. R. s. 25</cite> <he>תינוק הגָּמוּל וכ׳</he> a Jewish infant just weaned; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to ripen, be fully developed</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 11:7\">Par. XI, 7</cite> <i>yon’koth</i> are <he>גבעולין שלא גָמְלוּ</he> capsules of hyssop which are not yet developed; (Tosef. ib. XI (X), 7 <he>גָּמְרוּ</he>)."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִגְמַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be weaned</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 53\">Gen. R. s. 53</cite> <he>נ׳ מחלבו</he> weaned from his mother’s milk; <he>ג׳ מיה״ר</he> weaned from the evil inclination (able to resist temptation); a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["גִּמֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to take turns</i>.—Y. M. Kat. III, 82ᵇ bot. <he>פרה מְגַמֶּלֶת</he> a cow engaged for working in a team in turns; v. <cite ref=\"C01042\"><he>גַּמְלָא</he> I</cite>, 2.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

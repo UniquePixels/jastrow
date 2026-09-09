@@ -1,0 +1,30 @@
+{
+	"id": "S01834",
+	"slug": "קצפון",
+	"headword": {
+		"text": "קִצָּפוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִיצָּ׳"
+		}
+	],
+	"page": {
+		"number": 1407,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01833\">preced.</cite> wds.) <i>anger</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 32:2\">Lev. R. s. 32</cite> (ref. to <he>ויקצף</he>, <cite ref=\"Deuteronomy 1:34\">Deut. I, 34</cite>) <he>להם הוא ק׳ ולי מה אני ק׳ וכ׳</he> to them it appears as anger, but to myself what does anger mean? ‘I swore by my anger’ (<cite ref=\"Psalms 95:11\">Ps. XCV, 11</cite>), I swear by my anger and reconsider; Yalk. ib. 657. ",
+				"<cite ref=\"Esther Rabbah 4:8\">Esth. R. to I, 18</cite> <he>כדאי הוא הבזיון … לק׳ שקצף וכ׳</he> the disrespect with which her (Vashti’s) father treated the vessels of the Temple is enough to deserve the wrath which he (Ahasverus) vented on her and put her to death. ",
+				"<cite ref=\"Esther Rabbah 4:8\">Ib.</cite> <he>כדי הק׳ לבזיון זה</he> the anger (of Ahasverus) corresponds to this contempt (shown by Vashti), v. <cite ref=\"S01819\"><he>קְצִיפָה</he></cite>. ",
+				"<cite ref=\"Esther Rabbah 4:8\">Ib.</cite> to II, 21 <he>מה ק׳ היה שם</he> what cause was there for discontent? Sifra Sh’mini, Par. 1, ch. II (ref. to <cite ref=\"Leviticus 10:16\">Lev. X, 16</cite>) <he>אף אהרן היה בק׳</he> Aaron, too, was included in the anger (of Moses). Pesik. Vattom., p. 130ᵇ <he>אין ק׳ הוא</he> (not <cite ref=\"S01835\"><he>קצפין</he></cite>), v. <cite ref=\"S01819\"><he>קְצִיפָה</he></cite>."
+			]
+		}
+	]
+}

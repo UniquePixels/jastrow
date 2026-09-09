@@ -1,0 +1,22 @@
+{
+	"id": "M00115",
+	"slug": "מגגא",
+	"headword": {
+		"text": "מְגָגָא"
+	},
+	"page": {
+		"number": 726,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00114\">preced.</cite>) <i>solution, maceration</i>.—Pl. <he>מְגָגֵי</he>. ",
+			"units": [
+				"<cite ref=\"Pesachim 107a:7\">Pes. 107ᵃ</cite> <he>שיכרא בר תליסר מ׳</he> Ar. (ed. <he>מגני</he>, Ms. M. <cite ref=\"C01132\"><he>אגני</he></cite>; Ms. M. 2 <he>מְגָאגֵי</he>; Ms. O. <he>מגאני</he>) a date beer of thirteen solutions (the same water poured over thirteen basins of crushed dates in succession)."
+			]
+		}
+	]
+}

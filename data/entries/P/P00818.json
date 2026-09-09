@@ -1,0 +1,43 @@
+{
+	"id": "P00818",
+	"slug": "עלם-1",
+	"headword": {
+		"text": "עָלַם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1084,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"A01904\"><he>אָלַם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to surround, tie up</i>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be strong</i>.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִילֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to tie up</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 946:2\">Yalk. Prov. 946</cite> quot. fr. Y’lamd. (ref. to <he>וחושך</he>, <cite ref=\"Proverbs 10:19\">Prov. X, 19</cite>) <he>לא אמרתי שתְּעַלֵּם פיך וכ׳</he> I did not say that thou must tie up thy mouth and sit in silence, but restrain thy lips from &c.; Yalk. Num. 738 <he>שתְּאַלֵּים</he>. ",
+						"<cite ref=\"Bamidbar Rabbah 14\">Num. R. s. 14</cite> (ref. to <cite ref=\"Genesis 49:22\">Gen. XLIX, 22</cite>) <he>שעי׳ עינו מאשת וכ׳</he> he closed his eye not to look at the wife &c. (v. <cite ref=\"P00820\"><he>עָלַם</he> II</cite>, <i>Hif.</i>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "Q00407",
+	"slug": "פושרנא",
+	"headword": {
+		"text": "פּוּשְׁרָנָא"
+	},
+	"page": {
+		"number": 1149,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02099\"><he>פְּשַׁר</he></cite>) = h. <cite ref=\"Q02204\"><he>פִּתְרוֹן</he></cite>, <i>solution, interpretation</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 40:5\">Targ. Gen. XL, 5</cite>. ",
+				"<cite ref=\"Onkelos Genesis 40:8\">Ib. 8</cite> <he>פושרן חלמייא</he> Y. a. O. ed. Berl. (some ed. <he>פושרן</he> only, corr. acc.); a. fr."
+			]
+		}
+	]
+}

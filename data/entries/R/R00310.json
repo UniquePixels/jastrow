@@ -1,0 +1,35 @@
+{
+	"id": "R00310",
+	"slug": "צידה",
+	"headword": {
+		"text": "צֵידָה"
+	},
+	"page": {
+		"number": 1274,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"R00309\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hunting, laying a trap</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 13:5\">Sabb. XIII, 5</cite> <he>מחוסר צ׳</he> that which requires catching (in a trap, chasing into an enclosure &c.). ",
+				"<cite ref=\"Tosefta Shabbat 12:3\">Tosef. ib. XII</cite> (<cite ref=\"Tosefta Shabbat 13:3\">XIII</cite>), 3 <he>צ׳ שנייה</he> the second act of catching; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"G00132\"><he>זְוָדָא</he></cite>) <i>outfit for travelling, provision</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 7:2\">Yalk. Josh. 7</cite> (ref. to <cite ref=\"Joshua 1:11\">Josh. I, 11</cite>,) quot. fr. Tanna d’bé El.) <he>וכי צֵדָה היתה צריכה שם וכ׳</he> was provision necessary there? did they not have the manna &c.? <cite ref=\"Shemot Rabbah 25:4\">Ex. R. s. 25</cite> <he>הצ׳ שהוציאו וכ׳</he> the provision which they brought with them from Egypt; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

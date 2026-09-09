@@ -1,0 +1,28 @@
+{
+	"id": "B00189",
+	"slug": "בהקני",
+	"headword": {
+		"text": "בֹּהֲקָנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוֹהֲקָנִי"
+		}
+	],
+	"page": {
+		"number": 143,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. <cite ref=\"B00188\">same</cite>, <i>one full of whitish pustules</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 58b:4\">Ber. 58ᵇ</cite> Ms. M. (ed. <he>בהקנים</he> plur.). Fem. <cite ref=\"B00189\"><he>בֹּהֲקָנִית</he></cite>, <he>בּוֹהֲ׳</he>, fem. <he>בֹּהֲקָנִיּוֹת</he>, <cite ref=\"B01083\"><he>בּוֹ׳</he></cite>. ",
+				"<cite ref=\"Megillah 24b\">Meg. 24ᵇ</cite> <he>ידיו ב׳</he> one whose hands are &c."
+			]
+		}
+	]
+}

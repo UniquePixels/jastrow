@@ -1,0 +1,38 @@
+{
+	"id": "V00979",
+	"slug": "תרי-3",
+	"headword": {
+		"text": "תְּרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּרָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1698,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַתְרֵי</he> <cite ref=\"V00978\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 15:33\">Targ. Y. Num. XV, 33</cite>.—",
+						"<cite ref=\"Sanhedrin 9a:1\">Snh. 9ᵃ</cite> <he>דאַתְרוּ ביה מלקות ולא אתרו ביה קטלא</he> (Tosaf. <he>למלקות</he>) when they warned him telling him that the penalty of his act would be lashes, but they did not tell him of capital punishment; a. e.—[<cite ref=\"Kohelet Rabbah 3:9:1\">Koh. R. to III, 9</cite> <he>לא מתרין</he>, v. <cite ref=\"U01961\"><he>שְׁרֵי</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

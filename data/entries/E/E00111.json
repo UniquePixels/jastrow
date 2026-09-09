@@ -1,0 +1,23 @@
+{
+	"id": "E00111",
+	"slug": "הדחה",
+	"headword": {
+		"text": "הֲדָחָה"
+	},
+	"page": {
+		"number": 333,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00224\"><he>דּוּחַ</he></cite>) <i>washing off, rinsing</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 107b:16\">Ḥull. 107ᵇ</cite>. ",
+				"<cite ref=\"Avodah Zarah 60b:2\">Ab. Zar. 60ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

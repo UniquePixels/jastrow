@@ -1,0 +1,94 @@
+{
+	"id": "P01342",
+	"slug": "ערי-2",
+	"headword": {
+		"text": "ערי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עָרָה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1116,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"P00342\"><he>עוּר</he> I</cite>)<i>to stir up</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶעֱרָה"],
+			"senses": [
+				{
+					"gloss": "<i>to stimulate</i>, esp. <i>to excite the sexual organ by contact</i> (as the first stage of sexual connection), v. <cite ref=\"E00721\"><he>הַעֲרָאָה</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Keritot 2:4\">Ker. II, 4</cite> <he>כל העריות עשה בהן את המַעֲרֶה כגומר</he> in all illicit connections the text makes him who passes through the first stage as punishable as him that finishes. Y. Keth. III, 27ᵈ <he>הֶעֱרוּ בה עשרה וכ׳</he> if ten persons came in carnal contact with her, and one of them consummated. ",
+						"<cite ref=\"Sotah 42b:6\">Sot. 42ᵇ</cite> (play on <he>מע̇ר̇ות</he>, <cite ref=\"I Samuel 17:23\">I Sam. XVII, 23</cite>) <he>שהכל הע̇ר̇ו באמו</he> all the world had taken liberties with his mother; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to intermix</i>. Y. Yoma V, 42ᵈ top (<cite ref=\"R00773\"><he>צריך</he></cite>) <he>זקוק להַעְרוֹת</he> he must mix (the blood of the bull with that of the goat), v. <i>Pi</i>",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּעֲרָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be interwoven, entangled, caught</i>. Y. Peah I, 16ᵃ bot. <he>בסירה הוּעֲרַת</he> it (the skirt) was caught &c., v. <cite ref=\"P00128\"><he>עָדָה</he> I</cite>; <cite ref=\"Yoma 2a:8\">ib.</cite> <he>הוּעֲרוּ</he>; Y. Sot. I, 17ᵇ (also <he>הָעֳרַת</he>).",
+					"units": []
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["עֵירָה"],
+			"senses": [
+				{
+					"gloss": "<i>to intermix</i> (of liquids), <i>pour; to interweave, intertwine</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Yoma 5:4\">Yoma V, 4</cite> <he>עי׳ דם הפר לתוך וכ׳</he> he poured the blood of the bullock to that of the goat, and put the full bowl in the empty one; expl. ",
+						"<cite ref=\"Yoma 58a:5\">ib. 58ᵃ</cite> <he>עי׳ מזרק מלא וכ׳</he> he poured the contents of the filled bowl into the empty bowl … in order to mix them thoroughly. Y. ib. V, 42ᵈ top (interch. with <cite ref=\"B00880\"><he>בָּלַל</he></cite> a. <cite ref=\"P01242\"><he>עָרַב</he></cite>). Y. Maasr. I, end, 49ᵇ <he>לעָרוֹת וכ׳</he> to pour into &c. (interch. with <he>להַעֲרוֹת</he>, <i>Hif.</i>); Y. Sabb. III, 6ᵇ. ",
+						"<cite ref=\"Mishnah Niddah 10:6\">Nidd. X, 6</cite> <he>היתה מְעָרָה מים לפסח</he> was permitted to pour water from vessel to vessel for Passover purposes (to wash the Passover meat without touching the water). ",
+						"<cite ref=\"Mishnah Avodah Zarah 5:7\">Ab. Zar. V, 7</cite> <he>המְעָרֶה מכלי אל כלי</he> if a Jew pours wine from one vessel into another (held by a gentile), <he>את שעי׳ ממנו מותר</he> the wine remaining in the vessel from which he poured is permitted; a. fr.—Sifra K’dosh., Par. 2, ch. V <he>עי׳ כל הפרשה כולה לכי וכ׳</he> the writer intended to join the whole paragraph (concerning emancipation) to ‘for she has not been set free’ (<cite ref=\"Leviticus 19:20\">Lev. XIX, 20</cite>), to intimate that emancipation is consummated by a document only; (<cite ref=\"Gittin 39b:12\">Gitt. 39ᵇ</cite> <he>אוֹרְעָה וכ׳</he> (fr. <cite ref=\"A03216\"><he>אָרַע</he> I</cite>) the whole paragraph has been joined &c. ",
+						"<cite ref=\"Bava Batra 113b:4\">B. Bath. 113ᵇ</cite> <he>אורעה … להיות דין</he>, v. <cite ref=\"A03217\"><he>אָרַע</he> II</cite>, a. corr. acc.) Y. Kidd. I, 58ᵈ bot. (ref. to <cite ref=\"Deuteronomy 25:5\">Deut. XXV, 5</cite>) <he>ת״ל ויבמה עי׳ הפרשה כולה לייבום וכ׳</he> the text says, <i>v’yibb’mah</i> (‘and thus he shall be her levir’); the whole paragraph is connected with <i>yibbum</i> (the word <he>ויבמה</he>), intimating that marital connection only consummates the levirate marriage; Y. Yeb. II, beg. 3ᶜ <cite ref=\"P00202\"><he>עודה</he></cite> (Rabad to Sifra l. c. quotes <he>עורה</he>, corr. acc.). Y. Snh. VII, 24ᵈ <he>עֵרָה את כל וכ׳</he> the whole paragraph depends on the word <i>mother</i>.—<i>Part. pass.</i> <cite ref=\"M02081\"><he>מְעוּרֶה</he></cite>; f. <he>מְעוּרָה</he>; pl. <he>מְעוּרִים</he>, <he>מְעוּרִין</he>; <he>מְעוּרוֹת</he> <i>intertwined, interwoven; mixed up</i>. ",
+						"<cite ref=\"Mishnah Tevul Yom 3:1\">T’bul Yom III, 1</cite> <he>אוכל שנפרס ומע׳ מקצת</he> if an eatable part of a fruit is broken off but partly hangs on (is not entirely severed). ",
+						"<cite ref=\"Mishnah Oktzin 3:8\">Ukts. III, 8</cite> <he>יחור של … ומע׳ בקליפה</he> a shoot of a fig tree which is torn off but is still attached to the tree by the rind; <cite ref=\"Tosefta Kelim Kamma 1:13\">Tosef. Kel. B. Kam. I, 13</cite>. ",
+						"<cite ref=\"Yoma 54a:11\">Yoma 54ᵃ</cite> <he>הכרובים שהיו מע׳ זה בזה</he> the cherubs (in the Temple) whose bodies were intertwisted with one another. ",
+						"<cite ref=\"Yoma 54a:11\">Ib.</cite> sq. (expl. <he>כמער איש וליות</he>, <cite ref=\"I Kings 7:36\">I Kings VII, 36</cite>) <he>כאיש המע׳ בלויה שלו</he> like a man embracing his companion (wife). ",
+						"<cite ref=\"Chullin 127b:6\">Ḥull. 127ᵇ</cite> <he>ומע׳ בחוט השערה</he> attached by a hair’s breadth. ",
+						"<cite ref=\"Beitzah 7a:13\">Bets. 7ᵃ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְעָרֶה"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְעָרֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to be intertwined, come into intimate contact</i>. ",
+					"units": [
+						"<cite ref=\"Ruth Rabbah 2:20\">Ruth R. to I, 14</cite> (ref. to <he>מערית</he>, v. supra) <he>ממאה … שנִתְעָרוּ בה וכ׳</he> on one hundred … that were in contact with her the whole night (interch. with <he>נתערבו</he>)."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

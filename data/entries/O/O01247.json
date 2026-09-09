@@ -1,0 +1,23 @@
+{
+	"id": "O01247",
+	"slug": "סנסן-1",
+	"headword": {
+		"text": "סַנְסַן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1008,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Sansan</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 19:2\">Gen. R. s. 19</cite> <he>חנינא בר ס׳</he> (cmp. <cite ref=\"O00752\"><he>סִיסִי</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 1056\">Yalk. Esth. 1056</cite> <cite ref=\"Q01398\"><he>פפא</he></cite>)."
+			]
+		}
+	]
+}

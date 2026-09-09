@@ -1,0 +1,37 @@
+{
+	"id": "Q00656",
+	"slug": "פייסא",
+	"headword": {
+		"text": "פְּיָיסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּיְסָא"
+		},
+		{
+			"text": "פִּיסָא"
+		}
+	],
+	"page": {
+		"number": 1162,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00655\">same</cite><i>compromise, peace</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 37a:5\">Nidd. 37ᵃ</cite> <he>עבדו רבנן פ׳</he> the Rabbis have made peace (have been reconciled)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>lot, balloting</i>. Targ. II Esth. III, 7 <he>פ׳</he>, a. <he>פ׳ דעדבין</he>. Targ. I, II Esth. IX, 24. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 1:14\">Targ. Prov. I, 14</cite>; a. e.—",
+				"<cite ref=\"Yoma 22a:10\">Yoma 22ᵃ</cite> <he>תקינו לה … פ׳</he> the scholars arranged balloting (by counting fingers, v. <cite ref=\"Q00655\">preced.</cite>). ",
+				"<cite ref=\"Yoma 23a:14\">Ib. 23ᵃ</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "U01824",
+	"slug": "שקא-1",
+	"headword": {
+		"text": "שָׁקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁקָּא"
+		},
+		{
+			"text": "שׁוֹקָא"
+		}
+	],
+	"page": {
+		"number": 1620,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U00522\"><he>שׁוֹק</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>joint, leg</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 29:22\">Targ. Ex. XXIX, 22</cite>; <cite ref=\"Onkelos Exodus 29:27\">27</cite> (O. ed. Berl. <cite ref=\"U01853\"><he>שָׁ׳</he></cite>; oth. eds. a. Y. <cite ref=\"U01531\"><he>שׁוֹ׳</he></cite> a. <cite ref=\"U01824\"><he>שֹׁקָא</he></cite>). ",
+				"<cite ref=\"Onkelos Leviticus 7:32\">Targ. Lev. VII, 32</cite>, sq. (Y. ed. Vien. <cite ref=\"U01824\"><he>שַׁקָּא</he></cite>); a. fr.—Pl. <he>שָׁקִין</he>, <he>שָׁקַיָּא</he>, <cite ref=\"U01851\"><he>שָׁקֵי</he></cite>, <cite ref=\"U01531\"><he>שׁוֹ׳</he></cite>, <cite ref=\"U01046\"><he>שַׁקּ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 28:35\">Targ. O. Deut. XXVIII, 35</cite>; Y. ed. Vien. <cite ref=\"U01861\"><he>שַׁקְיָיא</he></cite> (read: <cite ref=\"U01861\"><he>שַׁקַּיָּיא</he></cite>; Ms. <cite ref=\"U01861\"><he>שַׁקְיָין</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 147:10\">Targ. Ps. CXLVII, 10</cite> <cite ref=\"U00528\"><he>שׁוֹקֵי</he></cite> (constr.).—Y. Shek. V, 49ᵃ bot. <he>חמון ש׳</he> look at the legs (of Moses, how fat); <cite ref=\"Jerusalem Talmud Bikkurim 3:3:9\">Y. Bicc. III, 65ᶜ</cite> bot. <he>חזי שקי</he> (ed. Krot. <cite ref=\"U01851\"><he>שָׁאקֵי</he></cite>). ",
+				"<cite ref=\"Vayikra Rabbah 34:7\">Lev. R. s. 34</cite> <he>חמי שקיין</he> look at the (poor man’s) legs; <cite ref=\"Yalkut Shimoni on Torah 665:8\">Yalk. ib. 665</cite> <he>שקין</he>; <cite ref=\"Kohelet Rabbah 5:13:1\">Koh. R. to V, 13</cite>. ",
+				"<cite ref=\"Chullin 63a:2\">Ḥull. 63ᵃ</cite> <he>אריכי שקי</he> those with long legs, v. <cite ref=\"U01860\"><he>שְׁקִיטְנָא</he></cite>; a. e.—[<cite ref=\"Targum Jonathan on II Samuel 22:43\">Targ. II Sam. XXII, 43</cite> <cite ref=\"U00528\"><he>שׁוֹקִין</he></cite>, some ed. <he>שקין</he>, read: <he>שׁוּקִין</he>]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>shaft</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 55b\">Gitt. 55ᵇ</cite>; <cite ref=\"Gittin 57a:21\">57ᵃ</cite>, v. <cite ref=\"D00655\"><he>דִּיסְפַּק</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

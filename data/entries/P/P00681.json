@@ -1,0 +1,35 @@
+{
+	"id": "P00681",
+	"slug": "עירובא-1",
+	"headword": {
+		"text": "עֵירוּבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֵר׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1076,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00680\">same</cite><i>mixture of seeds</i>, or <i>copulation of heterogeneous animals</i> (<cite ref=\"K00674\"><he>כִּלְאַיִם</he></cite>). ",
+			"units": [
+				"<cite ref=\"Shabbat 139a:15\">Sabb. 139ᵃ</cite> <he>כשותא בכרמא ע׳</he> Ms. M. (ed. <he>עירבובא</he>), v. <cite ref=\"K01303\"><he>כָּשׁוּתָא</he></cite>.—Pl. <he>עֵירוּבִין</he>, <cite ref=\"P00680\"><he>עֵר׳</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 22:9\">Targ. Deut. XXII, 9</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 19:19\">Targ. O. Lev. XIX, 19</cite> (Y. <he>עירבובין</he>). Targ. Y. ib. XVI, 3; 5 <he>דלא ע׳</he> that are no hybrids; a. e.—[<cite ref=\"Targum Jonathan on Exodus 29:2\">Targ. Y. Ex. XXIX, 2</cite> <he>ע׳ דלחים</he>, read: <he>עֲרוּכִין</he>, v. <cite ref=\"P01356\"><he>עֲרִיךְ</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"P00680\">preced.</cite>) <i>‘Erub</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 39b:11\">Ber. 39ᵇ</cite> <he>ריפתא דע׳</he> bread which had been used as an ‘Erub among the dwellers of a court. ‘<cite ref=\"Eruvin 60b:3\">Erub. 60ᵇ</cite> <he>לא מטי לעֵירוּבֵיה</he> may not go to the place where he laid his ‘Erub; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

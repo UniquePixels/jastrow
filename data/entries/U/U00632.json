@@ -1,0 +1,35 @@
+{
+	"id": "U00632",
+	"slug": "שחז-1",
+	"headword": {
+		"text": "שָׁחַז"
+	},
+	"page": {
+		"number": 1546,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"H00525\"><he>חָזָה</he></cite>) <i>to expose to sight, uncover</i>. Part. pass. f. <he>שְׁחוּזָה</he>; pl. <he>שְׁחוּזוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 5:2\">Sabb. V, 2</cite> <he>רחלות יוצאות ש׳</he> ewes (on the Sabbath) may be led out (with their posteriors) exposed; ib. 53ᵇ <he>מאי שח̇וז̇ות שאוח̇ז̇ין וכ׳</he> what is <i>sh’ḥuzoth?</i> They tie their tails up in order &c. Ib. <he>מאי משמע דהאי ש׳ לישנא דגלוי הוא</he> what evidence is there that <i>sh’ḥuzoth</i> has the meaning of uncovering? (Answ. ref. to <he>שׁית זוֹנה</he>, <cite ref=\"Proverbs 7:10\">Prov. VII, 10</cite>, v. <cite ref=\"U00359\"><he>שׁוּזָה</he></cite>.)"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁחִיז"],
+			"senses": [
+				{
+					"gloss": "<i>to brighten, polish; to whet, sharpen</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kelim 14:5\">Kel. XIV, 5</cite> <he>הסכין משיַשְׁחִיזֶנָּה</he> the knife becomes susceptible of levitical uncleanness, when he (the manufacturer) polishes it. ",
+						"<cite ref=\"Mishnah Chullin 2:3\">Ḥull. II, 3</cite> <he>ה׳ … ועף וכ׳</he> if one whetted the knife and (in beginning to cut) felt tired, and another person continued the cutting. ",
+						"<cite ref=\"Mishnah Beitzah 3:7\">Bets. III, 7</cite> <he>אין מַשְׁחִיזִין וכ׳</he> you must not whet the knife (to slaughter on the Holy Day), but &c., v. <cite ref=\"N01284\"><he>נָשָׂא</he></cite>. Y. Ab. Zar. II, 40ᶜ bot. <he>אין מוכרין … ואין משחיזין וכ׳</he> you must not sell them (the gentiles in Palestine) weapons or armor, nor may you sharpen weapons for them; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

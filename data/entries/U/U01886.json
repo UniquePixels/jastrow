@@ -1,0 +1,33 @@
+{
+	"id": "U01886",
+	"slug": "שקץ-2",
+	"headword": {
+		"text": "שְׁקַץ"
+	},
+	"page": {
+		"number": 1625,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>שַׁקֵּץ</he> as <cite ref=\"U01885\">preced.</cite> <i>Pi.</i> ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 7:26\">Targ. Deut. VII, 26</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 11:43\">Targ. Lev. XI, 43</cite>; a. fr.—Part. pass. <he>מְשַׁקַּץ</he>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 28:8\">Targ. Is. XXVIII, 8</cite> (not <he>מְשַׁקֵּץ</he>; some ed. <he>מְשֻׁקַּץ</he>, Hebraism)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

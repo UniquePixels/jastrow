@@ -1,0 +1,30 @@
+{
+	"id": "U00614",
+	"slug": "שחווא",
+	"headword": {
+		"text": "שַׁחְוָוא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁחְוְותָא"
+		},
+		{
+			"text": "שְׁחוּתָא"
+		}
+	],
+	"page": {
+		"number": 1545,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שְׁחֵי</he> I) <i>pit, grave</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 17:14\">Targ. Job XVII, 14</cite> ed. Lag. (ed. Wil. <cite ref=\"U00728\"><he>שַׁחֲתָא</he></cite>); a. e.; v. <cite ref=\"U00347\"><he>שְׁוָוחָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "Q01869",
+	"slug": "פרם-2",
+	"headword": {
+		"text": "פְּרַם"
+	},
+	"page": {
+		"number": 1230,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01868\">same</cite>, <i>to cut, split, break into; to chop, hash</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 74b:2\">Sabb. 74ᵇ</cite> <he>האי מאן דפָרֵים סילקא</he> (Var. in Ar. <he>דפָרֵיס</he>) he who minces beets (on the Sabbath). ",
+				"<cite ref=\"Berakhot 39a:8\">Ber. 39ᵃ</cite> <he>פַּרְמִינְהוּ פרימי רברבי</he> Ms. M. (Ar. <he>פירמי</he>, ed. <he>פרימא רבא</he>) if he chopped them into large pieces. ",
+				"<cite ref=\"Moed Katan 25a\">M. Kat. 25ᵃ</cite> <he>פָּרוּם בבא וכ׳</he> Ar. (ed. <cite ref=\"Q01702\"><he>פרוס</he></cite>; Ms. M. 2 <he>פרוץ</he>) they broke through the gate, and carried the body out; a. e.—V. <cite ref=\"Q01691\"><he>פְּרוֹמָאָה</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיפְּרַם"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut, chopped</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 30b\">Ḥull. 30ᵇ</cite> sq. <he>חזינן גידפי דמִיפַּרְמֵי</he> we see that the feathers (of the throat) are cut through."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

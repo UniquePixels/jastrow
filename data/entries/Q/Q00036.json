@@ -1,0 +1,22 @@
+{
+	"id": "Q00036",
+	"slug": "פג",
+	"headword": {
+		"text": "פַּג"
+	},
+	"page": {
+		"number": 1132,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00040\"><he>פגג</he></cite>; cmp. Syr. <he>פכא</he> P. Sm. 3124) <i>jaw</i>.—<i>Du.</i> <cite ref=\"Q00058\"><he>פַּגַּיִם</he></cite>; <he>בית פ׳</he> <i>halter</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 9a:13\">B. Mets. 9ᵃ</cite> <he>חמור ובית פַּגֶּיהָ</he> (Ms. M. <he>ובי</he>, v. Rabb. D. S. a. l. note) the ass with the halter."
+			]
+		}
+	]
+}

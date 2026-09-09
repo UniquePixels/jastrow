@@ -1,0 +1,22 @@
+{
+	"id": "Q00771",
+	"slug": "פיסקתא",
+	"headword": {
+		"text": "פִּיסְקְתָא"
+	},
+	"page": {
+		"number": 1168,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01351\"><he>פְּסַק</he></cite>) <i>a small share, portion</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 151a:12\">B. Bath. 151ᵃ</cite> <he>פ׳ דפרדיסא</he> (Ms. F. <cite ref=\"Q01319\"><he>פְּסִיקְתָּא</he></cite>) a small portion of an orchard."
+			]
+		}
+	]
+}

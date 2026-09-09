@@ -1,0 +1,37 @@
+{
+	"id": "P00105",
+	"slug": "עגן-1",
+	"headword": {
+		"text": "עָגַן"
+	},
+	"page": {
+		"number": 1042,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"P00102\"><he>עָגַם</he></cite>) <i>to bend; to tie</i>.—V. <cite ref=\"P00194\"><he>עוֹגֵין</he></cite>.—Part. pass. f. <he>עֲגוּנָה</he> <i>tied to an absent husband, deserted wife</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 4:2:3\">Y. Gitt. IV, beg. 45ᶜ</cite> <he>שלא תהא יושבת ע׳</he> that she may not remain a deserted wife (prevented from marrying again); a. fr.—Pl. <he>עֲגוּנוֹת</he>. ",
+				"<cite ref=\"Ruth Rabbah 1\">Ruth R. to I, 13</cite> (ref. to <he>תעגנה</he>, <cite ref=\"Ruth Rabbah 1\">ib.</cite>) <he>יכולות … יושבות ע׳ לבלתי וכ׳</he> can you afford to sit tied, so as not to get married? <cite ref=\"Gittin 33a:7\">Gitt. 33ᵃ</cite>, a. fr. <he>מפני תקנת ע׳</he> as a measure in favor of deserted wives (that they may be enabled to marry again). ",
+				"<cite ref=\"Vayikra Rabbah 20:10\">Lev. R. s. 20</cite> <he>הרבה נשים היו יושבות ע׳ ממתינות להם</he> many women (to whom they had made love) remained unmarried, waiting for them (to propose); Tanḥ. Aḥăré 6; a. e.—Trnsf. (of animals in the stable) <i>left lonely</i>. ",
+				"<cite ref=\"Tosefta Bava Kamma 8:12\">Tosef. B. Kam. VIII, 12</cite> <he>מהו לגדל בהמה … מקיימין את הע׳ שלשים יום</he> how about rearing (for consumption, v. ",
+				"<cite ref=\"Bava Kamma 80a\">B. Kam. 80ᵃ</cite>) small cattle in Palestine?… That which remains last (after the others have been disposed of) should be kept (no more than) thirty days; <cite ref=\"Bava Kamma 80a:1\">B. Kam. 80ᵃ</cite> <he>ובלבד שלא ישהה הע׳ שבהן שלשים יום</he> (Tosef. l. c. <he>האחרונה</he>) provided he do not keep the last of them over thirty days."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִגֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to press against; to smooth</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Terumot 10:4\">Tosef. Ter. X, 4</cite> <he>מְעַגֶּנֶת שערה בשערה</he> Var. ed. Zuck. (ed. Zuck. <he>מְעַנֶּגֶת</he>, v. <cite ref=\"P00948\"><he>עָנַג</he></cite>; oth. ed. <he>מְעַגֶּלֶת</he>, v. <cite ref=\"P00089\"><he>עָגַל</he></cite>) she may smooth her own hair by rubbing it against her (the priest’s daughter’s) hair."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "I00417",
+	"slug": "טיפח",
+	"headword": {
+		"text": "טִיפַּח",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 533,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. constr. (v. <cite ref=\"I00638\"><he>טָפַח</he> II</cite>), <he>ט׳ רוחא</he> <i>conceitedness</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 16:5:3\">Y. Yeb. XVI, 15ᵈ</cite> <he>פלוני אינו בעולם ט׳ רוחיה עליה</he> ‘the man—is not in this world’, is not a clear testimony of death, as it may be interpreted, ‘his conceit came over him’.—V. <cite ref=\"V00479\"><he>תִּיפַּח</he></cite>."
+			]
+		}
+	]
+}

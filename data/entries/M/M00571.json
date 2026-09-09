@@ -1,0 +1,27 @@
+{
+	"id": "M00571",
+	"slug": "מוץ-4",
+	"headword": {
+		"text": "מוֹץ",
+		"disambiguator": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹצָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 746,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"M00570\">same</cite> <cite ref=\"Targum Jonathan on Isaiah 29:5\">Targ. Is. XXIX, 5</cite> (ed. Lag. <cite ref=\"M02261\"><he>מֹץ</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 13:3\">Targ. Hos. XIII, 3</cite>; a. fr.—[<cite ref=\"Aramaic Targum to Psalms 69:21\">Targ. Ps. LXIX, 21</cite> <cite ref=\"M00571\"><he>מוצא</he></cite>, some ed., read: <he>מרעא</he>, v. <cite ref=\"M02730\"><he>מְרַע</he> II</cite>.]—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:1:15\">Y. Snh. X, 27ᵈ</cite> bot. <he>אהן מ׳ דבגויה וכ׳</he> the chaff which remains there (after the straw is removed) undermines the walls."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "S01468",
+	"slug": "קמי-2",
+	"headword": {
+		"text": "קַמֵּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַמּ־"
+		}
+	],
+	"page": {
+		"number": 1385,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. constr. = <cite ref=\"S00390\"><he>קוֹמֵי</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>before, in the presence of</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 3a\">Ber. 3ᵃ</cite>; <cite ref=\"Gittin 6b:13\">Gitt. 6ᵇ</cite> <he>ק׳ שמיא</he>, v. <cite ref=\"O01408\"><he>סְפֵקָא</he></cite>. Lam. R. introd. (R. Abbahu 2) (ref. to <cite ref=\"Ezekiel 24:6\">Ez. XXIV, 6</cite>) <he>אוי מן ק׳ דקרתא וכ׳</he> woe on account (cmp. h. <cite ref=\"M02223\"><he>מִפְּנֵי</he></cite>) of the town in which they shed blood! <cite ref=\"Beitzah 27a:4\">Bets. 27ᵃ</cite> <he>שדריה לקַמֵּיה דר׳ וכ׳</he> he sent it before R. A. (for his decision). ",
+				"<cite ref=\"Berakhot 6b:20\">Ber. 6ᵇ</cite> [read:] <he>ק׳ מרך</he> or <he>קַמֵּיה דמרך</he>, v. <cite ref=\"B00115\"><he>בְּדוּבַר</he></cite>. ",
+				"<cite ref=\"Berakhot 16a:3\">Ib. 16ᵃ</cite> <he>קתני קמיה דר׳ וכ׳</he> reported in the presence (under the presidency) of R. J. ",
+				"<cite ref=\"Berakhot 24a:4\">Ib. 24ᵃ</cite> <he>הוה קאימנא קמיה דרבא</he> I was standing before (attending) Raba. ",
+				"<cite ref=\"Berakhot 42a:5\">Ib. 42ᵃ</cite> <he>אייתו לקַמַּיְּיהוּ וכ׳</he> they placed before them bread &c. ",
+				"<cite ref=\"Berakhot 42a:6\">Ib.</cite> <he>לבתר … מקמייהו</he> after the tray was removed from before them; a. v. fr.—",
+				"<cite ref=\"Sotah 2b:28\">Sot. 2ᵇ</cite> <he>מאי דקַמָּא</he> what is this before (us)?, i.e. what does this mean? <cite ref=\"Ketubot 67b\">Keth. 67ᵇ</cite>, v. <cite ref=\"S01437\"><he>קָמָא</he> I</cite>. ",
+				"<cite ref=\"Pesachim 3b:12\">Pes. 3ᵇ</cite> <he>דקַמָּן</he>, v. <cite ref=\"S01437\"><he>קָמָא</he> I</cite>. ",
+				"<cite ref=\"Pesachim 84a\">Ib. 84ᵃ</cite>; <cite ref=\"Yoma 46a\">Yoma 46ᵃ</cite> <he>לא חש לקמיה</he> Ar., v. <cite ref=\"S01456\"><he>קִמְחָא</he></cite>.—2) <i>before, ere</i>. ",
+				"<cite ref=\"Chullin 39a:13\">Ḥull. 39ᵃ</cite> <he>מק׳ דשמעה וכ׳</he> before he had heard it from R. &c.; <cite ref=\"Chullin 139a\">ib. 139ᵃ</cite> (not <he>מקמיה</he>); a. fr."
+			],
+			"label": "1"
+		}
+	]
+}

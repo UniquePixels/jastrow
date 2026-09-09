@@ -1,0 +1,26 @@
+{
+	"id": "B01121",
+	"slug": "בקיע-2",
+	"headword": {
+		"text": "בְּקִיעַ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 186,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<he>בקע</he> = <he>בקא</he>) = <cite ref=\"B01118\"><he>בָּקִיא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 5b:2\">Snh. 5ᵇ</cite> <he>ב׳ במומי</he> (Ms. M. <cite ref=\"Q01488\"><he>פקיע</he></cite>) an expert in judging bodily defects. ",
+				"<cite ref=\"Bava Batra 164b\">B. Bath. 164ᵇ</cite> <cite ref=\"B01120\"><he>בקיע</he></cite> some ed. (Ms. M. <he>בקי</he>, F. <cite ref=\"Q01488\"><he>פקיע</he></cite>).—Pl. <cite ref=\"B01124\"><he>בְּקִיעִין</he></cite>, <cite ref=\"B00874\"><he>בְּקִיעֵי</he></cite>. ",
+				"<cite ref=\"Targum of I Chronicles 12:32\">Targ. I Chr. XII, 32</cite> Var., v. <cite ref=\"B01118\"><he>בָּקִי</he></cite>. ",
+				"<cite ref=\"Shevuot 42a:9\">Shebu. 42ᵃ</cite> <he>דכמה דנפישי בקיעי טפי</he> (some ed. <he>בקיאי</he>, Ms. F. <cite ref=\"Q00001\"><he>פ׳</he></cite>) the majority of the experts are supposed to be better versed (than the minority)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A00491",
+	"slug": "אהורמין",
+	"headword": {
+		"text": "אֲהוּרְמִין"
+	},
+	"page": {
+		"number": 19,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. Angra-Mainyus) <i>Ahriman</i>, the evil principle in the Zendavesta (Parsism); opp. <cite ref=\"E00280\"><he>הורמיז</he></cite> Ormuzd. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 39a:9\">Snh. 39ᵃ</cite> <he>מפלגך לעילאי דהורמיז מפלגך לתתאי דאה׳</he> Ar. (ed. a. Mss. incorr., v. Rabb. D. S. a. l.; Tosef. a. l. Better vers. Ms. F. <he>מפלגן</he> <i>our</i> half) thy upper half belongs to Ormuzd, thy lower half to Ahriman. ",
+				"<cite ref=\"Sanhedrin 39a:9\">Ib.</cite> <he>א״כ היכי שביק אהורמין להורמיז למעבר מיא בארעא</he> (ed. corr. acc.) if this be so, why does Ahriman allow Ormuzd to let the water pass (through the former’s dominion) to the ground?"
+			]
+		}
+	]
+}

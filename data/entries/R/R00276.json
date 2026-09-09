@@ -1,0 +1,23 @@
+{
+	"id": "R00276",
+	"slug": "צחין",
+	"headword": {
+		"text": "צְחִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1273,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00275\">preced.</cite>) <i>parched, thirsty.—</i>Pl. <he>צְחִינִין</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 107:5\">Targ. Ps. CVII, 5</cite>, v. <cite ref=\"R00273\"><he>צְחֵי</he></cite>."
+			]
+		}
+	]
+}

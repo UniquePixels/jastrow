@@ -1,0 +1,22 @@
+{
+	"id": "K01117",
+	"slug": "כרוך-2",
+	"headword": {
+		"text": "כְּרוּךְ"
+	},
+	"page": {
+		"number": 665,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01116\">preced.</cite>) <i>band, priestly division</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 18:6\">Targ. Y. Deut. XVIII, 6</cite> (cmp. Y. Yeb. XI, 12ᵃ bot. <he>בכל משמר שירצה</he>)."
+			]
+		}
+	]
+}

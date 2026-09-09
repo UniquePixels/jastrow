@@ -1,0 +1,22 @@
+{
+	"id": "S01583",
+	"slug": "קנייא-1",
+	"headword": {
+		"text": "קָנְיָיא"
+	},
+	"page": {
+		"number": 1392,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְנֵי</he> II) <i>owner, maker</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 9:7:1\">Y. Snh. IX, end, 27ᵇ</cite>, v. <cite ref=\"S00940\"><he>קַיְינָא</he></cite>."
+			]
+		}
+	]
+}

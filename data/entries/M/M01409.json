@@ -1,0 +1,22 @@
+{
+	"id": "M01409",
+	"slug": "מכמת",
+	"headword": {
+		"text": "מִכְּמַת־"
+	},
+	"page": {
+		"number": 783,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. constr. (compound of <he>מִ</he>, <he>כְּ</he> a. <cite ref=\"M00003\"><he>מָא</he></cite>; cmp. <cite ref=\"D00781\"><he>דִּכְמָא</he></cite>) <i>of those like</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 73:15\">Targ. Ps. LXXIII, 15</cite> ed. Lag., v. <cite ref=\"D00781\"><he>דִּכְמָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "C01085",
+	"slug": "גנבית",
+	"headword": {
+		"text": "גַּנָּבִית"
+	},
+	"page": {
+		"number": 257,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"C01080\"><he>גַּנָּב</he></cite>) <i>inclined to steal</i>. Pl. <he>גַּנָּבִיּוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 45:5\">Gen. R. s. 45</cite>, v. <cite ref=\"C00432\"><he>גּוֹנֶבֶת</he></cite>."
+			]
+		}
+	]
+}

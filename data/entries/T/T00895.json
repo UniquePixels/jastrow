@@ -1,0 +1,37 @@
+{
+	"id": "T00895",
+	"slug": "רעי-7",
+	"headword": {
+		"text": "רְעִי",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "רִעְיָא"
+		},
+		{
+			"text": "רִיעְיָא"
+		},
+		{
+			"text": "רַעֲיָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1487,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"T00893\"><he>רְעִי</he> I</cite>) <i>pasture</i>. Targ. II Esth. IV, 1. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 5:3\">Targ. I Kings V, 3</cite>. ",
+				"<cite ref=\"Onkelos Genesis 47:4\">Targ. Gen. XLVII, 4</cite> (O. ed. Berl. <cite ref=\"T00673\"><he>רִעְ׳</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 3:1\">Targ. Ex. III, 1</cite>; a. e."
+			]
+		}
+	]
+}

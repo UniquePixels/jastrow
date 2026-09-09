@@ -1,0 +1,55 @@
+{
+	"id": "S02022",
+	"slug": "קרי-6",
+	"headword": {
+		"text": "קרי",
+		"disambiguator": 4
+	},
+	"altHeadwords": [
+		{
+			"text": "קָרָה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1418,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"S00587\"><he>קוֹרָה</he></cite>, q. v.) <i>to lay beams; to cover</i>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"S01148\"><he>קִיר</he> I</cite>, q. v.) <i>to wall up, close</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 10b:23\">Ber. 10ᵇ</cite> (ref. to <cite ref=\"II Kings 4:10\">II Kings IV, 10</cite>) <he>עלייה … וקֵירוּהָ</he> it was an open upper room (a balcony), and they closed it up. ",
+				"<cite ref=\"Mishnah Moed Katan 1:4\">M. Kat. I, 4</cite> <he>מְקָרִין את הפירצה וכ׳</he> you may close up a breach during the festive week. ",
+				"<cite ref=\"Moed Katan 7a:4\">Ib. 7ᵃ</cite> <he>כיצד מקרין וכ׳</he> in what way is it to be done?… With shrubbery or bay-trees. ",
+				"<cite ref=\"Mishnah Sukkah 1:8\">Succ. I, 8</cite> <he>המְקָרֶה סוכתו וכ׳</he> he who covers his Succah with spits or boards of a bed-side. ",
+				"<cite ref=\"Vayikra Rabbah 1:7\">Lev. R. s. 1</cite> <he>היה מקרה בקורות וכ׳</he> he covered the building with joists, and wrote the name of the king on them; a. e.—Part. pass. <he>מְקוֹרֶה</he>; f. <cite ref=\"M02401\"><he>מְקוֹרָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 1:1:2\">Y. Succ. I, 51ᵈ</cite> top <he>סוכה מ׳ פסולה</he> a Succah covered with beams is ritually unfit; <he>מבוי מ׳ כשר</he> a covered alley is fit (for Sabbath movements). ",
+				"<cite ref=\"Jerusalem Talmud Nazir 9:3:6\">Y. Naz. IX, 57ᵈ</cite> <he>מערה מ׳</he> a vaulted cave. ",
+				"<cite ref=\"Shabbat 5a\">Sabb. 5ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"S02020\"><he>קֵרָה</he></cite> (b. h.) ",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A03084",
+	"slug": "אריג",
+	"headword": {
+		"text": "אָרִיג"
+	},
+	"page": {
+		"number": 119,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ארג</he>) <i>something woven, web</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 13:1\">Sabb. XIII, 1</cite>; a. fr. Y. M. Kat. III, end, 83ᵈ, what is meant by <cite ref=\"A01204\"><he>אִיחוּי</he></cite>? Ans. <he>כאריג</he> when it looks as if woven. ",
+				"<cite ref=\"Megillah 26b\">Meg. 26ᵇ</cite>, a. e. <he>טווי לא׳</he> spinning the flax so as to prepare it for weaving (indirect preparation or designation); <cite ref=\"Sanhedrin 48a:12\">Snh. 48ᵃ</cite> <he>טווי לאֲרִיגָה</he>, (Rashi <he>לאריג</he>)."
+			]
+		}
+	]
+}

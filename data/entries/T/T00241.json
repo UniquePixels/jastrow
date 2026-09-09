@@ -1,0 +1,84 @@
+{
+	"id": "T00241",
+	"slug": "רדי-1",
+	"headword": {
+		"text": "רדי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָדָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1451,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"T00231\"><he>רָדַד</he></cite>) [<i>to stamp, tread</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"B01032\"><he>בָּעַט</he></cite>) <i>to rebel, be contumacious</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 40b\">Yoma 40ᵇ</cite> <he>אל</he> … <he>למינין לִרְדּוֹת</he> Ms. M. (ed. <he>לצדוקים</he>) give the heretics no occasion to rebel (to argue in favor of their heresy); <cite ref=\"Tosefta Yoma 3:7\">Tosef. ib. III</cite> (<cite ref=\"Tosefta Yoma 2:2\">II</cite>), 2 <he>לרדות אחריכם</he> ed. Zuck. (Var. <he>לרדותן אחריהם</he>, corr. acc.) to rebel after you are gone; <cite ref=\"Mishnah Parah 3:3\">Par. III, 3</cite>; Sifra Vayikra, N’dab., ch. II, Par. 2."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to chastise</i>. Mekh. Mishp. s. 4 <he>הרוֹדֶה בבנו ובתלמידו</he> he who chastises his son or his pupil (and kills him); <cite ref=\"Mishnah Makkot 2:2\">Macc. II, 2</cite> <he>הרב הרודה את וכ׳</he> the teacher that punishes his pupil. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 50\">Gen. R. s. 50</cite>, end <he>בקש לִרְדוֹתָן</he> and wanted to punish them; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to subjugate, rule, govern</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 8:12\">Gen. R. s. 8</cite> (ref. to <he>ורדו</he>, <cite ref=\"Genesis 1:28\">Gen. I, 28</cite>) <he>אם זכה רְדוּ ואם לאו יֵרְדוּ</he> if man is good, (God says,) ‘rule’, if not, (God says,) ‘let them go down’; <cite ref=\"Genesis 1:28\">ib.</cite> (ref. to <he>וירדו</he>, ib. 26 <he>את שהוא … יִרְדּוּ את שאינו … יֵרְדוּ</he> (not <he>ורדו</he>) concerning such as are ‘in our image and likeness’ (I say,) ‘they shall rule’ &c. ",
+				"<cite ref=\"Genesis 1:28\">Ib.</cite> <he>יבא … ויִרְדֶּה למי וכ׳</he> let ‘our image and likeness’ (the good man) rule over him who is not &c.; Yalk. ib. 14.—[<cite ref=\"Tosefta Terumot 9:12\">Tosef. Ter. IX, 12</cite> ed. Zuck. <he>ירדנו</he>, v. <cite ref=\"P01420\"><he>עִרְעֵד</he> III</cite>.]"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִידָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to drive, chase</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 20:14\">Ex. R. s. 20</cite> <he>עד שאֲרַדֶּה אותן וכ׳</he> until I drive them into the sea."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to chastise</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 1\">Ex. R. s. 1</cite> <he>לא רִידָּהוּ</he> he did not chastise him. ",
+						"<cite ref=\"Shemot Rabbah 1\">Ib.</cite> <he>ולא רידהו ביסורין</he> he did not punish him with sufferings. ",
+						"<cite ref=\"Shemot Rabbah 1\">Ib.</cite> (play on <he>ארדון</he>, <cite ref=\"I Chronicles 2:18\">I Chr. II, 18</cite>, as a surname of Caleb) <he>שר׳ את יצרו</he> he chastised (or <i>subjugated</i>, v. supra) his evil inclination. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 959:16\">Yalk. Prov. 959</cite> <he>אֲרַדֶּה אותך וכ׳</he> (or <he>אֶרְדֶּה</he>) I shall punish thee with them; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to stamp</i>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 7a\">M. Kat. 7ᵃ</cite>, v. <cite ref=\"T00231\"><he>רָדַד</he></cite>."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"K00081\"><he>כָּבַשׁ</he></cite>) <i>to dam, make passable</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 104a:6\">Erub. 104ᵃ</cite> <he>חצר … תבּן ומְרַדֶּה בה</he> (Alf. <he>מדדה</he>, v. Rabb. D. S. a. l. note 40) if a court has been made impassable through rain, he may bring straw and make a path with it; <cite ref=\"Eruvin 104a:6\">ib.</cite> <he>וכשהוא מרדה אינו מרדה וכ׳</he> and when he makes the path, he must not do so by carrying the straw in a basket &c."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "A02313",
+	"slug": "אנתיקי",
+	"headword": {
+		"text": "אֶנְתֵּיקֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 88,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἐνθήκη) <i>store, capital</i> of the business. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 5:1\">B. Bath. V, 1</cite> if one sold a ship, he has not sold with it … <he>את הא׳</he> the funds and stores belonging to the business. Cmp. ",
+				"<cite ref=\"Bava Batra 77b:4\">ib. 77ᵇ</cite> (definition) <he>עיסקא דאית בה</he> Ms. M. (ed. <he>דבגווה</he>) the business connected with it."
+			]
+		}
+	]
+}

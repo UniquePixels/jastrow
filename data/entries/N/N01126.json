@@ -1,0 +1,24 @@
+{
+	"id": "N01126",
+	"slug": "נצייא",
+	"headword": {
+		"text": "נִצְיָיא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 929,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"N01094\"><he>נָצָא</he> II</cite>) <i>lean land</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 65:11\">Targ. Ps. LXV, 11</cite> <he>נִצְיָיהָא תבריך</he> ed. Lag. (ed. Wil. <he>צִמְחָהָא</he>; h. text <he>צִמְחָהּ</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 65:11\">Ib.</cite> <he>נִצְיָינָהָא רוי</he> Ms. (ed. <he>מרביני צמחהא</he>; h. text <he>תלמיה</he>)."
+			]
+		}
+	]
+}

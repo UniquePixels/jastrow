@@ -1,0 +1,35 @@
+{
+	"id": "L00050",
+	"slug": "לבוד",
+	"headword": {
+		"text": "לָבוּד"
+	},
+	"page": {
+		"number": 687,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00042\"><he>לָבַד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"L00043\"><he>לֶבֶד</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>compact, solid</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 97a\">Sabb. 97ᵃ</cite>; <cite ref=\"Sukkah 16b:9\">Succ. 16ᵇ</cite> <he>כל פחות משלשה כל׳ דמי</he> wherever there is a gap of less than three handbreadths, the parts so separated are considered as a solid (partition). e. g. a mat suspended vertically so as to leave a gap of less than three handbreadths from the ceiling and one of the same size from the floor is to be considered a solid wall completing the requirements of the Succah (v. <cite ref=\"O00300\"><he>סוּכָּה</he></cite>).—Hence <i>labud</i>, the legal fiction of considering separated parts as united, if the gap is less than three handbreadths. ",
+				"<cite ref=\"Sukkah 16b:9\">Ib.</cite> <he>מהו דתימא חד ל׳ אמרינן תרי ל׳ וכ׳</he> you might have thought we adopt one <i>labud</i> but not two <i>labud</i> (a fictitious connection with the ceiling and with the floor); <cite ref=\"Eruvin 9a:4\">Erub. 9ᵃ</cite> <he>מרוח אחת אמרינן ל׳ משתי וכ׳</he>. ",
+				"<cite ref=\"Eruvin 4b\">Ib. 4ᵇ</cite> the traditional rule aplies <he>לְגוּד וּלְלָ׳ וכ׳</he> to the fiction of stretching (v. <cite ref=\"N00118\"><he>נְגַד</he></cite>), of <i>labud</i> &c.; <cite ref=\"Sukkah 6b:5\">Succ. 6ᵇ</cite> <he>ולל׳</he> Ms. M. (ed. <he>ול׳</he>, corr. acc.). ",
+				"<cite ref=\"Eruvin 9a:16\">Erub. 9ᵃ</cite>, v. <cite ref=\"H00022\"><he>חָבוּט</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

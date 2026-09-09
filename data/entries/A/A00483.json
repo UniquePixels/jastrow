@@ -1,0 +1,24 @@
+{
+	"id": "A00483",
+	"slug": "אהבה-1",
+	"headword": {
+		"text": "אַהֲבָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 19,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"A00481\"><he>אהב</he></cite>)<i>love, friendship</i>. <he>א׳ שהיא תלויה בדבר</he> love dependent on something extraneous, i.e. sensual, selfish love. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 5:16\">Aboth V, 16</cite>.—<he>עשה מא׳</he> (or <cite ref=\"P00014\"><he>עבד</he></cite>) to do good (serve the Lord) from pure motives of love. ",
+				"<cite ref=\"Sotah 31a\">Sot. 31ᵃ</cite>; <cite ref=\"Sanhedrin 61b\">Snh. 61ᵇ</cite>; a. fr.—"
+			]
+		}
+	]
+}

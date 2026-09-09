@@ -1,0 +1,29 @@
+{
+	"id": "P01347",
+	"slug": "עריב-2",
+	"headword": {
+		"text": "עָרִיב"
+	},
+	"page": {
+		"number": 1117,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"P01249\"><he>עָרֵב</he> II</cite>, <i>sweet, pleasing</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 20:17\">Targ. Prov. XX, 17</cite> (ed. Wil. <cite ref=\"P00893\"><he>עֲ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:14\">Targ. Cant. II, 14</cite> (ed. Vien. <cite ref=\"P01246\"><he>עָרֵב</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (part. pass. of <cite ref=\"P01252\"><he>עֲרַב</he> I</cite>) <i>mixed</i>.—Pl. <he>עֲרִיבֵי</he>. ",
+			"units": ["<cite ref=\"Eruvin 86a:13\">Erub. 86ᵃ</cite>"],
+			"label": "2"
+		}
+	]
+}

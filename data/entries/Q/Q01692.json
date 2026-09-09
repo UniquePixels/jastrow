@@ -1,0 +1,24 @@
+{
+	"id": "Q01692",
+	"slug": "פרומביא",
+	"headword": {
+		"text": "פְּרוּמְבְּיָא"
+	},
+	"page": {
+		"number": 1220,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. h. a. ch. (φορβεία) <i>halter</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 5:1\">Sabb. V, 1</cite>, v <cite ref=\"Q00037\"><he>פַּגָּא</he> I</cite>. Y. ib. V, end, 7ᶜ; a. e.—",
+				"<cite ref=\"Aramaic Targum to Psalms 32:9\">Targ. Ps. XXXII, 9</cite> (h. text <cite ref=\"T00857\"><he>רסן</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 41:5\">Targ. Job XLI, 5</cite> <he>פְּרוּמְבְּיֵיה</he> (Var. in Ms. <he>ריסניה</he>)."
+			]
+		}
+	]
+}

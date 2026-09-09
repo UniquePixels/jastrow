@@ -1,0 +1,21 @@
+{
+	"id": "S01937",
+	"slug": "קרויא-1",
+	"headword": {
+		"text": "קֵרוּיָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1413,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"S01162\"><he>קֵירוּי</he> I</cite>) <i>scaffold for laying joists</i>. ",
+			"units": ["<cite ref=\"Shemot Rabbah 13\">Ex. R. s. 13</cite>, beg."]
+		}
+	]
+}

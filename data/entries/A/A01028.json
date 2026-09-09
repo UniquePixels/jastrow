@@ -1,0 +1,39 @@
+{
+	"id": "A01028",
+	"slug": "אחיה",
+	"headword": {
+		"text": "אֲחִיָּה"
+	},
+	"page": {
+		"number": 40,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Aḥiyah</i>, several men of various periods. ",
+			"units": []
+		},
+		{
+			"gloss": " ",
+			"units": [
+				"<cite ref=\"Mishnah Shekalim 5:1\">Shek. V, 1</cite> <he>א׳ על הנסכים</he> A. superintendent of the Temple libations (wines, oils)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " ",
+			"units": [
+				"<cite ref=\"Berakhot 63b:1\">Ber. 63ᵇ</cite> A., a Babylonian scholar opposing Palestine authorities."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <he>רבי אחייה</he> R. A., a Tannai. ",
+			"units": [
+				"<cite ref=\"Moed Katan 20a:16\">M. Kat. 20ᵃ</cite>; a. e. ",
+				"<cite ref=\"Moed Katan 20b:3\">Ibid. 20ᵇ</cite> <he>ר׳ חייא לחוד וכ׳</he> R. Ḥiya (although a Chald. abbreviation of Aḥiyah) and R. A. are two different persons."
+			],
+			"label": "3"
+		}
+	]
+}

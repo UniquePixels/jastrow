@@ -1,0 +1,23 @@
+{
+	"id": "M02593",
+	"slug": "מרומה",
+	"headword": {
+		"text": "מְרוּמֶּה"
+	},
+	"page": {
+		"number": 839,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00808\"><he>רָמָה</he></cite>) <i>fraudulent</i>; <he>דין מ׳</he> a case in which the court has reason to suspect legal trickery or conspiracy. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 32b:4\">Snh. 32ᵇ</cite>. ",
+				"<cite ref=\"Shevuot 30b:15\">Shebu. 30ᵇ</cite>"
+			]
+		}
+	]
+}

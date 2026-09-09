@@ -1,0 +1,31 @@
+{
+	"id": "U00258",
+	"slug": "שדד-4",
+	"headword": {
+		"text": "שְׂדַד"
+	},
+	"page": {
+		"number": 1524,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U00257\"><he>שַׂדֵּד</he></cite> same. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 39:10\">Targ. Job XXXIX, 10</cite> (ed. Wil. <cite ref=\"J00703\"><he>יְשַׁ׳</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "H00486",
+	"slug": "חוש-1",
+	"headword": {
+		"text": "חוּשׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 441,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01868\"><he>חָשַׁשׁ</he></cite>, cmp. <cite ref=\"C00502\"><he>גּוּשׁ</he></cite>) <i>thick substance</i>.—Pl. <he>חוּשִּׁים</he>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 143b:6\">B. Bath. 143ᵇ</cite> (play on <he>חושים</he>, <cite ref=\"Genesis 46:23\">Gen. XLVI, 23</cite>) <he>מרובים כח׳ של קנה</he> numerous as the leaves [or the <i>knots</i>] of reeds.—V. <cite ref=\"H00891\"><he>חִישָׁה</he></cite>."
+			]
+		}
+	]
+}

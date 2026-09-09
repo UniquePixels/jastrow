@@ -1,0 +1,25 @@
+{
+	"id": "M02490",
+	"slug": "מראשות",
+	"headword": {
+		"text": "מְרַאֲשׁוֹת"
+	},
+	"page": {
+		"number": 835,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl.(b. h.; denom. of <cite ref=\"T00030\"><he>ראשׁ</he></cite>)<i>head-part of the bed, bolster, pillow</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:5:16\">Y. Ber. III, 6ᵈ</cite> bot. <he>תולה …</he> (<cite ref=\"B00000\"><he>ב</he></cite>)<he>מ׳ המטה</he> he may suspend them from the head-board of the bed, opp. <cite ref=\"M02519\"><he>מרגלות</he></cite>. ",
+				"<cite ref=\"Yoma 78a:10\">Yoma 78ᵃ</cite> <he>מניחה תחת מְרַאֲשׁוֹתָיו</he> put it under his bolster. ",
+				"<cite ref=\"Shabbat 12b:3\">Sabb. 12ᵇ</cite> <he>שכינה למעלה מראשותיו של</he> (= <he>ממ׳</he>) <cite ref=\"H00333\"><he>חולה</he></cite> the Divine Presence is above the head-side of the patient; <cite ref=\"Yalkut Shimoni on Nach 741:2\">Yalk. Ps. 741</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"id": "Q01911",
+	"slug": "פרס-4",
+	"headword": {
+		"text": "פְּרָס"
+	},
+	"page": {
+		"number": 1233,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01908\"><he>פָּרַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>part, half</i>, v. <cite ref=\"Q01701\"><he>פְּרוּס</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a piece</i>, esp. <i>a certain quantity of bread</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 13:9\">Neg. XIII, 9</cite> <he>כדי אכילת פ׳ פת חטין וכ׳</he> as much time as is required for eating a piece, that is, a piece of wheat bread &c. ",
+				"<cite ref=\"Mishnah Negaim 13:10\">Ib. 10</cite>. ",
+				"<cite ref=\"Tosefta Negaim 7:10\">Tosef. ib. VII, 10</cite> <he>וכמה הוא פ׳ חצי וכ׳</he> and how much is a <i>p’ras</i>? Half a loaf, of which three make a Kab; <cite ref=\"Tosefta Mikvaot 7:5\">Tosef. Mikv. VII</cite> (<cite ref=\"Tosefta Mikvaot 8:6\">VIII</cite>), 6; <cite ref=\"Eruvin 83a:2\">Erub. 83ᵃ</cite>; a. fr.—Pl. <he>פְּרָסִים</he>; <i>Du.</i> <he>פְּרָסַיִים</he>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:1:5\">Y. Sabb. I, 2ᵇ</cite> bot. <he>אכילת פ׳</he> eating two <i>p’rasim</i> (with interruption); <cite ref=\"Yoma 2a:8\">ib.</cite> <he>כמה זתים בכמה פ׳</he> several olive sizes of eatables eaten within a time required for eating several pieces; <cite ref=\"Jerusalem Talmud Horayot 3:2:12\">Y. Hor. III, 47ᵇ</cite> bot.—Trnsf. <i>the fare received by members of a household</i>, or <i>by slaves</i>. ",
+				"<cite ref=\"Eruvin 72b:14\">Erub. 72ᵇ</cite> <he>במקבלי פ׳ שנו</he> the Mishnah speaking of brothers eating at their father’s table means those receiving, each his separate fare, at the hands of their father. ",
+				"<cite ref=\"Eruvin 73a:18\">Ib. 73ᵃ</cite> <he>מי שיש לו … מקבלות פ׳ וכ׳</he> if a man has five wives (occupying separate dwellings in one court) receiving their fare at the hands of their husband, and five slaves receiving &c. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 1:1:2\">Y. Taan. I, beg. 63ᶜ</cite> <he>הוא תובע פְּרָסוֹ ממנו</he> he (the slave) begs him for his fare; (<cite ref=\"Yoma 2a:8\">ib.</cite> <he>פרנסתו</he>). ",
+				"<cite ref=\"Jerusalem Talmud Taanit 1:1:2\">Ib.</cite> <he>סמוך לפרסו</he> near the period when his fare is due. ",
+				"<cite ref=\"Pirkei Avot 1:3\">Ab. I, 3</cite>, v. <cite ref=\"P00015\"><he>עֶבֶד</he></cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>P’ras</i>, half a Maneh (<cite ref=\"M01724\"><he>מָנֶה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 3:3\">Eduy. III, 3</cite> <he>מנה ופ׳</he> each weighing one Maneh and a half. ",
+				"<cite ref=\"Mishnah Peah 8:5\">Peah VIII, 5</cite>; a. fr.—<he>מנה בן פ׳</he>, v. <cite ref=\"M01724\"><he>מָנֶה</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>P’ras, half the length of a furrow</i> (v. infra); <he>בית</he> (<cite ref=\"E00000\"><he>ה</he></cite>)<he>פ׳</he> <i>an area of a square P’ras</i>, esp. <i>a field, of a square P’ras, declared unclean on account of crushed bones carried over it from a ploughed grave</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 5b:9\">M. Kat. 5ᵇ</cite> <he>החורש את הקבר הרי הוא עושה בית פ׳ וכמה הוא עושה חצי מענה וכ׳</he> Ms. M. a. Rashi (ed. <he>מלא מענה</he>, v. Rabb. D. S. a. l. note) he who ploughs over a grave, makes a <i>beth-p’ras</i> (an unclean field), and how much of it does he make unclean? Half the length of a furrow of one hundred cubits; Ohol. XVII, 1 <he>החורש … עושה בית פ׳ … מאה אמה בית ארבעה סאים</he> he who ploughs &c.; how far does he make it unclean? (Half) the size of a furrow of a hundred cubits (in all directions), which is a square of the capacity of four S’ahs of seed; <cite ref=\"Niddah 57a:51\">Nidd. 57ᵃ</cite>; <cite ref=\"Tosefta Ohalot 17:1\">Tosef. Ohol. XVII, 1</cite>. Ohol. XVII, 2 <he>בית פ׳ עושה בית פ׳</he> an unclean field may create another unclean field (if the plough passes over and beyond it). ",
+				"<cite ref=\"Tosefta Ohalot 17:4\">Tosef. ib. XVII, 4</cite> <he>אבל עולה הוא כמדת הפ׳</he> (read: <he>במדת</he>; R. S. to Ohol. XVII, 3 <he>כמדת בית הפ׳</he>) but it is counted in so as to complete the measure of a <i>beth-p’ras</i>; a. fr.—Pl. <he>בית פְּרָסוֹת</he>. Ohol. XVIII, 2 (<cite ref=\"Moed Katan 5b:9\">M. Kat. 5ᵇ</cite> <he>בית פרס</he>). [Maim. explains <he>בית הפ׳</he>, by ref. to <cite ref=\"Q01908\"><he>פָּרַס</he></cite> <i>to extend, the area of extension</i>; Rashi, by ref. to <cite ref=\"Q01908\"><he>פָּרַס</he></cite> <i>to break, an area of bone splinters</i>.]"
+			],
+			"label": "4"
+		}
+	]
+}

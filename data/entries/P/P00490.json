@@ -1,0 +1,23 @@
+{
+	"id": "P00490",
+	"slug": "עיבוד",
+	"headword": {
+		"text": "עִיבּוּד"
+	},
+	"page": {
+		"number": 1065,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00013\"><he>עָבַד</he></cite>) <i>dressing hides, working in leather</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:53\">Y. Sabb. VII, 10ᶜ</cite> bot., v. <cite ref=\"U01955\"><he>שִׁרְטֵט</he></cite>. Bab. ",
+				"<cite ref=\"Shabbat 75b:2\">Sabb. 75ᵇ</cite> <he>אין ע׳ באוכלין</he> the prohibition of dressing (by means of salting) does not apply to eatables (meat &c.); a. e."
+			]
+		}
+	]
+}

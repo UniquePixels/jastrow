@@ -1,0 +1,32 @@
+{
+	"id": "P01420",
+	"slug": "ערער-4",
+	"headword": {
+		"text": "עִרְעֵר",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1122,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"P01411\"><he>עֲרַע</he> I</cite>) [<i>to bring into contact</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to keep a liquid in the throat for the sake of lubrication</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 12:10\">Tosef. Sabb. XII</cite> (<cite ref=\"Tosefta Shabbat 13:10\">XIII</cite>), 10 if one has a sore throat, <he>לא יְעַרְעֲרֶנּוּ בשמן וכ׳</he> he must not lubricate it with oil (on the Sabbath); <cite ref=\"Berakhot 36a:3\">Ber. 36ᵃ</cite> <he>לא יְעָרְעֶנּוּ</he> (<i>Pi.</i> of <cite ref=\"P01410\"><he>עָרַע</he></cite>; Ar. <he>יערער׳</he>); <cite ref=\"Tosefta Terumot 9:12\">Tosef. Ter. IX, 12</cite> <he>יערענו</he> (ed. Zuck. <he>ירדנו</he>?); <cite ref=\"Jerusalem Talmud Sheviit 8:2:2\">Y. Shebi. VIII, 38ᵃ</cite> top <he>יערער׳</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cause to meet</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 9:11:2\">Koh. R. to IX, 11</cite> (ref. to <he>יקרה</he>, <cite ref=\"Kohelet Rabbah 9:11:2\">ib.</cite>; cmp. <cite ref=\"P01415\"><he>עַרְעִיתָא</he> I</cite>) <he>עת היא שפוגעת האדם ומְעַרְעֶרֶת בו וכ׳</he> it is time that strikes man and causes all these things (vicissitudes) to meet him."
+			],
+			"label": "2"
+		}
+	]
+}

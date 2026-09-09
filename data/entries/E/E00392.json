@@ -1,0 +1,50 @@
+{
+	"id": "E00392",
+	"slug": "הילוך",
+	"headword": {
+		"text": "הִילּוּךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "הִלּוּךְ"
+		}
+	],
+	"page": {
+		"number": 346,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"E00561\"><he>הָלַךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>walk</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 111a:1\">Keth. 111ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 113b:1\">Sabb. 113ᵇ</cite> <he>הִילּוּכְךָ של שבת</he> thy way of walking on the Sabbath. ",
+				"<cite ref=\"Niddah 31a:24\">Nidd. 31ᵃ</cite> <he>ה׳ רגלים</he> faculty of walking.—",
+				"<cite ref=\"Bereishit Rabbah 20:10\">Gen. R. s. 20</cite> <he>ה׳ מעים כדרך וכ׳</he> (not <he>בדרך</he>) natural movement of the bowels (<cite ref=\"Berakhot 57b:17\">Ber. 57ᵇ</cite> <cite ref=\"U01391\"><he>שלשול</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>walking</i> (lengthwise and breadthwise) <i>through a field</i>, as a form of taking possession. ",
+			"units": [
+				"<cite ref=\"Bava Batra 100a:6\">B. Bath. 100ᵃ</cite>; <cite ref=\"Jerusalem Talmud Kiddushin 1:5:6\">Y. Kidd. I, 60ᶜ</cite>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " = <cite ref=\"E00237\"><he>הוֹלָכָה</he></cite>, <i>carrying to the altar</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 1:4\">Zeb. I, 4</cite>. ",
+				"<cite ref=\"Zevachim 15b:6\">Ib. 15ᵇ</cite> <he>ה׳ שצריך להלך</he> (<cite ref=\"L00471\"><he>לילך</he></cite>) a carrying necessary for the purpose."
+			],
+			"label": "3"
+		}
+	]
+}

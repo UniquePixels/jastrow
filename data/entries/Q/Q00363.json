@@ -1,0 +1,25 @@
+{
+	"id": "Q00363",
+	"slug": "פורני-2",
+	"headword": {
+		"text": "פּוּרְנִי"
+	},
+	"page": {
+		"number": 1147,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (an adaptation of furnus, φοῦρνος, as if from <cite ref=\"Q01879\"><he>פָּרַן</he></cite>) [<i>the supplier</i>,] <i>a stationary, large baking oven</i>, contrad. to <cite ref=\"V00733\"><he>תנור</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Beitsah 3:20\">Tosef. Bets. III, 20</cite>; <cite ref=\"Beitzah 34a\">Bets. 34ᵃ</cite>. ",
+				"<cite ref=\"Pesachim 31b:5\">Pes. 31ᵇ</cite> <he>פת פ׳</he> bread baked in the <i>purni</i> (large loaves). ",
+				"<cite ref=\"Avodah Zarah 35b:16\">Ab. Zar. 35ᵇ</cite> <he>פת פ׳ מאפה סאה</he> bread of an oven of a batch of a S’ah of flour; a. fr.—",
+				"<cite ref=\"Mishnah Kelim 8:9\">Kel. VIII, 9</cite> <cite ref=\"Q00359\"><he>פּוּרְנָה</he></cite> an earthen oven; <cite ref=\"Tosefta Kelim Kamma 6:17\">Tosef. Kel. B. Kam. VI, 17</cite> <cite ref=\"Q01881\"><he>פּוּרְנָא</he></cite>."
+			]
+		}
+	]
+}

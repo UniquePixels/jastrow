@@ -1,0 +1,24 @@
+{
+	"id": "A00385",
+	"slug": "אדון",
+	"headword": {
+		"text": "אָדוֹן"
+	},
+	"page": {
+		"number": 16,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., const. <cite ref=\"A00385\"><he>אֲדוֹן</he></cite> (b. h.; <i>lord, judge</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 3b:4\">Ḥag. 3ᵇ</cite> <he>אֲ׳ כל המעשים</he> Lord of all creatures. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 4:1:6\">Y. Kidd. IV, beg. 65ᵇ</cite> (allud. to <i>Adon</i>, pr. n., <cite ref=\"Nehemiah 7:61\">Neh. VII, 61</cite>) <he>אין דין אין א׳</he> there is no justice and not judge. ",
+				"<cite ref=\"Bereishit Rabbah 89:4\">Gen. R. s. 89</cite> (play on <i>Kar</i>, <cite ref=\"Isaiah 30:23\">Is. XXX, 23</cite>) <he>קירי א׳</he> Kyri (κύριος) means Lord."
+			]
+		}
+	]
+}

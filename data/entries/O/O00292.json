@@ -1,0 +1,32 @@
+{
+	"id": "O00292",
+	"slug": "סוי-2",
+	"headword": {
+		"text": "סְוֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 963,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. Syr. <cite ref=\"O00222\"><he>סוא</he></cite> a. <cite ref=\"O00277\"><he>סוח</he></cite> cupio, P. Sm. 2540; 2546, a. <cite ref=\"G00151\"><he>זוּחַ</he> I</cite>) <i>to be bright, cheer up</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 62b:12\">Keth. 62ᵇ</cite> <he>דל עינח … ס׳ לבה וכ׳</he> he lifted up her eye (attracted her attention), she saw him, her heart was overjoyed, her spirit fled (she fainted)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסְוֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to look up with joy</i>. Ib. 60ᵃ <he>הוה קא מַסְוֵי לאפה</he> (not <he>הות</he>) the child looked up to her with joy (showing that he recognised his mother).",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "H01015",
+	"slug": "חלחול",
+	"headword": {
+		"text": "חִלְחוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִילְחוּל"
+		}
+	],
+	"page": {
+		"number": 466,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01018\"><he>חִלְחֵל</he></cite>) <i>penetration of a poisonous substance, poison</i>. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Exodus 18\">Mishp. 18</cite>; ed. Bub. 12 (<cite ref=\"H01025\"><he>חול׳</he></cite>, corr. acc.) <he>הח׳ היה נכנס וכ׳</he> the poison (of the flies) entered their bodies; <cite ref=\"Yalkut Shimoni on Torah 359:8\">Yalk. Ex. 359</cite>."
+			]
+		}
+	]
+}

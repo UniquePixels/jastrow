@@ -1,0 +1,26 @@
+{
+	"id": "A00383",
+	"slug": "אדום-2",
+	"headword": {
+		"text": "אֱדוֹם"
+	},
+	"page": {
+		"number": 16,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"A00383\"><he>אֱדֹם</he></cite>) pr. n. m. <i>Edom</i>, surname of Esau, son of Isaac; mostly used as a nom. gentil. <i>Edomite, Edomite nation</i>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " fem. (sub. <cite ref=\"M01579\"><he>מלכות</he></cite>) <i>Rome, Roman government</i> (owing to the dependence of Herod on Rome). ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 35:5\">Ex. R. s. 35</cite>; a. fr. ",
+				"<cite ref=\"Shemot Rabbah 35:5\">Ibid.</cite> <he>מלכות א׳</he>; a. fr. [In subsequent ages: <i>Christianity</i>.]"
+			],
+			"label": "2"
+		}
+	]
+}

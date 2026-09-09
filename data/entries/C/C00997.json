@@ -1,0 +1,23 @@
+{
+	"id": "C00997",
+	"slug": "גמאין",
+	"headword": {
+		"text": "גְּמָאִין"
+	},
+	"page": {
+		"number": 251,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"C00996\">preced.</cite>) <i>sweetmeats, delicacies</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 3:2\">Esth. R. to I, 9</cite> (play on <cite ref=\"C00993\"><he>גם</he></cite> <cite ref=\"Esther Rabbah 3:2\">ib.</cite>) <he>מיני ג׳</he> various delicacies."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "R00153",
+	"slug": "צוארנוייתא",
+	"headword": {
+		"text": "צַוַּארְנוֹיָיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צַיַּרְנְיָיתָא"
+		}
+	],
+	"page": {
+		"number": 1265,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (denom. of <cite ref=\"R00152\">preced.</cite>) [<i>throat-ticklers</i>,] <i>dainties</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 136a:18\">Sabb. 136ᵃ</cite> (to a person that observed mourning not required by law) <he>צורנייתא קבעית למיכל</he> Ms. M. (ed. <cite ref=\"R00177\"><he>צַוְּורוֹנְיָתָא</he></cite>, Rashi ed. Sonc. <cite ref=\"R00169\"><he>צווארנוייתא</he></cite>; Ar. <he>צודנ׳</he>) dost thou want to eat dainties (which friends send to the mourner)?; <cite ref=\"Moed Katan 20b\">M. Kat. 20ᵇ</cite> <he>צַוַּרְנְיָאתָא</he> Ms. M. (ed. <cite ref=\"R00164\"><he>צודנייתא</he></cite>, Rashi <he>צידונייתא</he>; v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

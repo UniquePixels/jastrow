@@ -1,0 +1,31 @@
+{
+	"id": "B00013",
+	"slug": "באדן",
+	"headword": {
+		"text": "בָּאדָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּדָאן"
+		},
+		{
+			"text": "בָּדָן"
+		}
+	],
+	"page": {
+		"number": 135,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Badan</i>, a Samaritan place noted for its pomegranats. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 6:10\">Tosef. Kel. B. Mets. VI, 10</cite> <he>בא׳</he>; <cite ref=\"Mishnah Kelim 17:5\">Kel. XVII, 5</cite> <he>בדאן</he>. ",
+				"<cite ref=\"Mishnah Orlah 3:7\">Orl. III, 7</cite>; <cite ref=\"Beitzah 3b:14\">Bets. 3ᵇ</cite>"
+			]
+		}
+	]
+}

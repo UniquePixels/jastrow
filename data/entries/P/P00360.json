@@ -1,0 +1,34 @@
+{
+	"id": "P00360",
+	"slug": "עורף",
+	"headword": {
+		"text": "עוֹרֶף"
+	},
+	"page": {
+		"number": 1059,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"P01429\"><he>עֹרֶף</he></cite>; <cite ref=\"P01426\"><he>עָרַף</he></cite>)<i>hind part of the head with the neck, neck</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 1:4\">Ḥull. I, 4</cite> <he>השוחט מן הע׳</he> if one cuts the animal from the neck (frontward); <cite ref=\"Chullin 19b:13\">ib. 19ᵇ</cite> <he>מאי ע׳</he> what is meant by <cite ref=\"P00360\"><he>עורף</he></cite>? <he>אילימא ע׳ ממש</he> shall I say, the real <i>‘oref</i> (occiput)? <cite ref=\"Chullin 19b:14\">Ib.</cite> <he>מול הרואה את הע׳</he>, v. <cite ref=\"M00482\"><he>מוּל</he> I</cite>. ",
+				"<cite ref=\"Chullin 19b:14\">Ib.</cite> (ref. to <cite ref=\"Jeremiah 2:27\">Jer. II, 27</cite>) <he>מכלל דע׳ להדי פנים</he> from this we conclude that <i>‘oref</i> is the part opposite the face. ",
+				"<cite ref=\"Avodah Zarah 25a:12\">Ab. Zar. 25ᵃ</cite> (ref. to <cite ref=\"Genesis 49:8\">Gen. XLIX, 8</cite>) <he>איזוהי מלחמה שצריכה יד כנגד ע׳ וכ׳</he> what kind of warfare requires the hand against (opposite) the neck? The bow; a. fr.—",
+				"<cite ref=\"Bava Batra 25a:12\">B. Bath. 25ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 32:2\">Deut. XXXII, 2</cite> <he>יערף</he>) <he>זו … שבאה מעוֹרְפּוֹ של עולם</he> that is (the rain coming with) the western wind which comes from the hinder part (cmp. <cite ref=\"A01017\"><he>אחור</he></cite>, <cite ref=\"Isaiah 9:11\">Is. IX, 11</cite>) of the world; <cite ref=\"Sifrei Devarim 306:34\">Sifré Deut. 306</cite> <he>שהוא עָרְפּוֹ של עולם</he>. ",
+				"<cite ref=\"Sifrei Devarim 306:34\">Ib.</cite> Num. 126; Yalk. ib. 762, v. <cite ref=\"Q02165\"><he>פָּתִיל</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>separation, division</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 15a:5\">Ḥag. 15ᵃ</cite> in the heavens above there is <he>לא ישיבה … ולא ע׳ ולא עיפוי</he> no sitting down (for deliberation), no conflict, no division and no junction (Maim. to Snh. ch. X; Rashi: no <i>back</i>, i.e. everything is in sight, nor <i>weariness</i>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,119 @@
+{
+	"id": "S00057",
+	"slug": "קבל-1",
+	"headword": {
+		"text": "קָבַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1308,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H00084\"><he>חבל</he></cite> a. <he>חבר</he>) [<i>to seize; to join, meet, correspond</i>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִבֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to receive, accept; to take an obligation upon one’s self; to contract, agree</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Zevachim 2:1\">Zeb. II, 1</cite> <he>כל הזבחים שק׳ דמן זר וכ׳</he> all sacrifices whose blood was received (in a vessel) by a non-priest &c. ",
+						"<cite ref=\"Mishnah Zevachim 2:4\">Ib. 4</cite> <he>ק׳ והלך וזרק וכ׳</he> if he received the blood, or carried or sprinkled it with the thought of disposal at an unlawful time. ",
+						"<cite ref=\"Mishnah Zevachim 2:3\">Ib. 3</cite>; a. fr.—",
+						"<cite ref=\"Pirkei Avot 1:1\">Ab. I, 1</cite> <he>משה ק׳ וכ׳</he> Moses received the (traditional) law from Sinai, and handed it over to &c. ",
+						"<cite ref=\"Pirkei Avot 1:4\">Ib. 4</cite> <he>קִבְּלוּ מהם</he> (Var. <he>ממנו</he>) received the traditions from them. ",
+						"<cite ref=\"Pirkei Avot 1:3\">Ib. 3</cite> <he>לקַבֵּל וכ׳</he>, v. <cite ref=\"P00015\"><he>עֶבֶד</he></cite>. ",
+						"<cite ref=\"Eruvin 72b\">Erub. 72ᵇ</cite> <he>מְקַבְּלֵי פרס</he>; <cite ref=\"Eruvin 73a:5\">ib. 73ᵃ</cite> <he>מְקַבְּלוֹת</he>, v. <cite ref=\"Q01911\"><he>פְּרָס</he></cite>. ",
+						"<cite ref=\"Pirkei Avot 1:15\">Ab. I, 15</cite> <he>הוי מְקַבֵּל את כל וכ׳</he> receive every man &c., v. <cite ref=\"O00089\"><he>סֵבֶר</he></cite>. ",
+						"<cite ref=\"Ketubot 58a:2\">Keth. 58ᵃ</cite> (a mnemonical formula) <he>ק׳ מסר והלך</he> if he (the betrothed) accepted (was satisfied to marry her in spite of blemishes discovered), or if the father handed his daughter over to the groom’s delegates, or if the father (or his delegates) went along with the groom’s delegates; <cite ref=\"Kiddushin 11a:5\">Kidd. 11ᵃ</cite>. ",
+						"<cite ref=\"Ketubot 56b:10\">Keth. 56ᵇ</cite>, a. fr. <he>ק׳ עליו אחריות</he> if he assumed the guaranty. ",
+						"<cite ref=\"Mishnah Demai 2:2\">Dem. II, 2</cite>, sq. <he>המקבל עליו וכ׳</he> he that obligates himself &c., v. <cite ref=\"N00023\"><he>נֶאֱמָן</he></cite>. ",
+						"<cite ref=\"Shemot Rabbah 3:1\">Ex. R. s. 3</cite> <he>והם לא קבלו על וכ׳</he> and did they not receive (punishment) for what they did? <cite ref=\"Shemot Rabbah 3\">Ib.</cite> <he>אינו מקבל מוסר</he> does not accept correction. ",
+						"<cite ref=\"Menachot 96b\">Men. 96ᵇ</cite>, a. fr. <he>מקבל טומאה</he> susceptible of levitical uncleanness; a. v. fr.—Esp. <i>to take on lease, to rent a field</i> either on shares (v. <cite ref=\"A03109\"><he>אָרִיס</he></cite>) or at a fixed rent (v. <cite ref=\"H00931\"><he>חָכִיר</he></cite>). ",
+						"<cite ref=\"Mishnah Bava Metzia 9:1\">B. Mets. IX, 1</cite>. ",
+						"<cite ref=\"Mishnah Bava Metzia 9:9\">Ib. 9</cite> <he>קִבְּלָהּ הימנו לשבע וכ׳</he> if he rented it of him for seven years. ",
+						"<cite ref=\"Mishnah Bava Metzia 9:10\">Ib. 10</cite> <he>קבלה הימנו שבע … בשבע וכ׳</he> if he rented it for ‘seven years at a rent of seven hundred Zuz’, the Sabbatical year is not included; a. fr.—<he>ק׳ פנים</he>, v. <i>Hif.</i>—<he>ק׳ קיבולת</he>, v. <cite ref=\"S00852\"><he>קִיבּוֹלֶת</he></cite>.—<i>Part. pass.</i> <he>מְקוּבָּל</he> "
+					],
+					"senses": [
+						{
+							"gloss": " <i>accepted, acceptable, well-liked, beloved</i>. ",
+							"units": [
+								"<cite ref=\"Mishnah Berakhot 5:5\">Ber. V, 5</cite>, v. <cite ref=\"I00859\"><he>טָרַף</he></cite>. ",
+								"<cite ref=\"Berakhot 17a:9\">Ib. 17ᵃ</cite> <he>ויהא מק׳ על הבריות</he> and that he may be well-liked of men.—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>holding a tradition</i>. ",
+							"units": [
+								"<cite ref=\"Mishnah Peah 2:6\">Peah II, 6</cite> <he>מק׳ אני מר׳</he> … <he>שקבל וכ׳</he> I hold a tradition from R. M. who received it of &c.; <cite ref=\"Nazir 56b:12\">Naz. 56ᵇ</cite> <he>כך מְקוּבְּלַנִי וכ׳</he>; a. e."
+							],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִקְבִּיל"],
+			"senses": [
+				{
+					"gloss": " (with <he>פנים</he> or sub. <he>פנים</he>; interch. with <i>Pi.</i>) <i>to ask for a favorable reception, to visit, pay one’s respects to</i>. Y. Erub. V, beg. 22ᵇ <he>אילולא דייו אלא שהיה מקבל פני רבו שכל המַקְבִּיל פני רבו כאילו מקבל וכ׳</he> (not <he>דיין</he>; = <he>אילו לא עשה כלום אלא … דייו</he>) had he done nothing (during the thirteen years of his waiting on his master) but greet his teacher, it were sufficient; for he that pays his respects to his teacher is considered as one waiting on the Divine Presence; Y. Snh. XI, 30ᵇ top. ",
+					"units": [
+						"<cite ref=\"Chagigah 5b:18\">Ḥag. 5ᵇ</cite> <he>אתם הִקְבַּלְתֶּם … תזכו להַקְבִּיל וכ׳</he> you have greeted a countenance that is seen but cannot see (a blind man), may you be permitted to greet the Countenance that sees and cannot be seen. ",
+						"<cite ref=\"Sanhedrin 42a:3\">Snh. 42ᵃ</cite> <he>אילמלא … להַקְבִּיל פני וכ׳</he> if Israelites were permitted to greet their Father in heaven only once a month &c.; <he>כל המברך … כאילו מקבל וכ׳</he> saying the blessing over the new moon in its due time, is, as it were, greeting the Divine Presence; <cite ref=\"Yalkut Shimoni on Torah 189\">Yalk. Ex. 189</cite> <cite ref=\"M02374\"><he>מקביל</he></cite>. Y. Ḥag. I, beg. 75ᵈ <he>והִקְבּילוּ ר׳ י׳ בבקיעין</he> and waited upon (visited) R. J. in B’ḳiin; Y. Sot. III, 18ᵈ bot.; <cite ref=\"Tosefta Sotah 7:9\">Tosef. Sot. VII, 9</cite>, <he>והקבילו פני וכ׳</he>; <cite ref=\"Chagigah 3a:15\">Ḥag. 3ᵃ</cite> <he>הלכו להקביל פני וכ׳</he>; a. fr.—",
+						"<cite ref=\"Shabbat 152a\">Sabb. 152ᵃ</cite>, v. infra."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּקְבַּל"],
+			"senses": [
+				{
+					"gloss": " (with <he>פנים</he>, or <he>ל־</he>) <i>to be placed opposite, be admitted to the presence of</i>, (a polite expression for:) <i>to be visited</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 152a:7\">Sabb. 152ᵃ</cite> <he>מפני מה לא הוּקְבַּלְנוּ פניך … שהוּקְבְּלוּ אבותי לאבותיך</he> early eds. (Ms. M. <he>לא הוקבלו</he>, incorr.; later eds. <he>הִקְבַּלְנוּ … שהִקְבִּילוּ</he> <i>Hif.</i>; v. Rabb. D. S. a. l. note) why were we not permitted to see you on the festive day, as my ancestors used to receive thy ancestors?"
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["הִתְקַבֵּל"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְקַבֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be received, accepted</i>. Sifra Vayikra, N’dab., ch. IV, Par. 4 <he>הדם הדם שנ׳ בכלי</he> ‘they shall sprinkle <i>the</i> blood’ (<cite ref=\"Leviticus 1:5\">Lev. I, 5</cite>), the blood which has been received in a vessel. ",
+					"units": [
+						"<cite ref=\"Zevachim 34b:10\">Zeb. 34ᵇ</cite>, sq.; a. e.—",
+						"<cite ref=\"Pesikta Rabbati 44:1\">Pesik. R. s. 44</cite> <he>ספק מִתְקַבֵּל ספק אינו מתקבל</he> it is doubtful, will he or will he not be favorably received. ",
+						"<cite ref=\"Avot D'Rabbi Natan 4:5\">Ab. d’R. N. ch. IV</cite> <he>תפלתו מִתְקַבֶּלֶת ברצון</he> his prayer was accepted with favor; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make one’s self the recipient of, to receive, accept</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Ketubot 5:1\">Keth. V, 1</cite> <he>הִתְקַבַּלְתִּי ממך וכ׳</he> I have received at thy hands (on account) one hundred &c. ",
+						"<cite ref=\"Mishnah Gittin 6:1\">Gitt. VI, 1</cite> <he>הִתְקַבֵּל גט זה וכ׳</he> make thyself the receiver of this letter of divorce in behalf of my wife. ",
+						"<cite ref=\"Mishnah Gittin 6:1\">Ib.</cite> <he>התקבל לי גטי</he> accept my letter of divorce in my behalf; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

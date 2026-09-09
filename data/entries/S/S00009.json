@@ -1,0 +1,32 @@
+{
+	"id": "S00009",
+	"slug": "קאים",
+	"headword": {
+		"text": "קָאֵים"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָאִים"
+		},
+		{
+			"text": "קָאֵם"
+		}
+	],
+	"page": {
+		"number": 1306,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (part. of <cite ref=\"S00374\"><he>קוּם</he></cite>) <i>standing, rising</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 24:13\">Targ. O. Gen. XXIV, 13</cite> (Y. <cite ref=\"S00007\"><he>קאי</he></cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 5:5\">Targ. Deut. V, 5</cite>; a. fr.—",
+				"<cite ref=\"Ketubot 62b:1-13\">Keth. 62ᵇ</cite> <he>מי … דק׳ וכ׳</he> does a father stand up before his son? <cite ref=\"Eruvin 79a:11\">Erub. 79ᵃ</cite> <he>דק׳ לה באפה</he> he stands in front of the animal; a. fr.—V. <cite ref=\"S00007\"><he>קָאֵי</he></cite> a. <cite ref=\"S00374\"><he>קוּם</he></cite> ch."
+			]
+		}
+	]
+}

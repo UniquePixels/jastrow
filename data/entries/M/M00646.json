@@ -1,0 +1,28 @@
+{
+	"id": "M00646",
+	"slug": "מורייא",
+	"headword": {
+		"text": "מוֹרַיָּיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוּבְלַיָּיא מוֹרַיָּיא"
+		}
+	],
+	"page": {
+		"number": 750,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"U00323\"><he>שׁוּבְלָא</he></cite>, a. <cite ref=\"M00605\"><he>מוֹר</he></cite>) an ingredient of <i>frankincense</i>, supposed to be <i>unguis odoratus</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 30:34\">Targ. Y. II, Ex. XXX, 34</cite> (not <cite ref=\"U00323\"><he>שובלא</he></cite>; h. text <cite ref=\"U00671\"><he>שחלת</he></cite>)."
+			]
+		}
+	]
+}

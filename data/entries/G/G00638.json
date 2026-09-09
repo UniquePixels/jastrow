@@ -1,0 +1,22 @@
+{
+	"id": "G00638",
+	"slug": "זקיפתא",
+	"headword": {
+		"text": "זְקִיפְתָּא"
+	},
+	"page": {
+		"number": 409,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00650\"><he>זְקַף</he></cite>) <i>rising up</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 3:63\">Targ. Lam. III, 63</cite>. [<cite ref=\"Avodah Zarah 46a:16\">Ab. Zar. 46ᵃ</cite> <he>האי זקיפת׳</he>, read: <he>זְקִיפָתָהּ</he>, v. <cite ref=\"G00636\"><he>זְקִיפָה</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,76 @@
+{
+	"id": "E00561",
+	"slug": "הלך-2",
+	"headword": {
+		"text": "הָלַךְ"
+	},
+	"page": {
+		"number": 352,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to go, go away; to walk</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 84a:3\">Yeb. 84ᵃ</cite> <he>כשהָלַכְתִּי וכ׳</he> when I left home to study with &c. ",
+				"<cite ref=\"Makkot 10b:2\">Macc. 10ᵇ</cite>, a. e. <he>בדרך שאדם רוצה לֵילֵךְ בה מוֹלִיכִין אותו</he> whatever way one desires to go, one is led; a. v. fr.—<he>הוֹלְכֵי מדברות</he> travellers through the desert. ",
+				"<cite ref=\"Taanit 27b:3\">Taan. 27ᵇ</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:9:2\">Y. Kidd. I, 61ᵈ</cite> <he>כהולכים בתורת ד׳</he> (not <he>בה׳</he>) as though they did walk in the law &c.—Imper. <cite ref=\"L00535\"><he>לֵךְ</he></cite>, <cite ref=\"L00542\"><he>לְכָה</he></cite>, v. <cite ref=\"K00692\"><he>כָּלָה</he></cite> <i>Pi.</i>, a. <cite ref=\"K00750\"><he>כַּלֵּךְ</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִילֵּךְ", "הִלֵּךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"E00560\">same</cite>, <i>to walk, tread upon</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 9:2\">Ḥull. IX, 2</cite> (<cite ref=\"Chullin 122a\">122ᵃ</cite>) <he>או שהי׳ בהן</he> (Mish. ed. <he>שהלך</he>) or trod upon them for tanning purposes. ",
+						"<cite ref=\"Eruvin 100b:7\">Erub. 100ᵇ</cite> <he>שיְהַלֵּךְ ע״ג וכ׳</he> to tread upon plants. ",
+						"<cite ref=\"Bereishit Rabbah 39:8\">Gen. R. s. 39</cite> <he>מְהַלֵּךְ בארם וכ׳</he> travelling through Aram &c.—",
+						"<cite ref=\"Ketubot 60a\">Keth. 60ᵃ</cite>; <cite ref=\"Keritot 22a:4\">Ker. 22ᵃ</cite> <he>מְהַלְּכֵי שתים</he> walking on two legs (human beings); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause opening of the bowels</i>. Y. Kil. I, 27ᵃ top <he>מְהַלֶּכֶת את בני מיעים</he>; cmp. <cite ref=\"E00392\"><he>הִילּוּךְ</he></cite>. [Y. Keth. XII, 35ᵇ top <he>מהלך לפניהן אל הארץ</he>, v. <cite ref=\"H00981\"><he>חָלַד</he></cite>.]",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הוֹלִיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to lead; to carry</i>. ",
+					"units": [
+						"<cite ref=\"Makkot 10b:2\">Macc. 10ᵇ</cite>, v. supra. ",
+						"<cite ref=\"Gittin 4a:13\">Gitt. 4ᵃ</cite> <he>המוֹלִיךְ וכ׳</he> he who carries abroad a letter of divorce, contrad. to <he>המביא</he> he who brings a letter from abroad. ",
+						"<cite ref=\"Mishnah Avodah Zarah 3:9\">Ab. Zar. III, 9</cite> <he>יוֹלִיךְ הנאה וכ׳</he> let him cast the profit (one loaf’s value) into the Sea. ",
+						"<cite ref=\"Mishnah Gittin 6:1\">Gitt. VI, 1</cite> <he>הוֹלֵךְ גט וכ׳</he> carry this letter of divorce (as a messenger). ",
+						"<cite ref=\"Gittin 63a:1\">Ib. 63ᵃ</cite> sq. (distinction between <he>הילך</he>, here is the letter of divorce, i.e. take possession of it in behalf of my wife, and <he>הולך</he> carry it, i.e. be my messenger). ",
+						"<cite ref=\"Gittin 64a\">Ib. 64ᵃ</cite>, a. e. <he>הולך כזכי דמי</he> ‘carry’ (the letter of divorce) is equal to ‘take possession’ (in behalf of her who authorized thee); a. fr."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְהַלֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to go away, withdraw</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 5:1:1\">Cant. R. to V, 1</cite>; <cite ref=\"Bereishit Rabbah 19:8\">Gen. R. s. 19</cite> (ref. to <cite ref=\"Genesis 3:8\">Gen. III, 8</cite>) <he>מְהַלֵּךְ … אלא מִתְהַלֵּךְ וכ׳</he> it does not say <i>m’hallekh</i> (walking) but <i>mith-hallekh</i>, He hastened and went upward. ",
+						"<cite ref=\"Genesis 3:8\">Ib.</cite> <he>מתהלך לו</he> (ed. <he>מת הלך</he>, corr. acc., v. Matt. K.) is he (Adam) going away (from God)?, v. <cite ref=\"A03423\"><he>אתמהא</he></cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

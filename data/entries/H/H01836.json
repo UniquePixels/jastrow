@@ -1,0 +1,38 @@
+{
+	"id": "H01836",
+	"slug": "חשיך-3",
+	"headword": {
+		"text": "חֲשִׁיךְ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲשִׁיכָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 510,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חֲשַׁךְ</he> II) <i>lean, poor; luckless</i> (interch. with: <cite ref=\"H01821\"><he>חֲשׁוֹךְ</he></cite>, <cite ref=\"H01821\"><he>חֲשׁוֹכָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 18:12\">Targ. Ez. XVIII, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 13:4\">Targ. II Sam. XIII, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 72:13\">Targ. Ps. LXXII, 13</cite>; a. fr.—",
+				"<cite ref=\"Eichah Rabbah 1:31\">Lam. R. to I, 5</cite> <he>ולמה ח׳ כן</he> and why is he so reduced?—",
+				"<cite ref=\"Eichah Rabbah 3:20\">Ib. to III, 20</cite> (prov.) <he>עד דשמינא חשיך חשיכא מיית</he> Ar. (Var <he>כחיש כחישא</he>; ed. … <he>קטין … דקטינא …</he>) while the fat one becomes lean, the lean one is dead (retribution to the oppressor comes too late). ",
+				"<cite ref=\"Midrash Tehillim 22:16\">Midr. Till. to Ps. XXII, 7</cite>, v. <cite ref=\"H00648\"><he>חַי</he></cite> ch.—Pl. <he>חֲשִׁיכַיָּא</he>, <he>חֲשׁוּכַּ׳</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 52:15\">Targ. Jer. LII, 15</cite>, sq.—",
+				"<cite ref=\"Sukkah 44b:6\">Succ. 44ᵇ</cite> <he>לחשוכיא</he> (Ms. M. 2 <he>לחסיניא</he>, read <he>לחֲסִיכַ׳</he>) to the poor.—<i>Fem.</i> <cite ref=\"H01835\"><he>חֲשִׁיכָא</he></cite>, <cite ref=\"H01839\"><he>חֲשִׁיכְתָּא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 54:11\">Targ. Is. LIV, 11</cite>.—Pl. <cite ref=\"H01838\"><he>חֲשִׁיכַן</he></cite>, <cite ref=\"H01839\"><he>חֲשִׁיכָתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 41:19\">Targ. Y. Gen. XLI, 19</cite>, sq; v. <cite ref=\"H01374\"><he>חֲסִיךְ</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "E00023",
+	"slug": "הב",
+	"headword": {
+		"text": "הַב"
+	},
+	"page": {
+		"number": 328,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " abbrev. of 1) abbrev. of <cite ref=\"J00114\"><he>יְהַב</he></cite>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 76b:3\">Ab. Zar. 76ᵇ</cite> <he>והב ליה לבאטי</he> and gave it to B.—",
+				"<cite ref=\"Avodah Zarah 76b:3\">Ib.</cite> <he>והב ליה למר וכ׳</he> Ms. M. (ed. <cite ref=\"E00023\"><he>הב</he></cite>). Y. Ber. I, 2ᵈ bot. there are people <he>הָבִין וכ׳</he> who pay money for the permission to visit the palace."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " Imperat. of <cite ref=\"J00114\"><he>יְהַב</he></cite>. [<he>הב הב</he>, <cite ref=\"Aramaic Targum to Proverbs 30:15\">Targ. Prov. XXX, 15</cite> ed. Wil., v. <cite ref=\"E00030\"><he>הַבְהֵב</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

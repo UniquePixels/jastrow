@@ -1,0 +1,31 @@
+{
+	"id": "M01996",
+	"slug": "מספרת",
+	"headword": {
+		"text": "מִסְפֶּרֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִסְפּוֹרֶת"
+		}
+	],
+	"page": {
+		"number": 810,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01995\">preced.</cite>) <i>shearing knife, clipping tool</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:8\">Kel. XVI, 8</cite>, v. <cite ref=\"M01995\">preced.</cite> ",
+				"<cite ref=\"Moed Katan 17b\">M. Kat. 17ᵇ</cite>, a. e., v. <cite ref=\"M01995\">preced.</cite> ",
+				"<cite ref=\"Mishnah Kelim 13:1\">Kel. XIII, 1</cite> (Maim. <he>מספו׳</he>, ed. Dehr. <cite ref=\"M01996\"><he>מספרת</he></cite>). ",
+				"<cite ref=\"Tosefta Keilim Metsia 3:4\">Tosef. Kel. B. Mets. III, 4</cite> <he>מ׳ של פרקים</he> shears consisting of separable blades; <cite ref=\"Shabbat 48b:10\">Sabb. 48ᵇ</cite>; <cite ref=\"Shabbat 58b:11\">58ᵇ</cite> <he>מספו׳</he>. ",
+				"<cite ref=\"Tosefta Beitsah 3:19\">Tosef. Bets. III, 19</cite>, v. <cite ref=\"O01415\"><he>סָפַר</he></cite>; a. e."
+			]
+		}
+	]
+}

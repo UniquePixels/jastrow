@@ -1,0 +1,34 @@
+{
+	"id": "Q00445",
+	"slug": "פחד-2",
+	"headword": {
+		"text": "פְּחַד"
+	},
+	"page": {
+		"number": 1151,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"Q00444\">same</cite> Part. pass. <cite ref=\"Q00445\"><he>פָּחִיד</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:66\">Targ. O. Deut. XXVIII, 66</cite> (ed. Berl. a. oth. <he>תוה</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּחֵיד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q00444\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Berakhot 60a:18\">Ber. 60ᵃ</cite> <he>חזייה דקא מְפַחֵיד</he> (Ms. F. <cite ref=\"Q00445\"><he>פָּחִיד</he></cite>) he saw that he was in fear; <cite ref=\"Berakhot 60a:18\">ib.</cite> <he>מ״ט קא מְפַחְדַּת</he> Ms. M. (differ. in ed.) why art thou afraid?; <cite ref=\"Yalkut Shimoni on Nach 897:1\">Yalk. Job 897</cite>; Yalk. Is. l. c. <he>מְפַחַד</he> (Part. pass.). ",
+						"<cite ref=\"Pesachim 111b\">Pes. 111ᵇ</cite>, sq. <he>מפחיד</he> will be in fear (without knowing why); a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

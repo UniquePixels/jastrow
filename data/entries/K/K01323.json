@@ -1,0 +1,24 @@
+{
+	"id": "K01323",
+	"slug": "כשפנית",
+	"headword": {
+		"text": "כַּשְׁפָּנִית"
+	},
+	"page": {
+		"number": 677,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01317\"><he>כָּשַׁף</he></cite>) <i>engaged in, inclined to sorcery</i>. . ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 7:13:2\">Y. Snh. VII, 25ᵈ</cite> top (ref. to <cite ref=\"Exodus 22:17\">Ex. XXII, 17</cite>) (the text speaks only of females) <he>מפני שרוב הנשים כ׳</he> because most women are inclined to sorcery (Bab. ib. 67ᵃ <he>מצויות בכשפים</he>, v. <cite ref=\"K01318\"><he>כֶּשֶׁף</he></cite>). ",
+				"<cite ref=\"Yoma 83b:18\">Yoma 83ᵇ</cite> <he>נשים כ׳</he> women engaged in sorcery. ",
+				"<cite ref=\"Pesachim 110a:14\">Pes. 110ᵃ</cite>, v. <cite ref=\"D01155\"><he>דִּשְׁתַּיְיהִי</he></cite>."
+			]
+		}
+	]
+}

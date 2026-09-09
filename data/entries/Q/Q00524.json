@@ -1,0 +1,25 @@
+{
+	"id": "Q00524",
+	"slug": "פטירה",
+	"headword": {
+		"text": "פְּטִירָה"
+	},
+	"page": {
+		"number": 1155,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00547\"><he>פָּטַר</he></cite>) <i>departure, dismissal</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 15b:13\">Bets. 15ᵇ</cite> <he>בשעת פְּטִירָתָן</he> when he dismissed them.—Esp. <i>departure from the world, death</i>. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 12:3:3\">Y. Keth. XII, beg. 34ᵈ</cite>; <cite ref=\"Jerusalem Talmud Kilayim 9:3:3\">Y. Kil. IX, 32ᵃ</cite> bot. <he>שלשה … בשעת פְּטִירָתוֹ וכ׳</he> Rabbi ordained three things when he departed this world. ",
+				"<cite ref=\"Devarim Rabbah 11:10\">Deut. R. s. 11</cite> (ref. to <cite ref=\"Micah 7:8\">Mic. VII, 8</cite>) <he>כי נפלתי מפטירתו של משה וכ׳</he> though I fell when Moses died, I arose again under Joshua’s administration. ",
+				"<cite ref=\"Pirkei Avot 6\">Ab. VI</cite> <he>בשעת פטירתו של אדם וכ׳</he> when man leaves this world, neither silver nor gold nor jewels escort him &c.; a. fr."
+			]
+		}
+	]
+}

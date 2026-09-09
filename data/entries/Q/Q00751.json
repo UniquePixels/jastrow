@@ -1,0 +1,54 @@
+{
+	"id": "Q00751",
+	"slug": "פיסוק",
+	"headword": {
+		"text": "פִּיסּוּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּסּ׳"
+		}
+	],
+	"page": {
+		"number": 1167,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01350\"><he>פָּסַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>separation, interruption, pause</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 53b:7\">Zeb. 53ᵇ</cite> <he>פ׳ ארבע מתנות</he> Rashi a. Ms. R. (v. Rabb. D. S. a. l. note 60; ed. <he>וארבע</he>) four separate manipulations (with pauses between them), v. <cite ref=\"M03089\"><he>מַתָּנָה</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 441:1\">Yalk. Lev. 441</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>פ׳ טַעֲמִים</he> (or sub. <he>טעמים</he>; v. <cite ref=\"I00611\"><he>טַעַם</he></cite>) <i>the division of words into clauses in accordance with the sense, punctuation</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 37a:7\">Ned. 37ᵃ</cite> <he>שכר פ׳</he> (<cite ref=\"I00001\"><he>ט׳</he></cite>) remuneration for teaching the values of punctuation signs or accents, v. <cite ref=\"Q01352\"><he>פֶּסֶק</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>setting a price on fruits before they are harvested</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 5:6:2\">Y. B. Mets. V, 10ᶜ</cite> bot. <he>בפ׳ איתפלגון</he> they differ as to permission to fix the price &c., opp. to <he>מלוה</he>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 5:6:2\">Ib.</cite> <he>אבל בפונדק</he> (corr. acc.)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " פ׳ רַגְלַיִם <i>spreading the feet</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 39b:1\">Keth. 39ᵇ</cite> <he>צער של פ׳ הר׳</he> the pain caused by forcing her feet apart (ref. to <cite ref=\"Ezekiel 16:25\">Ez. XVI, 25</cite> <he>ותפשקי</he>)."
+			],
+			"label": "4"
+		}
+	]
+}

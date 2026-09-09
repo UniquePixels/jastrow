@@ -1,0 +1,35 @@
+{
+	"id": "Q00420",
+	"slug": "פז",
+	"headword": {
+		"text": "פָּז"
+	},
+	"page": {
+		"number": 1149,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"Q00424\"><he>פָּזַז</he></cite>) [<i>glistening</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fine gold</i>; ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " name of <i>a jewel</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 44b\">Yoma 44ᵇ</cite> sq. (expl. <he>מוּפָז</he>, <cite ref=\"I Kings 10:18\">I Kings X, 18</cite>) <he>שדומה לַפָּז</he> because it resembles the <i>paz</i>. ",
+				"<cite ref=\"Midrash Tehillim 119:31\">Midr. Till. to Ps. CXIX, 127</cite> <he>לפי שאינו עומד … והפז ליום הדין</he> because money and gold and fine gold cannot stand up (as defense) on the day of judgment. ",
+				"<cite ref=\"Gittin 58a\">Gitt. 58ᵃ</cite>, v. <cite ref=\"C01098\"><he>גָּנָה</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 8:1\">Ex. R. s. 8</cite>; Tanḥ. Vaëra 8 <he>כתם פז</he> fine gold; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

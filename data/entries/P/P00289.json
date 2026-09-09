@@ -1,0 +1,35 @@
+{
+	"id": "P00289",
+	"slug": "עומרא",
+	"headword": {
+		"text": "עוּמְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָמְרָא"
+		}
+	],
+	"page": {
+		"number": 1053,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00288\">same</cite><i>sheaf</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 24:19\">Targ. Deut. XXIV, 19</cite>. (O. ed. Vien. <cite ref=\"P00922\"><he>עֻמְ׳</he></cite>)"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Omer</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 16:36\">Targ. Ex. XVI, 36</cite> (Y. ed. Vien. <cite ref=\"P00931\"><he>עַמְרָא</he></cite>; O. ed. Vien. <cite ref=\"P00922\"><he>עֻמְ׳</he></cite>). Ib. 33. ",
+				"<cite ref=\"Onkelos Leviticus 23:10\">Targ. Lev. XXIII, 10</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Hosea 3:2\">Targ. Hos. III, 2</cite> <he>עוֹמַר ארמותא</he> (<cite ref=\"P00288\"><he>עוֹמֶר</he></cite>) the Omer of the wave-offering (h. text <he>חֹמֶר</he>).—Pl. <he>עוּמְרִין</he>, <he>עֻמְרִין</he>. ",
+				"<cite ref=\"Onkelos Exodus 16:22\">Targ. Ex. XVI, 22</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "F00028",
+	"slug": "וחר",
+	"headword": {
+		"text": "וחר"
+	},
+	"page": {
+		"number": 372,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"A01045\"><he>אוֹחַר</he></cite>, <he>אַוְוחַר</he>; <i>Pa.</i> <he>ווחַר</he>, v. <cite ref=\"A01045\"><he>אֲחַר</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

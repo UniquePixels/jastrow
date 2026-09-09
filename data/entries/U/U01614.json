@@ -1,0 +1,24 @@
+{
+	"id": "U01614",
+	"slug": "ש״ס",
+	"headword": {
+		"text": "ש״ס"
+	},
+	"page": {
+		"number": 1608,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (abbrev. of <he>ש̇שה סדרים</he> the six orders of the Talmud) <i>the Talmud</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 5a:8\">Zeb. 5ᵃ</cite> <he>ונסיב לה הש״ס וכ׳</he> (Ms. M. <cite ref=\"V00602\"><he>תלמודא</he></cite>) and the Talmud applies to it the verse &c.; <cite ref=\"Moed Katan 3b\">M. Kat. 3ᵇ</cite> (Ms. M. <cite ref=\"V00602\"><he>תלמודא</he></cite>). ",
+				"<cite ref=\"Chagigah 10a\">Ḥag. 10ᵃ</cite> <he>אפילו מש״ס לש״ס</he> (Ms. M. <he>מתלמוד לתלמוד</he>) even he that goes from Talmud (Babli) to Talmud (Y’rushalmi). ",
+				"<cite ref=\"Tractate Soferim 15:5\">Treat. Sof’rim XV, 5</cite>, sq.; <cite ref=\"Tractate Soferim 15:7\">7</cite>, sq.; (<cite ref=\"Bava Metzia 33a\">B. Mets. 33ᵃ</cite>, sq. <cite ref=\"C01067\"><he>גמרא</he></cite>, Ms. M. <cite ref=\"V00601\"><he>תלמוד</he></cite>; Y. Hor. III, 48ᶜ top <cite ref=\"V00601\"><he>תלמוד</he></cite>); a. e."
+			]
+		}
+	]
+}

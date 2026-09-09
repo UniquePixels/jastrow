@@ -1,0 +1,35 @@
+{
+	"id": "A01518",
+	"slug": "איסתוורא",
+	"headword": {
+		"text": "אִיסְתְּוָורָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְתְּוִירָא"
+		},
+		{
+			"text": "אִיסְטְוָורָא"
+		},
+		{
+			"text": "אִיסְתַּוְרָא"
+		}
+	],
+	"page": {
+		"number": 57,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Ithpe. or Ispe. of <cite ref=\"O00408\"><he>סְוַר</he></cite> = <cite ref=\"U00533\"><he>שָׁוַר</he></cite> <i>to leap, stride;</i> b. h. <cite ref=\"A03274\"><he>אֲשׁוּר</he></cite>; cmp. <cite ref=\"A02494\"><he>אִסְפֶּירֶס</he></cite>) <i>ankle</i>, <i>foot-step</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 23:11\">Targ. Job XXIII, 11</cite>; a. e. ",
+				"<cite ref=\"Yevamot 103a:13\">Yeb. 103ᵃ</cite>; <cite ref=\"Arakhin 19b:37\">Arakh. 19ᵇ</cite> <he>האי אי׳ עד ארעא נחית</he> (Ar. <he>אסתוו׳</he>) what is called <i>ist’vira</i> (<i>ankle</i>, in an anatomical sense) goes down to the ground (the entire length of the foot from the ankle). ",
+				"<cite ref=\"Menachot 33a\">Men. 33ᵃ</cite>, <he>דעבידא כי אי׳</he> a door turning horizontally like the foot from the ankle.—Pl. <he>אִיסְתְּוָורִין</he>, <he>רֵי …</he> <cite ref=\"Aramaic Targum to Ecclesiastes 12:5\">Targ. Koh. XII, 5</cite>; a. fr. Cmp. <cite ref=\"A03046\"><he>אֲתוּרֵי</he></cite>."
+			]
+		}
+	]
+}

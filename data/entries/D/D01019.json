@@ -1,0 +1,27 @@
+{
+	"id": "D01019",
+	"slug": "דקר-3",
+	"headword": {
+		"text": "דֶּקֶר"
+	},
+	"page": {
+		"number": 320,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D01018\">preced.</cite>) <i>a pronged tool, mattock</i> (v. Sm. Ant. s. v. Raster). ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 1:2\">Bets. I, 2</cite>; <cite ref=\"Beitzah 7b:24\">7ᵇ</cite>. ",
+				"<cite ref=\"Beitzah 7b:24\">Ib.</cite> <he>ד׳ נעוץ וכ׳</he> the mattock was stuck into the ground on the eve of the Festival. ",
+				"<cite ref=\"Mishnah Sheviit 5:6\">Shebi. V, 6</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Sotah 2:2:10\">Y. Sot. II, 18ᵃ</cite> <he>יחפור בדֶקֶל</he> (twice).—Pl. <he>דְּקָרִים</he>, <he>דְּקָרִין</he>. <he>מֵי ד׳</he> <i>apurgative water</i>, v. <cite ref=\"D01017\"><he>דָּקַר</he></cite> a. <cite ref=\"D01009\"><he>דֶּקֶל</he></cite>. ",
+				"<cite ref=\"Shabbat 110a:6\">Sabb. 110ᵃ</cite> (differences about spelling <he>דקר׳</he> or <he>דקל׳</he>); Y. ib. XIV, 14ᶜ; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Sukkah 1:1:7\">Y. Succ. I, 52ᵃ</cite> bot. <he>כמין ד׳</he> like prongs, v. <cite ref=\"D00339\"><he>דּוֹקְרָן</he></cite>."
+			]
+		}
+	]
+}

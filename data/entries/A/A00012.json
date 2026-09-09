@@ -1,0 +1,22 @@
+{
+	"id": "A00012",
+	"slug": "אב-1",
+	"headword": {
+		"text": "אַב־"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶבְ־"
+		}
+	],
+	"page": {
+		"number": 1,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " a prefix of words of Greek origin answering to αὐ-, au-, e.g. <cite ref=\"A00091\"><he>אבטומטוס</he></cite> = αὐτόματος; or to εὐ, e.g. <cite ref=\"A00027\"><he>אבגינוס</he></cite> = εὐγενής.",
+			"units": []
+		}
+	]
+}

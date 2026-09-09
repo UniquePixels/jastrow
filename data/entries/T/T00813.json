@@ -1,0 +1,31 @@
+{
+	"id": "T00813",
+	"slug": "רמיות",
+	"headword": {
+		"text": "רַמָּיוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "רַמָּאוּת"
+		}
+	],
+	"page": {
+		"number": 1483,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00788\"><he>רַמַּאי</he></cite>) <i>deception, fraud</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 2:1:13\">Y. Taan. II, 65ᵇ</cite> <he>תשובה של ר׳</he> dishonest penitence; <cite ref=\"Bereishit Rabbah 9:5\">Gen. R. s. 9</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 3:1:2\">Y. Kidd. III, beg. 63ᶜ</cite> <he>נקנה המקח אלא שנהג מנהג ר׳</he> the transaction is legal, but he acted dishonestly; Bab. ",
+				"<cite ref=\"Kiddushin 58b:14\">Kidd. 58ᵇ</cite>; <cite ref=\"Tosefta Yevamot 4:4\">Tosef. Yeb. IV, 4</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 23\">Lev. R. s. 23</cite>, beg. (ref. to <cite ref=\"Genesis 28:5\">Gen. XXVIII, 5</cite>) <he>כללן כולן בר׳</he> the text includes them all under the attribute of dishonesty (<he>ארמי</he> = <cite ref=\"T00788\"><he>רמאי</he></cite>, v. <cite ref=\"T00788\"><he>רַמַּאי</he></cite>). ",
+				"<cite ref=\"Bava Batra 123a:19\">B. Bath. 123ᵃ</cite> <he>אחיו אני בר׳</he> I am his brother in cunning; a. e."
+			]
+		}
+	]
+}

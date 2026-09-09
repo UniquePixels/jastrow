@@ -1,0 +1,40 @@
+{
+	"id": "V00328",
+	"slug": "תושבחתא",
+	"headword": {
+		"text": "תּוּשְׁבַּחְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תּוּשְׁבְּחָא"
+		},
+		{
+			"text": "תֻּשְׁ׳"
+		}
+	],
+	"page": {
+		"number": 1659,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00327\">same</cite><i>praise, song, glory</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 44:13\">Targ. Is. XLIV, 13</cite> (h. text <cite ref=\"V00799\"><he>תפארת</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 63:14\">Ib. LXIII, 14</cite>, sq. ",
+				"<cite ref=\"Onkelos Deuteronomy 31:19\">Targ. Deut. XXXI, 19</cite> (h. text <cite ref=\"U01061\"><he>שירה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 51:1\">Targ. Ps. LI, 1</cite>; a. fr.—Pl. <cite ref=\"V00326\"><he>תּוּשְׁבְּחָן</he></cite>, <cite ref=\"V00328\"><he>תּוּשְׁבְּחָתָא</he></cite>, <cite ref=\"V00328\"><he>תֻּשְׁ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 15:11\">Targ. Ex. XV, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 27:11\">Targ. Ps. XXVII, 11</cite> (h. text <he>שררי</he>!); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>praiseworthy thing, treasure.—</i>Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 12:9\">Targ. II Chr. XII, 9</cite> <he>תּוּשְׁבַּחַת ריגוגא</he> desirable treasures."
+			],
+			"label": "2"
+		}
+	]
+}

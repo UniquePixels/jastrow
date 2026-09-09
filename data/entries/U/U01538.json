@@ -1,0 +1,26 @@
+{
+	"id": "U01538",
+	"slug": "שמרקעים",
+	"headword": {
+		"text": "שְׁמַרְקְעִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁמַרְקְעִין"
+		}
+	],
+	"page": {
+		"number": 1601,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>truffles</i> (Löw, Aram. Pfl., p. 303); a species of <i>very acrid onions</i> (Maim.). ",
+			"units": ["<cite ref=\"Mishnah Oktzin 3:2\">Uktsin III, 2</cite>."]
+		}
+	]
+}

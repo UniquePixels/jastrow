@@ -1,0 +1,29 @@
+{
+	"id": "N00694",
+	"slug": "ניניא-1",
+	"headword": {
+		"text": "נִינְיָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "נִנְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 905,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contr. of <he>נענע</he>, cmp. <cite ref=\"N00380\"><he>נוני</he></cite>) (<i>slender</i>) <i>hemp-cord, line</i> (v. P. Sm. 2362; 2387). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite>; s. 93 Ar. (ed. <cite ref=\"N00676\"><he>נִימָה</he></cite>).—[<cite ref=\"Vayikra Rabbah 22\">Lev. R. s. 22</cite>, beg. <he>ניניא</he>, read: <he>גִינַּיָּא</he>, v. <cite ref=\"O00552\"><he>סִיגָא</he></cite>.]"
+			]
+		}
+	]
+}

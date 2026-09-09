@@ -1,0 +1,30 @@
+{
+	"id": "M02503",
+	"slug": "מרביתא-1",
+	"headword": {
+		"text": "מַרְבִּיתָא"
+	},
+	"page": {
+		"number": 835,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"M00613\"><he>מוּרְבִּית</he> I</cite>, <i>a growing tree</i> (not yet fully developed). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 1:6:3\">Y. Shebi. I, end, 33ᶜ</cite>. <he>ואנן חמיי הדא מ׳ … אתיא בפירי</he> (not <he>בפורי</he>) and yet we see young fig trees come out with full fruit; [<cite ref=\"Jerusalem Talmud Orlah 1:3:5\">Y. Orl. I, 61ᵃ</cite>. <he>הדין מרויתא … לעוביה …</he>, a corrupt gloss transferred from Y. Shebi. l. c.]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>training, teaching</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 2:17\">Targ. Prov. II, 17</cite>, v. <cite ref=\"M02495\"><he>מַרְבְּיָינָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

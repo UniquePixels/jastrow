@@ -1,0 +1,22 @@
+{
+	"id": "P00135",
+	"slug": "עדי-8",
+	"headword": {
+		"text": "עָדֵי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1044,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"P00118\"><he>עָדָא</he> I</cite>) <i>here is, here are</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 42a:2\">Ber. 42ᵃ</cite> <he>ע׳ כפנא</he> this is (what we call) hunger. ",
+				"<cite ref=\"Gittin 45a:21\">Gitt. 45ᵃ</cite>, v. <cite ref=\"C00292\"><he>גּוּבְרָא</he></cite>. ",
+				"<cite ref=\"Menachot 34a:4\">Men. 34ᵃ</cite> <he>ע׳ פצימין</he> Ms. M. (ed. <he>פצימו</he>, read: <he>פצימיו</he>) here (these extremities of the wall) are its posts."
+			]
+		}
+	]
+}

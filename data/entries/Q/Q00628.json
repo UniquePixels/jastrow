@@ -1,0 +1,42 @@
+{
+	"id": "Q00628",
+	"slug": "פיטמא-1",
+	"headword": {
+		"text": "פִּיטְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּטְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1161,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00536\"><he>פְּטַם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fat, fattened animal</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 5:3\">Targ. I Kings V, 3</cite> (ed. Lag. <cite ref=\"Q00517\"><he>פטימא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 45:15\">Targ. Ez. XLV, 15</cite>, v. <cite ref=\"Q00517\"><he>פַּטִּים</he></cite>.—",
+				"<cite ref=\"Bava Kamma 47a:8\">B. Kam. 47ᵃ</cite> <he>פ׳ לבעל פרה</he> (Rashi <he>פטומא</he>) the additional value on account of fatness goes to the credit of the owner of the cow."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " f. = h. <cite ref=\"Q00500\"><he>פְּטוּמָה</he></cite>, <i>crammed bird</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 25\">Ex. R. s. 25</cite> (in Hebr. dict.) if one said, <he>אילולי היה לי פ׳ אחת … טעם פ׳</he> I wish I had a crammed bird to eat, it (the mannah in his mouth) had the taste of a crammed bird; <cite ref=\"Midrash Tehillim 23\">Midr. Till. to Ps. XXIII</cite> <he>יֵיעָשֶׂה פטומא</he> ed. Bub. (oth. ed. <he>עשה שמן פְּטוּמָה</he>, strike out <cite ref=\"U01496\"><he>שמן</he></cite>); <cite ref=\"Yalkut Shimoni on Nach 690:1\">Yalk. Ps. 690</cite> <he>פְּטוּמִין</he> <i>pl.</i>"
+			],
+			"label": "2"
+		}
+	]
+}

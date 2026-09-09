@@ -1,0 +1,31 @@
+{
+	"id": "K00876",
+	"slug": "כנרא-1",
+	"headword": {
+		"text": "כִּנָּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 651,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. name of <i>a shrubby tree, Christ’s-thorn</i> or <i>lote</i> (Greek adapt. κόνναρος, v. Löw, Pfl., p. 283 sq.). ",
+			"units": [
+				"<cite ref=\"Megillah 6a:2\">Meg. 6ᵃ</cite> Kinnereth is Ginnosar (Gennesareth) and why is it called Kinnereth <he>משום דמתיקי פירהא ככ׳</he> Ar. (v. Rabb. D. S. note 3) because its fruits are as sweet as those of the Kinnara; [Var. quot. in Ar. <he>כי קלא דכ׳</he> as sweet as the sound of the <i>lute</i>; Ms. O. <he>כקוליא דכ׳</he>]. Y. ib. I, 70ᵃ bot. (hebr.) <he>שהן מגדלות כִּינָּרִים</he> because they produce <i>Kinnars</i>. ",
+				"<cite ref=\"Pesachim 111b:5\">Pes. 111ᵇ</cite> <he>טולא דכינורא</he> Ms. M. (ed. <he>דכנדא</he>, Ms. M. 2 <he>דכנארא</he>; Ms. O. <he>דכנרא</he>, v. Rabb. D. S. a. l. note) the shade of a <i>K</i>. ",
+				"<cite ref=\"Bava Batra 48b:7\">B. Bath. 48ᵇ</cite> <he>תלא לפאפי אכי׳</he> Tabi suspended P. on a Kinnara (to force him to sell a field of his; for oth. opin., v. comment.).—Pl. <he>כִּינָּרֵי</he>, <cite ref=\"K00030\"><he>כִּי׳</he></cite>. ",
+				"<cite ref=\"Berakhot 40b:22\">Ber. 40ᵇ</cite> <he>רימין כ׳</he> Ar. a. Ms. F. (v. Rabb. D. S. a. l. note 30; ed. <he>כנדי</he>) <i>Rimin</i> (<cite ref=\"Mishnah Demai 1:1\">Dem. I, 1</cite>) means <i>K</i>."
+			]
+		}
+	]
+}

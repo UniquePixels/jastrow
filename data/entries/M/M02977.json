@@ -1,0 +1,32 @@
+{
+	"id": "M02977",
+	"slug": "משרי",
+	"headword": {
+		"text": "מַשְׁרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִ׳"
+		},
+		{
+			"text": "מֵישְׁרֵי"
+		}
+	],
+	"page": {
+		"number": 858,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01961\"><he>שְׁרֵי</he></cite>) <i>camp, resting place</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 32:9\">Targ. Y. Gen. XXXII, 9</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 19:5\">Targ. Ps. XIX, 5</cite> <cite ref=\"M02973\"><he>מַשְׁרְוֵי</he></cite> (<cite ref=\"M02973\"><he>מְשַׁרְוֵי</he></cite>; Ms. <cite ref=\"M01318\"><he>מֵישְׁרָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 13:22\">Targ. Is. XIII, 22</cite> <cite ref=\"M01319\"><he>מֵישְׁרֵי</he></cite>; a. fr.—Pl. <he>מַשִּׁרְוַיָין</he>, v. <cite ref=\"M02978\">next w.</cite>"
+			]
+		}
+	]
+}

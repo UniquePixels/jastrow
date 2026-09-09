@@ -1,0 +1,34 @@
+{
+	"id": "B00397",
+	"slug": "בושלא",
+	"headword": {
+		"text": "בּוּשְׁלָא"
+	},
+	"page": {
+		"number": 151,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בשל</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>warm and moist</i> (of a fresh stripped hide). ",
+			"units": [
+				"<cite ref=\"Shabbat 79a\">Sabb. 79ᵃ</cite> <he>התם בבו׳</he> Ar. (ed. <he>בבישולה</he>, early ed. <he>בבושלה</he>, v. Rabb. D. S. a. l. note) there a fresh hide is meant (not dry enough for the first process of tanning)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "Pl. <he>בּוּשְׁלֵי</he> <i>ripened fruits</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 40b:23\">Ber. 40ᵇ</cite> <he>ב׳ כומרא</he> Ar. (ed. <cite ref=\"K00819\"><he>כמרא</he></cite>) figs ripened by shrinking (placed in the ground, Ar., overripe through exposure to the sun; Rashi)."
+			],
+			"label": "2"
+		}
+	]
+}

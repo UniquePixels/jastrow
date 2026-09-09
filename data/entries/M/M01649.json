@@ -1,0 +1,29 @@
+{
+	"id": "M01649",
+	"slug": "ממולאי",
+	"headword": {
+		"text": "מַמּוּלָּאֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוּלָּאֵי",
+			"reconstructed": true
+		}
+	],
+	"page": {
+		"number": 794,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>מָלַל</he> II) <i>frail, short-lived people</i> (by the way of play on <cite ref=\"M01671\"><he>מַמְלָא</he></cite>, q. v.).—<i>Fem.</i> pl. <he>מַמּוּלְיָאתָא</he>, (<he>מוּלָּיָ׳</he>) <he>מַמּוּלְיָיתָא</he> (with <cite ref=\"M01180\"><he>מִילֵּי</he></cite>) <i>frail words</i> (untenable arguments). ",
+			"units": [
+				"<cite ref=\"Yevamot 75b:4\">Yeb. 75ᵇ</cite> sq. <he>משום דאַתּוּ מ׳ אמריתו מילי מ׳</he> because you are frail, you speak frail words; (Var. <he>משום דאתיתו מִמּוּלָּאֵי … מוּלָּיָתָא</he> because you are descendants of &c.); <cite ref=\"Bava Metzia 109a:12\">B. Mets. 109ᵃ</cite>; <cite ref=\"Bava Batra 137b:7\">B. Bath. 137ᵇ</cite> (Ms. R. <he>דאַתּוּן</he>); <cite ref=\"Bava Batra 151a:6\">151ᵃ</cite> (ed. Pes. <he>מַמּוּלְיָאתָה</he>)."
+			]
+		}
+	]
+}

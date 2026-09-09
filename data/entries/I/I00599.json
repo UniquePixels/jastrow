@@ -1,0 +1,37 @@
+{
+	"id": "I00599",
+	"slug": "טעות",
+	"headword": {
+		"text": "טָעוּת"
+	},
+	"page": {
+		"number": 542,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00594\"><he>טָעָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>error, mistake</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 15b:16\">B. Mets. 15ᵇ</cite>; <cite ref=\"Ketubot 51a:14\">Keth. 51ᵃ</cite>, a. fr. <he>ט׳ סופר</he>, v. <cite ref=\"A01052\"><he>אַחֲרָיוּת</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 99:8\">Gen. R. s. 99</cite>, v. <cite ref=\"O00440\"><he>סוּתָה</he></cite>.—",
+				"<cite ref=\"Bava Kamma 113b:10\">B. Kam. 113ᵇ</cite> <he>וטָעוּתוֹ</he> (v. Rabb. D. S. a. l.) and a gain through his (the gentile’s) mistake; a. fr.—Pl. <he>טָעִיּוֹת</he> <cite ref=\"Makkot 12a:2\">Macc. 12ᵃ</cite>. ",
+				"<cite ref=\"Menachot 29b:14\">Men. 29ᵇ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"I00595\"><he>טָעוּ</he></cite>) <i>idol</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 131:2\">Sifré Num. 131</cite> <he>אוי לכם ולטָעוּתְכֶם</he> woe is unto you and your idol; <cite ref=\"Jerusalem Talmud Sanhedrin 10:2:15\">Y. Snh. X, 28ᵈ</cite> <he>אין לכם וכ׳</he> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "U01297",
+	"slug": "שליא-4",
+	"headword": {
+		"text": "שִׁלְיָא",
+		"disambiguator": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		},
+		{
+			"text": "שִׁלְיָה"
+		}
+	],
+	"page": {
+		"number": 1582,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; שָׁלָה II; cmp. <cite ref=\"U01296\">preced.</cite>)<i>after-birth, placenta</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 3:4\">Nidd. III, 4</cite> (Ar., everywhere, <he>שליה</he>; Y. ed. <he>שילייא</he>, <cite ref=\"U00948\"><he>שיליא</he></cite>). Tosef. ib. IV, 9; <cite ref=\"Niddah 26a:23\">Nidd. 26ᵃ</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 35:7\">Lev. R. s. 35</cite> <he>נוח לו שנהפכה שִׁלְיָתוֹ וכ׳</he> it would have been better for him, had the after-birth in which he lay been turned over his face; <cite ref=\"Jerusalem Talmud Berakhot 1:2:9\">Y. Ber. I, 3ᵇ</cite> <he>שיליתו</he>; <cite ref=\"Avot D'Rabbi Natan 29:3\">Ab. d’R. N. ch. XXIX</cite> <he>שלייתו של אמו</he> (read: <he>שִׁלְיָיתָהּ</he>, or omit <he>של אמו</he>); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 2:2:4\">Y. Maas. Sh. II, 53ᶜ</cite> <he>חוץ משליתה</he>, v. <cite ref=\"U01974\"><he>שְׁרִיָּיה</he></cite>.—Ch. v. <cite ref=\"U01338\"><he>שִׁלְיְתָא</he></cite>."
+			]
+		}
+	]
+}

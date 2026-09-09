@@ -1,0 +1,27 @@
+{
+	"id": "N01146",
+	"slug": "נצר-5",
+	"headword": {
+		"text": "נֵצֶר",
+		"homograph": 3
+	},
+	"page": {
+		"number": 930,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"M02354\"><he>מֵצַר</he> II</cite>) [<i>twist</i>,] <i>willow, wicker</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 58a:11\">Erub. 58ᵃ</cite> (<cite ref=\"H00084\"><he>חבל</he></cite>) <he>של נ׳</he> a wicker rope.—Pl. <he>נְצָרִים</he>. ",
+				"<cite ref=\"Eruvin 58a:11\">Ib.</cite> ",
+				"<cite ref=\"Mishnah Kelim 20:2\">Kel. XX, 2</cite> <he>כלי נ׳</he> (ed. Dehr. <he>נְסָרִים</he>) vessels of wickerwork. ",
+				"<cite ref=\"Mishnah Bikkurim 3:8\">Bicc. III, 8</cite> <he>סלי נ׳</he> (Ms. M. <he>נס׳</he>) wicker baskets; a. fr.—",
+				"<cite ref=\"Tosefta Tahorot 11:16\">Tosef. Toh. XI, 16</cite> <cite ref=\"N00404\"><he>נוֹצְרִין</he></cite>."
+			]
+		}
+	]
+}

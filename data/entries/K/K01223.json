@@ -1,0 +1,26 @@
+{
+	"id": "K01223",
+	"slug": "כרכש-2",
+	"headword": {
+		"text": "כַּרְכֵּשׁ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּרְכֵּישׁ",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 670,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " = <cite ref=\"K01311\"><he>כַּשְׁכֵּשׁ</he></cite> <i>to knock, strike</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 77b:8\">Sabb. 77ᵇ</cite> <he>לכַרְכּוּשֵׁי</he> ed. (Ms. M. <he>לכַשְׁכּוּשֵׁי</he>), v. <cite ref=\"K01311\"><he>כַּשְׁכֵּשׁ</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "B00952",
+	"slug": "בנייתא",
+	"headword": {
+		"text": "בִּנְיָיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּנְיָתָא"
+		}
+	],
+	"page": {
+		"number": 177,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"B00942\"><he>בני</he></cite>; cmp. <he>ארב</he>, <he>ארג</he> a. denom.) <i>net-work, veils, curtains</i> &c. ",
+			"units": [
+				"<cite ref=\"Berakhot 61a:17\">Ber. 61ᵃ</cite>; <cite ref=\"Shabbat 95a:1\">Sabb. 95ᵃ</cite>; <cite ref=\"Eruvin 18a:27\">Erub. 18ᵃ</cite>; <cite ref=\"Niddah 45b:27\">Nidd. 45ᵇ</cite> <he>שכן בכרכי הים קורין לקלעייתא ב׳</he> (v. Rabb. D. S. a. l. for vers.) at the sea-towns they call all net-works <i>binyatha</i>; <cite ref=\"Kohelet Rabbah 7:2\">Koh. R. to VII, 2</cite> <cite ref=\"B00945\"><he>בִּנְיָאתָא</he></cite> (Var. <cite ref=\"B00938\"><he>בנאיתא</he></cite>)."
+			]
+		}
+	]
+}

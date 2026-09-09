@@ -1,0 +1,28 @@
+{
+	"id": "A03228",
+	"slug": "ארפכס",
+	"headword": {
+		"text": "אַרְפְּכָס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲפַרְכָּס"
+		}
+	],
+	"page": {
+		"number": 125,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἅρπαξ = ὑδράρπαξ, ἁρπάγιον) <i>clepsydra, water-clock</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 14:8\">Kel. XIV, 8</cite>; <cite ref=\"Mishnah Kelim 30:4\">XXX, 4</cite> <he>אר׳</he> Ar. (ed. <cite ref=\"A01567\"><he>אפ׳</he></cite>). ",
+				"<cite ref=\"Bereishit Rabbah 4:4\">Gen. R. s. 4</cite> <he>הבא אר׳</he> get me a clepsydra."
+			]
+		}
+	]
+}

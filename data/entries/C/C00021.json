@@ -1,0 +1,40 @@
+{
+	"id": "C00021",
+	"slug": "גאל-1",
+	"headword": {
+		"text": "גָּאַל"
+	},
+	"page": {
+		"number": 202,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to cover</i>, cmp. ",
+			"units": [
+				"<cite ref=\"Job 3:4\">Job III, 4</cite>;] <i>to ransom, redeem, protect</i>. ",
+				"<cite ref=\"Mishnah Pesachim 10:6\">Pes. X, 6</cite> <he>גְּאָלָנוּ וג׳ וכ׳</he> has protected us and redeemed our ancestors. ",
+				"<cite ref=\"Bereishit Rabbah 78\">Gen. R. s. 78</cite>, beg.; <cite ref=\"Midrash Tehillim 25\">Midr. Till. to Ps. XXV</cite>, beg.; <cite ref=\"Eichah Rabbah 3\">Lam. R. to III, 23</cite> <he>אמונתך רבה לְגָאֳלֵנוּ</he> thy faith is great enough to redeem us. ",
+				"<cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite>.—",
+				"<cite ref=\"Kiddushin 20b:22\">Kidd. 20ᵇ</cite> <he>לוה וגוֹאֵל וגוֹאֵל לחצאין</he> he may borrow money and redeem his property (from the sanctuary), and may redeem in instalments. ",
+				"<cite ref=\"Midrash Tehillim 31:5\">Midr. Till. to Ps. XXXI</cite>, beg. <he>גְּאַל אותנו</he> redeem us; a. fr.—V. <cite ref=\"C00266\"><he>גּוֹאֵל</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִגְאַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be redeemed</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 9a:25\">Ber. 9ᵃ</cite> <he>כְּשֶׁנִּגְאֲלוּ ישראל וכ׳</he> when the Israelites were redeemed from Epypt. ",
+						"<cite ref=\"Kiddushin 15b:1\">Kidd. 15ᵇ</cite> (ref. to <cite ref=\"Leviticus 25:54\">Lev. XXV, 54</cite>) <he>באלה הוא נ׳ וכ׳</he> through those (his relations) he may be redeemed, but he is not freed after six years of service (<cite ref=\"Exodus 21:2\">Ex. XXI, 2</cite>). Ib. 20ᵇ when the jubilee year arrives <he>ולא נִגְאֲלָה</he> and it (the field) has not been redeemed. Ib. <he>יפה כחו לִיגָּאֵל מיד</he> it has the privilege of immediate redemption. ",
+						"<cite ref=\"Shabbat 118b:4\">Sabb. 118ᵇ</cite> <he>מיד נִגְאָלִין</he> they would be released (from captivity) at once. Y. Taan. II, 65ᵈ top <he>וסופן להִיגָּאֵל וכ׳</he> and they will be released &c.; <cite ref=\"Bereishit Rabbah 56\">Gen. R. s. 56</cite> <he>לִיגָּאֵל</he>; a. fr.—[In b. h. <he>ג׳</he> also: <i>to cover</i> (with blood), <i>stain, make repulsive</i>.]. V. <he>געל</he>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

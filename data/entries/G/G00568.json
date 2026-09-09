@@ -1,0 +1,22 @@
+{
+	"id": "G00568",
+	"slug": "זנדוקא",
+	"headword": {
+		"text": "זַנְדּוּקָא"
+	},
+	"page": {
+		"number": 406,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Syr. <he>זנדיקא</he>, P. Sm. 1141; = <he>זזדוקא</he>, reduplic. of <he>זקק</he>, cmp. <cite ref=\"G00406\"><he>זִיקָא</he> III</cite>; for inserted <cite ref=\"N00001\"><he>נ</he></cite> cmp <cite ref=\"M00722\"><he>מזדנדזין</he></cite> s. v. <he>זעזע</he>) <i>jailer</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 22a:5\">Taan. 22ᵃ</cite> <he>ז׳ אנא</he> Ar. (ed., a. Ar. ed. Koh. <cite ref=\"G00568\"><he>זַנְדּוּקָנָא</he></cite>, v. Rabb. D. S. a. l. note 50; Ms. M. <cite ref=\"B00148\"><he>בְּדִיקְנָאָה</he></cite>) I am a jailer."
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"id": "A01112",
+	"slug": "אי-4",
+	"headword": {
+		"text": "אִי",
+		"homograph": 3
+	},
+	"page": {
+		"number": 43,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= h. <cite ref=\"A01363\"><he>אֵין</he></cite>) <i>not</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 4:5\">Git. IV, 5</cite> <he>אי אפשר</he> it is impossible. ",
+				"<cite ref=\"Mishnah Ketubot 12:3\">Keth. XII, 3</cite> <he>אי אפשי</he> I want not; a. fr."
+			]
+		}
+	]
+}

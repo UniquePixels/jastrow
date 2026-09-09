@@ -1,0 +1,37 @@
+{
+	"id": "A00714",
+	"slug": "אומת",
+	"headword": {
+		"text": "אוּמָּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּמָּתָא"
+		},
+		{
+			"text": "אוּמָּא"
+		}
+	],
+	"page": {
+		"number": 27,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"A00692\"><he>אוּמָּה</he></cite><i>people</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 29:12\">Targ. Y. Deut. XXIX, 12</cite>; a. e. ",
+				"<cite ref=\"Midrash Mishlei 30:7\">Midr. Prov. to XXX, 28</cite>; a. e.—<i>Pl.</i> <he>אוּמִּין</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 25:3\">Targ. Y. Gen. XXV, 3</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 61\">Gen. R. s. 61</cite>. <he>אוּמַּיָּא־</he>, <he>אוּמַּיָּיא</he>; <he>אוּמֵּי</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 118:1\">Targ. Ps. CXVIII, 1</cite>.—",
+				"<cite ref=\"Midrash Tehillim 9:8\">Midr. Till. to Ps. IX, 6</cite> <he>שנאיהון דא׳</he> those hated by the nations.—",
+				"<cite ref=\"Shabbat 32a\">Sabb. 32ᵃ</cite>.—<cite ref=\"A00714\"><he>אוּמָּאתָא</he></cite>, <cite ref=\"A00714\"><he>אוּמָּתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 24:24\">Targ. Prov. XXIV, 24</cite>."
+			]
+		}
+	]
+}

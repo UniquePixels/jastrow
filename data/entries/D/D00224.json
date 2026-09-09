@@ -1,0 +1,58 @@
+{
+	"id": "D00224",
+	"slug": "דוח-1",
+	"headword": {
+		"text": "דּוּחַ"
+	},
+	"page": {
+		"number": 284,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"N00220\"><he>הֵדִיחַ</he></cite> (b. h.; v. <cite ref=\"D00398\"><he>דְּחַהּ</he></cite>) [<i>to brighten</i>,] <i>to wash off, cleanse, rinse</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Mikvaot 7:3\">Mikv. VII, 3</cite>. ",
+						"<cite ref=\"Chullin 8b\">Ḥull. 8ᵇ</cite> <cite ref=\"M00286\"><he>מֵדִיחַ</he></cite> he must wash the meat (at the place where the knife passed); a. fr.—",
+						"<cite ref=\"Mishnah Tamid 4:2\">Tam. IV, 2</cite> <he>בית המְדִיחִין</he> the washers’ hall where the offering meat was washed.—",
+						"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:5:3\">Y. Ab. Zar. III, 42ᵈ</cite> bot. <he>לָדִיחַ</he> = <he>לְהָדִיחַ</he>."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּדָח"],
+			"senses": [
+				{
+					"gloss": "<i>to be washed, cleansed</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Makhshirin 4:3\">Makhsh. IV, 3</cite> <he>בשביל שתּוּדַח</he> in order that the dish may be washed by the rain; <cite ref=\"Chullin 16a\">Ḥull. 16ᵃ</cite>; <cite ref=\"Shabbat 11b\">Sabb. 11ᵇ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נִידּוֹחַ", "נָדוֹחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be washed away</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 7:1\">Koh. R. to VII, 1</cite>; Midr. Sam. ch. XXIII."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

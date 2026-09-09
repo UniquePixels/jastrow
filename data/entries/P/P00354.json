@@ -1,0 +1,36 @@
+{
+	"id": "P00354",
+	"slug": "עורדען",
+	"headword": {
+		"text": "עוּרְדְּעָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּרְדַּעְנָא"
+		}
+	],
+	"page": {
+		"number": 1058,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(h. equivalent <cite ref=\"R00718\"><he>צְפַרְדֵּעַ</he></cite>)<i>frog</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 10:7\">Gen. R. s. 10</cite> <he>חמי חד ע׳ וכ׳</he> saw a frog carry a scorpion &c.; <cite ref=\"Yalkut Shimoni on Nach 972:1\">Yalk. Koh. 972</cite>; (<cite ref=\"Kohelet Rabbah 5:8\">Koh. R. to V, 8</cite>; <cite ref=\"Vayikra Rabbah 22\">Lev. R. s. 22</cite>, v. <cite ref=\"A00856\"><he>אוּרְיְּעָה</he></cite>).—Pl. <he>עוּרְדְּעָנַיָּא</he>. ",
+				"<cite ref=\"Onkelos Exodus 7:27\">Targ. Ex. VII, 27</cite>, sq. (ed. Vien. O. <cite ref=\"P00681\"><he>עֻרְ׳</he></cite>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " f. <i>a disease of the tongue</i> (<i>rana</i>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:4\">Y. Ab. Zar. II, 40ᵈ</cite> top, v. <cite ref=\"A00858\"><he>אוּרְדַּעְנָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

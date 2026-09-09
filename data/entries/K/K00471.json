@@ -1,0 +1,24 @@
+{
+	"id": "K00471",
+	"slug": "כחשא",
+	"headword": {
+		"text": "כַּחֲשָׁא"
+	},
+	"page": {
+		"number": 629,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00470\">preced.</cite>) <i>reduction, deterioration</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 59a:12\">B. Kam. 59ᵃ</cite> <he>כַּחַשׁ גופנא</he> the weakening of the vine (by allowing the grapes to remain on it until they are ripe). ",
+				"<cite ref=\"Bava Metzia 101b:2\">B. Mets. 101ᵇ</cite> <he>משום כ׳ דארעא</he> because he exhausted the soil by planting trees. ",
+				"<cite ref=\"Bava Metzia 104b:12\">Ib. 104ᵇ</cite> <he>מנכי ליה כ׳ דארעא</he> he must allow him a reduction of his rent in consideration of the lesser exhaustion of the soil (by having planted wheat in place of poppy)."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "H00821",
+	"slug": "חינון",
+	"headword": {
+		"text": "חִינּוּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִנּ׳"
+		}
+	],
+	"page": {
+		"number": 458,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01311\"><he>חָנַן</he></cite>) <i>prayer for grace</i>, <i>ḥinnun</i>, one of the expressions for prayer, v. <cite ref=\"G00614\"><he>זְעָקָה</he></cite>. Sifré Deut. s. 26 (ref. to <cite ref=\"Deuteronomy 3:23\">Deut. III, 23</cite>); (<cite ref=\"Devarim Rabbah 2\">Deut. R. s. 2</cite> <cite ref=\"V00381\"><he>תחנונים</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 157\">Yalk. Sam. 157</cite>; <cite ref=\"Yalkut Shimoni on Torah 811\">Yalk. Deut. 811</cite> <cite ref=\"V00380\"><he>תחנה</he></cite>).",
+			"units": []
+		}
+	]
+}

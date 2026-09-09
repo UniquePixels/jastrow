@@ -1,0 +1,62 @@
+{
+	"id": "J00526",
+	"slug": "יצחק",
+	"headword": {
+		"text": "יִצְחָק"
+	},
+	"page": {
+		"number": 588,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Isaac</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " son of Abraham. ",
+			"units": [
+				"<cite ref=\"Berakhot 26b:6\">Ber. 26ᵇ</cite>; <cite ref=\"Bamidbar Rabbah 2:26\">Num. R. s. 2</cite> <he>י׳ קבע וכ׳</he> I. introduced the afternoon prayer (Minḥah). ",
+				"<cite ref=\"Bereishit Rabbah 19:8\">Gen. R. s. 19</cite>; a. v. fr.—",
+				"<cite ref=\"Rosh Hashanah 16a:17\">R. Hash. 16ᵃ</cite>, a. fr. <he>עקידת י׳</he> the intended offering up of Isaac.—<he>אפרו של י׳</he>, v. <cite ref=\"A02793\"><he>אֵפֶר</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " R. I., a. Tannai. ",
+			"units": [
+				"<cite ref=\"Sukkah 25b:1\">Succ. 25ᵇ</cite>; <cite ref=\"Sifrei Bamidbar 68:1\">Sifré Num. 68</cite>. ",
+				"<cite ref=\"Makkot 13b:16\">Macc. 13ᵇ</cite>; a. fr. (v. Fr. Darkhé Mish. p. 203).—3) name of many Amoraim, esp. "
+			],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " R. I. Roba or Rabbah (the Elder). Y. Maas. Sh. V, beg. 55ᵈ. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Berakhot 5:2:9\">Y. Ber. V, 9ᵇ</cite> bot. Bab. ",
+						"<cite ref=\"Berakhot 33b:10\">Ber. 33ᵇ</cite> <he>ר׳ י׳ בר אבדימי</he>; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " mate of R. Imi. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Kilayim 3:1:3\">Y. Kil. III, beg. 28ᶜ</cite>; a. fr.—",
+						"<cite ref=\"Taanit 5b:10\">Taan. 5ᵇ</cite>; <cite ref=\"Megillah 15a:18\">Meg. 15ᵃ</cite>; a. fr.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " R. I. of Magdala. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 25a:9\">B. Mets. 25ᵃ</cite>. ",
+						"<cite ref=\"Shabbat 139a:12\">Sabb. 139ᵃ</cite>. ",
+						"<cite ref=\"Yoma 81b:9\">Yoma 81ᵇ</cite>.—4) I. Saḥora (the merchant). ",
+						"<cite ref=\"Jerusalem Talmud Berakhot 4:1:26\">Y. Ber. IV, 7ᶜ</cite> bot.; <cite ref=\"Jerusalem Talmud Taanit 4:1:10\">Y. Taan.; IV, 67ᶜ</cite> bot.—V. Fr. M’bo, p. 105ᵇ sq."
+					],
+					"label": "c"
+				}
+			]
+		}
+	]
+}

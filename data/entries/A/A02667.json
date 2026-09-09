@@ -1,0 +1,56 @@
+{
+	"id": "A02667",
+	"slug": "אפי-2",
+	"headword": {
+		"text": "אפי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אָפָה"
+		}
+	],
+	"page": {
+		"number": 102,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<cite ref=\"A02595\"><he>אף</he></cite> , v. <cite ref=\"A02770\"><he>אפף</he></cite>) [<i>to heat, darken</i>, cmp. <cite ref=\"H01212\"><he>חמץ</he></cite>,] <i>to bake</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 5:5\">Keth. V, 5</cite> <he>ואוֹפָה</he> and must bake. ",
+				"<cite ref=\"Pesachim 116a\">Pes. 116ᵃ</cite>. Y. Ab. Zar. V, 45ᵃ bot. <he>א׳ ג׳ תנורים</he> baked three ovenfulls of bread; a. fr.—Part. pass. <he>אָפוּי</he> baked, (as a noun) <i>pastry</i>. ",
+				"<cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite> <he>א׳ אחד וכ׳</he> (some ed. <cite ref=\"P01059\"><he>עפוי</he></cite>; Pesik. Eth Korb. p. 58ᵇ, Yalk. Num. 777 <cite ref=\"U00074\"><he>שבוי</he></cite> corr. acc.) I charged thee with the furnishing of one kind of pastry (to supply the governor’s household).—Pl. <he>אֲפוּיִים</he>. Mekh. Bs’hall. Vay. 4.—Fem. <he>אֲפוּיָה</he>. ",
+				"<cite ref=\"Bereishit Rabbah 67\">Gen. R. s. 67</cite> (play on <i>epho</i>, <cite ref=\"Genesis 27:37\">Gen. XXVII, 37</cite>) <he>פתך א׳</he> thy bread is baked, thou shalt have to eat without labor. ",
+				"<cite ref=\"Genesis 27:37\">Ib.</cite> <he>פורניתא א׳</he> (read <he>פורניתך</he>), v. <cite ref=\"Q00366\"><he>פּורָנִית</he></cite> a. <cite ref=\"Q00362\"><he>פּוֹרְנִי</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶאֱפָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be baked</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 4:11\">Cant. R. to IV, 11</cite> (play on <i>epho</i>, v. supra) <he>מי נ׳ בתנור זה</he> who is to be baked in this oven (hell)?—",
+						"<cite ref=\"Mishnah Menachot 11:1\">Men. XI, 1</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְאַפֶּה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"A02666\">same</cite>. Mekh. l. c. <he>היה מִתְאַפֶּה</he> became baked of itself. ",
+					"units": [
+						"<cite ref=\"Sifrei Bamidbar 89:1\">Sifré Num. 89</cite> <he>המתְאַפִּים בתנור</he> things baked in the oven."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

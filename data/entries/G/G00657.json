@@ -1,0 +1,32 @@
+{
+	"id": "G00657",
+	"slug": "זקת",
+	"headword": {
+		"text": "זקַת"
+	},
+	"altHeadwords": [
+		{
+			"text": "זַקְתָּא"
+		},
+		{
+			"text": "זִיקְ׳"
+		}
+	],
+	"page": {
+		"number": 411,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זקת</he> <i>to sting</i>, P. Sm. 1151; cmp. <cite ref=\"G00403\"><he>זֵיק</he></cite>, <cite ref=\"G00404\"><he>זִיקָא</he></cite>) <i>goad</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 13:21\">Targ. I Sam. XIII, 21</cite> (h. text <cite ref=\"D01033\"><he>דָּֽרְבָן</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 14:3\">Targ. Prov. XIV, 3</cite> (some ed. <he>וק׳</he>, corr. acc.).—Pl. <he>זִקְתִּין</he>, <cite ref=\"G00657\"><he>זִיקְ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 12:11\">Targ. Koh. XII, 11</cite>. [<cite ref=\"Bava Metzia 94a\">B. Mets. 94ᵃ</cite>, v. <cite ref=\"G00414\"><he>זִיקְתָא</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "M01894",
+	"slug": "מסחתא",
+	"headword": {
+		"text": "מִסְחֲתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְסַחְתָּא"
+		}
+	],
+	"page": {
+		"number": 805,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00924\"><he>נְסַח</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"M01888\"><he>מְסָחָא</he></cite> <i>balance, pair of scales</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 62:10\">Targ. Ps. LXII, 10</cite>.—Pl. <he>מִסְחָאתָא</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 6:2\">Targ. Job VI, 2</cite> ed. Lag. (ed. Wil. <cite ref=\"M01894\"><he>מְסַחְתָּא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 31:6\">Ib. XXXI, 6</cite> <he>מסאחתא</he> Ms. (corr. acc.; ed. <cite ref=\"M02860\"><he>מְשַׁחְתָּא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 25:15\">Targ. Y. Deut. XXV, 15</cite> (not <he>מִסְחַאֲ׳</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>weighing counter</i>, esp. <i>butcher’s stall</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 132b:7\">Ḥull. 132ᵇ</cite> <he>קבע מ׳</he> he put up a permanent stall for selling meat. ",
+				"<cite ref=\"Shevuot 42a:3\">Shebu. 42ᵃ</cite> <he>איתיבת אמ׳ וכ׳</he> you sat by the stall and took your (advanced) money as the meat was being sold. ",
+				"<cite ref=\"Bava Kamma 23b:15\">B. Kam. 23ᵇ</cite> <he>תיב אמ׳ וכ׳</he> (sell your animal to the butcher, and) sit by the stall and get your money (v. Rabb. D. S. a. l. note); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

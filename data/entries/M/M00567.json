@@ -1,0 +1,28 @@
+{
+	"id": "M00567",
+	"slug": "מופת-2",
+	"headword": {
+		"text": "מוֹפֵת",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹפְתָא"
+		}
+	],
+	"page": {
+		"number": 746,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M00566\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 13:2\">Targ. O. Deut. XIII, 2</cite>; a. e.—Pl. <he>מוֹפְתִין</he>, <he>מוֹפְתַיָּא</he>. ",
+				"<cite ref=\"Onkelos Deuteronomy 13:2\">Ib.</cite> ",
+				"<cite ref=\"Onkelos Deuteronomy 6:22\">Deut. VI, 22</cite>. ",
+				"<cite ref=\"Onkelos Exodus 4:21\">Targ. O. Ex. IV, 21</cite>; a. fr."
+			]
+		}
+	]
+}

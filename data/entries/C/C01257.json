@@ -1,0 +1,39 @@
+{
+	"id": "C01257",
+	"slug": "גרגר-3",
+	"headword": {
+		"text": "גַּרְגַּר"
+	},
+	"page": {
+		"number": 265,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <i>berry, grain, heap</i> (<i>of pebbles</i>). ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 7:4\">Peah VII, 4</cite> <he>ג׳ יחידי</he> single berries (not growing in bunches). ",
+				"<cite ref=\"Mishnah Sheviit 3:7\">Shebi. III, 7</cite> (Bart. <cite ref=\"C01249\"><he>גרגיר</he></cite>) a heap of pebbles.—",
+				"<cite ref=\"Tosefta Shabbat 2:8\">Tosef. Sabb. II, 8</cite> <he>גרגיר של מלח</he> a globule of salt. ",
+				"<cite ref=\"Mishnah Shabbat 6:5\">Sabb. VI, 5</cite> <he>בפלפל בגרגיר מלח</he> (Y. ed. <he>גרגר</he>, Bab. ed. 64ᵇ, 65ᵃ <he>גלגל</he>, Ms. O. <he>גרגר</he>).—Pl. <he>גַּרְגְּרִים</he>, <cite ref=\"C01261\"><he>גַּרְגְּרִין</he></cite>. ",
+				"<cite ref=\"Mishnah Peah 6:5\">Peah VI, 5</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"C01292\"><he>גְּרוֹגֶרֶת</he></cite>) <i>the shrivelled olive</i>. <i>Pl.</i> as above. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 8:3\">Men. VIII, 3</cite> (<cite ref=\"Menachot 85b:12\">85ᵇ</cite>), v. <cite ref=\"C01255\"><he>גִּרְגֵּר</he></cite>.—["
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>rocket</i>, v. <cite ref=\"C01249\"><he>גַּרְגִּיר</he></cite>.]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

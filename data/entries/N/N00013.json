@@ -1,0 +1,28 @@
+{
+	"id": "N00013",
+	"slug": "נאוה",
+	"headword": {
+		"text": "נָאוֶה"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָאוָה"
+		}
+	],
+	"page": {
+		"number": 865,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"N00012\">preced.</cite> wds.) <i>beautiful</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nazir 1:1\">Naz. I, 1</cite> <he>אהא נ׳</he> Y. ed. (Mish. ed. <cite ref=\"N00317\"><he>נָוֶה</he></cite>; Bab. ed. <cite ref=\"N00010\"><he>נָאֶה</he></cite>) I will be good-looking (let my hair grow, a substitute for <cite ref=\"N00447\"><he>נָזִיר</he></cite>, v. <cite ref=\"K00566\"><he>כִּינּוּי</he></cite>). ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:5:2\">Cant. R. to I, 5</cite> <he>ונ׳ במעשה אבותי</he> and I am beautiful (worthy) through the deeds of my fathers; <he>ונ׳ בפני קוני</he> beautiful in the sight of my Master; <he>ונ׳ אני במדבר</he> and I proved worthy in the desert; a. fr."
+			]
+		}
+	]
+}

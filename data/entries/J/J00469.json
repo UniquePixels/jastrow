@@ -1,0 +1,49 @@
+{
+	"id": "J00469",
+	"slug": "יסף-2",
+	"headword": {
+		"text": "יְסַף"
+	},
+	"page": {
+		"number": 583,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אוֹסִיף</he>, <cite ref=\"A00793\"><he>אוֹסֵף</he></cite> same, <i>to add, increase; to do again</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 1:11\">Targ. Deut. I, 11</cite>.—",
+						"<cite ref=\"Onkelos Genesis 8:10\">Targ. Gen. VIII, 10</cite>; a. fr.—",
+						"<cite ref=\"Shabbat 116b\">Sabb. 116ᵇ</cite> <he>אנא</he> … <he>אלא לאוֹסָפֵי וכ׳</he> Ms. M. (v. Rabb. D. S. a. l. note) I have not come to diminish from but to add to the law of Moses. ",
+						"<cite ref=\"Jerusalem Talmud Berakhot 4:1:26\">Y. Ber. IV, 7ᶜ</cite> <he>אוֹסְפוּן עליה</he> add thereto.—Part. pass. <cite ref=\"M00548\"><he>מוֹסַף</he></cite>, f. <cite ref=\"M00549\"><he>מוֹסְפָא</he></cite>. ",
+						"<cite ref=\"Kiddushin 20a\">Kidd. 20ᵃ</cite> <he>והא מ׳ ואזלא</he> but this (the debt on interest) is continually growing; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתּוֹסַף"],
+			"senses": [
+				{
+					"gloss": "<i>to be added</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 49:26\">Targ. Gen. XLIX, 26</cite>; a. fr.—",
+						"<cite ref=\"Berakhot 28a:3\">Ber. 28ᵃ</cite> <he>אִתּוֹסְפוּ כמה ספסלי</he> many forms had to be added (to accommodate the hearers). ",
+						"<cite ref=\"Berakhot 28a\">Ib.</cite> <he>א׳ ד׳ מאהוכ׳</he> four hundred forms were added; a. e."
+					]
+				}
+			],
+			"stem": "Ittaf."
+		}
+	]
+}

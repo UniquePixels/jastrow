@@ -1,0 +1,24 @@
+{
+	"id": "I00379",
+	"slug": "טימי-2",
+	"headword": {
+		"text": "טִימִי",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 532,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Timi</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 9:7:1\">Koh. R. to IX, 7</cite> <he>ר׳ יהושוע בריה דר׳ ט׳</he> (Yalk. Koh. 979 only <he>ר׳ שמלאי</he>)."
+			]
+		}
+	]
+}

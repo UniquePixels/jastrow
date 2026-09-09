@@ -1,0 +1,66 @@
+{
+	"id": "J00088",
+	"slug": "יגע-1",
+	"headword": {
+		"text": "יָגַע"
+	},
+	"page": {
+		"number": 563,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"J00078\"><he>יָגָה</he></cite>) [<i>to feel pain</i>,] <i>to take pains, to labor; to be tired</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 58a:4\">Ber. 58ᵃ</cite>, v. <cite ref=\"J00086\"><he>יְגִיעָה</he></cite>. Y. ib. V, 5ᶜ <he>אנו יָגַעְנוּ וכ׳</he> we have been busy at work for an entire day. ",
+				"<cite ref=\"Berakhot 58a:4\">Ib.</cite> <he>י׳ זה לשתי וכ׳</he> this one has worked (accomplished) more in two hours &c.; <cite ref=\"Berakhot 58a:4\">Ib.</cite> <he>כך י׳ … בתורה וכ׳</he> so has R. Bun accomplished in studies in the twenty eight years (of his life) &c.; <cite ref=\"Shir HaShirim Rabbah 6:2:6\">Cant. R. to VI, 2</cite>; <cite ref=\"Kohelet Rabbah 5:11:5\">Koh. R. to V, 11</cite>. ",
+				"<cite ref=\"Megillah 6b:3\">Meg. 6ᵇ</cite> <he>אם יאמר … יָגַעְתִּי וכ׳</he> if one tells thee, ‘I have toiled (studied) and achieved nothing’, do not believe; ‘I have not toiled and have achieved’, do not believe &c.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:5:19\">Y. Ber. IX, end, 14ᵈ</cite> <he>צריך לִיגַע בתורה</he> must study the Law. ",
+				"<cite ref=\"Midrash Tehillim 12:1\">Midr. Till. to Ps. XII</cite>, beg. <he>חדלו מליגע בתורה</he> they ceased from studying the Law; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יִגֵּעַ", "יִיגֵּעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to put to trouble, to weary</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sotah 2:1\">Sot. II, 1</cite> (<cite ref=\"Sotah 14a:15\">14ᵃ</cite>) <he>כדי לְיַגְּעָהּ</he> (Rashi: <cite ref=\"L00515\"><he>לְיַי׳</he></cite>) in order to wear her out (so that she may be induced to confess). Sifra Vayikra, Ḥobah, Par. 5, ch. VII <he>אבל אם היה מְיַגְּעָן וכ׳</he> but if after having troubled them (the judges) an entire day, he says finally &c.; <cite ref=\"Yalkut Shimoni on Torah 469:27\">Yalk. Lev. 469</cite> <he>היה מונע</he> (corr. acc.); <cite ref=\"Tosefta Tahorot 6:14\">Tosef. Toh. VI, 14</cite> <he>ומשהגיע</he> (read <he>ומשהִגִּיעָן</he> <i>Hif.</i>). Y. Bets. II, 61ᶜ bot. <he>מתוך שאתה מְיַיגְּעוֹ וכ׳</he> because you put him to special trouble (by ordering a special form of cakes) &c.—",
+						"<cite ref=\"Shemot Rabbah 41:1\">Ex. R. s. 41</cite> <he>התלמיד … יִגַּעְתִּיךָ</he> the pupil says to the teacher, I have wearied thee; <cite ref=\"Yalkut Shimoni on Nach 161\">Yalk. Sam. 161</cite>; a. fr.—Part. pass. <he>מְיוּגָּע</he>, pl. <he>מְיוּגָּעִים</he>, <he>מְיוּגָּעִין</he>. ",
+						"<cite ref=\"Ketubot 8b\">Keth. 8ᵇ</cite> <he>ואתם אחינו המ׳ המדוכאין וכ׳</he> and you, our brethren, who are worn out and crushed by this bereavement."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הוֹגִיעַ"],
+			"senses": [
+				{
+					"gloss": " (<cite ref=\"N00176\"><he>הִגִּיעַ</he></cite>) same. ",
+					"units": [
+						"<cite ref=\"Tosefta Tahorot 6:14\">Tosef. Toh. VI, 14</cite>, v. supra. ",
+						"<cite ref=\"Midrash Tehillim 39\">Midr. Till. to Ps. XXXIX</cite>, beg. (ref. to <cite ref=\"Malachi 2:17\">Mal. II, 17</cite>) <he>הוֹגַעְתֶּם לי במעשיכם וכ׳</he> (ed. Bub., differ.) it does not say, you wore me out with your doings, but with your words. ",
+						"<cite ref=\"Midrash Tehillim 18:28\">Midr. Till. to Ps. XVIII, 36</cite> <he>והרב … רב לך כי הוֹגַעְתִּיךָ</he> and the teacher will say to the pupil, thou hast enough now, for I have wearied thee?; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְיַיגֵּעַ"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְיַיגֵּעַ</he> <i>to be tired, to take pains</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 70a:22\">Gitt. 70ᵃ</cite> <he>הבא בדרך ונ׳</he> who has been travelling and is tired. Pesik. Shub., p. 164ᵃ <he>שלא תִתְיַיגֵּעַ בחזירה</he> that you may not get tired on your way back. ",
+						"<cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite> <he>אני נִתְיַיגַּעְתִּי בה וכ׳</he> I took pains with her and smote her &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

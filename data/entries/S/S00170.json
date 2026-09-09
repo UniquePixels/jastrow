@@ -1,0 +1,32 @@
+{
+	"id": "S00170",
+	"slug": "קדר-3",
+	"headword": {
+		"text": "קָדַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1318,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. Arab. ḳaḍar) [<i>to be soiled</i>,] <i>to be dull black</i>; trnsf. <i>to be sad</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִקְדִּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to become</i>, or <i>be black</i>. Y. Nidd. II, 50ᵇ top <he>שחור מַקְדִּיר</he> a dull black color, opp. <he>מצחצח</he> shining. Y. Sabb. X, 12ᶜ bot. <he>היו פניו של ר׳ מַקְדִּירוֹת</he> Rabbi’s face darkened (he grew sad). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 12\">Gen. R. s. 12</cite> <he>הרשעים … ופניהם מקדירות וכ׳</he> in the future world the statures of the wicked shall be bent (their pride broken), and their faces shall be sad."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

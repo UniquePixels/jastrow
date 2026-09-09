@@ -1,0 +1,23 @@
+{
+	"id": "D00090",
+	"slug": "דברתא-1",
+	"headword": {
+		"text": "דְּבַרְתָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 279,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00076\"><he>דְּבַר</he></cite>) = h. <he>מַלְקוֹחַ</he>, <i>booty</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 31:11\">Targ. Num. XXXI, 11</cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "Q00761",
+	"slug": "פיסעא",
+	"headword": {
+		"text": "פִּיסְעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּסְ׳"
+		}
+	],
+	"page": {
+		"number": 1167,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01342\"><he>פְּסַע</he></cite>) <i>step</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 20:3\">Targ. I Sam. XX, 3</cite> (h. text <he>פשע</he>).—V. <cite ref=\"Q01307\"><he>פְּסִיעֲתָא</he></cite>."
+			]
+		}
+	]
+}

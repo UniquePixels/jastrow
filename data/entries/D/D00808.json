@@ -1,0 +1,33 @@
+{
+	"id": "D00808",
+	"slug": "דלדל-2",
+	"headword": {
+		"text": "דַּלְדֵּל"
+	},
+	"page": {
+		"number": 309,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (<cite ref=\"D00807\">preced.</cite>) <i>to become poor, neglected</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite> <he>אזלא ודַלְדָּלָה</he> become more and more abandonned."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִידַּלְדַּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be torn loose</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 44a\">Ḥull. 44ᵃ</cite> <he>אִידַּלְדַּל אִידַּלְדּוּלֵי</he> Ar. (ed. <he>איפרוק וכ׳</he>; v. Tosaf. a. l.)."
+					]
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

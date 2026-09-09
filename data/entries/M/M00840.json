@@ -1,0 +1,28 @@
+{
+	"id": "M00840",
+	"slug": "מחזור",
+	"headword": {
+		"text": "מַחְזוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַחְזוֹרָא"
+		}
+	],
+	"page": {
+		"number": 758,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00561\"><he>חֲזַר</he></cite>) <i>cycle</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 59b:1\">Ber. 59ᵇ</cite> <he>כל כ״ח שנין דהדר מ׳</he> Ms. M. (ed. <he>והדר</he>) every twenty eight years when the (solar) cycle begins anew.—Pl. <he>מַחֲזורִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 1:14\">Targ. Y. I Gen. I, 14</cite>.—[In later Hebrew: <he>מחזור גדול</he> <i>the solar cycle</i> of twenty eight years; <he>מ׳ קטון</he> <i>the lunar cycle</i> of nineteen years.—In liturgy: <he>מ׳</he> <i>prayerbook for the festivals</i>.]"
+			]
+		}
+	]
+}

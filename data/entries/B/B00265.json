@@ -1,0 +1,33 @@
+{
+	"id": "B00265",
+	"slug": "בולי-2",
+	"headword": {
+		"text": "בּוּלִי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 146,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (βουλή) <i>council, assembly</i>, esp. <i>senate, city council</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:22\">Y. Peah I, 15ᶜ</cite> top <he>בפני כל ב׳ שלו</he> in the presence of the whole council over which he presided; <cite ref=\"Jerusalem Talmud Kiddushin 1:7:6\">Y. Kidd. I, 61ᵇ</cite> top. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:7:6\">Ib.</cite> <he>פטר ב׳</he>, v. <he>פַּטְרוֹבּוּלוֹס</he>. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 1:2:4\">Y. Yoma I, 39ᵃ</cite> top <cite ref=\"K00269\"><he>כולי</he></cite> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 2:3:5\">Y. M. Kat. II, 81ᵇ</cite> <he>אם הזכירוך לב׳ וכ׳</he> if they have mentioned (nominated) thee for the <i>bulé</i>, let the Jordan be thy neighbor, i.e. hide thyself in the bushes near the Jordan. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 2:3:5\">Ib.</cite> <he>להפטר מב׳</he> to be exempt from serving in the <i>bulé;</i> <cite ref=\"Jerusalem Talmud Sanhedrin 8:6:11\">Y. Snh. VIII, 26ᵇ</cite> top. ",
+				"<cite ref=\"Bereishit Rabbah 6:4\">Gen. R. s. 6</cite> <he>ב׳ ודימוס</he> senate and people (senatus populusque). ",
+				"<cite ref=\"Shemot Rabbah 15\">Ex. R. s. 15</cite> <he>וכן דימוס וכן כולם</he> (read <cite ref=\"B00264\"><he>בולי</he></cite>) and so did the people and so the senate. ",
+				"<cite ref=\"Gittin 37a:1\">Gitt. 37ᵃ</cite>, v. <cite ref=\"B00256\"><he>בּוּלְבּוּטֵס</he></cite>.—Pl. <he>בּוֹלִייּוֹת</he>, <cite ref=\"B00255\"><he>בּוֹלָאוֹת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 3:2:8\">Y. Ned. III, 38ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Shevuot 3:8:3\">Y. Shebu. III, 34ᵈ</cite> bot. <he>כ״ד ב׳</he> twenty four city councils, i.e. cities or districts having their own councilmen; [Tanḥ. ",
+				"<cite ref=\"Leviticus 7\">Vayikra 7</cite>; Matt. 1 <he>ב׳ אלפים עיירות</he>]; <cite ref=\"Pesikta Rabbati 22:1\">Pesik. R. s. 22</cite> <cite ref=\"A01827\"><he>אלות</he></cite> (read <cite ref=\"B00255\"><he>בולאות</he></cite>). ",
+				"<cite ref=\"Gittin 37a:1\">Gitt. 37ᵃ</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "E00017",
+	"slug": "האמנה",
+	"headword": {
+		"text": "הַאֲמָנָה"
+	},
+	"page": {
+		"number": 328,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A02038\"><he>אמן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>confirmation, fulfillment</i>. ",
+			"units": [
+				"<cite ref=\"Shevuot 36a:9\">Shebu. 36ᵃ</cite> <he>הַאֲמָנַת דברים</he> prayer for fulfillment, v. <cite ref=\"A02040\"><he>אָמֵן</he> II</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>faith</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 296:1\">Yalk. Is. 296</cite>; <cite ref=\"Yalkut Shimoni on Nach 519:1\">Yalk. Hos. 519</cite> (interchanging with <cite ref=\"A02001\"><he>אֱמוּנָה</he></cite> a. <cite ref=\"A02041\"><he>אֲמָנָה</he></cite>). ",
+				"<cite ref=\"Tosefta Bava Batra 5:8\">Tosef. B. Bath. V, 8</cite> some ed.; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "B00870",
+	"slug": "בליסטרא",
+	"headword": {
+		"text": "בַּלִּיסְטְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בליצטרא"
+		}
+	],
+	"page": {
+		"number": 173,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ballistra, βάλιστρα) <i>catapult, a war engine for throwing stones</i>, or (b. manualis) <i>for arrows</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite> <he>אבני ב׳</he> stones thrown from the catapult. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 8:3:2\">Y. Sot. VIII, 22ᵇ</cite> bot. <he>ברד כנגד בליצטורא שלהן</he>; (Mekh. Bshall. s. 2 <he>בלסטראות</he>, pl.; <cite ref=\"Yalkut Shimoni on Torah 232:2\">Yalk. Ex. 232</cite> <he>בלסיטראות</he>, read <he>בליסט׳</he>) the hail stones correspond to the catapults in the warfare of men. ",
+				"<cite ref=\"Pesikta Rabbati 17:1\">Pesik. R. s. 17</cite>; Pesik. Vayhi p. 67ᵃ <he>אבני בלסתרא</he> (corr. acc.). ",
+				"<cite ref=\"Pesikta Rabbati 29:1\">Pesik. R. s. 29—30</cite> (p. 139ᵇ ed. Fr.) <he>את האבן בליסטרה</he> (read <he>אבן הבל׳</he>). Lam. R. introd. (R. Josh. 2) <he>אבני בליסטרוס</he> (read … <he>רא</he>); a. fr.—Pl. <he>בַּלִּיסְטְרָאוֹת</he>. Yalk. l. c., v. supra. Tanḥ. Bo 4; Shof’tim 14. Mekh. l. c. ",
+				"<cite ref=\"Midrash Tehillim 18:12\">Midr. Till. to Ps. XVIII</cite>."
+			]
+		}
+	]
+}

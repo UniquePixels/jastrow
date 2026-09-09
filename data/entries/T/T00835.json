@@ -1,0 +1,24 @@
+{
+	"id": "T00835",
+	"slug": "רמץ-4",
+	"headword": {
+		"text": "רֶמֶץ"
+	},
+	"page": {
+		"number": 1483,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"T00832\"><he>רָמַץ</he></cite>) [<i>crushed matter</i>,] <i>hot ashes, embers</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 49b:6\">Nidd. 49ᵇ</cite> <he>שופתה ע״ג הר׳</he> he puts the pot upon embers: if the embers make it water-tight &c. ",
+				"<cite ref=\"Mishnah Negaim 9:1\">Neg. IX, 1</cite> <he>נכוה … בר׳</he> burnt by live coals or by embers. ",
+				"<cite ref=\"Nedarim 51a\">Ned. 51ᵃ</cite>, v. <cite ref=\"T00832\"><he>רָמַץ</he></cite>; a. e."
+			]
+		}
+	]
+}

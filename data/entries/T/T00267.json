@@ -1,0 +1,36 @@
+{
+	"id": "T00267",
+	"slug": "רדף-2",
+	"headword": {
+		"text": "רְדַף"
+	},
+	"page": {
+		"number": 1453,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00266\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 23:28\">Targ. I Sam. XXIII, 28</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 13:21\">Targ. Prov. XIII, 21</cite> (ed. Wil. <i>Pa.</i>); a. fr.—Part. <cite ref=\"T00261\"><he>רָדִיף</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 16:20\">Targ. Deut. XVI, 20</cite> (O. ed. Berl. <he>תרדוף</he>). ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 3:15\">Targ. Koh. III, 15</cite>; a. e.—<i>Part. pass.</i> <cite ref=\"T00261\"><he>רְדִיף</he></cite> <i>quick, rapid</i>. ",
+				"<cite ref=\"Yoma 77b:14\">Yoma 77ᵇ</cite> <he>שאני נחל דרְדִיפֵי מיא</he> it is different with a brook, because its waters are rapid. ",
+				"<cite ref=\"Bava Batra 73b:7\">B. Bath. 73ᵇ</cite> <he>לאו משום … דרדיפי מיא</he> (not <he>דרדפי</he>) not because the water is very deep, but because it is so rapid; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַדֵּף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00266\">same</cite>. Targ. Prov. l. c., v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

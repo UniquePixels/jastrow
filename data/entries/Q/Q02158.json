@@ -1,0 +1,37 @@
+{
+	"id": "Q02158",
+	"slug": "פתיותא",
+	"headword": {
+		"text": "פַּתְיוּתָא"
+	},
+	"page": {
+		"number": 1253,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q02157\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>width, room;</i> <he>פַּתְיוּת ידין</he> <i>ample space</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 34:21\">Targ. O. Gen. XXXIV, 21</cite> (ed. Vien. <cite ref=\"Q02119\"><he>פְּתָיוּת</he></cite>; Y. <he>פַּתְיַית תחומין</he>, v. <cite ref=\"Q02152\"><he>פְּתֵי</he> I</cite>). ",
+				"<cite ref=\"Targum Jonathan on Judges 18:10\">Targ. Jud. XVIII, 10</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = <cite ref=\"Q02116\"><he>פְּתָאָה</he></cite> <i>open space, street</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 119:45\">Targ. Ps. CXIX, 45</cite> <he>פַּתְיוּת אורייתא</he> (ed. Wil. <he>פְּתִיוֹת</he>, corr. acc.) the highway of the Law (h. text <cite ref=\"T00479\"><he>רְחָבָה</he></cite>). ",
+				"<cite ref=\"Targum of II Chronicles 32:6\">Targ. II Chr. XXXII, 6</cite> (ed. Lag. <cite ref=\"Q02116\"><he>פתאה</he></cite>). ",
+				"<cite ref=\"Targum of II Chronicles 29:4\">Ib. XXIX, 4</cite> <cite ref=\"Q02119\"><he>פַּתְאוּת</he></cite> (ed. Lag. <cite ref=\"Q02120\"><he>פְּתָאַת</he></cite>, constr. of <cite ref=\"Q02116\"><he>פְּתָאָה</he></cite>).—[<cite ref=\"Avodah Zarah 33b:8\">Ab. Zar. 33ᵇ</cite> <cite ref=\"Q02158\"><he>פתיותא</he></cite>, Ar., v. <cite ref=\"Q02156\"><he>פּתְיָא</he> II</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

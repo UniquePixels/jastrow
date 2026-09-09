@@ -1,0 +1,23 @@
+{
+	"id": "S01270",
+	"slug": "קלון-2",
+	"headword": {
+		"text": "קָלוֹן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1373,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קָלָה</he> II) <i>combustion</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 11:1\">Num. R. s. 11</cite> (play on <he>קלין</he>, <cite ref=\"Proverbs 3:35\">Prov. III, 35</cite>). <he>ירימו בחלקם ק׳ … לאש</he> they shall carry off combustion as their share, because finally they will go into fire; <he>ואין ק׳ אלא שריפה וכ׳</he> <i>ḳalon</i> means burning (ref. to <cite ref=\"Jeremiah 29:22\">Jer. XXIX, 22</cite>).—[<cite ref=\"Bava Batra 99b:4\">B. Bath. 99ᵇ</cite> <he>בית הק׳</he>, v. <cite ref=\"S00964\"><he>קִילוֹן</he></cite>.]"
+			]
+		}
+	]
+}

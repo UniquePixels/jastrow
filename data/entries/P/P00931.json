@@ -1,0 +1,33 @@
+{
+	"id": "P00931",
+	"slug": "עמר-5",
+	"headword": {
+		"text": "עֲמַר",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "עַמְרָא"
+		}
+	],
+	"page": {
+		"number": 1091,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עמר</he> I, cmp. <cite ref=\"P00892\"><he>עָמִיר</he></cite> a. <cite ref=\"A01350\"><he>אִימַּר</he></cite>) = h. <cite ref=\"R00591\"><he>צֶמֶר</he></cite>, <i>wool</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 39:12\">Targ. Ps. XXXIX, 12</cite>, v. <cite ref=\"C01282\"><he>גַּרְדֵּם</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 22:11\">Targ. Deut. XXII, 11</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 13:48\">Targ. Lev. XIII, 48</cite>; a. fr.—",
+				"<cite ref=\"Chagigah 15b:15\">Ḥag. 15ᵇ</cite>, v. <cite ref=\"J00240\"><he>יוֹרֶה</he> II</cite>. ",
+				"<cite ref=\"Bava Batra 74a\">B. Bath. 74ᵃ</cite>, a. e. <he>גבבא דע׳</he>, v. <cite ref=\"C00041\"><he>גְּבָבָא</he></cite>. ",
+				"<cite ref=\"Yoma 71b:7\">Yoma 71ᵇ</cite>; <cite ref=\"Zevachim 18b:17\">Zeb. 18ᵇ</cite>; a. fr.—<he>גופנא</he>(<cite ref=\"D00000\"><he>ד</he></cite>) <he>ע׳</he> <i>cotton</i>, v. <cite ref=\"C00461\"><he>גּוּפְנָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "C01274",
+	"slug": "גרדום-2",
+	"headword": {
+		"text": "גַּרְדּוֹם"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּרְדּוֹן"
+		}
+	],
+	"page": {
+		"number": 265,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גרד</he>, cmp. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 8:6\">Targ. Jud. VIII, 6</cite> s. v. <cite ref=\"C01269\"><he>גְּרַד</he></cite>; cmp. <cite ref=\"O01662\"><he>סָרַק</he></cite>) <i>place of torture and execution</i>, (<i>Roman</i>) <i>executioner’s scaffold, gallows</i>. ",
+				"<cite ref=\"Shabbat 32a:6\">Sabb. 32ᵃ</cite> <he>העולה לג׳ לידון</he> he who ascends the scaffold to be punished. ",
+				"<cite ref=\"Mishnah Avodah Zarah 1:7\">Ab. Zar. I, 7</cite> <he>בסילקי ג׳ וכ׳</he> a basilica, a scaffold &c., interpreted <cite ref=\"Avodah Zarah 16b:14\">ib. 16ᵇ</cite> <he>בס׳ של ג׳</he> a basilica for tortures, executions &c., i.e. a basilica for holding court. Pesik. Shimu, p. 118ᵇ <he>תלאו בגרדון</he> ordered him to be suspended on the gallows (for torture); <cite ref=\"Jerusalem Talmud Taanit 4:5:17\">Y. Taan. IV, 69ᵇ</cite> top <he>תְּלָיָין בג׳</he> (cmp. ",
+				"<cite ref=\"Gittin 57b\">Gitt. 57ᵇ</cite>, a. e. <he>מסריקנא וכ׳</he>). ",
+				"<cite ref=\"Tosefta Keilim Metsia 10\">Tosef. Kel. B. Mets. X</cite>, end <he>והגרדין טהור</he> ed. Zuck. (ed. <cite ref=\"B01180\"><he>ברדין</he></cite>; corr. acc.) the torturer’s block is not affected by levitical impurity."
+			]
+		}
+	]
+}

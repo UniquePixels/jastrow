@@ -1,0 +1,28 @@
+{
+	"id": "V00065",
+	"slug": "תבנא",
+	"headword": {
+		"text": "תִּבְנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּי׳"
+		}
+	],
+	"page": {
+		"number": 1645,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00064\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 5:7\">Targ. Ex. V, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 21:18\">Targ. Job XXI, 18</cite>; a. fr.—",
+				"<cite ref=\"Nedarim 50a:3\">Ned. 50ᵃ</cite> <he>הוו גנו בי ת׳</he> (not <he>הוה גני</he>) (R. Akiba and his wife) slept on straw. ",
+				"<cite ref=\"Nedarim 50a:3\">Ib.</cite> <he>הבו לי פורתא דת׳ וכ׳</he> give me some straw, for my wife has given birth &c. ",
+				"<cite ref=\"Chullin 52a:1\">Ḥull. 52ᵃ</cite>, v. <cite ref=\"B00419\"><he>בַּזְגָּא</he></cite>; a. fr."
+			]
+		}
+	]
+}

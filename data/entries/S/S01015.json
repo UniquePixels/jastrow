@@ -1,0 +1,32 @@
+{
+	"id": "S01015",
+	"slug": "קין-2",
+	"headword": {
+		"text": "קִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1362,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"S00939\"><he>קַיֵּין</he></cite> (v. <cite ref=\"S00412\"><he>קוּן</he></cite>) <i>to arrange, shape</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 23:5\">Gen. R. s. 23</cite> <he>קַיְּנָן קנתורין</he> Ar., v. <cite ref=\"S01034\"><he>קִינְטוֹר</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

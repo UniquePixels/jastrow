@@ -1,0 +1,26 @@
+{
+	"id": "H01368",
+	"slug": "חסיד-1",
+	"headword": {
+		"text": "חָסִיד"
+	},
+	"page": {
+		"number": 487,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H01334\"><he>חָסַד</he> I)</cite><i>kind, God-fearing, submissive, pious, abstemious</i>. ",
+			"units": [
+				"<cite ref=\"Temurah 15b:56\">Tem. 15ᵇ</cite> <he>כל היכא דאמר מעשה בח׳ אחד וכ׳</he> wherever we read (in Talmudic writings), ‘It is reported of a pious man’, either R. Juda b. Baba it meant or &c. ",
+				"<cite ref=\"Mishnah Sotah 3:4\">Sot. III, 4</cite> <he>ח׳ שוטה</he> a foolish saint. ",
+				"<cite ref=\"Pirkei Avot 5:10\">Ab. V, 10</cite> <he>שלי … ח׳</he> he who says, Mine is thine and thine is thine, is a <i>ḥasid</i>. ",
+				"<cite ref=\"Pirkei Avot 5:11\">Ib. 11</cite>; a. v. fr.—Pl. <he>חֲסִידִים</he>. ",
+				"<cite ref=\"Mishnah Berakhot 5:1\">Ber. V, 1</cite> <he>ח׳ הראשונים</he> the pious men of olden days; a. v. fr."
+			]
+		}
+	]
+}

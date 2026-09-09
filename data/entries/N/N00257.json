@@ -1,0 +1,23 @@
+{
+	"id": "N00257",
+	"slug": "נהוריתא-1",
+	"headword": {
+		"text": "נְהוֹרִיתָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 881,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00280\"><he>נְהַר</he></cite>) <i>affection of the eye-sight occasioned by lightning</i>, prob. <i>Gutta Serena</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 78b:11\">B. Mets. 78ᵇ</cite>, expl. <he>הבריקה</he>, v. <cite ref=\"B01313\"><he>בָּרַק</he></cite> (Rashi <he>נהרייתא</he>, Ms. R. 2 <he>נַהֲרִיתָא</he>)."
+			]
+		}
+	]
+}

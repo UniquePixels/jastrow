@@ -1,0 +1,44 @@
+{
+	"id": "O00351",
+	"slug": "סומק-2",
+	"headword": {
+		"text": "סוּמַּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוּמְּקָא"
+		},
+		{
+			"text": "סוּמְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 966,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>סעמק</he>, Saf. of <he>עמק</he>; cmp. <cite ref=\"P00874\"><he>עָמוֹק</he></cite>) [<i>dark</i>,] <i>red</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 13:30\">Targ. O. Lev. XIII, 30</cite> (h. text <he>צהב</he>). ",
+				"<cite ref=\"Onkelos Genesis 25:30\">Targ. O. Gen. XXV, 30</cite> ed. Berl. (v. <cite ref=\"O00698\"><he>סִימּוּקָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 13:24\">Targ. Y. Lev. XIII, 24</cite> <cite ref=\"O00351\"><he>סוּמְקָא</he></cite> (ed. Amst. <cite ref=\"O00351\"><he>סוֹמְ׳</he></cite>) <i>red spot</i>; a. e.—",
+				"<cite ref=\"Pesachim 25b:4\">Pes. 25ᵇ</cite>, a. e. <he>מאי חזית דדמא דידך ס׳ טפי וכ׳</he> what reason hast thou to assume that thy blood is redder? may be thy neighbor’s blood is redder, i.e. you dare not save your life at the expense of your fellowman’s life. ",
+				"<cite ref=\"Shabbat 134a:12\">Sabb. 134ᵃ</cite> <he>האי ינוקא דס׳</he> an infant that looks red. ",
+				"<cite ref=\"Gittin 67b:12\">Gitt. 67ᵇ</cite> <he>בישרא ס׳</he> red meat. ",
+				"<cite ref=\"Bava Metzia 58b:12\">B. Mets. 58ᵇ</cite>, v. <cite ref=\"H00686\"><he>חִיוָּר</he></cite>; a. fr.—",
+				"<cite ref=\"Yevamot 64b:17\">Yeb. 64ᵇ</cite> <he>יצחק סומקא</he> surname of R. Isaac ben Joseph.—Pl. <he>סוּמָּקִין</he>, <he>סוּמְּקִין</he>, <cite ref=\"O00353\"><he>סוּמְּקֵי</he></cite>, <cite ref=\"O00351\"><he>סוּמְ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 3:22\">Targ. II Kings III, 22</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:2:14\">Y. Snh. I, 18ᶜ</cite> bot.; <cite ref=\"Jerusalem Talmud Rosh Hashanah 2:5:3\">Y. R. Hash. II, 58ᵇ</cite> top (not <cite ref=\"O00341\"><he>סומוקן</he></cite>). ",
+				"<cite ref=\"Chullin 93b:4\">Ḥull. 93ᵇ</cite> <he>שורייקי ס׳</he> red veins. ",
+				"<cite ref=\"Shabbat 147a\">Sabb. 147ᵃ</cite> <he>חיורי וס׳</he> white or red garments; a. fr.—<i>Fem.</i> <cite ref=\"O00351\"><he>סוּמְּקָא</he></cite>, <cite ref=\"O00356\"><he>סוּמְקְתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 19:2\">Targ. Y. Num. XIX, 2</cite>.—",
+				"<cite ref=\"Chullin 46b:1\">Ḥull. 46ᵇ</cite>, v. <cite ref=\"A00498\"><he>אֲהִינָא</he></cite>."
+			]
+		}
+	]
+}

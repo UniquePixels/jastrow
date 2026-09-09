@@ -1,0 +1,26 @@
+{
+	"id": "Q01961",
+	"slug": "פרפר-1",
+	"headword": {
+		"text": "פִּרְפֵּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּירְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1236,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.;<i>Pilp.</i> of <cite ref=\"Q02017\"><he>פָּרַר</he></cite>) <i>to crush, crumble, pulverize</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 12:14\">Tosef. Sabb. XII</cite> (<cite ref=\"Tosefta Shabbat 13:14\">XIII</cite>), 14 <he>מְפַרְפְּרִין גלוסקין וכ׳</he> you may crumble a piece of fine bread (into milk &c.) for a sick person &c. ",
+				"<cite ref=\"Beitzah 17b:7\">Bets. 17ᵇ</cite>; <cite ref=\"Tosefta Beitsah 2:4\">Tosef. ib. II, 4</cite> <he>פ׳ ביצה על וכ׳</he> if one crumbles a hard-boiled egg over fish; Y. ib. II, 61ᵇ; a. e."
+			]
+		}
+	]
+}

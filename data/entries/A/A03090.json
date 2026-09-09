@@ -1,0 +1,23 @@
+{
+	"id": "A03090",
+	"slug": "אריוס",
+	"headword": {
+		"text": "אַרְיוֹס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 119,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Arios</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 13:3\">Sifré Deut. 13</cite>; <cite ref=\"Yalkut Shimoni on Torah 802:1\">Yalk. Deut. 802</cite>."
+			]
+		}
+	]
+}

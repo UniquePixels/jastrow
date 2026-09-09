@@ -1,0 +1,31 @@
+{
+	"id": "N01148",
+	"slug": "נצרא",
+	"headword": {
+		"text": "נִצְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִצְרָה",
+			"homograph": 1
+		},
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 930,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"N01146\"><he>נֵצֶר</he> III</cite> , <i>wicker-basket</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 4:2:4\">Y. Maasr. IV, 51ᵇ</cite> <he>אפי׳ נ׳</he> even an ordinary basket of figs, opp. to <cite ref=\"K00757\"><he>כַּלְכָּלָה</he></cite>.—Pl. <cite ref=\"N01134\"><he>נִצְרִין</he></cite>, <cite ref=\"M01772\"><he>נִי׳</he></cite>. Y. Ab. Zar. IV, 44ᵃ bot.—[<cite ref=\"Aramaic Targum to Job 31:8\">Targ. Job XXXI, 8</cite> <he>נצרי</he>, read with ed. Lag. a. oth. <he>נִצַּיי</he>, v. <cite ref=\"N01091\"><he>נֵץ</he></cite> ch.]"
+			]
+		}
+	]
+}

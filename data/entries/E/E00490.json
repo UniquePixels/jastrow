@@ -1,0 +1,22 @@
+{
+	"id": "E00490",
+	"slug": "הירהון",
+	"headword": {
+		"text": "הִירְהוּן"
+	},
+	"page": {
+		"number": 349,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"T00270\"><he>הִרְהִין</he></cite>, v. <cite ref=\"T00289\"><he>רָהַן</he></cite>) <i>pledge</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 2:9:2\">Y. Keth. II, 26ᵈ</cite> <he>שנייא היא בה׳</he> it is different in the case of a woman being placed among gentiles as a pledge."
+			]
+		}
+	]
+}

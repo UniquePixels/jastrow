@@ -1,0 +1,22 @@
+{
+	"id": "L00640",
+	"slug": "לפלוף",
+	"headword": {
+		"text": "לִפְלוּף"
+	},
+	"page": {
+		"number": 715,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00646\"><he>לָפַף</he></cite>) <i>glutinous substance, pus</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 9:2\">Mikv. IX, 2</cite> <he>ל׳ שחוץ לעין</he> pus sticking around the eye; <cite ref=\"Mishnah Mikvaot 9:4\">ib. 4</cite> <he>ל׳ שבעין</he> in the eye, on the eye-lids."
+			]
+		}
+	]
+}

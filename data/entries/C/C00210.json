@@ -1,0 +1,25 @@
+{
+	"id": "C00210",
+	"slug": "גדילתא",
+	"headword": {
+		"text": "גְּדִילְתָּא"
+	},
+	"page": {
+		"number": 212,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C00209\">preced.</cite>) <i>rope, chain, plat of hair, fringe</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 5:18\">Targ. Is. V, 18</cite>.—Pl. <cite ref=\"C00206\"><he>גְּדִילָן</he></cite>, <cite ref=\"C00210\"><he>גְּדִילָתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 15:13\">Targ. Jud. XV, 13</cite> sq. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 22:12\">Targ. Y. II, Deut. XXII, 12</cite>. ",
+				"<cite ref=\"Onkelos Exodus 28:4\">Targ. O. Ex. XXVIII, 4</cite>; <cite ref=\"Onkelos Exodus 28:24\">24</cite>; a. e."
+			]
+		}
+	]
+}

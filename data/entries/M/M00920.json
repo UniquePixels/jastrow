@@ -1,0 +1,26 @@
+{
+	"id": "M00920",
+	"slug": "מחצב",
+	"headword": {
+		"text": "מַחְצָב"
+	},
+	"page": {
+		"number": 763,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01489\"><he>חָצַב</he></cite>) <i>quarry, mine</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 3:5\">Shebi. III, 5</cite>. ",
+				"<cite ref=\"Mishnah Sheviit 3:6\">Ib. 6</cite> <he>פחות מיכן מ׳</he> if a stone fence is less than ten handbreadths high, it comes under the category of a quarry. Y. ib. 34ᶜ bot. <he>מ׳ שבינו וכ׳</he> a quarry situated between two estates. ",
+				"<cite ref=\"Shemot Rabbah 15:22\">Ex. R. s. 15</cite> <he>ברוך המ׳ וכ׳</he> blessed the quarry from which it was hewn. ",
+				"<cite ref=\"Vayikra Rabbah 26\">Lev. R. s. 26</cite>, end <he>ומלאו המ׳ לפניו וכ׳</he> and they filled the quarry before him with gold Denars. ",
+				"<cite ref=\"Esther Rabbah 2:7\">Esth. R. to I, 6</cite> <he>המ׳ הזה וכ׳</he> this (marble) quarry had not been revealed to any man before &c."
+			]
+		}
+	]
+}

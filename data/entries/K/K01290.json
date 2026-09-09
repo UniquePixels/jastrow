@@ -1,0 +1,27 @@
+{
+	"id": "K01290",
+	"slug": "כרתינון",
+	"headword": {
+		"text": "כְּרֵתִינוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּרֵיתִ׳"
+		}
+	],
+	"page": {
+		"number": 675,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a denom. of <cite ref=\"K01292\"><he>כְּרֵתָן</he></cite>, <cite ref=\"K01286\"><he>כָּרֵתִי</he></cite>, formed after the Greek πράσινον) <i>leek-colored, green</i>. Y’lamd. to Gen. XLIX, 1 quot. in Ar. <he>בין תכלת לצבע כ׳</he> (<cite ref=\"Mishnah Berakhot 1:2\">Ber. I, 2</cite> <he>לכרתי</he>), v. <cite ref=\"K01286\"><he>כָּרֵתִי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 3:6:5\">Y. Succ. III, 53ᵈ</cite> (ref. to Mish. <he>ירוק ככרתן</he>, v. <cite ref=\"K01286\"><he>כָּרֵתִי</he></cite>) <he>כהן כ׳ או דדמי להן כרתינין</he> (corr. acc.) does the Mishnah mean exactly as green as leek, or any shade like leek?"
+			]
+		}
+	]
+}

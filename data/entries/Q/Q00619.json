@@ -1,0 +1,34 @@
+{
+	"id": "Q00619",
+	"slug": "פיטומת",
+	"headword": {
+		"text": "פִּיטּוֹמֶת"
+	},
+	"page": {
+		"number": 1161,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00535\"><he>פָּטַם</he></cite>) [<i>mortar and pestle</i>,] trnsf. ",
+			"units": []
+		},
+		{
+			"gloss": " m. (sub. <cite ref=\"S01789\"><he>קצה</he></cite>) <i>the oblate part of the breast around the nipple</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 5:8\">Nidd. V, 8</cite> <he>משישחיר הפ׳</he> (Bab. ed. 47ᵃ <he>הפיטומות</he>, corr. acc.) when the surroundings of the nipple begin to grow dark."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the upper part</i> (<i>blossom end</i>) <i>of the onion</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 9:1:14\">Y. Ter. IX, 46ᵈ</cite> top; X, beg. 47ᵃ <he>העביר פִּטּוֹמְתּוֹ וכ׳</he> if the upper part of it has been removed, it is considered as if cut in pieces.—V. <cite ref=\"Q00629\"><he>פִּיטְמָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

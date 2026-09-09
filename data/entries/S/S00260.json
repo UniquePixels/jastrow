@@ -1,0 +1,24 @@
+{
+	"id": "S00260",
+	"slug": "קווסרין",
+	"headword": {
+		"text": "קַוְוסְרִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1325,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (causarius) <i>sickly</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 73\">Gen. R. s. 73</cite>; <cite ref=\"Yalkut Shimoni on Torah 130:7\">Yalk. ib. 130</cite> <cite ref=\"S00260\"><he>קַוְוסְרָן</he></cite> (f.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "U01990",
+	"slug": "שריש",
+	"headword": {
+		"text": "שָׁרִישׁ"
+	},
+	"page": {
+		"number": 1631,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U02039\"><he>שְׁרַשׁ</he></cite>) <i>deep-rooted, old; remnants from olden days</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 25:47\">Targ. Y. Lev. XXV, 47</cite> <he>שְׁ׳ פולחנא וכ׳</he> a remnant of idol worship (h. text <cite ref=\"P01214\"><he>עקר</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 29:17\">Targ. Y. I Deut. XXIX, 17</cite> <he>טעו דש׳</he> an idol of olden days."
+			]
+		}
+	]
+}

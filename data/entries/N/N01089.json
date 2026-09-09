@@ -1,0 +1,38 @@
+{
+	"id": "N01089",
+	"slug": "נפתי",
+	"headword": {
+		"text": "נִפְתִּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִפְתַּיי"
+		},
+		{
+			"text": "נִפְתָּיָיא"
+		},
+		{
+			"text": "… יָיה"
+		},
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 927,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01088\">preced.</cite>) <i>Nabataean</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 14:1:3\">Y. Sabb. XIV, beg. 14ᵇ</cite>, v. <cite ref=\"N00639\"><he>נִיוְתִּי</he></cite>. Ib. XVI, end, 15ᵈ; <cite ref=\"Jerusalem Talmud Yoma 8:5:8\">Y. Yoma VIII, 45ᵇ</cite>.—Pl. <cite ref=\"N01087\"><he>נִפְתָּאֵי</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 8:7:2\">Y. B. Bath. VIII, 16ᵇ</cite> bot. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 9:7:3\">Y. Snh. IX, end, 27ᵇ</cite>"
+			]
+		}
+	]
+}

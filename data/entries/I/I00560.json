@@ -1,0 +1,83 @@
+{
+	"id": "I00560",
+	"slug": "טמע-2",
+	"headword": {
+		"text": "טְמַע"
+	},
+	"page": {
+		"number": 540,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00559\">same</cite><i>to sink, be covered up</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 2:9\">Targ. Lam. II, 9</cite> (h. text <cite ref=\"I00076\"><he>טבע</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 26:11\">Targ. Y. Num. XXVI, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 69:3\">Targ. Ps. LXIX, 3</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of the sun) <i>to set</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 15:17\">Targ. Y. Gen. XV, 17</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to cover up, bury</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 15:4\">Targ. Y. Ex. XV, 4</cite>; <cite ref=\"Targum Jonathan on Exodus 15:12\">12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 31:33\">Targ. Job XXXI, 33</cite>; a. e.—<i>Part. pass.</i> <he>טְמִיעַ</he> "
+			],
+			"label": "3",
+			"senses": [
+				{
+					"gloss": " <i>hidden, buried</i>. Ib. III, 16 (h. text <he>טמון</he>); a. e.—",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>darkened, obscured</i>. <he>ט׳ מזלא</he> one whose planet is obscured, <i>hapless fellow</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 7:15\">Koh. R. to VII, 15</cite>. ",
+						"<cite ref=\"Kohelet Rabbah 11:9\">Ib. XI, 9</cite>; a. e."
+					],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": " (cmp. <he>טמם</he>) <i>to be inaccessible to argument, to be dull</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 18:3\">Targ. Job XVIII, 3</cite> <he>טְמַעְנָא</he> (not <he>טִ׳</he>; Ms. Var. <he>אִיטַּנַּפְנָא</he>, v. <cite ref=\"I00582\"><he>טְנַף</he></cite>; h. text <he>נטמינו</he>)."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טַמַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to sink, bury</i>. Ib. XL, 13 Ms. (ed. <i>Pe.</i>)",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיטַּמַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to be sunk</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 38:6\">Targ. Job XXXVIII, 6</cite> Ms. (ed. <he>טְמִיעָן</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

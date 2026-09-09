@@ -1,0 +1,38 @@
+{
+	"id": "A01918",
+	"slug": "אלמלא",
+	"headword": {
+		"text": "אִלְמָלֵא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִלְמָלֵי"
+		},
+		{
+			"text": "אִילְ׳"
+		}
+	],
+	"page": {
+		"number": 71,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= (= <he>אילו־מא־לָא</he>) <i>if in any way not, if not, but for</i> (usu. without verb or followed by <cite ref=\"U00002\"><he>שֶׁ־</he></cite> or <cite ref=\"D00002\"><he>דְּ־</he></cite>; cmp. <cite ref=\"A01864\"><he>אִלֵּימָא</he> I</cite>, 1). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 49a:10\">Snh. 49ᵃ</cite> <he>א׳ דוד וכ׳</he> but for David (studying the Law), Joab could wage no war. ",
+				"<cite ref=\"Megillah 12b:12\">Meg. 12ᵇ</cite> <he>א׳ אגרות וכ׳</he> but for the previous letters. Tanḥ. Ḥukkath 1 (ed. Bub. 1 <he>אם לא</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <he>אִילּוּ־מא־לֻא</he>: cmp. <cite ref=\"A01864\"><he>אִלֵּימָא</he> I</cite>, 2) <i>if indeed</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 24b:11\">Meg. 24ᵇ</cite> <he>אלמלי אתה לוי</he> [Ms. M. <he>אלמלא לוי אתה</he>) if thou wert a Levite. ",
+				"<cite ref=\"Ketubot 33b:1\">Keth. 33ᵇ</cite> <he>אלמלא נגדוה וכ׳</he> if they had lashed Hananiah &c. ",
+				"<cite ref=\"Shabbat 118b:4\">Sabb. 118ᵇ</cite>; a. fr. [A differentiation of spelling which may have existed for the two opposite meanings of our w., is untraceable; v. Lowe, Pesachim, p. 28.] Cmp. <cite ref=\"A01281\"><he>אִילּוּלֵי</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

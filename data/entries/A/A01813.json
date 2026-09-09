@@ -1,0 +1,22 @@
+{
+	"id": "A01813",
+	"slug": "אלום",
+	"headword": {
+		"text": "אָלוּם"
+	},
+	"page": {
+		"number": 67,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אלם</he>; √<he>אל</he>, cmp. <cite ref=\"H01081\"><he>חלם</he></cite>, <he>חלב</he> &c.) <i>a mucilaginous plant</i> (cmp. Lat. Alum), prob. <i>Silphium</i>, a kind of <i>Laserpitium</i> or <i>Asafœtida</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tevul Yom 1:5\">T’bul Yom I, 5</cite> (Var. in Ar. <he>אילום</he>, <he>הלום</he>). Cmp. <cite ref=\"A01900\"><he>אֱלָל</he></cite>."
+			]
+		}
+	]
+}

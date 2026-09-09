@@ -1,0 +1,34 @@
+{
+	"id": "N00385",
+	"slug": "נוע-2",
+	"headword": {
+		"text": "נוּעַ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 888,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00384\">same</cite>, <i>to totter</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 107:27\">Targ. Ps. CVII, 27</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַעְנַע"],
+			"senses": [
+				{
+					"gloss": "<i>to shake</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 75\">Gen. R. s. 75</cite>, beg. <he>דמְנַעְנָה</he> (= <he>דמנענעה</he>), v. <cite ref=\"N01008\"><he>נְעַר</he></cite>."
+					]
+				}
+			],
+			"stem": "Palp."
+		}
+	]
+}

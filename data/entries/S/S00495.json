@@ -1,0 +1,22 @@
+{
+	"id": "S00495",
+	"slug": "קופד-2",
+	"headword": {
+		"text": "קוּפָּד"
+	},
+	"page": {
+		"number": 1337,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"S01707\"><he>קִפּוֹד</he></cite>; <cite ref=\"S01699\"><he>קָפַד</he></cite>)<i>hedgehog</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 5:4\">Sabb. V, 4</cite> (<cite ref=\"Shabbat 54b\">54ᵇ</cite>) <he>עור הק׳</he> Y. ed. a. Ms. O. a. Ar. (ed. <he>הקופר</he>) the skin of a hedgehog (tied around the udder). Ib. 53ᵇ bot. <he>עור של קופר</he> Ms. M. (ed. only <he>עור</he>); Y. ib. V, end, 7ᶜ <he>עור הקופד</he>."
+			]
+		}
+	]
+}

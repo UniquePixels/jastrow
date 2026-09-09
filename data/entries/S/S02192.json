@@ -1,0 +1,30 @@
+{
+	"id": "S02192",
+	"slug": "קרר-1",
+	"headword": {
+		"text": "קָרָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָארָר"
+		}
+	],
+	"page": {
+		"number": 1427,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קרר</he> <i>to roll, drag</i>; cmp. <cite ref=\"C01394\"><he>גָּרַר</he> II</cite>) <i>wagon-driver</i> (dialect. interch. with <cite ref=\"S00173\"><he>קַדָּר</he></cite> fr. <cite ref=\"S00168\"><he>קדר</he></cite>, cmp. <cite ref=\"K00118\"><he>כַּדּוּר</he></cite> a. <cite ref=\"C01092\"><he>גַּנְדַּר</he> I</cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 4:14\">Kidd. IV, 14</cite> (<cite ref=\"Kiddushin 82a:2-8\">82ᵃ</cite>) <he>לא ילמד … חמר גמל קדר ספן וכ׳</he> Bab. ed. (Mish. <he>ספר</he> for <cite ref=\"S00168\"><he>קדר</he></cite>; Y. ed. <he>ספר</he> a. <he>ק׳</he>) no man should train his son to be an ass-driver, a camel-leader, wagoner, sailor, shepherd, or tavern-keeper; <cite ref=\"Tractate Soferim 15:10\">Treat. Sof’rim XV, 10</cite>; Y. Kidd. IV, 66ᶜ <he>קרר קדר</he> (strike out either). ",
+				"<cite ref=\"Mishnah Bava Metzia 6:1\">B. Mets. VI, 1</cite> (<cite ref=\"Bava Metzia 75b:15\">75ᵇ</cite>) <he>שכר את החמר ואת הקדר וכ׳</he> (Ms. R. 1 <he>הקרד</he>, corr. acc.) if one hires an ass-driver or a wagoner &c. ",
+				"<cite ref=\"Tosefta Keilim Batra 1:13\">Tosef. Kel. B. Bath. I, 13</cite> <he>ישיבת הקארר וקושרה</he> ed. Zuck. (Var. <he>הקרר</he>; R. S. to <cite ref=\"Mishnah Kelim 22:9\">Kel. XXII, 9</cite> <he>הקרון וקישרה</he>) the driver’s seat when he has tied it (to the wagon).—Pl. <he>קָרָרִים</he>, <he>קָרָרִין</he> (<he>קַדָּ׳</he>). ",
+				"<cite ref=\"Mishnah Bava Kamma 3:4\">B. Kam. III, 4</cite> <he>שני קד׳</he> (<cite ref=\"Tosefta Bava Kamma 2:9\">Tosef. ib. II, 9</cite> <he>חַמָּרִין</he>)."
+			]
+		}
+	]
+}

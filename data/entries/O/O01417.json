@@ -1,0 +1,37 @@
+{
+	"id": "O01417",
+	"slug": "ספר-3",
+	"headword": {
+		"text": "סַפָּר"
+	},
+	"page": {
+		"number": 1017,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01416\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": " (v. <cite ref=\"O01422\"><he>סֵפֶר</he></cite>) <i>Bible teacher</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 3:3:8\">Y. Maasr. III, 50ᵈ</cite> <he>בית … טובלין לס׳ ולמַשְׁנֶה</he> (not <he>ולא למש׳</he>) school houses for Bible and Talmud make fruits <i>ṭebel</i> for the Bible teacher and for the Talmud teacher. [Perh. to be read: <cite ref=\"O01415\"><he>סָפַר</he></cite> Chald. form.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>hair-cutter, barber</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 1:2\">Sabb. I, 2</cite> <he>לא ישב אדם לפני הס׳ וכ׳</he> one must not sit down for the hair-cutter near Minḥah time beforesaying the prayer. ",
+				"<cite ref=\"Mishnah Sheviit 8:5\">Shebi. VIII, 5</cite>; a. e.—Pl. <he>סַפָּרִים</he>, <he>סַפָּרִין</he>. ",
+				"<cite ref=\"Mishnah Kelim 13:1\">Kel. XIII, 1</cite> <he>זוג של ס׳</he> the barbers’ scissors. ",
+				"<cite ref=\"Shabbat 9b:6\">Sabb. 9ᵇ</cite>. v. <cite ref=\"M02152\"><he>מַעֲפוֹרֶת</he></cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

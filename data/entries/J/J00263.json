@@ -1,0 +1,32 @@
+{
+	"id": "J00263",
+	"slug": "יזף-1",
+	"headword": {
+		"text": "יָזַף",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 572,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"G00224\"><he>זוּף</he></cite>) [<i>to join</i>; cmp. <cite ref=\"L00206\"><he>לָוָה</he></cite>,] <i>to borrow</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוֹזִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to lend</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 48b\">Sot. 48ᵇ</cite> <he>המוֹזִיף</he> Ar. (not found in ed.), v. <cite ref=\"I00167\"><he>טוּלְמָא</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

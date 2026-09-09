@@ -1,0 +1,27 @@
+{
+	"id": "I00359",
+	"slug": "טיכוסא",
+	"headword": {
+		"text": "טִיכּוּסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִיכוֹסָא"
+		}
+	],
+	"page": {
+		"number": 531,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00462\"><he>טְכַס</he></cite>) <i>fastening with rings</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 28:8\">Targ. Y. Ex. XXVIII, 8</cite>; <cite ref=\"Targum Jonathan on Exodus 39:5\">XXXIX, 5</cite> (h. text <he>אֲפֻדָה</he>)."
+			]
+		}
+	]
+}

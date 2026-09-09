@@ -1,0 +1,43 @@
+{
+	"id": "B01299",
+	"slug": "ברם",
+	"headword": {
+		"text": "בְּרַם"
+	},
+	"page": {
+		"number": 196,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " h. a. ch. conj. (<he>ברם</he> <i>to split</i>, √<he>בר</he>, cmp. <he>פרם</he>, v. <cite ref=\"B00374\"><he>בּוֹרְמָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>besides</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 36:7\">Targ. Y. Ex. XXXVI, 7</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>however</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 4:12\">Dan. IV, 12</cite>; <cite ref=\"Daniel 5:17\">V, 17</cite>.—",
+				"<cite ref=\"Aramaic Targum to Psalms 58:3\">Targ. Ps. LVIII, 3</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>only, but</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 7:23\">Targ. Gen. VII, 23</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 3:3\">Targ. Lam. III, 3</cite> (h. text <cite ref=\"A01661\"><he>אַךְ</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 58:2\">Targ. Ps. LVIII, 2</cite> <he>הב׳ בקושטא</he> is it only in truth (indeed)?—",
+				"<cite ref=\"Shabbat 63b:17\">Sabb. 63ᵇ</cite>; <cite ref=\"Eruvin 16b:29\">Erub. 16ᵇ</cite>, a. fr. <he>ב׳ כך אמרו</he> but in fact they said this. ",
+				"<cite ref=\"Bava Metzia 114a:3\">B. Mets. 114ᵃ</cite>.—3) interj. <i>truly!, surely!</i> <cite ref=\"Shabbat 13b:8\">Sabb. 13ᵇ</cite>; <cite ref=\"Chagigah 13a:12\">Ḥag. 13ᵃ</cite>; <cite ref=\"Menachot 45b\">Men. 45ᵇ</cite> <he>ב׳ זכור וכ׳</he> truly! this man be remembered for blessing!—[<cite ref=\"Chullin 112a:7\">Ḥull. 112ᵃ</cite> <he>דאברים</he> some ed., read: <he>דאבריה</he>, v. <cite ref=\"B01154\"><he>בְּרָא</he></cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

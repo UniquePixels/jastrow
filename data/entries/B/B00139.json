@@ -1,0 +1,23 @@
+{
+	"id": "B00139",
+	"slug": "בדיחותא",
+	"headword": {
+		"text": "בְּדִיחוּתָא"
+	},
+	"page": {
+		"number": 140,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"B00138\">preced.</cite>) <i>cheer</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 30b:6\">Sabb. 30ᵇ</cite> <he>מלתא דב׳</he> something humorous. ",
+				"<cite ref=\"Berakhot 55a:15\">Ber. 55ᵃ</cite> <he>בדיחותֵיה מפכחא ליה</he> its very cheerfulness frustrates it (the good dream)."
+			]
+		}
+	]
+}

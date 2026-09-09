@@ -1,0 +1,32 @@
+{
+	"id": "S01147",
+	"slug": "קיקלתא",
+	"headword": {
+		"text": "קִיקֶלְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִיקֶילְ׳"
+		}
+	],
+	"page": {
+		"number": 1368,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"S01143\"><he>קִיקְלָא</he></cite>) <i>dunghill, ruins</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 113:7\">Targ. Ps. CXIII, 7</cite> (ed. Wil. <he>קַלְקַלְ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 19:2\">Targ. Jer. XIX, 2</cite> Ar. (ed. Koh. <cite ref=\"S01146\"><he>קיקליתא</he></cite>; Targ. ed. <he>קלקל׳</he>, ed. Lag. <cite ref=\"S00993\"><he>קִילְקילְ׳</he></cite>).—",
+				"<cite ref=\"Shir HaShirim Rabbah 4:4:4\">Cant. R. to IV, 4</cite> <he>לא תצלי בההיא ק׳</he> pray not on this dunghill (the Temple ruins), opp. <cite ref=\"B01266\"><he>בריכא</he></cite>; <cite ref=\"Bereishit Rabbah 81\">Gen. R. s. 81</cite> <he>קלקל׳</he>; <cite ref=\"Bereishit Rabbah 81\">ib.</cite> s. 32 <he>ביתא קלקל׳</he> (omit <cite ref=\"B00756\"><he>ביתא</he></cite>); <cite ref=\"Yalkut Shimoni on Torah 57:2\">Yalk. ib. 57</cite> <he>קילתא</he> (corr. acc.). ",
+				"<cite ref=\"Vayikra Rabbah 25:5\">Lev. R. s. 25</cite> <he>עדור בקוֹקֶלְתָּךְ</he> (some ed. <he>בקולקל׳</he>), v. <cite ref=\"P00164\"><he>עֲדַר</he> I</cite>; <cite ref=\"Yalkut Shimoni on Nach 925:2\">Yalk. Job 925</cite> <he>בקלקליתיך</he> (read <he>בקִלקֶילְתָּיךְ</he>). ",
+				"<cite ref=\"Avodah Zarah 28a\">Ab. Zar. 28ᵃ</cite> <he>קיקילתא</he> Ar. (Ms. M. <he>קילקל׳</he>; ed. <cite ref=\"S00994\"><he>קִילְקְתָא</he></cite>); a. e.—Pl. <he>קִילְקְלָתָן</he>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 4:5\">Targ. Lam. IV, 5</cite> Ar. (ed. <he>קִקְלָאתָן</he>; h. text <he>אשפתות</he>)."
+			]
+		}
+	]
+}

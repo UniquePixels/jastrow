@@ -1,0 +1,44 @@
+{
+	"id": "I00519",
+	"slug": "טלע-1",
+	"headword": {
+		"text": "טְלַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 538,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <he>צלע</he>; cmp. <cite ref=\"I00509\"><he>טלל</he></cite>) [<i>to hang over, incline</i>,] <i>to halt</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַטְלַע"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00518\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 32:32\">Targ. Gen. XXXII, 32</cite>, v. <cite ref=\"I00485\"><he>טְלַח</he></cite>. [<cite ref=\"Yevamot 39b:10\">Yeb. 39ᵇ</cite> <he>אַטְלַע לה רגליך וכ׳</he> turn thy right foot towards her <he>ואטלע לה וכ׳</he> and he did so, Rashi; v. next w.]"
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיטְּלַע"],
+			"senses": [
+				{
+					"gloss": "<i>to become lame</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 22b\">Meg. 22ᵇ</cite>; <cite ref=\"Taanit 25a\">Taan. 25ᵃ</cite>; <cite ref=\"Sukkah 53a\">Succ. 53ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

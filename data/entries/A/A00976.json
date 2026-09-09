@@ -1,0 +1,24 @@
+{
+	"id": "A00976",
+	"slug": "אזליא",
+	"headword": {
+		"text": "אֲזָלַיָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 38,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (= <he>נזל</he>) <i>running waters, waves</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 15:8\">Targ. O. Ex. XV, 8</cite> (Var. <cite ref=\"A00976\"><he>אָזְלַיָּא</he></cite>; Y. <cite ref=\"N00339\"><he>נָזְלַיָּא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"id": "U01765",
+	"slug": "שפך-2",
+	"headword": {
+		"text": "שְׁפַךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁפֵיךְ"
+		}
+	],
+	"page": {
+		"number": 1617,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01764\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 24:7\">Targ. Ez. XXIV, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 22:6\">Ib. XXII, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 12:10\">Targ. Zech. XII, 10</cite>; a. fr.—",
+				"<cite ref=\"Avodah Zarah 72b:8\">Ab. Zar. 72ᵇ</cite> <he>אמר</he> … <he>כי שַׁפְכִיתוּ וכ׳</he> R. said to the laborers engaged in filling, when you pour wine (from vessel to vessel) let no gentile come near to help you &c. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 20:5:2\">Y. Sabb. XX, end, 17ᵈ</cite> <cite ref=\"U01720\"><he>שְׁפוֹךְ</he></cite>, v. <cite ref=\"R00623\"><he>צְנִינִים</he></cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּפֵּיךְ"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּפֵיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be poured out</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 13:3\">Targ. I Kings XIII, 3</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 79:10\">Targ. Ps. LXXIX, 10</cite>; a. fr.—",
+						"<cite ref=\"Bava Metzia 26a\">B. Mets. 26ᵃ</cite> <he>אִשְׁתַּפּוּבֵי אִישְׁתַּפּוּךְ</he> the things in the wall were washed down; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

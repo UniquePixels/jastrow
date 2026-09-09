@@ -1,0 +1,39 @@
+{
+	"id": "G00269",
+	"slug": "זיבורית",
+	"headword": {
+		"text": "זִיבּוּרִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִבּ׳"
+		}
+	],
+	"page": {
+		"number": 390,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>זבר</he>, v. <cite ref=\"G00028\"><he>זִבּוּרִית</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the lowest</i> (<i>worst</i>) <i>land of an estate</i> (classified into <cite ref=\"P00512\"><he>עידית</he></cite> best, <he>בינונית</he> mean and <he>ז׳</he>). ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 5:1\">Gitt. V, 1</cite>. ",
+				"<cite ref=\"Gittin 49a:4\">Ib. 49ᵃ</cite> top <he>כגון … כז׳ דמזיק</he> when the claimant’s best land was only as good as the defendant’s worst. ",
+				"<cite ref=\"Bava Kamma 7b:19\">B. Kam. 7ᵇ</cite> <he>אין לו אלא … ז׳</he> if one has only third class land; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"G00028\"><he>זִבּוּרִית</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

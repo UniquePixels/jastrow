@@ -1,0 +1,22 @@
+{
+	"id": "R00466",
+	"slug": "צירתא-2",
+	"headword": {
+		"text": "צִירְתָא"
+	},
+	"page": {
+		"number": 1281,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"R00453\"><he>צְיָר</he></cite>) <i>anguish</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:22\">Targ. Y. Deut. XXVIII, 22</cite> <he>צ׳ דליבא</he> anguish of heart (<i>incubus</i>?)."
+			]
+		}
+	]
+}

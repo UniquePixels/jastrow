@@ -1,0 +1,29 @@
+{
+	"id": "H01012",
+	"slug": "חלז",
+	"headword": {
+		"text": "חֲלַז"
+	},
+	"page": {
+		"number": 466,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H01035\"><he>חַלֵּיז</he></cite> (cmp. <he>חלץ</he>) <i>to gird, to form a sinus; to lift the cloak</i>. Targ. II Esth. I, 2 (3), v. <cite ref=\"H00992\"><he>חֲלוּז</he></cite>.—<i>Part. pass.</i> <he>מְחַלַּז</he>. Ib. IV, 11 <he>ומְחַלְּזִין חולזוי</he> his loins girt (his cloak lifted up, ready for labor).",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

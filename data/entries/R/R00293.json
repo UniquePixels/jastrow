@@ -1,0 +1,25 @@
+{
+	"id": "R00293",
+	"slug": "ציבא-2",
+	"headword": {
+		"text": "צִיבָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1274,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00292\">preced.</cite>; cmp. <cite ref=\"C00041\"><he>גְּבָבָא</he></cite>); pl. <he>צִיבֵּי</he> <i>rakings, chips, twigs</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 7:5\">Targ. Y. Num. VII, 5</cite> <he>ויהון צ׳ וכ׳</he> (not <he>צִיבִי</he>) the chips (of the wood used for the wagons) shall be used for the altar pile.—",
+				"<cite ref=\"Bava Kamma 93a:2\">B. Kam. 93ᵃ</cite>, v. <cite ref=\"N00842\"><he>נִכְסִין</he></cite>. ",
+				"<cite ref=\"Taanit 23b:3\">Taan. 23ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

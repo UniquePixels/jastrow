@@ -1,0 +1,23 @@
+{
+	"id": "A00252",
+	"slug": "אגדנא",
+	"headword": {
+		"text": "אַגְדָּנָא"
+	},
+	"page": {
+		"number": 11,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C00153\"><he>גַּד</he> I</cite> a. <cite ref=\"C00809\"><he>גִּירָּא</he></cite>, P. Sm. 23) <i>worm-wood</i> (Rashi: <i>horehound</i>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 29a\">Ab. Zar. 29ᵃ</cite> Ar. a. ed. (Ms. M. <cite ref=\"A00551\"><he>אוגרנא</he></cite>, with <cite ref=\"T00000\"><he>ר</he></cite>), in a prescription against asthma. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 29:17\">Targ. Y. I Deut. XXIX, 17</cite> <he>אגד׳</he> (Var. <he>אגר׳</he>); ed. Vienna pl. <he>אַגְדָּנַיָּא</he> (<he>אגר׳</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,93 @@
+{
+	"id": "M02630",
+	"slug": "מרח-1",
+	"headword": {
+		"text": "מָרַח"
+	},
+	"page": {
+		"number": 840,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; sec. r. of <he>רוח</he>)<i>to soften; to poultice</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מֵירֵחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to strike a plaster, rub a salve;</i> in gen. <i>to mash, crush</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shabbat 5:6\">Tosef. Sabb. V</cite> (<cite ref=\"Tosefta Shabbat 6:6\">VI</cite>), 6 <he>המְמָרֵחַ בשבת</he> he who mashes ingredients for a plaster on the Sabbath; <cite ref=\"Eruvin 102b:10\">Erub. 102ᵇ</cite>; Y. ib. X, 26ᶜ.—",
+						"<cite ref=\"Shabbat 75b:3\">Sabb. 75ᵇ</cite> <he>הממ׳ רטיה וכ׳</he> he who spreads and presses the poultice over a sore; Y. ib. VII, 10ᵈ top. Ib. XXII, 3 (146ᵃ) he must not put on wax <he>מפני שהוא ממרח</he> (Mish. Pes. <he>מַמְרִיחַ</he>, v. Rabb. D. S. a. l. note 90) because it is an act resembling the spreading of plaster. Sifra Sh’mini, Par. 8, ch. X; <cite ref=\"Mishnah Kelim 5:11\">Kel. V, 11</cite> <he>מֵרְחָהּ בטיט</he> if he smeared clay over it; <cite ref=\"Tosefta Kelim Kamma 4:10\">Tosef. Kel. B. Kam. IV, 10</cite>; <cite ref=\"Tosefta Kelim Kamma 4:12\">12</cite>. ",
+						"<cite ref=\"Tosefta Kelim Kamma 7:10\">Ib. VII, 10</cite> <he>ומי׳ שפתותיה עם הכותל</he> and connected its rims with the wall by plaster or pitch; a. fr.—Part. pass. <he>מְמוֹרָח</he> <i>crushed</i>. ",
+						"<cite ref=\"Bekhorot 44b:15\">Bekh. 44ᵇ</cite> <he>האי ממ׳ אשך וכ׳</he> (not <he>ממרוח</he>) if <i>m’roaḥ</i> meant <i>crushed</i>, it ought to read <i>m’moraḥ</i> &c.; <cite ref=\"Yalkut Shimoni on Torah 632:1\">Yalk. Lev. 632</cite>, v. <cite ref=\"M02581\"><he>מְרוֹחַ</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to pass</i> (the hand) <i>over a viscid mass, to wipe off, rub off</i>. Y. Sabb. VII, 10ᵃ bot. <he>מְמָרְחוֹ בידו אחת</he> he may wipe (or brush) it off with one hand; (Bab. ",
+					"units": [
+						"<cite ref=\"Shabbat 141a\">ib. 141ᵃ</cite> <he>מגרר בצפרן</he>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to give a pile of grain an even shape, to finish the process of storing up</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maasrot 1:6\">Maasr. I, 6</cite> <he>משיְמָרֵחַ ואם אינו מְמָרֵחַ וכ׳</he> (Y. ed. <he>מְמָרֵיחַ</he> or <he>מַמְרִיחַ</he>) (is subject to tithes) as soon as he evens the pile, and if he does not even &c.; expl. Y. ib. I, 49ᵃ bot. <he>מן דו ישפר וכ׳</he> when he gives a finish to the surface of the pile. Ib. <he>בשאין בדעתו למָרֵחַ</he> (not <he>לימרח</he>) when he has not the intention to even the pile; a. fr.—Part. pass. <he>מְמוֹרָח</he>, f. <he>מְמוֹרַחַת</he>; pl. <he>מְמוֹרָחִין</he>; <he>מְמוֹרָחוֹת</he>. ",
+						"<cite ref=\"Bekhorot 11a:22\">Bekh. 11ᵃ</cite>, sq. <he>טבלים ממ׳</he> (Ar. <he>מְרוּחִים</he>) untithed grain stored up in proper shape. Y. Peah IV, 16ᶜ bot. <he>כרי ממ׳</he> a finished pile; a. e.—",
+						"<cite ref=\"Tosefta Terumot 4:15\">Tosef. Ter. IV, 15</cite> <cite ref=\"M00636\"><he>מוּרַחַת</he></cite> = <he>ממורחת</he>."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"T00545\"><he>רַחַת</he></cite>) <i>to winnow</i>. Part. pass. as ab. ",
+					"units": [
+						"<cite ref=\"Tosefta Ma'asrot 2:17\">Tosef. Maasr. II, 17</cite> <he>מצא תבואה ממ׳ עשויה כרי וכ׳</he> if one finds winnowed grain (which has been abandoned), if it is made up into a pile, you dare not take it, opp. <he>מפוזרת</he> scattered; Y. ib. III, 50ᶜ bot. <he>פירות ממורחין</he>."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִמְרַח"],
+			"senses": [
+				{
+					"gloss": "<i>to be crushed into a viscid mass</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bekhorot 7:5\">Bekh. VII, 5</cite> (expl. <he>מרוח אשך</he>, <cite ref=\"Leviticus 21:20\">Lev. XXI, 20</cite>) <he>כל שנִמְרְחוּ אשכיו</he> (Bab. ed., 44ᵇ, <he>נימחו</he>) whose testicles are crushed; (refuted ib. in Ib.) <he>האי ממורח וכ׳</he>, v. supra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be smeared over</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Kelim Kamma 7:10\">Tosef. Kel. B. Kam. VII, 10</cite> <he>עד שתִּמָּרֵחַ עם השפה</he> until it is smeared over so as to be even with the rim."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְמָרֵחַ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְמָרֵחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be shaped into an even pile, to be finished</i>. Y. Peah I, beg. 15ᵃ <he>עד שלא נתמ׳ הכר</he> as long as the pile is not struck off; a. e. [Y. Maasr. I, 49ᵃ bot. <he>תבואה משיתמרח</he>, read: <he>משימרח</he>, v. supra.]",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

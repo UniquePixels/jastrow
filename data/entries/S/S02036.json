@@ -1,0 +1,27 @@
+{
+	"id": "S02036",
+	"slug": "קריבות",
+	"headword": {
+		"text": "קְרֵיבוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְרֵבוּת"
+		}
+	],
+	"page": {
+		"number": 1419,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01883\"><he>קָרֵב</he></cite>) <i>friendship, relationship</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 5:1\">Ex. R. s. 5</cite>, a. e., v. <cite ref=\"N01317\"><he>נְשִׁיקָה</he></cite>."
+			]
+		}
+	]
+}

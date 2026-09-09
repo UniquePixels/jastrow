@@ -1,0 +1,24 @@
+{
+	"id": "M00139",
+	"slug": "מגורה-2",
+	"headword": {
+		"text": "מְגוּרָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 727,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גּוּר</he> I) <i>a court containing several dwellings</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 70b\">Erub. 70ᵇ</cite> (Rashi: <i>a barn divided off</i>, v. <cite ref=\"M00138\">preced.</cite>).—Pl. <he>מְגוּרוֹת</he> (or <he>מְגוֹרוֹת</he>) <i>neighborhood, neighbors</i>. ",
+				"<cite ref=\"Bereishit Rabbah 99:7\">Gen. R. s. 99</cite>; Tanḥ. Vayḥi 9, v. <cite ref=\"M01439\"><he>מְכֵרוֹת</he></cite>."
+			]
+		}
+	]
+}

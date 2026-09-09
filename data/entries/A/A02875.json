@@ -1,0 +1,30 @@
+{
+	"id": "A02875",
+	"slug": "אצייא",
+	"headword": {
+		"text": "אִצְיָיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיצְיָיא"
+		},
+		{
+			"text": "אוּצְ׳"
+		}
+	],
+	"page": {
+		"number": 111,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אצי</he>, v. <cite ref=\"A02861\"><he>אַצְוָותָא</he></cite>) <i>cut, depression</i>, (agric.) <i>bed</i> as a measure, <i>row</i>.—Pl. <cite ref=\"A01581\"><he>אִצְיָיתָא</he></cite>, <cite ref=\"A01581\"><he>אִצְיָאתָא</he></cite>, <cite ref=\"A02875\"><he>אוּצְ׳</he></cite>, <cite ref=\"A01411\"><he>אִיצְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 12a:12\">B. Bath. 12ᵃ</cite> <he>תלת א׳ וכ׳</he> (Ms. M. <he>איצ׳</he>, Ms. F. <he>איתייתא</he>(?)) three rows containing twelve vine-trees each; (v. Rabb. D. S. a. l. note). Ib. 41ᵇ he encroached on his neighbor’s ground <he>תרתי או׳</he> ed. (Mss. <cite ref=\"A02549\"><he>אי׳</he></cite>) two <i>bed-widths</i>"
+			]
+		}
+	]
+}

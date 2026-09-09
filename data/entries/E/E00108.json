@@ -1,0 +1,32 @@
+{
+	"id": "E00108",
+	"slug": "הדורא",
+	"headword": {
+		"text": "הֲדוּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַדְרָא"
+		}
+	],
+	"page": {
+		"number": 332,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"E00148\"><he>הֲדַר</he></cite>) <i>coil, convolution</i>. <he>ה׳ דכנתא</he> <i>the coils of the ileum</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 48b:9\">Ḥull. 48ᵇ</cite>. ",
+				"<cite ref=\"Chullin 113a\">Ib. 113ᵃ</cite> (ed. <he>הדרא</he>).—Pl. <he>הְדוּרֵי</he> (cmp. ",
+				"<cite ref=\"Isaiah 45:2\">Is. XLV, 2</cite>) <i>spiral road</i>, <i>a field whichcan be tilled only by spiral movements, steep hill</i>. ",
+				"<cite ref=\"Bava Batra 12a:7\">B. Bath. 12ᵃ</cite> <he>בה׳</he> in the case of a steep ascent (which requires more time).—בית ה׳ <i>Beth-Hăduré</i>, name of a summit from which the scape-goat was thrown down (<cite ref=\"Leviticus 16:21\">Lev. XVI, 21</cite> sq.). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 16:22\">Targ. Y. Lev. XVI, 22</cite>.—",
+				"<cite ref=\"Mishnah Yoma 6:8\">Yoma VI, 8</cite> (<cite ref=\"Yoma 68b\">68ᵇ</cite>) Ms. M. in Gemara (Mish. <he>הרורי</he>, indistinctly corrected, v. Rabb. D. S. a. l. note 3 a. 6, ed. <cite ref=\"H00181\"><he>חדודו</he></cite>, Y. ed. <cite ref=\"H00464\"><he>חורון</he></cite>)."
+			]
+		}
+	]
+}

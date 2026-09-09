@@ -1,0 +1,43 @@
+{
+	"id": "D01004",
+	"slug": "דקיק",
+	"headword": {
+		"text": "דַּקִּיק"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּקִּיקָא"
+		}
+	],
+	"page": {
+		"number": 319,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<he>דקק</he>, v. <cite ref=\"D00985\"><he>דַּק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>broken, powdered, pounded</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 32:20\">Targ. O. Ex. XXXII, 20</cite> (some ed. a. Y. <cite ref=\"D00340\"><he>דָּקִ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 9:8\">Targ. Y. Ex. IX, 8</cite> <cite ref=\"D00340\"><he>דְּקִ׳</he></cite> a pounded mass (v. <cite ref=\"D00942\"><he>דַּעְדַּק</he></cite>; h. text <cite ref=\"D00985\"><he>דַּק</he></cite>); a. e.—Pl. <he>דַּקִּיקִין</he>, <he>דְּקִי׳</he>, f. <cite ref=\"D01003\"><he>דְּקִיקָן</he></cite>. ",
+				"<cite ref=\"Onkelos Leviticus 16:12\">Targ. O. Lev. XVI, 12</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>minute, tender, little, young</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 27:12\">Lev. R. s. 27</cite>, a. e. <he>בעיר ד׳</he>, <he>בעירא דקיקא</he>, v. <cite ref=\"B01051\"><he>בְּעִיר</he></cite>.—Pl. <he>דַּקִּיקִין</he>, <he>דַּקִּיקַיָּא</he> &c. ",
+				"<cite ref=\"Targum of II Chronicles 33:11\">Targ. II Chr. XXXIII, 11</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:2:19\">Y. Snh. I, 18ᵈ</cite> top; <cite ref=\"Jerusalem Talmud Maaser Sheni 5:4:4\">Y. Maas. Sh. V, 56ᶜ</cite> top <he>גוזליא ד׳</he> the pigeons are yet very small. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:12:4\">Y. Bets. I, end, 61ᵃ</cite> <he>טליין ד׳</he> young children. Y. B. Mets. VI, end, 5ᶜ <he>בנין ד׳</he> <i>minors</i>. ",
+				"<cite ref=\"Yoma 2a:8\">Ib.</cite> <he>מהו דיימרון דקיקייא וכ׳</he> can the minors say to the adults &c.? <cite ref=\"Yoma 2a:8\">Ib.</cite> <cite ref=\"D00999\"><he>דקוקיא</he></cite> (corr. acc.).—[<cite ref=\"Targum Jonathan on Genesis 19:11\">Targ. Y. Gen. XIX, 11</cite> <he>מִדַּקִּיקֵיהוֹן</he> Ar., ed. <cite ref=\"M01007\"><he>מטליא</he></cite>.]—Y. Ber. I, 2ᵃ <he>כופרניא ד׳</he> (the inhabitants of) small villages (living in scattered dwellings).—Fem. <cite ref=\"D01004\"><he>דַּקִּיקָן</he></cite>, <he>דַּקִּיקָתָא</he>. Targ. II Esth. IX, 19 <he>קירוי ד׳</he> (h. text <he>ערי הפרזות</he>).—Y. Gitt. V, 47ᶜ top <he>אילין ד׳</he> the traps for small animals. ",
+				"<cite ref=\"Jerusalem Talmud Demai 5:2:7\">Y. Dem. V, 24ᶜ</cite> bot.—V. <cite ref=\"D01016\"><he>דְּקָקָה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

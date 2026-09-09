@@ -1,0 +1,23 @@
+{
+	"id": "D00732",
+	"slug": "דירה-2",
+	"headword": {
+		"text": "דִּירָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 305,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. name of <i>a grain worm</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 9:2\">Par. IX, 2</cite>; cmp. <cite ref=\"D00349\"><he>דּוּרָא</he> III</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "K00856",
+	"slug": "כניש",
+	"headword": {
+		"text": "כְּנִישׁ"
+	},
+	"page": {
+		"number": 649,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00881\"><he>כְּנַשׁ</he></cite>) <i>festive gathering</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 16:8\">Targ. O. Deut. XVI, 8</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 7:9\">Targ. II Chr. VII, 9</cite> (h. text <cite ref=\"P01136\"><he>עצרת</he></cite>)."
+			]
+		}
+	]
+}

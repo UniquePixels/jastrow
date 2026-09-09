@@ -1,0 +1,41 @@
+{
+	"id": "I00318",
+	"slug": "טיהרא",
+	"headword": {
+		"text": "טִיהֲרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִהֲ׳"
+		}
+	],
+	"page": {
+		"number": 530,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"I00317\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Berakhot 59a\">Ber. 59ᵃ</cite> bot. <he>אימת מתחזי בטִיהֲרֵיה</he> Ms. M. (ed. only <he>אימתי</he>) when is the sky seen in its brightness?—Pl. <he>טִיהֲרִין</he>, <cite ref=\"I00318\"><he>טִהֲ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 4:11\">Targ. Jer. IV, 11</cite> <he>רוח ט׳</he> a clearing, sweeping wind (h. text <cite ref=\"R00266\"><he>צח</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. Targ. Jer. l. c.) <i>cold wind, cold</i> (cmp. <cite ref=\"A02578\"><he>אִסְתָּנָא</he></cite>). Lam. R. introd. (R. Joh. 1) <he>בט׳ ובקייטא</he> in cold weather and in summer heat.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. <he>צהרים</he>) <i>midday</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:29\">Targ. O. Deut. XXVIII, 29</cite>; a. fr.—",
+				"<cite ref=\"Yoma 59a:9\">Yoma 59ᵃ</cite>, a. e., v. <cite ref=\"I00103\"><he>טֹהַר</he></cite>. ",
+				"<cite ref=\"Shabbat 63a:9\">Sabb. 63ᵃ</cite> <he>שרגא בט׳</he> a lamp at noon (useless thing); <cite ref=\"Chullin 60b\">Ḥull. 60ᵇ</cite>; a. fr.—Pl. <he>טִיהֲרַיָּא</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 91:6\">Targ. Ps. XCI, 6</cite> Ms. (ed. sing.), <cite ref=\"Aramaic Targum to Psalms 37:6\">Ib. XXXVII, 6</cite> Ms. (ed. sing.)."
+			],
+			"label": "3"
+		}
+	]
+}

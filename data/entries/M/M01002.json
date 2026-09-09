@@ -1,0 +1,24 @@
+{
+	"id": "M01002",
+	"slug": "מטלון",
+	"headword": {
+		"text": "מַטְלוֹן"
+	},
+	"page": {
+		"number": 767,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00508\"><he>טָלַל</he></cite>, v. <cite ref=\"I00490\"><he>טִלְטֵל</he></cite>; cmp. ",
+			"units": [
+				"<cite ref=\"Jeremiah 22:26\">Jer. XXII, 26</cite>) <i>exile, place of banishment</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 7:3\">Num. R. s. 7</cite> <he>מ׳ של טרודין</he> the place of exile for those condemned to banishment. ",
+				"<cite ref=\"Devarim Rabbah 2\">Deut. R. s. 2</cite>; <cite ref=\"Devarim Rabbah 6\">ib. s. 6</cite>, v. <cite ref=\"I00712\"><he>טָרַד</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "N00106",
+	"slug": "נברא",
+	"headword": {
+		"text": "נְבָרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְבָארָא"
+		}
+	],
+	"page": {
+		"number": 870,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"B01156\"><he>בַּר</he> I</cite>; corresp. to h. <cite ref=\"O00524\"><he>סִיב</he></cite>) <i>covering, bast, bark</i> (Syr. <he>נברא</he> fibrae palmarum, P. Sm. 2273). ",
+			"units": [
+				"<cite ref=\"Shabbat 30b:11\">Sabb. 30ᵇ</cite> <he>וְאַכְּלֵי מילת נ׳ בר קורא</he> and as to (something corresponding to) fine woolen garments, he showed him the bark of a young palm-shoot. ",
+				"<cite ref=\"Shabbat 90b:4\">Ib. 90ᵇ</cite> <he>דיקלא דחד נ׳</he> (ed. <he>נבארא</he>) a palm which has only one covering; <cite ref=\"Eruvin 58a:7\">Erub. 58ᵃ</cite> (expl. <cite ref=\"N01261\"><he>נרגילא</he></cite>) <he>דיקלא דחד נ׳</he> (a rope made of fibres of) a palm &c.—",
+				"<cite ref=\"Chullin 51b:16\">Ḥull. 51ᵇ</cite> <he>נ׳ חיישינן</he> if an animal fell upon a pile of dried bark, we apprehend internal injury (v. <cite ref=\"T00659\"><he>רִיסּוּק</he></cite>)."
+			]
+		}
+	]
+}

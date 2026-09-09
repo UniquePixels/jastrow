@@ -1,0 +1,46 @@
+{
+	"id": "E00328",
+	"slug": "הי-2",
+	"headword": {
+		"text": "הֵי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 343,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " interj. (b. h. <he>הִא</he>) <i>behold, here is</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 5:1:4\">Y. Succ. V, beg. 55ᵃ</cite> <he>הי לך מצה</he> here is unleavened bread for thee. Combined <cite ref=\"E00400\"><he>הֵילָךְ</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 5:1:4\">Ib.</cite>—",
+				"<cite ref=\"Bava Metzia 4a\">B. Mets. 4ᵃ I</cite> owe thee only fifty Zuz, <he>וה׳</he> and here they are.—Hence (law) <i>helakh, the instantaneous delivery of the amount confessed</i>, while the creditor claims a larger amount. ",
+				"<cite ref=\"Bava Metzia 4a\">Ib.</cite> <he>ה׳ פטור וכ׳</he> if one delivers one portion of the claim (says, ‘here it is’), he is exempt from taking an oath (as one who confesses a part of a claimed debt otherwise must do); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (interrog.) <i>which?</i> <cite ref=\"Chullin 14a:3\">Ḥull. 14ᵃ</cite> <he>הי ר׳ יהודה</he> which R. Judah, i.e. to which opinion of R. J. do you allude? <cite ref=\"Shabbat 9b:2\">Sabb. 9ᵇ</cite> <he>הי סמוך וכ׳</he> which ‘near Minḥah’ is meant in the Mishnah?—",
+			"units": [
+				"<cite ref=\"Chullin 49b:14\">Ḥull. 49ᵇ</cite> <he>הי מינייהו</he> which of them (eventually closes up a hole in the entrails); a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>where?</i> <cite ref=\"Berakhot 31a:3\">Ber. 31ᵃ</cite> <he>הי תורה וכ׳</he> where is the law, and where the good deeds to protect us?—",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 5:23\">Targ. Y. Deut. V, 23</cite>, v. <cite ref=\"D00918\"><he>דֵּן</he></cite>.—<he>הי דינו</he>, v. <cite ref=\"E00369\"><he>הַיְידְּנוּ</he></cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>as, like</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:41\">Targ. Y. I Deut. XXXII, 41</cite> <he>הֵיא ברק</he> (not <cite ref=\"E00331\"><he>הִיא</he></cite>) as lightning. Mostly <he>הי כ־</he>; comb. <cite ref=\"E00373\"><he>היכ־</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 25:40\">Targ. Y. Lev. XXV, 40</cite>, v. <cite ref=\"E00374\"><he>הֵיךְ</he></cite>."
+			],
+			"label": "4"
+		}
+	]
+}

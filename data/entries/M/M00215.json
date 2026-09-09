@@ -1,0 +1,34 @@
+{
+	"id": "M00215",
+	"slug": "מגרופית",
+	"headword": {
+		"text": "מַגְרוֹפִית"
+	},
+	"page": {
+		"number": 730,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C01388\"><he>גָּרַף</he></cite>; v. <cite ref=\"M00223\"><he>מַגְרֵפָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>spade, shovel</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 16:1\">Gen. R. s. 16</cite>, beg. <he>ארבעה … פותק במ׳ אחת</he> he divided off the course of four river-heads with one (cut of the) spade."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>trowel</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 6:1\">Pesik. R. s. 6</cite> [read:] <he>לא נשבר לא מ׳ וכ׳</he> no trowel nor axe was broken; <cite ref=\"Yalkut Shimoni on Nach 186:1\">Yalk. Kings 186</cite> <cite ref=\"M00217\"><he>מגרופת</he></cite> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "B00357",
+	"slug": "בורטיא",
+	"headword": {
+		"text": "בּוּרְטְיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 150,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a corrupt. of verutum, βηρύττα, S.) <i>spit</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 146a:8\">Sabb. 146ᵃ</cite> <he>למיברז … בב׳</he> to break open a barrel (of dates) by jamming a spit between the splices (Ms. M. <he>קורבוי׳</he>, Alf. ed. Cost. <cite ref=\"B01226\"><he>בּרְזִיתָא</he></cite>). ",
+				"<cite ref=\"Sanhedrin 27b:1\">Snh. 27ᵇ</cite> top <he>קתא דב׳</he> the handle of a burtya."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "B00041",
+	"slug": "באר-1",
+	"headword": {
+		"text": "בָּאַר"
+	},
+	"page": {
+		"number": 135,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<cite ref=\"B00005\"><he>בא</he></cite>, v. <cite ref=\"B00199\"><he>בּוֹא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to break forth, come to light</i>. Denom. <cite ref=\"B00043\"><he>בְּאֵר</he></cite>; cmp. <cite ref=\"I00195\"><he>טוּף</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be open, clear.—Pi</i>. <he>בֵּאֵר</he> (b. h.) <i>to proclaim</i> (cmp. ",
+			"units": [
+				"<cite ref=\"Deuteronomy 1:5\">Deut. I, 5</cite>), <i>to explain; to make clear</i> (<i>to one’s self</i>), <i>to understand clearly</i>. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:7:5\">Y. M. Kat. III, 83ᵇ</cite> top <he>לבָאֵר משנתו</he> to explain (argue on) what he has learned. ",
+				"<cite ref=\"Kohelet Rabbah 6:9\">Koh. R. to VI, 9</cite> better is he <he>שהוא מְבָאֵר משנתו וכ׳</he> who dwells on his studies to make them clear to himself, than he who learns to recite fluently.—Part. pass. <he>מְבֹאָר</he> <i>proven, clear</i>. ",
+				"<cite ref=\"Mishnah Yadayim 3:1\">Yad. III, 1</cite> <he>מ׳ הדבר</he> (Talm. ed. <he>מ׳ את הד׳</he>) from this fact it is proven."
+			],
+			"label": "2"
+		}
+	]
+}

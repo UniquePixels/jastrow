@@ -1,0 +1,48 @@
+{
+	"id": "D01015",
+	"slug": "דקק-2",
+	"headword": {
+		"text": "דְּקַק"
+	},
+	"page": {
+		"number": 319,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"D01014\">same</cite>, v. <cite ref=\"D01004\"><he>דקיק</he></cite>.—Imperat. <cite ref=\"D00324\"><he>דּוֹק</he></cite> (v. <cite ref=\"D00325\"><he>דּוּק</he></cite>). ",
+			"units": [
+				"<cite ref=\"Shabbat 152a\">Sabb. 152ᵃ</cite> <he>ד׳ בככי וכ׳</he> grind with thy jaws (eat well), and thou wilt find (its effect) in marching."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דַּקֵּק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"D01014\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 101a:5\">B. Kam. 101ᵃ</cite> <he>ודַקִּינְהוּ</he> and pounded them.—<i>Part. pass.</i> (<he>מִדְקַק</he>) <he>מְדַקַּק</he>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 30:14\">Targ. Is. XXX, 14</cite> (h. text <cite ref=\"K01356\"><he>כָּתוּת</he></cite>).—<i>Palp.</i> <cite ref=\"D00990\"><he>דַּקְדֵּק</he></cite> q. v."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַדֵּק", "(הַדֵּק) אַדֵּיק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"D01014\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 23:15\">Targ. II Kings XXIII, 15</cite>; <cite ref=\"Targum of II Chronicles 34:4\">Targ. II Chr. XXXIV, 4</cite> <he>אודיק</he>.—",
+						"<cite ref=\"Bereishit Rabbah 70\">Gen. R. s. 70</cite> <he>מְהַדֵּק</he>, v. <cite ref=\"C01354\"><he>גַּרְמָא</he></cite>. Lam. R. introd. (R. Ḥǎnina 2) <he>אכלה ומַדְּקָה</he> (fr. ",
+						"<cite ref=\"Daniel 7:7\">Dan. VII, 7</cite>). [<cite ref=\"Targum Jerusalem, Numbers 5:19\">Targ. Y. II, Num. V, 19</cite> <he>הִדַּקִּי</he> = <he>הִזְדַּקִּי</he>, v. <cite ref=\"G00653\"><he>זְקַק</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

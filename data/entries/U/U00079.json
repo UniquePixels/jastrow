@@ -1,0 +1,36 @@
+{
+	"id": "U00079",
+	"slug": "שבועא-1",
+	"headword": {
+		"text": "שָׁבוּעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁבוּעַתָּא"
+		},
+		{
+			"text": "שְׁבַעְתָּא"
+		}
+	],
+	"page": {
+		"number": 1510,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. <cite ref=\"U00078\">same</cite>, <i>week</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 29:27\">Targ. O. Gen. XXIX, 27</cite>, sq. ed. Berl. (oth. ed. <cite ref=\"U00080\"><he>שְׁבוּעֲתָא</he></cite>; ed. Ven. <he>עָתָא …</he>). ",
+				"<cite ref=\"Onkelos Leviticus 23:16\">Targ. Lev. XXIII, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 1:4\">Targ. Job I, 4</cite> <he>דשבעתא</he> Ms. (ed. <cite ref=\"U00163\"><he>שַׁבְעָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 1:13\">Ib. 13</cite> <he>שבע׳</he> Ms. (ed. <he>שבוע׳</he>); a. e.—Pl. <he>שָׁבוּעִין</he>, <he>שָׁבוּעַיָּא</he>, <he>שָׁבוּעֵי</he>; <cite ref=\"U00080\"><he>שְׁבוּעָן</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 16:9\">Targ. Deut. XVI, 9</cite>, sq. ",
+				"<cite ref=\"Onkelos Leviticus 23:15\">Targ. Lev. XXIII, 15</cite>; a. e.—Meg. Taan. ch. I; <cite ref=\"Taanit 17b\">Taan. 17ᵇ</cite>; <cite ref=\"Menachot 65a:8\">Men. 65ᵃ</cite> <he>חגא דש׳</he> the Feast of Weeks. ",
+				"<cite ref=\"Menachot 66a:10\">Ib. 66ᵃ</cite> <he>מצוה למימני … ש׳</he> it is proper to count (the ‘Omer) by days and by weeks; <cite ref=\"Chagigah 17b:8\">Ḥag. 17ᵇ</cite>; <cite ref=\"Rosh Hashanah 5a:5\">R. Hash. 5ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

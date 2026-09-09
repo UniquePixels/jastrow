@@ -1,0 +1,45 @@
+{
+	"id": "S01484",
+	"slug": "קמץ-2",
+	"headword": {
+		"text": "קְמַץ"
+	},
+	"page": {
+		"number": 1386,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01483\">same</cite><i>to grab, take a fistful</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 2:2\">Targ. Lev. II, 2</cite>; <cite ref=\"Onkelos Leviticus 5:12\">V, 12</cite>.—",
+				"<cite ref=\"Menachot 11a:13\">Men. 11ᵃ</cite> <he>כדקַמְצֵי אינשי</he> as people ordinarily grab (putting the hand in and taking a handful of flower out). ",
+				"<cite ref=\"Bereishit Rabbah 5\">Gen. R. s. 5</cite>, v. <cite ref=\"H01459\"><he>חֲפַן</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to press, close</i> (<i>the eye</i>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 14:1:2\">Y. Sabb. XIV, beg. 14ᵇ</cite> <he>דו קָמֵיץ חדא וכ׳</he> for it (the deer in sleep) closes one eye &c., v. preced.—Part. pass. <he>קְמִיץ</he>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 8:14\">Targ. Cant. VIII, 14</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to scrape off</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 50a:5\">Ḥull. 50ᵃ</cite> <he>קְמוֹץ הב וכ׳</he> scrape the surface off and give me (the fat) to eat. ",
+				"<cite ref=\"Chullin 50a:4\">Ib.</cite> <he>קַמְצוּ וכ׳</he> they scraped the surface off and &c."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to leap</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 63a\">Ber. 63ᵃ</cite> <he>קְמֹץ</he> Ms. M. (ed. <cite ref=\"S00039\"><he>קבוץ</he></cite>; Ms. F. <cite ref=\"S01721\"><he>קפוץ</he></cite>), v. <cite ref=\"G00174\"><he>זוּל</he></cite> I ch."
+			],
+			"label": "4"
+		}
+	]
+}

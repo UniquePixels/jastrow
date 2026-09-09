@@ -1,0 +1,22 @@
+{
+	"id": "O01114",
+	"slug": "סממנית",
+	"headword": {
+		"text": "סַמְמָנִית"
+	},
+	"page": {
+		"number": 1002,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01113\">preced.</cite>), pl. <he>סַמְמָנִיּוֹת</he>, <cite ref=\"O00714\"><he>סַמָּנִ׳</he></cite> <i>writing colors, inks</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 12:3\">Sabb. XII, 3</cite> (<cite ref=\"Shabbat 103a:8\">103ᵃ</cite>) <he>משתי ס׳</he> with two inks, v. <cite ref=\"O00717\"><he>סִימָנִית</he></cite>."
+			]
+		}
+	]
+}

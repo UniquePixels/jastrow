@@ -1,0 +1,25 @@
+{
+	"id": "G00354",
+	"slug": "זילא",
+	"headword": {
+		"text": "זִילָא"
+	},
+	"page": {
+		"number": 394,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " part. f. of <cite ref=\"G00174\"><he>זוּל</he></cite>; ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " m. = <cite ref=\"G00357\"><he>זִילוּתָא</he></cite> <i>low valuation</i>.—Pl. <he>זִילֵי</he>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 52b:14\">B. Mets. 52ᵇ</cite>, v. <cite ref=\"G00499\"><he>זְלַל</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

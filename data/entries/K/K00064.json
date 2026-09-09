@@ -1,0 +1,32 @@
+{
+	"id": "K00064",
+	"slug": "כבן-1",
+	"headword": {
+		"text": "כָּבַן"
+	},
+	"page": {
+		"number": 608,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"K00060\"><he>כָּבַל</he></cite>) <i>to clasp, fasten</i>. Part. pass. <he>כָּבוּן</he>, f. <cite ref=\"K00042\"><he>כְּבוּנָה</he></cite>, pl. <he>כְּבוּנוֹת</he> <i>clasped</i>, esp. <i>sheep wearing a clasped cover</i> (v. <cite ref=\"K00052\"><he>כְּבֵינְתָּא</he></cite>) for the protection of their wool. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 5:2\">Sabb. V, 2</cite>; <cite ref=\"Tosefta Shabbat 4:1\">Tosef. ib. IV</cite> (<cite ref=\"Tosefta Shabbat 5:1\">V</cite>), 1 <he>כ׳ למילת</he> covered for the sake of the fine wool. Bab. ",
+				"<cite ref=\"Shabbat 54a:5\">ib. 54ᵃ</cite> <he>שמְכַבְּנִין אותן למילת</he> (not <he>אותו</he>).—V. <cite ref=\"K00050\"><he>כְּבֵינָא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּבֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to clasp a wrap; to wrap up</i>. Sabb. l. c., v. supra. Ib. (defining <he>צמר לבן</he>) <he>כצמר נקי … שמְכַבְּנִין אוֹתוֹ למילת</he> like the wool of a new-born lamb which they wrap up for the sake of the wool; <cite ref=\"Shevuot 6b\">Shebu. 6ᵇ</cite> <he>שמכבנין אותו</he> Ms. M. (ed. incorr. <cite ref=\"B00198\"><he>בו</he></cite>).",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

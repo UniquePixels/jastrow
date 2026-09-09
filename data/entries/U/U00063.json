@@ -1,0 +1,27 @@
+{
+	"id": "U00063",
+	"slug": "שבאה",
+	"headword": {
+		"text": "שַׁבָּאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁבּוֹיָא"
+		}
+	],
+	"page": {
+		"number": 1510,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = next w.—Pl. <cite ref=\"U00064\"><he>שַׁבָּאֵי</he></cite>, <cite ref=\"U00075\"><he>שַׁבּוֹיֵי</he></cite>. Lam. R. introd. (R. Joḥ. 1) Moses said to them <he>ש׳ אי בחייכון אתון קטולי וכ׳</he> you captors, oh, by your own lives, (I adjure you,) do not commit merciless slaughter. ",
+			"units": [
+				"<cite ref=\"Ketubot 23a:15\">Keth. 23ᵃ</cite> <he>אוקמן לשַׁבּוֹיִינְהִי וכ׳</he> (Rashi <he>לשבוייהי</he>) they let their captors stand outside of the college &c."
+			]
+		}
+	]
+}

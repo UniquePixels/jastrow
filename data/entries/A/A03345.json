@@ -1,0 +1,22 @@
+{
+	"id": "A03345",
+	"slug": "אשקלתא",
+	"headword": {
+		"text": "אַשְׁקַלְתָּא"
+	},
+	"page": {
+		"number": 130,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שקל</he>) <i>transaction, sale</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 48b:8\">B. Bath. 48ᵇ</cite> signed as one of the witnesses <he>אמודעא ואא׳</he> both on the owner’s protest against the forced sale and on the deed of sale."
+			]
+		}
+	]
+}

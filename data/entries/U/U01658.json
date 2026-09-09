@@ -1,0 +1,23 @@
+{
+	"id": "U01658",
+	"slug": "שעיף",
+	"headword": {
+		"text": "שְׁעִיף"
+	},
+	"page": {
+		"number": 1610,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"U01678\"><he>שְׁעַף</he></cite>) <i>gum, balm</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:17\">Targ. Ez. XXVII, 17</cite> (h. text <cite ref=\"R00759\"><he>צרי</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 46:11\">Targ. Jer. XLVI, 11</cite>; <cite ref=\"Targum Jonathan on Jeremiah 51:8\">LI, 8</cite> (not <cite ref=\"U01658\"><he>שֵׁעִיף</he></cite>)."
+			]
+		}
+	]
+}

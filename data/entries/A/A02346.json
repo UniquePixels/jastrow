@@ -1,0 +1,28 @@
+{
+	"id": "A02346",
+	"slug": "אסטאטיבא",
+	"headword": {
+		"text": "אִסטָאטִיבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסטָטִיבָה"
+		}
+	],
+	"page": {
+		"number": 89,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (stativa, sub. castra) <i>resting station</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 10\">Gen. R. s. 10</cite> end <he>עשה א׳</he> to take a rest. ",
+				"<cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite> <cite ref=\"A02364\"><he>אסטטיא</he></cite>, read <cite ref=\"A02365\"><he>אִסְטָטִיוָא</he></cite>."
+			]
+		}
+	]
+}

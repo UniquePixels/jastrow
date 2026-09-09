@@ -1,0 +1,40 @@
+{
+	"id": "A00644",
+	"slug": "אוכלא-1",
+	"headword": {
+		"text": "אוּכְלָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 25,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"A00643\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 78:18\">Targ. Ps. LXXVIII, 18</cite> (Ms. <cite ref=\"M01153\"><he>מֵיכְלָא</he></cite>).—",
+				"<cite ref=\"Yoma 80b:8\">Yoma 80ᵇ</cite> <he>כל אכשורי א׳ א׳ הוא</he> whatever is used for seasoning food, is considered as food."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the digested food found in the entrails, excrements</i>, cmp. <cite ref=\"T00889\"><he>רעי</he></cite>.—",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 1:16\">Targ. Lev. I, 16</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>an eye-disease, itching</i> (cmp. <cite ref=\"H00483\"><he>חוּרְשָׁא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 28b:12\">Ab. Zar. 28ᵇ</cite> <he>תחלת א׳</he> the incipiency of &c., <he>סוף א׳</he> last stage (near recovery)."
+			],
+			"label": "3"
+		}
+	]
+}

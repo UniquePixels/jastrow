@@ -1,0 +1,40 @@
+{
+	"id": "S02272",
+	"slug": "קשת-3",
+	"headword": {
+		"text": "קֶשֶׁת",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קַשְׁתָּא"
+		}
+	],
+	"page": {
+		"number": 1433,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S02271\">same</cite><i>bow; rainbow</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 21:15\">Targ. Is. XXI, 15</cite>. ",
+				"<cite ref=\"Onkelos Genesis 21:16\">Targ. Gen. XXI, 16</cite>. ",
+				"<cite ref=\"Onkelos Genesis 9:13\">Ib. IX, 13</cite>; a. fr.—Pl. <he>קַשְׁתִּין</he>, <cite ref=\"S02272\"><he>קַשְׁתָּן</he></cite>, <he>קַשְׁתָּתָא</he>, <he>קַשְׁוָותָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 7:24\">Targ. Is. VII, 24</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 26:14\">Targ. II Chr. XXVI, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 2:4\">Targ. I Sam. II, 4</cite> <cite ref=\"S02272\"><he>קַשְׁתַּת</he></cite> constr. (followed by <he>ד־</he>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 21:20\">Targ. Y. Gen. XXI, 20</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 37:14\">Targ. Ps. XXXVII, 14</cite>, sq.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the curved side of the stomach</i>, opp. to <cite ref=\"J00751\"><he>יִתְרָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Chullin 50a:2\">Ḥull. 50ᵃ</cite> <he>דאק׳</he> the fat covering the curved &c."
+			],
+			"label": "2"
+		}
+	]
+}

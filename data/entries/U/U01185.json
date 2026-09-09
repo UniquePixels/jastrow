@@ -1,0 +1,55 @@
+{
+	"id": "U01185",
+	"slug": "שכר-4",
+	"headword": {
+		"text": "שָׁכַר"
+	},
+	"page": {
+		"number": 1576,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to fill, saturate; to drink freely</i>.—Part. pass. <he>שָׁכוּר</he>; f. <cite ref=\"U01133\"><he>שְׁכוּרָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Taanit 22b:19\">Taan. 22ᵇ</cite> <he>לא ש׳ ולא צמאה וכ׳</he> that the soil be neither soaked nor thirsty, but between the two extremes. ",
+				"<cite ref=\"Midrash Tehillim 35:1\">Midr. Till. to Ps. XXXV</cite> (ref. to <cite ref=\"Isaiah 51:21\">Is. LI, 21</cite>) <he>וממה את ש׳ מן הצרות וכ׳</he> and wherefrom art thou drunk? From the troubles, but not from too much wine; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁכֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to make drunk, intoxicate</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 64b:13\">Erub. 64ᵇ</cite> <he>דרך … מְשַׁכַּרְתּוֹ</he> walking (after drinking) makes him unsteady, and sleep makes him drunk; <cite ref=\"Taanit 17b\">Taan. 17ᵇ</cite>. Erub. l. c. <he>רביעית … מְשַׁכֵּר</he> one fourth of a Log of Italian wine intoxicates. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:4\">Cant. R. to I, 4</cite> <he>ועשו … ושִׁכְּרַתּוֹ וכ׳</he> they made a great feast, and she made him drink more than enough; <cite ref=\"Yalkut Shimoni on Torah 15\">Yalk. Gen. 15</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["חִשְׁתַּכֵּר"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִשְׁתַּכֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be, become intoxicated</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 8b:13\">Keth. 8ᵇ</cite> <he>התחילו … ומִשְׁתַּכְּרִין וכ׳</he> when they began to drink (at the mourners’ meals) and get intoxicated &c. ",
+						"<cite ref=\"Sanhedrin 42a:10\">Snh. 42ᵃ</cite> <he>אל יִשְׁתַּכְּרוּ</he>, v. <cite ref=\"T00459\"><he>רָז</he></cite>. ",
+						"<cite ref=\"Esther Rabbah 6:1\">Esth. R. to III, 9</cite> <he>אכלו ושתו ונִשְׁתַּכְּרוּ וכ׳</he> they ate and drank, and became drunk, and acted disgracefully. ",
+						"<cite ref=\"Bamidbar Rabbah 10:8\">Num. R. s. 10<sup>8</sup></cite> <he>דברים שלא יִשְׁתַּכֵּר מהם</he> things from which one cannot become intoxicated; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

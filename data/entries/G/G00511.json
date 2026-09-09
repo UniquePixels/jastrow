@@ -1,0 +1,39 @@
+{
+	"id": "G00511",
+	"slug": "זמורה",
+	"headword": {
+		"text": "זְמוֹרָה"
+	},
+	"page": {
+		"number": 402,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"G00539\"><he>זָמַר</he> I)</cite><i>vine-shoot, vine-rod</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 17:6\">Sabb. XVII, 6</cite> <he>ז׳ שהיא וכ׳</he> a rod which is tied to a pitcher (to let it down into the well); a. e.—Esp. <i>the rod as an officer’s badge and punishing instrument</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 18:9\">Num. R. s. 18</cite> <he>וליתן לו ז׳</he> and to give him the rod (appoint him an officer).—בעל הז׳ <i>carrier of the rod</i> (among the Romans <i>Centurio</i>, v. Sm. Ant. s. v.). ",
+				"<cite ref=\"Shabbat 145b:14\">Sabb. 145ᵇ</cite> <he>ובעלי ז׳</he> Ms. M. (ed. <he>ובעל</he>) and Centuriones, v. <cite ref=\"E00074\"><he>הֶגְמוֹן</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 9:12:4\">Y. Sot. IX, 24ᵇ</cite> top (rank of officers) <he>בעל האגמון בעל הז׳ וכ׳</he> cane-bearer, rod-bearer, strap-bearer; <cite ref=\"Tosefta Sotah 15:7\">Tosef. ib. XV, 7</cite> (variously corrupted, v. Var. in ed. Zuck.). ",
+				"<cite ref=\"Midrash Tehillim 73:2\">Midr. Till. to Ps. LXXIII</cite>, end; <cite ref=\"Yalkut Shimoni on Nach 808:8\">Yalk. ib. 808</cite>. ",
+				"<cite ref=\"Shemot Rabbah 21\">Ex. R. s. 21</cite>, end; a. fr.—<i>Pl.</i> <cite ref=\"G00089\"><he>זְמוֹרוֹת</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 31\">Gen. R. s. 31</cite>, end <he>ז׳ לפילים</he> vine-rods as food for elephants; <he>ז׳ לנטיעות</he> shoots for future plantation."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>membrum virile, phallus</i>. Tanḥ. Ki Thetsé 10 the Israelites did not know <he>מה טיבה של ז׳</he> the idolatrous function of the phallus (with ref. to <cite ref=\"Ezekiel 8:17\">Ez. VIII, 17</cite>). ",
+			"units": [
+				"<cite ref=\"Ezekiel 8:17\">Ib.</cite> <he>חיכך … את הז׳</he> Esau giggled and produced the phallus; Pesik. Zakhor, p. 27ᵇ. ",
+				"<cite ref=\"Bamidbar Rabbah 13:3\">Num. R. s. 13</cite>. ",
+				"<cite ref=\"Pesikta Rabbati 7:1\">Pesik. R. s. 7</cite> <he>בחירופיו … ובז׳</he> with his (Amalek’s) blasphemies and by throwing up the phallus (taken from the mutilated Israelitish bodies). ",
+				"<cite ref=\"Pesikta Rabbati 7:1\">Ib.</cite> <he>זְמוֹרָתָם של וכ׳</he> the membra of Israelites; <cite ref=\"Bamidbar Rabbah 13:3\">Num. R. s. 13</cite> <he>(זַכְרוּתָן</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "M03008",
+	"slug": "מתאכלי",
+	"headword": {
+		"text": "מְתָאכְלֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 860,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (cmp. <cite ref=\"A01651\"><he>אִיתְכָּלָא</he></cite>), <he>מ׳ דתומי</he> <i>bunches of garlic</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 86a:2\">B. Bath. 86ᵃ</cite>, v. <cite ref=\"M01860\"><he>מְסוּבְלָא</he></cite>."
+			]
+		}
+	]
+}

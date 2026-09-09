@@ -1,0 +1,32 @@
+{
+	"id": "O00911",
+	"slug": "סכל-3",
+	"headword": {
+		"text": "סָכַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 991,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"O00903\"><he>סָכַךְ</he> I</cite>)",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>הִסְתַּכֵּל</he> <i>to become confused</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 2a:23\">Meg. 2ᵃ</cite> <he>הואיל ומִסְתַּכְּלִין וכ׳</he> because (if the M’gillah were read on any other day) they might be confused by it (in their calculations as to Passover), therefore they must read it on its proper day; [oth. explan., v. Rashi and Alfasi a. l.—Var. <he>ומסתכנין</he>, v. <cite ref=\"O00923\"><he>סָכַן</he> II</cite>]; Tosef. ib. I, 3 <he>הואיל ומסתכלין בה אין מתכנסין אלא בזמנה</he> Var. (ed. Zuck. <he>ומתכנסין</he>, read with Var. <he>ומסתכנין</he>)."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

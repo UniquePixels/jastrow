@@ -1,0 +1,32 @@
+{
+	"id": "H00750",
+	"slug": "חייתא-4",
+	"headword": {
+		"text": "חַיְּיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַיְּתָא",
+			"homograph": 4
+		}
+	],
+	"page": {
+		"number": 455,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חות</he>, cmp. <cite ref=\"N00534\"><he>נְחַת</he></cite> a. Syr. <cite ref=\"H01882\"><he>חתא</he></cite> <i>pera</i> a. <i>trabs</i>, P. Sm. 1408) <i>pouch, bag</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 45b:12\">Gitt. 45ᵇ</cite> <he>ח׳ דתפילי</he> a bag containing T’fillin. ",
+				"<cite ref=\"Chullin 45a:14\">Ḥull. 45ᵃ</cite> (by play on <cite ref=\"H00750\"><he>חייתא</he></cite> <i>life</i> a. <i>bag</i>) <he>וסימניך ח׳ דמתנח ביה וכ׳</he> and thy sign (to remember which of the two skins is essential for life), the bag in which the cerebrum lies. ",
+				"<cite ref=\"Ketubot 93a:1\">Keth. 93ᵃ</cite>; <cite ref=\"Bava Kamma 9a:2\">B. Kam. 9ᵃ</cite>, a. e. <he>ח׳ דקטרי וכ׳</he> thou wast satisfied to buy a pouch sealed with knots, i.e. it is your fault that you did not examine the purchase.—",
+				"<cite ref=\"Gittin 47a:4\">Gitt. 47ᵃ</cite>, v. <cite ref=\"C00876\"><he>גַּלְגַּלְתָּא</he></cite>. ",
+				"<cite ref=\"Gittin 47a:4-5\">Ib.</cite> <he>כל … אמחיה ח׳ ופלגא</he> I will give each of you one blow with the whole bag, and one blow with half of it."
+			]
+		}
+	]
+}

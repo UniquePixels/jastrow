@@ -1,0 +1,25 @@
+{
+	"id": "B00548",
+	"slug": "ביבר",
+	"headword": {
+		"text": "בִּיבָר"
+	},
+	"page": {
+		"number": 159,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (vivarium, βιβάριον) <i>vivarium</i>, an enclosure in which live game, fish &c. (also wild beasts) are kept. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 39a:10\">Snh. 39ᵃ</cite> <he>לשדיוה לב׳</he> must be thrown into the vivarium. ",
+				"<cite ref=\"Sanhedrin 39a:10\">Ib.</cite> <he>שדיוה וכ׳</he> they threw him &c. but they (the beasts) did not eat him. ",
+				"<cite ref=\"Beitzah 24a:9\">Bets. 24ᵃ</cite>; a. fr.—Pl. <he>בִּיבָרִים</he>, <he>בִּיבָרִין</he>. ",
+				"<cite ref=\"Mishnah Beitzah 3:1\">Ib. III, 1</cite>; a. fr. v. <cite ref=\"B00550\"><he>בִּיבָרְיָא</he></cite>."
+			]
+		}
+	]
+}

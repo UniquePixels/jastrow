@@ -1,0 +1,30 @@
+{
+	"id": "A01075",
+	"slug": "אטונס",
+	"headword": {
+		"text": "אֲטוּנָס"
+	},
+	"altHeadwords": [
+		{
+			"text": "טוּנָס"
+		}
+	],
+	"page": {
+		"number": 42,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. θύννος; v. Sm. Ant. s. v.) <i>tunny-fish</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 66b\">Ḥull. 66ᵇ</cite>; <cite ref=\"Avodah Zarah 39a\">Ab. Zar. 39ᵃ</cite> Ms. M. (ed. <he>אוט׳</he>). ",
+				"<cite ref=\"Tosefta Chullin 3:5\">Tosef. Ḥull. III</cite> (<cite ref=\"Tosefta Chullin 4:27\">IV</cite>), 27 <cite ref=\"A02312\"><he>אַנְתִּינִיס</he></cite> ed. Zuck. (Var. <cite ref=\"A02312\"><he>אַנְתִּינוֹס</he></cite>). ",
+				"<cite ref=\"Tosefta Chullin 4:27\">Ib.</cite> Kel. ",
+				"<cite ref=\"Mishnah Bava Metzia 2:17\">B. Mets. II, 17</cite> <he>ליטול בטינס</he>; (read as) <cite ref=\"Chullin 25a\">Ḥull. 25ᵃ</cite> <he>להטיהו בטו׳</he> to polish a vessel with the skin of a tunny. *<cite ref=\"Shir HaShirim Rabbah 1:7:1\">Cant. R. to I, 7</cite> <he>כמה מיני אנונס וכ׳</he> (read <he>אטו׳</he>; <cite ref=\"Shemot Rabbah 2\">Ex. R. s. 2</cite> <he>מזונות</he>) how many kinds of tunny fish hast thou prepared for the lying-in among them? V. <cite ref=\"A01742\"><he>אכספטיאס</he></cite>."
+			]
+		}
+	]
+}

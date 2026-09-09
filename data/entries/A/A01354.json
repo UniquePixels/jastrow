@@ -1,0 +1,25 @@
+{
+	"id": "A01354",
+	"slug": "אימרתא",
+	"headword": {
+		"text": "אִימַּרְתָּא"
+	},
+	"page": {
+		"number": 51,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>ewe</i>, v. <cite ref=\"A01350\"><he>אִימַּר</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. f. <i>Immarta</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 52b:2\">Snh. 52ᵇ</cite> Im. daughter of Tali (prob. pseudonyms)."
+			],
+			"label": "2"
+		}
+	]
+}

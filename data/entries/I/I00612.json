@@ -1,0 +1,71 @@
+{
+	"id": "I00612",
+	"slug": "טעם-4",
+	"headword": {
+		"text": "טְעַם",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טְעֵם"
+		},
+		{
+			"text": "טְעֵים"
+		},
+		{
+			"text": "טַעֲמָא"
+		}
+	],
+	"page": {
+		"number": 543,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00611\">same</cite><i>pleasure, will</i>. ",
+			"units": ["<cite ref=\"Daniel 3:10\">Dan. III, 10</cite>; a. e."],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>good cheer</i>. Ib. V, 2.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>reason, argument, sense</i> &c. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 12:20\">Targ. Job XII, 20</cite>; a. e.—",
+				"<cite ref=\"Bava Batra 173b:6\">B. Bath. 173ᵇ</cite> <he>דלא יהבי ט׳ וכ׳</he> who give no reason for their decisions (judge arbitrarily). ",
+				"<cite ref=\"Bava Batra 173b:6\">Ib.</cite>, a. fr. <he>מאי ט׳</he> (abbr. <he>מ״ט</he>) what is the reason (of the law of the Mishnah)?—",
+				"<cite ref=\"Kiddushin 68b:7\">Kidd. 68ᵇ</cite>, a. fr. <he>דריש ט׳ דקרא</he> interprets the biblical law on its reason and accordingly modifies it, extending or limiting, e.g. (<cite ref=\"Bava Metzia 115a:14\">B. Mets. 115ᵃ</cite>) applying the law <cite ref=\"Deuteronomy 24:17\">Deut. XXIV, 17</cite> only to poor widows. ",
+				"<cite ref=\"Deuteronomy 24:17\">Ib.</cite> <he>אלא לרבנן מאי טַעֲמֵיה</he> but according to the Rabbis (who do not interpret the law on its reason), where is the argument for it? (prob. to be read: <he>טַעֲמַיְיהוּ</he>; <cite ref=\"Yevamot 23a:14\">Yeb. 23ᵃ</cite> <he>מנא לן</he>). ",
+				"<cite ref=\"Berakhot 7b:27\">Ber. 7ᵇ</cite> <he>מ״ט לא אתי מר וכ׳</he> why do you not come to synagogue for prayer?—",
+				"<cite ref=\"Berakhot 11a:1\">Ib. 11ᵃ</cite> <he>קא מפרשי טַעֲמַיְיהוּ וט׳ וכ׳</he> they give their reason for their own opinion and for differing with Beth-Sh.—",
+				"<cite ref=\"Ketubot 83b:14\">Keth. 83ᵇ</cite> <he>הלכה כר׳ … ולא מטַעֲמֵיה</he> the rule (practice) is in agreement with R. S.’s opinion, but not for the reason he had for it. Ib. 84ᵃ <he>כטעמיה וכהלכתיה</he> in agreement both with his argument and his legal opinion; a. fr.—",
+				"<cite ref=\"Pesachim 21b:8\">Pes. 21ᵇ</cite>, a. fr. <he>ט׳ דכתב וכ׳</he> the reason (of this) is, because &c., i.e. this is so only because &c.—<he>וּלְטַעֲמֵיךְ</he> now, according to your argument (assuming it to be correct,—what then?). ",
+				"<cite ref=\"Berakhot 43a\">Ber. 43ᵃ</cite>; a. v. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>argument on the cause of bereavement, consolation</i> (v. <cite ref=\"I00528\"><he>טַמָּא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Moed Katan 18a:2\">M. Kat. 18ᵃ</cite> <he>למישאל ט׳ מיניה</he> (Ms. M.; second time, <he>לשיולי ביה ט׳</he>) to get his permission to argue (with him), i.e. to console him. ",
+				"<cite ref=\"Sanhedrin 113a\">Snh. 113ᵃ</cite> [read:] <he>למשאל ביה ט׳</he> (or <cite ref=\"I00529\"><he>טמא</he></cite>, v. Rabb. D. S. a. l. note 7) to console him.—<he>בֵּי טַעֲמָא</he>, v. <cite ref=\"I00528\"><he>טַמָּא</he></cite>."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>taste</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 11:8\">Targ. Num. XI, 8</cite>; a. e.—",
+				"<cite ref=\"Yoma 78b:9\">Yoma 78ᵇ</cite> <he>ט׳ דמיתותא</he> a foretaste of death. ",
+				"<cite ref=\"Horayot 11a:19\">Hor. 11ᵃ</cite>, v. <cite ref=\"I00610\"><he>טְעַם</he></cite>. ",
+				"<cite ref=\"Chullin 97a:5\">Ḥull. 97ᵃ</cite> <he>בט׳</he> it depends on the taste (whether a mixture be forbidden), v. <cite ref=\"I00611\">preced.</cite> ",
+				"<cite ref=\"Chullin 97b:1\">Ib.ᵇ</cite> <he>מין בשאינו מינו … בט׳</he> in case of a mixture of heterogeneous things which are permitted, we decide by the taste; a. fr.—Pl. <he>טַעֲמִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:11\">Targ. Cant. V, 11</cite>; <cite ref=\"Aramaic Targum to Song of Songs 5:13\">13</cite>."
+			],
+			"label": "5"
+		}
+	]
+}

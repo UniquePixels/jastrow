@@ -1,0 +1,55 @@
+{
+	"id": "A01406",
+	"slug": "איסור-3",
+	"headword": {
+		"text": "אִיסּוּר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסּוּר"
+		}
+	],
+	"page": {
+		"number": 53,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אסר</he>; cmp. b. h. <cite ref=\"A01404\"><he>אֵסוּר</he></cite>, a. <cite ref=\"A01404\"><he>אֵיסוּר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>band, chain;</i> trnsf. <i>social circle</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 45b:1\">Succ. 45ᵇ</cite> (ref. to <cite ref=\"Psalms 118:27\">Ps. CXVIII, 27</cite>) <he>כל העושה א׳ לחג וכ׳</he> he who creates a circle for the festival with eating and drinking, i.e. social pleasures. [Oth. explan.: he who makes an <i>addition</i> to the number of festive days;—hence the popular name of <he>אסרו חג</he> for the day following the festivals.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>prohibition, interdict;</i> also <i>the forbidden object</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:4:3\">Y. Ber. I, 3ᵇ</cite> bot. <he>דברי תורה יש בהן א׳ וכ׳</he> the Biblical law contains prohibitions and permissions.—א׳ ערוה <i>an obstacle to marriage by the existing laws of incest</i>, e.g. a man prevented from performing a levirate marriage because his late brother’s wife is his own wife’s sister; &c.—א׳ מצוה <i>a marriage</i> (or sexual connection) <i>permitted in the Torah but forbidden by Rabbinical enactment;</i>—so called because obedience to the Rabbis is a meritorious act (<cite ref=\"M02284\"><he>מצוה</he></cite>); <he>א׳ קדושה</he> <i>marriage restrictions</i> incumbent <i>on priests</i> on account of their sacred office; (another opinion inverts the last two definitions). ",
+				"<cite ref=\"Mishnah Yevamot 2:3\">Yeb. II, 3</cite> (<cite ref=\"Yevamot 20a:5\">20ᵃ</cite>).—<he>אין א׳ חל על א׳</he> one prohibition can take no legal hold where another prohibition already exists; i.e. you can punish, or impose sacrificial expiation, only for the first one; e.g. if you eat the meat of an unclean animal which, besides, has not been slaughtered according to ritual <he>(נבלה</he>). Ib. 13ᵇ; a. fr.—Exceptions to this principle (adopted by most authorities) are when the acceding act is: 1) <he>א׳ כּוֹלֵל</he> <i>a more comprehensive prohibition</i>, i.e. <i>having a wider range of prohibited objects</i>; e.g. the law imposing abstinence from food on the Day of Atonement includes food in general, i.e. food otherwise allowed as well as food forbidden at all times; <he>א׳ מוֹסִיף</he> <i>a more extensive prohibition</i>, i.e. <i>having a wider range of persons concerned;</i> e.g. the sister of A’s wife is forbidden to him (<he>אחות אשתו</he>) but not to his brothers. If, afterwards, his brother B. marries that sister of A.’s wife, she is forbidden in marriage (after B.’s death) to <i>all</i> the brothers as a brother’s wife, and to A. both as his own living wife’s sister and as his late brother’s wife <he>(אשת אח</he>);"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " א׳ בַּת אַחַת <i>a coincidental prohibition</i>, i.e. two prohibitions <i>taking effect at the same moment</i>, e.g. the Day of Atonement coinciding with the Sabbath day, in which case the restrictions connected with each take effect at the same time (night-fall); ",
+			"units": [],
+			"label": "3"
+		},
+		{
+			"gloss": " א׳ חָמוּר <i>a heavier prohibition</i>, i.e. a prohibition <i>imposing larger restrictions</i>, e.g. the law prohibiting <i>any</i> profitable use of thing <he>(א׳ הנאה</he>), compared to the lighter prohibition, <he>א׳ קַל</he>, not to eat or drink a thing (v. infra). ",
+			"units": [
+				"<cite ref=\"Yevamot 32b:2\">Yeb. 32ᵇ</cite> sq; <cite ref=\"Shevuot 24a:3\">Shebu. 24ᵃ</cite>; <cite ref=\"Shevuot 24b:2\">24ᵇ</cite>; <cite ref=\"Chullin 101a:3\">Ḥull. 101ᵃ</cite> sq; <cite ref=\"Keritot 14b:1\">Kerith. 14ᵇ</cite>.—א׳ תורה <i>a Biblical prohibitory law;</i> <he>א׳ דרבנן</he> <i>a Rabbinical prohibitory enactment</i>.—א׳ לאו <i>a prohibition expressed in the Law by a plain</i> (<cite ref=\"L00003\"><he>לֹא</he></cite>) ‘thou shalt not’, without defining the penalty, in which case the latter consists of thirty nine lashes (v. <cite ref=\"M01618\"><he>מַלְקוּת</he></cite>).—א׳ כרת <i>a prohibition to which the Bible attaches the penalty of excision</i> (by the hand of God).—<he>א׳ מיתה</he> a prohibition the transgression of which the Bible punishes with death (execution).—א׳ אכילה <i>the law not to eat</i> (meat boiled with milk); <he>א׳ הנאה</he> <i>not to make any use</i> (of it, as selling &c.); <he>א׳ בישול</he> <i>not to boil</i> (meat with milk). ",
+				"<cite ref=\"Chullin 115b:7\">Ḥull. 115ᵇ</cite>; a. fr.—<he>א׳ במות</he>, v. <cite ref=\"B00925\"><he>בָּמָה</he></cite>.—Pl. <he>אִיסּוּרִין</he>. ",
+				"<cite ref=\"Chullin 98a:8\">Ḥull. 98ᵃ</cite> sq. <he>כל א׳ שבתורה</he> (<he>בטלין</he>) <he>בששים</he> all things Biblically forbidden are neutralized if mixed with a quantity sixty times as large; <cite ref=\"Chullin 98a:8\">ib.</cite> <he>במאה</he>—in a quantity one hundred times as large; a. fr."
+			],
+			"label": "4"
+		}
+	]
+}

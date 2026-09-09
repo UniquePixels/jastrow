@@ -1,0 +1,41 @@
+{
+	"id": "Q00892",
+	"slug": "פיתוי",
+	"headword": {
+		"text": "פִּיתּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּתּ׳"
+		}
+	],
+	"page": {
+		"number": 1173,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02125\"><he>פָּתָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>persuasion, enticing</i>. Tanḥ. Sh’moth 19; <cite ref=\"Shemot Rabbah 3\">Ex. R. s. 3</cite> <he>בפ׳ באתי אליך וכ׳</he> I came to thee with persuasiveness (making thee believe that thou didst hear thy father’s voice), that thou be not afraid, <cite ref=\"Shemot Rabbah 3\">Ib.</cite> <he>בתחלה פ׳ פיתיתי אותך וכ׳</he> at first I spoke persuasively to thee, now I will speak to thee words of truth (earnest admonition). ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 3:1\">Ib.</cite> <he>אין פתי אלא לשון פ׳</he> <i>pethi</i> (<cite ref=\"Proverbs 14:15\">Prov. XIV, 15</cite>) has the meaning of ‘persuasion’ (one easily persuaded); a. fr.—Esp. <i>enticing a virgin, claims of the seduced</i> (<cite ref=\"Exodus 22:15\">Ex. XXII, 15</cite>). ",
+				"<cite ref=\"Ketubot 35b:7\">Keth. 35ᵇ</cite> <he>אין לה לא קנס ולא פ׳</he> she has no claim either of fine (for outrage) or of indemnity for seduction. ",
+				"<cite ref=\"Ketubot 36a:7\">Ib. 36ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " dialect. for <cite ref=\"Q00890\"><he>פִּיתּוּחַ</he></cite> (cmp. <cite ref=\"Q00415\"><he>פּוֹתִי</he></cite> a. <cite ref=\"Q00413\"><he>פּוֹתֵחַ</he></cite>) <i>engraving, moulding</i>.—Pl. <he>פִּיתּוּיִין</he>, <cite ref=\"Q00890\"><he>פִּתּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ohalot 14:10\">Tosef. Ohol. XIV, 10</cite> (R. S. to Ohol. XIV, 1 <he>פִּיתּוּחִין</he>), v. <cite ref=\"Q00890\"><he>פִּיתּוּחַ</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

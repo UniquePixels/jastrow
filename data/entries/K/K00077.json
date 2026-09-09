@@ -1,0 +1,39 @@
+{
+	"id": "K00077",
+	"slug": "כברה",
+	"headword": {
+		"text": "כְּבָרָה"
+	},
+	"page": {
+		"number": 609,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"K00072\"><he>כְּבָר</he> II</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a large round vessel</i> (cmp. <cite ref=\"K00220\"><he>כְּוֶורֶת</he></cite>). ",
+			"units": [
+				"<cite ref=\"Shabbat 35a:6\">Sabb. 35ᵃ</cite> <he>כמין כ׳ בים</he> a rock in the sea of the shape (and size) of a <i>K’barah</i>; <cite ref=\"Tosefta Sukkah 3:11\">Tosef. Succ. III, 11</cite> <he>סלע מלא כ׳</he> a rock of the size &c.; Tanḥ., ed. Bub., B’midb. 2 <he>סלע כמין כ׳</he> Ms. R. (v. ",
+				"<cite ref=\"Tosefta Sukkah 3:11\">ib.</cite> note 21); v. <cite ref=\"K00220\"><he>כְּוֶורֶת</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>basket</i> used as a <i>sieve</i> (v. Sm. Ant. s. v. Vannus). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 15:4\">Kel. XV, 4</cite> <he>כ׳ של בעה״ב</he> a household sieve, contrad. to <he>כִּבְרַת גרנות</he> the large sieve of the threshing floor. ",
+				"<cite ref=\"Tosefta Beitsah 1:20\">Tosef. Bets. I, 20</cite>, contrad. to <cite ref=\"N01036\"><he>נפה</he></cite>. ",
+				"<cite ref=\"Taanit 22b:3\">Taan. 22ᵇ</cite> <he>עשו כל גופו ככ׳</he> they made his body (perforated with arrows) like a sieve; <cite ref=\"Moed Katan 28b\">M. Kat. 28ᵇ</cite> <he>עשאוהו ככ׳</he>; Y. Kidd. I, 61ᵃ; a. fr.—Pl. <he>כְּבָרוֹת</he>. Ohol. XVIII, 2, v. <cite ref=\"K00074\"><he>כָּבַר</he></cite>. ",
+				"<cite ref=\"Devarim Rabbah 6\">Deut. R. s. 6</cite> <he>כִּבְרוֹתָיו</he> his sieves. ",
+				"<cite ref=\"Mishnah Parah 3:11\">Par. III, 11</cite> <he>כ׳ של אבן</he> perforated stone vessels for sifting ashes."
+			],
+			"label": "2"
+		}
+	]
+}

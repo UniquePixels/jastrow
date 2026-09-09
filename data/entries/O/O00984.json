@@ -1,0 +1,45 @@
+{
+	"id": "O00984",
+	"slug": "סליחה",
+	"headword": {
+		"text": "סְלִיחָה"
+	},
+	"page": {
+		"number": 994,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"O00974\"><he>סָלַח</he></cite>)<i>sprinkling</i>. ",
+			"units": [
+				"<cite ref=\"Keritot 24b:50\">Ker. 24ᵇ</cite> (ref. to <cite ref=\"Leviticus 5:18\">Lev. V, 18</cite>) <he>והא לא … ידיעה בשעת ס׳</he> and he (who got knowledge of his innocence after the blood was sprinkled) had no knowledge of it at the time of the sprinkling."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>forgiveness</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 30b:8\">Taan. 30ᵇ</cite>; <cite ref=\"Bava Batra 121a:6\">B. Bath. 121ᵃ</cite>. ",
+				"<cite ref=\"Tosefta Nazir 3:14\">Tosef. Naz. III, 14</cite>; <cite ref=\"Nazir 23a\">Naz. 23ᵃ</cite>. ",
+				"<cite ref=\"Shemot Rabbah 42:8\">Ex. R. s. 42</cite> <he>אין ס׳</he> there is no forgiveness (for Israel); a. fr.—Pl. <he>סְלִיחוֹת</he>. ",
+				"<cite ref=\"Midrash Tehillim 25:2\">Midr. Till. to Ps. XXV</cite> <he>הקב״ה … ס׳ הרבה וכ׳</he> the Lord liberally granted us many pardons out of his own (treasury); a. e.—[<he>סְלִיחוֹת</he>: "
+			],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " (in liturgy) <i>penitential prayers</i>.—",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " name of <i>a Piska</i> in Pesikta (p. 166ᵃ, sq.).]",
+					"units": [],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

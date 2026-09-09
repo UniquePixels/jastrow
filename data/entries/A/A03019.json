@@ -1,0 +1,25 @@
+{
+	"id": "A03019",
+	"slug": "ארוד",
+	"headword": {
+		"text": "אָרוֹד"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָרוֹדָא"
+		}
+	],
+	"page": {
+		"number": 116,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>mule</i>, v. <cite ref=\"P01320\"><he>עָרוֹד</he></cite>.",
+			"units": []
+		}
+	]
+}

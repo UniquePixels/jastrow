@@ -1,0 +1,31 @@
+{
+	"id": "S00211",
+	"slug": "קהלה",
+	"headword": {
+		"text": "קְהִלָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְהִי׳"
+		}
+	],
+	"page": {
+		"number": 1322,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) <cite ref=\"S00210\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 7:3:7\">Y. Ber. VII, 11ᶜ</cite> top <he>במקהלות כל ק׳ וק׳</he> ‘in assemblies praise God’ (<cite ref=\"Psalms 68:27\">Ps. LXVIII, 27</cite>), in every kind of assemblies (use a different phraseology for the appeal to praise God, according to the size of the assembly). ",
+				"<cite ref=\"Megillah 2a:12\">Meg. 2ᵃ</cite> <he>י״ג זמן ק׳ וכ׳</he> the thirteenth of Adar was the date of gathering all Jews (<cite ref=\"Esther 9:18\">Esth. IX, 18</cite>). ",
+				"<cite ref=\"Vayikra Rabbah 9:3\">Lev. R. s. 9</cite> (ref. to <cite ref=\"Deuteronomy 33:4\">Deut. XXXIII, 4</cite>) <he>מורשה קְהִלַּת ינאי אין וכ׳</he> it is not written here, ‘an inheritance of the congregation of Yannai’ (privileged scholars), but of the congregation of Jacob (v. <cite ref=\"J00621\"><he>יְרוּתָּא</he></cite>); a. e.—Pl. <he>קְהִלּוֹת</he>, <cite ref=\"S00211\"><he>קְהִי׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 8:2:6\">Y. Yeb. VIII, 9ᵇ</cite> bot., v. <cite ref=\"S00209\"><he>קָהָל</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 18a:9\">Ab. Zar. 18ᵃ</cite>, a. e., v. <cite ref=\"S00208\"><he>קָהַל</he></cite>; a. fr."
+			]
+		}
+	]
+}

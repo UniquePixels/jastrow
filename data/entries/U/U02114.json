@@ -1,0 +1,25 @@
+{
+	"id": "U02114",
+	"slug": "שתיתא",
+	"headword": {
+		"text": "שַׁתִּיתָא"
+	},
+	"page": {
+		"number": 1638,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (Syr. <he>שחתיתא</he>, P. Sm. 4130; cmp. <cite ref=\"U00726\"><he>שַׁחַת</he> II</cite>) <i>flour of unripe barley mixed with honey</i>; also <i>a drink prepared of flour</i> &c. (cmp. Lat. ptisana). ",
+			"units": [
+				"<cite ref=\"Eruvin 29b:11\">Erub. 29ᵇ</cite> <he>ש׳ … תרי וכ׳</he> for <i>shattitha</i> … take two ladlefuls of roasted barley &c. ",
+				"<cite ref=\"Berakhot 38a:8\">Ber. 38ᵃ</cite>. ",
+				"<cite ref=\"Avodah Zarah 38b:17\">Ab. Zar. 38ᵇ</cite> <he>שתיתאה</he> (v. Rabb. D. S. a. l. notes 9, 10); <cite ref=\"Yalkut Shimoni on Nach 151:8\">Yalk. Sam. 151</cite> <he>שתיתא</he>. ",
+				"<cite ref=\"Sanhedrin 67b:3-19\">Snh. 67ᵇ</cite> <he>אמר … קריבו ש׳</he> he said to them, give me a drink of water, and they offered him <i>shattitha</i>; a. e."
+			]
+		}
+	]
+}

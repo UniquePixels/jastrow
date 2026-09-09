@@ -1,0 +1,31 @@
+{
+	"id": "E00499",
+	"slug": "הכא",
+	"headword": {
+		"text": "הָכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הָכָה"
+		}
+	],
+	"page": {
+		"number": 350,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>הָא כָא</he>; cmp. <cite ref=\"E00498\">preced.</cite>) <i>here, hither; in this case, now</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 22:5\">Targ. Gen. XXII, 5</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 78ᵃ</cite> top <he>היך אתית להכה</he> how didst thou come hither?—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 6:6:5\">Y. Snh. VI, 23ᶜ</cite> bot. <he>ומעייל להכא וכ׳</he> and I shall bring hither &c.—",
+				"<cite ref=\"Sukkah 4a:11\">Succ. 4ᵃ</cite>, a. fr. <he>התם … ה׳</he> there (in the case first mentioned) …, here (in this case). ",
+				"<cite ref=\"Rosh Hashanah 4a\">R. Hash. 4ᵃ</cite>, a. fr. <he>מה׳</he> from the following (Biblical passage &c.). ",
+				"<cite ref=\"Pesachim 114a:7\">Pes. 114ᵃ</cite>, a. fr. <he>ה׳ נמי וכ׳</he> (abbr. <he>ה״נ</he>) in this case, too, &c.; a. v. fr.—In Babli: <he>ה׳</he> here, in Babylonia, <cite ref=\"E00953\"><he>התם</he></cite>, <cite ref=\"V00693\"><he>תמן</he></cite> in Palestine; in Y. the reverse. ",
+				"<cite ref=\"Sanhedrin 5a\">Snh. 5ᵃ</cite>; a. fr.—Y. Ber. I, 3ᵈ bot. <he>דבנן דה׳</he> Palestine scholars. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 2:1:4\">Y. Keth. II, 26ᵃ</cite> bot., v. <cite ref=\"E00459\"><he>הֵינוּמָא</he></cite>; <cite ref=\"Vayikra Rabbah 30:7\">Lev. R. s. 30</cite> <he>מן ה׳</he> from now, v. <cite ref=\"E00532\"><he>הָלָא</he></cite>; a. v. fr."
+			]
+		}
+	]
+}

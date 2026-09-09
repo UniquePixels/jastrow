@@ -1,0 +1,47 @@
+{
+	"id": "M01547",
+	"slug": "מליאה",
+	"headword": {
+		"text": "מְלֵיאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְלֵאָה"
+		}
+	],
+	"page": {
+		"number": 789,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>full</i>, v. <cite ref=\"M01461\"><he>מָלֵא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fulness, full growth</i>. Pesik. Haḥod., p. 53ᵃ (ref. to <cite ref=\"Psalms 89:38\">Ps. LXXXIX, 38</cite>, v. <cite ref=\"M01546\">preced.</cite>) <he>אם זכיתם … למְלֵיאָתָהּ</he> if you will do good, you shall count (your historical records) by the nation’s growth to fulness, opp. <he>פגם</he> decrease; <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite>, a. e., v. <cite ref=\"M01546\">preced.</cite> ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 12\">Gen. R. s. 12</cite> <he>נבראו … על מְלֵיאָתָן</he> those things had been created in perfect condition. ",
+				"<cite ref=\"Bereishit Rabbah 14:5\">Gen. R. s. 14</cite> <he>על מְלֵיאָתָהּ על מְלֵיאָתוֹ</he> fully developed. ",
+				"<cite ref=\"Bamidbar Rabbah 12:7\">Num. R. s. 12</cite>; a. e.—",
+				"<cite ref=\"Gittin 70a\">Gitt. 70ᵃ</cite> Ar., v. <cite ref=\"M01494\"><he>מִלּוּא</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (<i>the priestly gifts from</i>) <i>the ripe or stored fruits</i>. ",
+			"units": [
+				"<cite ref=\"Temurah 4a:14\">Tem. 4ᵃ</cite> (ref. to <cite ref=\"Exodus 22:28\">Ex. XXII, 28</cite>) <he>מ׳ זו ביכורים</he> <i>m’leah</i> means the first fruits; Mekh. Mishp. s. 19 <he>אלו ביכורים הנטלין מהמ׳</he> that means the first fruits which are taken from the fulness (the stored fruits). Ib. <he>בכורים שהם קרויין … ומ׳</he> first fruits which go by four names, <i>reshith</i> … and <i>m’leah</i>; <cite ref=\"Yalkut Shimoni on Torah 351\">Yalk. Ex. 351</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

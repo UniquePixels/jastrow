@@ -1,0 +1,23 @@
+{
+	"id": "K01054",
+	"slug": "כפרוסאי",
+	"headword": {
+		"text": "כַּפְרוּסָאֵי"
+	},
+	"page": {
+		"number": 662,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl., nom. gent. <i>Kafruseans</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 10:17\">Targ. Y. II, Gen. X, 17</cite> (h. text <cite ref=\"O00737\"><he>סיני</he></cite>), v. <cite ref=\"A03251\"><he>אָרְתּוּסְיָיה</he></cite>."
+			]
+		}
+	]
+}

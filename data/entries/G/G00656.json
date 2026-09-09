@@ -1,0 +1,34 @@
+{
+	"id": "G00656",
+	"slug": "זקר-2",
+	"headword": {
+		"text": "זְקַר"
+	},
+	"page": {
+		"number": 411,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00655\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִזְדַּקֵּר</he> <i>to leap forth, to leap with joy; to stagger, reel</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 57a:9\">Gitt. 57ᵃ</cite> <he>אִזְדַּקּוּר וכ׳</he> they leaped and ate and drank. ",
+						"<cite ref=\"Niddah 17b:16\">Nidd. 17ᵇ</cite> <he>אִזְדַּקְּרָה</he> she staggered, jumped backward; <cite ref=\"Niddah 57b\">ib. 57ᵇ</cite>.—",
+						"<cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite> (ref. to <cite ref=\"Isaiah 22:17\">Is. XXII, 17</cite>, v. <cite ref=\"C00130\"><he>גֶּבֶר</he></cite>) <he>כהדא תרנגולא … מִזְדַּקֵּר</he> Ar. (in ed. a. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 291\">Yalk. Is. 291</cite> our w. omitted) like a (slaughtered) cock that rolls from place to place in spasmodic thrusts."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

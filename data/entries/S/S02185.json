@@ -1,0 +1,23 @@
+{
+	"id": "S02185",
+	"slug": "קרקרה",
+	"headword": {
+		"text": "קַרְקָרָה"
+	},
+	"page": {
+		"number": 1427,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"S02174\"><he>קַרְקַע</he></cite>) <i>rimmed bottom of a vessel; lower border of a web</i>. Ohol. IX, 16 <he>כנגד קַרְקָרָתָהּ</he> ed. Dehr. a. Ar. ed. Koh. (ed. <he>קוּרְקוּרוּתָהּ</he>, <he>קוּרְקְרוּתָהּ</he>) corresponding to (under or on the rim of) its bottom; Tosef. ib. X, 9 <he>קורקורתיה</he> ed. Zuck. (read <he>קוּרְקוּרְתָּהּ</he> or <he>קוּרְקְרוֹתֶיהָ</he>); ib. <he>קוּרְקַרְתָּהּ</he>, <he>קוּרְקוּרְתָּהּ</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 28:10\">Kel. XXVIII, 10</cite> <he>עד שיגמור את קַרְקַרְתָּהּ</he> ed. Dehr. (ed. <he>קורקורתה</he>; Ar. <he>קוּרְקְרוֹתֶיהָ</he>, ed. Koh. <he>קר׳</he> <i>pl.</i>) until he finishes the lower border of the network.—<i>Pl.</i> <he>קַרְקָרוֹת</he>. Ib. II, 2 <he>קַרְקְרוֹתֵיהֶן</he>. ",
+				"<cite ref=\"Tosefta Kelim Kamma 2:2\">Tosef. Kel. B. Kam. II, 2</cite> <cite ref=\"S02186\"><he>קרקרנות</he></cite> (corr. acc.; R. S. to <cite ref=\"Mishnah Kelim 2:2\">Kel. II, 2</cite> <cite ref=\"V00195\"><he>תוך</he></cite>). Ib. VII, 15 <he>קַרְקְעוֹת הכלים</he> the bottoms of vessels."
+			]
+		}
+	]
+}

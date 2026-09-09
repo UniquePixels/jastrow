@@ -1,0 +1,32 @@
+{
+	"id": "E00022",
+	"slug": "הארה",
+	"headword": {
+		"text": "הֲאָרָה"
+	},
+	"page": {
+		"number": 328,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A00843\"><he>אוּר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>kindling</i>. Sifra Tsav, Par. 11, ch. XVI, end <he>הֲאָרַת הנרות</he> kindling the lights in the Temple (quoted by Hai Gaon to Zeb. ch. III; differ. vers. in ed.).",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " הֲאָרַת פנים <i>shining of divine countenance, grace</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 80:7\">Midr. Till. to Ps. LXXX</cite>, end; <cite ref=\"Yalkut Shimoni on Nach 830:2\">Yalk. ib. 830</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "V00607",
+	"slug": "תלמי-3",
+	"headword": {
+		"text": "תַּלְמִי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1672,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (θαλάμη) <i>nostril</i>; (cmp. <cite ref=\"H00301\"><he>חוֹטָם</he></cite>) <i>snout, tube</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Mikvaot 4:8\">Tosef. Mikv. IV, 8</cite> <he>מעיין היוצא לת׳ ומן הת׳ וכ׳</he> spring water that comes out through a snout, and flows from the snout into a pond."
+			]
+		}
+	]
+}

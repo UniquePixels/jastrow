@@ -1,0 +1,28 @@
+{
+	"id": "R00115",
+	"slug": "צדע",
+	"headword": {
+		"text": "צֶדַע"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִדְעָה"
+		}
+	],
+	"page": {
+		"number": 1262,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.; pl. <he>צְדָעִים</he> (cmp. <cite ref=\"R00078\"><he>צַד</he></cite>) <i>temples</i>. Sifra K’dosh., Par. 3, ch. VI (expl. <he>פאת ראשכם</he>, <cite ref=\"Leviticus 19:27\">Lev. XIX, 27</cite>) <he>אילו הם הצ׳ מיכן וכ׳</he> that means the temples on both sides; <cite ref=\"Makkot 20b:6\">Macc. 20ᵇ</cite> <he>זה המשוה צְדָעָיו וכ׳</he> he who makes his temples as hairless as the spot back of his ears &c. ",
+			"units": [
+				"<cite ref=\"Niddah 30b:41\">Nidd. 30ᵇ</cite> <he>ידיו על שני צדעיו</he> its (the embryo’s) hands rest on its two temples; <cite ref=\"Vayikra Rabbah 14\">Lev. R. s. 14</cite>. ",
+				"<cite ref=\"Nedarim 49b:9\">Ned. 49ᵇ</cite> <he>צִידְעַי</he>, v. <cite ref=\"H00157\"><he>חֲגַר</he></cite>; a. e."
+			]
+		}
+	]
+}

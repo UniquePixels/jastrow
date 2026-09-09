@@ -1,0 +1,41 @@
+{
+	"id": "I00620",
+	"slug": "טענה",
+	"headword": {
+		"text": "טַעֲנָה"
+	},
+	"page": {
+		"number": 545,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>טָעַן</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>plea, suit, claim</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shevuot 6:1\">Shebu. VI, 1</cite> <he>הט׳ … וההודאה וכ׳</he> if the claim is for two M’ah silver, and the defendant admits the value of a P’rutah. ",
+				"<cite ref=\"Mishnah Shevuot 6:1\">Ib.</cite> <he>אם אין ההודאה ממין הט׳</he> if the defendant’s admission is not homogeneous with the claim (e.g. one sues for wheat and the defendant alleges to owe barley). Ib. 39ᵇ <he>כפירת ט׳ שתי וכ׳</he> the claim of two M’ah in the Mishnah means that amount of the claim which is disputed; <he>ט׳ עצמה וכ׳</he> it means that the original claim was for two &c. ",
+				"<cite ref=\"Mishnah Ketubot 1:1\">Keth. I, 1</cite> <he>טַעֲנַת בתולים</he>, v. <cite ref=\"B01384\"><he>בְּתוּלִים</he></cite>.—",
+				"<cite ref=\"Bava Kamma 57a:13\">B. Kam. 57ᵃ</cite> <he>ט׳ גנב</he>, v. <cite ref=\"C01080\"><he>גַּנָּב</he></cite>. ",
+				"<cite ref=\"Bava Kamma 57a:14\">Ib.</cite> <he>ט׳ לסטים</he>, v. <cite ref=\"L00586\"><he>לִסְטֵיס</he></cite>; a. fr.—Pl. <he>טַעֲנוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 3:8:6\">Y. Snh. III, 21ᵇ</cite> bot. <he>צריך … לשנות טַעֲנוֹתֵיהֶן</he> the judge must repeat the pleas of the contesting parties; <cite ref=\"Midrash Tehillim 72:1\">Midr. Till. to Ps. LXXII</cite> <he>לשקול ט׳</he>; <cite ref=\"Yalkut Shimoni on Nach 175:4\">Yalk. Kings 175</cite> <he>לשקול ט׳ בפני שניהם</he> weigh their pleas in the presence of both parties; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>suspicion, talk, fault-finding</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 10:8\">Num. R. s. 10</cite> (ed. Amst. p. 240ᵃ) <he>מפני טענת הבריות</he> not to give rise to people’s talk; <cite ref=\"Avot D'Rabbi Natan 2\">Ab. d’R. N. ch. II</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:5:4\">Y. Ber. I, 3ᶜ</cite> <he>מפני ט׳ המינין</he> not to give support to the talk of the heretics (Bab. ",
+				"<cite ref=\"Berakhot 12a\">ib. 12ᵃ</cite> <cite ref=\"V01034\"><he>תרעומת</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

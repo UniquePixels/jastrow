@@ -1,0 +1,40 @@
+{
+	"id": "H01220",
+	"slug": "חמר-3",
+	"headword": {
+		"text": "חָמַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 479,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be hot</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to glow, to parch</i> (cmp. <cite ref=\"K00817\"><he>כָּמַר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 7:2\">Snh. VII, 2</cite> <he>וחוֹמֶרֶת את וכ׳</he> and parches his entrails; (Ar., v. <cite ref=\"H01144\"><he>חָמַד</he></cite>)."
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְמַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be parched</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 3:3\">Ḥull. III, 3</cite> <he>נפלה לאור ונֶחְמְרוּ וכ׳</he> if the bird fell into fire, and (on examination after slaughtering it was found that) its bowels were affected by inhaling heat (Ar., v. <cite ref=\"H01144\"><he>חָמַד</he></cite>). ",
+						"<cite ref=\"Bereishit Rabbah 38\">Gen. R. s. 38</cite>, end."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "R00332",
+	"slug": "ציחין",
+	"headword": {
+		"text": "צִיחִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1276,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"R00272\"><he>צחח</he></cite>, v. <cite ref=\"R00278\"><he>צַחֲנָה</he></cite>) <i>a preparation of small fish</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 51b:8\">Ned. 51ᵇ</cite> <he>הרי עלי צ׳ מאי</he> if one vows abstinence from <i>tsiḥin</i>, how is it (is he allowed brine and <i>muries</i>)?"
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "A02025",
+	"slug": "אמיר",
+	"headword": {
+		"text": "אָמִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲמִיר"
+		}
+	],
+	"page": {
+		"number": 77,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (part. pass. of <cite ref=\"A02061\"><he>אֲמַר</he></cite>) <i>told, proclaimed, commanded</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Micah 5:1\">Targ. Mic. V, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on Malachi 1:6\">Targ. Mal. I, 6</cite>; a. fr."
+			]
+		}
+	]
+}

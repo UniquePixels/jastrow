@@ -1,0 +1,43 @@
+{
+	"id": "N01085",
+	"slug": "נפש-4",
+	"headword": {
+		"text": "נְפַשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "נַפְשָׁא"
+		},
+		{
+			"text": "נַפְשָׁה"
+		}
+	],
+	"page": {
+		"number": 927,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01084\">same</cite><i>monument</i>. Pesik. B’shall., p. 79ᵇ <he>ועבדון ליה נ׳ וכ׳</he> and they erected a monument to him (the dog that saved their lives), and to this day they call it <he>נ׳ דכלבא</he> the dog’s monument. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 5:1:6\">Y. Erub. V, 22ᵇ</cite> bot. <he>נ׳ דסיריקין</he>, v. <cite ref=\"O01632\"><he>סְרִיקִין</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>soul, will</i> &c. (v. <cite ref=\"N01084\">preced.</cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:20\">Targ. Gen. I, 20</cite>. ",
+				"<cite ref=\"Onkelos Genesis 23:8\">Ib. XXIII, 8</cite>; a. fr.—",
+				"<cite ref=\"Shir HaShirim Rabbah 2:16:2\">Cant. R. to II, 16</cite>, v. <cite ref=\"N00917\"><he>נְסַב</he></cite>. ",
+				"<cite ref=\"Shabbat 129a:24\">Sabb. 129ᵃ</cite> <he>בשר נ׳ חלף נ׳</he> meat (is a necessary of life), life for life, v. preced.—<he>נח נַפְשֵׁיה</he>, v. <cite ref=\"N00340\"><he>נוּחַ</he></cite> ch. ",
+				"<cite ref=\"Pesachim 68b:13\">Pes. 68ᵇ</cite> <he>נַפְשָׁאִי</he>, v. <cite ref=\"H00190\"><he>חֲדֵי</he></cite>. ",
+				"<cite ref=\"Pesachim 68b:13\">Ib.</cite> <he>אדעתא דנפשיה</he> with the intention of benefiting himself. ",
+				"<cite ref=\"Sotah 16b\">Sot. 16ᵇ</cite>, a. e. <he>לא תפיק נַפְשָׁךְ</he>, v. <cite ref=\"N01075\"><he>נְפַק</he></cite>; a. v. fr.—Pl. <cite ref=\"N01085\"><he>נַפְשָׁן</he></cite>, <he>נַפְשָׁתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Judges 18:25\">Targ. Jud. XVIII, 25</cite> (ed. Lag. sing.). ",
+				"<cite ref=\"Onkelos Genesis 14:21\">Targ. Gen. XIV, 21</cite>; a. fr.—[<cite ref=\"Targum Jonathan on Leviticus 26:15\">Targ. Y. Lev. XXVI, 15</cite> <he>נַפְשָׁתֵיכוֹן</he> (sing.).]—Y. Ab. Zar. III, 42ᶜ, v. <cite ref=\"O00923\"><he>סְכן</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

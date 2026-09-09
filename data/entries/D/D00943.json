@@ -1,0 +1,32 @@
+{
+	"id": "D00943",
+	"slug": "דעה",
+	"headword": {
+		"text": "דֵּעָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "דֵּיעָה"
+		}
+	],
+	"page": {
+		"number": 316,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>ידע</he>)<i>knowledge, understanding, reason</i>; <i>view; taste</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 92a:10\">Snh. 92ᵃ</cite> <he>אדם שיש בו ד׳</he> a man that has obtained knowledge. ",
+				"<cite ref=\"Vayikra Rabbah 1:6\">Lev. R. s. 1</cite> (prov.) <he>ד׳ קנית וכ׳</he> if thou hast acquired knowledge, what doest thou lack? &c.—",
+				"<cite ref=\"Shir HaShirim Rabbah 4:3\">Cant. R. to IV, 3</cite> <he>ד׳ סרוחה של וכ׳</he> the corrupt mind of, i.e. the fool, Ahasver; a. v. fr.—Pl. <he>דֵּעוֹת</he>, <he>דֵּיעוֹת</he> (used also in Chald. phrases). ",
+				"<cite ref=\"Shevuot 42a:9\">Shebu. 42ᵃ</cite> <he>אזלינן בתר רוב ד׳</he> we are guided by the majority of opinions; <cite ref=\"Yoma 83a:6\">Yoma 83ᵃ</cite>; <cite ref=\"Temurah 27b:24\">Tem. 27ᵇ</cite> <he>בתר ד׳ אזלינן</he>. Shebu. l. c. <he>כיון דנחית לד׳</he> since he cared to mention a certain number of minds (as witnesses). ",
+				"<cite ref=\"Jerusalem Talmud Sotah 1:8:4\">Y. Sot. I, 17ᵃ</cite>; <cite ref=\"Tosefta Sotah 5:9\">Tosef. ib. V, 9</cite>; a. e. <he>כשם שיש ד׳ וכ׳</he> as men differ in tastes (sensibilities) as regards food and drink, so do husbands differ &c. ",
+				"<cite ref=\"Pesachim 112a:14\">Pes. 112ᵃ</cite> <he>ארבע ד׳ וכ׳</he> there are four thoughts &c. (the husband thinking of his first wife and the wife of her first husband); a. fr. V. <cite ref=\"D00950\"><he>דַּעַת</he></cite>."
+			]
+		}
+	]
+}

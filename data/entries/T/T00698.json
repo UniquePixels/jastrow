@@ -1,0 +1,22 @@
+{
+	"id": "T00698",
+	"slug": "ריקום",
+	"headword": {
+		"text": "רִיקּוּם"
+	},
+	"page": {
+		"number": 1477,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T01039\"><he>רָקַם</he></cite>) <i>formation of an embryo</i> in an egg. ",
+			"units": [
+				"<cite ref=\"Tosefta Chullin 8:20\">Tosef. Ḥull. VIII, 20</cite> <he>וכמה הוא רִיקּוּמָהּ וכ׳</he> how far must the formation be advanced (to be called <he>ביצה מרוקמת</he>)? Until the chick can be seen through the egg."
+			]
+		}
+	]
+}

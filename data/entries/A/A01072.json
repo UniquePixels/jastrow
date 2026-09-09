@@ -1,0 +1,28 @@
+{
+	"id": "A01072",
+	"slug": "אטד-2",
+	"headword": {
+		"text": "אָטָד",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אַטְדָא"
+		}
+	],
+	"page": {
+		"number": 42,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A01071\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 50:10\">Targ. Gen. L, 10</cite>.—",
+				"<cite ref=\"Aramaic Targum to Psalms 58:10\">Targ. Ps. LVIII, 10</cite>. Ms. (ed. <cite ref=\"A01072\"><he>אֲטָדָא</he></cite>); a. e.—Pl. <he>אַטְדִין</he>. ",
+				"<cite ref=\"Onkelos Genesis 3:18\">Targ. O. Gen. III, 18</cite>. (Y. <he>אַטְטִין</he>). ",
+				"<cite ref=\"Targum Jonathan on Hosea 10:8\">Targ. Hos. X, 8</cite> (some ed. <he>אטטין</he>)."
+			]
+		}
+	]
+}

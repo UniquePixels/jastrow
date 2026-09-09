@@ -1,0 +1,32 @@
+{
+	"id": "M00527",
+	"slug": "מומתא",
+	"headword": {
+		"text": "מוֹמָתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹתָא"
+		}
+	],
+	"page": {
+		"number": 744,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00409\"><he>יְמָא</he></cite>, v. <cite ref=\"M00521\"><he>מוּמֵי</he></cite>; as to <cite ref=\"M00527\"><he>מוֹתָא</he></cite> cmp. <cite ref=\"D00951\"><he>דַּעְתָּא</he></cite> fr. <cite ref=\"J00107\"><he>יְדַע</he></cite>) <i>oath, imprecation, curse</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 31:30\">Targ. Job XXXI, 30</cite> <he>מומ׳</he> ed. Lag. (oth. ed. <cite ref=\"M00527\"><he>מותא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 37:22\">Targ. Ps. XXXVII, 22</cite> <he>מוֹמָתֵיה</he> Ms. (ed. <cite ref=\"M00527\"><he>מותא</he></cite>). ",
+				"<cite ref=\"Onkelos Numbers 5:21\">Targ. O. Num. V, 21</cite> (ed. Amst. <cite ref=\"M00701\"><he>מוֹתָנָא</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 22:10\">Targ. Ex. XXII, 10</cite>; a. fr.—",
+				"<cite ref=\"Bava Kamma 114a:1\">B. Kam. 114ᵃ</cite> <he>אינהו נמי חד אמ׳ שדו ליה</he> they (the gentile courts), too, in the case of there being only one witness, administer an oath to him (the claimant). ",
+				"<cite ref=\"Pesachim 113b:1\">Pes. 113ᵇ</cite> <he>ומוֹמָתַיְּיהוּ הכי</he> (Ms. M. <he>ומומי קרו להון</he> incorr.; Ms. M. 2 <he>וכי מיימן מיימן הכי</he>, v. Rabb. D. S. a. l. note) and thus they swear.—[<cite ref=\"Mishnah Nedarim 1:2\">Ned. I, 2</cite> <cite ref=\"B00927\"><he>במותא</he></cite>, v. <cite ref=\"M00426\"><he>מוֹהֶה</he></cite>.]"
+			]
+		}
+	]
+}

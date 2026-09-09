@@ -1,0 +1,29 @@
+{
+	"id": "E00007",
+	"slug": "הא-3",
+	"headword": {
+		"text": "הֵא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "הֵא הֵא"
+		}
+	],
+	"page": {
+		"number": 328,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>He-He</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 5:23\">Ab. V, 23</cite> <he>בן הא הא</he>. ",
+				"<cite ref=\"Chagigah 9b:17\">Ḥag. 9ᵇ</cite> <he>בר הֵי הֵי</he> (Ms. M. 2 <he>הֵיהֵי</he>); <cite ref=\"Yalkut Shimoni on Nach 328:2\">Yalk. Is. 328</cite>; <cite ref=\"Yalkut Shimoni on Nach 591:1\">Yalk. Mal. 591</cite> <he>בר הא הא</he> (v. Rabb. D. S. to Ḥag. l. c. note 19)."
+			]
+		}
+	]
+}

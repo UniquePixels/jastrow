@@ -1,0 +1,28 @@
+{
+	"id": "J00373",
+	"slug": "ילדתא-1",
+	"headword": {
+		"text": "יְלַדְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יוֹלַדְתָּא"
+		}
+	],
+	"page": {
+		"number": 578,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00372\">preced.</cite> wds.) <i>midwife</i>.—Pl. <he>יְלָדָתָא</he>, <he>יוֹלָדָתָא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 1:15\">Targ. Y. II, Ex. I, 15</cite> [read:] <he>יוֹ׳ עִבְרָיָיתָא</he>. ",
+				"<cite ref=\"Targum Jerusalem, Exodus 1:19\">Ib. 19</cite> <he>יְלָדָתֵי</he> (corr. acc.)."
+			]
+		}
+	]
+}

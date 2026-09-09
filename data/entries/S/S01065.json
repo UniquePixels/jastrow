@@ -1,0 +1,30 @@
+{
+	"id": "S01065",
+	"slug": "קיסטא",
+	"headword": {
+		"text": "קִיסְטָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קִיסְטָה"
+		}
+	],
+	"page": {
+		"number": 1364,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cista) <i>chest, box</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 9:7:2\">Y. Snh. IX, end, 27ᵇ</cite> (expl. <cite ref=\"S01638\"><he>קִסְוָה</he></cite>, Mish. ",
+				"<cite ref=\"Mishnah Sanhedrin 9:6\">ib. IX, 6</cite>) <he>ק׳</he> a chest (containing sacred objects, v. Sm. Ant. s. v. Cista).—Pl. <he>קִיסְטוֹת</he>. ",
+				"<cite ref=\"Mishnah Kelim 15:1\">Kel. XV, 1</cite> <he>קוסטות המלכים</he> (ed. Dehr. <he>קוסטַת</he> <i>sing.</i>; R. S. <cite ref=\"S01686\"><he>קסתות</he></cite>, <he>קנתות</he>, corr. acc.) the provision boxes of kings."
+			]
+		}
+	]
+}

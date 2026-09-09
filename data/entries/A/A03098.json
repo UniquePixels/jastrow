@@ -1,0 +1,23 @@
+{
+	"id": "A03098",
+	"slug": "אריך-4",
+	"headword": {
+		"text": "אָרֵיךְ"
+	},
+	"page": {
+		"number": 119,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"A03096\"><he>אֲרִיךְ</he> II</cite>, 2) <i>preparing, dressing</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 33b:9\">Sabb. 33ᵇ</cite> <he>הוא קא א׳ ליה לבישריה</he> was dressing (cleansing) his body. ",
+				"<cite ref=\"Ketubot 103b:19\">Keth. 103ᵇ</cite> <he>ואָרֵיכְנָא וכ׳</he> I would dress parchment rolls of deer skins."
+			]
+		}
+	]
+}

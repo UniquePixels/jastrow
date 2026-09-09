@@ -1,0 +1,32 @@
+{
+	"id": "S02243",
+	"slug": "קשיותא",
+	"headword": {
+		"text": "קַשְׁיוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַשְׁיוּ"
+		}
+	],
+	"page": {
+		"number": 1431,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S02242\">same</cite><i>hardness, severity</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 1:14\">Targ. Ex. I, 14</cite> (h. text <cite ref=\"Q01845\"><he>פרך</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>stiffneckedness, renitence</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 7:2:7\">Y. Ber. VII, 11ᵇ</cite> bot. <he>עד כדון את בקַשְׁיוּתָךְ</he> dost thou still persist in thy renitence?; <cite ref=\"Kohelet Rabbah 7:11\">Koh. R. to VII, 11</cite>. Y. Peah VII, 20ᵇ top. Esth. R. introd. (play on <he>ממקשי</he>, <cite ref=\"Job 34:30\">Job XXXIV, 30</cite>) <he>מן קַשְׁיוּתֵיהֶן וחיביהן וכ׳</he> for the renitence and the guilt of men who do not the will of the Creator; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

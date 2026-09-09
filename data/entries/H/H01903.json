@@ -1,0 +1,33 @@
+{
+	"id": "H01903",
+	"slug": "חתן-2",
+	"headword": {
+		"text": "חֲתַן"
+	},
+	"page": {
+		"number": 514,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01902\">same</cite>.",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 9:15:2\">Y. Sot. IX, end, 24ᶜ</cite> [read:] <he>הוון בעון מִחְתַּנְתֵּיה לנסיותא</he>, they desired to ally him to the Nasi family; <cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:15\">Y. Ab. Zar. III, 42ᶜ</cite> bot <he>הוון אילין … בעון מהיתנתיה</he> (read: <he>מִיחְתַּ׳</he>) members of the Nasi family desired to take him into the family."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְחַתֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to become connected</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 18:22\">Targ. I Sam. XVIII, 22</cite>, sq.; a. fr.—Y. Sabb. XII, 13ᶜ bot. <he>אִיתְחַתְּנוּן וכ׳</he>, v. <cite ref=\"N01308\"><he>נְשִׂיאוּתָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

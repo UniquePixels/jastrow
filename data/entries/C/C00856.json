@@ -1,0 +1,23 @@
+{
+	"id": "C00856",
+	"slug": "גלב-2",
+	"headword": {
+		"text": "גְּלָב"
+	},
+	"page": {
+		"number": 243,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00855\">preced.</cite>) <i>razor, knife</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 6:5\">Targ. Y. Num. VI, 5</cite>; <cite ref=\"Targum Jonathan on Numbers 8:7\">VIII, 7</cite> (<cite ref=\"C00855\"><he>גְּלַב</he></cite>).—Pl. <cite ref=\"C00859\"><he>גְּלָבִין</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 31:8\">Gen. R. s. 31</cite> (transl. <he>חרבת צרים</he> <cite ref=\"Joshua 5:2\">Josh. V, 2</cite>) <he>ג׳ דטינרי</he> flint knives.—[<cite ref=\"Targum Jonathan on Ezekiel 27:24\">Targ. Ezek. XXVII, 24</cite>, v. <cite ref=\"C00978\"><he>גְּלַף</he></cite>.]"
+			]
+		}
+	]
+}

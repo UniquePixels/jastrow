@@ -1,0 +1,38 @@
+{
+	"id": "H00552",
+	"slug": "חזנא",
+	"headword": {
+		"text": "חַזָּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲזָ׳"
+		}
+	],
+	"page": {
+		"number": 444,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"H00551\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:3:10\">Y. Ber. V, 9ᶜ</cite> bot. <he>עאל ח׳ וכ׳</he> the sexton came and urged one to go up (to read the prayers). ",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:5:6\">Y. Meg. IV, 75ᵇ</cite> bot.; <cite ref=\"Jerusalem Talmud Sotah 7:6:3\">Y. Sot. VII, end, 22ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " חַזַּן מתא <i>town-guard</i> (watching the flocks of the common and guarding the town by night). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 93b:3\">B. Mets. 93ᵇ</cite>.—Pl. <he>חַזָּנֵי מתא</he>. ",
+				"<cite ref=\"Bava Metzia 93b:3\">Ib.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

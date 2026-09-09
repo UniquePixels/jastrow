@@ -1,0 +1,28 @@
+{
+	"id": "B00118",
+	"slug": "בדוחא-2",
+	"headword": {
+		"text": "בְּדוֹחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּדְחָא"
+		}
+	],
+	"page": {
+		"number": 139,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B00117\">preced.</cite>) <i>cheerfulness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 150:5\">Targ. Ps. CL, 5</cite> <he>דמשמעין לבדוחא</he> Ms. (ed. incorr. <he>דשמעין בלחודיהון</he>) which are sounded for rejoicing. ",
+				"<cite ref=\"Aramaic Targum to Psalms 68:32\">Ib. LXVIII, 32</cite> <he>בבודחא</he> Ms. (ed. <he>בנוי דחם</he>)."
+			]
+		}
+	]
+}

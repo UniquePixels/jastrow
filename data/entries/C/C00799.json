@@ -1,0 +1,25 @@
+{
+	"id": "C00799",
+	"slug": "גיפתא",
+	"headword": {
+		"text": "גִּיפְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּפְ׳"
+		}
+	],
+	"page": {
+		"number": 241,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"C01217\"><he>גֶּפֶת</he></cite> a sort of <i>peat</i> or <i>turf</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 4:1:3\">Y. Sabb. IV, 6ᵈ</cite> [read:] <he>כמראי גו ג׳</he> I kept it warm in <i>gifta</i>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 4:1:3\">Ib.</cite> <he>על ג׳</he> on top of <i>g</i>"
+			]
+		}
+	]
+}

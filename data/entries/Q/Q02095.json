@@ -1,0 +1,25 @@
+{
+	"id": "Q02095",
+	"slug": "פשפש-6",
+	"headword": {
+		"text": "פִּשְׁפָּשׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1248,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פִּשְׁפֵּשׁ</he> I, cmp. <cite ref=\"B01111\"><he>בַּקָּא</he></cite>) [<i>searcher</i>,] <i>bed-bug</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 8:2\">Ter. VIII, 2</cite>. ",
+				"<cite ref=\"Niddah 58b:57\">Nidd. 58ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:2:5\">Y. Ber. IX, 13ᶜ</cite> bot., v. <cite ref=\"P00786\"><he>עֲלוּקָה</he></cite>."
+			]
+		}
+	]
+}

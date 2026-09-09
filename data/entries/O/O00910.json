@@ -1,0 +1,57 @@
+{
+	"id": "O00910",
+	"slug": "סכל-2",
+	"headword": {
+		"text": "סְכַל"
+	},
+	"page": {
+		"number": 990,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00909\">same</cite>, <i>to see clearly, be sensible</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 36:4\">Targ. Ps. XXXVI, 4</cite> Ms. (ed. <he>למִשְׂכַּל</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:5\">Targ. Prov. VIII, 5</cite> <he>נִסְכְּלוּן</he> Ms. (ed. <he>נִסְתַּכְּ׳</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסְכֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to become wise</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 94:8\">Targ. Ps. XCIV, 8</cite> Ms. (ed. <he>תַּשְׂכִּיל׳</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to explain, give to understand</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 6:24\">Targ. Job VI, 24</cite>. "
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִסְתַּכֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to look at, reflect; to become wise</i>. Targ. Prov. l. c., v. supra. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 1:3\">Targ. Is. I, 3</cite>. ",
+						"<cite ref=\"Onkelos Exodus 3:6\">Targ. O. Ex. III, 6</cite> (Y. <he>מִסְתְּכֵי</he>); a. fr.—",
+						"<cite ref=\"Bereishit Rabbah 86\">Gen. R. s. 86</cite>, end [read:] … <he>מִסְתַּכְּלִין אתון ואנא מְסְתַּכֵּל בניביה של אותה דובה</he> you look at that which is on her back, but I look at that bear’s tusks; <cite ref=\"Yalkut Shimoni on Torah 145\">Yalk. ib. 145</cite>. ",
+						"<cite ref=\"Pesachim 113b\">Pes. 113ᵇ</cite> [read:] <he>אינהי מִסְתַּכְּלָן בהו ואינהו … לאִסְתַּכּוּלֵי בהו</he> (v. Rabb. D. S. a. l.) they looked at them (the shoemakers), but the latter did not lift up their eyes to look at them. Y. Keth. XII, 35ᵇ top <he>תלא עינוי מִסְתַּכְּלָא</he> he lifted up his eyes in order to observe; Y. Kil. IX, 32ᶜ top <he>מִסְתַּכְּלָה</he>; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

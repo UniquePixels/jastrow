@@ -1,0 +1,38 @@
+{
+	"id": "H00111",
+	"slug": "חבר-5",
+	"headword": {
+		"text": "חַבָּר"
+	},
+	"page": {
+		"number": 422,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <i>associate;</i> Talm. = <cite ref=\"H00249\"><he>חוֹבֵר</he></cite>, v. <cite ref=\"H00107\"><he>חָבַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>charmer</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 65a:21\">Snh. 65ᵃ</cite>, v. <cite ref=\"H00107\"><he>חָבַר</he></cite>. ",
+				"<cite ref=\"Devarim Rabbah 7\">Deut. R. s. 7</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>magus</i> (v. <cite ref=\"A01980\"><he>אַמְגּוּשָׁא</he></cite>), <i>Parsee priest, guebre</i> in gen. <i>Parsee government</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 11a:8\">Sabb. 11ᵃ</cite> <he>תחת נכרי ולא תחת ח׳</he> (v. Rabb. D. S. a. l. note 80) rather under heathen (Roman) government, than under a Parsee.—Pl. <he>חַבָּרִין</he>, <he>חַבָּרִים</he>. ",
+				"<cite ref=\"Kiddushin 72a:10\">Kidd. 72ᵃ</cite> <he>הראני ח׳</he> let me see (give me a description of) the Parsees (as opposed to Persians). ",
+				"<cite ref=\"Pesachim 113b\">Pes. 113ᵇ</cite>. ",
+				"<cite ref=\"Yevamot 63b:9\">Yeb. 63ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 32:21\">Deut. XXXII, 21</cite> <he>גוי נבל</he>) <he>אלו ח׳</he> this means the Parsees."
+			],
+			"label": "2"
+		}
+	]
+}

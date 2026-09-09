@@ -1,0 +1,23 @@
+{
+	"id": "M01582",
+	"slug": "מלכיא-1",
+	"headword": {
+		"text": "מַלַכְיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 792,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (μαλακία, malacia) <i>want of appetite, nausea</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 6:13\">Deut. R. s. 6</cite> <he>שעלת מ׳ באחותו</he> (not <he>לראותה</he>) whose sister was suffering from malacia."
+			]
+		}
+	]
+}

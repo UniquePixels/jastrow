@@ -1,0 +1,23 @@
+{
+	"id": "M00264",
+	"slug": "מדוך",
+	"headword": {
+		"text": "מָדוֹךְ"
+	},
+	"page": {
+		"number": 733,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00242\"><he>דּוּךְ</he></cite>) <i>pestle</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 1:7\">Bets. I, 7</cite>; <cite ref=\"Tosefta Beitsah 1:18\">Tosef. ib. I, 18</cite>. ",
+				"<cite ref=\"Tosefta Beitsah 1:17\">Ib. 17</cite>; a. e."
+			]
+		}
+	]
+}

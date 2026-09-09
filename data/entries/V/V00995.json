@@ -1,0 +1,32 @@
+{
+	"id": "V00995",
+	"slug": "תריס-3",
+	"headword": {
+		"text": "תָּרִיס",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּרִיס"
+		},
+		{
+			"text": "תְּרֵיסָא"
+		}
+	],
+	"page": {
+		"number": 1698,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00994\">same</cite>, <i>shield</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 3:4\">Targ. Ps. III, 4</cite> (h. text <he>מגן</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 5:13\">Ib. V, 13</cite> (h. text <he>צנח</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 33:29\">Targ. Y. Deut. XXXIII, 29</cite>; a. fr.—Pl. <he>תְּרֵיסַיָּא</he>, <he>תְּרֵיסִין</he>, <he>תְּרִי׳</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 39:9\">Targ. Ez. XXXIX, 9</cite> (ed. Lag. <he>תרסין</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 15:26\">Targ. Job XV, 26</cite> (ed. Wil. <cite ref=\"V00996\"><he>תְּרֵס׳</he></cite>); a. fr."
+			]
+		}
+	]
+}

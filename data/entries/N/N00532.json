@@ -1,0 +1,37 @@
+{
+	"id": "N00532",
+	"slug": "נחת-1",
+	"headword": {
+		"text": "נַחַת"
+	},
+	"page": {
+		"number": 897,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"N00340\"><he>נוּחַ</he></cite>)<i>rest, tray, stand</i> (v. <cite ref=\"A02156\"><he>אַנְחוּתָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Chagigah 26b\">Ḥag. 26ᵇ</cite>; <cite ref=\"Menachot 96b\">Men. 96ᵇ</cite>, a. e. <he>כלי עץ העשוי לנ׳</he> a wooden utensil intended for resting things on it (table &c.). ",
+				"<cite ref=\"Bereishit Rabbah 25:2\">Gen. R. s. 25</cite>; s. 33 <he>לשם נ׳ התיבה נקרא</he> Noah was named from the resting of the ark (<cite ref=\"Genesis 8:4\">Gen. VIII, 4</cite>). ",
+				"<cite ref=\"Yevamot 103b:19\">Yeb. 103ᵇ</cite> <he>סנדל של נ׳ ע״ז</he> Ar. (in ed. our w. omitted) a sandal used as a rest for an idol."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ease; gentleness; comfort</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 83b:11\">Erub. 83ᵇ</cite> <he>שלזה תשמישו בנ׳</he> which one neighbor can make use of with ease, opp. <cite ref=\"B01149\"><he>בקשה</he></cite> with difficulty. ",
+				"<cite ref=\"Berakhot 56b:18\">Ber. 56ᵇ</cite> <he>בנ׳</he> at a slow trot, opp. <he>ברדוף</he> at full speed. ",
+				"<cite ref=\"Sanhedrin 92a\">Snh. 92ᵃ</cite>, v. <cite ref=\"N00250\"><he>נָהַג</he></cite>; a. fr.—נ׳ רוח <i>gratification, pleasure</i>. ",
+				"<cite ref=\"Ketubot 95a:8\">Keth. 95ᵃ</cite> <he>תימא נ׳ ר׳ עשיתי לבעלי</he> she may say, I did it only to gratify my husband (but did not mean to sell). ",
+				"<cite ref=\"Chagigah 16b:18\">Ḥag. 16ᵇ</cite> <he>כדי לעשות נ׳ ר׳ לנשים</he> to let the (offering) women have the satisfaction (of putting their hands on the sacrifices). ",
+				"<cite ref=\"Berakhot 17a:6\">Ber. 17ᵃ</cite> <he>ועושה נ׳ ר׳ ליוצרו</he> and acts so as to please his Creator; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

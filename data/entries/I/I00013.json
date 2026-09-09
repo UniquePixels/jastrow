@@ -1,0 +1,32 @@
+{
+	"id": "I00013",
+	"slug": "טאניס",
+	"headword": {
+		"text": "טַאֲנֵיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "טָאנֵיס"
+		},
+		{
+			"text": "טָנֵיס"
+		}
+	],
+	"page": {
+		"number": 515,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.(h. <he>צֹעַן</he>)<i>Tanis</i> (<i>Zoan</i>) in Lower Egypt. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 13:22\">Targ. Num. XIII, 22</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 41:50\">Targ. Y. Gen. XLI, 50</cite> (h. text <he>און</he>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 1:11\">Targ. Y. Ex. I, 11</cite> (h. text <he>פתם</he>); a. e."
+			]
+		}
+	]
+}

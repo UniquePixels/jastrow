@@ -1,0 +1,23 @@
+{
+	"id": "E00769",
+	"slug": "הפשט",
+	"headword": {
+		"text": "הֶפְשֵׁט"
+	},
+	"page": {
+		"number": 363,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02063\"><he>פָּשַׁט</he></cite>) <i>stripping, flaying</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 5:4\">Zeb. V, 4</cite> <he>טעונה ה׳ ונתוח</he> requires flaying and carving (<cite ref=\"Leviticus 1:6\">Lev. I, 6</cite>). Ib. 50ᵇ carving <he>שלא בה׳</he> without previous flaying. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 6:1:11\">Y. Pes. VI, 33ᵃ</cite> bot. <cite ref=\"E00771\"><he>הֶפְשֵׁיטוֹ</he></cite> the flaying of it; a. fr."
+			]
+		}
+	]
+}

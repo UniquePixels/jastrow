@@ -1,0 +1,36 @@
+{
+	"id": "T00303",
+	"slug": "רובה-3",
+	"headword": {
+		"text": "רוֹבָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "רוֹבָא"
+		}
+	],
+	"page": {
+		"number": 1455,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"T00042\"><he>רַבָּא</he></cite>, <i>great</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Leviticus 10:19\">Targ. Y. II, Lev. X, 19</cite> (ed. Vien. <cite ref=\"T00296\"><he>רוּבָא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = <cite ref=\"T00060\"><he>רַבָּה</he></cite> <i>elder, senior</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:7:8\">Y. Ber. II, 5ᵇ</cite> bot. <he>ר׳ הושעיא ר׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:8\">Y. Kil. IX, 32ᵇ</cite> <he>ר׳ חייא ר׳</he>; a. fr. (interch. with <cite ref=\"T00060\"><he>רַבָּה</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

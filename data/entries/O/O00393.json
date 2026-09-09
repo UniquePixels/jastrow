@@ -1,0 +1,28 @@
+{
+	"id": "O00393",
+	"slug": "סופינא",
+	"headword": {
+		"text": "סוֹפִינָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוּ׳"
+		}
+	],
+	"page": {
+		"number": 968,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O00388\"><he>סוֹף</he></cite>) <i>metal spike at the butt-end of the spear</i> (v. Sm. Ant. s. v. Hasta). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 21:16\">Targ. II Sam. XXI, 16</cite> (h. text <he>קֵין</he>).—*<i>Pl.</i> (in Hebr. dict.) <he>סוֹפִינֵי</he>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 5:6\">Tosef. Kel. B. Mets. V, 6</cite> <he>תלוי זיני וס׳</he> ed. Zolk. (ed. Zuck. <cite ref=\"O01347\"><he>ספטני</he></cite>) the handles of weapons and spikes."
+			]
+		}
+	]
+}

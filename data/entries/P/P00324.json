@@ -1,0 +1,30 @@
+{
+	"id": "P00324",
+	"slug": "עוצבא-2",
+	"headword": {
+		"text": "עוּצְבָּא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּצְבָּה"
+		}
+	],
+	"page": {
+		"number": 1056,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01091\"><he>עָצַב</he></cite>, v. <cite ref=\"A00220\"><he>אֲבִרְזִין</he></cite>) <i>fur trimmed</i> (or <i>to be trimmed</i>) <i>of its ends, robe, cover</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 26:7\">Kel. XXVI, 7</cite>; <cite ref=\"Bava Kamma 66b\">B. Kam. 66ᵇ</cite> Ms. M. (ed. <he>עיצ׳</he>). ",
+				"<cite ref=\"Bava Kamma 66b:12\">Ib.</cite> <he>ע׳ אינה צריכה קיצוע</he> an <i>‘utsba</i> requires no trimming (in order to be considered a finished object of use). ",
+				"<cite ref=\"Zevachim 94a:4\">Zeb. 94ᵃ</cite> <he>ע׳ שחשב עליה לקצעה</he> Ms. M. (ed. <he>ליה</he>, corr. acc.) a fur which the owner had intented to trim; <cite ref=\"Tosefta Keilim Batra 4:10\">Tosef. Kel. B. Bath. IV, 10</cite> <he>עוצבה</he> R. S. to Kel. l. c. (ed. <he>אצבע</he>, corr. acc.); Zeb. l. c. <he>ע׳ דחשיב עלה וכ׳</he>."
+			]
+		}
+	]
+}

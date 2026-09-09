@@ -1,0 +1,39 @@
+{
+	"id": "S01924",
+	"slug": "קרוא-2",
+	"headword": {
+		"text": "קִרְוָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קִרְוָוא"
+		},
+		{
+			"text": "קִי׳",
+			"homograph": 2
+		},
+		{
+			"text": "קִרְוָה"
+		},
+		{
+			"text": "קֵרְוָוה"
+		}
+	],
+	"page": {
+		"number": 1412,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"S01940\"><he>קֵרוּיָה</he></cite>, <i>pumpkin-shell</i>, or <i>pumpkin-shaped vessel for water, cooler</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 21:14\">Targ. Y. Gen. XXI, 14</cite> (h. text <cite ref=\"H01236\"><he>חֵמֶת</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 21:15\">Targ. Y. I ib. 15</cite> (Y. II <cite ref=\"S02110\"><he>קַרְנַת</he></cite>, corr. acc.). Ib. 19 (some ed. <cite ref=\"S01930\"><he>קרוות</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

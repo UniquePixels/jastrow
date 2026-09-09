@@ -1,0 +1,36 @@
+{
+	"id": "H00369",
+	"slug": "חום-1",
+	"headword": {
+		"text": "חוּם"
+	},
+	"page": {
+		"number": 435,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <he>חמם</he>) <i>to be warm</i>. Part. <cite ref=\"H00736\"><he>חָיֵים</he></cite>, <he>חָאֵים</he>. ",
+			"units": [
+				"<cite ref=\"Chullin 8b:7\">Ḥull. 8ᵇ</cite> <he>לכי חָיְימָא</he> when it (the knife) gets warm; v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָחַים"],
+			"senses": [
+				{
+					"gloss": "<i>to warm; to affect</i> (hearers). ",
+					"units": [
+						"<cite ref=\"Moed Katan 12b:12\">M. Kat. 12ᵇ</cite> <he>מיא דא׳ וכ׳</he> water which a gentile cook had warmed.—",
+						"<cite ref=\"Shabbat 153a:2\">Sabb. 153ᵃ</cite> <he>א׳ באספידא דהתם וכ׳</he> ed. (Ms. <he>א׳ מר … דאנא</he>, Ms. O. <he>א׳ לי</he>) arouse the feelings of the people when delivering my funeral address, for I (my soul) shall be present. ",
+						"<cite ref=\"Shabbat 153a:2\">Ib.</cite> <he>הא דמַחֲמוּ ליה וחאים</he> Ms. M. (Rashi Ms. <he>וחָיֵים</he>; ed. <he>ואחים</he>, v. Rabb. D. S. a. l. note) in the one case (that of the righteous man) they speak warmly of him, and one becomes warm &c.—",
+						"<cite ref=\"Shabbat 153a\">Ib.</cite> <he>מאן א׳ הספ׳</he> (Ms. M. <he>חאים</he>, corr. acc.) who will arouse mourning for thee?"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

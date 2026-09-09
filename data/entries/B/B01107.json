@@ -1,0 +1,54 @@
+{
+	"id": "B01107",
+	"slug": "בצר-3",
+	"headword": {
+		"text": "בְּצַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּצֵיר"
+		}
+	],
+	"page": {
+		"number": 185,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  (neut. v.) <i>to be cut, lessened; to be small; to want</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 9a:8\">Ab. Zar. 9ᵃ</cite> <he>כמה בצרן</he> (Rashi <he>בצירן</he>) how much is wanting yet? <cite ref=\"Aramaic Targum to Proverbs 14:28\">Targ. Prov. XIV, 28</cite> <he>בציר עמא</he> the population is diminishing.—",
+				"<cite ref=\"Chullin 42b:10\">Ḥull. 42ᵇ</cite> <he>בצר להו חדא</he> there is, according to him, one less (than the number stated); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (act. v.) <i>to diminish, lessen</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 13:1\">Targ. Y. Deut. XIII, 1</cite>; <cite ref=\"Targum Jonathan on Deuteronomy 4:2\">IV, 2</cite> (Var. <he>תבַצְּרוּן</he> Pa.). ",
+				"<cite ref=\"Aramaic Targum to Job 15:4\">Targ. Job XV, 4</cite>.—",
+				"<cite ref=\"Niddah 65a:12\">Nidd. 65ᵃ</cite> <he>למִבְצַר לה חדא</he> to allow her one night less; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּצַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to cut off; to diminish, deduct</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 37b:11\">Men. 37ᵇ</cite> <he>האי מאן דבַצְּרֵיה לגלימיה</he> he who cuts one corner of his cloak off.—",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 3:5\">Targ. Koh. III, 5</cite>. ",
+						"<cite ref=\"Onkelos Deuteronomy 4:2\">Targ. Deut. IV, 2</cite>, a. e., v. supra.—",
+						"<cite ref=\"Avodah Zarah 9b:1\">Ab. Zar. 9ᵇ</cite> <he>ונְבַצַּר וכ׳</he> we let him deduct therefrom forty eight. ",
+						"<cite ref=\"Bava Metzia 103b\">B. Mets. 103ᵇ</cite> <he>בַּצְּרִי לך</he> I let thee have it for less.—Denom. <cite ref=\"B01090\"><he>בַּצִּירָא</he></cite> <i>one who uses the vowel letters sparingly</i>. ",
+						"<cite ref=\"Avodah Zarah 9a:8\">Ab. Zar. 9ᵃ</cite>; <cite ref=\"Avodah Zarah 9b:1\">9ᵇ</cite> and as a mnemonical sign (for remembering when to add and when to deduct) <he>ספרא ב׳ וכ׳</he> the writer of Bible copies writes many words without the vowel letters (defective) which the Mishnah teacher writes <i>plene</i>"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

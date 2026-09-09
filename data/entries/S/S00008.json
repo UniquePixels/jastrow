@@ -1,0 +1,27 @@
+{
+	"id": "S00008",
+	"slug": "קאיא",
+	"headword": {
+		"text": "קָאיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָיָיא"
+		}
+	],
+	"page": {
+		"number": 1306,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00217\"><he>קוּא</he></cite>) [<i>spitting</i>,] <i>outlet</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 68b\">B. Bath. 68ᵇ</cite> <he>קָאיְהוּ</he> Ms. M. (ed. <he>קָאיְהִי</he>; Rashb. a. Ms. H. <he>קָיְיהוּ</he>), v. <cite ref=\"N00146\"><he>נְגַח</he></cite>."
+			]
+		}
+	]
+}

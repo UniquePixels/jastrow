@@ -1,0 +1,39 @@
+{
+	"id": "T00432",
+	"slug": "רוק-3",
+	"headword": {
+		"text": "רוּק"
+	},
+	"page": {
+		"number": 1463,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch., Af. <he>אָרֵיק</he> <cite ref=\"T00431\">same</cite>, <i>to empty, pour</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 42:35\">Targ. Gen. XLII, 35</cite>. ",
+				"<cite ref=\"Onkelos Genesis 35:14\">Ib. XXXV, 14</cite> (h. text <he>ויצק</he>); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתָּרַק"],
+			"senses": [],
+			"stem": "Ittaf."
+		},
+		{
+			"forms": ["אִתְרִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to be poured</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 21:10\">Targ. Lev. XXI, 10</cite> (Y. ed. Vien. <he>יִתְרוֹק</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

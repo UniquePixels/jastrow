@@ -1,0 +1,37 @@
+{
+	"id": "M02837",
+	"slug": "משוניתא",
+	"headword": {
+		"text": "מְשׁוּנִּיתָא"
+	},
+	"page": {
+		"number": 850,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"U00968\"><he>שִׁינָּא</he></cite> <i>tooth</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>jaw</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 100a:4\">Erub. 100ᵃ</cite> <he>דדמו כמ׳</he> (some ed. … <he>ניתה</he>; Ms. M. <he>כי שִׁינִּיתָא</he>) if the roots on the surface are shaped like a jaw-bone (Rashi: ‘rocky crag’, v. infra)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cliff; bluff; grotto</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 10:7\">Gen. R. s. 10</cite> <he>מ׳ דימא וכ׳</he> the bluffs at Caesarea; (<cite ref=\"Kohelet Rabbah 11:1\">Koh. R. to XI, 1</cite> <cite ref=\"U00470\"><he>שוניתא</he></cite>; <cite ref=\"Kohelet Rabbah 5:8\">ib. to V, 8</cite> <cite ref=\"U00472\"><he>שונתא</he></cite>).—",
+				"<cite ref=\"Taanit 23a:16\">Taan. 23ᵃ</cite> <he>אהדרא ליה מ׳</he> a grotto formed around him; <cite ref=\"Midrash Tehillim 126:1\">Midr. Till. to Ps. CXXVI</cite>. ",
+				"<cite ref=\"Bava Metzia 108b:14\">B. Mets. 108ᵇ</cite> <he>אפסיק מ׳</he> if a craggy mound separated the fields. ",
+				"<cite ref=\"Bava Metzia 109a:12\">Ib. 109ᵃ</cite> <he>אהדר ליה מ׳</he> he surrounded the fields with an embankment."
+			],
+			"label": "2"
+		}
+	]
+}

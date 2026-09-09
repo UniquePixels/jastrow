@@ -1,0 +1,62 @@
+{
+	"id": "C00252",
+	"slug": "גדש-2",
+	"headword": {
+		"text": "גָּדַשׁ"
+	},
+	"page": {
+		"number": 215,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to heap up, to put up stacks of grain</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 56a\">Pes. 56ᵃ</cite>; <cite ref=\"Menachot 71a:15\">Men. 71ᵃ</cite> <he>גּוֹדְשִׁין לפני העומר</he> they put the stacks of grain up before offering the Omer (v. <cite ref=\"P00288\"><he>עוֹמֶר</he></cite>); <cite ref=\"Tosefta Pesachim 2:1\">Tosef. Pes. II</cite> (<cite ref=\"Tosefta Pesachim 3:19\">III</cite>), 19 (corr. acc.). ",
+				"<cite ref=\"Tosefta Bava Kamma 6:24\">Tosef. B. Kam. VI, 24</cite> <he>השאילו לִגְדּוֹשׁ … וגָ׳ וכ׳</he> if he lent him a spot to pile wheat on it, and he piled barley; a. fr.—2) <i>to give heaped measure</i>, opp. <he>מחק</he> to strike. ",
+				"<cite ref=\"Mishnah Bava Batra 5:11\">B. Bath. V, 11</cite> where the usage is <he>למחוק לא יִגְדּוֹש וכ׳</he> to strike grain, one must not heap (even for special remuneration) &c.; a. fr.—Part. pass. <cite ref=\"C00190\"><he>גָּדוּשׁ</he></cite>, f. <cite ref=\"C01315\"><he>גְּדוּשָׁה</he></cite>, <i>brimful, overflowing, heaped</i>. ",
+				"<cite ref=\"Mishnah Tamid 5:4\">Tam. V, 4</cite>. ",
+				"<cite ref=\"Yoma 48a:3\">Yoma 48ᵃ</cite> <he>גְּדוּשׁוֹת</he>, v. <cite ref=\"I00674\"><he>טָפַף</he> I</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 22\">Gen. R. s. 22</cite> <he>חטאו … ג׳ ומְגוּדָּשׁ</he> the measure of thy sin is heaped to excess.—",
+				"<cite ref=\"Shabbat 153b:5\">Sabb. 153ᵇ</cite>; <cite ref=\"Tosefta Shabbat 1:17\">Tosef. ib. I, 17</cite>; Y. ib. I, 3ᶜ (<he>את ה</he>)<he>סאה בו ביום גָּדְשׁוּ</he> on that day (of rabbinical enactments) they overfilled the measure (of laws)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִגְדַּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be heaped up, to tower up</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Menachot 9:5\">Men. IX, 5</cite> <he>היו נִגְדָּשׁוֹת</he> were heaped, v. <cite ref=\"C00320\"><he>גּוֹדֶשׁ</he></cite>. ",
+						"<cite ref=\"Sotah 34a\">Sot. 34ᵃ</cite> the waters <he>נִגִדָּשִׁין ועולין</he> rose more and more."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["גִּידֵּשׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"C00251\">same</cite>. Part. pass. <he>מְגוּדָּשׁ</he>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִגְדִּישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to pile up stacks</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Kamma 6:3\">B. Kam. VI, 3</cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

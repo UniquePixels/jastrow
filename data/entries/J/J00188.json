@@ -1,0 +1,29 @@
+{
+	"id": "J00188",
+	"slug": "יולדה",
+	"headword": {
+		"text": "יוֹלֵדָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "יוֹלֶדֶת"
+		}
+	],
+	"page": {
+		"number": 568,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"J00187\">preced.</cite>) <i>a woman in confinement; a mother</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 2:8\">Ab. II, 8</cite> <he>אשרי יוֹלַדְתּוֹ</he> blessed is his mother.—Pl. <he>יוֹלְדוֹת</he>. ",
+				"<cite ref=\"Shabbat 32a:8\">Sabb. 32ᵃ</cite> <he>נשים מתות י׳</he> women die in confinement (v. <cite ref=\"L00430\"><he>לֵידָה</he></cite>); Y. ib. II, 5ᵇ top; v. <he>יַלְדָּה</he>.—",
+				"<cite ref=\"Mishnah Sotah 1:5\">Sot. I, 5</cite> <he>את הי׳</he> (not <cite ref=\"J00188\"><he>יולדת</he></cite>) the women appearing in the Temple after confinement."
+			]
+		}
+	]
+}

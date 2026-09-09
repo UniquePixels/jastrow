@@ -1,0 +1,22 @@
+{
+	"id": "Q00293",
+	"slug": "פוסקא",
+	"headword": {
+		"text": "פּוּסְקָא"
+	},
+	"page": {
+		"number": 1144,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01351\"><he>פְּסַק</he></cite>) [<i>decree</i>,] <i>pusḳa</i>, name of a huge cup which every guest at a banquet must empty. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 1048:8\">Yalk. Esth. 1048</cite> (fr. Abba Gorion) <he>כך היה תכסיס … והוא נקרא פ׳ וכ׳</he> such was the order of things with the Persians: they had a large cup … which was called <i>pusḳa</i> &c.; v. <cite ref=\"Q00905\"><he>פִּיתְקָא</he></cite>."
+			]
+		}
+	]
+}

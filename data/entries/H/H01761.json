@@ -1,0 +1,32 @@
+{
+	"id": "H01761",
+	"slug": "חרק-3",
+	"headword": {
+		"text": "חֲרַק"
+	},
+	"page": {
+		"number": 506,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01760\">same</cite>.",
+			"units": [
+				"<cite ref=\"Shabbat 67a:3\">Sabb. 67ᵃ</cite> <he>לִיחֲרוֹק ביה פורתא</he> let him cut a little notch into it. Part. <he>חָרֵיק</he>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:14\">Y. Kil. IX, 32ᶜ</cite> bot. <he>וח׳ בשינוי</he> and gnashing his teeth; <cite ref=\"Jerusalem Talmud Ketubot 12:3:14\">Y. Keth. XII, 35ᵇ</cite> <he>וחרוק</he> (corr. acc.)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיחֲרוֹק", "אִחֲ׳"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01760\">same</cite>. Y. Kil. l. c. <he>הויתא א׳ בשינייך</he> thou wast gnashing thy teeth; Y. Keth. l. c. <he>הוות א׳ בשינוי</he> (corr. acc.).",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

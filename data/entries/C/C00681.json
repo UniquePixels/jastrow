@@ -1,0 +1,32 @@
+{
+	"id": "C00681",
+	"slug": "גיזוזא",
+	"headword": {
+		"text": "גִּיזּוּזָא"
+	},
+	"page": {
+		"number": 237,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גזז</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cutting off, shearing</i>. Constr. <cite ref=\"C00681\"><he>גִּיזּוּז</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 3:24\">Targ. Is. III, 24</cite>; <cite ref=\"Targum Jonathan on Isaiah 22:12\">XXII, 12</cite> (h. text <cite ref=\"S01975\"><he>קרחה</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>trimming</i>. ",
+			"units": ["<cite ref=\"Bava Batra 4a:15\">B. Bath. 4ᵃ</cite>"],
+			"label": "2"
+		}
+	]
+}

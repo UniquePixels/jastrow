@@ -1,0 +1,34 @@
+{
+	"id": "V00959",
+	"slug": "תרוט",
+	"headword": {
+		"text": "תָּרוּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּרוּטָה"
+		}
+	],
+	"page": {
+		"number": 1696,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"I00724\"><he>טָרוּט</he></cite>, q. v.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <he>רהט</he> a. denominatives, a. <cite ref=\"V01053\"><he>תרץ</he></cite>) <i>straight-lined, abrupt.—</i>Pl. <he>תְּרוּטִים</he>; <he>תְּרוּטוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 2:5\">Midd. II, 5</cite> <he>לא היו ת׳ אלא מוקפות</he> Ar. (Var., a. ed. <cite ref=\"I00001\"><he>ט׳</he></cite>) the steps to the Temple were not straight-lined but rounded off (semicircular). Mekh. B’shall. s. 1 <he>לא היו ת׳ וכ׳</he> (the cavernous rocks, <cite ref=\"H00871\"><he>חִירוֹת</he></cite>) did not form straight vertical walls, but were rounded (convex). ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 1:1:7\">Y. Succ. I, 52ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Shabbat 1:1:20\">Y. Sabb. I, 2ᵈ</cite> <he>בשעה … ת׳ היו</he> during the time that they were handing the boards (of the Tabernacle) from wagon to wagon, the wagons were straight-walled (not arch-covered, v. <cite ref=\"S01498\"><he>קַמְרוֹטוֹן</he></cite>).—[<cite ref=\"Bekhorot 44a:12\">Bekh. 44ᵃ</cite> <he>ת׳</he> <i>round</i>, Rashi, v. <cite ref=\"R00460\"><he>צִירָן</he></cite>, a. <cite ref=\"I00724\"><he>טָרוּט</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

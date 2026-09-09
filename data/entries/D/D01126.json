@@ -1,0 +1,24 @@
+{
+	"id": "D01126",
+	"slug": "דררא-1",
+	"headword": {
+		"text": "דְּרָרָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 325,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דָּרָא</he> I) [<i>row of teeth</i>,] <i>the gum</i> (cmp. <cite ref=\"D00387\"><he>דוּרְשִׁינֵּי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 28a\">Ab. Zar. 28ᵃ</cite>; <cite ref=\"Yoma 84a:7\">Yoma 84ᵃ</cite> <he>רמי מידי בי ככיה ואתי דמי מדְּרָרֵיה</he> Ar. (ed. <he>רמי …</he> (<he>ואתא</he>) <he>ומיתי דמא מבי דרי</he>) if he puts anything between his teeth, his gums will bleed. ",
+				"<cite ref=\"Yoma 84a:7\">Ib.</cite> <he>ודַבֵּיק בי דדריך</he> Ar. ed. Koh. (read: <he>דְרָרֵיךְ</he>; ed. Ab. Zar. <he>ביה דדרי</he>; Yoma <he>בככי דריה</he>, Rashi <he>דרריה</he>; v. Rabb. D. S. a. l.) and stick it into the inside of thy gums."
+			]
+		}
+	]
+}

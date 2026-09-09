@@ -1,0 +1,28 @@
+{
+	"id": "M02546",
+	"slug": "מרדותא-1",
+	"headword": {
+		"text": "מַרְדּוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַרְדּוּ",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 837,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"M02544\"><he>מַרְדּוּת</he> I</cite> , <i>chastisement, correction</i> (corresp. to b. h. <cite ref=\"M00550\"><he>מוּסָר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 2:10\">Targ. Ps. II, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 22:15\">Targ. Prov. XXII, 15</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Leviticus 19:20\">Targ. Y. II, Lev. XIX, 20</cite> <he>מרדו</he> (h. text <cite ref=\"B01147\"><he>בקרת</he></cite>); a. e.—Pl. <he>מַרְדָּוָותָא</he>. ",
+				"<cite ref=\"Targum Jerusalem, Leviticus 26:18\">Targ. Y. ib. XXVI, 18</cite>; <cite ref=\"Targum Jerusalem, Leviticus 26:23\">23</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "C00432",
+	"slug": "גונבת",
+	"headword": {
+		"text": "גּוֹנֶבֶת"
+	},
+	"page": {
+		"number": 223,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גנב</he>) <i>inclined to steal</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 6:11\">Deut. R. s. 6</cite>; Tanḥ. Vayesheb 6; v. <cite ref=\"M02937\"><he>מַשְׁמְשָׁנִית</he></cite> a. <cite ref=\"C01085\"><he>גַּנָּבִית</he></cite>."
+			]
+		}
+	]
+}

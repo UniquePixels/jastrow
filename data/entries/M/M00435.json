@@ -1,0 +1,23 @@
+{
+	"id": "M00435",
+	"slug": "מוהרקי",
+	"headword": {
+		"text": "מוֹהַרְקֵי"
+	},
+	"page": {
+		"number": 739,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (used as sing., sub. <he>שטר</he>) (<he>הרק</he>, v. <cite ref=\"H01694\"><he>חֲרִיקָא</he></cite>) <i>surety</i>, esp. for royal taxes (<cite ref=\"K01089\"><he>כַּרְגָּא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Yevamot 46a:13\">Yeb. 46ᵃ</cite>; <cite ref=\"Bava Metzia 73b:7\">B. Mets. 73ᵇ</cite> <he>מוֹהַרְקַיְיהוּ דהני וכ׳</he> (Ms. M. <he>מוהד׳</he>) the surety for these people lies in the archive of the king, and the king has ordained that he who pays no <i>charga</i> can be made the servant of him who pays (for him).—[<cite ref=\"Eruvin 62a:11\">Erub. 62ᵃ</cite> <he>בריאה במ׳ ואבורגני</he> (Rabad <he>פרהגבני</he>, v. Rabb. D. S. a. l. note 60) a lease is sound if made legal by sureties and (countersigned) by officers. Oth. explan., v. <cite ref=\"A00080\"><he>אַבּוּרְגְּנָא</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "G00085",
+	"slug": "זהוב",
+	"headword": {
+		"text": "זָהוּב"
+	},
+	"page": {
+		"number": 381,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זהב</he>) <i>a gold coin</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevuot 5:9\">Tosef. Shebu. V, 9</cite> <he>דינר זהב ז׳</he> a gold denar in coin, contrad. to <he>דינר זהב</he> the value of a gold denar; <cite ref=\"Shevuot 40a:7\">Shebu. 40ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 10:4:5\">Y. Shebi. X, end, 39ᵈ</cite> <he>מה בין ז׳ וכ׳</he> what is the difference between a gold coin (as a pledge) and a gold ring?—<he>ז׳ דרכו להשתנות</he> a gold coin may be exchanged (the pledgee being permitted to use it). ",
+				"<cite ref=\"Shemot Rabbah 35:1\">Ex. R. s. 35</cite>; a. v. fr.—Pl. <he>זְהוּבִים</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:1:8\">Cant. R. to I, 1</cite>; a. fr."
+			]
+		}
+	]
+}

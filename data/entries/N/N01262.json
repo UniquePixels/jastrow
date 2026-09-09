@@ -1,0 +1,29 @@
+{
+	"id": "N01262",
+	"slug": "נרגל-1",
+	"headword": {
+		"text": "נֵרְגַל"
+	},
+	"page": {
+		"number": 936,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. <i>Nergal</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " a deity of the Cutheans (v. Schr. KAT<sup>2</sup>, p. 282, sq.). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 63b:16\">Snh. 63ᵇ</cite> (quoting <cite ref=\"II Kings 17:30\">II Kings XVII, 30</cite> <cite ref=\"N01258\"><he>נרגול</he></cite>), expl. <cite ref=\"V01021\"><he>תרנגול</he></cite> a cock; <cite ref=\"Jerusalem Talmud Avodah Zarah 3:2:3\">Y. Ab. Zar. III, 42ᵈ</cite> top <he>ריגליה דיעקב וריגליה דיוסף וכ׳</he> Nergal has the meaning of <i>luck</i> in the sense in which the Scripture speaks of the luck of Jacob (<cite ref=\"Genesis 30:27\">Gen. XXX, 27</cite> <he>בגללך</he>, for which <he>לרגלו</he> in verse 30) and the luck of Joseph (ib. XXXIX, 5 <he>בגלל</he>), v. <cite ref=\"T00205\"><he>רִגְלָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>N</i>. <i>Sarezzar</i>, one of the princes of Nebuchadnezzar. Targ. II Esth. I, 2 (3).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

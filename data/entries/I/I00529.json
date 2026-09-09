@@ -1,0 +1,77 @@
+{
+	"id": "I00529",
+	"slug": "טמא-2",
+	"headword": {
+		"text": "טָמֵא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "טָמָה"
+		}
+	],
+	"page": {
+		"number": 538,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>טמם</he>) [<i>to be filled up, inaccesible</i>,] <i>to be unclean</i>; v. <cite ref=\"I00531\"><he>טָמֵא</he> II</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["(טִימָּה) טִימֵּא"],
+			"senses": [
+				{
+					"gloss": "<i>to make unclean, to soil, defile</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 39a:3\">Yoma 39ᵃ</cite> <he>אדם מְטַמֵּא עצמו מעט מְטַמְּאִין וכ׳</he> if a man begins to defile himself a little (through sin), he will soon be defiled largely. ",
+						"<cite ref=\"Mishnah Yadayim 3:5\">Yad. III, 5</cite>, a. fr. <he>מט׳ את הידים</he> their handling makes the hands unclean (washing the hands is required after handling them). ",
+						"<cite ref=\"Mishnah Kelim 1:1\">Kel. I, 1</cite>; a. v. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to declare unclean</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Tahorot 6:2\">Toh. VI, 2</cite>. ",
+						"<cite ref=\"Mishnah Eduyot 1:11\">Eduy. I, 11</cite>; a. v. fr.—",
+						"<cite ref=\"Mishnah Makhshirin 6:2\">Makhsh. VI, 2</cite> <he>טִימְּאוּ</he>; Y. Dem. V, 24ᵈ <he>טִימּוּ</he>. "
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִטְמָא"],
+			"senses": [
+				{
+					"gloss": ", <i>Hithpa.</i> <he>הִתְטַמֵּא</he>, <he>הִיטַּמֵּא</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to become unclean, to be made unclean</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Oktzin 1:1\">Ukts. I, 1</cite> <he>מְטַמֵּא ומִיטַּמֵּא</he> eventually makes unclean and becomes unclean. ",
+						"<cite ref=\"Mishnah Kelim 2:1\">Kel. II, 1</cite> <he>מִיתְטַמְּאִין וכ׳</he> (ed. Dehr. <cite ref=\"M00994\"><he>מִיטַּ׳</he></cite>) are fit to become unclean and to make unclean. ",
+						"<cite ref=\"Mishnah Kelim 2:1\">Ib.</cite> <he>ומיט׳ מאחוריהן ואינן מיט׳ וכ׳</he> Mish. ed. (Talm. ed. <he>מִטַּ׳</he>) may be made unclean through their backs (touching uncleanness), &c. Ib. VI, 4 <he>ונִטְמְאוּ</he> and which became unclean; a. v. fr.—",
+						"<cite ref=\"Yoma 38b\">Yoma 38ᵇ</cite> [read:] <he>בא לִטַּמֵּא פְּתָחִין לו</he> (v. Rabb. D. S. a. l. note) to him who is willing to defile himself, doors are open; <cite ref=\"Shabbat 104a:10\">Sabb. 104ᵃ</cite>; <cite ref=\"Avodah Zarah 55a\">Ab. Zar. 55ᵃ</cite>; <cite ref=\"Menachot 29b\">Men. 29ᵇ</cite>"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make one’s self unclean</i> by handling a corpse &c. (v. ",
+					"units": [
+						"<cite ref=\"Leviticus 21:1\">Lev. XXI, 1</cite>, sq.). ",
+						"<cite ref=\"Yevamot 60a:11\">Yeb. 60ᵃ</cite> <he>מִטַּמֵּא לה</he> he (the priest) may attend to her burial; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

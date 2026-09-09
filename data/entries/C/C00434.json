@@ -1,0 +1,36 @@
+{
+	"id": "C00434",
+	"slug": "גונדא-2",
+	"headword": {
+		"text": "גּוּנְדָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 223,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"C00303\"><he>גּוּדָּא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>wall</i>. Pl. <he>גּוּנְדֵּי</he>. ",
+			"units": [
+				"<cite ref=\"Sotah 22b:6\">Sot. 22ᵇ</cite> <he>דחייפי ג׳</he> (Ar. s. v. <cite ref=\"H01417\"><he>חף</he></cite> 5, v. infra) who scratch themselves against the walls (in saintly self-chastisement)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>gunda</i>, name of a domestic overall used at work for the protection of one’s clothes, <i>duster</i>. *<cite ref=\"Gittin 68b:16\">Gitt. 68ᵇ</cite> (in Hebr. diction) <he>גּוּנְדּוֹ</he> his duster (was all that was left to Solomon) (<cite ref=\"Sanhedrin 20b\">Snh. 20ᵇ</cite> (Ms. M.) <cite ref=\"Yalkut Shimoni on Nach 177\">Yalk. Kings 177</cite>, Tanḥ. Aḥăre 1 <he>קודו</he>; <cite ref=\"Kohelet Rabbah 2:10:1\">Koh. R. to II, 10</cite> <he>קודיה</he>; Y. Snh. II, 20ᶜ bot. <cite ref=\"S01570\"><he>קניא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Shabbat 119a:3\">Sabb. 119ᵃ</cite> R. Anan (while preparing for the Sabbath) <he>לביש ג׳</he> (Ms. O. <cite ref=\"C00499\"><he>גורנא</he></cite>, Alf. Ms. <he>גודנא</he>, Asheri ed. Ven. <he>גונרא</he>, v. Rabb. D. S. a. l. note 2) put a <i>gunda</i> on.—Pl. <he>גּוּנְדֵּי</he>. ",
+				"<cite ref=\"Sotah 22b:6\">Sot. 22ᵇ</cite> <he>בי דינא … מהני דחפו ג׳</he> let the great Court call to account those who are wrapt up in overalls (hypocrites whom you cannot see through; Rashi: those who wrap themselves in cloaks as though they were true Pharisees; oth. vers., v. supra)."
+			],
+			"label": "2"
+		}
+	]
+}

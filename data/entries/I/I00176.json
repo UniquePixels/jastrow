@@ -1,0 +1,24 @@
+{
+	"id": "I00176",
+	"slug": "טומאה-2",
+	"headword": {
+		"text": "טוּמְאָה",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 524,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (hebraism; <cite ref=\"I00175\">preced.</cite>) <i>unclean woman, menstruant</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 22:10\">Targ. Ez. XXII, 10</cite>.—Pl. <he>טוּמְאָתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 30:22\">Targ. Is. XXX, 22</cite>."
+			]
+		}
+	]
+}

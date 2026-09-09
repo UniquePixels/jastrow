@@ -1,0 +1,34 @@
+{
+	"id": "S00505",
+	"slug": "קופיא",
+	"headword": {
+		"text": "קוּפְיָא"
+	},
+	"page": {
+		"number": 1338,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00487\"><he>קוף</he></cite> or <he>קפף</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>wall, parapet</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 73a:11\">B. Bath. 73ᵃ</cite> <he>רהיט אק׳ וכ׳</he> ran on the parapet of the wall of Maḥoza (Rashi: <cite ref=\"A02903\"><he>אקוּפֵי</he></cite> on the pinnacles)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>circuit</i>, trnsf. <i>indirectness, implication</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 50b\">Yoma 50ᵇ</cite>, v. <cite ref=\"S00055\"><he>קְבִיעוּתָא</he></cite>; <cite ref=\"Zevachim 6a\">Zeb. 6ᵃ</cite>; <cite ref=\"Zevachim 7b\">7ᵇ</cite>, v. <cite ref=\"S00089\"><he>קִבְעָא</he></cite>; [Rashi fr. <cite ref=\"S01694\"><he>קְפָא</he></cite> <i>floating, unsettled condition</i>.]—[<cite ref=\"Chullin 111a:2\">Ḥull. 111ᵃ</cite> <he>בקופיה</he>, v. <cite ref=\"S00490\"><he>קוֹפָא</he> II</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

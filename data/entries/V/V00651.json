@@ -1,0 +1,69 @@
+{
+	"id": "V00651",
+	"slug": "תמה-1",
+	"headword": {
+		"text": "תָּמַהּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "תָּמֵהַּ"
+		}
+	],
+	"page": {
+		"number": 1675,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"U01491\"><he>שָׁמַם</he></cite>) [<i>to stand still,</i>] <i>to be astonished, amazed; to wonder; to be undecided</i>. Pesik. R. addit., s. 1 <he>והבריות תּוֹמְהִים לומר וכ׳</he> and men wondered, saying, is such a thing possible? Ib. <he>על דור המגדל אתם תּוֹמְהִין וכ׳</he> you wonder at what occurred to the generation of the tower: has not such a thing occurred &c.? <cite ref=\"Yalkut Shimoni on Torah 166:11\">Yalk. Ex. 166</cite> <he>וַיִתְמְהוּ תמיהא גדולה מאד</he> and they wondered exceedingly. Pesik. Haḥod., p. 43ᵃ <he>היה</he> … <he>יושב ותָמֵהַּ בלבו וכ׳</he> Abraham sat and was undecided in his heart, saying, which shall I choose?; <cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 12:14\">Gen. R. s. 12</cite> <he>מלך … ועמד לו תָּמֵיהַּ</he> a king that rebuked his servant, and he stood there confounded. ",
+				"<cite ref=\"Bereishit Rabbah 12:14\">Ib.</cite> <he>תמיה אני איך וכ׳</he> I wonder how great men … could disagree on &c. ",
+				"<cite ref=\"Yevamot 96b:15\">Yeb. 96ᵇ</cite> <he>תמיה אני אם לא וכ׳</he> I should wonder, if this synagogue did not become an idolatrous temple. ",
+				"<cite ref=\"Arakhin 16b\">Arakh. 16ᵇ</cite> <he>תְּמִיהַנִי יש וכ׳</he> I wonder if there is in this generation &c. ",
+				"<cite ref=\"Mishnah Pesachim 6:2\">Pes. VI, 2</cite> <he>אל תִּתְמֵהּ על אלו</he> do not wonder at that Y. ib. 33ᵇ bot. <he>תמיהני היאך וכ׳</he> I wonder how R. El. could accept such an answer. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 202:2\">Yalk. Ex. 202</cite> <he>תְּמַהּ על עצמה היאך וכ׳</he> wonder at the very thing, why should leavened matter be forbidden &c.; <cite ref=\"Pesachim 28b:1\">Pes. 28ᵇ</cite> <he>תמה על עצמך</he> (corr. acc.); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְמִיהַּ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V00650\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 98:12\">Gen. R. s. 98</cite> <he>על אלו אתם מַתְמִיהִין</he> you wonder at that? if you were to see <he>היה לכם … להַתְמִיהַּ יותר</he> (not <he>להתמה</he>) you would wonder still more. ",
+						"<cite ref=\"Pesikta Rabbati 28:1\">Pesik. R. s. 28</cite> <he>מַתְמִיהִין</he> (not <he>מתמהין</he>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to create astonishment, act strangely</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 40a:2\">Men. 40ᵃ</cite> <he>אינו אלא מן המַתְמִיהִין</he> is one of those who make people wonder at their strange conduct; (Ms. M. <he>המוּתְמָהִין</he> <i>Hof.</i> of those <i>wondered at</i>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to love miracles, invent miracles</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 764:3\">Yalk. Num. 764</cite> <he>אף אתה מן המַתְמִיהִים</he> art thou, too, of the inventors of miracles?"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּתְמַהּ"],
+			"senses": [
+				{
+					"gloss": "<i>to be wondered at</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "M02239",
+	"slug": "מפקנא",
+	"headword": {
+		"text": "מַפְקָנָא"
+	},
+	"page": {
+		"number": 821,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01075\"><he>נְפַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = h. <cite ref=\"M00571\"><he>מוֹצָא</he></cite>, <i>coming forth</i>; <he>מ׳ דמיא</he> <i>spring;</i> (of a building) <i>exit</i>; (of troops) <i>exodus, march</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 2:21\">Targ. II Kings II, 21</cite>.—Pl. <he>מַפְקָנִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 126:4\">Targ. Ps. CXXVI, 4</cite>.—",
+				"<cite ref=\"Targum Jonathan on Ezekiel 42:11\">Targ. Ez. XLII, 11</cite>. ",
+				"<cite ref=\"Onkelos Numbers 33:2\">Targ. Num. XXXIII, 2</cite> (ed. Berl. <he>מַפְּ׳</he>; Y. ed. Vien. <cite ref=\"M02234\"><he>מִפְ׳</he></cite>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>discharge</i> from the bowels. ",
+			"units": [
+				"<cite ref=\"Gittin 56b\">Gitt. 56ᵇ</cite>, v. <cite ref=\"M02139\"><he>מַעֲלָנָא</he></cite>.—V. <cite ref=\"M02241\"><he>מַפַּקְתָּא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

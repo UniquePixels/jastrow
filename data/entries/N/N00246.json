@@ -1,0 +1,28 @@
+{
+	"id": "N00246",
+	"slug": "נדרן",
+	"headword": {
+		"text": "נַדְרָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "נוֹדְרָן"
+		}
+	],
+	"page": {
+		"number": 880,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00245\">preced.</cite> wds.) <i>one wont to make vows</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 143:5\">Yalk. Sam. 143</cite>; Midr. Sam. ch. XXVI <he>נו׳</he>.—<i>Fem.</i> <he>נַדְרָנִית</he>. ",
+				"<cite ref=\"Ketubot 71a\">Keth. 71ᵃ</cite>, a. e. <he>אי אפשי באשה נ׳</he> I will not live with a woman in the habit of vowing; Y. ib. VII, 31ᵇ bot. <cite ref=\"N00245\"><he>נדרית</he></cite> (v. <cite ref=\"A02841\"><he>אֶפֶשׁ</he></cite>)."
+			]
+		}
+	]
+}

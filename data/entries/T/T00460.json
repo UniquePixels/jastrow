@@ -1,0 +1,34 @@
+{
+	"id": "T00460",
+	"slug": "רז-2",
+	"headword": {
+		"text": "רָז",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רָזָא"
+		}
+	],
+	"page": {
+		"number": 1464,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00459\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 24:16\">Targ. Is. XXIV, 16</cite> <he>רָז אגר וכ׳</he> (constr.) the secret of reward … and of punishment. ",
+				"<cite ref=\"Targum Jonathan on Amos 3:7\">Targ. Am. III, 7</cite> (h. text <he>סוד</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 28:3\">Targ. Ez. XXVIII, 3</cite> (h. text <cite ref=\"O01686\"><he>סתום</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 49:6\">Targ. O. Gen. XLIX, 6</cite> (<i>council</i>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 91:1\">Targ. Ps. XCI, 1</cite> (h. text <cite ref=\"O01711\"><he>סתר</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 18:22\">Targ. I Sam. XVIII, 22</cite> <cite ref=\"B01216\"><he>ברַז</he></cite> (h. text <he>בלט</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 13:7\">Targ. Y. Deut. XIII, 7</cite> <cite ref=\"B01216\"><he>ברז</he></cite>; a. e.—Pl. <he>רָזִין</he>, <cite ref=\"T00467\"><he>רָזַיָּא</he></cite>, <cite ref=\"T00466\"><he>רָזֵי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 6:1\">Targ. Esth. VI, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 6:11\">Targ. II Kings VI, 11</cite>.—",
+				"<cite ref=\"Sanhedrin 31a:11\">Snh. 31ᵃ</cite> <he>דין גלי ר׳</he> this man is a revealer of secrets; a. e."
+			]
+		}
+	]
+}

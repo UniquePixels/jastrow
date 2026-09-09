@@ -1,0 +1,33 @@
+{
+	"id": "D00875",
+	"slug": "דמדם-2",
+	"headword": {
+		"text": "דַּמְדֵּם"
+	},
+	"page": {
+		"number": 312,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00874\">same</cite>. Part. pass. <he>מְדַמְדַּם</he> <i>overwhelmed</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 3:4\">Cant. R. to III, 4</cite> <he>הוה מ׳ וכ׳</he> he lay in a stupor the whole night, opp. <he>פרפר</he> to be restless."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִידַּמְדַּם"],
+			"senses": [
+				{
+					"gloss": "<i>to be dumb</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Exodus 15:16\">Targ. Y. II, Ex. XV, 16</cite> [read:] <cite ref=\"J00172\"><he>יִדַּ׳</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

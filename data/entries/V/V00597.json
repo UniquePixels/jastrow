@@ -1,0 +1,31 @@
+{
+	"id": "V00597",
+	"slug": "תלם-1",
+	"headword": {
+		"text": "תָּלַם"
+	},
+	"page": {
+		"number": 1672,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"V00025\"><he>הִתְלִים</he></cite> (denom. of <cite ref=\"V00598\"><he>תֶּלֶם</he></cite>) <i>to furrow, leave a ridge</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 31:13\">Gen. R. s. 31</cite> <he>והיה מַתְלִים תלמיות וכ׳</he> and it (the R’em) left furrows in the water as far as from Tiberias to Susitha; <cite ref=\"Yalkut Shimoni on Nach 926\">Yalk. Job 926</cite> <he>מסתלסל</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

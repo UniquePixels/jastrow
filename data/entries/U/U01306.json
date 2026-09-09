@@ -1,0 +1,34 @@
+{
+	"id": "U01306",
+	"slug": "שליוא",
+	"headword": {
+		"text": "שְׁלֵיוָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁלֵוָוא"
+		},
+		{
+			"text": "שְׁלֵיוְתָא"
+		}
+	],
+	"page": {
+		"number": 1583,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01305\">preced.</cite>) = h. <cite ref=\"U01235\"><he>שַׁלְוָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 16:49\">Targ. Ez. XVI, 49</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 33:20\">Targ. Is. XXXIII, 20</cite> (ed. Wil. <cite ref=\"U01241\"><he>שְׁלֵיוָתָא</he></cite>; ed. Lag. <he>שלוותא</he>); a. e.—Adv. <cite ref=\"U01306\"><he>שְׁלֵיוָא</he></cite> <i>at ease, without concern</i>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 12:1\">Targ. Jer. XII, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 32:9\">Targ. Is. XXXII, 9</cite>; <cite ref=\"Targum Jonathan on Isaiah 32:11\">11</cite>; <cite ref=\"Targum Jonathan on Isaiah 32:18\">18</cite> (ed. Wil. <cite ref=\"U01306\"><he>שְׁלֵיוָן</he></cite>; ed. Lag. <cite ref=\"U01235\"><he>שלוה</he></cite>, <he>שלווה</he>). ",
+				"<cite ref=\"Targum Jonathan on Zechariah 1:15\">Targ. Zech. I, 15</cite> (ed. Lag. <cite ref=\"U01305\"><he>שלווא</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"id": "D01114",
+	"slug": "דרס-2",
+	"headword": {
+		"text": "דְּרַס"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּרֵיס"
+		}
+	],
+	"page": {
+		"number": 324,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D01113\">same</cite><i>to tread</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:56\">Targ. Y. I Deut. XXVIII, 56</cite>; a. e.—",
+				"<cite ref=\"Vayikra Rabbah 28\">Lev. R. s. 28</cite>, end <he>דְּרוֹס עלי</he> step on me.—Part. pass. <cite ref=\"D01090\"><he>דְּרִיס</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:33\">Targ. Y. Deut. XXVIII, 33</cite> <i>oppressed</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to press, use as a rest</i> (v. <cite ref=\"M00334\"><he>מִדְרָס</he></cite>). ",
+			"units": [
+				"<cite ref=\"Niddah 32b:41\">Nidd. 32ᵇ</cite> <he>הא קא דָּרֵיס לכולהו</he> Ar. (ed. <he>הא דרס להו</he>).—3) as <cite ref=\"D01113\">preced.</cite> "
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "",
+			"units": [
+				"<cite ref=\"Chullin 9a:4\">Ḥull. 9ᵃ</cite> <he>זמנין דשהי ודָרֵיס וכ׳</he> he may sometimes pause or press unawares.—4) as <cite ref=\"D01113\">preced.</cite> 3). Part. act. <cite ref=\"D01114\"><he>דָּרֵיס</he></cite>, pass. <cite ref=\"D01090\"><he>דְּרִיס</he></cite>, f. <cite ref=\"D01091\"><he>דְּרִיסָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 20:25\">Targ. Y. Lev. XX, 25</cite>; a. e.—",
+				"<cite ref=\"Chullin 53a:9\">Ḥull. 53ᵃ</cite> <he>דדָרֵיס ופסקוהו לידיה</he> when people cut its forefeet off, while it was attacking; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִידְּרַס"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"D01113\">preced.</cite> <i>Nif.</i> ",
+					"units": [
+						"<cite ref=\"Bava Metzia 22b\">B. Mets. 22ᵇ</cite> sq. <he>משום דמִדַּרְסָא</he> because the mark is likely to be effaced."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

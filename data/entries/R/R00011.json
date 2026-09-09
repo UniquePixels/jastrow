@@ -1,0 +1,23 @@
+{
+	"id": "R00011",
+	"slug": "צאצאים",
+	"headword": {
+		"text": "צֶאֱצָאִים"
+	},
+	"page": {
+		"number": 1257,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h.; <cite ref=\"J00515\"><he>יָצָא</he></cite>)<i>offspring</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 107a:13\">B. Mets. 107ᵃ</cite> (ref. to <he>בצאתך</he>, <cite ref=\"Deuteronomy 28:6\">Deut. XXVIII, 6</cite>) <he>שיהו צֶאֱצָאֵי מעיך כמותך</he> that the offspring of thy bowels be like thee; <cite ref=\"Taanit 6a:1\">Taan. 6ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

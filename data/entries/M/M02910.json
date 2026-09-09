@@ -1,0 +1,26 @@
+{
+	"id": "M02910",
+	"slug": "משכנתא",
+	"headword": {
+		"text": "מַשְׁכַּנְתָּא"
+	},
+	"page": {
+		"number": 855,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"M02900\"><he>מַשְׁכּוֹן</he></cite>) <i>a loan transaction whereby landed property is transferred to the creditor with the privilege of redemption by returning the loan</i> (v. Sm. Ant. s. v. Pignus). [The particular conditions of the <he>מ׳</he> depend on local usages.] <cite ref=\"Bava Metzia 67a:12\">B. Mets. 67ᵃ</cite> <he>הא מ׳ באתרא דמסלקי וכ׳</he> as to the settlement of a <i>mashkanta</i>, where the usage allows the debtor to repay the loan at any time, he may reclaim his property as soon as the value of the creditor’s usufruct has reached the amount of the loan, but if the usufruct amounts to more, the balance cannot be claimed. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 67b:8\">Ib. 67ᵇ</cite> top, v. <cite ref=\"N00822\"><he>נַכְיָיתָא</he></cite>. ",
+				"<cite ref=\"Bava Metzia 68a:4\">Ib. 68ᵃ</cite> <he>סתם מ׳ שתא</he> a <i>m.</i> without a fixed term for redemption is meant for a year (during which the occupant cannot be disturbed). ",
+				"<cite ref=\"Bava Metzia 110a:8\">Ib. 110ᵃ</cite>, a. e. <he>מ׳ דסורא וכ׳</he> the agreement of a <i>m.</i> customary in Sura, in which it is written, ‘After the lapse of so and so many years, the property shall go back without payment’. ",
+				"<cite ref=\"Bava Metzia 110a:8\">Ib.</cite> <he>שטרא דמ׳</he> the document of a <i>m.</i>; a. e.—",
+				"<cite ref=\"Yalkut Shimoni on Nach 981:8\">Yalk. Cant. 981</cite>, v. <cite ref=\"M02909\">preced.</cite>"
+			]
+		}
+	]
+}

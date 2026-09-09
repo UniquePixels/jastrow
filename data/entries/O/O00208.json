@@ -1,0 +1,27 @@
+{
+	"id": "O00208",
+	"slug": "סדרן-1",
+	"headword": {
+		"text": "סַדְרָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוֹדְרָן"
+		}
+	],
+	"page": {
+		"number": 959,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00199\"><he>סָדַר</he></cite>) <i>one who arranges traditions systematically, systematic scholar</i>, opp. <cite ref=\"Q00711\"><he>פילפלן</he></cite> dialectician. Y. Hor. III, 48ᶜ top <he>הסו׳</he> (Bab. ed. <he>הסד׳</he>). ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 87:4\">Midr. Till. to Ps. LXXXVII</cite> (ref. to <cite ref=\"II Kings 20:20\">II Kings XX, 20</cite>) ‘he brought the water (of the Law) into the city’, <he>שהוא סו׳</he> because he (Ezekiah) was a collector, v. <cite ref=\"O00209\">next w.</cite>"
+			]
+		}
+	]
+}

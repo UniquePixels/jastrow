@@ -1,0 +1,71 @@
+{
+	"id": "N00220",
+	"slug": "נדח-1",
+	"headword": {
+		"text": "נָדַח"
+	},
+	"page": {
+		"number": 878,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to slip, move away</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִדַּח"],
+			"senses": [
+				{
+					"gloss": " (interch. with <he>דחה</he>) <i>to be banished, exiled</i>. Y. Snh. X, 29ᶜ top (ref. to <cite ref=\"Isaiah 27:13\">Is. XXVII, 13</cite>) <he>והנִידָּחִים … זו דור וכ׳</he> ‘those who were exiles in the land of Egypt’ means the generation of the wilderness. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 147:4\">Midr. Till. to Ps. CXLVII, 2</cite> <he>שנִדְּחוּ</he> (or <he>שנִדְחוּ</he>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be made to slip, to be led away</i> (<i>to idolatry</i>); <he>עיר הנִדַּחַת</he> <i>the case of a place whose inhabitants were led astray, the condemned town</i> (<cite ref=\"Deuteronomy 13:13\">Deut. XIII, 13</cite> to 18). ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 10:4\">Snh. X, 4</cite> <he>אנשי עיר הנ׳</he> the inhabitants of a condemned city. ",
+						"<cite ref=\"Tosefta Sanhedrin 14:1\">Tosef. ib. XIV, 1</cite>, a. e. <he>עיר הנ׳ לא היתה וכ׳</he> a case of a condemned city never occurred nor ever will occur. ",
+						"<cite ref=\"Tosefta Sanhedrin 14:1\">Ib.</cite> <he>אין עושין שלש עיירות נִידָּחוֹת וכ׳</he> three cities dare not be condemned (at a time) in Palestine; <cite ref=\"Yalkut Shimoni on Torah 886:4\">Yalk. Deut. 886</cite> <he>מְנוּדָּחוֹת</he> (<i>Pu.</i>); a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִדִּיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to lead astray</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 7:10\">Snh. VII, 10</cite> <he>המַדִּיחַ זה האומר וכ׳</he> a <i>maddiaḥ</i> (amenable to the law Deut. l. c.) is he who says, let us go and worship &c.; contrad. to <he>מסית</he>; ib. 67ᵃ <he>מַדִּיחֵי עיר הנדחת שנו כאן</he> the seducers of a condemned city are meant here. Ib. <he>נביא שה׳</he> a prophet that led a town astray. Ib. X, 4 (111ᵇ) <he>הִדִּיחוּהָ נשים</he> if women led a town astray; <he>היו מַדִּיחֶיהָ חוצה לה</he> if the seducers were outsiders; <he>עד שיַדִּיחוּהָ אנשים</he> unless the seducers are men; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּדָּח"],
+			"senses": [
+				{
+					"gloss": "<i>to be led astray</i>. Ib. <he>ה׳ מיעוטה</he> if a minority of the town was led astray. Tosef. ib. XIV, 3 <he>הוּדְּחוּ עמה</he> they were led astray along with the inhabitants; a. e.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (interch. with <cite ref=\"D00397\"><he>דָּחָה</he></cite>) <i>to be banished</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 739:6\">Yalk. Num. 739</cite> <he>הוּדַּחְתִּי מן האהל</he> I have been banished from the Tabernacle."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "A01752",
+	"slug": "אכרום",
+	"headword": {
+		"text": "אִכְרוּם",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אִי׳"
+		},
+		{
+			"text": "אִכְּרוּם"
+		},
+		{
+			"text": "אֶכְּ׳"
+		}
+	],
+	"page": {
+		"number": 65,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>כרם</he> = <he>קרם</he>; √<cite ref=\"K01071\"><he>כר</he></cite>) <i>covering, coating</i>. <he>א׳ אוכמין כקדרא</he> a coating of blackness like a pot. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 8:21\">Targ. Jer. VIII, 21</cite> (h. text <cite ref=\"S00168\"><he>קדר</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Joel 2:6\">Targ. Joel II, 6</cite>; <cite ref=\"Nahum 2:11\">Nah. II, 11</cite> (h. text <cite ref=\"Q00027\"><he>פארור</he></cite>). Cmp. <cite ref=\"S01945\"><he>קְרוּם</he></cite>."
+			]
+		}
+	]
+}

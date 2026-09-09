@@ -1,0 +1,24 @@
+{
+	"id": "R00754",
+	"slug": "צרורתא",
+	"headword": {
+		"text": "צְרוֹרָתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1301,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"R00753\">preced. art.</cite>) <i>rough, stone-like</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 96b\">Snh. 96ᵇ</cite>, Ms. M., v. <cite ref=\"R00400\"><he>צִינְּתָא</he> II</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "E00374",
+	"slug": "היך",
+	"headword": {
+		"text": "הֵיךְ"
+	},
+	"page": {
+		"number": 345,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (= <he>הֵי כְּ</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>how?</i> (v. <cite ref=\"E00333\"><he>הֵיאַךְ</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 1:7:4\">Y. Erub. I, 19ᵇ</cite> bot. <he>ה׳ עבידא</he> how can it happen?, i.e. name a case to which this rule will apply."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>as, like;</i> in Targ. editions mostly with double comparison: <he>הֵיךְ כְּ־</he>.—",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 22:15\">Targ. Ps. XXII, 15</cite>, sq.; a. v. fr.—<he>ה׳</he>—ה׳ <i>as</i>—<i>so</i>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 139:12\">Targ. Ps. CXXXIX, 12</cite>.—ה׳ מה <i>as that which, even as</i>. ",
+				"<cite ref=\"Targum Jerusalem, Numbers 24:1\">Targ. Y. II, Num. XXIV, 1</cite>, v. infra.—<he>ה׳ מה דאת אמר</he> (abbr. <he>המד״א</he>) even as you read in the Scriptures. ",
+				"<cite ref=\"Bereishit Rabbah 1:5\">Gen. R. s. 1</cite>, beg.; a. v. fr.—Y. Succ. III, 54ᵃ top <he>ה׳ מה דאמרת וכ׳</he> the same words which you spoke to the one, you spoke to the other!—Combined <cite ref=\"E00384\"><he>הֵיכְמָא</he></cite>, <cite ref=\"E00384\"><he>הֵיכְמָה</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 21:1\">Targ. Y. Gen. XXI, 1</cite>; a. fr.—Y. Erub. I, 19ᵇ; a. fr.—As prefix to nouns <cite ref=\"E00373\"><he>הֵיכ־</he></cite>. ",
+				"<cite ref=\"Targum of I Chronicles 2:54\">Targ. I Chr. II, 54</cite> <he>היכנטופא</he> (ed. Lag. <he>הי כנ׳</he>). ",
+				"<cite ref=\"Targum of I Chronicles 2:55\">Ib. 55</cite> (ed. Lag. <he>הי כ־</he>); v. <cite ref=\"E00328\"><he>הֵי</he> II</cite>.—*["
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. <cite ref=\"E00375\">next w.</cite>) <i>where?</i> <cite ref=\"Aramaic Targum to Psalms 89:50\">Targ. Ps. LXXXIX, 50</cite> Ms. (ed. <cite ref=\"A02081\"><he>אָן</he></cite>).]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

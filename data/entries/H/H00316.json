@@ -1,0 +1,36 @@
+{
+	"id": "H00316",
+	"slug": "חוך-5",
+	"headword": {
+		"text": "חוֹךְ",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חַיַךְ"
+		},
+		{
+			"text": "חוֹכָא"
+		}
+	],
+	"page": {
+		"number": 432,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חוּךְ</he> II) <i>laughter, gladness, object of derision</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 38:23\">Targ. O. Gen. XXXVIII, 23</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 16:27\">Targ. Jud. XVI, 27</cite>; a. fr.—",
+				"<cite ref=\"Aramaic Targum to Job 12:4\">Targ. Job XII, 4</cite> <he>חיך</he> (ed. Lag. <cite ref=\"H00730\"><he>חַיַיךְ</he></cite>).—",
+				"<cite ref=\"Berakhot 9b:18\">Ber. 9ᵇ</cite> <he>לא פסק ח׳ וכ׳</he> laughter did not vanish from his lips (he felt happy) &c. ",
+				"<cite ref=\"Shevuot 34b:22\">Shebu. 34ᵇ</cite> <he>מאי ח׳</he> what is the cause of the laughter?—",
+				"<cite ref=\"Eruvin 68b\">Erub. 68ᵇ</cite>, v. <cite ref=\"A01089\"><he>אִטְלוּלָא</he></cite>; a. e."
+			]
+		}
+	]
+}

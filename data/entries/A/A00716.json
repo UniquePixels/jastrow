@@ -1,0 +1,37 @@
+{
+	"id": "A00716",
+	"slug": "און-1",
+	"headword": {
+		"text": "אָוֶן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָוֶון"
+		}
+	],
+	"page": {
+		"number": 27,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; √<cite ref=\"A00516\"><he>או</he></cite> = <he>עו</he> <i>to curve, be curved, hollow; to press, be pressed;</i> v. <cite ref=\"A00626\"><he>אוי</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>oppression, wrong</i> (= <cite ref=\"P00290\"><he>עָוֹן</he></cite>)",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>falsehood, vanity</i> (= <cite ref=\"E00042\"><he>הֶבֶל</he></cite>). <he>א׳ גִּלְיוֹן</he> a cacophemistic adaptation of εὐαγγέλιον (v. <cite ref=\"C00941\"><he>גליון</he></cite>). ",
+			"units": [
+				"<cite ref=\"Shabbat 116a:10\">Sabb. 116ᵃ</cite> bot. (after <he>לסכוניה</he>, omitted in ed.) <he>דר׳ מאיר א׳ ג׳ ר׳ יוחנן קרי ליה עון גליון</he> (Rashi Ms. <he>ר׳ מאיר</he>, v. Rabb. D. S. a. l. note) R. Meïr called the gospel falsehood of blank paper (or <i>of revelation</i>), R. Yoḥ. called it <i>sin of</i> &c. [<cite ref=\"Shabbat 116a:10\">Ib.</cite> several times <he>עון גליון</he> or <he>און ג׳</he> in Ms. a. older editions, for <he>אירייתא אחריתי</he> &c. in recent ed., v. Rabb. D. S. a. l.]"
+			],
+			"label": "2"
+		}
+	]
+}

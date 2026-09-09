@@ -1,0 +1,51 @@
+{
+	"id": "K00970",
+	"slug": "כעס-1",
+	"headword": {
+		"text": "כָּעַס"
+	},
+	"page": {
+		"number": 656,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be dark, hot</i>, cmp. <cite ref=\"H01212\"><he>חמץ</he></cite>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be angry, displeased</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 61b\">Ber. 61ᵇ</cite> top, v. <cite ref=\"K00034\"><he>כָּבֵד</he> III</cite>. ",
+				"<cite ref=\"Temurah 16a:27-41\">Tem. 16ᵃ</cite> (play on <cite ref=\"P00747\"><he>עַכְסָה</he></cite>) <he>כל … כּוֹעֵס על וכ׳</he> whoever saw her became displeased with his own wife. ",
+				"<cite ref=\"Nedarim 22a:9\">Ned. 22ᵃ</cite>, a. fr. <he>כל הכועס</he> whoever allows himself to be carried away by his wrath. ",
+				"<cite ref=\"Shemot Rabbah 45:2\">Ex. R. s. 45</cite> <he>מטרונה שכָּעֲסָה על וכ׳</he> a matron (queen) that was angry with the king’s daughter; a. fr.—Part. pass. <cite ref=\"K00963\"><he>כָּעוּס</he></cite>, f. <cite ref=\"K00044\"><he>כְּעוּסָה</he></cite>; pl. <he>כְּעוּסִים</he>, <he>כְּעוּסוֹת</he>. ",
+				"<cite ref=\"Shemot Rabbah 45:2\">Ib.</cite> <he>כשיהיו פניך כ׳ וכ׳</he> when thou shalt be angry, I shall conciliate thee &c.; (Tanḥ. Ki Thissa 27 <he>כשאהיה אני בכעס</he>); a. e.—V. <cite ref=\"K00963\"><he>כָּעוּס</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to grow hot</i> in the stomach, <i>to ferment, swell</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 70a:10\">Gitt. 70ᵃ</cite> <he>לכשתִּכְעוֹס תעמוד על מליאה</he> Ar. (ed. <he>מילואך</he>) when it (the food) swells, it will just fill the capacity of thy stomach."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִכְעִיס"],
+			"senses": [
+				{
+					"gloss": "<i>to provoke to anger</i>. ",
+					"units": [
+						"<cite ref=\"Devarim Rabbah 3:17\">Deut. R. s. 3</cite>. <he>שהם עתידים להַכְעִיס אותי</he> that they are going to provoke me (through idolatry). ",
+						"<cite ref=\"Pirkei Avot 5:2\">Ab. V, 2</cite> <he>היו מַכְעִיסִין וכ׳</he> were constantly provoking (the Lord). ",
+						"<cite ref=\"Sanhedrin 27a\">Snh. 27ᵃ</cite>, a. fr. <he>להַכְעִיס</he> in a spirit of defiance, v. <cite ref=\"M00525\"><he>מוּמָר</he></cite>; a. fr.—Imper. <he>אַכְעִיס</he> (for <cite ref=\"K00970\"><he>הכעיס</he></cite>). Ruth R. end (ref. to <cite ref=\"Psalms 4:5\">Ps. IV, 5</cite>) <he>ארגיז יצרך … א׳ יצרך ולא תחטא</he> let thy tempter rage, but sin not; but the Rabbis say, arouse thy (good) inclination to indignation, and thou shalt not sin. [Midr. Till. to Ps. l. c. <he>אַכְחֵישׁ … ואל יחטיאך</he> weaken thy tempter (by ascetics) &c.; <cite ref=\"Yalkut Shimoni on Nach 627\">Yalk. Ps. 627</cite>;—Pesik. Shubah, p. 158ᵃ <he>אכופס</he>, corr. acc.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

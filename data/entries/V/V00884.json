@@ -1,0 +1,25 @@
+{
+	"id": "V00884",
+	"slug": "תקיעה",
+	"headword": {
+		"text": "תְּקִיעָה"
+	},
+	"page": {
+		"number": 1690,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00905\"><he>תָּקַּע</he></cite>) <i>blowing the Shofar</i>; esp. <i>t’ḳiʿah, a succession of connected notes</i> (v. <cite ref=\"U00176\"><he>שֶׁבֶר</he> I</cite>). ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 34a:10\">R. Hash. 34ᵃ</cite>, v. <cite ref=\"U00176\"><he>שֶׁבֶר</he> I</cite>. ",
+				"<cite ref=\"Rosh Hashanah 30a:7\">Ib. 30ᵃ</cite> <he>תְּקִיעַת ר״ה ויובל</he> blowing on the New Year’s day and in announcing the jubilee. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 4:9\">Ib. IV, 9</cite> (<cite ref=\"Rosh Hashanah 33b:5\">33ᵇ</cite>) <he>שיעור ת׳ וכ׳</he> (not <he>תקיעות</he>) the value of a <i>t’ḳiʿah</i> is equal to the length of three <i>t’ruʿoth</i>; a. fr.—Pl. <he>תְּקִיעוֹת</he>. ",
+				"<cite ref=\"Rosh Hashanah 33b:5\">Ib.</cite> <he>סרר ת׳ שלש וכ׳</he> the order of the blowing of the Shofar is this: three soundings, each consisting of three tunes (<i>t’ḳiʿah, t’ruʿah, t’ḳiʿah</i>). Ib. 34ᵃ <he>שתי ת׳ לכל אחת ואחת</he> two <i>t’ḳiʿoth</i> for each sounding; <he>שלש תרועות ושש ת׳ וכ׳</he> three <i>t’ruʿoth</i> and six <i>t’ḳiʿoth</i> are sounded on the New Year’s day. Ib.ᵇ top <he>תשע ת׳ בתשע וכ׳</he> if one sounded the nine tunes within nine hours during the day; a. fr."
+			]
+		}
+	]
+}

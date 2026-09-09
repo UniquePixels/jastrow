@@ -1,0 +1,40 @@
+{
+	"id": "V01081",
+	"slug": "תשחורת",
+	"headword": {
+		"text": "תִּשְׁחוֹרֶת"
+	},
+	"page": {
+		"number": 1703,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שָׁחַר</he> II, v. ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 3:8\">Ned. III, 8</cite> quot. s. v. <cite ref=\"U00628\"><he>שָׁחוֹר</he> I</cite>) "
+			]
+		},
+		{
+			"gloss": "<i>early manhood, youth</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 3:2\">Ab. III, 2</cite> <he>נוח לת׳</he>, v. <cite ref=\"N00343\"><he>נוֹחַ</he> II</cite>; <cite ref=\"Jerusalem Talmud Taanit 2:2:2\">Y. Taan. II, 65ᵇ</cite> bot. (corr. acc.). ",
+				"<cite ref=\"Eichah Rabbah 1:26\">Lam. R. to I, 2</cite> <he>היה לה בן ת׳ ומת</he> she had a grown up son, and he died; <cite ref=\"Eichah Rabbah 2:11\">ib. II, 11</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <cite ref=\"M01338\"><he>מיתת</he></cite>) <i>death at manhood, premature death</i>. Ib. <he>של ת׳</he> (<cite ref=\"D00911\"><he>דמעה</he></cite>) tears over the loss of a grown up child. Treat. Der. Er. Zutta ch. IX <he>כרי שתנצל ממלאך הת׳</he> in order that thou mayest be saved from the angel of premature death.—[",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>search for young men, conscription</i>. Tanna d’be Elijahu ch. I.]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "M01515",
+	"slug": "מלוכה",
+	"headword": {
+		"text": "מְלוּכָה"
+	},
+	"page": {
+		"number": 788,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"M01570\"><he>מָלַךְ</he></cite>)<i>rulership, office</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Mishlei 21:1\">Midr. Prov. ch. XXI</cite> <he>בו״ד עולה למ׳ וכ׳</he> when a human being rises to rulership, he is in the hands of the Lord; <cite ref=\"Yalkut Shimoni on Nach 959\">Yalk. ib. 959</cite>. ",
+				"<cite ref=\"Shabbat 56b:3\">Sabb. 56ᵇ</cite> <he>יחלקו את המ׳</he> shall divide the rulership between themselves. ",
+				"<cite ref=\"Bamidbar Rabbah 3:12\">Num. R. s. 3</cite> <he>בעלי מ׳</he> rulers; a. e."
+			]
+		}
+	]
+}

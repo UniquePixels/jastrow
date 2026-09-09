@@ -1,0 +1,23 @@
+{
+	"id": "I00216",
+	"slug": "טורא-1",
+	"headword": {
+		"text": "טוּרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 526,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <he>טהר</he>, v. <cite ref=\"I00215\">preced.</cite>) <i>clearness, sky</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 99:3\">Gen. R. s. 99</cite> (ref. to <he>המסדרונה</he>, <cite ref=\"Judges 3:23\">Jud. III, 23</cite>) [read:] <he>ערפלי ט׳ וכ׳</he> the clouds of brightness, where the angels are seated in order."
+			]
+		}
+	]
+}

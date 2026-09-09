@@ -1,0 +1,41 @@
+{
+	"id": "A02888",
+	"slug": "אצר-1",
+	"headword": {
+		"text": "אָצַר"
+	},
+	"page": {
+		"number": 111,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; sec. r. of <cite ref=\"R00240\"><he>צור</he></cite>, cmp. <he>אסר</he>)<i>to lock up, hoard, gather;</i> cmp. <cite ref=\"C01120\"><he>גָּנַז</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 90b:4\">B. Bath. 90ᵇ</cite> <he>אוֹצְרֵי פירות</he> those who store up fruit (for speculation). ",
+				"<cite ref=\"Bava Batra 90b:7\">Ib.</cite> <he>אין אוֹצְרִין וכ׳</he>; <cite ref=\"Tosefta Avodah Zarah 4:1\">Tosef. Ab. Zar. IV</cite> (<cite ref=\"Tosefta Avodah Zarah 5:1\">V</cite>), 1 (<cite ref=\"A02889\"><he>אצר</he></cite> a. <he>עצר</he> used promiscuously) you must not hoard up (for speculation) such things as are necessaries of life; [correct <he>אין א׳ דברים שיש … כגון יינות שמנים וסלתות ופירות</he>]. ",
+				"<cite ref=\"Tosefta Avodah Zarah 5:1\">Ib.</cite> <he>לֶאֱצוֹר</he> (Tosef. <he>לאַצֵּר</he> <i>Pi.</i>). ",
+				"<cite ref=\"Tosefta Avodah Zarah 5:1\">Ib.</cite> <he>לא יְאַצֵּר</he> <i>Pi.</i> (Tosef. <he>ולא יַעֲצוֹר</he>, read <cite ref=\"L00003\"><he>לא</he></cite>; Var. <he>לא יַאֲצִיר</he>). ",
+				"<cite ref=\"Bereishit Rabbah 45:9\">Gen. R. s. 45</cite> end (play on <he>נבוכדרא̇צ̇ר̇</he>) <he>שאֲצָרָן וכ׳</he> he locked them up in the desert &c.—",
+				"<cite ref=\"Jerusalem Talmud Demai 6:8:10\">Y. Dem. VI, end, 26ᵃ</cite>; <cite ref=\"Tosefta Demai 6:4\">Tosef. ib. VI, 4</cite>; <cite ref=\"Avodah Zarah 71a\">Ab. Zar. 71ᵃ</cite> <cite ref=\"A00825\"><he>אוֹצֵר</he></cite> (<cite ref=\"P00325\"><he>עוֹצֵר</he></cite>) <i>government’s store-collector, commissary</i> (apothecarius), or read <cite ref=\"A00825\"><he>אוֹצָר</he></cite> q. v."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיצֵּר"],
+			"senses": [],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶאֱצִיר"],
+			"senses": [
+				{
+					"gloss": ", v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

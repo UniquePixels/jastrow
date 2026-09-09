@@ -1,0 +1,30 @@
+{
+	"id": "N01105",
+	"slug": "נצוק",
+	"headword": {
+		"text": "נִצּוֹק"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִיצּ׳"
+		}
+	],
+	"page": {
+		"number": 927,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00547\"><he>יָצַק</he></cite>) <i>uninterrupted flow</i> of a liquid poured from vessel to vessel. ",
+			"units": [
+				"<cite ref=\"Mishnah Tahorot 8:9\">Toh. VIII, 9</cite> <he>הנ׳ … אינן חבור וכ׳</he> an uninterrupted flow, a current on slanting ground and …, are not considered a connection (of the two liquids) either for communicating uncleanness or for producing cleanness. ",
+				"<cite ref=\"Avodah Zarah 56b:3\">Ab. Zar. 56ᵇ</cite>, a. fr. <he>נ׳ חיבור</he>, v. <cite ref=\"H00658\"><he>חִיבּוּר</he></cite>. ",
+				"<cite ref=\"Mishnah Yadayim 4:7\">Yad. IV, 7</cite>. ",
+				"<cite ref=\"Nazir 50b:3\">Naz. 50ᵇ</cite> <he>יש נ׳ לאוכלין וכ׳</he> does, or does not, the law regarding a connected flow apply to eatable things (e.g. melted fat)?; a. fr."
+			]
+		}
+	]
+}

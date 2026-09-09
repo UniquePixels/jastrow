@@ -1,0 +1,31 @@
+{
+	"id": "H00705",
+	"slug": "חיזרר",
+	"headword": {
+		"text": "חִיזְרָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּזְ׳"
+		},
+		{
+			"text": "חִיזְרָד"
+		}
+	],
+	"page": {
+		"number": 453,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"H00571\"><he>חַזְרָר</he></cite>) <i>medlar</i> (Mespilus Azarolus, v. Löw Pfl., p. 288, a. Sm. Ant. s. v. Mespile), being considered homogeneous to quincy. [In Mish. a. Babyl. dialect (<cite ref=\"P00223\"><he>עוּזְרָד</he></cite>) <cite ref=\"P00223\"><he>עוּזְרָר</he></cite>, but different from <he>הַזְרָר</he>.] <cite ref=\"Jerusalem Talmud Kilayim 1:4:1\">Y. Kil. I, 27ᵃ</cite> <he>תפוח ע״ג חיזרד</he>; (<cite ref=\"Tosefta Kilaim 1:3\">Tosef. ib. I, 3</cite> <cite ref=\"A00611\"><he>אוּזְרָד</he></cite>).—Pl. <he>חוּזְרָרִין</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:1:11\">Y. Sabb. III, 5ᵈ</cite> <he>קטנים כח׳</he> boiled down to the size of medlars; (Bab. ",
+				"<cite ref=\"Shabbat 38a:9\">ib. 38ᵃ</cite> <he>עוזרדין</he>; <cite ref=\"Jerusalem Talmud Terumot 2:1:20\">Y. Ter. II, 41ᶜ</cite> bot., v. <he>הַזְרָר</he>)."
+			]
+		}
+	]
+}

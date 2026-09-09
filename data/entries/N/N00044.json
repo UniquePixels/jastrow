@@ -1,0 +1,36 @@
+{
+	"id": "N00044",
+	"slug": "נבו",
+	"headword": {
+		"text": "נְבוֹ"
+	},
+	"page": {
+		"number": 867,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": " pr. n. pl. <i>Nebo</i>, a town on the eastern side of the Jordan. ",
+			"units": [
+				"<cite ref=\"Sotah 13b:20\">Sot. 13ᵇ</cite> (identifying <he>נ׳</he> with <he>הר נבו</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " הַר נ׳ <i>Mount Nebo</i> in Moab. Ib.; a. e.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>Nebo</i>, name of an Assyro-Babylonian deity. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 63b:11\">Snh. 63ᵇ</cite>; a. e.—[<cite ref=\"Tosefta Pesachim 2\">Tosef. Pes. II (III), 20</cite> <he>נ׳ היין</he>, <he>נ׳ היו</he>, v. <cite ref=\"B00215\"><he>בּוֹהֲיָין</he></cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

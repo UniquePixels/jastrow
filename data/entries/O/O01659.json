@@ -1,0 +1,24 @@
+{
+	"id": "O01659",
+	"slug": "סרפיא",
+	"headword": {
+		"text": "סַרְפַיָּא"
+	},
+	"page": {
+		"number": 1029,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. = h. <he>שְׂרָפִים</he>, <i>Seraphim, ministering angels</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 1:8\">Targ. Ez. I, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 3:7\">Targ. Zech. III, 7</cite> (ed. Wil. <cite ref=\"O00213\"><he>שַׂ׳</he></cite>; ed. Lag. <cite ref=\"O00858\"><he>סִירְפַיָּא</he></cite>)."
+			]
+		}
+	]
+}

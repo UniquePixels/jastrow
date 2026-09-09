@@ -1,0 +1,27 @@
+{
+	"id": "Q01920",
+	"slug": "פרסה-2",
+	"headword": {
+		"text": "פַּרְסָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1233,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"Q01908\"><he>פָּרַס</he></cite>)<i>split hoof; foot; toes</i> (v. <cite ref=\"A02494\"><he>אִסְפֶּירֶס</he></cite>). ",
+			"units": [
+				"<cite ref=\"Chullin 59a:14\">Ḥull. 59ᵃ</cite>, v. <cite ref=\"Q01908\"><he>פָּרַס</he> I</cite>. ",
+				"<cite ref=\"Chullin 68b:6\">Ib. 68ᵇ</cite> (ref. to <he>בבהמה</he> ‘<i>in</i> the animal, <cite ref=\"Leviticus 11:3\">Lev. XI, 3</cite>) <he>פ׳ הֶחֱזִיר וכ׳</he> if the embryo, having put forth its feet, withdrew one foot, you may eat it (when the mother is ritually slaughtered); if it withdraws ‘feet’, you may eat it; a. fr.—",
+				"<cite ref=\"Mishnah Mikvaot 5:6\">Mikv. V, 6</cite> <he>פַּרְסַת החמור וכ׳</he> the water gathered in the depression created by asses marching in the valley; (Tosef. ib. V, 1 <he>פַּרְסוֹת רגלי בהמה</he>).—Pl. <he>פְּרָסוֹת</he>. Ḥull. l. c. Ib. 59ᵃ <he>פַּרְסוֹתֶיהָ חתוכות</he> its hoofs were cut off. ",
+				"<cite ref=\"Sifrei Devarim 2:2\">Sifré Deut. 2</cite> <he>אילו זכו … שעלו פַרְסוֹת רגליהם וכ׳</he> if the Israelites had been good, they would have entered Palestine as soon as their feet had come up from the sea; a. fr.—בית הפ׳ <i>the legs</i>. ",
+				"<cite ref=\"Chullin 55b\">Ḥull. 55ᵇ</cite>; <cite ref=\"Jerusalem Talmud Pesachim 7:9:2\">Y. Pes. VII, 35ᵃ</cite> bot.; (<cite ref=\"Mishnah Chullin 9:2\">Ḥull. IX, 2</cite> <he>הפ׳</he> only)."
+			]
+		}
+	]
+}

@@ -1,0 +1,155 @@
+{
+	"id": "T00375",
+	"slug": "רום-2",
+	"headword": {
+		"text": "רוּם",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רִים"
+		}
+	],
+	"page": {
+		"number": 1460,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00374\">same</cite>, <i>to be high</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 89:14\">Targ. Ps. LXXXIX, 14</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 8:14\">Targ. O. Deut. VIII, 14</cite> <he>וִירַם</he> ed. Berl. (oth. ed. <he>וִירִים</he>, <he>וְרִים</he>); a. fr.—2) <i>to lift; to remove</i>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 89:18\">Targ. Ps. LXXXIX, 18</cite> <cite ref=\"V00678\"><he>תְּרִים</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:6:3\">Y. Bets. I, 60ᶜ</cite> bot. <he>ורִימוּנָהּ</he> and they lifted it. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:20\">Y. Snh. X, 29ᵃ</cite> bot. <he>כיון דרִימֵיה</he> when he had removed it. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 4:1:9\">Y. Ab. Zar. IV, 43ᵈ</cite> <he>מן דרִימוֹן</he> when he had removed them (the stones); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָרֵים", "אֲרִים"],
+			"senses": [
+				{
+					"gloss": "<i>to swing; to wave an offering; to uplift</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 7:20\">Targ. Ex. VII, 20</cite>. ",
+						"<cite ref=\"Onkelos Exodus 17:11\">Targ. O. ib. XVII, 11</cite> <cite ref=\"M02671\"><he>מַרִים</he></cite> ed. Berl. (ed. Vien. <he>יְרִים</he>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 30:28\">Targ. Is. XXX, 28</cite> (h. text <he>להנפה</he>). ",
+						"<cite ref=\"Onkelos Leviticus 23:11\">Targ. Lev. XXIII, 11</cite> (h. text <he>והניף</he>); a. fr.—Part. pass. <cite ref=\"M02671\"><he>מְרִים</he></cite>; f. pl. <he>מְרִימָן</he>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 3:16\">Targ. Is. III, 16</cite> (h. text <he>נטויות</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lift take off, remove</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 5:5\">Lam. R. to V, 5</cite> <he>אֲרִימוּן ראשיה מיניה</he> cut his head off. Y. Ab. Zar. l. c. <he>בחייך דאת מֵרִים אילין וכ׳</he> by thy life! thou must remove these stones; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתָּרַם"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיתְּרַם", "אִיתְּרִים"],
+			"senses": [
+				{
+					"gloss": "<i>to be uplifted, rise</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 7:17\">Targ. Gen. VII, 17</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be swung, waved</i> (as an offering). ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 29:27\">Targ. Ex. XXIX, 27</cite> (h. text <he>הונף</he>); a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be taken off, removed</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 5:20\">Lam. R. to V, 16</cite> <he>והא ניחא ליה דאיתרים רישיה וכ׳</he> it would have been better for him that his head be cut off rather than do this; <cite ref=\"Kohelet Rabbah 10:5:1\">Koh. R. to X, 5</cite> <he>נייח הוה דיִיתְּרִים וכ׳</he>; Y. Sot. IX, 24ᵇ sq. <he>נייח ליה אילו איתרים וכ׳</he>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["רוֹמֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to elevate, extol</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 37:34\">Targ. Ps. XXXVII, 34</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 145:1\">Ib. CXLV, 1</cite>. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 32:3\">Targ. Y. I Deut. XXXII, 3</cite>; a. e.—Part. pass. <he>מְרוֹמַם</he>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 18:47\">Targ. Ps. XVIII, 47</cite> (not <he>מרומֵם</he>); <cite ref=\"Targum Jonathan on II Samuel 22:47\">Targ. II Sam. XXII, 47</cite>; a. e.—V. <cite ref=\"M02718\"><he>מְרָמַם</he></cite>."
+					]
+				}
+			],
+			"stem": "Polel."
+		},
+		{
+			"forms": ["אִתְרוֹמַם"],
+			"senses": [
+				{
+					"gloss": "<i>to be lifted up; to be extolled</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 107:25\">Targ. Ps. CVII, 25</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 75:11\">Ib. LXXV, 11</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 108:6\">Ib. CVIII, 6</cite>; a. e.—Y. Maas. Sh. IV, end, 55ᶜ <he>את מִתְרוֹמְמָא</he>, v. <cite ref=\"E00150\"><he>הֲדָרָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpol."
+		},
+		{
+			"forms": ["דַמְרֵם"],
+			"senses": [
+				{
+					"gloss": ", contr. <cite ref=\"T00447\"><he>רוֹרֵם</he></cite>, <cite ref=\"T01060\"><he>רָרֵם</he></cite> <i>to elevate</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 9:14\">Targ. Ps. IX, 14</cite> <he>מְרוֹרֵם</he> Ms. (ed. <he>מְרוֹמֵם</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 27:5\">Ib. XXVII, 5</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 17:19\">Targ. Prov. XVII, 19</cite> <he>מְרָרֵים</he> Ms. (ed. <cite ref=\"M02671\"><he>מרים</he></cite>, <he>מורים</he>). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 14:34\">Ib. XIV, 34</cite>."
+					]
+				}
+			],
+			"stem": "Palp."
+		},
+		{
+			"forms": ["אִתְרַמְרַם"],
+			"senses": [
+				{
+					"gloss": ", contr. <cite ref=\"T00375\"><he>אִתְרוֹרַם</he></cite>, <cite ref=\"T00909\"><he>אִתְרָרַם</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be elevated, rise</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 57:6\">Targ. Ps. LVII, 6</cite>; <cite ref=\"Aramaic Targum to Psalms 57:12\">12</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 11:11\">Targ. Prov. XI, 11</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be haughty, proud</i>. Ib. XVIII, 12.—Apocopated form: <cite ref=\"A02061\"><he>אִתְרַמַּר</he></cite>. Ib. VI, 30 <he>לא למִתְרַמָרוּ וכ׳</he> ed. (h. text <he>יבוזו</he>) let them not look haughtily down on the thief &c.; v. <cite ref=\"D00913\"><he>דְּמַר</he></cite>.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

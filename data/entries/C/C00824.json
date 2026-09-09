@@ -1,0 +1,25 @@
+{
+	"id": "C00824",
+	"slug": "גירוע-1",
+	"headword": {
+		"text": "גֵּירוּעַ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 242,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C01379\"><he>גָּרַע</he></cite>) I) <i>deduction</i> from the price of redemption according to the years of possession (<cite ref=\"Leviticus 27:18\">Lev. XXVII, 18</cite>). ",
+			"units": [
+				"<cite ref=\"Arakhin 24a:32\">Arakh. 24ᵃ</cite> <he>ליגאל בג׳</he> to be redeemed with due deduction. ",
+				"<cite ref=\"Bava Metzia 106a\">B. Mets. 106ᵃ</cite> the Sabbath year <he>לא תעלה לו בג׳</he> Ar. (ed. <he>מן הג׳</he>, v. Rabb. D. S. s. l. note 90) ought not to be counted in for deduction.—Pl. <cite ref=\"C01308\"><he>גֵּירוּעִין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 6:1:2\">Y. Shebu. VI, beg. 36ᵈ</cite> <he>סוף גֵּירוּעֶיהָ</he> the final redemption of the Hebrew hand-maid."
+			]
+		}
+	]
+}

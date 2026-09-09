@@ -1,0 +1,24 @@
+{
+	"id": "H01450",
+	"slug": "חפיפותא-1",
+	"headword": {
+		"text": "חֲפִיפוּתָא",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"page": {
+		"number": 491,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חֲפַף</he> I) <i>being bent;</i> <he>חֲפִיפוּת לב</he> <i>humiliation, sorrow</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 3:65\">Targ. Lam. III, 65</cite> Ar. (ed. <he>תבירות</he>, h. text <cite ref=\"M00198\"><he>מְגִנַּת</he></cite>)."
+			]
+		}
+	]
+}

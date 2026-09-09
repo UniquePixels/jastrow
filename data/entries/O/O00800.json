@@ -1,0 +1,22 @@
+{
+	"id": "O00800",
+	"slug": "סיפסוף",
+	"headword": {
+		"text": "סִיפְסוּף"
+	},
+	"page": {
+		"number": 985,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01399\"><he>סִפְסֵף</he></cite>; cmp. <cite ref=\"O00787\"><he>סִיפּוּף</he></cite>) <i>late fruits, leavings</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 7:3:9\">Y. Peah VII, 20ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Sotah 1:8:8\">Y. Sot. I, 17ᵇ</cite> top; ib. IX, 24ᵇ bot."
+			]
+		}
+	]
+}

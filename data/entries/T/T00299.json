@@ -1,0 +1,40 @@
+{
+	"id": "T00299",
+	"slug": "רובד",
+	"headword": {
+		"text": "רוֹבֶד"
+	},
+	"page": {
+		"number": 1455,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00055\"><he>רָבַד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mosaic pavement</i>, esp. <i>the paved level space between steps</i> in the Temple hall, <i>landing, terrace</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 4:3\">Yoma IV, 3</cite> <he>הר׳ הרביעי שבהיכל</he>, emended <cite ref=\"Yoma 43b:17\">ib. 43ᵇ</cite> <he>של היכל</he>, the fourth terrace on coming from the hall. ",
+				"<cite ref=\"Mishnah Middot 3:6\">Midd. III, 6</cite> <he>רום מעלה … ור׳ שלשה וכ׳</he> the height of each step was half a cubit, its depth one cubit each of the three steps, and a landing of three cubits &c. ",
+				"<cite ref=\"Mishnah Middot 4:4\">Ib. IV, 4</cite>, sq. ",
+				"<cite ref=\"Tosefta Sukkah 4:23\">Tosef. Succ. IV, 23</cite>; <cite ref=\"Tosefta Menahot 11:13\">Tosef. Men. XI, 13</cite> <he>הר׳ שבאולם</he> the pavement in the hall.—Pl. <he>רוֹבְדִים</he>, <he>רוֹבְדִין</he>. ",
+				"<cite ref=\"Mishnah Tamid 1:1\">Tam. I, 1</cite> <he>היה מוקף ר׳ של אבן</he> was surrounded with stone pavements; <cite ref=\"Mishnah Middot 1:8\">Midd. I, 8</cite>. ",
+				"<cite ref=\"Tosefta Ohalot 17:1\">Tosef. Ohol. XVII, 1</cite> <he>משוקעין בר׳ ובאבנים</he> sunk in and covered with paving blocks or with (rough) stones."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the interlaced branches of two neighboring trees.—Pl</i>. as ab. ",
+			"units": [
+				"<cite ref=\"Chullin 140b:16\">Ḥull. 140ᵇ</cite> <he>היתה יושבת בין שני רוֹבְדֵי אילן</he> if the mother bird is found sitting on the junction of two trees. ",
+				"<cite ref=\"Chullin 141a:1\">Ib. 141ᵃ</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

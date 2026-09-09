@@ -1,0 +1,31 @@
+{
+	"id": "S01159",
+	"slug": "קירוד",
+	"headword": {
+		"text": "קֵירוּד"
+	},
+	"altHeadwords": [
+		{
+			"text": "קֵירוּר"
+		},
+		{
+			"text": "קֵר׳"
+		}
+	],
+	"page": {
+		"number": 1368,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01899\"><he>קָרַד</he></cite>) <i>scraping, currying</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Beitsah 2:17\">Tosef. Bets. II, 17</cite> <he>איזוהי ק׳ אילו קטנים וכ׳</he> (ed. Zuck. <cite ref=\"S01159\"><he>קירור</he></cite>) <i>ḳerud</i> is currying with strigils with small teeth which wound the skin; Y. ib. II, end, 61ᵈ; Bab. ",
+				"<cite ref=\"Beitzah 23a:12\">ib. 23ᵃ</cite>; v. <cite ref=\"S01198\"><he>קִירְצוּף</he></cite>; <cite ref=\"Pesachim 11b\">Pes. 11ᵇ</cite> <cite ref=\"S00872\"><he>קידור</he></cite>, <cite ref=\"S00118\"><he>קדור</he></cite> (corr. acc., v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

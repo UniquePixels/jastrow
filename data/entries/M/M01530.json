@@ -1,0 +1,25 @@
+{
+	"id": "M01530",
+	"slug": "מלחמה",
+	"headword": {
+		"text": "מִלְחָמָה"
+	},
+	"page": {
+		"number": 789,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"L00364\"><he>לָחַם</he> II)</cite><i>war, contest</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 8:1\">Sot. VIII, 1</cite>, a. fr. <he>משוח מ׳</he> chaplain of the army (<cite ref=\"Deuteronomy 20:2\">Deut. XX, 2</cite>), v. <cite ref=\"M02846\"><he>מָשַׁח</he> I</cite>. Ib. 7 <he>מִלְחֶמֶת הרשות</he> (Bab. ed. 44ᵇ, <i>pl.</i>) secular (political) warfare; <he>מ׳ מצוה</he> a war for religious causes; <he>מ׳ חובה וכ׳</he> a war of duty. Ib. 44ᵇ <he>מ׳ יהושע וכ׳</he> the war of conquest under Joshua, all agree, is a war of duty &c.—",
+				"<cite ref=\"Megillah 15b:4\">Meg. 15ᵇ</cite> <he>מִלְחַמְתָּהּ של תורה</he> disputes about the Law; a. fr.—<i>Pl.</i> <he>מִלְחָמוֹת</he>. Sot. l. c. <he>מִלְחֲמוֹת בית דוד לרווחה</he> the wars of the house of David for extending the dominion. ",
+				"<cite ref=\"Moed Katan 25b:2\">M. Kat. 25ᵇ</cite> (in a eulogy) <he>גזע … ועמו ספר מ׳</he> an offspring of worthies came up from Babylonia and with him came the book of wars (allegorically for <i>knowledge of the Law;</i> oth. interpret. <i>R. Hamnuna</i> who came with Rabbah). ",
+				"<cite ref=\"Sanhedrin 97a:2\">Snh. 97ᵃ</cite> <he>בשביעית מ׳</he> in the seventh Messianic year there will be wars; a. fr."
+			]
+		}
+	]
+}

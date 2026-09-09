@@ -1,0 +1,38 @@
+{
+	"id": "N00923",
+	"slug": "נסח-1",
+	"headword": {
+		"text": "נָסַח"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָשַׂח"
+		}
+	],
+	"page": {
+		"number": 915,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>נסע</he>)<i>to remove</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 42b\">Sot. 42ᵇ</cite>; <cite ref=\"Yoma 75a:2\">Yoma 75ᵃ</cite> (ref. to <he>יַשְׁחֶנָה</he>, <cite ref=\"Proverbs 12:25\">Prov. XII, 25</cite>) <he>יִשְׂחֶנָּה מדעתו</he> (Ms. M. 2 <he>יַסִּיחֶנָּה</he>, v. Rabb. D. S. a. l. note 50) let him banish it from his mind; <cite ref=\"Yalkut Shimoni on Nach 950\">Yalk. Prov. 950</cite>; <cite ref=\"Sanhedrin 100b:6\">Snh. 100ᵇ</cite> <he>יַשִּׂיחֶנָּה</he>; v. <cite ref=\"O00277\"><he>סוּחַ</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִסִּיחַ"],
+			"senses": [
+				{
+					"gloss": " (with <cite ref=\"D00950\"><he>דעת</he></cite>) <i>to divert the mind, to discard</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 82a:6\">Sabb. 82ᵃ</cite> <he>יַסִּיחַ דעתו</he>, expl. <he>יסיח דעתו מדברים אחרים</he> he must discard from his mind everything else. Y. Ber. VI, end, 10ᵈ <he>ה׳ דעתו</he> (ed. Krot. <cite ref=\"N00954\"><he>הִסִּיעַ</he></cite>) if he has abandoned the thought (of drinking more wine); a. e.—Snh. l. c.; Yoma l. c., v. supra.—V. <cite ref=\"E00706\"><he>הֶסֵּיחַ</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

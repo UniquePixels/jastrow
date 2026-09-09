@@ -1,0 +1,78 @@
+{
+	"id": "S01746",
+	"slug": "קפל-1",
+	"headword": {
+		"text": "קָפַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1401,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"K01026\"><he>כָּפַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to double, fold, roll up</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 2:7:2\">Y. Bets. II, 61ᶜ</cite> bot. <he>סדיני</he>‌<he>ן … היו קוֹפְלִין אותן</he> they spread sheets on the floor, and, when the guests left, they folded them up. ",
+				"<cite ref=\"Mishnah Menachot 6:4\">Men. VI, 4</cite> (<cite ref=\"Menachot 75b\">75ᵇ</cite>), v. <cite ref=\"K01026\"><he>כָּפַל</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 52:5\">Gen. R. s. 52</cite> <he>היה קוֹפֵל את הוילון וכ׳</he> he had the curtain rolled up and spoke to him; <cite ref=\"Bereishit Rabbah 52:5\">ib.</cite> s. 74 <he>מְקַפֵּל</he>. ",
+				"<cite ref=\"Esther Rabbah 2:5\">Esth. R. to I, 5</cite>. ",
+				"<cite ref=\"Shemot Rabbah 52\">Ex. R. s. 52</cite> <he>שלשה … קְפָלוּהוּ</he> for three months they kept the Tabernacle rolled up (did not put it up); <cite ref=\"Yalkut Shimoni on Torah 417:1\">Yalk. ib. 417</cite>; (Tanḥ. P’ḳudé 11 <he>היה מונה ומפורק</he>). ",
+				"<cite ref=\"Chullin 91b:12\">Ḥull. 91ᵇ</cite> <he>קְפָלָהּ הקב״ה לכל וכ׳</he> (Ms. H. <cite ref=\"S01746\"><he>קִיפֵּל</he></cite>) the Lord rolled up the entire land of Israel and placed it under him (Jacob); <cite ref=\"Bereishit Rabbah 69:4\">Gen. R. s. 69</cite> <he>קפלה כפינקס</he> he folded it together like a book of writing tablets; a. fr.—Trnsf. <i>to overlap, combine</i>. Tanḥ. Lekh 11 <he>תשע … הקב״ה וכ׳</he> the Lord combined 980 generations in order to give the law of circumcision to Abraham (alluding to <cite ref=\"Psalms 105:8\">Ps. CV, 8</cite>); <cite ref=\"Psalms 105:8\">ib.</cite> <he>תתקע״ד דור וכ׳</he> the Lord combined 974 generations in order to give the Law to the generation of the wilderness; <cite ref=\"Shir HaShirim Rabbah 4:4:8\">Cant. R. to IV, 4</cite> (ref. to <he>אלף המגן</he>, <cite ref=\"Shir HaShirim Rabbah 4:4:8\">ib.</cite>) <he>אלף דור קָפַלְתִּי וכ׳</he> I combined a thousand generations and brought that shield (the Law) which was the desire of your heart. ",
+				"<cite ref=\"Bava Batra 121b:6\">B. Bath. 121ᵇ</cite> <he>שבעה קָפְלוּ וכ׳</he> (Rashb. <he>קִיפְּלוּ</he>) seven persons overlapped an entire world (lived through many generations): Methusalem saw Adam, Shem saw Methuselah &c.—Part. pass. <cite ref=\"S01715\"><he>קָפוּל</he></cite>; pl. <he>קְפוּלִים</he>. Ohol. XI, 3 <he>ק׳ זו ע״ג זו</he> folded up (packed) one above the other."
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִיפֵּל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S01745\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 52:5\">Gen. R. s. 52</cite> <he>לנביאי או״ה אינו מְקַפֵּל אותו וכ׳</he> for the gentile prophets the Lord does not lift the curtain, but speaks to them from behind it. ",
+						"<cite ref=\"Mishnah Shabbat 2:3\">Sabb. II, 3</cite> <he>פתילת … שקִיפְּלָהּ וכ׳</he> a wick made of rags which one has twisted but not yet singed. ",
+						"<cite ref=\"Mishnah Shabbat 15:3\">Ib. XV, 3</cite> <he>מְקַפְּלִין את הכלים  וכ׳</he> you may fold garments &c. ",
+						"<cite ref=\"Mishnah Parah 2:3\">Par. II, 3</cite>, v. <cite ref=\"M00553\"><he>מוֹסֵרָה</he></cite>. ",
+						"<cite ref=\"Sotah 36a:6\">Sot. 36ᵃ</cite> <he>וקִיפְּלוּ את האבנים</he> and they doubled up (packed) the stones, v. infra; (Tosef. ib. VIII, 8 <he>ונטלו</he>); a. fr.—Part. pass. <he>מְקוּפָּל</he>; f. <he>מְקוּפֶּלֶת</he>; pl. <he>מְקוּפָּלִים</he>, <he>מְקוּפָּלִין</he>; <he>מְקוּפָּלוֹת</he>. ",
+						"<cite ref=\"Shabbat 58a\">Sabb. 58ᵃ</cite>; <cite ref=\"Shabbat 147a:4\">147ᵃ</cite> <he>היוצא בטלית מק׳ וכ׳</he> he that goes out with a cloak rolled up and laid over his shoulder. ",
+						"<cite ref=\"Shabbat 147a:4\">Ib.</cite> <he>סוחרי כסות … מק׳ וכ׳</he> dealers in clothes who go out with cloaks rolled up and laid &c. ",
+						"<cite ref=\"Sifrei Bamidbar 84\">Sifré Num. 84</cite> <he>וכשהם חונין … מק׳ ועומד</he> and when they encamped, the pillar of cloud remained rolled up. ",
+						"<cite ref=\"Taanit 31a:6\">Taan. 31ᵃ</cite> <he>אפי׳ מק׳ וכ׳</he> even when folded and lying in the chest; a. e.—",
+						"<cite ref=\"Mishnah Nedarim 8:4\">Ned. VIII, 4</cite>, v. infra."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִקְפִּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to double up, lay up in layers, pack</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Nedarim 8:4\">Ned. VIII, 4</cite> (<cite ref=\"Nedarim 61b:6\">61ᵇ</cite>) <he>עד שיַקְפִּילוּ המקצועות</he> Bab. ed. (Y. ed. <he>שיכפילו</he>; Mish. <he>שיְקַפְּלוּ</he>), v. <cite ref=\"M02441\"><he>מַקְצוּעָה</he></cite>; (ib. 61ᵇ Gemarah <he>שיכפלו</he>, <he>שיכפילו</he>); <cite ref=\"Tosefta Demai 1:3\">Tosef. Dem. I, 3</cite> <he>משיקפלו</he>; Y. ib. I, beg. 21ᶜ <he>משיקפלו</he>."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּקְפָּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be laid up in layers, be folded up</i>. ",
+					"units": [
+						"<cite ref=\"Nedarim 62a:1\">Ned. 62ᵃ</cite> <he>הוּקְפְּלוּ רוב וכ׳</he> if most of the figs have been packed (most of the knives have been folded up)."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

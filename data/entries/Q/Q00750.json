@@ -1,0 +1,20 @@
+{
+	"id": "Q00750",
+	"slug": "פיסון",
+	"headword": {
+		"text": "פִּיסוֹן"
+	},
+	"page": {
+		"number": 1167,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00741\"><he>פִּיס</he></cite>, v. <cite ref=\"Q00743\"><he>פִּיסָא</he></cite>) <i>mortar-maker, mason</i>.—Pl. <he>פִּיסוֹנוֹת</he>. ",
+			"units": ["<cite ref=\"Mishnah Kelim 20:2\">Kel. XX, 2</cite>."]
+		}
+	]
+}

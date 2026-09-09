@@ -1,0 +1,30 @@
+{
+	"id": "A02378",
+	"slug": "אסטלי-1",
+	"headword": {
+		"text": "אִסְטַלִּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְטוֹלִי"
+		},
+		{
+			"text": "אִיסְ׳"
+		}
+	],
+	"page": {
+		"number": 90,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00509\"><he>טלל</he></cite>, v. <cite ref=\"A02377\">preced.</cite>, = <cite ref=\"A01094\"><he>אִטְלֵיס</he></cite> q. v.) <i>resting place, road-station</i>. Y’lamd. to Deut. IV, 30 (quot. in Ar.) <he>עשה אסטולי וכתוב וכ׳</he> he put up a station for travellers, over which was written, “When this people shall go up &c.” (<cite ref=\"I Kings 12:27\">I Kings XII, 27</cite>).—Pl. <cite ref=\"A02381\"><he>אִסְטַלִּיוֹת</he></cite> (fr. <cite ref=\"A02381\"><he>אִסְטַלִּית</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 23\">Num. R. s. 23</cite> <he>העמד להם א׳</he> put up for them (the unintentional murderers fleeing to the place of refuge) resting stations <he>ובכל א … יות וכ׳</he> (read <cite ref=\"A02381\"><he>אסטלית</he></cite> or <cite ref=\"A02375\"><he>אסטל</he></cite>) and let there be an inscription over each of them &c. Tanḥ. Masé 11; ed. Bub. 8; <cite ref=\"A01217\"><he>אִיטְלִיסִיּוֹת</he></cite>, <cite ref=\"A01092\"><he>אִיטְלֵיס</he></cite>.—Y’lamd. to Deut. III, 9 <he>עמון ומואב עשו אִיסְטְלִים</he> Am. a. Moab erected resting stations for the passing Israelites (quot. in Ar. s. v. <cite ref=\"A03124\"><he>ארך</he></cite> 5)."
+			]
+		}
+	]
+}

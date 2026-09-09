@@ -1,0 +1,22 @@
+{
+	"id": "A03324",
+	"slug": "אשמא-1",
+	"headword": {
+		"text": "אַשְׁמָא"
+	},
+	"page": {
+		"number": 129,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= h. <cite ref=\"A03328\"><he>אַשְׁמָה</he></cite>) <i>guilt</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 22:16\">Targ. Y. Lev. XXII, 16</cite> <he>אַשְׁמַתְהוֹן</he>."
+			]
+		}
+	]
+}

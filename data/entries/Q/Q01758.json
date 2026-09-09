@@ -1,0 +1,24 @@
+{
+	"id": "Q01758",
+	"slug": "פרחא",
+	"headword": {
+		"text": "פָּרְחָא"
+	},
+	"page": {
+		"number": 1224,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01757\">preced.</cite>) <i>fast-running, flying</i>. ",
+			"units": [
+				"<cite ref=\"Makkot 5a:13\">Macc. 5ᵃ</cite>; <cite ref=\"Yevamot 116a:5\">Yeb. 116ᵃ</cite>, v. <cite ref=\"C01042\"><he>גַּמְלָא</he> I</cite>.—Pl. <he>פָּרְחֵי</he>. ",
+				"<cite ref=\"Ketubot 61a:5\">Keth. 61ᵃ</cite> <he>אורחי ופ׳</he> guests and transient visitors.—<i>Fem.</i> pl. <he>פְּרַחְיָין</he>. ",
+				"<cite ref=\"Kohelet Rabbah 4:6:1\">Koh. R. to IV, 6</cite> <he>טבא מן מאה פ׳ …</he> better one bird tied than one hundred flying."
+			]
+		}
+	]
+}

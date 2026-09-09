@@ -1,0 +1,23 @@
+{
+	"id": "M00006",
+	"slug": "מאדים",
+	"headword": {
+		"text": "מַאֲדִים"
+	},
+	"page": {
+		"number": 721,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A00417\"><he>אָדַם</he></cite>) <i>the planet Mars</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 10\">Gen. R. s. 10</cite>. ",
+				"<cite ref=\"Shabbat 129b:5\">Sabb. 129ᵇ</cite>, v. <cite ref=\"G00138\"><he>זָוָוא</he> I</cite>; a. e."
+			]
+		}
+	]
+}

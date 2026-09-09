@@ -1,0 +1,22 @@
+{
+	"id": "D00586",
+	"slug": "דיכון",
+	"headword": {
+		"text": "דִּיכּוּן"
+	},
+	"page": {
+		"number": 299,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00783\"><he>דָּכַן</he></cite>) <i>the crushing</i> of the bulb or tuber in the ground. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 5:2:7\">Y. Shebi. V, 35ᵈ</cite> bot. <he>ד׳ כעיקור</he> crushing is equivalent to tearing the plant out with the root."
+			]
+		}
+	]
+}

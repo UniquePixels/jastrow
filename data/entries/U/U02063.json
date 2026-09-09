@@ -1,0 +1,28 @@
+{
+	"id": "U02063",
+	"slug": "ששך",
+	"headword": {
+		"text": "שֵׁשַׁךְ"
+	},
+	"page": {
+		"number": 1636,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. (b. h.) <i>Sheshach</i>, surname of Babylonia (supposed permutation of <cite ref=\"B00061\"><he>בבל</he></cite> by Atbash, v. <cite ref=\"A03391\"><he>א״ת</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 18:21\">Num. R. s. 18<sup>21</sup></cite>, v. <cite ref=\"A03391\"><he>א״ת</he></cite>. ",
+				"<cite ref=\"Megillah 6a\">Meg. 6ᵃ</cite>, v. <cite ref=\"T01056\"><he>רַקַּת</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"U00036\"><he>בר ש׳</he></cite> pr. n. m. <i>Bar Sheshach</i>, a Persian officer. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 65a:3\">Ab. Zar. 65ᵃ</cite> Ms. M. (ed. <cite ref=\"U01097\"><he>שֵׁישַׁךְ</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

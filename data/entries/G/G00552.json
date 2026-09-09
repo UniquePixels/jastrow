@@ -1,0 +1,27 @@
+{
+	"id": "G00552",
+	"slug": "זמרגדין",
+	"headword": {
+		"text": "זְמַרַגְדִּין"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְמַרְגַּדִּין"
+		}
+	],
+	"page": {
+		"number": 405,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (σμαράγδιον) <i>emerald</i>, a precious stone. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 28:19\">Targ. Y. II, Ex. XXVIII, 19</cite>, v. <cite ref=\"A00980\"><he>אִזְמַרְגַּד</he></cite>."
+			]
+		}
+	]
+}

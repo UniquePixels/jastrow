@@ -1,0 +1,24 @@
+{
+	"id": "M01667",
+	"slug": "ממכר",
+	"headword": {
+		"text": "מִמְכָּר"
+	},
+	"page": {
+		"number": 795,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M01434\"><he>מָכַר</he></cite>)<i>sale</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 155b:6\">B. Bath. 155ᵇ</cite> <he>מִמְכָּרָהּ מ׳</he> her sale is valid.—",
+				"<cite ref=\"Bava Batra 155b:11\">Ib.</cite> <he>מִמְכָּרָן מ׳</he> their sale &c.; a. e.—מקח ומ׳ <i>commerce, commercial transactions</i>. ",
+				"<cite ref=\"Bava Metzia 79b\">B. Mets. 79ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

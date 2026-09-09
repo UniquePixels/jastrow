@@ -1,0 +1,27 @@
+{
+	"id": "Q01893",
+	"slug": "פרניקא",
+	"headword": {
+		"text": "פַּרְנִיקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרִינְקָא"
+		}
+	],
+	"page": {
+		"number": 1231,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01906\"><he>פַּרְנֵק</he></cite>) <i>delicateness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:56\">Targ. Y. I Deut. XXVIII, 56</cite> <he>פרינ׳</he>; Y. II <cite ref=\"Q02002\"><he>פרקינא</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

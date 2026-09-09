@@ -1,0 +1,33 @@
+{
+	"id": "J00390",
+	"slug": "ילל-1",
+	"headword": {
+		"text": "יָלַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 579,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"J00392\"><he>יִלֵּל</he></cite> (= <cite ref=\"A01898\"><he>אָלַל</he></cite>, <cite ref=\"A01303\"><he>אִילֵּל</he></cite>) <i>to espy</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 955:2\">Yalk. Prov. 955</cite> <he>אחר ד״ת יִלַּלְתָּ</he>, v. <cite ref=\"A01898\"><he>אָלַל</he></cite>.—",
+						"<cite ref=\"Shir HaShirim Rabbah 1:10\">Cant. R. to I, 10</cite> (play on <he>תורים</he>, <cite ref=\"Shir HaShirim Rabbah 1:10\">ib.</cite>, v. <cite ref=\"V00271\"><he>תּוּר</he></cite>, <cite ref=\"V00438\"><he>תַּיָּיר</he></cite>) <he>בשעה שמְיַילְּלִין ההלכה וכ׳</he> when they go out together (like spies) to espy the true decision.—Ch. v. <cite ref=\"J00384\"><he>יָלֵיל</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

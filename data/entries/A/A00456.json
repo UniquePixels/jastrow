@@ -1,0 +1,23 @@
+{
+	"id": "A00456",
+	"slug": "אדרותא",
+	"headword": {
+		"text": "אִדְרוּתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 18,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A00445\"><he>אדר</he></cite>) <i>glory, distinction</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 56b:3\">Ber. 56ᵇ</cite> top (oneirocritical play on <i>Adar</i>) <he>בא׳ מיתת</he> thou shalt die in glory. [Cmp. Y. Maas Sh. IV, end, 55ᶜ; <cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>(חד מתלמ׳</he>).]"
+			]
+		}
+	]
+}

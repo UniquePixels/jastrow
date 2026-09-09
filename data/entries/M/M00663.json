@@ -1,0 +1,23 @@
+{
+	"id": "M00663",
+	"slug": "מורנית",
+	"headword": {
+		"text": "מוֹרָנִית"
+	},
+	"page": {
+		"number": 750,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"M00662\">preced. art.</cite>, cmp. μελία <i>ash</i> a. <i>spear</i>) <i>spear, lance</i>.—Pl. <he>מוֹרָנִיּוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 17:5\">Ex. R. s. 17</cite>, end <he>הא לכם … מ׳ שלי וכ׳</he> it is for you my darts are prepared, which I send over the waves of the sea (on your ships). ",
+				"<cite ref=\"Shemot Rabbah 17:5\">Ib.</cite> <he>מ׳ שלי וכ׳</he> my (the Lord’s) darts are ready."
+			]
+		}
+	]
+}

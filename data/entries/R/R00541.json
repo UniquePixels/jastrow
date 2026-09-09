@@ -1,0 +1,30 @@
+{
+	"id": "R00541",
+	"slug": "צלצול",
+	"headword": {
+		"text": "צִלְצוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִילְ׳"
+		}
+	],
+	"page": {
+		"number": 1285,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00519\"><he>צָלַל</he></cite>; cmp. <cite ref=\"C00874\"><he>גִּלְגְּלִין</he></cite>, fr. <cite ref=\"C00959\"><he>גָּלַל</he></cite>) <i>belt of net work</i> (to support the bosom; considered indecent); <i>bandage, wrap</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 62b:20\">Sabb. 62ᵇ</cite> (ref. to <cite ref=\"Isaiah 3:24\">Is. III, 24</cite>) <he>מקום שהיו חגורות בצ׳ וכ׳</he> the place on the body where they were girt with a girdle becomes full of bruises. ",
+				"<cite ref=\"Sotah 8b\">Sot. 8ᵇ</cite>; <cite ref=\"Sotah 9a:1\">9ᵃ</cite> <he>היא חגרה לו בצ׳</he> she (the adulteress) put on a fine belt for his sake, therefore the priest brings a rope &c.; <cite ref=\"Tosefta Sotah 3:4\">Tosef. ib. III, 4</cite> <he>בצִיצִין</he> ed. Zuck. (Var. <he>בצצין</he>; oth. ed. <he>בפנים</he>; corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Yoma 6:3:7\">Y. Yoma VI, 43ᵈ</cite> top <he>הלבישו … וחגרו צִלְצָל</he> he made him put on an undergarment and girt him with a girdle (like a woman); <cite ref=\"Menachot 109b:13\">Men. 109ᵇ</cite> <he>בצילצול</he>. ",
+				"<cite ref=\"Zevachim 19a:4\">Zeb. 19ᵃ</cite> <he>צ׳ קטן</he> a small belt (used as a bandage); a. fr."
+			]
+		}
+	]
+}

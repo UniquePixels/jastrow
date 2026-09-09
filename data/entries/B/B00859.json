@@ -1,0 +1,29 @@
+{
+	"id": "B00859",
+	"slug": "בליונא",
+	"headword": {
+		"text": "בִּלְיוֹנָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּילְיוֹנָא"
+		}
+	],
+	"page": {
+		"number": 172,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00853\"><he>בלי</he></cite>, formed like <cite ref=\"B00441\"><he>בזיונא</he></cite>) [<i>destruction</i>,] a cacophem. for idolatrous <i>phylactery, amulet</i> (v. Sm. Ant. s. v. Amuletum). <he>ב׳ דגושפנקא</he> (Ar. <cite ref=\"B00618\"><he>בילוניא</he></cite>) <i>an amulet</i> (<i>stone</i>) <i>set in a ring</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 57a:9\">Gitt. 57ᵃ</cite> <he>עד דמתחזי ב׳ וכ׳</he> so that the stone of a ring could be distinguished (as to shape, legend &c.) at a distance of a mile (from the illuminated town). ",
+				"<cite ref=\"Gittin 58a:5\">Ib. 58ᵃ</cite> <he>נקטי ב׳ וכ׳</he> (Yalk. Lam. 1242 <cite ref=\"K00551\"><he>כיליינא</he></cite>, <cite ref=\"K00270\"><he>כול׳</he></cite>) they took an amulet (believed to effect the begetting of healthy and handsome children)."
+			]
+		}
+	]
+}

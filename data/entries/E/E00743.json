@@ -1,0 +1,37 @@
+{
+	"id": "E00743",
+	"slug": "הפכה",
+	"headword": {
+		"text": "הֲפֵכָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֲפֵיכָה"
+		}
+	],
+	"page": {
+		"number": 361,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"E00742\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": " (b. h.) <i>destruction</i>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>change, turn</i>.—Pl. <he>הֲפֵכוֹת</he>, <cite ref=\"E00747\"><he>הֲפֵי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Berakhot 55b:8\">Ber. 55ᵇ</cite> <he>שלש ה׳</he> three verses in which <i>change</i> (the expression <he>הפך</he>) occurs."
+			],
+			"label": "2"
+		}
+	]
+}

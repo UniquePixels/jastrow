@@ -1,0 +1,24 @@
+{
+	"id": "J00007",
+	"slug": "יאור",
+	"headword": {
+		"text": "יְאוֹר"
+	},
+	"page": {
+		"number": 559,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"A03123\"><he>אֲרִיתָא</he></cite>) <i>channel, river</i>, esp. <i>the Nile</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite> (ref. to <he>מיער</he> with suspended <cite ref=\"P00000\"><he>ע</he></cite>, <cite ref=\"Psalms 80:14\">Ps. LXXX, 14</cite>) <he>אם זכיתם מן הי׳ … מן היער</he> if you will do good, the enemy attacking you will be (powerless like an animal) coming from the river, if not, he will be like a beast of the forest; Midr. Till. to Ps. l. c.; <cite ref=\"Yalkut Shimoni on Nach 830\">Yalk. Ps. 830</cite>; <cite ref=\"Avot D'Rabbi Natan 34:4\">Ab. d’R. N. ch. XXXIV</cite> <he>כחזיר של י׳</he> like a water swine (pork-fish, silurus). ",
+				"<cite ref=\"Shemot Rabbah 1:24\">Ex. R. s. 1</cite>. ",
+				"<cite ref=\"Shemot Rabbah 9:11\">Ex. R. s. 9</cite> <he>המים ששמרוך … לי׳ וכ׳</he> the waters which saved thee (Moses) when thou wast thrown into the Nile, must not be smitten through thee; a. fr."
+			]
+		}
+	]
+}

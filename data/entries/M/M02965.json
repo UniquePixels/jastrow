@@ -1,0 +1,23 @@
+{
+	"id": "M02965",
+	"slug": "משקיצתא",
+	"headword": {
+		"text": "מַשְׁקֵיצָתָא"
+	},
+	"page": {
+		"number": 858,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"U01886\"><he>שְׁקַץ</he></cite>) <i>abominations, idols</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 29:16\">Targ. Y. II, Deut. XXIX, 16</cite> <he>מקש׳</he> (corr. acc.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "M00205",
+	"slug": "מגפיים",
+	"headword": {
+		"text": "מְגָפַיִּים"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְגָפַיִּין"
+		}
+	],
+	"page": {
+		"number": 730,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. du. (<he>גּוּף</he> I) <i>greaves, metal leggins</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 6:2\">Sabb. VI, 2</cite> (expl. ",
+				"<cite ref=\"Shabbat 62a:6\">ib. 62ᵃ</cite> <cite ref=\"Q00432\"><he>פזמקי</he></cite>). ",
+				"<cite ref=\"Mishnah Kelim 11:8\">Kel. XI, 8</cite>; <cite ref=\"Tosefta Keilim Metsia 3:1\">Tosef. Kel. B. Mets. III, 1</cite> <cite ref=\"M01809\"><he>מנפש</he></cite> ed. Zuck. (corr. acc.; Var. <cite ref=\"M00205\"><he>מְגָפַיִּם</he></cite>)."
+			]
+		}
+	]
+}

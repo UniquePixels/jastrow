@@ -1,0 +1,25 @@
+{
+	"id": "O01636",
+	"slug": "סרך-3",
+	"headword": {
+		"text": "סֶרֶךְ"
+	},
+	"page": {
+		"number": 1028,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01635\">preced.</cite>) <i>clinging to, following the example of; habit</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 67b:13\">Nidd. 67ᵇ</cite> <he>משום ס׳ בתה</he> because her daughter might follow her example (and make the mother’s exceptional act a rule for all occasions). ",
+				"<cite ref=\"Chullin 106a:11\">Ḥull. 106ᵃ</cite> <he>נטילת … משום ס׳ תרומה</he> the washing of hands before a meal on secular food was introduced for the sake of uniformity with T’rumah (to make it a habit). ",
+				"<cite ref=\"Jerusalem Talmud Yoma 3:3:4\">Y. Yoma III, 40ᵇ</cite> bot., sq. <he>טבילת ס׳</he> an immersion required merely for the sake of uniformity; Bab. ",
+				"<cite ref=\"Yoma 30a:8\">ib. 30ᵃ</cite> <he>ס׳ טבילה</he>. Y. Bicc. III, 64ᵈ bot.; <cite ref=\"Jerusalem Talmud Chagigah 2:5:3\">Y. Ḥag. II, 78ᵇ</cite> <he>נטילת ס׳</he> washing of hands (before meals) for the sake of uniformity (v. supra)."
+			]
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"id": "R00691",
+	"slug": "צפי-1",
+	"headword": {
+		"text": "צפי"
+	},
+	"altHeadwords": [
+		{
+			"text": "צָפָה"
+		}
+	],
+	"page": {
+		"number": 1296,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"R00216\"><he>צוּף</he></cite>) [<i>to shine</i>; cmp. <cite ref=\"R00224\"><he>צוּץ</he></cite>,] <i>to look</i>, esp. <i>to look into distances of space</i> or <i>time; to foresee; to have a vision</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 58a\">Gitt. 58ᵃ</cite>, v. <cite ref=\"R00703\"><he>צָפְנַת</he></cite>. ",
+				"<cite ref=\"Megillah 24b:4\">Meg. 24ᵇ</cite> <he>הרבה צָפוּ למרכבה וכ׳</he> Ms. M. (ed. <he>צִפּוּ לדרוש במ׳</he>, v. Rabb. D. S. a. l. note) many looked out for the Merkabah (v. <cite ref=\"M02700\"><he>מֶרְכָּבָה</he></cite>), and never lived to see it; (ed. hoped to be able to preach on the Merkabah; Tosef. ib. III (IV), 28 <he>הרבה דרשו במ׳</he>). ",
+				"<cite ref=\"Bereishit Rabbah 79:6\">Gen. R. s. 79</cite> <he>צ׳</he> … <he>ברוח הקדש וכ׳</he> R. S. b. Y. saw by means of the spirit of holiness (inspiration) &c.; Y. Shebi. IX, 38ᵈ; <cite ref=\"Kohelet Rabbah 10:8:1\">Koh. R. to X, 8</cite>; Pesik. Vayhi, p. 90ᵃ. ",
+				"<cite ref=\"Sotah 12b:12\">Sot. 12ᵇ</cite> (ref. to <he>והמצפצפים</he> <cite ref=\"Isaiah 8:19\">Is. VIII, 19</cite>) <he>צוֹפִין ואינן … צופין</he> they see (have a vision) and know not what they see. ",
+				"<cite ref=\"Tosefta Pesachim 2\">Tosef. Pes. II (III), 12</cite> [belonging to 13] <he>איזהוּ צוֹפֶה הרואה וכ׳</he> who is called <i>a tsofeh</i> (a pilgrim that sees Jerusalem)? He who sees it and never loses it out of sight again. ",
+				"<cite ref=\"Megillah 14a:12\">Meg. 14ᵃ</cite> (expl. <he>הרמתים צופים</he>, <cite ref=\"I Samuel 1:1\">I Sam. I, 1</cite>) <he>שתי רמות שצוֹפוֹת זו את זו</he> two heights that look at each other; a. fr.—[<cite ref=\"Bamidbar Rabbah 19:3\">Num. R. s. 19</cite>, a. e. <cite ref=\"R00220\"><he>צופים</he></cite>, v. <cite ref=\"R00667\"><he>צָף</he></cite>.]—V. <cite ref=\"R00219\"><he>צוֹפֶה</he></cite>, <cite ref=\"R00220\"><he>צוֹפִים</he></cite>.—Part. pass. <he>צָפוּי</he> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>seen, foreseen</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 3:15\">Ab. III, 15</cite> <he>הכל צ׳ והרשות וכ׳</he> everything is foreseen (every deed of man is observed by God before whom there is no distance of space or time), but freedom of will is granted. Tanḥ. Sh’laḥ 5 <he>שהיה צ׳ לפני וכ׳</he> it was foreseen before the Lord that they would come &c. Ib. 9 <he>שהכל צ׳ וכ׳</he> (omit <cite ref=\"E00230\"><he>היה</he></cite>) for every event is foreseen by the Lord; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>bright, perspicuous</i>. Tanḥ. Ḥuck. 8 <he>צְפוּיִם</he>, v. <cite ref=\"R00667\"><he>צָף</he></cite>.",
+					"units": [],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צִיפָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to look forward to, wait, hope</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 57b:6\">Ber. 57ᵇ</cite> <he>יְצַפֶּה לחסידות</he> may hope to attain piety. ",
+						"<cite ref=\"Pesachim 50b:6\">Pes. 50ᵇ</cite> <he>המְצַפֶּה לשכר אשתו</he> he who looks forward to (is dependent on) his wife’s earnings. ",
+						"<cite ref=\"Beitzah 32b:6\">Bets. 32ᵇ</cite> <he>המצפה לשלחן חבירו</he> who depends on his neighbor’s table. ",
+						"<cite ref=\"Beitzah 32b:5\">Ib.</cite> <he>המצפה על שולחן וכ׳</he> (corr. acc.) Ruth. R. introd. (ref. to <cite ref=\"Ezekiel 13:4\">Ez. XIII, 4</cite>) <he>מה שועל הזה מצפה בחורבות וכ׳</he> as the fox in the ruins looks out, when he sees men pass by, which way to flee &c.; <cite ref=\"Yalkut Shimoni on Nach 352:1\">Yalk. Ez. 352</cite> <he>יושב ומצעה</he> (corr. acc.). ",
+						"<cite ref=\"Bereishit Rabbah 74:1\">Gen. R. s. 74</cite> <he>אביך מצפה לך אמך מְצַפָּה לך</he> thy (dead) father looks forward to thy coming, thy mother &c.; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cover with shining plate, to overlay</i>. ",
+					"units": [
+						"<cite ref=\"Rosh Hashanah 27a:1\">R. Hash. 27ᵃ</cite> <he>צִיפָּהוּ זהב וכ׳</he> if he overlaid the Shofar at the place where the mouth is applied; Y. ib. III, 58ᵈ; a. fr.—Part. pass. <he>מְצוּפֶּה</he>, f. <he>מְצוּפָּה</he> &c. Ib. III, 3 <he>ופיו מצ׳ זהב</he> and its mouthpiece was covered with gold. ",
+						"<cite ref=\"Mishnah Kelim 11:4\">Kel. XI, 4</cite>; <cite ref=\"Mishnah Kelim 11:6\">6</cite>. ",
+						"<cite ref=\"Mishnah Chagigah 3:8\">Ḥag. III, 8</cite> <he>מפני שהן מְצוּפִּין</he> because they (the altars) are overlaid (with gold or copper); a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

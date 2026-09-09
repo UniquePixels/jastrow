@@ -1,0 +1,56 @@
+{
+	"id": "P01404",
+	"slug": "ערס-4",
+	"headword": {
+		"text": "עֶרֶס"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַרְסָא"
+		}
+	],
+	"page": {
+		"number": 1121,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"P01403\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 3:11\">Targ. O. Deut. III, 11</cite>. ",
+				"<cite ref=\"Onkelos Exodus 7:28\">Targ. O. Ex. VII, 28</cite>. Targ. Y. II <cite ref=\"Targum Jerusalem, Exodus 21:18\">ib. XXI, 18</cite>; a. fr.—<cite ref=\"V01097\"><he>תשמיש</he></cite> (<cite ref=\"D00000\"><he>ד</he></cite>)<he>ע׳</he> <i>sexual connection</i>. Targ. Y. II ib. XIX, 15 (Y. I <he>דעָרִיס</he>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 5:13\">Targ. Y. Num. V, 13</cite> <he>דעריס</he>; a. e.—",
+				"<cite ref=\"Targum Jonathan on II Samuel 3:31\">Targ. II Sam. III, 31</cite> <i>bier</i>.—",
+				"<cite ref=\"Sanhedrin 20a:16\">Snh. 20ᵃ</cite>; <cite ref=\"Nedarim 56b:2\">Ned. 56ᵇ</cite> <he>ע׳ דגדא</he>, v. <cite ref=\"C00156\"><he>גַּדָּא</he></cite>. ",
+				"<cite ref=\"Nedarim 56b:2\">Ib.</cite> <he>ע׳ דצלא</he> a bed with a leather mattress. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>ע׳</he> (<cite ref=\"T00152\"><he>רבתי</he></cite>) <cite ref=\"Q00474\"><he>פחיתא</he></cite> a broken bedstead. ",
+				"<cite ref=\"Bava Batra 22a:12\">B. Bath. 22ᵃ</cite> <he>לעַרְסֵיה וכ׳</he> waiting for the bier of R. A. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:15\">Y. Kil. IX, 32ᶜ</cite> bot.; <cite ref=\"Jerusalem Talmud Ketubot 12:3:15\">Y. Keth. XII, 35ᵇ</cite> <he>יהבון עַרְסִי וכ׳</he> place my bier (coffin) at the sea-shore; a. fr.—Pl. <he>עַרְסָן</he>, <he>עַרְסָתָא</he>, <cite ref=\"P01406\"><he>עַרְסִין</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Amos 6:4\">Targ. Am. VI, 4</cite> <he>עַרְסַתְהוֹן</he> ed. Lag. (oth. ed. <he>עַרְסֵיהוֹן</he>). Lam. R. l. c. <he>אתקין … עַרְסָאתָא</he> he prepared for them four beds. ",
+				"<cite ref=\"Vayikra Rabbah 5:3\">Lev. R. s. 5</cite> (transl. <he>מטות שן</he> Am. l. c.) <he>ע׳ דפיל</he> ivory bedsteads. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:1:8\">Y. Ber. III, 6ᵃ</cite> top <he>ע׳ קיסרייתא וכ׳</he> Cæsarean bedsteads which have holes for the girths; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"P01365\"><he>עָרִיס</he> I</cite>) <i>arcade along a row of buildings, sidewalk</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 6a:17\">Gitt. 6ᵃ</cite> <he>מצריך מע׳ לע׳</he> required identification of signatures on documents brought from one side of the street to the other. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:7:2\">Y. Bets. I, 60ᶜ</cite> bot. <he>מע׳ לע׳</he> from one side of the street to the other (or from one couch to the other, v. <cite ref=\"I00616\"><he>טְעַן</he> II</cite>).—Pl. <he>עַרְסָתָא</he>. ",
+				"<cite ref=\"Eruvin 26a\">Erub. 26ᵃ</cite> <he>מערב</he> … <he>ע׳ ע׳</he> Ar. (Ms. M. <he>ערסא ערסא</he>; ed. <he>עַרְסְיָיתָא</he>, fr. <cite ref=\"P01407\"><he>עַרְסִיתָא</he></cite>) provided the whole town of M. with ‘Erubs (v. <cite ref=\"P00680\"><he>עֵירוּב</he></cite>), one for each row of connected houses."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>dish of the steel-yard, scales</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 60a\">Sabb. 60ᵃ</cite>, v. <cite ref=\"P00171\"><he>עֲדָשָׁה</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

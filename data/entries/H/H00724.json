@@ -1,0 +1,34 @@
+{
+	"id": "H00724",
+	"slug": "חייב-3",
+	"headword": {
+		"text": "חַיַּיב"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַיָּיבָא"
+		},
+		{
+			"text": "חַיָּבָא"
+		}
+	],
+	"page": {
+		"number": 454,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00723\">preced.</cite>) <i>sinner, wicked man</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 18:23\">Targ. Gen. XVIII, 23</cite>; a. fr.—",
+				"<cite ref=\"Eichah Rabbah 2:2\">Lam. R. to II, 1</cite>, v. <cite ref=\"H00231\"><he>חוּב</he></cite> Pa.—Pl. <he>חַיָּיבַיָּא</he>, <he>חַיָּיבִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 38:13\">Targ. Job XXXVIII, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 22:5\">Targ. II Sam. XXII, 5</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 91a:5\">Snh. 91ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

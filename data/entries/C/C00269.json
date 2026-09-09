@@ -1,0 +1,29 @@
+{
+	"id": "C00269",
+	"slug": "גוב-1",
+	"headword": {
+		"text": "גּוּב"
+	},
+	"page": {
+		"number": 216,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"C00474\"><he>גַּיֵּיב</he></cite>, v. <cite ref=\"C00610\"><he>גִּיב</he> I</cite>. [<cite ref=\"Aramaic Targum to Proverbs 9:3\">Targ. Prov. IX, 3</cite> Ms., v. <cite ref=\"C00610\"><he>גִּיב</he> II</cite>.]",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

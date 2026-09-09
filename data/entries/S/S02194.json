@@ -1,0 +1,34 @@
+{
+	"id": "S02194",
+	"slug": "קרר-3",
+	"headword": {
+		"text": "קְרַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוֹר"
+		}
+	],
+	"page": {
+		"number": 1427,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"S02193\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קוֹרֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to spring forth, give forth</i>. Y. Shek. V, 48ᵈ <he>הוה ידע … מְקוֹרֵר וכ׳</he> he knew what rock gives forth water (when bored at), and in what rock there is dry heat.",
+					"units": []
+				}
+			],
+			"stem": "Polel."
+		}
+	]
+}

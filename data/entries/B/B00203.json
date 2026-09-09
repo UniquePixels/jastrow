@@ -1,0 +1,26 @@
+{
+	"id": "B00203",
+	"slug": "בוביא-2",
+	"headword": {
+		"text": "בּוּבְיָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּבְיָה"
+		}
+	],
+	"page": {
+		"number": 144,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>image</i>, v. <cite ref=\"B00055\"><he>בָּבוּאָה</he></cite>.",
+			"units": []
+		}
+	]
+}

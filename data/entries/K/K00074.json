@@ -1,0 +1,36 @@
+{
+	"id": "K00074",
+	"slug": "כבר-4",
+	"headword": {
+		"text": "כָּבַר"
+	},
+	"page": {
+		"number": 609,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"K00077\"><he>כְּבָרָה</he></cite>) <i>to sift</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 4\">Gen. R. s. 4</cite> <he>אדם כּוֹבֵר בכברה …</he> if one sifts wheat or straw in a sieve. Ohol. XVIII, 2 <he>וכוֹבְרוֹ בשתי כברות</he> and sifts it twice. ",
+				"<cite ref=\"Mishnah Maasrot 1:6\">Maasr. I, 6</cite> <he>הקיטניות משיִכְבּוֹר</he> peas are subject to tithes from the time he sifts them. Ruth R., end <he>וכ׳ את הצבר וכ׳</he> (not <he>וכבד</he>) and sifted one pile. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 4:8:4\">Y. Ab. Zar. IV, 44ᵇ</cite> top … <he>טוחנין כוללין</he>, read <cite ref=\"K00189\"><he>כּוֹבְרִין</he></cite>; a. fr.—Part. pass. <he>כָּבוּר</he>. ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:4:6\">Y. Maasr. I, 49ᵃ</cite> bot. <he>מן הכ׳ וכ׳</he> from the portion which has been sifted in behalf of that which has not."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִכְבָּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be sifted</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Terumot 10:15\">Tosef. Ter. X, 15</cite> <he>שדרכו לִיכָּבֵר</he> (not <he>לוכבד</he>) which it is customary to sift."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

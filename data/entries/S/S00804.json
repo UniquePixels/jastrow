@@ -1,0 +1,56 @@
+{
+	"id": "S00804",
+	"slug": "קטע-1",
+	"headword": {
+		"text": "קָטַע"
+	},
+	"page": {
+		"number": 1351,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"C00235\"><he>גָּדַע</he></cite>) <i>to cut off, lop, mutilate</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 8:1\">B. Kam. VIII, 1</cite>. ",
+				"<cite ref=\"Mishnah Bava Kamma 8:7\">Ib. 7</cite> <he>האומר … קְטַע את ידי וכ׳</he> if one says to one’s neighbor, cut my hand off, he (who did so) is bound to pay damages. ",
+				"<cite ref=\"Mishnah Avodah Zarah 1:5\">Ab. Zar. I, 5</cite> <he>קוֹטֵעַ את וכ׳</he> one may cut off its toe and sell the cock to the idolater. ",
+				"<cite ref=\"Avodah Zarah 10b:12\">Ib. 10ᵇ</cite> <he>יִקְטְעֶנָּה</he>, v. <cite ref=\"N00372\"><he>נוֹמִי</he></cite>; a. fr.—Part. pass. <cite ref=\"S00719\"><he>קָטוּעַ</he></cite>. ",
+				"<cite ref=\"Niddah 64b\">Nidd. 64ᵇ</cite>; <cite ref=\"Ketubot 10b:5\">Keth. 10ᵇ</cite> <he>דור ק׳</he>, v. <cite ref=\"D00384\"><he>דּוֹרְקְטִי</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִיטֵּעַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S00803\">same</cite>, also <i>to cut through</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 83b:8\">B. Kam. 83ᵇ</cite> <he>יכול … מְקַטֵּעַ את ידו</he> (Ms. M. <he>נְקַטֵּעַ</he>) (from <cite ref=\"Exodus 21:24\">Ex. XXI, 24</cite>) you might think, if a person cut a man’s hand off, one (we, the court) should cut his hand off. Tanḥ. Ḥayé 3 <he>מְקַטְּעִין ויוצאין וכ׳</he> they (the waters) cut through and come forth between the mountains.—<i>Part. pass.</i> <he>מְקוּטָּע</he>; f. <he>מְקוּטַּעַת</he>; <i>pl.</i> <he>מְקוּטָּעִים</he>, <he>מְקוּטָּעִין</he>; <he>מְקוּטָּעוֹת</he> <i>lopped, defective</i>. ",
+						"<cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite> <he>שהיו אצבעותיהם מק׳</he> their fingers were mutilated (bitten off).—<he>חדשים מק׳</he> (or sub. <he>חדשים</he>) incomplete months, a fraction of the last month of pregnancy. Y. Bets. I, beg. 60ᵃ, v. <cite ref=\"O00332\"><he>סוּם</he> I</cite>. ",
+						"<cite ref=\"Bekhorot 21a:3\">Bekh. 21ᵃ</cite> <he>אינה יולדת למק׳</he> an animal does not give birth before the due number of months is completed; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְקַטֵּעַ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְקַטֵּעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut off, crippled</i>. Pesik. R. l. c. <he>ונִתְקַטְּעוּ אצבעותינו</he> our fingers were mutilated (by the handcuffs); <cite ref=\"Midrash Tehillim 137\">Midr. Till. to Ps. CXXXVII</cite>; Yalk. Ps. 884. ",
+					"units": [
+						"<cite ref=\"Taanit 21a:10\">Taan. 21ᵃ</cite> <he>רגלי … יִתְקַטְּעוּ</he> may my feet that paid no regard to thy feet be crippled."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

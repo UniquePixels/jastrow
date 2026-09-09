@@ -1,0 +1,23 @@
+{
+	"id": "M01330",
+	"slug": "מיתותא",
+	"headword": {
+		"text": "מִיתוּתָא"
+	},
+	"page": {
+		"number": 780,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01321\"><he>מִית</he></cite>) <i>death, dying</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 16:29\">Targ. Y. I Num. XVI, 29</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 16b:5\">B. Bath. 16ᵇ</cite>; <cite ref=\"Taanit 23a:17\">Taan. 23ᵃ</cite>, v. <cite ref=\"H00122\"><he>חַבְרוּתָא</he></cite>."
+			]
+		}
+	]
+}

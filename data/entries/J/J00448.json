@@ -1,0 +1,23 @@
+{
+	"id": "J00448",
+	"slug": "ינקא-2",
+	"headword": {
+		"text": "יַנְקָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 582,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00447\">preced.</cite>) = h. <cite ref=\"N00031\"><he>אֲנָקָה</he></cite>, <cite ref=\"N00030\"><he>נְאָקָה</he></cite>, <i>young camel</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 2:23\">Targ. Jer. II, 23</cite> (h. text <he>בכרה</he>)."
+			]
+		}
+	]
+}

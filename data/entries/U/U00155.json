@@ -1,0 +1,33 @@
+{
+	"id": "U00155",
+	"slug": "שבע-1",
+	"headword": {
+		"text": "שֶׁבַע"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁבְעָה"
+		}
+	],
+	"page": {
+		"number": 1515,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>seven</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 5:1\">Snh. V, 1</cite>, v. <cite ref=\"H01558\"><he>חֲקִירָה</he></cite>. ",
+				"<cite ref=\"Mishnah Sanhedrin 5:3\">Ib. 3</cite> <he>בש׳</he> (sub <cite ref=\"U01645\"><he>שעות</he></cite>) at seven hours of the day. ",
+				"<cite ref=\"Pirkei Avot 5:7\">Ab. V, 7</cite>. Lam. R. introd. (R. Josh. 2) <he>ש׳ מש׳</he> seven times seven; a. v. fr.—<he>בנות ש׳</he>, <he>ברת ש׳</he>, v. <cite ref=\"B01377\"><he>בַּת</he></cite> I a. <cite ref=\"B01339\"><he>בְּרַת</he> I</cite>.—Esp. <cite ref=\"U00164\"><he>שִׁבְעָה</he></cite> (sub. <he>ימים</he>) <i>Shib ah, the seven days of mourning for a near relative</i>. ",
+				"<cite ref=\"Moed Katan 20a:2\">M. Kat. 20ᵃ</cite>, v. <cite ref=\"U01390\"><he>שְׁלֹשָׁה</he></cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:5:14\">Y. M. Kat. III, 82ᶜ</cite>; v. <cite ref=\"U01525\"><he>שָׁמַר</he></cite>.—Pl. <cite ref=\"U00164\"><he>שִׁבְעִים</he></cite> <i>seventy</i>. ",
+				"<cite ref=\"Mishnah Sanhedrin 5:5\">Snh. V, 5</cite> <he>עד ש׳ ואחד</he> (add to the members of the court,) until they number seventy-one. ",
+				"<cite ref=\"Avodah Zarah 11b:3\">Ab. Zar. 11ᵇ</cite> <he>אחת לש׳ שנה</he> once every seventy years; a. v. fr."
+			]
+		}
+	]
+}

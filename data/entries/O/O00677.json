@@ -1,0 +1,35 @@
+{
+	"id": "O00677",
+	"slug": "סילתא-1",
+	"headword": {
+		"text": "סִילְתָּא"
+	},
+	"page": {
+		"number": 980,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O01042\"><he>סְלַת</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>kindling chip</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 22b:9\">B. Kam. 22ᵇ</cite>, v. <cite ref=\"C00328\"><he>גַּוָּוזָא</he> I</cite>.—Pl. <he>סִילְתֵּי</he>. ",
+				"<cite ref=\"Shabbat 74b:2\">Sabb. 74ᵇ</cite> <he>האי מאן דסלית ס׳</he> he who cuts chips (on the Sabbath). Ib. 150ᵇ (ed. <cite ref=\"O00328\"><he>סולתי</he></cite>), v. <cite ref=\"O01042\"><he>סְלַת</he></cite>. Ib. 20ᵇ"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"B01133\"><he>בְּקַעַת</he></cite>, <cite ref=\"C00328\"><he>גַּוָּוזָא</he> I</cite>) <i>log</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 66b:27\">Nidd. 66ᵇ</cite>; [Rashi refers to <cite ref=\"O00679\"><he>סִילְּתָא</he> II</cite>]."
+			],
+			"label": "2"
+		}
+	]
+}

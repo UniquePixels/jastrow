@@ -1,0 +1,94 @@
+{
+	"id": "L00565",
+	"slug": "למד-1",
+	"headword": {
+		"text": "לָמֵד",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "לָמַד"
+		}
+	],
+	"page": {
+		"number": 712,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be joined, affixed to</i>, v. <i>Pi.</i>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to accustom, train</i>. Part. pass. <cite ref=\"L00571\"><he>לָמוּד</he></cite>, f. <he>לְמוּדָה</he>; pl. <cite ref=\"L00572\"><he>לְמוּדִים</he></cite>, <cite ref=\"L00572\"><he>לְמוּדִין</he></cite>; <he>לְמוּדוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 4:3:1\">Y. Ter. IV, 42ᵈ</cite> <he>כמות שהוא ל׳</he> according to what he is used to. ",
+				"<cite ref=\"Vayikra Rabbah 4\">Lev. R. s. 4</cite> <he>אינה ל׳ מבית וכ׳</he> she is not used (to handle T’rumah) from her father’s house. ",
+				"<cite ref=\"Mishnah Demai 4:4\">Dem. IV, 4</cite> <he>ואם … ל׳ וכ׳</he> but if a priest or the poor are habitual guests at his table. Sifra K’dosh. Par. 3, ch. VI, v. <cite ref=\"L00479\"><he>לִימּוּד</he></cite>; a. fr.—3) <i>to learn, study</i>. ",
+				"<cite ref=\"Pirkei Avot 2:5\">Ab. II, 5</cite> <he>לא הביישן לָמֵד וכ׳</he> he who is bashful will not learn, nor can the hot-tempered teach, v. <cite ref=\"B00604\"><he>בַּיְישָׁן</he></cite>. ",
+				"<cite ref=\"Pirkei Avot 4:1\">Ib. IV, 1</cite> <he>הלוֹמֵד מכל אדם</he> he who learns from everybody. ",
+				"<cite ref=\"Pirkei Avot 4:20\">Ib. 20</cite> <he>הל׳ ילד</he> he who studies at an early age; <he>הל׳ זקן</he> who begins to study at an advanced age. Ib. I, 9 <he>שמא … יִלְמְדוּ לשקר</he> lest through them (your intricate cross-examinations) they may be led to tell a lie. ",
+				"<cite ref=\"Taanit 7a\">Taan. 7ᵃ</cite>; <cite ref=\"Makkot 10a\">Macc. 10ᵃ</cite> <he>הרבה לָמַדְתִּי וכ׳</he> I have learned much from my teachers, more from my colleagues, and most from my pupils; a. v. fr.—",
+				"<cite ref=\"Bava Metzia 71a\">B. Mets. 71ᵃ</cite>, a. fr. <he>הא לָמַדְתָּ</he> here you learn, i.e. this proves. [<cite ref=\"Aramaic Targum to Esther 1:1\">Targ. Esth. I, 1</cite> <he>מכאן אתה לָמֵד</he> from this you will learn.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["לִמֵּד", "לִימֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to join; to arrange</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 125b:8\">Sabb. 125ᵇ</cite> <he>צאו ולַמְּדוּם</he> go out and place them (the building stones) in order (for sitting thereon the next day).—V. <cite ref=\"L00480\"><he>לִימּוּדִים</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to train, accustom</i>. ",
+					"units": [
+						"<cite ref=\"Horayot 13b:9\">Hor. 13ᵇ</cite> <he>יְלַמֵּד אדם עצמו וכ׳</he> man should train his body (to relieve his bowels) early in the morning &c. ",
+						"<cite ref=\"Niddah 66b:7\">Nidd. 66ᵇ</cite> <he>לעולם ילמד אדם בתוך וכ׳</he> man should make it a rule in his house; a. fr.—<i>Part. pass.</i> <cite ref=\"M02082\"><he>מְלוּמָּד</he></cite>, f. <he>מְלוּמֶּדֶת</he>; pl. <he>מְלוּמָּדִים</he>, <he>מְלוּמָּדִין</he>; <he>מְלוּמָּדוֹת</he> <i>trained, experienced</i>. ",
+						"<cite ref=\"Sanhedrin 109a:1\">Snh. 109ᵃ</cite> top (in Chald. dict.) <he>דמל׳ בניסין הוא</he> for he has experience in miracles. ",
+						"<cite ref=\"Taanit 25a\">Taan. 25ᵃ</cite>. ",
+						"<cite ref=\"Sukkah 29a\">Succ. 29ᵃ</cite> <he>מפני שמל׳ במכות הן</he> (not <he>במכותיהן</he>; Ms. M. <he>שרגילין</he>) because they (the Jews) have experience in afflictions; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to teach, instruct; to argue</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 50a:13\">Keth. 50ᵃ</cite> <he>הלומד … ומְלַמְּדָהּ</he> he who studies the Law and teaches it. ",
+						"<cite ref=\"Pesachim 112a:12\">Pes. 112ᵃ</cite> <he>לַמְּדֵנִי תורה</he> teach me the Law; <he>איני מְלַמֶּדְךָ</he> I will not teach thee. ",
+						"<cite ref=\"Pesachim 112a:12\">Ib.</cite> <he>כשאתה מְלַמֵּד … לַמְּדֵהוּ וכ׳</he> when thou teachest thy son, teach him from a revised (correct) copy. ",
+						"<cite ref=\"Sanhedrin 19b:17\">Snh. 19ᵇ</cite> <he>אהרן ילד ומשה לי׳ וכ׳</he> Aaron begot (his sons), but Moses taught them, therefore they are recorded under his name; a. v. fr.—מְלַמֵּד תינוקות <i>primary teacher</i>. ",
+						"<cite ref=\"Sanhedrin 17b\">Ib. 17ᵇ</cite>. ",
+						"<cite ref=\"Bava Batra 21a:2\">B. Bath. 21ᵃ</cite> <he>מְלַמְּדֵי ת׳</he> teachers.—ל׳ זכות על <i>to argue in favor of, to plead for</i>; <he>ל׳ חובה</he> <i>to plead against</i>. ",
+						"<cite ref=\"Shabbat 32a:7\">Sabb. 32ᵃ</cite> <he>ואפי׳ … מְלַמְּדִים … ואחד מלמד עליו זכות ניצול</he> and even if nine hundred … plead against him, and one (good deed) for him, he will be saved; a. v. fr.—Esp. (in textual interpret.) <i>to lead, hint, throw light on</i>. Sifra Emor Par. 4, ch. IV <he>הייתי אומר תושב</he> … <he>בא שכיר ולי׳ על התושב וכ׳</he> I might have thought <i>toshab</i> (<cite ref=\"Leviticus 22:10\">Lev. XXII, 10</cite>) meant one hired for a limited period; therefore <i>sakhir</i> (ibid.) comes in to throw light on <i>toshab</i> that it means one bought for life; <cite ref=\"Kiddushin 4a\">Kidd. 4ᵃ</cite>; <cite ref=\"Yevamot 70a\">Yeb. 70ᵃ</cite>.—Sifra introd. <he>יצא מן הכלל לְלַמֵּד</he> is specified for the sake of illustration, v. <cite ref=\"K00760\"><he>כְּלָל</he></cite>. ",
+						"<cite ref=\"Meilah 11b:3\">Meïl. 11ᵇ</cite>, a. fr. <he>שני כתובים … אין מְלַמְּדִין</he> two verses which coincide (teach the same), prove nothing, cannot serve as an illustration for similar cases; a. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְלַמֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to practice</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 24b\">Gitt. 24ᵇ</cite>; <cite ref=\"Zevachim 2b:18\">Zeb. 2ᵇ</cite> <he>בסופרים העשויים להִתְלַמֵּד וכ׳</he> it treats of scribes who are in the habit of writing documents merely for practice. ",
+						"<cite ref=\"Gittin 60a:7\">Gitt. 60ᵃ</cite> <he>לכתוב … להתל׳ בה</he> to write one portion of the Pentateuch for a child for practicing purposes; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

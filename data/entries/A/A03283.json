@@ -1,0 +1,35 @@
+{
+	"id": "A03283",
+	"slug": "אשי",
+	"headword": {
+		"text": "אַשֵּׁי"
+	},
+	"page": {
+		"number": 127,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ashshé</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " R. A. bar Sinai, president of the academy of Sura (beginning of the fifth century), generally accepted as the redactor of the Gemara (v. <cite ref=\"C01067\"><he>גְּמָרָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Gittin 59a:19\">Gitt. 59ᵃ</cite>. ",
+				"<cite ref=\"Bava Metzia 86a:1\">B. Mets. 86ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " Other Amoraim by that name. ",
+			"units": [
+				"<cite ref=\"Shabbat 75b:3\">Sabb. 75ᵇ</cite>; a. fr. [<cite ref=\"Jerusalem Talmud Berakhot 1:1:31\">Y. Ber. I, 3ᵃ</cite> top <he>אשיא</he>.]"
+			],
+			"label": "2"
+		}
+	]
+}

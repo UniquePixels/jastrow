@@ -1,0 +1,23 @@
+{
+	"id": "A02600",
+	"slug": "אפא-3",
+	"headword": {
+		"text": "אָפָא"
+	},
+	"page": {
+		"number": 99,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contr. of <cite ref=\"A02768\"><he>אַפְעָא</he></cite> q. v.) <i>a striped wild animal</i> (of the genus <i>felis</i>) of which the male (stronger) and the female species are distinguished, corresp. to h. <cite ref=\"R00025\"><he>צָבוּע</he></cite> q. v.; <i>leopard</i>, and <i>hyæna striata</i> (<i>striped hyena</i>). ",
+			"units": [
+				"<cite ref=\"Bava Kamma 16a:19\">B. Kam. 16ᵃ</cite> (expl. <cite ref=\"N01081\"><he>נפרזא</he></cite> leopard); <cite ref=\"Bava Kamma 16a:19\">ib.</cite> (expl. <cite ref=\"R00025\"><he>צבוע</he></cite>); v. discussion <cite ref=\"Bava Kamma 16a:19\">ib.</cite> ",
+				"<cite ref=\"Yoma 84a\">Yoma 84ᵃ</cite> <he>א׳ דיכרא</he> Ms. M. (ed. <he>דדיכרא</he>, corr. acc.) a male <i>afa</i>. [Not to be confounded with b. h. <cite ref=\"A02769\"><he>אֶפְעֶה</he></cite>, v. Nöld. M. Gr. p. 58 sq. note.]"
+			]
+		}
+	]
+}

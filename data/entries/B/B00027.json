@@ -1,0 +1,63 @@
+{
+	"id": "B00027",
+	"slug": "באיש",
+	"headword": {
+		"text": "בְּאֵישׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּאִישׁ"
+		},
+		{
+			"text": "בְּאֵשׁ"
+		}
+	],
+	"page": {
+		"number": 135,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (h. <cite ref=\"B00047\"><he>בָּאַשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be bad, displeasing</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 21:11\">Targ. Gen. XXI, 11</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 8:1:9\">Y. Sabb. VIII, 11ᵃ</cite> bot. <he>ובְאֵשׁ לר׳ וכ׳</he> it displeased R. … <cite ref=\"Jerusalem Talmud Berakhot 3:1:9\">Y. Ber. III, 6ᵃ</cite> bot.; VII, 11ᶜ top; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be ill, grow sick</i>. ",
+			"units": ["<cite ref=\"Nedarim 40a:1\">Ned. 40ᵃ</cite> top."],
+			"label": "2"
+		},
+		{
+			"gloss": " (with <he>לבא</he>, <cite ref=\"P00602\"><he>עינא</he></cite>, or <cite ref=\"N01085\"><he>נפשא</he></cite>) <i>to be displeased, angry, troubled</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 15:9\">Targ. Deut. XV, 9</cite>; <cite ref=\"Onkelos Deuteronomy 15:10\">10</cite> (some ed. <he>יַבְאֵשׁ</he> Af.). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 1:8\">Targ. I Sam. I, 8</cite>; a. e.—Lam. R., introd., end <he>נפשך בְּאִישָׁא עלך</he> thou art discontented."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַבְאֵשׁ", "אַבְאֵישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to make bad; to do evil; to harm one</i> (with <cite ref=\"L00000\"><he>ל</he></cite> or <cite ref=\"B00000\"><he>ב</he></cite> of the person). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 12:25\">Targ. I Sam. XII, 25</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 14:20\">Targ. Is. XIV, 20</cite>; a. fr.—",
+						"<cite ref=\"Onkelos Genesis 19:9\">Targ. Gen. XIX, 9</cite>. ",
+						"<cite ref=\"Onkelos Genesis 19:9\">Ib.</cite> Y. XVI, 12; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

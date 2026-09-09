@@ -1,0 +1,58 @@
+{
+	"id": "U01279",
+	"slug": "שלחף",
+	"headword": {
+		"text": "שַׁלְחֵף"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁלְחֵיף"
+		}
+	],
+	"page": {
+		"number": 1581,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Shaf. of <he>חלף</he>, transposed) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to change, exchange; to lay crosswise</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 31:7\">Targ. Y. Gen. XXXI, 7</cite>; <cite ref=\"Targum Jonathan on Genesis 31:41\">41</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 34:9\">Targ. Y. Ex. XXXIV, 9</cite>, sq. ",
+				"<cite ref=\"Aramaic Targum to Psalms 15:4\">Targ. Ps. XV, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 48:14\">Targ. Y. Gen. XLVIII, 14</cite> Ar. (ed. <cite ref=\"Q01547\"><he>פרג</he></cite>; h. text <cite ref=\"U01159\"><he>שִׂכֵּל</he></cite>); a. e.—",
+				"<cite ref=\"Bava Batra 99a\">B. Bath. 99ᵃ</cite> (<he>ידייהו</he>) <he>ודילמא שַׁלְחוּפֵי הוו מְשַׁלְחֲפֵי</he> may it not be that they (the Cherubim over the Ark) had their wings crosswise (overlapping each other)? <cite ref=\"Shabbat 96b:13\">Sabb. 96ᵇ</cite> <he>ודילמא שלחופי הוו משלחפי</he> may it not be that they (the weavers) sat in irregular lines (so that those sitting close together did not need to hinder one another in their work)? <cite ref=\"Shabbat 98b:3\">Ib. 98ᵇ</cite> <he>דלא לִישְׁלְחוֹפִינְהוּ מהדדי</he> (Ms. O. <he>לישלופינהו</he>; Yalk. Ex. 370 <he>לישליפינהו</he>) that they must not pile them irregularly. ",
+				"<cite ref=\"Bava Metzia 25a:10\">B. Mets. 25ᵃ</cite> <he>משלחפי שלחופי</he> (Ms. H. <he>משלפי שלופי</he>) the coins lie irregularly (some of them piled, others scattered). ",
+				"<cite ref=\"Niddah 26a:13\">Nidd. 26ᵃ</cite> <he>ומְשַׁלְחֵיף ליה וכ׳</he> (Ar. <he>ומשחיף</he>, corr. acc.) and lies across (overlapping) the head of the embryo."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pass quickly, overtake</i>; [or <i>to strike through</i>]. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 20:24\">Targ. Job XX, 24</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּלְחֵיף"],
+			"senses": [
+				{
+					"gloss": "<i>to be changed; to pass away; to be exchanged</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 46:3\">Targ. Ps. XLVI, 3</cite> (Ms. <he>אִשְׁתַּחֲלִיפוּ</he>; h. text <he>בהמיר</he>). ",
+						"<cite ref=\"Aramaic Targum to Job 29:20\">Targ. Job XXIX, 20</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 28:16\">Ib. XXVIII, 16</cite>; <cite ref=\"Aramaic Targum to Job 28:19\">19</cite> (h. text <he>תסלה</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

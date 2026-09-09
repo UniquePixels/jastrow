@@ -1,0 +1,34 @@
+{
+	"id": "S00775",
+	"slug": "קטלא-1",
+	"headword": {
+		"text": "קְטָלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַטְּלָא"
+		}
+	],
+	"page": {
+		"number": 1349,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00774\">preced.</cite>) <i>killing, death-penalty</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 20:9\">Targ. Lev. XX, 9</cite>; <cite ref=\"Onkelos Leviticus 20:11\">11</cite> (O. ed. Berl. <cite ref=\"S00917\"><he>קַטְּ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 24:11\">Targ. Prov. XXIV, 11</cite>; a. e.—",
+				"<cite ref=\"Sanhedrin 11a:3-8\">Snh. 11ᵃ</cite> <he>שמעון</he> … <he>לחרבא וחברוהי לק׳</he> Simon and Yishmael are destined to fall by the sword, and their colleagues to be executed. ",
+				"<cite ref=\"Pirkei Avot 1:13\">Ab. I, 13</cite> <he>ק׳ חייב</he> deserves death. ",
+				"<cite ref=\"Sanhedrin 73b:9\">Snh. 73ᵇ</cite> <he>מסרה נפשה לק׳</he> she was prepared to die (resisting her assailant). ",
+				"<cite ref=\"Sanhedrin 78b:5\">Ib. 78ᵇ</cite> <he>בר ק׳ הוא … קְטָלֵיה במאי</he> he was guilty of a capital crime, but Moses did not know in what manner he was to be executed. ",
+				"<cite ref=\"Sanhedrin 79b:5\">Ib. 79ᵇ</cite> <he>אי בר ק׳ הוא וכ׳</he> if he is to be put to death &c. ",
+				"<cite ref=\"Ketubot 35a:5\">Keth. 35ᵃ</cite> <he>האי בק׳ כתיב</he> this (<i>makkeh</i>, <cite ref=\"Leviticus 24:2\">Lev. XXIV, 2</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"id": "A03095",
+	"slug": "אריך-1",
+	"headword": {
+		"text": "אֲרִיךְ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 119,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"A03125\"><he>אָרַךְ</he></cite>)<i>to be long, to project</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 8:8\">Targ. I Kings VIII, 8</cite>; <cite ref=\"II Chronicles 5:9\">II Chr. V, 9</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:2:3\">Y. Ab. Zar. I, 39ᶜ</cite> top, v. <cite ref=\"A01342\"><he>אִימָמָא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אוֹרֵיךְ"],
+			"senses": [
+				{
+					"gloss": ", <i>Pa.</i> <cite ref=\"A03125\"><he>אָרֵךְ</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be prolonged; to lengthen</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 20:12\">Targ. Ex. XX, 12</cite>. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 28:67\">Targ. Y. Deut. XXVIII, 67</cite> <cite ref=\"M00066\"><he>מְאַרְכַן</he></cite> make appear long; a. fr.—Y. Taan. IV, 68ᵃ <he>מְאַרְכָה יומין</he> to live long; <cite ref=\"Kohelet Rabbah 7:7\">Koh. R. to VII, 7</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be tall</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 109b:6\">Snh. 109ᵇ</cite> <he>כי מאריך</he> when one was tall."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to tarry, wait, hope</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 9:22\">Targ. Num. IX, 22</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 6:11\">Targ. Job VI, 11</cite>.—Y. Yoma VI, 43ᵈ <he>אורכין צבחר</he> wait a while. Y. R. Hash. I, 57ᵃ bot. <he>הוות מוֹרְכָה וכ׳</he> she waited a whole year. ",
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>הוו מורכין</he>. Y. M. Kat. II, 81ᵇ top <he>אילפא מורכא לך</he> the ship will wait for thee."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

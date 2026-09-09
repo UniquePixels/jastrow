@@ -1,0 +1,33 @@
+{
+	"id": "V00669",
+	"slug": "תמות",
+	"headword": {
+		"text": "תַּמּוּת"
+	},
+	"page": {
+		"number": 1676,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"V00642\"><he>תָּם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>unblemished condition, integrity</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 6a:12\">Men. 6ᵃ</cite>; <cite ref=\"Kiddushin 24b:19\">Kidd. 24ᵇ</cite>, a. e. <he>ת׳ וזכרות</he>, v. <cite ref=\"G00471\"><he>זַכְרוּת</he></cite>. ",
+				"<cite ref=\"Bava Kamma 39b:12\">B. Kam. 39ᵇ</cite> <he>תַּמּוּתוֹ</he>, v. <cite ref=\"V00679\"><he>תְּמִימוּת</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the legal status of an animal that did injury for the first time</i> (v. <cite ref=\"V00642\"><he>תָּם</he> I</cite>, 2). Ib. 45ᵇ <he>צד ת׳</he> that limb of an animal about which no warning has been given, whereas this has been done about another limb. Ib. <he>צד ת׳ במקומה עומדת</he> the legal condition of the <i>tam</i> remains unaltered concerning that limb (so that the animal in the case is legally half a <i>muʿad</i> (<cite ref=\"M00556\"><he>מוּעָד</he></cite>) and half a <i>tam</i>); a. e.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"id": "T00777",
+	"slug": "רכפא",
+	"headword": {
+		"text": "רִכְפָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִכְפָּה"
+		}
+	],
+	"page": {
+		"number": 1480,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. Syr. <he>רקפתא</he>, Löw, Pfl. 307) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a tuberous-rooted plant</i> used for dyeing, <i>sow-bread</i> (cyclaminus). ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 7:2\">Shebi. VII, 2</cite> (Ms. M. <he>ארכפה</he>; Maim. <he>רכבנה</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " בצל של ר׳ <i>tuber of rikhpa</i>, a kind of <i>onion</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 5:8\">Maasr. V, 8</cite>. ",
+				"<cite ref=\"Tosefta Ma'asrot 3:14\">Tosef. ib. III, 14</cite>; Y. ib. V, end, 52ᵃ <he>איזהו ב׳ של ר׳ כל שעוקצו וכ׳</he> what is the nature of a <i>rikhpa</i> onion? Its tail is squeezed into its inside; R. S. b. G. says, it has one shell only.—[Maim. to Maasr. l. c. suggests <he>ר׳</he> to be a geographical term, corresp. to <he>שום בעל בכי</he> ib.]"
+			],
+			"label": "2"
+		}
+	]
+}

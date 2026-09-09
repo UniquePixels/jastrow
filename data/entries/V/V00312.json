@@ -1,0 +1,31 @@
+{
+	"id": "V00312",
+	"slug": "תורף-2",
+	"headword": {
+		"text": "תּוֹרֵף"
+	},
+	"altHeadwords": [
+		{
+			"text": "תֹּרֵף"
+		}
+	],
+	"page": {
+		"number": 1658,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V01043\"><he>תָּרַף</he></cite> = <cite ref=\"I00859\"><he>טָרַף</he></cite>; cmp. <cite ref=\"I00453\"><he>טִירְפָּא</he></cite>) <i>that which makes a debt collectable from real estate, mortgage;</i> trnsf. <i>that passage in a document which makes it binding</i>, e.g., in due bills, the last line stating the date of execution; in a letter of divorce, the names and especially the phrase <he>הרי את מותרת לכל אדם</he> (opp. <cite ref=\"I00208\"><he>טוֹפֵס</he></cite> q. v.). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 7b:13\">B. Mets. 7ᵇ</cite> <he>אחד אדוק בטופס ואחד אדוק בת׳ … וזה נוטל ת׳</he> if (of those finding a due bill) one holds the <i>ṭofes</i> (upper portion), and the other the <i>toref</i> (the lower portion), the one gets the <i>ṭofes</i>, and the other the <i>toref</i>; expl. ",
+				"<cite ref=\"Bava Metzia 7b:17\">ib.</cite> <he>לדמי וכ׳</he> a share in proportion to the value of a document without date (a personal debt) and of one with a date (mortgage). ",
+				"<cite ref=\"Jerusalem Talmud Gittin 5:7:2\">Y. Gitt. V, 47ᵇ</cite> top <he>לא הספיק לכתוב תָּרְפּוֹ וכ׳</he> he had not yet written the execution of the sale, when &c. Ib. III, beg. 44ᶜ <he>כתב תרפו בטופס</he> if he filled out the blank (v. <cite ref=\"I00208\"><he>טוֹפֵס</he></cite>); ib. II, 44ᵇ bot. <he>תרפו</he>, a. <he>טרפו</he>. Bab. ",
+				"<cite ref=\"Gittin 21b:13\">Gitt. 21ᵇ</cite> <he>והוא ששייר מקום הת׳</he> provided he left the place for the <i>toref</i> (the last line) blank (to be filled out after the writing sheet is detached). ",
+				"<cite ref=\"Gittin 21b:16\">Ib.</cite> <he>אין כותבין ת׳ וכ׳</he> you must not write the <i>toref</i> (on material affixed to the ground), for fear that (if this be allowed) he may also have it signed (before detaching it); <he>כתבו לת׳ וכ׳</he> but if he wrote the <i>toref</i> and detached the sheet afterward &c.; a. fr."
+			]
+		}
+	]
+}

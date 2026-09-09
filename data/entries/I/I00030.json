@@ -1,0 +1,29 @@
+{
+	"id": "I00030",
+	"slug": "טבוא",
+	"headword": {
+		"text": "טַבְוָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַבְוָוא"
+		}
+	],
+	"page": {
+		"number": 516,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. constr. <cite ref=\"I00025\"><he>טַבְוַת</he></cite>, <cite ref=\"I00030\"><he>טַבְוַות</he></cite> (<cite ref=\"I00048\"><he>טבי</he></cite>, sec. r. of <cite ref=\"I00018\"><he>טב</he></cite>) <i>beneficence, good deed</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Micah 7:20\">Targ. Mic. VII, 20</cite> (perh. pl.).—Pl. <he>טַבְוָן</he>, <cite ref=\"I00030\"><he>טַבְוָון</he></cite>, <he>טַבְוָותָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Micah 7:20\">Ib.</cite> (ed. Lag. <he>טָבָן</he>). ",
+				"<cite ref=\"Onkelos Genesis 32:11\">Targ. Gen. XXXII, 11</cite>; a. e."
+			]
+		}
+	]
+}

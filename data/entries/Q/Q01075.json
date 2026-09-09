@@ -1,0 +1,49 @@
+{
+	"id": "Q01075",
+	"slug": "פלל-1",
+	"headword": {
+		"text": "פָּלַל"
+	},
+	"page": {
+		"number": 1182,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to separate, divide</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּילֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to arbitrate, intercede</i>; trnsf. <i>to pray</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 55b:9\">Sabb. 55ᵇ</cite> (ref. to <he>פ̇ח̇ז̇</he>, <cite ref=\"Genesis 49:4\">Gen. XLIX, 4</cite>) <he>פִּ֗ילַּלְתָּה ח̇לתה ז̇רחה וכ׳</he> thou didst plead, thou didst pray, thy prayer rose &c. "
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְפַּלֵּל"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְפַּלֵּל"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"V00831\"><he>תְּפִלָּה</he></cite>) <i>to pray</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Berakhot 5:1\">Ber. V, 1</cite> <he>להִתְפַּלֵּל</he>, v. <cite ref=\"K00184\"><he>כּוֹבֶד</he></cite>. ",
+						"<cite ref=\"Mishnah Berakhot 5:1\">Ib.</cite> <he>היו שוהים … ומִתְפַּלְּלִים</he> used to tarry a while (in meditation) and then say the prayers. Ib. IV, 3 <he>יִתְפַּלֵּל שמונה עשרה</he> should pray the eighteen benedictions. Ib. 4 <he>מִתְפַּלֵּל תפלה קצרה</he> says a short prayer. Y. ib. 8ᵇ top <he>ספק נתפ׳ ספק לא נ׳</he> if he is in doubt whether he has or has not said his prayers; a. v. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

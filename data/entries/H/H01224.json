@@ -1,0 +1,23 @@
+{
+	"id": "H01224",
+	"slug": "חמר-7",
+	"headword": {
+		"text": "חַמָּר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 480,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (v. <cite ref=\"H01222\"><he>חֲמַר</he> II</cite>; cmp. <cite ref=\"H01201\"><he>חָמַם</he></cite>) <i>dark;</i> trnsf. <i>mourning</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 35:14\">Targ. Ps. XXXV, 14</cite>; <cite ref=\"Aramaic Targum to Psalms 38:7\">XXXVIII, 7</cite> Ms. (ed. <cite ref=\"H00930\"><he>חַכִּיר</he></cite>, Lev. <he>הביר</he>; h. text <cite ref=\"S00168\"><he>קֹדֵר</he></cite>)."
+			]
+		}
+	]
+}

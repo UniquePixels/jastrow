@@ -1,0 +1,37 @@
+{
+	"id": "T00396",
+	"slug": "רומנא",
+	"headword": {
+		"text": "רוּמָּנָא"
+	},
+	"page": {
+		"number": 1461,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"T00795\"><he>רִמּוֹנָא</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>pomegranate</i> (fruit and tree). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 39:26\">Targ. Y. Ex. XXXIX, 26</cite> (ed. Vien. <cite ref=\"T00838\"><he>רוֹמָ׳</he></cite>). Targ. II Esth. VII, 9; a. e.—",
+				"<cite ref=\"Berakhot 56a:12\">Ber. 56ᵃ</cite> <he>ר׳ דקדחא</he>, v. <cite ref=\"S00126\"><he>קְדַח</he></cite>. ",
+				"<cite ref=\"Berakhot 56a:12\">Ib.</cite> <he>עשיק עסקך כר׳</he> thy ware (wine) will be high-priced like the pomegranate; <he>קאוי … כר׳</he>, v. <cite ref=\"S00204\"><he>קִהֵי</he></cite>; a. e.—Pl. <he>רוּמַנְיָין</he>, <he>רוּמָּנִין</he>, <cite ref=\"T00398\"><he>רוּמָּנַיָּא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 28:33\">Targ. Y. Ex. XXVIII, 33</cite>; <cite ref=\"Targum Jonathan on Exodus 39:24\">XXXIX, 24</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 39:25\">Ib. 25</cite> <cite ref=\"T00398\"><he>רוֹמַנְיָא</he></cite> (read: <cite ref=\"T00398\"><he>רוּמָּנַיָּא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 20:5\">Targ. Y. Num. XX, 5</cite> (ed. Vien. <he>רוֹמְנִין</he>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " ר׳ דאפא <i>the upper part of the cheek</i>.—Pl. <he>רוּמָּנֵי</he>. ",
+			"units": ["<cite ref=\"Avodah Zarah 30b\">Ab. Zar. 30ᵇ</cite>"],
+			"label": "2"
+		}
+	]
+}

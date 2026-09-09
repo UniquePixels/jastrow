@@ -1,0 +1,44 @@
+{
+	"id": "T00046",
+	"slug": "רבב-1",
+	"headword": {
+		"text": "רָבַב"
+	},
+	"page": {
+		"number": 1439,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be great, numerous</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 28b:12\">M. Kat. 28ᵇ</cite> <he>רַבּוּ עונותיו</he> many are his sins. ",
+				"<cite ref=\"Bereishit Rabbah 27:3\">Gen. R. s. 27</cite> (expl. <cite ref=\"T00060\"><he>רבה</he></cite>, <cite ref=\"Genesis 6:5\">Gen. VI, 5</cite>) <he>רַבָּה והולכת</he> was growing more and more; a. e.—Denom. <cite ref=\"T00042\"><he>רַב</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to line</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִיבֵּב"],
+			"senses": [
+				{
+					"gloss": " [<i>to make strong, thick</i>,] <i>to line</i>. Pesik. Zuṭr. Haăz., ed. Bub. p. 110 <he>שמְרַבֶּבֶת</he>, v. <cite ref=\"T00087\"><he>רָבִיב</he></cite>.—Esp. <i>to line a skin with pitch</i> (v. <cite ref=\"H01236\"><he>חֵמֶת</he></cite>). ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 33a\">Ab. Zar. 33ᵃ</cite> <he>נכרי רִיבְּבָן … וישראל נותן וכ׳</he> if a gentile pitched them and tanned them, and an Israelite puts wine into them; <cite ref=\"Tosefta Avodah Zarah 4:1\">Tosef. ib. IV</cite> (<cite ref=\"Tosefta Avodah Zarah 5:10\">V</cite>), 10 <he>גוי עובדו וזופתו</he> ed. Zuck. (Var. <he>ורוֹבְבוֹ</he>, <he>ורובבין</he>, <he>ורובדו</he>, v. ed. Zuck. note); Y. ib. II, 41ᵇ bot. <he>עובדן ודיבבן</he>, v. <cite ref=\"D00038\"><he>דָּבַב</he> I</cite>.—[<cite ref=\"Yalkut Shimoni on Nach 988:52\">Yalk. Cant. 988</cite> <he>צפונית מרבבת</he>, some ed. <he>מרכבת</he>, read: <he>מְכַבֶּדֶת</he>, as <cite ref=\"Bamidbar Rabbah 13\">Num. R. s. 13</cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

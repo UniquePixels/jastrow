@@ -1,0 +1,22 @@
+{
+	"id": "S00235",
+	"slug": "קובנאה",
+	"headword": {
+		"text": "קוּבְנָאָה"
+	},
+	"page": {
+		"number": 1324,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קבב</he>; cmp. <cite ref=\"A02901\"><he>אֲקוּנְבִּי</he></cite>) <i>turret, battlement</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 73a:11\">B. Bath. 73ᵃ</cite> bot. <he>דהוה קא משואר אק׳ דמחוזא</he> Ms. H. was jumping on the battlements of Maḥoza; (Ar. <he>דהוה נקיטא אק׳</he>, read <he>רהיט</he>, v. Rabb. D. S. a. l. note 100; ed., v. <cite ref=\"S00505\"><he>קוּפְיָא</he></cite>)."
+			]
+		}
+	]
+}

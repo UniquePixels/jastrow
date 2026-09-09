@@ -1,0 +1,28 @@
+{
+	"id": "O00822",
+	"slug": "סיקרא-3",
+	"headword": {
+		"text": "סִיקְרָא",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "סִקְ׳"
+		}
+	],
+	"page": {
+		"number": 986,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m., <cite ref=\"O01072\"><he>אבא ס׳</he></cite> <i>Abba Siḳra</i> (cmp. <cite ref=\"O00824\"><he>סִיקָרִין</he></cite>). ",
+			"units": [
+				"<cite ref=\"Gittin 56a:15\">Gitt. 56ᵃ</cite>, v. <cite ref=\"B01250\"><he>בַּרְיוֹנָא</he></cite>."
+			]
+		}
+	]
+}

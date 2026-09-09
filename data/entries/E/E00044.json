@@ -1,0 +1,27 @@
+{
+	"id": "E00044",
+	"slug": "הבלו",
+	"headword": {
+		"text": "הֲבָלוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֲבָלוּתָא"
+		}
+	],
+	"page": {
+		"number": 330,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"E00043\">preced.</cite>) <i>vanity</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 1:2\">Targ. Koh. I, 2</cite>; <cite ref=\"Aramaic Targum to Ecclesiastes 11:8\">XI, 8</cite>; a. e."
+			]
+		}
+	]
+}

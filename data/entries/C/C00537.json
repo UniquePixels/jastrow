@@ -1,0 +1,39 @@
+{
+	"id": "C00537",
+	"slug": "גזז-1",
+	"headword": {
+		"text": "גָּזַז"
+	},
+	"page": {
+		"number": 229,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to cut, shear</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite> (play on <he>גינת אגוז</he>, <cite ref=\"Song of Songs 5:11\">Cant. V, 11</cite>) <he>הגינה שאני גוזז אותה וכ׳</he> the garden which I trim at all times. ",
+				"<cite ref=\"Song of Songs 5:11\">Ib.</cite> when they sin <he>מיד אני גוֹזְזָם</he> I cut (punish) them at once; <cite ref=\"Yalkut Shimoni on Nach 992\">Yalk. Cant. 992</cite>.—",
+				"<cite ref=\"Chullin 138a:11\">Ḥull. 138ᵃ</cite> <he>הא צאנו לָגוֹז</he> but when he hires his (the gentile’s) sheep for shearing (Rashi <he>לִגְזוֹז</he>). ",
+				"<cite ref=\"Chullin 138a:18\">Ib.</cite> <he>לגזוז</he>; a. e.—Part. pass. <he>גָּזוּז</he> (v. <cite ref=\"C00522\"><he>גִּזָּה</he></cite>) <i>covered with fleece</i>. ",
+				"<cite ref=\"Kohelet Rabbah 1:9\">Koh. R. to I, 9</cite> a time will come when the wolf <he>להיות ג׳ וכ׳</he> shall have a fleece of fine wool."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִגְזַז"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut, trimmed, shorn</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Oktzin 1:4\">Ukts. I, 4</cite> <he>את שדרכם לִיגָּזֵז וכ׳</he> those plants which usually are cut but which have been taken out with their roots. Pesik. R. l. c.; Yalk. l. c. <he>כל דבר שהוא נ׳ מיד וכ׳</he> whatever (plant) is cut (trimmed) soon drives new shoots and grows better. ",
+						"<cite ref=\"Shir HaShirim Rabbah 6:11:1\">Cant. R. to VI, 11</cite> <he>מה האגוזה נִגְזֶזֶת וכ׳</he> as the nuttree is trimmed and shoots anew. ",
+						"<cite ref=\"Shir HaShirim Rabbah 6:11\">Ib.</cite> <he>כצפרנים הללו שנִּגְזָזִין וכ׳</he> as the nails are cut and grow again, <he>כך כל מה שישראל נגזזין מעמלן וכ׳</he> so the more Israel is shorn of his worldly toil and given up to the toils of the study of the Law."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

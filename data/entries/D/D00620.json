@@ -1,0 +1,54 @@
+{
+	"id": "D00620",
+	"slug": "דימוסיא",
+	"headword": {
+		"text": "דִּימוֹסְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דמוסיא"
+		}
+	],
+	"page": {
+		"number": 300,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (δημόσια, τὰ) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>public affairs</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 8\">Gen. R. s. 8</cite> <he>בד׳ של מדינה</he> Ar. (ed. <he>בדִימוֹסָהּ</he>; <cite ref=\"Yalkut Shimoni on Nach 907\">Yalk. Job 907</cite> <he>בדימוסיס</he>) with the public affairs of the country."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (δημόσιος = fiscus) <i>state property</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:3\">Y. Snh. X, 28ᵇ</cite> top <he>ואחד ד׳ לכולן</he> and one golden calf was the common property of all the tribes. ",
+				"<cite ref=\"Bereishit Rabbah 84\">Gen. R. s. 84</cite>, end; <cite ref=\"Yalkut Shimoni on Torah 143:3\">Yalk. ib. 143</cite> they sold him <he>לדמ׳ של וכ׳</he> to the public treasury (as a state slave)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "(also as pl.) <i>state-tax, confiscation</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 30:6\">Lev. R. s. 30</cite> <he>למגבי דמ׳ וכ׳</he> to collect the taxes &c. ",
+				"<cite ref=\"Vayikra Rabbah 30:6\">Ib.</cite> <he>התיר … מדמוסא שלהן</he> (corr. acc.) he remitted one third of their due taxes; Pesik. Ul’kaḥ. p. 182ᵇ. Ib. Shek. p. 11ᵃ sq. <he>אייתי דִּימוֹסַיִּךְ</he> bring thy <i>demosia;</i> <cite ref=\"Yalkut Shimoni on Torah 386:7\">Yalk. Ex. 386</cite> <he>דִּימוֹסַיִּיךְ</he>; <cite ref=\"Yalkut Shimoni on Nach 953\">Yalk. Prov. 953</cite>.—<i>Pl.</i> (Hebr.) <cite ref=\"D00625\"><he>דִּימוֹסְיָאוֹת</he></cite>, <cite ref=\"D00625\"><he>דִּימוֹסִיּוֹת</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 3\">Lam. R. to III, 7</cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>public bath</i>, v. <cite ref=\"D00622\"><he>דִּימוֹסִין</he></cite>.",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

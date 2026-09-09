@@ -1,0 +1,28 @@
+{
+	"id": "C01250",
+	"slug": "גרגירא",
+	"headword": {
+		"text": "גַּרְגִּירָא"
+	},
+	"page": {
+		"number": 264,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01249\">same</cite><i>rocket</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 18b:1\">Yoma 18ᵇ</cite> <he>ג׳ מצרנאה</he> rocket growing on the balk (Ms. M. <he>מצראה</he>). ",
+				"<cite ref=\"Shabbat 109a:2\">Sabb. 109ᵃ</cite> (Ar. ed. Koh. <cite ref=\"C01246\"><he>גַּרְגִּילָא</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 228:9\">Yalk. Kings 228</cite> <cite ref=\"C01258\"><he>גַּרְגְּרָא</he></cite>).—",
+				"<cite ref=\"Gittin 69b\">Gitt. 69ᵇ</cite> <cite ref=\"C00867\"><he>גַּלְגִּילָא</he></cite> ed. (Ar. s. v. <he>בזר</he>: <cite ref=\"C01246\"><he>גַּרְגִּילָא</he></cite>). ",
+				"<cite ref=\"Avodah Zarah 10b:2\">Ab. Zar. 10ᵇ</cite>, v. <cite ref=\"C00475\"><he>גּוּר</he> II</cite>.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>berry, grain</i>, v. <cite ref=\"C01258\"><he>גַּרְגְּרָא</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

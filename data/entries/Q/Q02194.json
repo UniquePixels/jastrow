@@ -1,0 +1,29 @@
+{
+	"id": "Q02194",
+	"slug": "פתפת",
+	"headword": {
+		"text": "פִּתְפֵּת"
+	},
+	"page": {
+		"number": 1255,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (reduplic. of <cite ref=\"Q02213\"><he>פָּתַת</he></cite>) <i>to break, smash</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְפַּתְפֵּת"],
+			"senses": [
+				{
+					"gloss": "<i>to be broken, crumbled</i>. Y. Kil. VII, beg. 30ᵈ <he>הדין רכיכה מִתְפּתְפֵּת הוא</he> the soft rock crumbles (and the seeds above suck from the vine under it; R. S. to <cite ref=\"Mishnah Kilayim 7:1\">Kil. VII, 1</cite> <he>מתפתחת</he>).",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

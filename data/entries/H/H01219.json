@@ -1,0 +1,49 @@
+{
+	"id": "H01219",
+	"slug": "חמר-2",
+	"headword": {
+		"text": "חֲמַר"
+	},
+	"page": {
+		"number": 479,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01218\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַמַּר"],
+			"senses": [],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחְמִיר"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"H01218\">preced.</cite> <i>Hif.</i>—Y. Shek. VII, 50ᶜ bot. [read:] <he>חמתון מקילין לון וחַ׳ וכ׳</he> he saw them to be lax in their practices, and he enjoined strictness on them. ",
+					"units": [
+						"<cite ref=\"Yevamot 88a:10\">Yeb. 88ᵃ</cite> <he>לא לִיחַמֵּיר וכ׳</he> let one not put her under heavy restrictions (in the end), and not make it too easy for her (in the beginning, v. <cite ref=\"H01218\">preced.</cite>). ",
+						"<cite ref=\"Niddah 66a:60\">Nidd. 66ᵃ</cite> <he>היכא דאַחְמוּר וכ׳</he> in those cases in which they have placed themselves under greater restrictions (than the law requires, v. <cite ref=\"H01218\">preced.</cite>), they have done so (and follow the usage like a law), but where they have not &c. (you cannot extend the adopted usage by analogy); a. fr.—<i>Part. pass.</i> <cite ref=\"M00902\"><he>מַחְמַר</he></cite>, <cite ref=\"M00902\"><he>מְחַמַּר</he></cite> <i>piled up, ruins;</i> v. <cite ref=\"M00902\"><he>מַחְמר</he></cite> a. <cite ref=\"D00890\"><he>דִּמְחַמְרָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְחַמַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be piled up, to form a pile of ruins</i> (cmp. <cite ref=\"C00848\"><he>גַּל</he></cite>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 17:9\">Targ. Is. XVII, 9</cite>; <cite ref=\"Targum Jonathan on Isaiah 30:13\">XXX, 13</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

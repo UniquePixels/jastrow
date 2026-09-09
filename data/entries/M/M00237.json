@@ -1,0 +1,32 @@
+{
+	"id": "M00237",
+	"slug": "מדבח",
+	"headword": {
+		"text": "מַדְבַּח"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַדְבְּחָא"
+		}
+	],
+	"page": {
+		"number": 731,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<cite ref=\"D00054\"><he>דְּבַח</he></cite>) = h. <cite ref=\"M00708\"><he>מִזְבֵּחַ</he></cite>, <i>altar</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 22:10\">Targ. Josh. XXII, 10</cite>. ",
+				"<cite ref=\"Onkelos Genesis 12:8\">Targ. Gen. XII, 8</cite>; a. fr.—",
+				"<cite ref=\"Zevachim 54a:4\">Zeb. 54ᵃ</cite> <he>רב מתרגם באחסנתיה יתבני מ׳</he> Rab translated (<he>ובן כתפיו שכן</he>, <cite ref=\"Deuteronomy 33:12\">Deut. XXXIII, 12</cite>) on his possession shall the altar be built; a. e.—Pl. <he>מַדְבְּחִין</he>, <cite ref=\"M00963\"><he>מַדְבָּחַיָּיא</he></cite>; fem. <he>מַדְבְּחָתָא</he>. ",
+				"<cite ref=\"Onkelos Numbers 23:1\">Targ. O. Num. XXIII, 1</cite>; <cite ref=\"Onkelos Numbers 23:4\">4</cite>; a. e.—",
+				"<cite ref=\"Aramaic Targum to Psalms 84:4\">Targ. Ps. LXXXIV, 4</cite>.—<he>משקי בי</he> (<he>בית</he>) <he>מדבחייא</he> liquids used on the altar (wine, oil), contrad. to <he>משקי בי מטבחייא</he> liquids of the slaughtering place (blood, water). ",
+				"<cite ref=\"Pesachim 17a:10\">Pes. 17ᵃ</cite> (ref. to <cite ref=\"Mishnah Eduyot 8:4\">Eduy. VIII, 4</cite>); <cite ref=\"Tosefta Keilim Metsia 5:7\">Tosef. Kel. B. Mets. V, 7</cite> (ed. Zuck. <he>מט׳</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "N00841",
+	"slug": "נכסים",
+	"headword": {
+		"text": "נְכָסִים"
+	},
+	"page": {
+		"number": 911,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h.; <cite ref=\"K00949\"><he>כָּסַס</he></cite> or <cite ref=\"N00836\"><he>נָכַס</he></cite>) [<i>counted things</i>,] <i>account; property, business</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 46a:6\">Ber. 46ᵃ</cite> <he>ויצלח מאד בכל נְכָסָיו ויהיו נכסיו ונְכָסֵינוּ וכ׳</he> may he have great success in all his accounts (enterprises), and may his business and ours be successful and near a city. ",
+				"<cite ref=\"Avodah Zarah 19b\">Ab. Zar. 19ᵇ</cite>, v. <cite ref=\"R00500\"><he>צָלַח</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Batra 9:7\">B. Bath. IX, 7</cite>, a. fr. <he>נ׳ שיש להן אחריות</he>, v. <cite ref=\"A01052\"><he>אַחֲרָיוּת</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Batra 9:7\">Ib.</cite> <he>המחלק נכסיו וכ׳</he> if a person disposes of his belongings by word of mouth. ",
+				"<cite ref=\"Mishnah Yevamot 4:3\">Yeb. IV, 3</cite> <he>נ׳ הנכנסים וכ׳</he> property which the wife brings in and takes out again (v. <cite ref=\"M01495\"><he>מְלוֹג</he></cite>). ",
+				"<cite ref=\"Mishnah Bava Kamma 1:2\">B. Kam. I, 2</cite> <he>נ׳ של בני ברית</he> Jewish property; <he>נ׳ המיוחדין</he> individual property; a. v. fr."
+			]
+		}
+	]
+}

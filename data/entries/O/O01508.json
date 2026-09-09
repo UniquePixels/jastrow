@@ -1,0 +1,23 @@
+{
+	"id": "O01508",
+	"slug": "סר-2",
+	"headword": {
+		"text": "סָר"
+	},
+	"page": {
+		"number": 1021,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"O01507\"><he>סַר</he></cite>, sub <cite ref=\"T00615\"><he>רוּחַ</he></cite>; <cite ref=\"O00409\"><he>סוּר</he></cite>)<i>one whom courage has left, low-spirited</i> (v. ",
+			"units": [
+				"<cite ref=\"I Kings 21:5\">I Kings XXI, 5</cite>). ",
+				"<cite ref=\"Shemot Rabbah 2:6\">Ex. R. s. 2</cite> (ref. to <cite ref=\"O01508\"><he>סָר</he></cite>, <cite ref=\"Exodus 3:4\">Ex. III, 4</cite>) <he>סד וזעף הוא זה וכ׳</he> low-spirited and indignant is this man, seeing the trouble &c."
+			]
+		}
+	]
+}

@@ -1,0 +1,106 @@
+{
+	"id": "Q02098",
+	"slug": "פשר-1",
+	"headword": {
+		"text": "פָּשַׁר"
+	},
+	"page": {
+		"number": 1248,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to divide, to spread</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to melt, dissolve</i>. Mekh. B’shall., Vayassʿa, s. 4 (expl. <he>ונמס</he>, <cite ref=\"Exodus 16:21\">Ex. XVI, 21</cite>, cmp. <cite ref=\"Q02096\"><he>פִּשְׁפָּשׁ</he> III</cite>) <he>כיון … היה פוֹשֵׁר והולך וכ׳</he> when the sun shone upon it (the manna), it melted and formed rivulets which ran &c.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be stale, tepid</i>. Tanḥ. Vayesheb 4 <he>כוס פשור</he> (prob. to be read <cite ref=\"Q00405\"><he>פּוֹשֵׁר</he></cite>) a cup of wine mixed with stale water. Sifra M’tsorʿa, ch. I <he>מים פושרים</he> stale water (from pools), opp. <he>מים חיים</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Parah 8:9\">Par. VIII, 9</cite> (<cite ref=\"M01199\"><he>מים</he></cite>) <he>המלוחים והפּוֹשְׁרִים</he> salty water and pool water.—In gen. <he>פּוֹשְׁרִים</he>, <he>פּוֹשְׁרִין</he> (sub. <cite ref=\"M01199\"><he>מים</he></cite>) <i>tepid liquids</i>. Y. Sabb. XX, 17ᶜ bot., opp. <cite ref=\"R00208\"><he>צונין</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 86\">Gen. R. s. 86</cite> when his master said to him <he>מזוג פ׳ והיו פ׳</he> mix the wine with tepid water, it was tepid, opp. <he>רותחין</he>. ",
+				"<cite ref=\"Berakhot 16b\">Ber. 16ᵇ</cite>; Y. ib. II, 5ᵇ bot.; v. <cite ref=\"K00204\"><he>כָּוָה</he></cite>. Y. Nidd. II, beg. 50ᶜ; a. fr.—[<cite ref=\"Jerusalem Talmud Ketubot 10:6:2\">Y. Keth. X, end, 34ᵃ</cite>, v. <i>Pi.</i>—",
+				"<cite ref=\"Yalkut Shimoni on Torah 38:5\">Yalk. Gen. 38</cite> <he>ופשרתי</he>, v. <i>Nithpa</i>"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִפְשִׁיר"],
+			"senses": [
+				{
+					"gloss": "<i>to make tepid; to temper, cool</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 40b:3\">Sabb. 40ᵇ</cite> <he>מפני שמַפְשִׁיר מים שעליו</he> because (by standing against the fire after a cold bath) he tempers (warms) the water on his body. ",
+						"<cite ref=\"Mishnah Shabbat 3:5\">Ib. III, 5</cite> (<cite ref=\"Shabbat 41a\">41ᵃ</cite>, sq.) <he>כדי להַפְשִׁירָן</he> enough to temper the cold water, opp. <he>בשביל שיחמו</he> to get hot. Y. ib. III, 6ᵇ top <he>מותר להַפְשִׁיר במקום שהיד שולטת</he> you may temper (cold water, on the Sabbath) by contact with a temperature which the hand can endure. ",
+						"<cite ref=\"Vayikra Rabbah 26:8\">Lev. R. s. 26</cite> (ref. to <cite ref=\"Ezekiel 10:7\">Ez. X, 7</cite>) <he>הִפְשִׁירָן ונתנן וכ׳</he> he lowered the temperature of the coals and handed them to him; <cite ref=\"Yalkut Shimoni on Nach 220\">Yalk. Kings 220</cite>; Tanḥ. Emor 3; Midr. Sam. ch. XXIV (<cite ref=\"Yoma 77a:3\">Yoma 77ᵃ</cite> <he>נצטננו</he>). ",
+						"<cite ref=\"Pesikta Rabbati 12:1\">Pesik. R. s. 12</cite> (ref. to <he>קָרְךָ</he>, <cite ref=\"Deuteronomy 25:18\">Deut. XXV, 18</cite>) <he>אשר קֵירְךָ הִפְשִׁירְךָ וכ׳</he> ‘who cooled thee’, he (Amalek) made thee lukewarm, he made thee cold like water (so that others were encouraged to attack thee); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (v. <cite ref=\"Q02103\"><he>פְּשָׁרָה</he></cite>) <i>to compromise</i>. Y. Sot. V, 20ᶜ bot. <he>אברהם עשה … וה׳ עמו וכרות עמו וכ׳</he> Abraham changed the evil inclination within him into good …, he compromised with it, (as we read, <cite ref=\"Nehemiah 9:8\">Neh. IX, 8</cite>,) and he made a covenant with it (his heart); Y. Ber. IX, 14ᵇ bot. <he>והפסיד אלא</he> (corr. acc.).—Tosef. Erub. XI (VIII), 11, v. infra.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִפְשַׁר"],
+			"senses": [
+				{
+					"gloss": "<i>to be dissolved; to be tempered</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 28b\">B. Kam. 28ᵇ</cite> <he>אפי׳ נִפְשָׁרָה</he> even if the vessel fell apart (and its contents made the ground slippery). ",
+						"<cite ref=\"Shabbat 40b:4\">Sabb. 40ᵇ</cite> <he>לא בשביל שיבשל … שיִפָּשֵׁר</he> not that it (the oil) be heated to boiling, but only that it be tempered (or be made more liquid)."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["פִּישֵּׁר"],
+			"senses": [
+				{
+					"gloss": "<i>to separate, tear loose, disengage</i>. Tanḥ. Ki Thissa 1 <he>את מְפַשֵּׁר אותה וכ׳</he> thou disengagest it (the thorn sticking to thy garments) here, and it sticks there; <cite ref=\"Pesikta Rabbati 10:1\">Pesik. R. s. 10</cite> beg. <he>והוא מפשר אותה וכ׳</he> (not <he>אותם</he>). Y. Sabb. VII, 10ᵃ bot. <he>מְפַשְּׁרָן וכ׳</he> he may pick them (the thorns) out, … provided he does not tear the garment; Tosef. Erub. XI (VIII), 11 <he>מפשר בידו</he> Var. (ed. Zuck. <he>מפשיר</he>). ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 13:1\">Pesik. R. s. 13</cite> <he>עמד ופִשְּׁרוֹ הימנו</he> he stood up and tore it (the dog) away from him. ",
+						"<cite ref=\"Pesikta Rabbati 13:1\">Ib.</cite> <he>זכור היאך פִּישַּׁרְתִּי הימך וכ׳</he> remember how I tore the dog away from thee; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to temper</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 12</cite> <he>יום אחד היה חרון … פִּשְּׁרוֹ</he> the glowing wrath of the Lord lasted one day; if Israel had repented, he would have cooled it off."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to compromise, arbitrate</i>. Y. B. Mets. VI, 11ᵃ top <he>באותו שיכול לפַשֵּׁר</he> in a case of seizure for service (<cite ref=\"A02108\"><he>אנגריא</he></cite>), when he might have compromised (pay a certain amount and release the seized animal). Y. Snh. I, 18ᵇ bot. <he>שנים שפִּישְּׁרוּ וכ׳</he> when two judges have arbitrated, the parties cannot retract. Y. Keth. X, end, 34ᵃ [read:] <he>פי׳ מן השני חזקה וכ׳</he> if he compromised with the second creditor, it is taken for granted that the first creditor has a right to seize the debtor’s property (without regard to the claims of the second); <he>פי׳ מן הראשון … פי׳</he> if he compromised with the first creditor …, he has compromised (the compromise is binding, and the second creditor cannot seize that portion of the property which the first would have had a right to claim, v. Asheri to <cite ref=\"Ketubot 91b\">Keth. 91ᵇ</cite>).",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִתְפַּשֵּׁר"],
+			"senses": [
+				{
+					"gloss": "<i>to be disentangled</i>; trnsf. <i>to be acquitted, pardoned</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 22:13\">Gen. R. s. 22</cite> <he>עשיתי תשובה ונִתְפַּשַּׁרְתִּי</he> I repented and was pardoned; <cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite>; <cite ref=\"Midrash Tehillim 100\">Midr. Till. to Ps. C</cite>; <cite ref=\"Yalkut Shimoni on Torah 38:5\">Yalk. Gen. 38</cite> <he>ופשרתי</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

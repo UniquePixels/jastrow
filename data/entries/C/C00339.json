@@ -1,0 +1,45 @@
+{
+	"id": "C00339",
+	"slug": "גוז-2",
+	"headword": {
+		"text": "גּוּז",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 220,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00338\">same</cite><i>to cut, cut off</i>.—Part. <cite ref=\"C00018\"><he>גָּאִיז</he></cite>, <he>גָּיֵיז</he>. ",
+			"units": [
+				"<cite ref=\"Gittin 67b:6\">Gitt. 67ᵇ</cite> <he>זימנין דג׳ ליה לדיבוריה</he> sometimes one cuts his speech short (does not finish his sentence).—",
+				"<cite ref=\"Nedarim 68a:3\">Ned. 68ᵃ</cite> <he>בעל מֵיגַז גָּיֵיז</he> does the husband (betrothed) cut the vow apart, i.e. annul half the vow of his betrothed, leaving it to her father to annul the other half?, opp. <he>מיקלש קליש</he> he weakens the stringency of the entire vow."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cross, pass</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 51:10\">Targ. Is. LI, 10</cite>.—",
+				"<cite ref=\"Kohelet Rabbah 7:8:1\">Koh. R. to VII, 8</cite> <he>גייז וכ׳</he> passed the street riding on horse-back (<cite ref=\"Yalkut Shimoni on Nach 974\">Yalk. ib. 974</cite> <cite ref=\"P00061\"><he>עבר</he></cite>). ",
+				"<cite ref=\"Vayikra Rabbah 37\">Lev. R. s. 37</cite> [read:] <he>מן דגייזין בחד נהר</he> when they were crossing a river."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָגֵיז"],
+			"senses": [
+				{
+					"gloss": "<i>to carry across</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 10\">Gen. R. s. 10</cite> <he>מְגִיזָה יתיה וכ׳</he> carried it across the river; <cite ref=\"Kohelet Rabbah 5:8\">Koh. R. to V, 8</cite>; <cite ref=\"Yalkut Shimoni on Nach 972:1\">Yalk. ib. 972</cite> <cite ref=\"M00154\"><he>מְגִיזָא</he></cite>; <cite ref=\"Vayikra Rabbah 22:4\">Lev. R. s. 22</cite> <he>ומגזתיה</he> (corr. <he>ומְגִיזְתֵּיה</he>). Koh. R. l. c. <he>אֲגִיזְתֵּיה</he> she carried it over; Lev. R. l. c. <he>אגיזתא</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

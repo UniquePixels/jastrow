@@ -1,0 +1,34 @@
+{
+	"id": "O00306",
+	"slug": "סוכלתן",
+	"headword": {
+		"text": "סוּכְלְתָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוּכְלְתָנָא"
+		},
+		{
+			"text": "שׂ׳"
+		}
+	],
+	"page": {
+		"number": 964,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סְכַל</he> I) <i>intelligent; intelligent person</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 1:5\">Targ. Prov. I, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 10:5\">Ib. X, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 10:19\">Ib. 19</cite> <cite ref=\"O00299\"><he>שׂ׳</he></cite>; a. fr.—Pl. <he>סוּכְלְתָנִין</he>. ",
+				"<cite ref=\"Onkelos Deuteronomy 1:13\">Targ. Deut. I, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 29:14\">Targ. Is. XXIX, 14</cite>; a. fr.—[<cite ref=\"Aramaic Targum to Proverbs 21:11\">Targ. Prov. XXI, 11</cite>, v. next w.]"
+			]
+		}
+	]
+}

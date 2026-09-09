@@ -1,0 +1,23 @@
+{
+	"id": "M00243",
+	"slug": "מדברא-2",
+	"headword": {
+		"text": "מְדַבְּרָא"
+	},
+	"page": {
+		"number": 731,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00076\"><he>דְּבַר</he></cite>) <i>leader</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 11:14\">Targ. Prov. XI, 14</cite> (Levita <cite ref=\"M00247\"><he>מְרַבְּרָנָא</he></cite>; h. text <he>תחבלות</he>, cmp. <cite ref=\"M00248\"><he>מְדַבְּרָנוּתָא</he></cite>).—Targ. II Esth. IV, 1 Var. ed. Lag. (ed. <cite ref=\"M00247\"><he>מדברנא</he></cite>).—Pl. constr. <cite ref=\"M00245\"><he>מְדַבְּרֵי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:8\">Targ. Cant. I, 8</cite>."
+			]
+		}
+	]
+}

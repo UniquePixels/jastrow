@@ -1,0 +1,26 @@
+{
+	"id": "M02502",
+	"slug": "מרבית",
+	"headword": {
+		"text": "מַרְבִּית"
+	},
+	"page": {
+		"number": 835,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"T00058\"><he>רָבָה</he></cite>)<i>increase, profit</i>. ",
+			"units": ["<cite ref=\"Bava Metzia 61a\">B. Mets. 61ᵃ</cite>"],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>young tree</i>.—Pl. <cite ref=\"M02499\"><he>מַרְבִּיּוֹת</he></cite>, v. <cite ref=\"M00613\"><he>מוּרְבִּית</he> I</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

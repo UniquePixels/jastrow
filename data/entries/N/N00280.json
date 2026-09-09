@@ -1,0 +1,94 @@
+{
+	"id": "N00280",
+	"slug": "נהר-2",
+	"headword": {
+		"text": "נְהַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 882,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00279\">same</cite>, <i>to shine</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 44:3\">Targ. O. Gen. XLIV, 3</cite> (Y. <cite ref=\"N00267\"><he>נְהִיר</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 18:5\">Targ. Job XVIII, 5</cite>; a. fr.—",
+				"<cite ref=\"Taanit 10a:6\">Taan. 10ᵃ</cite> <he>נְהוּר ענני וכ׳</he> when the clouds are bright, their waters are little. Pesik. Ekha, p. 123ᵃ <he>יִנְהוֹר דינא וכ׳</he> let justice shine before thee like this lamp; <cite ref=\"Yalkut Shimoni on Nach 258\">Yalk. Is. 258</cite> <he>יִנְהַר דיני וכ׳</he> let my case shine &c.; <cite ref=\"Shabbat 116b:2\">Sabb. 116ᵇ</cite> <he>נְהוֹר נהורך וכ׳</he> let thy light (wisdom) shine (prob. to be read: <he>ינהור</he>); a. fr.—<i>Part. pass.</i> <cite ref=\"N00267\"><he>נְהִיר</he></cite>; f. <cite ref=\"N00268\"><he>נְהִירָא</he></cite>; pl. <he>נְהִירִין</he>; <cite ref=\"N00268\"><he>נְהִירָן</he></cite> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>bright, clear</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite> <he>אולפני מה נ׳ באפי</he> how my learning shines on my face (makes me look well); <cite ref=\"Yalkut Shimoni on Nach 964:15\">Yalk. Prov. 964</cite> <he>נרי באפוי</he> (corr. acc.). ",
+						"<cite ref=\"Jerusalem Talmud Shabbat 8:1:7\">Y. Sabb. VIII, beg. 11ᵃ</cite> (<he>נהירן</he>) <he>אפוי נהירין</he> his looks were bright.—",
+						"<cite ref=\"Berakhot 58b:11\">Ber. 58ᵇ</cite> <he>נ׳ לי שבילי וכ׳</he> the paths of the heavens (the courses of the heavenly bodies) are as clear (well-known) to me as the streets &c.; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>knowing clearly, remembering</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Taanit 1:2:4\">Y. Taan. I, 64ᵃ</cite> bot. <he>נ׳ את כד הוינן וכ׳</he> dost thou remember when we were standing &c.?; <cite ref=\"Jerusalem Talmud Megillah 3:7:3\">Y. Meg. III, 74ᵇ</cite> bot. ",
+						"<cite ref=\"Jerusalem Talmud Ketubot 5:5:3\">Y. Keth. V, 30ᵃ</cite> top <he>נ׳ דהויתון וכ׳</he> (insert <cite ref=\"G00078\"><he>את</he></cite>) dost thou remember that thou &c.? <cite ref=\"Jerusalem Talmud Orlah 2:9:3\">Y. Orl. II, 62ᶜ</cite> top [read:] <he>נ׳ את דאמריתון את וכ׳</he> dost thou remember that you, thyself and R. J., said &c. ",
+						"<cite ref=\"Jerusalem Talmud Nazir 5:3:3\">Y. Naz. V, end, 54ᵇ</cite> <he>נ׳ הוינין וכ׳</he> we remember that an old man was here &c.; Y. Ber. VIII, 11ᵇ bot. <he>נ׳ אנן</he>; <cite ref=\"Bereishit Rabbah 91:3\">Gen. R. s. 91</cite> <he>נהרין אנן</he> (corr. acc.); <cite ref=\"Kohelet Rabbah 7:11\">Koh. R. to VII, 11</cite>. ",
+						"<cite ref=\"Chullin 54a:5\">Ḥull. 54ᵃ</cite> <he>ולא נְהִירַת ליה וכ׳</he> dost thou not remember (recognize) that student &c.? <cite ref=\"Chullin 93a:3\">Ib. 93ᵃ</cite> <he>נְהִירְנָא</he> I remember. ",
+						"<cite ref=\"Bava Batra 91b\">B. Bath. 91ᵇ</cite>; a. fr.—[<cite ref=\"Rosh Hashanah 34b:9\">R. Hash. 34ᵇ</cite> <he>כי נהירנא לך</he>, v. <cite ref=\"N00516\"><he>נְחַר</he></cite>]."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַנְהַר"],
+			"senses": [
+				{
+					"gloss": ", <i>Pa.</i> <cite ref=\"N00280\"><he>נַהֵר</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to give light, shine; to illumine, brighten, make shine</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 1:15\">Targ. O. Gen. I, 15</cite> (Y. <he>למְנַהֲרָא</he>). ",
+						"<cite ref=\"Onkelos Numbers 6:25\">Targ. Num. VI, 25</cite>; a. fr.—Y. Yoma III, beg. 40ᵇ <he>א׳ מְנַהֲרָא</he>, v. <cite ref=\"B01314\"><he>בְּרַק</he> I</cite>; Y. R. Hash. II, beg. 57ᵈ. Y. Taan. III, 66ᵈ bot. <he>שמענן … והיא מְנַהֲרָה</he> we hear that when he entered the Temple court, it used to shine; <he>עאל ואַנְהָרַת</he> he entered, and it shone. ",
+						"<cite ref=\"Shir HaShirim Rabbah 5:11:1\">Cant. R. to V, 11</cite> <he>הוה מנהרא לי וכ׳</he> it (the Law) brightened my countenance by night. ",
+						"<cite ref=\"Sotah 6a:10\">Sot. 6ᵃ</cite> <he>וא׳ לן עיינין וכ׳</he> and he enlightened our eyes (by evidence) from our Mishnah; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to recall to memory, remember</i>. Y. Peah III, 17ᵈ bot. <he>וא׳ ר׳ אימי וכ׳</he> whereupon R. I. recalled (that he had heard the same tradition), and rescinded his decision. Y. Kidd. I, 61ᵃ bot. <he>א׳ ונפיק וכ׳</he> it struck him (that he had forgotten to hear his grandson’s lesson), and he left the bath house &c.; a. e.—Part. pass. <he>מְנַהַר</he>; pl. <he>מְנַהֲרִין</he>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 33:2\">Gen. R. s. 33</cite> <he>אתון … מְנַהֲרִין אנא מְנַהַר ליה</he> you do not remember that poor man, I will remember him."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְנְהַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be brightened, enlightened</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 3:7\">Targ. Y. Gen. III, 7</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 34:6\">Targ. Ps. XXXIV, 6</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to come forth</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 4:1:3\">Cant. R. to IV, 1</cite> <he>טורא דאִתְנַהַרְתּוּן וכ׳</he>, v. <cite ref=\"C00984\"><he>גָּלַשׁ</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,65 @@
+{
+	"id": "S01805",
+	"slug": "קצי-1",
+	"headword": {
+		"text": "קצי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָצָה"
+		}
+	],
+	"page": {
+		"number": 1405,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to scrape</i>. Sifra M’tsorʿa, <cite ref=\"Mishnah Negaim 4\">Neg., ch. IV</cite>, Par. 7 <he>חולץ וקוֹצֶה וטח</he> he must tear out (the leprous stone) and scrape (the wall) and plaster, v. <cite ref=\"S01828\"><he>קָצַע</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (of figs) <i>to cut, dry, and store; to harvest</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 2:7\">Maasr. II, 7</cite> <he>השוכר … לִקְצוֹת עמו וכ׳</he> if a man hires a laborer to help him in the fig harvest. ",
+				"<cite ref=\"Mishnah Maasrot 3:1\">Ib. III, 1</cite> <he>המעביר … לקצות</he> if a person brings figs over to his court to prepare them for storage. Y. ib. II, 50ᵃ bot. <he>להיות … וקוֹצִין אחת</he> that they eat nine portions and store one; a. fr.—V. <cite ref=\"M00596\"><he>מוּקְצֶה</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to separate, set aside</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 10:7\">Nidd. X, 7</cite> (<cite ref=\"Niddah 71b:22\">71ᵇ</cite>) <he>קוֹצָה לה חלה</he> she may separate the priest’s share of the dough; <cite ref=\"Jerusalem Talmud Berakhot 8:2:13\">Y. Ber. VIII, 12ᵃ</cite>; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to carry off, reduce, level</i> a hill. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 5:11\">Cant. R. to V, 11</cite> the fool says, <he>מי יכול לקצות את זה</he> who can level this (mound)?; <he>הריני קוֹצֶה וכ׳</he> I will carry off two loads to-day …, until I have levelled the entire mound; <cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite> <he>לקצות … קוצץ</he>; (<cite ref=\"Yalkut Shimoni on Nach 989:3\">Yalk. Cant. 989</cite> <he>לפנות … קודח</he>)."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוּקְצָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut off, separated</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Bava Batra 3:5\">Tosef. B. Bath. III, 5</cite> <he>החורשין המוּקְצִין בפני עצמן</he> the forests (near a township) which are isolated (a plantation detached from the town); <cite ref=\"Bava Batra 68b:3\">B. Bath. 68ᵇ</cite> <he>המוקצין לה</he> which are separate but opening into it; corrected <he>המוקצין ממנה</he> separated from it; Y. ib. IV, 14ᶜ bot. <he>החורשים המוקצין ממנה</he> (not <he>הטרשים</he>; corr. quot. s. v. <cite ref=\"I00908\"><he>טֶרֶשׁ</he></cite>).—Esp. <i>to be set aside, be designated for a special purpose and forbidden for any other use</i> (v. <cite ref=\"M00596\"><he>מוּקְצֶה</he></cite>). ",
+						"<cite ref=\"Shabbat 45a:3\">Sabb. 45ᵃ</cite> <he>הואיל וה׳ למצותו ה׳ לאיסורו</he> as the oil was set aside for its religious purpose (for the Sabbath light), it was at the same time set aside as an object prohibited to be used otherwise (during the Sabbath day). ",
+						"<cite ref=\"Shabbat 45a:3\">Ib.</cite> <he>ולית ליה ה׳ למצותו</he> and does he (R. Simon) not adopt the opinion that an object set aside for a religious act is forbidden for any other use (for the time being)?; a. e.—Part. <cite ref=\"M00596\"><he>מוּקְצֶה</he></cite> q. v."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

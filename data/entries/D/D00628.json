@@ -1,0 +1,27 @@
+{
+	"id": "D00628",
+	"slug": "דימורון",
+	"headword": {
+		"text": "דִּימוֹרוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּיָימוֹרוֹן"
+		}
+	],
+	"page": {
+		"number": 300,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (diamoron) <i>a medicament composed of the juice of black mulberries and honey</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 7:1:5\">Y. Shebi. VII, beg. 37ᵇ</cite> Mus. (ed. <he>דיומדין</he>, corr. acc.)."
+			]
+		}
+	]
+}

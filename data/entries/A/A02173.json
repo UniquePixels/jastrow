@@ -1,0 +1,33 @@
+{
+	"id": "A02173",
+	"slug": "אנטיגנוס",
+	"headword": {
+		"text": "אַנְטִיגְנוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַנְטִיגְנָס"
+		}
+	],
+	"page": {
+		"number": 83,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (Ἀντίγονος) <i>Antigonus</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " A. of Sokho, disciple of Simon the Just. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 1:3\">Aboth I, 3</cite>.—2) <cite ref=\"Beitzah 34a:2\">Bets. 34ᵃ</cite>, a. fr. R. Elazar son of A.—",
+				"<cite ref=\"Temurah 21a:28\">Tem. 21ᵃ</cite> ed. (Ar. <cite ref=\"A01078\"><he>אטיטס</he></cite>). [Y. Snh. I, 19ᵈ, v. <cite ref=\"A00319\"><he>אגניטוס</he></cite>.]"
+			],
+			"label": "1"
+		}
+	]
+}

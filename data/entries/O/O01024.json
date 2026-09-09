@@ -1,0 +1,23 @@
+{
+	"id": "O01024",
+	"slug": "סלפיתא",
+	"headword": {
+		"text": "סַלְפִּיתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 996,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>salpitha</i>, name of a species of fish. Y. Ab. Zar. II, end, 42ᵃ <he>אחוי ליה הדא ס׳</he> he showed him the eggs of a <i>salpitha</i>; [Var. <he>קַלְפִּיתָא</he>, <he>קְלִיפְתָּא</he>, v. Tosaf. to Bab. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 40a\">Ab. Zar. 40ᵃ</cite>; Asheri to <cite ref=\"Avodah Zarah 2a\">Ab. Zar. I</cite>I, end <cite ref=\"O00969\"><he>סְלוּפְתָּא</he></cite>]."
+			]
+		}
+	]
+}

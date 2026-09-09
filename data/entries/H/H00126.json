@@ -1,0 +1,34 @@
+{
+	"id": "H00126",
+	"slug": "חבש-2",
+	"headword": {
+		"text": "חֲבַשׁ"
+	},
+	"page": {
+		"number": 423,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00125\">same</cite>, <i>to imprison</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Batra 5:5:2\">Y. B. Bath. V, end, 15ᵇ</cite> <he>חַבְשִׁין ליה</he> ought to be put in prison.—<i>Part. pass.</i> <he>חֲבִישׁ</he> <i>closely packed</i>. ",
+				"<cite ref=\"Chullin 52a\">Ḥull. 52ᵃ</cite> <he>כל דח׳ חיישינן</he> Ar. (Var. <he>חביט</he>, ed. <he>דלא משריק יש בו וכ׳</he>) whatever is closely packed (e.g. wheat) is liable to cause injury to an animal falling upon it."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְחַבֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be imprisoned</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 30:6\">Lev. R. s. 30</cite> <he>אתח׳ בפילקי</he> he was put in prison; Pesik. Ul’kaḥ., p. 182ᵃ <he>אִיחַבַּשׁ</he> Ar. (ed. <he>אתייהב</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

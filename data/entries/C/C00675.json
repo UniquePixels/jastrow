@@ -1,0 +1,40 @@
+{
+	"id": "C00675",
+	"slug": "גיותנותא",
+	"headword": {
+		"text": "גֵּיוְתָנוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גֵּיפְ׳"
+		}
+	],
+	"page": {
+		"number": 236,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C00674\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>exaltedness, glory</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 46:4\">Targ. Ps. XLVI, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 15:7\">Targ. Y. Ex. XV, 7</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pride, haughtiness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 31:19\">Targ. Ps. XXXI, 19</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

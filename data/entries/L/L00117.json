@@ -1,0 +1,29 @@
+{
+	"id": "L00117",
+	"slug": "לברניא",
+	"headword": {
+		"text": "לְבָרְנַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "לַבְרָ׳"
+		}
+	],
+	"page": {
+		"number": 691,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"B00376\"><he>בּוּרְנִי</he> I</cite>) <i>Liburnian ships</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 24:24\">Targ. Y. II, Num. XXIV, 24</cite> <he>בל׳ מן וכ׳</he> (ed. Amst. <he>בלִבְדָנְיָא</he>, corr. acc.) on Liburnian ships from Rome; (Y. I <he>מן למברניא ומארע איטליא</he> from Liburnia and the land of Italy). ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 28:68\">Targ. Y. II, Deut. XXVIII, 68</cite> (Y. I <he>אילפייא</he>); v. <cite ref=\"L00423\"><he>לִיבָרְנִין</he></cite>."
+			]
+		}
+	]
+}

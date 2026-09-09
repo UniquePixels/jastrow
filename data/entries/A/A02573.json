@@ -1,0 +1,21 @@
+{
+	"id": "A02573",
+	"slug": "אסתוניא",
+	"headword": {
+		"text": "אִסְתּוּנְיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 99,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Istunia</i>, a place near Pumb’ditha, perh. identic with <cite ref=\"F00068\"><he>ווסתניא</he></cite> q. v. ",
+			"units": ["<cite ref=\"Ketubot 111a:13\">Keth. 111ᵃ</cite>"]
+		}
+	]
+}

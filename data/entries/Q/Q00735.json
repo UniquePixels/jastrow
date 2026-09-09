@@ -1,0 +1,27 @@
+{
+	"id": "Q00735",
+	"slug": "פינקאי",
+	"headword": {
+		"text": "פִּינְקַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּנְ׳"
+		}
+	],
+	"page": {
+		"number": 1165,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Pinkay</i>. ",
+			"units": [
+				"<cite ref=\"Keritot 28a:81\">Ker. 28ᵃ</cite>; <cite ref=\"Pesachim 57a:10\">Pes. 57ᵃ</cite> <he>פנ׳</he> (Ms. M. 2 <cite ref=\"Q01177\"><he>פינ׳</he></cite>; Ms. O. <cite ref=\"Q00734\"><he>פִּינְקַי</he></cite>, v. Rabb. D. S. a. l. note 3)."
+			]
+		}
+	]
+}

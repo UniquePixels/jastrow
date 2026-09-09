@@ -1,0 +1,31 @@
+{
+	"id": "U01331",
+	"slug": "שליף-3",
+	"headword": {
+		"text": "שְׁלִיף",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁלִיפָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1584,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01371\"><he>שְׁלַף</he></cite>) <i>pulled off</i>, esp. <i>castrate</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 22:24\">Targ. O. Lev. XXII, 24</cite> (h. text <he>נתוק</he>).—",
+				"<cite ref=\"Shabbat 152a:5\">Sabb. 152ᵃ</cite> <he>ש׳ בתמניא</he>, v. <cite ref=\"A01584\"><he>אִיקָא</he></cite>. ",
+				"<cite ref=\"Shabbat 152a:5\">Ib.</cite> <he>עיקרא ש׳ תוכיחא</he> (<cite ref=\"A01584\"><he>איקא</he></cite>) Ms. M. a castrated buck, and (thou wilt) reprove?"
+			]
+		}
+	]
+}

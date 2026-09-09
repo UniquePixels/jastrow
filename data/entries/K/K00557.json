@@ -1,0 +1,27 @@
+{
+	"id": "K00557",
+	"slug": "כילתא-1",
+	"headword": {
+		"text": "כִּילְתָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 633,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"K00556\">same</cite>, <i>enclosure; bridal canopy, curtained bed</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 15:32\">Targ. Job XV, 32</cite> <he>כִּילְתֵיה</he> Ms. (ed. <he>כַּלְתֵיה</he>, h. text <cite ref=\"K00986\"><he>כִּפָּה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 2:1\">Targ. Y. Ex. II, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 46:21\">Targ. Y. Gen. XLVI, 21</cite> <he>כֵּילַת הילולא</he> (to h. text <he>חֻפִּים</he>, v. <cite ref=\"H00423\"><he>חוּפָּה</he></cite>).—",
+				"<cite ref=\"Sanhedrin 29b:3\">Snh. 29ᵇ</cite> <he>בכִילְתֵיה</he> behind the curtain of his bed-room. ",
+				"<cite ref=\"Sukkah 26a:8\">Succ. 26ᵃ</cite> <he>למיגנא בכ׳ וכ׳</he> to sleep in the Succah under a canopy."
+			]
+		}
+	]
+}

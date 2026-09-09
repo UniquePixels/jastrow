@@ -1,0 +1,28 @@
+{
+	"id": "Q00879",
+	"slug": "פישוט",
+	"headword": {
+		"text": "פִּישּׁוּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּשּׁ׳"
+		}
+	],
+	"page": {
+		"number": 1172,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02063\"><he>פָּשַׁט</he></cite>) <i>spreading, stretching forth</i>. Y. Ab. Zar. IV, end, 44ᵇ <he>בתוך פ׳ ידים</he> within reach of the hands; <he>חוץ לפ׳ ידים</he> beyond reach. ",
+			"units": [
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>כשם שנתנו פ׳ ידים לטהרות וכ׳</he> as proximity within reach of the hands is made a criterion for levitical uncleanness (<cite ref=\"Mishnah Tahorot 7:2\">Toh. VII, 2</cite>), so it is made for wine (suspected of having been touched by an idolater, v. <cite ref=\"N00948\"><he>נֶסֶךְ</he></cite>); a. e.—פ׳ ידים ודגלים <i>prostration accompanied by stretching of hands and feet</i>. ",
+				"<cite ref=\"Berakhot 34b:3\">Ber. 34ᵇ</cite>; <cite ref=\"Megillah 22b:16\">Meg. 22ᵇ</cite>; <cite ref=\"Shevuot 16b:9\">Shebu. 16ᵇ</cite>, v. <cite ref=\"E00941\"><he>הִשְׁתַּחֲוָאָה</he></cite>; a. fr.—[Mekh. B’shall. beg. <he>בפישוטן</he>, read: <he>בפְשׁוּטָה</he>, v. <cite ref=\"Q02054\"><he>פָּשׁוּט</he></cite>.]"
+			]
+		}
+	]
+}

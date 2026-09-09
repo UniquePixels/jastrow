@@ -1,0 +1,23 @@
+{
+	"id": "U00702",
+	"slug": "שחקא-1",
+	"headword": {
+		"text": "שַׁחֲקָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1551,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., pl. <he>שַׁחֲקָן</he> = h. <cite ref=\"U00699\"><he>שַׁחַק</he> I</cite>, <i>old garments</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 38:11\">Targ. Jer. XXXVIII, 11</cite>, sq."
+			]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"id": "A03020",
+	"slug": "אריה-1",
+	"headword": {
+		"text": "אֻרְיָה"
+	},
+	"page": {
+		"number": 116,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"A00880\"><he>אוּרְיָא</he> II</cite>) <i>manger, crib.—</i>Pl. <he>אֻרְווֹת</he>. ",
+			"units": ["<cite ref=\"Sanhedrin 21b:13\">Snh. 21ᵇ</cite>"]
+		}
+	]
+}

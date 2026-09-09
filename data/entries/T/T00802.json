@@ -1,0 +1,39 @@
+{
+	"id": "T00802",
+	"slug": "רמז-2",
+	"headword": {
+		"text": "רְמַז"
+	},
+	"page": {
+		"number": 1482,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T00801\">same</cite> <cite ref=\"Targum Jerusalem, Genesis 44:19\">Targ. Y. II, Gen. XLIV, 19</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 58:9\">Targ. Is. LVIII, 9</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 6:13\">Targ. Prov. VI, 13</cite>; a. fr.—",
+				"<cite ref=\"Ketubot 33a\">Keth. 33ᵃ</cite>, v. infra. Part. pass. <he>רָמִיז</he>; f. <cite ref=\"T00815\"><he>רְמִיזָא</he></cite>. ",
+				"<cite ref=\"Megillah 2a:7\">Meg. 2ᵃ</cite> <he>היכא ר׳</he> where is it intimated (in the Biblical text)?; <cite ref=\"Sanhedrin 81b\">Snh. 81ᵇ</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַמֵּז"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00801\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 15:12\">Targ. Job XV, 12</cite> (Var. ed. Lag. <he>מרזמין</he>; h. text <he>ירזמון</he>, Var. in Cod. <he>ירמזון</he>).—",
+						"<cite ref=\"Ketubot 33a:5\">Keth. 33ᵃ</cite> <he>ונְרַמֵּז בהו רַמּוּזֵי</he> (Rashi <cite ref=\"T00801\"><he>נִירְמַז</he></cite>) and let us (the court) intimate to them (the warning, in such a manner as not to offend them). ",
+						"<cite ref=\"Shabbat 62b:19\">Sabb. 62ᵇ</cite> (expl. <he>ומסקרות וכ׳</he>, <cite ref=\"Isaiah 3:16\">Is. III, 16</cite> <he>ומשׂק׳</he>) <he>דהוו מלאן … ומְרַמְּזָן</he> they filled their eyes with paint and winked; <cite ref=\"Yalkut Shimoni on Nach 262\">Yalk. Is. 262</cite> <he>ורמזין</he> (read: <he>ורָמְזָן</he> <i>Pe.</i>). ",
+						"<cite ref=\"Bava Kamma 24b:3\">B. Kam. 24ᵇ</cite> <he>דקמְרַמְּזֵי רמוזי</he> they give signs to one another; <cite ref=\"Sanhedrin 86b\">Snh. 86ᵇ</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

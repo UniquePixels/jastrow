@@ -1,0 +1,28 @@
+{
+	"id": "U00618",
+	"slug": "שחולית",
+	"headword": {
+		"text": "שְׁחוֹלִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁחוֹלֶת"
+		}
+	],
+	"page": {
+		"number": 1545,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שָׁחַל</he> I, answering to λεπίς, squama aeris) <i>metal shavings, filings</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 11:3\">Kel. XI, 3</cite>. ",
+				"<cite ref=\"Tosefta Chullin 6:11\">Tosef. Ḥull. VI, 11</cite> (corresp. to <he>שחיקת כלי מתכות</he>, <cite ref=\"Chullin 88b\">Ḥull. 88ᵇ</cite>).—[Cmp. <cite ref=\"U00667\"><he>שִׁחְלַיִים</he></cite>.]"
+			]
+		}
+	]
+}

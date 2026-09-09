@@ -1,0 +1,24 @@
+{
+	"id": "M02201",
+	"slug": "מפוקים",
+	"headword": {
+		"text": "מְפוּקִים",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 820,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"Q00797\"><he>פִּיקָא</he> II</cite>) <i>gliding, sinking</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 8:11:1\">Koh. R. to VIII, 11</cite> (in Chald. dict.) <he>הא רומיא עללין … לית להין מ׳</he> (some ed. <he>מפיק׳</he>) those haughty ones (or Romans) go in, … go out, they never slip."
+			]
+		}
+	]
+}

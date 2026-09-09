@@ -1,0 +1,31 @@
+{
+	"id": "A02715",
+	"slug": "אפיקילטא",
+	"headword": {
+		"text": "אַפִּיקִילְטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַפִּיקִילְטִין"
+		},
+		{
+			"text": "פִּיקִילְטִין"
+		}
+	],
+	"page": {
+		"number": 104,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (ἐμποκιλτὰ, ποικιλτὰ, τὰ) <i>embroidered garments</i> (quoted as Aquila’s translation of <cite ref=\"T01045\"><he>רקמה</he></cite> <cite ref=\"Ezekiel 16:10\">Ez. XVI, 10</cite>; LXX ποικίλα). Pesik. B’shall. p. 84ᵇ. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 4:11\">Cant. R. to IV, 11</cite>; <cite ref=\"Shir HaShirim Rabbah 12\">12</cite> <cite ref=\"A01554\"><he>איפליקתא</he></cite>, <cite ref=\"A02739\"><he>אפליקטא</he></cite> (corr. acc.). Lam. R. beg. <he>תרגם אונק׳ אפלקטורין פליקטא</he> (read <cite ref=\"P01176\"><he>עקילס</he></cite>, and corr. acc. by striking out one of the two words as var. lect. that came into the text; cmp. Pesik. l. c. note)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "O01274",
+	"slug": "ססמגור",
+	"headword": {
+		"text": "סַסְמָגוֹר",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1009,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (supposed to be a comp. of <cite ref=\"O01270\"><he>סָס</he></cite> a. <he>מגיר</he>, cmp. <cite ref=\"M00210\"><he>מְגֵרָה</he></cite>) [<i>a sawing worm</i>,] name of a species of <i>cedar</i> subject to decay. ",
+			"units": [
+				"<cite ref=\"Yoma 9b:16\">Yoma 9ᵇ</cite> [read:] <he>מאי ארז שהרקב שולט בו ס׳ …</he> what is the cedar over which decay has power?… Sasmagor (Ms. L. omits our w., and has only the explanation of it: <he>ארז מגור מן הסס</he>, v. <cite ref=\"O01270\"><he>סָס</he></cite>; v. Rabb. D. S. a. l. note 200). [To the following <he>מאי ס׳</he> what is S.?, the reply <he>ארז מגור מן הסס</he> has obviously fallen out, whereas the subsequent <he>אמר ר׳ אבא בת קול</he> resumes the discussion interrupted by <he>מאי ארז וכ׳</he>;—different in comment.]"
+			]
+		}
+	]
+}

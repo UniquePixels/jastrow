@@ -1,0 +1,51 @@
+{
+	"id": "V00818",
+	"slug": "תפי-4",
+	"headword": {
+		"text": "תְּפִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּפְיָא"
+		},
+		{
+			"text": "תַּפְיָיה"
+		},
+		{
+			"text": "תִּי׳"
+		}
+	],
+	"page": {
+		"number": 1685,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"V00817\">preced.</cite>; cmp. χύτρα, a. χυτρόπους) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>pot</i>; <cite ref=\"V00322\"><he>בֵּי ת׳</he></cite> <i>stove, fire-place</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 39a:10\">Ber. 39ᵃ</cite> <he>יתיב אבי ת׳ וכ׳</he> it is placed on the stove and boils (v. <cite ref=\"V00195\"><he>תּוֹךְ</he> I</cite>). ",
+				"<cite ref=\"Shabbat 77b\">Sabb. 77ᵇ</cite> <he>דדיירי אבי ת׳</he> Ar. (ed. <he>אדפי</he>) they nest over the fire-place."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>hollow on the hearth where coals are put, cooking stove</i> (v. Sm. Ant.<sup>3</sup> Engl. ed., s. v. Focus). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 102:4\">Targ. Ps. CII, 4</cite> (h. text <cite ref=\"M00581\"><he>מוקד</he></cite>).—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:1:2\">Y. Sabb. III, beg., 5ᶜ</cite> <he>גריף תי׳ וכ׳</he> the fire-place is cleared, and the dish put in; <he>גרוף ת׳ ויהב תלתא וכ׳</he> (not <he>גריף</he>) clear the fire-place, and put three stones in. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 4:3:5\">Y. Bets. IV, 62ᶜ</cite> <he>הוה … גו ת׳ וזרק קומי ת׳</he> seemed to throw the kernels into the fire-place, but he threw them before the fire-place. ",
+				"<cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> <he>צפה … על ת׳</he> saw a pot over the fire-place; <cite ref=\"Yalkut Shimoni on Nach 352\">Yalk. Is. 352</cite> <cite ref=\"I00647\"><he>טַפְיָא</he></cite>.—Pl. <cite ref=\"V00818\"><he>תַּפְיָין</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 11:35\">Targ. Y. Lev. XI, 35</cite> (Bxt. <cite ref=\"I00653\"><he>טַפְיָין</he></cite>; h. text <he>כירים</he>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 26:61\">Targ. Y. Num. XXVI, 61</cite> (not <he>חפיין</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

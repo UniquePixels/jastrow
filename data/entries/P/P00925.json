@@ -1,0 +1,36 @@
+{
+	"id": "P00925",
+	"slug": "עמקי",
+	"headword": {
+		"text": "עִמְקִי"
+	},
+	"page": {
+		"number": 1090,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00920\"><he>עֵמֶק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>belonging to the valley</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 26:1\">Kel. XXVI, 1</cite> <he>סנדל ע׳</he> sandals worn in valleys, Maim. (others: made in K’far Imḳi, v. infra). ",
+				"<cite ref=\"Chullin 63a:12\">Ḥull. 63ᵃ</cite> <he>עורב הע׳</he>, v. <cite ref=\"P00349\"><he>עוֹרֵב</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"P00381\"><he>כְּפַר ע׳</he></cite> pr. n. pl. <i>K’far Imḳi</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 21a\">Taan. 21ᵃ</cite> Ar. (ed. <he>עמיקי</he>, Var. <he>עמיקין</he>; v. Rabb. D. S. a. l. note 60). ",
+				"<cite ref=\"Tosefta Bava Kamma 8:10\">Tosef. B. Kam. VIII, 10</cite> <he>כ׳ עמאוקו</he> ed. Zuck. (Var. <cite ref=\"P00854\"><he>עמאייק</he></cite>, <cite ref=\"N00675\"><he>נימאייק</he></cite>); <cite ref=\"Bava Kamma 79b\">B. Kam. 79ᵇ</cite> <he>כפר עמיקון</he> Ms. M. (ed. <he>כפר עכג</he>, v. Rabb. D. S. a. l. note)."
+			],
+			"label": "2"
+		}
+	]
+}

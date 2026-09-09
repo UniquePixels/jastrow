@@ -1,0 +1,43 @@
+{
+	"id": "H00931",
+	"slug": "חכיר-2",
+	"headword": {
+		"text": "חָכִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָכוּר"
+		}
+	],
+	"page": {
+		"number": 462,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00950\"><he>חָכַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>tenant</i> on a fixed rent payable in kind, v. <cite ref=\"A03108\"><he>אָרִיס</he> II</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bikkurim 1:9:3\">Y. Bicc. I, end, 64ᵇ</cite> <he>ח׳ לשעה</he> a tenant for a fixed term, <he>ח׳ לעולם</he> a permanent tenant (on ground rent). ",
+				"<cite ref=\"Bava Metzia 104a:3\">B. Mets. 104ᵃ</cite> <cite ref=\"H00318\"><he>חוֹכֵר</he></cite>; a. fr.—Pl. <he>חֲכִירִין</he>, <he>חֲכוּ׳</he>, <cite ref=\"H00934\"><he>חֲכִירוֹת</he></cite>, (<he>חוֹכְרִין</he>) <cite ref=\"H00934\"><he>חֲכוּרוֹת</he></cite>. Y. Bicc. l. c. <he>חֲכוּרֵי בתי אבות</he> hereditary tenants. ",
+				"<cite ref=\"Tosefta Peah 3:1\">Tosef. Peah III, 1</cite>. ",
+				"<cite ref=\"Tosefta Peah 3:1\">Ib.</cite> ",
+				"<cite ref=\"Mishnah Terumot 2:11\">Ter. II, 11</cite> <he>חוכרין</he> ed. Zuck. (Var. <cite ref=\"H00934\"><he>חכורות</he></cite>, <cite ref=\"H00934\"><he>חכירות</he></cite>). Y. M. Kat. III, 82ᵇ bot. <he>חֲכִירָיו</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the fixed annual rent in kind</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 9:2\">B. Mets. IX, 2</cite> (<cite ref=\"Bava Metzia 103b:13\">103ᵇ</cite>) <he>מנכה לו מן חֲכִירוֹ</he> Talm. ed. (Mish. <he>חֲכוּ׳</he>) he deducts from the stipulated rent (in proportion). Ib. 4 (105ᵃ) <he>הואיל ואני נותן לך חֲכִירְךָ</he> (Y. ed. <he>חֲכוּרְךָ</he>, Mish. <he>חֲכוּרָהּ</he>) as long as I give thee thy rent (Mish.: the rent for it)."
+			],
+			"label": "2"
+		}
+	]
+}

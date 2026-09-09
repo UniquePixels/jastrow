@@ -1,0 +1,31 @@
+{
+	"id": "G00717",
+	"slug": "זרכל",
+	"headword": {
+		"text": "זַרְכֵּל"
+	},
+	"page": {
+		"number": 414,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִזְדַּרְכֵּל</he> (orig. Ithpa. of <cite ref=\"D01101\"><he>דרכל</he></cite>, fr. <he>דרך</he>, cmp. <he>אתדרכל</he> P. Sm. 952; v. ib. 1157 s. v. <cite ref=\"G00717\"><he>זרכל</he></cite> a. sq.) <i>to walk proudly</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 30:31\">Targ. Prov. XXX, 31</cite> <he>מִיזְדַּרְכֵּיל</he> ed. Lag. (ed. Wil. <cite ref=\"M00723\"><he>מִזְדְּרַז</he></cite>, v. <cite ref=\"G00686\"><he>זְרַז</he></cite>), v. <cite ref=\"A00151\"><he>אַבָּכָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

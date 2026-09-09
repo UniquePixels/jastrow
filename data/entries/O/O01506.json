@@ -1,0 +1,24 @@
+{
+	"id": "O01506",
+	"slug": "סקרתא",
+	"headword": {
+		"text": "סְקַרְתָּא"
+	},
+	"page": {
+		"number": 1021,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"O01497\"><he>סָקַר</he> II</cite>) <i>red paint</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 19a:6\">Gitt. 19ᵃ</cite> (expl. <cite ref=\"O00820\"><he>סיקרא</he></cite>) <he>ס׳ שמה</he> its name is <i>s’ḳarta</i>.—Esp. <i>marking with siḳra</i>. ",
+				"<cite ref=\"Bekhorot 58a:13\">Bekh. 58ᵃ</cite> <he>אי אפשר … משום ס׳</he> you cannot tithe sheep on the Holy Day on account of the required marking with paint; <cite ref=\"Chagigah 8a:7\">Ḥag. 8ᵃ</cite>. ",
+				"<cite ref=\"Nazir 39a:6\">Naz. 39ᵃ</cite> <he>תא שמע מס׳ וכ׳</he> come, learn it (that the hair grows from the root) from the mark on sheep, where you can see that the wool beneath is loose (while that on top is matted)."
+			]
+		}
+	]
+}

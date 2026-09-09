@@ -1,0 +1,48 @@
+{
+	"id": "U00195",
+	"slug": "שבשתא",
+	"headword": {
+		"text": "שְׁבִשְׁתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁבִישְׁ׳"
+		},
+		{
+			"text": "שַׁבֶּשְׁתָּא"
+		}
+	],
+	"page": {
+		"number": 1519,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00194\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>shoot, twig</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 15:2\">Targ. Ez. XV, 2</cite> (h. text <cite ref=\"G00511\"><he>זמורה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 17:4\">Ib. XVII, 4</cite> (h. text <he>יניקות</he>).—",
+				"<cite ref=\"Berakhot 5b:18\">Ber. 5ᵇ</cite> <he>שמיע לן</he> … <he>וכ׳</he> Ar. (ed. <cite ref=\"U00137\"><he>שְׁבִישָׁא</he></cite>) we have heard that you allow your tenant no share in the vines (when they are cut). ",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:33\">Y. Peah I, 15ᵈ</cite> <he>הוה נסיב שיבשתיה וכ׳</he> (read: <cite ref=\"U00137\"><he>שְׁבִישְׁתָּא</he></cite> or <he>שְׁבִישָׁתָה</he> <i>pl.</i>) used to take a branch (branches) and dance in front of bridal processions; <cite ref=\"Yoma 2a:8\">ib.</cite> <he>דקמת ליה שְׁבִישְׁתֵּיה</he> the merit of his (carrying the) twigs (or of his folly, v. <cite ref=\"U00386\"><he>שׁוֹטִיתָא</he></cite>) stood by him (at his funeral, when lightning in the shape of a twig came down, v. <cite ref=\"U00188\"><he>שִׁבְשָׁא</he></cite> a. <cite ref=\"U00192\"><he>שַׁבְשָׁבָה</he></cite>); <cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:7\">Y. Ab. Zar. III, 42ᶜ</cite> top <he>נסיב שׁוֹשִׁיבְתָּה</he> (or <cite ref=\"U00566\"><he>שׁוֹשִׁיבָתָה</he></cite> pl.); <cite ref=\"Yoma 2a:8\">ib.</cite> <he>דעבדת ליה שושבתא</he>, read: <he>דעמדת ליה שׁוֹשַׁבְתֵּיה</he>; <cite ref=\"Bereishit Rabbah 59:12\">Gen. R. s. 59</cite> <he>דקמת ליה שַׁבֶּשְׁתֵּיה</he>.—<i>Pl.</i> <cite ref=\"U00137\"><he>שְׁבִישָׁתָא</he></cite>, <he>שְׁבִשָׁ׳</he>. ",
+				"<cite ref=\"Kohelet Rabbah 3:11:3\">Koh. R. to III, 11</cite> (in Hebr. dict.) <he>נתן להם ש׳ דהדס וכ׳</he> he gave them myrtle twigs (in place of swords and spears), and they smote one another &c.; <cite ref=\"Kohelet Rabbah 3:11:3\">ib.</cite> <he>שבישותה של הדס</he> (corr. acc.).—",
+				"<cite ref=\"Kohelet Rabbah 10:5:1\">Koh. R. to X, 5</cite> <he>ר׳ ירמיה דש׳ וכ׳</he> ‘R. Jeremiah of the branch’ (so surnamed for his manner of dancing before bridal couples) took a crown of olive branches &c. (v. <cite ref=\"U00190\"><he>שִׁבְשׁב</he></cite>); <cite ref=\"Eichah Rabbah 5:22\">Lam. R. to V, 16</cite> <he>דשבשב</he> (some ed. <he>דשבשבת</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>confusion, mistake</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 96b:2\">B. Mets. 96ᵇ</cite>, a. e. <he>לפום חורפא ש׳</he>, v. <cite ref=\"H00478\"><he>חִוּרְפָּא</he></cite>. ",
+				"<cite ref=\"Pesachim 112a:7\">Pes. 112ᵃ</cite>, a. e. <he>ש׳ כיון דעל וכ׳</he>, v. <cite ref=\"P00241\"><he>עוּל</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

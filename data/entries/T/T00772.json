@@ -1,0 +1,41 @@
+{
+	"id": "T00772",
+	"slug": "רכס-1",
+	"headword": {
+		"text": "רָכַס"
+	},
+	"page": {
+		"number": 1480,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to stamp</i>; (denom. of <cite ref=\"T00774\"><he>רֶכֶס</he></cite>) <i>to make a ceiling of cement</i> (v. <cite ref=\"M02094\"><he>מַעֲזִיבָה</he></cite>). Y’lamd. beg., quot. in Ar. <he>אימתי ר׳ הקב״ה וכ׳</he> when did God form his upper stories with water as cement, v. <cite ref=\"T00774\"><he>רֶכֶס</he></cite>.—[b. h. <he>רכס</he> <i>to fasten</i>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִכֵּס"],
+			"senses": [
+				{
+					"gloss": "<i>to stamp</i>; esp. (of beasts) <i>to pass over wetted grain; to husk</i> (differ. fr. <cite ref=\"D00389\"><he>דּוּשׁ</he></cite>). ",
+					"units": [
+						"<cite ref=\"Bava Metzia 89b\">B. Mets. 89ᵇ</cite>, sq. <he>פרות המְרַכְּסוֹת בתבואה והדשות וכ׳</he> when cows stamp (secular) grain, or thresh corn of T’rumah &c."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִרְכִּיס"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to stamp, let (beasts) stamp</i>. Tosef. ib. VIII, 10 <he>המַרְכִּיס</he> ed. Zuck. (Var. <he>המְרַכֵּס</he> <i>Pi.</i>); Y. Ter. IX, beg. 46ᶜ <he>המרכין</he> (corr. acc.).",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

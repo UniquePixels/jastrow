@@ -1,0 +1,25 @@
+{
+	"id": "Q02046",
+	"slug": "פרתא-2",
+	"headword": {
+		"text": "פְּרָתָא"
+	},
+	"page": {
+		"number": 1244,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02043\"><he>פְּרַת</he></cite>) = h. <cite ref=\"Q02033\"><he>פָּרָשָׁה</he></cite>, <i>branching off, division</i>, esp. <he>פ׳ דכרסא</he> (or sub. <he>כרסא</he>) <i>partition of the belly, navel</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 40:16\">Targ. Job XL, 16</cite> <he>פ׳ דכ׳</he> ed. Lag. (oth. ed. <he>פרת דכ׳</he>, read: <he>פְּרַת כ׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 7:3\">Targ. Cant. VII, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 11:31\">Targ. Y. Num. XI, 31</cite>.—Pl. constr. <he>פְּרָתֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 3:9\">Targ. Job III, 9</cite> (<cite ref=\"Aramaic Targum to Job 3:10\">10</cite>) ed. Lag. a. oth. (Ms. <he>פְּרָתִי</he>), v. <cite ref=\"Q00032\"><he>פָּאתָא</he> II</cite>."
+			]
+		}
+	]
+}

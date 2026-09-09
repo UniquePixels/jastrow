@@ -1,0 +1,36 @@
+{
+	"id": "Q02176",
+	"slug": "פתך-1",
+	"headword": {
+		"text": "פָּתַךְ"
+	},
+	"page": {
+		"number": 1254,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to break, distribute; to stir, knead</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 4\">Gen. R. s. 4</cite>, end <he>נטל … ופְתָכָן זה בזה</he> the Lord took fire and water and worked them into each other; (<cite ref=\"Chagigah 12a\">Ḥag. 12ᵃ</cite> <he>זטרפן</he>). ",
+				"<cite ref=\"Bereishit Rabbah 10\">Gen. R. s. 10</cite>, beg., v. <cite ref=\"Q01507\"><he>פְּקַעַת</he></cite>.—<i>Part. pass.</i> <he>פָּתוּךְ</he>, pl. <he>פְּתוּכִים</he>, <he>פְּתוּכִין</he> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>worked up, mixed</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 12:8\">Num. R. s. 12</cite>; <cite ref=\"Shir HaShirim Rabbah 3:11:1\">Cant. R. to III, 11</cite> (ref. to <cite ref=\"Exodus 9:24\">Ex. IX, 24</cite>) <he>אש וברד פ׳ זה בזה</he> fire and hail worked into each other; <cite ref=\"Yalkut Shimoni on Nach 912:1\">Yalk. Job 912</cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>variegated</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Negaim 1:2\">Neg. I, 2</cite> <he>הפ׳ שבשלג וכ׳</he> the variegation of the snow-white leprosy looks like red wine mixed with snow (before the latter is dissolved); <he>הפ׳ שבסיד וכ׳</he> the variegation of the lime-white leprosy looks like red wine mixed with milk (before being stirred); Sifra Thazr., <cite ref=\"Mishnah Negaim 2\">Neg., ch. II, Par. 2</cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

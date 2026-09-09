@@ -1,0 +1,24 @@
+{
+	"id": "K01315",
+	"slug": "כשלון",
+	"headword": {
+		"text": "כִּשָּׁלוֹן"
+	},
+	"page": {
+		"number": 676,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K01314\">preced.</cite>) <i>downfall, stumbling, weakness</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 14a\">Ḥag. 14ᵃ</cite>; <cite ref=\"Shabbat 119b:11\">Sabb. 119ᵇ</cite> <he>אפי׳ בשעת כִּשְׁלוֹנָהּ וכ׳</he> even at the period of Jerusalem’s downfall (moral decay) the men of faith did not fail her. ",
+				"<cite ref=\"Midrash Tehillim 22:5\">Midr. Till. to Ps. XXII</cite> (ref. to <cite ref=\"Proverbs 24:16\">Prov. XXIV, 16</cite>) <he>תכף לכ׳ רעה</he> the evil immediately follows their stumbling (leaving no time to rise). ",
+				"<cite ref=\"Yalkut Shimoni on Nach 897:4\">Yalk. Job 897</cite> (ref. to <cite ref=\"Job 4:4\">Job IV, 4</cite>) <he>היית מנחם כל בעלי כ׳</he> thou didst console all the afflicted (Tanḥ. Vayishl., ed. Bub. 8 <he>יסורין</he>)."
+			]
+		}
+	]
+}

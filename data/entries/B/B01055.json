@@ -1,0 +1,74 @@
+{
+	"id": "B01055",
+	"slug": "בעל-3",
+	"headword": {
+		"text": "בַּעַל"
+	},
+	"page": {
+		"number": 182,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"B01054\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>husband</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 1:1\">Kidd. I, 1</cite> and she becomes her own master <he>בגט ובמיתת הב׳</he> through a letter of divorce or on the husband’s death; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the idol Baal</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:6:2\">Y. Ab. Zar. III, 43ᵃ</cite> bot. <he>ב׳ ראש גוייה הוה וכ׳</he> the Baal was the phallus and had the shape of a bean [read <he>וכאפון</he>]."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " [<i>the fructifier</i>,] <i>rain</i> (v. ",
+			"units": [
+				"<cite ref=\"Taanit 6b:7\">Taan. 6ᵇ</cite>; cmp. ",
+				"<cite ref=\"Isaiah 55:10\">Is. LV, 10</cite>). <cite ref=\"Q00053\"><he>בֵּית בַּ׳</he></cite> <i>a field sufficiently watered by rain</i> and requiring no artificial irrigation. ",
+				"<cite ref=\"Tosefta Moed Kattan 1:1\">Tosef. M. Kat. I, 1</cite> <he>שדה</he> (<he>בית</he>) <he>הב׳</he>. ",
+				"<cite ref=\"Mishnah Bava Batra 3:1\">B. Bath. III, 1</cite>. ",
+				"<cite ref=\"Tosefta Sukkah 2:7\">Tosef. Succ. II, 7</cite> <he>ערבה של ב׳</he> (sub. <he>בית</he>) a willow in a naturally watered field. ",
+				"<cite ref=\"Tosefta Sukkah 2:7\">Ib.</cite> ",
+				"<cite ref=\"Mishnah Sheviit 2:4\">Shebi. II, 4</cite> <he>בשל ב׳</he> (= <he>בשדה של ב׳</he>), opp. <he>של שוקי</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 16:25\">Num. R. s. 16</cite> the Egyptian gods <he>של שקר הם</he> (read <cite ref=\"U01849\"><he>שקי</he></cite>) are gods of artificial drainage, but those of Canaan <he>של ב׳ הם</he> are gods of rain; (Tanḥ. Sh’laḥ 13, through misunderstanding, <he>שקר … בעליכח</he>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (mostly in compounds) <i>owner of, master of, possessed of, given to</i> &c.; e.g. <he>ב׳ אבידה</he> owner of a lost object; <he>ב׳ אגדה</he> master of Agadah, lecturer; <he>ב׳ דין</he> opponent in court; v. infra. ",
+			"units": [
+				"<cite ref=\"Pesachim 86b:8\">Pes. 86ᵇ</cite> <he>ב׳ השם אני</he> I am so named.—Pl. <he>בְּעָלִים</he>, <he>בְּעָלִין</he> <i>owners;</i> mostly as sing. <i>owner</i>. ",
+				"<cite ref=\"Mishnah Bava Metzia 8:1\">B. Mets. VIII, 1</cite>; a. fr. [<cite ref=\"Jerusalem Talmud Demai 3:2:3\">Y. Dem. III, 23ᵇ</cite> bot. <he>לבלעין</he>, read <he>לבעלין</he>.]"
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["ב׳ מחשבות"],
+			"senses": [
+				{
+					"gloss": "<i>He who knows man’s thoughts</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 19b:1\">Snh. 19ᵇ</cite>.—",
+						"<cite ref=\"Sanhedrin 19b:1\">Ib.</cite> <he>בעלי מ׳</he> <i>those entertaining considerations</i> (of fear), <i>hesitating to do justice</i>.—ב׳ שיבה <i>gray-haired</i>. ",
+						"<cite ref=\"Mishnah Nedarim 3:8\">Ned. III, 8</cite>.—ב׳ תשובה <i>repentant sinner</i>. ",
+						"<cite ref=\"Sukkah 53a:2\">Succ. 53ᵃ</cite>; a. fr.—ב׳ תשובות <i>a man of many objections or excuses</i>. ",
+						"<cite ref=\"Bereishit Rabbah 20:2\">Gen. R. s. 20</cite> beg.—[For other compounds, not self-evident, see the respective determinants.]"
+					]
+				}
+			],
+			"stem": "Compounds: ."
+		}
+	]
+}

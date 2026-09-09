@@ -1,0 +1,29 @@
+{
+	"id": "J00714",
+	"slug": "יתב-3",
+	"headword": {
+		"text": "יָתֵב"
+	},
+	"altHeadwords": [
+		{
+			"text": "יָתֵיב"
+		}
+	],
+	"page": {
+		"number": 603,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>יְתַב</he> I) <i>inhabitant</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 34:30\">Targ. O. Gen. XXXIV, 30</cite> <cite ref=\"J00728\"><he>יָתֵיב</he></cite> ed. Berl. (ed. <he>יַתְבֵי</he> <i>pl.</i>). ",
+				"<cite ref=\"Onkelos Numbers 14:14\">Targ. O. Num. XIV, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 6:11\">Targ. Is. VI, 11</cite>; a. fr.—Pl. <he>יָתְבַיָּא</he>, <he>יַתְבֵי</he>. Targ. Y. Num. l. c.; a. fr."
+			]
+		}
+	]
+}

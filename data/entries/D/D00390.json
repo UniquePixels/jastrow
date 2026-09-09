@@ -1,0 +1,78 @@
+{
+	"id": "D00390",
+	"slug": "דוש-2",
+	"headword": {
+		"text": "דּוּשׁ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 290,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D00389\">same</cite><i>to thresh</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ruth 2:17\">Targ. Ruth II, 17</cite>.—",
+				"<cite ref=\"Zevachim 116b\">Zeb. 116ᵇ</cite>; <cite ref=\"Menachot 22a\">Men. 22ᵃ</cite>, v. <cite ref=\"D01154\"><he>דַּשְׁתָּאָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to tread upon, trample</i> (to death). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 7:17\">Targ. II Kings VII, 17</cite>; a. fr.—",
+				"<cite ref=\"Bava Kamma 9a:3\">B. Kam. 9ᵃ</cite> <he>דָּיֵישׁ אמצרי</he> he sets his foot upon the landmark (symbol of possession)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be used to, not to mind</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 129b:5\">Sabb. 129ᵇ</cite> <he>כיון דדָשוּ ביה רבים</he> since the people are in the habit of doing it. ",
+				"<cite ref=\"Gittin 56b:15\">Gitt. 56ᵇ</cite> <he>כיון דדש דש</he> being used (to the hammering) the gnat did not heed it. ",
+				"<cite ref=\"Ketubot 62a:5\">Keth. 62ᵃ</cite> <he>דַּשְׁנָן בה</he> we are used to it.—",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:33\">Targ. Prov. VIII, 33</cite> <he>תְדִישׁוּן</he>, v. Af."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָדֵישׁ", "אָדֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to pass over, to leave unheeded, to be listless</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 4:15\">Targ. Prov. IV, 15</cite>; <cite ref=\"Aramaic Targum to Proverbs 13:18\">XIII, 18</cite>; <cite ref=\"Aramaic Targum to Proverbs 15:32\">XV, 32</cite> Ar. a. Mss. (ed. Lag. <cite ref=\"A03173\"><he>אר׳</he></cite>, <he>מר׳</he> with <cite ref=\"T00000\"><he>ר</he></cite>, h. text <cite ref=\"Q01944\"><he>פרע</he></cite>); ib. VIII, 33 (v. supra, ed. Lag. <he>תירשון</he>).—",
+						"<cite ref=\"Sanhedrin 7a:8\">Snh. 7ᵃ</cite> (prov.) <he>טוביה לדשמע ואדיש</he> (Ms. M. <he>ואריש</he>) happy he who hears (himself abused) and minds it not; he will escape a hundred evils.—Y. Peah I, 15ᶜ bot.; Y. Kidd. I, 61ᵇ <he>אכול ואֲדֵישׁ … ומַדְשִׁין</he> eat and care not (do not share in our conversation), for so do dogs eat and mind not. [<cite ref=\"Targum Jerusalem, Numbers 11:8\">Targ. Y. II, Num. XI, 8</cite> <he>אדשין</he>, v. <cite ref=\"D01153\"><he>דְּשַׁשׁ</he></cite>.] "
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְדַּשׁ", "אִידַּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be trampled upon, threshed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 24:3\">Targ. Is. XXIV, 3</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 25:10\">Ib. XXV, 10</cite>.—[<cite ref=\"Targum Jonathan on Jeremiah 48:26\">Targ. Jer. XLVIII, 26</cite>, v. <cite ref=\"D01153\"><he>דְּשַׁשׁ</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["דּוֹשֵׁשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>Palp.</i> <cite ref=\"D01140\"><he>דַּשְׁדֵּשׁ</he></cite>, v. <cite ref=\"D01153\"><he>דְּשַׁשׁ</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Polel."
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "N01041",
+	"slug": "נפיל-1",
+	"headword": {
+		"text": "נָפִיל"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְפִילִים"
+		},
+		{
+			"text": "נְפִלִ׳"
+		}
+	],
+	"page": {
+		"number": 923,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>פלא</he>)<i>giants</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 26\">Gen. R. s. 26</cite> <he>נ׳ שהפילו וכ׳</he> they are called <i>n’filim</i>, because they caused the downfall of the world; a. e.—<he>בֶּן הַנְּ׳</he> "
+			],
+			"senses": [
+				{
+					"gloss": " name of <i>a demon</i>. ",
+					"units": [
+						"<cite ref=\"Bekhorot 44b:11\">Bekh. 44ᵇ</cite> <he>רוח בן נ׳</he> <i>nervous prostration</i>, v. <cite ref=\"N00021\"><he>נָאלָא</he> II</cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " name of a <i>species of lizards</i>, living in the water. Sifra Sh’mini, ch. VI, Par. 5; <cite ref=\"Chullin 127a:9\">Ḥull. 127ᵃ</cite> (not <cite ref=\"K00826\"><he>כן</he></cite>). ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 15:7\">Ex. R. s. 15</cite> <he>בן הפילי׳</he> some ed. (corr. acc.)."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

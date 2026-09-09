@@ -1,0 +1,27 @@
+{
+	"id": "C00401",
+	"slug": "גולמי",
+	"headword": {
+		"text": "גּוֹלָמִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוֹלָמִית"
+		}
+	],
+	"page": {
+		"number": 222,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <i>like a</i> <cite ref=\"C00398\"><he>גּוֹלֶם</he></cite>, <i>roughly shaped</i>. Pl. <he>גּוֹלָמִיּוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 30\">Ex. R. s. 30</cite>, v. <cite ref=\"C00964\"><he>גָּלַם</he></cite>."
+			]
+		}
+	]
+}

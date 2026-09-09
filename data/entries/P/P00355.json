@@ -1,0 +1,22 @@
+{
+	"id": "P00355",
+	"slug": "עורון",
+	"headword": {
+		"text": "עִוָּרוֹן"
+	},
+	"page": {
+		"number": 1058,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00346\"><he>עִוֵּר</he></cite>)<i>blindness</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 146:4\">Midr. Till. to Ps. CXLVI</cite> <he>אין צער גדול … כעִוְּרוֹן עינים</he> there is no trouble so great … as blindness."
+			]
+		}
+	]
+}

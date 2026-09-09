@@ -1,0 +1,30 @@
+{
+	"id": "A02797",
+	"slug": "אפרגיא",
+	"headword": {
+		"text": "אַפְּרַגְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַפְּרַגְזְיָא"
+		},
+		{
+			"text": "אַפְּרַגְסְיָא"
+		}
+	],
+	"page": {
+		"number": 108,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἀπραγία, ἀπραξία) <i>inactivity, cessation of labor, holiday</i>. Pesik. Sh’mini, p. 195ᵃ (v. Buber note 66 to p. 193ᵃ) if both of us open (sales) at the same time <he>הרי אנו עושין אפרגיא במדינה</he> (Ar. Var. <cite ref=\"A02798\"><he>אפרגיזא</he></cite>, <he>אפרגינה</he>, read <cite ref=\"A02797\"><he>אפרגזיא</he></cite>) we shall create a cessation of labor in the district (as all the laboring people will run to the market town on one and the same day; <cite ref=\"Yalkut Shimoni on Torah 782\">Yalk. Num. 782</cite> <cite ref=\"G00173\"><he>זול</he></cite> from misunderstanding); <cite ref=\"Shir HaShirim Rabbah 7:2\">Cant. R. to VII, 2</cite> <cite ref=\"A02798\"><he>אפרגייס</he></cite> (read <he>אפרגייא</he> or <he>אפרגסייא</he>). ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 41:1\">Pesik. R. s. 41</cite> R. Yonathan … had goods with him <he>והייתה אפרגיס</he> (corr. acc.) and there was inactivity and dull business in consequence thereof [for which <cite ref=\"Yalkut Shimoni on Nach 758\">Yalk. Ps. 758</cite> <he>ולא היה יכול למוכרה</he>—prob. to be read <he>אַפְּרַטוֹס</he> ἄπρατος <i>unsaleable</i>]."
+			]
+		}
+	]
+}

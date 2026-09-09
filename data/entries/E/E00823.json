@@ -1,0 +1,22 @@
+{
+	"id": "E00823",
+	"slug": "הרדובלין",
+	"headword": {
+		"text": "הַרְדּוּבְלִין"
+	},
+	"page": {
+		"number": 365,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ὕδραυλις) <i>water-organ</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 150:4\">Targ. Ps. CL, 4</cite> Ms. (Regia <he>הרדיב׳</he>, ed. <cite ref=\"H01058\"><he>חֲלִילִין</he></cite>)."
+			]
+		}
+	]
+}

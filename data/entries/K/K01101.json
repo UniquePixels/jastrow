@@ -1,0 +1,30 @@
+{
+	"id": "K01101",
+	"slug": "כרוב-1",
+	"headword": {
+		"text": "כְּרוּב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 664,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; cmp. <cite ref=\"K01076\"><he>כְּרַב</he> I</cite>; v. , however, Schr. KAT<sup>2</sup> p. 39; p. 609) [<i>head</i>,] <i>Cherub</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 5b:8\">Succ. 5ᵇ</cite>; <cite ref=\"Chagigah 13b:7\">Ḥag. 13ᵇ</cite> … <he>מאי כ׳ כרַבְיָא וכ׳</he> what is K’rub?—… ‘Childlike’, for in Babylonia they call a child <i>rabia</i>. ",
+				"<cite ref=\"Chagigah 13b:6\">Ib.</cite> <he>והפכו לכ׳</he> and he changed it (the face of the ox, <cite ref=\"Ezekiel 1:10\">Ez. I, 10</cite>) into that of a Cherub. ",
+				"<cite ref=\"Ezekiel 1:10\">Ib.</cite> <he>היינו פני כ׳ וכ׳</he> the face of the Ch. is the same as that of man, the one being large, the other small. ",
+				"<cite ref=\"Yoma 77a:2\">Yoma 77ᵃ</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 32\">Lev. R. s. 32</cite>; a. e.—Pl. <he>כְּרוּבִים</he>. Tanḥ. ed. Bub. ",
+				"<cite ref=\"Genesis 25\">B’resh. 25</cite> <he>לפיכן נקראו כ׳ שהן רבים</he> (read: <cite ref=\"T00306\"><he>רוֹבִים</he></cite>, v. <cite ref=\"T00301\"><he>רוֹבֶה</he></cite>) they are called Ch., because they are young (childlike), v. supra. ",
+				"<cite ref=\"Yoma 54b:1\">Yoma 54ᵇ</cite> <he>מעורים וכ׳ הכ׳ ראה</he> saw the figures of the cherubs twined around each other. ",
+				"<cite ref=\"Yoma 54a:17\">Ib. 54ᵃ</cite> <he>כ׳ דצורתא וכ׳</he> painted cherubs were in the Second Temple; a. e."
+			]
+		}
+	]
+}

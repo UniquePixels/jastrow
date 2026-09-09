@@ -1,0 +1,41 @@
+{
+	"id": "L00133",
+	"slug": "לגין-2",
+	"headword": {
+		"text": "לָגִין"
+	},
+	"page": {
+		"number": 692,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", m. (<he>לגג</he>, v. <cite ref=\"L00183\"><he>לוֹג</he></cite>, formed like <cite ref=\"S01814\"><he>קָצִין</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bottle, a vessel</i> smaller than <cite ref=\"K00098\"><he>כַּד</he></cite> and larger than <cite ref=\"K00314\"><he>כּוֹס</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tevul Yom 4:4\">T’bul Yom IV, 4</cite> <he>ל׳ … ומלאהו וכ׳</he> a <i>lagin</i> which requires sunset to be clean (v. <cite ref=\"I00062\"><he>טָבַל</he></cite>) and which was filled out of a cask containing tithes (intended for T’rumah); <cite ref=\"Eruvin 36a:17\">Erub. 36ᵃ</cite>; Y. ib. III, 21ᵇ bot. (corr. acc.). ",
+				"<cite ref=\"Tosefta Ohalot 5:10\">Tosef. Ohol. V, 10</cite>; Ohol. V, 4; <cite ref=\"Chagigah 22b\">Ḥag. 22ᵇ</cite> Ms. M. (ed. <he>לוגין</he>); <cite ref=\"Chagigah 26a:4\">ib. 26ᵃ</cite> <he>ל׳ טמאין</he> (read <cite ref=\"I00529\"><he>טמא</he></cite>). ",
+				"<cite ref=\"Mishnah Avodah Zarah 5:1\">Ab. Zar. V, 1</cite> <he>הניח … לְגִינוֹ וכ׳</he> the gentile put his wine bag on it. ",
+				"<cite ref=\"Tosefta Terumot 7:16\">Tosef. Ter. VII, 16</cite> <he>ל׳ שהניחו</he> (ed. Zuck. <he>שהניחן</he>, corr. acc. all the suffixes in the sentence); a. e.—Pl. <he>לְגִינִים</he>, <he>לְגִינִין</he>. ",
+				"<cite ref=\"Tosefta Demai 8:22\">Tosef. Dem. VIII, 22</cite>, sq. ",
+				"<cite ref=\"Mishnah Kelim 30:4\">Kel. XXX, 4</cite> <he>ל׳ גדולים</he> large flasks (of glass). ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:7:3\">Y. Ḥag. II, end, 78ᶜ</cite>. ",
+				"<cite ref=\"Mishnah Kelim 16:2\">Kel. XVI, 2</cite> <he>בית הל׳</he> a case of wickerwork for flasks; <cite ref=\"Tosefta Keilim Metsia 5:13\">Tosef. Kel. B. Mets. V, 13</cite> <he>בית הליגונין</he> (corr. acc.). ",
+				"<cite ref=\"Tosefta Keilim Metsia 6:8\">Ib. VI, 8</cite> <he>בית הל׳ … של עץ</he> a wooden flask case.—",
+				"<cite ref=\"Beitzah 15b:10\">Bets. 15ᵇ</cite> <he>הללו בעלי ל׳</he> these are people counting their wine by <i>laginin</i> (less rich than the <he>בעלי כדין</he>, but wealthier than the <he>בעלי כוסות</he>).—",
+				"<cite ref=\"Yalkut Shimoni on Nach 161\">Yalk. Sam. 161</cite> <he>שבלְגִינוֹת</he> (the water) in the bottles."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " also <cite ref=\"L00131\"><he>לְגִינָה</he></cite> f. <i>a garden-bed requiring a lagin of seed</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 9:5\">Ter. IX, 5</cite> <he>מאה לגינה</he> Ms. M. a. Y. ed. (Bab. a. Mish. ed. <cite ref=\"L00142\"><he>לגנה</he></cite>) one hundred beds planted with T’rumah seeds; Tosef. ib. VIII, 4 <he>מאה לגין</he> ed. Zuck. (Var. <he>לגינין</he>; R. S. to Ter. l. c. quotes <cite ref=\"L00183\"><he>לוג</he></cite>); [v., however, <cite ref=\"L00141\"><he>לִגְנָא</he></cite>]."
+			],
+			"label": "2"
+		}
+	]
+}

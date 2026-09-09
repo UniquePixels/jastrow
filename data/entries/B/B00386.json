@@ -1,0 +1,32 @@
+{
+	"id": "B00386",
+	"slug": "בורסיף",
+	"headword": {
+		"text": "בּוֹרְסִיף"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוֹלְסִיף"
+		}
+	],
+	"page": {
+		"number": 150,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (Βόρσιππα) <i>Borsif</i>, a city near the site of Babylon, frequently identified with <i>Babel</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 109a:7\">Snh. 109ᵃ</cite> (phonetic etymol.) <he>בור שפת</he> Ar. (ed. <cite ref=\"U00045\"><he>שאפי</he></cite>, Var. <he>שפיא</he>; <cite ref=\"Yalkut Shimoni on Torah 62:14\">Yalk. Gen. 62</cite> <he>שפוי</he>, Var. <he>ספר</he>, v. Rabb. D. S. a. l. note 5, a. Schr. KAT. p. 124; p. 278 sq.) an empty pit. ",
+				"<cite ref=\"Shabbat 36a:6\">Sabb. 36ᵃ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 38:11\">Gen. R. s. 38</cite> (calling it Bolsif, by play on <he>ב̇ל̇ל ש̇פ̇ת</he>, <cite ref=\"Genesis 11:9\">Gen. XI, 9</cite>). ",
+				"<cite ref=\"Avodah Zarah 11b:8\">Ab. Zar. 11ᵇ</cite> <he>בית נכו בכורסי</he> ed. (Ms. M. <he>בית נבו שבבורסין</he>, corr. acc.) the temple of Nebo in Bors. (v. Rabb. D. S. a. l. note). ",
+				"<cite ref=\"Kiddushin 72a:3\">Kidd. 72ᵃ</cite> <he>פרת דבורסי</he> the Euphrates land near B.—",
+				"<cite ref=\"Yoma 10a:5\">Yoma 10ᵃ</cite> <he>כלח זו פרת דבורסיף</he>."
+			]
+		}
+	]
+}

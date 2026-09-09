@@ -1,0 +1,29 @@
+{
+	"id": "N00955",
+	"slug": "נסע-2",
+	"headword": {
+		"text": "נְסַע"
+	},
+	"page": {
+		"number": 918,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N00954\">same</cite> <cite ref=\"Bereishit Rabbah 38:7\">Gen. R. s. 38</cite> (ref. to <cite ref=\"Genesis 11:2\">Gen. XI, 2</cite>) <he>נַסְעוּ מן מדינחא וכ׳</he> they moved from the east to go further east.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַסַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to remove</i>. Y. Meg. IV, 75ᶜ top <he>אנא מסתכל ולא מַסַּע דעתי</he> I can look (at the priests) without diverting my attention (from my prayers); Y. Taan. IV, beg. 67ᵇ <he>מַסְּעָה</he>; v. <cite ref=\"E00707\"><he>הֶסֵּעַ</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

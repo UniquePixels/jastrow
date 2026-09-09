@@ -1,0 +1,22 @@
+{
+	"id": "C01352",
+	"slug": "גרם-4",
+	"headword": {
+		"text": "גָּרָם"
+	},
+	"page": {
+		"number": 270,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C01349\"><he>גָּרַם</he></cite>) <i>cause, indirect production of an effect</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 120b:7\">Sabb. 120ᵇ</cite> <he>גְּרַם כיבוי</he> indirect extinction of a fire (by placing vessels filled with water in its way), v. <cite ref=\"C01355\"><he>גְּרָמָא</he></cite>."
+			]
+		}
+	]
+}

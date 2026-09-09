@@ -1,0 +1,27 @@
+{
+	"id": "M01316",
+	"slug": "מישני",
+	"headword": {
+		"text": "מֵישָׁנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵישָׁנִית"
+		}
+	],
+	"page": {
+		"number": 779,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01315\">preced.</cite>) <i>Mesenian</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 71b:14\">Kidd. 71ᵇ</cite> <he>הא דמשתעיא מ׳</he> that Apamea where the Mesenian dialect is spoken."
+			]
+		}
+	]
+}

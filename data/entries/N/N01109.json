@@ -1,0 +1,81 @@
+{
+	"id": "N01109",
+	"slug": "נצח-2",
+	"headword": {
+		"text": "נְצַח"
+	},
+	"page": {
+		"number": 928,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01108\">same</cite><i>to be glad, to sing</i>. Targ. II Esth. I, 2 <he>והוה נָצַח וכ׳</he> it flew singing among &c.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to succeed, thrive</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 11:2\">Targ. Koh. XI, 2</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be victorious</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 32:18\">Targ. O. Ex. XXXII, 18</cite>, v. <cite ref=\"N01112\"><he>נַצְחָא</he></cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Sotah 9:13:3\">Y. Sot. IX, 24ᵇ</cite> <he>נַצְחוּ טליא</he> the boys (John Hyrcan’s sons) have won the battle; Bab. ",
+				"<cite ref=\"Sotah 33a:8\">Sot. 33ᵃ</cite>; <cite ref=\"Tosefta Sotah 13:5\">Tosef. ib. XIII, 5</cite>. ",
+				"<cite ref=\"Tamid 32a:63\">Tam. 32ᵃ</cite>, v. <cite ref=\"O00499\"><he>סִטְנָא</he></cite>; a. e."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַצֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to conquer, overpower</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 16:14\">Targ. Y. Num. XVI, 14</cite>; a. e.—",
+						"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 13</cite> (expl. <he>וירדנה</he> <cite ref=\"Eichah Rabbah 1:57\">ib.</cite>) <he>נַצְּחָהּ</he> (not <cite ref=\"N01112\"><he>נצחא</he></cite>) he conquered her."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַנְצַח"],
+			"senses": [
+				{
+					"gloss": "<i>to cheer up, play</i>. Y. Ter. VIII, end, 46ᶜ <he>וא׳ קדמיהון</he> and played before them; (<cite ref=\"Bereishit Rabbah 63\">Gen. R. s. 63</cite> <he>מוזגה</he>, v. <cite ref=\"M00713\"><he>מְזַג</he></cite>).",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְנְצַח"],
+			"senses": [
+				{
+					"gloss": "<i>to be bright, shine, excel</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 19:11\">Targ. Ez. XIX, 11</cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 31:8\">Ib. XXXI, 8</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be defeated</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 32:18\">Targ. Y. Ex. XXXII, 18</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "R00721",
+	"slug": "צפרתא",
+	"headword": {
+		"text": "צִפַּרְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִי׳"
+		}
+	],
+	"page": {
+		"number": 1299,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"R00423\"><he>צִיפַּר</he></cite>) <i>fowl</i>, esp. <i>a small bird</i>, (supposed to be) <i>the humming bird</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 107a:5\">Snh. 107ᵃ</cite> <he>אתא שטן</he> … <he>כצי׳</he> Satan came to him disguised as a bird (<cite ref=\"Yalkut Shimoni on Nach 148:1\">Yalk. Sam. 148</cite> <he>כטביא</he>). ",
+				"<cite ref=\"Sukkah 5b:1\">Succ. 5ᵇ</cite> <he>כאפי דצ׳</he> as large as the face of a <i>tsipparta</i>, opp. <he>בר יוכני</he>. ",
+				"<cite ref=\"Shabbat 80b:9\">Sabb. 80ᵇ</cite> <he>דצ׳</he> the egg of a <i>ts.</i> ",
+				"<cite ref=\"Yoma 75b:7\">Yoma 75ᵇ</cite> <he>והוי כציפורתא</he> the quail (<i>s’lau</i>) was no larger than a <i>ts.</i>; a. e.; v. <cite ref=\"R00700\"><he>צְפִירְתָּא</he></cite>.—<he>צ׳ דדיקלא</he> ‘the bird of the palm’ (= h. <he>צפורת כרמים</he>) a species of <i>locusts</i>. ",
+				"<cite ref=\"Shabbat 90b\">Sabb. 90ᵇ</cite> Ar. ed. Koh. (missing in ed.)."
+			]
+		}
+	]
+}

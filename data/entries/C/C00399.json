@@ -1,0 +1,34 @@
+{
+	"id": "C00399",
+	"slug": "גולמא",
+	"headword": {
+		"text": "גּוֹלְמָא"
+	},
+	"page": {
+		"number": 222,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00398\">same</cite><i>unfinished vessel</i>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "Pl. <he>גּוּלְמַיָּא</he>, <cite ref=\"C00401\"><he>גּוּלְמֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 31:22\">Targ. Y. Num. XXXI, 22</cite> (after <cite ref=\"Sifrei Bamidbar 158\">Sifré Num. 158</cite>, v. <cite ref=\"C00398\">preced.</cite>).—",
+				"<cite ref=\"Shabbat 52b:18\">Sabb. 52ᵇ</cite> <he>בגֻלְמֵי</he>; <cite ref=\"Shabbat 123a:17\">123ᵃ</cite> <he>בגולמי</he> it treats of unfinished (needles).—2) (cmp. <cite ref=\"C00364\"><he>גְּוִיל</he></cite>) <i>stone</i>. Pl. <he>גּוֹלְמִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Esther 9:5\">Targ. Esth. IX, 5</cite> <he>קטילת ג׳</he> (for b. h. <cite ref=\"E00814\"><he>הֶרֶג</he></cite>) death by stoning.—",
+				"<cite ref=\"Sanhedrin 95a\">Snh. 95ᵃ</cite> [read:] <he>אייתו לי … גולמא</he> (<he>דטינא</he>) <he>ונירגמינה</he> bring ye unto me, each of you a stone (lump of clay), and we shall stone it (overthrow the city with mere stones); cmp. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 284\">Yalk. Is. 284</cite>; Ar. s. v. <cite ref=\"C00400\"><he>גולמהרג</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>hill</i>, v. <cite ref=\"C00952\"><he>גְּלִימָא</he> II</cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "L00515",
+	"slug": "ליצן-1",
+	"headword": {
+		"text": "לֵיצָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "לַיְי׳"
+		},
+		{
+			"text": "לֵצָן"
+		}
+	],
+	"page": {
+		"number": 709,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00312\"><he>לוּץ</he></cite>) (<i>irreverent</i>) <i>talker</i>, <i>scoffer, jester</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 1:13\">Midr. Till. to Ps. I, 1</cite> <he>מכאן שהיה ליי׳</he> (ed. Bub. <he>לי׳</he>) this proves that the serpent was an irreverent talker.—Pl. <he>לֵיצָנִים</he>, <he>לֵיצָנִין</he>, <cite ref=\"L00514\"><he>לֵצָ׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:1:18\">Y. Ber. II, 4ᵇ</cite> bot. <he>אין דור שאין בו ל׳</he> there is no generation without scorners. ",
+				"<cite ref=\"Shemot Rabbah 52:2\">Ex. R. s. 52</cite> <he>לֵיצָנֵי ישראל</he> the scoffers among the Israelites; <cite ref=\"Yalkut Shimoni on Torah 417:1\">Yalk. ib. 417</cite> <he>ל׳ הדור</he>. ",
+				"<cite ref=\"Avodah Zarah 19a:19\">Ab. Zar. 19ᵃ</cite>; a. e.—V. <cite ref=\"L00659\"><he>לֵץ</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "K00953",
+	"slug": "כסף-3",
+	"headword": {
+		"text": "כֶּסֶף"
+	},
+	"page": {
+		"number": 655,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K00952\">preced.</cite> wds.) <i>silver</i>; (sub. <he>מעה</he>) <i>a silver piece, M’ah</i> (one sixth of a Denar, v. Zuckerm. Jüd. Münz. p. 15; p. 33, note 203); in gen. <i>money, value</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 1:1\">Kidd. I, 1</cite> <he>בכ׳</he> by (handing to her) an object of value. ",
+				"<cite ref=\"Yevamot 63b:7\">Yeb. 63ᵇ</cite> <he>שמזונותיו תלויין בכַסְפּוֹ</he> whose livelihood depends on his money (a money-lender). ",
+				"<cite ref=\"Mishnah Shevuot 6:1\">Shebu. VI, 1</cite> <he>הטענה שתי כ׳</he> the claim must amount to no less than two M’ah. Tosef. Keth. XIII (XII), 3 <he>כ׳ בבל</he> the Babylonian silver standard; <he>כ׳ א״י</he> the Palestinean &c. ",
+				"<cite ref=\"Mishnah Shevuot 6:1\">Ib.</cite> <he>כ׳ שדיברה … זו היא כ׳ צורי זה ירושלמי</he> wherever the Torah speaks of <i>Kesef</i> (as fines), it must be paid according to the Tyrian standard … that is the Jerusalem <i>kesef</i> (eight times the provincial <i>kesef</i> <he>כ׳ מדינה</he>, v. Zuckerm. l. c.); a. v. fr.—Pl. <he>כְּסָפִים</he>. ",
+				"<cite ref=\"Bava Metzia 42a:6\">B. Mets. 42ᵃ</cite>; <cite ref=\"Pesachim 31b:9\">Pes. 31ᵇ</cite> <he>כ׳ אין להם שמירה וכ׳</he> coins given in trust are not duly guarded unless they are buried in the ground. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 4:1:3\">Y. Yoma IV, beg. 41ᵇ</cite> <he>בשלשה … ובכ׳</he> by three methods was the land of Israel divided, by lots, by the Urim and Tummim, and according to the value of property; a. e."
+			]
+		}
+	]
+}

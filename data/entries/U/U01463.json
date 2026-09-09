@@ -1,0 +1,34 @@
+{
+	"id": "U01463",
+	"slug": "שמיטא-1",
+	"headword": {
+		"text": "שְׁמִיטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁמִיטָה"
+		}
+	],
+	"page": {
+		"number": 1595,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U01430\"><he>שָׁמוּט</he></cite> <i>nimble, thin</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 45b:7\">Bekh. 45ᵇ</cite> (expl. <he>קפח</he>, Mish. ",
+				"<cite ref=\"Mishnah Bekhorot 7:6\">ib. VII, 6</cite>) <he>באריכא ש׳ סניא</he> it means one disgustingly long and thin."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>loose, detached</i>, v. <cite ref=\"U01454\"><he>שְׁמַט</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "K00006",
+	"slug": "כאב-3",
+	"headword": {
+		"text": "כְּאֵב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 606,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K00005\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>heaviness, pain</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 55a:1\">Ber. 55ᵃ</cite> <he>כ׳ לב</he> heaviness of heart (fretfulness). ",
+				"<cite ref=\"Bereishit Rabbah 67:13\">Gen. R. s. 67</cite>, end <he>כ׳ על כ׳</he> grief added to grief; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>grievous offence</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 3:9\">Deut. R. s. 3</cite> (ref. to <he>מכאביו</he>, <cite ref=\"Exodus 3:7\">Ex. III, 7</cite>) <he>יודע אני מה כ׳ וכ׳</he> I know what grievous offence they are going to commit, v. <cite ref=\"K00004\"><he>כָּאֵב</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

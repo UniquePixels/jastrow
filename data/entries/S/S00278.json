@@ -1,0 +1,23 @@
+{
+	"id": "S00278",
+	"slug": "קוזמידיא",
+	"headword": {
+		"text": "קוֹזְמִידְיָא"
+	},
+	"page": {
+		"number": 1325,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (κοσμίδια S.) <i>ornaments, jewelry</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 4:1:3\">Y. Ned. IV, beg. 38ᶜ</cite> <he>אילין ק׳ דאית וכ׳</he> (Ar. <cite ref=\"S00283\"><he>קוֹזְמָרְיָא</he></cite> κοσμάρια) dare they not lend them the jewelry which they wear?"
+			]
+		}
+	]
+}

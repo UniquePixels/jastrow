@@ -1,0 +1,25 @@
+{
+	"id": "U00238",
+	"slug": "שגרא",
+	"headword": {
+		"text": "שִׁגְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1522,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שְׁגַר</he> I) <i>that which is cast away;</i> <he>ש׳ דתמדי</he> <i>dates after being pressed out</i> for beer, <i>refuse</i>. ",
+			"units": ["<cite ref=\"Ketubot 80a:1\">Keth. 80ᵃ</cite> top."]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "I00531",
+	"slug": "טמא-4",
+	"headword": {
+		"text": "טָמֵא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טְמֵאָה"
+		}
+	],
+	"page": {
+		"number": 538,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h., v. <cite ref=\"I00530\">preced. art.</cite>) <i>unclean, levitically impure, forbidden</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 12:2\">Kel. XII, 2</cite> <he>המחובר לט׳ ט׳</he> whatever is attached to an object which is fit to become unclean, may become unclean. ",
+				"<cite ref=\"Mishnah Kelim 12:1\">Ib. 1</cite> <he>טבעת אדם ט׳</he> a ring used by man may eventually become unclean; a. v. fr.—",
+				"<cite ref=\"Mishnah Chullin 7:5\">Ḥull. VII, 5</cite> <he>דג ט׳</he> a fish forbidden to eat. ",
+				"<cite ref=\"Mishnah Chullin 7:6\">Ib. 6</cite> (<cite ref=\"B00182\"><he>בהמה</he></cite>) <he>ט׳</he> a forbidden animal; a. v. fr.—",
+				"<cite ref=\"Avodah Zarah 39a:7\">Ab. Zar. 39ᵃ</cite> (referring to ‘the ass of the sea’, v. <cite ref=\"H01223\"><he>חֲמָר</he></cite>, a. ‘the ox of the sea’, v. <cite ref=\"V00275\"><he>תּוֹרָא</he></cite>) <he>ט׳ טהור טהור ט׳</he> what is unclean (on land) is clean (in water) &c.—<he>טְמֵא מת</he> = b. h. <he>טָ׳ למת</he>, <i>one made unclean through a corpse</i>. ",
+				"<cite ref=\"Pesachim 19b:13\">Pes. 19ᵇ</cite>; a. fr.—Pl. <he>טְמֵאִים</he>, <he>טְמֵאִין</he>; f. <he>טְמֵאוֹת</he>. ",
+				"<cite ref=\"Mishnah Chullin 8:6\">Ḥull. VIII, 6</cite>. ",
+				"<cite ref=\"Pesachim 17a:10\">Pes. 17ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Kelim 11:8\">Kel. XI, 8</cite>; a. v. fr.—<he>טְמֵאֵי מתים</he>, v. supra. ",
+				"<cite ref=\"Pesachim 66b:13\">Pes. 66ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

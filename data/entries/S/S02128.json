@@ -1,0 +1,73 @@
+{
+	"id": "S02128",
+	"slug": "קרע-1",
+	"headword": {
+		"text": "קָרַע"
+	},
+	"page": {
+		"number": 1424,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to tear, split</i>; esp. <i>to rend the garment in mourning</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:5\">Kel. XVI, 5</cite> <he>עד שיִקְרְעֶנּוּ</he> (Mish. ed. <he>שיַקְרִיעֶנּוּ</he> <i>Hif.</i>) until he tears the bale open. ",
+				"<cite ref=\"Moed Katan 22b:15\">M. Kat. 22ᵇ</cite> <he>על כל … אינו קוֹרֵעַ אלא עליון</he> for all dead (except parents) … one must rend only the upper garment. ",
+				"<cite ref=\"Moed Katan 22b:15\">Ib.</cite> <he>האשה קוֹרַעַת וכ׳</he> a woman (mourning for her parents) rends the lower garment and puts it back in its place, and then rends the upper garment. ",
+				"<cite ref=\"Sanhedrin 60a:16\">Snh. 60ᵃ</cite> <he>אחד השומע … חייב לִקְרוֹעַ</he> both he that hears a blasphemy directly, and he that hears it from one that heard it (and reports as witness before court) must rend his garment; a. v. fr.—Part. pass. <he>קָרוּעַ</he>; pl. <he>קְרוּעִים</he>, <he>קְרוּעִין</he>. ",
+				"<cite ref=\"Moed Katan 26b:18\">M. Kat. 26ᵇ</cite> <he>היוצא בבגד ק׳ וכ׳</he> he that marches before a corpse with a garment rent (for a previous case) robs (deceives) the dead and the living. ",
+				"<cite ref=\"Moed Katan 26a:4\">Ib.ᵃ</cite> (ref. to <cite ref=\"II Kings 2:12\">II Kings II, 12</cite>) <he>ק׳ ועומדים לשנים</he> remaining always rent in two; ib. 22ᵇ (v. Rabb. D. S. a. l. note 4); Snh. l. c.; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קֵרֵעַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S02127\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 26b:20\">M. Kat. 26ᵇ</cite> <he>ואין מְקָרְעִין בפניו</he> you must not rend your garment in his (the sick man’s) presence. ",
+						"<cite ref=\"Moed Katan 26b:21\">Ib.</cite> <he>מקרעין לקטן וכ׳</he> we rend a minor’s garment in order to make him feel sad; <cite ref=\"Moed Katan 14b\">ib. 14ᵇ</cite>. ",
+						"<cite ref=\"Rosh Hashanah 16b:6\">R. Hash. 16ᵇ</cite> <he>ארבעה … מקרעין גזר וכ׳</he> four things cause an evil decree passed on man to be torn (cancelled), they are: charity, prayer &c.; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"C01379\"><he>גָּרַע</he></cite>) <i>to scrape, to mark the outlines of letters by abrasion</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 19b:1\">Gitt. 19ᵇ</cite> <he>עדים … מקרעין להם וכ׳</he> for witnesses that know not how to sign their names, grooves are made on blank paper, and they fill the grooves out with ink; <cite ref=\"Gittin 9b\">ib. 9ᵇ</cite>; Y. ib. II, 44ᵇ top <he>ומְקָרֵעַ</he>; [Tosaf. to <cite ref=\"Gittin 9b\">Gitt. 9ᵇ</cite>: you cut the names out on blank paper and put it on the document, and the witnesses fill the cuts out]. ",
+						"<cite ref=\"Tosefta Shabbat 11:8\">Tosef. Sabb. XI</cite> (<cite ref=\"Tosefta Shabbat 12:8\">XII</cite>), 8, contrad. fr. <cite ref=\"T01092\"><he>רשם</he></cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִקְרַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be torn; to be cut open, be operated upon by a section</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Yevamot 8:6\">Yeb. VIII, 6</cite>, a. e. <he>טומטום שנ׳</he>, v. <cite ref=\"I00178\"><he>טוּמְטוּם</he></cite>. ",
+						"<cite ref=\"Bekhorot 42b:16\">Bekh. 42ᵇ</cite> <he>שמא יִקָּרֵעַ וכ׳</he> he may have an operation performed, and be found a eunuch; <cite ref=\"Tosefta Yevamot 11:1\">Tosef. Yeb. XI, 1</cite>; <cite ref=\"Yevamot 83b:7\">Yeb. 83ᵇ</cite>. ",
+						"<cite ref=\"Bava Batra 168b:3\">B. Bath. 168ᵇ</cite> <he>נ׳ פסול נִתְקָרֵעַ כשר</he> if a document is found torn, it is invalid; if it appears torn by accident, it is valid as evidence; <cite ref=\"Bava Batra 168b:5\">ib.</cite> <he>נ׳ קֶרַע של בית דין נתק׳ וכ׳</he> <i>miḳrʿa</i> refers to the rent as made in court for cancellation, <i>nithḳareʿa</i> refers to a rent different from the manner customary in court; Y. Gitt. II, 44ᵇ; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִתְקָרֵעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to become torn</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

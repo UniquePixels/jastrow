@@ -1,0 +1,36 @@
+{
+	"id": "C00226",
+	"slug": "גדל-4",
+	"headword": {
+		"text": "גְּדַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 213,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00225\">same</cite>.",
+			"units": [
+				"<cite ref=\"Gittin 69a:5\">Gitt. 69ᵃ</cite> <he>ניגדול תרתי וכ׳</he> let him twine two threads. ",
+				"<cite ref=\"Moed Katan 11a:2\">M. Kat. 11ᵃ</cite> <he>למִיגְדַּל אהורי</he> to weave nets; <he>למי׳ תנורא</he> to build a stove, v. <cite ref=\"C00225\">preced.</cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּדֵּל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"C00225\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Chagigah 4b:11\">Ḥag. 4ᵇ</cite> <he>מרים מְגַדְּלָא נשייא</he> Ms. M. (ed. <he>מג׳ שיער נ׳</he>) Miriam the women’s hair-dresser (v. Rabb. D. S. a. l. note); <cite ref=\"Sanhedrin 67a\">Snh. 67ᵃ</cite>; <cite ref=\"Shabbat 104b\">Sabb. 104ᵇ</cite> (missing in later editions). ",
+						"<cite ref=\"Sukkah 37a:6\">Succ. 37ᵃ</cite> <he>הנהו מְגַדְּלֵי הושענא</he> those twining the willow twigs (v. <cite ref=\"E00289\"><he>הוֹשַׁעְנָא</he></cite>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

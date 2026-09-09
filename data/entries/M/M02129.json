@@ -1,0 +1,24 @@
+{
+	"id": "M02129",
+	"slug": "מעלה-2",
+	"headword": {
+		"text": "מַעֲלֶה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 817,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M02128\">preced.</cite>) <i>ascent</i>.—<he>מַעֲלֵה אֲדוּמִּים</he> (b. h.) pr. n. pl. <i>Maălé Adummim, Maledomim</i> between Jericho and Jerusalem. Tosef. ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 1:15\">R. Hash. I, 15</cite>; Y. ib. II, 57ᵈ bot.; Bab. ",
+				"<cite ref=\"Rosh Hashanah 22b\">ib. 22ᵇ</cite>"
+			]
+		}
+	]
+}

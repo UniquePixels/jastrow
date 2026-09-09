@@ -1,0 +1,24 @@
+{
+	"id": "M02601",
+	"slug": "מרוצה-1",
+	"headword": {
+		"text": "מרוּצָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 839,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"T00427\"><he>רוּץ</he></cite>)<i>running</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 109:3\">Yalk. Gen. 109</cite> <he>הכיר בו שמְרוּצָתוֹ לרעה</he> (some ed. <he>שמְרִיצָ׳</he>) he (Eliezer) recognized that his (Laban’s) running was for evil. ",
+				"<cite ref=\"Midrash Tehillim 63\">Midr. Till. to Ps. LXIII</cite> ed. Bub. <he>היה רץ … במ׳</he> would run after the horse in speed."
+			]
+		}
+	]
+}

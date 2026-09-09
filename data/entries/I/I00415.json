@@ -1,0 +1,22 @@
+{
+	"id": "I00415",
+	"slug": "טיפונא",
+	"headword": {
+		"text": "טִיפוּנָא"
+	},
+	"page": {
+		"number": 533,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"I00202\"><he>טוּפְיָינָא</he></cite>) <i>surplus, excess</i>. ",
+			"units": [
+				"<cite ref=\"Temurah 30a:34\">Tem. 30ᵃ</cite> <he>טִיפוּנֵה דכלב</he> the excess of the value of the dog over that of any single lamb taken in exchange."
+			]
+		}
+	]
+}

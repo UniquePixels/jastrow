@@ -1,0 +1,36 @@
+{
+	"id": "F00096",
+	"slug": "ושט",
+	"headword": {
+		"text": "וֶשֶׁט"
+	},
+	"page": {
+		"number": 376,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>יָשַׁט</he>) [<i>something stretched and narrow</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>gullet</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite> <he>נקובת הו׳</he> an animal whose gullet is found to have been perforated.—",
+				"<cite ref=\"Niddah 23b:44\">Nidd. 23ᵇ</cite> <he>וֶשְׁטוֹ נקוב</he> if the infant’s gullet is perforated (there being a hole in the throat); <he>ו׳ אטום</he> if its gullet is closed; a. fr.—",
+				"<cite ref=\"Yalkut Shimoni on Nach 687\">Yalk. Ps. 687</cite> (translating <he>מלקוחי</he>, <cite ref=\"Psalms 22:16\">Ps. XXII, 16</cite>) <he>לוִושְׁטִי</he>; Midr. Till. to Ps. l. c. <he>לויסיטי</he> (corr. acc.; cmp. Lat. fauces) to my throat."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"B00837\"><he>בְּלוּעָה</he></cite>, <cite ref=\"B00874\"><he>בְּלִיעֵי</he></cite>) <i>straits, canal</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 8a:13\">Ber. 8ᵃ</cite> (Rashi: <i>loop-hole</i> for the rope), v. <cite ref=\"Q00623\"><he>פִּיטוּרִין</he></cite> a. <cite ref=\"R00413\"><he>צִיפּוּרִין</he></cite>; M. Kat. end; <cite ref=\"Vayikra Rabbah 4\">Lev. R. s. 4</cite>; Tanḥ. Mikk. 10; ed. Bub. 15; <cite ref=\"Kohelet Rabbah 6:6\">Koh. R. to VI, 6</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

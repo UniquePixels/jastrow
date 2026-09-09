@@ -1,0 +1,31 @@
+{
+	"id": "J00749",
+	"slug": "יתר-4",
+	"headword": {
+		"text": "יֶתֶר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 605,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h., v. <cite ref=\"J00746\"><he>יָתַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cord, bow-string</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 5:5\">Lev. R. s. 5</cite> (ref. to <cite ref=\"Psalms 11:2\">Ps. XI, 2</cite>), v. <cite ref=\"M03041\"><he>מִתְחָא</he></cite>.—2) = <cite ref=\"J00255\"><he>יוֹתֵר</he></cite> <i>addition</i>, (adv.) <i>more</i>. ",
+				"<cite ref=\"Mishnah Bekhorot 7:1\">Bekh. VII, 1</cite> (<cite ref=\"Bekhorot 43a:22\">43ᵃ</cite>) <he>וי עליהן וכ׳</he> Bab. ed. (Mish. <he>יותר עליהן באדם וכ׳</he>) to these must be added, with reference to blemishes of human beings, the wedge-shaped head &c. ",
+				"<cite ref=\"Eruvin 83b:3\">Erub. 83ᵇ</cite> <he>י׳ על כן</he> more than that. ",
+				"<cite ref=\"Mishnah Gittin 3:1\">Gitt. III, 1</cite> <he>י׳ מכן</he> nay, even more; a. fr."
+			],
+			"label": "1"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "D00567",
+	"slug": "דייקא",
+	"headword": {
+		"text": "דַּיְיקָא"
+	},
+	"page": {
+		"number": 298,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00325\"><he>דּוּק</he></cite>) <i>evidence by implication</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 99a:4\">Pes. 99ᵃ</cite> <he>מתניתן נמי ד׳</he> our Mishnah, too, is evidence thereof; a. fr. V. <cite ref=\"D00696\"><he>דֵּיקָא</he></cite>."
+			]
+		}
+	]
+}

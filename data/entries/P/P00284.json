@@ -1,0 +1,33 @@
+{
+	"id": "P00284",
+	"slug": "עומקא-1",
+	"headword": {
+		"text": "עוּמְקָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1053,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00283\">same</cite><i>depth, foundation; the soil under a building</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 4:2\">B. Bath. IV, 2</cite> <he>לא את הבור … אע״פ שכתב לו ע׳ ורומא</he> (in selling a building, one has not implicitly sold) the well or the subterranean store-room, although he wrote in the contract ‘depth and height’ (ground under the building and space above the roof); <cite ref=\"Bava Batra 61a:5\">ib. 61ᵃ</cite> <he>עומקה ורומה</he> (corr. acc.). ",
+				"<cite ref=\"Bava Batra 63b:3\">Ib. 63ᵇ</cite> <he>ע׳ ורומא בסתמא לא קני</he> depth and height, unless explicitly stated, are not sold with the house (and the seller has a right to dig under and to build on top of the house); <he>אהני ע׳ ורומא למיקני ע׳ ורומא</he> the specification of ‘depth and height’ in the contract, has the effect to give possession of the ground beneath and the space above. ",
+				"<cite ref=\"Bava Batra 63b:3\">Ib.</cite> <he>ואי ס״ד בסתמא קני ע׳ ורומא ליהני ע׳ ורומא למיקנא בור וכ׳</he> but if we were to assume that depth and height are implied in the sale, let the specification of ‘depth and height’ have the effect to give possession of the well &c. Ib. 64ᵃ; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 50:11\">Gen. R. s. 50</cite> <he>וסדום בע׳ היא וכ׳</he> now, Sodom was situated in a depression, therefore he said, and I cannot escape to the mountain; <he>שרי בע׳ וכ׳</he> he dwelt in a valley, and they say to him, go out to the mountain (which has a healthier climate), and yet he speaks in that manner? <cite ref=\"Bava Metzia 117b:13\">B. Mets. 117ᵇ</cite> <he>נחית לע׳ דדינא</he>; <cite ref=\"Bava Kamma 53a\">B. Kam. 53ᵃ</cite>; <cite ref=\"Bava Kamma 39a:13\">ib. 39ᵃ</cite> <he>לעוּמְקֵיה וכ׳</he>, v. <cite ref=\"N00534\"><he>נְחַת</he></cite>; a. e.—Pl. <he>עוּמְקַיָּא</he>, <he>עוּמְקִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 130:1\">Targ. Ps. CXXX, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:34\">Targ. Ez. XXVII, 34</cite>; a. e.—V. <cite ref=\"P00921\"><he>עִמְקָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (trnsf., cmp. <cite ref=\"H01078\"><he>חָלָל</he> III</cite>) <i>intricacy, cunning, reservation</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 22:14\">Targ. Y. I Gen. XXII, 14</cite> (Y. II <cite ref=\"Q00942\"><he>פַּלְגּוּ</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

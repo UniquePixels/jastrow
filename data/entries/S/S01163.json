@@ -1,0 +1,23 @@
+{
+	"id": "S01163",
+	"slug": "קירוי-2",
+	"headword": {
+		"text": "קֵירוּי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1368,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קָרָה</he> I) <i>accident</i>; <he>בק׳</he> (cmp. <cite ref=\"P01241\"><he>עַרְאַי</he></cite>) <i>temporary</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:1:5\">Y. Shek. VI, beg. 49ᶜ</cite>; Y. Sot. VII, 22ᶜ top (ref. to <he>בסכות</he>, <cite ref=\"II Samuel 11:11\">II Sam. XI, 11</cite>) <he>סכך שהיה בק׳ וכ׳</he> it means a shelter (like booths) which was temporary, since the Temple was not yet built; <cite ref=\"Yalkut Shimoni on Nach 101:1\">Yalk. Sam. 101</cite> <he>ספר שהוא קרוי</he> (corr. acc.)."
+			]
+		}
+	]
+}

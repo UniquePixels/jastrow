@@ -1,0 +1,23 @@
+{
+	"id": "Q01873",
+	"slug": "פרמוסקא",
+	"headword": {
+		"text": "פַּרְמוּסְקָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1230,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (supposed to mean) <i>chief of police</i>; <he>גברי דפ׳</he> <i>policemen</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 93b:14\">B. Mets. 93ᵇ</cite> ed. (Ar. <he>דפימ׳</he>; Ms. M. <he>דפומסק׳</he>; Ms. R. 2 <he>דפרמסקא</he>; Alf. ed. Cost. <he>דפרמיסקא</he>; Ms. H. <he>דפלמוסא</he>; Ms. R. 1 <he>דפולמוסא</he>; Tosaf. <he>דפרמוסקי</he>). [Prob. a Babyl. corrupt. of <cite ref=\"Q00230\"><he>פולימרכא</he></cite> polemarch.]"
+			]
+		}
+	]
+}

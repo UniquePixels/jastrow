@@ -1,0 +1,49 @@
+{
+	"id": "A00370",
+	"slug": "אדא-2",
+	"headword": {
+		"text": "אָדָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵידָא"
+		}
+	],
+	"page": {
+		"number": 15,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (v. <cite ref=\"A00372\"><he>אָדָא</he> IV</cite>) <i>Ada</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " name of several Amoraim; (v. Frankel Meb. Y. p. 61ᵇ). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 10:6:8\">Y. Ter. X, 47ᵇ</cite> bot. ",
+				"<cite ref=\"Pesachim 80a:19\">Pes. 80ᵃ</cite>; a. fr.—Most prominent among them <i>R. Ada bar Ahăba</i> or Aḥăva. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:11:4\">Y. Taan. III, end, 67ᵃ</cite>; Bab. ",
+				"<cite ref=\"Taanit 20b:6\">ibid. 20ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " A. <he>דיילא</he>, <he>דיאלא</he> (attendant of scholars). ",
+			"units": [
+				"<cite ref=\"Bava Kamma 119a\">B. Kam. 119ᵃ</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " a slave. ",
+			"units": ["<cite ref=\"Kiddushin 70b:10\">Kidd. 70ᵇ</cite>"],
+			"label": "3"
+		}
+	]
+}

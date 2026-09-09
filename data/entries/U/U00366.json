@@ -1,0 +1,42 @@
+{
+	"id": "U00366",
+	"slug": "שוחדא",
+	"headword": {
+		"text": "שׁוֹחֲדָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוּחֲ׳"
+		},
+		{
+			"text": "שׁוּחְ׳"
+		}
+	],
+	"page": {
+		"number": 1530,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"U00365\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 15:19\">Targ. I Kings XV, 19</cite>. ",
+				"<cite ref=\"Onkelos Exodus 23:8\">Targ. Ex. XXIII, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 15:5\">Targ. Ps. XV, 5</cite>; a. fr.—",
+				"<cite ref=\"Ketubot 105b:5\">Keth. 105ᵇ</cite> <he>מאי טעמא דש׳ כיון דקביל ליה ש׳ וכ׳</he> why is a gift (to the judge) forbidden? As soon as he accepts a gift from a person, his mind has become attached to him (the giver, v. <cite ref=\"S01887\"><he>קְרַב</he></cite>), and he becomes like his own self, and none can see the unfavorable side of his own case (v. <cite ref=\"U00365\">preced.</cite>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>singling out, choice, discretion</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 10:4:2\">Y. Keth. X, 33ᵈ</cite> bot.; 34ᵃ top <he>ש׳ דדייני</he> the judges single out him to whom to adjudicate the claim in litigation; v. <cite ref=\"U00334\"><he>שׁוּדָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

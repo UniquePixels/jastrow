@@ -1,0 +1,23 @@
+{
+	"id": "S01126",
+	"slug": "קיצה-3",
+	"headword": {
+		"text": "קִיצָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1367,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01115\"><he>קִיץ</he></cite> or <cite ref=\"S00529\"><he>קוּץ</he></cite>, <i>Hif.</i>) <i>awakening</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei DeRabbi Eliezer 34:3\">Pirké d’R. El. ch. XXXIV</cite> <he>קִיצַת הבקר וכ׳</he> the awakening in the morning is like the world to come; <cite ref=\"Pirkei DeRabbi Eliezer 34\">ib.</cite> <he>שינת הבקר</he> (corr. acc.)."
+			]
+		}
+	]
+}

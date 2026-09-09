@@ -1,0 +1,23 @@
+{
+	"id": "B01320",
+	"slug": "ברקאי-1",
+	"headword": {
+		"text": "בַּרְקַאי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 197,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>morning star</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 3:1\">Yoma III, 1</cite>; <cite ref=\"Yoma 28b:1\">28ᵇ</cite>; v. <cite ref=\"B01314\"><he>בְּרַק</he></cite>. [Y. ed. <cite ref=\"B00389\"><he>בּוֹרְקַי</he></cite> q. v.]"
+			]
+		}
+	]
+}

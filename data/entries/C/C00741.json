@@ -1,0 +1,48 @@
+{
+	"id": "C00741",
+	"slug": "גימטריא",
+	"headword": {
+		"text": "גִּימַטְרְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּמַטְרְיָא"
+		}
+	],
+	"page": {
+		"number": 239,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (a transpos. of γραμματεῖον, … άτια, pl.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>accounts</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 5:1:11\">Y. Ter. V, 43ᶜ</cite> bot. <he>חשבון ג׳</he> arithmetical calculation."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the use of letters for their numerical value; homiletic interpretation based on the numerical value of letters</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 8a:13\">Ber. 8ᵃ</cite> <he>ת̇ו̇צ̇א̇ו̇ת̇ בגי׳ וכ׳</he> the word <i>totsaoth</i> (<cite ref=\"Psalms 68:21\">Ps. LXVIII, 21</cite>) intimates 903 (causes of death). ",
+				"<cite ref=\"Vayikra Rabbah 21:4\">Lev. R. s. 21</cite> <he>השטן גי׳ וכ׳</he>; <cite ref=\"Midrash Tehillim 27:3\">Midr. Till. to Ps. XXVII</cite> <he>השט״ן בגי׳ וכ׳</he> <i>hassatan</i> (the accuser) counts 364; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>learned writing, cifer</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 22a:12\">Snh. 22ᵃ</cite> <he>בגי׳ איכתיב</he> (Ms. M. <cite ref=\"H00526\"><he>איתחזי</he></cite>) the inscription of the wall was in cifers (<cite ref=\"A03391\"><he>א״ת ב״ש</he></cite>).—Pl. <he>גִּימַטְרְיָאוֹת</he> <i>arithmetic</i>. ",
+				"<cite ref=\"Pirkei Avot 3:18\">Ab. III, 18</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

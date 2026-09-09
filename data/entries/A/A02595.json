@@ -1,0 +1,25 @@
+{
+	"id": "A02595",
+	"slug": "אף-1",
+	"headword": {
+		"text": "אַף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 99,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <cite ref=\"A02770\"><he>אפף</he></cite>, cmp. <cite ref=\"C00993\"><he>גַּם</he></cite>)<i>also, too</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 6b:5\">Keth. 6ᵇ</cite>; a. fr. <he>אף הוא</he> <i>the same</i>. ",
+				"<cite ref=\"Pirkei Avot 2:6\">Aboth II, 6</cite>.—<he>אף על פי</he> (abbr. <he>אע״פ</he>) prop. <i>even following the dictation of;</i> <he>אף על גב</he> (abbr. <he>אע״ג</he>) prop. <i>even on the top of, = notwithstanding, although</i> (the former mostly in Mishnah, the latter in Gemara). ",
+				"<cite ref=\"Mishnah Ketubot 5:1\">Keth. V, 1</cite> <he>אע״פ שאמרו וכ׳</he> although the Rabbis have said; a. fr.—",
+				"<cite ref=\"Megillah 3a:14\">Meg. 3ᵃ</cite> <he>אע״ג דאיהו לא חזא</he> although he does not see it; a. v. fr.—אף על פי כן <i>nevertheless</i>. ",
+				"<cite ref=\"Sanhedrin 98a:4\">Snh. 98ᵃ</cite>; a. fr.—<i>Chald.</i> same. ",
+				"<cite ref=\"Onkelos Numbers 16:13\">Targ. O. Num. XVI, 13</cite>; a. e. V. <cite ref=\"A00796\"><he>אוּף</he></cite>."
+			]
+		}
+	]
+}

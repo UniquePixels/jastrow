@@ -1,0 +1,32 @@
+{
+	"id": "O01296",
+	"slug": "סער-4",
+	"headword": {
+		"text": "סְעַר",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1010,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01295\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִסְתַּעַר</he> <i>to be excited, troubled</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 6:11\">Targ. II Kings VI, 11</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

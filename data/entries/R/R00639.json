@@ -1,0 +1,97 @@
+{
+	"id": "R00639",
+	"slug": "צנע-2",
+	"headword": {
+		"text": "צְנַע"
+	},
+	"page": {
+		"number": 1293,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00638\">same</cite>, <i>to guard</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 23b:13\">B. Kam. 23ᵇ</cite> <he>זיל … דלִיצְנְעִינְהוּ</he> (Ar. <he>אַצְנְעִינְהוּ</he> <i>Af.</i>) go and tell the owner of the goats to guard them (from trespassing on my property).—Part. pass. <cite ref=\"R00624\"><he>צְנִיעַ</he></cite>; pl. <he>צְנִיעִין</he> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>reserved, kept, guarded</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 10:5\">Targ. Y. Deut. X, 5</cite>.—",
+						"<cite ref=\"Bava Batra 58a:10\">B. Bath. 58ᵃ</cite> <he>אמאי לא צְנִיעַת באיסורא</he> why art thou not more guarded in thy immoral conduct?—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>retired, chaste</i>, v. <cite ref=\"R00624\"><he>צְנִיעַ</he></cite>.",
+					"units": [],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַצְנַע"],
+			"senses": [
+				{
+					"gloss": "<i>to put aside, deposit, withdraw</i> (<i>from use</i>). ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 17:22\">Targ. Num. XVII, 22</cite>. ",
+						"<cite ref=\"Onkelos Leviticus 16:23\">Targ. Lev. XVI, 23</cite>; a. fr.—",
+						"<cite ref=\"Bava Metzia 25b:15\">B. Mets. 25ᵇ</cite> <he>אטו אמוריים מַצְנְעֵי וכ׳</he> is it only Amorites that hide (their treasures in walls) &c.? <cite ref=\"Bava Batra 24a:13\">B. Bath. 24ᵃ</cite> <he>דמיגניב מניה ואִיצַּנּוּעֵי בגויה לא מצנעי</he> Ms. M. (v. Rabb. D. S. a. l. note for Var. Lect.) as to being stolen from there and hidden, they would not hide it in the same grounds from the surface of which they had taken it. ",
+						"<cite ref=\"Bava Batra 24a:13\">Ib.</cite> <he>אבל עינבי מַצְנְעֵי</he> (or <he>מִיצְנְעֵי</he>) but grapes they may hide in the same grounds; a. e.—B. Kam. l. c. <he>אַצְנְעִינְהוּ</he> guard them, v. supra.—[<cite ref=\"Shir HaShirim Rabbah 1:16:3\">Cant. R. to I, 16</cite> <he>מצנעה</he>, v. <cite ref=\"N01003\"><he>נְעַץ</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["צַנַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to restrain, make a person respect authority</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 36b:59\">Nidd. 36ᵇ</cite> <he>זיל צַנְּעֵיה</he> go and make him respect my authority."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause a person to live in retirement</i> (a mild method of excommunication). ",
+					"units": [
+						"<cite ref=\"Kiddushin 25a:2\">Kidd. 25ᵃ</cite> <he>זיל צַנְּעִינְהוּ</he> go and tell them to withdraw (cmp. <he>הכבד ושב בביתך</he>, <cite ref=\"Moed Katan 17a\">M. Kat. 17ᵃ</cite>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִצְטַנַּע", "אִיצַּנַּע"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיצְּנַע"],
+			"senses": [
+				{
+					"gloss": "<i>to restrain one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 14:15\">Targ. Y. Gen. XIV, 15</cite> (not <he>אַצְטִינְעָא</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be private, to be hidden</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 60a:6\">B. Bath. 60ᵃ</cite> <he>מצינא לאִצְטַנּוּעֵי מינך</he> I can be private (protect myself) from thy gaze. ",
+						"<cite ref=\"Bava Batra 24a\">Ib. 24ᵃ</cite>, v. supra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

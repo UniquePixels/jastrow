@@ -1,0 +1,33 @@
+{
+	"id": "L00593",
+	"slug": "לעב-2",
+	"headword": {
+		"text": "לְעַב"
+	},
+	"page": {
+		"number": 713,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִתְלַעַב</he> ch. same. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 2:23\">Targ. II Kings II, 23</cite>. ",
+						"<cite ref=\"Targum Jonathan on Judges 19:25\">Targ. Jud. XIX, 25</cite> (ed. Lag. <he>אתעלבו</he>, v. <cite ref=\"P00766\"><he>עֲלַב</he></cite>).—Targ. ",
+						"<cite ref=\"Habakkuk 1:10\">Hab. I, 10</cite> <he>מִתְלַעֵב</he> (some ed. <he>מְתַלְעַב</he>, fr. <cite ref=\"V00619\"><he>תַּלְעֵב</he></cite>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "M01580",
+	"slug": "מלכותא",
+	"headword": {
+		"text": "מַלְכוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַלְכוּ"
+		}
+	],
+	"page": {
+		"number": 791,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"M01579\">same</cite>, <i>kingdom, rulership</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Obadiah 1:21\">Targ. Ob. I, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 9:9\">Targ. Jud. IX, 9</cite>; a. fr.—",
+				"<cite ref=\"Bava Kamma 113a\">B. Kam. 113ᵃ</cite>, v. <cite ref=\"D00636\"><he>דִּינָא</he></cite>. ",
+				"<cite ref=\"Berakhot 58a:11\">Ber. 58ᵃ</cite> <he>מ׳ דארעא כעין מ׳ דרקיעא</he> royal majesty on earth is similar to that of heaven. ",
+				"<cite ref=\"Avodah Zarah 10b:12\">Ab. Zar. 10ᵇ</cite> <he>חשיבי דמ׳</he> the notables of the (Roman) empire. ",
+				"<cite ref=\"Tamid 32a:51\">Tam. 32ᵃ</cite> <he>יסני מלכו וכ׳</he> let him shun government and governor; <he>ירחם מ׳ וכ׳</he> let him be a friend of government and ruler and (use his influence to) do good to mankind. ",
+				"<cite ref=\"Pesachim 113a\">Pes. 113ᵃ</cite> <he>מַלְכוּתַיְיהוּ אחורי וכ׳</he> their rulership dwells behind their ears, i.e. they may rise to power at some future time. ",
+				"<cite ref=\"Avodah Zarah 2b:11\">Ab. Zar. 2ᵇ</cite> <he>משכי במַלְכוּתַיְיהוּ עד וכ׳</he> (or <he>מַלְכְוָ׳</he>, <i>Pl.</i>) they will continue in power until the Messiah comes; a. fr.—Pl. <he>מַלְכְוָן</he>, <cite ref=\"M01580\"><he>מַלְכְוָתָא</he></cite>, <he>מַלְכְוָו׳</he>. ",
+				"<cite ref=\"Onkelos Genesis 25:23\">Targ. Gen. XXV, 23</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 3:21\">Targ. Deut. III, 21</cite>; a. fr."
+			]
+		}
+	]
+}

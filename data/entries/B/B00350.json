@@ -1,0 +1,23 @@
+{
+	"id": "B00350",
+	"slug": "בורדם",
+	"headword": {
+		"text": "בּוּרְדָּם",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 149,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (comp. of <cite ref=\"B00329\"><he>בּוֹר</he></cite> a. <cite ref=\"D00867\"><he>דָּם</he></cite>) [<i>well of blood</i>,] <i>dysentery, bloody flux</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 41b:3\">Ned. 41ᵇ</cite> <he>ב׳ אין מבקרין ואין מזכירין שמו</he> (Ar. <he>ברדס … אותו</he>) we must not visit (one afflicted with) <i>burdam</i>, nor mention its (real) name. [Rashi quotes a vers. <cite ref=\"B00351\"><he>בורדס</he></cite>.]"
+			]
+		}
+	]
+}

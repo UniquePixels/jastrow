@@ -1,0 +1,39 @@
+{
+	"id": "V00695",
+	"slug": "תמני",
+	"headword": {
+		"text": "תַּמְנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּמָנֵי"
+		},
+		{
+			"text": "תְּמַנְיָא"
+		}
+	],
+	"page": {
+		"number": 1678,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U01504\"><he>שְׁמֹנָה</he></cite>, <i>eight</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 5:4\">Targ. Gen. V, 4</cite>; <cite ref=\"Onkelos Genesis 5:7\">7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 12:1\">Targ. Ps. XII, 1</cite> (ed. Wil. <he>דתַמְנַיָא</he>, corr. acc.); a. fr.—",
+				"<cite ref=\"Berakhot 4b\">Ber. 4ᵇ</cite> <he>ת׳ אפין</he> (or <he>אלפין</he>) the eightfold acrosticon (<cite ref=\"Psalms 119\">Ps. CXIX</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Demai 5:4:3-4\">Y. Dem. V, 24ᵈ</cite> top <he>תּוּמַ׳ מן דתו׳ וכ׳</he>, v. <cite ref=\"M01807\"><he>מָנְפּוֹל</he></cite>; a. fr.—Pl. <cite ref=\"V00660\"><he>תַּמְנַן</he></cite>, <he>תְּמָנָן</he>; <he>תְּמָנִין</he>, <cite ref=\"V00706\"><he>תּוּמְ׳</he></cite> <i>eighty</i>. ",
+				"<cite ref=\"Onkelos Genesis 5:25\">Targ. Gen. V, 25</cite>, sq.; a. fr.—Y. Snh. VI, 23ᶜ bot. <he>תומ׳ נשיא</he> eighty women; <he>ת׳ גוברין</he> eighty men; T. ",
+				"<cite ref=\"Chagigah 2a\">Ḥag. I</cite>I, 77ᵈ bot.; a. e.—<cite ref=\"V00697\"><he>תַּמְנֵיסַר</he></cite>, <cite ref=\"V00697\"><he>תַּמְנֵיסְרֵי</he></cite>, <he>תְּמַנְתְּ עֲשׂר</he> <i>eighteen</i>. ",
+				"<cite ref=\"Onkelos Genesis 14:14\">Targ. Gen. XIV, 14</cite> (O. ed. Lsb. <cite ref=\"V00695\"><he>תְּמַנְיַת</he></cite>; ed. Vien. <he>תְּמָנַת</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 17:17\">Targ. Y. Deut. XVII, 17</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 19:3\">Targ. Y. Num. XIX, 3</cite>; a. fr.—תַּמְנִיסְרָאָה <i>the eighteenth</i>. ",
+				"<cite ref=\"Targum of I Chronicles 24:15\">Targ. I Chr. XXIV, 15</cite>."
+			]
+		}
+	]
+}

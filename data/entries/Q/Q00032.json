@@ -1,0 +1,23 @@
+{
+	"id": "Q00032",
+	"slug": "פאתא-2",
+	"headword": {
+		"text": "פָּאתָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1132,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02151\"><he>פתי</he></cite> = <he>פתח</he>) <i>door, entrance</i>.—Pl. constr. <cite ref=\"Q00033\"><he>פָּאתֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 3:9\">Targ. Job III, 9</cite> (<cite ref=\"Aramaic Targum to Job 3:10\">10</cite>) (ed. Lag. <he>פרתי</he>), v. <cite ref=\"D00865\"><he>דּלְתָא</he></cite>."
+			]
+		}
+	]
+}

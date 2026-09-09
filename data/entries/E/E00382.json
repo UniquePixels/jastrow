@@ -1,0 +1,25 @@
+{
+	"id": "E00382",
+	"slug": "היכל",
+	"headword": {
+		"text": "הֵיכָל"
+	},
+	"page": {
+		"number": 345,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>palace, the Temple;</i> esp. <i>the Holy</i>, the hall containing the golden altar &c., contrad. to the Holy of Holies, v. <cite ref=\"D00064\"><he>דְּבִיר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 4:1\">Midd. IV, 1</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Nedarim 1:3\">Ned. I, 3</cite> <he>כה׳</he> as forbidden as the offerings of the Temple (a vow formula). Y. Succ. V, 55ᶜ <he>ומשחיתים לה׳</he> (not <he>ומשתחוים</he>, v. Rashi to <cite ref=\"Ezekiel 8:16\">Ez. VIII, 16</cite>) and offended the Temple (through indecency); a. fr.—Pl. <he>הֵיכָלוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:4:2\">Y. Shek. V, end, 49ᵇ</cite> (quot. fr. ",
+				"<cite ref=\"Hosea 8:14\">Hos. VIII, 14</cite>)."
+			]
+		}
+	]
+}

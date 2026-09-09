@@ -1,0 +1,23 @@
+{
+	"id": "A01602",
+	"slug": "אירא",
+	"headword": {
+		"text": "אִירָא"
+	},
+	"page": {
+		"number": 60,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A00841\"><he>אור</he></cite>, cmp. <he>חור</he>) <i>white substance, undyed wool</i> or <i>cotton</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 11b\">Sabb. 11ᵇ</cite>; (Tosef. ib. I, 8 missing). Ib. 79ᵃ <he>דוגמא לא׳</he> a sample color for the wool (given to the dyer).—Pl. <he>אִירִין</he>. ",
+				"<cite ref=\"Bava Kamma 119b:7\">B. Kam. 119ᵇ</cite>, the remnants of wool in the hands of the dyer. [R. Hanan. reads <cite ref=\"A01156\"><he>אִידָּא</he></cite> q. v.] [<cite ref=\"Tosefta Keilim Batra 1:4\">Tosef. Kel. B. Bath. I, 4</cite> <he>אִירָה</he>; <cite ref=\"Mishnah Kelim 21:1\">Kel. XXI, 1</cite> <cite ref=\"P00678\"><he>עִירָה</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "M01317",
+	"slug": "מישר",
+	"headword": {
+		"text": "מֵישַׁר"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵשַׁר"
+		}
+	],
+	"page": {
+		"number": 779,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>מֵישָׁרִים</he>; <cite ref=\"J00703\"><he>יָשַׁר</he></cite>)<i>straight line, horizontal, level</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 2:6\">Kidd. II, 6</cite> <he>לעשות שדהו מ׳ מ׳</he> to divide his field in straight lines (beds) of various seeds (instead of squares, <cite ref=\"M02570\"><he>מרובע</he></cite>). Y. ib. II, 28ᵃ top. Y. Erub. IV, 21ᵈ bot. a telescope (v. <cite ref=\"M02293\"><he>מְצוֹפוֹת</he></cite>) <he>שהיה משער בה עיניו במ׳</he> the horizontal range of which he had tested before (v. Bab. ",
+				"<cite ref=\"Eruvin 43b\">Erub. 43ᵇ</cite>).—Y. ib. V, 22ᵈ top [read:] <he>מביא מצופות ומשער … במ׳ וכ׳</he> he takes a telescope and tests its horizontal range, and then &c."
+			]
+		}
+	]
+}

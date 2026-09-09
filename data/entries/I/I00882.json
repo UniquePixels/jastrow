@@ -1,0 +1,31 @@
+{
+	"id": "I00882",
+	"slug": "טרפס-2",
+	"headword": {
+		"text": "טַרְפֵּס"
+	},
+	"page": {
+		"number": 557,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִטַּרְפֵּס</he> (v. <cite ref=\"I00881\">preced.</cite>, cmp. <cite ref=\"I00634\"><he>טְפַז</he></cite>) <i>to leap, take exercise</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Kiddushin 2:2:4\">Y. Kidd. II, 62ᶜ</cite> bot. <he>בעייא הוינא מִטַּרְפְּסָא אזלה מט׳ וכ׳</he> I expected to have exercise in going to and coming from the bath."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

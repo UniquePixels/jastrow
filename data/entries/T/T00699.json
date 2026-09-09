@@ -1,0 +1,29 @@
+{
+	"id": "T00699",
+	"slug": "ריקוע",
+	"headword": {
+		"text": "רִיקּוּעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִקּ׳"
+		}
+	],
+	"page": {
+		"number": 1477,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>רִקֻּעַ</he>; <cite ref=\"T01048\"><he>רָקַע</he></cite>)<i>beaten plate, foil</i>.—Pl. <he>רִיקּוּעִים</he>, <he>רִיקּוּעִין</he>, <cite ref=\"T00695\"><he>רִקּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Temurah 30b:59\">Tem. 30ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 23:19\">Deut. XXIII, 19</cite>) (thou shalt not bring the hire &c.) ‘into the house of the Lord thy God’ <he>לרבות את הר׳</he> this includes beaten gold plates (as forbidden for overlaying). ",
+				"<cite ref=\"Deuteronomy 23:19\">Ib.</cite>; Tosef. ib. IV, 8, v. <cite ref=\"K01001\"><he>כַּפּוֹרֶת</he></cite>. ",
+				"<cite ref=\"Mishnah Shekalim 4:4\">Shek. IV, 4</cite> <he>רִקּוּעֵי זהב וכ׳</he> gold plates for covering the walls of the Holy of Holies; a. e."
+			]
+		}
+	]
+}

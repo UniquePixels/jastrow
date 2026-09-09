@@ -1,0 +1,29 @@
+{
+	"id": "Q00450",
+	"slug": "פחדין",
+	"headword": {
+		"text": "פַּחְדִּין"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּחֲדִ׳"
+		}
+	],
+	"page": {
+		"number": 1151,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>פחד</he>, cmp. <cite ref=\"Q00477\"><he>פַּחְלִין</he></cite>) [<i>blown up, balls</i>] <i>testicles</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 21:20\">Targ. O. Lev. XXI, 20</cite> (ed. Berl. <cite ref=\"Q00493\"><he>פַּחְתִין</he></cite>); Y. <he>דפַחְדּוֹי</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 40:17\">Targ. Job XL, 17</cite> (Ar. s. v. <he>ותן</he> ed. Koh. <he>פחדוהי</he>, some ed. <he>פחתוהי</he>)."
+			]
+		}
+	]
+}

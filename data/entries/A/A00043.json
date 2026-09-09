@@ -1,0 +1,24 @@
+{
+	"id": "A00043",
+	"slug": "אבדן-1",
+	"headword": {
+		"text": "אַבְדָּן"
+	},
+	"page": {
+		"number": 3,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Abdan</i> (contr. of <he>אבא יודן</he>), an Amora of the first gener. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:31\">Y. Ber. IV, 7ᶜ</cite> bot. (cmp. ",
+				"<cite ref=\"Bereishit Rabbah 10\">Gen. R. s. 10</cite>). ",
+				"<cite ref=\"Berakhot 27b:7\">Ber. 27ᵇ</cite> Ms. M. (ed. <cite ref=\"A00112\"><he>אבידן</he></cite>); a. e."
+			]
+		}
+	]
+}

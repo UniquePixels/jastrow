@@ -1,0 +1,23 @@
+{
+	"id": "H00399",
+	"slug": "חומתא-1",
+	"headword": {
+		"text": "חוּמְּתָא"
+	},
+	"page": {
+		"number": 436,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"H00371\"><he>חוּמָּא</he></cite>, <i>heat</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 12:39\">Targ. Y. Ex. XII, 39</cite> (ed. Amst. <cite ref=\"H00367\"><he>חוּמְתָּא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:7\">Targ. Cant. I, 7</cite> (ed. Amst. <he>חוּמָתָא</he>, pl.).—[<cite ref=\"Aramaic Targum to Proverbs 29:11\">Targ. Prov. XXIX, 11</cite>, v. <cite ref=\"H00811\"><he>חֵימְתָא</he></cite>.]"
+			]
+		}
+	]
+}

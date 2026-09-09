@@ -1,0 +1,28 @@
+{
+	"id": "S01457",
+	"slug": "קמחוניא",
+	"headword": {
+		"text": "קִמְחוּנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִי׳"
+		}
+	],
+	"page": {
+		"number": 1384,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Ḳimḥunia</i>, in Babylonia. ",
+			"units": [
+				"<cite ref=\"Ketubot 67a:10\">Keth. 67ᵃ</cite> <he>הנהו אשלי דק׳ וכ׳</he> as to the ropes of Ḳ. (where they are staple goods), a woman may levy them for her jointure <he>(כתובה</he>). ",
+				"<cite ref=\"Kiddushin 25b\">Kidd. 25ᵇ</cite>"
+			]
+		}
+	]
+}

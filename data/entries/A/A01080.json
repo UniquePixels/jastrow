@@ -1,0 +1,30 @@
+{
+	"id": "A01080",
+	"slug": "אטימוס",
+	"headword": {
+		"text": "אֱטִימוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיטִימוֹס"
+		}
+	],
+	"page": {
+		"number": 42,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἕτοιμος) <i>present, ready</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 11:26\">Targ. Y. Num. XI, 26</cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 48:7\">Gen. R. s. 48</cite> it does not read <he>עומד</he> (standing) but <he>נצב</he> (placed on his post), i.e. <he>אט׳</he> ready (to proceed). ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:9:2\">Cant. R. to II, 9</cite> <cite ref=\"A02549\"><he>אי׳</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 100\">Gen. R. s. 100</cite>."
+			]
+		}
+	]
+}

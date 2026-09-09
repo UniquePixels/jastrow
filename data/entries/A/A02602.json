@@ -1,0 +1,28 @@
+{
+	"id": "A02602",
+	"slug": "אפדכסיס",
+	"headword": {
+		"text": "אפדכסיס",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אפרדכסיס"
+		},
+		{
+			"text": "אפור׳"
+		}
+	],
+	"page": {
+		"number": 100,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", read <he>אֶפִּידֶכְסְיוֹס</he> m. (ἐπιδέξιος) <i>dexterous, clever, refined</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10</cite> (alluding to Laban, v. <cite ref=\"L00094\"><he>לָבַן</he></cite>) he was surnamed (to his praise) <he>א׳</he> ‘the refined.’ R. B. says <he>מלובן ברשע</he> refined in wicked acts. [In parallels <cite ref=\"Bereishit Rabbah 60\">Gen. R. s. 60</cite>; <cite ref=\"Ruth Rabbah 4:2\">Ruth R. to I, 22</cite>; <cite ref=\"Yalkut Shimoni on Torah 109\">Yalk. Gen. 109</cite> <cite ref=\"Q01576\"><he>פרדוכסוס</he></cite> read <he>פְּרִידֶכְסְיוֹס</he> (περιδέξιος).]"
+			]
+		}
+	]
+}

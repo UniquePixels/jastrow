@@ -1,0 +1,22 @@
+{
+	"id": "H01083",
+	"slug": "חלם-3",
+	"headword": {
+		"text": "חָלַם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 471,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"H01082\">preced.</cite> wds.) [<i>to gather humors, to sleep well</i> (cmp. <cite ref=\"J00698\"><he>יָשַׁן</he></cite>).—Denom. <cite ref=\"H00999\"><he>חֲלוֹם</he></cite> (cmp. ἐνύπνιος, somnium) <i>dream;</i> from which <cite ref=\"H01081\"><he>חָלַם</he></cite>] <i>to dream</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 55b:11\">Ber. 55ᵇ</cite> <he>חלום חָלַמְתִּי</he> I had a dream. ",
+				"<cite ref=\"Berakhot 55b:20\">Ib.</cite> <he>חלום שׁח׳ לו חבירו</he> a dream which his neighbor had about him. ",
+				"<cite ref=\"Tosefta Shabbat 6:7\">Tosef. Sabb. VI</cite> (<cite ref=\"Tosefta Shabbat 7:7\">VII</cite>), 7 <he>שתהא חוֹלֵם חלומות</he> that you may have dreams; a. fr."
+			]
+		}
+	]
+}

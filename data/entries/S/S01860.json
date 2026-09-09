@@ -1,0 +1,23 @@
+{
+	"id": "S01860",
+	"slug": "קקא-2",
+	"headword": {
+		"text": "קַקָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1409,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נקק</he>, cmp. <cite ref=\"N01213\"><he>נָקִיק</he></cite>) = <cite ref=\"S00484\"><he>קוֹעָא</he></cite>, <i>throat, neck</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 24a\">Taan. 24ᵃ</cite> <he>שדו ליה</he> … <he>בקַקּיה</he> Ar. (ed. <he>רמו … בצואריה</he>) they put a cloth into his throat (or around his neck, to torture him)."
+			]
+		}
+	]
+}

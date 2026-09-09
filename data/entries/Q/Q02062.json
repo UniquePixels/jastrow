@@ -1,0 +1,54 @@
+{
+	"id": "Q02062",
+	"slug": "פשח-2",
+	"headword": {
+		"text": "פְּשַׁח"
+	},
+	"page": {
+		"number": 1245,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"Q02061\">same</cite> <cite ref=\"Targum Jonathan on I Samuel 15:33\">Targ. I Sam. XV, 33</cite> (h. text <cite ref=\"U01622\"><he>שסף</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 7:3\">Targ. Ps. VII, 3</cite> (h. text <he>פרק</he>).—",
+				"<cite ref=\"Moed Katan 10b:10\">M. Kat. 10ᵇ</cite> <he>האי מאן דפ׳ דיקלא</he> he that strips a date palm (cuts shoots off); <cite ref=\"Bava Batra 54a\">B. Bath. 54ᵃ</cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּשַּׁח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q02061\">same</cite>. Targ. II Esth. III, 8.—",
+					"units": [
+						"<cite ref=\"Beitzah 33b:6\">Bets. 33ᵇ</cite> <he>הוה מְפַשֵּׁחַ וכ׳</he> broke a branch off, and gave us each several sticks."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְפְּשַׁח", "אִיפְּשַׁח"],
+			"senses": [
+				{
+					"gloss": "<i>to be torn loose, separated</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 11:32\">Targ. Y. Lev. XI, 32</cite>; <cite ref=\"Targum Jonathan on Leviticus 11:39\">39</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"Q01908\"><he>פָּרַס</he></cite> <i>Hif.</i>) <i>to part one’s feet, to force one’s self to stand still</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 81a:12\">Kidd. 81ᵃ</cite> <he>מטא לפלגא</he> (<cite ref=\"D00000\"><he>ד</he></cite>)<he>דרגא א׳</he> when he arrived at half the ladder, he stemmed his feet."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

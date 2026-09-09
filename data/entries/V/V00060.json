@@ -1,0 +1,36 @@
+{
+	"id": "V00060",
+	"slug": "תבן-1",
+	"headword": {
+		"text": "תָּבַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּבֵּן"
+		}
+	],
+	"page": {
+		"number": 1644,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"V00064\"><he>תֶּבֶן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to mix with straw, knead</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 21a:17\">Men. 21ᵃ</cite> <he>יִתְבּוֹנֶנּוּ</he>; Ar. ed. Koh. <he>תַּבְּנֵיהוּ</he>; <cite ref=\"Yalkut Shimoni on Torah 454\">Yalk. Lev. 454</cite> <he>יְתַבְּנֵהוּ</he>, v. <cite ref=\"B00635\"><he>בִּין</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to dung with straw</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:1\">Cant. R. to I, 1</cite> [read:] <he>לא נזבל ולא נְתַבֵּן</he>, v. <cite ref=\"G00045\"><he>זָבַל</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

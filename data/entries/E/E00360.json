@@ -1,0 +1,35 @@
+{
+	"id": "E00360",
+	"slug": "היי",
+	"headword": {
+		"text": "הַיי"
+	},
+	"page": {
+		"number": 344,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. ",
+			"units": []
+		},
+		{
+			"gloss": " (= <cite ref=\"E00010\"><he>הַאי</he></cite>) <i>this, that</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 12:3:8\">Y. Keth. XII, 35ᵃ</cite> bot. <he>ה׳ שיניך וכ׳</he> (Y. Kil. IX, 32ᵇ bot. <cite ref=\"E00010\"><he>האי</he></cite>) how is that tooth of thine?—[<cite ref=\"Jerusalem Talmud Sanhedrin 8:1:2\">Y. Snh. VIII, beg. 26ᵃ</cite> <he>היי די ליה אב</he>, v. <cite ref=\"E00363\"><he>הַיְידָּא</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"E00327\"><he>הֵי</he></cite>) <i>which?</i> (generally with <cite ref=\"D00632\"><he>דֵּין</he></cite> or <cite ref=\"D00003\"><he>דָּא</he></cite>, v. <cite ref=\"E00363\"><he>הַיְידָּא</he></cite>, <cite ref=\"E00368\"><he>הַיְידֵּן</he></cite>). Y. Shek. V, 48ᵈ <he>אהיי דין … וה׳ דין וכ׳</he> (read <cite ref=\"E00360\"><he>היי</he></cite>) which wine was good for the bowels, and which &c.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 1:1:2\">Y. R. Hash. I, beg. 56ᵃ</cite> <he>ה׳ דין שני … וה׳ וכ׳</he> which <i>sheni</i> refers to months, and which to years?—Y. Meg. I, 72ᵃ top <he>ה׳ לין אינון וכ׳</he> (= <he>ה׳ אילין</he>; <cite ref=\"Jerusalem Talmud Sukkah 3:10:2\">Y. Succ. III, 54ᵃ</cite> top <cite ref=\"E00370\"><he>הַיְילֵין</he></cite>) which are the headings of chapters?—",
+				"<cite ref=\"Jerusalem Talmud Ketubot 7:7:1\">Y. Keth. VII, 31ᶜ</cite> top [read:] <he>כהיי דא מתניתא דר׳ חנין בשם ר׳ שמואל</he> with which of them does the Boraitha cited by R. Ḥ. … agree?—Ib. IX, 32ᵈ bot. [read:] <he>היי לין רבנין</he> (<cite ref=\"Jerusalem Talmud Bava Batra 8:5:3\">Y. B. Bath. VIII, 16ᵇ</cite> <he>מאן אינון</he>) who are meant by ‘the Rabbis’?—With prefixes: <cite ref=\"K00518\"><he>כַּיי</he></cite>, <cite ref=\"L00449\"><he>לַיי</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:31\">Y. Ber. I, 3ᵃ</cite> top <he>כיי דמר ר׳ וכ׳</he> (= <he>כהא דאמר</he>) as (that which) R. … said. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 3:3:3\">Y. Erub. III, 21ᵃ</cite> top; a. fr.—Y. Shebu. II, 33ᵈ (<cite ref=\"L00453\"><he>לַיְידָּא</he></cite>) <he>ליי דא מילה</he> with regard to what?; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Gittin 9:9:3\">Y. Gitt. IX, end, 50ᵈ</cite> <he>ואדיין את ליי</he> (usually <cite ref=\"L00331\"><he>לזו</he></cite>), v. <cite ref=\"A00397\"><he>אֲדַיִין</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

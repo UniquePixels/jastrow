@@ -1,0 +1,32 @@
+{
+	"id": "J00518",
+	"slug": "יצב-1",
+	"headword": {
+		"text": "יָצַב"
+	},
+	"page": {
+		"number": 588,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to stand, be erect</i>.—Denom. <cite ref=\"J00530\"><he>יְצִיבָה</he></cite>.—V. <cite ref=\"N01097\"><he>נָצַב</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְיַצֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to place one’s self; to be firm</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 1:1\">Cant. R. to I, 1</cite> (ref. to <cite ref=\"Proverbs 22:29\">Prov. XXII, 29</cite>) <he>מִתְיַצְּבִים בתורה</he> they are firm in the Law. ",
+						"<cite ref=\"Pesikta Rabbati 6:1\">Pesik. R. s. 6</cite> (ref. to Prov. l. c.) <he>בל יִתְיַיצָּב לפני פרעה וכ׳</he> he will not place himself (praying) before Pharaoh, the benighted (v. <cite ref=\"H01820\"><he>חָשׁוּךְ</he></cite>); Cant. R. l. c. <he>לפני מלכי תורה יתיצב</he> he will be placed before (ranked as the foremost of) the kings of the Law; <cite ref=\"Kohelet Rabbah 1:1:1\">Koh. R. to I, 1</cite> <he>לפני מלאכים יתי׳</he> he will be ranked before angels; a. e."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

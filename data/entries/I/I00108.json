@@ -1,0 +1,36 @@
+{
+	"id": "I00108",
+	"slug": "טוב-2",
+	"headword": {
+		"text": "טוֹב"
+	},
+	"altHeadwords": [
+		{
+			"text": "טוּב"
+		}
+	],
+	"page": {
+		"number": 521,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"I00107\"><he>טַיֵּיב</he></cite>, <i>Af.</i> <he>אָטֵיב</he> <i>to do good, to favor</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 23:2\">Targ. Y. I Ex. XXIII, 2</cite> <he>למְטַיְּיבָא</he>; Y. II <he>למֵיטְבָא</he>. V. <cite ref=\"J00312\"><he>יְטַב</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

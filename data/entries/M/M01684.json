@@ -1,0 +1,30 @@
+{
+	"id": "M01684",
+	"slug": "ממש-1",
+	"headword": {
+		"text": "מַמָּשׁ"
+	},
+	"page": {
+		"number": 795,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M02984\"><he>מָשַׁשׁ</he></cite>) [<i>something tangible</i>,] <i>substance; substantial, real</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 14:1\">Ex. R. s. 14</cite>, beg. (ref. to <he>וימש</he>, <cite ref=\"Exodus 10:21\">Ex. X, 21</cite>) <he>שהיה בו מ׳</he> there was substance in the darkness (it was thick). ",
+				"<cite ref=\"Avodah Zarah 67a:7\">Ab. Zar. 67ᵃ</cite> <he>כל שטעמו ומַמָּשׁוֹ אסור</he> anything the taste of which (in a mixture) as well as its substance is forbidden. ",
+				"<cite ref=\"Avodah Zarah 67b:1\">Ib.ᵇ</cite> <he>טעמו ולא ממשו אסור</he> a mixture in which there is the taste of a forbidden thing whose substance, however, is not visible, is forbidden. ",
+				"<cite ref=\"Chullin 108a:3\">Ḥull. 108ᵃ</cite> <he>טעמו ולא ממשו בעלמא דאורייתא</he> that a forbidden substance should ritually affect a mixture in which is left a taste after its removal, is in all cases a Biblical rule. ",
+				"<cite ref=\"Sanhedrin 63b:19\">Snh. 63ᵇ</cite> <he>יודעין … שאין בו מ׳ וכ׳</he> the Israelites knew very well that there is no reality in idols, yet they worshipped them for the sake of being permitted public licentiousness. ",
+				"<cite ref=\"Bava Kamma 83b:20\">B. Kam. 83ᵇ</cite> <he>עין מ׳</he>, v. <cite ref=\"M01651\"><he>מָמוֹן</he></cite>. ",
+				"<cite ref=\"Bava Kamma 83b:20\">Ib.</cite> <he>מיתה מ׳</he> actual putting to death. ",
+				"<cite ref=\"Sanhedrin 64a:12\">Snh. 64ᵃ</cite>, v. <cite ref=\"D00072\"><he>דָּבַק</he></cite>; a. v. fr.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:5:19\">Y. Ber. III, 6ᵈ</cite> bot. <he>מַשְׁמָשָׁהּ קיים</he> its substance remains (on the skin, even if dried up)."
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "N01098",
+	"slug": "נצב-2",
+	"headword": {
+		"text": "נְצַב"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְצֵיב"
+		}
+	],
+	"page": {
+		"number": 927,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01097\">same</cite>, <i>to put up, plant</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 9:20\">Targ. Gen. IX, 20</cite> (h. text <he>נטע</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:50\">Targ. Y. Deut. XXXII, 50</cite> (cmp. <cite ref=\"N00575\"><he>נָטַע</he></cite>); a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 25:5\">Lev. R. s. 25</cite> <he>למִנְצַב נציבין</he> to plant (trees); <cite ref=\"Kohelet Rabbah 2:20:1\">Koh. R. to II, 20</cite> <he>למִינְצַב</he>. Y. Orl. I, 61ᵃ top <he>ונ׳ לון בארץ</he> and planted them in the land (Palestine); a. fr.—Part. pass. <cite ref=\"N01124\"><he>נְצִיב</he></cite>, <cite ref=\"N01125\"><he>נְצִיבָא</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>חד גופנא … והוה נ׳</he> (<cite ref=\"T00152\"><he>רבתי</he></cite>) <he>וכ׳</he> we had a vine which was planted on our father’s grave."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַנְצַב"],
+			"senses": [
+				{
+					"gloss": "<i>to point, sharpen</i> (cmp. <cite ref=\"N01099\"><he>נצבתא</he></cite>, <cite ref=\"Daniel 2:41\">Dan. II, 41</cite>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 13:21\">Targ. I Sam. XIII, 21</cite> <he>לאַנְצָבָא</he>, (Ar. <he>לאנצא</he>, v. <cite ref=\"A02284\"><he>אֲנַץ</he></cite>; h. text <he>להציב</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

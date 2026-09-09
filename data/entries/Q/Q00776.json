@@ -1,0 +1,23 @@
+{
+	"id": "Q00776",
+	"slug": "פיף",
+	"headword": {
+		"text": "פִּיף"
+	},
+	"page": {
+		"number": 1168,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (apocop. reduplic. of <cite ref=\"Q00140\"><he>פֶּה</he></cite>; cmp. <cite ref=\"Q00786\"><he>פִּיפִיּוֹת</he></cite>) <i>fringe</i>, knotted to the border. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 9:9\">Kil. IX, 9</cite> <he>פ׳ של צמר וכ׳</he> (Mish. ed. <cite ref=\"Q00596\"><he>פיו</he></cite>, corr. acc.; v. Rabb. D. S. a. l. note 10) it is forbidden to attach woolen and linen fringes (to a garment), because they may be mixed up with the web; Y. ib. 32ᵈ.—Trnsf. <i>knots surrounding the anus</i>. ",
+				"<cite ref=\"Tosefta Mikvaot 7:10\">Tosef. Mikv. VII</cite> (<cite ref=\"Tosefta Mikvaot 8:10\">VIII</cite>), 10 <he>בפ׳ או ביציאה</he> ed. Zuck. (oth. ed. <he>בסוף או בצואה</he>, read <he>בפיף</he>)."
+			]
+		}
+	]
+}

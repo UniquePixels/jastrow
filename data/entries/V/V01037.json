@@ -1,0 +1,25 @@
+{
+	"id": "V01037",
+	"slug": "תרעיתא",
+	"headword": {
+		"text": "תַּרְעִיתָא"
+	},
+	"page": {
+		"number": 1701,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>רְעֵי</he> II) <i>plan, cunning, ambition</i> (in a good and an evil sense). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 27:9\">Targ. Prov. XXVII, 9</cite> (h. text <cite ref=\"P01100\"><he>עצה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 1:4\">Ib. I, 4</cite> (h. text <he>מזמה</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 31:16\">Ib. XXXI, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 24:9\">Ib. XXIV, 9</cite>; a. fr."
+			]
+		}
+	]
+}

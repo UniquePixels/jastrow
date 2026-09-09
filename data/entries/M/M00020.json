@@ -1,0 +1,26 @@
+{
+	"id": "M00020",
+	"slug": "מאחא",
+	"headword": {
+		"text": "מְאָחָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵ׳"
+		}
+	],
+	"page": {
+		"number": 722,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. collect. n. (<cite ref=\"A01023\"><he>אחי</he></cite>) <i>harmonious singers, chorus</i>. Targ. II Esth. I, 2, beg. <he>איך מ׳ דיהיב וכ׳</he> (Var. <he>איך מודה ויהיב</he>) like a chorus that renders praise &c.",
+			"units": []
+		}
+	]
+}

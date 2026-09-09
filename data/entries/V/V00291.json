@@ -1,0 +1,23 @@
+{
+	"id": "V00291",
+	"slug": "תוריב",
+	"headword": {
+		"text": "תּוֹרִיב",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1657,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00058\"><he>רָבָה</he></cite>, cmp. <cite ref=\"T00042\"><he>רַב</he></cite>) (<i>festival of</i>) <i>fructification</i> (Dionysia). Y. Ab. Zar. II, 41ᵇ (expl. <cite ref=\"V00927\"><he>תרבות</he></cite>, a reading for <cite ref=\"V01046\"><he>תרפות</he></cite>, Mish. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 2:3\">ib. II, 3</cite>) <he>תּוֹרִיבָם מוליכין וכ׳</he> their (the gentiles’) festival of fructification, when they carry the larger idol to the smaller (v. Hastings Dict. Bible, s. v. Dionysia); <cite ref=\"Mishnah Avodah Zarah 2:3\">ib.</cite> <he>מאן דאמר תרבות תוריבם</he> he that reads <i>tarbuth</i> understands the word to mean their festival &c. [Mus. emends <cite ref=\"V00292\"><he>תוריבוס</he></cite>, v. next w.]"
+			]
+		}
+	]
+}

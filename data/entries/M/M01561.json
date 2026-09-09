@@ -1,0 +1,24 @@
+{
+	"id": "M01561",
+	"slug": "מליסא",
+	"headword": {
+		"text": "מִלֵּיסָא"
+	},
+	"page": {
+		"number": 790,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pʿales noun of <cite ref=\"M01543\"><he>מְלֵי</he></cite>, cmp. <cite ref=\"M01176\"><he>מִילּוּסָא</he></cite>) [<i>water-pot</i> (cmp. ὑδρία),] <i>a cooking vessel</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 2:14\">Targ. I Sam. II, 14</cite> (ed. Lag. <cite ref=\"M01191\"><he>מִילֵּסָא</he></cite>, Var. <he>אִילְפֵיסָא</he>; h. text <he>פרור</he>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 11:8\">Targ. Y. Num. XI, 8</cite> <he>מילסא</he> Levita (ed. <cite ref=\"L00027\"><he>לאפוסיא</he></cite>, <cite ref=\"L00628\"><he>לפדיא</he></cite>; h. text <he>פרור</he>).—Pl. <he>מִלּוּסַיָּא</he>, <cite ref=\"M01585\"><he>מִילּ׳</he></cite>. ",
+				"<cite ref=\"Targum of II Chronicles 35:13\">Targ. II Chr. XXXV, 13</cite> (h. text <he>צלחות</he>)."
+			]
+		}
+	]
+}

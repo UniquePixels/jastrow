@@ -1,0 +1,27 @@
+{
+	"id": "C00448",
+	"slug": "גוס-4",
+	"headword": {
+		"text": "גּוּס",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 224,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00447\">same</cite><i>to come in contact, meet</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 110b:6\">Pes. 110ᵇ</cite> <he>גָּס ביה וכ׳</he> an Arab met him. ",
+				"<cite ref=\"Gittin 65b:3\">Gitt. 65ᵇ</cite> <he>מֵיגַס גָּאֵיס בה</he> (Ar. <cite ref=\"C00707\"><he>גָּיֵיס</he></cite>) he may meet him.—Adj. <cite ref=\"C00707\"><he>גָּיֵיס</he></cite>, <cite ref=\"C00772\"><he>גִּיס</he></cite> <i>familiar</i>, v. <cite ref=\"C00772\"><he>גִּיס</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to recline, dine</i>, v. <cite ref=\"C01175\"><he>גְּסַס</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "S01901",
+	"slug": "קרדו-1",
+	"headword": {
+		"text": "קַרְדּוּ",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "קַרְדּוּן"
+		}
+	],
+	"page": {
+		"number": 1412,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n.<i>Ḳardu, Ḳardun</i>, the district of <i>Cordyene</i> (corresponding to b. h. <he>אררט</he>; v. Schr. KAT<sup>2</sup>, p. 53). ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 8:4\">Targ. O. Gen. VIII, 4</cite> (Y. <he>קרדון</he>, some ed. <cite ref=\"S00180\"><he>קַדְרוֹן</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 19:37\">Targ. II Kings XIX, 37</cite>; <cite ref=\"Targum Jonathan on Isaiah 37:38\">Targ. Is. XXXVII, 38</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 51:27\">Targ. Jer. LI, 27</cite>."
+			]
+		}
+	]
+}

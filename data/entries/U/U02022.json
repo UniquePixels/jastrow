@@ -1,0 +1,53 @@
+{
+	"id": "U02022",
+	"slug": "שרק-4",
+	"headword": {
+		"text": "שְׁרַק",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1634,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = <cite ref=\"U01924\"><he>שְׁרַג</he></cite>, <i>to glide, slide</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 3b:44\">Nidd. 3ᵇ</cite> <he>מיא שָׁרְקֵי וכ׳</he> water (when poured out of an inclined vessel) slides, but fruits do not slide (and you must invert the vessel in order to empty it). ",
+				"<cite ref=\"Chullin 111a:10\">Ḥull. 111ᵃ</cite> <he>דמא מִשְׁרַק שָׁרֵיק</he> (Ms. R. 2, a. Ar. <he>משרג שריג</he>, v. Rabb. D. S. a. l. note 60) blood glides off, v. <cite ref=\"O01635\"><he>סְרַךְ</he> II</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שָׁרֵיק"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to slip, make slippery</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 30b:1\">B. Kam. 30ᵇ</cite> top <he>תבנו … דמְשָׁרְקֵי</he> the Mishnah speaks of straw and stubble (deposited in the public road), because they make the ground slippery."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתָּרֵק"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּרִיק", "אִישְּׁרִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to slip, glide</i>. ",
+					"units": [
+						"<cite ref=\"Zevachim 62a:12\">Zeb. 62ᵃ</cite> <he>דלא נִשְׁתָּרְקוּ</he> (Rashi to <cite ref=\"Exodus 27:5\">Ex. XXVII, 5</cite> <he>יִשְׁתָּרְגוּ</he>) that the priests might not slip. ",
+						"<cite ref=\"Chullin 52a:2\">Ḥull. 52ᵃ</cite> <he>כל מידי דמִישְּׁרִיק וכ׳</he> (some ed. <he>דמִשְּׁ׳</he>, Rashi <he>דמִשְׁתְּרִיק</he>; Ms. H. <he>דמשתריג … לא סריג וכ׳</he>, v. Rabb. D. S. a. l. note 90) in the case of an animal falling on things which slide (e.g. a pile of peas &c.), no internal injury is to be apprehended, but if it falls on things which do not slide &c."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "D00344",
+	"slug": "דור-4",
+	"headword": {
+		"text": "דּוּר",
+		"reconstructed": true,
+		"homograph": 3
+	},
+	"page": {
+		"number": 289,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. a <i>stuffed bag</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד כות׳</he> 2), v. <cite ref=\"A00445\"><he>אֵדֶר</he> I</cite>. [<cite ref=\"Jerusalem Talmud Sanhedrin 10:1:19\">Y. Snh. X, 28ᵃ</cite> top; <cite ref=\"Bamidbar Rabbah 14:4\">Num. R. s. 14</cite>; <cite ref=\"Bamidbar Rabbah 15:22\">15</cite>; Tanḥ. B’haăl. 15, v. <cite ref=\"K00118\"><he>כַּדּוּר</he></cite>.]"
+			]
+		}
+	]
+}

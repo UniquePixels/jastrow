@@ -1,0 +1,46 @@
+{
+	"id": "O01512",
+	"slug": "סרב-2",
+	"headword": {
+		"text": "סְרַב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1021,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to decline, refuse</i> (corresp. to b. h. <cite ref=\"M00046\"><he>מָאֵן</he></cite>).). ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 37:35\">Targ. Gen. XXXVII, 35</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with <he>על</he>) <i>to rebel</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 1:26\">Targ. Deut. I, 26</cite>. ",
+				"<cite ref=\"Onkelos Genesis 26:35\">Targ. O. Gen. XXVI, 35</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 2:6\">Targ. Ez. II, 6</cite>; a. fr.—V. <cite ref=\"M02013\"><he>מְסַרְבָּן</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>סָרֵיב</he> ch. Same, ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

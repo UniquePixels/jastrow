@@ -1,0 +1,36 @@
+{
+	"id": "U01160",
+	"slug": "שכל-3",
+	"headword": {
+		"text": "שָׁכַל"
+	},
+	"page": {
+		"number": 1574,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; Shafel of <he>כל</he>, <cite ref=\"A01697\"><he>אכל</he></cite>) [<i>to finish, consume</i>,] <i>to bereave</i> (of everything), <i>make childless</i>; <cite ref=\"U01158\"><he>שָׁכֹל</he></cite> <i>to be childless</i>. Part. pass. <cite ref=\"U01129\"><he>שָׁכוּל</he></cite>; f. <cite ref=\"U01133\"><he>שְׁכוּלָה</he></cite>; pl. f. <he>שְׁכוּלוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Pirkei DeRabbi Eliezer 49:3\">Pirké d’R. El. ch. XLIX</cite> (v. ",
+				"<cite ref=\"I Samuel 15:33\">I Sam. XV, 33</cite>) <he>כשם ששִׁכְּלָה … וישבו נשיהם ש׳ ואלמנות כן תִּשְׁכַּל וכ׳</he> as the sword of Amalek, thy (Haman’s) grandfather, consumed the young men …, and their women remained childless and widowed, so shall thy mother be childless among women; <he>ובתפלת … ש׳ וכ׳</he> and through the prayer of Esther and her maids all males of Amalek were killed, and their women remained childless &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁכֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to destroy, consume</i>. Ib., v. supra. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 16\">Num. R. s. 16<sup>24</sup></cite> <he>בראתי אותך שתהא מְשַׁכֵּל באומות וכ׳</he> I have created thee (the angel of death) to work destruction among the nations, except &c. ",
+						"<cite ref=\"Bereishit Rabbah 86:3\">Gen. R. s. 86</cite> <he>דוב שהיתה מְשַׁכֶּלֶת בבני אדוניה</he> a bear that worked destruction among the children of her owner; a. e.—Part. pass. <he>מְשׁוּכָּל</he>. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 988:3\">Yalk. Cant. 988</cite> (ref. to <he>שכלה</he>, <cite ref=\"Song of Songs 4:2\">Cant. IV, 2</cite>) <he>כל מי שלומד מהם אינו מש׳</he> whoever learns from them (the scholars), shall not be bereft (injured)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

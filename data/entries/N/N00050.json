@@ -1,0 +1,23 @@
+{
+	"id": "N00050",
+	"slug": "נבוז",
+	"headword": {
+		"text": "נָבוֹז",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 867,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00429\"><he>בזז</he></cite>) <i>distributor</i> (of royal largesses), <i>chief</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 7:7:1\">Cant. R. to VII, 7</cite> (ref. to <he>נבזביתך</he>, <cite ref=\"Daniel 5:17\">Dan. V, 17</cite>) <he>נ׳ ראשה</he> <i>naboz</i> means chief (officer); <cite ref=\"Daniel 5:17\">ib.</cite> [read:] <he>תמן הינון … נְבוֹז בִּזָּתָא</he> (ed. <cite ref=\"N00051\"><he>נבוזבזתאך</he></cite>, some ed. <he>נבוז בזאתך</he>) there (in Rome) they name an eparch (a high officer) distributor of largesses (Comes Largitionum)."
+			]
+		}
+	]
+}

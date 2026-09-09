@@ -1,0 +1,23 @@
+{
+	"id": "A00519",
+	"slug": "או-5",
+	"headword": {
+		"text": "אוּ"
+	},
+	"page": {
+		"number": 21,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contr. of <cite ref=\"A00486\"><he>אֲהוּ</he></cite>, <he>אֲהִי</he> v. <cite ref=\"E00177\"><he>הוּ</he></cite>, <cite ref=\"E00179\"><he>הִי</he></cite>) <i>he, that, this</i> (only in Y. Dial). [Y. Ber. II, 5ᵇ top <he>או מקשי</he>, read <he>הוה מ׳</he>; ed. Amst. <cite ref=\"B01036\"><he>בעי</he></cite>.] Y. B. Bath. III, 14ᵇ I was jesting <he>באו גברא</he> with that man. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 11:2:3\">Y. Snh. XI, beg. 30ᵃ</cite> <he>באו ד</he>(<cite ref=\"A00000\"><he>א</he></cite>)<he>מר</he> with him who says.—<i>Fem.</i> <cite ref=\"A01113\"><he>אִי</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Eruvin 3:8:2\">Y. Erub. III, 21ᵇ</cite> bot. <he>אי אידא אי אידא</he> it is all the same; v. <cite ref=\"A01155\"><he>אִידָא</he> II</cite>."
+			]
+		}
+	]
+}

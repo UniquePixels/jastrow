@@ -1,0 +1,29 @@
+{
+	"id": "N00061",
+	"slug": "נבזבא",
+	"headword": {
+		"text": "נְבִזְבָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְבִזְבָּה"
+		}
+	],
+	"page": {
+		"number": 868,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>נבזבז׳</he>, v. <he>בזבז</he>) <i>present, largess</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 2:6\">Dan. II, 6</cite>; a. e.—Pl. <cite ref=\"N00061\"><he>נְבִזְבָּן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 40:5\">Targ. Jer. XL, 5</cite> (ed. Wil. <he>נְבַזְבַּן</he>).—<he>נְבִזְבְּיָיתָא</he> (fr. <he>נְבִזְבִּית</he>), constr. <he>נְבִזְבְּיַית</he>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 23:24\">Targ. Y. Deut. XXIII, 24</cite>.—[<cite ref=\"Daniel 5:17\">Dan. V, 17</cite>, v. <cite ref=\"N00050\"><he>נָבוֹז</he></cite>.]"
+			]
+		}
+	]
+}

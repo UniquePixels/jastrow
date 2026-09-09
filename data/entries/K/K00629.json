@@ -1,0 +1,27 @@
+{
+	"id": "K00629",
+	"slug": "כיריא",
+	"headword": {
+		"text": "כִּירַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּירַיָּא דבית סכל"
+		}
+	],
+	"page": {
+		"number": 637,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Kiraya near Beth Sekhel</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 34:9\">Targ. Y. I Num. XXXIV, 9</cite> (v. Hildesh. Beitr., p. 46, sq.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "M00480",
+	"slug": "מוכס-2",
+	"headword": {
+		"text": "מוֹכֵס",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹכְסָא"
+		},
+		{
+			"text": "מָכְסָא"
+		}
+	],
+	"page": {
+		"number": 742,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M00479\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 6:6:5\">Y. Snh. VI, 23ᶜ</cite>; <cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 77ᵈ</cite> bot. <he>בריה דמעין מ׳</he> the son of Mayan the publican; <cite ref=\"Sanhedrin 44b:13\">Snh. 44ᵇ</cite> <he>בעיא מ׳</he>, v. <cite ref=\"B01040\"><he>בָּעְיָא</he></cite>.—Y. Sabb. VI, end, 8ᵈ [read:] <he>קריב למָכְסָה והב ליה חמרא ואזיל ליה</he> he came near (was caught by) a publican, and he gave him his ass and was let off, v. <cite ref=\"D00676\"><he>דִּיפְּלָא</he></cite>.—Pl. <he>מוֹכְסִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Judges 5:11\">Targ. Jud. V, 11</cite> (ed. Lag. <he>מָכְסִין</he>).—[<he>מוכסין</he>, <cite ref=\"Avodah Zarah 14a\">Ab. Zar. 14ᵃ</cite> Ms. M., v. next w.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "D00434",
+	"slug": "דחק-1",
+	"headword": {
+		"text": "דָּחַק"
+	},
+	"page": {
+		"number": 293,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"D00433\">preced.</cite>) <i>to press, squeeze, crowd, stamp</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 95b:14\">Pes. 95ᵇ</cite>, a. e. <he>דָּחֲקוּ זבין וכ׳</he> if persons afflicted with … forced their way &c.—",
+				"<cite ref=\"Menachot 98b:1\">Men. 98ᵇ</cite> top <he>דּוֹחֲקִין ובולטין וכ׳</he> pressed against and protruded &c. ",
+				"<cite ref=\"Pirkei Avot 2:15\">Ab. II, 15</cite> <he>בעה״ב דוחק</he> the employer (the Lord) presses (urges to work). ",
+				"<cite ref=\"Berakhot 64a:2\">Ber. 64ᵃ</cite> <he>ד׳ את השעה</he> to force time, be importunate, v. <cite ref=\"D00397\"><he>דָּחָה</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 28:4\">Lev. R. s. 28</cite>; Pesik. Haom. p. 70ᵇ; <cite ref=\"Pesikta Rabbati 18:1\">Pesik. R. s. 18</cite>; Yalk. Job 998 (ref. to <he>ושאף</he>, <cite ref=\"Job 5:5\">Job V, 5</cite>) <he>מי ד׳</he> (<cite ref=\"L00000\"><he>ל</he></cite>)(<cite ref=\"B00000\"><he>ב</he></cite>)<he>ממונו וכ׳</he> who trampled upon the wealth of &c.?—Sifra Vayikra Par. 1, ch. II <he>ד׳ להיות מדבר וכ׳</he> (<cite ref=\"Yalkut Shimoni on Torah 430\">Yalk. Lev. 430</cite> <cite ref=\"D00434\"><he>נדחק</he></cite>) He pressed himself (confined His Presence) between the Cherubim &c.—<i>Part. pass.</i> <cite ref=\"D00405\"><he>דָּחוּק</he></cite> <i>pressed, scarce</i>. ",
+				"<cite ref=\"Avodah Zarah 35b\">Ab. Zar. 35ᵇ</cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִדְחָק"],
+			"senses": [
+				{
+					"gloss": "<i>to be pressed, confined</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

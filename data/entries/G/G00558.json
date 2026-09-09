@@ -1,0 +1,33 @@
+{
+	"id": "G00558",
+	"slug": "זן",
+	"headword": {
+		"text": "זַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "זֵין"
+		},
+		{
+			"text": "זְנָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 405,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"G00558\"><he>זַן</he></cite> ; Syr. <cite ref=\"G00558\"><he>זן</he></cite> qualitas, modus, P. Sm. 1138, sq.; cmp. <cite ref=\"G00078\"><he>זֶה</he></cite>, a. <cite ref=\"M01693\"><he>מִין</he></cite> a. <cite ref=\"M00340\"><he>מַה</he></cite>) <i>quality, nature; kind, species</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:11\">Targ. Gen. I, 11</cite> <he>לִזְנֵיהּ</he> after its kind. ",
+				"<cite ref=\"Onkelos Leviticus 11:14\">Targ. Lev. XI, 14</cite> <he>לִזְנָהּ</he>; a. v. fr.—",
+				"<cite ref=\"Berakhot 32a:12\">Ber. 32ᵃ</cite> (prov.) <he>מלי כרסיה זנא בישא</he> Ar. (ed. <he>זְנֵי בישי</he>) filled stomachs are a bad sort (plenty is tempting).—Pl. <cite ref=\"G00579\"><he>זְנֵי</he></cite>, <he>זֵינֵי</he>. ",
+				"<cite ref=\"Onkelos Genesis 1:21\">Targ. Gen. I, 21</cite>; a. fr.—",
+				"<cite ref=\"Daniel 2:5\">Dan. II, 5</cite>, v. <cite ref=\"G00548\"><he>זְמָרָא</he></cite>.—",
+				"<cite ref=\"Bava Kamma 16b:19\">B. Kam. 16ᵇ</cite> (expl. <he>זנים</he>, <cite ref=\"II Chronicles 16:14\">II Chr. XVI, 14</cite>) <he>זני זני</he> Ms. M. a. Ar. (ed. <he>זיני</he>) various species."
+			]
+		}
+	]
+}

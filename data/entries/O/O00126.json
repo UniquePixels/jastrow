@@ -1,0 +1,23 @@
+{
+	"id": "O00126",
+	"slug": "סגיא-2",
+	"headword": {
+		"text": "סַגְיָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 954,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"O00551\"><he>סְיָגָא</he></cite>, <i>fence</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 22:24\">Targ. Y. II, Num. XXII, 24</cite>."
+			]
+		}
+	]
+}

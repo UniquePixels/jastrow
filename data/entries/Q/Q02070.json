@@ -1,0 +1,22 @@
+{
+	"id": "Q02070",
+	"slug": "פשיחא",
+	"headword": {
+		"text": "פְּשִׁיחָא"
+	},
+	"page": {
+		"number": 1246,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q02062\"><he>פְּשַׁח</he></cite>) <i>stripping</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 109b\">Sabb. 109ᵇ</cite> <he>אפ׳ דדיקלא</he> (some ed. <he>אפשיחה</he>) on that portion of a date palm which shows the signs of having been stripped."
+			]
+		}
+	]
+}

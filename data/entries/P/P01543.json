@@ -1,0 +1,65 @@
+{
+	"id": "P01543",
+	"slug": "עתק-1",
+	"headword": {
+		"text": "עָתַק",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1130,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to move</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 52\">Gen. R. s. 52</cite>, beg. (expl. <he>יעתק</he>, <cite ref=\"Job 14:18\">Job XIV, 18</cite>) <he>פנה ממקומו</he> he (Abraham) moved from where he was; Yalk. ib. 87; <cite ref=\"Yalkut Shimoni on Nach 906:25\">Yalk. Job 906</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶעְתִּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to remove, transfer</i>. Y. Ḥag. II, 77ᶜ top (ref. to <cite ref=\"Psalms 31:19\">Ps. XXXI, 19</cite> <he>הדוברות … עתק</he>) <he>הדוברות על צדיקי של עולם דברים שה׳ מבריותיו</he> who speak concerning the Righteous One of the world words which he has withheld from his creatures (esoteric philosophy); <cite ref=\"Yalkut Shimoni on Nach 715:2\">Yalk. Ps. 715</cite>; <cite ref=\"Bereishit Rabbah 1:5\">Gen. R. s. 1</cite> <he>שה׳ בבריותיו</he> (corr. acc., v. ‘Rashi’ a. l.). ",
+					"units": [
+						"<cite ref=\"Ruth Rabbah, Petichta 1\">Ruth R. to I, 1</cite> (ref. to <cite ref=\"I Chronicles 4:22\">I Chr. IV, 22</cite>) <he>דברים הללו נאמרו ממַעְתִּיקוֹ של עולם וכ׳</he> these words were spoken by Him who moves the world (by ref. to <he>ויעתק</he>, <cite ref=\"Genesis 12:8\">Gen. XII, 8</cite>); (Yalk. Chr. 1074 <he>דברים הללו מעתיקו</he>, v. <cite ref=\"P01532\"><he>עַתִּיק</he></cite>). ",
+						"<cite ref=\"Yalkut Shimoni on Nach 961:7\">Yalk. Prov. 961</cite> (ref. to <he>העתיקו</he>, <cite ref=\"Proverbs 25:1\">Prov. XXV, 1</cite>) <he>העתיקו מלמד שגנוזים היו</he> ‘<i>hʿetiḳu</i>’ (they removed), this shows that they were suppressed (v. <cite ref=\"C01120\"><he>גָּנַז</he></cite>). ",
+						"<cite ref=\"Proverbs 25:1\">Ib.</cite> <he>דבר אחר אין העתיקו אלא פירשו וכ׳</he> another interpretation is, <i>hʿetiḳu</i> means ‘they set aside’ (ref. to <cite ref=\"Genesis 12:8\">Gen. XII, 8</cite>), i.e. translated, interpreted (v. <cite ref=\"Q02021\"><he>פָּרַשׁ</he></cite>, a. cmp. the later use of <he>העתיק</he> <i>to edit, to translate</i>); <cite ref=\"Avot D'Rabbi Natan 1\">Ab. d’R. N. ch. I</cite>, 2ⁿᵈ Vers. (ed. Schechter, p. 3) <he>אין העתיקו אלא שפרשו</he>; ib. 1ˢᵗ Vers. <he>לא שהמתינו אלא שפירשו</he>, v. <cite ref=\"P01544\">next w.</cite>"
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּעְתַּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be removed</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 1:8:1\">Koh. R. to I, 8</cite> (in enigmatic speech) <he>ואני הוּעְתַּקְתִּי לכאן להחיש מחיה</he> and I have come here to accelerate the growth (of hair)."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נֶעְתַּק"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִתְעַתֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be removed, transferred</i>. ",
+					"units": [
+						"<cite ref=\"Esther Rabbah, Petichta 11\">Esth. R. to I, 1</cite> <he>הנֶעְתָּקִין</he>, v. <cite ref=\"S01050\"><he>קִינְסִין</he></cite>. Yalk. Chr. 1076 (ref. to I Chr. l. c.) <he>אפי׳ … שנִתְעַתְּקוּ מהם החזירם</he> even things which had been removed from them (esoteric thoughts) did he bring back; Ruth R. l. c. (not <he>שנתעסקו</he>)."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"id": "A00405",
+	"slug": "אדיר-1",
+	"headword": {
+		"text": "אַדִּיר"
+	},
+	"page": {
+		"number": 16,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"A00441\"><he>אָדַר</he></cite>) ; <i>distinguished, glorious, mighty</i>.—Pl. <he>אַדִּירִים</he>. ",
+			"units": ["<cite ref=\"Menachot 53a:18\">Men. 53ᵃ</cite>"]
+		}
+	]
+}

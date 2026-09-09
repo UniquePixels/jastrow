@@ -1,0 +1,27 @@
+{
+	"id": "N01227",
+	"slug": "נקמא",
+	"headword": {
+		"text": "נִקְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִקְמְתָא"
+		}
+	],
+	"page": {
+		"number": 933,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01226\">preced.</cite>) <i>revenge; judgment</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:43\">Targ. Y. I Deut. XXXII, 43</cite> (ed. Amst. <cite ref=\"N01227\"><he>נְקָמָא</he></cite>); Y. II (ed. Amst. <cite ref=\"N01230\"><he>נִקְמָתָא</he></cite>). Targ. Y. II ib. 35."
+			]
+		}
+	]
+}

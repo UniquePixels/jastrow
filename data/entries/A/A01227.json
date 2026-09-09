@@ -1,0 +1,27 @@
+{
+	"id": "A01227",
+	"slug": "איטרון",
+	"headword": {
+		"text": "אִיטְרוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִטְרוּן"
+		}
+	],
+	"page": {
+		"number": 47,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נ־טר</he>, cmp. <cite ref=\"I00239\"><he>טוּרָנָא</he></cite>) <i>watchman, officer</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 9:13\">Targ. Is. IX, 13</cite>; <cite ref=\"Targum Jonathan on Isaiah 19:15\">XIX, 15</cite>."
+			]
+		}
+	]
+}

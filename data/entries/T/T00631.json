@@ -1,0 +1,28 @@
+{
+	"id": "T00631",
+	"slug": "ריחתנא",
+	"headword": {
+		"text": "רִיחְתָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רֵחְ׳"
+		}
+	],
+	"page": {
+		"number": 1474,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00630\">preced. art.</cite>) <i>perfumed, spiced</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 110a:4\">Sabb. 110ᵃ</cite> <he>חמרא ר׳</he> spiced wine. ",
+				"<cite ref=\"Gittin 70a:12\">Gitt. 70ᵃ</cite> the best of all wines is <he>סומקא ר׳</he> spiced red wine; a. e."
+			]
+		}
+	]
+}

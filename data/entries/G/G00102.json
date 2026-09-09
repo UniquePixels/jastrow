@@ -1,0 +1,60 @@
+{
+	"id": "G00102",
+	"slug": "זהם-1",
+	"headword": {
+		"text": "זָהַם"
+	},
+	"page": {
+		"number": 382,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>זהה</he>) [<i>to be glistening;</i> cmp. <he>צחן</he> a. <cite ref=\"R00272\"><he>צחח</he></cite>)] <i>to be filthy, smell offensively, be offensive</i>.—Part. <he>זוֹהֵם</he>, or part. pass. <he>זָהוּם</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:7:7\">Y. Ab. Zar. II, 41ᶜ</cite> bot. <he>ר״ל אמר ככוס ז׳</he> (not <he>בכוס</he>) R. L. says, It is like drinking out of an offensive cup; <he>השותה בכוס ז׳ וכ׳</he> he who drinks (sacred wine &c.) out of &c. ",
+				"<cite ref=\"Jerusalem Talmud Niddah 4:1:2\">Y. Nidd. IV, end, 51ᵇ</cite> <he>דם נידה זהום</he> (<cite ref=\"Tosefta Niddah 9:10\">Tosef. ib. IX, 10</cite> <he>זוהם</he>; Bab. ",
+				"<cite ref=\"Niddah 65b:56\">Nidd. 65ᵇ</cite>) the blood of a menstruant is sticky (or ill-smelling)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זִיהֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to smear plants with rancid oil</i> for keeping off vermin, [oth. opin.: <i>to cover a wound in a tree with dung and tie it up</i>.] <cite ref=\"Mishnah Sheviit 2:4\">Shebi. II, 4</cite>. Y. ib. 33ᵈ (expl. <he>מְזַהֲמִין</he> of Mish.) <he>מתלעין</he> to keep the worms off. Ib. <he>המְזַהֵם אינו וכ׳</he> oiling a plant is merely like appointing a watchman (it does not advance growth). Y. Sabb. VII, 10ᵃ top, v. <cite ref=\"B00480\"><he>בָּחַל</he> II</cite>.—<i>Part. pass.</i> <he>מְזוּהָם</he>, f. <he>מְזוּהֶמֶת</he> <i>ill-smelling, filthy, offensive</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bekhorot 6:12\">Bekh. VI, 12</cite> <he>ומז׳</he> and an animal of offensive smell or sight. ",
+						"<cite ref=\"Berakhot 53b:33\">Ber. 53ᵇ</cite> <he>מז׳</he> an offensive-looking priest. Y. Gitt. VIII, 49ᵈ top <he>מז׳ היא מלפניו</he> she is disgusting to him (on account of her conduct); a. e.—Pl. <he>מְזוּהָמִים</he>, <he>מְזוּהָמִין</he>; fem. <he>מְזוּהָמוֹת</he>. Ber. l. c. <he>ידים מ׳</he> smelling hands (after a meal, when not perfumed). ",
+						"<cite ref=\"Vayikra Rabbah 16:9\">Lev. R. s. 16</cite>; <cite ref=\"Esther Rabbah 7:1\">Esth. R. to III, 1</cite> <he>מה … מ׳ וכ׳</he> as ordure is offensive, so is he (the leper); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to declare unfit for priestly or levitical service</i> (<i>or connection</i>), <i>to reject</i>. ",
+					"units": [
+						"<cite ref=\"Bekhorot 47a:14\">Bekh. 47ᵃ</cite> <he>אין מְזַהֲמִין וכ׳</he> the child is not rejected (as the child of a gentile).—Y. Yeb. X, 11ᵃ; XIII, 13ᵈ bot. <he>ואין ב״ד מזהמין אותה</he> but the court does not declare her unfit to marry a priest."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (v. <cite ref=\"G00134\"><he>זוֹהֲמָא</he></cite>) part. pass. <he>מְזוּהָם</he>, pl. <he>מְזוּהָמִין</he> <i>inclined to lasciviousness, unchaste</i>. ",
+					"units": ["<cite ref=\"Shabbat 145b:9\">Sabb. 145ᵇ</cite> bot."],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִזְהִים"],
+			"senses": [
+				{
+					"gloss": "<i>to become unfit for offering through offensiveness</i>. Pesik. Vayhi, p. 10ᵃ <he>לא הִזְהִימוּ</he> (perh. to be read <he>הוּזְהָמוּ</he> Hof.; (<cite ref=\"Yalkut Shimoni on Torah 713:7\">Yalk. Num. 713</cite> <he>הוזמו</he>, expl. <he>חוסמו</he>, corr. acc., or <he>הוּמָמוּ</he> as <cite ref=\"Bamidbar Rabbah 12:21\">Num. R. s. 12</cite>, end, a. e., v. Bub. note to Pesik. l. c.).",
+					"units": []
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

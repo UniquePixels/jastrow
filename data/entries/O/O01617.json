@@ -1,0 +1,22 @@
+{
+	"id": "O01617",
+	"slug": "סריכא",
+	"headword": {
+		"text": "סְרִיכָא"
+	},
+	"page": {
+		"number": 1027,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סְרַךְ</he> II) <i>climbing</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 22a\">B. Kam. 22ᵃ</cite> (Ar. <cite ref=\"O00855\"><he>סִירְכָא</he></cite>), v. <cite ref=\"O00820\"><he>סִיקְרָא</he> I</cite>."
+			]
+		}
+	]
+}

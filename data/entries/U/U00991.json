@@ -1,0 +1,39 @@
+{
+	"id": "U00991",
+	"slug": "שיעור",
+	"headword": {
+		"text": "שִׁיעוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁעוּר"
+		}
+	],
+	"page": {
+		"number": 1565,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01679\"><he>שָׁעַר</he></cite>) <i>proportion, standard, definite quantity</i> or <i>size, limit</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 1:1\">Peah I, 1</cite> <he>אלו … שאין להם ש׳</he> for the following things there is no definite proportion or quantity prescribed. Y. ib. 15ᵃ bot. <he>אין להם ש׳ לא למעלן וכ׳</he> they have no limits set either of a maximum or of a mininum. ",
+				"<cite ref=\"Mishnah Challah 1:7\">Ḥall. I, 7</cite> <he>אם אין … כש׳</he> if either portion is not of the legal size (to require the separation of the priest’s share). ",
+				"<cite ref=\"Mishnah Challah 4:8\">Ib. IV, 8</cite> <he>של אור יש לה ש׳ וכ׳</he> for that portion of Ḥallah which is to be burnt there is a legal quantity (a minimum) &c. ",
+				"<cite ref=\"Mishnah Challah 4:8\">Ib.</cite> <he>של אור אין לה ש׳ וכ׳</he> for that which is to be burnt there is no minimum prescribed, but there is one for that which is to be given to the priest. ",
+				"<cite ref=\"Niddah 26a:30\">Nidd. 26ᵃ</cite> <he>ש׳ שופר</he> the legal length of a <i>shofar</i>. ",
+				"<cite ref=\"Niddah 26a:27\">Ib.</cite> <he>חמשה שִׁיעוּרָן טפח</he> for five things the legal minimum size is a handbreadth. ",
+				"<cite ref=\"Yoma 73b:15\">Yoma 73ᵇ</cite>, a. fr. <he>חצי ש׳</he> half (less than) the legal quantity; a. v. fr.—Pl. <he>שׁיעוּרִים</he>, <he>שִׁיעוּרִין</he>, <cite ref=\"U00992\"><he>שִׁע׳</he></cite>. ",
+				"<cite ref=\"Yoma 80a:11\">Ib. 80ᵃ</cite> <he>כל הש׳ כולן בכזית וכ׳</he> all legal standards (for eatables in ritual law) are the size of an olive, except &c. ",
+				"<cite ref=\"Yoma 80a:11\">Ib.</cite>, a. e. <he>ש׳ ועונשין הלכה וכ׳</he> standard measures and penalties are fixed by tradition, expl. <he>ש׳ של עונשין</he> the minima required for punishment. ",
+				"<cite ref=\"Mishnah Shabbat 7:4\">Sabb. VII, 4</cite> <he>מפני ששוו בשִׁיעוּרֵיהֶן</he> because they are alike as to legal standards. ",
+				"<cite ref=\"Mishnah Shabbat 8:1\">Ib. VIII, 1</cite>. ",
+				"<cite ref=\"Shabbat 80b:9\">Ib. 80ᵇ</cite> <he>כל שִׁיעוּרֵי שבת</he> all legal minimum sizes for eatables carried abroad on the Sabbath; a. fr.—Ib. 35ᵇ <he>נתת דבריך לש׳</he> thy rule would vary according to circumstances, and would not be alike for all; <cite ref=\"Megillah 18b:2\">Meg. 18ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 5:5:2\">Y. B. Bath. V, end, 15ᵇ</cite> <he>לש׳</he> for regulating the market prices, v. <cite ref=\"U01679\"><he>שַׁעַר</he> I</cite>."
+			]
+		}
+	]
+}

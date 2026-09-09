@@ -1,0 +1,56 @@
+{
+	"id": "N00846",
+	"slug": "נכר-2",
+	"headword": {
+		"text": "נְכַר"
+	},
+	"page": {
+		"number": 912,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00845\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַכֵּר</he> <i>to recognize, know</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 38:25\">Targ. Y. I Gen. XXXVIII, 25</cite>, sq."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִינַּכַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be distinguishable</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 5a:9\">B. Kam. 5ᵃ</cite> <he>דמִינַּכְּרָא</he>, v. <he>הֶיוֵּקָא</he>. ",
+						"<cite ref=\"Bava Kamma 97a:15\">Ib. 97ᵃ</cite> <he>מִינַּכַּר היזיקה</he> its reduction in value is distinguishable."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["נַכֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to make strange, remove</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 82b:1\">Sabb. 82ᵇ</cite> (ref. to <he>תזרם</he>, <cite ref=\"Isaiah 30:22\">Is. XXX, 22</cite>) <he>נַכְּרִינְהוּ מינך כַּוָּר</he> (v. Rabb. D. S. a. l. note) remove them from thee like a strange (disgusting) thing."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

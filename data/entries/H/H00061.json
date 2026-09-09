@@ -1,0 +1,37 @@
+{
+	"id": "H00061",
+	"slug": "חביט",
+	"headword": {
+		"text": "חֲבִיט"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲבִיטָא"
+		}
+	],
+	"page": {
+		"number": 418,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ",
+			"units": []
+		},
+		{
+			"gloss": " part. pass. of <cite ref=\"H00041\"><he>חֲבַט</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (<cite ref=\"H00041\"><he>חֲבַט</he></cite>) <i>flail, cudgel</i>. [Tanḥ. Ḥuck. 6 <he>חביטך</he>, v. <cite ref=\"H00044\"><he>חֲבָטָא</he></cite>.]—Pl. <he>חֲבִיטֵי</he>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 58a\">B. Bath. 58ᵃ</cite> [read:] <he>שקילו ח׳ חבוטו אקיברא וכ׳</he> (v. Ms. M. a. Rabb. D. S. a. l. note) take cudgels and beat on the grave of your father, until &c."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A01470",
+	"slug": "איסמטא",
+	"headword": {
+		"text": "אִיסְמְטָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 56,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"O00699\"><he>סִימְטָא</he></cite> q. v.; <he>סמט</he> = <he>שמט</he>) <i>recess of the market place, alley</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:4:14\">Y. Ber. III, 6ᶜ</cite> bot."
+			]
+		}
+	]
+}

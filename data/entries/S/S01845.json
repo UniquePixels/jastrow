@@ -1,0 +1,60 @@
+{
+	"id": "S01845",
+	"slug": "קצר-2",
+	"headword": {
+		"text": "קְצַר"
+	},
+	"page": {
+		"number": 1408,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <i>to be short</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 102:24\">Targ. Ps. CII, 24</cite> <he>קְצָרוּן</he> Ms. (ed. <he>איתקצרון</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to shorten</i>, v. infra.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. <cite ref=\"S01826\"><he>קְצִירָא</he></cite>) <i>to be sick</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 91a:14\">B. Kam. 91ᵃ</cite> <he>למימד גברא כמה מיקצר</he> … <he>לא מִקְצַר וכ׳</he> Ms. M. (ed. <he>כמה לִיקְצַר</he>) as to estimating how long a person is likely to suffer from such a wound and how long he will not, i.e. as to estimating positively the time needed for recovery, I have no doubt that we can do it."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַצֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to shorten</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 89:46\">Targ. Ps. LXXXIX, 46</cite> Ms. (ed. <cite ref=\"K01174\"><he>קְ׳</he></cite>, <i>Pe.</i>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְקַצַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be shortened, reduced</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 19:26\">Targ. II Kings XIX, 26</cite>; <cite ref=\"Targum Jonathan on Isaiah 37:27\">Targ. Is. XXXVII, 27</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 28:20\">Ib. XXVIII, 20</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 28:10\">Targ. Y. Gen. XXVIII, 10</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

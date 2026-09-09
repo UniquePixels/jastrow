@@ -1,0 +1,33 @@
+{
+	"id": "A01310",
+	"slug": "אילפא-1",
+	"headword": {
+		"text": "אִילפָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אִלְפָא"
+		}
+	],
+	"page": {
+		"number": 50,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A01933\"><he>אלף</he></cite>, <cite ref=\"J00397\"><he>ילף</he></cite>; Assyr. êlippu) <i>ship, raft</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jonah 1:3\">Targ. Jon. I, 3</cite>; a. e.—",
+				"<cite ref=\"Vayikra Rabbah 12:1\">Lev. R. s. 12</cite>, beg. <he>כהדא א׳</he> like the ship tossed about on high sea. ",
+				"<cite ref=\"Kohelet Rabbah 3:2\">Koh. R. to III, 2</cite> (prov.) at the time thou tiest thy Lulab (for the Feast of Booths) <he>קטר אלפך</he> tie thy ship (cease navigation). ",
+				"<cite ref=\"Avodah Zarah 10b:14\">Ab. Zar. 10ᵇ</cite> <he>ווי לה לאי׳ וכ׳</he> woe to the ship which leades without having paid its toll (of a convert who died before circumcision).—Trnsf. <i>the body of a chicken</i> (<i>chest-bone</i> resembling a ship). ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>נסבית הדין אי׳ וכ׳</he> (<cite ref=\"T00152\"><he>רבתי</he></cite>) I took for myself this ship (of the chicken), for in a ship I came &c.—Pl. <he>אִילְפַיָּא</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 104:26\">Targ. Ps. CIV, 26</cite>; a. e."
+			]
+		}
+	]
+}

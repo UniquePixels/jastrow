@@ -1,0 +1,38 @@
+{
+	"id": "A03211",
+	"slug": "ארס-4",
+	"headword": {
+		"text": "אֲרַס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָרַס"
+		}
+	],
+	"page": {
+		"number": 124,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", fut. <he>יֵירוּס</he>, ch. <cite ref=\"A03210\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:30\">Targ. O. Deut. XXVIII, 30</cite>; a. fr.—(<he>אַרְסָא</he>) <he>מְאַרְסָא</he> <i>betrothed woman</i>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 20:10\">Targ. Y. Lev. XX, 10</cite>. ",
+				"<cite ref=\"Onkelos Exodus 22:15\">Targ. Ex. XXII, 15</cite> (<cite ref=\"Onkelos Exodus 22:16\">16</cite>).—*<cite ref=\"Shir HaShirim Rabbah 4:12:2\">Cant. R. to IV, 12</cite> <he>אֲרוּסָתֵיה</he> or <he>אֲרוּסְתֵּיה</he> (Chald. suffix) his betrothed.—[<cite ref=\"Vayikra Rabbah 34\">Lev. R. s. 34</cite> <he>דאינון מארסוון</he>, read <he>מאנסיכון</he>, v. <cite ref=\"A02260\"><he>אֲנַס</he></cite>, or <he>דאתון מיזדמיין</he>, v. <cite ref=\"G00514\"><he>זְמֵי</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְאֲרִיס"],
+			"senses": [
+				{
+					"gloss": ", contr. <cite ref=\"A03452\"><he>אִתְרִיס</he></cite> (cmp. <cite ref=\"A02260\"><he>אֲנַס</he></cite> Ithpe.) <i>to be betrothed</i>. <he>בת אִיתְרוּסֵי</he> <i>marriageable</i>. ",
+					"units": ["<cite ref=\"Gittin 43a\">Gitt. 43ᵃ</cite>; a. fr."]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

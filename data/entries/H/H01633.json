@@ -1,0 +1,37 @@
+{
+	"id": "H01633",
+	"slug": "חרופה-2",
+	"headword": {
+		"text": "חֲרוּפָה"
+	},
+	"page": {
+		"number": 500,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"H01739\"><he>חָרַף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>designated, betrothed</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 6a:6\">Kidd. 6ᵃ</cite> <he>האומר חֲרוּפָתִי וכ׳</he> if one says to a woman, Be my <i>ḥărufah</i>, she is betrothed, for in Judæa they call the betrothed (<he>אֲרוּסָה</he>) <i>ḥărufah</i>.—Esp. <he>שפחה ח׳</he> (v. ",
+				"<cite ref=\"Leviticus 19:20\">Lev. XIX, 20</cite>) <i>a handmaid designated to become the wife of one selected by her master</i>. ",
+				"<cite ref=\"Gittin 43a:16\">Gitt. 43ᵃ</cite> <he>איזוהי שפחה ח׳</he> (<cite ref=\"Mishnah Keritot 2:5\">Ker. II, 5</cite> only <cite ref=\"U01728\"><he>שפחה</he></cite>) what is the legal condition meant in the law concerning the designated handmaid?—",
+				"<cite ref=\"Tosefta Keritot 1:19\">Tosef. Ker. I, 19</cite> <he>אשם ש׳ ח׳</he> the sacrifice due for sleeping with an engaged handmaid. ",
+				"<cite ref=\"Tosefta Keritot 1:16\">Ib. 16</cite>; a. fr.—Pl. <he>חֲרוּפוֹת</he>. ",
+				"<cite ref=\"Keritot 9a:90\">Ker. 9ᵃ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>defloured</i>, v. <cite ref=\"H01739\"><he>חָרַף</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

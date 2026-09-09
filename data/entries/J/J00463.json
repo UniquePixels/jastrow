@@ -1,0 +1,28 @@
+{
+	"id": "J00463",
+	"slug": "יסי",
+	"headword": {
+		"text": "יַסֵּי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "יַיַסֵּי חֳלִי"
+		}
+	],
+	"page": {
+		"number": 582,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. [<i>healer of sickness</i>,] <i>yassé ḥŏli</i>, name of a bitter herb. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 2:8:6\">Y. Kil. II, 27ᵃ</cite> top (not <he>יסיח לי</he>, expl. <he>חזרת גלים</he>); <cite ref=\"Jerusalem Talmud Pesachim 2:5:2\">Y. Pes. II, 29ᶜ</cite> (expl. <cite ref=\"H01652\"><he>חרחבינה</he></cite>)."
+			]
+		}
+	]
+}

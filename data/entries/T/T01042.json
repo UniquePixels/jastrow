@@ -1,0 +1,40 @@
+{
+	"id": "T01042",
+	"slug": "רקם-4",
+	"headword": {
+		"text": "רְקָם",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "רֶקֶם"
+		}
+	],
+	"page": {
+		"number": 1497,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ") pr. n. pl. <i>R’ḳam</i> (or <i>Reḳem</i>); ",
+			"units": []
+		},
+		{
+			"gloss": " also <he>ר׳ דחגרא</he> <i>Sela</i> (Petra) in Edom (v. Hildesh. Beitr. p. 52 sq.) <cite ref=\"Onkelos Genesis 14:7\">Targ. Gen. XIV, 7</cite> (Y. ed. Vien. <cite ref=\"T00700\"><he>רֵיקָם</he></cite>; h. text <he>קדש</he>). Ib. XX, 1; a. e.—",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 1:1\">Gitt. I, 1</cite> <he>המביא מן הר׳ ומן החגר</he> if a messenger brings a letter of divorce from the district of R. or of Ḥagar. ",
+				"<cite ref=\"Mishnah Niddah 8:3\">Nidd. VIII, 3</cite>; a. e.—",
+				"<cite ref=\"Sifrei Devarim 51\">Sifré Deut. 51</cite> <he>ר׳ תחגרא</he> (read: <he>דחגרא</he>); <cite ref=\"Yalkut Shimoni on Torah 874:2\">Yalk. ib. 874</cite> <he>רגם דח׳</he>; <cite ref=\"Tosefta Shevi'it 4:11\">Tosef. Shebi. IV, 11</cite> ed. Zuck. (Var. <he>ורכה דדוגרא</he>, corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " רְקַם גֵּיאָה <i>R’ḳam Geah</i> = Kadesh Barnea. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 34:4\">Targ. Num. XXXIV, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 15:3\">Targ. Josh. XV, 3</cite>; a. e.—Sifré l. c.; Yalk. l. c. (not <cite ref=\"C00007\"><he>גאוה</he></cite>); Tosef. l. c. (Var. <he>נאה</he>, corr. acc.); Y. Shebi. V, 36ᶜ <he>ר׳ דגועה</he>."
+			],
+			"label": "2"
+		}
+	]
+}

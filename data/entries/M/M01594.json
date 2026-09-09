@@ -1,0 +1,33 @@
+{
+	"id": "M01594",
+	"slug": "מלל-6",
+	"headword": {
+		"text": "מָלַל",
+		"homograph": 3
+	},
+	"page": {
+		"number": 792,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>מִלֵּל</he>, <cite ref=\"M01393\"><he>מִי׳</he></cite> (b. h.;  [<i>to present, show</i>; cmp. <cite ref=\"N00117\"><he>הִגִּיד</he></cite>, <cite ref=\"H00716\"><he>חִוָּה</he></cite>,] <i>to proclaim, utter, speak</i>. ",
+					"units": [
+						"<cite ref=\"Horayot 13b:13\">Hor. 13ᵇ</cite>; <cite ref=\"Megillah 18a:9\">Meg. 18ᵃ</cite>; <cite ref=\"Makkot 10a:17\">Macc. 10ᵃ</cite> (ref. to <cite ref=\"Psalms 106:2\">Ps. CVI, 2</cite>) <he>למי נאה למַלֵּל וכ׳</he> whom does it become to utter the mighty deeds &c.?—",
+						"<cite ref=\"Jerusalem Talmud Ketubot 2:10:5\">Y. Keth. II, 26ᵈ</cite> bot. <he>שמענו פלוני מְמַלֵּל על פלו׳ אשתו</he> we heard that man speaking of (pointing out) that woman as his wife; <he>מְמַלֶּלֶת על בניה</he> speaking of her children; a. e.—[<cite ref=\"Vayikra Rabbah 27:2\">Lev. R. s. 27</cite> <he>מי מלל</he>, read: <cite ref=\"M01458\"><he>מָל</he></cite>, v. <cite ref=\"M00484\"><he>מוּל</he></cite>, II, 2.—Lam. R. introd. (R. Hăn. 1) <he>מְמַלְּלִים</he>, v. <cite ref=\"L00577\"><he>לִמְלֵם</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

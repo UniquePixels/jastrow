@@ -1,0 +1,38 @@
+{
+	"id": "D00837",
+	"slug": "דליקתא",
+	"headword": {
+		"text": "דְּלֵיקְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּלֵקְ׳"
+		}
+	],
+	"page": {
+		"number": 310,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"D00836\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 22:5\">Targ. Ex. XXII, 5</cite>. ",
+				"<cite ref=\"Onkelos Numbers 11:3\">Targ. Num. XI, 3</cite>.—",
+				"<cite ref=\"Niddah 36b:69\">Nidd. 36ᵇ</cite> are you not afraid <he>מד׳</he> of the fire (punishment for disobeying a rabbi, cmp. <cite ref=\"C00593\"><he>גַּחֶלֶת</he></cite>)? <cite ref=\"Jerusalem Talmud Yoma 8:5:8\">Y. Yoma VIII, 45ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= h. <cite ref=\"D00860\"><he>דַּלֶּקֶת</he></cite>) <i>fever</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:22\">Targ. O. Deut. XXVIII, 22</cite> ed. Berl. (ed. <cite ref=\"D00861\"><he>דַּלֶּקְתָּא</he></cite>, <cite ref=\"D00861\"><he>דְּלֶקְתָּא</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

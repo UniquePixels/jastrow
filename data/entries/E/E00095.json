@@ -1,0 +1,51 @@
+{
+	"id": "E00095",
+	"slug": "הד",
+	"headword": {
+		"text": "הַד־"
+	},
+	"page": {
+		"number": 332,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " a prefix (a compound of <cite ref=\"E00005\"><he>הָא</he></cite> a. <he>ד־</he>), pl. <cite ref=\"E00112\"><he>הֲדֵי</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": " with prefix <cite ref=\"B00000\"><he>ב</he></cite> and suffix of personal pronoun: <cite ref=\"B00163\"><he>בַּהֲדִי</he></cite>, <he>בַּהֲדָאִי</he>; <he>בַּהֲדָךְ</he>; <cite ref=\"B00163\"><he>בַּהֲדֵיה</he></cite>; <he>בַּהֲדָן</he>, <he>בַּהֲדָנָא</he>; <he>בַּהֲדַיְיכוּ</he>; <he>בַּהֲדַיְיהוּ</he> <i>with myself, in my presence; with thyself</i> &c. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 6:4\">Targ. Job VI, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 15:10\">Ib. XV, 10</cite>; a. e.—",
+				"<cite ref=\"Bava Batra 41a:9\">B. Bath. 41ᵃ</cite> <he>בהדאי</he> in connection with myself. ",
+				"<cite ref=\"Shabbat 118a:5\">Sabb. 118ᵃ</cite> <he>הא דאיכא בהדך אוכליה</he> eat what thou hast with thee; <he>מלוינן ליה … בהדיה</he> we give him a meal along. ",
+				"<cite ref=\"Bava Batra 73b\">B. Bath. 73ᵇ</cite> <he>אתלוי בהדן וכ׳</he> a certain Arab joined us. ",
+				"<cite ref=\"Chullin 57b:12\">Ḥull. 57ᵇ</cite> <he>מלכא הוה בהדייהו</he> the king was among them; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " בַּהֲדֵי <i>in the presence of, with</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 22:15\">Targ. Y. Deut. XXII, 15</cite>.—",
+				"<cite ref=\"Pesachim 112b\">Pes. 112ᵇ</cite> a law-suit <he>ב׳ תלתא</he> with three opponents. ",
+				"<cite ref=\"Shabbat 33b\">Sabb. 33ᵇ</cite> <he>ב׳ פניא</he> near twilight. ",
+				"<cite ref=\"Ketubot 103b:18\">Keth. 103ᵇ</cite> <he>ב׳ דידי מינצת</he> with me wilt thou dispute?—",
+				"<cite ref=\"Bava Kamma 92a:11\">B. Kam. 92ᵃ</cite>, v. <cite ref=\"E00264\"><he>הוּצָא</he></cite>; a. fr.—<he>ב׳ הדדי</he>, v. <cite ref=\"E00097\"><he>הֲדָדֵי</he></cite>.—לַהֲדֵי <i>towards, near</i>. ",
+				"<cite ref=\"Shabbat 134a\">Sabb. 134ᵃ</cite> <he>ל׳ יומא</he> towards the light. ",
+				"<cite ref=\"Shabbat 134a\">Ib.</cite> <he>ל׳ פומיה</he> (not <he>פומי</he>, Ms. M. <he>בהדי פומי׳</he>) close to his mouth. ",
+				"<cite ref=\"Avodah Zarah 30b:9\">Ab. Zar. 30ᵇ</cite> <he>טיף ל׳ טיף טיף</he> (Ms. M. <he>טיף טיף בהדי …</he>) drop immediately after drop. Pes. l. c. <he>לַהֲדֵיה כרעיה</he> (Ms. Ms. <he>על גבי</he>) at his feet; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (conj.) <he>בהדי ד־</he> <i>during the time that, while</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 68a:1\">Gitt. 68ᵃ</cite> top <he>ב׳ דקא מעייני ואתו</he> while they were going on searching. ",
+				"<cite ref=\"Chullin 53a\">Ḥull. 53ᵃ</cite> <he>ב׳ דדריס</he> while he inserts his nails, <he>ב׳ דשליף</he> in the moment he takes them off; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

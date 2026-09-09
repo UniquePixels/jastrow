@@ -1,0 +1,22 @@
+{
+	"id": "B01125",
+	"slug": "בקיקא",
+	"headword": {
+		"text": "בְּקִיקָא"
+	},
+	"page": {
+		"number": 186,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בקק</he>; cmp. <he>בקע</he>, <cite ref=\"B01122\"><he>בקיעא</he></cite>) <i>a broken piece, potsherd</i>. Pl. <cite ref=\"B01124\"><he>בְּקִיקִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 12:12\">Targ. Y. Ex. XII, 12</cite>; <cite ref=\"Numbers 33:4\">Num. XXXIII, 4</cite>."
+			]
+		}
+	]
+}

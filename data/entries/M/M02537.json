@@ -1,0 +1,23 @@
+{
+	"id": "M02537",
+	"slug": "מרדא-4",
+	"headword": {
+		"text": "מַרְדָּא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 837,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"M02529\"><he>מָרַד</he> II</cite>) <i>moist, green</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 17:6\">Targ. Is. XVII, 6</cite> (h. text <cite ref=\"Q01793\"><he>פריה</he></cite>); cmp. <cite ref=\"T00230\"><he>רָדָא</he></cite>."
+			]
+		}
+	]
+}

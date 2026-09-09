@@ -1,0 +1,71 @@
+{
+	"id": "P00480",
+	"slug": "עטרה",
+	"headword": {
+		"text": "עֲטָרָה"
+	},
+	"page": {
+		"number": 1065,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"P00475\"><he>עָטַר</he></cite>)<i>protection</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 63:2\">Gen. R. s. 63</cite>, beg. (ref. to <cite ref=\"Proverbs 17:6\">Prov. XVII, 6</cite>) <he>האבות ע׳ לבנים והבנים ע׳ וכ׳</he> the fathers are a protection to their children (who are saved for their parents’ sake), and the children are a protection to their fathers; v. <cite ref=\"P00475\"><he>עָטַר</he></cite> <i>Hithpa.</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>wreath, crown, decoration</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 5:14\">Ex. R. s. 5</cite> <he>לא היה יודע לשלח לי ע׳</he> did (your God) not have sense enough to send me a crown? <cite ref=\"Jerusalem Talmud Sotah 9:15:2\">Y. Sot. IX, 24ᵇ</cite> bot. <he>ע׳ של זית</he> a wreath of olive leaves; <cite ref=\"Eichah Rabbah 5:16\">Lam. R. to V, 16</cite> <he>עֲטֶרֶת זית</he>. ",
+				"<cite ref=\"Tosefta Sotah 15:3\">Tosef. Sot. XV, 3</cite> <he>בטלה עטרת חכמים שעטרת חכמים עושרם</he> the crown (or protection) of the scholars ceased, for the crown of the scholars is their wealth (independence, <cite ref=\"Proverbs 14:24\">Prov. XIV, 24</cite>); <cite ref=\"Sotah 49b:17\">Sot. 49ᵇ</cite> <he>בטלו עַטְרוֹת וכ׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:11\">Y. Dem. II, 22ᶜ</cite> bot., v. <cite ref=\"P00475\"><he>עָטַר</he></cite> <i>Hithpa.</i>—",
+				"<cite ref=\"Yoma 69b:14\">Yoma 69ᵇ</cite> <he>החזירו ע׳ ליושנה</he> they restored the crown (the praise of the Lord) to its original condition (by re-introducing the phrase <he>האל הגדול הגבור והנורא</he>; <cite ref=\"Jerusalem Talmud Berakhot 7:3:9\">Y. Ber. VII, 11ᶜ</cite> <he>הַגְּדוּלָּה</he>). ",
+				"<cite ref=\"Nedarim 62a:9\">Ned. 62ᵃ</cite>; <cite ref=\"Pirkei Avot 4:5\">Ab. IV, 5</cite> <he>אל תעשם ע׳ וכ׳</he>, v. <cite ref=\"C00223\"><he>גָּדַל</he></cite>. ",
+				"<cite ref=\"Megillah 15b:3\">Meg. 15ᵇ</cite>; <cite ref=\"Sanhedrin 111b:3\">Snh. 111ᵇ</cite> <he>עתיד הקב״ה להיות ע׳ וכ׳</he> the Lord, in the time to come, shall be a crown on the head of every righteous man (ref. to <cite ref=\"Isaiah 28:5\">Is. XXVIII, 5</cite>); a. fr.—Pl. <cite ref=\"P00481\"><he>עֲטָרוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Avodah Zarah 4:2\">Ab. Zar. IV, 2</cite> <he>ע׳ של שבלים</he> wreaths of ears (used for idolatrous purposes); Y. ib. IV, 43ᵈ <he>עַטְרוֹת שיבולים</he>. Ib. <he>ע׳ של וורד</he> rose garlands. ",
+				"<cite ref=\"Mishnah Sotah 9:14\">Sot. IX, 14</cite> <he>גזרו על ע׳ חתנים</he> they forbade bridegrooms’ garlands; <he>ע׳ כלות</he> brides’ crowns. Ib. 49ᵇ <he>איזהו ע׳ כלות עיר וכ׳</he> what brides’ crowns were forbidden? A golden representation of the city (of Jerusalem); a. fr.—",
+				"<cite ref=\"Shabbat 87b:6\">Sabb. 87ᵇ</cite> <he>אותו יום נטל עשר ע׳</he> that day carried off ten distinctions."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "",
+			"units": [],
+			"label": "3",
+			"senses": [
+				{
+					"gloss": " <i>brickwork of an oven</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kelim 5:3\">Kel. V, 3</cite> <he>עטרת כירה</he>, v. <cite ref=\"I00430\"><he>טִירָה</he></cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>moulding, sill, cornice</i>.—<i>Pl.</i> as ab. Ohol. XIV, 1. ",
+					"units": ["<cite ref=\"Mishnah Middot 3:8\">Midd. III, 8</cite>.—"],
+					"label": "b"
+				},
+				{
+					"gloss": " <i>corona of the membrum virile</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 55b:17\">Yeb. 55ᵇ</cite>, a. e., v. <cite ref=\"E00518\"><he>הַכְנָסָה</he></cite>.—"
+					],
+					"label": "c"
+				},
+				{
+					"gloss": " <i>the ring around the teat</i> of a woman, as a symptom of puberty. ",
+					"units": [
+						"<cite ref=\"Niddah 47a\">Nidd. 47ᵃ</cite>; <cite ref=\"Niddah 52b:17\">52ᵇ</cite> <he>עד שתקיף הע׳</he> until a ring is formed around &c.; <cite ref=\"Tosefta Niddah 6:4\">Tosef. ib. VI, 4</cite> <he>משתקיף הע׳</he> (not <he>משיקיף</he>); <cite ref=\"Tosefta Niddah 6:5\">ib. 5</cite>; a. e."
+					],
+					"label": "d"
+				}
+			]
+		}
+	]
+}

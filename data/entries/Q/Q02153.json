@@ -1,0 +1,40 @@
+{
+	"id": "Q02153",
+	"slug": "פתי-3",
+	"headword": {
+		"text": "פְּתֵי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1253,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. constr. (<cite ref=\"Q02152\">preced.</cite>) <i>widening</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " <he>פ׳ ירכא</he> (cmp. patella) <i>knee-pan</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 32:26\">Targ. Gen. XXXII, 26</cite> (Y. II <he>כף</he>); ib. 33."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>width, distance</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 139b:14\">Ḥull. 139ᵇ</cite> <he>שיתסר דרי בפ׳ מילא</he> sixteen rows, each extending over one mile."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <he>פ׳ רמשא</he>, v. <cite ref=\"A02846\"><he>אַפְתָּא</he> II</cite>",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "U01398",
+	"slug": "שלשל-3",
+	"headword": {
+		"text": "שַׁלְשֵׁל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1589,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01397\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּלְשֵׁל"],
+			"senses": [
+				{
+					"gloss": "<i>to be chained</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 12:17\">Targ. Job XII, 17</cite> (h. text <he>שׁוֹלָל</he>)."
+					]
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

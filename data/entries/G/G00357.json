@@ -1,0 +1,38 @@
+{
+	"id": "G00357",
+	"slug": "זילותא",
+	"headword": {
+		"text": "זִילוּתָא"
+	},
+	"page": {
+		"number": 394,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00173\"><he>זול</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cheapness, low price</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 9:27\">Targ. II Chr. IX, 27</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 28:17\">Targ. Job XXVIII, 17</cite> Ms. a. Levita (ed. <cite ref=\"S00976\"><he>קילותא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>disregard, disgrace</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 1:8\">Targ. Lam. I, 8</cite>.—",
+				"<cite ref=\"Yevamot 100a:7\">Yeb. 100ᵃ</cite> <he>משום ז׳</he> because it is a disgrace (for a woman to stand waiting). ",
+				"<cite ref=\"Makkot 24a:22\">Macc. 24ᵃ</cite> <he>דלא שמע בז׳ וכ׳</he> he does not hear a scholar defamed and keeps silence. ",
+				"<cite ref=\"Bava Kamma 102b\">B. Kam. 102ᵇ</cite> bot. <he>לא יקרייכו זִילוּתַיְכוּ וכ׳ …</he> I want neither your honor nor your insults; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "S01695",
+	"slug": "קפא-2",
+	"headword": {
+		"text": "קַפָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1398,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κάππα) the letter <i>kappa</i> (k′) as numeral, <i>twenty</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד בר נש</he>), v. <cite ref=\"D00330\"><he>דּוֹקְיָיא</he></cite>; <cite ref=\"Jerusalem Talmud Maaser Sheni 4:6:7\">Y. Maas. Sh. IV, 55ᵇ</cite> bot. [read:] <he>מני עשרין … ק׳ דוקייא</he> count twenty beams in thy house (counting upwards and downwards until you arrive at twenty), and thou shalt find thy father’s savings, <i>kappa dokia</i> (twenty beams; oneirocritical play on Cappadocia; v. ",
+				"<cite ref=\"Bereishit Rabbah 68\">Gen. R. s. 68</cite>)."
+			]
+		}
+	]
+}

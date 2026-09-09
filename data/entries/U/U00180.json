@@ -1,0 +1,22 @@
+{
+	"id": "U00180",
+	"slug": "שברה",
+	"headword": {
+		"text": "שַׁבְרָה"
+	},
+	"page": {
+		"number": 1518,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"U00184\"><he>שַׁבְרִירַיָּא</he></cite>) <i>blinking</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:2:5\">Y. Ḥag. II, 77ᵈ</cite> <he>עיינה הוות ש׳</he> one of her eyes was blinking."
+			]
+		}
+	]
+}

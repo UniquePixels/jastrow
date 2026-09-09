@@ -1,0 +1,29 @@
+{
+	"id": "D01078",
+	"slug": "דרי-1",
+	"headword": {
+		"text": "דְּרֵי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּרָא"
+		}
+	],
+	"page": {
+		"number": 322,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= h. <cite ref=\"G00674\"><he>זָרָה</he></cite>) <i>to scatter, strew; to winnow</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 32:20\">Targ. O. Ex. XXXII, 20</cite> <cite ref=\"D01029\"><he>דרא</he></cite> ed. Berl. (some ed. <he>זרא</he>); Y. <cite ref=\"D01080\"><he>דרי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 41:16\">Targ. Is. XLI, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 30:24\">Ib. XXX, 24</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 74a\">B. Mets. 74ᵃ</cite> <cite ref=\"M00326\"><he>מִידְרָא</he></cite> winnowing. ",
+				"<cite ref=\"Avodah Zarah 44a:15\">Ab. Zar. 44ᵃ</cite> what proof is there that <i>vayissaëm</i> (<cite ref=\"II Samuel 5:21\">II Sam. V, 21</cite>) <he>לישנא דדְרוּיֵי הוא</he> Ar. a. ed. Pes. (v. Rabb. D. S. a. l. note 7; ed. <he>זרויי</he>) has the meaning of scattering (to the winds)? Ans. (ref. to <cite ref=\"Isaiah 41:16\">Is. XLI, 16</cite>) <he>ומתרגמינן תדרינון</he> (Ms. M. <he>תבדר׳</he>, ed. <he>תזרי׳</he>, v. supra) and we translate (<i>tissaëm</i>) ‘shall scatter them’."
+			]
+		}
+	]
+}

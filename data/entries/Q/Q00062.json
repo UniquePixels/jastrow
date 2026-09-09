@@ -1,0 +1,27 @@
+{
+	"id": "Q00062",
+	"slug": "פגין",
+	"headword": {
+		"text": "פַּגִּין"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּגִּינָא"
+		}
+	],
+	"page": {
+		"number": 1133,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"Q00038\"><he>פַּגָּא</he> II</cite>) <i>hard, unripe</i>.—Pl. <he>פַּגִּינָין</he>; f. <cite ref=\"Q00062\"><he>פַּגִּינָן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 25:8\">Lev. R. s. 25</cite> [read:] <he>דהוון בשילן ולא פ׳</he> that they (the figs) were ripe (and soft) and not hard; <cite ref=\"Kohelet Rabbah 2:20:1\">Koh. R. to II, 20</cite>."
+			]
+		}
+	]
+}

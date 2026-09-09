@@ -1,0 +1,23 @@
+{
+	"id": "U00422",
+	"slug": "שולטיתא",
+	"headword": {
+		"text": "שׁוּלְטִיתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1534,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01282\"><he>שְׁלַט</he></cite>) (<i>the officer’s</i>) <i>rod</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 6:21\">Targ. Jud. VI, 21</cite> some ed., v. <cite ref=\"U00386\"><he>שׁוֹטִיתָא</he></cite>."
+			]
+		}
+	]
+}

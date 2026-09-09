@@ -1,0 +1,22 @@
+{
+	"id": "H00536",
+	"slug": "חזיזא-1",
+	"headword": {
+		"text": "חֲזִיזָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 443,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"H00533\"><he>חָזִיז</he></cite>, <i>cloud</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:9\">Targ. Cant. II, 9</cite>.—Pl. <he>חֲזִיזֵי</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 28:26\">Targ. Job XXVIII, 26</cite>."
+			],
+			"label": "1"
+		}
+	]
+}

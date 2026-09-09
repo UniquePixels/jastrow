@@ -1,0 +1,43 @@
+{
+	"id": "A00007",
+	"slug": "א-7",
+	"headword": {
+		"text": "אִ־"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִי־"
+		},
+		{
+			"text": "אֶ־"
+		},
+		{
+			"text": "אַ־"
+		}
+	],
+	"page": {
+		"number": 1,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " &c. a prefix, ",
+			"units": []
+		},
+		{
+			"gloss": " for the formation of nouns in Kal, Peel, Afel (Hifil) &c., e.g. <cite ref=\"A01482\"><he>אִסְפְּקָא</he></cite>, <cite ref=\"A02348\"><he>אִיסְ׳</he></cite>, <cite ref=\"A02663\"><he>אַפְטָרָה</he></cite>, <cite ref=\"A02665\"><he>אַפְטַרְתָּא</he></cite> &c.; ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " demonstrative, e.g. <cite ref=\"A01180\"><he>אִיהוּ</he></cite> = h. <cite ref=\"E00174\"><he>הַהוּא</he></cite>; <cite ref=\"A02085\"><he>אִנָּא</he></cite>, <cite ref=\"A01366\"><he>אִינָא</he></cite> &c.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " euphonic (prosthetic) <cite ref=\"A00419\"><he>אִדְמָא</he></cite> = <cite ref=\"D00869\"><he>דְּמָא</he></cite>; <cite ref=\"A01639\"><he>אִית</he></cite> = h. <cite ref=\"J00674\"><he>יֵשׁ</he></cite> &c., esp. before foreign words beginning with two consonants, e.g. <cite ref=\"A02415\"><he>אִסְטְרָטֵיגוֹס</he></cite>, <cite ref=\"A02348\"><he>אִיסְ׳</he></cite> = <cite ref=\"O00509\"><he>סְטַרְטֵיגוֹס</he></cite> &c.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

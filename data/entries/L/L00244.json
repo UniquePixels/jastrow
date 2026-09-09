@@ -1,0 +1,28 @@
+{
+	"id": "L00244",
+	"slug": "לוטסאי",
+	"headword": {
+		"text": "לוּטָסָאֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְטוֹסָאֵי"
+		}
+	],
+	"page": {
+		"number": 697,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (prob.) <i>Arethusii, the inhabitants of Arethusia</i> between Epiphania and Emesa (v. <cite ref=\"H01215\"><he>חֲמָץ</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 10:18\">Targ. Y. I Gen. X, 18</cite>; <cite ref=\"Targum of I Chronicles 1:16\">Targ. I Chr. I, 16</cite> (h. text <he>אַרְוָדִי</he>)."
+			]
+		}
+	]
+}

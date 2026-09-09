@@ -1,0 +1,20 @@
+{
+	"id": "S00234",
+	"slug": "קובלנא",
+	"headword": {
+		"text": "קוּבְלָנָא"
+	},
+	"page": {
+		"number": 1323,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <he>קִבְלָא</he> III) <i>a formula to ward off danger</i>, e.g. when complaining of a trouble to a friend, to say, ‘may it never occur to you!’ <cite ref=\"Sanhedrin 104b:8\">Snh. 104ᵇ</cite> (ref. to <cite ref=\"Lamentations 1:12\">Lam. I, 12</cite> <he>לא אליכם</he>) <he>מכאן לק׳ מן התורה</he> (Ar. <he>לקָבְלָ׳</he>) here we have a Biblical support for the custom of saying, ‘not to you’; [another interpret. in Rashi: <i>complaint</i> (v. <cite ref=\"S00059\"><he>קְבַל</he> II</cite>), i.e. that a man in trouble should make it known to friends and appeal to their sympathy; v. ",
+			"units": ["<cite ref=\"Chullin 78a\">Ḥull. 78ᵃ</cite>]."]
+		}
+	]
+}

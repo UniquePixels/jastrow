@@ -1,0 +1,46 @@
+{
+	"id": "V01111",
+	"slug": "תשש-2",
+	"headword": {
+		"text": "תְּשַׁשׁ"
+	},
+	"page": {
+		"number": 1705,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V01110\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 14:9\">Targ. Y. Num. XIV, 9</cite> <cite ref=\"V01068\"><he>תַּשׁ</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתְתִּישׁ", "אִיתְּשִׁישׁ"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"V01111\"><he>אִיתְּשַׁשׁ</he></cite> <i>to grow feeble, be sick</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 9:28\">Targ. Y. Deut. IX, 28</cite>.—Pesik. B’shall., p. 93ᵇ <he>ר׳</he> … <he>א׳ ואיתגלית וכ׳</he> R. El. … was falling away, and his (emaciated) arm was uncovered &c.; <cite ref=\"Kohelet Rabbah 11:2\">Koh. R. to XI, 2</cite>; a. e.—",
+						"<cite ref=\"Shir HaShirim Rabbah 2:16:2\">Cant. R. to II, 16</cite> <he>אתשש</he> ed. Wil., v. <cite ref=\"H01869\"><he>חֲשַׁשׁ</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["תּוֹשֵׁשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to weaken</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 118:10\">Targ. Ps. CXVIII, 10</cite>, sq. <he>אֲתוֹשְׁשִׁינוּן</he> Regia (ed. Lag. <he>אֶתּוֹשִׁינוּן</he>; ed. Wil. <he>אֶתְּשִׁי׳</he> <i>Af.</i>)."
+					]
+				}
+			],
+			"stem": "Polel."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "A03171",
+	"slug": "ארמון-2",
+	"headword": {
+		"text": "אַרְמוֹן",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 122,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Armon</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 45a\">Yeb. 45ᵃ</cite> captives coming from A. (v. Neub. Géogr. p. 371; prob. ident. with <cite ref=\"T00795\"><he>רִמּוֹן</he></cite>, q. v.)."
+			]
+		}
+	]
+}

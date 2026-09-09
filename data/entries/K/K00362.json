@@ -1,0 +1,26 @@
+{
+	"id": "K00362",
+	"slug": "כור-1",
+	"headword": {
+		"text": "כּוֹר"
+	},
+	"page": {
+		"number": 625,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"K01071\"><he>כֹּר</he></cite>; <cite ref=\"K01272\"><he>כרר</he></cite> , v. <cite ref=\"K01095\"><he>כָּרָה</he></cite>) [<i>a heap</i>,] <i>Khor</i>, a measure of capacity, <cite ref=\"K00606\"><he>בֵּית כ׳</he></cite> (or <he>כ׳</he>, sub. <he>בית</he>) <i>an area requiring a Khor of seed</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 105b:12\">B. Mets. 105ᵇ</cite> <he>כ׳ זרע</he> a field requiring a <i>Khor</i> of seed; <he>כ׳ תבואה</he> a field yielding a <i>Khor</i> of grain. ",
+				"<cite ref=\"Bava Metzia 105b:12\">Ib.</cite> <he>ד׳ סאין לכ׳</he> four S’ah of seed for a Beth Khor of land, v. <cite ref=\"N01044\"><he>נְפִילָה</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Batra 7:1\">B. Bath. VII, 1</cite>; <cite ref=\"Mishnah Bava Batra 7:2\">2</cite> <he>בית כ׳</he>. ",
+				"<cite ref=\"Bava Batra 104a:8-10\">Ib. 104ᵃ</cite> <he>נותן … לכל כ׳ וכ׳</he> we allow a surplus or deficit of seven Kab and a half for each Beth Khor; a. fr.—<i>Du.</i> <he>כּוֹרַיִים</he>, <cite ref=\"K00379\"><he>כּוֹרַיִם</he></cite>. ",
+				"<cite ref=\"Bava Batra 104b:2\">Ib.ᵇ</cite>—Ohol. VIII, 3; <cite ref=\"Mishnah Kelim 15:1\">Kel. XV, 1</cite> <he>ארבעים סאה בלח שהן כ׳ ביבש</he> forty S’ah in liquid measure which is equal to two Khor in dry measure."
+			]
+		}
+	]
+}

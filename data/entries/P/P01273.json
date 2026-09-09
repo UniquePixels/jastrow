@@ -1,0 +1,39 @@
+{
+	"id": "P01273",
+	"slug": "ערבון-2",
+	"headword": {
+		"text": "עֵרָבוֹן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עֵי׳"
+		}
+	],
+	"page": {
+		"number": 1112,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P01242\"><he>עָרַב</he> I)</cite><i>pledge, earnest-money</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 48b:7\">B. Mets. 48ᵇ</cite> <he>הנותן ע׳ … עֵרְבוֹנִי מחול לך והלה … אכפול לך עֵרְבוֹנְךָ</he> if a man gives an earnest to his neighbor and says, if I retract, my earnest shall be forfeit to thee; and the neighbor says, if I retract, I shall double thy earnest to thee; <cite ref=\"Tosefta Bava Metzia 1:17\">Tosef. ib. I, 17</cite>, sq. ",
+				"<cite ref=\"Esther Rabbah 7:20\">Esth. R. to III, 10</cite> <he>מנהגו של עולם דרכו של לוקח ליתן ע׳ וכ׳</he> ordinarily it is the purchaser that gives an earnest to the seller, but here the seller (Ahasuerus) gives a pledge (his ring); <cite ref=\"Ruth Rabbah 7:12\">Ruth R. to IV, 8</cite>. ",
+				"<cite ref=\"Pesachim 118b:4\">Pes. 118ᵇ</cite> (ref. to <cite ref=\"Judges 5:21\">Jud. V, 21</cite>) <he>אמר הקב״ה … צא והשלם ערבונך</he> the Lord said to the brook Kishon, go and surrender thy pledge (Sisera’s men bathing in the brook). ",
+				"<cite ref=\"Pirkei Avot 3:16\">Ab. III, 16</cite> <he>הכל נתון בע׳</he> every thing is given against a pledge, i.e. life and possession are a loan for which you are pledged to the Lord; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>going security</i>.—Pl. <he>עֵרְבוֹנוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Yevamot 109a:17\">Yeb. 109ᵃ</cite> <he>ויתרחק … ומן הע׳</he> (Rashi <cite ref=\"P01272\"><he>ערבון</he></cite>) and should keep aloof from cases of protest (v. <cite ref=\"M01077\"><he>מִיאוּן</he></cite>), from trusts, and from going security (<cite ref=\"Bereishit Rabbah 93\">Gen. R. s. 93</cite>, beg. <he>מלעשות ערבות וכ׳</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

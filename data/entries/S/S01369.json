@@ -1,0 +1,32 @@
+{
+	"id": "S01369",
+	"slug": "קלן-2",
+	"headword": {
+		"text": "קָלָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְלָן"
+		},
+		{
+			"text": "קְלָנָא"
+		}
+	],
+	"page": {
+		"number": 1378,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"S01269\"><he>קָלוֹן</he></cite>, <i>shame, disgrace, disgraceful deed; nakedness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 22:18\">Targ. Is. XXII, 18</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 22:21\">Targ. Deut. XXII, 21</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 20:18\">Targ. O. Lev. XX, 18</cite>; a. fr."
+			]
+		}
+	]
+}

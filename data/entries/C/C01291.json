@@ -1,0 +1,28 @@
+{
+	"id": "C01291",
+	"slug": "גרוגרות",
+	"headword": {
+		"text": "גְּרוֹגְרוֹת"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּר גְּרוֹגְרוֹת"
+		}
+	],
+	"page": {
+		"number": 266,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>G’rog’roth, Bar G’rog’roth</i>, surname of one Judah. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 4:2:3\">Y. Shek. IV, 48ᵃ</cite> <he>ר׳ יהודה ג׳</he> (Bab. ed. <cite ref=\"C00161\"><he>גדגדות</he></cite>, <cite ref=\"C00162\"><he>גדגדניות</he></cite>, Ms. M. <cite ref=\"C01291\"><he>גרוגרות</he></cite>, v. Rabb. D. S. a. l., p. 34, note 20). ",
+				"<cite ref=\"Yoma 78a:7\">Yoma 78ᵃ</cite> <cite ref=\"C00667\"><he>בר ג׳</he></cite> (Ms. M. <he>בר גרוגרת</he>)."
+			]
+		}
+	]
+}

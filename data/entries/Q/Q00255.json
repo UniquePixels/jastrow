@@ -1,0 +1,23 @@
+{
+	"id": "Q00255",
+	"slug": "פומפייא",
+	"headword": {
+		"text": "פּוּמְפַּיָּיא"
+	},
+	"page": {
+		"number": 1143,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (reduplic. of <cite ref=\"Q00246\"><he>פּוּם</he></cite>) <i>graters</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 2:2:3\">Y. M. Kat. II, 81ᵇ</cite> top <he>הורי באילין פ׳ וכ׳</he> decided concerning grating tools that it was permitted to make them during the festive week for use on the festival."
+			]
+		}
+	]
+}

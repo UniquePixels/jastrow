@@ -1,0 +1,32 @@
+{
+	"id": "T00557",
+	"slug": "רטט-1",
+	"headword": {
+		"text": "רָטַט",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1471,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>רִטֵּט</he> <i>to run, leap</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 1:9\">Cant. R. to I, 9</cite> (ref. to <cite ref=\"Psalms 106:20\">Ps. CVI, 20</cite>) <he>חרטומי … כמְרַטֵּט לפניהם</he> the Egyptian magicians made sorcery before them, and it (the golden calf) appeared as if it were leaping before them; [v., however, <cite ref=\"S02015\"><he>קִרְטֵעַ</he></cite>]."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

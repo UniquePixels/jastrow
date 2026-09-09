@@ -1,0 +1,28 @@
+{
+	"id": "U00558",
+	"slug": "שוש-2",
+	"headword": {
+		"text": "שׁוּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁוַשׁ"
+		}
+	],
+	"page": {
+		"number": 1543,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Shush</i> or <i>Sh’vash</i> (prob. the modern Sus = Shushan, v. Sm. Gr. a. Rom. Geogr. s. v. Susa). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 94a:15\">Snh. 94ᵃ</cite> <he>כי מטי שׁוֹש אמרי שׁוֹיא לארעין</he> Rashi (ed. <he>כי ארעין</he>) when they (the Jewish exiles) came to Sh., they said, this is as good as our land. ",
+				"<cite ref=\"Sanhedrin 94a:15\">Ib.</cite> <he>שוש תרי</he>, v. <cite ref=\"U00579\"><he>שׁוּשְׁתְּרֵי</he></cite>."
+			]
+		}
+	]
+}

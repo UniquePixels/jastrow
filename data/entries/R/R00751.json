@@ -1,0 +1,27 @@
+{
+	"id": "R00751",
+	"slug": "צרור-3",
+	"headword": {
+		"text": "צְרוֹר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1300,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"R00810\"><he>צָרַר</he> II</cite> , v. <cite ref=\"R00735\"><he>צָרַד</he></cite>) <i>pebble, stone</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:6\">Sabb. VIII, 6</cite> (<cite ref=\"Shabbat 81a:1\">81ᵃ</cite>) <he>צ׳ או אבן</he>, read as in Y. ed. <he>צ׳ אבן</he> a pebble; Tosef. ib. VIII (IX), 22; Y. ib. VIII, 11ᶜ top (v. Rabb. D. S. to Sabb. l. c. note 3). ",
+				"<cite ref=\"Gittin 64b:9\">Gitt. 64ᵇ</cite>, a. e. <he>צ׳ וזורקו אגוז וכ׳</he> a child that is given a pebble and throws it away, a nut and takes it. ",
+				"<cite ref=\"Mishnah Menachot 1:2\">Men. I, 2</cite> <he>קמץ ועלה בידו צ׳</he> if the priest took a handful (of the meal offering), and a pebble was in it. ",
+				"<cite ref=\"Mishnah Tevul Yom 1:4\">T’bul Yom I, 4</cite> <he>הצ׳ שבככר</he> a pebble (or a piece of earthen ware) put as a mark on a loaf; a. fr.—Pl. <he>צְרוֹרוֹת</he>. Y. Erub. V, 22ᶜ top. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 4:1:2\">Y. Yoma IV, beg. 41ᵇ</cite> <he>ויביא שני צ׳ וכ׳</he> (not <he>צרורת</he>) let him take two pebbles, one black &c.; a. fr.—[<cite ref=\"Yalkut Shimoni on Torah 587:3\">Yalk. Lev. 587</cite> <he>נפלו ממנו צ׳</he>, read: <he>נִיצוֹצוֹת</he>.]"
+			]
+		}
+	]
+}

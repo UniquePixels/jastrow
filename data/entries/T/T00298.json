@@ -1,0 +1,31 @@
+{
+	"id": "T00298",
+	"slug": "רובא-3",
+	"headword": {
+		"text": "רוֹבֵא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רוֹבֶה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1455,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"T00060\"><he>רֹבֶה</he></cite>, Gen. XXI, 20; <cite ref=\"T00058\"><he>רָבָה</he></cite>) [<i>growing</i>,] <i>young man, youth</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 26a:3\">Sot. 26ᵃ</cite> <he>הר׳ שנשא עקרה וכ׳</he> a young man who married a barren or an old woman. Y. ib. VIII, 22ᵈ bot. <he>ר׳ שנשא ריבה</he> a young man that married a young girl; a. e.—Pl. <cite ref=\"T00306\"><he>רוֹבִים</he></cite>, <he>רוֹבִין</he>. ",
+				"<cite ref=\"Mishnah Tamid 1:1\">Tam. I, 1</cite> <he>והר׳ שומרים שם</he> the young priests held watch there; [anoth. opinion: the <i>archers</i>, v. <he>רְבֵי</he> II].—Esp. <he>הר׳</he> <i>the sons of R. Ḥiyya</i>. ",
+				"<cite ref=\"Chullin 20a:2\">Ḥull. 20ᵃ</cite> <he>יקבלו הר׳ וכ׳</he> let the lads receive the answer to their arguments. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 3:4:2\">Y. Ḥag. III, 79ᶜ</cite> bot.; a. e."
+			]
+		}
+	]
+}

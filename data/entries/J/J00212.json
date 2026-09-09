@@ -1,0 +1,69 @@
+{
+	"id": "J00212",
+	"slug": "יונתן",
+	"headword": {
+		"text": "יוֹנָתָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְהוֹנָתָן"
+		}
+	],
+	"page": {
+		"number": 570,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Jonathan</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " J. b. Gershom (<cite ref=\"Judges 18:30\">Jud. XVIII, 30</cite>), a priest of idolatry, supposed to be a descendant of Moses. ",
+			"units": [
+				"<cite ref=\"Bava Batra 109b:11\">B. Bath. 109ᵇ</cite> <he>יו׳</he> Ms. M. (ed. <he>יהו׳</he>). ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:5:3\">Cant. R. to II, 5</cite>; <cite ref=\"Avot D'Rabbi Natan 34:5\">Ab. d’R. N. ch. XXXIV</cite>; <cite ref=\"Jerusalem Talmud Berakhot 9:2:12\">Y. Ber. IX, 13ᵈ</cite> top; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " J. son of Saul. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 5:16\">Ab. V, 16</cite> <he>אהבת דוד וי׳</he> the friendship between David and J. ",
+				"<cite ref=\"Chullin 95b:8\">Ḥull. 95ᵇ</cite> <he>כי׳ בן וכ׳</he> like the omen of J. &c. (1 Sam. XIV, 8 sq.). ",
+				"<cite ref=\"Shir HaShirim Rabbah 8:6:4\">Cant. R. to VIII, 6</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " J. b. Uziel, author of the Chaldaic version of the Prophets (v. Zunz, Gottesd. Vortr. p. 66, sq.). ",
+			"units": [
+				"<cite ref=\"Sukkah 28a:7\">Succ. 28ᵃ</cite>; <cite ref=\"Bava Batra 134a:9\">B. Bath. 134ᵃ</cite>. ",
+				"<cite ref=\"Megillah 3a:5\">Meg. 3ᵃ</cite> <he>תרגיס של נכיאים י׳ וכ׳</he> the version of the Prophets has been composed by J. b. U. at the dictation of Haggai &c. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 5:6:3\">Y. Ned. V, end, 39ᵇ</cite> <he>גדול שבהן י׳ ב׳ ע׳</he> the greatest among the disciples of R. Joh. b. Zaccai, was J. &c."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " R. J., a Tannai. ",
+			"units": [
+				"<cite ref=\"Sotah 24a:15\">Sot. 24ᵃ</cite>. ",
+				"<cite ref=\"Pesachim 24a:4\">Pes. 24ᵃ</cite>. ",
+				"<cite ref=\"Chullin 70b:12\">Ḥull. 70ᵇ</cite>; a. v. fr.—[<cite ref=\"Eruvin 96a:11\">Erub. 96ᵃ</cite> <he>י׳ הקיטוני</he>.]—[<cite ref=\"Pirkei Avot 4:9\">Ab. IV, 9</cite>, v. Frank. Darkhé, p. 147, note.]"
+			],
+			"label": "4"
+		},
+		{
+			"gloss": " name of several Amoraim (v. Fr. M’bo, p. 99ᵃ, sq.). ",
+			"units": [
+				"<cite ref=\"Gittin 78b:5\">Gitt. 78ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 3:3:8\">Y. Maas. Sh. III, 54ᵇ</cite> top. ",
+				"<cite ref=\"Berakhot 18a:13\">Ber. 18ᵃ</cite>; Y. ib. II, 4ᶜ bot.; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Yoma 7:3:4\">Y. Yoma VII, 44ᵇ</cite> bot. R. J. of Beth Gubrin.—",
+				"<cite ref=\"Jerusalem Talmud Peah 5:1:3\">Y. Peah V, beg. 18ᵈ</cite> (R. S. to <cite ref=\"Mishnah Peah 5:1\">Peah V, 1</cite> quotes R. Johanan); <cite ref=\"Jerusalem Talmud Shekalim 1:2:3\">Y. Shek. I, 46ᵃ</cite> bot. R. J. son of R. Isaac bar Aḥa.—",
+				"<cite ref=\"Jerusalem Talmud Terumot 11:5:11\">Y. Ter. XI, end, 48ᵇ</cite> J. b. ʿAkhmai; a. e."
+			],
+			"label": "5"
+		}
+	]
+}

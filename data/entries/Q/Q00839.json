@@ -1,0 +1,35 @@
+{
+	"id": "Q00839",
+	"slug": "פירוכייא",
+	"headword": {
+		"text": "פֵּירוּכְיָיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פֵּר׳"
+		}
+	],
+	"page": {
+		"number": 1170,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"Q00838\"><he>פֵּירוּכָא</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 2:16\">Targ. Y. Lev. II, 16</cite>, v. <cite ref=\"Q00838\"><he>פֵּירוּכָא</he> I</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= h. <he>מלילות</he>) <i>dry ears</i>.—Pl. <cite ref=\"Q00839\"><he>פֵּירוּכְיָין</he></cite>, <cite ref=\"Q00839\"><he>פֵּר׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 23:26\">Targ. Y. Deut. XXIII, 26</cite>.—Denom. <cite ref=\"Q01846\"><he>פְּרַךְ</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

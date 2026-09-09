@@ -1,0 +1,39 @@
+{
+	"id": "M03097",
+	"slug": "מתנתא",
+	"headword": {
+		"text": "מַתַּנְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַתְּנָא"
+		},
+		{
+			"text": "מַתָּנָא"
+		}
+	],
+	"page": {
+		"number": 864,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"M03089\"><he>מַתָּנָה</he></cite> , <i>gift, grant, donation</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 18:6\">Targ. Num. XVIII, 6</cite>, sq. ",
+				"<cite ref=\"Onkelos Numbers 18:11\">Ib. 11</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 153a:3\">B. Bath. 153ᵃ</cite> <he>ההיא מ׳ וכ׳</he> a deed of donation in which was written &c. ",
+				"<cite ref=\"Bava Batra 40b:2\">Ib. 40ᵇ</cite> <he>דגיטא ודמ׳</he> the protest against a letter of divorce or of donation. ",
+				"<cite ref=\"Bava Batra 40b:4\">Ib.</cite> <he>מ׳ טמירתא</he> a deed of donation intended to be kept secret; a. fr.—Pl. <cite ref=\"M03095\"><he>מַתְּנָן</he></cite>, <cite ref=\"M03097\"><he>מַתָּנָתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 25:13\">Targ. Y. Num. XXV, 13</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 18:17\">Targ. Y. II, Gen. XVIII, 17</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 10b:6\">Sabb. 10ᵇ</cite> <he>תרתי מ׳ דתורא</he> the priestly portions from two oxen (<cite ref=\"Deuteronomy 18:3\">Deut. XVIII, 3</cite>). ",
+				"<cite ref=\"Chullin 131b:21\">Ḥull. 131ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:6:13\">Y. Snh. II, end, 20ᵈ</cite> <he>כ״ד מ׳</he> the twenty four priestly gifts, v. <cite ref=\"K00152\"><he>כְּהוּנָּה</he></cite>; a. fr."
+			]
+		}
+	]
+}

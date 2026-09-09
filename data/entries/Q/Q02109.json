@@ -1,0 +1,23 @@
+{
+	"id": "Q02109",
+	"slug": "פשתני",
+	"headword": {
+		"text": "פִּשְׁתָּנִי"
+	},
+	"page": {
+		"number": 1249,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02108\">preced.</cite>) <i>flax-worker, dealer in flax</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 13:1:13\">Y. Yeb. XIII, 13ᶜ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 32\">Gen. R. s. 32</cite>, a. e., v. <cite ref=\"Q02108\">preced.</cite>"
+			]
+		}
+	]
+}

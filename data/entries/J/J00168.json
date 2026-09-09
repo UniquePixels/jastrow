@@ -1,0 +1,27 @@
+{
+	"id": "J00168",
+	"slug": "יודנה",
+	"headword": {
+		"text": "יוּדָנָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "יוּדָנִי"
+		}
+	],
+	"page": {
+		"number": 568,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f. (v. <cite ref=\"J00166\"><he>יוּדָן</he></cite>) <i>Yudanah, Yudani</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:3:4\">Y. Ab. Zar. II, 41ᵃ</cite> <he>בר יודנה</he>; <cite ref=\"Jerusalem Talmud Terumot 8:3:2\">Y. Ter. VIII, 45ᶜ</cite> bot. <he>בר … י</he> Bar. Y.; cmp. <cite ref=\"J00127\"><he>יְהוּדִינְיִי</he></cite>."
+			]
+		}
+	]
+}

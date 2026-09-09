@@ -1,0 +1,22 @@
+{
+	"id": "M03010",
+	"slug": "מתבן",
+	"headword": {
+		"text": "מַתְבֵּן"
+	},
+	"page": {
+		"number": 860,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; denom. of <cite ref=\"V00064\"><he>תֶּבֶן</he></cite>)<i>shed for straw</i> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 7:5\">Erub. VII, 5</cite>; Tosef. ib. IX (VI), 17; a. e."
+			]
+		}
+	]
+}

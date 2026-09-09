@@ -1,0 +1,23 @@
+{
+	"id": "E00930",
+	"slug": "השמט",
+	"headword": {
+		"text": "הַשְׁמֵט"
+	},
+	"page": {
+		"number": 370,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Inf. Hif. of <cite ref=\"U01453\"><he>שָׁמַט</he></cite>, v. ",
+			"units": [
+				"<cite ref=\"Deuteronomy 15:3\">Deut. XV, 3</cite>) <i>cancelling</i>, esp. <he>ה׳ כספים</he> <i>cancelling of</i> (<i>cash</i>) <i>debts in the Sabbatical year</i>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 10:2:3\">Y. Shebi. X, 39ᶜ</cite> bot.; <cite ref=\"Jerusalem Talmud Gittin 4:3:4\">Y. Gitt. IV, 45ᶜ</cite> bot., sq. Y. Macc. I, 31ᵃ bot. <he>כה׳ כספים הוא</he> it is, like a cash debt, forfeited by limitation."
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "S00469",
+	"slug": "קוסטנטינא",
+	"headword": {
+		"text": "קוּסְטַנְטִינָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּ"
+		},
+		{
+			"text": "שְׁ"
+		},
+		{
+			"text": "ק … טִינֵי"
+		}
+	],
+	"page": {
+		"number": 1336,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (abbrev. of Constantinopolis) <i>Constantinople</i> (Byzantium), the capital of the Lower Roman empire (frequ. identified with Rome-Edom). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 108:11\">Targ. Ps. CVIII, 11</cite> <he>קושנ׳ דאדום</he> (read <he>קושטנ׳</he>; oth. ed. <he>קרתא</he>; ed. Wil. <he>אדום</he> only). ",
+				"<cite ref=\"Aramaic Targum to Lamentations 4:21\">Targ. Lam. IV, 21</cite> <he>קושט׳ קרתא דאדום</he> ed. Lag. (oth. ed. <he>ברתא דאדום</he>; Var. <he>קרתא דמתבניא בארע ארמניאה</he>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 24:19\">Targ. Y. I Num. XXIV, 19</cite>; <cite ref=\"Targum Jonathan on Numbers 24:24\">24</cite> <he>קוס׳</he>.—",
+				"<cite ref=\"Midrash Tehillim 9:9\">Midr. Till. to Ps. IX</cite> <he>קוסטאנטינוס בנה ק׳</he> Constantine built Constantinople; Yalk. ib. 642."
+			]
+		}
+	]
+}

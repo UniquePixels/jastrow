@@ -1,0 +1,28 @@
+{
+	"id": "A00186",
+	"slug": "אבעיה",
+	"headword": {
+		"text": "אַבְעָיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּבְעָיָה"
+		}
+	],
+	"page": {
+		"number": 8,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B01026\"><he>בָּעָה</he></cite>) <i>search, begging, the appearance of the poor for their share in the crop</i>. Pl. <he>אַבְעָיוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 4:5\">Peah IV, 5</cite> <he>ג׳ אב׳ וכ׳</he> (Y. ed. IV, 3 <he>אוּבְ׳</he>) three times a day the poor would come (cmp. etym. Y. ib. 18ᵇ top). [Oth. comment. ref. to etym. in Y. l. c. a. ",
+				"<cite ref=\"Targum Jonathan on Obadiah 1:6\">Targ. Ob. I, 6</cite>: “the owner appears” &c.]"
+			]
+		}
+	]
+}

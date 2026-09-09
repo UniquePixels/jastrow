@@ -1,0 +1,28 @@
+{
+	"id": "M01275",
+	"slug": "מיצוע",
+	"headword": {
+		"text": "מִיצּוּעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִצּ׳"
+		}
+	],
+	"page": {
+		"number": 778,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M02340\"><he>מְצַע</he></cite>) <i>middle, midst</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 7:12\">Targ. Job VII, 12</cite> (Ms. <he>מִיצְּע׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 23:11\">Targ. Y. Deut. XXIII, 11</cite>."
+			]
+		}
+	]
+}

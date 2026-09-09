@@ -1,0 +1,38 @@
+{
+	"id": "M02581",
+	"slug": "מרוח-2",
+	"headword": {
+		"text": "מְרוֹחַ"
+	},
+	"page": {
+		"number": 838,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"M02630\"><he>מָרַח</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (denom. of <he>רוח</he>) <i>filled with air</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 7:5\">Bekh. VII, 5</cite> (expl. ",
+				"<cite ref=\"Leviticus 21:20\">Lev. XXI, 20</cite>) <he>כל שרוח וכ׳</he> he who has wind in his testicles; Tosef. ib. V, 4 (v. <cite ref=\"S00979\"><he>קילֵיטֵיס</he></cite>); <cite ref=\"Yalkut Shimoni on Torah 632:1\">Yalk. Lev. 632</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <he>מְמוֹרָח</he>, v. <cite ref=\"M02630\"><he>מָרַח</he></cite>) <i>smashed</i>. Ib. (R. Yishm.) <he>שנמרחו וכ׳</he>; (Tosef. l. c. <cite ref=\"U00624\"><he>שחוף</he></cite>).—[",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " <he>מ׳ אשך</he> = <he>מַרְאֵה חשֶׁךְ</he> <i>black complexion</i>. Bekh. l. c., opin. of R. Antigonos.]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

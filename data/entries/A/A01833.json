@@ -1,0 +1,25 @@
+{
+	"id": "A01833",
+	"slug": "אלי-1",
+	"headword": {
+		"text": "אלי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אָלָה"
+		}
+	],
+	"page": {
+		"number": 68,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. √<he>אל</he>, v. <cite ref=\"A01780\"><he>אָלָה</he></cite>; cmp. <cite ref=\"E00061\"><he>הָגָה</he></cite>, <he>נקב</he> &c.)<i>to curse</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 18:1\">Sifré Num. 18</cite> (ref. to <cite ref=\"Numbers 18:21\">Num. XVIII, 21</cite>) <he>לאלה שיהו אָלִין בה וכ׳</he> ‘as a curse’ means that people shall curse by her (pointing to her), ‘may happen unto thee what happened to …’."
+			]
+		}
+	]
+}

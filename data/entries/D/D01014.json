@@ -1,0 +1,50 @@
+{
+	"id": "D01014",
+	"slug": "דקק-1",
+	"headword": {
+		"text": "דָּקַק"
+	},
+	"page": {
+		"number": 319,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"D00325\"><he>דּוּק</he></cite>, <cite ref=\"D00242\"><he>דּוּךְ</he></cite>)<i>to crush, pound, powder</i>.—Denom. <cite ref=\"D00985\"><he>דַּק</he></cite>.—<i>Pilp.</i> <cite ref=\"D00989\"><he>דִּקְדֵּק</he></cite> q. v.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵידַק", "הֵדַק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"D01013\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Keritot 6b:19\">Kerith. 6ᵇ</cite> <he>היטב הֵידֵק הֵידֵק היטב</he> pounding well &c.; Y. Yoma IV, 41ᵈ bot. <he>כשהיה מֵידַק היה אומר הָדֵק וכ׳</he> when the attendant pounded, the superintendent called, Pound well &c. [<cite ref=\"Sifrei Devarim 207\">Sifré Deut. 207</cite> <he>להדוק פשתן</he>, read <he>להָדֵיק</he> or <he>לִסְרוֹק</he>.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be fine, small</i>. Part. <cite ref=\"M01099\"><he>מֵידַק</he></cite>, <cite ref=\"M00322\"><he>מֵדַק</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sukkah 4:9\">Succ. IV, 9</cite> (<cite ref=\"Sukkah 48b\">48ᵇ</cite>) one was wide (<cite ref=\"M02073\"><he>מעובה</he></cite>), <he>ואחד מדק</he> Ms. M. (ed. <cite ref=\"D00984\"><he>דק</he></cite>; Y. ed., Ms. M. 2, a. Mish. ed. Pes. <he>מי׳</he>; Mish. Nap. <he>מוּדָק</he> Hof.) and the other tube was narrow; Y. ib. 54ᵈ top (they thought) <he>המ׳ של יין</he> the narrow was for wine. Y. Yoma III, 41ᵃ; Y. Sot. II, 18ᵃ top <cite ref=\"M01099\"><he>מידק</he></cite> small and thin type of letters. ",
+						"<cite ref=\"Arakhin 25a\">Arakh. 25ᵃ</cite> <he>מי׳</he> a sparsely sown field."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נָדַק", "נִדּוֹק"],
+			"senses": [
+				{
+					"gloss": "<i>to be crushed</i>. Mekh. Bo. s. 13 <he>נִידָּקוֹת</he>; <cite ref=\"Pesikta Rabbati 17:1\">Pesik. R. s. 17</cite> <he>נִידֶּקֶת</he>; Pesik. Vayhi, p. 64ᵇ <he>נָדֶקֶת</he>. [<cite ref=\"Zevachim 22a:10\">Zeb. 22ᵃ</cite> <he>טיט הנדוק</he>, read <he>הנרוק</he>, v. <cite ref=\"T01050\"><he>רָקַק</he></cite>.]",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

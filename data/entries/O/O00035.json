@@ -1,0 +1,23 @@
+{
+	"id": "O00035",
+	"slug": "סבהלום",
+	"headword": {
+		"text": "סַבְהֲלוֹם"
+	},
+	"page": {
+		"number": 949,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <he>יַהֲלֹם</he>, name of <i>a jewel</i> in the high priest’s breast-plate, <i>diamond</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:18\">Targ. O. Ex. XXVIII, 18</cite> (some ed. <cite ref=\"U00695\"><he>סִ׳</he></cite>); <cite ref=\"Onkelos Exodus 39:11\">XXXIX, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 2:10\">Targ. Y. Num. II, 10</cite>."
+			]
+		}
+	]
+}

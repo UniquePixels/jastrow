@@ -1,0 +1,39 @@
+{
+	"id": "M02730",
+	"slug": "מרע-3",
+	"headword": {
+		"text": "מְרַע",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מְרָע"
+		}
+	],
+	"page": {
+		"number": 845,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"T00915\"><he>רְעַע</he></cite>) <i>sick, suffering</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 18:1\">Targ. Y. Gen. XVIII, 1</cite> <he>מ׳ מִכֵּיבָא וכ׳</he> (not <cite ref=\"M01380\"><he>מַכִּי׳</he></cite>) suffering from the wound &c.; <cite ref=\"Targum Jonathan on Deuteronomy 34:6\">Targ. Y. I Deut. XXXIV, 6</cite> <he>מ׳ מִגְּזֵרַת וכ׳</he>. ",
+				"<cite ref=\"Onkelos Genesis 48:1\">Targ. O. Gen. XLVIII, 1</cite> <cite ref=\"M02730\"><he>מְרָע</he></cite> ed. Berl. (oth. ed. a. Y. <he>שכיב מ׳</he>); a. fr.—Esp. (in Talm. also in Hebr. dict.) <he>שכיב מ׳</he> <i>dangerously ill, expected to die</i>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 19:14\">Targ. I Sam. XIX, 14</cite> (v. <cite ref=\"M02729\">preced.</cite>).—",
+				"<cite ref=\"Mishnah Bava Batra 9:6\">B. Bath. IX, 6</cite> <he>שכיב מ׳ שכתב וכ׳</he> if a sick man assigns all of his property to a stranger (as an unqualified donation, v. <cite ref=\"M03089\"><he>מַתָּנָה</he></cite>). ",
+				"<cite ref=\"Mishnah Bava Batra 9:6\">Ib.</cite> <he>לא כתב בה ש׳ מ׳</he> if it was not stated in the document that he was sick; <he>הוא אומר ש׳ מ׳ היה</he> he (the donor) says that he was sick (at the time), opp. <he>בריא</he>. Ib. 152ᵃ, a. fr. <he>מתנת ש׳ מ׳</he> the donation of a sick man; a. v. fr.—Pl. <he>מַרְעִין</he>, <he>מַרְעַיָּא</he>. Targ. Y. I Deut. l. c. ",
+				"<cite ref=\"Aramaic Targum to Psalms 126:1\">Targ. Ps. CXXVI, 1</cite> <he>היך מ׳ וכ׳</he> like the sick when recovering (h. text <he>כחלמים</he>, v. <cite ref=\"H01081\"><he>חָלַם</he> I</cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 34:4\">Targ. Ez. XXXIV, 4</cite>; a. e.; v. <cite ref=\"M02675\"><he>מְרִיעַ</he></cite>.—<i>Fem.</i> <cite ref=\"M02731\"><he>מַרְעָא</he></cite>, <he>מְרַעֲתָא</he>, <cite ref=\"M02741\"><he>מְרָעיתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 69:21\">Targ. Ps. LXIX, 21</cite> <he>והא היא מרעא</he> ed. Lag. (Var. <cite ref=\"M00571\"><he>מוצא</he></cite>, cler. error; ed. Wil. <he>והא היא תקיפא</he>; h. text <he>וָאָנוּשָׁה</he>). ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:5\">Targ. Cant. II, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:8\">Ib. V, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 5:12\">Targ. Koh. V, 12</cite>; <cite ref=\"Aramaic Targum to Ecclesiastes 5:15\">15</cite>; a. e.—Pl. <he>מְרָעְאָן</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 30:36\">Targ. Y. Gen. XXX, 36</cite> (some ed. <he>מַרְעָאָן</he>)."
+			]
+		}
+	]
+}

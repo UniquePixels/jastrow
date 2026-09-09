@@ -1,0 +1,34 @@
+{
+	"id": "J00179",
+	"slug": "יוחני",
+	"headword": {
+		"text": "יוֹחָנִי"
+	},
+	"page": {
+		"number": 568,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n.<i>Yoḥani</i>; ",
+			"units": []
+		},
+		{
+			"gloss": " pr. n. m. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 16b:8\">Ab. Zar. 16ᵇ</cite>, v. <cite ref=\"J00177\"><he>יוֹחָנָא</he> I</cite>.—",
+				"<cite ref=\"Menachot 85a:3\">Men. 85ᵃ</cite> <he>י׳ וממרא</he> (some ed. <cite ref=\"J00177\"><he>יוחנא</he></cite>) Y. and Mamre (two Egyptian sorcerers); v. <cite ref=\"J00441\"><he>יַנִּיס</he></cite>—",
+				"<cite ref=\"Esther Rabbah 2:2\">Esth. R. to I, 4</cite> <he>בר י׳</he> (some ed. <he>יוחני׳</he>) Bar-Y."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. f.—",
+			"units": [
+				"<cite ref=\"Zevachim 62b:1\">Zeb. 62ᵇ</cite> (a fictitious name).—",
+				"<cite ref=\"Sotah 22a:11\">Sot. 22ᵃ</cite> <he>י׳ בת רטיבי</he> (a hypocritical sorceress, v. Rashi a. l.)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "S00183",
+	"slug": "קדרוס-1",
+	"headword": {
+		"text": "קַדְרוֹס",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1318,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κέδρος) <i>cedar</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 6:14\">Targ. O. Gen. VI, 14</cite> (h. text <he>גפר</he>).—",
+				"<cite ref=\"Rosh Hashanah 23a\">R. Hash. 23ᵃ</cite> (among the species of <cite ref=\"A03047\"><he>ארז</he></cite>) <he>ק׳</he> Ms. M. 2 (Ms. M. 1 <cite ref=\"S00178\"><he>קדרום</he></cite>; ed. <he>קתרום</he>, <cite ref=\"S02296\"><he>קתרוס</he></cite>; v. Rabb. D. S. a. l. notes 50, 60)."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "A00743",
+	"slug": "אונין",
+	"headword": {
+		"text": "אוּנִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 29,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (prob. pl. of <cite ref=\"A00721\"><he>אוּנָא</he></cite> <i>ear</i>) <i>bundles of wet flax</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 1:6\">Sabb. I, 6</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 5:4:2\">Y. Shebi. V, 36ᵃ</cite> bot.; a. e. [Rashi a. Tosaf. to <cite ref=\"Sukkah 12b\">Succ. 12ᵇ</cite> <he>אונץ</he> as a plur., v. Rabb. D. S. a. l.; cmp. <cite ref=\"A02240\"><he>אָנִיץ</he></cite>.]"
+			]
+		}
+	]
+}

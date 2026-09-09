@@ -1,0 +1,48 @@
+{
+	"id": "B01007",
+	"slug": "בסס-1",
+	"headword": {
+		"text": "בָּסַס"
+	},
+	"page": {
+		"number": 179,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (sec. r. of b. h. <i>to tread, stamp, pile up</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 1:5\">Ukts. I, 5</cite> stalks of eatable plants (straw &c.) <he>שבְּסָסָן בגרן</he> which the owner packed in the barn; <cite ref=\"Sukkah 14a:3\">Succ. 14ᵃ</cite> <he>מאי בססן</he> what does this <i>b’sasan</i> mean? R. … says <he>ב׳ ממש</he> he really stamped them (threshed); R. … says <he>התיר אגדן</he> he untied them (for the purpose of piling the stalks closer by treading upon them). [Pesik. Haḥod. p. 45ᵃ; <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>היו בוססות</he>, read with <cite ref=\"Bamidbar Rabbah 11:3\">Num. R. s. 11</cite> <he>כּוֹסְסוֹת</he>, v. <cite ref=\"K00949\"><he>כָּסַס</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּיסֵּס"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"B00997\"><he>בָּסִיס</he></cite>) <i>to establish firmly, to found, to put on a secure basis</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 1:9:6\">Cant. R. to I, 9</cite> <he>ומי ב׳ העולם</he> and who gave the world a firm basis?; (ibid. VII, 1; Ruth. R. beg.; <cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> <he>ביסם</he>, <cite ref=\"B00745\"><he>בישם</he></cite> corr. acc.).—Part. pass. <he>מְבוּסָּס</he> <i>firmly established</i>. ",
+						"<cite ref=\"Bamidbar Rabbah 15\">Num. R. s. 15</cite>; Tanḥ. B’haal. 11 <he>כסאו מב׳ למעלן</he> (not <he>מבוסם</he>) His throne is firmly established above, when Israel &c."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִתְבַּסֵּס"],
+			"senses": [
+				{
+					"gloss": "<i>to be firmly established, to rest safely</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> after the Sanctuary was erected <he>נתב׳ העולם</he> the world became firm. ",
+						"<cite ref=\"Bamidbar Rabbah 12\">Ib.</cite> as soon as they made a third leg for the table (v. <he>טרסקל</he>), <he>נתב׳</he> it stood firm; Tanḥ. T’rum. 9. ",
+						"<cite ref=\"Bereishit Rabbah 66\">Gen. R. s. 66</cite> <he>נתבשם העולם</he> (corr. acc.); <cite ref=\"Yalkut Shimoni on Nach 811\">Yalk. Ps. 811</cite>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

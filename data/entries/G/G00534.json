@@ -1,0 +1,28 @@
+{
+	"id": "G00534",
+	"slug": "זמם-9",
+	"headword": {
+		"text": "זְמַם",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זְמָמָא"
+		}
+	],
+	"page": {
+		"number": 403,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00533\">same</cite>, also the camel’s <i>ring</i> or <i>staff through the nose</i> and the <i>basket</i> fastened thereto. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 37:29\">Targ. Is. XXXVII, 29</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 32:9\">Targ. Ps. XXXII, 9</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 107a\">Sabb. 107ᵃ</cite>, v. <cite ref=\"A01252\"><he>אִיכּוּ</he></cite>. ",
+				"<cite ref=\"Shabbat 111b\">Ib. 111ᵇ</cite>, sq. <he>קיטרא דקטרי בז׳</he> the loop which is made to fasten the camel’s basket to the ring; <he>קיטרא דז׳ גופיה</he> the (permanent) knot in the bit itself; v. <cite ref=\"A01460\"><he>אִיסְטְרִידָא</he></cite>."
+			]
+		}
+	]
+}

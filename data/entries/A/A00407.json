@@ -1,0 +1,23 @@
+{
+	"id": "A00407",
+	"slug": "אדירא",
+	"headword": {
+		"text": "אֲדֵירָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 16,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"D00729\"><he>דֵּיר</he></cite>, <i>rim, border</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:2:2\">Y. Sabb. III, 5ᵈ</cite> bot. leaned a vessel <he>לא׳ דתנורא</he> (Var. <he>לאוירא</he>) against the rim of a heated store."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "P00070",
+	"slug": "עברה-4",
+	"headword": {
+		"text": "עֶבְרָה"
+	},
+	"page": {
+		"number": 1040,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.;<cite ref=\"P00059\"><he>עָבַר</he></cite> [<i>swelling, running over</i>,] <i>anger</i>, <i>indignation</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15:12\">Ex. R. s. 15</cite> <he>שהע׳ שאני עובר קשה היא</he> severe is the anger with which I am filled. Tanḥ. Vaëthḥ. 6 <he>נתמלא הקב״ה בע׳ עליו</he> the Lord was filled with anger at him (with ref. to <cite ref=\"Deuteronomy 3:26\">Deut. III, 26</cite>). ",
+				"<cite ref=\"Yalkut Shimoni on Torah 820:8\">Yalk. Deut. 820</cite> (expl. <he>ויתעבר</he>, Deut. l. c.) <he>נתמלא עלי ע׳</he>. ",
+				"<cite ref=\"Bereishit Rabbah 13:5\">Gen. R. s. 13</cite> <he>שהיא אוספת את הע׳</he> it calls in the wrath (i.e. it is a sign of forgiveness, with ref. to <cite ref=\"Psalms 85:4\">Ps. LXXXV, 4</cite>); a. fr."
+			],
+			"label": "1"
+		}
+	]
+}

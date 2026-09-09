@@ -1,0 +1,37 @@
+{
+	"id": "I00222",
+	"slug": "טורזינא",
+	"headword": {
+		"text": "טוּרְזַיָּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַרְ׳"
+		}
+	],
+	"page": {
+		"number": 526,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"I00221\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>treasury-office, armory</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 56a:19\">Ber. 56ᵃ</cite> <he>אפתחא דריש ט׳</he> (Ar. <cite ref=\"I00742\"><he>טרזיא</he></cite>, v. <cite ref=\"I00221\">preced.</cite>) at the entrance of the chief treasury; [prob. to be read: <he>דבי ט׳</he>, <cite ref=\"D01092\"><he>דריש</he></cite> having come in by tautography from the suceeding <he>ריש טורזיא</he>.]—",
+				"<cite ref=\"Bava Batra 8a:16\">B. Bath. 8ᵃ</cite> <he>לשורא … ולטר׳ וכ׳</he> (Ms. F. <he>טורדינא</he>, Alf. Ms. <he>טורדיתא</he>) for the maintenance of the town-wall, the horse-guard and the armory even orphans must contribute."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <cite ref=\"T00716\"><he>ריש</he></cite>) <i>superintendent of the armory</i> or <i>treasury</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 80a:18\">Erub. 80ᵃ</cite> <he>ההוא ט׳ וכ׳</he> (ed. Sonc. <he>טורזיינא</he>) there was a (gentile) superintendent that lived in the neighborhood &c."
+			],
+			"label": "2"
+		}
+	]
+}

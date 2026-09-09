@@ -1,0 +1,23 @@
+{
+	"id": "T00304",
+	"slug": "רובה-4",
+	"headword": {
+		"text": "רוּבָּה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1455,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"M02569\"><he>מְרוּבָּה</he></cite>) <i>more, larger number</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 103a:20\">Keth. 103ᵃ</cite> <he>ברכת הבית בר׳</he> the blessing of the household increases with the number of its members (every one contributing towards the comfort of all); <cite ref=\"Bava Batra 144b\">B. Bath. 144ᵇ</cite>; <cite ref=\"Tosefta Ketubot 12:3\">Tosef. Keth. XII, 3</cite> <cite ref=\"M02569\"><he>מרובה</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

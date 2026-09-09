@@ -1,0 +1,23 @@
+{
+	"id": "U00429",
+	"slug": "שוללא",
+	"headword": {
+		"text": "שׁוֹלְלָא"
+	},
+	"page": {
+		"number": 1534,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שלל</he>; cmp. <cite ref=\"U01398\"><he>שַׁלְשֵׁל</he> I</cite>) <i>foot-chain</i>.—Pl. <he>שׁוֹלְלַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Micah 1:8\">Targ. Mic. I, 8</cite> <he>בש׳</he> (ed. Lag. <he>בשׁוֹלַּיָּא</he>) in chains (h. text <he>שׁוֹלָל</he>; cmp. ",
+				"<cite ref=\"Aramaic Targum to Job 12:17\">Targ. Job XII, 17</cite>)."
+			]
+		}
+	]
+}

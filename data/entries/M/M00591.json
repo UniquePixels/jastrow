@@ -1,0 +1,34 @@
+{
+	"id": "M00591",
+	"slug": "מוקמא",
+	"headword": {
+		"text": "מוֹקְמָא"
+	},
+	"page": {
+		"number": 747,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00374\"><he>קוּם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>stand</i>; with suffix <cite ref=\"M00593\"><he>מוֹקְמַת־</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 35:15\">Targ. II Chr. XXXV, 15</cite> <he>על אתר מ׳</he> ed. Lag. (ed. Beck <he>על מ׳</he>; h. text <cite ref=\"M02143\"><he>מַעֲמָד</he></cite>). "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>place of combats, arena</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 30\">Ex. R. s. 30</cite> <he>שנים שירדו למ׳ וכ׳</he> (some ed. a. Matt. K. <cite ref=\"M02430\"><he>מקמא</he></cite>) two entered the arena (for a combat), one a professional, the other a private (amateur).—V. <cite ref=\"S00374\"><he>קוּם</he></cite> ch."
+			],
+			"label": "2"
+		}
+	]
+}

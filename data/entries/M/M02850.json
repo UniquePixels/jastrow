@@ -1,0 +1,50 @@
+{
+	"id": "M02850",
+	"slug": "משח-5",
+	"headword": {
+		"text": "מְשַׁח",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "מִשְׁחָא"
+		},
+		{
+			"text": "מִישְׁ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 851,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>מְשַׁח</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>oil, fat</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 7:13\">Targ. Num. VII, 13</cite>. ",
+				"<cite ref=\"Onkelos Exodus 29:7\">Targ. Ex. XXIX, 7</cite>; a. fr.—Y. Maas. Sh. IV, 54ᵈ bot. <he>הוה ליה משח וכ׳</he> had oil which he took down to Acco (for sale). ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>ההוא מִישְׁחָךְ וכ׳</he> (not <he>מישחף</he>, some ed. <cite ref=\"M01312\"><he>מישחא</he></cite>) that oil of thine at Beth M.—",
+				"<cite ref=\"Avodah Zarah 37a:5\">Ab. Zar. 37ᵃ</cite> <he>דשרו מ׳</he> who permitted oil (of gentiles). ",
+				"<cite ref=\"Avodah Zarah 28a:8\">Ib. 28ᵃ</cite> <he>מ׳ דאווזא</he> goose-fat; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>resin</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 41:19\">Targ. Is. XLI, 19</cite> <he>אעין דמ׳</he> <i>pine-wood</i> (h. text <he>עצי שמן</he>, v. <cite ref=\"D00137\"><he>דדנין</he></cite>).—",
+				"<cite ref=\"Sukkah 40a\">Succ. 40ᵃ</cite>, v. <cite ref=\"M02857\"><he>מִשְׁחָן</he></cite>. ",
+				"<cite ref=\"Gittin 69b:16\">Gitt. 69ᵇ</cite>, v. <cite ref=\"K00347\"><he>כּוּפְרָא</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

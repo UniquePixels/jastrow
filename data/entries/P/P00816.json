@@ -1,0 +1,87 @@
+{
+	"id": "P00816",
+	"slug": "עלל-2",
+	"headword": {
+		"text": "עֲלַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1083,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00815\">same</cite>, esp. (corresp. to h. <cite ref=\"B00199\"><he>בּוֹא</he></cite>) <i>to enter a town, a house</i> &c.; <i>to come in</i> (interch. with <cite ref=\"P00241\"><he>עוּל</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 11:2\">Targ. Prov. XI, 2</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 1:4:7\">Y. Taan. I, 64ᵇ</cite> bot. <he>מי ע׳</he> when he was going home. Ib.ᶜ top <he>כד דאנא עָלֵיל וכ׳</he> when I was coming home from the hill. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>כד דאתית למֵיעוֹל</he> when thou wert about to go home. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:9:9\">Y. Sabb. VI, 8ᶜ</cite> bot. <he>בר קפרא אִיעֲלַל … מי ע׳ וכ׳</he> B. K. was trying to enter a town; when he entered it &c. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 5:1:4\">Y. Erub. V, beg. 22ᵇ</cite> <he>תלת … עבר עָלֵיל קומי וכ׳</he> thirteen years he spent going in and out before his teacher without need (of his instruction). ",
+				"<cite ref=\"Kohelet Rabbah 1:3:1\">Koh. R. to I, 3</cite> <he>עָלְלִין ונפקין</he> are brought in and taken out again; a. e.—2) (with <he>שמשא</he>) <i>to set</i>. ",
+				"<cite ref=\"Onkelos Genesis 15:12\">Targ. O. Gen. XV, 12</cite>; a. fr.—3) <i>to be busy, have to do with</i>, (euphem.) <i>to sport</i>. ",
+				"<cite ref=\"Esther Rabbah 6:10\">Esth. R. to II, 16</cite> <he>אנא יהיב</he> … <he>ועליל עמה</he> I would give one hundred denars to sport with her; <cite ref=\"Yalkut Shimoni on Torah 67:1\">Yalk. Gen. 67</cite>; (<cite ref=\"Bereishit Rabbah 40\">Gen. R. s. 40</cite> <he>ואִיעֲלַל</he> <i>Ithpa.</i>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַלֵּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to go around searching; to glean</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 19:10\">Targ. O. Lev. XIX, 10</cite> (ed. Berl. <he>תְעַלִיל</he>; ed. Amst. <he>תְעָליל</he>); <cite ref=\"Deuteronomy 24:21\">Deut. XXIV, 21</cite> <he>תְעַלֵּיל</he> ed. Berl. (ed. Amst. a. Y. <he>תְעָלֵיל</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אָעֵיל"],
+			"senses": [
+				{
+					"gloss": " (fr. <cite ref=\"P00241\"><he>עוּל</he></cite>), <he>אָעוֹל</he>, <cite ref=\"A00006\"><he>אֵ׳</he></cite> <i>to cause to go in; to carry in, bring in</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 6:19\">Targ. Gen. VI, 19</cite> (Y. ed. Vien. <he>תֵעוֹל</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 66:11\">Targ. Ps. LXVI, 11</cite>. ",
+						"<cite ref=\"Onkelos Genesis 47:24\">Targ. O. Gen. XLVII, 24</cite> <he>אָעוֹלֵי</he> ed. Berl. (oth. ed. <he>אַעוּלֵי</he>, verbal noun). ",
+						"<cite ref=\"Targum Jonathan on Haggai 1:9\">Targ. Hag. I, 9</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתָּעַל", "אִיתַּעַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be carried in</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 10:19\">Targ. Job X, 19</cite> <he>אֶתְּעָל</he>. ",
+						"<cite ref=\"Aramaic Targum to Job 21:32\">Ib. XXI, 32</cite> <he>יִתָּעֵל</he> ed. Wil. (oth. ed. <he>יִתְּעָל</he>). ",
+						"<cite ref=\"Aramaic Targum to Job 21:30\">Ib. 30</cite> <he>יִתָּעֲלוּן</he> (some ed. <he>יִתְעֲלוּן</he> <i>Ithpe.</i>). ",
+						"<cite ref=\"Onkelos Genesis 43:18\">Targ. O. Gen. XLIII, 18</cite> (Y. <he>מִתְעֲל׳</he>, ed. Vien. <he>מִתְעָ׳</he>); a. fr."
+					]
+				}
+			],
+			"stem": "Ittaf."
+		},
+		{
+			"forms": ["אִתְעֲלַל", "אִיעֲלַל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P00815\">same</cite>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to attempt entrance</i>. Y. Sabb. l. c., v. supra.—3) <i>to busy one’s self, to sport</i>. Gen. R. l. c., v. supra.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

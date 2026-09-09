@@ -1,0 +1,23 @@
+{
+	"id": "A01573",
+	"slug": "איצא-1",
+	"headword": {
+		"text": "אִיצָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 59,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A00820\"><he>אוץ</he></cite>) <i>ozier, prickly twigs</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69b:9\">Gitt. 69ᵇ</cite> <he>א׳ רטיבא וכ׳</he> (Ar. <cite ref=\"A02851\"><he>אִצָּא</he></cite>) green twigs with which the river is dammed in (figur. for diarrhœa stopped). Cmp. <cite ref=\"E00264\"><he>הוּצָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "C01128",
+	"slug": "גנח-1",
+	"headword": {
+		"text": "גָּנַח"
+	},
+	"page": {
+		"number": 259,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"C00322\"><he>גּוּהָא</he></cite>) <i>to groan</i>, esp. ",
+			"units": []
+		},
+		{
+			"gloss": " (with or without <he>מלבו</he>) <i>to sigh heavily under an attack of angina pectoris</i>. ",
+			"units": [
+				"<cite ref=\"Temurah 15b\">Tem. 15ᵇ</cite>; <cite ref=\"Bava Kamma 80a\">B. Kam. 80ᵃ</cite>; <cite ref=\"Tosefta Bava Kamma 8:6\">Tosef. ib. VIII, 6</cite>; <cite ref=\"Ketubot 60a\">Keth. 60ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cough and spit blood</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 32\">Gen. R. s. 32</cite>, end <he>ג׳ דם</he>; Tanḥ. Noah 9 <he>ג׳ וכוהה דם</he>, v. <cite ref=\"K00459\"><he>כָּחַח</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

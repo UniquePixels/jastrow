@@ -1,0 +1,23 @@
+{
+	"id": "C00370",
+	"slug": "גולא-1",
+	"headword": {
+		"text": "גַּוְלָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 221,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., constr. <cite ref=\"C00022\"><he>גְּוַל</he></cite> (<he>גול</he>) <i>ball, roll</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 38:12\">Targ. Is. XXXVIII, 12</cite> some ed. <he>כג׳ גרדאין</he> like the weavers’ roll (v., however, <cite ref=\"N00327\"><he>נַוְולָא</he></cite> <i>web;</i> oth. ed. <he>מנחל גידודין</he>, <he>כנחל גדודאין</he>)."
+			]
+		}
+	]
+}

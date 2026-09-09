@@ -1,0 +1,34 @@
+{
+	"id": "S01064",
+	"slug": "קיסט",
+	"headword": {
+		"text": "קִיסְטְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִיסְטָא"
+		},
+		{
+			"text": "קִסְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1364,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a corrupt. of ξέστης) <i>ḳisṭ, ḳisṭa</i> (Sixtarius), v. <cite ref=\"K00926\"><he>כְּסִיסְטָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 49\">Gen. R. s. 49</cite> <he>חד ק׳ וכ׳</he> Ar. (ed. <cite ref=\"S01658\"><he>קסיט</he></cite>) one xestes of wine (which you had) makes ten follera. ",
+				"<cite ref=\"Pesachim 109a\">Pes. 109ᵃ</cite> <he>ק׳ דמורייסא וכ׳</he> Ar. (ed. <cite ref=\"S01685\"><he>קסתא</he></cite>, Ms. M. <he>קיסתא</he>; v. Rabb. D. S. a. l. note) the xestes for muries (kept as a standard) in Sepphoris was about the same as the Temple Log. Pesik. Ekhah, p. 122ᵇ <he>ק׳ דחמר</he> Ar. (ed. <cite ref=\"S01658\"><he>קסיט</he></cite>) a. x. of wine; a. e.—Pl. <he>קִיסְטִין</he>. ",
+				"<cite ref=\"Vayikra Rabbah 12:1\">Lev. R. s. 12</cite> <he>שתי שיכרא חמשא ק׳</he> (not <he>קיסטון</he>) he (the drunkard) drinks five xestes of beer, they tell him, thou hadst ten. ",
+				"<cite ref=\"Vayikra Rabbah 12:1\">Ib.</cite> <he>הוה אליף … ק׳ וכ׳</he> was accustomed to drink twelve x. of wine a day &c.; a. e.—[V. Fr. Aram. Fremdw. p. 205]."
+			]
+		}
+	]
+}

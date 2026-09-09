@@ -1,0 +1,49 @@
+{
+	"id": "B01154",
+	"slug": "בר-3",
+	"headword": {
+		"text": "בַּר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּרָא"
+		}
+	],
+	"page": {
+		"number": 188,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (b. h. <cite ref=\"B01153\"><he>בַּר</he></cite> poetic; <cite ref=\"B01237\"><he>ברי</he></cite>) <i>son, offspring</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 4:25\">Targ. Gen. IV, 25</cite>; a. v. fr.—<he>ב׳ שמואל</he> son of Sam.; … <he>בְּרֵיה דר׳</he> son of … <cite ref=\"Berakhot 3a:11\">Ber. 3ᵃ</cite>. ",
+				"<cite ref=\"Chullin 11a:10\">Ḥull. 11ᵃ</cite>; a. v. fr.—",
+				"<cite ref=\"Bava Metzia 110a:12\">B. Mets. 110ᵃ</cite> … <he>בְּרָהּ דבת</he> the son of the daughter of … <cite ref=\"Shabbat 116b:2\">Sabb. 116ᵇ</cite> <he>במקום ברא ברתא וכ׳</he> where there is a son, the daughter cannot inherit. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 9:6:5\">Y. Shebi. IX, 39ᵃ</cite> bot. <he>אמה דהן ילדת ב׳</he> this nan’s mother has born a son, i.e. she may be proud of him; <cite ref=\"Jerusalem Talmud Avodah Zarah 4:1:9\">Y. Ab. Zar. IV, 43ᵈ</cite> <he>אית לאימיה ב׳</he> (not <he>ואית</he>); a. v. fr.—Pl. [<cite ref=\"B01271\"><he>בְּרִין</he></cite>, <cite ref=\"B01236\"><he>בְּרֵי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 10:9\">Targ. Y. Ex. X, 9</cite> (some ed.). ",
+				"<cite ref=\"Aramaic Targum to Psalms 127:5\">Targ. Ps. CXXVII, 5</cite> Ms.] <cite ref=\"B00953\"><he>בְּנִין</he></cite>, <cite ref=\"B00944\"><he>בְּנֵי</he></cite>, <he>בְּנַיָּא</he>. ",
+				"<cite ref=\"Onkelos Genesis 5:4\">Targ. Gen. V, 4</cite> <he>בְּנִין וּבְנָן</he> sons and daughters; a. fr.—",
+				"<cite ref=\"Mishnah Ketubot 4:10\">Keth. IV, 10</cite> (in a marriage contract) <he>בנין דכרין</he> male issue, opp. <he>בְּנָן נוקבין</he>, <cite ref=\"Mishnah Ketubot 4:11\">ib. 11</cite>.—",
+				"<cite ref=\"Berakhot 10a:20\">Ber. 10ᵃ</cite> <he>ב׳ דמעלו</he> good children. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 8:6:2\">Y. B. Bath. VIII, 16ᵇ</cite> bot. <he>אין הוון בנוי דהנייה</he> (read <he>בָּנַיי</he>) if my children turn out well; a. v. fr.—<he>בר בר</he>, <he>בר בת</he> <i>grandson</i>. Esth. R. introd. (expl. <he>נין ונכד</he>) <he>בר ובר בר</he> (not <he>וברבר</he>) son and grandson; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בְּרַת"],
+			"senses": [
+				{
+					"gloss": " [The meaning of <he>בר</he> in compounds is generally the same as of <cite ref=\"B00932\"><he>בן</he></cite> a. <he>בעל</he>, e.g. <he>ב׳ אולפן</he> <i>a scholar</i>, <he>ב׳ אמודאי</he> <i>a diver</i>, <he>ב׳ שטיא</he> <i>a maniac</i>, <he>ב׳ דעת</he> <i>a rational being</i>. <he>בר בי רב</he>, v. <cite ref=\"B00536\"><he>בֵּי</he></cite>. For compounds which are not self-evident, see the respective determinants.]",
+					"units": []
+				}
+			],
+			"stem": "Fem."
+		}
+	]
+}

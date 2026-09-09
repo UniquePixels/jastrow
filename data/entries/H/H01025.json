@@ -1,0 +1,28 @@
+{
+	"id": "H01025",
+	"slug": "חלטנית",
+	"headword": {
+		"text": "חַלְטָנִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּלְ׳"
+		}
+	],
+	"page": {
+		"number": 467,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"H00995\"><he>חֲלוּטִין</he></cite>, <i>final action;</i> <he>לח׳</he> <i>irredeemably</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 4:9:3\">Y. Gitt. IV, end, 46ᵇ</cite> (expl. <he>לצמיתות</he>, <cite ref=\"Leviticus 25:23\">Lev. XXV, 23</cite>) <he>לחול׳</he>; Y. Dem. IV, 24ᵈ bot.—",
+				"<cite ref=\"Bereishit Rabbah 28\">Gen. R. s. 28</cite>, end, v. <cite ref=\"G00699\"><he>זְרִיבָה</he></cite>; a. e."
+			]
+		}
+	]
+}

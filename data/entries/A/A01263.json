@@ -1,0 +1,29 @@
+{
+	"id": "A01263",
+	"slug": "איל-1",
+	"headword": {
+		"text": "אֱיָל",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אֱיָיל"
+		}
+	],
+	"page": {
+		"number": 48,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"A00658\"><he>אול</he></cite>)<i>superiority, patronage, arbitration</i>; v. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 88:2\">Midr. Till. to Ps. LXXXVIII, 5</cite>. ",
+				"<cite ref=\"Midrash Tehillim 118:19\">Midr. Till. to Ps. CIV, 29</cite> (ref. to <cite ref=\"Isaiah 57:19\">Is. LVII, 19</cite> <i>peace, peace</i> &c.) <cite ref=\"A01281\"><he>אילולי</he></cite> (<he>אֱיָילוֹ</he>) <he>אֱיָלוֹ של וכ׳</he> but for the peace-making arbitration of the Lord &c."
+			]
+		}
+	]
+}

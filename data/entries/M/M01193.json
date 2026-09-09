@@ -1,0 +1,25 @@
+{
+	"id": "M01193",
+	"slug": "מילפפונא",
+	"headword": {
+		"text": "מִילְפִּפּוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִלְ׳"
+		}
+	],
+	"page": {
+		"number": 775,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M01192\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 110a:2\">Snh. 110ᵃ</cite> <he>ומיטלל לכו כי מ׳</he> Ar. (ed. <cite ref=\"K01004\"><he>כפותא</he></cite>) he knocks you about like a melopepon.—Pl. <he>מְלַפְפוּנַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 11:5\">Targ. Y. I Num. XI, 5</cite> (Y. II <cite ref=\"M01612\"><he>מלפניא</he></cite>, corr. acc.; h. text <he>אבטיחים</he>)."
+			]
+		}
+	]
+}

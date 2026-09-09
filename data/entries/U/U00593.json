@@ -1,0 +1,67 @@
+{
+	"id": "U00593",
+	"slug": "שזג",
+	"headword": {
+		"text": "שְׁזַג"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁזֵיג"
+		}
+	],
+	"page": {
+		"number": 1544,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Shaf. of <cite ref=\"G00057\"><he>זגג</he></cite>) <i>to cleanse, wash, rinse</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 8:21\">Targ. Y. Lev. VIII, 21</cite> Ar. (ed. <he>חליל</he>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 19:2\">Targ. Y. Gen. XIX, 2</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Exodus 29:17\">Targ. Y. II, Ex. XXIX, 17</cite> (ed. Vien. <he>ותַשְׁזַג</he> <i>Af;</i> some ed. <he>ותשזק</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 73:13\">Targ. Ps. LXXIII, 13</cite>; a. fr.—<i>Part. pass.</i> <cite ref=\"U00599\"><he>שְׁזִיג</he></cite> <i>clean</i>. ",
+				"<cite ref=\"Aramaic Targum to Job 33:9\">Targ. Job XXXIII, 9</cite> (h. text <cite ref=\"H01417\"><he>חף</he></cite>).—Y. Pes. III, 30ᵃ <he>אלא אין ש׳ וכ׳</he> unless he washes his hands in water (between forming one cake and the other)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁזֵּג"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00592\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 43:31\">Targ. Y. Gen. XLIII, 31</cite> (Y. II ib. 30, misplaced, <he>ושזגי</he>, read: <he>ושַׁזֵּיג</he>).—Y. Peah I, 15ᶜ bot. <he>אנא בעיא מְשַׁזְּגָה ריגלוי וכ׳</he> I want to wash his feet &c. (to show him honor); Y. Kidd. I, 61ᵇ. Y. Sabb. VI, 8ᵃ <he>נהיגין … ומְשַׁזְּגִין וכ׳</he> we used to sit before Rabbi (and were taught,) you may put oil on muddy shoes, or wash them, but not scrape them (on the Sabbath); Y. Snh. X, 28ᵃ bot. <he>משיגין</he> (corr. acc.). Y. Ab. Zar. II, 41ᵈ bot. <he>מְשַׁזְּגָא</he>; Y. Shek. VII, 50ᶜ bot. <cite ref=\"M02867\"><he>משיגא</he></cite> (corr. acc.), v. <cite ref=\"A02539\"><he>אִסְקוּפְתָּא</he></cite> "
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַשְׁזֵיג"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00592\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Exodus 29:17\">Targ. Y. II, Ex. XXIX, 17</cite>, v. supra.—Y. Meg. III, 74ᵃ bot. <he>מַשְׁזִיג</he>, v. <cite ref=\"C00499\"><he>גּוּרְנָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִשְׁתְּזַג"],
+			"senses": [
+				{
+					"gloss": "<i>to be cleansed, washed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 30:12\">Targ. Prov. XXX, 12</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 9:30\">Targ. Job IX, 30</cite> Ms. (ed. <he>אסחיית</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

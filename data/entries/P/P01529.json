@@ -1,0 +1,24 @@
+{
+	"id": "P01529",
+	"slug": "עתוד",
+	"headword": {
+		"text": "עַתּוּד"
+	},
+	"page": {
+		"number": 1129,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P01526\"><he>עָתַד</he></cite>) [<i>leader of the flock</i>,] <i>ram</i>.—Pl. <he>עַתּוּדִים</he>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 13:14\">Num. R. s. 13</cite> <he>ואין ע׳ אלא לשון עמידה</he> <i>ʿattudim</i> has the meaning of standing (readiness). ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:7:10\">Y. Ab. Zar. II, 41ᵈ</cite> top (ref. to <cite ref=\"Proverbs 27:26\">Prov. XXVII, 26</cite>) <he>הגדילו ונעשו כע׳ וכ׳</he> when the pupils have grown and become (strong) like rams, then reveal to them the secrets of the Law. ",
+				"<cite ref=\"Chullin 84a:23\">Ḥull. 84ᵃ</cite> (ref. to Prov. l. c.) <he>לעולם … ויקח ע׳ וכ׳</he> at all times a man may sell a field and buy rams (flocks), but he should not sell flocks to buy a field; a. e."
+			]
+		}
+	]
+}

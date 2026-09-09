@@ -1,0 +1,32 @@
+{
+	"id": "A01086",
+	"slug": "אטינין",
+	"headword": {
+		"text": "אַטִּינִין",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "עַטִּינִין"
+		},
+		{
+			"text": "עִטְּנִין"
+		}
+	],
+	"page": {
+		"number": 42,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (a contr. of <he>אטעינין</he>; <he>נטע</he>) <i>herbs selected for planting purposes</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ma'asrot 3:8\">Tosef. Maasr. III, 8</cite> <he>אטי׳</he> ed. Zuck. (Var. <he>עטי׳</he>; ed. <he>אטו׳</he>). Y. ib. V, beg. 51ᶜ <he>עטנין</he>. Cmp. <cite ref=\"U02121\"><he>שֵׁתֶל</he></cite>; <he>שְׁתִילִין</he>."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "R00046",
+	"slug": "צביעה-2",
+	"headword": {
+		"text": "צְבִיעָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1258,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>צָבַע</he> II) <i>dyeing</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 42b:11\">Men. 42ᵇ</cite> <he>בעינן צ׳ לשמה</he> the show-fringe must be dyed for that purpose (to be used for <i>tsitsith</i>). ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 7:1:2\">Y. Shebi. VII, beg. 37ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:44\">Y. Sabb. VII, 10ᶜ</cite> top <he>מה צ׳ היתה במשכן</he> what dyeing was there at the preparation of the Tabernacle (to serve as a standard for forbidden Sabbath labors)?; a. e."
+			]
+		}
+	]
+}

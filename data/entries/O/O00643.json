@@ -1,0 +1,36 @@
+{
+	"id": "O00643",
+	"slug": "סיכויא",
+	"headword": {
+		"text": "סִיכּוּיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִכּ׳"
+		}
+	],
+	"page": {
+		"number": 979,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"O00642\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 19:18\">Targ. Prov. XIX, 18</cite> (ed. Wil. <cite ref=\"O00878\"><he>סִכְוְיָא</he></cite>, corr. acc.); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>looks</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 4:12\">Cant. R. to IV, 12</cite> <he>סִכּוּיִי</he> (some ed. <cite ref=\"O00532\"><he>סיבויי</he></cite>, corr. acc.); <cite ref=\"Yalkut Shimoni on Torah 773\">Yalk. Num. 773</cite> <cite ref=\"O00038\"><he>סבוי</he></cite> (corr. acc.); (Pesik. B’shall., p. 83ᵃ <he>סִכְיוֹנִי</he>); v. <cite ref=\"B01200\"><he>בְּרוּנָא</he> I</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

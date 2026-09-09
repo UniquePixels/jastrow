@@ -1,0 +1,72 @@
+{
+	"id": "A01934",
+	"slug": "אלף-3",
+	"headword": {
+		"text": "אֲלַף",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲלֵיף"
+		},
+		{
+			"text": "יְלֵיף"
+		}
+	],
+	"page": {
+		"number": 72,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(h. <cite ref=\"A01933\"><he>אָלַף</he></cite> , √<he>לף</he> <i>to join, be joined</i>) <i>to become used; to learn, study, train one’s self</i>.—אֲלִיף <i>accustomed, used to</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 17:39\">Targ. I Sam. XVII, 39</cite>. ",
+				"<cite ref=\"Onkelos Numbers 22:30\">Targ. O. Num. XXII, 30</cite>.—",
+				"<cite ref=\"Onkelos Deuteronomy 5:1\">Targ. Deut. V, 1</cite>; a. fr. (v. also <cite ref=\"J00388\"><he>יְלֵיף</he></cite>).—",
+				"<cite ref=\"Shir HaShirim Rabbah 2:2\">Cant. R. to II, 2</cite> <he>צבי רבי דייליף</he> would you like to study? <cite ref=\"Bava Batra 111b:1\">B. Bath. 111ᵇ</cite> top <he>גוד לית דין צבי למילף</he> take me away from here, this man has no desire to learn (but only to argue). ",
+				"<cite ref=\"Taanit 4a\">Taan. 4ᵃ</cite> man is bound <he>למֵילַף נפשיה בניחותא</he> [prob. <he>למַלֵּיף</he>, v. infra] to train himself to be gentle; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַלֵּיף", "אַלַּף"],
+			"senses": [
+				{
+					"gloss": "<i>to train, teach</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 18:35\">Targ. Ps. XVIII, 35</cite> <cite ref=\"M01562\"><he>מַלֵּיף</he></cite> (= <he>מְאַלֵּף</he>). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 11:25\">Targ. Prov. XI, 25</cite>; a. fr.—",
+						"<cite ref=\"Kohelet Rabbah 9:10\">Koh. R. to IX, 10</cite> thou didst emigrate <he>למילף</he> for the sake of studying, <he>והוא גלי לאַלָּפָא</he> but he emigrated for the sake of teaching. Y. Dem. I, 22ᵃ top <he>ולא כן אַלְּפָן רבי</he> (not <he>איל׳</he>) did you not teach us thus?—<he>א׳ זכו</he>, v. infra."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אוֹלֵף"],
+			"senses": [
+				{
+					"gloss": " as <i>Pa.</i> ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 30\">Lev. R. s. 30</cite> (<cite ref=\"M01562\"><he>מַלֵּיף</he></cite>) <he>מוֹלִיף עלי זכו</he> offers arguments in my favor."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְאַלַּף"],
+			"senses": [
+				{
+					"gloss": "<i>to exercise, practice, exert one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 2:4\">Targ. Is. II, 4</cite>; <cite ref=\"Targum Jonathan on Isaiah 26:9\">XXVI, 9</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

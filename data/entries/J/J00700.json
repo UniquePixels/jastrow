@@ -1,0 +1,47 @@
+{
+	"id": "J00700",
+	"slug": "ישע",
+	"headword": {
+		"text": "יָשַׁע"
+	},
+	"page": {
+		"number": 601,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"J00699\">preced.</cite> wds.) [<i>to be strong, to recover</i>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוֹשִׁיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to assist, help, deliver</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 34b:8\">Sot. 34ᵇ</cite> (ref. to <he>י̇ה̇וש̇ע̇</he>, <cite ref=\"Numbers 13:17\">Num. XIII, 17</cite>) <he>י֗ה֗ יוֹשִׁ֗יעֲ֗ךָ וכ׳</he> Yah save thee from &c. ",
+						"<cite ref=\"Megillah 14a:14\">Meg. 14ᵃ</cite> <he>עתידה … שיושִׁיעַ וכ׳</he> my mother shall bear a son who will deliver Israel; <cite ref=\"Sotah 11b:13\">Sot. 11ᵇ</cite> <he>שמוֹשִׁיעַ</he>. ",
+						"<cite ref=\"Midrash Tehillim 18:8\">Midr. Till. to Ps. XVIII, 4</cite> <he>כשתּוֹשִׁיעֵנִי מאויבי</he> when thou shalt have saved me from my enemies. ",
+						"<cite ref=\"Sanhedrin 73a\">Snh. 73ᵃ</cite>, v. <cite ref=\"M00684\"><he>מוֹשִׁיעַ</he></cite>. ",
+						"<cite ref=\"Mishnah Berakhot 4:4\">Ber. IV, 4</cite> <he>הוֹשַׁע וכ׳</he> help, O Lord &c.; a. fr.—V. <cite ref=\"E00289\"><he>הוֹשַׁעְנָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נוֹשַׁע"],
+			"senses": [
+				{
+					"gloss": "<i>to be saved, released</i>. Midr. Till. l. c. <he>אִוָּשֵׁעַ מן וכ׳</he> let me be delivered from my enemies, and I shall call the Lord the praised One. Tanḥ. Aḥǎré 12 (ref. to <he>ויושע</he>, <cite ref=\"Exodus 14:30\">Ex. XIV, 30</cite>) <he>וַיִוָּשַׁע כתיב כביכול הוא נ׳</he> it may be read <i>vayivvasha</i> (and he was saved), He, as if it were, was delivered. ",
+					"units": [
+						"<cite ref=\"Exodus 14:30\">Ib.</cite> <he>בעוה״ז הייתם נוֹשָׁעִים ע״י ב״א</he> in this world (the past) you were delivered through human agencies."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

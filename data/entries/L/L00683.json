@@ -1,0 +1,81 @@
+{
+	"id": "L00683",
+	"slug": "לקי-1",
+	"headword": {
+		"text": "לקי"
+	},
+	"altHeadwords": [
+		{
+			"text": "לָקָה"
+		}
+	],
+	"page": {
+		"number": 718,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to become less</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to suffer, be under a disadvantage</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 3:12\">B. Mets. III, 12</cite> <he>יִלְקֶה בחסר ויתר</he> he suffers the disadvantages of loss or gain, i.e. he must pay according to the original value of his charge in case of depreciation, or according to the present value in case of a rise in value. ",
+				"<cite ref=\"Tosefta Yevamot 9:3\">Tosef. Yeb. IX, 3</cite> <he>בזו מידת הדין לוֹקָה</he> justice suffers under this rule, i.e. it is inconsistent; <cite ref=\"Jerusalem Talmud Bava Kamma 4:1:6\">Y. B. Kam. IV, beg. 4ᵃ</cite>; a. e.—Esp. <i>to be smitten, afflicted with disease</i> (<i>esp. leprosy</i>); (of crops) <i>to be struck</i> (by hail &c.); <i>to be blighted</i>. ",
+				"<cite ref=\"Shabbat 87b:3\">Sabb. 87ᵇ</cite> <he>לָקוּ בכורות</he> the first-born (in Egypt) were smitten. ",
+				"<cite ref=\"Shabbat 97a\">Ib. 97ᵃ</cite>; <cite ref=\"Yoma 19b:2\">Yoma 19ᵇ</cite> <he>החושד … לוקה בגופו</he> he who entertains a suspicion against worthy men, will be smitten with disease; <cite ref=\"Shemot Rabbah 3:13\">Ex. R. s. 3</cite> <he>אף אתה ראוי לִלְקות בצרעת</he> thou, likewise, deservest to be afflicted with leprosy. ",
+				"<cite ref=\"Chullin 55a:10\">Ḥull. 55ᵃ</cite> <he>לָקְתָה בכוליא אחת</he> if one of its kidneys is disordered.—",
+				"<cite ref=\"Mishnah Bava Metzia 9:7\">B. Mets. IX, 7</cite> <he>לקתה</he> the wheat crop was blasted.—",
+				"<cite ref=\"Berakhot 18b:7\">Ber. 18ᵇ</cite> <he>שלו לא ל׳</he> his crop was not struck by hail.—",
+				"<cite ref=\"Mishnah Makhshirin 4:3\">Makhsh. IV, 3</cite>, a. e. <he>שלא יִלְקֶה הכותל</he> that the wall may not suffer (from the rain); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of luminaries) <i>to be eclipsed</i>. Mekh. Bo. s. 1 <he>כשהחמה לוֹקָה</he> when there is an eclipse of the sun; <he>כשהמזלות לוֹקִים</he> when planets are eclipsed; <cite ref=\"Sukkah 29a:11\">Succ. 29ᵃ</cite>; a. fr.—<i>Part. pass.</i> <he>לָקוּי</he> <i>disordered, sickly, stunted</i>. Sifra Thazr., <cite ref=\"Mishnah Negaim 7\">Neg., ch. VII</cite>, Par. 5; <cite ref=\"Mishnah Negaim 10:1\">Neg. X, 1</cite> (expl. ",
+			"units": [
+				"<cite ref=\"Leviticus 13:30\">Lev. XIII, 30</cite>) <he>דק ל׳ קצר</he> <i>dak</i> means diseased (sparse) and short hair. ",
+				"<cite ref=\"Yevamot 80a:2\">Yeb. 80ᵃ</cite> <he>כל שממעי אמו ל׳</he> one born with defective genitals. ",
+				"<cite ref=\"Tosefta Yevamot 10:6\">Tosef. ib. X, 6</cite> <he>קולו ל׳</he> his voice is abnormal (womanly, thin). ",
+				"<cite ref=\"Tosefta Yevamot 10:7\">Ib. 7</cite> <he>קולה ל׳</he> her voice is abnormal (manlike; <cite ref=\"Yevamot 80b\">Yeb. 80ᵇ</cite> <cite ref=\"P00022\"><he>עבה</he></cite>). ",
+				"<cite ref=\"Yevamot 80b\">Ib.</cite> <he>שערו ל׳</he> his hair is abnormal; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (law) <i>to be punished with lashes</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 1:1\">Macc. I, 1</cite> <he>לוקה ארבעים</he> he receives forty lashes (v. <cite ref=\"A02968\"><he>אַרְבַּע</he></cite>). ",
+				"<cite ref=\"Mishnah Makkot 3:1\">Ib. III, 1</cite> <he>אלו הן הלוֹקִין</he> the following persons receive (thirty nine) lashes. ",
+				"<cite ref=\"Mishnah Sanhedrin 9:5\">Snh. IX, 5</cite> <he>מי של׳ ושנה</he> he who has been lashed twice (and commits the same offence again); a. v. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִלְקָה"],
+			"senses": [
+				{
+					"gloss": "<i>to disaffect, weaken, strike</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 18b:7\">Ber. 18ᵇ</cite> <he>ברד מַלְקֶה אותו</he> hail will ruin his crops. ",
+						"<cite ref=\"Shabbat 113b:3\">Sabb. 113ᵇ</cite> <he>מפני שהוא מַלְקֶה</he> because it makes thin (weakens one’s constitution); a. e.—<i>Part. pass.</i> <he>מוּלְקֶה</he> <i>sickly, broken down</i>. ",
+						"<cite ref=\"Ruth Rabbah 2:10\">Ruth R. to I, 5</cite> <he>אף הוא משובר ומ׳</he> he (the messenger) was likewise broken down and sick; <cite ref=\"Vayikra Rabbah 17:5\">Lev. R. s. 17</cite>; Pesik. Vayhi, p. 66ᵃ; <cite ref=\"Pesikta Rabbati 17:1\">Pesik. R. s. 17</cite> <he>מְלוּקֶּה</he> (part. <i>Pu.</i>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to punish with lashes, flog</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Makkot 3:10\">Macc. III, 10</cite> <he>כמה מַלְקִין אותו</he> how many lashes does the court inflict? <cite ref=\"Mishnah Makkot 3:12\">Ib. 12</cite> <he>כיצד מלקין אותו</he> how is the flogging done? <cite ref=\"Kiddushin 81a:6\">Kidd. 81ᵃ</cite> <he>מלקין על לא טובה השמועה</he> the court orders the flogging of a person for conduct giving rise to suspicion, basing its action on <cite ref=\"I Samuel 2:24\">I Sam. II, 24</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 7:2\">Gen. R. s. 7</cite> <he>אתה מַלְקֵנִי</he>, v. <cite ref=\"S00070\"><he>קַבָּלָה</he></cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

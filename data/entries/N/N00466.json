@@ -1,0 +1,35 @@
+{
+	"id": "N00466",
+	"slug": "נזר-3",
+	"headword": {
+		"text": "נֵזֶר"
+	},
+	"page": {
+		"number": 893,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"N00465\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>crown</i>, esp. <i>the Nazarite’s hair</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 10:11\">Num. R. s. 10</cite> (ref. to <cite ref=\"Numbers 6:7\">Num. VI, 7</cite>) <he>קראו הכתוב עטרה לראשו</he> the text calls it (his long hair which defaces him) a crown on his head. ",
+				"<cite ref=\"Numbers 6:7\">Ib.</cite> <he>נִזְרוֹ כקרבן</he> his hair is as sacred as the sacrifice; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = <cite ref=\"N00452\"><he>נְזִירוּת</he></cite>, <i>the Nazarite’s vow</i>. Num. R. l. c.; <cite ref=\"Tosefta Nazir 2:6\">Tosef. Naz. II, 6</cite> (ref. to <cite ref=\"Numbers 6:21\">Num. VI, 21</cite>) <he>ולא נ׳ על קרבנו</he> but not the vow to follow the dedication of his sacrifice; Y. ib. II, 52ᵇ top <he>שיקדום נזרו וכ׳</he> his vow must precede the dedication of his sacrifice &c. Ib. V, 54ᵃ <he>גילגל בנזרו</he> he turned around (trifled with) his vow. ",
+			"units": [
+				"<cite ref=\"Nedarim 90a:6\">Ned. 90ᵃ</cite> <he>נשאל על נזרו</he>, v. <cite ref=\"U00030\"><he>שָׁאַל</he></cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

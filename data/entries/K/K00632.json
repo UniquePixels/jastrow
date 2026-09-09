@@ -1,0 +1,29 @@
+{
+	"id": "K00632",
+	"slug": "כירים-2",
+	"headword": {
+		"text": "כִּירִים",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּירִין"
+		}
+	],
+	"page": {
+		"number": 637,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>iron tools for crowding olives into the vat</i> (Maim.; cmp. <cite ref=\"K01153\"><he>כְּרִי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 12:8\">Kel. XII, 8</cite> (some ed. <cite ref=\"K00379\"><he>כורים</he></cite>, ed. Dehr. <cite ref=\"K00499\"><he>כידים</he></cite>; Ar. <cite ref=\"K00499\"><he>כידין</he></cite>, Var. <cite ref=\"K01202\"><he>כיר׳</he></cite>, expl. = <cite ref=\"P00736\"><he>עֲכִירִים</he></cite> q. v.—R. Hai Gaon quotes a Var. <cite ref=\"K00494\"><he>כידון</he></cite>); [<cite ref=\"Tosefta Keilim Batra 7:12\">Tosef. Kel. B. Bath. VII, 12</cite> <he>עתידין</he>, some ed. <he>עמידין</he>, <cite ref=\"P00736\"><he>עכירים</he></cite>]."
+			]
+		}
+	]
+}

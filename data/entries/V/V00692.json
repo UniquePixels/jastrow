@@ -1,0 +1,68 @@
+{
+	"id": "V00692",
+	"slug": "תמם",
+	"headword": {
+		"text": "תָּמַם"
+	},
+	"page": {
+		"number": 1678,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"V00025\"><he>תָּאַם</he></cite>) [<i>to join, be joined,</i>] <i>to be whole, finished, perfect; to end, be gone</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 44a:13\">Bekh. 44ᵃ</cite> <he>שתַּמּוּ</he>, v. <cite ref=\"V00458\"><he>תִּימוֹז</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 94:9\">Gen. R. s. 94</cite> (ref. to <he>התמו</he>, <cite ref=\"II Samuel 20:18\">II Sam. XX, 18</cite>) <he>עד כאן תמו דברי תורה</he> are the words of the Lord so far gone (to be ignored)?; Midr. Sam. ch. XXXII <he>על כן תמו וכ׳</he> (corr. acc.). ",
+				"<cite ref=\"Shabbat 55a:13\">Sabb. 55ᵃ</cite> <he>תַּמָּה זכות אבות</he> the protecting influence of the fathers has ceased. ",
+				"<cite ref=\"Berakhot 57a:8\">Ber. 57ᵃ</cite> <he>הרואה ת̇מ̇רים בחלום ת̇מ̇ו עונותיו</he> if one sees dates in his dream, his sins are ended (forgiven); a. fr.—",
+				"<cite ref=\"Shir HaShirim Rabbah 5:2\">Cant. R. to V, 2</cite> <he>תַּמָּתִי תַּמּוֹתִי וכ׳</he> <i>tammathi</i>, read <i>tammothi</i>, I am complete, for they attached themselves &c., v. infra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תִּמֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to complete, fulfill</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 39b:9\">Snh. 39ᵇ</cite> <he>לתַמֵּם</he>, v. <cite ref=\"H00531\"><he>חִזָּיוֹן</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְמִים", "הֵתֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to make perfect</i>. Y. Yoma VII, end, 44ᶜ <he>תומים שהן מְתִימִּין לפניהם וכ׳</he> they are called Tummim, because they perfect the way before them. ",
+					"units": [
+						"<cite ref=\"Nedarim 32a:11\">Ned. 32ᵃ</cite> <he>כל המַתְמִים עצמו שעה עומדת לו</he> if one perfects himself (tries to be perfect), time will stand by him (he will succeed in life, with ref. to <cite ref=\"Genesis 17:1\">Gen. XVII, 1</cite>, a. ",
+						"<cite ref=\"Genesis 17:4\">4</cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"V00677\"><he>תָּמִים</he></cite>) <i>to be upright, frank</i>. Ib. <he>כל המתמים עצמו הקב״ה מתמים עמו</he> if one perfects himself (tries to be upright), God will deal uprightly with him (with ref. to <cite ref=\"II Samuel 22:26\">II Sam. XXII, 26</cite>); <cite ref=\"Yalkut Shimoni on Nach 161:7\">Yalk. Sam. 161</cite>; a. e.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִיתַּם", "נִתְמַם"],
+			"senses": [
+				{
+					"gloss": "; <i>Nithpa.</i> <he>נִתְתַּמֵּם</he> (cmp. <cite ref=\"U01348\"><he>שָׁלַם</he></cite>) <i>to be joined; to ally one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 2\">Ex. R. s. 2</cite> (ref. to <he>תמתי</he>, <cite ref=\"Song of Songs 5:2\">Cant. V, 2</cite>) <he>שנִתְתַּמּוּ עמי בסיני</he> they attached themselves to me at Sinai and said (<cite ref=\"Exodus 24:7\">Ex. XXIV, 7</cite>), all that &c.; Cant. R. l. c. (v. supra) <he>שנִתְמְמוּ</he> (or <he>שנִתַּמְּמוּ</he>); Pesik. Haḥod., p. 47ᵃ <he>שנִיתּמּוּ</he>; <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>שנותמו</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

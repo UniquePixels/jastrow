@@ -1,0 +1,27 @@
+{
+	"id": "A02394",
+	"slug": "אסטרא-1",
+	"headword": {
+		"text": "אִסְטָרָא"
+	},
+	"page": {
+		"number": 91,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>,</i> pl. <cite ref=\"A02423\"><he>אִסְטָרִין</he></cite>",
+			"units": []
+		},
+		{
+			"gloss": "<i>streets</i>, v. <cite ref=\"A02408\"><he>אִסְטְרָטָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>theatre</i>, v. <cite ref=\"A02422\"><he>אִסְטַרְיָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

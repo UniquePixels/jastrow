@@ -1,0 +1,22 @@
+{
+	"id": "A00745",
+	"slug": "אוניתא-1",
+	"headword": {
+		"text": "אוֹנִיתָא"
+	},
+	"page": {
+		"number": 29,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"A00735\"><he>אוֹנָה</he></cite><i>title of possession, deed</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:14\">Y. Taan. IV, 69ᵃ</cite> <he>והוו משלחין א׳ וכ׳</he> they would send the (forged) deed of sale to the steward; <cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 2</cite> (corr. acc.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,85 @@
+{
+	"id": "H01172",
+	"slug": "חמי",
+	"headword": {
+		"text": "חֲמִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲמָא"
+		},
+		{
+			"text": "חֲמָה"
+		}
+	],
+	"page": {
+		"number": 476,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Arab. <i>ḥama</i> tueri) [<i>to surround, guard</i>, v. <cite ref=\"H00373\"><he>חוֹמָה</he></cite>,] <i>to observe, see</i> (in Y. dialect). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 1:4\">Targ. Y. Gen. I, 4</cite> (O. <he>חזא</he>); a. v. fr.—",
+				"<cite ref=\"Aramaic Targum to Proverbs 23:33\">Targ. Prov. XXIII, 33</cite> Ms. (ed. <he>ויחַוְור׳</he>).—Y. Peah III, 17ᵈ bot. <he>אתא חמי</he> (= <he>תא חזי</he>, h. <he>בא וראה</he>) come and see. ",
+				"<cite ref=\"Bereishit Rabbah 14\">Gen. R. s. 14</cite> <he>דאת חָמֵי לאפויי וכ׳</he> (not <he>דאתח׳</he>) that thou shalt see his face in the hereafter; <cite ref=\"Midrash Tehillim 2:11\">Midr. Till. to Ps. II; Yalk. ib. 621</cite> <he>חמוי</he> (corr. acc.). ",
+				"<cite ref=\"Midrash Tehillim 2:11\">Ib.</cite> <he>חַמְתֵיה</he> (fr. <he>חמה</he>) he saw him. Pesik. Eth Korb. p. 57ᵇ (v. Bub. note 15) <he>חַמְתִי אכיל חַמְתִי שתי</he> did he (Moses) see me (the Lord) eat &c.?; <cite ref=\"Yalkut Shimoni on Torah 776:12\">Yalk. Num. 776</cite> <he>חַמְתֵיה וכ׳</he> did he see Him &c.?; a. fr.—<i>Part. pass.</i> <cite ref=\"H01172\"><he>חֲמֵי</he></cite> (v. <cite ref=\"H00526\"><he>חֲזִי</he></cite>) <i>fit, worthy</i>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 15:1\">Targ. Ps. XV, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 58:2\">Ib. LVIII, 2</cite> (ed. <cite ref=\"H01172\"><he>חֲמִי</he></cite>); a. fr.—Fem. <cite ref=\"H01032\"><he>חַמְיָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 22:16\">Targ. Y. Ex. XXII, 16</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַחֲמֵי"],
+			"senses": [
+				{
+					"gloss": " (followed by <he>מ־</he>, cmp. <cite ref=\"O00408\"><he>סור</he></cite>) <i>to turn</i> (<i>the eye</i>) <i>from</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 28:27\">Targ. Prov. XXVIII, 27</cite> (Ar. <he>מהמי</he>, h. text <he>מעלים</he>, v. Syr. <he>המא</he> P. Sm. 1017)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to see, to show</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 41:28\">Targ. Y. Gen. XLI, 28</cite>; a. e.—",
+						"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>ואַחְמִין ליה וכ׳</he> and showed him a measure full of denars. ",
+						"<cite ref=\"Eichah Rabbah 1:1\">Ib.</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד כות׳</he> 1) <he>דכל עמא מַחְמִין לי וכ׳</he> that all people point at me with their fingers."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["חַמֵּי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01171\">same</cite>. Y. Kil. IX, 32ᵇ bot.; Y. Keth. XII, 35ᵃ bot. <cite ref=\"H01172\"><he>חַמֵּי</he></cite> (<cite ref=\"O01410\"><he>לה</he></cite>) <cite ref=\"L00400\"><he>לי</he></cite> let me see it (the tooth).",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְחַמֵּי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְחֲמֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be seen, to appear</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 8:5\">Targ. Y. Gen. VIII, 5</cite>; a. fr.—[<cite ref=\"Aramaic Targum to Psalms 42:3\">Targ. Ps. XLII, 3</cite> <he>אִתַּחֲמֵי</he> Ms. (<i>Ittaf.</i>) <i>I shall appear before</i> (h. text <he>אֵרָאֶה</he>, Var. a. ed. <cite ref=\"H01172\"><he>אֶחְמֵי</he></cite>)].—",
+						"<cite ref=\"Moed Katan 25b:13\">M. Kat. 25ᵇ</cite> <he>אִתְחֲמִיאוּ וכ׳</he> stars were seen in day time. Y. Peah VIII, end, 21ᵇ <he>דחמי ולא מִתְחֲמֵי</he> He who sees but cannot be seen. Lam. R. introd. (R. Joḥ. 1) <he>מִתְחַמְאִין</he>, v. <cite ref=\"M02996\"><he>מַשְׁתָּיֵי</he></cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

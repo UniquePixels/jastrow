@@ -1,0 +1,53 @@
+{
+	"id": "S00884",
+	"slug": "קיום-1",
+	"headword": {
+		"text": "קִיּוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִיּיוּם"
+		}
+	],
+	"page": {
+		"number": 1356,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00374\"><he>קוּם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>preservation; storage</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 1:4\">Peah I, 4</cite> <he>ומכניסו לק׳</he> and what one brings in for storage (not for immediate use); Y. ib. I, 16ᶜ top. Ib. bot. <he>דבר שאינו לק׳</he> a thing which is not intended or fit for storage. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:1:5\">Y. Sabb. VII, 9ᵃ</cite> top; Bab. ",
+				"<cite ref=\"Shabbat 68a\">Sabb. 68ᵃ</cite>. ",
+				"<cite ref=\"Avodah Zarah 74b:5\">Ab. Zar. 74ᵇ</cite> <he>זה מכניסו לק׳ וכ׳</he> Ms. M. (ed. <he>בק׳</he>) the one (vessel) one brings in for storage (to leave the wine there for some time) &c., v. <cite ref=\"M00478\"><he>מוּכְנָס</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 2:3:4\">Y. Kil. II, 27ᵈ</cite> bot. <he>מקומו … שאינו רוצה בקִיּוּמוֹ</he> the place where it grows is evidence that he does not want its preservation (to cultivate it). ",
+				"<cite ref=\"Yoma 45a:8\">Yoma 45ᵃ</cite> <he>אחת של ק׳ האש</he> one pile for the purpose of keeping up the fire; <cite ref=\"Tosefta Yoma 3:23\">Tosef. ib. III</cite> (<cite ref=\"Tosefta Yoma 2:23\">II</cite>), 23 <he>אחת לק׳ האש</he> (ed. Zuck. <he>לקיים</he>, corr. acc.); Y. ib. IV, 41ᵈ bot. <he>מערכת קִיּוּמֵי אש</he> (pl.); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>basis, foundation</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:1:9\">Y. Kil. IX, 32ᵃ</cite> (in Chald. dict.) <he>אילין פליגין על דרב ולית להון ק׳</he> (not <he>דבר</he>) these opinions conflict with Rab’s, and have no foundation; <cite ref=\"Jerusalem Talmud Chagigah 2:6:3\">Y. Ḥag. II, end, 78ᶜ</cite>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (law) <i>substantiation, attestation, identification</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 3a:4\">Gitt. 3ᵃ</cite> <he>ק׳ שטרות</he> the identification of signatures on documents (certification before court). Y. ib. II, beg. 44ᵃ <he>כלום קִיּוּמוֹ של גט וכ׳</he> is there any other way of authenticating a letter of divorce than through the declarations of its signers? <cite ref=\"Bereishit Rabbah 78:11\">Gen. R. s. 78</cite> (ref. to Esau’s declaration, <cite ref=\"Genesis 33:9\">Gen. XXXIII, 9</cite>) <he>אין ק׳ חגט וכ׳</he> there is no better attestation to the legality of a document than through its signers. ",
+				"<cite ref=\"Bava Metzia 21a:2\">B. Mets. 21ᵃ</cite> <he>עדי ק׳</he> signature of witnesses to the authentication before court. ",
+				"<cite ref=\"Mishnah Bava Batra 10:6\">B. Bath. X, 6</cite> <he>ועושין לו ק׳ איש וכ׳</he> and the court makes out a certificate, This man’s document was effaced &c.; <cite ref=\"Tosefta Bava Batra 11:8\">Tosef. ib. XI, 8</cite>, sq.; Y. ib. X, 17ᶜ bot.; a. e."
+			],
+			"label": "3"
+		}
+	]
+}

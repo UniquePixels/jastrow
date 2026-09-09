@@ -1,0 +1,38 @@
+{
+	"id": "U01133",
+	"slug": "שכונה",
+	"headword": {
+		"text": "שְׁכוּנָה"
+	},
+	"page": {
+		"number": 1571,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01132\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>settlement, colony, group of dwellings</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 21a:12\">Ab. Zar. 21ᵃ</cite> <he>ובלבד שלא יעשנה ש׳</he> provided that (in selling dwellings to a gentile) he does not make it a (gentile) settlement; <cite ref=\"Avodah Zarah 21a:12\">ib.</cite> <he>אין ש׳ וכ׳</he> a settlement consists of no less than three men (living in a group). ",
+				"<cite ref=\"Gittin 6a:17\">Gitt. 6ᵃ</cite> <he>מש׳ לש׳</he> when the deed of divorce is carried from one group of buildings to another; Y. ib. I, 43ᶜ top. ",
+				"<cite ref=\"Bereishit Rabbah 39\">Gen. R. s. 39</cite> <he>וממולדתך זו שְׁכוּנָתְךָ</he> ‘and out of thy <i>moledeth</i>’ (<cite ref=\"Genesis 12:1\">Gen. XII, 1</cite>) this means, thy settlement. ",
+				"<cite ref=\"Bereishit Rabbah 64:3\">Gen. R. s. 64</cite>, v. <cite ref=\"N01123\"><he>נָצִיב</he></cite>; a. e.—",
+				"<cite ref=\"Vayikra Rabbah 2:8\">Lev. R. s. 2</cite> <he>שכונתי</he> some ed., v. <cite ref=\"U01153\"><he>שְׁכִינָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the neighbor’s privilege of preemption</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 68a\">B. Mets. 68ᵃ</cite>; <cite ref=\"Bava Metzia 108b:5\">108ᵇ</cite> (expl. <cite ref=\"M02910\"><he>משכנתא</he></cite>) <he>דש׳ גביה</he> the right of preemption (accorded to neighbors) is with him (the mortgagee).—[<cite ref=\"U01133\"><he>שְׁכוּנָה</he></cite> ch., v. next w.]"
+			],
+			"label": "2"
+		}
+	]
+}

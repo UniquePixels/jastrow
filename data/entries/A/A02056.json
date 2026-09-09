@@ -1,0 +1,27 @@
+{
+	"id": "A02056",
+	"slug": "אמצע",
+	"headword": {
+		"text": "אֶמְצַע"
+	},
+	"page": {
+		"number": 78,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"M02340\"><he>מְצַע</he></cite>; √<cite ref=\"M02261\"><he>מץ</he></cite>; cmp. b. h. <cite ref=\"V00193\"><he>תָּוֶךְ</he></cite>, <cite ref=\"V00520\"><he>תֹּךְ</he></cite>, <he>תְּכָכִים</he>) [<i>lying in a press</i>], whence—בא׳ <i>in the centre, between two extremes</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:1:6\">Y. Ḥag. II, 77ᵃ</cite> bot. <he>יהלך בא׳</he> he must walk between the extremes. ",
+				"<cite ref=\"Bava Metzia 70b:7\">B. Mets. 70ᵇ</cite> <he>יד הנכרי בא׳</he>; <cite ref=\"Jerusalem Talmud Avodah Zarah 1:6:5\">Y. Ab. Zar. I, 40ᵃ</cite> top <he>אצבע הגוי בא׳</he> the hand [finger] of the gentile is between, i.e. he has a share in it; a. fr.—2) <i>common fund, estate</i>. ",
+				"<cite ref=\"Mishnah Bava Batra 10:7\">B. Bath. X, 7</cite> <he>השכר לא׳</he> the profit belongs to the common fund. ",
+				"<cite ref=\"Mishnah Bava Batra 9:3\">Ib. IX, 3</cite> <he>השביחו לא׳</he> they improved for the common fund, i.e. the profit must be equally divided. ",
+				"<cite ref=\"Bava Batra 144b:8\">Ib. 144ᵇ</cite> <he>מן הא׳</he> from the estate; a. fr. Cmp. <cite ref=\"M02340\"><he>מְצַע</he></cite>, <cite ref=\"M01241\"><he>מִיסְוָון</he></cite>.—[Also in Ch. ",
+				"<cite ref=\"Aramaic Targum to Job 2:8\">Targ. Job II, 8</cite> (Ms. <he>מצע</he>) <cite ref=\"Targum Jerusalem, Numbers 22:24\">Targ. Y. II, Num. XXII, 24</cite> <he>בא׳</he> <i>between</i>.]"
+			]
+		}
+	]
+}

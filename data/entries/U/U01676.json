@@ -1,0 +1,58 @@
+{
+	"id": "U01676",
+	"slug": "שעע-1",
+	"headword": {
+		"text": "שָׁעַע"
+	},
+	"page": {
+		"number": 1611,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"U01653\"><he>שְׁעֵי</he></cite>)<i>to smooth, paste</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁעֲשֵׁעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to smooth, paste over</i>. Y. Kil. I, 27ᵃ top <he>מְשׁעֲשֶׁעֶת את הלב</he>, v. <cite ref=\"U01640\"><he>שְׁעוּעִית</he></cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to appease, console</i>. Pesik. Naḥămu, p. 126ᵇ <he>ומְשַׁעְשְׁעָהּ בזו</he>, v. <cite ref=\"Q00590\"><he>פִּיד</he></cite>; ib. <he>ושִׁיעְשְׁעָהּ במצרים</he> consoled her (Assyria) with Egypt; ib. <he>ושיעשעה באשור</he> (not <he>לאשור</he>); <cite ref=\"Yalkut Shimoni on Nach 918\">Yalk. Job 918</cite>; <cite ref=\"Pesikta Rabbati 33:1\">Pesik. R. s. 33</cite> <he>ואם הביא עליהם שבר הוא מְשַׁעֲשֵׁעַ וכ׳</he> when he brings misfortune upon them, he consoles them one with the other.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pilp."
+		},
+		{
+			"forms": ["הִשְׁתַּעֲשֵׁעַ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִשְׁתַּעְשֵׁעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be appeased, enjoy one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 5\">Ex. R. s. 5</cite> (ref. to <he>ישעו</he>, <cite ref=\"Exodus 5:9\">Ex. V, 9</cite>) <he>שהיו בידן … מִשְׁתַּעְשְׁעִין בהן וכ׳</he> they had scrolls with them, in reading which they consoled themselves from Sabbath to Sabbath; <he>אל יהו משתעשעין וכ׳</he> they shall not enjoy themselves, and they shall not rest on the Sabbath; Tanḥ. Vaëra 6; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be a pleasure</i>. Tanḥ. T’tsavveh 1 (ref. to <cite ref=\"Jeremiah 31:19\">Jer. XXXI, 19</cite>) <he>מהו ילד שעשועים … ומִשְׁתַּעְשֵׁעַ לאביו</he> what is ‘a child of delight’? Three or four years old, when it begins to talk and becomes a pleasure to his father.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "N00090",
+	"slug": "נבל-2",
+	"headword": {
+		"text": "נְבֵל"
+	},
+	"page": {
+		"number": 869,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00089\">same</cite>, <i>to be soiled</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:2:4\">Y. Kil. IX, 32ᵃ</cite> bot. <he>דלא יִנְבְּלוּן מאנוי</he> that his garments may not be soiled."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַבֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to disgrace, make vile</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Amos 6:8\">Targ. Am. VI, 8</cite>. ",
+						"<cite ref=\"Targum Jonathan on Nahum 3:6\">Targ. Nah. III, 6</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

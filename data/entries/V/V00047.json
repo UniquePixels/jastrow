@@ -1,0 +1,42 @@
+{
+	"id": "V00047",
+	"slug": "תביר-2",
+	"headword": {
+		"text": "תְּבִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּבִירָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1643,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00046\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>break, fracture</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 21:19\">Targ. Y. Lev. XXI, 19</cite> (O. <cite ref=\"V00071\"><he>תְּבַר</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>breach, misfortune</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 15:16\">Targ. Y. II, Ex. XV, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 2:11\">Targ. Lam. II, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 3:47\">Ib. III, 47</cite>, sq.; a. e.—V. <he>תְּבַר</he> II."
+			],
+			"label": "2"
+		}
+	]
+}

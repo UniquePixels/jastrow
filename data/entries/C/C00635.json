@@ -1,0 +1,50 @@
+{
+	"id": "C00635",
+	"slug": "גידול-1",
+	"headword": {
+		"text": "גִּידּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּדוּל"
+		}
+	],
+	"page": {
+		"number": 235,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גדל</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rearing</i> of children. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 19b:18\">Snh. 19ᵇ</cite> <he>צער ג׳ בנים</he> the trouble of rearing children; <cite ref=\"Bereishit Rabbah 20:6\">Gen. R. s. 20</cite>; <cite ref=\"Eruvin 100b:21\">Erub. 100ᵇ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>growth</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 6:3\">Ber. VI, 3</cite> <he>דבר שאין גִּדּוּלוֹ וכ׳</he> (Y. ed. <he>גִּידּוּלָיו</he> pl.) whatever does not grow out of the soil (animal food &c.); a. fr.—Pl. <cite ref=\"C00638\"><he>גִּידּוּלִין</he></cite>, constr. <cite ref=\"C00635\"><he>גִּידּוּלֵי</he></cite>. Y. ib. V, 9ᶜ top <he>דרך גִּידּוּלֵיהֶן</he> the way they grow, v. <cite ref=\"C00207\"><he>גְּדִילָה</he></cite>.—",
+				"<cite ref=\"Mishnah Nedarim 7:6\">Ned. VII, 6</cite> <he>אסור בחלופיהן</he> (<he>ובגִידּ׳</he>) <he>וּבגִדּוּלֵיהֶן</he> it is forbidden to eat or enjoy what has been exchanged for the fruits or what has grown of their seeds. ",
+				"<cite ref=\"Mishnah Nedarim 7:6\">Ib.</cite> <he>גידולי ג׳</he> growths of the second degree. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 7:3:6\">Y. Ter. VII, end, 45ᵃ</cite> <he>ג׳ איסור</he> products of forbidden seeds. ",
+				"<cite ref=\"Berakhot 40b:17\">Ber. 40ᵇ</cite> <he>ג׳ קרקע</he> products of the ground; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>raising to dignity, elevation</i>.—Pl. as above. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 55:8\">Gen. R. s. 55</cite> beg. <he>ג׳ אחר ג׳</he> (<cite ref=\"Yalkut Shimoni on Torah 95:9\">Yalk. ib. 95</cite> <cite ref=\"C00182\"><he>גְּדוּלָּה</he></cite>, <cite ref=\"Yalkut Shimoni on Nach 777:7\">Yalk. Ps. 777</cite> <cite ref=\"C00228\"><he>גִּדָּלוֹן</he></cite>)."
+			],
+			"label": "3"
+		}
+	]
+}

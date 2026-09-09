@@ -1,0 +1,31 @@
+{
+	"id": "S00745",
+	"slug": "קטייא",
+	"headword": {
+		"text": "קַטַּיָּיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִטַּ׳"
+		},
+		{
+			"text": "קְטַ׳"
+		}
+	],
+	"page": {
+		"number": 1348,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"S00685\"><he>קְטָא</he> I</cite>) <i>cucumbers</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 11:5\">Targ. Y. I Num. XI, 5</cite>, <cite ref=\"Targum Jerusalem, Numbers 11:5\">Targ. Y. II, Num. XI, 5</cite>."
+			]
+		}
+	]
+}

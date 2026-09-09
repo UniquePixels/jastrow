@@ -1,0 +1,23 @@
+{
+	"id": "Q01049",
+	"slug": "פליט-2",
+	"headword": {
+		"text": "פָּלִיט"
+	},
+	"page": {
+		"number": 1181,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"Q00997\"><he>פָּלַט</he></cite>)<i>one that escaped, survivor</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 105b:6\">Snh. 105ᵇ</cite> <he>שריד ופ׳</he> remnant or survivor. ",
+				"<cite ref=\"Bereishit Rabbah 42:8\">Gen. R. s. 42</cite> <he>הוא עוג הוא פ׳</he> Og and ‘he that had escaped’ (<cite ref=\"Genesis 14:13\">Gen. XIV, 13</cite>) are the same person; a. e.—Pl. <he>פְּלֵיטִים</he>, <cite ref=\"Q01018\"><he>פְּלֵטִים</he></cite>, v. <cite ref=\"Q00999\"><he>פָּלֵט</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "O01010",
+	"slug": "סלסול",
+	"headword": {
+		"text": "סִלְסוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִילְ׳"
+		}
+	],
+	"page": {
+		"number": 995,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01011\">next w.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>loftiness, distinction, dignity</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bikkurim 1:5:3\">Y. Bicc. I, 64ᵃ</cite> <he>וכהנים נהגו ס׳ בעצמן</he> but the priests decided to guard their dignity (by abstaining from marrying one both of whose parents were proselytes); <cite ref=\"Kiddushin 78b:5\">Kidd. 78ᵇ</cite>. ",
+				"<cite ref=\"Bekhorot 30b:15\">Bekh. 30ᵇ</cite> <he>נהגו … ס׳ … שאין וכ׳</he> the priests guarding their dignity decided not to entrust matters of levitical cleanness to everybody.—",
+				"<cite ref=\"Jerusalem Talmud Shekalim 4:2:5\">Y. Shek. IV, 48ᵃ</cite> bot. <he>מעלה … ס׳ הוא בפרה</he> prominence was to be given, solemnity was to be given to the ceremonies connected with the preparation of the ashes of the red cow; Y. Ab. Zar. II, beg. 40ᶜ; Pesik. Par., p. 40ᵃ; <cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite> <he>משום ס׳ פרה</he> in order to lend solemnity to &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>curling the hair</i>. ",
+			"units": [
+				"<cite ref=\"Nazir 3a:5\">Naz. 3ᵃ</cite> (ref. to <he>מסלסל</he>, <cite ref=\"Mishnah Nazir 1:1\">ib. I, 1</cite>) <he>ממאי דהדין ס׳ שערא הוא</he> how do we know that this <i>m’salsel</i> means the curling of the hair?, v. <cite ref=\"O01011\">next w.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

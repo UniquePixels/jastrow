@@ -1,0 +1,37 @@
+{
+	"id": "C01289",
+	"slug": "גרה-4",
+	"headword": {
+		"text": "גֵּרָה",
+		"homograph": 3
+	},
+	"page": {
+		"number": 266,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C01392\"><he>גרר</he></cite>, cmp. <cite ref=\"C01302\"><he>גָרוֹן</he></cite>, <cite ref=\"C01265\"><he>גַּרְגֶּרֶת</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>the rough</i>, cmp. τραχεῖα,] <i>throat, larynx with wind-pipe, lungs and heart</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tamid 3:1\">Tam. III, 1</cite>. ",
+				"<cite ref=\"Mishnah Tamid 4:3\">Ib. IV, 3</cite>. ",
+				"<cite ref=\"Mishnah Yoma 2:7\">Yoma II, 7</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "(b. h.; <i>ground food, cud</i>. <he>מַעֲלֵה ג׳</he> <i>ruminant</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 6a:22\">Bekh. 6ᵃ</cite>; Sifra Sh’mini Par. 2, ch. III; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

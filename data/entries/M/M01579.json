@@ -1,0 +1,42 @@
+{
+	"id": "M01579",
+	"slug": "מלכות",
+	"headword": {
+		"text": "מַלְכוּת"
+	},
+	"page": {
+		"number": 791,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"M01572\"><he>מֶלֶךְ</he></cite>)<i>kingdom, government; office</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 3:5\">Ab. III, 5</cite> <he>עול מ׳</he> the yoke of (secular) government (burden of office). ",
+				"<cite ref=\"Berakhot 13b:18\">Ber. 13ᵇ</cite>, a. fr. <he>עול מ׳ שמים</he> the yoke of (submission to) divine government. ",
+				"<cite ref=\"Mishnah Gittin 8:5\">Gitt. VIII, 5</cite>, v. <cite ref=\"E00195\"><he>הוּגָּן</he></cite>. ",
+				"<cite ref=\"Berakhot 48b:9\">Ber. 48ᵇ</cite>, a. e. <he>אין מ׳ נוגעת וכ׳</he>, v. <cite ref=\"H00109\"><he>חָבֵר</he></cite>. ",
+				"<cite ref=\"Sotah 11b:22\">Sot. 11ᵇ</cite> (ref. to <he>בתים</he>, <cite ref=\"Exodus 1:21\">Ex. I, 21</cite>) <he>בתי מ׳</he> dynasties.—<he>מרד במ׳</he> to rebel against the government, to commit treason. ",
+				"<cite ref=\"Sanhedrin 49a\">Snh. 49ᵃ</cite>; a. fr.—<he>מ׳ הָרִשְׁעָה</he> the wicked government (Rome). ",
+				"<cite ref=\"Berakhot 61b:9\">Ber. 61ᵇ</cite> Ms. M. a. early ed. (later ed. <he>יון</he>); a. fr.—<he>קרוב למ׳</he> connected with the court (influential). ",
+				"<cite ref=\"Bava Kamma 83a\">B. Kam. 83ᵃ</cite>. ",
+				"<cite ref=\"Gittin 14b\">Gitt. 14ᵇ</cite>; a. fr.—Pl. <he>מַלְכִיּוֹת</he>. ",
+				"<cite ref=\"Bereishit Rabbah 44:17\">Gen. R. s. 44</cite> <he>ארבעה … גיהינם ומ׳ וכ׳</he> the Lord showed him (Abraham) four things: future punishment, (persecution by foreign) governments &c.; Mekh. Yithro, s. 9 <he>ארבע מ׳ וכ׳</he> the four empires which were destined to subject his descendants. ",
+				"<cite ref=\"Berakhot 34b:20\">Ber. 34ᵇ</cite>, a. e. <he>אין בין … אלא שעבוד מ׳ מלבד</he> there will be no difference (in the conditions of life) between the present and the Messianic days except (the delivery from) the oppression of governments; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (in liturgy) <i>a benediction invoking God as king</i> <he>(אלהינו מלך העולם</he>). Ib. 12ᵃ <he>כל ברכה שאין בה מ׳ וכ׳</he> a benediction in which the word ‘king’ does not occur, is no benediction.—Pl. <he>מַלְכִיּוֹת</he> <i>the references to the divine kingdom in the Musaf of the New Year’s Day, the section called Malkhiyoth</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 4:5\">R. Hash. IV, 5</cite>. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 4:6\">Ib. 6</cite> <he>עשרה מ׳</he> the recitation of ten Biblical verses referring to the divine government. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 4:6\">Ib.</cite> (32ᵇ) <he>זכרונות מ׳ וכ׳</he> Ms. M. (ed. sing.), v. <cite ref=\"G00470\"><he>זִכָּרוֹן</he></cite>. Y. ib. III, 58ᵈ; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

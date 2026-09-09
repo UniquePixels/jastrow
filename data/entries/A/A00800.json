@@ -1,0 +1,27 @@
+{
+	"id": "A00800",
+	"slug": "אופיא",
+	"headword": {
+		"text": "אוֹפְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הוֹפְיָא"
+		}
+	],
+	"page": {
+		"number": 31,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A00796\"><he>אוף</he></cite>; v. <cite ref=\"A02265\"><he>אנף</he></cite>; b. h. <i>what is blown off, foam, froth</i>. Ab. Zara 26ᵃ <he>כי א׳ דימא</he> Ms. M. (ed. <he>דנהרא</he>, v. Rabb. D. S. a. l., a. Ar. ed. Koh. s. v. <cite ref=\"A02666\"><he>אפי</he></cite>) as the foam of the Sea [river]; (Ar. <i>as logs on the river</i>, v. <cite ref=\"A00818\"><he>אוּפְתָּא</he></cite>, <cite ref=\"A00798\"><he>אוּפֵי</he></cite>). Ib. 70ᵇ <he>הוות נקיטא א׳</he> (Var. <cite ref=\"H00425\"><he>חופיא</he></cite>, <cite ref=\"E00001\"><he>ה׳</he></cite>, v. Rabb. D. S. a. l. note 20) she took the froth off. ",
+			"units": [
+				"<cite ref=\"Chullin 105b:11\">Ḥull. 105ᵇ</cite> <he>א׳</he> (Ar. <cite ref=\"E00001\"><he>ה׳</he></cite>)."
+			]
+		}
+	]
+}

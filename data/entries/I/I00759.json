@@ -1,0 +1,23 @@
+{
+	"id": "I00759",
+	"slug": "טרטין-3",
+	"headword": {
+		"text": "טְרָטִין"
+	},
+	"page": {
+		"number": 552,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (= <he>טורטורין</he>, cmp. Arab. <i>ṭarṭur</i> in Dozy Dict. des noms des vêtem., p. 262 sq., Lat. <i>turritum</i> capitis ornamentum &c.) <i>t’ratin, a head cover</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 29:1\">Kel. XXIX, 1</cite>; <cite ref=\"Tosefta Keilim Batra 7:5\">Tosef. Kel. B. Bath. VII, 5</cite> <cite ref=\"I00752\"><he>טְרָטוֹן</he></cite> ed. Zuck. (Var. <cite ref=\"I00849\"><he>טרסי</he></cite>)."
+			]
+		}
+	]
+}

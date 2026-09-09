@@ -1,0 +1,20 @@
+{
+	"id": "A00032",
+	"slug": "אבד-3",
+	"headword": {
+		"text": "אָבֵד"
+	},
+	"page": {
+		"number": 3,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>perishable, irretrievable</i>. <he>דבר הא׳</he> a business which cannot be postponed without irretrievable loss. ",
+			"units": ["<cite ref=\"Moed Katan 11a\">M. Kat. 11ᵃ</cite>; a. fr."]
+		}
+	]
+}

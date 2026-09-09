@@ -1,0 +1,30 @@
+{
+	"id": "H00676",
+	"slug": "חיוב-1",
+	"headword": {
+		"text": "חִיּוּב"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִיּיוּב"
+		}
+	],
+	"page": {
+		"number": 452,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00231\"><he>חוּב</he></cite>, v. <cite ref=\"H00722\"><he>חַיָּיב</he></cite>) <i>obligation; restriction, disadvantage; conviction</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 2b:7\">Sabb. 2ᵇ</cite> <he>מהן לח׳ ומהן לפטור</he> some of them are mentioned for conviction (as punishable), and some as not punishable. ",
+				"<cite ref=\"Shabbat 3a:4\">Ib. 3ᵃ</cite> <he>ח׳ חטאת</he> obligation to bring a sin-offering. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 9:1:4\">Y. Keth. IX, beg. 32ᵈ</cite> <he>מזכותו אתה למד חִיּיוּבו</he> from his privilege you can deduct his restriction (what he has no right to).—",
+				"<cite ref=\"Jerusalem Talmud Challah 3:1:8\">Y. Ḥall. III, beg. 59ᵃ</cite> <he>מפטור על ח׳</he> from what is exempt (from Ḥallah) for what is subject (to Ḥallah); a. fr."
+			]
+		}
+	]
+}

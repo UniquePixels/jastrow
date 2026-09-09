@@ -1,0 +1,28 @@
+{
+	"id": "C00821",
+	"slug": "גירומים",
+	"headword": {
+		"text": "גֵּירוּמִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "גֵּירוּמִין"
+		}
+	],
+	"page": {
+		"number": 242,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"C01350\"><he>גרם</he></cite>) <i>that which goes along, customary addition to weight</i> or <i>measure</i> at sales. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 6:11\">B. Bath. VI, 11</cite> <he>נותן לו גֵּירוּמָיו</he> (Bab. ed. 88ᵇ <he>מין …</he>, Y. ed. … <he>מים</he>) he must give him the due surplus. Sifra K’doshim Par. 9, ch. VIII."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "G00713",
+	"slug": "זריקתא",
+	"headword": {
+		"text": "זְרִיקְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִירְקְתָא"
+		}
+	],
+	"page": {
+		"number": 414,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>זרק</he>) <i>that which is thrown off, pickings in the woods</i>, used as fuel. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 33:4\">Targ. Is. XXXIII, 4</cite> <he>זריק׳</he> ed. Lag. (oth. ed. <he>זִירְקְ׳</he>, <he>זִרְקְ׳</he>; h. text <he>גֵּבִים</he>, cmp. <cite ref=\"C00044\"><he>גְּבָבָה</he></cite>); v. <cite ref=\"A00968\"><he>אֲזִי</he></cite>."
+			]
+		}
+	]
+}

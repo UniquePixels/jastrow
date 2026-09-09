@@ -1,0 +1,25 @@
+{
+	"id": "A00890",
+	"slug": "אוריין-2",
+	"headword": {
+		"text": "אוֹרְיָין",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹרְיוֹן"
+		}
+	],
+	"page": {
+		"number": 34,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"A00889\">foreg.</cite>) pr. n. m. <i>Oryan, Oryon</i>. Esth. R. beg. <he>אבא א׳</he>, Abba O. (cmp. <cite ref=\"A00017\"><he>אַבָּא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 10:6:3\">Y. Sabb. X, 12ᵈ</cite> top <he>יצחק בר אוריון</he>."
+			]
+		}
+	]
+}

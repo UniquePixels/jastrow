@@ -1,0 +1,32 @@
+{
+	"id": "K00311",
+	"slug": "כונשרא",
+	"headword": {
+		"text": "כּוּנְשְׁרָא"
+	},
+	"page": {
+		"number": 622,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01324\"><he>כשר</he></cite>, with inserted <cite ref=\"N00001\"><he>נ</he></cite>, cmp. <cite ref=\"C00431\"><he>גּוּנְדְּרָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (= h. <he>כִּישׁוֹר</he>) <i>distaff</i> with the ball of flax. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 31:19\">Targ. Prov. XXXI, 19</cite> (ed. Lag. <cite ref=\"K00408\"><he>כּוּשְׁרָא</he></cite>, cmp. <cite ref=\"K01300\"><he>כָּשׁוֹרָא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <he>קשר</he>) <i>navel</i>. Ib. III, 8 (ed. Lag. <cite ref=\"K00306\"><he>כּוּנִישְׁר׳</he></cite>; Levita Var. <cite ref=\"K00408\"><he>כּוּשְׁרָא</he></cite>; h. text <cite ref=\"U01069\"><he>שָׁרּ׳</he></cite>).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

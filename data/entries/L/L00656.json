@@ -1,0 +1,30 @@
+{
+	"id": "L00656",
+	"slug": "לפתן",
+	"headword": {
+		"text": "לִפְתָּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִיפְ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 716,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00650\"><he>לָפַת</he></cite>) <i>relish</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 40a:2\">Ber. 40ᵃ</cite> <he>עד שיביאו מלח או ל׳ וכ׳</he> until salt or some relish is placed before each one, v. <cite ref=\"B01375\"><he>בְּשַׁשׁ</he></cite>. ",
+				"<cite ref=\"Mishnah Negaim 13:9\">Neg. XIII, 9</cite>; <cite ref=\"Tosefta Negaim 7:10\">Tosef. ib. VII, 10</cite>; <cite ref=\"Chullin 71b\">Ḥull. 71ᵇ</cite> <he>מסב ואוכל</he>(<cite ref=\"E00000\"><he>ה</he></cite>) <he>בל׳</he> reclining and eating (the named quantity of bread) with some relish; <cite ref=\"Kohelet Rabbah 7:7\">Koh. R. to VII, 7</cite> <he>מי טב אוכלה בל׳</he> (corr. acc.); expl. ",
+				"<cite ref=\"Kohelet Rabbah 7:7\">ib.</cite>, v. <cite ref=\"L00650\"><he>לָפַת</he></cite>; a. e."
+			]
+		}
+	]
+}

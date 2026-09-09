@@ -1,0 +1,29 @@
+{
+	"id": "Q01722",
+	"slug": "פרוע-2",
+	"headword": {
+		"text": "פֵּרוּעַ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פֵּיר׳"
+		}
+	],
+	"page": {
+		"number": 1221,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<cite ref=\"Q01721\">preced.</cite>) = h. <cite ref=\"Q01946\"><he>פֶּרַע</he></cite>, <i>wild, neglected growth of the hair</i>; (adv.) <i>in a wild, neglected condition</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 44:20\">Targ. Ez. XLIV, 20</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 10:6\">Targ. Lev. X, 6</cite> (not <cite ref=\"Q00994\"><he>פָּ׳</he></cite>); a. fr.—[<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite> <he>ונסב פרועיך</he>, read: <he>פְּרִיטִיךְ</he>, v. <cite ref=\"Q01802\"><he>פְּרִיטָא</he></cite>.]"
+			]
+		}
+	]
+}

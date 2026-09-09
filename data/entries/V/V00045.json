@@ -1,0 +1,23 @@
+{
+	"id": "V00045",
+	"slug": "תביקין",
+	"headword": {
+		"text": "תְּבִיקִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1643,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (θηβαική, accus., sub πῆχυς) <i>Thebaic cubit</i> (supposed to be the royal cubit of the Egyptians). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 31:10\">Gen. R. s. 31</cite> (ref. to <he>מדה הראשונה</he>, <cite ref=\"II Chronicles 3:3\">II Chr. III, 3</cite>) <he>למה הוא קורא אותה אמה ת׳ וכ׳</he> (Ar. <cite ref=\"V00069\"><he>תבקיון</he></cite>) why is this cubit called <i>t’biḳin</i>? Because they fitted with it (v. <cite ref=\"V00033\"><he>תָּבָא</he></cite>); (oth. opin.) <he>על שם תיבתו וכ׳</he> after Noah’s ark (<i>tebah</i>); Yalk. ib. 53."
+			]
+		}
+	]
+}

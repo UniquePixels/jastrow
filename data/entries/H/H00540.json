@@ -1,0 +1,27 @@
+{
+	"id": "H00540",
+	"slug": "חזינא",
+	"headword": {
+		"text": "חַזְיָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַזְיָינָא"
+		}
+	],
+	"page": {
+		"number": 443,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<cite ref=\"H00525\"><he>חזי</he></cite>, cmp. <cite ref=\"H00533\"><he>חָזִיז</he></cite>, <cite ref=\"H00536\"><he>חֲזִיזָא</he></cite> &c.) <i>prickly bur, chestnut</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 14:2\">Kel. XIV, 2</cite> a cane with a metal knob <he>כמין ח׳</he> (ed. Dehr. <he>חזינה</he>) of the shape of a chestnut bur (as a weapon)."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "B01112",
+	"slug": "בקא-2",
+	"headword": {
+		"text": "בְּקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּקִי"
+		}
+	],
+	"page": {
+		"number": 185,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>בק</he>, v. <cite ref=\"B01111\">preced.</cite>; cmp. <he>בצא</he>, a. <he>בין</he>; v. <he>בקר</he>, <cite ref=\"B01148\"><he>בקש</he></cite> &c.) <i>to search, investigate, examine, find out</i>. Part. <cite ref=\"B01118\"><he>בָּקֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 17:3\">Targ. Prov. XVII, 3</cite> <he>צרפא בקי</he> Bxt. (ed. <cite ref=\"N01193\"><he>נקי</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 24:12\">Ib. XXIV, 12</cite> <he>בָּאקֵי</he> Ms. (Bxt. a. oth. <cite ref=\"B01072\"><he>בצי</he></cite>; corrupt. <cite ref=\"B00014\"><he>באהי</he></cite>; h. text <he>יבין</he>).—",
+				"<cite ref=\"Bava Metzia 84b:5\">B. Mets. 84ᵇ</cite> <he>בְּקִי באבוך וכ׳</he> (<cite ref=\"Yalkut Shimoni on Nach 964:14\">Yalk. Prov. 964</cite> <he>בַּקְרִי</he>) find out what thy father is doing now. ",
+				"<cite ref=\"Pesachim 3b:13\">Pes. 3ᵇ</cite> <he>בקי מאי דיניה</he> Ms. M. (ed. <he>בדוק</he>) find out his ways and manners. ",
+				"<cite ref=\"Gittin 69b:11\">Gitt. 69ᵇ</cite> <he>ליבקי וכ׳</he> let one search for the body of one who died on a Sabbath. ",
+				"<cite ref=\"Kohelet Rabbah 11:2:1\">Koh. R. to XI, 2</cite> (read:) <he>עד דאינון בקיין תרין חיואן וכ׳</he> (strike out <he>אזלון בעיין … ונפקין</he>) while they were searching (for the grave), two serpents of fire &c."
+			]
+		}
+	]
+}

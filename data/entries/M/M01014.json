@@ -1,0 +1,23 @@
+{
+	"id": "M01014",
+	"slug": "מטלנא-2",
+	"headword": {
+		"text": "מַטְלָנָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 768,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00509\"><he>טלל</he></cite>, <he>נטל</he>, cmp. <cite ref=\"M01002\"><he>מַטְלוֹן</he></cite>) <i>journey</i> (h. <cite ref=\"M01983\"><he>מַסָּע</he></cite>). [<cite ref=\"Targum Jonathan on Isaiah 21:1\">Targ. Is. XXI, 1</cite> <he>מַטְלַן</he> Kimḥi, v. <cite ref=\"M00999\"><he>מַטְּלָא</he></cite>.)—Pl. <he>מַטְלָנִין</he>, constr. <he>מַטְלָנֵי</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 33:1\">Targ. Num. XXXIII, 1</cite>; a. fr."
+			]
+		}
+	]
+}

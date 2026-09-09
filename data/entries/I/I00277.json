@@ -1,0 +1,23 @@
+{
+	"id": "I00277",
+	"slug": "טטלפוש",
+	"headword": {
+		"text": "טַטְלָפוּשׁ",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 528,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Tatlafush</i> (?). ",
+			"units": [
+				"<cite ref=\"Chullin 110a:3\">Ḥull. 110ᵃ</cite> (in R. Gershon Ms. <he>טלטל לפוש</he>, v. Koh. Ar. Compl. s. v.;—perh. a perversion of <cite ref=\"B00920\"><he>בלשפט</he></cite>)."
+			]
+		}
+	]
+}

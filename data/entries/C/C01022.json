@@ -1,0 +1,31 @@
+{
+	"id": "C01022",
+	"slug": "גמיאה",
+	"headword": {
+		"text": "גְּמִיאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּמִיָּיה"
+		},
+		{
+			"text": "גְּמִיעָה"
+		}
+	],
+	"page": {
+		"number": 252,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C00996\"><he>גָּמָא</he></cite>, <cite ref=\"C01005\"><he>גָּמָה</he></cite>, <cite ref=\"C01059\"><he>גָּמַע</he></cite>) <i>quaffing, full draught</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:1\">Sabb. VIII, 1</cite> (<cite ref=\"Shabbat 76b:6\">76ᵇ</cite>) <he>כדי גמיא׳</he> Ms. O. a. Ar. (ed. <he>גמיע׳</he>) as much as is quaffed at a time. Ib. 77ᵃ (discussion about spelling with <cite ref=\"A00000\"><he>א</he></cite> or <cite ref=\"P00000\"><he>ע</he></cite>); Tosef. ib. VIII (IX), 8 (with <cite ref=\"P00000\"><he>ע</he></cite>); Y. ib. VIII, beg. 11ᵃ <he>גמייה</he>. ",
+				"<cite ref=\"Bereishit Rabbah 60\">Gen. R. s. 60</cite> <he>גמיי׳ אחת</he> (some ed. <cite ref=\"C01025\"><he>גְּמִיָּה</he></cite>) only one quaff; Tanḥ. Pinḥ. 13 <he>כדי גמיא׳</he>; <cite ref=\"Bamidbar Rabbah 21:18\">Num. R. s. 21</cite> <cite ref=\"C01024\"><he>גמייא</he></cite> (corr. acc.); <cite ref=\"Midrash Mishlei 13:5\">Midr. Prov. ch. XIII</cite> <cite ref=\"C01022\"><he>גמיאה</he></cite>.—Num. R. l. c. <he>הוא עושה גמיע׳ אחת</he> the Leviathan swallows with one quaff; <cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite> (with <cite ref=\"A00000\"><he>א</he></cite>); a. fr."
+			]
+		}
+	]
+}

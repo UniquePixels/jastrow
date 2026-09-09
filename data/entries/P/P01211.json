@@ -1,0 +1,48 @@
+{
+	"id": "P01211",
+	"slug": "עקץ-1",
+	"headword": {
+		"text": "עָקַץ"
+	},
+	"page": {
+		"number": 1107,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>עקב</he>, a. Arab. ʿaḳaṣ) [<i>to bend, twist</i>; denom. <cite ref=\"P00340\"><he>עוּקָץ</he></cite> <i>tail, point, peduncle</i> &c.,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to cut fruit by the stalks</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 7:3\">Peah VII, 3</cite> <he>ע׳ את כל האשכול</he> Ms. M. if he cut an entire cluster. ",
+				"<cite ref=\"Sanhedrin 41a:21\">Snh. 41ᵃ</cite> <he>ע׳ תאנה</he> he cut figs. ",
+				"<cite ref=\"Bava Kamma 70b:11\">B. Kam. 70ᵇ</cite> <he>עֲקוֹץ לך תאינה מתאינתי וכ׳</he> cut figs (to the value of the stolen object) in my fig plantation, and take possession for me of the stolen object which thou holdest; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to sting, prick</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 8:5:7\">Y. Ber. VIII, 12ᵇ</cite> <he>שעֲקָצוֹ חברבר וחיה</he> that a lizard stung him, and he recovered. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:12:2\">Cant. R. to I, 12</cite> <he>אפי׳ פורטענא לא ע׳ בם</he> not even a flea stung them; <cite ref=\"Shir HaShirim Rabbah 5:3:1\">ib. to V, 3</cite> <he>עָקְצָה</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:15:2\">Ib. to II, 15</cite> <he>ועוֹקְצִין אותם</he> and they pricked them (with a pin); a. fr.—",
+				"<cite ref=\"Esther Rabbah 3:14\">Esth. R. to I, 12</cite> (proverbial expression) <he>רמזתו ולא נרמז עֲקָצַתּוּ ולא נעקץ</he> she gave him a hint, and he did not heed it, she pricked him, and he did not feel the sting."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶעֱקַץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be stung, feel the sting</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

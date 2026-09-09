@@ -1,0 +1,33 @@
+{
+	"id": "S01514",
+	"slug": "קנאי-2",
+	"headword": {
+		"text": "קַנַּאי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קַנָּא"
+		},
+		{
+			"text": "קַנְאָן"
+		},
+		{
+			"text": "קַנָאַן"
+		}
+	],
+	"page": {
+		"number": 1388,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01513\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 20:5\">Targ. Ex. XX, 5</cite>; <cite ref=\"Deuteronomy 5:9\">Deut. V, 9</cite>. ",
+				"<cite ref=\"Onkelos Exodus 34:14\">Targ. Ex. XXXIV, 14</cite>; a. e.—Pl. <he>קַנָּאִין</he>. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 4:24\">Targ. Y. II, Deut. IV, 24</cite>."
+			]
+		}
+	]
+}

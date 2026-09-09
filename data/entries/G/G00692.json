@@ -1,0 +1,26 @@
+{
+	"id": "G00692",
+	"slug": "זרזיר-2",
+	"headword": {
+		"text": "זַרְזִיר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 413,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Syr. <he>זרזירא</he> P. Sm. 1156, Ar. <i>zurzur</i>; prob. fr. <cite ref=\"G00233\"><he>זור</he></cite> <i>to circle</i>) <i>starling</i>, also (collect.) <i>flock of starlings</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 62a:2\">Ḥull. 62ᵃ</cite> <he>להביא את הז׳</he> (Sifra Sh’mini, Par. 3, ch. V <he>הזַרְזִירִים</he>, Ar. <he>רין …</he>) to include the starling (in the genus raven). Ḥull. l. c.; <cite ref=\"Bava Kamma 92b:13\">B. Kam. 92ᵇ</cite> (prov.) <he>לא לחנם הלך ז׳ וכ׳</he> not without cause does the starling follow the raven &c.; <cite ref=\"Bereishit Rabbah 65:3\">Gen. R. s. 65</cite>, beg. ",
+				"<cite ref=\"Bereishit Rabbah 65:3\">Ib.</cite> <he>עלה ז׳ אחד וכ׳</he> a flock of starlings came to Palestine.—Pl. <he>זַרְזִירִים</he>, <cite ref=\"G00694\"><he>זַרְזִירִין</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 75:4\">Gen. R. s. 75</cite> <he>אין שני ז׳ וכ׳</he> two flocks of starlings cannot sleep on one board (two nations cannot rule at the same time). ",
+				"<cite ref=\"Tosefta Chullin 3:7\">Tosef. Ḥull. III (IV), 23</cite>."
+			]
+		}
+	]
+}

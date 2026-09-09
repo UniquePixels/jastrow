@@ -1,0 +1,60 @@
+{
+	"id": "U01893",
+	"slug": "שקר-2",
+	"headword": {
+		"text": "שָׁקַר"
+	},
+	"page": {
+		"number": 1626,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be false</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 85\">Gen. R. s. 85</cite>, beg. <he>שָׁקַרְתָּ יהודה</he> thou hast been false, O Judah; <cite ref=\"Yalkut Shimoni on Torah 144\">Yalk. ib. 144</cite>; <cite ref=\"Yalkut Shimoni on Nach 589\">Yalk. Mal. 589</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁיקֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01892\">same</cite>, <i>to lie; to defraud</i>.—<he>מה לי לשַׁקּר</he> what reason should I have for making a false statement?, i.e. a person’s statement is to be credited, when he gains nothing by it, since he might have obtained the same advantage in another way. ",
+					"units": [
+						"<cite ref=\"Kiddushin 64b:1\">Kidd. 64ᵇ</cite> <he>אמרינן מה לי לשקר וכ׳</he> we apply the principle that we believe him, because he gains nothing by falsehood: for, why should he have said so? In order to release her from leviratical marriage after his death? If so, he might have said to her: I release thee by a divorce. ",
+						"<cite ref=\"Kiddushin 64b:2\">Ib.</cite> <he>מה לי לש׳ כי עדים דמי</he> a person’s statement accepted on the ground that he had no reason for lying, has the same legal value as the statement of witnesses; <he>מה לי לש׳ כי חזקה דמי</he> it has only the same value as a presumption (<cite ref=\"H00556\"><he>חֲזָקָה</he></cite>). ",
+						"<cite ref=\"Ketubot 27b:3\">Keth. 27ᵇ</cite> <he>מה לי לש׳ אי בעי וכ׳</he> we must believe him, for, if he had wanted, he might have said &c. ",
+						"<cite ref=\"Ketubot 27b:3\">Ib.</cite> <he>מה לי לש׳ במקום עדים וכ׳</he> we do not apply the principle of <i>mah li l’shaḳḳer</i>, when the person’s statement is contradicted by witnesses (by well-known facts); <cite ref=\"Bava Metzia 81b\">B. Mets. 81ᵇ</cite>; a. fr.—Y. Snh. XI, 30ᶜ top (expl. <he>כחש לו</he>, <cite ref=\"I Kings 13:18\">I Kings XIII, 18</cite>) <he>שי׳ בו</he> (not <cite ref=\"B00537\"><he>ביה</he></cite>) he played him false; <cite ref=\"Shir HaShirim Rabbah 2:5:3\">Cant. R. to II, 5</cite> <he>שי׳ לו</he>; <cite ref=\"Shir HaShirim Rabbah 2:5:3\">ib.</cite> <he>ומה שי׳ לו שהאכילהו וכ׳</he> and wherein did he play him false? In that he gave him the bread of deceit to eat (made him the recipient of treacherous hospitality). ",
+						"<cite ref=\"Bamidbar Rabbah 20:19\">Num. R. s. 20<sup>18</sup></cite>; Tanḥ. Balak 12 <he>מְשַׁקֵּר במשקלות</he>, v. <cite ref=\"M02966\"><he>מִשְׁקָל</he></cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to prove false; to contradict, refute</i>. ",
+					"units": [
+						"<cite ref=\"Makkot 5a:8\">Macc. 5ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 19:18\">Deut. XIX, 18</cite>) <he>עד שתְּשַׁקֵּר גופה וכ׳</he> until thou disprovest the body of the testimony (provest an alibi of the witnesses)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁתַּקֵּר"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִשְׁתַּקֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be refuted, be proved to be a liar</i>. Y. ib. I, beg. 31ᵃ [read:] <he>עדים שנזדממו וחזרו ונִשְׁתַּקְּרוּ</he> if witnesses against whom an alibi had been proved were also proved to have told a falsehood (as to the fact to which they testified).",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

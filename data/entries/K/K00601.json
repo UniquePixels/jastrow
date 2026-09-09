@@ -1,0 +1,45 @@
+{
+	"id": "K00601",
+	"slug": "כיפה-1",
+	"headword": {
+		"text": "כֵּיפָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "כֵּפָה"
+		}
+	],
+	"page": {
+		"number": 635,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"K00598\"><he>כֵּיף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ball, stone</i>. Ohol. VIII, 5 <he>כֵּיפַת הברד</he> hail-stone.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>resin</i> (or something similar) <i>found in balls</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Demai 1:29\">Tosef. Dem. I, 29</cite> <he>כֵּפַת המרחץ</he> ed. Zuck. (Var. <he>בפת</he>, emend. by El. Wil. <he>קופת</he>) resin used (with oil) in the bath-room.—כֵּיפַת הירדן <i>Jordan-resin, amber</i> (an adapt. of Eridanus, v. Sm. Ant. s. v. Electrum, Lübker’s Reallex. s. v. Electron). ",
+				"<cite ref=\"Keritot 6a\">Kerith. 6ᵃ</cite> (one of the ingredients of frankincense)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>ball, lump</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 5:3:2\">Y. Sabb. V, 7ᵇ</cite> bot. (in Chald. dict.), v. <cite ref=\"C00096\"><he>גְּבִינְתָּא</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

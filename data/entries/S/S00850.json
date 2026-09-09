@@ -1,0 +1,51 @@
+{
+	"id": "S00850",
+	"slug": "קיבול",
+	"headword": {
+		"text": "קִיבּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִבּ׳"
+		}
+	],
+	"page": {
+		"number": 1354,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קָבַל</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>taking, catching</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 129:1\">Sifré Num. 129</cite> (ref. to <cite ref=\"Numbers 19:18\">Num. XIX, 18</cite>) <he>אשר היו שם בשעת ק׳ טומאה</he> ‘which had been there’ at the time of catching the uncleanness."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>receiving</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 5:1\">Zeb. V, 1</cite> <he>ק׳ דמן וכ׳</he> their blood must be received in a consecrated vessel (v. <cite ref=\"U02049\"><he>שָׁרֵת</he></cite>). ",
+				"<cite ref=\"Mishnah Zevachim 1:4\">Ib. I, 4</cite> (<cite ref=\"Zevachim 13a:7\">13ᵃ</cite>) <he>הזבח נפסל … בק׳ וכ׳</he> the sacrifice becomes unfit through wrong intentions in one of four acts, in slaughtering, receiving (the blood) &c.; a. fr.—<he>כלי ק׳</he>, <he>בית ק׳</he> (or sub. <cite ref=\"K00715\"><he>כלי</he></cite>) <i>a receptacle</i>, opp. <cite ref=\"Q02054\"><he>פָּשׁוּט</he></cite>. ",
+				"<cite ref=\"Mishnah Beitzah 2:9\">Bets. II, 9</cite> <he>משום כלי ק׳</he> is susceptible of uncleanness, because it is a receptacle. ",
+				"<cite ref=\"Tosefta Keilim Batra 6:1\">Tosef. Kel. B. Bath. VI, 1</cite>, v. <cite ref=\"Q02054\"><he>פָּשׁוּט</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 17:16\">Kel. XVII, 16</cite>. ",
+				"<cite ref=\"Shabbat 84a:1\">Sabb. 84ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>acceptance</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 115:1\">Sifré Num. 115</cite>; <cite ref=\"Yalkut Shimoni on Torah 750:8\">Yalk. Num. 750</cite> <he>פרשה שיש בה ק׳ מלכות שמים</he> a Biblical section in which is expressed the acceptance of the divine kingdom."
+			],
+			"label": "3"
+		}
+	]
+}

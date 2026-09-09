@@ -1,0 +1,49 @@
+{
+	"id": "V00752",
+	"slug": "תנן-1",
+	"headword": {
+		"text": "תְּנַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּנֵין"
+		}
+	],
+	"page": {
+		"number": 1682,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"V00753\">next w.</cite>) <i>to smoke</i>. <i>Part.</i> <cite ref=\"V00748\"><he>תָּנֵן</he></cite>, <cite ref=\"V00748\"><he>תָּנֵין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 19:18\">Targ. Ex. XIX, 18</cite>. ",
+				"<cite ref=\"Onkelos Exodus 20:15\">Targ. O. ib. XX, 15</cite> (Y. I ed. Vien. <cite ref=\"V00749\"><he>תַּנִּין</he></cite> <i>adj.</i>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַתְנֵן"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V00751\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 7:4\">Targ. Is. VII, 4</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["תַּנֵּן"],
+			"senses": [
+				{
+					"gloss": "; Ithpe. <cite ref=\"A01658\"><he>אִיתְּנַן</he></cite>, <he>אִיתִּין</he>, v. <cite ref=\"M03085\"><he>מְתַנָּא</he></cite>",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "D00429",
+	"slug": "דחס-1",
+	"headword": {
+		"text": "דָּחַס"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּחַשׁ"
+		}
+	],
+	"page": {
+		"number": 292,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"D00406\"><he>דחי</he></cite>) <i>to press, crowd.—Part. pass</i>. <he>דָּחוּס</he>, f. <cite ref=\"D01068\"><he>דְּחוּסָה</he></cite> <i>crowded, thick, full</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 30\">Lev. R. s. 30</cite> <he>ד׳ בעלין</he> Ar. (ed. <he>רחוש</he>) thick with leaves; <he>ד׳ בבנים</he> richly blessed with children; Pesik. Ul’kaḥ. p. 184ᵃ <he>דָחוּשׁ</he> Ms. O. (ed. <cite ref=\"T00001\"><he>ר׳</he></cite>, v. Ar. Compl. ed. Koh. s. v. <cite ref=\"H01800\"><he>חש</he></cite> 3, a. Koh. Ar. Compl. s. v. <he>דחס</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["דִּחֵס"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"D00428\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Tosefta Tahorot 8:8\">Tosef. Toh. VIII, 8</cite> <he>המְדַחֵס כליו וכ׳</he> (ed. Zuck. <he>המדחם</he>, ed. <he>המדחה</he>; R. S. to <cite ref=\"Mishnah Tahorot 7:7\">Toh. VII, 7</cite> <cite ref=\"H01777\"><he>חרש</he></cite>, corr. acc.) if one stuffs his bathing apparel into the bather’s window closet (opp. to <he>המניח</he>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

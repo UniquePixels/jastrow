@@ -1,0 +1,24 @@
+{
+	"id": "M01496",
+	"slug": "מלוגא",
+	"headword": {
+		"text": "מְלוֹגָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 787,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (v. <cite ref=\"M01486\"><he>מָלַג</he></cite>) <i>a hairless skin, bag</i>.—<he>מ׳ דשטרי</he> a bag containing documents. ",
+			"units": [
+				"<cite ref=\"Ketubot 85a:8\">Keth. 85ᵃ</cite>. ",
+				"<cite ref=\"Bava Batra 151a:10\">B. Bath. 151ᵃ</cite>"
+			]
+		}
+	]
+}

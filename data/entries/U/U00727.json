@@ -1,0 +1,32 @@
+{
+	"id": "U00727",
+	"slug": "שחתא-1",
+	"headword": {
+		"text": "שִׁחֲתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1552,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " <cite ref=\"U00726\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 7:1\">Targ. Am. VII, 1</cite> (h. text <cite ref=\"C00541\"><he>גִּזֵּי</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>trouble in the lower extremities, piles</i> (or <i>worms</i>). ",
+			"units": [
+				"<cite ref=\"Gittin 69b\">Gitt. 69ᵇ</cite> <he>לשי׳</he> Ar. ed. Koh. (oth. ed. Ar. <he>לשח׳</he>, <he>לשחי׳</he>; Talm. ed. <he>לרוּשְׁחָתָא</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

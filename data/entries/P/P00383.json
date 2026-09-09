@@ -1,0 +1,22 @@
+{
+	"id": "P00383",
+	"slug": "עותקא",
+	"headword": {
+		"text": "עוּתִקָא"
+	},
+	"page": {
+		"number": 1060,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00382\">preced.</cite>) <i>old age</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 91b\">B. Bath. 91ᵇ</cite> <he>לכל מילי ע׳ מעלי וכ׳</he> Ms. H. (Ms. M. <he>לכל מילי מעלי עתיקא</he>; ed. <he>כל מילי עתיקא מעליא</he>) for all things age is an advantage, except &c."
+			]
+		}
+	]
+}

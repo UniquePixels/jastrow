@@ -1,0 +1,23 @@
+{
+	"id": "O00808",
+	"slug": "סיפתקא",
+	"headword": {
+		"text": "סִיפְתְּקָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 985,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. <i>sefta, seftakh</i>, Fl. to Levy Talm. Dict. III, p. 726<sup>1</sup>) <i>strong, very sour</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 96a:8\">B. Bath. 96ᵃ</cite> (Ms. M. <he>סוּפְ׳</he>)."
+			]
+		}
+	]
+}

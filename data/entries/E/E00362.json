@@ -1,0 +1,32 @@
+{
+	"id": "E00362",
+	"slug": "הייא-2",
+	"headword": {
+		"text": "הַיָיא"
+	},
+	"page": {
+		"number": 344,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " adv. (= <he>חייא</he>, cmp. <he>חָיוֹת</he>, <cite ref=\"Exodus 1:19\">Ex. I, 19</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>quickly, rapidly</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 84a:14\">B. Kam. 84ᵃ</cite>; <cite ref=\"Shabbat 134b:8\">Sabb. 134ᵇ</cite> <he>סליק בישרא ה׳</he> (Ms. M. <cite ref=\"E00362\"><he>הַיָא</he></cite>, v. Rabb. D. S. a. l. note) the flesh grows fast (the wound heals quickly). ",
+				"<cite ref=\"Shabbat 119a:9\">Ib. 119ᵃ</cite> bot. <he>דליקומי ה׳</he> that they may soon rise."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (an exclamation of encouragement) <i>quick! go on!</i> <cite ref=\"Gittin 34a:9\">Gitt. 34ᵃ</cite>, a. e., v. <cite ref=\"A03274\"><he>אֲשׁוּר</he></cite>.—",
+			"units": [
+				"<cite ref=\"Pesachim 112b:8\">Pes. 112ᵇ</cite> (sailors’ cry) <he>ה׳ ה׳</he> Ms. M. (ed. <he>הילני ה׳ הילא והילוק הוליא</he>, v. Rabb. D. S. a. l. note; Mus. in Ar. ed. Koh.: <he>הליוני ה׳ הילא הילוף</he>). [<cite ref=\"Jerusalem Talmud Peah 1:1:33\">Y. Peah I, 15ᵈ</cite> <he>ה׳ דהרין סבא</he> ed. Amst., ed. Krot. <cite ref=\"H00683\"><he>חיוי</he></cite>, <cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:7\">Y. Ab. Zar. III, 42ᶜ</cite> top <he>חייא</he>, read <cite ref=\"H00718\"><he>חַיֵּי</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

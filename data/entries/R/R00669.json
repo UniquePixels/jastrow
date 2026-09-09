@@ -1,0 +1,29 @@
+{
+	"id": "R00669",
+	"slug": "צפד",
+	"headword": {
+		"text": "צָפַד"
+	},
+	"page": {
+		"number": 1295,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"R00705\"><he>צָפַף</he></cite>)<i>to be pressed; to cleave</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 37\">Pesik. R. s. 37</cite>, beg. <he>וצ׳ עורך על עצמך וכ׳</he> thy skin was cleaving to thy bones, and thy body was as dry &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to press, contract</i>. Y. Yeb. XVI, 15ᵈ top [read:] <he>והכירוהו שצְפַדְתּוֹ הצינה</he> (Var. <he>שצרפתו</he>) they identified the drowned man, for the cold had contracted him (preserved his features). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 2:7:5\">Y. Pes. II, end, 29ᶜ</cite> <he>החומץ צוֹפְדָן</he> vinegar contracts them (Bab. ",
+				"<cite ref=\"Pesachim 40a:5\">ib. 40ᵃ</cite> <he>צומתן</he>), v. <cite ref=\"R00601\"><he>צָמַת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 10:1:2\">Y. Ter. X, beg. 47ᵃ</cite> <he>עדשים צוֹפְדוֹת אותו שלא יבלע</he> the thick mass of lentils presses it (the onion) so that it cannot absorb (the taste of the lentil water); <he>שלא יתן</he> so that it cannot communicate its taste; ib. IX, beg. 46ᶜ <he>צופרות</he> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

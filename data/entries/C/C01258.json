@@ -1,0 +1,26 @@
+{
+	"id": "C01258",
+	"slug": "גרגרא",
+	"headword": {
+		"text": "גַּרְגְּרָא"
+	},
+	"page": {
+		"number": 265,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01257\">same</cite><i>berry</i>.—Pl. <cite ref=\"C01261\"><he>גַּרְגְּרִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 17:6\">Targ. Is. XVII, 6</cite>.—",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:14\">Targ. Y. I Deut. XXXII, 14</cite> <he>גַּרְגִּירֵי חיטיהון</he> their wheat grains.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>rocket</i>, v. <cite ref=\"C01250\"><he>גַּרְגִּירָא</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

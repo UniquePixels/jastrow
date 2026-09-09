@@ -1,0 +1,37 @@
+{
+	"id": "I00025",
+	"slug": "טבאות",
+	"headword": {
+		"text": "טָבָאוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַבָּאוּת"
+		},
+		{
+			"text": "טַבְוָואוּת"
+		},
+		{
+			"text": "טָבוּת"
+		}
+	],
+	"page": {
+		"number": 516,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"I00018\"><he>טַב</he></cite> a. <cite ref=\"I00030\"><he>טַבְוָא</he></cite>) (<i>in a</i>) <i>good manner, well, properly</i> (h. . ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 9:21\">Targ. Y. Deut. IX, 21</cite>; a. e.—Y. Ber. V, 9ᶜ top <he>לא עבדין ט׳</he> do not do right. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:1:7\">Cant. R. to I, 1</cite> <he>מאן דקרי ט׳ וכ׳</he> I will go to whosoever explains the Bible well etc.—",
+				"<cite ref=\"Jerusalem Talmud Shevuot 7:7:6\">Y. Shebu. VII, 38ᵃ</cite> bot. <he>אין אתא הא ט׳</he> if he appears, it is well. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 4:1:4\">Y. Shek. IV, 48ᵃ</cite> top <he>וטבות כן</he> Bab. ed. (Y. ed. <he>וטבא</he>) and so it is right. Y. Maas. Sh. I, 52ᵈ top <he>וטבבו כן</he> (corr. acc.)—Hebr. form: <he>טָּבִית</he>. ",
+				"<cite ref=\"Meilah 17a\">Meïl. 17ᵃ</cite> <he>ט׳ אמר</he> he spoke well (he is right)."
+			]
+		}
+	]
+}

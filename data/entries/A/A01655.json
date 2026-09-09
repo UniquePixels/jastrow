@@ -1,0 +1,46 @@
+{
+	"id": "A01655",
+	"slug": "איתן",
+	"headword": {
+		"text": "אֵיתָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵתָן"
+		}
+	],
+	"page": {
+		"number": 62,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>אית</he>; cmp. <cite ref=\"A01639\"><he>אִית</he></cite>, <cite ref=\"P00374\"><he>עוּת</he></cite>, <cite ref=\"A01619\"><he>אִישׁוֹן</he></cite>, <cite ref=\"A03332\"><he>אֲשַׁן</he></cite>)<i>essence, permanent</i> or <i>normal condition</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 48b:18\">Nidd. 48ᵇ</cite> <he>חזר לאֵיתָנוֹ</he> obtained again its normal condition. ",
+				"<cite ref=\"Sotah 36b:14\">Sot. 36ᵇ</cite> <he>שבה קשתו לא׳</he> his membrum resumed its normal condition. (Cmp. ",
+				"<cite ref=\"Exodus 14:27\">Ex. XIV, 27</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " adj. <i>essential, strong</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 11a:8\">R. Hash. 11ᵃ</cite> <he>א׳ לישנא דתקיפי</he> <i>ethan</i> means <i>strong.—</i> Pl. <he>אֵיתָנִים</he>. ",
+				"<cite ref=\"Rosh Hashanah 11a:7\">Ib.</cite> <he>אֵיתָנֵי עולם</he> the mighty of the world (patriarchs). ",
+				"<cite ref=\"Bereishit Rabbah 98:20\">Gen. R. s. 98</cite> (play on <i>ăthono</i> <cite ref=\"Genesis 49:11\">Gen. XLIX, 11</cite>) <he>בנים אֵתָנִים וכ׳</he> mighty sons (heroes) are destined to descend from him."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " pr. n. river <i>Ethan</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 18a:15\">Succ. 18ᵃ</cite> (Ms. M. <he>נתן</he>); a. e."
+			],
+			"label": "3"
+		}
+	]
+}

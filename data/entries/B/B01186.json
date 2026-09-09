@@ -1,0 +1,43 @@
+{
+	"id": "B01186",
+	"slug": "ברדליס",
+	"headword": {
+		"text": "בַּרְדְּלִיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּרְדְּלֵס"
+		}
+	],
+	"page": {
+		"number": 190,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (πάρδαλις, pardalis; πάρδος, pardus; prob. of Semit. orig.; cmp. b. h. <he>בְּרֻדִּים</he>) <i>a spotted beast</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": " (v. Sm. Ant. s. vv.) <i>leopard</i> or <i>hyena</i>, usu. in connection with <cite ref=\"N00889\"><he>נָמֵר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 1:4\">Snh. I, 4</cite>. ",
+				"<cite ref=\"Mishnah Bava Kamma 1:4\">B. Kam. I, 4</cite> (expl. ",
+				"<cite ref=\"Bava Kamma 16a:19\">ib. 16ᵃ</cite> <cite ref=\"A02600\"><he>אָפָא</he></cite> q. v.). ",
+				"<cite ref=\"Bekhorot 8a\">Bekh. 8ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Bava Metzia 7:9\">B. Mets. VII, 9</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (prob.) <i>marten</i>, or <i>mariput</i> (Rashi: <i>putois</i>); usu. in connection with <cite ref=\"H00330\"><he>חוּלְדָּה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Pesachim 9b\">Pes. 9ᵇ</cite>; <cite ref=\"Niddah 15b\">Nidd. 15ᵇ</cite>; <cite ref=\"Avodah Zarah 42a\">Ab. Zar. 42ᵃ</cite>; <cite ref=\"Tosefta Ohalot 16:13\">Tosef. Ohol. XVI, 13</cite> ed. Zuck. <cite ref=\"B01184\"><he>ברדלה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

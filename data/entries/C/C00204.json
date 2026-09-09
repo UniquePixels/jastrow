@@ -1,0 +1,31 @@
+{
+	"id": "C00204",
+	"slug": "גדיל-2",
+	"headword": {
+		"text": "גָּדִיל"
+	},
+	"page": {
+		"number": 212,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>גדל</he> II) pl. <cite ref=\"C00199\"><he>גְּדִילִים</he></cite>, <he>גְּדִילִין</he> <i>twisted threads, fringes</i>, v. <cite ref=\"R00440\"><he>צִיצִית</he></cite>. ",
+			"units": [
+				"<cite ref=\"Menachot 39b:3\">Men. 39ᵇ</cite>; <cite ref=\"Yevamot 5b:2\">Yeb. 5ᵇ</cite> <he>גדיל שנים ג׳ ארבעה</he> <i>gadil</i> (a twist) means at least two threads, <i>g’dilim</i> means four threads (which doubled make eight). ",
+				"<cite ref=\"Sifrei Bamidbar 115:1\">Sifré Num. 115</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>twist, table-cloth</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 57b:9\">B. Bath. 57ᵇ</cite> <he>שני שלישי ג׳</he> … <he>גלוי וכ׳</he> Ar. a. Ms. O. (ed. <he>גלאי</he>) two thirds of the width of the table covered and one third uncovered for putting on dishes and vegetables."
+			],
+			"label": "2"
+		}
+	]
+}

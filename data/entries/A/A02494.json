@@ -1,0 +1,23 @@
+{
+	"id": "A02494",
+	"slug": "אספירס",
+	"headword": {
+		"text": "אִסְפֶּירֶס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 95,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Ispe. noun of <he>פרס</he>, cmp. <cite ref=\"Q01919\"><he>פַּרְסָה</he></cite>) <i>the front part of the foot</i> (where it is split). ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 4:20\">Num. R. s. 4</cite> <he>הופך א׳ וכ׳</he> he turned the front of his foot (put his foot on tip-toe) and danced."
+			]
+		}
+	]
+}

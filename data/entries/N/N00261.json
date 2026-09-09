@@ -1,0 +1,26 @@
+{
+	"id": "N00261",
+	"slug": "נהי-3",
+	"headword": {
+		"text": "נְהֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְהִי",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 881,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>נהוי</he>; v. <cite ref=\"E00231\"><he>הֲוֵי</he></cite>) <i>let it be, granted, admitted</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 64a:13\">Yoma 64ᵃ</cite> <he>נ׳ נמי ד־</he> even if I admit that. ",
+				"<cite ref=\"Bava Kamma 76a:10\">B. Kam. 76ᵃ</cite> <he>נ׳ דסבר וכ׳</he> granted that R. S. holds &c.; a. fr."
+			]
+		}
+	]
+}

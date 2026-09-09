@@ -1,0 +1,111 @@
+{
+	"id": "J00368",
+	"slug": "ילד-2",
+	"headword": {
+		"text": "יְלֵד"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְלֵיד"
+		},
+		{
+			"text": "יְלִיד"
+		}
+	],
+	"page": {
+		"number": 578,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"J00367\">same</cite>, <i>to bear; to beget</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 4:1\">Targ. Gen. IV, 1</cite>. ",
+				"<cite ref=\"Onkelos Genesis 4:2\">Ib. 2</cite> <he>למֵילַד</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 31:7\">Targ. Jer. XXXI, 7</cite> <he>יָלְדָן</he> women giving birth (h. text <cite ref=\"J00188\"><he>יֹלֶדֶת</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 23:22\">Targ. Prov. XXIII, 22</cite> <he>יַלְדָּךְ</he> who begot thee. ",
+				"<cite ref=\"Onkelos Genesis 17:19\">Targ. Gen. XVII, 19</cite> <he>תְּלִיד</he>; usu. <he>תֵּילַד</he>, <he>תֵּלַד</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 22:32\">Targ. Ps. XXII, 32</cite> <he>למֵילַד</he> to create; a. v. fr.—",
+				"<cite ref=\"Bava Batra 91a:12\">B. Bath. 91ᵃ</cite> (prov.) <he>בחייך דיַלְדַּת שיתין למה לך דיַלְדַּת</he> Ms. M. (v. Rabb. D. S. a. l. note) by thy life, the sixty (weaklings) thou begottest, what didst thou beget them for? <he>איכפיל ואוֹלִיד וכ׳</he> (v. infra) marry again and beget one as strong as sixty; <cite ref=\"Yalkut Shimoni on Nach 66\">Yalk. Jud. 66</cite>. ",
+				"<cite ref=\"Makkot 17b:2\">Macc. 17ᵇ</cite> <he>דִּילִידָא אימיה כר״ש תֵּילוֹד</he> whose mother soever is with child may she bear a son like R. S.; Yalk. Deut. <he>כל דיַלְדָּה אימה כר״ש תְּלִיד</he>; a. v. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אוֹלֵיד"],
+			"senses": [
+				{
+					"gloss": "<i>to beget, produce</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 4:18\">Targ. Gen. IV, 18</cite>; a. fr.—",
+						"<cite ref=\"Yevamot 76a:13\">Yeb. 76ᵃ</cite> <he>בר אוֹלוּדֵי</he> capable of begetting; <cite ref=\"Yevamot 76a\">ib.</cite> <he>בני אולודי</he>. ",
+						"<cite ref=\"Eruvin 104a\">Erub. 104ᵃ</cite> is it not because <he>דקמוֹלִיד קלא וכל אולודי וכ׳</he> he produces a sound, and every production of sound is forbidden (on the Sabbath)?; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " as <cite ref=\"J00367\">preced.</cite> <i>Pi.</i> ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 1:16\">Targ. Ex. I, 16</cite>.—",
+						"<cite ref=\"Sotah 11b:19\">Sot. 11ᵇ</cite> <he>לאוֹלוּדָהּ</he> to deliver her."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["יַלֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to act as midwife</i>. Y. Keth. V, 30ᵃ bot. [read:] <he>דמְיַלְּדָא</he>, v. <cite ref=\"H00940\"><he>חֲכַם</he></cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to give birth</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 144:13\">Targ. Ps. CXLIV, 13</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְיַלַּד"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְיְלִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to be born, to grow, to come forth</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 78:6\">Targ. Ps. LXXVIII, 6</cite>. ",
+						"<cite ref=\"Onkelos Genesis 4:26\">Targ. Gen. IV, 26</cite>; a. fr.—",
+						"<cite ref=\"Shabbat 136a\">Sabb. 136ᵃ</cite> <he>א׳ ליה וכ׳</he> a child was born to him. ",
+						"<cite ref=\"Beitzah 2b:9\">Bets. 2ᵇ</cite> <he>כל ביצה דמִתְיַילְּדָא האידנא וכ׳</he> (some ed. <he>דמִתְיְילִידָא</he>) an egg laid to-day was fully developed yesterday. ",
+						"<cite ref=\"Beitzah 2b:12\">Ib.</cite> <he>הנך דמִתְיְלִידָן וכ׳</he> those laid on the same day. ",
+						"<cite ref=\"Chullin 9a:10\">Ḥull. 9ᵃ</cite> <he>אִתְיְלִידָא בה ריעותא</he> (not <cite ref=\"J00368\"><he>אתיליד</he></cite>) an accident occurred to it which made the case suspicious. ",
+						"<cite ref=\"Nedarim 30b:11\">Ned. 30ᵇ</cite> (ref. to <he>נולדים</he>, Mish. ",
+						"<cite ref=\"Mishnah Nedarim 3:9\">ib. III, 9</cite>, v. <cite ref=\"J00367\">preced.</cite>) <he>למימרא … דמִתְיַילְּדָן משמע</he> does this mean to say that <i>noladim</i> means ‘things which will be forthcoming’?; <he>אלא מעתה … ה״נ דמִתְיַילְּדִין הוא</he> (v. marginal note) if this be so, does <i>hannoladim</i> in <cite ref=\"Genesis 48:5\">Gen. XLVIII, 5</cite> also mean ‘those to be born’? <he>ואלא מאי דִיְּילִידוּ משמע</he> (= <he>דְּאִיְּילִידוּ</he> <i>Ithpe.</i> contr.) but what else? Does it (always) mean ‘those that have been born’?"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to multiply, grow populous</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 1:7\">Targ. O. Ex. I, 7</cite> <he>אִתְיַלָּדוּ</he> ed. Berl. (Y. <cite ref=\"J00368\"><he>אִתְיְלִי׳</he></cite>). ",
+						"<cite ref=\"Onkelos Genesis 8:17\">Targ. Gen. VIII, 17</cite>. ",
+						"<cite ref=\"Onkelos Genesis 9:7\">Ib. IX, 7</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "H00549",
+	"slug": "חזם-1",
+	"headword": {
+		"text": "חָזַם"
+	},
+	"page": {
+		"number": 444,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H00560\"><he>הֶחֱזִים</he></cite> (cmp. <cite ref=\"C00568\"><he>גָּזַם</he></cite>) <i>to cut, trim, thin</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Demai 3:2\">Dem. III, 2</cite> <he>הרוצה לַחֲזוֹם וכ׳</he> he who desires to trim leaves of vegetables for the sake of lightening the burden; Tosef. b. IV, 2 <he>להַחֲזִים</he> Var. ed. Zuck. (ed. <he>להחזיר</he>, corr. acc.)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

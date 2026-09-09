@@ -1,0 +1,47 @@
+{
+	"id": "R00575",
+	"slug": "צמיד-1",
+	"headword": {
+		"text": "צָמִיד"
+	},
+	"page": {
+		"number": 1288,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"R00558\"><he>צָמַד</he></cite>) [<i>closely joined</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>exactly fitting lid</i>. <he>צ׳ פתיל</he>, v. <cite ref=\"Q02165\"><he>פָּתִיל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 64a:11\">Snh. 64ᵃ</cite> (ref. to <he>הנצמדים</he>, <cite ref=\"Numbers 25:5\">Num. XXV, 5</cite>, in contrast to <he>הדבקים</he>, <cite ref=\"Deuteronomy 4:4\">Deut. IV, 4</cite>) <he>הנצמדים … כצ׳ פ׳</he> who were attached to Baal Peor like an air-tight lid, whereas they were ‘attached to the Lord’ merely as two dates sticking to each other; <cite ref=\"Yalkut Shimoni on Torah 771\">Yalk. Num. 771</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>joined, yoked</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 20:23\">Num. R. s. 20</cite> (ref. to <he>ויצמד</he>, <cite ref=\"Numbers 25:3\">Num. XXV, 3</cite>) <he>כאדם צ׳ במלאכתו</he> like a man yoked (inseparably attached) to his work."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>wrist-band, bracelet</i>. Snh. l. c. <he>הנצמדים … כצ׳ על ידי אשה וכ׳</he> ‘who were attached to Baal Peor’, means merely as a bracelet on the hands of a woman, whereas &c., v. <cite ref=\"D00072\"><he>דָּבַק</he></cite>; a. e.—Pl. <he>צְמִידִים</he>. Num. R. l. c. <he>כצ׳ על ידיה</he> like ‘the bracelets on her hands’ (<cite ref=\"Genesis 24:22\">Gen. XXIV, 22</cite>). ",
+			"units": [
+				"<cite ref=\"Genesis 24:22\">Ib.</cite> <he>זו גזירה קשה … ויצמד בצ׳</he> this was a greater calamity than that of the golden calf, for there it is said (<cite ref=\"Exodus 32:2\">Ex. XXXII, 2</cite>), ‘take off the golden rings’, but here, ‘and Israel was tied’ (Num. l. c.) with wristbands. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 109:2\">Yalk. Gen. 109</cite>; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>couple</i>.—Pl. as ab. Num. R. l. c. (ref. to <he>ויצמד</he>, v. supra) <he>בתחלה … צ׳ צ׳ זוגות וכ׳</he> at first they went (into the house of prostitution) secretly, but then they went in jointly, pair-wise, as we speak of <he>צֶמֶד בָּקָר</he> (a pair of oxen); Tanḥ. Bal. 18.",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

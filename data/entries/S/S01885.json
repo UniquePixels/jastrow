@@ -1,0 +1,40 @@
+{
+	"id": "S01885",
+	"slug": "קרב-3",
+	"headword": {
+		"text": "קֶרֶב"
+	},
+	"page": {
+		"number": 1410,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S01884\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>inside, intestine</i>.—<i>Du.</i> <he>קְרָבַיִם</he>, <he>קְרָבַיִים</he>; constr. <he>קִרְבֵּי</he>, <cite ref=\"S00597\"><he>קִירְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 7:2\">Num. R. s. 7</cite> (ref. to <cite ref=\"Numbers 14:11\">Num. XIV, 11</cite> <he>בקרבו</he>) <he>אטר אעשה עמו … בקרבו כמה … עשיתי בקִרְבֵּיהֶן וכ׳</he> it does not read, ‘which I do with them’, but ‘which I do within them’:… how many signs and wonders have I done in their intestines (that the manna was entirely resorbed in their bowels) &c. (with ref. to <cite ref=\"S01885\"><he>קֶרֶב</he></cite> <cite ref=\"Leviticus 8:21\">Lev. VIII, 21</cite>). ",
+				"<cite ref=\"Mishnah Tamid 4:2\">Tam. IV, 2</cite>. ",
+				"<cite ref=\"Chullin 16b:11\">Ḥull. 16ᵇ</cite> <he>קירבי דגים</he> entrails of fish. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:2:3\">Y. Sabb. II, 4ᵈ</cite> <he>ק׳ דגים כל זמן וכ׳</he> the fat of fish entrails (used as oil) has no bad odor as long as it burns. ",
+				"<cite ref=\"Bava Metzia 60b\">B. Mets. 60ᵇ</cite>, v. <cite ref=\"N01025\"><he>נָפַח</he></cite>; a. fr.—",
+				"<cite ref=\"Nedarim 54b:3\">Ned. 54ᵇ</cite> <he>ק׳ לאו בשר וכ׳</he> entrails are no meat and he who eats them is no man; Y. ib. VII, beg. 40ᵇ <cite ref=\"S01895\"><he>קרבייא</he></cite> (ch. form). ",
+				"<cite ref=\"Berakhot 10a:13\">Ber. 10ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>innermost</i>; <he>בְּקֶרֶב</he> <i>within</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 13:1\">Pesik. R. s. 13</cite> <he>בְּקִרְבַּנוּ</he>, v. <cite ref=\"T00540\"><he>רָחַשׁ</he></cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

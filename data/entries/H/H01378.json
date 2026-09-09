@@ -1,0 +1,27 @@
+{
+	"id": "H01378",
+	"slug": "חסילא",
+	"headword": {
+		"text": "חָסִילָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲ׳"
+		}
+	],
+	"page": {
+		"number": 487,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01396\"><he>חֲסַל</he></cite>) <i>weaned child, infant</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 11:8\">Targ. Is. XI, 8</cite> (h. text <cite ref=\"C01008\"><he>גָּמוּל</he></cite>); a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "J00152",
+	"slug": "יובל",
+	"headword": {
+		"text": "יוֹבֵל"
+	},
+	"page": {
+		"number": 567,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"J00048\"><he>יָבַל</he></cite>) (cmp. <cite ref=\"B01232\"><he>בַּרְחָא</he></cite>, <cite ref=\"N00135\"><he>נָגוֹדָא</he></cite>) <i>leader, bellwether, ram</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:32\">Y. Ber. IX, 13ᶜ</cite> top (ref. to <he>קרן יובל</he>, <cite ref=\"Joshua 6:5\">Josh. VI, 5</cite>) <he>בערביא … יובלא</he> in Arabia they call a ram <i>yubla;</i> <cite ref=\"Rosh Hashanah 26a:17\">R. Hash. 26ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (ellipt. for <he>קֶרֶן הַיּ׳</he>) <i>ram’s horn</i>. Mekh. Yithro, Baḥod., s. 3 (ref. to <cite ref=\"Exodus 19:14\">Ex. XIX, 14</cite>) <he>בשימשוך הי׳ את קולו</he> when the horn prolongs its sound; <cite ref=\"Yalkut Shimoni on Torah 281\">Yalk. Ex. 281</cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " c. (ellipt. for <he>שְׁנַת הַיּ׳</he>) <i>Jubilee, Yobel-year, the fiftieth year, the year following the succession of seven Sabbatical years</i> (<cite ref=\"Leviticus 25:8-16\">Lev. XXV, 8—16</cite>; <cite ref=\"Leviticus 25:23-24\">23—24</cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 3:5\">R. Hash. III, 5</cite> <he>שוה הי׳ לר״ה</he> the proclamation of the Jubilee resembles that of the New Year as to blowing &c.—",
+				"<cite ref=\"Arakhin 12b:12\">Arakh. 12ᵇ</cite> <he>בתחלת הי׳</he> at the beginning of the Jubilee cycle; a. fr.—Pl. <he>יוֹבְלוֹת</he>. R. Hash. l. c. Arakh. l. c. <he>י״ז י׳ מנו וכ׳</he> the Israelites counted seventeen jubilee cycles from their entrance into the Holy Land to their leaving it."
+			],
+			"label": "3"
+		}
+	]
+}

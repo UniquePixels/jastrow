@@ -1,0 +1,24 @@
+{
+	"id": "E00831",
+	"slug": "הרדפה",
+	"headword": {
+		"text": "הַרְדָּפָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 366,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>הדף</he>, with <cite ref=\"T00000\"><he>ר</he></cite> inserted; cmp. <cite ref=\"E00488\"><he>הִירְדּוּף</he></cite> [<i>removal, isolation</i>,] <i>imprisonment within a narrow enclosure of reeds or poles</i>, a punishment for contempt of court (v. <cite ref=\"N00624\"><he>נִידּוּי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Moed Katan 16a:11\">M. Kat. 16ᵃ</cite> (explain. <he>לִשְׁרוֹשִׁי</he>, <cite ref=\"Ezra 7:26\">Ezra VII, 26</cite>). ",
+				"<cite ref=\"Ezra 7:26\">Ib.</cite> (a version of the Gaonim quoted by Asheri a. l., Nr. 53) <he>מאי ה׳ א״ר פפא נצבי דקני</he> what is <i>hardafah?</i> Said R. P., Poles of reeds (fastened in the ground). [In ed. a. Mss. the answer to <he>מאי ה׳</he> is absent.] [Ar. ed. Koh. <cite ref=\"E00827\"><he>הִרְדּוֹפָה</he></cite>.]"
+			]
+		}
+	]
+}

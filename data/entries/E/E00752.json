@@ -1,0 +1,28 @@
+{
+	"id": "E00752",
+	"slug": "הפסד",
+	"headword": {
+		"text": "הֶפְסֵד"
+	},
+	"page": {
+		"number": 362,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פסד</he>) <i>decrease, loss; injury; disadvantage; waste</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 15b:6\">Pes. 15ᵇ</cite> <he>ה׳ חולין</he> an unnecessary destruction of &c.—",
+				"<cite ref=\"Pesachim 15b:6\">Ib.</cite>, a. fr. <he>ה׳ מרובה</he> a considerable loss, opp. <he>ה׳ מועט</he>. ",
+				"<cite ref=\"Pirkei Avot 2:1\">Ab. II, 1</cite> <he>ה׳ מצוה</he> the loss (inconvenience, sacrifice) connected with the performance of a good deed. ",
+				"<cite ref=\"Pirkei Avot 5:11\">Ib. V, 11</cite>, sq. <he>וצא שכרו בהֶפְסֵדוֹ</he> his advantage is set off by his disadvantage. ",
+				"<cite ref=\"Vayikra Rabbah 34:11\">Lev. R. s. 34</cite> <he>הֶפְסֵדָהּ</he> the disadvantage of (punishment for) neglecting it, opp. <he>שכרה</he> reward for observing it. ",
+				"<cite ref=\"Bava Kamma 115b:15\">B. Kam. 115ᵇ</cite> <he>מפני ה׳ כהן</he> because it is an injury to the priest (entitled to it). ",
+				"<cite ref=\"Shabbat 147b:15\">Sabb. 147ᵇ</cite> <he>ה׳ אוכלין</he> a waste of eatables; a. fr."
+			]
+		}
+	]
+}

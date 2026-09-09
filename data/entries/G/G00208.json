@@ -1,0 +1,21 @@
+{
+	"id": "G00208",
+	"slug": "זוניתא-2",
+	"headword": {
+		"text": "זוֹנִיתָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 388,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"G00198\"><he>זוֹנָה</he></cite> , <i>harlot</i>. ",
+			"units": ["<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite>."]
+		}
+	]
+}

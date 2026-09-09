@@ -1,0 +1,41 @@
+{
+	"id": "Q01312",
+	"slug": "פסיקא-1",
+	"headword": {
+		"text": "פְּסִיקָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1196,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01351\"><he>פְּסַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>part, fraction</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 62b:12\">B. Bath. 62ᵇ</cite>, sq., contrad. to <he>פלגא</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>subscription for charity, collection</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 32:7\">Lev. R. s. 32</cite>, end <he>ואנן עבדין לך פ׳ בציבורא</he> and we shall arrange a collection for you in the assembly; <he>עבדון ליה פ׳</he> they made up a purse for him. ",
+				"<cite ref=\"Vayikra Rabbah 5:4\">Lev. R. s. 5</cite> <he>עביד פְּסִיקָה למתן וכ׳</he> (not <he>למיתן</he>) arranged a subscription for a charity in the college of Tiberias."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " = <cite ref=\"Q01250\"><he>פְּסוּקָא</he></cite>, <i>verse</i>.—Pl. <cite ref=\"Q01314\"><he>פְּסִיקָן</he></cite>, v. <cite ref=\"Q01250\"><he>פְּסוּקָא</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

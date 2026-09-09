@@ -1,0 +1,34 @@
+{
+	"id": "R00486",
+	"slug": "צלהב-2",
+	"headword": {
+		"text": "צַלְהֵב"
+	},
+	"page": {
+		"number": 1282,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Palel of <he>צהב</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to redden.—Part. pass</i>. <he>מְצַלְהַב</he> <i>burnished, red</i> or <i>yellow</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 1:7\">Targ. Ez. I, 7</cite> (h. text <he>קלל</he>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 13:30\">Targ. Y. Lev. XIII, 30</cite>; <cite ref=\"Targum Jonathan on Leviticus 13:32\">32</cite> (h. text <he>צהב</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to glow, heat, consume</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 50:3\">Targ. Ps. L, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 73:9\">Ib. LXXIII, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 19:18\">Targ. Y. Ex. XIX, 18</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

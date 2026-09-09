@@ -1,0 +1,23 @@
+{
+	"id": "P01125",
+	"slug": "עצלות",
+	"headword": {
+		"text": "עַצְלוּת"
+	},
+	"page": {
+		"number": 1102,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"P01124\">preced.</cite>) <i>laziness, indolence</i>. Yalk. Num. 720; <cite ref=\"Pesachim 66a:6\">Pes. 66ᵃ</cite> <he>מי גרם … ע׳ שהיתה בכם וכ׳</he> what is the cause that I had to come from Babylonia and be appointed your chief? Your indolence, which prevented you from waiting upon the two greatest men of the generation. ",
+			"units": [
+				"<cite ref=\"Pesachim 117a:13\">Ib. 117ᵃ</cite>; <cite ref=\"Berakhot 31a:11\">Ber. 31ᵃ</cite>, v. <cite ref=\"P01099\"><he>עֲצֵבוּת</he></cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Kilayim 8:3:2\">Y. Kil. VIII, 31ᶜ</cite> (of an animal tied by the side of a harnessed animal) <he>זה נושא עַצְלוּתוֹ של זה וכ׳</he> this one carries the sluggishness of the other, i.e. when one is sluggish, the other has to carry the heavier load."
+			]
+		}
+	]
+}

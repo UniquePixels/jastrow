@@ -1,0 +1,26 @@
+{
+	"id": "A00859",
+	"slug": "אורה-1",
+	"headword": {
+		"text": "אוֹרָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 33,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h. = <cite ref=\"A00841\"><he>אוֹר</he></cite>) <i>light, sun</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 2:2:16\">Y. Pes. II, 29ᵃ</cite> <he>מאיר כא׳</he> clear as the sun. ",
+				"<cite ref=\"Zevachim 19b\">Zeb. 19ᵇ</cite>, a. e. <he>לא׳</he> <i>at daybreak</i>. ",
+				"<cite ref=\"Bereishit Rabbah 3:8\">Gen. R. s. 3</cite> beg.; a. fr.—Chald. Adv. <cite ref=\"L00539\"><he>לִכְאוֹרָה</he></cite> <i>at first sight, apparently</i>. ",
+				"<cite ref=\"Ketubot 54a:19\">Keth. 54ᵃ</cite> <he>לכא׳ כשמואל רהיטא</he> apparently it would run (agree) with Samuel, <he>כי מעיינת וכ׳</he> but when you consider &c."
+			]
+		}
+	]
+}

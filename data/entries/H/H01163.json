@@ -1,0 +1,39 @@
+{
+	"id": "H01163",
+	"slug": "חמור-1",
+	"headword": {
+		"text": "חֲמוֹר"
+	},
+	"page": {
+		"number": 476,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (b. h.; v. <cite ref=\"H01220\"><he>חָמַר</he> II</cite> a. ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>load-carrier</i>, cmp. <cite ref=\"C01039\"><he>גָּמָל</he></cite>.] <i>ass</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 31a:77\">Nidd. 31ᵃ</cite>, v. <cite ref=\"C01349\"><he>גָּרַם</he></cite>. ",
+				"<cite ref=\"Shabbat 152a:6\">Sabb. 152ᵃ</cite> <he>דעל ח׳ וכ׳</he> he who rides an ass is a freeman. ",
+				"<cite ref=\"Bava Batra 143a:8\">B. Bath. 143ᵃ</cite> <he>את וח׳</he> thou and the ass (shall own my property, a form of donation implying a rational and an irrational being).—",
+				"<cite ref=\"Mishnah Bekhorot 1:2\">Bekh. I, 2</cite> <he>ח׳ שילדה וכ׳</he> if an ass gave birth to &c. ",
+				"<cite ref=\"Sanhedrin 33a:9\">Snh. 33ᵃ</cite> <he>הלכה חֲמוֹרְךָ וכ׳</he> thy ass is gone, Tarfon! (I shall have to make compensation for erroneous judgment); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. various uses of <i>horse</i>) <i>a contrivance for working-men, rest, jack, stocks</i> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 14:3\">Kel. XIV, 3</cite> <he>ח׳ של נפחין</he> the smiths’ ass (‘on which the smith sits while using its head as an anvil’, Maim.; ‘the rest of the bellows’, R. S.). Ib. XVIII, 3 <he>וח׳</he> a stand on which the bedstead is placed. ",
+				"<cite ref=\"Bereishit Rabbah 65:22\">Gen. R. s. 65</cite>, end <he>ח׳ של חרשים</he> carpenters’ sawing-jack (an instrument for torture); <cite ref=\"Bereishit Rabbah 70:17\">Gen. R. s. 70</cite> (alluding to <cite ref=\"Proverbs 27:22\">Prov. XXVII, 22</cite>) <he>אפי׳ … בח׳ של חרשים וכ׳</he> even if you put the wicked man on a carpenter’s jack, you cannot make anything useful out of him (sufferings will have no effect on him); <cite ref=\"Yalkut Shimoni on Nach 201\">Yalk. Kings 201</cite>; <cite ref=\"Yalkut Shimoni on Nach 961\">Yalk. Prov. 961</cite>; (Pesik. Shek., p. 15ᵃ <he>במכתש</he>).—Pl. <he>חֲמוֹרִים</he>. ",
+				"<cite ref=\"Shabbat 112b:8\">Sabb. 112ᵇ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 75:6\">Gen. R. s. 75</cite>; a. fr.—Denom. <cite ref=\"H01226\"><he>חַמָּר</he></cite>, <cite ref=\"H01218\"><he>חִמִּר</he></cite>.—<i>Fem.</i> <cite ref=\"H01165\"><he>חֲמוֹרָה</he></cite>. ",
+				"<cite ref=\"Tosefta Kilaim 5:5\">Tosef. Kil. V, 5</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "J00145",
+	"slug": "יהר-3",
+	"headword": {
+		"text": "יְהַר"
+	},
+	"page": {
+		"number": 567,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אִיָּהֵר</he>, <i>Ithpe.</i> <he>אִיהַר</he> same. ",
+					"units": [
+						"<cite ref=\"Sotah 47b:20\">Sot. 47ᵇ</cite> <he>האי מאן דמֵיהַר וכ׳</he> an overbearing man is unpopular even with his own household; <cite ref=\"Bava Batra 98a:6\">B. Bath. 98ᵃ</cite>; Yalk. Hab. 562 <he>דיָהִיר</he>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "A01385",
+	"slug": "אינייני",
+	"headword": {
+		"text": "אִינְיָינִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִנְיָנִי"
+		},
+		{
+			"text": "אִינִינְיָיא"
+		}
+	],
+	"page": {
+		"number": 52,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Inyani</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 3:5:4\">Y. Yoma III, 40ᶜ</cite>; a. e. Y. [<cite ref=\"Mishnah Maaser Sheni 4\">Maas. Sh. IV</cite>, 55ᵃ bot. <cite ref=\"A01384\"><he>אינייא</he></cite>, seems to be a different person, v. <cite ref=\"A01384\">preced. w.</cite> a. Frankel M’bo p. 64ᵇ.] V. <cite ref=\"A01378\"><he>אינוניתא</he></cite>."
+			]
+		}
+	]
+}

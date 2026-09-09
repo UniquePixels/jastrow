@@ -1,0 +1,22 @@
+{
+	"id": "O01400",
+	"slug": "ספסר-1",
+	"headword": {
+		"text": "סַפְסָר"
+	},
+	"page": {
+		"number": 1015,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (reduplic. of <cite ref=\"O01415\"><he>סָפַר</he></cite>) <i>accountant, expert in prices, speculator</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 51a:14\">B. Mets. 51ᵃ</cite> <he>בתגר ס׳ וכ׳</he> it means a speculating trader … he knows well what his goods is worth &c.—V. <cite ref=\"O01395\"><he>סַפְסִירָא</he></cite>."
+			]
+		}
+	]
+}

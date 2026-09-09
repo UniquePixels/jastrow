@@ -1,0 +1,31 @@
+{
+	"id": "P00038",
+	"slug": "עבט-2",
+	"headword": {
+		"text": "עֲבַט"
+	},
+	"page": {
+		"number": 1037,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"P00047\"><he>עֲבִיטָא</he></cite>, v. <cite ref=\"P00028\"><he>עֲבוֹט</he></cite>) <i>to seize a pledge</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיעֲבַט"],
+			"senses": [
+				{
+					"gloss": "<i>to have one’s goods seized</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 113b:18\">B. Kam. 113ᵇ</cite> <he>בר מתא אבר מתא מִיעֲבַט</he> the goods of one resident may be seized for the delinquent taxes of a fellow resident (v. <cite ref=\"V00843\"><he>תָּפַס</he></cite>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

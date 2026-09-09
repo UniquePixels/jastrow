@@ -1,0 +1,23 @@
+{
+	"id": "P01116",
+	"slug": "עציבה",
+	"headword": {
+		"text": "עֲצִיבָה"
+	},
+	"page": {
+		"number": 1102,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01091\"><he>עָצַב</he></cite>) <i>sadness, use of the root</i> <he>עצב</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 27:4\">Gen. R. s. 27</cite>; s. 32 <he>אין ע׳ אלא אבלות</he> the root <he>עצב</he> (<cite ref=\"Genesis 6:6\">Gen. VI, 6</cite>) means mourning. ",
+				"<cite ref=\"Bamidbar Rabbah 9:7\">Num. R. s. 9</cite>, v. <cite ref=\"P01094\"><he>עֶצֶב</he></cite>."
+			]
+		}
+	]
+}

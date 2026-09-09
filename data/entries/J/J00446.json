@@ -1,0 +1,53 @@
+{
+	"id": "J00446",
+	"slug": "ינק-2",
+	"headword": {
+		"text": "יְנַק"
+	},
+	"page": {
+		"number": 581,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"J00445\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 3:11\">Targ. Job III, 11</cite> <he>אֵינִיק</he> (Ms. <he>אִינַק</he>; ed. Lag. <cite ref=\"J00446\"><he>אוֹנִיק</he></cite>); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Nedarim 1:3:8\">Y. Ned. I, 37ᵃ</cite>; <cite ref=\"Bereishit Rabbah 56:9\">Gen. R. s. 56</cite> <he>אימר דלא י׳ וכ׳</he> the lamb that never sucked (the ram offered in Isaac’s place). ",
+				"<cite ref=\"Berakhot 40b:15\">Ber. 40ᵇ</cite> [read:] <he>מירבא … מֵינַק לא יַנְקֵי וכ׳</he> they grow out of the ground, but draw no nurture from it. ",
+				"<cite ref=\"Bava Batra 71b:3\">B. Bath. 71ᵇ</cite> <he>מדנפשיה קא ינקי</he> they draw from the ground which belongs to himself. ",
+				"<cite ref=\"Beitzah 37b:10\">Bets. 37ᵇ</cite> <he>י׳ תחומין מהדדי</he> the parts of an animal whose partners are bound by opposite Sabbath limits draw substances one from the other (v. Y. Erub. III, 21ᵃ quoted in <cite ref=\"J00445\">preced.</cite>); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אוֹנִיק", "אַיְינִיק"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"J00445\">preced.</cite> <i>Hif.</i>—",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 2:9\">Targ. Ex. II, 9</cite>. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 32:13\">Targ. Y. Deut. XXXII, 13</cite>; a. fr.—",
+						"<cite ref=\"Bereishit Rabbah 98:20\">Gen. R. s. 98</cite>, end <he>דהכן אוֹנִיקוּ</he> which nursed such a child; Y. Kil. I, 27ᵇ top <he>אַיְינֵק</he>; <cite ref=\"Bereishit Rabbah 5:10\">Gen. R. s. 5</cite> end <he>מניק</he> (corr. acc.), v. <cite ref=\"B00562\"><he>בִּיזָּא</he> III</cite>; a. fr.—מֵינִיקְתָּא <i>nurse</i>. ",
+						"<cite ref=\"Onkelos Exodus 2:7\">Targ. Ex. II, 7</cite>; a. e.—Pl. <cite ref=\"M01228\"><he>מֵינִיקָתָא</he></cite>, v. infra."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["יַנֵּק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"J00445\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Exodus 15:2\">Targ. Y. II, Ex. XV, 2</cite> (Y. I <he>מוֹנִיק</he>). ",
+						"<cite ref=\"Targum Jonathan on I Samuel 6:7\">Targ. I Sam. VI, 7</cite>; <cite ref=\"Targum Jonathan on I Samuel 6:10\">10</cite> (ed. Lag. <cite ref=\"M01789\"><he>מֵנִיקָן</he></cite>); <cite ref=\"Aramaic Targum to Psalms 78:71\">Targ. Ps. LXXVIII, 71</cite> <he>מְיַנְקָן</he> (<cite ref=\"Targum Jonathan on Isaiah 40:11\">Targ. Is. XL, 11</cite> <cite ref=\"M01228\"><he>מֵינִיקָתָא</he></cite>) animals giving suck (h. text <he>עלות</he>).—Tanḥ. Ki Thissa 27 <he>יַנְּקִין</he>, v. <cite ref=\"J00433\"><he>יַנּוֹקָא</he></cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

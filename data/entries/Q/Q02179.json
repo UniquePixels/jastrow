@@ -1,0 +1,24 @@
+{
+	"id": "Q02179",
+	"slug": "פתכומרין",
+	"headword": {
+		"text": "פַּתְכּוּמְרִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1254,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (comp. of <he>פתך</he>, v. <cite ref=\"Q02178\">preced.</cite> wds., a. <he>כּוּמָרִין</he>, v. <cite ref=\"K00292\"><he>כּוּמָרָא</he></cite>; v. Syr. <cite ref=\"Q02178\"><he>פתכא</he></cite>, P. Sm. 3342) <i>embroidered cloth over the heads of idolatrous statues</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 13:18\">Targ. Ez. XIII, 18</cite> ed. Lag. (ed. <he>פת כומרין</he>, some ed. <he>פת גומרין</he>, corr. acc.; h. text <he>מספחות</he>); <cite ref=\"Targum Jonathan on Ezekiel 13:21\">ib. 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 16:16\">Ib. XVI, 16</cite>.—[<cite ref=\"Targum Jonathan on Zephaniah 1:5\">Targ. Zeph. I, 5</cite>; <cite ref=\"Targum Jonathan on Amos 5:26\">Targ. Am. V, 26</cite>, v. <cite ref=\"Q02181\"><he>פְּתַכְרָא</he></cite>.]"
+			]
+		}
+	]
+}

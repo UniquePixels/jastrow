@@ -1,0 +1,48 @@
+{
+	"id": "Q00076",
+	"slug": "פגם-4",
+	"headword": {
+		"text": "פְּגָם"
+	},
+	"page": {
+		"number": 1134,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00075\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>injury, deterioration; blemish, discredit</i>. Tanḥ. Vayishl. 5 <he>פ׳ הוא לאשה</he> it is discreditable to a woman (to be showy). Y. B. Kam. VIII, end, 6ᶜ; Bab. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 93a:11\">B. Kam. 93ᵃ</cite> <he>משום פְּגַם משפחה</he> because it is a discredit to the entire family. ",
+				"<cite ref=\"Gittin 59b:17\">Gitt. 59ᵇ</cite> <he>משום פְּגָמוֹ של ראשון</he> because it might cast a reflection on his predecessor (making it appear as if he were not a legitimate priest); <he>משום פ׳ שניהם</he> because it reflects on both of them. ",
+				"<cite ref=\"Sotah 41a:10\">Sot. 41ᵃ</cite> <he>משום פגמו של ראשון</he> because it discredits the scroll first used (as if it had been found unfit for reading in it). ",
+				"<cite ref=\"Sifrei Bamidbar 92:1\">Sifré Num. 92</cite> <he>דברי פ׳</he> criticising words, opp. <he>דברי שבח</he>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 846:1\">Yalk. Ps. 846</cite> <he>ע״א קרויה לשם פְּגָמָהּ וכ׳</he> a heathen deity is named with an opprobrious epithet, as <i>ḥerem, shekets</i> &c., opp. <he>לשם שבח</he>; a. fr.—<he>נותן טעם לפ׳</he>, v. <cite ref=\"I00611\"><he>טַעַם</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 7:8:1\">Cant. R. to VII, 8</cite> (in Chald. dict.) <he>אנן בעינן נתן ביה פ׳ וכ׳</he> we desire to discredit him (the idol), by being there and not bowing to him &c.—",
+				"<cite ref=\"Sanhedrin 73b:1\">Snh. 73ᵇ</cite> <cite ref=\"Q00585\"><he>פִּיגְמָהּ</he></cite> (from <he>פֶּגֶם</he>), v. <cite ref=\"Q00060\"><he>פְּגִימָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>indemnity for deterioration</i> in value or social standing, to be paid to a seduced or outraged girl. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 3:4\">Keth. III, 4</cite> <he>המפתה נותן בושת ופ׳ וקנס</he> the seducer must pay an indemnity for exposure to shame and for loss of value, and a fine besides. ",
+				"<cite ref=\"Mishnah Ketubot 3:7\">Ib. 7</cite> <he>פ׳ רואין אותה וכ׳</he> as to indemnity for loss of value, we estimate her as if she were a handmaid to be sold &c."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. <cite ref=\"Q00060\"><he>פְּגִימָה</he></cite>) <i>the decrease of the moon</i>; trnsf. <i>decline</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> (ref. to <cite ref=\"Psalms 89:38\">Ps. LXXXIX, 38</cite>) <he>כהדין סיהרא … אתם מונין לפְגָמוֹ</he> like the moon: if you do good, you shall count by its fulness (by referring to your political ascendancy); if not, you shall count by its decrease (by the symptoms of decline); Pesik. Haḥod., p. 53ᵃ <he>לפְגָמָהּ</he>; v. <cite ref=\"Q00077\">next w.</cite>"
+			],
+			"label": "3"
+		}
+	]
+}

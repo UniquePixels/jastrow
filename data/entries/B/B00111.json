@@ -1,0 +1,24 @@
+{
+	"id": "B00111",
+	"slug": "בדדין",
+	"headword": {
+		"text": "בְּדָדִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 139,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"B00110\">preced. ws.</cite>) <i>stocks</i> of prisoners. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 10\">Tosef. Kel. B. Mets. X</cite>, end (ed. Zuck. <cite ref=\"C01276\"><he>גרדין</he></cite>, v. <cite ref=\"C01276\"><he>גַּרְדּוֹן</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A02805",
+	"slug": "אפרוורין",
+	"headword": {
+		"text": "אִפַּרְוָורִין"
+	},
+	"page": {
+		"number": 108,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl., (<cite ref=\"A01562\"><he>אִיפַּרְוָון</he></cite>) <he>אִפְּרוֹרְוָן</he> f. pl. (v. <cite ref=\"Q01735\"><he>פַּרְוָר</he></cite>, <cite ref=\"Q01545\"><he>פַּרְבָּר</he></cite>, <cite ref=\"Q01639\"><he>פַּרְוָורָא</he></cite>, <cite ref=\"Q01680\"><he>פַּרְוִילָא</he></cite>) <i>those appointed over the outworks of a fortress, runners</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 4:2\">Targ. Ezek. IV, 2</cite>; <cite ref=\"Targum Jonathan on Ezekiel 21:27\">XXI, 27</cite> (h. <cite ref=\"K01168\"><he>כָּרִים</he></cite>)."
+			]
+		}
+	]
+}

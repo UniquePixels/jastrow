@@ -1,0 +1,29 @@
+{
+	"id": "B01306",
+	"slug": "ברסין",
+	"headword": {
+		"text": "בִּרְסִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּרְסִים"
+		}
+	],
+	"page": {
+		"number": 196,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (birrus, βίῤῥος, v. <cite ref=\"B00708\"><he>בִּירוֹס</he></cite>; formed with a geographical termination, cmp. <cite ref=\"B01189\"><he>בִּרְדְּסִין</he></cite>) <i>birrus</i>, a cloak of thick woolen material. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 9:7\">Kil. IX, 7</cite> (Ms. M. a. Ar. <he>בד׳</he>); Y. ib. 32ᵈ top <cite ref=\"B00385\"><he>בּוּרְסִין</he></cite>; expl. <cite ref=\"B01248\"><he>בריה</he></cite>, v. <cite ref=\"B00715\"><he>בִּירְיָא</he> II</cite>. ",
+				"<cite ref=\"Sifrei Devarim 234\">Sifré Deut. 234</cite> <cite ref=\"O00192\"><he>סדסים</he></cite> read as <cite ref=\"Yalkut Shimoni on Torah 933:11\">Yalk. ib. 933</cite> <he>בורס׳</he>."
+			]
+		}
+	]
+}

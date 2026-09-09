@@ -1,0 +1,31 @@
+{
+	"id": "E00313",
+	"slug": "הטולים",
+	"headword": {
+		"text": "הֲטוּלִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲטוּ׳"
+		},
+		{
+			"text": "עֲטוּלִין"
+		}
+	],
+	"page": {
+		"number": 342,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<i>wine of</i>) <i>Hătul</i> or <i>Ătul</i>, a place mentioned as producing the most preferable wine for libation. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 8:6\">Men. VIII, 6</cite> <he>ה׳</he> (Talm. ed. 86ᵇ <cite ref=\"P00001\"><he>ע׳</he></cite> (Ms. M. <he>עֲלוּטִיִּים</he>, v. Rabb. D. S. a. l., note; Ar. <cite ref=\"H00001\"><he>ח׳</he></cite>)."
+			]
+		}
+	]
+}

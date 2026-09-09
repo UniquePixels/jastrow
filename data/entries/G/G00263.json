@@ -1,0 +1,28 @@
+{
+	"id": "G00263",
+	"slug": "זיבה-2",
+	"headword": {
+		"text": "זִיבָה",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זֵיבָה"
+		}
+	],
+	"page": {
+		"number": 390,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (popular diatectical pronunciation for <he>זְאֵבָה</he>) <i>wolf</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:1:10\">Y. Shek. V, 48ᵈ</cite> a woman said <he>לְזִיבָתִי</he> (v. <cite ref=\"G00262\">preced.</cite>) which was interpreted as possibly meaning <he>זאב בא ליטול את בנה</he> a wolf had come near carrying off her son (and hence the thanks-offering); [differ. in <cite ref=\"Menachot 64b:11\">Men. 64ᵇ</cite>, v. <cite ref=\"G00115\"><he>זוֹב</he></cite>]."
+			]
+		}
+	]
+}

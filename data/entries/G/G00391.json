@@ -1,0 +1,48 @@
+{
+	"id": "G00391",
+	"slug": "זיעתא",
+	"headword": {
+		"text": "זִיעֲתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִיעָא"
+		},
+		{
+			"text": "זֵי׳"
+		}
+	],
+	"page": {
+		"number": 395,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"G00389\"><he>זֵיעָה</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sweat</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 3:19\">Targ. O. Gen. III, 19</cite>, v. <cite ref=\"D00673\"><he>דִּיעֲתָא</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:3:13\">Y. Ab. Zar. II, 41ᵃ</cite> bot. <he>כל זיעה וכ׳</he> (<cite ref=\"Jerusalem Talmud Terumot 8:3:15\">Y. Ter. VIII, 45ᵈ</cite> top <he>זיעא</he>) every perspiration of man is poisonous &c.—",
+				"<cite ref=\"Bereishit Rabbah 78\">Gen. R. s. 78</cite>, beg. <he>מן זיעתהון וכ׳</he> from the sweat of the Ḥayoth (<cite ref=\"Ezekiel 1:5\">Ez. I, 5</cite>).—",
+				"<cite ref=\"Berakhot 38a\">Ber. 38ᵃ</cite> (<cite ref=\"G00389\"><he>זיעה</he></cite>) <he>זיעא בעלמא</he> mere exudation (of the dates). ",
+				"<cite ref=\"Pesachim 24b\">Pes. 24ᵇ</cite> <he>ז׳ בעלמא</he> merely the juice pressed out (not manufactured drink)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>trembling, fear</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 22:23\">Targ. Jer. XXII, 23</cite>, v. <cite ref=\"G00388\"><he>זִיעַ</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 2:25\">Targ. O. Deut. II, 25</cite> <he>זַיְעַתָךְ</he> Var., v. <cite ref=\"G00219\"><he>זוֹעָא</he></cite>. Targ. II Esth. IV, 2 (fr. ",
+				"<cite ref=\"Deuteronomy 28:67\">Deut. XXVIII, 67</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

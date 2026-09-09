@@ -1,0 +1,23 @@
+{
+	"id": "P00884",
+	"slug": "עמיל",
+	"headword": {
+		"text": "עָמִיל"
+	},
+	"page": {
+		"number": 1088,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00899\"><he>עָמַל</he></cite>; v. <cite ref=\"P00886\"><he>עֲמֵילָה</he></cite>) <i>well-worked dough</i>; <he>עֲמִילָן של טבחים</he> <i>dough which cooks use to place over the pot</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 3:1\">Pes. III, 1</cite>, defined <cite ref=\"Pesachim 42b:15\">ib. 42ᵇ</cite> <he>פת תבואה וכ׳</he> bread made of grain not yet one-third ripe, which is put over the pot to absorb the froth; Y. ib. III, 29ᵈ <he>מביא מלילות וכ׳</he> one takes ears not yet one-third full &c. ",
+				"<cite ref=\"Bava Metzia 86b:2\">B. Mets. 86ᵇ</cite> <he>הללו לע׳ של ט׳</he> (these quantities of flour) were used for the cooks’ dough only.—[Ἄμυλον, which is referred to by Mus. to Ar., corresponds to our word neither in form nor in meaning (v. Sachs Beitr. I, 148), besides this etymology is contradicted by <he>פת עֲמֵילָה</he>.]"
+			]
+		}
+	]
+}

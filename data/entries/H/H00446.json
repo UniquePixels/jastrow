@@ -1,0 +1,25 @@
+{
+	"id": "H00446",
+	"slug": "חור-4",
+	"headword": {
+		"text": "חוּר",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲרַר"
+		}
+	],
+	"page": {
+		"number": 439,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"H00445\">preced.</cite> wds.) <i>to bore</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 103a\">Sabb. 103ᵃ</cite> <he>חָר חורתא</he> he bored a hole."
+			]
+		}
+	]
+}

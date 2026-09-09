@@ -1,0 +1,29 @@
+{
+	"id": "S00819",
+	"slug": "קטפריס",
+	"headword": {
+		"text": "קָטָפְרֵיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָטָפְרֵס"
+		}
+	],
+	"page": {
+		"number": 1352,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (καταφέρης) <i>sloping downward; gutter</i> (= h. <he>מדרון</he>). Ohol. III, 3 <he>אם היה מקומו קטפריס</he> ed. Dehr. (ed. <he>רס …</he>) if the place whereon he stood was sloping. Ib. <he>והיא ק׳</he> Mish. ed. (Bab. ed. <he>והק׳</he>, corr. acc.) and it (the sill) is sloping. ",
+			"units": [
+				"<cite ref=\"Mishnah Tahorot 8:8\">Toh. VIII, 8</cite>; sq. ",
+				"<cite ref=\"Gittin 78b:17\">Gitt. 78ᵇ</cite> <he>היתה ידה … כק׳</he> if she held her hand (to receive the letter of divorce) like a gutter (sloping downward). Y. Erub. VIII, end, 25ᵇ <he>כד הוות ק׳ מבפנים</he> (not <he>היה בר קטיפרס</he>) when the trough slopes inward; a. e.—Pl. <he>קָטָפְרִיסוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:2:3\">Y. Shek. VI, 50ᵃ</cite> top <he>מי ק׳ הן וכ׳</he> (not <he>קטיפ׳</he>) they are gutter waters (and therefore) unfit for &c."
+			]
+		}
+	]
+}

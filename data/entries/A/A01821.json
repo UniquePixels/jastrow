@@ -1,0 +1,22 @@
+{
+	"id": "A01821",
+	"slug": "אלונכא",
+	"headword": {
+		"text": "אֲלוּנְכָא"
+	},
+	"page": {
+		"number": 68,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"L00295\"><he>לוּנְכָא</he></cite> q. v.) <i>spear-head, javelin</i>. Pl. <cite ref=\"A01924\"><he>אֲלוּנְכֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Gittin 70a:3\">Git. 70ᵃ</cite> <he>בא׳ דפרסאי</he> (Ar. <he>בלונכי</he>) with Persian (poisoned) javelins."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "M00101",
+	"slug": "מברכתה",
+	"headword": {
+		"text": "מַבְרַכְתָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַבְרַכְתָּא"
+		}
+	],
+	"page": {
+		"number": 725,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B01287\"><he>בָּרַךְ</he></cite>; cmp. ",
+			"units": [
+				"<cite ref=\"Genesis 14:11\">Gen. XIV, 11</cite>) <i>a caravan</i> (of camels). ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 13:1:3\">Y. Keth. XIII, 35ᵈ</cite> top <he>מ׳ היתה עוברת</he> a caravan passed (Shiloh); <cite ref=\"Jerusalem Talmud Sotah 1:4:5\">Y. Sot. I, 17ᵃ</cite> top; <cite ref=\"Bereishit Rabbah 85:12\">Gen. R. s. 85</cite> <he>מ׳ … בבאר שבע</he>."
+			]
+		}
+	]
+}

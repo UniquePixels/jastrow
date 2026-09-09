@@ -1,0 +1,28 @@
+{
+	"id": "D00971",
+	"slug": "דפני",
+	"headword": {
+		"text": "דָּפְנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּפָנִי"
+		}
+	],
+	"page": {
+		"number": 317,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Daphne</i>, a suburb of Antiochia in Syria. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 34:11\">Targ. Y. Num. XXXIV, 11</cite> (h. text <he>רבלה</he>).—",
+				"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite> <he>ד׳ של וכ׳</he> (not <cite ref=\"D00969\"><he>דפנו</he></cite>) Daphne Antiochena; Y. Shek. VI, 50ᵃ bot. <cite ref=\"D00315\"><he>דופני</he></cite>; <cite ref=\"Jerusalem Talmud Sanhedrin 10:5:5\">Y. Snh. X, 29ᶜ</cite> bot. (not <cite ref=\"D00969\"><he>דפנא</he></cite>)."
+			]
+		}
+	]
+}

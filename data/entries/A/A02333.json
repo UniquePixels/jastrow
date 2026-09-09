@@ -1,0 +1,25 @@
+{
+	"id": "A02333",
+	"slug": "אסופות",
+	"headword": {
+		"text": "אֲסוּפּוֹת"
+	},
+	"page": {
+		"number": 89,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl.(b. h. <he>אֲסֻפּוֹת</he>, Koh. XII, 11 <he>אסף</he>)<i>gatherings of scholars, councils</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:1:23\">Y. Snh. X, 28ᵃ</cite> bot. ",
+				"<cite ref=\"Bamidbar Rabbah 14\">Num. R. s. 14</cite>. ",
+				"<cite ref=\"Sanhedrin 12a:7\">Snh. 12ᵃ</cite> <he>בעלי א׳</he> Sanedrin."
+			]
+		}
+	]
+}

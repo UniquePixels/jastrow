@@ -1,0 +1,28 @@
+{
+	"id": "C01065",
+	"slug": "גמר-5",
+	"headword": {
+		"text": "גָּמָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּמַר"
+		}
+	],
+	"page": {
+		"number": 255,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C01064\">preced.</cite>) <i>finishing, last touch; consummation</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 103a:1\">Sabb. 103ᵃ</cite>, a. fr. <he>ג׳ מלאכה</he> the finishing work.—",
+				"<cite ref=\"Sanhedrin 6b:15\">Snh. 6ᵇ</cite>; a. fr. <he>ג׳ דין</he> close of legal proceedings."
+			]
+		}
+	]
+}

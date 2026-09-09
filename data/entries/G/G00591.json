@@ -1,0 +1,32 @@
+{
+	"id": "G00591",
+	"slug": "זעטוט",
+	"headword": {
+		"text": "זַעֲטוּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "זַאֲטוּט"
+		},
+		{
+			"text": "זַטּוּט"
+		}
+	],
+	"page": {
+		"number": 407,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (redupl. of <he>זעט</he>, v. <cite ref=\"G00157\"><he>זוּטָּא</he></cite>) <i>young man, youth, student.—</i>Pl. <cite ref=\"G00592\"><he>זַעֲטוּטִים</he></cite>, constr. <cite ref=\"G00592\"><he>זַעֲטוּטֵי</he></cite> (a Variant of <he>נערי</he>, <cite ref=\"Exodus 24:5\">Ex. XXIV, 5</cite>, because <he>נערי</he> admits of the meaning of <i>servants, slaves</i>, Greek παιδές). ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 356:14\">Sifré Deut. 356</cite> (v. <cite ref=\"M02083\"><he>מָעוֹן</he></cite> a. <cite ref=\"E00331\"><he>הִיא</he></cite>) and one manuscript existed in the Temple which was named <he>ספר זעטוטים</he> the Book of Zaʿăṭûṭim (containing <cite ref=\"G00592\"><he>זעטוטי</he></cite> for <he>נערי</he>); <cite ref=\"Tractate Soferim 6:4\">Treat. Sof’rim VI, 4</cite> <he>זאטוטי</he>; <cite ref=\"Jerusalem Talmud Taanit 4:2:12\">Y. Taan. IV, 68ᵃ</cite> bot. <cite ref=\"G00592\"><he>זעטוטי</he></cite>.—",
+				"<cite ref=\"Megillah 9a:16\">Meg. 9ᵃ</cite> (reported as one of the changes in the Greek translation of the Pentateuch, and ref. to <he>נערי</he> l. c., and to <he>אצילי</he> <cite ref=\"Exodus 24:11\">Ex. XXIV, 11</cite>) <he>זאטוטי</he> ed. (Ms. Par. <he>זע׳</he>, oth. mss. a. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 3:8\">Yalk. Gen. 3</cite> <he>זטוטי</he>) ‘the youths’ (νεανίσκοι, in place of παιδές, v. LXX Ex. l. c.)."
+			]
+		}
+	]
+}

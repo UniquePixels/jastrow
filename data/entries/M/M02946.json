@@ -1,0 +1,28 @@
+{
+	"id": "M02946",
+	"slug": "משנים",
+	"headword": {
+		"text": "מִשְׁנִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִשְׁנִין"
+		}
+	],
+	"page": {
+		"number": 857,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (= <he>מִשְׁנִיִּים</he>, denom. of <cite ref=\"M02941\"><he>מִשְׁנָה</he></cite>) <i>teachers of Mishnah</i>. Lam. R. introd. (R. Abba 2); <cite ref=\"Jerusalem Talmud Chagigah 1:7:2\">Y. Ḥag. I, 76ᶜ</cite>, a. e. <he>סופרים ומ׳</he> teachers of Bible and of Mishnah. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 47\">Ex. R. s. 47</cite> <he>שיהיו המ׳ יושבין וכ׳</he> that the teachers of Mishnah should hold sessions in the morning &c.; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "M01031",
+	"slug": "מטמעא",
+	"headword": {
+		"text": "מִטְמְעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִטְמוֹעָא"
+		}
+	],
+	"page": {
+		"number": 768,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00560\"><he>טְמַע</he></cite>) <i>sinking;</i> (with <he>שמשא</he>) <i>sunset; west</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 11:30\">Targ. Y. Deut. XI, 30</cite> (ed. Amst. <cite ref=\"M01031\"><he>מַטְמָעָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 21:23\">Ib. XXI, 23</cite> <cite ref=\"M01023\"><he>מִטְמוֹעַ</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 113:3\">Targ. Ps. CXIII, 3</cite>.—Pl. <he>מִטְמוֹעִין</he>, <he>מִטְמְעִין</he>, <he>מִטְמְעֵי</he>. Y. R. Hash. II, end, 58ᵇ <he>י״ד מטמיעין</he> (corr. acc.) fourteen sunsets. ",
+				"<cite ref=\"Bereishit Rabbah 63\">Gen. R. s. 63</cite> <he>עם מִטְמוֹעֵי יומא וכ׳</he> Ar. (ed. <cite ref=\"M01042\"><he>מטעמי</he></cite>, corr. acc.) on Friday at sunset."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "S01407",
+	"slug": "קלפי",
+	"headword": {
+		"text": "קַלְפִּי"
+	},
+	"page": {
+		"number": 1381,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (κάλπη) <i>urn for drawing lots</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 16:8\">Targ. Y. Lev. XVI, 8</cite> (not <cite ref=\"S01407\"><he>קְלַפֵּי</he></cite>).—",
+				"<cite ref=\"Tosefta Yoma 3:1\">Tosef. Yoma III</cite> (<cite ref=\"Tosefta Yoma 2:1\">II</cite>), 1; <cite ref=\"Mishnah Yoma 4:1\">Yoma IV, 1</cite> <he>טרף בק׳</he> he shook the urn. ",
+				"<cite ref=\"Mishnah Yoma 3:9\">Ib. III, 9</cite> <he>וק׳ היתה וכ׳</he> an urn was there (in the Temple) containing two lots. Y. ib. IV, beg. 41ᵇ <he>לא סוף דבר ק׳ וכ׳</he> it was not at all necessary to use an urn, a basket might have served the purpose; but why did they say, ‘an urn’?, v. <cite ref=\"Q00254\"><he>פּוֹמְפִּי</he></cite>. ",
+				"<cite ref=\"Bava Batra 122a:4\">B. Bath. 122ᵃ</cite> <he>ק׳ של שבטים</he> an urn containing the names of the tribes; <he>ק׳ של תחומין</he> an urn containing the names of the districts (to be allotted); <cite ref=\"Bamidbar Rabbah 21\">Num. R. s. 21</cite>; a. fr.—Pl. <he>קַלְפִּיּוֹת</he>. Y. Yoma l. c. <he>בשתי ק׳ וכ׳</he> by means of two urns the land of Israel was divided, v. supra."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "I00390",
+	"slug": "טינא",
+	"headword": {
+		"text": "טִינָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִינָּה"
+		}
+	],
+	"page": {
+		"number": 532,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>טנן</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>moist muddy ground, clay</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 2:2:2\">Y. Kil. II, 27ᵈ</cite> top, a. e., v. <cite ref=\"C01325\"><he>גְּרִיד</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 2:3:4\">Y. Shebi. II, 33ᵈ</cite> <he>עפר עושה לה ט׳</he> by covering it with earth he prepares for the plant a muddy ground. Y. Kidd. III, end, 65ᵃ (prov). <he>מוליכין ט׳ אצל ט׳ וכ׳</he> mud is carried to mud, and thorns to thorns. ",
+				"<cite ref=\"Devarim Rabbah 5\">Deut. R. s. 5</cite>, beg.; <cite ref=\"Yalkut Shimoni on Nach 938:4\">Yalk. Prov. 938</cite> <he>מפני הט׳</he> on account of the moist soil."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"G00361\"><he>זִימָּה</he></cite> a. <cite ref=\"I00579\"><he>טְנָנָא</he></cite>) <i>impure thought, lust</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 15b:13\">Ḥag. 15ᵇ</cite> <he>ט׳ היתה בלבם</he> there was impurity in their hearts (heathen sensuality). ",
+				"<cite ref=\"Sanhedrin 75a:2\">Snh. 75ᵃ</cite> <he>העלה לבו ט׳</he> a vehement passion seized him (which threatened his health)."
+			],
+			"label": "2"
+		}
+	]
+}

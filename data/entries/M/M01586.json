@@ -1,0 +1,24 @@
+{
+	"id": "M01586",
+	"slug": "מלכתא-1",
+	"headword": {
+		"text": "מַלְכְּתָא"
+	},
+	"page": {
+		"number": 792,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"M01576\"><he>מַלְכָּה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 11:19\">Targ. I Kings XI, 19</cite>; a. fr.—",
+				"<cite ref=\"Keritot 28b\">Ker. 28ᵇ</cite>; <cite ref=\"Pesachim 57a\">Pes. 57ᵃ</cite>; a. fr.—Pl. <cite ref=\"M01573\"><he>מַלְכָּן</he></cite>, <cite ref=\"M01549\"><he>מַלְכָאתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 11:3\">Targ. I Kings XI, 3</cite>. Targ. II Esth. V, 1."
+			]
+		}
+	]
+}

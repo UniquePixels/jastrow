@@ -1,0 +1,38 @@
+{
+	"id": "H01293",
+	"slug": "חנינה",
+	"headword": {
+		"text": "חֲנִינָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 483,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"H01311\"><he>חָנַן</he></cite>)<i>mercy</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 78:10\">Gen. R. s. 78</cite>; s. 92 <he>שמענו ח׳ בי״א וכ׳</he> we find <i>grace</i> applied to the eleven tribes (before Benjamin was born; <cite ref=\"Genesis 33:5\">Gen. XXXIII, 5</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>caressing</i> (of the new-born child). ",
+			"units": [
+				"<cite ref=\"Moed Katan 25b:9\">M. Kat. 25ᵇ</cite> (play on Ḥannin) <he>בעת חֲנִינָתוֹ אבד חַנִּינוֹ</he> (v. <cite ref=\"H01288\"><he>חֲנִיכָה</he></cite>) at the moment of his receiving caresses died he who was to caress him."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (name of fiction, v. <cite ref=\"H01292\">preced.</cite>) <i>Ḥăninah</i> (Love). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 98b:14\">Snh. 98ᵇ</cite> <he>דבי ר׳ חנינה אמרי ח׳ שמו</he> the disciples of R. Ḥ. said, the Messiah’s name is Ḥ."
+			],
+			"label": "3"
+		}
+	]
+}

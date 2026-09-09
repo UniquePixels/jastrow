@@ -1,0 +1,22 @@
+{
+	"id": "B00092",
+	"slug": "בגרות",
+	"headword": {
+		"text": "בַּגְרוּת"
+	},
+	"page": {
+		"number": 138,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"B00088\"><he>בֶּגֶר</he></cite>) <i>womanhood</i>, (after twelve years and a half), opp. to <cite ref=\"N01010\"><he>נערות</he></cite>, maidenhood (between twelve and twelve and a half) and <cite ref=\"J00370\"><he>ילדות</he></cite> childhood (from three to twelve years). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 1:2:10\">Y. Yeb. I, 3ᵃ</cite> top <he>אין בין … לימות הב׳ וכ׳</he> between the period of maidenhood and that of womanhood there is no more than a six months’ interval; <cite ref=\"Ketubot 39a:6\">Keth. 39ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "B01146",
+	"slug": "בקרותא-2",
+	"headword": {
+		"text": "בַּקְרוּתָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּקְרָנוּתָא"
+		}
+	],
+	"page": {
+		"number": 188,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"B01142\"><he>בַּקָּרָא</he> II</cite>) <i>levity, thoughtlessness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 23:32\">Targ. Jer. XXIII, 32</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 17:28\">Targ. I Sam. XVII, 28</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "D01139",
+	"slug": "דשא-2",
+	"headword": {
+		"text": "דַּשָּׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּשָׁא"
+		},
+		{
+			"text": "דָּ׳"
+		}
+	],
+	"page": {
+		"number": 326,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>דרשא</he>, Sam. <he>דרשה</he>; <he>דרש</he>, cmp. also <cite ref=\"D00389\"><he>דּוּשׁ</he></cite>) <i>entrance, door-way</i> (v. <cite ref=\"D01091\"><he>דְּרִיסָה</he></cite>); <i>door</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 19:6\">Targ. O. Gen. XIX, 6</cite> <cite ref=\"D01139\"><he>דַּשָׁא</he></cite> ed. Berl. (oth. ed. a. Y. <cite ref=\"D01139\"><he>דָּשָׁא</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 21:6\">Targ. O. Ex. XXI, 6</cite> <cite ref=\"D01139\"><he>דַּשָּׁא</he></cite> ed. Berl. (Y. <cite ref=\"D01139\"><he>דָּ׳</he></cite>); a. fr.—",
+				"<cite ref=\"Chullin 52b:16\">Ḥull. 52ᵇ</cite>, v. <cite ref=\"A00996\"><he>אֲחַד</he></cite>. ",
+				"<cite ref=\"Shabbat 77b:9\">Sabb. 77ᵇ</cite>; <cite ref=\"Ketubot 10b:15\">Keth. 10ᵇ</cite> (phonetic etymol.) <he>ד̇ש̇א ד̇רך ש̇ס</he>. ",
+				"<cite ref=\"Ketubot 10b:14\">Ib.</cite> <he>כי עברא לד׳</he> (as strengthening) as the bolt to a door. ",
+				"<cite ref=\"Berakhot 56a:15\">Ber. 56ᵃ</cite> <he>ד׳ ברייתא דנפל</he> (read <he>דביתאי</he>, v. Rabb. D. S. a. l. note) (I dreamt) that the door of my house fell down; a. fr.—Pl. <he>דַּשִּׁין</he>, <he>דַּשַּׁיָּא</he>, <he>דַּשֵּׁי</he>, <cite ref=\"D01139\"><he>דָּ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 38:8\">Targ. Job XXXVIII, 8</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 3:5\">Targ. O. Deut. III, 5</cite>; a. e. [<cite ref=\"Aramaic Targum to Esther 1:6\">Targ. Esth. I, 6</cite> <he>ודשרין וכ׳</he>, read <he>ודַשִּׁין וכ׳</he> (or <he>ודַרְשִׁין</he>, v. supra) and there were turning doors of silver.]—",
+				"<cite ref=\"Menachot 33a:4\">Men. 33ᵃ</cite> <he>תלי דשי וכ׳</he> (some ed. <he>דשא</he>) hang the door frames in first."
+			]
+		}
+	]
+}

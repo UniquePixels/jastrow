@@ -1,0 +1,23 @@
+{
+	"id": "G00284",
+	"slug": "זיהא-2",
+	"headword": {
+		"text": "זִיהָא"
+	},
+	"page": {
+		"number": 391,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זהה</he>, cmp. <cite ref=\"G00299\"><he>זִיו</he></cite>) <i>reflected light, reflexion</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 28b\">Yoma 28ᵇ</cite>, v. <cite ref=\"G00134\"><he>זוֹהְמָא</he></cite>. ",
+				"<cite ref=\"Berakhot 58b\">Ber. 58ᵇ</cite> <he>זִיהֵיה</he> Ar. (some ed. <cite ref=\"G00291\"><he>זיהיא</he></cite>, incorr.; ed. <he>זִיוֵיה</he>) its (the comet’s) reflexion."
+			]
+		}
+	]
+}

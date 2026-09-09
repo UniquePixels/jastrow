@@ -1,0 +1,32 @@
+{
+	"id": "G00732",
+	"slug": "זרף-2",
+	"headword": {
+		"text": "זְרַף"
+	},
+	"page": {
+		"number": 414,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>זָרֵיף</he> (cmp. <he>זרב</he>) <i>to form a rim</i> or <i>elevation around a wound</i> (cmp. <cite ref=\"K01365\"><he>כָּתִית</he></cite>, <cite ref=\"O01345\"><he>סַפַּחַת</he></cite>), <i>to cause a swelling and inflammation</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 28b:8\">Ab. Zar. 28ᵇ</cite> <he>מִיזְרַף זָרֵיף</he> the operation with the hand creates soreness. ",
+						"<cite ref=\"Chullin 77a:10\">Ḥull. 77ᵃ</cite>; <cite ref=\"Yevamot 76a:7\">Yeb. 76ᵃ</cite> <he>פרזלא מז׳ ז׳</he> cutting with an iron tool causes inflammation."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

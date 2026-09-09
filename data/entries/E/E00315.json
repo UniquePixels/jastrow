@@ -1,0 +1,32 @@
+{
+	"id": "E00315",
+	"slug": "הטחה",
+	"headword": {
+		"text": "הֲטָחָה"
+	},
+	"page": {
+		"number": 342,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>טוּחַ</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>throwing</i> (a stone &c.). Y. B. Kam. III, 3ᶜ top <he>אם כדרך ה׳ הטיח</he> if one hit (him who was carrying a flask) in the way of throwing a stone (not merely by letting a stone lie in the road).",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>contusion</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:9:9\">Y. Sabb. VI, 8ᶜ</cite> bot. <he>דומה … ה׳ זו בלבד</he> it seems that I am not to carry off from this place anything except this contusion (of my finger)."
+			],
+			"label": "2"
+		}
+	]
+}

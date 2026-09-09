@@ -1,0 +1,37 @@
+{
+	"id": "U01737",
+	"slug": "שפי-4",
+	"headword": {
+		"text": "שְׁפֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁפָא"
+		}
+	],
+	"page": {
+		"number": 1615,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01736\">same</cite><i>to incline, make slanting</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 98b:4\">Sabb. 98ᵇ</cite> <he>דשָׁפֵי להו כי טורין</he> they made the boards slanting like mountain sides (bringing to a point; Ar. <cite ref=\"I00780\"><he>טָרִיז</he></cite> q. v.); Yalk. Ex. 370."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pour out slowly</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 67a:11\">Ḥull. 67ᵃ</cite> <he>לא לִשְׁפֵּי וכ׳</he>, v. <cite ref=\"R00302\"><he>צִיבְּתָא</he></cite>. ",
+				"<cite ref=\"Bava Kamma 115b\">B. Kam. 115ᵇ</cite> <he>אפשר … וש׳ ליה</he> (not <he>דש׳</he>) one may put something (a piece of cloth &c.) over the mouth of a jug, and pour (strain) the liquid through. ",
+				"<cite ref=\"Shabbat 139b:18\">Sabb. 139ᵇ</cite> <he>שָׁפוּ שיכרא וכ׳</he> Rashi (ed. <he>שָׁאפוּ</he>) they poured beer slowly from vessel to vessel (leaving the dregs behind); a. e.—",
+				"<cite ref=\"Kiddushin 71b:10\">Kidd. 71ᵇ</cite> <he>שָׁפֵי חלא</he> vinegar dealer, v. <cite ref=\"U01743\"><he>שָׁפֵיחָלָא</he></cite>.—Trnsf. <i>to let the blood flow after bloodletting</i>. ",
+				"<cite ref=\"Shabbat 129a:22\">Sabb. 129ᵃ</cite> <he>דלמא ש׳ ליה וכ׳</he> perhaps the surgeon may bleed him too long &c."
+			],
+			"label": "2"
+		}
+	]
+}

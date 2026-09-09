@@ -1,0 +1,30 @@
+{
+	"id": "C00930",
+	"slug": "גלי-5",
+	"headword": {
+		"text": "גֱּלֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גֲּלִי"
+		},
+		{
+			"text": "גְּלִי"
+		},
+		{
+			"text": "גַּלְיָא"
+		}
+	],
+	"page": {
+		"number": 248,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", part. pass. of <cite ref=\"C00850\"><he>גְּלָא</he></cite>.—Pl. fem. <cite ref=\"C00085\"><he>גַּלְיָין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 31:27\">Targ. Prov. XXXI, 27</cite> (ed. Lag. <he>גלין</he>)."
+			]
+		}
+	]
+}

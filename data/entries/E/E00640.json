@@ -1,0 +1,23 @@
+{
+	"id": "E00640",
+	"slug": "המראה-1",
+	"headword": {
+		"text": "הַמְרָאָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 356,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>מרי</he> I) <i>stuffing food down the throat of an animal</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 155b:13\">Sabb. 155ᵇ</cite>, v. <cite ref=\"E00582\"><he>הַלְעָטָה</he></cite>."
+			]
+		}
+	]
+}

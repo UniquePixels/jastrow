@@ -1,0 +1,49 @@
+{
+	"id": "C00461",
+	"slug": "גופן-3",
+	"headword": {
+		"text": "גּוֹפַן"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּפְנָא"
+		}
+	],
+	"page": {
+		"number": 225,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. ch. ",
+			"units": []
+		},
+		{
+			"gloss": " = h. <cite ref=\"C01204\"><he>גֶּפֶן</he></cite>, <i>vine</i>, esp. <i>grape-vine</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 49:22\">Targ. O. Gen. XLIX, 22</cite> ed. Berl. (some ed. <cite ref=\"C00459\"><he>גּוֹפֶן</he></cite>, Y. <he>גּוּפן</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 17:7\">Targ. Ezek. XVII, 7</cite> <he>גופנא</he> fem. (<cite ref=\"Targum Jonathan on Ezekiel 17:6\">ib. 6</cite>; <cite ref=\"Targum Jonathan on Ezekiel 17:8\">8</cite> <cite ref=\"C01204\"><he>גֶּפֶן</he></cite> m.). ",
+				"<cite ref=\"Targum Jonathan on Hosea 9:10\">Targ. Hos. IX, 10</cite>; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 12:4\">Lev. R. s. 12</cite> <he>הדא ג׳ מסתמכ׳ וכ׳</he> the grape-vine is supported with so many reeds and props &c. ",
+				"<cite ref=\"Vayikra Rabbah 12:4\">Ib.</cite> <he>ג׳ מתקרייא וכ׳</he> the vine (with its product) goes by three names."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the cotton-tree</i>, <he>עמרא דג׳</he> <i>cotton</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 110b:1\">Sabb. 110ᵇ</cite>. ",
+				"<cite ref=\"Gittin 69b:14\">Gitt. 69ᵇ</cite> <he>ודעמר ג׳</he> and (rags) of cotton cloth. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 3:12:4\">Y. Kidd. III, 64ᶜ</cite> bot. a proselyte is like <he>לעמרא</he> (<cite ref=\"D00000\"><he>ד</he></cite>)<he>ג׳ וכ׳</he> cotton, if you desire to combine it with wool, you may do so (without violating the law of <cite ref=\"K00674\"><he>כִּלְאַיִם</he></cite>) &c.—Pl. <he>גּוּפְנַיָּא</he>, <cite ref=\"C00460\"><he>גּוּפְנִין</he></cite>, <he>גּוּפְנֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Joel 1:12\">Targ. Joel I, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Joel 1:7\">Ib. 7</cite> (ed. Lag. <cite ref=\"C00792\"><he>גפ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 105:33\">Targ. Ps. CV, 33</cite>; a. e.—",
+				"<cite ref=\"Berakhot 40b:22\">Ber. 40ᵇ</cite>, v. <cite ref=\"C00460\">preced.</cite> ",
+				"<cite ref=\"Bava Kamma 92a:2\">B. Kam. 92ᵃ</cite>. ",
+				"<cite ref=\"Ketubot 79a\">Keth. 79ᵃ</cite>. ",
+				"<cite ref=\"Bava Batra 69b:5\">B. Bath. 69ᵇ</cite>; a. fr. [<cite ref=\"Targum Jonathan on Numbers 6:4\">Targ. Y. Num. VI, 4</cite> <he>מגופנין מַקליפין</he>, read <cite ref=\"M00586\"><he>מִקְּ׳</he></cite>, <he>מג׳</he> being a misplaced gloss to <he>מגופנא</he>."
+			],
+			"label": "2"
+		}
+	]
+}

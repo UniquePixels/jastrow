@@ -1,0 +1,22 @@
+{
+	"id": "A00513",
+	"slug": "אהרונית",
+	"headword": {
+		"text": "אַהֲרוֹנִית"
+	},
+	"page": {
+		"number": 20,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (deriv. of <cite ref=\"A00512\">foreg.</cite>) <i>of priestly parentage, Aaronide</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 53b:14\">Erub. 53ᵇ</cite> <he>נערה א׳ אחרונית</he> (play on words) an Aaronide maiden, a second wife (in Ms. M. our w. is missing)."
+			]
+		}
+	]
+}

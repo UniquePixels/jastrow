@@ -1,0 +1,27 @@
+{
+	"id": "D00796",
+	"slug": "דכרני",
+	"headword": {
+		"text": "דִּכְרָנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּיכְ׳"
+		}
+	],
+	"page": {
+		"number": 308,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דְּכַר</he> II, 2) <i>ram-like, lewd, unchaste</i>. Pl. <cite ref=\"D00796\"><he>דִּכְרָנִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 70\">Gen. R. s. 70</cite>, end ‘Rashi’ (ed. <he>דכרין</he>, <cite ref=\"D00794\"><he>דכרון</he></cite>)."
+			]
+		}
+	]
+}

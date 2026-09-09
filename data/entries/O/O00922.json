@@ -1,0 +1,43 @@
+{
+	"id": "O00922",
+	"slug": "סכן-2",
+	"headword": {
+		"text": "סְכַן"
+	},
+	"page": {
+		"number": 991,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00921\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"O00893\"><he>אַסְכֵּן</he></cite> <i>to arrange</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 139:3\">Targ. Ps. CXXXIX, 3</cite> (h. text <he>הסכנת</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִסְתַּכֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to be trained, prepared</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 34:9\">Targ. Job XXXIV, 9</cite> (h. text <he>יסכן</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "T00088",
+	"slug": "רביה",
+	"headword": {
+		"text": "רִבְיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "רִבְיָיה"
+		}
+	],
+	"page": {
+		"number": 1442,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00058\"><he>רָבָה</he></cite>) <i>increase, plenty</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 2:12\">Num. R. s. 2<sup>12</sup></cite> (ref. to <he>הרבה ארבה</he>, <cite ref=\"Genesis 22:17\">Gen. XXII, 17</cite>) <he>ר׳ לאב ר׳ לבן</he> increase promised to the father, increase to the son.—פריה ור׳ <i>propagation, v</i>. <cite ref=\"Q01794\"><he>פִּרְיָה</he></cite>. ",
+				"<cite ref=\"Yevamot 62a:6\">Yeb. 62ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 1:3:3\">Y. Taan. I, 64ᵇ</cite>; a. fr.—Pl. <he>רִבְיוֹת</he> (or <he>רְבִיּוֹת</he>) <i>plentiful discharges</i>. ",
+				"<cite ref=\"Avot D'Rabbi Natan 1:7\">Ab. d’R. N. ch. I</cite> (ref. to <he>הרבה ארבה</he>, <cite ref=\"Genesis 3:16\">Gen. III, 16</cite>) <he>אלו שתי ר׳ דם וכ׳</he> ed. Schechter (Var. <cite ref=\"T00135\"><he>רבעיות</he></cite>) this refers to the two kinds of discharges of blood &c."
+			]
+		}
+	]
+}

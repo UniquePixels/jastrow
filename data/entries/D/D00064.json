@@ -1,0 +1,34 @@
+{
+	"id": "D00064",
+	"slug": "דביר",
+	"headword": {
+		"text": "דְּבִיר"
+	},
+	"page": {
+		"number": 277,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the Holy of Holies</i> in the Temple. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:5:8\">Y. Ber. IV, 8ᶜ</cite> top."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the Book</i>, a word in use among the Persian Jews. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 24b:19\">Ab. Zar. 24ᵇ</cite> (ref. to <cite ref=\"Judges 1:11\">Jud. I, 11</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"id": "T00205",
+	"slug": "רגל-4",
+	"headword": {
+		"text": "רֶגֶל",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "רִגְלָא"
+		},
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1449,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00204\">same</cite><i>foot, leg; pace</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 21:19\">Targ. Lev. XXI, 19</cite>. ",
+				"<cite ref=\"Onkelos Genesis 33:14\">Targ. Gen. XXXIII, 14</cite> (O. ed. Berl. <he>לרֵיגַל</he>); a. fr.—Y. Maas. Sh. IV, end, 55ᶜ <cite ref=\"T00209\"><he>רִגְלִי</he></cite>, v. <cite ref=\"S00751\"><he>קַטִּין</he> II</cite>, a. <cite ref=\"O01516\"><he>סַרְבֵּל</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 9:4:3\">Y. Shebi. IX, 39ᵃ</cite> top <he>ר׳ צלילא</he>, v. <cite ref=\"R00520\"><he>צְלַל</he></cite>; a. fr.—Trnsf. <i>good</i> or <i>bad luck coming in the wake of</i>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 30:30\">Targ. Y. Gen. XXX, 30</cite>.—Y. Ber. II, 5ᵃ <he>ברִגְלֵיה חריב וברגליה וכ׳</he> in his luck (when he was born) the Temple was destroyed, and in his luck it will be rebuilt; <cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite> <he>על רִיגְלוֹי</he> (<i>pl.</i>). ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:2:3\">Y. Ab. Zar. III, 42ᵈ</cite> top <he>ריגליה דיעקב</he>, v. <cite ref=\"N01262\"><he>נֵרְגַל</he></cite>.—<i>Pl.</i> <he>רִגְלַיָּא</he>, <he>רִגְלִין</he>, <he>רִגְלָן</he>, <cite ref=\"T00053\"><he>רִי׳</he></cite>, <he>רַגְ׳</he>. ",
+				"<cite ref=\"Onkelos Leviticus 11:42\">Targ. Lev. XI, 42</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 26:12\">Targ. Ps. XXVI, 12</cite> Ms. (ed. <i>sing.</i>). ",
+				"<cite ref=\"Aramaic Targum to Esther 5:1\">Targ. Esth. V, 1</cite> <he>מוי דר׳</he> = <he>מי רגלים</he>, v. <cite ref=\"M01199\"><he>מַיִם</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 9:14\">Targ. Y. Lev. IX, 14</cite>; <cite ref=\"Targum Jonathan on Leviticus 8:21\">ib. VIII, 21</cite> <cite ref=\"T00601\"><he>ריגלאה</he></cite> (corr. acc.); a. fr.—Y. Kil. IX, 32ᶜ bot. <he>רִיגְלוֹי דבר וכ׳</he>; <cite ref=\"Sukkah 53a:6\">Succ. 53ᵃ</cite> <he>רִגְלוֹהִי וכ׳</he>, v. <cite ref=\"P01252\"><he>עֲרַב</he> I</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>festival, festive season</i>, esp. <i>the season of the Babylonian academies</i> in Adar and Elul. ",
+			"units": [
+				"<cite ref=\"Bekhorot 60a:3\">Bekh. 60ᵃ</cite> <he>תירגמה</he> … <he>בר׳</he> R. H. bar S. interpreted it before Raba at the college session (on the Sabbath preceding a festival, Rashi). ",
+				"<cite ref=\"Sanhedrin 7b:11\">Snh. 7ᵇ</cite> <he>בשבתא דר׳</he> on the first Sabbath of the season; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (from its shape) <i>a forked carrying pole</i> which can be fixed in the ground when the carrier is resting. ",
+			"units": [
+				"<cite ref=\"Beitzah 30a\">Bets. 30ᵃ</cite>, a. e., v. <cite ref=\"D00110\"><he>דִּגְלָא</he></cite>.—[<cite ref=\"Aramaic Targum to Proverbs 14:5\">Targ. Prov. XIV, 5</cite>; <cite ref=\"Aramaic Targum to Proverbs 24:28\">XXIV, 28</cite> (ed. Wil. <cite ref=\"T00205\"><he>רַגָלָא</he></cite>); <cite ref=\"Aramaic Targum to Proverbs 19:28\">XIX, 28</cite> (ed. Wil. <cite ref=\"T00206\"><he>רגלאה</he></cite>); <cite ref=\"Avodah Zarah 22b:6\">Ab. Zar. 22ᵇ</cite>, v. <cite ref=\"D00111\"><he>דַּגָּלָא</he></cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

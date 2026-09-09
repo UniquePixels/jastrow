@@ -1,0 +1,39 @@
+{
+	"id": "H00414",
+	"slug": "חוסנא",
+	"headword": {
+		"text": "חוּסְנָא"
+	},
+	"page": {
+		"number": 437,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H00413\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fort, castle</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 31:3\">Targ. Ps. XXXI, 3</cite> (h. text <cite ref=\"R00242\"><he>צוּר</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>strength, dominion</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:16\">Targ. Cant. V, 16</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>store-house</i>, v. <cite ref=\"H01404\"><he>חִסְנָא</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

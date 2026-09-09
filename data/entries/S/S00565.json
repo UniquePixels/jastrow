@@ -1,0 +1,23 @@
+{
+	"id": "S00565",
+	"slug": "קורא-5",
+	"headword": {
+		"text": "קוֹרֵא"
+	},
+	"page": {
+		"number": 1341,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"S00565\"><he>קֹרֵא</he></cite>; <cite ref=\"S02018\"><he>קָרָא</he></cite>)<i>partridge</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 12:2\">Ḥull. XII, 2</cite> <he>ק׳ זכר</he> a male partridge (which is believed to join the female in brooding). ",
+				"<cite ref=\"Chullin 140b:12\">Ib. 140ᵇ</cite> <he>ק׳ נקבה</he> a female partridge. Tanḥ. Ki Thetsé 2 <he>הק׳ הזה מביא וכ׳</he> the partridge brings eggs of other birds and hatches them; a. e."
+			]
+		}
+	]
+}

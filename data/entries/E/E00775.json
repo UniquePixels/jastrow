@@ -1,0 +1,24 @@
+{
+	"id": "E00775",
+	"slug": "הפתק",
+	"headword": {
+		"text": "הֶפְתֵּק"
+	},
+	"page": {
+		"number": 363,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פתק</he> <i>to cut, divide off;</i> Var. lect. v. infra) <i>the store-room</i> in the dwelling house out of which the daily portions of provision and work are distributed; also <i>the retailer’s shelves</i> &c., contrad. to <cite ref=\"A00825\"><he>אוצר</he></cite> ware-house. ",
+			"units": [
+				"<cite ref=\"Mishnah Avodah Zarah 2:7\">Ab. Zar. II, 7</cite> (<cite ref=\"Avodah Zarah 39b:13\">39ᵇ</cite>) <he>הבאין מן הה׳</he> the preserved locusts which the merchant takes from the shelves, contrad. to <he>מן הסלולה</he>, those laid out in baskets in front of the counter. ",
+				"<cite ref=\"Avodah Zarah 40b:7\">Ab. Zar. 40ᵇ</cite> <he>מן הה׳ מן האוצר ומן הספינה</he> (not <he>הסלולה</he>, v. Rabb. D. S. a. l. note 5); <cite ref=\"Tosefta Avodah Zarah 4:12\">Tosef. ib. IV</cite> (<cite ref=\"Tosefta Avodah Zarah 5:12\">V</cite>), 12 <he>מן הפתק וכ׳</he> ed. Zuck. (Var. <cite ref=\"E00773\"><he>הפתיק</he></cite>, cmp. <cite ref=\"E00636\"><he>הֶמְסֵס</he></cite> for fusion of article) from the shelves, the ware-room or the ship.—",
+				"<cite ref=\"Shabbat 50a:4\">Sabb. 50ᵃ</cite>; <cite ref=\"Tosefta Shabbat 3:19\">Tosef. ib. III</cite> (<cite ref=\"Tosefta Shabbat 4:19\">IV</cite>), 19 <he>גיזי צמר של ה׳</he> cut wool stored in the pantry (intended for spinning; Rashi: from the merchant’s shelves). [Ar. s. v. <he>אפתק</he> reads: <cite ref=\"A00819\"><he>אוּפְתֵּק</he></cite>, noting a Var. <he>ה׳</he>. One Ms. Ar., a. Mish. ed. Nap. read <cite ref=\"A02648\"><he>אפותיק</he></cite> for <cite ref=\"A00819\"><he>אוּפְתֵּיק</he></cite>, induced by phonetic resemblance to ἀποθήκη. V. Ar. ed. Koh. s. v. <he>אפתק</he>, a. Rabb. D. S. to <cite ref=\"Avodah Zarah 39b\">Ab. Zar. 39ᵇ</cite> note 8.]"
+			]
+		}
+	]
+}

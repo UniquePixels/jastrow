@@ -1,0 +1,27 @@
+{
+	"id": "M01694",
+	"slug": "מן-3",
+	"headword": {
+		"text": "מָן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 796,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M01772\"><he>מָנָה</he></cite>)<i>portion, food</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 12:18\">Num. R. s. 12</cite> (play on <he>א̇ר̇ג̇מ̇ן̇</he>) the sun <he>שיצרו הקב״ה לארוג מן וכ׳</he> whom the Lord has created to weave (ripen) food for creatures; <he>ואין מן אלא פירות וכ׳</he> <i>man</i> means fruits and food (with ref. to <he>וימן</he>, <cite ref=\"Daniel 1:5\">Dan. I, 5</cite>).—Esp. <he>מָּן</he>(<cite ref=\"U01971\"><he>הַ</he></cite>) <i>the manna</i> of the desert. ",
+				"<cite ref=\"Shemot Rabbah 25:8\">Ex. R. s. 25</cite>. Tanḥ. ",
+				"<cite ref=\"Exodus 20\">B’shall. 20</cite>; Mekh. ",
+				"<cite ref=\"Exodus 20\">ib.</cite>, Vayassa, s. 2 <he>אוכלי המן</he> those eating manna (not troubling themselves about to-morrow). ",
+				"<cite ref=\"Yoma 75a\">Yoma 75ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

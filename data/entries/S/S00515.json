@@ -1,0 +1,42 @@
+{
+	"id": "S00515",
+	"slug": "קופליות",
+	"headword": {
+		"text": "קוּפְלָיוֹת"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּפְלָאוֹת"
+		}
+	],
+	"page": {
+		"number": 1338,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (cmp. <cite ref=\"S00510\"><he>קוּפְלָא</he> I</cite>, a. Arab. <i>ḳufl</i> sera, pessulus) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bolts, padlock with chains</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 48\">Gen. R. s. 48</cite>, end <he>לאחד שהיו בידו שתי ק׳ וכ׳</he> (some ed. <cite ref=\"S01096\"><he>קִפְ׳</he></cite>) like one who held in his hand two parts of a lock and took them to the smith &c. ",
+				"<cite ref=\"Tosefta Keilim Metsia 2:3\">Tosef. Kel. B. Mets. II, 3</cite> <he>שרשרת … של ק׳</he> the chain of a padlock. ",
+				"<cite ref=\"Shemot Rabbah 40\">Ex. R. s. 40</cite>, beg. <he>קפ׳ של תורה וכ׳</he> the lock which guards learning is fear of sin (ref. to <cite ref=\"Isaiah 33:6\">Is. XXXIII, 6</cite>). Pesik. Aḥăré, p. 175ᵃ [read:] <he>רמ״ח ק׳ … על רמ״ח איברים שהיו בו</he> the Lord put 248 iron locks on his (Goliath’s) 248 limbs; <cite ref=\"Yalkut Shimoni on Nach 706:3\">Yalk. Ps. 706</cite>; <cite ref=\"Yalkut Shimoni on Nach 126\">Yalk. Sam. 126</cite>; (Midr. Sam. ch. XXI <he>כבלים</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (by adapt. of κεφαλίς) <i>wreaths around a column, capital</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 10:1\">Num. R. s. 10</cite> <he>מה העמודים … ק׳ וכ׳</he> as columns have wreaths above and pedestals beneath &c. (<cite ref=\"Vayikra Rabbah 25\">Lev. R. s. 25</cite> <cite ref=\"S01108\"><he>קיפלוס</he></cite>; <cite ref=\"Shir HaShirim Rabbah 5:15\">Cant. R. to V, 15</cite> <he>קיפלורוסים</he>; Tanḥ. B’har 1 <cite ref=\"K00436\"><he>כותרת</he></cite>); v. <cite ref=\"S01112\"><he>קִיפָלִיס</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

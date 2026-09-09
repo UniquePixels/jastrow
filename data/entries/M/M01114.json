@@ -1,0 +1,23 @@
+{
+	"id": "M01114",
+	"slug": "מיחוס",
+	"headword": {
+		"text": "מֵיחוּס"
+	},
+	"page": {
+		"number": 772,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00408\"><he>חוּס</he></cite>) <i>grace</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 33:11\">Targ. Y. Gen. XXXIII, 11</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 44:21\">Targ. Y. II ib. XLIV, 21</cite> <he>מָחוֹס עיני</he> my gracious look."
+			]
+		}
+	]
+}

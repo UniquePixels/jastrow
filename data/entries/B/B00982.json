@@ -1,0 +1,28 @@
+{
+	"id": "B00982",
+	"slug": "בסיא",
+	"headword": {
+		"text": "בִּסְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּסְיָא"
+		}
+	],
+	"page": {
+		"number": 178,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B00981\">preced.</cite>; = h. <cite ref=\"Q02077\"><he>פְּשִׁיעָה</he></cite>) <i>indifference, willful negligence</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 22:8\">Targ. Y. Ex. XXII, 8</cite> <he>בכו׳</he> (corr. acc.). Y. B. Mets. V, 10ᵇ bot. <he>מתה בב׳</he> if the animal died through negligence; <cite ref=\"Tosefta Bava Metzia 5:10\">Tosef. ib. V, 10</cite> <he>בבוסיא</he> ed. Zuck. (Var. <he>בכ׳</he>). ",
+				"<cite ref=\"Bava Kamma 116b\">B. Kam. 116ᵇ</cite> <he>בבו׳ וכ׳</he> (Var. <he>בכ׳</he>; Ms. M. <he>בבִיסְיָא</he>, <he>בבו׳</he>)."
+			]
+		}
+	]
+}

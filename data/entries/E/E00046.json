@@ -1,0 +1,24 @@
+{
+	"id": "E00046",
+	"slug": "הבלעה",
+	"headword": {
+		"text": "הַבְלָעָה"
+	},
+	"page": {
+		"number": 330,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בלע</he>) [<i>absorption</i>,] <i>payment for a thing included in the bargain</i> (and not mentioned); <i>indirect sale</i> or <i>purchase</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 27b:2\">Erub. 27ᵇ</cite> <he>שנתן דמי … בד׳</he> he paid the full value of the salt and water indirectly (by paying so much more for the oil for which he bargained). ",
+				"<cite ref=\"Bekhorot 31b:13\">Bekh. 31ᵇ</cite> <he>מוכרין אותו בה׳</he> it is sold in connection with other things. ",
+				"<cite ref=\"Nedarim 37a:7\">Ned. 37ᵃ</cite> <he>ה׳ היא</he> the teacher’s fee for the Sabbath lessons is included in the general engagement (by the week, the month &c.)."
+			]
+		}
+	]
+}

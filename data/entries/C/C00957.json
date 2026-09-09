@@ -1,0 +1,29 @@
+{
+	"id": "C00957",
+	"slug": "גלית",
+	"headword": {
+		"text": "גָּלְיַת"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוֹלְיַת"
+		}
+	],
+	"page": {
+		"number": 249,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (b. h.) <i>Goliath</i>, the Philistine. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 8:1\">Sot. VIII, 1</cite> <he>בנצחונו של ג׳</he> relying on the strength of G. ",
+				"<cite ref=\"Sotah 42b:8\">Ib. 42ᵇ</cite> <he>ג̇ל̇י̇ת … בג̇יל̇וי̇ פנים וכ׳</he> he is named G., because he stood before the Lord with barefacedness (defiance). ",
+				"<cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite>; a. fr."
+			]
+		}
+	]
+}

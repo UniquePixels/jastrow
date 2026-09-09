@@ -1,0 +1,34 @@
+{
+	"id": "N01237",
+	"slug": "נקף-5",
+	"headword": {
+		"text": "נֶקֶף"
+	},
+	"page": {
+		"number": 935,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נָקַף</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bruise</i>.—Pl. <he>נְקָפִים</he>. ",
+			"units": [
+				"<cite ref=\"Shabbat 62b:20\">Sabb. 62ᵇ</cite> (expl. <cite ref=\"S01730\"><he>נקפה</he></cite>, <cite ref=\"Isaiah 3:24\">Is. III, 24</cite>); <cite ref=\"Yalkut Shimoni on Nach 264\">Yalk. Is. 264</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>beating</i> (of the heart), <i>scruples, doubt</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 9:4\">Midr. Till. to Ps. IX, 2</cite> <he>שלא יהא בלבי נ׳</he> that there be no struggle in my heart (ed. Bub., a. Yalk. ib. 642: <he>שלא יהא לבי נוֹקֵף</he>, v. <cite ref=\"N01233\"><he>נָקַף</he> I</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

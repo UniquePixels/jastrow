@@ -1,0 +1,31 @@
+{
+	"id": "I00048",
+	"slug": "טבי-1",
+	"headword": {
+		"text": "טָבִי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 516,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (cmp. <cite ref=\"I00050\"><he>טַבְיָא</he></cite>) <i>Tabi</i>. ",
+			"units": []
+		},
+		{
+			"gloss": " a slave. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 2:7\">Ber. II, 7</cite>; a fr.—2) name of several Amoraim. ",
+				"<cite ref=\"Rosh Hashanah 22a:7\">R. Hash. 22ᵃ</cite>. ",
+				"<cite ref=\"Megillah 6b:27\">Meg. 6ᵇ</cite>; a. e.—3) <i>T. Rishba</i> (<i>the hunter</i>, Rashi). ",
+				"<cite ref=\"Shabbat 17b:1\">Sabb. 17ᵇ</cite> top."
+			],
+			"label": "1"
+		}
+	]
+}

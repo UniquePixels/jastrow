@@ -1,0 +1,71 @@
+{
+	"id": "Q01436",
+	"slug": "פצל-1",
+	"headword": {
+		"text": "פָּצַל"
+	},
+	"page": {
+		"number": 1205,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>בצל</he>)<i>to split, peel</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיצֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to split, divide, branch off; to peel, lay bare</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bekhorot 6:5\">Bekh. VI, 5</cite>, v. infra.—Part. pass. <he>מְפוּצָּל</he>; f. <he>מְפוּצֶּלֶת</he>; pl. <he>מְפוּצָּלִים</he>, <he>מְפוּצָּלִין</he>; <he>מְפוּצָּלוֹת</he>. ",
+						"<cite ref=\"Mishnah Menachot 11:6\">Men. XI, 6</cite> (<cite ref=\"Menachot 96a:12\">96ᵃ</cite>) <he>מפ׳ מראשיהן</he> (Mish. ed. <he>מוּפְצָלִין</he>) forked at the top; Tosef. ib. XI, 7; <cite ref=\"Yalkut Shimoni on Torah 369:3\">Yalk. Ex. 369</cite>. ",
+						"<cite ref=\"Chullin 59b:4\">Ḥull. 59ᵇ</cite> <he>מפ׳</he> (<cite ref=\"S02108\"><he>קרנים</he></cite>) forked horns (antlers). ",
+						"<cite ref=\"Yalkut Shimoni on Nach 685:1\">Yalk. Ps. 685</cite>, v. infra."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִפְצִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to split, divide</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bekhorot 6:5\">Bekh. VI, 5</cite> (<cite ref=\"Bekhorot 39b\">39ᵇ</cite>) <he>היה … מַפְצִיל עצם</he> Mish. (Bab. ed. <he>מְפַצֵּל</he>) if the top end (root) of the tail divides the bone (i.e. if the backbone is branched at the place where the tail begins; Rashi <he>מפציל את העצם</he> peels the backbone, i.e. if the end of the backbone is bare of skin and flesh)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to form branches, branch off</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 29a:3\">Yoma 29ᵃ</cite> <he>מה אילה זו קרניה מַפְצִילוֹת לכאן ולכאן אף שחר זה מפציע וכ׳</he> as the antlers of the hind branch off this way and that way, so the light of dawn spreads &c.; (<cite ref=\"Yalkut Shimoni on Nach 685:1\">Yalk. Ps. 685</cite> … <he>מפוצלות … מְפַצֵּל וכ׳</he>). Yoma l. c. <he>כל זמן שמגדלת קרניה מפצילות</he> as long as it grows, its antlers form additional branches every year; Yalk. l. c."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to form streaks, to wrinkle</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 47a:59\">Nidd. 47ᵃ</cite> (expl. <he>משיכסיף</he>) <he>משיפְצִיל ראש החוטם</he> (Ar. <he>משיִפָּצֵל</he>) when the skin of the central circle of the oblate part of the breast appears wrinkled."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִפְצָל"],
+			"senses": [
+				{
+					"gloss": "<i>to be peeled, streaked</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

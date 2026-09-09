@@ -1,0 +1,24 @@
+{
+	"id": "O01317",
+	"slug": "ספדא-1",
+	"headword": {
+		"text": "סָפְדָּא"
+	},
+	"page": {
+		"number": 1011,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01316\">preced.</cite>) <i>mourner</i>, <i>wailer</i>.—Pl. <he>סָפְדַּיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 12:5\">Targ. Koh. XII, 5</cite> (some ed. <he>סוֹפְדַיָּא</he>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 13:45\">Targ. Y. Lev. XIII, 45</cite> <he>ועל ס׳ יהוי מהלך</he> (not <he>ספריא</he>) and he shall go around to the wailers (v. ",
+				"<cite ref=\"Moed Katan 5a\">M. Kat. 5ᵃ</cite>)."
+			]
+		}
+	]
+}

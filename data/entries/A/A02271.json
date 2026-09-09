@@ -1,0 +1,24 @@
+{
+	"id": "A02271",
+	"slug": "אנפוריא",
+	"headword": {
+		"text": "אַנְפּוֹרְיָא"
+	},
+	"page": {
+		"number": 87,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἐμπορία) <i>journey for business, traffic, trade;</i> also <i>merchandise</i>. <he>כלי א׳</he> merchant’s implements (straps, poles &c. for carrying goods). ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 2:2\">B. Mets. II, 2</cite> <he>כלי א׳ אינו וכ׳</he> merchant’s implements (if found) need not be publicly announced (for return to the owner). ",
+				"<cite ref=\"Bava Metzia 23b:10\">Ib. 23ᵇ</cite> sq.; <cite ref=\"Jerusalem Talmud Bava Metzia 2:2:1\">Y. B. Mets. II, beg. 8ᵇ</cite>; <cite ref=\"Tosefta Bava Metzia 2:1\">Tosef. ib. II, 1</cite> (definit. of our w.). ",
+				"<cite ref=\"Midrash Tehillim 109:14\">Midr. Till. to Ps. CXVIII, 20</cite> <he>התקין א׳ שלו</he> arranged his journey with the caravan. [Also <he>אַנְכּוֹרְיָה</he>.]"
+			]
+		}
+	]
+}

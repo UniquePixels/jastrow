@@ -1,0 +1,27 @@
+{
+	"id": "O01006",
+	"slug": "סלמאי",
+	"headword": {
+		"text": "סַלְמַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַלְמַיי"
+		}
+	],
+	"page": {
+		"number": 995,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Salmai</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 28a:10\">Taan. 28ᵃ</cite> (Ms. M. <he>סמלאי</he>); Tosef. ib. IV (III), 8; Y. ib. IV, 68ᵇ bot.; v. <cite ref=\"N00550\"><he>נְטוֹפָתִי</he></cite>."
+			]
+		}
+	]
+}

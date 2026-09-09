@@ -1,0 +1,43 @@
+{
+	"id": "H01303",
+	"slug": "חנך-2",
+	"headword": {
+		"text": "חֲנַךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲנֵיךְ"
+		}
+	],
+	"page": {
+		"number": 484,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01302\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 20:5\">Targ. O. Deut. XX, 5</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַנֵּיךְ"],
+			"senses": [],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחְנִיךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01302\">same</cite>. Ib. <he>חַנְּכֵיה</he> (ed. Berl. <cite ref=\"H01261\"><he>חַנְכֵ׳</he></cite> <i>Pe.</i>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 32:3\">Targ. Y. I Deut. XXXII, 3</cite>, <cite ref=\"Targum Jerusalem, Deuteronomy 32:3\">Targ. Y. II, Deut. XXXII, 3</cite> (sanctified his mouth); a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "S00609",
+	"slug": "קוריים",
+	"headword": {
+		"text": "קוֹרִיִּים"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוֹרִיִּין"
+		}
+	],
+	"page": {
+		"number": 1343,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (denom. of <cite ref=\"S00586\"><he>קוֹרָה</he> III</cite>) <i>those handling the press-beam, pressers</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 71\">Gen. R. s. 71</cite> <he>אף הגיתיות מאחורי הקורים וכ׳</he> (Ar. <he>הנשים … הקורייס</he>; corr. acc.), v. <cite ref=\"C01432\"><he>גִּתִּית</he></cite>; <cite ref=\"Esther Rabbah 3:11\">Esth. R. to I, 10</cite> <he>הקורייס</he> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 6:1:7\">Y. Pes. VI, 33ᵃ</cite> bot. <he>אפי׳ נשים מאחורי הק׳ וכ׳</he> even the women (wine-treaders) behind the pressers knew that David was to be king."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "F00093",
+	"slug": "וריד",
+	"headword": {
+		"text": "וָרִיד"
+	},
+	"page": {
+		"number": 375,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00597\"><he>ירד</he></cite>, cmp. <cite ref=\"J00631\"><he>יָרִיד</he></cite> a. <cite ref=\"J00599\"><he>יַרְדֵּן</he></cite>) <i>the large blood vessel, jugular vein</i> (leading from the head to the heart).—Pl. <he>וְורִידִין</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 2:1\">Ḥull. II, 1</cite> <he>עד שישחוט את הו׳</he> he must sever the jugular veins; <cite ref=\"Tosefta Chullin 2:1\">Tosef. ib. II, 1</cite>.—",
+				"<cite ref=\"Zevachim 25a\">Zeb. 25ᵃ</cite> sq. <he>צריך שׂיתן וו׳ וכ׳</he> he must let the blood of the jugular veins run into the center of the receiving bowl. ",
+				"<cite ref=\"Berakhot 8b:6\">Ber. 8ᵇ</cite>; <cite ref=\"Sanhedrin 96a\">Snh. 96ᵃ</cite> <he>הזהרו בוו׳</he> be careful in slaughtering that you sever the veins, v. supra; a. e."
+			]
+		}
+	]
+}

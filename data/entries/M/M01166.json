@@ -1,0 +1,27 @@
+{
+	"id": "M01166",
+	"slug": "מילדא",
+	"headword": {
+		"text": "מְיַלְּדָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְיַילְּדָא"
+		}
+	],
+	"page": {
+		"number": 774,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = <cite ref=\"M01167\">next w.</cite>—Pl. <he>מְיַלְּדָתָא</he>, <cite ref=\"M01217\"><he>מְיַי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 1:15\">Targ. Y. II, Ex. I, 15</cite> some ed., v. <cite ref=\"J00373\"><he>יְלַדְתָּא</he></cite>."
+			]
+		}
+	]
+}

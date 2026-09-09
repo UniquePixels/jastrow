@@ -1,0 +1,33 @@
+{
+	"id": "A03082",
+	"slug": "אריא",
+	"headword": {
+		"text": "אִרְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִירְיָיא"
+		},
+		{
+			"text": "אִירְיָא"
+		}
+	],
+	"page": {
+		"number": 119,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A03081\"><he>אֲרִי</he></cite>, <cite ref=\"A02944\"><he>אֲרָא</he></cite>) <i>pointing at, argument, topic, subject</i>. ",
+			"units": [
+				"<cite ref=\"Keritot 3b:29\">Kerith. 3ᵇ</cite> <he>גבי כריתות דאי׳ וכ׳</he> in speaking of K’rithoth, where this (the punishment of extinction) is the subject proper, I may say, the general term of Sabbath &c. is introduced (relying on those places in the Mishnah where the respective laws are treated in detail). ",
+				"<cite ref=\"Yoma 74a:9\">Yoma 74ᵃ</cite>, a. fr. <he>אי משום הא לא א׳</he> were it only for this, there would be no argument (no difficulty). ",
+				"<cite ref=\"Keritot 18a:41\">Kerith. 18ᵃ</cite>, a. fr. <he>מאי א׳ כי וכ׳</he> why is the argument brought up only on the presumption (that he has eaten? Supposed, he had not eaten, would not the same argument hold good?). ",
+				"<cite ref=\"Shabbat 101a:5\">Sabb. 101ᵃ</cite>, a. fr. <he>מידי א׳</he> is this an argument (i.e. how can you compare two cases so unlike each other)?"
+			]
+		}
+	]
+}

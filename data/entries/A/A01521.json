@@ -1,0 +1,50 @@
+{
+	"id": "A01521",
+	"slug": "איסתירא",
+	"headword": {
+		"text": "אִיסְתִּירָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְ׳"
+		},
+		{
+			"text": "אִיסְטְרָא"
+		},
+		{
+			"text": "אִיצְטְרָא"
+		}
+	],
+	"page": {
+		"number": 57,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contr. of <he>אסתהרא</he> &c., r. <cite ref=\"O00218\"><he>סהר</he></cite>, <he>צהר</he>; cmp. <cite ref=\"A02570\"><he>אִסְתַּהַר</he></cite> a. <cite ref=\"A01506\"><he>אִיסָר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a silver coin</i>, (with <cite ref=\"G00138\"><he>זוזא</he></cite> or <cite ref=\"Q02072\"><he>פשיטא</he></cite>, or sub. <cite ref=\"G00138\"><he>זוזא</he></cite> &c.) equal to a common (provincial) <i>Sela</i>, or <i>half a Zuz</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 64a:12\">Keth. 64ᵃ</cite>; <cite ref=\"Gittin 45b:11\">Gitt. 45ᵇ</cite>, v. <cite ref=\"I00884\"><he>טרפעיקא</he></cite>. ",
+				"<cite ref=\"Bava Metzia 102b:5\">B. Mets. 102ᵇ</cite>. ",
+				"<cite ref=\"Bekhorot 49b:12\">Bekh. 49ᵇ</cite> <he>א׳ סורסיא</he> Syriac Istira (v. Zuckerm. Talm. Münz. p. 27). ",
+				"<cite ref=\"Kiddushin 11b:8\">Kidd. 11ᵇ</cite>.—Pl. <cite ref=\"A01521\"><he>אִיסְתִּירֵי</he></cite> <cite ref=\"Gittin 14a:9\">Gitt. 14ᵃ</cite> <he>א׳ זוזי</he>. ",
+				"<cite ref=\"Chullin 44b:2\">Ḥull. 44ᵇ</cite> <he>א׳ פשיטי</he>.—",
+				"<cite ref=\"Chullin 105a:12\">Ib. 105ᵃ</cite>. "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Hebr.</i> pl. <he>אִיצְטְרָאוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shekalim 2:4\">Tosef. Shek. II, 4</cite> <he>א׳ של זהב</he> (Var. <cite ref=\"A02396\"><he>אִיסְטְרָאוֹת</he></cite>) <i>gold coins</i> (<i>staters</i>). Y. ib. III, 47ᶜ <he>איצטלי</he> (corr. acc.). [Targ. II Esth. II, 7 <he>יונית אִיסְתֵּירָא</he>, a gloss to <he>ככב נגהא</he>, v. <cite ref=\"A02570\"><he>אִסְתַּהַר</he></cite>, confounding our w. with ἀστήρ.]"
+			],
+			"label": "2"
+		}
+	]
+}

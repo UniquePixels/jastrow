@@ -1,0 +1,49 @@
+{
+	"id": "A00156",
+	"slug": "אבל-5",
+	"headword": {
+		"text": "אֲבֵל"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲבֵיל"
+		}
+	],
+	"page": {
+		"number": 6,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A00155\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 2:8\">Targ. Lam. II, 8</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְאַבֵּל"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"A00159\"><he>אֲבֵלָא</he></cite>) <i>to mourn</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 37:34\">Targ. Gen. XXXVII, 34</cite>; a. fr.—Y. Ab. Zar. I, 39ᶜ top. v. <cite ref=\"A01339\"><he>אִימִירָא</he></cite>. Esth. R. beg. <he>כד ילידת הוו מִתְאַבְּלִין</he> when the Empress gave birth, they (the Jews) mourned (it being the Ninth of Ab). ",
+						"<cite ref=\"Bava Kamma 59b:1\">B. Kam. 59ᵇ</cite> <he>את חשיבא לאִתְאַבּוּלֵי וכ׳</he> ed. (Ms. R. <he>לאַבּוּלֵי</he>, v. infra) art thou distinguished enough to wear mourning for Jerusalem?"
+					]
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אַבֵּל", "אַבֵּיל"],
+			"senses": [
+				{
+					"gloss": ". Ib. <he>מְאַבֵּילְנָא</he> ed. (Ms. F. <he>מאבלנא</he>, v. Rabb. D. S. a. l., note 6) I wear mourning.",
+					"units": []
+				}
+			],
+			"stem": "*Pa."
+		}
+	]
+}

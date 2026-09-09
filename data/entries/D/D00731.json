@@ -1,0 +1,27 @@
+{
+	"id": "D00731",
+	"slug": "דירה-1",
+	"headword": {
+		"text": "דִּירָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 305,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00730\">preced.</cite>) <i>human dwelling</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 10a:13\">Yoma 10ᵃ</cite> <he>בית ד׳</he> a compartment in the Temple designated for a dwelling. ",
+				"<cite ref=\"Yoma 10b:5\">Ib.ᵇ</cite> <he>דִּירַת קבע</he> permanent residence, opp. <he>ד׳ עראי</he>. ",
+				"<cite ref=\"Yoma 10b:6\">Ib.</cite> <he>ד׳ בעל כרחה וכ׳</he> a dwelling not freely chosen (as the High-priests’ in the Temple) is not called a dwelling (to require <i>M’zuzah</i>). ",
+				"<cite ref=\"Yoma 11b:1\">Ib. 11ᵇ</cite> <he>מיוחד לד׳</he>, v. <cite ref=\"J00268\"><he>יָחַד</he></cite>; a. fr.—Pl. <he>דִּירוֹת</he>. ",
+				"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite>; v., however, <cite ref=\"D00727\"><he>דִּיר</he></cite>."
+			]
+		}
+	]
+}

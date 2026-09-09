@@ -1,0 +1,36 @@
+{
+	"id": "J00660",
+	"slug": "ירקון",
+	"headword": {
+		"text": "יֵרָקוֹן"
+	},
+	"page": {
+		"number": 598,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"J00659\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>jaundice</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 25a:2\">Ber. 25ᵃ</cite> … <he>מביא לידי י׳</he> causes jaundice. ",
+				"<cite ref=\"Shabbat 33a:13\">Sabb. 33ᵃ</cite> <he>סימן לשנאת חנם י׳</he> a type of (punishment for) gratuitous hatred is jaundice; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a disease of the grain, mildew</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Taanit 3:5\">Taan. III, 5</cite> (some comment.: ‘a human disease’). ",
+				"<cite ref=\"Ketubot 8b\">Keth. 8ᵇ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

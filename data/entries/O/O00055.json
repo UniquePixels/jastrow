@@ -1,0 +1,23 @@
+{
+	"id": "O00055",
+	"slug": "סביכא",
+	"headword": {
+		"text": "סְבִיכָא"
+	},
+	"page": {
+		"number": 949,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00064\"><he>סְבַךְ</he></cite>) = b. h. <cite ref=\"O00064\"><he>סְבָךְ</he></cite>, <i>thicket</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 74:5\">Targ. Ps. LXXIV, 5</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 20:2\">Targ. II Chr. XX, 2</cite> <he>סְבִיךְ דיקליא</he> (h. text <he>חצצון תמר</he>)."
+			]
+		}
+	]
+}

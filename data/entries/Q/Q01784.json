@@ -1,0 +1,34 @@
+{
+	"id": "Q01784",
+	"slug": "פרי-2",
+	"headword": {
+		"text": "פְּרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּרָא"
+		}
+	],
+	"page": {
+		"number": 1225,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01783\">same</cite><i>to increase, grow</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 18b:6\">B. Bath. 18ᵇ</cite> <he>הדר פָּארֵי</he> it will grow again; <cite ref=\"Bava Batra 19a\">ib. 19ᵃ</cite> top."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"Q01755\"><he>פרח</he></cite>) <i>to run</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 3\">Lam. R. to III, 7</cite> <he>ערקת תורתיה ופרא בתרה</he> Ar. (ed. <he>נפק</he>) his cow ran off, and he ran after her. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:9:7\">Y. Sabb. VI, 8ᶜ</cite> bot. <he>חויא פָרֵי בתרך</he> a serpent is running after thee. ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 5:2:6\">Y. Maas. Sh. V, 56ᵃ</cite> top <he>הוות פַּרְיָא והוה פרי וכ׳</he> she (the cow) ran, and he ran after her &c.; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

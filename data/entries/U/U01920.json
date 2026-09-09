@@ -1,0 +1,38 @@
+{
+	"id": "U01920",
+	"slug": "שרביט",
+	"headword": {
+		"text": "שַׁרְבִיט"
+	},
+	"page": {
+		"number": 1628,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; Parel of <cite ref=\"U00103\"><he>שבט</he></cite> , v. <cite ref=\"U00104\"><he>שֵׁבֶט</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>staff, sceptre, rod</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 2:5\">Snh. II, 5</cite> <he>ואין משתמשין בשַׁרְבִיטוֹ</he> and we dare not use his (the king’s) sceptre. ",
+				"<cite ref=\"Arakhin 19a:39\">Arakh. 19ᵃ</cite>, v. <cite ref=\"K01043\"><he>כָּפַף</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:16\">Cant. R. to II, 16</cite> <he>אין שרביטו</he> … <he>שלבם וכ׳</he> God’s rod (of chastisement) comes down only upon men whose heart is soft like lilies; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>shoot, twig, stem with pods, bunch</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Kilaim 1:10\">Tosef. Kil. I, 10</cite>. ",
+				"<cite ref=\"Mishnah Oktzin 1:5\">Ukts. I, 5</cite> <he>ש׳ של תמרה שריקנו</he> a twig of a date tree which was stripped of its dates. ",
+				"<cite ref=\"Mishnah Oktzin 1:5\">Ib.</cite> <he>וכן בקטניות ש׳ שריקנו</he> and so in the case of summer fruits, if they emptied the pods on a stem."
+			],
+			"label": "2"
+		}
+	]
+}

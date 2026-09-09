@@ -1,0 +1,28 @@
+{
+	"id": "O01284",
+	"slug": "סעודה",
+	"headword": {
+		"text": "סְעוּדָה"
+	},
+	"page": {
+		"number": 1009,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01275\"><he>סָעַד</he></cite>) <i>meal, dinner; feast</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 75b:1\">Yoma 75ᵇ</cite> (ref. to <cite ref=\"Exodus 16:12\">Ex. XVI, 12</cite>) <he>קבע להן זמן ס׳</he> he (Moses) introduced for them fixed meal-times. ",
+				"<cite ref=\"Sukkah 26a:10\">Succ. 26ᵃ</cite> <he>סְעוּדַת קבע</he> a regular full meal, v. <cite ref=\"P01241\"><he>עַרְאַי</he></cite>. ",
+				"<cite ref=\"Tosefta Berakhot 4:10\">Tosef. Ber. IV, 10</cite> <he>מוסרין ס׳ לטבח</he> they put the banquet in charge of the cook; <he>נתקלקל דבר בס׳</he> if anything is wrong in the banquet; <cite ref=\"Bava Batra 93b:12\">B. Bath. 93ᵇ</cite>. Tosef. l. c. 8 <he>סדר הס׳</he> ed. Zuck. (Var. <cite ref=\"E00705\"><he>הֶסֵּיבָּה</he></cite>); a. v. fr.—<he>סעודת ארוסין</he>, <he>ס׳ נישואין</he> &c., v. respective determinants.—",
+				"<cite ref=\"Pirkei Avot 3:16\">Ab. III, 16</cite> <he>הכל מתוקן לס׳</he> everything is prepared for the feast (the hereafter). ",
+				"<cite ref=\"Pesikta Rabbati 41:1\">Pesik. R. s. 41</cite>, end, v. <cite ref=\"G00535\"><he>זָמַן</he></cite>.—Pl. <cite ref=\"O01552\"><he>סְעוּדוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Shabbat 16:2\">Sabb. XVI, 2</cite>. ",
+				"<cite ref=\"Shabbat 117b:11\">Ib. 117ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "M01196",
+	"slug": "מילת-2",
+	"headword": {
+		"text": "מֵילַת"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֶלֶת"
+		}
+	],
+	"page": {
+		"number": 775,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>מָלַל</he> II) [<i>something soft and thick</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lock of wool, wool, down</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 50b:4\">Ḥull. 50ᵇ</cite>; <cite ref=\"Chullin 52b:8\">52ᵇ</cite> (expl. <he>כרס הפנימי</he>) <he>מקום שאין בו מ׳</he> that portion of the stomach which has no downy lining. ",
+				"<cite ref=\"Tosefta Shabbat 4:1\">Tosef. Sabb. IV</cite> (<cite ref=\"Tosefta Shabbat 5:1\">V</cite>), 1; Y. ib. V, 7ᵇ bot. <he>כבונות למי׳</he>, v. <cite ref=\"K00064\"><he>כָּבַן</he></cite>; Bab. ",
+				"<cite ref=\"Shabbat 54a\">ib. 54ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 10b:7\">Ib. 10ᵇ</cite>; a. e.—Pl. <cite ref=\"M01641\"><he>מֵילְתִין</he></cite>, <cite ref=\"M01192\"><he>מֵלְ׳</he></cite>. ",
+				"<cite ref=\"Kohelet Rabbah 1:9:1\">Koh. R. to I, 9</cite> <he>מילתן</he> (corr. acc.), v. <cite ref=\"C00537\"><he>גָּזַז</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ear-lap</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 122:2\">Sifré Deut. 122</cite> <he>אין רוצעים אלא במלת</he> the slave’s ear must be bored through in the lap only; Bech. 37ᵇ; <cite ref=\"Kiddushin 21b:7\">Kidd. 21ᵇ</cite> <he>במילתא</he>; Y. ib. I, 59ᵈ top [read:] <he>דרש רבי יהודח בירבי מן המ׳ היה נרצע</he>.—Pl. as ab. ",
+				"<cite ref=\"Shemot Rabbah 40\">Ex. R. s. 40</cite> <he>במֵלְתָיו</he> (not <he>תין …</he>, expl. in a gloss <he>זה מקום הנזם</he>) hanging on his ear-laps."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "P01319",
+	"slug": "ערוד-2",
+	"headword": {
+		"text": "עָרוֹד",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1114,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P01294\"><he>עָרַד</he></cite>; cmp. <cite ref=\"J00606\"><he>יָרוֹדָא</he></cite>)<i>wild ass</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 8:6\">Kil. VIII, 6</cite> <he>ע׳ מין חיה</he> the <i>ʿarod</i> belongs to the class of beasts of chase (v. <cite ref=\"H00672\"><he>חַיָּה</he> I</cite>). ",
+				"<cite ref=\"Rosh Hashanah 3a:3\">R. Hash. 3ᵃ</cite> (play on <he>ערד</he>, <cite ref=\"Numbers 21:1\">Num. XXI, 1</cite>) <he>שדומה לע׳ במדבר</he> for he (Sihon) was like a wild ass in the desert; a. e.—Pl. <he>עֲרוֹדוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 8:1:2\">Y. Shek. VIII, beg. 51ᵃ</cite> <he>ע׳ היו נוחרין</he> (<he>לאריות</he>) <he>וכ׳</he> (v. Rabb. D. S. a. l., p. 67ᵃ, note 70) in the royal arena in Jerusalem they stabbed wild asses (for the lions), and the pilgrims waded in blood; <cite ref=\"Menachot 103b:20\">Men. 103ᵇ</cite> <he>עֲרוֹדִיאוֹת</he> (Mb. M. <he>עדראות</he>; Ms. C. <he>ערדאות</he>; <cite ref=\"Tosefta Eduyot 3:2\">Tosef. Eduy. III, 2</cite> <he>עֲרָרוֹת</he>, v. <cite ref=\"P00166\"><he>עֵדֶר</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " a species of <i>lizard</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 127a:16\">Ḥull. 127ᵃ</cite>; <cite ref=\"Berakhot 33a:8\">Ber. 33ᵃ</cite>, v. <cite ref=\"H00115\"><he>חֲבַרְבָּר</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

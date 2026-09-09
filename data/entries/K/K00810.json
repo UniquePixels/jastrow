@@ -1,0 +1,25 @@
+{
+	"id": "K00810",
+	"slug": "כמנא",
+	"headword": {
+		"text": "כְּמָנָא"
+	},
+	"page": {
+		"number": 646,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00809\">preced.</cite> wds.) <i>ambush, trap; insidiousness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 9:35\">Targ. Jud. IX, 35</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 13:32\">Targ. II Sam. XIII, 32</cite> (ed. Lag. <cite ref=\"K00801\"><he>כְּמֵינָא</he></cite>; h. text <cite ref=\"U00957\"><he>שימה</he></cite>); a. e.—Pl. <he>כְּמָנַיָּא</he>, constr. <he>כְּמָנֵי</he>. ",
+				"<cite ref=\"Targum of I Chronicles 1:20\">Targ. I Chr. I, 20</cite> (ed. Lag. <cite ref=\"K00801\"><he>כמינא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 10:8\">Targ. Ps. X, 8</cite>; <cite ref=\"Aramaic Targum to Psalms 10:10\">10</cite>.—V. <cite ref=\"K00796\"><he>כָּמוֹנָא</he></cite>."
+			]
+		}
+	]
+}

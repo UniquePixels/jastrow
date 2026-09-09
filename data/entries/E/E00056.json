@@ -1,0 +1,35 @@
+{
+	"id": "E00056",
+	"slug": "הגבהה",
+	"headword": {
+		"text": "הַגְבָּהָה"
+	},
+	"page": {
+		"number": 330,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גבה</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lifting, taking up a found object</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 118a\">B. Mets. 118ᵃ</cite>, v. <cite ref=\"E00033\"><he>הַבָּטָה</he></cite>. ",
+				"<cite ref=\"Bava Batra 76b:3\">B. Bath. 76ᵇ</cite> <he>ה׳ קונה בכל מקום</he> lifting gives possession everywhere (on private or public ground); <cite ref=\"Kiddushin 22b\">Kidd. 22ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>elevation</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 45:5\">Ex. R. s. 45</cite> <he>השפלתי זו הַגְבָּהָתִי</he> my humiliation is my elevation; <cite ref=\"Vayikra Rabbah 1:1\">Lev. R. s. 1</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "S00391",
+	"slug": "קומי-2",
+	"headword": {
+		"text": "קוֹמִי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1333,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (κόμη) <i>hair</i>, esp. <i>the gentile fashion of cutting and wearing the hair</i>; <he>ספר ק׳</he> <i>to trim the front of the hair</i> like a fringe on the forehead (capronæ), and let the curls hang down on the temples (antiæ; v. Sm. Ant. s. v. Coma). Sifra Aḥăré, Par. 9, ch. XIII (ref. to <cite ref=\"Leviticus 18:3\">Lev. XVIII, 3</cite>) <he>שלא תגדל ציצית ושלא תספור ק׳</he> (not <cite ref=\"S01467\"><he>ק׳ שפה</he></cite>, v. Rabad) that thou grow no side-locks and trim not the front. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 83a:3\">B. Kam. 83ᵃ</cite> <he>המספר ק׳ וכ׳</he> he who cuts the <i>coma</i> transgresses the law forbidding the ways of the Amorite. ",
+				"<cite ref=\"Bava Kamma 83a:3\">Ib.</cite> <he>אבטוליס … התירו לו לספר ק׳ וכ׳</he> they allowed A. b. R. to wear his hair in Roman fashion, because he associated with government people; a. e."
+			]
+		}
+	]
+}

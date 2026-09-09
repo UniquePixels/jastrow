@@ -1,0 +1,34 @@
+{
+	"id": "U01828",
+	"slug": "שקד-3",
+	"headword": {
+		"text": "שְׁקַד"
+	},
+	"page": {
+		"number": 1621,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01827\">same</cite>, <i>to watch, be anxious, careful</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 102:8\">Targ. Ps. CII, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 8:34\">Targ. Prov. VIII, 34</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתְּקֵיד"],
+			"senses": [
+				{
+					"gloss": "<i>to be anxious, wait for an opportunity</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 14a:8\">Snh. 14ᵃ</cite> <he>הוה קא מִשְׁתְּקֵיד ר׳ וכ׳</he> (Ms. M. <he>מִשְׁתְּקַד</he>) R. J. was anxious to ordain them; <cite ref=\"Yalkut Shimoni on Nach 96\">Yalk. Sam. 96</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

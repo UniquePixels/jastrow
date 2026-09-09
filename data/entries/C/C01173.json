@@ -1,0 +1,23 @@
+{
+	"id": "C01173",
+	"slug": "גסיטרון",
+	"headword": {
+		"text": "גַּסִּיטְרוֹן"
+	},
+	"page": {
+		"number": 261,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κασσίτερος) <i>tin</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 23b:2\">B. Mets. 23ᵇ</cite> [read:] <he>של ג׳</he>. ",
+				"<cite ref=\"Menachot 28b:4\">Men. 28ᵇ</cite> <he>ושל גיסט׳</he> (corr. acc.); cmp. <cite ref=\"S01660\"><he>קַסִּיטְרָא</he></cite>."
+			]
+		}
+	]
+}

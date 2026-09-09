@@ -1,0 +1,89 @@
+{
+	"id": "B01062",
+	"slug": "בער-1",
+	"headword": {
+		"text": "בָּעַר"
+	},
+	"page": {
+		"number": 182,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בע</he> , v. <cite ref=\"B01026\"><he>בָּעָה</he></cite>; cmp. <cite ref=\"B00041\"><he>בָּאֵר</he></cite>) [<i>to clear</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to burn</i> (act. a. neut.). ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 2:5\">Ex. R. s. 2</cite> <he>אש בּוֹעֶרֶת</he> burning fire. ",
+				"<cite ref=\"Shemot Rabbah 2:5\">Ib.</cite> <he>כשם שהסנה בּוֹעֵר וכ׳</he> as the bush is burning &c. [<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite>, end <he>לבוערים בע״ז</he>, read <he>לבוסרים</he>, v. <cite ref=\"B01010\"><he>בָּסַר</he> I</cite>, Var. <he>לכיפרים</he>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be empty</i>. Denom. <cite ref=\"B01063\"><he>בַּעַר</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to eat up</i>. Denom. <cite ref=\"B01051\"><he>בְּעִיר</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּיעֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to clear, remove</i> (out of existence or out of possession). ",
+					"units": [
+						"<cite ref=\"Pesachim 6a:15\">Pes. 6ᵃ</cite> <he>זקוק לבָעֵר</he> is bound to remove (the leaven by burning or otherwise); a. fr.—",
+						"<cite ref=\"Mishnah Sheviit 7:7\">Shebi. VII, 7</cite> <he>חייב לב׳</he> is bound to remove (dispose of the fruits of the Sabbath year in due time). [<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite> (p. 230ᵇ ed. Amst.) <he>מבערים את העון</he>, read with <cite ref=\"Yalkut Shimoni on Torah 708:5\">Yalk. Num. 708</cite>, <cite ref=\"Sifrei Bamidbar 11:1\">Sifré Num. 11</cite> <he>מערערין</he>; oth. vers. <he>מבררין</he>, v. <cite ref=\"B01335\"><he>בָּרַר</he></cite>.] "
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to clear, eat up</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 2b:20\">B. Kam. 2ᵇ</cite> <he>וּבִעֵר זו השן</he> ‘and it clears’ (<cite ref=\"Exodus 22:4\">Ex. XXII, 4</cite>) this refers to injury by the tooth (animal’s eating). ["
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (b. h.) <i>to start a fire, enkindle</i>. V. <cite ref=\"B01065\"><he>בְּעֵרָה</he></cite>.] ",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִבְעִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to start</i> or <i>entertain a fire, to clear a field</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 20a:5\">Sabb. 20ᵃ</cite> (ref. to <he>לא תבערו וכ׳</he> <cite ref=\"Exodus 35:3\">Ex. XXXV, 3</cite>) <he>בכל … אי אתה מַבְעִיר</he> ‘in all your dwellings’ thou art not permitted to start a fire; v. <cite ref=\"E00048\"><he>הַבְעָרָה</he></cite>. ",
+						"<cite ref=\"Bava Kamma 60b:13\">B. Kam. 60ᵇ</cite> <he>הַבְּעֵרָה שהִבְעַרְתִּי</he> the fire which I set (to Zion). ",
+						"<cite ref=\"Bava Kamma 55b:12\">Ib. 55ᵇ</cite> (ref. to Ex. l. c. 5) <he>עד דעביד כעין מבעיר</he> only when he acts like the one setting fire (to clear the field, i.e. criminal negligence); a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּבְעָר"],
+			"senses": [
+				{
+					"gloss": "<i>to be rekindled, to burn again</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 37a\">Sabb. 37ᵃ</cite>; <cite ref=\"Shabbat 37b\">37ᵇ</cite>"
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

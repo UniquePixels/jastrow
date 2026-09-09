@@ -1,0 +1,26 @@
+{
+	"id": "N01093",
+	"slug": "נצא-1",
+	"headword": {
+		"text": "נַצָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָצָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 927,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (mostly <he>בר נ׳</he>) <cite ref=\"N01092\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:16\">Targ. O. Lev. XI, 16</cite>; <cite ref=\"Deuteronomy 14:15\">Deut. XIV, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 39:26\">Targ. Job XXXIX, 26</cite> (Ms. <cite ref=\"N00744\"><he>נֵיצָא</he></cite>).—Pl. <cite ref=\"R00635\"><he>נֵצָן</he></cite>. Targ. II Esth. I, 2."
+			]
+		}
+	]
+}

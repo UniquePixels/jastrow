@@ -1,0 +1,28 @@
+{
+	"id": "A00719",
+	"slug": "אונא-1",
+	"headword": {
+		"text": "אֲוָנָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲוָונָא"
+		}
+	],
+	"page": {
+		"number": 28,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (v. <cite ref=\"A00718\">foreg.</cite>) <i>Avana</i>, on the Tigris. ",
+			"units": [
+				"<cite ref=\"Kiddushin 71b\">Kidd. 71ᵇ</cite> <he>אכברא וא׳</he> Ar. ed. Koh. (oth. ed. Ar. <cite ref=\"A01667\"><he>אכבדא</he></cite>); Talm. ed. <he>בגדא ואוונא</he> [Var. <cite ref=\"B00077\"><he>בגדת</he></cite>] Okhbara and Avana as bordertowns of Babylonia (v. De Sacy Chrest. Ar. I, p. 358 sq.; Koh. in Ar. s. v.)."
+			]
+		}
+	]
+}

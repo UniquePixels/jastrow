@@ -1,0 +1,40 @@
+{
+	"id": "H00330",
+	"slug": "חולדה-1",
+	"headword": {
+		"text": "חוּלְדָּה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 433,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00981\"><he>חָלַד</he></cite>; cmp. b. h. <cite ref=\"H00982\"><he>חֹלֶד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mole</i>. Y. Ḥag. I, 80ᶜ, v. <cite ref=\"A03277\"><he>אָשׁוּת</he></cite>.—",
+			"units": ["<cite ref=\"Mishnah Kelim 15:6\">Kel. XV, 6</cite>."],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>weasel</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 1:2\">Pes. I, 2</cite>. ",
+				"<cite ref=\"Pesachim 118b\">Ib. 118ᵇ</cite>. ",
+				"<cite ref=\"Taanit 8a:15\">Taan. 8ᵃ</cite> <he>מח׳ ובור</he> from the story about weasel and well (v. comment.). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 14:1:4\">Y. Sabb. XIV, 14ᶜ</cite> top; a. fr.—<he>חוּלְדַּת הַסְּנָאִים</he> (<cite ref=\"O01163\"><he>סְנָאִין</he></cite>, <he>סְנָיִי׳</he>) <i>the porcupine</i>, v. <cite ref=\"H01649\"><he>חַרְזָא</he></cite>. ",
+				"<cite ref=\"Mishnah Kilayim 8:5\">Kil. VIII, 5</cite>. ",
+				"<cite ref=\"Tosefta Bava Kamma 8:17\">Tosef. B. Kam. VIII, 17</cite>.—Pl. <he>חוּלְדּוֹת</he>. ",
+				"<cite ref=\"Vayikra Rabbah 6\">Lev. R. s. 6</cite>, beg.—",
+				"<cite ref=\"Bava Kamma 80a:12\">B. Kam. 80ᵃ</cite> <he>ח׳ הסנאין</he> Ms. H. (ed. <cite ref=\"O01163\"><he>סנאים</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

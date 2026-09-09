@@ -1,0 +1,24 @@
+{
+	"id": "A00604",
+	"slug": "אוזמיאות",
+	"headword": {
+		"text": "אוּזְמְיָאוֹת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 24,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"G00514\"><he>זמי</he></cite>, <he>יזם</he>; comp. <cite ref=\"G00532\"><he>זְמָם</he></cite>, <cite ref=\"R00583\"><he>צמם</he></cite>) <i>knots, fringes</i> (in the weaver’s work). ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Batra 5:4\">Tosef. Kel. B. Bath. ch. V</cite>, end <he>שְׁיָרֵי … והא׳</he> the remnants &c. and the fringes (cut off for finishing)."
+			]
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"id": "G00223",
+	"slug": "זוף-1",
+	"headword": {
+		"text": "זוּף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 389,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>זוב</he>) <i>to drip, be viscid</i>.—V. <cite ref=\"J00264\"><he>זִיף</he></cite> I a. <he>זֶפֶת</he>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זִיֵּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to make thick, viscid; to adulterate</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 48b:17\">Sot. 48ᵇ</cite> (expl. <he>דבש זיפים</he>) <he>דבש שמְזַיְּיפִין בו</he> a honey which is used for mixing with other substances in order to make them appear viscid (differ. in comment.)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be unctuous, false, treacherous</i>. Ib. (ref. to <he>זיפים</he>, <cite ref=\"Psalms 54:2\">Ps. LIV, 2</cite>) <he>בני אדם המְזַיְּיפִין</he> Ar. (Rashi <he>שמזייפין</he>; ed. <he>המ׳ דבריהם</he>) people who are unctuous (ed. who <i>make</i> their words <i>unctuous</i>, i.e. insinuate themselves). ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 26:2\">Sifré Deut. 26</cite> <he>דימה שז׳ משה בתורה</he> it seems as if Moses was not sincere in writing the Law (smoothing over his own shortcomings)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to falsify, forge; to prove the fallacy of, refute; to denounce as false, deny</i>. Y. Sot. VII, 21ᶜ <he>זִיַּיפְתֶּם תורתכם וכ׳</he> ye (Samaritans) have falsified your Torah (adding <cite ref=\"U01170\"><he>שכם</he></cite> to <cite ref=\"Deuteronomy 11:30\">Deut. XI, 30</cite>) but to no purpose; Bab. ",
+					"units": [
+						"<cite ref=\"Sotah 33b\">Sot. 33ᵇ</cite>.—",
+						"<cite ref=\"Sotah 33b:6\">Ib.</cite> <he>בדבר זה זִיַּיפְתִּי ספרי וכ׳</he> with this argument I showed the fallacy of the books of the Samaritans; <cite ref=\"Sanhedrin 90b\">Snh. 90ᵇ</cite>. ",
+						"<cite ref=\"Sanhedrin 90b\">Ib.</cite> <he>זִיַּיפְתֶּם ולא וכ׳</he> Ms. M. (v. Rabb. D. S. a. l. note, ed. <he>ז׳ תורתכם</he>) ye disputed (our evidence from <cite ref=\"Deuteronomy 31:16\">Deut. XXXI, 16</cite>), but it does not avail you (for the idea of resurrection is evident from <cite ref=\"Numbers 15:31\">Num. XV, 31</cite>).—<i>Part. pass.</i> <he>מְזוּיָּיף</he>, f. <he>מְזוּיֶּיפֶת</he> <i>false, informal, faulty</i> (of documents signed by disqualified witnesses). ",
+						"<cite ref=\"Gittin 10b\">Gitt. 10ᵇ</cite> (<cite ref=\"C00598\"><he>גט</he></cite>) <he>מז׳ מתוכו וכ׳</he> a document which has its rejection in itself (being signed by disqualified witnesses, although it would have been valid without the signature of witnesses) is illegal; <cite ref=\"Bava Batra 170a\">B. Bath. 170ᵃ</cite>; a. e.—",
+						"<cite ref=\"Bava Batra 170a:8\">Ib.</cite> <he>ונמצאת עדותן מז׳</he> and their evidence (signature) is found out to be informal (because they are disqualified)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִזְדַּיֵּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to be falsified, forged</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Gittin 2:4\">Gitt. II, 4</cite> <he>מפני שהוא יכול לה׳</he> because (on such writing material) forgery (erasing and writing over) is made easy. ",
+						"<cite ref=\"Gittin 19b:10\">Ib. 19ᵇ</cite> <he>כחב שאינו יכול לה׳</he> a writing which cannot be forged (i.e. written on material dressed with gall-nut, v. <cite ref=\"A02773\"><he>אֲפַץ</he></cite>). [<i>Hif.</i> <cite ref=\"J00263\"><he>הוֹזִיף</he></cite>, v. <cite ref=\"J00263\"><he>יָזַף</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

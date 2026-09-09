@@ -1,0 +1,22 @@
+{
+	"id": "A01982",
+	"slug": "אמגושתא",
+	"headword": {
+		"text": "אַמְגּוּשְׁתָּא"
+	},
+	"page": {
+		"number": 75,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (deriv. of <cite ref=\"A01981\">preced. ws.</cite>) <i>magianism, magian practices</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 75a:3\">Sabb. 75ᵃ</cite> <he>א׳ רב ושמואל</he> Ms. M. (ed. <cite ref=\"M00147\"><he>מגושתא</he></cite>, Var. <cite ref=\"A01980\"><he>אמגושא</he></cite>) as to magianism Rab and Samuel differ, one declaring it to be sorcery, the other—blasphemy."
+			]
+		}
+	]
+}

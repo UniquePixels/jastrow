@@ -1,0 +1,47 @@
+{
+	"id": "D01017",
+	"slug": "דקר-1",
+	"headword": {
+		"text": "דָּקַר"
+	},
+	"page": {
+		"number": 319,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to dig, bore, pierce</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 110a:6\">Sabb. 110ᵃ</cite>, a. e. (explain. <he>מי דקרין</he>, v. <cite ref=\"D01009\"><he>דֶּקֶל</he></cite>) <he>שהם דּוֹקְרִין וכ׳</he> because they make an opening in the bile. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 9:1:5\">Y. Ned. IX, 41ᵇ</cite> bot. <he>ודוֹקְרָהּ בלבו</he> and sticks it (the sword) into his own heart. ",
+				"<cite ref=\"Gittin 56a:17\">Gitt. 56ᵃ</cite>, v. next w.—",
+				"<cite ref=\"Kiddushin 22b\">Kidd. 22ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"D01009\"><he>דֶּקֶל</he></cite>) <i>to spread, branch off</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 13a:9\">Succ. 13ᵃ</cite> Ar.; <cite ref=\"Eruvin 11b\">Erub. 11ᵇ</cite>; <cite ref=\"Eruvin 16a:6\">16ᵃ</cite> <he>קנים הדּוֹקְרִים</he> (<he>הדּוֹקְרִין</he>) reeds which spread, i.e. the top reeds, v. <cite ref=\"D00339\"><he>דּוֹקְרָן</he></cite>.—<i>Part. Pu</i>. <he>מְדוּקָּר</he> <i>ramified</i>, formed like a <cite ref=\"D00339\"><he>דּוֹקְרָן</he></cite>. ",
+				"<cite ref=\"Eruvin 11b\">Erub. 11ᵇ</cite> Ar."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִדְקָר"],
+			"senses": [
+				{
+					"gloss": "<i>to be pierced, stabbed</i>. Tanḥ. Pinḥ. 1; <cite ref=\"Bamidbar Rabbah 21\">Num. R. s. 21</cite>, beg.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

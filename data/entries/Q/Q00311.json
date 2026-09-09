@@ -1,0 +1,55 @@
+{
+	"id": "Q00311",
+	"slug": "פוץ-1",
+	"headword": {
+		"text": "פּוּץ"
+	},
+	"page": {
+		"number": 1145,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to break through</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵפִיץ"],
+			"senses": [
+				{
+					"gloss": "<i>to break through, spread</i>. Y. Snh. I, 19ᵇ sq. [read:] <he>חד אמר … וחרנה אין עושין כל עיקר שמא יָפִיצוּ גוים ויבואו לארץ ישראל ואית דבעי מימר שמא יִפְרְצוּ אויבים ויבואו לידי קרחה</he> one says (in the case of border towns condemned for idolatry, v. <cite ref=\"N00220\"><he>נָדַח</he></cite>), if there are two of them, we do not condemn them to be destroyed, if only one, we do; and another says, if there are several border towns near one another (of which one is to be condemned), we proceed (against the one, because the protection remains unimpaired), but if they are scattered, we do not; and a third one says, we must not destroy a border town under any circumstances, lest ravaging troops break forth and invade Palestine; but some would say (instead), lest a regular enemy invade and find an open country (v. Bab. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 16b\">Snh. 16ᵇ</cite>; <cite ref=\"Tosefta Sanhedrin 14:1\">Tosef. ib. XIV, 1</cite>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["פּוֹצֵץ"],
+			"senses": [
+				{
+					"gloss": "<i>to shatter, shiver, spread</i>. Part. pass. <he>מְפוֹצָץ</he>; f. <he>מְפוֹצֶצֶת</he>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 27\">Lev. R. s. 27</cite> <he>עתידה בת קול להיות מפ׳ … ואומרת וכ׳</he> (not <he>ואומר</he>) in days to come a divine voice will be scattered in all directions (cmp. <cite ref=\"N00751\"><he>נִיצוֹץ</he></cite>) on the top of mountains and proclaim &c."
+					]
+				}
+			],
+			"stem": "Pol."
+		},
+		{
+			"forms": ["הִתְפּוֹצֵץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be shattered</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 30b:8\">Kidd. 30ᵇ</cite> <he>אם ברזל הוא מִתְפּוֹצֵץ</he> if he (the tempter in man’s heart) is of iron, he will be shattered (by the study of God’s word, with ref. to <cite ref=\"Jeremiah 23:29\">Jer. XXIII, 29</cite>)."
+					]
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

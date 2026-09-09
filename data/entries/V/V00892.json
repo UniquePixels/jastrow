@@ -1,0 +1,78 @@
+{
+	"id": "V00892",
+	"slug": "תקל-3",
+	"headword": {
+		"text": "תְּקַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1691,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00891\">same</cite>, <i>to stumble, fail</i> (corresp. to h. <cite ref=\"K01313\"><he>כָּשַׁל</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 8:15\">Targ. Is. VIII, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 31:3\">Ib. XXXI, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 31:11\">Targ. Ps. XXXI, 11</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תַּקֵּל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V00891\">same</cite>. Ib. LVI, 14 (misplaced in ed. Lag. a. oth. under LVII, 3).—2) same.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to clear</i>, v. infra.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְתַּקַּל", "אִתַּקַּל"],
+			"senses": [
+				{
+					"gloss": "; <i>Ithpe.</i> <cite ref=\"V00890\"><he>אִתְּקַל</he></cite>, <cite ref=\"V00892\"><he>אִתְּקִיל</he></cite> (<cite ref=\"V00890\"><he>אִתְקַל</he></cite>) same; also: <i>to be caught, ensnared</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 9:17\">Targ. Ps. IX, 17</cite> (h. text <cite ref=\"J00589\"><he>נוקש</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 105:37\">Ib. CV, 37</cite> <he>למִיתַּקָּלָא</he> Ms. (ed. <he>למַתְקְלָא</he>, corr. acc.). ",
+						"<cite ref=\"Onkelos Deuteronomy 12:30\">Targ. O. Deut. XII, 30</cite> (Y. <he>תִּיתוֹקְלוּן</he>). ",
+						"<cite ref=\"Targum Jonathan on Hosea 14:2\">Targ. Hos. XIV, 2</cite>. ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 9:12\">Targ. Koh. IX, 12</cite> <he>מִיתַּקְּלִין</he> (ed. Vien. <he>מוּתְקָלִין</he> Hebraism); a. fr.—",
+						"<cite ref=\"Bava Kamma 29a\">B. Kam. 29ᵃ</cite> <he>ואִיתְּקִילָא וכ׳</he> (<cite ref=\"A01180\"><he>איהו</he></cite>) <he>איתקיל</he> Ms. M. (ed. <he>דאתקול ואתקילה</he>, read with Rashi <he>דאתקיל</he>) when he stumbled, and the camel stumbled over him."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אַתְקַל", "אַתְקֵיל"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to stumble; to weaken</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Malachi 2:8\">Targ. Mal. II, 8</cite>. ",
+						"<cite ref=\"Aramaic Targum to Lamentations 1:14\">Targ. Lam. I, 14</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 5:11\">Targ. Ps. V, 11</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to remove obstacles, clear</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 54a\">B. Bath. 54ᵃ</cite> <he>האי מאן דא׳ תיקלא וכ׳</he> (Ms. M. <he>דתַקֵיל</he> <i>Pa.</i>) if one clears a field for the sake of the field (to sow) &c.; <cite ref=\"Moed Katan 10b:5\">M. Kat. 10ᵇ</cite> <he>דמַתְקֵיל ארעא</he>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

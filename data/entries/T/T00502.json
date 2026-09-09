@@ -1,0 +1,35 @@
+{
+	"id": "T00502",
+	"slug": "רחימתא",
+	"headword": {
+		"text": "רְחִימְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְחִימְתָא"
+		}
+	],
+	"page": {
+		"number": 1466,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. v. <cite ref=\"T00500\"><he>רְחִים</he> II</cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>love</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 9:1\">Targ. Koh. IX, 1</cite> (ed. Vien. <he>רְחִמְ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Hosea 3:1\">Targ. Hos. III, 1</cite> <cite ref=\"T00500\"><he>רְחִימַת</he></cite> constr. a. fr.—",
+				"<cite ref=\"Sanhedrin 7a:14\">Snh. 7ᵃ</cite> <he>רְחִימְתִּין</he> our love, v. <cite ref=\"O01394\"><he>סַפְסֵירָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

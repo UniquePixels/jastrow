@@ -1,0 +1,41 @@
+{
+	"id": "O01011",
+	"slug": "סלסל",
+	"headword": {
+		"text": "סִלְסֵל"
+	},
+	"page": {
+		"number": 995,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"O01003\"><he>סָלַל</he> I</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to swing, lift up</i>; trnsf. <i>to hold in high esteem</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 7:2:5\">Y. Ber. VII, 11ᵇ</cite> bot.; <cite ref=\"Jerusalem Talmud Nazir 5:3:4\">Y. Naz. V, end, 54ᵇ</cite>; <cite ref=\"Bereishit Rabbah 91\">Gen. R. s. 91</cite>, a. e. it is written in the Book of Ben Sira <he>סַלְסְלֶיהָ ותרוממך ובין וכ׳</he> hold her (the Torah) high, and she will uplift thee and seat thee between princes (v. ",
+				"<cite ref=\"Proverbs 4:8\">Prov. IV, 8</cite>). ",
+				"<cite ref=\"Pesikta Rabbati 20:1\">Pesik. R. s. 20</cite> <he>להרכיבה … ולסַלְסְלָהּ בכל וכ׳</he> to let her ride on an elephant … and raise her among all the nobles of the kingdom; a. e.—<i>Part. pass.</i> <he>מְסוּלְסָל</he> (v. <cite ref=\"O01044\"><he>סֹלֶת</he></cite>) <i>select, sublime</i>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:1\">Cant. R. to I, 1</cite> <he>המעולה שבשירים המס׳ שבשירים</he> the loftiest, the sublimest of songs."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"U01396\"><he>שלשל</he></cite>) <i>to turn, to plait</i>, esp. <i>to curl the hair</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 26:1\">Pesik. R. s. 26</cite> <he>הרי מְסַלְסֵל קווצותיו</he> behold, he (Elijah) curls his locks! <cite ref=\"Megillah 18a:27\">Meg. 18ᵃ</cite>; <cite ref=\"Rosh Hashanah 26b:4\">R. Hash. 26ᵇ</cite> (ref. to <cite ref=\"Proverbs 4:8\">Prov. IV, 8</cite>) the Rabbis did not know what <i>sals’leha</i> meant, until they heard Rabbi’s handmaid say to one twirling his hair, <he>עד מתי אתה מסלסל בשערך</he> how long wilt thou curl thy hair (from which they deduced that <i>sals’leha</i> meant, ‘turn the law in all directions’); <cite ref=\"Nazir 3a:4\">Naz. 3ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Nazir 1:1\">Ib. I, 1</cite> if one vowing uses the expression <he>הריני מסלסֹל וכ׳</he> ‘I will be a hair-curler’, he is a Nazarite; Y. ib. I, 51ᵇ top <he>כאומר הריני מן המְסַלְסְלִין</he> it is as if saying, I will be one of those wearing curled locks. Ib. <he>אֲסַלְסֵל</he> I will curl my hair. ",
+				"<cite ref=\"Midrash Tehillim 80:1\">Midr. Till. to Ps. LXXX</cite> (expl. <cite ref=\"Q02127\"><he>פתואל</he></cite>) <he>שהיה מסלסל בשערו וכ׳</he> he curled his hair like a maiden (v. <cite ref=\"Q02182\"><he>פָּתַל</he></cite>); a. e.—["
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to commit lewdness</i>, v. <cite ref=\"O01003\"><he>סָלַל</he> I</cite>.]—[<cite ref=\"Yalkut Shimoni on Nach 232:2\">Yalk. Kings 232</cite> <he>מסלסלת</he>, v. <cite ref=\"R00543\"><he>צִלְצֵל</he></cite>.]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

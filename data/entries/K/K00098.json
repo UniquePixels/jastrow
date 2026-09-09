@@ -1,0 +1,43 @@
+{
+	"id": "K00098",
+	"slug": "כד-1",
+	"headword": {
+		"text": "כַּד",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּיד"
+		},
+		{
+			"text": "כִּדּ־"
+		},
+		{
+			"text": "כִּידּ־"
+		}
+	],
+	"page": {
+		"number": 612,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (a comp. of <cite ref=\"K00000\"><he>כ</he></cite> a. <cite ref=\"D00000\"><he>ד</he></cite>, corresp. to h. <he>כַּאֲשֶׁר</he> or <cite ref=\"K01294\"><he>כְּשֶׁ־</he></cite>) <i>when, as, as though</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 17:11\">Targ. Ex. XVII, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 119:109\">Targ. Ps. CXIX, 109</cite> <he>כיד על גב</he> Ms. (ed. only <he>ע״ג</he>) as though (carried) on &c.; a. v. fr.—",
+				"<cite ref=\"Targum Jonathan on Isaiah 29:15\">Targ. Is. XXIX, 15</cite> <he>כִּדְבְּקִבְלָא</he> (ed. Lag. <he>כיד בק׳</he>) as though in darkness. ",
+				"<cite ref=\"Onkelos Numbers 29:18\">Targ. O. Num. XXIX, 18</cite> <he>כדחזי</he>, v. <cite ref=\"H00526\"><he>חֲזִי</he></cite>, as it is proper; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:5\">Y. Ab. Zar. III, 42ᶜ</cite> top. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 7:1:5\">Y. Yoma VII, 44ᵇ</cite> top <he>כד דהיא וכ׳</he> when there is &c. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 1:2:4\">Y. Taan. I, 64ᵃ</cite> bot. <he>כד הוינן</he>; Y. Meg. III, 74ᵇ bot. <he>כרי דהוינן</he>, v. <cite ref=\"N00280\"><he>נְהַר</he> I</cite>. ",
+				"<cite ref=\"Bava Kamma 52a:5\">B. Kam. 52ᵃ</cite> (prov.) <he>כד רגיז וכ׳</he> when the shepherd is angry with his flock, he makes a blind sheep the leader. ",
+				"<cite ref=\"Bava Kamma 64b\">Ib. 64ᵇ</cite>, a. fr. <he>כִּדְּאַמְרֵי וכ׳</he> as they say &c. ",
+				"<cite ref=\"Bava Kamma 64b:7\">Ib. 64ᵇ</cite> <he>כִּדְּתָנָא דבי וכ׳</he> as (that which) the scholars of the school of … said. ",
+				"<cite ref=\"Bava Kamma 64b:21\">Ib.</cite> <he>מיבעי ליה לכִדְּתָנִי</he> it is needed for (something like) what has been taught. ",
+				"<cite ref=\"Bava Kamma 64b:11\">Ib.</cite> <he>לְכִדְּרָבָא</he> for what Raba said. ",
+				"<cite ref=\"Bava Metzia 99b:8\">B. Mets. 99ᵇ</cite> <he>כדרבא</he> agreeably to what R. said; a. v. fr.—[<cite ref=\"Bamidbar Rabbah 14:22\">Num. R. s. 14</cite> <he>א״ת כדרבונות אלא כִּדֵּרַבָּניּת</he> read not (<cite ref=\"Ecclesiastes 12:11\">Koh. XII, 11</cite>) <i>kaddarbonoth</i>, but <i>kidd’rabbanuth</i>, like a command of authority.]"
+			]
+		}
+	]
+}

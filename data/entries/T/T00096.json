@@ -1,0 +1,29 @@
+{
+	"id": "T00096",
+	"slug": "רבינא",
+	"headword": {
+		"text": "רָבִינָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רַבִּינָא"
+		}
+	],
+	"page": {
+		"number": 1442,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (= <he>רב אבינא</he>) <i>Rabina, Rabbina</i>, name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 86a\">B. Mets. 86ᵃ</cite>. ",
+				"<cite ref=\"Chullin 43b:15\">Ḥull. 43ᵇ</cite> <he>מר בריה דרב א׳</he>. ",
+				"<cite ref=\"Chullin 46b:6\">Ib. 46ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

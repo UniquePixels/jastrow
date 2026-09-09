@@ -1,0 +1,35 @@
+{
+	"id": "N00890",
+	"slug": "נמר-2",
+	"headword": {
+		"text": "נָמַר"
+	},
+	"page": {
+		"number": 914,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>נִמֵּר</he> (denom. of <cite ref=\"N00889\">preced.</cite>) <i>to give a checkered</i> or <i>striped appearance</i>, esp. <he>נ׳ שדה</he> <i>to take out</i> or <i>cut the ripe plants</i> of a field, leaving the unripe stand for later crops. ",
+					"units": [
+						"<cite ref=\"Mishnah Peah 3:2\">Peah III, 2</cite>. ",
+						"<cite ref=\"Menachot 71b:12\">Men. 71ᵇ</cite> <he>במְנַמֵּר לקליות</he> when he cuts portions of the grain field with the intention of using the ears for roasting; <he>במנמר לאוצר</he> when he cuts for storage.—<i>Part. pass.</i> <cite ref=\"M01745\"><he>מְנוּמָּר</he></cite> <i>striped, speckled</i>. ",
+						"<cite ref=\"Bava Kamma 119b:8\">B. Kam. 119ᵇ</cite> <he>לוקחין מהן בגד מנ׳</he> you may buy from them (weavers) (even) a checkered web (for which they may have used remnants of other people’s wool). ",
+						"<cite ref=\"Gittin 54b:18\">Gitt. 54ᵇ</cite> <he>משום דמיחזי כמנ׳</he> because (if he were to pass his pen over all the Divine Names in the scroll) the writing would look speckled; <cite ref=\"Menachot 29b:16\">Men. 29ᵇ</cite> bot. <he>משום דמיחזי כמ׳</he> it would look speckled (if he were to insert omitted vowel letters). ",
+						"<cite ref=\"Jerusalem Talmud Sukkah 3:10:2\">Y. Succ. III, 53ᵈ</cite> bot.; Y. Maasr. I, 49ᵃ <cite ref=\"E00431\"><he>המ׳</he></cite> a speckled Ethrog."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

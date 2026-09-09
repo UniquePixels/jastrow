@@ -1,0 +1,38 @@
+{
+	"id": "V00962",
+	"slug": "תרומה",
+	"headword": {
+		"text": "תְּרוּמָה"
+	},
+	"page": {
+		"number": 1696,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"T00374\"><he>רוּם</he></cite>)<i>removal</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 22a\">Yoma 22ᵃ</cite>, a. fr. <he>תְּרוּמַת הדשן</he> the removal of the ashes from the altar (v. ",
+				"<cite ref=\"Leviticus 6:3\">Lev. VI, 3</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>lifting,</i>] <i>heave-offering, dedicated object; contribution for the sanctuary; sacred treasure</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shekalim 3:2\">Shek. III, 2</cite>; <cite ref=\"Mishnah Shekalim 4:1\">IV, 1</cite> <he>תרומת הלשכה</he>, v. <cite ref=\"L00707\"><he>לִשְׁכָּה</he></cite>. ",
+				"<cite ref=\"Mishnah Shekalim 4:1\">Ib.</cite> <he>הת׳ מה היו עושין בה</he> what did they do with the treasure (of the half-Shekel contributions)? Y. ib. I, 45ᵈ bot. <he>שלש תרומות … תרומת אדנים ות׳ שקלים ות׳ המשכן</he> three kinds of contributions are spoken of in this section (<cite ref=\"Exodus 25:2\">Ex. XXV, 2</cite> sq.): the contribution for the sockets (ib. XXXVIII, 26 sq.), the contribution of the head-tax (ib. XXX, 12 sq.), and the free-will contributions for the Tabernacle; a. fr.—Esp. <i>T’rumah, the priest’s share of the crop, of dough</i> &c. ",
+				"<cite ref=\"Mishnah Terumot 1:1\">Ter. I, 1</cite> <he>אין תְּרוּמָתָן ת׳</he> what they set aside for the priest’s gift is not legal T’rumah. ",
+				"<cite ref=\"Mishnah Terumot 1:3\">Ib. 3</cite> <he>תְּרוּמָתוֹ ת׳</he> what he set aside is T’rumah. ",
+				"<cite ref=\"Mishnah Terumot 4:3\">Ib. IV, 3</cite> <he>שיעור ת׳ עין יפה וכ׳</he> the proportion of the priest’s gift is, in case of liberality, one-fortieth &c. ",
+				"<cite ref=\"Mishnah Terumot 4:5\">Ib. 5</cite> <he>אחד מעשרה כת׳ מעשר</he> one-tenth, which is as much as the gift of tithes; <he>יתר ממנה יעשנה ת׳ מעשר וכ׳</he> if he took out more than that, let him make it a contribution of tithes (for another pile). Ib. VII, 5 <he>שתי … של ת׳ וכ׳</he> two piles, one containing T’rumah, and the other secular fruit (<cite ref=\"H00351\"><he>חוּלִּין</he></cite>); a. v. fr.—Pl. <he>תְּרוּמוֹת</he>. Y. Shek. l. c. ",
+				"<cite ref=\"Taanit 7b:6\">Taan. 7ᵇ</cite> <he>ביטול ת׳ ומעשרות</he> neglect of the laws concerning T’rumah and tithes; a. fr.—Trnsf. <i>choice</i>. ",
+				"<cite ref=\"Gittin 67a:9\">Gitt. 67ᵃ</cite> <he>מידותי ת׳ מת׳ וכ׳</he>, v. <cite ref=\"M00252\"><he>מִדָּה</he></cite>.—<i>T’rumoth</i> name of a treatise, of the Order of Z’raʿim, of Mishnah, Tosefta, and Talmud Y’rushalmi."
+			],
+			"label": "2"
+		}
+	]
+}

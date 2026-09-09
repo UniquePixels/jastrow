@@ -1,0 +1,27 @@
+{
+	"id": "G00265",
+	"slug": "זיבול",
+	"headword": {
+		"text": "זִיבּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִבּוּל"
+		}
+	],
+	"page": {
+		"number": 390,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00044\"><he>זבל</he></cite>) (<i>idolatrous</i>) <i>sacrificing and merriment</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 6:1\">Pesik. R. s. 6</cite> <he>יום זְבוּל … לזִי׳ נילוס</he> it was the festival of Nilus, and all went out for the entertainment in honor of N.; v. <cite ref=\"G00021\"><he>זְבוּל</he></cite> 3)."
+			]
+		}
+	]
+}

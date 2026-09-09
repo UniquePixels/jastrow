@@ -1,0 +1,59 @@
+{
+	"id": "Q01497",
+	"slug": "פקס-2",
+	"headword": {
+		"text": "פָּקַס",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1209,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"Q00815\"><he>פֶּיקָס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to paint the face with rouge</i> (cmp. φυκόω). ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 10:6\">Sabb. X, 6</cite> <he>וכן הפּוֹקֶסֶת</he> and the same is the case with her who rouges (on the Sabbath); Y. ib. X, end, 12ᵈ <he>הפוקסת חייבת משום צובעה</he> rouging comes under the category of dyeing. Bab. ib. 64ᵇ <he>שלא תכחול ולא תִפְקוֹס</he> that she (the menstruant) must not paint (her eyes) nor rouge. ",
+				"<cite ref=\"Moed Katan 20b:13\">M. Kat. 20ᵇ</cite> <he>אינו רשאי לכוף … ולהיות פוקסת</he> dare not force his wife (mourning for a parent) to paint or rouge; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to make small curls pasted on the forehead</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 94b:11\">Sabb. 94ᵇ</cite> (ref. to <cite ref=\"Mishnah Shabbat 10:6\">Sabb. X, 6</cite>) <he>פוקסת משום טווה</he> curling comes under the category of spinning; ib. 95ᵃ <he>גודלת ופוקסת משום בונה</he> plaiting the hair and curling comes under the category of building."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיקֵּס"],
+			"senses": [
+				{
+					"gloss": "<i>to remove the coils of blossoms on gourds</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maasrot 1:5\">Maasr. I, 5</cite> <he>משיִפָּקְסוּ ואם אינו מְפקֵּס וכ׳</he> are subject to tithes when they are trimmed, and if one does not want to trim &c.; <cite ref=\"Bava Metzia 88b:3\">B. Mets. 88ᵇ</cite>, expl. <he>משינטל פיקס שלהן</he>, v. <cite ref=\"Q00815\"><he>פֶּיקָס</he></cite>. Y. Maasr. I, 49ᵃ <he>היה מפקס ראשון וכ׳</he> (not <he>הוה</he>) if one trims one by one (just when he needs them) and boils &c.; <he>עד שיְפַקֵּס כל צורכו</he> until he has trimmed as many as he wants for immediate use; <cite ref=\"Tosefta Ma'asrot 1:5\">Tosef. ib. I, 5</cite> <he>היה מְפַקֵּיץ ראשין וכ׳</he> ed. Zuck. Var. ",
+						"<cite ref=\"Tosefta Ma'asrot 1:6\">Ib. 6</cite> <he>תורמין … אע״פ שלא פִּיקֵּץ</he> ed. Zuck. (Var. <cite ref=\"Q01496\"><he>פקס</he></cite>) one must give T’rumah of gourds, even if one did not trim them. Y. ",
+						"<cite ref=\"Tosefta Ma'asrot 1:6\">ib.</cite> l. c. <he>פיקס ושילק וכ׳</he> if he trimmed and boiled &c.; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִפְקָס"],
+			"senses": [
+				{
+					"gloss": "<i>to be trimmed</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

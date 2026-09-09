@@ -1,0 +1,24 @@
+{
+	"id": "S02214",
+	"slug": "קשא-2",
+	"headword": {
+		"text": "קַשָּׁא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1428,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02268\"><he>קְשַׁשׁ</he></cite>; cmp. <cite ref=\"S02251\"><he>קַשִּׁישׁ</he></cite>), <cite ref=\"S01770\"><he>בַּר ק׳</he></cite> <i>elder, officer</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 110a:1\">Sabb. 110ᵃ</cite> top. ",
+				"<cite ref=\"Bava Batra 110b:1\">B. Bath. 110ᵇ</cite> top <he>מאן כו לירות אטו בר ק׳ וכ׳</he> (<cite ref=\"K00172\"><he>כּוּ</he></cite> = <he>כְּהוּ</he>, not <cite ref=\"B00198\"><he>בו</he></cite>) who else should be the heir? should the officer of the town be the heir? [oth. opin. (v. <cite ref=\"S02266\"><he>קָשַׁש</he> I</cite>) <i>collector</i>.]"
+			]
+		}
+	]
+}

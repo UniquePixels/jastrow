@@ -1,0 +1,23 @@
+{
+	"id": "M01589",
+	"slug": "מלל-1",
+	"headword": {
+		"text": "מָלָל"
+	},
+	"page": {
+		"number": 792,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"M00482\"><he>מוֹל</he></cite>) <i>border, hem</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 28:7\">Kel. XXVIII, 7</cite>; <cite ref=\"Shabbat 29a:2\">Sabb. 29ᵃ</cite> <he>שלש על … חוץ מן המ׳</he> the measure of three square handbreadths of which the Rabbis speak, means exclusive of the portion used for hemming. ",
+				"<cite ref=\"Moed Katan 26b:2\">M. Kat. 26ᵇ</cite> <he>הקורע … מתוך המ׳</he> he who rends his garment only as far as the hem goes; Y. ib. III, 83ᵇ top <he>מן המ׳</he>.—Denom.:"
+			]
+		}
+	]
+}

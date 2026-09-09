@@ -1,0 +1,28 @@
+{
+	"id": "H00610",
+	"slug": "חטט-4",
+	"headword": {
+		"text": "חֲטָט"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲטָטִים"
+		},
+		{
+			"text": "חֲטָטִין"
+		}
+	],
+	"page": {
+		"number": 448,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"H00607\"><he>חָטַט</he></cite>, cmp. <cite ref=\"H00522\"><he>חֲזָזִית</he></cite>) <i>scab, scurf, sores</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 77b:4\">Yoma 77ᵇ</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 19:4\">Lev. R. s. 19</cite>."
+			]
+		}
+	]
+}

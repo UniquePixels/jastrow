@@ -1,0 +1,31 @@
+{
+	"id": "B00043",
+	"slug": "באר-3",
+	"headword": {
+		"text": "בְּאֵר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּאֵיר"
+		}
+	],
+	"page": {
+		"number": 136,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h., <cite ref=\"B00042\">preced.</cite>) <i>well, spring</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 93\">Gen. R. s. 93</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Eruvin 10:14\">Erub. X, 14</cite> (<cite ref=\"Eruvin 104a\">104ᵃ</cite>; <cite ref=\"Eruvin 104b:4\">104ᵇ</cite>), v. <cite ref=\"E00803\"><he>הָקֵר</he></cite>. ",
+				"<cite ref=\"Taanit 9a:9\">Taan. 9ᵃ</cite> <he>ב׳ בזכות מרים</he> the well in the desert was given to the Israelites for Miriam’s sake; a. fr.—Transf. <i>origin</i>. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 2:4:2\">Y. Sot. II, 18ᵃ</cite> (play on <he>בוראיך</he>, <cite ref=\"Ecclesiastes 12:1\">Koh. XII, 1</cite>) remember <he>בְּאֵירְךָ וכ׳</he> thy well (whence thou camest), thy pit (grave), thy Creator; <cite ref=\"Vayikra Rabbah 18\">Lev. R. s. 18</cite>, beg.—Pl. <he>בְּאֵרוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 2:1:3\">Y. Erub. II, beg. 20ᵃ</cite> <he>ב׳ הקר</he>, v. <cite ref=\"E00803\"><he>הָקֵר</he></cite>. V. <cite ref=\"B00333\"><he>בּוֹר</he> II</cite>."
+			]
+		}
+	]
+}

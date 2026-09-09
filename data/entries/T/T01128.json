@@ -1,0 +1,22 @@
+{
+	"id": "T01128",
+	"slug": "רתחתה",
+	"headword": {
+		"text": "רְתַחְתָּה"
+	},
+	"page": {
+		"number": 1503,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T01127\">preced.</cite> wds.) <i>boiling pot</i>; <he>מעשה ר׳</he> a cooked dish. ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 6:2\">Ned. VI, 2</cite> (<cite ref=\"Nedarim 49a:1\">49ᵃ</cite>) <he>הנודר ממעשה קדרה אינו אסור אלא ממ׳ ר׳</he> (Rashi <cite ref=\"T01128\"><he>רְתַחְתָּא</he></cite>) if a person vows abstinence from ‘what is made in a pot’, he is forbidden only boiled dishes; Y. ib. 39ᶜ bot. <cite ref=\"T00457\"><he>רותחנה</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

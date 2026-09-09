@@ -1,0 +1,23 @@
+{
+	"id": "A03225",
+	"slug": "ארעית",
+	"headword": {
+		"text": "אַרְעִית"
+	},
+	"page": {
+		"number": 125,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A03224\">preced.</cite>) <i>lower portion, bottom</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 7:1:3\">Y. Kil. VII, beg. 30ᵈ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 1:2:4\">Y. Shebi. I, 33ᵇ</cite> top; a. e."
+			]
+		}
+	]
+}

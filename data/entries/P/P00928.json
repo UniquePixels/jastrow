@@ -1,0 +1,32 @@
+{
+	"id": "P00928",
+	"slug": "עמר-2",
+	"headword": {
+		"text": "עֲמַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1090,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"P00928\"><he>עַמֵּר</he></cite> ch. as <cite ref=\"P00927\">preced.</cite> <i>Pi.</i> ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 129:7\">Targ. Ps. CXXIX, 7</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

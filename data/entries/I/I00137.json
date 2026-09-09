@@ -1,0 +1,31 @@
+{
+	"id": "I00137",
+	"slug": "טוורוס",
+	"headword": {
+		"text": "טַוְורוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַוְורוֹס אוּמָנוֹס"
+		},
+		{
+			"text": "אוּמָנִיס"
+		},
+		{
+			"text": "מָנוֹס"
+		}
+	],
+	"page": {
+		"number": 522,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. (Ταῦρος) <i>Taurus Amanus</i> (v. <cite ref=\"A02042\"><he>אֲמָנָה</he> II</cite>, 2) corresp. to <i>Hor-Hahar</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 34:7\">Targ. Y. Num. XXXIV, 7</cite>, sq. (O. <he>הר טורא</he>).—",
+				"<cite ref=\"Targum Jonathan on Numbers 20:22\">Targ. Y. ib. XX, 22</cite>; <cite ref=\"Targum Jonathan on Numbers 20:25\">25</cite>; <cite ref=\"Targum Jonathan on Deuteronomy 32:50\">Targ. Y. I Deut. XXXII, 50</cite> (!) (Y. II a. O. <he>הור טורא</he>)."
+			]
+		}
+	]
+}

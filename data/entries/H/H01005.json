@@ -1,0 +1,44 @@
+{
+	"id": "H01005",
+	"slug": "חלוק-1",
+	"headword": {
+		"text": "חָלוּק",
+		"homograph": 1
+	},
+	"page": {
+		"number": 465,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01112\"><he>חָלַק</he></cite>, v. <cite ref=\"H01113\"><he>חָלָק</he></cite>) <i>plain, smooth garment</i>, in gen. <i>undershirt</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 28:9\">Kel. XXVIII, 9</cite>, v. <cite ref=\"H00430\"><he>חוּץ</he> II</cite>.—",
+				"<cite ref=\"Moed Katan 14a:8\">M. Kat. 14ᵃ</cite>, a. e. <he>כל … אלא ח׳ אחד</he> he who has only one shirt. ",
+				"<cite ref=\"Avodah Zarah 34a:5\">Ab. Zar. 34ᵃ</cite> <he>ח׳ לבן</he> a plain white frock, v. <cite ref=\"A01351\"><he>אִימְּרָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 2:7:2\">Y. Taan. II, 65ᵈ</cite> (ref. to <cite ref=\"I Samuel 7:6\">I Sam. VII, 6</cite>) <he>לבש שמואל חֲלוּקָן וכ׳</he> Samuel put on the common shirt of all Israelites, i.e. included himself among the sinners; a. fr.—Trnsf. "
+			],
+			"senses": [
+				{
+					"gloss": " <i>a shirt-shaped bandage</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 19:2\">Sabb. XIX, 2</cite> (drawn over the circumcised membrum).—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>a row, layer</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Pesachim 1:1:17\">Y. Pes. I, 27ᵇ</cite> bot. <he>מפשיטו ח׳ אחד</he> he strips it of one shirt, i.e. removes one row all around the pile of bottles.—Pl. <he>חֲלוּקִים</he>, <he>חֲלוּקִין</he>, <he>חֲלוּקוֹת</he>. ",
+						"<cite ref=\"Moed Katan 22b:12\">M. Kat. 22ᵇ</cite>. Y. l. c. <he>שני חלקות</he> (read: <he>חלוק׳</he>) two rows. ",
+						"<cite ref=\"Tosefta Kilaim 5:6\">Tosef. Kil. V, 6</cite> <he>שני ח׳</he> two shirts of different materials (<cite ref=\"K00674\"><he>כִּלְאַיִם</he></cite>). Lam. R. introd. (R. Abbahu 2); <cite ref=\"Tosefta Kilaim 5:6\">ib.</cite> to III, 13 <he>והח׳ שלו עליו</he> (the camel) with his covers on; a. fr."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

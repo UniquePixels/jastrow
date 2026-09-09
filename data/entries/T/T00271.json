@@ -1,0 +1,26 @@
+{
+	"id": "T00271",
+	"slug": "רהב-2",
+	"headword": {
+		"text": "רְהַב",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "רְהֵיב"
+		}
+	],
+	"page": {
+		"number": 1453,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00270\">same</cite>, <i>to be proud, arrogant</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 22:8\">Targ. Ps. XXII, 8</cite> <he>ירהבון</he> ed. Lag. (oth. ed. <he>ידחכין</he>; h. text <he>לעג</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 11:3\">Targ. Job XI, 3</cite> ed. Vien. (oth. ed. <he>דחכ׳</he>; ed. Lag. <he>דהיכ׳</he>; corr. acc.)."
+			]
+		}
+	]
+}

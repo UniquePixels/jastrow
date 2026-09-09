@@ -1,0 +1,27 @@
+{
+	"id": "Q01489",
+	"slug": "פקיע-2",
+	"headword": {
+		"text": "פְּקִיעַ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1209,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. m. (<cite ref=\"Q01503\"><he>פְּקַע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>spread, well-known</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 37b:7\">Yeb. 37ᵇ</cite> <he>דפ׳ שמייהו</he> their names are well-known (v. <cite ref=\"Q01503\"><he>פְּקַע</he></cite> <i>Af.</i> 2).—2) = <cite ref=\"B01120\"><he>בְּקִיעַ</he></cite>, <i>expert</i>. ",
+				"<cite ref=\"Bava Batra 164b\">B. Bath. 164ᵇ</cite> <he>ומי פ׳ ובי וכ׳</he> Ar. a. Ms. F. (Ms. M. <cite ref=\"B01118\"><he>בָּקִי</he></cite>; ed. <cite ref=\"B01120\"><he>בְּקִיעַ</he></cite>) is Rabbi an expert in &c.?; a. e.—Pl. <he>פְּקִיעֵי</he>. ",
+				"<cite ref=\"Shevuot 42a\">Shebu. 42ᵃ</cite> Ms. F.; v. <cite ref=\"B01121\"><he>בְּקִיעַ</he> II</cite>."
+			],
+			"label": "1"
+		}
+	]
+}

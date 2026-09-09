@@ -1,0 +1,44 @@
+{
+	"id": "S00075",
+	"slug": "קבלן-2",
+	"headword": {
+		"text": "קַבְּלָן"
+	},
+	"page": {
+		"number": 1310,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קָבַל</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>receiver of stolen goods</i>.—Pl. <he>קַבְּלָנִים</he>, <he>קַבְּלָנִין</he>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 6\">Lev. R. s. 6</cite>, v. <cite ref=\"C00701\"><he>גִּיֵּיד</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 471:4\">Yalk. ib. 471</cite>; <cite ref=\"Yalkut Shimoni on Torah 471:4\">ib.</cite> <he>שאין הכל אלא מן הק׳</he> it is all the fault of the receivers."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>one who assumes another man’s obligation unconditionally</i>, differ. fr. <cite ref=\"P01246\"><he>עָרֵב</he></cite>; <i>surety</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 173b:18\">B. Bath. 173ᵇ</cite> bot. <he>וק׳ אע״פ … מן הק׳</he> but in the case of a <i>Ḳabb’lan</i>, even if the debtor has property, the creditor may sue the surety. ",
+				"<cite ref=\"Bava Batra 174a:5\">Ib. 174ᵃ</cite> <he>תן לו ואני ק׳ … לשון קבלנות הן</he> when one says, give him (not, lend him), and I am surety, give him, and I will pay …, all these phrases mean absolute assumption of the obligation; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>contractor, a hired man paid for certain work</i> when it is done, contrad. from day-laborer; also <i>tenant of land at a fixed rent</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Metzia 7:3\">Tosef. B. Mets. VII, 3</cite>, v. <cite ref=\"S00078\"><he>קַבְּלָנוּת</he></cite>. ",
+				"<cite ref=\"Mishnah Sheviit 3:9\">Shebi. III, 9</cite> <he>והק׳ מביא מכל מקום</he> and the building contractor may take stones (during the Sabbatical year) from any place; [oth. opin.: <i>the tenant</i> etc.]—Pl. <he>קַבְּלָנִים</he>, <he>קַבְּלָנִין</he>. ",
+				"<cite ref=\"Moed Katan 11b\">M. Kat. 11ᵇ</cite> <he>הק׳</he>; Y. ib. III, 82ᵇ bot. <he>קַבָּלָיו</he> (from <cite ref=\"S00062\"><he>קַבָּל</he></cite>) his laborers hired for a certain work."
+			],
+			"label": "3"
+		}
+	]
+}

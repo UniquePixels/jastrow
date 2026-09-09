@@ -1,0 +1,34 @@
+{
+	"id": "S01696",
+	"slug": "קפא-3",
+	"headword": {
+		"text": "קַפָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1398,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קפף</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>trunk, vine</i>, v. <cite ref=\"S00490\"><he>קוֹפָא</he> II</cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"S00490\"><he>קוֹפָא</he> II</cite>, 1) <i>pole, beam</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 56b:6\">Ber. 56ᵇ</cite>, v. <cite ref=\"D00697\"><he>דִּיקָא</he></cite>. ",
+				"<cite ref=\"Berakhot 56b:6\">Ib.</cite> <he>זיל חזי ק׳ דריש עשרה וכ׳</he> go and examine the beam which heads the number ten, and you shall find (in number eleven) &c.; v., however, <cite ref=\"S01695\">preced.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

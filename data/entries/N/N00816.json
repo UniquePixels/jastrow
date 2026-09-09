@@ -1,0 +1,23 @@
+{
+	"id": "N00816",
+	"slug": "נכזריא",
+	"headword": {
+		"text": "נַכְזְרָיָא"
+	},
+	"page": {
+		"number": 910,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A01679\"><he>אַכְזָר</he></cite>) <i>cruel</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 11:17\">Targ. Prov. XI, 17</cite> (ed. Lag. <cite ref=\"N00359\"><he>נוכריא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 17:11\">Ib. XVII, 11</cite> (ed. Wil. <he>נוּכְזְ׳</he>)."
+			]
+		}
+	]
+}

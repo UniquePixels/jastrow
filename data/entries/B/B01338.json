@@ -1,0 +1,25 @@
+{
+	"id": "B01338",
+	"slug": "ברשאן",
+	"headword": {
+		"text": "ברשאן",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּרְשָׁן"
+		}
+	],
+	"page": {
+		"number": 198,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", Ar. (s. v. <he>בר</he>) <he>בר שאן</he>, <i>in ecstacy</i> (?); <i>naked</i> (?). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 19:25\">Targ. I Sam. XIX, 25</cite> (v. Rashi a. l.; h. text <he>ערום</he>; Var. lect. <cite ref=\"B00746\"><he>ביישן</he></cite>)."
+			]
+		}
+	]
+}

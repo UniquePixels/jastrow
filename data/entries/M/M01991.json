@@ -1,0 +1,29 @@
+{
+	"id": "M01991",
+	"slug": "מספק",
+	"headword": {
+		"text": "מִסְפְּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִי׳"
+		}
+	],
+	"page": {
+		"number": 810,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סָפַק</he> II; v. <cite ref=\"O01407\"><he>סָפֵק</he></cite>) <i>strait, dilemma; difficulty</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 3:5:2\">Y. Sot. III, 19ᵃ</cite> bot. <he>הכניסה עצמה למ׳ הזה המרובה</he> she placed herself in such a dilemma (to be suspected of adultery and to have to drink the waters of jealousy). ",
+				"<cite ref=\"Jerusalem Talmud Gittin 8:8:2\">Y. Gitt. VIII, 49ᶜ</cite> bot. <he>מה ראית להכניס עצמך למי׳ הזה וכ׳</he> what was thy reason for taking such a responsibility (by deciding in favor of a lenient opinion)?—",
+				"<cite ref=\"Esther Rabbah 5:3\">Esth. R. to II, 3</cite> <he>באו לידי המ׳ הזה</he> they (the Persian matrons) came to that trouble (to have to compete with all maidens of the country); a. e."
+			]
+		}
+	]
+}

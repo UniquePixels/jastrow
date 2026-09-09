@@ -1,0 +1,23 @@
+{
+	"id": "E00038",
+	"slug": "הבירא",
+	"headword": {
+		"text": "הֲבִירָא"
+	},
+	"page": {
+		"number": 329,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>הבר</he>, cmp. <he>הבל</he>) <i>vapor, mist, darkness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 4:19\">Targ. Prov. IV, 19</cite> Ar. (ed. Lag. <cite ref=\"H00077\"><he>חֲבִירָא</he></cite>, oth. ed. <cite ref=\"H00933\"><he>חכירא</he></cite>, <he>חכירה</he>). Ib. VII, 9 (ed. Lag. <cite ref=\"H00078\"><he>חֲבִירָה</he></cite>, oth. ed. <he>חכירה</he>).—Pl. <he>הֲבִירַיָּיא</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 35:6\">Targ. Ps. XXXV, 6</cite> Lev. (ed. Lag. <he>חכירייא</he>, ed. Wil. <he>חסירא</he>, corr. acc.; Ms. <he>חַבִּירְיָאתָא</he>; h. text <he>חלקלקות</he>) V. <cite ref=\"E00050\"><he>הַבְרָא</he></cite>."
+			]
+		}
+	]
+}

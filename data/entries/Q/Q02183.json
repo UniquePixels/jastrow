@@ -1,0 +1,31 @@
+{
+	"id": "Q02183",
+	"slug": "פתל-2",
+	"headword": {
+		"text": "פְּתַל"
+	},
+	"page": {
+		"number": 1255,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q02182\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>פַּתֵּיל</he> <i>to pervert</i>. Part. pass. <he>מְפַתַּל</he>; pl. <he>מְפַתְּלִין</he>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 2:15\">Targ. Prov. II, 15</cite> (ed. Wil. <he>מִפַּ׳</he> <i>Ithpa.</i>; h. text <he>נלוזים</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

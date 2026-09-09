@@ -1,0 +1,40 @@
+{
+	"id": "H00106",
+	"slug": "חבק-3",
+	"headword": {
+		"text": "חֶבֶק"
+	},
+	"page": {
+		"number": 421,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00105\">preced.</cite> wds.) <i>junction;</i>",
+			"units": []
+		},
+		{
+			"gloss": "<i>loop of ribands on the shoe, ankle loop</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 58a:26\">Nidd. 58ᵃ</cite> <he>עד מקום ה׳</he> the part of the leg to the place where the loop sits (is called the inside of the leg); <he>וח׳ עצמו</he> and (if blood is found) on the ankle itself. [Oth. opin.: ‘the place where the leg meets the thigh in a squatting position’, Ar.—‘the knee-hole with its sinews’, Rashi.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>riband around the neck.—</i>Pl. <he>חֲבָקִין</he>. ",
+			"units": ["<cite ref=\"Shabbat 57a:16\">Sabb. 57ᵃ</cite>"],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>a band with which the saddle or housing of an animal is fastened around its belly;</i> [oth. opin.: <i>the housing itself</i>]. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 19:3\">Kel. XIX, 3</cite>. Sifra Sh’mini, Sh’rats., Par. 6, ch. VIII; <cite ref=\"Shabbat 64a\">Sabb. 64ᵃ</cite>. ",
+				"<cite ref=\"Bava Batra 78a\">B. Bath. 78ᵃ</cite>, v. <cite ref=\"S00988\"><he>קִילְקִי</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

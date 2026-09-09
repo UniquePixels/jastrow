@@ -1,0 +1,50 @@
+{
+	"id": "P00340",
+	"slug": "עוקץ",
+	"headword": {
+		"text": "עוּקָץ"
+	},
+	"page": {
+		"number": 1057,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01211\"><he>עָקַץ</he></cite>) [<i>tail, end</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": " (= <cite ref=\"S00534\"><he>קוֹץ</he></cite>) <i>thorn, point, prick, sting</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 14:4:5\">Y. Sabb. XIV, 14ᵈ</cite> top <he>עוּקַץ עקרב</he> Scorpion’s Tail (name of a plant); <cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:4\">Y. Ab. Zar. II, 40ᵈ</cite> top. ",
+				"<cite ref=\"Bereishit Rabbah 12\">Gen. R. s. 12</cite> <he>והע׳ שלו למעלה</he> the pointed stroke of the letter <i>He</i> is directed upwards. ",
+				"<cite ref=\"Mishnah Kelim 13:5\">Kel. XIII, 5</cite>; <cite ref=\"Shabbat 52b:14-15\">Sabb. 52ᵇ</cite> <he>מחט … עוּקצָהּ</he> a needle whose point is broken off (v. <cite ref=\"H00447\"><he>חוֹר</he> I</cite>); a. e.—Esp. <i>the peduncle of fruits</i>. ",
+				"<cite ref=\"Mishnah Sukkah 3:6\">Succ. III, 6</cite> <he>נטל עוּקְצוֹ</he> if its (the Ethrog’s) peduncle is off. ",
+				"<cite ref=\"Mishnah Oktzin 1:6\">Ukts. I, 6</cite>; a. fr.—Pl. <he>עוּקְצִים</he>, <he>עוּקְצִין</he>. ",
+				"<cite ref=\"Vayikra Rabbah 30:10\">Lev. R. s. 30</cite> <he>תמרה יש בה אוכל ויש בה ע׳</he> on the palm there is eatable fruit and there are prickles. Ukts. l. c. <he>עוּקְצֵי תאנים</he> the peduncles of figs; a. fr.—<i>‘Uḳtsim, ‘Uktsin</i>, name of a treatise of the Mishnah and Tosefta, of the Order of Toharoth. ",
+				"<cite ref=\"Horayot 13b:15\">Hor. 13ᵇ</cite> <he>ניתי מר וניתני בע׳</he> come, sir, lecture on ‘Uktsin. ",
+				"<cite ref=\"Horayot 13b:13\">Ib.</cite> <he>גלי עֻקְצִים</he> explain ‘U."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= b. h. <cite ref=\"P01103\"><he>עָצֶה</he></cite>) [<i>spine</i>,] <i>haunch</i> (<i>with tail</i>). ",
+			"units": [
+				"<cite ref=\"Mishnah Tamid 3:1\">Tam. III, 1</cite>. ",
+				"<cite ref=\"Mishnah Tamid 4:3\">Ib. IV, 3</cite>. ",
+				"<cite ref=\"Chullin 93a\">Ḥull. 93ᵃ</cite>; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (= <cite ref=\"S01788\"><he>קָצֶה</he></cite>) <i>corner, recess</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 5:2:7\">Y. Dem. V, 24ᶜ</cite> bot. <he>בתחלת כל ע׳ וע׳</he> (not <he>בתחלה</he>) at the beginning of each corner (in which fruits are piled up)."
+			],
+			"label": "3"
+		}
+	]
+}

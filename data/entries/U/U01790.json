@@ -1,0 +1,24 @@
+{
+	"id": "U01790",
+	"slug": "שפעה-1",
+	"headword": {
+		"text": "שִׁפְעָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1619,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שָׁפַע</he> I) <i>smoothing, planing</i>.—שִׁפְעַת קורה <i>smooth-trimmed trunk</i> (of a palm tree). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 41\">Gen. R. s. 41</cite>, beg. <he>ש׳ קורות להקרות וכ׳</he> the planed trunks (of the palm tree) are used for ceiling the house; <cite ref=\"Bamidbar Rabbah 3\">Num. R. s. 3</cite>, beg.; <cite ref=\"Yalkut Shimoni on Nach 845\">Yalk. Ps. 845</cite> <he>ש׳ קוֹרֶיהָ</he>. ",
+				"<cite ref=\"Kohelet Rabbah 3:11\">Koh. R. to III, 11</cite> <he>ש׳ קורייס</he> (read <cite ref=\"S00587\"><he>קוֹרָה</he></cite>), v. <cite ref=\"U01786\"><he>שָׁפַע</he></cite>."
+			]
+		}
+	]
+}

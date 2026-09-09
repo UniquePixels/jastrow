@@ -1,0 +1,39 @@
+{
+	"id": "J00647",
+	"slug": "ירמיה",
+	"headword": {
+		"text": "יִרְמְיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "יִרְמְיָהוּ"
+		}
+	],
+	"page": {
+		"number": 597,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Jeremiah</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " J. the prophet. Pesik. Dibré, p. 114ᵇ <he>י׳ ר̇ם̇ י̇ה̇</he> he is named J., because in his days the Lord (Shekhinah) moved from place to place; <cite ref=\"Yalkut Shimoni on Nach 257:1\">Yalk. Jer. 257</cite> <he>י׳ י̇ר̇ם̇ י̇ה̇</he>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 257:1\">Ib.</cite> … <he>י׳ שבימיו א̇ר̇י̇מ̇י̇ן̇</he> he is called J., because in his days the Temple became deserted; Koh. R. beg., v. <cite ref=\"A01610\"><he>אֱירֶימִיאָה</he></cite>. ",
+				"<cite ref=\"Megillah 14b:5\">Meg. 14ᵇ</cite>. ",
+				"<cite ref=\"Sanhedrin 95a:1\">Snh. 95ᵃ</cite>; a. v. fr.—(<he>ספר</he>) <cite ref=\"T00001\"><he>ר׳</he></cite> the Book of Jeremiah. ",
+				"<cite ref=\"Bava Batra 14b:8\">B. Bath. 14ᵇ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of several Amoraim, esp. R. J., pupil of R. Zera. Ib. 23ᵇ <he>ועל דא אפקוה לר׳ י׳ וכ׳</he> for this (burlesque question) they ejected R. J. from college. Ib. 165ᵇ <he>עיילוה לר׳ י׳ וכ׳</he> upon this (reply) they reinstated R. J.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:1:7\">Y. M. Kat. III, 81ᵈ</cite> bot.; a. fr.—V. Fr. M’bo p. 108ᵃ; 118ᵇ"
+			],
+			"label": "2"
+		}
+	]
+}

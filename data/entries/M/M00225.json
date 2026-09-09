@@ -1,0 +1,34 @@
+{
+	"id": "M00225",
+	"slug": "מגררת",
+	"headword": {
+		"text": "מַגְרֶרֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְגוֹרֶרֶת"
+		},
+		{
+			"text": "מַגְרֵדָה"
+		},
+		{
+			"text": "מַגְרֶדֶת"
+		}
+	],
+	"page": {
+		"number": 730,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גָּרַר</he> I, v. <cite ref=\"C01268\"><he>גָּרַד</he></cite>) <i>strigil</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 16:19\">Tosef. Sabb. XVI</cite> (<cite ref=\"Tosefta Shabbat 17:19\">XVII</cite>), 19 <he>אין מתגררין במגו׳</he> ed. Zuck. (Var. <he>מגרדין במגרדת</he>); <cite ref=\"Shabbat 147b:13\">Sabb. 147ᵇ</cite> <he>אין גוררין במגרר׳</he>, v. <cite ref=\"C01392\"><he>גָּרַר</he> I</cite>.—Pl. (<he>מַגְרֵדוֹת</he>) <he>מַגְרֵרוֹת</he>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 2:12\">Tosef. Kel. B. Mets. II, 12</cite> <he>מגרר׳</he> ed. Zuck.; <cite ref=\"Mishnah Kelim 12:6\">Kel. XII, 6</cite> (<he>מגרד׳</he>) <he>מגריד׳</he>."
+			]
+		}
+	]
+}

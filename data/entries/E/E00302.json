@@ -1,0 +1,23 @@
+{
+	"id": "E00302",
+	"slug": "הזמנה",
+	"headword": {
+		"text": "הַזְמָנָה"
+	},
+	"page": {
+		"number": 342,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00536\"><he>זמן</he></cite>) <i>preparation, designation</i> of an object for a certain purpose. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 47b:16\">Snh. 47ᵇ</cite>, a. e. <he>ה׳ מילתא</he> designation is a reality, i.e. the designation of an object for a certain (sacred) purpose is equal to its having been used. ",
+				"<cite ref=\"Beitzah 26b:18\">Bets. 26ᵇ</cite> <he>ה׳</he> designation for use on the coming Holy Day; a. e."
+			]
+		}
+	]
+}

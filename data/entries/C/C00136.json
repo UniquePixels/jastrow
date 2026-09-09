@@ -1,0 +1,22 @@
+{
+	"id": "C00136",
+	"slug": "גברית",
+	"headword": {
+		"text": "גַּבְרִית"
+	},
+	"page": {
+		"number": 209,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"C00130\"><he>גֶּבֶר</he></cite>) <i>cock-like</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 67b:5\">Sabb. 67ᵇ</cite> kill this hen <he>שקרתה ג׳</he> for she crowed like a cock (a superstitious practice); (Tosef. ib. VI (VII), 5 <he>שקראה כזכר</he>)."
+			]
+		}
+	]
+}

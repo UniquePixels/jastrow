@@ -1,0 +1,80 @@
+{
+	"id": "K00817",
+	"slug": "כמר-1",
+	"headword": {
+		"text": "כָּמַר"
+	},
+	"page": {
+		"number": 647,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., v. <he>כָּמַהּ</he>, ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>to heat</i>,] <i>to make</i> <cite ref=\"K00290\"><he>כּוֹמֶר</he></cite> (v. <cite ref=\"K00290\"><he>כּוֹמֶר</he> I</cite>), <i>to produce shrinking and maturing of fruits by underground storage</i> or <i>by exposure to the sun</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Menahot 9:10\">Tosef. Men. IX, 10</cite> <he>לא היו … וכוֹמְרִין אותן</he> (Var. <he>וכורמין</he>) they did not cut the grapes and let them shrink (before putting them in the press), but cut and immediately pressed them. ",
+				"<cite ref=\"Bava Metzia 89b:3\">B. Mets. 89ᵇ</cite> <he>ולא יִכְמוֹר באדמה וכ׳</he> (Ar. <he>יְכַמֵּר</he> <i>Pi.</i>, v. Rabb. D. S. a. l. note 90) the laborer must not hide grapes in the ground (to eat them afterwards)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (trnsf.) <i>to watch, guard</i>.—Denom. <cite ref=\"K00291\"><he>כּוֹמֶר</he> II</cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to lay a trap</i>, v. infra.",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּימֵּר"],
+			"senses": [],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִכְמִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to hide in the ground, heat</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maasrot 4:1\">Maasr. IV, 1</cite>, v. <cite ref=\"K00807\"><he>כָּמַן</he></cite>. B. Mets. l. c., v. supra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"M01407\"><he>מִכְמָר</he></cite>) <i>to lay a trap, net</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Yevamot 14:6\">Tosef. Yeb. XIV, 6</cite> <he>שהיו מְכַמְּרִין מכמרות</he> that were laying nets; <cite ref=\"Yevamot 121a\">Yeb. 121ᵃ</cite> <he>מְכַ׳ מכמורין</he>; Y. ib. XVI, 15ᵈ top <he>לִכְמוֹר מ׳</he>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִכְמַר"],
+			"senses": [
+				{
+					"gloss": "<i>to shrink, fall in by the effect of the heat, to tumble inward</i>. Y. B. Mets. X, beg. 12ᶜ <he>נ׳ כתנור</he> if the house fell in like a furnace, opp. <he>נפל לחוץ</he>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (trnsf.) with <cite ref=\"T00526\"><he>רחמים</he></cite>, <i>to be bent over, to feel compassion</i> (cmp. <cite ref=\"C00869\"><he>גִּלְגֵּל</he></cite>). ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 150:1\">Yalk. Gen. 150</cite> <he>נִכְמְרוּ רחמיו של יוסף</he> Joseph was moved to compassion; (Tanḥ. Vayigg. 4 <he>נתגלגלו ר׳</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

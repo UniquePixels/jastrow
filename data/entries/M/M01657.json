@@ -1,0 +1,22 @@
+{
+	"id": "M01657",
+	"slug": "ממזיג",
+	"headword": {
+		"text": "מַמְזִיג"
+	},
+	"page": {
+		"number": 794,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00713\"><he>מְזַג</he></cite>) <i>druggist</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 30:25\">Targ. Y. Ex. XXX, 25</cite>; <cite ref=\"Targum Jonathan on Exodus 30:35\">35</cite>, v. <cite ref=\"M00713\"><he>מְזַג</he></cite>."
+			]
+		}
+	]
+}

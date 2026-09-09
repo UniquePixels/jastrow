@@ -1,0 +1,31 @@
+{
+	"id": "O01196",
+	"slug": "סנהדרי-2",
+	"headword": {
+		"text": "סַנְהֶדְרִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַנְהֶדְרִין"
+		},
+		{
+			"text": "סַנְדְּרִי"
+		}
+	],
+	"page": {
+		"number": 1005,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O01195\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 25:4\">Targ. Y. II, Num. XXV, 4</cite>. Targ. Y. I ib. 7. ",
+				"<cite ref=\"Targum of I Chronicles 18:17\">Targ. I Chr. XVIII, 17</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 16a:17\">Snh. 16ᵃ</cite>; a. fr.—Pl. <he>סַנְהֶדְרְיָיתָא</he>, <cite ref=\"O01191\"><he>סַנְדַּרְיָיתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 24:12\">Targ. Y. I Lev. XXIV, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 9:8\">Targ. Y. I Num. IX, 8</cite>; a. fr."
+			]
+		}
+	]
+}

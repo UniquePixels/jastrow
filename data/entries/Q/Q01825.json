@@ -1,0 +1,21 @@
+{
+	"id": "Q01825",
+	"slug": "פריצא-2",
+	"headword": {
+		"text": "פְּרִיצָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1227,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01969\"><he>פְּרַץ</he></cite>) <i>breach.—</i>Pl. <he>פְּרִיצִין</he>. Targ. II Esth. III, 8 (ed. Lag. <cite ref=\"Q00842\"><he>פִּירְצִין</he></cite>).",
+			"units": []
+		}
+	]
+}

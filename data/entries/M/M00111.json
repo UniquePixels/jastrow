@@ -1,0 +1,22 @@
+{
+	"id": "M00111",
+	"slug": "מגביתא",
+	"headword": {
+		"text": "מַגְבִּיתָא"
+	},
+	"page": {
+		"number": 726,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (dial. for <he>מגפיתא</he>; <cite ref=\"N00182\"><he>נְגף</he></cite>; cmp. Sam. <he>מגופי</he>, <cite ref=\"Leviticus 19:14\">Lev. XIX, 14</cite>, a. <he>מגבי</he> <cite ref=\"Exodus 23:33\">Ex. XXIII, 33</cite>; v. Fränkel Zeitschr. f. Assyriol., April 1894, p. 3) <i>stumbling block</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 3:6\">Targ. Is. III, 6</cite> (h. text <he>מכשלה</he>)."
+			]
+		}
+	]
+}

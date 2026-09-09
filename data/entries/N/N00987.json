@@ -1,0 +1,33 @@
+{
+	"id": "N00987",
+	"slug": "נעל-2",
+	"headword": {
+		"text": "נְעַל"
+	},
+	"page": {
+		"number": 920,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00986\">same</cite>, <i>to tie</i> a shoe. Part. pass. <he>נָעִיל</he>, <he>נְעִיל</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 25:9\">Targ. Y. Deut. XXV, 9</cite> <he>ויהא נ׳ וכ׳</he> and there shall be tied on the foot … a sandal which &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַנְעֵיל"],
+			"senses": [
+				{
+					"gloss": "<i>to provide with shoes</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 28:15\">Targ. II Chr. XXVIII, 15</cite>. [<cite ref=\"Daniel 2:25\">Dan. II, 25</cite>, a. e. <he>הַנְעִל</he> <i>to bring up</i>, fr. <cite ref=\"P00816\"><he>עֲלַל</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

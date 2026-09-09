@@ -1,0 +1,91 @@
+{
+	"id": "K00716",
+	"slug": "כלי-3",
+	"headword": {
+		"text": "כְּלֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּלָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 641,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00715\">same</cite><i>to keep enclosed, to withhold, restrain</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 6:10\">Targ. I Sam. VI, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 21:3\">Targ. Ps. XXI, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 33:15\">Targ. Is. XXXIII, 15</cite> <cite ref=\"K00018\"><he>כָּלֵי</he></cite> (ed. Wil. <cite ref=\"K00669\"><he>כָּל</he></cite>) restrains his eyes. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 11:26\">Targ. Prov. XI, 26</cite> <cite ref=\"K00018\"><he>כָּאלֵא</he></cite> ed. Lag.; <cite ref=\"Aramaic Targum to Proverbs 17:28\">ib. XVII, 28</cite> <cite ref=\"K00018\"><he>כָּאלֵי</he></cite> ed. Lag.—Part. pass. <cite ref=\"K00716\"><he>כְּלֵי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 32:2\">Targ. Jer. XXXII, 2</cite>; (<cite ref=\"Aramaic Targum to Psalms 88:9\">Targ. Ps. LXXXVIII, 9</cite> <cite ref=\"K00693\"><he>כָּלוּא</he></cite>, h. form).—",
+				"<cite ref=\"Shabbat 57b:16\">Sabb. 57ᵇ</cite> <he>כַּלְיָא פרוחי</he>, v. <cite ref=\"B00442\"><he>בִּזְיוּנָא</he> I</cite>; [Var. Ar. <he>דידבי</he>, reminiscence fr. ",
+				"<cite ref=\"Niddah 17a:1\">Nidd. 17ᵃ</cite>, v. <cite ref=\"B00034\"><he>בָּאלֵי</he></cite>.]—<he>כַּלְיָא עורב</he>, v. <cite ref=\"K00715\">preced.</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be finished, gone</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 39a:14\">Ber. 39ᵃ</cite> <he>כַּלְיָא ברכה</he> the benediction is finished &c., v. <cite ref=\"K00715\">preced.</cite> ",
+				"<cite ref=\"Bava Metzia 79a:11\">B. Mets. 79ᵃ</cite> <he>וקא כליא קרנא</he> and the capital itself is used up (v. infra). ",
+				"<cite ref=\"Yoma 69b:12\">Yoma 69ᵇ</cite> <he>כ׳ עלמא</he> the world would come to an end; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. <he>שלם</he>) [<i>to be entirely with</i>,] <i>to trust</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 31:7\">Targ. Ps. XXXI, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 31:25\">Ib. 25</cite> <he>כַּלְיָין</he> (ed. Lag. a. oth. <he>כיילין</he>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Psalms 32:10\">Ib. XXXII, 10</cite>; a. e.; v. <cite ref=\"V00538\"><he>תְּכַל</he></cite>. [Differ. fr. b. h. <cite ref=\"K00692\"><he>כָּלָה</he></cite> <i>to be consumed</i> by anxiety, <i>to long, die for</i>.]"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַכְלֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to lock up, restrain</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 7:13\">Targ. II Chr. VII, 13</cite>.—",
+						"<cite ref=\"Kiddushin 81b:2\">Kidd. 81ᵇ</cite> <he>מַכְלֵי להו מִכּוּלָּהּ וכ׳</he> Ar. a. Tosaf. (ed. <he>מכלליה</he>, read: <he>מכלי ליה</he>) kept the cattle off from the entire field (in which he walked); (ed.: kept himself aloof from the entire pasture ground). ",
+						"<cite ref=\"Bava Batra 5a\">B. Bath. 5ᵃ</cite>, v. <cite ref=\"K00717\">next w.</cite>"
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["כַּלֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to destroy, use up, diminish</i>. B. Mets. l. c. <he>מְכַלִּינָן קרנא</he> (when hiring the usufruct of an object,) we are permitted to use up the stock itself, e.g. if you hired an ass for travelling, and it died on the road, you may sell its carcass, and hire another ass for the money; ib. <he>לא מכ׳ קרנא</he> we must not use up the stock, i.e. you may <i>buy</i> another ass for the carcass, but not hire one. Ib. Ms. M. <he>לכַלּוּיֵי קרנא לא חיישינן</he> (v. Rabb. D. S. a. l. note 8) and as for using up the stock, we need not take that into consideration. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 3a:4\">B. Kam. 3ᵃ</cite> <he>דמְכַלְּיָא קרנא</he> when the obnoxious subject destroys the object itself (not only the fruits)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְכְּלִי"],
+			"senses": [
+				{
+					"gloss": "<i>to be closed up, withheld; to refrain</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 8:2\">Targ. O. Gen. VIII, 2</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 3:27\">Targ. Prov. III, 27</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

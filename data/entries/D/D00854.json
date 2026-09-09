@@ -1,0 +1,27 @@
+{
+	"id": "D00854",
+	"slug": "דלפה",
+	"headword": {
+		"text": "דִּלְפָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּילְ׳"
+		}
+	],
+	"page": {
+		"number": 311,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00853\">preced.</cite>) <he>בֵּית ד׳</he> <i>receptacle of drippings</i>, name of the second roof of the Temple made for protection against an eventual leak in the upper roof. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 4:6\">Midd. IV, 6</cite> (Maim. <he>הדְּלִיפָה</he>)."
+			]
+		}
+	]
+}

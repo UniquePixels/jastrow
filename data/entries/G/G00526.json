@@ -1,0 +1,101 @@
+{
+	"id": "G00526",
+	"slug": "זמם-1",
+	"headword": {
+		"text": "זָמַם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 403,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"D00903\"><he>דמם</he></cite>, <cite ref=\"D00041\"><he>דבב</he></cite>)<i>to mumble; to meditate, plan</i> (mostly in an evil sense, cmp. <cite ref=\"D00046\"><he>דִּבָּה</he></cite>).—<i>Part.</i> <he>זוֹמֵם</he> <i>planning evil</i>, esp. (with ref. to <cite ref=\"Deuteronomy 19:19\">Deut. XIX, 19</cite>) ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>giving false testimony, amenable to the law of retaliation;</i> ",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>rebutting witness</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Makkot 1:1\">Tosef. Macc. I, 1</cite> <he>עד ז׳</he> a witness convicted of false testimony; a. fr.—<i>Fem.</i> <he>זוֹמֶמֶת</he> (sub. <cite ref=\"P00127\"><he>עדות</he></cite>). ",
+						"<cite ref=\"Mishnah Makkot 1:9\">Macc. I, 9</cite> <he>נמצאת אחת מהן ז׳</he> if one evidence (of one set of witnesses) has been disproved; a. e.—Pl. <he>זוֹמְמִין</he>, <he>זוֹמְמִים</he>. ",
+						"<cite ref=\"Mishnah Makkot 1:4\">Ib. 4</cite> <he>אין אלו ז׳</he> they do not come under the law of retaliation. ",
+						"<cite ref=\"Mishnah Makkot 1:4\">Ib.</cite> <he>נעשים ז׳</he> are declared amenable to the law &c.; a. fr.—Tosef. ib. I, 10 <he>זוֹמְמֵיהֶן</he> those witnesses on whose evidence they had been declared guilty of false testimony. Y. ib. I, beg. 31ᵃ <he>זוֹמְמָיו</he> those who witnessed falsely against him. ",
+						"<cite ref=\"Tosefta Sanhedrin 8:2\">Tosef. Snh. VIII, 2</cite> <he>העדים וזוממיהן וזוֹמְמֵי זוממיהן</he> the original witnesses and their refuters, and the refuters of their refuters; a. fr."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵזֵים"],
+			"senses": [
+				{
+					"gloss": "<i>to make a person a</i> <he>זוֹמֵם</he>, <i>to refute witnesses by testifying to an alibi, to rebut</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Makkot 1:5\">Macc. I, 5</cite> if other witnesses came again <he>והֵזֵימּוּם</he> and rebutted them. ",
+						"<cite ref=\"Ketubot 20a\">Keth. 20ᵃ</cite>, v. <cite ref=\"K00469\"><he>כָּחַשׁ</he></cite>; a. fr. ",
+						"<cite ref=\"Mishnah Makkot 1:4\">Macc. I, 4</cite> (<cite ref=\"Makkot 5a:4\">5ᵃ</cite>) <he>שיזימו</he> Bab. ed., read <he>שיזומו</he>, v. infra."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּזַם"],
+			"senses": [],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נִיזּוֹם"],
+			"senses": [
+				{
+					"gloss": "<i>to be refuted, to be declared liable to the law of retaliation</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 10a:8\">Snh. 10ᵃ</cite> <he>פלוני … והוּזַמּוּ</he> if witnesses declared, This man did &c., and were declared guilty &c. ",
+						"<cite ref=\"Makkot 3a:5\">Macc. 3ᵃ</cite> <he>הוּזַמְּנוּ וכ׳</he> we have been convicted &c. before that certain court, and made to pay. ",
+						"<cite ref=\"Mishnah Makkot 1:4\">Ib. I, 4</cite> <he>עד שיִזּוֹמּוּ את עצמן</he> (Ar. <he>בעצמן</he>, Bab. ed. <he>שיזימו</he> corr. acc.) unless an alibi is established against their own persons (not an alibi of any of the alleged actors in the case). Ib. 5ᵇ <he>עד שיזומו שניהם</he> unless both of them are refuted; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["זִמֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to rebut</i>. Part. <he>מְזַמֵּם</he>, pl. <he>מְזַמְּמִין</he>, contr. <he>מְזַמִּים</he>. Y. ib. I, 31ᵇ top.—<i>Part. pass.</i> <he>מְזוּמָּם</he> <i>one accused by false witnesses</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 6:2\">Snh. VI, 2</cite> <he>אם היה יודע שהוא מ׳</he> if he knew that he was innocent."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִזְדַּמֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to be refuted</i> &c., v. <i>Hof.</i> Y. Macc. I, beg. 31ᵃ <he>נִזְדַּמְּמוּ</he> = <he>נִיזוֹמּוּ</he>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be mumbled</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 81:2\">Gen. R. s. 81</cite>, beg. (ref. to <he>זמות</he>, <cite ref=\"Proverbs 30:32\">Prov. XXX, 32</cite>) <he>אם נִזְדַּמְּמוּ אחריך דברים וכ׳</he> (<cite ref=\"Yalkut Shimoni on Nach 964:1\">Yalk. Prov. 964</cite> <he>נִזְמְמוּ</he> <i>Nif.</i>) if thou hast been slandered, put thy hand to thy mouth; v. <cite ref=\"G00528\"><he>זָמַם</he> II</cite>.—Denom. <cite ref=\"G00532\"><he>זְמָם</he> I</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

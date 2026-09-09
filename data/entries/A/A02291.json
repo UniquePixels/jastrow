@@ -1,0 +1,30 @@
+{
+	"id": "A02291",
+	"slug": "אנקטמין",
+	"headword": {
+		"text": "אָנְקִטְמִין",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "לוּקִטְמִין"
+		}
+	],
+	"page": {
+		"number": 87,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (a contr. of <he>אנק קטמין</he>, or <he>לולי קטמין</he>, v. <cite ref=\"A00775\"><he>אונקלי</he></cite> a. its bibl. equivalent <cite ref=\"L00275\"><he>לוּלַי</he></cite>) <i>loop</i> or <i>hook for stumped limbs, a sort of artificial arm</i> (or <i>leg;</i> v. infra). ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 6:8\">Sabb. VI, 8</cite> <he>א׳ טהורין</he> Mishn. a. Y. (Bab. ed. 66ᵃ <he>לוק׳</he>) an artificial arm (for carrying burdens) is not susceptible to levitical uncleanness, but you must not wear it in walking in the street on the Sabbath (because it is intended for carrying burdens). Y. ib. 8ᶜ bot. (R. Abbahu explains our w.) <he>חמרא די ידיא</he>, <he>אוֹנוֹס קִטְמִין</he> Ar. (read two words; ed. <cite ref=\"E00255\"><he>הונים</he></cite>, corr. acc.) the ὄνος (ass, i.e. pulley) of the stump-handed,—a hand-pulley (ass); Bab. a. l. R. Abbahu (leaving out the etymology) <he>חמרא דאכפא</he> a pulley for loads, v. <cite ref=\"A01746\"><he>אַכְפָּא</he></cite>. Oth. opin. ibid. <he>קשירי</he> stilts (artificial legs); (<cite ref=\"Q00106\"><he>פדאמי</he></cite>) <he>פרמא</he> q. v.—V. ",
+				"<cite ref=\"Mishnah Kelim 15:6\">Kel. XV, 6</cite> <cite ref=\"N00773\"><he>נִיקַטְמוֹן</he></cite>. [The definitions by Ar. a. Rashi, referring to implements of public entertainments, are not in keeping with the preceding proposition of the Mishnah.]"
+			]
+		}
+	]
+}

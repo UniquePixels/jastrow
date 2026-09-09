@@ -1,0 +1,36 @@
+{
+	"id": "D00277",
+	"slug": "דומה-1",
+	"headword": {
+		"text": "דּוּמָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 286,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"D00275\"><he>דּוּם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>evil report, rumor</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 66a\">Nidd. 66ᵃ</cite>, v. <cite ref=\"D00891\"><he>דִּימָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a woman of ill repute</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 27a:4\">Sot. 27ᵃ</cite>. ",
+				"<cite ref=\"Gittin 69b:17\">Gitt. 69ᵇ</cite> <he>דשדתיה ד׳ בת ד׳</he> which an ill reputed daughter of an ill-reputed mother has spun."
+			],
+			"label": "2"
+		}
+	]
+}

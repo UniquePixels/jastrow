@@ -1,0 +1,31 @@
+{
+	"id": "U00772",
+	"slug": "שטרא-2",
+	"headword": {
+		"text": "שִׁטְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁיטְ׳"
+		}
+	],
+	"page": {
+		"number": 1556,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00771\">preced.</cite>) <i>line</i>, esp. (cmp. ",
+			"units": [
+				"<cite ref=\"Psalms 19:5\">Ps. XIX, 5</cite> <cite ref=\"S01000\"><he>קַוָּם</he></cite>) <i>the course of stars, orbit</i>. ",
+				"<cite ref=\"Aramaic Targum to Job 38:33\">Targ. Job XXXVIII, 33</cite> <he>שִׁטְרֵיה דגלגליה</he> ed. Lag. (oth. ed. <he>שִׁטְרֵי</he>, pl., constr.; h. text <he>משטרו</he>). Pl. <he>שִׁטְרִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 38:32\">Ib. 32</cite> <he>ש׳ מזליא</he> (h. text <cite ref=\"M00781\"><he>מזרות</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 9:9\">Ib. IX, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 39:37\">Targ. Y. Ex. XXXIX, 37</cite>."
+			]
+		}
+	]
+}

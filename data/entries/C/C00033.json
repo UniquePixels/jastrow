@@ -1,0 +1,35 @@
+{
+	"id": "C00033",
+	"slug": "גבא-1",
+	"headword": {
+		"text": "גֶּבֶא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גֵּב"
+		},
+		{
+			"text": "גֵּבַי"
+		}
+	],
+	"page": {
+		"number": 203,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"C00073\"><he>גבי</he></cite>, <he>גבב</he>)<i>cavity for collecting water, pond, cistern</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Mikvaot 1:1\">Tosef. Mikv. I, 1</cite> <he>המים שבגבא</he> R. S. to <cite ref=\"Mishnah Mikvaot 1:1\">Mikv. I, 1</cite> (ed. Zuck. <he>שבגבו</he>, read <he>שבגֵבַי</he>) the water in the pond. ",
+				"<cite ref=\"Mishnah Mikvaot 1:3\">Ib. 3</cite> <cite ref=\"C00073\"><he>גבי</he></cite>.—Pl. <he>גֵּבִים</he>, <cite ref=\"C00090\"><he>גֵּבִין</he></cite>, <he>גֵּבָאִים</he>, <he>גֵּבָאִין</he>, <he>גֵּבָיִים</he>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:2:5\">Cant. R. to I, 2</cite> (ref. to <he>ישקני</he> <cite ref=\"Shir HaShirim Rabbah 1:2:5\">ib.</cite>) <he>יטהרני כאדם שהוא מישק שני ג׳ וכ׳</he> may He make me pure, as a man levels the surface of two ponds (by which the unclean one is purified). ",
+				"<cite ref=\"Sanhedrin 94b:17\">Snh. 94ᵇ</cite>; <cite ref=\"Moed Katan 25b:4\">M. Kat. 25ᵇ</cite> <he>מי ג׳</he> stagnant waters, opp. <he>נחל שוטף</he>. ",
+				"<cite ref=\"Mishnah Mikvaot 1:1\">Mikv. I, 1</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:1:2\">Y. M. Kat. I, 80ᵃ</cite> bot.; <cite ref=\"Tosefta Mikvaot 1:13\">Tosef. Mikv. I, 13</cite> <he>כמין גבאין</he> ed. Zuck. (read <cite ref=\"K00790\"><he>כְּמֵי</he></cite>)."
+			]
+		}
+	]
+}

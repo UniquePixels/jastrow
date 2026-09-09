@@ -1,0 +1,33 @@
+{
+	"id": "B00482",
+	"slug": "בחן-2",
+	"headword": {
+		"text": "בְּחַן"
+	},
+	"page": {
+		"number": 155,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00481\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:6\">Targ. Koh. II, 6</cite>; a. fr.—Y. Maas. Sh. V, beg. 55ᵈ (read:) <he>דבָחִינַת ליה וכ׳</he> by whom every Mishnah has been critically examined."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְבְּחַן"],
+			"senses": [
+				{
+					"gloss": "<i>to be tried, tested</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 42:15\">Targ. O. Gen. XLII, 15</cite> sq. (Var. <he>אתבחר</he>, v. Berl. Targ. O. II, p. 15)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

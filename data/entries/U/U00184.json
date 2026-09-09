@@ -1,0 +1,35 @@
+{
+	"id": "U00184",
+	"slug": "שברירי",
+	"headword": {
+		"text": "שַׁבְרִירֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁבְרִירַיָּא"
+		}
+	],
+	"page": {
+		"number": 1518,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (= <he>שבהר׳</he>, v. <cite ref=\"U00070\"><he>שַׁבְהַר</he></cite>; cmp. <cite ref=\"H00687\"><he>חִיוַּרְוָרַיָּא</he></cite> a. <cite ref=\"O01200\"><he>סַנְוֵור</he></cite>) <i>being dazzled, blinking, temporary blindness, loss of direction</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 19:11\">Targ. O. Gen. XIX, 11</cite> (ed. Berl. <cite ref=\"U00184\"><he>שַׁבְרָרַיָּא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 6:18\">Targ. II Kings VI, 18</cite>.—",
+				"<cite ref=\"Yoma 28b:16\">Yoma 28ᵇ</cite> <he>ש׳ דשמשא וכ׳</he> the dazzling sun-light coming through cracks or breaks in the clouds is worse than the uncovered sun. ",
+				"<cite ref=\"Gittin 69a:2\">Gitt. 69ᵃ</cite> <he>ש׳ דיממא</he> sudden blindness occurring in day-time (from dazzling light). ",
+				"<cite ref=\"Gittin 69a:2\">Ib.</cite> <he>ש׳ דליליא</he> blindness occurring at night (believed to be caused by a demon living in the water or in water vessels. ",
+				"<cite ref=\"Gittin 69a:2\">Ib.</cite> (an incantation for blindness) <he>ש׳ דפלוני וכ׳</he> <i>shabriré</i> of N, son of N, leave &c. ",
+				"<cite ref=\"Avodah Zarah 12b:5\">Ab. Zar. 12ᵇ</cite>; <cite ref=\"Pesachim 112a:5\">Pes. 112ᵃ</cite> <he>סכנת ש׳</he> the danger of getting blind (from drinking at night). ",
+				"<cite ref=\"Pesachim 112a:5\">Ib.</cite> (an incantation against thirst at night) <he>נימא איהו … מש׳ ש׳ ברירי וכ׳</he> let him say to himself, N, son of N, my [thy] mother told me, be on guard against <i>shabriré: shabriré, b’riré, riré yiré, ré</i>"
+			]
+		}
+	]
+}

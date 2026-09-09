@@ -1,0 +1,20 @@
+{
+	"id": "A03358",
+	"slug": "אשרנא",
+	"headword": {
+		"text": "אֻשַּׁרְנָא"
+	},
+	"page": {
+		"number": 130,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אשר</he>; cmp. <cite ref=\"A03256\"><he>אֻשָּׁא</he></cite>) <i>wall</i>. ",
+			"units": ["<cite ref=\"Ezra 5:3\">Ezra V, 3</cite>."]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "L00311",
+	"slug": "לופתא",
+	"headword": {
+		"text": "לוֹפָתָא"
+	},
+	"page": {
+		"number": 700,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (v. <cite ref=\"L00304\"><he>לוֹפֵי</he></cite>) <i>couplings</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 6a:8\">B. Bath. 6ᵃ</cite> <he>בקרנא ול׳</he> (Ms. M. <he>בקנתא ובלָפָתָא</he>, read <he>בקרנ׳</he>) if a neighbor built against the party wall in an angle and joined his wall to it with couplings; [Ar. <he>בל׳ ובקרן זוית</he> if a neighbor joined a previously erected structure to the party wall or built against the latter in an angle]."
+			]
+		}
+	]
+}

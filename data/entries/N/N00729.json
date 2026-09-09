@@ -1,0 +1,39 @@
+{
+	"id": "N00729",
+	"slug": "ניפול-2",
+	"headword": {
+		"text": "נִיפּוֹל"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִפּ׳"
+		}
+	],
+	"page": {
+		"number": 907,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00728\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>young birds found near their nests</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 2:6\">B. Bath. II, 6</cite> (<cite ref=\"Bava Batra 23b:6\">23ᵇ</cite>) <he>ני׳ הנמצא וכ׳</he> (Ms. O. <cite ref=\"N01041\"><he>נָפֵיל</he></cite>; Ms. H. <cite ref=\"N01057\"><he>נֶפֶל</he></cite>, v. Rabb. D. S. a. l. note 300) birds found within fifty cubits &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " a species of <i>locusts, nippol</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 65b:2\">Ḥull. 65ᵇ</cite> <he>סלעם זה ני׳</he> (Ar. <he>החרגל</he>) <i>Salʿam</i> (<cite ref=\"Leviticus 11:22\">Lev. XI, 22</cite>) is <i>nippol;</i> Sifra Sh’mini, Par. 3, ch. V <he>חרגל זה נפול</he>."
+			],
+			"label": "2"
+		}
+	]
+}

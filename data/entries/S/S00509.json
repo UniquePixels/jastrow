@@ -1,0 +1,23 @@
+{
+	"id": "S00509",
+	"slug": "קופל",
+	"headword": {
+		"text": "קוּפָּל",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1338,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"S01748\"><he>קָפַל</he> II</cite>) <i>peeled pole, lance</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 63a\">Sabb. 63ᵃ</cite> Ar. a. Ms. O., v. <cite ref=\"S00359\"><he>קוּלְפָא</he></cite>."
+			]
+		}
+	]
+}

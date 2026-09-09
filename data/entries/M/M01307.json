@@ -1,0 +1,36 @@
+{
+	"id": "M01307",
+	"slug": "מישא-1",
+	"headword": {
+		"text": "מֵישָׁא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 779,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (v. <cite ref=\"M01308\">next w.</cite>) <i>Mesha</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " a place in northern Galilee (v. Hildesh., Beitr. p. 38). ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 4:11\">Tosef. Shebi. IV, 11</cite> ed. Zuck. note (Var. <cite ref=\"M01144\"><he>מַיְישָׁא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " M. in Babylonia, in the district of Mesene, v. <cite ref=\"M01315\"><he>מֵישָׁן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 1:6:7\">Y. Yeb. I, 3ᵇ</cite>; <cite ref=\"Jerusalem Talmud Kiddushin 4:3:3\">Y. Kidd. IV, 65ᵈ</cite> top. ",
+				"<cite ref=\"Bereishit Rabbah 37:8\">Gen. R. s. 37</cite> <he>מֵישָׁה</he> (identified with <cite ref=\"M02797\"><he>מֵשָׁא</he></cite>, <cite ref=\"Genesis 10:30\">Gen. X, 30</cite>; Targ. <cite ref=\"M02797\"><he>מֵשָׁא</he></cite>, <cite ref=\"M01307\"><he>מֵישָׁא</he></cite>). [Talm. Bab. <cite ref=\"M01315\"><he>מֵישָׁן</he></cite> q. v.]"
+			],
+			"label": "2"
+		}
+	]
+}

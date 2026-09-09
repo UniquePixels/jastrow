@@ -1,0 +1,28 @@
+{
+	"id": "P00420",
+	"slug": "עזקא-1",
+	"headword": {
+		"text": "עִזְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1062,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00419\">preced.</cite> wds.) <i>fetter, handcuff</i>.—Pl. <he>עִזְקַיָּא</he>, <cite ref=\"P00072\"><he>עִי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 40:1\">Targ. Jer. XL, 1</cite> (h. text <he>אזקים</he>)."
+			]
+		}
+	]
+}

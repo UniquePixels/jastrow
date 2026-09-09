@@ -1,0 +1,35 @@
+{
+	"id": "R00658",
+	"slug": "צעק-1",
+	"headword": {
+		"text": "צָעַק"
+	},
+	"page": {
+		"number": 1294,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"G00612\"><he>זָעַק</he></cite>)<i>to cry</i>; (cmp. <cite ref=\"R00170\"><he>צָוַוח</he></cite>) <i>to complain</i>. Mekh. Mishp. s. 18 (ref. to <cite ref=\"Exodus 22:22\">Ex. XXII, 22</cite>) <he>יכול כל זמן שהוא צוֹעֵק וכ׳</he> lest you may think, when he cries, I hear him (take up his cause), and when he does not cry, I do not &c. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 93a:4\">B. Kam. 93ᵃ</cite> <he>אוי לו לצוֹעֵק … הנִצְעָק</he> woe to him who cries (prays for divine judgment to come down upon his neighbor) more than to him who is cried against. ",
+				"<cite ref=\"Bava Kamma 93a:4\">Ib.</cite> <he>אחד לצועק ואחד לנצעק וכ׳</he> Ms. M. both are included (in Ex. l. c.) as deserving divine punishment, the crier and he who is cried against, only that they (in heaven) hasten to attend to the crier first &c. (differ. vers. quoted in Tosaf.). ",
+				"<cite ref=\"Bava Metzia 75b:12\">B. Mets. 75ᵇ</cite> <he>שלשה צוֹעֲקִין ואינן נענין</he> three persons cry in distress, and are not answered (because they are themselves to blame for their sufferings). ",
+				"<cite ref=\"Midrash Tehillim 34:1\">Midr. Till. to Ps. XXXIV</cite> <he>והיו צוֹצֲקוֹת שתיהן וכ׳</he> and both of them screamed and raged within &c. ",
+				"<cite ref=\"Menachot 53b\">Men. 53ᵇ</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִצְעַק"],
+			"senses": [
+				{
+					"gloss": "<i>to be complained of</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

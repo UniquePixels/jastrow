@@ -1,0 +1,37 @@
+{
+	"id": "U01926",
+	"slug": "שרגא-2",
+	"headword": {
+		"text": "שְׁרָגָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁרַגָּא"
+		}
+	],
+	"page": {
+		"number": 1628,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שרג</he> Shaf. of <cite ref=\"H00459\"><he>חרג</he></cite> <i>to break through</i>; cmp. Arab. <i>sharḳu</i> ortus solis, lux solis) <i>light, lamp, lantern</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 119:105\">Targ. Ps. CXIX, 105</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 31:18\">Targ. Prov. XXXI, 18</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 6:23\">Ib. VI, 23</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 21:4\">Ib. XXI, 4</cite> (h. text <cite ref=\"N01255\"><he>נִר</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 21:17\">Targ. Job XXI, 17</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 63a\">Sabb. 63ᵃ</cite>, a. e. <he>ש׳ בטיהרא</he>, v. <cite ref=\"I00318\"><he>טִיהֲרָא</he></cite>. ",
+				"<cite ref=\"Sukkah 29a:2\">Succ. 29ᵃ</cite> <he>ש׳ במטללתא</he> an (earthen) lamp may remain in the Succah. ",
+				"<cite ref=\"Beitzah 22a:6\">Bets. 22ᵃ</cite> <he>זקף ליה ש׳</he> Ms. M. (ed. <he>זקף לה לש׳</he>) he put the lamp up (from its declining position, to make the oil flow away from the wick); a. e.—Pl. <he>שְׁרָגַיָּא</he>, <he>שְׁרָגֵי</he>, <he>שְׁרַגֵּ׳</he>. ",
+				"<cite ref=\"Targum of I Chronicles 8:33\">Targ. I Chr. VIII, 33</cite>.—",
+				"<cite ref=\"Gittin 57a:9\">Gitt. 57ᵃ</cite> <he>אדליקו ש׳ עד וכ׳</he> they kindled lights (illuminated) so that &c., v. <cite ref=\"B00859\"><he>בִּלְיוֹנָא</he></cite>. ",
+				"<cite ref=\"Shabbat 23b:4\">Sabb. 23ᵇ</cite> <he>דהוה רגיל בש׳ טובא</he> (Ms. M. <he>דהוו רגילי בשרגא</he>, v. Rabb. D. S. a. l. note, a. Tosaf. a. l.) that he was (they were) wont to have many (Sabbath) lights; a. e."
+			]
+		}
+	]
+}

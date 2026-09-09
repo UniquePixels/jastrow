@@ -1,0 +1,34 @@
+{
+	"id": "L00063",
+	"slug": "לבט-1",
+	"headword": {
+		"text": "לָבַט"
+	},
+	"page": {
+		"number": 688,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.;cmp. Sam. <he>לבט</he> = <cite ref=\"P00970\"><he>ענה</he></cite>, <cite ref=\"Exodus 22:21\">Ex. XXII, 21</cite>, sq.) <i>to knock about, to send from place to place</i>. Mekh. B’shall., Amal., s. 2 <he>שאברהם לא לְבָטוּהוּ</he> when Abraham was to be shown the holy land (<cite ref=\"Genesis 13:14\">Gen. XIII, 14</cite>) they did not trouble him to leave his place, <he>ומשה לְבָטוּהוּ</he> but Moses they did put to the trouble &c. (<cite ref=\"Deuteronomy 3:27\">Deut. III, 27</cite>).—Part. pass. <he>לָבוּט</he>, pl. <cite ref=\"L00052\"><he>לְבוּטִים</he></cite> <i>outcasts</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 52\">Gen. R. s. 52</cite>, beg., v. <cite ref=\"L00064\">next w.</cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְלַבֵּט"],
+			"senses": [
+				{
+					"gloss": "<i>to be troubled; to go from place to place</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Bamidbar 84\">Sifré Num. 84</cite> they began to murmur against the king <he>שנִתְלַבְּטוּ על דרך זו</he> that they were troubled to make that journey (to meet him); <cite ref=\"Sifrei Bamidbar 84:1\">ib.</cite> <he>המלך … שבשבילם נתל׳ וכ׳</he> the king had a right to complain, for he had taken all that trouble for their sake; <cite ref=\"Yalkut Shimoni on Torah 729\">Yalk. Num. 729</cite> (v. ",
+						"<cite ref=\"Targum Jonathan on Hosea 4:14\">Targ. Hos. IV, 14</cite> s. v. <cite ref=\"T00576\"><he>רְטַשׁ</he></cite>)."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

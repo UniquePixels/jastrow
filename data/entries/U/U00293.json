@@ -1,0 +1,28 @@
+{
+	"id": "U00293",
+	"slug": "שה",
+	"headword": {
+		"text": "שֶׂה"
+	},
+	"page": {
+		"number": 1526,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>lamb, young goat</i> or <i>young sheep</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 1:5\">Bekh. I, 5</cite> <he>ר׳ א׳ מתיר בכלאים מפני שהוא שה</he> R. El. permits the redemption of a first-born ass with a hybrid of goat and sheep, because it goes by the name of <i>seh</i> (complying with the law <cite ref=\"Exodus 13:13\">Ex. XIII, 13</cite>). ",
+				"<cite ref=\"Bereishit Rabbah 56:4\">Gen. R. s. 56</cite> (ref. to <cite ref=\"Genesis 22:8\">Gen. XXII, 8</cite>) <he>אלהים יראה לו השה בני ואם לאו אתה השה לעולה בני</he> God will provide himself a lamb, my son, and if not, thou art the lamb for the offering, my son; <cite ref=\"Pesikta Rabbati 40:1\">Pesik. R. s. 40</cite> <he>יזמן קרבנו ואם לא שה לעולה בני</he> he will prepare his sacrifice, and if not, my son be the lamb for the offering. ",
+				"<cite ref=\"Pesikta Rabbati 40:1\">Ib.</cite> <he>שה לעולה סי לעילה לשון יונית</he> (not <cite ref=\"H00648\"><he>חי</he></cite>) <i>‘seh</i> for an offering’ is the Greek σέ (thee) for an offering. ",
+				"<cite ref=\"Bekhorot 12a:14\">Bekh. 12ᵃ</cite> <he>אביו שה</he> its sire is a sheep. ",
+				"<cite ref=\"Bekhorot 7a:18\">Ib. 7ᵃ</cite> <he>שה מכל מקום</he> a <i>seh</i> (young of sheep or of goats) under all conditions (even if it has the looks of an unclean animal). ",
+				"<cite ref=\"Pesachim 118a:5\">Pes. 118ᵃ</cite> <he>בשֵׂיוֹ</he>, v. <cite ref=\"P00976\"><he>עָנִי</he></cite>. ",
+				"<cite ref=\"Bava Metzia 27a:9\">B. Mets. 27ᵃ</cite>; a. v. fr."
+			]
+		}
+	]
+}

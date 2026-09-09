@@ -1,0 +1,26 @@
+{
+	"id": "P00613",
+	"slug": "עינויא-1",
+	"headword": {
+		"text": "עִינּוּיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִנּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1072,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = <cite ref=\"P00612\"><he>עִינּוּי</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 9:19\">Targ. Jer. IX, 19</cite> (h. text <he>קינה</he>). ",
+				"<cite ref=\"Targum Jonathan on Micah 2:4\">Targ. Mic. II, 4</cite> <he>עִינּוּיֵיה</he> (not <he>עינוייא</he>, ed. Lag.; oth. ed. <he>עִינִּיתֵיה</he>)."
+			]
+		}
+	]
+}

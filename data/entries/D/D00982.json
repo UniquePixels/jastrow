@@ -1,0 +1,23 @@
+{
+	"id": "D00982",
+	"slug": "דציצא",
+	"headword": {
+		"text": "דְּצִיצָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 317,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דצץ</he>, redupl. of <cite ref=\"D00321\"><he>דּוּץ</he> I</cite>, cmp. <cite ref=\"D00981\">preced.</cite>) <i>rejoicing</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 66:10\">Targ. Is. LXVI, 10</cite> Ar. (ed. <cite ref=\"D00321\"><he>דִּיץ</he></cite>)."
+			]
+		}
+	]
+}

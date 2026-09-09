@@ -1,0 +1,28 @@
+{
+	"id": "K01147",
+	"slug": "כרח-3",
+	"headword": {
+		"text": "כֹּרַח"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוֹרַח"
+		}
+	],
+	"page": {
+		"number": 666,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01146\">preced.</cite>) <i>force, unwillingness, necessity</i>. <he>על כרח־</he> (or <he>בעל</he>) <i>against</i> or <i>without one’s will</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 4:22\">Ab. IV, 22</cite> <he>על כָּרְחֲךָ וכ׳</he> without thy will thou hast been created &c. ",
+				"<cite ref=\"Gittin 21a:10\">Gitt. 21ᵃ</cite> <he>בעל כּוֹרְחָהּ</he> against her will, opp. <he>מדעתה</he>, v. <cite ref=\"D00950\"><he>דַּעַת</he></cite>; a. fr."
+			]
+		}
+	]
+}

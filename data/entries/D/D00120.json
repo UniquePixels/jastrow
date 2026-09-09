@@ -1,0 +1,41 @@
+{
+	"id": "D00120",
+	"slug": "דגר-1",
+	"headword": {
+		"text": "דְּגַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 280,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(h. <cite ref=\"D00120\"><he>דָּגַר</he></cite>)<i>to heap</i>, v. <cite ref=\"D00104\"><he>דְּגוֹרָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to brood</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 39:14\">Targ. Job XXXIX, 14</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִידְּגַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be piled up</i> (of bowels in pain). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 1:20\">Targ. Lam. I, 20</cite>. ",
+						"<cite ref=\"Aramaic Targum to Lamentations 2:11\">Ib. II, 11</cite> <he>אידגארן</he> ed. Lag. (h. text <he>חמרמר</he>, cmp. <cite ref=\"D00104\"><he>דְּגוֹרָא</he></cite> = <he>חֹמֶר</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

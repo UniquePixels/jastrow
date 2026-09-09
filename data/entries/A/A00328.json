@@ -1,0 +1,28 @@
+{
+	"id": "A00328",
+	"slug": "אגסיטרין",
+	"headword": {
+		"text": "אֶגְסִיטֵרִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶכְסִיטֵירִין"
+		}
+	],
+	"page": {
+		"number": 13,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἐξιτήριον S.) <i>farewell-address, bequest</i>. [Mostly corrupt.] <cite ref=\"Midrash Tehillim 84\">Midr. Till. to Ps. LXXXIV</cite>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 5:4\">Midr. Till. to Ps. LXXXVI, 1</cite>. ",
+				"<cite ref=\"Midrash Tehillim 27:3\">Midr. Till. to Ps. XXVII</cite>. Pesik. Aḥaré p. 175ᵃ; 175ᵇ <cite ref=\"O01452\"><he>סקווטריס</he></cite>; <cite ref=\"Vayikra Rabbah 21\">Lev. R. s. 21</cite> <he>סקויטרים</he>, read <he>אקסיטרין</he> (v. Buber to Pesik. l. c.)."
+			]
+		}
+	]
+}

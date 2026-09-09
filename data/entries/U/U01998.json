@@ -1,0 +1,44 @@
+{
+	"id": "U01998",
+	"slug": "שרע-1",
+	"headword": {
+		"text": "שָׂרַע"
+	},
+	"page": {
+		"number": 1632,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.;<i>Saf.</i> of <cite ref=\"T00864\"><he>רע</he></cite>, v. <cite ref=\"T00867\"><he>רֵעַ</he></cite>, <cite ref=\"T00914\"><he>רָעַע</he></cite>) <i>to join, add.—Part. pass</i>. <he>שָׂרוּעַ</he> <i>abnormally long</i>, esp. <i>one that has one hip larger than the other</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 40a\">Bekh. 40ᵃ</cite>, v. <cite ref=\"U01915\"><he>שִׁרְבֵּב</he></cite>; [Sifra Emor, ch. II, Par. 3 <he>ש׳ שנשמטה יריכו</he>, v. <cite ref=\"U02000\"><he>שְׁרַע</he></cite>; cmp. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 21:18\">Targ. Y. Lev. XXI, 18</cite>]."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׂתָּרֵעַ"],
+			"senses": [
+				{
+					"gloss": " [",
+					"units": []
+				},
+				{
+					"gloss": " (b. h.) <i>to be stretched, to stretch one’s self</i>. ",
+					"units": ["<cite ref=\"Isaiah 28:20\">Is. XXVIII, 20</cite>.]"],
+					"label": "1"
+				},
+				{
+					"gloss": " (homil.) <i>to be joined, combined, lie together</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 302\">Yalk. Is. 302</cite>; <cite ref=\"Yalkut Shimoni on Nach 246:2\">Yalk. Kings 246</cite> (ref. to Is. l. c.) <he>קצר מצע זה מהִשְׂתָּרֵעַ עליו שני רעים כאחת</he> this couch is too narrow for two lovers to be joined on it together (Israel cannot serve God and idols combined); <cite ref=\"Vayikra Rabbah 17:7\">Lev. R. s. 17</cite> <he>אין המטה יכולה וכ׳</he> the bed cannot receive a woman and her husband and her lover together; Lam. R. introd. (R. Josh. 1) <he>מהו מהשתרע שתריע לקבל וכ׳</he> (some ed. <he>שתריעו</he>) what is <i>mehistareʿa</i>? That thou (you) make a partnership to receive a woman &c.; [<cite ref=\"Yoma 9b\">Yoma 9ᵇ</cite>; <cite ref=\"Sanhedrin 103b:9\">Snh. 103ᵇ</cite> <he>מהשתרר</he>, v. <cite ref=\"U02029\"><he>שָׂרַר</he></cite>]."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

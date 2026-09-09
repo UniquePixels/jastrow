@@ -1,0 +1,33 @@
+{
+	"id": "M01805",
+	"slug": "מנפה",
+	"headword": {
+		"text": "מְנָפָה"
+	},
+	"page": {
+		"number": 802,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00387\"><he>נוּף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fan</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:7\">Kel. XVI, 7</cite> (Ar. <he>מנפא</he>). ",
+				"<cite ref=\"Yevamot 63a\">Yeb. 63ᵃ</cite> <he>במ׳ תתנופפי</he> Ar., v. <cite ref=\"N00387\"><he>נוּף</he></cite> ch.—V. <cite ref=\"M01788\"><he>מְנִיפָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"M02195\"><he>מַפָּה</he></cite>) <i>flag</i>.—Pl. <he>מְנָפוֹת</he>. Mekh. B’shall., s. 2 <he>מגפות</he> (corr. acc.); v., however, <cite ref=\"O00567\"><he>סִיגְנוֹן</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

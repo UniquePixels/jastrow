@@ -1,0 +1,33 @@
+{
+	"id": "O01386",
+	"slug": "ספן-1",
+	"headword": {
+		"text": "סָפַן"
+	},
+	"page": {
+		"number": 1014,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"R00702\"><he>צָפַן</he></cite>, <cite ref=\"R00672\"><he>צָפָה</he></cite>) [<i>to look up to, look out for</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to respect; to care for, mind</i> Y. Snh. X, beg. 27ᶜ <he>זהו שאומר ואיני סוֹפְנָהּ …</he> that is he who says, there is a Torah, but I do not mind its authority; Y. Peah I, 16ᵇ <he>סובלה</he> (corr. acc.). ",
+			"units": [
+				"<cite ref=\"Tosefta Sotah 3:14\">Tosef. Sot. III, 14</cite> <he>ולא סְפָנוּהוּ וכ׳</he> (Var. <he>סנפוהו</he>, corr. acc.) they minded him not, because he was merely a common soldier (<cite ref=\"C00391\"><he>גּוֹלְיָיר</he></cite>). ",
+				"<cite ref=\"Sifrei Devarim 33:2\">Sifré Deut. 33</cite> (ref. to <he>היום</he>, <cite ref=\"Deuteronomy 6:6\">Deut. VI, 6</cite>) <he>שלא יהו … שאין אדם סופנה</he> Rashi ed. Berl. a. l. (ed. <he>סופרה</he>, corr. acc.; Ms. 3 <he>צוֹפְנָהּ</he>, v. ed. Fr. note) that they be not in thy eyes like an antiquated ordinance which nobody minds; <cite ref=\"Yalkut Shimoni on Torah 840:1\">Yalk. Deut. 840</cite> <he>שאין הכל סוֹפְנִין אותה</he> (not <he>סופגין</he>). ",
+				"<cite ref=\"Tosefta Ketubot 7:5\">Tosef. Keth. VII, 5</cite> <he>תהא מוטלת ואין כל בריה סופנה</he> (not <he>בריא</he>) she will lie dead and none will care for her (to bury her); <cite ref=\"Ketubot 72a:1\">Keth. 72ᵃ</cite> <he>ואון … סופדה … סופנה</he> (R. Hillel quoted in Sifré l. c., ed. Fr. note <he>צופנה</he>) and none will mourn for her, and some say <i>sof’nah</i>; (Y. ib. VII, 31ᵇ bot. <he>משגחת</he>).—Part. pass. <cite ref=\"O01328\"><he>סָפוּן</he></cite>; pl. <he>סְפוּנִים</he>, <he>סְפוּנִין</he>. ",
+				"<cite ref=\"Shemot Rabbah 20\">Ex. R. s. 20</cite> <he>והייתי ס׳ בפניו</he> (some ed. <he>בעיניו</he>) and I enjoyed his respect. Mekh. B’shall., Vayass‘a, s. 2 <he>וכי מה אנו ס׳ שאתם וכ׳</he> what is our distinction, that you murmur against us?; <cite ref=\"Yalkut Shimoni on Torah 258:8\">Yalk. Ex. 258</cite>. Tanḥ. Vayesh. 3 <he>אתה עושה … כאלו הוא ס׳</he> thou wouldst treat the idolater as if he (his idolatry) was respected. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 258:8\">Ib.</cite> <he>אינן ס׳ לכלום</he> are regarded as nothing (before God); a. e.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (b. h.) <i>to provide, lay up</i>; v. next w.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "R00545",
+	"slug": "צלצל-3",
+	"headword": {
+		"text": "צֶלְצָל"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִילְ׳"
+		}
+	],
+	"page": {
+		"number": 1286,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"R00544\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cymbal</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 5:6:4\">Y. Succ. V, 55ᶜ</cite> bot. <he>צ׳ של מקדש וכ׳</he> the cymbal of the Temple originated from Moses’ days. Ib. 55ᵇ bot. <he>מיריחו … הצי׳</he> in Jericho they could hear the sound of the cymbal (of the Temple). ",
+				"<cite ref=\"Mishnah Shekalim 5:1\">Shek. V, 1</cite> <he>בן ארזא על הצ׳</he> (the family of) Ben Arza had charge of the cymbal. Y. ib. 48ᵈ bot. <he>הניף … והקיש בן א׳ בצ׳</he> when the Sagan waved the flag, B. A. struck the cymbal; <cite ref=\"Mishnah Tamid 7:3\">Tam. VII, 3</cite>; <cite ref=\"Shir HaShirim Rabbah 4:4\">Cant. R. to IV, 4</cite>. ",
+				"<cite ref=\"Mishnah Arakhin 2:5\">Arakh. II, 5</cite> <he>והצ׳ לבד</he> only a single cymbal was used in the Temple; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>shade, covering</i> (v. <cite ref=\"I00511\"><he>טְלָלָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bava Batra 75a:7\">B. Bath. 75ᵃ</cite>, contrad. to <he>סוכה</he> (Rashb. <cite ref=\"R00475\"><he>צֵל</he></cite>); (correct vers. in) <cite ref=\"Yalkut Shimoni on Nach 361\">Yalk. Is. 361</cite> (v. Rabb. D. S. B. Bath. l. c. note 9)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "S00530",
+	"slug": "קוץ-5",
+	"headword": {
+		"text": "קוּץ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1339,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <cite ref=\"S01116\"><he>קַיִץ</he></cite>)<i>to summer</i> (v. ",
+			"units": ["<cite ref=\"Isaiah 18:6\">Is. XVIII, 6</cite>)."]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִיֵּיץ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to summer</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 34:11\">Gen. R. s. 34</cite> (play on <cite ref=\"S01116\"><he>קַיִץ</he></cite>, <cite ref=\"Genesis 8:22\">Gen. VIII, 22</cite>) <he>מְקַיֵּיץ אני עליהם את העוף</he> I shall make the birds feed on them in the summer (with ref. to <he>וקץ</he>, Is. l. c.).—2) (v. <cite ref=\"S01116\"><he>קַיִץ</he></cite>) <i>to supply the altar during the dull season</i>. Y. Yoma V, beg. 42ᵇ <he>מְקַיְּיצִים בה וכ׳</he> they supply the altar with it, i.e. use it for sacrifices when the altar is otherwise unemployed; Y. Shek. I, 48ᵃ bot.; <cite ref=\"Shevuot 12a:7\">Shebu. 12ᵃ</cite> <he>מְקַיְּצִין בהן וכ׳</he>. ",
+						"<cite ref=\"Shevuot 12a:8\">Ib.</cite> <he>אין מקיצין בגופן וכ׳</he> we do not use them bodily as sacrifices, but what we buy with their value. ",
+						"<cite ref=\"Shevuot 12b:2\">Ib.ᵇ</cite> <he>אין מקיצין בעולת העוף</he> you must not buy birds for burnt offerings out of the funds designated for public free-will offerings. ",
+						"<cite ref=\"Tosefta Menahot 10:8\">Tosef. Men. X, 8</cite> (expl. <he>קַיִץ המזבח</he>) <he>לוקחין … ומקיצין וכ׳</he> they buy therewith burnt offerings to supply the altar &c."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "D00795",
+	"slug": "דכרן",
+	"headword": {
+		"text": "דָּכְרָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּכְרָנָא"
+		},
+		{
+			"text": "דּוּכְ׳"
+		}
+	],
+	"page": {
+		"number": 308,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"G00470\"><he>זִכָּרוֹן</he></cite>, <i>memorial, record</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 9:16\">Targ. O. Gen. IX, 16</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 29b:15\">Snh. 29ᵇ</cite> bot. <he>דו׳ פתגמי</he> a memorial of judicial proceedings (but not the verbatim reproduction of the words of the witnesses).—Pl. <he>דָּכְרָנַיָּיא</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 14:17\">Targ. Job XIV, 17</cite>; a. e."
+			]
+		}
+	]
+}

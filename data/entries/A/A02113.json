@@ -1,0 +1,24 @@
+{
+	"id": "A02113",
+	"slug": "אנדיסקי",
+	"headword": {
+		"text": "אַנְדִּיסְקֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 81,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (a Babylonian adoption of <i>ecdicus</i>, v. <cite ref=\"A00251\"><he>אגדיקוס</he></cite>, <cite ref=\"A02116\"><he>אנדיקוס</he></cite>) <i>syndics, state-officials</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 55a:8\">B. Bath. 55ᵃ</cite> <he>אבל אצלוהו א׳ וכ׳</he> Ar. (ed. omit <he>אצלוהו</he>) but if the syndics exempted him from taxes, it is like a divine grant."
+			]
+		}
+	]
+}

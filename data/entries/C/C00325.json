@@ -1,0 +1,24 @@
+{
+	"id": "C00325",
+	"slug": "גוהרקא-2",
+	"headword": {
+		"text": "גּוּהַרְקָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 219,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>גֵּוו הַרְקָא</he>; cmp. Syr. <he>חרוק</he> acerbus P. Sm. 1384, a. h. <cite ref=\"H01756\"><he>חַרְצָן</he></cite>) <i>sour and hard berry</i>.—Pl. <he>גּוּהַרְקֵי</he>. ",
+			"units": [
+				"<cite ref=\"Nazir 34b:12\">Naz. 34ᵇ</cite> <he>גוה׳</he> ed. (Ar. <he>גורקי</he>) undeveloped grapes.—",
+				"<cite ref=\"Pesachim 25b:5\">Pes. 25ᵇ</cite> <he>גוהרקי</he> Ms. M. (ed. <he>גוהרקיה</he>, Ar. <cite ref=\"C01391\"><he>גרקי</he></cite>) undeveloped olives (used for rubbing the skin in fever)."
+			]
+		}
+	]
+}

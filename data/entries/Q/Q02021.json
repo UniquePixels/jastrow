@@ -1,0 +1,156 @@
+{
+	"id": "Q02021",
+	"slug": "פרש-2",
+	"headword": {
+		"text": "פָּרַשׁ"
+	},
+	"page": {
+		"number": 1241,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to divide, separate</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": " (neut. verb) <i>to go away, go aside, depart; to keep off</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 1:5\">Yoma I, 5</cite> <he>הוא פוֹרֵשׁ … פּוֹרְשִׁין וכ׳</he> he turned aside and wept, and so did they. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 1:10:4\">Y. Keth. I, 25ᵈ</cite> bot. <he>ראו אותו פורש מציפורין</he> they saw him come out of Sepphoris (so that he is presumably an inhabitant of Sepphoris); <he>פירש מן הבתים</he> they saw him leave one of the houses of Sepphoris. ",
+				"<cite ref=\"Bamidbar Rabbah 9:16\">Num. R. s. 9</cite> <he>את פָּרַשְׁתְּ מדרך וכ׳</he> thou didst depart from the way (disregard the customs) of Israel’s daughters. ",
+				"<cite ref=\"Zevachim 113a:8\">Zeb. 113ᵃ</cite> (play on <cite ref=\"Q02033\"><he>פרשה</he></cite>, <cite ref=\"Numbers 19:5\">Num. XIX, 5</cite>) <he>מקים שפּוֹרֶשֶׁת למיתה וכ׳</he> there where she departs for death, she shall be burnt. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:2:8\">Y. M. Kat. I, 80ᵇ</cite> bot. (ref. to <cite ref=\"Leviticus 13:45\">Lev. XIII, 45</cite>) <he>כדי שתהא טומאה … פְּרוֹשׁ</he> that the uncleanness itself may cry out …, ‘keep off’; Y. Maas. Sh. V, beg. 55ᵈ; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pass, cross</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 946\">Yalk. Prov. 946</cite>; Yalk. Num. 738 <he>הספינות פּוֹרְשׁוֹת בים</he> the ships make their way through the sea."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (act. verb) <i>to separate, keep off</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 10:1\">Num. R. s. 10</cite> <he>כשם שאדם פירש את עצמו וכ׳</he> as a person keeps himself away (abstains) from the fruits of Orlah, so will those who misbehave towards their handmaids, be separated from the virtuous on the day of judgment.; a. fr.—Part. pass. <cite ref=\"Q01738\"><he>פָּרוּשׁ</he></cite>, q. v."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"Q01763\"><he>פָּרַט</he></cite>) <i>to single out, specify, speak distinctly</i>. Ib. (expl. <he>יַפְלִא</he>, <cite ref=\"Numbers 6:2\">Num. VI, 2</cite>) <he>כשיִפְרוֹשׁ לנדור וכ׳</he> when he speaks out his vow, to the exclusion of him who thinks it in his heart; a. fr.—",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 24\">Sifré Num. 24</cite> <he>עד שיפרוש לך … כדרך שפירש וכ׳</he> (<cite ref=\"Yalkut Shimoni on Torah 710\">Yalk. ib. 710</cite> <he>שיפרוט … שפרט</he>), v. <cite ref=\"Q01763\"><he>פָּרַט</he></cite>."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִפְרַשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be separated, kept away</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 22\">Lev. R. s. 22</cite> <he>והן נִפְרָשִׁים מעבודה זרה</he> and thus they will be kept away from idolatrous worship; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["פֵּירֵשׁ"],
+			"senses": [
+				{
+					"gloss": " (neut. verb) <i>to depart, withdraw; to abstain</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 82b:2\">Snh. 82ᵇ</cite> <he>היה לו</he> … <he>לפרוש ולא פי׳</he> Zimri might have withdrawn (from the woman), but he did not. ",
+						"<cite ref=\"Sanhedrin 82a:10\">Ib.ᵃ</cite> <he>אם פ׳ וכ׳</he> if Z. had withdrawn, and Phineas had slain him &c. ",
+						"<cite ref=\"Pesachim 87b:4\">Pes. 87ᵇ</cite> <he>פ׳ מן האשה</he> withdrew from contact with his wife. ",
+						"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite> <he>שפֵּירְשָׁה חיה מאדם</he> that Eve was separated from Adam.—",
+						"<cite ref=\"Shabbat 86b:3\">Sabb. 86ᵇ</cite> <he>פירשה מן האיש</he> the semen issued from a man.—",
+						"<cite ref=\"Pesachim 49b:11\">Pes. 49ᵇ</cite> <he>שנה ופ׳ קשה וכ׳</he> he that studied and gave it up, is the worst of all (in hostility to scholars); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to go on a voyage; to cross the ocean</i> (cmp. <cite ref=\"Q00934\"><he>פָּלַג</he></cite> <i>Hif.</i>). Y. M. Kat. III, beg. 81ᶜ <he>אסור לפָרֵשׁ לים הגדול</he> it is forbidden to start on a sea voyage (during the festive week). Y. Yeb. XVI, 15ᵈ top <he>עשיתי מְפָרֵשׁ וכ׳</he> I was crossing &c. Y. Meg. II, 73ᵇ top <he>מְפָרְשֵׁי ימים</he> voyagers on the sea; a. fr.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": " (act. verb) <i>to separate</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 22:9\">Gen. R. s. 22</cite> <he>אילו רצה המלך פֵּירְשָׁן ולא רצה המלך לפָרְשָׁן</he> if the king desired it, he would separate them (the fighters), but the king does not wish to separate them; <cite ref=\"Yalkut Shimoni on Torah 38:3\">Yalk. ib. 38</cite>."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to specify, express clearly</i>. Ib. <he>א״א לפה לפָרְשוֹ</he> no mouth can express it. ",
+					"units": [
+						"<cite ref=\"Menachot 91a:9\">Men. 91ᵃ</cite> <he>דמְפָרֵשׁ</he> when he (in making his vow) specified (‘sheep’ or ‘cattle’), opp. <he>בסתמא</he>. ",
+						"<cite ref=\"Bereishit Rabbah 6\">Gen. R. s. 6</cite> <he>אנשי … פֵּירְשׁוּ אותו</he> the men of the Great Assembly said it plainly. ",
+						"<cite ref=\"Mishnah Sanhedrin 7:5\">Snh. VII, 5</cite> <he>עד שיְפָרֵשׁ השם</he> until he mentions the Name expressly (uses the Tetragrammaton), opp. <cite ref=\"K00566\"><he>כִּינּוּי</he></cite>. ",
+						"<cite ref=\"Gittin 36a:6\">Gitt. 36ᵃ</cite> <he>שיהו עדים מְפָרְשִׁין שמותיהן</he> that witnesses must sign their full names; a. fr.—Part. pass. <he>מְפוֹרָשׁ</he>, f. <he>מְפוֹרֶשֶׁת</he>; pl. <he>מְפוֹרָשִׁים</he>, <he>מְפוֹרָשִׁין</he>; <he>מְפוֹרָשׁוֹת</he>. ",
+						"<cite ref=\"Bava Kamma 54b:15\">B. Kam. 54ᵇ</cite>, a. fr. <he>מה הפרט מפ׳</he>, v. <cite ref=\"Q01767\"><he>פְּרָט</he></cite>. ",
+						"<cite ref=\"Bava Metzia 94b:6\">B. Mets. 94ᵇ</cite> <he>שלישית בשואל מפ׳</he> that the third paragraph treats of a borrower, is explicitly stated (<cite ref=\"Exodus 22:13\">Ex. XXII, 13</cite>). ",
+						"<cite ref=\"Sotah 38a\">Sot. 38ᵃ</cite>, a. fr. <he>שם המפ׳</he> the special Name (the Tetragrammaton), v. supra. ",
+						"<cite ref=\"Zevachim 53a\">Zeb. 53ᵃ</cite>, v. <cite ref=\"O01705\"><he>סָתַם</he></cite>. ",
+						"<cite ref=\"Chagigah 22b:6\">Ḥag. 22ᵇ</cite> <he>ומה סתומות … מפ׳ וכ׳</he> if your undefined teachings are so well-founded, how much more your explicit teachings; a. fr."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": "<i>to explain, interpret, define</i>. ",
+					"units": [
+						"<cite ref=\"Nedarim 2b:4\">Ned. 2ᵇ</cite> <he>פתח … ומפרש ידות</he> the Mishnah begins with <i>kinnuyim</i> …, and goes on explaining <i>yadoth!</i> <cite ref=\"Zevachim 13a:13\">Zeb. 13ᵃ</cite> <he>ואין לי לפרש</he> and I am unable to explain (the reason of the distinction between receiving and sprinkling the blood); <he>אני אֲפָרֵשׁ</he> I shall explain it. ",
+						"<cite ref=\"Nedarim 81a:4-5\">Ned. 81ᵃ</cite> <he>דבר זה … ולא פֵירְשׁוּהוּ עד שפֵּירְשׁוֹ וכ׳</he> that question (<cite ref=\"Jeremiah 9:11\">Jer. IX, 11</cite>) was asked of prophets and scholars, and they could not explain it, until the Lord himself explained it (ib. 12). ",
+						"<cite ref=\"Moed Katan 16b\">M. Kat. 16ᵇ</cite>; <cite ref=\"Berakhot 18a:14\">Ber. 18ᵃ</cite> <he>לא פֵירְשׁוּ לך</he> they did not interpret (the verse) to you; v. <cite ref=\"U01571\"><he>שָׁנָה</he> I</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 31:8\">Gen. R. s. 31</cite> <he>ולא פ׳</he> and did not explain (of what material the serpent was to be made); Y. R. Hash. III, end, 59ᵃ; a. fr.—Part. pass. as ab. ",
+						"<cite ref=\"Megillah 3a:7\">Meg. 3ᵃ</cite>, a. e. (ref. to <cite ref=\"Nehemiah 8:8\">Neh. VIII, 8</cite>) <he>מפ׳ זה תרגום</he> <i>m’forash</i> means interpretation."
+					],
+					"label": "5"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְפָּרֵשׁ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְפָּרֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be specified, defined; to be explained</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 6:6\">Lev. R. s. 6</cite> <he>כל נביא שנתפ׳ וכ׳</he> a prophet whose name is stated. Gen. R. l. c. <he>בשלשה נ׳ ובאחד לא נ׳</he> in three places (in which <cite ref=\"P01466\"><he>עֲשֵׂה</he></cite> occurs) the command is specified, but in the fourth (<cite ref=\"Numbers 21:8\">Num. XXI, 8</cite>) it is not specified, v. supra. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 20:18\">Yalk. Gen. 20</cite> <he>דבר שאינו מִתְפָּרֵשׁ בִמקימו וכ׳</he> a thing which is not defined in its original place but is defined in another passage; a. e."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["הִפְרִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to separate; to set aside, dedicate</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Yoma 1:1\">Yoma I, 1</cite> <he>מַפְרִישִׁין כהן וכ׳</he> they removed the high priest from his house to the cell &c. ",
+						"<cite ref=\"Mishnah Terumot 4:1\">Ter. IV, 1</cite> <he>המַפְרִישׁ מקצת וכ׳</he> he who sets aside one portion of what is due of T’rumah or tithes. ",
+						"<cite ref=\"Bamidbar Rabbah 10:15\">Num. R. s. 10</cite> (ref. to <cite ref=\"Numbers 6:11\">Num. VI, 11</cite>, <he>ועשה</he>) <he>שיַפְרִישֵׁם הכהן וכ׳</he> that the priest when offering them designates them, one for a sin-offering &c. ",
+						"<cite ref=\"Numbers 6:11\">Ib.</cite> (ref. to <cite ref=\"Proverbs 23:32\">Prov. XXIII, 32</cite>) <he>מה צפעון זה מפריש … כך היין מפריש וכ׳</he> as the adder divides between life and death, so wine removes from the ways of life to those of death; <cite ref=\"Vayikra Rabbah 12:1\">Lev. R. s. 12</cite> <he>כך ה׳ היין בין אדם וכ׳</he> so wine caused a separation between Adam and Eve; <he>ה׳ היין בין נח לבניו לעבדות</he> wine caused a division between Noah and his sons with regard to slavery; <he>ה׳ היין בין אהרן ובניו למיתה</he> wine caused a division between Aaron and his sons with regard to death; <cite ref=\"Yalkut Shimoni on Nach 960\">Yalk. Prov. 960</cite>. ",
+						"<cite ref=\"Mishnah Tamid 4:3\">Tam. IV, 3</cite> <he>מן הכבד … ה׳</he> severed the lungs from the liver; a. fr.—Part. pass. <he>מוּפְרָשׁ</he>. ",
+						"<cite ref=\"Mishnah Nedarim 1:1\">Ned. I, 1</cite> <he>מוּפְרְשַׁנִי ממך</he> I will be separated from thee (will have no dealings with thee, accept no favors &c.); <cite ref=\"Nedarim 5a\">ib. 5ᵃ</cite>; a. e.—2) <i>to go to sea</i>. ",
+						"<cite ref=\"Bereishit Rabbah 13\">Gen. R. s. 13</cite> <he>היו מַפְרִישִׁין לים וכ׳</he> were crossing the ocean; a. e."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

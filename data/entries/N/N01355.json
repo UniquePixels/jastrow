@@ -1,0 +1,28 @@
+{
+	"id": "N01355",
+	"slug": "נשתק",
+	"headword": {
+		"text": "נַשְׁתֵּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "נַשְׁתֵּיק"
+		}
+	],
+	"page": {
+		"number": 942,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01341\"><he>נָשַׁק</he></cite>, cmp. <cite ref=\"N01331\"><he>אינשתם</he></cite>, fr. <cite ref=\"N01331\"><he>נְשַׁם</he></cite>) <i>attachment</i>, a contrivance to prevent the handle of a coal-pan from getting too hot. ",
+			"units": [
+				"<cite ref=\"Tosefta Yoma 3\">Tosef. Yoma III (II), 3</cite> <he>בכל יום לא היה לה נ׳</he> on any other day the priest’s coal-pan had no damper &c.; <cite ref=\"Yoma 44b:16\">Yoma 44ᵇ</cite> <he>נִיאַשְׁתֵּיק</he> (Ms. M. <he>נִיאוּשְׁ׳</he>; Rashi: ‘a rattling ring’); Y. ib. IV, 41ᵈ top <cite ref=\"N01276\"><he>נרתיק</he></cite>. ",
+				"<cite ref=\"Kohelet Rabbah 1:5\">Koh. R. to I, 5</cite> [read:] <he>מערטלו מִנַּשְׁתֵּקוֹ</he> or <he>מִנַּרְתֵּקוֹ</he> (v. <cite ref=\"E00944\"><he>השתק</he></cite>)."
+			]
+		}
+	]
+}

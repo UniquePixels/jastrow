@@ -1,0 +1,34 @@
+{
+	"id": "E00923",
+	"slug": "השכמה",
+	"headword": {
+		"text": "הַשְׁכָּמָה"
+	},
+	"page": {
+		"number": 369,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01170\"><he>שכם</he></cite>, <i>Hif.</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>early rising, early morning hour</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 86a:5\">Sabb. 86ᵃ</cite> <he>בה׳ עלה</he> he went up early in the morning. Sifra K’dosh. ch. III, Par. 2 <he>צא בה׳</he> start early.—",
+				"<cite ref=\"Shabbat 127a\">Sabb. 127ᵃ</cite> <he>הַשְׁכָּמַת בה״מ</he> coming in good time to college; a. fr.—Trnsf. <i>eagerness</i>. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 1:1:6\">Y. Shek. I, 45ᵈ</cite> bot., v. <cite ref=\"E00918\"><he>הַשְׁחָתָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>going to labor in the morning</i>. Y. B. Mets. VII, beg. 11ᵇ <he>שתהא השלמה</he> (corr. acc.), v. <cite ref=\"E00723\"><he>הַעֲרָבָה</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

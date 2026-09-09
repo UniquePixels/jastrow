@@ -1,0 +1,28 @@
+{
+	"id": "A00749",
+	"slug": "אונכרי",
+	"headword": {
+		"text": "אֲוַנְכְּרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲוַונְכְּרֵי"
+		}
+	],
+	"page": {
+		"number": 29,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (prob. a nom. gentil., from a trading station named <cite ref=\"A00583\"><he>אוונכר</he></cite>, a compound of <he>אוונא</he> [a. <cite ref=\"A01749\"><he>אִכָּר</he></cite>?]; cmp. <cite ref=\"A00718\"><he>אֲוָנָא</he></cite>) <i>Avankreans</i> (?), <i>traders</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 30a:8\">Succ. 30ᵃ</cite>; <cite ref=\"Sukkah 30b:2\">30ᵇ</cite>. [Ar. identifies our w. with <cite ref=\"A01675\"><he>אַכְוַנְגַּר</he></cite> which is not in agreement with the context.]"
+			]
+		}
+	]
+}

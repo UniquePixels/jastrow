@@ -1,0 +1,22 @@
+{
+	"id": "I00836",
+	"slug": "טרכסיד",
+	"headword": {
+		"text": "טְרַכְסִיד"
+	},
+	"page": {
+		"number": 555,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a comp. of <cite ref=\"I00828\"><he>טֶרֶךְ</he></cite> a. <cite ref=\"O00575\"><he>סִיד</he></cite>) <i>binding cement</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sotah 15:9\">Tosef. Sot. XV, 9</cite> if one put sand in the lime, <he>הרי זה ט׳ ואסור</he> ed. (ed. Zuck. <he>טרכיו סיד הוא</he>, Var. <he>טַרְכֵי סיד</he>) it is cement and therefore forbidden; <cite ref=\"Bava Batra 60b:10\">B. Bath. 60ᵇ</cite> <he>הרי זה ט׳</he> (Ms. O. <he>טַרְכְּסָאוֹ</he> the binding of it (the lime), cmp. <cite ref=\"I00904\"><he>טְרַקְסִין</he></cite>); <cite ref=\"Shabbat 80b:7\">Sabb. 80ᵇ</cite> (Ms. M. <he>תר׳</he>). [<cite ref=\"Tractate Semachot 8:9\">Treat. S’maḥ. VIII</cite> <he>טרכסי׳</he>, in a corrupt passage, prob. to be read: <he>כרכים</he>.]"
+			]
+		}
+	]
+}

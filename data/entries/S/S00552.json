@@ -1,0 +1,36 @@
+{
+	"id": "S00552",
+	"slug": "קוקיאני",
+	"headword": {
+		"text": "קוּקְיָאנֵי"
+	},
+	"page": {
+		"number": 1340,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. name of <i>parasite worms</i>, 1) in man.",
+			"units": []
+		},
+		{
+			"gloss": " in man. ",
+			"units": [
+				"<cite ref=\"Berakhot 36a:12\">Ber. 36ᵃ</cite> <he>קשה לק׳</he> (some ed. <he>לקוּקָאנֵי</he>; ed. Sonc. <he>לקוּרְקְיָאנֵי</he>) it is injurious because it begets worms (tape-worms?). ",
+				"<cite ref=\"Shabbat 109b:5\">Sabb. 109ᵇ</cite> <he>לקוקאיני</he> ed. (Ms. M. <he>קורקקנו</he>; Ms. O. a. Ar. <cite ref=\"S00548\"><he>קוּקָנֵי</he></cite>) as a remedy for worms."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " in fish (Rashi: in cattle). ",
+			"units": [
+				"<cite ref=\"Chullin 67b:11\">Ḥull. 67ᵇ</cite> (Ms. M. <he>קיקני</he>, <cite ref=\"S00548\"><he>קוּקָנֵי</he></cite>; Ar. ed. Koh. <he>קוקני</he>, ed. pr. <cite ref=\"S00548\"><he>קוּקָאנֵי</he></cite>); <cite ref=\"Yalkut Shimoni on Torah 537:8\">Yalk. Lev. 537</cite> <cite ref=\"S01139\"><he>קיקאני</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

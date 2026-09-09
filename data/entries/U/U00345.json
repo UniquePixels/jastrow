@@ -1,0 +1,28 @@
+{
+	"id": "U00345",
+	"slug": "שווח-3",
+	"headword": {
+		"text": "שְׁוַוח",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁוַח"
+		}
+	],
+	"page": {
+		"number": 1530,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00344\">preced.</cite>) <i>pit</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 7:16\">Targ. Ps. VII, 16</cite> Ms. (ed. <cite ref=\"U00362\"><he>שׁוּחַ</he></cite>)."
+			]
+		}
+	]
+}

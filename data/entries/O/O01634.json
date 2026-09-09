@@ -1,0 +1,48 @@
+{
+	"id": "O01634",
+	"slug": "סרך-1",
+	"headword": {
+		"text": "סְרַךְ",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "סְרֵיךְ"
+		}
+	],
+	"page": {
+		"number": 1027,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<i>Saf.</i> of <cite ref=\"A03124\"><he>ארך</he></cite>, cmp. <he>סרג</he>) <i>to interweave, twist</i>; trnsf. (corresp. to h. <cite ref=\"P00376\"><he>עָוַת</he></cite>) <i>to confound; to wrong</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 3:59\">Targ. Lam. III, 59</cite>; a. e. (interchanging with <cite ref=\"O01513\"><he>סְרַב</he> II</cite>, q. v.).—",
+				"<cite ref=\"Pesachim 51a:1\">Pes. 51ᵃ</cite>, v. next w.—<i>Part. pass.</i> <cite ref=\"O01616\"><he>סָרִיךְ</he></cite>, f. <cite ref=\"O01617\"><he>סְרִיכָא</he></cite>; pl. <cite ref=\"O01632\"><he>סְרִיכִין</he></cite>; <cite ref=\"O01617\"><he>סְרִיכָן</he></cite> <i>intricate</i>, <i>perverted</i>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 10:3\">Targ. Koh. X, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 1:15\">Ib. I, 15</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סָרֵיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to subvert, wrong</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 3:36\">Targ. Lam. III, 36</cite> <he>לסָרָכָא</he> (ed. Vien. <he>לסַרְכָא</he>; ed. Lag. <he>לסרבא</he>; h. text <he>לעַוֵּת</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to confound</i>, v. <cite ref=\"O01635\">next w.</cite>",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

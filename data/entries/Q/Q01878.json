@@ -1,0 +1,22 @@
+{
+	"id": "Q01878",
+	"slug": "פרן-1",
+	"headword": {
+		"text": "פָּרָן"
+	},
+	"page": {
+		"number": 1230,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02017\"><he>פָּרַר</he></cite>) <i>a building with a gateway leading from street to street</i> (cmp. <cite ref=\"Q01126\"><he>פָּלַשׁ</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Tahorot 6:9\">Toh. VI, 9</cite> (interch. with <cite ref=\"B00988\"><he>בסילקי</he></cite>, v. Maim. a. l.).—[R. H. G. reads <he>פָּרוֹן</he> and explains <i>lighthouse</i> (φάρος)—which, however, does not fit the context.]"
+			]
+		}
+	]
+}

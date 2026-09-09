@@ -1,0 +1,20 @@
+{
+	"id": "P01285",
+	"slug": "ערבל",
+	"headword": {
+		"text": "עַרְבֵּל"
+	},
+	"page": {
+		"number": 1113,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Palel of <he>ערב</he>, v. <cite ref=\"P01261\"><he>עַרְבֵּב</he></cite>) <i>to confound, disturb</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 1:10\">Targ. Esth. I, 10</cite>.—Part. pass. <he>מְעַרְבַּל</he>, pl. <he>מְעַרְבְּלִין</he>. ",
+				"<cite ref=\"Onkelos Exodus 14:3\">Targ. O. Ex. XIV, 3</cite> (h. text <he>נבכים</he>)."
+			]
+		}
+	]
+}

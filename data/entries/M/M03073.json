@@ -1,0 +1,74 @@
+{
+	"id": "M03073",
+	"slug": "מתל-1",
+	"headword": {
+		"text": "מְתַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 862,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"M02912\"><he>מָשַׁל</he> II</cite><i>to speak mataphorically, recite a mashal</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 12:23\">Targ. Ez. XII, 23</cite>; a. fr.—",
+				"<cite ref=\"Pesachim 114a:3\">Pes. 114ᵃ</cite> <he>מתלא מַתְלִין וכ׳</he> they have a saying (witticism) about it in the West. ",
+				"<cite ref=\"Jerusalem Talmud Demai 1:1:12\">Y. Dem. I, 21ᵈ</cite> top; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to banter, sneer</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 14:9\">Targ. Prov. XIV, 9</cite> (h. text <he>יָלִיץ</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to place beside, to compare</i>. Y. Dem. l. c. (play on <cite ref=\"U00446\"><he>שׁוּמִּירָה</he></cite>) <he>שמר מרה מאן מ׳ ליך וכ׳</he> guarding bitterness—who classed thee among the spices? <cite ref=\"Yoma 2a\">Ib.</cite> (play on <cite ref=\"K00321\"><he>כּוּסְבַּר</he></cite>) <he>מאן מַתְלִיךְ וכ׳</he>, v. <cite ref=\"K00321\"><he>כּוּסְבַּרְתָּא</he></cite>.—Part. pass. <he>מְתִיל</he>; f. <cite ref=\"M03050\"><he>מְתִילָא</he></cite>; pl. <he>מְתִילִין</he>, <he>מְתִילֵי</he>; <he>מְתִילָן</he> <i>compared, comparable</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 12:2\">Targ. Koh. XII, 2</cite>; a. e.—",
+				"<cite ref=\"Chullin 59b:9\">Ḥull. 59ᵇ</cite> <he>כאריא מ׳</he> is compared to a lion.—",
+				"<cite ref=\"Bava Metzia 83b:5\">B. Mets. 83ᵇ</cite> <he>לאו כחיותא מ׳</he> are they (robbers) not like wild beasts?—",
+				"<cite ref=\"Berakhot 53b\">Ber. 53ᵇ</cite>, v. infra; a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַמְתֵּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to recite a mashal</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 21:5\">Targ. Ez. XXI, 5</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to propound a riddle</i>. Targ. II Esth. I, 3.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְמְתַל", "אִיתְמְתִיל"],
+			"senses": [
+				{
+					"gloss": ", <he>אִימְּתִיל</he> <i>to be compared, to be like</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 28:1\">Targ. Ps. XXVIII, 1</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 49:13\">Ib. XLIX, 13</cite> (not <cite ref=\"M03073\"><he>אַמְתִיל</he></cite>); a. e.—",
+						"<cite ref=\"Sanhedrin 95a:9\">Snh. 95ᵃ</cite> <he>כנסת … ליונה אִימְּתִילָה</he> the community of Israel is compared to a dove; <cite ref=\"Berakhot 53b\">Ber. 53ᵇ</cite> <he>מְתִילָא</he> Ms. M. (ed. <he>מתליא</he>, <he>מתליה</he>, corr. acc.); <cite ref=\"Shabbat 49a\">Sabb. 49ᵃ</cite> <cite ref=\"M03073\"><he>אמתיל</he></cite>, read: <he>אִמְּתִילָא</he>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "N00155",
+	"slug": "נגיד-4",
+	"headword": {
+		"text": "נְגִיד",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "נְגִידָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 874,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>leader</i>, v. <cite ref=\"N00135\"><he>נָגוֹדָא</he></cite>.",
+			"units": []
+		}
+	]
+}

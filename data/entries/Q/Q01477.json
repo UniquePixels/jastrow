@@ -1,0 +1,51 @@
+{
+	"id": "Q01477",
+	"slug": "פקח-4",
+	"headword": {
+		"text": "פִּקֵּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּיקֵּ׳"
+		}
+	],
+	"page": {
+		"number": 1208,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., <cite ref=\"Q00807\"><he>פִּקַּחַת</he></cite>, <cite ref=\"Q01451\"><he>פִּיקַּ׳</he></cite> f. (b. h.; <cite ref=\"Q01476\">preced.</cite> wds.) [<i>open</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": " (opp. to <cite ref=\"H01784\"><he>חֵרֵשׁ</he></cite>) <i>hearing</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yevamot 14:1\">Yeb. XIV, 1</cite> <he>חרש שנשא פ׳ ופ׳ וכ׳</he> if a deaf mute married one hearing, or a hearing person married &c.; <he>פ׳ שנשא פ׳ ונתחרשה</he> if one hearing married one hearing, and she became deaf (and dumb); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (opp. to <cite ref=\"O00336\"><he>סוּמָא</he></cite> or <cite ref=\"P00346\"><he>עִוֵּר</he></cite>) <i>seeing</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 36:2\">Ex. R. s. 36</cite> <he>משל לפ׳ וסומא וכ׳</he> like a seeing and a blind man walking together &c. ",
+				"<cite ref=\"Shemot Rabbah 3\">Ex. R. s. 3</cite> (ref. to <cite ref=\"Exodus 4:11\">Ex. IV, 11</cite>) <he>פ׳ לראייה פ׳ לשמיעה</he> <i>piḳḳeaḥ</i> refers both to sight and to hearing; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (opp. to <cite ref=\"I00683\"><he>טִפֵּשׁ</he></cite>) <i>bright, smart, prudent</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 88a:1\">Keth. 88ᵃ</cite> (in Chald. dict.) <he>אי פ׳ הוא וכ׳</he> if he (the husband) be prudent, he may cause her to have an oath administered to her according to Biblical law. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 2:7:3\">Y. Meg. II, end, 73ᶜ</cite> <he>הוי פ׳ ושתוק</he> be prudent and keep silence; <cite ref=\"Yoma 7a:2\">Yoma 7ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:7:5\">Y. Sabb. II, end, 5ᶜ</cite> <he>אשה פ׳</he> a wise woman; a. fr.—Pl. <he>פִּקְחִים</he>, <cite ref=\"Q01506\"><he>פִּקְחִין</he></cite>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>; <he>פִּקְחוֹת</he>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>. ",
+				"<cite ref=\"Mishnah Yevamot 14:3\">Yeb. XIV, 3</cite>, sq. ",
+				"<cite ref=\"Shabbat 153a:6\">Sabb. 153ᵃ</cite>. Y. Kidd. IV, 66ᶜ; <cite ref=\"Tractate Soferim 15:10\">Treat. Sof’rim XV, 10</cite> <he>רובן … פ׳</he> most bastards are bright; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

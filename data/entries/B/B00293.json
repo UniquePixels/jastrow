@@ -1,0 +1,32 @@
+{
+	"id": "B00293",
+	"slug": "בוסמניא",
+	"headword": {
+		"text": "בּוּסְמָנַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּסְמָנִין"
+		},
+		{
+			"text": "בּוּשְׂ׳"
+		}
+	],
+	"page": {
+		"number": 147,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"B00292\">preced. ws.</cite>) <i>aromas, ointments</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 10:10\">Targ. I Kings X, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ruth 3:3\">Targ. Ruth. III, 3</cite>; a. e."
+			]
+		}
+	]
+}

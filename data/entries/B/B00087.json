@@ -1,0 +1,42 @@
+{
+	"id": "B00087",
+	"slug": "בגר-2",
+	"headword": {
+		"text": "בְּגַר"
+	},
+	"page": {
+		"number": 137,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00086\">same</cite>.<i>to be of age</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 30:11\">Targ. Y. Num. XXX, 11</cite>, sq."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be rough, harsh, husky</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 167b:15\">B. Bath. 167ᵇ</cite> <he>בגר לה קלא</he> her voice has become rough (from old age).—Denom. <cite ref=\"B00082\"><he>בַּגִּיר</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַבְגַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to produce a rough surface, to heat and bruise by friction</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 66a\">Nidd. 66ᵃ</cite> <he>שפופרת אַבְגּוּרֵי מבגר לה</he> Ar. (Var. <he>אנג׳ מנג׳</he>, ed. <he>אפג׳ מפג׳</he>) will not a tube bruise her?—",
+						"<cite ref=\"Ketubot 65a\">Keth. 65ᵃ</cite> <he>מבגר לה</he> (the ropes of the bedstead) hurt her."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

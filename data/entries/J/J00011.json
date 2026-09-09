@@ -1,0 +1,25 @@
+{
+	"id": "J00011",
+	"slug": "יאות",
+	"headword": {
+		"text": "יָאוּת"
+	},
+	"page": {
+		"number": 559,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. h. a. ch. (<he>יאי</he>) <i>propriety;</i> adv., (cmp. <cite ref=\"I00025\"><he>טַבָּאוּת</he></cite>) <i>right; properly; it is right</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 127:2\">Targ. Ps. CXXVII, 2</cite> <he>על י׳</he> in propriety (honestly). ",
+				"<cite ref=\"Targum Jonathan on Genesis 22:10\">Targ. Y. Gen. XXII, 10</cite> <he>כפוס … י׳</he> tie me well. ",
+				"<cite ref=\"Onkelos Deuteronomy 13:15\">Targ. O. Deut. XIII, 15</cite> (Y. <cite ref=\"I00025\"><he>טבאות</he></cite>, h. text <he>היטב</he>); a. fr.—Y. Ḥag. I, 76ᵈ top <he>וי׳ הרי וכ׳</he> and it is right so; for there is the case &c.; <cite ref=\"Jerusalem Talmud Peah 2:4:3\">Y. Peah II, 17ᵃ</cite> <he>וי׳ היא</he> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Demai 1:1:10\">Y. Dem. I, 21ᶜ</cite> bot. <he>י׳ הוא מקשי</he> he asks a proper question; a. fr."
+			]
+		}
+	]
+}

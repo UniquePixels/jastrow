@@ -1,0 +1,31 @@
+{
+	"id": "M00851",
+	"slug": "מחטא",
+	"headword": {
+		"text": "מַחֲטָא"
+	},
+	"page": {
+		"number": 759,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M00850\">same</cite><i>needle, pin</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 21:6\">Targ. Y. Ex. XXI, 6</cite>; <cite ref=\"Deuteronomy 15:17\">Deut. XV, 17</cite> (h. text <cite ref=\"M02757\"><he>מרצע</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>stitching</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 26:36\">Targ. Y. Ex. XXVI, 36</cite>, a. fr. <he>ציור מ׳</he> stitched embroidery (h. text <he>רקם</he>).—",
+				"<cite ref=\"Berakhot 63a:14\">Ber. 63ᵃ</cite> <he>מ׳ דתלמיותא</he> stitching in lines or furrows (quilting).—Pl. <he>מַחֲטִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 12:5:2\">Y. Yeb. XII, 12ᵈ</cite> bot.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:33\">Y. Ber. IV, 7ᵈ</cite> top; <cite ref=\"Jerusalem Talmud Taanit 4:1:16\">Y. Taan. IV, 67ᵈ</cite> <he>עביד מ׳</he> making needles.—<he>מַחְטַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 3:22\">Targ. Is. III, 22</cite> Ar. (ed. <cite ref=\"M00884\"><he>מחכיא</he></cite>) <i>embroideries</i> (h. text <he>חריטים</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

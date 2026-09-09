@@ -1,0 +1,23 @@
+{
+	"id": "H01796",
+	"slug": "חרתא-2",
+	"headword": {
+		"text": "חַרְתָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 508,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חרר</he> III) [<i>heat</i>,] <i>strife, anger</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 15:18\">Targ. Prov. XV, 18</cite>; <cite ref=\"Aramaic Targum to Proverbs 18:6\">XVIII, 6</cite> (ed. Lag. <cite ref=\"E00907\"><he>הַרְתָּא</he></cite>)."
+			]
+		}
+	]
+}

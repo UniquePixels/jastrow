@@ -1,0 +1,23 @@
+{
+	"id": "A00259",
+	"slug": "אגודל",
+	"headword": {
+		"text": "אֲגוּדָל"
+	},
+	"page": {
+		"number": 11,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"C00312\"><he>גּוּדָל</he></cite>) <i>thumb</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 2:1\">Yoma II, 1</cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:6\">Cant. R. to III, 6</cite>."
+			]
+		}
+	]
+}

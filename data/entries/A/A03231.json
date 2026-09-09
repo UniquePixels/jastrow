@@ -1,0 +1,23 @@
+{
+	"id": "A03231",
+	"slug": "ארצות",
+	"headword": {
+		"text": "אַרְצוּת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 125,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>אַרְצָאוּת</he>, <cite ref=\"T00981\"><he>רצי</he></cite>, cmp. <cite ref=\"E00899\"><he>הַרְצָאָה</he></cite>) <i>persuasion, surrender</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 4a:6\">Sot. 4ᵃ</cite> <he>כדי טומאתה ואַרְצוּתָהּ</he> time required for her pollution (by improper contact) and her surrender to the seducer."
+			]
+		}
+	]
+}

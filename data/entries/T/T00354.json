@@ -1,0 +1,40 @@
+{
+	"id": "T00354",
+	"slug": "רוטב",
+	"headword": {
+		"text": "רוֹטֶב"
+	},
+	"page": {
+		"number": 1458,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00549\"><he>רָטַב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>soft, green date</i>, opp. <cite ref=\"J00073\"><he>יבשה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 2:2\">Ukts. II, 2</cite> <he>גלעינה של ר׳</he> the kernel of a green date. ",
+				"<cite ref=\"Tosefta Uktsin 2:1\">Tosef. ib. II, 1</cite>, sq.; a. e.—V. <cite ref=\"T00549\"><he>רָטַב</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>broth; juice of meats; jelly</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 9:1\">Ḥull. IX, 1</cite>, expl. ",
+				"<cite ref=\"Chullin 120a:9\">ib. 120ᵃ</cite> <he>מאי ר׳ שומנא</he> what kind of <i>roṭeb</i> is meant? Fat; (oth. opin.) <he>חלא דקריש</he>, v. <cite ref=\"H00962\"><he>חָלָא</he> III</cite>. ",
+				"<cite ref=\"Mishnah Pesachim 7:2\">Pes. VII, 2</cite> <he>נטף מרוֹטְבוֹ וכ׳</he> if (while roasting the Passover lamb) some of its juice dripped on &c. ",
+				"<cite ref=\"Bamidbar Rabbah 10\">Num. R. s. 10<sup>21</sup></cite>; <cite ref=\"Tosefta Nazir 4:6\">Tosef. Naz. IV, 6</cite>. ",
+				"<cite ref=\"Chullin 108a\">Ḥull. 108ᵃ</cite> <he>ר׳ רכה</he> (<i>fem.</i>) soft (liquid) juice; <he>ר׳ עבה</he> thick (jelly-like) juice; a. fr.—",
+				"<cite ref=\"Tosefta Keilim Batra 5:6\">Tosef. Kel. B. Bath. V, 6</cite> <he>ניקורי ר׳</he>, v. <cite ref=\"T00552\"><he>רֶטֶב</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

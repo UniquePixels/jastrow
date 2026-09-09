@@ -1,0 +1,25 @@
+{
+	"id": "P00035",
+	"slug": "עבות-1",
+	"headword": {
+		"text": "עָבוֹת"
+	},
+	"page": {
+		"number": 1037,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.  <cite ref=\"P00035\"><he>עָבֹת</he></cite>; <he>עָבַת</he> <i>to twist, plait</i>) <i>network</i>, <i>matting;</i> <he>עץ ע׳</he> <i>a tree screened by a network of foliage</i>. Sifra Emor, Par. 12, ch. XVI (expl. ",
+			"units": [
+				"<cite ref=\"Leviticus 23:40\">Lev. XXIII, 40</cite>) <he>את שענף עצו דומה לקליעה</he> the tree the ramification around whose trunk resembles plaiting; <cite ref=\"Jerusalem Talmud Sukkah 3:2:2\">Y. Succ. III, 53ᶜ</cite> bot. <he>עץ שענפיו חופין … קליעה</he> a tree the branches of which cover its larger portion and which rises in the shape of a plaiting; Bab. ",
+				"<cite ref=\"Sukkah 32b:21\">Succ. 32ᵇ</cite> <he>שענפיו חופין את עצו</he> whose branches cover up its trunk. ",
+				"<cite ref=\"Sukkah 32b:21\">Ib.</cite> <he>היכי דמי ע׳ וכ׳</he> what is <i>‘aboth</i> like (when is a tree called <i>‘aboth</i>)? When three leaves are on each stem. ",
+				"<cite ref=\"Sukkah 32b:21\">Ib.</cite> <he>ובלבד שתהא עֲבוֹתוֹ קיימת</he> provided its network (three leaves on each stem) remains; a. e."
+			]
+		}
+	]
+}

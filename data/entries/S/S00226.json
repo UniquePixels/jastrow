@@ -1,0 +1,23 @@
+{
+	"id": "S00226",
+	"slug": "קוביא",
+	"headword": {
+		"text": "קוּבְיָא"
+	},
+	"page": {
+		"number": 1323,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (κυβεία) <i>dice-playing, gambling</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 3:3\">Snh. III, 3</cite> (among those disqualified as witnesses) <he>המשחק בק׳</he> the habitual dice-player; <cite ref=\"Mishnah Rosh Hashanah 1:8\">R. Hash. I, 8</cite>; Y. ib. 57ᶜ top <he>בקוּבְיָיא</he>. ",
+				"<cite ref=\"Mishnah Shabbat 23:2\">Sabb. XXIII, 2</cite> <he>משום ק׳</he> (omitted in Bab. ed. 148ᵇ) it is forbidden, because it is like gambling; ib. 149ᵃ; a. e."
+			]
+		}
+	]
+}

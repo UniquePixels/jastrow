@@ -1,0 +1,37 @@
+{
+	"id": "N00102",
+	"slug": "נבע-2",
+	"headword": {
+		"text": "נְבַע"
+	},
+	"page": {
+		"number": 870,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N00101\">same</cite> <cite ref=\"Targum Jonathan on Genesis 26:21\">Targ. Y. Gen. XXVI, 21</cite>; a. e.—Part. <he>נְבִיעַ</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 18:4\">Targ. Prov. XVIII, 4</cite>.—[<cite ref=\"Aramaic Targum to Job 6:10\">Targ. Job VI, 10</cite> <he>וְאַבּוּעַ</he> some ed., read: <he>וַאֲבוּעַ</he>, v. <cite ref=\"B00299\"><he>בּוּעַ</he></cite> a. <cite ref=\"B01058\"><he>בְּעַע</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַבַּע"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"N00101\">preced.</cite> <i>Hif.</i> ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 1:23\">Targ. Prov. I, 23</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 15:28\">Ib. XV, 28</cite>; a. fr.—",
+						"<cite ref=\"Taanit 25b:9\">Taan. 25ᵇ</cite> (first time in Hebr. Dict.) <he>אַבַּע מימיך</he> (Ms. M. first time <cite ref=\"A01111\"><he>אֵי</he></cite>) let thy waters spring forth. ",
+						"<cite ref=\"Bava Batra 151b\">B. Bath. 151ᵇ</cite>; <cite ref=\"Ketubot 91a:21\">Keth. 91ᵃ</cite> <he>מחינא לכו בסילוא דלא מַבַּע דמא</he> we shall strike you with the thorn which makes no blood flow (i.e. excommunication). ",
+						"<cite ref=\"Shabbat 88a:9\">Sabb. 88ᵃ</cite> <he>וקא מַבְּעָן אצבעתיה דמא</he> blood burst forth from his fingers."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

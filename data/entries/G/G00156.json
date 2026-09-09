@@ -1,0 +1,42 @@
+{
+	"id": "G00156",
+	"slug": "זוט",
+	"headword": {
+		"text": "זֶוֶט"
+	},
+	"altHeadwords": [
+		{
+			"text": "זוּט"
+		}
+	],
+	"page": {
+		"number": 385,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00156\"><he>זוט</he></cite>, cmp. <cite ref=\"R00031\"><he>צָבַט</he></cite>, <cite ref=\"R00071\"><he>צָבַת</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a catch, a bag-like receptacle for catch in the fisher’s net; the solid web of the net-work</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 23:5\">Kel. XXIII, 5</cite> <he>החרם טמא מפני זוּטוֹ</he> Ar. (ed. <cite ref=\"E00293\"><he>הזוטו</he></cite>, R. Hai G. <he>הזוּטָן</he>, Var. <he>הזומן</he>) the net is fit for levitical uncleanness on account of its bag (being a receptacle of solid web). Ib. XXVIII, 9 <he>העושה … החרם … ומזוטו טמא</he> (ed. Dehr., Ar. ed. Koh. <he>ומן הזוטו</he>) a garment made out of a net is clean, but one made out of its solid portion &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <he>שלל</he>, <cite ref=\"U01250\"><he>שלולית</he></cite>) <i>what the Sea throws out, deposits after the tide; the deposit</i> or <i>ore of a mine</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 21b:3\">B. Mets. 21ᵇ</cite> <he>בזוּטוֹ של ים ובשלוליתו וכ׳</he> things found among the deposits of the Sea or the alluvium of a river. ",
+				"<cite ref=\"Bava Metzia 24a:5\">Ib. 24ᵃ</cite>; <cite ref=\"Avodah Zarah 43a\">Ab. Zar. 43ᵃ</cite>.—",
+				"<cite ref=\"Shir HaShirim Rabbah 4:8:3\">Cant. R. to IV, 8</cite> <he>מה החרמון הזה כל טוב נתון בזוטו</he> (not <he>טובו</he>; <cite ref=\"Yalkut Shimoni on Nach 988:40\">Yalk. Cant. 988</cite> <he>בתוכו</he>) as in the Hermon all good things are deposited in its mines &c.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:20\">Y. Ber. IV, 7ᵇ</cite> bot. (ref. to <he>צולה</he>, <cite ref=\"Isaiah 44:27\">Is. XLIV, 27</cite>) <he>זו בכל שהיא זוטו של עולם</he> that means Babylon which is the deposit of the world (the treasury of booty and commerce); Lam. R. introd. (R. Josh. 2) <cite ref=\"G00157\"><he>זוטא</he></cite> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

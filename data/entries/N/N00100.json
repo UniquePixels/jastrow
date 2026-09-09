@@ -1,0 +1,30 @@
+{
+	"id": "N00100",
+	"slug": "נבלתא",
+	"headword": {
+		"text": "נְבֵלְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְבֵלָא"
+		},
+		{
+			"text": "נְבֵי׳"
+		}
+	],
+	"page": {
+		"number": 870,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"N00097\"><he>נְבֵלָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 21:23\">Targ. O. Deut. XXI, 23</cite> <he>נְבֵילְתֵּיה</he> ed. Berl. (oth. ed. <he>נְבִלְ׳</he>; Y. <he>נִבְלַת גושמיה</he>) his corpse. ",
+				"<cite ref=\"Onkelos Leviticus 22:8\">Targ. Lev. XXII, 8</cite> (some ed. <cite ref=\"N00087\"><he>נְבִילָא</he></cite>); a. fr.—",
+				"<cite ref=\"Bava Batra 110a:5\">B. Bath. 110ᵃ</cite>; <cite ref=\"Pesachim 113a:3\">Pes. 113ᵃ</cite> (prov.) (<cite ref=\"N00554\"><he>נטוש</he></cite>) <he>פשוט נ׳ בשוקא וכ׳</he> flay a carcass in the street and earn a living, and say not, I am a noble priest.; a. fr.—Pl. <cite ref=\"N00087\"><he>נְבֵילָתָא</he></cite>. ",
+				"<cite ref=\"Pesachim 113a:3\">Ib.</cite> <he>הפוך בנ׳</he>, v. <cite ref=\"E00741\"><he>הֲפַךְ</he></cite>.—[<cite ref=\"Aramaic Targum to Job 5:16\">Targ. Job V, 16</cite> <cite ref=\"N00087\"><he>נבילתא</he></cite> ed. Lag., Ms. <cite ref=\"N00612\"><he>ניבלתא</he></cite>, read with ed. Wil. <cite ref=\"N00835\"><he>נְכֶלְתָּא</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "Q02042",
+	"slug": "פרת-2",
+	"headword": {
+		"text": "פָּרַת"
+	},
+	"page": {
+		"number": 1244,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>פרר</he>, <cite ref=\"Q01574\"><he>פרד</he></cite>) <i>to divide, crush, crumble</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פֵּירֵת"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q02041\">same</cite>, trnsf. (with <cite ref=\"B00000\"><he>ב</he></cite>) <i>to belittle, make light of</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 3:11\">Koh. R. to III, 11</cite> <he>אילו אחד … הוא פ׳ בממונו של עולם וכ׳</he> if any one else had said, ‘vanity of vanities &c.’ (<cite ref=\"Kohelet Rabbah 1:2\">ib. I, 2</cite>), I might have thought, one that never owned two pennies in his life, made light of the wealth of the world &c."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

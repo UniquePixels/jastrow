@@ -1,0 +1,37 @@
+{
+	"id": "C01277",
+	"slug": "גרדי-1",
+	"headword": {
+		"text": "גַּרְדִּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּירְ׳"
+		}
+	],
+	"page": {
+		"number": 266,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גרד</he>) <i>wool-dresser</i>, in gen. <i>common weaver</i>, diff. fr. <cite ref=\"I00849\"><he>טַרְסִי</he></cite>. [Our w. adopted in Greek a. Latin γέρδιος, gerdius.] <cite ref=\"Bava Batra 21a\">B. Bath. 21ᵃ</cite> one of the inmates of a court <he>הרוצה לעשות … ג׳</he> that wants to open a business as … weaver. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 12:4\">Kel. XII, 4</cite> <he>מסמר הג׳</he> the weaver’s pin (of the shuttle). ",
+				"<cite ref=\"Shabbat 93b:5\">Sabb. 93ᵇ</cite> <he>קנה של ג׳</he> the weaver’s cane (quill); Y. ib. X, 12ᶜ bot. <he>גיר׳</he>; a. fr.—Pl. <he>גַּרְדִּיִּים</he>, <cite ref=\"C01276\"><he>גַּרְדִּין</he></cite>. ",
+				"<cite ref=\"Kiddushin 82a\">Kidd. 82ᵃ</cite>; <cite ref=\"Tosefta Kiddushin 5:14\">Tosef. ib. V, 14</cite>. ",
+				"<cite ref=\"Mishnah Eduyot 1:3\">Eduy. I, 3</cite>; Sab. 15ᵃ.—",
+				"<cite ref=\"Mishnah Kilayim 9:10\">Kil. IX, 10</cite> <cite ref=\"C01276\"><he>גרדין</he></cite>, v. <cite ref=\"A00940\"><he>אוֹת</he> II</cite>.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <he>גַּדְרִי</he>) <i>of Gadara</i>, v. <cite ref=\"A00178\"><he>אַבְנִימוֹס</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "Q00847",
+	"slug": "פירוש-1",
+	"headword": {
+		"text": "פֵּירוּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "פֵּר׳"
+		}
+	],
+	"page": {
+		"number": 1171,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02021\"><he>פָּרַשׁ</he></cite>) <i>distinct expression, directness; explanation; commentary</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 52a:4\">B. Bath. 52ᵃ</cite> <he>וכולן … יעשה כפֵירוּשָׁן ואם לאו יעשה פ׳ לפירושן</he> and as to all of them (a woman, a slave, or a minor), if they declared before dying, ‘these things belong to—’, he (the trustee) may do according to their explicit declaration, or else (having reasons to distrust their statements) he must make a commentary to their statement (explain the motive they may have had for telling a falsehood). ",
+				"<cite ref=\"Bava Batra 52a:4\">Ib.</cite> <he>אי … עשה כפֵירוּשָׁה וכ׳</he> if you believe her to be trustworthy, do according to her explicit statement, if not, make a commentary &c. (find out the real state of affairs). ",
+				"<cite ref=\"Jerusalem Talmud Gittin 5:10:2\">Y. Gitt. V, end, 47ᶜ</cite>; <cite ref=\"Jerusalem Talmud Sheviit 5:4:2\">Y. Shebi. V, end, 36ᵃ</cite> <he>וסתמו לאו כפֵירוּשׁוֹ הוא</he> is the silent lending of a untensil not equal to an explicit statement of the use to be made of it? <cite ref=\"Sanhedrin 87a\">Snh. 87ᵃ</cite>, v. <cite ref=\"P00666\"><he>עִיקָּר</he></cite>; a. fr.—<he>בפ׳</he> (also in Chald. dict.) <i>distinctly, explicitly, directly</i>. ",
+				"<cite ref=\"Chullin 95a\">Ḥull. 95ᵃ</cite>, a. fr. <he>בפ׳ איתמר</he>, v. <cite ref=\"K00761\"><he>כְּלָלָא</he></cite>. ",
+				"<cite ref=\"Mishnah Sanhedrin 7:5\">Snh. VII, 5</cite> <he>אמור מה ששמעת בפ׳</he> tell plainly now what thou hast heard (the blasphemer say, i.e. repeat without euphemistic disguise, v. <cite ref=\"K00566\"><he>כִּינּוּי</he></cite>). ",
+				"<cite ref=\"Pesachim 13a:15\">Pes. 13ᵃ</cite> <he>בפ׳ אמרת לן</he> you told us plainly. ",
+				"<cite ref=\"Shabbat 39b:6\">Sabb. 39ᵇ</cite> <he>בפ׳ שמיע לך וכ׳</he> did you hear that tradition directly or only by implication?; a. fr.—[In commentaries and glosses: <cite ref=\"Q00847\"><he>פירוש</he></cite>, abbrev. <he>פי׳</he>, <i>this means</i>.]"
+			]
+		}
+	]
+}

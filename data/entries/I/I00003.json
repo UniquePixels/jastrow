@@ -1,0 +1,25 @@
+{
+	"id": "I00003",
+	"slug": "טאב",
+	"headword": {
+		"text": "טְאֵב"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְאֵיב"
+		}
+	],
+	"page": {
+		"number": 515,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= h. <cite ref=\"I00108\"><he>טוֹב</he></cite>) <i>to be bright, good, well</i>.—<he>ט׳ על</he>, <he>ט׳ ל־</he> <i>to feel well, be happy</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 4:24\">Dan. IV, 24</cite>.—",
+				"<cite ref=\"Targum Jonathan on I Samuel 16:23\">Targ. I Sam. XVI, 23</cite> (ed. Wil. <cite ref=\"I00018\"><he>טָב</he></cite>)."
+			]
+		}
+	]
+}

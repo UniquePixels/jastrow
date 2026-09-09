@@ -1,0 +1,30 @@
+{
+	"id": "B00936",
+	"slug": "בנאי-2",
+	"headword": {
+		"text": "בַּנַּאי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּנָּאָה"
+		},
+		{
+			"text": "רַבַּנַּאי"
+		}
+	],
+	"page": {
+		"number": 176,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>רב ב׳</he>) pr. n. m. <i>Bannai, Bannaah, Rabbannai</i>, name of an Amora. ",
+			"units": [
+				"<cite ref=\"Ketubot 50b:5\">Keth. 50ᵇ</cite>. ",
+				"<cite ref=\"Berakhot 38b:3\">Ber. 38ᵇ</cite>. [<cite ref=\"Berakhot 55b:16\">Ib. 55ᵇ</cite> Ms. M. <cite ref=\"N00256\"><he>נהוראי</he></cite>. ",
+				"<cite ref=\"Bava Metzia 2a:7\">B. Mets. 2ᵃ</cite>, a. e. <he>רב׳</he>, Ms. M. <cite ref=\"T00096\"><he>רבינא</he></cite>, v. Rabb. D. S. a. l. note.]"
+			]
+		}
+	]
+}

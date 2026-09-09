@@ -1,0 +1,32 @@
+{
+	"id": "P00561",
+	"slug": "עיכובא",
+	"headword": {
+		"text": "עִיכּוּבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִכּ׳"
+		}
+	],
+	"page": {
+		"number": 1069,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00560\">same</cite><i>delay</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 23:22\">Targ. Y. Deut. XXIII, 22</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>indispensable condition</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 5a:13\">Yoma 5ᵃ</cite> bot. <he>ככה ע׳ היא</he> the emphatic expression ‘thus’ (<cite ref=\"Exodus 29:35\">Ex. XXIX, 35</cite>) intimates the indispensableness of any of the prescribed forms. Ib.ᵇ <he>ושמרתם … ע׳</he> the emphatic expression, ‘and ye shall guard’ (<cite ref=\"Leviticus 8:35\">Lev. VIII, 35</cite>) intimates &c."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"id": "U00284",
+	"slug": "שדר-2",
+	"headword": {
+		"text": "שְׁדַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1526,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Shaf. of <cite ref=\"D00341\"><he>דור</he></cite>, <he>דרר</he>; cmp. <cite ref=\"U00234\"><he>שגר</he></cite>; Assyr. <cite ref=\"U00284\"><he>שדר</he></cite> <i>to order</i>); <i>Pa.</i> <cite ref=\"U00284\"><he>שַׁדַּר</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to send</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 38:20\">Targ. Gen. XXXVIII, 20</cite>; <cite ref=\"Onkelos Genesis 38:23\">23</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 39:3\">Targ. Job XXXIX, 3</cite>; a. fr.—[<cite ref=\"Chullin 51a:9\">Ḥull. 51ᵃ</cite> <he>שדרן</he>, read: <he>שגרן</he>, v. <cite ref=\"U00234\"><he>שְׁגַר</he> I</cite>.] <cite ref=\"Gittin 56a:2\">Gitt. 56ᵃ</cite> <he>שַׁדַּר להו וכ׳</he> send them a sacrifice, and see whether they will accept it. ",
+				"<cite ref=\"Gittin 56a:3\">Ib.</cite> <he>אזל ש׳ בידיה וכ׳</he> he went and sent through him &c. ",
+				"<cite ref=\"Chullin 56a:12\">Ḥull. 56ᵃ</cite> <he>שַׁדְּרָהּ לקמיה וכ׳</he> he sent the case to Rab M. ",
+				"<cite ref=\"Ketubot 85a\">Keth. 85ᵃ</cite>, a. fr. <he>לתקוני שַׁדַּרְתִּיךְ וכ׳</he>, v. <cite ref=\"P00377\"><he>עֲוַת</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to throw</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 109:1\">Yalk. Gen. 109</cite> <he>אנא</he> … <he>ואת מְשַׁדֵּר ואזיל</he> I shall open my mouth, and thou shalt go on throwing in; <cite ref=\"Bereishit Rabbah 63:12\">Gen. R. s. 63</cite> <he>תהי משתדר</he> (corr. acc.; <cite ref=\"Pesikta Rabbati 16\">Pesik. R. s. 16</cite>, a. e. <he>משלח</he>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּדַּר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּדַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be sent; to be thrown</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 17:11\">Targ. Prov. XVII, 11</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 18:8\">Targ. Job XVIII, 8</cite>; a. e.—[<cite ref=\"Bereishit Rabbah 63\">Gen. R. s. 63</cite>, v. supra.]"
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

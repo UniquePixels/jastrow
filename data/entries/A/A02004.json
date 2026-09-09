@@ -1,0 +1,23 @@
+{
+	"id": "A02004",
+	"slug": "אמוראה-1",
+	"headword": {
+		"text": "אֲמוֹרָאָה"
+	},
+	"page": {
+		"number": 76,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"A02003\">preced.</cite>) <i>teacher</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 3:17\">Targ. Job III, 17</cite>.—Pl. <he>אֲמוֹרָאִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 21:29\">Targ. Y. I Num. XXI, 29</cite>."
+			]
+		}
+	]
+}

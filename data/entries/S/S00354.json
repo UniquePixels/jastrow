@@ -1,0 +1,24 @@
+{
+	"id": "S00354",
+	"slug": "קולן-1",
+	"headword": {
+		"text": "קוֹלָן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1328,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κόλλα, accus.) <i>glue</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 3:1\">Pes. III, 1</cite> <he>ק׳ של סופרים</he> the glue which the scribes use (to paste together strips of papyrus &c.), v. <cite ref=\"Q00846\"><he>פֵּירוּרָא</he></cite>. ",
+				"<cite ref=\"Pesachim 42b:19\">Ib. 42ᵇ</cite> <he>ק׳ של רצענין</he> the leather-workers’ paste."
+			]
+		}
+	]
+}

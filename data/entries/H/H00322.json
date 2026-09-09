@@ -1,0 +1,51 @@
+{
+	"id": "H00322",
+	"slug": "חול-4",
+	"headword": {
+		"text": "חוּל",
+		"disambiguator": 3
+	},
+	"page": {
+		"number": 432,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00321\">same</cite>, <i>to be smooth, lax; to be forgiving, renounce; to be sweet</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 4:26\">Targ. O. Gen. IV, 26</cite> <he>חָליּ וכ׳</he> men became lax in worshipping.—",
+				"<cite ref=\"Ketubot 86a:1\">Keth. 86ᵃ</cite> top <he>תיזיל ותֵיחוּל וכ׳</he> Alf. (ed. <he>ותיחלה</he>, Asheri <he>ותימחל</he>) let her go and renounce her mother’s widowhood in favor of her father.—",
+				"<cite ref=\"Gittin 47a:4\">Gitt. 47ᵃ</cite> <he>דלֵיחוֹל אַדְּמֵיה</he> that he (the gladiator) may be in a forgiving mood for his life (which he is forced to risk); [oth. opin. <he>דלֵיחוֹל אִדְמֵיה</he> that his blood may be <i>sweet</i>, Ar. s. v. <cite ref=\"A00419\"><he>אדמא</he></cite>]."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַיֵּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to sweeten</i> (by adding good wine), <i>to improve</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 60a:11\">B. Mets. 60ᵃ</cite> <he>דילמא טפי ומְחַיְּילֵיה וכ׳</he> lest he may add unmixed wine and improve it, and then sell it (for pure wine)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אָחֵיל"],
+			"senses": [
+				{
+					"gloss": " (<cite ref=\"H00309\"><he>אַחֲלֵי</he></cite>, fr. <cite ref=\"H01028\"><he>חלי</he></cite>) <i>to be liberal, to forgive</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 12b:12\">Ber. 12ᵇ</cite> <he>אֲחִילוּ ליה מן וכ׳</he> they in heaven forgave him. ",
+						"<cite ref=\"Shabbat 30a:8\">Sabb. 30ᵃ</cite> <he>דא׳ להו עון וכ׳</he> He pardoned them for the violation of the Day of Atonement; <cite ref=\"Moed Katan 9a\">M. Kat. 9ᵃ</cite>. Keth. l. c. <he>אֲחִילְתָּהּ</he> she renounced it, v. supra.—",
+						"<cite ref=\"Bava Metzia 73a\">B. Mets. 73ᵃ</cite> <he>אֲחוּלֵי</he> … <he>מַחֲלֵי וכ׳</he> Ms. R. (ed. <he>אוזולי … מוזלי</he>, v. <cite ref=\"G00174\"><he>זוּל</he></cite> I ch.) they were liberal towards you. ",
+						"<cite ref=\"Bava Batra 144a:5\">B. Bath. 144ᵃ</cite> <he>אחולי אַחֲלָה</he> she resigned her claim. [<cite ref=\"Moed Katan 17a:4\">M. Kat. 17ᵃ</cite> <he>מיתחיל</he> = <he>מִתְחֲלִיל</he>, v. <cite ref=\"H01074\"><he>חֲלַל</he></cite>.] V. <cite ref=\"M00886\"><he>מְחַל</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

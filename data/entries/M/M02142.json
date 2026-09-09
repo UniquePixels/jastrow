@@ -1,0 +1,23 @@
+{
+	"id": "M02142",
+	"slug": "מעלתא",
+	"headword": {
+		"text": "מְעַלָּתָא"
+	},
+	"page": {
+		"number": 818,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"P00816\"><he>עֲלַל</he></cite>) <i>income</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite> (emend. in ed. Fr.) <he>שיבבא בישא מני מ׳ ולא מני נפקתא</he> a bad neighbor counts (his neighbor’s) income but not (his) expenses."
+			]
+		}
+	]
+}

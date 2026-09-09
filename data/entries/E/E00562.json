@@ -1,0 +1,53 @@
+{
+	"id": "E00562",
+	"slug": "הלך-3",
+	"headword": {
+		"text": "הֲלַךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֲלִיךְ"
+		}
+	],
+	"page": {
+		"number": 352,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"E00561\">same</cite>, <i>to walk</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 126:6\">Targ. Ps. CXXVI, 6</cite> (Ms. <i>Pa.</i>). ",
+				"<cite ref=\"Targum Jerusalem, Genesis 22:8\">Targ. Y. II, Gen. XXII, 8</cite> <he>הֲלִיכוּ</he> (some ed. <cite ref=\"H01091\"><he>הַלִ׳</he></cite>). Contr. <he>יְהָךְ</he>, <he>מְהָךְ</he>, v. <he>הך</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הַלִּיךְ", "הַלֵּיךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"E00561\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 5:22\">Targ. O. Gen. V, 22</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 30:31\">Targ. I Sam. XXX, 31</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְהַלֵּךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"E00561\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 101:2\">Targ. Ps. CI, 2</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 116:9\">Ib. CXVI, 9</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

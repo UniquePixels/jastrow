@@ -1,0 +1,28 @@
+{
+	"id": "H00621",
+	"slug": "חטיא-3",
+	"headword": {
+		"text": "חָטְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַ׳"
+		}
+	],
+	"page": {
+		"number": 449,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חֲטִי</he> II) <i>sinner</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 14:21\">Targ. Prov. XIV, 21</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 19:2\">Ib. XIX, 2</cite> (Var. <cite ref=\"H00630\"><he>חַטַיָיא</he></cite>, read <cite ref=\"H00630\"><he>חַטְיָיא</he></cite>; incorr. <cite ref=\"H00621\"><he>חֶטְיָא</he></cite>)."
+			]
+		}
+	]
+}

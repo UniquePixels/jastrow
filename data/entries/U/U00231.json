@@ -1,0 +1,24 @@
+{
+	"id": "U00231",
+	"slug": "שגמא",
+	"headword": {
+		"text": "שִׁגְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1522,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00230\">same</cite>.—Pl. <he>שִׁגְמַיָּא</he>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 9:18\">Koh. R. to IX, 18</cite> (expl. <he>האֹמְנוֹת</he>, <cite ref=\"II Kings 18:16\">II Kings XVIII, 16</cite>) <he>רבנן אמרי ש׳</he> the Rabbis say, it means the (gilt) hinges."
+			]
+		}
+	]
+}

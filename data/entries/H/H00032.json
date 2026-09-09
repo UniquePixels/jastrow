@@ -1,0 +1,23 @@
+{
+	"id": "H00032",
+	"slug": "חבורא-3",
+	"headword": {
+		"text": "חַבּוּרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 416,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חבר</he>) <i>charmer</i>.—Pl. constr. <he>חַבּוּרֵי</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 18:11\">Targ. Y. II, Deut. XVIII, 11</cite> <he>חַבּוּרֵי חֲבוּרֵי בישין</he> (not <cite ref=\"H00030\"><he>חֲבוּרָא</he></cite>) those who conjure up companies of evil (demons)."
+			]
+		}
+	]
+}

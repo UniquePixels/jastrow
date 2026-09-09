@@ -1,0 +1,26 @@
+{
+	"id": "U02009",
+	"slug": "שרף-7",
+	"headword": {
+		"text": "שָׂרָף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1633,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>Seraph</i>, an angel.—Pl. <he>שְׂרָפִים</he>. ",
+			"units": [
+				"<cite ref=\"Chagigah 12b\">Ḥag. 12ᵇ</cite>. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 4:6\">Pirké d’R. El. ch. IV</cite>. ",
+				"<cite ref=\"Devarim Rabbah 11:11\">Deut. R. s. 11</cite> <he>בשעה שראו … ושַׂרְפֵי להבה וכ׳</he> when the wheels of the chariot and the flaming Seraphim saw &c. ",
+				"<cite ref=\"Pesikta Rabbati 20\">Pesik. R. s. 20</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "N01212",
+	"slug": "נקיפתא",
+	"headword": {
+		"text": "נְקִיפְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְקִיפְתָּא דְעִיּוֹן"
+		}
+	],
+	"page": {
+		"number": 933,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>N’ḳifta</i> (<i>Hollow</i>) <i>of Iyon</i> (Merġ ʿAyun), in the north of Palestine (v. Hildesh. Beitr., p. 37, sq.). ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 4:11\">Tosef. Shebi. IV, 11</cite> (Var. <he>נְקוּבְ׳</he>, <he>נְקִיבְ׳</he>, <cite ref=\"N01161\"><he>נְקֵבְתָּא</he></cite>); <cite ref=\"Sifrei Devarim 51:6\">Sifré Deut. 51</cite> <he>נקבתה רעיון</he>; Y. Shebi. VI, 36ᶜ <he>נוקב׳ דעוון</he>; <cite ref=\"Yalkut Shimoni on Torah 874\">Yalk. Deut. 874</cite> <he>נקיב׳ רעוין</he> (corr. acc.)."
+			]
+		}
+	]
+}

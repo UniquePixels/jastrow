@@ -1,0 +1,24 @@
+{
+	"id": "M00056",
+	"slug": "מאפה",
+	"headword": {
+		"text": "מַאֲפֶה"
+	},
+	"page": {
+		"number": 724,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"A02604\"><he>אָפָה</he></cite>)<i>something baked, batch</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 5:9\">Men. V, 9</cite> <he>מַאֲפֵּה כופח</he>, v. <cite ref=\"K00337\"><he>כּוּפָּח</he></cite>. ",
+				"<cite ref=\"Mishnah Eruvin 7:10\">Erub. VII, 10</cite> <he>אפי׳ מ׳ סאה והיא פרוסה</he> even a batch of a S’ah but consisting of broken pieces; Y. ib. VI, 23ᵈ top. ",
+				"<cite ref=\"Avodah Zarah 35b:16\">Ab. Zar. 35ᵇ</cite>, v. <cite ref=\"Q00363\"><he>פּוּרְנִי</he></cite>."
+			]
+		}
+	]
+}

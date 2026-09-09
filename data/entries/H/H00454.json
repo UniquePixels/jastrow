@@ -1,0 +1,42 @@
+{
+	"id": "H00454",
+	"slug": "חורבא-1",
+	"headword": {
+		"text": "חוּרְבָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 439,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H00453\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>heat, dryness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 90:6\">Targ. Ps. XC, 6</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>desolation, waste</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 29:10\">Targ. Ez. XXIX, 10</cite> <cite ref=\"H00453\"><he>חוֹרֶב</he></cite> (constr.)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>injurious confusion of ideas</i>. ",
+			"units": [
+				"<cite ref=\"Arakhin 12a:20\">Arakh. 12ᵃ</cite> (ed. <cite ref=\"H00456\"><he>חורבה</he></cite>). V. <cite ref=\"H00455\">next w.</cite>"
+			],
+			"label": "3"
+		}
+	]
+}

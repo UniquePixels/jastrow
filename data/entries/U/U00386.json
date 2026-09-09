@@ -1,0 +1,36 @@
+{
+	"id": "U00386",
+	"slug": "שוטיתא-1",
+	"headword": {
+		"text": "שׁוֹטִיתָא"
+	},
+	"page": {
+		"number": 1532,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"U00379\"><he>שׁוֹט</he> II</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>staff</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 14:27\">Targ. I Sam. XIV, 27</cite> (Ar. <cite ref=\"U00384\"><he>שׁוֹטְיָא</he></cite>); 43. ",
+				"<cite ref=\"Targum Jonathan on Judges 6:21\">Targ. Jud. VI, 21</cite> (Ar. <cite ref=\"U00384\"><he>שוטיא</he></cite>; some ed. <cite ref=\"U00422\"><he>שולטיתא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>branch, twig</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 17a:6\">Keth. 17ᵃ</cite> <he>אהנייא ליה שׁוֹטִיתֵיה וכ׳</he> the myrtle branch (with which he used to dance before bridal couples) was in the old man’s favor (that a phenomenon occurred at his funeral), but some said <he>שְׁטוּתֵיה</he> his folly (v. <cite ref=\"U00195\"><he>שְׁבִשְׁתָּא</he></cite>); others said <he>שיטתיה</he>, v. <cite ref=\"U00888\"><he>שִׁיטְּתָא</he></cite>. ",
+				"<cite ref=\"Shabbat 77b:10\">Sabb. 77ᵇ</cite> <he>ש׳ שטותא</he> the myrtle branch used at weddings is called <i>shoṭitha</i> as being <i>sh’ṭutha</i> (folly)."
+			],
+			"label": "2"
+		}
+	]
+}

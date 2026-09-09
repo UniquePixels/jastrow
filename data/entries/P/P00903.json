@@ -1,0 +1,77 @@
+{
+	"id": "P00903",
+	"slug": "עמם-1",
+	"headword": {
+		"text": "עָמַם"
+	},
+	"page": {
+		"number": 1089,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"A02037\"><he>אָמַם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>to be pressed</i>,] <i>to be dim</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 3:2\">Tosef. Sabb. III, 2</cite> <he>גחלים שעָמְמוּ</he> coals which have become dim (ceased to flame). ",
+				"<cite ref=\"Pesachim 75b\">Pes. 75ᵇ</cite>; a. e.—",
+				"<cite ref=\"Pesachim 75b\">Ib.</cite>; <cite ref=\"Shabbat 77b\">Sabb. 77ᵇ</cite>, a. e. <cite ref=\"P00279\"><he>עוֹמְמוֹת</he></cite>, v. <cite ref=\"A02037\"><he>אָמַם</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to press, quench</i>. Part. pass. <cite ref=\"P00871\"><he>עָמוּם</he></cite>; f. <he>עֲמוּמָה</he>, pl. <he>עֲמוּמוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 26:8\">Lev. R. s. 26</cite> (ref. to <cite ref=\"Ezekiel 10:2\">Ez. X, 2</cite>). <he>ששה … גחלים ע׳ בידו וכ׳</he> for six years these coals were kept quenched in Gabriel’s hand."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עוּמָּם"],
+			"senses": [
+				{
+					"gloss": "<i>to become dim</i>. Y. Orl. III, 63ᵃ bot. <he>גחלי ערלה שעוּמְּמוּ וכ׳</he> (not <he>גידולי … שעיממו</he>) embers of Orlah wood are permitted for use.",
+					"units": []
+				}
+			],
+			"stem": "Pu."
+		},
+		{
+			"forms": ["עִמְעֵם"],
+			"senses": [
+				{
+					"gloss": " (with <he>על</he>) <i>to cover up, supress a case; to disregard the late, act irregularly</i> (<i>in an emergency</i>). Y. Sot. IX, 23ᵈ bot. <he>ולא … ועִימְעַמְנוּ על דינו</he> and that having seen the murderer we have not let him go, or quashed his case. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 9:7\">Num. R. s. 9</cite>; Tanḥ. Naso 7; <cite ref=\"Sifrei Bamidbar 7:3\">Sifré Num. 7</cite> (ref. to <he>ונעלם</he>, <cite ref=\"Numbers 5:13\">Num. V, 13</cite>) <he>שלא … ומְעַמְעֵם</he> not that her husband saw (her improper conduct) and covered it up (connived at it). Y. R. Hash. III, beg. 58ᶜ <he>מְעַמְעֲמִין על הנראה לעברו ואין מעמעמין וכ׳</he> we may act irregularly (ignore the testimony), when the new moon has been seen (on the night of the twenty-ninth to the thirtieth day), if it is necessary to intercalate a day, but we must not ignore the law, when the new moon has not been seen in due time, in order to proclaim the New Moon Day (on the thirtieth day). Y. Shebi. VIII, 38ᵃ bot.; Y. Sabb. I, 3ᶜ bot., a. e. <he>עִימְעֲמוּ עליה והתירוה</he> they disregarded the law, and permitted it (the bread); <he>עמעמו עליה ואסרוה</he> they ignored the law (that permitted it), and forbade it."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"E00029\"><he>הִבְהֵב</he></cite>) <i>to be like embers</i>; trnsf. ",
+					"units": [],
+					"label": "2",
+					"senses": [
+						{
+							"gloss": " <i>to be undecided</i>. Y. Snh. V, end, 23ᵃ <he>שלא ייראה דין זה יוצא מעמעם</he> that the verdict in this case should not appear to go forth undecided (because the jury could not arrive at a majority of two against the defendant; Bab. ",
+							"units": [
+								"<cite ref=\"Sanhedrin 42a:12\">Snh. 42ᵃ</cite> <he>כדי שלא יצאו מבית דין מעורבבין</he>).—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>to nod consent without showing anxiety</i>. Y. Ber. V, 9ᶜ bot., v. <cite ref=\"E00029\"><he>הִבְהֵב</he></cite>.",
+							"units": [],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Pilp."
+		}
+	]
+}

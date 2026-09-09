@@ -1,0 +1,55 @@
+{
+	"id": "H00113",
+	"slug": "חברא",
+	"headword": {
+		"text": "חַבְרָא"
+	},
+	"page": {
+		"number": 422,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"H00109\"><he>חָבֵר</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>friend, neighbor, fellow-being</i> &c. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 10:24\">Targ. Prov. X, 24</cite> (h. text <cite ref=\"T00864\"><he>רַע</he></cite>!); a. fr. [<cite ref=\"Targum Jonathan on Hosea 3:1\">Targ. Hos. III, 1</cite> <he>בחבריּה</he>, v. <cite ref=\"H01222\"><he>חַמְרָא</he> I</cite>.]—",
+				"<cite ref=\"Bava Batra 28b:5\">B. Bath. 28ᵇ</cite>, a. fr. <he>חַבְרָךְ ח׳ אית ליה וכ׳</he> thy friend has a friend, and thy friend’s friend has a friend (you cannot claim ignorance). ",
+				"<cite ref=\"Shabbat 31a:6\">Sabb. 31ᵃ</cite> <he>דעלך סני לחברך וכ׳</he> do not unto thy neighbor what would be hateful to thee; a. v. fr.—Pl. <he>חַבְרִין</he>, <he>חַבְרֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Judges 14:11\">Targ. Jud. XIV, 11</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 16b:5\">B. Bath. 16ᵇ</cite> <he>אי חברא כח׳ דאיוב וכ׳</he> either a friend like those of Job, or death; a. e.—Esp. <i>Ḥaber</i>, "
+			],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " <i>scholar</i> (v. <cite ref=\"H00112\">preced.</cite>), <i>fellow-student;</i> ",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>member of an order</i>. ",
+					"units": [
+						"<cite ref=\"Beitzah 25a:3\">Bets. 25ᵃ</cite> <he>חַבְרִין</he> our fellow-student (Rab Ḥisda); <cite ref=\"H00880\"><he>בר ח׳</he></cite> the son of &c. (Rab Huna).—Y. Taan. I, 64ᶜ <he>ר׳ חנניא חֲבֵרְהוֹן וכ׳</he> R. H. the ‘Fellow of the Rabbis’.—Pl. <he>חַבְרַיָּיא</he>, <he>חֲבֵרִין</he>, <he>חַבְרִין</he>. ",
+						"<cite ref=\"Aramaic Targum to Job 12:2\">Targ. Job XII, 2</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 40:30\">Ib. XL, 30</cite> Ms. (ed. <he>חַכִּימַיָּא</he>). ",
+						"<cite ref=\"Niddah 6b:8\">Nidd. 6ᵇ</cite> <he>ח׳ מדכן וכ׳</he> the <i>Ḥăberim</i> observe &c., v. <cite ref=\"D00772\"><he>דְּכִי</he></cite>. ",
+						"<cite ref=\"Chullin 12b:4\">Ḥull. 12ᵇ</cite> <he>אושעי׳ זעירא דמן ח׳</he> O. junior, of the <i>Ḥabẹrim</i> (Tosaf.: of <i>Ḥabaria</i>, pr. n. pl.); <cite ref=\"Taanit 24a:12\">Taan. 24ᵃ</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 13\">Gen. R. s. 13</cite>, end <he>אבימי מן ח׳ וכ׳</he> A., one of the <i>Ḥ.</i>, visited a sick person, v. <cite ref=\"H00036\"><he>חֲבוּרְתָּא</he></cite>.—Fem. <cite ref=\"H00124\"><he>חֲבֶרְתָּא</he></cite>, <he>חֲבֶירְ׳</he>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 110:1\">Targ. Ps. CX, 1</cite> (v. ",
+						"<cite ref=\"Berakhot 48b\">Ber. 48ᵇ</cite> quot. s. v. <cite ref=\"H00109\"><he>חָבֵר</he></cite> fem.). ",
+						"<cite ref=\"Onkelos Exodus 11:2\">Targ. O. Ex. XI, 2</cite>; a. e.—",
+						"<cite ref=\"Yevamot 63b:5\">Yeb. 63ᵇ</cite> (prov.) <he>בחֲבֶרְתָּה ולא בסילתא</he> correcting a bad wife by giving her a rival will be more effective than thorns; a. fr.—<i>Pl.</i> <cite ref=\"H00124\"><he>חֲבֵרָתָא</he></cite>, <cite ref=\"H00121\"><he>חֲבֵי׳</he></cite>. ",
+						"<cite ref=\"Targum Jonathan on Judges 11:37\">Targ. Jud. XI, 37</cite>, sq. [<he>בית חבירתא</he>, v. <cite ref=\"B00766\"><he>ביתרתה</he></cite>.]"
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

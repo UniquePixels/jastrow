@@ -1,0 +1,34 @@
+{
+	"id": "C01017",
+	"slug": "גמזית",
+	"headword": {
+		"text": "גַּמָּזִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּמָּזִיּוֹת"
+		}
+	],
+	"page": {
+		"number": 252,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"C01012\"><he>גמז</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>branches used for caprification</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 4:8\">Pes. IV, 8</cite> (<cite ref=\"Pesachim 55b:15\">55ᵇ</cite>) <he>ומתירין ג׳ של הקדש</he> (ed. Y. <he>בג׳</he>, Var. <he>מתזירין</he>) they considered as permitted the use of branches of (carob or sycamore) trees belonging to the Temple treasury; Tosef. ib. III, 19 (Var. <he>גזוזיות</he>, <he>גיזות</he>); <cite ref=\"Menachot 71a:15\">Men. 71ᵃ</cite> <he>ג׳ … של חרוב וכ׳</he>; <cite ref=\"Pesachim 56a:12\">Pes. 56ᵃ</cite>; Y. ib. IV, 31ᵇ; <cite ref=\"Jerusalem Talmud Peah 7:7:2\">Y. Peah VII, end, 20ᶜ</cite>. [R. Hai Gaon reads <he>גַּוָּאזִיּוֹת</he> <i>twigs</i>, cmp. <he>גזוזיות</he> Var. Tosef., v. supra.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fruits ripened through caprification</i>, v. <cite ref=\"C01015\"><he>גַּמְזוּז</he></cite>. ",
+			"units": ["<cite ref=\"Tosefta Terumot 5:7\">Tosef. Ter. V, 7</cite>."],
+			"label": "2"
+		}
+	]
+}

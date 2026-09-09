@@ -1,0 +1,25 @@
+{
+	"id": "V00078",
+	"slug": "תבשיל-1",
+	"headword": {
+		"text": "תַּבְשִׁיל"
+	},
+	"page": {
+		"number": 1646,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B01359\"><he>בָּשַׁל</he></cite>) <i>broth, dish</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 63\">Gen. R. s. 63</cite> <he>הוא אדום ותַבְשִׁילוֹ אדום</he> he (Esau) is red, and his dish is red. ",
+				"<cite ref=\"Shabbat 119a:8\">Sabb. 119ᵃ</cite> <he>ת׳ של שבת</he> the Sabbath dish.—<he>הקדיח ת׳</he>, v. <cite ref=\"S00125\"><he>קָדַח</he></cite>; a. fr.—Pl. <he>תַּבְשִׁילִים</he>, <he>תַּבְשִׁילִין</he>. ",
+				"<cite ref=\"Mishnah Pesachim 10:3\">Pes. X, 3</cite>. ",
+				"<cite ref=\"Mishnah Taanit 4:7\">Taan. IV, 7</cite>; a. fr.—<he>עירובי ת׳</he>, v. <cite ref=\"P00680\"><he>עֵירוּב</he></cite>."
+			]
+		}
+	]
+}

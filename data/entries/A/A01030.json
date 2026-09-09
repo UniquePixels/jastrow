@@ -1,0 +1,22 @@
+{
+	"id": "A01030",
+	"slug": "אחיותא",
+	"headword": {
+		"text": "אַחֲיוּתָא"
+	},
+	"page": {
+		"number": 40,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00716\"><he>חיי</he></cite>) <i>reanimation, resurrection</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 6:2\">Targ. Hos. VI, 2</cite> … <cite ref=\"A01029\"><he>אַחֲיוּת</he></cite> resurrection of &c.; a. e."
+			]
+		}
+	]
+}

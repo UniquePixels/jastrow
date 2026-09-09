@@ -1,0 +1,45 @@
+{
+	"id": "V00601",
+	"slug": "תלמוד",
+	"headword": {
+		"text": "תַּלְמוּד"
+	},
+	"page": {
+		"number": 1672,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00565\"><he>לָמַד</he></cite>) <i>teaching, lesson; learning, study</i>. ",
+			"units": [
+				"<cite ref=\"Shevuot 40b:13\">Shebu. 40ᵇ</cite> <he>ת׳ ערוך הוא בפיו וכ׳</he> it is a ready teaching in the mouth of R. J.: this opinion is Admon’s. ",
+				"<cite ref=\"Bava Metzia 33b:3\">B. Mets. 33ᵇ</cite>; <cite ref=\"Pirkei Avot 4:13\">Ab. IV, 13</cite> <he>הוי זהיר בת׳ ששגגת ת׳ וכ׳</he> be careful in teaching, for an error in teaching &c., v. <cite ref=\"G00072\"><he>זָדוֹן</he></cite>. ",
+				"<cite ref=\"Megillah 27a\">Meg. 27ᵃ</cite> Ms. M., v. <cite ref=\"L00479\"><he>לִימּוּד</he></cite>. ",
+				"<cite ref=\"Bava Batra 130b:8\">B. Bath. 130ᵇ</cite> <he>אין למדין הלכה לא מפי ת׳ וכ׳</he> Mss. (ed. <he>למוד</he> by censor’s change, v. Rabb. D. S. a. l. note; Rashb. <cite ref=\"C01067\"><he>גמרא</he></cite>) we derive no rule of practice from a teacher’s remark or from a practical case, unless it is said, this is the rule for practice; <cite ref=\"Niddah 7b:58\">Nidd. 7ᵇ</cite> (ed. <cite ref=\"C01067\"><he>גמרא</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Gittin 7:2:2\">Y. Gitt. VII, 48ᵈ</cite> top <he>הרי זה גט … צריך ת׳</he> the letter of divorce is valid, but the thing requires (further) study. ",
+				"<cite ref=\"Jerusalem Talmud Horayot 3:4:8\">Y. Hor. III, 48ᵇ</cite> top <he>כשהיה חצי תַלְמוּדוֹ מזה וכ׳</he> when he owes part of his learning to one (his father), and part to the other (his teacher); a. fr.—<he>ת׳ תורה</he>, v. <cite ref=\"V00290\"><he>תּוֹרָה</he></cite>.—Esp. "
+			],
+			"senses": [
+				{
+					"gloss": " <i>Talmud</i> (v. <cite ref=\"C01067\"><he>גְּמָרָא</he></cite>,) <i>verbal communication, oral study</i>, opp. to <cite ref=\"M02941\"><he>מִשְׁנָה</he></cite>. Ib.ᶜ top <he>לעולם הוי רץ … מן הת׳</he> at all times run after the Mishnah rather than after the Talmud; <cite ref=\"Bava Metzia 33a:5\">B. Mets. 33ᵃ</cite> (ed. <he>הגמרא</he>, v. Rabb. D. S. a. l. note 4). ",
+					"units": [
+						"<cite ref=\"Bava Metzia 33a:19\">Ib.</cite> <he>בת׳ אין לך וכ׳</he> Ms. M. (ed. <cite ref=\"C01067\"><he>גמרא</he></cite>) as to studying Talmud, there is no more meritorious occupation than this, v. <cite ref=\"M00252\"><he>מִדָּה</he></cite>; a. fr.—V. <cite ref=\"U01614\"><he>ש״ס</he></cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>derivation from Biblical intimations</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 104b:13\">B. Kam. 104ᵇ</cite> <he>יש ת׳</he> there is a Biblical text bearing on the subject before us; <he>יש ת׳ … ומריבוייא וכ׳</he> I said, <i>yesh talmud</i>, and I meant to say (that it can be derived) from the expletive expression of the texts.—<he>תַּ׳ לוֹמַר</he> (abbrev. <he>ת״ל</he>) <i>there is a teaching in the Scriptural text to intimate, the text reads</i> (<i>may be read</i>). ",
+						"<cite ref=\"Pesachim 21b:7\">Pes. 21ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 14:21\">Deut. XIV, 21</cite>) <he>אין לי … לגר במכירה מנין ת״ל לגר … או מכור</he> from the text you learn only that you may give it to the sojourner and sell it to the stranger: how will you prove that you may sell it to the sojourner? Read the text, to the sojourner … thou mayest give it away or sell it; <he>לנכרי בנתינה מנין ת״ל תתננה ואכלה או מכור לנכרי</he> how will you prove that you may give it away to the gentile? Read the text, thou mayest give it away … or sell it to the gentile. Ib. 24ᵃ (ref. to <cite ref=\"Exodus 29:34\">Ex. XXIX, 34</cite>) <he>שאין ת״ל לא יאכל ומה ת״ל לא יאכל וכ׳</he> it was not necessary to say, ‘it shall not be eaten’, and what is intimated by saying, ‘it shall not be eaten’? If you cannot apply it to the law in the case, since it is said, ‘and thou shalt burn &c.’, apply it to all forbidden things &c. (v. <cite ref=\"P00992\"><he>עִנְיָן</he></cite>); a. v. fr.—Pl. <he>תַּלְמוּדוֹת</he> (<i>fem.</i>). ",
+						"<cite ref=\"Shir HaShirim Rabbah 5:11:5\">Cant. R. to V, 11</cite>, v. <cite ref=\"U00628\"><he>שָׁחוֹר</he> I</cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

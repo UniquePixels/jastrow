@@ -1,0 +1,34 @@
+{
+	"id": "V00893",
+	"slug": "תקלא-1",
+	"headword": {
+		"text": "תִּקְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1691,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>תְּקַל</he> I) <i>weight</i>, esp. (<i>half a</i>) <i>Shekel</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 24:22\">Targ. O. Gen. XXIV, 22</cite> (h. text <he>בקע</he>). ",
+				"<cite ref=\"Onkelos Exodus 38:26\">Targ. O. Ex. XXXVIII, 26</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 80a:7\">B. Mets. 80ᵃ</cite>, v. <cite ref=\"N01030\"><he>נֵפְחָא</he></cite>. ",
+				"<cite ref=\"Chullin 59a:2\">Ḥull. 59ᵃ</cite> <he>חד ת׳ חלתיתא</he> one tiḳla of asafœtida; a. e.—Pl. <he>תִּקְלַיָּא</he>, <he>תִּקְלִין</he>, <he>תִּקְלֵי</he>, <cite ref=\"V00014\"><he>תִּי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 3:2\">Targ. Hos. III, 2</cite> (ed. Wil. <he>תַּ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 17:5\">Targ. I Sam. XVII, 5</cite>; <cite ref=\"Targum Jonathan on I Samuel 17:7\">7</cite>; a. e.—Ḥull. l. c. ",
+				"<cite ref=\"Mishnah Shekalim 6:5\">Shek. VI, 5</cite> <he>ת׳ חדתין</he> box for the new (the year’s) half-Shekels; <he>ת׳ עתיקין</he> for last year’s half-Shekels; <cite ref=\"Yoma 55b:3\">Yoma 55ᵇ</cite>"
+			]
+		}
+	]
+}

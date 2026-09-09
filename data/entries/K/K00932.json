@@ -1,0 +1,33 @@
+{
+	"id": "K00932",
+	"slug": "כסיתא-1",
+	"headword": {
+		"text": "כְּסִיתָא"
+	},
+	"page": {
+		"number": 654,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>כְּסֵי</he> II) [<i>the covered, rare</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>coral</i>; ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>coral-wood</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 80b\">B. Bath. 80ᵇ</cite>, sq.; <cite ref=\"Rosh Hashanah 23a:10\">R. Hash. 23ᵃ</cite>, v. <cite ref=\"A01911\"><he>אַלְמוּג</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 314\">Yalk. Is. 314</cite> <cite ref=\"O00934\"><he>סכסיתא</he></cite> (corr. acc.). R. Hash. l. c. <he>דבי ארמאי מסקן כ׳</he> the light ships (v. <cite ref=\"B00376\"><he>בּוּרְנִי</he></cite>) of the Romans are employed for fishing corals. Ib. (describing the diving process) … <he>וקטר בכ׳</he> and flax ropes are tied to the coral plants &c. ",
+				"<cite ref=\"Ketubot 98a:7\">Keth. 98ᵃ</cite> <he>כ׳ דיתמי</he> Var. in Rashi (ed. <cite ref=\"K00593\"><he>כיסתא</he></cite>) corals belonging to minor orphans."
+			],
+			"label": "2"
+		}
+	]
+}

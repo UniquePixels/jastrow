@@ -1,0 +1,27 @@
+{
+	"id": "C00438",
+	"slug": "גוני",
+	"headword": {
+		"text": "גּוּנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּינִי"
+		}
+	],
+	"page": {
+		"number": 224,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (γυνή) <i>woman</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 18:4\">Gen. R. s. 18</cite>; s. 31; v. <cite ref=\"C00439\">next w.</cite>"
+			]
+		}
+	]
+}

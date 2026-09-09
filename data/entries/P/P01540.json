@@ -1,0 +1,22 @@
+{
+	"id": "P01540",
+	"slug": "עתירותא",
+	"headword": {
+		"text": "עַתִּירוּתָא"
+	},
+	"page": {
+		"number": 1129,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01536\"><he>עַתִּיר</he></cite>) <i>being wealthy</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 140b:7\">Sabb. 140ᵇ</cite> <he>בעַתִּירוּתִי</he> when I was rich, opp. <he>בעניותי</he>."
+			]
+		}
+	]
+}

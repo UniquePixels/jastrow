@@ -1,0 +1,32 @@
+{
+	"id": "U00525",
+	"slug": "שוקא-3",
+	"headword": {
+		"text": "שׁוּקָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1541,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U00521\"><he>שׁוּק</he> III</cite>, <i>market, open place, street</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 1:20\">Targ. Prov. I, 20</cite> (h. text (<cite ref=\"H00429\"><he>חוּץ</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 9:22\">Targ. Gen. IX, 22</cite> (Y. ed. Vien. <cite ref=\"U00523\"><he>שׁוֹקָא</he></cite>); a. fr.—",
+				"<cite ref=\"Bava Batra 22a:4\">B. Bath. 22ᵃ</cite> <he>יומא דש׳</he> market-day. ",
+				"<cite ref=\"Bava Batra 22a:6\">Ib.</cite> <he>נקיט ליה ש׳</he>, v. <cite ref=\"N01191\"><he>נְקַט</he></cite>. ",
+				"<cite ref=\"Pesachim 110a:3\">Pes. 110ᵃ</cite> <he>חזי אפי ש׳</he> went out in the open air, v. <cite ref=\"U00521\"><he>שׁוּק</he> III</cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 8:9:3\">Cant. R. to VIII, 9</cite> <he>נפיק ליה לש׳ וכ׳</he> went to market to buy goods (v. <cite ref=\"M02431\"><he>מְקָמָא</he> II</cite>); a. fr.—Pl. <he>שׁוּקִין</he>, <he>שׁוּקַיָּא</he>, <he>שׁוּקֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 22:43\">Targ. II Sam. XXII, 43</cite> (some ed. <cite ref=\"U01849\"><he>שקי</he></cite>, corr. acc.; <cite ref=\"Aramaic Targum to Psalms 18:43\">Targ. Ps. XVIII, 43</cite> <he>אשקקי</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 24:11\">Targ. Is. XXIV, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 7:12\">Targ. Prov. VII, 12</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 16:7:2\">Y. Sabb. XVI, end, 15ᵈ</cite> <he>בש׳ דארמאי</he> in the streets of the gentiles; <cite ref=\"Jerusalem Talmud Nedarim 4:9:2\">Y. Ned. IV, 38ᵈ</cite> <he>בשׁוּקָאֵי</he>; a. e.—V. <cite ref=\"U01891\"><he>שְׁקָקָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "R00015",
+	"slug": "צב-1",
+	"headword": {
+		"text": "צָב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1257,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; צבב <i>to swell, be soft</i>,  a species of <i>lizard</i>. Sifra Sh’mini, ch. VI, Par. 5 (ref. to <cite ref=\"Leviticus 11:29\">Lev. XI, 29</cite>) [read:] <he>הצב זה הצב למינהו לרבות מינים של צב</he> <i>tsab</i> means the species of lizard, ‘after its kind’ is to include the sub-species of lizard; <cite ref=\"Chullin 127a\">Ḥull. 127ᵃ</cite>, v. <cite ref=\"H00115\"><he>חֲבַרְבָּר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Chullin 127a:16\">Ib.</cite> <he>נחש שהוא כרוך על הצב</he> a serpent wound around (coupling with) a <i>tsab</i>. ",
+				"<cite ref=\"Shemot Rabbah 15:22\">Ex. R. s. 15</cite>, end; a. e.—",
+				"<cite ref=\"Bamidbar Rabbah 12:17\">Num. R. s. 12</cite> (ref. to <cite ref=\"R00015\"><he>צב</he></cite>, <cite ref=\"Numbers 7:3\">Num. VII, 3</cite>) <he>אין צב אלא מצויירות צב</he> <i>tsab</i> means here (wagons) painted in the colors of the lizard; <cite ref=\"Shir HaShirim Rabbah 6:4:2\">Cant. R. to VI, 4</cite> <cite ref=\"R00180\"><he>צוויינות</he></cite>, <cite ref=\"Yalkut Shimoni on Torah 713:3\">Yalk. Num. 713</cite> <he>צב מצויינות</he> (corr. acc., and add <cite ref=\"R00015\"><he>צב</he></cite>)."
+			]
+		}
+	]
+}

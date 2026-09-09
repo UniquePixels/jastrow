@@ -1,0 +1,72 @@
+{
+	"id": "N01341",
+	"slug": "נשק-1",
+	"headword": {
+		"text": "נָשַׁק"
+	},
+	"page": {
+		"number": 941,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"N01325\"><he>נָשַׁךְ</he></cite>)<i>to touch closely; to kiss</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 15:2:2\">Y. Yeb. XV, 14ᵈ</cite> (ref. to <he>נשק</he>, <cite ref=\"Psalms 140:8\">Ps. CXL, 8</cite>) <he>ביום שהקיץ נוֹשֵׁק וכ׳</he> when the summer kisses the autumn (at the change of seasons, when disease is rife). ",
+				"<cite ref=\"Psalms 140:8\">Ib.</cite> <he>ששני עולמות נוֹשְׁקִין וכ׳</he> when the two worlds touch eath other (the moment of death). ",
+				"<cite ref=\"Bereishit Rabbah 90:3\">Gen. R. s. 90</cite>, beg. (ref. to <cite ref=\"Genesis 41:40\">Gen. XLI, 40</cite>) <he>שלא יהא אדם נוֹשְׁקֵינִי וכ׳</he> none shall kiss me (the kiss of homage) but thou. ",
+				"<cite ref=\"Berakhot 8b\">Ber. 8ᵇ</cite>, a. e. <he>כשנוֹשְׁקִין אין נושקין אלא וכ׳</he> when they (the Medians) kiss, they do so only on the hand. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 159:1\">Yalk. Gen. 159</cite> <he>בדבר שהוא נוֹשְׁקוֹ על ערפו וכ׳</he> with a thing which one puts close to one’s neck, that is the bow; a. fr.—<i>Part. pass.</i> <he>נָשׁוּק</he> (cmp. <he>אָחוּז</he> fr. <cite ref=\"A01021\"><he>אָחַז</he></cite>) <i>kissing</i>. ",
+				"<cite ref=\"Sotah 42b:9\">Sot. 42ᵇ</cite> (ref. to <cite ref=\"Ruth 1:14\">Ruth I, 14</cite>) <he>יבאו בני הנְשׁוּקָה … הדבוקה</he> let the children of her that kissed (and parted) come and fall into the hands of the children of her who clung (to Naomi); <cite ref=\"Yalkut Shimoni on Nach 156:3\">Yalk. Sam. 156</cite> <he>הנְשֵׁיקָה … הדְּבֵקָה</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"N01343\"><he>נֶשֶׁק</he></cite>) <i>to arm, equip</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:2:8\">Cant. R. to I, 2</cite> (expl. <he>ישקני</he>, <cite ref=\"Shir HaShirim Rabbah 1:2:8\">ib.</cite>) <he>יזיינני יטהרני ידביקני</he> may he arm me (ref. to <cite ref=\"I Chronicles 12:2\">I Chr. XII, 2</cite>), may he purify me (v. infra), may he attach me (ref. to <cite ref=\"Ezekiel 3:13\">Ezek. III, 13</cite>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִשֵּׁק"],
+			"senses": [
+				{
+					"gloss": "<i>to kiss</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 7:6\">Snh. VII, 6</cite> <he>המְנַשֵּׁק</he> he who kisses (an idol); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to arm, equip</i>. Part. pass. <he>מְנוּשָּׁק</he>; f. <he>מְנוּשֶּׁקֶת</he>, pl. <he>מְנוּשָּׁקוֹת</he>. Cant. R. l. c. <he>אם עסקת … ששפתיך מנ׳ וכ׳</he> if thou studiest the words of the Law so that thy lips be equipped (ready for contest), all shall kiss thee &c.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשִּׁיק"],
+			"senses": [
+				{
+					"gloss": "<i>to bring in close contact, to close</i> (lips). Y. Ab. Zar. II, 41ᵈ top <he>יש דברים שמַשִּׁיקִין וכ׳</he> there are things on which you must seal your mouth (v. <cite ref=\"H01864\"><he>חָשַׁק</he></cite>).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (Levitical law) <i>to restore a liquid to cleanness by contact or levelling with a clean well</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Mikvaot 6:8\">Mikv. VI, 8</cite> <he>מביא … ומושכו ומַשִּׁיקוֹ</he> he takes a pipe … and draws (the water from the clean pond) and makes it touch the surface of the unclean pond; <cite ref=\"Tosefta Mikvaot 5:5\">Tosef. ib. V, 5</cite>. Cant. R. l. c. (expl. <he>ישקני</he>, may He cleanse me, v. supra) <he>כאדם שהוא מַשִּׁיק וכ׳</he> as one brings in contact or levels &c., v. <cite ref=\"C00033\"><he>גֶּבֶא</he></cite>. ",
+						"<cite ref=\"Mishnah Beitzah 2:3\">Bets. II, 3</cite> <he>ושוין שמַשִּׁיקִין וכ׳</he> and they agree that you may (on the Holy Day) dip a vessel with an unclean liquid into a well so that the two surfaces are on a level, v. <cite ref=\"E00936\"><he>הַשָּׁקָה</he></cite>. ",
+						"<cite ref=\"Chullin 26a\">Ḥull. 26ᵃ</cite> sq. <he>עד שלא החמיץ מַשִּׁיקוֹ וכ׳</he> before it is sour, you may cleanse it by levelling &c.; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

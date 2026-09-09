@@ -1,0 +1,26 @@
+{
+	"id": "M02873",
+	"slug": "משיחה-1",
+	"headword": {
+		"text": "מְשִׁיחָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 852,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>מָשַׁח</he> I) <i>anointing, installation by anointing; use of the stem</i> <cite ref=\"M02846\"><he>מָשַׁח</he></cite>. ",
+			"units": [
+				"<cite ref=\"Keritot 5b:97\">Ker. 5ᵇ</cite>, a. fr. (<cite ref=\"B01036\"><he>בעי</he></cite>) <he>טעון מ׳</he> requires anointment (in order to be recognized). ",
+				"<cite ref=\"Keritot 5b:97\">Ib.</cite> <he>מ׳ עדיפא</he> anointing (by drawing a figure, v. <cite ref=\"M02846\"><he>מָשַׁח</he> I</cite>) is preferable to pouring oil (<cite ref=\"J00536\"><he>יְצִיקָה</he></cite>). ",
+				"<cite ref=\"Bamidbar Rabbah 12:15\">Num. R. s. 12</cite> <he>מְשִׁיחַת אהרן כיצד</he> how was Aaron’s installation done? <cite ref=\"Bamidbar Rabbah 12:15\">Ib.</cite> <he>במְשִׁיחָתָן של אלו וכ׳</he> with the anointment of these vessels were all the vessels of subsequent days consecrated. ",
+				"<cite ref=\"Sifrei Bamidbar 117:2\">Sifré Num. 117</cite> <he>אין מ׳ אלא גדולה</he> the stem <cite ref=\"M02847\"><he>משח</he></cite> refers to official emoluments, as we read (<cite ref=\"Leviticus 7:35\">Lev. VII, 35</cite>) &c.; <cite ref=\"Leviticus 7:35\">ib.</cite> <he>אין מ׳ אלא שמן המשחה</he> <i>mashaḥ</i> means installation with oil; a. fr."
+			]
+		}
+	]
+}

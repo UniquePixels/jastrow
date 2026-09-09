@@ -1,0 +1,33 @@
+{
+	"id": "R00453",
+	"slug": "ציר-7",
+	"headword": {
+		"text": "צְיָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְיָרָא"
+		},
+		{
+			"text": "צְיָי׳"
+		}
+	],
+	"page": {
+		"number": 1281,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00242\"><he>צוּר</he></cite>) <i>siege; straitness</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:53\">Targ. O. Deut. XXVIII, 53</cite> (ed. Berl. <cite ref=\"R00290\"><he>צְיָארָא</he></cite>); ib. 55; 57. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 4:2\">Targ. Ez. IV, 2</cite> (ed. Lag. <he>בצייר</he>; oth. ed. <he>מצייר</he>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 4:3\">Ib. 3</cite> (ed. Wil. <cite ref=\"R00454\"><he>צַיְרָא</he></cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 20:19\">Targ. Deut. XX, 19</cite>; a. fr."
+			]
+		}
+	]
+}

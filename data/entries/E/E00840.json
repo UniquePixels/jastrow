@@ -1,0 +1,54 @@
+{
+	"id": "E00840",
+	"slug": "הרהר-1",
+	"headword": {
+		"text": "הִרְהֵר"
+	},
+	"altHeadwords": [
+		{
+			"text": "הִירְ׳"
+		}
+	],
+	"page": {
+		"number": 366,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (Pilp. of <he>הרר</he>; v. <cite ref=\"E00835\"><he>הָרָה</he></cite>, cmp. esp. ",
+			"units": ["<cite ref=\"Isaiah 59:13\">Is. LIX, 13</cite>) "]
+		},
+		{
+			"gloss": "<i>to conceive in mind, to think, meditate, plan</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 3:4\">Ber. III, 4</cite> <he>מְהַרְהֵר בלבו</he> thinks (recites the Sh’ma) in his heart, v. <cite ref=\"E00838\"><he>הִרְהוּר</he></cite>. ",
+				"<cite ref=\"Gittin 57b:5\">Gitt. 57ᵇ</cite> <he>הי׳ תשובה בדעתיה</he> he conceived the idea of repentance."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be heated, entertain impure thoughts</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 37b:6\">Ḥull. 37ᵇ</cite> <he>לא הִרְהַרְתִּי ביום</he> I allowed no impure thoughts to rise in me in day-time; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (followed by <he>אחר</he>) <i>to disparage, criticise, detract from</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 110a:10\">Snh. 110ᵃ</cite> <he>המְהַרְהֵר אחר רבו</he> who speaks evil of his teacher. ",
+				"<cite ref=\"Bamidbar Rabbah 7:4\">Num. R. s. 7</cite> <he>אם הִרְהַרְתָּ וכ׳</he> if thou criticisest them &c. ",
+				"<cite ref=\"Berakhot 19a:6\">Ber. 19ᵃ</cite> <he>אל תְּהַרְהֵר אחריו ביום</he> do not think evil of him the day after (for he surely repented). ",
+				"<cite ref=\"Sifrei Devarim 307:2\">Sifré Deut. 307</cite> <he>אין להַרְהֵר אחר מדותיו</he> you must not criticise His dealings with man; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to heat, make sick with fever</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 17:1\">Lev. R. s. 17</cite> (play on <he>ח̇ר̇צבות</he>, <cite ref=\"Psalms 73:4\">Ps. LXXIII, 4</cite>; v. <cite ref=\"E00004\"><he>ה״א</he></cite>) <he>לא הִרְהַרְתִּים בחלאים</he> (Var. <he>חרחר׳</he>; Ar. s. v. <he>חרצב</he>: <he>ערער׳</he>) I did not make them hot with diseases; <cite ref=\"Yalkut Shimoni on Nach 808:1\">Yalk. Ps. 808</cite>. [<cite ref=\"Mishnah Oktzin 3:11\">Ukts. III, 11</cite>, v. <cite ref=\"H01658\"><he>חרְחֵר</he></cite>.]"
+			],
+			"label": "4"
+		}
+	]
+}

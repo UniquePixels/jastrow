@@ -1,0 +1,38 @@
+{
+	"id": "S00357",
+	"slug": "קולס-2",
+	"headword": {
+		"text": "קוֹלַס"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוֹלְסָא"
+		},
+		{
+			"text": "קַלְ׳"
+		}
+	],
+	"page": {
+		"number": 1329,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00356\">same</cite><i>helmet</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 17:5\">Targ. I Sam. XVII, 5</cite> (Rashi to <cite ref=\"Zevachim 88b\">Zeb. 88ᵇ</cite> <he>קל׳</he>); a. e.—Pl. <he>קוּלְסִין</he>, <he>קוּלְסַיָּא</he>, <cite ref=\"K00767\"><he>קַלְ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 23:15\">Targ. Ez. XXIII, 15</cite> (h. text <he>טבולים</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 23:24\">Ib. 24</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 46:4\">Targ. Jer. XLVI, 4</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cabbage-head</i>; trnsf. <i>one of repulsive appearance</i> (or perh. <i>blockhead</i>). ",
+			"units": [
+				"<cite ref=\"Yevamot 118b:18\">Yeb. 118ᵇ</cite> <he>דק׳ גברא וכ׳</he> when the husband is a cabbage-head, the wife requires no lentils for the pot, i.e. a woman is contented with any husband, in the poorest circumstances, rather than remain single; [Rashi: <he>ק׳</he> <i>of a disreputable family</i>, v. <cite ref=\"S01379\"><he>קְלַס</he></cite>; Ar.: <cite ref=\"S01381\"><he>קַלָּסָא</he></cite> <i>a cabbage gardener</i>, v. <cite ref=\"N01072\"><he>נַפָּצָא</he></cite>]; <cite ref=\"Ketubot 75a:6\">Keth. 75ᵃ</cite> <he>דקלסא</he> (Rashi <he>דקול׳</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "D00727",
+	"slug": "דיר-3",
+	"headword": {
+		"text": "דִּיר"
+	},
+	"page": {
+		"number": 305,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"D00576\"><he>דִּיֵּיר</he></cite>, <i>Pa.</i> <cite ref=\"D00576\"><he>דַּיֵּיר</he></cite>, v. <cite ref=\"D00342\"><he>דּוּר</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

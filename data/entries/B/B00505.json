@@ -1,0 +1,32 @@
+{
+	"id": "B00505",
+	"slug": "בטי-3",
+	"headword": {
+		"text": "בְּטִי"
+	},
+	"page": {
+		"number": 156,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"B00504\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bottom, bathing basin;</i> v. <cite ref=\"A01974\"><he>אַמְבְּטִי</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bottom, depth</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 68\">Gen. R. s. 68</cite> Ar. (ed. <he>אמבטי</he>); s. 50; s. 86 (ed. <cite ref=\"B00583\"><he>ביטי</he></cite>); v. <cite ref=\"D00556\"><he>דְּיֵיטָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

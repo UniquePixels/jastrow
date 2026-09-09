@@ -1,0 +1,60 @@
+{
+	"id": "D01153",
+	"slug": "דשש-2",
+	"headword": {
+		"text": "דְּשַׁשׁ"
+	},
+	"page": {
+		"number": 326,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"D01152\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"D01145\"><he>דַּשֵּׁישׁ</he></cite>, <i>Polel</i> (of <cite ref=\"D00389\"><he>דּוּשׁ</he></cite>) <he>דּוֹשֵׁשׁ</he> <i>to stamp upon</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 6:1\">Targ. Esth. VI, 1</cite>.—",
+						"<cite ref=\"Targum Jonathan on Jeremiah 48:26\">Targ. Jer. XLVIII, 26</cite>, v. infra.—",
+						"<cite ref=\"Targum Jonathan on Judges 5:21\">Targ. Jud. V, 21</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 18:43\">Targ. Ps. XVIII, 43</cite> <he>דושש׳</he> Ms. (ed. Lag. <cite ref=\"T00001\"><he>ר׳</he></cite>); <cite ref=\"Targum Jonathan on II Samuel 22:43\">Targ. II Sam. XXII, 43</cite>. ",
+						"<cite ref=\"Targum of II Chronicles 32:1\">Targ. II Chr. XXXII, 1</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אֲדַשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to crush, pound</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 11:8\">Targ. Y. Num. XI, 8</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["דַּשְׁדֵּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to tramp, reel</i> (of a drunken person). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 19:14\">Targ. Is. XIX, 14</cite>; <cite ref=\"Targum Jonathan on Jeremiah 48:26\">Targ. Jer. XLVIII, 26</cite> <he>וִידַשְׁדְּשׁוּן</he> Ar. (Kimḥi <he>וידששון</he>, ed. Lag. <he>וִידַדְשׁוּן</he> = <he>וידשד׳</he>).—Part. pass. <he>מְדַשְׁדַּשׁ</he> <i>stamped upon</i>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 19:14\">Targ. Is. XIX, 14</cite> (h. text <he>מובס</he>)."
+					]
+				}
+			],
+			"stem": "Palp."
+		}
+	]
+}

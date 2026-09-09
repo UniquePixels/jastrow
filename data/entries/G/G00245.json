@@ -1,0 +1,27 @@
+{
+	"id": "G00245",
+	"slug": "זחיל",
+	"headword": {
+		"text": "זָחֵיל"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְחִיל"
+		}
+	],
+	"page": {
+		"number": 390,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00247\"><he>זחל</he></cite>) <i>worm</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 13:28\">Targ. Job XIII, 28</cite>; a. e."
+			]
+		}
+	]
+}

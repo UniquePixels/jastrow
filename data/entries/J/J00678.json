@@ -1,0 +1,33 @@
+{
+	"id": "J00678",
+	"slug": "ישבב",
+	"headword": {
+		"text": "יְשֵׁבָב"
+	},
+	"page": {
+		"number": 599,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"J00677\">preced.</cite>) pr. n. m. <i>Jeshebab, Y’shebab</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " brother and substitute of the Highpriest Ishmael b. Kimḥith. ",
+			"units": [
+				"<cite ref=\"Yoma 47a:11\">Yoma 47ᵃ</cite> (Ms. M. 2 <he>ישובאב</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of a priestly division, v. preced.—3) a Tannai, contemporary of R. Akiba. ",
+			"units": [
+				"<cite ref=\"Ketubot 29b:10\">Keth. 29ᵇ</cite>. ",
+				"<cite ref=\"Ketubot 50a:2\">Ib. 50ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Chullin 2:4\">Ḥull. II, 4</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"id": "P01241",
+	"slug": "עראי",
+	"headword": {
+		"text": "עַרְאַי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַרַיי"
+		}
+	],
+	"page": {
+		"number": 1109,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"P01423\"><he>עַרְעַי</he></cite>, v. <cite ref=\"P01411\"><he>עֲרַע</he></cite> a. <cite ref=\"A03216\"><he>אֲרַע</he></cite>)",
+			"units": []
+		},
+		{
+			"gloss": "<i>evil, misfortune</i>. Sifra B’ḥuck., Par. 2, ch. V (ref. to <cite ref=\"S02017\"><he>קרי</he></cite>, <cite ref=\"Leviticus 26:23\">Lev. XXVI, 23</cite>, sq.) <he>אתם עשיתם … עריי בעולם אף אני … ע׳ וכ׳</he> you made my laws of justice a misfortune in the world, so I shall make you a misfortune in the world; <cite ref=\"Leviticus 26:23\">ib.</cite> ch. VIII; <cite ref=\"Yalkut Shimoni on Torah 675:13\">Yalk. Lev. 675</cite> <cite ref=\"P01241\"><he>עראי</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>accident, chance, improvisation</i>, opp. <cite ref=\"S00084\"><he>קבע</he></cite>. ",
+			"units": [
+				"<cite ref=\"Sukkah 2a:14\">Succ. 2ᵃ</cite> <he>צא מדירת קבע ושב בדירת ע׳</he> leave the permanent, and live in a temporary dwelling. ",
+				"<cite ref=\"Mishnah Sukkah 2:9\">Ib. II, 9</cite> <he>כל</he> … <he>סוכתו קבע ודירתו ע׳</he> Ms. M. (ed. <he>וביתו</he>) during the seven days (of the Feast of Booths) man must make his booth the permanent and his dwelling the incidental residence. ",
+				"<cite ref=\"Sukkah 26a:15\">Ib. 26ᵃ</cite> <he>אכילת ע׳</he> an incidental meal, luncheon, opp. to <he>אכילת קבע</he> a regular meal. ",
+				"<cite ref=\"Mishnah Maasrot 1:5\">Maasr. I, 5</cite> <he>אוכל מהם ע׳ וכ׳</he> (sub <he>אכילת</he>) he may make of them an irregular meal until &c.; <cite ref=\"Tosefta Ma'asrot 1:11\">Tosef. ib. I, 11</cite>, a. e. <cite ref=\"A03223\"><he>אַרְעַי</he></cite> ed. Wil., oth. <cite ref=\"P01241\"><he>עראי</he></cite>. Succ. l. c. <he>שינת ע׳</he> irregular sleep, a nap; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

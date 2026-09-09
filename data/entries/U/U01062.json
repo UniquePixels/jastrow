@@ -1,0 +1,27 @@
+{
+	"id": "U01062",
+	"slug": "שירה",
+	"headword": {
+		"text": "שִׁירָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1568,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"U01055\"><he>שִׁיר</he> II</cite>) <i>song, hymn, poetry, music</i>. ",
+			"units": [
+				"<cite ref=\"Arakhin 11a:83\">Arakh. 11ᵃ</cite> <he>עיקר ש׳ בפה וכלי וכ׳</he> the essential in the Temple music is (the song) with the mouth, and the musical instruments are for accompaniment (v. <cite ref=\"B01004\"><he>בְּסַם</he></cite>); (anoth. opin.) <he>עיקר ש׳ בכלי</he> instrumental music is the essential &c.; <cite ref=\"Sukkah 50b:5\">Succ. 50ᵇ</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Megillah 3:7:2\">Y. Meg. III, 74ᵇ</cite> bot. <he>שִׁירַת הבאר</he> the song of the well (<cite ref=\"Numbers 21:17\">Num. XXI, 17</cite> sq.); <he>ש׳ הים</he> the song of the sea (<cite ref=\"Exodus 15:1-18\">Ex. XV, 1—18</cite>); <he>ש׳ הלוים</he> the song of the Levites (for the additional sacrifice of the Sabbath, <cite ref=\"Deuteronomy 32:1-43\">Deut. XXXII, 1–43</cite>); <cite ref=\"Tractate Soferim 12\">Treat. Sof’rim ch. XII</cite>. ",
+				"<cite ref=\"Rosh Hashanah 30b:9\">R. Hash. 30ᵇ</cite> <he>ש׳ של חול</he> the song (of the Levites) for a week-day. ",
+				"<cite ref=\"Rosh Hashanah 31a:1\">Ib. 31ᵃ</cite> top <he>דש׳ דיומיה הוה</he> because it would at all events have been the song for that day (the fifth day of the week for which the same psalm is designated as for the New Year’s Day, <cite ref=\"Psalms 81\">Ps. LXXXI</cite>); a. v. fr.—Pl. <cite ref=\"U01068\"><he>שִׁירוֹת</he></cite>. Y. Meg. l. c. <he>כל הש׳ טעונות וכ׳</he> all poetic passages of the Pentateuch (when read at public service) require special benedictions before and after. ",
+				"<cite ref=\"Shemot Rabbah 23:15\">Ex. R. s. 23</cite> <he>כל הש׳ … לשון נקיבה וכ׳</he> all the songs that have heretofore been composed (mentioned in the Scriptures) are of the feminine gender (<cite ref=\"U01061\"><he>שִׁירָה</he></cite>) … but the song of the future … will be of the masculine gender (<cite ref=\"U01058\"><he>שִׁיר</he></cite>, ref. to <cite ref=\"Isaiah 42:10\">Is. XLII, 10</cite>); <cite ref=\"Shir HaShirim Rabbah 1:5:3\">Cant. R. to I, 5</cite>; a. fr."
+			]
+		}
+	]
+}

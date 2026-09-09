@@ -1,0 +1,25 @@
+{
+	"id": "D00004",
+	"slug": "דא-2",
+	"headword": {
+		"text": "דָּא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דא דא"
+		}
+	],
+	"page": {
+		"number": 275,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>da da</i>, the camel-drivers’ call. ",
+			"units": [
+				"<cite ref=\"Pesachim 112b:8\">Pes. 112ᵇ</cite>. [<cite ref=\"D00003\"><he>דא</he></cite>, <cite ref=\"Shir HaShirim Rabbah 2:15:2\">Cant. R. to II, 15</cite>, v. <cite ref=\"B00852\"><he>בלטוורא</he></cite>.]"
+			]
+		}
+	]
+}

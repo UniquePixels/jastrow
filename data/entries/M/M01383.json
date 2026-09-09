@@ -1,0 +1,25 @@
+{
+	"id": "M01383",
+	"slug": "מכירין",
+	"headword": {
+		"text": "מְכֵירִין"
+	},
+	"page": {
+		"number": 782,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (μάχαιρα) <i>knives, daggers</i>. Tanḥ. Vayḥi 9 (play on <cite ref=\"M01439\"><he>מְכֵרוֹת</he></cite>, <cite ref=\"Genesis 49:5\">Gen. XLIX, 5</cite>) <he>לשון יוני הוא שקורין לחרבות מ׳</he> it is Greek, in which swords are called <i>machaerin</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 99:7\">Gen. R. s. 99</cite> <he>לשון יוני הוא מ׳</he>; <cite ref=\"Pirkei DeRabbi Eliezer 38\">Pirké d’R. El. ch. XXXVIII</cite> <he>שהיונים קוראים לחרב מכיר</he> (read: <he>מְכֵירָא</he>). ",
+				"<cite ref=\"Bereishit Rabbah 88:3\">Gen. R. s. 88</cite> <he>קונדא מ׳ נתנו וכ׳</he> (combine into one word: κονδομάχειρα, v. S. compounds of κοντο) they put short daggers in to their shoes. ",
+				"<cite ref=\"Vayikra Rabbah 33:1\">Lev. R. s. 33</cite>, beg. <cite ref=\"M00474\"><he>מוכירין</he></cite> (corr. acc.), v. <cite ref=\"M01276\"><he>מיצטרא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "N00930",
+	"slug": "נסיבא-1",
+	"headword": {
+		"text": "נְסִיבָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 916,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00929\">preced.</cite>) <i>that which is taken, assessment, tax</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 31:28\">Targ. O. Num. XXXI, 28</cite> (h. text <he>מכס</he>); <cite ref=\"Onkelos Numbers 31:39\">ib. 39</cite>; a. fr.—",
+				"<cite ref=\"Onkelos Leviticus 27:23\">Targ. O. Lev. XXVII, 23</cite> (h. text <he>מכסת</he>)."
+			]
+		}
+	]
+}

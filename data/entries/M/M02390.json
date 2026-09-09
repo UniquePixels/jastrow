@@ -1,0 +1,24 @@
+{
+	"id": "M02390",
+	"slug": "מקוה-3",
+	"headword": {
+		"text": "מִקְוֵה",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 829,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00201\"><he>קְהָא</he></cite>) <i>acid</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 75a\">Keth. 75ᵃ</cite> Ar., v. <cite ref=\"S00880\"><he>קִיּוּהָא</he></cite>."
+			]
+		}
+	]
+}

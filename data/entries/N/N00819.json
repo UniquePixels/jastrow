@@ -1,0 +1,60 @@
+{
+	"id": "N00819",
+	"slug": "נכי-2",
+	"headword": {
+		"text": "נְכֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְכָא"
+		}
+	],
+	"page": {
+		"number": 910,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N00818\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַכֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to deduct</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 27:18\">Targ. Y. Lev. XXVII, 18</cite>.—Y. Sot. V, 20ᶜ bot.; Y. Ber. IX, 14ᵇ bot. <he>אנא מְנַכֵּי</he>, v. <cite ref=\"E00685\"><he>הַנְכָּיָה</he></cite>. ",
+						"<cite ref=\"Shabbat 140a:10\">Sabb. 140ᵃ</cite> <he>מְנַכּוּ</he>, v. <cite ref=\"G00453\"><he>זְכוּתָא</he></cite>. ",
+						"<cite ref=\"Bava Kamma 97b\">B. Kam. 97ᵇ</cite>, sq. <he>אי מחמת … מְנַכִּינָן ליה וכ׳</he> if provisions have become cheaper in consequence of the increased weight of the coin, we impose upon the creditor a corresponding reduction of the debt &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִינְּכֵי", "אִנְּכֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be injured, suffer</i>. Y. Ab. Zar. II, 41ᵈ top <he>אשתון … ואִנְּכוּן</he> the first drank and did not die, but were sick; <cite ref=\"Yoma 2a\">ib.</cite> <he>ולא מייתין אינכון</he> read <he>ואִי׳</he>; (Y. Ter. VIII, 45ᵈ bot. only <he>מייתין</he>). Y. Dem. I, 22ᵃ top <he>ולא אנכון</he> and they suffered no more (from mice). ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>יעבור ולא מִנְּכָה</he> let him cross, he shall not be injured. Y. Keth. XII, 35ᵇ top <he>כל הן דהוא מהו מִנְּכֵי</he> wherever he be buried, what does he lose (what difference does it make to him)?; Y. Kil. IX, 32ᶜ top <cite ref=\"I00576\"><he>טנכי</he></cite> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אַכֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to harm</i>. Y. Sabb. III, 6ᵃ bot. (in Hebr. dict.) <he>ומַכֵּי הוא לה כלום</he> can he harm her in any manner?; Y. Bets. II, 61ᶜ",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

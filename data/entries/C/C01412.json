@@ -1,0 +1,22 @@
+{
+	"id": "C01412",
+	"slug": "גשוש",
+	"headword": {
+		"text": "גָּשׁוֹשׁ"
+	},
+	"page": {
+		"number": 273,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. <he>(גשש</he>), <he>ג׳ של ספינה</he> prob. <i>framework</i> of a ship (v. <cite ref=\"C01414\"><he>גָּשִׁישׁ</he></cite>); comment.: <i>sounding pole</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 125b:9\">Sabb. 125ᵇ</cite> (Ms. M. <he>אגושש</he>, Ms. O. <cite ref=\"C01414\"><he>גשיש</he></cite>; v. Sm. Ant. s. v. Contus)."
+			]
+		}
+	]
+}

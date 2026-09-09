@@ -1,0 +1,29 @@
+{
+	"id": "O00537",
+	"slug": "סיבורא",
+	"headword": {
+		"text": "סִיבּוּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִבּ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 974,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סְבר</he> III) <i>blood-letting</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 29a:2\">Ab. Zar. 29ᵃ</cite> (interch. with <cite ref=\"O00648\"><he>סִיבּוּרֵי</he></cite>, <cite ref=\"O00535\"><he>סִבּ׳</he></cite> <i>pl.</i>).—",
+				"<cite ref=\"Ketubot 39b:10\">Keth. 39ᵇ</cite> <he>תרפתא דסיבורי</he> Ar. ed. Koh. (oth. ed. <he>דסיכורי</he>, a Var. to <he>רבדא דכוסילתא</he>, v. Rashi a. l.) the scar from blood-letting."
+			]
+		}
+	]
+}

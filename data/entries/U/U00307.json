@@ -1,0 +1,26 @@
+{
+	"id": "U00307",
+	"slug": "שוא",
+	"headword": {
+		"text": "שָׁוְא"
+	},
+	"page": {
+		"number": 1527,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"U00296\"><he>שָׁהָה</he></cite>) [<i>vacancy</i>,] <i>vanity, inanity, falsehood</i>. <he>שבועת ש׳</he> a false oath, vowing to do something impossible, opp. <cite ref=\"B00579\"><he>בִּיטּוּי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shevuot 3:9\">Shebu. III, 9</cite> <he>שבועה שאוכל … והשנייה שבועת ש׳</he> (if one says) ‘I swear that I will eat this loaf, (and) I swear that I will not eat it’, the former is a useless oath (or vow), the second a false oath; <he>אכלה עבר על שבועת ש׳ וכ׳</he> if he eats it, he is guilty of a false oath (having sworn that he would not eat it); if he does not eat it, he is (also) guilty of a useless oath. Ib. 8 <he>איזוהי שבועת ש׳ נשבע וכ׳</he> what is a vain oath of affirmation? If one swears to that which is known to be otherwise, saying of a stone column that it is gold &c.; <he>נשבע … שאי אפשר וכ׳</he> if one affirms an impossibility, saying I swear that I have seen a camel fly in the air. ",
+				"<cite ref=\"Mishnah Shevuot 3:9\">Ib.</cite> <he>נשבע לבטל … זו היא שבועת ש׳ וכ׳</he> if he swears that he will neglect a command, that he will not erect a Succah, …: that is a vain oath, on the wilful pronouncing of which he is punished with stripes &c. Ib. 21ᵃ <he>איזוהי שבועת ש׳ … שקר נשבע וכ׳</he> what is a vain oath? If one swears to what is known to be otherwise; a false oath, if one swears to the opposite of the truth (e.g. ‘I have eaten’, when he has not, ‘I have not eaten’, when he has), v. <cite ref=\"U01896\"><he>שֶׁקֶר</he></cite>. Ib. 20ᵇ <he>ש׳ ושקר אחד הן</he> a vain oath (<i>shav</i>) and a false oath (<i>sheḳer</i>) are the same; a. fr.—<he>תפלת ש׳</he> a vain prayer, a prayer concerning a thing which cannot be changed. ",
+				"<cite ref=\"Mishnah Berakhot 9:3\">Ber. IX, 3</cite>; a. fr.—",
+				"<cite ref=\"Shemot Rabbah 3:2\">Ex. R. s. 3</cite> (ref. to <he>מתי שוא</he>, <cite ref=\"Job 11:11\">Job XI, 11</cite>) God knows <he>העם המתים על הש׳ לעשותו</he> the people that risk their lives for falsehood (idolatry) to commit it; <he>העתידים לעשות ש׳ וכ׳</he> those that will commit falsehood and be put to death.—<he>לַשָּׁ׳</he> in <i>vain, to no purpose</i>. ",
+				"<cite ref=\"Ketubot 62b\">Keth. 62ᵇ</cite>, v. <cite ref=\"U01525\"><he>שָׁמַר</he></cite>. Y. Meg. III, 74ᵃ bot., v. <cite ref=\"V00710\"><he>תַּמְרוּרִים</he></cite>."
+			]
+		}
+	]
+}

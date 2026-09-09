@@ -1,0 +1,30 @@
+{
+	"id": "L00262",
+	"slug": "לויתן",
+	"headword": {
+		"text": "לִוְיָתָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִיוְ׳"
+		}
+	],
+	"page": {
+		"number": 698,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>Leviathan</i>, a legendary sea-animal reserved, with B’hemoth, for the righteous in the hereafter. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 13:3\">Lev. R. s. 13</cite>, v. <cite ref=\"B00183\"><he>בְּהֵמוֹת</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 22:10\">Lev. R. s. 22</cite>, end. ",
+				"<cite ref=\"Avodah Zarah 3b:8\">Ab. Zar. 3ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Moed Katan 25b:4\">M. Kat. 25ᵇ</cite> (in a wailing song) <he>ל׳</he> a great man, opp. <he>דגי רקק</he> the fish of the swamp, common humanity (v. <cite ref=\"A00964\"><he>אֵזוֹב</he></cite>)."
+			]
+		}
+	]
+}

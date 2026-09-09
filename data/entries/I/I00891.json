@@ -1,0 +1,22 @@
+{
+	"id": "I00891",
+	"slug": "טרקא-2",
+	"headword": {
+		"text": "טָרָקָא"
+	},
+	"page": {
+		"number": 557,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טְרַק</he> I) <i>stirring up, disturbance</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 10:11\">Targ. Koh. X, 11</cite> <he>לט׳ ולנזקא</he> (ed. Amst. a. oth. <he>לטַרְאָקָא</he>) for disturbance and injury."
+			]
+		}
+	]
+}

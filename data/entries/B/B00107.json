@@ -1,0 +1,45 @@
+{
+	"id": "B00107",
+	"slug": "בדד-1",
+	"headword": {
+		"text": "בָּדַד"
+	},
+	"page": {
+		"number": 138,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בד</he>; cmp. <cite ref=\"B00406\"><he>בז</he></cite>, <i>to enter into, split, separate</i>; v. <he>בדל</he>, <he>בדק</he>, <he>בדר</he> &c.)<i>to scatter</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 5:2:2\">Y. Yoma V, 42ᶜ</cite> top <he>בּוֹדְדָהּ ברגלו</he> he scatters it (the frank-incense) with his foot (shoves it apart)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to dig out, create, choose, invent</i>. Denom. <cite ref=\"B00095\"><he>בַּד</he> II</cite>, <he>בַּדִּים</he>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be lonely</i>. <i>Part.</i> <he>בּוֹדֵד</he> <i>lonely</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 29:1\">Pesik. R. s. 29</cite> (<cite ref=\"Pesikta Rabbati 30:1\">30</cite>), expl. <he>בדד</he> (<cite ref=\"Lamentations 1:1\">Lam. I, 1</cite>) = <he>בּוֹדֵד</he> lonely, forsaken. <i>Part. pass.</i> <he>בָּדוּד</he> <i>exiled</i>. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>בגדים בדודים</he> Ar. (read <he>בגדי</he>) garments of the exiled (<he>כלי גולה</he>, <cite ref=\"Jeremiah 46:19\">Jer. XLVI, 19</cite>); [ed. <he>בגדי בָדָד</he>, a. <cite ref=\"B00111\"><he>בְּדָדִין</he></cite>, v. next w.]."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְבּוֹדֵד"],
+			"senses": [
+				{
+					"gloss": "<i>to be exiled, homeless</i>. Lam. R. introd. (R. Alexandri 1) (ref. to <cite ref=\"Psalms 102:8\">Ps. CII, 8</cite>) as the bird <he>מִתְבּוֹדֵד וכ׳</he> is driven (separated from the rest) from roof to roof.",
+					"units": []
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

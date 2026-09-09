@@ -1,0 +1,130 @@
+{
+	"id": "H01806",
+	"slug": "חשב-1",
+	"headword": {
+		"text": "חָשַׁב"
+	},
+	"page": {
+		"number": 508,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H01817\"><he>חָשָׁה</he></cite>)<i>to think, intend, plan</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 6a:12\">Ber. 6ᵃ</cite>; <cite ref=\"Kiddushin 40a:12\">Kidd. 40ᵃ</cite> (ref. to <cite ref=\"Malachi 3:16\">Mal. III, 16</cite>) <he>אפי׳ ח׳ אדם וכ׳</he> even if one only had the intention of doing etc.; <cite ref=\"Shabbat 63a:20\">Sabb. 63ᵃ</cite> <cite ref=\"H01806\"><he>חִישֵּׁב</he></cite> (<i>Pi.</i>).—Tanḥ. P’kudé 11 <he>וכשהן חוֹשְׁבִין להעמידו וכ׳</he> and when they thought they had put it up, it fell apart again. ",
+				"<cite ref=\"Sotah 35a:8\">Sot. 35ᵃ</cite> <he>אני חֲשַׁבְתִּיהָ</he> … <he>והם חָשְׁבוּ וכ׳</he> I planned it for their good, but they considered it an evil; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to consider, regard; to count</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 14a:12\">Ber. 14ᵃ</cite> (ref. to <cite ref=\"Isaiah 2:22\">Is. II, 22</cite>) <he>במה חֲשַׁבְתּוֹ לזה ולא לאלוה</he> with what right didst thou pay thy regard to him and not to God?—Sot. l. c., v. supra. ",
+				"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite>, v. <cite ref=\"O00394\"><he>סוֹפִיסְטָא</he></cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to design, trace</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 72b:18\">Yoma 72ᵇ</cite> (ref. to <he>חשב</he> a. <he>רקם</he>, <cite ref=\"Exodus 26:31\">Ex. XXVI</cite>, 31ᵃ 36) <he>רוקמין במקום שחוֹשְׁבִין</he> they embroidered over what they had traced.—<i>Part. pass.</i> <cite ref=\"H01819\"><he>חָשׁוּב</he></cite> fem. <he>חֲשׁוּבָה</he> "
+			],
+			"label": "3",
+			"senses": [
+				{
+					"gloss": " <i>counted, regarded</i>; <he>ח׳ כ־</he> <i>equal to</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 5</cite> <he>לא … מדינה ח׳ כלום</he> the country towns were of no account. ",
+						"<cite ref=\"Nedarim 64b:6\">Ned. 64ᵇ</cite> <he>ח׳ כמת</he> is like dead; <cite ref=\"Nedarim 64b:6\">ib.</cite> <he>חֲשׁוּבִין כמת</he>; <cite ref=\"Bereishit Rabbah 71:6\">Gen. R. s. 71</cite> <he>חֲשׁוּבִים כמתים</he>; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>valuable; important; respectable, of high standing</i>. ",
+					"units": [
+						"<cite ref=\"Beitzah 3b:11\">Bets. 3ᵇ</cite> <he>ביצה ח׳</he> an egg is a valuable object. ",
+						"<cite ref=\"Berakhot 19a\">Ber. 19ᵃ</cite>, a. fr. <he>אדם ח׳ שאני</he> with a man of high standing it is different. ",
+						"<cite ref=\"Pesachim 108a:10\">Pes. 108ᵃ</cite> <he>אשה ח׳</he> a woman of rank. Tanḥ. Shmini 9 <he>איש ח׳ שמחשבים וכ׳</he> a man of standing whom they respected in his place; a. fr."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִישֵּׁב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01805\">same</cite>, ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to consider, regard; to respect</i>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to account, calculate, figure</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 78b:13\">B. Bath. 78ᵇ</cite> <he>המְחַשְּׁבִים</he> the thoughtful. ",
+						"<cite ref=\"Shabbat 150a:11\">Sabb. 150ᵃ</cite>. <he>חשבונות … לחַשְּׁבָן וכ׳</he> accounts of a religious nature may be figured out on the Sabbath. ",
+						"<cite ref=\"Pirkei Avot 2:1\">Ab. II, 1</cite> <he>הוי מְחַשְּׁב וכ׳</he> count what you sacrifice in doing good, against what you gain thereby. ",
+						"<cite ref=\"Sanhedrin 65b:19\">Snh. 65ᵇ</cite> <he>המח׳ עתים וכ׳</he> he who calculates seasons and hours (which are auspicious and which are not). ",
+						"<cite ref=\"Sanhedrin 97b:9\">Ib. 97ᵇ</cite> <he>מְחַשְּׁבֵי קיצין</he> those who make calculations (from Biblical verses) as to when the Messiah will come; a. fr.—[<cite ref=\"Shabbat 150b:1\">Sabb. 150ᵇ</cite> top <he>מותר לחוֹשְׁבָן</he> (Kal), Ms. M. <he>לחַשְּׁ׳</he>.]—V. <cite ref=\"H01809\"><he>חֶשְׁבּוֹן</he></cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (sub. <he>מחשבה זרה</he>) <i>to have in mind an undue intention in the performance of a sacrificial ceremony</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 48a:9\">Yoma 48ᵃ</cite> <he>חי׳ בחפינת וכ׳</he> if he had an undue intention when grasping the frankincense (e.g. to offer it tomorrow). ",
+						"<cite ref=\"Yoma 48b:1\">Ib.ᵇ</cite>; a. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְחַשֵּׁב"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְחַשֵּׁב"],
+			"senses": [
+				{
+					"gloss": "<i>to be counted</i>. Ohol. I, 3 <he>אין האהל מִתְחַשֵּׁב</he> the tent is not counted (as a special item). ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 768:3\">Yalk. Num. 768</cite> <he>מתח׳ לנו</he> will be counted against us (be deducted from our share). ",
+						"<cite ref=\"Mishnah Mikvaot 3:3\">Mikv. III, 3</cite> <he>עד שיִתְחַשֵּׁב וכ׳</he> until it is calculated that all the original water has run off. ",
+						"<cite ref=\"Pesikta Rabbati 44:1\">Pesik. R. s. 44</cite> the former sins <he>אינן מִתְחַשְּׁבוֹת לו וכ׳</he> are not counted or remembered to him."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be considered, believed to be</i>. Tanḥ. Masé 5, v. <cite ref=\"K00442\"><he>כַּזְבָּן</he></cite>.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to occupy a high position</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 8:11\">Shebi. VIII, 11</cite> <he>אם מתחשב הוא</he> (Ms. M. <he>כמ׳</he>, v. Rabb. D. S. a. l. note) if he (is like one who) holds a high position."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to conspire</i> (with the Romans). ",
+					"units": [
+						"<cite ref=\"Tosefta Avodah Zarah 2:7\">Tosef. Ab. Zar. II, 7</cite> <he>ואם מתחשב וכ׳</he> but when he (the Israelite besieging a city) does it as an ally (in the Roman interest), he is forbidden (to conduct the siege); <cite ref=\"Avodah Zarah 18b:6\">Ab. Zar. 18ᵇ</cite> <he>ובלבד שלא יִתְחַשֵּׁב עמהם</he> provided he does not conspire with them; <he>ואם נתח׳ וכ׳</he> (Ms. M. <he>יתח׳</he>); Y. ib. I, 40ᵃ <he>מתחשד</he> (corr. acc.)."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "G00422",
+	"slug": "זירוד-2",
+	"headword": {
+		"text": "זֵירוּד",
+		"homograph": 2
+	},
+	"page": {
+		"number": 397,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Zerud</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 30a:4\">Ab. Zar. 30ᵃ</cite> <he>ישמעאל בן ז׳</he> ed. (Ms. M. <he>שמעון בן זכור</he>, or <he>זבור</he>, v. Rabb. D. S. a. l.). ",
+				"<cite ref=\"Sanhedrin 14a:7\">Snh. 14ᵃ</cite> <he>שמעון בן ז׳</he> ed. (Ms. M. <cite ref=\"G00423\"><he>זירוז</he></cite>, v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

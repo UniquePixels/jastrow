@@ -1,0 +1,38 @@
+{
+	"id": "S00889",
+	"slug": "קיחה",
+	"headword": {
+		"text": "קִיחָה"
+	},
+	"page": {
+		"number": 1357,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"L00663\"><he>לָקַה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"L00685\"><he>לְקִיחָה</he></cite>, <i>taking, acquiring</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 97a:14\">Yeb. 97ᵃ</cite> (ref. to <cite ref=\"Leviticus 20:11-14\">Lev. XX, 11-14</cite>) <he>בכולן נאמר שכיבה וכאן נאמר ק׳ וכ׳</he> with reference to all of them the word ‘sleeping’ is used, but here (v. 14) ‘taking’ is used, to intimate that the law punishes the marriage only (and not the sexual connection out of wedlock). ",
+				"<cite ref=\"Leviticus 20:11-14\">Ib.</cite> <he>הכי נמי הנך ק׳ הוא וכ׳</he> do you really say with reference to these (v. 17) that the law forbids only marriage? (Answer) <he>ליקוחין … הראוי לק׳ ק׳ וכ׳</he> the verb <i>laḳaḥ</i> is used as a general term: where a regular marriage might have taken place (under other circumstances), the text prohibits marriage; where only sexual connection can be meant, the verb <i>laḳaḥ</i> has the meaning of <i>shakhab</i>. ",
+				"<cite ref=\"Kiddushin 2a:4\">Kidd. 2ᵃ</cite>, a. e. <he>גמר ק׳ ק׳ וכ׳</he> we learn the mode of acquiring (<he>לקח</he> in <cite ref=\"Deuteronomy 22:13\">Deut. XXII, 13</cite>) from the acquisition of the field of Ephron (<cite ref=\"Genesis 23:13\">Gen. XXIII, 13</cite> <cite ref=\"S00682\"><he>קח</he></cite>); <cite ref=\"Chullin 82a:7\">Ḥull. 82ᵃ</cite>; a. fr.—Pl. <he>קִיחוֹת</he>. ",
+				"<cite ref=\"Yoma 3b:4\">Yoma 3ᵇ</cite> <he>בק׳ דעלמא וכ׳</he> in general cases where the text uses <cite ref=\"S00682\"><he>קח</he></cite>, …, but here (<cite ref=\"Exodus 30:23\">Ex. XXX, 23</cite>) it says expressly <he>קח לך</he> (take unto thee, at thy own expense)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>handle</i>,] <i>leather thong, loop.—</i>Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:4\">Kel. XVI, 4</cite> <he>התורמל … קִיחוֹתָיו</he> (Ar. <he>קיה׳</he>, Var. <he>קיח׳</he>) the shepherd’s bag is susceptible of uncleanness, when one has made the rim, trimmed it, and attached the thongs with which to tie it up. ",
+				"<cite ref=\"Mishnah Kelim 16:4\">Ib.</cite> <he>קִיחוֹתֶיהָ</he> the thongs of the leather spread."
+			],
+			"label": "2"
+		}
+	]
+}

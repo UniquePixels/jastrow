@@ -1,0 +1,34 @@
+{
+	"id": "I00018",
+	"slug": "טב-1",
+	"headword": {
+		"text": "טַב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 515,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (contr. of <cite ref=\"I00003\"><he>טאב</he></cite>) = h. <cite ref=\"I00108\"><he>טוֹב</he></cite>, <i>to be good, well</i>.—טב ל־ <i>to feel well, be satisfied, fare well</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 15:16\">Targ. Deut. XV, 16</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָטֵיב"],
+			"senses": [
+				{
+					"gloss": "<i>to do good</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Zechariah 12:4\">Targ. Zech. XII, 4</cite> <he>לַאֲטָבָא</he> (ed. Lag. <he>לאיט׳</he>). V. <cite ref=\"I00110\"><he>טוּב</he></cite>, a. <cite ref=\"J00312\"><he>יְטַב</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

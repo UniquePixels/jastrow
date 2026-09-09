@@ -1,0 +1,22 @@
+{
+	"id": "G00051",
+	"slug": "זבלת",
+	"headword": {
+		"text": "זַבֶּלֶת"
+	},
+	"page": {
+		"number": 379,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"G00047\"><he>זֶבֶל</he></cite>) <i>the place in the field where foliage is piled up</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Metzia 11:8\">Tosef. B. Mets. XI, 8</cite> <he>להוציאו לזַבֶּלְתּוֹ</he> ed. Zuck. to carry it out to his field &c."
+			]
+		}
+	]
+}

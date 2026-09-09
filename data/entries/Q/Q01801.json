@@ -1,0 +1,38 @@
+{
+	"id": "Q01801",
+	"slug": "פריחה",
+	"headword": {
+		"text": "פְּרִיחָה"
+	},
+	"page": {
+		"number": 1226,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01754\"><he>פָּרַח</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>flight, flying off</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 2:1:5\">Y. Yoma II, 39ᶜ</cite> top <he>בפ׳ האחרונה נתכפרו וכ׳</he> with the last piece blown off the altar the owner obtains forgiveness (as if it had been burnt)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>eruption</i>, esp. <i>the white eruption which causes the leper to be declared clean</i> (<cite ref=\"Leviticus 13:12\">Lev. XIII, 12</cite>, v. <cite ref=\"Q01754\"><he>פָּרַח</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 8:4\">Neg. VIII, 4</cite> [read:] <he>כל פְּרִיחוֹת ראשי איברים שבפְרִיחָתָן טהרו טמא כשחזרו וכ׳</he> as regards the eruptions on the main limbs, on the ground of which they declared the unclean clean, whenever they resume their natural color, he is unclean again. ",
+				"<cite ref=\"Mishnah Negaim 8:5\">Ib. 5</cite> <he>מעכב את הפ׳</he> prevents the person from being declared clean on account of the white eruption. ",
+				"<cite ref=\"Tosefta Negaim 3:9\">Tosef. ib. III, 9</cite> <he>פְּרִיחַת היחלט</he> (not <cite ref=\"Q01801\"><he>פריחה</he></cite>) the eruption which appears after the person has been declared definitely unclean; <he>פריחת הסגר</he> after he has been locked up for probation; a. fr.—Pl. <he>פְּרִיחוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:8:4\">Y. Meg. I, 71ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Negaim 8:4\">Neg. VIII, 4</cite>, v. supra; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

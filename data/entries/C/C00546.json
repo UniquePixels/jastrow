@@ -1,0 +1,24 @@
+{
+	"id": "C00546",
+	"slug": "גזייתא",
+	"headword": {
+		"text": "גַּזְיָיתָא"
+	},
+	"page": {
+		"number": 230,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"C00541\"><he>גזי</he></cite>) <i>cuts</i> (of the road), <i>paths, narrow passages</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 19b:10\">Pes. 19ᵇ</cite> (Ms. M. <he>גויי׳</he>, clerical error). ",
+				"<cite ref=\"Pesachim 113a:1\">Ib. 113ᵃ</cite> top."
+			]
+		}
+	]
+}

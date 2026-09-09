@@ -1,0 +1,30 @@
+{
+	"id": "G00059",
+	"slug": "זגדום",
+	"headword": {
+		"text": "זַגְדּוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "זַגְדָּן"
+		},
+		{
+			"text": "זוּגְדֵּס"
+		}
+	],
+	"page": {
+		"number": 380,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contr. of <cite ref=\"G00121\"><he>זוּג</he></cite> a. <cite ref=\"C00151\"><he>גד</he></cite> fr. <cite ref=\"C00166\"><he>גדד</he></cite>, cmp. <he>גדודא</he> juvenis cælebs, P. Sm. 652) <i>unmatched;</i> esp. <i>one with an unequal pair of eyes or eye-brows</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 7:3\">Bekh. VII, 3</cite> <he>זוגדס</he> Mish. (v. infra; Talm. ed. 43ᵇ <cite ref=\"G00059\"><he>זגדן</he></cite>). Ib. 44ᵃ <he>זגדום אחד שחור וכ׳</he> Z. is one who has one black and one white eye-brow; <he>כל זוגא … ז׳ קרי ליה</he> any unequal pair is called <i>Z.</i> Ib. <he>זַגְדָּיָיא מחוי וכ׳</he> (ch. form of our w.); Tosef. ib. V, 2, sq. <cite ref=\"O00171\"><he>סגריס</he></cite> (read: <cite ref=\"O00103\"><he>סַגְדּוּם</he></cite> <i>Safel</i> of <cite ref=\"C00166\"><he>גדד</he></cite>). Sifra Emor ch. II, Par. 3 <he>זגדיס</he> (read … <he>ם</he>). [Ar. <he>זגדוס</he>, influenced by the etymol.: <he>זוג</he>, and <cite ref=\"D00301\"><he>דּוּס</he></cite> = δίς.]"
+			]
+		}
+	]
+}

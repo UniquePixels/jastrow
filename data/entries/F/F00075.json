@@ -1,0 +1,24 @@
+{
+	"id": "F00075",
+	"slug": "ועוד",
+	"headword": {
+		"text": "וְעוֹד"
+	},
+	"page": {
+		"number": 375,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. [<i>and something besides</i>,] <i>addition, increase</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 83a:2\">Erub. 83ᵃ</cite> <he>כמה ו׳</he> how much is that ‘and something’?—Pl. <he>וְעוֹדוֹת</he> <i>additions</i>. ",
+				"<cite ref=\"Eruvin 83a:2\">Ib.</cite> <he>אייתי ו׳ דרבי וכ׳</he> bring along the additions which Rabbi speaks of, and add them thereto. ",
+				"<cite ref=\"Eruvin 83a:2\">Ib.</cite> bot. <he>בו׳ דרבי</he> Ms. M. a. Rashi (ed. <he>ועודיות של רבי</he>, corr. acc.)."
+			]
+		}
+	]
+}

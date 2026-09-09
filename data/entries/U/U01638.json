@@ -1,0 +1,40 @@
+{
+	"id": "U01638",
+	"slug": "שעולא",
+	"headword": {
+		"text": "שְׁעוֹלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁעֲלָא"
+		}
+	],
+	"page": {
+		"number": 1610,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U01664\"><he>שֹׁעַל</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hollow of the hand, palm</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 40:12\">Targ. Is. XL, 12</cite>.—Pl. constr. <he>שַׁעֲלֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 13:19\">Targ. Ez. XIII, 19</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>hollow of the sole, step.—</i>Pl. constr. <he>שְׁעוֹלֵי</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 20:10\">Targ. I Kings XX, 10</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

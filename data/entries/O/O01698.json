@@ -1,0 +1,23 @@
+{
+	"id": "O01698",
+	"slug": "סתימה",
+	"headword": {
+		"text": "סְתִימָה"
+	},
+	"page": {
+		"number": 1031,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01705\"><he>סָתַם</he></cite>) <i>closing, closure, cover</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 47b\">Snh. 47ᵇ</cite>, a. e. <he>סְתִימַת הגולל</he>, v. <cite ref=\"C00396\"><he>גּוֹלֵל</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 8:8\">Kel. VIII, 8</cite> <he>מן הס׳ ולפנים</he> (ed. Dehr. <he>הסְתוּמָה</he>) from where the covering of the vessel begins and farther inside (not the rim surrounding the lid); <cite ref=\"Tosefta Kelim Kamma 6:15\">Tosef. Kel. B. Kam. VI, 15</cite> <he>סְתוּ׳</he>."
+			]
+		}
+	]
+}

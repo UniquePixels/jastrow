@@ -1,0 +1,32 @@
+{
+	"id": "R00058",
+	"slug": "צבע-6",
+	"headword": {
+		"text": "צֶבַע",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צִבְעָא"
+		},
+		{
+			"text": "צִי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1259,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"R00057\">same</cite> constr. <cite ref=\"R00054\"><he>צְבַע</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:4\">Targ. Ex. XXV, 4</cite> <he>צְ׳ זהורי</he> (h. text <he>תולעת שני</he>). ",
+				"<cite ref=\"Onkelos Leviticus 14:4\">Targ. Lev. XIV, 4</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 75a:6\">Sabb. 75ᵃ</cite> <he>דליציל צִיבְעֵיה</he> that its color may be so much brighter. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 3:1:7\">Y. Pes. III, beg. 29ᵈ</cite> <he>בגין דיקלוט צ׳</he> in order that it may take the dye; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "A00843",
+	"slug": "אור-4",
+	"headword": {
+		"text": "אוּר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 32,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"A00842\">foreg.</cite>) prop. <i>light, flame;</i> esp. Pl. <he>אוּרִים ותומים</he> <i>the Urim and Tummim</i> in the High-priest’s breast-plate. ",
+			"units": [
+				"<cite ref=\"Yoma 73b:4\">Yoma 73ᵇ</cite> <he>א׳ שמאירים את דבריהם</he> they are called <i>Urim</i> because they give their decisions in a clear way (not ambiguous as the oracles); cmp. Y. ib. VII, end, 44ᶜ. ",
+				"<cite ref=\"Mishnah Sotah 9:12\">Sot. IX, 12</cite>. Y. Kidd. IV, beg. 65ᵇ"
+			]
+		}
+	]
+}

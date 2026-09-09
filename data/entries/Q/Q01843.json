@@ -1,0 +1,22 @@
+{
+	"id": "Q01843",
+	"slug": "פרישתא-2",
+	"headword": {
+		"text": "פְּרִישְׂתָּא"
+	},
+	"page": {
+		"number": 1228,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q02020\"><he>פְּרַשׂ</he></cite>, v. <cite ref=\"Q01909\"><he>פְּרַס</he></cite>) <i>spread, curtain.—</i>Pl. <cite ref=\"Q01842\"><he>פְּרִישָׂתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 36:29\">Targ. Job XXXVI, 29</cite> Ms. (ed. <cite ref=\"Q01842\"><he>פְּרִישָׁתָא</he></cite>; h. text <he>מִפְרְשֵׂי</he>)."
+			]
+		}
+	]
+}

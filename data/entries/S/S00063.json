@@ -1,0 +1,29 @@
+{
+	"id": "S00063",
+	"slug": "קבל-7",
+	"headword": {
+		"text": "קַבָּל",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קַבְּלָא"
+		}
+	],
+	"page": {
+		"number": 1309,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00062\">preced. art.</cite>) <i>foggy, dark</i>; trnsf. <i>obscure</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 15:12\">Targ. Y. I Gen. XV, 12</cite> <he>בבל קַבְּלָא</he> Babylonia the foggy (v. <cite ref=\"H01822\"><he>חֲשׁוֹכָא</he> II</cite>).—",
+				"<cite ref=\"Sanhedrin 14a:10\">Snh. 14ᵃ</cite>; <cite ref=\"Sanhedrin 92a:21\">92ᵃ</cite> <he>לעולם הוי ק׳ וקיים</he> remain always obscure (without office) and live."
+			]
+		}
+	]
+}

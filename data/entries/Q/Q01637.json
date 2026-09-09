@@ -1,0 +1,30 @@
+{
+	"id": "Q01637",
+	"slug": "פרוונקא",
+	"headword": {
+		"text": "פַּרְוַונְקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְוַנְקָא"
+		}
+	],
+	"page": {
+		"number": 1217,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. parwânaḳ) <i>letter-carrier, forerunner, messenger</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 48b:5\">Succ. 48ᵇ</cite> <he>יומא חד שבקוך ושויוך פ׳</he> (Ms. M. <he>שבקתך</he>, v. Rabb. D. S. a. l. note) one day they will send thee off (from heaven) and make thee a runner (to show the way). ",
+				"<cite ref=\"Sanhedrin 38b:20\">Snh. 38ᵇ</cite> <he>אפי׳ בפ׳ נמי לא קבילניה</he> even as a guide we refused to accept him. ",
+				"<cite ref=\"Avodah Zarah 28a:14\">Ab. Zar. 28ᵃ</cite>, v. <cite ref=\"P00947\"><he>עֵנַבְתָּא</he></cite>. ",
+				"<cite ref=\"Sanhedrin 82a:13\">Snh. 82ᵃ</cite>, a. fr. (a proverbial expression) <he>קריינא דאגרתא איהו ליהוי פ׳</he> let him who dictates the letter be the carrier, i.e. let him who gives the advice be its executor."
+			]
+		}
+	]
+}

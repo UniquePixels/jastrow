@@ -1,0 +1,29 @@
+{
+	"id": "H01407",
+	"slug": "חספא",
+	"headword": {
+		"text": "חַסְפָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 489,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01405\"><he>חסף</he></cite>; cmp. <cite ref=\"K00909\"><he>כסופא</he></cite>) <i>shame;</i> (cmp. b. h. <cite ref=\"B01376\"><he>בּשֶׁת</he></cite>) <i>idol</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 1:2:3\">Y. Ned. I, 37ᵃ</cite> top (in answer to the question, ‘Does not <i>ḥeres</i> mean a sherd?’) <he>לשון אומות … קריין לח׳ כספא</he> (<i>ḥeres</i> may be used as a substitute for <cite ref=\"H01716\"><he>חֵרֶם</he></cite>) for it is a gentile dialect, the Nabatæans say <i>ḥispa</i> for <i>kispa</i> (<cite ref=\"K00909\"><he>כסופא</he></cite>) (which means <i>shame</i> or <i>idol</i>); <cite ref=\"Jerusalem Talmud Nazir 1:1:6\">Y. Naz. I, beg. 51ᵃ</cite> (corr. acc.); v. ",
+				"<cite ref=\"Nedarim 10b\">Ned. 10ᵇ</cite> top."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "N00462",
+	"slug": "נזק-4",
+	"headword": {
+		"text": "נֶזֶק"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִזְקָא"
+		},
+		{
+			"text": "נִיזְ׳"
+		}
+	],
+	"page": {
+		"number": 893,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N00461\">same</cite> <cite ref=\"Onkelos Exodus 24:11\">Targ. O. Ex. XXIV, 11</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 30:12\">Targ. Y. ib. XXX, 12</cite> <he>ני׳ דמותא</he> (h. text <he>נגף</he>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 21:19\">Ib. XXI, 19</cite>; a. e.—",
+				"<cite ref=\"Bava Kamma 84a:21\">B. Kam. 84ᵃ</cite> <he>לבר מנזקא</he> Ms. M. (ed. <he>מנזק</he>) except indemnity for loss of limb. ",
+				"<cite ref=\"Bava Kamma 84a:21\">Ib.</cite> <he>שומו ליה נִיזְקֵיה</he> assess the damages due him for the loss of his hand; a. fr."
+			]
+		}
+	]
+}

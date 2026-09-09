@@ -1,0 +1,27 @@
+{
+	"id": "M01350",
+	"slug": "מכבש",
+	"headword": {
+		"text": "מַכְבֵּשׁ"
+	},
+	"page": {
+		"number": 781,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00081\"><he>כָּבַשׁ</he></cite>) <i>clothes-press; screw, vise</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 16:5\">Tosef. Sabb. XVI</cite> (<cite ref=\"Tosefta Shabbat 17:5\">XVII</cite>), 5 <he>מ׳ של בעלי … כלים</he> (ed. Zuck. <cite ref=\"M01199\"><he>מים</he></cite> for <he>כלים</he>, corr. acc.) a domestic clothes-press which has been unscrewed to take out clothes. ",
+				"<cite ref=\"Mishnah Shabbat 20:5\">Sabb. XX, 5</cite> <he>מ׳ … מתירין וכ׳</he> you may unscrew a domestic clothes-press but not screw it (on the Sabbath). ",
+				"<cite ref=\"Mishnah Shabbat 20:5\">Ib.</cite> (<he>מ׳</he>)<he>של כובסין</he> the washers’ clothes-press. ",
+				"<cite ref=\"Mishnah Kelim 16:7\">Kel. XVI, 7</cite> <he>מ׳ של חרש</he> the carpenter’s vise (for straightening wood), v. <cite ref=\"M01354\"><he>מְכַוֵּון</he></cite>; <cite ref=\"Tosefta Keilim Batra 1:8\">Tosef. Kel. B. Bath. I, 8</cite> <he>מכביש של נגר</he>. ",
+				"<cite ref=\"Tosefta Keilim Batra 1:15\">Ib. 15</cite> <he>מ׳ של שכף וכ׳</he> the leather worker’s press on which he stretches the hides. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 20:5:1\">Y. Sabb. XX, end, 17ᵈ</cite>; a. e."
+			]
+		}
+	]
+}

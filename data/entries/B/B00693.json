@@ -1,0 +1,37 @@
+{
+	"id": "B00693",
+	"slug": "ביקור",
+	"headword": {
+		"text": "בִּיקּוּר"
+	},
+	"page": {
+		"number": 165,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B01136\"><he>בָּקַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>examination, investigation</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 96a:9\">Pes. 96ᵃ</cite>; <cite ref=\"Arakhin 13b:7\">Arakh. 13ᵇ</cite>; <cite ref=\"Menachot 49b:9\">Men. 49ᵇ</cite> <he>טעון ב׳</he> requires examination (as to physical defects). ",
+				"<cite ref=\"Mishnah Chullin 2:3\">Ḥull. II, 3</cite> (<cite ref=\"Chullin 32a:16\">32ᵃ</cite>) <he>כדי ב׳</he> as much time as the examination (of the slaughtering knife) requires; ib. 9ᵃ; [ib. 32ᵃ <he>ביקרו של חכם</he>, read <he>ביקור חכם</he> or <he>בִּיקּוּרוֹ של</he>]. ",
+				"<cite ref=\"Keritot 11a:21\">Kerith. 11ᵃ</cite> (ref. to <cite ref=\"B01147\"><he>בִּקֹּרֶת</he></cite> <cite ref=\"Leviticus 19:20\">Lev. XIX, 20</cite>) <he>בב׳ תהיה</he> she must first be examined (whether she can endure the punishment required by law)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>visiting</i> (the sick), <i>visit</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 39b:15\">Ned. 39ᵇ</cite> <he>ב׳ חולים אין וכ׳</he> the duty of visiting the sick knows no limits (of time or rank). ",
+				"<cite ref=\"Bava Metzia 30b:12\">B. Mets. 30ᵇ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

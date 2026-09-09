@@ -1,0 +1,49 @@
+{
+	"id": "I00105",
+	"slug": "טהרה",
+	"headword": {
+		"text": "טָהֳרָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַהֲרָה"
+		}
+	],
+	"page": {
+		"number": 520,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <he>טָ׳</he> ; <cite ref=\"I00104\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>clearness</i> of the sky after the rainy season. ",
+			"units": [
+				"<cite ref=\"Berakhot 59a:14\">Ber. 59ᵃ</cite> <he>הרואה רקיע בטָהֳרָתָהּ</he> (or <he>בטַהֲ׳</he>) he who sees the sky in its restored brightness (Ms. F. <he>בטיהרו</he>, v. <cite ref=\"I00317\"><he>טִיהָר</he></cite>). ",
+				"<cite ref=\"Berakhot 59a:15\">Ib.</cite> <he>נראית רקיע בטהרתה</he> (Ms. M. <he>נראו שמים בטהרה</he>; <cite ref=\"Yalkut Shimoni on Nach 335\">Yalk. Is. 335</cite> <he>נראה שמים בטִהֲרוֹ</he>, corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pureness, condition of levitical cleanness; purification</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 152b\">Sabb. 152ᵇ</cite> <he>תנה לו כמו שנתנה לך מה הוא בט׳ אף אתה בט׳</he> Ms. M. (v. Rabb. D. S. a. l. note) give her (the soul) to Him as He has given her to thee, as He (has given her) in pureness, so give thou &c. ",
+				"<cite ref=\"Sanhedrin 68a\">Snh. 68ᵃ</cite>, v. <cite ref=\"I00100\"><he>טָהוֹר</he></cite>.—",
+				"<cite ref=\"Berakhot 16a:1\">Ber. 16ᵃ</cite> (ref. to <cite ref=\"Numbers 24:6\">Num. XXIV, 6</cite>) <he>מה נחלים … מטומאה לט׳ וכ׳</he> as the rivers raise man from a condition of uncleanness to one of cleanness, so do the tents (schools) &c. ",
+				"<cite ref=\"Avodah Zarah 8a:17\">Ab. Zar. 8ᵃ</cite> <he>עובדי ע״ז בט׳</he> encouraging idolatry, though from no impure motives. ",
+				"<cite ref=\"Yoma 72b\">Yoma 72ᵇ</cite>; <cite ref=\"Menachot 110a:7\">Men. 110ᵃ</cite> <he>הלומד תורה בט׳</he> he who studies the Law in (sexual) purity.—Snh. l. c. <he>וטַהֲרָתָן במה שהן</he> and their purification (immersion) is performed in whatever condition they are (whole or torn); a. v. fr.—Esp. <he>ט׳</he> or <he>טַהֲרַת הקודש</he> <i>observance of levitical rules originally prescribed for the handling of sacred food;</i> also (mostly in pl.) <i>secular food so prepared</i> or <i>pretended to be so prepared;</i> v. <cite ref=\"H00109\"><he>חָבֵר</he></cite>.—",
+				"<cite ref=\"Gittin 62a:3\">Gitt. 62ᵃ</cite> <he>אין עושין חלת ע״ה בט׳</he> you must not separate the priest’s share under levitical precautions for a non-observant (because it might mislead the priest); <cite ref=\"Tosefta Demai 3:1\">Tosef. Dem. III, 1</cite>. ",
+				"<cite ref=\"Shabbat 13a:2\">Sabb. 13ᵃ</cite> <he>עד היכן פרצה ט׳ וכ׳</he> how far the custom of observing the rules of levitical cleanness for secular food has spread &c. ",
+				"<cite ref=\"Mishnah Chagigah 2:7\">Ḥag. II, 7</cite> <he>היה אוכל על ט׳ הקודש</he> used to eat his ordinary meals with the observance required for sacred food; a. fr.—Pl. <he>טָהֳרוֹת</he>, <he>טַהֲרוֹת</he>. Tosef. Dem. l. c. <he>אין עושין ט׳ לע״ה</he> one must not prepare food with observance of levitical precautions for &c., v. supra. ",
+				"<cite ref=\"Berakhot 19a:16\">Ber. 19ᵃ</cite>; <cite ref=\"Bava Metzia 59b:6\">B. Mets. 59ᵇ</cite> <he>כל ט׳ שטיהר וכ׳</he> all objects which R. … had declared clean. ",
+				"<cite ref=\"Tosefta Demai 2:20\">Tosef. Dem. II, 20</cite> <he>אין משלחין ט׳ וכ׳</he> you must not send food levitically prepared through a non-observant; a. v. fr.—<i>Tohŏroth</i>, or <i>Tahăroth</i>, (euphem. for <he>טומאות</he>), name of the sixth order of the Mishnah and Tosefta <he>(סדר ט׳</he>), and of one treatise of that order."
+			],
+			"label": "2"
+		}
+	]
+}

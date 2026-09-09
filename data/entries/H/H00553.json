@@ -1,0 +1,150 @@
+{
+	"id": "H00553",
+	"slug": "חזק-1",
+	"headword": {
+		"text": "חָזַק"
+	},
+	"page": {
+		"number": 444,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>אדק</he>, <he>הדק</he>, <he>חדק</he>) [<i>to squeeze together</i>,] (neut. verb) <i>to be thick, solid; to be strong</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:23\">Y. Ber. I, 2ᶜ</cite> bot. (ref. to <cite ref=\"Genesis 1:6\">Gen. I, 6</cite>) <he>יֶחֱזַק הרקיע וכ׳</he> let the expanse become solidified, let it coagulate, congeal; <cite ref=\"Bereishit Rabbah 4\">Gen. R. s. 4</cite>; (Yalk. ib. 5 <he>יתחזק</he>, <i>Hithpa.</i>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִיזֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to join, repair, tighten, strengthen</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 94a:11\">Snh. 94ᵃ</cite> (expl. <cite ref=\"H00558\"><he>חזקיה</he></cite>) <he>שחי׳ את ישראל וכ׳</he> (Ms. M. <he>שהחזיק</he>, <i>Hif.</i>) he joined Israel to their Father &c. ",
+						"<cite ref=\"Sanhedrin 94a:11\">Ib.</cite> <he>שחִזְּקוֹ יה</he> the Lord strengthened him. ",
+						"<cite ref=\"Pesachim 45a\">Pes. 45ᵃ</cite> <he>שעשוי לחַזֵּק</he> Ms. M. where the dough in the cracks is put in for repairing the trough. ",
+						"<cite ref=\"Shabbat 146b\">Sabb. 146ᵇ</cite> (<he>העשוי</he>) <he>לחַ׳</he> when the hole was filled up for making the vessel sound, opp. <he>לשמר</he> to prevent evaporation; a. fr.—<i>Part. pass.</i> <he>מְחוּזָּק</he>, pl. <he>מְחוּזָּקִים</he>. ",
+						"<cite ref=\"Sifrei Bamidbar 1:2\">Sifré Num. 1</cite> <he>אין מְחַזְּקִים אלא המח׳</he> (ed. <he>תמוחז׳</he>) only the strong-minded it is worth while to strengthen (encourage)."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶחֱזִיק"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H00552\">same</cite>, v. supra.—ה׳ טובה ל־ <i>to attach merit to, to account as merit, to be grateful</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 2:8\">Ab. II, 8</cite> <he>אל תַּחֲזִיק ט׳ לעצמך</he> do not claim credit for it (be not proud). ",
+						"<cite ref=\"Yoma 86b:6\">Yoma 86ᵇ</cite> <he>אלא שמַחֲזִיק לו ט׳</he> but He even gives him credit (for his sins when he repents). ",
+						"<cite ref=\"Menachot 53a:15\">Men. 53ᵃ</cite> <he>הַחֲזֵק לי וכ׳</he> give me credit for making Thee known &c. ",
+						"<cite ref=\"Ketubot 68a\">Keth. 68ᵃ</cite>, a. e. <he>בואו ונַחֲזִיק וכ׳</he> let us be thankful to the fraudulent poor &c.; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (with <he>יד</he>) <i>to strengthen, to encourage, abet</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Gittin 5:9\">Gitt. V, 9</cite> <he>לפי שאין מַחֲזִיקִין וכ׳</he> because we must not encourage (by favors) those who do wrong. ",
+						"<cite ref=\"Mishnah Gittin 5:9\">Ib.</cite> <he>ומחזיקין ידי עכו״ם וכ׳</he> we may encourage (greet with <he>תחזקנה ידיכם</he>, <cite ref=\"Zechariah 8:9\">Zech. VIII, 9</cite>) gentiles at agricultural work in the Sabbatical year; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to hold, contain</i>. Ib. 57ᵃ <he>אין עורו מחזיק וכ׳</he> its skin (once flayed) can not again cover its entire body (it shrinks). Ib. (in Chald. dict.) <he>אפי׳ שתין … לא מ׳</he> it would not have room even for sixty myriads of reeds. ",
+					"units": [
+						"<cite ref=\"Mishnah Parah 7:8\">Par. VII, 8</cite> <he>בשביל שתַּחֲזִיק וכ׳</he> in order that it (the reservoir) might hold more water. ",
+						"<cite ref=\"Mishnah Oktzin 3:12\">Ukts. III, 12</cite> <he>לא מצא … מחזיק וכ׳</he> the Lord found no vessel so fit to contain all blessings as peace; <cite ref=\"Devarim Rabbah 5\">Deut. R. s. 5</cite> end; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": " (with <cite ref=\"B00000\"><he>ב</he></cite>) <i>to take a hold of, seize, take possession</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 4a\">Ḥull. 4ᵃ</cite>, a. e. <he>כל מצוה שהֶחֱזִיקוּ וכ׳</he> whatever Jewish law the Samaritans have adopted &c., v. <cite ref=\"D00989\"><he>דִּקְדֵּק</he></cite>. ",
+						"<cite ref=\"Mishnah Bava Metzia 1:4\">B. Mets. I, 4</cite> <he>וה׳ בה</he> and took a hold of it. ",
+						"<cite ref=\"Mishnah Bava Batra 3:3\">B. Bath. III, 3</cite> <he>במַחֲזִיק</he> when one is in possession (basing his claim on possession). ",
+						"<cite ref=\"Mishnah Bava Batra 3:3\">Ib.</cite> <he>המַ׳ בנכסי הגר</he> he who takes possession of the estate of a convert (who has no heirs in law). Ib. 2 <he>ויַחֲזִיק שנה</he> that he may be in possession for one year, v. <cite ref=\"A02502\"><he>אִסְפַּמְיָא</he></cite>; a. fr.; v. <cite ref=\"H00556\"><he>חֲזָקָה</he></cite>.—Y. Ḥag. I, 76ᶜ, a. e. <he>שלא הֶחֱזִיקוּ בשכר וכ׳</he> they did not cling to the duty of maintaining teachers &c."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": " (v. <cite ref=\"H00556\"><he>חֲזָקָה</he></cite>) <i>to presume, to be under a certain impression, to be convinced</i>. Y. Kidd. IV, 66ᵇ <he>היו מַחֲזִיקִין בו שהוא בנו וכ׳</he> if people were under the impression that a certain person was their neighbor’s son, but in his dying hour he declared &c. ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>היו מ׳ אותו שהוא וכ׳</he> if people took him to be a relation of his; a. e.—",
+						"<cite ref=\"Chagigah 19a\">Ḥag. 19ᵃ</cite>, v. infra."
+					],
+					"label": "5"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּחֲזָק"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"H00556\"><he>חֲזָקָה</he></cite>) <i>to be presumed, be held for, be known for</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 14a\">Gitt. 14ᵃ</cite> <he>בשה׳ כפרן</he> when the man is known to be a liar. ",
+						"<cite ref=\"Shevuot 34b\">Shebu. 34ᵇ</cite>, a. fr. <he>ה׳ כפרן</he> (in such a case) he is considered a confirmed liar.—Y. Kidd. l. c. bot. <he>הוּחְזְקוּ</he> if they were generally assumed (to be husband and wife); a. fr.—",
+						"<cite ref=\"Chagigah 19a\">Ḥag. 19ᵃ</cite> <he>הטובל לחולין וה׳ לחולין</he> if one takes an immersion for the purpose of being enabled to partake of ordinary food and is considered (by himself) to have immersed for that purpose. ",
+						"<cite ref=\"Chagigah 19a:10\">Ib.</cite> <he>טבל ולא ה׳</he> if he did immerse but did not have a certain purpose in view. ",
+						"<cite ref=\"Chagigah 19a:13\">Ib.</cite> <he>עודיהו … ה׳ לדבר קל מחזיק עצמו וכ׳</he> as long as he has one foot yet in the water, when he had had in view a minor purpose for his bath, he may still change it for a higher purpose. ",
+						"<cite ref=\"Chagigah 19a\">Ib.</cite> <he>אם לא ה׳ מחזיק</he> if he had had no particular object in view, he may on coming out define the object for which he has bathed.—<i>Part.</i> <he>מוּחֲזָק</he> "
+					]
+				},
+				{
+					"gloss": "<i>held in possession, adhered to</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bekhorot 8:9\">Bekh. VIII, 9</cite> <he>ולא בראוי כבמ׳</he> nor does he take a double share of what is coming due to the estate as he does of what is held in possession; <cite ref=\"Bava Batra 55a\">B. Bath. 55ᵃ</cite>; a. fr.—",
+						"<cite ref=\"Shabbat 130a:14\">Sabb. 130ᵃ</cite> <he>עדיין היא מוּחֲזֶקֶת בידם</he> it is still strongly adhered to, opp. <he>מרופה</he>, v. <cite ref=\"T00931\"><he>רָפָה</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>being known, approved</i>. Sifra K’dosh. Par. 3, ch. V <he>במ׳ לך</he> when he is known to thee (to be a proselyte); a. e.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>being sure, convinced, knowing from experience</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 25b:5\">Keth. 25ᵇ</cite> <he>מוּחֲזַקְנִי בזה וכ׳</he> (= <he>מ׳ אני</he>) I know this man to be a priest; a. e.—",
+						"<cite ref=\"Sifrei Bamidbar 1:2\">Sifré Num. 1</cite>, v. supra."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["הִתְחַזֵּק"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְחַזֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to become solid, strong</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 5:6\">Yalk. Gen. 5</cite> <he>יִתְחַזֵּק</he>, v. <cite ref=\"H00552\">preced.</cite>"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to feel encouraged, take courage</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 32a\">Ber. 32ᵃ</cite> <he>נ׳ בתפלה</he> became emboldened to pray."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

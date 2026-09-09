@@ -1,0 +1,23 @@
+{
+	"id": "K00309",
+	"slug": "כונס",
+	"headword": {
+		"text": "כּוֹנֵס"
+	},
+	"page": {
+		"number": 622,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00860\"><he>כָּנַס</he></cite>) <i>receiver, the lower part of the winnowing shovel</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 105a:11\">B. Mets. 105ᵃ</cite>.—<he>כ׳ משקה</he>, v. <cite ref=\"K00860\"><he>כָּנַס</he></cite>.—",
+				"<cite ref=\"Bava Batra 68a\">B. Bath. 68ᵃ</cite>. v. <cite ref=\"K00568\"><he>כִּינּוּס</he></cite>."
+			]
+		}
+	]
+}

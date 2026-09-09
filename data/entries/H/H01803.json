@@ -1,0 +1,28 @@
+{
+	"id": "H01803",
+	"slug": "חשאי-1",
+	"headword": {
+		"text": "חֲשָׁאֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָשֵׁי"
+		}
+	],
+	"page": {
+		"number": 508,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. P. Sm. 1391) <i>thyme</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 128a:15\">Sabb. 128ᵃ</cite>, expl. <cite ref=\"S00623\"><he>קורניתא</he></cite> (v. Löw Pfl. p. 181)."
+			]
+		}
+	]
+}

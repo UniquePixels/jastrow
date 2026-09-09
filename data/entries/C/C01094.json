@@ -1,0 +1,27 @@
+{
+	"id": "C01094",
+	"slug": "גנדרופוס",
+	"headword": {
+		"text": "גַּנְדְּרוֹפּוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַנְטְרוֹפּוֹס"
+		}
+	],
+	"page": {
+		"number": 257,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (corrupt. of κυνάνθροπος or of λυκάνθρωπος, sub. νόσος; for rejection of <cite ref=\"L00000\"><he>ל</he></cite>, v. <cite ref=\"B00376\"><he>בּוּרְנִי</he></cite>) <i>lycanthropy</i>, a form of melancholy, the patient so afflicted believing himself to be a wolf (or a dog) and spending his nights among tombstones; also (ὁ λυκάνθρωπος) <i>the person so afflicted</i>. Ḥag 3ᵇ <he>אימר גנדריפס אחדיה</he> ed. (Ms. M. <he>גדדפוס</he>, Var. <he>גנדרופס</he>, <he>גנס׳</he>, <he>גרדפוס</he>, v. Rabb. D. S. a. l. note) say, lycanthropy has seized him.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 7:1:2\">Y. Gitt. VII, beg. 48ᶜ</cite> <he>היוצא בלילה קניטרופיס</he>; Y. Ter. I, 40ᵇ <cite ref=\"S01542\"><he>קנוטרוכוס</he></cite> (corr. acc.) he who goes out at nights is merely a lycanthrope (but not insane)."
+			]
+		}
+	]
+}

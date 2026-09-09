@@ -1,0 +1,28 @@
+{
+	"id": "J00156",
+	"slug": "יובש",
+	"headword": {
+		"text": "יוֹבֶשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "יוּבְשָׁא"
+		}
+	],
+	"page": {
+		"number": 567,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00069\"><he>יְבַשׁ</he></cite>) <i>dry matter, dry condition</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 4:5\">Targ. II Chr. IV, 5</cite> <he>בי׳</he> in dry measure. ",
+				"<cite ref=\"Targum Jonathan on Judges 6:37\">Targ. Jud. VI, 37</cite>; <cite ref=\"Targum Jonathan on Judges 6:39\">39</cite>, sq."
+			]
+		}
+	]
+}

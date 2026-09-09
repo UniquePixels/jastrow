@@ -1,0 +1,29 @@
+{
+	"id": "I00050",
+	"slug": "טביא",
+	"headword": {
+		"text": "טַבְיָא"
+	},
+	"page": {
+		"number": 516,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= h. <cite ref=\"R00035\"><he>צְבִי</he></cite>) <i>deer, gazelle</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 12:15\">Targ. Deut. XII, 15</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 95a\">Snh. 95ᵃ</cite>. ",
+				"<cite ref=\"Chullin 59b:8\">Ḥull. 59ᵇ</cite>, v. <cite ref=\"S02198\"><he>קֶרֶשׁ</he> II</cite>; a. e.—",
+				"<cite ref=\"Chullin 59a:4\">Ib. 59ᵃ</cite> <he>בר ט׳</he> a young deer.—Pl. <cite ref=\"I00050\"><he>טָבַיָּא</he></cite>, <he>טַבְיֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 2:18\">Targ. II Sam. II, 18</cite>; a. e.—",
+				"<cite ref=\"Ketubot 103b:19\">Keth. 103ᵇ</cite> <he>וצידנא טביא</he> (Rashi: <he>וצדיינא טביי</he>) and I caught deer.—Fem. pl. <he>טָבְיָן</he>, <he>טַבְיַן</he>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 5:3\">Targ. I Kings V, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 14:5\">Targ. Y. Deut. XIV, 5</cite>.—Y. Snh. VII, end, 25ᵈ.—[Y. Ter. IX, end, 48ᵇ <he>מה טבייה</he>, v. <cite ref=\"I00295\"><he>טִיב</he></cite> I ch.]"
+			]
+		}
+	]
+}

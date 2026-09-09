@@ -1,0 +1,29 @@
+{
+	"id": "U01392",
+	"slug": "שלשול-2",
+	"headword": {
+		"text": "שִׁלְשׁוּל",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1589,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שִׁלְשֵׁל</he> II) <i>forming chains, curls</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 4:8:2\">Y. Shebi. IV, end, 35ᶜ</cite> <he>שִׁילְשׁוּלָן וכ׳</he>, v. <cite ref=\"H01275\"><he>חֶנֶט</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "U00113",
+	"slug": "שבי-5",
+	"headword": {
+		"text": "שָׁבֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁבְיָא"
+		}
+	],
+	"page": {
+		"number": 1513,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00112\">preced.</cite>) <i>captor, marauder</i>.—Pl. <he>שָׁבְיָין</he>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 6:36\">Targ. II Chr. VI, 36</cite> <he>שָׁבֵיהוֹן</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 14:2\">Targ. Is. XIV, 2</cite> (ed. Wil. <he>שׁוֹבֵיהוֹן</he>).—",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:36\">Y. Ter. VIII, 46ᵃ</cite> <he>ש׳ עלון לקרתא וכ׳</he> marauders invaded a town, and one of them &c."
+			]
+		}
+	]
+}

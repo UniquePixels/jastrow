@@ -1,0 +1,55 @@
+{
+	"id": "U01680",
+	"slug": "שער-2",
+	"headword": {
+		"text": "שָׁעַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1612,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"U01686\"><he>שַׁעַר</he></cite>) <i>to divide, distribute</i>. [<cite ref=\"Midrash Tehillim 14\">Midr. Till. to Ps. XIV</cite> <he>שיערו</he>, v. infra.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁיעֵר", "שִׁעֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to apportion, estimate, measure, calculate</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 7:4\">Ḥull. VII, 4</cite> <he>כיצד מְשׁעֲרִין אותה וכ׳</he> how do we define the proportions of the mixture (to find out whether the forbidden admixture is large enough to impart its taste to the permitted portion)? As if it were an admixture of meat in a vegetable dish. ",
+						"<cite ref=\"Chullin 97b:7\">Ib. 97ᵇ</cite> <he>כשהן משערין משערין וכ׳</he> when we define the proportions, we include in the calculation the broth &c. ",
+						"<cite ref=\"Chullin 97b:8\">Ib.</cite> <he>כל איסורין … מְשַׁעֲרִינָן וכ׳</he> in all admixtures of Biblically forbidden matter we assume for calculation that the forbidden matter was onions or porret. ",
+						"<cite ref=\"Chullin 97b:9\">Ib.</cite> <he>שִׁיעֲרוּ חכמים וכ׳</he> the scholars have calculated that of all forbidden substances none give a stronger taste than onions &c. ",
+						"<cite ref=\"Vayikra Rabbah 37\">Lev. R. s. 37</cite> <he>מְשָׁעֵר את … באיטלקית</he> (some ed. <cite ref=\"M02949\"><he>מְשָׁעֵיר</he></cite>) do you estimate that in all I drank at my meal there would have been a quarter of a Log of Italian (unmixed) wine? <cite ref=\"Kohelet Rabbah 5:8:5\">Koh. R. to V, 8</cite> <he>שיערו אותה</he>, v. <cite ref=\"U01681\">next w.</cite>; a. fr.—",
+						"<cite ref=\"Midrash Tehillim 114:1\">Midr. Till. to Ps. CXIV</cite> (expl. <he>סֹלּוּ</he>, <cite ref=\"Psalms 68:5\">Ps. LXVIII, 5</cite>) <he>שַׁעֲרוּ לפניו דרכיכם</he> (not <he>שיע׳</he>; ed. Bub. <he>שפרו</he>, a glossator’s emendation) measure your ways before the Lord (cmp. <cite ref=\"U00435\"><he>שׁוּם</he> I</cite>). Pesik. Zutr. Haaz. (ed. Bub. p. 114) (ref. to <he>שערום</he>, <cite ref=\"Deuteronomy 32:17\">Deut. XXXII, 17</cite>) <he>לא שִׁיעֲרוּם וכ׳</he> whom your fathers never appraised, to find out whether or not they are of use; <cite ref=\"Yalkut Shimoni on Torah 545\">Yalk. Deut. 545</cite> <he>לא שערום</he>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (v. <cite ref=\"U01686\"><he>שַׁעַר</he></cite>) <i>to superintend the market</i>, v. <cite ref=\"M02949\"><he>מְשָׁעֵר</he></cite>.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁתַּעֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to be estimated, measured</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Oktzin 2:8\">Ukts. II, 8</cite> <he>מִשְׁתַּעֲרִין בכמות שהן</he> are measured as they are (not compressed); <he>מִשְׁתַּעֶרֶת בכמות שהיא</he> is measured as it is."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

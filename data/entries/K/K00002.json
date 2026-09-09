@@ -1,0 +1,42 @@
+{
+	"id": "K00002",
+	"slug": "כ-2",
+	"headword": {
+		"text": "כְּ־"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּ־׳"
+		},
+		{
+			"text": "כִּי־"
+		}
+	],
+	"page": {
+		"number": 605,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " prefix, h.  (v. <cite ref=\"K00827\"><he>כֵּן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>as, like</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 9:3\">Targ. Gen. IX, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 4:9\">Targ. Hos. IV, 9</cite>; a. v. fr.—",
+				"<cite ref=\"Mishnah Berakhot 1:2\">Ber. I, 2</cite> <he>כאדם וכ׳</he> like one reading in the Torah. ",
+				"<cite ref=\"Mishnah Berakhot 1:3\">Ib. 3</cite> <he>כדרכו</he> as usual; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>whereas</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sanhedrin 2:6\">Tosef. Snh. II, 6</cite> <he>כגוזלייא … וכאימרייא וכ׳</he> ed. Zuck. (Var. <he>דגוזלייא … ואמרייא</he>, as <cite ref=\"Sanhedrin 11a:3\">Snh. 11ᵃ</cite>, Y. ib. I, 18ᵈ top) whereas the spring pigeons are yet tender &c.—[Ib. 5 <he>בגוזלייא וכ׳</he>.]—[Compound particles <cite ref=\"K00124\"><he>כְּדֵי</he></cite>, <cite ref=\"K00412\"><he>כְּוָת</he></cite> &c., v. s. vv. or second component.—<cite ref=\"K00000\"><he>ך</he></cite> as affix, frequ. indicating place (<he>כ</he> <i>locale</i>) or instrument, as <cite ref=\"B00456\"><he>בָּזָךְ</he></cite>, <cite ref=\"D00242\"><he>דוּךְ</he></cite>, <cite ref=\"A00928\"><he>אוּשְׁפְּזִיכָא</he></cite> &c.]"
+			],
+			"label": "2"
+		}
+	]
+}

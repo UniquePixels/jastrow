@@ -1,0 +1,29 @@
+{
+	"id": "P01143",
+	"slug": "עקב-1",
+	"headword": {
+		"text": "עָקַב"
+	},
+	"page": {
+		"number": 1104,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <cite ref=\"P01145\"><he>עָקֵב</he></cite>)<i>to trace, follow</i>. ",
+			"units": [
+				"<cite ref=\"Shevuot 47b:4\">Shebu. 47ᵇ</cite> <he>עוֹקֵב אחר ניאף</he>, v. <cite ref=\"N00025\"><he>נָאַף</he></cite>. ",
+				"<cite ref=\"Makkot 10a:1\">Macc. 10ᵃ</cite> (expl. <cite ref=\"P01151\"><he>עקבה</he></cite>, <cite ref=\"Hosea 6:8\">Hos. VI, 8</cite>) <he>שהיו עוֹקְבִין להרוג וכ׳</he> they followed up (their victims) to commit murder; <cite ref=\"Yalkut Shimoni on Nach 523\">Yalk. Hos. 523</cite>; <cite ref=\"Yalkut Shimoni on Nach 30:3\">Yalk. Josh. 30</cite>; <cite ref=\"Yalkut Shimoni on Torah 787:20\">Yalk. Num. 787</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to go beyond, supersede</i>; (b. h. <i>to supplant</i>). ",
+			"units": [
+				"<cite ref=\"Sotah 16a:5\">Sot. 16ᵃ</cite> <he>בשלשה מקימות הלכה עוֹקֶבֶת מקרא</he> in three instances the practice goes beyond the Biblical text (Ar. Var. <he>עוֹקֶמֶת</he>, <he>עוֹקפֶת</he>). ",
+				"<cite ref=\"Sotah 16a:5\">Ib.</cite> <he>כי קא חשיב עוקבת ועוקרת וכ׳</he> he (R. Joh.) counts such cases only where the practice goes beyond and overthrows (the text), whereas in this case <he>עוקבת ומוספת</he> the practice goes beyond and adds to (the text)."
+			],
+			"label": "2"
+		}
+	]
+}

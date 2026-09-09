@@ -1,0 +1,29 @@
+{
+	"id": "U00850",
+	"slug": "שיזפין",
+	"headword": {
+		"text": "שִׁיזְפִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁזְ׳"
+		}
+	],
+	"page": {
+		"number": 1559,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"U00601\"><he>שָׁזַף</he></cite>) <i>Ziziphus Vulgaris, jujubes</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:4\">Kil. I, 4</cite>. Y. ib. I, 27ᵃ bot. ",
+				"<cite ref=\"Yoma 81a:2\">Yoma 81ᵃ</cite>"
+			]
+		}
+	]
+}

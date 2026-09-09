@@ -1,0 +1,22 @@
+{
+	"id": "K00728",
+	"slug": "כליותא",
+	"headword": {
+		"text": "כַּלְיוּתָא"
+	},
+	"page": {
+		"number": 642,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>כְּלֵי</he> I 3) <i>cheer, trust</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 119:116\">Targ. Ps. CXIX, 116</cite> Ms. (ed. <cite ref=\"K00530\"><he>כִּלְ׳</he></cite>; h. text <he>שׂבר</he>)."
+			]
+		}
+	]
+}

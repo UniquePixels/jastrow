@@ -1,0 +1,51 @@
+{
+	"id": "O00567",
+	"slug": "סיגנום",
+	"headword": {
+		"text": "סִיגְנוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִיגְנוֹן"
+		},
+		{
+			"text": "סִגְ׳"
+		}
+	],
+	"page": {
+		"number": 975,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (signum, σίγνον S.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sign, ensign, banner</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 6:9\">Gen. R. s. 6</cite>, end <he>ספר משנה תורה היה ס׳ ליהושע וכ׳</he> (Ar. ed. Koh. <he>סגנם</he>, read <cite ref=\"O00158\"><he>סגנום</he></cite>) the Book of Deuteronomy was to Joshua a (commander’s) banner; … he took it up and showed it to the sun &c.; <cite ref=\"Yalkut Shimoni on Nach 22:10\">Yalk. Josh. 22</cite> <he>שגנז יהושע</he> (corr. acc.). ",
+				"<cite ref=\"Shemot Rabbah 45:6\">Ex. R. s. 45</cite> <he>נטל סגנוס של וכ׳</he> (some ed. <he>סגנם</he>; corr. acc.) the commander (of the mutinous legion) took the royal ensign and fled.; <cite ref=\"Yalkut Shimoni on Torah 394:2\">Yalk. Ex. 394</cite> <cite ref=\"O00570\"><he>סִיגְנִין</he></cite> (pl.); Tanḥ., ed. Bub., Ki Thissa 15; Y’lamd. to Num. X, 2, quot. inAr. <he>נטלו סִגְנִים וכ׳</he> they (the <i>singulares</i>, v. <cite ref=\"O01173\"><he>סִנְגְּלָרִין</he></cite>) took the ensigns &c.—Pl. <cite ref=\"O00570\"><he>סִיגְנִים</he></cite>, <cite ref=\"O00570\"><he>סִיגְנִין</he></cite>, <cite ref=\"O00567\"><he>סִגְ׳</he></cite> (v. supra); <cite ref=\"O00159\"><he>סִיגְנִיּוֹת</he></cite>, <cite ref=\"O00567\"><he>סִגְ׳</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:9:6\">Cant. R. to I, 9</cite> <he>נטל ס׳ שלהם וכ׳</he> the Lord took away their (the Egyptians’) ensigns &c.; <cite ref=\"Yalkut Shimoni on Torah 232:3\">Yalk. Ex. 232</cite>; Tanḥ. ",
+				"<cite ref=\"Exodus 23:33\">B’shall. 23</cite> <he>סגיונות</he> (some ed. <he>סגניניות</he>, corr. acc.); Mekh. B’shall., s. 2 <he>מגפות</he> (Var. <cite ref=\"M00196\"><he>מגניות</he></cite>, corr. acc.; v. <cite ref=\"M01805\"><he>מְנָפָה</he></cite>); <cite ref=\"Jerusalem Talmud Sotah 8:3:2\">Y. Sot. VIII, 22ᵇ</cite> bot. <he>והפיל סיגנם שלהן</he> (corr. acc., or <cite ref=\"O00567\"><he>סיגנום</he></cite>).—",
+				"<cite ref=\"Midrash Tehillim 20:6\">Midr. Till. to Ps. XX</cite>, end <he>מכיר דגלו מתוך סגנין שלו</he> ed. Bub., not <cite ref=\"O00158\"><he>סגנון</he></cite>; oth. ed. <he>דגליו מכל סְגָנָיו</he>, read: <he>דגלו מתוך ס׳</he>) recognises his regiment by its colors; <cite ref=\"Yalkut Shimoni on Nach 681:3\">Yalk. Ps. 681</cite> <he>סימנין</he>.—[<cite ref=\"Tosefta Avodah Zarah 5:7\">Tosef. Ab. Zar. V</cite> (<cite ref=\"Tosefta Avodah Zarah 6:1\">VI</cite>), 1 <he>הסיגנין</he> some ed., read with ed. Zuck. <he>הטִיגָּנִין</he>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>watchword, signal</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 89a:20\">Snh. 89ᵃ</cite> <he>ס׳ אחד עולה … בס׳ אחד</he> the same watchword (divine oracle) is passed to many prophets, but no two prophets prophesy under the same watchword (use the very same expressions)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>sign in the heavens, constellation; v</i>. <cite ref=\"A02351\"><he>אִסְטגְנֵין</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "M00172",
+	"slug": "מגירה",
+	"headword": {
+		"text": "מְגֵירָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְגֵרָה"
+		}
+	],
+	"page": {
+		"number": 728,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"M00210\"><he>מְגֵרָה</he></cite>; <cite ref=\"C01392\"><he>גָּרַר</he> I</cite>)<i>saw</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 13:4\">Kel. XIII, 4</cite>. ",
+				"<cite ref=\"Mishnah Beitzah 4:3\">Bets. IV, 3</cite>. ",
+				"<cite ref=\"Mishnah Chullin 1:2\">Ḥull. I, 2</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>plane</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Kamma 11:15\">Tosef. B. Kam. XI, 15</cite>; <cite ref=\"Bava Kamma 119b\">B. Kam. 119ᵇ</cite>, v. <cite ref=\"C01392\"><he>גָּרַר</he> I</cite>.—[<cite ref=\"Tosefta Keilim Metsia 8:1\">Tosef. Kel. B. Mets. VIII, 1</cite> <he>מגירות</he> ed. Zuck., v. <cite ref=\"M00138\"><he>מְגוּרָה</he> I</cite>]."
+			],
+			"label": "2"
+		}
+	]
+}

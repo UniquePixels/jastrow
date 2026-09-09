@@ -1,0 +1,25 @@
+{
+	"id": "L00208",
+	"slug": "לוואי-1",
+	"headword": {
+		"text": "לְוָואֵי"
+	},
+	"page": {
+		"number": 695,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Syr. <he>לווא</he>, P. Sm. 1905; cmp. <cite ref=\"L00085\"><he>לַבְלֵב</he> I</cite>) (<i>the first milk after delivery</i>, a dainty dish. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 20:17\">Targ. Job XX, 17</cite> (ed. Lag. <cite ref=\"L00262\"><he>לִיוָ׳</he></cite>; some ed. <cite ref=\"L00250\"><he>לְוָי</he></cite>; h. text <cite ref=\"H01142\"><he>חמאה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 29:6\">Ib. XXIX, 6</cite> (ed. Wil. <cite ref=\"L00174\"><he>לְוָאִי</he></cite>; h. text <cite ref=\"H01151\"><he>חֵמָה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 18:8\">Targ. Y. Gen. XVIII, 8</cite> <he>לוואי שמין וחלב</he> ed. (Ar. <cite ref=\"L00035\"><he>לְבָא</he></cite>); <cite ref=\"Targum Jonathan on Deuteronomy 32:14\">Targ. Y. I Deut. XXXII, 14</cite> <he>לוואי שמיני</he>."
+			]
+		}
+	]
+}

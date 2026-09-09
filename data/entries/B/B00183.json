@@ -1,0 +1,23 @@
+{
+	"id": "B00183",
+	"slug": "בהמות",
+	"headword": {
+		"text": "בְּהֵמוֹת"
+	},
+	"page": {
+		"number": 142,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; Coptic p-ehe-mau, <i>water-ox</i>, Ges.) in Rabbin. lit. <i>B’hemoth, a legendary animal</i> reserved for the righteous in the hereafter; cmp. <cite ref=\"L00262\"><he>לִוְיָתָן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 22:10\">Lev. R. s. 22</cite> in place of the forbidden animals from which you here abstain, <he>ב׳ בהררי אלף</he> (I shall give you in the hereafter) ‘the b’hemoth on the thousand mountains’ (<cite ref=\"Psalms 50:10\">Ps. L, 10</cite>). ",
+				"<cite ref=\"Psalms 50:10\">Ib.</cite> s. 13 <he>ב׳ ולויתן וכ׳</he> b’hemoth a. leviathan are the game of the righteous &c. Ib. <he>ב׳ נותץ וכ׳</he> b’hemoth shall attack the leviathan with his horns &c."
+			]
+		}
+	]
+}

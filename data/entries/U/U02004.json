@@ -1,0 +1,34 @@
+{
+	"id": "U02004",
+	"slug": "שרף-2",
+	"headword": {
+		"text": "שְׂרַף"
+	},
+	"page": {
+		"number": 1632,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U02003\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 11:3\">Targ. O. Gen. XI, 3</cite> (some ed. <he>ונוקדי׳</he>, v. <cite ref=\"J00557\"><he>יְקַד</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׂתָּרֵיף", "אִשְׂטָ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be burned</i>. ",
+					"units": [
+						"<cite ref=\"Zevachim 16a:15\">Zeb. 16ᵃ</cite> <he>שפיר אִישְׂתָּרוּף</he> they would have been burned according to law; <cite ref=\"Yalkut Shimoni on Torah 534:1\">Yalk. Lev. 534</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 38\">Gen. R. s. 38</cite> (ref. to <cite ref=\"Genesis 11:3\">Gen. XI, 3</cite>) <he>עתידין … מִשְׂתָּרְפָה מן וכ׳</he> these people are destined to be burned out of the world; Yalk. ib. 62; a. e.—Y. Sabb. IV, 7ᵃ top [read:] <he>מצדתא הוו פריסן והוון מִשְׂטָרְפָן וכ׳</he> nets were spread, and they were burned in the sun."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

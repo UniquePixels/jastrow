@@ -1,0 +1,34 @@
+{
+	"id": "N00194",
+	"slug": "נגש-1",
+	"headword": {
+		"text": "נָגַשׁ"
+	},
+	"page": {
+		"number": 876,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) also <i>Nif.</i> <he>נִגַּשׁ</he> <i>to come in contact; to draw near</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 842:7\">Yalk. Ps. 842</cite> (ref. to <he>יגש</he>, <cite ref=\"Psalms 91:7\">Ps. XCI, 7</cite>) <he>אין אחד מהם נִגָּשׁ אליך וכ׳</he> none of them comes to thee, none says, provide for me; <cite ref=\"Midrash Tehillim 17:7\">Midr. Till. to Ps. XVII, 7</cite> <he>נוֹגֵשׁ אצלך</he> ed. Bub. (oth. ed. <he>נוֹגֵשׂ אותך</he>, v. <cite ref=\"N00196\"><he>נָגַשׂ</he></cite>).—Tanḥ. Vayigg. 5 (ref. to <cite ref=\"Genesis 44:18\">Gen. XLIV, 18</cite>) <he>שנ׳ בתוכחות</he> he came near (attacked him, v. <cite ref=\"N00195\">next w.</cite>) with rebukes. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 150:2\">Yalk. Gen. 150</cite> (ref. to Gen. l. c.) <he>אין וַיִּגַּשׁ אלא לשון שלום</he> <i>vayyigash</i> has the meaning of (coming near in) peacefulness &c., v. <cite ref=\"E00093\"><he>הַגָּשָׁה</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִגִּישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to bring near</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 46b:5\">B. Kam. 46ᵇ</cite> (ref. to <cite ref=\"Exodus 24:14\">Ex. XXIV, 14</cite>) <he>יַגִּישׁ ראיה אליהם</he> (a claimant) must offer evidence &c.; <he>יגיש דבריו וכ׳</he> must prefer his claims &c., is the first to be heard; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

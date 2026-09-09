@@ -1,0 +1,48 @@
+{
+	"id": "S02111",
+	"slug": "קרס-1",
+	"headword": {
+		"text": "קָרַס"
+	},
+	"page": {
+		"number": 1423,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to curve, contract, shrink</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִקְרַס"],
+			"senses": [
+				{
+					"gloss": "<i>to warp; to crack from contraction</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 12\">Gen. R. s. 12</cite>, end <he>אם אני נותן … הם נִקְרָסִין</he> Ar. (ed. <he>מַקְרִיסִין</he> <i>Hif.</i>) if I put hot water into them, they will burst; if cold, they will crack."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִקְרִיס"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S02110\">same</cite>, v. supra.—2) (of wine) ",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become sourish</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 40b:14\">Ber. 40ᵇ</cite> <he>היין שה׳</he> Ms. F. a. Ar. (ed. <he>שהִקְרִים</he>); <cite ref=\"Bava Batra 95b\">B. Bath. 95ᵇ</cite> Ms. H. (ed. <he>שהקרים</he>), v. <cite ref=\"S02087\"><he>קָרַם</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "N00995",
+	"slug": "נעמיתא",
+	"headword": {
+		"text": "נַעֲמיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָעָ׳"
+		},
+		{
+			"text": "נְעָמָא"
+		}
+	],
+	"page": {
+		"number": 920,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (<he>ברת נ׳</he>, <he>בת נ׳</he>) same. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:16\">Targ. Lev. XI, 16</cite> (ed. Berl. <cite ref=\"N00995\"><he>נָעָ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 34:13\">Targ. Is. XXXIV, 13</cite> <he>בת נַעֲמָא</he> ed. Wil. (ed. Lag. <he>נעמין</he>; some ed. <he>נעמנין</he>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Job 30:29\">Targ. Job XXX, 29</cite>.—",
+				"<cite ref=\"Shabbat 110b:2\">Sabb. 110ᵇ</cite> <he>ביעתא דנ׳</he> an ostrich egg. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:7:11\">Y. M. Kat. III, 83ᵇ</cite> bot. <he>נ׳</he>; Bab. ",
+				"<cite ref=\"Moed Katan 26a:20\">M. Kat. 26ᵃ</cite> <he>בת נ׳</he>."
+			]
+		}
+	]
+}

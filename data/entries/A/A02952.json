@@ -1,0 +1,22 @@
+{
+	"id": "A02952",
+	"slug": "ארבא-2",
+	"headword": {
+		"text": "אַרְבָּא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 113,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>a small silver vessel in the shape of a trough</i> (= <cite ref=\"P01349\"><he>עֲרֵיבָה</he></cite> Ar.) <cite ref=\"Bava Batra 34b:1\">B. Bath. 34ᵇ</cite> (Comm.: <i>ship</i>).",
+			"units": []
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "U00495",
+	"slug": "שופט",
+	"headword": {
+		"text": "שׁוֹפֵט"
+	},
+	"page": {
+		"number": 1539,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01730\"><he>שָׁפַט</he></cite>)<i>judge, ruler</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 25b:3\">R. Hash. 25ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 17:9\">Deut. XVII, 9</cite>) <he>הא אין לך לילך אלא אצל ש׳ שבימיו</he> this teaches that you have to go to him who is the authority in his days (independently of what your opinion about him may be); <cite ref=\"Yalkut Shimoni on Torah 911\">Yalk. Deut. 911</cite>; <cite ref=\"Yalkut Shimoni on Nach 114:1\">Yalk. Sam. 114</cite>. ",
+				"<cite ref=\"Chagigah 14a:10\">Ḥag. 14ᵃ</cite> (ref. to <cite ref=\"Isaiah 3:2\">Is. III, 2</cite>) <he>ש׳ זה דיין וכ׳</he> by <i>shofeṭ</i> is meant the judge that decides a true case according to truth; a. fr.—Pl. <he>שׁוֹפְטִים</he>. ",
+				"<cite ref=\"Sifrei Devarim 144:3\">Sifré Deut. 144</cite> (ref. to <cite ref=\"Deuteronomy 16:18\">Deut. XVI, 18</cite>) <he>אם יש שוטרים יש ש׳ וכ׳</he> where there are officers (to execute the law), there are judges; where there are no executors, there are no judges. Tanḥ. Shof’ṭim 2, v. <cite ref=\"U00390\"><he>שׁוֹטֵר</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:2:36\">Y. Snh. I, 19ᵃ</cite> bot. (ref. to <cite ref=\"Deuteronomy 21:2\">Deut. XXI, 2</cite>) <he>זקניך שהן שׁוֹפְטֶיךָ</he> thy elders that are thy judges. ",
+				"<cite ref=\"Ruth Rabbah, Petichta 1\">Ruth R. to I, 1</cite> <he>שׁוֹפְטֵיהֶם</he>; <cite ref=\"Bava Batra 15b:10\">B. Bath. 15ᵇ</cite> <he>שׁוֹפְטָיו</he>, v. <cite ref=\"U01730\"><he>שָׁפַט</he></cite>; a. fr."
+			]
+		}
+	]
+}

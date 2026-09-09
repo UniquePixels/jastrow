@@ -1,0 +1,23 @@
+{
+	"id": "H00240",
+	"slug": "חובה-1",
+	"headword": {
+		"text": "חוּבָּה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 429,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f.<i>Ḥubbah</i>, wife of R. Huna. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 80a:14\">B. Kam. 80ᵃ</cite> (Ms. M. <cite ref=\"H00652\"><he>חִיבָּה</he></cite>); <cite ref=\"Nazir 57b:5\">Naz. 57ᵇ</cite>"
+			]
+		}
+	]
+}

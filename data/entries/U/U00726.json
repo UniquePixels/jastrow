@@ -1,0 +1,27 @@
+{
+	"id": "U00726",
+	"slug": "שחת-4",
+	"headword": {
+		"text": "שַׁחַת",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1552,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00725\">preced.</cite>) <i>low growth, corn in its earliest stage</i> used instead of grass. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 2:1\">Peah II, 1</cite> <he>הקוצר לש׳</he> he who cuts young corn to be used as fodder; <cite ref=\"Tosefta Peah 1:8\">Tosef. ib. I, 8</cite>. ",
+				"<cite ref=\"Mishnah Menachot 10:8\">Men. X, 8</cite> (<cite ref=\"Menachot 71a:4\">71ᵃ</cite>) <he>קוצר לש׳ ומאכיל לבהמה</he> (Bab. ed. <cite ref=\"M00039\"><he>מאכל</he></cite>, corr. acc.) one may cut barley as <i>shaḥath</i> and give it to the cattle (before the ʿOmer has been offered); Tosef. ib. X, 32 <he>קוצר לש׳ עד שלא וכ׳</he> as to cutting barley for fodder: before it has approached maturity by one third, one may begin &c. ",
+				"<cite ref=\"Menachot 71b:5\">Men. 71ᵇ</cite> <he>כל לש׳ לא וכ׳</he> whatever is for fodder is not considered as harvesting. ",
+				"<cite ref=\"Mishnah Shabbat 24:2\">Sabb. XXIV, 2</cite>. ",
+				"<cite ref=\"Kiddushin 62b\">Kidd. 62ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

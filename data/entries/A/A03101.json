@@ -1,0 +1,24 @@
+{
+	"id": "A03101",
+	"slug": "אריכא-3",
+	"headword": {
+		"text": "אֲרִיכָא"
+	},
+	"page": {
+		"number": 120,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A03096\"><he>אֲרִיךְ</he> II</cite>) <i>long, prolonged</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 30b:14\">Bets. 30ᵇ</cite> <he>יומא א׳</he> Ms. M. (ed. <he>אריכתא</he>); <cite ref=\"Sukkah 45b:10\">Succ. 45ᵇ</cite> <he>יומא א׳</he> an adjourned day.—Fem. <he>אֲרִיכְתָּא</he>. ",
+				"<cite ref=\"Berakhot 4b:15\">Ber. 4ᵇ</cite> <he>תפלה א׳</he> a continued prayer; <he>גאולה א׳</he> a continued benediction on redemption, v. <cite ref=\"C00009\"><he>גְּאוּלָּה</he></cite>.—Pl. <cite ref=\"A03103\"><he>אֲרִיכָתָא</he></cite>. ",
+				"<cite ref=\"Ketubot 8a:13\">Keth. 8ᵃ</cite> <he>שית א׳</he> the six lengthy benedictions."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "T00775",
+	"slug": "רכסא-1",
+	"headword": {
+		"text": "רִכְסָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "רִי׳"
+		}
+	],
+	"page": {
+		"number": 1480,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"T00774\">preced.</cite>) <i>cement of rubble and clay</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 3a\">B. Bath. 3ᵃ</cite> <he>בר׳</he> when cement is used between the layers of a wall, opp. <he>בטינא</he>."
+			]
+		}
+	]
+}

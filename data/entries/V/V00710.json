@@ -1,0 +1,23 @@
+{
+	"id": "V00710",
+	"slug": "תמרורים",
+	"headword": {
+		"text": "תַּמְרוּרִים"
+	},
+	"page": {
+		"number": 1679,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h.; <cite ref=\"M02773\"><he>מָרַר</he></cite>)<i>bitterness</i>; trnsf. <i>hostility</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 3:2:6\">Y. Meg. III, 74ᵃ</cite> bot. (in a secret letter) <he>תמר ת׳ בתַמְרוּרֶיהָ היא עומדת</he> Tamar is <i>tamrurim</i> (bitterness), she abides in her bitterness, and we tried to sweeten her (by bribe), but in vain has the smelter smelted (gold could not buy her)."
+			]
+		}
+	]
+}

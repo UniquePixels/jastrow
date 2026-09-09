@@ -1,0 +1,27 @@
+{
+	"id": "H00379",
+	"slug": "חומס-1",
+	"headword": {
+		"text": "חוֹמֶס"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוֹמֶס סוּבְנִי"
+		}
+	],
+	"page": {
+		"number": 435,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a corruption of ἡμισάβανον) <i>a half-size sabanum, linen cloth</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 59a:17\">Gitt. 59ᵃ</cite> (sent to Rabbi) <he>סובני וח׳ סובני וכ׳</he> Ar. (ed. <he>סיבני וח׳</he> only) a full-size sabanum and a half-size, which were compressed to the respective sizes of a nut and half a nut."
+			]
+		}
+	]
+}

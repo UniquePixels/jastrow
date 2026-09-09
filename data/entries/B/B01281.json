@@ -1,0 +1,23 @@
+{
+	"id": "B01281",
+	"slug": "בריש",
+	"headword": {
+		"text": "בריש",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "פילי בריש"
+		}
+	],
+	"page": {
+		"number": 194,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", v. <cite ref=\"A03001\"><he>אַרְדָּא</he> II</cite>. ",
+			"units": ["<cite ref=\"Gittin 14b:4\">Gitt. 14ᵇ</cite>"]
+		}
+	]
+}

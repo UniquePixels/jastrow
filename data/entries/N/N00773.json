@@ -1,0 +1,25 @@
+{
+	"id": "N00773",
+	"slug": "ניקטמון",
+	"headword": {
+		"text": "נִיקַטְמוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְקַ׳"
+		}
+	],
+	"page": {
+		"number": 908,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A02291\"><he>אָנְקִיטְמִין</he></cite>) <i>a musical instrument resembling a wooden leg</i>. ",
+			"units": ["<cite ref=\"Mishnah Kelim 15:6\">Kel. XV, 6</cite>."]
+		}
+	]
+}

@@ -1,0 +1,96 @@
+{
+	"id": "U00097",
+	"slug": "שבח-2",
+	"headword": {
+		"text": "שְׁבַח",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1512,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00096\">same</cite><i>to improve, rise in value; to make profit</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 140a:2\">B. Bath. 140ᵃ</cite> <he>ברשות יורשין שְׁבוּחַ</he> they rose in value while in the possession of the heirs (and the benefit ought to be theirs). ",
+				"<cite ref=\"Bava Kamma 98a:2\">B. Kam. 98ᵃ</cite>, v. <he>נִסְבָּא</he> II; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to praise</i>. <i>Part. pass.</i> <cite ref=\"U00119\"><he>שְׁבִיחַ</he></cite>; f. <cite ref=\"U01309\"><he>שְׁבִיחָא</he></cite> <i>praiseworthy</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 80b:4\">Gitt. 80ᵇ</cite> <he>ש׳ להו מילתא</he> it is a matter of praise (an honor) to them (to mention the governor’s name in a document), opp. <cite ref=\"G00354\"><he>זילא</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to spread, germinate</i>, v. <cite ref=\"U00343\"><he>שְׁוַוח</he> I</cite>.",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁבַּח"],
+			"senses": [
+				{
+					"gloss": "<i>to praise, sing</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 15:1\">Targ. Ex. XV, 1</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 4:1\">Targ. Ps. IV, 1</cite> <he>לשַׁבָּחָא</he> (h. text <he>למנצח</he>); a. fr.—[<cite ref=\"Targum Jerusalem, Exodus 34:29\">Targ. Y. II, Ex. XXXIV, 29</cite>; <cite ref=\"Aramaic Targum to Psalms 149:4\">Targ. Ps. CXLIX, 4</cite>, v. <cite ref=\"U00070\"><he>שַׁבְהַר</he></cite>.]—Part. pass. <he>מְשַׁבַּח</he>; f. <he>מְשַׁבַּחְתָּא</he>; pl. <he>מְשַׁבְּחַיָּיא</he>; <cite ref=\"M02807\"><he>מְשַׁבְּחַן</he></cite>. Ib. CXIII, 3. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 26:17\">Targ. Ez. XXVI, 17</cite>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 15:10\">Targ. Y. Ex. XV, 10</cite> <he>מיא ממשבחייא</he>, read: <he>במיא מְשַׁבְּ׳</he> (h. text <he>אדירים</he>).—",
+						"<cite ref=\"Eichah Rabbah 3:3\">Lam. R. to III, 9</cite> <he>בכל … סליק ש׳ ונחת וכ׳</he> every Friday he went up (to Jerusalem), prayed (in the Temple), and went home and lighted the candles; Y. Maas. Sh. V, 57ᵃ top <cite ref=\"U00196\"><he>שבת</he></cite> (corr. acc.). ",
+						"<cite ref=\"Sanhedrin 42a:18\">Snh. 42ᵃ</cite> <he>אַשְׁבּוּחֵי מְשַׁבַּח נפשיה</he> (or <he>מַשְׁבַּח</he>) does he proclaim his own praise? <cite ref=\"Megillah 25b:18\">Meg. 25ᵇ</cite> <he>האי … שרי לשַׁבּוּחֵיה ומאן דשֵׁבְּחֵיה וכ׳</he> it is permitted to praise him whose reputation is good, and blessings rest upon the head of him who praises him."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַשְׁבַּח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00096\">same</cite>. Snh. l. c., v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִשְׁתַּבַּח"],
+			"senses": [
+				{
+					"gloss": "<i>to be praised, sung</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 78:63\">Targ. Ps. LXXVIII, 63</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to praise one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 4:2\">Targ. Jer. IV, 2</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 49:4\">Ib. XLIX, 4</cite>; a. fr.—",
+						"<cite ref=\"Megillah 11b:5\">Meg. 11ᵇ</cite> (ref. to <cite ref=\"Ezra 1:2\">Ezra I, 2</cite>) <he>אִשְׁתַּבּוּחֵי … מִשְׁתַּבַּח בנפשיה</he> it is he (Cyrus) only who thus glorifies himself (as the ruler of all empires). ",
+						"<cite ref=\"Berakhot 6a\">Ber. 6ᵃ</cite>, v. <cite ref=\"U00099\"><he>שְׁבָחָא</he></cite>; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to speak with pride of, commend</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 4a:11\">Ab. Zar. 4ᵃ</cite> <he>משתבח להו</he> … <he>ברב ספרא וכ׳</he> R. A. recommended RabSafra to the heretics (saying) that he is a great man. ",
+						"<cite ref=\"Berakhot 38a\">Ber. 38ᵃ</cite> [read:] <he>מִשְׁתַּבְּחִין ליה רבנן בבר וכ׳</he> (Ms. M. <he>משבחין</he>, v. Rabb. D. S. a. l. note) the Rabbis recommended the son of Rab Zabid … (saying) that he is a great man &c. ",
+						"<cite ref=\"Pesachim 50b:6\">Pes. 50ᵇ</cite> <he>אישתבוחי משתבח בה קרא</he> the Scripture commends her for it. ",
+						"<cite ref=\"Niddah 14b\">Nidd. 14ᵇ</cite>; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

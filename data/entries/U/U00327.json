@@ -1,0 +1,32 @@
+{
+	"id": "U00327",
+	"slug": "שובע-2",
+	"headword": {
+		"text": "שׂוֹבַע",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שׂוֹבְעָא"
+		},
+		{
+			"text": "שׂוּ׳"
+		},
+		{
+			"text": "שַׂבְעָא"
+		}
+	],
+	"page": {
+		"number": 1529,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00326\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 41:29\">Targ. O. Gen. XLI, 29</cite>; a. fr., v. <cite ref=\"O00082\"><he>סִבְעָא</he></cite>.—",
+				"<cite ref=\"Taanit 8b:7\">Taan. 8ᵇ</cite> <he>כי יהיב רחמנא ש׳ וכ׳</he> when the Lord gives plenty, he gives it for life (no epidemic in years of plenty); a. e."
+			]
+		}
+	]
+}

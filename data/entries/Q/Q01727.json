@@ -1,0 +1,31 @@
+{
+	"id": "Q01727",
+	"slug": "פרוקא",
+	"headword": {
+		"text": "פָּרוֹקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּרוֹקָה"
+		}
+	],
+	"page": {
+		"number": 1221,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01981\"><he>פְּרַק</he></cite>) <i>redeemer</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ruth 4:3\">Targ. Ruth IV, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 15:18\">Targ. Y. Ex. XV, 18</cite>; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 32:8\">Lev. R. s. 32</cite>, end, a. e., v. <cite ref=\"C00266\"><he>גּוֹאֵל</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite> <he>דאתיליד פְּרוֹקְהוֹן דיהודאי</he> (some ed. <he>פְּרִיקְ׳</he>) the redeemer of the Jews was born; a. e.—Pl. <he>פְּרוֹקִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 50:25\">Targ. Y. Gen. L, 25</cite>; a. e."
+			]
+		}
+	]
+}

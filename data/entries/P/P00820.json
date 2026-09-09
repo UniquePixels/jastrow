@@ -1,0 +1,87 @@
+{
+	"id": "P00820",
+	"slug": "עלם-3",
+	"headword": {
+		"text": "עָלַם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1084,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"P00819\">preced.</cite>) [<i>to surround, tie up</i>,] <i>to conceal</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 981:3\">Yalk. Cant. 981</cite>, v. infra.—Part. pass. <he>עָלוּם</he>; f. <cite ref=\"P00776\"><he>עֲלוּמָה</he></cite>; pl. <he>עֲלוּמִים</he>, <he>עֲלוּמִין</he>; <he>עֲלוּמוֹת</he>. ",
+				"<cite ref=\"Avodah Zarah 35b:8\">Ab. Zar. 35ᵇ</cite> (play on <cite ref=\"P00825\"><he>עֲלָמוֹת</he></cite>, <cite ref=\"Song of Songs 1:3\">Cant. I, 3</cite>) <he>קרי ביה עלומות</he> read it <i>ʿălumoth</i> (secret things)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִילֵּם"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P00819\">same</cite>. Part. pass. <cite ref=\"M02081\"><he>מְעוּלָּם</he></cite>; f. <he>מְעוּלֶּמֶת</he>; pl. <he>מְעוּלָּמִים</he>, <he>מְעוּלָּמִין</he>; <he>מְעוּלָּמוֹת</he>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 46:1\">Midr. Till. to Ps. XLVI, 1</cite> (play on <cite ref=\"P00825\"><he>עלמות</he></cite>, <cite ref=\"Midrash Tehillim 46:1\">ib.</cite>) <he>מע׳ הן הדברים וכ׳</he> the things we saw are hidden, we know not what we saw."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נֶעְלָם"],
+			"senses": [],
+			"stem": "Nef."
+		},
+		{
+			"forms": ["הִתְעַלֵּם"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְעַלֵּם</he> <i>to be concealed, to escape; to hide one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 20:6\">Num. R. s. 20</cite> <he>אין כל דבר נ׳ ממך</he> nothing is unknown to thee. Y. Pes. VI, beg. 33ᵃ <he>נֶעֶלְמָה הלכה ממנו</he> the law escaped his memory; Bab. ",
+						"<cite ref=\"Pesachim 66a:3\">Pes. 66ᵃ</cite> <he>נִתְעַלְּמָה</he>. Y. Yoma III, 40ᵈ bot. <he>לא … מִתְעַלֵּם מהן</he> they did not move from there before it (the pronunciation of the Tetragrammaton) escaped their memory again. Y. Ab. Zar. IV, 44ᵇ top <he>עד שיִתְעַלֵּם מעיניהם</he> until he is left out of their sight. Y. Ber. IV, 8ᵃ <he>ואל תִּתְעַלֵּם מתחינתנו</he> do not hide thyself (turn away) from our prayer; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["הֶעֱלִים"],
+			"senses": [
+				{
+					"gloss": "<i>to conceal</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 1:25\">Ex. R. s. 1</cite> (ref. to <cite ref=\"E00718\"><he>העלמה</he></cite> <cite ref=\"Exodus 2:8\">Ex. II, 8</cite>) <he>שהֶעֱלִימָה וכ׳</he> she kept her own secret. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:3:3\">Cant. R. to I, 3</cite> (play on <cite ref=\"P00825\"><he>עלמות</he></cite>, <cite ref=\"Shir HaShirim Rabbah 1:3:3\">ib.</cite>) <he>על שהֶעֱלַמְתָּ מהם יום וכ׳</he> because thou hast concealed from them the day of death and the day of consolation, they love thee; <he>על שהעלמת מתן וכ׳</he> because thou hast concealed from them the reward of the righteous &c.; Yalk. ib. 981 <he>שעָלַמְתָּ</he> (Kal); <cite ref=\"Midrash Tehillim 9:1\">Midr. Till. to Ps. IX</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (v. <cite ref=\"P00818\"><he>עָלַם</he> I</cite>) <he>הע׳ עינים</he> <i>to close the eyes, to lose sight of</i>. Y. Ab. Zar. IV, 44ᵃ bot. ",
+					"units": [
+						"<cite ref=\"Sotah 10b:8\">Sot. 10ᵇ</cite> <he>ואל תַּעֲלֵם עיניך ממני</he> do not avert thy eyes from me. ",
+						"<cite ref=\"Tosefta Peah 4:20\">Tosef. Peah IV, 20</cite>; <cite ref=\"Bava Batra 10a:3\">B. Bath. 10ᵃ</cite>, a. e. <he>המעלים … מן הצדקה</he> who closes his eyes to charity; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּעֲלָם"],
+			"senses": [
+				{
+					"gloss": "<i>to be concealed</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 3:11\">Koh. R. to III, 11</cite> (play on <cite ref=\"E00717\"><he>הָעֹלָם</he></cite> <cite ref=\"Kohelet Rabbah 3:11\">ib.</cite>) <he>ה׳ מהם שם וכ׳</he> the pronunciation of the Tetragrammaton was concealed from them."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

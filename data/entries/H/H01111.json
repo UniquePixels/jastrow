@@ -1,0 +1,22 @@
+{
+	"id": "H01111",
+	"slug": "חלצים",
+	"headword": {
+		"text": "חֲלָצַיִם"
+	},
+	"page": {
+		"number": 472,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. du. (b. h.; <cite ref=\"H01109\"><he>חָלַץ</he></cite> 1) <i>loins</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 14b:4\">Ḥag. 14ᵇ</cite> <he>יצא מחֲלָצֶיךָ</he> is thy offspring; a. e."
+			]
+		}
+	]
+}

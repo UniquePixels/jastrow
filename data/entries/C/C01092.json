@@ -1,0 +1,40 @@
+{
+	"id": "C01092",
+	"slug": "גנדר-1",
+	"headword": {
+		"text": "גַּנְדַּר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 257,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<he>גדר</he> <i>to be rounded</i>, v. <cite ref=\"C00154\"><he>גַּד</he> II</cite>; cmp. <he>כדר</he>; v. Nöld. Neusyrische Gramm. p. 39) <i>to roll</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 29:3\">Targ. O. Gen. XXIX, 3</cite>; <cite ref=\"Onkelos Genesis 29:8\">8</cite>; <cite ref=\"Onkelos Genesis 29:10\">10</cite> (ed. Berl. <cite ref=\"N00240\"><he>נדר</he></cite>, v. Berl. Targ. O. II, p. 10; Targ. Y. ib. 13 <cite ref=\"N00240\"><he>נדר</he></cite>, some ed. <cite ref=\"C00246\"><he>גדר</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 14:10\">Targ. I Kings XIV, 10</cite> <he>כמא דמְגַנְדְּרִין בגולילא</he> (Var. <he>דמנדרין</he>) as they roll with a (threshing) roller (h. text … <he>יבער הגלל</he>).—",
+				"<cite ref=\"Gittin 69b:15\">Gitt. 69ᵇ</cite> <he>ונִיגַנְדְּרֵיה וכ׳</he> (Rashi <he>ולג׳</he>) and let him roll it sixty times. ",
+				"<cite ref=\"Avodah Zarah 28a:14\">Ab. Zar. 28ᵃ</cite> <he>רניגנדר</he> (some ed. <he>וניגדר</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיגַּנְדַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be rolled; to roll one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 35a:3\">B. Kam. 35ᵃ</cite> <he>למקלייה ואִיגַּנְדּוּרֵי בקיטמא</he> Ms. M. (ed. <he>ואיגנדר</he>, v. Rabb. D. S. a. l. note) to burn the stack in order to roll himself in the ashes. ",
+						"<cite ref=\"Bava Kamma 35a\">Ib.</cite> <he>קמִגַּנְדַּר בקיטמיה</he> Ms. M. he did roll himself in its ashes. ",
+						"<cite ref=\"Gittin 77b\">Gitt. 77ᵇ</cite> <he>איג׳ גיטא</he> Ar. (ed. <cite ref=\"A00973\"><he>אזל</he></cite>, Rashi to <cite ref=\"Shabbat 80a\">Sabb. 80ᵃ</cite> quotes <he>איג׳</he>) the letter of divorce (thrown over to the woman) rolled and fell &c. ",
+						"<cite ref=\"Yevamot 17a:9\">Yeb. 17ᵃ</cite> (prov.) <he>קבא רבא … מִיגַּנְּדַּר וכ׳</he> the large and the small measure (both instruments of fraud) roll together and arrive at hell, and from hell &c., i.e. all the low elements meet in those Babylonian places."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,86 @@
+{
+	"id": "R00171",
+	"slug": "ציוח",
+	"headword": {
+		"text": "צְיַוח"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְוַח"
+		}
+	],
+	"page": {
+		"number": 1266,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"R00170\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 27:34\">Targ. Gen. XXVII, 34</cite>. ",
+				"<cite ref=\"Onkelos Exodus 5:8\">Targ. Ex. V, 8</cite> (O. ed. Berl. <i>Pa.</i>); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:2:9\">Y. Taan. IV, 68ᵃ</cite> [read:] <he>בגין דצָוְוחִין עלויי ציפוראיי</he> because the people of Sepphoris cry out against him (dislike him). ",
+				"<cite ref=\"Bava Metzia 6a:11\">B. Mets. 6ᵃ</cite> <he>דקא צ׳</he> when he cried (complained of being wronged). ",
+				"<cite ref=\"Sukkah 31a:8\">Succ. 31ᵃ</cite> <he>צָוְוחָה ולא אשגח וכ׳</he> (h. form) she complained, but R. N. did not mind her. ",
+				"<cite ref=\"Sukkah 31a:8\">Ib.</cite> <he>איתתא … צָוְוחָא קמייכו</he> a woman whose father kept three hundred and eighteen servants is complaining before you. ",
+				"<cite ref=\"Bava Kamma 86a:6\">B. Kam. 86ᵃ</cite> <he>וצ׳ מהנהו קרטופני</he> Ms. M. (v. <i>Pa.</i>) and he cries (feels pain) on account of the sores; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= h. <he>קרא</he>) <i>to invite</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 28:2\">Lev. R. s. 28</cite> … <he>מאן דלא צַוְוחִינָן ליה וכ׳</he> who is he whom we did not invite, and who wrote these words?; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (= h. <he>קרא</he>) <i>to call, name, surname</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 2:55\">Targ. I Chr. II, 55</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 9:1:3\">Y. Sabb. IX, 11ᵈ</cite>; <cite ref=\"Bereishit Rabbah 39\">Gen. R. s. 39</cite>, end, a. e. <he>תמן צָוְוחִין וכ׳</he>, v. <cite ref=\"P00885\"><he>עֲמֵילָא</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 87\">Gen. R. s. 87</cite>, beg., v. <cite ref=\"Q02155\"><he>פַּתְיָא</he> I</cite>; a. fr.—[<cite ref=\"Pesachim 110b:6\">Pes. 110ᵇ</cite> <he>צווח דיקלא</he>, v. <cite ref=\"R00188\"><he>צְוֵי</he> II</cite>.]"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צַיַּוח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"R00170\">same</cite>, <i>to cry</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 5:8\">Targ. O. Ex. V, 8</cite>, v. supra. ",
+						"<cite ref=\"Targum Jonathan on II Kings 2:12\">Targ. II Kings II, 12</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cause to cry, to pain</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 33b\">Sabb. 33ᵇ</cite> <he>וקא נתרן … וקא מְצַוְּוחָן ליה</he> (Ms. M. <he>מצערין</he>) the tears fell (upon his sore body) and gave him pain. B. Kam. l. c. <he>וצַוְּוחי ליה</he> (<he>הנהו וכ׳</he>) Ar. (Rashi <he>מְצַוְּוחֵי</he>; ed. <he>וצווחי מהנהו וכ׳</he>, read <he>וצווח</he>, v. supra) and these sores gave him pain."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַצְוַוח"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to cry out, excite to discontent</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 60a:7\">Erub. 60ᵃ</cite> <he>חזי דלא מַצְוַוחַת עלה בבי מדרשא</he> (Ms. M. <cite ref=\"P00790\"><he>עלי</he></cite>) see to it that thou do not create discontent with it (me) at college; <cite ref=\"Avodah Zarah 74b\">Ab. Zar. 74ᵇ</cite>"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

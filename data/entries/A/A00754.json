@@ -1,0 +1,23 @@
+{
+	"id": "A00754",
+	"slug": "אונס-2",
+	"headword": {
+		"text": "אוֹנֶס",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 29,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (v. <cite ref=\"A00753\">foreg.</cite>) <i>wrong, oppression</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 58:9\">Targ. Is. LVIII, 9</cite>; <cite ref=\"Targum Jonathan on Isaiah 58:13\">13</cite> <he>מלין דא׳</he> offensive (violent) words (h. text <cite ref=\"A00716\"><he>אָוֶן</he></cite>, cmp. <cite ref=\"A00722\"><he>אוֹנָאָה</he></cite>)."
+			]
+		}
+	]
+}

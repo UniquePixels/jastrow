@@ -1,0 +1,41 @@
+{
+	"id": "V00769",
+	"slug": "תסקופא",
+	"headword": {
+		"text": "תַּסְקוֹפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּסְ׳"
+		}
+	],
+	"page": {
+		"number": 1683,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סְקַף</he> I; v. <cite ref=\"V00248\"><he>תּוּסְקָפָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>divine disposition, destiny.—</i>Pl. <cite ref=\"V00770\"><he>תַּסְקוֹפִין</he></cite>, <cite ref=\"V00769\"><he>תִּסְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 66:5\">Targ. Ps. LXVI, 5</cite> (h. text <cite ref=\"P00804\"><he>עלילה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 77:13\">Ib. LXXVII, 13</cite> <he>תַּסְקוֹפֵי ניסייך</he> ed. Lag. (ed. Wil. <he>ת׳ נסך</he>, corr. acc.; h. text <he>עלילות׳</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>machination, intrigue; false accusation</i>. Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 24:12\">Targ. Ez. XXIV, 12</cite> (h. text <he>תאנים</he>). ",
+				"<cite ref=\"Onkelos Deuteronomy 22:14\">Targ. O. Deut. XXII, 14</cite>; <cite ref=\"Onkelos Deuteronomy 22:17\">17</cite> <he>תַּסְקוּ׳</he> ed. Berl. (h. text <cite ref=\"P00805\"><he>עלילות</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

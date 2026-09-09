@@ -1,0 +1,30 @@
+{
+	"id": "T00907",
+	"slug": "רעלה",
+	"headword": {
+		"text": "רְעָלָה"
+	},
+	"page": {
+		"number": 1487,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"T00906\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (b.  h.) <i>a garment hanging loosely</i>.—Pl. <he>רְעָלוֹת</he>. Y. Sabb. VI, 8ᵇ bot. (expl. <he>רעלות</he>, <cite ref=\"Isaiah 3:19\">Is. III, 19</cite>) <cite ref=\"K00771\"><he>כְּלָנִידְיָיא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>vibration</i>. <i>Pl.</i> as ab. Y. Ab. Zar. II, end, 42ᵃ, v. <cite ref=\"T00879\"><he>רְעָדָה</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

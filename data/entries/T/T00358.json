@@ -1,0 +1,62 @@
+{
+	"id": "T00358",
+	"slug": "רוי-1",
+	"headword": {
+		"text": "רוי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָוָה"
+		}
+	],
+	"page": {
+		"number": 1459,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be moist, be saturated, drip</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:2:15\">Y. Maasr. I, 49ᵃ</cite> top <he>משיִרְווּ</he> (not <he>שיורו</he>), v. <cite ref=\"M02585\"><he>מַרְוִית</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִיוָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to saturate</i>; <i>to refresh</i>; trnsf. <i>to delight</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 14b\">B. Bath. 14ᵇ</cite>; <cite ref=\"Berakhot 7b:9\">Ber. 7ᵇ</cite> (play on <cite ref=\"T00454\"><he>רוּת</he></cite>) <he>שזכתה … שׁרִיוָּהוּ להקב״ה וכ׳</he> she was privileged in that from her descended David, who delighted the Lord with songs and hymns."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִרְוָה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00357\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 150\">Midr. Till. to Ps. CL</cite> (ref. to <cite ref=\"Isaiah 34:5\">Is. XXXIV, 5</cite>) [read:] <he>מַרְוֶה אותה ומפילהו לשרה וכ׳</he> he saturates it (the sword with blood), and brings her tutelary angel to fall, and then it (the sword) will come down upon her (Rome; v. Cant. R. to VIII, 14)."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִתְרַוֶּה", "נִתְרַוֶּוה"],
+			"senses": [
+				{
+					"gloss": "<i>to be saturated, refreshed</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 33\">Gen. R. s. 33</cite> <he>ירדו … ונ׳ העולם</he> rain fell, and the world was refreshed; <cite ref=\"Vayikra Rabbah 34:15\">Lev. R. s. 34</cite> (not <he>ונתרווח</he>); <cite ref=\"Yalkut Shimoni on Torah 665:5\">Yalk. Lev. 665</cite>; <cite ref=\"Yalkut Shimoni on Nach 888:2\">Yalk. Ps. 888</cite> (corr. acc.). Y. M. Kat. III, 82ᶜ bot. <he>כשם שׁנִתְרַוִּיתֶם וכ׳</he> as you were saturated with the oil of inauguration for seven days &c.; a. e."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "A02980",
+	"slug": "ארגובלא",
+	"headword": {
+		"text": "אַרְגּוּבְלָא"
+	},
+	"page": {
+		"number": 115,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= b. h. <cite ref=\"C00112\"><he>גִּבְלִים</he></cite>) <i>Giblean</i> (v. <cite ref=\"C00105\"><he>גְּבָל</he></cite>); <i>master-mason</i>. Pl. <cite ref=\"A02980\"><he>אַרְגּוּבְלַיָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 5:32\">Targ. I Kings V, 32</cite> (h. text <he>גבלים</he>); <cite ref=\"II Kings 12:13\">II Kings XII, 13</cite> (h. text <he>גֹּדְרִים</he>). Cmp. <cite ref=\"A03004\"><he>אַרְדִּיכָל</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"id": "V00882",
+	"slug": "תקין-2",
+	"headword": {
+		"text": "תַּקִּין"
+	},
+	"page": {
+		"number": 1690,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00881\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>established, firm</i> (corresp. to h. <cite ref=\"N00812\"><he>נָכוֹן</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 4:18\">Targ. Prov. IV, 18</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 24:3\">Ib. XXIV, 3</cite> (ed. Wil. <he>מִתַּקֵּן</he>, <i>Ithpa.</i> of <cite ref=\"V00900\"><he>תְּקֵן</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 16:12\">Ib. XVI, 12</cite>. ",
+				"<cite ref=\"Onkelos Genesis 41:32\">Targ. O. Gen. XLI, 32</cite> (ed. Berl. <cite ref=\"V00881\"><he>תָּקֵין</he></cite>; ed. Vien. <cite ref=\"V00900\"><he>תַּקֵּין</he></cite>; Y. <cite ref=\"V00888\"><he>תַּקִּיף</he></cite>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>right, good</i> (corresp. to h. <cite ref=\"I00108\"><he>טוֹב</he></cite>, <cite ref=\"J00705\"><he>יָשָׁר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 19:8\">Targ. Gen. XIX, 8</cite> (O. ed. Vien. <cite ref=\"V00902\"><he>תַּקֵּן</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 1:31\">Targ. O. ib. I, 31</cite>. ",
+				"<cite ref=\"Onkelos Exodus 18:17\">Targ. Ex. XVIII, 17</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 18:4\">Targ. II Sam. XVIII, 4</cite> (ed. Wil. <cite ref=\"V00900\"><he>תַּקֵין</he></cite>); a. fr.—Pl. <he>תַּקִּינִין</he>, <he>תַּקִּינַיָּא</he>, <he>תַּקְנִין</he>, <he>תַּקְנַיָּא</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 7:11\">Targ. Ps. VII, 11</cite> Ms. (ed. <he>תריצי</he>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 19:4\">Targ. I Sam. XIX, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 8:4\">Targ. Zech. VIII, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 11:7\">Targ. Ps. XI, 7</cite>; a. fr.—<i>Fem.</i> <cite ref=\"V00902\"><he>תַּקְּנָא</he></cite>, <cite ref=\"V00902\"><he>תַּקְנָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 31:8\">Targ. Jer. XXXI, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 2:24\">Targ. I Sam. II, 24</cite>; a. fr.—Pl. <he>תַּקְּנָן</he>, <cite ref=\"V00902\"><he>תַּקְנָן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 18:25\">Targ. Ez. XVIII, 25</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 119:5\">Targ. Ps. CXIX, 5</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

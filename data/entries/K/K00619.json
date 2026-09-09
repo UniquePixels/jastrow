@@ -1,0 +1,27 @@
+{
+	"id": "K00619",
+	"slug": "כירה-1",
+	"headword": {
+		"text": "כֵּירָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "כֵּרָה"
+		}
+	],
+	"page": {
+		"number": 636,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"K01272\"><he>כרר</he></cite>)<i>a circle</i>, esp. <i>banquet</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 75a:4\">B. Bath. 75ᵃ</cite> (expl. <he>יכרו</he> <cite ref=\"Job 40:30\">Job XL, 30</cite>, with ref. to <cite ref=\"II Kings 6:23\">II Kings VI, 23</cite>) <he>אין כ׳ אלא סעודה</he> <i>kerah</i> means banquet."
+			]
+		}
+	]
+}

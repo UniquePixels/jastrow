@@ -1,0 +1,25 @@
+{
+	"id": "A00198",
+	"slug": "אבקתא",
+	"headword": {
+		"text": "אַבְקָתָא"
+	},
+	"page": {
+		"number": 8,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"A00190\"><he>אֲבַק</he></cite>) <i>loops, leather rings</i>, on bedsteads for the reception of cords; in door cases, for hanging doors in. ",
+			"units": [
+				"<cite ref=\"Nedarim 56b\">Ned. 56ᵇ</cite>; <cite ref=\"Sanhedrin 20b\">Snh. 20ᵇ</cite>. <he>דרגש בא׳ …</he> a couch is called <i>dargesh</i>, when it is carried in and out (to be put up and taken apart) by means of loops (through which the cords are fastened); opp. <i>mittah</i>, v. <cite ref=\"B00442\"><he>בִּזְיוּנָא</he></cite>.—",
+				"<cite ref=\"Menachot 33a:3\">Men. 33ᵃ</cite>, <cite ref=\"Eruvin 11b:10\">Erub. 11ᵇ</cite> ed. (Ms. M. <cite ref=\"A02301\"><he>אנקתא</he></cite>, v. Rabb. D. S. a. l. note), explain. <he>היכר ציר</he> ‘an indication of hinges’.—",
+				"<cite ref=\"Makkot 23a:7\">Macc. 23ᵃ</cite> (<i>loops</i> in the punishing scourge)."
+			]
+		}
+	]
+}

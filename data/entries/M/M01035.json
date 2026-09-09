@@ -1,0 +1,23 @@
+{
+	"id": "M01035",
+	"slug": "מטע",
+	"headword": {
+		"text": "מַטָּע"
+	},
+	"page": {
+		"number": 769,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"N00575\"><he>נָטַע</he></cite>)<i>plantation</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 4:1:2\">Y. Kil. IV, beg. 29ᵃ</cite> <he>והוא שבא ממַטַּע כרם גדול</he> provided it was originally a large vine plantation. ",
+				"<cite ref=\"Vayikra Rabbah 25:3\">Lev. R. s. 25</cite> <he>לא תתעסקו אלא במ׳ תחלה</he> as the first thing be engaged in nothing but planting; a. e."
+			]
+		}
+	]
+}

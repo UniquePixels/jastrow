@@ -1,0 +1,29 @@
+{
+	"id": "H01370",
+	"slug": "חסידה",
+	"headword": {
+		"text": "חֲסִידָה"
+	},
+	"page": {
+		"number": 487,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. fem. of <cite ref=\"H01368\"><he>חָסִיד</he></cite>; v. also <cite ref=\"H01347\"><he>חֲסוּדָה</he></cite>, s. v. <cite ref=\"H01334\"><he>חָסַד</he> I</cite>. I.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (b. h.) <i>stork</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 63a:16\">Ḥull. 63ᵃ</cite>, v. <cite ref=\"D00494\"><he>דַּיָּה</he></cite>; <he>ולמה … ח׳ שעושה חסידות וכ׳</he> and she is named ‘the kind’ because she acts kindly with her kind; <cite ref=\"Midrash Tehillim 118:11\">Midr. Till. to Ps. CIV, 17</cite>. ",
+				"<cite ref=\"Shemot Rabbah 35:1\">Ex. R. s. 35</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

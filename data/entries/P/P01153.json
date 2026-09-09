@@ -1,0 +1,79 @@
+{
+	"id": "P01153",
+	"slug": "עקד-1",
+	"headword": {
+		"text": "עָקַד"
+	},
+	"page": {
+		"number": 1104,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to bend</i>; cmp. <cite ref=\"K01061\"><he>כָּפַת</he></cite>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to tie</i> hand to foot, contrad. to <he>כפת</he> (v. infra). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 56\">Gen. R. s. 56</cite> <he>כל מה שהיה אברהם אבינו עוֹקֵד … הקב״ה כופת וכ׳</he> as Abraham was tying his son here below, so the Lord bound &c. ",
+				"<cite ref=\"Vayikra Rabbah 2:11\">Lev. R. s. 2</cite>; a. fr.—Part. pass. <cite ref=\"P01159\"><he>עָקוּד</he></cite>. ",
+				"<cite ref=\"Mishnah Shabbat 5:3\">Sabb. V, 3</cite> <he>לא ע׳ ולא רגול</he>, expl. ",
+				"<cite ref=\"Shabbat 54a:12\">ib. 54ᵃ</cite> <he>ע׳ עקידת יד ורגל כיצחק וכ׳</he> <i>ʿaḳud</i> refers to tying foreleg to hindleg like the tying of Isaac &c., <i>ragul</i> refers to bending the forefoot upward and tying it to the foreleg; Y. ib. V, 7ᵇ bot. <he>ע׳ בידו אחת</he>; <cite ref=\"Tosefta Shabbat 4:3\">Tosef. ib. IV</cite> (<cite ref=\"Tosefta Shabbat 5:3\">V</cite>), 3 (v. Var. ed. Zuck.); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"P01174\"><he>עֲקֵידָה</he></cite>) <i>to sacrifice</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 16a:16\">R. Hash. 16ᵃ</cite> <he>כאילו עֲקַדְתֶּם וכ׳</he> as if you offered yourselves, v. <cite ref=\"P01174\"><he>עֲקֵידָה</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 30:10\">Lev. R. s. 30</cite> (play on <he>כפת</he>, <cite ref=\"Leviticus 23:40\">Lev. XXIII, 40</cite>) <he>זה יצחק שהיה כפות ועָקוּד וכ׳</he> this typifies Isaac, who was tied and offered up on the altar; a. e. —",
+				"<cite ref=\"Gittin 57b:20\">Gitt. 57ᵇ</cite> <he>אתה עָקַדְתָּ אחד ואני עָקַדְתִּי וכ׳ מזבח</he> thou (Abraham) hast <i>put up</i> one altar, but I have put up seven altars (offered seven martyred sons)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶעֱקַד"],
+			"senses": [
+				{
+					"gloss": "<i>to be tied; to be put on the altar</i>. Gen. R. l. c. <he>זה לַעֲקוֹד וזה לֵיעָקֵד</he> the one (ready) to sacrifice, the other to be sacrificed. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 31\">Pirké d’R. El. ch. XXXI</cite>; <cite ref=\"Yalkut Shimoni on Torah 101:3\">Yalk. Gen. 101</cite> <he>האב מַעֲקִיד בכל לב והבן נ׳ וכ׳</he> the father offering with a whole heart, and the son offering himself with a whole heart. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 101:3\">Ib.</cite> <he>רחם … שהוא אדם ובן אדם ונ׳ וכ׳</he> have pity on Isaac who is a human being, son of a human being, and is being offered before thee like a dumb beast; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֶעֱקִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to tie</i> (foreleg to hindleg). ",
+					"units": [
+						"<cite ref=\"Mishnah Tamid 4:1\">Tam. IV, 1</cite> (<cite ref=\"Tamid 30b:36\">30ᵇ</cite>) <he>לא היו כופתין … אלא מַעֲקִידִין אותו</he> (Mish. ed. <he>מְעַקְּדִין</he> <i>Pi.</i>) they did not bind the lamb (all feet together), but tied it, expl. ib. 31ᵇ <he>יד ורגל כעקידת וכ׳</he>, v. supra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to put on the altar</i>. Pesik. Aḥãré, p. 170ᵇ <he>והֶעֱקִידוֹ ע״ג המזבח</he> and laid him tied on the altar; a. e.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["עִקֵּד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P01152\">same</cite>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

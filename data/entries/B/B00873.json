@@ -1,0 +1,28 @@
+{
+	"id": "B00873",
+	"slug": "בליעה",
+	"headword": {
+		"text": "בְּלִיעָה"
+	},
+	"page": {
+		"number": 173,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בלע</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>swallowing, gluttony</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 14\">Num. R. s. 14</cite> (play on <cite ref=\"B00900\"><he>בֶּלַע</he></cite> <cite ref=\"Genesis 36:32\">Gen. XXXVI, 32</cite>) he sold his birthright <he>בשביל בְּלִיעָתוֹ</he> to satisfy his gluttony.—בית הב׳ <i>œsophagus</i>. ",
+				"<cite ref=\"Mishnah Tahorot 1:1\">Toh. I, 1</cite>; a. fr.—2) <i>vortex</i>, v. <cite ref=\"B00837\"><he>בְּלוּעָה</he></cite>."
+			],
+			"label": "1"
+		}
+	]
+}

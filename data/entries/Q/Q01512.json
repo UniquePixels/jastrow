@@ -1,0 +1,33 @@
+{
+	"id": "Q01512",
+	"slug": "פקפק-2",
+	"headword": {
+		"text": "פַּקְפֵּק"
+	},
+	"page": {
+		"number": 1211,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01511\">same</cite>, <i>to shake, make light of</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 43b:4\">Succ. 43ᵇ</cite> <he>אתי לפַקְפּוּקֵי בלולב</he> one may be induced to make light of the ceremony of Lulab."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְפַּקְפֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to be split, chipped off</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 30:17\">Targ. Job XXX, 17</cite> <he>מִתְפַּקְפְּקִין</he> ed. (Ms. a. ed. Lag. <he>מתפקקין מיני</he>), v. <cite ref=\"Q01515\"><he>פְּקַק</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

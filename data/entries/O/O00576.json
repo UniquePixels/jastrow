@@ -1,0 +1,24 @@
+{
+	"id": "O00576",
+	"slug": "סיד-2",
+	"headword": {
+		"text": "סִיד",
+		"homograph": 2
+	},
+	"page": {
+		"number": 976,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>שִׂיד</he>; <cite ref=\"O00258\"><he>סוּד</he></cite>)<i>lime, plaster</i>. Sifra Thazr., <cite ref=\"Mishnah Negaim 2\">Neg., ch. II, Par. 2</cite>; <cite ref=\"Mishnah Negaim 1:1\">Neg. I, 1</cite> <he>כס׳ ההיכל</he> (white color) like the plaster of the Temple walls (less intense than snow). ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 1:2\">Ib. 2</cite>; Sifra l. c. <he>הפתוך שבס׳ וכ׳</he> the mixture of red and white colors (in plagues) resembles blood mixed with milk; a. fr.—Esp. <i>lime</i> or <i>orpiment</i> used as <i>a depilatory</i> and <i>a cosmetic</i>. ",
+				"<cite ref=\"Mishnah Shabbat 8:4\">Sabb. VIII, 4</cite>; a. fr.; v. <cite ref=\"O00258\"><he>סוּד</he></cite> and <cite ref=\"I00660\"><he>טָפַל</he></cite>."
+			]
+		}
+	]
+}

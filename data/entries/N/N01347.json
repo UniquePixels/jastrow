@@ -1,0 +1,31 @@
+{
+	"id": "N01347",
+	"slug": "נשר-3",
+	"headword": {
+		"text": "נֶשֶׁר",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "נֵשֶׁר"
+		}
+	],
+	"page": {
+		"number": 942,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01346\">preced.</cite>) <i>dropping, dropped fruit</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sukkah 1:3\">Succ. I, 3</cite> <he>מפני הנ׳</he> to intercept the droppings (from the branches covering the Succah). ",
+				"<cite ref=\"Pesachim 56a:10\">Pes. 56ᵃ</cite> <he>להאכיל נ׳ לעניים וכ׳</he> to give the poor an opportunity to eat of the fallen fruit (on Sabbaths &c.) in years of famine; <cite ref=\"Menachot 71a:15\">Men. 71ᵃ</cite>; a. fr.—Pl. <he>נְשָׁרִים</he>, <he>נְשָׁרִין</he>. ",
+				"<cite ref=\"Tosefta Pesachim 2:19\">Tosef. Pes. II</cite> (<cite ref=\"Tosefta Pesachim 3:19\">III</cite>), 19. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:1:3\">Y. Bets. I, bg. 60ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

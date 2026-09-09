@@ -1,0 +1,46 @@
+{
+	"id": "D01079",
+	"slug": "דרי-2",
+	"headword": {
+		"text": "דְּרֵי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּרָא"
+		}
+	],
+	"page": {
+		"number": 322,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"D00827\"><he>דלי</he></cite>, a. b. h. <cite ref=\"N01284\"><he>נָשָׂא</he></cite> quoted in <cite ref=\"D01078\">preced. art.</cite>) <i>to carry away, to lift, bear, sustain</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 66b\">Sabb. 66ᵇ</cite> a big ant <he>דדָרֵי מידי</he> which is carrying something. ",
+				"<cite ref=\"Megillah 28a:7\">Meg. 28ᵃ</cite> <he>ד׳ מרא וכ׳</he> was carrying a rake over his shoulder. ",
+				"<cite ref=\"Megillah 28a:7\">Ib.</cite> <he>אתא … וקא ד׳ מיניה</he> ed. (Ms. M. a. Ar. <he>שקיל</he>) R. Ḥ. came and took it from him (to carry it himself). ",
+				"<cite ref=\"Megillah 28a:7\">Ib.</cite> <he>אי רגילת דדָרִית במתך דְּרִי</he> if thou, in thy own place, art accustomed to carry (such things), carry it. ",
+				"<cite ref=\"Avodah Zarah 44a:15\">Ab. Zar. 44ᵃ</cite> it was a magnetic stone <he>דהות דַּרְיָא ליה</he> Rashi (ed. <cite ref=\"D01029\"><he>דרא</he></cite>, Yalk. Ms. ",
+				"<cite ref=\"II Samuel 12:30\">II Sam. to XII, 30</cite> <cite ref=\"D00830\"><he>דליא</he></cite>, v. Rabb. D. S. a. l. note 9) which sustained it (held the crown suspended).—",
+				"<cite ref=\"Avodah Zarah 32a:2\">Ab. Zar. 32ᵃ</cite> <he>ודָרוּ בהדייהו</he> and they carry (the fragments of soaked clay vessels) with them (Ms. M. <he>ודרו ליה במיא</he>, v. <cite ref=\"V00979\"><he>תְּרִי</he></cite>); a. fr.—",
+				"<cite ref=\"Shabbat 77a:1\">Sabb. 77ᵃ</cite> <he>כל חמרא דלא דרי וכ׳</he> a wine which bears not an admixture of three (measures of water) to one, is no wine; <cite ref=\"Bava Batra 96b:4\">B. Bath. 96ᵇ</cite> <cite ref=\"D01080\"><he>דָּארֵי</he></cite>; <cite ref=\"Eruvin 29b:5\">Erub. 29ᵇ</cite>.  v. <cite ref=\"D00351\"><he>דּוּרָא</he> IV</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִידְּרִי"],
+			"senses": [
+				{
+					"gloss": "<i>to be carried off; to get up involuntarily</i> to save something. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 59b\">Ab. Zar. 59ᵇ</cite>; <cite ref=\"Avodah Zarah 60b\">60ᵇ</cite>. Y. Sabb. III, 5ᵈ top <he>ואִידְּרוּן חברייא וכ׳</he> the colleagues jumped up trying to bring him back."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

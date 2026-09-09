@@ -1,0 +1,90 @@
+{
+	"id": "I00617",
+	"slug": "טען-4",
+	"headword": {
+		"text": "טְעַן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טְעֵין"
+		}
+	],
+	"page": {
+		"number": 544,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00616\">same</cite><i>to be laden; to carry, bear</i> (h. <he>נשא</he>). ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 13:23\">Targ. Y. II, Num. XIII, 23</cite> (ed. Amst. <he>טַעֲנוּ</he> <i>Pa.</i>). ",
+				"<cite ref=\"Onkelos Genesis 44:1\">Targ. O. Gen. XLIV, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on Joel 2:22\">Targ. Joel II, 22</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 40b:4\">B. Mets. 40ᵇ</cite> <he>כיון דטָעוּן טָעוּן</he> when they are once impregnated (with the fluid), they resorb no more.—Trnsf. <i>to suffer, bear</i>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 9:12\">Targ. Prov. IX, 12</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to lade, to harness</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 45:17\">Targ. O. Gen. XLV, 17</cite> <he>טְעוּנוּ</he> ed. Berl. (oth ed. a. Y. <he>טְעִינוּ</he>). Targ. Y. ib. XLIV, 13.—Esp. <i>to help carrying</i>, opp. <he>פרק</he>, v. <cite ref=\"I00616\">preced.</cite> ",
+				"<cite ref=\"Bereishit Rabbah 96\">Gen. R. s. 96</cite> <he>משל הדיוט … טעון וכ׳</he> the common adage says, if thy friend’s son is dead, help carrying; if thy friend is dead, throw off (common people show no favor where no return can be expected). Y. Ḥag. II, 77ᵇ top <he>מִיטְעוֹן תרי וכ׳</he> that two carry one load; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טַעֵין"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00616\">same</cite>. Ib. <he>הוון מְטַעֲנִין להין</he> they made them carry &c.—Part. pass. <cite ref=\"I00618\"><he>מְטַעַן</he></cite> <i>carried, moved</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 4:8\">Cant. R. to IV, 8</cite> <he>דלית אינון … מְטַעֲנִין וכ׳</he> who are too feeble to be carried in a <i>lectica</i>, and whom they carry in a <i>cathedra</i>"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַטְעֵין"],
+			"senses": [
+				{
+					"gloss": "<i>to carry</i>. Ib. <he>מַטְעִינִין</he>. Y. Ḥag. l. c. <he>אַטְעוּנְנוֹן יחידאין</he> carry them singly, <he>אַטְעוֹנִינוֹן וכ׳</he> they did so; <he>אטעונינון צלוחיין</he> carry straight through (without resting).—<he>א׳ חינא</he> = h. <he>נשא חן</he> <i>to find grace</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 2:17\">Targ. Esth. II, 17</cite> (ed. Lag. <cite ref=\"A01089\"><he>אִיטְּ׳</he></cite>, <i>Ithpe.</i>); a. e."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיטְּעַן"],
+			"senses": [
+				{
+					"gloss": "<i>to be laden</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 5:5\">Targ. Lam. V, 5</cite>. Targ. Esth. l. c., v. supra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be carried</i> (in a chair). Y. Bets. I, 60ᶜ bot. <he>מִיטְּעַן מערס וכ׳</he> allowed himself to be carried from one seat (where he lectured) to another. Ib., v. <cite ref=\"O00186\"><he>סְדִינָא</he></cite>.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": " (v. <cite ref=\"I00616\">preced.</cite> <i>Nif.</i>) <i>to become severely ill</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 12:15\">Targ. II Sam. XII, 15</cite> (h. text <he>ויאנש</he>)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

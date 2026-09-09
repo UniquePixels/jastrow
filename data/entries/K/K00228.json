@@ -1,0 +1,34 @@
+{
+	"id": "K00228",
+	"slug": "כוזכא",
+	"headword": {
+		"text": "כּוֹזְכָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוֹזְבָה"
+		},
+		{
+			"text": "כּוֹזִיבָא"
+		}
+	],
+	"page": {
+		"number": 618,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"B01153\"><he>בַּר</he></cite>) <he>בֶּן כ׳</he> pr. n. m. <i>Ben</i>-(<i>Bar-</i>) <i>Koz’ba</i>, name of the leader of the Jewish uprising against Hadrian, usually named <he>בר כוכבא</he> <i>Bar-Kokhba</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:13\">Y. Taan. IV, 68ᵈ</cite> bot. <he>עקיבא … דרך כוכב … דרך כ׳</he> Akiba, my teacher, preached, ‘A star goes forth from Jacob’ (<cite ref=\"Numbers 24:17\">Num. XXIV, 17</cite>) Koz’ba went forth; <cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite> <he>א״ת כוכב אלא כּוֹזָב</he> read not <i>Kokhab</i> but <i>Kozab</i>. Y. Taan. l. c. <cite ref=\"B00932\"><he>בן</he></cite> (<he>בר</he>) <cite ref=\"K00228\"><he>כוזבה</he></cite>. Ib. 69ᵃ top <he>כזובה</he> (corr. acc.). Lam. R. l. c. <cite ref=\"B00932\"><he>בן</he></cite> (<he>בר</he>) <he>כוזיבא</he>; <cite ref=\"Yalkut Shimoni on Torah 946:4\">Yalk. Deut. 946</cite>.—Denom. <he>כּוֹזְבִי</he>; f. <he>כּוֹזְבִית</he>, pl. <he>כּוֹזְבִיּוֹת</he>. ",
+				"<cite ref=\"Tosefta Ma'aser Sheni 1:6\">Tosef. Maas. Sh. I, 6</cite>; <cite ref=\"Bava Kamma 97b\">B. Kam. 97ᵇ</cite> <he>מעות כ׳</he> coins issued by Bar-K."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"K00606\"><he>בֵּית כ׳</he></cite> pr. n. <i>Beth-Koz’ba</i>, name of a valley. Tanḥ. Ḥuck. 1; (ed. Bub. ib. <he>טופח</he>; <cite ref=\"Bamidbar Rabbah 18\">Num. R. s. 18</cite> <cite ref=\"V00263\"><he>תופת</he></cite>; <cite ref=\"Bereishit Rabbah 10:7\">Gen. R. s. 10</cite> <he>בי טרפא</he>; <cite ref=\"Vayikra Rabbah 22:4\">Lev. R. s. 22</cite> <he>בית שופרי</he>; <cite ref=\"Kohelet Rabbah 5:8\">Koh. R. to V, 8</cite> <cite ref=\"I00212\"><he>טופת</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 972:1\">Yalk. Koh. 972</cite> <he>נטופא</he>).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "H00545",
+	"slug": "חזירה-2",
+	"headword": {
+		"text": "חֲזִירָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 444,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00560\"><he>חָזַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>return, going back</i>, opp. <cite ref=\"E00553\"><he>הֲלִיכָה</he></cite>. Y. B. Mets. VI, beg. 10ᵈ <he>שכר הליכה וח׳</he> indemnification for loss of time in going to the field and returning. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 5:4\">Lev. R. s. 5</cite> <he>בחֲזִירַת רבותינו לשם</he> when the teachers came again to that place, v. <cite ref=\"E00109\"><he>הֲדוּרָה</he></cite>.—Y. Yoma III, 43ᶜ bot. <he>דרך ח׳</he> on the way homeward. ",
+				"<cite ref=\"Kohelet Rabbah 11:9:1\">Koh. R. to XI, 9</cite> … <he>מעט בריצה בח׳</he> slacken thy speed, that thou mayest not have too far to return (regret and punishment will reach you); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>reconsideration, reversion of judgment</i>. Y. Hor. I, beg. 45ᵈ bot. <he>וכן בח׳</he> the same rule applies when the court reverses &c.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>going round</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 1:2:7\">Y. Sot. I, 16ᶜ</cite> bot. <he>כדי חֲזִירַת דקל</he> (Bab. ",
+				"<cite ref=\"Sotah 4a:12\">ib. 4ᵃ</cite> <cite ref=\"H00572\"><he>חֲזָרַת</he></cite>) the time required for going round a palm-tree."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>restoration</i>, v. <cite ref=\"H00565\"><he>חֲזָרָה</he></cite>.",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"id": "U01337",
+	"slug": "שלישי",
+	"headword": {
+		"text": "שְׁלִישִׁי"
+	},
+	"page": {
+		"number": 1584,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01336\">preced.</cite> wds.) <i>third</i>. Mekh. B’shall., s. 1, v. <cite ref=\"U01335\"><he>שָׁלִישׁ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tamid 7:4\">Tam. VII, 4</cite> <he>בַּשְּׁ׳ היו וכ׳</he> on the third day of the week they recited &c. ",
+				"<cite ref=\"Mishnah Megillah 1:2\">Meg. I, 2</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 3:9\">Gen. R. s. 3</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 4\">Gen. R. s. 4</cite>; a. v. fr.—Esp. "
+			],
+			"senses": [
+				{
+					"gloss": " <he>ש׳ לטומאה</he> (or sub. <he>לטומאה</he>) <i>unclean in the third degree</i> by contact with uncleanness of the second degree (<cite ref=\"U01589\"><he>שֵׁנִי</he></cite>). ",
+					"units": [
+						"<cite ref=\"Mishnah Tahorot 2:2\">Toh. II, 2</cite>, sq. ",
+						"<cite ref=\"Mishnah Chagigah 3:2\">Ḥag. III, 2</cite>, v. <cite ref=\"T00104\"><he>רְבִיעִי</he></cite>; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <he>ש׳</he> <i>relation in the third degree, second cousin</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 28a:25\">Snh. 28ᵃ</cite>, a. e., v. <cite ref=\"U01589\"><he>שֵׁנִי</he></cite>.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " <i>talk about a third</i> (<i>absent</i>) <i>person, gossip, calumny</i> (v. <cite ref=\"L00531\"><he>לִישָׁן</he></cite>). ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 120:2\">Midr. Till. to Ps. CXX</cite> <he>לשון הרע קורין אותו ש׳ וכ׳</he> we call the evil tongue <i>sh’lishi</i>, because it slays three: himself (the maligner), the receiver, and the maligned.—Pl. <cite ref=\"U01337\"><he>שְׁלִישִׁין</he></cite>. ",
+						"<cite ref=\"Devarim Rabbah 2:33\">Deut. R. s. 2<sup>33</sup></cite>, v. <cite ref=\"U01387\"><he>שָׁלַשׁ</he></cite>.—<i>Fem.</i> <cite ref=\"U01337\"><he>שְׁלִישִׁית</he></cite>. ",
+						"<cite ref=\"Mishnah Taanit 2:4\">Taan. II, 4</cite> <he>על הש׳ וכ׳</he> when blowing the Shofar at the third benediction, one says &c. ",
+						"<cite ref=\"Mishnah Megillah 3:4\">Meg. III, 4</cite> <he>בש׳ וכ׳</he> on the third Sabbath of the month we read &c. Tanḥ. Vaëthḥ. 6 <he>ש׳ הצאן וכ׳</he> the third time (didst thou sin, when thou didst say,) shall flocks &c. (<cite ref=\"Numbers 11:22\">Num. XI, 22</cite>); a. v. fr.—",
+						"<cite ref=\"Mishnah Parah 1:1\">Par. I, 1</cite> <he>אם אתה אומר ש׳ … כשאתה אומר שְׁלשִׁית וכ׳</he> when you say <i>sh’lishith</i>, it means the third in the count with others; when you say <i>sh’loshith</i>, it means in its third year."
+					],
+					"label": "c"
+				}
+			]
+		}
+	]
+}

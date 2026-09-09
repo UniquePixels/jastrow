@@ -1,0 +1,46 @@
+{
+	"id": "H01888",
+	"slug": "חתימה",
+	"headword": {
+		"text": "חֲתִימָה"
+	},
+	"page": {
+		"number": 512,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01899\"><he>חָתַם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>signature, stamp, mark</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 87a:22\">Gitt. 87ᵃ</cite> bot. <he>ודידעינן בהא ח׳ וכ׳</he> when we know about that signature that it is not Jacob’s. ",
+				"<cite ref=\"Mishnah Gittin 2:4\">Ib. II, 4</cite> <he>עד … וחֲתִימָתוֹ בתלוש</he> unless it was written and signed on a movable material (v. <cite ref=\"H00107\"><he>חָבַר</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 2:4:5\">Y. Keth. II, 26ᶜ</cite> top <he>על חֲתִימַת העד וכ׳</he> to identify the signature of the second witness. ",
+				"<cite ref=\"Bava Batra 89b:10\">B. Bath. 89ᵇ</cite> <he>כיון דלא חזי ח׳</he> Ms. M. (ed. <he>אי לא חזי ח׳</he>, Ms. H. <he>עד דחזי חתמא</he>) since he does not see the official stamp on the measure; a. fr.—Trnsf. <he>חֲתִימַת זָקָן</he> <i>the mature manly expression which the beard gives, full manhood</i>. ",
+				"<cite ref=\"Bava Metzia 39b:8\">B. Mets. 39ᵇ</cite>; <cite ref=\"Yevamot 88a:13\">Yeb. 88ᵃ</cite>; <cite ref=\"Bereishit Rabbah 91\">Gen. R. s. 91</cite>; a. e.—[<cite ref=\"Aramaic Targum to Song of Songs 3:8\">Targ. Cant. III, 8</cite> <he>חֲתִימַת מִילָה</he> the seal of the covenant.]—Pl. <he>חֲתִימוֹת</he>. ",
+				"<cite ref=\"Ketubot 21b:7\">Keth. 21ᵇ</cite> <he>ח׳ ידי העדים</he> the signatures (handwritings) of the witnesses; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"H00902\"><he>חִיתּוּם</he></cite>) <i>the concluding clause of a prayer</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 104a:1\">Pes. 104ᵃ</cite> <he>צריך … ח׳ סמוך לחֲתִימָתוֹ</he> he must use expressions corresponding to the closing formula immediately before the latter."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>locking up, obstruction</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 43b\">Nidd. 43ᵇ</cite>, a. fr. (with ref. to <cite ref=\"Leviticus 15:3\">Lev. XV, 3</cite>) <he>חֲתִימַת פי האמה</he> the filling up of the aperture of the membrum (with mucus)."
+			],
+			"label": "3"
+		}
+	]
+}

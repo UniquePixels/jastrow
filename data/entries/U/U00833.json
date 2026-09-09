@@ -1,0 +1,26 @@
+{
+	"id": "U00833",
+	"slug": "שיהי",
+	"headword": {
+		"text": "שִׁיהֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁהֵי"
+		}
+	],
+	"page": {
+		"number": 1558,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"U00300\"><he>שְׁהֵי</he></cite>) <i>standing still, gazing</i>. Targ. II Esth. III, 8; <cite ref=\"Megillah 13b:1\">Meg. 13ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Nach 1054:21\">Yalk. Esth. 1054</cite>; v. <cite ref=\"Q00595\"><he>פִּיהֵי</he></cite>.",
+			"units": []
+		}
+	]
+}

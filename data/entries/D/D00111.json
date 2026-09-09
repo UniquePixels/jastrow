@@ -1,0 +1,30 @@
+{
+	"id": "D00111",
+	"slug": "דגלא-2",
+	"headword": {
+		"text": "דַּגָּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּיגָּאלָא"
+		}
+	],
+	"page": {
+		"number": 280,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00107\"><he>דְּגַל</he></cite>) <i>cunning; false</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 19:28\">Targ. Prov. XIX, 28</cite> <he>דיגא׳</he> ed. Lag. (oth. ed. <he>דגל׳</he>, <cite ref=\"T00001\"><he>ר׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 24:28\">Ib. XXIV, 28</cite> (h. text <cite ref=\"H01307\"><he>חנם</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 20:17\">Ib. XX, 17</cite> (h. text <cite ref=\"U01894\"><he>שקר</he></cite>).—",
+				"<cite ref=\"Avodah Zarah 22b:6\">Ab. Zar. 22ᵇ</cite> (prov.) <he>מכתבא … ד׳ בחבריה ידע</he> Ar. (ed. a. Ms. M. <cite ref=\"T00205\"><he>רגלא</he></cite>) the pencil splits the stone (marble), a schemer finds out his like."
+			]
+		}
+	]
+}

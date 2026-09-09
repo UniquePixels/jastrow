@@ -1,0 +1,27 @@
+{
+	"id": "K00660",
+	"slug": "ככי",
+	"headword": {
+		"text": "כְּכָי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּכָיי"
+		}
+	],
+	"page": {
+		"number": 638,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>כיכי</he>, √<cite ref=\"K00172\"><he>כו</he></cite>, cmp. <cite ref=\"K00206\"><he>כַּוָּא</he></cite>) [<i>small apertures, meshes</i>,] <i>spiderweb;</i> trnsf. <i>the web-like marrow of reeds</i>. Ohol. XIII, 5 <he>כ׳ שיש בה ממש</he> substantial spiderweb; [oth. opin.:] substantial reed marrow. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 17:17\">Kel. XVII, 17</cite> <he>עד שיוציא את כל הכ׳</he> (Var. <cite ref=\"K00026\"><he>כבאי</he></cite>, read <cite ref=\"K00660\"><he>כְּכַאי</he></cite>) until he has taken out the entire marrow; <cite ref=\"Tosefta Keilim Metsia 7:12\">Tosef. Kel. B. Mets. VII, 12</cite> <he>כ׳</he> quoted by R. s. to Kel. l. c. (ed. <cite ref=\"G00468\"><he>זָכָר</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "C01281",
+	"slug": "גרדיתא",
+	"headword": {
+		"text": "גַּרְדִּיתָא"
+	},
+	"page": {
+		"number": 266,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גרד</he>) <i>web</i> or <i>thread</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 7:6\">Targ. Job VII, 6</cite> <he>גרדית מחי</he> (Ms. <he>גַרְדָּיַית</he> pl.; h. text <he>ארג</he>) the weaver’s thread."
+			]
+		}
+	]
+}

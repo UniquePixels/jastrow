@@ -1,0 +1,78 @@
+{
+	"id": "U00186",
+	"slug": "שבש-2",
+	"headword": {
+		"text": "שְׁבַשׁ"
+	},
+	"page": {
+		"number": 1518,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"U00188\"><he>שִׁבְשָׁא</he></cite>) <i>to branch off, send forth branches</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 80:12\">Targ. Ps. LXXX, 12</cite> <he>שַׁבֵּישְׁתָּא</he> Ms. (ed. Wil. <he>שְׁבֵשַׁת</he>, <i>Pe.</i>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cut branches, harvest grapes</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 73a:9\">B. Mets. 73ᵃ</cite>, v. <cite ref=\"U00189\"><he>שַׁבָּשָׁא</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. <cite ref=\"U00185\">preced.</cite>) <i>to entangle, confound, overpower</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 20:7\">Targ. Jer. XX, 7</cite> (h. text <he>פתה</he>); Targ. II Esth. I, 2. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 5:1\">Targ. Koh. V, 1</cite>.—Part. pass. <he>מְשַׁבַּשׁ</he>; pl. <he>מְשַׁבְּשִׁין</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 40:17\">Targ. Job XL, 17</cite> (Ms. <he>מִשְׁתַּבְּשִׁין</he> <i>Ithpa.</i>; h. text <he>ישרגו</he>).—",
+				"<cite ref=\"Yevamot 75b:15\">Yeb. 75ᵇ</cite> <he>לשַׁבּוּשֵׁיה למרימר וכ׳</he> he only wanted to confuse M’remar (test his ingenuity). ",
+				"<cite ref=\"Yevamot 108b:6\">Ib. 108ᵇ</cite> <he>איידי … אזל מְשַׁבֵּשׁ וכ׳</he> because she is familiar with his hints and signs, he may confuse (have undue influence over) her and remarry her. ",
+				"<cite ref=\"Yevamot 108b:7\">Ib.</cite> <he>הא כבר שַׁבְּשָׁהּ ולא אִישַּׁבְּשָׁא</he> (not <he>שבשא</he>) he has before tried to influence her, and she was not influenced. ",
+				"<cite ref=\"Nedarim 89b\">Ned. 89ᵇ</cite> <he>שַׁבְּשֵׁיה ואנסביה וכ׳</he> (not <he>ואינסיב</he>, Rashi <he>שיבשיה</he>) he persuaded him and made him take a wife."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U00136\"><he>שַׁבֵּישׁ</he></cite> ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִישְׁתַּבַּשׁ", "אִישַּׁבַּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be entangled</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 1:14\">Targ. Lam. I, 14</cite> (ed. Lag. a. oth. <he>אתיבשו</he>, oth. ed. <he>איתבשו</he>, corr. acc.; h. text <he>ישתרגו</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be confounded</i>. Targ. Jer. l. c. (h. text <he>ואפת</he>). Ib. L, 36 (h. text <he>נֹאָלוּ</he>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 24:10\">Targ. Ez. XXIV, 10</cite>.—Yeb. l. c., <he>אִישַּׁבְּשָׁא</he> (marg. corr. <he>אִשְׁתַּבְּשָׁא</he>), v. supra.—Esp. <i>to blunder, be mistaken</i>. ",
+						"<cite ref=\"Pesachim 17a:4\">Pes. 17ᵃ</cite> <he>אישתבש כהני</he> the answer of the priests was erroneous. ",
+						"<cite ref=\"Shevuot 28b:9\">Shebu. 28ᵇ</cite> <he>אִישְׁתַּבְּשַׁת</he> thou art mistaken; <cite ref=\"Zevachim 26a\">Zeb. 26ᵃ</cite>.—V. <cite ref=\"M02811\"><he>מְשַׁבֶּשְׁתָּא</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

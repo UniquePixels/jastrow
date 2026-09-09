@@ -1,0 +1,37 @@
+{
+	"id": "A00367",
+	"slug": "אד-1",
+	"headword": {
+		"text": "אַדְּ־"
+	},
+	"page": {
+		"number": 15,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " insep. conjunct. ",
+			"units": []
+		},
+		{
+			"gloss": " (= <he>עַד דְּ־</he>; cmp. <cite ref=\"A00008\"><he>אַ־</he></cite>) prop. <i>until that; by the time that;</i> hence, <i>while, when</i>, in <i>the place of</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 5a:6\">Ḥag. 5ᵃ</cite> <he>אדזוטר</he> when he was young.—",
+				"<cite ref=\"Chullin 105b\">Ḥull. 105ᵇ</cite>, a. fr. <cite ref=\"A00379\"><he>אדהכי</he></cite> or <he>אדהכי והכי</he> <i>in the meanwhile</i>. ",
+				"<cite ref=\"Pesachim 113a:6\">Pes. 113ᵃ</cite> <he>אדחלא אכרעיך וכ׳</he> while the travelling dust is yet on thy knees, sell thy goods. ",
+				"<cite ref=\"Sanhedrin 33b:12\">Snh. 33ᵇ</cite> <he>אדמוקדך יקיד</he> while thy fire-place is lit. ",
+				"<cite ref=\"Bava Metzia 81a\">B. Mets. 81ᵃ</cite>, a. fr. <he>ליתני וכ׳</he>—<he>אדתני</he> in place of stating A let him state B, and A would be implied."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <he>עַל דְּ־</he>) <i>as regards</i>—, <i>in relation to</i> the statement &c. of—. ",
+			"units": [
+				"<cite ref=\"Ketubot 21a:11\">Keth. 21ᵃ</cite> <he>אדחד דעמיה</he> on (the testimony) of one who was with him. ",
+				"<cite ref=\"Bava Batra 159b\">B. Bath. 159ᵇ</cite>, a. fr. <he>קשיא דרבא אַדְּרָבָא</he> there is a contradiction between (one opinion) of Raba and another opinion of Raba; <cite ref=\"Bava Metzia 18a\">B. Mets. 18ᵃ</cite> <cite ref=\"A00449\"><he>אַדְּרַבָּה …</he></cite> of Rabbah (not to be confounded with <cite ref=\"A00449\"><he>אַדְרַבָּא</he></cite> q. v.). ",
+				"<cite ref=\"Megillah 20a:8\">Meg. 20ᵃ</cite> <he>אַדְּיוֹם</he> in relation to (the reading of the Book of Esther) in day-time."
+			],
+			"label": "2"
+		}
+	]
+}

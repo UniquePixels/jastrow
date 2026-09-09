@@ -1,0 +1,26 @@
+{
+	"id": "M02423",
+	"slug": "מקלה-1",
+	"headword": {
+		"text": "מַקְלֶה"
+	},
+	"page": {
+		"number": 831,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קָלָה</he> II) <i>roasting place;</i> <he>אפר מ׳</he> ashes from the roast, i.e. <i>vegetable ashes</i>, contrad. to <cite ref=\"A02792\"><he>אפר</he></cite> which includes any crumbled substance. ",
+			"units": [
+				"<cite ref=\"Mishnah Taanit 2:1\">Taan. II, 1</cite>. ",
+				"<cite ref=\"Taanit 15b:11\">Ib. 15ᵇ</cite> (ref. to <he>ונותנין אפר וכ׳</he>, <cite ref=\"Taanit 15b:11\">ib.</cite>) <he>אפר מ׳ הן מביאין</he> they must bring wood-ashes (not dust, crushed bones &c.). ",
+				"<cite ref=\"Mishnah Parah 9:7\">Par. IX, 7</cite> <he>אפר כשר שנתערב באפר מ׳</he> ashes fit for lustration (ashes of the red cow) which were mixed with wood-ashes. ",
+				"<cite ref=\"Tosefta Parah 10:1\">Tosef. ib. X</cite> (<cite ref=\"Tosefta Parah 9:1\">IX</cite>), 1 <he>הרי הן כא׳ מ׳</he> they are as unfit for lustration as wood-ashes. ",
+				"<cite ref=\"Berakhot 28a:12\">Ber. 28ᵃ</cite>, a. e., v. <cite ref=\"M00724\"><he>מַוֶּה</he> II</cite>."
+			]
+		}
+	]
+}

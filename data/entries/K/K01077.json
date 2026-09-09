@@ -1,0 +1,24 @@
+{
+	"id": "K01077",
+	"slug": "כרב-2",
+	"headword": {
+		"text": "כְּרַב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 663,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"K01076\">preced.</cite>) [<i>to dig around</i>, denom. <cite ref=\"K01105\"><he>כְּרוֹבָא</he></cite>, fr. which <cite ref=\"K01076\"><he>כְּרַב</he></cite>] <i>to plough</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 96b:7\">B. Kam. 96ᵇ</cite> <he>כ׳ בהו כרבא</he> (Ms. M. omits <cite ref=\"K01079\"><he>כרבא</he></cite>) he ploughed with them. ",
+				"<cite ref=\"Shabbat 33b:7\">Sabb. 33ᵇ</cite> … <he>חזו כַּרְבֵי וזרעי</he> they saw people plough and sow. ",
+				"<cite ref=\"Shabbat 73b:2\">Ib. 73ᵇ</cite> <he>מכדי מִכְרַב כרבי ברישא</he> do not people first plough (and then sow)? <cite ref=\"Shabbat 73b:2\">Ib.</cite> <he>בא״י … והדר כרבי</he> the Mishnah speaks of Palestine where they first sow and then plough. ",
+				"<cite ref=\"Bava Metzia 105a:6\">B. Mets. 105ᵃ</cite> <he>כָּרֵיבְנָא לה</he> I shall plough it over. ",
+				"<cite ref=\"Bava Metzia 107a:3\">Ib. 107ᵃ</cite> <he>כָּרֵיב ותני</he> he ploughs twice (after harvesting and before seed-time); a. e."
+			]
+		}
+	]
+}

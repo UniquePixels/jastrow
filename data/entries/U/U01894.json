@@ -1,0 +1,40 @@
+{
+	"id": "U01894",
+	"slug": "שקר-3",
+	"headword": {
+		"text": "שְׁקַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1626,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01893\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Malachi 2:10\">Targ. Mal. II, 10</cite> (ed. Wil. <i>Pa.</i>). ",
+				"<cite ref=\"Targum Jonathan on Joshua 22:16\">Targ. Josh. XXII, 16</cite>; <cite ref=\"Targum Jonathan on Joshua 22:22\">22</cite>; <cite ref=\"Targum Jonathan on Joshua 22:31\">31</cite>; a. e.—",
+				"<cite ref=\"Yevamot 55b:14\">Yeb. 55ᵇ</cite>, v. <cite ref=\"U01898\"><he>שַׁקָּרָא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁקֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01893\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 21:23\">Targ. O. Gen. XXI, 23</cite> (Y. <i>Pe.</i>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 44:18\">Targ. Ps. XLIV, 18</cite>; a. fr.—",
+						"<cite ref=\"Gittin 57a:13\">Gitt. 57ᵃ</cite> <he>שַׁקּוּרֵי מְשַׁקְּרִיתוּ</he> you tell a falsehood. ",
+						"<cite ref=\"Taanit 9b:8\">Taan. 9ᵇ</cite> <he>כי היכי דמְשַׁקְּרֵי … משקרי וכ׳</he> as the Babylonians are deceivers, so their rains are, v. <cite ref=\"M01052\"><he>מִטְרָא</he></cite>. ",
+						"<cite ref=\"Rosh Hashanah 22b:6\">R. Hash. 22ᵇ</cite> <he>לא משקרי וכ׳</he>, v. <cite ref=\"C00927\"><he>גְּלֵי</he></cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

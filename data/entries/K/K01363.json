@@ -1,0 +1,27 @@
+{
+	"id": "K01363",
+	"slug": "כתישא",
+	"headword": {
+		"text": "כְּתִישָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּתוּ׳"
+		}
+	],
+	"page": {
+		"number": 681,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01392\"><he>כְּתַשׁ</he></cite>) <i>a scab</i> on a camel’s back. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 38b:1\">B. Mets. 38ᵇ</cite> <he>דבש לכ׳ דגמלא</he> spoiled honey is fit for a liniment for a camel’s sore back, v. <cite ref=\"K01366\"><he>כְּתִיתָא</he></cite>."
+			]
+		}
+	]
+}

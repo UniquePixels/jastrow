@@ -1,0 +1,29 @@
+{
+	"id": "M00812",
+	"slug": "מחווא",
+	"headword": {
+		"text": "מַחְוָוא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "מַחְוָא"
+		}
+	],
+	"page": {
+		"number": 757,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00230\"><he>חֲוָא</he></cite>) <i>indication, sign.—</i>Pl. <cite ref=\"M00815\"><he>מַחְוָואתָא</he></cite>, <cite ref=\"M00815\"><he>מַחְוָותָא</he></cite>, <cite ref=\"M00837\"><he>מַחְוָתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 29:1\">Targ. Y. Deut. XXIX, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 10:17\">Targ. Job X, 17</cite>. [<cite ref=\"Targum Jonathan on Deuteronomy 29:21\">Targ. Y. Deut. XXIX, 21</cite>, read: <cite ref=\"M00815\"><he>מחְוָותָא</he></cite>, v. <cite ref=\"M00950\"><he>מַחֲתָא</he></cite>.]"
+			]
+		}
+	]
+}

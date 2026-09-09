@@ -1,0 +1,27 @@
+{
+	"id": "C01418",
+	"slug": "גשמה",
+	"headword": {
+		"text": "גְּשָׁמָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּשָׁמָא"
+		}
+	],
+	"page": {
+		"number": 274,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"C01417\">preced.</cite>, cmp. <cite ref=\"C01414\"><he>גָּשִׁישׁ</he></cite>) <i>frame, door-stop</i> against which the door shuts. ",
+			"units": [
+				"<cite ref=\"Eruvin 101a:7\">Erub. 101ᵃ</cite> (explain. ‘a widowed door’) <he>דלית לה ג׳</he> (Ms. M. <he>בשמא</he>, a clerical error for <he>כשמא</he>, oth. Var. <cite ref=\"C01418\"><he>גְּשָׁאמָא</he></cite>, <cite ref=\"K01295\"><he>כְּשָׁאמָא</he></cite>, v. Rabb. D. S. a. l. note; <cite ref=\"C00845\"><he>גִּישְׁתְּמָא</he></cite>, reduplic. of <cite ref=\"C01415\"><he>גשם</he></cite>, cmp. <cite ref=\"C00524\"><he>גזוזטרא</he></cite>, v. Ar. ed. Koh. s. v. <cite ref=\"C01415\"><he>גשם</he></cite>) which does not shut against a frame."
+			]
+		}
+	]
+}

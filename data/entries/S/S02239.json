@@ -1,0 +1,26 @@
+{
+	"id": "S02239",
+	"slug": "קשיא",
+	"headword": {
+		"text": "קַשְׁיָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1431,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S02238\">preced.</cite>) <i>difficult, open to objection; unanswerable objection; contradiction</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 13a:4\">Erub. 13ᵃ</cite> <he>הא גופא ק׳ וכ׳</he> this in itself is a contradiction; you said, R. I. did not say such a thing, which implies that this opinion is to be rejected, and then you said, this opinion is the adopted rule. ",
+				"<cite ref=\"Eruvin 13a:13\">Ib.</cite> <he>ק׳ שימוש אשימוש</he> there is a contradiction between the two narratives of R. Meir’s ministrations; <he>ק׳ אסרה אאסרה</he> there is a contradiction between the relations concerning the teacher who forbade it; <he>שימוש אשימוש לא ק׳ וכ׳</he> there is no contradiction between the two relations concerning the ministrations, (for I may say.) first he went &c.; <he>אלא אסרה אאסרה ק׳ ק׳</he> but between the relations as to who prohibited it, is there not a contradiction? There <i>is</i> a contradiction (it remains unanswered). ",
+				"<cite ref=\"Berakhot 22b:16\">Ber. 22ᵇ</cite> <he>לא ק׳ וכ׳</he> there is no contradiction (between the two traditions): the one speaks of a case where the thing is possible, the other &c. ",
+				"<cite ref=\"Shabbat 22b:3\">Sabb. 22ᵇ</cite> <he>ק׳</he> the argument (of R. Papa) is unanswerable. Y. ib. XII, end, 13ᵈ <he>וק׳ על דרבן וכ׳</he> and this is an argument against the opinion of Rabban G.; a. v. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "M00946",
+	"slug": "מחשבתא",
+	"headword": {
+		"text": "מַחֲשַׁבְתָּא"
+	},
+	"page": {
+		"number": 764,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (<cite ref=\"M00945\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>plan; art</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 49:20\">Targ. Jer. XLIX, 20</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 26:15\">Targ. II Chr. XXVI, 15</cite>; a. fr.—Pl. <cite ref=\"M00946\"><he>מַחְשְׁבָתָא</he></cite>, <he>מַחְשְׁבָן</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 55:8\">Targ. Is. LV, 8</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 38:10\">Targ. Ez. XXXVIII, 10</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>trouble</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 29b:12\">Erub. 29ᵇ</cite> <he>ומבטלי מ׳</he> and drive trouble away."
+			],
+			"label": "2"
+		}
+	]
+}

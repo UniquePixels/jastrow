@@ -1,0 +1,26 @@
+{
+	"id": "M01756",
+	"slug": "מנזיקנא",
+	"headword": {
+		"text": "מַנְזִיקְנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַנְזִקְ׳"
+		}
+	],
+	"page": {
+		"number": 798,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"M01755\">preced.</cite>) <i>I will be a Nazik</i> (substitute for Nazir). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nazir 1:1:7\">Y. Naz. I, beg. 51ᵃ</cite> [read:] <he>היידן אינון כינויי כינויין … מ׳ מנזיחנא מפזיחנא</he> what are the substitutes of substitutes?… I will be a Nazik, a Naziḥ &c. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 1:1:7\">Ib.</cite> <he>אין אלו כינויי כינויין כינויין ממש אינון אילן האומר מנזירנא שמא אינו נזיר כך האומר מנזיחנא מפזיחנא כאומר מנזירנא</he> these are not substitutes of substitutes; these are direct substitutes. If one said <i>manzirna</i> (I will be a Nazir), is he not a Nazir? So he who says &c. (turning the substitute nouns into verbs) must be considered as if he had said <i>manzirna</i>. ",
+				"<cite ref=\"Nedarim 10b\">Ned. 10ᵇ</cite> [read:] <he>מנזקנא מנזחנא מפזחנא</he>."
+			]
+		}
+	]
+}

@@ -1,0 +1,66 @@
+{
+	"id": "C00573",
+	"slug": "גזר-1",
+	"headword": {
+		"text": "גָּזַר"
+	},
+	"page": {
+		"number": 231,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <he>גזז</he>; cmp. <cite ref=\"C00246\"><he>גדר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to cut;</i> v. <cite ref=\"C00352\"><he>גּוֹזֵר</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cut off, to guard;</i> v. <cite ref=\"C00580\"><he>גִּיזְרָה</he></cite> a. <cite ref=\"C00581\"><he>גְּזֵרָה</he></cite>;—trnsf. <i>to institute a precautionary measure</i> (<cite ref=\"C00581\"><he>גְּזֵרָה</he></cite>); <i>to enact a prohibition, to decree</i> (mostly in a restrictive sense). ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 1:4\">Sabb. I, 4</cite> <he>ושמנה … גָּזְרוּ בו ביום</he> they issued eighteen enactments on that day. ",
+				"<cite ref=\"Shabbat 14b:7\">Ib. 14ᵇ</cite> <he>ג׳ טומאה על וכ׳</he> declared metal vessels (of gentiles) unclean (even when broken and remolten, v. ",
+				"<cite ref=\"Shabbat 16b:9\">ib. 16ᵇ</cite>). Ib. 17ᵇ <he>גזרו על פתן משום וכ׳</he> they prohibited their (the gentiles’) bread in order to prevent the use of their oil &c. Ib. 30ᵃ <he>מלך בו״ד גּוֹזֵר גזירה</he> a mortal king issues a decree. ",
+				"<cite ref=\"Berakhot 61b:6\">Ber. 61ᵇ</cite> <he>גָּזְרָה מלכות הרשעה שמד על ישראל שלא וכ׳</he> Ms. M. (v. Rabb. D. S. a. l. note) the wicked (Roman) government decreed religious persecution over Israel, that they should not study the Law &c. ",
+				"<cite ref=\"Rosh Hashanah 18b:12\">R. Hash. 18ᵇ</cite> <he>גזרו תענית</he> they ordered a public fast. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 2:9\">Ib. II, 9</cite> <he>גּוֹזְרַנִי עליך וכ׳</he> I order thee to come to me &c. ",
+				"<cite ref=\"Yoma 67b:4\">Yoma 67ᵇ</cite> (ref. to <he>גזרה</he>, <cite ref=\"Leviticus 16:22\">Lev. XVI, 22</cite>) <he>אני ה׳ גְּזַרְתִּיו וכ׳</he> I, the Lord, have ordained it; a. v. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִגְזַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be decreed, ordained</i>. ",
+					"units": [
+						"<cite ref=\"Rosh Hashanah 17b:15\">R. Hash. 17ᵇ</cite> <he>נִגְזְרָה גזירה</he> it has been decreed. ",
+						"<cite ref=\"Berakhot 58b\">Ber. 58ᵇ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְגַּזֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut to pieces</i>. Yoma l. c. (ref. to <he>גזרה</he>, Lev. l. c.) <he>דבר המִתְגַּזֵּר</he> where an object thrown down is shattered to pieces. [",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be cut off, be steep</i>. Ib. Ms. 2 <he>מקום המתג׳</he> a steep place.]",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

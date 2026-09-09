@@ -1,0 +1,36 @@
+{
+	"id": "M00482",
+	"slug": "מול-1",
+	"headword": {
+		"text": "מוֹל"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוּל",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 742,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; Assyr. mâla, , v. Del. Proleg. p. 132) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>border, front, in sight of</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 19b:14\">Ḥull. 19ᵇ</cite> (expl. <he>ממול ערפו</he>, <cite ref=\"Leviticus 5:8\">Lev. V, 8</cite>, <i>border of the neck</i>, the space beginning with the back of the head, opposite the face, and ending with the end of the neck, opposite the throat) <he>מ׳ הרואה את העורף</he> the edge which sees the <i>ʿoref</i> (but not the <i>ʿoref</i> itself). ",
+				"<cite ref=\"Leviticus 5:8\">Ib.</cite> <he>וכ״ת עורף … מ׳ דידיה היכא</he> if you will say, we know not where <i>ʿoref</i> itself is, how can we know where its border is?—",
+				"<cite ref=\"Sifrei Bamidbar 59:1\">Sifré Num. 59</cite> <he>עֲשֵׂה לה מ׳ פנים</he> (Ms. 3, a. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 719:5\">Yalk. ib. 719</cite> <he>מ׳ ופנים</he>) give the candlestick an edge of the front (an edge and a front), i.e. a prominent central light towards which the lights on both sides are turned. Ib. 60 <he>עָשָׂה לה מ׳ פנים</he>."
+			],
+			"label": "1"
+		}
+	]
+}

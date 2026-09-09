@@ -1,0 +1,51 @@
+{
+	"id": "B00917",
+	"slug": "בלש-2",
+	"headword": {
+		"text": "בְּלַשׁ"
+	},
+	"page": {
+		"number": 175,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00916\">same</cite>; <i>to search, examine</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 31:35\">Targ. O. Gen. XXXI, 35</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּלֵּשׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"B00916\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 22:5\">Targ. Is. XXII, 5</cite> <he>מְבַלְּשִׁין</he> (ed. Vien. <he>מַבְלְשִׁין</he> Af.); a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְבַּלַּשׁ"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְבְּלִּישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be searched, ransacked</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Obadiah 1:6\">Targ. Ob. I, 6</cite>, quot. ",
+						"<cite ref=\"Bava Kamma 3b\">B. Kam. 3ᵇ</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

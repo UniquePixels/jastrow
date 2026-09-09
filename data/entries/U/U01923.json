@@ -1,0 +1,46 @@
+{
+	"id": "U01923",
+	"slug": "שרג-1",
+	"headword": {
+		"text": "שְׂרַג"
+	},
+	"page": {
+		"number": 1628,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"U00598\"><he>שְׁ׳</he></cite>) = <cite ref=\"O01527\"><he>סְרַג</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"O00836\"><he>סֵירוּג</he></cite>) <i>to skip, to leap</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 11:21\">Targ. Y. Lev. XI, 21</cite> <he>למֵישְׁרַג</he> (prob. to be read with <he>שׂ</he>; h. text <he>לנתר</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to pile up bricks with interspaces</i> (v. <cite ref=\"A00520\"><he>אַוָּארָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Beitzah 31b:7\">Bets. 31ᵇ</cite> <he>שַׂרְגִּינְהִי ודאי וכ׳</he> (or <he>שָׂ׳</he> <i>Pa.</i>) if he has piled them up, he has surely made them unavailable (<cite ref=\"M00596\"><he>מוּקְצֶה</he></cite>). ",
+				"<cite ref=\"Bava Batra 3b:11\">B. Bath. 3ᵇ</cite> <he>שַׂרְגֵי ליבני</he> Ms. M. Var., a. Rashi (ed. <he>שְׂרִיגֵי</he>; Ms. M. <he>רמן</he>; v. Rabb. D. S. a. l. note), v. <cite ref=\"E00211\"><he>הוּדְרָא</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׂתְּרַג"],
+			"senses": [
+				{
+					"gloss": "<i>to be entangled</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 54a:4\">Sabb. 54ᵃ</cite> <he>דמִשְׂתַּרְגָּא בה וכ׳</he>, v. <cite ref=\"K00063\"><he>כַּבְלָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

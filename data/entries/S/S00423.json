@@ -1,0 +1,24 @@
+{
+	"id": "S00423",
+	"slug": "קונדסא",
+	"headword": {
+		"text": "קוּנְדָּסָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1334,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a popular corrupt. of <he>קונרסא</he>, v. <cite ref=\"S01054\"><he>קִינְרָסָא</he></cite>) <i>artichokes</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 83a\">Erub. 83ᵃ</cite> <he>מוריא דק׳</he> (some ed. <he>דקונדיס</he>; ed. Pes. <he>דקונריס</he>; Ms. M. <he>מוריא ק׳</he>; ed. Sonc. <he>מוריא קונטרסא</he>, Rashi <he>מודיא ק׳</he>; Yoḥăsin <he>מוריא קנטיסא</he>; v. Rabb. D. S. a. l. note) a modius for measuring artichokes, v. <cite ref=\"N00014\"><he>נָאוּסָא</he></cite>. [Comment.; Ḳundasa, designation of a certain modius.]—Pl. <he>קוּנְדָּסַיָּא</he>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 9:6:5\">Y. Shebi. IX, end, 39ᵃ</cite>, v. <cite ref=\"S01054\"><he>קִינְרָסָא</he></cite>."
+			]
+		}
+	]
+}

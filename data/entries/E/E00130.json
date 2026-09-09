@@ -1,0 +1,25 @@
+{
+	"id": "E00130",
+	"slug": "הדלקה",
+	"headword": {
+		"text": "הַדְלָקָה"
+	},
+	"page": {
+		"number": 333,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>דלק</he>) <i>lighting, kindling</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 23a:2\">Sabb. 23ᵃ</cite> <he>ה׳ עושה מצוה</he> the kindling (of the Ḥanukhah lights) is the ceremony prescribed, contrad. to <he>הנחה</he> the placing it. ",
+				"<cite ref=\"Mishnah Shabbat 2:6\">Ib. II, 6</cite> (<cite ref=\"Shabbat 31b:10\">31ᵇ</cite>) <he>הַדְלָקַת הנר</he> kindling the Sabbath lights. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 5:1:3\">Y. Ter. V, 43ᶜ</cite> top <he>למשחה לה׳</he> <i>l’moshḥah</i> (<cite ref=\"Numbers 18:8\">Num. XVIII, 8</cite>) means (also) for lighting purposes (cmp. <cite ref=\"M01312\"><he>מִישְׁחָא</he></cite>). ",
+				"<cite ref=\"Bamidbar Rabbah 15:2\">Num. R. s. 15</cite>, beg. <he>על הַדְלָקָתָן וכ׳</he> concerning feeding them with olive oil."
+			]
+		}
+	]
+}

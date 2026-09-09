@@ -1,0 +1,30 @@
+{
+	"id": "G00356",
+	"slug": "זילוף",
+	"headword": {
+		"text": "זִילּוּף"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִלּ׳"
+		}
+	],
+	"page": {
+		"number": 394,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00500\"><he>זָלַף</he></cite>) <i>sprinkling</i> (with aromatic wine &c.). ",
+			"units": [
+				"<cite ref=\"Pesachim 20b:19\">Pes. 20ᵇ</cite> <he>ראוי לז׳</he> (Ms. O. through entire page <cite ref=\"G00502\"><he>זֶלֶף</he></cite>) fit for sprinkling. ",
+				"<cite ref=\"Pesachim 20b:23\">Ib.</cite> <he>תֵּעָשֶׂה ז׳</he> may be used for &c.—",
+				"<cite ref=\"Bamidbar Rabbah 13\">Num. R. s. 13</cite>, beg. (ref. to <he>יזלו</he>, <cite ref=\"Song of Songs 4:16\">Cant. IV, 16</cite>) <he>זה ז׳</he> that means aromatic sprinkling. ",
+				"<cite ref=\"Sukkah 40b\">Succ. 40ᵇ</cite>; <cite ref=\"Bava Kamma 102a:3\">B. Kam. 102ᵃ</cite> <he>לאכלה ולא לז׳</he> ‘to be eaten’ (<cite ref=\"Leviticus 25:6\">Lev. XXV, 6</cite>) but not to be used for perfumes; v. <cite ref=\"G00489\"><he>זֶלַח</he></cite>."
+			]
+		}
+	]
+}

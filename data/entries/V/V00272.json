@@ -1,0 +1,32 @@
+{
+	"id": "V00272",
+	"slug": "תור-2",
+	"headword": {
+		"text": "תּוּר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1656,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (contr. of <he>תער</he>, v. <cite ref=\"P00343\"><he>עוּר</he></cite>) <i>to be awake</i>.—V. <cite ref=\"V00496\"><he>תִּיר</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תַּיֵּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to awaken</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 117b:3\">B. Kam. 117ᵇ</cite> <he>תַּיְּירֵיה אוקמיה</he> he waked him up (from the dead) and made him to stand (live).—[<cite ref=\"Gittin 69b:8\">Gitt. 69ᵇ</cite> <he>וניתייריה</he>, read: <he>וניתריה</he>, v. <cite ref=\"V00744\"><he>תְּרֵי</he> II</cite>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

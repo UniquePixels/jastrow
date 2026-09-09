@@ -1,0 +1,32 @@
+{
+	"id": "U02048",
+	"slug": "שרת-1",
+	"headword": {
+		"text": "שָׁרַת"
+	},
+	"page": {
+		"number": 1635,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U02049\"><he>שֵׁרֵת</he></cite> (b. h.;  [<i>to dwell with,</i>] <i>to serve, minister, attend</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Eruvin 5:1:4\">Y. Erub. V, beg. 22ᵇ</cite> (ref. to <cite ref=\"I Samuel 3:1\">I Sam. III, 1</cite>) <he>והלא לא מְשָׁרֵת אלא לפני עלי</he> but did not he minister before Eli only? <he>ללמדך שכל שירות שש׳ וכ׳</he> to teach thee that all the ministrations that he rendered to Eli were accounted to him as if he had ministered before the Lord; (Midr. Sam. ch. VIII <he>היה עומד</he>). ",
+						"<cite ref=\"Berakhot 63b:8\">Ber. 63ᵇ</cite> <he>הושע</he> … <he>משרת תחתיך</he> Hoshea … shall serve in thy stead; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

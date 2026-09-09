@@ -1,0 +1,57 @@
+{
+	"id": "U01114",
+	"slug": "שכב-1",
+	"headword": {
+		"text": "שָׁכַב"
+	},
+	"page": {
+		"number": 1570,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to incline; to lie down, lie, sleep</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 7:2\">Bekh. VII, 2</cite>, a. e. <he>גביניו שׁוֹכְבִין</he>, v. <cite ref=\"C00091\"><he>גְּבִין</he> II</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 96:4\">Gen. R. s. 96</cite> (ref. to <cite ref=\"Genesis 47:28\">Gen. XLVII, 28</cite> sq.) <he>אתה שׁוֹכֵב ואין אתה מת</he> thou shalt lie (in the grave) but not be dead (forever). ",
+				"<cite ref=\"Mishnah Berakhot 1:3\">Ber. I, 3</cite> (ref. to <cite ref=\"Deuteronomy 6:9\">Deut. VI, 9</cite>) <he>בשעה … שׁוֹכְבִים וכ׳</he> (you must read the Sh’mʿa) at the time of the day when people lie down, and when people get up. Ib. 62ᵇ <he>על כל משכב שְׁכַב וכ׳</he> lie on any couch, only not on the bare ground; a. v. fr.—Part. pass. <cite ref=\"U01123\"><he>שָׁכוּב</he></cite>. Mekh. B’shall., Vayassʿa, s. 3 <he>תפלתם … שהיו שְׁכוּבִים בעפר</he> the prayer of our fathers who were asleep in the ground; <cite ref=\"Yalkut Shimoni on Torah 260:4\">Yalk. Ex. 260</cite> <he>שוכבין</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁכִּיב"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to lie down</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 60b:3\">Ber. 60ᵇ</cite> (in a night prayer) <he>שתַּשְׁכִּיבֵנִי לשלום וכ׳</he> that thou make me to lie down for peace and to rise for peace &c. ",
+						"<cite ref=\"Berakhot 4b:15\">Ber. 4ᵇ</cite> <he>הַשְׁכִּיבֵנוּ</he> (cause us to lie down,) <i>hashkibenu</i>, a section of the evening prayers, inserted between <i>G’ullah</i> and <i>T’fillah</i> (v. <cite ref=\"C00009\"><he>גְּאוּלָּה</he></cite>). ",
+						"<cite ref=\"Berakhot 9b\">Ib. 9ᵇ</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to let lie with, to allow sodomy</i>. ",
+					"units": [
+						"<cite ref=\"Keritot 3a:40-41\">Ker. 3ᵃ</cite> (ref. to <cite ref=\"Leviticus 18:22\">Lev. XVIII, 22</cite>) <he>קרי ביה לא תַשְׁכִּיב</he> read it as <i>lo thashkib</i>, do not allow &c.; <cite ref=\"Sanhedrin 54b:11\">Snh. 54ᵇ</cite> <he>לא תַשְׁכֵּב</he> (or <he>תִשָּׁכֵב</he> <i>Nif.</i>); a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִשְׁכַּב"],
+			"senses": [
+				{
+					"gloss": "<i>to be lain with</i>, esp. <i>to be the subject of sodomy</i>. Ib. <he>אזהרה לנִשְׁכָּב מנין</he> whence do we derive the warning (<cite ref=\"A00962\"><he>אַזְהָרָה</he></cite>) for the person that allows sodomy? Ib. [read:] <he>לר׳ ישמעאל אזהרה לנ׳ לבהמה וכ׳</he> (v. Rabb. D. S. a. l. note 200, a. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 599\">Yalk. Lev. 599</cite>) according to R. Yishmael’s interpretation, whence do we derive the warning for the person that is made the subject of coupling with a beast? <cite ref=\"Yalkut Shimoni on Torah 599\">Ib.</cite> <he>לא תִשָּׁכֵב</he>, v. supra; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

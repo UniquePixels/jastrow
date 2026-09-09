@@ -1,0 +1,48 @@
+{
+	"id": "B00754",
+	"slug": "ביתא-1",
+	"headword": {
+		"text": "בֵּיתָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּית"
+		},
+		{
+			"text": "בַּיְיתָא"
+		}
+	],
+	"page": {
+		"number": 168,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"B00753\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 12:3\">Targ. Ex. XII, 3</cite>; a. v. fr.—",
+				"<cite ref=\"Megillah 16a:12\">Meg. 16ᵃ</cite> <he>ווי מב׳ וכ׳</he> woe inside, woe outside! <cite ref=\"Bereishit Rabbah 32:10\">Gen. R. s. 32</cite> <he>ההוא ב׳ קלקלתא</he> that house which is a ruin (a Samaritan’s designation of the Jerusalem Temple). ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:2:11\">Y. Snh. I, 18ᶜ</cite> <he>ההן ב׳ דלרע</he> that house down there (Rabbi’s college); <cite ref=\"Jerusalem Talmud Rosh Hashanah 2:5:2\">Y. R. Hash. II, 58ᵃ</cite> bot. <he>והן בייתא</he>.—",
+				"<cite ref=\"Yevamot 109b:2\">Yeb. 109ᵇ</cite> <he>דבייתיה כי בייתיה דמי</he> for his (the trustee’s) house is like his (the neighbor’s) own house (he is familiar with the interior); a. fr.—<i>Pi.</i> <he>בָּתִּין</he>, <he>בָּתַּיָּא</he>, <he>בָּתֵּי</he>. ",
+				"<cite ref=\"Onkelos Exodus 1:21\">Targ. Ex. I, 21</cite>; a. v. fr.—",
+				"<cite ref=\"Bava Batra 61b:2\">B. Bath. 61ᵇ</cite> sq. ",
+				"<cite ref=\"Bava Batra 67a:2\">Ib. 67ᵃ</cite>, v. <cite ref=\"D01134\"><he>דַּרְתָּא</he></cite>.—",
+				"<cite ref=\"Berakhot 6a:25\">Ber. 6ᵃ</cite> <i>the case of T’fillin</i>, v. <cite ref=\"B00753\">preced.</cite> [Playful etymol. <he>ב̇וא אי̇ת̇יב בה</he>. ",
+				"<cite ref=\"Shabbat 77b:9\">Sabb. 77ᵇ</cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>night-lodging</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 57a:12\">Gitt. 57ᵃ</cite> <he>לא יהבי ב׳ לאושפיזא</he> they would not designate a house as a lodging for strangers (<cite ref=\"Eichah Rabbah 2:25\">Lam. R. to II, 2</cite> <he>דלא הות מקבלא אכסניא</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

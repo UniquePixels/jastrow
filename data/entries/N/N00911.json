@@ -1,0 +1,46 @@
+{
+	"id": "N00911",
+	"slug": "נס-1",
+	"headword": {
+		"text": "נֵס",
+		"homograph": 1
+	},
+	"page": {
+		"number": 914,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; נסס <i>to lift up</i>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>flag</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 5:1\">B. Bath. V, 1</cite>, v. <cite ref=\"A00447\"><he>אֲדָרָא</he> II</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 55:1\">Gen. R. s. 55</cite>, beg. (ref. to <cite ref=\"Psalms 60:6\">Ps. LX, 6</cite>) <he>כנס הזה וכ׳</he> like the flag of a ship; <cite ref=\"Psalms 60:6\">ib.</cite> (ref. to <he>נסה</he>, <cite ref=\"Genesis 22:1\">Gen. XXII, 1</cite>) <he>גדלו כנס וכ׳</he> he lifted Abraham up like &c.; <cite ref=\"Yalkut Shimoni on Nach 777:6\">Yalk. Ps. 777</cite> <he>כנסו של וכ׳</he> (read: <he>כנס זה</he>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"A00939\"><he>אוֹת</he></cite>, <cite ref=\"M00566\"><he>מוֹפֵת</he></cite>) <i>sign, wonder, providential event</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 31a:58\">Nidd. 31ᵃ</cite> <he>אפי׳ בעל הנס אינו מכיר בנִסּוֹ</he> even he to whom the providential sign happens, does not recognize it. ",
+				"<cite ref=\"Yoma 21a:4\">Yoma 21ᵃ</cite> <he>כרובים בנס וכ׳</he> the cherubs (above the ark in the Solomonic Temple) stood by a miracle. ",
+				"<cite ref=\"Yoma 21a:4\">Ib.</cite>, a. e. <he>נס גדול היה וכ׳</he> a great miracle was connected with the show-bread which was as fresh at its removal &c. ",
+				"<cite ref=\"Sotah 47a:1\">Sot. 47ᵃ</cite>, a. fr. <he>נס בתוך נס</he> a double wonder. ",
+				"<cite ref=\"Nedarim 41a:6\">Ned. 41ᵃ</cite> <he>גדול נס שנעשה וכ׳</he> the wonder of recovery which the sick man experiences, is greater than that which happened to Hananiah, Mishael &c. ",
+				"<cite ref=\"Shabbat 23a:6\">Sabb. 23ᵃ</cite>, a. e. <he>אף הן היו באותו הנס</he> the women, too, were concerned in that wonderful delivery. ",
+				"<cite ref=\"Shabbat 23a:6\">Ib.</cite> <he>ונימעוט נס</he> why not omit the benediction mentioning the wonder (<he>שעשה נסים וכ׳</he>)?; a. v. fr.—Pl. <he>נִסִּים</he>, <he>נִסִּין</he>, <cite ref=\"M01772\"><he>נִי׳</he></cite>. ",
+				"<cite ref=\"Mishnah Berakhot 9:1\">Ber. IX, 1</cite> <he>הרואה מקום שנעשו בו נ׳ … ברוך שעשה נ׳ וכ׳</he> he who sees a place where miracles happened to Israel, must say, Blessed be he who performed wonders &c. ",
+				"<cite ref=\"Berakhot 60a:12\">Ib. 60ᵃ</cite>, a. fr. <he>מעשה נ׳</he> (abbrev. <he>מ״נ</he>) a miraculous event, v. <cite ref=\"G00467\"><he>זָכַר</he></cite>. ",
+				"<cite ref=\"Yoma 29a:4\">Yoma 29ᵃ</cite> <he>אסתר סוף כל הנ׳</he> the Book of Esther is the last record of miracles. ",
+				"<cite ref=\"Taanit 25a:4\">Taan. 25ᵃ</cite>; <cite ref=\"Sanhedrin 109a\">Snh. 109ᵃ</cite> top, v. <cite ref=\"L00565\"><he>לָמַד</he></cite>; a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

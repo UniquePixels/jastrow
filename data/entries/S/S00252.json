@@ -1,0 +1,42 @@
+{
+	"id": "S00252",
+	"slug": "קודש-2",
+	"headword": {
+		"text": "קוֹדַשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קֹדַשׁ"
+		},
+		{
+			"text": "קוּדְשָׁא"
+		}
+	],
+	"page": {
+		"number": 1324,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00251\">same</cite><i>holiness, sanctuary</i> &c. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 29:29\">Targ. Ex. XXIX, 29</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 51:13\">Targ. Ps. LI, 13</cite>. ",
+				"<cite ref=\"Onkelos Exodus 28:29\">Targ. Ex. XXVIII, 29</cite>; a. fr.—Pl. <he>קוּדְשִׁין</he>, <he>קוּדְשַׁיָּא</he>. ",
+				"<cite ref=\"Onkelos Leviticus 21:22\">Targ. Lev. XXI, 22</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 22:2\">Ib. XXII, 2</cite>; a. fr.—קודש ק׳ <i>the Holy of Holies</i>. ",
+				"<cite ref=\"Onkelos Exodus 26:33\">Targ. Ex. XXVI, 33</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the Holiness, the Lord</i>, usu. with <he>בריך הוא</he> (abbrev. <he>קב״ה</he>), v. <cite ref=\"S00119\"><he>קָדוֹשׁ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 21:34\">Targ. Y. Num. XXI, 34</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 25:21\">Targ. Y. Gen. XXV, 21</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 7a:6\">Ber. 7ᵃ</cite> <he>ומי … דק׳ ב״ה</he> is wrath before (to be ascribed to) the Lord? <cite ref=\"Ketubot 77b:8\">Keth. 77ᵇ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

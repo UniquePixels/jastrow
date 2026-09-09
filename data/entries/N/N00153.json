@@ -1,0 +1,23 @@
+{
+	"id": "N00153",
+	"slug": "נגיד-2",
+	"headword": {
+		"text": "נָגִיד",
+		"homograph": 2
+	},
+	"page": {
+		"number": 874,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a Chaldaism, v. <cite ref=\"N00118\"><he>נְגַד</he></cite> Part. pass., a. <i>Ithpe.</i>) <i>a frail animal</i>.—Pl. <he>נְגִידִים</he>, <he>נְגִידִין</he>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 67b:10\">B. Kam. 67ᵇ</cite> <he>יכול … חמשה נ׳</he> (v. Rabb. D. S. a. l.) you might think …, he may pay as a fine five emaciated oxen."
+			]
+		}
+	]
+}

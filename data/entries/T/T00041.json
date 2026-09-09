@@ -1,0 +1,65 @@
+{
+	"id": "T00041",
+	"slug": "רב-2",
+	"headword": {
+		"text": "רַב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1438,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00040\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>superior, master</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 23b:12\">Gitt. 23ᵇ</cite> <he>העבד … רַבּוֹ של חבירו אבל לא מיד רַבּוֹ שלו</he> a slave may receive a deed of manumission in behalf of a fellow slave at the hand of his fellow’s master, but not at the hands of his own master (if both slaves belong to the same master). ",
+				"<cite ref=\"Pirkei Avot 1:3\">Ab. I, 3</cite>, v. <cite ref=\"P00015\"><he>עֶבֶד</he></cite>. ",
+				"<cite ref=\"Chagigah 5a:18\">Ḥag. 5ᵃ</cite>, v. <cite ref=\"M02262\"><he>מָצָא</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>teacher</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 63b:8\">Ber. 63ᵇ</cite> <he>יאמרו הרב בכעס וכ׳</he> they will say, the teacher (the Lord) is angry, and the disciple (Moses) is angry, what is to become of Israel? <cite ref=\"Berakhot 63b:24\">Ib.</cite> <he>כל תלמיד … רבו וכ׳</he> a student with whom his teacher is angry for the first time, and who keeps silence. ",
+				"<cite ref=\"Mishnah Eduyot 1:3\">Eduy. I, 3</cite>, v. <cite ref=\"L00705\"><he>לָשׁוֹן</he></cite>. ",
+				"<cite ref=\"Pirkei Avot 1:16\">Ab. I, 16</cite> <he>עשה לך רב וכ׳</he> get thyself a teacher, and be relieved of doubt. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 2:9\">R. Hash. II, 9</cite> <he>רַבִּי ותלמידי רבי וכ׳</he> my teacher and my pupil; my teacher in wisdom &c.; v. <cite ref=\"T00085\"><he>רַבִּי</he></cite>.—",
+				"<cite ref=\"Moed Katan 9a:18\">M. Kat. 9ᵃ</cite>, a. fr. <he>למדתנו רַבֵּינוּ</he> thou, our teacher, hast taught us; v. <cite ref=\"T00123\"><he>רַבֵּנוּ</he></cite>; a. v. fr.—Esp. <cite ref=\"T00042\"><he>רַב</he></cite> <i>Rab, </i>"
+			],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " title of the Babylonian Amoraim. ",
+					"units": [
+						"<cite ref=\"Pesachim 52b:11\">Pes. 52ᵇ</cite>; a. v. fr.—<he>בי רב</he> the school of, v. <cite ref=\"B00536\"><he>בֵּי</he></cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " surname of Abba Arekha, the founder of the academy of Sura in Babylonia (v. Graetz, Gesch. d. Jud.<sup>1</sup> IV, p. 312, sq.; Fr. M’bo, p. 122ᵇ). ",
+					"units": [
+						"<cite ref=\"Chullin 95b:16\">Ḥull. 95ᵇ</cite> <he>כולהו שני דרב וכ׳</he> as long as Rab lived, R. Joḥ. addressed his letters to Babylonia, ‘to our teacher in Babylonia.’ <cite ref=\"Avodah Zarah 10b:16\">Ab. Zar. 10ᵇ</cite> <he>אדרכן שמשיה לרב</he> A. (a Parthian ruler) attended (associated with) Rab. ",
+						"<cite ref=\"Jerusalem Talmud Peah 6:3:5\">Y. Peah VI, 19ᶜ</cite> <he>רב כד נחת לתמן</he> when Rab came down to Babylonia. ",
+						"<cite ref=\"Eruvin 50b:15\">Erub. 50ᵇ</cite>, a. fr. <he>רב תנא הוא ופליג</he> Rab is a Tannai and has a right to differ (with other Tannaim). ",
+						"<cite ref=\"Niddah 24b:68\">Nidd. 24ᵇ</cite>, a. fr. <he>הלכתא כרב וכ׳</he>, v. <cite ref=\"A01407\"><he>אִיסּוּרָא</he></cite>; a. v. fr.—<he>ספרא דבי רב</he>, <he>ספרי דבי רב</he>, v. <cite ref=\"O01426\"><he>סִפְרָא</he></cite>.—Pl. <he>רַבּוֹת</he> (only with suffix). ",
+						"<cite ref=\"Taanit 7a:12\">Taan. 7ᵃ</cite>, a. e. <he>מרַבּוֹתַי</he>, v. <cite ref=\"L00565\"><he>לָמַד</he></cite>. ",
+						"<cite ref=\"Shevuot 47a:6\">Shebu. 47ᵃ</cite> <he>רַבּוֹתֵינוּ שבבבל וכ׳</he> ‘our teachers in Babylonia’ means Rab and Samuel. ",
+						"<cite ref=\"Jerusalem Talmud Gittin 7:3:2\">Y. Gitt. VII, 48ᵈ</cite> top <he>ורבותינו אמרו</he> and our teachers said; <he>מנו רבותינו וכ׳</he> who are meant by ‘our teachers’? <cite ref=\"Jerusalem Talmud Gittin 7:3:2\">Ib.</cite>, a. e. <he>בשלשה … רבותיני</he> on three occasions R. Judah (with his court) is quoted as ‘our teachers.’ <cite ref=\"Jerusalem Talmud Shabbat 5:4:7\">Y. Sabb. V, end, 7ᶜ</cite> <he>רבותינו שבגולה</he> our teachers in the diaspora (Babylonia, v. supra); <cite ref=\"Jerusalem Talmud Beitzah 2:5:4\">Y. Bets. II, 61ᶜ</cite> bot. ",
+						"<cite ref=\"Jerusalem Talmud Megillah 1:5:3\">Y. Meg. I, 70ᵈ</cite> <he>כתבו אגרת ושלחו לרבותינו שהן וכ׳</he> they (Mordecai and Esther) wrote a letter addressed ‘to our teachers (in Palestine) that be’, saying to them &c.; a. fr.—<i>Fem.</i> <he>רַבָּה</he> <i>mistress</i>. ",
+						"<cite ref=\"Ruth Rabbah 4:6\">Ruth R. to II, 5</cite> <he>רַבָּתָהּ וכ׳</he> her mistress (Naomi) &c., v. <cite ref=\"T00931\"><he>רָפָה</he></cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

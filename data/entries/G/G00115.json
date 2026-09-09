@@ -1,0 +1,24 @@
+{
+	"id": "G00115",
+	"slug": "זוב-2",
+	"headword": {
+		"text": "זוֹב"
+	},
+	"page": {
+		"number": 383,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00114\">preced.</cite>) <i>flux, gonorrhea, prolonged menstruation</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 35b:9\">Nidd. 35ᵇ</cite> <he>ז׳ דומה</he> the flux (of the gonorrhea) resembles &c. ",
+				"<cite ref=\"Niddah 35b:9\">Ib.</cite> <he>יולדה בז׳</he> one giving birth while suffering with flux; a. fr.—",
+				"<cite ref=\"Menachot 64b:12\">Men. 64ᵇ</cite> <he>שמא בז׳ סיכנה</he> perhaps she was in danger from a severe <i>hemorrhage</i>, v. <cite ref=\"G00262\"><he>זִיבָה</he></cite> a. <cite ref=\"G00263\"><he>זֵיבָה</he></cite>."
+			]
+		}
+	]
+}

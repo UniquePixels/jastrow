@@ -1,0 +1,25 @@
+{
+	"id": "T00581",
+	"slug": "ריב-2",
+	"headword": {
+		"text": "רִיב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1472,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"T00580\">preced.</cite>) <i>strife, contest, cause</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 21b:6\">Meg. 21ᵇ</cite> <he>רִיבֵנוּ</he>, v. <cite ref=\"T00580\">preced.</cite>; a. e.—Pl. <he>רִיבוֹת</he>, <he>רִיבִים</he>. ",
+				"<cite ref=\"Vayikra Rabbah 9:5\">Lev. R. s. 9</cite> <he>מַצּוּת ור׳</he> ed. Wil. (oth. ed. only <cite ref=\"M02299\"><he>מצות</he></cite>) strife and lawsuits. ",
+				"<cite ref=\"Sanhedrin 34b:10\">Snh. 34ᵇ</cite>; <cite ref=\"Niddah 50a:3\">Nidd. 50ᵃ</cite>; <cite ref=\"Sifrei Devarim 208:3\">Sifré Deut. 208</cite> (ref. to <cite ref=\"Deuteronomy 21:5\">Deut. XXI, 5</cite>) <he>מקיש ר׳ לנגעים וכ׳</he> the text puts lawsuits on a level with plagues, as the former must be transacted in day-time &c.; <cite ref=\"Yevamot 104a:7\">Yeb. 104ᵃ</cite>"
+			]
+		}
+	]
+}

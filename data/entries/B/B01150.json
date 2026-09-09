@@ -1,0 +1,32 @@
+{
+	"id": "B01150",
+	"slug": "בקתא-1",
+	"headword": {
+		"text": "בִּקְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּיקְתָא"
+		}
+	],
+	"page": {
+		"number": 188,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>בקעתא</he>, v. <cite ref=\"B00009\"><he>בָּאגָא</he></cite> a. <cite ref=\"B01131\"><he>בִּקְעָה</he></cite>) <i>valley, short cut; group of fields</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 34b\">Ber. 34ᵇ</cite> bot. I consider him arrogant <he>מאן דמצלי בב׳</he> (Ms. M. a. Ar. <he>בפִקְתָא</he> q. v.) who prays in a valley (where people pass by). ",
+				"<cite ref=\"Ketubot 54a\">Keth. 54ᵃ</cite>; <cite ref=\"Ketubot 103a:12\">103ᵃ</cite> <he>בביתי ולא בביקתי</he> ‘in my house’ (‘as long as you will spend your widowhood in my house’—the marriage contract reads) but not in my estate, i.e. she must be content to live in her late husband’s house with his heirs, but she cannot claim a separate residence. [Comment. <he>בקתי</he> = <he>בי עקתי</he> house of my distress, narrow house, i.e. when there is no room for her and the heirs, she loses her claims, v. ",
+				"<cite ref=\"Shabbat 77b:9\">Sabb. 77ᵇ</cite>, etymol. of <he>ב׳</he> = <he>בי עקתא</he> narrow place.]—<he>בר בי׳</he> (<cite ref=\"B01377\"><he>בת</he></cite>) one of the same rural community; trnsf. <i>of the same class</i> or <i>category</i>; <i>neighbor</i>. ",
+				"<cite ref=\"Menachot 24b:10\">Men. 24ᵇ</cite> <he>כולהו בני ב׳</he> they all belong together. ",
+				"<cite ref=\"Meilah 17b:48\">Meïl. 17ᵇ</cite> <he>בני חדא ב׳</he> of the same category.—",
+				"<cite ref=\"Yevamot 84a\">Yeb. 84ᵃ</cite> <he>בת בי׳</he> (ed. <cite ref=\"B00327\"><he>בּוּקְתָא</he></cite>) a parallel case stated immediately after."
+			]
+		}
+	]
+}

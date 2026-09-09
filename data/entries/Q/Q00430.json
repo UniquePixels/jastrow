@@ -1,0 +1,33 @@
+{
+	"id": "Q00430",
+	"slug": "פזים",
+	"headword": {
+		"text": "פְּזֵים",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1150,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"Q00430\"><he>פַּזֵּים</he></cite> (cmp. <cite ref=\"Q00424\"><he>פָּזַז</he></cite>) [<i>to leap</i>,] <i>to speak</i> or <i>sing in one’s turn</i> (corresp. to h. <cite ref=\"P00952\"><he>עָנָה</he></cite>). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 3:2\">Targ. Job III, 2</cite> <he>ופ׳ איוב</he> (v. Perles Beitr. z. Gesch. d. hebr. u. aram. Studien, Munich 1884, p. 67 sq.). ",
+						"<cite ref=\"Onkelos Exodus 15:21\">Targ. Ex. XV, 21</cite> <he>ופַזִּימַת</he> Ar. Haḳḳ. Ms. Regensb. (v. Perles l. c.).—[In liturgy <he>פִּזְמוֹן</he> a poem with a refrain for congregational response.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

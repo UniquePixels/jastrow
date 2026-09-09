@@ -1,0 +1,25 @@
+{
+	"id": "H01390",
+	"slug": "חסית-1",
+	"headword": {
+		"text": "חָסִית",
+		"homograph": 1
+	},
+	"page": {
+		"number": 487,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>חססית</he>; <he>חסס</he>, cmp. Ar. <i>ḥassa</i>) <i>peeling plants, alliacea, leek plants</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 10:10\">Ter. X, 10</cite> <he>אלא עם הח׳</he> (Ms. M. <he>החִיסוֹת</he>; Y. ed. <he>החִיסִית</he>) except they are combined with leek-plants. Y. ib. 47ᵇ <he>ח׳ בח׳ מין במינו</he> if the same species of leek plants (of T’rumah and Ḥullin) are pressed together. ",
+				"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 11</cite>, v. <cite ref=\"D00911\"><he>דִּמְעָה</he></cite>.—Pl. <he>חָסִיּוֹת</he>. ",
+				"<cite ref=\"Tosefta Terumot 9:3\">Tosef. Ter. IX, 3</cite> <he>אלו הן מיני ח׳ וכ׳</he> (ed. Zuck. <he>חרסיות</he>, Var. <he>חוריות</he>, <he>חסיות</he>) the following belong to the leek-plants, common leek, garlic, onion and allium porrum, v. <cite ref=\"S01753\"><he>קַפְלוֹט</he></cite>."
+			]
+		}
+	]
+}

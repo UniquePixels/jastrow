@@ -1,0 +1,27 @@
+{
+	"id": "N00003",
+	"slug": "נא-1",
+	"headword": {
+		"text": "נָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "נָה"
+		}
+	],
+	"page": {
+		"number": 865,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = <cite ref=\"A02084\"><he>אֲנָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 5:1:6\">Y. Ter. V, 43ᶜ</cite> bot. <he>ואוף נא וכ׳</he> I, too, think so. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:5\">Y. Ber. IV, beg. 7ᵃ</cite> <he>וָנָא אמרית וכ׳</he> and I gave a reason for it; a. fr.—V. <cite ref=\"D00925\"><he>דְּנָה</he></cite>, <cite ref=\"L00488\"><he>לֵינָא</he></cite>.—Pl. <cite ref=\"N00897\"><he>נַן</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 2:1:5\">Y. B. Kam. II, beg. 2ᵈ</cite> <he>מה נן אמרין וכ׳</he> why do we say &c.; a. fr."
+			]
+		}
+	]
+}

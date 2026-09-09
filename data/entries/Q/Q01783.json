@@ -1,0 +1,53 @@
+{
+	"id": "Q01783",
+	"slug": "פרי-1",
+	"headword": {
+		"text": "פרי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּרָה"
+		},
+		{
+			"text": "פָּרֶה"
+		}
+	],
+	"page": {
+		"number": 1225,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"Q01754\"><he>פָּרַח</he></cite>) [<i>to break through</i>,] <i>to grow, increase, be fruitful</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 57a:6\">Gitt. 57ᵃ</cite> <he>כלומר פְּרוּ ורבו וכ׳</he> intimating, ‘multiply and increase like chickens’. ",
+				"<cite ref=\"Bamidbar Rabbah 11:2\">Num. R. s. 11</cite> <he>את פְּרֵה ורבה לגוי גדול</he> be thou fruitful and grow to be a great nation. ",
+				"<cite ref=\"Bamidbar Rabbah 11:3\">Ib.</cite> <he>כל מה … היה פָּרֶה ורבה</he> whatever existed in the Temple grew and increased (v. <cite ref=\"Q01681\"><he>פַּרְוַיִם</he></cite>). ",
+				"<cite ref=\"Chagigah 16a:7\">Ḥag. 16ᵃ</cite> <he>פָּרִין ורבין כבני אדם</he> they increase by propagation like human beings. ",
+				"<cite ref=\"Chullin 92a:11-19\">Ḥull. 92ᵃ</cite> (ref. to <he>כפרחת</he>, <cite ref=\"Genesis 40:10\">Gen. XL, 10</cite>) <he>הגיע לִפְרוֹת ולרבות …</he> the time has come for Israel to grow and increase (as a nation); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִפְרָה"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to grow, make fruitful</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 40a:15\">Ber. 40ᵃ</cite> <he>דגים קטנים מַפְרִין ומרבין ומברין כל גופו וכ׳</he> (Ms. M. <he>מפרין ומרבין גופו וכ׳</he>) small fish make fruitful (increase the sexual vigor) and strengthen the whole body of man; <cite ref=\"Berakhot 57b:15\">ib. 57ᵇ</cite> <he>מפרין ומברין</he> (Ms. M. <he>מפרין ומרבין</he>); <cite ref=\"Avodah Zarah 29a:7\">Ab. Zar. 29ᵃ</cite> <he>מפרין ומרבין</he> (read: <he>ומַבְרִין</he>); a. e.—["
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to increase the rent above the original stipulation</i> in consideration of a loan, v. <cite ref=\"Q01744\"><he>פָּרַז</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 5:5\">B. Mets. V, 5</cite> (<cite ref=\"Bava Metzia 69b:8\">69ᵇ</cite>) <he>מפרין על שדהו ואין חוששין וכ׳</he> Ar. (Y. ed. <he>ואין חושש</he>—which indicates that <he>מפרין</he> is singular, fr. <cite ref=\"Q01879\"><he>פָּרַן</he></cite> q. v.).]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

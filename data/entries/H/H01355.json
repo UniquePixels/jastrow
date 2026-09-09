@@ -1,0 +1,28 @@
+{
+	"id": "H01355",
+	"slug": "חסום",
+	"headword": {
+		"text": "חֲסוֹם"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוֹסָם"
+		}
+	],
+	"page": {
+		"number": 486,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חָסַם</he> I; b. h. <i>muzzle</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:7\">Kel. XVI, 7</cite> (ed. Dehr. <cite ref=\"H00833\"><he>חִיסּוּם</he></cite>; Mish. ed. <cite ref=\"H01379\"><he>חסים</he></cite>, incorr.). ",
+				"<cite ref=\"Tosefta Shabbat 4:5\">Tosef. Sabb. IV</cite> (<cite ref=\"Tosefta Shabbat 5:5\">V</cite>), 5 <he>חוסם</he>; <cite ref=\"Shabbat 53a\">Sabb. 53ᵃ</cite>"
+			]
+		}
+	]
+}

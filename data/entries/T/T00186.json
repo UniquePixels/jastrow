@@ -1,0 +1,33 @@
+{
+	"id": "T00186",
+	"slug": "רגיג",
+	"headword": {
+		"text": "רָגִיג"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְ׳"
+		},
+		{
+			"text": "רְגִיגָא"
+		}
+	],
+	"page": {
+		"number": 1448,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., <cite ref=\"T00186\"><he>רְגִיגָא</he></cite>, <cite ref=\"T00187\"><he>רְגִיגְתָּא</he></cite> f. (<cite ref=\"T00158\"><he>רְגַג</he></cite>) <i>desirable, precious</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 51:7\">Targ. Jer. LI, 7</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 33:20\">Targ. Job XXXIII, 20</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 106:24\">Targ. Ps. CVI, 24</cite> (not <cite ref=\"T00597\"><he>ריגגא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 21:20\">Targ. Prov. XXI, 20</cite> (ed. Wil. <cite ref=\"T00187\"><he>רְגִגְ׳</he></cite>); a. e.—V. <cite ref=\"T00187\">next w.</cite>"
+			]
+		}
+	]
+}

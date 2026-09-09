@@ -1,0 +1,30 @@
+{
+	"id": "P01416",
+	"slug": "ערעיתא-2",
+	"headword": {
+		"text": "עַרְעִיתָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עָרָעִיתָא"
+		}
+	],
+	"page": {
+		"number": 1121,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"R00794\"><he>צִרְעָה</he></cite>, <i>wasp, hornet</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 23:28\">Targ. O. Ex. XXIII, 28</cite> <cite ref=\"P00681\"><he>עָרָ׳</he></cite> ed. Berl. (oth. ed. <cite ref=\"P00681\"><he>עֲרָ׳</he></cite>, <cite ref=\"P00681\"><he>עַרְ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Joshua 24:12\">Targ. Josh. XXIV, 12</cite>; a. e.—",
+				"<cite ref=\"Shabbat 80b:5\">Sabb. 80ᵇ</cite> <he>ונפקא ע׳ מן וכ׳</he> a wasp came out of the wall and stung him &c., v. <cite ref=\"A02115\"><he>אַנְדִּיפֵי</he></cite>.—V. <cite ref=\"A00911\"><he>אוּרְעִיתָא</he></cite>."
+			]
+		}
+	]
+}

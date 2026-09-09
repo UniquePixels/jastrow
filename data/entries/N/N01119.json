@@ -1,0 +1,34 @@
+{
+	"id": "N01119",
+	"slug": "נצי-1",
+	"headword": {
+		"text": "נצי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָצָה"
+		}
+	],
+	"page": {
+		"number": 928,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to press; Nif</i>. <he>נִצָּה</he> (b. h.; cmp. <cite ref=\"H00083\"><he>חָבַל</he></cite>) <i>to wrangle, fight</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְנַצֶּה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"N01118\">same</cite>. Tanḥ. Ḥuck. ed. Bub. 1; <cite ref=\"Bamidbar Rabbah 18\">Num. R. s. 18</cite>, end <he>ראה שני צפרים מִתְנַצִּין וכ׳</he> saw two birds fight &c.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

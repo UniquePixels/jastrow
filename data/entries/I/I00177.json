@@ -1,0 +1,49 @@
+{
+	"id": "I00177",
+	"slug": "טומוס",
+	"headword": {
+		"text": "טוֹמוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִימוֹס"
+		}
+	],
+	"page": {
+		"number": 524,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (τόμος) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>scroll, roll, tome</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Kamma 9:31\">Tosef. B. Kam. IX, 31</cite> <he>בט׳ של וכ׳</he> with a roll of papers in his hand; Y. ib. VIII, beg. 6ᵇ; Sifra Emor Par. 14, ch. XX <cite ref=\"I00387\"><he>טימסמירות</he></cite>, <he>טימיסמ׳</he> (read: <he>ט׳ של ניירות</he> or <he>שטרות</he>); <cite ref=\"Yalkut Shimoni on Torah 658\">Yalk. Lev. 658</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>document, record</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Horayot 3:4:3\">Y. Hor. III, 48ᵃ</cite> bot. <he>ראש טי׳</he> at the head of the list; <cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite> <he>בראש ט׳</he> Ar. (ed. only <he>בראש</he>). ",
+				"<cite ref=\"Bereishit Rabbah 25:1\">Gen. R. s. 25</cite> beg. <he>בתוך טִימוֹסָן וכ׳</he> in the record of the righteous; <cite ref=\"Yalkut Shimoni on Torah 42:2\">Yalk. ib. 42</cite>; Yalk. Chr. 1072 <he>טִימוֹסִין</he> pl.—Pl. <he>טוֹמוֹסִין</he>, <he>טוֹמוֹסוֹת</he>, <cite ref=\"I00083\"><he>טִי׳</he></cite>. Pesik. Zakh. p. 27ᵃ [read:] <he>ונטל ט׳ וכ׳</he> (or <he>טִימוֹסָן</he>) he took the lists of the tribes &c.; Tanḥ. Ki Thetse 9. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:1:19\">Y. Snh. X, 28ᵃ</cite> top <he>אף שמותיהם … טֹמְסוֹתֵיהֶם</he> even their names disappeared from their books of records. ",
+				"<cite ref=\"Shemot Rabbah 15:22\">Ex. R. s. 15</cite> <he>הוציא הנמוסין וכ׳</he> (corr. acc.; Tanḥ. Vaëra 5 <cite ref=\"D00976\"><he>דִּפְתְּרָא</he></cite>) he brought out the lists of the deities."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>census</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 2</cite> <he>היה טימס … בעגלה</he> their census had to be carried to Jerusalem on a wagon; [<cite ref=\"Jerusalem Talmud Taanit 4:5:13\">Y. Taan. IV, 69ᵃ</cite> bot. <he>קטמו׳</he> read <he>הטומוס</he> or <he>קִינְסוֹס</he>]."
+			],
+			"label": "3"
+		}
+	]
+}

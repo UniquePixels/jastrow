@@ -1,0 +1,28 @@
+{
+	"id": "H00641",
+	"slug": "חטפא-1",
+	"headword": {
+		"text": "חֲטָפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִיטְפָא"
+		}
+	],
+	"page": {
+		"number": 450,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00640\">preced.</cite>) <i>robbery, violence</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 45:9\">Targ. Ez. XLV, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 60:18\">Targ. Is. LX, 18</cite>."
+			]
+		}
+	]
+}

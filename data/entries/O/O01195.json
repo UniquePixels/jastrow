@@ -1,0 +1,33 @@
+{
+	"id": "O01195",
+	"slug": "סנהדרי-1",
+	"headword": {
+		"text": "סַנְהֶדְרֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַנְהֶדְרִין"
+		}
+	],
+	"page": {
+		"number": 1005,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(also <i>pl.</i>) (συνέδριον) <i>Sanhedrin</i>, the supreme council of the Jews; <he>ס׳ גדולה</he> <i>the Great S.</i>, consisting of seventy-one members; <he>ס׳ קטנה</he> <i>the Small S.</i>, a judicial court of twenty-three. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 1:6\">Snh. I, 6</cite>. ",
+				"<cite ref=\"Mishnah Sanhedrin 1:6\">Ib.</cite> <he>ראויה לס׳</he> fit to be a seat of the S. ",
+				"<cite ref=\"Mishnah Makkot 1:10\">Macc. I, 10</cite> <he>ס׳ נוהגת בארץ וכ׳</he> the S. may exercise its functions in Palestine and outside. ",
+				"<cite ref=\"Mishnah Makkot 1:10\">Ib.</cite> <he>ס׳ ההורגת וכ׳</he> a S. that executes capital punishment (more than) once in seven years. Ib. 9 (ref. to <cite ref=\"Deuteronomy 17:6\">Deut. XVII, 6</cite>) <he>שלא תהא ס׳ שומעת וכ׳</he> this intimates that the S. must not hear the testimony from the mouth of an interpreter. ",
+				"<cite ref=\"Sanhedrin 63a:23\">Snh. 63ᵃ</cite> <he>לס׳ שהרגו וכ׳</he> that a S. which puts a person to death must not taste food during the entire day of execution; a. v. fr.—Pl. <he>סַנְהֶדְרָיוֹת</he>, <he>סַנְהֶדְרָאוֹת</he>, <he>סַנֶּדְרָ׳</he>. ",
+				"<cite ref=\"Mishnah Sanhedrin 1:5\">Ib. I, 5</cite> <he>אין עושין ס׳ לשבטים וכ׳</he> supreme courts for tribes (provincial courts, Small Sanhedrin) can be instituted only by decree of the court of seventy-one; Sifra K’dosh. ch. VIII, Par. 10 <he>סנדריות של ישראל</he>; Yalk. Lev. 619 <he>סנהד׳ של שבטים</he>, opp. <he>ס׳ גדולה</he>. ",
+				"<cite ref=\"Sanhedrin 16b:1\">Snh. 16ᵇ</cite> <he>כנדראות</he> (also in Chald. diction); a. fr.—<i>Sanhedrin</i>, name of a treatise, of the Order of N’ziḳin, of Mishnah, Toseftaand Talmud Babli a. Y’rushalmi."
+			]
+		}
+	]
+}

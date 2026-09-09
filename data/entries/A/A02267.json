@@ -1,0 +1,23 @@
+{
+	"id": "A02267",
+	"slug": "אנפו",
+	"headword": {
+		"text": "אַנְפּוּ",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 86,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01036\"><he>נפי</he></cite>) = h. <cite ref=\"V00731\"><he>תְּנוּפָה</he></cite> <i>waving</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Leviticus 7:30\">Targ. Y. II, Lev. VII, 30</cite> (<cite ref=\"Targum Jerusalem, Leviticus 7:20\">20</cite>) (some ed. <he>אַנְפּוֹי</he>)."
+			]
+		}
+	]
+}

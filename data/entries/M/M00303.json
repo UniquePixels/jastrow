@@ -1,0 +1,34 @@
+{
+	"id": "M00303",
+	"slug": "מדל-2",
+	"headword": {
+		"text": "מְדִל"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִדְלָא"
+		},
+		{
+			"text": "מִידְלָא"
+		}
+	],
+	"page": {
+		"number": 734,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (compound of <cite ref=\"M00003\"><he>מָא</he></cite>, <he>דִּ־</he>, a. <cite ref=\"L00000\"><he>ל</he></cite>) <i>belonging, property</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 6:6:4\">Y. Keth. VI, 30ᵈ</cite> bot. <he>ר׳ … אתפקיד גביה מדל דיתמין</he> orphan’s money was given in trust of R …; <cite ref=\"Jerusalem Talmud Gittin 5:3:6\">Y. Gitt. V, 46ᵈ</cite> bot. (insert <he>גביה</he>); <cite ref=\"Jerusalem Talmud Shekalim 4:2:6\">Y. Shek. IV, 48ᵃ</cite> bot. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 9:4:4\">Y. Ned. IX, 41ᶜ</cite> <he>הוא ומִדְלֵיה</he> himself and whatever belonged to him. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> beg. <he>ואפקד בידיה מְדִילֵיה</he> and gave him his belongings in charge. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Ib.</cite> end <he>כל עותרא ומ׳ הדין</he> all these riches and belongings. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Ib.</cite> <he>דחלית דלא יסבון מדלי וכ׳</he> (read <he>מדליה</he>) I was afraid lest his relatives may take away his belongings; a. e.—V. <cite ref=\"M00413\"><he>מוֹדְלָא</he></cite>."
+			]
+		}
+	]
+}

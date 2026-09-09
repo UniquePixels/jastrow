@@ -1,0 +1,81 @@
+{
+	"id": "O00903",
+	"slug": "סכך-1",
+	"headword": {
+		"text": "סָכַךְ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 990,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to interlace, entangle; to be entangled, ramified</i>.—Denom. <cite ref=\"O00875\"><he>סֻכָּה</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵיסֵךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to weave</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> <he>והמֵיסֵךְ</he> and the work of the weaver. Y. ib. VII, 10ᶜ top <he>משום מֵיסֵיךְ</he> his act coming under the category of weaving; <he>משום מֵיסֶכֶת</he> her act coming &c. ",
+						"<cite ref=\"Tosefta Shabbat 8:2\">Tosef. ib. VIII</cite> (<cite ref=\"Tosefta Shabbat 9:2\">IX</cite>), 2 <he>המוסיך שלשה וכ׳</he> ed. Zuck. (corr. acc.) he who weaves three threads (on the Sabbath); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"O00875\"><he>סֻכָּה</he></cite>) <i>to hang over, shade</i>. Ohol. VIII, 2; <cite ref=\"Moed Katan 5b:7\">M. Kat. 5ᵇ</cite> <he>אילן המיסך על הארץ</he> a tree (with a seat of uncleanness on one of its boughs) throwing a shadow (forming a tent, cmp. <cite ref=\"A00501\"><he>אֹהֶל</he></cite>) over the ground; a. e.; v. <cite ref=\"O00908\"><he>סְכָכָה</he></cite>.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": " ה׳ רגליו <i>to cross one’s feet</i>, euphem. for: <i>to ease one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Yoma 3:2\">Yoma III, 2</cite>. Y. Ber. IX, 14ᵇ bot.; a. e."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["סִכֵּךְ", "סִיכֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to cover with boughs</i> &c., esp. <i>to cover the festive booth</i> (<i>Succah</i>). ",
+					"units": [
+						"<cite ref=\"Berakhot 62b:9\">Ber. 62ᵇ</cite> (ref. to <he>להסך את רגליו</he>, <cite ref=\"I Samuel 24:4\">I Sam. XXIV, 4</cite>, v. supra) <he>מלמד שס׳ עצמו כסוכה</he> this intimates that he shaded himself (retired in a chaste manner) as in a booth. ",
+						"<cite ref=\"Mishnah Sukkah 1:4\">Succ. I, 4</cite> <he>הדלה … וס׳ על גבה</he> if he trained a vine over the booth and put twigs over it. ",
+						"<cite ref=\"Mishnah Sukkah 1:4\">Ib.</cite> <he>אין מְסַכְּכִים בו</he> you must not use it for covering. Ib. 14ᵇ <he>סִיכַּכְנוּ על וכ׳</he> we covered a stable with them. ",
+						"<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 17</cite> (ref. to <he>בסך</he>, <cite ref=\"Psalms 42:5\">Ps. XLII, 5</cite>) <he>לשעבר … ואילנות מְסַכְּכוֹת וכ׳</he> formerly I went up (to Jerusalem) with trees forming shades over my head; a. fr.—Part. pass. <he>מְסוּכָּךְ</he>; f. <he>מְסוּכֶּכֶת</he>. ",
+						"<cite ref=\"Sukkah 8b:4\">Succ. 8ᵇ</cite> <he>ובלבד שתהא מס׳ וכ׳</he> provided the Succah is covered according to law. ",
+						"<cite ref=\"Bereishit Rabbah 42\">Gen. R. s. 42</cite> (ref. to <he>עמק סכות</he>, <cite ref=\"Psalms 60:8\">Ps. LX, 8</cite>) <he>עמק שהוא מס׳ וכ׳</he> the valley which is shaded with trees. ",
+						"<cite ref=\"Bava Batra 25b\">B. Bath. 25ᵇ</cite> Ms. M., v. <cite ref=\"A01720\"><he>אַכְסַדְרָא</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to weave; to intertwine plants; to train a creeper over another plant</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 97a\">Men. 97ᵃ</cite> (expl. <he>יֻסַּךְ</he>, <cite ref=\"Exodus 25:29\">Ex. XXV, 29</cite>) the tubes <he>שמְסַכְּכִין בהן וכ׳</he> with which they interweave the show bread (which they lay crosswise between the loaves, to allow the air to pass through). ",
+						"<cite ref=\"Tosefta Kilaim 1:6\">Tosef. Kil. I, 6</cite>, v. <cite ref=\"O00644\"><he>סִיכּוּךְ</he></cite>. Y. ib. II, end, 28ᵇ (not <he>מסבכין</he>). ",
+						"<cite ref=\"Vayikra Rabbah 14\">Lev. R. s. 14</cite>, end (ref. to <cite ref=\"Job 10:11\">Job X, 11</cite> <he>תשככני</he>) <he>סִכַּכְתַּנִי אינו אומר אלא תְּסוֹכְכֵנִי</he> it does not say, Thou <i>hast</i> woven me, but, Thou shalt weave me (in the future world)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to form shade, to creep, intergrow</i>. Y. Kil. l. c. <he>דלעת מצרית שהיא מְסַכֶּכֶת</he> the Egyptian gourd which creeps. ",
+					"units": [
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>שאין כולן מְסַכְּכִין וכ׳</he> not all of them creep like the Egyptian gourd."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "P01544",
+	"slug": "עתק-2",
+	"headword": {
+		"text": "עָתַק",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1130,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to be substantial, strong</i>; (cmp. <cite ref=\"J00693\"><he>יָשִׁישׁ</he></cite>) <i>to be old</i>.—Denom. <cite ref=\"P01532\"><he>עַתִּיק</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶעְתִּיק"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"P01532\"><he>עַתִּיק</he></cite>; cmp. <cite ref=\"G00642\"><he>זָקַן</he></cite> <i>Nithpa.</i>) <i>to be long in deliberating, mature</i>. ",
+					"units": [
+						"<cite ref=\"Avot D'Rabbi Natan 1:4\">Ab. d’R. N. ch. I</cite> (expl. <he>העתיקו</he>, <cite ref=\"Proverbs 25:1\">Prov. XXV, 1</cite>) <he>ולא שהעתיקו אלא שהמתינו</he> and <i>hʿetiḳu</i> means, ‘which they considered maturely’; <he>אבא שאול אומר לא שהמתינו אלא שפירשו</he> Abba S. says, it does not mean ‘which they considered maturely’, but ‘which they set aside’, v. <cite ref=\"P01543\">preced.</cite>"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

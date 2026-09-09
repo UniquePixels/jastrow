@@ -1,0 +1,53 @@
+{
+	"id": "M02307",
+	"slug": "מצי-2",
+	"headword": {
+		"text": "מְצִי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "מְצָא"
+		}
+	],
+	"page": {
+		"number": 825,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M02306\">same</cite>, <i>to reach, be able; to master</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 114b:3\">B. Mets. 114ᵇ</cite> <he>בארבעה לא מָצִינָא וכ׳</he> I could not master four orders of the Talmud, how could I master six?—Ib. 14ᵃ, a. fr. <he>מָצֵי אמר ליה</he> he may say to him. ",
+				"<cite ref=\"Bava Batra 84a\">B. Bath. 84ᵃ</cite> <cite ref=\"L00003\"><he>לא</he></cite> (<he>הוה</he>) <he>מָצִית הדרת בך</he> (v. Rabb. D. S. a. l.) thou wouldst not have had the right to retract; <he>השתא … מצית וכ׳</he> now that thou hast overreached me, canst thou retract?; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִימְּצִי", "אִמְּ׳"],
+			"senses": [
+				{
+					"gloss": " [<i>to find one’s self</i>,] <i>to succeed</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 62a\">Keth. 62ᵃ</cite> <he>לא אי׳ נכרי וכ׳</he> the gentile did not succeed in keeping pace with him. ",
+						"<cite ref=\"Nedarim 89b:6\">Ned. 89ᵇ</cite> <he>רהיט … ולא אמ׳ למיתנא</he> he tried his utmost (v. <cite ref=\"C01197\"><he>גַּפָּא</he> I</cite>), but had no success in his studies; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אַמְצִיא"],
+			"senses": [
+				{
+					"gloss": " (with <he>נפשיה</he>, or without) <i>to place one’s self within sight</i> of an enemy so as to give him a chance for reconciliation, <i>to be ready for reconciliation</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 87a\">Yoma 87ᵃ</cite> <he>הוה מַמְצִיא נפשיה</he> (v. Rabb. D. S. a. l. note; ed. <he>וממציא ליה</he>).—[<cite ref=\"Ketubot 60b\">Keth. 60ᵇ</cite> <cite ref=\"M01675\"><he>מְמַצְּיָא</he></cite>, v. <cite ref=\"M02309\"><he>מְצִי</he> II</cite>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

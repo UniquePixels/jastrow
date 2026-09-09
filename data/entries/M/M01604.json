@@ -1,0 +1,27 @@
+{
+	"id": "M01604",
+	"slug": "מלמלה",
+	"headword": {
+		"text": "מַלְמֵלָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַלְמֵלָא"
+		}
+	],
+	"page": {
+		"number": 793,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>מָלַל</he> II; cmp. <cite ref=\"M01196\"><he>מֵילַת</he></cite>) <i>cloth of a fine and downy texture</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 59a:17\">Gitt. 59ᵃ</cite>, explained <he>דבר הנמלל</he>, v. <cite ref=\"M01591\"><he>מָלַל</he> II</cite>, <i>Nif.</i>"
+			]
+		}
+	]
+}

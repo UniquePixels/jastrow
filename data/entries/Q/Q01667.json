@@ -1,0 +1,39 @@
+{
+	"id": "Q01667",
+	"slug": "פרוטה",
+	"headword": {
+		"text": "פְּרוּטָה"
+	},
+	"page": {
+		"number": 1219,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01763\"><he>פָּרַט</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>small change</i>, in gen. <i>money</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 97a:10\">Snh. 97ᵃ</cite> (the Messiah will not come) <he>עד שתכלה פ׳ מן הכיס</he> until the money is gone from the bag (general poverty will prevail). Pesik. Baḥod., p. 101ᵇ; <cite ref=\"Yalkut Shimoni on Torah 271:4\">Yalk. Ex. 271</cite> <he>בראשונה שהיתה הפ׳ מצויה וכ׳</he> (not <he>בראשון</he>) formerly when money was plentiful, people were anxious to hear a word of the Mishnah &c. (legal discussions), <he>ועכשיו שאין הפ׳ מצויה וכ׳</he> but now when money is scarce (Israel is poor) …, people want to hear a word of the Bible &c. (cheering the soul); a. fr.—Esp. <i>p’ruṭah</i>, a small coin, one eighth of the <i>as</i> (<cite ref=\"A01506\"><he>אִיסָר</he></cite>). ",
+				"<cite ref=\"Mishnah Kiddushin 1:1\">Kidd. I, 1</cite>. ",
+				"<cite ref=\"Mishnah Shevuot 6:1\">Shebu. VI, 1</cite>; <cite ref=\"Mishnah Bava Metzia 4:7\">B. Mets. IV, 7</cite> <he>שוה פ׳</he> the value of a P’ruṭah; a. v. fr.—",
+				"<cite ref=\"Nedarim 33b:7\">Ned. 33ᵇ</cite> <he>קא מהני ליה פ׳ דרב יוסף</he> he gains the poor man’s penny of R. Joseph (who considers the keeper of a lost object a paid guardian, because, while engaged in one religious work, he is exempt from every other religious duty that may arise).—Pl. <he>פְּרוּטוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:1:20\">Y. Kidd. I, 58ᵈ</cite> bot. B. Mets. l. c. <he>חמש פ׳ הן</he> there are five cases in which the value of a P’ruṭah is legally recognized. Ib. 55ᵃ <he>אין אונאה לפ׳</he> there is no redress in cases of overreaching where the claim is only P’ruṭahs (less than one <i>as</i>). Ib. 46ᵃ Ar. (ed. <cite ref=\"Q01671\"><he>פְּרוֹטְטוֹת</he></cite>). ",
+				"<cite ref=\"Pesachim 50b:8\">Pes. 50ᵇ</cite> <he>ארבעה פ׳ אין בהן וכ׳</he> in four pennies (ways of earning a livelihood) there is never a sign of blessing &c.; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>drop</i>.—Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 2:6\">Kel. II, 6</cite> <he>מוציא פ׳</he> a vessel letting liquid out in drops, <i>dropping-bottle</i>.—[<cite ref=\"Jerusalem Talmud Kilayim 8:2:1\">Y. Kil. VIII, 31ᶜ</cite> bot., v. <cite ref=\"Q01674\"><he>פְּרוּטִיּוֹת</he></cite>]."
+			],
+			"label": "2"
+		}
+	]
+}

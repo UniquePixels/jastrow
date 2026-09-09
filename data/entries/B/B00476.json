@@ -1,0 +1,42 @@
+{
+	"id": "B00476",
+	"slug": "בחיר",
+	"headword": {
+		"text": "בְּחִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּחִירָא"
+		}
+	],
+	"page": {
+		"number": 155,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בחר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": " = h. <cite ref=\"B00472\"><he>בָּחוּר</he></cite>, <cite ref=\"B00476\"><he>בָּחִיר</he></cite>, <i>chosen, select</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 21:6\">Targ. II Sam. XXI, 6</cite>; a. e.—Pl. <he>בְּחִירִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 105:6\">Targ. Ps. CV, 6</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 6:6:5\">Y. Snh. VI, 23ᶜ</cite> bot. <he>תמנין גוברין ב׳</he> eighty select (young) men; <cite ref=\"Jerusalem Talmud Chagigah 2:4:3\">Y. Ḥag. II, 78ᵃ</cite> top <he>בחו׳</he> (corr. acc.).—Fem. <cite ref=\"B00476\"><he>בְּחִירָן</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 14:7\">Targ. O. Ex. XIV, 7</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"B00481\"><he>בָּחַן</he></cite>) <i>tried, purified</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 18:31\">Targ. Ps. XVIII, 31</cite>; <cite ref=\"II Samuel 23:31\">II Sam. XXIII, 31</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "U01863",
+	"slug": "שקיע",
+	"headword": {
+		"text": "שַׁקִּיעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁקִּיעָא"
+		}
+	],
+	"page": {
+		"number": 1622,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01878\"><he>שְׁקַע</he></cite>) <i>depressed, having the appearance of a depression</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 13:55\">Targ. Y. Lev. XIII, 55</cite> <he>צורעא ש׳</he> (some ed. <cite ref=\"U01046\"><he>שְׁקִ׳</he></cite>; h. text <he>פחתת</he>)."
+			]
+		}
+	]
+}

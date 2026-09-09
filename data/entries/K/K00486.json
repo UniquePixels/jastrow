@@ -1,0 +1,41 @@
+{
+	"id": "K00486",
+	"slug": "כיבוש-1",
+	"headword": {
+		"text": "כִּיבּוּשׁ"
+	},
+	"page": {
+		"number": 630,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00081\"><he>כָּבַשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>conquest, dominion</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Horayot 3:5:8\">Y. Hor. III, 48ᶜ</cite> top <he>בכ׳ הארץ</he> for the conquest of Palestine. ",
+				"<cite ref=\"Gittin 8b:1\">Gitt. 8ᵇ</cite> (ref. to Syria) <he>כ׳ יחיד … כ׳</he> the conquest of an individual (David) is not called a (national) conquest (so as to give the land the sacred character of Palestine); <cite ref=\"Gittin 47a:16\">ib. 47ᵃ</cite>, a. fr.—[<cite ref=\"Bereishit Rabbah 17:4\">Gen. R. s. 17</cite> <he>לכבוש</he>, v. <cite ref=\"K00568\"><he>כִּינּוּס</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = <cite ref=\"K00084\"><he>כֶּבֶשׁ</he></cite> 2, <i>ascent, grade</i>. Y. Erub. II, 24ᵇ bot. [read:] <he>כל כִּיבּוּשֵׁי כבשים … מכִּי בּוּשׁוֹ וכ׳</he> all grades of ascents in the Temple …, with the exception of the grade of the altar-bridge which was at the rate of about ten handbreadths to three handbreadths and one third of a finger’s width (of vertical height; i.e. 10 to 3 <sup>1</sup>/<sub>12</sub>), v. <cite ref=\"K00084\"><he>כֶּבֶשׁ</he></cite>.—Pl. <he>כִּיבּוּשִׁים</he>, <he>כִּיבּוּשִׁין</he>, constr. <cite ref=\"K00486\"><he>כִּיבּוּשֵׁי</he></cite>, v. supra.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (only in <i>pl.</i>) <i>means of subduing one’s pride; reproof; evil prediction, penitence</i>. Pesik. V’zoth, p. 197ᵃ <he>הן וכִיבּוּשֵׁיהֶן</he> they (the blessings) but also the reproofs connected therewith (<cite ref=\"Deuteronomy 32:52\">Deut. ch. XXXII</cite>); <cite ref=\"Yalkut Shimoni on Torah 550:2\">Yalk. Deut. 550</cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 66:7\">Gen. R. s. 66</cite> (ref. to <cite ref=\"Genesis 27:28\">Gen. XXVII, 28</cite>) [read:] <he>יתן לך ברכות ויתן לך כיבושיהן</he>; <cite ref=\"Yalkut Shimoni on Torah 115:22\">Yalk. Gen. 115</cite> <he>כיבושין הראויות לך</he> may He give thee blessings, but also such means of preventing overbearing as may be proper for thee.—דברי כ׳ <i>admonitions to penitence</i>. ",
+				"<cite ref=\"Mishnah Taanit 2:1\">Taan. II, 1</cite> (<cite ref=\"Taanit 15a:7\">15ᵃ</cite>); Tosef. ib. I, 8."
+			],
+			"label": "3"
+		}
+	]
+}

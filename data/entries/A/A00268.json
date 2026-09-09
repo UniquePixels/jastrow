@@ -1,0 +1,27 @@
+{
+	"id": "A00268",
+	"slug": "אגוסטא",
+	"headword": {
+		"text": "אָגוּסְטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אגוסטה"
+		}
+	],
+	"page": {
+		"number": 11,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>Augusta</i>, title of a female member of the imperial family (of Rome), in gen. <i>princess</i> &c. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 3:2\">Esth. R. to I, 9</cite>. [Tanʿh. Vaëra 8, <he>א׳</he>, read <he>טוס …</he>]"
+			]
+		}
+	]
+}

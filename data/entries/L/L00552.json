@@ -1,0 +1,40 @@
+{
+	"id": "L00552",
+	"slug": "לכלוכית",
+	"headword": {
+		"text": "לַכְלוּכִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִיכְ׳"
+		}
+	],
+	"page": {
+		"number": 711,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"L00551\">same</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>glutinous moisture, humors; vitality</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 61\">Gen. R. s. 61</cite> beg.; <cite ref=\"Bereishit Rabbah 61\">ib.</cite> s. 48 Ar., v. <cite ref=\"L00358\"><he>לִחְלוּחִית</he></cite>. Ib. s. 79 <he>תביא בך לי׳ וכ׳</he> Ar. (read: <he>תבוא בכל ל׳</he>) thou shalt go to the grave in the fulness of vigor; (ed. <he>תבוא לח</he>, v. <cite ref=\"L00333\"><he>לַח</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>thick nauseating substance</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 14:2\">Lev. R. s. 14</cite> <he>טיפה של ל</he> (of the semen virile). ",
+				"<cite ref=\"Nedarim 66b:6\">Ned. 66ᵇ</cite>, v. <cite ref=\"J00500\"><he>יָפֶה</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "M01521",
+	"slug": "מלח-2",
+	"headword": {
+		"text": "מְלַח",
+		"homograph": 1
+	},
+	"page": {
+		"number": 788,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"M01520\">same</cite> <cite ref=\"Onkelos Leviticus 2:13\">Targ. Lev. II, 13</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 31:19\">Targ. Y. Gen. XXXI, 19</cite>.—",
+				"<cite ref=\"Shabbat 75b:2\">Sabb. 75ᵇ</cite> <he>האי מאן דמ׳ בשרא וכ׳</he> he who salts raw meat (on the Sabbath) &c. ",
+				"<cite ref=\"Chullin 113a:13\">Ḥull. 113ᵃ</cite> <he>מ׳ ליה גרמא גרמא</he> salted each piece separately. ",
+				"<cite ref=\"Bava Batra 74b:8\">B. Bath. 74ᵇ</cite> <he>לִימְלְחָהּ לנקבה</he> let him preserve in salt the female (Behemoth); a. fr.—Part. pass. <cite ref=\"M01552\"><he>מְלִיחַ</he></cite>, <cite ref=\"M01553\"><he>מְלִיחָא</he></cite>, pl. <he>מְלִיחֵי</he>. ",
+				"<cite ref=\"Bava Batra 74b:8\">Ib.</cite> <he>כוורא מ׳ מעלי</he> fish in salt is good; <he>בשרא מ׳ וכ׳</he> meat in salt is not.—",
+				"<cite ref=\"Bava Batra 74b:8\">Ib.</cite> <he>ציפרי מ׳</he> fowls in salt; a. fr.—V. <cite ref=\"M01553\"><he>מְלִיחָא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְמְלַח", "אִימְּלַח"],
+			"senses": [
+				{
+					"gloss": "<i>to be strewn with salt, be salted</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 16:4\">Targ. Ez. XVI, 4</cite>.—",
+						"<cite ref=\"Chullin 112b\">Ḥull. 112ᵇ</cite>. ",
+						"<cite ref=\"Chullin 97b:4\">Ib. 97ᵇ</cite> <he>אִימְּלִיחוּ וכ׳</he> were (ritually) salted … with the nervus ischiadicus left therein; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

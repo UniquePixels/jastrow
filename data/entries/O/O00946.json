@@ -1,0 +1,27 @@
+{
+	"id": "O00946",
+	"slug": "סכתא-2",
+	"headword": {
+		"text": "סִכְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִיכְ׳"
+		}
+	],
+	"page": {
+		"number": 993,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סְכֵי</he> II; cmp. b. h. <he>מַשְׂכִּית</he>) <i>face, stamp of a coin</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 99b:23\">B. Kam. 99ᵇ</cite> <he>טעו בס׳ חדתא דההיא שעתא נפק מתותי ס׳</he> they (the experts having declared a coin cancelled) made a mistake in not noticing the new stamp (by which it was reinstated), for it just had come from the stamping process."
+			]
+		}
+	]
+}

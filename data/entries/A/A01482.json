@@ -1,0 +1,24 @@
+{
+	"id": "A01482",
+	"slug": "איספקא",
+	"headword": {
+		"text": "אִיסְפְּקָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 56,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01402\"><he>ספק</he></cite>) prop. <i>feeder, supplier</i>, hence <i>vessel in which wine is put on the table</i> (amphora). ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 16:33\">Targ. O. Ex. XVI, 33</cite> Ar. (ed. <cite ref=\"R00493\"><he>צלוחית</he></cite>). ",
+				"<cite ref=\"Gittin 14a:19\">Git. 14ᵃ</cite>. Cmp. <cite ref=\"G00621\"><he>זֶפֶק</he></cite>."
+			]
+		}
+	]
+}

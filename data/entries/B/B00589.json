@@ -1,0 +1,42 @@
+{
+	"id": "B00589",
+	"slug": "בייא-2",
+	"headword": {
+		"text": "בִּיָיא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּיָיה"
+		}
+	],
+	"page": {
+		"number": 160,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (βία) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>force, act of violence, extortion, wrong</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 93:6\">Gen. R. s. 93</cite> (play on <i>bi</i>, <cite ref=\"Genesis 44:18\">Gen. XLIV, 18</cite>) <he>ב׳ אתה מעביר עלינו</he> thou passest violence over us (thou treatest us unjustly). ",
+				"<cite ref=\"Shemot Rabbah 20:10\">Ex. R. s. 20</cite> <he>שמא … ב׳ וכ׳</he> do I ever wrong any creature? <cite ref=\"Devarim Rabbah 2:20\">Deut. R. s. 2</cite> (play on <he>בבאה</he> <cite ref=\"Ezekiel 8:5\">Ez. VIII, 5</cite>) <he>הא ב׳ רבא לעלמא וכ׳</he> Oh, this great wrong in this world, v. infra. *<cite ref=\"Jerusalem Talmud Nedarim 3:3:2\">Y. Ned. III, 38ᵃ</cite> <he>כן … כורוסתי בייה</he> that is the way one says to his neighbor (read <he>כריזסתי</he> χαρίζεσθαι βίᾳ) to do a favor perforce (ref. to an invitation accompanied with a vow in case of refusal)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " interj. (= h. <cite ref=\"F00031\"><he>וי</he></cite>) <i>woe! help!</i> <cite ref=\"Yoma 69b:6\">Yoma 69ᵇ</cite> <he>ב׳ ב׳ וכ׳</he> woe, woe, it is this (the tempter) that destroyed the Temple &c. ",
+			"units": [
+				"<cite ref=\"Yevamot 97b:5\">Yeb. 97ᵇ</cite> <he>ב׳ ב׳ מאה וכ׳</he> woe, woe over the brother who is &c. ",
+				"<cite ref=\"Vayikra Rabbah 17\">Lev. R. s. 17</cite>, end (play on <he>בבאה</he>, v. supra) <he>ב׳ ב׳ תותבא וכ׳</he> woe, woe, that the stranger dislodges the owner (idolatry in the Temple)."
+			],
+			"label": "2"
+		}
+	]
+}

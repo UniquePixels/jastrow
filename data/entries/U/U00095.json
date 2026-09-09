@@ -1,0 +1,35 @@
+{
+	"id": "U00095",
+	"slug": "שבזז",
+	"headword": {
+		"text": "שַׁבְזֵז"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁבְזֵיז"
+		},
+		{
+			"text": "שַׁבְזִיזָא"
+		}
+	],
+	"page": {
+		"number": 1511,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. name of a <i>jewel, sapphire</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:18\">Targ. O. Ex. XXVIII, 18</cite> (Ms. II <cite ref=\"U00153\"><he>שבסיס</he></cite>); <cite ref=\"Onkelos Exodus 39:11\">XXXIX, 11</cite> (h. text <cite ref=\"A02516\"><he>ספיר</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 2:10\">Targ. Y. Num. II, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 28:13\">Targ. Ez. XXVIII, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 28:6\">Targ. Job XXVIII, 6</cite>; <cite ref=\"Aramaic Targum to Job 28:16\">16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 4:7\">Targ. Lam. IV, 7</cite>.—Pl. <he>שַׁבְזִיזִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:14\">Targ. Cant. V, 14</cite>."
+			]
+		}
+	]
+}

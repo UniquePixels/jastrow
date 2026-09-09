@@ -1,0 +1,41 @@
+{
+	"id": "H00772",
+	"slug": "חילוק",
+	"headword": {
+		"text": "חִילּוּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִלּ׳"
+		}
+	],
+	"page": {
+		"number": 456,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01112\"><he>חָלַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>distribution</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 2:1\">Keth. II, 1</cite> <he>ח׳ קליות וכ׳</he> testifying to the distribution of roasted ears (at the wedding) is an evidence (of the bride having been a virgin). ",
+				"<cite ref=\"Tosefta Ketubot 3:1\">Tosef. ib. III, 1</cite> <he>ח׳ גרנות</he> taking a share at the distribution of priest’s gifts of the threshing floor; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>division, separation, specification</i>. Y. Sabb. VII, end, 9ᶜ bot. <he>יצא … לח׳</he> it was specified, after being implicitly intimated, for division of the general law, i.e. that each of the implied acts is punishable for itself. Bab. ",
+			"units": [
+				"<cite ref=\"Shabbat 70a:3\">Sabb. 70ᵃ</cite> <he>ח׳ מלאכות</he> the separate treatment of each labor as a transgression of the Sabbath law. ",
+				"<cite ref=\"Makkot 21b:10\">Macc. 21ᵇ</cite>; a. fr. [<he>חלוקי כפרה</he>, v. <cite ref=\"H01112\"><he>חָלק</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

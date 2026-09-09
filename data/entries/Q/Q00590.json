@@ -1,0 +1,32 @@
+{
+	"id": "Q00590",
+	"slug": "פיד",
+	"headword": {
+		"text": "פִּיד"
+	},
+	"page": {
+		"number": 1159,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00134\"><he>פדר</he></cite>; cmp. <cite ref=\"Q00131\"><he>פְּדַע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>picking</i> of chickens. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 4a:7\">Ab. Zar. 4ᵃ</cite> (ref. to <he>פידו</he>, <cite ref=\"Job 30:24\">Job XXX, 24</cite>) <he>אני נפרע מהן כפ׳ של תרנגולת</he> I will collect from them (punish them) as the chicken picks (in small instalments); <cite ref=\"Job 30:24\">ib.</cite> <he>אפי׳ אין ישראל … מעט כפ׳ של תרנגולין וכ׳</he> even if Israel do but small good deeds, as the picking of chickens in the dunghill, I will combine them into one large sum; <cite ref=\"Yalkut Shimoni on Nach 918:4\">Yalk. Job 918</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (b. h.) (= <cite ref=\"U00176\"><he>שֶׁבֶר</he></cite>) <i>misfortune</i>. Pesik. Naḥămu, p. 126ᵇ (ref. to Job l. c.) <he>אין הקב״ה מכה … אלא מביא פ׳ לזו וכ׳</he> the Lord does not strike a nation and let her sit in despair, but brings misfortune on one and consoles her with another &c.; Yalk. Job l. c.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

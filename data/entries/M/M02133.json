@@ -1,0 +1,29 @@
+{
+	"id": "M02133",
+	"slug": "מעלי-2",
+	"headword": {
+		"text": "מַעֲלֵי"
+	},
+	"page": {
+		"number": 817,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00791\"><he>עֲלֵי</he></cite>; cmp. <cite ref=\"J00485\"><he>יָעַל</he></cite>, <cite ref=\"V00253\"><he>תּוֹעֶלֶת</he></cite>) <i>achievement, profit; good</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 13:2\">Targ. II Chr. XIII, 2</cite> <he>שמא דמ׳</he> a name of good portent.—",
+				"<cite ref=\"Aramaic Targum to Lamentations 4:9\">Targ. Lam. IV, 9</cite> <he>מ׳</he> better off.—",
+				"<cite ref=\"Berakhot 10a:28\">Ber. 10ᵃ</cite> <he>בנין דלא מעלו</he> (cmp. <cite ref=\"B00875\"><he>בְּלִיַּעַל</he></cite>) bad children; <he>בני דמ׳</he> (cmp. <cite ref=\"E00678\"><he>הֲנָיָיה</he></cite> ch.) good children (Ms. M. <he>זרעא דמעלי</he>, v. Rabb. D. S. a. l. note).—Used as adj. ",
+				"<cite ref=\"Bava Batra 74b:8\">B. Bath. 74ᵇ</cite> <he>מלחה מ׳</he> (Ms. M. <he>עדיף</he>), v. <cite ref=\"M01523\"><he>מֶלַח</he></cite> ch. ",
+				"<cite ref=\"Bava Batra 74b:8\">Ib.</cite> <he>לא מ׳</he> is of no good. ",
+				"<cite ref=\"Ketubot 105b:6\">Keth. 105ᵇ</cite> <he>משום דמ׳ טפי</he> because they are better. ",
+				"<cite ref=\"Shabbat 129a:20\">Sabb. 129ᵃ</cite> <he>דמ׳ ביה שימשא</he> Ms. M. when lying in the sun is healthy. ",
+				"<cite ref=\"Ketubot 62b:15\">Keth. 62ᵇ</cite> <he>צניע ומ׳</he> pious and capable; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "E00804",
+	"slug": "הקרבה",
+	"headword": {
+		"text": "הַקְרָבָה"
+	},
+	"page": {
+		"number": 364,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01883\"><he>קָרַב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>offering</i>, use of the verb <cite ref=\"S01883\"><he>הִקְרִיב</he></cite>. ",
+			"units": [
+				"<cite ref=\"Menachot 11a:2\">Men. 11ᵃ</cite> <he>בת ה׳ היא</he> it is an object which may eventually be offered. ",
+				"<cite ref=\"Bava Kamma 12b:11\">B. Kam. 12ᵇ</cite> <he>חזי לה׳</he> fit for offering (if the Temple existed). ",
+				"<cite ref=\"Eruvin 63b:3\">Erub. 63ᵇ</cite>, a. e. <he>גדול … מהקְרָבַת תמידין</he> study of the Law is more important than the offering of daily sacrifices. ",
+				"<cite ref=\"Vayikra Rabbah 2:12\">Lev. R. s. 2</cite>, end <he>נאמר ה׳ וכ׳</he> the term <cite ref=\"S01883\"><he>הקריב</he></cite> is used &c. ",
+				"<cite ref=\"Vayikra Rabbah 20:8\">Lev. R. s. 20</cite> they died <he>על הקריבה ועל ה׳</he> (= <he>הַהַ׳</he>) for coming near (<cite ref=\"Leviticus 17:1\">Lev. XVII, 1</cite>) and for offering (<cite ref=\"Leviticus 10:1\">Lev. X, 1</cite>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>drawing nigh for attack</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 21:1\">Ex. R. s. 21</cite> <he>הקרבת פרעה</he> (<cite ref=\"Exodus 14:10\">Ex. XIV, 10</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "B01339",
+	"slug": "ברת-1",
+	"headword": {
+		"text": "בְּרַת",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּרַתָּא"
+		}
+	],
+	"page": {
+		"number": 198,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"B01154\"><he>בַּר</he> II</cite>) <i>daughter, child, issue; young tree</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 30:21\">Targ. Gen. XXX, 21</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 141a:4\">B. Bath. 141ᵃ</cite> <he>ב׳ נמי וכ׳</he> the Lord did not suffer Abraham to be even without a daughter. ",
+				"<cite ref=\"Moed Katan 9b:21\">M. Kat. 9ᵇ</cite> <he>ב׳ אוכמתא</he> Ms. M., v. <cite ref=\"A00648\"><he>אוּכָּם</he></cite>. Y. B. Mets. III, 8ᶜ bot. <he>ב׳ נוקבה</he> female issue. ",
+				"<cite ref=\"Vayikra Rabbah 25:8\">Lev. R. s. 25</cite> <he>ב׳ פחין</he> a mean woman.—<he>ב׳ קלא</he> = <he>בַּת קוֹל</he>.—<he>ב׳ שבע</he> a species of <i>figs</i>. ",
+				"<cite ref=\"Bereishit Rabbah 15:7\">Gen. R. s. 15</cite>, end (h. <he>בנות שבע</he>). Y. B. Bath. II, end, 13ᶜ <he>ב׳ שובעין חיורין</he> white figs; a. fr. [For other compounds, v. respective determinants.]—Pl. <cite ref=\"B00961\"><he>בְּנָן</he></cite>, <cite ref=\"B00939\"><he>בְּנָאתָן</he></cite>, <cite ref=\"B00968\"><he>בְּנָתָן</he></cite>. [<cite ref=\"Targum Jonathan on Exodus 10:9\">Targ. Y. Ex. X, 9</cite> <he>בְּרַתָנָא</he> our daughters.] <cite ref=\"Onkelos Genesis 5:4\">Targ. Gen. V, 4</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Ketubot 4:11\">Keth. IV, 11</cite> <he>ב׳ נוקבין</he>, v. <cite ref=\"B01154\"><he>בַּר</he> II</cite>. ",
+				"<cite ref=\"Kiddushin 71b:3\">Kidd. 71ᵇ</cite> <he>בְּנָתִין</he> our daughters. ",
+				"<cite ref=\"Bava Batra 141a:4\">B. Bath. 141ᵃ</cite> <he>לדידי בנתן וכ׳</he> I prefer daughters &c.; a. fr.—[<cite ref=\"Jerusalem Talmud Peah 7:3:8\">Y. Peah VII, 20ᵃ</cite> bot. <he>ב׳ דחרובתא</he>; <cite ref=\"Jerusalem Talmud Sotah 1:8:11\">Y. Sot. I, 17ᵇ</cite> top <cite ref=\"A00913\"><he>אורתא</he></cite>, v. <cite ref=\"K00221\"><he>כְּוַרְתָּא</he></cite>.]"
+			]
+		}
+	]
+}

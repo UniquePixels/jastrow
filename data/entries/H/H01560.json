@@ -1,0 +1,35 @@
+{
+	"id": "H01560",
+	"slug": "חקל-2",
+	"headword": {
+		"text": "חֲקַל",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חַקְלָא",
+			"homograph": 2
+		},
+		{
+			"text": "חֲקַלְתָּא"
+		}
+	],
+	"page": {
+		"number": 497,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01559\">preced.</cite>) <i>estate, farm</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 5:8\">Targ. Is. V, 8</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:5:3\">Y. Snh. II, 20ᵇ</cite> bot.; <cite ref=\"Ruth Rabbah 4:9\">Ruth R. to II, 9</cite>; Midr. Sam. ch. XX (translat. of (<cite ref=\"A00000\"><he>א</he></cite>)<he>פס דמים</he>, <cite ref=\"I Samuel 17:1\">I Sam. XVII, 1</cite>, <cite ref=\"I Chronicles 11:13\">I Chr. XI, 13</cite>) <he>חקל סומקתא</he> Red Field.—Pl. <cite ref=\"H01571\"><he>חַקְלָן</he></cite>, <he>חַקְלָתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 4:17\">Targ. Jer. IV, 17</cite>. ",
+				"<cite ref=\"Onkelos Exodus 8:9\">Targ. O. Ex. VIII, 9</cite>.—<he>חֲקַלְוָון</he>, <he>חֲקַלְוָותָא</he>. Y. Keth. X, end, 34ᵃ. Pesik. B’shall. p. 93ᵃ"
+			]
+		}
+	]
+}

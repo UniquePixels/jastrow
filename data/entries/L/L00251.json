@@ -1,0 +1,50 @@
+{
+	"id": "L00251",
+	"slug": "לוי-5",
+	"headword": {
+		"text": "לֵוִי"
+	},
+	"page": {
+		"number": 697,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. <i>Levi</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " the son of Jacob, progenitor of the tribe of Levi. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 19:10\">Gen. R. s. 19</cite>, a. e. <he>עמד ל׳ וכ׳</he> Levi arose and brought her (the Shekhinah) down &c. ",
+				"<cite ref=\"Shemot Rabbah 1:36\">Ex. R. s. 1</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>שבט ל׳</he>, or <he>ל׳</he> <i>the tribe of Levi</i>; <he>בן ל׳</he> or <he>ל׳</he> <i>a Levite</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 26a:6\">Yoma 26ᵃ</cite> <he>דאתי משבט ל׳</he> a descendant of the tribe of Levi.—",
+				"<cite ref=\"Mishnah Horayot 3:8\">Hor. III, 8</cite> <he>כהן קודם לל׳ ל׳ וכ׳</he> a priest goes before a Levite (in religious privileges), a Levite before an Israelite. ",
+				"<cite ref=\"Mishnah Gittin 5:8\">Gitt. V, 8</cite>. ",
+				"<cite ref=\"Mishnah Gittin 8:5\">Ib. VIII, 5</cite> <he>בת ל׳</he> if she is the daughter of a Levite. ",
+				"<cite ref=\"Mishnah Arakhin 9:8\">Arakh. IX, 8</cite>; a. fr.—Pl. <he>לְוִיִּים</he>, <he>לְוִיִּם</he> <i>Levites</i>. ",
+				"<cite ref=\"Mishnah Chullin 1:6\">Ḥull. I, 6</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " name of several Amoraim, esp. Levi, or L. bar Sisi, disciple of R. Jehudah han-Nasi (v. Fr. M’bo, p. 110ᵇ). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 12:6:6\">Y. Yeb. XII, 13ᵃ</cite> top. ",
+				"<cite ref=\"Pesachim 76b:2\">Pes. 76ᵇ</cite>; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (law) a fictitious name. ",
+			"units": ["<cite ref=\"Bava Batra 43b\">B. Bath. 43ᵇ</cite>; a. fr."],
+			"label": "4"
+		}
+	]
+}

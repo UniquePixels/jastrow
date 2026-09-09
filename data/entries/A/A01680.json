@@ -1,0 +1,28 @@
+{
+	"id": "A01680",
+	"slug": "אכזרא",
+	"headword": {
+		"text": "אַכְזְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַכְזְרָאָה"
+		}
+	],
+	"page": {
+		"number": 62,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= b. h. <cite ref=\"A01679\"><he>אַכְזָר</he></cite>) <i>cruel</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 41:2\">Targ. Job XLI, 2</cite> (<cite ref=\"Aramaic Targum to Job 41:1\">1</cite>); a. e.—Lam. R. introd. (R. Joh. <he>קטילא א׳</he> merciless slaughter.—Pl. <he>אַכְזְרָאִין</he>. ",
+				"<cite ref=\"Onkelos Deuteronomy 32:33\">Targ. Deut. XXXII, 33</cite>. Targ. J. II ibid. <he>אַכְזְרוֹאֵי</he>."
+			]
+		}
+	]
+}

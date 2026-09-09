@@ -1,0 +1,124 @@
+{
+	"id": "T00809",
+	"slug": "רמי-3",
+	"headword": {
+		"text": "רְמֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְמָא"
+		}
+	],
+	"page": {
+		"number": 1482,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00808\">same</cite><i>to throw, swing; to put on; to impose</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 15:1\">Targ. Ex. XV, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 16:5\">Targ. Ez. XVI, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 18:14\">Targ. II Kings XVIII, 14</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 78:57\">Targ. Ps. LXXVIII, 57</cite> (h. text <cite ref=\"T00811\"><he>רְמִיָּה</he></cite>!); a. fr.—",
+				"<cite ref=\"Menachot 42a:13\">Men. 42ᵃ</cite> <he>ר׳ חוטי</he> threw (attached) threads as show fringes; <he>ר׳ ארבע</he> put four threads on. ",
+				"<cite ref=\"Shabbat 10a:2\">Sabb. 10ᵃ</cite>, v. <cite ref=\"Q00172\"><he>פּוּזְמְקֵי</he></cite>. ",
+				"<cite ref=\"Niddah 33b:18\">Nidd. 33ᵇ</cite> <he>ר׳ ליה תורא</he> threw an ox down (slaughtered an ox) in his honor. ",
+				"<cite ref=\"Menachot 42b:10\">Men. 42ᵇ</cite> <he>רְמִינָן להו ביורה</he> we cast them into the boiler.—<i>Part. pass.</i> <cite ref=\"T00809\"><he>רְמֵי</he></cite>, <cite ref=\"T00810\"><he>רַמְיָא</he></cite> <i>thrown down, lying</i>. ",
+				"<cite ref=\"Onkelos Deuteronomy 21:1\">Targ. Deut. XXI, 1</cite> (O. ed. Vien. <cite ref=\"T00809\"><he>רָמֵי</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Judges 19:27\">Targ. Jud. XIX, 27</cite>; a. e.—",
+				"<cite ref=\"Zevachim 5a:2\">Zeb. 5ᵃ</cite> <he>ר׳ ריש לקיש וכ׳</he> Resh Laḳish was lying on his belly in the college hall and asked &c. ",
+				"<cite ref=\"Shevuot 34b:6\">Shebu. 34ᵇ</cite> <he>כל מילתא דלא ר׳ עליה וכ׳</he> a thing which does not rest upon a man (in which he is not interested), he will do unconsciously; <cite ref=\"Shevuot 41b:14\">ib. 41ᵇ</cite>, sq.; <cite ref=\"Bava Batra 39a:4\">B. Bath. 39ᵃ</cite>; a. fr.—<he>ר׳ לבני</he> [<i>to put up bricks</i>,] <i>to make bricks</i>. ",
+				"<cite ref=\"Onkelos Genesis 11:3\">Targ. Gen. XI, 3</cite>. ",
+				"<cite ref=\"Onkelos Exodus 5:7\">Targ. Ex. V, 7</cite>; a. e.—ר׳ תיגרא <i>to create discord; to dispute</i>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 6:14\">Targ. Prov. VI, 14</cite>; <cite ref=\"Aramaic Targum to Proverbs 6:19\">19</cite>; a. e.—",
+				"<cite ref=\"Shabbat 130a\">Sabb. 130ᵃ</cite> <he>ליכא … דלא רָמוּ בה ת׳</he> there is no marriage contract at which the parties do not quarrel."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to lift, remove</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:20\">Y. Snh. X, 29ᵃ</cite> bot. <he>בעי מִירְמִיתֵיה</he> wanted to lift it; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " [<i>to pitch one thing against another</i>,] <i>to show an incongruity; to object</i>. Nidd. l. c. <he>ר׳ … מתניתין אהדדי</he> pointed out an incongruity between two Mishnahs. ",
+			"units": [
+				"<cite ref=\"Taanit 4b:13\">Taan. 4ᵇ</cite> <he>גברא אגברא קא רָמִית</he> thou provest an incongruity between two authorities (why can they not differ in opinion)? <cite ref=\"Bava Metzia 22b:3\">B. Mets. 22ᵇ</cite> <he>רב פפא ר׳ כתיב וכ׳</he> Rab Papa raised an objection: it is written (<cite ref=\"Leviticus 11:38\">Lev. XI, 38</cite>) <i>ki yitten</i>, and we read <i>ki yuttan</i>, how is this to be explained? <cite ref=\"Yevamot 108b:4\">Yeb. 108ᵇ</cite> <he>ורְמִינְהִי וכ׳</he> and we shall show an incongruity in it, i.e. this disagrees with the Mishnah, &c. ",
+				"<cite ref=\"Sukkah 16a:8\">Succ. 16ᵃ</cite> <he>איכא דר׳ ליה מִירְמָא</he> some put it in the shape of pointing out a contradiction (between a Mishnah and a Boraitha); a. v. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְמֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to cast</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 20:16\">Targ. Jud. XX, 16</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 1:14\">Targ. Prov. I, 14</cite>; a. e.—",
+						"<cite ref=\"Shabbat 156b:3\">Sabb. 156ᵇ</cite> <he>הוה מַרְמִינָן וכ׳</he> we used to cast our bread together (into one basket) and eat. ",
+						"<cite ref=\"Shabbat 156b:3\">Ib.</cite> <he>אנא קאים וארמינא</he> I will stand up and put the bread into the basket; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to tear away, remove with force</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 10b:6\">Pes. 10ᵇ</cite> <he>אַרְמוּיֵי אַרְמֵיה מיניה</he> (not <he>ארמוייה</he>) it (the mouse) may have snatched it from the other mouse. ",
+						"<cite ref=\"Chagigah 15b:2-4\">Ḥag. 15ᵇ</cite> <he>אי … מאן מַרְמֵי ליה מאן</he> if I take him by the hand, who will tear him away from me? who?"
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to lift up</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 34b:12\">Ab. Zar. 34ᵇ</cite> <he>תַּרְמִינָךְ שעתך</he> (Ms. M. <he>תור מינך</he>, v. Rabb. D. S. a. l. note) may thy hour lift thee up (i.e. may thy luck be high)!"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["רַמֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to impose, deceive</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 25:18\">Targ. Y. Num. XXV, 18</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 26:19\">Targ. Prov. XXVI, 19</cite>.—",
+						"<cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite> <he>הוה מְרַמֵּי במצוותה</he>, v. <cite ref=\"T00808\">preced.</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְרְמֵי", "אִתְרְמָא"],
+			"senses": [
+				{
+					"gloss": "<i>to throw one’s self, be thrown</i>. ",
+					"units": [
+						"<cite ref=\"Targum of I Chronicles 10:4\">Targ. I Chr. X, 4</cite>, sq. ",
+						"<cite ref=\"Targum Jonathan on Joshua 10:11\">Targ. Josh. X, 11</cite>.—[<cite ref=\"Aramaic Targum to Proverbs 6:6\">Targ. Prov. VI, 6</cite> <cite ref=\"T00809\"><he>אתרמי</he></cite> some ed., read: <he>אתד׳</he>, v. <cite ref=\"D00892\"><he>דְּמֵי</he> I</cite>.]"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"S01390\"><he>קְלַע</he> I</cite>) <i>to happen, chance</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 13a:3\">Ḥull. 13ᵃ</cite> <he>מקום … איתרמי ליה</he> (not <he>איתרמו</he>) because no suitable place (for slaughtering) offered itself there. ",
+						"<cite ref=\"Shevuot 41b:11\">Shebu. 41ᵇ</cite> <he>עד דמִתְרְמוּ בי תרי וכ׳</he> until two persons shall happen to come that have studied &c.; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

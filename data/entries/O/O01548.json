@@ -1,0 +1,23 @@
+{
+	"id": "O01548",
+	"slug": "סרהובא-1",
+	"headword": {
+		"text": "סַרְהוֹבָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1023,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01547\">preced.</cite> wds.) <i>anxious, quick</i>.—Pl. <he>סַרְהוֹבִין</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 104:4\">Targ. Ps. CIV, 4</cite>."
+			]
+		}
+	]
+}

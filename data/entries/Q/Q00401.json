@@ -1,0 +1,35 @@
+{
+	"id": "Q00401",
+	"slug": "פושכא",
+	"headword": {
+		"text": "פּוּשְׁכָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּשַׁךְ"
+		},
+		{
+			"text": "פֻּשְׁכָּא"
+		}
+	],
+	"page": {
+		"number": 1149,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פשך</he>, cmp. <he>פשח</he> <i>to split, part</i>) [<i>spread fingers</i>,] <i>hand-breadth, palm</i> (cmp. <cite ref=\"Q01920\"><he>פַּרְסָה</he> II</cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:25\">Targ. Ex. XXV, 25</cite> (Y. II <cite ref=\"I00200\"><he>טוֹפַח</he></cite>). Ib. XXXVII, 12 (not <cite ref=\"Q02082\"><he>פְּשַׂךְ</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 40:5\">Targ. Ez. XL, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 23:42\">Targ. Y. Lev. XXIII, 42</cite> (ed. Diehrenf. <cite ref=\"Q00400\"><he>פּוּשְׁחָא</he></cite>); a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 16\">Gen. R. s. 16</cite> Ar., v. <cite ref=\"S00592\"><he>קוֹרְטָא</he></cite>.—Pl. <he>פּוּשְׁכִּין</he>, <he>פּוּשְׁכַּיָּא</he>, <cite ref=\"Q00401\"><he>פּוּשְׁכֵּי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 7:9\">Targ. I Kings VII, 9</cite> (<i>projections, eaves</i>; h. text <he>טפחות</he>). Targ. Y. Lev. l. c. (ed. Diehrenfurt <he>פּוּשְׁחֵי</he>); a. e.—Y. Succ. III, beg. 53ᶜ <he>פ׳ רברבין</he> large (wide) handbreadths; <he>פ׳ דקיקין</he> small (narrow) handbreadths (v. <cite ref=\"I00639\"><he>טֶפַח</he></cite>, a. <cite ref=\"P01095\"><he>עָצֵב</he></cite>). Bab. ",
+				"<cite ref=\"Sukkah 5b:9\">Succ. 5ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

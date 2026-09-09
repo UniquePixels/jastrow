@@ -1,0 +1,24 @@
+{
+	"id": "D00448",
+	"slug": "דיאוניסין",
+	"headword": {
+		"text": "דִּיאוֹנִיסִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 294,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (διονύσια, τὰ) <i>the Dionysian feast, bacchantic revels</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 33\">Lev. R. s. 33</cite> (ref. to <cite ref=\"Ezekiel 23:42\">Ezek. XXIII, 42</cite>) <he>מובאים קאניסין וכ׳</he> (corr. acc.) ‘<i>carried along</i>’ (in procession) refers to the Dionysia, ‘drunken’, means the revellers, v. <cite ref=\"D00409\"><he>דַּחְיָיא</he></cite>."
+			]
+		}
+	]
+}

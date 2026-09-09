@@ -1,0 +1,24 @@
+{
+	"id": "G00528",
+	"slug": "זמם-3",
+	"headword": {
+		"text": "זָמַם",
+		"homograph": 2
+	},
+	"page": {
+		"number": 403,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"R00583\"><he>צמם</he></cite>) <i>to tie up, to muzzle</i> (b. h. <cite ref=\"H01397\"><he>חָסַם</he></cite>). ",
+			"units": [
+				"<cite ref=\"Berakhot 63b:20\">Ber. 63ᵇ</cite> (ref. to <he>זמות</he>, <cite ref=\"Proverbs 30:32\">Prov. XXX, 32</cite>, v. <cite ref=\"G00527\">preced. w.</cite>) <he>אם ז׳ וכ׳</he> if he muzzles his mouth (is ashamed to ask his teacher), he will have to put his hand to the mouth (when he in turn is asked). ",
+				"<cite ref=\"Mishnah Terumot 9:3\">Ter. IX, 3</cite> <he>לא זוֹמֵם</he> he does not muzzle his animal (complies with the law, <cite ref=\"Deuteronomy 25:4\">Deut. XXV, 4</cite>); a. e.—<i>Part. pass.</i> <cite ref=\"G00507\"><he>זָמוּם</he></cite>, f. <he>זְמוּמָה</he>; pl. <he>זְמוּמִים</he>, <he>זְמוּמוֹת</he> <i>muzzled, prevented from grazing</i>. ",
+				"<cite ref=\"Bereishit Rabbah 41\">Gen. R. s. 41</cite>. ",
+				"<cite ref=\"Pesikta Rabbati 3:1\">Pesik. R. s. 3</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 59\">Gen. R. s. 59</cite>, end; a. e.—Denom. <cite ref=\"G00533\"><he>זְמָם</he> II</cite>."
+			]
+		}
+	]
+}

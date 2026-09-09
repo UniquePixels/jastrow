@@ -1,0 +1,23 @@
+{
+	"id": "M00841",
+	"slug": "מחזורי",
+	"headword": {
+		"text": "מַחְזוֹרֵי"
+	},
+	"page": {
+		"number": 758,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (used as sing.; <cite ref=\"M00840\">preced.</cite>) <i>turning around;</i> trnsf. <i>longing</i> (cmp. Sam. <he>עזרות</he>, <cite ref=\"Genesis 3:16\">Gen. III, 16</cite>; <cite ref=\"Genesis 4:7\">IV, 7</cite>). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 26:4\">Gen. R. s. 26</cite> <he>לא יהי ליך מ׳ להכא</he> mayest thou never long for here (home); <cite ref=\"Yalkut Shimoni on Torah 43:2\">Yalk. ib. 43</cite> <cite ref=\"M00847\"><he>מחזרו</he></cite> (corr. acc)."
+			]
+		}
+	]
+}

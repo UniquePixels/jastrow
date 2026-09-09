@@ -1,0 +1,54 @@
+{
+	"id": "B00434",
+	"slug": "בזי-1",
+	"headword": {
+		"text": "בזי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּזָה"
+		}
+	],
+	"page": {
+		"number": 152,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בז</he> <i>to tread</i>, v. <cite ref=\"B00220\"><he>בּוּז</he></cite>) <i>to tread upon</i>, whence <i>to despise, spurn, degrade</i>. Ab. d’R. Nath. ch. XXIX <he>הבּוֹזֶה את חבירו וכ׳</he> he who spurns his neighbor (rebuking him) for a sacred cause. Ib. <he>הן בּוֹזִין בעצמן</he> they make themselves contemptible (neglecting their appearance). Part. pass. <he>בָּזוּי</he>, f. <he>בְּזוּיָה</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 5:6:3\">Y. Sot. V, end, 20ᵈ</cite> <he>שהיתה נבואתו ב׳</he> his prophetic gift was degraded (by him). Ruth. R. to I, 1 <he>מי שהוא ב׳ בדבריו</he> he who becomes contemptible through his own words (in not practicing what he teaches). ",
+				"<cite ref=\"Shir HaShirim Rabbah 6:5\">Cant. R. to VI, 5</cite> <he>מה עז זו ב׳</he> as the goat is despised <he>כך בְּזוּיִין וכ׳</he> so were the Israelites made despicable at Shittim (through debauchery); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּיזָּה", "בִּזָּה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"B00433\">same</cite>. Ab. d’R. Nath. l. c. Y. Sot. l. c. he (Isaac) is called Buzi, <he>שבי׳ את וכ׳</he> because he made all idolatrous temples appear contemptible (by his willingness to be sacrificed to the Lord). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 30:7\">Gen. R. s. 30</cite> (play on <cite ref=\"B00220\"><he>בוז</he></cite> <cite ref=\"Job 12:5\">Job XII, 5</cite>) <he>שהיו מְבַזִּים עליו</he> they sneered at him. ",
+						"<cite ref=\"Sanhedrin 65b:12\">Snh. 65ᵇ</cite> <he>בִּיזִּיתוֹ</he> thou hast insulted him. ",
+						"<cite ref=\"Pirkei Avot 3:11\">Aboth III, 11</cite> <he>המְבַזֶּה את וכ׳</he> he who disregards the festive weeks (treating them as week days); a. fr.—<i>Part. Pu</i>. <he>מְבוּזֶּה</he>, pl. <he>מְבוּזִּין</he>. ",
+						"<cite ref=\"Mishnah Avodah Zarah 3:3\">Ab. Zar. III, 3</cite> <he>המב׳</he> common vessels, opp. <he>מכובדין</he> ornamental; <cite ref=\"Tosefta Avodah Zarah 5:1\">Tosef. ib. V</cite> (<cite ref=\"Tosefta Avodah Zarah 6:1\">VI</cite>), 1 <he>בזויין</he> ed. Zuck. (Var. <he>מב׳</he>); Y. ib. III, 42ᵈ; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְבַּזָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to be despised, humbled, exposed</i>. Y. Taan. II, beg. 65ᵃ you cannot compare <he>המִתְבַּזֶּה מעצמו וכ׳</he> one who humbles himself to one who is humbled by others. ",
+					"units": [
+						"<cite ref=\"Ketubot 97b\">Keth. 97ᵇ</cite>. Ruth. R. to I, 1 <he>אימתי ד״ת מִתְבַּזִּין וכ׳</he> when are the words of the Law despised by the people? When the scholars make them contemptible (through their conduct); a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

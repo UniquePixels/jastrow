@@ -1,0 +1,24 @@
+{
+	"id": "M00794",
+	"slug": "מחבא-1",
+	"headword": {
+		"text": "מַחֲבֵא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 756,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H00009\"><he>חָבָא</he></cite>)<i>hiding place</i> in times of war &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 4:7\">Nidd. IV, 7</cite>. ",
+				"<cite ref=\"Tosefta Yevamot 12:4\">Tosef. Yeb. XII, 4</cite>; <cite ref=\"Yevamot 99a:2\">Yeb. 99ᵃ</cite> <he>ילדו … במ׳</he> gave birth to two children (each to one child) in a hiding place (so that the motherhood of each child could not be ascertained)."
+			]
+		}
+	]
+}

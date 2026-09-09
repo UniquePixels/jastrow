@@ -1,0 +1,42 @@
+{
+	"id": "A00339",
+	"slug": "אגר-5",
+	"headword": {
+		"text": "אֲגַר",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "אַגְרָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 14,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A00338\">foreg.</cite>) <i>rent, wages; reward, profit</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 15:1\">Targ. Gen. XV, 1</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 63b:10\">B. Mets. 63ᵇ</cite> <he>א׳ נטר ליה</he> compensation for waiting (giving time for delivery), i.e. advancing the money to the seller. ",
+				"<cite ref=\"Bava Metzia 68b:15\">Ib. 68ᵇ</cite> <he>פלגא בא׳ כ׳</he> half profit or loss. ",
+				"<cite ref=\"Bava Metzia 69b:12\">Ib. 69ᵇ</cite> <he>א׳ ופגרא</he> payment for carrying freight, and indemnity to the boatsmen in case of wreck. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 2:3:2\">Y. M. Kat. II, 81ᵇ</cite> top <he>א׳ וקרנא</he> profit and principal (cost-price).—",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:5:3\">Y. B. Mets. II, 8ᶜ</cite> top <he>מא׳ כל הדין עלמא</he> than all profit this world can offer."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <i>that which deserves reward, meritorious deed</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 6b:11\">Ber. 6ᵇ</cite> <he>א׳ דפירקא ריהטא</he> the merit in attending a lecture lies in running [to it] (anxiety to hear it). [<cite ref=\"A00336\"><he>אֲגַר</he></cite>, <cite ref=\"A00339\"><he>אַגְרָא</he></cite> <i>staff, pole</i>, v. <cite ref=\"A00244\"><he>אגד</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

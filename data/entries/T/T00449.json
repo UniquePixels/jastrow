@@ -1,0 +1,24 @@
+{
+	"id": "T00449",
+	"slug": "רושחתא",
+	"headword": {
+		"text": "רוּשְׁחָתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1464,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (prob. transpos. of <he>רוחשתא</he>; <he>רחש</he>) <i>anal worms</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69b:14\">Gitt. 69ᵇ</cite> (Ar. ed. Koh. <cite ref=\"U00877\"><he>שיחתא</he></cite>, oth. ed. <cite ref=\"U00658\"><he>שחיתא</he></cite>)."
+			]
+		}
+	]
+}

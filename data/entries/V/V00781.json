@@ -1,0 +1,39 @@
+{
+	"id": "V00781",
+	"slug": "תעל",
+	"headword": {
+		"text": "תַּעַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּעֲלָא"
+		},
+		{
+			"text": "תְּעָלָא"
+		},
+		{
+			"text": "תַּעֲלָה"
+		}
+	],
+	"page": {
+		"number": 1683,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U00484\"><he>שׁוּעָל</he></cite>, <i>jackal; fox</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 5:8:5\">Koh. R. to V, 8</cite> <he>חמא חד ת׳ וכ׳</he> saw a fox lying dead &c. ",
+				"<cite ref=\"Megillah 16b:6\">Meg. 16ᵇ</cite>, v. <cite ref=\"P00514\"><he>עִידָּן</he></cite>. ",
+				"<cite ref=\"Niddah 65b:45\">Nidd. 65ᵇ</cite>; <cite ref=\"Yoma 43b:4\">Yoma 43ᵇ</cite>, v. <cite ref=\"K00787\"><he>כְּמַאי</he></cite>. ",
+				"<cite ref=\"Kohelet Rabbah 1:3:1\">Koh. R. to I, 3</cite>; <cite ref=\"Vayikra Rabbah 28:2\">Lev. R. s. 28</cite> <cite ref=\"V00781\"><he>תעלה</he></cite>, v. <cite ref=\"M03074\"><he>מַתְלָא</he></cite>; a. e.—Pl. <he>תַּעֲלַיָּא</he>, <he>תַּעֲלִין</he>, <he>תַּעֲלֵי</he>, <cite ref=\"V00771\"><he>תְּעָ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 63:11\">Targ. Ps. LXIII, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 13:4\">Targ. Ez. XIII, 4</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 9:4:3\">Y. Shebi. IX, 39ᵃ</cite> top <he>אריוותא … שאיל ת׳</he> lions are before thee, and thou askest the foxes (great scholars are present, and thou askest me)? <cite ref=\"Chagigah 14a:14\">Ḥag. 14ᵃ</cite> (play on <he>תעלולים</he>, <cite ref=\"Isaiah 3:4\">Is. III, 4</cite>) <he>ת׳ בני ת׳</he> foxes, sons of foxes; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "N01090",
+	"slug": "נץ-1",
+	"headword": {
+		"text": "נֵץ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 927,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"N01139\"><he>נָצַץ</he></cite>)<i>sprouting, flower, blossom</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 2:1\">Ukts. II, 1</cite> <he>והנץ שלה</he> and the flower-like substance on cucumbers. ",
+				"<cite ref=\"Mishnah Oktzin 2:3\">Ib. 3</cite> <he>הנץ שלו</he> the sproutings on the pomegranate; (Tosef. ib. I, 8 <cite ref=\"O00522\"><he>סיאר</he></cite>, <he>שיער</he>). ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 4:8:2\">Y. Shebi. IV, end, 35ᶜ</cite> (ref. to <he>משינצו</he>, ib. IV, 10) <he>לאי דו נץ שהוא וכ׳</he> what blossoming is meant? Such as promises one Robʿa of olives. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:3\">Cant. R. to II, 3</cite> <he>נִיצּוֹ קודם לעליו</he> its blossoms come out before its leaves. ",
+				"<cite ref=\"Tosefta Parah 12:1\">Tosef. Par. XII</cite> (<cite ref=\"Tosefta Parah 11:1\">XI</cite>), 1 <he>משישיר את ניצו</he> when it has shed its blossoms; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 28\">Gen. R. s. 28</cite> <he>נץ השדרה</he> Ar. (ed. <cite ref=\"L00227\"><he>לוּז</he></cite> q. v.).—<he>נץ החלכ</he>, v. <cite ref=\"H00966\"><he>חָלָב</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <cite ref=\"N01091\"><he>נֵץ</he></cite>, <cite ref=\"E00691\"><he>הַנֵּץ</he></cite> name of <i>a coin</i> (Blossom) = 7/8 of an As (v. <cite ref=\"D01067\"><he>דָּרוֹסָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Kiddushin 12a:10\">Kidd. 12ᵃ</cite>; <cite ref=\"Tosefta Bava Batra 5:12\">Tosef. B. Bath. V, 12</cite> ed. Zuck. (Var. <he>הינץ</he>, some ed. <cite ref=\"H01533\"><he>חיצץ</he></cite>, corr. acc.).—Pl. <he>נִיצִּים</he>, <cite ref=\"E00466\"><he>הִינְצִין</he></cite>. Y. Kidd. I, 58ᵈ; Bab. ib. l. c.; Tosef. l. c.; v. <cite ref=\"E00691\"><he>הַנֵּץ</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

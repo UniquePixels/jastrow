@@ -1,0 +1,23 @@
+{
+	"id": "U00528",
+	"slug": "שוקי",
+	"headword": {
+		"text": "שׁוֹקִי"
+	},
+	"page": {
+		"number": 1541,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01832\"><he>שָׁקָה</he></cite>) <i>irrigation;</i> <he>שדה של ש׳</he> a field dependent on irrigation, opp. <he>של בעל</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 2:4\">Tosef. Shebi. II, 4</cite>; a. fr.—",
+				"<cite ref=\"Bamidbar Rabbah 16\">Num. R. s. 16<sup>25</sup></cite> <he>של שקר</he>, read: <cite ref=\"U01852\"><he>שֹׁקִי</he></cite>; v. <cite ref=\"B01055\"><he>בַּעַל</he></cite>."
+			]
+		}
+	]
+}

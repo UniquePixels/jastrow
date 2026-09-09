@@ -1,0 +1,51 @@
+{
+	"id": "U01799",
+	"slug": "שפר-2",
+	"headword": {
+		"text": "שְׁפַר"
+	},
+	"page": {
+		"number": 1619,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01798\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 34:18\">Targ. Gen. XXXIV, 18</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 69:32\">Targ. Ps. LXIX, 32</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 1:10\">Targ. Esth. I, 10</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 11b:4\">Snh. 11ᵇ</cite> <he>ושַׁפְרָא מילתא באנפיי וכ׳</he> and the thing was pleasing in my sight and &c.; Y. ib. I, 18ᵈ top; <cite ref=\"Jerusalem Talmud Maaser Sheni 5:4:4\">Y. Maas. Sh. V, 56ᶜ</cite> top. ",
+				"<cite ref=\"Keritot 5b:117\">Ker. 5ᵇ</cite> <he>אי שמין וש׳ וכ׳</he> if it (the cock) gets fat and well-looking, he may know that he will succeed; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַשְׁפַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to cleanse, make handsome, pleasant</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 9:27\">Targ. Y. Gen. IX, 27</cite> (h. text <cite ref=\"J00513\"><he>יפת</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 15:2\">Targ. Prov. XV, 2</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 17:22\">Ib. XVII, 22</cite> (Ms. <he>מְשַׁפֵּיר</he> <i>Pa.</i>); a. e.—Y. Maasr. I, 49ᵃ bot. <he>יַשְׁפַּר אפוי וכ׳</he>, v. <cite ref=\"K01154\"><he>כַּרְיָא</he> I</cite>. Y. Taan. I, 64ᵇ bot. <he>מַשְׁפַּר תייטרון</he> cleaning the theatre; a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִשְׁתְּפַר"],
+			"senses": [
+				{
+					"gloss": "<i>to make one’s self fair, adorn one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 2:33\">Targ. Jer. II, 33</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

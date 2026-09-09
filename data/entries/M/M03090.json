@@ -1,0 +1,22 @@
+{
+	"id": "M03090",
+	"slug": "מתני",
+	"headword": {
+		"text": "מַתְנֵי"
+	},
+	"page": {
+		"number": 863,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<cite ref=\"V00743\"><he>תְּנֵי</he></cite>) = h. <cite ref=\"M02946\"><he>מִשְׁנִי</he></cite>, <i>teacher of the Mishnah</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 8b:4\">Keth. 8ᵇ</cite>, contrad. to <cite ref=\"M02459\"><he>מקְרֵי</he></cite>.—V. <cite ref=\"M03092\"><he>מַתְנְיָין</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "H00747",
+	"slug": "חייתא-1",
+	"headword": {
+		"text": "חַיְיתָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "חַיְתָא"
+		}
+	],
+	"page": {
+		"number": 455,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (adj.), v. <cite ref=\"H00648\"><he>חַי</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (noun) <i>living creature</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:28\">Targ. O. Gen. I, 28</cite>. ",
+				"<cite ref=\"Onkelos Genesis 1:30\">Ib. 30</cite> <cite ref=\"H00495\"><he>חַיַת</he></cite> (constr.); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

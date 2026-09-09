@@ -1,0 +1,25 @@
+{
+	"id": "A02105",
+	"slug": "אנגרבטיס",
+	"headword": {
+		"text": "אַנְגְּרַבְטֵיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַנְגְּרַוְטָא"
+		}
+	],
+	"page": {
+		"number": 81,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἀγγαρευτής, ἀγγαρευτάς) <i>commissioner</i> or <i>superintendent of forced public labor;</i> v. <cite ref=\"A02108\"><he>אַנְגַּרְיָא</he></cite>. Pesik. B’shall. 92ᵇ <he>אתמני א׳</he> (for Var. v. Bub., note) was appointed angareutes.",
+			"units": []
+		}
+	]
+}

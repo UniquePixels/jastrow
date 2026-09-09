@@ -1,0 +1,23 @@
+{
+	"id": "A03372",
+	"slug": "אשתומא",
+	"headword": {
+		"text": "אֶשׁתּוֹמָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 131,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שמם</he>, v. <cite ref=\"A03373\">next w.</cite>) <i>confusion, nonsense</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 84b:5\">Ḥull. 84ᵇ</cite> <he>א׳ קאמר וכ׳</he> he talks nonsense, let his interpreter (<cite ref=\"A02003\"><he>אֲמוֹרָא</he></cite>) be taken away from him (v. Rashi a. l. for diff. version, a. conception of <cite ref=\"A02003\"><he>אמורא</he></cite>)."
+			]
+		}
+	]
+}

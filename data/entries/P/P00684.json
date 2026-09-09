@@ -1,0 +1,31 @@
+{
+	"id": "P00684",
+	"slug": "עירוני",
+	"headword": {
+		"text": "עִירוֹנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִירָנִי"
+		}
+	],
+	"page": {
+		"number": 1076,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"P00674\"><he>עִור</he> II</cite>) <i>inhabitant of a country town, provincial</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 50:12\">Gen. R. s. 50</cite>, end <he>אחד ע׳ ואחד בן המדינה</he> one from a country town and another from a capital. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 7:3:3\">Y. Ned. VII, end, 40ᶜ</cite> <he>נראין</he> … <he>בע׳</he> R. Meïr’s opinion seems acceptable in the case of a provincial (who uses <cite ref=\"B00753\"><he>בַּיִת</he></cite> in the sense of the <i>lower rooms</i>, contrad. to <cite ref=\"P00794\"><he>עליה</he></cite>). ",
+				"<cite ref=\"Vayikra Rabbah 4:2\">Lev. R. s. 4</cite> <he>משל לע׳ שהיה נשוי וכ׳</he> like a provincial (commoner) that married a princess; <cite ref=\"Yalkut Shimoni on Nach 963:1\">Yalk. Prov. 963</cite> <he>לעירני</he>; a. e.—Pl. <cite ref=\"P00684\"><he>עִירוֹנִין</he></cite>, <cite ref=\"P01269\"><he>עִירָ׳</he></cite>. Y. Snh. V, 22ᵈ bot. <he>הע׳ הללו</he> those provincials (who do not know the exact date).—<i>Fem.</i> <cite ref=\"A01603\"><he>עִירוֹנִית</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 4:3\">Lam. R. to IV, 2</cite> <he>ירושלמי שנשא ע׳</he> when a Jerusalemite married a provincial woman.—Pl. <he>עִירוֹנִיּוֹת</he>, <cite ref=\"P01269\"><he>עִירָ׳</he></cite>. ",
+				"<cite ref=\"Shabbat 80a:1\">Sabb. 80ᵃ</cite> <he>בע׳</he> in the case of provincial women (who may paint both eyes without being indecent).—[<cite ref=\"Beitzah 32a\">Bets. 32ᵃ</cite>, v. <cite ref=\"P00695\"><he>עִירָנִית</he> I</cite>.]"
+			]
+		}
+	]
+}

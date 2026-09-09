@@ -1,0 +1,40 @@
+{
+	"id": "P00090",
+	"slug": "עגל-2",
+	"headword": {
+		"text": "עֲגַל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1041,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00089\">same</cite>, <i>to be round</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 2:1:6\">Y. Erub. II, 20ᵃ</cite> <he>בהן דעֵגְלִין</he> in the case of those stones which are round (forming a fence)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַגֵּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to round off</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 94b:4\">Men. 94ᵇ</cite> <he>דעַגֵּיל להו מִיעַגֵּל</he> he rounded them off."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to twine around</i>. Y. Kil. IX, end, 32ᵈ [read:] <he>נסב פסקיא דעמר ועַגְּלָהּ וכ׳</he> (v. <cite ref=\"Q01318\"><he>פְּסִיקְיָא</he></cite>) he took a woolen band and wound it around both of them.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

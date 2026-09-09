@@ -1,0 +1,30 @@
+{
+	"id": "U01967",
+	"slug": "שריון",
+	"headword": {
+		"text": "שִׁרְיוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1631,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.;<cite ref=\"U01959\"><he>שרי</he></cite> = <he>שרר</he>; cmp. Assyr. siriâm) (<i>ringed</i>) <i>coat of mail</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 6:2\">Sabb. VI, 2</cite>, expl. ",
+				"<cite ref=\"Shabbat 62a:6\">ib. 62ᵃ</cite> <cite ref=\"G00671\"><he>זַרְדָּא</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:9\">Cant. R. to I, 9</cite> <he>יצא … בש׳ וכובע וכ׳</he> when Pharaoh came forth in mail and helmet &c.; <cite ref=\"Yalkut Shimoni on Nach 159\">Yalk. Sam. 159</cite>; a. e.—Pl. <he>שִׁרְיוֹנִים</he>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 133:28\">Yalk. Gen. 133</cite>."
+			]
+		}
+	]
+}

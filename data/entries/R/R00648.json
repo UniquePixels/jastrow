@@ -1,0 +1,45 @@
+{
+	"id": "R00648",
+	"slug": "צעד-1",
+	"headword": {
+		"text": "צָעַד"
+	},
+	"page": {
+		"number": 1293,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to step, walk</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 20b:9\">Taan. 20ᵇ</cite> <he>ולא צָעַדְתִּי בפני מי וכ׳</he> I never walked in front of one my superior; <cite ref=\"Megillah 28a:21\">Meg. 28ᵃ</cite>.—[<cite ref=\"Yalkut Shimoni on Torah 346:6\">Yalk. Ex. 346</cite> <he>הצועד</he>, v. <cite ref=\"R00215\"><he>צוֹעֵר</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִצְעִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to walk, direct</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 29b:17\">Ber. 29ᵇ</cite> <he>שתוליכני לשלום ותַצְעִידֵנִי וכ׳</he> that thou mayest lead me in safety and direct me in safety."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["צִיעֵד"],
+			"senses": [
+				{
+					"gloss": "<i>to climb</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 39\">Pirké d’R. El. ch. XXXIX</cite> <he>והיו … מְצַעֲדוֹת על וכ׳</he> and the Egyptian girls used to climb up the walls and throw to him (Joseph) rings &c."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

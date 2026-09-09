@@ -1,0 +1,35 @@
+{
+	"id": "J00240",
+	"slug": "יורה-2",
+	"headword": {
+		"text": "יוֹרֶה",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "יוֹרָה"
+		}
+	],
+	"page": {
+		"number": 571,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"A00843\"><he>אוּר</he></cite>, cmp. Syr. <cite ref=\"A01602\"><he>אירא</he></cite> P. Sm. 167) <i>boiler, kettle</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 108a:12\">Ḥull. 108ᵃ</cite> <he>י׳ של חלב</he> a kettle of milk. ",
+				"<cite ref=\"Chullin 108b:4\">Ib. 108ᵇ</cite> <he>י׳ רותחת</he> a boiling kettle. ",
+				"<cite ref=\"Avodah Zarah 76a:17\">Ab. Zar. 76ᵃ</cite> <he>י׳ קטנה בתוך י׳ גדולה</he> put a small boiler into a large one filled with water, v. <cite ref=\"C01190\"><he>גָּעַל</he></cite>; a. fr.—Esp. <i>the dyer’s kettle, dye</i>. ",
+				"<cite ref=\"Bava Kamma 99a:1\">B. Kam. 99ᵃ</cite> top <he>הקדיחו י׳</he> (Ms. H. <he>הקדיחתו</he>) the dye burnt it (the wool); <cite ref=\"Mishnah Bava Kamma 9:4\">ib. IX, 4</cite> (<cite ref=\"Bava Kamma 100b:2\">100ᵇ</cite>) <he>הקדיחתו י׳</he> (v. Rabb. D. S. a. l. note 30); Y. ib. IX, 6ᵈ bot. <he>הקדיחה י׳</he>.—",
+				"<cite ref=\"Chagigah 15b:15\">Ḥag. 15ᵇ</cite> (in Chald. dict.) <he>כל עמר דנחית לי׳ סליק</he> does the wool that goes into the kettle always come out sound?, i.e. does every student of mystic philosophy escape death or scepticism?—",
+				"<cite ref=\"Mishnah Shabbat 1:6\">Sabb. I, 6</cite>; a. e.—Pl. <he>יוֹרוֹת</he>; <he>י׳ הערביים</he> <i>improvised fire places of the Arabs, a cavity in the ground laid out with clay</i>. ",
+				"<cite ref=\"Mishnah Kelim 5:10\">Kel. V, 10</cite> (ed. Dehr. <he>יוֹרַת</he>). ",
+				"<cite ref=\"Mishnah Menachot 5:9\">Men. V, 9</cite> (<cite ref=\"Menachot 63a:11\">63ᵃ</cite>)."
+			]
+		}
+	]
+}

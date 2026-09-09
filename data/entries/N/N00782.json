@@ -1,0 +1,54 @@
+{
+	"id": "N00782",
+	"slug": "ניר-1",
+	"headword": {
+		"text": "נִיר",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "נוּר"
+		}
+	],
+	"page": {
+		"number": 909,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. Del. Proleg., p. 98, sq.) [<i>to conquer</i>,] <i>to break ground, clear</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Menahot 9:3\">Tosef. Men. IX, 3</cite> <he>נָרָהּ שנה ראשונה ושנייה חורשה וכ׳</he> he breaks the field the first year, the second year he ploughs it &c.; <cite ref=\"Menachot 85a\">Men. 85ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Arakhin 9:1\">Arakh. IX, 1</cite> (<cite ref=\"Arakhin 29b:4\">29ᵇ</cite>) <he>נָרָהּ</he> if he broke it (without planting). ",
+				"<cite ref=\"Tosefta Bava Metzia 9:7\">Tosef. B. Mets. IX, 7</cite> <he>לא יהא נָר … אלא נָאר וכ׳</he> (Var. <cite ref=\"N01255\"><he>נָר</he></cite>) he must not plough it over entirely one year and plant the next, but plough one half &c. ",
+				"<cite ref=\"Tosefta Bava Metzia 9:8\">Ib. 8</cite> <he>והיה נָרָהּ וכ׳</he> and he ploughed all of it one year &c. ",
+				"<cite ref=\"Tosefta Bava Metzia 9:26\">Ib. 26</cite> <cite ref=\"N00034\"><he>נאר</he></cite> (Var. <cite ref=\"N00664\"><he>נָיֵיר</he></cite>, <cite ref=\"N01255\"><he>נָר</he></cite>); a. fr.—Part. pass. <cite ref=\"N00783\"><he>נִיר</he></cite>; f. <he>נִירָה</he>. ",
+				"<cite ref=\"Tosefta Bava Metzia 9:29\">Ib. 29</cite> <he>מניחה לפניו נ׳</he> when he surrenders the field to him cleared, opp. <cite ref=\"U01372\"><he>שֶׁלֶף</he></cite>.—[<cite ref=\"Menachot 85b:6\">Men. 85ᵇ</cite> <he>ניר חציה</he>, Ms. M. <cite ref=\"N01255\"><he>נָר</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִרְנֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to plough over repeatedly</i>. Part. pass. <he>מְנוֹנָר</he> (= <he>מְנוּרְנָר</he>; cmp. <cite ref=\"M00977\"><he>מְטוֹטֶלֶת</he></cite> a. <cite ref=\"M00983\"><he>מְטוּלְטֶלֶת</he></cite>); f. <he>מְנוֹנֶרֶת</he>, pl. <he>מְנוֹנָרוֹת</he>. ",
+					"units": [
+						"<cite ref=\"Menachot 85a\">Men. 85ᵃ</cite> <he>שדות … והמ׳ לכך</he> (Ms. M. <he>הנונרות לבד</he>, corr. acc. or <he>הנִינָּרוֹת</he> <i>Nif.</i>) fields … repeatedly ploughed over for that purpose; <cite ref=\"Tosefta Menahot 9:3\">Tosef. ib. IX, 3</cite> <he>הגינירות</he>, Var. <he>הניטרות</he>, read <he>הנִינָּרוֹת</he> or <he>הנִינּוֹרוֹת</he>)."
+					]
+				}
+			],
+			"stem": "Pilp."
+		},
+		{
+			"forms": ["נִינָּר", "נִינּוֹר"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"D00633\"><he>נִידּוֹן</he></cite> fr. <cite ref=\"D00634\"><he>דִּין</he></cite>) <i>to be broken</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

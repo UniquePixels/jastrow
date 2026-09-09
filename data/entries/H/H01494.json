@@ -1,0 +1,32 @@
+{
+	"id": "H01494",
+	"slug": "חצב-6",
+	"headword": {
+		"text": "חֲצָב",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חָצוּב"
+		}
+	],
+	"page": {
+		"number": 494,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01493\"><he>חצב</he></cite>) [<i>cutter</i>,] <i>a shrubby plant</i>, with deep and straight roots, used for hedges to mark boundaries, prob. <i>cistus</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 55a:9\">B. Bath. 55ᵃ</cite> <he>המצר והח׳ וכ׳</he> a landmark (stone &c.) and the <i>ḥazab</i> form a legal boundary &c. ",
+				"<cite ref=\"Bava Batra 56a:5\">Ib. 56ᵃ</cite>, v. <cite ref=\"H01506\"><he>חֲצוּבָא</he> I</cite>. ",
+				"<cite ref=\"Tosefta Shabbat 14:16\">Tosef. Sabb. XIV</cite> (<cite ref=\"Tosefta Shabbat 15:8\">XV</cite>), 8; Y. ib. XVIII, 16ᶜ bot; Bab. ",
+				"<cite ref=\"Shabbat 128a:20\">ib. 128ᵃ</cite> <he>מטלטלין את הח׳ וכ׳</he> you may (on the Sabbath) handle the (cut) <i>ḥ.</i>, because it is food for gazelles. ",
+				"<cite ref=\"Mishnah Kilayim 1:8\">Kil. I, 8</cite> <he>חצוב</he> (Ar. <cite ref=\"H01493\"><he>חצב</he></cite>).—Pl., v. <cite ref=\"H01508\"><he>חֲצוּבָה</he> I</cite>."
+			]
+		}
+	]
+}

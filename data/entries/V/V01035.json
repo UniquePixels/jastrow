@@ -1,0 +1,22 @@
+{
+	"id": "V01035",
+	"slug": "תרעייא",
+	"headword": {
+		"text": "תַּרְעָיָיא"
+	},
+	"page": {
+		"number": 1701,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>תְּרַע</he> I) <i>one that makes a breach</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 69\">Gen. R. s. 69</cite> (play on <he>ופרצת ימה</he>, <cite ref=\"Genesis 28:14\">Gen. XXVIII, 14</cite>) <he>את הוא ת׳ דימא</he> (some ed. <cite ref=\"V00968\"><he>תְּרוֹעָיָיא</he></cite>) thou art he that will break through the sea (thy children will pass through the Red Sea); <cite ref=\"Yalkut Shimoni on Nach 551:10\">Yalk. Mic. 551</cite> <he>תרעא</he> (corr. acc.)."
+			]
+		}
+	]
+}

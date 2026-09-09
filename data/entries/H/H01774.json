@@ -1,0 +1,41 @@
+{
+	"id": "H01774",
+	"slug": "חרר-11",
+	"headword": {
+		"text": "חֲרָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲרָרָא"
+		}
+	],
+	"page": {
+		"number": 506,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. = <cite ref=\"H01775\">next w.</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a cake</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 7:13\">Targ. Jud. VII, 13</cite> (h. text <cite ref=\"R00518\"><he>צליל</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 17:13\">Targ. I Kings XVII, 13</cite> (h. text <he>עגה</he>); a. fr.—",
+				"<cite ref=\"Pesikta Rabbati 18:1\">Pesik. R. s. 18</cite> [read:] <he>תמן אמרין עבדין מיניה ח׳ לכלבא ולא טעמיה</he> there (in Babylonia) they say, they made out of it a cake for a dog, but he would not taste it (v. ",
+				"<cite ref=\"Eruvin 81a\">Erub. 81ᵃ</cite>); Pesik. Haomer, p. 71ᵇ <cite ref=\"H01775\"><he>חֲרָרָה</he></cite>.—Pl. <he>חֲרָרָן</he>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 11:8\">Targ. Y. I Num. XI, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 12:39\">Targ. Y. Ex. XII, 39</cite> (some ed. <cite ref=\"H01697\"><he>חֲרִירָן</he></cite>; <cite ref=\"H01674\"><he>חרידן</he></cite>, corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>clot</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 24\">Lev. R. s. 24</cite> <he>ח׳ דדמא</he> (ed. <cite ref=\"H01599\"><he>חרדא</he></cite>, <cite ref=\"H01599\"><he>חרדה</he></cite>, corr. acc.) a clot of blood."
+			],
+			"label": "2"
+		}
+	]
+}

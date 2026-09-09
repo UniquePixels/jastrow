@@ -1,0 +1,23 @@
+{
+	"id": "Q00634",
+	"slug": "פיטרא-1",
+	"headword": {
+		"text": "פִּיטְרָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1162,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"Q00562\"><he>פַּטְרָיוֹת</he></cite>) <i>fungus</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 107b\">Sabb. 107ᵇ</cite> sq. <he>האי מאן דתלש פ׳ וכ׳</he> he who plucks a fungus from the handle of a pitcher."
+			]
+		}
+	]
+}

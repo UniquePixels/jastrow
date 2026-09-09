@@ -1,0 +1,25 @@
+{
+	"id": "C00749",
+	"slug": "גינאה",
+	"headword": {
+		"text": "גִּינָּאָה"
+	},
+	"page": {
+		"number": 239,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"C00748\"><he>גִּינָּא</he></cite>) <i>gardener, dealer in vegetables</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 105b:13\">Ḥull. 105ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 110b\">Sabb. 110ᵇ</cite>.—Pl. <cite ref=\"C00750\"><he>גִּינָּאֵי</he></cite>. ",
+				"<cite ref=\"Gittin 14a:9\">Gitt. 14ᵃ</cite>. ",
+				"<cite ref=\"Taanit 20b:12\">Taan. 20ᵇ</cite> <he>פייש להו לג׳</he> (Ms. M. <he>יתיר לגִנָּאֵי</he>) was left over with the gardeners (was not sold)."
+			]
+		}
+	]
+}

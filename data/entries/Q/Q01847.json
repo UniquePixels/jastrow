@@ -1,0 +1,44 @@
+{
+	"id": "Q01847",
+	"slug": "פרך-4",
+	"headword": {
+		"text": "פֶּרֶךְ"
+	},
+	"page": {
+		"number": 1229,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01844\"><he>פָּרַךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (b. h.) <i>tyranny, rigor</i>, v. <cite ref=\"Q01807\"><he>פְּרִיכָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 5:4:2\">Y. Sot. V, 20ᶜ</cite> top <he>שהיו משעבדין בהן בפ׳ וכ׳</he> who had made them serve with rigor and hard labor. ",
+				"<cite ref=\"Shemot Rabbah 5:16\">Ex. R. s. 5</cite>, a. e., v. <cite ref=\"Q01167\"><he>פָּנוּי</he></cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>that which is easily crushed, brittle shell, husk</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Orlah 3:7\">Orl. III, 7</cite>, a. fr. <he>אגוזי פ׳</he> <i>nuts with brittle shells, crack-nuts</i>. ",
+				"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite> <he>האגוז יש בו ג׳ מינים אגוזי פ׳ וכ׳</he> there are three kinds of nuts: soft-shell nuts, middling nuts &c.; <he>של פ׳ שניפרך מעצמו</he> the <i>perekh</i> nut which bursts open of itself; <he>כך הוא ישראל … מעצמם אלו של פ׳</he> so are the Israelites: those among them who do good of their own accord are the crack-nuts; <cite ref=\"Yalkut Shimoni on Nach 992:21\">Yalk. Cant. 992</cite>.—Pl. <he>פְּרָכִים</he>, <cite ref=\"Q01804\"><he>פְּרָכִין</he></cite>. ",
+				"<cite ref=\"Rosh Hashanah 13b:5\">R. Hash. 13ᵇ</cite> <he>עשויין פ׳ פ׳</he> they (the peas) are husked as you need them."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>pl.</i> as ab. [<i>crushers</i>,] <i>bars of a grate</i> (through which the poking is done). ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 12:3\">Kel. XII, 3</cite>; <cite ref=\"Tosefta Keilim Metsia 2:10\">Tosef. Kel. B. Mets. II, 10</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

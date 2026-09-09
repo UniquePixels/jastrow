@@ -1,0 +1,35 @@
+{
+	"id": "I00174",
+	"slug": "טום-2",
+	"headword": {
+		"text": "טוּם",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 524,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00173\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 3:19\">Targ. II Kings III, 19</cite>, v. <cite ref=\"I00555\"><he>טְמַם</he></cite>.—",
+				"<cite ref=\"Bava Kamma 50a:6\">B. Kam. 50ᵃ</cite> <he>עד דטָאִים ליה</he> (Ms. M. <he>אָטֵים</he> <i>Af.</i>, v. Rabb. D. S. a. l. note) until he fills it up."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיטַּיִּים"],
+			"senses": [
+				{
+					"gloss": "<i>to be filled up</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 79a:5\">Erub. 79ᵃ</cite> <he>למִיטַּיְּימֵיה קאי</he> the intention is that it be filled up (with the pebbles)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

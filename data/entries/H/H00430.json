@@ -1,0 +1,42 @@
+{
+	"id": "H00430",
+	"slug": "חוץ-3",
+	"headword": {
+		"text": "חוּץ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 437,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H00429\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>that which is divided off, outside, street</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 28:9\">Kel. XXVIII, 9</cite> <he>חלוק של יוצאת הח׳</he> the shirt of the runabout (prostitute; v. Sm. Ant. s. v. Coa Vestis a. Diaphane Heimata; <cite ref=\"Tosefta Keilim Batra 5:14\">Tosef. Kel. B. Bath. V, 14</cite> <he>יוצאות החוט</he> going out of the <i>line</i> of custom). ",
+				"<cite ref=\"Zevachim 57b:1\">Zeb. 57ᵇ</cite>; <cite ref=\"Yoma 57a:6\">Yoma 57ᵃ</cite> <he>ח׳ ופנים</he> Ar. (v. Rabb. D. S. a. l note 2, a. Tosaf. to Zeb. l. c.) what is done outside the Temple and what inside. ",
+				"<cite ref=\"Mishnah Chullin 6:2\">Ḥull. VI, 2</cite> <he>השוחט … בח׳</he> he who slaughters unconsecrated animals within the Temple court, or consecrated animals without. ",
+				"<cite ref=\"Chullin 85a:10\">Ib. 85ᵃ</cite> <he>שחוטי ח׳</he> consecrated animals slaughtered outside the Temple court. ",
+				"<cite ref=\"Chullin 68a:4\">Ib. 68ᵃ</cite> <he>וצתה ח׳ למחיצתו</he> was carried outside of its legal limits; a. fr.—<he>בַּח׳</he>, <he>מִבַּח׳</he> <i>outside, from outside</i>, <he>לַח׳</he> <i>out</i> (through the window &c.). ",
+				"<cite ref=\"Mishnah Shabbat 1:1\">Sabb. I, 1</cite>. ",
+				"<cite ref=\"Avodah Zarah 11a\">Ab. Zar. 11ᵃ</cite>; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (followed by <he>מ־</he>) <i>except, without</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 1:1\">Ḥull. I, 1</cite> <he>ח׳ מחרש וכ׳</he> except a deaf and dumb &c. ",
+				"<cite ref=\"Bereishit Rabbah 49:2\">Gen. R. s. 49</cite> <he>ח׳ מדעתו</he> without consulting him; a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

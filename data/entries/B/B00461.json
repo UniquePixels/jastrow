@@ -1,0 +1,34 @@
+{
+	"id": "B00461",
+	"slug": "בזק-2",
+	"headword": {
+		"text": "בָּזַק"
+	},
+	"page": {
+		"number": 154,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (√<cite ref=\"B00406\"><he>בז</he></cite>, v. <he>בזי</he> II; cmp. <he>בדק</he>) <i>to break, crush</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 10:14\">Erub. X, 14</cite> (<cite ref=\"Eruvin 104a:6\">104ᵃ</cite>) <he>בּוֹזְקִין מלח וכ׳</he> you may crush salt (lumps) on the steps (that the priests should not slip). ",
+				"<cite ref=\"Bereishit Rabbah 50\">Gen. R. s. 50</cite>, beg. (expl. <he>כמראה הבזק</he>, <cite ref=\"Ezekiel 1:14\">Ezek. I, 14</cite>) <he>כזה שהוא בוזק וכ׳</he> as one who crushes pieces of peat in the stove (when the flames break forth)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִבְזַק"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"B00460\"><he>בָּזָק</he></cite>) <i>to be split in flashes, to flash</i> (used of the divine spirit). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 26:6\">Gen. R. s. 26</cite> <he>הרוח היא נִבְזֶקֶת וכ׳</he> the spirit flashes in (seizes) one of man’s limbs, … <he>בכל הגוף</he> the entire body."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "S00853",
+	"slug": "קיבוסת",
+	"headword": {
+		"text": "קִיבּוֹסֶת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1354,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00081\"><he>קבס</he></cite>, cmp. <cite ref=\"K00085\"><he>כבש</he></cite>, a. Syr. <cite ref=\"S01762\"><he>קפס</he></cite>, <he>קפסותא</he> P. Sm. 3695, sq.) <i>repression, intermission</i> (of prophetic revelation). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 11:5:2\">Y. Snh. XI, 30ᵇ</cite> <he>חנניה</he> … <he>אלא שהיה לו וכ׳</he> Hananiah … was a true prophet, but he had an intermission (his gift of prophecy was in abeyance), and hearing what Jeremiah prophesied &c."
+			]
+		}
+	]
+}

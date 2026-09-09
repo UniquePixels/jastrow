@@ -1,0 +1,35 @@
+{
+	"id": "S00055",
+	"slug": "קביעותא",
+	"headword": {
+		"text": "קְבִיעוּתָא"
+	},
+	"page": {
+		"number": 1308,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00054\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>appointment</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 4:23\">Targ. I Chr. IV, 23</cite>, v. <cite ref=\"S00054\">preced.</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>definitiveness, certainty</i>. ",
+			"units": [
+				"<cite ref=\"Keritot 18a:34\">Ker. 18ᵃ</cite> <he>דלא בעי ק׳ לאיסורא</he> who does not make certainty (of the presence of one forbidden piece among permitted ones) a requirement for a sacrifice <he>(אשם תלוי</he>), v. <cite ref=\"S00086\"><he>קְבַע</he> II</cite>. ",
+				"<cite ref=\"Yoma 50b:7\">Yoma 50ᵇ</cite> <he>אחיו הכהנים בק׳ וכ׳</he> have his (the high priest’s) fellow-priests a definite share in the atonement through the high priest’s bullock (i.e. are they to be considered partners in the sacrifice from the time of its dedication), or do they receive their forgiveness merely by implication?, v. <cite ref=\"S00505\"><he>קופְיָא</he></cite>.—V. <cite ref=\"S00089\"><he>קִבְעָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

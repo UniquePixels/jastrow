@@ -1,0 +1,24 @@
+{
+	"id": "S01387",
+	"slug": "קלסריקין",
+	"headword": {
+		"text": "קְלַסְרִיקִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1380,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Κοιλη-συρικός) <i>Cœlesyrians</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 6:13\">Esth. R. to II, 21</cite>, v. <cite ref=\"B01170\"><he>בַּרְבָּרִי</he></cite>. V., however, <cite ref=\"S01283\"><he>קְלוּסַנְטְרִין</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "M00476",
+	"slug": "מוכני",
+	"headword": {
+		"text": "מוּכְנִי"
+	},
+	"page": {
+		"number": 741,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (μηχανή) <i>machine</i> for lifting weights, <i>wheel-work</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 3:10\">Yoma III, 10</cite> <he>עשה מ׳ לכיור</he> made a machine for sinking the wash-basin (v. <cite ref=\"K00512\"><he>כִּיּוֹר</he></cite>) into the well; <cite ref=\"Mishnah Tamid 3:8\">Tam. III, 8</cite>. ",
+				"<cite ref=\"Mishnah Kelim 18:2\">Kel. XVIII, 2</cite> (ed. Dehr. <cite ref=\"M01412\"><he>מִכְנִי</he></cite>). ",
+				"<cite ref=\"Tosefta Parah 3:9\">Tosef. Par. III</cite> (<cite ref=\"Tosefta Parah 2:9\">II</cite>), 9 <cite ref=\"M01158\"><he>מִיכְנִי</he></cite>. ",
+				"<cite ref=\"Chullin 15b:16\">Ḥull. 15ᵇ</cite> <he>השוחט במ׳</he> if one slaughters by means of a machine; a. e."
+			]
+		}
+	]
+}

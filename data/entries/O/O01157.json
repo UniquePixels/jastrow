@@ -1,0 +1,29 @@
+{
+	"id": "O01157",
+	"slug": "סנא-3",
+	"headword": {
+		"text": "סָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְנָא"
+		}
+	],
+	"page": {
+		"number": 1004,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01156\">preced.</cite>) <i>hatred</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 23:5\">Targ. Y. Ex. XXIII, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 35:20\">Targ. Y. Num. XXXV, 20</cite> <cite ref=\"B00664\"><he>ביסְנָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 27:41\">Targ. Y. Gen. XXVII, 41</cite>; a. e."
+			]
+		}
+	]
+}

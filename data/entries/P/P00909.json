@@ -1,0 +1,47 @@
+{
+	"id": "P00909",
+	"slug": "עמס-1",
+	"headword": {
+		"text": "עָמַס"
+	},
+	"page": {
+		"number": 1089,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to press, be pressed</i>,] <i>to carry a load</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 8:6:3\">Cant. R. to VIII, 6</cite> <he>עוֹמְסֵי גרנות</he> those who carry the crops to the granaries.—<i>Part. pass.</i> <he>עָמוּס</he> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>laden, heavy;</i> <he>ע׳ בלשונו</he> <i>of heavy tongue</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite>, beg. <he>למה נקרא שמו עמוס שהיה ע׳ בלשונו</he> he was named Amos, because he was a stammerer; <cite ref=\"Yalkut Shimoni on Nach 307\">Yalk. Is. 307</cite>; (Pesik. Nah., p. 125ᵇ <he>שהיה פסילוס וכ׳</he>).—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " (in a secret letter) <i>officer</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 12a\">Snh. 12ᵃ</cite> <he>עֲמוּסי וכ׳</he>, v. <cite ref=\"N00527\"><he>נַחְשׁוֹן</he></cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִמֵּס"],
+			"senses": [
+				{
+					"gloss": "<i>to load</i>.—Part. pass. <he>מְעוּמָּס</he>. Tanḥ. P’ḳudé 3 <he>והוא מע׳ מן בנים וכ׳</he> and he is laden (with troubles) on account of sons and daughters (depending upon him).",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

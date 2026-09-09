@@ -1,0 +1,72 @@
+{
+	"id": "A02728",
+	"slug": "אפך-2",
+	"headword": {
+		"text": "אֲפַךְ"
+	},
+	"page": {
+		"number": 105,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", Af. <cite ref=\"A02681\"><he>אָפִיךְ</he></cite>, Pa. <cite ref=\"A02727\"><he>אַפַךְ</he></cite> ch. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to turn</i> (act. a. neut.) also <i>to turn around, to flee; to make turn around, to beat</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 78:9\">Targ. Ps. LXXVIII, 9</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 8:13\">Targ. I Chron. VIII, 13</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:10\">Y. Kil. IX, 32ᶜ</cite> top <he>אפיך אפיך</he> turn around, turn around. ",
+				"<cite ref=\"Menachot 25b\">Men. 25ᵇ</cite>, a. fr. <he>איפוך</he> reverse it, or, I reverse it. ",
+				"<cite ref=\"Menachot 25b:6\">Ib.</cite> <he>ומי מצית אפכת לה</he> how can you reverse it? <cite ref=\"Gittin 69b:2\">Gitt. 69ᵇ</cite> <he>ונַפְּכֵיה</he> let him reverse it; a. fr.—(With <cite ref=\"U00081\"><he>שבועה</he></cite>) <i>to reverse the oath, shift the oath over to the opponent</i>. ",
+				"<cite ref=\"Shevuot 41a\">Shebu. 41ᵃ</cite> in a case where the Biblical law prescribes an oath <he>לא מַפְכִינָן</he> we allow it not to be shifted over to the claimant; a. fr.—",
+				"<cite ref=\"Shabbat 31a:5\">Sabb. 31ᵃ</cite> <he>אפיך ליה</he> he reversed it, i.e. recited the alphabet to him in inverted order. ",
+				"<cite ref=\"Yevamot 63a:13\">Yeb. 63ᵃ</cite> <he>א׳ לה</he> he said to her just the reverse. ",
+				"<cite ref=\"Gittin 67b:16\">Gitt. 67ᵇ</cite> <he>מֵיפַךְ אפכי</he> they will do the reverse; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to overturn, destroy</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 25a:12\">Taan. 25ᵃ</cite> <he>דאפכיה לעלמא מרישא</he> (Ms. M. <he>דאחרב</he>) that I should destroy the world."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"A01258\"><he>אִיכְפַּת</he></cite>) <i>to have to do with, care for, mind</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:1:10\">Y. Bets. I, 60ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Sheviit 9:1:8\">Y. Shebi. IX, 38ᶜ</cite> top; Y. Erub. III, 21ᵇ bot. (read:) <he>מה אפך לן פתילה גבי וכ׳</he> what does the law about wicks concern us when speaking of the egg, i.e. what relation is there between the two? <cite ref=\"Jerusalem Talmud Terumot 8:3:32\">Y. Ter. VIII, 46ᵃ</cite> top <he>מה אפך לן מִצְוֹת וכ׳</he> what relation is there between religious laws and sanitary precautions concerning snake-bitten fruit? <cite ref=\"Jerusalem Talmud Terumot 8:3:32\">Ib.</cite> <he>מה אפכיי וכ׳</he> (corr. acc.)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to move about, travel, traffic</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 31b:3\">Ab. Zar. 31ᵇ</cite> <he>כ״ע אפכי</he> all the people are about, on the road."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>to pay in return, to retaliate</i>, v. <cite ref=\"E00741\"><he>הֲפַךְ</he></cite> a. <cite ref=\"A02619\"><he>אַפּוּכִי</he></cite>.",
+			"units": [],
+			"label": "5"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְּפִיךְ", "אִתְּפַךְ"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"A01752\"><he>אִי׳</he></cite> <i>to change off</i>. ",
+					"units": [
+						"<cite ref=\"Beitzah 10b\">Bets. 10ᵇ</cite> <he>איתפוכי אתפך</he> (old ed. correctly <he>אתְּפוּךְ</he>, mod. ed. <he>אתהפוכי אתהפוך</he>, Ms. M. <he>והפוכי</he>) they changed places. Deriv. <cite ref=\"A02619\"><he>אַפּוּכִי</he></cite>, <cite ref=\"A01553\"><he>אִיפְּכָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

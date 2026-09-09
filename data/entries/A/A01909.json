@@ -1,0 +1,23 @@
+{
+	"id": "A01909",
+	"slug": "אלמא-3",
+	"headword": {
+		"text": "אַלְמָא"
+	},
+	"page": {
+		"number": 71,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. b. h. <he>אֵלֶם</he>, v. <cite ref=\"A01904\"><he>אָלַם</he></cite>) <i>confirmation;</i> (dial. term) <i>consequently</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 2b:13\">Pes. 2ᵇ</cite> <he>א׳ אור וכ׳</he> consequently <i>ôr</i> means day-light. ",
+				"<cite ref=\"Shabbat 151a:7\">Sabb. 151ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"id": "O00200",
+	"slug": "סדר-2",
+	"headword": {
+		"text": "סְדַר"
+	},
+	"page": {
+		"number": 958,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00199\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Exodus 40:23\">Targ. Y. II, Ex. XL, 23</cite> (Y. I a. O. <cite ref=\"O00201\"><he>סַדַּר</he></cite>, some ed. <cite ref=\"O00199\"><he>סָדַר</he></cite>). Targ. Y. ib. XII, 39; a. e.—Part. pass. <he>סְדִיר</he>; f. <cite ref=\"O00186\"><he>סְדִירָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 7:13\">Targ. Ps. VII, 13</cite> <i>ranged</i>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַדֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00199\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 22:9\">Targ. Gen. XXII, 9</cite> (Y. ed. Vien. <cite ref=\"O00199\"><he>סָדר</he></cite>). Ib. XIV, 8 (O. ed. Amst. <he>סְדָרוּ</he>). ",
+						"<cite ref=\"Aramaic Targum to Job 13:18\">Targ. Job XIII, 18</cite> (ed. Wil. <cite ref=\"O00200\"><he>סְדַר</he></cite>); a. fr.—",
+						"<cite ref=\"Aramaic Targum to Psalms 5:4\">Targ. Ps. V, 4</cite> (v. <cite ref=\"O00199\">preced.</cite>).—Part. pass. <he>מְסַדַּר</he>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 24:6\">Targ. Y. Lev. XXIV, 6</cite> (not <he>מְסַדֵּר</he>). ",
+						"<cite ref=\"Targum Jonathan on Exodus 39:18\">Targ. Y. Ex. XXXIX, 18</cite>; <cite ref=\"Targum Jonathan on Exodus 39:37\">37</cite>.—",
+						"<cite ref=\"Berakhot 13a:14\">Ber. 13ᵃ</cite> <he>התם נביא הוא דקא מְסַדֵּר לשבחיה וכ׳</he> there (<cite ref=\"Nehemiah 9:7\">Neh. IX, 7</cite> where Abram is used instead of Abraham) the prophet praises the Lord by referring to the past. ",
+						"<cite ref=\"Yoma 38b:7\">Yoma 38ᵇ</cite> <he>דהוה מְסַדֵּר אגדתא קמיה</he> who reviewed before him the homiletic sayings according to a certain system; a. fr.—Y. Ab. Zar. V, 44ᵈ <he>נקרוץ נְסַדֵּר לאילין וכ׳</he> let us get up early and set in order those thorn-bushes (meaning, let us kill those men).—",
+						"<cite ref=\"Shevuot 30b:8\">Shebu. 30ᵇ</cite> <he>דמחזי כמאן דמְסַדַּר דיניה</he> Ms. M. (ed. <he>דסַדַּר ליה לדיניה</he>) he has the appearance of one whose case has been prearranged (with the judge; ed.: of one who has prearranged his case)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to allow exemption from seizure</i> (v. <cite ref=\"O00199\">preced.</cite>). ",
+					"units": [
+						"<cite ref=\"Bava Metzia 113b:9\">B. Mets. 113ᵇ</cite> <he>השתא … סַדּוּרֵי מְסַדְּרִינָן ליה</he> since we order his pledge (which consists of necessaries) to be sold for his debt, how can we allow him an exemption (so as to leave him a certain amount from the money realized by the sale)?"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִסְתַּדַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be arranged</i>, (of prayers) <i>to be offered</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 36:19\">Targ. Job XXXVI, 19</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

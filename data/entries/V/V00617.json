@@ -1,0 +1,33 @@
+{
+	"id": "V00617",
+	"slug": "תלע-2",
+	"headword": {
+		"text": "תְּלַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1673,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַתְלַע</he> <cite ref=\"V00616\">same</cite>, <i>to become wormy; to rot</i>.—Part. pass. <he>מַתְלַע</he>; pl. <he>מַתְלְעֵי</he>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 108b:19\">Snh. 108ᵇ</cite> <he>חיזרא כי מ׳</he> bran that had grown wormy. ",
+						"<cite ref=\"Moed Katan 10b:11\">M. Kat. 10ᵇ</cite> <he>כיון דמ׳ וכ׳</he> because the dates may get wormy, they are like goods that may depreciate (and may be attended to during the festive week)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "O01087",
+	"slug": "סמיות",
+	"headword": {
+		"text": "סַמְיוּת"
+	},
+	"page": {
+		"number": 1000,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01054\"><he>סָמָא</he></cite>) <i>being tied up, obstructed</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 105a:16\">Keth. 105ᵃ</cite> <he>ס׳ הלב</he> obstruction of the mind, <i>dullness</i>.—Esp. <he>ס׳ עינים</he> <i>blindness</i>. ",
+				"<cite ref=\"Bereishit Rabbah 93:6\">Gen. R. s. 93</cite>, v. <cite ref=\"E00929\"><he>הֲשָׂמָה</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 150:2\">Yalk. ib. 150</cite>. ",
+				"<cite ref=\"Bava Metzia 71a:5\">B. Mets. 71ᵃ</cite>"
+			]
+		}
+	]
+}

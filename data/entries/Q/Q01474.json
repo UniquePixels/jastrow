@@ -1,0 +1,84 @@
+{
+	"id": "Q01474",
+	"slug": "פקח-1",
+	"headword": {
+		"text": "פָּקַח"
+	},
+	"page": {
+		"number": 1208,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to break through, open</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיקֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to open</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 12b:8\">B. Bath. 12ᵇ</cite> <he>אפילו … יין מְפַקְּחוֹ</he> even if his heart be closed like a virgin (his mind be dull), wine will open it (make it bright).—Esp. (with <cite ref=\"C00848\"><he>גַּל</he></cite>) <i>to open a heap of debris; to attempt to rescue a person supposed to be buried in debris</i>. Ohol. XVI, 4 <he>המְפקּחַ בגל</he> he who digs among debris (not knowing certainly that a corpse is buried there). ",
+						"<cite ref=\"Mishnah Pesachim 8:6\">Pes. VIII, 6</cite>. ",
+						"<cite ref=\"Ketubot 15b:2\">Keth. 15ᵇ</cite> <he>לְפַקֵּחַ עליו את הגל</he> as regards digging for his sake (on the Sabbath). Ib. 5ᵃ <he>מִפַקְּחִין פיקוח נפש</he>, v. <cite ref=\"Q00803\"><he>פִּיקּוּחַ</he></cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " [<i>to have the eyes open</i>,] <i>to guard, watch, care</i>. Ib. <he>הולכין … לפקח על עסקי רבים וכ׳</he> we may assemble in synagogues and school houses (in theatres and circuses) in order to watch over public affairs, on the Sabbath. ",
+					"units": [
+						"<cite ref=\"Shabbat 150b:8\">Sabb. 150ᵇ</cite> <he>לפקח על עסקי כלה וכ׳</he> to make arrangements for the reception of a bride &c.; Y. Ber. III, beg. 5ᵈ; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִפֽקַח"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְפַּקֵּחַ"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <cite ref=\"Q02143\"><he>נִתְפַּקֵּחַ</he></cite> (v. <cite ref=\"Q01477\"><he>פִּקֵּחַ</he></cite>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to recover the faculty of hearing</i> (<i>and speech</i>). ",
+					"units": [
+						"<cite ref=\"Mishnah Gittin 2:6\">Gitt. II, 6</cite>. ",
+						"<cite ref=\"Yevamot 113a:9\">Yeb. 113ᵃ</cite>. ",
+						"<cite ref=\"Bereishit Rabbah 53\">Gen. R. s. 53</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to recover the faculty of speech</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 42:1\">Pesik. R. s. 42</cite> <he>וכל אלם נפקח</he> and every mute was made speaking."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["הִפְקִיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to escape</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 10a:12\">B. Bath. 10ᵃ</cite> <he>שינה מַפְקַחְתּוֹ</he>, v. <cite ref=\"Q00913\"><he>פָּכַח</he></cite>."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

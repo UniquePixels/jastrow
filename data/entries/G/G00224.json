@@ -1,0 +1,23 @@
+{
+	"id": "G00224",
+	"slug": "זוף-2",
+	"headword": {
+		"text": "זוּף"
+	},
+	"page": {
+		"number": 389,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"G00223\">same</cite>.—<i>Pa.</i> <cite ref=\"G00343\"><he>זַיֵּיף</he></cite> <i>to falsify, forge</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 8:8\">Targ. Jer. VIII, 8</cite> <he>למְזַיְּיפָא</he> ed. Lag. (ed. <he>לַזַיָּפָא</he>).—",
+				"<cite ref=\"Ketubot 36b:5\">Keth. 36ᵇ</cite> <he>זַיְּיפיּ לי</he> forge for me (erase &c.). ",
+				"<cite ref=\"Ketubot 36b:5\">Ib.</cite> <he>זַיּוּפֵי ז׳ וכתב</he> he practiced imitation of handwriting and then wrote himself. ",
+				"<cite ref=\"Bava Batra 163a:8\">B. Bath. 163ᵃ</cite> <he>דילמא מְזַיֵּיף וכתב וכ׳</he> he may imitate and insert (over the signatures) whatever he desires. ",
+				"<cite ref=\"Bava Batra 163a:3\">Ib.</cite> <he>כל דמזייף לאו וכ׳</he> (not <he>המז׳</he>, v. Ms. M.) whoever desires to forge will not go to the scribe; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "O01132",
+	"slug": "סמקן",
+	"headword": {
+		"text": "סָמְקָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַ׳"
+		}
+	],
+	"page": {
+		"number": 1003,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01131\">preced.</cite> wds.) name of a <i>red jewel, carnelian</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:17\">Targ. O. Ex. XXVIII, 17</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 28:13\">Targ. Ez. XXVIII, 13</cite>; a. e."
+			]
+		}
+	]
+}

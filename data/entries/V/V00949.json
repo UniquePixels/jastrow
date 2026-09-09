@@ -1,0 +1,26 @@
+{
+	"id": "V00949",
+	"slug": "תרדא-2",
+	"headword": {
+		"text": "תְּרָדָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1696,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00947\"><he>תרד</he></cite>, cmp. <cite ref=\"I00712\"><he>טָרַד</he></cite>) <i>confused, senseless person, fool, madman</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 25b:11\">Zeb. 25ᵇ</cite> (Ms. M. <cite ref=\"V00922\"><he>תְּרָארָא</he></cite>); <cite ref=\"Yalkut Shimoni on Torah 541:5\">Yalk. Lev. 541</cite>. ",
+				"<cite ref=\"Bava Metzia 20b:2\">B. Mets. 20ᵇ</cite> (Ms. M. <cite ref=\"V00922\"><he>תְּרָאדָא</he></cite>; Ms. F. <cite ref=\"V00922\"><he>תְּרָארָא</he></cite>). ",
+				"<cite ref=\"Keritot 18b:35\">Ker. 18ᵇ</cite> (Ar. <cite ref=\"V00922\"><he>תְּרָרָא</he></cite>). ",
+				"<cite ref=\"Bava Kamma 105b\">B. Kam. 105ᵇ</cite> <he>תרדא</he> Ms. M. (ed. <he>תדורא</he>; Ms. H. <he>תארארא</he>, marginal correct. <he>תררא</he>; Ms. R. <cite ref=\"I00721\"><he>טָרוֹדָא</he></cite>; v. Rabb. D. S. a. l. note; Ar. <cite ref=\"V00922\"><he>תרארא</he></cite>).—[Ar. <he>תררא</he>, <cite ref=\"V00922\"><he>תרארא</he></cite>, fr. <cite ref=\"T00713\"><he>ריר</he></cite>, <i>one that lets his spittle run over his beard, madman</i>.—Sachs Beitr. I, p. 107, referring to <cite ref=\"V00948\">preced. w.</cite>, <i>silly person</i>, cmp. Lat. bliteus.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "M03094",
+	"slug": "מתניתא",
+	"headword": {
+		"text": "מַתְנִיתָא"
+	},
+	"page": {
+		"number": 864,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"M02941\"><he>מִשְׁנָה</he></cite> , <i>Mishnah</i>, esp. (in Babli) <i>collection of Mishnahs not embodied in the Mishnah of R. Judah</i>, as Boraitha, Tosefta &c., contrad. to <he>מַתְנִיתִין</he> (abbr. <he>מתני׳</he>) <i>our Mishnah</i>, i.e. the Mishnah proper. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 26:9\">Targ. Y. Ex. XXVI, 9</cite>.—",
+				"<cite ref=\"Taanit 21a:5\">Taan. 21ᵃ</cite> <he>אי איכא שאיל לי במ׳ דר׳ … ממתניתין</he> (differ. in Ms. M., v. Rabb. D. S. a. l.) if there be one that will ask me something from the Mishnah of R. Ḥiya or of R. Oshia which I cannot answer from our Mishnah. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 2:1:2\">Y. M. Kat. II, beg. 81ᵃ</cite> <he>מַתְנִיתָן צריכה לדר׳ חייא וכ׳</he> our Mishnah needs (for explanation) that of R. Ḥiya, and R. Ḥia’s needs ours. ",
+				"<cite ref=\"Yoma 2a:1\">Ib.</cite> <he>מַתְנִיתֵיה דר׳ וכ׳</he> the collection of &c.; a. v. fr.—Trnsf. <i>school, college</i>. ",
+				"<cite ref=\"Pesachim 101b:3\">Pes. 101ᵇ</cite> <he>במ׳ דבי וכ׳</he> at the school of the house of Rab Hineḳ &c. (where Mishnah was taught). ",
+				"<cite ref=\"Ketubot 104a:22\">Keth. 104ᵃ</cite> bot.; a. fr.—[Y. Ned. IV, 38ᶜ bot. <he>מתניתין נסבין וכ׳</he>, read: <he>מַתְנְיָינִין</he>.]—Pl. <he>מַתְנְיָיתָא</he>. ",
+				"<cite ref=\"Berakhot 25b:19\">Ber. 25ᵇ</cite> <he>מ׳ קשיין אהדרי</he> the two Boraithas quoted contradict each other!—",
+				"<cite ref=\"Niddah 33b:14\">Nidd. 33ᵇ</cite> <he>ותני מ׳</he> (some ed. <cite ref=\"M03094\"><he>מתניתא</he></cite>) and he teaches Mishnahs."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A02903",
+	"slug": "אקופי",
+	"headword": {
+		"text": "אַקּוּפֵי"
+	},
+	"page": {
+		"number": 112,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"N01233\"><he>נקף</he></cite>, <he>קף</he>) <i>curlings of the web, anything sticking out of the web</i> (threads, knots &c.). ",
+			"units": [
+				"<cite ref=\"Shabbat 75b:3\">Sabb. 75ᵇ</cite> <he>האי מאן דשקיל א׳ וכ׳</he> whoever takes threads out of clothes on the Sabbath, is guilty of an act of finishing; v. <cite ref=\"Q00528\"><he>פַּטִישׁ</he></cite>. Cmp. <cite ref=\"A02936\"><he>אַקָּפוּתָא</he></cite>."
+			]
+		}
+	]
+}

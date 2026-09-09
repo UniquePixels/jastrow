@@ -1,0 +1,28 @@
+{
+	"id": "P00954",
+	"slug": "ענוא",
+	"headword": {
+		"text": "עַנְוָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "עַנְוָוא"
+		}
+	],
+	"page": {
+		"number": 1092,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., constr. <cite ref=\"P00963\"><he>עֲנְוַת</he></cite> (v. <cite ref=\"P00958\"><he>עֲנָוָה</he> I</cite>) <i>a divine grant, supply</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 16:13\">Targ. Y. Ex. XVI, 13</cite> Ar. (ed. <he>אנחות</he>).—[Targ. Y. I ib. XV, 27 <he>ענווא</he> (some ed. <cite ref=\"P00977\"><he>עניא</he></cite>), read: <cite ref=\"P00602\"><he>עֵינָא</he></cite> or <cite ref=\"P00550\"><he>עַיְינָא</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,75 @@
+{
+	"id": "Q00444",
+	"slug": "פחד-1",
+	"headword": {
+		"text": "פָּחַד"
+	},
+	"page": {
+		"number": 1151,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to breathe, pant</i>,] <i>to fear; to be anxious</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 9:1\">Esth. R. to V, 1</cite> <he>למה תִפְחְדִי</he> why art thou afraid? <cite ref=\"Midrash Tehillim 14:6\">Midr. Till. to Ps. XIV</cite> <he>שלא פָחֲדוּ מן וכ׳</he> that they were not afraid of the Lord; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִפְחָד"],
+			"senses": [
+				{
+					"gloss": "<i>to be frightened, excited</i>. ",
+					"units": [
+						"<cite ref=\"Esther Rabbah 8:7\">Esth. R. to IV, 15</cite> <he>היתה אסתר נִפְחֶדֶת מאוד וכ׳</he> Esther was greatly excited on account of the evil &c. Cant. R. to III, 8 <he>מתיראין ומזדעזעין ונִפְחָדִין</he> afraid, trembling, and excited; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִפְחִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to frighten</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 16\">Num. R. s. 16</cite> <he>כשמבקשין להַפְחִידוֹ</he> when they want to frighten the child, v. <cite ref=\"T00977\"><he>רְצוּעָה</he></cite>; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["פִּיחֵד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q00443\">same</cite>. Part. pass. <he>מְפוּחָד</he>; pl. <he>מְפוּחָדִים</he>. Sifra B’har, Par. 3, ch. IV (ref. to <cite ref=\"Leviticus 25:19\">Lev. XXV, 19</cite>) <he>לא מפוזרים ולא מפ׳</he> neither scattered, nor frightened.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְפַּחֵד"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְפַּחֵד"],
+			"senses": [
+				{
+					"gloss": "<i>to be afraid; to be joyously excited; to await with anxiety</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>ולא היו מתיראים ולא מִתְפַּחֲדִים</he> and they were neither afraid, nor excited; <cite ref=\"Yalkut Shimoni on Nach 795\">Yalk. Ps. 795</cite>. ",
+						"<cite ref=\"Devarim Rabbah 1\">Deut. R. s. 1</cite>, end <he>מתייראין ומִתְפַּחֲדִין מכם</he> trembled and were afraid of you. ",
+						"<cite ref=\"Avot D'Rabbi Natan 9:5\">Ab. d’R. N. ch. IX</cite> <he>שיהא לבו של־אדם מִתְפַּחֵד וכ׳</he> that a man’s heart should be afraid (of an evil occurrence) every day. ",
+						"<cite ref=\"Bereishit Rabbah 48:6\">Gen. R. s. 48</cite> <he>זה מִתְפַּחֵד לומר איזו פרוקופי וכ׳</he> the one is excited thinking what the distinction will be which the king is to confer upon me; <he>וזה מתפ׳ ואומר איזה דין וכ׳</he> and the other is excited thinking what the judgment will be &c.; <cite ref=\"Yalkut Shimoni on Nach 304\">Yalk. Is. 304</cite>. Tanḥ. Lekh 15 <he>אתם מתפחדין על הטוב וכ׳</he> you will be excited with joy over the good which is reserved for you (ref. to <he>ופחדו</he>, <cite ref=\"Hosea 3:5\">Hos. III, 5</cite>). Cant. R. l. c.; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

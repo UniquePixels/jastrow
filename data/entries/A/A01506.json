@@ -1,0 +1,25 @@
+{
+	"id": "A01506",
+	"slug": "איסר-1",
+	"headword": {
+		"text": "אִיסָר"
+	},
+	"page": {
+		"number": 57,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contr. of <he>איסהר</he>, cmp. <cite ref=\"A01521\"><he>איסתירא</he></cite>, an adapt. of assarius = as) <i>As</i>, a Roman coin, usu. <sup>1</sup>/<sub>24</sub> of a Denar (v. Zuckerm. Talm. Gew. p. 22 sq.), called <he>א׳ האיטלקי</he> <i>Italian As</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 1:1\">Kidd. I, 1</cite>; a. fr.—Y. ibid. I, 58ᵈ <he>הא׳ אחד מכ״ד וכ׳</he> the As is <sup>1</sup>/<sub>24</sub> of the silver Denar.—Trnsf. <i>coin</i>. ",
+				"<cite ref=\"Taanit 19b:2\">Taan. 19ᵇ</cite> <he>מדלית א׳</he> because there was a scarcity of coin.—Pl. <he>אִיסָרִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 4:5:1\">Y. Maas. Sh. IV, 55ᵇ</cite> top.—<i>Chald.</i> ",
+				"<cite ref=\"Kiddushin 12a:11\">Kidd. 12ᵃ</cite> <he>איסורי</he> read <he>אִיסָרֵי</he>. [<cite ref=\"Bereishit Rabbah 42:4\">Gen. R. s. 42</cite> <he>א׳ לשם אלסר</he> the Assar received its name from Elasar (<cite ref=\"Genesis 14:1\">Gen. XIV, 1</cite>), comment.; v. however next w.]"
+			]
+		}
+	]
+}

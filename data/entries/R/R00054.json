@@ -1,0 +1,29 @@
+{
+	"id": "R00054",
+	"slug": "צבע-2",
+	"headword": {
+		"text": "צְבַע"
+	},
+	"page": {
+		"number": 1259,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00053\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"R00056\"><he>צַבַּע</he></cite>, with <cite ref=\"Q00656\"><he>פייסא</he></cite> (v. <cite ref=\"R00053\">preced.</cite> <i>Hif.</i>) <i>to cast lots</i>. Targ. II Esth. III, 7; IX, 24.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

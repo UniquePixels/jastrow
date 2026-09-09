@@ -1,0 +1,48 @@
+{
+	"id": "U01793",
+	"slug": "שפף-2",
+	"headword": {
+		"text": "שְׁפַף"
+	},
+	"page": {
+		"number": 1619,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01792\">same</cite>.(interch. with <cite ref=\"U00488\"><he>שׁוּף</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 32:20\">Targ. Ex. XXXII, 20</cite> <he>ושַׁף</he> (h. text <he>ויטחן</he>); <cite ref=\"Aramaic Targum to Song of Songs 1:14\">Targ. Cant. I, 14</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 72:4\">Targ. Ps. LXXII, 4</cite> <he>יִשּׁוּף</he> (h. text <he>ידכא</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 89:24\">Ib. LXXXIX, 24</cite> (h. text <he>כתותי</he>); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁפְשֵׁף"],
+			"senses": [
+				{
+					"gloss": "<i>to rub against, let glide down</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 154b:10\">Sabb. 154ᵇ</cite> <he>דקא מְשַׁפְשֵׁף</he>, v. <cite ref=\"Q02093\"><he>פַּשְׁפֵּשׁ</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Palp."
+		},
+		{
+			"forms": ["אִשְׁתַּפֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to be crushed</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 5:4\">Targ. Job V, 4</cite> <he>יִשְׁתּפְּפוּן</he> (incorr. <he>ישתתפון</he>; h. text <he>ידכאו</he>). ",
+						"<cite ref=\"Aramaic Targum to Job 30:8\">Ib. XXX, 8</cite>, v. <cite ref=\"U00488\"><he>שׁוּף</he></cite> II ch."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

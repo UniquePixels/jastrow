@@ -1,0 +1,89 @@
+{
+	"id": "N00239",
+	"slug": "נדר-1",
+	"headword": {
+		"text": "נָדַר"
+	},
+	"page": {
+		"number": 879,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"N00214\"><he>נָדָה</he></cite>) [<i>to keep off</i>,] <i>to vow</i> (abstinence). ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 5:1\">Ned. V, 1</cite> <he>שנָדְרוּ זה מזה</he> who vowed not to receive benefits from one another. ",
+				"<cite ref=\"Mishnah Nedarim 3:6\">Ib. III, 6</cite> <he>הנוֹדֵר מיורדי הים</he> he who vows to forbid himself benefits from seafarers. ",
+				"<cite ref=\"Mishnah Nedarim 6:1\">Ib. VI, 1</cite> <he>הנודר מן המבושל</he> who vows to abstain from whatever is cooked. ",
+				"<cite ref=\"Nedarim 77b:4\">Ib. 77ᵇ</cite> <he>כל הנודר אע״פ וכ׳</he> whoever vows, even if he fulfills his vow, is called a sinner. ",
+				"<cite ref=\"Mishnah Nedarim 1:1\">Ib. I, 1</cite> <he>נ׳ בנזיר … ובקרבן</he> his is a valid vow implying nazariteship and sacrifice. ",
+				"<cite ref=\"Mishnah Nazir 4:4\">Naz. IV, 4</cite> <he>שנָדְרָה בנזיר</he> who vowed to be a Nazarite; a. fr.—Imperative: <cite ref=\"D00345\"><he>דּוֹר</he></cite>. ",
+				"<cite ref=\"Mishnah Sanhedrin 3:2\">Snh. III, 2</cite> <he>דּוֹר לי בחיי ראשך</he> vow (swear) to me by anything concerning thy person (and I will accept it as a legal oath). ",
+				"<cite ref=\"Kiddushin 41a:1\">Kidd. 41ᵃ</cite> <he>דור הנאה ממנו</he> renounce all benefit from him.—",
+				"<cite ref=\"Mishnah Nedarim 3:4\">Ned. III, 4</cite> <he>נוֹדְרִין להרגין וכ׳</he> (<cite ref=\"Tosefta Nedarim 2:2\">Tosef. ib. II, 2</cite> <he>תולין</he>) you are not bound by a vow made to escape robbery by highway-men &c. ",
+				"<cite ref=\"Mishnah Arakhin 1:1\">Arakh. I, 1</cite>, a. e. <he>נודרים</he> may vow to dedicate the value of a certain person to the sanctuary, contrad. to <cite ref=\"P01375\"><he>עָרַךְ</he></cite> q. v.—<i>Part. pass.</i> <he>נָדוּר</he> <i>being under the obligation of a vow; being the legitimate subject of a vow</i>. ",
+				"<cite ref=\"Shevuot 20a:14\">Shebu. 20ᵃ</cite> <he>והוא שנ׳ ובא מאותו היום</he> provided he was bound by a vow to fast on that day; <cite ref=\"Nedarim 12a:5\">Ned. 12ᵃ</cite> <he>והוא שנ׳ באותו היום</he> (v. Rashi a. l.). ",
+				"<cite ref=\"Nedarim 12a:7\">Ib.</cite> <he>שנ׳ ובא מאותו היום ואילך</he> that he has vowed to fast regularly on that day (every week). ",
+				"<cite ref=\"Nedarim 13a:15\">Ib. 13ᵃ</cite> <he>דבר הנ׳</he> a thing which can be made forbidden by a vow (not otherwise forbidden by law). ",
+				"<cite ref=\"Nedarim 46a:7\">Ib. 46ᵃ</cite> <he>תני ונ׳ הנאה וכ׳</he> interpret <he>מודר</he> as meaning, and he through his own vow is forbidden any benefit &c. ",
+				"<cite ref=\"Nazir 9b:1\">Naz. 9ᵇ</cite> <he>נ׳ ונזיר</he> he is under the influence of a vow (of abstention from dried figs) and is also a Nazarite; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִידַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be made the subject of a vow; to have one’s personal value dedicated to the sanctuary</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Arakhin 1:1\">Arakh. I, 1</cite> <he>נודרים ונִידָּרִים</he> are entitled to dedicate (v. supra) and to be dedicated. ",
+						"<cite ref=\"Mishnah Arakhin 1:3\">Ib. 3</cite> <he>לא נ׳</he> cannot be dedicated (has no value); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be vowed for a sacrifice</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Megillah 1:10\">Meg. I, 10</cite> <he>כל שהוא נִידָּר</he>, v. <cite ref=\"N00201\"><he>נָדַב</he></cite>; a. e. "
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִדִּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to put a person under the influence of a vow; to prohibit, forbid</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Ketubot 7:1\">Keth. VII, 1</cite> <he>המַדִּיר את אשתו מליהנות לו</he> if one vows that his wife shall derive no benefit from him. ",
+						"<cite ref=\"Mishnah Ketubot 7:1\">Ib.</cite> <he>המדיר … שלא תטעום וכ׳</he> if a man (by confirming her vow) subjects his wife to a restriction from tasting &c. Y. ib. 31ᵇ <he>ויש אדם שמדיר את אשתו מחיים</he> (not <he>חבירו</he>) can a man forbid his wife that which belongs to the necessaries of life? Ib. bot. <he>הִדִּירָהּ שלא להשאיל וכ׳</he> if he, by means of a vow, forbade her to lend to her neighbors a winnow or a sieve. ",
+						"<cite ref=\"Mishnah Nedarim 3:3\">Ned. III, 3</cite> <he>הִדִּירוֹ חבירו וכ׳</he> if his friend urged him under a vow to dine with him. ",
+						"<cite ref=\"Mishnah Nazir 4:6\">Naz. IV, 6</cite> <he>מַדִּיר את בנו בנזיר</he> has power to make his (minor) son a Nazarite; a. fr.—Trnsf. <i>to make inaccessible</i>. ",
+						"<cite ref=\"Bava Batra 22a\">B. Bath. 22ᵃ</cite> <he>במַדִּיר את כותלו</he>, v. <cite ref=\"M00325\"><he>מָדַר</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּדָּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be forbidden by a vow; to be subjected to the influence of a vow</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 35b:7\">Gitt. 35ᵇ</cite> <he>נדר שה׳ ברבים</he> a votary prohibition imposed on a person in public; <cite ref=\"Gittin 36a:2\">ib. 36ᵃ</cite>; a. e. ",
+						"<cite ref=\"Mishnah Nedarim 4:1\">Ned. IV, 1</cite> <he>המוּדָּר הנאה מחבירו</he> he who is forbidden, by his neighbor’s vow, to derive any benefit &c. ",
+						"<cite ref=\"Nedarim 46a:2\">Ib. 46ᵃ</cite> <he>היה אחד מהם מודר וכ׳</he> if one was forbidden &c., expl. ‘forbidden through his own vow’, v. supra. ",
+						"<cite ref=\"Mishnah Nedarim 5:4\">Ib. V, 4</cite> <he>המודר אסור</he> he against whom the vow was directed is forbidden (all benefits). ",
+						"<cite ref=\"Mishnah Nedarim 1:1\">Ib. I, 1</cite> <he>מוּדְּרַנִי ממך</he> I will be (as if) subjected to a vow of thine forbidding me any benefit at thy hands. ",
+						"<cite ref=\"Nedarim 5a:9\">Ib. 5ᵃ</cite> <he>מודר אני ממך לא משתעינא וכ׳</he> ‘I will be <i>muddar</i> (kept distant) from thee’ may mean, I will not talk to thee; a. fr."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

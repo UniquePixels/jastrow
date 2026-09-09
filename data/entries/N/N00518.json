@@ -1,0 +1,33 @@
+{
+	"id": "N00518",
+	"slug": "נחש-1",
+	"headword": {
+		"text": "נָחַשׁ"
+	},
+	"page": {
+		"number": 896,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"L00371\"><he>לחש</he></cite>)<i>to whisper</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיחֵשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to divine, to make action dependent on an omen, to augur</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Shabbat 7:8\">Tosef. Sabb. VII</cite> (<cite ref=\"Tosefta Shabbat 8:13\">VIII</cite>), 13 <he>איזהו מְנַחֵשׁ וכ׳</he> a diviner (under the law, <cite ref=\"Leviticus 19:26\">Lev. XIX, 26</cite>) is he who says, ‘my staff fell out of my hand’ (it portends evil) &c.; <cite ref=\"Sanhedrin 65b:20\">Snh. 65ᵇ</cite>. ",
+						"<cite ref=\"Sanhedrin 66a:2\">Ib. 66ᵃ</cite> <he>כגון אלו המְנַחֲשִׁים בחולדה וכ׳</he> like those who divine (evil or luck) from a weasel, birds &c. Y. Sabb. VI, end, 8ᵈ <he>כל המנחש סופו לבוא עליו</he> if one believes in omens, what he fears will finally befall him (with ref. to <he>לא נחש</he> <cite ref=\"Numbers 23:23\">Num. XXIII, 23</cite>, changed into <he>לו נחש</he>); <cite ref=\"Nedarim 32a:13\">Ned. 32ᵃ</cite> <he>כל המנחש לו נחש</he> for him who believes in omens, the omen exists (will be realized). ",
+						"<cite ref=\"Nedarim 32a:13\">Ib.</cite> <he>כל אדם שאינו מנ׳</he> he who rejects divination. Mekh. B’shall. s. 2 <he>שמא יְנַחֲשׁוּ ויחזרו וכ׳</he> lest they consider it a bad omen and go back. Ib. <he>וזקני מדין נִחֲשׁוּ וכ׳</he> and the Midianite elders considered (Balaam’s death) a bad omen and went home; a. fr.—Sifra Vayikra, Par. 9, ch. XIII (ref. to <cite ref=\"Leviticus 18:3\">Lev. XVIII, 3</cite>) [read:] <he>שלא תְנַחֵשׁ</he> thou must not augur (v. however, <cite ref=\"N01243\"><he>נָקַר</he> II</cite>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "S00908",
+	"slug": "קיטורא",
+	"headword": {
+		"text": "קִיטּוּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִטּ׳"
+		}
+	],
+	"page": {
+		"number": 1358,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְטַר</he> II) <i>wreathing</i>, <he>ק׳ בידי</he> (= <he>בי ידי</he>) <i>plaiting the sleeves of garments</i>;",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (<he>קְטַר</he> I) <i>perfuming</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 23a:4\">Bets. 23ᵃ</cite> <he>קי׳ שרי</he> Ms. M. (ed. <cite ref=\"S00917\"><he>קט׳</he></cite>) <i>ḳiṭṭura</i> on the Holy Day is allowed; <he>מאי ק׳ אי ק׳ בידי</he> (Ms. M. <he>קִיטּוּרֵי</he>, <i>pl.</i> constr.) what <i>ḳiṭṭura</i> is meant? If plaiting be meant, (how can it be permitted,) is it not an artisan’s work? and if perfuming be meant, &c. ",
+				"<cite ref=\"Moed Katan 10b:4\">M. Kat. 10ᵇ</cite> <he>קִיטּוֵּרי בידי וכ׳</he> Ms. M. (ed. <he>בירי</he>; Ms. Alf. <he>בי ידי</he>, v. Rabb. D. S. a. l. note) plaiting sleeves during the festive week is forbidden."
+			],
+			"label": "2"
+		}
+	]
+}

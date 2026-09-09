@@ -1,0 +1,22 @@
+{
+	"id": "H01594",
+	"slug": "חרגול",
+	"headword": {
+		"text": "חַרְגּוֹל"
+	},
+	"page": {
+		"number": 498,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>חַרְגֹּל</he>; <cite ref=\"H00154\"><he>חגל</he></cite> with <cite ref=\"T00000\"><he>ר</he></cite> inserted; cmp. <cite ref=\"H00137\"><he>חגב</he></cite>) name of an edible <i>locust</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 6:10\">Sabb. VI, 10</cite> (<cite ref=\"Shabbat 67a:11\">67ᵃ</cite>) <he>ביצת הח׳</he> the egg of a <i>ḥargol</i> (carried in the ear for ear-ache)."
+			]
+		}
+	]
+}

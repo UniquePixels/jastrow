@@ -1,0 +1,31 @@
+{
+	"id": "A00204",
+	"slug": "אבר-6",
+	"headword": {
+		"text": "אֲבָר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲבָרָא"
+		},
+		{
+			"text": "אַבְרָא"
+		}
+	],
+	"page": {
+		"number": 9,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A00203\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 15:10\">Targ. Ex. XV, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 20:14\">Targ. Y. Lev. XX, 14</cite>; a. e.—",
+				"<cite ref=\"Sanhedrin 64a:7\">Snh. 64ᵃ</cite> <he>שדיוהו וכ׳</he> cast ye him into a kettle (of lead) <he>וכסיוהו וכ׳</he> and cover him with lead (or heavy load; ed. <he>שדיוה</he> incorr.; Ms. M. omits <he>דאברא</he>; oth. var. v. Rabb. D. S. a. l.). ",
+				"<cite ref=\"Gittin 19a:13\">Git. 19ᵃ</cite> <he>בא׳</he> (writing) with lead pencil, <he>במיא דא׳</he> with a solution of lead."
+			]
+		}
+	]
+}

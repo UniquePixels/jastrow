@@ -1,0 +1,49 @@
+{
+	"id": "K01019",
+	"slug": "כפיפה",
+	"headword": {
+		"text": "כְּפִיפָה"
+	},
+	"page": {
+		"number": 659,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K01043\"><he>כָּפַף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bending, being bent</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:5:14\">Y. Ber. I, 3ᵈ</cite> top <he>לך כ׳</he> unto thee is bending due. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:5:14\">Ib.</cite> <he>תזקפנו מכְּפִיפָתֵינוּ</he> erect us from our humiliation. ",
+				"<cite ref=\"Sanhedrin 65a:14\">Snh. 65ᵃ</cite> <he>כְּפִיפַת קומתו</he> bending one’s body (before the idol). ",
+				"<cite ref=\"Shabbat 104a:6\">Sabb. 104ᵃ</cite> (ref. to the shape of certain letters, v. <cite ref=\"K01043\"><he>כָּפַף</he></cite>) <he>הוסיף … כ׳ על כְּפִיפָתוֹ</he> the Lord has given thee repeated admonitions to humility, v. <cite ref=\"M01736\"><he>מָנוֹד</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"S01741\"><he>קְפִיפָה</he></cite>; cmp. Assyr. <i>kuppu</i>, Schr. KAT<sup>2</sup>, p. 582) <i>cage, prison</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 72a\">Keth. 72ᵃ</cite>, a. fr. <he>אין אדם דר עם נחש בכ׳</he> nobody can be expected to dwell in a cage with a serpent, i.e. no man or woman can be compelled to live with an obnoxious consort. ",
+				"<cite ref=\"Tosefta Demai 3:9\">Tosef. Dem. III, 9</cite>; Y. ib. II, 22ᵈ bot."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " [<i>muzzle</i>, in gen.] <i>a basket of osier</i>, v. <cite ref=\"G00534\"><he>זְמָמָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 26:1\">Kel. XXVI, 1</cite> <he>כ׳ מצרית</he> a basket made of palm twigs; <cite ref=\"Mishnah Sotah 2:1\">Sot. II, 1</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Yoma 8:7:9\">Y. Yoma VIII, end, 45ᶜ</cite> <he>אין … מתוך כ׳ וכ׳</he> an ass brays only when a basket of carobs is before him, i.e. living in plenty makes haughty, cmp. ",
+				"<cite ref=\"Berakhot 32a\">Ber. 32ᵃ</cite>.—",
+				"<cite ref=\"Tosefta Kelim Kamma 5:8\">Tosef. Kel. B. Kam. V, 8</cite> Var., v. <cite ref=\"K01022\"><he>כְּפִישָׁה</he></cite>; a. fr.—Pl. <he>כְּפִיפוֹת</he>. ",
+				"<cite ref=\"Mishnah Terumot 9:3\">Ter. IX, 3</cite> <he>תולה כ׳ וכ׳</he> we may muzzle beasts by hanging baskets with fodder &c.; Y. ib. IX, 46ᵈ top <he>תולה כ׳ … בדישו</he> you may hang a basket over the neck of a beast in threshing."
+			],
+			"label": "3"
+		}
+	]
+}

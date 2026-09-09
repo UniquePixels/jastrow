@@ -1,0 +1,32 @@
+{
+	"id": "H00457",
+	"slug": "חורבן",
+	"headword": {
+		"text": "חוֹרְבָּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָרְבָּן"
+		}
+	],
+	"page": {
+		"number": 439,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H00456\">preced.</cite>) <i>destruction, desolate condition</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 5b:12\">Ḥag. 5ᵇ</cite> <he>חָרְבַּן בה״מ</he> the destruction of the Temple. ",
+				"<cite ref=\"Moed Katan 26a:23\">M. Kat. 26ᵃ</cite> <he>בחוֹרְבָּנָן</he> in their ruined state. ",
+				"<cite ref=\"Jerusalem Talmud Kilayim 4:6:4\">Y. Kil. IV end, 29ᶜ</cite> <he>בחוֹרְבָּנוֹ</he> in its (the vineyard’s) waste state, opp. <cite ref=\"M01036\"><he>מַטָּעָה</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 9b:4\">Ab. Zar. 9ᵇ</cite> <he>לח׳ הבית</he> from the destruction of the Second Temple. ",
+				"<cite ref=\"Yoma 39b:5\">Yoma 39ᵇ</cite>; a. fr.—Pl. <he>חוֹרְבָּנוֹת</he>, <cite ref=\"H01654\"><he>חָרְ׳</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 56\">Gen. R. s. 56</cite>; <cite ref=\"Yalkut Shimoni on Torah 102:2\">Yalk. Gen. 102</cite> <he>שהיתה … בשני ח׳</he> for she (Palmyra) took a part in both destructions of the Temple; <cite ref=\"Eichah Rabbah 2:4\">Lam. R. to II, 2</cite> <he>בשתי ח׳</he> (fem.)."
+			]
+		}
+	]
+}

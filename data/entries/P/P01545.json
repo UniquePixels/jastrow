@@ -1,0 +1,43 @@
+{
+	"id": "P01545",
+	"slug": "עתק-3",
+	"headword": {
+		"text": "עֲתַק"
+	},
+	"page": {
+		"number": 1130,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P01544\">same</cite>, <i>to be old, worn out</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 3:4\">Targ. Lam. III, 4</cite> (h. text <he>בלה</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְעַתַּק", "אִיעַתַּק"],
+			"senses": [
+				{
+					"gloss": "<i>to remain long, be settled permanently</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 4:25\">Targ. Deut. IV, 25</cite> (h. text <he>ונושנתם</he>). ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 34:25\">Targ. Ez. XXXIV, 25</cite> (h. text <he>וְיָשְׁנוּ</he>!)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to grow old</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 26:10\">Targ. Y. Lev. XXVI, 10</cite> <he>דמִיעַתַּק</he> (ed. Vien. <he>דמְעַתַּק</he> Part. pass. <i>Pa.</i>).—",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 28:59\">Targ. Y. Deut. XXVIII, 59</cite> <he>דמִתְעַתְּקִין</he> (inveterate, chronic)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "A02062",
+	"slug": "אמר-3",
+	"headword": {
+		"text": "אָמַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 79,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>אם</he> , v. <cite ref=\"A02060\"><he>אָמַר</he> I</cite>, a) <i>to be thick, strong</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶאֱמִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to thrive; to boast, vaunt, be oppressive</i> (cmp. ",
+					"units": [
+						"<cite ref=\"Psalms 94:4\">Ps. XCIV, 4</cite>). ",
+						"<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite> (<cite ref=\"Sotah 49b:2\">49ᵇ</cite>) <he>יוקר יַאֲמִיר</he> the nobility shall be oppressive (<cite ref=\"Sanhedrin 97a:9\">Snh. 97ᵃ</cite> <he>יְעַוֵּת</he>; <cite ref=\"Tractate Derekh Eretz Zuta 10:1\">Der. Er. Zut. X</cite> <he>יעוות</he>; <cite ref=\"Shir HaShirim Rabbah 2:13:4\">Cant. R. to II, 13</cite> <he>הווה</he>).—*["
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"M02655\"><he>מריא</he></cite> <i>to fatten</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 24:3\">Sabb. XXIV, 3</cite> (<cite ref=\"Shabbat 155b:16\">155ᵇ</cite>) Bab. <he>מַאֲמִירִין</he>, Ms. Oxf., Mish. a. Y. <he>מַמְרִים</he>, <he>מַמְרִין</he>, v. <cite ref=\"M02651\"><he>מרי</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

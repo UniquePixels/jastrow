@@ -1,0 +1,56 @@
+{
+	"id": "S01402",
+	"slug": "קלף-1",
+	"headword": {
+		"text": "קָלַף"
+	},
+	"page": {
+		"number": 1381,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"C00977\"><he>גָּלַף</he></cite>) <i>to scrape, peel, pare</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 7:2\">Pes. VII, 2</cite> (<cite ref=\"Pesachim 75b:10\">75ᵇ</cite>) <he>יִקְלוֹף את מקומו</he> (Bab. ed. <he>יְקַלֵּף</he>) let him pare off the place where it touched the wall of the stove. Ib. 3 <he>יקלוף את החיצון</he> let him pare off the surface. ",
+				"<cite ref=\"Tosefta Negaim 6:8\">Tosef. Neg. VI, 8</cite> <he>היה קוֹלֵף וכ׳</he> he scraped off the sand (cement) between one stone and another; a. fr.—Part. pass. <he>קָלוּף</he>; f. <cite ref=\"S01288\"><he>קְלוּפָה</he></cite> &c. ",
+				"<cite ref=\"Niddah 17a:11\">Nidd. 17ᵃ</cite> <he>שום ק׳ … וביצה ק׳ וכ׳</he> peeled garlic, peeled onions or peeled eggs … which were let lie over night. ",
+				"<cite ref=\"Mishnah Bikkurim 3:8\">Bicc. III, 8</cite> <he>ערבה ק׳</he> peeled willow twigs; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִילֵּף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S01401\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maasrot 4:5\">Maasr. IV, 5</cite> <he>שעורים מקלף וכ׳</he>(<cite ref=\"B00000\"><he>ב</he></cite>) <he>המְקלֵּף</he> (Mish. ed. <he>המקליף</he>, corr. acc.) he who husks barley-corns (to eat them before tithes are given), must husk each singly and eat; <cite ref=\"Beitzah 13b:9\">Bets. 13ᵇ</cite>. Y. Maasr. II, 50ᵃ bot.; Y. B. Mets. VII, beg. 11ᵇ <he>שלא יְקַלֵּף</he>, v. <cite ref=\"M02335\"><he>מִצְמֵץ</he></cite>. Lam. R. introd. (R. Yoḥ. 1); Cant. R. to VIII, 4 <he>מלאך היה יורד ומְקַלְּפוֹ</he> an angel came down and scraped the Divine Name off. ",
+						"<cite ref=\"Sotah 35b:9\">Sot. 35ᵇ</cite> <he>וקִילְּפוּ את הסיד</he> they scraped the lime off (which covered the inscription); a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נֵקְלָף"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִתְקַלֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to be peeled off</i>. Lam. R. l. c.; Cant. R. l. c. <he>מאליו היה נ׳</he> it (the Divine Name) was erased of itself. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 3:5\">Ḥull. III, 5</cite>, v. <cite ref=\"S00640\"><he>קוֹיְקְבָן</he></cite>. ",
+						"<cite ref=\"Chullin 49b:2\">Ib. 49ᵇ</cite> <he>מה חלב … קרום ונ׳ וכ׳</he> as ‘the fat that covers the inwards’ has a skin which can be peeled off, so all fat with a skin that can be peeled off (is forbidden), v. <cite ref=\"V00337\"><he>תּוֹתָב</he></cite>; a. e.—",
+						"<cite ref=\"Mishnah Kelim 10:5\">Kel. X, 5</cite> <he>חבית שנִתְקַלְּפָה וכ׳</he> an earthen jug which is peeled off (crumbled away), the pitch lining standing by itself; <cite ref=\"Tosefta Kelim Kamma 7:8\">Tosef. Kel. B. Kam. VII, 8</cite> [read:] <he>נתקלפה והזפת וכ׳</he>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

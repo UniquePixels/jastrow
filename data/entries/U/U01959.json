@@ -1,0 +1,44 @@
+{
+	"id": "U01959",
+	"slug": "שרי-2",
+	"headword": {
+		"text": "שרי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁרָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1629,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. root in <cite ref=\"M02972\"><he>מִשְׁרָה</he></cite>)<i>to dissolve, soak, steep</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nazir 6:1\">Naz. VI, 1</cite> <he>ש׳ פתו ביין וכ׳</he> if he (the Nazirite) steeped his bread in wine, and there is enough in both together to make up the size of an olive; <cite ref=\"Pesachim 44b:1\">Pes. 44ᵇ</cite>. ",
+				"<cite ref=\"Nazir 37a:6\">Naz. 37ᵃ</cite> <he>אם ש׳ ענביו במים וכ׳</he> if he steeped grapes in water, and a taste of wine remained in it. ",
+				"<cite ref=\"Mishnah Pesachim 2:7\">Pes. II, 7</cite> <he>אין שׁוֹרִין וכ׳</he> you dare not soak bran for chickens (on the Passover); <cite ref=\"Mishnah Pesachim 2:7\">ib.</cite> <he>האשה לא תִשְׁרֶה וכ׳</he> a woman must not soak bran to take with her to the bathhouse. ",
+				"<cite ref=\"Mishnah Shabbat 1:5\">Sabb. I, 5</cite> <he>אין שורין … כדי שיִשּׁוֹרוּ וכ׳</he> you must not lay in ink-materials or dyes …, unless they can be dissolved (or soaked through) before the Sabbath sets in. ",
+				"<cite ref=\"Mishnah Eduyot 1:8\">Eduy. I, 8</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִשְׁרָה"],
+			"senses": [
+				{
+					"gloss": "<i>to be soaked, dissolved</i>. Y. Ber. IX, 13ᵈ bot. <he>כדי שתִּשָּׁרֶה וכ׳</he>, v. <cite ref=\"M00134\"><he>מְגוּפָה</he></cite>; Y. Taan. I, 64ᵇ top <he>שתשרף</he> (corr. acc.). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 17\">Gen. R. s. 17</cite>, end <he>אדם … מיד היא נִשְׁרֵית … אינו נִשְׁרֶה</he> man is made out of earth, when you put a drop of water on it, it is at once dissolved (soft), but woman is made of a bone, which is not dissolved, even if you let it lie in water for many days. Y. Sabb. XIV, 14ᶜ top <he>כל … והיא נשרית … ושאינה נשרית וכ׳</he> when you put salt in, and it dissolves, it is called salt water, but when it is not dissolved, it is called <i>halmé</i>; a. e.—",
+						"<cite ref=\"Mishnah Shabbat 1:5\">Sabb. I, 5</cite> <he>יִשּׁוֹרוּ</he> (fr. <cite ref=\"U01054\"><he>שור</he></cite> or <he>נשר</he>), v. supra."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

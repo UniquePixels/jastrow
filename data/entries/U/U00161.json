@@ -1,0 +1,60 @@
+{
+	"id": "U00161",
+	"slug": "שבע-7",
+	"headword": {
+		"text": "שְׂבַע"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְבַע"
+		}
+	],
+	"page": {
+		"number": 1516,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00160\">same</cite>, <i>to be satisfied, saturated</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 16:8\">Targ. O. Ex. XVI, 8</cite> <he>למִיסְבַּע</he> ed. Berl. (ed. Amst. <he>למִישְׂ׳</he>); Y. <he>למִשְׂבּוֹעַ</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 104:16\">Targ. Ps. CIV, 16</cite> (Ms. <cite ref=\"O00001\"><he>ס׳</he></cite>); a. fr.—Part. <cite ref=\"U00128\"><he>שְׂבִיעַ</he></cite>, <cite ref=\"U00161\"><he>שְׂבַע</he></cite>, <cite ref=\"U01782\"><he>סְ׳</he></cite>; f. <cite ref=\"U00162\"><he>שָׂבְעָא</he></cite>, <cite ref=\"O00890\"><he>סָ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 30:22\">Targ. Prov. XXX, 22</cite> <he>דשביע</he> ed. Lag. (Ms. <he>דסביע</he>; ed. Wil. <he>דיִשְׂבַּע</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 42:17\">Targ. Job XLII, 17</cite>. ",
+				"<cite ref=\"Onkelos Genesis 25:8\">Targ. Gen. XXV, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 27:7\">Targ. Prov. XXVII, 7</cite>; a. fr.—",
+				"<cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite>; Pesik. Eth Korb., p. 57ᵇ, a. e., v. <cite ref=\"T00359\"><he>רְוֵי</he></cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׂבַּע", "סַ׳"],
+			"senses": [
+				{
+					"gloss": "; <i>Af.</i> <cite ref=\"U00158\"><he>אַשְׂבַּע</he></cite>, <cite ref=\"A01411\"><he>אַסְ׳</he></cite> <i>to satisfy</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 90:14\">Targ. Ps. XC, 14</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 107:9\">Ib. CVII, 9</cite>; a. fr.—",
+						"<cite ref=\"Taanit 24a:4\">Taan. 24ᵃ</cite> <he>רחמנא לִישַׂבְּעָךְ … דאַשְׂבְּעָן ברך</he> the Lord satisfy thee, as thy son has satisfied us. ",
+						"<cite ref=\"Yoma 79b:10\">Yoma 79ᵇ</cite> <he>שַׂבּוּעֵי מְשַׂבְּעא</he> is enough to satisfy the appetite. ",
+						"<cite ref=\"Gittin 70a:6\">Gitt. 70ᵃ</cite> <he>תמרי מְשַׂבְּעַן וכ׳</he> dates satisfy, heat &c.; <cite ref=\"Ketubot 10b\">Keth. 10ᵇ</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִסְתַּבַּע"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"R00023\"><he>צָבָה</he></cite>) <i>to be swollen</i>. ",
+					"units": [
+						"<cite ref=\"Esther Rabbah 7:24\">Esth. R. to III, 14</cite> <he>א׳ קרסוליה</he> (omitted in <cite ref=\"Yalkut Shimoni on Nach 1056:19\">Yalk. ib. 1056</cite>) his ankle was swollen."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"id": "O00164",
+	"slug": "סגף-2",
+	"headword": {
+		"text": "סְגַף"
+	},
+	"page": {
+		"number": 956,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O00163\">same</cite> Part. pass. <cite ref=\"O00142\"><he>סְגִיף</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 1:27\">Targ. Y. Deut. I, 27</cite> (ed. Vien. <he>סַגִּיפִין</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַגֵּיף"],
+			"senses": [
+				{
+					"gloss": "<i>to afflict</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 15:13\">Targ. Y. Gen. XV, 13</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 90:13\">Targ. Ps. XC, 13</cite> <he>תְּסַגְּפִינָ׳</he> (incorr. <he>תַּסְגִּיפ׳</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 90:15\">Ib. 15</cite>. ",
+						"<cite ref=\"Targum of I Chronicles 17:9\">Targ. I Chr. XVII, 9</cite> <he>סַגְּפוּנוּן</he> ed. Lag. (oth. ed. <he>סְגֵיפוּנוּן</he>). ",
+						"<cite ref=\"Aramaic Targum to Job 30:11\">Targ. Job XXX, 11</cite> <he>סַגֵּפְנִי</he> (ed. Lag. <he>סגפיני</he>, read <he>סַגֵּיפְנִי</he>); a. fr.—Part. pass. <he>מְסַגַּף</he>; f. <he>מְסַגְּפָא</he>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 58:10\">Targ. Is. LVIII, 10</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִסְתַּגֵּיף"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִסְתְּגֵיף"],
+			"senses": [
+				{
+					"gloss": "<i>to be afflicted, reduced; to suffer</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 102:24\">Targ. Ps. CII, 24</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 107:17\">Ib. CVII, 17</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

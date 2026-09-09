@@ -1,0 +1,36 @@
+{
+	"id": "T00783",
+	"slug": "רם-4",
+	"headword": {
+		"text": "רָם",
+		"disambiguator": 4
+	},
+	"altHeadwords": [
+		{
+			"text": "רָמָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1481,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"T00780\"><he>רָם</he></cite> , <i>high, exalted</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 46:11\">Targ. Ps. XLVI, 11</cite> (ed. Wil. <cite ref=\"T00785\"><he>רְמָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 9:2\">Targ. I Sam. IX, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 2:15\">Targ. Is. II, 15</cite>. Targ. II Esth. I, 2 <he>ר׳ ומנטלא</he> high and exalted; a. fr.—Pl. <cite ref=\"T00821\"><he>רָמִין</he></cite>, <cite ref=\"T00810\"><he>רָמַיָּא</he></cite>; f. <cite ref=\"T00841\"><he>רָמָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:3\">Targ. Prov. XXV, 3</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 28:52\">Targ. Deut. XXVIII, 52</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 2:12\">Targ. Is. II, 12</cite>; <cite ref=\"Targum Jonathan on Isaiah 2:14\">14</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 6:17\">Targ. Prov. VI, 17</cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 32:11\">Gen. R. s. 32</cite> <he>אין מן טורייא ר׳ הוא וכ׳</he> if it (Mount Gerizim) belongs to the highest mountains &c.; <cite ref=\"Shir HaShirim Rabbah 4:4:8\">Cant. R. to IV, 4</cite> <he>רָמְמַיָּיא</he>."
+			]
+		}
+	]
+}

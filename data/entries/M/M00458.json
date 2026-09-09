@@ -1,0 +1,53 @@
+{
+	"id": "M00458",
+	"slug": "מוט-1",
+	"headword": {
+		"text": "מוּט"
+	},
+	"page": {
+		"number": 740,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to incline, waver, decline; to give way, bend</i>. Y. Snh. X, 27ᵈ bot., v. infra. Tanḥ. B’har 1 <he>כשתָּמוּט ידם לפני וכ׳</he> when their power shall sink before Nebuchadnezzar. Tanḥ. Vayishl. 3 (ref. to <cite ref=\"Proverbs 25:26\">Prov. XXV, 26</cite>) <he>כשמָט לפני וכ׳</he> when he bends (humiliates himself) before the wicked; <cite ref=\"Bereishit Rabbah 75:2\">Gen. R. s. 75</cite> <he>א״א לצדיק לָמוּט וכ׳</he> (<cite ref=\"Yalkut Shimoni on Torah 130:17\">Yalk. Gen. 130</cite> <he>לִימּוֹט</he>) it is impossible to the righteous to bend &c.; a. e.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִמּוֹט"],
+			"senses": [
+				{
+					"gloss": "<i>to be shaken, bent</i>. Yalk. l. c., v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֵמִיט"],
+			"senses": [
+				{
+					"gloss": "<i>to bend, to shake</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Zavim 3:3\">Zab. III, 3</cite> <he>כל שאינה יכולה להָמִיט באדם</he> (not <he>בה אדם</he>) (Asheri <he>להָסִיט</he>, v. <cite ref=\"O00283\"><he>סוּט</he></cite>) a ship which has no staggering effect on man. Gen. R. l. c. <he>מֵמִיט עצמו וכ׳</he> humbles himself."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְמוֹטֵט"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpol</i>. <he>נִתְמוֹטֵט</he> <i>to be declining; to sink</i>. Y. Snh. X, 27ᵈ bot.; <cite ref=\"Yalkut Shimoni on Nach 338\">Yalk. Is. 338</cite> (ref. to <cite ref=\"Isaiah 54:10\">Is. LIV, 10</cite>) <he>אם ראית זכות אבות שמָטָה … שנִתְמוֹטְטָה וכ׳</he> when thou seest the merit of the fathers decline and that of the mothers sink, go and cling to grace; <cite ref=\"Vayikra Rabbah 36:6\">Lev. R. s. 36</cite>, end <he>שנִתְמֹטְטָה</he>.—Y. l. c. 28ᵇ <he>והיו מִתְמוֹטְטִין והולכין</he> they sank deeper and deeper (into poverty). ",
+					"units": [
+						"<cite ref=\"Bava Metzia 71a:6\">B. Mets. 71ᵃ</cite> <he>נכסיו מתמוטטין</he> (Ms. M. <he>מתמעטין</he>) his wealth will be reduced; <cite ref=\"Yalkut Shimoni on Nach 665:3\">Yalk. Ps. 665</cite> <he>מִתְמוֹטֵט</he> he will sink. B. Mets. l. c. <he>הללו מתמ׳ וכ׳</he> (Ms. R. 2 <he>מוֹטְטִין</he>, v. Rabb. D. S. a. l. notes 2—4) these sink and rise again &c.; Yalk. l. c."
+					]
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

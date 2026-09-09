@@ -1,0 +1,72 @@
+{
+	"id": "S00123",
+	"slug": "קדושה",
+	"headword": {
+		"text": "קְדוּשָּׁה"
+	},
+	"page": {
+		"number": 1314,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00192\"><he>קָדַשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>holiness, sanctity, sacredness; chastity</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yevamot 2:3\">Yeb. II, 3</cite>, a. e. <he>איסור ק׳</he>, v. <cite ref=\"A01405\"><he>אִיסּוּר</he></cite>. ",
+				"<cite ref=\"Kiddushin 55a\">Kidd. 55ᵃ</cite>, a. fr. <he>קְדוּשַּׁת הגוף</he> an object which is consecrated as such (irredeemable), opp. <he>ק׳ דמים</he> that which is consecrated for its value (redeemable). ",
+				"<cite ref=\"Temurah 10b:27\">Tem. 10ᵇ</cite> <he>משום דמפרש ק׳ על הולד</he> because he has pronounced sanctity on the embryo (by dedicating the mother). ",
+				"<cite ref=\"Temurah 10a:39\">Ib.ᵃ</cite> <he>אין ק׳ חלה על עיברין</he> no sanctification takes effect on embryos (by the dedication of the mothers). ",
+				"<cite ref=\"Mishnah Nazir 7:1\">Naz. VII, 1</cite> <he>נזיר שאין קְדוּשָּׁתוֹ קדושת עולם</he> the Nazarite whose sanctification is not an everlasting one (it ceasing with the expiration of his vow). ",
+				"<cite ref=\"Chagigah 3b:10\">Ḥag. 3ᵇ</cite> <he>ק׳ ראשונה קִדְּשָׁהּ לשעתה</he> as to the first consecration (of the holy land by Joshua), he consecrated it only for the time being (as long as inhabited and ruled by Israelites); <cite ref=\"Megillah 10b\">Meg. 10ᵇ</cite>, sq.; <cite ref=\"Zevachim 60b:7\">Zeb. 60ᵇ</cite>; a. e.—",
+				"<cite ref=\"Horayot 13a:19\">Hor. 13ᵃ</cite> <he>זה גדל עמנו בק׳ וזה לא וכ׳</he> the one (the <i>nathin</i>, v. <cite ref=\"N01370\"><he>נָתִין</he></cite>) has grown up with us in holiness (under the influences of the Jewish religion), and the other (the proselyte) has not &c. ",
+				"<cite ref=\"Sanhedrin 58a:1\">Snh. 58ᵃ</cite> <he>לידתו בק׳</he> born in holiness (after his mother’s conversion); <cite ref=\"Yevamot 98a\">Yeb. 98ᵃ</cite>, v. <cite ref=\"E00284\"><he>הוֹרָת</he></cite>; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sanctification, proclaiming the holiness of the Lord, solemn public act connected with the idea of Israel’s priesthood</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 23b:15\">Meg. 23ᵇ</cite>; <cite ref=\"Berakhot 21b:4\">Ber. 21ᵇ</cite> <he>כל דבר שבק׳ לא יהא וכ׳</he> no sacred public act should be performed with less than ten persons.—Esp. <he>קְדוּשַּׁת הַשֵּׁם</he> "
+			],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " <i>sanctification of the Name, fidelity to the Jewish faith, martyrdom</i>. Ib. 20ᵃ <he>מסרי נפשייהו אק׳ ה׳</he>, v. <cite ref=\"M02007\"><he>מְסַר</he></cite>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 74b:8\">Snh. 74ᵇ</cite> <he>מצווה על ק׳ ה׳</he> bound to sanctify the Name (with his life); a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <he>ק׳ השם</he>, or <cite ref=\"S00123\"><he>קדושה</he></cite> <i>the third section of the Prayer of Benedictions</i> (<cite ref=\"V00831\"><he>תְּפִלָּה</he></cite>), <i>praising the holiness of the Lord; the appeal to the congregation to join in the ‘holy, holy</i> &c.’ (v. <cite ref=\"S00119\"><he>קָדוֹשׁ</he></cite>). ",
+					"units": [
+						"<cite ref=\"Mishnah Rosh Hashanah 4:5\">R. Hash. IV, 5</cite> <he>סדר ברכות … וק׳ ה׳</he> the order of the benedictions (for the New Year’s Day) is: <i>Aboth</i> (v. <cite ref=\"A00017\"><he>אָב</he></cite>), <i>G’buroth</i> (v. <cite ref=\"C00062\"><he>גְּבוּרָה</he></cite>) and the sanctification. ",
+						"<cite ref=\"Berakhot 21b:2\">Ber. 21ᵇ</cite> <he>עד שלא יגיע … ק׳</he> before the reader reaches the <i>ḳ’dushshah</i>. ",
+						"<cite ref=\"Berakhot 21b:4\">Ib.</cite> <he>אין היחיד אומר ק׳</he> one praying alone should not recite the <i>ḳ’dushshah</i>; a. fr.—<he>קדושת היום</he> (<he>ק׳ שבת</he>, <he>ק׳ יום טוב</he>), also <he>ק׳</he> <i>declaration of the sanctity of the day</i> (<i>the Sabbath</i> &c.) in prayer or at meals. R. Hash. l. c. <he>ק׳ היום</he> <i>that section of the Prayer of Benedictions</i> which closes with the benediction ‘who sanctifiest the day &c.’ <cite ref=\"Beitzah 15b:18\">Bets. 15ᵇ</cite> <he>לוו עלי וקדשו ק׳ היום וכ׳</he> borrow on my (the Lord’s) account and celebrate the sanctity of the day, and trust me &c. ",
+						"<cite ref=\"Berakhot 33b:15\">Ber. 33ᵇ</cite> <he>בין ק׳ שבת לק׳ יו״ט הבדלת</he> thou hast made a distinction between the way of sanctifying the Sabbath and that of sanctifying the Holy Day. ",
+						"<cite ref=\"Pesachim 105a:10\">Pes. 105ᵃ</cite> <he>ק׳ על הכוס</he> the proclamation of the sanctity of the Day over a cup of wine (<cite ref=\"S00873\"><he>קִידּוּשׁ</he></cite>); a. fr.—Pl. <he>קְדוּשּׁוֹת</he>. ",
+						"<cite ref=\"Mishnah Kelim 1:6\">Kel. I, 6</cite> <he>עשר ק׳ הן</he> there are ten degrees of territorial sanctity. ",
+						"<cite ref=\"Jerusalem Talmud Berakhot 9:1:12\">Y. Ber. IX, 13ᵃ</cite> top; Tanḥ. K’dosh. 4 (ref. to <cite ref=\"Joshua 24:19\">Josh. XXIV, 19</cite>) <he>שהוא קדוש בכל מיני ק׳ וכ׳</he> he is holy in all kinds of holy acts, for all his doings are in holiness, his speech is in holiness &c. ",
+						"<cite ref=\"Vayikra Rabbah 24\">Lev. R. s. 24</cite> <he>שלש ק׳</he> three times ‘holy’, v. <cite ref=\"K01386\"><he>כָּתַר</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 272\">Yalk. Is. 272</cite>. ",
+						"<cite ref=\"Berakhot 33a:27\">Ber. 33ᵃ</cite> <he>אנשי … ק׳ והבדלות</he> the men of the Great Assembly instituted for Israel blessings (on enjoyments of food &c.), daily prayers, sanctification of sacred days (over wine), and the blessing at the exit of sacred days (v. <cite ref=\"E00028\"><he>הַבְדָּלָה</he></cite>); a. fr."
+					],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": " a title, <i>his holiness</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 6:8:10\">Y. Ned. VI, end, 40ᵃ</cite>; <cite ref=\"Jerusalem Talmud Sanhedrin 1:2:33\">Y. Snh. I, 19ᵃ</cite> top (in irony) <he>לקדושת חנניה</he> to his holiness Hanania (who had usurped the functions of the Palestine authorities)."
+			],
+			"label": "3"
+		}
+	]
+}

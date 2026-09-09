@@ -1,0 +1,23 @@
+{
+	"id": "D00533",
+	"slug": "דיוקא-2",
+	"headword": {
+		"text": "דְּיוּקָא"
+	},
+	"page": {
+		"number": 297,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דוק</he>) <i>deduction, argument, implied opinion</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 8a:14\">B. Mets. 8ᵃ</cite> <he>דְּיוּקֵיה דרמי … מהיכא</he> whence does Rami … draw his deduction? <cite ref=\"Ketubot 17b:10\">Keth. 17ᵇ</cite> <he>ד׳ דמתניתן וכ׳</he> he reports what is to be derived from the Mishnah by implication; a. fr.—",
+				"<cite ref=\"Meilah 16a\">Meïl. 16ᵃ</cite>, v. <cite ref=\"D00477\"><he>דִּיבְקָא</he></cite>."
+			]
+		}
+	]
+}

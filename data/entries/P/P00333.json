@@ -1,0 +1,22 @@
+{
+	"id": "P00333",
+	"slug": "עוקמא",
+	"headword": {
+		"text": "עוּקָּמָא"
+	},
+	"page": {
+		"number": 1056,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01198\"><he>עֲקַם</he></cite>) <i>insidious, tricky</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 32:5\">Targ. Y. II, Deut. XXXII, 5</cite> (h. text <cite ref=\"P01228\"><he>עקש</he></cite>)."
+			]
+		}
+	]
+}

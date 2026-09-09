@@ -1,0 +1,23 @@
+{
+	"id": "I00875",
+	"slug": "טרפיזיטיס",
+	"headword": {
+		"text": "טְרַפִּיזִיטֵיס"
+	},
+	"page": {
+		"number": 557,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (τραπεζίτης) <i>money-changer, banker</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 4:1:5\">Y. B. Mets. IV, beg. 9ᶜ</cite> <cite ref=\"I00870\"><he>טרפוניטיס</he></cite> (corr. acc.). ",
+				"<cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4</cite> <cite ref=\"I00883\"><he>טְרַפְסִיטֵיס</he></cite> (cmp. τράπεσα for τράπεζα, S.)."
+			]
+		}
+	]
+}

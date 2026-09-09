@@ -1,0 +1,25 @@
+{
+	"id": "N01283",
+	"slug": "נשא-3",
+	"headword": {
+		"text": "נָשָׁא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 937,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. name of a <i>plant</i> the sap of which is used as a depilatory. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 86a:5\">B. Kam. 86ᵃ</cite> <he>סָכוֹ נ׳ וכ׳</he> he smeared <i>nasha</i> over it so that the hair will not grow again. ",
+				"<cite ref=\"Makkot 20b:1\">Macc. 20ᵇ</cite>. ",
+				"<cite ref=\"Nazir 40a:9\">Naz. 40ᵃ</cite>.—V. <cite ref=\"N01332\"><he>נֶשֶׁם</he></cite>."
+			]
+		}
+	]
+}

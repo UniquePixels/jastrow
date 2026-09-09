@@ -1,0 +1,51 @@
+{
+	"id": "S00871",
+	"slug": "קידום",
+	"headword": {
+		"text": "קִידּוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִידּוּמָא"
+		},
+		{
+			"text": "קִדּ׳"
+		}
+	],
+	"page": {
+		"number": 1355,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00151\"><he>קְדַם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>early morning</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 27:14\">Targ. Prov. XXVII, 14</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>east</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 25:6\">Targ. Gen. XXV, 6</cite>. ",
+				"<cite ref=\"Onkelos Numbers 34:3\">Targ. O. Num. XXXIV, 3</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (with <he>רוח</he>, or sub. <he>רוח</he>) <i>east-wind</i> (h. . ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 41:6\">Targ. Gen. XLI, 6</cite>. Targ. ",
+				"<cite ref=\"Habakkuk 1:9\">Hab. I, 9</cite> (some ed. <he>כרוח קדים ק׳</he>, strike out <he>קדים</he>); a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"id": "J00217",
+	"slug": "יוסי",
+	"headword": {
+		"text": "יוֹסֵי"
+	},
+	"page": {
+		"number": 570,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (abbrev. of Joseph, interch. with <cite ref=\"J00219\"><he>יוֹסֵף</he></cite>, <cite ref=\"J00213\"><he>יוֹסָא</he></cite>, <cite ref=\"J00213\"><he>יוֹסָה</he></cite>, <cite ref=\"J00451\"><he>יַסָּא</he></cite>, <cite ref=\"J00454\"><he>יַסָּה</he></cite>, <cite ref=\"A02426\"><he>אַסִּי</he></cite>, <cite ref=\"A01463\"><he>אִיסִי</he></cite>) <i>José</i> ",
+			"units": []
+		},
+		{
+			"gloss": " name of several Tannaim, esp. J. b. Joezer, and J. b. Johanan. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 1:4\">Ab. I, 4</cite>, sq. ",
+				"<cite ref=\"Mishnah Eduyot 8:4\">Eduy. VIII, 4</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 133b\">B. Bath. 133ᵇ</cite> <cite ref=\"J00219\"><he>יוסף</he></cite> (Ms. H. a. R. <cite ref=\"J00217\"><he>יוסי</he></cite>).—R. J. hak-Kohen, or only R. J. ",
+				"<cite ref=\"Pirkei Avot 2:8\">Ab. II, 8</cite>; <cite ref=\"Pirkei Avot 2:12\">12</cite>. ",
+				"<cite ref=\"Chagigah 14b:7\">Ḥag. 14ᵇ</cite>; Y. ib. II, 77ᵃ bot. <cite ref=\"J00219\"><he>יוסף</he></cite>; a. v. fr.—R. J. b. Ḥalafta, or only R. J. ",
+				"<cite ref=\"Bava Kamma 70a:16\">B. Kam. 70ᵃ</cite>; <cite ref=\"Tosefta Bava Batra 2:10\">Tosef. B. Bath. II, 10</cite> (v. Fr. Darkhé, p. 132). ",
+				"<cite ref=\"Eruvin 46b:9\">Erub. 46ᵇ</cite>. ",
+				"<cite ref=\"Mishnah Maaser Sheni 4:7\">Maas. Sh. IV, 7</cite>; a. v. fr. (v. Fr. ",
+				"<cite ref=\"Mishnah Maaser Sheni 4:7\">ib.</cite> p. 164, sq.).—R. J., the Galilean. ",
+				"<cite ref=\"Zevachim 57a:7\">Zeb. 57ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Avodah Zarah 3:5\">Ab. Zar. III, 5</cite>. ",
+				"<cite ref=\"Tosefta Mikvaot 7:1\">Tosef. Mikv. VII</cite> (<cite ref=\"Tosefta Mikvaot 8:11\">VIII</cite>), 11; a. fr. (v. Fr. ",
+				"<cite ref=\"Tosefta Mikvaot 8:11\">ib.</cite>, p. 125)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of several Amoraim, esp. R. J. (in Babli <cite ref=\"A02426\"><he>אַסִּי</he></cite>, in Y. also <cite ref=\"J00451\"><he>יַסָּא</he></cite>, <cite ref=\"J00213\"><he>יוֹסָה</he></cite>). Y. Ber. II, 5ᶜ bot. Y. Kil. IX, 29ᵇ bot.; <cite ref=\"Jerusalem Talmud Eruvin 1:8:4\">Y. Erub. I, 19ᶜ</cite>; a. v. fr.—R. J. bar Zabda, mate of R. Jonah. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 7:2:3\">Y. Shek. VII, 50ᶜ</cite> bot. ",
+				"<cite ref=\"Menachot 70b:15\">Men. 70ᵇ</cite>; a. v. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <cite ref=\"J00217\"><he>יוסי</he></cite> or <cite ref=\"J00213\"><he>יוסה</he></cite> a disguise of one of the Divine Names. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 7:5\">Snh. VII, 5</cite> (<cite ref=\"Sanhedrin 56a:1\">56ᵃ</cite>) <he>בכל יום … יכה י׳ את י׳</he> (v. Rabb. D. S. a. l. note) during the proceedings against the blasphemer the witnesses are requested to make their statements in disguise (v. <cite ref=\"K00566\"><he>כִּינּוּי</he></cite>), e.g.: “the defendant said, ‘May J. strike J.’  ” (meaning, I curse Jehovah Elohim, J. Zebaoth &c.; cmp. ",
+				"<cite ref=\"Sanhedrin 56a:1\">ib.</cite> <he>עד שיברך שם בשם</he>)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " one <i>J</i>. <i>M’shitha</i>, a repentant Hellenist. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 65:22\">Gen. R. s. 65</cite> (some ed. <cite ref=\"J00219\"><he>יוסף</he></cite>); <cite ref=\"Yalkut Shimoni on Torah 115:12\">Yalk. ib. 115</cite>."
+			],
+			"label": "4"
+		}
+	]
+}

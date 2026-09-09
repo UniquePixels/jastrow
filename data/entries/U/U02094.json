@@ -1,0 +1,52 @@
+{
+	"id": "U02094",
+	"slug": "שתי-5",
+	"headword": {
+		"text": "שְׁתֵי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁתָא"
+		}
+	],
+	"page": {
+		"number": 1637,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U02093\">same</cite>, <i>to weave</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 16:13\">Targ. Jud. XVI, 13</cite> <he>תִּשְׁתִּין</he> (ed. Lag. a. oth. <he>תִּשְׁתִּן</he>, not <he>תַּן …</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַשְׁתֵּי"],
+			"senses": [
+				{
+					"gloss": ", (<i>Pe.</i> with prefixed <cite ref=\"A00000\"><he>א</he></cite>) <cite ref=\"U02094\"><he>אִשְׁתֵּי</he></cite>, <cite ref=\"A03346\"><he>אִישְׁ׳</he></cite> same, ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to start the loom, weave</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 139:13\">Targ. Ps. CXXXIX, 13</cite> <he>אַשְׁתְּיָת</he>, ed. Wil. (ed. Lag. <he>אִישְׁתְּיָית</he>; h. text <he>תסכני</he>). ",
+						"<cite ref=\"Aramaic Targum to Job 10:11\">Targ. Job X, 11</cite>.—Y. Sabb. VII, 10ᶜ top <he>כד מַשְׁתָּיָיא וכ׳</he>, v. <cite ref=\"S00227\"><he>קוּבְיָה</he></cite>. Y. Taan. IV, 64ᶜ <he>דלא למִישְׁתָּיֵיא מן וכ׳</he> not to start a loom from the beginning of the month of Ab; Y. Pes. IV, 30ᵈ top; <cite ref=\"Yalkut Shimoni on Nach 653:3\">Yalk. Ps. 653</cite> <he>למשתי יינא</he> (corr. acc.)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to found, establish</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 8:3\">Targ. Ps. VIII, 3</cite> ed. Lag. (ed. Wil. <cite ref=\"U02076\"><he>אַשְׁתֵּסְ׳</he></cite>, not <cite ref=\"A00006\"><he>אִ׳</he></cite>, v. <cite ref=\"U02076\"><he>שְׁתַאס</he></cite>; h. text <he>יסד</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

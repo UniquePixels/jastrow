@@ -1,0 +1,27 @@
+{
+	"id": "N00813",
+	"slug": "נכוסא",
+	"headword": {
+		"text": "נָכוֹסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָכוֹסָה"
+		}
+	],
+	"page": {
+		"number": 910,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00837\"><he>נְכַס</he></cite>) <i>butcher</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 3:4:3\">Y. Yoma III, 40ᶜ</cite> top (expl. <cite ref=\"S02142\"><he>קרץ</he></cite>, <cite ref=\"Jeremiah 46:20\">Jer. XLVI, 20</cite>) <he>חד אמר נ׳</he> one says, it means the butcher (with ref. to <cite ref=\"Mishnah Yoma 3:4\">Yoma III, 4</cite> <he>קרצו</he>)."
+			]
+		}
+	]
+}

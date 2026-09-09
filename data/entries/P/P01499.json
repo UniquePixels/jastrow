@@ -1,0 +1,31 @@
+{
+	"id": "P01499",
+	"slug": "עשר-2",
+	"headword": {
+		"text": "עֲשַׁר"
+	},
+	"page": {
+		"number": 1127,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P01498\">same</cite> (mostly <cite ref=\"P01546\"><he>עֲתַר</he></cite>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְעַשֵּׁר"],
+			"senses": [
+				{
+					"gloss": "<i>to become rich</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 30b\">Gitt. 30ᵇ</cite>, v. <cite ref=\"A03349\"><he>אֲשַׁר</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

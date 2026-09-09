@@ -1,0 +1,45 @@
+{
+	"id": "H01463",
+	"slug": "חפס",
+	"headword": {
+		"text": "חֲפַס"
+	},
+	"page": {
+		"number": 492,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"H01478\"><he>חָפַשׂ</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": " to <i>dig</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 21:33\">Targ. Y. Ex. XXI, 33</cite> (ed. Amst. <he>יַחְפֵּס</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 3:20\">Targ. Job III, 20</cite>.—Y. B. Mets. II, 8ᶜ bot. <he>וחספתה</he>, read: <he>וחַפְסוּנָהּ</he> and when they were digging it up."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"H01446\"><he>חֲפִיסָה</he></cite>) <i>to grab</i>. Targ. Y. I. ",
+			"units": [
+				"<cite ref=\"Numbers 11:8\">Num. XI, 8</cite> (some ed. <cite ref=\"H00853\"><he>חַפְּ׳</he></cite> <i>Pa.</i>; h. text <he>שָׁטוּ</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 3:21\">Targ. Job III, 21</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַפֵּס", "חַפֵּשׂ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01462\">same</cite>. Ib. XXXIX, 21 <he>מְחַפְּשִׂין</he> ed. Lag. (oth. ed. <he>מחפרין</he>).",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

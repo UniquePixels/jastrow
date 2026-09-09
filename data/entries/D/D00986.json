@@ -1,0 +1,32 @@
+{
+	"id": "D00986",
+	"slug": "דק-3",
+	"headword": {
+		"text": "דַּק",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דֹּק"
+		},
+		{
+			"text": "דּוֹק"
+		}
+	],
+	"page": {
+		"number": 318,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>a veiled</i> or <i>withered spot</i> in the eye, <i>cataract</i>. Sifra Emor ch. II, Par. 3 <he>דק זה הדוק</he> the Biblical <i>daḳ</i> is what is now called <i>doḳ</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 38b:3\">Bekh. 38ᵇ</cite> <he>דוק שחור</he> a black spot, <he>ד׳ לבן</he> a white spot.—Pl. <he>דּוֹקִין</he>. ",
+				"<cite ref=\"Gittin 56a\">Gitt. 56ᵃ</cite>; <cite ref=\"Avodah Zarah 51a\">Ab. Zar. 51ᵃ</cite> <he>ד׳ שכעין</he>; a. e.—V. <cite ref=\"D00328\"><he>דּוּקָא</he> II</cite>."
+			]
+		}
+	]
+}

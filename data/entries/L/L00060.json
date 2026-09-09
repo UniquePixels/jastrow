@@ -1,0 +1,49 @@
+{
+	"id": "L00060",
+	"slug": "לבוש-2",
+	"headword": {
+		"text": "לְבוּשׁ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "לְבוּשָׁא"
+		},
+		{
+			"text": "לְבִי׳"
+		}
+	],
+	"page": {
+		"number": 688,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"L00059\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 4:2\">Targ. Esth. IV, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 4:42\">Targ. II Kings IV, 42</cite> <he>בלְבוּשֵׁיה</he> (ed. Lag. <he>בלבשיה</he>); h. text <he>בצקלנו</he>); a. fr.—",
+				"<cite ref=\"Ketubot 63a:1\">Keth. 63ᵃ</cite> <he>שאילי מאני לבוש וכ׳</he> borrow dressy garments and cover thyself (to meet thy husband). ",
+				"<cite ref=\"Bereishit Rabbah 21:5\">Gen. R. s. 21</cite> <he>דלְבוּשֵׁיה מיניה וביה</he> whose covering is a part of (inseparable from) its body. ",
+				"<cite ref=\"Taanit 21b:15\">Taan. 21ᵇ</cite>, v. <cite ref=\"K00325\"><he>כּוֹסִילְתָּא</he></cite>. ",
+				"<cite ref=\"Shabbat 77b:11\">Sabb. 77ᵇ</cite> (playful etymology) <he>לבושא לא בושה</he> no shame. ",
+				"<cite ref=\"Niddah 20a:28\">Nidd. 20ᵃ</cite>; a. fr.—Pl. <cite ref=\"L00672\"><he>לְבוּשִׁין</he></cite>, <cite ref=\"L00060\"><he>לְבוּשַׁיָא</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 3:21\">Targ. Gen. III, 21</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 4:1\">Targ. Esth. IV, 1</cite>; a. fr.—",
+				"<cite ref=\"Tamid 32a:68\">Tam. 32ᵃ</cite> <he>לבישין דארגון</he> purple garments; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>circumvallation</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Zechariah 12:6\">Targ. Zech. XII, 6</cite> <he>ל׳ דנור</he> (h. text <he>כיור אש</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

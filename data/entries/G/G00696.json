@@ -1,0 +1,42 @@
+{
+	"id": "G00696",
+	"slug": "זרי-1",
+	"headword": {
+		"text": "זרי"
+	},
+	"altHeadwords": [
+		{
+			"text": "זָרָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 413,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to scatter, to winnow</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> <he>הזוֹרֶה</he> he who winnows (on the Sabbath).—Ib. 73ᵇ <he>היינו זורה וכ׳</he> is not winnowing the same process as sifting &c.?—",
+				"<cite ref=\"Mishnah Avodah Zarah 3:3\">Ab. Zar. III, 3</cite> <he>שוחק וזורה לרוח</he> he must grind it and cast it to the wind; a. fr.—Euphem. <i>to emit semen</i>. ",
+				"<cite ref=\"Bereishit Rabbah 85\">Gen. R. s. 85</cite>, v. <cite ref=\"D00389\"><he>דּוּשׁ</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זֵירָה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"G00695\">same</cite>, also <i>to sift, select</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 10:1\">Pesik. R. s. 10</cite> <he>שיחקו וזי׳ וכ׳</he> he ground and scattered it &c.—",
+						"<cite ref=\"Niddah 31a\">Nidd. 31ᵃ</cite>; <cite ref=\"Yoma 47a:10\">Yoma 47ᵃ</cite> (ref. to <he>ותזרני</he> <cite ref=\"II Samuel 22:40\">II Sam. XXII, 40</cite>, a. <he>ותאזרני</he> <cite ref=\"Psalms 18:40\">Ps. XVIII, 40</cite>) <he>זֵירִיתָנִי וזרזתני</he> thou didst sift me (select the best semen for embryonic formation, cmp. <cite ref=\"G00670\"><he>זָרַד</he></cite>) and make me healthy."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

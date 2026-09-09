@@ -1,0 +1,22 @@
+{
+	"id": "E00343",
+	"slug": "הידוס",
+	"headword": {
+		"text": "הִידּוּס"
+	},
+	"page": {
+		"number": 343,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"E00135\"><he>הָדַס</he></cite>) <i>damage done by scratching chickens</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 17b:21\">B. Kam. 17ᵇ</cite>; <cite ref=\"Bava Kamma 18b:12\">18ᵇ</cite>; v. <cite ref=\"M00556\"><he>מוּעָד</he></cite>."
+			]
+		}
+	]
+}

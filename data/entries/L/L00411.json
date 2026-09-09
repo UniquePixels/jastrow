@@ -1,0 +1,27 @@
+{
+	"id": "L00411",
+	"slug": "ליבוי-1",
+	"headword": {
+		"text": "לִיבּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִבּוּי"
+		}
+	],
+	"page": {
+		"number": 706,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00049\"><he>לָבָה</he></cite>) <i>blowing, fanning a flame</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 60a\">B. Kam. 60ᵃ</cite> (<he>בלִבּוּיוֹ</he>) <he>בלִיבּוּיוֹ</he>, v. <cite ref=\"L00049\"><he>לָבָה</he></cite>."
+			]
+		}
+	]
+}

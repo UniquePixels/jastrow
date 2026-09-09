@@ -1,0 +1,43 @@
+{
+	"id": "S01676",
+	"slug": "קסס",
+	"headword": {
+		"text": "קָסַס"
+	},
+	"page": {
+		"number": 1397,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <i>Polel</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to cut</i>, v. <cite ref=\"S01677\"><he>קְסָסָה</he></cite>.—[<cite ref=\"Jerusalem Talmud Berakhot 6:1:16\">Y. Ber. VI, 10ᵇ</cite> top <he>הקוֹסֵס את החטים</he> Ar., ed. <he>הכוסס</he>, v. <cite ref=\"K00949\"><he>כָּסַס</he></cite>.]",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (of wine) <i>to bite, have a pungent taste, be sourish</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 2:7:6\">Y. Pes. II, end, 29ᶜ</cite> <he>היה לו יין קוֹסֵס וכ׳</he> had a sourish wine, and he put barley into it that it might become sour (vinegar). ",
+				"<cite ref=\"Tosefta Bava Batra 6:6\">Tosef. B. Bath. VI, 6</cite> if one sells a cellar full of wine, <he>מקבל … קוֹסְסוֹת למאה</he> he (the purchaser) must accept ten casks of pungent wine for every hundred. ",
+				"<cite ref=\"Mishnah Maaser Sheni 4:2\">Maas. Sh. IV, 2</cite> <he>היין שקסס</he> Ms. M. (Y. ed. <he>שקִיסֵּס</he>; ed. <he>שקרם</he>, Var. <he>שהִקְסִיס</he>) wine that has turned sourish; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִיסֵּס"],
+			"senses": [
+				{
+					"gloss": "; <i>Hif.</i> <he>הִקְסִיס</he>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

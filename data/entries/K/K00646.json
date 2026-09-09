@@ -1,0 +1,32 @@
+{
+	"id": "K00646",
+	"slug": "כיתונא",
+	"headword": {
+		"text": "כִּיתּוּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּתּ׳"
+		}
+	],
+	"page": {
+		"number": 637,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (v. <cite ref=\"K00651\"><he>כִּיתַּן</he></cite>) = h. <cite ref=\"K01354\"><he>כֻּתּוֹנֶת</he></cite>, <i>linen coat</i>, in gen. <i>undergarment, shirt</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 37:3\">Targ. O. Gen. XXXVII, 3</cite>; a. fr.—",
+				"<cite ref=\"Rosh Hashanah 27b:6\">R. Hash. 27ᵇ</cite> <he>דהפכיה ככ׳</he> that he turned it like a shirt (the inside outside). ",
+				"<cite ref=\"Nedarim 55b:7\">Ned. 55ᵇ</cite> <he>כ׳ דצלא</he> a leather coat (v. <cite ref=\"A01501\"><he>אִיסְקוֹרְטְיָא</he></cite>). ",
+				"<cite ref=\"Chullin 46a:12\">Ḥull. 46ᵃ</cite>, v. <cite ref=\"F00084\"><he>וְרַד</he></cite>; a. e.—Pl. <he>כִּיתּוּנִין</he>, <cite ref=\"K00648\"><he>כִּיתּוּנַיָּא</he></cite>, <cite ref=\"K00646\"><he>כִּתּ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 28:40\">Targ. Ex. XXVIII, 40</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 3:22\">Targ. Is. III, 22</cite>; a. fr."
+			]
+		}
+	]
+}

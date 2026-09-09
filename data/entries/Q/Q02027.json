@@ -1,0 +1,23 @@
+{
+	"id": "Q02027",
+	"slug": "פרשא-1",
+	"headword": {
+		"text": "פְּרָשָׁא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1243,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"Q02025\"><he>פָּרָשׁ</he></cite>) [<i>driving</i>,] <i>goad</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 3:31\">Targ. Jud. III, 31</cite> <cite ref=\"Q02022\"><he>פְּרַשׁ</he></cite> constr. (Ar. <he>פְּרָשַׁת</he>)."
+			]
+		}
+	]
+}

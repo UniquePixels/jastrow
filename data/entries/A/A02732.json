@@ -1,0 +1,31 @@
+{
+	"id": "A02732",
+	"slug": "אפל-2",
+	"headword": {
+		"text": "אֲפַל"
+	},
+	"page": {
+		"number": 105,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A02731\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"N01055\"><he>אַפֵּיל</he></cite> as <cite ref=\"A02731\">foreg.</cite> Hif. 1). ",
+					"units": [
+						"<cite ref=\"Bava Batra 7a:8\">B. Bath. 7ᵃ</cite> <he>קא מאפלת עלי</he> thou makest my building dark, obstructest my light."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

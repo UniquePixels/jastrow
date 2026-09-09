@@ -1,0 +1,33 @@
+{
+	"id": "A03254",
+	"slug": "אש",
+	"headword": {
+		"text": "אֵשׁ"
+	},
+	"page": {
+		"number": 126,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (b. h.;",
+			"units": []
+		},
+		{
+			"gloss": "<i>fire</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 11a:2\">Sabb. 11ᵃ</cite>; a. e. <he>כא׳ לנעורת</he> as destructive as fire to the flax. ",
+				"<cite ref=\"Sotah 48b\">Sot. 48ᵇ</cite> <he>כא׳ בנעורת</he> like fire among flax, i.e. inflaming the senses. ",
+				"<cite ref=\"Bereishit Rabbah 39:8\">Gen. R. s. 39</cite> <he>מבול של א׳</he> (v. <cite ref=\"M00079\"><he>מַבּוּל</he></cite>) destruction by fire.—",
+				"<cite ref=\"Bamidbar Rabbah 2:24\">Num. R. s. 2</cite> end <he>א׳ הדיוטית</he> fire from outside of the sanctuary; a. fr.—Pl. <he>אִשּׁוֹת</he>. ",
+				"<cite ref=\"Yoma 21b:8\">Yoma 21ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fever</i>, <he>א׳ של עצמות</he>. ",
+			"units": ["<cite ref=\"Gittin 70a:7\">Gitt. 70ᵃ</cite>"],
+			"label": "2"
+		}
+	]
+}

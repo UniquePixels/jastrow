@@ -1,0 +1,28 @@
+{
+	"id": "S00685",
+	"slug": "קטא-1",
+	"headword": {
+		"text": "קְטָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "קְטָה"
+		}
+	],
+	"page": {
+		"number": 1345,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"S00805\"><he>קְטַע</he></cite>) <i>to cut, pluck</i>; (cmp. <cite ref=\"S00811\"><he>קְטַף</he></cite>) <i>to harvest</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:16\">Y. Ter. VIII, 45ᵈ</cite> top (proverbial expression) <he>אין ק׳ ק׳ שיחור וכ׳</he> if he plucks (gains anything), he plucks a piece of coal, if he loses, he loses a pearl (i.e. he risks his life for a trifle); <cite ref=\"Jerusalem Talmud Avodah Zarah 2:3:14\">Y. Ab. Zar. II, 41ᵃ</cite> bot. <he>ק׳ שידו</he> (corr. acc.)."
+			]
+		}
+	]
+}

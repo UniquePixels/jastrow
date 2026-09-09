@@ -1,0 +1,40 @@
+{
+	"id": "A00972",
+	"slug": "אזכרה",
+	"headword": {
+		"text": "אַזְכָּרָה"
+	},
+	"page": {
+		"number": 37,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.; = <cite ref=\"E00298\"><he>הַזְכָּרָה</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>remembrance, mention</i> (of Div. Name), <i>recitation</i> (of prayer); <i>reference</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:2:6\">Y. Ber. V, 9ᵇ</cite> <he>א׳ שהיא מריוח</he> the reference to rain (in the second section of the eighteen benedictions) which is an expression of satisfaction (plenty), opp. <cite ref=\"U00033\"><he>שאלה</he></cite>, the prayer for rain (in the ninth benediction) which is an expression of anxiety.—",
+				"<cite ref=\"Jerusalem Talmud Megillah 3:4:3\">Y. Meg. III, 74ᵇ</cite> top <he>שתהא אַזְכָּרָתָן קודם וכ׳</he> that the recitation (of the events commemorated on Purim) precede the celebration thereof."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"A00411\"><he>אַדְכָּרָה</he></cite>) <i>the Divine Name, Tetragrammaton</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 2:1\">Num. R. s. 2</cite>, beg. the students <he>מראים את הא׳ וכ׳</he> point out the Div. Name with their fingers; <cite ref=\"Shir HaShirim Rabbah 2:4:1\">Cant. R. to II, 4</cite> <he>מדלג על הא׳</he> skips the Div. Name in recitation of lessons.—Pl. <he>אַזְכָּרוֹת</he>. ",
+				"<cite ref=\"Yoma 8a:1\">Yoma 8ᵃ</cite> <he>שיש בהן א׳ הרבה</he> in which the Div. N. frequently occurs. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:4:12\">Y. Ber. III, 6ᶜ</cite>.—Y. Sabb. XVI, 15ᶜ bot.; Bab. ",
+				"<cite ref=\"Shabbat 116a:8\">ibid. 116ᵃ</cite> <he>קודר אזכרותֵיהֶן</he> you must cut out the Div. N. occurring in them (the heretic writings). ",
+				"<cite ref=\"Jerusalem Talmud Taanit 2:2:12\">Y. Taan. II, 65ᶜ</cite> top <he>י״ח א׳ וכ׳</he> eighteen times that the Tetragrammaton appears in the Psalm <i>Habu</i> (XXIX). ",
+				"<cite ref=\"Bamidbar Rabbah 2:1\">Num. R. s. 2</cite>, beg.; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "U00703",
+	"slug": "שחקא-2",
+	"headword": {
+		"text": "שַׁחֲקָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1551,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>שַׁחֲקֵי</he> 1) <cite ref=\"U00702\">same</cite>.",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"U00702\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Niddah 17a:70\">Nidd. 17ᵃ</cite> <he>ש׳ דכיתנא</he> linen rags. ",
+				"<cite ref=\"Niddah 17a:70\">Ib.</cite> <he>הא בחדתי והא בש׳</he> in the one case it means new linen, in the other, old linen; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>toils</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 31:7\">Targ. Prov. XXXI, 7</cite> (h. text <cite ref=\"P00899\"><he>עמל</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

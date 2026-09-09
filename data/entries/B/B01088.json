@@ -1,0 +1,27 @@
+{
+	"id": "B01088",
+	"slug": "בציר-2",
+	"headword": {
+		"text": "בָּצִיר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּצִיר"
+		}
+	],
+	"page": {
+		"number": 184,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. m. (<he>בצר</he>) <i>diminished, small;</i> (adv.) <i>less, least</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 1:16\">Targ. Y. Gen. I, 16</cite>; a. e.—",
+				"<cite ref=\"Sanhedrin 108b:20\">Snh. 108ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 21b\">B. Mets. 21ᵇ</cite> <he>ב׳ מהכי</he> less than this; a. fr.—V. <cite ref=\"B00685\"><he>בִּיצִירְתָּא</he></cite>."
+			]
+		}
+	]
+}

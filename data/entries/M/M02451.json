@@ -1,0 +1,28 @@
+{
+	"id": "M02451",
+	"slug": "מקרא-2",
+	"headword": {
+		"text": "מְקֹרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְקוֹרָא"
+		}
+	],
+	"page": {
+		"number": 832,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02018\"><he>קָרָא</he></cite>) <i>being called, summons</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:1\">Y. Ber. II, 4ᵈ</cite> top; <cite ref=\"Jerusalem Talmud Megillah 1:9:10\">Y. Meg. I, 71ᶜ</cite> (play on <he>מקורך</he>, <cite ref=\"Proverbs 5:18\">Prov. V, 18</cite>) <he>יהי מְקֹרָאֲךָ לקבר וכ׳</he> blessed be thy being summoned to the grave; <cite ref=\"Yalkut Shimoni on Nach 937\">Yalk. Prov. 937</cite>; <cite ref=\"Kohelet Rabbah 4:17:1\">Koh. R. to IV, 17</cite>. ",
+				"<cite ref=\"Kohelet Rabbah 4:17:1\">Ib.</cite> <he>בבית מקוראך תהיה ברוך</he> be blessed in the house to which thou wilt be called."
+			]
+		}
+	]
+}

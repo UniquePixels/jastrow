@@ -1,0 +1,37 @@
+{
+	"id": "O00462",
+	"slug": "סחף-2",
+	"headword": {
+		"text": "סְחַף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 971,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00461\">same</cite>, <i>to sweep away; to reject, despise</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 3:34\">Targ. Prov. III, 34</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 10:3\">Ib. X, 3</cite> (h. text <he>הדף</he>).—<i>Part.</i> pass. <he>סְחִיף</he> <i>hurried</i>. ",
+				"<cite ref=\"Aramaic Targum to Esther 8:14\">Targ. Esth. VIII, 14</cite> (h. text <he>דחוף</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִסְתְּחַף"],
+			"senses": [
+				{
+					"gloss": "<i>to be swept away;to be inundated, ruined</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 14:32\">Targ. Prov. XIV, 32</cite> (h. text <he>ידחה</he>). ",
+						"<cite ref=\"Targum Jonathan on Genesis 49:4\">Targ. Y. I Gen. XLIX, 4</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

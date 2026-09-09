@@ -1,0 +1,33 @@
+{
+	"id": "U00838",
+	"slug": "שיול",
+	"headword": {
+		"text": "שְׁיוֹל"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁיוֹלָא"
+		},
+		{
+			"text": "שִׁיּיוֹל"
+		}
+	],
+	"page": {
+		"number": 1558,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U00013\"><he>שְׁאוֹל</he></cite>, <i>nether world, grave</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:22\">Targ. Y. I Deut. XXXII, 22</cite>, <cite ref=\"Targum Jerusalem, Deuteronomy 32:22\">Targ. Y. II, Deut. XXXII, 22</cite> (ed. Vien. <cite ref=\"U00838\"><he>שִׁיּוּל</he></cite>, <cite ref=\"U00896\"><he>שִׁיּיוֹל</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 16:30\">Targ. Y. Num. XVI, 30</cite> (ed. Vien. <he>שֵׁייוּל</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 9:18\">Targ. Ps. IX, 18</cite> (ed. Lag. <he>שייול</he>); a. fr.—",
+				"<cite ref=\"Moed Katan 28b:7\">M. Kat. 28ᵇ</cite> <he>שייול</he> (Ms. M. <cite ref=\"U01834\"><he>שקול</he></cite>, corr. acc.), v. <cite ref=\"A02376\"><he>אִסְטְלָא</he></cite>."
+			]
+		}
+	]
+}

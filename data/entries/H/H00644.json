@@ -1,0 +1,46 @@
+{
+	"id": "H00644",
+	"slug": "חטר-1",
+	"headword": {
+		"text": "חֲטַר"
+	},
+	"page": {
+		"number": 450,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to cut off</i> (denom. <cite ref=\"H00303\"><he>חוּטְרָא</he> I</cite>, <i>twig</i>, cmp. <cite ref=\"C00571\"><he>גֶּזַע</he></cite> &c.). &c.).",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to fence in</i> (cmp. <cite ref=\"C00246\"><he>גדר</he></cite>, <he>גזר</he> &c.). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 19:8\">Targ. Job XIX, 8</cite>.—Denom. <cite ref=\"H00304\"><he>חוּטְרָא</he> II</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"H00303\"><he>חוּטְרָא</he> I</cite>) <i>to whip, strike</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 67a:9\">Sabb. 67ᵃ</cite> <he>בלועא דחמרא חֲטַרְתֵּיה</he> (Ms. M. <he>חטבתיה</he>) with an ass’ jaw I should strike him."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַטֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to provide with a vertical stroke</i> (<cite ref=\"H00303\"><he>חוּטְרָא</he></cite>). ",
+					"units": [
+						"<cite ref=\"Menachot 29b:6\">Men. 29ᵇ</cite> <he>דחַטְּרֵי להו לגגיה דחי״ת</he> (Ms. M. <he>דהוו חַטְרֵי ליה</he> Pe.) they used to put a vertical stroke on the roof of the Ḥeth."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

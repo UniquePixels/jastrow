@@ -1,0 +1,61 @@
+{
+	"id": "C00872",
+	"slug": "גלגל-4",
+	"headword": {
+		"text": "גַּלְגַּל",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּלְגְּלָא"
+		},
+		{
+			"text": "גִּילְ׳"
+		}
+	],
+	"page": {
+		"number": 245,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00871\">same</cite><i>wheel</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 1:15\">Targ. Ezek. I, 15</cite> sq. <cite ref=\"C00864\"><he>גִּילְ׳</he></cite> ed. Lag. ",
+				"<cite ref=\"Aramaic Targum to Psalms 83:14\">Targ. Ps. LXXXIII, 14</cite>; a. e.—",
+				"<cite ref=\"Eruvin 104a:25\">Erub. 104ᵃ</cite> <he>למימלא בגי׳</he> to fill (draw water) with the wheel. ",
+				"<cite ref=\"Vayikra Rabbah 34:3\">Lev. R. s. 34</cite>, v. <cite ref=\"A02204\"><he>אַנְטְלַיָּא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>globe, celestial sphere</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 77:19\">Targ. Ps. LXXVII, 19</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 38:33\">Targ. Job XXXVIII, 33</cite>.—",
+				"<cite ref=\"Bava Batra 74a:6\">B. Bath. 74ᵃ</cite> <he>ג׳ דרקיע וכ׳</he> the sphere of the zodiac which turns around."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>eye-ball</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 17:8\">Targ. Ps. XVII, 8</cite> <cite ref=\"C00722\"><he>גִּילְגוּל</he></cite> ed. Lag. (oth. ed. <cite ref=\"C00864\"><he>גִּלְגּוּל</he></cite>; Ms. <cite ref=\"C00624\"><he>גִּיגַּל</he></cite>).—",
+				"<cite ref=\"Tamid 32b\">Tam. 32ᵇ</cite> they handed him <he>ג׳ דעינא</he> Ar. (ed. <cite ref=\"C00382\"><he>גולגלתא</he></cite> incorr.) an eye-ball. ",
+				"<cite ref=\"Tamid 32b\">Ib.</cite> <he>גולגלתא דעינא וכ׳</he> (read <cite ref=\"C00722\"><he>גילגלא</he></cite>) the eye-ball of a mortal which is never satisfied. ",
+				"<cite ref=\"Bava Batra 73b:4\">B. Bath. 73ᵇ</cite>"
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>stubble</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 17:13\">Targ. Is. XVII, 13</cite>.—Pl. <he>גִּלְגְּלַיָּא</he>, <cite ref=\"C00864\"><he>גִּילְ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 1:16\">Targ. Ezek. I, 16</cite> sq.—",
+				"<cite ref=\"Onkelos Exodus 14:25\">Targ. Ex. XIV, 25</cite> <cite ref=\"C00872\"><he>גִּלְגְּלֵי</he></cite> ed. Berl. (ed. a. Y. <cite ref=\"C00871\"><he>גַּלְגַּלֵי</he></cite>). Targ. Y. II <cite ref=\"Onkelos Exodus 14:25\">ib.</cite> <he>גֶּלְגְּלַיָּא</he>; a. e.—",
+				"<cite ref=\"Kohelet Rabbah 12:6:1\">Koh. R. to XII, 6</cite>; <cite ref=\"Vayikra Rabbah 18:1\">Lev. R. s. 18</cite>; a. e.—4) (v. <cite ref=\"C00873\">next w.</cite>) <i>a sort of girdle</i>. Pl. <he>גַּלְגְּלַיָּיה</he>. Y. Sabb. VI, 8ᵇ bot. (transl. of <he>גליונים</he>, <cite ref=\"Isaiah 3:22\">Is. III, 22</cite>), v. <cite ref=\"C00941\"><he>גִּלְיוֹן</he></cite> 3."
+			],
+			"label": "4"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "Q01323",
+	"slug": "פסכתר",
+	"headword": {
+		"text": "פְּסַכְתֵּר"
+	},
+	"page": {
+		"number": 1197,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (corresp. to ψυχθηρ = ψυκτήρ) [<i>wine-cooler</i>,] <i>a large pot</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Chagigah 3:2:4\">Y. Ḥag. III, 79ᵃ</cite>; <cite ref=\"Mishnah Tamid 5:5\">Tam. V, 5</cite> <he>כופה … פ׳</he> (,Ar. everywhere <cite ref=\"Q01318\"><he>פסק׳</he></cite>), v. <cite ref=\"K01007\"><he>כָּפָה</he></cite>; <cite ref=\"Mishnah Tamid 5:5\">ib.</cite> <he>ופ׳ היה כלי וכ׳</he> the <i>psykter</i> was a large vessel, holding &c. Sifré Tsav, Par. 1, ch. II; <cite ref=\"Jerusalem Talmud Yoma 4:6:6\">Y. Yoma IV, end, 42ᵃ</cite>; <cite ref=\"Bamidbar Rabbah 4:17\">Num. R. s. 4</cite>. ",
+				"<cite ref=\"Mishnah Eruvin 10:15\">Erub. X, 15</cite>; a. e."
+			]
+		}
+	]
+}

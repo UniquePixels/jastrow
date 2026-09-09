@@ -1,0 +1,64 @@
+{
+	"id": "B00635",
+	"slug": "בין-1",
+	"headword": {
+		"text": "בִּין"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּן"
+		}
+	],
+	"page": {
+		"number": 162,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בה</he> , v. <cite ref=\"B00199\"><he>בוא</he></cite>) <i>to pierce, split, penetrate;</i> whence, <i>to discern, understand;</i> v. Hif.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בּוֹנֵן"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"B00638\"><he>בֵּין</he></cite>) <i>to cause to penetrate, to saturate</i>. Sifra Vayikra, N’dab., Par. 12, ch. XIV (ref. to <cite ref=\"Leviticus 2:13\">Lev. II, 13</cite>) <he>יכול תְּבוֹנֵּהוּ</he> from <i>bammelaḥ</i> I might judge, ‘thou must thoroughly saturate it, <he>ת״ל תמלח</he> therefore it says, ‘timlaḥ’ (thou shalt strew). ",
+					"units": [
+						"<cite ref=\"Menachot 21a:17\">Men. 21ᵃ</cite> (quoting Sifra l. c.) <he>מאי תבונהו</he> what does the word <i>t’bonnehu</i> mean? Said R. b. U. <he>ה״ק יכול יִתְבּוֹנֶנּוּ כתבן</he> (taking <cite ref=\"V00000\"><he>ת</he></cite> as radical, as if imperat. of a verb <he>תבן</he>, denom. of <cite ref=\"V00064\"><he>תֶּבֶן</he></cite>) it means, I might suppose, he must mix it up like straw in clay (v. infra). Said A. to him <he>א״ה יתבוננו מיבעי ליה</he> if so, then it ought to read (in the Sifra) <i>yithbonennu</i> (third person). But said A. (taking it fr. <cite ref=\"B00942\"><he>בנה</he></cite>) <he>יכול יעשנו כבניין</he> I might suppose, he shall heap the salt upon it like a building (a pile). Said R. to him, <he>א״ה יבננו מיבעי ליה</he> then it ought to read <i>yibnennu</i>. But said R. (you must correct the Sifra so as to read) <he>יכול תבוניהו</he> (corr. <he>תָּבִינֵיהוּ</he>) thou shalt make it savory … <he>יתן בו טעם כבינה</he> he shall put a taste into it as does understanding into a man, v. <cite ref=\"I00611\"><he>טַעַם</he></cite>. [<cite ref=\"Yalkut Shimoni on Torah 454\">Yalk. Lev. 454</cite>: <he>מאי יתבנהו … יכול יתבלנו כתבן וטיט … תבלנו מ״ל … יכול יעשנו כבנין … א״ה</he> .<he>יבנהו מ״ל … יכול תבינהו … יכול יתן בו טעם בבינה</he>—Ar. ed. Koh.: <he>יכול תבניהו … מאי תבניהו … יכול יתבלנו</he> (<he>הרבה במלח</he>) <he>כתבן בטיט … יכול יתן בו טעם</he>, correct: <he>יכול תבינהו יתן וכ׳</he>.]"
+					]
+				}
+			],
+			"stem": "*."
+		},
+		{
+			"forms": ["הוֹבִין"],
+			"senses": [
+				{
+					"gloss": " (cmp. <cite ref=\"E00186\"><he>הוֹבִיר</he></cite>, s. v. <cite ref=\"B00329\"><he>בּוּר</he></cite>) (denomin. of <cite ref=\"B00638\"><he>בֵּין</he></cite>) <i>to mediate, to be interpreter</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Avodah Zarah 3:5\">Ab. Zar. III, 5</cite> (<cite ref=\"Avodah Zarah 45a:4\">45ᵃ</cite>) <he>אני אוֹבִין לפניך</he> (v. Rabb. D. S. a. l. note 8) let me be thy interpreter (let me explain what you mean) <he>כל מקום וכ׳</he> (the words <he>על ההרים וכ׳</he>, <cite ref=\"Deuteronomy 12:2\">Deut. XII, 2</cite>, are explanatory) wherever thou findest a high mountain &c., know there must be an idol. [In the version <he>אני אהיה אובין וכ׳</he>, <he>אוֹבֵין</he> is used as a part. of a verb <he>אָבֵין</he>, denomin. of <cite ref=\"B00638\"><he>בֵּין</he></cite>, to act as a mediator or interpreter.] 2) <he>הֵבִין</he> (b. h.) <i>to perceive, make intelligible</i>, esp. <i>to find analogies</i> (between two cases). <he>ה׳ דבר מתוך דבר</he> prop. to bring out one thing from between another, i.e. <i>to form a conclusion by analogy</i>. ",
+						"<cite ref=\"Shabbat 31a:11\">Sabb. 31ᵃ</cite> <he>הֵבַנְתָּה וכ׳</he> hast thou cultivated thy mind to conclude &c. (ref. to <cite ref=\"D00950\"><he>דעת</he></cite> <cite ref=\"Isaiah 33:6\">Is. XXXIII, 6</cite>). ",
+						"<cite ref=\"Sanhedrin 93b\">Snh. 93ᵇ</cite>; a. fr. ",
+						"<cite ref=\"Mishnah Chagigah 2:1\">Ḥag. II, 1</cite> (<cite ref=\"Chagigah 11b:6\">11ᵇ</cite>) <he>חכם מֵבִין מדעתו</he> (not <he>ומבין</he>, v. Rabb. D. S. a. l. note) a student able to speculate by himself, a thinker.—Ib. 13ᵃ bot. <he>היה מֵבִין בהשמל</he> speculated over the ḥashmal (<cite ref=\"Ezekiel 1:27\">Ezek. I, 27</cite>); a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְבּוֹנֵן", "נִתְבּוֹנָן"],
+			"senses": [
+				{
+					"gloss": "<i>to understand one’s self, to be careful, to reflect</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 27b:6\">B. Kam. 27ᵇ</cite> <he>להתבונן בדרכים</he> to look around on roads (to be prepared for something in their way against which they might strike). ",
+						"<cite ref=\"Bereishit Rabbah 34\">Gen. R. s. 34</cite> <he>ויבן כתי׳ נתבונן</he> the word <he>ויבן</he> (he built, <cite ref=\"Genesis 8:20\">Gen. VIII, 20</cite>) may be read <i>vayaben</i>, i.e. he reflected, argued."
+					]
+				}
+			],
+			"stem": "Hithpo. a. Nithpo."
+		}
+	]
+}

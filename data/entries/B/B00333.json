@@ -1,0 +1,47 @@
+{
+	"id": "B00333",
+	"slug": "בור-6",
+	"headword": {
+		"text": "בּוֹר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 148,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (rarely fem.) (b. h.; v. <cite ref=\"B00328\"><he>בּוּר</he> I</cite> a. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>pit, cistern</i>, often = <cite ref=\"B00043\"><he>בְּאֵר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 2:4\">Erub. II, 4</cite> contrad. to <cite ref=\"B00043\"><he>בְּאֵר</he></cite>, v. ",
+				"<cite ref=\"Eruvin 18a:9\">ib. 18ᵃ</cite> <he>ב׳ מכונסין … באר מים חיים</he>.—",
+				"<cite ref=\"Bava Batra 64a:7\">B. Bath. 64ᵃ</cite> <he>ב׳ בחפירה</he> <i>bor</i> means a pit or well gained by mere digging (without masonry), v. <cite ref=\"D00393\"><he>דּוּת</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Kamma 5:5\">B. Kam. V, 5</cite> (<cite ref=\"Bava Kamma 50b:11\">50ᵇ</cite>), a. fr. <he>ב׳ שיח ומערה</he> a narrow pit (about ten hand-breadths deep), a lengthy ditch, and a spacious cavity. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 2:4:2\">Y. Sot. II, 18ᵃ</cite>, v. <cite ref=\"B00043\"><he>בְּאֵר</he></cite>. ",
+				"<cite ref=\"Bava Kamma 6a:11\">B. Kam. 6ᵃ</cite> <he>ב׳ תוכיח</he> the word <i>bor</i> proves. ",
+				"<cite ref=\"Taanit 8a\">Taan. 8ᵃ</cite>, v. <cite ref=\"H00330\"><he>חוּלְדָּה</he></cite>.—Trnsf. <i>obstacle, danger</i> (v. ",
+				"<cite ref=\"Exodus 21:33\">Ex. XXI, 33</cite> sq.). ",
+				"<cite ref=\"Bava Kamma 6a:12\">B. Kam. 6ᵃ</cite> <he>ב׳ המתגלגל</he> a moving danger (e.g. a rolling stone).—<he>ב׳ וסירה</he>, v. <cite ref=\"O00832\"><he>סִירָה</he></cite>.—<he>ב׳ הגדול</he> the Large Well, <he>ב׳ הגולה</he> the Pilgrims’ Well, names of cisterns in the Temple premises. ",
+				"<cite ref=\"Mishnah Eruvin 10:14\">Erub. X, 14</cite>; <cite ref=\"Mishnah Middot 5:4\">Midd. V, 4</cite>.—ב׳ ספינה אלכסנדרית <i>the tank</i> of sweet water in Alexandrian merchantmen. Ohol. VIII, 1; <cite ref=\"Shabbat 35a\">Sabb. 35ᵃ</cite>; a. e.—[<cite ref=\"Shabbat 77b:11\">Ib. 77ᵇ</cite> <he>ב׳ זינקא</he>, v. <cite ref=\"B00356\"><he>בּוּרְזִינְקָא</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a receptacle for oil</i> or <i>wine in the press</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 4:1\">Maasr. IV, 1</cite> <he>כב׳ קטן</he> like an oil tank on a small scale. ",
+				"<cite ref=\"Mishnah Avodah Zarah 4:8\">Ab. Zar. IV, 8</cite> <he>עד שירד לב׳</he> until the wine comes into the tank.—Pl. <cite ref=\"B00355\"><he>בּוֹרוֹת</he></cite>. ",
+				"<cite ref=\"Bava Batra 17b:8\">B. Bath. 17ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Eruvin 104b:2\">Erub. 104ᵇ</cite> <he>ב׳ הקרות</he>, v. <cite ref=\"E00803\"><he>הָקֵר</he></cite>.—[<cite ref=\"Jerusalem Talmud Sanhedrin 1:2:36\">Y. Snh. I, 19ᵃ</cite> bot. <he>אני ובורך</he> = <he>ובוראך</he> I and thy Creator.]"
+			],
+			"label": "2"
+		}
+	]
+}

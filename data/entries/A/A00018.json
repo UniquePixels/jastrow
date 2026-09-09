@@ -1,0 +1,50 @@
+{
+	"id": "A00018",
+	"slug": "אבא-2",
+	"headword": {
+		"text": "אַבָּא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אַכָּה"
+		}
+	],
+	"page": {
+		"number": 2,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"B00005\"><he>בָּא</he></cite>, <cite ref=\"F00003\"><he>וָוא</he></cite>, <cite ref=\"F00021\"><he>וָוה</he></cite> in Y.) pr. n. m. <i>Abba</i>, (<i>Ba, Va</i>), a frequent name. [Sometimes distinguished persons go by that name, being orig. a title (v. <cite ref=\"A00019\">next w.</cite>) while their real names are dropped; v. esp. ",
+			"units": [
+				"<cite ref=\"Berakhot 18b:14\">Ber. 18ᵇ</cite> <he>בעינא א׳</he> I want Abba &c.] The most distinguished are "
+			]
+		},
+		{
+			"gloss": " <he>א׳ אריכא</he>, v. <cite ref=\"T00042\"><he>רַב</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>רב א׳</he> v. <cite ref=\"T00044\"><he>רָבָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " (<he>בר בא</he>) <he>א׳ בר אבהו</he> Abba bar Abbahu (Ba), father of Samuel, an Amora.",
+			"units": [],
+			"label": "3"
+		},
+		{
+			"gloss": " <he>א׳ בר רב הונא</he>, in Bab. <cite ref=\"T00060\"><he>רַבָּה</he></cite> q. v.",
+			"units": [],
+			"label": "4"
+		},
+		{
+			"gloss": " <he>א׳ מרי</he>, contr. <he>אבמרי</he> <i>Abba Mari</i>, an Amora.—<cite ref=\"A00074\"><he>אבין</he></cite>, <cite ref=\"A00138\"><he>אבינא</he></cite>, contr. with <cite ref=\"T00001\"><he>ר׳</he></cite> into <cite ref=\"T00095\"><he>רַבִּין</he></cite>, <cite ref=\"T00096\"><he>רַבִּינָא</he></cite> <i>Rabbin, Rabbina</i>",
+			"units": [],
+			"label": "5"
+		}
+	]
+}

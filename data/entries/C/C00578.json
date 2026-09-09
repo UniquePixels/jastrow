@@ -1,0 +1,30 @@
+{
+	"id": "C00578",
+	"slug": "גזרא-2",
+	"headword": {
+		"text": "גִּזְרָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּיזְרָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 232,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. h. <cite ref=\"C00318\"><he>גּוֹדְרוֹת</he></cite>) <i>sheep in folds, fold, flock</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 30:31\">Targ. Prov. XXX, 31</cite> <he>בית גיז׳</he> Ms. (ed. <he>גיורא</he>) between the flock.—Pl. constr. <he>גִּזְרֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 20:27\">Targ. I Kings XX, 27</cite> (h. text <he>חשיפי</he>)."
+			]
+		}
+	]
+}

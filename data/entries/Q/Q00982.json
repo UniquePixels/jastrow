@@ -1,0 +1,32 @@
+{
+	"id": "Q00982",
+	"slug": "פלוני",
+	"headword": {
+		"text": "פְּלוֹנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּלֹנִי"
+		}
+	],
+	"page": {
+		"number": 1178,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"Q00925\"><he>פָּלָא</he></cite>)<i>a specified person</i> or <i>thing, such and such, name ‘blank’</i> (abbrev. <he>פלו׳</he>). ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 6:3\">Gitt. VI, 3</cite> <he>במקים פ׳</he> in such and such a place. Y. ib. VIII, end, 49ᵈ (in a document) <he>אני פ׳ בן פ׳</he> I—, son of—. ",
+				"<cite ref=\"Kiddushin 65a:20\">Kidd. 65ᵃ</cite> <he>קידשתיך בפני פ׳ ופ׳ והלכו וכ׳</he> I betrothed thee unto me in the presence of—and—, and they have left &c. ",
+				"<cite ref=\"Tosefta Yevamot 3:4\">Tosef. Yeb. III, 4</cite> <he>ופ׳ מהו לעה״ב</he> and will such and such a man have a share in the hereafter?; <he>דומה שלא שאלתם אלא על פ׳</he> it seems to me that you inquired about such and such (naming some one else); <cite ref=\"Yoma 66b:9\">Yoma 66ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Kohelet Rabbah 1:8:3\">Koh. R. to I, 8</cite>, v. <cite ref=\"J00680\"><he>יֵשׁוּ</he></cite>.—<i>Fem.</i> <cite ref=\"Q01096\"><he>פְּלוֹנִית</he></cite>, <cite ref=\"Q01096\"><he>פְּלֹנִית</he></cite>. ",
+				"<cite ref=\"Mishnah Kiddushin 3:1\">Kidd. III, 1</cite> <he>צא וקדש לי אשה פ׳</he> go and betroth for me that certain woman. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 6:2:5\">Y. Sot. VI, 21ᵃ</cite> top <he>פ׳ כהנת וכ׳</he> such and such is a priest’s daughter, and she has prostituted herself &c.; a. fr.—Ch. <cite ref=\"Q01088\"><he>פְּלַן</he></cite>."
+			]
+		}
+	]
+}

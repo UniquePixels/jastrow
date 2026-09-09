@@ -1,0 +1,31 @@
+{
+	"id": "A02224",
+	"slug": "אניגרון-2",
+	"headword": {
+		"text": "אֶנִּיגָרוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אניגורין"
+		}
+	],
+	"page": {
+		"number": 84,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἐλαιόγαρον, <cite ref=\"N00001\"><he>נ</he></cite> corrupt. for <cite ref=\"L00000\"><he>ל</he></cite>) <i>a sauce of oil and garum</i> (to which wine is sometimes added). ",
+			"units": [
+				"<cite ref=\"Berakhot 35b:23\">Ber. 35ᵇ</cite> sq. <he>א׳ מיא וכ׳</he> <i>elaiogaron</i> contains the juice of beets; oxygaron the sauce of all kinds of boiled vegetables. ",
+				"<cite ref=\"Yoma 76a:15\">Yoma 76ᵃ</cite>. ",
+				"<cite ref=\"Shevuot 23a:2\">Shebu. 23ᵃ</cite> <he>ודילמא ע״י א׳</he> perhaps if used as an admixture to <i>elaiogarum</i>? <cite ref=\"Tosefta Beitsah 2:16\">Tosef. Bets. II, 16</cite> <he>א׳ ואכסיגרון ועליהן וכ׳</he> (<cite ref=\"Jerusalem Talmud Beitzah 2:8:6\">Y. Bets. II, end, 61ᵈ</cite> <he>אינגורין ובתוכן וכ׳</he>, corr. acc.; cmp. Rashi to Shebu. l. c.). ",
+				"<cite ref=\"Tosefta Terumot 9:10\">Tosef. Ter. IX, 10</cite>; <cite ref=\"Tosefta Terumot 9:12\">12</cite>; <cite ref=\"Mishnah Sheviit 6:3\">Shebi. VI, 3</cite>. ",
+				"<cite ref=\"Kohelet Rabbah 1:18\">Koh. R. to I, 18</cite> <cite ref=\"A00352\"><he>אגרטין</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

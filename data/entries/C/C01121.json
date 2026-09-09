@@ -1,0 +1,44 @@
+{
+	"id": "C01121",
+	"slug": "גנז-2",
+	"headword": {
+		"text": "גְּנַז"
+	},
+	"page": {
+		"number": 258,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01120\">same</cite>, <i>to save</i>.—",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 20:17\">Targ. II Kings XX, 17</cite>.—Part. pass. <cite ref=\"C01139\"><he>גְּנִיז</he></cite>, f. <cite ref=\"C01139\"><he>גְנִיזָא</he></cite> "
+			]
+		},
+		{
+			"gloss": "<i>hidden, stored up, reserved</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 34:15\">Targ. II Chr. XXXIV, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 25:29\">Targ. I Sam. XXV, 29</cite>.—Pl. <cite ref=\"C01147\"><he>גְּנִיזִין</he></cite>, <cite ref=\"C01139\"><he>גְּנִיזָן</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 32:34\">Targ. O. Deut. XXXII, 34</cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 13:12\">Targ. Hos. XIII, 12</cite>.—",
+				"<cite ref=\"Aramaic Targum to Proverbs 30:18\">Targ. Prov. XXX, 18</cite>."
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְגְּנִיז"],
+			"senses": [
+				{
+					"gloss": "<i>to disappear</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 20:2\">Targ. Y. Num. XX, 2</cite>; <cite ref=\"Targum Jonathan on Numbers 20:13\">13</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

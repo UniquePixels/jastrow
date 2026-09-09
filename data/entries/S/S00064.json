@@ -1,0 +1,58 @@
+{
+	"id": "S00064",
+	"slug": "קבל-8",
+	"headword": {
+		"text": "קְבל",
+		"homograph": 4
+	},
+	"altHeadwords": [
+		{
+			"text": "קְבֵיל"
+		},
+		{
+			"text": "קַבְלָא"
+		},
+		{
+			"text": "קְבָלָא"
+		},
+		{
+			"text": "קִבְ׳"
+		},
+		{
+			"text": "קִיבְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1309,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00063\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>darkness, fog</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 15:12\">Targ. O. Gen. XV, 12</cite>. ",
+				"<cite ref=\"Onkelos Genesis 15:17\">Ib. 17</cite> (ed. Amst. <cite ref=\"S00069\"><he>קַבְלָה</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 10:21\">Targ. O. Ex. X, 21</cite> <he>קֵבַל ליליא</he> ed. Berl. (oth. ed. <cite ref=\"S00051\"><he>קְבֵיל</he></cite>, <cite ref=\"S00058\"><he>קְבַל</he></cite>). Ib. 22 <he>חשוך ק׳</he>; Y. <he>חשוך דקביל</he>. ",
+				"<cite ref=\"Onkelos Deuteronomy 28:29\">Targ. O. Deut. XXVIII, 29</cite> <cite ref=\"S00064\"><he>קַבְ׳</he></cite> (ed. Amst. <he>קַבְּ׳</he>); Y. <cite ref=\"S00064\"><he>קִיבְ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 3:3\">Targ. Job III, 3</cite> (some ed. <he>קְבָ׳</he>); a. fr.—Pl. <he>קִבְלַיָּא</he>, <cite ref=\"S00089\"><he>קִי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 73:18\">Targ. Ps. LXXIII, 18</cite> (h. text <he>חלקות</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>vapor, vanity</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 6:26\">Targ. Job VI, 26</cite> <he>ולקִבְ׳</he> (ed. Lag. <he>ולקִיבְ׳</he>; h. text <he>ולרוח</he>).—V. <cite ref=\"S00068\"><he>קַבָּלָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

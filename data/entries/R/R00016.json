@@ -1,0 +1,24 @@
+{
+	"id": "R00016",
+	"slug": "צב-2",
+	"headword": {
+		"text": "צָב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1257,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"R00015\">preced.</cite>) <i>bolstered litter</i>; <he>עגלות צב</he> <i>upholstered wagons</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 12:17\">Num. R. s. 12</cite>; Sifré ib. 45, v. <cite ref=\"I00695\"><he>טָקַס</he></cite> a. <cite ref=\"A02544\"><he>אִסְקְפַסְטִי</he></cite>; a. e.—Pl. <he>צבִּים</he>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 372\">Yalk. Is. 372</cite>."
+			]
+		}
+	]
+}

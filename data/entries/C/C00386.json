@@ -1,0 +1,25 @@
+{
+	"id": "C00386",
+	"slug": "גולה-2",
+	"headword": {
+		"text": "גּוֹלָה"
+	},
+	"page": {
+		"number": 221,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"C00926\"><he>גלי</he></cite>)<i>exile</i>, esp. (with or without <cite ref=\"B00942\"><he>בני</he></cite>) <i>the diaspora, Jews living abroad</i>, esp. <i>Babylonians</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 30b:3\">Ab. Zar. 30ᵇ</cite>. ",
+				"<cite ref=\"Rosh Hashanah 18b:7\">R. Hash. 18ᵇ</cite> <he>באת שמועה לַגּ׳</he> the report came to the captivity (in Babylonia); a. fr.—<he>ראש ג׳</he> (ch. <he>ריש גלותא</he>) chief of the Babylonian Jews, <i>Resh G’lutha</i>. ",
+				"<cite ref=\"Sanhedrin 38a:2\">Snh. 38ᵃ</cite>; <cite ref=\"Chullin 92a:4\">Ḥull. 92ᵃ</cite> <he>ר׳ ג׳ שבבבל</he>; a. e.—<he>עולי ג׳</he> those returning from Babylonian captivity. ",
+				"<cite ref=\"Bava Batra 15a:17\">B. Bath. 15ᵃ</cite> bot.—V. <cite ref=\"C00919\"><he>גָּלוּת</he></cite>."
+			]
+		}
+	]
+}

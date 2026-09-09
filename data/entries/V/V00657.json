@@ -1,0 +1,32 @@
+{
+	"id": "V00657",
+	"slug": "תמווין",
+	"headword": {
+		"text": "תַּמְוִוין"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּמְוָון"
+		},
+		{
+			"text": "תַּמְוָן"
+		}
+	],
+	"page": {
+		"number": 1675,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"V00652\"><he>תְּמַהּ</he></cite>) <i>dwellers in desolation, desert beasts</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 13:22\">Targ. Is. XIII, 22</cite> (h. text <he>איים</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 34:14\">Ib. XXXIV, 14</cite> (h. text <cite ref=\"R00196\"><he>ציים</he></cite>); <cite ref=\"Targum Jonathan on Jeremiah 50:39\">Targ. Jer. L, 39</cite>. [Kimḥi to <cite ref=\"Ezekiel 8:14\">Ez. VIII, 14</cite> quotes fr. Targ. Is. l. c.: <he>תמוזין</he>, adding that the majority of versions have <cite ref=\"V00657\"><he>תמווין</he></cite>.]"
+			]
+		}
+	]
+}

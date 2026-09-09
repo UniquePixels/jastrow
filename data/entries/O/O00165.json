@@ -1,0 +1,60 @@
+{
+	"id": "O00165",
+	"slug": "סגר-1",
+	"headword": {
+		"text": "סָגַר"
+	},
+	"page": {
+		"number": 956,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to bar, bolt; to lock up, close</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 38a:5\">Snh. 38ᵃ</cite> (ref. to <cite ref=\"M01848\"><he>מסגר</he></cite>, <cite ref=\"II Kings 24:16\">II Kings XXIV, 16</cite>) <he>כיון שסוֹגְרִין הלכה וכ׳</he> after they had closed the discussion about a law (declared it obscure), there was none to open again; <cite ref=\"Gittin 88a\">Gitt. 88ᵃ</cite>; <cite ref=\"Sifrei Devarim 321:16\">Sifré Deut. 321</cite> <he>אהר שפותח אין סוֹגֵר</he> after he has opened (explained), none can close (raise objection). Tanḥ. Sh’mini 9 <he>עבר על כל בתי … וס׳ אותם</he> he passed over all synagogues and schools and closed them. Mekh. B’shall., s. 3 <he>הים סוגר ושונא רודף וכ׳</he> the sea forming a bar, and the enemy pursuing &c.; <cite ref=\"Shemot Rabbah 21:5\">Ex. R. s. 21</cite> (not <he>סגר</he>). Mekh. Yithro, Amal., s. 1 <he>מתחלה … שהיתה סוֹגֶרֶת ומְסוּגֶּרֶת וכ׳</he> formerly no slave could flee from Egypt, for it was shut up and barred (<cite ref=\"Joshua 6:1\">Josh. VI, 1</cite>); a. fr.—",
+				"<cite ref=\"Shir HaShirim Rabbah 3:10:3\">Cant. R. to III, 10</cite> (expl. <he>זהב סָגוּר</he>) <he>שהיה סוֹגר בעד כל וכ׳</he> it locked up the shops of all workers in gold (ruined their trade); <cite ref=\"Jerusalem Talmud Yoma 4:4:8\">Y. Yoma IV, 41ᵈ</cite> top <he>מכסיף</he> (corr. acc.); <cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> (not <he>סגור</he>); <cite ref=\"Shemot Rabbah 35\">Ex. R. s. 35</cite> <he>שהיה סגור כל וכ׳</he> (corr. acc.)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִסְגָּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be locked up</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 45a:1\">Yoma 45ᵃ</cite> <he>כל החנויות נִסְגָּרוֹת</he> all (gold) shops were closed (their business ruined, v. supra); a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִסְגִּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to lock up; to bind over, hand over, deliver</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 322:7\">Sifré Deut. 322</cite> <he>בקשו ישראל לברוח … היו מַסְגִּירִים אותם</he> when the Israelites attempted to flee northward, they blocked their way. ",
+						"<cite ref=\"Sifrei Devarim 323:3\">Ib. 323</cite> (ref. to <cite ref=\"Deuteronomy 32:30\">Deut. XXXII, 30</cite>) <he>איני מַסְגִּיר אתכם ע״י עצמי וכ׳</he> I shall not deliver you (into the hands of the enemy) directly, but through others (who will betray you). ",
+						"<cite ref=\"Deuteronomy 32:30\">Ib.</cite> <he>מוכרני מיד ומַסְגִּירַנִי מיד</he> I sell and immediately deliver you. Tanḥ. Sh’mini l. c. (ref. to <he>המסגר</he>, v. supra) <he>שכל או״ה … שהן מַסְגִּירִין לכל האומות</he> all nations go before them into enclosures and flee, for they cause all nations to lock themselves up; a. fr.—Esp. <i>to lock up the leper</i> pending the priest’s observation (<cite ref=\"Leviticus 13:4\">Lev. XIII, 4</cite>, a. e.). ",
+						"<cite ref=\"Mishnah Negaim 5:1\">Neg. V, 1</cite>; a. fr.—Part. pass. <he>מוּסְגָּר</he> a leper under trial, opp. <he>מוחלט</he> (v. <cite ref=\"H01020\"><he>חָלַט</he> I</cite>). ",
+						"<cite ref=\"Mishnah Megillah 1:7\">Meg. I, 7</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["סוּגָּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be closed, locked</i>. Part. <he>מְסוּגָּר</he>, f. <he>מְסוּגֶּרֶת</he>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pu."
+		}
+	]
+}

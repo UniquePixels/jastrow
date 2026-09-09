@@ -1,0 +1,21 @@
+{
+	"id": "Q00250",
+	"slug": "פומבייני",
+	"headword": {
+		"text": "פּוּמְבְּיָינֵי"
+	},
+	"page": {
+		"number": 1142,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (comp. of <cite ref=\"Q00246\"><he>פּוּם</he></cite> a. <he>ביין</he>; cmp. <cite ref=\"B00638\"><he>בֵּין</he></cite> a. <cite ref=\"B00648\"><he>בֵּינַיִּין</he></cite>) <i>the seam between a garment and its border</i>. ",
+			"units": ["<cite ref=\"Kiddushin 32a\">Kidd. 32ᵃ</cite>"]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "T01111",
+	"slug": "רשש",
+	"headword": {
+		"text": "רָשַׁשׁ"
+	},
+	"page": {
+		"number": 1502,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.), <i>Pol.</i> <he>רוֹשֵׁשׁ</he> <i>to stamp, crush</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְרוֹשֵׁשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be stamped upon, be crushed</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Mishlei 22:6\">Midr. Prov. ch. XXII</cite> <he>רש שהוא מִתְרוֹשֵׁשׁ</he> the poor man is called <i>râsh</i>, because he is crushed (cmp. <cite ref=\"D00760\"><he>דִּכְדֵּךְ</he></cite>)."
+					]
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

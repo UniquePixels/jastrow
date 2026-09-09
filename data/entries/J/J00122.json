@@ -1,0 +1,23 @@
+{
+	"id": "J00122",
+	"slug": "יהודאיקי",
+	"headword": {
+		"text": "יְהוּדָאִיקִי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 566,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (Ἰουδαική, sub. συναγωγή or ἀγωρά) <i>Jewish court-house</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 1:1:4\">Y. Gitt. I, 43ᵇ</cite> top <he>במקום י׳</he> in the Jewish meeting place (where Jews have their own jurisdiction); <he>אם אין שם י׳ וכ׳</he> if there is no Jewish courthouse there, it must be done in the synagogue."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "A03192",
+	"slug": "ארנא",
+	"headword": {
+		"text": "אַרְנָא"
+	},
+	"page": {
+		"number": 123,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (= h. <cite ref=\"A03034\"><he>אָרוֹן</he></cite>) <i>chest</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 32a:8\">Sabb. 32ᵃ</cite> <he>שקורין לא״הק א׳</he> who call the holy ark, ‘the chest’."
+			]
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "N01398",
+	"slug": "נתש-1",
+	"headword": {
+		"text": "נָתַשׁ"
+	},
+	"page": {
+		"number": 946,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"N01386\"><he>נתץ</he></cite>)<i>to break loose, tear off</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיתַּשׁ", "נִיתּוֹשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be torn loose, be released</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 29:10\">Lev. R. s. 29</cite>; <cite ref=\"Bereishit Rabbah 56\">Gen. R. s. 56</cite>, v. <cite ref=\"N00589\"><he>נָטַשׁ</he></cite> II a. <cite ref=\"N01392\"><he>נָתַר</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתִּישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to uproot</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 23\">Gen. R. s. 23</cite>, beg. (play on <he>מתושאל</he>, <cite ref=\"Genesis 4:18\">Gen. IV, 18</cite>) <he>מַתִּישָׁן אני וכ׳</he> I shall tear them out of this world.—[<cite ref=\"V01110\"><he>הֵתֵישׁ</he></cite> or <cite ref=\"N01398\"><he>הִתִּישׁ</he></cite> <i>to weaken</i>, v. <cite ref=\"V01110\"><he>תָּשַׁשׁ</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A01615",
+	"slug": "איש",
+	"headword": {
+		"text": "אִישׁ"
+	},
+	"page": {
+		"number": 60,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"A00914\"><he>אוש</he></cite>, cmp. <cite ref=\"J00674\"><he>יֵשׁ</he></cite> , v. <cite ref=\"A01394\"><he>אֱינָשׁ</he></cite>) <i>being, man; husband; lord</i>.—<he>א׳ ירושלים</he> a native or citizen of Jerusalem <cite ref=\"Pirkei Avot 1:4\">Aboth I, 4</cite>; a. fr.—",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 1:7\">Yoma I, 7</cite> <he>אִישִׁי כה״ג</he> my lord the High-priest. ",
+				"<cite ref=\"Sotah 17a:3\">Sot. 17ᵃ</cite> <he>א׳ ואשה</he> husband and wife; a. fr.—Pl. <cite ref=\"A02305\"><he>אֲנָשִׁים</he></cite>, v. <cite ref=\"A02149\"><he>אֱנוֹשׁ</he></cite>."
+			]
+		}
+	]
+}

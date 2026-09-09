@@ -1,0 +1,25 @@
+{
+	"id": "Q00864",
+	"slug": "פירמא",
+	"headword": {
+		"text": "פִּירְמָא"
+	},
+	"page": {
+		"number": 1172,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01869\"><he>פְּרַם</he></cite>) <i>piece, slice; hash, mush</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 120a:14\">Ḥull. 120ᵃ</cite> (expl. <he>קיפה</he>, Mish. ",
+				"<cite ref=\"Mishnah Chullin 9:1\">ib. IX, 1</cite>) <he>פ׳</he> the particles of boiled meat which form a mush. ",
+				"<cite ref=\"Gittin 69a:10\">Gitt. 69ᵃ</cite> <he>פ׳ דסילקא</he> hashed beets.—Pl. <cite ref=\"Q00874\"><he>פִּירְמֵי</he></cite>. ",
+				"<cite ref=\"Berakhot 39a\">Ber. 39ᵃ</cite> <he>פ׳ רברבי</he> Ar. (ed. <he>פְּרִימָא רבא</he>; Ms. M. <he>פְּרִימֵי רברבי</he>), v. <cite ref=\"Q01869\"><he>פְּרַם</he></cite>."
+			]
+		}
+	]
+}

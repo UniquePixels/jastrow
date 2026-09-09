@@ -1,0 +1,28 @@
+{
+	"id": "A02323",
+	"slug": "אסא-5",
+	"headword": {
+		"text": "אָסָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אָשָׁא"
+		}
+	],
+	"page": {
+		"number": 88,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <he>אסי</he>, cmp. <cite ref=\"J00693\"><he>יָשִׁישׁ</he></cite>, <cite ref=\"J00699\"><he>יָשָׁן</he></cite>, <he>אשונא</he> &c.) <i>old</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69a:2\">Gitt. 69ᵃ</cite> <he>א׳ כלבא</he> (Ar. <he>אשא</he>) old dog (in a charm formula); v. <cite ref=\"A01718\"><he>אכסא</he></cite>. Cmp. Assyr. āsi Kalbi, V, R. 8, 12."
+			]
+		}
+	]
+}

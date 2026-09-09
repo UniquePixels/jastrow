@@ -1,0 +1,66 @@
+{
+	"id": "C01120",
+	"slug": "גנז-1",
+	"headword": {
+		"text": "גָּנַז"
+	},
+	"page": {
+		"number": 258,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to cut off, set aside</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to save, hoard up, reserve</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 11a:3\">B. Bath. 11ᵃ</cite>; <cite ref=\"Tosefta Peah 4:18\">Tosef. Peah IV, 18</cite> <he>אבותיך גָּנְזוּ וכ׳</he> thy ancestors saved (treasures) and increased the savings of their fathers. ",
+				"<cite ref=\"Chagigah 12a:10\">Ḥag. 12ᵃ</cite> <he>למי גְּנָזוֹ</he> for whom has He reserved it?; a. fr.—<i>Part. pass.</i> <he>גָּנוּז</he>, f. <he>גְּנוּזָה</he> <i>reserved</i>. ",
+				"<cite ref=\"Pesachim 119a:12\">Pes. 119ᵃ</cite>; <cite ref=\"Sanhedrin 110a:11\">Snh. 110ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to remove from sight, hide</i> (in order to prevent desecration). ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 13:5\">Tosef. Sabb. XIII</cite> (<cite ref=\"Tosefta Shabbat 14:5\">XIV</cite>), 5; <cite ref=\"Shabbat 116a\">Sabb. 116ᵃ</cite>. ",
+				"<cite ref=\"Megillah 26b\">Meg. 26ᵇ</cite> a book of the Law in a state of decay <he>גּוֹנְזִין אותו וכ׳</he> is buried by the side of a scholar; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to declare a book apocryhal, to suppress, prohibit the reading of</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 56a:2\">Pes. 56ᵃ</cite> <he>ג׳ ספר רפואות</he> suppressed the Book of Remedies. ",
+				"<cite ref=\"Shabbat 115a:7\">Sabb. 115ᵃ</cite> <he>אף הוא צוה עליו וגְנָזוֹ</he> he (R. Gamliel junior), too, gave orders about it and suppressed it; <cite ref=\"Tosefta Shabbat 13:3\">Tosef. ib. XIII</cite> (<cite ref=\"Tosefta Shabbat 14:3\">XIV</cite>), 3; a. fr.—",
+				"<cite ref=\"Shabbat 30b:3\">Sabb. 30ᵇ</cite> <he>בקשו חכמים לִגְנוֹז וכ׳</he> the scholars wanted to suppress (declare uncanonical) the Book of Koheleth; a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִגְנַז"],
+			"senses": [
+				{
+					"gloss": "<i>to disappear, be hidden</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 52b:11\">Yoma 52ᵇ</cite> <he>משנ׳ הארון נִגְנְזָה וכ׳</he> when the Holy Ark was removed, there disappeared with it &c.; <cite ref=\"Tosefta Yoma 3:7\">Tosef. ib. III</cite> (<cite ref=\"Tosefta Yoma 2:7\">II</cite>), 7. ",
+						"<cite ref=\"Tosefta Sotah 2:2\">Tosef. Sot. II, 2</cite> <he>מגילתה נִגְנֶזֶת וכ׳</he> the scroll used for the suspected wife (<cite ref=\"O00286\"><he>סוטה</he></cite>) was hidden away under the door pivot of the Temple; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (of books) <i>to be prohibited, suppressed</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 13b:8\">Sabb. 13ᵇ</cite> <he>אלמלא הוא נ׳ וכ׳</he> but for him, the Book of Ezekiel would have been suppressed; <cite ref=\"Chagigah 13a\">Ḥag. 13ᵃ</cite>; <cite ref=\"Menachot 45a\">Men. 45ᵃ</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

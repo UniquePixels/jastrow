@@ -1,0 +1,31 @@
+{
+	"id": "H00164",
+	"slug": "חגרא-3",
+	"headword": {
+		"text": "חִגְּרָא"
+	},
+	"page": {
+		"number": 425,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"H00160\"><he>חִגֵּר</he></cite><i>lame</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 29:15\">Targ. Job XXIX, 15</cite> Var.—",
+				"<cite ref=\"Shabbat 32a:2\">Sabb. 32ᵃ</cite> (prov.) <he>רעיא ח׳ וכ׳</he> the shepherd lame, and the sheep running (i.e. in critical moments man’s sins come home to him)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " constr. <cite ref=\"H00157\"><he>חֲגַר</he></cite> <i>hesitating in speech</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 4:10\">Targ. Y. I Ex. IV, 10</cite> (Y. II <cite ref=\"H00142\"><he>חַגּוּר</he></cite>). Ib. VI, 12; 30 Ar. (ed. <cite ref=\"S02235\"><he>קשי</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

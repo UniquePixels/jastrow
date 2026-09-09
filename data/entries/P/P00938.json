@@ -1,0 +1,33 @@
+{
+	"id": "P00938",
+	"slug": "ען",
+	"headword": {
+		"text": "עָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָנָא"
+		}
+	],
+	"page": {
+		"number": 1091,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"P00004\"><he>עָאן</he></cite>) <i>small cattle, sheep</i>; (mostly collect.) <i>flock, fold</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 30:31\">Targ. Gen. XXX, 31</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 17:28\">Targ. I Sam. XVII, 28</cite>; a. fr.—",
+				"<cite ref=\"Eichah Rabbah 1:36\">Lam. R. to I, 9</cite>, v. <cite ref=\"B01145\"><he>בַּקְרוּתָא</he> I</cite>.—Pl. <he>עָנִין</he>, <cite ref=\"P00977\"><he>עָנַיָּא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:14\">Targ. Y. I Deut. XXXII, 14</cite> (ed. Vien. <he>ענון</he>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Genesis 31:43\">Targ. Y. Gen. XXXI, 43</cite>; a. e.—",
+				"<cite ref=\"Shir HaShirim Rabbah 3:6:3\">Cant. R. to III, 6</cite> [read:] <he>והוה אבונן יעקב מעבר ע׳ דמלאכא מעבר וחוזר וכ׳</he> and our father Jacob transferred the angel’s sheep, again and again, and always found one more to take across (v. ",
+				"<cite ref=\"Bereishit Rabbah 77\">Gen. R. s. 77</cite>)."
+			]
+		}
+	]
+}

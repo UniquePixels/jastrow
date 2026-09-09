@@ -1,0 +1,33 @@
+{
+	"id": "G00087",
+	"slug": "זהוהא",
+	"headword": {
+		"text": "זָהוֹהָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זָחוֹחָא"
+		}
+	],
+	"page": {
+		"number": 381,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"G00086\">same</cite>.—Pl. <he>זְהוֹהִין</he>, constr. <he>זְהוֹהֵי</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 36:13\">Targ. Job XXXVI, 13</cite>, a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>wantonness, pride</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 3:33\">Targ. Lam. III, 33</cite> ed. Lag. (oth. ed. <he>זְחוּחָה</he>).—Pl. as above. ",
+				"<cite ref=\"Aramaic Targum to Psalms 62:9\">Targ. Ps. LXII, 9</cite> (ed. Lag. <he>דחוחי</he>).—[<cite ref=\"Aramaic Targum to Psalms 44:19\">Ib. XLIV, 19</cite>, v. <cite ref=\"G00083\"><he>זְהַהּ</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

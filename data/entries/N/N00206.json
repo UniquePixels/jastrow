@@ -1,0 +1,22 @@
+{
+	"id": "N00206",
+	"slug": "נדבותא",
+	"headword": {
+		"text": "נִדְבוּתָא"
+	},
+	"page": {
+		"number": 877,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00202\"><he>נְדַב</he></cite>) <i>willingness, devotion</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 51:14\">Targ. Ps. LI, 14</cite> Regia (ed. <cite ref=\"N00045\"><he>נבואה</he></cite>; h. text <he>נדיבה</he>)."
+			]
+		}
+	]
+}

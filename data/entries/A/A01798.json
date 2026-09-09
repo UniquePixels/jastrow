@@ -1,0 +1,37 @@
+{
+	"id": "A01798",
+	"slug": "אלוה-2",
+	"headword": {
+		"text": "אֱלוֹהַּ"
+	},
+	"page": {
+		"number": 67,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"A01768\"><he>אֵל</he></cite>) <i>God</i>. <i>Pl. majest</i>. <cite ref=\"A01789\"><he>אֱלֹהִים</he></cite>, cmp. <cite ref=\"A01768\"><he>אֵל</he></cite>.—<he>האלהים</he> by God! <cite ref=\"Shabbat 145a\">Sabb. 145ᵃ</cite>; a. fr. [<cite ref=\"D00000\"><he>ד</he></cite> is freq. substituted for <cite ref=\"E00000\"><he>ה</he></cite> as <cite ref=\"A01779\"><he>אלדים</he></cite>, <cite ref=\"A01779\"><he>אלדי</he></cite>, <he>ידוד</he> esp. in Targ. Y. ed. Sab.] <cite ref=\"A01950\"><he>אלקים</he></cite>, ch. <cite ref=\"A01949\"><he>אלקא</he></cite>, adopted in order to avoid uttering the divine name. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 106a\">B. Kam. 106ᵃ</cite>; cmp. <he>אלעיקי</he>, <cite ref=\"A01544\"><he>איפופי</he></cite> &c.—Pl. <cite ref=\"A01800\"><he>אֱלוֹהוֹת</he></cite>"
+			]
+		},
+		{
+			"gloss": "<i>deities, powers</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:5\">Y. Ber. IX, beg. 12ᵈ</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 4\">Lev. R. s. 4</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>biblical verses containing the word El, Elohim</i> &c. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 4:6:5\">Y. R. Hash. IV, 59ᶜ</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

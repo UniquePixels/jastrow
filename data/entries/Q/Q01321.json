@@ -1,0 +1,32 @@
+{
+	"id": "Q01321",
+	"slug": "פסך",
+	"headword": {
+		"text": "פְּסַךְ",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1197,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>פַּסֵּךְ</he> <i>to cut, clear</i> (of thorns).—Part. pass. <he>מְפַסַּךְ</he>; pl. <he>מְפַסְּ֫כִּין</he>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 33:12\">Targ. Is. XXXIII, 12</cite> (ed. Wil. <he>מפסחין</he>, corr. acc.). [Prob. to be read: <he>מְכַסְּחִין</he>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

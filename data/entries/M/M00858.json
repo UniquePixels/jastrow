@@ -1,0 +1,105 @@
+{
+	"id": "M00858",
+	"slug": "מחי-2",
+	"headword": {
+		"text": "מְחִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְחָא",
+			"homograph": 1
+		},
+		{
+			"text": "מְחַח"
+		}
+	],
+	"page": {
+		"number": 759,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M00857\">same</cite><i>to dissolve, mash</i> (by stirring &c.). ",
+			"units": [
+				"<cite ref=\"Pesachim 40b:12\">Pes. 40ᵇ</cite> <he>רבא גופא מָחוּ ליה בחסיסי</he> Ms. M. (insert <cite ref=\"S00875\"><he>קידרא</he></cite>) for R. himself they made a mush with flour of parched grains (v. <cite ref=\"H01385\"><he>חֲסִיסָא</he></cite>); ed. <he>רבא … מחי לה וכ׳</he> (read <he>ליה</he>) R. himself had a mush made for himself &c. ",
+				"<cite ref=\"Pesachim 40b:12\">Ib.</cite> <he>למֵימַח קדירא וכ׳</he> Ms. M. (ed. <he>למִמְחָה</he>) to make a mush &c. (corresp. to h. <he>מלל</he>).—V. <cite ref=\"M01112\"><he>מֵיחָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to wipe off, blot out</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 25:8\">Targ. Is. XXV, 8</cite>. ",
+				"<cite ref=\"Onkelos Exodus 32:32\">Targ. Ex. XXXII, 32</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to protest</i>, v. infra.",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מָחֵי"],
+			"senses": [
+				{
+					"gloss": ", <i>Af.</i> <he>אַמְחֵי</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to protest, forewarn, interfere</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 8:4\">Targ. Koh. VIII, 4</cite>.—",
+						"<cite ref=\"Bava Batra 38a:3\">B. Bath. 38ᵃ</cite> <he>איבעי ליה למָחוּיֵי</he> he ought to have entered a protest. ",
+						"<cite ref=\"Bava Batra 39b\">Ib. 39ᵇ</cite> (<he>למָחוּיֵ</he>) <he>למָחוּיֵי</he>, v. <cite ref=\"M00825\"><he>מְחוּיָאתָא</he></cite>. ",
+						"<cite ref=\"Ketubot 11a:10\">Keth. 11ᵃ</cite> <he>מְמָחְיָיא</he> she may protest (against her conversion in childhood). Y. B. Bath. II, 13ᵇ bot. <he>מַמְחִין וכ׳</he>, v. <cite ref=\"M01970\"><he>מַסְמְרָא</he></cite>; a. e.—",
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>יכלין … למִימְחֵי בידהון</he> their neighbors may inhibit them."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"M00520\"><he>מוּמְחֶה</he></cite>) <i>to declare approved, to recognize as efficient</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 61b:3\">Sabb. 61ᵇ</cite> <he>למחויי גברא</he> (Ms. O. a. Rashi <he>לאַמְחוּיֵי</he>) so as to make the man an approved physician; <he>למ׳ קמיע</he> to consider the amulet as approved."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְמְחֵי", "אִיתְמַח"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"D00407\"><he>אִימְּחֵי</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be wiped off;to be blotted out</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Kings 21:13\">Targ. II Kings XXI, 13</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 109:13\">Targ. Ps. CIX, 13</cite> <he>יִתְמַח</he> ed. Lag. (ed. Wil. <he>יתמחי</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 109:14\">Ib. 14</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be diluted, dissolved</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 74b\">Pes. 74ᵇ</cite> bot. <he>חלא מִתְמְחָא</he> Ms. M. 2 a. early eds. (v. Rabb. D. S. a. l. note; ed. <cite ref=\"M03078\"><he>מִתְמְהָא</he></cite>; Ms. M. 1 <cite ref=\"A03423\"><he>אתמהא</he></cite>, corr. acc.) weak vinegar. ",
+						"<cite ref=\"Gittin 69a:9\">Gitt. 69ᵃ</cite> <he>אִיתְמוּחֵי אִיתְמַח</he> (some ed. <cite ref=\"E00000\"><he>ה</he></cite> for <cite ref=\"H00000\"><he>ח</he></cite>) it (the liver) is dissolved."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be declared approved</i> (<cite ref=\"M00520\"><he>מוּמְחֶה</he></cite>). Sabb. l. c. <he>א׳ גברא</he> the person has become an approved physician; <he>א׳ קמיע</he> the amulet is considered approved. Ib. 61ᵃ <he>עד דמִמְּחָא גברא ומִמְּחָא קמיע</he> early ed. (later ed. <he>דמומחה … ומומחה</he>, read <he>מי׳</he>; Ms. O. <cite ref=\"M00858\"><he>איתמחי</he></cite>, v. Rabb. D. S. a. l. note 1) until both, the person and the amulet, have been approved; a. e.",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

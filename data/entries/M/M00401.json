@@ -1,0 +1,29 @@
+{
+	"id": "M00401",
+	"slug": "מוגמר",
+	"headword": {
+		"text": "מוּגְמָר"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָגְמָר"
+		}
+	],
+	"page": {
+		"number": 738,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C00423\"><he>גּוּמְרָא</he></cite>, a. <cite ref=\"C01061\"><he>גָּמַר</he> I</cite>) <i>spices put on coals</i>, offered after dinner, <i>perfume</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 6:6\">Ber. VI, 6</cite>. Y. ib. 10ᵈ <he>מ׳ כיון שהעלה עשן וכ׳</he> as soon as the smoke rises from the burning spices &c.; a. fr.—",
+				"<cite ref=\"Shabbat 18a:5\">Sabb. 18ᵃ</cite> <he>מניחין מו׳</he>; Y. ib. I, 4ᵃ top <he>נותנין מג׳</he>, v. <cite ref=\"C01061\"><he>גָּמַר</he> I</cite>.—Pl. <he>מוּגְמָרוֹת</he>. ",
+				"<cite ref=\"Berakhot 43a:14\">Ber. 43ᵃ</cite>"
+			]
+		}
+	]
+}

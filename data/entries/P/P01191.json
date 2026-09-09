@@ -1,0 +1,29 @@
+{
+	"id": "P01191",
+	"slug": "עקל-2",
+	"headword": {
+		"text": "עֲקַל"
+	},
+	"page": {
+		"number": 1106,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>עַקֵּל</he> <cite ref=\"P01190\">same</cite>, <i>to curve</i>, v. <cite ref=\"P01198\"><he>עֲקַם</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

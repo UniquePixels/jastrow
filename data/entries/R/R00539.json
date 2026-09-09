@@ -1,0 +1,32 @@
+{
+	"id": "R00539",
+	"slug": "צלף-2",
+	"headword": {
+		"text": "צְלַף"
+	},
+	"page": {
+		"number": 1285,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַצְלֵיף</he> <cite ref=\"R00538\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 74:5\">Targ. Ps. LXXIV, 5</cite>. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 25:3\">Targ. Y. Deut. XXV, 3</cite> <he>ארבעין יַצְלִיף וכ׳</he> forty times he shall swing the whip, but strike one less."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

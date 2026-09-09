@@ -1,0 +1,25 @@
+{
+	"id": "A00689",
+	"slug": "אומד",
+	"headword": {
+		"text": "אוּמָד"
+	},
+	"page": {
+		"number": 26,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A01984\"><he>אָמַד</he></cite>) <i>estimate, guess, measuring by mere sight, approximate assessment; medical opinion</i> as to the nature of injuries. ",
+			"units": [
+				"<cite ref=\"Menachot 54b:12\">Men. 54ᵇ</cite> <he>ניטלת בא׳</he> may be set apart (for the priest) by estimating (without measuring) the quantity. ",
+				"<cite ref=\"Mishnah Sanhedrin 4:5\">Snh. IV, 5</cite> <he>מא׳ ומשמועה</he> from mere supposition or hear-say. ",
+				"<cite ref=\"Sanhedrin 78b:12\">Ib. 78ᵇ</cite> <he>אין א׳ אחר א׳</he> the first estimate (medical opinion declaring an inflicted injury fatal) cannot be upset by a second more favorable opinion (if erroneously formed under the resemblance of recovery); v. <cite ref=\"A01984\"><he>אָמַד</he></cite>.—",
+				"<cite ref=\"Sanhedrin 78b:11\">Ib.</cite> <he>א׳ האמצעי</he> the (second) opinion intermediate between the first opinion and the actual fatal result."
+			]
+		}
+	]
+}

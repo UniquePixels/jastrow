@@ -1,0 +1,28 @@
+{
+	"id": "B01340",
+	"slug": "ברת-2",
+	"headword": {
+		"text": "בְּרַת",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּרַת חווּרן"
+		}
+	],
+	"page": {
+		"number": 198,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>B’rath Ḥavran</i> (or <i>Horan</i>) prob. ident. with Beth-Horon, v. <cite ref=\"H00464\"><he>חוֹרוֹן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:1:4\">Y. M. Kat. I, 80ᵇ</cite> bot.; <cite ref=\"Jerusalem Talmud Shekalim 1:1:12\">Y. Shek. I, 46ᵃ</cite>; <cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:12\">Y. Ab. Zar. III, 42ᶜ</cite> top; <cite ref=\"Jerusalem Talmud Sotah 9:1:5\">Y. Sot. IX, 23ᶜ</cite> top."
+			]
+		}
+	]
+}

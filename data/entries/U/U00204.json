@@ -1,0 +1,43 @@
+{
+	"id": "U00204",
+	"slug": "שבתאי",
+	"headword": {
+		"text": "שַׁבְּתַאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁבְּתַי"
+		},
+		{
+			"text": "שַׁבְּתַיי"
+		}
+	],
+	"page": {
+		"number": 1520,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Sabbethai</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 83a:1\">Yoma 83ᵃ</cite>; <cite ref=\"Bava Batra 90b:5\">B. Bath. 90ᵇ</cite> <he>ש׳ אצר פירי</he>, v. <cite ref=\"A02890\"><he>אַצָּר</he></cite>. ",
+				"<cite ref=\"Beitzah 32b:3\">Bets. 32ᵇ</cite> <he>ש׳ בר מרינוס</he>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 2:5:6\">Y. Shebi. II, 34ᵃ</cite> <he>ר׳ ש׳ דצדוקי</he> (ed. Krot. <cite ref=\"U00069\"><he>שִׁי׳</he></cite>). Y. Succ. IV, end, 54ᵈ <he>ר׳ שׁוּ׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Challah 2:1:13\">Y. Ḥall. II, 58ᶜ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 8:1:2\">Y. Snh. VIII, beg. 26ᵃ</cite>; Bab. ",
+				"<cite ref=\"Sanhedrin 69a:9\">Snh. 69ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the planet Saturn</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 156a:11\">Sabb. 156ᵃ</cite> <he>האי מאן דבש׳ יהי גבר דמחשבוהי בטלין</he> Ms. O. (ed. <he>מחשבתיה</he>) he who was born under Saturn shall be a man whose plans will be frustrated (<cite ref=\"B00515\"><he>בטל</he></cite> being the Chald. equivalent of <cite ref=\"U00198\"><he>שָׁבַת</he></cite>). ",
+				"<cite ref=\"Bereishit Rabbah 10:4\">Gen. R. s. 10</cite> <he>יש מזל … והוא ש׳</he> there is a planet which completes its circuit in thirty years; it is Saturn. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 6:3\">Pirké d’R. El. ch. VI</cite> <he>יום רביעי ש׳</he> Saturn rules on the fourth day of the week. ",
+				"<cite ref=\"Pesikta Rabbati 20:1\">Pesik. R. s. 20</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

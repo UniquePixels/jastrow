@@ -1,0 +1,27 @@
+{
+	"id": "P00258",
+	"slug": "עולימיא",
+	"headword": {
+		"text": "עוּלֵימַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּלֵימִין"
+		}
+	],
+	"page": {
+		"number": 1051,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " m. pl. <cite ref=\"P00257\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 54:6\">Targ. Is. LIV, 6</cite> (ed. Ven. <he>עֲלוּמִין</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 127:4\">Targ. Ps. CXXVII, 4</cite> Ms. (ed. <he>עולימא</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 89:46\">Ib. LXXXIX, 46</cite> <he>עוּלֵימוֹי</he> Ms. (ed. <he>עֲלִימוֹי</he>). ",
+				"<cite ref=\"Onkelos Numbers 11:28\">Targ. O. Num. XI, 28</cite>, v. <cite ref=\"P00257\">preced.</cite>; a. e."
+			]
+		}
+	]
+}

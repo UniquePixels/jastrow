@@ -1,0 +1,22 @@
+{
+	"id": "A01776",
+	"slug": "אלגביש",
+	"headword": {
+		"text": "אֶלְגָּבִישׁ"
+	},
+	"page": {
+		"number": 66,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.,cmp. <he>גביש</he> <cite ref=\"Job 28:18\">Job XXVIII, 18</cite>, a. Targ. a. l.) <i>hail, hailstone</i> (crystal). ",
+			"units": [
+				"<cite ref=\"Berakhot 54b:2\">Ber. 54ᵇ</cite> (playful etymol. <he>על גב איש</he>)."
+			]
+		}
+	]
+}

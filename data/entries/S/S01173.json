@@ -1,0 +1,23 @@
+{
+	"id": "S01173",
+	"slug": "קירותא",
+	"headword": {
+		"text": "קִירוּתָא"
+	},
+	"page": {
+		"number": 1369,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"S01152\"><he>קִירָא</he></cite>) <i>a mass of wax</i> into which a wick is stuck. ",
+			"units": [
+				"<cite ref=\"Shabbat 20b:14\">Sabb. 20ᵇ</cite> (expl. <cite ref=\"U01637\"><he>שעוה</he></cite>, Mish. ",
+				"<cite ref=\"Mishnah Shabbat 2:1\">ib. II, 1</cite>)."
+			]
+		}
+	]
+}

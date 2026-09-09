@@ -1,0 +1,40 @@
+{
+	"id": "P01184",
+	"slug": "עקיפים",
+	"headword": {
+		"text": "עֲקִיפִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲקִיפִין"
+		}
+	],
+	"page": {
+		"number": 1106,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"P01209\"><he>עָקַף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>circuit</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 26:2\">Sifré Deut. 26</cite> <he>יהיו מחזירים איתו בע׳</he> they shall lead him around in a circuit (expose him to public disgrace; <cite ref=\"Devarim Rabbah 2\">Deut. R. s. 2</cite>; <cite ref=\"Yalkut Shimoni on Torah 810:8\">Yalk. ib. 810</cite> <he>בקוּמְפּוֹן</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>circumvention, lawyer’s trick</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 113a:21\">B. Kam. 113ᵃ</cite> <he>באין עליו בע׳</he> we bewilder him by subtle arguments; <he>אין באין עליו בע׳ וכ׳</he> you must not do it, because you must sanctify the name of the Lord (by your integrity in dealing with a gentile)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "S00559",
+	"slug": "קור-3",
+	"headword": {
+		"text": "קוֹר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1340,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נָקַר</he> I; cmp. <cite ref=\"M00599\"><he>מוֹקְרָא</he> II</cite>) [<i>marrow,</i>] <i>the white heart</i> or <i>terminal bud of a palm</i> (<i>cabbage tree</i>) used as food. ",
+			"units": [
+				"<cite ref=\"Mishnah Oktzin 3:7\">Ukts. III, 7</cite> <he>הק׳ הרי הוא כעץ וכ׳</he> <i>ḳor</i> is like wood in every respect (not susceptible of levitical uncleanness), but may be bought for tithe-money (being considered as food); <cite ref=\"Tosefta Uktsin 3:10\">Tosef. ib. III, 10</cite>; <cite ref=\"Jerusalem Talmud Sheviit 4:6:7\">Y. Shebi. IV, end, 35ᶜ</cite>; <cite ref=\"Eruvin 28b:16\">Erub. 28ᵇ</cite>. ",
+				"<cite ref=\"Tosefta Shevi'it 3:21\">Tosef. Shebi. III, 21</cite>; a. e."
+			]
+		}
+	]
+}

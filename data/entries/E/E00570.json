@@ -1,0 +1,53 @@
+{
+	"id": "E00570",
+	"slug": "הלכתא",
+	"headword": {
+		"text": "הִלְכְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הִילְ׳"
+		}
+	],
+	"page": {
+		"number": 353,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. f. (v. <cite ref=\"E00566\"><he>הֲלָכָה</he></cite> a. <cite ref=\"E00553\"><he>הֲלִיכָה</he></cite>)",
+			"units": []
+		},
+		{
+			"gloss": "<i>step</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 16:9\">Targ. Prov. XVI, 9</cite>.—Pl. <he>הִלְכָאתָא</he>, <cite ref=\"E00404\"><he>הִילְכָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 26:7\">Ib. XXVI, 7</cite> (ed. Wil. <cite ref=\"E00570\"><he>הַלְכְתָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 29:5\">Ib. XXIX, 5</cite>; a. e.—",
+				"<cite ref=\"Aramaic Targum to Psalms 23:3\">Targ. Ps. XXIII, 3</cite> <he>הִלְכְוָותָא ד־</he> Ms. (ed. Lag. <he>הִילְכְוָת צ׳</he>, ed. Wil. <he>הִלְכַת</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>custom, habit</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 11:14\">Targ. II Kings XI, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 43:33\">Targ. Y. Gen. XLIII, 33</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>law, rule</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 12:6\">Targ. Y. Ex. XII, 6</cite>; a. e.—",
+				"<cite ref=\"Sanhedrin 51b:7\">Snh. 51ᵇ</cite> <he>ה׳ למשיחא</he> it is a <i>halakhah</i> for the Messianic days (without present application). ",
+				"<cite ref=\"Eruvin 65a:11\">Erub. 65ᵃ</cite> <he>הי׳ בעיא וכ׳</he>, v. <cite ref=\"A02578\"><he>אִסְתָּנָא</he></cite>; a. fr.—",
+				"<cite ref=\"Pesachim 64a:7\">Pes. 64ᵃ</cite>, a. fr. <he>למאי ה׳</he> for what practical issue &c.?—Pl. <cite ref=\"E00570\"><he>הִלְכָתָא</he></cite>. ",
+				"<cite ref=\"Berakhot 31a:27\">Ber. 31ᵃ</cite>, v. <cite ref=\"C00619\"><he>גִּיבַּר</he></cite>; a. fr.—",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 12:11\">Targ. Koh. XII, 11</cite> <he>הִילְכְתִין</he>.—",
+				"<cite ref=\"Vayikra Rabbah 3:2\">Lev. R. s. 3</cite>, beg. <he>בר הִילְכָן</he> (fr. <cite ref=\"E00402\"><he>הִילְכָא</he></cite>) a scholar."
+			],
+			"label": "3"
+		}
+	]
+}

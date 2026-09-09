@@ -1,0 +1,59 @@
+{
+	"id": "S00208",
+	"slug": "קהל-1",
+	"headword": {
+		"text": "קָהַל"
+	},
+	"page": {
+		"number": 1322,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"S00313\"><he>קוֹל</he></cite>)<i>to call</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִקְהִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to assemble</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 61b\">Ber. 61ᵇ</cite>; <cite ref=\"Avodah Zarah 18a:9\">Ab. Zar. 18ᵃ</cite> <he>מַקְהִיל קהילות ברבים</he> called public assemblies (to teach). ",
+						"<cite ref=\"Bereishit Rabbah 99:7\">Gen. R. s. 99</cite> <he>כשיַקְהִיל קרח וכ׳</he> (some ed. <he>כשיַקְהֵל</he>) when Korah will gather his followers for strife, my (Jacob’s) name shall not be joined with them. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 408:2\">Yalk. Ex. 408</cite> <he>כדי שילמדו … להַקְהִיל וכ׳</he> that coming generations may learn from thee to assemble congregations every Sabbath; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִקְהַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be assembled</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite> <he>בשעה שהן נִקְהָלִין על וכ׳</he> when they will be assembled against Moses in the party of Korah &c. ",
+						"<cite ref=\"Vayikra Rabbah 24:2\">Lev. R. s. 24</cite> <he>פרשה … בהִקָּהֵל וכ׳</he> this section (<cite ref=\"Leviticus 19\">Lev. XIX</cite>) was proclaimed in full assembly (v. ib. 2), because &c. ",
+						"<cite ref=\"Kohelet Rabbah 1:1\">Koh. R. to I, 1</cite>, v. <cite ref=\"S00212\"><he>קֹהֶלֶת</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְקָהֵל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S00207\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 99\">Gen. R. s. 99</cite> (ref. to <he>יקהת</he>, <cite ref=\"Genesis 49:10\">Gen. XLIX, 10</cite>) <he>מי … מִתְקָהֲלִין עליו</he> he around whom the nations will group themselves.—[<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> <he>מתקהלא</he>, v. <cite ref=\"S00201\"><he>קָהָה</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

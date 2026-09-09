@@ -1,0 +1,24 @@
+{
+	"id": "M01077",
+	"slug": "מיאון",
+	"headword": {
+		"text": "מִיאוּן"
+	},
+	"page": {
+		"number": 770,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00046\"><he>מָאֵן</he></cite>) <i>a woman’s protest against a marriage contracted during her minority, annulment of marriage</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yevamot 13:4\">Yeb. XIII, 4</cite> <he>גט אחר מ׳</he> a divorce issued after annulment (her husband having remarried her after annulment and then divorced her); <he>מ׳ אחר גט</he> annulment following divorce (having divorced and remarried her during minority). Ib. 108ᵃ; Tosef. ib. XIII, 1 (<cite ref=\"A01194\"><he>איזהו</he></cite>) <he>כיצד מ׳</he> in what way is <i>miun</i> performed? Ib. <he>אין לך מ׳ גדול מזה</he> there can be no surer protest than this; a. v. fr.—Pl. <he>מִיאוּנִים</he>, <he>מִיאוּנִין</he>. Ib. <he>שטרי מ׳</he> (<cite ref=\"Yevamot 107b:18\">Yeb. 107ᵇ</cite> <he>גט מיאון</he>) letters of protest. ",
+				"<cite ref=\"Yevamot 108a:5\">Yeb. 108ᵃ</cite> <he>קידושיה הן הן מִיאוּנֶיהָ</he> her betrothal (to another man) serves as a declaration of protest. ",
+				"<cite ref=\"Mishnah Sanhedrin 1:3\">Snh. I, 3</cite>; a. fr."
+			]
+		}
+	]
+}

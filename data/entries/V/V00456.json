@@ -1,0 +1,56 @@
+{
+	"id": "V00456",
+	"slug": "תימה",
+	"headword": {
+		"text": "תֵּימַהּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּימְהָא"
+		},
+		{
+			"text": "תִּמְ׳"
+		}
+	],
+	"page": {
+		"number": 1665,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00652\"><he>תְּמַהּ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>astonishment</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 5:30\">Targ. Jer. V, 30</cite> (ed. Wil. <cite ref=\"V00455\"><he>תֵּימָא</he></cite>; h. text <he>שמה</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 32:10\">Targ. Ez. XXXII, 10</cite> (ed. Wil. <cite ref=\"V00455\"><he>תֵּימָה</he></cite>); a. fr.—",
+				"<cite ref=\"Midrash Tehillim 6:1\">Midr. Till. to Ps. VI</cite>, beg. (in Hebr. dict.) <he>ת׳ היא על הקב״ה וכ׳</he> (ed. Bub. <he>תמה היא מן</he>) it is astonishing of God, that he &c.—[In Talmudic commentaries <he>ותימה</he> introduces an objection.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>wonder, miracle, sign</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 71:7\">Targ. Ps. LXXI, 7</cite> (ed. Wil. <cite ref=\"V00653\"><he>תָּמְהָא</he></cite>, h. text <cite ref=\"M00566\"><he>מופת</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 7:9\">Targ. Y. Ex. VII, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 13:2\">Targ. Y. Deut. XIII, 2</cite> sq.; a. fr.—Pl. <he>תִּימְהִין</he>, <he>תִּימְהַיָּא</he>, <cite ref=\"V00456\"><he>תִּמְ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 4:34\">Ib. IV, 34</cite> (not <cite ref=\"V00456\"><he>תִּמַ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 34:11\">Targ. Y. I ib. XXXIV, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 105:27\">Targ. Ps. CV, 27</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>desolation, poverty</i>. Targ. II Esth. X, 1 <he>תמה</he> ed. Lag. (ed. Vien. <cite ref=\"V00653\"><he>תַּמָּהָא</he></cite>, <cite ref=\"V00652\"><he>תְּמָה</he></cite>; Ar. <he>תמא</he>), v. ",
+			"units": [
+				"<cite ref=\"Megillah 11a\">Meg. 11ᵃ</cite>, quot. s. v. <cite ref=\"T01061\"><he>רָשׁ</he></cite>; [Ar., misled by the Hebrew text: <i>tribute</i>].—[Ib. IX, 24 <he>ת׳ היא עדבא</he> Ar., mistake for <cite ref=\"T00783\"><he>רמא</he></cite>, with omission of <he>מלתא</he>.]"
+			],
+			"label": "3"
+		}
+	]
+}

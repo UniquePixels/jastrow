@@ -1,0 +1,23 @@
+{
+	"id": "M00831",
+	"slug": "מחוסא",
+	"headword": {
+		"text": "מְחוֹסָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 758,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01366\"><he>חֲסִי</he></cite>) <i>insult</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 16:5\">Targ. Y. Gen. XVI, 5</cite> <he>מְחוֹסִי ושירוי צערי</he> Ar. (differ. in ed.)."
+			]
+		}
+	]
+}

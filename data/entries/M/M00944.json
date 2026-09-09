@@ -1,0 +1,34 @@
+{
+	"id": "M00944",
+	"slug": "מחשבה",
+	"headword": {
+		"text": "מַחֲשָׁבָה"
+	},
+	"page": {
+		"number": 764,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"H01806\"><he>חָשַׁב</he></cite>)<i>thought, plan</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 61a:14\">Ber. 61ᵃ</cite> <he>בתחלה עלה במ׳ וכ׳</he> it was the original plan to create &c.—",
+				"<cite ref=\"Kiddushin 40a:13\">Kidd. 40ᵃ</cite> <he>מ׳ שעושה פרי</he> an intention which bears fruit (is carried out). ",
+				"<cite ref=\"Kiddushin 40a:13\">Ib.</cite> <he>מ׳ טובה מצרפה וכ׳</he> the merit of a good intention does the Lord (in rewarding) add to that of a good deed; <cite ref=\"Jerusalem Talmud Peah 1:1:51\">Y. Peah I, 16ᵇ</cite> top; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>troubled mind, care, apprehension</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 26b:9\">Snh. 26ᵇ</cite> <he>מ׳ מועלת וכ׳</he> trouble (about sustenance) affects the memory even for the words of the Law (makes one forget one’s learning).—Pl. <he>מַחֲשָׁבוֹת</he>. ",
+				"<cite ref=\"Sanhedrin 19b:1\">Ib. 19ᵇ</cite>, v. <cite ref=\"B01093\"><he>בַּצַל</he></cite>. ",
+				"<cite ref=\"Sanhedrin 26b:9\">Ib. 26ᵇ</cite> (ref. to <cite ref=\"Psalms 11:3\">Ps. XI, 3</cite>) <he>אילו מַחְשְׁבוֹתָיו וכ׳</he> if this wicked man’s plans be not frustrated, what will the righteous man do?"
+			],
+			"label": "2"
+		}
+	]
+}

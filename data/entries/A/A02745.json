@@ -1,0 +1,28 @@
+{
+	"id": "A02745",
+	"slug": "אפנקריסין",
+	"headword": {
+		"text": "אַפַּנְקְרִיסִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּנְקְרִיסִין"
+		}
+	],
+	"page": {
+		"number": 105,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (transposition of <cite ref=\"S01772\"><he>קַפְרִיסִין</he></cite>, with <cite ref=\"N00001\"><he>נ</he></cite> inserted) <i>caper-fruit</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:1:11\">Y. Sabb. III, 5ᵈ</cite> top <he>א׳</he> Ar. (ed. <cite ref=\"Q00001\"><he>פ׳</he></cite>). Ib. I, 3ᶜ bot. <he>פנקריסים</he> (read … <he>ין</he>); <cite ref=\"Jerusalem Talmud Avodah Zarah 2:8:5\">Y. Ab. Zar. II, 41ᵈ</cite> <cite ref=\"Q00001\"><he>פ׳</he></cite>. [In parallel places <cite ref=\"S01772\"><he>קַפְרִיסִין</he></cite> q. v.]"
+			]
+		}
+	]
+}

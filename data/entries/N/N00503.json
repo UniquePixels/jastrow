@@ -1,0 +1,71 @@
+{
+	"id": "N00503",
+	"slug": "נחם-1",
+	"headword": {
+		"text": "נָחַם"
+	},
+	"page": {
+		"number": 895,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"N00340\"><he>נוּחַ</he></cite>)<i>to be at ease</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 20:16\">Ex. R. s. 20</cite> (homiletic interpret. of <cite ref=\"N00503\"><he>נָחָם</he></cite>, <cite ref=\"Exodus 13:17\">Ex. XIII, 17</cite>) <he>אמר הקב״ה איני מתנחם וכ׳</he> the Lord said, I shall not be contented, until &c., for we read <he>ולא נָחַם</he> (perhaps meant for <cite ref=\"N00503\"><he>נִחַם</he></cite> <i>Nif.</i>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִיחֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to comfort, console</i>. Pesik. Naḥ., p. 128ᵃ <he>א״ל הקב״ה אני ואתם נלך ונְנַחֲמֶנָּה</he> the Lord said to them (the prophets), Myself and you, let us go and comfort her (Jerusalem); ib. <he>נַחֲמוּהָ עמי וכ׳</he> comfort her, O my people; comfort her, you on high (angels) &c. Ib. <he>הקב״ה שלחני אצלך לנַחֲמֵךְ</he> the Lord sent me to thee (Jerusalem) to comfort thee. Ib.ᵇ <he>נַחֲמוּנִי נחמוני עמי</he> comfort me, comfort me, O my people. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 30:1\">Pesik. R. s. 30</cite> <he>ונכנסו חביריו לנַחֲמוֹ</he> and his friends came in to comfort him; <he>אם על אשתו מְנַחֲמִים לו וכ׳</he> if it is for the loss of his wife that they seek to console him, and he refuses to be consoled &c. ",
+						"<cite ref=\"Mishnah Middot 2:2\">Midd. II, 2</cite> <he>השוכן בבית הזה יְנַחֶמְךָ</he> may He who resides in this house console thee. Y. Gitt. V, 47ᶜ top; Y. Dem. IV, 24ᵃ bot. <he>ומְנַחֲמִין אבילי וכ׳</he> and you must comfort the gentile mourners (of your place) as well as the Jewish mourners; Y. Ab. Zar. I, 39ᶜ bot. <he>ניחמים</he> (corr. acc.); <cite ref=\"Tosefta Gittin 5\">Tosef. Gitt. V (III), 5</cite>; a. fr.—מְנַחֵם <i>the consoling friend of the mourner</i>. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 947:1\">Yalk. Prov. 947</cite> <he>בבית האבל בחול פריס מנ׳ ויהיב לאבל … יש לה מנ׳ פריס מנ׳ וכ׳</he> in the house of the mourner, on week days, the comforter breaks the bread and gives it to the mourner, as it is written (<cite ref=\"Lamentations 1:17\">Lam. I, 17</cite>), ‘Zion breaks (the bread) with her own hands, she has no comforter’, but if she had a comforter, the comforter would break it &c.—Pl. <he>מְנַחֲמִים</he>, <he>מְנַחֲמִין</he>. ",
+						"<cite ref=\"Moed Katan 27a:20\">M. Kat. 27ᵃ</cite> <he>בית המנ׳</he> the room where the comforters meet. ",
+						"<cite ref=\"Moed Katan 27b:9\">Ib. 27ᵇ</cite> <he>כיון שניענע … אין מנ׳ וכ׳</he> as soon as the mourner nods with his head (indicating that he accepts their consolations), the friends are no longer permitted to sit with him; a. fr.—",
+						"<cite ref=\"Shabbat 152a:16\">Sabb. 152ᵃ</cite> <he>מת שאין לו מנ׳</he> a deceased person that leaves no direct relations to be comforted."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִחַם"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְנַחֵם"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְנַחֵם</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be comforted, accept consolation</i>. Pesik. l. c. <he>מי צריך להִנָּחֵם</he> which of them is in need of being comforted?; ib. <he>להִתְנַחֵם</he>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 19a:14\">Snh. 19ᵃ</cite> <he>תִּתְנֶחָמוּ</he> be comforted. ",
+						"<cite ref=\"Sanhedrin 19a:8\">Ib.</cite> <he>מִתְנַחֵם מאחרים</he> receiving consolations from others. Pesik. R. l. c. <he>ואינו מתנחם</he>, v. supra. ",
+						"<cite ref=\"Bereishit Rabbah 84:21\">Gen. R. s. 84</cite> <he>מִתְנַחֲמִים על המתים וכ׳</he> people accept consolation for dead persons but not for living ones (that have disappeared); a. fr.—",
+						"<cite ref=\"Bereishit Rabbah 27:4\">Gen. R. s. 27</cite> (expl. <he>וינחם</he>, <cite ref=\"Genesis 6:6\">Gen. VI, 6</cite>) <he>מתנ׳ אני שבראתי וכ׳</he> I have that consolation that I created him (man) to live on earth below &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to seek comfort; to be sorry, regret, reconsider</i>. Ib. <he>מתנ׳ אני שעשיתו וכ׳</he> I regret that I made him, and that he was placed on earth. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 45\">Ex. R. s. 45</cite>, beg. <he>ואני מתנ׳ עליו</he> and I am sorry for him (reconsider my judgment). ",
+						"<cite ref=\"Bamidbar Rabbah 23:8\">Num. R. s. 23</cite> (ref. to <cite ref=\"Numbers 23:19\">Num. XXIII, 19</cite>) <he>לא בן עמרם עשה אותו להִנָּחֵם</he> did not the son of Amram cause him (God) to reconsider (<cite ref=\"Exodus 32:14\">Ex. XXXII, 14</cite>); <cite ref=\"Exodus 32:14\">ib.</cite> <he>להִתְנַחֵם</he>; Y. Taan. I, 65ᵇ bot. <he>שעשה לאל שיִתְנֶחָם</he>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

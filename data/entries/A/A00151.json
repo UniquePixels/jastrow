@@ -1,0 +1,23 @@
+{
+	"id": "A00151",
+	"slug": "אבכא",
+	"headword": {
+		"text": "אַבָּכָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 6,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Syr., P. Sm. 15; v. <cite ref=\"A00150\">foreg.</cite>, cmp. b. h. <cite ref=\"A00189\"><he>אָבַק</he></cite>) <i>the fighter</i>, whence <i>large cock</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 30:31\">Targ. Prov. XXX, 31</cite>; cmp. <cite ref=\"G00691\"><he>זַרְזִיר</he></cite> (Var. <cite ref=\"A01666\"><he>אַכָּבָא</he></cite>, Ms. <cite ref=\"A00204\"><he>אַבְּרָא</he></cite>)."
+			]
+		}
+	]
+}

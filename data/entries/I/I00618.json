@@ -1,0 +1,35 @@
+{
+	"id": "I00618",
+	"slug": "טען-5",
+	"headword": {
+		"text": "טְעַן",
+		"homograph": 3
+	},
+	"page": {
+		"number": 544,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to move to and back, to swing</i> a whip &c. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 12:3\">Num. R. s. 12</cite> <he>דלא יהוון טַעֲנִין וכ׳</he> that they should not swing the rod over the children (<cite ref=\"Midrash Tehillim 91\">Midr. Till. to Ps. XCI</cite> … <he>מחון</he>; <cite ref=\"Yalkut Shimoni on Nach 842:4\">Yalk. Ps. 842</cite> <he>מחיין</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מְטַעַן"],
+			"senses": [
+				{
+					"gloss": "<i>swung upon, struck</i> with a spear &c., <i>wounded</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 14:19\">Targ. Is. XIV, 19</cite> <he>מְטַעֲנֵי חרב</he> (h. text <he>מְטֹעֲנֵי</he>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 37:10\">Targ. Jer. XXXVII, 10</cite> <he>מְטַעֲנִין</he> (h. text <he>מדקרים</he>); a. e."
+					]
+				}
+			],
+			"stem": "Pa., part. pass."
+		}
+	]
+}

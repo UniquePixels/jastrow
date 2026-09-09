@@ -1,0 +1,34 @@
+{
+	"id": "P00079",
+	"slug": "עגג",
+	"headword": {
+		"text": "עָגַג"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּג"
+		}
+	],
+	"page": {
+		"number": 1040,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ") (cmp. <cite ref=\"P00090\"><he>עגל</he></cite>) [<i>to round, roll, press</i>; denom. <cite ref=\"P00192\"><he>עוּגָּה</he></cite>, fr. which] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to draw</i> (cmp. <he>חגג</he>). ",
+			"units": [
+				"<cite ref=\"Mishnah Taanit 3:8\">Taan. III, 8</cite> (<cite ref=\"Taanit 19a:7\">19ᵃ</cite>); 23ᵃ <he>עג עוגה</he> he drew a circle.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to make a cake</i>. ",
+			"units": ["<cite ref=\"Ezekiel 4:12\">Ez. IV, 12</cite>.]"],
+			"label": "2"
+		}
+	]
+}

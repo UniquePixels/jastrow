@@ -1,0 +1,45 @@
+{
+	"id": "T00245",
+	"slug": "רדי-5",
+	"headword": {
+		"text": "רְדִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְדָא",
+			"homograph": 3
+		}
+	],
+	"page": {
+		"number": 1452,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>רדי</he> I) [<i>to subjugate the ground</i>; cmp. ",
+			"units": [
+				"<cite ref=\"Genesis 1:28\">Gen. I, 28</cite>; cmp. <cite ref=\"N00787\"><he>נִיר</he> I</cite>], <i>to plough</i>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 129:3\">Targ. Ps. CXXIX, 3</cite> <cite ref=\"T00236\"><he>רָדוּ</he></cite> (ed. Lag. <cite ref=\"T00006\"><he>רָאדוּ</he></cite>, v. <cite ref=\"D00028\"><he>דְּאַר</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Hosea 10:11\">Targ. Hos. X, 11</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 19:19\">Targ. I Kings XIX, 19</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 4:2:3\">Y. Shebi. IV, 35ᵃ</cite> bot. <he>מֵירְדֵי</he>; <cite ref=\"Jerusalem Talmud Sanhedrin 3:5:8\">Y. Snh. III, 21ᵇ</cite> top <cite ref=\"M02541\"><he>מֵרְדָה</he></cite>, v. <cite ref=\"E00020\"><he>הָאַסְטוּ</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:12\">Y. Ber. II, 5ᵃ</cite> top <he>הוה קאים רָדֵי</he> (not <cite ref=\"T00241\"><he>רדי</he></cite>) was ploughing; <cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite> <he>הוה קא רדי</he>. Y. B. Mets. IX, beg. 12ᵃ <he>לתלוש … פוק רְדִיתָהּ</he> (not <he>דריתה</he>) where it is customary to pluck, and the tenant cut the grain, we say to him, go out and plough the field (for the owner); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְרְדֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be ploughed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Amos 6:12\">Targ. Am. VI, 12</cite>. ",
+						"<cite ref=\"Targum Jonathan on Micah 3:12\">Targ. Mic. III, 12</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

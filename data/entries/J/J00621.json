@@ -1,0 +1,44 @@
+{
+	"id": "J00621",
+	"slug": "ירותא-2",
+	"headword": {
+		"text": "יְרוּתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְרוּתְתָּא"
+		},
+		{
+			"text": "יְרֻתָּא"
+		}
+	],
+	"page": {
+		"number": 595,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (<cite ref=\"J00620\">preced.</cite>) = h. <cite ref=\"J00616\"><he>יְרוּשָּׁה</he></cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a conquered land</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 24:18\">Targ. O. Num. XXIV, 18</cite> (h. text <he>יְרֵשָׁה</he>; Y. I <he>תריכין</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>conquest; possession, heirloom</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 2:5\">Targ. Deut. II, 5</cite>; <cite ref=\"Onkelos Deuteronomy 2:9\">9</cite>, a. fr. (ed. Berl. <cite ref=\"J00621\"><he>יְרוּתָּ׳</he></cite>; oth. ed. a. Y. <he>יְרוּתָ׳</he>).—",
+				"<cite ref=\"Aramaic Targum to Proverbs 20:21\">Targ. Prov. XX, 21</cite> <cite ref=\"J00621\"><he>יְרוּתְתָּ׳</he></cite> ed. Lag.; a. e.—",
+				"<cite ref=\"Vayikra Rabbah 9:3\">Lev. R. s. 9</cite> <he>יְרוּתְתִּי גבך וכ׳</he> my heirloom (the Law) is with thee, and thou wouldst withhold it (refuse to teach me)?; <he>ומה יְרוּתְתָּךְ גבי</he> (not <he>ירתותן</he>) and what heirloom of thine do I hold?; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

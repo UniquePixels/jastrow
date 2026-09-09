@@ -1,0 +1,27 @@
+{
+	"id": "H00017",
+	"slug": "חבה-2",
+	"headword": {
+		"text": "חֵבָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֵיבָה"
+		}
+	],
+	"page": {
+		"number": 416,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חבא</he>) <i>reserve, storage</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 101b:5\">B. Kam. 101ᵇ</cite> <he>שגיבבן בחיבה</he> Ms. M. (oth. <he>בחבה</he>; ed. <he>בחֵבָא</he>, v. Rabb. D. S. a. l. note) which he gathered up for storage; <cite ref=\"Sukkah 40a:4\">Succ. 40ᵃ</cite> <he>לחוּבָה</he> ed. (Ms. Ms. 2 <he>בחיבה</he>, v. Rabb. D. S. a. l. note 200)."
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "A02647",
+	"slug": "אפותא",
+	"headword": {
+		"text": "אַפּוּתָא"
+	},
+	"page": {
+		"number": 101,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"A02598\"><he>אַפָּא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>nose</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 41:12\">Targ. Job XLI, 12</cite> (<cite ref=\"Aramaic Targum to Job 41:9\">9</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>front of the face, forehead</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 112a:1\">Pes. 112ᵃ</cite> <he>ידא אא׳ וכ׳</he> the hand on the forehead is one step to sleep. ",
+				"<cite ref=\"Berakhot 44a\">Ber. 44ᵃ</cite>, v. <cite ref=\"D00491\"><he>דִּידְבָא</he></cite>.—",
+				"<cite ref=\"Taanit 25a:11\">Taan. 25ᵃ</cite> <he>מאַפּוּתֵיה</he> out of his forehead. ",
+				"<cite ref=\"Taanit 25a:14\">Ib.</cite> <he>אפותאִי</he> ed. (read <he>אאפ׳</he>), v. <cite ref=\"A02531\"><he>אִסְקוּטְלָא</he> I</cite>.—",
+				"<cite ref=\"Avodah Zarah 26a:6\">Ab. Zar. 26ᵃ</cite> <he>אאפותיה</he> Ar. (ed. <cite ref=\"A02647\"><he>אפותא</he></cite>, Ms. M. <he>אפותיה</he>, corr.) on its (the child’s) forehead. ",
+				"<cite ref=\"Shabbat 80b:5\">Sabb. 80ᵇ</cite>, v. <cite ref=\"A02114\"><he>אַנְדִּיפָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

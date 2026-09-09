@@ -1,0 +1,28 @@
+{
+	"id": "M02213",
+	"slug": "מפיס-1",
+	"headword": {
+		"text": "מָפֵיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַפֵּיס"
+		}
+	],
+	"page": {
+		"number": 820,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Memphis</i> in Egypt. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 2:16\">Targ. Jer. II, 16</cite>, a. e. (h. text <he>נֹף</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 30:13\">Targ. Ez. XXX, 13</cite> <cite ref=\"M02229\"><he>מָפַס</he></cite> ed. Wil.—V. <cite ref=\"M01808\"><he>מִנְפִּיס</he></cite>."
+			]
+		}
+	]
+}

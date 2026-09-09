@@ -1,0 +1,30 @@
+{
+	"id": "J00005",
+	"slug": "יאו",
+	"headword": {
+		"text": "יָאוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "יָאִי"
+		},
+		{
+			"text": "יָי׳"
+		}
+	],
+	"page": {
+		"number": 559,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Yau, Yai</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 6a\">Ḥull. 6ᵃ</cite> <he>פונדקא דייאו</he> Ar. (ed. <he>דיאי</he>, prob. to be read: <cite ref=\"D00595\"><he>דִּיאִי</he></cite>) the inn of Yau (<i>I</i>, v. <cite ref=\"A01182\"><he>אִיהִי</he> II</cite>)."
+			]
+		}
+	]
+}

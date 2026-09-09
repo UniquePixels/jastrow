@@ -1,0 +1,35 @@
+{
+	"id": "H00413",
+	"slug": "חוסן",
+	"headword": {
+		"text": "חוֹסֶן"
+	},
+	"page": {
+		"number": 437,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חסן</he> I; cmp. b. h. <he>חָסוֹן</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>strength</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 30\">Ex. R. s. 30</cite> (ref. to <cite ref=\"Daniel 4:27\">Dan. IV, 27</cite>) <he>הח׳ שלי</he> the strength is Mine."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>tow, oakum</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 2:1\">Sabb. II, 1</cite>, expl. ",
+				"<cite ref=\"Shabbat 20b\">ib. 20ᵇ</cite> ‘flax pounded but not carded’; Y. ib. II, beg. 4ᶜ"
+			],
+			"label": "2"
+		}
+	]
+}

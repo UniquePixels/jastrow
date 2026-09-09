@@ -1,0 +1,24 @@
+{
+	"id": "M01234",
+	"slug": "מינקת-2",
+	"headword": {
+		"text": "מִינְקַת"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִינְקַת חִיוְיָא"
+		}
+	],
+	"page": {
+		"number": 777,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (read <cite ref=\"H00674\"><he>חֵיוָא</he></cite> or <cite ref=\"H00683\"><he>חֵיוַיָּא</he></cite>) f. (<cite ref=\"J00446\"><he>יְנַק</he></cite>) [<i>sucker of animals</i>,] <i>hedge-hog</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 11:30\">Targ. Y. Lev. XI, 30</cite>, v. <cite ref=\"J00331\"><he>יָילָא</he></cite>.—V. <cite ref=\"Q01059\"><he>פָּלְיַית</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"id": "C01131",
+	"slug": "גני-1",
+	"headword": {
+		"text": "גני"
+	},
+	"altHeadwords": [
+		{
+			"text": "גָּנָה"
+		}
+	],
+	"page": {
+		"number": 259,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"C01150\"><he>גָּנַן</he></cite>) <i>to cover, be covered</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גִּינָּה", "גִּנָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to overshadow, to obscure, to put to shame; to censure</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 92b:10\">Snh. 92ᵇ</cite> <he>היו מְגַנִּין את החמה וכ׳</he> obscured the sun with their beauty. ",
+						"<cite ref=\"Gittin 58a:4\">Gitt. 58ᵃ</cite> <he>היו מג׳ את הפז וכ׳</he> they outshone the finest gold with their beauty. Snh. l. c. <he>ביקש לְגַנּוֹת וכ׳</he> he would have attempted to excel all the praises &c.—",
+						"<cite ref=\"Shabbat 33b:5\">Sabb. 33ᵇ</cite> <he>שגי׳</he> who criticised (the Roman government); a. fr.—Part. pass. <he>מְגוּנֶּה</he> <i>deserving to be covered up, reprehensible, indecent; ugly</i>. ",
+						"<cite ref=\"Pesachim 3a:10\">Pes. 3ᵃ</cite> <he>דבר מג׳</he> an ugly expression e.g. <cite ref=\"I00529\"><he>טמא</he></cite> in place of <he>לא טהור</he>. ",
+						"<cite ref=\"Berakhot 33b:28\">Ber. 33ᵇ</cite> <he>הרי זה מג׳</he> he is to be reprehended; <cite ref=\"Berakhot 45b\">ib. 45ᵇ</cite>, opp. <he>משובח</he>; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְגַּנֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to make one’s self reprehensible, to become repulsive</i>. ",
+					"units": [
+						"<cite ref=\"Chagigah 15b:5\">Ḥag. 15ᵇ</cite> <he>ומה למִתְגַּנִּין בה וכ׳</he> if such regard is paid to those who abuse the knowledge of the Law &c., opp. <he>משתבחין</he>. ",
+						"<cite ref=\"Kiddushin 41a\">Kidd. 41ᵃ</cite> he may see in her <he>דבר מגינה ותִתְגַּנֶּה עליו</he> something objectionable, and she may become repulsive to him. ",
+						"<cite ref=\"Yoma 78b\">Yoma 78ᵇ</cite>, v. <cite ref=\"A01120\"><he>אֵיבָה</he></cite>. ",
+						"<cite ref=\"Ketubot 65b\">Keth. 65ᵇ</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

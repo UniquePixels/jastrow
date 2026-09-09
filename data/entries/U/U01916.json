@@ -1,0 +1,46 @@
+{
+	"id": "U01916",
+	"slug": "שרבב-2",
+	"headword": {
+		"text": "שַׁרְבֵּב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1627,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01915\">same</cite>, <i>to prolong, let hang down; to let down</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 38:6\">Targ. Jer. XXXVIII, 6</cite>; <cite ref=\"Targum Jonathan on Jeremiah 38:11\">11</cite>.—",
+				"<cite ref=\"Shabbat 147b:7\">Sabb. 147ᵇ</cite> <he>כי מעבריתו … שַׁרְבִּיבוּ להו וכ׳</he> when you have to carry garments for the soldiers (on the Sabbath), let them hang down over your shoulders (so as to serve as garments for yourselves). ",
+				"<cite ref=\"Eruvin 102b:3\">Erub. 102ᵇ</cite> <he>שַׁרְבֵּיב בגלימיה טפח</he> (not <he>בגלימי</he>; ed. Sonc. <he>אישתרבב בגלימיה</he>, read: <he>א׳ גלימיה</he>; v. Rabb. D. S. a. l. note 200) if a person lets his cloak trail one handbreadth."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתַּרְבֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to be enlarged, prolonged</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 12b\">Sot. 12ᵇ</cite> [read:] <he>אִישְׁתַּרְבְּבָא אִישְׁתַּרְבּוּבֵי</he> (her arm) was prolonged (by a miracle, so that she could reach the infant Moses); <cite ref=\"Shemot Rabbah 1\">Ex. R. s. 1<sup>23</sup></cite> <he>אישתרבובי אִשְׁתַּרְבּוּב</he> they (her arms) were prolonged; <cite ref=\"Yalkut Shimoni on Torah 166:7\">Yalk. ib. 166</cite> <he>אישתרבב אישתרבו</he> (corr. acc.)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be let down; to trail; to spread</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 7:3\">Targ. II Chr. VII, 3</cite>; <cite ref=\"Targum of II Chronicles 7:10\">10</cite>.—",
+						"<cite ref=\"Sanhedrin 24a:16\">Snh. 24ᵃ</cite> <he>לבבל נחית ואישתרבובי דאי׳ לעילם</he> it (the measure of pride) came down to Babylonia, but was dragged along to Elam; <cite ref=\"Yalkut Shimoni on Nach 573\">Yalk. Zech. 573</cite> <he>ואי׳ להתם</he>. ",
+						"<cite ref=\"Beitzah 11a:3\">Bets. 11ᵃ</cite> <he>אשתרבובי אשתרבוב ונחות</he> they (the pigeons in the upper nest) dragged themselves along and came down (to the lower nest)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "D00701",
+	"slug": "דיקולא-2",
+	"headword": {
+		"text": "דִּיקּוּלָא"
+	},
+	"page": {
+		"number": 304,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D01009\"><he>דקל</he></cite>; cmp. <cite ref=\"V00703\"><he>תָּמַר</he></cite>, <cite ref=\"V00459\"><he>תִּימּוּר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " <he>ד׳ דמיא</he> (= h. <cite ref=\"S00959\"><he>קִילּוּחַ</he></cite>) the <i>column</i> or <i>jet</i> of boiling water poured upon wheat &c. for scalding. ",
+			"units": [
+				"<cite ref=\"Pesachim 40a:1\">Pes. 40ᵃ</cite> (Ar. <cite ref=\"D00716\"><he>דיקלא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= h. <cite ref=\"S01306\"><he>קלּחִת</he></cite>) <i>seething kettle</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 98a:7\">Ḥull. 98ᵃ</cite> <he>די׳ דבישרא</he> a kettle of boiling meat; [Ar.: a kettle containing <i>a basketful</i> &c.; v. preced.]. [<cite ref=\"Ketubot 10b:14\">Keth. 10ᵇ</cite> <he>לד׳</he>, v. <cite ref=\"D01010\"><he>דִּקְלָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

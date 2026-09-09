@@ -1,0 +1,24 @@
+{
+	"id": "A03246",
+	"slug": "ארקתא-3",
+	"headword": {
+		"text": "אַרְקְתָא",
+		"reconstructed": true,
+		"homograph": 3
+	},
+	"page": {
+		"number": 126,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"A03245\">preced.</cite>) name of a parasite worm in the bowels, perh. <i>fluke-worm</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 109b\">Sabb. 109ᵇ</cite> ed. (Ms. M. <he>אַרְקָאתָא</he> pl., Ms. O. <he>אורקתא</he>, Ar. <cite ref=\"P00681\"><he>עַר׳</he></cite>). Cmp. <cite ref=\"P00844\"><he>עַלְקָא</he></cite>. [Mus. = h. <cite ref=\"J00660\"><he>יֵרָקוֹן</he></cite> <i>jaundice;</i> cmp. <cite ref=\"A03240\"><he>אִרְקִין</he></cite>.]"
+			]
+		}
+	]
+}

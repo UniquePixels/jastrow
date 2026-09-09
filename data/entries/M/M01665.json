@@ -1,0 +1,29 @@
+{
+	"id": "M01665",
+	"slug": "ממיקנא",
+	"headword": {
+		"text": "מָמִיקְנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָמִקְ׳"
+		}
+	],
+	"page": {
+		"number": 795,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00578\"><he>מוּק</he></cite>) <i>scorner</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 9:7\">Targ. Prov. IX, 7</cite>; a. fr.—Pl. <he>מְמִיקְנֵי</he>, <cite ref=\"M01666\"><he>מְמִקְ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 1:1\">Targ. Ps. I, 1</cite>; a. e.—",
+				"<cite ref=\"Aramaic Targum to Psalms 35:16\">Ib. XXXV, 16</cite> <he>מְמִיקְנַיָּא</he> <i>scorning words</i> (ed. Wil. <cite ref=\"M01666\"><he>מְמַקְ׳</he></cite>)."
+			]
+		}
+	]
+}

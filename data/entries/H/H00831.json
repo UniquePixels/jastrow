@@ -1,0 +1,28 @@
+{
+	"id": "H00831",
+	"slug": "חיסולא",
+	"headword": {
+		"text": "חִיסּוּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִסּ׳"
+		}
+	],
+	"page": {
+		"number": 458,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01396\"><he>חֲסַל</he></cite>) <i>finished work, perfection</i>.—Pl. <he>חִיסּוּלִין</he>, <cite ref=\"H00830\"><he>חִסּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 103:2\">Targ. Ps. CIII, 2</cite> <he>חִיסּוּלוֹי</he> His perfect deeds (v. ",
+				"<cite ref=\"Berakhot 10a:12\">Ber. 10ᵃ</cite>, h. text <he>גמוליו</he>)."
+			]
+		}
+	]
+}

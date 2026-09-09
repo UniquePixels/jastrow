@@ -1,0 +1,36 @@
+{
+	"id": "N00058",
+	"slug": "נבוריא",
+	"headword": {
+		"text": "נִבּוּרַיָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִבּוּרַיָּיא"
+		},
+		{
+			"text": "נִי׳"
+		},
+		{
+			"text": "כְּפַר נִבּוּרַיָּא"
+		}
+	],
+	"page": {
+		"number": 867,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>K’far Nibburaya</i> (prob. = Nimrîn, near Tiberias, v. Hildesh. Beitr. p. 60, note 444), mentioned as the home of one R. Judah and one R. Jacob. ",
+			"units": [
+				"<cite ref=\"Megillah 18a\">Meg. 18ᵃ</cite> <he>איש כ׳ נ׳ וא״ל איש נבור חיל</he> Ms. M. (ed. <cite ref=\"C00000\"><he>ג</he></cite> for <cite ref=\"N00001\"><he>נ</he></cite>) of K’far Nibburaya, and some say, of Nibbur Ḥayil; <cite ref=\"Ketubot 65a:2\">Keth. 65ᵃ</cite> <he>נביריא</he> (corr. acc.). ",
+				"<cite ref=\"Bereishit Rabbah 7\">Gen. R. s. 7</cite>, beg. <he>איש כפר נבוראי</he> (corr. acc.); <cite ref=\"Kohelet Rabbah 7:23:4\">Koh. R. to VII, 23</cite>; Tanḥ. Ḥuck. 6; <cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite> <he>כ׳ נִבּוּרִין</he>; <cite ref=\"Pesikta Rabbati 14:1\">ib.</cite> <he>יעקב נובראי</he> (read: <he>נִבּוּרַאי</he> or <he>נִבּוּרָאָה</he>); Pesik. Par., p. 35ᵇ <he>גבורין</he> (corr. acc.); <cite ref=\"Bamidbar Rabbah 19:3\">Num. R. s. 19</cite> <he>ניב׳</he> ed. Wil.; <cite ref=\"Yalkut Shimoni on Torah 11\">Yalk. Gen. 11</cite> <he>כ׳ צפורי</he> (corr. acc.); Y. Yeb. II, 4ᵃ top <cite ref=\"N00058\"><he>נִבּוּרַיָּה</he></cite>; Y. Kidd. III, 64ᵈ bot.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:6\">Y. Ber. IX, beg. 12ᵈ</cite>; <cite ref=\"Midrash Tehillim 19\">Midr. Till. to Ps. XIX, 1</cite> <he>נובריא</he> ed. Bub. (oth. ed. <cite ref=\"I00088\"><he>טבריא</he></cite>, corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Bikkurim 3:3:18\">Y. Bicc. III, 65ᵈ</cite> top. <he>יעקב איש כ׳ נ׳</he>; Midr. Sam. ch. VII (not <he>בב׳</he>)."
+			]
+		}
+	]
+}

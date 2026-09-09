@@ -1,0 +1,22 @@
+{
+	"id": "C00989",
+	"slug": "גלשושיתא",
+	"headword": {
+		"text": "גַּלְשׁוּשִׁיתָא"
+	},
+	"page": {
+		"number": 251,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גלש</he>) <i>public monument</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 4:1\">Targ. Cant. to IV, 1</cite> (v. Cant. R. to <cite ref=\"Aramaic Targum to Song of Songs 4:1\">ib.</cite> s. v. <cite ref=\"C00984\"><he>גָּלַשׁ</he></cite>). [Ar. reads <cite ref=\"C00145\"><he>גבשושיתא</he></cite>, but the phonetic interpretation refers to <he>שגלשו</he> of the Hebrew text.]"
+			]
+		}
+	]
+}

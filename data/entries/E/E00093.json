@@ -1,0 +1,35 @@
+{
+	"id": "E00093",
+	"slug": "הגשה",
+	"headword": {
+		"text": "הַגָּשָׁה"
+	},
+	"page": {
+		"number": 332,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00194\"><he>נָגַשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>drawing near, coming forward</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 49:8\">Gen. R. s. 49</cite>; s. 93 <he>ה׳ למלחמה</he> the verb <he>נגש</he> is used for drawing near for battle; <he>ה׳ לפיוס</he> for persuasion, &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bringing near, offering</i>. Sifra Vayikra, N’dabah, ch. XII, Par. 11. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 5:5\">Men. V, 5</cite>, sq.; a. fr.—Pl. <he>הגָּשׁוֹת</he>. ",
+				"<cite ref=\"Mishnah Menachot 5:5\">Ib.</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

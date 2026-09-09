@@ -1,0 +1,33 @@
+{
+	"id": "A00763",
+	"slug": "אונקוס",
+	"headword": {
+		"text": "אוֹנְקוֹס"
+	},
+	"page": {
+		"number": 29,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ὄγκος) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bulk, pile;</i> (in philosophy) <i>a primitive body</i>. Tanḥ. T’rum. 11 <he>א׳ של מים</he> the body of water; <he>א׳ של אש</he> (some ed. <he>אונקנוס</he>). ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>trouble, difficulty, painstaking</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 12\">Gen. R. s. 12</cite> (ref. to <cite ref=\"Nehemiah 9:6\">Neh. IX, 6</cite> sq.) <he>כל הא׳ הזה וכ׳</he> (ed. <cite ref=\"A00768\"><he>אונקים</he></cite>, corr. acc.) what is all this painstaking (creating the universe &c.) for? Ans. Because ‘thou art the Lord who hast chosen Abraham’ i.e. for the sake of establishing religion on earth; cmp. ",
+				"<cite ref=\"Midrash Tehillim 118:12\">Midr. Till. to Ps. CIV, 18</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

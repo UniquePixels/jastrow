@@ -1,0 +1,23 @@
+{
+	"id": "Q00678",
+	"slug": "פילומא",
+	"headword": {
+		"text": "פִּילוֹמָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1163,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (πήλωμα, S.) <i>mud, clay ground</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 22:6\">Sabb. XXII, 6</cite> (<cite ref=\"Shabbat 147a:12\">147ᵃ</cite>) <he>אין יורדין לפ׳</he> Y. ed., a. Ms. M. (v. Rabb. D. S. a. l. note; Bab. ed. a. Mish. <cite ref=\"S00575\"><he>קורדימא</he></cite>, v. <cite ref=\"S01167\"><he>קִירוֹמָא</he></cite>) you must not go down to the clay ground (of the brickyard, on the Sabbath)."
+			]
+		}
+	]
+}

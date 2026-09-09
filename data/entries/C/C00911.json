@@ -1,0 +1,34 @@
+{
+	"id": "C00911",
+	"slug": "גלוסקמא",
+	"headword": {
+		"text": "גְּלוֹסְקְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּלוֹסְקוֹם"
+		},
+		{
+			"text": "דְּלוּסְקְמָא"
+		}
+	],
+	"page": {
+		"number": 247,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (γλωσσόκομον, v. LXX, <cite ref=\"II Chronicles 24:8\">II Chr. XXIV, 8</cite>; as to <cite ref=\"D00000\"><he>ד</he></cite> for <he>ג׳</he>, v. Liddell & Scott s. lit. Δ) <i>case, chest, coffin</i>. Y. Sot. VII, 22ᵈ <he>כמין גלוסקום</he> a kind of casing; <cite ref=\"Jerusalem Talmud Shekalim 6:1:15\">Y. Shek. VI, 49ᵈ</cite> bot. <cite ref=\"C00909\"><he>גלוסקוים</he></cite> (corr. acc.).—",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 3:3\">Gitt. III, 3</cite> if he found the document <he>בג׳ …</he> Ar. (ed. <he>בד׳</he>) in a case; expl. ib. 28ᵃ <he>טליקא דסבי</he> a box for elders (for keeping documents &c.); <cite ref=\"Mishnah Bava Metzia 1:8\">B. Mets. I, 8</cite> Y. ed. <he>ג׳</he> (<cite ref=\"Bava Metzia 20a:5\">B. Mets. 20ᵃ</cite>; <cite ref=\"Bava Metzia 20b:4\">20ᵇ</cite> a. Mish. <cite ref=\"D00001\"><he>ד׳</he></cite>). ",
+				"<cite ref=\"Mishnah Meilah 6:1\">Meïl. VI, 1</cite> <he>ג׳</he> (Bab. ed. 21ᵃ <cite ref=\"D00001\"><he>ד׳</he></cite>). ",
+				"<cite ref=\"Moed Katan 24b:2\">M. Kat. 24ᵇ</cite> (<cite ref=\"D00001\"><he>ד׳</he></cite>) <he>ג׳ הניטלת באגפיים</he> a coffin carried by its handles.—Pl. <he>גְּלוֹסְקְמִין</he>, <he>גְּלוֹסְקְמָאוֹת</he>, <he>דְּ׳</he>. ",
+				"<cite ref=\"Megillah 26b:8\">Meg. 26ᵇ</cite> <he>דְּלוֹסְקְמֵי ספרים</he> (Alf. Ms. <he>קְמָאוֹת …</he>, ed. <he>סקאות …</he>) cases for books &c.—",
+				"<cite ref=\"Shemot Rabbah 30:1\">Ex. R. s. 30</cite>, end <he>פותח הגלוסקאות</he> (corr. acc.) he opens the cases (containing his goods)."
+			]
+		}
+	]
+}

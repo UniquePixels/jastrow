@@ -1,0 +1,33 @@
+{
+	"id": "T00838",
+	"slug": "רמש-2",
+	"headword": {
+		"text": "רְמַשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "רַמְשָׁא"
+		},
+		{
+			"text": "רוּמְ׳"
+		}
+	],
+	"page": {
+		"number": 1483,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>evening</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:5\">Targ. Gen. I, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 65:9\">Targ. Ps. LXV, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 21:13\">Targ. Is. XXI, 13</cite> (h. text <cite ref=\"P01252\"><he>עֲרָב</he></cite>!); a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:8:4\">Y. Ber. II, 5ᶜ</cite> bot. <he>ברו׳ נחית וכ׳</he> in the evening he went down to the house of assembly. Ib. IV, 7ᶜ bot. <he>יצלי דר׳ וכ׳</he> one may say the evening prayer (on the Sabbath), while it is still day-time; a. fr."
+			]
+		}
+	]
+}

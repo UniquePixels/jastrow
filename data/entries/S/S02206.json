@@ -1,0 +1,29 @@
+{
+	"id": "S02206",
+	"slug": "קרתויים",
+	"headword": {
+		"text": "קַרְתּוּיִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַרְתּוּיִין"
+		}
+	],
+	"page": {
+		"number": 1428,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Κόρτιοι, Polybius 5, 52, 5; Strabo XI, 13) <i>natives of Ḳartu</i> (mountaineers of Media). ",
+			"units": [
+				"<cite ref=\"Yevamot 16a:16\">Yeb. 16ᵃ</cite> <he>ק׳ איתמר וכ׳</he> the traditional spelling is <i>Ḳartuyim</i> (and not Ḳarduyim), as people say, disqualified Kartuenians. ",
+				"<cite ref=\"Yevamot 16a:16\">Ib.</cite> (Chald. form) <he>קַרְתּוּיֵי וכ׳</he> Kartuenians are not the same as Ḳarduenians, as people say <he>ק׳ פסילי</he>; v. <cite ref=\"S01905\"><he>קרְדּוּיִים</he></cite>."
+			]
+		}
+	]
+}

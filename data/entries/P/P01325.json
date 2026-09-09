@@ -1,0 +1,26 @@
+{
+	"id": "P01325",
+	"slug": "ערום-1",
+	"headword": {
+		"text": "עָרוּם"
+	},
+	"page": {
+		"number": 1115,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P01391\"><he>עָרַם</he> II)</cite> [<i>rubbed, bright</i>, cmp. Lat. tritus,] <i>prudent, deliberate, wise</i>; (in an evil sense) <i>subtle, cunning</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 17a:9\">Ber. 17ᵃ</cite> <he>לעולם יהא אדם ע׳ ביראה</he> man should always be deliberate in the fear of the Lord (consider in what manner he can best serve the Lord). ",
+				"<cite ref=\"Mishnah Sotah 3:4\">Sot. III, 4</cite> <he>רשע ע׳</he> a wicked man that is subtle, expl. ",
+				"<cite ref=\"Sotah 21b:6\">ib. 21ᵇ</cite> <he>זה המטעים וכ׳</he>, v. <cite ref=\"I00609\"><he>טָעַם</he></cite>; Tanḥ. ",
+				"<cite ref=\"Exodus 6\">Mishp. 6</cite>. Sot. l. c. <he>במי שמשים עצמו ע׳</he> Var. in Rashi, v. <cite ref=\"P01326\">next w.</cite>; a. fr.—Pesik. Shimʿu, p. 118ᵇ, sq. (in Chald. dict.) <he>לית עיסקא דע׳ מהלך עם שטיא</he> the sane has no business to walk with the fool; (<cite ref=\"Yalkut Shimoni on Nach 265:2\">Yalk. Jer. 265</cite> <he>דעָרִים</he>).—Pl. <he>עֲרוּמִים</he>, <he>עֲרוּמִין</he>. ",
+				"<cite ref=\"Chullin 5b:5\">Ḥull. 5ᵇ</cite> (ref. to <cite ref=\"Psalms 36:7\">Ps. XXXVI, 7</cite>) <he>אלו בני אדם שהן ע׳ בדעת וכ׳</he> that means those men who are clever in knowledge and yet conduct themselves humbly like a domestic animal; a. e."
+			]
+		}
+	]
+}

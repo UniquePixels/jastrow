@@ -1,0 +1,25 @@
+{
+	"id": "K00295",
+	"slug": "כומתא",
+	"headword": {
+		"text": "כּוּמְתָא"
+	},
+	"page": {
+		"number": 621,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>כמם</he>, v. <he>כמן</he>; cmp. Arab. <i>kummath</i>, Fl. to Levy Talm. Dict. II, 450ᵇ) <i>skull-cap</i>, worn under the turban (<cite ref=\"O00265\"><he>סוּדְרָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Eruvin 84b:6\">Erub. 84ᵇ</cite> <he>דילמא כשהרבים … בכ׳ וסודרא</he> perhaps the public use of them (the low roofs) refers to people putting their cap and turban on them? <cite ref=\"Eruvin 91a:13\">Ib. 91ᵃ</cite> bot. <he>בכ׳ וס׳</he> it may be possible with cap &c. (by putting them on in the house and taking them off in the court). ",
+				"<cite ref=\"Moed Katan 15a:9\">M. Kat. 15ᵃ</cite> <he>אכ׳ וס׳</he> it refers to (the mourner’s) cap and turban. ",
+				"<cite ref=\"Gittin 39b:15\">Gitt. 39ᵇ</cite> <he>שקל כּוּמְתֵיה וכ׳</he> he took his cap and threw it at her. ",
+				"<cite ref=\"Shabbat 147a:3\">Sabb. 147ᵃ</cite> <he>הב לי כּוּמְתָאִי</he> hand me my cap."
+			]
+		}
+	]
+}

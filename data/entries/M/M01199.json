@@ -1,0 +1,29 @@
+{
+	"id": "M01199",
+	"slug": "מים",
+	"headword": {
+		"text": "מַיִם"
+	},
+	"page": {
+		"number": 775,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h.; cmp. <cite ref=\"M00346\"><he>מָהָה</he></cite>)<i>water, fluid; secretion; solution</i>. Constr. <cite ref=\"M01072\"><he>מֵי</he></cite>; pl. <cite ref=\"M01202\"><he>מֵימוֹת</he></cite>, constr. <cite ref=\"M01202\"><he>מֵימֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 108a:20\">Snh. 108ᵃ</cite> <he>גלגל העין שדומה למ׳</he> the eye-ball which (in restlessness) resembles water, v. <cite ref=\"C00871\"><he>גַּלְגַּל</he></cite>. ",
+				"<cite ref=\"Mishnah Parah 8:9\">Par. VIII, 9</cite> <he>המ׳ המוכים וכ׳</he> smitten waters (springs or lakes formed through a catastrophe, v. Snh. l. c.). Ib. <he>המ׳ המכזבים</he>, v. <cite ref=\"K00439\"><he>כָּזַב</he></cite>; a. v. fr.—<he>מ׳ ראשונים</he>, <he>מ׳ אחרונים</he> &c., v. respective determinants.—מֵי פירות <i>juice of fruits</i> (wine, date-honey, &c.). ",
+				"<cite ref=\"Pesachim 35a:13\">Pes. 35ᵃ</cite> sq.; a. fr.—מֵי רגלים <i>urin</i>. ",
+				"<cite ref=\"Keritot 6a:77\">Ker. 6ᵃ</cite>; a. fr.—בֵּית המ׳ <i>urinary</i>. ",
+				"<cite ref=\"Mishnah Megillah 3:2\">Meg. III, 2</cite>; <cite ref=\"Jerusalem Talmud Berakhot 2:3:5\">Y. Ber. II, 4ᶜ</cite> bot.—",
+				"<cite ref=\"Chagigah 3a:15\">Ḥag. 3ᵃ</cite> <he>מֵימֶיךָ אנו שותין</he> we drink thy water, i.e. we depend on thy teaching; <cite ref=\"Bava Metzia 84b:4\">B. Mets. 84ᵇ</cite> <he>מֵימֵיהֶן אנו שותין</he>; <cite ref=\"Horayot 14a\">Hor. 14ᵃ</cite>; a. e.—",
+				"<cite ref=\"Taanit 16a:14\">Taan. 16ᵃ</cite> <he>כל מימות וכ׳</he> all the waters of the world; a. fr."
+			]
+		}
+	]
+}

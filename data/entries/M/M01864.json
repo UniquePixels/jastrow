@@ -1,0 +1,28 @@
+{
+	"id": "M01864",
+	"slug": "מסווין",
+	"headword": {
+		"text": "מַסְוִוין"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַסְוָון"
+		}
+	],
+	"page": {
+		"number": 804,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"M01863\">preced.</cite>) <i>veils, masks</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 4:6\">Lam. R. to IV, 3</cite>, v. <cite ref=\"J00606\"><he>יָרוֹדָא</he></cite>."
+			]
+		}
+	]
+}

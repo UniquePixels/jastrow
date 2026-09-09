@@ -1,0 +1,34 @@
+{
+	"id": "P00920",
+	"slug": "עמק-4",
+	"headword": {
+		"text": "עֵמֶק"
+	},
+	"page": {
+		"number": 1090,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00919\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>valley</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 9:2\">Shebi. IX, 2</cite> <he>גליל העליון</he> … <he>והע׳</he> Upper Galilee, Lower Galilee, and the (Galilean) valley; <he>תחום טבריא הע׳</he> the district of Tiberias is the valley (of Galilee). Tosef. ib. VII, 10 <he>ההר והע׳ והשפלה</he> the mountain land, the valley, and the lowland. Ib. <he>אוכלין מבהר על שבע׳</he> (in the Sabbatical year) you may eat the mountain fruits as long as the same kind is still to be had in the valleys. Ib. <he>הר והורו ע׳ ועִמְקוֹ וכ׳</he> mountain land and an elevation on it, a valley and a depression in it, lowland and a lower plain in it (are respectively subject to the same laws); Y. ib. X, 38ᵈ bot. (corr. acc.). Ib. <he>מלוד עד הים ע׳</he> from Lydda to the sea is the valley (of Judæa), v. <cite ref=\"U01776\"><he>שְׁפֵלָה</he></cite>; a. fr.—Pl. <he>עֲמָקִים</he>. Ib. <he>סימן לע׳ תמרים</he> the presence of palms indicates valleys; Tosef. l. c. <he>סימן לע׳ דקלים</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. pl. <i>ʿEmeḳ</i>, in the district of Tyre. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 4:9\">Tosef. Shebi. IV, 9</cite> (Y. Dem. II, 22ᵈ top <cite ref=\"A01999\"><he>אמון</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"id": "P00160",
+	"slug": "עדק-1",
+	"headword": {
+		"text": "עֲדַק"
+	},
+	"page": {
+		"number": 1045,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"A00438\"><he>אֲדַק</he></cite>) <i>to be fastened, stick to</i>. Part. pass. <cite ref=\"P00160\"><he>עָדִיק</he></cite>. ",
+			"units": [
+				"<cite ref=\"Gittin 78a\">Gitt. 78ᵃ</cite> <he>דע׳ ליה בחרציה וכ׳</he> Mus. (v. Koh. Ar. Compl. s. v. <he>עויק</he>; Ar. <he>עויק</he>, <cite ref=\"P00555\"><he>עייק</he></cite>, corr. acc.; ed. <he>דערק לה וכ׳</he>, v. infra) when it (the letter of divorce) sticks in his belt, and she takes it out."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַדֵּיק", "עַדֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to bring close to</i>. Ib. <he>דע׳ לה חרציה וכ׳</he> (ed. <he>דערק</he>, corr. acc.) when he pressed his loins (the belt in which the letter of divorce was sticking) close to her, and she took the letter out.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to seize, overtake</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 28:45\">Targ. Y. Deut. XXVIII, 45</cite> (ed. Vien. <he>ויערק׳</he>, corr. acc.), v. <cite ref=\"A00438\"><he>אֲדַק</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַעְדִּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to squeeze out, push away</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 16:28\">Targ. Prov. XVI, 28</cite> Var., v. <cite ref=\"P01442\"><he>עֲרַק</he></cite>."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

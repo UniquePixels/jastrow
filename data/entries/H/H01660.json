@@ -1,0 +1,45 @@
+{
+	"id": "H01660",
+	"slug": "חרט-1",
+	"headword": {
+		"text": "חָרַט"
+	},
+	"page": {
+		"number": 501,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to scrape; to chisel</i>. Tanḥ. Ki Thissa 14 below the Israelites were sitting <he>חוֹרְטִין את העגל וכ׳</he> chiselling the calf …, and above the Lord engraving the tablets.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֶחֱרִיט"],
+			"senses": [
+				{
+					"gloss": "<i>to model</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 3:2\">Pirké d’R. El. ch. III</cite> <he>אם איני מַחֲרִיט … יסודותיו וכ׳</he> unless he models … its foundations and its entrances and exits, he does not begin to build. ",
+						"<cite ref=\"Pirkei DeRabbi Eliezer 3:5\">Ib.</cite> <he>הקב״ה ה׳ לפניו וכ׳</he> the Lord modelled before Him the world, but it would not stand."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְחָרֵט"],
+			"senses": [
+				{
+					"gloss": " [<i>to scratch one’s self</i>,] <i>to regret, feel sorry</i>. ",
+					"units": [
+						"<cite ref=\"Chagigah 5a:9\">Ḥag. 5ᵃ</cite> <he>ומִתְחָרֵט בו</he> and feels sorry for it. ",
+						"<cite ref=\"Niddah 31b:36\">Nidd. 31ᵇ</cite> <he>מִתְחָרֶטֶת</he> she regrets (her vow of abstinence); a. fr. V. <cite ref=\"H01662\"><he>חֲרָטָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

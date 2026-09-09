@@ -1,0 +1,22 @@
+{
+	"id": "P00523",
+	"slug": "עיזה",
+	"headword": {
+		"text": "עִיזָּה"
+	},
+	"page": {
+		"number": 1068,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"P00387\"><he>עֵז</he></cite>) <i>she-goat</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bikkurim 2:6:2\">Y. Bicc. II, end, 65ᵇ</cite> (expl. <cite ref=\"K00243\"><he>כוי</he></cite>) <he>צבי שעלה ע״ג ע׳</he> a hybrid of deer and goat."
+			]
+		}
+	]
+}

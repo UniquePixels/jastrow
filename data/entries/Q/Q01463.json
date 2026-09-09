@@ -1,0 +1,23 @@
+{
+	"id": "Q01463",
+	"slug": "פקוסים-1",
+	"headword": {
+		"text": "פְּקוֹסִים"
+	},
+	"page": {
+		"number": 1207,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. nom. gent. <i>P’ḳosim</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 37:5\">Gen. R. s. 37</cite> (expl. <he>כסלחים</he>, <cite ref=\"Genesis 10:14\">Gen. X, 14</cite>). [‘Rashi’ translates our w. by <he>קונטירי״ש</he>(?).]"
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "Q01286",
+	"slug": "פסיל",
+	"headword": {
+		"text": "פָּסִיל"
+	},
+	"page": {
+		"number": 1195,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"Q01325\"><he>פָּסַל</he></cite>)<i>hewn image.—</i>Pl. <he>פְּסִילִים</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:3:12\">Y. Ber. IV, 8ᵃ</cite> <he>ויחללוה עובדי פ׳</he> and which idolaters have desecrated. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 30:5\">Pirké d’R. El. ch. XXX</cite> <he>הפ׳ של בית וכ׳</he> the images of the house of Pharaoh her father; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>chisel</i>, v. <cite ref=\"Q01288\"><he>פְּסִילָה</he></cite>.—[<cite ref=\"Jerusalem Talmud Nedarim 1:2:3\">Y. Ned. I, 37ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Nazir 1:1:6\">Y. Naz. I, beg. 51ᵃ</cite> <he>נזיר פסילים</he>, v. <cite ref=\"Q01289\"><he>פְּסִילּוֹס</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

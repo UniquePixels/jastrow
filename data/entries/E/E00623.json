@@ -1,0 +1,32 @@
+{
+	"id": "E00623",
+	"slug": "המם-2",
+	"headword": {
+		"text": "הֲמַם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 355,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"E00622\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"E00622\"><he>הַמֵּם</he></cite>, or <i>Af.</i> <he>אַהֲמֵם</he> <i>to sweep</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 14:23\">Targ. Is. XIV, 23</cite> (h. text <he>טאטא</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

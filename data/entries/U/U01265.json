@@ -1,0 +1,60 @@
+{
+	"id": "U01265",
+	"slug": "שלח-1",
+	"headword": {
+		"text": "שָׁלַח"
+	},
+	"page": {
+		"number": 1579,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"U01214\"><he>שָׁלָה</he></cite>)<i>to draw out; to stretch forth; to send</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 3:2\">Erub. III, 2</cite> <he>השׁוֹלֵחַ ערובו וכ׳</he> if one sends his ‘Erub (<cite ref=\"P01306\"><he>עֵרוּב</he></cite>) forth to be laid by a deaf and dumb person. ",
+				"<cite ref=\"Chullin 59b:7\">Ḥull. 59ᵇ</cite>, a. fr. <he>שָׁלְחוּ מתם</he> they sent word from there (from Palestine to Babylonia). ",
+				"<cite ref=\"Mishnah Gittin 4:1\">Gitt. IV, 1</cite> <he>השולח גט וכ׳</he> if a man sends a letter of divorce to his wife &c. ",
+				"<cite ref=\"Mishnah Bava Kamma 6:4\">B. Kam. VI, 4</cite>, v. <cite ref=\"B01065\"><he>בְּעֵרָה</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Kamma 6:4\">Ib.</cite> <he>ש׳ ביד פיקח</he> (ib. 60ᵃ <cite ref=\"U01265\"><he>שִׁילֵּחַ</he></cite>) if he sent out fire through a sane person; a. fr.—Part. pass. <cite ref=\"U01243\"><he>שָׁלוּחַ</he></cite> q. v.—<he>ש׳ יד ב־</he> [<i>to stretch out a hand against,</i>] <i>to make illegitimate use of, to misappropriate</i> (<cite ref=\"Exodus 22:10\">Ex. XXII, 10</cite>). ",
+				"<cite ref=\"Mishnah Bava Metzia 3:12\">B. Mets. III, 12</cite> <he>השולח יד בפקדון</he> if a person makes use of a trust. ",
+				"<cite ref=\"Mishnah Bava Metzia 3:12\">Ib.</cite> <he>החושב לִשְׁלוֹחַ יד וכ׳</he> if he declares his intention to use a trust; <he>אינו חייב עד שיִשְׁלַח בו יד</he> he is not responsible (for loss), until he has used it; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁלֵּחַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01264\">same</cite>, <i>to send; to send away, dismiss</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Beitzah 1:9\">Bets. I, 9</cite> <he>אין מְשַׁלְּחִין בי״ט וכ׳</he> on the Holy Day you dare not send (to a friend) anything except portions (of eatables, ready for use); <he>משלחין בהמה וכ׳</he> you may send cattle … alive or slaughtered. ",
+						"<cite ref=\"Mishnah Chullin 12:3\">Ḥull. XII, 3</cite> <he>שִׁלְּחָהּ וחזרה</he> if he sent the mother bird away, and she came back. ",
+						"<cite ref=\"Mishnah Chullin 12:3\">Ib.</cite> <he>אמר … ומְשַׁלֵּחַ הבנים</he> if he says, I will take the mother, and send the young away; <he>חייב לשַׁלֵּחַ</he> he is bound to send her away. ",
+						"<cite ref=\"Bereishit Rabbah 21\">Gen. R. s. 21</cite> <he>שִׁלְּחוֹ מגן … ושלחו וכ׳</he> he banished him (Adam) from the paradise of this world and from that of the other world; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁתַּלֵּחַ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִשְׁתַּלֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be sent off; to be commissioned</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Yoma 6:2\">Yoma VI, 2</cite>, a. e. <cite ref=\"E00942\"><he>המִשְׁתַּלֵּחַ</he></cite> the goat that is to be sent away (<cite ref=\"Leviticus 16:10\">Lev. XVI, 10</cite>), the scapegoat. Ib. 1 <he>נשפך … המשתלח</he> if the blood (of the goat designated for sacrifice) was spilt, the scapegoat is to be put to death (cannot be used for the ceremony). ",
+						"<cite ref=\"Bereishit Rabbah 49:2\">Gen. R. s. 49</cite> <he>מעשה באחד שנש׳ לגבות וכ׳</he> it happened that one was commissioned to tax the inhabitants &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "C00180",
+	"slug": "גדול-1",
+	"headword": {
+		"text": "גָּדוֹל"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּדוֹלָה"
+		}
+	],
+	"page": {
+		"number": 211,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>גדל</he>)<i>great, distinguished;</i> (noun) <i>a great man, leader</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 94b:2\">Sabb. 94ᵇ</cite>, a. fr. <he>ג׳ כבוד הבריות וכ׳</he> human dignity is something great, for it overrules a prohibitive law &c. ",
+				"<cite ref=\"Nedarim 49b:11\">Ned. 49ᵇ</cite> <he>ג׳ מלאכה וכ׳</he> labor is something great, for it honors him who pursues it.—",
+				"<cite ref=\"Mishnah Sotah 1:9\">Sot. I, 9</cite> <he>ג׳ ממנו</he> his superior. ",
+				"<cite ref=\"Bereishit Rabbah 100:8\">Gen. R. s. 100</cite> <he>גְּדוֹל העולמים</he> the Great One of the worlds, the Lord.—",
+				"<cite ref=\"Sanhedrin 21b:15\">Snh. 21ᵇ</cite> <he>גְּ׳ העולם</he> a world-renowned man (Solomon). ",
+				"<cite ref=\"Moed Katan 22a:1\">M. Kat. 22ᵃ</cite> <he>גְּ׳ הדור</he> a prominent man of his days. Y. ib. III, 82ᶜ top <he>גְּ׳ המשפחה</he> the chief of the family; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>adult, of age, older</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yevamot 2:8\">Yeb. II, 8</cite> <he>בג׳</he> on the eldest brother. ",
+				"<cite ref=\"Mishnah Yevamot 13:11\">Ib. XIII, 11</cite> <he>ג׳ וקטנה</he> if one of the brother’s widows is of age, and the other a minor; a. fr.—<he>כהן גדול</he> (abbr. <he>כ״ג</he>) <i>Highpriest</i>. ",
+				"<cite ref=\"Mishnah Yevamot 9:1\">Ib. IX, 1</cite>; a. fr.—Pl. <he>גְּדוֹלִים</he>, <he>גְּדוֹלִין</he>; <he>גְּדוֹלוֹת</he>. ",
+				"<cite ref=\"Kohelet Rabbah 7:8:1\">Koh. R. to VII, 8</cite> <he>גְּדוֹלֵי הדור</he> scholars, v. supra; <he>ג׳ ירושלים</he> prominent citizens of Jerusalem.—",
+				"<cite ref=\"Avodah Zarah 18a:9\">Ab. Zar. 18ᵃ</cite> <he>ג׳ רומי</he> Roman dignitaries; a. fr.—",
+				"<cite ref=\"Berakhot 23b:6\">Ber. 23ᵇ</cite>, a. e. <he>גדולים</he> (sub. <he>נקבים</he>) the larger functions of the body, movement of the bowels; v. <cite ref=\"D00985\"><he>דַּק</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

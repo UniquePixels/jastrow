@@ -1,0 +1,37 @@
+{
+	"id": "A00962",
+	"slug": "אזהרה",
+	"headword": {
+		"text": "אַזְהָרָה"
+	},
+	"page": {
+		"number": 37,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>זהר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>forewarning, prohibition</i>, esp. <i>the explicit prohibition</i> (‘<i>thou shalt not</i>’) <i>in the Bible</i>, required for punishing trespassers. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:41\">Y. Peah I, 16ᵃ</cite> top <he>א׳ ללה״ר</he> a biblical admonition against calumny. ",
+				"<cite ref=\"Bamidbar Rabbah 7:7\">Num. R. s. 7</cite> (play on <i>zara</i> <cite ref=\"Numbers 11:20\">Num. XI, 20</cite>) <he>והי׳ לכם לא׳</he> it shall be a warning to you. ",
+				"<cite ref=\"Yevamot 3b:15\">Yeb. 3ᵇ</cite> <he>א׳ שמענו וכ׳</he> we learn here the legal prohibition, whence do we derive the penalty? a. tr.—Pl. <he>אַזְהָרוֹת</he>. ",
+				"<cite ref=\"Mishnah Keritot 3:10\">Kerith. III, 10</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>enlightenment</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 7:3:1\">Cant. R. to VII, 3</cite>, v. <cite ref=\"A00445\"><he>אִדַּר</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

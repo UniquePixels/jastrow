@@ -1,0 +1,36 @@
+{
+	"id": "O00072",
+	"slug": "סבל-2",
+	"headword": {
+		"text": "סְבַל"
+	},
+	"page": {
+		"number": 950,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"O00071\">same</cite> <cite ref=\"Targum Jonathan on Deuteronomy 32:11\">Targ. Y. Deut. XXXII, 11</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 21:3\">Targ. Job XXI, 3</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 24:15\">Targ. Y. II, Deut. XXIV, 15</cite>; a. fr.—",
+				"<cite ref=\"Shir HaShirim Rabbah 5:14\">Cant. R. to V, 14</cite> <he>למִיסְבַּל</he>, v. <cite ref=\"O00077\"><he>סִבְנִי</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 38:13\">Gen. R. s. 38</cite> <he>דסָבֵיל רוחא</he>, v. <cite ref=\"T00346\"><he>רוּחָא</he></cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַבֵּל"],
+			"senses": [
+				{
+					"gloss": " (v. <cite ref=\"O00075\"><he>סִבָּלוֹן</he></cite>) <i>to send presents of betrothal</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 50b:8\">Kidd. 50ᵇ</cite> <he>מְסַבְּלֵי והדר מקדשי</he> where it is customary to send the presents before betrothal; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

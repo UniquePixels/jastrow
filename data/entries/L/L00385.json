@@ -1,0 +1,23 @@
+{
+	"id": "L00385",
+	"slug": "לטותא",
+	"headword": {
+		"text": "לְטוּתָא"
+	},
+	"page": {
+		"number": 705,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"L00387\"><he>לְטִי</he></cite>) <i>curse</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 48b:13\">Snh. 48ᵇ</cite> <he>לְטוּתֵיה דלַטְיֵיה אבוך</he> (<cite ref=\"Yalkut Shimoni on Nach 172\">Yalk. Kings 172</cite> <cite ref=\"L00215\"><he>לַוְוטָתָא</he></cite>) his curse with which thy father cursed him (euphemism for: the curse with which thy father cursed me). ",
+				"<cite ref=\"Niddah 13b:42\">Nidd. 13ᵇ</cite> <he>דינא תנן או ל׳ תנן</he> does the Mishnah (<cite ref=\"Mishnah Niddah 2:1\">Nidd. II, 1</cite>) mean a law (punishment) or an execration?"
+			]
+		}
+	]
+}

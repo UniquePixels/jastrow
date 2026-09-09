@@ -1,0 +1,38 @@
+{
+	"id": "K00325",
+	"slug": "כוסילתא",
+	"headword": {
+		"text": "כּוֹסֵילְתָּא"
+	},
+	"page": {
+		"number": 623,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00941\"><he>כסל</he></cite>, v. <cite ref=\"K00941\"><he>כֶּסֶל</he></cite>; cmp. P. Sm. s. v. 1786, sq.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the space between the shoulders</i> (interscapilium), <i>shoulder-blade</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 21b:15\">Taan. 21ᵇ</cite> [read:] <he>לבושא דיתיב ביה קרנא והוה בזיעא בי כ׳</he> (v. Var. in Rabb. D. S. a. l. note) a garment in which there was placed (fastened) a cup (for receiving the blood) which (garment) was cut in at the shoulder (so that the operator could let blood standing behind the female patient); [Ar. <he>לבושא דאית ליה ביזעי ביזעי באפי כ׳</he> a garment in which there were several incisions to correspond to the shoulder-blade.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the lancet for blood-letting</i>. <he>ריבדא דכ׳</he> the puncture made by the lancet. ",
+			"units": [
+				"<cite ref=\"Shabbat 129a:16\">Sabb. 129ᵃ</cite> <he>עד דנפיק מר׳ דכ׳</he> until the puncture was healed up. ",
+				"<cite ref=\"Sanhedrin 93b:10\">Snh. 93ᵇ</cite>. ",
+				"<cite ref=\"Makkot 21a:14\">Macc. 21ᵃ</cite>. ",
+				"<cite ref=\"Ketubot 39b:3\">Keth. 39ᵇ</cite> <he>כי ר׳ דכ׳</he> as much pain as is caused by the puncture of the lancet. ",
+				"<cite ref=\"Niddah 67a:6\">Nidd. 67ᵃ</cite> <he>הני רבדי דכ׳</he> the marks of the punctures &c."
+			],
+			"label": "2"
+		}
+	]
+}

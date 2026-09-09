@@ -1,0 +1,78 @@
+{
+	"id": "T00540",
+	"slug": "רחש-1",
+	"headword": {
+		"text": "רָחַשׁ"
+	},
+	"page": {
+		"number": 1469,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to move, vibrate</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:1:17\">Y. Ber. II, 4ᵇ</cite> bot. <he>האומר … שפתותיו רוֹחֲשׁוֹת עמו בקבר</he> if one reports a tradition in the name of its author, his (the author’s) lips move in the grave with him (the reporter); Y. M. Kat. III, 83ᶜ bot.; Y. Shek. II, end, 47ᵃ. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <cite ref=\"M02490\"><he>מְרַחֲשׁוֹת</he></cite> (<i>Pi.</i>, v. <cite ref=\"D00038\"><he>דָּבַב</he></cite>). ",
+				"<cite ref=\"Mishnah Menachot 5:8\">Men. V, 8</cite> (<cite ref=\"Menachot 63a:2\">63ᵃ</cite>) <he>מרחשת … ומעשיה רוֹחֲשִׁין</he> (Bab. ed. <he>רוחשין רכין</he>; Ms. M. only <he>רכין</he>, v. Rabb. D. S. a. l. note) a <i>marḥesheth</i> is deep, and the pastry made in it vibrates (like jelly), opp. <he>קשין</he>; Sifra Vayikra, N’dab., Par. 10, ch. XII; <cite ref=\"Vayikra Rabbah 3\">Lev. R. s. 3</cite>, end; <cite ref=\"Yalkut Shimoni on Torah 451:1\">Yalk. ib. 451</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to swarm</i>.—<i>Part. pass.</i> <cite ref=\"T00490\"><he>רָחוּשׁ</he></cite>; f. <he>רְחוּשָׁה</he> <i>crowded</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 30\">Lev. R. s. 30</cite>; Pesik. Ul’ḳaḥ., p. 184ᵃ sq., v. <cite ref=\"D00429\"><he>דָּחַס</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " with <cite ref=\"L00030\"><he>לב</he></cite>, <i>to be moved, to feel, think</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 45:3\">Midr. Till. to Ps. XLV, 2</cite> <he>לא יכלו … אלא כיון שר׳ לבם בתשובה וכ׳</he> they could not confess with their lips, but when their heart was moved in repentance, the Lord received them. ",
+				"<cite ref=\"Midrash Tehillim 45:3\">Ib.</cite> <he>אם בלבנו רָחַשְׁנוּ וכ׳</he> if we only have been thinking in our hearts, we have already told our deeds to the Lord; a. e."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִיחֵשׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00539\">same</cite>, <i>to move</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 88b:12\">Pes. 88ᵇ</cite> <he>הטילו … ורִיחֲשָׁה</he> they poured cold water upon it (the lizard), and it moved. Y. Shek. l. c., v. supra."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִרְחִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to move</i> (the lips); <i>to whisper, think</i>. Y. Ber. IV, beg. 7ᵃ (ref. to <cite ref=\"I Samuel 1:13\">I Sam. I, 13</cite>) <he>מיכן … להַרְחִישׁ בשפתותיו</he> from this we learn that he who prays must move his lips. ",
+					"units": [
+						"<cite ref=\"I Samuel 1:13\">Ib.</cite> <he>מַרְחִישׁ בשפתותיו</he>. ",
+						"<cite ref=\"Pesikta Rabbati 13:1\">Pesik. R. s. 13</cite> (ref. to <cite ref=\"Exodus 17:7\">Ex. XVII, 7</cite>) [read:] <he>אם מַרְחִישִׁים אנו בקרבנו דברים והוא יודע מה אנו מרחישים בקרבנו וכ׳</he> if we think words in our hearts, and he knows what we think in our hearts, we will worship him; (<cite ref=\"Shemot Rabbah 26:2\">Ex. R. s. 26</cite> <he>מהרהרים</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to swarm, come forth</i> (of worms); <i>to bring forth</i> (<i>worms</i>). ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 5:10:2\">Koh. R. to V, 10</cite> (ref. to <cite ref=\"Job 25:6\">Job XXV, 6</cite>) <he>אלו תולעים שמַרְחִישִׁין תחתיו במותו</he> that means the worms which come forth under him when he is dead. ",
+						"<cite ref=\"Bereishit Rabbah 23\">Gen. R. s. 23</cite> <he>התחיל המת מרחיש</he> (not <he>מרחש</he>) corpses began to beget worms; a. e.—Trnsf. <i>to bring forth in abundance</i>. ",
+						"<cite ref=\"Berakhot 17a:15\">Ber. 17ᵃ</cite> <he>יַרְחִישׁ</he>, v. <cite ref=\"T00850\"><he>רְנָנָה</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

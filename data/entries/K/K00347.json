@@ -1,0 +1,29 @@
+{
+	"id": "K00347",
+	"slug": "כופרא-2",
+	"headword": {
+		"text": "כּוּפְרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 624,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"K01048\"><he>כֹּפֶר</he></cite>; <cite ref=\"B01124\"><he>כפר</he></cite>, cmp. <cite ref=\"K00078\"><he>כַּבָּרִיתָא</he></cite>)<i>pitch</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 6:14\">Targ. O. Gen. VI, 14</cite>.—",
+				"<cite ref=\"Arakhin 19a:21\">Arakh. 19ᵃ</cite> <he>באתרא דתקלי כ׳</he> where they sell pitch by the weight. ",
+				"<cite ref=\"Gittin 69b:16\">Gitt. 69ᵇ</cite> <he>משחא דכ׳</he> oil of pitch (tar). ",
+				"<cite ref=\"Shabbat 74b:4\">Sabb. 74ᵇ</cite> <he>האי מאן דארתח כ׳</he> he who heats pitch (on the Sabbath). ",
+				"<cite ref=\"Bava Metzia 23b:9\">B. Mets. 23ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 70a:1\">Ib. 70ᵃ</cite> top <he>בני כ׳</he> <i>sailors</i> (‘tars’).—Pl. <cite ref=\"K00351\"><he>כּוּפְרֵי</he></cite>. ",
+				"<cite ref=\"Shabbat 67a:1\">Sabb. 67ᵃ</cite> <he>ז׳ כ׳ מז׳ ארכי</he> seven kinds of pitch taken from seven ships. [<cite ref=\"Bava Kamma 101a\">B. Kam. 101ᵃ</cite> top. v. <cite ref=\"K01051\"><he>כַּפְרָא</he></cite>.]"
+			]
+		}
+	]
+}

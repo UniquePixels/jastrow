@@ -1,0 +1,27 @@
+{
+	"id": "P00658",
+	"slug": "עיקום",
+	"headword": {
+		"text": "עִיקּוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִקּ׳"
+		}
+	],
+	"page": {
+		"number": 1074,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01197\"><he>עָקַם</he></cite>) <i>curve</i>.—Pl. <he>עִיקּוּמִים</he>, <cite ref=\"P00657\"><he>עִקּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 41\">Gen. R. s. 41</cite>, beg, v. <cite ref=\"O00811\"><he>סִיקוֹסִים</he> II</cite>."
+			]
+		}
+	]
+}

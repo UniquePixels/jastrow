@@ -1,0 +1,23 @@
+{
+	"id": "A02349",
+	"slug": "אסטבלאטא",
+	"headword": {
+		"text": "אִסְטַבְלָאטָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 89,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (stabulata, D. C. = stabularius, σταβλίτης) <i>equerry</i>. Pl. <cite ref=\"A02349\"><he>אִסְטַבְלָאטֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 3:14\">Esth. R. to I, 12</cite> <he>קומוס א׳</he> (read <cite ref=\"S00396\"><he>קוֹמֵיס</he></cite>) chief of equerries (comes stabuli) [prob. to be read <he>אִסְטָאבוּלִי</he>]."
+			]
+		}
+	]
+}

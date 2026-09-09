@@ -1,0 +1,32 @@
+{
+	"id": "M01435",
+	"slug": "מכר-2",
+	"headword": {
+		"text": "מְכַר",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 784,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"M00207\"><he>אִתְמַכַּר</he></cite> (denom. of <cite ref=\"M01437\"><he>מַכָּר</he></cite>) <i>to be made acquainted</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 19:14\">Targ. Prov. XIX, 14</cite> Var. ed. Lag. (ed. <he>מתמסרא</he>, v. <cite ref=\"M02007\"><he>מְסַר</he></cite>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

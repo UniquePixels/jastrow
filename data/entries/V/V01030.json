@@ -1,0 +1,59 @@
+{
+	"id": "V01030",
+	"slug": "תרע-2",
+	"headword": {
+		"text": "תְּרַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1700,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<i>Tafel</i> of <cite ref=\"T00915\"><he>רְעַע</he></cite>) <i>to break, shatter, make a breach</i> (corresp. to h. <cite ref=\"Q01968\"><he>פָּרַץ</he></cite>, a. <cite ref=\"N01386\"><he>נָתַץ</he></cite>). Targ. ",
+			"units": [
+				"<cite ref=\"Judges 6:30\">Jdg. VI, 30</cite>. ",
+				"<cite ref=\"Judges 8:9\">Ib. VIII, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 6:8\">Targ. II Sam. VI, 8</cite>; a. fr.—<i>Part. pass.</i> <cite ref=\"V00998\"><he>תְּרִיעַ</he></cite>; f. <cite ref=\"V00998\"><he>תְּרִיעָא</he></cite> <i>broken into, open</i>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:28\">Targ. Prov. XXV, 28</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:56\">Y. Peah I, 16ᵇ</cite> bot.; Y. Shebu. II, end, 33ᶜ, a. e. <he>ותַרְעִין וכ׳</he>, v. <cite ref=\"O00243\"><he>סוּג</he></cite> I ch."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תָּרַע", "תַּרַע"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V01029\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 49:6\">Targ. O. Gen. XLIX, 6</cite> <he>תָּרַעוּ</he> ed. Berl. (ed. Vien. <he>תַּרְעוּ</he>). ",
+						"<cite ref=\"Onkelos Leviticus 14:45\">Targ. O. Lev. XIV, 45</cite> ed. Berl. (ed. Vien. <i>Pe.</i>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 2:9\">Targ. Ps. II, 9</cite> <he>תְּתָרָעִי׳</he> Ms. (ed. <i>Pe.</i>); a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְּרַע", "אִתְתְּרַע"],
+			"senses": [],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אִתָּרַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be broken, shattered, be broken into</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 29:18\">Targ. Prov. XXIX, 18</cite> (h. text <he>יפרע</he>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 39:2\">Targ. Jer. XXXIX, 2</cite>. Targ. ",
+						"<cite ref=\"Judges 6:28\">Jdg. VI, 28</cite>; a. fr.; v. <cite ref=\"T00915\"><he>רְעַע</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

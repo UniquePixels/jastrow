@@ -1,0 +1,29 @@
+{
+	"id": "V00327",
+	"slug": "תושבחה",
+	"headword": {
+		"text": "תּוּשְׁבָּחָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּשְׁ׳"
+		}
+	],
+	"page": {
+		"number": 1659,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00096\"><he>שָׁבַח</he></cite>) <i>praise.—</i>Pl. <he>תּוּשְׁבָּחוֹת</he>, <cite ref=\"V00327\"><he>תִּשְׁ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Berakhot 3b:22\">Ber. 3ᵇ</cite> <he>עד חצות … בשירות ות׳</he> until midnight he (David) was engaged in the study of the Law, and henceforward in songs and praises. ",
+				"<cite ref=\"Pesachim 117a:8\">Pes. 117ᵃ</cite> <he>כל תוש׳ האמורות וכ׳</he> (some ed. <he>תש׳</he>) all praises in the Book of Psalms are composed by David. ",
+				"<cite ref=\"Megillah 12b:2\">Meg. 12ᵇ</cite> <he>שישראל … ובדברי ת׳ וכ׳</he> when the Israelites eat and drink, they begin (their conversations) with words of the Law and words (songs) of praises, but the nations …, with words of frivolity; a. fr."
+			]
+		}
+	]
+}

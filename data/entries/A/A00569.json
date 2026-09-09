@@ -1,0 +1,36 @@
+{
+	"id": "A00569",
+	"slug": "אודנא-1",
+	"headword": {
+		"text": "אוּדְנָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 22,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (from its shape, v. <cite ref=\"A00568\">foreg.</cite> a. P. Sm. 40) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>leather-bottle, jar</i> (a liquid measure). Pl. <he>אוּדְנִין</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 4:6:9\">Y. Maas. Sh. IV, 55ᵇ</cite> bot. (to one who had dreamt he had four <i>udnin</i> = ears, v. <cite ref=\"A00568\">foreg.</cite>) <he>מלוי את תרתי אֻדְנָיךְ ותרתי אוּדְנוֹי דגרבא</he> thou shalt have wine enough to fill thy own two <i>udnin</i> (wine jars), and two <i>udnin</i> (measures) of a garba (v. <cite ref=\"C01233\"><he>גַּרְבָּא</he> I</cite>) besides."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (Syr. <cite ref=\"A00607\"><he>אוזנא</he></cite>, <he>וזנא</he> P. Sm. 49, 1061) <i>bath-tub</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 22a\">Ber. 22ᵃ</cite> was sitting <he>בא׳ דמיא</he> Ar. (ed. <cite ref=\"B00012\"><he>באגנא</he></cite>, Ms. Beth. Nath. <he>באוזנא</he>) in a tub filled with an <i>udna</i> of water. ",
+				"<cite ref=\"Shabbat 157b\">Sabb. 157ᵇ</cite> <he>א׳ דמיא</he> … Ar. (ed. <he>באוונא</he>, Ms. M. <he>אַדָּנָא</he>) by a bath-tub."
+			],
+			"label": "2"
+		}
+	]
+}

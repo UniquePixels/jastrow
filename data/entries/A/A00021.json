@@ -1,0 +1,33 @@
+{
+	"id": "A00021",
+	"slug": "אכאבית-1",
+	"headword": {
+		"text": "אַכְאָבִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲבָבִית"
+		},
+		{
+			"text": "עַבְעָבִית"
+		},
+		{
+			"text": "עֲבָבִית"
+		},
+		{
+			"text": "עַוְעָוִית"
+		}
+	],
+	"page": {
+		"number": 2,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (reduplic. of <cite ref=\"A00013\"><he>אב</he></cite>, <cite ref=\"P00007\"><he>עב</he></cite>, <he>עו</he>; v. <cite ref=\"P00236\"><he>עַוִּית</he></cite>) prop. <i>swelling, heaviness</i> (cmp. <cite ref=\"K00004\"><he>כאב</he></cite>), hence <i>disorder of the stomach, vomiting</i> (spasms); usu. in connection with <he>חמה</he>, <i>fever with vomiting</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 19\">Gen. R. s. 19</cite> did you ever hear, this ass here that is driven out <he>חמה עליה אבבית עליה</he> Ar. (ed. corrup. <he>צינה עליו כמה חככים עליו</he>) has fever, has vomiting (spasms)? <cite ref=\"Bereishit Rabbah 53:13\">Gen. R. s. 53</cite> <he>חמה ואכאבית</he>. V. <cite ref=\"A00021\"><he>אַכְאָבִית</he></cite>."
+			]
+		}
+	]
+}

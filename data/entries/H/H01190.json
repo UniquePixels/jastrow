@@ -1,0 +1,34 @@
+{
+	"id": "H01190",
+	"slug": "חמיר-2",
+	"headword": {
+		"text": "חֲמִיר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חָמִיר"
+		},
+		{
+			"text": "חֲמִירָא"
+		}
+	],
+	"page": {
+		"number": 477,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חֲמַר</he> II) <i>strong leaven</i> (h. ; <i>leavened bread</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 12:15\">Targ. Ex. XII, 15</cite>; a. fr.—",
+				"<cite ref=\"Pesachim 5b:15\">Pes. 5ᵇ</cite>, v. <cite ref=\"B01063\"><he>בְּעַר</he></cite>.—",
+				"<cite ref=\"Avodah Zarah 66a:8\">Ab. Zar. 66ᵃ</cite> <he>ח׳ דשערי</he> leaven of barley flour. ",
+				"<cite ref=\"Menachot 43a:2\">Men. 43ᵃ</cite>, v. <cite ref=\"A03159\"><he>אַרְכְּסָא</he></cite>; a. fr."
+			]
+		}
+	]
+}

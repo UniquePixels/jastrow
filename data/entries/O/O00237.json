@@ -1,0 +1,22 @@
+{
+	"id": "O00237",
+	"slug": "סובעא",
+	"headword": {
+		"text": "סוֹבְעָא"
+	},
+	"page": {
+		"number": 960,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00081\"><he>סְבע</he></cite>) <i>plenty</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 16:11\">Targ. Ps. XVI, 11</cite>. [<cite ref=\"O00237\"><he>סוּבְעָא</he></cite>, v. <cite ref=\"O00082\"><he>סִבְעָא</he></cite>.]"
+			]
+		}
+	]
+}

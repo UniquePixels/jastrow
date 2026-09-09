@@ -1,0 +1,25 @@
+{
+	"id": "A01056",
+	"slug": "אחרינא",
+	"headword": {
+		"text": "אַחֲרִינָא"
+	},
+	"page": {
+		"number": 41,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>another</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 12a:10\">Ḥull. 12ᵃ</cite> <he>אינש א׳</he> another man. ",
+				"<cite ref=\"Beitzah 28a:6\">Bets. 28ᵃ</cite> <he>מידי א׳</he> something different.—<he>לישנא א׳</he> (abbr. <he>ל״א</he>) another version. ",
+				"<cite ref=\"Pesachim 97b:5\">Pes. 97ᵇ</cite>, a. fr.—Pl. <he>אַחְרִינֵי</he>. ",
+				"<cite ref=\"Yevamot 45a:15\">Yeb. 45ᵃ</cite>; a. fr. Cmp. <cite ref=\"A01060\"><he>אָחֳרָן</he></cite>."
+			]
+		}
+	]
+}

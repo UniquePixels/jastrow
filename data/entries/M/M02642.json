@@ -1,0 +1,53 @@
+{
+	"id": "M02642",
+	"slug": "מרט-1",
+	"headword": {
+		"text": "מָרַט"
+	},
+	"page": {
+		"number": 841,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to pluck off</i> (hair, wool &c.); <i>to pull</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 9:20\">Tosef. Sabb. IX</cite> (<cite ref=\"Tosefta Shabbat 10:20\">X</cite>), 20; <cite ref=\"Shabbat 74b:7\">Sabb. 74ᵇ</cite> <he>והמוֹרְטוֹ</he> and he who plucks the down off the large feather of the wing. ",
+				"<cite ref=\"Bava Metzia 68b:7\">B. Mets. 68ᵇ</cite> <he>גוזזות ושוטפות ומוֹרְטוֹת</he> (Ar. <he>גזוזות</he>) they yield wool by being shorn, by passing through water, and by being plucked (in passing bushes &c.; [prob. to be read <he>גזוזות ושטופות ומְרוּטוֹת</he>]."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מֵירֵט"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M02641\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Nazir 39b:6\">Naz. 39ᵇ</cite> <he>תלש מ׳ סיפסף וכ׳</he> if he pinced his hair (near the root), plucked it off, or trimmed it &c.; (Ar. s. v. <cite ref=\"O01399\"><he>ספסף</he></cite>: ‘created a bald spot by using a depilatory’). Sabb. l. c. <he>מְמָרֵט חייב משום ממחק</he> he who plucks the down (v. supra) is guilty of an act coming under the head of scraping (leather).—<i>Part. pass.</i> <he>מְמוֹרָט</he> <i>bald-headed</i>. ",
+						"<cite ref=\"Nazir 46b\">Naz. 46ᵇ</cite>; <cite ref=\"Yoma 61b:5\">Yoma 61ᵇ</cite> <he>נזיר ממ׳</he>; <cite ref=\"Tosefta Nazir 1:6\">Tosef. Naz. I, 6</cite> <he>המוֹרָט</he>; Y. ib. VI, end, 55ᵈ <he>נזיר ומירט</he> (read: <he>נזיר ממ׳</he> or <cite ref=\"M00637\"><he>מורט</he></cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to smooth, polish</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> <he>נחשת ממורט</he> (prob. to be read: <he>מְמוֹרֶטֶת</he>) polished bronze."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִמְרַט"],
+			"senses": [
+				{
+					"gloss": "<i>to be plucked, to be bald</i>. Sifra Thazr., Par. 5, ch. X <he>נ׳ ראשו וכ׳</he> if his head became bald through sickness.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

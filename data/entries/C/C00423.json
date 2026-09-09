@@ -1,0 +1,33 @@
+{
+	"id": "C00423",
+	"slug": "גומרא",
+	"headword": {
+		"text": "גּוּמְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּמְרָה"
+		}
+	],
+	"page": {
+		"number": 223,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גמר</he> <i>to consume</i>) <i>burning, glowing coal</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 27:5\">Targ. Y. Ex. XXVII, 5</cite>.—Y. Bets. II, 61ᶜ top; <cite ref=\"Jerusalem Talmud Maaser Sheni 5:3:9\">Y. Maas. Sh. V, 56ᶜ</cite> top; <cite ref=\"Jerusalem Talmud Chagigah 2:3:5\">Y. Ḥag. II, 78ᵃ</cite> bot. (prov.) <he>כל ג׳ דלא כויה וכ׳</he> a coal which does not burn you in its time, will never burn you.—Pl. <he>גּוּמְרִין</he>, <he>גּוּמְרַיָּא</he>, <he>גּוּמְרֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 3:24\">Targ. Y. Gen. III, 24</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 5:7\">Targ. Job V, 7</cite>; a. e.—",
+				"<cite ref=\"Targum Jonathan on Exodus 38:4\">Targ. Y. Ex. XXXVIII, 4</cite> <he>גורמיא</he> (corr. acc.), v. <cite ref=\"C01354\"><he>גַּרְמָא</he></cite>. ",
+				"<cite ref=\"Chullin 93b\">Ḥull. 93ᵇ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 51\">Gen. R. s. 51</cite> (ref. to <cite ref=\"Q00471\"><he>פחים</he></cite>, <cite ref=\"Psalms 11:6\">Ps. XI, 6</cite>) <he>ג׳ ומצדין</he> burning coals (= <he>פחמים</he>) or snares; <cite ref=\"Yalkut Shimoni on Nach 655:1\">Yalk. Ps. 655</cite>, cmp. ",
+				"<cite ref=\"Midrash Tehillim 11\">Midr. Till. to Ps. XI. Sabb. 11</cite><cite ref=\"Shabbat 110a\">Sabb. 110ᵃ</cite>; a. e."
+			]
+		}
+	]
+}

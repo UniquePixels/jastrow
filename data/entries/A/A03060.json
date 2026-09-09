@@ -1,0 +1,29 @@
+{
+	"id": "A03060",
+	"slug": "ארזפתא-2",
+	"headword": {
+		"text": "אַרְזַפְתָּא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אַפְרַזְתָּא"
+		}
+	],
+	"page": {
+		"number": 117,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"G00395\"><he>זַיִף</he></cite>, a. <cite ref=\"A03009\"><he>אַרְדַּפְנֵי</he></cite> = <he>הַרְדַּ׳</he>; cmp. Löw, Pfl. p. 320) <i>hypericum</i> (<i>barbatum</i>), <i>St</i>. <i>John’s wort</i>, a plant said to be fatal to cattle. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 47b:11\">B. Kam. 47ᵇ</cite> <he>באר׳</he> Ar. a. Ms. H. (Var. <cite ref=\"E00848\"><he>הרזיפא</he></cite>, v. Koh. Ar.; ed. <he>אפר׳</he>) under ‘poison’ is meant <i>arzafta</i> which may also be called <i>peré</i> (<i>fruit</i>, produces of the earth). ",
+				"<cite ref=\"Bava Batra 20a:3\">B. Bath. 20ᵃ</cite> <he>אר׳</he> Ar. (Ms. <cite ref=\"A03173\"><he>אר׳</he></cite>, changed into <cite ref=\"A01567\"><he>אפ׳</he></cite> as ed.). Cmp. <cite ref=\"E00849\"><he>הַרְזִיפּוּ</he></cite>."
+			]
+		}
+	]
+}

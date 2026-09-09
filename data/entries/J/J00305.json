@@ -1,0 +1,27 @@
+{
+	"id": "J00305",
+	"slug": "יחף-1",
+	"headword": {
+		"text": "יָחֵף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 575,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"H01466\"><he>חָפַף</he> II</cite>) <i>rubbed off, bare</i>, esp. <i>bare-footed, foot-sore</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:5\">Y. Snh. X, 28ᵇ</cite> bot (expl. <he>אט</he> <cite ref=\"I Kings 21:27\">I Kings XXI, 27</cite>) <he>היה מהלך י׳</he> he walked bare-footed (in penance); <cite ref=\"Shir HaShirim Rabbah 1:5:2\">Cant. R. to I, 5</cite>.—",
+				"<cite ref=\"Yoma 77a:12\">Yoma 77ᵃ</cite> (ref. to <cite ref=\"II Samuel 15:30\">II Sam. XV, 30</cite>) <he>י׳ ממאי וכ׳</he> ‘bare’ of what?—Does it not mean bare of sandals?; v. <cite ref=\"M01070\"><he>מְטַרְקָא</he></cite>.—",
+				"<cite ref=\"Shabbat 114a:4\">Sabb. 114ᵃ</cite> (ref. to <cite ref=\"Isaiah 20:3\">Is. XX, 3</cite>) <he>י׳ במנעלים וכ׳</he> ‘bare’ means in patched shoes; a. fr.—Pl. <he>יְחֵפִים</he>, <he>יְחֵפִין</he>, <he>יְחֵי׳</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 5:8\">Num. R. s. 5</cite>; a. fr.—Fem. <cite ref=\"J00291\"><he>יְחֵפָה</he></cite>, <he>יְחֵי׳</he>. Ruth. R. to I, 19; a. e.—Pl. <he>יְחֵיפוֹת</he>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 601:3\">Yalk. Ruth 601</cite> (<cite ref=\"Ruth Rabbah 2:12\">Ruth R. to I, 7</cite> <he>ביַיחַף</he>); a. e."
+			]
+		}
+	]
+}

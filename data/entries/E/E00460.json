@@ -1,0 +1,24 @@
+{
+	"id": "E00460",
+	"slug": "הינון",
+	"headword": {
+		"text": "הִינוּן"
+	},
+	"page": {
+		"number": 348,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (= <he>הָא אִינוּן</he>) <i>those, exactly those</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 2:4:6\">Y. R. Hash. II, 58ᵃ</cite> bot. <he>בה׳ דהוון קיימין וכ׳</he> in the case of such witnesses as had been standing (at the time of observation) &c. ",
+				"<cite ref=\"Bereishit Rabbah 9:12\">Gen. R. s. 9</cite>, end <he>ה׳ אותיות דדין ה׳ וכ׳</he> the same letters form both words (<cite ref=\"M00005\"><he>מאד</he></cite> a. <he>אדם</he>)."
+			]
+		}
+	]
+}

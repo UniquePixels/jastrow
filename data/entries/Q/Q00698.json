@@ -1,0 +1,23 @@
+{
+	"id": "Q00698",
+	"slug": "פיליון-1",
+	"headword": {
+		"text": "פִּילְיוֹן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1164,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (pilleum, πιλίον) <i>felt-cap</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 29:1\">Kel. XXIX, 1</cite>, v. <cite ref=\"A02690\"><he>אַפִּילְיוֹן</he> III</cite>.—[<cite ref=\"Jerusalem Talmud Shabbat 16:4:1\">Y. Sabb. XVI, 15ᵈ</cite> top <he>ופי׳</he>, read: <he>ופַלְיוֹן</he>, v. <cite ref=\"A02738\"><he>אַפַּלְיוֹן</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "K00345",
+	"slug": "כופר-3",
+	"headword": {
+		"text": "כּוֹפֶר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 624,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"K01048\"><he>כֹּפֶר</he></cite>; <cite ref=\"K01046\"><he>כָּפַר</he></cite>)<i>indemnity, fine</i>; [<i>atonement</i>.] <cite ref=\"Mishnah Bava Kamma 4:5\">B. Kam. IV, 5</cite> <he>משלם כ׳</he> must pay indemnity for a life lost. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 40a:15\">Ib. 40ᵃ</cite> <he>חצי כ׳</he> half the assessed fine. ",
+				"<cite ref=\"Bava Kamma 40a:16\">Ib.</cite> <he>כ׳ שלם אמר רחמנא וכ׳</he> the law (<cite ref=\"Exodus 21:30\">Ex. XXI, 30</cite>) speaks of a full indemnity (as an atonement) &c., v. <cite ref=\"K00346\">next w.</cite>; a. fr.—",
+				"<cite ref=\"Tractate Soferim 21:4\">Treat. Sof’rim XXI, 4</cite> <he>לשם כ׳</he> as an obligatory ransom, opp. <he>לשם נדבה</he>.—Pl. <he>כּוֹפְרִין</he>. B. Kam. l. c. <he>חייבי כ׳ מאי</he> how is it about seizing the property of those bound to pay indemnities?; a. fr."
+			]
+		}
+	]
+}

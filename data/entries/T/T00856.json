@@ -1,0 +1,41 @@
+{
+	"id": "T00856",
+	"slug": "רסיסא",
+	"headword": {
+		"text": "רְסִיסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְסִיסָה"
+		}
+	],
+	"page": {
+		"number": 1484,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00855\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>structure demolished by breaches</i>, opp. <cite ref=\"B01122\"><he>בְּקִיעָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 19:4\">Lev. R. s. 19</cite>, v. <cite ref=\"A01870\"><he>אָלִיס</he></cite>; <cite ref=\"Kohelet Rabbah 10:18:1\">Koh. R. to X, 18</cite>; <cite ref=\"Shir HaShirim Rabbah 4:14\">Cant. R. to IV, 14</cite> <cite ref=\"T00657\"><he>רִיסָּא</he></cite>, <cite ref=\"T00657\"><he>רִיסָּה</he></cite> (Ar. <he>ריסא לית מיניה אלא רסיס</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>drop</i>.—Pl. <he>רְסִיסַיָּא</he>, <he>רְסִיסִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 3:3\">Targ. Jer. III, 3</cite> (h. text <he>רביבים</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 14:22\">Ib. XIV, 22</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 32:2\">Targ. Deut. XXXII, 2</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

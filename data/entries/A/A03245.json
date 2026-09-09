@@ -1,0 +1,23 @@
+{
+	"id": "A03245",
+	"slug": "ארקתא-2",
+	"headword": {
+		"text": "אַרְקְתָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 126,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>shoe-thong</i>, v. <cite ref=\"P01445\"><he>עַרְקָא</he></cite>, <cite ref=\"P01453\"><he>עַרְקְתָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Yevamot 102a\">Yeb. 102ᵃ</cite>, v. <cite ref=\"A02746\"><he>אַפַּנְתָּא</he></cite>."
+			]
+		}
+	]
+}

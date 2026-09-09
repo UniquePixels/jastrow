@@ -1,0 +1,103 @@
+{
+	"id": "A00996",
+	"slug": "אחד-3",
+	"headword": {
+		"text": "אֲחַד"
+	},
+	"page": {
+		"number": 38,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": " (corresp. to h. <he>סגר</he> a. <he>תפש</he>; cmp. h. <cite ref=\"A01021\"><he>אחז</he></cite>) <i>to close</i> (the door), <i>to lock up; to seize, capture</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 22:22\">Targ. Is. XXII, 22</cite> <cite ref=\"H00256\"><he>אָחֵיד</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 22:22\">Ib.</cite> <cite ref=\"J00270\"><he>יֵיחוֹד</he></cite>, <cite ref=\"J00270\"><he>יִיחוֹד</he></cite> (fut.).—",
+				"<cite ref=\"Onkelos Deuteronomy 21:19\">Targ. Deut. XXI, 19</cite> <he>יְאַ׳</he> = <he>יַחֲדוּן</he> (Pa.; Var. <he>יֶחֱדוּן</he> = <he>יֶאֶח׳</he> Pe.). ",
+				"<cite ref=\"Targum Jonathan on Amos 3:5\">Targ. Am. III, 5</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 26a:7\">Snh. 26ᵃ</cite> bot., a. e. <he>אחדיה לדשא</he> locked the door. ",
+				"<cite ref=\"Pesachim 111b:1\">Pes. 111ᵇ</cite> <he>ליה רוחא אחדא</he> a spirit (demon, disease) seizes him.—<i>Part. pass.</i> <cite ref=\"A01025\"><he>אֲחִיד</he></cite> "
+			],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " <i>locked up</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Joshua 6:1\">Targ. Josh. VI, 1</cite>; a. e.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " (v. <he>אָחוּז</he>, s. v. <cite ref=\"A01021\"><he>אָחַז</he></cite>) <i>holding</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Amos 2:15\">Targ. Am. II, 15</cite>; a. fr.—<i>Part. pass. Pa</i>. <he>מְאַחַד</he> <i>locked up, hidden</i>. ",
+						"<cite ref=\"Aramaic Targum to Job 26:9\">Targ. Job. XXVI, 9</cite>. "
+					],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": "<i>to devote</i>, v. <cite ref=\"A01025\"><he>אֲחִיד</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H00256\"><he>אָחֵיד</he></cite>, <cite ref=\"A00995\"><he>אַחֵד</he></cite> ch. (v. <cite ref=\"A00995\">foreg.</cite>) ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אוֹחַד"],
+			"senses": [
+				{
+					"gloss": "<i>to seize</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 73:23\">Targ. Ps. LXXIII, 23</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְאָחַד", "אִתָּחַד"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְאֲחִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to be seized</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 19:4\">Targ. Ez. XIX, 4</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be locked up, joined</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 24:10\">Targ. Is. XXIV, 10</cite> <he>את אחידו …</he> (read <he>אתאחידו</he>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 59:10\">Ib. LIX, 10</cite> Rashi (ed. <he>אתא חד</he> corr. acc.). ",
+						"<cite ref=\"Aramaic Targum to Job 41:9\">Targ. Job XLI, 9</cite> (<cite ref=\"Aramaic Targum to Job 41:8\">8</cite>); a. e.—<he>אִתְּחִיד</he>. ",
+						"<cite ref=\"Chullin 52b\">Ḥull. 52ᵇ</cite> <he>א׳ דשא</he> the door was locked."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

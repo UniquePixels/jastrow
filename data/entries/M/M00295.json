@@ -1,0 +1,26 @@
+{
+	"id": "M00295",
+	"slug": "מדינה",
+	"headword": {
+		"text": "מְדִינָה"
+	},
+	"page": {
+		"number": 734,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"D00633\"><he>דִּין</he> I)</cite> [<i>jurisdiction</i>,] <i>district, country</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maaser Sheni 3:4\">Maas. Sh. III, 4</cite> (contrad. to Jerusalem). ",
+				"<cite ref=\"Mishnah Rosh Hashanah 4:3\">R. Hash. IV, 3</cite>; <cite ref=\"Mishnah Sukkah 3:12\">Succ. III, 12</cite> (contrad. to the Sanctuary); a. fr.—In gen. <i>province; large town, capital</i>. ",
+				"<cite ref=\"Pesachim 51a:3\">Pes. 51ᵃ</cite> <he>כל המ׳</he> all the people of the place. ",
+				"<cite ref=\"Bereishit Rabbah 50:12\">Gen. R. s. 50</cite>, end, v. <cite ref=\"P00684\"><he>עִירוֹנִי</he></cite>. ",
+				"<cite ref=\"Esther Rabbah 1:1\">Esth. R. to I, 1</cite> <he>כל מקום שנ׳ … עיר מ׳ מ׳ אפרכיה</he> wherever <i>ʿir</i> is used in the Scriptures, it means a capital, wherever <i>m’dinah</i> is used, it means an hyparchia (province); a. fr."
+			]
+		}
+	]
+}

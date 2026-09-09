@@ -1,0 +1,31 @@
+{
+	"id": "U01889",
+	"slug": "שקק-1",
+	"headword": {
+		"text": "שָׁקַק"
+	},
+	"page": {
+		"number": 1625,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"U00519\"><he>שׁוּק</he> I</cite>) <i>to desire</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite> (play on <he>משק</he>, <cite ref=\"Genesis 15:2\">Gen. XV, 2</cite>) that is Lot, <he>שנפשו שׁוֹקֶקֶת עליו וכ׳</he> whose soul within him longs to be my heir."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁתּוֹקֵק"],
+			"senses": [
+				{
+					"gloss": "; <i>Nithpol</i>. <he>נִשְׁתּוֹקֵק</he>, v. <cite ref=\"U00519\"><he>שׁוּק</he> I</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

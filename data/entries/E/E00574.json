@@ -1,0 +1,30 @@
+{
+	"id": "E00574",
+	"slug": "הללא",
+	"headword": {
+		"text": "הַלֵּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַלֵּילָא"
+		},
+		{
+			"text": "הַלֵּילָה"
+		}
+	],
+	"page": {
+		"number": 354,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"E00573\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Berakhot 56a:16\">Ber. 56ᵃ</cite> <he>ה׳ מצראה</he> (Ms. M. <he>הלי׳ דמצראי</he>) Egyptian Hallel, v. preced.—",
+				"<cite ref=\"Shir HaShirim Rabbah 2:14:1\">Cant. R. to II, 14</cite>; <cite ref=\"Pesachim 85b\">Pes. 85ᵇ</cite> bot.; Y. ib. VII, 35ᵇ bot., v. <cite ref=\"G00431\"><he>זֵיתָא</he> I</cite>.—",
+				"<cite ref=\"Taanit 28b:5\">Taan. 28ᵇ</cite> <he>ה׳ דבריש ירחא</he> (Ms. M. <he>הלל דר״ח</he>) the recitation of Hallel on the New Moon Day. ",
+				"<cite ref=\"Megillah 14a:8\">Meg. 14ᵃ</cite> <he>קרייתא זו ה׳</he> the reading of the <i>M’gillah</i> takes the place of Hallel; a. e."
+			]
+		}
+	]
+}

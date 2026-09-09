@@ -1,0 +1,31 @@
+{
+	"id": "M01545",
+	"slug": "מלי-3",
+	"headword": {
+		"text": "מְלִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַלְיָא"
+		},
+		{
+			"text": "מַלְיָיא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 789,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. ch. = h., <i>full</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 33:23\">Targ. Deut. XXXIII, 23</cite> (Var. <cite ref=\"M01545\"><he>מַלִי</he></cite>, <cite ref=\"M01542\"><he>מַלִּי</he></cite>, <cite ref=\"M01543\"><he>מְלֵי</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Ruth 1:21\">Targ. Ruth I, 21</cite>; a. fr.—",
+				"<cite ref=\"Eruvin 84a:10\">Erub. 84ᵃ</cite> <he>כי מליא</he> when the pit is full of water; a. fr.—Pl. <he>מְלַן</he>, <cite ref=\"M01554\"><he>מַלְיָין</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 6:11\">Targ. Deut. VI, 11</cite>; a. fr.—[<cite ref=\"Onkelos Deuteronomy 23:26\">Targ. O. Deut. XXIII, 26</cite> <he>דמַלְיָן</he> ed. Berl. those ears which are full (ripe; oth. ed. <cite ref=\"M01559\"><he>מְלִילָן</he></cite>).]"
+			]
+		}
+	]
+}

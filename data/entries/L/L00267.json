@@ -1,0 +1,48 @@
+{
+	"id": "L00267",
+	"slug": "לול-2",
+	"headword": {
+		"text": "לוּל"
+	},
+	"page": {
+		"number": 698,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.;contr. of <cite ref=\"L00619\"><he>לעל</he></cite>, apocop. of <he>לעלע</he> = <he>עלעל</he>, cmp. formation of <cite ref=\"K00934\"><he>כֶּסֶךְ</he></cite>; cmp. <cite ref=\"P00815\"><he>עָלל</he></cite>, <cite ref=\"P00831\"><he>עִלְעוֹל</he></cite>, <he>עִלְעֵל</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>winding pathway, passage way</i>, esp. <i>a small room with a staircase leading up to the upper rooms</i> (v. Sm. Ant. s. v. House, Amer. ed. 1858, p. 519ᵃ). ",
+			"units": [
+				"<cite ref=\"Menachot 34a:3\">Men. 34ᵃ</cite> <he>ל׳ פתוח מן הבית לעליה</he> a small room opening (leading) from the ground floor to the upper room. ",
+				"<cite ref=\"Pesachim 34a:9\">Pes. 34ᵃ</cite> <he>ל׳ קטן היה וכ׳</he> there was a small passage way between the graded ascent (<cite ref=\"K00084\"><he>כֶּבֶשׁ</he></cite>) and the altar; <cite ref=\"Pesachim 77a:18\">ib. 77ᵃ</cite> (<cite ref=\"Zevachim 62b:13\">Zeb. 62ᵇ</cite> <he>אויר</he>; <cite ref=\"Zevachim 104a\">ib. 104ᵃ</cite> <he>ריוח</he>).—Pl. <he>לוּלִים</he>, <cite ref=\"L00279\"><he>לוּלִין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 7:1:3\">Y. Erub. VII, beg. 24ᵇ</cite> <he>מהו לערב דרך ל׳</he> how about connecting two dwellings for Sabbath purposes by the way of the staircases (leading to the roofs)?—",
+				"<cite ref=\"Jerusalem Talmud Yoma 1:1:18\">Y. Yoma I, 38ᶜ</cite>; <cite ref=\"Jerusalem Talmud Megillah 4:12:5\">Y. Meg. IV, 75ᶜ</cite> bot. <he>ל׳ אלו ע״ג אלו וכ׳</he> staircases above each other (well-hole) require M’zuzah, (to be furnished by him) who has the right of use of the lower threshold. ",
+				"<cite ref=\"Pesachim 8a\">Pes. 8ᵃ</cite>; <cite ref=\"Yoma 11a\">Yoma 11ᵃ</cite> <he>ל׳ ומתבן</he> the staircase rooms and the provision room; [comment. refer to Nr. 3, v. infra]. ",
+				"<cite ref=\"Mishnah Middot 4:5\">Midd. IV, 5</cite>; <cite ref=\"Pesachim 26a:4\">Pes. 26ᵃ</cite> <he>ול׳ היו פתוחין וכ׳</he> there were small passages in the loft leading to the Holy of Holies through which mechanics were lowered in boxes (closed elevators)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (anat.) <i>a passage from the vestibulum vaginae</i> (<cite ref=\"Q01659\"><he>פרוזדור</he></cite>). ",
+			"units": [
+				"<cite ref=\"Niddah 17b\">Nidd. 17ᵇ</cite>, v. <cite ref=\"P00800\"><he>עֲלִיָּיה</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " ל׳ של תרנגולים <i>hen-roost</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 102b:6\">Sabb. 102ᵇ</cite> <he>העושה נקב בל׳ וכ׳</he> he who makes a hole (for ventilation) in a hen-roost; <cite ref=\"Shabbat 146a:12\">ib. 146ᵃ</cite> <he>משום ל׳ של וכ׳</he> in order to prevent making a hole in a hen-roost which is done for ventilation. ",
+				"<cite ref=\"Shabbat 122b:10\">Ib. 122ᵇ</cite>; a. e.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Pesachim 8a\">Pes. 8ᵃ</cite>; <cite ref=\"Yoma 11a\">Yoma 11ᵃ</cite> <he>ל׳ ומתבן</he> hen-roosts &c., v. supra."
+			],
+			"label": "3"
+		}
+	]
+}

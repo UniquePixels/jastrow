@@ -1,0 +1,34 @@
+{
+	"id": "Q01915",
+	"slug": "פרסא-2",
+	"headword": {
+		"text": "פַּרְסָא"
+	},
+	"page": {
+		"number": 1233,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"Q01919\"><he>פַּרְסָה</he> I</cite>, <i>Persian mile</i>.—Pl. <cite ref=\"Q01928\"><he>פַּרְסִין</he></cite>, <cite ref=\"Q01928\"><he>פַּרְסֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 10:32\">Targ. Is. X, 32</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 21:35\">Targ. Y. Num. XXI, 35</cite>; a. e.—",
+				"<cite ref=\"Chullin 59b:10\">Ḥull. 59ᵇ</cite>. ",
+				"<cite ref=\"Pesachim 94a:5\">Pes. 94ᵃ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Persian</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 55a:10\">B. Kam. 55ᵃ</cite> <he>גמלא פ׳</he> (Mss. H. a. R. <he>פרסאה</he>) a Persian camel, contrad. to an Arabian camel. ",
+				"<cite ref=\"Kiddushin 72a:9\">Kidd. 72ᵃ</cite>, v. <cite ref=\"N00307\"><he>נוּד</he></cite> ch."
+			],
+			"label": "2"
+		}
+	]
+}

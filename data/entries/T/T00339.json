@@ -1,0 +1,23 @@
+{
+	"id": "T00339",
+	"slug": "רוז-2",
+	"headword": {
+		"text": "רוֹז",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1458,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00338\">preced.</cite>) <i>joy</i> (?). ",
+			"units": [
+				"<cite ref=\"Bava Batra 90b:2\">B. Bath. 90ᵇ</cite> <he>ר׳ פפא</he> (Ms. M. <cite ref=\"T00459\"><he>רז</he></cite>) Papa’s Joy (?), name of a measure introduced by Papa, v. <cite ref=\"D00293\"><he>דּוֹן</he></cite>."
+			]
+		}
+	]
+}

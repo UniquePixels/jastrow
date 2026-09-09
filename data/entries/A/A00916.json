@@ -1,0 +1,23 @@
+{
+	"id": "A00916",
+	"slug": "אוש-3",
+	"headword": {
+		"text": "אוּשׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 35,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>אשש</he> 2, cmp. <cite ref=\"A00915\">foreg.</cite>) pl. <he>אוּשִּׁין</he> <i>foundations</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 50a\">B. Kam. 50ᵃ</cite> <he>חופר לא׳</he> digs excavations for supporting walls."
+			]
+		}
+	]
+}

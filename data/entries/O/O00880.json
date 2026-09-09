@@ -1,0 +1,23 @@
+{
+	"id": "O00880",
+	"slug": "סכוכית-2",
+	"headword": {
+		"text": "סְכוּכִית",
+		"homograph": 2
+	},
+	"page": {
+		"number": 989,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00903\"><he>סָכַךְ</he> I</cite>), <i>something overhanging, shade</i> (v. <cite ref=\"O00908\"><he>סְכָכָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Nazir 53a:8\">Naz. 53ᵃ</cite> <he>אבן הס׳</he> a rock shading a grave."
+			]
+		}
+	]
+}

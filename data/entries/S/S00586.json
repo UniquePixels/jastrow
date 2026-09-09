@@ -1,0 +1,37 @@
+{
+	"id": "S00586",
+	"slug": "קורה-3",
+	"headword": {
+		"text": "קוֹרָה",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1342,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"S02020\"><he>קֹרָה</he></cite>; <cite ref=\"S02020\"><he>קָרָה</he> I</cite>)<i>joist, beam, post</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 42\">Gen. R. s. 42</cite>, a. e., v. <cite ref=\"P00178\"><he>עוֹבִי</he></cite>.—<he>קוֹרַת בית הבד</he>, v. <cite ref=\"B00095\"><he>בַּד</he> II</cite>. ",
+				"<cite ref=\"Mishnah Kelim 12:1\">Kel. XII, 1</cite> <he>קוֹרַת החצים</he> (not <he>קורות</he>) the (iron-shod) post used as a target for arrows; <he>של אסירין</he> the beam with holes for the hands of prisoners on a transport. ",
+				"<cite ref=\"Eichah Rabbah 3\">Lam. R. to III, 12</cite>, v. <cite ref=\"H01487\"><he>חֵץ</he></cite>; a. fr.—",
+				"<cite ref=\"Mishnah Kelim 11:2\">Kel. XI, 2</cite> <he>הק׳</he> (Mish. ed. <he>הקורא</he>) the long iron bolt of a city gate (corresp. to <he>נגר</he>, v. Maim. ed. Dehr. a. l. expl. <he>נגר</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the trunk of a tree with its ramifications</i>. Midr. Sam. ch. XIII, v. <cite ref=\"K00220\"><he>כְּוֶורֶת</he></cite>. Y. Sabb. X, 10ᵃ <he>קורת שקמה</he> the trunk of a sycamore tree; a. e.—Pl. <he>קוֹרוֹת</he>, <he>קוֹרִים</he>. ",
+			"units": [
+				"<cite ref=\"Yoma 47a:13\">Yoma 47ᵃ</cite>, v. <cite ref=\"S01395\"><he>קֶלַע</he> II</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 7:6:4\">Y. Peah VII, end, 20ᶜ</cite>; <cite ref=\"Pesachim 57a:7\">Pes. 57ᵃ</cite>; <cite ref=\"Tosefta Pesachim 2:22\">Tosef. ib. II</cite> (<cite ref=\"Tosefta Pesachim 3:22\">III</cite>), 22. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 2:1:13\">Y. Ter. II, 41ᵇ</cite> bot.—",
+				"<cite ref=\"Bereishit Rabbah 41:2\">Gen. R. s. 41</cite>, beg.; <cite ref=\"Bamidbar Rabbah 3:1\">Num. R. s. 3</cite>, beg. <he>שפעת ק׳</he>; <cite ref=\"Yalkut Shimoni on Nach 845:3\">Yalk. Ps. 845</cite> <he>שפעת קוֹרֶיהָ</he>, v. <cite ref=\"U01790\"><he>שִׁפְעָה</he> I</cite>; a. fr.—[<cite ref=\"Bereishit Rabbah 71:2\">Gen. R. s. 71</cite> <he>מאחורי הקורים</he>, v. <cite ref=\"S00609\"><he>קוֹרִיִּים</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

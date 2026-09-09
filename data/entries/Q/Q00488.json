@@ -1,0 +1,48 @@
+{
+	"id": "Q00488",
+	"slug": "פחת-3",
+	"headword": {
+		"text": "פַּחַת"
+	},
+	"page": {
+		"number": 1154,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (b. h.; <cite ref=\"Q00487\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cavity, pit</i>.—Pl. <he>פְּחָתִים</he>, <cite ref=\"Q00493\"><he>פְּחָתִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Sotah 21a:7\">Sot. 21ᵃ</cite> <he>מתיירא מן הקוצין ומן הפ׳ וכ׳</he> is afraid of the thorns, the pits and the thistles (on the road); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>defective spot, breach</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 4:3\">Bets. IV, 3</cite> <he>נוטל ממקום הפ׳</he> he may take out the fruits where they burst through the partition."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>broken vessel, fragment</i>.—Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Tosefta Kelim Kamma 7:15\">Tosef. Kel. B. Kam. VII, 15</cite> <he>שולי הפ׳</he> the sides of fragments of vessels (v. <cite ref=\"M00918\"><he>מַחַץ</he></cite>)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>diminution, depreciation, loss</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 4:4:3\">Y. Ter. IV, 42ᵈ</cite> bot. <he>שאין הפ׳ והתוספת שוין</he> for the reduction and the addition are not of like proportions, i.e. the difference between 1/40 and 1/50 is not the same as that between 1/50 and 1/60 (v. <cite ref=\"Q00486\"><he>פָּחַת</he></cite> <i>Pi.</i>). ",
+				"<cite ref=\"Bava Kamma 10b:27\">B. Kam. 10ᵇ</cite> <he>לפ׳ נבלה</he> for the eventual depreciation of the carcass during the time intervening between the accident and the decision of the court. ",
+				"<cite ref=\"Bava Kamma 10b:28\">Ib.</cite> <he>פ׳ נבלה תנאי היא</he> there is a difference of opinion among Tannaim as regards the liability for the depreciation of the carcass. Y. ib. I, 2ᵇ bot. <he>ישלם פַּחֲתָהּ</he> he must indemnify the owner for its depreciation, i.e. he must pay the difference between the value of the living and that of the dead animal. ",
+				"<cite ref=\"Esther Rabbah 7:12\">Esth. R. to III, 8</cite> <he>שהן מכניסין פ׳ בממונו של עולם</he> they (through their idleness) cause a diminution of the wealth of the world; a. e."
+			],
+			"label": "4"
+		}
+	]
+}

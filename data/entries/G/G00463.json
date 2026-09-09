@@ -1,0 +1,25 @@
+{
+	"id": "G00463",
+	"slug": "זכיך",
+	"headword": {
+		"text": "זַכִּיךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "זַכִּיכָא"
+		}
+	],
+	"page": {
+		"number": 399,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " m. ch. = h. <cite ref=\"G00435\"><he>זָךְ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 24:2\">Targ. Y. Lev. XXIV, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 49:12\">Targ. Y. Gen. XLIX, 12</cite> (of wine)."
+			]
+		}
+	]
+}

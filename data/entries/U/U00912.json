@@ -1,0 +1,28 @@
+{
+	"id": "U00912",
+	"slug": "שיירה",
+	"headword": {
+		"text": "שְׁיָירָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁיָירָא",
+			"homograph": 3
+		}
+	],
+	"page": {
+		"number": 1562,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"U00050\"><he>שְׁאֵר</he></cite>) <i>blood-relations, parents</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 4:2:4\">Y. Kidd. IV, 65ᵈ</cite> bot. <he>החיה והש׳ וכ׳</he> the midwife (may testify as to the first born of twins), the parents (as to the paternity of a foundling) &c.; Y. B. Bath. II, 13ᵈ bot.; ib. 14ᵃ top <cite ref=\"U00910\"><he>שיירא</he></cite>."
+			]
+		}
+	]
+}

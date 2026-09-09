@@ -1,0 +1,27 @@
+{
+	"id": "H01472",
+	"slug": "חפצא-2",
+	"headword": {
+		"text": "חַפְצָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִיפְצָא"
+		}
+	],
+	"page": {
+		"number": 493,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. a kind <i>of peas</i>. Pl. <he>חַפְצֵי</he> (<he>חִיפְ׳</he> Rashi). ",
+			"units": [
+				"<cite ref=\"Chullin 52a:2\">Ḥull. 52ᵃ</cite> (Ar. <he>הַפְצֵי</he>, expl. <he>עפצים</he>)."
+			]
+		}
+	]
+}

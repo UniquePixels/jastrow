@@ -1,0 +1,49 @@
+{
+	"id": "R00480",
+	"slug": "צלב-2",
+	"headword": {
+		"text": "צְלַב"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְלֵיב"
+		}
+	],
+	"page": {
+		"number": 1282,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00479\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 25:4\">Targ. Y. I Num. XXV, 4</cite>; Y. II <he>ויהוין צָלְבִין</he> (not <he>צְלָבִין</he>). ",
+				"<cite ref=\"Onkelos Genesis 40:19\">Targ. Gen. XL, 19</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 7:9\">Targ. Esth. VII, 9</cite>; a. fr.—Part. pass. <he>צָלִיב</he>; Pl. <he>צְלִיבִין</he>. Targ. II Esth. IX, 24; a. e.—Y. Ḥag. II, 78ᵃ top <he>וצַלְבוּנוּן</he> and they impaled them (the sorceresses); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִצְטַלַּב"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִצְטְלִיב"],
+			"senses": [
+				{
+					"gloss": "<i>to be hanged</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 21:23\">Targ. O. Deut. XXI, 23</cite>. Targ. II Esth. IX, 14; a. fr.—",
+						"<cite ref=\"Kohelet Rabbah 7:26\">Koh. R. to VII, 26</cite>. ",
+						"<cite ref=\"Esther Rabbah 3:14\">Esth. R. to I, 12</cite> <he>מִצְטַלַּב</he>, v. <cite ref=\"E00650\"><he>הָן</he></cite>. ",
+						"<cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite> end <he>אזל קומי שריתא למִצְטַלְּבָה</he> (not <he>למצטבלה</he>) walked before the beam (on which he was) to be hanged; <cite ref=\"Yalkut Shimoni on Torah 115:12\">Yalk. ib. 115</cite> <he>למִצְטַלַּב</he>. ",
+						"<cite ref=\"Vayikra Rabbah 28\">Lev. R. s. 28</cite> <he>בעי למצטבלא</he> (corr. acc.) is going to be hanged; <cite ref=\"Yalkut Shimoni on Nach 1058:3\">Yalk. Esth. 1058</cite> <he>למִצַּלְּבָא</he>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

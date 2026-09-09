@@ -1,0 +1,22 @@
+{
+	"id": "E00285",
+	"slug": "הושטה",
+	"headword": {
+		"text": "הוֹשָׁטָה"
+	},
+	"page": {
+		"number": 341,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00686\"><he>יָשַׁט</he></cite>) <i>reaching over, handing over</i>, opp. <cite ref=\"E00237\"><he>הוֹלָכָה</he></cite> q. v.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:59\">Y. Sabb. VII, 10ᵈ</cite> <he>ולמה לא תנינן ה׳ עמהון</he> why is not reaching an object over (from one territory to another) counted among the labors forbidden on the Sabbath? <cite ref=\"Zevachim 14a:17\">Zeb. 14ᵃ</cite> <he>כדי הוֹשָׁטַת ידו</he> as far as one may reach over with his hand (without moving from his place)."
+			]
+		}
+	]
+}

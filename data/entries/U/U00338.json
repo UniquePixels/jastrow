@@ -1,0 +1,59 @@
+{
+	"id": "U00338",
+	"slug": "שוה-2",
+	"headword": {
+		"text": "שָׁוֶה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁוֶוה"
+		},
+		{
+			"text": "שָׁוָה"
+		},
+		{
+			"text": "שָׁוָוה"
+		}
+	],
+	"page": {
+		"number": 1529,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00337\"><he>שָׁוָה</he></cite>) <i>joined, even; fitting, equal</i>; <i>equivalent, worth</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 19a:6\">Succ. 19ᵃ</cite> <he>נראה מבחוץ וש׳ מבפנים</he> if the post is visible from the outside, but even with the wall from within. ",
+				"<cite ref=\"Bamidbar Rabbah 9:3\">Num. R. s. 9<sup>3</sup></cite> <he>הוי ש׳ לבני אדם</he> be like other men (do not consider thyself exempt from the laws of morality). ",
+				"<cite ref=\"Mishnah Bava Kamma 3:9\">B. Kam. III, 9</cite> <he>שור ש׳ מנה וכ׳</he> an ox worth a Maneh that gored an ox worth two hundred Zuz. ",
+				"<cite ref=\"Mishnah Bava Kamma 1:3\">Ib. I, 3</cite> <he>שום כסף וש׳ כסף</he> valuation of damages is done on the basis of money, and collected from money’s worth; <cite ref=\"Bava Kamma 14b:12\">ib. 14ᵇ</cite> <he>ש׳ כסף מלמד וכ׳</he> ‘money’s worth’, this means that the court attaches only landed estate (v. <cite ref=\"A01052\"><he>אַחֲרָיוּת</he></cite>), but if the claimant anticipating the action of the court seized movable chattel &c.; <he>מאי משמע … דבר הש׳ כל כסף</he> how is this to be learned from the expression ‘money’s worth’?… A thing which is worth any money (which you pay for it, i.e. concerning which there is no redress for overreaching); <cite ref=\"Bava Kamma 14b:12\">ib.</cite> (another defin.) <he>ש׳ כסף ולא כסף</he> ‘money’s worth’ you may attach, but not cash.—<he>ש׳ פרוטה</he>, v. <cite ref=\"Q01667\"><he>פְּרוּטָה</he></cite>. ",
+				"<cite ref=\"Mishnah Bikkurim 2:6\">Bicc. II, 6</cite> <he>ש׳ לאילן</he> is like (comes under the category of) trees. ",
+				"<cite ref=\"Mishnah Bikkurim 2:8\">Ib. 8</cite>, sq.; a. v. fr.—<he>גזרה ש׳</he>, v. <cite ref=\"C00581\"><he>גְּזֵרָה</he></cite>.—<he>הצד הש׳</he>, v. <cite ref=\"R00078\"><he>צַד</he></cite>.—",
+				"<cite ref=\"Avot D'Rabbi Natan 16:2\">Ab. d’R. N. ch. XVI</cite> <he>ש׳ לי המות משתתנני וכ׳</he> death would have been more acceptable to me than thy giving me away to this man, i.e. I should have chosen death rather than be married to this man.—Pl. <he>שָׁוִים</he>; <cite ref=\"U01470\"><he>שָׁוִין</he></cite>; <he>שָׁוִו׳</he>; <cite ref=\"U00358\"><he>שָׁווֹֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Yoma 6:1\">Yoma VI, 1</cite> <he>מצותן שיהיו שניהן ש׳ וכ׳</he> it is proper that they two be alike in appearance &c. ",
+				"<cite ref=\"Beitzah 11a\">Bets. 11ᵃ</cite>, a. fr. <he>וש׳ וכ׳</he> both agree that &c. ",
+				"<cite ref=\"Mishnah Pesachim 3:4\">Pes. III, 4</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Bava Batra 9:10\">B. Bath. IX, 10</cite> (<cite ref=\"Bava Batra 158b\">158ᵇ</cite>), a. e. <he>את הש׳</he> that on which they agree, v. <cite ref=\"H01112\"><he>חָלַק</he></cite>.—<he>בַּשָּׁוֶה</he> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>at equal shares</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Ketubot 10:2:3\">Y. Keth. X, 33ᵈ</cite> bot. <he>חולקות בש׳</he> divide it equally; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>for what it is worth, at a reasonable price</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 106a\">Snh. 106ᵃ</cite>, v. <cite ref=\"U00393\"><he>שְׁוִי</he></cite> h."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

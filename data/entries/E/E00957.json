@@ -1,0 +1,36 @@
+{
+	"id": "E00957",
+	"slug": "התרה",
+	"headword": {
+		"text": "הַתָּרָה"
+	},
+	"page": {
+		"number": 371,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>נָתַר</he> <i>Hif.</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>untying, loosening</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 12:1:11\">Y. Yeb. XII, 12ᶜ</cite>, a. e. <he>ה׳</he>, or <he>הַתָּרַת הרצועות</he> the untying of the shoe strings by the brother’s wife, v. <cite ref=\"H01060\"><he>חֲלִיצָה</he></cite>. Sot. I, 16ᶜ bot. <he>ה׳ הסינר</he> loosening of the pantaloons; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"E00495\"><he>הֶיתֵּר</he></cite>) <i>permission, declaring permitted</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 17:1:3\">Y. Sabb. XVII, 16ᵃ</cite> bot. <he>קודם להַתָּרַת כלים</he> prior to the passage of the law permitting the handling of tools on the Sabbath (Mish. ib. XVII, 1); Bab. ",
+				"<cite ref=\"Shabbat 123b\">Sabb. 123ᵇ</cite>. ",
+				"<cite ref=\"Sanhedrin 58b:13\">Snh. 58ᵇ</cite> <he>מאימת הַתָּרָתָהּ</he> when is she again considered free?"
+			],
+			"label": "2"
+		}
+	]
+}

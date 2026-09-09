@@ -1,0 +1,36 @@
+{
+	"id": "P00313",
+	"slug": "עוף-3",
+	"headword": {
+		"text": "עוּף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1055,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; denom. of <cite ref=\"P00315\"><he>עוֹף</he></cite>)<i>to fly</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 26a:4\">Sabb. 26ᵃ</cite> <he>מפני שהוא עָף</he> because it is volatile (explosive). [<cite ref=\"Sotah 45a\">Sot. 45ᵃ</cite> <he>עפו</he>, <he>עף</he> Ar., v. <cite ref=\"R00216\"><he>צוּף</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עוֹפֵף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P00312\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Berakhot 63a:21\">Ber. 63ᵃ</cite> <he>פרנסתו מְעוֹפֶפֶת לו כעוף</he> his sustenance comes flying to him like a bird. ",
+						"<cite ref=\"Mishnah Chullin 12:3\">Ḥull. XII, 3</cite> <he>היתה מעופפת</he> if the mother bird was flying about the nest; <cite ref=\"Tosefta Chullin 10:10\">Tosef. ib. X, 10</cite>. ",
+						"<cite ref=\"Pirkei DeRabbi Eliezer 4:6\">Pirké d’R. El. ch. IV</cite> <he>ובשתים מְעוֹפְפִים וכ׳</he> and with two wings they fly, and they sanctify &c.; <cite ref=\"Yalkut Shimoni on Nach 271\">Yalk. Is. 271</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pol."
+		}
+	]
+}

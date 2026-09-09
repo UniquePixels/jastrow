@@ -1,0 +1,30 @@
+{
+	"id": "V00431",
+	"slug": "תיחוח",
+	"headword": {
+		"text": "תִּיחוּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּח׳"
+		}
+	],
+	"page": {
+		"number": 1664,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00358\"><he>תחח</he></cite>, transp. of <he>חת</he>; cmp. <he>תותח</he>, <cite ref=\"Job 41:21\">Job XLI, 21</cite>, = <he>תחתח</he>) <i>crushing</i>; <he>עֲפַר ת׳</he> <i>crushed, loose earth</i>. Ohol. XVIII, 8 <he>ועפר התי׳</he> (Mish. ed. <he>והעפר</he>, corr. acc., or <he>והעָפָר התָּחוּחַ</he>; Maim. comment. ed. Dehr. <he>עֲפַר תּוֹחָח</he>). Tosef. ib. XVI, 5 <he>ואיזו היא בתולח … רושם ואין עפרח תי׳</he> ed. Zuck. (Var. <he>ואין עפר תחתיו</he>) virgin soil is that in which there is no imprint, and the earth of which is not <i>ʿăfar tiḥuaḥ</i>; <cite ref=\"Niddah 8b:56\">Nidd. 8ᵇ</cite>, v. <cite ref=\"T01113\"><he>רְשָׁשִׁין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Beitzah 8a:1\">Bets. 8ᵃ</cite> top <he>עפר תח׳</he> (Tosaf. <he>תיח׳</he>). ",
+				"<cite ref=\"Shabbat 39a:4\">Sabb. 39ᵃ</cite>. ",
+				"<cite ref=\"Berakhot 40a:3\">Ber. 40ᵃ</cite> (Ms. F. <cite ref=\"V00183\"><he>תוחח</he></cite>, v. supra). Y. B. Bath. II, beg. 13ᵇ <he>מפני שעושין עפר תח׳ וכ׳</he> because they (the rocks or boulders near a wall) make the ground around them loose, and affect the earth of the wall; Bab. ",
+				"<cite ref=\"Bava Batra 19b:2\">B. Bath. 19ᵇ</cite> <he>שמחלידין … ומעלין עפר תי׳</he> they (the roots of trees near a wall) undermine the ground, and generate loose earth; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "P00071",
+	"slug": "עברי-1",
+	"headword": {
+		"text": "עִבְרִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִבְרִיָּה"
+		},
+		{
+			"text": "עִבְרִית"
+		}
+	],
+	"page": {
+		"number": 1040,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) <i>Hebrew</i>; (<he>לשין</he>) <he>ע׳</he> <i>Hebrew language</i>; (<cite ref=\"K01340\"><he>כתב</he></cite>) <he>ע׳</he> <i>Hebrew character, type</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kiddushin 1:2\">Kidd. I, 2</cite> <he>עבד ע׳</he> a Hebrew slave; <he>אמה הע׳</he> a Hebrew handmaid. ",
+				"<cite ref=\"Bereishit Rabbah 42:8\">Gen. R. s. 42</cite> <he>ומשיח בלשון ע׳</he>, v. <cite ref=\"P00062\"><he>עֵבֶר</he> II</cite>. ",
+				"<cite ref=\"Mishnah Gittin 9:6\">Gitt. IX, 6</cite> <he>עד אחד עברי וכ׳</he> if one witness signed in Hebrew type, and the other in Greek, and again one in Hebrew &c. ",
+				"<cite ref=\"Mishnah Gittin 9:8\">Ib. 8</cite> <he>גט שכתבו עברית וכ׳</he> if a letter of divorce was written in Hebrew, and its witnesses signed in Greek. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:3\">Y. Meg. I, 71ᵇ</cite> bot.; <cite ref=\"Esther Rabbah 4:12\">Esth. R. to I, 22</cite>, a. e. <he>ע׳ לדיבור</he> the Hebrew language is adapted for oratory; a. fr.—",
+				"<cite ref=\"Megillah 18a:20\">Meg. 18ᵃ</cite> <he>קראה … עברית</he> if he read the Megillah in a trans-Euphratean (Aramaic) translation.—Pl. <cite ref=\"P00071\"><he>עִבְרִים</he></cite>, <he>עִבְרִיִּים</he>; f. <cite ref=\"P00168\"><he>עִבְרִיּוֹת</he></cite>. ",
+				"<cite ref=\"Megillah 18a:20\">Ib.</cite> <he>עברית לע׳</he> an Aramaic translation read before Aramæan Jews. ",
+				"<cite ref=\"Shemot Rabbah 3:17\">Ex. R. s. 3</cite> <he>למה קורא אותם ע׳ על שם שעברו ים</he> why does he call them <i>‘Ibriim</i> (<cite ref=\"Exodus 3:18\">Ex. III, 18</cite>)? Because they passed the sea (on going to Egypt). ",
+				"<cite ref=\"Shemot Rabbah 1:36\">Ex. R. s. 1</cite>. ",
+				"<cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23</cite>; a. fr."
+			]
+		}
+	]
+}

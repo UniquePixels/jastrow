@@ -1,0 +1,91 @@
+{
+	"id": "H01201",
+	"slug": "חמם-2",
+	"headword": {
+		"text": "חָמַם"
+	},
+	"page": {
+		"number": 478,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be warm, hot;</i> [(of color) <i>to be dark, red</i>; (of taste) <i>to be pungent, sour, bitter</i>]. <i>Part.</i> <cite ref=\"H01134\"><he>חָם</he></cite>, q. v.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִמֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to heat, warm, boil</i>. Y. Ned. IV, 38ᶜ bot. <he>לחַמֵּם בו את ידיו</he> to warm his hands against it (the bread). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 14\">Gen. R. s. 14</cite>, end <he>מְחַמֶּמֶת הגוף</he> keeps the body warm. ",
+						"<cite ref=\"Shabbat 40b:4\">Sabb. 40ᵇ</cite> <he>ומְחַמַּמְתָּהּ וכ׳</he> and warms it (her hand) before the fire; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֵיחֵם"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01200\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Beitzah 2:5\">Bets. II, 5</cite> <he>לא יֵחֵם וכ׳</he> one must not prepare warm water for &c. ",
+						"<cite ref=\"Shabbat 40a:8-9\">Sabb. 40ᵃ</cite> <he>התחילו … להָחֵם בשבת</he> the bathers began to heat (the water) on the Sabbath; a. fr.—Part. <cite ref=\"M01119\"><he>מֵיחֵם</he></cite>, <cite ref=\"M00897\"><he>מֵחֵם</he></cite>, pl. <he>מְחַמִּין</he>. Ib.ᵇ; Tosef. ib. III (IV), 7 <he>מיחם אדם וכ׳</he> (ed. Zuck. <he>מייחם</he>, read: <he>מֵיחֵים</he>), v. <cite ref=\"A01818\"><he>אְלוּנְטִית</he> I</cite>; [Y. ib. XIX, 17ᵃ bot. <he>מחמין הוא אדם</he> (read as ib. IX, 12ᵃ bot. <he>מְחַמֵּם הוא וכ׳</he>].—Ib. <he>אם מפני הסכנה מְחַמִּין לו וכ׳</he> if it is for the sake of averting danger to life, may we not even boil water on the Sabbath?—",
+						"<cite ref=\"Beitzah 22a\">Bets. 22ᵃ</cite>; a. v. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נָחַם", "נֵחוֹם"],
+			"senses": [
+				{
+					"gloss": "<i>to be warmed</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 3:5\">Sabb. III, 5</cite> (<cite ref=\"Shabbat 41a:9\">41ᵃ</cite>) <he>בשביל שיֵחַמּוּ</he> that they become warm; <cite ref=\"Shabbat 41b:2\">Sabb. 41ᵇ</cite> <he>שיֵחוֹמּוּ</he>; <cite ref=\"Tosefta Shabbat 3:5\">Tosef. ib. III</cite> (<cite ref=\"Tosefta Shabbat 4:5\">IV</cite>), 5 <he>שׁיֵיחַמּוּ</he>; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הוּחָם"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01200\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Shabbat 134b:15\">Sabb. 134ᵇ</cite> <he>שהוּחַמּוּ</he>, v. <cite ref=\"H01135\"><he>חָם</he> II</cite>. Y. Bets. II, 61ᶜ; a. fr.—",
+						"<cite ref=\"Mishnah Bava Metzia 6:3\">B. Mets. VI, 3</cite> <he>הוּחַמָּה</he> the animal was overtaken by the heat."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["הִתְחַמֵּם"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְחַמֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to warm one’s self; to become heated</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Beitzah 2:5\">Bets. II, 5</cite>; Tosef. Sabb. l. c. ",
+						"<cite ref=\"Mishnah Tamid 1:1\">Tam. I, 1</cite>. ",
+						"<cite ref=\"Pirkei Avot 2:10\">Ab. II, 10</cite> <he>הוי מִתְחַמֵּם וכ׳</he> warm thyself by the fire of the scholars (try to associate with them); a. fr.—Y. Sot. I, 16ᶜ bot. <cite ref=\"H00613\"><he>נתח׳</he></cite> was heated (had pollution). ",
+						"<cite ref=\"Bereishit Rabbah 24:6\">Gen. R. s. 24</cite> <he>מִתְחַמְּמִים</he>, <he>מִתְחַמְּמוֹת</he> <i>conceived</i>"
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

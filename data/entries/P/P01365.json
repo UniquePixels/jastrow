@@ -1,0 +1,27 @@
+{
+	"id": "P01365",
+	"slug": "עריס-1",
+	"headword": {
+		"text": "עָרִיס",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1117,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01401\"><he>עָרַס</he></cite>) <i>arbor, espalier</i> (of grape vines). ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 6:1\">Kil. VI, 1</cite> <he>איזהו ע׳ הנוטע וכ׳</he> what is an <i>ʿaris</i> (in a legal sense)? A row of (at least) five vines along a fence. ",
+				"<cite ref=\"Mishnah Kilayim 6:2\">Ib. 2</cite> <he>ע׳ היוצא מן המדרגה</he> an espalier that hangs over an embankment. ",
+				"<cite ref=\"Mishnah Kilayim 6:6\">Ib. 6</cite> (expl. <he>פסקי ע׳</he>) <he>ע׳ שחרב וכ׳</he> an espalier which was destroyed in the middle, while five vines remained on each side; <cite ref=\"Tosefta Kilaim 4:8\">Tosef. ib. IV, 8</cite> <he>חריס</he> ed. Zuck. (oth. ed. <cite ref=\"H01690\"><he>חריץ</he></cite>; corr. acc.); Y. ib. VI, end, 30ᶜ (also <cite ref=\"P01404\"><he>עֶרֶס</he></cite>). ",
+				"<cite ref=\"Mishnah Kilayim 6:8\">Kil. VI, 8</cite> <he>הקנים היוצאים מן הע׳</he> poles which stand out from an espalier; a. fr.—Pl. <he>עֲרִיסִין</he>. ",
+				"<cite ref=\"Tosefta Peah 3:16\">Tosef. Peah III, 16</cite>."
+			]
+		}
+	]
+}

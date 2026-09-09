@@ -1,0 +1,47 @@
+{
+	"id": "O00502",
+	"slug": "סטר-1",
+	"headword": {
+		"text": "סָטַר"
+	},
+	"page": {
+		"number": 973,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"O00504\"><he>סְטַר</he> II</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to turn sideways</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 16a:19\">Meg. 16ᵃ</cite> <he>ובא מלאך וס׳ ידה וכ׳</he> and an angel came and turned her hand towards Haman."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to strike sideways, slap</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 8:6\">B. Kam. VIII, 6</cite> <he>סְטָרוֹ</he> if he slapped his neighbor, contrad. to <he>תקע</he> to strike with the fist, a. to <he>לאחר יד</he> with the back of the hand. ",
+				"<cite ref=\"Sanhedrin 58b:18\">Snh. 58ᵇ</cite> <he>הסוֹטֵר</he>, v. <cite ref=\"L00298\"><he>לוֹעַ</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 15:22\">Ex. R. s. 15</cite> <he>סְטָרוֹ</he>, <he>סְטָרָן</he>; Tanḥ. Ḥayé 3, v. <cite ref=\"M01899\"><he>מסְטוֹר</he></cite>, <cite ref=\"M01906\"><he>מִסְטָר</he></cite>; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִיטֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O00501\">same</cite>. Y. Peah I, 15ᶜ top <he>היתה אמו מְסַטַּרְתּוֹ וכ׳</he> his mother slapped him (with her shoe) &c., v. <cite ref=\"B00265\"><he>בּוּלִי</he> II</cite>; Y. Kidd. I, 61ᵇ top; <cite ref=\"Esther Rabbah 4:6\">Esth. R. to I, 16</cite>; <cite ref=\"Vayikra Rabbah 12:5\">Lev. R. s. 12</cite> <he>מסרסתו</he> (some ed. <he>מסורתתו</he>; corr. acc.); <cite ref=\"Pesikta Rabbati 23:1\">Pesik. R. s. 23–24</cite> <he>מפדטתו</he> (corr. acc.). ",
+					"units": [
+						"<cite ref=\"Niddah 25b:48\">Nidd. 25ᵇ</cite> <he>שסיטר</he> Ar. (ed. <he>שסטר</he>); a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

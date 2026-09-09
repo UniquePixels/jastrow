@@ -1,0 +1,43 @@
+{
+	"id": "K00866",
+	"slug": "כנע",
+	"headword": {
+		"text": "כְּנַע"
+	},
+	"page": {
+		"number": 650,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"K00866\"><he>כָּנַע</he></cite>)<i>to press, oppress</i>.—Part. pass. <he>כְּנִיעַ</he>, pl. <he>כְּנִיעִין</he> <i>depressed, mournful</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Terumot 11:5:12\">Y. Ter. XI, end, 48ᵇ</cite> <he>ע״י דאינון כ׳</he> because they are low-spirited."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְכַּנַּע"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיכְּנַע"],
+			"senses": [
+				{
+					"gloss": "<i>to lower one’s self, be humble</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 16:9\">Targ. Y. Gen. XVI, 9</cite> (h. text <he>התעני</he>). ",
+						"<cite ref=\"Targum Jonathan on I Kings 21:29\">Targ. I Kings XXI, 29</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 41:11\">Targ. Is. XLI, 11</cite> (h. text <he>יכלמו</he>); a. fr.—",
+						"<cite ref=\"Targum Jonathan on Ezekiel 29:7\">Targ. Ez. XXIX, 7</cite> <he>באִתְכְּנָעוּתְהוֹן</he> Var., v. <cite ref=\"K00849\"><he>כני</he></cite> ch.—Y. Taan. III, 66ᶜ bot. <he>מִתְכַּנְּעִין</he> they humble themselves (in penitence).—Esp. <i>to bow to a superior, to salute</i>. ",
+						"<cite ref=\"Bereishit Rabbah 33\">Gen. R. s. 33</cite> <he>ולא א׳ מיניה</he> and he did not salute him. ",
+						"<cite ref=\"Moed Katan 16b:13\">M. Kat. 16ᵇ</cite> <he>ולא אִיכְנְעָא מקמיה</he> and she did not bow to him; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

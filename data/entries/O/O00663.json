@@ -1,0 +1,26 @@
+{
+	"id": "O00663",
+	"slug": "סילי",
+	"headword": {
+		"text": "סִילֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִילְיֵי"
+		}
+	],
+	"page": {
+		"number": 980,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. = <cite ref=\"O00960\"><he>סִלְוָא</he></cite>, <i>thorns</i>, v. <cite ref=\"K00539\"><he>כִּילּוּיָא</he></cite>.",
+			"units": []
+		}
+	]
+}

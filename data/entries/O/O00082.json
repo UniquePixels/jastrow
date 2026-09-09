@@ -1,0 +1,29 @@
+{
+	"id": "O00082",
+	"slug": "סבעא",
+	"headword": {
+		"text": "סִבְעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִיבְ׳"
+		}
+	],
+	"page": {
+		"number": 951,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00081\">preced.</cite>) <i>plenty</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 41:29\">Targ. O. Gen. XLI, 29</cite>; <cite ref=\"Onkelos Genesis 41:30\">30</cite>; <cite ref=\"Onkelos Genesis 41:31\">31</cite> ed. Berl. (oth. ed. <cite ref=\"U00327\"><he>שׂוֹבְעָא</he></cite>, <cite ref=\"U00162\"><he>שַׂבְעָא</he></cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 23:25\">Targ. O. Deut. XXIII, 25</cite> ed. Berl. (oth. ed. <cite ref=\"U00162\"><he>שָׂבְ׳</he></cite>, <cite ref=\"U00784\"><he>שִׂיבְ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 3:10\">Targ. Prov. III, 10</cite> <he>סוּבְעָא</he> Ms. (ed. <cite ref=\"U00329\"><he>שׂוּבְעָנָא</he></cite>, <cite ref=\"U00327\"><he>שׂוּבְעָא</he></cite>)."
+			]
+		}
+	]
+}

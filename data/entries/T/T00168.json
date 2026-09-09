@@ -1,0 +1,22 @@
+{
+	"id": "T00168",
+	"slug": "רגומנא",
+	"headword": {
+		"text": "רְגוּמָנָא"
+	},
+	"page": {
+		"number": 1447,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00212\"><he>רְגַם</he></cite>) <i>stoning to death</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 5:14\">Targ. Esth. V, 14</cite> (Bxt. <he>רגומא</he>; ed. Lag. <he>רגימיא</he>, corr. acc.)."
+			]
+		}
+	]
+}

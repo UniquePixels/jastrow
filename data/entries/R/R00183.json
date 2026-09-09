@@ -1,0 +1,23 @@
+{
+	"id": "R00183",
+	"slug": "צוותא",
+	"headword": {
+		"text": "צַוְותָּא"
+	},
+	"page": {
+		"number": 1267,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00182\">preced.</cite>) <i>company</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 52a\">Succ. 52ᵃ</cite> … <he>אורחין וצַוְותִּין בסימא</he> (Ar. <he>וצבתין</he>) our way is long, and our company sweet (I am sorry that we have to part); <cite ref=\"Yalkut Shimoni on Nach 535:2\">Yalk. Joel 535</cite> <he>אורחא … וצוותא וכ׳</he>. ",
+				"<cite ref=\"Tamid 27a:16\">Tam. 27ᵃ</cite> <he>ואחריני בצַוְותָּה הוא דאזיל</he> (Rashi <he>משום צוותא</he>) and the second one goes along only for company’s sake."
+			]
+		}
+	]
+}

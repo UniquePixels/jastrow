@@ -1,0 +1,38 @@
+{
+	"id": "Q00103",
+	"slug": "פדא-2",
+	"headword": {
+		"text": "פַּדָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּנְדָּא"
+		}
+	],
+	"page": {
+		"number": 1136,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <cite ref=\"Q00132\"><he>פדעא</he></cite>; <cite ref=\"Q00131\"><he>פְּדַע</he></cite>; cmp. <cite ref=\"Q00112\"><he>פָּדוֹעָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " פ׳ דמרא <i>blade of the hoe</i> (v. Sm. Ant. s. v. Ascia); [comment. <i>the club, handle of the hoe</i>].",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>blow, wound</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 27b:12\">B. Kam. 27ᵇ</cite> <he>שקל פ׳ דמ׳ וכ׳</he> Ar. a. Ms. H. (ed. <he>פנ׳</he>) he took a hoe and struck him.—Pl. <he>פַּדֵּי</he> (<he>פַּנְדֵּי</he>). ",
+				"<cite ref=\"Bava Kamma 27b:12\">Ib.</cite> <he>מאה פ׳ בפדא וכ׳</he> he ought to have given him a hundred blows with the hoe."
+			],
+			"label": "2"
+		}
+	]
+}

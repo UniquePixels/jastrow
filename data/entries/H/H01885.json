@@ -1,0 +1,23 @@
+{
+	"id": "H01885",
+	"slug": "חתייה",
+	"headword": {
+		"text": "חֲתִיָיה"
+	},
+	"page": {
+		"number": 512,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01884\">preced.</cite> wds.) <i>taking coals out in a pan</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 4:3:3\">Y. Yoma IV, 41ᶜ</cite> bot. Bab. ",
+				"<cite ref=\"Yoma 48b:1\">ib. 48ᵇ</cite> <he>חישב בחֲתִיַית וכ׳</he> if he entertained an undue thought on taking coals from the altar."
+			]
+		}
+	]
+}

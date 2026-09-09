@@ -1,0 +1,25 @@
+{
+	"id": "J00690",
+	"slug": "ישיוין",
+	"headword": {
+		"text": "יְשִׁיוִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 600,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"U00337\"><he>שָׁוָה</he></cite>; cmp. <cite ref=\"E00192\"><he>הוֹגֵין</he></cite>) [<i>balance-holders</i>,] <i>anchor, ballast-stones</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Batra 4:1\">Tosef. B. Bath. IV, 1</cite> ed. Zuck. (Var. <cite ref=\"J00682\"><he>יִשְׁוִין</he></cite>, disagreeing with Mish. ",
+				"<cite ref=\"Mishnah Bava Batra 5:1\">B. Bath. V, 1</cite>, v. <cite ref=\"E00192\"><he>הוֹגֵין</he></cite>; Y. ib. V, beg. 15ᵃ <he>עובין</he>, read <cite ref=\"P00194\"><he>עוגין</he></cite>)."
+			]
+		}
+	]
+}

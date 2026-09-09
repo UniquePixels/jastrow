@@ -1,0 +1,22 @@
+{
+	"id": "M00879",
+	"slug": "מחיר",
+	"headword": {
+		"text": "מְחִיר"
+	},
+	"page": {
+		"number": 761,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>מחר</he>, cmp. <cite ref=\"M00379\"><he>מָהַר</he></cite>)<i>exchange, that which is obtained by exchange; price</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 26b\">Sot. 26ᵇ</cite>, a. e. <he>מ׳ זונה</he> the price obtained from selling a harlot.—[<cite ref=\"Tosefta Mikvaot 1:19\">Tosef. Mikv. I, 19</cite> <he>מחירו</he> ed. Zuck. (missing in ed.) a corrupt. for <he>מחיים</he>, a misplaced gloss to <he>מחייו</he> <cite ref=\"Tosefta Mikvaot 1:19\">ib.</cite>]"
+			]
+		}
+	]
+}

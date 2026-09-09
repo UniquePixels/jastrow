@@ -1,0 +1,24 @@
+{
+	"id": "U01899",
+	"slug": "שקרן",
+	"headword": {
+		"text": "שַׁקְרָן"
+	},
+	"page": {
+		"number": 1626,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01898\">preced.</cite>) <i>liar</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 50:10\">Gen. R. s. 50</cite> <he>אם יאמר … ש׳ הוא</he> if one tells thee, the morning star is the same as the morning dawn (<cite ref=\"A01316\"><he>אַיַּילְתָּא</he></cite>), he is a liar. ",
+				"<cite ref=\"Eichah Rabbah 4:3\">Lam. R. to IV, 2</cite>; a. e.—Pl. <he>שַׁקְרָנִים</he>, <he>שַׁקְרָנִין</he>. ",
+				"<cite ref=\"Sanhedrin 103a:12\">Snh. 103ᵃ</cite> (<cite ref=\"Sotah 42a:4\">Sot. 42ᵃ</cite> <he>שַׁקָּרִים</he>)."
+			]
+		}
+	]
+}

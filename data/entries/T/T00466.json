@@ -1,0 +1,43 @@
+{
+	"id": "T00466",
+	"slug": "רזי",
+	"headword": {
+		"text": "רזֵי"
+	},
+	"page": {
+		"number": 1464,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"T00459\"><he>רָז</he></cite>) <i>to be strong, hard</i>; [b. h. <cite ref=\"T00464\"><he>רזה</he></cite> <i>to be lean</i>].",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְזֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to come with vehemence upon, stir up, irritate</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 120b:9\">Yeb. 120ᵇ</cite> <he>שאני מיא דמַרְזוּ מכה</he> it is different with water (coming in contact with a wound), it irritates the wound."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["רַזֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to throw with force</i>.—Part. pass. <he>מְרַזֵּי</he>, <he>מְרַזְּיָא</he>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 45b:3\">Snh. 45ᵇ</cite> <he>כי היכא דתיתי מר׳</he> (Ms. M. <he>מִירַזְּיָא</he> <i>Ithpa.</i>, ed. Sonc. <he>ברַזְיָא</he>, v. <cite ref=\"T00467\">next w.</cite>; v. Rabb. D. S. a. l. note) in order that the stone may come down with force."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "O01647",
+	"slug": "סרס-2",
+	"headword": {
+		"text": "סְרַס"
+	},
+	"page": {
+		"number": 1029,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to emasculate</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 22:24\">Targ. Y. Lev. XXII, 24</cite>.—",
+				"<cite ref=\"Chagigah 14b:10\">Ḥag. 14ᵇ</cite> <he>מהו לסָרוּסֵי וכ׳</he> is it permitted to castrate a dog?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to disarrange, transpose, reverse</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 22\">Lev. R. s. 22</cite> <he>הוה מְסָרֵס קרייא וכ׳</he> Resh Lakish interpreted the verse (<cite ref=\"Isaiah 66:3\">Is. LXVI, 3</cite>) by transposition (making the subject the predicate &c.), ‘he who kills a man (thinks of it as lightly as if he) had slaughtered an ox’ &c. Y. R. Hash. II, end, 58ᵇ [read:] <he>ר״ש בן ל׳ מסרס הדין קרייא אלופינו מְסַבְּלִים אין כתיב וכ׳</he> R. S. b. L. interprets this verse just in a reverse way (to R. Johanan’s interpretation), it is not written, ‘our teachers bear’, but ‘our teachers are borne with’, when the small bear with (the shortcomings of) the great, then there is no breach &c.—Trnsf. <i>to plague, torment, weary into submission</i>. ",
+				"<cite ref=\"Bereishit Rabbah 58\">Gen. R. s. 58</cite> (ref. to <he>ופגעו</he>, <cite ref=\"Genesis 23:8\">Gen. XXIII, 8</cite>) [read as:] Yalk. ib. 102 <he>פגעוניה לי סָרְסוּנֵיה לי וכ׳</he> plague him for me, bore him for me, and if this has no effect, pray for him in my favor (that God may turn his heart to yield to my wishes)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"O01620\"><he>סָרֵיס</he></cite> ch. same, ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

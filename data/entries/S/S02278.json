@@ -1,0 +1,22 @@
+{
+	"id": "S02278",
+	"slug": "קת",
+	"headword": {
+		"text": "קַתְּ"
+	},
+	"page": {
+		"number": 1433,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"S01620\"><he>קֶנֶת</he></cite>, <i>handle, helve</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 2:1\">Macc. II, 1</cite> <he>נשמט הברזל מִקַּתּוֹ</he> if the axe-head slipped off its handle; v. <cite ref=\"S01620\"><he>קֶנֶת</he></cite>."
+			]
+		}
+	]
+}

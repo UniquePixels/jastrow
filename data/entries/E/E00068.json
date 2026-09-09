@@ -1,0 +1,27 @@
+{
+	"id": "E00068",
+	"slug": "הגי-3",
+	"headword": {
+		"text": "הֲגִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַגְיָא"
+		}
+	],
+	"page": {
+		"number": 331,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"E00067\">preced.</cite>) <i>speech, meditation</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 11:1\">Targ. Y. Num. XI, 1</cite> <cite ref=\"E00068\"><he>הַגְיָאן</he></cite> their speech. Y. Ber. V, 9 <he>מִנְהֲגֵיה וכ׳</he>, <he>מִנְהֲגוֹ</he> (= <he>מן ה׳</he>) because of his meditating in &c., v. <cite ref=\"E00067\">preced.</cite>"
+			]
+		}
+	]
+}

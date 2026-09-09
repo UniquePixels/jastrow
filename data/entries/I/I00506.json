@@ -1,0 +1,34 @@
+{
+	"id": "I00506",
+	"slug": "טליתא",
+	"headword": {
+		"text": "טַלְיְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַלְיְי׳"
+		},
+		{
+			"text": "טַלְיָא"
+		}
+	],
+	"page": {
+		"number": 537,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"I00495\"><he>טַלְיָא</he></cite>) <i>young; girl</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 34:4\">Targ. Y. Gen. XXXIV, 4</cite> (ed. Amst. <cite ref=\"I00495\"><he>טַלְיָ׳</he></cite>); a. fr.—",
+				"<cite ref=\"Yevamot 114a:1\">Yeb. 114ᵃ</cite>, v. <cite ref=\"I00495\"><he>טָלֵי</he></cite>.—Y. ib. XII, 12ᵈ bot. <he>היא ט׳ וכ׳</he> if she is young and he old. ",
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite> (v. <cite ref=\"I00496\"><he>טַלְיוּ</he></cite>).—Pl. <cite ref=\"I00506\"><he>טַלְיָתָא</he></cite>, <cite ref=\"I00506\"><he>טַלְיָי׳</he></cite>, <cite ref=\"I00495\"><he>טַלְיָין</he></cite>. Targ. II, <cite ref=\"Esther 1:2\">Esth. I, 2</cite> <cite ref=\"I00500\"><he>טלייתא</he></cite> ed. (ed. Lag. <he>טליין</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 9:3\">Targ. Prov. IX, 3</cite> <he>טלייתהא</he> ed. Lag. (ed. Wil. <he>טְלִיתָ׳</he>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 31:15\">Ib. XXXI, 15</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "T00984",
+	"slug": "רציחה",
+	"headword": {
+		"text": "רְצִיחָה"
+	},
+	"page": {
+		"number": 1493,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00979\"><he>רָצַח</he></cite>) <i>case of murder, capital case, capital execution</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 35a:10\">Snh. 35ᵃ</cite> <he>אין ר׳ דוחה שבת</he> capital punishment does not supersede the Sabbath (v. <cite ref=\"D00397\"><he>דָּחָה</he></cite>). Mekh. Mishp. s. 4 (ref. to <cite ref=\"Exodus 21:14\">Ex. XXI, 14</cite>) <he>ללמדך על ר׳ שדוחה וכ׳</he> to intimate that the execution of a culprit supersedes the Temple service; a. fr."
+			]
+		}
+	]
+}

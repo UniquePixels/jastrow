@@ -1,0 +1,33 @@
+{
+	"id": "M01414",
+	"slug": "מכנס",
+	"headword": {
+		"text": "מִכְנָס"
+	},
+	"page": {
+		"number": 783,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00860\"><he>כָּנַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>storing up, laid-in stock</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 2:1:5\">Y. Kil. II, beg. 27ᶜ</cite> <he>דרך מ׳</he> in the way of storing up (for home consumption). ",
+				"<cite ref=\"Bereishit Rabbah 31\">Gen. R. s. 31</cite> <he>רוב מִכְנָסוֹ</he>, v. <cite ref=\"D00059\"><he>דְּבֵילָה</he></cite>. Y. Dem. III, 22ᶜ top <he>רוב מכנסו מישראל</he> the larger portion of his storage comes from Jews."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " בית מ׳ <i>the lower side of the shovel</i>, v. <cite ref=\"K00309\"><he>כּוֹנֵס</he></cite>. Y. B. Mets. IX, beg. 12ᵃ",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

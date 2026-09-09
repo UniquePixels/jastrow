@@ -1,0 +1,28 @@
+{
+	"id": "A00269",
+	"slug": "אגוסטאן",
+	"headword": {
+		"text": "אָגוּסְטָאן",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אָגוּסְטְיָין"
+		}
+	],
+	"page": {
+		"number": 11,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Augustanus, Augustianus) <i>a servant in a colonia Augustana</i>, (perhaps identical with Curialis or Decurio; cmp. Gibbon, ed. Milm. II, 142 sq., Amer. ed.). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 26a:9\">Snh. 26ᵃ</cite> <he>יכול לומר</he> … <he>טאן וכ׳</he> Ms. M. (Ms. C. a. F. <he>יסטוון …</he> ed. <cite ref=\"A00296\"><he>אגיסטון</he></cite>, <cite ref=\"A00296\"><he>אגיסטין</he></cite>, corr. <cite ref=\"A00269\"><he>אגוסטיין</he></cite>) he may say (as an excuse for tilling in the Sabbath year), I am merely an imperial servant in the estate."
+			]
+		}
+	]
+}

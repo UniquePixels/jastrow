@@ -1,0 +1,25 @@
+{
+	"id": "C01044",
+	"slug": "גמלא-4",
+	"headword": {
+		"text": "גַּמְלָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 254,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Gamla</i> (abbrev. of Gamliel). ",
+			"units": [
+				"<cite ref=\"Yoma 18a:10\">Yoma 18ᵃ</cite>; <cite ref=\"Mishnah Yevamot 6:4\">Yeb. VI, 4</cite>; <cite ref=\"Bava Batra 21a:9\">B. Bath. 21ᵃ</cite> Joshua ben G., a highpriest.—",
+				"<cite ref=\"Gittin 30b:13\">Gitt. 30ᵇ</cite> Abba Elazar b. Gamla; <cite ref=\"Beitzah 13b\">Bets. 13ᵇ</cite> <cite ref=\"C00744\"><he>גימל</he></cite>; <cite ref=\"Bekhorot 58b:6\">Bekh. 58ᵇ</cite>, <cite ref=\"Menachot 54b\">Men. 54ᵇ</cite> <cite ref=\"C00417\"><he>גומל</he></cite> (Ms. M. <he>גמל</he>).—",
+				"<cite ref=\"Sanhedrin 111a:12\">Snh. 111ᵃ</cite> R. Ḥănina b. Gamla (v. Rabb. D. S. a. l. note), usu. b. Gamliel."
+			]
+		}
+	]
+}

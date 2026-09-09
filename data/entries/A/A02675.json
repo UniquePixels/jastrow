@@ -1,0 +1,45 @@
+{
+	"id": "A02675",
+	"slug": "אפיטרופוס",
+	"headword": {
+		"text": "אֶפִּיטְרוֹפּוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַפִּי׳"
+		},
+		{
+			"text": "אַפּוֹ׳"
+		},
+		{
+			"text": "אַפַּטְ׳"
+		}
+	],
+	"page": {
+		"number": 102,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ( m. (ἐπίτροπος) <cite ref=\"A02674\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 39:4\">Targ. Y. Gen. XXXIX, 4</cite>; a. e.—",
+				"<cite ref=\"Bava Metzia 39a:9\">B. Mets. 39ᵃ</cite> <he>מעמידין א׳</he> the court appoints an administrator. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 1:1:14\">Y. Ter. I, 40ᵇ</cite> bot. <he>א׳ לעולם</he> a permanent administrator (guardian), <he>א׳ לשעה</he> a temporary administrator (substitute). ",
+				"<cite ref=\"Shemot Rabbah 46\">Ex. R. s. 46</cite> <he>מתגדלת אצל א׳</he> reared in the house of a guardian; a. fr.—",
+				"<cite ref=\"Shabbat 121a:5\">Sabb. 121ᵃ</cite> <he>א׳ של מלך</he> royal administrator (of the fiscus).—Trnsf. ",
+				"<cite ref=\"Ketubot 13b:7\">Keth. 13ᵇ</cite>, a. e. <he>אין א׳ לעריות</he> there is no guardian (no means of guarding) against inchastity; Y. ib. I, 25ᵈ top <he>א׳ על עריות</he>.—Pl. <he>אֶפִּיטְרוֹפְסִים</he>, <he>אֶפִּיטְרוֹפְסִין</he>, <he>אַפַּטְרְפִין אֶפִּיטְרוֹפִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 41:34\">Targ. Y. Gen. XLI, 34</cite>. ",
+				"<cite ref=\"Mishnah Pesachim 8:1\">Pes. VIII, 1</cite>. ",
+				"<cite ref=\"Esther Rabbah 1:10\">Esth. R. to I, 2</cite>; a. fr.—",
+				"<cite ref=\"Tosefta Terumot 5:7\">Tosef. Ter. V, 7</cite> <he>תרומת א׳</he> T’rumah set apart by administrators in behalf of minors. Y. ",
+				"<cite ref=\"Tosefta Terumot 5:7\">ib.</cite> l. c.—",
+				"<cite ref=\"Bereishit Rabbah 6\">Gen. R. s. 6</cite>; <cite ref=\"Yalkut Shimoni on Torah 9:1\">Yalk. Gen. 9</cite> <he>אפיטרופולין</he> (corr. acc.); a. fr. [<cite ref=\"Yalkut Shimoni on Nach 771\">Yalk. Ps. 771</cite> <cite ref=\"A02711\"><he>אפיקורוס</he></cite> twice, read our w.]"
+			],
+			"label": "1"
+		}
+	]
+}

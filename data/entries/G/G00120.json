@@ -1,0 +1,26 @@
+{
+	"id": "G00120",
+	"slug": "זוג-3",
+	"headword": {
+		"text": "זִוֹג"
+	},
+	"page": {
+		"number": 383,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00057\"><he>זגג</he></cite>) <i>bell, the body of the bell</i>, contrad. to <cite ref=\"P00605\"><he>עינבל</he></cite>, clapper. ",
+			"units": [
+				"<cite ref=\"Mishnah Nazir 6:1\">Naz. VI, 1</cite> <he>כז׳ של בהמה</he> (<i>zag</i> means the shell) like the bell of an animal; <he>החיצון ז׳ וכ׳</he> the outer part is called <i>zog</i>, the inner <i>inbol</i>. ",
+				"<cite ref=\"Mishnah Shabbat 5:4\">Sabb. V, 4</cite>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 1:13\">Tosef. Kel. B. Mets. I, 13</cite> <he>ז׳ של דלת</he> door-bell. ",
+				"<cite ref=\"Tosefta Shabbat 5:5\">Tosef. Sabb. V</cite> (<cite ref=\"Tosefta Shabbat 6:7\">VI</cite>), 7, sq.; <cite ref=\"Shabbat 58a:16\">Sabb. 58ᵃ</cite>, sq.; a. fr.—Pl. <he>זוּגִּין</he>, <he>זֻגִּין</he>. Tosef. Kel. l. c. <he>העושה זג׳ וכ׳</he> he who fastens bells to a mortar. Ib. 14 <he>חזקת ז׳ וכ׳</he> the rule concerning bells &c. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 3:7:4\">Y. Gitt. III, 45ᵃ</cite> top <he>זו׳</he> bells (among the appurtenances of siege, v. <cite ref=\"K01198\"><he>כַּרְכּוֹם</he> II</cite>); Y. Keth. II, 26ᵈ <cite ref=\"D00188\"><he>דוגין</he></cite> (corr. acc.). Tosef. l. c. [read:] <he>אמר לאומן עשה לי שני ז׳ אחד לדלת וכ׳</he> if one says to the artisan, Make for me two bells, one for a door &c.; <cite ref=\"Jerusalem Talmud Gittin 3:2:2\">Y. Gitt. III, 44ᵈ</cite> top (corr. acc.); a. fr. [<he>זוּגִּין</he> <i>grape-shells</i>, v. <cite ref=\"G00054\"><he>זָג</he></cite>.]"
+			]
+		}
+	]
+}

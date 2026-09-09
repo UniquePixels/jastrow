@@ -1,0 +1,24 @@
+{
+	"id": "A00116",
+	"slug": "אביו",
+	"headword": {
+		"text": "אַבְיוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּר אַבְיוּ"
+		}
+	],
+	"page": {
+		"number": 5,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " pr. n. m. (<i>Bar</i>) <i>Abyu</i>, name of a renowned obituary poët. ",
+			"units": [
+				"<cite ref=\"Yevamot 103a:10\">Yeb. 103ᵃ</cite>; <cite ref=\"Moed Katan 25b:5\">M. Kat. 25ᵇ</cite> <he>בר אביו</he> Ar. (ed. <cite ref=\"A00523\"><he>אובא</he></cite>, <cite ref=\"A00074\"><he>אבין</he></cite>, Ms. Var. <he>אבו</he>, <he>איבו</he>, v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

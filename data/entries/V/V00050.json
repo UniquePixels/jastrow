@@ -1,0 +1,73 @@
+{
+	"id": "V00050",
+	"slug": "תבל-1",
+	"headword": {
+		"text": "תָּבַל"
+	},
+	"page": {
+		"number": 1644,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"V00054\"><he>תֶּבֶל</he></cite>) <i>to mix; to spice, season</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 23b:20\">Men. 23ᵇ</cite> <he>תִּיבְּלָהּ בקצח וכ׳</he> if he seasoned it (the unleavened bread) with cumin &c. ",
+				"<cite ref=\"Menachot 21a:17\">Ib. 21ᵃ</cite> <he>יכול יְתַבְּלֶנּוּ כתבן בטיט</he> Ms. M. a. Ar. (ed. <he>יתבוננו</he>) you may think (that <i>t’bon’nennu</i> means,) that he must mix it with salt as straw is mixed with clay; <cite ref=\"Yalkut Shimoni on Torah 454\">Yalk. Lev. 454</cite> (not <he>בתבן וטיט</he>); v. <cite ref=\"B00635\"><he>בִּין</he></cite>. ",
+				"<cite ref=\"Mishnah Orlah 2:4\">Orl. II, 4</cite> <he>כל המחמץ והמְתַבֵּל וכ׳</he> whosoever leavens, or seasons, or mixes with T’rumah &c. ",
+				"<cite ref=\"Mishnah Orlah 2:15\">Ib. 15</cite> <he>תבלין … לא באלו כדי לתַבֵּל … ונצטרפו ותִבְּלוּ</he> if spices of T’rumah and of mixed seeds get into a pot, neither being sufficient to season the dish, but seasoning it in combination. ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 2:1:16\">Y. Maas. Sh. II, 53ᶜ</cite> top a dish of second tithes <he>שתִּיבְּלוֹ וכ׳</he> which one seasoned with spices of a profane character; a. fr.—Part. pass. <he>מְתוּבָּל</he>; f. <he>מְתוּבֶּלֶת</he> &c. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 10:1:11\">Y. Pes. X, 37ᶜ</cite> <he>מבושל כמ׳</he> (ed. <he>כדי תבל</he>, <he>כתיתבל</he>, corr. acc.) boiled wine is in ritual law like spiced wine. ",
+				"<cite ref=\"Tosefta Pesachim 1:33\">Tosef. Pes. I</cite> (<cite ref=\"Tosefta Pesachim 2:33\">II</cite>), 33 <he>מצה המת׳ וכ׳</he> spiced Matsah; a. e.—Trnsf. <i>to improve, refine</i>. ",
+				"<cite ref=\"Bereishit Rabbah 23:3\">Gen. R. s. 23</cite>; <cite ref=\"Yalkut Shimoni on Torah 38:6\">Yalk. ib. 38</cite> (play on <he>תובל קין</he>) <he>ת׳ עבודתו של קין וכ׳</he> (Gen. R. <he>עבירתו</he>) he refined Cain’s work (sin); Cain killed without any tool &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"V00052\"><he>תֵּבֵל</he></cite>) <i>to make rich of growth</i>.—Part. pass. as ab. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 37:7\">Sifré Deut. 37</cite>; <cite ref=\"Yalkut Shimoni on Nach 943:1\">Yalk. Prov. 943</cite>, v. <cite ref=\"V00052\"><he>תֵּבֵל</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>תִּבֵּל</he> ",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִתַּבֵּל"],
+			"senses": [],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["הִתַּבֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be mixed, seasoned</i>. Tosef. Pes. l. c. <he>בין שנִתַּבְּלָה וכ׳</he> (ed. Zuck. <he>שתִּיבְּלָהּ</he>) whether it was seasoned in a stew-dish or in a pot.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"V00054\"><he>תֶּבֶל</he></cite> 2) <i>to defile one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 47:4\">Yalk. Gen. 47</cite> (ref. to <he>הוחל</he>, <cite ref=\"Genesis 4:26\">Gen. IV, 26</cite>, and play on <he>תובל</he>) <he>חזרו מִתַּבְּלִין בכל כעס וכ׳</he> they turned and denied themselves with all kind of provocation (sins), as we read, Tubal Cain &c.; <he>שחזרו להִתַּבֵּל בזנות וכ׳</he> they turned to defile themselves with voluptuousness, as we read (<cite ref=\"Leviticus 20:12\">Lev. XX, 12</cite>) <i>tebel ʿasu</i>"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

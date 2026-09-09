@@ -1,0 +1,45 @@
+{
+	"id": "G00669",
+	"slug": "זרד-1",
+	"headword": {
+		"text": "זֶרֶד"
+	},
+	"page": {
+		"number": 411,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"G00686\"><he>זרז</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>strength, alertness, valor</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 47a:9\">Yoma 47ᵃ</cite> (a metaphor in imitation of <cite ref=\"Proverbs 31:29\">Prov. XXXI, 29</cite>) <he>כל הנשים זֶ׳ זָרָדוּ וזֶ׳ אמי עלת׳ לגג</he> Ar. (read <he>עלה</he>; ed. <he>הנשים זרדו וז׳ אימא וכ׳ …</he>; Ms. M. <he>זֶרֶז זָרָזוּ אימא</he>, insert <he>וזֶ׳</he>; Ms. M. 2 <he>זריד זרדו וזֶ׳</he>; v. Rabb. D. S. a. l. note) all women have done valiantly, but the valor of my mother excelled them all (a metaphor of careful maternity)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"G00670\">next w.</cite>) pl. <he>זְרָדִים</he>, <he>זְרָרִין</he> <i>shoots, greens</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 9:6\">Tosef. Sabb. IX</cite> (<cite ref=\"Tosefta Shabbat 10:16\">X</cite>), 16; <cite ref=\"Shabbat 103a:6\">Sabb. 103ᵃ</cite> <he>המְזָרֵד ז׳ וכ׳</he> he who cuts greens, if for human food &c. ",
+				"<cite ref=\"Mishnah Shabbat 18:2\">Ib. XVIII, 2</cite> (<cite ref=\"Shabbat 126b:14\">126ᵇ</cite>) <he>חבילי ז׳</he> bundles of greens (young reeds &c., available for fodder); ib. 128ᵃ; Tosef. ib. XIV (XV), 10 <cite ref=\"G00672\"><he>זרדן</he></cite> ed. Zuck. (read <he>זרדין</he>, Var. <he>דים …</he>).—Esp. <he>לולבי ז׳</he> <i>the young sprouts of the service-tree</i>, the interior of which is eaten as a relish. ",
+				"<cite ref=\"Mishnah Sheviit 7:5\">Shebi. VII, 5</cite>. ",
+				"<cite ref=\"Tosefta Shabbat 8:9\">Tosef. Sabb. VIII</cite> (<cite ref=\"Tosefta Shabbat 9:9\">IX</cite>), 9 <he>לולבין וז׳</he> (corr. acc.); <cite ref=\"Tosefta Ma'aser Sheni 1:13\">Tosef. Maas. Sh. I, 13</cite>; <cite ref=\"Tosefta Uktsin 3:9\">Tosef. Ukts. III, 9</cite>; <cite ref=\"Mishnah Oktzin 3:4\">Ukts. III, 4</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " pr. n. (b. h.) <i>Zered</i>, name of a brook, <he>נחלא דז׳</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 21:12\">Targ. O. Num. XXI, 12</cite>; a. e.—",
+				"<cite ref=\"Tosefta Shevi'it 4:11\">Tosef. Shebi. IV, 11</cite>; Y. ib. VI, 36ᶜ; <cite ref=\"Sifrei Devarim 51:6\">Sifré Deut. 51</cite> <he>דורד</he>; <cite ref=\"Yalkut Shimoni on Torah 874\">Yalk. Deut. 874</cite> <he>נחלת דור</he> (corr. acc.); v. Hildesh. Beitr. p. 66."
+			],
+			"label": "3"
+		}
+	]
+}

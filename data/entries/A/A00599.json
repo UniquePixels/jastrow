@@ -1,0 +1,28 @@
+{
+	"id": "A00599",
+	"slug": "אוזיא",
+	"headword": {
+		"text": "אוּזְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּסְיָא",
+			"reconstructed": true
+		}
+	],
+	"page": {
+		"number": 23,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (√<he>אז</he>, v. <cite ref=\"A00955\"><he>אֲזַד</he></cite>; cmp. <cite ref=\"S01788\"><he>קָצֶה</he></cite>) <i>a piece</i>, <i>part, uzya</i>, a market term for a certain portion (quarter &c.) of meat. ",
+			"units": [
+				"<cite ref=\"Beitzah 29a:1\">Bets. 29ᵃ</cite> in Pumb. they call it <he>א׳ ופלגא א׳</he> Ms. M. (ed. <he>ופלגו א׳</he> corr. acc.; Var. <cite ref=\"A00784\"><he>אוסיא</he></cite>) an uzya and half an uzya."
+			]
+		}
+	]
+}

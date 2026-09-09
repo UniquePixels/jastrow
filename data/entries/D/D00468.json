@@ -1,0 +1,33 @@
+{
+	"id": "D00468",
+	"slug": "דיבוק-1",
+	"headword": {
+		"text": "דִּיבּוּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּבּוּק"
+		}
+	],
+	"page": {
+		"number": 294,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דבק</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>attachment, junction, intimacy</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 2:6:1\">Cant. R. to II, 6</cite> (ref. to <cite ref=\"Deuteronomy 11:22\">Deut. XI, 22</cite>) <he>איזהו ד׳</he> what is the form of intimacy? [<cite ref=\"Pirkei Avot 6\">Ab. ch. VI</cite> (Boraitha) <he>ד׳ חברים</he> (some ed. <cite ref=\"D00987\"><he>דקדוק</he></cite>) the friendship of students (the care in selection of friends).—2) <i>glue, paste, solder</i>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:3:14\">Y. Sabb. III, 6ᵃ</cite> bot. <he>שמא נתאכל דִּיבּוּקוֹ</he> (read: <he>שלא יתא׳ וכ׳</he>) lest its solder may be consumed (if the vessel be left without water). [<cite ref=\"Chullin 52a:3\">Ḥull. 52ᵃ</cite>, read <he>דָּבוּק</he> if the bird is caught by means of glue, v. <cite ref=\"D00072\"><he>דָּבַק</he></cite>.]"
+			],
+			"label": "1"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "A02841",
+	"slug": "אפש",
+	"headword": {
+		"text": "אֶפֶשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶיפֶשׁ"
+		}
+	],
+	"page": {
+		"number": 109,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A02841\"><he>אפש</he></cite>, √<cite ref=\"A02595\"><he>אף</he></cite>, cmp. <he>הפץ</he>; corresp. to b. h. <cite ref=\"N01084\"><he>נֶפֶשׁ</he></cite>, v. ",
+			"units": [
+				"<cite ref=\"Jeremiah 15:1\">Jer. XV, 1</cite>) <i>desire, pleasure;</i> [only with personal pron. as suffix]. ",
+				"<cite ref=\"Mishnah Nazir 4:5\">Naz. IV, 5</cite> <he>אי אַפְשִׁי וכ׳</he> I will not live with an offensive woman. ",
+				"<cite ref=\"Mishnah Ketubot 12:3\">Keth. XII, 3</cite> <he>אי א׳ לזוז וכ׳</he> I cannot leave my husband’s house. Y. Yoma VII, 45ᵇ bot. <he>אי א׳ שיכפר וכ׳</he> I do not want the Day of Atonement to bring me forgiveness. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 13:1:5\">Y. Yeb. XIII, beg. 13ᵇ</cite> <he>א׳ בנישואיך</he> I am willing to marry thee. ",
+				"<cite ref=\"Bamidbar Rabbah 13:15\">Num. R. s. 13</cite> (alluding to <cite ref=\"Genesis 3:22\">Gen. III, 22</cite>) <he>אמר אדם אי א׳</he> said Adam, I cannot (do penitence). Said the Lord, ‘And now’,—said Adam ‘pen’, ‘by no means’, ‘I will not’. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 7:6:3\">Y. Keth. VII, 31ᵇ</cite> bot. <he>אי א׳ אשה</he> (read <he>באשה</he>). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 8:1:9\">Y. Pes. VIII, 35ᵈ</cite> bot. <he>א׳ שתמנה</he> (read <he>אי א׳</he>). Y. Gitt. VI, 1; a. fr. ",
+				"<cite ref=\"Bereishit Rabbah 38\">Gen. R. s. 38</cite> <he>אי אַפְשֵׁנוּ וכ׳</he> we desire neither him nor his divine protection."
+			]
+		}
+	]
+}

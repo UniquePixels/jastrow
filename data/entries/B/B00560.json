@@ -1,0 +1,44 @@
+{
+	"id": "B00560",
+	"slug": "ביזא-1",
+	"headword": {
+		"text": "בִּיזָּא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּזָּא"
+		},
+		{
+			"text": "בִּיזְתָא"
+		}
+	],
+	"page": {
+		"number": 159,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בזי</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rent, cleft</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite> Ar. [<cite ref=\"L00003\"><he>לא</he></cite>] <he>דמי הדין ריסא להדין ב׳</he> (ed., v. <cite ref=\"A01870\"><he>אָלִיס</he></cite> a. <cite ref=\"B00571\"><he>בִּיזְעָא</he></cite>).—Pl. <he>בִּיזֵּי</he>. ",
+				"<cite ref=\"Bava Batra 74a\">B. Bath. 74ᵃ</cite>; <cite ref=\"Sanhedrin 110a\">Snh. 110ᵃ</cite> <he>אחוי ליה תרי ב׳</he> Ar. he showed him two clefts in the ground (ed. <he>חזאי תרי ביזעי</he>); Ar. ed. pr. Var. … <he>חזאי ביזתא דסליק תננא מינה</he> (Ms. R. <cite ref=\"K00206\"><he>כוותא</he></cite>, v. Rabb. D. S. a. l. note) I saw a cleft out of which smoke rose."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ruin, destruction</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 60:18\">Targ. Is. LX, 18</cite> (h. text <he>שׁד̇</he>); v. <cite ref=\"B00561\">next w.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

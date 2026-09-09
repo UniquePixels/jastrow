@@ -1,0 +1,23 @@
+{
+	"id": "A02794",
+	"slug": "אפר-3",
+	"headword": {
+		"text": "אֲפַר"
+	},
+	"page": {
+		"number": 107,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (√<cite ref=\"Q01526\"><he>פר</he></cite>, cmp. Ges. H. Dict. s. v. <cite ref=\"Q01527\"><he>פרא</he></cite>) <i>pasture-ground</i> (outside of the town), in gen. <i>meadow</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 5:7\">Bets. V, 7</cite>. ",
+				"<cite ref=\"Pesachim 8b\">Pes. 8ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

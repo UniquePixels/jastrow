@@ -1,0 +1,28 @@
+{
+	"id": "C00901",
+	"slug": "גלול",
+	"headword": {
+		"text": "גִּלּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּילּוּל"
+		}
+	],
+	"page": {
+		"number": 246,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>גִּלּוּלִים</he>, <he>גִּי׳</he> (b. h.; <i>filth</i> (v. <cite ref=\"C00961\"><he>גָּלָל</he></cite>), <i>idols</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 13a\">Meg. 13ᵃ</cite> to clean herself <he>מִגִּלּוּלֵי בית אביה</he> from the contamination of her paternal idolatry. ",
+				"<cite ref=\"Megillah 13a\">Ib.</cite> <he>מרדה בגילולי וכ׳</he> she rejected &c.—<he>עובד ג׳</he>, <he>עבודת ג׳</he> (abbr. <he>ע״ג</he>) <i>idolator, idolatry</i>. In some ed. for <cite ref=\"P00731\"><he>עכ״ום</he></cite>, <he>ע״ז</he> &c.; v. <cite ref=\"G00659\"><he>זָר</he></cite> a. <cite ref=\"K00249\"><he>כּוֹכָב</he></cite>."
+			]
+		}
+	]
+}

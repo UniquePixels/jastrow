@@ -1,0 +1,89 @@
+{
+	"id": "K00759",
+	"slug": "כלל-2",
+	"headword": {
+		"text": "כְּלַל"
+	},
+	"page": {
+		"number": 644,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00758\">same</cite><i>to surround, crown</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 3:11\">Targ. Cant. III, 11</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"K00262\"><he>כּוֹלָּא</he></cite>) <i>to make whole, combine</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 4:5:3\">Y. Meg. IV, 75ᵇ</cite> bot. <he>לינן חזרין וכָלְלִין לון</he> do we not again combine them (the separated portions)?"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּלֵּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to surround, crown</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 5:13\">Targ. Ps. V, 13</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (v. <cite ref=\"K00532\"><he>כִּילָה</he></cite>, <cite ref=\"K00557\"><he>כִּילְתָא</he> I</cite>) <i>to prepare a bridal room</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 101b:12\">B. Mets. 101ᵇ</cite> <he>כַּלְּלֵיה לבריח</he> if the owner of the rented dwelling gave it to his son as a bridal room (Rashi: if he was making preparations for his son’s wedding, and needed the dwelling for the young couple). ",
+						"<cite ref=\"Bereishit Rabbah 70\">Gen. R. s. 70</cite>; <cite ref=\"Yalkut Shimoni on Torah 125:3\">Yalk. Gen. 125</cite> <he>כולי יומא הוו מְכַלְּלִין</he> (<cite ref=\"B00537\"><he>ביה</he></cite>) <he>ליה</he> the whole day they were helping him to prepare the bridal chamber (decorating it)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַכְלֵיל"],
+			"senses": [
+				{
+					"gloss": "<i>to crown, surround</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 65:12\">Targ. Ps. LXV, 12</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 103:4\">Ib. CIII, 4</cite>; a. e.—[<cite ref=\"Kiddushin 81b:11\">Kidd. 81ᵇ</cite> <he>מכלליה</he>, read: <he>מכלי להו</he>, v. <cite ref=\"K00717\"><he>כְּלֵי</he> I</cite>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיתְכַּלֵּל", "אִיכַּלֵּל"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיכְּלִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to be crowned, to adorn one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 34\">Gen. R. s. 34</cite>, beg. (expl. ",
+						"<cite ref=\"Psalms 142:8\">Ps. CXLII, 8</cite>) <he>יִתְכַּלְּלוּן בי וכ׳</he> the righteous shall adorn themselves with me."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be led into the bridal room, be married</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 27b:22\">Meg. 27ᵇ</cite> <he>כי איכ׳ רבה וכ׳</he> when his son R. was to marry."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

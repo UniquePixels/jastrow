@@ -1,0 +1,36 @@
+{
+	"id": "V01106",
+	"slug": "תשע-3",
+	"headword": {
+		"text": "תְּשַׁע"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּשְׁעָא"
+		},
+		{
+			"text": "תִּשְׁעָה"
+		}
+	],
+	"page": {
+		"number": 1705,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. <cite ref=\"V01105\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 5:5\">Targ. Gen. V, 5</cite>. ",
+				"<cite ref=\"Onkelos Numbers 1:23\">Targ. Num. I, 23</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 25:3\">Targ. II Kings XXV, 3</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 29a:11\">Ber. 29ᵃ</cite> <he>הני ת׳ דר״ה</he> those nine benedictions in the New Year’s prayer; a. fr.—<he>תְּשַׁע עֲשַׂר</he>, <he>תְּ׳ עַשְׂרֵי</he>, <he>תְּ׳ סְרֵי</he>, contr. <cite ref=\"V01085\"><he>תְּשֵׁיסַר</he></cite>, <cite ref=\"V01103\"><he>תְּשֵׁסְרֵי</he></cite> <i>nineteen</i>. ",
+				"<cite ref=\"Onkelos Genesis 11:25\">Targ. Gen. XI, 25</cite> (Y. ed. Vien. <he>שתסרי</he>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Joshua 19:38\">Targ. Josh. XIX, 38</cite>; a. e.—Ber. l. c. <he>תמני סרי תקון תשסרי וכ׳</he> eighteen benedictions they introduced, nineteen they did not; a. e.—<cite ref=\"V01085\"><he>תְּשֵׁיסְרָאָה</he></cite>, <he>תְּשֵׁסְ׳</he> <i>the nineteenth</i>. ",
+				"<cite ref=\"Targum of I Chronicles 24:16\">Targ. I Chr. XXIV, 16</cite>."
+			]
+		}
+	]
+}

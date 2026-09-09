@@ -1,0 +1,32 @@
+{
+	"id": "B00319",
+	"slug": "בוצרייה",
+	"headword": {
+		"text": "בּוֹצְרָיָיה"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוֹצְרָיָה"
+		},
+		{
+			"text": "בּוֹצְרָאָה"
+		}
+	],
+	"page": {
+		"number": 148,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>of Bozrah</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 6:1:2\">Y. Ned. VI, beg. 39ᶜ</cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 7:1:1\">Cant. R. to VII, 1</cite>. ",
+				"<cite ref=\"Eichah Rabbah 4\">Lam. R. to IV, 20</cite> <cite ref=\"B01109\"><he>בָּצְרָאָה</he></cite>.—Fem. h. <he>בּוֹצְרִית</he>. Y. Bicc. III, beg. 65ᶜ a Bozrah fig."
+			]
+		}
+	]
+}

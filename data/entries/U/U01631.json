@@ -1,0 +1,39 @@
+{
+	"id": "U01631",
+	"slug": "שעבוד-2",
+	"headword": {
+		"text": "שִׁעְבּוּד",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁעְבּוּדָא"
+		},
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1609,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01630\">same</cite><i>servitude, oppression</i>. Targ. II Esth. I, 2. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 12:8\">Targ. II Chr. XII, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 37:17\">Targ. Y. Gen. XXXVII, 17</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 5:6\">Targ. Y. Deut. V, 6</cite>; a. fr.—Pl. <cite ref=\"U01631\"><he>שִׁעְבּוּדַיָּא</he></cite>, <cite ref=\"U00069\"><he>שִׁי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 40:18\">Targ. Y. Gen. XL, 18</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pledge, obligation</i>. [In post-Talmudic literature <he>ש׳ דר׳ נתן</he> the obligation introduced by R. Nathan, whereby the court can collect a debt in favor of the creditor’s debtor; v. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 40b\">B. Kam. 40ᵇ</cite>; <cite ref=\"Ketubot 19a\">Keth. 19ᵃ</cite>; a. fr.]"
+			],
+			"label": "2"
+		}
+	]
+}

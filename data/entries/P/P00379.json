@@ -1,0 +1,29 @@
+{
+	"id": "P00379",
+	"slug": "עותא-2",
+	"headword": {
+		"text": "עַוְתָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עַוְו׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1060,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00377\"><he>עֲוַת</he></cite>) <i>perverse person</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 3:32\">Targ. Prov. III, 32</cite> (h. text <cite ref=\"L00228\"><he>נלוז</he></cite>)."
+			]
+		}
+	]
+}

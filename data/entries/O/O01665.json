@@ -1,0 +1,35 @@
+{
+	"id": "O01665",
+	"slug": "סרק-4",
+	"headword": {
+		"text": "סְרַק",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1030,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"O01623\"><he>סָרֵיק</he></cite> same. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 93b:12\">B. Kam. 93ᵇ</cite> <he>דסָרְקֵיה סָרוּקֵי</he> he carded the wool with a comb, opp. <he>נפציה נפוצי</he> hatchelled it by beating. ",
+						"<cite ref=\"Vayikra Rabbah 5:8\">Lev. R. s. 5</cite>, end <he>ס׳ שעריה</he> he combs his hair. ",
+						"<cite ref=\"Moed Katan 10b:2\">M. Kat. 10ᵇ</cite> <he>לסָרוּקֵי סוסיא</he> to curry a horse. ",
+						"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 2</cite>; <cite ref=\"Gittin 57b\">Gitt. 57ᵇ</cite>, a. e. <he>מְסָרֵיקִנָא וכ׳</he> I shall flay your flesh with iron combs; Lam. R. introd. (R. Josh. 2) <he>סְרֵיקְנָא</he>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

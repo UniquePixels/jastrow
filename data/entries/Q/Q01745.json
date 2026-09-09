@@ -1,0 +1,24 @@
+{
+	"id": "Q01745",
+	"slug": "פרזדאון",
+	"headword": {
+		"text": "פַּרְזְדָאוָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּרַזְדָּוָון"
+		}
+	],
+	"page": {
+		"number": 1222,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " f. pl. = h. <cite ref=\"Q01657\"><he>פְּרוּזְדָּאוֹת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 3:11\">Targ. Koh. III, 11</cite>; <cite ref=\"Aramaic Targum to Ruth 4:20\">Targ. Ruth IV, 20</cite> ed. Lag. (oth. ed. <cite ref=\"Q01655\"><he>פרוזבין</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

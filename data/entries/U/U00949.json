@@ -1,0 +1,23 @@
+{
+	"id": "U00949",
+	"slug": "שילין",
+	"headword": {
+		"text": "שֵׁילִין"
+	},
+	"page": {
+		"number": 1563,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (= <he>שלילין</he>; <cite ref=\"U01343\"><he>שָׁלַל</he> I</cite>; cmp. <cite ref=\"U01401\"><he>שַׁלְשֶׁלֶת</he></cite>) <i>reins</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 4:7\">Tosef. Kel. B. Mets. IV, 7</cite> <he>הש׳ והפגר וכ׳</he> the reins, the bit, and the bridle."
+			]
+		}
+	]
+}

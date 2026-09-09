@@ -1,0 +1,84 @@
+{
+	"id": "O01404",
+	"slug": "ספק-3",
+	"headword": {
+		"text": "סָפַק",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1015,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"U01796\"><he>שָׂפק</he></cite>)<i>to divide, distribute; to supply;to suffice</i>. Mekh. B’shall., Vayass‘a, s. 1 <he>ולא סָפְקוּ אלא וכ׳</he> and they supplied water for only seventy date trees; <he>כיון … וספקו להם ושנו וכ׳</he> when the Israelites came and six hundred thousand men encamped around them, they supplied them (with drinking water), and this a second and a third time.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סִיפֵּק"],
+			"senses": [
+				{
+					"gloss": " to <i>supply</i>, <i>furnish</i>. Ib. s. 6 <he>אם מְסַפֵּק לנו צרכנו וכ׳</he> (ed. Weiss <he>מַסְפִּיק</he>, <i>Hif.</i>) if he supplies our wants, we shall serve him &c. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 9:1\">B. Mets. IX, 1</cite> (<cite ref=\"Bava Metzia 103b:1\">103ᵇ</cite>) <he>שניהם מְסַפְּקִין את הקנים</he> the two together have to furnish the needed poles. ",
+						"<cite ref=\"Sotah 11b:18\">Sot. 11ᵇ</cite> <he>היו מְסַפְּקוֹת להם מים ומזון</he> they supplied them with water and food; a. fr.—[<cite ref=\"Midrash Tehillim 92:2\">Midr. Till. to Ps. XCII</cite> <he>לספק לו</he>, v. <cite ref=\"O01368\"><he>סְפִיקוּלָא</he> I</cite>.]—V. <cite ref=\"O00789\"><he>סִיפּוּק</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִסְפִּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to distribute, supply</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 4\">Lev. R. s. 4</cite> (ref. to <he>יספוק</he>, <cite ref=\"Job 34:37\">Job XXXIV, 37</cite>) <he>אתה מַסְפִּיק בנינו וכ׳</he> thou distributest thy sins among us, i.e. we have to suffer for thy sins; <cite ref=\"Yalkut Shimoni on Nach 920\">Yalk. Job 920</cite> <he>משתיק</he> (corr. acc.; Var. <he>משְׂפִּיק</he>). Mekh. l. c., v. supra; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (with <he>ביד</he>) <i>to give sufficient time</i> or <i>power; to allow</i> an opportunity. ",
+					"units": [
+						"<cite ref=\"Pirkei Avot 5:18\">Ab. V, 18</cite> <he>אין מַסְפִּיקִין בידו וכ׳</he> no time (or opportunity) will be given him to do repentance; <cite ref=\"Yoma 87a\">Yoma 87ᵃ</cite>; Tosef. ib. V (IV), 11. Ib. 10 <he>אין מספיקין בידו וכ׳</he> he will be given no opportunity (temptation) to sin; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to have sufficient time, power</i> &c.; <i>to succeed, finish</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 21a:9\">Taan. 21ᵃ</cite> <he>לא הִסְפַּקְתִּי לפרוק וכ׳</he> I had not yet finished unloading when &c. Y. Ber. IX, 14ᵇ bot. <he>לא ה׳ לומר עד וכ׳</he> he had not yet finished saying Sh’m‘a, when he expired; a. fr.—[Ib. 14ᵃ <he>מספיק למדינה</he>, v. <cite ref=\"O01342\"><he>סָפַח</he></cite>.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִסְתַּפֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>Nithpa.</i> <cite ref=\"O01025\"><he>נִסְתַּפֵּק</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be supplied, to supply one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 8a:10\">Pes. 8ᵃ</cite> <he>במִסְתַּפֵּק</he> when it is a store-room from which supplies are taken for the table; <cite ref=\"Pesachim 8b\">ib. 8ᵇ</cite>. Y. Ab. Zar. V, 44ᵈ bot. <he>אבותיכם היו מִסְתַּפְּקִין משלנו וכ׳</he> (not <he>בשלנו</he>) your fathers used to buy supplies (of wine) of our fathers, why do you not buy of us? Y. Dem. III, 23ᶜ, a. e. <he>מִסְתַּפֶּקֶת</he>, v. <cite ref=\"O00584\"><he>סִידְקִי</he></cite>. ",
+						"<cite ref=\"Eruvin 88a:20\">Erub. 88ᵃ</cite> <he>אדם עשוי להִסְתַּפֵּק סאתים וכ׳</he> a person usually consumes two S’ah of water a day (from the supply in the cistern &c.); a. fr.—",
+						"<cite ref=\"Tractate Derekh Eretz Rabbah 7:2\">Der. Er. ch. VII</cite> <he>ונִסְתַּפְּקוּ</he> they ate and were amply supplied (enjoyed their meal)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"O01407\"><he>סָפֵק</he></cite>) <i>to be doubtful</i> Y. Yeb. XI, end, 12ᵇ <he>נ׳ לו</he> he was in doubt.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hitpa."
+		}
+	]
+}

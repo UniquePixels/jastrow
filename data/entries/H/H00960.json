@@ -1,0 +1,25 @@
+{
+	"id": "H00960",
+	"slug": "חלא-2",
+	"headword": {
+		"text": "חָלָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 463,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"H00323\"><he>חוֹל</he> I</cite>, <i>sand</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 32:13\">Targ. Gen. XXXII, 13</cite>; a. fr.—",
+				"<cite ref=\"Pesachim 113a\">Pes. 113ᵃ</cite>, v. <cite ref=\"A00367\"><he>אַדְּ־</he></cite>.—Pl. <he>חָלָתָא</he> (fem.). ",
+				"<cite ref=\"Shabbat 110a:2\">Sabb. 110ᵃ</cite> <cite ref=\"H00285\"><he>בי ח׳</he></cite> between the sand-mounds."
+			]
+		}
+	]
+}

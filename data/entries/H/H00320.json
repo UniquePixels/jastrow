@@ -1,0 +1,53 @@
+{
+	"id": "H00320",
+	"slug": "חול-2",
+	"headword": {
+		"text": "חוּל",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 432,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00319\">same</cite><i>to dance</i>. <i>Part.</i> <cite ref=\"H00731\"><he>חָיֵיל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 15:20\">Targ. Y. Ex. XV, 20</cite> <he>חיילין</he> (read <he>חַיְילָן</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to take effect</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 14a:2\">Yoma 14ᵃ</cite> <he>חַיְילָא עליה וכ׳</he> the observation of mourning rests upon him. ",
+				"<cite ref=\"Nedarim 17a\">Ned. 17ᵃ</cite> <he>ח׳ נזירות וכ׳</he>, v. <cite ref=\"H00319\">preced.</cite> ",
+				"<cite ref=\"Shevuot 24b\">Shebu. 24ᵇ</cite> <he>ח׳ אתאנים</he> takes effect with reference to figs. ",
+				"<cite ref=\"Chullin 103a:5\">Ḥull. 103ᵃ</cite> <he>אתי … ח׳</he> comes and takes effect in addition to &c. ",
+				"<cite ref=\"Chullin 103a:5\">Ib.</cite> … <he>ובמיתי מֵיחַל</he> (<he>מֵיחוּל</he>) <he>וכ׳</he> and they differ as to whether or not the prohibition of … comes to take effect &c.; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to hover over one’s head, be impending</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 7:20\">Targ. Jer. VII, 20</cite>; a. e."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְחָיִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to turn in a circle, dance</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 42:5\">Targ. Ps. XLII, 5</cite> (h. text <cite ref=\"A00377\"><he>אדדם</he></cite>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

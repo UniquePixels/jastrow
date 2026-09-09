@@ -1,0 +1,23 @@
+{
+	"id": "M00720",
+	"slug": "מזגא-5",
+	"headword": {
+		"text": "מָזְגָּא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מָזְגָּא חַמְרָא"
+		}
+	],
+	"page": {
+		"number": 753,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<he>מְזַנ</he>) <i>Wine-Mixer</i>, name of an unclean bird; <he>בת מ׳ ח׳</he> <i>Little Wine-Mixer</i>, name of a clean bird. ",
+			"units": ["<cite ref=\"Chullin 62b:9\">Ḥull. 62ᵇ</cite>, sq."]
+		}
+	]
+}

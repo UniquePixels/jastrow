@@ -1,0 +1,36 @@
+{
+	"id": "Q02165",
+	"slug": "פתיל",
+	"headword": {
+		"text": "פָּתִיל"
+	},
+	"page": {
+		"number": 1253,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"Q02182\"><he>פָּתַל</he></cite>)<i>twisted thread, border, edge</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 85:9\">Gen. R. s. 85</cite> (ref. to <he>ופתילך</he>, <cite ref=\"Genesis 38:18\">Gen. XXXVIII, 18</cite>) <he>זו סנהדרין שהן מצויינין בפ׳</he> this refers to the Sanhedrin that is distinguished by the (blue) cord (v. <cite ref=\"I00504\"><he>טַלִּית</he></cite>). ",
+				"<cite ref=\"Sifrei Bamidbar 115:1\">Sifré Num. 115</cite> (ref. to <cite ref=\"Numbers 15:38\">Num. XV, 38</cite>) <he>על מקום הארוג ולא על מקום פ׳</he> the show-fringe must be attached to the woven part of the garment, not to where the edge begins. ",
+				"<cite ref=\"Menachot 39b:3\">Men. 39ᵇ</cite> <he>פ׳ בעינן</he> the cord must be twisted, opp. <he>גדיל</he> plaited; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the twisted rim of an earthen vessel;</i> <he>צמיד פ׳</he> <i>closely covered with a lid</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 126:1\">Sifré Num. 126</cite> (ref. to <cite ref=\"Numbers 19:15\">Num. XIX, 15</cite>) <he>פ׳ זה העורף צמיד זה הדופק</he> (not <he>העודף</he>) <i>pathil</i> is the neck of the vessel, <i>tsamid</i> the lid; <cite ref=\"Yalkut Shimoni on Torah 762:4\">Yalk. Num. 762</cite> <he>פתוח זה העורף וכ׳</he> (corr. acc.). ",
+				"<cite ref=\"Yalkut Shimoni on Torah 762:5\">Ib.</cite> <he>מצילין</he> (<cite ref=\"B00000\"><he>ב</he></cite>)<he>צ׳ פ׳ וכ׳</he> they keep uncleanness off when closely covered, though lying in a tent where there is a corpse. ",
+				"<cite ref=\"Bereishit Rabbah 39:2\">Gen. R. s. 39</cite> <he>צלוחית … מוקפת צ׳ פ׳</he> a bottle closed with an air-tight lid. ",
+				"<cite ref=\"Chullin 25a:10\">Ḥull. 25ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Tosefta Kelim Kamma 7:7\">Tosef. Kel. B. Kam. VII, 7</cite> <he>מפני שהוא פ׳ ולא צמיד</he> because a tin rim is twisted, but not close."
+			],
+			"label": "2"
+		}
+	]
+}

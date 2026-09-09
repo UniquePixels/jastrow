@@ -1,0 +1,41 @@
+{
+	"id": "O00345",
+	"slug": "סומכוון",
+	"headword": {
+		"text": "סוּמְכְוָון"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוּמְכְוָותָא"
+		},
+		{
+			"text": "סוּמְכְוָ׳"
+		}
+	],
+	"page": {
+		"number": 966,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"O01098\"><he>סְמַךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>approaches</i> (cmp. ",
+			"units": [
+				"<cite ref=\"Ezekiel 24:2\">Ez. XXIV, 2</cite>), <i>works and troops of siege, forts</i>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 17:23\">Targ. Ez. XVII, 23</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 29:7\">Ib. XXIX, 7</cite> <he>בית ס׳</he> <i>fortification</i>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 24:5\">Ib. XXIV, 5</cite>; a. e.—2) <i>auxiliaries</i>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 10:15\">Targ. I Kings X, 15</cite>; <cite ref=\"Targum Jonathan on Jeremiah 25:20\">Targ. Jer. XXV, 20</cite>, a. e. (h. text <cite ref=\"E00722\"><he>הערב</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Nahum 3:9\">Targ. Nah. III, 9</cite> <cite ref=\"O00345\"><he>סוּמְכְוָותָהּ</he></cite> ed. Lag. (oth. ed. <cite ref=\"O00347\"><he>סוּמְכְתָהָא</he></cite>; h. text <he>עצמה</he>)."
+			],
+			"label": "1"
+		}
+	]
+}

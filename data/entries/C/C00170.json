@@ -1,0 +1,26 @@
+{
+	"id": "C00170",
+	"slug": "גדוד-1",
+	"headword": {
+		"text": "גְּדוּד",
+		"homograph": 1
+	},
+	"page": {
+		"number": 210,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"C00300\"><he>גּוּד</he></cite>) <i>troop, band</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 20:1\">Pesik. R. s. 20</cite>, end <he>ג׳ מלאכים</he> a troop of angels. ",
+				"<cite ref=\"Berakhot 3b\">Ber. 3ᵇ</cite>; <cite ref=\"Sanhedrin 16a:20\">Snh. 16ᵃ</cite> <he>לכו ופשטו ידיכם בג׳</he> go ye and stretch your hands out (for booty) as a band (of marauders). Pesik. R. l. c. <he>ג׳ של מלאכי חבלה</he> a troop of angels of destruction.—Pl. <cite ref=\"C00175\"><he>גְּדוּדִים</he></cite>, <cite ref=\"C00175\"><he>גְּדוּדִין</he></cite>. Ib. ",
+				"<cite ref=\"Devarim Rabbah 11\">Deut. R. s. 11</cite>, end. ",
+				"<cite ref=\"Berakhot 29b:11\">Ber. 29ᵇ</cite> <he>במקום גְּדוּדֵי חיה וכ׳</he> in a place where there are hords of wild beasts or robbers; <cite ref=\"Tosefta Berakhot 3:11\">Tosef. ib. III, 11</cite> Var. ed. Zuck."
+			]
+		}
+	]
+}

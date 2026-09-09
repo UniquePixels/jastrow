@@ -1,0 +1,26 @@
+{
+	"id": "H01875",
+	"slug": "חתול-2",
+	"headword": {
+		"text": "חָתוּל",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲתוּלָא"
+		}
+	],
+	"page": {
+		"number": 512,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01874\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Chullin 52b:10\">Ḥull. 52ᵇ</cite>.—Pl. <he>חֲתוּלַיָּא</he>, <he>חֲתוּלִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 13:22\">Targ. Is. XIII, 22</cite>; <cite ref=\"Targum Jonathan on Isaiah 34:14\">XXXIV, 14</cite> (h. text <he>איים</he>) wild cats. [<cite ref=\"Hosea 9:6\">Hos. IX, 6</cite> <he>חתולין</he>, read: <he>חֲרוּלִין</he>.]"
+			]
+		}
+	]
+}

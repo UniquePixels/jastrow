@@ -1,0 +1,28 @@
+{
+	"id": "M00010",
+	"slug": "מאוז",
+	"headword": {
+		"text": "מָאוּז",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "מַאוָז"
+		}
+	],
+	"page": {
+		"number": 721,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Arab. <i>mawz</i>) <i>the fruit of the wild Strawberry-tree</i> or <i>Arbutus</i> (v. Löw Pfl. p. 334; Sm. Ant. s. v. Arbutum).—<he>מי מ׳</he> the juice of the wild Strawberry, used for adulterating honey. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 6:1\">Koh. R. to VI, 1</cite>; <cite ref=\"Kohelet Rabbah 9:13\">IX, 13</cite> Var. in Lonzano (ed. <cite ref=\"M00013\"><he>מַאוָס</he></cite>, <cite ref=\"M00027\"><he>מאיס</he></cite>, <cite ref=\"M00024\"><he>מאים</he></cite>); <cite ref=\"Tosefta Bava Batra 5:6\">Tosef. B. Bath. V, 6</cite> <cite ref=\"M00012\"><he>מאון</he></cite> ed. Zuck. (corr. acc.; Var. <he>מעיין</he>, read: <he>מַעֲוָוז</he>); Sifra Vayikra, Ḥoba, Par. 12, ch. XXII; <cite ref=\"Yalkut Shimoni on Torah 479:9\">Yalk. Lev. 479</cite> <he>מעיין</he> (corr. acc.)."
+			]
+		}
+	]
+}

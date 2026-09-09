@@ -1,0 +1,28 @@
+{
+	"id": "P01150",
+	"slug": "עקבא-3",
+	"headword": {
+		"text": "עֲקֵבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲקֵי׳"
+		}
+	],
+	"page": {
+		"number": 1104,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. v. preced.—2) (<cite ref=\"P01149\">preced.</cite> wds.) <i>last, late</i>.—Pl. <he>עֲקֵבִין</he>, <cite ref=\"P01150\"><he>עֲקֵי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 12\">Lev. R. s. 12</cite> <he>אילין דעללין לחנותא קדמאין ונפקין ע׳</he> Ar. (ed. <he>זה … ונפיק בתראי</he>, incorr.) those who enter the wine shop the first and leave it the last."
+			],
+			"label": "1"
+		}
+	]
+}

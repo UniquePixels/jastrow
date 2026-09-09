@@ -1,0 +1,28 @@
+{
+	"id": "J00282",
+	"slug": "יחטא",
+	"headword": {
+		"text": "יַחֲטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יַחָטָא"
+		}
+	],
+	"page": {
+		"number": 574,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00281\">preced.</cite> wds.) <i>searcher of sin, accuser</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Zechariah 3:1\">Targ. Zech. III, 1</cite>; <cite ref=\"Targum Jonathan on Zechariah 3:2\">ib. 2</cite> (ed. Lag. <cite ref=\"H00582\"><he>חטא</he></cite>, v. ",
+				"<cite ref=\"Targum Jonathan on Zechariah 3:2\">ib.</cite> p. XLII<sup>3</sup>), v. <cite ref=\"H00585\"><he>חֲטָאָה</he></cite>."
+			]
+		}
+	]
+}

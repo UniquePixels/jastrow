@@ -1,0 +1,23 @@
+{
+	"id": "H01763",
+	"slug": "חרקייא",
+	"headword": {
+		"text": "חֲרָקַיָּיא"
+	},
+	"page": {
+		"number": 506,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"H01762\">preced.</cite>) [<i>incisions</i>,]<i>ḥărakaya</i>, a Chaldaic substitute of <cite ref=\"H01759\"><he>חֵרֶק</he></cite> which is itself a substitute of <cite ref=\"H01716\"><he>חֵרֶם</he></cite>. ",
+			"units": [
+				"<cite ref=\"Nedarim 10b\">Ned. 10ᵇ</cite> what are the substitutes of <i>ḥerem?</i> <he>ח׳ חרכייא חרפייא</he> Rashi (Ar. <he>הר׳</he>; ed. <he>חֲרָקִים</he> &c., h. pl. of <cite ref=\"H01759\"><he>חֵרֶק</he></cite> &c.)."
+			]
+		}
+	]
+}

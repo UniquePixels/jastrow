@@ -1,0 +1,44 @@
+{
+	"id": "P00493",
+	"slug": "עיבידא",
+	"headword": {
+		"text": "עִיבִידָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִיבִידְתָּא"
+		},
+		{
+			"text": "עֲבִי׳"
+		},
+		{
+			"text": "עִבִי"
+		}
+	],
+	"page": {
+		"number": 1066,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " fr. (<cite ref=\"P00016\"><he>עֲבַד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>labor, work, trade, occupation</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 16:29\">Targ. Lev. XVI, 29</cite>. ",
+				"<cite ref=\"Onkelos Exodus 31:5\">Targ. Ex. XXXI, 5</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 91a:13\">B. Mets. 91ᵃ</cite> <he>בעֲבִידְתֵּיה טריד</he> his attention is absorbed by his business. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 4:6:3\">Y. Taan. IV, 69ᵇ</cite> bot. <he>מיעבד עִיבִידְתֵּיה</he> to follow his pursuit (as a washer). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 2:1:17\">Y. Sabb. II, 4ᵈ</cite> top, v. <cite ref=\"P00176\"><he>עוֹבַדְתָּא</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>beasts of labor</i>, v. <cite ref=\"P00176\"><he>עוֹבַדְתָּא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

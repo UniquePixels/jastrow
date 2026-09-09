@@ -1,0 +1,26 @@
+{
+	"id": "S00585",
+	"slug": "קורה-2",
+	"headword": {
+		"text": "קוֹרָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1342,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"S02020\"><he>קֹרָה</he></cite>; <cite ref=\"S02195\"><he>קָרַר</he> II</cite>)<i>cold, cooling</i>; <he>קוֹרַת רוח</he> [cooling of the <i>spirit,</i>] <i>satisfaction, pleasure, comfort</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 4:17\">Ab. IV, 17</cite> <he>יפה … של ק׳ ר׳ וכ׳</he> better one hour of gratification in the hereafter than a whole life of this world. ",
+				"<cite ref=\"Yevamot 63b:2\">Yeb. 63ᵇ</cite> <he>אין אדם מוצא ק׳ ר׳ וכ׳</he> a man finds contentment only with his first wife. ",
+				"<cite ref=\"Vayikra Rabbah 3\">Lev. R. s. 3</cite>, end <he>ברוך … לך ק׳ ר׳</he> be blessed and contented. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:2:7\">Y. Ber. IV, 7ᵈ</cite> bot. <he>ותבא לפניך קורת נפשנו לטובה</he> and may our contentment come before thee for good; a. e."
+			]
+		}
+	]
+}

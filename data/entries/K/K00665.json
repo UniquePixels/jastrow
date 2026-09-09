@@ -1,0 +1,34 @@
+{
+	"id": "K00665",
+	"slug": "ככרא",
+	"headword": {
+		"text": "כִּכְּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּ׳"
+		}
+	],
+	"page": {
+		"number": 638,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00664\">same</cite><i>talent</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:39\">Targ. O. Ex. XXV, 39</cite>; a. e.—Pl. <he>כִּכְּרִין</he>, <he>כִּכְּרֵי</he>, <cite ref=\"K00665\"><he>כַּ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 38:27\">Ib. XXXVIII, 27</cite>; a. e.—",
+				"<cite ref=\"Bekhorot 5a:17\">Bekh. 5ᵃ</cite> <he>כללי קחשיב בכ׳ וכ׳</he> large round sums the Bible counts by Kikkars, units of Kikkars it does not (but counts by Shekels)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ball</i>.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 86a:12\">B. Mets. 86ᵃ</cite>, v. <cite ref=\"K00250\"><he>כּוֹכְבָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

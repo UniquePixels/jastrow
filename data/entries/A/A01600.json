@@ -1,0 +1,32 @@
+{
+	"id": "A01600",
+	"slug": "איקנוס",
+	"headword": {
+		"text": "אִיקָנוֹס"
+	},
+	"page": {
+		"number": 60,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἱκανός) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>worthy, fit; wealthy</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 919:1\">Yalk. Job 919</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sufficient</i>, v. <cite ref=\"A02932\"><he>אַקְסְיוֹס</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

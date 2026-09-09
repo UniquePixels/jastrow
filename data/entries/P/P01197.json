@@ -1,0 +1,71 @@
+{
+	"id": "P01197",
+	"slug": "עקלתון",
+	"headword": {
+		"text": "עֲקַלָּתוֹן"
+	},
+	"page": {
+		"number": 1106,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P01196\">preced.</cite> wds.) <i>tortuousness</i>; <he>דרך ע׳</he> <i>in a round about way, indirectly</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 4:1:8\">Y. Dem. IV, 24ᵃ</cite> top <he>מהו שישאלנו דרך ע׳</he> may one ask him indirectly (so as to give him an opportunity to confess his omission without compromising himself)?"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עָקַם"],
+			"senses": [
+				{
+					"gloss": " (cmp. <he>עקב</he>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to curve, wind</i>. Y. Erub. II, 20ᵃ bot. <he>כל מה שהפרה פושטת … הגמל עוֹקֵם וכ׳</he> whereas the cow stretches her neck out straight, the camel turns his neck. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite>, v. infra. ",
+						"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 8</cite> <he>עוקם את חוטמו</he> turns up his nose (at the bad odor).—",
+						"<cite ref=\"Meilah 17b:13\">Meïl. 17ᵇ</cite> <he>ע׳ פיו ר׳ אליעזר וכ׳</he> R. El.… curved his mouth (pouted speaking in an undertone, v. <cite ref=\"P01179\"><he>עֲקִימָה</he></cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to circumvent, supersede</i>, v. <cite ref=\"P01143\"><he>עָקַב</he></cite>.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "[[."
+		},
+		{
+			"forms": ["עִיקֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to curve, wind; to make a circuit</i>. Y. Yoma VI, 44ᵇ bot. <he>שלשים … והיה מְעַקְּמוֹ וכ׳</he> the priest’s belt was thirty-two cubits long, and he wound it this way and that; <cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite> <he>ועוקמו לפניו ולאחוריו</he> (read: <he>ועִיקְּמוֹ</he>); <cite ref=\"Shir HaShirim Rabbah 4:4\">Cant. R. to IV, 4</cite> (not <he>מעמקו</he>). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 50:4\">Gen. R. s. 50</cite> (ref. to <he>סורו</he>, <cite ref=\"Genesis 19:2\">Gen. XIX, 2</cite>) <he>אפי׳ איני כדאי עַקְּמוּ עלי את הדרך</he> though I be not worthy (of your visit), go out of your way on my account; <cite ref=\"Genesis 19:2\">ib.</cite> <he>עקמו עלי את הדרך כדי שלא תהיו נראים וכ׳</he> take a circuitous route in coming to me, that you may not be seen going to me. ",
+						"<cite ref=\"Bereishit Rabbah 32\">Gen. R. s. 32</cite> <he>ע׳ הקב״ה שתים וכ׳</he> the Lord (Bible text) uses a circumlocution of two or three words (writes two or three words where one would have been sufficient) in order to avoid the word ‘unclean’; <cite ref=\"Pesachim 3a\">Pes. 3ᵃ</cite>; <cite ref=\"Vayikra Rabbah 26\">Lev. R. s. 26</cite>, beg.; a. e.—<i>Part. pass.</i> <he>מְעוּקָּם</he>; f. <he>מְעוּקֶּמֶת</he> <i>tortuous; tricky</i>. Y. Erub. V, 22ᵈ top <he>היה הנחל מע׳</he> if the wady meandered. Tanḥ. Vaëra 4 <he>מה הנחש הולך מע׳ אף המלכות מְעַקֶּמֶת דרכיה</he> as the serpent moves in tortuous lines, so the government winds its ways; <he>כשם שהנחש מע׳ אף פרעה מע׳</he> as the serpent is cunning, so is Pharaoh cunning; <cite ref=\"Shemot Rabbah 9\">Ex. R. s. 9</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְעַקֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to wind one’s self, be artful</i>. Ib. <he>כשיבוא להִתְעַקֵּם וכ׳</he> if he (Pharaoh) tries his tricks, go and say to Aaron &c.; Tanḥ. l. c.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

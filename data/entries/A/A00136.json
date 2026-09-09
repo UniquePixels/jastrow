@@ -1,0 +1,32 @@
+{
+	"id": "A00136",
+	"slug": "אבימי",
+	"headword": {
+		"text": "אַבִּימִי"
+	},
+	"page": {
+		"number": 6,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Abbimi</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " a disciple of Rabbah. ",
+			"units": [
+				"<cite ref=\"Shevuot 28b:9\">Shebu. 28ᵇ</cite>; <cite ref=\"Jerusalem Talmud Nedarim 2:3:2\">Y. Ned. II, 37ᵇ</cite>; <cite ref=\"Jerusalem Talmud Shevuot 3:7:5\">Y. Shebu. III, 34ᵈ</cite> top."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " A. bar Tobi. Y. Naz. IX, beg., 57ᶜ",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

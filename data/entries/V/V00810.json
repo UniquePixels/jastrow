@@ -1,0 +1,37 @@
+{
+	"id": "V00810",
+	"slug": "תפח-3",
+	"headword": {
+		"text": "תָּפַח",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1685,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " = <cite ref=\"I00638\"><he>טָפַח</he> II</cite>, <i>to drip, be moist</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 2:14\">Tosef. Shebi. II, 14</cite>, v. <cite ref=\"V00808\"><he>תָּפַח</he> I</cite>. ",
+				"<cite ref=\"Bava Metzia 59b\">B. Mets. 59ᵇ</cite> Ms. R. 2, v. <cite ref=\"I00638\"><he>טָפַח</he> II</cite>.—<i>Part. pass.</i> <cite ref=\"V00802\"><he>תָּפוּחַ</he></cite> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>decaying</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 128b:1\">Sabb. 128ᵇ</cite> top <he>בשר ת׳</he> spoiled meat (Ms. M. <he>תפל</he>, v. Rabb. D. S. a. l. note).—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>languishing, faint</i> (from starvation). ",
+					"units": [
+						"<cite ref=\"Sanhedrin 63b:22\">Snh. 63ᵇ</cite> <he>מצא תינוק שהיה ת׳ ומוטל באשפה</he> he found a child that was faint and lying prostrated on a dunghill; Sifra B’ḥuck. Par. 2, ch. VI <he>מצא אחד ת׳ ומוטל ברעב</he> (insert <cite ref=\"V00470\"><he>תינוק</he></cite>); <cite ref=\"Sanhedrin 63b:22\">ib.</cite> <he>שהיה מחזר על כל טְפוּחֵי רעב</he>; Snh. l. c. <he>תְּפוּחֵי</he> he (Elijah) went around visiting all those languishing from starvation; <cite ref=\"Yalkut Shimoni on Torah 675\">Yalk. Lev. 675</cite>; a. e."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

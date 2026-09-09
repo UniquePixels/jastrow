@@ -1,0 +1,31 @@
+{
+	"id": "A02351",
+	"slug": "אסטגנין",
+	"headword": {
+		"text": "אִסְטַגְנֵין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִצְטַ׳"
+		},
+		{
+			"text": "אִי׳"
+		}
+	],
+	"page": {
+		"number": 89,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Ispe. noun of <cite ref=\"O00158\"><he>סִגְנוֹן</he></cite>) <i>observer of constellations, astrologer</i>. Pl. <he>אִסְטַגְנִינִין</he>, constr. <cite ref=\"A02392\"><he>אִסְטַגְנִינֵי</he></cite> &c. ",
+			"units": [
+				"<cite ref=\"Sotah 12b:2\">Sot. 12ᵇ</cite>; <cite ref=\"Sotah 36b\">36ᵇ</cite>; <cite ref=\"Berakhot 4a:19\">Ber. 4ᵃ</cite>; a. fr. ",
+				"<cite ref=\"Sanhedrin 49a:14\">Snh. 49ᵃ</cite>, v. <cite ref=\"A02353\"><he>אִסְטַגְנִינוּת</he></cite>."
+			]
+		}
+	]
+}

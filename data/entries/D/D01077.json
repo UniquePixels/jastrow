@@ -1,0 +1,28 @@
+{
+	"id": "D01077",
+	"slug": "דרושא",
+	"headword": {
+		"text": "דָּרוֹשָׁא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּרוֹשָׁה"
+		}
+	],
+	"page": {
+		"number": 322,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"D01133\"><he>דַּרְשָׁן</he></cite><i>lecturer</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 1:4:3\">Y. Sot. I, 16ᵈ</cite> bot.; <cite ref=\"Vayikra Rabbah 9:9\">Lev. R. s. 9</cite>; <cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite>.—Pl. <he>דָּרוֹשַׁיָּא</he>. ",
+				"<cite ref=\"Sukkah 38b\">Succ. 38ᵇ</cite> in Alf. (ed. <he>דָּרְשַׁיָּא</he>). [<cite ref=\"Jerusalem Talmud Yevamot 8:1:5\">Y. Yeb. VIII, 8ᵈ</cite> top <cite ref=\"D01077\"><he>דְּרוּשָׁה</he></cite>, v. <cite ref=\"D01129\"><he>דָּרַשׁ</he></cite>.]"
+			]
+		}
+	]
+}

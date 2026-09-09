@@ -1,0 +1,22 @@
+{
+	"id": "M02516",
+	"slug": "מרגזניתא",
+	"headword": {
+		"text": "מַרְגְּזָנִיתָא"
+	},
+	"page": {
+		"number": 835,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00174\"><he>רְגַז</he></cite>) <i>irascible, quarrelsome</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 21:19\">Targ. Prov. XXI, 19</cite> (Levita <cite ref=\"T00182\"><he>רַגְזָנִיתָא</he></cite>)."
+			]
+		}
+	]
+}

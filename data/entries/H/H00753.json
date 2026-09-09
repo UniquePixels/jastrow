@@ -1,0 +1,23 @@
+{
+	"id": "H00753",
+	"slug": "חיכוך",
+	"headword": {
+		"text": "חִיכּוּךְ"
+	},
+	"page": {
+		"number": 455,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00935\"><he>חָכַךְ</he></cite>) <i>scab, itch</i> (as an epidemic). ",
+			"units": [
+				"<cite ref=\"Bava Kamma 80b:11\">B. Kam. 80ᵇ</cite>. ",
+				"<cite ref=\"Taanit 14a:11\">Taan. 14ᵃ</cite> (Ms. M. 2, a. Ar. <he>החוֹךְ</he>).—Tanḥ. ed. Bub., R’eh 10, v. <cite ref=\"H00938\"><he>חֲכָךְ</he></cite>."
+			]
+		}
+	]
+}

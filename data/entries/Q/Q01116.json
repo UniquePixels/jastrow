@@ -1,0 +1,32 @@
+{
+	"id": "Q01116",
+	"slug": "פלפל-3",
+	"headword": {
+		"text": "פַּלְפֵּל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1184,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to be round</i>, v. <cite ref=\"Q01117\">next w.</cite>,] <i>to roll in, cover with</i> (cmp. <cite ref=\"Q01127\"><he>פָּלַשׁ</he> II</cite>; Syr. <cite ref=\"Q01115\"><he>פלפל</he></cite> inquinavit, P. Sm. 3130). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 16:15\">Targ. Job XVI, 15</cite> (h. text <cite ref=\"P00815\"><he>עלל</he></cite>).—Part. pass. <he>מְפַלְפַּל</he>. Targ. II Esth. IV, 16."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְפַּלְפֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to roll one’s self</i>. Ib. l.",
+					"units": []
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

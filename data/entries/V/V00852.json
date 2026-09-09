@@ -1,0 +1,33 @@
+{
+	"id": "V00852",
+	"slug": "תפקידתא",
+	"headword": {
+		"text": "תַּפְקִידְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּפְקִדְ׳"
+		},
+		{
+			"text": "תַּפְקֶדְ׳"
+		}
+	],
+	"page": {
+		"number": 1689,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"V00851\">same</cite>, <i>command</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 10:18\">Targ. Koh. X, 18</cite>, v. <cite ref=\"M01377\"><he>מַכִּיכוּתָא</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 6:1\">Targ. Deut. VI, 1</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 5:28\">Targ. O. ib. V, 28</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 13:13\">Targ. I Sam. XIII, 13</cite>; a. fr."
+			]
+		}
+	]
+}

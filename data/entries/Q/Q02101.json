@@ -1,0 +1,23 @@
+{
+	"id": "Q02101",
+	"slug": "פשר-4",
+	"headword": {
+		"text": "פְּשַׁר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1249,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02100\">preced.</cite>) <i>interpretation</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 40:8\">Targ. Y. Gen. XL, 8</cite> <he>פ׳ לית ליה</he> (O. <cite ref=\"Q02100\"><he>פַּשַּׁר</he></cite>, v. <cite ref=\"Q02100\">preced.</cite>)."
+			]
+		}
+	]
+}

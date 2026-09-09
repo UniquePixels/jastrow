@@ -1,0 +1,74 @@
+{
+	"id": "U00300",
+	"slug": "שהי-2",
+	"headword": {
+		"text": "שְׁהֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁהָא"
+		},
+		{
+			"text": "שְׁוָה"
+		}
+	],
+	"page": {
+		"number": 1527,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"U00299\">same</cite>, <i>to stand still; to tarry, gaze, be astonished</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 43:10\">Targ. Y. Gen. XLIII, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 12:39\">Targ. Y. Ex. XII, 39</cite>. ",
+				"<cite ref=\"Onkelos Genesis 24:21\">Targ. O. Gen. XXIV, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 29:9\">Targ. Is. XXIX, 9</cite>; a. fr.—Targ. ",
+				"<cite ref=\"Habakkuk 1:5\">Hab. I, 5</cite> <he>שְׁוָהוּ</he> (ed. Lag. <he>שְׁהוּ</he>).—",
+				"<cite ref=\"Chullin 75b:7\">Ḥull. 75ᵇ</cite> <he>מִשְׁהָא הוה שָׁהֵי ליה וכ׳</he> (<he>איכא דאמרי</he>) some say, he (Resh Laḳish) gazed at him (when R. Joḥ. gave his opinion) and was silent (and in the meanwhile R. Asi left the college room); <cite ref=\"Shevuot 40a:6\">Shebu. 40ᵃ</cite>; <cite ref=\"Shevuot 45b:6\">45ᵇ</cite>. ",
+				"<cite ref=\"Chullin 9a:4\">Ḥull. 9ᵃ</cite> <he>זימנין דשהי ודריס וכ׳</he> sometimes he may pause in slaughtering or press the knife without knowing it; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be vacant, lie waste</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 19:25\">Targ. II Kings XIX, 25</cite> Mus. (ed. <he>דשְׁחוֹ</he>; ed. Wil. <he>דיִשְׁחוּ</he>); <cite ref=\"Targum Jonathan on Isaiah 37:26\">Targ. Is. XXXVII, 26</cite> (ed. <he>דשחו</he>).—[<cite ref=\"Berakhot 6a\">Ber. 6ᵃ</cite> <he>ברכי דשהיי</he> Ar., v. <cite ref=\"U01225\"><he>שַׁלְהֵי</he> II</cite>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתְּהִי"],
+			"senses": [
+				{
+					"gloss": "<i>to be delayed, tarry</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 19:16\">Targ. Y. Gen. XIX, 16</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 32:5\">Ib. XXXII, 5</cite>; <cite ref=\"Targum Jonathan on Genesis 32:25\">25</cite>. ",
+						"<cite ref=\"Targum of I Chronicles 13:14\">Targ. I Chr. XIII, 14</cite>; a. e.—",
+						"<cite ref=\"Beitzah 6a:3\">Bets. 6ᵃ</cite> <he>לא אמרן אלא דא׳ … מַשְׁהִינָן ליה</he> they allow burial on the second festive day only when the corpse has been lying for some time, but if it was not, we postpone its burial. ",
+						"<cite ref=\"Yevamot 80b:1\">Yeb. 80ᵇ</cite> <he>אִשְׁתְּהוּיֵי הוא דא׳</he> its birth was delayed. ",
+						"<cite ref=\"Yevamot 80b:6\">Ib.</cite> <cite ref=\"M02995\"><he>מִשְׁתְּהָא</he></cite> a birth may be delayed (beyond the time of maturity). ",
+						"<cite ref=\"Yevamot 80b:2\">Ib.</cite> <he>וא׳ עד תריסר וכ׳</he> and he (the husband) tarried (was away from home) as much as twelve months; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		},
+		{
+			"forms": ["אַשְׁהֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to delay, be slack</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 7:10\">Targ. Y. Deut. VII, 10</cite>. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 22:22\">Ib. XXII, 22</cite> <he>לֹא תַשְׁהוּנָהּ</he> (ed. Vien. <he>תִשְׁהוֹנֵיה</he>, corr. acc.) do not delay her execution.—Bets. l. c., v. supra."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

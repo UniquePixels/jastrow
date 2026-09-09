@@ -1,0 +1,24 @@
+{
+	"id": "R00555",
+	"slug": "צמא-3",
+	"headword": {
+		"text": "צָמָא"
+	},
+	"page": {
+		"number": 1286,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"R00554\">preced.</cite>) <i>thirst</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 2:2\">Ex. R. s. 2</cite> (Moses said to the lamb) <he>לא … מפני צ׳ וכ׳</he> I did not know that thou didst run off on account of thirst; thou must be tired &c. ",
+				"<cite ref=\"Mishnah Berakhot 6:8\">Ber. VI, 8</cite> <he>השותה מים לִצְמָאוֹ</he> he who drinks water to satisfy his thirst. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 30\">Pirké d’R. El. ch. XXX</cite> <he>מיתת הצ׳</he> death from thirst; a. e."
+			]
+		}
+	]
+}

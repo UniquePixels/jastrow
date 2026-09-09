@@ -1,0 +1,32 @@
+{
+	"id": "C01374",
+	"slug": "גרס-2",
+	"headword": {
+		"text": "גְּרַס",
+		"homograph": 1
+	},
+	"page": {
+		"number": 270,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.;",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"C01336\"><he>גָּרֵיס</he></cite>, <i>Af.</i> <he>אַגְרֵיס</he> same. ",
+					"units": [
+						"<cite ref=\"Bava Batra 22a\">B. Bath. 22ᵃ</cite>, v. <cite ref=\"C01350\"><he>גְּרם</he></cite> II <i>Af.</i> [<cite ref=\"Aramaic Targum to Proverbs 8:28\">Targ. Prov. VIII, 28</cite>, v. <cite ref=\"C01350\"><he>גְּרַם</he></cite> II Af.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

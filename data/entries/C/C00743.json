@@ -1,0 +1,25 @@
+{
+	"id": "C00743",
+	"slug": "גימ״ל",
+	"headword": {
+		"text": "גימ״ל"
+	},
+	"page": {
+		"number": 239,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>Gimmel</i>, third letter of the Alphabet; numerical value, <i>three</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shekalim 3:2\">Shek. III, 2</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 104a:4\">Sabb. 104ᵃ</cite> (childrens’ mnemonical play) <he>גי׳ דל״ת גֹמול דֹלים</he> (Ms. M. <he>גמל</he>) Gimmel-Daleth intimates, Do good to the poor. ",
+				"<cite ref=\"Shabbat 104a:4\">Ib.</cite> <he>כרעיה דג׳</he> the foot of the Gimmel; a. fr.—Pl. <cite ref=\"C01049\"><he>גִּמְלִין</he></cite>. ",
+				"<cite ref=\"Shabbat 103b\">Ib. 103ᵇ</cite> one must not write … <he>ג׳ צדין וכ׳</he> Ms. M. (ed. <he>גַּמִּין</he>) Gimmels so as to be possibly taken for Tsaddes."
+			]
+		}
+	]
+}

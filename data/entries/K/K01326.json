@@ -1,0 +1,51 @@
+{
+	"id": "K01326",
+	"slug": "כשר-3",
+	"headword": {
+		"text": "כָּשֵׁר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 677,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K01325\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fit,</i> esp. <i>kasher, ritually permitted, legal</i>, opp. <he>פסול</he>, <he>טרפה</he>. <i>Fem.</i> <he>כְּשֵׁרָה</he>, <cite ref=\"K01327\"><he>כְּשֵׁירָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 1:4\">Ḥull. I, 4</cite> <he>כ׳ בשחיטה פסול במליקה</he> what is legal in slaughtering (cutting the throat) is illegal in pinching (the neck). ",
+				"<cite ref=\"Mishnah Chullin 1:4\">Ib.</cite> <he>שְׁחִיטָתוֹ כ׳</he> his act of slaughtering has been properly executed. ",
+				"<cite ref=\"Mishnah Kiddushin 4:6\">Kidd. IV, 6</cite> <he>בתו כ׳ לכהונה</he> his daughter is fit to marry a priest. ",
+				"<cite ref=\"Mishnah Gittin 9:4\">Gitt. IX, 4</cite> <he>הולד כ׳</he> the issue is legitimate, is under no religious or civil disabilities; a. v. fr.—Pl. <he>כְּשֵׁרִים</he>, <he>כְּשֵׁרִין</he>, <he>כְּשֵׁי׳</he>; f. <cite ref=\"K01329\"><he>כְּשֵׁרוֹת</he></cite>, <he>כְּשֵׁי׳</he>. ",
+				"<cite ref=\"Mishnah Chullin 3:2\">Ḥull. III, 2</cite> <he>אלו כ׳ בבהמה</he> the following defects in a domestic animal are <i>kasher</i>, i.e. do not make the animals unfit for eating. ",
+				"<cite ref=\"Mishnah Chullin 3:3\">Ib. 3</cite> <he>אם אדומים כ׳</he> if they (the entrails) are red (have their natural color) they are (the animal is) <i>kasher</i>; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>worthy, honest, of noble conduct</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 2:7\">Ber. II, 7</cite> <he>כ׳ היה</he> he was a worthy man. ",
+				"<cite ref=\"Mishnah Kiddushin 4:14\">Kidd. IV, 14</cite> <he>הכ׳ שבטבחים</he> the best of butchers; a. fr.—Pl. as ab. ",
+				"<cite ref=\"Mishnah Kiddushin 4:14\">Ib.</cite> <he>רובן כ׳</he> are mostly honest men, opp. <he>רשעים</he>. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 3:9:6\">Y. Yoma III, end, 41ᵇ</cite> <he>כְּשַׁירֵי כל דור ודור</he> the worthiest of every generation; <cite ref=\"Jerusalem Talmud Shekalim 5:1:5\">Y. Shek. V, beg. 48ᶜ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Demai 6:5:3\">Y. Dem. VI, 25ᵈ</cite> top (ref. to Mish. ",
+				"<cite ref=\"Mishnah Demai 6:6\">Dem. VI, 6</cite> <he>צנועי בית הלל</he>) <he>מהו צנועי כְּשֵׁירֵי</he> in what sense is <he>צנועי</he> here used? In the sense of K’sheré (the worthies of the house of Hillel). ",
+				"<cite ref=\"Yoma 19b:14\">Yoma 19ᵇ</cite>, v. <cite ref=\"H01812\"><he>חָשַׁד</he></cite>; a. fr.—[<cite ref=\"Jerusalem Talmud Sheviit 6:1:6\">Y. Shebi. VI, 36ᶜ</cite> top <he>שאין כשירין</he>, read: <cite ref=\"M01442\"><he>מַכְשִׁירִין</he></cite>, v. <cite ref=\"K01324\"><he>כָּשֵׁר</he> I</cite>.]"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>apt, convenient</i>. Mekh. Bo, s. 16; Tanḥ. Bo 11 <he>חדש שהוא כ׳ וכ׳</he> a month convenient to you, when it is not too warm &c.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

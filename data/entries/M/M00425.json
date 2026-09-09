@@ -1,0 +1,34 @@
+{
+	"id": "M00425",
+	"slug": "מוהבותא",
+	"headword": {
+		"text": "מוֹהֲבוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹהֲבִי׳"
+		},
+		{
+			"text": "מוֹהַבְתָּא"
+		}
+	],
+	"page": {
+		"number": 739,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"M00424\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 18:16\">Targ. Prov. XVIII, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 16:5\">Targ. Ps. XVI, 5</cite> <cite ref=\"M00425\"><he>מוֹהֲבִית</he></cite> constr. (Ms. <he>מְהוֹבִ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 16:17\">Targ. Y. Deut. XVI, 17</cite> <he>מוהבות</he>; a. e.—Pl. <he>מוֹהֲבִיָּתָא</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 15:27\">Targ. Prov. XV, 27</cite> (some ed. sing.). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 18:2\">Targ. Y. Deut. XVIII, 2</cite> <cite ref=\"M00425\"><he>מוהבותא</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

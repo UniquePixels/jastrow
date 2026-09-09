@@ -1,0 +1,29 @@
+{
+	"id": "V00640",
+	"slug": "תלתן",
+	"headword": {
+		"text": "תִּלְתָּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּילְ׳"
+		}
+	],
+	"page": {
+		"number": 1674,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>תלתלן</he>, v. <cite ref=\"V00639\">preced.</cite>) [<i>curly plant,</i>] <i>fenugrec</i>. [Asaph quoted in Löw Pfl., p. 316, has <cite ref=\"V00639\"><he>תלתל</he></cite>.] Mekh. Mishp., s. 13; a. e., v. <cite ref=\"C01288\"><he>גֵּרָה</he> II</cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 2:5\">Kil. II, 5</cite>. ",
+				"<cite ref=\"Mishnah Terumot 10:6\">Ter. X, 6</cite>; <cite ref=\"Tosefta Terumot 8:8\">Tosef. ib. VIII, 8</cite>. ",
+				"<cite ref=\"Tosefta Terumot 10:4\">Ib. X, 4</cite> <he>ת׳ של תרומה וכ׳</he> a decoction of fenugrec seeds … with which a priest’s daughter has washed her hair (v. Löw Pfl., p. 317); a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "A02495",
+	"slug": "אספליאה",
+	"headword": {
+		"text": "אִסְפְּלִיאָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 95,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (Isp. noun of <he>פלא</he>) <i>solemn declaration.—</i>Pl. <he>אִסְפְּלִיאות</he>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 7:1\">Deut. R. s. 7</cite>, beg. <he>אמן יש בו ג׳ א׳ וכ׳</he> <i>Amen</i> contains three kinds of solemn declarations, oath (vow), consent, and confirmation; v. ",
+				"<cite ref=\"Shevuot 36a\">Shebu. 36ᵃ</cite>.  v. <cite ref=\"E00748\"><he>הַפְלָאָה</he></cite>."
+			]
+		}
+	]
+}

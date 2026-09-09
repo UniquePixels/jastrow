@@ -1,0 +1,25 @@
+{
+	"id": "E00874",
+	"slug": "הרכינס",
+	"headword": {
+		"text": "הַרְכִּינָס"
+	},
+	"page": {
+		"number": 367,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (Ἀρχῖνος) <i>Harkinas</i>, father of R. Dosa. ",
+			"units": [
+				"<cite ref=\"Mishnah Rosh Hashanah 2:8\">R. Hash. II, 8</cite> (<cite ref=\"Rosh Hashanah 25a:5\">25ᵃ</cite>) <he>הר׳</he> Mish. a. Ms. M. (ed. <he>הוֹרְ׳</he>); Mish. Pes. a. Y. ed. <he>ארכינס</he>, v. Rabb. D. S. a. l. note). ",
+				"<cite ref=\"Tosefta Negaim 1:6\">Tosef. Neg. I, 6</cite> <he>הרכ׳</he>; (<cite ref=\"Tosefta Negaim 1:6\">ib.</cite> Kel. ",
+				"<cite ref=\"Mishnah Bava Batra 4:14\">B. Bath. IV, 14</cite> <he>הורקינס</he>). ",
+				"<cite ref=\"Yevamot 16a:8\">Yeb. 16ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

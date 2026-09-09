@@ -1,0 +1,36 @@
+{
+	"id": "D00773",
+	"slug": "דכי-3",
+	"headword": {
+		"text": "דְּכֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּכְיָא"
+		},
+		{
+			"text": "דָּכִיתָא"
+		}
+	],
+	"page": {
+		"number": 307,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00772\">preced.</cite>) <i>clear, pure, clean, guiltless</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:11\">Targ. Ex. XXV, 11</cite>. ",
+				"<cite ref=\"Onkelos Exodus 27:20\">Ib. XXVII, 20</cite>.—",
+				"<cite ref=\"Onkelos Exodus 31:8\">Ib. XXXI, 8</cite>; a. fr.—Pl. <he>דַּכְיָין</he>, <cite ref=\"D00782\"><he>דָּכָן</he></cite>; f. <he>דַּכְיָיתָא</he>. ",
+				"<cite ref=\"Onkelos Leviticus 14:4\">Targ. Lev. XIV, 4</cite>. ",
+				"<cite ref=\"Onkelos Genesis 27:15\">Targ. O. Gen. XXVII, 15</cite>; a. e.—",
+				"<cite ref=\"Mishnah Eduyot 8:4\">Eduy. VIII, 4</cite> <cite ref=\"D00782\"><he>דָּכָן</he></cite> they are clean (permitted), v. <cite ref=\"A01264\"><he>אַיִל</he></cite>; <cite ref=\"Mishnah Eduyot 8:4\">ib.</cite> <he>דאינון דַּכְיָין</he> ed. (Ms. M. <he>דכן</he>) that they are clean (not susceptible of levitical uncleanness); <cite ref=\"Pesachim 16a:3\">Pes. 16ᵃ</cite>; <cite ref=\"Nedarim 19a:9\">Ned. 19ᵃ</cite>; <cite ref=\"Avodah Zarah 37a:7\">Ab. Zar. 37ᵃ</cite>.—",
+				"<cite ref=\"Yoma 76b:12\">Yoma 76ᵇ</cite> <he>חיטי דכייתא</he> fine wheat flour."
+			]
+		}
+	]
+}

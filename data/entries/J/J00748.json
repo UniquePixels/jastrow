@@ -1,0 +1,49 @@
+{
+	"id": "J00748",
+	"slug": "יתר-3",
+	"headword": {
+		"text": "יָתֵר"
+	},
+	"altHeadwords": [
+		{
+			"text": "יָתֵיר"
+		}
+	],
+	"page": {
+		"number": 604,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00747\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>additional, a person having an additional limb</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 7:6\">Bekh. VII, 6</cite> <he>י׳ בידיו וכ׳</he> if one has an additional finger (or toe) on each of his hands and feet. ",
+				"<cite ref=\"Bekhorot 45b:1\">Ib. 45ᵇ</cite>.—",
+				"<cite ref=\"Bekhorot 40a:12\">Ib. 40ᵃ</cite> <he>חסר וי׳ ביד</he> having one toe less or one too many on the forefoot. ",
+				"<cite ref=\"Bekhorot 40a:12\">Ib.</cite> <he>כל יתיר כנטול דמי</he> every addition is considered equal to the entire absence of the respective limb; <cite ref=\"Chullin 58b:4\">Ḥull. 58ᵇ</cite> <he>כל יתר וכ׳</he>. ",
+				"<cite ref=\"Mishnah Bava Batra 7:2\">B. Bath. VII, 2</cite>, sq. <he>הן י׳</he> (<he>יתיר</he> a. <cite ref=\"J00749\"><he>יתר</he></cite> interchanging), v. <cite ref=\"E00648\"><he>הֵן</he></cite>; a. fr.—<i>Fem.</i> <cite ref=\"J00753\"><he>יְתֵרָה</he></cite>, <cite ref=\"J00740\"><he>יְתֵירָה</he></cite>; (as noun also) <cite ref=\"J00757\"><he>יְתֶרֶת</he></cite>, <cite ref=\"J00757\"><he>יְתֶירֶת</he></cite>. ",
+				"<cite ref=\"Mishnah Bekhorot 7:6\">Bekh. VII, 6</cite> (<cite ref=\"Bekhorot 45a:2\">45ᵃ</cite>) <he>היתה</he> (<he>בה</he>) <he>בו יתרת וכ׳</he> (Rashi <cite ref=\"J00740\"><he>יתירה</he></cite>; <cite ref=\"Bekhorot 45a:2\">Ib.</cite> <he>יתירת</he>) if there has been an additional limb and he had it cut off. Ib. 40ᵃ <he>י׳ על של משה וכ׳</he> (a cubit measure) larger than the Mosaic by &c. ",
+				"<cite ref=\"Mishnah Chullin 3:6\">Ḥull. III, 6</cite> (as a sign of clean birds) <he>כל שיש לו אצבע י׳</he> that which has an additional toe (on top of those in a line). ",
+				"<cite ref=\"Ketubot 76a:4\">Keth. 76ᵃ</cite> <he>יתירת</he> a woman having an additional limb. ",
+				"<cite ref=\"Eruvin 83a:14\">Erub. 83ᵃ</cite> <he>י׳ על מדברית וכ׳</he> one sixth larger than &c.; a. fr. [V. <cite ref=\"J00740\"><he>יְתֵירָה</he></cite>.]—Pl. <he>יְתֵרִים</he>, <he>יְתֵרִין</he>, <cite ref=\"J00737\"><he>יְתֵי׳</he></cite>; f. <he>יְתֵירוֹת</he>. ",
+				"<cite ref=\"Makkot 23a:11\">Macc. 23ᵃ</cite> <he>יְתֵירֵי מדע</he> men of more than ordinary knowledge; <he>י׳ כח</he> of more than common physical strength.—[<cite ref=\"Bereishit Rabbah 98:20\">Gen. R. s. 98</cite> <he>הניחו יתירות</he> left remants of the conquered nations, prob. to be read: <he>יְתֵידוֹת</he>, v. <cite ref=\"J00716\"><he>יָתֵד</he></cite>.]—Esp. <cite ref=\"J00757\"><he>יְתֶרֶת</he></cite> <i>an additional lobe of the lungs</i>. ",
+				"<cite ref=\"Chullin 47a:2\">Ḥull. 47ᵃ</cite> (not <he>יות׳</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a word written plene, with vowel letters</i>.—Pl. <he>יְתֵירוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Eruvin 13a:21\">Erub. 13ᵃ</cite>, a. e., v. <cite ref=\"H01412\"><he>חָסֵר</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

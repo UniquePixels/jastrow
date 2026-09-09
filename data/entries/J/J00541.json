@@ -1,0 +1,33 @@
+{
+	"id": "J00541",
+	"slug": "יצע-2",
+	"headword": {
+		"text": "יְצַע"
+	},
+	"page": {
+		"number": 589,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַצַּע</he>, <i>Pa.</i> <cite ref=\"J00540\"><he>יַצַּע</he></cite> same. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 34:6\">Targ. Y. Deut. XXXIV, 6</cite>.—Part. pass. <he>מְיַיצַּע</he>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 24:10\">Targ. Y. Ex. XXIV, 10</cite> (ed. Amst. <he>מַיְיצַע</he>; of a folding stool). ",
+						"<cite ref=\"Targum Jonathan on Numbers 24:5\">Targ. Y. Num. XXIV, 5</cite> (of the Tabernacle."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

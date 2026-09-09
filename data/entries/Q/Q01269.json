@@ -1,0 +1,30 @@
+{
+	"id": "Q01269",
+	"slug": "פסי-1",
+	"headword": {
+		"text": "פסי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּסָה"
+		},
+		{
+			"text": "פָּשָׂה"
+		}
+	],
+	"page": {
+		"number": 1194,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"Q02052\"><he>פָּשָׂה</he></cite>)<i>to spread, be extended</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 3:2:2\">Y. Yoma III, beg. 40ᵇ</cite> <he>מאור החמה פּוֹסֶה וכ׳</he> the light of the sun (dawn) spreads over the whole eastern horizon, opp. <he>מתמר ועולה</he>. Ib. 41ᵃ bot. <he>של בית היתה מתמרת … ופוֹסָה ויורדת וכ׳ …</he> the frankincense of Beth Abtinas rose straight in a colunn and then spread and came down &c.; <cite ref=\"Jerusalem Talmud Shekalim 5:2:5\">Y. Shek. V, 49ᵃ</cite> top; <cite ref=\"Shir HaShirim Rabbah 1:14\">Cant. R. to I, 14</cite>; <cite ref=\"Shir HaShirim Rabbah 3:6\">III, 6</cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:14\">Ib. to IV, 14</cite> (ref. to <he>ואהלות</he> <cite ref=\"Shir HaShirim Rabbah 4:14\">ib.</cite>) [read:] (<cite ref=\"P01088\"><he>עץ</he></cite>) <he>שהוא פוסה כאהל</he> a tree which spreads like a tent. ",
+				"<cite ref=\"Bereishit Rabbah 15:6\">Gen. R. s. 15</cite> (ref. to <he>עץ החיים</he>, <cite ref=\"Genesis 2:9\">Gen. II, 9</cite>) <he>עץ שהוא פוסה על פני וכ׳</he> a tree which spread over all living things. ",
+				"<cite ref=\"Mishnah Negaim 4:8\">Neg. IV, 8</cite>, a. fr. <he>ופָשְׂתָה וכ׳</he> and the spot spread &c.; <cite ref=\"Jerusalem Talmud Moed Katan 1:5:2\">Y. M. Kat. I, 80ᶜ</cite> bot. <he>ופָסְתָה</he>; a. fr."
+			]
+		}
+	]
+}

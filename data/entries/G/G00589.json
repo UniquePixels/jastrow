@@ -1,0 +1,62 @@
+{
+	"id": "G00589",
+	"slug": "זעזע-1",
+	"headword": {
+		"text": "זִעֲזֵע"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִיעֲ׳"
+		}
+	],
+	"page": {
+		"number": 407,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Pilp. of <cite ref=\"G00217\"><he>זוּעַ</he></cite>) <i>to move, shake, agitate, trouble</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15:28\">Ex. R. s. 15</cite>, end <he>ז׳ את הימים וכ׳</he> He stirred the seas up and showed to him (Moses) &c. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:2:4\">Y. Ber. IX, 13ᶜ</cite> bot. <he>אני מְזַעֲזֵעַ עולמי</he> I will make my world quake. ",
+				"<cite ref=\"Mishnah Orlah 1:3\">Orl. I, 3</cite> <he>זִיעֲזַעְתּוֹ המחרישה</he> the ploughshare loosened it (the roots of the tree); <he>זִיעֲזָעוֹ ועשאו בעפר</he> he (the husbandman) lifted the tree and placed it in soft earth (v. comment.)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִזְדַּעְזֵעַ"],
+			"senses": [],
+			"stem": "Hithpalp."
+		},
+		{
+			"forms": ["נִזְדַּעְזֵעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be shaken, frightened</i>. ",
+					"units": [
+						"<cite ref=\"Shevuot 39a\">Shebu. 39ᵃ</cite>. Y. Ber. IV, 7ᵇ <he>נִזְדַּעְזְעָה החומה</he> the wall was removed from its place; <cite ref=\"Bava Kamma 82b\">B. Kam. 82ᵇ</cite> <he>נז׳ א״י</he> Palestine quaked. ",
+						"<cite ref=\"Shir HaShirim Rabbah 3:7:5\">Cant. R. to III, 7</cite> <he>מתיראין ומִזְדַּעְזְעִין וכ׳</he> were frightened and shaken; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to rise in rebellion</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 763:14\">Yalk. Num. 763</cite> <he>שנזדעזעו בני המדינה</he> against whom the inhabitants of the country rebelled; a. fr.—Contracted part. <cite ref=\"M00722\"><he>מִזְדַּנְזִין</he></cite>, or <cite ref=\"M00722\"><he>מִזְדַּנְדְּזִין</he></cite> (= <he>מזדעזעין</he>). ",
+						"<cite ref=\"Chullin 48a\">Ḥull. 48ᵃ</cite> <he>התלמידים מזדנז׳ בדבר</he> ed. (Ar. <he>מזדנדז׳</he>) the students oppose it."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to cause to quake</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 18:10\">Midr. Till. to Ps. XVIII, 8</cite> <he>אתה הִזְדַּעְזַעְתָּ … אֶזְדַּעְזֵעַ וכ׳</he> thou hast made thy limbs tremble …, so will I make my world quake, v. supra."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

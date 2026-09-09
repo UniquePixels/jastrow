@@ -1,0 +1,56 @@
+{
+	"id": "M00602",
+	"slug": "מור-1",
+	"headword": {
+		"text": "מוּר"
+	},
+	"page": {
+		"number": 748,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to exchange</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 56b:24\">Snh. 56ᵇ</cite> <he>אלהים אני לא תְמִירוּנִי</he> I am God, you shall not exchange me (for another god); a. e.—Esp. (with ref. to <cite ref=\"Leviticus 27:33\">Lev. XXVII, 33</cite>) <i>to substitute a dedicated sacrifice</i> (by which both become sacred property). ",
+				"<cite ref=\"Mishnah Temurah 1:1\">Tem. I, 1</cite> <he>הכל מְמִירִים</he> (Bab. ed. <he>מְמִירִין</he>) all persons have power to exchange; <he>לא שאדם רשאי להָמִיר … המיר מוּמָר</he> which means not that one is permitted to exchange, but that if one did, the substitute is sacred. Ib. 2ᵃ <he>יורש אינו מֵמִיר</he> an heir cannot exchange his father’s dedication. Ib. 3ᵃ, a. fr. <cite ref=\"M01203\"><he>מְיַמֵּר</he></cite> (Pi. of <cite ref=\"J00423\"><he>יָמַר</he></cite>). Ib. I, 1 (7ᵇ) <he>ממירים את שלהם</he> (Talm. ed. <he>בשלהם</he>) can exchange what belongs to them. Ib. <he>הבכור לא יְמִירֶנּוּ בו</he> (Talm. ed. <he>אין ממירין בו</he>) he (the priest) cannot exchange the first-born animal (although it is his as the priest’s share). Ib. 2 <he>ממירים מן הצאן על וכ׳</he> you can substitute small cattle for large; a. fr.—V. <cite ref=\"A01335\"><he>אֵימוּרִים</he> II</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to convert</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 136:1\">Yalk. Gen. 136</cite> <he>אני מֵמִיר אתכם</he> I shall force you to abjure your religion (<cite ref=\"Bereishit Rabbah 82\">Gen. R. s. 82</cite> <he>משמיד</he>); v. <cite ref=\"M00525\"><he>מוּמָר</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>הֵמִיר</he> (b. h.; ",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּמָר"],
+			"senses": [
+				{
+					"gloss": "<i>to be exchanged, to become sacred</i> (<i>without redeeming the original</i>). Part. <cite ref=\"M00525\"><he>מוּמָר</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Temurah 1:1\">Tem. I, 1</cite>; a. fr., v. supra."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

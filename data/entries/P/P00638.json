@@ -1,0 +1,23 @@
+{
+	"id": "P00638",
+	"slug": "עיפא-1",
+	"headword": {
+		"text": "עֵיפָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1073,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00637\">preced.</cite>) <i>cover, veil</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 24:65\">Targ. O. Gen. XXIV, 65</cite> (h. text <cite ref=\"R00653\"><he>צעיף</he></cite>); a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"id": "N00018",
+	"slug": "נאי",
+	"headword": {
+		"text": "נאי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָאָה"
+		}
+	],
+	"page": {
+		"number": 866,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"A00939\"><he>אוּת</he></cite>)<i>to be becoming, handsome</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֵיאָה"],
+			"senses": [
+				{
+					"gloss": "<i>to beautify, decorate</i>. ",
+					"units": [
+						"<cite ref=\"Sukkah 10a:14\">Succ. 10ᵃ</cite> <he>לנָאוֹתָהּ</he> to decorate it (the Succah); a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִיאָה"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְנָאֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to adorn one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Nazir 2b:8\">Naz. 2ᵇ</cite> (ref. to <he>ואנוהו</he>, <cite ref=\"Exodus 15:2\">Ex. XV, 2</cite>) <he>אֶנָּאֶה לפניו וכ׳</he> I will adorn myself before him with good deeds; <cite ref=\"Shabbat 133b:5\">Sabb. 133ᵇ</cite> <he>הִתְנָאֶה וכ׳</he> adorn thyself before him &c. ",
+						"<cite ref=\"Rosh Hashanah 26a:10\">R. Hash. 26ᵃ</cite> <he>חוטא בל יִתְנָאֶה</he> a sinner must not adorn himself (when appearing before the Lord to ask forgiveness). ",
+						"<cite ref=\"Bereishit Rabbah 16:4\">Gen. R. s. 16</cite> (play on <cite ref=\"N00693\"><he>נִינְוֵה</he></cite>) <he>שהם מִתְנָאוֹת מישראל</he> (not <he>מתגאות</he>) they (the goverments) adorn themselves with what they take from Israel; a. e.—V. <cite ref=\"N00352\"><he>נָוָה</he> I</cite>.—2) (cmp. <cite ref=\"E00669\"><he>הָנָה</he></cite> <i>Nif.</i>, a. <cite ref=\"A00939\"><he>אוּת</he></cite>) <i>to be pleased, to enjoy, make use</i>. ",
+						"<cite ref=\"Rosh Hashanah 11a\">R. Hash. 11ᵃ</cite> beautiful trees <he>להִתְנָאוֹת בהן בני אדם</he> (Ms. M. <he>לֵיהָנוֹת מהן</he>) for men to enjoy their beauty. ",
+						"<cite ref=\"Sanhedrin 21b:19\">Snh. 21ᵇ</cite> <he>שלא יתנאה בשל וכ׳</he> that he make no use of a copy that his fathers have written; (Tosef. ib. IV, 7 <he>שלא יהא ניאות</he>)."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

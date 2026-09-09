@@ -1,0 +1,31 @@
+{
+	"id": "A00872",
+	"slug": "אורח-1",
+	"headword": {
+		"text": "אוֹרֵחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוֹרַח"
+		}
+	],
+	"page": {
+		"number": 33,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"A00872\"><he>אֹרֵחַ</he></cite>; <he>ארח</he>)<i>wayfarer</i>, esp. <i>guest</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 58a:5\">Ber. 58ᵃ</cite>; a. fr.—Euphem. <i>menstruation</i>. ",
+				"<cite ref=\"Niddah 16a\">Nidd. 16ᵃ</cite> (cmp. ",
+				"<cite ref=\"Genesis 18:11\">Gen. XVIII, 11</cite> <i>oraḥ</i>). ",
+				"<cite ref=\"Vayikra Rabbah 4:3\">Lev. R. s. 4</cite>.—Pl. <he>אוֹרְחִים</he>, <he>אוֹרְחִין</he>.—<he>הכנסת א׳</he> the invitation of guests, <i>hospitality</i>. ",
+				"<cite ref=\"Shabbat 127a:14\">Sabb. 127ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

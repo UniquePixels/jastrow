@@ -1,0 +1,24 @@
+{
+	"id": "K00290",
+	"slug": "כומר-1",
+	"headword": {
+		"text": "כּוֹמֶר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 621,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00817\"><he>כָּמַר</he></cite>) <i>a mass of olives or grapes shrunk</i> from exposure to the sun or from being put in the ground, prior to being placed in the press. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 74a:11\">B. Mets. 74ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:1:17\">Y. Ber. II, 4ᵇ</cite> bot. <he>ככ׳ הזה של ענבים וכ׳</he> like the mass of heated grapes that drips of itself; <cite ref=\"Shir HaShirim Rabbah 7:10\">Cant. R. to VII, 10</cite> <he>כבמרזה וכ׳</he> some ed. (read <he>ככֹּמֶר הזה</he>); <cite ref=\"Yevamot 97a:2\">Yeb. 97ᵃ</cite>; <cite ref=\"Bekhorot 31b:11\">Bekh. 31ᵇ</cite>; <cite ref=\"Jerusalem Talmud Shekalim 2:5:5\">Y. Shek. II, end, 47ᵃ</cite> <cite ref=\"K00819\"><he>כֹּמֶר</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "H00479",
+	"slug": "חורפא-2",
+	"headword": {
+		"text": "חוּרְפָא"
+	},
+	"page": {
+		"number": 440,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. Ges. H. Dict.<sup>10</sup> s. v. <he>חרף</he> I; cmp., however, <cite ref=\"Rosh Hashanah 8a\">R. Hash. 8ᵃ</cite> s. v. <cite ref=\"A02683\"><he>אֲפֵילָא</he></cite>) <i>a young lamb</i> (used as a standard value in exchange). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 42:11\">Targ. Job XLII, 11</cite> (h. text <cite ref=\"S02246\"><he>קשיטה</he></cite>, Ms. a. Ar. Var. <cite ref=\"M02044\"><he>מעא</he></cite>, <cite ref=\"M02523\"><he>מרגליתא</he></cite>; v. ",
+				"<cite ref=\"Bereishit Rabbah 79\">Gen. R. s. 79</cite>, end).—Pl. <cite ref=\"H00479\"><he>חוּרְפָן</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 33:19\">Targ. O. Gen. XXXIII, 19</cite> (Y. <he>מרגליין</he>). Ib. XXI, 28; a. fr."
+			]
+		}
+	]
+}

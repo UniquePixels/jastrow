@@ -1,0 +1,23 @@
+{
+	"id": "M03101",
+	"slug": "מתקולתא",
+	"headword": {
+		"text": "מַתְקוּלְתָּא"
+	},
+	"page": {
+		"number": 864,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>תְּקַל</he> I) = h. <cite ref=\"M02960\"><he>מִשְׁקוֹלֶת</he></cite>, <i>plummet</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 38:5\">Targ. Job XXXVIII, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 21:13\">Targ. II Kings XXI, 13</cite>.—[<cite ref=\"Pesachim 50b:6\">Pes. 50ᵇ</cite>, v. <cite ref=\"M03104\"><he>מַתְקַלְתָּא</he></cite>.]"
+			]
+		}
+	]
+}

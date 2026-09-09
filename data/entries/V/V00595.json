@@ -1,0 +1,49 @@
+{
+	"id": "V00595",
+	"slug": "תליתאה",
+	"headword": {
+		"text": "תְּלִיתָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּלִיתַאי"
+		},
+		{
+			"text": "תְּלִיתַי"
+		}
+	],
+	"page": {
+		"number": 1672,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00626\"><he>תְּלַת</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>third</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 2:14\">Targ. Gen. II, 14</cite>. ",
+				"<cite ref=\"Onkelos Genesis 1:13\">Ib. I, 13</cite> (ed. Vien. <he>תָאִי …</he>); a. fr.—",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite>: <he>נסב ת׳ וכ׳</he> he took the third bird, and placed it between his two daughters. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Ib.</cite> <he>הא מילא ת׳</he> this is the third thing (I had to do); a. fr.—Pl. <cite ref=\"V00595\"><he>תְּלִיתָאֵי</he></cite>.—<he>לישן ת׳</he>, v. <cite ref=\"L00531\"><he>לִישַׁן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 1:16\">Targ. Y. Gen. I, 16</cite>; a. e.—<i>Fem.</i> <cite ref=\"V00594\"><he>תְּלִיתָא</he></cite>, <he>תְּלִיתֵיתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 21:19\">Targ. Ez. XXI, 19</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 18:1\">Targ. I Kings XVIII, 1</cite> (ed. Wil. <cite ref=\"V00595\"><he>תליתאה</he></cite>, corr. acc.). ",
+				"<cite ref=\"Onkelos Numbers 2:24\">Targ. Num. II, 24</cite>; a. fr.—Lam. R. l. c. (<he>חדא אתתא</he>) <he>זמנא ת׳</he> the third time; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>threefold</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 88a:4\">Sabb. 88ᵃ</cite> <he>דיהב אוריאן ת׳ לעם ת׳ וכ׳</he> who gave the threefold Law (v. <cite ref=\"A00882\"><he>אוּרְיָאן</he></cite>) to the threefold people (Priests, Levites, and Israelites) through a third-born (Moses) in the third month."
+			],
+			"label": "2"
+		}
+	]
+}

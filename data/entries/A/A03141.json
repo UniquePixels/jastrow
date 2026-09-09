@@ -1,0 +1,23 @@
+{
+	"id": "A03141",
+	"slug": "ארכי-2",
+	"headword": {
+		"text": "אַרְכִי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 121,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. קִרְיַת א׳ <i>Kiryath Arkhi</i> (= <he>קרית ספר</he>); v. <cite ref=\"A03140\">preced.</cite> ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 15:15\">Targ. Josh. XV, 15</cite>; a. e."
+			]
+		}
+	]
+}

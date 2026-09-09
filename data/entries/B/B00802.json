@@ -1,0 +1,21 @@
+{
+	"id": "B00802",
+	"slug": "בל-3",
+	"headword": {
+		"text": "בָּל",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 170,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contr. of <he>בהל</he>, cmp. <cite ref=\"B00034\"><he>בָּאלֵי</he></cite>) <i>care, anxiety</i>. ",
+			"units": ["<cite ref=\"Daniel 6:15\">Dan. VI, 15</cite>."]
+		}
+	]
+}

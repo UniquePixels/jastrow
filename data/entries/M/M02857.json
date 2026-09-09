@@ -1,0 +1,22 @@
+{
+	"id": "M02857",
+	"slug": "משחן",
+	"headword": {
+		"text": "מִשְׁחָן"
+	},
+	"page": {
+		"number": 851,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"M02850\"><he>מִשְׁחָא</he> I</cite>) <i>pine</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 40a:6\">Succ. 40ᵃ</cite> <he>עצים דמ׳</he> (Ms. M. <he>דמישחא</he>) wood of the pine-tree (used for torches)."
+			]
+		}
+	]
+}

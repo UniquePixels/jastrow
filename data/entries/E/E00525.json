@@ -1,0 +1,43 @@
+{
+	"id": "E00525",
+	"slug": "הכרעה",
+	"headword": {
+		"text": "הַכְרָעָה"
+	},
+	"page": {
+		"number": 351,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"E00524\">same</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>overweight</i>.—Pl. <he>הַכְרָעוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Keritot 5a:88\">Kerith. 5ᵃ</cite> <he>הקב״ה יודע</he> (<cite ref=\"B00000\"><he>ב</he></cite>)<he>ה׳</he> the Lord takes notice of overweights (liberality) in offerings."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>grammatical construction</i>. Pl. as above. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:2:2\">Cant. R. to I, 2</cite> he might have diverted his mind <he>מחמשה ה׳ וכ׳</he> by referring him to one of the five disputed constructions of Bible verses, v. <cite ref=\"E00524\">preced.</cite>; (<cite ref=\"Jerusalem Talmud Avodah Zarah 2:7:9\">Y. Ab. Zar. II, 41ᶜ</cite> bot. <he>השיאות</he>). ",
+				"<cite ref=\"Bereishit Rabbah 36:8\">Gen. R. s. 36</cite>, end (ref. to <cite ref=\"Nehemiah 8:8\">Neh. VIII, 8</cite>, v. <cite ref=\"E00524\">preced.</cite>) <he>אלו הה׳ והראיות</he> that means the disputed constructions and the arguments for and against; <cite ref=\"Yalkut Shimoni on Torah 61:1\">Yalk. Gen. 61</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>casting vote, verdict by a majority of one</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:1:26\">Y. Snh. I, 18ᵇ</cite> even arbitration in court requires <he>הַכְרָעַת הדעת</he> a majority of one. ",
+				"<cite ref=\"Chullin 137a:22\">Ḥull. 137ᵃ</cite> <he>אין הכרעת שלישית מכרעת</he> (sub. <cite ref=\"D00950\"><he>דעת</he></cite>) a casting vote consisting of a third divergent opinion is not binding; <cite ref=\"Bava Kamma 116a:2\">B. Kam. 116ᵃ</cite>; <cite ref=\"Pesachim 21a:1\">Pes. 21ᵃ</cite>; <cite ref=\"Nazir 53a:7\">Naz. 53ᵃ</cite>"
+			],
+			"label": "3"
+		}
+	]
+}

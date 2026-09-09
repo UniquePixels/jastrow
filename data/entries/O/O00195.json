@@ -1,0 +1,37 @@
+{
+	"id": "O00195",
+	"slug": "סדק-3",
+	"headword": {
+		"text": "סֶדֶק"
+	},
+	"page": {
+		"number": 958,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00194\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>split, slit</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 37b:7\">Bekh. 37ᵇ</cite> <he>הס׳ כל שהוא</he> a slit in the ear disqualifies, even if it be of the minutest size. ",
+				"<cite ref=\"Kohelet Rabbah 1:8\">Koh. R. to I, 8</cite> <he>כמבין סִידְקוֹ של פתח</he> like looking through the crack of a door; a. e.—Pl. <he>סְדָקִים</he>, <he>סְדָקִון</he>. ",
+				"<cite ref=\"Pesachim 8a:5\">Pes. 8ᵃ</cite> <he>לחורין ולס׳</he> into holes and fissures. ",
+				"<cite ref=\"Mishnah Pesachim 3:5\">Ib. III, 5</cite> (<cite ref=\"Pesachim 48b:16\">48ᵇ</cite>) <he>סִודּוּק שנתערבו סְדָקָיו וכ׳</he> (Bab. ed. <he>סדקין</he>) dough is called <i>sidduḳ</i>, when its cracks run into one another. Ib. 48ᵇ <he>אין לך כל סדק וסדק … כמה ס׳ וכ׳</he> for every crack on the surface there are several inside. Ib. III, 2 <he>סִדְקֵי עריבה</he> (Bab. ed. 45ᵃ <cite ref=\"O00584\"><he>סִידְקֵי</he></cite>) the cracks in the kneading trough; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a strip</i> of a sheet. ",
+			"units": [
+				"<cite ref=\"Tosefta Kilaim 5:22\">Tosef. Kil. V, 22</cite> ed. Zuck., v. <he>סֶרֶט</he> II."
+			],
+			"label": "2"
+		}
+	]
+}

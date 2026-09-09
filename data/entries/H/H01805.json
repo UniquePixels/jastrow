@@ -1,0 +1,29 @@
+{
+	"id": "H01805",
+	"slug": "חשאי-3",
+	"headword": {
+		"text": "חֲשַׁאי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲשַׁי"
+		},
+		{
+			"text": "חֲשַׁיי"
+		}
+	],
+	"page": {
+		"number": 508,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01804\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 41:8\">Targ. Ps. XLI, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 4:16\">Targ. Job IV, 16</cite>; a. e."
+			]
+		}
+	]
+}

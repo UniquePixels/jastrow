@@ -1,0 +1,48 @@
+{
+	"id": "H00409",
+	"slug": "חוס-2",
+	"headword": {
+		"text": "חוּס",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 437,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00408\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 12:27\">Targ. Ex. XII, 27</cite> (h. text <cite ref=\"Q01254\"><he>פסח</he></cite>). ",
+				"<cite ref=\"Targum of II Chronicles 36:15\">Targ. II Chr. XXXVI, 15</cite> <cite ref=\"H00003\"><he>חָאִיס</he></cite> ed. Lag. (oth. ed. <cite ref=\"H01328\"><he>חָס</he></cite>); a. fr.—",
+				"<cite ref=\"Taanit 24a:2\">Taan. 24ᵃ</cite> <he>גברא … חָס עלי דידי היכי חָיֵיס</he> will a man that has no consideration for his son …, care for my concerns? <cite ref=\"Pesachim 39a:10\">Pes. 39ᵃ</cite> <he>מאי חסא דחס וכ׳</he> what typical meaning has <i>ḥasa</i> (<cite ref=\"H01331\"><he>חָסָא</he></cite>)? The Lord spared us (in Egypt, v. Targ. Ex. l. c.); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַיֵּיס"],
+			"senses": [
+				{
+					"gloss": "<i>to commiserate, grace, favor</i> (h. <cite ref=\"H01311\"><he>חָנַן</he></cite>). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 37:21\">Targ. Ps. XXXVII, 21</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אָחִיס", "אֲחִיס"],
+			"senses": [
+				{
+					"gloss": "<i>to have affection for</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Malachi 3:17\">Targ. Mal. III, 17</cite> (ed. Lag. <cite ref=\"H00740\"><he>חייס</he></cite>; h. text <cite ref=\"H01197\"><he>חמל</he></cite>).—[<cite ref=\"Targum Jonathan on Isaiah 30:14\">Targ. Is. XXX, 14</cite> <he>ניחיס</he> some ed., read <he>בחֲיָס</he>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

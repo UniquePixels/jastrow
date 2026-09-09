@@ -1,0 +1,24 @@
+{
+	"id": "A01243",
+	"slug": "איירא",
+	"headword": {
+		"text": "אֲיָירָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 47,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"A00841\"><he>אור</he></cite>; cmp. <cite ref=\"J00007\"><he>יְאֹר</he></cite> esp. ",
+			"units": [
+				"<cite ref=\"Job 28:10\">Job XXVIII, 10</cite>; v. H. Dict. s. v.) <i>channel, duct</i>. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:2:3\">Y. M. Kat. I, 80ᵇ</cite> bot. <he>א׳ דציפורין וכ׳</he> the duct of Zepph. was damaged during the festive week."
+			]
+		}
+	]
+}

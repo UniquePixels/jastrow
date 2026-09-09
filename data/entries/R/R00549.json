@@ -1,0 +1,33 @@
+{
+	"id": "R00549",
+	"slug": "צלק",
+	"headword": {
+		"text": "צְלַק"
+	},
+	"page": {
+		"number": 1286,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>צלח</he>) <i>to split</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 124a:11\">Ḥull. 124ᵃ</cite> <he>דצַלְקֵיה מִצְלַק</he> when he split the stove across the width, v. <cite ref=\"C00779\"><he>גִּיסְטְרָא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִצְטְלִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to be split</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 56b\">Ber. 56ᵇ</cite> [read:] <he>ושרו לחבלא עד דא׳ רישיה שרו לחבלא אזל כל חד וחד וקם אדוכתיה וא׳</he> (Ms. M. <cite ref=\"O01026\"><he>אסתליק</he></cite>) let the rope go until he is split up to his head. They let the rope go, when each tree bounded back to its natural position, and his body was torn apart."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

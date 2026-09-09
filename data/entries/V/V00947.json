@@ -1,0 +1,28 @@
+{
+	"id": "V00947",
+	"slug": "תרד",
+	"headword": {
+		"text": "תָּרָד"
+	},
+	"page": {
+		"number": 1696,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"I00723\"><he>טְרוּזָא</he></cite>) a species of <i>beet</i> (bletum). ",
+			"units": [
+				"<cite ref=\"Tosefta Kilaim 1:11\">Tosef. Kil. I, 11</cite>; Y. ib. I, 27ᵃ bot. <cite ref=\"V00984\"><he>תָּרִיד</he></cite> (R. S. to <cite ref=\"Mishnah Kilayim 1:4\">Kil. I, 4</cite> <he>תרדין</he>); Tosef. ib. II, 15; a. e.—Pl. <cite ref=\"V01050\"><he>תְּרָדִים</he></cite>, <he>תְּרָדִין</he>. ",
+				"<cite ref=\"Eruvin 28b\">Erub. 28ᵇ</cite> bot. (interch. with <cite ref=\"O00673\"><he>סִילְקָא</he></cite>). ",
+				"<cite ref=\"Mishnah Kilayim 1:3\">Kil. I, 3</cite> <he>הת׳ והלעונים וכ׳</he> beet and garden-orach are not heterogeneous; Y. ib. 27ᵃ (not <he>התרדון</he>). ",
+				"<cite ref=\"Jerusalem Talmud Terumot 11:2:7\">Y. Ter. XI, 47ᵈ</cite> bot. ",
+				"<cite ref=\"Berakhot 44b\">Ber. 44ᵇ</cite>. ",
+				"<cite ref=\"Berakhot 57b\">Ib. 57ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 10:3:2\">Y. Pes. X, 37ᵈ</cite> top <he>בתרדין</he> (ed. Pietrkow <he>בתִירְדִּין</he>; P’neh Mosheh <he>בתוּרְדִּין</he>); a. e."
+			]
+		}
+	]
+}

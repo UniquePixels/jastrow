@@ -1,0 +1,35 @@
+{
+	"id": "E00386",
+	"slug": "היכנא",
+	"headword": {
+		"text": "הֵיכְנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֵיכְנָה"
+		}
+	],
+	"page": {
+		"number": 345,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"E00374\"><he>הֵיךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>thus, in the following manner, even as</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 6:3\">Targ. Prov. VI, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 48:9\">Targ. Ps. XLVIII, 9</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Oh, how!</i> <cite ref=\"Aramaic Targum to Proverbs 5:12\">Targ. Prov. V, 12</cite>.—[<cite ref=\"Aramaic Targum to Proverbs 26:20\">Ib. XXVI, 20</cite> <he>ה׳</he> … <he>וה׳</he> <i>as—even so</i> (Ar. <cite ref=\"E00375\"><he>הֵיכָא</he></cite>).]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

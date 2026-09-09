@@ -1,0 +1,22 @@
+{
+	"id": "D00387",
+	"slug": "דורשיני",
+	"headword": {
+		"text": "דּוּרְשִׁינֵּי"
+	},
+	"page": {
+		"number": 290,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (comp. of <cite ref=\"D00342\"><he>דּוּר</he></cite> a. <he>שיני</he>, pl. of <cite ref=\"U00968\"><he>שִׁינָּא</he></cite>) [<i>row of teeth</i>,] <i>gum</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 65a:7\">Sabb. 65ᵃ</cite> <he>לד׳</he> (some ed. <he>לדורשו׳</he>, incorr.; Ms. M. <he>דורשני</he>, Var. a. Ar. in two words, v. Rabb. D. S. a. l. note) a remedy for the gum. Cmp. <cite ref=\"D01126\"><he>דְּרָרָא</he> I</cite>."
+			]
+		}
+	]
+}

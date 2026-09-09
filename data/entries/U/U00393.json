@@ -1,0 +1,30 @@
+{
+	"id": "U00393",
+	"slug": "שוי-3",
+	"headword": {
+		"text": "שְׁוִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁוִוי"
+		}
+	],
+	"page": {
+		"number": 1533,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00392\">preced.</cite>) <i>equivalent, value</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:15\">Y. Snh. X, 28ᵈ</cite> top <he>והיתה הזקינה … בשִׁוְויוֹ וכ׳</he> the elder woman sold him an object for what it was worth, but the young woman said, take it for less; (Bab. ",
+				"<cite ref=\"Sanhedrin 106a:9\">ib. 106ᵃ</cite> <he>בְּשָׁוֶה</he>); <cite ref=\"Sifrei Bamidbar 131\">Sifré Num. 131</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:6:5\">Y. Ab. Zar. I, 40ᵃ</cite> top <he>מעלה עמו בשִׁוְייוֹ וכ׳</he> he settles with the gentile partner for what it is worth, and gives half of its value to the priest; <cite ref=\"Tosefta Bekhorot 2:1\">Tosef. Bekh. II, 1</cite> <he>בשִׁיוְיוֹ</he>. ",
+				"<cite ref=\"Ketubot 67a:3\">Keth. 67ᵃ</cite> <he>הכניסה לו … והרי הוא כשוויו</he> (read: <he>בש׳</he>) if the wife brought him (uncoined) gold, it is valued and charged to him for what it is worth (he need not add one third in his marriage contract, as he must do in the case of cash); <cite ref=\"Ketubot 67a:4\">ib.</cite> <he>והרי הן בשִׁוְויֵיהֶן</he> and they are charged to him for their value; a. e."
+			]
+		}
+	]
+}

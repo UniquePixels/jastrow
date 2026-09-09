@@ -1,0 +1,27 @@
+{
+	"id": "N00227",
+	"slug": "נדיין-2",
+	"headword": {
+		"text": "נִדְּיָין"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 879,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"N00224\"><he>נְדֵי</he> II</cite>) <i>wash-pond</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 19a\">B. Bath. 19ᵃ</cite> <he>הנד׳</he> (Ms. M. <he>הניד׳</he>, Ms. H. <he>המנדיאן</he>, ed. Pes. <he>הנידאן</he>, v. Rabb. D. S. a. l. note 5), contrad. to <cite ref=\"M00901\"><he>מחמצן</he></cite>."
+			]
+		}
+	]
+}

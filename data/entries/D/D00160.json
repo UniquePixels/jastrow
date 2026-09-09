@@ -1,0 +1,28 @@
+{
+	"id": "D00160",
+	"slug": "דהנוניתא",
+	"headword": {
+		"text": "דַּהֲנוּנִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּהינוּ׳"
+		}
+	],
+	"page": {
+		"number": 281,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00159\">preced. ws.</cite>) <i>of a fat land</i>. <he>תמרתא ד׳</he> (a fat-land date) <i>a species of dates of strongperfume</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 61a:13\">Keth. 61ᵃ</cite> <he>דהנ׳</he>; <cite ref=\"Sotah 49a\">Sot. 49ᵃ</cite> <he>דחינ׳</he> (corr. <he>דהינ׳</he>). ",
+				"<cite ref=\"Sotah 49a:10\">Ib.</cite> <he>ריחא דחינ׳</he> (read <he>דדהינ׳</he>) the flavor of a <i>d’hinunitha</i>"
+			]
+		}
+	]
+}

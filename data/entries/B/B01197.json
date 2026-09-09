@@ -1,0 +1,22 @@
+{
+	"id": "B01197",
+	"slug": "ברוכי",
+	"headword": {
+		"text": "בְּרוֹכִי"
+	},
+	"page": {
+		"number": 190,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>B’rokhi</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 17b:6\">Snh. 17ᵇ</cite> <he>רמי בר ב׳</he> Ms. M., Ar. a. oth. (ed. <cite ref=\"B01165\"><he>ברבי</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

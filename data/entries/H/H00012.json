@@ -1,0 +1,43 @@
+{
+	"id": "H00012",
+	"slug": "חבב-1",
+	"headword": {
+		"text": "חָבַב",
+		"homograph": 1
+	},
+	"page": {
+		"number": 415,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to be arched;</i> denom. <cite ref=\"H00234\"><he>חוֹב</he> II</cite>;] <i>to bosom, love</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִיבֵּב", "חִבֵּב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H00011\">same</cite>, <i>to love, cherish;</i> with <he>לפני</he> or <he>בפני</he>, <i>to prefer</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 27:8\">Ex. R. s. 27</cite>; Tanḥ. Yithro 4 Yithro is named <he>חוֹבָב</he>, <he>שח׳ את וכ׳</he> because he loved the Law; <cite ref=\"Sifrei Bamidbar 78:1\">Sifré Num. 78</cite>. ",
+						"<cite ref=\"Shabbat 13b:4\">Sabb. 13ᵇ</cite> <he>היו מְחַבְּבִין את הצרות</he> they cherished the memory of past troubles (devoting memorial days to the relief from them). ",
+						"<cite ref=\"Shabbat 51a\">Ib. 51ᵃ</cite>, a. e. <he>כמה מחבבין זה את זה</he> how they honor each other. ",
+						"<cite ref=\"Pesachim 100a\">Pes. 100ᵃ</cite> <he>בכל יום היית מחבב … בפני</he> thou didst always prefer my opinions to those of R. J., and now thou embracest his opinion in my presence; Y. ib. X, beg. 37ᵇ; <cite ref=\"Tosefta Berakhot 5:2\">Tosef. Ber. V, 2</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"H00051\"><he>חָבִיב</he></cite>) <i>to make beloved</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 39:9\">Gen. R. s. 39</cite> <he>כדי לחַבְּבָהּ בעיניו</he> in order to make him feel the dearness of home; <he>כדי לחַבְּבוֹ וכ׳</he> to make him feel how dear was his son to him."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

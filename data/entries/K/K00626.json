@@ -1,0 +1,24 @@
+{
+	"id": "K00626",
+	"slug": "כירי-2",
+	"headword": {
+		"text": "כִּירִי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 636,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (χείριε, vocat. of χείριος = ὑποχείριος) <i>in the control of, captive</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 53b:8\">Erub. 53ᵇ</cite> (of a Galilean woman who wished to say <he>קירי</he>, κύριε, O Lord) <he>מרי כ׳</he>.—",
+				"<cite ref=\"Chullin 139b:14\">Ḥull. 139ᵇ</cite> (of doves which uttered a sound like <he>קירי קירי</he>) <he>אמרה … קירי בירי</he> (corr. acc.) said she, blind one, say rather κύριε χείριε lord slave (an allusion to Herod the Great, v. <cite ref=\"E00830\"><he>הַרְדְסִיאוֹת</he></cite>).—[<cite ref=\"Bereishit Rabbah 89:4\">Gen. R. s. 89</cite> <he>כ׳ עבד קירי אדון</he>, v. <cite ref=\"K00625\">preced. w.</cite>"
+			]
+		}
+	]
+}

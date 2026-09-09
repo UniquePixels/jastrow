@@ -1,0 +1,41 @@
+{
+	"id": "H00085",
+	"slug": "חבל-3",
+	"headword": {
+		"text": "חֲבַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 420,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00084\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>injury</i>, v. <cite ref=\"H00090\"><he>חַבְלָא</he> I</cite>. I.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>woe!, Oh!</i> (cmp. <cite ref=\"B00589\"><he>בִּיָּיא</he> II</cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 10:15\">Targ. Job X, 15</cite> (Var. <cite ref=\"H00064\"><he>חֲבֵיל</he></cite>, <cite ref=\"H00024\"><he>חֲבוֹל</he></cite>); a. e.—[Also in Hebr. diction] <cite ref=\"Nedarim 74b:8\">Ned. 74ᵇ</cite> <he>ח׳ עליך וכ׳</he> woe unto thee! (a pity) that &c. ",
+				"<cite ref=\"Sanhedrin 111a:8\">Snh. 111ᵃ</cite>; <cite ref=\"Shemot Rabbah 6:4\">Ex. R. s. 6</cite>, a. e. <he>ח׳ על דאבדין וכ׳</he> Oh, for those who are gone and cannot be replaced! <cite ref=\"Shemot Rabbah 26:2\">Ex. R. s. 26</cite>; Mekh. B’shall., Vayassa, s. 6 (prov.) <he>נפל ביתא ח׳ לכוותא</he> (not <cite ref=\"A00153\"><he>אבל</he></cite>) when the house falls, woe to the windows!; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (adv.) <i>to ruin</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 20b:24\">Pes. 20ᵇ</cite> <he>תשפך ח׳</he> (v. Rabb. D. S. a. l. note 9) it must be poured out (and go) to ruin; <cite ref=\"Bava Kamma 116a\">B. Kam. 116ᵃ</cite> (ed. <cite ref=\"E00513\"><he>הכל</he></cite>, corr. acc., v. Rabb. D. S. a. l. note 30), opp. to <he>תעשה זילוף</he>, v. <cite ref=\"G00356\"><he>זִילּוּף</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

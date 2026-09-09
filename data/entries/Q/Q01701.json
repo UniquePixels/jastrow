@@ -1,0 +1,23 @@
+{
+	"id": "Q01701",
+	"slug": "פרוס-3",
+	"headword": {
+		"text": "פְּרוּס"
+	},
+	"page": {
+		"number": 1221,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01908\"><he>פָּרַס</he></cite>) <i>broken piece, part, half</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Menachot 7:2\">Men. VII, 2</cite> (<cite ref=\"Menachot 77b:2\">77ᵇ</cite>) (ref. to <cite ref=\"Leviticus 7:14\">Lev. VII, 14</cite>) <he>שלא יטול פ׳</he> this indicates that he shall not take a piece of a cake; a. fr.—",
+				"<cite ref=\"Mishnah Shekalim 3:1\">Shek. III, 1</cite> <he>בפרוס הפסח וכ׳</he> (Y. ed. <he>בפְרַס</he>) at half the period of preparation for the Passover &c. (during which the laws of the respective festival are expounded); v. Y. ib. III, beg. 47ᵇ <he>פלגא בשלשים יום</he> half of the thirty days."
+			]
+		}
+	]
+}

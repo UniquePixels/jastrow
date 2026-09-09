@@ -1,0 +1,40 @@
+{
+	"id": "T00561",
+	"slug": "רטיב",
+	"headword": {
+		"text": "רַטִּיב"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָטִיב"
+		},
+		{
+			"text": "רְ׳"
+		},
+		{
+			"text": "רְטִיבָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1471,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00550\"><he>רְטַב</he></cite>) <i>moist, succulent, fresh, green</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 8:16\">Targ. Job VIII, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 17:24\">Targ. Ez. XVII, 24</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 21:3\">Ib. XXI, 3</cite>.—",
+				"<cite ref=\"Gittin 69b:9\">Gitt. 69ᵇ</cite>, v. <cite ref=\"A01573\"><he>אִיצָא</he> I</cite>.—Pl. <he>רַטִּיבִין</he>, <cite ref=\"T00186\"><he>רְ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Numbers 6:3\">Targ. Num. VI, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 6:13\">Targ. Is. VI, 13</cite>; a. fr.—<i>Fem.</i> <cite ref=\"T00561\"><he>רטִּיבָא</he></cite>, <he>רְטִ׳</he>. Gitt. l. c., v. <cite ref=\"O00755\"><he>סִיסִין</he> I</cite>; a. e.—Pl. <he>רַטִּיבַן</he>. ",
+				"<cite ref=\"Onkelos Genesis 30:37\">Targ. O. Gen. XXX, 37</cite> ed. Berl. (oth. ed. <he>בִין …</he>)."
+			]
+		}
+	]
+}

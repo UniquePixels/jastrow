@@ -1,0 +1,23 @@
+{
+	"id": "P00084",
+	"slug": "עגול-3",
+	"headword": {
+		"text": "עֲגוֹל"
+	},
+	"page": {
+		"number": 1041,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00083\">preced.</cite>; v. <cite ref=\"P00497\"><he>עִיגּוּל</he></cite>) <i>round cake, loaf</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 29:23\">Targ. Y. Ex. XXIX, 23</cite> (h. text <cite ref=\"K00663\"><he>ככר</he></cite>).—Pl. <he>עֲגוּלִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 40:4\">Ib. XL, 4</cite>."
+			]
+		}
+	]
+}

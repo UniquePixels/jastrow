@@ -1,0 +1,24 @@
+{
+	"id": "N00030",
+	"slug": "נאקה-1",
+	"headword": {
+		"text": "נְאָקָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 866,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; cmp. <cite ref=\"A02285\"><he>אנק</he></cite>)<i>groaning</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 1:34\">Ex. R. s. 1</cite> (ref. to <cite ref=\"Exodus 2:24\">Ex. II, 24</cite>) <he>נַאֲקַת החללים</he> the groaning of the wounded. ",
+				"<cite ref=\"Shemot Rabbah 6\">Ex. R. s. 6</cite>; a. e.—Esp. <i>n’aḳah</i> (<i>prayer in distress</i>), one of the expressions for prayer. Lam. R. introd. (R. Ḥănina); <cite ref=\"Sifrei Devarim 26:7\">Sifré Deut. 26</cite>; <cite ref=\"Devarim Rabbah 2:1\">Deut. R. s. 2</cite>; a. e."
+			]
+		}
+	]
+}

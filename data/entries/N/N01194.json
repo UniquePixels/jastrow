@@ -1,0 +1,50 @@
+{
+	"id": "N01194",
+	"slug": "נקי-2",
+	"headword": {
+		"text": "נְקֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְקָא"
+		}
+	],
+	"page": {
+		"number": 932,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N01193\">same</cite> [<cite ref=\"Aramaic Targum to Proverbs 17:3\">Targ. Prov. XVII, 3</cite>, v. <cite ref=\"B01112\"><he>בְּקָא</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נַקֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to cleanse, clear</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 1:25\">Targ. Is. I, 25</cite>.—",
+						"<cite ref=\"Ketubot 87a:10\">Keth. 87ᵃ</cite> <he>נַקִּו נפשך בשבועתא</he> clear thyself by means of an oath. Part. pass. <he>מְנַקֵּי</he>. ",
+						"<cite ref=\"Ketubot 87a:10\">Ib.</cite> <he>מְנַקִּית משבועתא</he> thou art free from the obligation of an oath."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְנַקָּא", "אִתְנַקֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to be cleansed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 16:4\">Targ. Ez. XVI, 4</cite>; v. <cite ref=\"N01243\"><he>נְקַר</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

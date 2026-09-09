@@ -1,0 +1,45 @@
+{
+	"id": "H01523",
+	"slug": "חציף",
+	"headword": {
+		"text": "חָצִיף"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲצִיפָא"
+		}
+	],
+	"page": {
+		"number": 495,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01532\"><he>חֲצַף</he></cite>, sub. <he>אַפִּין</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bare-faced, impudent, impertinent</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 17:4\">Targ. Ps. XVII, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 8:1\">Targ. Koh. VIII, 1</cite> <he>חֲצִיף אפין</he> (constr.); a. e.—",
+				"<cite ref=\"Berakhot 34b:31\">Ber. 34ᵇ</cite>; <cite ref=\"Sotah 7b:12\">Sot. 7ᵇ</cite> <he>ח׳ עלי מאן וכ׳</he> I consider him impertinent who &c. ",
+				"<cite ref=\"Kiddushin 33a:16\">Kidd. 33ᵃ</cite> <he>כמה ח׳ האי גברא</he> how irreverently behaves this man; a. e.—<i>Fem.</i> <cite ref=\"H01523\"><he>חֲצִיפָא</he></cite>, <cite ref=\"H01689\"><he>חֲצִיפְתָּא</he></cite>. ",
+				"<cite ref=\"Moed Katan 16b:13\">M. Kat. 16ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:4:6\">Y. Taan. III, 66ᵈ</cite> top.—Pl. m. <he>חֲצִיפִין</he>, constr. <he>חֲצִיפֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 28:37\">Targ. Y. Ex. XXVIII, 37</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>undaunted, persevering, strong</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 989:8\">Yalk. Koh. 989</cite>, v. <cite ref=\"N00552\"><he>נָטוֹרָא</he></cite>. Pesik. Shub., p. 161ᵃ <he>ח׳ נצח לבישא וכ׳</he> the persevering (in prayer) conquers even the bad man, so much the more the Good One of the world; Y. Taan. II, 65ᵇ <he>חֲצִיפָח … לכשירא</he> (corr. acc.); <cite ref=\"Yalkut Shimoni on Nach 550:6\">Yalk. Jon. 550</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

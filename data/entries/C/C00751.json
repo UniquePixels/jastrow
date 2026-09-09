@@ -1,0 +1,29 @@
+{
+	"id": "C00751",
+	"slug": "גינאי-2",
+	"headword": {
+		"text": "גִּינַּאי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּינַּיי",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 239,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"C00748\"><he>גִּינָּא</he></cite>; cmp. <cite ref=\"C00750\">preced.</cite>) <i>dyke for irrigating gardens;</i> also pr. n. <i>Ginnai</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 7a:11\">Ḥull. 7ᵃ</cite> <he>ג׳ נהרא</he> the rivulet Ginnai; <cite ref=\"Jerusalem Talmud Demai 1:3:11\">Y. Dem. I, 22ᵃ</cite> top. Y. Shek. VI, 50ᶜ bot. <he>ג׳ שטף זיקין</he> an overflowing dyke carried off wine bottles."
+			]
+		}
+	]
+}

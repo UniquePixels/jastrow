@@ -1,0 +1,35 @@
+{
+	"id": "O01513",
+	"slug": "סרב-3",
+	"headword": {
+		"text": "סְרַב",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1022,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>סָרֵיב</he> (<i>Saf.</i> of <he>ארב</he>, <he>ערב</he>) [<i>to interlace</i>,] <i>to confound</i> (cmp. <cite ref=\"O01636\"><he>סרך</he></cite>). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 3:9\">Targ. Lam. III, 9</cite> ed. Lag. (Var. <he>סראו</he>!; ed. Amst. <cite ref=\"O01636\"><he>סרך</he></cite>; h. text <he>עוה</he>). ",
+						"<cite ref=\"Aramaic Targum to Lamentations 3:11\">Ib. 11</cite> ed. Lag. (oth. ed. <cite ref=\"O01636\"><he>סרך</he></cite>; h. text <he>סורר</he>). ",
+						"<cite ref=\"Aramaic Targum to Lamentations 3:36\">Ib. 36</cite> ed. Lag. (ed. oth. <he>לסרכא</he>; h. text <he>לְעֵוֵּת</he>).—<i>Part. pass. Peil</i> <he>סָרִיב</he>, <he>סְרִיבָא</he>; f. pl. <he>סְרִיבָן</he>. ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 1:15\">Targ. Koh. I, 15</cite> ed. Ven. (oth. ed. <cite ref=\"O01617\"><he>סְרִיכָן</he></cite>; h. text <he>מְעֻוָּת</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "M01276",
+	"slug": "מיצטרא",
+	"headword": {
+		"text": "מִיצְטְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִצְ׳"
+		}
+	],
+	"page": {
+		"number": 778,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (μύστρος, -ον) <i>spoon</i>.—<he>מ׳ מכירין</he> (v. <cite ref=\"M01383\"><he>מְכֵירִין</he></cite>) <i>mystromacherion</i>, an instrument having a spoon on one side and a knife on the other (cmp. Sm. Ant. s. v. Cochlear). ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 33:1\">Lev. R. s. 33</cite>, beg. (ref. to <cite ref=\"Proverbs 18:21\">Prov. XVIII, 21</cite>) <he>תרגם עקילס מ׳ מ׳ וכ׳</he> Aquila interpreted it, ‘a spoon-knife’, death on one side and life on the other; Yalk. ib. 661 <he>מציטאר מ׳</he>; Yalk. Ps. 768 <he>מצטרו ומ׳</he> (read: <he>מצטרומ׳</he>)."
+			]
+		}
+	]
+}

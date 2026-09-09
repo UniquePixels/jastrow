@@ -1,0 +1,38 @@
+{
+	"id": "K00248",
+	"slug": "כוך-2",
+	"headword": {
+		"text": "כּוּךְ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוֹכָא"
+		}
+	],
+	"page": {
+		"number": 619,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"K00247\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 30:2\">Targ. Job XXX, 2</cite>; <cite ref=\"Aramaic Targum to Job 5:26\">ib. V, 26</cite> (h. text <he>כלח</he>).)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>an improvised subterranean dwelling</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 22a:16\">Taan. 22ᵃ</cite> <he>ככ׳ דציידי</he> Rashi (ed. <he>ככוּכֵי</he>, pl., Ar. s. v. <cite ref=\"K00660\"><he>ככי</he></cite>: <he>לא נצרכה אלא לבי כ׳ דאגמא</he>) like the hunters’ cave. ",
+				"<cite ref=\"Gittin 68a:13\">Gitt. 68ᵃ</cite> bot. <he>מטא גבי כ׳ דההיא וכ׳</he> Ar. (ed. <cite ref=\"K00180\"><he>כובא</he></cite>, corr. acc.) he came to the hut of a certain widow. [<cite ref=\"Berakhot 37b\">Ber. 37ᵇ</cite> <he>כ׳ דארעא</he> Ar., v. <cite ref=\"K00182\"><he>כּוּבָּא</he> III</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

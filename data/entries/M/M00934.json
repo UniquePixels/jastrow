@@ -1,0 +1,22 @@
+{
+	"id": "M00934",
+	"slug": "מחקא-2",
+	"headword": {
+		"text": "מִחְקָא"
+	},
+	"page": {
+		"number": 764,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>מְחַק</he> 2) <i>stricken measure</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 19:35\">Targ. Y. Lev. XIX, 35</cite>, opp. <cite ref=\"C00221\"><he>גְּדִישׁוּתָא</he></cite>."
+			]
+		}
+	]
+}

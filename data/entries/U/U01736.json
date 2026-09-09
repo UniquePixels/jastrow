@@ -1,0 +1,52 @@
+{
+	"id": "U01736",
+	"slug": "שפי-3",
+	"headword": {
+		"text": "שפי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁפָה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1615,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v.<cite ref=\"U01786\"><he>שָׁפַע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to incline</i>, v. <cite ref=\"U01013\"><he>שִׁיפּוּי</he> II</cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to tilt, pour out slowly</i> (so as to leave the sediment behind). ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 18:14\">Midr. Till. to Ps. XVIII, 12</cite> <he>כדקים … שׁוֹפִין אלו באלו</he> ed. Bub. (oth. ed. <cite ref=\"U00504\"><he>שופכין</he></cite>) as the small bowels of an animal that pour their contents from one to the other. ",
+				"<cite ref=\"Esther Rabbah 5:3\">Esth. R. to II, 3</cite>; a. e.—Esp. <i>to sell wine</i>. ",
+				"<cite ref=\"Bava Metzia 60a:10\">B. Mets. 60ᵃ</cite> <he>השׁוֹפֶה יין לחמרים</he> Ms. H. (v. Rabb. D. S. a. l. note 10; ed. <he>לחבירו</he>; Ar. <he>לשמרים</he>, corr. acc.) if one sells wine to ass-drivers (caravan at an inn); Tosef. ib. III, 27 <he>היה שׁוֹפֵא וכ׳</he> ed. Zuck. (Var. <cite ref=\"U00493\"><he>שופה</he></cite>); a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁיפָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to make slanting, whittle to a point</i>.—Part. pass. <he>מְשׁוּפֶּה</he>; f. <he>מְשׁוּפָּה</he>; pl. <he>מְשׁוּפִּים</he>, <he>מְשׁוּפִּין</he>; <he>מְשׁוּפּוֹת</he>. ",
+					"units": [
+						"<cite ref=\"Ketubot 5b:2\">Keth. 5ᵇ</cite> <he>מש׳ כיתדות</he> (the fingers) pointed like pegs."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

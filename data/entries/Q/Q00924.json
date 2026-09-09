@@ -1,0 +1,70 @@
+{
+	"id": "Q00924",
+	"slug": "פכר-2",
+	"headword": {
+		"text": "פְּכַר"
+	},
+	"page": {
+		"number": 1174,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"Q00910\"><he>פָּכָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to insert, interlace, clasp</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 10a:2\">Sabb. 10ᵃ</cite> <he>פ׳ ידיה ומצלי</he> he clasped his hands (in reverence) and prayed; Yalk. Am. 542.—Part. pass. <he>פְּכִיר</he>; pl. <he>פְּכִירִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Esther 8:15\">Targ. Esth. VIII, 15</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to split, break open</i>. Part. pass. <he>פְּכִיר</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 67\">Gen. R. s. 67</cite> Ar. (ed. <he>פָּכוּר</he> h. form), v. <cite ref=\"Q00911\"><he>פָּכוֹרָא</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּכֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to split, break in, demolish</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 49:6\">Targ. Y. I Gen. XLIX, 6</cite> (ed. Vien. <he>פָּכְרוּ</he> <i>Pe.</i>). ",
+						"<cite ref=\"Targum Jonathan on Numbers 21:35\">Targ. Y. Num. XXI, 35</cite> (ed. Vien. <cite ref=\"Q00994\"><he>פָּ׳</he></cite>); a. e.—",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 3:3\">Targ. Koh. III, 3</cite> <he>לפַכָּרָא</he> ed. Lag. (Ar. a. Levita <he>לפכורא</he>, read: <he>לפַכּוּרֵי</he>; ed. <he>לפרכא</he>, <he>לכפרא</he>, corr. acc.; h. text <he>לפרוץ</he>).—",
+						"<cite ref=\"Bereishit Rabbah 86:3\">Gen. R. s. 86</cite> end <he>פַּכְּרוּן</he> (not <cite ref=\"Q01689\"><he>פרכ׳</he></cite>), v. <cite ref=\"N00605\"><he>נִיבָא</he> I</cite>. ",
+						"<cite ref=\"Eichah Rabbah 5:1\">Lam. R. to V, 1</cite> (transl. <he>ערו</he>, <cite ref=\"Psalms 137:7\">Ps. CXXXVII, 7</cite> <he>פַּכְּרוּ</he> Ar. (ed. <he>פגרו</he>, v. <cite ref=\"Q00091\"><he>פְּגַר</he> I</cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to entangle, confound</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 26:30\">Targ. Y. Lev. XXVI, 30</cite> (ed. Vien. <he>אַפְכַּר</he> <i>Af.</i>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְפְּכַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be entangled, caught</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 5:22\">Targ. Prov. V, 22</cite> <he>נִתְפְּכֵיר</he> ed. Lag. (Ar. <he>יִתְפְּכַר</he>; some ed. <he>נתּפכיך</he>, corr. acc.; h. text <he>יתמך</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

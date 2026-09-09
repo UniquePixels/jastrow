@@ -1,0 +1,23 @@
+{
+	"id": "L00047",
+	"slug": "לבדקין",
+	"headword": {
+		"text": "לִבְדְּקִין"
+	},
+	"page": {
+		"number": 687,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"L00410\"><he>לִיבְדְּקוֹס</he></cite>) <i>Libyan asses</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 32:16\">Targ. Y. Gen. XXXII, 16</cite> Ar. (ed. <cite ref=\"L00223\"><he>לווקרין</he></cite>, <he>לוודין דקין</he>, <he>וולדין ד׳</he>, read: <he>לִוְודְּקִין</he>)."
+			]
+		}
+	]
+}

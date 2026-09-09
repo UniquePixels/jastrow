@@ -1,0 +1,27 @@
+{
+	"id": "K01105",
+	"slug": "כרובא-3",
+	"headword": {
+		"text": "כְּרוֹבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּרוּ׳"
+		}
+	],
+	"page": {
+		"number": 664,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>כְּרַב</he> II) <i>dug around, marked off</i>; <he>כרוב ארעא</he> (cmp. <cite ref=\"H01559\"><he>חַקְלָא</he></cite>) <i>a certain measure of land</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 35:16\">Targ. O. Gen. XXXV, 16</cite>; <cite ref=\"Onkelos Genesis 48:7\">XLVIII, 7</cite>; <cite ref=\"Targum Jonathan on II Kings 5:19\">Targ. II Kings V, 19</cite> (h. text <he>כברת ארץ</he>)."
+			]
+		}
+	]
+}

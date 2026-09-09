@@ -1,0 +1,33 @@
+{
+	"id": "B01332",
+	"slug": "ברקתא-1",
+	"headword": {
+		"text": "בַּרְקָתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּרְקָן"
+		},
+		{
+			"text": "בָּרוֹקָא"
+		}
+	],
+	"page": {
+		"number": 197,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = b. h. <cite ref=\"B01331\"><he>בָּרֶקֶת</he></cite>, <i>a jewel</i>, prob. <i>smaragd</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:17\">Targ. Ex. XXVIII, 17</cite>; a. e. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 28:13\">Targ. Ezek. XXVIII, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:14\">Targ. Cant. V, 14</cite> (ed. Vien. <cite ref=\"B01328\"><he>בִּרְקַן</he></cite>, corr. acc.); a. e.—",
+				"<cite ref=\"Targum Jonathan on Numbers 2:3\">Targ. Y. Num. II, 3</cite> <cite ref=\"B01332\"><he>ברוקא</he></cite>."
+			]
+		}
+	]
+}

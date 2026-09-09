@@ -1,0 +1,31 @@
+{
+	"id": "I00683",
+	"slug": "טפש-3",
+	"headword": {
+		"text": "טִפֵּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִיפֵּשׁ"
+		}
+	],
+	"page": {
+		"number": 549,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00682\">preced.</cite>) <i>obdurate, dull, stupid</i>. ",
+			"units": [
+				"<cite ref=\"Temurah 16a:69\">Tem. 16ᵃ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 10:4:2\">Y. Pes. X, 37ᵈ</cite> (Mekh. Bo., s. 18 <cite ref=\"V00644\"><he>תם</he></cite>). ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:1:10\">Cant. R. to I, 1</cite> <he>חכם ט׳ וכ׳</he> first wise, then foolish &c.; a. fr.—Pl. <he>טִפְּשִׁים</he>, <he>טִפְּשִׁין</he>, <cite ref=\"I00685\"><he>טִיפְּ׳</he></cite>. ",
+				"<cite ref=\"Shabbat 152b:5\">Sabb. 152ᵇ</cite>. Y. Pes. IX, end, 37ᵃ; a. fr.—<i>Fem.</i> <cite ref=\"I00687\"><he>טִפֶּשֶׁת</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20</cite> <he>שזו הט׳ שבבהמה</he> for this (the ass), the stupidest of animals; Tanḥ. Balak 9 <he>הטִפְּשִׁית</he>."
+			]
+		}
+	]
+}

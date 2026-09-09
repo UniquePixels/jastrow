@@ -1,0 +1,30 @@
+{
+	"id": "E00345",
+	"slug": "הידור-2",
+	"headword": {
+		"text": "הִידּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "הִדּוּר"
+		}
+	],
+	"page": {
+		"number": 343,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"E00147\"><he>הָדַר</he></cite>, Pi.) <i>paying respect; honoring, adorning</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 32b:9\">Kidd. 32ᵇ</cite> (ref. to <cite ref=\"Leviticus 19:32\">Lev. XIX, 32</cite>) <he>קימה במקום שיש ה׳</he> rising in such a way as to show your respects (being near enough). ",
+				"<cite ref=\"Leviticus 19:32\">Ib.</cite> <he>ה׳ שאין בו וכ׳</he>, v. <cite ref=\"H01415\"><he>חֶסְרוֹן</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>בהִידּוּרָהּ של תורה וכ׳</he> (<he>חד מתלמ׳</he>) <cite ref=\"T00152\"><he>רבתי</he></cite> thou shalt die in the glory of the Law (as a great scholar), v. <cite ref=\"E00150\"><he>הֲדָרָא</he></cite>.—<he>ה׳ מצוה</he> doing a religious act in the handsomest way. ",
+				"<cite ref=\"Bava Kamma 9b:2\">B. Kam. 9ᵇ</cite> <he>ה׳ מצוה עד וכ׳</he> the expense for adorning a religious act (e.g. buying a fine copy of the Law) must not exceed one third (of the ordinary expense); a. e."
+			]
+		}
+	]
+}

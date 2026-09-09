@@ -1,0 +1,39 @@
+{
+	"id": "P01369",
+	"slug": "עריסה",
+	"headword": {
+		"text": "עֲרִיסָה"
+	},
+	"page": {
+		"number": 1117,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01401\"><he>עָרַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "(b. h.; <i>kneading-trough, dough of one trough, batch</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 67a\">Men. 67ᵃ</cite> <he>עֲרִיסַת גוי</he>; <he>ע׳ הקדש</he> Ms. M. (ed. <he>עִיסַת</he>).—Pl. <cite ref=\"P01370\"><he>עֲרִיסוֹת</he></cite>. ",
+				"<cite ref=\"Chullin 135b:11\">Ḥull. 135ᵇ</cite> (ref. to <cite ref=\"Numbers 15:20\">Num. XV, 20</cite>) <he>כדי עֲרִיסוֹתֵיכֶם</he> of the size of your batches (in the desert); Men. l. c. Ms. M. (ed. <he>עִיסוֹת׳</he>; <cite ref=\"Eruvin 83b:1\">Erub. 83ᵇ</cite> <he>עיס׳</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"P01404\"><he>עֶרֶס</he></cite>) <i>cradle</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:1\">Kel. XVI, 1</cite> <he>המטה והע׳</he> a couch or a cradle; <cite ref=\"Jerusalem Talmud Berakhot 3:1:8\">Y. Ber. III, 5ᵈ</cite> bot. <he>המיטה הערסה</he> (corr. acc.). ",
+				"<cite ref=\"Mishnah Kelim 26:5\">Kel. XXVI, 5</cite> <he>עור הע׳</he>; <cite ref=\"Tosefta Keilim Batra 4:8\">Tosef. Kel. B. Bath. IV, 8</cite> <he>ועור האריסה</he> ed. Zuck. (omitted in oth. ed.), v. <cite ref=\"P00345\"><he>עוֹר</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Batra 7:12\">Ib. VII, 12</cite> <he>עֲרִיסָא של זכוכית</he> ed. Zuck. (oth. ed. <cite ref=\"P01369\"><he>עריסה</he></cite>) a glass cradle(?). ",
+				"<cite ref=\"Mishnah Niddah 4:1\">Nidd. IV, 1</cite> <he>מעֲרִיסָתָן</he> from their cradle (earliest childhood). ",
+				"<cite ref=\"Bereishit Rabbah 53:10\">Gen. R. s. 53</cite>, v. <cite ref=\"N00234\"><he>נִדְנֵד</he></cite>. Y. Macc. II, beg. 31ᶜ <he>ישב לו ע״ג ע׳ ביום ודרך התינוק ע״ג ע׳ ביום וכ׳</he> if he sat down on a cradle in day time (and caused a child’s death): where it is customary to place a child in the cradle in day time, he does not go into exile (to the city of refuge, because his act is one of criminal neglect); a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

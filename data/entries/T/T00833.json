@@ -1,0 +1,46 @@
+{
+	"id": "T00833",
+	"slug": "רמץ-2",
+	"headword": {
+		"text": "רְמַץ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1483,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to weave in checkers, to variegate</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:39\">Targ. Ex. XXVIII, 39</cite>.—Part. pass. <he>מְרמּץ</he>; f. <cite ref=\"M02720\"><he>מְרַמְּצָא</he></cite>; pl. <he>מְרַמְּצִין</he>; <cite ref=\"M00901\"><he>מְרַמְּצָן</he></cite>. Ib. 4. ",
+				"<cite ref=\"Aramaic Targum to Psalms 45:14\">Targ. Ps. XLV, 14</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of jeweler’s work) <i>to set, enchase</i>. Part. pass. as ab. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:20\">Targ. O. Ex. XXVIII, 20</cite> (Y. <he>משקע׳</he>); <cite ref=\"Onkelos Exodus 28:20\">ib.</cite> O. a. Y. XXXIX, 13 <he>משקעין מר׳</he>. ",
+				"<cite ref=\"Targum of II Chronicles 3:6\">Targ. II Chr. III, 6</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"T00833\"><he>רִמֵּץ</he></cite> (cmp. <cite ref=\"T00832\">preced.</cite>) [<i>to squeeze in</i>, corresp. to h. <cite ref=\"U00167\"><he>שבץ</he></cite>,] ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

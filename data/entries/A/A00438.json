@@ -1,0 +1,53 @@
+{
+	"id": "A00438",
+	"slug": "אדק-2",
+	"headword": {
+		"text": "אֲדַק"
+	},
+	"page": {
+		"number": 17,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A00437\">same</cite>, (neut. v.) <i>to be fastened, stick to</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 4:8\">Targ. Lam. IV, 8</cite>.—<i>Part. pass.</i> <cite ref=\"A00404\"><he>אָדִיק</he></cite>, <i>attached, cleaving to</i>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 22:16\">Targ. Ps. XXII, 16</cite> <he>א׳ ל־</he> Ms. (ed. <cite ref=\"D00073\"><he>אדביק</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 28:28\">Targ. Ex. XXVIII, 28</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַדֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to fasten to, to cause to take hold</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 28:21\">Targ. Y. Deut. XXVIII, 21</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to seize, take hold of</i>. Ibid. id5 <he>ויאדקונכון</he> (ed. Vien. a. oth. <he>ויערק׳</he> corr. <cite ref=\"D00000\"><he>ד</he></cite> for <cite ref=\"T00000\"><he>ר</he></cite>).",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְאַדֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to join, cling to</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 41:9\">Targ. Job. XLI, 9</cite>; <cite ref=\"Aramaic Targum to Job 41:15\">15</cite> (Ms. <he>מידבק</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

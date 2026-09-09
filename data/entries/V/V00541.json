@@ -1,0 +1,45 @@
+{
+	"id": "V00541",
+	"slug": "תכל-4",
+	"headword": {
+		"text": "תְּכָל"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּכְלָא"
+		},
+		{
+			"text": "תִּי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1668,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00540\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bereavement</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 47:9\">Targ. Is. XLVII, 9</cite> (ed. Ven. I <cite ref=\"V00545\"><he>תִּכְלוּ</he></cite>).—",
+				"<cite ref=\"Shabbat 151b:17\">Sabb. 151ᵇ</cite>, v. <cite ref=\"P00234\"><he>עֲוִירָא</he> II</cite>.—Pl. <he>תִּכְלֵי</he>, <cite ref=\"V00014\"><he>תִּי׳</he></cite>. ",
+				"<cite ref=\"Moed Katan 28a:14\">M. Kat. 28ᵃ</cite> <he>בי רבה שתין ת׳</he> in the family of Rabbah occurred sixty deaths."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>abortion</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 62a:5\">Keth. 62ᵃ</cite> <he>דמלפא ת׳</he> Ar. (not <he>דמלפי</he>; ed. <he>תִּכְלֵי</he>, pl.), v. <cite ref=\"B00196\"><he>בְּהַת</he></cite>"
+			],
+			"label": "2"
+		}
+	]
+}

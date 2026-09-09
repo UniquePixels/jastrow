@@ -1,0 +1,32 @@
+{
+	"id": "S01738",
+	"slug": "קפילא",
+	"headword": {
+		"text": "קְפֵילָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְפֵילָה"
+		}
+	],
+	"page": {
+		"number": 1401,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κάπηλος) <i>huckster, dealer in victuals; tavern-keeper</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 5:6:4\">Y. B. Mets. V, 10ᶜ</cite> bot. <he>יהב חד דינר לק׳ ונסב מיניה בשער זלילה וכ׳</he> (not <he>בשעה</he>) advanced one denar to a huckster and received all he bought of him at the lowest prices of the entire year. ",
+				"<cite ref=\"Vayikra Rabbah 12:1\">Lev. R. s. 12</cite> (ref. to <cite ref=\"Proverbs 23:29\">Prov. XXIII, 29</cite> sq.) <he>זה שנכנס לבי ק׳ וכ׳</he> he who is the first to enter the tavern and the last to leave it; <cite ref=\"Yalkut Shimoni on Nach 960:35\">Yalk. Prov. 960</cite> <cite ref=\"S01751\"><he>קְפֵלָא</he></cite>; a. fr.—Esp. <i>keeper of a cook-shop, professional cook</i>. ",
+				"<cite ref=\"Chullin 97a:3\">Ḥull. 97ᵃ</cite> <he>ליטעמיה ק׳ ארמאה</he> let a gentile cook taste it. ",
+				"<cite ref=\"Chullin 97a:3\">Ib.</cite> <he>אמור רבנן בק׳</he> there are cases when the rabbis make the decision dependent on the taste of a gentile cook; a. fr.—<i>Pl.</i> (h.) <he>קְפֵילָאוֹת</he>, (ch.) <he>קְפֵילַיָּא</he>. ",
+				"<cite ref=\"Tosefta Bava Metzia 11:30\">Tosef. B. Mets. XI, 30</cite> <he>הנחתומים והק׳</he> the bakers and the tavern-keepers. ",
+				"<cite ref=\"Jerusalem Talmud Shevuot 7:5:4\">Y. Shebu. VII, 38ᵃ</cite> top, v. <cite ref=\"K01380\"><he>כַּתַּף</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "A01405",
+	"slug": "איסור-2",
+	"headword": {
+		"text": "אִיסּוּר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 53,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Issur;</i> ",
+			"units": []
+		},
+		{
+			"gloss": " a proselyte. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 70a:8\">Ab. Zar. 70ᵃ</cite>. ",
+				"<cite ref=\"Bava Batra 149a:6\">B. Bath. 149ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " an expert on coins. ",
+			"units": ["<cite ref=\"Bava Kamma 99b:21\">B. Kam. 99ᵇ</cite> bot."],
+			"label": "2"
+		}
+	]
+}

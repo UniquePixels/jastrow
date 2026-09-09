@@ -1,0 +1,28 @@
+{
+	"id": "M01252",
+	"slug": "מיסק",
+	"headword": {
+		"text": "מִיסַּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִסַּק"
+		}
+	],
+	"page": {
+		"number": 777,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00958\"><he>נְסַק</he></cite>) <i>rising</i>, (<i>sun</i>-) <i>rise</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 22:5\">Targ. Ps. XXII, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 3:6\">Targ. Cant. III, 6</cite>, a. e., v. <cite ref=\"S02077\"><he>קְרִיצְתָּא</he></cite>."
+			]
+		}
+	]
+}

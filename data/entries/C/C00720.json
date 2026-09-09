@@ -1,0 +1,23 @@
+{
+	"id": "C00720",
+	"slug": "גילאי",
+	"headword": {
+		"text": "גִּילָאֵי"
+	},
+	"page": {
+		"number": 238,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>גִּיל</he> II) <i>persons of the <cite ref=\"C00719\">same</cite> age and circle</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 116b:5\">Zeb. 116ᵇ</cite> <he>תרי עולמי ג׳</he> (some ed. <cite ref=\"C00674\"><he>גו׳</he></cite>, v. Rabb. D. S. a. l. note 3) two youths of the same &c."
+			]
+		}
+	]
+}

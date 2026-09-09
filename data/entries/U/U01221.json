@@ -1,0 +1,24 @@
+{
+	"id": "U01221",
+	"slug": "שלהוביתא",
+	"headword": {
+		"text": "שַׁלְהוֹבִיתָא"
+	},
+	"page": {
+		"number": 1578,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"U01220\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 30:25\">Targ. Y. Gen. XXX, 25</cite>. ",
+				"<cite ref=\"Onkelos Exodus 3:2\">Targ. O. Ex. III, 2</cite>; a. fr.—Pl. <he>שַׁלְהוֹבְיָין</he>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 20:2\">Targ. Y. Ex. XX, 2</cite>, sq."
+			]
+		}
+	]
+}

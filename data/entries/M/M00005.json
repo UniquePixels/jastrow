@@ -1,0 +1,23 @@
+{
+	"id": "M00005",
+	"slug": "מאד",
+	"headword": {
+		"text": "מְאֹד"
+	},
+	"page": {
+		"number": 721,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h., v. Schr. KAT<sup>2</sup>, p. 564) <i>much;</i> (adv.) <i>very</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 9:5\">Ber. IX, 5</cite> (ref. to <he>מאדך</he> <cite ref=\"Deuteronomy 6:5\">Deut. VI, 5</cite>) <he>בכל מדה ומדה … הוי מודה לו במ׳ מ׳</he> (Ms. M. a. Y. ed. <he>מ׳ מ׳</he>; Bab. ed. 54ᵃ <he>במ׳ מ׳</he> omitted) whatever measure he may measure out to thee, give thanks to him very, very much. ",
+				"<cite ref=\"Pirkei Avot 4:4\">Ab. IV, 4</cite> <he>מ׳ מ׳ הוי וכ׳</he> be exceedingly lowly in mind (humble)."
+			]
+		}
+	]
+}

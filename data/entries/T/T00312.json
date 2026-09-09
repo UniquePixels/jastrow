@@ -1,0 +1,24 @@
+{
+	"id": "T00312",
+	"slug": "רוגז",
+	"headword": {
+		"text": "רוֹגֶז"
+	},
+	"page": {
+		"number": 1456,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"T00175\"><he>רֹגֶז</he></cite>; <cite ref=\"T00173\"><he>רָגַז</he></cite>)<i>excitement, anger, commotion, trouble</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 22:5\">Midr. Till. to Ps. XXII</cite> <he>מתיך ר׳ רחמים</he> out of the divine anger comes mercy (ref. to <cite ref=\"Habakkuk 3:2\">Hab. III, 2</cite>). ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 38:3\">Pirké d’R. El. ch. XXXVIII</cite> <he>התחיל מקלל רוֹגְזָם וכ׳</he> he began to curse his sons’ anger. ",
+				"<cite ref=\"Bereishit Rabbah 84:3\">Gen. R. s. 84</cite> (ref. to <cite ref=\"Job 3:26\">Job III, 26</cite>) <he>בא עלי רָגְזוֹ וכ׳</he> the trouble about Joseph came upon me."
+			]
+		}
+	]
+}

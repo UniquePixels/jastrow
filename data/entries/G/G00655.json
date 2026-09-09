@@ -1,0 +1,51 @@
+{
+	"id": "G00655",
+	"slug": "זקר-1",
+	"headword": {
+		"text": "זָקַר"
+	},
+	"page": {
+		"number": 411,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. Syr. <he>זקר</he> P. Sm. 1151) 1) <i>to thrust, fling</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 67b\">Yoma 67ᵇ</cite> <he>זוֹקְרוֹ בת וכ׳</he> Ar. a. Mss. M. 2 a. O. (ed. <he>זורקו</he>, v. Rabb. D. S. a. l. note), v. <cite ref=\"B01378\"><he>בַּת</he> II</cite>."
+			]
+		},
+		{
+			"gloss": "<i>to cast lots; to decide</i>.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִזְקָר"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִזְדַּקֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be thrown; to leap, to stagger</i>. Ib. 38ᵇ, v. <cite ref=\"B01378\"><he>בַּת</he> II</cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be decided upon, to be decreed upon</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 52b:8\">Erub. 52ᵇ</cite> <he>למקום שרובו הוא נזקר</he> (Var. <he>נזד׳</he>) he is judged to belong to where the larger portion of his body is.—",
+						"<cite ref=\"Rosh Hashanah 18a\">R. Hash. 18ᵃ</cite> <he>כולן נזקרין בזקירה אחת</he> Ar. (Var. Ar., a. ed. <he>נסקרין … בסקירה</he>) the fate of all of them is decided in one decree.—",
+						"<cite ref=\"Berakhot 46a:6\">Ber. 46ᵃ</cite> <he>אל יִזְדַּקֵּר וכ׳</he> (Alf. a. oth. <he>יִזְדַּקֵּק</he>, v. <cite ref=\"G00652\"><he>זָקַק</he></cite>, v. Rabb. D. S. a. l. note 40) may there not occur to him (our host) or to us anything that suggests sin &c."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

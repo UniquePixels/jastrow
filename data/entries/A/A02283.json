@@ -1,0 +1,39 @@
+{
+	"id": "A02283",
+	"slug": "אנפרות",
+	"headword": {
+		"text": "אַנְפָּרוּת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 87,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>פרר</he> or <he>נפר</he> √<cite ref=\"Q01526\"><he>פר</he></cite>) <i>a break, division</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the purchase of an odd object, of one of a pair</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 80b:5\">Sabb. 80ᵇ</cite> (ref. to <cite ref=\"A02114\"><he>אַנְדִּיפָא</he></cite> q. v.) <he>וכי אדם עושה מעותיו א׳</he> will a man buy a half of a thing (as a cosmetic for one temple)?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>partial payments, an agreement</i> (invalid according to Jewish law) <i>of term payments with the condition of forfeiture on missing one term</i> (v. <cite ref=\"A02466\"><he>אַסְמַכְתָּא</he></cite>), esp. <i>such an agreement forced upon a Jew by a gentile</i> (<i>Roman</i>) <i>individual or authority</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 44a:3\">Gitt. 44ᵃ</cite> (v. <cite ref=\"A02259\"><he>אָנַס</he></cite>) <he>אם בא׳</he> if his crop was seized in consequence of an <i>anparuth</i>, he is exempt from paying the tithes (of his produces, since he is the loser, whereas if distrained for a real debt, he enjoys the legal benefit of being released of a debt, and therefore must pay the tithes, as if he had sold the crop). Y. Keth. X, end, 34ᵃ <he>בארנונה וכ׳</he> with reference to annona, capitation tax and forfeiture. ",
+				"<cite ref=\"Gittin 58b:7\">Gitt. 58ᵇ</cite> <he>הבא מחמת חוב ומחמת א׳ וכ׳</he> if a gentile (Roman) obtained possession of a Jew’s property in consequence of seizure for a debt or of forfeiture and subsequently sold it to a Jew, the Sicarion law finds no application (and the property must, without any indemnity, be restored to its original owner; v. <cite ref=\"O00825\"><he>סִיקְרִיקוֹן</he></cite>); <he>וא׳ עצמה וכ׳</he> and the property seized for forfeiture must have been in the possession of the gentile for twelve months (during which the Jew might have had a chance to reclaim it as illegally seized; v., however, the objection, and subsequent emendation of <he>סיקריקין</he> for <he>א׳</he>, ibid.). ",
+				"<cite ref=\"Gittin 58b:7\">Ib.</cite> <he>אין א׳ בבבל</he> in Babylon (under the Persian government) there is no <i>anparuth</i>, (which is interpreted) <he>אין דין א׳ וכ׳</he> the laws concerning the purchase by a Jew of property which a gentile had seized for forfeiture find no application in the well regulated Persian state because the owner might have gone to court, if he felt himself aggrieved. ",
+				"<cite ref=\"Tosefta Gittin 5:2\">Tosef. Gitt. V</cite> (<cite ref=\"Tosefta Gittin 3:2\">III</cite>), 2.—Pl. <he>אַנְפָּרִיּוֹת</he>. Y’lamd. Sh’laḥ. (quot. in Ar.) <he>אני נוטל מהן א׳ וכ׳</he> I (the Lord) take from them promises to pay in instalments (promises of amending their ways, repentance) and give them extension. Tanḥ. ",
+				"<cite ref=\"Tosefta Gittin 3:2\">ib.</cite>, end, a citizen was paying <i>annonæ</i> <he>וכותב א׳</he> and signing agreements of forfeiture; (<cite ref=\"Bamidbar Rabbah 17\">Num. R. s. 17</cite> <cite ref=\"A02730\"><he>אפכיות</he></cite>, v. <cite ref=\"A02619\"><he>אַפּוּכִי</he></cite>). [Ibid. s. 2 <he>אנפריאות</he>, v. <cite ref=\"A02270\"><he>אַנְפּוֹרָא</he></cite> pl.]"
+			],
+			"label": "2"
+		}
+	]
+}

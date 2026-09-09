@@ -1,0 +1,34 @@
+{
+	"id": "O01539",
+	"slug": "סרדותא",
+	"headword": {
+		"text": "סַרְדּוּתָא"
+	},
+	"page": {
+		"number": 1023,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01538\">preced. art.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>hunter’s net</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 1:50\">Targ. I Chr. I, 50</cite>; <cite ref=\"Targum Jerusalem, Genesis 36:39\">Targ. Y. II, Gen. XXXVI, 39</cite> (ed. Amst. <he>סַדְרִי׳</he>), v. <cite ref=\"M01054\"><he>מִטְרְדָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sail</i> (cmp. <cite ref=\"A01460\"><he>אִסְטְרִידָא</he></cite>).—Pl. <he>סַרְדְּוָותָא</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 4:7:2\">Y. B. Mets. IV, end, 9ᵈ</cite> <he>הוה מפתר סַרְדְּוָותֵיה</he> steeped his sails in water (to improve their appearance)."
+			],
+			"label": "2"
+		}
+	]
+}

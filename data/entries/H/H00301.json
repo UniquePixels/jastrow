@@ -1,0 +1,49 @@
+{
+	"id": "H00301",
+	"slug": "חוטם",
+	"headword": {
+		"text": "חוֹטָם"
+	},
+	"page": {
+		"number": 431,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00637\"><he>חטם</he></cite>, v. <he>חתם</he>) [<i>seal, mark</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the distinctive feature of the face, nose, nostril</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yevamot 16:3\">Yeb. XVI, 3</cite> (<cite ref=\"Yevamot 120a\">120ᵃ</cite>) identification of a corpse can be established only <he>בפרצוף פנים עם הח׳</he> on seeing the face with the nose on. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 9:3:2\">Y. Sot. IX, 23ᶜ</cite> bot., v. <cite ref=\"E00521\"><he>הַכָּרָה</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 18\">Lev. R. s. 18</cite>, beg. <he>והירח זה הח׳</he> ‘the moon’ (<cite ref=\"Ecclesiastes 12:2\">Koh. XII, 2</cite>) is a metaphorical expression for the nose; <cite ref=\"Shabbat 151b:4\">Sabb. 151ᵇ</cite>; a. fr.—",
+				"<cite ref=\"Taanit 29a:14\">Taan. 29ᵃ</cite> <he>בעל הח׳</he> a disguise for <i>the well-known man</i>, v. <cite ref=\"B01148\"><he>בָּקַשׁ</he></cite>. [<cite ref=\"Jerusalem Talmud Shabbat 6:4:4\">Y. Sabb. VI, 8ᵇ</cite> bot. <he>חוטמה</he>, v. <cite ref=\"H00298\"><he>חוּט</he> III</cite>.]—2) <i>the oblate part of a spheric body</i>. ",
+				"<cite ref=\"Niddah 47a\">Nidd. 47ᵃ</cite>; <cite ref=\"Tosefta Niddah 6:4\">Tosef. ib. VI, 4</cite> <he>ראש הח׳</he> the top (central circle) of the oblate part of a female breast. ",
+				"<cite ref=\"Sukkah 35b:13\">Succ. 35ᵇ</cite> bot. <he>חוֹטְמוֹ</he> the oblate top of the Ethrog; Y. ib. III, 53ᵈ; a. fr.—Pl. <he>חוֹטְמִין</he>. ",
+				"<cite ref=\"Tosefta Niddah 4:10\">Tosef. Nidd. IV, 10</cite> <he>שני חוֹטְמָיו</he> the indications of the two nostrils of the embryo; <cite ref=\"Niddah 25a:59\">Nidd. 25ᵃ</cite> <he>חוטמין</he> (read <he>חוטמין</he>); <cite ref=\"Vayikra Rabbah 14\">Lev. R. s. 14</cite> (<cite ref=\"Jerusalem Talmud Niddah 3:3:5\">Y. Nidd. III, 50ᵈ</cite> <he>נקובי חוטמו</he>). ",
+				"<cite ref=\"Bekhorot 39a:9\">Bekh. 39ᵃ</cite> <he>ניקבו ח׳ וכ׳</he> if the partitions of the nostrils are perforated into one another.—Trnsf. "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>snout</i>. Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 3:2\">Midd. III, 2</cite> (Mish. some ed. <cite ref=\"H00293\"><he>חוטין</he></cite>, incorr.). ",
+				"<cite ref=\"Mishnah Sukkah 4:9\">Succ. IV, 9</cite> (<cite ref=\"Sukkah 48b:1\">48ᵇ</cite>) <he>ומנוקבין כמין שני ח׳</he> the two bowls had cavities (outlets) like two slender snouts, v. <cite ref=\"D01014\"><he>דָּקַק</he></cite> (v. Rashi a. l.)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>the knotted strappings of a shoe</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 12:12\">Tosef. Sabb. XII</cite> (<cite ref=\"Tosefta Shabbat 13:14\">XIII</cite>), 14 (cmp. <cite ref=\"H01665\"><he>חַרְטוּמָא</he></cite>)."
+			],
+			"label": "4"
+		}
+	]
+}

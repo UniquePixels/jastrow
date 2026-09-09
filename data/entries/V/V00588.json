@@ -1,0 +1,23 @@
+{
+	"id": "V00588",
+	"slug": "תליא",
+	"headword": {
+		"text": "תַּלְיָא"
+	},
+	"page": {
+		"number": 1671,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00587\">preced.</cite>) <i>hook, string</i> (for suspending). ",
+			"units": [
+				"<cite ref=\"Shabbat 140b:3\">Sabb. 140ᵇ</cite>, v. <cite ref=\"V00565\"><he>תָּלָא</he></cite>. ",
+				"<cite ref=\"Chullin 59a:3\">Ḥull. 59ᵃ</cite> <he>מתעקר ת׳ דליביה</he> the cord on which his heart hangs (the pericardium) will break."
+			]
+		}
+	]
+}

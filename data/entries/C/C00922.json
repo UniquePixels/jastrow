@@ -1,0 +1,35 @@
+{
+	"id": "C00922",
+	"slug": "גלח-2",
+	"headword": {
+		"text": "גְּלַח"
+	},
+	"page": {
+		"number": 247,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. Pa. <cite ref=\"C00921\"><he>גַּלַּח</he></cite> same. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 13:33\">Targ. O. Lev. XIII, 33</cite>; a. fr.—",
+				"<cite ref=\"Moed Katan 17b:6\">M. Kat. 17ᵇ</cite> <he>איבעי ליה לגַלּוּחֵי וכ׳</he> he ought to have his hair cut &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְגַּלַּח", "אִיגַּלַּח"],
+			"senses": [
+				{
+					"gloss": "<i>to have one’s hair cut</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 16:17\">Targ. Jud. XVI, 17</cite>; <cite ref=\"Targum Jonathan on Judges 16:22\">22</cite>.—",
+						"<cite ref=\"Shabbat 110b\">Sabb. 110ᵇ</cite> <he>לִיגַּלַּח וכ׳</he> let him have the middle part of his head shaved."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

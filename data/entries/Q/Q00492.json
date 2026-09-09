@@ -1,0 +1,23 @@
+{
+	"id": "Q00492",
+	"slug": "פחתי",
+	"headword": {
+		"text": "פַּחֲתֵי"
+	},
+	"page": {
+		"number": 1154,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"Q00451\"><he>פֶּחָה</he></cite>) <i>noblemen</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 3b:1\">Sabb. 3ᵇ</cite>; <cite ref=\"Berakhot 13b:18\">Ber. 13ᵇ</cite>, a. fr. <cite ref=\"Q00798\"><he>בר פ׳</he></cite> (R. Ḥiya addressing Rab) son of great ancestors (Var. in Ar. <cite ref=\"Q00035\"><he>פַּאֲתֵי</he></cite>; <cite ref=\"Jerusalem Talmud Beitzah 4:3:6\">Y. Bets. IV, 62ᶜ</cite> <he>בן פֶּיחָה</he>)."
+			]
+		}
+	]
+}

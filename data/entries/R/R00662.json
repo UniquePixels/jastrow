@@ -1,0 +1,75 @@
+{
+	"id": "R00662",
+	"slug": "צער-2",
+	"headword": {
+		"text": "צְעֵר"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְעֵיר"
+		}
+	],
+	"page": {
+		"number": 1294,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00661\">same</cite>; (act. verb) <cite ref=\"R00664\"><he>צְעַר</he></cite> [<i>to diminish</i>,] <i>disregard, shame, curse</i> (cmp. <he>גדף</he>, <cite ref=\"H01334\"><he>חסד</he></cite>). Targ. II Esth. II, 5 (transl. of <he>תקלל</he>, <cite ref=\"Exodus 22:27\">Ex. XXII, 27</cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 30:11\">Targ. Prov. XXX, 11</cite> <he>נִיצְעֵיר</he> ed. Lag. (oth. ed. <he>נִצְעַר</he>; ed. Wil. <he>נְצַעֵר</he> <i>Pa.</i>; h. text <he>קלל</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 30:10\">Ib. 10</cite> <he>נִיצְעֲרִיךְ</he> ed. Lag. (oth. ed. <he>נְצַעֲרִינָךְ</he>, <i>Pa.</i>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צַעֵיר", "צָעֵר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"R00661\">same</cite>, v. supra.—",
+					"units": [
+						"<cite ref=\"Megillah 28a\">Meg. 28</cite> <cite ref=\"R00661\">same</cite>, v. supra.—",
+						"<cite ref=\"Megillah 28a\">Meg. 28ᵃ</cite> when going to bed he used to pray, <he>שרא … לכל מאן דצַעֲרָן</he> the Lord forgive every one that may have insulted me."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to afflict, grieve, trouble</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 26:6\">Targ. Y. Deut. XXVI, 6</cite> (not <he>צעד׳</he>). ",
+						"<cite ref=\"Aramaic Targum to Job 18:4\">Targ. Job XVIII, 4</cite>; a. fr.—",
+						"<cite ref=\"Berakhot 10a:2\">Ber. 10ᵃ</cite> <he>הוו קא מְצַעֲרֵי ליה טובא</he> they annoyed him exceedingly. ",
+						"<cite ref=\"Berakhot 27b:20\">Ib. 27ᵇ</cite> <he>עד כמה נצַעֲרִיה וניזיל</he> how long shall he go on vexing him? <cite ref=\"Nazir 23b:12\">Naz. 23ᵇ</cite>; <cite ref=\"Horayot 10b\">Hor. 10ᵇ</cite> sq. (ref. to <cite ref=\"Deuteronomy 2:9\">Deut. II, 9</cite>) <he>מלחמה הוא דלא הא צַעוּרֵי צֵעֲרִינְהוּ</he> war you must not wage (against Moab), but you may afflict them (put them under tribute); <he>אפי׳ צַעוּרֵי לא</he> you must not even afflict them (the Ammonites); (<cite ref=\"Bava Kamma 38b:5\">B. Kam. 38ᵇ</cite> <he>עביד בהו אנגריא</he>). Y. Snh. I, 18ᶜ bot. <he>כן … לצעורי וכ׳</he> is that your custom, to trouble your teacher? <cite ref=\"Chullin 95a:5\">Ḥull. 95ᵃ</cite> <he>לצַעוּרֵיה</he>, v. <cite ref=\"K00296\"><he>כּוּן</he></cite> ch.; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to grieve, take pains</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 18b:4\">Ber. 18ᵇ</cite> <he>הוו מְצַעֲרֵי לאדכוריה</he> they took pains (in vain) to recall (what they had learned; Ms. M. <he>הוו יתבי ומִצְטַעֲרֵי</he> they sat and grieved; v. Rabb. D. S. a. l. note)."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִצְטַעֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to suffer, grieve, be vexed, troubled</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 11:1\">Targ. Y. Num. XI, 1</cite> (h. text <he>מתאננ׳</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 7:15\">Targ. Ps. VII, 15</cite>; a. fr.—",
+						"<cite ref=\"Ketubot 104a:3\">Keth. 104ᵃ</cite> <he>חלץ … וקמִצְטַעֵר</he> he put his T’fillin off and put them on again, and was in pain. ",
+						"<cite ref=\"Shabbat 140b:18\">Sabb. 140ᵇ</cite> <he>עד דמִיצְטַעֲרָן</he> until they were vexed (by curiosity). ",
+						"<cite ref=\"Sukkah 52a\">Succ. 52ᵃ</cite>. ",
+						"<cite ref=\"Berakhot 18b:4\">Ber. 18ᵇ</cite> Ms. M, v. supra; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

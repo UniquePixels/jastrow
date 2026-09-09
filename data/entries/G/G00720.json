@@ -1,0 +1,26 @@
+{
+	"id": "G00720",
+	"slug": "זרנוקא",
+	"headword": {
+		"text": "זַרְנוּקָא"
+	},
+	"page": {
+		"number": 414,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<i>Parel</i> of <cite ref=\"G00583\"><he>זנק</he></cite>, cmp. <cite ref=\"G00405\"><he>זִיקָא</he> II</cite>) <i>leather bag, hose</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 119:83\">Targ. Ps. CXIX, 83</cite> (h. text <cite ref=\"N00008\"><he>נֹאד</he></cite>).—",
+				"<cite ref=\"Bava Metzia 103b:10\">B. Mets. 103ᵇ</cite> <he>דוולא וז׳</he> buckets and hose (for irrigation). ",
+				"<cite ref=\"Bava Batra 58a:13\">B. Bath. 58ᵃ</cite> <he>ז׳ אמרה לכו</he> (comment. <he>זרונקא</he>, Ms. O. <he>זרקונא</he>, corr. acc.) she means a hose (which had been made of the hide of the animal stolen from her). ",
+				"<cite ref=\"Bava Batra 167a:7\">Ib. 167ᵃ</cite> <he>קם אז׳</he> (some ed. <he>אזרונקא</he>, v. Rabb. D. S. a. l. note) he wrote standing on a hose (to imitate a trembling hand-writing).—Pl. <he>זַרְניּקין</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 32:19\">Targ. Job XXXII, 19</cite> Ar. (ed. <he>לגינין</he>, insert <cite ref=\"E00374\"><he>היך</he></cite>)."
+			]
+		}
+	]
+}

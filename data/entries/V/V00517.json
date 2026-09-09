@@ -1,0 +1,35 @@
+{
+	"id": "V00517",
+	"slug": "תישוע",
+	"headword": {
+		"text": "תִּישּׁוּעַ"
+	},
+	"page": {
+		"number": 1667,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V01104\"><he>תּשַׁע</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>nine-tenths</i>; ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>one-ninth</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 7:6:7\">Y. Dem. VII, 26ᶜ</cite> top <he>נוטל שני תישועין ות׳ של ת׳ וכ׳</he> he takes twice nine-tenths (of ten), and one-ninth of nine-tenths, which makes ten for the first tithe, and nine for the second. But why not say ‘nineteen’? Said R. Z., ‘the words of the wise and their riddles’. ",
+				"<cite ref=\"Jerusalem Talmud Demai 7:6:7\">Ib.</cite> [read:] <he>הרוצה להכניס … נוטל על כל תאינה ותאינה שני תישועין ות׳ של ת׳ שהן עשרים ושלש וארבעה תישועין של תאינח</he> he who wishes to bring into his house one hundred figs available for use, must count for each fig (an addition of) two-ninths and one-ninth of one-ninth, which makes (an addition of) twenty-three figs and four-ninths of a fig (23, and 4/9 as nearest to 37/81).—Pl. <he>תִּישּׁוּעִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Demai 7:6:7\">Ib.</cite> ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 2:5:2\">Y. Erub. II, 20ᵇ</cite> <he>צא מהן ארבעה ת׳ … נשתייר שם תשעח עשר תלתותין חסר תשוע</he> (not <he>תלתולין</he>) deduct (from 6 2/3) four-ninths for the four sides, and there remain nineteen thirds less one-ninth (= 6 2/9)."
+			],
+			"label": "2"
+		}
+	]
+}

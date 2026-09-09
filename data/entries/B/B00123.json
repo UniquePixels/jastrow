@@ -1,0 +1,22 @@
+{
+	"id": "B00123",
+	"slug": "בדוקא",
+	"headword": {
+		"text": "בָּדוּקָא"
+	},
+	"page": {
+		"number": 139,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בדק</he>) <i>searching, penetrating</i>.—Pl. <he>בְּדוּקַיָּא בְּדוֹ׳</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 5:19\">Targ. Y. Num. V, 19</cite>; a. e."
+			]
+		}
+	]
+}

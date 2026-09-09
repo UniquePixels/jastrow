@@ -1,0 +1,23 @@
+{
+	"id": "I00856",
+	"slug": "טרסקלין",
+	"headword": {
+		"text": "טְרַסְקְלִין"
+	},
+	"page": {
+		"number": 555,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κάρταλον, v. <cite ref=\"I00855\">preced.</cite>) <i>a basket</i> (fiscellus) containing fodder, used <i>for muzzling</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 53a:12\">Sabb. 53ᵃ</cite> bot.; (Tosef. ib. IV (V) 5 <cite ref=\"S02121\"><he>קרסטלין</he></cite>, Var. <cite ref=\"S02007\"><he>קרטלין</he></cite>). ",
+				"<cite ref=\"Bava Metzia 90a:1\">B. Mets. 90ᵃ</cite> (Ms. M. <cite ref=\"S02119\"><he>קרסטילין</he></cite>, oth. Mss. <cite ref=\"S02121\"><he>קרסטלין</he></cite>, <cite ref=\"S01681\"><he>קסרטל</he></cite>, v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

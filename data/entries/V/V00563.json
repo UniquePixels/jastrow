@@ -1,0 +1,36 @@
+{
+	"id": "V00563",
+	"slug": "תל-1",
+	"headword": {
+		"text": "תֵּל"
+	},
+	"page": {
+		"number": 1670,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>תָּלַל</he>; cmp. <cite ref=\"D00841\"><he>דָּלַל</he></cite>)<i>hill, mound</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 14a:1\">Meg. 14ᵃ</cite> <he>לאחד … תל וכ׳</he> one had a mound in his field, and another had a trench. ",
+				"<cite ref=\"Megillah 14a:2\">Ib.</cite> <he>מכור לי תִּילְּךָ</he> sell me thy mound (to fill up my trench). ",
+				"<cite ref=\"Berakhot 30a:10\">Ber. 30ᵃ</cite>; <cite ref=\"Shir HaShirim Rabbah 4:4:8\">Cant. R. to IV, 4</cite>, v. <cite ref=\"Q00140\"><he>פֶּה</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 5:11:2\">Ib. to V, 11</cite> <he>יכולות … ולעשותו תל</he> they can ruin a world and make it a mound (ruin); a. fr.—Pl. <cite ref=\"V00451\"><he>תִּלִּים</he></cite>, <cite ref=\"V00452\"><he>תִּלִּין</he></cite>, <cite ref=\"V00014\"><he>תִּי׳</he></cite>. ",
+				"<cite ref=\"Menachot 29b:3\">Men. 29ᵇ</cite> <he>תִּילֵּי ת׳</he> (later ed. <he>תילין ת׳</he>), v. <cite ref=\"S00534\"><he>קוֹץ</he> I</cite>; Tanḥ. ",
+				"<cite ref=\"Genesis 1:1\">B’resh. 1</cite>; <cite ref=\"Eruvin 21b:24\">Erub. 21ᵇ</cite>. Cant. R. l. c. <he>תילי ת׳ הן</he> they are piles on piles (of ideas), v. <cite ref=\"S01115\"><he>קִיץ</he></cite> h.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"O01011\"><he>סלסל</he></cite>) <i>lock, curl.—Pl</i>. as ab. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 10:7\">Num. R. s. 10<sup>7</sup></cite> <he>מסודרות ת׳ ת׳</he>; <cite ref=\"Jerusalem Talmud Nedarim 1:1:14\">Y. Ned. I, 36ᵈ</cite> bot. <he>תילי ת׳</he>, v. <cite ref=\"S00265\"><he>קְווּצּוֹת</he></cite>; (Bab. ",
+				"<cite ref=\"Nedarim 9b\">ib. 9ᵇ</cite>, a. e. <cite ref=\"V00639\"><he>תלתלים</he></cite>); a. e.—<he>תל ארזא</he>, v. <cite ref=\"A03049\"><he>אַרְזָא</he></cite>.—[<cite ref=\"V00451\"><he>תִּלִּים</he></cite>, <cite ref=\"V00452\"><he>תִּלִּין</he></cite> <i>psalms</i>, v. <cite ref=\"V00126\"><he>תְּהִלָּה</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

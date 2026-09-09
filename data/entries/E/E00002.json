@@ -1,0 +1,25 @@
+{
+	"id": "E00002",
+	"slug": "ה-2",
+	"headword": {
+		"text": "הַ־"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֲ"
+		}
+	],
+	"page": {
+		"number": 327,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) an interrogative prefix. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 4:9\">Targ. O. Gen. IV, 9</cite>; a. e.—With <cite ref=\"L00003\"><he>לא</he></cite>, <cite ref=\"E00533\"><he>הֲלָא</he></cite> ch. (= b. h. <cite ref=\"E00533\"><he>הֲלֹא</he></cite>) <i>is it not?, behold, indeed</i>. ",
+				"<cite ref=\"Onkelos Genesis 4:7\">Targ. Gen. IV, 7</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"id": "I00249",
+	"slug": "טוש-2",
+	"headword": {
+		"text": "טוּשׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 527,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"I00140\"><he>טוּחַ</he> I</cite>) <i>to cover with a cohesive substance, to polish</i> (with a fatty matter); <i>to besmear, soil, pollute</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 30b\">Pes. 30ᵇ</cite>; <cite ref=\"Zevachim 95b\">Zeb. 95ᵇ</cite>, a. e. <he>אין טָשִׁין וכ׳</he> one must not polish the stove with &c. ",
+				"<cite ref=\"Tosefta Bava Kamma 9:31\">Tosef. B. Kam. IX, 31</cite> [in a misplaced passage, belonging after <he>שבידיו</he>; read:] <he>הרָק כנגד פני חבירו וטָשׁ פניו</he> (ref. to <cite ref=\"Isaiah 50\">Is. L</cite>, 6ᵇ) who spat into or besmeared his neighbor’s face; (cmp. Mish. ib. VIII, 6; Sifra Emor Par. 14, ch. XX)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טִשְׁטֵשׁ"],
+			"senses": [
+				{
+					"gloss": " (fr. <he>טָשַׁשׁ</he>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to make viscid, soften</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 22b:19\">Taan. 22ᵇ</cite> <he>מְטַשְׁטְשִׁין את הארץ</he> (the heavy rains) make the soil muddy and it yields no fruit; <cite ref=\"Yalkut Shimoni on Torah 671\">Yalk. Lev. 671</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to smear over, besmear</i>. Part. pass. <he>מְטוּשְׁטָשׁ</he>, pl. <he>מְטוּשְׁטָשִׁין</he>. ",
+					"units": [
+						"<cite ref=\"Pesachim 65b:4\">Pes. 65ᵇ</cite> <he>היו בגדיו מט׳</he> if his (the priest’s) garments were besmeared (with blood &c.); <cite ref=\"Zevachim 18a\">Zeb. 18ᵃ</cite>, sq.; <cite ref=\"Zevachim 35a\">ib. 35ᵃ</cite>.—",
+						"<cite ref=\"Megillah 18b:7\">Meg. 18ᵇ</cite> <he>אותיות מְטוּשְׁטָשׁוֹת</he> letters made illegible by being smeared over."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pilpel."
+		},
+		{
+			"forms": ["נִיטַּשְׁטֵשׁ"],
+			"senses": [
+				{
+					"gloss": ", <i>Hithpa.</i> <he>הִיטַּשְׁטֵשׁ</he> <i>to be smeared over, be dirty</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 168b:3\">B. Bath. 168ᵇ</cite> <he>נמחק או נט׳</he> if the writing was blotted out or blurred. ",
+						"<cite ref=\"Tosefta Keilim Metsia 4:13\">Tosef. Kel. B. Mets. IV, 13</cite> <he>נִטַּשְׁטְשָׁה</he> a metal mirror which became blurred (blind). ",
+						"<cite ref=\"Shabbat 81a\">Sabb. 81ᵃ</cite> <he>נִיטַּשְׁטְשׁוּ</he> Ms. M. (ed. <he>נשטש׳</he>, corr. acc.) the spots were washed away (became indistinct). ",
+						"<cite ref=\"Shir HaShirim Rabbah 8:9\">Cant. R. to VIII, 9</cite> a picture on a wall <he>אע״פ שמִטַּשְׁטֶשֶׁת</he> (prob. <he>שמְטוּשְׁטֶשֶׁת</he>, v. supra) even if it be smeared over."
+					]
+				}
+			],
+			"stem": "Nithpalp."
+		}
+	]
+}

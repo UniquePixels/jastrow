@@ -1,0 +1,44 @@
+{
+	"id": "C00577",
+	"slug": "גזרא-1",
+	"headword": {
+		"text": "גִּזְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּיזְרָא"
+		}
+	],
+	"page": {
+		"number": 232,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<b>, </b>I ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"C00576\">same</cite>, <i>piece; club</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 81b\">B. Kam. 81ᵇ</cite> <he>ג׳ דפרזלי</he> (Ms. H. a. F. <he>גְזִירֵי</he>, R. <he>גִיזְרֵי</he>), v. <cite ref=\"C00574\"><he>גְּזַר</he></cite>.—Pl. <cite ref=\"C00550\"><he>גְּזִי׳</he></cite>, <he>גִּזְרִין</he>, <he>גִּזְרֵי</he>, <cite ref=\"C00520\"><he>גִּיזְ׳</he></cite> (v. <cite ref=\"C00576\">preced.</cite>). ",
+				"<cite ref=\"Targum Jonathan on I Kings 3:25\">Targ. I Kings III, 25</cite> <he>לתרין ג׳</he> (ed. Lag. only <he>לתרין</he>) into two pieces (h. text <he>לשנים</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>what is to be cut</i> (h. <cite ref=\"P01387\"><he>עָרְלָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 19:23\">Targ. Y. Lev. XIX, 23</cite>, v. <cite ref=\"C00574\"><he>גְּזר</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"C00581\"><he>גְּזֵרָה</he></cite>) <i>a guard</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 54b:8\">Sabb. 54ᵇ</cite> <he>דעבדו ליה לגי׳</he> (a strap on the foot of the ass) which is put on him as a guard (against knocking the feet against one another)."
+			],
+			"label": "3"
+		}
+	]
+}

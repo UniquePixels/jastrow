@@ -1,0 +1,31 @@
+{
+	"id": "U01015",
+	"slug": "שיפול",
+	"headword": {
+		"text": "שִׁיפּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁפּ׳"
+		}
+	],
+	"page": {
+		"number": 1566,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01771\"><he>שָׁפַל</he></cite>) <i>lower part, extremity.—</i>Pl. <he>שִׁיפּוּלִים</he>, <cite ref=\"U01014\"><he>שִׁיפּוּלִין</he></cite>, <cite ref=\"U01011\"><he>שִׁפּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 9</cite> (expl. <he>בשוליה</he>, <cite ref=\"Eichah Rabbah 1\">ib.</cite>) <he>בשִׁיפּוּלֶיהָ</he> on her skirts. ",
+				"<cite ref=\"Shabbat 98b:10\">Sabb. 98ᵇ</cite> <he>לאשה … ושפוליה וכ׳</he> like a woman that walks in the street, and her train drags behind her. ",
+				"<cite ref=\"Tosefta Ohalot 13:9\">Tosef. Ohol. XIII, 9</cite> <he>שִׁיפּוּלֵי אוהלין</he> the train of tents; (Ohol. VII, 2, v. <cite ref=\"U01019\"><he>שִׁיפּוּעַ</he></cite>); a. e.—שיפולי מעים <i>the lower part of the abdomen</i>. ",
+				"<cite ref=\"Mishnah Niddah 9:8\">Nidd. IX, 8</cite> contrad. to <cite ref=\"K01243\"><he>כרס</he></cite>. ",
+				"<cite ref=\"Yevamot 80b:6\">Yeb. 80ᵇ</cite> <he>כל שאין לה ש׳ מ׳ כנשים</he> a woman the formation of whose lower abdomen is not that usual with women."
+			]
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"id": "H00176",
+	"slug": "חדד-2",
+	"headword": {
+		"text": "חֲדַד"
+	},
+	"page": {
+		"number": 425,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00175\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 41:22\">Targ. Job XLI, 22</cite>. [<cite ref=\"Targum Jonathan on Deuteronomy 1:44\">Targ. Y. I Deut. I, 44</cite> <he>דחַדְדָן</he> which <i>sting;</i> some ed. <he>דחדרן</he>, v. <cite ref=\"H00213\"><he>חֲדַר</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַדֵּד"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"H00175\">preced.</cite> <i>Pi.</i> ",
+					"units": [
+						"<cite ref=\"Shabbat 32a:2\">Sabb. 32ᵃ</cite> (prov.) <he>נפל תורא חַדְּדֵיה לסכינא</he> Ms. M. (ed. <he>חדד</he>, Ms. O. <he>חַדְּדוּ</he>) when the ox is thrown down, sharpen the knife (in critical moments man’s sins are visited, v. <cite ref=\"H00164\"><he>חִגְּרָא</he></cite>). ",
+						"<cite ref=\"Chullin 43b\">Ḥull. 43ᵇ</cite>, a. fr. <he>לחַדּוּדֵי וכ׳</he> to try Abbayis’ acumen.—<i>Part. pass.</i> <he>מְחַדַּד</he> <i>ready in answering questions, well-versed, quick</i> (v. <cite ref=\"H00175\">preced.</cite>). ",
+						"<cite ref=\"Eruvin 13b:5\">Erub. 13ᵇ</cite> <he>האי דמְחַדַּדְנָא מחבירי</he> Ms. M. (ed. <he>מחבריא</he>) the reason that I am readier than my fellow-students. ",
+						"<cite ref=\"Yevamot 14a:4\">Yeb. 14ᵃ</cite> <he>ב״ש מְחַדְּדֵי טפי</he> those of the school of Sh. were more acute. ",
+						"<cite ref=\"Niddah 14b:27\">Nidd. 14ᵇ</cite> <he>מחדדי שמעתתיה</he> (read: <he>מְחַדְּדָן</he>), v. infra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cheer up, entertain</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 68b:14\">Gitt. 68ᵇ</cite>, v. <cite ref=\"H00189\"><he>חַדְוְותָא</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתְחַדַּד"],
+			"senses": [
+				{
+					"gloss": "<i>to be well studied, ready at hand</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 62b:4\">Keth. 62ᵇ</cite> [read:] <he>מִתְחַדְּדָן שמעתתיה</he> (Rashi: <he>מחדדן</he>) he recited his lessons (traditions) well."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

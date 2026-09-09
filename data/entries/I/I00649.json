@@ -1,0 +1,35 @@
+{
+	"id": "I00649",
+	"slug": "טפיח-2",
+	"headword": {
+		"text": "טְפִיחַ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 547,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., (v. <cite ref=\"I00638\"><he>טָפַח</he> II</cite>, 2) ",
+			"units": []
+		},
+		{
+			"gloss": " pl. <he>טְפִיחִים</he>, <he>טְפִיחִין</he> <i>stinted, poor grains</i>; [another opinion: (v. <cite ref=\"I00636\"><he>טָפַח</he> I</cite>, a. cmp. <cite ref=\"O01354\"><he>סָפִיחַ</he></cite>) <i>growth between grass</i>]. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 9:4\">Shebi. IX, 4</cite>. Y. ib. 39ᵃ top <he>טפחין</he>; <cite ref=\"Tosefta Shevi'it 7:15\">Tosef. ib. VII, 15</cite> <cite ref=\"T00503\"><he>רחיפין</he></cite> ed. Zuck. (Var. <he>רפיחין</he>, <he>ספיחין</he>). [<cite ref=\"Tosefta Tevul Yom 1:1\">Tosef. T’bul Yom. I, 1</cite>, sq., v. <cite ref=\"I00200\"><he>טוֹפַח</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (sub. <cite ref=\"T00872\"><he>רעב</he></cite>) <i>one looking like those who suffer from the effects of famine, yellowish-black</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 45b:8\">Bekh. 45ᵇ</cite> <he>שחור … יצא מהן טָפוּחַ</he> ed. (Rashi <cite ref=\"I00648\"><he>טפיח</he></cite>) a very dark-complected man must not marry an equally complected woman, lest their offspring may be a <i>t’fiaḥ</i>; [Rashi: <i>black as a pitcher</i>, v. <cite ref=\"I00648\"><he>טְפִיחַ</he> I</cite>]."
+			],
+			"label": "2"
+		}
+	]
+}

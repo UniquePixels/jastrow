@@ -1,0 +1,23 @@
+{
+	"id": "H01230",
+	"slug": "חמרת",
+	"headword": {
+		"text": "חַמֶּרֶת"
+	},
+	"page": {
+		"number": 480,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01226\"><he>חַמָּר</he></cite>) <i>a company of ass-drivers, caravan</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 10:5\">Snh. X, 5</cite> (<cite ref=\"Sanhedrin 111b\">111ᵇ</cite>); <cite ref=\"Bava Batra 8a\">B. Bath. 8ᵃ</cite>. ",
+				"<cite ref=\"Tosefta Demai 1:10\">Tosef. Dem. I, 10</cite> (contrad. to <he>חַמָּר אהד</he>); Y. ib. I, 22ᵃ bot. (incorr. version)."
+			]
+		}
+	]
+}

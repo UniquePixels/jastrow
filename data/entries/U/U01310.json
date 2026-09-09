@@ -1,0 +1,40 @@
+{
+	"id": "U01310",
+	"slug": "שליחות",
+	"headword": {
+		"text": "שְׁלִיחוּת"
+	},
+	"page": {
+		"number": 1583,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01265\"><he>שָׁלח</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " <he>ש׳ רד</he> (v. <cite ref=\"U01265\"><he>שָׁלַח</he></cite>) <i>illegitimate use of a deposit, misappropriation</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 43b:3\">B. Mets. 43ᵇ</cite> <he>ש׳ יד אינה צריכה חסרון</he> use of a deposit does not require damage (in order to make the depositary responsible for losses for which he could otherwise not be made responsible). ",
+				"<cite ref=\"Kiddushin 42b:10\">Kidd. 42ᵇ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>message, agency, commission</i>. Ib. 41ᵃ <he>ש׳ מנלן</he> whence do we derive the law of agency (in betrothal)? Ib. 42ᵃ <he>קטנים לאו בני ש׳ וכ׳</he> minors cannot serve as deputies. ",
+			"units": [
+				"<cite ref=\"Mishnah Meilah 6:1\">Meïl. VI, 1</cite>, a. e. <he>השליח שעשה שְׁלִיחוּתוֹ וכ׳</he> if the agent has carried out his commission (exactly as he was told), the owner is guilty of misappropriation (v. <cite ref=\"M02125\"><he>מָעַל</he></cite>). ",
+				"<cite ref=\"Meilah 20b:30\">Ib. 20ᵇ</cite> <he>מוסיף על שליחותו</he> if the agent adds an act of his own to that for which he was commissioned. ",
+				"<cite ref=\"Vayikra Rabbah 22:1\">Lev. R. s. 22</cite> <he>אם אין … שְׁלִיחוּתִי וכ׳</he> if you (prophets) do not convey my message, I have (other) messengers. ",
+				"<cite ref=\"Bereishit Rabbah 50:2\">Gen. R. s. 50</cite> (ref. to <cite ref=\"Genesis 18:2\">Gen. XVIII, 2</cite>, a. ",
+				"<cite ref=\"Genesis 19:1\">XIX, 1</cite>) <he>עד שלא עשו שְׁלִיחוּתָן קראן וכ׳</he> before they carried out their message, the text calls them men, when they did carry it out, it calls them messengers (angels); a. fr.—Pl. <cite ref=\"U01310\"><he>שְׁלִיחוֹת</he></cite> (fr. <cite ref=\"U01309\"><he>שְׁלִיחָה</he></cite>). ",
+				"<cite ref=\"Genesis 19:1\">Ib.</cite>; Yalk. ib. 84; <cite ref=\"Yalkut Shimoni on Nach 908:9-16\">Yalk. Job 908</cite> <he>אין … שתי ש׳</he> one angel never carries two messages."
+			],
+			"label": "2"
+		}
+	]
+}

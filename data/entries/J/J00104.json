@@ -1,0 +1,25 @@
+{
+	"id": "J00104",
+	"slug": "ידיעה",
+	"headword": {
+		"text": "יְדִיעָה"
+	},
+	"page": {
+		"number": 564,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00106\"><he>יָדַע</he></cite>) <i>knowledge</i>, esp. (<cite ref=\"Leviticus 4:14\">Lev. IV, 14</cite>; <cite ref=\"Leviticus 4:23\">23</cite>; <cite ref=\"Leviticus 4:28\">28</cite>) <i>finding out, discovery, consciousness</i>. ",
+			"units": [
+				"<cite ref=\"Shevuot 5a:13\">Shebu. 5ᵃ</cite>, a. e. <he>יְרִיעַת בית רבו שמה י׳</he> the knowledge acquired in the teacher’s house (a theoretical knowledge that one who touches an unclean thing becomes unclean &c.) is also called a knowledge (as regards the applicability of the verb <cite ref=\"P00820\"><he>נעלם</he></cite>). ",
+				"<cite ref=\"Mishnah Keritot 4:2\">Ker. IV, 2</cite> <he>אם היתה י׳ בנתיים</he> if there was consciousness between the two acts (if he found out his first transgression before committing the second). ",
+				"<cite ref=\"Mishnah Shevuot 1:2\">Shebu. I, 2</cite> <he>י׳ בתחלה וי׳ בסוף והעלם בנתיים</he> original consciousness (knowing that he became unclean) and final consciousness (finding out that he had eaten sacred things in uncleanness) but forgetfulness between. ",
+				"<cite ref=\"Horayot 2a\">Hor. 2ᵃ</cite>, a. fr. <he>השב מִידִיעָתוֹ</he> he who regrets when he finds out his transgression; a. fr.—Pl. <he>יְדִיעוֹת</he>. Sheb. I, 1 <he>י׳ הטומאה</he> the laws concerning the discovery of having sinned through uncleanness; <cite ref=\"Mishnah Horayot 2:1\">ib. II, 1</cite>; a. fr."
+			]
+		}
+	]
+}

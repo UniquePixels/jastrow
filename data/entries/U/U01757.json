@@ -1,0 +1,26 @@
+{
+	"id": "U01757",
+	"slug": "שפיר-1",
+	"headword": {
+		"text": "שְׁפִיר"
+	},
+	"page": {
+		"number": 1616,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שפר</he>; cmp. <cite ref=\"U00509\"><he>שׁוֹפָר</he></cite> 2, a. <cite ref=\"U01724\"><he>שְׁפוֹפֶרֶת</he></cite>) <i>membraneous bag, sac of a fœtus</i>; in gen. <i>fœtus</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 3:3\">Nidd. III, 3</cite> <he>המפלת ש׳ מלא וכ׳</he> if a woman discharges a sac full of water &c. ",
+				"<cite ref=\"Vayikra Rabbah 14:3\">Lev. R. s. 14</cite>; <cite ref=\"Jerusalem Talmud Niddah 3:3:1\">Y. Nidd. III, 50ᵈ</cite> top (ref. to <cite ref=\"Job 38:9\">Job XXXVIII, 9</cite>) <he>לבושו זה הש׳ וכ׳</he> ‘its garment’ means the sac, ‘its swaddling band’, the placenta. ",
+				"<cite ref=\"Job 38:9\">Ib.</cite> <he>ש׳ מרוקם</he> a fœtus having an articulated shape, v. <cite ref=\"T01075\"><he>רָשׁוֹן</he></cite>; Bab. ",
+				"<cite ref=\"Niddah 25a:54\">Nidd. 25ᵃ</cite> <he>ש׳ שאינו מרוקם</he> a shapeless fœtus. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 7:2:3\">Y. Naz. VII, 56ᵇ</cite> I have seen <he>עגל כאפון בש׳</he> the embryo of a calf, of the size of a bean, in a bag; a. fr."
+			]
+		}
+	]
+}

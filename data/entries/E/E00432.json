@@ -1,0 +1,31 @@
+{
+	"id": "E00432",
+	"slug": "הימנותא",
+	"headword": {
+		"text": "הֵימָנוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֵימָנוּ"
+		}
+	],
+	"page": {
+		"number": 347,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"E00428\"><he>הימן</he></cite>) <i>trust, confidence, faith</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 15:6\">Targ. Y. Gen. XV, 6</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 15b\">B. Mets. 15ᵇ</cite>, a. fr. <he>דליקו</he> (<he>דליקום</he>) <he>בהֵימָנוּתֵיה</he> to keep up his reputation for honesty (his credit). ",
+				"<cite ref=\"Bava Metzia 86b:18\">Ib. 86ᵇ</cite> <he>לית ה׳ בעבדי</he> no reliance can be placed on servants.—As an affirmation: <i>faith! on my word!</i> <cite ref=\"Nedarim 49b:9\">Ned. 49ᵇ</cite> <he>ה׳ בידא וכ׳</he> my word in the hand of this woman, i.e. I pledge thee my word. ",
+				"<cite ref=\"Sanhedrin 38b:20\">Snh. 38ᵇ</cite> <he>ה׳ בידך</he> Ms. M. I assure thee (ed. <he>ה׳ בידן</he> we have the evidence in our hands).—",
+				"<cite ref=\"Shabbat 10b:3\">Sabb. 10ᵇ</cite> <he>שרי למימר ה׳ וכ׳</he> it is permitted to say ‘faith!’ in an unclean place, v. <cite ref=\"E00428\"><he>הֵימַן</he></cite>."
+			]
+		}
+	]
+}

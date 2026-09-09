@@ -1,0 +1,32 @@
+{
+	"id": "I00069",
+	"slug": "טבלא-3",
+	"headword": {
+		"text": "טַבְלָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טַבְלָה"
+		}
+	],
+	"page": {
+		"number": 518,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (tabula, tabella, τάβλα) <i>plank, board, tablet for writing; book of accounts, list; will</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 4:8\">Erub. IV, 8</cite> (<cite ref=\"Eruvin 49b:8\">49ᵇ</cite>) <he>כטבלה מרובעת</he> (Talm. ed. <he>כטבלא</he>) like a square tablet. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 2:8\">R. Hash. II, 8</cite> (<cite ref=\"Rosh Hashanah 24a\">24ᵃ</cite>) <he>על הט׳ בכותל</he> Ms. M. (ed. <he>בט׳ ובכותל</he>, v. Rabb. D. S. a. l. note) (drawings of the phases of the moon) on a tablet on the wall. ",
+				"<cite ref=\"Gittin 20a:11\">Gitt. 20ᵃ</cite> <he>כתב שע״ג ט׳ ופינקס</he> writing (of manumission) on a tablet or on a board (account book or will, v. Treat. ‘Ăbadim, ed. Kirchh. ch. III, Rev. des Etudes Juives 1883, p. 150). Y. Snh. I, 18ᵈ bot. <he>ט׳ של רפואות</he> list of (superstitious) remedies (<cite ref=\"Pesachim 56a:2\">Pes. 56ᵃ</cite> <he>ספר וכ׳</he>); a. fr.—[<cite ref=\"Jerusalem Talmud Beitzah 1:7:2\">Y. Bets. I, 60ᶜ</cite> bot. <he>טבלה ברייתא וכ׳</he> (read <he>טַבְלָתָה</he> <i>pl.</i>) the outside stone plates of the colonnade of Asi.]—<i>Pl.</i> <he>טַבְלָאוֹת</he>, <he>טַבְלָיוֹת</he>. Y. B. Bath. VI, 14ᶜ bot. <he>ט׳ של שיש וכ׳</he> polished marble plates for walls. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 426:1\">Yalk. Ex. 426</cite> <he>ונראין ט׳ ט׳ וכ׳</he> and they appeared like marked off squares surrounding &c. ",
+				"<cite ref=\"Pesachim 57a:6\">Pes. 57ᵃ</cite> <he>ט׳ של זהב</he> gold plates.—Chald. pl. <he>טַבְלָתָה</he>, v. supra."
+			]
+		}
+	]
+}

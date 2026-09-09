@@ -1,0 +1,28 @@
+{
+	"id": "A01289",
+	"slug": "איליאוס",
+	"headword": {
+		"text": "אִילִיאוֹס",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אִילְיוֹס"
+		}
+	],
+	"page": {
+		"number": 49,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἥλιος) <i>Sun</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15\">Ex. R. s. 15</cite>. [The words from <cite ref=\"O01189\"><he>סנדריאוס</he></cite> to <he>אורח</he> are a marginal gloss, prob. to be emended: (<he>אלכ</he>) <he>סנדרוס איוס איליאו היה שמו והשמש וכ׳</he> Ἀλέξανδρος ὑιὸς Ἡλίου (Alexander the son of Helios) was his name, and the Sun is called a hero &c.]"
+			]
+		}
+	]
+}

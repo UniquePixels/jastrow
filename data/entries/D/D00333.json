@@ -1,0 +1,23 @@
+{
+	"id": "D00333",
+	"slug": "דוקינר",
+	"headword": {
+		"text": "דּוּקִינָר"
+	},
+	"page": {
+		"number": 288,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ducenarius, δουκηνάριος S.) <i>commander, procurator</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:1:7\">Y. Ab. Zar. I, 39ᵇ</cite> (Bab. ",
+				"<cite ref=\"Avodah Zarah 6b\">ib. 6ᵇ</cite> <cite ref=\"M01210\"><he>מינאה</he></cite>)."
+			]
+		}
+	]
+}

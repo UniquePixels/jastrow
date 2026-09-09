@@ -1,0 +1,33 @@
+{
+	"id": "K00129",
+	"slug": "כדיי-2",
+	"headword": {
+		"text": "כְּדָיי",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּדַי"
+		},
+		{
+			"text": "כְּדַאי",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 614,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00128\">preced.</cite>) <i>sufficiency, worthiness</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sotah 3:19\">Tosef. Sot. III, 19</cite> <he>אין כְּדַיי באי העולם וכ׳</he> human beings are not worthy for me to live among them; (<cite ref=\"Bamidbar Rabbah 9:36\">Num. R. s. 9</cite> <he>אין באי … כְּדָאִין</he>, a. <cite ref=\"K00102\"><he>כְּדַאי</he></cite>, v. <cite ref=\"K00128\">preced.</cite>).—",
+				"<cite ref=\"Bereishit Rabbah 46:3\">Gen. R. s. 46</cite>, v. <cite ref=\"A01787\"><he>אֱלָהוּת</he></cite>."
+			]
+		}
+	]
+}

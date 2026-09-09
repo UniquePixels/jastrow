@@ -1,0 +1,30 @@
+{
+	"id": "D00086",
+	"slug": "דברית",
+	"headword": {
+		"text": "דַּבָּרִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּבָּרִיתָא"
+		},
+		{
+			"text": "דַּבְּרַיְיתָא"
+		}
+	],
+	"page": {
+		"number": 279,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"D00079\"><he>דַּבָּר</he></cite>) <i>leader</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 22:14\">Midr. Till. to Ps. XXII, 6</cite>; <cite ref=\"Yalkut Shimoni on Nach 42:9\">Yalk. Jud. 42</cite>; <cite ref=\"Yalkut Shimoni on Nach 686:1\">Yalk. Ps. 686</cite> (play on <cite ref=\"D00051\"><he>דבורה</he></cite>) <he>חשיך דרא דאתתא ד׳</he> poor is the generation whose leader is a woman."
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "K01177",
+	"slug": "כרישא",
+	"headword": {
+		"text": "כָּרֵישָׁא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּרֵישָׁה"
+		}
+	],
+	"page": {
+		"number": 667,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"K01176\">preced.</cite>; cmp. <cite ref=\"K01275\"><he>כַּרְשִׁינָה</he></cite>) <i>leek</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:5\">Sabb. VIII, 5</cite> (<cite ref=\"Shabbat 80b:6\">80ᵇ</cite>) <he>כדי לזבל כ׳</he> as much manure as is required for one leek plant. Y. ib. VII, 9ᵈ bot. <he>כדי ליטע כרישה</he> as much space as is required for planting one leek. ",
+				"<cite ref=\"Mishnah Makhshirin 1:5\">Makhsh. I, 5</cite>; <cite ref=\"Tosefta Makhshirin 1:5\">Tosef. ib. I, 5</cite>.—Pl. <he>כָּרֵישִׁים</he>, <he>כָּרֵישִׁין</he>. ",
+				"<cite ref=\"Mishnah Kilayim 1:2\">Kil. I, 2</cite> <he>כ׳ וכְרֵישֵׁי שדה וכ׳</he> (garden) leek and field-leek … are not heterogeneous, v. <cite ref=\"K00674\"><he>כִּלְאַיִם</he></cite>. ",
+				"<cite ref=\"Tosefta Shabbat 15:14\">Tosef. Sabb. XV</cite> (<cite ref=\"Tosefta Shabbat 16:14\">XVI</cite>), 14 <he>גוזזין לו כ׳</he> ed. Zuck. (Var. <he>כרשינן</he>) we may cut leek for him (on the Sabbath, as a remedy for a serpent’s bite). ",
+				"<cite ref=\"Mishnah Nedarim 6:9\">Ned. VI, 9</cite>; <cite ref=\"Tosefta Nedarim 3:6\">Tosef. ib. III, 6</cite>; Y. ib. VI, 39ᵈ bot., v. <cite ref=\"S01753\"><he>קִפְלוֹט</he></cite>; a. fr.—V. <cite ref=\"K01287\"><he>כָּרָתֵי</he></cite>."
+			]
+		}
+	]
+}

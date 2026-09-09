@@ -1,0 +1,39 @@
+{
+	"id": "N01057",
+	"slug": "נפל-4",
+	"headword": {
+		"text": "נֵפֶל"
+	},
+	"altHeadwords": [
+		{
+			"text": "נֵי׳"
+		}
+	],
+	"page": {
+		"number": 925,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01056\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>capacity for seed</i>, v. <cite ref=\"N01044\"><he>נְפִילָה</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (b. h.) <i>abortion; premature, not viable birth</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ohalot 16:13\">Tosef. Ohol. XVI, 13</cite>; <cite ref=\"Pesachim 9a:11\">Pes. 9ᵃ</cite>, a. e.—",
+				"<cite ref=\"Jerusalem Talmud Yevamot 11:7:5\">Y. Yeb. XI, end, 12ᵇ</cite> <he>אינו נ׳</he> is not considered a non-viable birth (for legal purposes); a. v. fr.—Pl. <cite ref=\"N01056\"><he>נְפָלִים</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 26:7\">Gen. R. s. 26</cite> (play on <he>הַנְּפִלִים</he>, <cite ref=\"Genesis 6:4\">Gen. VI, 4</cite>) <he>שמלאו את העולם נ׳ וכ׳</he> they filled the world with abortions by their lascivious life. Tosef. l. c.; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

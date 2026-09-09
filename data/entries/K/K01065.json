@@ -1,0 +1,23 @@
+{
+	"id": "K01065",
+	"slug": "כפתא",
+	"headword": {
+		"text": "כְּפָתָא"
+	},
+	"page": {
+		"number": 663,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01062\"><he>כְּפַת</he></cite>) <i>tie, knot</i>.—Pl. <cite ref=\"K01287\"><he>כְּפָתַיָּא</he></cite>, <cite ref=\"K00985\"><he>כְּפָתִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 56:5\">Gen. R. s. 56</cite>; <cite ref=\"Yalkut Shimoni on Torah 101:1\">Yalk. Gen. 101</cite>; <cite ref=\"Yalkut Shimoni on Nach 561:2\">Yalk. Nah. 561</cite> <he>אילין כ׳</he> those bonds (with which the genii of the nations were tied, v. <cite ref=\"K01061\"><he>כָּפַת</he></cite>).—",
+				"<cite ref=\"Esther Rabbah 2:7\">Esth. R. to I, 6</cite> (in Hebr. dict.) <he>היו מכופתין בכְפָאתִין של כסף</he> the couches were tied with silver straps."
+			]
+		}
+	]
+}

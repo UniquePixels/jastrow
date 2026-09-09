@@ -1,0 +1,29 @@
+{
+	"id": "M01439",
+	"slug": "מכרות",
+	"headword": {
+		"text": "מְכֵרוֹת"
+	},
+	"page": {
+		"number": 784,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"M01434\"><he>מָכַר</he></cite>) <i>sales</i>, trnsf. m. (cmp. <cite ref=\"L00664\"><he>לְקוּחוֹת</he></cite>) <i>seller</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 98:5\">Gen. R. s. 98</cite> (ref. to <cite ref=\"Genesis 49:6\">Gen. XLIX, 6</cite> <he>מְכֵרֹת־</he>) for whom are those weapons fit? <he>למְכֵרוֹתֵיהֶן וכ׳</he> to their seller, to Esau who sold the birth-right (to their father)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"M01439\"><he>מְכֹרוֹת</he></cite>, fr. <cite ref=\"N00845\"><he>נָכַר</he></cite>, cmp. <cite ref=\"M01437\"><he>מַכָּר</he></cite>) <i>friendship, neighborhood, neighbors</i>. Tanḥ. Vayḥi 9; <cite ref=\"Bereishit Rabbah 99\">Gen. R. s. 99</cite> (ref. to Gen. l. c.) <he>וי״א מכרותיהם מגורותיהם וכ׳</he> (ed. Wil. <he>מְכוֹר׳</he>) and some say <i>m’kherothehem</i>, means their neighborhoods (ed. Wil.: and some say, read it <i>m’khorothehen</i>) as we read (<cite ref=\"Ezekiel 16:3\">Ez. XVI, 3</cite>) &c.—V. <cite ref=\"M01383\"><he>מְכֵירִין</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

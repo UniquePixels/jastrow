@@ -1,0 +1,24 @@
+{
+	"id": "L00005",
+	"slug": "לא-3",
+	"headword": {
+		"text": "לָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 685,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00004\">preced.</cite> wds.) <i>particle, mote</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 20b:10\">Yoma 20ᵇ</cite>, v. <cite ref=\"H01593\"><he>חִרְגָּא</he></cite>. ",
+				"<cite ref=\"Midrash Tehillim 68:2\">Midr. Till. to Ps. LXVIII, 3</cite> <he>כלא חשיבי</he> they are like a mote."
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "P00738",
+	"slug": "עכל-2",
+	"headword": {
+		"text": "עֲכַל"
+	},
+	"page": {
+		"number": 1079,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>עַכֵּל</he> <cite ref=\"P00737\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 20:18\">Targ. Job XX, 18</cite> Ms."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיעַכֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be consumed, burnt</i>. ",
+					"units": [
+						"<cite ref=\"Shevuot 17b:3\">Shebu. 17ᵇ</cite> <he>אי דלא הפיך ביה לא מִיעַכֵּל</he> (v. Ms. M. in D. S. a. l. note) if without turning it, the sacrifice had not been consumed. ",
+						"<cite ref=\"Shevuot 17b:4\">Ib.</cite> <he>אי לא הפיך בהו מִיעַכְּלֵי … מיעכל בהד שעתא</he> if he had not turned them (the pieces), they would have been consumed in two hours, and now all of it was consumed in one hour."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

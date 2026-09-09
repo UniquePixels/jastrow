@@ -1,0 +1,40 @@
+{
+	"id": "J00537",
+	"slug": "יציר",
+	"headword": {
+		"text": "יְצִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "יָצוּר"
+		}
+	],
+	"page": {
+		"number": 589,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00548\"><he>יָצַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>creature, creation</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 9:14\">Gen. R. s. 9</cite> (ref. to <cite ref=\"I Chronicles 28:9\">I Chr. XXVIII, 9</cite>) <he>קודם עד שלא נולד יצור וכ׳</he> ere yet a human creature is formed, his thought is revealed before thee; Midr. Sam. ch. V; Yalk. Chr. 1080 <cite ref=\"J00537\"><he>יציר</he></cite>. ",
+				"<cite ref=\"Pesikta Rabbati 47:1\">Pesik. R. s. 47</cite> <he>האדם י׳ כפיי</he> Adam, the formation of my hands; <cite ref=\"Kohelet Rabbah 3:11:2\">Koh. R. to III, 11</cite> <he>י׳ כפי</he>. ",
+				"<cite ref=\"Ketubot 8a:5\">Keth. 8ᵃ</cite> <he>כשמחך יְצִירְךָ וכ׳</he> as thou didst rejoice thy creature (Adam) in the garden &c.—Pl. <cite ref=\"J00539\"><he>יְצִירִים</he></cite>, <he>(יְצוּ׳</he>). ",
+				"<cite ref=\"Pesikta Rabbati 26:1\">Pesik. R. s. 26</cite> <he>אחד מארבעה יצו׳ …</he> one of the four persons that are called divine creations (concerning whom the verb <he>יצר</he> is used in the Scriptures); <cite ref=\"Yalkut Shimoni on Nach 262:1\">Yalk. Jer. 262</cite> <he>יצי׳</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " v. <cite ref=\"J00539\"><he>יְצִירִין</he></cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

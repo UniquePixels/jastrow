@@ -1,0 +1,48 @@
+{
+	"id": "H00308",
+	"slug": "חוי-1",
+	"headword": {
+		"text": "חוי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָוָה"
+		}
+	],
+	"page": {
+		"number": 432,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to point</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 16a\">Meg. 16ᵃ</cite> <he>היתה מְחַוָּוה וכ׳</he> she was pointing at Ahasver."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to show, teach, tell</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 20:11\">Gen. R. s. 20</cite> (play on <cite ref=\"H00266\"><he>חַוָּה</he></cite>) <he>ח׳ לה אדם וכ׳</he> Adam told her &c."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"H00716\"><he>חִיוָּה</he></cite> (b. h.) ",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

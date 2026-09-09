@@ -1,0 +1,23 @@
+{
+	"id": "A02759",
+	"slug": "אפסיין",
+	"headword": {
+		"text": "אָפְסְיָין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 106,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (obsianus, ὀψιανός) <i>obsidian</i>, a stone used as glass. Tanḥ. Naso 23. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 842\">Yalk. Ps. 842</cite> <cite ref=\"A02613\"><he>אפוטיין</he></cite> (read <cite ref=\"A02759\"><he>אוֹפְסְיָין</he></cite>). [<cite ref=\"Midrash Tehillim 91\">Midr. Till. to Ps. XCI</cite>; <cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> <he>קליפין</he>.] Cmp. <cite ref=\"A02652\"><he>אָפְזְיָינֵי</he></cite>. V. <cite ref=\"A02049\"><he>אמפומיות</he></cite>."
+			]
+		}
+	]
+}

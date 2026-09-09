@@ -1,0 +1,22 @@
+{
+	"id": "Q00520",
+	"slug": "פטיס",
+	"headword": {
+		"text": "פַּטִּיס"
+	},
+	"page": {
+		"number": 1155,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"Q00620\"><he>פִּיטּוּס</he></cite>, <i>wine jar</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:22\">Lam. R. to III, 16</cite> <he>ומחדא פ׳ וכ׳</he> and of each jar you drank one cup."
+			]
+		}
+	]
+}

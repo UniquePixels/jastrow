@@ -1,0 +1,35 @@
+{
+	"id": "E00283",
+	"slug": "הורקנוס",
+	"headword": {
+		"text": "הוֹרְקְנוֹס"
+	},
+	"page": {
+		"number": 341,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Hyrcan</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " a Maccabean prince and High-priest, brother to Aristobule. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 82b:16\">B. Kam. 82ᵇ</cite>; <cite ref=\"Sotah 49b:8\">Sot. 49ᵇ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " father of R. Eliezer. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 2:8\">Ab. II, 8</cite>; a. fr.—3) son of R. Eliezer. ",
+				"<cite ref=\"Sanhedrin 68a:2\">Snh. 68ᵃ</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

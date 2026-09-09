@@ -1,0 +1,24 @@
+{
+	"id": "T00135",
+	"slug": "רבעיות",
+	"headword": {
+		"text": "רִבְעִיּוֹת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1445,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (cmp. <cite ref=\"T00101\"><he>רְבִיעָה</he></cite>) <i>effusions, discharges</i>. ",
+			"units": [
+				"<cite ref=\"Avot D'Rabbi Natan 1:7\">Ab. d’R. N. ch. I</cite>, v. <cite ref=\"T00088\"><he>רִבְיָה</he></cite>. [Perh. <he>רְבִיעִיּוֹת</he> is meant, v. <cite ref=\"T00107\"><he>רְבִיעִית</he></cite>.]"
+			]
+		}
+	]
+}

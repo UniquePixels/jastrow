@@ -1,0 +1,65 @@
+{
+	"id": "S01665",
+	"slug": "קסם-1",
+	"headword": {
+		"text": "קָסַם"
+	},
+	"page": {
+		"number": 1396,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to cut, carve</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 9:6\">Snh. IX, 6</cite> <he>המקלל בקוֹסֵם</he> (Y. ed. <he>בקַסָּם</he>) he that curses (his neighbor) invoking God as ‘a carver’ (instead of <i>creator ex nihilo</i>); expl. ib. 81ᵇ <he>יכה קוֹסֵם את קוֹסָמוֹ</he> (Ms. M. <he>את קוסו</he>, emended <he>קוסמו</he>, Ar. <he>קִסְמוֹ</he>, <he>קִיסְמוֹ</he>) may the carver strike his carving; anoth. explan. <he>יכהו קוסם לו ולקונו ולמקנו</he> may the carver strike him (euphem. for <i>thee</i>), himself (thyself) &c., v. <cite ref=\"S01533\"><he>קָנָה</he></cite>; Y. ib. IX, end, 27ᵇ, v. <cite ref=\"S00940\"><he>קַיְינָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to decide</i> (cmp. <cite ref=\"C00573\"><he>גָּזַר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Chagigah 14a:10\">Ḥag. 14ᵃ</cite> (ref. to <cite ref=\"Isaiah 3:2\">Is. III, 2</cite>) <he>קוסם זה מלך</he> <i>ḳosem</i> means king (with ref. to <cite ref=\"Proverbs 16:10\">Prov. XVI, 10</cite>); <cite ref=\"Yalkut Shimoni on Nach 261\">Yalk. Is. 261</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. <cite ref=\"S01667\"><he>קֶסֶם</he></cite>) <i>to divine</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 171:6\">Sifré Deut. 171</cite> <he>איזהו קוסם זה האוחז וכ׳</he> who is a <i>ḳosem?</i> He that seizes his staff (and measuring it fist-wise says), shall I or shall I not go? (ref. to <cite ref=\"Hosea 4:12\">Hos. IV, 12</cite>); <cite ref=\"Yalkut Shimoni on Torah 918:4\">Yalk. Deut. 918</cite>. ",
+				"<cite ref=\"Sanhedrin 106a:17\">Snh. 106ᵃ</cite> (ref. to <cite ref=\"Joshua 13:22\">Josh. XIII, 22</cite>) <he>קזסם נביא הוא</he> a charmer? is he not a prophet? <he>בתחלה נביא ולבסוף קוסם</he> at first a prophet, and in the end a charmer. ",
+				"<cite ref=\"Bamidbar Rabbah 20:20\">Num. R. s. 20</cite> (ref. to <cite ref=\"Numbers 22:7\">Num. XXII, 7</cite>) <he>הוליכו … קסמים שהיו קוֹסְמִין בהן</he> they carried with them all kinds of divining implements with which people divine. ",
+				"<cite ref=\"Kohelet Rabbah 12:7:1\">Koh. R. to XII, 7</cite> <he>לִקְסוֹם קסמים</he>, v. <cite ref=\"S01667\"><he>קֶסֶם</he></cite>; a. e."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִסֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to divine</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 79:1\">Midr. Till. to Ps. LXXIX</cite>, beg. <he>עמד לו מְקַסֵּם וכ׳</he> he stood up and divined to find out whether or not to go up."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִתְקַסֵּם"],
+			"senses": [
+				{
+					"gloss": ", v. <cite ref=\"S02125\"><he>קִרְסֵם</he></cite>",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

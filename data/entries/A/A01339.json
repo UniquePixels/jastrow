@@ -1,0 +1,23 @@
+{
+	"id": "A01339",
+	"slug": "אימירא",
+	"headword": {
+		"text": "אִימִירָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 51,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἡμέρα) <i>day</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:2:4\">Y. Ab. Zar. I, 39ᶜ</cite> top, they lament over it <he>מילני אי׳</he>, μέλαινα ἡμέρα, oh, the black (luckless) day! V. Macrob. Sat. I, 15 <i>dies atri</i>"
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "M00786",
+	"slug": "מזרן",
+	"headword": {
+		"text": "מִזְרָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִיזְרָן"
+		}
+	],
+	"page": {
+		"number": 756,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A00984\"><he>אָזַר</he></cite>) <i>girth, strap of cloth which is wound over the bed to keep the covering in position</i>, Maim.; [Hai G. a. Ar.: (fr. <cite ref=\"M00779\"><he>מזר</he></cite> <i>to spread under</i>) <i>a sort of carpet under the mattress</i>; v., however, Tosef. quot. bel.].—",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 19:3\">Kel. XIX, 3</cite> <he>מ׳ היוצא וכ׳</he> a piece of the girth hanging from the bed. ",
+				"<cite ref=\"Mishnah Kelim 19:3\">Ib.</cite> <he>שירי מ׳</he> remnants of a torn girth. Ib. 4 <he>נישא … ועל המ׳</he> was carried (in his bed) by the bed and by the girth (the carriers holding the ends of the strap). Ib. 5, sq.; <cite ref=\"Tosefta Keilim Metsia 9:6\">Tosef. Kel. B. Mets. IX, 6</cite>. <he>מ׳ שהוא מכרך בו וכ׳</he> the girth which one ties around the bed. ",
+				"<cite ref=\"Tosefta Keilim Metsia 9:6\">Ib.</cite> <cite ref=\"M00785\"><he>מזרין</he></cite> ed. Zuck. (corr. acc.)."
+			]
+		}
+	]
+}

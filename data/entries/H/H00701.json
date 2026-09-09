@@ -1,0 +1,41 @@
+{
+	"id": "H00701",
+	"slug": "חיזרא-1",
+	"headword": {
+		"text": "חִיזְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִזְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 453,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<he>חזר</he>, cmp. <cite ref=\"H00541\"><he>חֲזִיר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>prickly, knotty thorn</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 103b:10\">B. Mets. 103ᵇ</cite> <he>קני דח׳ וכ׳</he> (Ar. Var. <he>חרזא</he>, <cite ref=\"H00878\"><he>חירזא</he></cite>, v. Ar. ed. Koh. s. v. <cite ref=\"A03131\"><he>ארכבתא</he></cite>) the poles for the shrub (to be put up as a hedge on top of the earth mound) must be supplied by the landlord, but the shrub itself by the tenant. ",
+				"<cite ref=\"Nedarim 41b:1\">Ned. 41ᵇ</cite> top <he>כח׳ לדיקלא</he> as its prickles protect the palm-tree (v. ",
+				"<cite ref=\"Bamidbar Rabbah 3\">Num. R. s. 3</cite>, beg.). ",
+				"<cite ref=\"Berakhot 8a:13\">Ber. 8ᵃ</cite> <he>כח׳ בגבבא דעמרא וכ׳</he> (Ms. M. <he>לח׳ דשלפא מגבבא וכ׳</he>) as a thorn in a ball of wool which (if one tries to tear loose) lacerates backward (in the opposite direction of its knots), v. <cite ref=\"N01346\"><he>נְשַׁר</he> I</cite>.—Pl. <he>חִיזְרֵי</he>. ",
+				"<cite ref=\"Shabbat 63b\">Sabb. 63ᵇ</cite>; <cite ref=\"Beitzah 29b:4\">Bets. 29ᵇ</cite>, a. e. (proverbial expression) (<he>שקילי … ושדי</he>) <he>שקילא טיבותיך ושדיא אח׳</he> thy good-natured advice is taken and thrown over the hedge, i.e. thy advice comes too late."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a flexible and strong reed, bamboo-cane</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 12b:1\">Ber. 12ᵇ</cite> <he>כרע כח׳</he> he bent (in prayer) like a cane (when it is swung)."
+			],
+			"label": "2"
+		}
+	]
+}

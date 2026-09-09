@@ -1,0 +1,49 @@
+{
+	"id": "B00855",
+	"slug": "בלי-3",
+	"headword": {
+		"text": "בְּלֵי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּלָא"
+		},
+		{
+			"text": "בְּלָה"
+		}
+	],
+	"page": {
+		"number": 172,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"B00854\">same</cite>.",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 8:4\">Targ. Deut. VIII, 4</cite>; <cite ref=\"Targum Jonathan on Deuteronomy 29:4\">Targ. Y. Deut. XXIX, 4</cite> <he>בלמו</he>, Var. <he>כלמו</he>, read <he>בלת</he>; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 19:2\">Lev. R. s. 19</cite> <he>כולו בלה</he> all goes to ruin. ",
+				"<cite ref=\"Berakhot 5b:17\">Ber. 5ᵇ</cite>, v. <cite ref=\"B00767\"><he>בְּכָא</he></cite>. ",
+				"<cite ref=\"Berakhot 6a\">Ib. 6ᵃ</cite>. ",
+				"<cite ref=\"Bekhorot 9a:2\">Bekh. 9ᵃ</cite> <he>ובלו להו ואזול</he> they failed and went to destruction. ",
+				"<cite ref=\"Pirkei Avot 5:22\">Ab. V, 22</cite> <he>סיב ובְלֵה בה</he> grow old and frail in it (the study of the Law).—[<cite ref=\"Aramaic Targum to Psalms 62:11\">Targ. Ps. LXII, 11</cite>; <cite ref=\"Aramaic Targum to Psalms 91:2\">XCI, 2</cite> Ms., v. <he>כְּלִי</he> I.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּלֵּי"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"B00854\">preced.</cite> <i>Pi.</i>—",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 3:15\">Targ. Is. III, 15</cite>; a. e.—",
+						"<cite ref=\"Avodah Zarah 20a:10\">Ab. Zar. 20ᵃ</cite> that this beauty <he>ב׳ עפרא</he> dust will destroy.—Part. pass. f. <he>מְבַלְּיָא</he>. ",
+						"<cite ref=\"Vayikra Rabbah 33\">Lev. R. s. 33</cite> (interpret. <he>בלה נאפים</he> <cite ref=\"Ezekiel 23:43\">Ezek. XXIII, 43</cite>) Aquila translates παλαιὰ πόρνη (old harlot), <he>דהוא מבליא גייארא</he> ed. (Ar. <he>דהיא מב׳ גיירייא</he>, Yalk. Dan. 1061 only <he>דהיא מבליא</he>) which means, a wasted harlot (wasted through fornication)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

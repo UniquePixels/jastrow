@@ -1,0 +1,43 @@
+{
+	"id": "D00470",
+	"slug": "דיבור",
+	"headword": {
+		"text": "דִּיבּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּבּוּר"
+		}
+	],
+	"page": {
+		"number": 294,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דבר</he>) <i>utterance, speech, dictate</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite> <he>ד׳ קשה</he> of the various expressions for prophecy <i>dibbur</i> is the severest; <cite ref=\"Bereishit Rabbah 44:11\">Gen. R. s. 44</cite>; <cite ref=\"Makkot 11a:2\">Macc. 11ᵃ</cite>; (Sifre Num. 99 <cite ref=\"D00478\"><he>דִּבֵּר</he></cite>). ",
+				"<cite ref=\"Vayikra Rabbah 1:13\">Lev. R. s. 1</cite> (play on <he>ויקר</he>, <cite ref=\"Numbers 23:4\">Num. XXIII, 4</cite>, a. <cite ref=\"F00049\"><he>ויקרא</he></cite> <cite ref=\"Leviticus 1:1\">Lev. I, 1</cite>) the Lord reveals Himself to the gentile prophets <he>בחצי ד׳</he> only with half a word (defective revelation), opp. <he>ד׳ שלם</he>. ",
+				"<cite ref=\"Shemot Rabbah 28:4\">Ex. R. s. 28</cite> <he>ד׳ זכור וכ׳</he> the commandment, ‘Remember the Sabbath’. ",
+				"<cite ref=\"Jerusalem Talmud Nedarim 3:1:4\">Y. Ned. III, 37ᵈ</cite> bot.; a. fr.—<he>תוך כדי ד׳</he>, v. <cite ref=\"D00444\"><he>דַּי</he></cite>.—Esp. <he>הַדִּ׳</he> <i>revelation, Divine Speech</i>, (hypostasized) <i>the Word, the Dibbur</i>. ",
+				"<cite ref=\"Vayikra Rabbah 1:13\">Lev. R. s. 1</cite>, beg. <he>קול הד׳ עצמו</he> the direct voice of the Dibbur. ",
+				"<cite ref=\"Yevamot 5b\">Yeb. 5ᵇ</cite>, a. fr. <he>לפני הד׳</he> prior to the revelation. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:2:2\">Cant. R. to I, 2</cite>; a. fr.—<he>על פי הד׳</he> following the Divine order. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:46\">Y. Sabb. VII, 10ᶜ</cite>; a. fr.—Pl. <he>דִּיבּוּרִים</he>, <he>דִּיכּוּרִין</he>, <he>דִּבּ׳</he>. ",
+				"<cite ref=\"Bereishit Rabbah 38\">Gen. R. s. 38</cite> <he>ד׳ אחדים</he> mysterious words (accounts), v. <cite ref=\"A00994\"><he>אֶחָד</he></cite>. Cant. R. l. c.; a. fr. V. <cite ref=\"D00077\"><he>דָּבָר</he></cite>."
+			]
+		},
+		{
+			"gloss": " (homilet., v. ",
+			"units": [
+				"<cite ref=\"Psalms 47:4\">Ps. XLVII, 4</cite>) <i>being led, submission</i>. ",
+				"<cite ref=\"Shabbat 63a:17\">Sabb. 63ᵃ</cite> <he>אין ד׳ אלא נחת</he> the root <he>דבר</he> (in <cite ref=\"Malachi 3:16\">Mal. III, 16</cite> <he>נדברו</he>) means submission; <cite ref=\"Makkot 11a:2\">Macc. 11ᵃ</cite> (corr. acc.)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "T00357",
+	"slug": "רוטננית",
+	"headword": {
+		"text": "רוֹטְנָנִית"
+	},
+	"page": {
+		"number": 1459,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00569\"><he>רָטַן</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>grumbling, discontented</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 12:7\">Num. R. s. 12<sup>5</sup></cite> <he>למלך שהיתה לו מטרונה ר׳</he> (Mus. <he>רוטג׳</he>, corr. acc.) this is like the case of a king who had a grumbling matron as wife; Tanḥ. Naso 12 <he>אשה ראגניות</he>, <he>ראנ׳</he>, <he>דאג׳</he> (corr. acc., or <cite ref=\"T00407\"><he>רוֹנָנִית</he></cite>); <cite ref=\"Pesikta Rabbati 5:1\">Pesik. R. s. 5</cite> <he>רונונות</he> (corr. acc., or <cite ref=\"T00407\"><he>רוננית</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [prob. to be read: <cite ref=\"T00357\"><he>רוֹטְנָנוּת</he></cite>] <i>grumbling, discontent</i>. Num. R. l. c. <he>שלא תחזור לרוֹטְנָנִיתָהּ</he> lest she return to her sullenness; Pesik. R. l. c. <he>לרוננית</he> (read <he>לרוֹנָנִיתָהּ</he>, or with ed. Prague: <he>לרַטְנָנִיתָהּ</he>).",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

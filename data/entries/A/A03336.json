@@ -1,0 +1,23 @@
+{
+	"id": "A03336",
+	"slug": "אשפא",
+	"headword": {
+		"text": "אַשְׁפָּא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 129,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01704\"><he>שפא</he></cite>, <he>שפף</he>) <i>dressed skin</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 77b:4\">Keth. 77ᵇ</cite> <he>גירדא דא׳</he> the shavings of a hide when it is smoothed. [Ar. s. v. <he>גרד</he> I ed. <cite ref=\"A03309\"><he>אשכפא</he></cite>, ed. Koh. <cite ref=\"A03336\"><he>אשפא</he></cite>.]"
+			]
+		}
+	]
+}

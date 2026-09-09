@@ -1,0 +1,23 @@
+{
+	"id": "V00458",
+	"slug": "תימוז",
+	"headword": {
+		"text": "תִּימוֹז",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1665,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>one who has no eye-brows</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bekhorot 5:9\">Tosef. Bekh. V, 9</cite> ed. Zuck. (Var. <cite ref=\"V00464\"><he>תימיז</he></cite>); <cite ref=\"Bekhorot 44a:13\">Bekh. 44ᵃ</cite> <he>תימי׳ שתמו זיפין</he> (read: <he>ת̇ימ̇יז̇ שת̇מ̇ו ז̇יפיו</he>) <i>t.</i> is one whose eye-brows are gone; <cite ref=\"Bekhorot 44a\">ib.</cite> <he>התמיר</he> (Rashi <cite ref=\"V00228\"><he>תומיין</he></cite>, Ar. <cite ref=\"V00466\"><he>תימן</he></cite>)."
+			]
+		}
+	]
+}

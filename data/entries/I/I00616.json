@@ -1,0 +1,75 @@
+{
+	"id": "I00616",
+	"slug": "טען-3",
+	"headword": {
+		"text": "טָעַן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 544,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"I00594\"><he>טָעָה</he></cite>, <he>טַעֲיָיא</he> , a. Ges. H. Dict.<sup>10</sup> s. v. <he>צען</he>) [<i>to move, make ready for travelling</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"N01284\"><he>נָשָׂא</he></cite>) <i>to load, pack up</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 6:4\">Num. R. s. 6</cite> <he>וטוֹעֲנִים על העגלות</he> and pack (them) upon wagons; a. fr.—Part. pass. <cite ref=\"I00597\"><he>טָעוּן</he></cite> (interch. with <cite ref=\"I00193\"><he>טוֹעֵן</he></cite>) <i>laden, carrying</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 5\">Ib. s. 5</cite> <he>מי שהוא ט׳ בקרשים</he> some had a share in carrying (moving) the boards. ",
+				"<cite ref=\"Bamidbar Rabbah 5:8\">Ib.</cite> <he>טוענין כל כלי האריגה</he> had to carry all woven materials. ",
+				"<cite ref=\"Bamidbar Rabbah 6:2\">Ib. s. 6</cite> <he>היה מִטּוֹעֲנֵי וכ׳</he> was one of those carrying the ark. ",
+				"<cite ref=\"Bava Metzia 32b:10\">B. Mets. 32ᵇ</cite> <he>טְעוּנָה יין אסור</he> carrying forbidden wine.—",
+				"<cite ref=\"Midrash Tehillim 18:5-14\">Midr. Till. to Ps. XVIII</cite> <he>בשעה … טְעוּנִין את המים</he> when the clouds are charged with water; <cite ref=\"Yalkut Shimoni on Nach 160:2\">Yalk. Sam. 160</cite> <he>טוענין מן המים</he> (corr. acc.), v. <cite ref=\"H01847\"><he>חָשַׁךְ</he></cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 160:2\">Ib.</cite> <he>אלו טוענין חרבות וכ׳</he> those carrying swords, others lances &c.; a. fr.—3) Esp. <i>to help one broken down on the road to load again</i>, contrad. to <he>פרק</he> to help in unloading. ",
+				"<cite ref=\"Mishnah Bava Metzia 2:10\">B. Mets. II, 10</cite> <he>מצוה לִטְעוֹן …</he> the biblical law requires man to help in unloading, but not in loading (without remuneration); <he>אף לט׳</he> loading, too, must be done gratuitously, v. <cite ref=\"I00607\"><he>טְעִינָה</he></cite>; a. fr."
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִטְעַן"],
+			"senses": [
+				{
+					"gloss": "<i>to be laden</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 82\">Gen. R. s. 82</cite> <he>נ׳ ברכות</he> was laden with blessings; a. e.—Trnsf. (cmp. <cite ref=\"K00030\"><he>כָּבֵד</he></cite>) <i>to be very ill</i>. ",
+						"<cite ref=\"Tractate Semachot 8:7\">Treat. S’maḥ. ch. VIII</cite> <he>אמר לו נ׳</he> he said to him, He (thy son) is very ill."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be carried</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 87\">Midr. Till. to Ps. LXXXVII</cite> [read:) <he>אינן יכולין להִטָּעֵן … וטוֹעֲנִין וכ׳</he> who cannot be carried (on wagons &c.) … and they carry them on their hands (in a chair); (v. <cite ref=\"I00617\">next w.</cite> a. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 838\">Yalk. Ps. 838</cite>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִטְעִין"],
+			"senses": [
+				{
+					"gloss": "<i>to lade, put on</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 13\">Lev. R. s. 13</cite> <he>ה׳ לחמורו וכ׳</he> he put on his ass five S’ah &c. ",
+						"<cite ref=\"Shabbat 5a:17\">Sabb. 5ᵃ</cite> <he>הִטְעִינוֹ חבירו</he> his neighbor placed something in his hand to carry, <he>ה׳ שמים</he> the heavens placed &c. (when he put his hand forth to collect and carry rain water); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to carry goods for sale</i>. Y. Peah I, 16ᵃ top (ref. to <cite ref=\"Leviticus 19:16\">Lev. XIX, 16</cite>) <he>שלא תהא כרוכל הזה מַטְעִין דבריו וכ׳</he> be not like the peddler carrying the talk of this one to the other &c.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

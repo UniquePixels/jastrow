@@ -1,0 +1,22 @@
+{
+	"id": "E00120",
+	"slug": "הדייבא",
+	"headword": {
+		"text": "הַדְיֵיבָא"
+	},
+	"page": {
+		"number": 333,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"E00119\">preced.</cite>) <i>of Adiabena</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 26b:2\">B. Bath. 26ᵇ</cite> (Ms. H. <he>חידייבא</he>, Var. in ed. <he>חדיאבא</he>, <he>חדייבא</he>, <he>בר אבא</he>, v. Rabb. D. S. a. l. note 300)."
+			]
+		}
+	]
+}

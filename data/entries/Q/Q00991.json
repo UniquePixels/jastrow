@@ -1,0 +1,87 @@
+{
+	"id": "Q00991",
+	"slug": "פלח-2",
+	"headword": {
+		"text": "פְּלַח"
+	},
+	"page": {
+		"number": 1178,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00990\">same</cite><i>to till, work</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 20:9\">Targ. Ex. XX, 9</cite> (Y. ed. Vien. <i>Pa.</i>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 10:5\">Targ. Prov. X, 5</cite> (h. text <cite ref=\"A00340\"><he>אגר</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 4:12\">Targ. Gen. IV, 12</cite>; a. fr.—3) <i>to serve</i> (<i>man</i> or <i>deity</i>); <i>to worship</i>. Ib. XIV, 4. Ib. XVII, 1 (h. text <cite ref=\"E00561\"><he>התהלך</he></cite>); a. fr.—Y. Ab. Zar. I, 39ᶜ top <he>לפָלְחִין בה</he>, v. <cite ref=\"Q00990\">preced.</cite> ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>נשי דפלחין כפלחין</he> the wives of those who worship (on the Roman festivals) are to be treated like those who worship. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>כפלחין היא</he> (not <he>כפלחון</he>), v. <cite ref=\"U01536\"><he>שָׁמְרַיִין</he></cite>. Bab. ",
+				"<cite ref=\"Avodah Zarah 11a:8\">Ab. Zar. 11ᵃ</cite> <he>פָּלְחֵי בה לע״א</he> they worship the idol on it (the anniversary of death). ",
+				"<cite ref=\"Avodah Zarah 22b:2\">Ib. 22ᵇ</cite> <he>אם איתא דפַלְחֵיה וכ׳</he> if he had worshipped it, he would not sell it. ",
+				"<cite ref=\"Sanhedrin 102b:4\">Snh. 102ᵇ</cite> <he>מ״כ פַּלְחִיתוּ לע״א</he> why do you worship idols? <cite ref=\"Gittin 57b:18\">Gitt. 57ᵇ</cite> <he>פְּלַח לע״א</he> worship (bow down) to &c.!; a. fr.—4) <he>פ׳ ב־</he> [<i>to work with</i>,] <i>to compel to serve</i> or <i>work, to subject</i>. ",
+				"<cite ref=\"Onkelos Leviticus 25:39\">Targ. Lev. XXV, 39</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 25:43\">Targ. O. ib. 43</cite>. ",
+				"<cite ref=\"Onkelos Genesis 15:14\">Targ. O. Gen. XV, 14</cite>; a. fr.—5) <i>to split, distribute</i>. ",
+				"<cite ref=\"Avodah Zarah 18a:16\">Ab. Zar. 18ᵃ</cite> bot. <he>פלגא פְלַח ופלגא וכ׳</he> one half distribute (as bribe), and one half be thine."
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּלַּח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q00990\">same</cite>, <i>to dig, till, work</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 20:9\">Targ. Y. Ex. XX, 9</cite> (v. supra). ",
+						"<cite ref=\"Aramaic Targum to Psalms 141:7\">Targ. Ps. CXLI, 7</cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 32:17\">Targ. Is. XXXII, 17</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַפְלַח"],
+			"senses": [
+				{
+					"gloss": "<i>to make work, to subject, rule</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 1:13\">Targ. O. Ex. I, 13</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Kings 5:4\">Targ. I Kings V, 4</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְפַּלַּח"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְפְּלַח"],
+			"senses": [
+				{
+					"gloss": "<i>to be worked, tilled</i>; (with <cite ref=\"B00000\"><he>ב</he></cite>) <i>to be worked with</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 21:3\">Targ. Deut. XXI, 3</cite>. ",
+						"<cite ref=\"Onkelos Deuteronomy 21:4\">Targ. O. ib. 4</cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 36:9\">Targ. Ez. XXXVI, 9</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to break through, be born</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 39:3\">Targ. Job XXXIX, 3</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

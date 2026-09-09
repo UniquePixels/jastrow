@@ -1,0 +1,22 @@
+{
+	"id": "S00250",
+	"slug": "קודרנטיס",
+	"headword": {
+		"text": "קוּדְרַנְטֵיס"
+	},
+	"page": {
+		"number": 1324,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. sing. a. pl. (κοδράντης = quadrans) <i>quadrans</i>, a Roman value equal to three Roman ounces (also called <i>teruncius</i>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:1:23\">Y. Kidd. I, 58ᵈ</cite> Mus. (ed. <cite ref=\"S00187\"><he>קדריונטס</he></cite>, ed. Krot. <he>קרד׳</he>; Mus. also <cite ref=\"S00190\"><he>קדרנטיס</he></cite>), v. <cite ref=\"M01922\"><he>מְֹסִימִיס</he></cite>; <cite ref=\"Tosefta Bava Batra 5:12\">Tosef. B. Bath. V, 12</cite> <cite ref=\"S00433\"><he>קונטרונין</he></cite> ed. Zuck. (Var. <he>קונטריס</he>, pl. <cite ref=\"S00437\"><he>קונטריסין</he></cite>); <cite ref=\"Kiddushin 12a:9\">Kidd. 12ᵃ</cite> <cite ref=\"S00437\"><he>קונטרנק</he></cite>, pl. <he>קונטרונקין</he> (corrupt. arisen fr. confusion of <i>quadrans</i> a. <i>teruncius</i>)."
+			]
+		}
+	]
+}

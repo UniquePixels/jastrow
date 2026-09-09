@@ -1,0 +1,28 @@
+{
+	"id": "L00350",
+	"slug": "לחינה",
+	"headword": {
+		"text": "לְחֵינָה",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "לְחֵנָה"
+		}
+	],
+	"page": {
+		"number": 703,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"L00351\">next w.</cite>) <i>maid-servant</i>.—Pl. <he>לְחֵינו̇</he>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 40\">Ex. R. s. 40</cite>, end; (Tanḥ. Ki Thissa 13 <cite ref=\"U01729\"><he>שפחות</he></cite>)."
+			]
+		}
+	]
+}

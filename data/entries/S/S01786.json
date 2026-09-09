@@ -1,0 +1,31 @@
+{
+	"id": "S01786",
+	"slug": "קצבה",
+	"headword": {
+		"text": "קִצְבָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִי׳"
+		}
+	],
+	"page": {
+		"number": 1404,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01783\"><he>קָצַב</he></cite>) <i>decision, definition, limit, definite scope</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 52a:7\">Gitt. 52ᵃ</cite> <he>דבר שיש לו ק׳</he> a thing (religious duty) for which there is a definite time and limit v. <cite ref=\"S01783\"><he>קָצַב</he></cite>. ",
+				"<cite ref=\"Mishnah Pesachim 6:5\">Pes. VI, 5</cite> <he>אם אמרת … שיש להן ק׳ וכ׳</he> you cannot draw an analogy between congregational offerings (on the Sabbath), which are definite, and the Passover sacrifice, which is indefinite; Y. ib. 33ᵃ. Ib. 33ᶜ bot. [read:] <he>מאי אית לך דבר שאין לו ק׳</he> what do you mean by saying, a thing which is undefined? <he>שלא נתנה התורה ק׳ וכ׳</he> the Law does not define how many Passover sacrifices supersede the Sabbath each year (whereas the number of the daily sacrifices is definite). Y. Ber. V, 9ᶜ top <he>כנותן קי׳ וכ׳</he>, v. <cite ref=\"M00252\"><he>מִדָּה</he></cite>. ",
+				"<cite ref=\"Bava Kamma 113a:20\">B. Kam. 113ᵃ</cite>, v. <cite ref=\"M00479\"><he>מוֹכֵס</he></cite> h. ",
+				"<cite ref=\"Mishnah Bava Metzia 9:5\">B. Mets. IX, 5</cite> <he>מה ק׳</he> (<cite ref=\"B00000\"><he>ב</he></cite>) <cite ref=\"K01151\"><he>כרי</he></cite> what standard is ‘a pile of grain’? i.e. this cannot be made a standard alike for large and small fields. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 2:3:2\">Y. Shek. II, 46ᵈ</cite> top <he>שקִצְבָתָן מן התורה</he> (ed. Krot. <he>שקִצְוָו׳</he>) which are defined in the Biblical law (as to numbers and times); a. fr."
+			]
+		}
+	]
+}

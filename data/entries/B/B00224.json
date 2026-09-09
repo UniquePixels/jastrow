@@ -1,0 +1,27 @@
+{
+	"id": "B00224",
+	"slug": "בוזתא",
+	"headword": {
+		"text": "בּוּזְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּיזְתָא"
+		}
+	],
+	"page": {
+		"number": 144,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"B00220\"><he>בוז</he></cite>) <i>contempt, contumely</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 119:22\">Targ. Ps. CXIX, 22</cite>.—V. <cite ref=\"B00560\"><he>בִּיזָּא</he> II</cite>."
+			]
+		}
+	]
+}

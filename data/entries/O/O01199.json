@@ -1,0 +1,39 @@
+{
+	"id": "O01199",
+	"slug": "סנואתא",
+	"headword": {
+		"text": "סְנוּאֲתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׂ׳"
+		}
+	],
+	"page": {
+		"number": 1005,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01224\"><he>סְנֵי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the hated wife</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 21:15\">Targ. O. Deut. XXI, 15</cite> <he>ס׳</he> ed. Berl. (oth. ed. <he>שְׂנוּאֲ׳</he>, a. <he>שְׂנִיאֲ׳</he>; Y. <cite ref=\"O01209\"><he>סְנוּתָא</he></cite>, a. <cite ref=\"O01243\"><he>סְנֵיתָא</he></cite>, <he>סְנִי׳</he>). ",
+				"<cite ref=\"Onkelos Genesis 29:33\">Targ. O. Gen. XXIX, 33</cite> <he>ס׳</he> ed. Berl. (oth. ed. <cite ref=\"O00299\"><he>שׂ׳</he></cite>; Y. <cite ref=\"U01599\"><he>שָׂנֵיתָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 30:23\">Targ. Prov. XXX, 23</cite> <he>שנוא׳</he> (ed. Lag. <cite ref=\"U01598\"><he>שְׂנִי׳</he></cite>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>hatred</i>, v. <cite ref=\"O01164\"><he>סִנְאֲתָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

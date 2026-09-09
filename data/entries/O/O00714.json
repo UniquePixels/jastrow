@@ -1,0 +1,34 @@
+{
+	"id": "O00714",
+	"slug": "סימנטיר",
+	"headword": {
+		"text": "סִימַנְטֵיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִימַנְטֵירִין"
+		},
+		{
+			"text": "סְמַנְ׳"
+		},
+		{
+			"text": "סימנטו׳"
+		}
+	],
+	"page": {
+		"number": 982,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (σημαντήρ, σημαντήριον) <i>seal, signet, stamp</i>. Pesik. B’shall., p. 82ᵇ <he>חותמו … וס׳ שלו</he> her husband’s signature (to the marriage contract) and his seal; <cite ref=\"Shir HaShirim Rabbah 4:12:1\">Cant. R. to IV, 12</cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:4:3\">Y. Ber. I, 3ᵇ</cite> bot. <he>סמנטרין</he>; <cite ref=\"Shir HaShirim Rabbah 1:2\">Cant. R. to I, 2</cite> <he>סימנט׳</he>. ",
+				"<cite ref=\"Shemot Rabbah 19:5\">Ex. R. s. 19</cite> <he>אם אין סִימַנְטְרִי וכ׳</he> (some ed. <cite ref=\"O00736\"><he>סינטרי</he></cite>, corr. acc.) unless the invited guests show my seal (on the invitation card) &c.; a. e."
+			]
+		}
+	]
+}

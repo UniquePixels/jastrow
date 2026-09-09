@@ -1,0 +1,27 @@
+{
+	"id": "C01235",
+	"slug": "גרב-6",
+	"headword": {
+		"text": "גָּרָב"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּרְבּא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 264,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01234\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Leviticus 21:20\">Targ. Y. II, Lev. XXI, 20</cite> (Y. I <he>חרסין יבשין</he>, v. ",
+				"<cite ref=\"Bekhorot 41a:5\">Bekh. 41ᵃ</cite>). ",
+				"<cite ref=\"Onkelos Deuteronomy 28:27\">Targ. Deut. XXVIII, 27</cite>.—Denom. <cite ref=\"C01239\"><he>גַּרְבָּן</he></cite> <i>one affected with itch</i>. Targ. O. Lev. l. c."
+			]
+		}
+	]
+}

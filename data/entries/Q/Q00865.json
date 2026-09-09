@@ -1,0 +1,23 @@
+{
+	"id": "Q00865",
+	"slug": "פירן",
+	"headword": {
+		"text": "פֵּירָן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1172,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01783\"><he>פָּרָה</he></cite>) <i>breeding establishment, stables</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 40a:8\">Bekh. 40ᵃ</cite> <he>מעשה בפ׳ של בית מנחם</he> it happened in the stables of the house of Menaḥem (Rashi: at <i>Peran of the house</i> &c., name of a village); <cite ref=\"Tosefta Bekhorot 4:8\">Tosef. ib. IV, 8</cite> <he>בפדה</he>."
+			]
+		}
+	]
+}

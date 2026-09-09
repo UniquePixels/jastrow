@@ -1,0 +1,31 @@
+{
+	"id": "K00257",
+	"slug": "כוכליאס",
+	"headword": {
+		"text": "כּוֹכְלִיאָס"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוֹכְלְיָיס"
+		},
+		{
+			"text": "קוֹכְ׳"
+		}
+	],
+	"page": {
+		"number": 619,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κοχλίας, cochlea) <i>any thing spiral, a spiral stair-case, screw</i> &c. (v. Gr. a. Lat. Dict. s. v.). ",
+			"units": [
+				"<cite ref=\"Tosefta Sukkah 4:16\">Tosef. Succ. IV, 16</cite> <he>מקיפין ועומדין כקבולין</he> ed. Zuck. (Var. <he>בכולייס</he>, <he>ככולייר</he>, read <he>בכוכלייס</he>) stood around in a spiral figure; <cite ref=\"Tosefta Yoma 1:10\">Tosef. Yoma I, 10</cite> <he>בקבילין</he> ed. Zuck. (Var. <he>בכלאים</he>, <he>ככוליור</he>); <cite ref=\"Yoma 25a:4\">Yoma 25ᵃ</cite> <he>כמין בכוליאר</he> (Ms. M. <he>כולייר</he>, O. a. L. <he>ככולייר</he>, v. Rabb. D. S. a. l. note). ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 7:1:2\">Y. Shek. VII, beg. 50ᶜ</cite> <he>כמין כובלין היו עשויין</he> (corr. acc.) the boxes in the Temple for contributions were put up so as to form a spiral figure; (Bab. ed. <cite ref=\"S00232\"><he>קובליים</he></cite>, <he>בוכלייאר</he>, <he>כובליי׳</he>, corr. acc.)."
+			]
+		}
+	]
+}

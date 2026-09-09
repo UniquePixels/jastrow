@@ -1,0 +1,29 @@
+{
+	"id": "O01649",
+	"slug": "סרסא",
+	"headword": {
+		"text": "סָרְסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סָרְסָיָא"
+		}
+	],
+	"page": {
+		"number": 1029,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01648\">preced.</cite>) <i>agent, manager on shares</i>, esp. <i>foreman of the brewery</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 31b:9\">Bekh. 31ᵇ</cite> <he>ר׳ אידי סָרְסֵיה דר׳ וכ׳</he> Rashi (ed. <he>סרסיא</he>) R. J. was R. Shesheth’s steward. ",
+				"<cite ref=\"Bava Metzia 42b:10\">B. Mets. 42ᵇ</cite> <he>אמר ליה לסרסיה וכ׳</he> (Ms. F. a. R. <he>לסרסיא</he>) he said to his brewer, take from this pile. ",
+				"<cite ref=\"Kiddushin 52b:4\">Kidd. 52ᵇ</cite> <he>ההוא סרסיא</he> (corresp. to <he>ההוא אריסא</he>, <cite ref=\"Kiddushin 52b:4\">ib.</cite>)."
+			]
+		}
+	]
+}

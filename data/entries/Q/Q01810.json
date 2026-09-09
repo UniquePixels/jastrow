@@ -1,0 +1,23 @@
+{
+	"id": "Q01810",
+	"slug": "פרימה",
+	"headword": {
+		"text": "פְּרִימָה"
+	},
+	"page": {
+		"number": 1227,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01868\"><he>פָּרַם</he></cite>) <i>tearing, rending of garments</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Megillah 1:7\">Meg. I, 7</cite> <he>אין בין … אלא פריעה ופ׳ בלבד</he> there is no legal difference between the locked up and the definite leper, except with regard to letting the hair grow wild and tearing the garments (<cite ref=\"Leviticus 13:45\">Lev. XIII, 45</cite>). Sifra Thazr., Par. 5, ch. IX <he>וטהר מן הפריעה ומן הפ׳ וכ׳</he> ‘he is clean’ (<cite ref=\"Leviticus 13:34\">Lev. XIII, 34</cite>), that is, he is free from the duty of &c. ",
+				"<cite ref=\"Horayot 12b:18\">Hor. 12ᵇ</cite> (ref. to <cite ref=\"Leviticus 21:10\">Lev. XXI, 10</cite>) <he>שאינו בפריעה ופ׳ כל עיקר</he> that he must not let his hair grow wild or tear his garments at all; a. e."
+			]
+		}
+	]
+}

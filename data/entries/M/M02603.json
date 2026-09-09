@@ -1,0 +1,24 @@
+{
+	"id": "M02603",
+	"slug": "מרוקא-1",
+	"headword": {
+		"text": "מָרוֹקָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 839,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M02760\"><he>מָרַק</he></cite>) <i>a substance used for polishing</i>, prob. <i>pumice</i> (v. <cite ref=\"M02763\"><he>מָרֵקָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 47a\">B. Mets. 47ᵃ</cite>, sq. <he>קונין במ׳</he> (Ar. ed. Koh. <he>במרקא</he>) you may take vicarious possession with a vessel made of <i>maroḳa</i> (although it is too brittle for practical use; Tosaf.: ‘date-stones used for smoothing parchment’; Rashi: ‘a vessel made of baked ordure’, v. <cite ref=\"C00961\"><he>גָּלָל</he></cite>). ",
+				"<cite ref=\"Bava Metzia 47a\">Ib.</cite> <cite ref=\"M00652\"><he>מוריקא</he></cite> ed. (Ms. M. <cite ref=\"M02603\"><he>מרוקא</he></cite>, v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

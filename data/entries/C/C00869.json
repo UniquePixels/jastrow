@@ -1,0 +1,111 @@
+{
+	"id": "C00869",
+	"slug": "גלגל-1",
+	"headword": {
+		"text": "גִּלְגֵּל"
+	},
+	"page": {
+		"number": 244,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., Pilp. of <he>גלל</he>)<i>to roll, turn</i>. Pirké́ d’R. El. ch. XXXVI <he>לגַלְגֵּל וכ׳</he> to roll (move) the stone.—",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:3:6\">Y. Sabb. III, 6ᵃ</cite> top <he>מְגַלְגְּלִין ביצה וכ׳</he> you may roll an egg (for roasting) on &c. ",
+				"<cite ref=\"Mishnah Challah 3:1\">Ḥall. III, 1</cite> <cite ref=\"C00872\"><he>גִּלְגְּלָה</he></cite> (<he>בחטים</he>) when she has formed the dough (of wheat) by rolling; a. fr.—<i></i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Part. pass.</i> <he>מְגוּלְגָּל</he>, f. <he>מְגוּלְגֶּלֶת</he>; pl. <he>מְגוּלְגָּלִים</he>, <he>מְגוּלְגָּלִין</he>; <he>מְגוּלְגָּלוֹת</he>. ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>rolled</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 7a:4\">Pes. 7ᵃ</cite> <he>עיסה מג׳</he> a formed dough. ",
+						"<cite ref=\"Jerusalem Talmud Sotah 1:2:7\">Y. Sot. I, 16ᶜ</cite> bot. <he>ביצים מג׳</he> roasted eggs; a. fr."
+					],
+					"label": "1"
+				}
+			]
+		},
+		{
+			"gloss": "<i>rounded</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 16b:12\">B. Bath. 16ᵇ</cite> <he>מה עדשה זו מְגוּלְגֶּלֶת אף אבילות מִגַּלְגֶּלֶת וכ׳</he> as the lentil is rounded, so does mourning roll and go around (different version in Ms., v. Rabb. D. S. a. l. note, a. in <cite ref=\"Yalkut Shimoni on Torah 110:31\">Yalk. Gen. 110</cite>, v. <cite ref=\"C00871\"><he>גַּלְגַּל</he></cite>). [<cite ref=\"Menachot 86a\">Men. 86ᵃ</cite>, v. <cite ref=\"C01255\"><he>גִּרְגֵּר</he></cite>.].—2) (with <he>על</he>) <i>to roll upon, to put on one’s shoulders, to burden, tax, assess</i>. ",
+				"<cite ref=\"Mishnah Ketubot 8:1\">Keth. VIII, 1</cite> (<cite ref=\"Ketubot 78a:2\">78ᵃ</cite>) <he>אתם מגלגלים עלינו וכ׳</he> you burden us with old restrictive laws. Y. Shebi. IV, 35ᵇ <he>אתם מג׳ וכ׳</he> ye impose upon us taxes &c. ",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 1:3:1\">Y. B. Bath. I, beg. 12ᵈ</cite> <he>מג׳ עליו וכ׳</he> you make him bear the expenses for &c."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to bring about, cause</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 32a\">Sabb. 32ᵃ</cite>; Tosef. Yoma V (IV), 12 <he>מגלגלין זכות ע״י וכ׳</he> good things are brought about through the agency of good men &c.; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (v. <cite ref=\"C00959\"><he>גָּלַל</he></cite> Nif.) <i>to overcome</i> (one’s own feelings), <i>to put up with, bear with</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 67b:5\">Keth. 67ᵇ</cite> <he>רצונך שתְּגַלְגֵּל עמי בעדשים</he> will you bear with me when I offer you only lentils? <he>ג׳ עמו וכ׳</he> he tried to live with him on lentils, and died. ",
+				"<cite ref=\"Ketubot 111a:24\">Ib. 111ᵃ</cite> <he>ג׳ בעצמו</he> he conquered his love and remained single. Y. ib. VII, beg. 31ᵇ <he>מגלגלת עמו וכ׳</he> she has to bear with him thirty days longer. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 8:1:6\">Y. Yeb. VIII, 8ᵈ</cite> top <he>גַּלְגֵּל עמהן וכ׳</he> bear with them twelve months (give them time for reconsideration)."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְגַּלְגֵּל", "הִגַּ׳"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpalp</i>. <he>נִתְגַּלְגֵּל</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be rolled</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Eruvin 10:3\">Erub. X, 3</cite> <he>נ׳ הספר מידו</he> the scroll rolled out of his hands (down the roof). ",
+						"<cite ref=\"Mishnah Challah 3:1\">Ḥall. III, 1</cite> <he>עד שתִּתְגַּלְגֵּל בחטים</he> in the case of wheat flour, until it (the dough) is rolled, v. supra. Y. Kil. IX, 32ᶜ top; Y. Keth. XII, 35ᵇ top <he>מִתְגַּלְגְּלִין</he> their bodies are rolled underground, v. <cite ref=\"C00864\"><he>גִּלְגּוּל</he></cite>. ",
+						"<cite ref=\"Bava Kamma 17b:18\">B. Kam. 17ᵇ</cite> <he>ונתג׳ למקום אחר</he> but the barrel rolled to another place. ",
+						"<cite ref=\"Pesikta Rabbati 6:1\">Pesik. R. s. 6</cite> <he>מא״י נִתְגַּלְגְלָה וכ׳</he> from Palestine it (the stone) rolled and arrived just for this momentary use; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be turned, changed, transferred, caused</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 49:13\">Pirké d’R. El. ch. XLIX</cite> <he>נתגלגלה המלכות על וכ׳</he> the royal dignity was transferred on Esther. ",
+						"<cite ref=\"Mishnah Shevuot 7:8\">Shebu. VII, 8</cite> <he>נ׳ לו שבועה וכ׳</he> if by chance an oath is imposed upon him in another law-suit (with the same persons), the court makes him swear by implication &c.; v. <cite ref=\"C00864\"><he>גִּלְגּוּל</he></cite>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (of waters) <i>to tower, gather</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 5\">Pirké d’R. El. ch. V</cite>; ch. XXIII."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": " (with <cite ref=\"T00526\"><he>רחמים</he></cite>) <i>to prevail</i> (over hatred &c.), <i>be moved</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 20:1\">Pesik. R. s. 20</cite> <he>נִתְגַּלְגְּלוּ רחמיו וכ׳</he> the Lord’s compassion was moved. Tanḥ. Vayigg. 4; a. e."
+					],
+					"label": "4"
+				},
+				{
+					"gloss": "<i>to throw one’s self upon, to attack</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 350\">Yalk. Is. 350</cite> (<cite ref=\"Yalkut Shimoni on Nach 288\">ib. 288</cite> <he>נתגאה</he>)."
+					],
+					"label": "5"
+				}
+			],
+			"stem": "Hithpalp."
+		}
+	]
+}

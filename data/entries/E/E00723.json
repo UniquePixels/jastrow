@@ -1,0 +1,32 @@
+{
+	"id": "E00723",
+	"slug": "הערבה",
+	"headword": {
+		"text": "הַעֲרָבָה"
+	},
+	"page": {
+		"number": 360,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"P01251\"><he>עֶרֶב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>going home in the evening from labor</i> (= <cite ref=\"E00518\"><he>הַכְנָסָה</he></cite>), opp. to <cite ref=\"E00923\"><he>הַשְׁכָּמָה</he></cite>. Y. B. Mets. VII, beg. 11ᵇ [read:] <he>שתהא השכמה משל בעה״ב וה׳ משל פועלין</he> that the time needed for going out &c., v. <cite ref=\"E00266\"><he>הוֹצָאָה</he></cite> 4). Ib. (not <he>ערבית</he>) <he>ובערבי שבתות בין … ה׳ וכ׳</he> on Sabbath eves both are deducted from the employer’s time.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>night work</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 19:1\">Lev. R. s. 19</cite>; Midr. Sam. ch. V <he>דברי תורה צריכין השחרה וה׳ הפרנסה מנין</he> the words of the Law require early and late study, whence shall sustenance come?"
+			],
+			"label": "2"
+		}
+	]
+}

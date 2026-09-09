@@ -1,0 +1,37 @@
+{
+	"id": "D00842",
+	"slug": "דלל-2",
+	"headword": {
+		"text": "דְּלַל"
+	},
+	"page": {
+		"number": 310,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <i>to lift up</i> (v. <cite ref=\"D00828\"><he>דְּלֵי</he></cite>). ",
+			"units": [
+				"<cite ref=\"Ketubot 72a:2\">Keth. 72ᵃ</cite> <he>דִּידַל יְדַלּוּנֵיה</he> him who lifts up (his voice in funereal lamentations), they will lift up (praise him at his funeral); <cite ref=\"Moed Katan 28b\">M. Kat. 28ᵇ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to thin</i>, v. <cite ref=\"D00833\"><he>דְּלִיל</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִידַּל"],
+			"senses": [
+				{
+					"gloss": "<i>to lift one’s self up, be proud</i>. Ib. [read:] <he>דלא אִידַּל ידלוניה</he> him who did not praise himself, they will &c. (Ms. M. 2 <he>לא לִידַּל דדיילוניה</he>, read: <he>דִּייְדַלּוּנֵיה</he>, let one not praise himself, in order that they may &c.).",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

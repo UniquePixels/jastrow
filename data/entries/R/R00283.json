@@ -1,0 +1,38 @@
+{
+	"id": "R00283",
+	"slug": "צחצח-1",
+	"headword": {
+		"text": "צִחְצֵחַ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1273,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"R00272\"><he>צחח</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to polish, furbish; to clarify, make clear</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 84a:14\">B. Mets. 84ᵃ</cite> <he>משיְצַחְצְחָן במים</he> arms are considered finished, when the smith has furbished (steeled) them by putting them in cold water. ",
+				"<cite ref=\"Rosh Hashanah 33a:3-4\">R. Hash. 33ᵃ</cite> <he>מים … כדי לצַחְצְחוֹ</he> you may pour water or wine into the Shofar to make its sound clear. ",
+				"<cite ref=\"Niddah 25b:1\">Nidd. 25ᵇ</cite> <he>מְצַחְצְחוֹ</he>, v. <cite ref=\"I00712\"><he>טָרַד</he></cite>.—Part. pass. <he>מְצוּחְצָח</he>; f. <he>מְצוּחְצֶחֶת</he>; pl. <he>מְצוּחְצָהִין</he>; <he>מְצוּחְצָחוֹת</he>. ",
+				"<cite ref=\"Vayikra Rabbah 1\">Lev. R. s. 1</cite>, v. <cite ref=\"A02514\"><he>אִסְפַּקְלַרְיָא</he></cite>. ",
+				"<cite ref=\"Midrash Tehillim 18:12\">Midr. Till. to Ps. XVIII</cite>, v. <cite ref=\"R00280\"><he>צִחְצוּחַ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to become</i> or <i>be clear</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Niddah 2:7:3\">Y. Nidd. II, 50ᵃ</cite> bot. <he>במְצַחְצֵחַ</he> when the blood is clear (fluid). Ib.ᵇ top, opp. <he>מקדיר</he>. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>אפי׳ מְצַחְצְחִין</he> even when the blood is clear. ",
+				"<cite ref=\"Devarim Rabbah 1\">Deut. R. s. 1</cite> <he>לשונו … ומצַחְצְחָה מיד וכ׳</he> his tongue is cured and speaks at once clearly in teaching the words of the Law."
+			],
+			"label": "2"
+		}
+	]
+}

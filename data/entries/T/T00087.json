@@ -1,0 +1,28 @@
+{
+	"id": "T00087",
+	"slug": "רביב",
+	"headword": {
+		"text": "רָבִיב"
+	},
+	"page": {
+		"number": 1442,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00046\"><he>רָבַב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lining, thick cloth</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 306:22\">Sifré Deut. 306</cite> (ref. to <he>רביבים</he>, <cite ref=\"Deuteronomy 32:2\">Deut. XXXII, 2</cite>) <he>זה … שמארגת את הרקיע כר׳</he> (Pesik. Zuṭr. Haăz., ed. Bub. p. 110 <he>שמרבבת</he>) that is the south wind which overweaves (which lines) the sky as with a thick lining; Yalk. ib. 942.—2) pl. <he>רְבִיבִים</he> (b. h.; <cite ref=\"T00046\"><he>רָבַב</he></cite>, cmp. <cite ref=\"T00101\"><he>רְבִיעָה</he></cite>) [<i>growth-advancing</i>,] <i>rains</i>. Sifré l. c. (ref. to Deut. l. c.) <he>מה ר׳ הללו יורדים וכ׳</he> as the rains come down on plants &c.; Yalk. l. c. ",
+				"<cite ref=\"Bava Batra 25a:14\">B. Bath. 25ᵃ</cite> (ref. to Deut. l. c.) <he>זו רוח … ר׳ וכ׳</he> that is the south wind which brings rains and makes the plants grow; ib.ᵇ; a. e."
+			],
+			"label": "1"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "R00202",
+	"slug": "צומחתה",
+	"headword": {
+		"text": "צוּמַחְתָּה"
+	},
+	"page": {
+		"number": 1268,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00566\"><he>צְמַח</he></cite>) <i>sprouting bulb, seed-onion</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 3:3:2\">Y. Peah III, 17ᶜ</cite> bot. (expl. <he>אימהות של בצלים</he>; Mish. ",
+				"<cite ref=\"Mishnah Peah 3:4\">ib. III, 4</cite>) <he>ושמואל אמר צ׳</he> Samuel says, it is what we call <i>tsumaḥtah</i>; v. <cite ref=\"Q00333\"><he>פּוּרְגָּרָה</he></cite>."
+			]
+		}
+	]
+}

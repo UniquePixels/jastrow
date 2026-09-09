@@ -1,0 +1,29 @@
+{
+	"id": "M00899",
+	"slug": "מחמי",
+	"headword": {
+		"text": "מֶחְמֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִיחמֵי"
+		}
+	],
+	"page": {
+		"number": 762,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01172\"><he>חֲמִי</he></cite>) <i>sight, appearance</i>, v. <cite ref=\"M00842\"><he>מִחְזֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 23:8\">Targ. Y. Gen. XXIII, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 41:21\">Ib. XLI, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 4:6\">Targ. Y. Deut. IV, 6</cite>; a. e."
+			]
+		}
+	]
+}

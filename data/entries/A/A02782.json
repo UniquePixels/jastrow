@@ -1,0 +1,23 @@
+{
+	"id": "A02782",
+	"slug": "אפקעתא",
+	"headword": {
+		"text": "אַפְקַעְתָּא"
+	},
+	"page": {
+		"number": 107,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01504\"><he>פקע</he></cite>) <i>cancellation of obligations, exceptional legislation</i>. <he>דמלכא א׳</he> <i>a special royal dispensation</i> (with reference to the suspensions of rights connected with the Sabbath and Yobel years). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 106a:11\">B. Mets. 106ᵃ</cite>; <cite ref=\"Bava Metzia 109a:8\">109ᵃ</cite>.—",
+				"<cite ref=\"Bava Metzia 39a:1\">Ib. 39ᵃ</cite>"
+			]
+		}
+	]
+}

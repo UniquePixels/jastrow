@@ -1,0 +1,41 @@
+{
+	"id": "S01603",
+	"slug": "קנס-1",
+	"headword": {
+		"text": "קָנַס"
+	},
+	"page": {
+		"number": 1393,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (sec. r. of <he>קס</he>, v. <cite ref=\"S01676\"><he>קסס</he></cite>) [<i>to cut</i>,] (cmp. <he>גזר</he>) <i>to decree; to fine, punish</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 75b:1\">B. Bath. 75ᵇ</cite> top <he>קָנַסְתִּי מיתה על וכ׳</he> I decreed death over Adam. ",
+				"<cite ref=\"Bamidbar Rabbah 18:4\">Num. R. s. 18</cite> <he>אין קוֹנְסִים אלא וכ׳</he> none are punished below twenty years of age, v. <cite ref=\"P01016\"><he>עָנַשׁ</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite>, beg. <he>למה הייתם קוֹנְסִין את בני</he> why did you fine (confiscate the property of) my children?; <cite ref=\"Yalkut Shimoni on Nach 888\">Yalk. Ps. 888</cite>; a. fr.—Esp. <i>to decree a penalty beyond the strict law</i>. ",
+				"<cite ref=\"Bava Metzia 72a\">B. Mets. 72ᵃ</cite>, a. e. <he>שטר … קונסין אותו וכ׳</he> if interest is stipulated in a document, we fine him (the creditor) so that he cannot collect either the principal or the interest. ",
+				"<cite ref=\"Bava Kamma 30b:19\">B. Kam. 30ᵇ</cite> <he>קָנְסוּ גופן משום שבחן</he> they decreed the forfeiture of the objects themselves on account of the illegitimate gain intended. ",
+				"<cite ref=\"Shabbat 3b:12\">Sabb. 3ᵇ</cite>, a. e. <he>קָנְסוּ שוגג אטו וכ׳</he>, v. <cite ref=\"A01073\"><he>אָטוּ</he></cite>. ",
+				"<cite ref=\"Bava Kamma 38b:14\">B. Kam. 38ᵇ</cite> <he>קנס הוא שקנס וכ׳</he> (not <he>שקניס</he>) R. M. put a penalty on their property (declared their goods eventually unclean). ",
+				"<cite ref=\"Bava Kamma 38b:15\">Ib.</cite> <he>הכי נמי נִקְנוֹס</he> let us also fine (the Samaritan woman, by disallowing her the fine due for seduction). ",
+				"<cite ref=\"Yevamot 86b:4\">Yeb. 86ᵇ</cite> <he>קנסו לוים במעשר</he> they punished the Levites by depriving them of the tithes (in favor of the priests); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִקְנָס"],
+			"senses": [
+				{
+					"gloss": "<i>to be decreed</i> (as a punishment). ",
+					"units": [
+						"<cite ref=\"Eruvin 18b:11\">Erub. 18ᵇ</cite> <he>כיון שראה שנִקְנְסָה מיתה וכ׳</he> when he (Adam) perceived that through his fault death was decreed (over the human race), he fasted &c."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "B00235",
+	"slug": "בוטנא-1",
+	"headword": {
+		"text": "בּוּטְנָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 145,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"B00527\"><he>בָּטְנֶה</he></cite>; <he>בטן</he> , √<he>בט</he> <i>to be hollow, swell</i>, v. Ges. H. Dict. s. v. <he>בטן</he>) <i>pistachio</i> (<i>nut</i> or <i>tree</i>). ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 7:5\">Shebi. VII, 5</cite> Ms. M. a. Y. ed. (Bab. ed. <cite ref=\"B00527\"><he>בטנה</he></cite>), v. <cite ref=\"B00234\">preced.</cite>; Tosef. ib. V, 11 <cite ref=\"B00237\"><he>בּוֹטְנֶה</he></cite>;—Pl. <cite ref=\"B00378\"><he>בּוּטְנִין</he></cite>, <he>בּוּטְנֵי</he>. Targ. Y. (a. O. some ed.) <cite ref=\"Genesis 43:11\">Gen. XLIII, 11</cite>; v. <cite ref=\"B00234\">preced.</cite> ",
+				"<cite ref=\"Bava Batra 80b:18\">B. Bath. 80ᵇ</cite>; v. <cite ref=\"B00234\">preced.</cite>"
+			]
+		}
+	]
+}

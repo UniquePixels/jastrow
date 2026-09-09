@@ -1,0 +1,35 @@
+{
+	"id": "A01098",
+	"slug": "אטמא",
+	"headword": {
+		"text": "אַטְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיטְמָא"
+		}
+	],
+	"page": {
+		"number": 43,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A01097\">foreg.</cite>) <i>something solid</i>, whence <i>the solid part, flank</i>. Targ. II, <cite ref=\"Esther 1:2\">Esth. I, 2</cite>.—",
+			"units": [
+				"<cite ref=\"Bava Metzia 23b\">B. Mets. 23ᵇ</cite> <he>אי דדפנא אי דא׳</he> Ar. (ed. <he>או דדפקא או דא׳</he>, v. Rabb. D. S. a. l. note 3) whether from the ribs or from the flank. ",
+				"<cite ref=\"Chullin 42b:7\">Ḥull. 42ᵇ</cite> <he>בוקא דא׳</he> the thickest part of the flank (the thigh, hip).—",
+				"<cite ref=\"Bava Batra 73b:8\">B. Bath. 73ᵇ</cite> <he>חדא דלי א׳</he> one (goose) lifted up its thigh (leg).—Pl. <cite ref=\"I00154\"><he>אַטְמֵי</he></cite>. ",
+				"<cite ref=\"Chullin 8a:11\">Ḥull. 8ᵃ</cite> <he>א׳ דקיימי לקורבנא</he> solid pieces (roast) intended for a present. ",
+				"<cite ref=\"Shabbat 49a:4\">Sabb. 49ᵃ</cite>.—<he>אַטְמָתָא</he>. ",
+				"<cite ref=\"Sanhedrin 59b\">Snh. 59ᵇ</cite> ed. (Ms. <he>אַטְמָהָתָא</he>). ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>אַטְמָאָתָא</he> (<he>רבתי</he>).—",
+				"<cite ref=\"Chullin 97b:3\">Ḥull. 97ᵇ</cite> <he>הנהו אַטְמָהָתָא</he> those solid pieces of the thigh. ",
+				"<cite ref=\"Eruvin 57b\">Erub. 57ᵇ</cite> <he>א׳ דשורא</he> ed. (Ms. <he>אטמאתא</he>) flanks (projecting parts) of a wall. V. <cite ref=\"A01221\"><he>אִיטְמָא</he></cite>."
+			]
+		}
+	]
+}

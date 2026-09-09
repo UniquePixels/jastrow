@@ -1,0 +1,45 @@
+{
+	"id": "K00067",
+	"slug": "כבס-1",
+	"headword": {
+		"text": "כָּבַס"
+	},
+	"page": {
+		"number": 609,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to press, tread</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּבֵּס"],
+			"senses": [
+				{
+					"gloss": "<i>to wash</i> (clothes). ",
+					"units": [
+						"<cite ref=\"Mishnah Moed Katan 3:1\">M. Kat. III, 1</cite> <he>ואלו מְכַבְּסִין במועד</he> and these are permitted to wash their clothes during the festive week. ",
+						"<cite ref=\"Taanit 29b:9\">Taan. 29ᵇ</cite>; <cite ref=\"Moed Katan 18a\">M. Kat. 18ᵃ</cite>, a. e. <he>מותר לְכַבְּסוֹ וכ׳</he> is permitted to wash it; a. fr.—Pesik. Eth Korb., p. 61ᵇ; <cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite> (play on <he>כבשים</he>, <cite ref=\"Numbers 28:3\">Num. XXVIII, 3</cite>) <he>שהם מְכַבְּסִים וכ׳</he> for they (as sacrifices) wash (cleanse) the sins of Israel.—Part. pass. <he>מְכוּבָּס</he>, f. <he>מְכוּבֶּסֶת</he>; pl. <he>מְכוּבָּסִין</he>; <he>מְכוּבָּסוֹת</he>. ",
+						"<cite ref=\"Mishnah Mikvaot 10:4\">Mikv. X, 4</cite> <he>בגדים שהטבילן מכ׳</he> garments immersed while still wet from washing."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְכַּבֵּס"],
+			"senses": [
+				{
+					"gloss": "<i>to be washed</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 1:5\">Cant. R. to I, 5</cite> (play on <he>שלמה</he>) [reads:] <he>מה שַׂלְמָה זו מתלכלכת ומִתְכַּבֶּסֶת וכ׳</he> as a garment is soiled and washed again &c.; <cite ref=\"Yalkut Shimoni on Nach 982\">Yalk. ib. 982</cite>. Tanḥ. Vayḥi 10 (ref. to <cite ref=\"Genesis 49:11\">Gen. XLIX, 11</cite>) <he>אם יטעו בהלכה תהא מתכבסת בתחומו וכ׳</he> when they err in a decision, it shall be cleansed (atoned for) in his (Judah’s) dominion (the Temple); <cite ref=\"Bereishit Rabbah 99:8\">Gen. R. s. 99</cite> (not <he>מתכסום</he>)."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

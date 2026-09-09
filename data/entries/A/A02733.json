@@ -1,0 +1,35 @@
+{
+	"id": "A02733",
+	"slug": "אפל-3",
+	"headword": {
+		"text": "אָפֵל",
+		"homograph": 1
+	},
+	"page": {
+		"number": 105,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (√<cite ref=\"A02595\"><he>אף</he></cite>, v. <cite ref=\"A02770\"><he>אפף</he></cite>; cmp. <cite ref=\"A00153\"><he>אבל</he></cite>, <he>הבל</he>) [thick vapory,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>dark</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 86a:7\">Sabb. 86ᵃ</cite>, a. fr. <cite ref=\"A00172\"><he>בית א׳</he></cite> a dark (windowless) house.—<cite ref=\"A02685\"><he>אֲפֵילָה</he></cite> f. <i>dark place</i>. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 9:2:7\">Y. Naz. IX, 57ᵈ</cite> top; <cite ref=\"Pesachim 81b\">Pes. 81ᵇ</cite> <he>בא׳</he>, <he>במים</he> in water or in a dark place (cave).—Pl. fem. <he>אֲפֵילוֹת</he>. ",
+				"<cite ref=\"Vayikra Rabbah 9\">Lev. R. s. 9</cite> <he>מבואות א׳</he> dark alleys; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>heavy, sluggish, slow, late</i>. Denom. <he>האפיל</he>, v. <cite ref=\"A02731\"><he>אָפַל</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

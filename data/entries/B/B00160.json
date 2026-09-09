@@ -1,0 +1,62 @@
+{
+	"id": "B00160",
+	"slug": "בדר-2",
+	"headword": {
+		"text": "בְּדַר"
+	},
+	"page": {
+		"number": 141,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>בד</he>; cmp. <he>בזר</he>, <he>פזר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to scatter, strew</i>.—<i>Pa.</i> <he>בַּדֵּר</he> same, also, <i>to distribute freely</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 68:31\">Targ. Ps. LXVIII, 31</cite>; a. fr.—",
+				"<cite ref=\"Chullin 54a:12\">Ḥull. 54ᵃ</cite> <he>אי בַּדְּרֵי לה סמא וכ׳</he> if a powder is strewn upon its wound, it may recover; [Rashb. to <cite ref=\"Bava Batra 74b\">B. Bath. 74ᵇ</cite> quotes <he>דעבד ליה סמתרי</he>]. ",
+				"<cite ref=\"Gittin 56b:17\">Gitt. 56ᵇ</cite> <he>ובַדְּרוּ לקיטמיה וכ׳</he> and scatter ye his (my) ashes over seven waters. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:5:19\">Y. Ber. IX, end, 14ᵈ</cite> <he>בשעה דמכנשין בַּדַּר וכ׳</he> when people gather (are willing to listen to instruction), distribute (teach); when people scatter (throw religion away in neglect), gather in (live in retired study). ",
+				"<cite ref=\"Shir HaShirim Rabbah 8:9:3\">Cant. R. to VIII, 9</cite> <he>בדרו גרמיכון</he> disperse ye (do not stand in crowds).—Part. pass. <he>מְבַדַּר</he> <i>scattered</i>. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:1:8\">Y. M. Kat. III, 81ᵈ</cite> top <he>אית סגין מנהון מְבַדְּרַן וכ׳</he> there are more than those (twenty four cases) scattered in Mishnah and Boraitha. ",
+				"<cite ref=\"Shabbat 20a\">Sabb. 20ᵃ</cite>, v. infra."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to shake</i> (in a sieve). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 9:9\">Targ. Amos IX, 9</cite>. [Ibid. <he>מחזרין</he>, prob. <he>מבדרין</he>.] Cmp. <cite ref=\"B00457\"><he>בַּזֵּיל</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to tread olives</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Micah 6:15\">Targ. Mic. VI, 15</cite> (perh. <he>בדד</he>?)."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתְבַּדַּר", "אִיבַּדַּר"],
+			"senses": [
+				{
+					"gloss": "; <i>Ithpe.</i> <cite ref=\"B00160\"><he>אִיתְבְּדַר</he></cite>, <cite ref=\"B00160\"><he>אִיבְּדַר</he></cite> <i>to be scattered, to disperse</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 33:3\">Targ. Is. XXXIII, 3</cite>; a. fr.—",
+						"<cite ref=\"Shabbat 20a:9\">Sabb. 20ᵃ</cite> <he>קנים מִיבַּדְּרִין</he> (v. Rabb. D. S. a. l. note 300, ed. <he>מבדרן</he>) loose staves in the stove will fall apart (and may require stirring). ",
+						"<cite ref=\"Vayikra Rabbah 6\">Lev. R. s. 6</cite> and the denars began <he>מִתְבַּדְּרִין</he> to be scattered. ",
+						"<cite ref=\"Gittin 33b\">Gitt. 33ᵇ</cite> <he>ליבַּרְּרוּ אִיבַּדּוּרֵי</he> (not <he>איבדורו</he>) let them disperse (so as not to be found together). ",
+						"<cite ref=\"Sanhedrin 8a:15\">Snh. 8ᵃ</cite> bot. <he>ואיבדור</he> and they (the judges) dispersed.—Denom. <cite ref=\"B00125\"><he>בִּדּוּר</he></cite>, <cite ref=\"B00125\"><he>בִּדּוּרָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

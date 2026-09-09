@@ -1,0 +1,30 @@
+{
+	"id": "Q00843",
+	"slug": "פירוק",
+	"headword": {
+		"text": "פֵּירוּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "פֵּר׳"
+		}
+	],
+	"page": {
+		"number": 1170,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01980\"><he>פָּרַק</he></cite>) <i>taking apart</i> (of the Tabernacle), <i>breaking up</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4</cite> <he>פֵּירוּקָן בשעת וכ׳</he> the taking apart on moving the articles of the Tabernacle took place in the same order as they were put up. ",
+				"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite>, v. <cite ref=\"P00881\"><he>עֲמִידָה</he></cite>; a. e.—Pl. <cite ref=\"Q00840\"><he>פֵּירוּקִין</he></cite>, <cite ref=\"Q00839\"><he>פֵּר׳</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 12\">Ib.</cite> ",
+				"<cite ref=\"Jerusalem Talmud Yoma 1:1:13\">Y. Yoma I, 38ᵇ</cite>, sq.; a. e."
+			]
+		}
+	]
+}

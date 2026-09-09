@@ -1,0 +1,44 @@
+{
+	"id": "T00941",
+	"slug": "רפט-1",
+	"headword": {
+		"text": "רָפַט"
+	},
+	"page": {
+		"number": 1489,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to flap, be loose, lax</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִפֵּט"],
+			"senses": [
+				{
+					"gloss": "<i>to widen, make lax</i>.—Part. pass. <he>מְרוּפָּט</he>. ",
+					"units": [
+						"<cite ref=\"Shabbat 141b:2-7\">Sabb. 141ᵇ</cite> <he>לא … במנעל מר׳ וכ׳</he> a woman must not go out (on the Sabbath) with a flappy (outworn) shoe, nor can it be used for <i>ḥălitsah</i>. ",
+						"<cite ref=\"Yevamot 102b\">Yeb. 102ᵇ</cite> <he>מנעל המר׳</he> Ar. (ed. <he>הנפרם</he>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְרַפֵּט"],
+			"senses": [
+				{
+					"gloss": "<i>to become lax</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 152a:9\">Sabb. 152ᵃ</cite> (ref. to <cite ref=\"II Samuel 19:36\">II Sam. XIX, 36</cite>) <he>מכאן ששפתותיהן … מִתְרַפְּטוֹת</he> from this we learn that the lips of the old become lax (cannot be smacked, do not enjoy a taste); <cite ref=\"Yalkut Shimoni on Nach 151:1\">Yalk. Sam. 151</cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

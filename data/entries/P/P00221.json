@@ -1,0 +1,42 @@
+{
+	"id": "P00221",
+	"slug": "עוזיאל",
+	"headword": {
+		"text": "עוּזִּיאֵל"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֻזִּ׳"
+		}
+	],
+	"page": {
+		"number": 1049,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Uzziel</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " the father of Jonathan the translator. ",
+			"units": [
+				"<cite ref=\"Bava Batra 133b:12\">B. Bath. 133ᵇ</cite>, a. fr., v. <cite ref=\"J00212\"><he>יוֹנָתָן</he></cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of two Amoraim. ",
+			"units": [
+				"<cite ref=\"Moed Katan 5a:16\">M. Kat. 5ᵃ</cite> <he>ר׳ ע׳ בר בריה דר׳ ע׳ רבה</he> R. U. grandson of R. U. the elder; Y. ib. I, 80ᵇ bot. <he>ר׳ ע׳ בריה דר׳ חונייה</he>. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 3:2:3\">Y. Bets. III, 62ᵃ</cite> top; a. e.—V. Fr. M’bo, p. 119ᵇ"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " name of a fallen angel, v. <cite ref=\"P00391\"><he>עֲזָאֵל</he></cite>, a. <cite ref=\"P00219\"><he>עוּזָּא</he> II</cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

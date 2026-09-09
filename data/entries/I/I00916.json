@@ -1,0 +1,23 @@
+{
+	"id": "I00916",
+	"slug": "טשיותא",
+	"headword": {
+		"text": "טַשְׁיוּתָא"
+	},
+	"page": {
+		"number": 559,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00915\">preced.</cite>) <i>that which is reserved, future compensation</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 17:14\">Targ. Ps. XVII, 14</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 20:26\">Targ. Job. XX, 26</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,80 @@
+{
+	"id": "M02130",
+	"slug": "מעלה-3",
+	"headword": {
+		"text": "מַעֲלָה"
+	},
+	"page": {
+		"number": 817,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"M02129\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ascent, step</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 2:3\">Midd. II, 3</cite> <he>רום מ׳</he> the height of every step; a. e.—Pl. <he>מַעֲלוֹת</he>. ",
+				"<cite ref=\"Mishnah Middot 2:3\">Ib.</cite> ",
+				"<cite ref=\"Mishnah Sukkah 5:4\">Succ. V, 4</cite> <he>חמשה עשר מ׳ היורדות … שיר המ׳</he> fifteen steps leading down …, corresponding to the fifteen ‘Songs of Steps’ (<cite ref=\"Psalms 120\">Ps. CXX</cite> to CXXXIV). Ib. 53ᵃ <he>הני חמש עשרה מ׳</he> those fifteen (Songs of) Steps. ",
+				"<cite ref=\"Yoma 23a:16\">Yoma 23ᵃ</cite> <he>מ׳ האולם</he> the steps in front of the Temple hall (<cite ref=\"Tosefta Yoma 1:12\">Tosef. ib. I, 12</cite> <he>פתח</he>); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>rise</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 15:17\">Num. R. s. 15</cite> <he>מַעֲלָתָן של צדיקים מ׳ וכ׳</he> the rise of the righteous is a rise without a decline; <he>מַעֲלָתוֹ של עשו מ׳ שכולה וכ׳</he> Esau’s (a Roman’s) rise is a rise which may lead to degradation; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>degree, gradation, superiority</i>; <i>preference; advantage</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 44a:10\">Yoma 44ᵃ</cite>; <cite ref=\"Bamidbar Rabbah 7:8\">Num. R. s. 7</cite> <he>הוי מה מ׳ יש בין וכ׳</he> now, there is no gradation of sanctity between the interior of the Temple and the space …, except &c. ",
+				"<cite ref=\"Ketubot 13a:17\">Keth. 13ᵃ</cite>, a. e. <he>מ׳ עשו ביוחסין</he> where priestly descent is concerned, they put up a higher standard (made the law more stringent). ",
+				"<cite ref=\"Kiddushin 70b:14\">Kidd. 70ᵇ</cite> <he>זו מ׳ יתירה יש בין וכ׳</he> this is the distinction of Israelites over converts; a. fr.—<i>Pl.</i> as ab. ",
+				"<cite ref=\"Yoma 44b:2\">Yoma 44ᵇ</cite> <he>מ׳ דאוריתא</he> the gradations in sanctity are of Biblical origin (v. ",
+				"<cite ref=\"Mishnah Kelim 1:8\">Kel. I, 8</cite>, sq.).—3) <i>height, on high</i>. Mekh. Mishp. s. 15 <he>עין של מ׳</he> the eye of the Lord. Tanḥ. ",
+				"<cite ref=\"Exodus 23\">B’shall. 23</cite> <he>אש של מ׳</he> (some ed. <he>שֶׁלְּמַ׳</he>), v. <cite ref=\"M00971\"><he>מַטָּה</he></cite>.—<he>לְמַעֲלָה</he> "
+			],
+			"label": "3",
+			"senses": [
+				{
+					"gloss": " <i>on high, in heaven</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chagigah 2:1\">Ḥag. II, 1</cite> (<cite ref=\"Mishnah Chagigah 2:11\">11</cite>) <he>מה למ׳</he> (Ms. M. a. Y. ed. <he>למעלן</he>) what is on high; <cite ref=\"Bereishit Rabbah 1\">Gen. R. s. 1</cite>; a. fr.—Freq. <cite ref=\"M02138\"><he>מַעֲלָן</he></cite>, <he>לְמַעֲלָן</he>, <he>שֶׁלְּמַעֲלָן</he>, <he>מִלְּמַ׳</he>, v. <cite ref=\"M00971\"><he>מַטָּה</he></cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>upward, behind, beyond</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kiddushin 4:5\">Kidd. IV, 5</cite> <he>מן המזבח ולמ׳</he>, v. <cite ref=\"B00154\"><he>בָּדַק</he></cite>; a. fr.—"
+					],
+					"label": "b"
+				},
+				{
+					"gloss": " (of time) <i>further on</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 50b:5\">Pes. 50ᵇ</cite>, a. fr. <he>מן המנחה ולמ׳</he> from the <i>minḥah</i> time and onward. ",
+						"<cite ref=\"Berakhot 26b\">Ber. 26ᵇ</cite>; a. fr.—"
+					],
+					"label": "c"
+				},
+				{
+					"gloss": " <i>above, of superior rank</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kelim 1:2\">Kel. I, 2</cite>, sq. <he>למ׳ מהם</he> of a higher rank (in Levitical law); a. fr."
+					],
+					"label": "d"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "Q00425",
+	"slug": "פזי",
+	"headword": {
+		"text": "פַּזִּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּזְיָא"
+		}
+	],
+	"page": {
+		"number": 1150,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Pazzi</i>, (<i>Pazia</i>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Horayot 3:5:15\">Y. Hor. III, end, 48ᶜ</cite>; <cite ref=\"Jerusalem Talmud Shabbat 12:3:3\">Y. Sabb. XII, 13ᶜ</cite> bot. <he>אילין דבר פ׳</he> members of the family of Bar Pazzi; Y. Sot. IX, end, 24ᶜ <he>דבי פ׳</he>.—Pesik. Par., p. 33ᵃ <he>חנין בר פ׳</he>; Tanḥ. Ḥuck. 5 <he>חנין בן פ׳</he>; <cite ref=\"Yalkut Shimoni on Torah 759:7\">Yalk. Num. 759</cite> <he>חנן בר פפי</he> (corr. acc.); <cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite> <he>יוחנן בן פ׳</he>; <cite ref=\"Yalkut Shimoni on Nach 658:3\">Yalk. Ps. 658</cite> <he>שמעון בן פ׳</he>. ",
+				"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>חנן בן פ׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:3:4\">Y. Meg. IV, 75ᵃ</cite> bot. <he>חנניה בן פ׳</he>; a. e."
+			]
+		}
+	]
+}

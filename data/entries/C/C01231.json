@@ -1,0 +1,44 @@
+{
+	"id": "C01231",
+	"slug": "גרב-2",
+	"headword": {
+		"text": "גְּרַב"
+	},
+	"page": {
+		"number": 263,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>גרף</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to scrape</i>, v. <cite ref=\"C01232\">next ws.</cite>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to rob, seize, levy</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 148a:1\">Sabb. 148ᵃ</cite> <he>זיל גַּרְבֵיה</he> go and seize him (take his coat until he appears). ",
+				"<cite ref=\"Shabbat 148a:1\">Ib.</cite> <he>לא בדינא גְרַבְתִּיךְ</he> was I not right in summoning thee? <cite ref=\"Chagigah 5b:1\">Ḥag. 5ᵇ</cite> <he>גַּרְבוּהוּ</he> they (the royal officers) seized his property. ",
+				"<cite ref=\"Gittin 45a:14\">Gitt. 45ᵃ</cite> <he>משום דלא לִיגַרְבוּ וכ׳</he> in order that robbers should not be tempted to kidnap persons and then offer them for ransom. ",
+				"<cite ref=\"Gittin 46b:16\">Ib. 46ᵇ</cite> <he>גרבי להו</he> seized them (for debts)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיגְּרַב"],
+			"senses": [
+				{
+					"gloss": "<i>to be robbed</i>. Y. B. Mets. IV, 9ᵈ <he>אִיגַּרְבַת</he> thou hast been robbed of one Denar.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

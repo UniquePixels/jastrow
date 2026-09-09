@@ -1,0 +1,23 @@
+{
+	"id": "H00873",
+	"slug": "חירום",
+	"headword": {
+		"text": "חֵירוּם"
+	},
+	"page": {
+		"number": 460,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01714\"><he>חָרַם</he></cite>) <i>exclusion, disassociation</i>, esp. <i>interdiction of travel</i> between two countries at war with each other. ",
+			"units": [
+				"<cite ref=\"Bava Batra 38a:6\">B. Bath. 38ᵃ</cite> <he>בשעת ח׳</he> at a time when commercial intercourse was cut off. ",
+				"<cite ref=\"Bava Batra 38b:1\">Ib. 38ᵇ</cite> <he>יהודה</he> … <he>ח׳ דמו</he> Judaea and Galilee are generally to be considered as if in a state of interdiction (possession in one country is no valid claim when the owner lived in the other); Y. ib. III, 14ᵃ top."
+			]
+		}
+	]
+}

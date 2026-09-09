@@ -1,0 +1,29 @@
+{
+	"id": "O00831",
+	"slug": "סירגול",
+	"headword": {
+		"text": "סִירְגּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִרְ׳"
+		}
+	],
+	"page": {
+		"number": 987,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01531\"><he>סִרְגֵּל</he></cite>) <i>drawing lines, ruling</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 24\">Gen. R. s. 24</cite>, end <he>אפי׳ סִירְגּוּלוֹ של ספר</he> even the way of ruling the parchment for the Book (the Pentateuch). ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:11\">Cant. R. to I, 11</cite> ‘the silver dots’ <he>זה הס׳</he> (some ed. <he>הסַרְגֵּל</he>) that means the ruling for sacred scriptures. ",
+				"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite>, beg.; a. e."
+			]
+		}
+	]
+}

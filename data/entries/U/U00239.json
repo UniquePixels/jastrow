@@ -1,0 +1,29 @@
+{
+	"id": "U00239",
+	"slug": "שגרונא",
+	"headword": {
+		"text": "שִׁגְרוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1523,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שְׁגַר</he> I, 2) <i>dragging</i> or <i>casting the legs, hip-disease</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 51a:9\">Ḥull. 51ᵃ</cite> <he>ההיא אימרתא … האי ש׳ נקטיה</he> (Ms. M. <he>שיגדונא</he>, Ar. <he>שגד׳</he>, v. Rabb. D. S. a. l. note) there was a case of lambs … that dragged their hind legs (v. <cite ref=\"U00234\"><he>שְׁגַר</he> I</cite>), said R. Yemar, that is a case (of which, when occurring with a man, we say) ‘hip-disease has seized him’ (which does not rise from a severance of the spinal cord). ",
+				"<cite ref=\"Chullin 51a:9\">Ib.</cite> <he>ש׳ שכיח חוט וכ׳</he> hip-disease is a frequent disorder, severance of the spinal cord is unusual. ",
+				"<cite ref=\"Gittin 69b:15\">Gitt. 69ᵇ</cite> <he>לש׳ וכ׳</he> as a remedy for hip-disease, let one take &c."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "T00246",
+	"slug": "רדיא-1",
+	"headword": {
+		"text": "רַדְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רַדְיָיא"
+		}
+	],
+	"page": {
+		"number": 1452,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00245\">preced.</cite>) <i>plougher</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 9:13\">Targ. Am. IX, 13</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 5:3:6\">Y. Shebi. V, 36ᵃ</cite> <he>תורא ר׳</he> a plough ox.—Pl. <cite ref=\"T00248\"><he>רָדַיָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 129:3\">Targ. Ps. CXXIX, 3</cite> (ed. Lag. <cite ref=\"T00007\"><he>רָאדַיָּא</he></cite>; v. <cite ref=\"D00029\"><he>דָּארָא</he></cite>)."
+			]
+		}
+	]
+}

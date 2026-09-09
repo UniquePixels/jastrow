@@ -1,0 +1,47 @@
+{
+	"id": "T00952",
+	"slug": "רפס-1",
+	"headword": {
+		"text": "רָפַס"
+	},
+	"page": {
+		"number": 1490,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to stamp, beat</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 37a:6\">Men. 37ᵃ</cite> <he>מקום שמוחו … רוֹפֵס</he> (Ag. Hatt. <cite ref=\"T00957\"><he>רוֹפֵף</he></cite>, v. Rabb. D. S. a. l. note 1) the place on the head where the child’s brain pulsates; (<cite ref=\"Yalkut Shimoni on Torah 222:1\">Yalk. Ex. 222</cite> <cite ref=\"T00957\"><he>רופף</he></cite>). ",
+				"<cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite>, beg. <he>היתה רוֹפֶסֶת עליה</he> she stamped upon it; (<cite ref=\"Shabbat 62b:19\">Sabb. 62ᵇ</cite> <he>בועט׳</he>). Lam. R. introd. (R. Ḥan. 2) (ref. to <cite ref=\"Proverbs 25:19\">Prov. XXV, 19</cite>) <he>ולמה שן רועה … ורגל רופסת וכ׳</he> and why does the feeding tooth eat us and the foot tread upon us?; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִרְפַּס"],
+			"senses": [
+				{
+					"gloss": "<i>to be trodden, stamped upon</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 36\">Lev. R. s. 36</cite> <he>מה גפן זו … נִרְפֶּסֶת וכ׳</he> as the fruit of the vine is first trodden with the foot and then offered at kings’ tables, so Israel &c.; Midr. Sam. ch. XVI. ",
+						"<cite ref=\"Bereishit Rabbah 75\">Gen. R. s. 75</cite>, beg. (ref. to <cite ref=\"Proverbs 25:26\">Prov. XXV, 26</cite>) <he>כשם … להֵרָפֵס וכ׳</he> as it is impossible for a spring to be stamped out and for a well to be corrupted, so is it impossible that the righteous sink before the wicked; Yalk. ib. 130.—[Y. Erub. V, 22ᵈ top <he>מִיתַּרְפֵּס</he>, <cite ref=\"M01327\"><he>מִתַּ׳</he></cite>, v. <cite ref=\"H01463\"><he>חָּפַס</he></cite> a. <cite ref=\"I00667\"><he>טָפס</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִרְפִּיס"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to be trodden upon, to humiliate</i>. Midr. Sam. ch. II, end (expl. ",
+					"units": [
+						"<cite ref=\"I Samuel 1:16\">I Sam. I, 16</cite>) <he>אל תַּרְפִּיסֵנִי קַמָּהּ</he> do not humiliate me before her (Peninah).—V. <cite ref=\"T00965\"><he>רָפַשׂ</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

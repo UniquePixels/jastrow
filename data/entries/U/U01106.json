@@ -1,0 +1,33 @@
+{
+	"id": "U01106",
+	"slug": "שיתאסא",
+	"headword": {
+		"text": "שִׁיתְאָסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁיתָּסָא"
+		}
+	],
+	"page": {
+		"number": 1570,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (comp. of <cite ref=\"U01103\"><he>שִׁית</he></cite> a. <cite ref=\"A02319\"><he>אסא</he></cite>, P. Sm. 291; v. <cite ref=\"A02427\"><he>אֲסִי</he></cite>) <i>foundation</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 137:7\">Targ. Ps. CXXXVII, 7</cite> (ed. Wil. <cite ref=\"U02077\"><he>שִׁתְּאֲסָא</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 38:38\">Targ. Job XXXVIII, 38</cite> (ed. Wil. <cite ref=\"U02077\"><he>שִׁתְאָסָה</he></cite>; h. text <he>מוצק</he>); a. e.—Pl. <he>שִׁיתְאָסִין</he>, <he>שִׁיתְאֲסַיָּיא</he>, <cite ref=\"U01107\"><he>שִׁתְ׳</he></cite> (also used as <i>sing.</i>) <cite ref=\"Aramaic Targum to Job 4:19\">Ib. IV, 19</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 22:16\">Ib. XXII, 16</cite> Ms. (differ. in ed.). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 10:25\">Targ. Prov. X, 25</cite> (ed. Wil. <he>שִׁתְאֲסָיָא</he>, oth. ed. <he>סַיָן …</he>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Psalms 18:16\">Targ. Ps. XVIII, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 24:2\">Ib. XXIV, 2</cite> <he>שוי שִׁתְסָהָא</he> (ed. Lag. <cite ref=\"U00406\"><he>שויתיתאה</he></cite>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 3:9\">Targ. Prov. III, 9</cite> [read:] <he>שוי שיתאסיא דארעא</he> (v. Pesh.)."
+			]
+		}
+	]
+}

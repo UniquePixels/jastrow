@@ -1,0 +1,23 @@
+{
+	"id": "J00160",
+	"slug": "יודא",
+	"headword": {
+		"text": "יוּדָא"
+	},
+	"page": {
+		"number": 567,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Yuda</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 7:1:4\">Y. Ned. VII, beg. 40ᵇ</cite>. ",
+				"<cite ref=\"Zevachim 55b\">Zeb. 55ᵇ</cite>, v. <cite ref=\"J00159\">preced.</cite>"
+			]
+		}
+	]
+}

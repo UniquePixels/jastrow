@@ -1,0 +1,23 @@
+{
+	"id": "E00607",
+	"slug": "המיין",
+	"headword": {
+		"text": "הֶמְיָין"
+	},
+	"page": {
+		"number": 355,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. <i>hemyân</i>, Fl. in Levy Targ. Dict. s. v. <cite ref=\"E00613\"><he>הֶמְיָנָא</he></cite>) <i>belt</i>, <i>girdle</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 10:15\">Erub. X, 15</cite> (<cite ref=\"Eruvin 104b\">104ᵇ</cite>).—Pl. <he>הֶמְיָינִין</he>. ",
+				"<cite ref=\"Mishnah Sukkah 5:3\">Succ. V, 3</cite> (<cite ref=\"Sukkah 51a:16\">51ᵃ</cite>) <he>ומהֶמְיָינֵיהֶן היו מפקיעין</he> ed. Y. a. Ms. M. (v. Rabb. D. S. a. l. note) out of their (old) belts they made wicks."
+			]
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "T01049",
+	"slug": "רקע-2",
+	"headword": {
+		"text": "רְקַע"
+	},
+	"page": {
+		"number": 1497,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַרְקַע</he> <cite ref=\"T01048\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 37:18\">Targ. Job XXXVII, 18</cite> <he>תַּרְקַע</he> (ed. Wil. <cite ref=\"V00511\"><he>תִּרְ׳</he></cite>)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["רַקּעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to patch</i>.—Part. pass. <cite ref=\"M02772\"><he>מְרַקַּע</he></cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Joshua 9:5\">Targ. Josh. IX, 5</cite> ed. Wil. <he>מְרַקְּעִין</he> (Ar. <he>מְרַקְּעָן</he>; ed. Lag. <he>מרקיעין</he>, corr. acc.; some ed. <he>מְרוּקָּעִין</he> Hebraism; h. text <he>מטלאות</he>).—V. <cite ref=\"M02766\"><he>מַרְקוֹעַ</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

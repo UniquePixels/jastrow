@@ -1,0 +1,22 @@
+{
+	"id": "D00401",
+	"slug": "דחוחא",
+	"headword": {
+		"text": "דָּחוֹחָא"
+	},
+	"page": {
+		"number": 291,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>דְּחוֹחֵי</he> (<cite ref=\"D00398\"><he>דחח</he></cite>, v. <cite ref=\"D00398\"><he>דְּחַהּ</he></cite>) <i>wantonness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 62:9\">Targ. Ps. LXII, 9</cite> ed. Lag., v. <cite ref=\"G00087\"><he>זְחוֹחָא</he></cite>."
+			]
+		}
+	]
+}

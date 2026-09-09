@@ -1,0 +1,24 @@
+{
+	"id": "A01462",
+	"slug": "איסטרכין",
+	"headword": {
+		"text": "אִיסְטַרְכִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 56,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (Ispe. of <cite ref=\"O01636\"><he>סרך</he></cite>; cmp. b. h. <he>שְׂרוֹךְ</he>) <i>plaited chords</i>, as a collect. noun fem. <i>a girdle of strips of cloth</i> (used by washers). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 10:10:2\">Y. B. Kam. X, end, 7ᶜ</cite> <he>הוה עביד ליה חדא א׳ וכ׳</he> used to make for himself one girdle of one kind of wool (so as not to be suspected of using strips of the cloths given him for washing)."
+			]
+		}
+	]
+}

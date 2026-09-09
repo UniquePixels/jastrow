@@ -1,0 +1,26 @@
+{
+	"id": "Q00387",
+	"slug": "פורצנא",
+	"headword": {
+		"text": "פּוּרְצָנָא"
+	},
+	"page": {
+		"number": 1148,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>פּוּרְצָנִין</he>, <cite ref=\"Q00387\"><he>פּוּרְצָנֵי</he></cite> (<cite ref=\"Q01445\"><he>פצץ</he></cite>, with anorg. <cite ref=\"T00000\"><he>ר</he></cite>; cmp. <cite ref=\"Q01979\"><he>פַּרְצִידָא</he></cite>) <i>kernels of grapes, a pomace of kernels</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 6:5\">Targ. O. Num. VI, 5</cite> (ed. Vien. <he>פּוּרְצְ׳</he>); quot. ",
+				"<cite ref=\"Nazir 39a:2\">Naz. 39ᵃ</cite>.—",
+				"<cite ref=\"Avodah Zarah 34b:1\">Ab. Zar. 34ᵇ</cite> <he>פ׳ דארמאי</he> kernels sold by gentiles. ",
+				"<cite ref=\"Pesachim 42b\">Pes. 42ᵇ</cite> <he>בדפ׳</he> when the drink (<cite ref=\"V00648\"><he>תָּמָד</he></cite>) is made of kernels. ",
+				"<cite ref=\"Berakhot 38a:6\">Ber. 38ᵃ</cite> <he>או דפ׳ קאמרת</he> or do you mean (by <i>trimma</i>) a drink made of kernels? <cite ref=\"Chullin 110a:8\">Ḥull. 110ᵃ</cite> <he>בפ׳</he> over a fire made with kernels (cmp. <cite ref=\"O00396\"><he>סוּפְלֵי</he></cite>)."
+			]
+		}
+	]
+}

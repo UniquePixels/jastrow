@@ -1,0 +1,31 @@
+{
+	"id": "M01428",
+	"slug": "מכסן",
+	"headword": {
+		"text": "מַכְסֵן"
+	},
+	"page": {
+		"number": 784,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"M01429\">next w.</cite>) <i>to chastise</i>. [<cite ref=\"Aramaic Targum to Psalms 94:12\">Targ. Ps. XCIV, 12</cite> <he>מכסניניה</he>, Var. ed. Lag., read: <he>תַּכְסְ׳</he>, v. <cite ref=\"K00946\"><he>כְּסַן</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְמַכְסֵן"],
+			"senses": [
+				{
+					"gloss": "<i>to be chastised</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 33:19\">Targ. Job XXXIII, 19</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

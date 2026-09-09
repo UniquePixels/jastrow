@@ -1,0 +1,22 @@
+{
+	"id": "S00103",
+	"slug": "קברן",
+	"headword": {
+		"text": "קַבְּרָן"
+	},
+	"page": {
+		"number": 1313,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00095\"><he>קָבַר</he></cite>) <i>grave-digger</i>, name of a <i>bird</i> (that buries its eggs at the sea-shore). ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 7:10\">Esth. R. to III, 6</cite> quoted in Matt. K. to <cite ref=\"Esther Rabbah 2:2\">Esth. R. to I, 4</cite> <cite ref=\"S00100\"><he>קברין</he></cite> some ed. (ed. <cite ref=\"P00311\"><he>עוף</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 1054\">Yalk. Esth. 1054</cite> <cite ref=\"A00225\"><he>אברני</he></cite>)."
+			]
+		}
+	]
+}

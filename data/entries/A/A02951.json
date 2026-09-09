@@ -1,0 +1,25 @@
+{
+	"id": "A02951",
+	"slug": "ארבא-1",
+	"headword": {
+		"text": "אַרְבָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 113,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>ארב</he> <i>to join</i>, cmp. <cite ref=\"A02988\"><he>ארגז</he></cite>, <he>תיבה</he>) <i>boat</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 101b:13\">B. Mets. 101ᵇ</cite> <he>א׳ דחמרא</he> a boat-load of wine; a. fr.—",
+				"<cite ref=\"Gittin 6a:13\">Gitt. 6ᵃ</cite>; <cite ref=\"Kiddushin 72a:2\">Kidd. 72ᵃ</cite> <he>א׳ תנייתא וכ׳</he> Ar. ed. Koh. (ed. <cite ref=\"V00745\"><he>תניינא</he></cite>) to the second boat of the (floating) bridge; cmp. Kidd. l. c. <he>והאידנא וכ׳</he> ‘and now the Persians placed the bridge higher up’. [Oth. opin., v. <cite ref=\"A02974\"><he>אֲרַבְתָּא</he></cite>.]—Pl. <cite ref=\"T00082\"><he>אַרְבֵּי</he></cite>. ",
+				"<cite ref=\"Bava Metzia 72b:15\">B. Mets. 72ᵇ</cite> <he>חיטי … וא׳</he> the wheat in granaries and ships."
+			]
+		}
+	]
+}

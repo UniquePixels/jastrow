@@ -1,0 +1,72 @@
+{
+	"id": "S00805",
+	"slug": "קטע-2",
+	"headword": {
+		"text": "קְטַע"
+	},
+	"page": {
+		"number": 1351,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00804\">same</cite><i>to cut off, break off</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 34:4\">Targ. II Chr. XXXIV, 4</cite> (h. text <he>גדע</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 19:5\">Targ. Y. Deut. XIX, 5</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Numbers 13:23\">Targ. Y. II, Num. XIII, 23</cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 39:3\">Targ. Y. Ex. XXXIX, 3</cite>; a. fr.—",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> (<cite ref=\"P00342\"><he>העיר</he></cite>) <he>קְטַע קִטְעָךְ</he> cut thy cut (garment, i.e. mind thy own business). Y. Sabb. VI, 8ᶜ bot. <he>מִיקְטוֹעַ</he>, v. <cite ref=\"K00578\"><he>כֵּיסָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:5:3\">Y. Meg. IV, 75ᵇ</cite> bot., v. <cite ref=\"D00471\"><he>דִּיבּוּרָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:5:3\">Ib.</cite> <he>אין קַטְעוּן רישך וכ׳</he> and if they were to cut thy head off, do not listen to them; a. fr.—Part. pass. <cite ref=\"S00761\"><he>קְטִיעַ</he></cite>; f. <cite ref=\"S00762\"><he>קְטִיעָא</he></cite>; pl. <he>קְטִיעִין</he>; <cite ref=\"S00762\"><he>קְטִיעָן</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 11:32\">Targ. Y. Num. XI, 32</cite> <he>דק׳</he> he that was crippled. ",
+				"<cite ref=\"Targum Jonathan on Exodus 21:21\">Targ. Y. Ex. XXI, 21</cite> <he>תרין יומין ק׳</he> two days incomplete (v. <cite ref=\"S00804\">preced.</cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 46:29\">Targ. Y. Gen. XLVI, 29</cite>; a. e.—Pesik. Naḥămu, p. 125ᵇ, a. e.—<he>ק׳ לישנא</he> tongue-cut, stammerer, v. <cite ref=\"Q01290\"><he>פְּסִילּוֹסָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to cut short, end</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 44:21\">Gen. R. s. 44</cite>; <cite ref=\"Yalkut Shimoni on Torah 77:17\">Yalk. ib. 77</cite>, v. <cite ref=\"M01581\"><he>מִלְכָי</he></cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to form cakes</i> (v. <cite ref=\"S00811\"><he>קְטַף</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 12:39\">Targ. Y. Ex. XII, 39</cite>."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַטַּע"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S00804\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 16:13\">Targ. Job XVI, 13</cite> Ms. (ed. <i>Pe.</i>; h. text <he>יפלח</he>). ",
+						"<cite ref=\"Targum of II Chronicles 2:9\">Targ. II Chr. II, 9</cite>; a. e.—Y. Sabb. VII, 10ᵃ bot.; Y. Bets. IV, 62ᶜ bot., v. <cite ref=\"B00079\"><he>בגומא</he></cite>. Y. Meg. l. c. <he>ולינן מְקַטְּעִין לון וכ׳</he> do we not break a portion of the Pentateuch (<cite ref=\"O00203\"><he>סִדְרָא</he></cite>) for their sake (divide the recitation of a Sidra among the school children)? Y. Ned. IX, 41ᶜ (we say to him who vowed revenge, ref. to <cite ref=\"Leviticus 19:18\">Lev. XIX, 18</cite>) <he>הוה מְקַטָּע … תחזור ותמחי לידיה</he> he chopped meat, and the knife struck his hand, wilt thou again strike his hand?, i.e. if he did wrong, he hurt himself. Y. Sabb. XII, beg. 13ᶜ, v. <cite ref=\"Q01309\"><he>פְּסִיפָּס</he></cite>. ",
+						"<cite ref=\"Beitzah 25b:3\">Bets. 25ᵇ</cite> <he>מקטע רגליהון וכ׳</he>, v. <cite ref=\"H01507\"><he>חֲצוּבָא</he> II</cite>, a. <cite ref=\"N00563\"><he>נְטִיעָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְקְטַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut, shortened</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 24:61\">Targ. Y. Gen. XXIV, 61</cite>. ",
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 8:13\">Targ. Koh. VIII, 13</cite>.—Y. Peah VIII, end, 21ᵇ <he>ידיה … יִתְקַטְעוּן</he>, v. <cite ref=\"Q02064\"><he>פְּשַׁט</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

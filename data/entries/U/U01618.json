@@ -1,0 +1,38 @@
+{
+	"id": "U01618",
+	"slug": "שסי-1",
+	"headword": {
+		"text": "שסי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁסָה"
+		}
+	],
+	"page": {
+		"number": 1608,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (onomatop.) <i>to hiss</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׁיסָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to set on</i> (a dog, serpent &c.). ",
+					"units": [
+						"<cite ref=\"Mishnah Sanhedrin 9:1\">Snh. IX, 1</cite>, v. <cite ref=\"N01325\"><he>נָשַׁךְ</he></cite>; <cite ref=\"Bava Kamma 23b:6\">B. Kam. 23ᵇ</cite>. ",
+						"<cite ref=\"Bava Kamma 23b:6\">Ib.</cite> <he>מאן פטור מְשַׁסֶּה וכ׳</he> who is exempt from responsibility? Is he exempt that set the dog on, and is the owner of the dog responsible? <cite ref=\"Bava Kamma 24b:6\">Ib. 24ᵇ</cite> <he>המשסה … חבירו בחבירו</he> he who sets his neighbor’s dog on a neighbor; <he>שִׁיסָּהוּ הוא בעצמו</he> if he incited the neighbor’s dog against himself. ",
+						"<cite ref=\"Bereishit Rabbah 84\">Gen. R. s. 84</cite> <he>באו ונְשַׁסֶּה בו וכ׳</he> come, let us set on the dogs against him (Joseph); a. e.—[Bibl. Hebr. <he>שסה</he> <i>to plunder</i>, cmp. <cite ref=\"U01620\"><he>שָׁסַע</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

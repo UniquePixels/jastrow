@@ -1,0 +1,28 @@
+{
+	"id": "D00669",
+	"slug": "דיסתקא-1",
+	"headword": {
+		"text": "דִּיסְתְּקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּסְ׳"
+		}
+	],
+	"page": {
+		"number": 303,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (dial. for <cite ref=\"D01158\"><he>דשתקא</he></cite>, v. <cite ref=\"D00668\">preced.</cite>; Dithpe. denom. of <cite ref=\"U01824\"><he>שַׁקָּא</he></cite>; cmp. Syr. <he>אסתקא</he>, <he>דסתקא</he>, P. Sm. 325; 931) <i>handle</i> of an axe, sword &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 3:22\">Targ. Jud. III, 22</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Eruvin 5:5:2\">Y. Erub. V, 22ᵈ</cite> bot. <he>דשקתא דגזוראי</he> (read: <cite ref=\"D01158\"><he>דִּשְׁתְּקָא</he></cite>) the handle of a wood-cutters’ axe (wedged in between two buildings of a court). [Correct s. v. <cite ref=\"C00533\"><he>גְּזוֹרָאָה</he></cite>: (<he>גזר</he>) <i>wood-cutter</i>.]"
+			]
+		}
+	]
+}

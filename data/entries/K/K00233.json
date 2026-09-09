@@ -1,0 +1,23 @@
+{
+	"id": "K00233",
+	"slug": "כוזנתא",
+	"headword": {
+		"text": "כּוּזַנְתָּא"
+	},
+	"page": {
+		"number": 618,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"K00226\"><he>כּוּזָא</he></cite>, <i>jug</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 71b:6\">Ab. Zar. 71ᵇ</cite>; <cite ref=\"Moed Katan 12a:18\">M. Kat. 12ᵃ</cite> quot. in Rashi to Ab. Zar. l. c. (ed. <cite ref=\"K00234\"><he>כּוּזְתָא</he></cite>, Ms. M. <cite ref=\"K00226\"><he>כּוּזָא</he></cite>). ",
+				"<cite ref=\"Shabbat 139b\">Sabb. 139ᵇ</cite> <he>אפומא דכוזנתא</he> Rashi Ms. (ed. <he>בפומיה דכוזני דחביתא</he>; Ms. O. <he>בפומא דכוזתא</he>, v. Rabb. D. S. a. l. note) on the mouth of the jug (used for taking wine out of the larger vessel)."
+			]
+		}
+	]
+}

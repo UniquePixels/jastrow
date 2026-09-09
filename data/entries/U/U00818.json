@@ -1,0 +1,28 @@
+{
+	"id": "U00818",
+	"slug": "שיגושתא",
+	"headword": {
+		"text": "שִׁיגּוּשְׁתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁגּ׳"
+		}
+	],
+	"page": {
+		"number": 1558,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"U00817\">same</cite>. Targ. II Esth. VI, 1. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 1:10\">Targ. Esth. I, 10</cite> (not <cite ref=\"U00227\"><he>שַׁגִּישְׁתָּא</he></cite>).—Pl. <cite ref=\"U00818\"><he>שִׁיגּוּשָׁתָא</he></cite>, <cite ref=\"U00816\"><he>שִׁגּ׳</he></cite>. ",
+				"<cite ref=\"Targum of II Chronicles 15:5\">Targ. II Chr. XV, 5</cite>."
+			]
+		}
+	]
+}

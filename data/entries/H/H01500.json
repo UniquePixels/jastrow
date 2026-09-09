@@ -1,0 +1,31 @@
+{
+	"id": "H01500",
+	"slug": "חצדא-1",
+	"headword": {
+		"text": "חֲצָדָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַצְדָּא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 494,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01499\">preced.</cite>) <i>crop, harvest-time</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 8:22\">Targ. Gen. VIII, 22</cite>.—",
+				"<cite ref=\"Onkelos Leviticus 19:9\">Targ. Lev. XIX, 9</cite>; a. fr.—",
+				"<cite ref=\"Moed Katan 12b:10\">M. Kat. 12ᵇ</cite> <he>חצדו ליה ח׳ וכ׳</he> had his crop cut &c. ",
+				"<cite ref=\"Moed Katan 12b:10\">Ib.</cite> <he>ח׳ דחיטי הוה</he> it was the wheat crop; a. e."
+			]
+		}
+	]
+}

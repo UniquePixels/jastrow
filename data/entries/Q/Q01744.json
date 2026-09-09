@@ -1,0 +1,41 @@
+{
+	"id": "Q01744",
+	"slug": "פרז",
+	"headword": {
+		"text": "פָּרַז"
+	},
+	"page": {
+		"number": 1222,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to break through, open</i>, v. <cite ref=\"Q01641\"><he>פָּרוּז</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִפְרִיז"],
+			"senses": [
+				{
+					"gloss": "<i>to break through, go beyond</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 4b:15\">Nidd. 4ᵇ</cite> <he>ה׳ על מדותיו</he> went beyond his measures, i.e. extended the restrictions of the law too far. ",
+						"<cite ref=\"Nedarim 32a:15\">Ned. 32ᵃ</cite> <he>ה׳ על מדותיו של הקב״ה</he> he went too far in testing the attributes (goodness) of the Lord, i.e. presumed on God’s kindness by asking for a sign (<cite ref=\"Genesis 15:8\">Gen. XV, 8</cite>); <cite ref=\"Yalkut Shimoni on Torah 74\">Yalk. Gen. 74</cite>. ",
+						"<cite ref=\"Kohelet Rabbah 8:8\">Koh. R. to VIII, 8</cite> <he>מַפְרִיזִין באצבעותיהן וכ׳</he> pointed with their fingers towards a distance, saying, the vision which he sees &c. (<cite ref=\"Ezekiel 12:27\">Ez. XII, 27</cite>); (Lam. R. introd. (R. Ḥan. 1) <he>ומורין</he>, v. <cite ref=\"J00601\"><he>יָרָה</he></cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to offer a higher rent than originally stipulated</i> in consideration of a loan to be used to improve the property. ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Metzia 5:5\">B. Mets. V, 5</cite> <he>ומַפְרִיז על שדהו וכ׳</he> (Var. <he>ומַפְרִין</he>; Ms. M. <he>ומפרי׳</he>; Y. ed. <he>ומפרין</he>) and a tenant may offer higher rent for his field in consideration of a loan for improvements, and need not regard the appearance of usury. Ib. 69ᵇ <he>אין מפריז לא על חנות וכ׳</he> (Ms. M. everywhere <he>מפרין</he>) you dare not offer higher rent for a shop or a ship in consideration of a loan (to be invested in the business); Y. ib. V, 10ᶜ top <he>מפרין</he>; v. <cite ref=\"Q01783\"><he>פָּרָה</he></cite> a. <cite ref=\"Q01879\"><he>פָּרַן</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

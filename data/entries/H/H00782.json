@@ -1,0 +1,26 @@
+{
+	"id": "H00782",
+	"slug": "חילפא-2",
+	"headword": {
+		"text": "חִילְפָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 457,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>חלף</he>) a species of <i>willow</i> with serried leaves (v. <cite ref=\"H00781\">preced.</cite>; Fl. to Levy Targ. Dict. I, 425<sup>1</sup> “so called from its fast growth”). ",
+			"units": [
+				"<cite ref=\"Sukkah 34a:7\">Succ. 34ᵃ</cite> <he>משכחת לה בח׳ גילא</he> Ms. M. a. Rashi (ed. <he>כי תניא האי בח׳ וכ׳</he>) (‘a willow the leaves of which are not serried like the teeth of a saw, but like those of a sickle’) refers to a willow with rounded leaves.—[<cite ref=\"Sukkah 34a:7\">Ib.</cite> <he>ח׳ ערבתא</he> Rashi, v. <cite ref=\"H01108\"><he>חִלְפְתָא</he></cite>.]—Pl. <cite ref=\"H00783\"><he>חִילְפֵי</he></cite>. ",
+				"<cite ref=\"Shabbat 152a:4\">Sabb. 152ᵃ</cite> <he>סבותא כלילא דח׳</he> old age is a crown of willow rods (heavy to wear). ",
+				"<cite ref=\"Shabbat 77b\">Ib. 77ᵇ</cite>. ",
+				"<cite ref=\"Sanhedrin 44a:2\">Snh. 44ᵃ</cite>, v. <cite ref=\"A02322\"><he>אָסָא</he> III</cite>."
+			]
+		}
+	]
+}

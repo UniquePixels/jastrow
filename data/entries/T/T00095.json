@@ -1,0 +1,28 @@
+{
+	"id": "T00095",
+	"slug": "רבין",
+	"headword": {
+		"text": "רַבִּין"
+	},
+	"altHeadwords": [
+		{
+			"text": "רָבִין"
+		}
+	],
+	"page": {
+		"number": 1442,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (= <he>רב אבין</he>) <i>Rabbin, Rabin</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Pesachim 25a:13\">Pes. 25ᵃ</cite>, a. fr. <he>כי אתא ר׳</he> when R. came (to Babylonia). ",
+				"<cite ref=\"Pesachim 34b:5\">Ib. 34ᵇ</cite> <he>כי סליק ר׳</he> when R. came up (to Palestine); a. fr.—V. Fr. M’bo, p. 60ᵇ"
+			]
+		}
+	]
+}

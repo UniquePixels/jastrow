@@ -1,0 +1,40 @@
+{
+	"id": "U00440",
+	"slug": "שומא-1",
+	"headword": {
+		"text": "שׁוּמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוּמָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1536,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"U00437\"><he>שׁוּם</he> II</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>estimate, appraisement</i>, esp. <i>the appraisement of valuables brought into marriage by the wife</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 66b:3\">Keth. 66ᵇ</cite> <he>ש׳ רבה</he> an appraisement of great proportions, <he>ש׳ זוטא</he> of small proportions; <he>ש׳ דידיה</he> his (the husband’s) appraisement, <he>ש׳ דידה</he> her appraisement (made in her paternal home)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>settlement, compromise</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 107a:8\">B. Bath. 107ᵃ</cite> (if three appraisers differ) <he>עושין ש׳ ביניהן ומשלשין</he> we compromise between them by taking the difference between the highest and the lowest estimates and dividing it by three, i.e. by adding one-third of the difference to the lowest estimate; <cite ref=\"Tosefta Ketubot 11:2\">Tosef. Keth. XI, 2</cite> <he>עושין אותה ש׳ ושמין אותה שליש</he> ed. Zuck. (Var. <he>עושין שׁוּמָה ביניהן וכ׳</he>; oth. ed. <he>עושין אותו ש׳ ביניהן ושמין אותן שליש</he>). [<cite ref=\"Bava Kamma 95b:11\">B. Kam. 95ᵇ</cite>, a. e. <cite ref=\"U00440\"><he>שומא</he></cite>, v. <cite ref=\"U00435\"><he>שׁוּם</he> I</cite>]."
+			],
+			"label": "2"
+		}
+	]
+}

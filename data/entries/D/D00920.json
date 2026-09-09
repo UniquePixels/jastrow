@@ -1,0 +1,24 @@
+{
+	"id": "D00920",
+	"slug": "דנא-2",
+	"headword": {
+		"text": "דָּנָא"
+	},
+	"page": {
+		"number": 315,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"A00569\"><he>אוּדְנָא</he> II</cite>) <i>a cylindrical vessel, jar</i> (dolium). ",
+			"units": [
+				"<cite ref=\"Yoma 28b:16\">Yoma 28ᵇ</cite> <he>ד׳ דחלא</he> a jar of vinegar (which emits a stronger smell through a slight opening than when open). ",
+				"<cite ref=\"Avodah Zarah 60a\">Ab. Zar. 60ᵃ</cite>, v. <cite ref=\"K00181\"><he>כּוּבָּא</he> II</cite>. ",
+				"<cite ref=\"Shabbat 157b\">Sabb. 157ᵇ</cite>, v. <cite ref=\"A00569\"><he>אוּדְנָא</he> II</cite>."
+			]
+		}
+	]
+}

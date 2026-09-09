@@ -1,0 +1,25 @@
+{
+	"id": "P00500",
+	"slug": "עיגונא",
+	"headword": {
+		"text": "עִיגּוּנָא"
+	},
+	"page": {
+		"number": 1067,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00499\">same</cite><i>anchor</i>, v. <cite ref=\"P00499\">preced.</cite>",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>condition of a deserted wife, disability to remarry</i>, v. <cite ref=\"P00105\"><he>עָגַן</he></cite>. ",
+			"units": [
+				"<cite ref=\"Gittin 3a:6\">Gitt. 3ᵃ</cite>; <cite ref=\"Yevamot 88a:11\">Yeb. 88ᵃ</cite> <he>משום ע׳ אקילו וכ׳</he> in order to prevent the eventuality of ‘widowhood in life’, the Rabbis have made lenient rules for her (as regards testimony to her husband’s death); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

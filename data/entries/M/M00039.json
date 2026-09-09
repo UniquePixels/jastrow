@@ -1,0 +1,25 @@
+{
+	"id": "M00039",
+	"slug": "מאכל",
+	"headword": {
+		"text": "מַאֲכָל"
+	},
+	"page": {
+		"number": 723,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"A01696\"><he>אָכַל</he></cite>)<i>food; meal; meal-time</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 10a:8\">Sabb. 10ᵃ</cite>; <cite ref=\"Pesachim 12b:13\">Pes. 12ᵇ</cite> <he>מַאֲכַל לודים</he>, v. <cite ref=\"L00199\"><he>לוּדִים</he></cite>. ",
+				"<cite ref=\"Berakhot 40a:1\">Ber. 40ᵃ</cite> <he>אסור … עד שיתן מ׳ לבהמתו</he> a person is forbidden to eat before giving food to his animal. ",
+				"<cite ref=\"Taanit 20a\">Taan. 20ᵃ</cite> <he>מ׳ אדם</he> food fit for human beings; a. fr.—[<cite ref=\"Jerusalem Talmud Chagigah 2:7:3\">Y. Ḥag. II, end, 78ᶜ</cite> <he>אפי׳ מ׳ אפי׳ כסות</he>, read: <he>אפי׳ מובל אפי׳ כפות</he>, v. <cite ref=\"J00048\"><he>יָבַל</he></cite>.]—Pl. <he>מַאֲכָלוֹת</he>. ",
+				"<cite ref=\"Bereishit Rabbah 20:5\">Gen. R. s. 20</cite> <he>שתהא אוכל מ׳ כאדם</he> that thou shouldst eat food like human beings; (<cite ref=\"Tosefta Sotah 4:17\">Tosef. Sot. IV, 17</cite> <he>מעדנים</he>, Var. <he>מאכל אדם</he>)."
+			]
+		}
+	]
+}

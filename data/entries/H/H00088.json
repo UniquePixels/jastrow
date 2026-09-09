@@ -1,0 +1,31 @@
+{
+	"id": "H00088",
+	"slug": "חבל-6",
+	"headword": {
+		"text": "חֵבֶל"
+	},
+	"page": {
+		"number": 420,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H00083\"><he>חָבַל</he></cite>)<i>writhing, throes of birth, agony</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 98b:8\">Snh. 98ᵇ</cite>, a. e. <he>חֶבְלוֹ של משיח</he> the sufferings which are to precede the advent of the Messiah.—Pl. <he>חֲבָלִים</he>, constr. <he>חֶבְלֵי</he>. ",
+				"<cite ref=\"Niddah 31a:9\">Nidd. 31ᵃ</cite> <he>ח׳ נקבה</he> the pains at giving birth to a female. ",
+				"<cite ref=\"Niddah 31a:11\">Ib.</cite> <he>חבלי של נקבה</he> (read: <he>חבלים</he>). ",
+				"<cite ref=\"Niddah 31a:9\">Ib.</cite> <he>וזהו ח׳ אשה</he> and this is the cause of woman’s throes."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>damage, injury</i>. Mekh. Mishp., N’zikin, s. 8 <he>ח׳ אשה לבעל</he> the damages for a wife’s injury belong to her husband.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

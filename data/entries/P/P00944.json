@@ -1,0 +1,38 @@
+{
+	"id": "P00944",
+	"slug": "ענבה",
+	"headword": {
+		"text": "עֲנָבָה"
+	},
+	"page": {
+		"number": 1091,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00943\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>stalk of grapes</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 111b:15\">Keth. 111ᵇ</cite> <he>מביא ע׳ אחת וכ׳</he> will bring in one stalk on a wagon or a ship … and will use its wood for cooking; <he>ואין לך כל ע׳ וע׳ שאין וכ׳</he> and there will not be a stalk yielding less than thirty kegs of wine. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 6:2:5\">Y. Naz. VI, 55ᵃ</cite> bot.; a. fr.—Pl. <cite ref=\"P00946\"><he>עֲנָבוֹת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 6:2:5\">Ib.</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>ramified plants</i>,] <i>standing corn, fruit on the tree, crop</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:3:9\">Y. Snh. II, 20ᵇ</cite> bot. (ref. to <cite ref=\"II Samuel 23:11\">II Sam. XXIII, 11</cite>, a. ",
+				"<cite ref=\"I Chronicles 11:13\">I Chr. XI, 13</cite>) <he>עדשים היו אלא שהיתה ע׳ שלהן יפה כשל שעורין</he> it was a field of lentils, but their growth was as fine as that of barley; <cite ref=\"Ruth Rabbah 4:9\">Ruth R. to II, 9</cite> (Par. 5 beg.) <he>עִנְּבוּתָן דּוֹמָה לשעורין</he> (ed. Wil. <cite ref=\"D00284\"><he>דומין</he></cite>, corr. acc.); (Midr. Sam. ch. XX <he>שמלתם</he>, read: <cite ref=\"U00077\"><he>שִׁבּוֹלְתָּם</he></cite>, v. <cite ref=\"U00077\"><he>שִׁבּוֹלֶת</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 165:9\">Yalk. Sam. 165</cite> <he>היו גבוהים כשעורים</he>).—",
+				"<cite ref=\"Mishnah Peah 1:2\">Peah. I, 2</cite> <he>לפי רוב הע׳</he> (Var. in Maim.) according to the quantity of the standing crop; [ed. <he>העֲנָוָה</he>, Ms. M. <he>העֲנָיָה</he>]. Ib. VI, 7 <he>כאילו היא ע׳ של שעורים</he> Y. ed. (Mish. a. Bab. ed. <cite ref=\"P00958\"><he>ענוה</he></cite>, Ms. M. <cite ref=\"P00982\"><he>עניה</he></cite>) as if it were a crop of barley; v. <cite ref=\"P00958\"><he>עֲנָוָה</he> I</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

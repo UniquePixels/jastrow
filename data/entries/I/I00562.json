@@ -1,0 +1,56 @@
+{
+	"id": "I00562",
+	"slug": "טמש",
+	"headword": {
+		"text": "טְמַשׁ"
+	},
+	"page": {
+		"number": 540,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"I00561\">preced.</cite>; corresp. to h. <he>טבל</he>) <i>to dip, immerse</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 12:22\">Targ. Y. Ex. XII, 22</cite>; a. fr.—Part. pass. <he>טְמִישׁ</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 80:6\">Targ. Ps. LXXX, 6</cite> (not <cite ref=\"I00546\"><he>טַמִּ׳</he></cite>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["טַמֵּשׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00561\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ruth 2:14\">Targ. Ruth II, 14</cite> (ed. Amst. <i>Pe.</i>); a. fr.—",
+						"<cite ref=\"Sanhedrin 110a\">Snh. 110ᵃ</cite> bot. <he>וטַמְּשֵׁיה במיא</he> Ar. (ed. <he>ואמשייה מייא</he>) and dipped it in water. ",
+						"<cite ref=\"Bava Batra 74a\">B. Bath. 74ᵃ</cite> <he>וטמשיה</he> Ar. (ed. <he>אמשינה</he>, v. Rabb. D. S. a. l. note 6). ",
+						"<cite ref=\"Gittin 69a:6\">Gitt. 69ᵃ</cite> <he>ונִיטמֵּישׁ וכ׳</he> (or <he>ונִיטְמִישׁ</he>) and let him dip them &c.; a. e.—<i>Part. pass.</i> <he>מְטַמַּשׁ</he> <i>bathed, washed</i>. ",
+						"<cite ref=\"Aramaic Targum to Job 24:8\">Targ. Job XXIV, 8</cite> (ed. Wil. <he>מִטַ׳</he> Ithpa.)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיטַּמַּשׁ"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיטְּמִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be dipped, to sink</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 60:10\">Targ. Ps. LX, 10</cite>.—",
+						"<cite ref=\"Sukkah 10b:3\">Succ. 10ᵇ</cite> <he>אִיטְּמִישָׁא ליה וכ׳</he> (Ms. M. <he>אשתמיטא</he>, cler. error for <he>אִתְטְמִישָׁא</he>) his garment became soaked with water."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

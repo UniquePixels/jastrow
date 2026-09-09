@@ -1,0 +1,34 @@
+{
+	"id": "D01049",
+	"slug": "דרדק",
+	"headword": {
+		"text": "דַּרְדַּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּרְדְּקָא"
+		}
+	],
+	"page": {
+		"number": 321,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Parpel noun of <he>דקק</he>; cmp. <cite ref=\"D01004\"><he>דַּקִּיק</he></cite> a. <he>רַּעְדֵּק</he>) <i>tender, young, small;</i> esp. <i>pupil of a primary class</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 3:19\">Targ. Job III, 19</cite>.—",
+				"<cite ref=\"Bava Metzia 66a:8\">B. Mets. 66ᵃ</cite> <he>ד׳ קרעיה גברא רבא וכ׳</he> was it a child that destroyed the note? A great man &c. ",
+				"<cite ref=\"Bava Metzia 66a:9\">Ib.</cite> <he>ד׳ קרעיה דכולי עלמא וכ׳</he> it was a beginner in learning that tore it, for, in civil law, all people are beginners &c.—Pl. <cite ref=\"D01048\"><he>דַּרְדְּקִין</he></cite>, <cite ref=\"D01049\"><he>דַּרְדְּקֵי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 30:1\">Targ. Job XXX, 1</cite> <he>ד׳ מיני</he> my juniors; a. e.—B. Mets. l. c.—",
+				"<cite ref=\"Bava Batra 21a:10\">B. Bath. 21ᵃ</cite> <he>מקרי ד׳</he> teacher of primaries (Bible teacher); <cite ref=\"Bekhorot 46a:2\">Bekh. 46ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 104a:4\">Sabb. 104ᵃ</cite>. ",
+				"<cite ref=\"Bava Kamma 92b\">B. Kam. 92ᵇ</cite>, v. <cite ref=\"C00131\"><he>גַּבְרָא</he></cite>. ",
+				"<cite ref=\"Ketubot 111b:20\">Keth. 111ᵇ</cite> <he>מקרי ד׳ דר״ל</he> the teacher of Resh Lakish’s children."
+			]
+		}
+	]
+}

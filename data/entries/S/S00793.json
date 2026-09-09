@@ -1,0 +1,27 @@
+{
+	"id": "S00793",
+	"slug": "קטמנא",
+	"headword": {
+		"text": "קִטְמָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִי׳"
+		}
+	],
+	"page": {
+		"number": 1350,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְטַם</he> III) <i>ash-colored.—</i>Pl. <he>קִטְמָנִין</he>, <cite ref=\"S00089\"><he>קִי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Zechariah 6:83\">Targ. Zech. VI, 83</cite> (Ar. <he>קטמין</he>, corr. acc.; h. text <he>אמצים</he>)."
+			]
+		}
+	]
+}

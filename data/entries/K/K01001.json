@@ -1,0 +1,43 @@
+{
+	"id": "K01001",
+	"slug": "כפורת",
+	"headword": {
+		"text": "כַּפּוֹרֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּפֹּרֶת"
+		}
+	],
+	"page": {
+		"number": 658,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"K01000\">preced.</cite>) [<i>cover</i>; in symbolical language <i>place of atonement</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cover of the Holy Ark</i>. Sifra Vayikra, N’dabah, Par. 1, ch. II. ",
+			"units": [
+				"<cite ref=\"Menachot 27b:6\">Men. 27ᵇ</cite> <he>אל פני הכ׳</he> up to the very front of the <i>kapporeth</i>, contrad. to <he>מבית לפ׳</he> the room occupied by the <i>k.</i>, Holy of Holies. ",
+				"<cite ref=\"Menachot 27b:17\">Ib.</cite> <he>מקדש שני דלא הוו ארון וכ׳</he> during the Second Temple when ark and cover no longer existed. ",
+				"<cite ref=\"Yoma 55a:1\">Yoma 55ᵃ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <he>בית הכ׳</he>) <i>the innermost of the Temple, the Holy of Holies</i> <he>(מקדש הקדש</he>). ",
+			"units": [
+				"<cite ref=\"Mishnah Shekalim 6:5\">Shek. VI, 5</cite>; <cite ref=\"Tosefta Shekalim 3:1\">Tosef. ib. III, 1</cite> <he>זהב לַכַּ׳</he> (inscription on one of the offering boxes) ‘Gold for the <i>k.</i>,’ expl. ",
+				"<cite ref=\"Tosefta Shekalim 3:6\">ib. 6</cite> <he>עושין … ציפוי לבית קה״ק</he> of these offerings were made gold foils for the inside of the Holy of Holies. ",
+				"<cite ref=\"Tosefta Temurah 4:8\">Tosef. Tem. IV, 8</cite> <he>אין … אפי׳ לאחורי בית הכ׳</he> we dare not use it for gold foils even for the back wall of &c.; [Ar.: <cite ref=\"K01001\"><he>כְּפוֹרֶת</he></cite> <i>plating for the Temple roof</i>; comment. <cite ref=\"K01002\"><he>כְּפֹ׳</he></cite> (collect. noun) <i>vessels</i>, v. <cite ref=\"K00995\"><he>כְּפוֹר</he> II</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

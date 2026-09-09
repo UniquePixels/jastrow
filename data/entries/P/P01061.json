@@ -1,0 +1,34 @@
+{
+	"id": "P01061",
+	"slug": "עפי-1",
+	"headword": {
+		"text": "עֲפֵי"
+	},
+	"page": {
+		"number": 1099,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <cite ref=\"P00635\"><he>עיף</he></cite>; v. <cite ref=\"P00311\"><he>עוּף</he> I</cite>) [<i>to be bent</i>,] <i>to toil</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 21:25\">Targ. Prov. XXI, 25</cite> <cite ref=\"A02680\"><he>עָפְיָין</he></cite> ed. Lag. (some ed. a. Levita <cite ref=\"P01064\"><he>עפייץ</he></cite>, corr. acc.; Bxt. a. ed. Wil. <he>צָבְיָין</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַעֲפֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to spread, be doubled, thick-branched</i>. Part. <he>מַעֲפֵי</he>; f. <cite ref=\"M02064\"><he>מְעַפְיָא</he></cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Hosea 4:13\">Targ. Hos. IV, 13</cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 6:13\">Targ. Ez. VI, 13</cite> (h. text <he>עֲבֻתָּה</he>, v. <cite ref=\"P00035\"><he>עָבוֹת</he></cite>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

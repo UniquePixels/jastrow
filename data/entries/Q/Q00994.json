@@ -1,0 +1,29 @@
+{
+	"id": "Q00994",
+	"slug": "פלחא-2",
+	"headword": {
+		"text": "פָּלְחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1178,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00993\">preced.</cite> wds.) <i>worker; servant; worshipper</i>.—Pl. <he>פָּלְחִין</he>, <he>פָּלְחִי</he>, <cite ref=\"Q00994\"><he>פּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 19:9\">Targ. Is. XIX, 9</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 49:15\">Targ. Ps. XLIX, 15</cite> <he>פ׳ אוריתא</he> workers (students) of the Law (Ms. <he>פלחן בהון</he>).—Y. Ab. Zar. I, 39ᶜ top, v. <cite ref=\"Q00991\"><he>פְּלַח</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "U00797",
+	"slug": "שיבור",
+	"headword": {
+		"text": "שִׁיבּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁבּ׳"
+		}
+	],
+	"page": {
+		"number": 1557,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00174\"><he>שָׁבַר</he></cite>) <i>breaking, dashing to pieces</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 2:2:2\">Y. B. Kam. II, 3ᵃ</cite> top <he>על הש׳</he> for the breaking (destroying the tops of plants). ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 4:4:11\">Y. Ab. Zar. IV, 44ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 7:5\">Deut. VII, 5</cite>) <he>או ש׳ או גידוע וכ׳</he> either dashing, or hewing down, or pulling down is ordained for each of them (the altar, pillars &c.). ",
+				"<cite ref=\"Shemot Rabbah 46\">Ex. R. s. 46</cite>, beg. <he>על ש׳ הלוחות</he> over his breaking the tablets. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 1:1:7\">Y. Yoma I, 38ᵇ</cite> top; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "S00967",
+	"slug": "קילוס-2",
+	"headword": {
+		"text": "קִילּוּס",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קִלּ׳"
+		}
+	],
+	"page": {
+		"number": 1360,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01377\"><he>קָלַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>praise</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 78\">Gen. R. s. 78</cite> <he>הגיע זמן קִילּוּסִי לקלס וכ׳</he> my turn has come to give praise &c. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 5:4:2\">Y. Succ. V, 55ᵇ</cite> bot. <he>ולקִילּוּסָן הוא צריך</he> is he in need of their praise? <cite ref=\"Jerusalem Talmud Sukkah 5:4:2\">Ib.</cite> <he>חביב קילוסן של ישראל וכ׳</he> (not <cite ref=\"S00969\"><he>קילוסין</he></cite>) Israel’s praise (of the Lord) is preferred to &c. ",
+				"<cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite>, end (ref. to <cite ref=\"Psalms 19\">Ps. XIX</cite>) <he>בתחלה משורר בק׳</he> he begins by singing praise. ",
+				"<cite ref=\"Shemot Rabbah 15\">Ex. R. s. 15</cite> <he>הכל נותנין לי ק׳</he> all will do me homage; a. fr.—Pl. <cite ref=\"S00969\"><he>קִילּוּסִין</he></cite>, <cite ref=\"S00959\"><he>קִלּ׳</he></cite>. Y. Succ. l. c. <he>אע״פ שיש לפניו כמה ק׳ וכ׳</he> although there are before him many praises (<cite ref=\"Daniel 7:10\">Dan. VII, 10</cite>), yet Israel’s praise &c., v. supra. Y. Pes. VIII, 36ᵇ; <cite ref=\"Jerusalem Talmud Moed Katan 1:5:4\">Y. M. Kat. I, 80ᵈ</cite> top <he>מהו דברים … ק׳</he> what words?… praises (of the departed whose bones are collected). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 16:1:7\">Y. Sabb. XVI, 15ᶜ</cite> bot. <he>כל הק׳ שישראל מקלסין וכ׳</he> all the praises which Israel offers to the Lord (the psalms) correspond in number to the years of Jacob’s life; <cite ref=\"Tractate Soferim 16:11\">Treat. Sof’rim XVI, 11</cite>. Y. R. Hash. IV, 59ᶜ <he>עשרה ק׳ וכ׳</he> ten praises (Halleluiahs) which David spoke (Bab. ",
+				"<cite ref=\"Rosh Hashanah 32a:17\">ib. 32ᵃ</cite> <he>הילולים</he>); a. fr.—[<cite ref=\"Bereishit Rabbah 5\">Gen. R. s. 5</cite> <he>נעשה ק׳ להקב״ה</he>, v. <cite ref=\"S01265\"><he>קְלִוְוסִין</he></cite>.—",
+				"<cite ref=\"Yalkut Shimoni on Torah 885:9\">Yalk. Deut. 885</cite> <he>בקלוסין</he>, read: <he>בקולסין</he>, v. <cite ref=\"S00356\"><he>קוֹלָס</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>making noise, tramping, clapping</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 27b:7\">M. Kat. 27ᵇ</cite> <he>ק׳ ברגל</he> <i>ḳillus</i> is done with the foot; <cite ref=\"Tosefta Moed Kattan 2:17\">Tosef. ib. II, 17</cite> <he>ק׳ זה פישוט וכ׳</he> (not <he>קילום</he>) <i>ḳillus</i> is stretching out the arms (and clapping), contrad to <cite ref=\"I00413\"><he>טיפוח</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 84\">Gen. R. s. 84</cite>; <cite ref=\"Yalkut Shimoni on Torah 142:1\">Yalk. ib. 142</cite> <he>בק׳ היה בא</he> he (Joseph) came with noise (cheer)."
+			],
+			"label": "2"
+		}
+	]
+}

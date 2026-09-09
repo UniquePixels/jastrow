@@ -1,0 +1,24 @@
+{
+	"id": "A00753",
+	"slug": "אונס-1",
+	"headword": {
+		"text": "אוֹנֶס"
+	},
+	"page": {
+		"number": 29,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A02259\"><he>אָנַס</he></cite>) <i>compulsion, force; unavoidable interference, accident</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 30a:5\">Git. 30ᵃ</cite>, a. e. <he>אין א׳ בגיטין</he> the plea of unavoidable interference cannot be raised in letters of divorce (to which a condition is attached). ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:1:12\">Y. M. Kat. III, 81ᵈ</cite> bot., a. e. <he>מחמת אוֹנְסוֹ</he> through no fault of his.—Pl. <he>אוֹנְסִים</he>, <cite ref=\"A00757\"><he>אוֹנְסִין</he></cite>. ",
+				"<cite ref=\"Mishnah Nedarim 3:1\">Ned. III, 1</cite>, a. e. <he>נדרי א׳</he> vows on conditions unavoidably unfulfilled."
+			]
+		}
+	]
+}

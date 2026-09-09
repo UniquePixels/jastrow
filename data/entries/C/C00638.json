@@ -1,0 +1,24 @@
+{
+	"id": "C00638",
+	"slug": "גידונין",
+	"headword": {
+		"text": "גִּידּוּנִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 235,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"C00633\"><he>גִּידּוּדָא</he></cite>) <i>valleys, ravines</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 21:14\">Targ. Is. XXI, 14</cite> <he>פוקו ג׳ למיא</he> ed. Lag. (v. notes p. XXIX, 21) come forth, ye ravines, to receive the waters (ed. Buxt. a. oth. <he>נַגְדִּין</he>). [Our w. prob. a corrupt. of <cite ref=\"C00638\"><he>גִּידּוּדִין</he></cite>.]"
+			]
+		}
+	]
+}

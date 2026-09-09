@@ -1,0 +1,32 @@
+{
+	"id": "S00148",
+	"slug": "קדל",
+	"headword": {
+		"text": "קְדָל"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְדָלָא"
+		}
+	],
+	"page": {
+		"number": 1316,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <he>קדד</he>) <i>hindpart of the head with neck, neck, back</i> (corresp. to h. <cite ref=\"P01429\"><he>עֹרֶף</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 5:8\">Targ. O. Lev. V, 8</cite> <he>קְדָלֵיה</he>; Y. <he>קוּדְלֵיה</he>, <cite ref=\"S00871\"><he>קִדְ׳</he></cite>, <cite ref=\"S02204\"><he>קְרָ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 49:8\">Targ. Gen. XLIX, 8</cite>; a. fr.—",
+				"<cite ref=\"Shemot Rabbah 51:6\">Ex. R. s. 51</cite> (ref. to <cite ref=\"Exodus 33:8\">Ex. XXXIII, 8</cite>) they said <he>חמו קְדַל בריה וכ׳</he> see the (fat) neck of Amram’s son! Y. Bets. V, 63ᵃ bot. <he>קְדָלֵיה דר״מ</he>, v. <cite ref=\"Q00811\"><he>פִּיקְיָילִין</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 28:6\">Lev. R. s. 28</cite> <he>אנא מימיך לך ק׳ וכ׳</he> I shall lower my back for thee, tread upon me and mount the horse; a. e.—Pl. <he>קְדָלִין</he>, <he>קְדָלֵי</he>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 665\">Yalk. Lev. 665</cite> (not <cite ref=\"S00181\"><he>קדרון</he></cite>), v. <cite ref=\"P01430\"><he>עָרְפָּא</he></cite>.—קרלי דחזירי <i>bacon</i>. ",
+				"<cite ref=\"Megillah 13a:16\">Meg. 13ᵃ</cite>, v. <cite ref=\"K00429\"><he>כּוֹתְלָא</he></cite>."
+			]
+		}
+	]
+}

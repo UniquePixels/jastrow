@@ -1,0 +1,40 @@
+{
+	"id": "M00796",
+	"slug": "מחבוא",
+	"headword": {
+		"text": "מַחֲבוֹא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַחֲבוֹאָה",
+			"homograph": 1
+		},
+		{
+			"text": "מַחֲבוֹיָה"
+		}
+	],
+	"page": {
+		"number": 757,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = <cite ref=\"M00794\"><he>מַחְבֵא</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Ketubot 27a:12\">Keth. 27ᵃ</cite> <he>אם יש שם מחבואה אחת</he> if there was only one hiding place (where the troops did not enter); <cite ref=\"Jerusalem Talmud Gittin 3:4:2\">Y. Gitt. III, 45ᵃ</cite> top <he>היה שם מחבויה</he> (read <he>היתה</he>).—Pl. <he>מַחֲבוֹאִים</he>, <he>מַחֲבוֹיִים</he>, <he>מַחֲבוֹיִין</he> (b. h. <he>מַחֲבֹאִים</he>). ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 2:9:4\">Y. Keth. II, 26ᵈ</cite> <he>היו שם מ׳</he>, v. supra.—",
+				"<cite ref=\"Menachot 63a:3\">Men. 63ᵃ</cite> (play on <cite ref=\"M00805\"><he>מַחֲבַת</he></cite>) <he>דאתיא אמַחֲבוֹאֵי הלב</he> it atones for the hidden (sinful) thoughts of the heart.—",
+				"<cite ref=\"Jerusalem Talmud Peah 7:2:6\">Y. Peah VII, 20ᵃ</cite> bot. (expl. <he>כרכר</he> a. <he>כרכרה</he> as a substitute for <cite ref=\"M00795\"><he>מַחֲבֵא</he> II</cite>) <he>שהוא משיר את המ׳</he> (not <he>משייר</he>) for it (the rod) causes the hidden olives to fall off."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = <cite ref=\"M00795\"><he>מַחֲבֵא</he> II</cite>, q. v.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

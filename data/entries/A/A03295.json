@@ -1,0 +1,35 @@
+{
+	"id": "A03295",
+	"slug": "אשישה",
+	"headword": {
+		"text": "אֲשִׁישָׁה"
+	},
+	"page": {
+		"number": 128,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h., <he>אשש</he>)<i>anything made compact and substantial by pressing</i>, whence ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cake, pan-cake</i> (in Bible <i>pressed raisin-cake</i>). ",
+			"units": [
+				"<cite ref=\"Pesachim 36b:15\">Pes. 36ᵇ</cite> excluding from ‘bread of misery’, <he>חלוט וא׳</he> pudding and pan-cake. [Talmudic etymology, ibid., ‘<i>one sixth of an epha</i> of flour made into a cake’.] Y. ib. II, 29ᵇ bot.—Bab. ib. l. c. Samuel says <he>א׳ גרבא וכ׳</he> <i>ăshishah</i> (<cite ref=\"II Samuel 6:19\">II Sam. VI, 19</cite>) means a jug of wine (v. <cite ref=\"A03294\">preced.</cite>).—Pl. <he>אֲשִׁישׁוֹת</he> (b. h.). ",
+				"<cite ref=\"Chullin 124b:17\">Ḥull. 124ᵇ</cite> <he>אני היום סמכוני בא׳</he> to me to-day the Bibl. words apply, ‘Support me with cakes’ (<cite ref=\"Song of Songs 2:5\">Cant. II, 5</cite>); <cite ref=\"Beitzah 21a:3\">Bets. 21ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pl. <cite ref=\"A03297\"><he>אֲשִׁישִׁים</he></cite>, <cite ref=\"A03297\"><he>אֲשִׁישִׁין</he></cite> <i>cakes made of boiled lentils impregnated with honey</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 6:10\">Ned. VI, 10</cite>; cmp. Y. ib. 40ᵃ bot."
+			],
+			"label": "2"
+		}
+	]
+}

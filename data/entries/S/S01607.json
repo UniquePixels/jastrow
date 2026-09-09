@@ -1,0 +1,28 @@
+{
+	"id": "S01607",
+	"slug": "קנסודס",
+	"headword": {
+		"text": "קנסודס"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַנְסוֹרָס"
+		}
+	],
+	"page": {
+		"number": 1394,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. a sort of <i>sandals with heels</i> (prob. named after a place in Babylonia, cmp. <he>קנשרין</he>, v. <cite ref=\"S01505\"><he>קֵן</he></cite>, ch., end). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 12:1:16\">Y. Yeb. XII, 12ᶜ</cite> bot. <he>תמן אמרין כגון אילין ק׳</he> there (in Babylonia) they say, like those ḳ."
+			]
+		}
+	]
+}

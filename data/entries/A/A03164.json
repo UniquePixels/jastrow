@@ -1,0 +1,38 @@
+{
+	"id": "A03164",
+	"slug": "ארם",
+	"headword": {
+		"text": "אֲרָם"
+	},
+	"page": {
+		"number": 122,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>Aram</i>, son of Shem. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 10:22\">Targ. Gen. X, 22</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Aramaea, Syria</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 20:1\">Targ. I Kings XX, 1</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (a disguise for <cite ref=\"T00388\"><he>רוֹמָא</he></cite>) <i>Rome, Roman empire</i> (cmp. <cite ref=\"A00383\"><he>אֱדוֹם</he></cite>). ",
+			"units": [
+				"<cite ref=\"Pesachim 87b:2\">Pes. 87ᵇ</cite> <he>לקבל גזרות אכזריות א׳</he> ed. (read <he>לסבול … של א׳</he>; in Ms. M. 1 only <he>לסבול גזיר׳</he>, Ms. 2 … <he>של רומיים</he>; oth. var., v. Rabb. D. S. a. l. note; <cite ref=\"Gittin 17a:2\">Gitt. 17ᵃ</cite> <he>אֲרוֹמִיִּים</he>) to endure the severe decrees of Rome."
+			],
+			"label": "3"
+		}
+	]
+}

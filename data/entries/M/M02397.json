@@ -1,0 +1,20 @@
+{
+	"id": "M02397",
+	"slug": "מקוף",
+	"headword": {
+		"text": "מָקוֹף"
+	},
+	"page": {
+		"number": 830,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00487\"><he>קוף</he></cite>, <he>קפף</he>; cmp. <cite ref=\"S00491\"><he>קוּפָּא</he></cite> <i>needle-eye</i>) <i>the eye of the coulter</i> for the insertion of the horizontal pole. ",
+			"units": ["<cite ref=\"Mishnah Kelim 13:3\">Kel. XIII, 3</cite>."]
+		}
+	]
+}

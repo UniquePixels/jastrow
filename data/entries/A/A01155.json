@@ -1,0 +1,23 @@
+{
+	"id": "A01155",
+	"slug": "אידא-4",
+	"headword": {
+		"text": "אִידָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 45,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>אִי דָא</he>, v. <cite ref=\"A00519\"><he>אוּ</he></cite> a. <cite ref=\"D00003\"><he>דָּא</he></cite>) <i>this, the same</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 3:8:2\">Y. Erub. III, 21ᵇ</cite> bot. <he>הדא אמרה אי א׳ אי א׳</he> this proves this is this, this is that, i.e. it is the same. [<cite ref=\"Jerusalem Talmud Eruvin 3:8:2\">Ib.</cite> <he>היא הדא היא הדא</he>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "A03383",
+	"slug": "אשתמודע-2",
+	"headword": {
+		"text": "אִשְׁתְּמוֹדַע",
+		"homograph": 2
+	},
+	"page": {
+		"number": 131,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Ishtaf. of the form <he>מוֹדַע</he>) <i>one who proved himself a friend, acquaintance</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ruth 2:1\">Targ. Ruth II, 1</cite>; <cite ref=\"Aramaic Targum to Ruth 3:2\">III, 2</cite>."
+			]
+		}
+	]
+}

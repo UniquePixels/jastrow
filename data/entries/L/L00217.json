@@ -1,0 +1,28 @@
+{
+	"id": "L00217",
+	"slug": "לווי-2",
+	"headword": {
+		"text": "לְוָוי"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְוָויי"
+		}
+	],
+	"page": {
+		"number": 695,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00206\"><he>לָוָה</he></cite>) <i>attachment</i>.—שם ל׳ <i>surname</i>, <i>epithet</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Negaim 14:6\">Neg. XIV, 6</cite> <he>ולא כל אזוב … שם ל׳</he> nor any hyssop which is qualified by an epithet (<cite ref=\"J00206\"><he>יְוָנִי</he></cite>, <cite ref=\"T00388\"><he>רוֹמִי</he></cite> &c.); <cite ref=\"Mishnah Parah 11:7\">Par. XI, 7</cite>; <cite ref=\"Sukkah 13a:7\">Succ. 13ᵃ</cite>; <cite ref=\"Chullin 62b:2\">Ḥull. 62ᵇ</cite>; <cite ref=\"Sifrei Bamidbar 124:1\">Sifré Num. 124</cite>; <cite ref=\"Sifrei Bamidbar 129\">129</cite>; a. e.—",
+				"<cite ref=\"Mishnah Nedarim 6:9\">Ned. VI, 9</cite> (<cite ref=\"Nedarim 53a:6\">53ᵃ</cite>) <he>שהוא שם ל׳</he> for this (the addition of ‘field’) is a differentiating epithet."
+			]
+		}
+	]
+}

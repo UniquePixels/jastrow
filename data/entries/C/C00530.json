@@ -1,0 +1,23 @@
+{
+	"id": "C00530",
+	"slug": "גזומא",
+	"headword": {
+		"text": "גַּזּוֹמָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 228,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גזם</he>, v. P. Sm. s. v. <he>גזמא</he> 699) <i>violent man</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 8:3\">Targ. Ps. VIII, 3</cite> Ms. (ed. <he>גָּזוֹ׳</he>, <he>גיזומא</he>; Levita <he>גזים</he>; h. text <he>מתנקם</he>)."
+			]
+		}
+	]
+}

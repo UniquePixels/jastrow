@@ -1,0 +1,39 @@
+{
+	"id": "N00128",
+	"slug": "נגהא",
+	"headword": {
+		"text": "נָגְהָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נַגְהָא"
+		}
+	],
+	"page": {
+		"number": 873,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00127\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>light, morning</i>. ",
+			"units": [
+				"<cite ref=\"Daniel 6:20\">Dan. VI, 20</cite>.—Pl. <he>נַגְהֵי</he>. ",
+				"<cite ref=\"Pesachim 2a:2\">Pes. 2ᵃ</cite> <he>קס״ד … נ׳ נ׳ ממש</he> the first impression was that he who explained <cite ref=\"A00841\"><he>אוֹר</he></cite> (Mish. ",
+				"<cite ref=\"Mishnah Pesachim 1:1\">ib. I, 1</cite>) by <i>naghé</i> meant really light (morning)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"A00841\"><he>אוֹר</he></cite>) <i>the breaking in of the night, the beginning of the calendar day, evening</i>. Ib. 3ᵃ <he>באתריה … קרו נ׳ וכ׳</he> in the home of R. H. they call the evening <i>naghé</i> (‘night-break’), while in the home of R. J. they call it <i>lelé</i>. Ib. 4ᵃ <he>באורתא דתליסר נ׳ וכ׳</he> on the evening closing the thirteenth (day of Nisan) which is the beginning of the fourteenth. ",
+			"units": ["<cite ref=\"Menachot 68b:10\">Men. 68ᵇ</cite>"],
+			"label": "2"
+		}
+	]
+}

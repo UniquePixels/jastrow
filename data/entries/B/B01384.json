@@ -1,0 +1,29 @@
+{
+	"id": "B01384",
+	"slug": "בתולים",
+	"headword": {
+		"text": "בְּתוּלִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּתוּלִין"
+		}
+	],
+	"page": {
+		"number": 200,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h.; <cite ref=\"B01383\">preced.</cite>) <i>virginity, token</i> or <i>symptom of virginity</i>. <he>טענת ב׳</he> suit of a husband against his young married wife concerning her virginity (<cite ref=\"Deuteronomy 22:13\">Deut. XXII, 13</cite> sq.). ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 1:1\">Keth. I, 1</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Yevamot 6:4:3\">Y. Yeb. VI, 7ᶜ</cite> top, a. e. <he>כלו בְּתוּלֶיהָ</he> the symptoms of virginity may have disappeared by absorption. Y. Nidd. 49ᵃ bot. <he>בתולה לב׳</he> a b’thulah (virgin) as to virginity, opp. <he>לדמים</he> as to menstruation."
+			]
+		}
+	]
+}

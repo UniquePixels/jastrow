@@ -1,0 +1,35 @@
+{
+	"id": "B01010",
+	"slug": "בסר-1",
+	"headword": {
+		"text": "בָּסַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 179,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>בס</he>, v. <he>בסס</he>) <i>to tread upon;</i> trnsf. (v. <cite ref=\"B01034\"><he>בעט</he></cite>) <i>to contemn</i> (with <he>על</he>); <i>to be overbearing</i> (with <cite ref=\"B00000\"><he>ב</he></cite>). ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 42\">Ex. R. s. 42</cite>, end <he>כך היתה בוֹסֶרֶת עלי</he> so did she slight me. ",
+				"<cite ref=\"Shemot Rabbah 3\">Ex. R. s. 3</cite> beg.; s. 45 <he>בּוֹסֵר הוא על וכ׳</he> he will treat his prophetic mission lightly. Tanḥ. Ekeb 1 <he>בָּסַרְתִּי בהן</he> have I become overbearing because I observed thy commands? (Tanḥ. ed. Bub. 2 <he>כפרתי</he>, v. note a. l.). Ib. Mikkets 10 <he>לא תהא בוסר בשעת וכ׳</he> be not haughty in happiness, so as to refuse to pray. Ib. (ed. Bub.) Emor 29 <he>בוסר עליהן</he>; Tanḥ. ib. 20 (some ed. <he>בוחר</he>, corr. acc.) thinks lightly of them.—Part. pass. <he>בָּסוּר</he>, fem. <cite ref=\"B00979\"><he>בְּסוּרָה</he></cite> <i>contemptible</i>. Tanḥ. Sh’moth 11."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּיסֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"B01009\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 1:32\">Ex. R. s. 1</cite> <he>וב׳ עליה</he> (some ed. <he>וכופר</he>) and he despised it (idolatry). Tanḥ. Ekeb 1 some ed. <he>ביסרתי</he>, v. supra."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

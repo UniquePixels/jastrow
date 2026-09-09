@@ -1,0 +1,35 @@
+{
+	"id": "S01847",
+	"slug": "קצר-4",
+	"headword": {
+		"text": "קַצָּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַצְרָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1408,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01846\">preced.</cite> wds.) [<i>one who causes shrinking</i>,] <i>fuller, washer</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 15:7\">Targ. Josh. XV, 7</cite>, a. e. <he>עין ק׳</he> (h. text <he>עֵין רֹגֵל</he>) the washer’s well.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:1:33\">Y. Ber. IV, 7ᵈ</cite> top (Bab. ",
+				"<cite ref=\"Berakhot 28a\">ib. 28ᵃ</cite> <cite ref=\"K00191\"><he>כובס</he></cite>); a. fr.—",
+				"<cite ref=\"Bava Kamma 119b:12\">B. Kam. 119ᵇ</cite> <he>ק׳ שמיה וק׳ שקיל ליה</he> a fuller is named <i>ḳatsra</i> (a shortener), let the <i>ḳatsra</i> take it (the dark border of a white cloth belongs to the fuller).—Pl. <he>קַצְרַיָּא</he>, <he>קַצְרֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 13:21\">Targ. I Sam. XIII, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 7:3\">Targ. Is. VII, 3</cite> (ed. Wil. <he>קציר׳</he>, corr. acc.).—",
+				"<cite ref=\"Sanhedrin 92a\">Snh. 92ᵃ</cite>, a. e., v. <cite ref=\"A00529\"><he>אוּבְלָא</he> II</cite>. ",
+				"<cite ref=\"Taanit 29b:3\">Taan. 29ᵇ</cite> <he>בטלי ק׳ דבי רב</he> the fullers of the house of Rab are idle (during the week preceding the ninth of Ab); a. e."
+			]
+		}
+	]
+}

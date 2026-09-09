@@ -1,0 +1,36 @@
+{
+	"id": "P00101",
+	"slug": "עגלתא-3",
+	"headword": {
+		"text": "עֶגְלְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֵגְ׳"
+		},
+		{
+			"text": "עִיגְ׳"
+		},
+		{
+			"text": "עֶגְלָא"
+		},
+		{
+			"text": "עֲגַלְתָּא",
+			"homograph": 3
+		}
+	],
+	"page": {
+		"number": 1041,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " f. = h. <cite ref=\"P00097\"><he>עֶגְלָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 15:9\">Targ. Y. Gen. XV, 9</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 21:4\">Targ. Deut. XXI, 4</cite> (O. ed. Berl. <cite ref=\"P00099\"><he>עֲגַלְתָּא</he></cite>). Targ. O. ib. 3 <he>עֶגְלַת</he> (ed. Berl. <he>עַגְלַת</he>; Y. <he>עֵיגְלָת</he>). ",
+				"<cite ref=\"Targum Jonathan on Hosea 10:11\">Targ. Hos. X, 11</cite>; a. e.—V. <cite ref=\"P00501\"><he>עֵיגַל</he></cite>"
+			]
+		}
+	]
+}

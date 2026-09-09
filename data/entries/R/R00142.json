@@ -1,0 +1,31 @@
+{
+	"id": "R00142",
+	"slug": "צהר-1",
+	"headword": {
+		"text": "צָהַר"
+	},
+	"page": {
+		"number": 1265,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"R00141\">preced.</cite> wds., a. <cite ref=\"G00104\"><he>זָהַר</he></cite>) <i>to be bright, shining</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִצְהִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to brighten</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite> … <he>שהוא משיר ומַצְהִיר וכ׳</he> which removes the hair and makes the body (skin) glistening; v. <cite ref=\"P00153\"><he>עָדַן</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "U00441",
+	"slug": "שומא-2",
+	"headword": {
+		"text": "שׁוּמָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוּמָה",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1536,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שׁוּם</he> I; cmp. <cite ref=\"O00710\"><he>סִימָן</he></cite>) <i>mark, mole, wart</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 46a:9\">Nidd. 46ᵃ</cite> <he>בן תשע שנים … ש׳</he> if a child nine years old has two hairs (under the arm &c.), it is a mole (and no sign of puberty); <cite ref=\"Jerusalem Talmud Yevamot 10:7:6\">Y. Yeb. X, 11ᵇ</cite> bot. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 2:4:5\">Y. Kidd. II, 62ᵈ</cite> <he>ש׳ שאין בה שיער</he> a mole with no hair; <cite ref=\"Tosefta Ketubot 7:9\">Tosef. Keth. VII, 9</cite>; <cite ref=\"Ketubot 75a:10\">Keth. 75ᵃ</cite>. ",
+				"<cite ref=\"Tosefta Yevamot 14:4\">Tosef. Yeb. XIV, 4</cite> <he>מעידין על הש׳</he> we accept testimony (of a husband’s death) on identification by a mole; <cite ref=\"Bava Metzia 27b:15\">B. Mets. 27ᵇ</cite>; <cite ref=\"Yevamot 120a:15\">Yeb. 120ᵃ</cite>. ",
+				"<cite ref=\"Yevamot 120a:15\">Ib.</cite> <he>ש׳ מצויה בבן גילו</he>, v. <cite ref=\"C00716\"><he>גִּיל</he> II</cite>. ",
+				"<cite ref=\"Tosefta Bekhorot 5:5\">Tosef. Bekh. V, 5</cite>. B. Mets. l. c. <he>בש׳ סימן מובהק הוא וכ׳</he> they differ as to whether a mole can be considered a distinguishing mark for identification; a. fr."
+			]
+		}
+	]
+}

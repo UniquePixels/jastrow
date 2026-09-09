@@ -1,0 +1,31 @@
+{
+	"id": "T00534",
+	"slug": "רחף",
+	"headword": {
+		"text": "רָחַף"
+	},
+	"page": {
+		"number": 1468,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to move, vibrate</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִחֵף"],
+			"senses": [
+				{
+					"gloss": "<i>to move, hover, flatter</i>. ",
+					"units": [
+						"<cite ref=\"Chagigah 15a:3\">Ḥag. 15ᵃ</cite> (ref. to <cite ref=\"Genesis 1:2\">Gen. I, 2</cite>) <he>כיונה שמְרַחֶפֶת על בניה וכ׳</he> like a dove that hovers over her young without touching them."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

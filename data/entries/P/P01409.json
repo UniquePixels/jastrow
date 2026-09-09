@@ -1,0 +1,25 @@
+{
+	"id": "P01409",
+	"slug": "ערסל-2",
+	"headword": {
+		"text": "עַרְסַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַרְסְלָא"
+		}
+	],
+	"page": {
+		"number": 1121,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"P01404\"><he>עַרְסָא</he></cite>) <i>hammock</i>, v. <cite ref=\"A03057\"><he>אַרְזְלָא</he></cite>.",
+			"units": []
+		}
+	]
+}

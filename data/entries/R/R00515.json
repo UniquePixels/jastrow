@@ -1,0 +1,24 @@
+{
+	"id": "R00515",
+	"slug": "צליין-1",
+	"headword": {
+		"text": "צַלִיָין"
+	},
+	"page": {
+		"number": 1284,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>צְלֵי</he> I) <i>dates dried</i> or <i>to be dried</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 7:3:17\">Y. Peah VII, 20ᵇ</cite> <he>והוה ליה דבש דצ׳</he> and he had (and gave them by mistake) date-honey (in place of bees’ honey). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:24\">Y. Sabb. VII, 10ᵃ</cite> bot. <he>דשטח צַלְיָן וכ׳</he>, v. <cite ref=\"M01844\"><he>מסבסלה</he></cite>."
+			]
+		}
+	]
+}

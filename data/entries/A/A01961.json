@@ -1,0 +1,37 @@
+{
+	"id": "A01961",
+	"slug": "אם-2",
+	"headword": {
+		"text": "אֵם"
+	},
+	"page": {
+		"number": 74,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"A02037\"><he>אמם</he></cite>, <he>אמה</he>, √<he>אם</he>; <i>to press, embrace, join, support, lead;</i> v. <cite ref=\"A02038\"><he>אמן</he></cite>, <cite ref=\"A02060\"><he>אמר</he></cite>, <cite ref=\"A02055\"><he>אמץ</he></cite> &c.; cmp. <cite ref=\"A00017\"><he>אָב</he></cite>)<i>mother</i>, freq. = <i>my mother</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 134a:14\">Sabb. 134ᵃ</cite>; a. fr.—Y. M. Kat. III, beg. 81ᶜ <he>הניח חק אִמּוֹ</he> left his mother’s lap (Palestine).—",
+				"<cite ref=\"Bamidbar Rabbah 10:4\">Num. R. s. 10</cite> (ref. to <i>immo</i> <cite ref=\"Proverbs 31:1\">Prov. XXXI, 1</cite>) <he>אמו זו … התורה וכ׳</he> ‘his mother’ that means the Law which trained Solomon and which is called a mother of those studying it, as you read (<cite ref=\"Proverbs 2:3\">Prov. II, 3</cite>; text <cite ref=\"A01960\"><he>אִם</he></cite> is read <cite ref=\"A01961\"><he>אֵם</he></cite> <i>ēm</i>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>womb, mouth of the womb</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 3:2\">Ḥull. III, 2</cite> (<cite ref=\"Chullin 54a:14\">54ᵃ</cite>) <he>ניטלה האם וכ׳</he> if the mouth of the womb is absent, cut out. ",
+				"<cite ref=\"Mishnah Bekhorot 4:4\">Bekh. IV, 4</cite> (<cite ref=\"Bekhorot 28b:17\">28ᵇ</cite>).—Trnsf. <i>legitimate existence, authority</i>. ",
+				"<cite ref=\"Sukkah 6b:14\">Succ. 6ᵇ</cite>, a. fr. <he>יש א׳ למסורת</he> the traditional Scripture text (letters without vowels) is authoritative in Biblical interpretation, opp. <he>יש א׳ למקרא</he> the traditional reading (vowels) must guide us, e.g. <he>בחלב</he> (<cite ref=\"Exodus 23:19\">Ex. XXIII, 19</cite>) may be read <he>בַּחֲלֵב</he> as the traditional vocalization, or <he>בְּחֵלֶב</he> <i>in the fat of.—</i> Pl. <cite ref=\"A01993\"><he>אִמָּהוֹת</he></cite>, <cite ref=\"A01326\"><he>אִימָּהוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Kiddushin 4:4\">Kidd. IV, 4</cite> her genealogy must be traced back <he>ארבע א׳</he> to the mothers of four generations (on each side) which is eight mothers. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:3:7\">Y. Snh. II, 20ᵇ</cite> bot. they are not <he>אֲמָהוֹת אלא אִימָּהוֹת</he> maid-servants but mothers (of the nation).—Trnsf. <he>א׳ של בצלים</he> <i>seed-onions</i>. ",
+				"<cite ref=\"Mishnah Peah 3:4\">Peah III, 4</cite>. ",
+				"<cite ref=\"Eruvin 29a\">Erub. 29ᵃ</cite>; a. e.—Ch. <cite ref=\"A01318\"><he>אִימָּא</he></cite>. [<cite ref=\"Kohelet Rabbah 12:7:1\">Koh. R. to XII, 7</cite> <he>א׳ דבצלי׳</he>, v. <cite ref=\"A01989\"><he>אַמָּה</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

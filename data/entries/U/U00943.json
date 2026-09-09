@@ -1,0 +1,27 @@
+{
+	"id": "U00943",
+	"slug": "שילום",
+	"headword": {
+		"text": "שִׁילּוּם"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁלּוּם"
+		}
+	],
+	"page": {
+		"number": 1563,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"U01348\"><he>שָׁלַם</he></cite>)<i>compensation, payment, punishment.—</i>Pl. <he>שִׁילּוּמִים</he>, <cite ref=\"U00942\"><he>שִׁלּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 17:1\">Lev. R. s. 17</cite> (ref. to <cite ref=\"Psalms 73:3\">Ps. LXXIII, 3</cite> <he>שלום וכ׳</he>) <he>בש׳ של רשעים אראה</he> I want to see the punishment of the wicked."
+			]
+		}
+	]
+}

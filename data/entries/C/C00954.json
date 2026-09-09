@@ -1,0 +1,23 @@
+{
+	"id": "C00954",
+	"slug": "גליפא",
+	"headword": {
+		"text": "גְּלִיפָא"
+	},
+	"page": {
+		"number": 249,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C00955\">next w.</cite>) <i>shaping</i> (of writing), <i>impress, poetry</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 16:1\">Targ. Ps. XVI, 1</cite> <he>ג׳ תריצא</he> a well-arranged poetry (h. text <cite ref=\"M01454\"><he>מכתם</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 119:130\">Ib. CXIX, 130</cite> <he>גְּלִיף דבריך</he> the impress of thy words (h. text <cite ref=\"Q02143\"><he>פֵּתַח</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "K00179",
+	"slug": "כוב",
+	"headword": {
+		"text": "כּוּב"
+	},
+	"page": {
+		"number": 616,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00028\"><he>כָּבַב</he></cite>, v. <cite ref=\"K00028\"><he>כְּבַב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>ball</i>,] <i>thorn, a prickly salt-plant</i>.—Pl. <he>כּוּבִּים</he>, <he>כּוּבִּין</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 49:8\">Gen. R. s. 49</cite> <he>למגל כוסחת כ׳</he> like a sickle mowing thorns; <cite ref=\"Yalkut Shimoni on Nach 950:11\">Yalk. Prov. 950</cite> <cite ref=\"K00179\"><he>כוב</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 42:8\">Ex. R. s. 42</cite> <he>נעשו כזבים</he> (corr. acc.), v. <cite ref=\"O01610\"><he>סֵרָיוּת</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>מדבר כ׳</he> pr. n. <i>Desert of Kub</i> (cmp. ",
+			"units": [
+				"<cite ref=\"Ezekiel 30:5\">Ez. XXX, 5</cite>) = Biblical <cite ref=\"U00537\"><he>שׁוּר</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 24:4\">Ex. R. s. 24</cite>; <cite ref=\"Yalkut Shimoni on Torah 255:1\">Yalk. ib. 255</cite>; (Tanḥ. ",
+				"<cite ref=\"Exodus 18\">B’shall. 18</cite>; Mekh. ",
+				"<cite ref=\"Exodus 18\">ib.</cite>, Vayassa 1; <cite ref=\"Yalkut Shimoni on Nach 266:1\">Yalk. Jer. 266</cite> <he>בזב</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "N00287",
+	"slug": "נהרדעא",
+	"headword": {
+		"text": "נְהַרְדְּעָא"
+	},
+	"page": {
+		"number": 883,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>N’hard’ʿa, Nehardea</i> (Wood-River), 1) a place in the Arabian desert. (Wood-River), ",
+			"units": []
+		},
+		{
+			"gloss": " a place in the Arabian desert. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 2:26\">Targ. Y. Deut. II, 26</cite>.—2) a town in Babylonia, renowned as the seat of a college founded by Samuel. ",
+				"<cite ref=\"Berakhot 58b:11\">Ber. 58ᵇ</cite>. ",
+				"<cite ref=\"Sanhedrin 17b:5\">Snh. 17ᵇ</cite> <he>דייני דנ׳ וכ׳</he> by ‘the judges of N.’ is meant &c.; <he>אמוראי דנ׳ וכ׳</he> by ‘the Amoraim of N.’ is meant &c.; a. fr.—Denom."
+			],
+			"label": "1"
+		}
+	]
+}

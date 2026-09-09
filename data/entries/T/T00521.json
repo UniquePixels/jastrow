@@ -1,0 +1,25 @@
+{
+	"id": "T00521",
+	"slug": "רחמא-1",
+	"headword": {
+		"text": "רַחֲמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רַחְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1467,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T00520\">same</cite> <cite ref=\"Aramaic Targum to Job 3:10\">Targ. Job III, 10</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 38:8\">Ib. XXXVIII, 8</cite>."
+			]
+		}
+	]
+}

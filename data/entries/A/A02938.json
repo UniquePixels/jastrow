@@ -1,0 +1,23 @@
+{
+	"id": "A02938",
+	"slug": "אקקיא",
+	"headword": {
+		"text": "אֲקַקְיָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 113,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἀκακία) <i>the thorny acacia</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69b\">Gitt. 69ᵇ</cite> Ar. (ed. <cite ref=\"A02915\"><he>אקיקא</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

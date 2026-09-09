@@ -1,0 +1,27 @@
+{
+	"id": "H00087",
+	"slug": "חבל-5",
+	"headword": {
+		"text": "חֶבֶל"
+	},
+	"page": {
+		"number": 420,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H00083\"><he>חָבַל</he></cite>)<i>rope, a measure of dimensions, rope’s length</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 93:4\">Gen. R. s. 93</cite> <he>קשר ח׳ בח׳</he> tied rope to rope, v. <cite ref=\"N00673\"><he>נִימָא</he></cite>; <cite ref=\"Shir HaShirim Rabbah 1:1:8\">Cant. R. to I, 1</cite>. ",
+				"<cite ref=\"Mishnah Eruvin 5:4\">Erub. V, 4</cite> <he>וכ׳ אין מודדין אלא בח׳</he> Sabbath distances must be measured with a rope of fifty cubits’ length. Ib. 58ᵃ, v. <cite ref=\"A02764\"><he>אַפְסְקִימָא</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Batra 7:2\">B. Bath. VII, 2</cite> (<cite ref=\"Bava Batra 103b:4\">103ᵇ</cite>) <he>מדה בח׳</he> measured with the rope (exact dimensions). ",
+				"<cite ref=\"Mishnah Peah 4:5\">Peah IV, 5</cite> <he>על הח׳</he> in a straight line, v. <cite ref=\"L00677\"><he>לָקַט</he></cite>; a. fr.—Pl. <he>חֲבָלִים</he>. Erub. l. c. <he>ג׳ ח׳ הם וכ׳</he> there are three kinds of ropes (used for legal purposes).—Trnsf. <i>share, possession</i>. ",
+				"<cite ref=\"Sifrei Devarim 312:3\">Sifré Deut. 312</cite> <he>אין ח׳ אלא גורל</he> <i>ḥebel</i> means lot; a. e."
+			],
+			"label": "1"
+		}
+	]
+}

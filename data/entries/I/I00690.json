@@ -1,0 +1,24 @@
+{
+	"id": "I00690",
+	"slug": "טצדקא-1",
+	"headword": {
+		"text": "טַצְדְּקָא",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"page": {
+		"number": 549,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., pl. <he>טַצְדְּקֵי</he> (= <cite ref=\"A02351\"><he>אִצְטַ׳</he></cite>; <he>צדק</he>, v. Pesik. Zutr. to <cite ref=\"Genesis 44:16\">Gen. XLIV, 16</cite>) <i>excuse, subterfuge</i>. ",
+			"units": [
+				"<cite ref=\"Menachot 41a:16\">Men. 41ᵃ</cite> <he>ט׳ למיפטר וכ׳</he> you want excuses to free yourself from the duty of wearing show-fringes. [For the phonetic inflection of our and the following wds., cmp. Nöld. Mand. Gramm. § 49.]"
+			]
+		}
+	]
+}

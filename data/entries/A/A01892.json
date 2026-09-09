@@ -1,0 +1,28 @@
+{
+	"id": "A01892",
+	"slug": "אלכסין",
+	"headword": {
+		"text": "אֲלַכְסִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֲלַכְסַנְדְּרִין"
+		}
+	],
+	"page": {
+		"number": 70,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"A01890\"><he>אֲלַכְסָא</he></cite>) <i>Alexandrians</i>, name of a <i>nut</i>, prob. <i>a species of pistachio</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 14a:1\">Ab. Zar. 14ᵃ</cite> <cite ref=\"A01892\"><he>אלכסין</he></cite> ed. (Ms. M. <cite ref=\"A01892\"><he>אלכסנדרין</he></cite>, Ar. <cite ref=\"A01712\"><he>אכלסין</he></cite>). Cmp. <cite ref=\"A01929\"><he>אִלְסָרִין</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "U00985",
+	"slug": "שיסקי",
+	"headword": {
+		"text": "שִׁיסְקֵי"
+	},
+	"page": {
+		"number": 1565,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>plums</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 60a:15\">B. Mets. 60ᵃ</cite> <he>אנא … ש׳</he> (Alf. Ms. <cite ref=\"U00404\"><he>שויסקי</he></cite>; Asheri <cite ref=\"U00473\"><he>שוסקי</he></cite>) I distribute nuts (among the children of my customers), do thou distribute plums (to attract them); <cite ref=\"Bava Batra 21b\">B. Bath. 21ᵇ</cite> <he>שיס׳</he> Ms. M. (ed. <cite ref=\"U00839\"><he>שיוסקי</he></cite>; v. Rabb. D. S. a. l. note 40)."
+			]
+		}
+	]
+}

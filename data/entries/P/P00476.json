@@ -1,0 +1,67 @@
+{
+	"id": "P00476",
+	"slug": "עטר-2",
+	"headword": {
+		"text": "עֲטַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1064,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " <cite ref=\"P00475\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 73:6\">Targ. Ps. LXXIII, 6</cite> <he>עֲטַרְתִּנוּן וכ׳</he> pride adoms them (some ed. <he>עטרתהין</he>, v. <cite ref=\"P00484\"><he>עֲטַרְתָּא</he></cite>).—<i>Part. pass.</i> <he>עָטִיר</he> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>surrounded, guarded</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 86a\">Gitt. 86ᵃ</cite>, v. <cite ref=\"H01637\"><he>חֲרוּרי</he></cite> (v., however, <cite ref=\"P00477\">next w.</cite>).—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>distinguished</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Niddah 2:7:7\">Y. Nidd. II, end, 50ᵇ</cite> [read:] <he>חמיתיה ע׳ מני</he> dost thou see him (Rab)?—He is more distinguished than I am, i.e. let him decide."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עַטֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P00475\">same</cite>, <i>to wreathe, decorate</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 26:3\">Targ. Y. I Deut. XXVI, 3</cite>. ",
+						"<cite ref=\"Targum of I Chronicles 2:54\">Targ. I Chr. II, 54</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 50:26\">Targ. Y. I Gen. L, 26</cite> <he>עַטְּרוּן יתיה</he> they decorated his body. ",
+						"<cite ref=\"Targum Jonathan on Exodus 3:22\">Targ. Y. Ex. III, 22</cite> <he>ותְעַטְּרוּן על וכ׳</he> and put them as ornaments on your children.—",
+						"<cite ref=\"Berakhot 51a:19\">Ber. 51ᵃ</cite> <he>מְעַטֵּר</he>, v. <cite ref=\"N00573\"><he>נַטְלָא</he></cite>. ",
+						"<cite ref=\"Sotah 5a:16\">Sot. 5ᵃ</cite> <he>ומְעַטְּרָא ליה וכ׳</he> and it (a little pride) adorns (or protects) man as the awn protects the ear."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְעַטַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be wreathed</i> (with flowers). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Joel 2:22\">Targ. Joel II, 22</cite> (h. text <he>דשאו</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

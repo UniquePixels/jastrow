@@ -1,0 +1,31 @@
+{
+	"id": "A00442",
+	"slug": "אדר-2",
+	"headword": {
+		"text": "אֲדַר"
+	},
+	"page": {
+		"number": 17,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A00441\">same</cite>;v. <cite ref=\"A00444\"><he>אִדְּרָא</he></cite>, <cite ref=\"A00445\"><he>אִדְרָא</he></cite>, <cite ref=\"A01172\"><he>אִדְּרוֹנָא</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַדַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to distinguish</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 63b:17\">Snh. 63ᵇ</cite> (play on Adrammelekh <cite ref=\"II Kings 16:31\">II Kings XVI, 31</cite>) <he>דא׳ ליה וכ׳</he> (the mule) that gives distinction to its owner when travelling."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "I00793",
+	"slug": "טרייתא",
+	"headword": {
+		"text": "טַרְיָיתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 553,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>נ־טר</he>) <i>guarded things, property</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 11:6\">Targ. Y. Deut. XI, 6</cite> (h. text <he>יקום</he>)."
+			]
+		}
+	]
+}

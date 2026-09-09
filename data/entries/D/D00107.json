@@ -1,0 +1,31 @@
+{
+	"id": "D00107",
+	"slug": "דגל-2",
+	"headword": {
+		"text": "דְּגַל"
+	},
+	"page": {
+		"number": 279,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>דַּגֵּיל</he> <cite ref=\"D00106\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 16:10\">Targ. Prov. XVI, 10</cite> <he>לא נְדַגֵּיל פומיה</he> Ar. (ed. <he>נִדְגוּל</he>) his mouth is not tricky (h. text <he>מעל</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

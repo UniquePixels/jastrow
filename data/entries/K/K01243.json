@@ -1,0 +1,30 @@
+{
+	"id": "K01243",
+	"slug": "כרס-1",
+	"headword": {
+		"text": "כרס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 672,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַכְרִיס</he>, v. <cite ref=\"B01305\"><he>ברס</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

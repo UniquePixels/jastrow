@@ -1,0 +1,63 @@
+{
+	"id": "I00713",
+	"slug": "טרד-2",
+	"headword": {
+		"text": "טְרַד",
+		"homograph": 1
+	},
+	"page": {
+		"number": 550,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00712\">same</cite><i>to trouble, stir up, keep in commotion</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 168b:8\">B. Bath. 168ᵇ</cite> <he>הוו קא טַרְדֵּי ליה</he> they were troubling him (begging persistently).—Part. pass. <cite ref=\"I00776\"><he>טָרִיד</he></cite>, f. <he>טְרִידָא</he>; pl. <he>טְרִידִין</he>, <he>טְרִידָן</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 57:20\">Targ. Is. LVII, 20</cite> (h. text <he>נגרש</he>). ",
+				"<cite ref=\"Targum Jonathan on Nahum 2:5\">Targ. Nah. II, 5</cite> <he>ברקין ט׳</he>, v. preced.—",
+				"<cite ref=\"Berakhot 16b:2\">Ber. 16ᵇ</cite> <he>הכא ט׳</he> in the one case his mind is preoccupied. ",
+				"<cite ref=\"Eruvin 68a:3\">Erub. 68ᵃ</cite> <he>טְרִידְנָא בגירסאי</he> I am engrossed in my studies. ",
+				"<cite ref=\"Sanhedrin 108b\">Snh. 108ᵇ</cite> [read:] <he>דהות טריד</he> (or <he>דטְרִידַת</he>; Ms. F., <cite ref=\"I00783\"><he>טְרִיחַת</he></cite>, v. Rabb. D. S. a. l. note 9) that thou wert troubled (in my behalf); <cite ref=\"Yalkut Shimoni on Nach 917\">Yalk. Job 917</cite> [read:] <he>חמית דטרידת וכ׳</he>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to banish, expel</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 3:24\">Targ. Y. Gen. III, 24</cite>; a. fr.—"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְטְרִיד", "אִיטְּרִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to be banished</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 25:5\">Targ. Prov. XXV, 5</cite>. ",
+						"<cite ref=\"Targum Jonathan on Genesis 27:45\">Targ. Y. Gen. XXVII, 45</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be troubled</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 35b\">Ber. 35ᵇ</cite>; <cite ref=\"Yalkut Shimoni on Torah 863:7\">Yalk. Deut. 863</cite> <he>דלא תִיטַּרְדּוּ וכ׳</he> that you may not be troubled about support &c."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to quarrel</i>. ",
+					"units": [
+						"<cite ref=\"Arakhin 16b:75\">Arakh. 16ᵇ</cite> <he>אתי לאִיטְּרוּדֵי</he> he may get into a quarrel."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

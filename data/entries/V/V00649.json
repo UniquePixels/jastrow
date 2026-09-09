@@ -1,0 +1,32 @@
+{
+	"id": "V00649",
+	"slug": "תמד-2",
+	"headword": {
+		"text": "תִּמֵּד"
+	},
+	"page": {
+		"number": 1675,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to put water on pomace</i> or <i>lees</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 5:6\">Maasr. V, 6</cite> <he>המְתַמֵּד … ומצא כדי מדתו וכ׳</he> if one makes pomace wine, putting water on by measure, and finds (after pressing) the same quantity, he is exempt from giving tithes; <cite ref=\"Pesachim 42b:8\">Pes. 42ᵇ</cite>, v. <cite ref=\"T00337\"><he>רְוָוקָא</he> II</cite>. ",
+				"<cite ref=\"Bava Batra 97a:9\">B. Bath. 97ᵃ</cite> <he>שתִּמְּדוּ במי גשמים</he> (Ms. R. <he>שתִּמְּדָן</he>) when they used rain water to make <i>tamad</i>; <cite ref=\"Chullin 87b:7\">Ḥull. 87ᵇ</cite> (by analogy from B. Bath. l. c.) <he>שתמדו במי וכ׳</he> (Ms. R. <he>שתמדן</he>) when they diluted blood with rain water."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְמַד", "נִיתְ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be infused, poured on</i>. B. Bath. l. c. <he>שנ׳ מאליו</he> when the infusion came of itself (rain water fell upon it); Ḥull. l. c. <he>שנִתְמְדוּ מאליהם</he>.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

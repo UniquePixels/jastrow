@@ -1,0 +1,32 @@
+{
+	"id": "T00862",
+	"slug": "רסק-2",
+	"headword": {
+		"text": "רְסַק"
+	},
+	"page": {
+		"number": 1485,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>רַסֵּיק</he> <cite ref=\"T00861\">same</cite>, <i>to break into pieces</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 2:6\">Targ. Y. Lev. II, 6</cite> (h. text <he>פתות</he>).—Part. pass. <he>מְרַסַּק</he>; f. <he>מְרַסְּקָא</he>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 6:14\">Ib. VI, 14</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "P01136",
+	"slug": "עצרת",
+	"headword": {
+		"text": "עֲצֶרֶת"
+	},
+	"page": {
+		"number": 1103,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"P01130\"><he>עָצַר</he></cite>)<i>detention, gathering</i>, esp. <i>a festive gathering for the conclusion of a festive season, concluding feast</i>; <he>ע׳ של חג</he> the concluding feast of the Succoth festival (<cite ref=\"Numbers 29:35\">Num. XXIX, 35</cite>); <he>ע׳ של פסח</he> the concluding feast of the Passover festival i.e. <i>the Feast of Weeks, Pentecost</i>. Pesik. Bayom, p. 193ᵃ <he>ראויה היתה ע׳ של חג … כשם שע׳ של פסח וכ׳</he> by right the concluding feast of the Succoth Festival was to have been fifty days after (the first day of Succoth) as the concluding feast of Passover is &c.; <cite ref=\"Shir HaShirim Rabbah 7:2:2\">Cant. R. to VII, 2</cite>; a. e.—In gen. <he>ע׳</he> f., (sub. <cite ref=\"J00194\"><he>יום</he></cite>) m. <i>Feast of Weeks, Pentecost</i>. Pesik. l. c., p. 190ᵇ <he>בסיון ע׳</he> in the month of Sivan is the Feast of Weeks. ",
+			"units": [
+				"<cite ref=\"Mishnah Chagigah 2:4\">Ḥag. II, 4</cite> <he>ע׳ שחל להיות וכ׳</he> if the Feast of Weeks occurs on a Friday. ",
+				"<cite ref=\"Mishnah Chagigah 2:4\">Ib.</cite> <he>שלא לקיים … ע׳ אחר השבת</he> to oppose those who say that the Feast of Weeks must be observed on the day after the Sabbath (after seven complete weeks from Passover, beginning with the first Sunday); <cite ref=\"Menachot 65a:11\">Men. 65ᵃ</cite>. ",
+				"<cite ref=\"Menachot 65b:7\">Ib. 65ᵇ</cite>; a. v. fr."
+			]
+		}
+	]
+}

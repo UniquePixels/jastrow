@@ -1,0 +1,30 @@
+{
+	"id": "Q00844",
+	"slug": "פירוקא",
+	"headword": {
+		"text": "פֵּירוּקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פֵּר׳"
+		}
+	],
+	"page": {
+		"number": 1171,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01981\"><he>פְּרַק</he></cite>) <i>solution</i> of a problem, <i>reply, argument</i>, opp. <cite ref=\"S00668\"><he>קושיא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 117a:21\">B. Kam. 117ᵃ</cite> <he>האי קושיא … האי פ׳ והאי פ׳</he> such and such a problem and such and such a solution. ",
+				"<cite ref=\"Avodah Zarah 30a:11\">Ab. Zar. 30ᵃ</cite> <he>פ׳ לסכנתא</he> (Rashi <he>פֵּירוּקֵי</he> <i>pl.</i>) you offer argument where danger to life is concerned? a. e.—<i>Pl.</i> <he>פֵּירוּקֵי</he>, <cite ref=\"Q00837\"><he>פּר׳</he></cite>. ",
+				"<cite ref=\"Bava Metzia 84a:17\">B. Mets. 84ᵃ</cite> <he>ומפריקנא ליה … פ׳</he> and I gave him twenty-four answers. ",
+				"<cite ref=\"Horayot 13b:16\">Hor. 13ᵇ</cite> <he>כתבי פ׳ ושדי</he> they wrote down answers and cast them (into the schoolhouse); a. e."
+			]
+		}
+	]
+}

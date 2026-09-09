@@ -1,0 +1,29 @@
+{
+	"id": "C01106",
+	"slug": "גנון-1",
+	"headword": {
+		"text": "גִּנּוּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּינּוּן"
+		}
+	],
+	"page": {
+		"number": 257,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גנן</he>) <i>baldachin</i> (the Greek θάλαμος), <i>bride-chamber, state room</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 1:4:2\">Cant. R. to I, 4</cite> (play on <i>ganno</i>, <cite ref=\"Shir HaShirim Rabbah 4:16\">ib. IV, 16</cite>) <he>לגִנּוּנוֹ</he> to his state room (the Tabernacle). ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:16\">Ib.</cite> to V, 1; <cite ref=\"Bamidbar Rabbah 13\">Num. R. s. 13</cite>. ",
+				"<cite ref=\"Pesikta Rabbati 5:1\">Pesik. R. s. 5</cite>.—Num. R. l. c. <he>מהו גַנִּי גִּנּוּנִי מה הכילה וכ׳</he> <i>ganni</i> (<cite ref=\"Song of Songs 4:16\">Cant. IV, 16</cite>) means “my state room”; as the bridal curtain is embroidered in variegated colors, so was the Tabernacle &c.; a. e."
+			]
+		}
+	]
+}

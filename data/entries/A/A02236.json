@@ -1,0 +1,23 @@
+{
+	"id": "A02236",
+	"slug": "אניסין",
+	"headword": {
+		"text": "אֲנִיסִין"
+	},
+	"page": {
+		"number": 85,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <he>נִיסוֹס</he>; νῆσος) <i>islands</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Terumot 2:12\">Tosef. Ter. II, 12</cite>; <cite ref=\"Mishnah Challah 2:11\">Ḥall. II, 11</cite>; (also <he>נסין</he> a. <he>ניסין</he>; <cite ref=\"Jerusalem Talmud Sheviit 6:1:22\">Y. Shebi. VI, 36ᵈ</cite> <he>ניסים</he>; <cite ref=\"Gittin 8a:7\">Gitt. 8ᵃ</cite> <he>נסין</he>)."
+			]
+		}
+	]
+}

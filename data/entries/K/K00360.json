@@ -1,0 +1,23 @@
+{
+	"id": "K00360",
+	"slug": "כופתא-3",
+	"headword": {
+		"text": "כּוּפְתָּא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 625,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01062\"><he>כְּפַת</he></cite>) <i>being tied</i> on the altar (= h. <cite ref=\"P01155\"><he>עֲקֵדָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 3:18\">Targ. Job. III, 18</cite> (<cite ref=\"Aramaic Targum to Job 3:19\">19</cite>)."
+			]
+		}
+	]
+}

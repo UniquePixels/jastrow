@@ -1,0 +1,28 @@
+{
+	"id": "I00715",
+	"slug": "טרדא",
+	"headword": {
+		"text": "טִרְדָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִירְ׳"
+		}
+	],
+	"page": {
+		"number": 550,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>טְרַד</he> I) <i>anxiety, excitement</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 16b:4\">Ber. 16ᵇ</cite> <he>אי משום ט׳</he> if anxiety be a cause for omitting to pray. ",
+				"<cite ref=\"Berakhot 16b:4\">Ib.</cite> <he>ט׳ דרשות</he> anxiety about a secular affair, <he>ט׳ דמצוה</he> about a religious matter; <cite ref=\"Sukkah 25a:10\">Succ. 25ᵃ</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "G00202",
+	"slug": "זונין-1",
+	"headword": {
+		"text": "זוֹנִין",
+		"homograph": 1
+	},
+	"page": {
+		"number": 388,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (of <cite ref=\"G00197\"><he>זוֹנֶה</he></cite>; <cite ref=\"G00569\"><he>זָנָה</he></cite>) [<i>degenerate wheat</i>,] <i>a weed growing among wheat, darnel</i> or <i>rye-grass</i> (Lolium perenne, v. Löw Pfl. p. 133). ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:1\">Kil. I, 1</cite>. Y. ib. 26ᵈ <he>מין הטין וכ׳</he> they (zonin) are a kind of wheat, only that fruits degenerate, v. <cite ref=\"G00569\"><he>זָנָה</he></cite>. ",
+				"<cite ref=\"Tosefta Terumot 6:10\">Tosef. Ter. VI, 10</cite> <he>ז׳ שבה</he> (Var. <he>זוגין</he>) the darnel in it; Y. ib. V, end, 43ᵈ <he>ז׳ טנופת</he> (strike out <cite ref=\"I00001\"><he>ט׳</he></cite> as a gloss)."
+			]
+		}
+	]
+}

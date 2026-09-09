@@ -1,0 +1,37 @@
+{
+	"id": "L00353",
+	"slug": "לחישה",
+	"headword": {
+		"text": "לְחִישָׁה"
+	},
+	"page": {
+		"number": 703,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>לָחַשׁ</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>whisper; spell, charm</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:4:4\">Y. Sabb. VI, 8ᵇ</cite> bot. (expl. <he>לחשים</he>, <cite ref=\"Isaiah 3:20\">Is. III, 20</cite>) <he>קדשייא דבר שהוא ניתן על בית הל׳</he> ear-rings, (namely) that which is put on the place where the whispering for charming purposes is done (the ear).—בל׳ <i>in a low voice</i>. ",
+				"<cite ref=\"Bereishit Rabbah 3\">Gen. R. s. 3</cite>, beg.; a. fr.—[<cite ref=\"Jerusalem Talmud Berakhot 1:5:14\">Y. Ber. I, 3ᵈ</cite> top, v. <cite ref=\"L00375\"><he>לְחָשָׁא</he></cite>.]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>hissing</i> (of the serpent), <i>emission of venom</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 2:10\">Ab. II, 10</cite> <he>לְחִישָׁתָן לְחִישַׁת וכ׳</he> their (the scholars’) hissing is that of &c.; <cite ref=\"Bamidbar Rabbah 3\">Num. R. s. 3</cite>, beg.—Trnsf. <i>invidious talk, tale-bearing, insinuation</i>. ",
+				"<cite ref=\"Pesachim 57a:8\">Pes. 57ᵃ</cite> <he>אוי לי מלחישתן</he> woe to me on account of their talk; <cite ref=\"Tosefta Menahot 13:21\">Tosef. Men. XIII, 21</cite> <he>בית לחישתן</he> their mouth.—Pl. <he>לְחִישׁוֹת</he>. ",
+				"<cite ref=\"Tosefta Sotah 14:3\">Tosef. Sot. XIV, 3</cite>; <cite ref=\"Sotah 47b:18\">Sot. 47ᵇ</cite> <he>לוחשי ל׳ בדין</he> those influencing the court by means of secret talk or insinuations."
+			],
+			"label": "2"
+		}
+	]
+}

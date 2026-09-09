@@ -1,0 +1,51 @@
+{
+	"id": "S02270",
+	"slug": "קשת-1",
+	"headword": {
+		"text": "קְשַׁת"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְשֵׁית"
+		}
+	],
+	"page": {
+		"number": 1433,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"S02230\"><he>קְשַׁט</he></cite>) <i>to shoot</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 21:26\">Targ. Ez. XXI, 26</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Exodus 15:4\">Targ. Y. II, Ex. XV, 4</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַקְשֵׁית"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S02269\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 37:33\">Targ. Is. XXXVII, 33</cite> <he>יַקְשִׁית</he> ed. Wil. (ed. Lag. <he>יִקְשַׁת</he>); <cite ref=\"Targum Jonathan on II Kings 19:32\">Targ. II Kings XIX, 32</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְקַשֵּׁת"],
+			"senses": [
+				{
+					"gloss": "<i>to be shot forth</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Exodus 19:13\">Targ. Y. II, Ex. XIX, 13</cite> (v. <cite ref=\"S02230\"><he>קְשַׁט</he></cite>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

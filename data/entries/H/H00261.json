@@ -1,0 +1,31 @@
+{
+	"id": "H00261",
+	"slug": "חודיתא",
+	"headword": {
+		"text": "חוּדִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוּדְתָּא"
+		},
+		{
+			"text": "חִידְתָּא"
+		}
+	],
+	"page": {
+		"number": 430,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " <cite ref=\"H00260\">same</cite>, also <i>allegory</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 14:12\">Targ. Jud. XIV, 12</cite>; <cite ref=\"Targum Jonathan on Judges 14:13\">13</cite>; <cite ref=\"Targum Jonathan on Judges 14:16\">16</cite>.—",
+				"<cite ref=\"Targum Jonathan on Numbers 21:27\">Targ. Y. Num. XXI, 27</cite> (some ed. <he>חורתא</he>, corr. acc.).—Pl. <he>חוּדְוָן</he>, <he>חוֹדְיָן</he>, <he>חֶדְוָן</he>, <he>חִוָדְיָן</he>. ",
+				"<cite ref=\"Onkelos Numbers 12:8\">Targ. O. Num. XII, 8</cite> <he>חוֹדְיָן</he> ed. Berl. (ed. Amst. <he>חִידְוָן</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 78:2\">Targ. Ps. LXXVIII, 2</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 9:1\">Targ. II Chr. IX, 1</cite> <he>מותלוון דחִידְיָן</he> ed. Lag., v. <cite ref=\"H00260\">preced. w.</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "H00371",
+	"slug": "חומא-1",
+	"headword": {
+		"text": "חוּמָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חוֹמָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 435,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " m. <cite ref=\"H00370\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 8:22\">Targ. Gen. VIII, 22</cite>; a. e., v. <cite ref=\"H00399\"><he>חוּמְּתָא</he></cite>.—",
+				"<cite ref=\"Bereishit Rabbah 87\">Gen. R. s. 87</cite> (in Hebr. dict.) <he>בכל חוּמָּאוֹ</he> in his full heat (of youth)."
+			]
+		}
+	]
+}

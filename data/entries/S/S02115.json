@@ -1,0 +1,30 @@
+{
+	"id": "S02115",
+	"slug": "קרסולא-1",
+	"headword": {
+		"text": "קַרְסוּלָּא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "קַרְסוּלָּה"
+		}
+	],
+	"page": {
+		"number": 1423,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S02114\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 21:35\">Targ. Y. Num. XXI, 35</cite> <he>בקַרְסוּלֵּיה</he> (not <he>בקרסולי</he>).—Y. Shek. VI, 50ᵃ top, v. <cite ref=\"S02114\">preced.</cite> ",
+				"<cite ref=\"Bava Batra 73b:4-7\">B. Bath. 73ᵇ</cite> <he>ההוא</he> … <he>עד קרסוליה</he> Ms. O. (ed. <he>קַרְצוּלֵּיה</he>) a bird standing in water up to its ankles. ",
+				"<cite ref=\"Berakhot 54b:6\">Ber. 54ᵇ</cite> <he>ומחייה בקרסוליה</he> and he (Moses) struck him (Og) on his ankle; a. e.—Pl. <he>קַרְסוּלִּין</he>. ",
+				"<cite ref=\"Onkelos Leviticus 11:21\">Targ. Lev. XI, 21</cite> (leaping legs; h. text <he>כרעים</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 47:3\">Targ. Ez. XLVII, 3</cite> (Ar. a. ed. Lag. <cite ref=\"S02077\"><he>קרצ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 50:11\">Targ. Ps. L, 11</cite> Ms. (ed. <cite ref=\"S02077\"><he>קרצ׳</he></cite>)."
+			]
+		}
+	]
+}

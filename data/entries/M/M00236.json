@@ -1,0 +1,23 @@
+{
+	"id": "M00236",
+	"slug": "מדבורא",
+	"headword": {
+		"text": "מַדְבּוּרָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 731,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00076\"><he>דְּבַר</he></cite>) <i>guide</i>; <he>מ׳ דנורא</he> <i>torch</i> or <i>torch-carrier</i> directing the work of night laborers.—Pl. <cite ref=\"M00236\"><he>מַדְבּוּרֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 12b\">M. Kat. 12ᵇ</cite> Ms. M. a. Ar. (v. Rabb. D. S. a. l. note; ed. <he>מְדוּכְרֵי</he>, Alf. <cite ref=\"M00299\"><he>מַדְכּוּרָא</he></cite>)."
+			]
+		}
+	]
+}

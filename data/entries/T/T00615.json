@@ -1,0 +1,43 @@
+{
+	"id": "T00615",
+	"slug": "ריח-1",
+	"headword": {
+		"text": "רִיחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "רוּחַ"
+		}
+	],
+	"page": {
+		"number": 1473,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to breathe, waft, blow</i>.—Denom. <cite ref=\"T00615\"><he>רוּחַ</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵרִיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to scent, smell</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 34:4\">Gen. R. s. 34</cite> <he>הלך וַהֲרִיחָהּ</he> (not <he>וריחה</he>) he went and smelled of it. ",
+						"<cite ref=\"Bereishit Rabbah 34:4\">Ib.</cite> (ref. to <cite ref=\"Genesis 8:21\">Gen. VIII, 21</cite>) <he>ה׳ ריחו של אברהם וכ׳</he> he smelled the savor of Abraham, our father, rising from the fiery furnace (foresaw the self-sacrifice of Abraham); <he>ה׳ דורו של שמד</he> he smelled the savor of the generation of persecution (foresaw their martyrdom). ",
+						"<cite ref=\"Sanhedrin 11a:3\">Snh. 11ᵃ</cite> <he>ה׳ ריח שום</he> he perceived the smell of garlic. ",
+						"<cite ref=\"Zevachim 62a:5\">Zeb. 62ᵃ</cite> <he>הֵרִיחוּ ריח קטרת</he> they smelled the savor of frankincense (at the place where the Temple had stood). ",
+						"<cite ref=\"Niddah 58b:54\">Nidd. 58ᵇ</cite> <he>כל המוללו מֵרִיחַ בו</he> whoever crushes it, smells its odor. ",
+						"<cite ref=\"Sanhedrin 109a:14\">Snh. 109ᵃ</cite> <he>לערב באין ומְרִיחִין אותו וכ׳</he> in the evening they came and scented it (the balsam) like a dog. ",
+						"<cite ref=\"Mishnah Yoma 8:4\">Yoma VIII, 4</cite> <he>עוברה שהֵרִיחָה וכ׳</he> a woman with child that smelled (a dish on the Day of Atonement, and has a morbid desire for it) must be given to eat, until she feels restored. ",
+						"<cite ref=\"Bava Batra 146a:13\">B. Bath. 146ᵃ</cite> bot. <he>ריח צנון אני מריח בגליל</he> I smell a radish in Galilee (have a strong appetite for a Galilean radish); a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

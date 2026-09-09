@@ -1,0 +1,31 @@
+{
+	"id": "N00695",
+	"slug": "ניניא-2",
+	"headword": {
+		"text": "נִינְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִנְ׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 905,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"N00694\">preced.</cite>) <i>ammi, Bishop’s-weed</i> (v. <cite ref=\"A02028\"><he>אַמִּיתָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 29a\">Ab. Zar. 29ᵃ</cite> (Rashi: <i>mint</i>). ",
+				"<cite ref=\"Shabbat 128a:14\">Sabb. 128ᵃ</cite>; <cite ref=\"Shabbat 140a:8\">140ᵃ</cite> <cite ref=\"N00695\"><he>נִינְיָיא</he></cite>. ",
+				"<cite ref=\"Shabbat 140a:8\">Ib.</cite> <he>האי נ׳ מעליא וכ׳</he> <i>ninia</i> is good for seasoning cress. ",
+				"<cite ref=\"Gittin 69b:6\">Gitt. 69ᵇ</cite> <he>תלת ביעי נ׳</he> (Ar. <he>בנ׳</he>) three eggs’ sizes of <i>n.</i>—V. <cite ref=\"N00998\"><he>נַעְנָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "S00732",
+	"slug": "קטט-1",
+	"headword": {
+		"text": "קָטַט"
+	},
+	"page": {
+		"number": 1347,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>קצץ</he>) <i>to cut, diminish</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִטְקֵט"],
+			"senses": [
+				{
+					"gloss": " [<i>to make fine</i>,] (cmp. <cite ref=\"D00989\"><he>דִּקְדֵּק</he></cite>) <i>to even the woof by beating</i>. Y. Sabb. XII, 13ᶜ bot. <he>השובט והמְקַטְקֵט על האריג</he> he who beats to make the web close or to make the woof even; ib.ᵈ top; Y. Pes. VI, 33ᵇ top.",
+					"units": []
+				}
+			],
+			"stem": "Pilp."
+		},
+		{
+			"forms": ["הֵיקֵט"],
+			"senses": [
+				{
+					"gloss": ", v. <cite ref=\"S00733\">next w.</cite>",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "C01080",
+	"slug": "גנב-3",
+	"headword": {
+		"text": "גַּנָּב"
+	},
+	"page": {
+		"number": 256,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>thief</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 8:3:4\">Y. Snh. VIII, 26ᵇ</cite> top <he>גָּנַב בפני עדים גַּ׳ וכ׳</he> if one carries an object off in the sight of witnesses, he is a thief (amenable to the law <cite ref=\"Exodus 21:37\">Ex. XXI, 37</cite>), if in the owner’s presence, he is a robber. ",
+				"<cite ref=\"Bava Kamma 57a:13\">B. Kam. 57ᵃ</cite> since he keeps himself hidden <he>ג׳ הוא</he> he is a thief (not a robber). ",
+				"<cite ref=\"Bava Kamma 57a:13\">Ib.</cite>, a. fr. <he>טוען טענת ג׳</he> he pleads that a thief had stolen the object in his charge. ",
+				"<cite ref=\"Sanhedrin 26b:18\">Snh. 26ᵇ</cite> <he>ג׳ ניסן וכ׳</he> a thief (a laborer or tenant who takes fruits) in Nisan or in Tishri is not a thief (to be considered unfit to testify in court); a. fr.—Pl. <he>גַּנָּבִים</he>, <he>גַּנָּבִין</he>. ",
+				"<cite ref=\"Tosefta Bava Kamma 7:8\">Tosef. B. Kam. VII, 8</cite>; Mekh. Mishp., N’zikin, s. 13; a. fr."
+			]
+		}
+	]
+}

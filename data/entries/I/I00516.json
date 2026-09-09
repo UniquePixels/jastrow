@@ -1,0 +1,26 @@
+{
+	"id": "I00516",
+	"slug": "טלני",
+	"headword": {
+		"text": "טְלָנֵי"
+	},
+	"page": {
+		"number": 538,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>טְלַל</he> II) [<i>sporters</i>,] <i>night demons, urchins</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 3:8\">Targ. Cant. III, 8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 4:6\">Ib. IV, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:5\">Targ. Koh. II, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 6:24\">Targ. Y. Num. VI, 24</cite> <he>טלוי</he> (corr. acc.)"
+			]
+		}
+	]
+}

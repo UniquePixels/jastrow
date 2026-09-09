@@ -1,0 +1,24 @@
+{
+	"id": "I00706",
+	"slug": "טרגוס",
+	"headword": {
+		"text": "טְרָגוֹס"
+	},
+	"page": {
+		"number": 549,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (tragos, τράγος) <i>a mess of groats</i> of wheat, barley &c., <i>groats</i> used for a mess. ",
+			"units": [
+				"<cite ref=\"Mishnah Makhshirin 6:2\">Makhsh. VI, 2</cite> <cite ref=\"I00711\"><he>טרגיס</he></cite>. ",
+				"<cite ref=\"Berakhot 37a\">Ber. 37ᵃ</cite> <cite ref=\"I00711\"><he>טרגיס</he></cite> (Ms. F. <he>טריגוס</he>); <cite ref=\"Berakhot 37a\">Ib.</cite> Ms. M. (missing in ed.) <cite ref=\"I00706\"><he>טרגוס</he></cite>, also <he>טירגוס</he> (v. Rabb. D. S. a. l. notes 20, 30). ",
+				"<cite ref=\"Moed Katan 13b:7\">M. Kat. 13ᵇ</cite> <he>טרגיס חדא לתלתא</he> (Ms. M. also <he>טירגיס</he>) it is called <i>tragos</i>, when each grain is broken in three parts, v. <cite ref=\"H00791\"><he>חֶילְקָא</he> II</cite>."
+			]
+		}
+	]
+}

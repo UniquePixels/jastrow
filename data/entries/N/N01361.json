@@ -1,0 +1,47 @@
+{
+	"id": "N01361",
+	"slug": "נתז-2",
+	"headword": {
+		"text": "נְתַז"
+	},
+	"page": {
+		"number": 943,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01360\">same</cite>, <i>to gush forth, splash</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 1:44\">Targ. O. Deut. I, 44</cite> <he>נָתְזָן</he> (ed. Vien. <he>נַתְּזָן</he>, of bees). ",
+				"<cite ref=\"Aramaic Targum to Job 3:23\">Targ. Job III, 23</cite> (h. text <cite ref=\"N01380\"><he>נתך</he></cite>).—",
+				"<cite ref=\"Sotah 48b\">Sot. 48ᵇ</cite> (quot. fr. Targ. O. Deut. l. c.)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַתֵּיז"],
+			"senses": [
+				{
+					"gloss": " (with <he>רישא</he>) <i>to decapitate</i>. ",
+					"units": [
+						"<cite ref=\"Targum of I Chronicles 10:9\">Targ. I Chr. X, 9</cite> (h. text <he>נשא</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["נתֵּיז"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to fly off</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 19a\">B. Kam. 19ᵃ</cite> <he>קא מְנַתְּזָא צרורות</he>, v. <cite ref=\"N01360\">preced.</cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

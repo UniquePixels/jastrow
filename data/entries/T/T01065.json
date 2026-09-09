@@ -1,0 +1,40 @@
+{
+	"id": "T01065",
+	"slug": "רשאי-1",
+	"headword": {
+		"text": "רַשַּׁאי"
+	},
+	"page": {
+		"number": 1498,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T01071\"><he>רָשָׁה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>having power, empowered, entitled to, permitted</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 104a:2\">Sabb. 104ᵃ</cite> <he>אין הנביא ר׳ וכ׳</he>, v. <cite ref=\"H00217\"><he>חָדַשׁ</he></cite>. ",
+				"<cite ref=\"Mishnah Peah 7:5\">Peah VII, 5</cite> <he>בשלו הוא ר׳ ואינו ר׳ וכ׳</he> he has power of disposal over that which belongs to him, but not over that which belongs to the poor. ",
+				"<cite ref=\"Mishnah Arakhin 8:4\">Arakh. VIII, 4</cite> <he>אין אדם ר׳ להחרים וכ׳</he> no man has a right to vow &c., v. <cite ref=\"H01714\"><he>חָרַם</he></cite>; a. fr.—Pl. <he>רַשָּׁאִים</he>, <he>רַשָּׁאִין</he>. ",
+				"<cite ref=\"Pirkei Avot 4:8\">Ab. IV, 8</cite> <he>אל תאמר קבלו דעתי שהן ר׳ וכ׳</he> say not (to your fellow judges) accept my opinion, for theirs is the power (as a majority), not thine. ",
+				"<cite ref=\"Bava Batra 8b:16\">B. Bath. 8ᵇ</cite>; a. fr.—<i>Fem.</i> <cite ref=\"T01064\"><he>רַשָּׁאָה</he></cite>. ",
+				"<cite ref=\"Tosefta Yevamot 8:4\">Tosef. Yeb. VIII, 4</cite> <he>האשה ר׳ שתינשא וכ׳</he> a woman is permitted to marry even a eunuch. ",
+				"<cite ref=\"Tosefta Yevamot 8:4\">Ib.</cite> <he>האשה רשאי</he> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"T01083\"><he>רְשֵׁי</he></cite>) <i>owing, bound to</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Arakhin 8:7\">Arakh. VIII, 7</cite> <he>אומדים … עולה שאינו ר׳</he> we estimate how much a man would pay for it to offer it as a burnt-offering which he is not bound to offer."
+			],
+			"label": "2"
+		}
+	]
+}

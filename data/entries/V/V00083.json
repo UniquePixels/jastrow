@@ -1,0 +1,29 @@
+{
+	"id": "V00083",
+	"slug": "תגדא",
+	"headword": {
+		"text": "תִּגְדָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּי׳"
+		}
+	],
+	"page": {
+		"number": 1646,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00118\"><he>נְגַד</he></cite>, v. <cite ref=\"A00243\"><he>אֲגַד</he> III</cite>) <i>staff, crutch</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 4:11\">Targ. Esth. IV, 11</cite>; <cite ref=\"Aramaic Targum to Esther 5:2\">V, 2</cite>, a. e. (h. text <cite ref=\"U01920\"><he>שרביט</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 23:4\">Targ. Ps. XXIII, 4</cite> <he>תִּיגְדָּאךְ</he> ed. Lag. (ed. Wil. <he>תִּגְדָּךְ</he>, not <he>תנ׳</he>; some ed. <he>תִּיגְרָאךְ</he>; h. text <he>שבט׳</he>).—",
+				"<cite ref=\"Bava Metzia 21b:11\">B. Mets. 21ᵇ</cite> <he>סבי דאזלי אתי׳</he> Ms. R. 3 (v. Rabb. D. S. a. l. note 7; ed. <he>אתיגרא</he>), v. <cite ref=\"M00678\"><he>מוּשׁ</he></cite> h.; <cite ref=\"Taanit 6b:7\">Taan. 6ᵇ</cite> <he>את׳</he> Ms. M. 2 (v. Rabb. D. S. a. l. note 400; ed. <he>אתיגרא</he>).—[<cite ref=\"Bekhorot 9a:2\">Bekh. 9ᵃ</cite> <he>שדינהו בת׳</he>, v. <cite ref=\"V00094\"><he>תִּגְּרָא</he></cite>.]"
+			]
+		}
+	]
+}

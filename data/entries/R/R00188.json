@@ -1,0 +1,42 @@
+{
+	"id": "R00188",
+	"slug": "צוי-3",
+	"headword": {
+		"text": "צְוֵי",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צְוָא"
+		},
+		{
+			"text": "צְוָה"
+		}
+	],
+	"page": {
+		"number": 1267,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. S. Sm. 3370) [<i>to contract</i>,] <i>to be hot, dry up, wither</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 56a:4\">Pes. 56ᵃ</cite> <he>צָאוֵי לאלתר</he> ed. (Ar. <he>צָוֵוי</he>) it will at once dry up. Ib. 110ᵇ <he>פקע וצווא דיקלא</he> Ar. (ed. <he>צווח דיקלא ופקע הוא</he>, Ms. M. <cite ref=\"R00188\"><he>צְוָה</he></cite>) the bark burst, and the palm dried up. Ib. 111ᵃ <he>וצְווּ כרעיה</he> his legs shrivelled."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צַוֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to burn, desiccate</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 24b:19\">B. Bath. 24ᵇ</cite> bot. <he>דאזיל … ומְצַוֵּי ליה</he> the dust penetrates its heart and desiccates it (the plant)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

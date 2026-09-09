@@ -1,0 +1,23 @@
+{
+	"id": "S00475",
+	"slug": "קוסיטרפיזין",
+	"headword": {
+		"text": "קוֹסִיטְרַפִּיזִין"
+	},
+	"page": {
+		"number": 1337,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (κοσσοτράπεζον, Du Cange I, 722) <i>parasites, toad-eaters</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 22</cite> (expl. <he>מגורי</he>, <cite ref=\"Eichah Rabbah 2\">ib.</cite>; v. <cite ref=\"M00171\"><he>מָגֵיר</he></cite>) <he>בני אדם שהיו קוסי טר׳ הבאתם עלי</he> Ar. (combine <he>קוסיטר׳</he>, and insert <cite ref=\"U01290\"><he>שלי</he></cite>) men that were parasites at my table didst thou lead against me; (ed. corrupt.)."
+			]
+		}
+	]
+}

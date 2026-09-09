@@ -1,0 +1,28 @@
+{
+	"id": "M02541",
+	"slug": "מרדה-2",
+	"headword": {
+		"text": "מַרְדֶּה",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מַרְדָה"
+		}
+	],
+	"page": {
+		"number": 837,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>mardeh</i> (<i>mardah</i>), name of a lowland bird. ",
+			"units": [
+				"<cite ref=\"Chullin 65b\">Ḥull. 65ᵇ</cite> Ar. (ed. <cite ref=\"M02535\"><he>מרדא</he></cite>)."
+			]
+		}
+	]
+}

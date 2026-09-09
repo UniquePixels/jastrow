@@ -1,0 +1,24 @@
+{
+	"id": "A01774",
+	"slug": "אלבינא",
+	"headword": {
+		"text": "אַלְבִּינָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַלְבִּינָה"
+		}
+	],
+	"page": {
+		"number": 66,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<he>אלב</he> <i>to cut;</i> cmp. <he>חלף</he>, <cite ref=\"H00780\"><he>חֵילֶף</he></cite>, <cite ref=\"H00781\"><he>חִילְפָא</he></cite> &c.) <i>a bundle of shoots, broom</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 2:2:3\">Y. Meg. II, 73ᵃ</cite> (for b. h. <cite ref=\"M00961\"><he>מְטַאְטֵא</he></cite>)."
+			]
+		}
+	]
+}

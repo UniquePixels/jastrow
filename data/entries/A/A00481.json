@@ -1,0 +1,56 @@
+{
+	"id": "A00481",
+	"slug": "אהב",
+	"headword": {
+		"text": "אָהַב"
+	},
+	"page": {
+		"number": 19,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<cite ref=\"E00023\"><he>הב</he></cite>; cmp. <cite ref=\"H00012\"><he>חבב</he></cite>)<i>to love</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:1:5\">Y. Ab. Zar. II beg. 40ᶜ</cite> <he>אוֹהֲבָהּ</he> her lover; a. fr. <he>אוהב את הבריות</he> <i>philanthropist</i>. ",
+				"<cite ref=\"Pirkei Avot 1:12\">Aboth I, 12</cite>; a. fr.—Part. pass. <he>אָהוּב</he>, f. <he>אֲהוּבָה</he>. ",
+				"<cite ref=\"Yevamot 23a\">Yeb. 23ᵃ</cite> <he>א׳ בנשואיה</he> beloved (worth loving) for her well chosen marriage. [Y. Ab. Zar. l. c. <he>איהבתו</he> read <he>אוֹהַבְתּוֹ</he>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶאֱהַב"],
+			"senses": [
+				{
+					"gloss": ", <i>Hithpa.</i> <he>הִתְאָהֵב</he> <i>to be beloved, popular</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 32\">Lev. R. s. 32</cite>, beg., these blows (of persecution) had the effect <he>להֵאָהֵב וכ׳</he> to make me beloved of my Father in heaven. ",
+						"<cite ref=\"Yoma 86a:12\">Yoma 86ᵃ</cite> <he>שיהא ש״ש מִתְאָהֵב וכ׳</he> that the Divine Name may be beloved through thee (that thy doings may favorably reflect on thy religion).—"
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["אִהֵב"],
+			"senses": [],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶאֱהִיב"],
+			"senses": [
+				{
+					"gloss": "<i>to make beloved, popular</i>. Tan. d’be El. I, 28 <he>תהא מְאָהֵב ש״ש וכ׳</he> make the Divine Name &c. (v. supra).—<i>Part. Pu</i>. <he>מְאוּהָב</he> <i>popular</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 837:3\">Yalk. Deut. 837</cite>.—",
+						"<cite ref=\"Shir HaShirim Rabbah 1:1:10\">Cant. R. to I, 1</cite> <he>להַאֲהִיבָן</he> (<he>לאָהֲבָן</he>) <he>לקרבן וכ׳</he> to make them beloved (of God), draw them nigh (to God) &c. ",
+						"<cite ref=\"Shir HaShirim Rabbah 5:1\">Ib. to V, 1</cite>.—",
+						"<cite ref=\"Yalkut Shimoni on Nach 981:5\">Yalk. Cant. 981</cite> <he>הֶאֱהַבְנוּ לך עלמות הרבה</he> we have made many maiden beloved of thee (converted them)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

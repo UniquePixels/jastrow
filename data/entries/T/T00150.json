@@ -1,0 +1,24 @@
+{
+	"id": "T00150",
+	"slug": "רברבנותא",
+	"headword": {
+		"text": "רַבְרְבָנוּתָא"
+	},
+	"page": {
+		"number": 1446,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00149\">preced.</cite>) <i>boast, pride</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 12:4\">Targ. Ps. XII, 4</cite> (h. text <he>גדלות</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 17:10\">Ib. XVII, 10</cite>, v. <cite ref=\"T00148\"><he>רַבְרְבוּתָא</he></cite>.—",
+				"<cite ref=\"Pesachim 104b:3\">Pes. 104ᵇ</cite> <he>רַבְרְבָנוּתֵיה</he>, v. <cite ref=\"O01681\"><he>סְרָרוּתָא</he></cite>."
+			]
+		}
+	]
+}

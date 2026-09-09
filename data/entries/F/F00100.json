@@ -1,0 +1,23 @@
+{
+	"id": "F00100",
+	"slug": "וותא",
+	"headword": {
+		"text": "וָוְתָא"
+	},
+	"page": {
+		"number": 376,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"F00023\"><he>וָו</he></cite>) <i>stork</i> (from the shape of its beak and neck). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 104:17\">Targ. Ps. CIV, 17</cite> (ed. Lag. <he>וָתָא</he>, Regia <cite ref=\"F00103\"><he>ותיא</he></cite>). ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 14:13\">Targ. Y. II, Deut. XIV, 13</cite> (belonging to v. 18, h. text <cite ref=\"H01370\"><he>חסידה</he></cite>, v. <cite ref=\"A01121\"><he>אִיבּוּ</he></cite>)."
+			]
+		}
+	]
+}

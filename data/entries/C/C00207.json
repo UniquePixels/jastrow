@@ -1,0 +1,24 @@
+{
+	"id": "C00207",
+	"slug": "גדילה-1",
+	"headword": {
+		"text": "גְּדִילָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 212,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>גָדַל</he> I) <i>growth</i>. <he>דרך ג׳</he> <i>the way a thing grows, in natural position</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 67a:17\">Nidd. 67ᵃ</cite> <he>דרך גְּדִילָתָהּ</he> in her natural position (not pressing limbs together). ",
+				"<cite ref=\"Sukkah 45b:2\">Succ. 45ᵇ</cite> <he>דרך גְּדִילָתָן</he> as the plants grow (not upside down); a. e."
+			]
+		}
+	]
+}

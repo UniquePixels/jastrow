@@ -1,0 +1,37 @@
+{
+	"id": "G00539",
+	"slug": "זמר-1",
+	"headword": {
+		"text": "זָמַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 405,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to nip; to prune; to cut</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 73b:4\">Sabb. 73ᵇ</cite> <he>זוֹמֵר וצריך וכ׳</he> if one trims a tree (on the Sabbath) for making use of the wood. ",
+				"<cite ref=\"Sanhedrin 26a:10\">Snh. 26ᵃ</cite> <he>כהן וזומר</he> (not <he>וזמר</he>) a priest is he, and he prunes the vine (in the sabbatical year)!; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִזְמַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be pruned</i>, trnsf. <i>to be checked, unnerved, defeated</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 2:12:1\">Cant. R. to II, 12</cite> (ref. to <cite ref=\"G00521\"><he>זמיר</he></cite> <cite ref=\"Shir HaShirim Rabbah 2:12:1\">ib.</cite>) <he>הגיע זמנה של ערלה שתִּזָּמֵר</he> the time for pruning the preputium (circumcision) has come (v. ",
+						"<cite ref=\"Shemot Rabbah 19\">Ex. R. s. 19</cite>); <he>הגיע … שיִזָּמֵרוּ</he> the time has come for the Egyptians to be checked; Pesik. Haḥod., p. 50ᵃ; <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite>.—",
+						"<cite ref=\"Vayikra Rabbah 9\">Lev. R. s. 9</cite>, beg. Akhan is named Zimri (<cite ref=\"I Chronicles 2:6\">I Chr. II, 6</cite>, cmp. with <cite ref=\"Joshua 7:24\">Josh. VII, 24</cite>) <he>שנִזְמְרוּ … על ידו</he> because through him the Israelites were unnerved (<cite ref=\"Joshua 7:5\">Josh. VII, 5</cite>); a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

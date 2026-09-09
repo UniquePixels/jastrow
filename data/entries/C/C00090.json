@@ -1,0 +1,29 @@
+{
+	"id": "C00090",
+	"slug": "גבין-2",
+	"headword": {
+		"text": "גְּבִין",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּבִינָא"
+		}
+	],
+	"page": {
+		"number": 206,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = (b. h. <cite ref=\"C00115\"><he>גִּבֵּן</he></cite>) <i>hump-backed</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 21:20\">Targ. O. Lev. XXI, 20</cite>. ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 7:13\">Targ. Koh. VII, 13</cite>."
+			]
+		}
+	]
+}

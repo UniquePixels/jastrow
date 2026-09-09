@@ -1,0 +1,68 @@
+{
+	"id": "H01212",
+	"slug": "חמץ-2",
+	"headword": {
+		"text": "חָמֵץ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 479,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"H01211\">preced.</cite>) [<i>to be hot</i>,] <i>to ferment, be sour</i>. Ad. Zar. 68ᵇ <he>מי גרם לה שתֶּחְמַץ וכ׳</he> what was the cause that it (the dough) became leavened (rose) in one hour?",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִמֵּץ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause leavening</i>. Ib.ᵃ <he>ראויה לחַמֵּץ וכ׳</he> Ms. M. (ed. <he>לחַמֵּעַ</he>) fit to leaven with it many other doughs. Ib. <he>וחִימְּצוּ</he>; <cite ref=\"Mishnah Orlah 2:11\">Orl. II, 11</cite> <he>נצטרפו וחִמְּצוּ</he> (Y. ed. <he>הצטרפו וחִימֵּיצוּ</he>) and the two combined produced the required leavening, Ib. 9 <he>וחִמְּצָהּ</he> (Y. ed. <he>וחִימֵּיצָהּ</he>; Ab. Zar. l. c. <he>והֶחְמִיצָהּ</he>) and it made the dough rise. ",
+					"units": [
+						"<cite ref=\"Mishnah Orlah 2:6\">Orl. II 6</cite> <he>כל המְחַמֵּץ</he> whatever is used for producing fermentation; a. fr.—Trnsf. <i>to mature, to continue a case over night, to reserve judgment</i>. ",
+						"<cite ref=\"Sanhedrin 35a:6\">Snh. 35ᵃ</cite> (ref. to <cite ref=\"Isaiah 1:17\">Is. I, 17</cite>, v. <cite ref=\"H01211\">preced.</cite>) <he>אשרו דיין שמְחַמֵּץ את וכ׳</he> Ms. K. (ed. <he>אשרי</he>, v. Rabb. D. S. a. l. note 20) praise the judge (in capital cases) who reserves his judgment (over night); <cite ref=\"Yalkut Shimoni on Nach 257\">Yalk. Is. 257</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֶחְמִיץ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01211\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Pesachim 40a:2\">Pes. 40ᵃ</cite> <he>מי פירות אינן מַחְמִיצִין</he> juice of fruits produces no leavening (in the ritual sense). ",
+						"<cite ref=\"Avodah Zarah 68a:12\">Ab. Zar. 68ᵃ</cite> <he>כדי להחמיץ</he> (<cite ref=\"Mishnah Orlah 2:8\">Orl. II, 8</cite> <he>לחַמֵּץ</he>) enough to leaven the dough. Mekh. Bo s. 10 <he>שאור שהוא מַחְמִיץ לאחרים</he> leaven which is used for leavening other doughs; a. fr.—Trnsf. <i>to procrastinate</i>. Ib. s. 9 (play on <he>המַצּוֹת</he>, <cite ref=\"Exodus 12:17\">Ex. XII, 17</cite>) <he>כדרך … אין מַחְמִיצִין את המִצְוָה</he> as well as you must not allow the <i>matsah</i> to become sour, so you must not allow the <i>mitsvah</i> (religious act) to become sour by postponement; <cite ref=\"Yalkut Shimoni on Torah 201:2\">Yalk. Ex. 201</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to turn sour, to ferment</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 68b:6\">Ab. Zar. 68ᵇ</cite> <he>ראויה להַחְמִיץ וכ׳</he> (Ms. M. <he>לחמע</he>) is likely to ferment in two hours. ",
+						"<cite ref=\"Mishnah Niddah 9:7\">Nidd. IX, 7</cite> <he>מי רגלים שהֶחְמִיצוּ</he> urin which ferments.—Trnsf. <i>to degenerate, become wicked</i>. ",
+						"<cite ref=\"Rosh Hashanah 3b:11\">R. Hash. 3ᵇ</cite> <he>קודם שה׳</he> before he (the Persian King) changed for the worse."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִתְחַמֵּץ"],
+			"senses": [
+				{
+					"gloss": "<i>to become sour</i> (<cite ref=\"H01212\"><he>חָמֵץ</he></cite>). ",
+					"units": [
+						"<cite ref=\"Pesachim 28b:13\">Pes. 28ᵇ</cite>; <cite ref=\"Pesachim 43a:18\">43ᵃ</cite> <he>נ׳ מאליו</he> became sour of itself (not through a leavening means)."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

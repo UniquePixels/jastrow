@@ -1,0 +1,48 @@
+{
+	"id": "H00664",
+	"slug": "חידוד",
+	"headword": {
+		"text": "חִידּוּד"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִדּוּד"
+		}
+	],
+	"page": {
+		"number": 451,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00175\"><he>חָדַד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the effect of the sharp edge, cut</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 8a:1\">Ḥull. 8ᵃ</cite> <he>חִידּוּדָהּ קודם וכ׳</he> (in cutting with a heated knife) the effect of its edge precedes the effect of the heat."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "(b. h. <i>pointed projection, prong</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 2:5\">Kel. II, 5</cite> <he>ויש לו ח׳</he> and (the lid) has a pointed knob (which prevents the use of it separately as a receptacle). ",
+				"<cite ref=\"Mishnah Kelim 2:5\">Ib.</cite> <he>ואין לו ח׳</he> (ed. Dehr. <he>ואינו חָדוּד</he>, v. <cite ref=\"H00175\"><he>חָדַד</he></cite>). Ib. IV, 1 <he>או שהיה בו ח׳</he> or (the vessel cannot stand straight) because it has a pointed bottom which makes it incline; a. fr.—Pl. <he>חִידּוּדִים</he>, <he>חִידּוּדִין</he>, <cite ref=\"H00665\"><he>חִדּ׳</he></cite>. Ib. 3 <he>היו בה ח׳ יוצאין</he> if there are prongs projecting from the bottom of the misshaped vessel.—",
+				"<cite ref=\"Sanhedrin 94a:10\">Snh. 94ᵃ</cite> (play on <he>ויחד</he>, <cite ref=\"Exodus 18:9\">Ex. XVIII, 9</cite>) <he>נעשה בשרו ח׳ ח׳</he> Ms. M. (v. Rabb. D. S. a. l.) he felt like cuts in his body; <cite ref=\"Yalkut Shimoni on Torah 268:7\">Yalk. Ex. 268</cite> <he>חי׳ חי׳</he>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>sharpening, whetting</i> (euphem. for <i>unnatural gratification</i>). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 66b:11\">Snh. 66ᵇ</cite>, v. <cite ref=\"E00825\"><he>הִרְדּוּס</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

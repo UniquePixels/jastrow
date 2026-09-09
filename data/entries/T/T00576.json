@@ -1,0 +1,101 @@
+{
+	"id": "T00576",
+	"slug": "רטש",
+	"headword": {
+		"text": "רְטַשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְטֵישׁ"
+		}
+	],
+	"page": {
+		"number": 1472,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to let run, abandon; to drive out, banish</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 17:28\">Targ. I Sam. XVII, 28</cite> (h. text <cite ref=\"N00589\"><he>נטש</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 12:7\">Targ. Jer. XII, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 28:17\">Targ. Ez. XXVIII, 17</cite> (h. text <he>השלכ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 31:12\">Ib. XXXI, 12</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 14:19\">Targ. Jer. XIV, 19</cite> (h. text <he>מאס</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 23:39\">Ib. XXIII, 39</cite> (h. text <he>נשׁא</he>); a. fr.—Part. pass. <cite ref=\"T00568\"><he>רְטִישׁ</he></cite>; f. <he>רְטִישָׁא</he>; pl. <he>רְטִישִׁין</he>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 16:4\">Targ. Ez. XVI, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 2:5\">Targ. Hos. II, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 5:6\">Targ. Is. V, 6</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 32:36\">Targ. Y. II, Deut. XXXII, 36</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 3:45\">Targ. Lam. III, 45</cite> <cite ref=\"T00492\"><he>רְטוּשִׁין</he></cite> (h. text <cite ref=\"M00013\"><he>מָאוֹס</he></cite>); a. e.—Y. Pes. III, 30ᵇ top <he>דאינון רטישין</he> (sub. <he>מיכל</he>) for they (the barley cakes) are the food of the exiles (homeless poor, cmp. ",
+				"<cite ref=\"Ezekiel 4:12\">Ez. IV, 12</cite>), opp. <he>חַטְיָן</he> those living in luxury (v. <he>חטי</he> I; differ. in comment)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְטֵישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to abandon, renounce ownership of</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 23:11\">Targ. O. Ex. XXIII, 11</cite> (h. text <cite ref=\"N00589\"><he>נטש</he></cite>)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["רַטֵּישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to abandon, forsake; to banish</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 6:13\">Targ. Jud. VI, 13</cite> (h. text <cite ref=\"N00589\"><he>נטש</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 7:29\">Targ. Jer. VII, 29</cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 32:4\">Targ. Ez. XXXII, 4</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to scatter; to dash to pieces</i> (cmp. b. h. <he>נפץ</he>). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 137:9\">Targ. Ps. CXXXVII, 9</cite>; a. e.—",
+						"<cite ref=\"Aramaic Targum to Psalms 29:8\">Ib. XXIX, 8</cite> ed. Wil. v. <cite ref=\"T00558\"><he>רְטט</he></cite>.—Part. pass. <he>מְרַטַּשׁ</he>; f. <he>מְרַטְּשָׁא</he>; pl. <he>מְרַטְּשָׁן</he>. Targ. II Esth. VI, 11 <he>אודנוי מ׳</he> his ears shattered (?); [prob. to be read: <he>מְטַרְשָׁן</he> <i>obstructed, deaf</i>, v. <cite ref=\"I00907\"><he>טְרַשׁ</he> II</cite>]."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְרַטֵּשׁ"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְרְטִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to be abandoned, deserted; to be made homeless</i>. Targ. O. a. Y. I <cite ref=\"Leviticus 26:43\">Lev. XXVI, 43</cite> (h. text <he>תעזב</he>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Hosea 4:14\">Targ. Hos. IV, 14</cite> (h. text <he>ולבט</he>, v. <cite ref=\"L00063\"><he>לָבַט</he></cite>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be scattered; to be dashed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Amos 5:2\">Targ. Am. V, 2</cite> (h. text <he>נטשה</he>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 14:12\">Targ. Is. XIV, 12</cite> (h. text <cite ref=\"C00235\"><he>נגדע</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on I Samuel 4:2\">Targ. I Sam. IV, 2</cite> (h. text <he>ותטש</he>). ",
+						"<cite ref=\"Targum Jonathan on Judges 15:9\">Targ. Jud. XV, 9</cite>; a. e.—",
+						"<cite ref=\"Aramaic Targum to Psalms 18:8\">Targ. Ps. XVIII, 8</cite> ed., v. <cite ref=\"T00558\"><he>רְטַט</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

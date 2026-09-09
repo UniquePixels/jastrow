@@ -1,0 +1,24 @@
+{
+	"id": "P00019",
+	"slug": "עבדותא",
+	"headword": {
+		"text": "עַבְדּוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַבְדּוּ"
+		}
+	],
+	"page": {
+		"number": 1035,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P00018\">same</cite> <cite ref=\"Onkelos Exodus 13:3\">Targ. O. Ex. XIII, 3</cite>; a. fr.—",
+			"units": [
+				"<cite ref=\"Gittin 86a:2\">Gitt. 86ᵃ</cite> (in a deed of sale) <he>עבדא דנן מוצדק לעבדו</he> this slave is lawfully a slave."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "R00266",
+	"slug": "צח",
+	"headword": {
+		"text": "צַח"
+	},
+	"page": {
+		"number": 1272,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"R00272\"><he>צחח</he></cite>)<i>bright, resplendent</i>. Cant. R. to V, 10 (ref. to <he>צח ואדום</he> ib.) <he>צח לי … ואדום וכ׳</he> bright (propitious) to me (Israel) in Egypt, but red (threatening) to the Egyptians; ib. [read:] <he>צח לי בים … ואדום למצרים בים</he>; ib. <he>צח לי בעו״הב ואדום לי בעוה״ז</he>; <cite ref=\"Yalkut Shimoni on Nach 988:64\">Yalk. Cant. 988</cite> (corr. acc.). ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 109:1\">Yalk. Sam. 109</cite> (play on <he>צ̇ל̇צ̇ח̇</he>, <cite ref=\"I Samuel 10:2\">I Sam. X, 2</cite>) <he>צ̇ח̇ צ̇ל̇ יום</he> bright is the shadow of the day (of Saul); <he>צ̇ח̇ צ̇ל̇ של זקן ומלכים וכ׳</he> bright was the shade (declining day) of the patriarch (to whom it was said at Bethel), ‘and kings shall proceed from thee’ (<cite ref=\"Genesis 35:11\">Gen. XXXV, 11</cite>); Midr. Sam. ch. XIV <he>צלצח של הזקן</he> (read: <he>צ̇ל̇צ̇ח̇ צ̇ח̇ צ̇ל̇ וכ׳</he>).—2) <i>brightness</i>. ",
+				"<cite ref=\"Genesis 35:11\">Ib.</cite> <he>צלצח כצַחוֹ של יום</he> (read: <he>צֵל צַח</he>) a shade bright as the brightness of the (full) day."
+			],
+			"label": "1"
+		}
+	]
+}

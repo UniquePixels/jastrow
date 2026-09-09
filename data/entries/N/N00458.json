@@ -1,0 +1,40 @@
+{
+	"id": "N00458",
+	"slug": "נזף-2",
+	"headword": {
+		"text": "נְזַף"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְזֵיף"
+		}
+	],
+	"page": {
+		"number": 892,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N00457\">same</cite> <cite ref=\"Onkelos Genesis 37:10\">Targ. Gen. XXXVII, 10</cite> (h. text <cite ref=\"C01192\"><he>גער</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 9:6\">Targ. Ps. IX, 6</cite>. ",
+				"<cite ref=\"Onkelos Numbers 12:14\">Targ. Num. XII, 14</cite> <he>מִיזַּף</he> ed. Berl. (Y. <he>מִנְזִיף</he>, not <he>מַ׳</he>); a. fr.—Part. pass. <cite ref=\"N00458\"><he>נְזִיף</he></cite>. ",
+				"<cite ref=\"Chullin 133a:13\">Ḥull. 133ᵃ</cite> <he>רבא נ׳ היה</he> (Rashi <he>נָזוּף</he>) Raba was under the ban."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִינְּוִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to be chid, chastised</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 55a\">Ab. Zar. 55ᵃ</cite> <he>מִינְּזַף עלמא</he>, v. <cite ref=\"C00572\"><he>גזף</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

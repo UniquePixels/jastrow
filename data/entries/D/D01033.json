@@ -1,0 +1,27 @@
+{
+	"id": "D01033",
+	"slug": "דרבן",
+	"headword": {
+		"text": "דָּֽרְבָן"
+	},
+	"page": {
+		"number": 320,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; a contr. of <he>דברברן</he> , v. <cite ref=\"D00076\"><he>דְּבַר</he></cite>) [<i>leader</i>,] <i>goad, the iron point on the staff</i> (<cite ref=\"M01600\"><he>מַלְמֵד</he></cite>); also <i>the spud at the end of the handle of the ploughshare</i> (v. Sm. Ant. s. vv. Aratrum a Catrinos). ",
+			"units": [
+				"<cite ref=\"Chagigah 3b:2\">Ḥag. 3ᵇ</cite> <he>מה ד׳ זה וכ׳</he> as the goad directs the cow &c. ",
+				"<cite ref=\"Mishnah Kelim 9:6\">Kel. IX, 6</cite> <he>מלמד שבלע הד׳</he> a goad (handle) in which the iron point was driven in so that nothing could be seen of it. ",
+				"<cite ref=\"Mishnah Kelim 25:2\">Ib. XXV, 2</cite>, v. <cite ref=\"M02555\"><he>מַרְדֵּעַ</he></cite>. ",
+				"<cite ref=\"Tosefta Keilim Metsia 4:4\">Tosef. Kel. B. Mets. IV, 4</cite>. Pesik. Baḥod. p. 153ᵃ; <cite ref=\"Jerusalem Talmud Sanhedrin 10:1:21\">Y. Snh. X, 28ᵃ</cite>, a. e., v. <cite ref=\"D00341\"><he>דּוּר</he> I</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:1:21\">Ib.</cite> <he>אדם עושה ד׳ לפרתו וכ׳</he> man makes a goad to direct his cow, and to his (evil) inclination should he not &c.?—Pl. <he>דָּרְבֹנוֹת</he>, <he>דָּרְבוֹנוֹת</he>. ",
+				"<cite ref=\"Kohelet Rabbah 12:11:1\">Koh. R. to XII, 11</cite>; <cite ref=\"Bamidbar Rabbah 15\">Num. R. s. 15</cite> (quoted fr. Koh. l. c.); a. fr. [<cite ref=\"Bamidbar Rabbah 14:4\">Num. R. s. 14</cite> <he>א״ת כד׳ אלא כדרבנות</he>, v. <cite ref=\"K00098\"><he>כַּד</he> I</cite>.]"
+			]
+		}
+	]
+}

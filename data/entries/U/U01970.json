@@ -1,0 +1,28 @@
+{
+	"id": "U01970",
+	"slug": "שריחתא",
+	"headword": {
+		"text": "שְׁרִיחְתָּא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁרִיחֲתָא"
+		}
+	],
+	"page": {
+		"number": 1631,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"O01573\"><he>סָרַח</he> III</cite>) <i>vapid, senseless</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Hosea 7:11\">Targ. Hos. VII, 11</cite> (ed. Lag. <he>שחירתא</he>, v. <cite ref=\"U00710\"><he>שְׁחַר</he> IV</cite>; h. text <he>פותה</he>)."
+			]
+		}
+	]
+}

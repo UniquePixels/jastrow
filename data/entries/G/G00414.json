@@ -1,0 +1,22 @@
+{
+	"id": "G00414",
+	"slug": "זיקתא",
+	"headword": {
+		"text": "זִיקְתָא"
+	},
+	"page": {
+		"number": 396,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (collect. noun; denom. of <cite ref=\"G00404\"><he>זִיקָא</he> I</cite>) <i>sharp-shooter</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 94a:1\">B. Mets. 94ᵃ</cite> <he>כך וכך ז׳ פסיקא לן</he> Ms. M. (ed. <cite ref=\"G00231\"><he>זוקתא</he></cite>; Ar. <he>כאן וכאן ז׳ איכא בהדן</he>) so many sharp-shooters are assigned to us for our protection. [<he>זיקתא</he> <i>goad</i>, v. <cite ref=\"G00657\"><he>זָקַת</he></cite>.]"
+			]
+		}
+	]
+}

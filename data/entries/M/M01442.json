@@ -1,0 +1,39 @@
+{
+	"id": "M01442",
+	"slug": "מכשיר",
+	"headword": {
+		"text": "מַכְשִׁיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַכְשִׁירִין"
+		}
+	],
+	"page": {
+		"number": 784,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"K01324\"><he>כָּשֵׁר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>preparatory means, preliminary acts</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 7b:12\">Meg. 7ᵇ</cite> <he>מַכְשִׁירֵי אוכל נפש</he> acts preliminary to the preparation of food (as grinding the slaughtering knife &c.). ",
+				"<cite ref=\"Megillah 7b:13\">Ib.</cite> <he>הוא ולא מַכְשִׁירָיו</he> it says (<cite ref=\"Exodus 12:16\">Ex. XII, 16</cite>) ‘that’ (alone may be done), but not its preliminaries. ",
+				"<cite ref=\"Exodus 12:16\">Ib.</cite> <he>מ׳ שאפשר וכ׳</he> acts which might have been done a day before. ",
+				"<cite ref=\"Eruvin 102b:16\">Erub. 102ᵇ</cite>, sq. <he>מ׳ מצוה</he> requirements of a religious act (to be performed on the Sabbath, v. <cite ref=\"D00397\"><he>דָּחָה</he></cite>). ",
+				"<cite ref=\"Shabbat 136a\">Sabb. 136ᵃ</cite> <cite ref=\"M01181\"><he>מ׳ מילה</he></cite> requirements for circumcision. ",
+				"<cite ref=\"Tosefta Pesachim 5:1\">Tosef. Pes. V, 1</cite>; <cite ref=\"Jerusalem Talmud Shabbat 19:1:10\">Y. Sabb. XIX, 17ᵃ</cite> top; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Makhshirin</i> (things which make an object fit for levitical uncleanness), name of a treatise of the Mishnah and Tosefta, of the Order of Tohăroth.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

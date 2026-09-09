@@ -1,0 +1,34 @@
+{
+	"id": "S01616",
+	"slug": "קנקנא",
+	"headword": {
+		"text": "קַנְקַנָּא"
+	},
+	"page": {
+		"number": 1395,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = <cite ref=\"S01614\"><he>קַנְקָן</he></cite> I, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>vessel</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 22a:6\">B. Bath. 22ᵃ</cite> <he>פוק תהי ליה בקַנְקַנֵּיה</he> go and smell at his vessel, i.e. examine his mental capacity; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>coulter, plough</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:12\">Y. Ber. II, 5ᵃ</cite> top <he>שרי … קַנְקַנָּיךְ וכ׳</he> untie thy ox and untie thy plough, for the Temple has been destroyed; <he>קטור … קנקניך וכ׳</he> tie thy ox and tie thy plough, for king Messiah was born; <cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite> Ar. (ed. <he>פדנך</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

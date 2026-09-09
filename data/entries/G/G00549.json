@@ -1,0 +1,33 @@
+{
+	"id": "G00549",
+	"slug": "זמרא-3",
+	"headword": {
+		"text": "זִמְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִימְ׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 405,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. <cite ref=\"G00548\">same</cite>, <i>song, music</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 7a:8\">Gitt. 7ᵃ</cite> <he>ז׳ מנא לן וכ׳</he> how is it proved that music (at banquets, after the destruction of the Temple) is forbidden? <cite ref=\"Gittin 7a:9\">Ib.</cite> <he>ז׳ דמנא</he> instrumental music, <he>ז׳ דפומא</he> vocal music. ",
+				"<cite ref=\"Sotah 48a:16\">Sot. 48ᵃ</cite> <he>ז׳ בביתא וכ׳</he> music in the house—destruction at the threshold. ",
+				"<cite ref=\"Sotah 48a:18\">Ib.</cite> <he>בטיל ז׳</he> prohibited musical entertainments.—",
+				"<cite ref=\"Shabbat 118b:5\">Sabb. 118ᵇ</cite> <he>פסוקי דז׳</he> verses of praise (<cite ref=\"Psalms 148\">Ps. CXLVIII</cite> a. ",
+				"<cite ref=\"Psalms 150\">CL</cite>; v. Rabb. D. S. a. l. note 200).—Pl. <cite ref=\"G00053\"><he>זִמְרִין</he></cite>, <cite ref=\"G00538\"><he>זִי׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 3:2:6\">Y. Meg. III, 74ᵃ</cite> bot. <he>הוה דמיך וקאים בזי׳</he> used to go to bed and rise with music.—V. <cite ref=\"G00554\"><he>זִמְרָה</he></cite>."
+			]
+		}
+	]
+}

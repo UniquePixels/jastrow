@@ -1,0 +1,34 @@
+{
+	"id": "C01415",
+	"slug": "גשם-1",
+	"headword": {
+		"text": "גָּשַׁם"
+	},
+	"page": {
+		"number": 274,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h., v. <cite ref=\"C00502\"><he>גּוּשׁ</he></cite>) <i>to make the earth cloddy</i> (v. Ges. H. Dict.<sup>10</sup> s. v.).—<i>Part. pass.</i> <he>גָּשׁוּם</he> <i>cloddy</i> in consequence of ample rains. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 5:2:5\">Y. Yoma V, 42ᶜ</cite> top <he>שנת גְּשׁוּמָה שחונה וכ׳</he> (sub. <cite ref=\"A03230\"><he>ארץ</he></cite>) a year in which the earth forms clods, then is parched so as to form scabs, and then moistened with dew; Bab. ",
+				"<cite ref=\"Yoma 53b\">ib. 53ᵇ</cite> <he>שנת שחונה שנת ג׳</he> Ms. M. (ed. <he>שנה ג׳ ושח׳</he>, v. Rabb. D. S. a. l. note), expl. <he>אם שח׳</he> (<he>היא</he>) <he>תהא ג׳</he> if it is to be parched, let it first be soaked with heavy rains; <cite ref=\"Vayikra Rabbah 20\">Lev. R. s. 20</cite>; Tanḥ. Aḥăré 3 (corr. acc.); ed. Bub. ib. 4."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הוּגְשָׁם"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"C01416\"><he>גֶּשֶׁם</he></cite>) <i>to be frought with rain, rain-bringing</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 25b\">B. Bath. 25ᵇ</cite> since the destruction of the Temple <he>לא הוּגְשְׁמָה וכ׳</he> the south wind has not been rain-bringing."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

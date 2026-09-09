@@ -1,0 +1,24 @@
+{
+	"id": "A01553",
+	"slug": "איפכא",
+	"headword": {
+		"text": "אִיפְּכָא"
+	},
+	"page": {
+		"number": 58,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>אפך</he>) <i>the reverse, opposite</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 5a:5\">Bekh. 5ᵃ</cite>, a. fr. <he>אנן א׳ מתנינן לה</he> our version is the reverse. ",
+				"<cite ref=\"Chullin 20b:2\">Ḥull. 20ᵇ</cite>, a. fr. <he>אדרבא א׳ מסתברא</he>, v. <cite ref=\"A00449\"><he>אַדְּרַבָּא</he></cite>. ",
+				"<cite ref=\"Rosh Hashanah 20a:20\">R. Hash. 20ᵃ</cite>; a. v. fr."
+			]
+		}
+	]
+}

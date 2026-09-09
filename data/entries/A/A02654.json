@@ -1,0 +1,23 @@
+{
+	"id": "A02654",
+	"slug": "אפחזא",
+	"headword": {
+		"text": "אַפְחֲזָא"
+	},
+	"page": {
+		"number": 101,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פחז</he>) <i>levity, wantonness</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 57a:2\">Snh. 57ᵃ</cite> <he>דקא מגלי אפחזייהו</he> Ar. (ed. <he>אורחייהו</he>; Var. lect. v. Rabb. D. S. a. l. note 7) the Bible text describes their wantonness, lewdness.—",
+				"<cite ref=\"Pesachim 50b\">Pes. 50ᵇ</cite>, v. <cite ref=\"A02612\"><he>אַפּוּחָא</he></cite>."
+			]
+		}
+	]
+}

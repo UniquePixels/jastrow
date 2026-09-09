@@ -1,0 +1,35 @@
+{
+	"id": "L00229",
+	"slug": "לוז-5",
+	"headword": {
+		"text": "לוּז",
+		"homograph": 4
+	},
+	"page": {
+		"number": 696,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"L00603\"><he>לָעַז</he></cite>) <i>to talk about, sneer, talk disrespectfully</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵלִיז"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"L00228\">same</cite>. Y. Dem. II, 22ᶜ bot. <he>היו הכל מְלִיזִין עליו</he> all people talked against him. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 6\">Lev. R. s. 6</cite>, beg. ",
+						"<cite ref=\"Shir HaShirim Rabbah 4:12:1\">Cant. R. to IV, 12</cite> <he>ושמע קול הבריות מליזין אחר וכ׳</he> heard the people talk evil of his daughters. ",
+						"<cite ref=\"Bereishit Rabbah 54:4\">Gen. R. s. 54</cite> <he>מליזין בארון</he> spoke disrespectfully of the ark (v. ",
+						"<cite ref=\"Sotah 35a\">Sot. 35ᵃ</cite> sq.); a. fr.—Y. Shek. V, 49ᵃ bot. <he>מליזין</he> (some Bab. ed. <he>מַלְעִיזִין</he>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

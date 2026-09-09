@@ -1,0 +1,34 @@
+{
+	"id": "Q01750",
+	"slug": "פרזל-2",
+	"headword": {
+		"text": "פַּרְזֶל"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְזְלָא",
+			"homograph": 1
+		},
+		{
+			"text": "פּוּרְ׳"
+		}
+	],
+	"page": {
+		"number": 1223,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"B01227\"><he>בַּרְזֶל</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 5:14\">Targ. Esth. V, 14</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 8:9\">Targ. Deut. VIII, 9</cite> (O. ed. Berl. <he>בר׳</he>); a. fr.—Pl. <he>פַּרְזְלַיָּיא</he>, <he>פַּרְזְלַיָּה</he> <i>iron tools</i>. ",
+				"<cite ref=\"Vayikra Rabbah 24\">Lev. R. s. 24</cite> <he>יהון מקשין בפ׳ וכ׳</he> (ed. Wil. <he>מקשיין בפריזלא</he>, corr. acc.) let them rattle with the iron tools and say &c.; <he>הוון מקשין בפ׳</he> (ed. Wil. <he>בפרזלא</he>, corr. acc.) they rattled with &c. ",
+				"<cite ref=\"Jerusalem Talmud Niddah 2:7:6\">Y. Nidd. II, end, 50ᵇ</cite> <he>פַּרְזְלוֹי הריפין</he> his tools are sharp (he is an ingenious scholar, and does not need consultation with others, v. <cite ref=\"H00175\"><he>חָדַד</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "B01381",
+	"slug": "בתוא",
+	"headword": {
+		"text": "בַּתְוָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּתְוָותָא"
+		}
+	],
+	"page": {
+		"number": 200,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"B01380\">same</cite>, esp. <i>the untillable cuts</i> in the valley or field (cmp. <he>בַּתּוֹת</he> <cite ref=\"Isaiah 7:19\">Is. VII, 19</cite>). ",
+			"units": [
+				"<cite ref=\"Shabbat 110b\">Sabb. 110ᵇ</cite> let him cut porret <he>מב׳ דמישרא</he> Ar. (Var. <he>גובתא</he> ed. Koh.; oth. ed. <cite ref=\"B00219\"><he>בוותא</he></cite>; Ms. M. <he>ממכתוותא</he>, ed. <he>מכבתותא דמישרי</he>) from the waste parts of the valley; v. <cite ref=\"K01338\"><he>כָּתָא</he></cite>."
+			]
+		}
+	]
+}

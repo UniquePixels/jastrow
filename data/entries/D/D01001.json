@@ -1,0 +1,23 @@
+{
+	"id": "D01001",
+	"slug": "דקורא",
+	"headword": {
+		"text": "דְּקוּרָא"
+	},
+	"page": {
+		"number": 318,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>דקר</he>; cmp. <cite ref=\"D00338\"><he>דּוּקְרָא</he></cite>) <i>wickerwork, basket; jug inclosed in wickerwork</i>.—Pl. <he>דְּקוּרֵי</he>, <cite ref=\"D01002\"><he>דְּקוּרַיָּא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 84a:6\">B. Mets. 84ᵃ</cite> <he>כי ד׳ דהרפניא</he> (Ms. M. <he>כדקוראי</he>) of the size of the baskets of H.; <cite ref=\"Shabbat 127a:2\">Sabb. 127ᵃ</cite> <he>כד׳ וכ׳</he> of the size of the jugs of H.—",
+				"<cite ref=\"Chullin 4a:1\">Ḥull. 4ᵃ</cite> <he>דקוריא דציפורי</he> baskets with slaughtered birds (v. Tosaf. a. l.; Rashi: <i>strings of birds</i>, fr. <he>דקר</he> <i>to perforate</i>)."
+			]
+		}
+	]
+}

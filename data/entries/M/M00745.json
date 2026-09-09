@@ -1,0 +1,25 @@
+{
+	"id": "M00745",
+	"slug": "מזחילה",
+	"headword": {
+		"text": "מַזְחִילָה"
+	},
+	"page": {
+		"number": 754,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"G00246\"><he>זָחַל</he></cite>) <i>gutter, spout</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 2:5\">B. Bath. II, 5</cite> <he>מרחיקין … מן המ׳ וכ׳</he> you must build your wall at a distance of four cubits from your neighbor’s spout, so that he can put up a ladder (to repair it). ",
+				"<cite ref=\"Bava Batra 22b:9\">Ib. 22ᵇ</cite> <he>מ׳ משופעת</he> an inclined spout (under which people can pass). ",
+				"<cite ref=\"Bava Batra 59a:3\">Ib. 59ᵃ</cite> <he>מ׳ של בנין</he> a spout made of masonry. ",
+				"<cite ref=\"Tosefta Tahorot 9:15\">Tosef. Toh. IX, 15</cite> <he>המ׳ שהיתה שותה וכ׳</he> a spout which an unclean person broke apart while it was receiving and discharging liquids; a. fr."
+			]
+		}
+	]
+}

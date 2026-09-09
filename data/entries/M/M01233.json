@@ -1,0 +1,39 @@
+{
+	"id": "M01233",
+	"slug": "מינקת-1",
+	"headword": {
+		"text": "מֵינֶקֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵנֶיקֶת"
+		}
+	],
+	"page": {
+		"number": 777,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"J00445\"><he>יָנַק</he></cite>)<i>a woman giving such, wet-nurse</i>, v. <cite ref=\"J00445\"><he>יָנַק</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"A02286\"><he>אָנַק</he></cite>) <i>siphon, tube</i>; <i>small cup</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 9:2\">Kel. IX, 2</cite>. ",
+				"<cite ref=\"Avodah Zarah 58a:5\">Ab. Zar. 58ᵃ</cite> <he>קדח במ׳</he> tapped with a siphon. ",
+				"<cite ref=\"Mishnah Kelim 14:2\">Kel. XIV, 2</cite> <he>עשה בראשו מ׳</he> if he put a knob (cup) on the top of the cane. ",
+				"<cite ref=\"Tosefta Keilim Metsia 4:5\">Tosef. Kel. B. Mets. IV, 5</cite> <he>מיניקות שעשאה לתחת וכ׳</he> ed. Zuck. (R. S. to <cite ref=\"Mishnah Kelim 14:2\">Kel. XIV, 2</cite> <cite ref=\"M01233\"><he>מניקת</he></cite>) a cup which one put under a door (as a pivot). ",
+				"<cite ref=\"Tosefta Demai 3:6\">Tosef. Dem. III, 6</cite> <he>מניקית</he> ed. Zuck.; Y. ib. II, 22ᵈ bot. <cite ref=\"M01233\"><he>מניקת</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 4:8:7\">Y. Ab. Zar. IV, 44ᵇ</cite> top <cite ref=\"M01227\"><he>מיניקת</he></cite>.—[<cite ref=\"Pirkei DeRabbi Eliezer 43:5\">Pirké d’R. El. ch. XLIII</cite> <he>מ׳ ראשו</he>, v. <cite ref=\"M01783\"><he>מָנִיכָה</he></cite>.]—Pl. <he>מֵינִיקִיּוֹת</he>, <cite ref=\"M00539\"><he>מֵנִ׳</he></cite>. ",
+				"<cite ref=\"Tosefta Zevahim 1:12\">Tosef. Zeb. I, 12</cite> <he>בין במ׳</he> ed. Zuck. (ed. <cite ref=\"M01789\"><he>מֵנִיקוֹת</he></cite>) or when he made the libation out of tubes.—V. <cite ref=\"M01814\"><he>מְנַקִּיּוֹת</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

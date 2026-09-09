@@ -1,0 +1,37 @@
+{
+	"id": "V00923",
+	"slug": "תרב",
+	"headword": {
+		"text": "תְּרָב"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּרְבָּא"
+		},
+		{
+			"text": "תְּרֵיב"
+		}
+	],
+	"page": {
+		"number": 1694,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00083\"><he>רְבֵי</he></cite>) <i>fat</i>, esp. = h. <cite ref=\"H00971\"><he>חֵלֶב</he></cite>, (<i>forbidden</i>) <i>abdominal fat</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 3:3\">Targ. Lev. III, 3</cite>. ",
+				"<cite ref=\"Onkelos Leviticus 3:17\">Ib. 17</cite> (Y. <cite ref=\"V00923\"><he>תריב</he></cite>); a. fr.—",
+				"<cite ref=\"Bekhorot 30a:1\">Bekh. 30ᵃ</cite> top <he>ת׳ דאטמא</he> the fat of the flank (on the kidneys). ",
+				"<cite ref=\"Chullin 93a:10\">Ḥull. 93ᵃ</cite>, v. <cite ref=\"S01325\"><he>קְלִיבוּסְתָּא</he></cite>. ",
+				"<cite ref=\"Chullin 93a:8\">Ib.</cite> <he>תלתא משום ת׳</he> three (of the membranes) are forbidden as coming under the category of fat; a. fr.—Pl. <he>תַּרְבַּיָּיא</he>, <he>תַּרְבִּין</he>. ",
+				"<cite ref=\"Onkelos Leviticus 8:26\">Targ. Lev. VIII, 26</cite>. ",
+				"<cite ref=\"Targum of II Chronicles 7:7\">Targ. II Chr. VII, 7</cite>; a. fr.—",
+				"<cite ref=\"Chullin 80a:17\">Ḥull. 80ᵃ</cite> <he>שרי תַרְבַּיְיהוּ</he> permitted to eat their fat."
+			]
+		}
+	]
+}

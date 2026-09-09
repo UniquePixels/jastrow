@@ -1,0 +1,24 @@
+{
+	"id": "M02181",
+	"slug": "מערכים-2",
+	"headword": {
+		"text": "מַעַרְכִים"
+	},
+	"page": {
+		"number": 819,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl., constr. <he>מַעַרְכֵי</he> (b. h.; <i>arrangements, ordinances</i>, esp. <he>מ׳</he> (<he>כהן</he>) <cite ref=\"M01530\"><he>מלחמה</he></cite> <i>the regulations concerning excuses from the army to be proclaimed before battle</i> (<cite ref=\"Deuteronomy 20:5-9\">Deut. XX, 5—9</cite>). ",
+			"units": [
+				"<cite ref=\"Tosefta Sotah 7:18\">Tosef. Sot. VII, 18</cite> on arriving at the frontier he says, <he>מי ששומע ילך לשמוע מ׳ כהן מלחמה</he> let him who hears (this) go to hear the proclamation of the priest of war (v. <cite ref=\"M02822\"><he>מָשׁוּחַ</he></cite>); <he>במ׳ מלחמה מהו אומר</he> what is said in the proclamation before the battle? <cite ref=\"Sotah 42b:1\">Sot. 42ᵇ</cite> top <he>שמעו דברי מ׳ מלחמה</he> listen to the words of the proclamation. ",
+				"<cite ref=\"Mishnah Sotah 8:2\">Ib. VIII, 2</cite> <he>כל אלו שומעין דברי כהן מ׳ וכ׳</he> all these listen to the words of the priest appointed over the ordinances of battle and go back &c.; <cite ref=\"Sifrei Devarim 193:5\">Sifré Deut. 193</cite>, sq.—V. <cite ref=\"P01377\"><he>עֵרֶךְ</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "Q01171",
+	"slug": "פנחיא",
+	"headword": {
+		"text": "פְּנַחְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּנַחְיָה"
+		}
+	],
+	"page": {
+		"number": 1187,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (supposed to be fr. Pers. <i>pânah</i>) <i>protection, safeguard</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 103a:2\">B. Kam. 103ᵃ</cite> <he>מידע … ופ׳ הוא דקבעינא</he> (Ms. M. <he>פנחייה</he>) you know very well that I bought the field for myself, and that (in buying it in behalf of a third, influential person) I had in view only protection (against legal disputes). ",
+				"<cite ref=\"Yevamot 115b:7\">Yeb. 115ᵇ</cite> <he>לפ׳ שבקיה</he> he left the letters that were to mark the contents as sacred on the vessel merely for protection (that it might be spared by thievish servants)."
+			]
+		}
+	]
+}

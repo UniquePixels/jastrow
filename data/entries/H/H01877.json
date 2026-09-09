@@ -1,0 +1,22 @@
+{
+	"id": "H01877",
+	"slug": "חתומא",
+	"headword": {
+		"text": "חָתוֹמָא"
+	},
+	"page": {
+		"number": 512,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01887\"><he>חֲתִם</he></cite>) <i>signer, witness</i>.—Pl. <he>חָתוֹמַיָּיא</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 9:7:4\">Y. Gitt. IX, 50ᶜ</cite> bot. <he>יהב רשו … ולח׳ וכ׳</he> (not <he>ולחתימייא</he>) gave permission to the scribe to write and to the witnesses to sign."
+			]
+		}
+	]
+}

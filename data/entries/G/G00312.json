@@ -1,0 +1,29 @@
+{
+	"id": "G00312",
+	"slug": "זיונא-1",
+	"headword": {
+		"text": "זִיּוּנָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "זִיּיוּ׳"
+		}
+	],
+	"page": {
+		"number": 392,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זוּן</he> I) <i>food, alimentation</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 21:10\">Targ. O. Ex. XXI, 10</cite>.—",
+				"<cite ref=\"Berakhot 44a:3\">Ber. 44ᵃ</cite> <he>ז׳</he> food, contrad. to <cite ref=\"M00734\"><he>מזונא</he></cite> satisfactory meal."
+			]
+		}
+	]
+}

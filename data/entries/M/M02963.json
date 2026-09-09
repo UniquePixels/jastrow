@@ -1,0 +1,28 @@
+{
+	"id": "M02963",
+	"slug": "משקופי",
+	"headword": {
+		"text": "מַשְׁקוֹפִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַשְׁקוּ׳"
+		}
+	],
+	"page": {
+		"number": 858,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01882\"><he>שְׁקַף</he></cite>) <i>knock, bruise</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 21:25\">Targ. O. Ex. XXI, 25</cite> (not … <he>פֵי</he>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 15:25\">Targ. Y. I ib. XV, 25</cite>."
+			]
+		}
+	]
+}

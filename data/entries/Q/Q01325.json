@@ -1,0 +1,106 @@
+{
+	"id": "Q01325",
+	"slug": "פסל-1",
+	"headword": {
+		"text": "פָּסַל"
+	},
+	"page": {
+		"number": 1197,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to cut, chip, hew, trim</i>. Tanḥ. ʿEḳeb 9 (ref. to <cite ref=\"Ecclesiastes 3:5\">Koh. III, 5</cite>) <he>עת היה לִפְסוֹל שני וכ׳</he> the time came to hew other two tablets (in place of the broken). ",
+			"units": [
+				"<cite ref=\"Ecclesiastes 3:5\">Ib.</cite> <he>מתחת כסא הכבוד פְּסָלָּן</he> he hewed them from under the throne of glory. ",
+				"<cite ref=\"Avodah Zarah 52a:8\">Ab. Zar. 52ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 7:25\">Deut. VII, 25</cite>) <he>משפְּסָלוֹ נעשה אלוה</he> as soon as a gentile has done chiselling on it, it becomes a deity (an idol forbidden to Jews for any use); <cite ref=\"Deuteronomy 7:25\">ib.</cite> <he>פסלו לאלוה לא וכ׳</he> when the gentile has hewed it for a god, thou shalt not covet it; <he>פסלו מאלוה ולקחת לך</he> when he chips it so as to unfit it as an idol (v. infra), thou mayest take it unto thyself; a. e.—<i>Part. pass.</i> <cite ref=\"Q01241\"><he>פָּסוּל</he></cite>; f. <cite ref=\"Q01246\"><he>פְּסוּלָה</he></cite>; pl. <he>פְּסוּלִים</he>, <he>פְּסוּלִין</he>; <he>פְּסוּלוֹת</he> "
+			],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " <i>chiselled, chipped</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 22:9\">Lev. R. s. 22</cite> <he>אבנים פ׳</he> chipped stones (unfit for the altar); a. e.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " (cmp. <cite ref=\"Q00074\"><he>פָּגַם</he></cite>) <i>defective, unfit, disqualified</i>, v. <cite ref=\"Q01241\"><he>פָּסוּל</he></cite>.",
+					"units": [],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": " (denom. of <cite ref=\"Q01241\"><he>פָּסוּל</he></cite>) <i>to disqualify, to be the cause of disqualification of; to declare unfit</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 3:12\">Ḥull. III, 12</cite> <cite ref=\"Q00292\"><he>פּוֹסְלִין</he></cite>, v. <cite ref=\"K01324\"><he>כָּשֵׁר</he> I</cite>. Ab. Zar. l. c. <he>מניין לנכרי שפּוֹסֵל אלוהו</he> how will you prove that a gentile can cancel his deity (by disfiguring it)? <cite ref=\"Kiddushin 70a:10\">Kidd. 70ᵃ</cite> <he>אוי לו לפוסל את זרעו ולפוגם וכ׳</he> woe to him who causes his descendants to be disqualified and his family to be tarnished. ",
+				"<cite ref=\"Kiddushin 70a:11\">Ib.</cite> <he>כל הפוסל פסול</he> he who tarnishes (casts suspicion on the purity of a family) is himself tarnished (of spurious descent); <he>במומו פוסל</he> he charges others with his own defect. ",
+				"<cite ref=\"Shemot Rabbah 1:25\">Ex. R. s. 1</cite> <he>החזירתו … ופ׳ את כלן</he> she (Pharaoh’s daughter) took him (the infant Moses) around to all Egyptian women to give him suck, but he rejected all of them (refused to take their breasts); <he>ולמה פְסָלָן</he> and why did he reject them? <cite ref=\"Mishnah Sanhedrin 3:1\">Snh. III, 1</cite> <he>זה פוֹסֵל דיינו של זה וכ׳</he> each has a right to reject the judge chosen by the other; <he>אם היו כשרים … אינו יכול לפוֹסְלָן</he> if they are fit (not legally disqualified) or authorized, he cannot reject them. ",
+				"<cite ref=\"Mishnah Sanhedrin 3:1\">Ib.</cite> <he>זה פוסל עדיו וכ׳</he> every witness in a case may help by his testimony to disqualify the opposing party’s witnesses. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 1:7\">R. Hash. I, 7</cite> <he>קבלו … ופָסְלוּ וכ׳</he> they accepted as witnesses himself and his son, and rejected his slave. ",
+				"<cite ref=\"Mishnah Mikvaot 2:4\">Mikv. II, 4</cite> <he>פּוֹסְלִין את המקוה</he> are sufficient to make the pond unfit for ritual immersion. ",
+				"<cite ref=\"Mishnah Mikvaot 7:5\">Ib. VII, 5</cite> <he>לא פְסָלוּהוּ</he> they do not make the blood unfit. ",
+				"<cite ref=\"Mishnah Zevachim 1:4\">Zeb. I, 4</cite> <he>המחשבה פוֹסֶלֶת</he> the improper intention makes the sacrifice unfit. ",
+				"<cite ref=\"Mishnah Sukkah 2:7\">Succ. II, 7</cite>, a. e. <he>בית שמאי פוסלין</he> the school of Sh. declares such a Succah to be ritually unfit; a. v. fr.—Trnsf. <i>to cancel, abrogate</i>. ",
+				"<cite ref=\"Bava Kamma 97a:10\">B. Kam. 97ᵃ</cite> <he>פְּסָלַתּוּ מלכות</he> the government cancelled the coin; <he>פסלתו מדינה</he> the inhabitants of the district refused to pass it.—",
+				"<cite ref=\"Bereishit Rabbah 30:3\">Gen. R. s. 30</cite>, beg. <he>כל מקום שנאמר אלה פ׳ את הראשונים וכ׳</he> wherever the Biblical text has ‘these’, it is meant to cancel (exclude) the preceding; wherever it has ‘and these’, it is to add to the preceding; <cite ref=\"Shemot Rabbah 1:25\">Ex. R. s. 1</cite> <he>אלה תולדות</he> … <he>פ׳ וכ׳</he> ‘these are the origins of heaven and earth’ (<cite ref=\"Genesis 2:4\">Gen. II, 4</cite>), this excludes the time of chaos; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִפסַל"],
+			"senses": [
+				{
+					"gloss": "<i>to be hewn, sculptured</i>. Sifra K’dosh. beg. <he>פסל על שהם נִפְסָלִין</he> idols are named <i>pesel</i>, because they are sculptured; (<cite ref=\"Yalkut Shimoni on Torah 604:3\">Yalk. Lev. 604</cite> <he>פסולין</he>).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be disqualified, made unfit, declared unfit</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Zevachim 1:4\">Zeb. I, 4</cite> <he>הזבח נ׳ ארבעה וכ׳</he> a sacrifice may become unfit by improper actions in four stages, at the slaughtering &c. ",
+						"<cite ref=\"Pesachim 15b\">Pes. 15ᵇ</cite>; <cite ref=\"Pesachim 45b:3-17\">45ᵇ</cite> <he>הפת … ונִפְסְלָה מלאכול</he> if bread becomes mouldy and unfit for man to eat. ",
+						"<cite ref=\"Mishnah Tahorot 8:6\">Toh. VIII, 6</cite> <he>עד שיִפָּסֵל מאוכל הכלב</he> until it becomes unfit for a dog to eat; Y. Ḥall. IV, 60ᵃ top <he>עד שתִּפְסוֹל</he>. [<cite ref=\"Menachot 100a:5\">Men. 100ᵃ</cite>, v. <cite ref=\"Q01239\"><he>פְּסוֹל</he></cite>.] <cite ref=\"Bamidbar Rabbah 6:8\">Num. R. s. 6</cite> end <he>לא היו נִפְסָלִים אלא בקול</he> they (the Levites) became unfit for service only when they lost their voice for song. ",
+						"<cite ref=\"Mishnah Bava Kamma 9:2\">B. Kam. IX, 2</cite> <he>נִפְסְלָה מעל גבי המזבח</he> became unfit for the altar; a. fr.—Trnsf. <i>to be cancelled, abrogated</i>. B. Kam. l. c. <he>מטבע ונ׳</he> (<cite ref=\"C00559\"><he>גזל</he></cite>) if one stole a coin, and it was invalidated (before he made the restitution). ",
+						"<cite ref=\"Sanhedrin 104b:10\">Snh. 104ᵇ</cite> (expl. <he>סִלָּה</he>, <cite ref=\"Lamentations 1:15\">Lam. I, 15</cite>) <he>כאדם שאומר לחברו נפסלה מטבע זו</he> as one says to his neighbor, this coin is worthless; v. <cite ref=\"O00952\"><he>סָלָא</he></cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["פִּיסֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to cut off dry twigs, to trim</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 2:3\">Shebi. II, 3</cite> <he>מְפַסְּלִין עד וכ׳</he> (in the ante-Sabbatical year) you may trim trees up to New Year, v. <cite ref=\"Q00748\"><he>פִּיסּוּל</he></cite>. ",
+						"<cite ref=\"Mishnah Mikvaot 9:7\">Mikv. IX, 7</cite> <he>מְפַסְּלי אילנות</he> trimmers of trees. Y. Sabb. VII, 10ᵃ top; a. e.—",
+						"<cite ref=\"Yalkut Shimoni on Torah 942:36\">Yalk. Deut. 942</cite> <he>מְפַסְּלוֹ במעצד</he> he chips it (the crooked staff) with the adze; Sifré <cite ref=\"Yalkut Shimoni on Torah 308\">ib. 308</cite> <he>מפתלו</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִפְסִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to find fault, to speak contemptuously</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 11:9:1\">Koh. R. to XI, 9</cite> <he>שהיה מַפְסִיל בנשים וכ׳</he> who used to find fault with women (considering none good enough for him as wife), and was a profligate.—[Part. pass. <he>מוּפְסָל</he>, v. next w.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

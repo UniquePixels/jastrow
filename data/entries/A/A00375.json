@@ -1,0 +1,27 @@
+{
+	"id": "A00375",
+	"slug": "אדבע",
+	"headword": {
+		"text": "אֶדְבַּע"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶדְבְּעָא"
+		}
+	],
+	"page": {
+		"number": 15,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(h. <cite ref=\"A02852\"><he>אֶצְבַּע</he></cite>)<i>finger</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 19:4\">Targ. Y. Num. XIX, 4</cite>; a. e."
+			]
+		}
+	]
+}

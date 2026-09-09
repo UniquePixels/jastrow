@@ -1,0 +1,53 @@
+{
+	"id": "C01354",
+	"slug": "גרמא-1",
+	"headword": {
+		"text": "גַּרְמָא"
+	},
+	"page": {
+		"number": 270,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch., constr. <cite ref=\"C01353\"><he>גֶּרֶם</he></cite>, <cite ref=\"C01350\"><he>גְּרַם</he></cite> same, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a bare twig</i>, opp. <cite ref=\"K00070\"><he>כְּבָסָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Makkot 8a:3\">Macc. 8ᵃ</cite> (Ms. M. <cite ref=\"C00831\"><he>גִּירְמָא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bone</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 2:23\">Targ. Gen. II, 23</cite>; a. fr. [<cite ref=\"Targum Jonathan on Exodus 27:5\">Targ. Y. Ex. XXVII, 5</cite> <he>גומא</he> read <cite ref=\"C00836\"><he>גַּר׳</he></cite> or <cite ref=\"C00499\"><he>גּוּרְמָא</he></cite>.]—",
+				"<cite ref=\"Bereishit Rabbah 70:14\">Gen. R. s. 70</cite> [read as <cite ref=\"Yalkut Shimoni on Torah 124:7\">Yalk. ib. 124</cite>, cmp. ",
+				"<cite ref=\"Daniel 6:25\">Dan. VI, 25</cite>) <he>כהדין ג׳ אנא מהדק לך</he> like a bone I shall crush thee. ",
+				"<cite ref=\"Berakhot 5b:14\">Ber. 5ᵇ</cite>; <cite ref=\"Bava Batra 116a:6\">B. Bath. 116ᵃ</cite>, v. <cite ref=\"B00699\"><he>בִּיר</he></cite>.—Pl. <he>גַּרְמַיָּא</he>, <cite ref=\"C01358\"><he>גַּרְמֵי</he></cite>. Targ. Gen. l. c. <cite ref=\"C01358\"><he>גַּרְמַי</he></cite> (Y. <cite ref=\"C01358\"><he>גְּרָמַי</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 37:4\">Targ. Ezek. XXXVII, 4</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Exodus 38:4\">Targ. Y. Ex. XXXVIII, 4</cite> [read:] <he>גּוּמְרַיָּא וְגַרְמַיָּא</he> or <he>גורמיא וגומריא</he>, v. supra.—",
+				"<cite ref=\"Bava Batra 58a:9\">B. Bath. 58ᵃ</cite> <he>חביתא דג׳</he> a vessel of bones (an enigmatical phrase for <i>an animal</i>). ",
+				"<cite ref=\"Bava Batra 22a:9\">Ib. 22ᵃ</cite>, v. <cite ref=\"C01351\"><he>גְּרַם</he> II</cite>.—",
+				"<cite ref=\"Beitzah 11a:11\">Bets. 11ᵃ</cite> <he>תברא ג׳</he> a block on which bones are chopped; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>body, self</i>. <he>ג׳ ג׳</he> <i>each for itself, one after the other</i>. Ib. 11ᵇ. ",
+			"units": [
+				"<cite ref=\"Chullin 113a:13\">Ḥull. 113ᵃ</cite>.—With suffixes of personal pronouns: <cite ref=\"C01358\"><he>גַּרְמִי</he></cite> <i>myself</i> &c. ",
+				"<cite ref=\"Aramaic Targum to Job 1:3\">Targ. Job I, 3</cite> <he>לגַרְמֵיה</he> as his own, <he>לגֶרֶם אתתיה</he> (Ms. <he>לגְרַם</he>) as his wife’s sole property. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 7:29\">Targ. Y. Lev. VII, 29</cite> <he>בגַרְמֵיה</he> himself; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 75\">Gen. R. s. 75</cite>, beg., v. <cite ref=\"C01197\"><he>גַּפָּא</he> I</cite>. Y. Ber. III, 6ᶜ bot. <he>קטר גרמיה</he> tied himself; a. fr.—",
+				"<cite ref=\"Berakhot 48a\">Ber. 48ᵃ</cite>, a. fr. <he>לג׳ הוא דעבד</he> he did so for himself, i.e. this is no authoritative precedent.—",
+				"<cite ref=\"Jerusalem Talmud Orlah 1:2:5\">Y. Orl. I, 61ᵃ</cite> top <he>ג׳ אמר</he> he gave his own opinion. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 3:4:5\">Y. Erub. III, 21ᵃ</cite> bot. <he>בשם גרמיה</he> in his own name; <cite ref=\"Jerusalem Talmud Kiddushin 2:7:3\">Y. Kidd. II, 63ᵃ</cite> top.—",
+				"<cite ref=\"Jerusalem Talmud Ketubot 3:10:2\">Y. Keth. III, end, 28ᵃ</cite> <he>כל גַּרְמָהּ אמרה</he> this very fact (thing) proves; <cite ref=\"Jerusalem Talmud Shevuot 5:6:3\">Y. Shebu. V, end, 36ᶜ</cite>; <cite ref=\"Jerusalem Talmud Ketubot 9:1:2\">Y. Keth. IX, beg. 32ᵈ</cite>; <cite ref=\"Jerusalem Talmud Pesachim 9:10:2\">Y. Pes. IX, end, 37ᵃ</cite> <he>כל גרמא</he> (corr. acc.)."
+			],
+			"label": "3"
+		}
+	]
+}

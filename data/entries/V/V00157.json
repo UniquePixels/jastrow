@@ -1,0 +1,30 @@
+{
+	"id": "V00157",
+	"slug": "תודה-1",
+	"headword": {
+		"text": "תּוֹדָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1650,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"J00096\"><he>יָדָה</he></cite>)<i>thanksgiving</i>, (sub. <he>קרבן</he>) <i>thank-offering</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 6b:33\">Ber. 6ᵇ</cite> <he>כאילו הקריב ת׳</he> as if he had offered a thank-offering. ",
+				"<cite ref=\"Shevuot 15b:13\">Shebu. 15ᵇ</cite> <he>שיר של ת׳ וכ׳</he> the song of thank-giving (in the Temple) was accompanied by citterns &c. ",
+				"<cite ref=\"Vayikra Rabbah 9:7\">Lev. R. s. 9</cite> <he>חטאת … ת׳ אינה באה על חטא</he> the sin-offering is brought for a sin …, but not so the thank-offering. ",
+				"<cite ref=\"Vayikra Rabbah 9:7\">Ib.</cite> <he>לעתיד … וקרבן ת׳ וכ׳</he> in future all sacrifices will cease, but the thank-offering shall never cease. ",
+				"<cite ref=\"Mishnah Zevachim 5:6\">Zeb. V, 6</cite>. ",
+				"<cite ref=\"Mishnah Menachot 2:3\">Men. II, 3</cite>. ",
+				"<cite ref=\"Mishnah Menachot 7:1\">Ib. VII, 1</cite>; a. fr.—Pl. <he>תּוֹדוֹת</he>. ",
+				"<cite ref=\"Menachot 80a:13\">Ib. 80ᵃ</cite> <he>מרבה בת׳ הוא</he> he had the intention of bringing several thank-offerings. Lev. R. l. c.; a. e."
+			]
+		}
+	]
+}

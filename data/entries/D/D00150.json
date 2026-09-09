@@ -1,0 +1,25 @@
+{
+	"id": "D00150",
+	"slug": "דהיך",
+	"headword": {
+		"text": "דְּהֵיךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּהַךְ"
+		}
+	],
+	"page": {
+		"number": 281,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " = <cite ref=\"D00410\"><he>דְּחַךְ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 11:3\">Targ. Job XI, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 2:4\">Targ. Ps. II, 4</cite> ed. Lag."
+			]
+		}
+	]
+}

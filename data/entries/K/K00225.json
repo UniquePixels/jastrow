@@ -1,0 +1,23 @@
+{
+	"id": "K00225",
+	"slug": "כוז",
+	"headword": {
+		"text": "כּוּז"
+	},
+	"page": {
+		"number": 618,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"K00099\"><he>כַּד</he> II</cite>) <i>an oil vessel</i>, used in the Temple. ",
+			"units": [
+				"<cite ref=\"Mishnah Tamid 3:6\">Tam. III, 6</cite> <he>והכ׳ דומה וכ׳</he> the <i>kuz</i> had the shape of a large wine cup. ",
+				"<cite ref=\"Mishnah Tamid 3:9\">Ib. 9</cite>."
+			]
+		}
+	]
+}

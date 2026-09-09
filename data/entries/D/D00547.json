@@ -1,0 +1,30 @@
+{
+	"id": "D00547",
+	"slug": "דיחוי",
+	"headword": {
+		"text": "דִּיחוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּחוּי"
+		}
+	],
+	"page": {
+		"number": 298,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00406\"><he>דחי</he></cite>) <i>suspension, removal of a consecrated object from its purpose; disability</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 7b:2\">Kidd. 7ᵇ</cite>; <cite ref=\"Zevachim 12a:10\">Zeb. 12ᵃ</cite>, a. e. <he>די מעיקרא חוי ד׳</he> a primary disability (existing at the time of the vow) is considered like a removal (through a cause of a later date), (opp. to <he>נראה ונדחה</he>, v. <cite ref=\"D00397\"><he>דָּחָה</he></cite> Nif.). ",
+				"<cite ref=\"Zevachim 12a:10\">Ib.</cite> <he>יש ד׳ בדמים</he> the law concerning suspension or removal applies also to such objects as are consecrated only for the value they represent; a. e.—Pl. <he>דִּיחוּיִין</he>, <he>דִּח׳</he>. ",
+				"<cite ref=\"Yoma 63b:8\">Yoma 63ᵇ</cite> <he>דלית ליה ד׳</he> who rejects the opinion concerning unfitness (of the scape-goat on account of an accident to the sacrificial goat). ",
+				"<cite ref=\"Zevachim 12b:4\">Zeb. 12ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

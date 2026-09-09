@@ -1,0 +1,58 @@
+{
+	"id": "N00480",
+	"slug": "נחושת",
+	"headword": {
+		"text": "נְחוֹשֶׁת"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְחשֶׁת"
+		}
+	],
+	"page": {
+		"number": 893,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>copper</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 22a:5\">Zeb. 22ᵃ</cite> (ref. to <cite ref=\"Exodus 30:18\">Ex. XXX, 18</cite>) <he>לנ׳ הקשתיו וכ׳</he> I compared it (the foot of the laver with the laver itself) with regard to its being of copper, but not with regard to anything else. Pesik. Ekhah, p. 122ᵇ <he>מטבעות של נ׳ וכ׳</he> silver-plated copper coins. ",
+				"<cite ref=\"Mishnah Ketubot 7:10\">Keth. VII, 10</cite>, v. <cite ref=\"R00797\"><he>צָרַף</he></cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bronze</i>, v. <cite ref=\"N00481\">next w.</cite>",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>copper vessels</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 10:3:2\">Y. Keth. X, 33ᵈ</cite> bot. <he>להיות גובין מן הנ׳ וכ׳</he> to seize (for the widowhood) copper vessels and dining plates."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>the</i> (<i>copper</i>) <i>bottom</i> or <i>rim</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 41a:8\">Sabb. 41ᵃ</cite> <he>מפני שנְחוּשְׁתָּהּ מחממתה</he> because its double bottom gives out heat to warm the water (even after the removal of the coals). ",
+				"<cite ref=\"Mishnah Kelim 8:3\">Kel. VIII, 3</cite>; <cite ref=\"Mishnah Kelim 9:1\">IX, 1</cite>; <cite ref=\"Mishnah Kelim 9:3\">3</cite> <he>נ׳ של תנור</he> the (copper) rim of the stove. [<cite ref=\"Yoma 38a:4\">Yoma 38ᵃ</cite>, v. next w.]"
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>the polished, smooth side of skin</i> (<cite ref=\"S01404\"><he>קֶלֶף</he></cite>). Y. Meg. I, 71ᵈ top <he>מקום נְחוּשְׁתּוֹ</he> on its smooth side, opp. <he>מקום שיער</he> the hairy side.",
+			"units": [],
+			"label": "5"
+		}
+	]
+}

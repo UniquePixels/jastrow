@@ -1,0 +1,23 @@
+{
+	"id": "U00821",
+	"slug": "שידא-2",
+	"headword": {
+		"text": "שִׁידָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1558,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"U00822\">next w.</cite>) <i>chest, box</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 65a\">Keth. 65ᵃ</cite>, v. <cite ref=\"S01405\"><he>קַלְפָא</he></cite>."
+			]
+		}
+	]
+}

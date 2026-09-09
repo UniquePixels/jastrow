@@ -1,0 +1,23 @@
+{
+	"id": "R00623",
+	"slug": "צנינים",
+	"headword": {
+		"text": "צְנִינִים"
+	},
+	"page": {
+		"number": 1291,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>צנן</he>) <i>cold water</i> (?). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 20:5:2\">Y. Sabb. XX, end, 17ᵈ</cite> <he>שפוך צ׳ על וכ׳</he> pour cold water on him who passes by (?); [the entire sentence is unintelligible]."
+			]
+		}
+	]
+}

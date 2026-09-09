@@ -1,0 +1,36 @@
+{
+	"id": "H01581",
+	"slug": "חרב-5",
+	"headword": {
+		"text": "חֶרֶב"
+	},
+	"page": {
+		"number": 498,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; cmp. <he>חרף</he>)<i>sword</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 3a:1\">Ḥull. 3ᵃ</cite>, v. <cite ref=\"H01076\"><he>חָלָל</he> I</cite>. ",
+				"<cite ref=\"Bava Batra 8b:3\">B. Bath. 8ᵇ</cite> <he>ח׳ קשה וכ׳</he> death in war is a greater affliction than natural death. Snh. 116ᵃ <he>מהם הרגו בח׳</he> some of them they put to death by the sword. Tanḥ. Balak 8; <cite ref=\"Bamidbar Rabbah 20:14\">Num. R. s. 20</cite> <he>אא״כ שלף חַרְבּוֹ</he> without drawing his sword. ",
+				"<cite ref=\"Bamidbar Rabbah 20:14\">Ib.</cite> <he>בח׳ חייהם</he> live on their sword. ",
+				"<cite ref=\"Mishnah Taanit 3:5\">Taan. III, 5</cite> <he>על הח׳</he> on the sword, i.e. when armies are passing the country. ",
+				"<cite ref=\"Taanit 22a:17\">Ib. 22ᵃ</cite> <he>ח׳ של שלום</he> a friendly army passing; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the sword-shaped handle of a plough</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 21:2\">Kel. XXI, 2</cite>. ",
+				"<cite ref=\"Tosefta Keilim Batra 1:7\">Tosef. Kel. B. Bath. I, 7</cite>.—Pl. <he>חֲרָבוֹת</he>. ",
+				"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> <he>ח׳ מכאן וכ׳</he> (soldiers with) swords here &c.; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

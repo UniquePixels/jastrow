@@ -1,0 +1,39 @@
+{
+	"id": "H00519",
+	"slug": "חזותא",
+	"headword": {
+		"text": "חָזוּתָא"
+	},
+	"page": {
+		"number": 442,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00518\">same</cite><i>vision</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 20:8\">Targ. Job XX, 8</cite>.—Pl. <cite ref=\"H01620\"><he>חֶזְוָותָא</he></cite>, <he>חֵיזְ׳</he>, v. <cite ref=\"H00514\"><he>חֶזְוָנָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>watch-tower</i>.—Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 23:13\">Targ. Is. XXIII, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 35:11\">Targ. Y. Num. XXXV, 11</cite> (v. <cite ref=\"H00691\"><he>חַיּוּתָא</he></cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>appearance, color</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 101a:13\">B. Kam. 101ᵃ</cite> <he>ח׳ מילתא היא</he> appearance (improved by dying) is a substantial improvement. ",
+				"<cite ref=\"Chullin 47b:2\">Ḥull. 47ᵇ</cite> <he>בח׳</he> resembling wood in appearance, v. <cite ref=\"C01428\"><he>גִּשְׁתָּא</he> I</cite>. ",
+				"<cite ref=\"Shabbat 77a:6\">Sabb. 77ᵃ</cite> <he>התם משום ח׳</he> there it treats about color.—Pl. as ab. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:27\">Targ. Y. Deut. XXVIII, 27</cite> <he>דמסמיין ח׳</he> which dull <i>the eye-sight</i> (h. text <he>עפלים</he>).—",
+				"<cite ref=\"Chullin 46b:10\">Ḥull. 46ᵇ</cite> <he>ח׳ ח׳</he> Ar. (ed. <cite ref=\"H00519\"><he>חֶזְוָתָא</he></cite>) several spots of abnormal colors."
+			],
+			"label": "3"
+		}
+	]
+}

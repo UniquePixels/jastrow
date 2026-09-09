@@ -1,0 +1,23 @@
+{
+	"id": "O00224",
+	"slug": "סואבותא",
+	"headword": {
+		"text": "סוֹאֲבוּתָא"
+	},
+	"page": {
+		"number": 960,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00223\">preced.</cite>) <i>uncleanness</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 35:2\">Targ. Y. Gen. XXXV, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 1:9\">Targ. Lam. I, 9</cite>; a. e."
+			]
+		}
+	]
+}

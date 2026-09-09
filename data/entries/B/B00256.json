@@ -1,0 +1,29 @@
+{
+	"id": "B00256",
+	"slug": "בולבוטיס",
+	"headword": {
+		"text": "בּוּלְבּוּטֵיס"
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּלְבּוּטֵס"
+		}
+	],
+	"page": {
+		"number": 146,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (corrupt. of βουλευτής) <i>senator</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:14\">Y. Taan. IV, 69ᵃ</cite> <he>ארכינטס וב׳</he> (corr. acc.) archont or senator; v. <cite ref=\"B00258\"><he>בּוּלֶבְטֵס</he></cite>.—Pl. <cite ref=\"B00256\"><he>בּוּלְבּוּטֵי</he></cite>. ",
+				"<cite ref=\"Gittin 36b\">Gitt. 36ᵇ</cite> sq. (explain. <he>פרוסבול</he>) <he>פרוס בולי ובוטי</he> (prob. a Babyl. corruption of <he>בולי בולבוטי</he> πρὸς βουλῇ βουλευτῶν) before the council of senators. ",
+				"<cite ref=\"Gittin 37a\">Ib. 37ᵃ</cite> (as if two words) <he>בולי ובו׳ וכ׳</he> bulé are the rich, bute (as if fr. <cite ref=\"B00502\"><he>בטט</he></cite>, play on <he>עבט</he>) the poor (broken ones)."
+			]
+		}
+	]
+}

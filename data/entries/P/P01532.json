@@ -1,0 +1,23 @@
+{
+	"id": "P01532",
+	"slug": "עתיק-1",
+	"headword": {
+		"text": "עַתִּיק"
+	},
+	"page": {
+		"number": 1129,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <i>old, ancient</i>. Yalk. Chr. 1074 (ref. to <cite ref=\"I Chronicles 4:22\">I Chr. IV, 22</cite>) <he>הדברים הללו מעַתִּיקוֹ של עולם</he> these words come from the Ancient One of the world (v. <cite ref=\"P01533\">next w.</cite>); v. <cite ref=\"P01543\"><he>עָתַק</he></cite> I <i>Hif.</i>—[ (<he>עָתַק</he> I) <i>remote</i>.—Pl. <he>עַתִּיקִים</he>. ",
+			"units": [
+				"<cite ref=\"I Chronicles 4:22\">Ib.</cite> (anoth. explan. of I Chr. l. c.) <he>הדברים האלו סתומין כאן וכ׳</he> (not <he>אמורין</he>) these words are obscure here, but explained elsewhere; <cite ref=\"Ruth Rabbah, Petichta 1\">Ruth R. to I, 1</cite> (<cite ref=\"Ruth Rabbah 2:4\">s. 2</cite>).]"
+			],
+			"label": "1"
+		}
+	]
+}

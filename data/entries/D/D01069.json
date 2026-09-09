@@ -1,0 +1,23 @@
+{
+	"id": "D01069",
+	"slug": "דרוסות",
+	"headword": {
+		"text": "דְּרוּסוֹת"
+	},
+	"page": {
+		"number": 322,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>דרס</he>) <i>pomace</i> of dates in an advanced stage, contrad. to <cite ref=\"D00369\"><he>דּוּרְכָאוֹת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Ma'aser Sheni 1:10\">Tosef. Maas. Sh. I, 10</cite> (Var. <cite ref=\"D00380\"><he>דורסות</he></cite>)."
+			]
+		}
+	]
+}

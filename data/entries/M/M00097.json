@@ -1,0 +1,24 @@
+{
+	"id": "M00097",
+	"slug": "מברחת",
+	"headword": {
+		"text": "מַבְרַחַת"
+	},
+	"page": {
+		"number": 725,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B01230\"><he>בָּרַח</he></cite>) <i>a woman making an assignment before marrying in order to exclude her husband from the right of inheritance</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 79a:2\">Keth. 79ᵃ</cite> <he>שטר מ׳</he> the document of assignment. ",
+				"<cite ref=\"Bava Batra 150b:7\">B. Bath. 150ᵇ</cite> <he>מ׳ צריכה וכ׳</he> a <i>mabraḥath</i> must assign all her belongings. ",
+				"<cite ref=\"Bava Batra 151a:6\">Ib. 151ᵃ</cite> <he>מ׳ קני</he> (sub. <he>שטר</he>) an assignment of a woman &c. gives possession to the assignee (although it is merely formal); a. e."
+			]
+		}
+	]
+}

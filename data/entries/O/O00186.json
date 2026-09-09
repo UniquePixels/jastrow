@@ -1,0 +1,35 @@
+{
+	"id": "O00186",
+	"slug": "סדינא",
+	"headword": {
+		"text": "סְדִינָא"
+	},
+	"page": {
+		"number": 957,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"O00185\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 104:2\">Targ. Ps. CIV, 2</cite> (h. text <he>שלמה</he>).—",
+				"<cite ref=\"Menachot 40b:4\">Men. 40ᵇ</cite> <he>שרא</he> … <he>לסְדִינֵיה</he> R. Z. untied the show-fringes of his linen sheet. ",
+				"<cite ref=\"Menachot 41a:12\">Ib. 41ᵃ</cite> <he>מיכסי ס׳</he> he was wrapped in a linen sheet (without show-fringes); <he>ס׳ בקייטא וכ׳</he> you wear a linen sheet in the summer, and a <i>sarb’la</i> in the winter (without show-fringes), what is to become of the law &c.?; a. fr.—Pl. <he>סְדִינִין</he>, <he>סְדִינַיָּא</he>. ",
+				"<cite ref=\"Aramaic Targum to Lamentations 2:20\">Targ. Lam. II, 20</cite>; <cite ref=\"Aramaic Targum to Lamentations 2:22\">22</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:4:4\">Y. Sabb. VI, 8ᵇ</cite> bot. (interpret. <he>סדינים</he>, <cite ref=\"Isaiah 3:23\">Is. III, 23</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"O00190\"><he>סְדָנָא</he></cite>) <i>a litter</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:7:3\">Y. Bets. I, 60ᶜ</cite> bot. <he>הורי … מיטעני בס׳ וכ׳</he> allowed Bar G., the physician, to be carried in a litter to visit the sick on the Sabbath."
+			],
+			"label": "2"
+		}
+	]
+}

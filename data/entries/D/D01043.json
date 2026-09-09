@@ -1,0 +1,43 @@
+{
+	"id": "D01043",
+	"slug": "דרד",
+	"headword": {
+		"text": "דרד"
+	},
+	"page": {
+		"number": 321,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"D01043\"><he>דָּרֵד</he></cite> (= <he>רדרד</he>, cmp. <cite ref=\"T00235\"><he>רדה</he></cite>, <cite ref=\"J00597\"><he>ירד</he></cite>) <i>to take down, remove ashes</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 27:3\">Targ. Y. Ex. XXVII, 3</cite> (<he>למֵי׳</he>) <he>למִידָרָדָא וכ׳</he> to cleanse it (the altar, h. text <he>דשן</he>); <cite ref=\"Targum Jonathan on Numbers 4:13\">Targ. Y. Num. IV, 13</cite> <he>וִידַרְדּוּן</he>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִידְּרִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to glide down</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 44a\">Sot. 44ᵃ</cite> <he>מִדְּרִיד ונפל</he> (the uncleanness coming out sideways) glides down and falls to the ground. Cmp. <cite ref=\"M00332\"><he>מִדְּרוֹן</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

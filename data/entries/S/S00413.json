@@ -1,0 +1,24 @@
+{
+	"id": "S00413",
+	"slug": "קונאות",
+	"headword": {
+		"text": "קוֹנָאוֹת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1334,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<i>pl.</i> of κῶνος) <i>cones</i> or <i>peaks</i> of helmets, <i>crests</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 88b:2\">Zeb. 88ᵇ</cite> <he>כמין ק׳ שלקולסות וכ׳</he> (v. <cite ref=\"S00356\"><he>קוֹלָס</he></cite>) in the shape of the cones of the helmets on children’s heads."
+			]
+		}
+	]
+}

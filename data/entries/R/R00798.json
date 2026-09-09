@@ -1,0 +1,94 @@
+{
+	"id": "R00798",
+	"slug": "צרף-2",
+	"headword": {
+		"text": "צְרַף",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "צְרֵיף"
+		}
+	],
+	"page": {
+		"number": 1304,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00797\">same</cite><i>to smelt, refine, try</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 9:6\">Targ. Jer. IX, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 53:10\">Targ. Is. LIII, 10</cite>; a. fr.—Part. pass. <cite ref=\"R00780\"><he>צְרִיף</he></cite>; f. <cite ref=\"R00781\"><he>צְרִיפָא</he></cite> &c. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 30:5\">Targ. Prov. XXX, 5</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to contract, sponge</i> (<i>cloth</i>).—Part. pass. as ab. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 44a\">Snh. 44ᵃ</cite> <he>סרבלא צ׳</he> Ms. F. (v. Rabb. D. S. a. l. note 3; ed. <he>דצריפא</he>) a sponged cloak (Rashi: <i>dyed with alum</i>, v. <cite ref=\"R00784\"><he>צְרִיפְתָּא</he></cite>); v., however, <cite ref=\"R00781\"><he>צְרִיפָא</he></cite> 2."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to combine, join</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 15:1\">Targ. Y. II, Gen. XV, 1</cite>; <cite ref=\"Numbers 24:24\">Num. XXIV, 24</cite>."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צָרֵף"],
+			"senses": [
+				{
+					"gloss": "<i>to smelt, refine</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Malachi 3:3\">Targ. Mal. III, 3</cite>.—Trnsf. <i>to torment</i> (v. P. Sm. s. v. 3446). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 25:20\">Targ. Prov. XXV, 20</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to join, attach</i>. Y. Nidd. II, end, 50ᵇ <he>ולא הוה מְצָרֵף לון עימיה</he> and never joined them to himself (invited them to a consultation); <he>חד זמן צָרְפוֹן עימיה</he> once he did invite them; <he>בגין כן צָרְפִיתְכוֹן</he> (not <he>צריפתכון</he>) therefore I invited you; a. e.—",
+					"units": [
+						"<cite ref=\"Bava Metzia 53a\">B. Mets. 53ᵃ</cite>, v. infra.—Part. pass. <he>מְצָרַף</he>. ",
+						"<cite ref=\"Sotah 17a:16\">Sot. 17ᵃ</cite> <he>האי מצ׳ והאי לא מצ׳</he> in the word <cite ref=\"A03265\"><he>אִשָּׁה</he></cite> the Alef and Shin (<cite ref=\"A03254\"><he>אֵשׁ</he></cite> fire) are joined, in <cite ref=\"A01615\"><he>אִישׁ</he></cite>, they are not joined (separated by <cite ref=\"J00000\"><he>י</he></cite>; Rashi: <he>מִיצְּרִיף</he> <i>Ithpe.</i>)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"R00784\"><he>צְרִיפְתָּא</he></cite>) <i>to mix earth with alum</i>. Part. pass. as ab. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 33b:12\">Ab. Zar. 33ᵇ</cite> <he>דמְצָרְפֵי ובלעי</he> they (the earthen vessels) contain alum and therefore absorb more."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִצְטָרֵיף"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִצְטְרִיף", "אִיצְּרִיף"],
+			"senses": [
+				{
+					"gloss": "<i>to be joined, to join</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 15:1\">Targ. Y. I Gen. XV, 1</cite>; <cite ref=\"Numbers 24:24\">Num. XXIV, 24</cite>.—",
+						"<cite ref=\"Bava Metzia 53a:5\">B. Mets. 53ᵃ</cite> <he>ונִצְטַרְפִינְהוּ</he> (Rashi <he>ונִיצְרַף</he>; Ms. M. <he>ונִצְרוֹף</he>; Ms. H. <he>ונְצָרֵיף</he>; Ms. F. <he>ונִצִטְרַף</he>) let them (the two kinds of coins) be joined (and treated as one mass; Rashi a. Mss.: let him join them); <he>דאורייתא … לא מִצְטָרְפֵי</he> things forbidden as sacred by Biblical law and things forbidden by rabbinical law cannot be combined (Ms. H. <he>לא מְצָרְפִינָן</he> we dare not combine). ",
+						"<cite ref=\"Sukkah 19a:14-16\">Succ. 19ᵃ</cite> <he>מי … דאִיצְטָרוּפֵי מצטרף וכ׳</he> is there anything that may be joined (to make up the legal size) which in itself is not fit? <cite ref=\"Berakhot 47a:12\">Ber. 47ᵃ</cite> <he>מאי דעתך לאיצטרופי בהדן</he> do you expect to be counted with us (as the third person for saying grace)? <cite ref=\"Yoma 74a:7\">Yoma 74ᵃ</cite> <he>חזי לאיצטרופי</he> fit to be added (to make up the legal quantity); a. fr.—",
+						"<cite ref=\"Sotah 17a\">Sot. 17ᵃ</cite>, v. supra."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

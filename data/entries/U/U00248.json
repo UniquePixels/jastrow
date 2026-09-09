@@ -1,0 +1,28 @@
+{
+	"id": "U00248",
+	"slug": "שגשיא",
+	"headword": {
+		"text": "שַׁגִּשְׁיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שַׁגִּישְׁ׳"
+		}
+	],
+	"page": {
+		"number": 1523,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00244\"><he>שְׁגַשׁ</he></cite>) <i>excited, agitated</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 87:1\">Gen. R. s. 87</cite>, beg. (expl. <he>המיה וכ׳</he>, <cite ref=\"Proverbs 7:11\">Prov. VII, 11</cite>) <he>ש׳ וטעיא</he> (Ar. <cite ref=\"B00595\"><he>בייכא</he></cite>; Yalk. ib. 145, a. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 940:3\">Yalk. Prov. 940</cite> <he>בוכה</he>, read: <he>בָּיְכָה</he>) she is agitated and runs about; v. <cite ref=\"B00242\"><he>בּוּךְ</he></cite>."
+			]
+		}
+	]
+}

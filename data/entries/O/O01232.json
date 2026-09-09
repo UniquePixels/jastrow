@@ -1,0 +1,27 @@
+{
+	"id": "O01232",
+	"slug": "סניגורא",
+	"headword": {
+		"text": "סַנִּיגוֹרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּר סַנִּיגוֹרָא"
+		}
+	],
+	"page": {
+		"number": 1007,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Bar-Sannigora</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 34:8\">Targ. Y. I Num. XXXIV, 8</cite> <he>כרכוי דבר ס׳</he> the towns of Bar-S. (on the border between Syria and Palestine); [for <cite ref=\"I00088\"><he>טבריא</he></cite> <cite ref=\"Targum Jonathan on Numbers 34:8\">ib.</cite>, read with Y. II <cite ref=\"A02165\"><he>אנטוכיא</he></cite>]; <cite ref=\"Sifrei Devarim 51:6\">Sifré Deut. 51</cite> <he>כרכא דבר סנגרא</he> (not <he>דבר</he>); <cite ref=\"Yalkut Shimoni on Torah 874\">Yalk. ib. 874</cite> (not <cite ref=\"K01079\"><he>כרבא</he></cite>); <cite ref=\"Tosefta Shevi'it 4:11\">Tosef. Shebi. IV, 11</cite> <he>כפרא דבר סנגרא</he> (read <he>כרכא</he>; Var. <he>סינגורא</he>); Y. Shebi. VI, 36ᶜ <he>ברכה רבה ובר סנגדא</he> (corr. acc., or <he>כרכה רבה דבר ס׳</he> the large town of &c.)."
+			]
+		}
+	]
+}

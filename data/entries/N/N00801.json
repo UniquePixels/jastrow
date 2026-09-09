@@ -1,0 +1,23 @@
+{
+	"id": "N00801",
+	"slug": "נישתרופי",
+	"headword": {
+		"text": "נִישְׂתְּרוּפֵי"
+	},
+	"page": {
+		"number": 909,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (denom. of <cite ref=\"U02010\"><he>שָׂרָף</he></cite>) <i>drippings</i>; <he>קירא דנ</he> <i>wax that runs through the beehive</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 110b\">Sabb. 110ᵇ</cite> (Ms. M. <cite ref=\"N01280\"><he>נִשְׂ</he></cite>)."
+			]
+		}
+	]
+}

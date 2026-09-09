@@ -1,0 +1,23 @@
+{
+	"id": "A02985",
+	"slug": "ארגזא",
+	"headword": {
+		"text": "אַרְגָּזָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 115,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00174\"><he>רגז</he></cite>) <i>provocation, evil deed</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 20:28\">Targ. Ezek. XX, 28</cite> <he>א׳ קורבניהון</he> (prob. to be corr. <cite ref=\"A02986\"><he>אַרְגָּזוּת</he></cite>, v. <cite ref=\"A02986\">next w.</cite>)."
+			]
+		}
+	]
+}

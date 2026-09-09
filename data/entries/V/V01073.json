@@ -1,0 +1,41 @@
+{
+	"id": "V01073",
+	"slug": "תשוויתא",
+	"headword": {
+		"text": "תַּשְׁוַויְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּשְׁוִיתָא"
+		}
+	],
+	"page": {
+		"number": 1703,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00393\"><he>שְׁוִיִ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bed, couch, mattress, carpet</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 22:27\">Targ. Prov. XXII, 27</cite>.—Pl. <cite ref=\"V01073\"><he>תַּשְׁוָויָיתָא</he></cite>, <he>תַּשְׁוָיָ׳</he>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 31:22\">Ib. XXXI, 22</cite> (h. text <he>מרבדים</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 7:16\">Ib. VII, 16</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>bed, bottom</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 43:13\">Targ. Ez. XLIII, 13</cite>; <cite ref=\"Targum Jonathan on Ezekiel 43:14\">14</cite>; <cite ref=\"Targum Jonathan on Ezekiel 43:17\">17</cite> (h. text <cite ref=\"H00866\"><he>חיק</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

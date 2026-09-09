@@ -1,0 +1,80 @@
+{
+	"id": "N01388",
+	"slug": "נתק-2",
+	"headword": {
+		"text": "נְתַק"
+	},
+	"page": {
+		"number": 945,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01387\">same</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>אַתֵּיק</he> <i>to pull, drag</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 12:3\">Targ. Jer. XII, 3</cite> <he>אַתִּיקִינוֹן</he> or <he>אַתְּקִינוֹן</he> (ed. <he>אַתְקְנִ׳</he>, ed. Lag. <he>אַתְקִינִי׳</he>, v. <cite ref=\"V00899\"><he>תְּקַן</he></cite>; h. text <he>התיקם</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["נַתֵּיק"],
+			"senses": [
+				{
+					"gloss": "<i>to tear, sever</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 9b:14\">B. Kam. 9ᵇ</cite> <he>שור דרכיה לנַתּוּקֵי</he> an ox may be expected to tear (the rope). ",
+						"<cite ref=\"Beitzah 10b\">Bets. 10ᵇ</cite> <he>מְנַתְּקֵּי</he> Ms. M., v. <cite ref=\"N01365\"><he>נְתַח</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to snatch, take away</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 46b:9\">Yoma 46ᵇ</cite> <he>כיון דנַתְּקָהּ נתקה</he> having snatched it (the coal from the altar), he has snatched it (and it has its sacred character no longer)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to shift, transform</i>. ",
+					"units": [
+						"<cite ref=\"Makkot 15a:14\">Macc. 15ᵃ</cite> <he>ההוא לנַתּוּקֵי לאוי וכ׳</he> Ms. M. (Rashi <he>לאויה</he>, ed. <he>לאו</he>) this (positive command) has the function of modifying the prohibitory law (intimating the reparation in the event of its transgression); v. <cite ref=\"N01387\">preced.</cite> <i>Nif</i>"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְנְתַק", "אִינְּתִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to be severed, snatched</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 4:12\">Targ. Koh. IV, 12</cite>.—Yoma l. c. <he>אינְּתִיקָה למצותה</he> the taking it from the altar was done for an ordained use of it; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be set aside, be designated</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 13a:19\">Erub. 13ᵃ</cite> <he>כיון דא׳ לשום רחל תו לא הדרא מִינַּתְּקָא וכ׳</he> having been originally designated (copied) for Rachel, it cannot again be converted and used for Leah; <cite ref=\"Sotah 20b\">Sot. 20ᵇ</cite>. ",
+						"<cite ref=\"Zevachim 3a\">Zeb. 3ᵃ</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "C01066",
+	"slug": "גמר-6",
+	"headword": {
+		"text": "גְּמַר",
+		"homograph": 3
+	},
+	"page": {
+		"number": 255,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"C01065\">same</cite>, <i>finish, perfection, beauty</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 8b\">Snh. 8ᵇ</cite>, a. e. <he>ג׳ דינא</he>, v. <cite ref=\"C01065\">preced.</cite> ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:24\">Targ. Ez. XXVII, 24</cite> <he>ג׳ מיני וכ׳</he> the perfection of all valuable things (h. text <he>מכללים</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 23:6\">Ib. XXIII, 6</cite> ed. Lag. (ed. <cite ref=\"C01035\"><he>גמיר</he></cite>, h. text <cite ref=\"V00547\"><he>תכלת</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 23:12\">Ib. 12</cite> (h. text <he>מכלול</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"C00423\"><he>גּוּמְרָא</he></cite>) <i>carbuncle</i>, a precious stone. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 54:12\">Targ. Is. LIV, 12</cite> (h. text <cite ref=\"S00126\"><he>אקדח</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

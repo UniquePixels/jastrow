@@ -1,0 +1,23 @@
+{
+	"id": "I00070",
+	"slug": "טבלא-4",
+	"headword": {
+		"text": "טַבְלָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 518,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Tabla</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Chullin 132b:6\">Ḥull. 132ᵇ</cite> <cite ref=\"Jerusalem Talmud Gittin 4:6:3\">Y. Gitt. IV, 46ᵃ</cite>; a. e; v. <cite ref=\"I00071\">next w.</cite>"
+			]
+		}
+	]
+}

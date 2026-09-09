@@ -1,0 +1,30 @@
+{
+	"id": "M02683",
+	"slug": "מריר-2",
+	"headword": {
+		"text": "מָרִיר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מְרִירָא"
+		}
+	],
+	"page": {
+		"number": 843,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M02682\">preced.</cite>) <i>bitterness, bitter disposition, grief</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 15:32\">Targ. I Sam. XV, 32</cite> <he>מְרִיר מותא</he> (Regia <cite ref=\"M02605\"><he>מְרוֹר</he></cite>) the bitterness of death. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 3:14\">Targ. Ez. III, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 38:17\">Targ. Is. XXXVIII, 17</cite>; a. fr.—V. <cite ref=\"M02691\"><he>מְרִירְתָּא</he></cite>."
+			]
+		}
+	]
+}

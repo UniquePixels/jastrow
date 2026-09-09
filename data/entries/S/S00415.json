@@ -1,0 +1,22 @@
+{
+	"id": "S00415",
+	"slug": "קונביתא",
+	"headword": {
+		"text": "קוּנְבִּיתָא"
+	},
+	"page": {
+		"number": 1334,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01521\"><he>קְנַב</he></cite>) <i>snuffers</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 3:8:7\">Y. Yoma III, 41ᵃ</cite> (expl. <cite ref=\"N00110\"><he>נברשת</he></cite>)."
+			]
+		}
+	]
+}

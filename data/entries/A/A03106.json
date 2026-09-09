@@ -1,0 +1,24 @@
+{
+	"id": "A03106",
+	"slug": "ארימין",
+	"headword": {
+		"text": "אֱרִימִין"
+	},
+	"page": {
+		"number": 120,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ἔρημα, τὰ) <i>desert, wilderness</i>. <he>מקום א׳</he> a settlement in a desert. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 35\">Lev. R. s. 35</cite> (ed. <he>אדרימון</he>, Ar. <he>ארימון</he>, corr. acc.). ",
+				"<cite ref=\"Shir HaShirim Rabbah 7:11\">Cant. R. to VII, 11</cite>.—",
+				"<cite ref=\"Yalkut Shimoni on Nach 257\">Yalk. Jer. 257</cite> <cite ref=\"A01609\"><he>אירימון</he></cite>, cmp. <cite ref=\"A01610\"><he>אֱירֵימִיאָה</he></cite>."
+			]
+		}
+	]
+}

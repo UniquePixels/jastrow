@@ -1,0 +1,23 @@
+{
+	"id": "L00018",
+	"slug": "לאיטור",
+	"headword": {
+		"text": "לְאִיטוֹר",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 686,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ῥήτωρ) <i>rhetor, advocate</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 343:1\">Sifré Deut. 343</cite> <he>לל׳ … הבימה ונשכר לו לאהד וכ׳</he> like to an advocate who stands on the platform (in court) and has been hired by a man to speak in his behalf; <cite ref=\"Yalkut Shimoni on Torah 951:12\">Yalk. ib. 951</cite> <he>ללאיטר … ונזכר וכ׳</he> (corr. acc.)."
+			]
+		}
+	]
+}

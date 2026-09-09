@@ -1,0 +1,22 @@
+{
+	"id": "H00101",
+	"slug": "חבסא",
+	"headword": {
+		"text": "חֲבָסָא"
+	},
+	"page": {
+		"number": 420,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00100\">preced.</cite>) <i>crush through pressure</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 116b\">B. Mets. 116ᵇ</cite>, v. <cite ref=\"H00044\"><he>חֲבָטָא</he></cite>."
+			]
+		}
+	]
+}

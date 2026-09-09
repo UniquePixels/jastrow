@@ -1,0 +1,23 @@
+{
+	"id": "K00359",
+	"slug": "כופתא-2",
+	"headword": {
+		"text": "כּוּפְתָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 625,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"K01019\"><he>כְּפִיפָה</he></cite>, <i>basket</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 32a:1\">Gitt. 32ᵃ</cite> <he>קניא בכ׳</he> the reed in the basket."
+			]
+		}
+	]
+}

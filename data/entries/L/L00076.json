@@ -1,0 +1,23 @@
+{
+	"id": "L00076",
+	"slug": "לביסיא",
+	"headword": {
+		"text": "לְבִיסַיָּא"
+	},
+	"page": {
+		"number": 689,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"L00112\"><he>לֶבֶס</he></cite>) <i>caldrons</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 31:23\">Targ. Y. Num. XXXI, 23</cite>."
+			]
+		}
+	]
+}

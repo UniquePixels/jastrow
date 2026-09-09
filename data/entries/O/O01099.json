@@ -1,0 +1,24 @@
+{
+	"id": "O01099",
+	"slug": "סמך-3",
+	"headword": {
+		"text": "סְמַךְ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1001,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01098\">preced.</cite>) <i>support</i>, <i>help</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 2:18\">Targ. O. Gen. II, 18</cite> (ed. Vien. <cite ref=\"O01098\"><he>סָמֵךְ</he></cite>; Y. <cite ref=\"O01090\"><he>סְמִיךְ</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 33:7\">Targ. Y. I Deut. XXXIII, 7</cite> <he>סמיך</he> (Y. II <cite ref=\"O01098\"><he>סֶמֶךְ</he></cite>); a. e."
+			]
+		}
+	]
+}

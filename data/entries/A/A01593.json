@@ -1,0 +1,29 @@
+{
+	"id": "A01593",
+	"slug": "איקוניא-2",
+	"headword": {
+		"text": "אִיקוֹנְיָא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיקוּנְיָא"
+		}
+	],
+	"page": {
+		"number": 60,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (pl. as a collect. noun) (denom. of <cite ref=\"A01590\"><he>אִיקוֹן</he></cite>) <i>a procession in which portable images are carried</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 17:7\">Midr. Till. to Ps. XVII</cite> <he>א׳ של מלאכים וכ׳</he> a procession of angels passes before man and they cry, Make room <he>לאיקוניה של וכ׳</he> (read <he>לְאִקוֹנָיו</he> or <he>לְאִיקוֹנוֹת</he>; <cite ref=\"Yalkut Shimoni on Nach 670:6\">Yalk. Ps. 670</cite>; <cite ref=\"Devarim Rabbah 4:4\">Deut. R. s. 4</cite> <cite ref=\"L00521\"><he>לאִיקוֹנִין</he></cite>) for the images of the Lord (man being created in the image of God). Deut. R. l. c. <he>או׳ מהלכת</he> (corr. acc.)."
+			]
+		}
+	]
+}

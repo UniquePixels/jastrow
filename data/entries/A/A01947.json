@@ -1,0 +1,28 @@
+{
+	"id": "A01947",
+	"slug": "אלקטי",
+	"headword": {
+		"text": "אִלְקְטִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִילְ׳"
+		}
+	],
+	"page": {
+		"number": 73,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἑλικτή, sub. κλῖμαξ; v. also <cite ref=\"E00412\"><he>הִילְקְטִי</he></cite>) <i>winding staircase</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Eiruvin 8:11\">Tosef. Erub. VIII, 11</cite> (<cite ref=\"Tosefta Eiruvin 5:6\">V</cite>, end) five compartments <he>הפתוחות לא׳</he> ed. Zuck. (ed. <cite ref=\"A01946\"><he>אלקט</he></cite>) opening towards a common winding staircase. ",
+				"<cite ref=\"Tosefta Eiruvin 5:6\">Ib.</cite> <he>ואסורין בהילקטי</he> ed. Zuck. (ed. <he>באלקטון</he>, Var. <he>בדיאלקטו</he> corr. acc.) and are forbidden the use of &c."
+			]
+		}
+	]
+}

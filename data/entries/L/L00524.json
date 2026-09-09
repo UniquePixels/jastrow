@@ -1,0 +1,30 @@
+{
+	"id": "L00524",
+	"slug": "ליש-2",
+	"headword": {
+		"text": "לַיִשׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 710,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. pl.",
+			"units": []
+		},
+		{
+			"gloss": "<i>Laish</i>, the northern limit of Palestine, called <i>Dan</i>. Tanḥ. Ki Thissa 14 (ref. to <cite ref=\"Judges 18:27\">Jud. XVIII, 27</cite>) <he>ל׳ זו פמיאס</he> L. is Paneas; <cite ref=\"Judges 18:27\">ib.</cite> R’eh 16; a. e.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Laish</i>, or (<i>Laishah</i>), prob. between Anathoth and Gallim. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 94b:18\">Snh. 94ᵇ</cite>, v. <cite ref=\"L00523\">preced.</cite>"
+			],
+			"label": "2"
+		}
+	]
+}

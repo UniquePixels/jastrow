@@ -1,0 +1,30 @@
+{
+	"id": "A02419",
+	"slug": "אסטרטילטא",
+	"headword": {
+		"text": "אִסְטְרָטִילָטָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְטְרָטִילָטֵיס"
+		}
+	],
+	"page": {
+		"number": 92,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (στρατηλάτης = magister militum, v. Sm. Ant. s. v.) <i>commander in chief, military governor</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 16:1\">Lev. R. s. 16</cite>; a. fr. (everywhere corrupt, corr. acc.). Y. Snh. X, 28ᵇ top <he>אסרטילטֵיה</he> (corr. acc.) <i>his stratelates.—</i> Pl. <cite ref=\"A02419\"><he>אִסְטְרָטִילָטִין</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 3:12\">Targ. Esth. III, 12</cite>; <cite ref=\"Aramaic Targum to Esther 8:9\">VIII, 9</cite> <he>אסטרטילוסי</he> (corr. acc.). ",
+				"<cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite>; a. fr. (corr. acc.). ",
+				"<cite ref=\"Bereishit Rabbah 78\">Gen. R. s. 78</cite> <he>אסטרטלי</he>, read <he>אסטרטילטַי</he> <i>my stratelatæ</i>"
+			]
+		}
+	]
+}

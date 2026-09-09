@@ -1,0 +1,24 @@
+{
+	"id": "N00473",
+	"slug": "נחה-2",
+	"headword": {
+		"text": "נָחָה",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 893,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00340\"><he>נוּחַ</he></cite>) = <cite ref=\"E00672\"><he>הֲנָחָה</he></cite>, <i>rest, relief</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 10:9\">Gen. R. s. 10</cite>, end <he>כיון שנחו … ניתן להם נ׳</he> when the hands of their Maker left off from (extending) them, they were given rest (permanency); <cite ref=\"Yalkut Shimoni on Torah 16:1\">Yalk. ib. 16</cite> <cite ref=\"H01285\"><he>חנייה</he></cite>."
+			]
+		}
+	]
+}

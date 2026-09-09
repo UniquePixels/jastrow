@@ -1,0 +1,23 @@
+{
+	"id": "P00230",
+	"slug": "עויא-3",
+	"headword": {
+		"text": "עִוְיָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1049,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>‘Ivya</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Bava Batra 129b:7\">B. Bath. 129ᵇ</cite>; <cite ref=\"Bava Batra 133a:8\">133ᵃ</cite>, sq. (Ms. M. <cite ref=\"P00207\"><he>עַוָּוא</he></cite>; Ms. R. <cite ref=\"P00233\"><he>עֲוִירָא</he></cite>, v. Rabb. D. S. a. l. notes)."
+			]
+		}
+	]
+}

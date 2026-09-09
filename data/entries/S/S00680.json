@@ -1,0 +1,29 @@
+{
+	"id": "S00680",
+	"slug": "קזז",
+	"headword": {
+		"text": "קְזַז"
+	},
+	"page": {
+		"number": 1345,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>קצץ</he>, <he>נקז</he>) <i>to cut, divide</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַזֵּז"],
+			"senses": [
+				{
+					"gloss": " (<i>to mark; to calculate, settle, strike the balance</i>. Y. Ber. IX, 14ᵇ bot.; Y. Sot. V, 20ᶜ bot. (expl. <he>פרוש קיזי</he>) <he>עביד … ומְקַזֵּז חדא עם חדא</he> he commits one sin and does one good deed, and strikes the balance, ‘one against one.’ Y. Ḥag. II, 77ᵈ bot. <he>דהוות ציימא … ומְקַזָּה ליה תריי</he> she used to fast one day and mark down two (deceiving herself in her account with God).",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

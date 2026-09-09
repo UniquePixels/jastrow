@@ -1,0 +1,27 @@
+{
+	"id": "M01735",
+	"slug": "מנובייתא",
+	"headword": {
+		"text": "מָנוֹבַיְיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָנוֹבֵיתָא"
+		}
+	],
+	"page": {
+		"number": 798,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (comp. of <cite ref=\"M01746\"><he>מָנוֹן</he></cite> a. <cite ref=\"B00754\"><he>בֵּיתָא</he></cite>) <i>manager of the house, executor</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 91a:9\">B. Bath. 91ᵃ</cite> (prov.) <he>עד דלא … קיימא מָנוֹבַיְיתֵיה</he> Ms. M. (ed. <he>קימא מנו ב׳</he>, v. Rabb. D. S. a. l. note) before the dying man is dead, his executor stands (ready to assume the administration)."
+			]
+		}
+	]
+}

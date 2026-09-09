@@ -1,0 +1,38 @@
+{
+	"id": "S01571",
+	"slug": "קניבה-1",
+	"headword": {
+		"text": "קְנִיבָה"
+	},
+	"page": {
+		"number": 1392,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01520\"><he>קָנַב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cutting, trimming vegetable; snuffing the wick</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 22a\">Bets. 22ᵃ</cite> <he>ק׳ שרי</he> Ar. (ed. <cite ref=\"S01522\"><he>קִנְבָּא</he></cite>, Rashi Ms. <cite ref=\"S01020\"><he>קִינְבָּא</he></cite>; Ms. M. <cite ref=\"S01048\"><he>קינסא</he></cite>; v. Rabb. D. S. a. l. note) to snuff (or trim) the wick is permitted (on the Holy Days). ",
+				"<cite ref=\"Shabbat 114b:6\">Sabb. 114ᵇ</cite> <he>קְנִיבַת ירק</he> trimming (stripping) vegetable."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <he>קניבת ירק</he> (or <cite ref=\"S01538\"><he>קְנוֹבֶת</he></cite>) <i>those parts of vegetables which are stripped off, refuse</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eduyot 3:3\">Eduy. III, 3</cite>; Y. Ter. XI, 48ᵃ top. ",
+				"<cite ref=\"Tosefta Demai 4:4\">Tosef. Dem. IV, 4</cite> <he>קנו׳ י׳ שבגינה</he> ed. Zuck. (Var. <he>קני׳</he>) the cut off portions of vegetables trimmed in the garden. ",
+				"<cite ref=\"Tosefta Terumot 9:10\">Tosef. Ter. IX, 10</cite> <he>קְנוֹבוֹת</he> (<i>pl.</i>); <cite ref=\"Tosefta Shevi'it 6:2\">Tosef. Shebi. VI, 2</cite>; Y. ib. VIII, 38ᵃ top. Y. Pes. III, 30ᵃ. ",
+				"<cite ref=\"Midrash Tehillim 1:10\">Midr. Till. to Ps. I</cite> [read:] <he>לטבלא … וק׳ י׳ בתוכה</he> a plate laid in with precious stones and jewels, and in it lie trimmings of vegetable (ed. Bub. <he>נקיבת ירק</he>, oth. ed. <he>נקובות ידים</he>); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

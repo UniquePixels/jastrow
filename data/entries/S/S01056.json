@@ -1,0 +1,47 @@
+{
+	"id": "S01056",
+	"slug": "קיסא",
+	"headword": {
+		"text": "קֵיסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִי׳"
+		}
+	],
+	"page": {
+		"number": 1364,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (<cite ref=\"S01055\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rough edge</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:3:5\">Y. Ḥag. II, 78ᵃ</cite> bot., v. <cite ref=\"K00891\"><he>כַּסָּא</he> I</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>twig, chip, wood; tree</i> (cmp. <cite ref=\"C00328\"><he>גַּיָּוזָא</he> I</cite>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 14:4\">Targ. Y. Lev. XIV, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 35:18\">Targ. Y. Num. XXXV, 18</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:20\">Targ. Prov. XXV, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 21:22\">Targ. Y. Deut. XXI, 22</cite> (<i>gallows</i>). ",
+				"<cite ref=\"Aramaic Targum to Job 19:10\">Targ. Job XIX, 10</cite> ed. Lag. (ed. Wil. <cite ref=\"S01631\"><he>קֵסָא</he></cite>; oth. ed. <cite ref=\"S01631\"><he>קְסָא</he></cite>, corr. acc.); a. fr.—Y. Bets. II, 61ᶜ top, a. e., v. <cite ref=\"O01271\"><he>סָסָא</he></cite>.—Pl. <he>קֵיסִין</he>, <he>קֵיסַיָּא</he>, <he>קֵיסֵי</he>, <cite ref=\"S00089\"><he>קִי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 15:32\">Targ. Y. Num. XV, 32</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 22:3\">Targ. Y. Gen. XXII, 3</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 74:5\">Targ. Ps. LXXIV, 5</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 26:20\">Targ. Prov. XXVI, 20</cite>; a. fr.—",
+				"<cite ref=\"Sanhedrin 93a\">Snh. 93ᵃ</cite> <he>תרי ק׳</he> Ar. (ed. <cite ref=\"J00101\"><he>אודי</he></cite>), v. <cite ref=\"A00554\"><he>אוּדָא</he></cite>. ",
+				"<cite ref=\"Kohelet Rabbah 7:6:1\">Koh. R. to VII, 6</cite>; <cite ref=\"Yalkut Shimoni on Nach 973:5\">Yalk. ib. 973</cite> (not <he>קוס׳</he>), v. <cite ref=\"O00861\"><he>סִירְתָּא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:35\">Y. Sabb. VII, 10ᵇ</cite> top <he>הבון … ק׳ בסופא</he> take care in eating that you leave the chips (woodlike, bad beans) for the end."
+			],
+			"label": "2"
+		}
+	]
+}

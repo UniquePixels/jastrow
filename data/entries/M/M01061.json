@@ -1,0 +1,23 @@
+{
+	"id": "M01061",
+	"slug": "מטריד",
+	"headword": {
+		"text": "מַטְרִיד",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 770,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00712\"><he>טָרַד</he></cite>) <i>funnel</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 3:12\">Tosef. Kel. B. Mets. III, 12</cite> <he>מ׳ שנפרץ וכ׳</he> (ed. Zuck. <he>שנפרד</he>) a funnel which is broken into or the pipe of which is off."
+			]
+		}
+	]
+}

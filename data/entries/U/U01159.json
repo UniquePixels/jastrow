@@ -1,0 +1,32 @@
+{
+	"id": "U01159",
+	"slug": "שכל-2",
+	"headword": {
+		"text": "שָׂכַל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1574,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"O00911\"><he>סָכַל</he> II</cite>)<i>to entangle, cross</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שִׂכֵּל"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U01158\">same</cite>, trnsf. <i>to cause confusion</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 3:1\">Pesik. R. s. 3</cite> (ref. to <cite ref=\"Genesis 48:14\">Gen. XLVIII, 14</cite>) [read:] <he>מהו ש׳ אמר ר׳ יהודה ש׳ ידיו … בבכורתו וכ׳</he> (<he>אמר רבי ש׳</he>, a dittography) he (God) made Jacob’s hands bring confusion into Menasseh’s birthright."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

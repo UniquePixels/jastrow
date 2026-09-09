@@ -1,0 +1,28 @@
+{
+	"id": "J00499",
+	"slug": "יערא-2",
+	"headword": {
+		"text": "יַעְרָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "יַעַרְתָּא"
+		}
+	],
+	"page": {
+		"number": 585,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., constr. <he>יַעְרַת</he> (b. h. constr. <he>יַעֲרַת</he>, v. <cite ref=\"J00497\"><he>יַעַר</he></cite>) <i>flow</i> of honey. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 4:11\">Targ. Cant. IV, 11</cite>."
+			]
+		}
+	]
+}

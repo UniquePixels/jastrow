@@ -1,0 +1,45 @@
+{
+	"id": "C00663",
+	"slug": "גיוס",
+	"headword": {
+		"text": "גַּיּוּס"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּיּיוּס"
+		},
+		{
+			"text": "גייס"
+		}
+	],
+	"page": {
+		"number": 236,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Caius, Gaius</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " (mostly corrupt) used, in connection with <he>לוקיוס</he> (Lucius), to represent gentile names in general. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> (ed. Fr. p. 107ᵃ; 107ᵇ) <he>ג׳ מן הגודר ולוקיוס מן וכ׳</he> e.g. Gaius of Gadara and Lucius of Susitha (Hippos). Ib. 108ᵃ (corr. acc.).—Y. Gitt. I, 43ᵇ top <he>גוים לוקין וכ׳</he> (corr. acc.) G. a. L. are the signers and ye ask yet (whether the signers must be personally known as Jews to the witnesses)? [Bab. ",
+				"<cite ref=\"Gittin 11b:1\">ib. 11ᵇ</cite> <he>לוקוס ולוס</he>, prob. <he>ל׳ וגיוס</he>.]—",
+				"<cite ref=\"Jerusalem Talmud Terumot 10:5:6\">Y. Ter. X, 47ᵇ</cite>; Y. Ab. Zar. III, 42ᵃ [ref. to letters accompanying a ship load (?)]."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Emperor Caius Caligula</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sotah 9:13:3\">Y. Sot. IX, 24ᵇ</cite> top (<cite ref=\"C00393\"><he>גוליקוס</he></cite>) <he>גייס גוליקם</he>; Bab. ",
+				"<cite ref=\"Sotah 33a:8\">Sot. 33ᵃ</cite> <he>גסקלגס</he>; <cite ref=\"Shir HaShirim Rabbah 8:9:3\">Cant. R. to VIII, 9</cite> <he>גיוסלוקין</he> (corr. <he>גיוס קליגולס</he> = Καλιγούλας)."
+			],
+			"label": "2"
+		}
+	]
+}

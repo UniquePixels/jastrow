@@ -1,0 +1,50 @@
+{
+	"id": "M02007",
+	"slug": "מסר-2",
+	"headword": {
+		"text": "מְסַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָסַר",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 811,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M02006\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 39:8\">Targ. Gen. XXXIX, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on Amos 1:6\">Targ. Am. I, 6</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 24:15\">Targ. O. Deut. XXIV, 15</cite>; a. fr.—Part. pass. <he>מָסִיר</he>; f. <cite ref=\"M01934\"><he>מְסִירָא</he></cite>; pl. <cite ref=\"M01935\"><he>מְסִירִין</he></cite>; <cite ref=\"M01934\"><he>מְסִירָן</he></cite>. ",
+				"<cite ref=\"Onkelos Numbers 3:9\">Targ. Num. III, 9</cite>; a. fr.—[<cite ref=\"Targum Jerusalem, Genesis 16:5\">Targ. Y. II, Gen. XVI, 5</cite> <he>מְסָרִין בידך</he>, a corrupt., prob. to be read: <he>מַסְרִית עלך</he>; cmp. ",
+				"<cite ref=\"Bava Kamma 93a\">B. Kam. 93ᵃ</cite>.]—",
+				"<cite ref=\"Bava Metzia 8b:10\">B. Mets. 8ᵇ</cite> <he>מאן קא מ׳ ליה דליקני</he> who is there to deliver it to him, that he might take possession? <cite ref=\"Jerusalem Talmud Yoma 3:7:8\">Y. Yoma III, 40ᵈ</cite> bot. <he>אנא מָסֵר יתיה לך</he> I will transmit it (the pronunciation of the Tetragrammaton) to you. ",
+				"<cite ref=\"Kohelet Rabbah 3:11\">Koh. R. to III, 11</cite> [read:] <he>אית הכי בר נש דאִימְסוֹר ליה</he> is there a person here to whom I might communicate it?; <he>כד אתי מִימְסַר</he> when he was about to communicate it. ",
+				"<cite ref=\"Kiddushin 12b:8\">Kidd. 12ᵇ</cite> <he>דמ׳ מודעא וכ׳</he> who enters a protest against his own letter of divorce. ",
+				"<cite ref=\"Berakhot 20a:5\">Ber. 20ᵃ</cite> <he>הוו קא מָסְרֵי נפשייהו וכ׳</he> were ready to suffer martyrdom for the sanctification of the Name; <he>אנן לא מַסְרִינָן וכ׳</he> we are not ready to suffer &c.; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְמְסַר", "אִימְּסַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be surrendered, transmitted; to surrender one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 26:25\">Targ. Lev. XXVI, 25</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 79:11\">Targ. Ps. LXXIX, 11</cite>; a. e.—",
+						"<cite ref=\"Gittin 66b:6\">Gitt. 66ᵇ</cite> <he>מִימַּסְרָן</he>; <cite ref=\"Gittin 29a:15\">29ᵃ</cite> <he>מִמַּסְרָן</he>, v. <cite ref=\"M01165\"><he>מִילָּא</he> II</cite>. ",
+						"<cite ref=\"Sanhedrin 26a:23\">Snh. 26ᵃ</cite> <he>מִימַּסְרֵי</he> have decided to surrender (to capitulate). Koh. R. l. c. <he>ולא קבל עליה מִימְּסֵר ליה מימסר</he> (some ed. <he>למימסר ליה</he>) he declined to have the Tetragrammaton transmitted to him (v. Y. Yoma l. c.)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

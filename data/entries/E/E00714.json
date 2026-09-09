@@ -1,0 +1,30 @@
+{
+	"id": "E00714",
+	"slug": "העדאה",
+	"headword": {
+		"text": "הַעֲדָאָה"
+	},
+	"page": {
+		"number": 360,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00198\"><he>עוּד</he></cite>, <i>Hif.</i>) <i>testimony, deposition</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 3a\">B. Mets. 3ᵃ</cite>; <cite ref=\"Bava Metzia 3b:2\">3ᵇ</cite> <he>הַעֲדָאַת עדים</he> evidence through witnesses; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (<cite ref=\"J00476\"><he>יָעַד</he></cite>) <i>warning given to the owner of a mischievous animal</i> (<cite ref=\"Exodus 21:29\">Ex. XXI, 29</cite>); <i>law concerning damages payable after warning</i>, v. <cite ref=\"M00556\"><he>מוּעָד</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 18b:14\">B. Kam. 18ᵇ</cite> <he>יש ה׳ וכ׳</he> the law &c. applies to &c. (and full damages must be paid). Y. ib. II, beg. 2ᵈ; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

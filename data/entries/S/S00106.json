@@ -1,0 +1,24 @@
+{
+	"id": "S00106",
+	"slug": "קברניט-1",
+	"headword": {
+		"text": "קְבַרְנִיט",
+		"reconstructed": true,
+		"homograph": 1
+	},
+	"page": {
+		"number": 1313,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a corrupt. of labyrinthus, induced by phonetic association with <cite ref=\"S00097\"><he>קֶבֶר</he></cite>) <i>labyrinth, cavern</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 13a:16\">Sot. 13ᵃ</cite> <he>בק׳ של מלכים היה קבור</he> (Ar. <he>בקברנט</he>, some ed. <he>בקברנטו</he>, read <he>טָן …</he>) he (Joseph) was buried in the labyrinth where the kings were buried (v. Sachs, Beitr. I, p. 54); <cite ref=\"Yalkut Shimoni on Torah 227:9\">Yalk. Ex. 227</cite>; v. <cite ref=\"S01101\"><he>קיפוסולין</he></cite>."
+			]
+		}
+	]
+}

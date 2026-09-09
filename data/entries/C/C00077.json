@@ -1,0 +1,24 @@
+{
+	"id": "C00077",
+	"slug": "גביא-2",
+	"headword": {
+		"text": "גַּבְיָא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 206,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"C00053\"><he>גָּבוֹהַּ</he></cite> a. <cite ref=\"C00067\"><he>גִּבֵּחַ</he></cite>) <i>tall and slim</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 22:22\">Targ. Y. Lev. XXII, 22</cite> <he>דג׳ או דנסיס</he> Ar. (ed. differ. vers., h. text <he>חרוץ או יבלת</he>) extremely tall or of stinted growth; v. <cite ref=\"C00083\"><he>גְּבִיחַ</he></cite>. [The vers. of Ar. obviously belonged to <cite ref=\"Leviticus 21:20\">Lev. XXI, 20</cite>.]"
+			]
+		}
+	]
+}

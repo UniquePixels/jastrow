@@ -1,0 +1,29 @@
+{
+	"id": "M01327",
+	"slug": "מיתוח",
+	"headword": {
+		"text": "מִיתּוּחַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִתּ׳"
+		}
+	],
+	"page": {
+		"number": 780,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M03039\"><he>מָתַח</he></cite>) <i>stretching, drawing tight</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 1:8:2\">Y. M. Kat. I, 80ᵈ</cite> bot.—<he>מחט של מ׳</he> a pin used in weaving or embroidery to draw the thread tight, <i>spool</i>. ",
+				"<cite ref=\"Mishnah Kelim 13:5\">Kel. XIII, 5</cite> (Talm. ed. <cite ref=\"M01328\"><he>מִיתּוּן</he></cite>). ",
+				"<cite ref=\"Mishnah Kelim 13:5\">Ib.</cite> <he>התקינה למ׳</he> (ed. Dehr. <he>למיתא</he>, v. <cite ref=\"M01323\"><he>מֵיתָא</he></cite> II a. <cite ref=\"M01333\"><he>מֵיתָנָא</he></cite>). Ib. 8; <cite ref=\"Yevamot 43a:3\">Yeb. 43ᵃ</cite> <he>לנר או למ׳</he> (Kel. ed. Dehr. <he>למיתא</he>) made for snuffing the light (v. <cite ref=\"M00849\"><he>מָחַט</he></cite>) or as a spool."
+			]
+		}
+	]
+}

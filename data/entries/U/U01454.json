@@ -1,0 +1,136 @@
+{
+	"id": "U01454",
+	"slug": "שמט-2",
+	"headword": {
+		"text": "שְׁמַט"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁמֵיט"
+		}
+	],
+	"page": {
+		"number": 1594,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01453\">same</cite><i>to loosen, detach, break loose, take away</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 14:40\">Targ. Y. Lev. XIV, 40</cite> (h. text <he>חלץ</he>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 14:43\">Ib. 43</cite>. Targ. II Esth. III, 8.—",
+				"<cite ref=\"Nedarim 48b:1\">Ned. 48ᵇ</cite> <he>דהיה שָׁמֵיט וכ׳</he> who was in the habit of stealing flax balls. ",
+				"<cite ref=\"Bava Batra 28b:9\">B. Bath. 28ᵇ</cite> <he>מִשְׁמַט הוא דקא שמיט ואכיל</he> he plucks and eats (as the fruits grow, but does not harvest); a. e.—Part. pass. <cite ref=\"U01454\"><he>שָׁמִיט</he></cite>; f. <cite ref=\"U01463\"><he>שְׁמִיטָא</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 68\">Gen. R. s. 68</cite> <he>דין עיניה ש׳</he> (some ed. <cite ref=\"U01463\"><he>שְׁמִיטָה</he></cite>; oth. <cite ref=\"U01431\"><he>שְׁמוּטָה</he></cite> Hebraism) one of them had an eye taken out (in a quarrel); <cite ref=\"Vayikra Rabbah 8\">Lev. R. s. 8</cite>; Tanḥ. Ki Thissa 5 <he>שמיטי</he> (corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (neut. verb) <i>to slip off, glide</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 19:5\">Targ. Y. I Deut. XIX, 5</cite> <he>יִשְׁמוֹט</he> (Y. II <he>יִשְׁמֵיט</he>; ed. Vien. <he>יַשְׁמִיט</he>, corr. acc.).— "
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be released, rest, lie fallow</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 26:35\">Targ. O. Lev. XXVI, 35</cite> <he>שְׁמַטַת</he> ed. Berl. (oth. ed. <he>שְׁמֵיטַת</he>; ed. Vien. <he>שְׁמָטָא</he>, read: <he>שְׁמָטַת</he>). ",
+				"<cite ref=\"Targum of II Chronicles 36:21\">Targ. II Chr. XXXVI, 21</cite>."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to let rest, leave fallow</i>, v. infra.",
+			"units": [],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַשְׁמֵיט"],
+			"senses": [
+				{
+					"gloss": "<i>to release, remit a debt</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 15:2\">Targ. Deut. XV, 2</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to rest, lie fallow</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 26:34\">Targ. O. Lev. XXVI, 34</cite>, sq.; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to abandon, let lie fallow</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 23:11\">Targ. O. Ex. XXIII, 11</cite> (Y. ed. Vien. <cite ref=\"V00327\"><he>תִּשְׁ׳</he></cite>, Pe.); a. e.—[<cite ref=\"Targum Jerusalem, Deuteronomy 19:5\">Targ. Y. II, Deut. XIX, 5</cite>, v. supra.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["שַׁמֵּט"],
+			"senses": [
+				{
+					"gloss": "<i>to cause remission of debt</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 36a\">Gitt. 36ᵃ</cite> <he>מדאורייתא מְשַׁמְּטָא … דלא משמטא</he> by Biblical law the Sabbatical year brings remission, and how could Hillel ordain that it should not bring remission? <cite ref=\"Gittin 36b:1\">Ib.ᵇ</cite> <he>ותקינו … דתְשַׁמֵּט וכ׳</he> and the Rabbis had ordained that it should bring remission as a remembrance of the (Biblical) Sabbatical year; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to let go, drop, discard</i>. Tanḥ. Vayishl. 8 [read:] <he>שַׁמְּטֵיה</he> discard it (the vow), v. <cite ref=\"U00765\"><he>שִׁטְפָא</he></cite>.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to tear off</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 117a:18\">B. Kam. 117ᵃ</cite> <he>שמטיה וכ׳</he>, v. <cite ref=\"S00484\"><he>קוֹעָא</he></cite>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתַּמֵּט"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִשְׁתְּמִיט"],
+			"senses": [
+				{
+					"gloss": "<i>to slip off, be dislocated; to break loose</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Numbers 25:8\">Targ. Y. Num. XXV, 8</cite>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 21:18\">Targ. Y. Lev. XXI, 18</cite> <he>דמִשְׁתְּמִיט יריכיה</he> (h. text <he>שרוע</he>), v. preced.—",
+						"<cite ref=\"Yoma 87a\">Yoma 87ᵃ</cite> bot., v. <cite ref=\"S00484\"><he>קוֹעָא</he></cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to relieve one’s self; to escape, get rid</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 21:8\">Targ. II Chr. XXI, 8</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 141:6\">Targ. Ps. CXLI, 6</cite>.—",
+						"<cite ref=\"Bava Metzia 3b:1\">B. Mets. 3ᵇ</cite> <he>אִשְׁתַּמּוּטֵי הוא דקא מישתמיט וכ׳</he> he tries to get rid of him (for the moment), thinking, when I have the money, I shall pay him. ",
+						"<cite ref=\"Bava Metzia 17a\">Ib. 17ᵃ</cite>; a. e.—",
+						"<cite ref=\"Bava Batra 48b:3\">B. Bath. 48ᵇ</cite> <he>דלא הוה ליה לאישתמוטי</he> Ms. M. (v. Rabb. D. S. a. l. note) when he had no way of getting loose (by some subterfuge). ",
+						"<cite ref=\"Chullin 120a:5\">Ḥull. 120ᵃ</cite> <he>אִשְׁתְּמִיטְתֵּיה הא וכ׳</he> that which was said in the West escaped his attention. ",
+						"<cite ref=\"Bava Kamma 12a:1\">B. Kam. 12ᵃ</cite> <he>אִישְׁתַּמְּטִין עולא</he> Ulla has escaped us (was afraid to oppose me); a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

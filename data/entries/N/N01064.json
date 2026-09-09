@@ -1,0 +1,31 @@
+{
+	"id": "N01064",
+	"slug": "נפע-1",
+	"headword": {
+		"text": "נָפַע"
+	},
+	"page": {
+		"number": 925,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"Q00296\"><he>פּוּעַ</he></cite>, <cite ref=\"Q01372\"><he>פָּעָה</he></cite>) <i>to blow, squirt into the mouth</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 1:13\">Ex. R. s. 1</cite> (play on <cite ref=\"Q00298\"><he>פועה</he></cite>, <cite ref=\"Exodus 1:15\">Ex. I, 15</cite>) <he>שהיתה נוֹפַעַת יין וכ׳</he> she squirted wine into the child’s mouth after having given its mother to drink, v. <cite ref=\"N01025\"><he>נָפַח</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִפִּיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to blow air into the lungs, to revive</i>. Ib. <he>שהיתה מַפִּיעָה את וכ׳</he> (or <he>מְפִיעָה</he>, fr. <cite ref=\"Q00296\"><he>פּוּעַ</he></cite>) she revived the child when they said it was dead.",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

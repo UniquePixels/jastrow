@@ -1,0 +1,27 @@
+{
+	"id": "P00640",
+	"slug": "עיפוי",
+	"headword": {
+		"text": "עִיפּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִפּ׳"
+		}
+	],
+	"page": {
+		"number": 1073,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עפה</he> = <cite ref=\"P00635\"><he>עיף</he></cite>, v. <he>עֲפֵי</he> I) <i>junction, combination</i>; [oth. opin. <i>weariness</i>]. ",
+			"units": [
+				"<cite ref=\"Chagigah 15a:5\">Ḥag. 15ᵃ</cite>, v. <cite ref=\"P00360\"><he>עוֹרֶף</he></cite>."
+			]
+		}
+	]
+}

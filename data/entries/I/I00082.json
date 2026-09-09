@@ -1,0 +1,28 @@
+{
+	"id": "I00082",
+	"slug": "טבעא",
+	"headword": {
+		"text": "טִבְעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִיבְעָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 519,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"I00056\"><he>טְבִיעָה</he></cite>, <i>shipwreck</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 153a:10\">B. Bath. 153ᵃ</cite> <he>לא איפרק מט׳</he> (Ms. M. <he>מעונשיה</he>) did not escape the loss through shipwreck (which the woman had wished him.)"
+			]
+		}
+	]
+}

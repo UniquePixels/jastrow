@@ -1,0 +1,23 @@
+{
+	"id": "B00609",
+	"slug": "ביכאי",
+	"headword": {
+		"text": "בִּיכַאי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 161,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B00244\"><he>בּוּכְיָא</he></cite>) name of <i>a spider</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Parah 9:6\">Tosef. Par. IX</cite> (<cite ref=\"Tosefta Parah 8:6\">VIII</cite>), 6 ed. Zuck. (Var. <he>מובאי</he> corrupt, R. S. to <cite ref=\"Mishnah Tahorot 9:2\">Toh. IX, 2</cite> <cite ref=\"K00183\"><he>כובאי</he></cite>)."
+			]
+		}
+	]
+}

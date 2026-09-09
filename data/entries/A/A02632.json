@@ -1,0 +1,26 @@
+{
+	"id": "A02632",
+	"slug": "אפוסטומוס",
+	"headword": {
+		"text": "אַפּוֹסְטוֹמוֹס",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אַפּוֹסְטְמוֹס"
+		}
+	],
+	"page": {
+		"number": 101,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (Var. <cite ref=\"Q00289\"><he>פוסטמוס</he></cite>, <he>פס׳</he>) pr. n. m. <i>Apostomos</i> (Postomos), one who is mentioned as having burned the Law [and put up an idol in the Temple]. ",
+			"units": [
+				"<cite ref=\"Mishnah Taanit 4:6\">Taan. IV, 6</cite>; Y. ib. 68ᶜᵈ; Yalk.Kings 250. [Prob. an officer of king Antioch Epiphanes of Syria; perh. a popul. corrupt. of ἀπόστολος, cmp. ",
+				"<cite ref=\"The Book of Maccabees II 6:1\">II Macc. VI, 1</cite>.]"
+			]
+		}
+	]
+}

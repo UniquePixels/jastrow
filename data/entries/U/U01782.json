@@ -1,0 +1,45 @@
+{
+	"id": "U01782",
+	"slug": "שפם-2",
+	"headword": {
+		"text": "שָׂפָם",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׂפָמָא"
+		},
+		{
+			"text": "סְ׳"
+		}
+	],
+	"page": {
+		"number": 1618,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"U01781\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 13:45\">Targ. Lev. XIII, 45</cite> (O. ed. Berl. <cite ref=\"U01782\"><he>סְ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on II Samuel 19:25\">Targ. II Sam. XIX, 25</cite> <he>שִׂיפְמֵיה</he> ed. Lag. (oth. ed. <cite ref=\"U00695\"><he>סִ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 24:17\">Targ. Ez. XXIV, 17</cite>; <cite ref=\"Targum Jonathan on Ezekiel 24:22\">22</cite>. ",
+				"<cite ref=\"Targum Jonathan on Micah 3:7\">Targ. Mic. III, 7</cite>.—Pl. <he>שִׁפְמֵי</he>, <cite ref=\"U00761\"><he>שִׂי׳</he></cite>, <cite ref=\"U00695\"><he>סִ׳</he></cite>. ",
+				"<cite ref=\"Shabbat 129b:12\">Sabb. 129ᵇ</cite> <he>מאה ש׳</he> (Ms. O. <he>וש׳</he> only; Ms. M. <he>מאה ס׳</he>), v. <cite ref=\"S02103\"><he>קַרְנָא</he> I</cite>. ",
+				"<cite ref=\"Shabbat 129b:12\">Ib.</cite> <he>האידנא יומא דש׳ הוא</he> to-day is a day of lip-shaving, i.e. a day spent without profit."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>border</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 28:32\">Targ. Y. I Ex. XXVIII, 32</cite> (Y. II <cite ref=\"O01326\"><he>ספווא</he></cite>).—[<cite ref=\"Targum Jonathan on Numbers 30:13\">Targ. Y. Num. XXX, 13</cite> <he>שפמהא</he>, read: <he>שִׂפְתָהָא</he>.]"
+			],
+			"label": "2"
+		}
+	]
+}

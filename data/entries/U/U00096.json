@@ -1,0 +1,116 @@
+{
+	"id": "U00096",
+	"slug": "שבח-1",
+	"headword": {
+		"text": "שָׁבַח"
+	},
+	"page": {
+		"number": 1511,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to grow, spread</i>,] <i>to improve, grow in value</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 135b:2\">B. Bath. 135ᵇ</cite> <he>שֶׁבַח ששָׁבְחוּ וכ׳</he> an improvement which the estate obtained of itself, i.e. a natural increase in value by growth. ",
+				"<cite ref=\"Bava Batra 143b:9\">Ib. 143ᵇ</cite> <he>שבחו נכסים מחמת נכסים</he> the estate improved through outlays made from the estate; <he>שבחו … מחמת עצמן</he> the estate improved owing to their (the heirs’) own expense of labor or money; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁבִּיחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to improve, ameliorate</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 14b:13\">B. Mets. 14ᵇ</cite> <he>גזל … והִשְׁבִּיחָהּ</he> if one took unlawful possession of a field and sold it to another person who made improvements in it. ",
+						"<cite ref=\"Bava Batra 124b:6\">B. Bath. 124ᵇ</cite> <he>שבח שהִשְׁבִּיתוּ יורשין וכ׳</he> an improvement which the heirs made after their father’s death. ",
+						"<cite ref=\"Mishnah Bava Batra 9:3\">Ib. IX, 3</cite> <he>השביחו לאמצע</he>, v. <cite ref=\"A02056\"><he>אֶמְצַע</he></cite>. ",
+						"<cite ref=\"Mishnah Bava Batra 9:3\">Ib.</cite> <he>הִשְׁבִּיחָה לעצמה</he> the increase of value which she produced goes to her own profit; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (neut. verb) <i>to improve, grow in value</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maaser Sheni 2:1\">Maas. Sh. II, 1</cite>; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to get bright</i>, v. infra.",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["שִׁבֵּחַ"],
+			"senses": [
+				{
+					"gloss": " [ [<i>to amplify</i>,] <i>to praise</i>. ",
+					"units": [
+						"<cite ref=\"Eruvin 19a:3\">Erub. 19ᵃ</cite> <he>ולא עוד אלא שמְשַׁבֵּחַ</he> and not only (does he submit to God’s judgment in silence), but he even praises. ",
+						"<cite ref=\"Sukkah 27b\">Succ. 27ᵇ</cite>, v. <cite ref=\"P01126\"><he>עַצְלָן</he></cite>. ",
+						"<cite ref=\"Mishnah Sotah 7:8\">Sot. VII, 8</cite> <he>ושִׁבְּחוּהוּ חכמים</he> and the scholars praised him for it. Mekh. Bo, s. 12 <he>הודו ושִׁבְּחוּ וכ׳</he> they offered thanks and praise that the emeny did not see (their dead) &c. Ib. <he>צריך לשַׁבֵּחַ</he> must offer praise; a. fr.—<i>Part. pass.</i> <he>מְשׁוּבָּח</he>; f. <cite ref=\"M02830\"><he>מְשׁוּבַּחת</he></cite>; pl. <he>מְשׁוּבָּחִין</he>; <he>מְשׁוּבָּחוֹת</he> "
+					],
+					"label": "1",
+					"senses": [
+						{
+							"gloss": " <i>improved, valuable;</i> ",
+							"units": [],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>praiseworthy</i>. Y. Yoma VI, 43ᶜ top <he>מש׳ בגופו</he> a sacrifice superior as to its body (stouter), <he>מש׳ במראיו</he> better looking. ",
+							"units": [
+								"<cite ref=\"Shir HaShirim Rabbah 1:1:11\">Cant. R. to I, 1</cite> <he>המש׳ שבשירים</he> the most precious of songs. ",
+								"<cite ref=\"Bamidbar Rabbah 16\">Num. R. s. 16<sup>3</sup></cite> (ref. to <cite ref=\"Numbers 13:22\">Num. XIII, 22</cite>) <he>שהפסולת שלה משובחת מן המש׳</he> (not <he>משובח</he>), v. <cite ref=\"Q01247\"><he>פְּסוֹלֶת</he></cite>; a. fr.— <i>to quiet, tame</i>.—Part. pass. as ab. ",
+								"<cite ref=\"Yalkut Shimoni on Torah 729\">Yalk. Num. 729</cite> <he>כחו … ומה מש׳</he> how great is the strength of this lion, and how tame he is!"
+							],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִשְׁתַּבֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to spread</i>, (of light) <i>get bright</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 22:9\">Midr. Till. to Ps. XXII</cite> <he>ואחר כך היא מִשְׁתַּבַּחַת והולכת</he> ed. Bub. (oth. ed. <he>מַשְׁבַּחַת</he> <i>Hif.</i>) and at last it grows bright and brighter; <cite ref=\"Shir HaShirim Rabbah 6:10:1\">Cant. R. to VI, 10</cite> <he>מרטבת</he> (corr. acc.)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be improved</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 34:2\">Gen. R. s. 34</cite> <he>כל זמן שהוא כותשה היא משתבחת</he> the more he beats it (the flax), the better it grows; <cite ref=\"Bereishit Rabbah 34:2\">ib.</cite> s. 32; ib. s. 55 <he>משת׳ והולכת</he>; <cite ref=\"Midrash Tehillim 11:5\">Midr. Till. to Ps. XI</cite> <he>מַשְׁבַּחַת והולכת</he> (<i>Hif.</i>; ed. Bub. <he>משבח והולך</he>, read: <he>מַשְׁבִּיחַ</he>, or <he>משובח</he>); <cite ref=\"Yalkut Shimoni on Torah 95:8\">Yalk. Gen. 95</cite> <he>משובחת</he>; <cite ref=\"Yalkut Shimoni on Nach 654\">Yalk. Ps. 654</cite> <he>משב׳</he>; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to praise one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Bekhorot 45b:7\">Bekh. 45ᵇ</cite> <he>הקב״ה מִשְׁתַּבֵּחַ בבעלי קומה</he> the Lord prides himself on conquering men of high stature. ",
+						"<cite ref=\"Shemot Rabbah 9\">Ex. R. s. 9</cite> <he>אותו רשע משתבח ואומר וכ׳</he> that wicked man (Pharaoh) prides himself and says, that he is a god; a. e."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to be praised</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 41:1\">Ex. R. s. 41</cite> <he>הקב״ה יִשְׁתַּבַּח שמו ויתעלה זכרו</he> the Holy One, blessed be he, praised be his name, and exalted his memory; a. fr."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "O00293",
+	"slug": "סוירא",
+	"headword": {
+		"text": "סְוִירָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 963,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O00409\"><he>סוּר</he></cite>, cmp. Syr. <cite ref=\"O00413\"><he>סורא</he></cite> mucus nasi, P. Sm. 2584) <i>nasty secretion, vomit</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 23:29\">Targ. Prov. XXIII, 29</cite> some ed. (Ms. Var. <cite ref=\"O00597\"><he>סְיוּרָא</he></cite>; ed. Lag. <cite ref=\"O00269\"><he>סוודא</he></cite>, read <he>סְוָורָא</he>), v. <cite ref=\"O00279\"><he>סוּחָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "P00532",
+	"slug": "עיטוף",
+	"headword": {
+		"text": "עִיטּוּף"
+	},
+	"page": {
+		"number": 1068,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עָטַף</he> II) <i>putting a cloak on, covering the head</i> (at prayer). ",
+			"units": [
+				"<cite ref=\"Berakhot 51a:16\">Ber. 51ᵃ</cite> (the cup of benediction requires) <he>עיטור וע׳</he> crowning (the cup) and covering the head (of those reciting)."
+			]
+		}
+	]
+}

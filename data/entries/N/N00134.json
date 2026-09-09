@@ -1,0 +1,25 @@
+{
+	"id": "N00134",
+	"slug": "נגוד-2",
+	"headword": {
+		"text": "נָגוֹד"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָגִיך"
+		}
+	],
+	"page": {
+		"number": 873,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00117\"><he>נָגַד</he></cite>) <i>leader</i>. Sifra Aḥăré, ch. XII, Par. 9 (ref. to <cite ref=\"Leviticus 18:4\">Lev. XVIII, 4</cite>) <he>לא המשנה נ׳ וכ׳</he> (Rabad: <cite ref=\"N00152\"><he>נָגִיד</he></cite>) not the teaching is the guide, but the practice (precedent, v. <he>מעשה רב</he>, s. v. <cite ref=\"M02186\"><he>מַעֲשֶׂה</he></cite>).",
+			"units": []
+		}
+	]
+}

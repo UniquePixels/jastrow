@@ -1,0 +1,28 @@
+{
+	"id": "G00676",
+	"slug": "זרואי",
+	"headword": {
+		"text": "זַרְוַאי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "מֶלַח דְּזַרְוַאי"
+		}
+	],
+	"page": {
+		"number": 412,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Melaḥ d’Zarvai</i>, a border place on the east side of the Jordan. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 4:11\">Tosef. Shebi. IV, 11</cite> <he>מלח דז׳</he> Var. (ed. Zuck. <he>מלי חזרואי</he>); <cite ref=\"Jerusalem Talmud Sheviit 6:1:9\">Y. Shebi. VI, 36ᶜ</cite> <he>מלח דזרכאיי</he> (read <he>זַרְבַּ׳</he> = <he>זַרְוַ׳</he>, v. Hildesh. Beitr. p. 61, sq.); Sifré Deut. s. 51 <he>עליה זירזא</he>; Yalk. ib. 874 <he>מיליה וירואי</he>. [Hildesh. l. c. a. Neub. Géogr. p. 20 emend <cite ref=\"M00497\"><he>מוּלְיָא</he></cite> or (<he>מליתא</he>) <cite ref=\"M01637\"><he>מִלְתָא</he></cite> for <cite ref=\"M01521\"><he>מלח</he></cite>.]"
+			]
+		}
+	]
+}

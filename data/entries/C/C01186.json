@@ -1,0 +1,39 @@
+{
+	"id": "C01186",
+	"slug": "געי-2",
+	"headword": {
+		"text": "גְּעִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּעָא"
+		}
+	],
+	"page": {
+		"number": 261,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01185\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 6:12\">Targ. I Sam. VI, 12</cite>. [<cite ref=\"Targum Jonathan on I Samuel 2:5\">Ib. II, 5</cite> <he>וגען</he> some ed., corr. <he>וגָאָן</he>, v. <cite ref=\"C00015\"><he>גאי</he></cite>]. ",
+				"<cite ref=\"Aramaic Targum to Job 6:5\">Targ. Job VI, 5</cite>, v. <cite ref=\"C00690\"><he>גִּיחַ</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Taanit 2:1:13\">Y. Taan. II, 65ᵇ</cite> <he>והוו אילין גּעֲיֵי וכ׳</he> and they lowed from this side &c.; Pesik. Shubah, p. 161ᵃ <he>מְגַעֲיִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:12\">Y. Ber. II, 5ᵃ</cite> top <he>גָּעַת תורתיה</he> his cow lowed; <cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite>, end."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּעֵי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"C01185\">same</cite>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

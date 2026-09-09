@@ -1,0 +1,32 @@
+{
+	"id": "P01476",
+	"slug": "עשיה",
+	"headword": {
+		"text": "עֲשִׂיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲשִׂיָּיה"
+		}
+	],
+	"page": {
+		"number": 1125,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01475\">preced.</cite>) <i>doing, action</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 9:1:6\">Y. Pes. IX, 36ᵈ</cite> top (ref. to <he>וחדל לעשות</he>, <cite ref=\"Numbers 9:13\">Num. IX, 13</cite>) <he>החדל בשעת ע׳</he> he who fails (to sacrifice, without being prevented) at the time when the Passover sacrifice is to be done. ",
+				"<cite ref=\"Numbers 9:13\">Ib.</cite> <he>חוץ לַעֲשִׂיָּיתוֹ</he> out of the time of doing it. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 4:4:11\">Y. Ab. Zar. IV, 44ᵃ</cite> (ref. to <cite ref=\"Leviticus 26:1\">Lev. XXVI, 1</cite>) <he>ע׳ בתחלה קימה וכ׳</he> ‘ye shall not make’ refers to the original making and putting up, ‘ye shall not put up’ means that you must not erect it when it has fallen down. ",
+				"<cite ref=\"Megillah 17a:7\">Meg. 17ᵃ</cite>, a. e. <he>ע׳</he> celebrating (Purim, <cite ref=\"Esther 9:27\">Esth. IX, 27</cite>), contrad. to <cite ref=\"G00464\"><he>זְכִירָה</he></cite>. ",
+				"<cite ref=\"Sifrei Devarim 212:3\">Sifré Deut. 212</cite> (ref. to <cite ref=\"Deuteronomy 21:12\">Deut. XXI, 12</cite>) <he>נאמר כאן ע׳ ונאמרה ע׳ וכ׳</he> here is an action mentioned concerning the head, and a <i>doing</i> is named concerning the nails <he>מה ע׳ האמורה וכ׳</he> as the action concerning the head means removing (the hair), so &c.; <cite ref=\"Yevamot 48a:11\">Yeb. 48ᵃ</cite>; a. fr.—Pl. <he>עֲשִׂיּוֹת</he>. ",
+				"<cite ref=\"Yoma 55a:9\">Yoma 55ᵃ</cite> (ref. to <cite ref=\"Leviticus 16:15\">Lev. XVI, 15</cite>) <he>שיהיו כל עֲשִׂיּוֹתָיו שוות</he> that all his actions (sprinklings) should be alike. Ib. 71ᵇ, sq.; a. e.—[<cite ref=\"P01476\"><he>עשייה</he></cite>, <cite ref=\"Ketubot 53a:2\">Keth. 53ᵃ</cite>, v. <cite ref=\"P01475\"><he>עֲשֵׂי</he></cite>.]"
+			]
+		}
+	]
+}

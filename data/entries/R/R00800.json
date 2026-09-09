@@ -1,0 +1,23 @@
+{
+	"id": "R00800",
+	"slug": "צרפא",
+	"headword": {
+		"text": "צָרָפָא"
+	},
+	"page": {
+		"number": 1304,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00799\">preced.</cite> wds.) = h. <he>מַצְרֵף</he>, <i>refining pot, crucible</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 17:3\">Targ. Prov. XVII, 3</cite>; <cite ref=\"Aramaic Targum to Proverbs 27:21\">XXVII, 21</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:4\">Ib. XXV, 4</cite>."
+			]
+		}
+	]
+}

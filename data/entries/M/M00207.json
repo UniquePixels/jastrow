@@ -1,0 +1,62 @@
+{
+	"id": "M00207",
+	"slug": "מגר-1",
+	"headword": {
+		"text": "מְגַר"
+	},
+	"page": {
+		"number": 730,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		},
+		{
+			"gloss": "<i>to drag down; to throw over</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 49:17\">Targ. Gen. XLIX, 17</cite> (h. text <he>ויפל</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 89:45\">Targ. Ps. LXXXIX, 45</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 39:3\">Targ. Ez. XXXIX, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Kings 9:33\">Targ. II Kings IX, 33</cite> (h. text <he>שמט</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 22:19\">Targ. Is. XXII, 19</cite> (h. text <he>הרס</he>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to scrape off</i>,] <i>to diminish, destroy</i> (corresp. to b. h. <cite ref=\"R00601\"><he>צָמַת</he></cite> a. <cite ref=\"C00454\"><he>גָּוַע</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 119:139\">Targ. Ps. CXIX, 139</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 101:5\">Ib. CI, 5</cite>; <cite ref=\"Aramaic Targum to Psalms 101:8\">8</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 143:12\">Ib. CXLIII, 12</cite>; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"M00208\"><he>מַגֵּר</he></cite>, <cite ref=\"M00171\"><he>מַגֵּיר</he></cite> (b. h. <he>מִגֵּר</he>; cmp. <cite ref=\"C01393\"><he>גְּרַר</he></cite>) ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְמַגַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be diminished</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 6:17\">Targ. Job VI, 17</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 23:17\">Ib. XXIII, 17</cite> Ms. (ed. <he>אתגמר׳</he>, h. text <he>נצמתי</he>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

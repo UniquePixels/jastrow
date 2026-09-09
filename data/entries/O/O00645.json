@@ -1,0 +1,28 @@
+{
+	"id": "O00645",
+	"slug": "סיכולא",
+	"headword": {
+		"text": "סִיכּוּלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִכּ׳"
+		}
+	],
+	"page": {
+		"number": 979,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סְכַל</he> I) <i>intelligence</i>, <i>deliberation</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 21:16\">Targ. Prov. XXI, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 23:9\">Ib. XXIII, 9</cite> (some ed. <he>שִׂיכּ׳</he>)."
+			]
+		}
+	]
+}

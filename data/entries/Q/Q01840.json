@@ -1,0 +1,24 @@
+{
+	"id": "Q01840",
+	"slug": "פרישותא",
+	"headword": {
+		"text": "פְּרִישׁוּתָא"
+	},
+	"page": {
+		"number": 1228,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"Q01836\"><he>פָּרִישָׁא</he></cite>) <i>wonderful deed, wonder</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 37:14\">Targ. Job XXXVII, 14</cite> (Ms. <cite ref=\"Q01842\"><he>פְּרִישָׁתָא</he></cite>); a. fr.—Pl. <cite ref=\"Q02035\"><he>פְּרִישְׁוָותָא</he></cite>, <he>פְּרִשְׁ׳</he>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 3:20\">Targ. Y. Ex. III, 20</cite> (O. <he>פְּרִשְׁוָתִי</he>, read <he>תַי …</he>; ed. Berl. <cite ref=\"Q01842\"><he>פְּרִישָׁתִי</he></cite>, read <he>תַי …</he>; v. Berl. Targ. O. II. p. 20). ",
+				"<cite ref=\"Aramaic Targum to Psalms 77:12\">Targ. Ps. LXXVII, 12</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "O01444",
+	"slug": "סקב",
+	"headword": {
+		"text": "סְקַב"
+	},
+	"page": {
+		"number": 1019,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>סַקֵּיב</he> (Saf. of <he>נ־קב</he>; cmp. <cite ref=\"N01233\"><he>נקף</he></cite> I a. <he>נגף</he>) <i>to make sore</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 27b\">B. Mets. 27ᵇ</cite> [read:] <he>לא שאילי אינשי אוכפא משום דמְסַקֵּב ליה לחמרא</he> people do not borrow a saddle, because it makes sore the ass’ back (which it does not fit; Ms. M. <he>לא שיילי … דמְסַקֵּיב להו לחמרייהו</he> people do not lend …, for it makes their asses’ backs sore, after having been worn by a strange ass; v. Rabb. D. S. a. l. note); <cite ref=\"Yevamot 120b\">Yeb. 120ᵇ</cite> <he>לא שיולו … דמסקיב וכ׳</he> (read <he>שיילי</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

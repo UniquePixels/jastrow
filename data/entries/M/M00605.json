@@ -1,0 +1,32 @@
+{
+	"id": "M00605",
+	"slug": "מור-4",
+	"headword": {
+		"text": "מוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֹר"
+		}
+	],
+	"page": {
+		"number": 748,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M02773\"><he>מָרַר</he></cite>)<i>myrrh</i>. ",
+			"units": [
+				"<cite ref=\"Keritot 6a:42\">Ker. 6ᵃ</cite>; <cite ref=\"Jerusalem Talmud Yoma 4:5:2\">Y. Yoma IV, 41ᵈ</cite> (an ingredient of frankincense). ",
+				"<cite ref=\"Bereishit Rabbah 91:11\">Gen. R. s. 91</cite>, end; <cite ref=\"Yalkut Shimoni on Torah 149:3\">Yalk. ib. 149</cite> (not <cite ref=\"M00639\"><he>מורי</he></cite>), v. <cite ref=\"A01142\"><he>אֵיגוֹרִי</he></cite>. ",
+				"<cite ref=\"Mishnah Mikvaot 9:5\">Mikv. IX, 5</cite> <he>המ׳</he> (Var. <cite ref=\"H01223\"><he>חֵמָר</he></cite>); <cite ref=\"Tosefta Mikvaot 6:1\">Tosef. ib. VI</cite> (<cite ref=\"Tosefta Mikvaot 7:16\">VII</cite>), 16 <he>המ׳</he> the myrrh-gum. ",
+				"<cite ref=\"Shir HaShirim Rabbah 5:16:1\">Cant. R. to V, 16</cite>; a. fr.—",
+				"<cite ref=\"Shir HaShirim Rabbah 13\">Ib. 13</cite>; <cite ref=\"Shabbat 30b:6\">Sabb. 30ᵇ</cite>, v. <cite ref=\"M02477\"><he>מַר</he> II</cite>.—Pl. <he>מוּרוֹת</he> <i>lumps of gum</i>. ",
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 20</cite> (play on <he>חמרמרו</he> <cite ref=\"Eichah Rabbah 1:57\">ib.</cite>, as if fr. <cite ref=\"H01223\"><he>חֵמָר</he></cite>) <he>עשאן מ׳ מ׳</he>, v. <cite ref=\"C00503\"><he>גּוּשׁ</he> II</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"id": "D01118",
+	"slug": "דרע-3",
+	"headword": {
+		"text": "דְּרַע",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּרָעָא"
+		},
+		{
+			"text": "דְּרוֹעָא"
+		}
+	],
+	"page": {
+		"number": 324,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. ch. = h., <i>arm</i>, (of animals) <i>shoulder</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 6:6\">Targ. Ex. VI, 6</cite>. ",
+				"<cite ref=\"Onkelos Numbers 6:19\">Targ. O. Num. VI, 19</cite> (Y. <cite ref=\"A00454\"><he>אֶדְרוֹעָא</he></cite>); a. fr.—",
+				"<cite ref=\"Gittin 31b\">Gitt. 31ᵇ</cite>; <cite ref=\"Berakhot 5b:14\">Ber. 5ᵇ</cite> <he>לדְרָעֵיה</he>, v. <cite ref=\"C00927\"><he>גְּלֵי</he></cite>. ",
+				"<cite ref=\"Ketubot 65a:9\">Keth. 65ᵃ</cite> [read:] <he>איגלי דְּרָעָהּ</he> her arm was uncovered; a. fr.—[<cite ref=\"Bereishit Rabbah 80:5\">Gen. R. s. 80</cite> <he>שגלה בה דרועה</he>, a corrupt., prob. to be read: <he>שגלתה את זרועה</he>.]—",
+				"<cite ref=\"Yoma 33b:2\">Yoma 33ᵇ</cite> <he>עבורי ד׳ וכ׳</he> it is forbidden to forego the arm in favor of the forehead, i.e. to reverse the order of putting on T’fillin (<cite ref=\"Deuteronomy 6:8\">Deut. VI, 8</cite>; oth. interpret. v. Tosaf. a. l.). ",
+				"<cite ref=\"Deuteronomy 6:8\">Ib.</cite> <he>מד׳</he> (Ms. M. <he>מאִידְרְעָא</he>).—Pl. <he>דְּרָעַיָּא</he>, <cite ref=\"D01070\"><he>דְּרוֹעַ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 37:17\">Targ. Ps. XXXVII, 17</cite> <he>דְּרוֹעֵי</he>.— ",
+				"<cite ref=\"Onkelos Genesis 49:24\">Targ. O. Gen. XLIX, 24</cite>.—<he>דְּרָעָתָא</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 22:9\">Targ. Job XXII, 9</cite> <he>ודְרָעַת</he> Ms. (ed. <he>אדרעת</he>)."
+			]
+		}
+	]
+}

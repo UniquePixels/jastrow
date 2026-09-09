@@ -1,0 +1,24 @@
+{
+	"id": "C00521",
+	"slug": "גזברא",
+	"headword": {
+		"text": "גִּזְבָּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּיזְ׳"
+		}
+	],
+	"page": {
+		"number": 228,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00520\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 10:3\">Targ. Esth. X, 3</cite> <he>ג׳ וסבא</he> commander and elder (h. text <he>גדול</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "S00119",
+	"slug": "קדוש-1",
+	"headword": {
+		"text": "קָדוֹשׁ"
+	},
+	"page": {
+		"number": 1313,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S00192\"><he>קָדַשׁ</he></cite>)<i>holy, sacred; holy man, saint</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 20a:13\">Yeb. 20ᵃ</cite> <he>כל המקיים … נקרא ק׳</he> he who observes the ordinances of the scholars (with regard to marriage laws) is called holy (chaste). ",
+				"<cite ref=\"Yevamot 105b:7\">Ib. 105ᵇ</cite>; <cite ref=\"Megillah 27b:23\">Meg. 27ᵇ</cite> <he>עם ק׳</he> the holy assembly, v. <cite ref=\"Q01341\"><he>פָּסַע</he></cite>; (<cite ref=\"Sanhedrin 7b:12\">Snh. 7ᵇ</cite> <he>עם קוֹרֶשׁ</he>; Yeb. l. c. also <he>עם קֹדֶשׁ</he>). ",
+				"<cite ref=\"Vayikra Rabbah 24:4\">Lev. R. s. 24</cite> <he>כשם שאני ק׳ כך וכ׳</he> as I am holy, so be you holy. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 16:1:7\">Y. Sabb. XVI, 15ᶜ</cite> bot.; <cite ref=\"Tractate Soferim 16:12\">Treat. Sof’rim XVI, 12</cite> <he>הללו אל בקדשו לקְדוֹשׁוֹ לאהרן קְדוֹשׁ ד׳</he> ‘praise the Lord in his holiness’ (<cite ref=\"Psalms 150:1\">Ps. CL, 1</cite>) according to his holy servant, according to (the years of life of) Aaron, the holy servant of the Lord (123 Hallelujahs). ",
+				"<cite ref=\"Temurah 14b:20\">Tem. 14ᵇ</cite>, a. e. <he>כל הקרב ביום אינו ק׳ אלא ביום וכ׳</he> whatever must be offered in day-time, becomes sacred (by being put in a sacred vessel) only in day-time &c. ",
+				"<cite ref=\"Megillah 23b:15\">Meg. 23ᵇ</cite>; <cite ref=\"Sanhedrin 15a:8\">Snh. 15ᵃ</cite> <he>אדם מי ק׳</he> is a human being ever sacred (dedicated to be Temple property)? <cite ref=\"Berakhot 10b:24\">Ber. 10ᵇ</cite> (ref. to <cite ref=\"II Kings 4:9\">II Kings IV, 9</cite>) <he>הוא ק׳ … אינו ק׳</he> he (the prophet) is a pure man, but his servant (Gehazi) is not; a. v. fr.—<he>רבינו הק׳</he> our teacher, the saint, i.e. R. Judah Hannasi. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 3:2:5\">Y. Meg. III, 74ᵃ</cite>; a. fr.—<he>הק׳ ברוך הוא</he> (abbrev. <he>הקב״ה</he>, <he>הב״ה</he>, <he>הק״ה</he>) the Holy One, blessed be He, the Lord. ",
+				"<cite ref=\"Berakhot 6b\">Ber. 6ᵇ</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20</cite>; a. v. fr.—Pl. <he>קְדוֹשִׁים</he>. Lev. R. l. c. ",
+				"<cite ref=\"Shabbat 86a:7\">Sabb. 86ᵃ</cite>, a. e. <he>ישראל ק׳ הן</he> the Israelites are a chaste people. ",
+				"<cite ref=\"Pesachim 104a:6\">Pes. 104ᵃ</cite> <he>בנן של ק׳</he> the descendant of holy men (R. Menaḥem); <cite ref=\"Avodah Zarah 50a:9\">Ab. Zar. 50ᵃ</cite>; a. fr.—<he>פרשת ק׳</he> the section of the Torah beginning with <i>ḳ’doshim</i> (<cite ref=\"Leviticus 19:2\">Lev. XIX</cite>). Lev. R. l. c.; a. e.—<i>Fem.</i> <cite ref=\"S00123\"><he>קְדוֹשָׁה</he></cite>. Y. Maas. Sh. II, end, 53ᵈ; a. e., v. <cite ref=\"P00123\"><he>עֵדָה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"S00123\"><he>קְדוּשָּׁה</he></cite>) <i>Ḳadosh, the recitation of Ḳadosh</i> (<cite ref=\"Isaiah 6:3\">Is. VI, 3</cite>). Treat. Sof’rim l. c. <he>קטן … ק׳ ביוצר</he> (not <he>כיוצא</he>) a minor … must not recite <i>Ḳadosh</i> in the morning prayer (v. <cite ref=\"J00548\"><he>יָצַר</he></cite>). Ib. <he>ק׳ של עמידה</he> the <i>Ḳadosh</i> recited in the ‘standing prayer’ (v. <cite ref=\"P00881\"><he>עֲמִידָה</he></cite>), <i>the Ḳ’dushshah</i>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

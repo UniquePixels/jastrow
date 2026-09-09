@@ -1,0 +1,36 @@
+{
+	"id": "C00636",
+	"slug": "גידול-2",
+	"headword": {
+		"text": "גִּידּוֹל"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּידָּל"
+		},
+		{
+			"text": "גִּדָּל"
+		}
+	],
+	"page": {
+		"number": 235,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Giddol</i>, name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 3:7:6\">Y. Meg. III, end 74ᶜ</cite> <he>ר׳ גי׳</he>; <cite ref=\"Yoma 69b:3\">Yoma 69ᵇ</cite> <he>ר׳ גדל</he>. ",
+				"<cite ref=\"Jerusalem Talmud Beitzah 1:1:6\">Y. Bets. I, 60ᵃ</cite> (without title). ",
+				"<cite ref=\"Kiddushin 59a:8\">Kidd. 59ᵃ</cite> <he>ר׳ גידל</he>; a. fr.—G. b. Binyamin, b. Minyamin (Minyomi). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 8:8:7\">Y. Pes. VIII, end, 36ᵇ</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 3:3:8\">Y. B. Bath. III, 14ᵃ</cite>; Bab. ",
+				"<cite ref=\"Bava Batra 39b:4\">B. Bath. 39ᵇ</cite>; a. fr.—G. b. R’ulai. ",
+				"<cite ref=\"Gittin 34a:3\">Gitt. 34ᵃ</cite>"
+			]
+		}
+	]
+}

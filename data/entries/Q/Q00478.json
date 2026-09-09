@@ -1,0 +1,54 @@
+{
+	"id": "Q00478",
+	"slug": "פחם-1",
+	"headword": {
+		"text": "פָּחַם"
+	},
+	"page": {
+		"number": 1152,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"Q00480\"><he>פֶּחָם</he></cite>) <i>to be black</i>, v. infra.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיחֵם"],
+			"senses": [
+				{
+					"gloss": "<i>to blacken</i>. Y. Maas. Sh. V, beg. 55ᵈ; <cite ref=\"Tosefta Ma'aser Sheni 5:13\">Tosef. Maas. Sh. V, 13</cite> <he>בית ע״ז מְפַחֲמִין אותו בפיחמין</he> the site of an idolatrous temple is marked by blackening it (its debris) with coal. Y. Pes. VI, 33ᵃ bot. [read:] <he>מה … ומפציע ומְפַחֵם כך אני יורד בו</he> as a kettle (thrown at a person) scalds and wounds and blackens, so will I come down at him; a. e.—Part. pass. <he>מְפוּחָם</he>; f. <he>מְפוּחֶמֶת</he>; pl. <he>מְפוּחָמִים</he>, <he>מְפוּחָמִין</he>; <he>מְפוּחָמוֹת</he>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 36\">Gen. R. s. 36</cite>, v. <cite ref=\"K00974\"><he>כָּעַר</he></cite>; Y. Taan. I, end, 64ᵈ <he>חם יצא מפ׳</he> Ham came out (of the ark) black. Y. Sot. II, 17ᵈ bot. <he>לא במפ׳</he> not in a sooty vessel. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:6\">Cant. R. to I, 6</cite> <he>ידיה מפ׳</he> her hands were blackened. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:6\">Ib.</cite> <he>את שכולך מפ׳</he> thou (negress) who art black all over; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִפְחָם"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְפַּחֵם"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <cite ref=\"Q00444\"><he>נִתְפַּחֵם</he></cite> to be <i>blackened</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 764\">Yalk. Num. 764</cite>; <cite ref=\"Yalkut Shimoni on Nach 982:8\">Yalk. Cant. 982</cite> <he>נפ׳ בשמש</he> became black through exposure to the sun, v. <cite ref=\"K01208\"><he>כִּרְכֵּם</he></cite>. ",
+						"<cite ref=\"Bereishit Rabbah 18:5\">Gen. R. s. 18</cite> <he>נִתְפַּחֲמוּ פני הנשים מפני השמש</he> the faces of the (Jewish) women had become black &c. ",
+						"<cite ref=\"Bereishit Rabbah 19\">Gen. R. s. 19</cite>, beg. <he>ככלי פשתן … מִתְפַּחֲמִין קימעא וכ׳</he> (a scholar’s reputation is) like the fine linen clothes from Bethshan, if they are in the least stained, they are ruined; <cite ref=\"Kohelet Rabbah 1:18:1\">Koh. R. to I, 18</cite> <he>אם נִתְפַּחֲמוּ וכ׳</he>. ",
+						"<cite ref=\"Kohelet Rabbah 1:18:1\">Ib.</cite> <he>אם פָּחֲמוּ</he> (<i>Kal</i>). ",
+						"<cite ref=\"Devarim Rabbah 1:10\">Deut. R. s. 1</cite> <he>ונתפחמו ידיה</he> and her hands were soiled with soot; <he>אם מקנחת … מתפחם</he> if she wipes her hands on the wall, the wall will be soiled; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

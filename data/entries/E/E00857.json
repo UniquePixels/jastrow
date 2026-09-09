@@ -1,0 +1,29 @@
+{
+	"id": "E00857",
+	"slug": "הרי-1",
+	"headword": {
+		"text": "הֲרֵי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "הֲרִי"
+		}
+	],
+	"page": {
+		"number": 367,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>הראי</he>; <cite ref=\"T00011\"><he>ראה</he></cite>) <i>aspect, characteristic points, case</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 1:1\">B. Kam. I, 1</cite> (ref. to the four cases of damage <cite ref=\"Exodus 21:28\">Ex. XXI, 28</cite>; <cite ref=\"Exodus 21:33\">XXI, 33</cite>; <cite ref=\"Exodus 22:4\">XXII, 4</cite>; <cite ref=\"Exodus 22:5\">XXII, 5</cite>) <he>לא ה׳ השור כה׳ וכ׳</he> (Y. ed. <he>לא השור כה׳ וכ׳</he>) the case of the goring ox is not analogous to that of the eating animal, nor are the cases of both of them which are animated beings, analogous to the case of damage through fire which is inanimate &c. (i.e. the four cases had to be specified in the Biblical text); yet the points common to all are that they are liable to do damage &c. Mekh. Mishp., N’zikin, s. 5 <he>לא ה׳ הדיין כה׳ וכ׳</he> the case of (cursing) the judge is not analogous to that of (cursing) the prince, yet the point common to both &c. [In G’marah <cite ref=\"T00011\"><he>רְאִי</he></cite>, v. ",
+				"<cite ref=\"Bava Kamma 4a:13\">B. Kam. 4ᵃ</cite>.]"
+			]
+		}
+	]
+}

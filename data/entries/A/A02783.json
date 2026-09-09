@@ -1,0 +1,28 @@
+{
+	"id": "A02783",
+	"slug": "אפקרותא",
+	"headword": {
+		"text": "אַפְקָרוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַפִּיקְרוּתָא"
+		}
+	],
+	"page": {
+		"number": 107,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>פקר</he>; v. <cite ref=\"A02711\"><he>אַפִּיקוֹרוֹס</he></cite>) <i>making free, irreverence, contempt of the Law and its teachers</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 16a\">M. Kat. 16ᵃ</cite> <he>לאפיק׳ לאלתר</he> for contempt of the Law excommunication is pronounced forth with (without warning). ",
+				"<cite ref=\"Sanhedrin 100a:4\">Snh. 100ᵃ</cite> <he>מי מיחזי כי אפק׳</he> Ms. M. (ed. incorr. <he>נמי מיחזי כו׳</he>) does that look like showing irreverence (to one’s teacher)? <cite ref=\"Eruvin 63a:13\">Erub. 63ᵃ</cite> same (with <he>מתחזי</he> for <cite ref=\"M01116\"><he>מיחזי</he></cite>). [Snh. l. c. second time <he>כה״ג מיחזי א׳</he>, corr. as above.]"
+			]
+		}
+	]
+}

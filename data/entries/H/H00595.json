@@ -1,0 +1,33 @@
+{
+	"id": "H00595",
+	"slug": "חטה-2",
+	"headword": {
+		"text": "חִטָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִיטָּה"
+		}
+	],
+	"page": {
+		"number": 448,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; v. <cite ref=\"H01273\"><he>חָנַט</he></cite>) [<i>the clean, bright</i>, cmp. <he>פת נקיה</he>, s. v. <cite ref=\"N01195\"><he>נָקִי</he></cite>,] <i>wheat-grain</i>, (collect.) <i>wheat</i>. ",
+			"units": [
+				"<cite ref=\"Psalms 2:12\">Midr. Till. to Ps. II, 12</cite>; <cite ref=\"Shir HaShirim Rabbah 7:3:3\">Cant. R. to VII, 3</cite> <he>מה ח׳ זו סדוקה</he> as the wheat-grain is slit. ",
+				"<cite ref=\"Mishnah Shevuot 5:3\">Shebu. V, 3</cite> <he>אמר ח׳</he> if he says <i>ḥittah</i> (in the sing.). ",
+				"<cite ref=\"Shevuot 38a:16\">Ib. 38ᵃ</cite> <he>אפי׳ ח׳ בכלל חטין</he> even <i>ḥittah</i> means a quantity of wheat. ",
+				"<cite ref=\"Tosefta Nedarim 3:7\">Tosef. Ned. III, 7</cite>; Y. ib. VI, end, 40ᵃ <he>חי׳ שאני וכ׳</he> if one vows, ‘I will not taste <i>ḥittah</i> (wheat-grains)’, contrad. to <cite ref=\"H00633\"><he>חִטִּין</he></cite>; a. fr.—Pl. <cite ref=\"H00633\"><he>חִטִּים</he></cite>, <cite ref=\"H00633\"><he>חִטִּין</he></cite>, <cite ref=\"H00367\"><he>חִי׳</he></cite>. Ib. ",
+				"<cite ref=\"Mishnah Pesachim 2:5\">Pes. II, 5</cite>. ",
+				"<cite ref=\"Pesachim 35a:6\">Ib. 35ᵃ</cite> <he>כוסמין מין ח׳</he> spelt is a species of wheat; <cite ref=\"Menachot 70a:17\">Men. 70ᵃ</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 15:7\">Gen. R. s. 15</cite> <he>ח׳ היו</he> ‘the tree of knowledge’ was wheat. Shebu. l. c.; a. fr."
+			]
+		}
+	]
+}

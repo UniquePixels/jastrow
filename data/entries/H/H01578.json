@@ -1,0 +1,60 @@
+{
+	"id": "H01578",
+	"slug": "חרב-2",
+	"headword": {
+		"text": "חֲרֵב"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲרוֹב"
+		},
+		{
+			"text": "חֲרֵיב"
+		}
+	],
+	"page": {
+		"number": 498,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01577\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 26:2\">Targ. Ez. XXVI, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 13:15\">Targ. Hos. XIII, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 19:5\">Targ. Is. XIX, 5</cite>; a. fr.—",
+				"<cite ref=\"Nazir 32b:1\">Naz. 32ᵇ</cite> <he>דח׳ בה״מ</he> that the Temple has been destroyed. ",
+				"<cite ref=\"Nazir 32b:6\">Ib.</cite> <he>דיִחְרוֹב</he> that it will be destroyed. ",
+				"<cite ref=\"Gittin 56a:13\">Gitt. 56ᵃ</cite> <he>דלא לִיחֲרוֹב וכ׳</he> that Jerusalem may not be destroyed. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:12\">Y. Ber. II, 5ᵃ</cite> top <he>דברגליה חריב</he> with whose arrival it was destroyed; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַחְרִיב", "אַחְרוֹב"],
+			"senses": [
+				{
+					"gloss": "<i>to destroy, lay waste</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 42:15\">Targ. Is. XLII, 15</cite>. ",
+						"<cite ref=\"Targum Jonathan on Judges 16:24\">Targ. Jud. XVI, 24</cite>; a. fr.—",
+						"<cite ref=\"Yoma 69b:6\">Yoma 69ᵇ</cite> <he>דאַחְרְבֵיה וכ׳</he> who destroyed the Temple. ",
+						"<cite ref=\"Taanit 29a:1\">Taan. 29ᵃ</cite> top <he>לאַחְרוּבֵי</he> Ms. M. a. Rashi (ed. <he>לַחְרוּבֵי</he>); <cite ref=\"Gittin 56a:7\">Gitt. 56ᵃ</cite> <he>לַחְרוּבֵי</he>; a. fr."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיחֲרוּב", "אִיחֲרִיב"],
+			"senses": [
+				{
+					"gloss": "<i>to be destroyed</i>. Y. Ber. l. c.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

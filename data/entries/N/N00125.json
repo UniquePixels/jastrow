@@ -1,0 +1,28 @@
+{
+	"id": "N00125",
+	"slug": "נגדתא",
+	"headword": {
+		"text": "נַגַּדְתָּא"
+	},
+	"page": {
+		"number": 872,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (collect. noun; v. <cite ref=\"N00135\"><he>נָגוֹדָא</he></cite>) <i>leaders</i> of the flock. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:4:5\">Y. Kidd. I, 60ᵇ</cite> top; (Y. B. Kam. X, end, 7ᶜ, a. e. <he>תיישא רבא</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>lashing</i>, v. <cite ref=\"N00122\"><he>נִגְדָּא</he> II</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

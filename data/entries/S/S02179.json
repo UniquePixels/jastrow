@@ -1,0 +1,29 @@
+{
+	"id": "S02179",
+	"slug": "קרקפל",
+	"headword": {
+		"text": "קַרְקֵפֶל"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַרְקֵי׳"
+		}
+	],
+	"page": {
+		"number": 1426,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02178\">preced.</cite>, with format. <cite ref=\"L00000\"><he>ל</he></cite>; cmp. <cite ref=\"K01233\"><he>כַּרְמֶל</he></cite> &c.) <i>scalp</i> (used as a charm in battle). ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 11b:3\">Ab. Zar. 11ᵇ</cite> (describing a sort of secular game) <he>אחת לשבעים … קַרְקִיפְלוֹ של וכ׳</he> once in seventy years they make a well man ride on a lame man and dress him in the garments of Adam and place on his head the scalp of R. Ishmael &c. ",
+				"<cite ref=\"Chullin 123a:3\">Ḥull. 123ᵃ</cite> <he>קרְקֵפְלוֹ של ו׳ וכ׳</he> R. Ishmael’s scalp was put on the head of kings (as a charm.). Pl. <he>קַרְקַפְלִין</he>. ",
+				"<cite ref=\"Chullin 123a:3\">Ib.</cite> <he>אין לך לגיון  … וכ׳</he> there is not a Roman legion that does not carry with it several scalps; <cite ref=\"Tosefta Chullin 8:16\">Tosef. ib. VIII, 16</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"id": "K00156",
+	"slug": "כהי-1",
+	"headword": {
+		"text": "כהי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כָּהָה"
+		}
+	],
+	"page": {
+		"number": 614,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"K00204\"><he>כָּוָה</he></cite>)<i>to be dim</i> (of sight, light). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 65:4\">Gen. R. s. 65</cite> <he>כָּהוּ עיניו</he> his eyes grew dim. ",
+				"<cite ref=\"Bereishit Rabbah 65:10\">Ib.</cite> <he>שיִכְהוּ עיניו</he> that his eye-sight shall fail. ",
+				"<cite ref=\"Kiddushin 24b\">Kidd. 24ᵇ</cite> <sub>…</sub> <he>הכהו וכָהֲתָה</he> if the master struck him on his eye, and it grew dim; a. fr.—Part. pass. <he>כָּהוּי</he>, f. <he>כָּהוּיָה</he>. ",
+				"<cite ref=\"Kiddushin 24b:12\">Ib.</cite> <he>הרי שהיתה עינו כ׳ וכ׳</he> if his eye-sight was dim, and he (the master) made him perfectly blind."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (of color) <i>to be dull</i>, v. <cite ref=\"K00151\"><he>כֵּהֶה</he></cite>. [Tosef. Erub. XI (VIII), 8; Tanḥ. Noah 9, v. <cite ref=\"K00459\"><he>כָּחַח</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּיהָה", "כִּהָה"],
+			"senses": [
+				{
+					"gloss": "<i>to grow duller, to be shaded</i>. Sifra Thazr., Neg., Par. 2, ch. II <he>אם העז וכ׳</he> if the spot grew brighter and grew duller again; a. fr.—2) <i>to declare doubtful</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Negaim 4:11\">Neg. IV, 11</cite> <he>ר׳ י׳ כ׳</he>, v. <cite ref=\"K00151\"><he>כֵּהֶה</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִכְהָה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K00155\">same</cite>. Y. Shebu. I, 32ᵈ, v. <cite ref=\"K00151\"><he>כֵּהֶה</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Negaim 11:5\">Neg. XI, 5</cite> <he>ה׳ בתחלה</he> if the suspicious spot grew fainter at once (before the ordered isolation was begun); <he>ה׳ בראשון</he> if it grew faint in the first week; Tosef. ib. V, 6 quot. in R. S. to Neg. l. c. (ed. Zuck. <he>כהה כתחלה</he>, oth. ed. only <he>כתחלה</he>, corr. acc.); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make dim</i>. Gen. R. l. c. <he>הריני מַכְהֶה וכ׳</he> I will make his eye-sight dim. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 601\">Yalk. Ruth 601</cite> <he>ייסורין מַכְהִין וכ׳ …</he> sufferings of poverty dim men’s eyes. ",
+						"<cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite> <he>מכהה גלגל חמה</he> dimmed (outshone) the sun in brightness; Pesik. Parah, p. 37ᵃ <he>שיַכְהֶה</he>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

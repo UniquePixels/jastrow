@@ -1,0 +1,25 @@
+{
+	"id": "S01581",
+	"slug": "קניט",
+	"headword": {
+		"text": "קָנִיט"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְנִיטָה"
+		}
+	],
+	"page": {
+		"number": 1392,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01552\"><he>קָנַט</he></cite>) [<i>shrinking</i>,] <i>fainting, sick</i>. Tanḥ. Thazr. 3 <he>ואין נפשו ק׳ עליו</he> and its vitality is not impaired; ed. Bub. 4, v. <cite ref=\"S01552\"><he>קָנַט</he></cite>.—[<cite ref=\"Yalkut Shimoni on Nach 932\">Yalk. Prov. 932</cite>; Yalk. Lam. 998, v. <cite ref=\"N01205\"><he>נָקִיט</he></cite>.]",
+			"units": []
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "P01408",
+	"slug": "ערסל-1",
+	"headword": {
+		"text": "עִרְסֵל",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1121,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"P01409\">next w.</cite>) <i>to swing</i> (like a hammock).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְעַרְסֵל"],
+			"senses": [
+				{
+					"gloss": "<i>to be swung; to waddle, stagger</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 31:12\">Gen. R. s. 31</cite> <he>דוב בא ליכנס והיו רגליו מִתְעַרְסְלוֹת</he> quot. in Rashi to <cite ref=\"Ezekiel 14:14\">Ez. XIV, 14</cite> (missing in ed.) when a bear wanted to force his entrance into the ark, his feet tottered; <cite ref=\"Ezekiel 14:14\">ib.</cite> (with ref. to giants) <he>מתערסלות במים</he> Ar.; <cite ref=\"Yalkut Shimoni on Torah 55:1\">Yalk. Gen. 55</cite> <he>מתערסלות</he>; v. <cite ref=\"P01382\"><he>עִרְכֵּל</he></cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

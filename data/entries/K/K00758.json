@@ -1,0 +1,91 @@
+{
+	"id": "K00758",
+	"slug": "כלל-1",
+	"headword": {
+		"text": "כָּלַל"
+	},
+	"page": {
+		"number": 643,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"K00259\"><he>כּוּל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to surround, comprise, include</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 4\">Gen. R. s. 4</cite> <he>חזר וכְלָלָן כולן וכ׳</he> (not <he>וכללו כולו</he>) he again included them all in the praise (<cite ref=\"Genesis 1:31\">Gen. I, 31</cite>). ",
+				"<cite ref=\"Shevuot 23b:8\">Shebu. 23ᵇ</cite> <he>בכוֹלֵל המותרים וכ׳</he> when he (in his vow) includes permitted things as well as forbidden things. ",
+				"<cite ref=\"Shevuot 24a:2\">Ib. 24ᵃ</cite>, a. fr. <he>איסור כולל</he>, v. <cite ref=\"A01405\"><he>אִיסּוּר</he></cite>. ",
+				"<cite ref=\"Mishnah Rosh Hashanah 4:5\">R. Hash. IV, 5</cite> <he>וכולל מלכיות עמהן</he> and inserts that section of prayers concerning the divine rulership, v. <cite ref=\"M01579\"><he>מַלְכוּת</he></cite>; a. fr.—<i>Part. pass.</i> <cite ref=\"K00702\"><he>כָּלוּל</he></cite>, f. <he>כְּלוּלָה</he> "
+			],
+			"label": "1",
+			"senses": [
+				{
+					"gloss": " <i>included</i>. ",
+					"units": [
+						"<cite ref=\"Jerusalem Talmud Pesachim 5:7:2\">Y. Pes. V, 32ᶜ</cite> bot. <he>ירידת גשמים כ׳ וכ׳</he> the praise for the rain-fall is included therein (<cite ref=\"Psalms 135:7\">Ps. CXXXV, 7</cite>); <cite ref=\"Jerusalem Talmud Taanit 3:9:8\">Y. Taan. III, 67ᵃ</cite>, end.—",
+						"<cite ref=\"Jerusalem Talmud Berakhot 1:5:3\">Y. Ber. I, 3ᶜ</cite> top <he>עשרת הדברות כְּלוּלִין בהן</he> the Ten Commandments are contained therein.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>entire</i>, v. <cite ref=\"K00733\"><he>כָּלִיל</he></cite>.",
+					"units": [],
+					"label": "b"
+				}
+			]
+		},
+		{
+			"gloss": "<i>to generalize</i> (v. <cite ref=\"K00760\"><he>כְּלָל</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bava Kamma 63a:10\">B. Kam. 63ᵃ</cite> <he>חזר</he> (<he>הדר</he>) <he>וכ׳</he> the text generalizes again.—[<cite ref=\"Jerusalem Talmud Avodah Zarah 4:10:2\">Y. Ab. Zar. IV, 44ᵇ</cite> top <he>טוחנין … כוללין</he>, read: <cite ref=\"K00189\"><he>כּוֹבְרִין</he></cite>, v. <cite ref=\"K00074\"><he>כָּבַר</he></cite>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִכְלָל"],
+			"senses": [
+				{
+					"gloss": "<i>to be implied, to be stated in general terms</i>, opp. <cite ref=\"Q01763\"><he>נפרט</he></cite>. Y. Sot. VII, 21ᵈ top <he>דברים שנִכְלָלוּ ונפרטו</he> things which have been stated both implicitly and specifically.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["כִּילֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to crown</i>. Tanḥ. R’eh 7 <he>אם נוצחין … ומְכַלְּלִין אותו</he> when they (the legions) are victorious, they come and make a wreath, and crown him (the king).",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to include, imply</i>. <i>Part. pass.</i> <he>מְכוּלָּל</he>, pl. <he>מְכוּלָּלִים</he> <i>enclosed</i> (as a germ), <i>potential</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 10:4\">Gen. R. s. 10</cite> (ref. to <he>ויכלו</he>, <cite ref=\"Genesis 2:1\">Gen. II, 1</cite>) <he>מ׳ היו המעשים</he> things had been created potentially, and then they developed more and more.—[Y. Ber. VI, 10ᵃ top <he>יכללו</he>, read: <he>יִבָּלֲלוּ</he>, v. <cite ref=\"B00880\"><he>בָּלַל</he></cite>.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִכְלִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to crown, finish, perfect</i>. Part. pass, <he>מוּכְלָל</he>. ",
+					"units": [
+						"<cite ref=\"Yoma 54b:1\">Yoma 54ᵇ</cite> (expl. <cite ref=\"M01396\"><he>מכלל</he></cite>, <cite ref=\"Psalms 50:2\">Ps. L, 2</cite>) <he>מציון מ׳ יופיו וכ׳</he> from Zion the beauty of the world was perfected (by religion). [<cite ref=\"Shir HaShirim Rabbah 5:11\">Cant. R. to V, 11</cite>, end <he>מוכללת</he>, read: <he>מוּבְלֶלֶת</he>, v. <cite ref=\"B00880\"><he>בָּלַל</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

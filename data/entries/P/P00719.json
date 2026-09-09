@@ -1,0 +1,26 @@
+{
+	"id": "P00719",
+	"slug": "עכבר-1",
+	"headword": {
+		"text": "עַכְבָּר"
+	},
+	"page": {
+		"number": 1078,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>mouse</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 9:6\">Ḥull. IX, 6</cite> <he>ע׳ שחציו בשר וכ׳</he> a mouse which is half flesh and half earth (it being believed that there is a species of mice developing from earth, v. Maim. a. l.). Ib. 126ᵇ <he>ע׳ שבים</he> sea-mouse (name of a fish). ",
+				"<cite ref=\"Horayot 13a:23\">Hor. 13ᵃ</cite> <he>האוכל ממה שע׳ אוכל וכ׳</he> he who eats what a mouse has been gnawing at, will lose his memory; a. fr.—Pl. <he>עַכְבָּרִים</he>, <cite ref=\"P00721\"><he>עַכְבָּרִין</he></cite>. ",
+				"<cite ref=\"Horayot 13a:23\">Ib.</cite> ",
+				"<cite ref=\"Shabbat 151b:9\">Sabb. 151ᵇ</cite>. ",
+				"<cite ref=\"Pesachim 10b:7\">Pes. 10ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

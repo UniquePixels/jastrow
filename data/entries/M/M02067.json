@@ -1,0 +1,32 @@
+{
+	"id": "M02067",
+	"slug": "מעדן-2",
+	"headword": {
+		"text": "מַעֲדֵן",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מַעֲדַנִּים"
+		},
+		{
+			"text": "מַעֲדַנִּין"
+		}
+	],
+	"page": {
+		"number": 813,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <cite ref=\"P00153\"><he>עָדַן</he></cite>)<i>dainties, sweets</i>; <he>מַעֲדַנֵּי עולם</he> the best things in the world. ",
+			"units": [
+				"<cite ref=\"Sotah 9a:2\">Sot. 9ᵃ</cite>; <cite ref=\"Sotah 15b:1\">15ᵇ</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 7:4\">Num. R. s. 7</cite> <he>כל מ׳ ע׳ טועמין במן</he> they found in the manna the taste of all the best things &c.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:1:17\">Y. Ber. VI, 10ᵇ</cite> top <he>בורא מיני מ׳</he> the Creator of various kinds of sweet things (fruits &c.). ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 6:1:17\">Ib.</cite> <he>על הארץ ועל מַעֲדַנֶּיהָ</he> for the land (Palestine) and its good things. ",
+				"<cite ref=\"Bereishit Rabbah 67:2\">Gen. R. s. 67</cite> <he>טעם כל מ׳ שבעולם</he> the taste of all good things in the world; <cite ref=\"Yalkut Shimoni on Torah 115:19\">Yalk. ib. 115</cite> <cite ref=\"M02180\"><he>מערכים</he></cite> (corr. acc.); a. fr."
+			]
+		}
+	]
+}

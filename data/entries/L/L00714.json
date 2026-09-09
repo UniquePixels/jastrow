@@ -1,0 +1,35 @@
+{
+	"id": "L00714",
+	"slug": "לתא",
+	"headword": {
+		"text": "לָתָא"
+	},
+	"page": {
+		"number": 720,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>לות</he>, denom. of <cite ref=\"L00327\"><he>לְוָת</he></cite>, <i>to join, attach</i>, v. P. Sm. 1920) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fellowship, company</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 29a:3\">Yeb. 29ᵃ</cite> <he>גזירה אחותה משום ל׳ דידה</he> they made her sister subject to <i>Ḥălitsah</i> (v. <cite ref=\"H01060\"><he>חֲלִיצָה</he></cite>) on account of her associate in the case (i.e. her sister)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>that which clings to a person, fate, luck</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 20b:3\">B. Mets. 20ᵇ</cite> <he>משום לְתָאִי דידי פקע</he> the cedar column burst in my luck (to avenge the wrong done me). ",
+				"<cite ref=\"Bava Metzia 106a:6\">Ib. 106ᵃ</cite> <he>משום לְתָאָךְ הוא</he> (<he>לָתָךְ דידך</he>) it happened in thy (bad) luck; <he>משום לתאי</he> in my bad luck."
+			],
+			"label": "2"
+		}
+	]
+}

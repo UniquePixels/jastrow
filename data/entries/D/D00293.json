@@ -1,0 +1,23 @@
+{
+	"id": "D00293",
+	"slug": "דון-2",
+	"headword": {
+		"text": "דּוֹן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 286,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"D00920\"><he>דַּנָּא</he></cite>) <i>keg, measure</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 90b\">B. Bath. 90ᵇ</cite> they called it <he>ד׳ פפא</he> (quot. Tosaf. to <cite ref=\"Yevamot 79a\">Yeb. 79ᵃ</cite> ed. <he>רוז</he>, Ms. M. <cite ref=\"T00459\"><he>רז</he></cite>, Ms. H. <cite ref=\"K00225\"><he>כּוּז</he></cite>) and they named it (the measure introduced by Papa) <he>ד׳ פפא</he> <i>Papa’s keg</i>"
+			]
+		}
+	]
+}

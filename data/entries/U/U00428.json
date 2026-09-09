@@ -1,0 +1,28 @@
+{
+	"id": "U00428",
+	"slug": "שוליא",
+	"headword": {
+		"text": "שְׁוַלְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁוַו׳"
+		}
+	],
+	"page": {
+		"number": 1534,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00416\"><he>שול</he></cite>, cmp. <cite ref=\"U01771\"><he>שפל</he></cite>, v. Barth Et. St. p. 31) <i>servant, apprentice</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 108a\">Pes. 108ᵃ</cite> <he>ש׳ דנגרי</he> (Ms. M. <cite ref=\"U00401\"><he>שְׁוִילְיָיא</he></cite>; Ar. <cite ref=\"U00428\"><he>שְׁוַו׳</he></cite>) carpenters’ apprentice; <cite ref=\"Makkot 8b:10\">Macc. 8ᵇ</cite>. ",
+				"<cite ref=\"Bava Kamma 32b:23\">B. Kam. 32ᵇ</cite> bot. <he>ש׳ דנפחי</he> (Ms. M. <cite ref=\"U00401\"><he>שויליא</he></cite>; Ms. R. <cite ref=\"U00024\"><he>שְׁוֵילָא</he></cite>) smiths’ apprentice.—[<cite ref=\"Shabbat 96b\">Sabb. 96ᵇ</cite> (in Hebr. dict.) <he>שַׁוְולֵיהֶן</he> Ar.; (Ms. M. <he>שַׁוְלֵיהֶם</he>, <he>שַׁוְלֵיהֶן</he>, Ms. O. <he>שַׁוְולֵיהֶן</he>, <he>שַׁוְולַיְהוּ</he>; v. Rabb. D. S. a. l. note; ed. <he>לשואליהן</he>) their apprentices, v. <cite ref=\"U00030\"><he>שָׁאַל</he></cite>.]"
+			]
+		}
+	]
+}

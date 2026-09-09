@@ -1,0 +1,33 @@
+{
+	"id": "V00007",
+	"slug": "תאב-4",
+	"headword": {
+		"text": "תָּאֵב"
+	},
+	"altHeadwords": [
+		{
+			"text": "תָּאֵיב"
+		}
+	],
+	"page": {
+		"number": 1641,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00004\"><he>תָּאַב</he></cite>) <i>desirous, longing for</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 9:1:7\">Y. Ned. IX, beg. 41ᵇ</cite> <he>אין היצר הרע ת׳ אלא וכ׳</he> the evil inclination has a desire only for what is forbidden; <cite ref=\"Jerusalem Talmud Yoma 6:4:5\">Y. Yoma VI, 43ᵈ</cite> top <cite ref=\"V00772\"><he>תָּעֵב</he></cite>. ",
+				"<cite ref=\"Tosefta Arakhin 4:26\">Tosef. Arakh. IV, 26</cite> <he>והוא ת׳ לו</he> (not <he>והלא</he>) while he has an appetite for it. Y. Ber. VII, 11ᵃ bot. <he>מה אם … שהוא ת׳ לאכול וכ׳</he> if man must bless God after he has eaten and is satisfied, how much more must he do so, when he is desirous to eat (and finds what he needs)!; (Bab. ",
+				"<cite ref=\"Berakhot 48b:5\">ib. 48ᵇ</cite> <he>כשהוא רעב</he>). ",
+				"<cite ref=\"Pesachim 99b:2\">Pes. 99ᵇ</cite> <he>כדי</he> … <he>כשהוא ת׳</he> Ar. a. Ms. M. 2 (v. Rabb. D. S. a. l. note 5; ed. <he>כשהוא תאוה</he>, read: <cite ref=\"V00012\"><he>תָּאֵו</he></cite>; Y. ib. X, beg. 37ᵇ <he>בתאוה</he>) that he may enter the Sabbath with an appetite (for food). ",
+				"<cite ref=\"Yevamot 15a:6\">Yeb. 15ᵃ</cite> <he>תָּאַבְנִי וכ׳</he> (marg. corr. <he>תאב אני</he>); <cite ref=\"Tosefta Yevamot 1:10\">Tosef. ib. I, 10</cite> <he>תָּאַיבְנִי</he> ed. Zuck. (Var. <he>ת׳ אני</he>) I wish that I had &c. Mekh. Mishp. s. 20 <he>עני ת׳</he> a poor man in great need, contrad. to <cite ref=\"D00797\"><he>דל</he></cite>; a. e.—Pl. <he>תְּאֵבִים</he>, <cite ref=\"V00027\"><he>תְּאֵי׳</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 1:6:10\">Y. Taan. I, end, 64ᵈ</cite> <he>תְּאֵיבֵי בנים</he> those who long to have children; (Bab. ",
+				"<cite ref=\"Taanit 11a:4\">ib. 11ᵃ</cite> <he>חסוכי בנים</he>)."
+			]
+		}
+	]
+}

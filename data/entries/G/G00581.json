@@ -1,0 +1,36 @@
+{
+	"id": "G00581",
+	"slug": "זניתא",
+	"headword": {
+		"text": "זַנְיְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְנֵיתָא"
+		},
+		{
+			"text": "זַנָּיָי׳"
+		}
+	],
+	"page": {
+		"number": 406,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"G00198\"><he>זוֹנָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joel 4:3\">Targ. Joel IV, 3</cite> (ed. Wil. <he>וַנְיָתָא</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 7:10\">Targ. Prov. VII, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 6:26\">Ib. VI, 26</cite>; a. e.—",
+				"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> <he>ברא דז׳</he> the son of the whore (heretic).—Pl. <cite ref=\"G00581\"><he>זַנְיָתָא</he></cite>, <cite ref=\"G00581\"><he>זַנְיָי׳</he></cite>, <cite ref=\"G00581\"><he>זְנָיָי׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 4:14\">Targ. Hos. IV, 14</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 29:3\">Targ. Prov. XXIX, 3</cite>, v. <cite ref=\"G00580\">preced.</cite> ",
+				"<cite ref=\"Jerusalem Talmud Taanit 1:4:6\">Y. Taan. I, 64ᵇ</cite> bot. <he>מיגר ז׳</he> hiring out prostitutes."
+			]
+		}
+	]
+}

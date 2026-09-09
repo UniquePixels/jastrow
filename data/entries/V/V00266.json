@@ -1,0 +1,31 @@
+{
+	"id": "V00266",
+	"slug": "תוקף",
+	"headword": {
+		"text": "תּוֹקֶף"
+	},
+	"altHeadwords": [
+		{
+			"text": "תֹּקֶף"
+		}
+	],
+	"page": {
+		"number": 1655,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"V00908\"><he>תּקַף</he></cite>)<i>strength, power</i>. Mekh. B’shall., s. 6 (ref. to <cite ref=\"Exodus 14:25\">Ex. XIV, 25</cite>) <he>אין איתנו אלא תָקְפוֹ</he> <i>ethans</i> means its strength. ",
+			"units": [
+				"<cite ref=\"Megillah 19a:12\">Meg. 19ᵃ</cite> (ref. to <cite ref=\"Esther 9:29\">Esth. IX, 29</cite>) <he>תָּקְפוֹ של אחשורוש</he> ‘the whole strength’ refers to the power of Ahasverus (as described in the first chapters of Esther); <he>תּוֹקְפוֹ של מרדכי</he> to the power of Mordecai (beginning with II, 5); <he>תוקפו של המן</he> to Haman’s power (beginning with III, 1); <he>תקפו של נס</he> the strength of the wonderful salvation (beginning with VI, 1). ",
+				"<cite ref=\"Bereishit Rabbah 16:1\">Gen. R. s. 16</cite>, beg. (ref. to <cite ref=\"Job 14:20\">Job XIV, 20</cite>) <he>ת׳ שנתן הקב״ה וכ׳</he> the power which God gave Adam was to be for ever. ",
+				"<cite ref=\"Bereishit Rabbah 100:7\">Gen. R. s. 100</cite> <he>כל תקפו של אבל וכ׳</he> the height of mourning is on the third day (after burial); <cite ref=\"Jerusalem Talmud Moed Katan 3:5:7\">Y. M. Kat. III, 82ᵇ</cite> bot. <he>אין תוקפו … עד שלשה ימים</he> the height of mourning lasts only three days; a. e.—",
+				"<cite ref=\"Sanhedrin 19b:21\">Snh. 19ᵇ</cite> <he>תוקפו של יוסף ענוותנותו וכ׳</he> that which was with Joseph an achievement of strength (self-control) was with Boaz a humble (plain) act. ",
+				"<cite ref=\"Sifrei Devarim 323:4\">Sifré Deut. 323</cite> (ref. to <cite ref=\"Deuteronomy 32:31\">Deut. XXXII, 31</cite>) <he>לא כת׳ שאתה וכ׳</he> the power which thou givest us is not like the power which thou givest them (the gentiles); <he>כשאתה ניתן להם את הת׳ וכ׳</he> when thou givest them the power, they deal with us with cruelty &c.; a. e."
+			]
+		}
+	]
+}

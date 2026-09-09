@@ -1,0 +1,44 @@
+{
+	"id": "V00744",
+	"slug": "תני-3",
+	"headword": {
+		"text": "תְּנֵי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1682,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>שנן</he>) <i>to be pointed, sharp</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תַּנֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to sharpen, to speak sharp words</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 140:4\">Targ. Ps. CXL, 4</cite> <he>מְתַנְּיָן בלישנ׳</he> (prob. to be read: <he>לישנ׳</he>; h. text <he>שננו לשונם</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְּנֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be sharpened</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 21:14\">Targ. Ez. XXI, 14</cite> (h. text <he>הוחדה</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

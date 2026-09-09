@@ -1,0 +1,22 @@
+{
+	"id": "F00091",
+	"slug": "ורדנא",
+	"headword": {
+		"text": "וַרְדָּנָא"
+	},
+	"page": {
+		"number": 375,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"F00084\"><he>וַרְדָּא</he></cite>), <he>בי וו׳</he> <i>flower-garden</i> (v. <cite ref=\"F00083\"><he>וֶרֶד</he> II</cite> pl.). ",
+			"units": [
+				"<cite ref=\"Bava Batra 69a:10\">B. Bath. 69ᵃ</cite> <he>והוא דקרו ליה בי וו׳ דפ׳</he> Ms. M. (ed. <he>לה וורדא</he>; oth. Mss. <he>וַורְדֵּי</he>, v. Rabb. D. S. a. l. note) provided it goes by the name of ‘the flower garden of that man.’"
+			]
+		}
+	]
+}

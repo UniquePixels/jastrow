@@ -1,0 +1,42 @@
+{
+	"id": "V00906",
+	"slug": "תקע-2",
+	"headword": {
+		"text": "תְּקַע"
+	},
+	"page": {
+		"number": 1693,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00905\">same</cite><i>to clap</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 47:2\">Targ. Ps. XLVII, 2</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to sound, blow</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 25:5\">Targ. I Chr. XXV, 5</cite>. ",
+				"<cite ref=\"Onkelos Numbers 10:3\">Targ. Num. X, 3</cite>, sq.; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְּקַע", "אִתְקַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be sounded</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 27:13\">Targ. Is. XXVII, 13</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

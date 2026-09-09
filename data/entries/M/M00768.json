@@ -1,0 +1,27 @@
+{
+	"id": "M00768",
+	"slug": "מזמור",
+	"headword": {
+		"text": "מִזְמוֹר"
+	},
+	"page": {
+		"number": 755,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00539\"><he>זָמַר</he></cite>)<i>song, psalm</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 10:5\">Lev. R. s. 10</cite> <he>המ׳ הזה אדם וכ׳</he> this psalm (<cite ref=\"Psalms 92\">Ps. XCII</cite>) was composed by Adam. ",
+				"<cite ref=\"Midrash Tehillim 4:1\">Midr. Till. to Ps. IV</cite>; a. fr.—Pl. <he>מִזְמוֹרוֹת</he>, <he>מִזְמוֹרִים</he>, <he>מִזְמוֹרִין</he>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:3:2\">Y. Ber. IV, 7ᵈ</cite> bot.; Y. Taan. II, 65ᶜ top <he>כנגד י״ח מ׳ וכ׳</he> corresponding to the eighteen psalms &c. Y. Sabb. XVI, 15ᶜ; <cite ref=\"Tractate Soferim 16:11\">Treat. Sof’rim ch. XVI, 11</cite> <he>מאה … מ׳</he> one hundred and forty seven psalms (<cite ref=\"Psalms 1\">Ps. I</cite> and II, IX and X, XLII and XLIII forming severally one psalm). ",
+				"<cite ref=\"Vayikra Rabbah 4:7\">Lev. R. s. 4</cite> <he>מאה ושנים מ׳ אמר וכ׳</he> (not <he>ועשרים</he>) one hundred and two psalms had David composed (up to <cite ref=\"Psalms 104\">Ps. CIV</cite>, counting <cite ref=\"Psalms 1\">Ps. I</cite> and II, <cite ref=\"Psalms 42\">Ps. XLII</cite> and XLIII severally one psalm, v. ",
+				"<cite ref=\"Berakhot 9b\">Ber. 9ᵇ</cite> bot., a. Var. in Ms. M. in Rabb. D. S. a. l., a. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 862:1\">Yalk. Ps. 862</cite>); a. fr."
+			]
+		}
+	]
+}

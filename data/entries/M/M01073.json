@@ -1,0 +1,45 @@
+{
+	"id": "M01073",
+	"slug": "מי-2",
+	"headword": {
+		"text": "מִי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 770,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " h. a. ch. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>who?; which?; he who</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 16b:22\">M. Kat. 16ᵇ</cite> <he>ראה מי קורא וכ׳</he> Ms. M. (ed. omit <cite ref=\"T00011\"><he>ראה</he></cite>) see who calls thee outside. ",
+				"<cite ref=\"Ketubot 64b:2\">Keth. 64ᵇ</cite> <he>מי שוכר את מי</he> which hires which?, i.e. which (of the two) hires and which is hired? <cite ref=\"Mishnah Bava Batra 9:1\">B. Bath. IX, 1</cite> <he>מי שמת וכ׳</he> he who (if one) died and left &c. ",
+				"<cite ref=\"Mishnah Bava Batra 6:7\">Ib. VI, 7</cite> <he>מי שהיתה דרך וכ׳</he> he through whose field there is a public passage. ",
+				"<cite ref=\"Mishnah Bava Batra 6:6\">Ib. 6</cite> <he>מי שיש לו גינה וכ׳</he> he who has a garden &c.; a. v. fr.—(Chald.) <cite ref=\"Avodah Zarah 41b:9\">Ab. Zar. 41ᵇ</cite> <he>מי יימר דבטליה</he> Ms. M. (ed. <he>דבטלה</he>) who can say (how do we know) that he cancelled it?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>who will?</i>,] <i>Oh that!</i> <cite ref=\"Mishnah Sotah 5:2\">Sot. V, 2</cite>, a. e. <he>מי יגלה וכ׳</he>, v. <cite ref=\"C00885\"><he>גָּלָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Pesachim 49b:7\">Pes. 49ᵇ</cite> <he>מי יתן לי ת״ח וכ׳</he> Oh that I had a scholar before me, and I would &c.; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " [<i>is there any?;</i> in gen. introducing a question:] <i>is there?, does he?</i> &c. ",
+			"units": [
+				"<cite ref=\"Shabbat 31a:3\">Sabb. 31ᵃ</cite> <he>מי כאן הלל</he> does Hillel live here? <cite ref=\"Chullin 33a:6\">Ḥull. 33ᵃ</cite> <he>מי איכא מידי וכ׳</he> is there anything which is permitted &c. ",
+				"<cite ref=\"Berakhot 34a:1\">Ber. 34ᵃ</cite> top, v. <cite ref=\"H00122\"><he>חַבְרוּתָא</he></cite>. ",
+				"<cite ref=\"Chullin 32b:14\">Ḥull. 32ᵇ</cite> <he>מהו מי מצטרף וכ׳</he> how is it? can the first cut be combined with the second to effect &c.? <cite ref=\"Nazir 32b:10\">Naz. 32ᵇ</cite> <he>אילו … מי הוה נדריתון</he> if one had come … would you have vowed? <cite ref=\"Nazir 32b:10\">Ib.</cite> <he>מי יודעין לאימתי</he> did they know when? <cite ref=\"Nazir 32b:6\">Ib.</cite> <he>מי ידעין בהי וכ׳</he> did they know on what day?—",
+				"<cite ref=\"Pesachim 14b:11\">Pes. 14ᵇ</cite>, a. fr. <he>מי דמי</he> (sub. <he>הא להא</he>) is there an analogy between the two cases?; v. <cite ref=\"D00892\"><he>דְּמֵי</he> I</cite>; a. v. fr."
+			],
+			"label": "3"
+		}
+	]
+}

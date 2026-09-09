@@ -1,0 +1,31 @@
+{
+	"id": "U01263",
+	"slug": "שלותא-1",
+	"headword": {
+		"text": "שָׁלוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁ׳"
+		},
+		{
+			"text": "שָׁלוּ"
+		}
+	],
+	"page": {
+		"number": 1579,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>שְׁלֵי</he> II) <i>neglect, error, forgetfulness</i> (corresp. to h. <cite ref=\"U00211\"><he>שְׁגָגָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 4:2\">Targ. Lev. IV, 2</cite> (Y. ed. Vien. <cite ref=\"U01253\"><he>שִׁלּוּ</he></cite>). Ib. V, 18. ",
+				"<cite ref=\"Onkelos Numbers 15:24\">Targ. Num. XV, 24</cite>, sq.; a. fr."
+			]
+		}
+	]
+}

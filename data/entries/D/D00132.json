@@ -1,0 +1,53 @@
+{
+	"id": "D00132",
+	"slug": "דדי-2",
+	"headword": {
+		"text": "דדי",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 281,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"D00131\"><he>דַּדֵּי</he></cite> ch. same. ",
+					"units": [
+						"<cite ref=\"Shabbat 128b:11\">Sabb. 128ᵇ</cite> <he>דַּדּוּיֵי מְדַרִּינָן</he> pull them we may, opp. <cite ref=\"P01214\"><he>עקר</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִידַּדֵּי"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"D00131\">preced.</cite> Hithpa. ",
+					"units": [
+						"<cite ref=\"Bava Batra 24a\">B. Bath. 24</cite> as <cite ref=\"D00131\">preced.</cite> Hithpa. ",
+						"<cite ref=\"Bava Batra 24a\">B. Bath. 24ᵃ</cite> <he>כל דמִידַּדֵּי וכ׳</he> any young bird which hops, will hop only within sight of its nest. ",
+						"<cite ref=\"Beitzah 11a:6\">Bets. 11ᵃ</cite> <he>אִידַּדּוּיֵי אִידַּדּוּ</he> they came hopping (from the nest). ",
+						"<cite ref=\"Shabbat 99b\">Sabb. 99ᵇ</cite> <he>דלא לִדַּדּוּ וכ׳</he> that the boards should not shake."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to move about</i>. Y. Kidd. III, 64ᵃ top <he>כיני אורחא דזבונה מִדַּדְיָיה</he> it is the habit of traders to travel from place to place.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

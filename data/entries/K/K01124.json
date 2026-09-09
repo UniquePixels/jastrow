@@ -1,0 +1,28 @@
+{
+	"id": "K01124",
+	"slug": "כרום-2",
+	"headword": {
+		"text": "כְּרוּם",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּרוּמָא"
+		}
+	],
+	"page": {
+		"number": 665,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K01123\">same</cite>, <i>color</i>, v. <cite ref=\"A01752\"><he>אִכְרוּם</he></cite>.—כ׳ יַמָּא <i>sea-green</i>, name of a <i>beryll</i> (aqua marina). ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:20\">Targ. Ex. XXVIII, 20</cite>; a. e.—*<he>עִינְבֵי דִכְ׳</he> [<i>green berries</i>,] <i>undeveloped grapes, worm-eaten grapes</i>. ",
+				"<cite ref=\"Bava Metzia 106b\">B. Mets. 106ᵇ</cite> <he>ע׳ דכדום</he> ed. a. Ar. (Ms. H. a. Rome 2, Alf. <he>דקרום</he>; v. Rabb. D. S. a. l. note 50). ",
+				"<cite ref=\"Nazir 34b\">Naz. 34ᵇ</cite> (<cite ref=\"Nazir 38b\">38ᵇ</cite>) <he>ע׳ דכרין</he> (Ar. <he>דכדום</he>, Rashi frequ. <he>ענבין דיכרין</he>), v. <cite ref=\"K01097\"><he>כְּרַהּ</he></cite>. ",
+				"<cite ref=\"Chullin 58b\">Ḥull. 58ᵇ</cite> top Var. <he>דכרים</he>."
+			]
+		}
+	]
+}

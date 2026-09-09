@@ -1,0 +1,23 @@
+{
+	"id": "K01110",
+	"slug": "כרוז-2",
+	"headword": {
+		"text": "כְּרוּז"
+	},
+	"page": {
+		"number": 664,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01135\"><he>כָּרַז</he></cite>) <i>public announcement</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 6:2\">Lev. R. s. 6</cite> <he>הוציא כ׳</he> he issued a proclamation. ",
+				"<cite ref=\"Mishnah Sanhedrin 6:1\">Snh. VI, 1</cite> (<cite ref=\"Sanhedrin 43a:20\">43ᵃ</cite>) <he>והכ׳ יוצא וכ׳</he> Ms. M. (ed. <he>וכ׳</he>) and it is cried out before him (the delinquent). Ib. 43ᵃ (missing in later ed.) <he>והכ׳ יוצא לפניו וכ׳</he> and forty days before his (Jesus’) execution, it was published &c.; a. fr."
+			]
+		}
+	]
+}

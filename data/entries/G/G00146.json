@@ -1,0 +1,33 @@
+{
+	"id": "G00146",
+	"slug": "זוז-2",
+	"headword": {
+		"text": "זוּז"
+	},
+	"page": {
+		"number": 385,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"G00145\">same</cite>.",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 14:44\">Targ. Y. Num. XIV, 44</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אָזֵיז"],
+			"senses": [
+				{
+					"gloss": "<i>to shake</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 38a:1\">Ḥull. 38ᵃ</cite> <he>אֲזוּזֵי אוני</he> the shaking of the ears (as a symptom of vitality)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

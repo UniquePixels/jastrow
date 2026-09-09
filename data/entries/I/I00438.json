@@ -1,0 +1,33 @@
+{
+	"id": "I00438",
+	"slug": "טירוניא-2",
+	"headword": {
+		"text": "טִירוּנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִירוּנְיָיא"
+		},
+		{
+			"text": "טִר׳"
+		}
+	],
+	"page": {
+		"number": 534,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (τυραννία) <i>sovereignty, absolute rule, usurpation</i> (corresp. to h. <cite ref=\"G00678\"><he>זְרוֹעַ</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 8:3:11\">Y. Yeb. VIII, 9ᵈ</cite> top; <cite ref=\"Jerusalem Talmud Kiddushin 4:4:2\">Y. Kidd. IV, 65ᵈ</cite> bot. <he>עיקר ט׳ וכ׳</he> the principal designation of their (the priests’) usurpation lies in the words (<cite ref=\"Hosea 4:4\">Hos. IV, 4</cite>). ",
+				"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite>; Pesik. Haḥod. p. 52ᵇ; <cite ref=\"Vayikra Rabbah 23\">Lev. R. s. 23</cite>, beg. (ref. to <he>בזרוע</he>, <cite ref=\"Psalms 77:16\">Ps. LXXVII, 16</cite>) <he>בטר׳</he> with imperial power. Y. Maas. Sh. V, end, 56ᵈ <he>אלו שהן באין בט׳ לפני וכ׳</he> those who come before the Lord with power (interch. with <he>בזרוע</he>). ",
+				"<cite ref=\"Avodah Zarah 3a:13\">Ab. Zar. 3ᵃ</cite> <he>אין הקב״ה בא בט׳ וכ׳</he> the Lord does not deal despotically with his creatures. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 945:13\">Yalk. Deut. 945</cite> <he>היה עולה אצל אביו בט׳</he> (Ruth R. introd. <he>במרוצה</he>) came to his father with arrogance."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "V00470",
+	"slug": "תינוק",
+	"headword": {
+		"text": "תִּינוֹק"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּנּ׳"
+		}
+	],
+	"page": {
+		"number": 1665,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00445\"><he>יָנַק</he></cite>) <i>child, boy</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 151b:9\">Sabb. 151ᵇ</cite>, a. e. <he>ת׳ בן יומו</he> a child not quite a day old. ",
+				"<cite ref=\"Sotah 47a:15\">Sot. 47ᵃ</cite>; <cite ref=\"Sanhedrin 107b:15\">Snh. 107ᵇ</cite> <he>יצר ת׳ ואשה תהא וכ׳</he> desire, child, and woman should be repelled with the left, and drawn near with the right hand. ",
+				"<cite ref=\"Yoma 82a:3\">Yoma 82ᵃ</cite> <he>בן שלש … בת׳</he> at thirteen we order full fast by Biblical law: this refers to a boy; a. fr.—Pl. <he>תִּינוֹקוֹת</he>, <he>תִּנּוֹ׳</he>. ",
+				"<cite ref=\"Mishnah Yoma 8:4\">Ib. VIII, 4</cite>, v. <cite ref=\"P00972\"><he>עָנָה</he> II</cite>. ",
+				"<cite ref=\"Shabbat 119b:8\">Sabb. 119ᵇ</cite>, a. fr. <he>ת׳ של בית רבן</he> school children; a. v. fr.—<i>Fem.</i> <he>תִּינוֹקֶת</he>, <cite ref=\"V00470\"><he>תִּנּ׳</he></cite> <i>girl</i>. ",
+				"<cite ref=\"Yoma 82a:3\">Yoma 82ᵃ</cite> <he>בן שתים … בת׳</he> at twelve we order full fast …: this refers to a girl (v. supra). ",
+				"<cite ref=\"Mishnah Niddah 10:1\">Nidd. X, 1</cite>; a. fr."
+			]
+		}
+	]
+}

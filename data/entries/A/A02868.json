@@ -1,0 +1,23 @@
+{
+	"id": "A02868",
+	"slug": "אצטלות",
+	"headword": {
+		"text": "אִצְטַלּוּת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 110,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00509\"><he>טלל</he></cite>, v. <cite ref=\"A02381\"><he>אִסְטַלִּית</he></cite>) <i>covering, lining of a shoe</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Batra 4:6\">Tosef. Kel. B. Bath. IV, 6</cite> <he>שניטל האונטלית שבו</he> ed. Zuck. (R. s. to <cite ref=\"Mishnah Kelim 26:4\">Kel. XXVI, 4</cite> <he>שניטלו האונטלים</he>; Var. ed. Zuck. <he>האצטלו׳</he>; ed. <he>האצטלוס</he>) read <he>שניטלה א׳</he> the lining of which is off.; v. <he>זרב</he>."
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "A02145",
+	"slug": "אנונא",
+	"headword": {
+		"text": "אַנּוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַנּוֹנָה"
+		}
+	],
+	"page": {
+		"number": 82,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (annona) prop. <i>annual produce</i>, hence <i>ration</i>, or <i>portions of provision granted to courtiers as salaries or pensions</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 47:4\">Gen. R. s. 47</cite> the king <he>מעלה לו א׳</he> raised an <i>annona</i> in his behalf, i.e. granted him a pension. ",
+				"<cite ref=\"Bereishit Rabbah 87\">Gen. R. s. 87</cite> <he>אני חותכת א׳ שלך</he> Ar. (ed. <cite ref=\"Q01901\"><he>פרנסה</he></cite>) I shall cut down (reduce) thy pension; a. fr.—Pl. <he>אַנּוֹנוֹת</he>, <he>אַנּוֹנִיּוֹת</he>. ",
+				"<cite ref=\"Shemot Rabbah 41:4\">Ex. R. s. 41</cite> <cite ref=\"A02146\"><he>אנונית</he></cite> (corr. acc.). ",
+				"<cite ref=\"Vayikra Rabbah 23:5\">Lev. R. s. 23</cite> <he>נגבין אונניות</he> (corr. acc.) annonæ are collected from them. ",
+				"<cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite> <he>אַנּוֹנִים</he> Ar. (ed. <cite ref=\"A02146\"><he>אַנּוֹנָס</he></cite> annonas, acc. pl., incorr. ed. <he>אנינוס</he>). [<cite ref=\"Shir HaShirim Rabbah 1:7\">Cant. R. to I, 7</cite> read <cite ref=\"A01075\"><he>אֲטוּנָס</he></cite>.] Cmp. <cite ref=\"A03198\"><he>אַרְנוֹן</he></cite>, <cite ref=\"A03199\"><he>אַרְנוֹנָא</he></cite>."
+			]
+		}
+	]
+}

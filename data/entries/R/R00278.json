@@ -1,0 +1,34 @@
+{
+	"id": "R00278",
+	"slug": "צחנה",
+	"headword": {
+		"text": "צַחֲנָה"
+	},
+	"page": {
+		"number": 1273,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>צחן</he>, cmp. <cite ref=\"R00272\"><he>צחח</he></cite> , <i>to glisten; be parched</i>; cmp. <cite ref=\"G00102\"><he>זָהַם</he></cite>, <i>to be filthy</i>) ",
+			"units": []
+		},
+		{
+			"gloss": "(b. h. <i>offensive smell,</i>) <i>offensive matter</i>. Pesik. Dibré, p. 111ᵃ <he>אדם אוכל צ׳ וכ׳</he> a man may eat decayed matter two or three times, but finally he will loathe it; Yalk. Lam. 998; (<cite ref=\"Yalkut Shimoni on Nach 932:1\">Yalk. Prov. 932</cite> <he>צואה</he>). ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 10:1\">Ter. X, 1</cite> <he>מתיר בצ׳ וכ׳</he> allows the use of onions of T’rumah in a decayed dish, because they are applied only to absorb the froth, Maim. (R. S., v. infra)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>mud-fish</i>,] <i>small fish preserved in brine</i>, similar to <cite ref=\"I00826\"><he>טָרִית</he></cite>. Ter. l. c. <he>מתיר בצ׳</he> allows the use of onions of T’rumah for boiling <i>tsaḥănah</i>, R. S.—",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 6:4\">Ned. VI, 4</cite> <he>הנודר מן הצ׳ אסור בטרית וכ׳</he> he who vows abstinence from <i>tsaḥănah</i>, is forbidden to partake of hashed <i>ṭarith</i>. Y. ib. 39ᵈ top <he>תמן … צ׳</he>, v. <cite ref=\"I00827\"><he>טָרִיתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

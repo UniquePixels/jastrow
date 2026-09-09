@@ -1,0 +1,42 @@
+{
+	"id": "V00349",
+	"slug": "תחבולה",
+	"headword": {
+		"text": "תַּחְבּוּלָה"
+	},
+	"page": {
+		"number": 1660,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"H00083\"><he>חָבַל</he></cite>) ; pl. <he>תַּחְבּוּלוֹת</he>",
+			"units": []
+		},
+		{
+			"gloss": "<i>band, council</i>, esp. <i>company of intriguers</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 18b:11\">Ab. Zar. 18ᵇ</cite> (ref. to <he>ובמושב לצים וכ׳</he>, <cite ref=\"Psalms 1:1\">Ps. I, 1</cite>) <he>שלא ישב בת׳</he> who never sat in bad company; <cite ref=\"Yalkut Shimoni on Nach 613:1\">Yalk. Ps. 613</cite>.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"H00068\"><he>חֲבִילָה</he></cite>) <i>bundles</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 42a:6\">Snh. 42ᵃ</cite> (ref. to <he>בתחבלות וכ׳</he>, <cite ref=\"Proverbs 24:6\">Prov. XXIV, 6</cite>) <he>במי אתה מוצא … חבילות חבילות של משנה</he> Ms. M. with whom wilt thou find the fight for the Law? With him in whose hand are bundles of laws of the Mishnah. ",
+				"<cite ref=\"Vayikra Rabbah 21:5\">Lev. R. s. 21</cite> (ref. to Prov. l. c.) <he>אם עשית חבילות של עבירות וכ׳</he> if thou hast done bundles of sins, undo them by bundles of good deeds."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. <he>רַב הַחֹבֵל</he>, <cite ref=\"Jonah 1:6\">Jon. I, 6</cite>) <i>steering</i>. ",
+			"units": [
+				"<cite ref=\"Jonah 1:6\">Ib.</cite>, a. e. <he>פתר קריא בקברניטא</he> referred that verse (Prov. l. c.) to a ship captain.]"
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "J00041",
+	"slug": "יבחוש",
+	"headword": {
+		"text": "יַבְחוּשׁ"
+	},
+	"page": {
+		"number": 560,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"B00486\"><he>בָּחַשׁ</he></cite>) a sort of <i>gnat, a</i> (<i>red</i>) <i>insect</i> found in liquids. Tosef. Yad. (T’bul Yom) II, 3 <he>י׳ שבריתו וכ׳</he> a <i>yabḥush</i> which originates in the water.—Pl. <he>יַבְחוּשִׁים</he>, <he>יַבְחוּשִׁין</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Terumot 7:11\">Tosef. Ter. VII, 11</cite>; <cite ref=\"Chullin 67a:14\">Ḥull. 67ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Niddah 3:2\">Nidd. III, 2</cite> <he>כמין י׳ אדומים</he> looking like a mass of red insects; <cite ref=\"Tosefta Niddah 4:2\">Tosef. ib. IV, 2</cite>. ",
+				"<cite ref=\"Zevachim 22a:11\">Zeb. 22ᵃ</cite>"
+			]
+		}
+	]
+}

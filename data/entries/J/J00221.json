@@ -1,0 +1,31 @@
+{
+	"id": "J00221",
+	"slug": "יועזר",
+	"headword": {
+		"text": "יוֹעֶזֶר"
+	},
+	"page": {
+		"number": 571,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": " pr. n. m. <i>Joezer</i>. Orlah II, 12 a disciple of Shammai’s school.—",
+			"units": [
+				"<cite ref=\"Pirkei Avot 1:4\">Ab. I, 4</cite>; a. fr., v. <cite ref=\"J00217\"><he>יוֹסֵי</he></cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of <i>a plant</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 14:3\">Sabb. XIV, 3</cite>, expl. Y. ib. 14ᶜ <he>פוליטריכין</he> <i>polytrichon, Maiden-hair</i>; Bab. ib. 109ᵇ <cite ref=\"Q00417\"><he>פותנק</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

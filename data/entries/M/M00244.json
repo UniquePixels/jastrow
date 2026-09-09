@@ -1,0 +1,35 @@
+{
+	"id": "M00244",
+	"slug": "מדברות",
+	"headword": {
+		"text": "מִדַּבְּרוֹת"
+	},
+	"page": {
+		"number": 731,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>דבר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>conduct, manners</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 3:18:1\">Koh. R. to III, 18</cite> (ref. to <he>דברת</he>, <cite ref=\"Kohelet Rabbah 3:18:1\">ib.</cite>) <he>מ׳ שהצדיקים מִדַּבְּרִים</he> the way the righteous conduct themselves."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (b. h.) <i>conversation, talk</i>. Ib. <he>מ׳ שהרשעים מדברים בהם</he> the conversations which the wicked hold. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 67b\">Snh. 67ᵇ</cite>, a. fr. <he>כלה מִדַּבְּרוֹתֶיךָ</he>, v. <cite ref=\"K00692\"><he>כָּלָה</he></cite>; <cite ref=\"Sanhedrin 38b:18\">ib. 38ᵇ</cite>, <he>כלך למדברותיך אצל וכ׳</he> Ms. M. (ed. <he>כלך אצל</he>); <cite ref=\"Chagigah 14a:6\">Ḥag. 14ᵃ</cite> <he>כלך מדברותיך אצל</he> = <he>כלה מד׳ ולך וכ׳</he>, v. <cite ref=\"K00750\"><he>כַּלֵּךְ</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

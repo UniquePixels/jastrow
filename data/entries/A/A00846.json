@@ -1,0 +1,24 @@
+{
+	"id": "A00846",
+	"slug": "אורא-2",
+	"headword": {
+		"text": "אוּרָא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"page": {
+		"number": 32,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(h. <cite ref=\"P00345\"><he>עוֹר</he></cite>)<i>skin</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 3:2:3\">Y. Ned. III beg. 37ᵈ</cite> <cite ref=\"A00877\"><he>אוּרֵיה</he></cite> (read <he>אוּדְרֵיה</he>?, v. <cite ref=\"A00445\"><he>אֵדֶר</he> I</cite>); v. however <cite ref=\"Jerusalem Talmud Shevuot 3:7:4\">Y. Shebu. III, 34ᵈ</cite>"
+			]
+		}
+	]
+}

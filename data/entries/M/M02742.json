@@ -1,0 +1,27 @@
+{
+	"id": "M02742",
+	"slug": "מרעלא",
+	"headword": {
+		"text": "מַרְעֵלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַרְעֵי׳"
+		}
+	],
+	"page": {
+		"number": 845,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00906\"><he>רְעֵל</he></cite>) <i>long pouch thrown over an animal’s back, haversack</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 25\">Lev. R. s. 25</cite>; <cite ref=\"Kohelet Rabbah 2:20\">Koh. R. to II, 20</cite>."
+			]
+		}
+	]
+}

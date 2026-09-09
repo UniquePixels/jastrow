@@ -1,0 +1,35 @@
+{
+	"id": "R00409",
+	"slug": "ציפונא",
+	"headword": {
+		"text": "צִיפּוּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִיפ׳"
+		},
+		{
+			"text": "צִפּ׳"
+		}
+	],
+	"page": {
+		"number": 1278,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"R00676\"><he>צָפוֹן</he></cite>, <i>north</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 26:20\">Targ. Ex. XXVI, 20</cite> (ed. Berl. <cite ref=\"R00681\"><he>צִיפּ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 14:13\">Targ. Is. XIV, 13</cite> (ed. Wil. <cite ref=\"R00409\"><he>צִפּ׳</he></cite>); a. fr.—",
+				"<cite ref=\"Yoma 32b:12\">Yoma 32ᵇ</cite> (transl. ",
+				"<cite ref=\"Jeremiah 46:20\">Jer. XLVI, 20</cite>) <he>עממין קטולין מצ׳ וכ׳</he> murderous peoples from the north &c. (see Targ.). ",
+				"<cite ref=\"Jerusalem Talmud Taanit 2:1:10\">Y. Taan. II, 65ᵇ</cite> top <cite ref=\"R00678\"><he>צִפּוּנָה</he></cite>, v. <cite ref=\"J00545\"><he>יְצֵף</he></cite>. ",
+				"<cite ref=\"Bava Batra 25b\">B. Bath. 25ᵇ</cite> <he>לצ׳ דארעא וכ׳</he> Ms. M. (ed. <he>בצפונה דארץ וכ׳</he>, <he>לצ׳</he>) north of Palestine."
+			]
+		}
+	]
+}

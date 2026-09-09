@@ -1,0 +1,32 @@
+{
+	"id": "H00408",
+	"slug": "חוס-1",
+	"headword": {
+		"text": "חוּס"
+	},
+	"page": {
+		"number": 436,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>to bend over, have affection for</i> (v. ",
+			"units": [
+				"<cite ref=\"Jonah 4:10\">Jon. IV, 10</cite>),] <i>to protect, spare, have consideration for</i> (with <he>על</he>). ",
+				"<cite ref=\"Mishnah Negaim 12:5\">Neg. XII, 5</cite> <he>אם כך חָסָה התורה וכ׳</he> if the Law has such consideration for man’s property of small value &c. ",
+				"<cite ref=\"Sotah 14a:15\">Sot. 14ᵃ</cite> <he>אם ככה ח׳ וכ׳</he> if the Law made such considerate provision for those transgressing &c. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 4:14:2\">Y. Keth. IV, end, 29ᵇ</cite> <he>חָסוּ על כבודן וכ׳</he> cared more for their honour than &c.; a. v. fr.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be connected, related</i>.—Denom. <cite ref=\"H00740\"><he>חַיִיס</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

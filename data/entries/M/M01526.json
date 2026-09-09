@@ -1,0 +1,28 @@
+{
+	"id": "M01526",
+	"slug": "מלחא-1",
+	"headword": {
+		"text": "מַלָּחָא"
+	},
+	"page": {
+		"number": 789,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.  <cite ref=\"M01525\">same</cite>.—Pl. <he>מַלָּחֵי</he>. ",
+			"units": [
+				"<cite ref=\"Gittin 73a:16\">Gitt. 73ᵃ</cite>, v. <cite ref=\"A00338\"><he>אֲגַר</he> II</cite>. ",
+				"<cite ref=\"Taanit 24b:5\">Taan. 24ᵇ</cite> <he>חזאי מלאכי דאידמו למ׳ וכ׳</he> (differ. vers. in Ms. M.; v. Rabb. D. S. a. l. note) I saw angels disguised as boatmen who brought sand and loaded the ships."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>dealer in sailors’ outfits</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 4:7:2\">Y. B. Mets. IV, end, 9ᵈ</cite>, v. <cite ref=\"O01539\"><he>סַרְדּוּתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

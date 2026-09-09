@@ -1,0 +1,37 @@
+{
+	"id": "K00691",
+	"slug": "כלה-2",
+	"headword": {
+		"text": "כַּלָּה"
+	},
+	"page": {
+		"number": 639,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"K00758\"><he>כָּלַל</he></cite>) [<i>crown, ornament</i>, v. ",
+			"units": [
+				"<cite ref=\"Isaiah 49:18\">Is. XLIX, 18</cite>,] (sub. <he>בעלת</he> or <cite ref=\"B01377\"><he>בת</he></cite>, cmp. <cite ref=\"A01642\"><he>אִיתּוּ</he></cite>, <he>חוֹרִים</he> a. <he>בֶּן חוֹרִים</he>) <i>bride; daughter-in-law</i>. ",
+				"<cite ref=\"Mishnah Yevamot 1:1\">Yeb. I, 1</cite> <he>וכַלָּתוֹ</he> and his (deceased) son’s wife. ",
+				"<cite ref=\"Mishnah Sotah 9:14\">Sot. IX, 14</cite> <he>שתצא הב׳ וכ׳</he> that the bride on her wedding day may be taken around in procession, v. <cite ref=\"A02817\"><he>אַפִּרְיוֹן</he></cite>. ",
+				"<cite ref=\"Ketubot 71b\">Keth. 71ᵇ</cite>; <cite ref=\"Pesachim 87a:13\">Pes. 87ᵃ</cite> <he>ככ׳ שנמצאת וכ׳</he> like a bride (daughter-in-law) found perfect in the house of her father-in-law. ",
+				"<cite ref=\"Pesachim 87a:1\">Ib.</cite> <he>כ׳ בבית אביה</he> a bride in her father’s house (not yet taken to her husband’s paternal house). ",
+				"<cite ref=\"Shemot Rabbah 41:5\">Ex. R. s. 41</cite> (play on <he>ככלתו</he>, <cite ref=\"Exodus 31:18\">Ex. XXXI, 18</cite>, cmp. <cite ref=\"K00759\"><he>כְּלַל</he></cite> <i>Pa.</i>) <he>מה כ׳ זו מקושטת וכ׳</he> as the bride is adorned &c.; a. fr. [Tanḥ. Ki Thissa 18 <he>כ׳ נופי</he>, read with ed. Bub. ib. 9 <he>קלי נינפי</he>.]—Pl. <he>כַּלּוֹת</he>. Sot. l. c. <he>עטרות כ׳</he> (Talm. ed. <i>sing.</i>) the bridal wreaths. Ib. 49ᵇ; a. fr "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>general assembly</i>, esp. <i>Kallah, the assembly of Babylonian students in the months of Elul and Adar</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 8b:3\">Ber. 8ᵇ</cite> <he>פרשייתא דכ׳</he> Ar. (Ms. Paris <he>דכַלָּא</he>, v. Rabb. D. S., Vol. I, p. 384; ed. <he>דכולא שתא</he>) the weekly Scripture lessons of the Kallah weeks (during which R. Bibi could not find time to peruse the section of each week). Ib. 6ᵃ, v. <cite ref=\"D00231\"><he>דּוּחֲקָא</he></cite>. Ib. 57ᵃ <he>ראש לבני כ׳</he>; <cite ref=\"Bava Batra 22a:10\">B. Bath. 22ᵃ</cite> <he>ריש כ׳</he> the president of the Kallah.—Pl. (of <cite ref=\"K00716\"><he>כַּלָּא</he></cite>) <cite ref=\"K00716\"><he>כַּלֵּי</he></cite>. ",
+				"<cite ref=\"Chullin 49a:20\">Ḥull. 49ᵃ</cite> <he>רישי כ׳</he>.—<he>מסכת כלה</he>, <he>מסכתא דכ׳</he> a (small) treatise of the Talmud named <i>Kallah</i> (from its first word). ",
+				"<cite ref=\"Shabbat 114a:7\">Sabb. 114ᵃ</cite>; <cite ref=\"Kiddushin 49b:2\">Kidd. 49ᵇ</cite>; <cite ref=\"Taanit 10b:2\">Taan. 10ᵇ</cite>; [oth. opin.: a subject which has been discussed in the general assembly]."
+			],
+			"label": "2"
+		}
+	]
+}

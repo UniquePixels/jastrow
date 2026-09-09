@@ -1,0 +1,27 @@
+{
+	"id": "S00336",
+	"slug": "קוליא-1",
+	"headword": {
+		"text": "קוּלְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוֹ׳"
+		}
+	],
+	"page": {
+		"number": 1328,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קְלֵי</he> II) <i>parched grain; flour made of parched grain</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:17\">Targ. Ez. XXVII, 17</cite> (Ar. <cite ref=\"S00327\"><he>קִילְ׳</he></cite>; ed. Ven. I <cite ref=\"S00961\"><he>קִילּוּיָא</he></cite>; some ed. <cite ref=\"S00336\"><he>קוּלַיָּא</he></cite> pl.; ed. Lag. <cite ref=\"S01262\"><he>קלוויא</he></cite>; h. text <he>פגן</he>).—v. <cite ref=\"S01320\"><he>קֳלִי</he></cite>."
+			]
+		}
+	]
+}

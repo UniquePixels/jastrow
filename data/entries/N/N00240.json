@@ -1,0 +1,36 @@
+{
+	"id": "N00240",
+	"slug": "נדר-2",
+	"headword": {
+		"text": "נְדַר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 879,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"N00239\">same</cite> <cite ref=\"Onkelos Numbers 30:3\">Targ. Num. XXX, 3</cite>; a. fr.—",
+			"units": [
+				"<cite ref=\"Nedarim 22a:2\">Ned. 22ᵃ</cite> <he>אילו הוה ידעת … מי נַדְרַת</he> if thou hadst known …, wouldst thou have vowed? <cite ref=\"Nedarim 22b:9\">Ib. 22ᵇ</cite> <he>נדרת אדעת דהכי</he> wouldst thou have made the vow, if thou hadst known this. ",
+				"<cite ref=\"Nedarim 22b:10\">Ib.</cite> <he>לא נַדְרִי</he> I should not have vowed. ",
+				"<cite ref=\"Nedarim 9a:2\">Ib. 9ᵃ</cite> <he>לא נְדרְנָא</he> I will not vow; a. v. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַדּר"],
+			"senses": [
+				{
+					"gloss": " as <cite ref=\"N00239\">preced.</cite> <i>Hif.</i> Ib. 21ᵇ <he>דאַדַּרְתָּהּ לברתה</he> who forbade her daughter all benefits from her. Ib. 24ᵃ <he>אַדְּרֵיה מזמנא וכ׳</he> the host urged the guest with a vow; <he>אדריה זמינא וכ׳</he> the guest caused the host to invite him with a vow. Ib. 22ᵃ <he>מי אדרתה</he> wouldst thou have forbidden her? <cite ref=\"Gittin 36a:3\">Gitt. 36ᵃ</cite> <he>דאַדְּרֵיה ר׳ אחא</he> whom R. A. forbade to teach. ",
+					"units": [
+						"<cite ref=\"Ketubot 70b:4\">Keth. 70ᵇ</cite> <he>אַדַּרְתָּן</he> thou hast put me under restrictions; a fr."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

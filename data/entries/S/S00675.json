@@ -1,0 +1,27 @@
+{
+	"id": "S00675",
+	"slug": "קושש",
+	"headword": {
+		"text": "קוֹשֵׁשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּית קוֹשֵׁשׁ"
+		}
+	],
+	"page": {
+		"number": 1345,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.(?) <i>Beth Ḳoshesh</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yevamot 1:6:4\">Y. Yeb. I, 3ᵃ</cite> bot., v. <cite ref=\"M02405\"><he>מְקוֹשֵׁשׁ</he> II</cite>."
+			]
+		}
+	]
+}

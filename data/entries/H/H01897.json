@@ -1,0 +1,46 @@
+{
+	"id": "H01897",
+	"slug": "חתך-2",
+	"headword": {
+		"text": "חֲתַךְ"
+	},
+	"page": {
+		"number": 513,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01896\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>חַתֵּיךְ</he> <i>to cut off</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 11a:7\">Ḥull. 11ᵃ</cite> <he>ח׳ ליה לגמרי</he> he severed it entirely, v. <cite ref=\"L00303\"><he>לוּף</he></cite>.—<i>Part. pass.</i> <he>מְחַתַּךְ</he> <i>in pieces</i>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 7:30\">Targ. Y. Lev. VII, 30</cite> (ed. Amst. <he>מַחְתַּךְ</he>, incorr.). ",
+						"<cite ref=\"Targum Jonathan on Numbers 12:12\">Targ. Y. I Num. XII, 12</cite> <he>כד מח׳</he> (not <he>מְחַתֵּיךְ</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְחַתַּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut, to be decided</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 4:5\">Targ. Esth. IV, 5</cite> (v. ",
+						"<cite ref=\"Megillah 15a\">Meg. 15ᵃ</cite>, quot. in <cite ref=\"H01896\">preced.</cite>)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

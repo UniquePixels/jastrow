@@ -1,0 +1,26 @@
+{
+	"id": "S00089",
+	"slug": "קבעא",
+	"headword": {
+		"text": "קִבְעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִי׳"
+		}
+	],
+	"page": {
+		"number": 1312,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00088\">same</cite>, <i>appointment, fixed time</i> or <i>place</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 101b:5\">Pes. 101ᵇ</cite> <he>לק׳ קמא הדר</he> (some ed. <he>לקִיבְעֵיה</he>) he goes back (refers in his mind) to his first appointed place for the meal. ",
+				"<cite ref=\"Zevachim 7b:1\">Zeb. 7ᵇ</cite> top <he>מק׳ לא מכפרא וכ׳</he> a dedicated sin-offering does not effect pardon (for a sin of commission) directly by its dedication, but only by implication (when going along with a sin of omission). ",
+				"<cite ref=\"Zevachim 6a:7\">Ib. 6ᵃ</cite> <he>מק׳ לא מכפרא וכ׳</he> it (the designated meal offering left to heirs) has its pardoning effect not through appointment (as if the heirs had a share in it) but merely by implication, v. <cite ref=\"S00055\"><he>קְבִיעוּתָא</he></cite>."
+			]
+		}
+	]
+}

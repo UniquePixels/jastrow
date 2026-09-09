@@ -1,0 +1,24 @@
+{
+	"id": "O01360",
+	"slug": "ספינה",
+	"headword": {
+		"text": "סְפִינָה"
+	},
+	"page": {
+		"number": 1013,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.;v. <cite ref=\"O01386\"><he>סָפַן</he></cite>2) [<i>storage</i>,] <i>freight-ship</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Taanit 3:7\">Taan. III, 7</cite>, v. <cite ref=\"I00859\"><he>טָרַף</he></cite>. ",
+				"<cite ref=\"Bava Batra 91b:1\">B. Bath. 91ᵇ</cite> top (on the death of Abraham) <he>אוי לה לס׳ וכ׳</he> woe to the ship whose captain is gone; a. fr.—Pl. <he>סְפִינוֹת</he>. ",
+				"<cite ref=\"Shemot Rabbah 17:5\">Ex. R. s. 17</cite>, end <he>ס׳ של פירטין</he> pirate ships; a. e."
+			]
+		}
+	]
+}

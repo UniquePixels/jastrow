@@ -1,0 +1,34 @@
+{
+	"id": "I00496",
+	"slug": "טליו",
+	"headword": {
+		"text": "טַלְיוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "טַלְיוּת"
+		},
+		{
+			"text": "טַלְיוּתָא"
+		}
+	],
+	"page": {
+		"number": 537,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00495\">preced.</cite>) <i>childhood, youth</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 88:16\">Targ. Ps. LXXXVIII, 16</cite> <he>טליו</he> Ms. (Levita <he>טליותא</he>, ed. <he>טליא</he>, incorr.). ",
+				"<cite ref=\"Aramaic Targum to Job 36:14\">Targ. Job XXXVI, 14</cite>; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 18:1\">Lev. R. s. 18</cite>, beg. ",
+				"<cite ref=\"Midrash Tehillim 9:4\">Midr. Till. to Ps. IX</cite> <he>מן ט׳ עד וכ׳</he> from childhood to old age.—",
+				"<cite ref=\"Eichah Rabbah 1:57\">Lam. R. to I, 16</cite> <i>young woman</i>, v. <cite ref=\"I00506\"><he>טַלְיְתָא</he></cite>."
+			]
+		}
+	]
+}

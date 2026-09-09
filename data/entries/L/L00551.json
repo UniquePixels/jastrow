@@ -1,0 +1,43 @@
+{
+	"id": "L00551",
+	"slug": "לכלוך",
+	"headword": {
+		"text": "לִכְלוּךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִיכְ׳"
+		}
+	],
+	"page": {
+		"number": 711,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00553\"><he>לִכְלֵךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (= <cite ref=\"L00356\"><he>לִחְלוּחַ</he></cite>) <i>making palatable by moistening</i>, as dipping into vinegar &c. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 8:2:11\">Y. Ber. VIII, 12ᵃ</cite> bot. <he>כל דבר שיש בו ל׳ משקה</he> any food which is likely to be moistened with a liquid. ",
+				"<cite ref=\"Ruth Rabbah 5:6\">Ruth R. to II, 14</cite> (ref. to <he>וטבלת וכ׳</he> <cite ref=\"Ruth Rabbah 5:6\">ib.</cite>) <he>זה ל׳ מעשים</he> this is symbolical of the seasoning of (Solomon’s) deeds, i.e. of his amending his deeds, v. <cite ref=\"L00553\"><he>לִכְלֵךְ</he></cite>.—[Pesik. Eth. Korb., p. 58ᵃ, a. e., v. <cite ref=\"L00360\"><he>לִחְלוּךְ</he></cite>.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>soiling, staining</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 23\">Midr. Till. to Ps. XXIII</cite>; <cite ref=\"Yalkut Shimoni on Torah 808:1\">Yalk. Deut. 808</cite> (play on <he>לכתך</he> <cite ref=\"Deuteronomy 2:7\">Deut. II, 7</cite>) <he>הילוכך לִכְלוּכְךָ וכ׳</he> thy travels, thy getting soiled and thy pains about thy support.—Pl. <he>לִכְלוּכִין</he>, <cite ref=\"L00551\"><he>לִיכְ׳</he></cite>. ",
+				"<cite ref=\"Mishnah Mikvaot 9:4\">Mikv. IX, 4</cite>; <cite ref=\"Tosefta Mikvaot 6:17\">Tosef. ib. VI, 17</cite> <he>לִכְלוּכֵי צואה</he> the (moist) stains of excrements. ",
+				"<cite ref=\"Tosefta Mikvaot 6:9\">Ib. 9</cite> <he>ל׳ פירות</he> ed. Zuck. (ed. <he>לכולם</he>, corr. acc.) stains of fruit-juice. ",
+				"<cite ref=\"Tosefta Mikvaot 6:18\">Ib. 18</cite> <he>ל׳ שמרים שבכיס</he> the muddy sediments in the cup."
+			],
+			"label": "2"
+		}
+	]
+}

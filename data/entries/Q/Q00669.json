@@ -1,0 +1,30 @@
+{
+	"id": "Q00669",
+	"slug": "פילגוס",
+	"headword": {
+		"text": "פִּילָגוֹס"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּילְגוֹס"
+		}
+	],
+	"page": {
+		"number": 1163,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (πέλαγος) <i>high sea</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 46:3\">Targ. Ps. XLVI, 3</cite> <he>פ׳ דימא</he> (ed. Wil. <cite ref=\"Q00944\"><he>פַּלְגוּס</he></cite>; h. text <he>לב ים</he>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 15:8\">Targ. Y. Ex. XV, 8</cite>.—",
+				"<cite ref=\"Vayikra Rabbah 12\">Lev. R. s. 12</cite>, beg. <he>בפ׳ דימא</he>, v. <cite ref=\"A01310\"><he>אִילְפָא</he> I</cite>; <cite ref=\"Esther Rabbah 5:2\">Esth. R. to II, 1</cite> <he>(ר׳ עזריה</he>); <cite ref=\"Yalkut Shimoni on Nach 960:35\">Yalk. Prov. 960</cite> <he>בפ׳</he> (without <he>ימא</he>). ",
+				"<cite ref=\"Kohelet Rabbah 3:6\">Koh. R. to III, 6</cite> [read:] <he>כד עללין אנן לפ׳ אנן וכ׳</he> when we get out on the high sea, we shall kill him."
+			]
+		}
+	]
+}

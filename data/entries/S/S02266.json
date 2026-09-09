@@ -1,0 +1,35 @@
+{
+	"id": "S02266",
+	"slug": "קשש-1",
+	"headword": {
+		"text": "קָשַׁשׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1433,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (or <cite ref=\"S00660\"><he>קוּשׁ</he></cite>) (b. h.; <i>to join closely; to collect</i> (v. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Zephaniah 2:1\">Targ. Zeph. II, 1</cite>), esp. <i>to gather wood, rubbish</i> &c. ",
+				"<cite ref=\"Bereishit Rabbah 44\">Gen. R. s. 44</cite> <he>כמה … שׁיָקוֹשּׁוּ אותה עכשיו שקָשַׁשְׁתָּה וכ׳</he> how many working men should I have needed to gather it! Now that thou hast done it, come and receive thy reward; <cite ref=\"Yalkut Shimoni on Nach 313\">Yalk. Is. 313</cite> <he>שׁיְקוֹשְׁשׁוּ</he>; <cite ref=\"Yalkut Shimoni on Torah 76:8\">Yalk. Gen. 76</cite> <he>שׁיְקַשְׁקְשׁוּ … שׁקִישְׁקשְׁתָּ</he>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קיֹשֵׁשׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S02265\">same</cite>. Y. Snh. V, 22ᵈ top <he>מְקוֹשֵׁשׁ משום וכ׳</he> of which crime was the gatherer of sticks (<cite ref=\"Numbers 15:32\">Num. XV, 32</cite>) found guilty? of plucking, or of harvesting?; <cite ref=\"Shabbat 96b\">Sabb. 96ᵇ</cite>; <cite ref=\"Sifrei Bamidbar 113\">Sifré Num. 113</cite>. ",
+					"units": [
+						"<cite ref=\"Sifrei Bamidbar 113:1\">Ib.</cite> <he>ומצאו אותו מק׳ וכ׳</he> they found him gathering &c."
+					]
+				}
+			],
+			"stem": "Polel."
+		}
+	]
+}

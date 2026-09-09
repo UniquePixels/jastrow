@@ -1,0 +1,22 @@
+{
+	"id": "I00143",
+	"slug": "טוחן",
+	"headword": {
+		"text": "טוֹחֵן"
+	},
+	"page": {
+		"number": 523,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00270\"><he>טָחַן</he></cite>) <i>miller</i>.—Pl. <he>טוֹחֲנִים</he>. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Exodus 19\">Mishp. 19</cite> <he>כגון חמורים של ט׳</he> like the mask over the faces of the millers’ asses."
+			]
+		}
+	]
+}

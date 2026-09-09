@@ -1,0 +1,56 @@
+{
+	"id": "Q00174",
+	"slug": "פוח-1",
+	"headword": {
+		"text": "פּוּחַ"
+	},
+	"page": {
+		"number": 1140,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to blow, blow up</i>; <he>פ׳ נפש</he> <i>to blow the soul out, to dishearten</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 20:20\">Num. R. s. 20</cite> <he>מה אני הולך אצלו לָפוּחַ את נפשו</he> why should I go to him (Balak) to dishearten him?; Tanḥ. Balak 13.—[<cite ref=\"Jerusalem Talmud Terumot 8:3:30\">Y. Ter. VIII, 46ᵃ</cite> top <he>שתפוח הכרית</he>, read: <he>שתפרח</he>, v. <cite ref=\"K01178\"><he>כְּרִית</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵפִיחַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q00173\">same</cite>, esp. <i>to break wind</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 49a\">Sabb. 49ᵃ</cite>; <cite ref=\"Shabbat 130a:15\">130ᵃ</cite> <he>שלא יָפִיחַ בהן</he> that he will not desecrate the T’fillin by passing winds. ",
+						"<cite ref=\"Avodah Zarah 17a\">Ab. Zar. 17ᵃ</cite> <he>חֵפִיחָה</he> she broke &c.; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to stir up</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 3:2\">Midr. Till. to Ps. III</cite> <he>אל תָּפִיחוּ את הישן</he> do not stir up that which slumbers (do not disturb the accepted order of the psalms); <cite ref=\"Yalkut Shimoni on Nach 624\">Yalk. ib. 624</cite> (not <he>תפיחי</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["פִּיֵּיחַ"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"Q00611\"><he>פִּיחַ</he></cite>) [<i>to use powdered colors</i>,] <i>to paint</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 60b:8\">B. Bath. 60ᵇ</cite> <he>ואין מְפַיְּיחִין</he>, v. <cite ref=\"K00617\"><he>כִּיר</he></cite>; <cite ref=\"Tosefta Bava Batra 2:17\">Tosef. ib. II, 17</cite>.—Part. pass. <he>מְפוּיָּיח</he>; f. <he>מְפוּיֶּיחֶת</he>. ",
+						"<cite ref=\"Tosefta Bava Batra 2:17\">Ib.</cite> ",
+						"<cite ref=\"Tosefta Terumot 7:16\">Tosef. Ter. VII, 16</cite> <he>מפויה</he> ed. Zuck. (Var. <he>מפויית</he>; <he>מצויר</he>) read <he>מְפוּיָּח</he> or <he>מְפוּיָּיח</he>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

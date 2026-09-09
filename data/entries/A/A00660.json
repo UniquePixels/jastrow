@@ -1,0 +1,23 @@
+{
+	"id": "A00660",
+	"slug": "אולד",
+	"headword": {
+		"text": "אוֹלָד",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 25,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ולד</he>, <he>ילד</he>) <i>a tool for hollowing out and cutting the writing reed</i> (scalprum), a sort of <i>pen-knife</i>. Tosef. Kel. B. Bath. end. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 12:8\">Kel. XII, 8</cite> <cite ref=\"A00682\"><he>אולר</he></cite> (corr. acc.; v. Ar. ed. Koh. s. v.)."
+			]
+		}
+	]
+}

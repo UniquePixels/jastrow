@@ -1,0 +1,43 @@
+{
+	"id": "K00786",
+	"slug": "כמא",
+	"headword": {
+		"text": "כְּמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּמָה"
+		}
+	],
+	"page": {
+		"number": 645,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"K00002\"><he>כְּ־</he></cite> a. <cite ref=\"M00003\"><he>מָא</he></cite>)",
+			"units": []
+		},
+		{
+			"gloss": " (followed by <he>ד־</he>) <i>like that which</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 11:39\">Targ. Jud. XI, 39</cite> a. fr. [Usu.: <cite ref=\"E00384\"><he>הֵיךְ מָא</he></cite>, <cite ref=\"E00384\"><he>הֵיכְמָא</he></cite>.]— "
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (mostly <he>כמה</he>) <i>how! how many!, how much!, how long!</i>; (also interrog.) <i>how much?</i> &c. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 139:17\">Targ. Ps. CXXXIX, 17</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 35:17\">Ib. XXXV, 17</cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 6:7\">Gen. R. s. 6</cite> <he>כ׳ נפשיה וכ׳</he> how the soul of this man’s (my) brother is now chopping cedars and sawing &c. (is in the agony of death)! (Midr. Sam. ch. IX; <cite ref=\"Yalkut Shimoni on Nach 743\">Yalk. Ps. 743</cite>, only <he>נפשיה וכ׳</he>). ",
+				"<cite ref=\"Yoma 22b:10\">Yoma 22ᵇ</cite>, v. <cite ref=\"H01029\"><he>חֲלִי</he></cite>. ",
+				"<cite ref=\"Berakhot 14b:4\">Ber. 14ᵇ</cite> <he>כ׳ מעליא וכ׳</he> how excellent &c. ",
+				"<cite ref=\"Bava Metzia 86a:12\">B. Mets. 86ᵃ</cite> <he>כ׳ ככרין וכ׳</he> how many cakes of nardus do we owe to &c.!—",
+				"<cite ref=\"Moed Katan 16b:24\">M. Kat. 16ᵇ</cite> <he>כל כ׳ דהוה וכ׳</he> as long as &c.; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:2:13\">Y. Ab. Zar. II, 41ᵃ</cite> top <he>כְּמָן קטל</he> how many of them did he kill?"
+			],
+			"label": "2"
+		}
+	]
+}

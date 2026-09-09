@@ -1,0 +1,30 @@
+{
+	"id": "B01297",
+	"slug": "ברכתא-1",
+	"headword": {
+		"text": "בִּרְכְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּירְכְתָא"
+		}
+	],
+	"page": {
+		"number": 196,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"B01292\"><he>בְּרָכָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 27:36\">Targ. Gen. XXVII, 36</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 51b:5\">Ber. 51ᵇ</cite> <he>כסא דב׳</he> (= h. <he>כוס של ברכה</he>) the cup for the grace after meal. ",
+				"<cite ref=\"Chagigah 5b:18\">Ḥag. 5ᵇ</cite> <he>איכו השתא מנעתן מהאי בי׳</he> how near thou camest depriving us of this blessing; a. fr.—Pl. <cite ref=\"B01297\"><he>בִּרְכָתָא</he></cite>, <cite ref=\"B00125\"><he>בִּי׳</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 28:2\">Targ. Deut. XXVIII, 2</cite>; a. fr."
+			]
+		}
+	]
+}

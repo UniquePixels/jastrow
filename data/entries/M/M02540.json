@@ -1,0 +1,24 @@
+{
+	"id": "M02540",
+	"slug": "מרדה-1",
+	"headword": {
+		"text": "מַרְדֶּה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 837,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>רָדָה</he> II) <i>baker’s shovel, peel</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 3:7\">Tosef. Kel. B. Mets. III, 7</cite>. ",
+				"<cite ref=\"Taanit 25a:2\">Taan. 25ᵃ</cite> (Var. <cite ref=\"M02535\"><he>מַרְדָּא</he></cite>)."
+			]
+		}
+	]
+}

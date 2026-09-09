@@ -1,0 +1,40 @@
+{
+	"id": "U02003",
+	"slug": "שרף-1",
+	"headword": {
+		"text": "שָׂרַף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1632,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; onomatop.) [<i>to sip, absorb</i>, v. <cite ref=\"U02005\"><he>שָׂרַף</he> II</cite>,] <i>to consume, burn</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 1:4\">Pes. I, 4</cite> <he>ושׂוֹרְפִין … שש</he> and the burning (of leavened matter) must take place at the beginning of the sixth hour. ",
+				"<cite ref=\"Avodah Zarah 11a:12\">Ab. Zar. 11ᵃ</cite> <he>שׂורְפִין על המלכים</he> we do burning at the burial of kings; <he>ומה הן שורפין וכ׳</he> and what is burnt? Their couch and their objects of service (armor &c.); <cite ref=\"Tosefta Sanhedrin 4:3\">Tosef. Snh. IV, 3</cite>; <cite ref=\"Tosefta Shabbat 7:18\">Tosef. Sabb. VII</cite> (<cite ref=\"Tosefta Shabbat 8:18\">VIII</cite>), 18; a. fr.—Part. pass. <cite ref=\"U01945\"><he>שָׂרוּף</he></cite>; <i>f.</i> <he>שְׂרוּפָה</he> &c. ",
+				"<cite ref=\"Niddah 24b:58\">Nidd. 24ᵇ</cite> <he>עצמותיו שְׂרוּפִין</he>, v. <cite ref=\"U02099\"><he>שְׁתִיָּה</he> I</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִשְׂרַף"],
+			"senses": [
+				{
+					"gloss": "<i>to be burnt</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 23:1\">Num. R. s. 23<sup>6</sup></cite> <he>ונ׳ על שמעל וכ׳</he> and he (Achan) was burned (after being stoned), because he had misappropriated devoted things. ",
+						"<cite ref=\"Pesachim 34b:1\">Pes. 34ᵇ</cite> <he>יִשָּׂרֵף מיד</he> must be burned at once. ",
+						"<cite ref=\"Tosefta Pesachim 5:8\">Tosef. ib. V, 8</cite> <he>כשם … אינו נִשְׂרָף וכ׳</he> as the wooden spit (on which the Passover lamb is roasted) does not burn, so the metal spit does not get hot. ",
+						"<cite ref=\"Mishnah Zevachim 12:5\">Zeb. XII, 5</cite> <he>בזמן שהם נִשְׂרָפִין כמצותן נשרפין וכ׳</he> when they are burned according to the law concerning them (and not because of a disqualification), they are burned in the ash-house. ",
+						"<cite ref=\"Mishnah Zevachim 12:5\">Ib.</cite> a. fr. <he>פרים הנִשְׂרָפִים וכ׳</he> the bullock sacrifices which the law requires to be burned; a. fr.—[Y. Taan. I, 64ᵇ top <he>תשרף</he>, read <he>תשרה</he>, v. <cite ref=\"U01959\"><he>שָׁרָה</he> I</cite>.]"
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

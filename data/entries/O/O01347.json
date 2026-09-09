@@ -1,0 +1,24 @@
+{
+	"id": "O01347",
+	"slug": "ספטני",
+	"headword": {
+		"text": "סְפַטְנִי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1013,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (spatulæ) <i>small and broad swords</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 5:6\">Tosef. Kel. B. Mets. V, 6</cite> (ed. Zolk. <he>סוֹפִינֵי</he>)."
+			]
+		}
+	]
+}

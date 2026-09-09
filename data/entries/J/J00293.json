@@ -1,0 +1,49 @@
+{
+	"id": "J00293",
+	"slug": "יחל",
+	"headword": {
+		"text": "יָחַל"
+	},
+	"page": {
+		"number": 574,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"H00319\"><he>חוּל</he></cite>) <i>to hover around, rest on</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יִחֵל", "יִי׳"],
+			"senses": [
+				{
+					"gloss": " (with <he>על</he>) <i>to cause to rest upon</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 47:1\">Pesik. R. s. 47</cite> <he>מְיַיחֵל אני</he> … <he>כשם שיִיחַלְתִּי וכ׳</he> I shall cause my Name to rest upon him (Job) as I did upon &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "(b. h.; <i>to wait for the turn, to wait, trust; to inspire trust</i>; v. <cite ref=\"J00272\"><he>יִחוּל</he></cite>.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הוּחָל"],
+			"senses": [
+				{
+					"gloss": "<i>to be made to rest</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 31:4\">Sifré Deut. 31</cite>, v. <cite ref=\"J00255\"><he>יוֹתֵר</he></cite>."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "A02908",
+	"slug": "אקטור",
+	"headword": {
+		"text": "אַקְטוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוקטור"
+		}
+	],
+	"page": {
+		"number": 112,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (actor) <i>actor publicus</i>, an officer who had the supervision of slaves and state property.—Pl. <he>אַקְטוֹרִין</he>. Mekh. B’shall. Par. 1; <cite ref=\"Yalkut Shimoni on Torah 230\">Yalk. Ex. 230</cite> <cite ref=\"A01338\"><he>או׳</he></cite>.—",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 16:5\">Targ. Y. Ex. XVI, 5</cite> <he>אוֹקְטָרַיָּא</he>."
+			]
+		}
+	]
+}

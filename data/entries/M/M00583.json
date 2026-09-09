@@ -1,0 +1,24 @@
+{
+	"id": "M00583",
+	"slug": "מוקדא",
+	"headword": {
+		"text": "מוֹקְדָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 747,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= h. <cite ref=\"S00165\"><he>קָדְקֹד</he></cite>) <i>top, crown of the head</i> (differ. fr. <cite ref=\"M00582\"><he>מוֹקְדָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 2:7\">Targ. Job II, 7</cite> (ed. Lag. <he>מוקר׳</he>, Var. <he>מוקד׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 28:35\">Targ. Y. Deut. XXVIII, 35</cite>. [<cite ref=\"Targum Jonathan on Deuteronomy 28:28\">Ib. 28</cite> read: <cite ref=\"M00598\"><he>מוקרא</he></cite>.] <cite ref=\"Aramaic Targum to Psalms 7:17\">Targ. Ps. VII, 17</cite> (ed. Lag. <cite ref=\"T00000\"><he>ר</he></cite>, Var. <cite ref=\"D00000\"><he>ד</he></cite>)."
+			]
+		}
+	]
+}

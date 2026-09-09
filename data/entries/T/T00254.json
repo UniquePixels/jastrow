@@ -1,0 +1,23 @@
+{
+	"id": "T00254",
+	"slug": "רדיוני",
+	"headword": {
+		"text": "רִדְיוֹנֵי"
+	},
+	"page": {
+		"number": 1452,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"T00241\"><he>רדי</he></cite>, cmp. <cite ref=\"T00230\"><he>רָדָא</he></cite>, <cite ref=\"T00248\"><he>רָדַיָּא</he></cite>) <i>drippings</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 67a:4\">Nidd. 67ᵃ</cite> <he>בר׳ נפל</he> it fell off with the drippings (when she came out of the bath)."
+			]
+		}
+	]
+}

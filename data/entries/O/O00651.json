@@ -1,0 +1,22 @@
+{
+	"id": "O00651",
+	"slug": "סיכסא",
+	"headword": {
+		"text": "סִיכְסָא"
+	},
+	"page": {
+		"number": 979,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>סיכסכא</he>; v. <cite ref=\"O00935\"><he>סכסך</he> I</cite>) <i>confusion, folly</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 74a:4\">B. Bath. 74ᵃ</cite> <he>כל בר בר ח׳ ס׳</he> the whole Bar Bar Ḥanah is (all his stories are) nonsense (Rashi: = <cite ref=\"O00937\"><he>סַכְסַן</he></cite> q. v.)."
+			]
+		}
+	]
+}

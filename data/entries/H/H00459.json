@@ -1,0 +1,28 @@
+{
+	"id": "H00459",
+	"slug": "חורג",
+	"headword": {
+		"text": "חוֹרֵג"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֹרֵג"
+		}
+	],
+	"page": {
+		"number": 439,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00459\"><he>חרג</he></cite>) [<i>filling a gap</i>, v. <cite ref=\"H01694\"><he>חֲרִיקָא</he></cite>,] <i>step-son</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 3:4\">Snh. III, 4</cite> (<cite ref=\"Sanhedrin 27b\">27ᵇ</cite>) (<he>חֹרְגוֹ</he>) <he>חוֹרְגוֹ לבדו</he> his step-son alone (not his relations). ",
+				"<cite ref=\"Yevamot 21a:14\">Yeb. 21ᵃ</cite>; a. e.—Pl. <he>חוֹרְגִין</he>. Y. ib. II, 3ᵈ bot. <he>שני ח׳ וכ׳</he> two step-children (of different parents) brought up in the same house."
+			]
+		}
+	]
+}

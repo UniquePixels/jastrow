@@ -1,0 +1,20 @@
+{
+	"id": "A00566",
+	"slug": "אודיתא",
+	"headword": {
+		"text": "אוֹדִיתָא"
+	},
+	"page": {
+		"number": 22,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"F00017\"><he>ודי</he></cite>) <i>confession</i>, esp. <i>document stating a debtor’s admission of his indebtedness in presence of witnesses</i>. ",
+			"units": ["<cite ref=\"Sanhedrin 29b:22\">Snh. 29ᵇ</cite>"]
+		}
+	]
+}

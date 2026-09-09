@@ -1,0 +1,25 @@
+{
+	"id": "B00220",
+	"slug": "בוז-1",
+	"headword": {
+		"text": "בּוּז"
+	},
+	"page": {
+		"number": 144,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.,√<cite ref=\"B00406\"><he>בז</he></cite>, v. (<cite ref=\"B00429\"><he>בזז</he></cite><i>to tread upon</i>, whence <i>despise</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 4:3\">Aboth IV, 3</cite> <he>אל תהי בָז</he> despise not &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to divide;</i> v. <cite ref=\"B00411\"><he>בִּזְבֵּז</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

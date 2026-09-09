@@ -1,0 +1,22 @@
+{
+	"id": "C00203",
+	"slug": "גדיל-1",
+	"headword": {
+		"text": "גָּדֵיל"
+	},
+	"page": {
+		"number": 212,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גדל</he>) <i>growing</i>, esp. <i>one entering on puberty</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Mikvaot 6:10\">Tosef. Mikv. VI, 10</cite>, v. <cite ref=\"K01302\"><he>כָּשׁוּת</he></cite>.—Pl. <he>גְּדֵילִים</he>, v. <cite ref=\"C00223\"><he>גָּדַל</he> I</cite>."
+			]
+		}
+	]
+}

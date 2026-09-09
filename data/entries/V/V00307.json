@@ -1,0 +1,23 @@
+{
+	"id": "V00307",
+	"slug": "תורניתא",
+	"headword": {
+		"text": "תּוּרָנִיתָא"
+	},
+	"page": {
+		"number": 1658,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"V00305\"><he>תּוּרְנָא</he></cite>) [<i>wood used for masts</i>,] <i>pine</i> (Löw, Pfl. 388: <i>cypress</i>). ",
+			"units": [
+				"<cite ref=\"Bava Batra 80b:17\">B. Bath. 80ᵇ</cite>; <cite ref=\"Rosh Hashanah 23a:6\">R. Hash. 23ᵃ</cite> (expl. <cite ref=\"U00732\"><he>שִׁטָּה</he></cite>, <cite ref=\"Isaiah 41:19\">Is. XLI, 19</cite>). ",
+				"<cite ref=\"Gittin 57a:21\">Gitt. 57ᵃ</cite> <he>כי הוה … שתלי ת׳</he> when a boy was born, they planted a cedar, when a girl, a pine."
+			]
+		}
+	]
+}

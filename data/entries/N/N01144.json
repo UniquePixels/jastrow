@@ -1,0 +1,23 @@
+{
+	"id": "N01144",
+	"slug": "נצר-3",
+	"headword": {
+		"text": "נֵצֶר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 930,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01143\">preced.</cite>) <i>cricket</i>.—Pl. <he>נְצָרִין</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Chullin 3:25\">Tosef. Ḥull. III, 25</cite> (<cite ref=\"Chullin 65b\">Ḥull. 65ᵇ</cite> <he>צרצור</he>)."
+			]
+		}
+	]
+}

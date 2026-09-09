@@ -1,0 +1,30 @@
+{
+	"id": "H01432",
+	"slug": "חפורה-2",
+	"headword": {
+		"text": "חֲפוּרָה",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲפִי׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 490,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01431\">preced.</cite>) <i>products of the earth gained by digging</i>, opp. to those gained by cutting; <i>bulbs, roots</i> &c. [Also used in Chald. phraseology.] <cite ref=\"Tosefta Nedarim 4:3\">Tosef. Ned. IV, 3</cite> <he>הנודר מן החפי׳ וכ׳</he> (Var. <he>הפירי</he>) if one vows abstinence from <i>ḥăfirah</i>, he is forbidden melons &c.; Y. ib. VII, beg. 40ᵇ <he>האפייה</he> (corr. acc.). ",
+			"units": [
+				"<cite ref=\"Bekhorot 52b:1\">Bekh. 52ᵇ</cite> <he>ח׳ והוה שובלי</he> (if on the father’s death) what was available of the products of the ground was classed under <i>ḥ.</i> (vegetable, e. g. green of grains), and now it is <i>shublé</i> (ears); <cite ref=\"Bava Batra 124a\">B. Bath. 124ᵃ</cite> (Ms. M. <he>חֲפוּרֵי והוו</he>). ",
+				"<cite ref=\"Yevamot 63a:8\">Yeb. 63ᵃ</cite> <he>מאה … מילחא וח׳</he> invest a hundred Zuz in land, and you will have salt and common vegetable."
+			]
+		}
+	]
+}

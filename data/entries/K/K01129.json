@@ -1,0 +1,23 @@
+{
+	"id": "K01129",
+	"slug": "כרופייתא",
+	"headword": {
+		"text": "כְּרוֹפְיָיתָא"
+	},
+	"page": {
+		"number": 665,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (prob. fr. <he>כרוף</he>, dial. = <cite ref=\"K01101\"><he>כרוב</he></cite>, cmp. <cite ref=\"K01261\"><he>כְּרַף</he></cite>) <i>dealers in vegetables, greens</i> &c. ",
+			"units": [
+				"<cite ref=\"Moed Katan 13b:11\">M. Kat. 13ᵇ</cite> <he>כ׳ דפומבדיתא</he> (Alf. <he>קְרוֹפְיָאתָא</he>)."
+			]
+		}
+	]
+}

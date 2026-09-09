@@ -1,0 +1,52 @@
+{
+	"id": "N01049",
+	"slug": "נפיש-1",
+	"headword": {
+		"text": "נְפֵישׁ"
+	},
+	"page": {
+		"number": 924,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (interch. with <cite ref=\"Q00397\"><he>פּוּשׁ</he></cite> a. <cite ref=\"Q02067\"><he>פְּשֵׁי</he></cite>, q. v.) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>to be blown up</i>,] <i>to be large; to increase</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 1:7\">Targ. Ex. I, 7</cite>; a. e. Imper. <cite ref=\"Q00397\"><he>פּוּשׁ</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 1:28\">Targ. Gen. I, 28</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to be blown away</i>,] <i>to be gone</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 121a\">B. Bath. 121ᵃ</cite>; <cite ref=\"Nedarim 78a:10\">Ned. 78ᵃ</cite> <he>אתא לנהרדעא</he> … <he>נ׳</he> Ar. (ed. <he>ולא אשכחיה</he>) he came to N. to see R. S.; he was gone."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַפֵּישׁ"],
+			"senses": [
+				{
+					"gloss": " (interch. with <cite ref=\"Q00398\"><he>אָפֵישׁ</he></cite>, a. <cite ref=\"Q00398\"><he>אַפְשֵׁי</he></cite>) <i>to extend, enlarge</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 48:4\">Targ. Gen. XLVIII, 4</cite> (some ed. <he>מַפְשִׁי׳</he>). ",
+						"<cite ref=\"Targum Jonathan on Numbers 19:6\">Targ. Y. Num. XIX, 6</cite> <he>אַפּוּשֵׁי</he>; a. fr.—",
+						"<cite ref=\"Menachot 23b:20\">Men. 23ᵇ</cite> <he>דא׳ לה תבלין טפי וכ׳</he> when he made the quantity of spices larger than &c. ",
+						"<cite ref=\"Beitzah 7a:12\">Bets. 7ᵃ</cite> <he>אַפּוּשֵׁי … לא מַפְּשִׁינָן</he> (or <he>אֲפוּשֵׁי … מַפְשִׁי׳</he>) we must not extend the range of unclean things by rabbinical enactments. ",
+						"<cite ref=\"Sotah 26a:9\">Sot. 26ᵃ</cite> <he>אפושי … לא לִיפַּשׁ</he> we ought not to increase the number of illegitimate births (by allowing intermarriage between bastards). ",
+						"<cite ref=\"Bava Batra 12b\">B. Bath. 12ᵇ</cite> <he>בעינא דא׳ אריסי</he> (Rashi <he>ניחא לי לאפושי</he>) I desire (it is an advantage to me) to have a large number of tenants around me (whom my neighbor must employ). ",
+						"<cite ref=\"Bava Batra 12b:14\">Ib.</cite> <he>אפושי לאו מילתא היא</he> this plea about a large number &c., is no plea; a. e.—Y. Kil. IX, 32ᶜ top; Y. Keth. XII, 35ᵇ top <he>נַפֵּישׁ לר׳ וכ׳</he> let us make room for R. H."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

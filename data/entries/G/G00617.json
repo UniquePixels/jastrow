@@ -1,0 +1,37 @@
+{
+	"id": "G00617",
+	"slug": "זפא",
+	"headword": {
+		"text": "זֵפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִיפְתָּא"
+		},
+		{
+			"text": "זִפְתָּא"
+		}
+	],
+	"page": {
+		"number": 408,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch.  = h. <he>זֶפֶת</he> <i>pitch</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 34:9\">Targ. Is. XXXIV, 9</cite>. ",
+				"<cite ref=\"Onkelos Exodus 2:3\">Targ. Ex. II, 3</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = <cite ref=\"G00397\"><he>זִיפּוּת</he></cite> <i>pitch-coating</i>. Y. M. Kat. II, 81ᵇ top [read:] <he>דזִיפְתָּהּ</he>, v. <cite ref=\"D00992\"><he>דַּקְדְּקִירָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

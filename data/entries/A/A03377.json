@@ -1,0 +1,23 @@
+{
+	"id": "A03377",
+	"slug": "אשתימא",
+	"headword": {
+		"text": "אִשְׁתַּיָּמָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 131,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00435\"><he>שׁום</he></cite>) <i>mark, distinction</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 41a:6\">Ab. Zar. 41ᵃ</cite> <he>מעיקרא סבור א׳ וכ׳</he> Ar. (ed. <cite ref=\"A03377\"><he>אִישְׁתַּיָּימָא</he></cite>) at first it was thought the ring in the hand of a statue was a mere distinction (not typical of any religious idea), but afterwards it was found out that (it represents the idea that) he (the bearer of it) seals himself for death as a vicarious sacrifice for the whole world."
+			]
+		}
+	]
+}

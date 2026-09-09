@@ -1,0 +1,56 @@
+{
+	"id": "S01308",
+	"slug": "קלט-2",
+	"headword": {
+		"text": "קְלַט"
+	},
+	"page": {
+		"number": 1374,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01307\">same</cite><i>to close</i>.—Part. pass. <cite ref=\"S01331\"><he>קָלִיט</he></cite>, <i>pl.</i> <he>קְלִיטִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 21:20\">Targ. Y. Lev. XXI, 20</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to clutch, intercept, receive; to absorb</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 65a:4\">Ḥull. 65ᵃ</cite> <he>ציפרתי נמי מִקְלַט קָלְטָא</he> the <i>tsipparti</i>, too, snaps at things in the air (and yet it is a clean bird). Y. Pes. III, beg. 29ᵈ <cite ref=\"D00718\"><he>דיִקְלוֹט</he></cite>, v. <cite ref=\"R00062\"><he>צִבְעָא</he> I</cite>; a. fr.—",
+				"<cite ref=\"Meilah 11b:18\">Meïl. 11ᵇ</cite>, v. infra."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to offer an asylum, protect</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 35:6\">Targ. Y. Num. XXXV, 6</cite>; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (of sacred precincts) <i>to retain</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 52a:8\">Pes. 52ᵃ</cite> <he>אטו גבא דחמרא קַלְטִינְהוּ</he> (not <cite ref=\"A00236\"><he>אגבא</he></cite>) does the back of the ass (on which the fruit was brought to the place) form a sacred precinct (so that it cannot be exported again)?"
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיקְּלַט", "אִיקְּלִיט"],
+			"senses": [
+				{
+					"gloss": "<i>to be received, intercepted</i>. ",
+					"units": [
+						"<cite ref=\"Sukkah 49b\">Succ. 49ᵇ</cite> <he>בדא׳</he> when the remnant of the libation poured into the depth was intercepted in a vessel; <cite ref=\"Meilah 11b:18\">Meïl. 11ᵇ</cite> <he>דאי קְלַט</he> (<he>קתני</he>) it refers to a case when one intercepted the libation (v. Rashi a. Tosaf. for Var. Lect.)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

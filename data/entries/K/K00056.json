@@ -1,0 +1,22 @@
+{
+	"id": "K00056",
+	"slug": "כבישה",
+	"headword": {
+		"text": "כְּבִישָׁה"
+	},
+	"page": {
+		"number": 608,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"K00081\"><he>כָּבַשׁ</he></cite>) <i>making a path, side-path</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 8:1\">Mikv. VIII, 1</cite> <he>מפני הכ׳</he> Ar. on account of the passing by (of travellers that leave the highway for some cause). [Ed. <he>מפני הכְּבִיסָה</he> on account of the ponds being used for washing clothes, v. comment.]"
+			]
+		}
+	]
+}

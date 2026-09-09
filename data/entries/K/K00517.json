@@ -1,0 +1,27 @@
+{
+	"id": "K00517",
+	"slug": "כיח",
+	"headword": {
+		"text": "כִּיחַ"
+	},
+	"page": {
+		"number": 631,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00459\"><he>כָּחַח</he></cite>) <i>coughing, phlegm</i> of the lungs. ",
+			"units": [
+				"<cite ref=\"Eruvin 99a:17\">Erub. 99ᵃ</cite> <he>בכִיחוֹ</he> it refers to the phlegm in his mouth. ",
+				"<cite ref=\"Eruvin 99a:15\">Ib.</cite> <he>כיחו שנתלש</he> phlegm which is loose in the mouth. [<cite ref=\"Eruvin 99a:17\">Ib.</cite> <he>כיח ורק</he>, <he>כ׳ בפני</he>, v. <cite ref=\"K00459\"><he>כָּחַח</he></cite>.]—",
+				"<cite ref=\"Bava Kamma 3b:5\">B. Kam. 3ᵇ</cite> <he>כיחו וניעו</he> the phlegm brought out by coughing or hawking. ",
+				"<cite ref=\"Niddah 55b:19\">Nidd. 55ᵇ</cite>. ",
+				"<cite ref=\"Niddah 56a:50\">Ib. 56ᵃ</cite> <he>כיחו וניעו ורוקי</he> phlegm, mucus and spittle (prob. to be read <he>כרוקו</he>). ",
+				"<cite ref=\"Kiddushin 81b:1\">Kidd. 81ᵇ</cite> (in Chald. dict.) <he>כיחו</he>, v. <cite ref=\"A01714\"><he>אִכְמַר</he></cite>."
+			]
+		}
+	]
+}

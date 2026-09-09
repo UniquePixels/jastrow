@@ -1,0 +1,58 @@
+{
+	"id": "U01589",
+	"slug": "שני-7",
+	"headword": {
+		"text": "שֵׁנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׁינִי"
+		}
+	],
+	"page": {
+		"number": 1606,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>second</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Megillah 4:1\">Meg. IV, 1</cite> <he>בש׳</he> on the second day of the week. ",
+				"<cite ref=\"Megillah 22a:9\">Ib. 22ᵃ</cite>; <cite ref=\"Taanit 27b:14\">Taan. 27ᵇ</cite> <he>הש׳ קורא וכ׳</he> the second (of those called to read from the Law) reads &c. ",
+				"<cite ref=\"Beitzah 6a:1\">Bets. 6ᵃ</cite>, a. fr. <he>יום טוב ש׳</he> the second (Rabbinical) Holy Day (instituted on account of the uncertainty of the calendar). ",
+				"<cite ref=\"Shabbat 40b:8\">Sabb. 40ᵇ</cite>, a. fr. <he>כלי ש׳</he> second vessel, i.e. a vessel into which a boiling mass has been poured, contrad. to <he>כלי ראשון</he> a vessel direct from the fire.—",
+				"<cite ref=\"Mishnah Maaser Sheni 1:1\">Maas. Sh. I, 1</cite>, a. fr. <he>מעשר ש׳</he>, v. <cite ref=\"M02188\"><he>מַעֲשֵׂר</he></cite>.—Esp. "
+			],
+			"senses": [
+				{
+					"gloss": " (<he>לטומאה</he>) <he>ש׳</he> <i>the second degree of levitical uncleanness, an object made unclean through contact with uncleanness</i>, v. <cite ref=\"T00033\"><he>רִאשׁוֹן</he></cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Tahorot 2:2\">Toh. II, 2</cite> <he>האוכל … אוכל ש׳ ש׳</he> he that eats food unclean in the second degree, becomes unclean in the second degree. ",
+						"<cite ref=\"Pesachim 14a:6\">Pes. 14ᵃ</cite> <he>ש׳ וש׳ הוא וכ׳</he> it is a contact between two things both unclean in the second degree, and why do you say that he adds to the degree of uncleanness?; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>relationship in the second degree, second generation</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 28a:17\">Snh. 28ᵃ</cite> <he>ש׳ בש׳ תנן</he> we have learned that a relative in the second degree (first cousin) cannot testify for or against a relative in the second degree; <he>ש׳ בראשון תנן</he> we have learned that one of the second generation cannot testify for or against one of the first generation, i.e. his uncle. ",
+						"<cite ref=\"Sanhedrin 28a:17\">Ib.</cite> <he>שלישי בש׳</he> a relative in the third degree against one in the second degree, i.e. his father’s first cousin; a. fr.—Pl. <he>שְׁנִיִּים</he>. ",
+						"<cite ref=\"Mishnah Yadayim 2:2\">Yad. II, 2</cite> <he>ואת הש׳ למקום אחר</he> and water poured over his hands a second time on another place. ",
+						"<cite ref=\"Mishnah Yadayim 2:2\">Ib.</cite> <he>ועל הש׳ טהור</he> and a loaf which fell on the place which received the second water is clean. ",
+						"<cite ref=\"Bereishit Rabbah 31:12\">Gen. R. s. 31</cite> <he>ש׳ לו וכ׳</he> the second story of the ark was for him (Noah) and his sons and the clean animals; a. fr.—<i>Fem.</i> <cite ref=\"U00304\"><he>שְׁנִיָּה</he></cite>, <cite ref=\"U00304\"><he>שְׁנִיָּיה</he></cite>. ",
+						"<cite ref=\"Mishnah Shekalim 3:4\">Shek. III, 4</cite>; a. fr.—Pl. <he>שְׁנִיּוֹת</he>. ",
+						"<cite ref=\"Mishnah Yadayim 3:2\">Yad. III, 2</cite> <he>ש׳</he> (sub. <he>לטומאה</he>), v. supra. ",
+						"<cite ref=\"Avodah Zarah 3b:7\">Ab. Zar. 3ᵇ</cite> <he>ש׳</he> during the second three hours of the day; a. fr.—Esp. <he>שניה</he> (sub. <he>לערוה</he>) <i>incest of second degree, intermarriage forbidden by rabbinical enactment</i>. ",
+						"<cite ref=\"Yevamot 21b:16\">Yeb. 21ᵇ</cite> <he>אמו ערוה אם אמו ש׳</he> connection with one’s mother is incest, with one’s mother’s mother incest in the second degree. ",
+						"<cite ref=\"Yevamot 21b:9\">Ib.</cite> <he>משום ש׳</he> as incest of the second degree; a. fr.—<i>Pl.</i> as above. ",
+						"<cite ref=\"Yevamot 21a:14\">Ib.ᵃ</cite> <he>מה הם ש׳</he> what relationships are <i>sh’niyoth?</i> <cite ref=\"Yevamot 21a:4\">Ib.</cite> (ref. to <cite ref=\"Leviticus 18:27\">Lev. XVIII, 27</cite>) <he>האל … מאי נינהו ש׳</he> <i>haël</i> means the severe, which implies that there are milder forms of incest; what are they? The <i>sh’niyoth</i>; a. fr."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

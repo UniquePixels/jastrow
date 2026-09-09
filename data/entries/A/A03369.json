@@ -1,0 +1,28 @@
+{
+	"id": "A03369",
+	"slug": "אשתדור",
+	"headword": {
+		"text": "אֶשְׁתַּדּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִשְׁתְּדוּר"
+		}
+	],
+	"page": {
+		"number": 131,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שְׁדַר</he> II) <i>resistance, rebellion</i>. ",
+			"units": [
+				"<cite ref=\"Ezra 4:15\">Ezra IV, 15</cite>; <cite ref=\"Ezra 4:19\">19</cite>.—",
+				"<cite ref=\"Aramaic Targum to Lamentations 1:1\">Targ. Lam. I, 1</cite> <he>חובאה א׳</he> (read <he>חובא דא׳</he>)."
+			]
+		}
+	]
+}

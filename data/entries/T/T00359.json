@@ -1,0 +1,77 @@
+{
+	"id": "T00359",
+	"slug": "רוי-2",
+	"headword": {
+		"text": "רְוֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְוִי"
+		},
+		{
+			"text": "רְוָא"
+		},
+		{
+			"text": "רְוָה"
+		}
+	],
+	"page": {
+		"number": 1459,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00358\">same</cite>, esp. <i>to be filled with wine, be drunken</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 9:21\">Targ. Gen. IX, 21</cite>. ",
+				"<cite ref=\"Onkelos Genesis 43:34\">Ib. XLIII, 34</cite> (some ed. O. <he>רַוִּאוּ</he>, <i>Pa.</i>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 46:10\">Targ. Jer. XLVI, 10</cite> (ed. Wil. <he>ותְרַוֵּי</he>, <i>Pa.</i>); a. fr.—Part. <cite ref=\"T00359\"><he>רָוֵי</he></cite>, <cite ref=\"T00360\"><he>רַוְיָא</he></cite>; f. <cite ref=\"T00360\"><he>רַוְיָא</he></cite>; Pl. <he>רָוָון</he>, <he>רַוְיָן</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 51:21\">Targ. Is. LI, 21</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 23:20\">Targ. Prov. XXIII, 20</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on Haggai 1:6\">Targ. Hag. I, 6</cite>; a. fr.—",
+				"<cite ref=\"Gittin 68a:11\">Gitt. 68ᵃ</cite> <he>אישתי רוה וגנא</he> he drank, he was intoxicated and lay down. ",
+				"<cite ref=\"Megillah 12b:6\">Meg. 12ᵇ</cite> <he>אבא … שתי ולא רָ׳</he> my father drank wine enough for a thousand men, and was not drunk. Pesik. Eth Korb., p. 57ᵇ <he>ואנא על לוגך דאנא שתי דאנא ר׳ דאנא שבע</he> (not <he>לוגין</he>) and I (the Lord) wrote about thy one Log of wine that I drink, I am filled, and I am satisfied (<cite ref=\"Numbers 28:7\">Num. XXVIII, 7</cite>), v. <cite ref=\"T00361\"><he>רְוִיָּה</he></cite>; <cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite>; <cite ref=\"Yalkut Shimoni on Torah 776:3\">Yalk. Num. 776</cite>; <cite ref=\"Yalkut Shimoni on Nach 761:1\">Yalk. Ps. 761</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַוֵּי", "רַוֵּוי"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T00358\">same</cite>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to fill, saturate; to make drunk</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 55:10\">Targ. Is. LV, 10</cite>. ",
+						"<cite ref=\"Targum Jonathan on Hosea 6:3\">Targ. Hos. VI, 3</cite> (h. text <cite ref=\"J00240\"><he>יורה</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 46:16\">Targ. Jer. XLVI, 16</cite> (h. text <he>היונה</he>); a. fr.—Part. pass. <cite ref=\"M02583\"><he>מְרַוֵּי</he></cite>; f. <cite ref=\"M02584\"><he>מְרַוְּיָא</he></cite>. ",
+						"<cite ref=\"Targum Jonathan on Isaiah 58:11\">Targ. Is. LVIII, 11</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְרַוֵּי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְרְוֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be saturated; to be drunken</i>. Ib. V, 22 (ed. Wil. <he>אתחו׳</he>, corr. acc.). Ib. XLIX, 26. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 36:9\">Targ. Ps. XXXVI, 9</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

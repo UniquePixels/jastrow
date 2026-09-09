@@ -1,0 +1,24 @@
+{
+	"id": "A01816",
+	"slug": "אלון-1",
+	"headword": {
+		"text": "אַלּוֹן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 67,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"A01785\"><he>אַלָּה</he></cite>) <i>oak.—</i>Pl. <he>אַלּוֹנִים</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 15:1\">Gen. R. s. 15</cite> <he>א׳ בלוטין</he> the bibl. <i>allonim</i> means <i>b’lutin</i>, v. <cite ref=\"B00827\"><he>בָּלוּט</he></cite>. [<cite ref=\"Bereishit Rabbah 15:1\">Ib.</cite> <he>אלמוגים א׳</he> read <cite ref=\"A01803\"><he>אַלְוִים</he></cite>, v. <cite ref=\"A01797\"><he>אַלְוָה</he></cite>, <cite ref=\"A01911\"><he>אַלְמוּג</he></cite>]. ",
+				"<cite ref=\"Rosh Hashanah 23a:7\">R. Hash. 23ᵃ</cite> <he>א׳ בוטמי</he>, v. <cite ref=\"B00234\"><he>בּוּטְמָא</he></cite>; <cite ref=\"Bava Batra 80b:18\">B. Bath. 80ᵇ</cite> <he>א׳ בוטני</he>, v. <cite ref=\"B00235\"><he>בּוּטְנָא</he></cite>. [<cite ref=\"Bereishit Rabbah 60:15\">Gen. R. s. 60</cite> (play on <i>hallazeh</i> <cite ref=\"Genesis 24:6\">Gen. XXIV, 6</cite>) <he>א׳ זה</he> he is an oak (of fine appearance); Rashi refers to next w.]"
+			]
+		}
+	]
+}

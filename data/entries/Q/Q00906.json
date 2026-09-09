@@ -1,0 +1,23 @@
+{
+	"id": "Q00906",
+	"slug": "פיתקונא",
+	"headword": {
+		"text": "פִּיתְקוֹנָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1173,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q00905\">preced.</cite>) <i>decree</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 31:5\">Targ. II Chr. XXXI, 5</cite> ed. Beck (oth. ed. <cite ref=\"Q02124\"><he>פתגמא</he></cite>)."
+			]
+		}
+	]
+}

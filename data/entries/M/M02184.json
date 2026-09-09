@@ -1,0 +1,23 @@
+{
+	"id": "M02184",
+	"slug": "מערקא-2",
+	"headword": {
+		"text": "מְעַרְקָא"
+	},
+	"page": {
+		"number": 819,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M02183\">preced.</cite>) <i>fugitive.—</i>Pl. <he>מְעַרְקַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 48:19\">Targ. Jer. XLVIII, 19</cite> (ed. Wil. <he>מֶעְרְקַ׳</he>; ed. Lag. <he>מֵיעִירְקַיָּא</he>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 26:36\">Targ. Y. Lev. XXVI, 36</cite> (<cite ref=\"M02177\"><he>מַעֲרוֹ׳</he></cite>) <he>מַעֲרוּקֵו</he>."
+			]
+		}
+	]
+}

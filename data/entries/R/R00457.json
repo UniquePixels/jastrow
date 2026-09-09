@@ -1,0 +1,36 @@
+{
+	"id": "R00457",
+	"slug": "צירוף",
+	"headword": {
+		"text": "צֵירוּף"
+	},
+	"page": {
+		"number": 1281,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00797\"><he>צָרַף</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>smelting, reduction through trials</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 112b:2\">Keth. 112ᵇ</cite> <he>צ׳ אחר צ׳</he> one reduction after the other (ref. to <cite ref=\"Isaiah 6:13\">Is. VI, 13</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fusion, the state of being considered as one coherent mass</i> or <i>as one act</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 19a:8\">Pes. 19ᵃ</cite> <he>צ׳ דאורייתא</he> that things contained in one vessel are to be considered as one mass is a Biblical rule. ",
+				"<cite ref=\"Nazir 4a:6\">Naz. 4ᵃ</cite> <he>ר״ש לית ליה צ׳</he> R. S. does not adopt the rule of fusion (that the various things forbidden to the Nazarite, if partaken of together, combine to make up the legal quantity). ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 4:2:6\">Y. Maasr. IV, 51ᵇ</cite> <he>למה לי צ׳</he> why is it necessary to apply the rule of fusion?; <he>ואם צ׳ וכ׳</he> and if you apply the rule of fusion &c.; a. fr.—Pl. <he>צֵירוּפִין</he>. Y. Naz. II, 54ᶜ bot. [read:] <he>ולמה נכללו לצ׳</he> (ed. Krot. <he>לצירוכין</he>, corr. acc.) and why have they again been stated by implication? To intimate that the rule of fusion applies to them (if eaten together). Ib.ᵈ bot. <he>בצֵירוּפֵי נזיר</he> as to the rule of fusion applied to the Nazarite; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

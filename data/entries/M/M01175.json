@@ -1,0 +1,31 @@
+{
+	"id": "M01175",
+	"slug": "מילול",
+	"headword": {
+		"text": "מִילּוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִילּוּלָא"
+		},
+		{
+			"text": "מִלּ׳"
+		}
+	],
+	"page": {
+		"number": 774,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>מַלֵּל</he>) <i>speech</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 4:10\">Targ. O. Ex. IV, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 6:4\">Targ. Is. VI, 4</cite>; a. fr."
+			]
+		}
+	]
+}

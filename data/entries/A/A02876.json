@@ -1,0 +1,23 @@
+{
+	"id": "A02876",
+	"slug": "אציל",
+	"headword": {
+		"text": "אַצִּיל"
+	},
+	"page": {
+		"number": 111,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>אצל</he> or <he>נצל</he>, cmp. <he>צלע</he>)<i>the joint which touches the rib, elbow</i> (with or without <he>יד</he>). ",
+			"units": [
+				"<cite ref=\"Arakhin 19b:5\">Arakh. 19ᵇ</cite> <he>עד הא׳</he> up to the elbow.—<i>Pl</i> <he>אַצִּילִים</he>, constr. <he>אַצִּילֵי</he>. ",
+				"<cite ref=\"Zevachim 19a:1\">Zeb. 19ᵃ</cite> top <he>כנגד א׳ וכ׳</he> corresponding to the elbows (where the elbow in natural position touches the body). Y. Yoma V, 42ᵇ bot.; a. fr.—(Chald.) <cite ref=\"Vayikra Rabbah 8\">Lev. R. s. 8</cite>, beg. <he>ודין אצילים פריך</he> some ed. (read <he>אצילֵיה</he>) and the other has his elbow (arm) broken."
+			]
+		}
+	]
+}

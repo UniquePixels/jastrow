@@ -1,0 +1,31 @@
+{
+	"id": "R00594",
+	"slug": "צמר-4",
+	"headword": {
+		"text": "צְמַר"
+	},
+	"page": {
+		"number": 1289,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to be pressed, hot</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צַמַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to heat</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 60a:6\">B. Kam. 60ᵃ</cite> <he>דצַמְּרָהּ צַמּוּרֵי</he> he increased the heat of the coals by breathing on them."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "M00248",
+	"slug": "מדברנותא",
+	"headword": {
+		"text": "מְדַבְּרָנוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַדְבְּרָ׳"
+		}
+	],
+	"page": {
+		"number": 731,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M00247\">preced.</cite>) <i>command, strategy; scheme</i> (b. h. . ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 1:5\">Targ. Prov. I, 5</cite>; <cite ref=\"Aramaic Targum to Proverbs 20:18\">XX, 18</cite>; <cite ref=\"Aramaic Targum to Proverbs 24:6\">XXIV, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 12:5\">Ib. XII, 5</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,111 @@
+{
+	"id": "S00203",
+	"slug": "קהי-1",
+	"headword": {
+		"text": "קהי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קָהָה"
+		},
+		{
+			"text": "קָהָא"
+		}
+	],
+	"page": {
+		"number": 1321,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"K00150\"><he>כָּהָה</he></cite>)<i>to be dull, blunt</i>; (of a sword) <i>to slide off a hard object</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:14\">Y. Ber. IX, 13ᵃ</cite> <he>וקָהַת החרב מעל וכ׳</he> and the sword slid off Moses’ neck and broke; <cite ref=\"Devarim Rabbah 2\">Deut. R. s. 2</cite>; <cite ref=\"Yalkut Shimoni on Torah 167:3\">Yalk. Ex. 167</cite> <he>וקהית</he> (corr. acc.). ",
+				"<cite ref=\"Bereishit Rabbah 78\">Gen. R. s. 78</cite>; <cite ref=\"Shir HaShirim Rabbah 7:5\">Cant. R. to VII, 5</cite> <he>וקָהוּ שיניו וכ׳</he> and the teeth of the wicked (Esau) became blunt and loose."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be tough, unyielding, hard</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 3:12\">Num. R. s. 3</cite> (ref. to <cite ref=\"Ecclesiastes 10:10\">Koh. X, 10</cite>) <he>אם ראית שקהו השמים וכ׳</he>, v. preced.—Trnsf. <i>to be difficult, unsolvable</i>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:7\">Cant. R. to III, 7</cite> <he>שהיו כולן שונין … הלכה קוֹהָא להם</he> they all sharpened the discussion like a sword, so that, when a case came before them, the decision might not be too difficult for them. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:4:7\">Ib. to IV, 4</cite> <he>שאין הלכה קוהא להם</he> never was there a subject too difficult for them to decide; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to be wearied; to faint</i>; esp. <i>to have a morbid appetite</i> (caused by the smell of a dish). Ib. to I, 12 the Lord sent them a sweet scent from Eden <he>והיתה נפשם קוהא לאכול</he> and they were dying to eat (of the Passover sacrifice), v. <cite ref=\"P00635\"><he>עָיֵף</he></cite>; a. e.",
+			"units": [],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִקְהָה"],
+			"senses": [
+				{
+					"gloss": " (with <cite ref=\"U01556\"><he>שן</he></cite>) <i>to make blunt and loose</i>; trnsf. <i>to refute; to break the power of; to grieve</i>. Mekh. Bo, s. 18 <he>אף אתה הַקְהֵה את שיניו</he> thou, too, make his teeth blunt (refute his arguments). ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 99:8\">Gen. R. s. 99</cite> (play on <he>יקהת</he>, <cite ref=\"Genesis 49:10\">Gen. XLIX, 10</cite>) <he>מי שמַקְהֶה שני וכ׳</he> he (the Messiah) that shall break the power of all nations; <cite ref=\"Genesis 49:10\">ib.</cite> s. 98. ",
+						"<cite ref=\"Sotah 49a\">Sot. 49ᵃ</cite> [read:] <he>אומרים … למה הִקְהִיתָ וכ׳</he> (v. Rashi) they (the children of the wicked that died in their parents’ lifetime) argue before him, … if thou intendedst to punish them in the hereafter, why didst thou cause them grief while living? <cite ref=\"Sotah 49a\">Ib.</cite> <he>שמחת … והקהית השיני</he> thou hast gladdened my heart (with the evidence of thy purity) and given me pain (by showing more affection for thy son than for myself). ",
+						"<cite ref=\"Sanhedrin 109b:13\">Snh. 109ᵇ</cite> (play on <he>בן קהת</he>, <cite ref=\"Numbers 16:1\">Num. XVI, 1</cite>) <he>בן שה׳ וכ׳</he> a son that brought grief over his parents; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["קֵיהָה"],
+			"senses": [
+				{
+					"gloss": "<i>to pronounce unsolvable</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Negaim 4:11\">Neg. IV, 11</cite>, v. <cite ref=\"K00150\"><he>כָּהָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִקְהָה"],
+			"senses": [
+				{
+					"gloss": "<i>to become faint, powerless</i>. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 10:10:1\">Koh. R. to X, 10</cite> <he>אם נִקְהֵת אומה וכ׳</he> if the nation whose power was as hard as iron, has grown powerless."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be tough, difficult</i>. Ib. <he>אם נ׳ תלמודך וכ׳</he> if thy lesson is as tough to thee as iron (v. preced).",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְקָהֵא", "הִתְקָהֶה"],
+			"senses": [
+				{
+					"gloss": "; <i>Nithpa.</i> <he>נִתְקָהֶה</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to faint, long for</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 186:1\">Yalk. Ex. 186</cite> (ref. to <he>מתלקחת</he>, <cite ref=\"Exodus 9:24\">Ex. IX, 24</cite>) <he>מִתְקָהָא לעשות שליחותה</he> (not <he>שליחותיה</he>) it (the fire) was dying to perform its mission; Pesik. Vayhi, p. 4ᵃ <he>מיתה מתקהא וכ׳</he> Ar. (ed. <he>מתקריא</he>, corr. acc.) dying, that is longing &c.; <cite ref=\"Shir HaShirim Rabbah 3:11:1\">Cant. R. to III, 11</cite> <he>מיתה ומתקלהא בשביל לעשות רצון בוראם</he> (corr. acc., a. read <he>בוראה</he>); <cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> (combining both versions) <he>מיתה ומתקהלא לעשות … בוראה</he> (corr. acc.)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to become tough, hard, unyielding, grievous, irksome</i>. Koh. R. l. c. <he>אם נִתְקָהוּ שמים שעל וכ׳</he> if the heavens above you have become hard as iron &c., v. supra. Ib. <he>אם נתק׳ הרב על התלמיד וכ׳</he> if the teacher has been unyielding to the pupil like iron (out of patience, and refusing to teach him) …, and the teacher shows not a friendly face (does not relent) &c. Ib. <he>אם נתק׳ התלמיד על הרב וכ׳</he> if the pupil has been annoying to his teacher (through his obtuseness or wearisome questions) …, and the teacher refuses to explain &c.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

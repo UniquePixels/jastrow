@@ -1,0 +1,37 @@
+{
+	"id": "R00520",
+	"slug": "צלל-2",
+	"headword": {
+		"text": "צְלַל"
+	},
+	"page": {
+		"number": 1284,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00519\">same</cite><i>to vibrate, ring</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 21:12\">Targ. II Kings XXI, 12</cite>; <cite ref=\"Targum Jonathan on I Samuel 3:11\">Targ. I Sam. III, 11</cite>; <cite ref=\"Targum Jonathan on Jeremiah 19:3\">Targ. Jer. XIX, 3</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be clear; to clarify</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 75a:6\">Sabb. 75ᵃ</cite> <he>דלֵיצוּל</he> some ed. (oth. <he>דלֵיצִיל</he>, fr. <cite ref=\"R00352\"><he>צִיל</he></cite>), v. <cite ref=\"R00057\"><he>צֶבַע</he></cite> ch.—Part. pass. <cite ref=\"R00518\"><he>צָלִיל</he></cite>, f. <cite ref=\"R00511\"><he>צְלִילָא</he></cite>; pl. <he>צְלִילִין</he>; <he>צְלִילָן</he>, <he>צְלִילָתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 7:24\">Targ. Y. Ex. VII, 24</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 1:21\">Targ. Y. Gen. I, 21</cite> <he>צְלִילָתָא</he> (not <he>צְלִילְ׳</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to cast a long shadow</i> (cmp. ",
+			"units": [
+				"<cite ref=\"Nehemiah 13:19\">Neh. XIII, 19</cite>).—Part. <cite ref=\"R00518\"><he>צָלֵיל</he></cite>; f. <cite ref=\"R00511\"><he>צְלִילָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 9:4:3\">Y. Shebi. IX, 39ᵃ</cite> top <he>כד תחמון רגלא צ׳ וכ׳</he> when you see the foot casting a long shadow (towards evening, when people are going home from market), take it out of the market &c."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"id": "C01349",
+	"slug": "גרם-1",
+	"headword": {
+		"text": "גָּרַם"
+	},
+	"page": {
+		"number": 269,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"C01392\"><he>גרר</he></cite>) <i>to drag along, carry with it</i>.—Part. pass. <cite ref=\"C01298\"><he>גָּרוּם</he></cite> <i>added in boot, additional measure</i>, v. <cite ref=\"C00821\"><he>גֵּירוּמִין</he></cite>.—אַמָּה גְּרוּמָה <i>a large cubit</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 12\">Gen. R. s. 12</cite> [read:] <he>כאמה ג׳</he> the size of a liberal cubit (equal to a cubit and a half of strict measure; some ed. <he>גד׳</he>; vers. in ‘Rashi’ a. l. <he>גרמידא ומחצה</he>).—",
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:4:4\">Y. Shek. VI, end, 50ᵇ</cite> <he>אמה גרו׳</he>, read <cite ref=\"C00188\"><he>גְּדוּמָה</he></cite>, v. <cite ref=\"C00231\"><he>גָּדַם</he></cite>. [<cite ref=\"Tosefta Bekhorot 5:4\">Tosef. Bekh. V, 4</cite> <he>אצבעותיו גרומות</he> Var., ed. Zuck. <he>גְּדוּמוֹת</he>.]—Trnsf. <i>to carry with it, to be the cause of, to engender</i>. <he>דבר הגּוֹרֵם לממון</he> something which may be the cause of pecuniary profit or loss. ",
+				"<cite ref=\"Bava Kamma 71b\">B. Kam. 71ᵇ</cite> if one steals objects dedicated to the sanctuary for which the original owner is responsible in case of loss &c., he is bound to pay the thief’s fine (<cite ref=\"K01028\"><he>כֵּפֶל</he></cite>) to the owner; <he>אלמא דבר הג׳ למ׳ כממון דמי</he> which proves that that which may cause a pecuniary loss, is to be considered as the property of him to whom it may cause it. Ib. 98ᵇ according to the opinion of R. Shimeon who says <he>דבר הגורם … מיחייב</he> that what is the cause of monetary gain is considered as money, he who burns a note of indebtedness is bound to pay the full amount of the note; a. fr.—",
+				"<cite ref=\"Sanhedrin 104a:10\">Snh. 104ᵃ</cite> <he>גורם גלות לבניו</he> causes his children to be exiled. ",
+				"<cite ref=\"Berakhot 5b\">Ber. 5ᵇ</cite> bot. <he>ג׳ לשכינה וכ׳</he> is the cause of the Divine Presence departing from Israel. ",
+				"<cite ref=\"Moed Katan 25a\">M. Kat. 25ᵃ</cite> <he>בבל גָּרְמָה לו</he> Babylonia was the cause (that the Shekhinah did not rest upon him). ",
+				"<cite ref=\"Avodah Zarah 8b\">Ab. Zar. 8ᵇ</cite> bot. <he>המקום גורם</he> the place makes the act legal, i.e. only in the Temple hall can the Sanhedrin judge capital cases; <cite ref=\"Sanhedrin 14b\">Snh. 14ᵇ</cite> <he>המקום ג׳</he> only in the Temple hall can a rebellious elder be judged; <cite ref=\"Sanhedrin 87a\">ib. 87ᵃ</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Yevamot 1:1:16\">Y. Yeb. I, 2ᶜ</cite> top <he>דבר שהוא בא מחמת הגורם וכ׳</he> if a prohibition arises from a cause (a person that causes it, e.g. the prohibition against C.’s marrying B. because B.’s sister A. is his wife)—when the cause is removed (through A.’s death), the prohibition ceases; but a prohibition which has not its cause in the action of a person (but in natural kinship, e.g. C.’s daughter married to C.’s brother whereby she becomes forbidden to him also as his brother’s wife), is not removed with the removal of the cause of the (additional) prohibition, i.e. C. cannot perform the levir’s marriage with his brother’s wife since she has not ceased to be his daughter; ib. III, beg., 4ᶜ; IV, 6ᵃ top.—זה וזה גורם <i>a product of combined causes</i>. ",
+				"<cite ref=\"Temurah 30b:85\">Tem. 30ᵇ</cite> <he>זה וזה ג׳ אסור</he> a product of combined causes is forbidden, e.g. the offspring of a dam unfitted for the altar, and of a sire fit; <cite ref=\"Pesachim 27a\">Pes. 27ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Pesachim 26b:11\">Ib. 26ᵇ</cite> <he>זה וזה ג׳ מי שמעת ליה</he> can you prove that Rabbi adopts the rule forbidding the product of combined causes?—",
+				"<cite ref=\"Niddah 31a:77\">Nidd. 31ᵃ</cite> (homiletical play on <cite ref=\"Genesis 49:14\">Gen. XLIX, 14</cite>) <he>חמור ג׳ ליששכר</he> the braying of an ass was the cause of Isachar being begotten; <cite ref=\"Bereishit Rabbah 99:10\">Gen. R. s. 99</cite>; v. <cite ref=\"C01350\">next w.</cite>"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גֵּירֵם"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"C01348\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 39\">Gen. R. s. 39</cite> <he>הדרך מְגָרֶמֶת וכ׳</he> traveling is the cause of three evils."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִגְרָם"],
+			"senses": [
+				{
+					"gloss": "<i>to be indirectly engendered</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 55b\">Ab. Zar. 55ᵇ</cite> <he>אסור לִיגָּרֵם וכ׳</he> no assistance must be given to making unclean &c."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִגְרִים"],
+			"senses": [
+				{
+					"gloss": "<i>to leave a comb</i> (<cite ref=\"C01298\"><he>גֵּרוּם</he></cite>) <i>in striking a measure off</i>, whence (in ritual slaughtering) <i>to cut in a slanting direction, to let the knife slide beyond the space prescribed for cutting</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 19a\">Ḥull. 19ᵃ</cite>; <cite ref=\"Chullin 20a\">20ᵃ</cite>; a. fr.—Part. pass. f. <cite ref=\"M00404\"><he>מוּגְרֶמֶת</he></cite> an animal slaughtered by a slanting cut. ",
+						"<cite ref=\"Chullin 18b\">Ib. 18ᵇ</cite>; a. fr.—Denom. <cite ref=\"E00092\"><he>הַגְרָמָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

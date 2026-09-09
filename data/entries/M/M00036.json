@@ -1,0 +1,56 @@
+{
+	"id": "M00036",
+	"slug": "מאך-2",
+	"headword": {
+		"text": "מְאַךְ"
+	},
+	"page": {
+		"number": 722,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (v. <cite ref=\"M00470\"><he>מוּךְ</he></cite>) <i>to sink; to be humbled</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 6:6\">Targ. Jud. VI, 6</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 2:9\">Targ. Is. II, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 25:5\">Ib. XXV, 5</cite> <he>יִמְאֲכוּן</he> (ed. Ven. <he>יִמָ׳</he>; ed. Wil. <he>ימאסון</he>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 29:4\">Ib. XXIX, 4</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַמְאֵיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to lower, humble</i>. Ib. LI, 23; a. fr.—",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 44:20\">Targ. Ps. XLIV, 20</cite> <he>אַמְאַכְ׳</he> Ms. (ed. <cite ref=\"A02031\"><he>אֲמַכְ׳</he></cite>, v. <cite ref=\"M00470\"><he>מוּךְ</he></cite>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to lower one’s self, bow down</i>. Targ. Is. l. c.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["מָאֵיךְ", "מָאַךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to lower, humble</i>. Ib. XXV, 5. Ib. XXVI, 5 Levita (ed. <i>Af.</i>). ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 17:13\">Targ. Job XVII, 13</cite>. ",
+						"<cite ref=\"Aramaic Targum to Psalms 147:6\">Targ. Ps. CXLVII, 6</cite> Ms. (ed. <cite ref=\"M01376\"><he>מַכִּיךְ</he></cite>, v. <cite ref=\"M01387\"><he>מְכַךְ</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 29:11\">Targ. Prov. XXIX, 11</cite> ed. Wil. [read:] <he>מֵאֲכָהּ</he> lowers it (appeases the fool’s anger), v. <cite ref=\"H01807\"><he>חֲשֵׁב</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

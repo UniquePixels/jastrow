@@ -1,0 +1,23 @@
+{
+	"id": "P01485",
+	"slug": "עשירות",
+	"headword": {
+		"text": "עֲשִׁירוּת"
+	},
+	"page": {
+		"number": 1126,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01482\"><he>עָשִׁיר</he></cite>) <i>wealth</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 106b:14\">Keth. 106ᵇ</cite>, a. e. <he>במקום ע׳</he>, v. <cite ref=\"P00985\"><he>עֲנִיּוּת</he></cite>. Y. Peah IV, 18ᵃ sq. (ref. to <cite ref=\"I Chronicles 22:13\">I Chr. XXII, 13</cite> <he>בעניי</he>) <he>שאין ע׳ לפני מי וכ׳</he> none can claim to be rich before Him who spoke and the world arose. ",
+				"<cite ref=\"Gittin 30b:3\">Gitt. 30ᵇ</cite> <he>מאי שנא … לע׳ דלא וכ׳</he> why is it that they made provision for the debtor’s death, and none for the event of his becoming rich? <he>מיתה שכיחא ע׳ וכ׳</he> death is an ordinary occurrence, becoming rich is not; a. fr."
+			]
+		}
+	]
+}

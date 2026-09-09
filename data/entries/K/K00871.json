@@ -1,0 +1,29 @@
+{
+	"id": "K00871",
+	"slug": "כנף-1",
+	"headword": {
+		"text": "כָּנַף"
+	},
+	"page": {
+		"number": 650,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to bend; to cover</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִכְנַף"],
+			"senses": [
+				{
+					"gloss": "<i>to be covered, hidden</i>. Pesik. Zachor, p. 29ᵃ, a. e., v. <cite ref=\"K00873\"><he>כָּנָף</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

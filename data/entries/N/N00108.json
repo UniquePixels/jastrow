@@ -1,0 +1,24 @@
+{
+	"id": "N00108",
+	"slug": "נברכת",
+	"headword": {
+		"text": "נִבְרֶכֶת"
+	},
+	"page": {
+		"number": 871,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"B01268\"><he>בְּרֵיכָה</he></cite>) <i>wash-pond</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Moed Katan 1:6\">M. Kat. I, 6</cite>, expl. ",
+				"<cite ref=\"Moed Katan 8b:5\">ib. 8ᵇ</cite> <cite ref=\"B01120\"><he>בְּקִיעַ</he></cite>, v. <cite ref=\"C00649\"><he>גִּיהָא</he></cite>; Y. ib. I, 80ᵈ. ",
+				"<cite ref=\"Mishnah Bava Batra 2:1\">B. Bath. II, 1</cite> <he>נ׳ כובסין</he>; a. fr."
+			]
+		}
+	]
+}

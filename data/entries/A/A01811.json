@@ -1,0 +1,22 @@
+{
+	"id": "A01811",
+	"slug": "אלולי-1",
+	"headword": {
+		"text": "אֱלוּלי"
+	},
+	"page": {
+		"number": 67,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"A01809\"><he>אֱלוּל</he></cite>) <i>born in Elul</i>. Pl. <he>אֱלוּלִיִּים</he>, <he>אֱלוּלִיִּין</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 3:1:4\">Y. Shek. III, beg. 47ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

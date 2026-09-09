@@ -1,0 +1,26 @@
+{
+	"id": "B00639",
+	"slug": "בינא-1",
+	"headword": {
+		"text": "בִּינָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּינָתָא"
+		}
+	],
+	"page": {
+		"number": 163,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " f. ch. = h. <cite ref=\"B00642\"><he>בִּינָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 49:4\">Targ. Ps. XLIX, 4</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 12:12\">Targ. Job XII, 12</cite>; <cite ref=\"Aramaic Targum to Job 12:13\">13</cite>; v. <cite ref=\"B00559\"><he>בִּיּוּנָא</he></cite>"
+			]
+		}
+	]
+}

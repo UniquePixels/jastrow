@@ -1,0 +1,31 @@
+{
+	"id": "R00534",
+	"slug": "צלע-2",
+	"headword": {
+		"text": "צָלַע"
+	},
+	"page": {
+		"number": 1285,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"R00188\"><he>צְלֵי</he> II</cite>, a. <cite ref=\"I00519\"><he>טְלַע</he></cite>) [<i>to bend, hang over</i>,] <i>to halt</i>; trnsf. <i>to sin</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 764:13\">Yalk. Num. 764</cite> (ref. to <cite ref=\"Psalms 35:15\">Ps. XXXV, 15</cite> sq.) <he>כשאני צוֹלַעַת מעט וכ׳</he> as soon as I halt a little (am afflicted for my sins), they gather themselves against me; <cite ref=\"Pesikta Rabbati 13:1\">Pesik. R. s. 13</cite> <he>נכים עושים הדין בצוֹלְעִים</he> the paralyzed execute judgment on the halting (the wicked punish the frail); <cite ref=\"Pesikta Rabbati 13:1\">ib.</cite> [read:] <he>שמא נכים וחגרים עושים את הדין במי שצוֹלֵעַ</he> are the paralyzed and the crippled to punish him who halts?"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["צִלֵּעַ"],
+			"senses": [
+				{
+					"gloss": ". Ib. <he>כשאני מְצַלַּעַת וכ׳</he> when I halt (sin), they rejoice.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

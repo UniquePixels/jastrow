@@ -1,0 +1,51 @@
+{
+	"id": "M00713",
+	"slug": "מזג-2",
+	"headword": {
+		"text": "מְזַג"
+	},
+	"page": {
+		"number": 753,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"M00712\">same</cite> <cite ref=\"Targum Jonathan on Exodus 30:33\">Targ. Y. Ex. XXX, 33</cite> (h. text <he>ירקח</he>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 9:2\">Targ. Prov. IX, 2</cite>. Targ. II Esth. I, 8; a. fr.—",
+				"<cite ref=\"Bava Metzia 60a:11\">B. Mets. 60ᵃ</cite> <he>מַזְגֵּיה טעמיה וכ׳</he> he mixed it, (and) when he tasted it &c. ",
+				"<cite ref=\"Eruvin 54a:22\">Erub. 54ᵃ</cite> <he>אשכחיה … דקא מָזֵיג ליה וכ׳</he> he found his servant when he was about to mix the wine for him; <he>אִימְזְגֵיה אנא</he> I will mix it myself; <cite ref=\"Nedarim 55a:7\">Ned. 55ᵃ</cite>. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד מאת׳</he> 6) (in an enigma) <he>תרין מַזְגִּין</he> two give drink (the breasts). ",
+				"<cite ref=\"Shemot Rabbah 45\">Ex. R. s. 45</cite> <he>תרין אפין מזגין וכ׳</he> two angry faces putting hot water into the drink!, i.e. one adding to the other’s wrath, instead of placating; <cite ref=\"Midrash Tehillim 25:6\">Midr. Till. to Ps. XXV, 4</cite> <he>מרגזין רתחין</he> (corr. acc.; cmp. ",
+				"<cite ref=\"Devarim Rabbah 3\">Deut. R. s. 3</cite>). [<cite ref=\"Vayikra Rabbah 28\">Lev. R. s. 28</cite>, end <he>מזגיה</he>, v. <cite ref=\"A00968\"><he>אֲזִי</he></cite>.] <cite ref=\"Bereishit Rabbah 63\">Gen. R. s. 63</cite> (read:] <he>מַזְגָּהּ קדמיהון</he>, and tempered the bath before them (v. <cite ref=\"N01109\"><he>נְצַח</he></cite>); a. e.—Part. pass. <cite ref=\"M00713\"><he>מָזִיג</he></cite>, <cite ref=\"M00748\"><he>מְזִיגָא</he></cite>. ",
+				"<cite ref=\"Yoma 81b:11\">Yoma 81ᵇ</cite> <he>מ׳ מי אמרי</he> Ar. (ed. <he>מזוג</he>) did I say, ‘tempered’ (vinegar)?"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מַזֵּיג"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M00712\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 65:11\">Targ. Is. LXV, 11</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַמְזֵיג"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"M00712\">same</cite>, esp. <i>to mix drugs</i>. Part. <cite ref=\"M01657\"><he>מַמְזִיג</he></cite> <i>apothecary</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 30:25\">Targ. Y. Ex. XXX, 25</cite> [read:] <he>בשמא עובד מ׳</he>; <cite ref=\"Targum Jonathan on Exodus 30:35\">ib. 35</cite> (h. text <cite ref=\"T00438\"><he>רֹקֵחַ</he></cite>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

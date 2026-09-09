@@ -1,0 +1,23 @@
+{
+	"id": "B00710",
+	"slug": "בירוצין",
+	"headword": {
+		"text": "בִּירוּצִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 166,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (Æthiop. <he>אבן ברד</he>, v. Ges. H. Dict. s. v. <cite ref=\"C00190\"><he>גָּבִישׁ</he></cite>) <i>chrystal</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 28:18\">Targ. Job XXVIII, 18</cite>; v. <cite ref=\"B00707\"><he>בֵּירוּלִין</he></cite>."
+			]
+		}
+	]
+}

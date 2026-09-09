@@ -1,0 +1,46 @@
+{
+	"id": "L00404",
+	"slug": "ליאו",
+	"headword": {
+		"text": "לֵיאוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "לֵיאוּתָא"
+		},
+		{
+			"text": "לֵיע׳"
+		}
+	],
+	"page": {
+		"number": 705,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"L00015\"><he>לְאִי</he></cite>, <cite ref=\"L00608\"><he>לְעִי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>labor</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 40:28\">Targ. Is. XL, 28</cite> (ed. Wil. <cite ref=\"L00031\"><he>לִי׳</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 31:42\">Targ. Gen. XXXI, 42</cite> (ed. Berl. a. oth. <he>לֵיאוֹת</he>).—Esp. <i>vain labor, vanity</i>. ",
+				"<cite ref=\"Onkelos Numbers 23:21\">Targ. O. Num. XXIII, 21</cite> (Y. <cite ref=\"L00404\"><he>ליע׳</he></cite>; h. text <cite ref=\"P00899\"><he>עמל</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 10:1\">Targ. Is. X, 1</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>earning, acquired property</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:33\">Targ. Deut. XXVIII, 33</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 23:29\">Targ. Ez. XXIII, 29</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "N01179",
+	"slug": "נקוטאי",
+	"headword": {
+		"text": "נְקוֹטָאֵי"
+	},
+	"page": {
+		"number": 931,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"N01191\"><he>נְקַט</he></cite>) (<i>laborers</i>) <i>gathered from different places</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 83b:2\">B. Mets. 83ᵇ</cite> (Ms. H. <cite ref=\"L00668\"><he>לְקוֹטָאֵי</he></cite>)."
+			]
+		}
+	]
+}

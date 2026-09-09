@@ -1,0 +1,25 @@
+{
+	"id": "A01164",
+	"slug": "אידך",
+	"headword": {
+		"text": "אִידֵּךְ"
+	},
+	"page": {
+		"number": 45,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. a. fem. (= <cite ref=\"D00754\"><he>דֵּךְ</he></cite>, with <cite ref=\"A01113\"><he>אִי</he></cite> prosth.) <i>this, that</i>, freq. <i>the other, another</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 62a:8\">Yeb. 62ᵃ</cite>; a. fr. <he>תניא א׳</he> another (author or Boraitha) teaches. ",
+				"<cite ref=\"Yevamot 22b:17\">Ib. 22ᵇ</cite> <he>בא׳ קרא</he> in another verse. ",
+				"<cite ref=\"Bava Metzia 98b:1\">B. Mets. 98ᵇ</cite> <he>וא׳ לא ידענא</he> and as to the other (cow), I don’t know; a. fr.—Pl. <cite ref=\"A01159\"><he>אִידֵּי</he></cite>.—<he>א׳ וא׳</he> these and those, i.e. <i>both</i>. ",
+				"<cite ref=\"Yevamot 8a:15\">Yeb. 8ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

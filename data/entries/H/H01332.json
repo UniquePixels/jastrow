@@ -1,0 +1,21 @@
+{
+	"id": "H01332",
+	"slug": "חסא-3",
+	"headword": {
+		"text": "חָסָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 486,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Ḥasa</i>. ",
+			"units": ["<cite ref=\"Yevamot 121b:17\">Yeb. 121ᵇ</cite>"]
+		}
+	]
+}

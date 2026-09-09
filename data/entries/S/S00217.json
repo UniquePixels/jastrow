@@ -1,0 +1,31 @@
+{
+	"id": "S00217",
+	"slug": "קוא",
+	"headword": {
+		"text": "קוּא"
+	},
+	"page": {
+		"number": 1323,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to spit</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵקִיא"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S00216\">same</cite>, <i>to vomit</i>. Sifra Aḥăré, end (ref. to <cite ref=\"Leviticus 18:25\">Lev. XVIII, 25</cite>) <he>כאדם שמֵקִיא את מזונו</he> like a man vomiting his food; <cite ref=\"Yalkut Shimoni on Torah 599\">Yalk. Lev. 599</cite>. Esth. R. introd. to Par. 3 (play on <cite ref=\"S01144\"><he>קיקלון</he></cite> <cite ref=\"Habakkuk 2:16\">Hab. II, 16</cite>) <he>מקיא מלמעלן קלון מלמטן</he> (thou shalt be) vomiting above together with disgrace (nuisance) below; <he>וכיון שראו … שמקיא וכ׳</he> and when the two chiefs of his legions saw that he was vomiting &c. ",
+					"units": [
+						"<cite ref=\"Mishnah Mikvaot 10:8\">Mikv. X, 8</cite> <he>טבל והֵקִיאָן</he> if he vomited them after the immersion; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "O01092",
+	"slug": "סמיכות",
+	"headword": {
+		"text": "סְמִיכוּת"
+	},
+	"page": {
+		"number": 1000,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01091\">preced.</cite>) <i>ordination</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Sanhedrin 1:1\">Tosef. Snh. I, 1</cite> <he>סמיכה וס׳ זקנים וכ׳</he> the laying of hands (on the head of a communal sacrifice) and the ordination of elders require the presence of three; <cite ref=\"Sanhedrin 13b:9\">Snh. 13ᵇ</cite> <he>סמיכה וסְמִיכַת זקנים</he> (v. <cite ref=\"O01098\"><he>סְמַךְ</he> I</cite>); Y. ib. I, 19ᵃ bot. <he>הס׳ בשלשה</he>, expl. <he>לא סמיכה היא ס׳</he> <i>s’mikhah</i> is not the same as <i>s’mikhuth</i>, v. <cite ref=\"M01215\"><he>מִינּוּיָא</he></cite>.—[In later grammatical writings: <he>ס׳</he> <i>status constructus</i>.]"
+			]
+		}
+	]
+}

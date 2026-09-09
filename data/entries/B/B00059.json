@@ -1,0 +1,29 @@
+{
+	"id": "B00059",
+	"slug": "בביתא-2",
+	"headword": {
+		"text": "בָּבִיתָא",
+		"reconstructed": true,
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "בּוּבִיתָא"
+		}
+	],
+	"page": {
+		"number": 136,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"B00541\"><he>בִּיב</he></cite> a. <cite ref=\"B00058\">preced.</cite>) <i>gutter, outlet</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 85b:12\">Ḥull. 85ᵇ</cite> <he>על ב׳ דמיא</he> Ar. (ed. <cite ref=\"B01083\"><he>בו׳</he></cite>) over the outlet (wherein the flax is put); v. <cite ref=\"J00439\"><he>יָנִיבָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "H01712",
+	"slug": "חרכא",
+	"headword": {
+		"text": "חֲרַכָּא"
+	},
+	"page": {
+		"number": 503,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"H01710\"><he>חֲרָךְ</he> I</cite><i>breaking through, breaking in</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 22:1\">Targ. Y. Ex. XXII, 1</cite> (h. text <cite ref=\"M00957\"><he>מחתרת</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>window</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 15:29\">Targ. I Chr. XV, 29</cite>; <cite ref=\"Targum Jonathan on II Samuel 6:16\">Targ. II Sam. VI, 16</cite> (h. text <cite ref=\"H01000\"><he>חלון</he></cite>); a. e.—<i>Pl.</i> <he>חֲרַכִּין</he>, <cite ref=\"H01713\"><he>חֲרַכַּיָּא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 8:2\">Targ. Y. Gen. VIII, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:9\">Targ. Cant. II, 9</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

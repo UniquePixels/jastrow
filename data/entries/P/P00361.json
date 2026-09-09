@@ -1,0 +1,24 @@
+{
+	"id": "P00361",
+	"slug": "עורפילא",
+	"headword": {
+		"text": "עוּרְפִּילָא"
+	},
+	"page": {
+		"number": 1059,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (dimin. of <he>ערף</he>, v. ",
+			"units": [
+				"<cite ref=\"Deuteronomy 32:2\">Deut. XXXII, 2</cite>; <cite ref=\"Deuteronomy 33:28\">XXXIII, 28</cite>; v. <cite ref=\"P01426\"><he>עָרַף</he></cite>) <i>fine rain, drizzle</i>. ",
+				"<cite ref=\"Taanit 4a:1\">Taan. 4ᵃ</cite> top <he>ע׳ אפילו וכ׳</he> (Ms. M. <cite ref=\"P00681\"><he>ער׳</he></cite>) the drizzling rain is good even for the seeds under a hard clod. ",
+				"<cite ref=\"Taanit 4a:1\">Ib.</cite> (phonetic etym.) <he>מאי ע׳ עורו פילי</he> wake up, ye cracks (of the soil)."
+			]
+		}
+	]
+}

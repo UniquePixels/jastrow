@@ -1,0 +1,36 @@
+{
+	"id": "M03064",
+	"slug": "מתיר",
+	"headword": {
+		"text": "מַתִּיר"
+	},
+	"page": {
+		"number": 862,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N01392\"><he>נָתַר</he></cite>, <i>Hif.</i>) ",
+			"units": []
+		},
+		{
+			"gloss": " part. Hif. of <cite ref=\"N01392\"><he>נָתַר</he></cite> q. v.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>that which makes an object permitted for enjoyment</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 2:3\">Zeb. II, 3</cite> <he>המ׳</he> <i>the blood</i> (the sprinkling of which makes the sacrifice fit for eating or for the altar); a. fr.—Pl. <he>מַתִּירִים</he>, <he>מַתִּירִין</he>. ",
+				"<cite ref=\"Mishnah Zevachim 4:3\">Ib. IV, 3</cite>; <cite ref=\"Mishnah Meilah 2:9\">Meïl. II, 9</cite> <he>כל שיש לו מ׳</he> whatever may become permitted through a certain act, e. g. the meal-offering by taking a handful for the altar. ",
+				"<cite ref=\"Mishnah Meilah 2:9\">Ib.</cite> <he>מַתִּירָיו</he> those things which cause it to be available. Ib. 10ᵇ <he>דבר שיש לו מ׳ אינו חייב עד שיקרבו מ׳</he> a thing (sacrificial object) which requires an act to make it permissible, is not subject to <cite ref=\"M02111\"><he>מְעִילָה</he></cite>, until the things by which it is made available have been offered on the altar.—",
+				"<cite ref=\"Beitzah 3b:9\">Bets. 3ᵇ</cite> <he>דבר שיש לו מ׳</he> a thing which may become permitted (being prohibited only for the day). ",
+				"<cite ref=\"Bava Metzia 53a:2\">B. Mets. 53ᵃ</cite> <he>הוה ליה דבר שיש לו מ׳</he> it would be considered a thing which can be made fit (by redemption); a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

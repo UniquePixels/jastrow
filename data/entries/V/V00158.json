@@ -1,0 +1,24 @@
+{
+	"id": "V00158",
+	"slug": "תודה-2",
+	"headword": {
+		"text": "תּוֹדָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1650,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Todah</i> (an adaptation of <cite ref=\"V00103\"><he>תַּדַּאי</he></cite>, Thaddæus, for the sake of paronomasia), one of the disciples of Jesus. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 43a:26\">Snh. 43ᵃ</cite> (missing in later editions) <he>חמשה … ות׳</he> Jesus had five disciples; Matthew, … and T. ",
+				"<cite ref=\"Sanhedrin 43a:24\">Ib.</cite> <he>אתיוה לת׳ אמר ת׳ יהרג וכ׳</he> they brought up T., and he said, shall T. be put to death? is it not written (<cite ref=\"Psalms 100:1\">Ps. C, 1</cite>), a song of T.? Said they to him <he>אין ת׳ יהרג וכ׳</he> yes, T. shall be slain, for it is written (<cite ref=\"Psalms 50:23\">Ps. L, 23</cite>), he who sacrifices T. honoreth me."
+			]
+		}
+	]
+}

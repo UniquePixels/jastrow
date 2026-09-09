@@ -1,0 +1,30 @@
+{
+	"id": "A01484",
+	"slug": "איספקלטור",
+	"headword": {
+		"text": "אִיסְפִּקְלָטוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְפִיקְלָטוֹר"
+		}
+	],
+	"page": {
+		"number": 56,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (speculator, spiculator) <i>arm-bearer</i>, esp. <i>guardsman</i> of the Roman Emperor; mostly <i>executioner, torturer</i> (v. D. C. s. v.). ",
+			"units": [
+				"<cite ref=\"Shabbat 108a:12\">Sabb. 108ᵃ</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 19\">Num. R. s. 19</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 26\">Lev. R. s. 26</cite> <cite ref=\"O00788\"><he>ספ׳</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 1</cite>.  v. <cite ref=\"O01368\"><he>סְפִיקוּלָא</he></cite>."
+			]
+		}
+	]
+}

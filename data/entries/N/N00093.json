@@ -1,0 +1,44 @@
+{
+	"id": "N00093",
+	"slug": "נבל-5",
+	"headword": {
+		"text": "נֶבֶל"
+	},
+	"altHeadwords": [
+		{
+			"text": "נֵבֶל"
+		}
+	],
+	"page": {
+		"number": 869,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; cmp. b. h. <he>נבב</he>, a. <cite ref=\"A00056\"><he>אַבּוּב</he></cite>)<i>leather bottle</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 5:3\">Lev. R. s. 5</cite> (ref. to <cite ref=\"Amos 6:5\">Am. VI, 5</cite>) <he>שהיו פורטים … אלא בנ׳</he> they opened their mouths with words of levity, saying, David recited his songs only with the bottle (wine)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a hollow musical instrument, lyre</i> (with a leather body). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sukkah 5:6:3\">Y. Succ. V, 55ᶜ</cite> bot. <he>היא נ׳ היא כנור וכ׳</he> <i>nebel</i> and <i>kinnor</i> (cithern) are the same, with the only difference of more strings (for the former). ",
+				"<cite ref=\"Yoma 2a:3\">Ib.</cite> <he>למה נקרא נ̇ב̇ל̇ שהוא מ̇ל̇ב̇ין וכ׳</he>, v. <cite ref=\"L00095\"><he>לָבַן</he> II</cite>; <he>ע״י עור שאינו עבוד וכ׳</he> on account of the untanned skin and the larger number of strings it shames &c. ",
+				"<cite ref=\"Mishnah Arakhin 2:6\">Arakh. II, 6</cite> <he>לא היו אומרים בנ׳ וכ׳</he> they (the Levite boys) sang without accompaniment of <i>nebel</i> or <i>kinnor</i>; <cite ref=\"Arakhin 13b:36-37\">ib. 13ᵇ</cite> <he>למימרא דנ׳ לחוד וכ׳</he> does this intimate that <i>nebel</i> and <i>kinnor</i> are not the same?; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>a leather wind-instrument, a sort of bellows</i>. Ib. (ref. to <cite ref=\"Psalms 33:2\">Ps. XXXIII, 2</cite> sq.) <he>לעוה״ב איידי דנפישי נימין דידיה נפיש קליה כי נ׳ קרי ליה נ׳</he> because the <i>kinnor</i> of the future will have numerous strings (ten strings), and its sound will be loud like that of the <i>nebel</i>, it is called <i>nebel</i>.—Pl. <he>נְבָלִים</he>. Ib. II, 3. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 15:6\">Kel. XV, 6</cite> <he>נִבְלֵי השרה</he> the instruments for secular music; <he>נ׳ בני לוי</he> those of the Levites (in the Temple). Ib. XXIV, 14, v. <cite ref=\"M01045\"><he>מִטְפַּחַת</he></cite>."
+			],
+			"label": "3"
+		}
+	]
+}

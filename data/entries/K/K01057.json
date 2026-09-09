@@ -1,0 +1,29 @@
+{
+	"id": "K01057",
+	"slug": "כפרנא",
+	"headword": {
+		"text": "כַּפְרָנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוּפְ׳"
+		}
+	],
+	"page": {
+		"number": 662,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"K01049\"><he>כָּפָר</he></cite> , <i>village</i>.—Pl. <cite ref=\"K01053\"><he>כַּפְרָנַיָּא</he></cite>, <he>כַּפְרָנִין</he>, <cite ref=\"K01039\"><he>כּוּפְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 32:41\">Targ. Num. XXXII, 41</cite>, sq. (h. text <he>חוות</he>).—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:2\">Y. Ber. I, 2ᵃ</cite>, v. <cite ref=\"D01004\"><he>דַּקִּיק</he></cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:5\">Cant. R. to I, 5</cite> (expl. <cite ref=\"B00941\"><he>בנות</he></cite>, <cite ref=\"Ezekiel 16:61\">Ez. XVI, 61</cite>) <he>כופרנין</he> country towns.—Targ. II Esth. IX, 19 <cite ref=\"K01053\"><he>כַּפְרוֹנַיָּא</he></cite> (Var. <he>כּוּפְרְנָאִין</he>)."
+			]
+		}
+	]
+}

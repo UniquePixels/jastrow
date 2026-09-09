@@ -1,0 +1,23 @@
+{
+	"id": "V00964",
+	"slug": "תרונגא",
+	"headword": {
+		"text": "תְּרוּנְגָּא"
+	},
+	"page": {
+		"number": 1697,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"V00956\"><he>תְּרוֹגָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 2:3:4\">Y. Gitt. II, 44ᵇ</cite> <he>יהב ת׳ מתנה בריה</he> (ed. Krot. <cite ref=\"V01020\"><he>תרנגא</he></cite>, corr. acc., or <cite ref=\"V00956\"><he>תרוגא</he></cite>) presented an Ethrog to his son; (<cite ref=\"Jerusalem Talmud Sukkah 3:10:6\">Y. Succ. III, end, 54ᵃ</cite> <cite ref=\"A03448\"><he>אתרוגא</he></cite>).—Pl. <he>תְּרוּנְגַּיָּיא</he>. ",
+				"<cite ref=\"Jerusalem Talmud Sukkah 3:10:6\">Ib.</cite> <he>כהדא ת׳ הוון וכ׳</he> as was the case when Ethrogim &c., v. <cite ref=\"R00706\"><he>צַפְצֵף</he> I</cite>; Y. Gitt. l. c. <he>כהדא תרונגא</he> (corr. acc.)."
+			]
+		}
+	]
+}

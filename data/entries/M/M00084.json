@@ -1,0 +1,22 @@
+{
+	"id": "M00084",
+	"slug": "מבזעא",
+	"headword": {
+		"text": "מְבַזְעָא"
+	},
+	"page": {
+		"number": 725,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00299\"><he>בְּוַע</he></cite>) <i>shred</i> of a garment.—Pl. <he>מְבַזְעִין</he>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 104:6\">Targ. Ps. CIV, 6</cite> (Ms. <he>מַבּוּעִין</he>)."
+			]
+		}
+	]
+}

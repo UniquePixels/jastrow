@@ -1,0 +1,23 @@
+{
+	"id": "A02007",
+	"slug": "אמורי",
+	"headword": {
+		"text": "אֱמוֹרִי"
+	},
+	"page": {
+		"number": 76,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>Emorite; Emorean</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 41:7\">Gen. R. s. 41</cite> none among the nations are <he>קשה מא׳</he> more obstinate than the Em.—Trnsf. <i>Emorean, superstitious, heathen-like</i>. <he>דרכי הא׳</he> <i>superstitious practices</i>. ",
+				"<cite ref=\"Shabbat 67a\">Sabb. 67ᵃ</cite>, a. fr. <he>אין בו משום דרכי הא׳</he> is not to be looked upon (not forbidden) as an imitation of &c.; <he>יש בו משום דרכי הא׳</he> it is forbidden because it has the appearance of superstitious practices."
+			]
+		}
+	]
+}

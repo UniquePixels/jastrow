@@ -1,0 +1,23 @@
+{
+	"id": "M01990",
+	"slug": "מספייא",
+	"headword": {
+		"text": "מִסְפְּיָיא"
+	},
+	"page": {
+		"number": 810,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01349\"><he>סְפֵי</he></cite>) <i>fearfulness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 41:17\">Targ. Job XLI, 17</cite> (Ms. <he>מִסְיָיפ׳</he>; h. text <he>שֵׂת</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 31:23\">Ib. XXXI, 23</cite> (ed. Lag. <he>מסייפ׳</he>; Ms. Var. <cite ref=\"O01356\"><he>סַפְיָיא</he></cite>; h. text <cite ref=\"U00056\"><he>שְׂאֵת</he></cite>)."
+			]
+		}
+	]
+}

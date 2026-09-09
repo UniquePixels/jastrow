@@ -1,0 +1,23 @@
+{
+	"id": "B01139",
+	"slug": "בקר-4",
+	"headword": {
+		"text": "בָּקָר"
+	},
+	"page": {
+		"number": 187,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"B01136\"><he>בָּקַר</he></cite>) <i>a beef;</i> (collect.) <i>oxen, cattle</i>. Sifra <cite ref=\"Leviticus 2\">Vayikra ch. II, Par. 2</cite> <he>אין לך בבהמה אלא ב׳ וכ׳</he> under <i>b’hemah</i> for offerings (<cite ref=\"Leviticus 1:2\">Lev. I, 2</cite>) are meant only beeves and sheep; a. fr. <cite ref=\"B00506\"><he>בן ב׳</he></cite> <i>young cattle, calf</i>. ",
+			"units": [
+				"<cite ref=\"Leviticus 1:2\">Ib.</cite>; a. fr.—רועי ב׳ <i>herders</i> (suspected of feeding upon other people’s fields). ",
+				"<cite ref=\"Mishnah Sanhedrin 3:2\">Snh. III, 2</cite> <he>נאמנין עלי שלשה ר׳ ב׳</he> (if one says) I have faith in (the arbitration of) three herders."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "C01127",
+	"slug": "גנזק",
+	"headword": {
+		"text": "גִּנְזָק"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּינְזָק"
+		}
+	],
+	"page": {
+		"number": 258,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Ginzak, Gazaka</i>, a city in the North of Media Atropatene (v. Neub. Géogr. p. 375). ",
+			"units": [
+				"<cite ref=\"Kiddushin 72a:6\">Kidd. 72ᵃ</cite>; <cite ref=\"Yevamot 17a:1\">Yeb. 17ᵃ</cite>, expl. <he>נהר גוזן</he> (<cite ref=\"II Kings 18:11\">II Kings XVIII, 11</cite>). ",
+				"<cite ref=\"Avodah Zarah 34a\">Ab. Zar. 34ᵃ</cite>; <cite ref=\"Avodah Zarah 39a\">39ᵃ</cite>; <cite ref=\"Bereishit Rabbah 33:3\">Gen. R. s. 33</cite> (mentioned in connection with R. Akiba); <cite ref=\"Taanit 11b\">Taan. 11ᵇ</cite> (v. Rabb. D. S. a. l. note 7). ",
+				"<cite ref=\"Tractate Semachot 12:13\">Treat. S’maḥ. ch. XII</cite>."
+			]
+		}
+	]
+}

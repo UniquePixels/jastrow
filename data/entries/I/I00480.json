@@ -1,0 +1,42 @@
+{
+	"id": "I00480",
+	"slug": "טלומא-1",
+	"headword": {
+		"text": "טְלוּמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְלוֹ׳"
+		},
+		{
+			"text": "טוּלְ׳"
+		}
+	],
+	"page": {
+		"number": 536,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00512\"><he>טְלַם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>oppression</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 7:4\">Targ. Ps. VII, 4</cite> (Ms. <cite ref=\"I00480\"><he>טול׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 62:11\">Ib. LXII, 11</cite> (Var. <cite ref=\"I00494\"><he>טְלִי׳</he></cite>, <cite ref=\"I00486\"><he>טִילְ׳</he></cite>); a. fr.—Pl. <cite ref=\"I00482\"><he>טְלוּמַיָּא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 28:16\">Targ. Prov. XXVIII, 16</cite> (ed. Wil. <cite ref=\"I00480\"><he>טול׳</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>wronged</i>, v. <cite ref=\"I00512\"><he>טְלַם</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

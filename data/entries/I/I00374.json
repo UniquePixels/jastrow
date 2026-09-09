@@ -1,0 +1,38 @@
+{
+	"id": "I00374",
+	"slug": "טימורא",
+	"headword": {
+		"text": "טִימוּרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִמוּ׳"
+		}
+	],
+	"page": {
+		"number": 532,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00561\"><he>טְמַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>secrecy</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 9:17\">Targ. Prov. IX, 17</cite> ed. Lag. a. oth. (some ed. <cite ref=\"I00329\"><he>טיטויא</he></cite>, <cite ref=\"I00331\"><he>טיטורא</he></cite>; corr. acc.).—[<cite ref=\"Aramaic Targum to Psalms 11:4\">Targ. Ps. XI, 4</cite> <he>טימורוי</he> ed. Lag., v. <cite ref=\"V00467\"><he>תִּימְרָא</he></cite>.]—",
+				"<cite ref=\"Aramaic Targum to Job 40:21\">Targ. Job XL, 21</cite> <cite ref=\"I00539\"><he>טִמוּר</he></cite> constr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>hiding, turningaway</i>. Ib. XXIV, 15.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

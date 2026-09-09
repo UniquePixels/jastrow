@@ -1,0 +1,46 @@
+{
+	"id": "I00811",
+	"slug": "טריפה-2",
+	"headword": {
+		"text": "טְרֵיפָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְרֵפָה"
+		}
+	],
+	"page": {
+		"number": 554,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"I00859\"><he>טָרַף</he></cite>)<i>an animal torn by a beast of prey</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 7\">Midr. Till. to Ps. VII</cite>, v. <cite ref=\"I00862\"><he>טֶרֶף</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (ritual law) <i>an animal afflicted with a</i> (<i>fatal</i>) <i>organic disease</i>, the discovery of which, after slaughtering, makes it forbidden, <i>t’refah</i>, (of persons, m.) <i>one having a fatal organic disease</i> (the killing of whom would not be considered murder before the law). ",
+			"units": [
+				"<cite ref=\"Chullin 42a:10\">Ḥull. 42ᵃ</cite> <he>ט׳ אינה חיה</he> a <i>t’refa</i> animal cannot survive (a year); a. fr.—",
+				"<cite ref=\"Sanhedrin 78a:9\">Snh. 78ᵃ</cite> <he>ההורג את הט׳</he> if one kills a person afflicted with a fatal organic disease; <he>וט׳ שהרג</he> and if such a person committed a murder. ",
+				"<cite ref=\"Sanhedrin 78a:9\">Ib.</cite> <he>עידי ט׳</he> witnesses afflicted &c.; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>organic disease</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 13:3\">Lev. R. s. 13</cite> (ref. to <cite ref=\"H00716\"><he>החיה</he></cite>, <cite ref=\"Leviticus 11:2\">Lev. XI, 2</cite>) <he>החיה מטְרֵיפָתָהּ וכ׳</he> that which can recover from its disease, you may eat.—Pl. <he>טְרֵיפוֹת</he>, <he>טְרֵפוֹת</he>. ",
+				"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite>; a. fr.—Esp. <i>cases of t’refah, ritual law concerning t’refah</i>. ",
+				"<cite ref=\"Chullin 48b:8\">Ib. 48ᵇ</cite>; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

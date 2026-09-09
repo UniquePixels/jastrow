@@ -1,0 +1,47 @@
+{
+	"id": "G00659",
+	"slug": "זר-2",
+	"headword": {
+		"text": "זָר"
+	},
+	"page": {
+		"number": 411,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; v. <cite ref=\"G00233\"><he>זוּר</he></cite> a. ",
+			"units": []
+		},
+		{
+			"gloss": "<i>stranger;</i> (in Talm. mostly) <i>non-priest, layman</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 2:1\">Zeb. II, 1</cite>. ",
+				"<cite ref=\"Zevachim 14a:21\">Ib. 14ᵃ</cite>; <cite ref=\"Yoma 49a:3\">Yoma 49ᵃ</cite>; a. fr.—Fem. <cite ref=\"G00674\"><he>זָרָה</he></cite>. ",
+				"<cite ref=\"Yevamot 85b:13\">Yeb. 85ᵇ</cite> <he>ותהא ז׳ וכ׳</he> granted that she is not of a priestly family;—is not a lay-woman permitted &c.?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>oppressor, enemy</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 9:1:4\">Y. Ned. IX, beg. 41ᵇ</cite> (ref. to <he>אל זר</he>, <cite ref=\"Psalms 81:10\">Ps. LXXXI, 10</cite>) <he>זר שבקרבך וכ׳</he> do not make the enemy within thyself thy king; <cite ref=\"Shabbat 105b:8\">Sabb. 105ᵇ</cite> <he>איזהו אל זר וכ׳</he> which is the tyrannical power within thee?—",
+				"<cite ref=\"Shemot Rabbah 34:2\">Ex. R. s. 34</cite> (play on <cite ref=\"G00658\"><he>זֵר</he></cite> a. <cite ref=\"G00659\"><he>זָר</he></cite>, v. <cite ref=\"G00416\"><he>זֵיר</he></cite>) if one is worthy <he>נעשים לו זֵר ואם לאו זר</he> they are to him a crown, if not—an enemy; Tanḥ. Vayakh. 8.—Fem. <cite ref=\"G00674\"><he>זָרָה</he></cite>. ",
+				"<cite ref=\"Yoma 72b:7\">Yoma 72ᵇ</cite> <he>נעשית לו ז׳</he> Ms. O. (Ms. M. <he>נעשית ז׳ ממנו</he>) the Law appears to him a tyrant (Ms. M. she becomes estranged from him, v. <cite ref=\"G00233\"><he>זוּר</he></cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>outcast; shunned, loathsome</i> (v. <cite ref=\"G00661\"><he>זָרָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 7:4\">Num. R. s. 7</cite> (play on <cite ref=\"G00661\"><he>זָרָא</he></cite>, <cite ref=\"Numbers 11:20\">Num. XI, 20</cite>) <he>והיאך נעשה ז׳ וכ׳</he> and how does he become an outcast? Leprosy overcomes him.—Pl. <he>זָרִים</he>. ",
+				"<cite ref=\"Numbers 11:20\">Ib.</cite> <he>ז׳ מן הקהל</he> excluded from the congregation.—",
+				"<cite ref=\"Mishnah Zevachim 3:1\">Zeb. III, 1</cite>; a. fr."
+			],
+			"label": "3"
+		}
+	]
+}

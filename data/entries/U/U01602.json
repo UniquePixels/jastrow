@@ -1,0 +1,48 @@
+{
+	"id": "U01602",
+	"slug": "שנן-2",
+	"headword": {
+		"text": "שְׁנַן"
+	},
+	"page": {
+		"number": 1607,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01601\">same</cite>. Part. pass. <cite ref=\"U01602\"><he>שָׁנִין</he></cite>, <cite ref=\"U01152\"><he>שְׁנִינָא</he></cite> (<he>שְׁנוּ׳</he>); pl. <he>שְׁנִינִין</he> (<he>שְׁנוּ׳</he>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 25:18\">Targ. Prov. XXV, 18</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 3:24\">Targ. Y. I Gen. III, 24</cite> (Y. II <cite ref=\"U01573\"><he>שְׁנוּ׳</he></cite>, not <cite ref=\"U01577\"><he>שִׁנּוּ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:41\">Targ. Y. I Deut. XXXII, 41</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 120:4\">Targ. Ps. CXX, 4</cite> <he>שני׳</he> ed. Lag. (oth. ed. <he>שנו׳</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁנֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to sharpen</i>. Ib. LXIV, 4 <he>שַׁנִּינוּ</he> (ed. Wil. <he>שְׁנִי׳</he>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Jeremiah 51:11\">Targ. Jer. LI, 11</cite>. Targ. Y. II, Deut. l. c. <he>אישני בברקא</he>, read: <he>אִישֵׁנֵּין כברקא</he>."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתַּנֵּין"],
+			"senses": [
+				{
+					"gloss": "<i>to be sharpened, polished</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 21:15\">Targ. Ez. XXI, 15</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

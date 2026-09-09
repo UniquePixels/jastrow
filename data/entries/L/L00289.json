@@ -1,0 +1,56 @@
+{
+	"id": "L00289",
+	"slug": "לון-1",
+	"headword": {
+		"text": "לוּן"
+	},
+	"altHeadwords": [
+		{
+			"text": "לִין",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 699,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to stay over night, to take</i> (<i>night</i>-) <i>lodging; to be kept over night</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 12:3\">Num. R. s. 12</cite>, beg. (ref. to <cite ref=\"Psalms 91:1\">Ps. XCI, 1</cite>) <he>שלָו שם לינות הרבה</he>, v. <cite ref=\"L00489\"><he>לִינָה</he></cite>. ",
+				"<cite ref=\"Psalms 91:1\">Ib.</cite> <he>הקב״ה … נתאוה לָלוּן בצלינו</he> the Lord … is desirous to lodge under our shade (Tabernacle). ",
+				"<cite ref=\"Mishnah Sanhedrin 6:4\">Snh. VI, 4</cite> <he>ואם לן</he> but if his body was allowed to hang over night. ",
+				"<cite ref=\"Pesachim 42a\">Pes. 42ᵃ</cite> <he>מים שלָנוּ</he> water which has been kept in vessels over night (misunderstood for ‘our water’, v. <cite ref=\"B00752\"><he>בִּית</he></cite>). ",
+				"<cite ref=\"Berakhot 18b:7\">Ber. 18ᵇ</cite> <he>ולן בבית הקברות</he> and stayed over night in the burial ground; a. fr.—[<cite ref=\"Bereishit Rabbah 60:8\">Gen. R. s. 60</cite>, distinction between <he>לָלִין</he>, <cite ref=\"Genesis 24:23\">Gen. XXIV, 23</cite> and <he>לָלוּן</he>, <cite ref=\"Genesis 24:25\">ib. 25</cite>, v. <cite ref=\"L00489\"><he>לִינָה</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵלִין"],
+			"senses": [
+				{
+					"gloss": "<i>to keep over night</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 99a\">B. Kam. 99ᵃ</cite> <he>עובר משום</he> (<cite ref=\"L00003\"><he>לא</he></cite>) <he>בל תָּלִין</he> transgresses the law which says, (<cite ref=\"Leviticus 19:13\">Lev. XIX, 13</cite>) ‘thou shalt not &c.’; <cite ref=\"Mishnah Bava Metzia 9:12\">B. Mets. IX, 12</cite> <he>יש בו משום לא תלין וכ׳</he> the prohibition to keep the wages of the hired man over night applies to it; <cite ref=\"Bava Metzia 111b\">ib. 111ᵇ</cite>; a. fr.—Esp. <i>to leave a corpse unburied over night</i>. ",
+						"<cite ref=\"Mishnah Sanhedrin 6:5\">Snh. VI, 5</cite> <he>כל המֵלִין את וכ׳</he> whosoever postpones the burial of his dead transgresses a prohibitory law (ref. to <cite ref=\"Deuteronomy 21:23\">Deut. XXI, 23</cite> in its general application); <he>הֵלִינוֹ לכבודו וכ׳</he> but if one kept him over night for his honor’s sake (to prepare a more honorable burial) &c.; a. fr.—V. <cite ref=\"E00579\"><he>הֲלָנָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְלוֹנֵן"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpol</i>. <cite ref=\"A02252\"><he>נִתְלוֹנֵן</he></cite> <i>to seek shelter; to take refuge</i>. Num. R. l. c. (ref. to Ps. l. c.) [read:] <he>שדי תִּתְלוֹנֵן בצל שעשה לך וכ׳</he> Almighty, be pleased to lodge in the shade which Bezaleel has made for thee. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 906:5\">Yalk. Job 906</cite> <he>יש להם מנוס שׁיִתְלוֹנְנוּ מדינה וכ׳</he> have a place of refuge where to find shelter from the judgment of Gehenna; (<cite ref=\"Yalkut Shimoni on Nach 41:2\">Yalk. Jud. 41</cite> <he>שינצלו</he>)."
+					]
+				}
+			],
+			"stem": "Hithpol."
+		}
+	]
+}

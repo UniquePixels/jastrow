@@ -1,0 +1,59 @@
+{
+	"id": "T00215",
+	"slug": "רגן-1",
+	"headword": {
+		"text": "רָגַן"
+	},
+	"page": {
+		"number": 1450,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to move in excitement; to crowd; to quarrel</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 801\">Yalk. Deut. 801</cite> <he>רוֹגְנִין</he>; v., however, <cite ref=\"T00406\"><he>רוֹנָן</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִרְגַּן"],
+			"senses": [
+				{
+					"gloss": "<i>to crowd together</i> (in discontent); <i>to be surrounded by a crowd; to create discontent</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 16b:17\">Nidd. 16ᵇ</cite> (a variant to <he>הנרגל</he>, v. <cite ref=\"T00202\"><he>רָגַל</he></cite>) (<he>בבית המשתאות</he>) <he>שר הנִרְגָּן</he> a magistrate (or scholar) that is surrounded by a crowd (whom he incites to riot) in drinking houses."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["רִגֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to heap, cast</i>, (with <he>דברים</he>, cmp. <cite ref=\"I00141\"><he>טוּחַ</he></cite>) <i>to speak rebelliously, reproach</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite>, beg. (ref. to <he>נרגן</he>, <cite ref=\"Proverbs 16:28\">Prov. XVI, 28</cite>) <he>זה הנחש … שר׳ ד׳ וכ׳</he> that is the serpent … that spoke rebelliously against his Creator; <cite ref=\"Yalkut Shimoni on Nach 956:6\">Yalk. Prov. 956</cite>. ",
+						"<cite ref=\"Bamidbar Rabbah 16\">Num. R. s. 16</cite> (ref. to <cite ref=\"Proverbs 18:8\">Prov. XVIII, 8</cite> <he>נרגן</he>, a. ",
+						"<cite ref=\"Deuteronomy 1:27\">Deut. I, 27</cite> <he>ותרגנו</he>) <he>דברים שרִגְּניּ אחר וכ׳</he> (or <he>שרָגְנוּ</he>) the words which they cast up behind the Lord, caused them great distress; Tanḥ. Sh’laḥ 11; <cite ref=\"Yalkut Shimoni on Torah 743:3\">Yalk. Num. 743</cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְרַגֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to gather crowds around one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 24:1\">Sifré Deut. 24</cite> <he>ומִתְרַגְּנִים</he>, v. <cite ref=\"M03077\"><he>מִתְלַהֵם</he></cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

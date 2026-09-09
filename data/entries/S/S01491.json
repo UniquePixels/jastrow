@@ -1,0 +1,22 @@
+{
+	"id": "S01491",
+	"slug": "קמצן",
+	"headword": {
+		"text": "קַמְצָן"
+	},
+	"page": {
+		"number": 1387,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S01483\"><he>קָמַץ</he></cite>) <i>grasping, greedy</i>; <he>בן ק׳</he> a greedy person. ",
+			"units": [
+				"<cite ref=\"Tosefta Sotah 13:8\">Tosef. Sot. XIII, 8</cite> ed. Zuck. (Var. <cite ref=\"H01208\"><he>חַמְסָן</he></cite>), v. <cite ref=\"H01217\"><he>חַמְצָן</he></cite>."
+			]
+		}
+	]
+}

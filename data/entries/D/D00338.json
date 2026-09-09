@@ -1,0 +1,23 @@
+{
+	"id": "D00338",
+	"slug": "דוקרא",
+	"headword": {
+		"text": "דּוּקְרָא"
+	},
+	"page": {
+		"number": 288,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (<he>דקר</he>) <i>fork-like reed</i>, opp. to <cite ref=\"S01566\"><he>קני</he></cite> plain stems; prop. Pl. <he>דּוּקְרִין</he>, <he>דּוּקְרֵי</he>. ",
+			"units": [
+				"<cite ref=\"Sukkah 13a:4\">Succ. 13ᵃ</cite> <he>ד׳ דקני</he> the pronged reeds (corresp. to <cite ref=\"A02777\"><he>אַפְקוֹתָא</he></cite> of the palm-tree, Rashi). ",
+				"<cite ref=\"Vayikra Rabbah 12:4\">Lev. R. s. 12</cite>."
+			]
+		}
+	]
+}

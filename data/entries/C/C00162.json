@@ -1,0 +1,29 @@
+{
+	"id": "C00162",
+	"slug": "גדגדניות",
+	"headword": {
+		"text": "גַּדְגַּדְנִיּוֹת"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּדְגַּ׳"
+		}
+	],
+	"page": {
+		"number": 210,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (cmp. <cite ref=\"C00154\"><he>גַּד</he> II</cite>) <i>melilot</i>, a kind of clover, v. <cite ref=\"E00666\"><he>הִנְדְּקוֹקָא</he></cite>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 3:1:6\">Y. Erub. III, 20ᵈ</cite> top; <cite ref=\"Jerusalem Talmud Peah 8:4:4\">Y. Peah VIII, 21ᵃ</cite> top; <cite ref=\"Eruvin 28a:7\">Erub. 28ᵃ</cite>. ",
+				"<cite ref=\"Berakhot 57b:10\">Ber. 57ᵇ</cite>.—[In later ritualistic literature our w. designates <i>cherries</i>, v. Löw Pfl. p. 94.]"
+			]
+		}
+	]
+}

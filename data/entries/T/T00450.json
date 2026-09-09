@@ -1,0 +1,24 @@
+{
+	"id": "T00450",
+	"slug": "רושם-1",
+	"headword": {
+		"text": "רוֹשֶׁם"
+	},
+	"page": {
+		"number": 1464,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T01091\"><he>רָשַׁם</he></cite>) <i>mark, trace</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 52b:25\">Snh. 52ᵇ</cite> <he>מיתה שאין בה ר׳</he> a death which leaves no mark of violence on the body. ",
+				"<cite ref=\"Bereishit Rabbah 43:6\">Gen. R. s. 43</cite> <he>כל יין … עושה ר׳ וכ׳</he> wherever the enjoyment of wine is mentioned in the Bible it leaves a trace (has evil consequences), except this (<cite ref=\"Genesis 14:18\">Gen. XIV, 18</cite>); a. e.—",
+				"<cite ref=\"Tosefta Ohalot 16:5\">Tosef. Ohol. XVI, 5</cite>, v. <cite ref=\"V00431\"><he>תִּיחוּחַ</he></cite>.—[<cite ref=\"Tosefta Niddah 4:10\">Tosef. Nidd. IV, 10</cite> <he>בר׳</he>, v. <cite ref=\"T01075\"><he>רָשׁוֹן</he></cite>.]"
+			]
+		}
+	]
+}

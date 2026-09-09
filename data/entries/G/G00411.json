@@ -1,0 +1,23 @@
+{
+	"id": "G00411",
+	"slug": "זיקוקא-2",
+	"headword": {
+		"text": "זִיקוּקָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 396,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (dimin. of <cite ref=\"G00405\"><he>זִיקָא</he> II</cite>) <i>bottle</i>.—Pl. <he>זִיקוּקִין</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:4:11\">Y. Ab. Zar. II, 41ᶜ</cite> top <he>ז׳ זעירין</he> small bottles."
+			]
+		}
+	]
+}

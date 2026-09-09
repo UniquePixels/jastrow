@@ -1,0 +1,31 @@
+{
+	"id": "U00960",
+	"slug": "שימור",
+	"headword": {
+		"text": "שִׁימּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁמּ׳"
+		}
+	],
+	"page": {
+		"number": 1563,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01525\"><he>שָׁמַר</he></cite>) <i>guarding, care</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 15a:13\">B. Kam. 15ᵃ</cite> <he>לאו בחזקת ש׳ וכ׳</he> are not presumed to be guarded against, i.e. need special guarding (<cite ref=\"Exodus 21:29\">Ex. XXI, 29</cite>); <cite ref=\"Exodus 21:29\">ib.</cite> <he>בחזקת ש׳ וכ׳</he> are presumed to be safe (the owner is not bound to guard them). ",
+				"<cite ref=\"Nedarim 37a:3\">Ned. 37ᵃ</cite> <he>שכר ש׳</he> the teacher is paid for guarding the pupils (and not for the teaching itself). ",
+				"<cite ref=\"Nedarim 37a:3\">Ib.</cite> <he>גדול בר ש׳ הוא</he> does an adult need guarding? <cite ref=\"Kohelet Rabbah 5:10\">Koh. R. to V, 10</cite> <he>צריך ש׳ וכ׳</he> must be watched against weasels &c.; a. fr.—Pl. <he>שִׁימּוּרִים</he>, <cite ref=\"U00958\"><he>שִׁמּ׳</he></cite> (b. h. <cite ref=\"U01527\"><he>שִׁמֻּרִים</he></cite>); <he>ליל ש׳</he> a night of watching. ",
+				"<cite ref=\"Pesachim 109b:5\">Pes. 109ᵇ</cite>; <cite ref=\"Rosh Hashanah 11b:4\">R. Hash. 11ᵇ</cite>, a. e., v. <cite ref=\"U01525\"><he>שָׁמַר</he></cite>.—2) (v. <cite ref=\"U01527\"><he>שְׁמָרִים</he></cite>) <i>clearing wine, straining</i>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 20:1:4\">Y. Sabb. XX, beg. 17ᶜ</cite> <he>הותר מכלל ש׳</he> is permitted on the Holy Day as far as straining is concerned; <cite ref=\"Jerusalem Talmud Beitzah 1:10:5\">Y. Bets. I, 60ᵈ</cite> bot."
+			]
+		}
+	]
+}

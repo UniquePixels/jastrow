@@ -1,0 +1,64 @@
+{
+	"id": "N01345",
+	"slug": "נשר-1",
+	"headword": {
+		"text": "נָשַׁר"
+	},
+	"page": {
+		"number": 942,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"N01328\"><he>נָשַׁל</he></cite>) <i>to drop, fall off</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 7:3\">Peah VII, 3</cite> <he>איזהו פרט הנוֹשֵׁר וכ׳</he> by <i>pereṭ</i> (<cite ref=\"Leviticus 19:10\">Lev. XIX, 10</cite>) is understood that which drops on cutting grapes. ",
+				"<cite ref=\"Beitzah 2b:14\">Bets. 2ᵇ</cite> <he>פירות הנוֹשְׁרִין</he> fruit which drops from the tree (on the Holy Day). Y. ib. I, beg. 60ᵃ <he>ספק מהיום נָשְׁרוּ וכ׳</he> where it is doubtful whether they fell off to-day (on the Holy-Day) &c. ",
+				"<cite ref=\"Bereishit Rabbah 10\">Gen. R. s. 10</cite>, v. <cite ref=\"N01328\"><he>נָשַׁל</he></cite>; a. fr.—",
+				"<cite ref=\"Mishnah Shabbat 22:4\">Sabb. XXII, 4</cite> (<cite ref=\"Shabbat 146b:11\">146ᵇ</cite>) <he>מי שנשרו כליו בדרך</he> (<he>במים</he>) if one’s garments (cloak) fell into a puddle on the road."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשִּׁיר"],
+			"senses": [
+				{
+					"gloss": " (<cite ref=\"K01324\"><he>הִנְשִׁיר</he></cite>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to let fall, drop</i>. Ib. 67ᵃ <he>אילן שמַשִּׁיר פירותיו</he> a tree that drops its fruit prematurely. ",
+					"units": [
+						"<cite ref=\"Mishnah Nazir 6:3\">Naz. VI, 3</cite> <he>מפני שמַשֶּׁרֶת וכ׳</he> because it causes falling out of the hair. Y. Peah VIII, 20ᵃ bot. <cite ref=\"M02978\"><he>מַשִּׁיר</he></cite> (not <he>משייר</he>), v. <cite ref=\"M00796\"><he>מַחֲבוֹא</he></cite>. ",
+						"<cite ref=\"Midrash Tehillim 14:4\">Midr. Till. to Ps. XIV</cite> <he>עתיד … להַשִּׁירוֹ</he> the Lord will cause him to drop, v. <cite ref=\"N00298\"><he>נוֹבֶלֶת</he></cite>. ",
+						"<cite ref=\"Ketubot 6b:2\">Keth. 6ᵇ</cite> <he>אע״פ שמַשִּׁיר צרורות</he> although (by walking through the breach) he causes pebbles to break loose; Y. Ber. II, 5ᵇ top <he>אפי׳ מַשֶּׁרֶת צרורות</he> even if the wall is so brittle as to drop &c.; a. fr.—",
+						"<cite ref=\"Beitzah 35b:10\">Bets. 35ᵇ</cite> <he>מַשִּׁירִין</he>, <cite ref=\"M01442\"><he>מַנְשִׁירִין</he></cite> (prob. to be read: <he>מְנַשְּׁרִין</he> as versions of <he>מַשִּׁילִין</he>, v. <cite ref=\"N01328\"><he>נָשַׁל</he></cite>).—",
+						"<cite ref=\"Esther Rabbah 4:2\">Esth. R. to I, 14</cite> <he>ומַשִּׁירָן</he>, v. <cite ref=\"K01276\"><he>כַּרְשׁינָה</he> II</cite>."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִשֵּׁר"],
+			"senses": [
+				{
+					"gloss": "<i>to drop, let drop</i>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. Assyr. našâru, Del. Assyr. Handw., p. 487) <i>to tear, lacerate</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 11a\">Ab. Zar. 11ᵃ</cite> sq. <he>איזהו עיקור … המְנַשֵּׁר פרסותיה וכ׳</he> what mutilation of an animal’s feet does not affect its vitality (v. <cite ref=\"I00811\"><he>טְרֵפָה</he></cite>)? Cutting the tendons of its hoofs beneath the ankle; <cite ref=\"Avodah Zarah 13a\">ib. 13ᵃ</cite>. ",
+						"<cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite> <he>מְנַשְּׁרִים בשערו</he> they pluck his hair."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

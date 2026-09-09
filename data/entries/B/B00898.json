@@ -1,0 +1,81 @@
+{
+	"id": "B00898",
+	"slug": "בלע-1",
+	"headword": {
+		"text": "בָּלַע"
+	},
+	"page": {
+		"number": 174,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בל</he> , v. <cite ref=\"B00880\"><he>בלל</he></cite>) <i>to absorb</i>, opp. <he>פלט</he>; <i>to swallow, consume</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 6:1:8\">Y. Shek. VI, 49ᶜ</cite> bot.… <he>שהאור בּוֹלֵעַ בּוֹלַעַת … בּוֹלְעִין</he> the flame absorbs a portion of the oil, and so do the wood and the kettle. ",
+				"<cite ref=\"Chullin 110b\">Ḥull. 110ᵇ</cite> the liver when boiled with other meat <he>פולטת ואינה ב׳</he> gives out (blood) but absorbs nothing from the other pieces. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 14:4:5\">Y. Sabb. XIV, 14ᵈ</cite> top; <cite ref=\"Tosefta Shabbat 12:3\">Tosef. Sabb. XII</cite> (<cite ref=\"Tosefta Shabbat 13:9\">XIII</cite>), 9 but he may sip vinegar <he>ובוֹלֵעַ</he> and swallow it (opp. <he>פלט</he> to spit it out). ",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:1:11\">Y. Ter. VIII, 45ᵇ</cite> bot. <he>הלעוס כבָלוּעַ</he> what is chewed is to be considered as swallowed. ",
+				"<cite ref=\"Chullin 71a:23\">Ḥull. 71ᵃ</cite> <he>טומאה בְלוּעָה</he> an unclean object (food) that has been swallowed.—",
+				"<cite ref=\"Sanhedrin 110a:14\">Snh. 110ᵃ</cite> <he>הַבְּלוּעִין</he> those (of the band of Korah) that were swallowed up. ",
+				"<cite ref=\"Mishnah Kelim 9:6\">Kel. IX, 6</cite>, v. <cite ref=\"D01033\"><he>דָּֽרְבָן</he></cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִבְלַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be swallowed;</i> with <he>בין</he>, <i>to be absorbed, disappear</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 36b:16\">Sot. 36ᵇ</cite>; Tanḥ. Vayigg. 4; <cite ref=\"Yalkut Shimoni on Torah 150:1\">Yalk. Gen. 150</cite> (interpret. the name Bela, <cite ref=\"Genesis 46:21\">Gen. XLVI, 21</cite>) <he>שנ׳ בין האומות</he> for he (Joseph) has disappeared among gentiles. ",
+						"<cite ref=\"Bereishit Rabbah 94:8\">Gen. R. s. 94</cite>; Yalk. l. c. <he>שנבלע ממני</he> he disappeared to me."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִבְלִיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to cause swallowing, to make absorb</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 33\">Ex. R. s. 33</cite> <he>הִבְלַעְתָּ לקרה</he> thou mad’st (the earth) swallow Korah. ",
+						"<cite ref=\"Berakhot 24b:6\">Ber. 24ᵇ</cite> <he>מַבְלִיעוֹ בטליתו</he> he hides the spittle in his cloak; Y. Sabb. VII, 10ᵇ top. ",
+						"<cite ref=\"Chullin 113a:14\">Ḥull. 113ᵃ</cite> <he>מַבְ׳ דם באברים</he> causes the blood to remain in the meat (prevents it from flowing out).—Trnsf. <i>to sell something in connection with other things, in a lump, in the bargain</i>. ",
+						"<cite ref=\"Bekhorot 31b:12\">Bekh. 31ᵇ</cite> <he>מבליעו וכ׳</he> he sells it (the meat) in the bargain with the hide &c. ",
+						"<cite ref=\"Bava Metzia 64a\">B. Mets. 64ᵃ</cite>; <cite ref=\"Bava Kamma 118b\">B. Kam. 118ᵇ</cite> one who robs his neighbor <he>וה׳ לו בחשבון</he> and makes up for it implicitly on settling his accounts. V. <cite ref=\"E00046\"><he>הַבְלָעָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּבְלַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be swallowed up; to mingle with</i>, v. supra Nif.—Part. <he>מוּבְלַע</he>. ",
+					"units": [
+						"<cite ref=\"Berakhot 31b:17\">Ber. 31ᵇ</cite> <he>מ׳ בין אנשים</he> mixing with people, expl. <he>לא ארוך וכ׳</he> neither very tall &c. (of average qualities). ",
+						"<cite ref=\"Mishnah Eruvin 4:6\">Erub. IV, 6</cite> <he>מ׳ ביניהן</he> his property is enclosed between theirs (reaches into the limits of each). Y. ib. IV, 21ᵈ bot. <he>עיירות המוּבְלָעוֹת</he> <i>inland-towns</i>, opp. border-towns. Y. B. Bath. VII, 15ᶜᵈ <he>מוּבְלָעִין בה</he> fields which are enclosed by others belonging to the same estate."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["הִתְבַּלֵעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be swallowed up, to disappear</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 19\">Midr. Till. to Ps. XIX</cite>, beg. <he>מִתְבַּלֵּעַ מן וכ׳</he> he disappears from the world (forfeits his life)."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

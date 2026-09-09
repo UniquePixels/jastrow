@@ -1,0 +1,39 @@
+{
+	"id": "Q01106",
+	"slug": "פלסטיר",
+	"headword": {
+		"text": "פְּלַסְטִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּלַסְטֵר"
+		},
+		{
+			"text": "פלסתר"
+		}
+	],
+	"page": {
+		"number": 1184,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (πλάστηρ = πλάστης) <i>forger</i>. [This meaning of πλάστης is not recorded elsewhere.] <cite ref=\"Avodah Zarah 11b:4\">Ab. Zar. 11ᵇ</cite> <he>בר קירי פ׳</he> Ms. M. (ed. <he>סך קירי פלסתר</he>) (supposed to mean) <he>אחוה דמרנא זייפנא</he> the brother of our lord, the forger.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (πλαστήριον) <i>fraud, forgery, illegal document</i> [not recorded in this sense]. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Metzia 6:17\">Tosef. B. Mets. VI, 17</cite>, v. <cite ref=\"Q01101\"><he>פְּלַסְטוֹן</he></cite>. ",
+				"<cite ref=\"Vayikra Rabbah 19:2\">Lev. R. s. 19</cite> (the Book of Deuteronomy complained) <he>עיקרני … ועשאני פ׳ וכ׳</he> Solomon has uprooted me and made me a forgery, for a document of which two or three points are void, is null and void in its entirety. ",
+				"<cite ref=\"Berakhot 31b:10\">Ber. 31ᵇ</cite> <he>ואי אתה עושה תורתך פ׳</he> and thou wilt not make thy Law a fraud (by not fulfilling what is predicted, <cite ref=\"Numbers 5:28\">Num. V, 28</cite>). ",
+				"<cite ref=\"Sukkah 29a:14\">Succ. 29ᵃ</cite> <he>כותבי פלסתר</he> forgers of documents or signatures; <cite ref=\"Tosefta Sukkah 2:5\">Tosef. ib. II, 5</cite> <he>פלסטיר</he> Var. (ed. Zuck. <cite ref=\"Q01106\"><he>פלסתר</he></cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"id": "H01760",
+	"slug": "חרק-2",
+	"headword": {
+		"text": "חָרַק"
+	},
+	"page": {
+		"number": 506,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to cut a gap; to squeeze into a gap; to prick</i>. <i>Part. pass.</i> <he>חָרוּק</he>, f. <cite ref=\"H01010\"><he>חֲרוּקָה</he></cite>; pl. <he>חֲרוּקִים</he>, <he>חֲרוּקוֹת</he> ",
+			"units": [],
+			"senses": [
+				{
+					"gloss": " <i>having incisions, edged, serried</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 59b\">Ḥull. 59ᵇ</cite> ed., v. <cite ref=\"H00205\"><he>חָדַק</he></cite>.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>wedged in</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Parah 12:8\">Par. XII, 8</cite> <he>החרוקות</he> (Var. <he>החֲדוּקוֹת</he>) those handles which are squeezed into holes, opp. <he>הקדוחות</he> bored handles; <cite ref=\"Tosefta Parah 12:17\">Tosef. ib. XII</cite> (<cite ref=\"Tosefta Parah 11:17\">XI</cite>), 17 <he>אף הרוק וצואה וכ׳</he> (read: <he>אף החרוקות</he> · <he>צואה וכ׳</he>)."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חֵרֵק"],
+			"senses": [
+				{
+					"gloss": " [<i>to set at edge</i>,] (with <cite ref=\"U01556\"><he>שֵׁן</he></cite>) <i>to gnash, grind the teeth</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 37:1\">Pesik. R. s. 37</cite> <he>מְחָרְקִין שיניהם</he> ground their teeth (in sneer). ",
+						"<cite ref=\"Shemot Rabbah 5\">Ex. R. s. 5</cite>; Tanḥ. Vaëra 6 <he>התחיל מְחָרֵק עליהם וכ׳</he> he began to gnash his teeth against them (in rage)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

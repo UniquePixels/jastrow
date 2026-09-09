@@ -1,0 +1,35 @@
+{
+	"id": "H01147",
+	"slug": "חמדה",
+	"headword": {
+		"text": "חֶמְדָּה"
+	},
+	"page": {
+		"number": 475,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"H01146\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"H01146\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Shabbat 152a:11\">Sabb. 152ᵃ</cite> (expl. <he>אביונה</he>, <cite ref=\"Ecclesiastes 12:5\">Koh. XII, 5</cite>) <he>זו ח׳</he> that means the sexual appetite; (Koh. R. to l. c. <cite ref=\"V00015\"><he>תַּאֲוָה</he></cite>).)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>desirability, desirable object, precious gift</i>. Tanḥ. Sh’moth 29, a. e. <he>דבר שהוא ח׳ מתוך ח׳</he> something which is the most desirable of all desirable things. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 2:1:2\">Y. Taan. II, beg. 65ᵃ</cite> <he>כלי אחד של ח׳</he> the only precious vessel (the Torah) left to us. ",
+				"<cite ref=\"Shabbat 88b:7\">Sabb. 88ᵇ</cite> <he>ח׳ גנוזה</he> Ms. M. (ed. <cite ref=\"H01155\"><he>חמודה</he></cite>) a reserved treasure (the Law); a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

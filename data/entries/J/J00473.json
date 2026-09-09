@@ -1,0 +1,40 @@
+{
+	"id": "J00473",
+	"slug": "יעא-1",
+	"headword": {
+		"text": "יְעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יָיעָא"
+		}
+	],
+	"page": {
+		"number": 583,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to burst forth, bloom</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 17:23\">Targ. O. Num. XVII, 23</cite> ed. Berl. (ed. <cite ref=\"N00966\"><he>נְעָא</he></cite>; Y. I <cite ref=\"J00343\"><he>יָיעָא</he></cite>; h. text <cite ref=\"Q01755\"><he>פרח</he></cite>). Ib. 20 <he>יִנְעִי</he> ed. Berl. (ed. <he>יִנְעֵי</he>, <he>יֶ׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 103:15\">Targ. Ps. CIII, 15</cite> <he>ינעי</he> Regia (ed. a. Ms. <he>יָנִיץ</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַוְועֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to let burst forth, to utter</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 10:31\">Targ. Prov. X, 31</cite> <cite ref=\"M00439\"><he>מַוְעֵי</he></cite> ed. Lag. (oth. ed. <he>מבעי</he>; h. text <he>ינוב</he>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 19:3\">Targ. Ps. XIX, 3</cite> <he>מוועי</he> Ar. a. Ms. (ed. <he>מבעי</he> a. <he>מַבִּיעַ</he>). [Cmp. <cite ref=\"B00299\"><he>בוע</he></cite>, <cite ref=\"B01036\"><he>בעי</he></cite> a. <he>נבע</he>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "J00075",
+	"slug": "יבשתא",
+	"headword": {
+		"text": "יַבַּשְׁתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יַבִּישְׁ׳"
+		},
+		{
+			"text": "יַבִּשְׁ׳"
+		}
+	],
+	"page": {
+		"number": 562,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " f. ch. = h. <cite ref=\"J00073\"><he>יַבָּשָׁה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 1:9\">Targ. Gen. I, 9</cite> (some ed. <cite ref=\"J00075\"><he>יַבֶּשְׁ׳</he></cite>).—",
+				"<cite ref=\"Aramaic Targum to Psalms 95:5\">Targ. Ps. XCV, 5</cite>; a. e.—",
+				"<cite ref=\"Tamid 32a\">Tam. 32ᵃ</cite>, v. <cite ref=\"J00013\"><he>יָאֵי</he></cite>"
+			]
+		}
+	]
+}

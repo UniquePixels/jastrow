@@ -1,0 +1,31 @@
+{
+	"id": "Q01495",
+	"slug": "פקם",
+	"headword": {
+		"text": "פָּקַם"
+	},
+	"page": {
+		"number": 1209,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to split, perforate</i> (cmp. <cite ref=\"Q01438\"><he>פצם</he></cite>), esp. <i>to prick an animal’s mouth with the bit; to govern</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 20\">Num. R. s. 20</cite> (ref. to <cite ref=\"Numbers 23:16\">Num. XXIII, 16</cite>) ‘he put a thing in his mouth’ <he>כאדם שנותן … ופוֹקְמָהּ להיכן שירצה</he> as a man puts a bit in the mouth of a beast and makes it go in what direction he desires; <he>כך הקב״ה פוֹקֵם את פיו</he> so the Lord pricked his (Balaam’s) mouth (making him ‘go back’ to Balak); Tanḥ. Balak 13; Y’lamd. to Num. l. c., quot. in Ar. <he>היה פוקם … ופוקמה</he> (ed. Koh. <he>ופוקקה</he>, corr. acc.)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיקֵּם"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01494\">same</cite>, <i>to prick, perforate</i>. Num. R. l. c. (ref. to Num. l. c. 5) <he>שעיקם פיו ופִיקְּמוֹ וכ׳</he> he (the Lord) curved his mouth (as with a bit) and pierced it as a man drives a nail into a board; Yalk. ib. 765 <he>עיקם את פיו ועקמו</he> (corr. acc.).",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "B01058",
+	"slug": "בעע",
+	"headword": {
+		"text": "בְּעַע"
+	},
+	"page": {
+		"number": 182,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"B01026\"><he>בָּעָה</he></cite>; cmp. <he>בהל</he>) <i>to be excited.—Af</i>. <cite ref=\"N00102\"><he>אַבַּע</he></cite> <i>to hurry</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 22:9\">Targ. I Kings XXII, 9</cite> <he>א׳ מיכיה</he> Ar. (ed. <he>תבע</he>, h. text <cite ref=\"M00382\"><he>מהרה</he></cite>) bring … quickly. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 24:5\">Targ. Ezek. XXIV, 5</cite>.—Part. pass. <cite ref=\"M00093\"><he>מַבַּע</he></cite>, (<he>מִבְ׳</he>) <cite ref=\"M00093\"><he>מַבְּעָא</he></cite> <i>quick</i>. ",
+				"<cite ref=\"Onkelos Deuteronomy 32:35\">Targ. Deut. XXXII, 35</cite>.—Pl. <he>מַבְּעִין</he>. ",
+				"<cite ref=\"Onkelos Numbers 32:17\">Targ. Num. XXXII, 17</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתַּבַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to be in a hurry, be anxious</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 31:23\">Targ. Ps. XXXI, 23</cite> <he>באִתַּבָּעוּתִי</he> Ms. (ed. <he>באִתְבָּעוּתִי</he>). ",
+						"<cite ref=\"Targum Jonathan on II Kings 7:15\">Targ. II Kings VII, 15</cite>; <cite ref=\"Targum Jonathan on II Samuel 4:4\">Targ. II Sam. IV, 4</cite>, v. <cite ref=\"B01037\"><he>בְּעֵי</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Ittaf."
+		}
+	]
+}

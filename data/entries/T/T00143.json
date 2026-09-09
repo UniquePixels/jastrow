@@ -1,0 +1,24 @@
+{
+	"id": "T00143",
+	"slug": "רבקה-1",
+	"headword": {
+		"text": "רִבְקָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1446,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>רבק</he>, Arab. rabaḳ <i>to join, tie</i>; cmp. <cite ref=\"T00054\"><he>רבג</he></cite>, <he>רבך</he>) <i>team</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Parah 2:3\">Tosef. Par. II</cite> (<cite ref=\"Tosefta Parah 1:3\">I</cite>), 3 <he>הכניסה לר׳ ודשה עם אמה</he> if he took the young red cow into the team (that she may suck), and she did (accidentally) some threshing with her mother; <cite ref=\"Bava Metzia 30a\">B. Mets. 30ᵃ</cite>; <cite ref=\"Gittin 53a\">Gitt. 53ᵃ</cite>.—Pl. <he>רִבְקוֹת</he>. ",
+				"<cite ref=\"Tosefta Eiruvin 2:4\">Tosef. Erub. II (I), 2</cite>; <cite ref=\"Mishnah Eruvin 2:1\">Erub. II, 1</cite> <he>כמלוא שתי ר׳ וכ׳</he> the space required by two teams of three animals each."
+			]
+		}
+	]
+}

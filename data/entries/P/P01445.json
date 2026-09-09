@@ -1,0 +1,41 @@
+{
+	"id": "P01445",
+	"slug": "ערקא",
+	"headword": {
+		"text": "עַרְקָא"
+	},
+	"page": {
+		"number": 1123,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01442\"><he>עֲרַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>strap, band</i>. Tanḥ. ",
+			"units": [
+				"<cite ref=\"Genesis 7\">B’resh. 7</cite> <he>הדין ע׳ וכ׳</he>, v. <cite ref=\"M02893\"><he>מְשַׁךְ</he> II</cite>.—Pl. <cite ref=\"P01450\"><he>עַרְקִין</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:19\">Targ. Ez. XXVII, 19</cite> (some ed. <he>עדקין</he>, corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sedge, rush</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 8:11\">Targ. Job VIII, 11</cite> (h. text <he>אָחוּ</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 40:21\">Ib. XL, 21</cite> (h. text <cite ref=\"B01078\"><he>בִּצָּה</he></cite>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>leech</i>, v. <cite ref=\"P00785\"><he>עֲלוּקָא</he></cite>.—[<cite ref=\"P01445\"><he>עַרְקָא</he></cite> f., v. <cite ref=\"P01453\"><he>עִרְקְתָא</he></cite>.]",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

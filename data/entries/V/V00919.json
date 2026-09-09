@@ -1,0 +1,22 @@
+{
+	"id": "V00919",
+	"slug": "תרא-1",
+	"headword": {
+		"text": "תָּרָא"
+	},
+	"page": {
+		"number": 1694,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"V00275\"><he>תּוֹרָא</he> I</cite>, <i>ox</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 5:14\">Targ. Esth. V, 14</cite> <he>ת׳ דנחשא</he> a (heated) copper ox; cmp. <cite ref=\"M00486\"><he>מוּלָא</he> II</cite>."
+			]
+		}
+	]
+}

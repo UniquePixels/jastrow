@@ -1,0 +1,23 @@
+{
+	"id": "U00427",
+	"slug": "שולטתא",
+	"headword": {
+		"text": "שׁוּלְטָתָא"
+	},
+	"page": {
+		"number": 1534,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>שלט</he>) <i>posts</i> (?). ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד כות׳</he> 2) <he>אתבעה ארזין ארבעתי ש׳ דערסא</he> the four cedars (in the dream) mean the four posts of the bedstead; (Y. Maas. Sh. V, end, 55ᶜ <he>שיטתיה</he>), v. <cite ref=\"U00889\"><he>שִׁיטָתָא</he></cite>."
+			]
+		}
+	]
+}

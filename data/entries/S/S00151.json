@@ -1,0 +1,81 @@
+{
+	"id": "S00151",
+	"slug": "קדם-2",
+	"headword": {
+		"text": "קְדַם"
+	},
+	"page": {
+		"number": 1316,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00150\">same</cite>",
+			"units": []
+		},
+		{
+			"gloss": "<i>to precede; to do early, be early, first</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 69:32\">Targ. Ps. LXIX, 32</cite> <he>דקַדִּימוּ קרנוי וכ׳</he> (some ed. <he>דקָדִ׳</he>) whose horns grew prior to its hoofs. ",
+				"<cite ref=\"Onkelos Genesis 19:2\">Targ. Gen. XIX, 2</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 8a:6\">Ber. 8ᵃ</cite> <he>מְקַדְּמֵי וכ׳</he>; <he>קַדִּימוּ וחשיכו</he>, v. <cite ref=\"H01849\"><he>חֲשַׁךְ</he> I</cite>. ",
+				"<cite ref=\"Tamid 27b:39\">Tam. 27ᵇ</cite> <he>וקַדֵּים וכ׳</he>, v. <he>הֲשַׁךְ</he> I; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to go before, come to meet</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 88:14\">Targ. Ps. LXXXVIII, 14</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 79:8\">Ib. LXXIX, 8</cite> <he>יקדמון לן</he> Ms. (ed. <he>לך</he>, corr. acc.); a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"S00150\"><he>קַדֵּם</he></cite> ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַקְדֵּים"],
+			"senses": [
+				{
+					"gloss": "<i>to be early</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 26:31\">Targ. Gen. XXVI, 31</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 17:16\">Targ. I Sam. XVII, 16</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to precede, anticipate</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 41:3\">Targ. Job XLI, 3</cite>; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to get the start of; to prevent</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 17:13\">Targ. Ps. XVII, 13</cite>; a. e.—3) <i>to be earlier than, be quick in doing</i>. Ib. CXIX, 147, sq.; a. fr.—",
+						"<cite ref=\"Shabbat 119a:9\">Sabb. 119ᵃ</cite> <he>אי רגיליתו לאַקְדּוּמֵי … אַקְדִּימוּ</he> if you are accustomed to take an early meal, make it later (on the Sabbath), and if you are used to dine late, dine earlier. Ib. 151ᵇ when a poor man comes, <he>אַקְדִּים … דליקַדְּמוּ וכ׳</he> be quick in giving him bread, in order that people may be ready to do so to thy children."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to give preference to</i>. Y. Snh. I, 18ᶜ bot. <he>אַקִדְּמוּן ליה … בעיבור</he> they preferred a certain old man to him at the session for intercalation; Y. R. Hash. II, 58ᵇ top; a. e.",
+					"units": [],
+					"label": "4"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

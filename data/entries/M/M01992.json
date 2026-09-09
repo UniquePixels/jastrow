@@ -1,0 +1,37 @@
+{
+	"id": "M01992",
+	"slug": "מספקא",
+	"headword": {
+		"text": "מְסַפְּקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְסַפְּקָה"
+		}
+	],
+	"page": {
+		"number": 810,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סְפַק</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>sufficiency</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:3:4\">Y. Ber. IV, 8ᵃ</cite> top [read:] <he>אית לך מ׳ לכל חדא וחדא אדכרה מינהון</he> you have enough material for each Divine Name out of them (the combined benedictions); <cite ref=\"Jerusalem Talmud Taanit 2:2:5\">Y. Taan. II, 65ᶜ</cite> top."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>Pa.</i> of <cite ref=\"O01403\"><he>סְפַק</he></cite>, q. v.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

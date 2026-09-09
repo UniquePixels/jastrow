@@ -1,0 +1,25 @@
+{
+	"id": "P01367",
+	"slug": "עריס-3",
+	"headword": {
+		"text": "עָרִיס",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1117,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"A03108\"><he>אָרִיס</he> II</cite>, <i>tenant</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 46b\">B. Bath. 46ᵇ</cite>, sq. Ms. M. (ed. <cite ref=\"A00006\"><he>א׳</he></cite>).—Pl. <he>עֲרִיסִים</he>, <he>עֲרִיסִין</he>. ",
+				"<cite ref=\"Bava Batra 46b\">Ib.</cite> Ms. M. (ed. <cite ref=\"A00006\"><he>א׳</he></cite>). ",
+				"<cite ref=\"Sifrei Devarim 312:1\">Sifré Deut. 312</cite> (ed. Fr. <cite ref=\"A00006\"><he>א׳</he></cite>)."
+			]
+		}
+	]
+}

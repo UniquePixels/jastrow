@@ -1,0 +1,29 @@
+{
+	"id": "S01769",
+	"slug": "קפר",
+	"headword": {
+		"text": "קַפָּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַקַּ׳"
+		}
+	],
+	"page": {
+		"number": 1403,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Haḳḳappar</i> surname of R. Eliezer. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 4:21\">Ab. IV, 21</cite>. ",
+				"<cite ref=\"Berakhot 63a:4\">Ber. 63ᵃ</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 6:1:10\">Y. Shebi. VI, 36ᶜ</cite> <he>בן הק׳</he>, v. <cite ref=\"S01770\">next w.</cite>"
+			]
+		}
+	]
+}

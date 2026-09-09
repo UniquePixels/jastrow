@@ -1,0 +1,58 @@
+{
+	"id": "P00485",
+	"slug": "עטש-1",
+	"headword": {
+		"text": "עָטַשׁ"
+	},
+	"page": {
+		"number": 1065,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to sneeze</i>; ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (euphem.) <i>to break wind</i>. ",
+			"units": [
+				"<cite ref=\"Pirkei DeRabbi Eliezer 52\">Pirké d’R. El. ch. LII</cite>; <cite ref=\"Yalkut Shimoni on Nach 927:7\">Yalk. Job 927</cite> <he>לא נמצא אדם עוֹטֵשׁ וחיה וכ׳</he> (up to Jacob’s days) it had never occurred that a man sneezed and recovered from his sickness. Y’lamd. to Gen. XXVII, quot. in Ar. <he>אדם עוטש אומר לו וכ׳</he> when a person sneezes, one says to him, Good life!—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 3:5:17\">Y. Ber. III, 6ᵈ</cite> bot.; a. fr."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִיטֵּשׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P00484\">same</cite>. Ib. <he>אני … מפהק ומְעַטֵּשׁ</he> I saw him yawn and sneeze. ",
+					"units": [
+						"<cite ref=\"Mishnah Niddah 9:8\">Nidd. IX, 8</cite> <he>מפהקת ומְעַטֶּשֶׁת</he> she yawns and sneezes (or feels inflated; symptoms of approaching menstruation); a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְעַטֵּשׁ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְעַטֵּשׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P00484\">same</cite>. Yalk. Job l. c. <he>לפיכך … כשמִתְעַטֵּשׁ</he> therefore one must offer thanks when one sneezes. ",
+					"units": [
+						"<cite ref=\"Berakhot 24a\">Ber. 24ᵃ</cite> bot. ",
+						"<cite ref=\"Bamidbar Rabbah 9:21\">Num. R. s. 9</cite> <he>תהא מִתְעַטֶּשֶׁת וכ׳</he> she will feel inflated and languid. Y. Succ. V, 55ᵇ bot. <he>היו מִתְעַטְּשׁוֹת מריח וכ׳</he> used to sneeze on account of the smell of the frankincense (offered at the Temple); a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

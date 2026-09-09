@@ -1,0 +1,23 @@
+{
+	"id": "V00255",
+	"slug": "תוף-2",
+	"headword": {
+		"text": "תּוּף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1655,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>תְּפַף</he> II) <i>spittle</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 61b:2\">Keth. 61ᵇ</cite> <he>ת׳ שדאי ת׳ שדאי</he> as the spittle gathers in the mouth, eject it."
+			]
+		}
+	]
+}

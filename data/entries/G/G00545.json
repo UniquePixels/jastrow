@@ -1,0 +1,24 @@
+{
+	"id": "G00545",
+	"slug": "זמר-7",
+	"headword": {
+		"text": "זֶמֶר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 405,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זָמַר</he> I; cmp. <he>זמרה</he>, <cite ref=\"Genesis 43:11\">Gen. XLIII, 11</cite>) <i>fruits</i>, (grapes &c.), <i>dessert</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 10:6:4\">Y. Pes. X, 37ᵈ</cite> bot. (expl. <cite ref=\"A02708\"><he>אפיקומין</he></cite>) <he>מיני ז׳</he> various dessert fruits (Bab. ",
+				"<cite ref=\"Pesachim 119b:10\">ib. 119ᵇ</cite> <he>תמרים וכ׳</he>; <cite ref=\"Tosefta Pesachim 10:11\">Tosef. ib. X, 11</cite> <he>אגוזים וכ׳</he>)."
+			]
+		}
+	]
+}

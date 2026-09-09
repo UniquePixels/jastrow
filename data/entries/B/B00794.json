@@ -1,0 +1,75 @@
+{
+	"id": "B00794",
+	"slug": "בכר-1",
+	"headword": {
+		"text": "בָּכַר"
+	},
+	"page": {
+		"number": 170,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>בך</he>, v. <cite ref=\"B00776\"><he>בכי</he></cite>, cmp. <cite ref=\"B01136\"><he>בָּקַר</he></cite>) [<i>to break forth,</i>] <i>to be early</i>. [Kal prob. not used.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בִּיכֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be early, produce first fruits</i>. Tanḥ. Vayḥi 14; <cite ref=\"Bereishit Rabbah 99:3\">Gen. R. s. 99</cite> <he>מְבַכֶּרֶת</he> (<he>פירותיה</he>) has early crops, opp. <he>מלקשת</he>, <he>מאפלת</he>. [<cite ref=\"Bereishit Rabbah 99:3\">Ib.</cite> end <he>מבכרין מפירותיהם</he> read <he>מכבדין</he>, v. <cite ref=\"K00030\"><he>כָּבַד</he></cite>.]",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to bear for the first time</i> (of animals). ",
+					"units": [
+						"<cite ref=\"Mishnah Bekhorot 1:3\">Bekh. I, 3</cite> sq. <he>שלא בִיכְּרָה</he> that never before had given birth; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " (neut. v.) <i>to be first in ripening</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bikkurim 3:1\">Bicc. III, 1</cite> and sees <he>תאנה שבִּכְּרָה</he> a fig which is first ripe, <he>אשכול שביכר</he> a cluster of grapes which &c. Y. Maasr. I, 49ᵃ top <he>משיְבַכֵּר צמייא וכ׳</he>, v. <cite ref=\"R00577\"><he>צמייא</he></cite>. ",
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>משבִּיכֵּירוּ בנות שבע</he>, v. <cite ref=\"B01154\"><he>בְּרַת</he></cite>. ",
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>בִּיכֵּירוּ</he>, <he>משיְבַכְּרוּ</he> (v. <cite ref=\"B00479\"><he>בָּחַל</he></cite> as to spelling)."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": " (b. h.) <i>to recognize as first-born</i> (<cite ref=\"B00769\"><he>בכור</he></cite>). ",
+					"units": ["<cite ref=\"Bava Batra 130a\">B. Bath. 130ᵃ</cite> sq."],
+					"label": "4"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִבְכִּיר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"B00793\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Bekhorot 3:2\">Bekh. III, 2</cite> <he>המַבְכִּירוֹת</he> those animals which have given birth for the first time."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְבַּכֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>tohasten</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 161:3\">Yalk. Gen. 161</cite> <he>שהיא מִתְבַּכֶּרֶת בפירותיה</he>, v. supra."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

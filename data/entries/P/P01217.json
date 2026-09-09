@@ -1,0 +1,35 @@
+{
+	"id": "P01217",
+	"slug": "עקר-5",
+	"headword": {
+		"text": "עֲקַר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עַקְרָא"
+		},
+		{
+			"text": "עֲקַרְתָּא"
+		}
+	],
+	"page": {
+		"number": 1108,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"P01216\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 7:14\">Targ. O. Deut. VII, 14</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 113:9\">Targ. Ps. CXIII, 9</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 152a:8\">Sabb. 152ᵃ</cite> <he>עקר</he> Ag. Hatt. (ed. <cite ref=\"P00667\"><he>עיקרא</he></cite>), v. <cite ref=\"A01584\"><he>אִיקָא</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 47:10\">Gen. R. s. 47</cite>, beg. <he>וצווחין דא ע׳</he>; <cite ref=\"Bereishit Rabbah 47:10\">ib.</cite> s. 53, v. <cite ref=\"J00437\"><he>יְנֵי</he> I</cite>. ",
+				"<cite ref=\"Yevamot 65b:3\">Yeb. 65ᵇ</cite> <he>סמא דע׳</he> a drug which causes barrenness; a. fr.—Pl. <he>עַקְרִין</he>; f. <cite ref=\"P01204\"><he>עַקְרָן</he></cite>. Targ. Y. Deut. l. c. (ed. Vien. <he>נשין עקרין</he>, corr. acc.)."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "M01009",
+	"slug": "מטליותא",
+	"headword": {
+		"text": "מְטָלָיוּתָא"
+	},
+	"page": {
+		"number": 768,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00509\"><he>טְלַל</he></cite>) <i>protection, shade</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 23:43\">Targ. O. Lev. XXIII, 43</cite> Ms. (v. Berl. Targ. O. II, p. 37), v. <cite ref=\"M01012\"><he>מְטַלַלְתָּא</he></cite>."
+			]
+		}
+	]
+}

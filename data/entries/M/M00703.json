@@ -1,0 +1,24 @@
+{
+	"id": "M00703",
+	"slug": "מותנין",
+	"headword": {
+		"text": "מוֹתְנִין"
+	},
+	"page": {
+		"number": 752,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. ch. = h.<cite ref=\"M03093\"><he>מָתְנַיִם</he></cite> , <i>loins, sides</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 21:14\">Targ. Y. Gen. XXI, 14</cite>.—",
+				"<cite ref=\"Chullin 51a:11\">Ḥull. 51ᵃ</cite> <he>אמוֹתְנַיְיהוּ שדו להו</he> (Rashi: <he>אמָתְ׳</he>) they throw them so that they fall on their sides."
+			]
+		}
+	]
+}

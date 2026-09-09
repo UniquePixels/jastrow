@@ -1,0 +1,39 @@
+{
+	"id": "O01494",
+	"slug": "סקף-3",
+	"headword": {
+		"text": "סְקַף",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁקַף"
+		}
+	],
+	"page": {
+		"number": 1021,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<i>Saf.</i> of <cite ref=\"N01233\"><he>נ־קף</he></cite>, v. <cite ref=\"N01233\"><he>נקף</he> I</cite>) <i>to bring close together, knock, clap</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 24:10\">Targ. O. Num. XXIV, 10</cite> ed. Lsb. (ed. Berl. a. oth. <he>שקפ׳</he>; Ms. I <he>שפק׳</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַקֵּיף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"O01493\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 27:23\">Targ. Job XXVII, 23</cite> Ms. (ed. <he>ישקוף</he>; ed. Lag. a. oth. <he>ישפיק</he>).—V. <cite ref=\"U01882\"><he>שְׁקַף</he></cite>"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

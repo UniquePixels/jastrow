@@ -1,0 +1,25 @@
+{
+	"id": "G00176",
+	"slug": "זול-4",
+	"headword": {
+		"text": "זוֹל"
+	},
+	"page": {
+		"number": 387,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זוּל</he> I) <i>low price</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 70a:6\">Snh. 70ᵃ</cite> (ref. to <cite ref=\"G00179\"><he>זוֹלֵל</he></cite>) <he>עד שיקח בשר בז׳ וכ׳</he> until he buys meat and wine at the lowest prices (in order to have large quantities). ",
+				"<cite ref=\"Bava Metzia 73a\">B. Mets. 73ᵃ</cite> <he>מקום הז׳</he> the place where prices are low. ",
+				"<cite ref=\"Mishnah Maaser Sheni 4:2\">Maas. Sh. IV, 2</cite> <he>בשער הז׳</he> at the lower (the wholesale) market price. Y. Keth. XII, beg. 34ᵃ <he>הין בז׳ וכ׳</he> if provision at the time was cheap and it rose. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>נותן בז׳</he> he pays alimentation according to the lower prices; a. fr."
+			]
+		}
+	]
+}

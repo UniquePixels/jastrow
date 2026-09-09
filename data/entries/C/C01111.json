@@ -1,0 +1,22 @@
+{
+	"id": "C01111",
+	"slug": "גנוניתא-2",
+	"headword": {
+		"text": "גְּנוּנִיתָא"
+	},
+	"page": {
+		"number": 258,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f.<i>G’nunitha</i>, (<i>gardener</i>) legendary name of Esther’s attendant for the third day of the week (with ref. to <cite ref=\"Genesis 1:11\">Gen. I, 11</cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 2:9\">Targ. Esth. II, 9</cite>."
+			]
+		}
+	]
+}

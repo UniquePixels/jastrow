@@ -1,0 +1,53 @@
+{
+	"id": "K00476",
+	"slug": "כי-4",
+	"headword": {
+		"text": "כִּי",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 630,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00475\">same</cite><i>as, like</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 14:19\">Targ. Is. XIV, 19</cite>, v. <cite ref=\"J00281\"><he>יְחַט</he></cite>; a. fr., v. <cite ref=\"K00002\"><he>כְּ־</he></cite>.—",
+				"<cite ref=\"Moed Katan 28b:10\">M. Kat. 28ᵇ</cite> <he>מותא כי מותא וכ׳</he> death like death, i.e. death must naturally ensue, v. <cite ref=\"H00028\"><he>חֲבוּלְיָא</he></cite>. ",
+				"<cite ref=\"Shabbat 140b:19\">Sabb. 140ᵇ</cite>. v. <cite ref=\"A00900\"><he>אוּרְכָּא</he></cite>.—",
+				"<cite ref=\"Kiddushin 81a:15\">Kidd. 81ᵃ</cite> <he>יומא כי האידנא</he> on a day like this.—<he>כי הא ד־</he> as that which is told of &c. ",
+				"<cite ref=\"Pesachim 117a:17\">Pes. 117ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Chagigah 2a:6\">Ḥag. 2ᵃ</cite>, a. fr. <he>דלא כי האי תנא</he> which is not in agreement with the opinion of &c.—",
+				"<cite ref=\"Bava Kamma 46a:11\">B. Kam. 46ᵃ</cite> <he>לְכִי הא דאיתמר</he> for a case like the one that is told.—",
+				"<cite ref=\"Nedarim 49a:4\">Ned. 49ᵃ</cite>, a. fr. <he>כי אתריה</he>, v. <cite ref=\"A03444\"><he>אֲתַר</he></cite>.—",
+				"<cite ref=\"Horayot 13b:13\">Hor. 13ᵇ</cite> <he>נתקין … כי לדידן</he> let us institute something like that which has been done concerning ourselves; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>when</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Leviticus 26:44\">Targ. Y. II, Lev. XXVI, 44</cite>; a. fr.—",
+				"<cite ref=\"Chullin 110a:2\">Ḥull. 110ᵃ</cite>; <cite ref=\"Bava Batra 87a:10\">B. Bath. 87ᵃ</cite> <he>כי סליק וכ׳</he> when R. El. went to Palestine. ",
+				"<cite ref=\"Sanhedrin 74a:21\">Snh. 74ᵃ</cite>, a. fr. <he>כי אתא וכ׳</he> when R. … came (from Palestine).—<he>וכי תימא</he> (abbr. <he>וכ״ת</he>), v. <cite ref=\"A01965\"><he>אֲמָא</he> II</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 7:13:4\">Y. Snh. VII, end, 25ᵈ</cite> <he>כי יתבון וכ׳</he> (not <cite ref=\"K00518\"><he>כיי</he></cite>) when they sat down to eat; a. v. fr.—<he>כי היכי</he> "
+			],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " <i>in order that</i>, v. <cite ref=\"E00378\"><he>הֵיכִי</he></cite>.—",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>as well as, in the same way as</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 9b:8\">Taan. 9ᵇ</cite> <he>כי ה׳ … הכי וכ׳</he> as the Babylonians are deceitful, so are their rains; a. fr.—[<he>כַּי</he>, v. <cite ref=\"K00518\"><he>כַּיי</he></cite>.]"
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "O00459",
+	"slug": "סחיתא",
+	"headword": {
+		"text": "סְחִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְחוּתָא"
+		}
+	],
+	"page": {
+		"number": 971,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סְחֵי</he> 2) = b. h. <cite ref=\"O00454\"><he>סְחִי</he></cite>, <i>sweepings, refuse</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Zephaniah 1:17\">Targ. Zeph. I, 17</cite> (ed. Wil. <cite ref=\"O00890\"><he>סָ׳</he></cite>; Ar. <he>סִיחֲתָא</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 5:25\">Targ. Is. V, 25</cite> (Regia <he>סוּחִי׳</he>; some ed. <cite ref=\"O00598\"><he>סִיחֲ׳</he></cite>; h. text <he>סוחה</he>).—",
+				"<cite ref=\"Shabbat 121b:10\">Sabb. 121ᵇ</cite> <he>הוה שדי ס׳</he> Ar. (ed. <cite ref=\"T00434\"><he>רוקא</he></cite>) threw refuse (disgusting matter, cmp. <cite ref=\"O00279\"><he>סוּחָא</he></cite>, before the Resh G’lutha). Y. M. Kat. II, 81ᵈ top <he>והמת הדא איתא ס׳ דבייתא וכ׳</he> (not <he>וחמת</he>) a woman swept the refuse out of the house and threw it &c. ",
+				"<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 15</cite>, v. <cite ref=\"O00024\"><he>סָאתָא</he> II</cite>."
+			]
+		}
+	]
+}

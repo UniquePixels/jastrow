@@ -1,0 +1,40 @@
+{
+	"id": "D01160",
+	"slug": "דת-2",
+	"headword": {
+		"text": "דָּת"
+	},
+	"page": {
+		"number": 327,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.; = <he>דנת</he>, , Arab, <i>dîn</i> corresp. to our w.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>custom, law; judgment, punishment</i>. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 2:13\">Esth. R. to I, 8</cite> <he>כדַת כל מקום וכ׳</he> in accordance with the usages of &c.—",
+				"<cite ref=\"Mishnah Ketubot 7:6\">Keth. VII, 6</cite> <he>דַּת משה</he> Mosaic (ritual) law, <he>ד׳ יהודית</he> Jewish custom (chastity, decency); <cite ref=\"Tosefta Ketubot 7:6\">Tosef. ib. VII, 6</cite> <he>ד׳ משה וישראל</he>. ",
+				"<cite ref=\"Tosefta Ketubot 7:7\">Ib. 7</cite> <he>שעברו על הדת</he> who disregard the Jewish custom. ",
+				"<cite ref=\"Esther Rabbah 4:5\">Esth. R. to I, 15</cite> <he>כדת</he> just dealing, v. <cite ref=\"A01683\"><he>אַכְזְרִיּוּת</he></cite>. ",
+				"<cite ref=\"Megillah 12a:17\">Meg. 12ᵃ</cite> <he>ד׳ של תורה</he> the Biblical dues (sacrifices); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>religion</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 56b:5\">Succ. 56ᵇ</cite> <he>המירה דָתָהּ</he> (<cite ref=\"Tosefta Sukkah 4:28\">Tosef. ib. IV, 28</cite> <he>נשתמדה</he>) she changed her faith, became an apostate. ",
+				"<cite ref=\"Yevamot 70b\">Yeb. 70ᵇ</cite>; <cite ref=\"Pesachim 96a\">Pes. 96ᵃ</cite> (ref. to <cite ref=\"Exodus 12:43\">Ex. XII, 43</cite>, v. <cite ref=\"D01132\"><he>דְּרָשָׁא</he></cite>) <he>בו המרת דת וכ׳</he> to eat of <i>it</i> (the passover lamb) apostasy does unfit, but &c.—Pl. <he>דָּתִין</he>. ",
+				"<cite ref=\"Kohelet Rabbah 7:19:4\">Koh. R. to VII, 19</cite> (play on <he>ידותון</he>, <cite ref=\"I Chronicles 25:3\">I Chr. XXV, 3</cite>) <he>הנבא על הד׳ ועל הדינין וכ׳</he> (Asaph) who prophesied over the judgments and dispensations that passed over him; <cite ref=\"Shir HaShirim Rabbah 4:4\">Cant. R. to IV, 4</cite> (corr. acc.). [As to derivation of our w. from the Persian, v. Ges. H. Dict.<sup>10</sup> s. v.]"
+			],
+			"label": "2"
+		}
+	]
+}

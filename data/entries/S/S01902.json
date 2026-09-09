@@ -1,0 +1,24 @@
+{
+	"id": "S01902",
+	"slug": "קרדו-2",
+	"headword": {
+		"text": "קַרְדּוּ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1412,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Ḳardu</i> in Babylonia (cmp. Kardunias, Schr. KAT<sup>2</sup>, p. 348; KGF, p. 534). ",
+			"units": [
+				"<cite ref=\"Bava Batra 91a:13-16\">B. Bath. 91ᵃ</cite> <he>עשר … ושבע בק׳</he> (Ar. <he>בכַרְדּוּ</he>) Abraham was ten years in prison, three in Cuthi and seven in Ḳardu; <cite ref=\"Yalkut Shimoni on Torah 77:12\">Yalk. Gen. 77</cite> <he>בקדרו</he>; <cite ref=\"Pirkei DeRabbi Eliezer 26\">Pirké d’R. El. ch. XXVI</cite> <cite ref=\"S01912\"><he>קרדי</he></cite>.—",
+				"<cite ref=\"Yevamot 115b\">Yeb. 115ᵇ</cite> <cite ref=\"S00593\"><he>קוּרְטְבָא</he></cite>."
+			]
+		}
+	]
+}

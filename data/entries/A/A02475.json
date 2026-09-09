@@ -1,0 +1,52 @@
+{
+	"id": "A02475",
+	"slug": "אסף-1",
+	"headword": {
+		"text": "אָסַף"
+	},
+	"page": {
+		"number": 95,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<cite ref=\"O01308\"><he>סף</he></cite>, v. Ges. H. Dict. s. v.; cmp. <cite ref=\"C01392\"><he>גרר</he></cite>, a. <he>אגר</he> I) [<i>to scrape together</i>], <i>to gather, harvest</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 3:3\">Snh. III, 3</cite> <he>אוֹסְפֵי שביעית</he> those who harvest the fruits of the Sabbath year (for storage); ib. 26ᵃ <he>אוֹסְפִין</he> (opp. to <he>סוחרין</he> traders in fruits of the Sabbath year)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶאֱסַף"],
+			"senses": [
+				{
+					"gloss": "<i>to be gathered; to be taken away</i> (by death). ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 14:12\">Num. R. s. 14</cite> (p. 257ᵈ ed. Amst.) <he>והם נֶאֱסָפִים לשָׁמְעוֹ</he> and they (the people) gather themselves to hear him. ",
+						"<cite ref=\"Bamidbar Rabbah 14:12\">Ib.</cite> (p. 258ᵃ) <he>בזמן שבעליהם נאספים מהם</he> after their teachers have been taken away from them (when they are dead); <cite ref=\"Pesikta Rabbati 3:1\">Pesik. R. s. 3</cite>; <cite ref=\"Ecclesiastes 12:11\">Koh. to XII, 11</cite>; Tanḥ. B’haãl., 15; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be picked up</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kiddushin 4:1\">Kidd. IV, 1</cite>; v. <cite ref=\"A02334\"><he>אֲסוּפִי</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֶאֱסִיף"],
+			"senses": [
+				{
+					"gloss": ", mostly <he>הוֹסִיף</he>, v. <cite ref=\"J00468\"><he>יָסַף</he></cite>",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

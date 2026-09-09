@@ -1,0 +1,41 @@
+{
+	"id": "I00423",
+	"slug": "טיקוסא",
+	"headword": {
+		"text": "טִיקּוּסָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִקּ׳"
+		}
+	],
+	"page": {
+		"number": 534,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00696\"><he>טְקַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " = <cite ref=\"I00358\"><he>טִיכּוּס</he></cite>, <i>rampart, embankment</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 16:18\">Targ. II Kings XVI, 18</cite> (h. text <he>מיסך</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>arrangement, measurement, proportions</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 1:13\">Targ. Jer. I, 13</cite> <he>טיקוס משיריתיה</he> (v. <cite ref=\"I00696\"><he>טְקַס</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 43:10\">Targ. Ez. XLIII, 10</cite> (h. text <he>תכנית</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 43:13\">Ib. 13</cite> (h. text <he>גב</he>); a. e."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "B00934",
+	"slug": "בנאה",
+	"headword": {
+		"text": "בַּנָּאָה"
+	},
+	"page": {
+		"number": 176,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (contr. of <cite ref=\"B00886\"><he>בַּלְנָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bather</i>. Targ. II, <cite ref=\"Esther 6:12\">Esth. VI, 12</cite> Ms. (ed. <cite ref=\"B00039\"><he>בַּאנְיָא</he></cite>).",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. m., v. <cite ref=\"B00936\"><he>בַּנַּאי</he> II</cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

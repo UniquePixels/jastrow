@@ -1,0 +1,31 @@
+{
+	"id": "H01082",
+	"slug": "חלם-2",
+	"headword": {
+		"text": "חֲלַם"
+	},
+	"page": {
+		"number": 471,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"H01081\">same</cite>.v. <cite ref=\"H01049\"><he>חַלִּים</he></cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַלֵּים"],
+			"senses": [
+				{
+					"gloss": "<i>to join closely</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 25a\">Kidd. 25ᵃ</cite> <he>זמנין דח׳ שפוותיה</he> Ar. (ed. <he>שפתיה</he>) sometimes a man closes his lips firmly."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

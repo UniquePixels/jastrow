@@ -1,0 +1,23 @@
+{
+	"id": "I00669",
+	"slug": "טפסא-1",
+	"headword": {
+		"text": "טַפְסָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 548,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <he>טָפַם</he>; cmp. <cite ref=\"I00209\"><he>טוּפְסָא</he></cite>) <i>chest</i>.—ט׳ דמלכא <i>royal chest, treasury, archive</i>. ",
+			"units": [
+				"<cite ref=\"Yevamot 46a\">Yeb. 46ᵃ</cite>; <cite ref=\"Bava Metzia 73b\">B. Mets. 73ᵇ</cite> (Ms. M. <he>טפט׳</he>, Ms. H. a. F. <cite ref=\"O01438\"><he>ספתא</he></cite>, ed. Ven. <cite ref=\"I00673\"><he>טפסרא</he></cite>, Ar. s. v. <he>מהרק</he>: <cite ref=\"O01346\"><he>ספטא</he></cite>, <cite ref=\"O01438\"><he>ספתא</he></cite>, v. <cite ref=\"O00794\"><he>סִיפְטָא</he></cite>)."
+			]
+		}
+	]
+}

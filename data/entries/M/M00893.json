@@ -1,0 +1,23 @@
+{
+	"id": "M00893",
+	"slug": "מחלץ",
+	"headword": {
+		"text": "מַחֲלָץ"
+	},
+	"page": {
+		"number": 762,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., <i>du</i>. <he>מַחֲלָצַיִם</he>, pl. <he>מַחֲלָצִין</he> (<cite ref=\"H01109\"><he>חָלַץ</he></cite>, cmp. <cite ref=\"H01059\"><he>חָלִיץ</he></cite>) <i>a sort of windlass, loops of a rope attached to a heavy slab</i> for rolling over plastered roofing &c., v. <cite ref=\"M02061\"><he>מַעֲגִילָה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Makkot 9b:11\">Macc. 9ᵇ</cite> <he>עד שישמט מַחֲלָצוֹ מידו</he> Var. in Ar. s. v. <cite ref=\"M00923\"><he>מחצל</he></cite> (ed. <he>מחצלו</he>) until the entire ramming machine slips out of his hands (opp. to <cite ref=\"Q01350\"><he>נפסק</he></cite> the breaking of the rope); Y. ib. II, beg. 31ᶜ <he>עד שיתיר את כל המחלצין</he> (read <he>שיפיל</he> or <he>שיוריד</he>) until he lets go all the loops (expl. = <he>נפסק החבל</he>). Ib. <he>מה דמר ר״י בשמיטת המ׳</he> (not <he>המחלצון</he>) what R. J. says (‘until he drops the whole rope’) refers to the slipping of the machine; Tosef. ib. II, 3 ed. Zuck. <he>עד שיפול כל המחצלין מידו</he> (read: <he>שיפיל … המחלצ׳</he>). ",
+				"<cite ref=\"Mishnah Moed Katan 1:10\">M. Kat. I, 10</cite> (<cite ref=\"Moed Katan 11a:4\">11ᵃ</cite>) <he>שפין את … אבל לא במחלצים</he> (Y. ed. … <he>צַיִים</he>; Ms. M. <cite ref=\"M00923\"><he>מחצלים</he></cite>) you may plaster over cracks in the roof, or roll them over with a (small) roller, using the hands or the feet, but not with the windlass, v. Y. ib. 81ᵃ top.—[The Var. lect. <cite ref=\"M00923\"><he>מחצל־</he></cite> rests upon a popular transposition, as if from <cite ref=\"M00917\"><he>מָחַץ</he></cite>. The interpretation of <cite ref=\"M00923\"><he>מחצל</he></cite> by commentators as <i>trowel</i> does not fit the context.]"
+			]
+		}
+	]
+}

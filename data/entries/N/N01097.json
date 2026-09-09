@@ -1,0 +1,31 @@
+{
+	"id": "N01097",
+	"slug": "נצב-1",
+	"headword": {
+		"text": "נָצַב"
+	},
+	"page": {
+		"number": 927,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to put up, place</i>, v. <cite ref=\"J00518\"><he>יָצַב</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִצָּב"],
+			"senses": [
+				{
+					"gloss": "<i>to stand</i> (<i>defiantly</i>). ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 18\">Num. R. s. 18</cite>, v. <cite ref=\"E00780\"><he>הַצָּבָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

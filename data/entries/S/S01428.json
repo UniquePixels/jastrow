@@ -1,0 +1,22 @@
+{
+	"id": "S01428",
+	"slug": "קלת-1",
+	"headword": {
+		"text": "קִלַּת"
+	},
+	"page": {
+		"number": 1383,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. constr. of <cite ref=\"S01316\"><he>קִלָּה</he></cite> = <cite ref=\"S01357\"><he>קְלָלָה</he></cite>, <i>disgrace of</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 46b:7\">Snh. 46ᵇ</cite> <he>א״כ נימא קרא ק׳ מאי קללת</he> if this were so, the text (<cite ref=\"Deuteronomy 21:23\">Deut. XXI, 23</cite>) might have read <i>ḳillath</i>, why does it read <i>ḳil’lath?</i> [missing in Ms. M.]"
+			]
+		}
+	]
+}

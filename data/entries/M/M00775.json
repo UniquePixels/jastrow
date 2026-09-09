@@ -1,0 +1,23 @@
+{
+	"id": "M00775",
+	"slug": "מזמריא",
+	"headword": {
+		"text": "מְזַמְּרַיָּא"
+	},
+	"page": {
+		"number": 756,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(h. <he>מזמרות</he>; <cite ref=\"G00539\"><he>זְמַר</he> I</cite>)<i>snuffers</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 7:50\">Targ. I Kings VII, 50</cite>; a. e."
+			]
+		}
+	]
+}

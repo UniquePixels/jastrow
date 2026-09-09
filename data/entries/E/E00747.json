@@ -1,0 +1,29 @@
+{
+	"id": "E00747",
+	"slug": "הפכתא",
+	"headword": {
+		"text": "הֲפֵכְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "הֲפֵי׳"
+		}
+	],
+	"page": {
+		"number": 361,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"E00741\"><he>הֲפַךְ</he></cite>) <i>destruction</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 19:29\">Targ. Gen. XIX, 29</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 29:20\">Targ. O. Deut. XXIX, 20</cite> (Ms. <cite ref=\"M00376\"><he>מַהֲפֶיכְתָּא</he></cite>); a. e.—Pl. <cite ref=\"E00738\"><he>הֲפֵיכָתָא</he></cite>.—",
+				"<cite ref=\"Targum Jerusalem, Genesis 18:2\">Targ. Y. II, Gen. XVIII, 2</cite>."
+			]
+		}
+	]
+}

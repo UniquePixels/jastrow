@@ -1,0 +1,32 @@
+{
+	"id": "S02267",
+	"slug": "קשש-2",
+	"headword": {
+		"text": "קָשַׁשׁ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1433,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (or <cite ref=\"S00660\"><he>קוּשׁ</he></cite>) (v. <cite ref=\"S02229\"><he>קָשַׁט</he></cite>) <i>to be straight, stiff</i>. Denom. <cite ref=\"S02211\"><he>קַשׁ</he></cite>. [Tanḥ. Naso 23 <he>וקושש וכ׳</he>, v. <cite ref=\"S02229\"><he>קָשַׁט</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קוֹשֵׁשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to shoot, aim</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 3\">Lam. R. to III, 12</cite> <he>מְקוֹשְׁשִׁים</he> Ar. ed. Koh., v. <cite ref=\"S02229\"><he>קָשַׁט</he></cite>."
+					]
+				}
+			],
+			"stem": "Polel."
+		}
+	]
+}

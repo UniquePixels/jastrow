@@ -1,0 +1,71 @@
+{
+	"id": "T01144",
+	"slug": "רתע-2",
+	"headword": {
+		"text": "רְתַע"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְתִיעַ"
+		}
+	],
+	"page": {
+		"number": 1504,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T01143\">same</cite><i>to tremble, be startled</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 1:8\">Targ. Lam. I, 8</cite> <he>ורְתִיעַת</he> (Ar. <he>ורַתְעַת</he>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 20:15\">Targ. Y. I Ex. XX, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 2:5\">Targ. Cant. II, 5</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be excited</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 19:6\">Targ. Y. II, Deut. XIX, 6</cite> (Y. I <he>ירתח</he>; h. text <he>יחם</he>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַרְתַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to shrink back, withdraw</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 2:3\">Targ. Lam. II, 3</cite>. ",
+						"<cite ref=\"Aramaic Targum to Lamentations 1:13\">Ib. I, 13</cite> <he>אַרְתִּיעַנִי קדל קדם וכ׳</he> ed. Lag. (in oth. ed. <he>קדם</he> omitted) he made me turn my back in fear before &c.; (Ar. <he>רַתְּעַנִי</he>, <i>Pa.</i>).—<i>Part. pass.</i> <he>מַרְתַּע</he> <i>excited, trembling</i>. ",
+						"<cite ref=\"Eruvin 67a:4\">Erub. 67ᵃ</cite> <he>מַרְתְּעָן שיפוותיה ממתנייתא וכ׳</he> his lips trembled (in astonishment) at the erudition of &c.; (Ar. <he>מרתע ממתנ׳</he> he trembled &c.). ",
+						"<cite ref=\"Eruvin 67a:4\">Ib.</cite> <he>מרתע כוליה גופיה מפילפולא וכ׳</he> his whole body shook (in wonder) at the ingenious argument of &c.; (Ar. s. v. <cite ref=\"T01116\"><he>רת</he></cite>: <he>מרתת</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["רַתַּע"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T01143\">same</cite>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִירְתַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to bubble, boil</i>. Targ. II Esth. I, 2 (3) <he>וחמא … דמִירְתַּע בארעא</he> and Nebuchadnezzar saw his (Zechariah’s) blood bubbling in the ground (<cite ref=\"Gittin 57b:2\">Gitt. 57ᵇ</cite> <he>מרתח</he>).",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

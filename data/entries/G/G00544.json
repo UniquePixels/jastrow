@@ -1,0 +1,24 @@
+{
+	"id": "G00544",
+	"slug": "זמר-6",
+	"headword": {
+		"text": "זֶמֶר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 405,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זָמַר</he> II) <i>music, song</i>; <he>כלי ז׳</he> (or sub. <cite ref=\"K00715\"><he>כלי</he></cite>) <i>musical instrument</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 48a:20\">Sot. 48ᵃ</cite> <he>בארבעה מיני ז׳</he> to the music of four instruments. Y. ib. VII, 21ᶜ top <he>לעז לז׳</he> Greek is adapted for song; <cite ref=\"Jerusalem Talmud Megillah 1:9:3\">Y. Meg. I, 71ᵇ</cite> bot.—",
+				"<cite ref=\"Sanhedrin 101a:2\">Snh. 101ᵃ</cite> <he>ועושה אותו כמין ז׳</he> and treats it (a verse of Song of Songs) like a (secular) song; <cite ref=\"Yalkut Shimoni on Nach 953:7\">Yalk. Prov. 953</cite>; a. fr."
+			]
+		}
+	]
+}

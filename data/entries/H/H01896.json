@@ -1,0 +1,92 @@
+{
+	"id": "H01896",
+	"slug": "חתך-1",
+	"headword": {
+		"text": "חָתַךְ"
+	},
+	"page": {
+		"number": 513,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to cut, dissect; to sever</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 33a:7\">Ḥull. 33ᵃ</cite> <he>חוֹתֵךְ כזית וכ׳</he> cuts out flesh of the size of an olive. ",
+				"<cite ref=\"Chullin 32a:3\">Ib. 32ᵃ</cite> <he>ח׳ דלעת וכ׳</he> if in slaughtering he cut a pumpkin at the same time. ",
+				"<cite ref=\"Chullin 48b\">Ib. 48ᵇ</cite> a. e. <he>חוֹתְכָהּ מכאן וכ׳</he> he amputates on one place and the animal survives &c. ",
+				"<cite ref=\"Beitzah 32b:1\">Bets. 32ᵇ</cite> <he>חוֹתְכָהּ באיר</he> he may sever the wick over the light. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:2:2\">Y. Meg. IV, 75ᵃ</cite> <he>חותך</he> the reader cuts one verse into two (reading <cite ref=\"Genesis 1:5\">Gen. I, 5</cite>, a. ",
+				"<cite ref=\"Genesis 1:8\">I, 8</cite> as two verses severally); a. fr.—[<cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite> <he>לחתוך את אביו וכ׳</he>, v. <cite ref=\"H01910\"><he>חָתַר</he></cite>.]—<i>Part. pass.</i> <cite ref=\"H01873\"><he>חָתוּךְ</he></cite> <i>cut into, having the incisions of limbs &c., outlined</i>. ",
+				"<cite ref=\"Niddah 24b:6\">Nidd. 24ᵇ</cite> <he>גוף שאינו ח׳</he> a shapeless body (not articulated); <he>ראש שאינו ח׳</he> a shapeless head (without indications of the nose &c.) Ib. 24ᵃ <he>יד חֲתוּכָה</he> a well-shaped hand (of an embryo); a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"Q01350\"><he>פָּסַק</he></cite>, <cite ref=\"C00573\"><he>גָּזַר</he></cite>) <i>to decide, sentence</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 4\">Lev. R. s. 4</cite>, beg. (ref. to <he>התוך</he>, <cite ref=\"Jeremiah 39:3\">Jer. XXXIX, 3</cite>) <he>ששם חוֹתְכִין את ההלכה</he> for there they decide the practice. ",
+				"<cite ref=\"Jeremiah 39:3\">Ib.</cite> <he>וחוֹתֶכֶת דיניהם וכ׳</he> and decides the cases &c. ",
+				"<cite ref=\"Shevuot 30b:15\">Shebu. 30ᵇ</cite> bot. <he>אֶחְתְּכֶנּוּ</he> I will decide the case (in accordance with the testimony).—Part. pass. as ab. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 4:2:2\">Y. Snh. IV, beg. 22ᵃ</cite> <he>אילו … התורה חתוכה</he> if the Law had been given in the form of clear decisions (leaving no room for differences of opinion, discretion &c.)"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְתַּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut off, severed; to be cut into</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 4:6\">Ḥull. IV, 6</cite> <he>שנֶחְתְּכוּ רגליה</he> whose feet have been amputated. ",
+						"<cite ref=\"Chullin 32a:3\">Ib. 32ᵃ</cite> <he>נֶחְתְּכָה דלעת וכ׳</he> if by accident a pumpkin has been cut simultaneously with the animal (opp. to <cite ref=\"H01896\"><he>חָתַךְ</he></cite>, v. supra); a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be decided, decreed</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 15a:11\">Meg. 15ᵃ</cite> (play on <he>ה̇ת̇ך̇</he>, <cite ref=\"Esther 4:5\">Esth. IV, 5</cite>) <he>שכל … נֶחְ֗תָּ֗כִ֗ין על יפיו</he> all the government affairs were decided upon his opinion."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["חִיתֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to cut</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 4:2\">Ḥull. IV, 2</cite> <he>מְחַתֵּךְ אבר אבר</he> he may cut off limb after limb. ",
+						"<cite ref=\"Chullin 98b:3\">Ib. 98ᵇ</cite> <he>מחתך לה וכ׳</he> he carves the foreleg and then boils it.—<i>Part. pass.</i> <he>מְחוּתָּךְ</he> <i>piecemeal, limbwise</i>. Y. Nidd. III, 50ᶜ <he>יצא מח׳</he> if the embryo came out by pieces."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to decide</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 7b:16\">Snh. 7ᵇ</cite> <he>צדק … חַתְּכֵהוּ</he> make the case clear and then decide it. ",
+						"<cite ref=\"Berakhot 61a:29\">Ber. 61ᵃ</cite> <he>לשון מְחַתֵּךְ וכ׳</he> the tongue forms the sentence, the mouth closes (the case, makes it irreversible)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to dig ore</i> (<i>in lumps</i>). ",
+					"units": [
+						"<cite ref=\"Ketubot 77a:13\">Keth. 77ᵃ</cite> (expl. <he>מצרף</he>) <he>המְחַתֵּךְ … מעיקרו</he> he who digs copper in the shaft. [<cite ref=\"Tosefta Ohalot 4:3\">Tosef. Ohol. IV, 3</cite> <he>וחיתכו</he>, <he>וחתכו</he>, read: <he>והִתִּיכוֹ</he> or <he>והִיתְּכוֹ</he>, v. <cite ref=\"N01379\"><he>נָתַךְ</he></cite> a. <cite ref=\"E00949\"><he>התך</he></cite>.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

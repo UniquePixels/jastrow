@@ -1,0 +1,22 @@
+{
+	"id": "S00449",
+	"slug": "קונסה",
+	"headword": {
+		"text": "קוּנְסָה"
+	},
+	"page": {
+		"number": 1335,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"S01604\"><he>קְנַס</he></cite>) <i>fine</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 1:2:3\">Y. Ned. I, 37ᵃ</cite> top <he>דבר … והא תנינן קונס ק׳ שמה</he> if a word has a certain meaning in ordinary language and is also used for indicating <i>ḳorban</i> (consecration), does a man bind himself (when using it to introduce a vow)? (Answer) we have it in the Mishnah (<cite ref=\"Mishnah Nedarim 1:2\">Ned. I, 2</cite>, v. <cite ref=\"S00446\"><he>קוֹנָם</he></cite>) which makes <i>ḳonas</i> stand for a binding vow, and yet <i>ḳonas</i> has the meaning of (<i>ḳunsah</i>) <i>fine</i>"
+			]
+		}
+	]
+}

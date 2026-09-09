@@ -1,0 +1,28 @@
+{
+	"id": "A00629",
+	"slug": "אויא-1",
+	"headword": {
+		"text": "אִוְיָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיוְיָא"
+		}
+	],
+	"page": {
+		"number": 24,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H00683\"><he>חִיוְיָא</he></cite>) <i>serpent</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 26:7\">Gen. R. s. 26</cite> <he>בגלילא וכ׳</he> in Galilee they call <i>ḥivya, ivya</i>"
+			]
+		}
+	]
+}

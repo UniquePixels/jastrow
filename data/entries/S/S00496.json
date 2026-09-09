@@ -1,0 +1,23 @@
+{
+	"id": "S00496",
+	"slug": "קופדא-1",
+	"headword": {
+		"text": "קוּפְדָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1337,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00495\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 34:15\">Targ. Is. XXXIV, 15</cite> (h. text <cite ref=\"S01711\"><he>קפוז</he></cite>).—Pl. <he>קוּפְדִּין</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 14:23\">Ib. XIV, 23</cite> (ed. Wil. <he>קוּפְּדִ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 34:11\">Ib. XXXIV, 11</cite> ed. Lag. (oth. ed. <he>קִפּוֹדִין</he>). ",
+				"<cite ref=\"Targum Jonathan on Zephaniah 2:14\">Targ. Zeph. II, 14</cite>."
+			]
+		}
+	]
+}

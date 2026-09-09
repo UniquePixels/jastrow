@@ -1,0 +1,29 @@
+{
+	"id": "D00814",
+	"slug": "דלוב",
+	"headword": {
+		"text": "דְּלוּב"
+	},
+	"altHeadwords": [
+		{
+			"text": "דּוּלְבָּא"
+		}
+	],
+	"page": {
+		"number": 309,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"P01396\"><he>עַרְמוֹן</he></cite>, <i>plane-tree</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 30:37\">Targ. O. Gen. XXX, 37</cite>.—",
+				"<cite ref=\"Bereishit Rabbah 73\">Gen. R. s. 73</cite>, end (<he>דליף</he>) <cite ref=\"D00822\"><he>דְּלוּף</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 130\">Yalk. ib. 130</cite> <cite ref=\"D00814\"><he>דלוב</he></cite>.—<i>Pl.</i> <he>דּוּלְבֵּי</he>. ",
+				"<cite ref=\"Rosh Hashanah 23a\">R. Hash. 23ᵃ</cite>; <cite ref=\"Bava Batra 81a\">B. Bath. 81ᵃ</cite>; <cite ref=\"Jerusalem Talmud Ketubot 7:8:2\">Y. Keth. VII, end, 31ᵈ</cite>; <cite ref=\"Bereishit Rabbah 15\">Gen. R. s. 15</cite>, beg. <cite ref=\"D00597\"><he>דִּילְבִּין</he></cite> (not … <he>ון</he>). [<cite ref=\"Berakhot 40b\">Ber. 40ᵇ</cite> <he>דולבי</he> Ms. M., v. <cite ref=\"D00175\"><he>דּוּבְלָא</he></cite>.]"
+			]
+		}
+	]
+}

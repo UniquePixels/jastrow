@@ -1,0 +1,59 @@
+{
+	"id": "S00154",
+	"slug": "קדם-5",
+	"headword": {
+		"text": "קָדָם"
+	},
+	"altHeadwords": [
+		{
+			"text": "קֳדָם"
+		}
+	],
+	"page": {
+		"number": 1316,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00153\">preced.</cite>) [<i>precedence</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": " (prepos. of time and place) <i>before</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 29:26\">Targ. Gen. XXIX, 26</cite>. ",
+				"<cite ref=\"Onkelos Genesis 43:29\">Ib. XLIII, 29</cite>; a. fr.—With suffix of personal pronoun mostly in <i>pl.</i> ",
+				"<cite ref=\"Aramaic Targum to Proverbs 23:1\">Targ. Prov. XXIII, 1</cite> <he>קָדָמָךְ</he> ed. Lag. (oth. ed. <he>קָדָמָיִךְ</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 96:9\">Targ. Ps. XCVI, 9</cite> <he>מן קֳדָמוֹי</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 96:8\">Ib. 8</cite> <he>לִקְדָמוֹי</he>; a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 37:2\">Lev. R. s. 37</cite> <he>נפק … קדמוי וכ׳</he> a proclamation went before him, and all the people came out to meet him. ",
+				"<cite ref=\"Eichah Rabbah 1:22\">Lam. R. to III, 16</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (conj.) ",
+			"units": [],
+			"label": "2",
+			"senses": [
+				{
+					"gloss": " <i>ere, before</i>; ",
+					"units": [],
+					"label": "a"
+				},
+				{
+					"gloss": " <he>מן ק׳</he> <i>since, because</i> (h. . ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 13:10\">Targ. Y. Gen. XIII, 10</cite> <he>ק׳ עד לא</he>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 8:23\">Targ. Prov. VIII, 23</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 8:25\">Ib. 25</cite> Ms. (ed. <cite ref=\"S00138\"><he>קְדִים</he></cite>); a. fr.—Targ. O. a. Y. II <cite ref=\"Exodus 19:18\">Ex. XIX, 18</cite> <he>מן ק׳</he> (Y. I <he>מן בגלל</he>).—Y. Yeb. XII, 13ᵃ top; <cite ref=\"Jerusalem Talmud Sanhedrin 1:2:39\">Y. Snh. I, 19ᵃ</cite> bot. <he>קרבת קַדְמָנָא</he> she came before us; <he>ורקת קדמנא</he> and spat in our presence; <cite ref=\"Jerusalem Talmud Moed Katan 3:3:3\">Y. M. Kat. III, 82ᵃ</cite> bot. <he>קוּדְמֵינָא</he>; <cite ref=\"Yevamot 39b\">Yeb. 39ᵇ</cite>; a. e.—V. <cite ref=\"S00161\"><he>קַדְמִין</he></cite>."
+					],
+					"label": "b"
+				}
+			]
+		}
+	]
+}

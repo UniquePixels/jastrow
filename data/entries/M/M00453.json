@@ -1,0 +1,26 @@
+{
+	"id": "M00453",
+	"slug": "מוח-1",
+	"headword": {
+		"text": "מוֹחַ"
+	},
+	"page": {
+		"number": 740,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <he>מֹחַ</he>; <he>מחח</he> , v. <cite ref=\"M00346\"><he>מָהָה</he></cite>) <i>marrow</i>, esp. (with or without <he>ראש</he>) <i>brain</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Pesachim 6:10\">Tosef. Pes. VI, 10</cite>, v. <cite ref=\"S00346\"><he>קוּלִית</he></cite>. ",
+				"<cite ref=\"Mishnah Chullin 3:1\">Ḥull. III, 1</cite> <he>קרום של מ׳</he> the membrane which surrounds the brain, v. <he>חַיִּיתָא</he> IV. ",
+				"<cite ref=\"Chullin 45a:15\">Ib. 45ᵃ</cite> <he>מ׳ כל מה … מ׳</he> as to <i>moaḥ</i>, whatever is contained in the skull is considered as brain. ",
+				"<cite ref=\"Chullin 45b:15\">Ib. 45ᵇ</cite> <he>רוב מוֹחוֹ</he> the larger part of the marrow of the spine (spinal cord); a. fr.—",
+				"<cite ref=\"Menachot 80b:14\">Men. 80ᵇ</cite>; <cite ref=\"Yevamot 9a:19\">Yeb. 9ᵃ</cite> <he>אין לו מ׳ בקדקדו</he> has no brains in his head."
+			]
+		}
+	]
+}

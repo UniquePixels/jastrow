@@ -1,0 +1,28 @@
+{
+	"id": "P00674",
+	"slug": "עיר-3",
+	"headword": {
+		"text": "עִיר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1075,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"P00343\"><he>עוּר</he></cite>) [<i>watch-tower, fort</i>,] <i>town, city</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 80b:16\">B. Kam. 80ᵇ</cite> <he>הלוקח ע׳ בארץ וכ׳</he> he who buys a township in Palestine, is bound by law to buy also the accesses to it on four sides. ",
+				"<cite ref=\"Sanhedrin 17b:10\">Snh. 17ᵇ</cite> <he>כל ע׳ שאין בה עשרה וכ׳</he> in a town in which there are not the following ten things (institutions), a scholar is not permitted to live. ",
+				"<cite ref=\"Mishnah Sanhedrin 1:6\">Snh. I, 6</cite> <he>וכמה יהא בע׳ וכ׳</he> and how large must the population of a town be, to be fit as a seat for a Sanhedrin? <cite ref=\"Yoma 20b\">Yoma 20ᵇ</cite> <he>הָעִ׳</he> (Ms. M. <cite ref=\"T00390\"><he>רומי</he></cite>) the City of Rome; <cite ref=\"Pesachim 119a\">Pes. 119ᵃ</cite> <he>בָּעִ׳</he> (Ms. M. <he>ברומי</he>) in Rome; a. v. fr.—Pl. <cite ref=\"P01361\"><he>עָרִים</he></cite>, <cite ref=\"P00557\"><he>עֲיָירוֹת</he></cite>. ",
+				"<cite ref=\"Tosefta Makkot 3:1\">Tosef. Macc. III</cite> (<cite ref=\"Tosefta Makkot 2:1\">II</cite>), 1; <cite ref=\"Makkot 9b:17\">Macc. 9ᵇ</cite> <he>שלש ע׳ הבדיל וכ׳</he> Moses set apart three towns (of refuge). ",
+				"<cite ref=\"Mishnah Makkot 2:4\">Ib. II, 4</cite>, a. fr. <he>עָרֵי מקלט</he>, v. <cite ref=\"M02427\"><he>מִקְלָט</he></cite>. ",
+				"<cite ref=\"Mishnah Megillah 1:1\">Meg. I, 1</cite>, sq.; a. fr."
+			]
+		}
+	]
+}

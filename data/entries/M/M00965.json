@@ -1,0 +1,43 @@
+{
+	"id": "M00965",
+	"slug": "מטביע",
+	"headword": {
+		"text": "מַטְבֵּיעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "מַטְבֵּעַ"
+		}
+	],
+	"page": {
+		"number": 765,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<he>טָבַע</he> II) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>coin, medal</i> (v. <cite ref=\"M00537\"><he>מוֹנִיטָא</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bava Kamma 97a:10\">B. Kam. 97ᵃ</cite> sq. <he>המלוה … על המ׳ ונפסלה המ׳</he> if one loans money in a certain coin, and that coin was afterwards repealed, <he>נותן לו מ׳ היוצא וכ׳</he> he must pay him in the present legal coin. ",
+				"<cite ref=\"Bava Kamma 97b:1\">Ib. 97ᵇ</cite> <he>המלוה … על המ׳ והוסיפו עליו</he> if one loans &c., and the coin was in the meantime made larger (heavier), <he>נותן לו מ׳ היוצאת וכ׳</he>. ",
+				"<cite ref=\"Bava Metzia 45b:4\">B. Mets. 45ᵇ</cite>, sq., v. <cite ref=\"H01058\"><he>חֲלִיפִים</he></cite>.—B. Kam. l. c. <he>מ׳ של א״א</he> the Abraham medal; a. fr.—Pl. <he>מַטְבֵּיעוֹת</he>, <he>מַטְבֵּעוֹת</he>. ",
+				"<cite ref=\"Mishnah Bava Metzia 2:2\">B. Mets. II, 2</cite> <he>שלשה מ׳ זה וכ׳</he> three coins heaped upon another, v. <cite ref=\"M00120\"><he>מִגְדָּל</he></cite>. Y. ib. 8ᵇ <he>שלשה מ׳ של וכ׳</he> three coins of three different kings; a. fr.—",
+				"<cite ref=\"Avot D'Rabbi Natan 18:1\">Ab. d’R. N. ch. XVIII</cite> <he>עשה כל התורה כולה מ׳ מ׳</he> (v. ed. Schechter note 5) he assorted the entire law (like) coins, i.e. systematized."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>type</i> (of prayers, documents), <i>formula</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:2:8\">Y. Ber. V, 9ᵇ</cite> <he>שלא תשנו מַטְבֵּיעָהּ של וכ׳</he> that you do not change the formula of a benediction. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 5:2:8\">Ib.</cite> bot. <he>אומר מ׳ ברכה</he> he recites the regular form of the benediction. Ib. VI, 10ᵇ bot. <he>כל המשנה על המ׳ וכ׳</he> (read <he>מן</he>) he who changes the formula of prayers which the scholars have fixed. ",
+				"<cite ref=\"Gittin 5b\">Gitt. 5ᵇ</cite>, a. e. <he>כל המשנה ממ׳ וכ׳</he> he who changes the formulas of documents &c. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 3:7:6\">Y. Meg. III, end, 74ᶜ</cite> <he>משה התקין מַטְבֵּיעָהּ של וכ׳</he> Moses introduced as a type of prayer, O God, the great &c.; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

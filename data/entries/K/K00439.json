@@ -1,0 +1,36 @@
+{
+	"id": "K00439",
+	"slug": "כזב-1",
+	"headword": {
+		"text": "כָּזַב"
+	},
+	"page": {
+		"number": 627,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"K00444\"><he>כזז</he></cite>) [<i>to shrink</i>, cmp. <cite ref=\"K00469\"><he>כָּחַשׁ</he></cite>,] <i>to fail, dry up</i> (of watercourses); <i>to be false, to lie; to flatter</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Parah 9:1\">Tosef. Par. IX</cite> (<cite ref=\"Tosefta Parah 8:2\">VIII</cite>), 2 <he>מפני שכָּזְבָה וכ׳</he> because it gave out during the war.—",
+				"<cite ref=\"Sanhedrin 82b:9\">Snh. 82ᵇ</cite> (play on <he>כזבי</he>, <cite ref=\"Numbers 25:15\">Num. XXV, 15</cite>) <he>כזבה באביה</he> she was false to her father (in disobeying his instructions). Tanḥ. Sh’laḥ 5 <he>לא כָזַבְתִּי לך</he> I did not tell thee a falsehood; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּיזֵּב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K00438\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Parah 8:9\">Par. VIII, 9</cite> <he>המים המְכַזְּבִים</he> waters which fail at certain times. Y. Taan. II, 65ᵇ bot. (ref. to <cite ref=\"Numbers 23:19\">Num. XXIII, 19</cite>) <he>אם יאמר … מְכַזֵּב הוא</he> if a man says, I am a God, he is a deceiver. ",
+						"<cite ref=\"Bamidbar Rabbah 23:8\">Num. R. s. 23</cite> (ref. to Num. l. c.) <he>איש עושה לאל שיְכַזֵּב</he> a man (through his prayer) may cause God to fail (to execute his evil decrees); Tanḥ. Masé 7 <he>לא איש עושה לאל שיכ׳</he> does not a man cause God &c.?—",
+						"<cite ref=\"Yoma 69b:16\">Yoma 69ᵇ</cite> <he>לא כִיזְּבוּ לו</he> Ms. M. (ed. <cite ref=\"B00198\"><he>בו</he></cite>) they would not be false in His praise (flatter); a. fr.—<i>Part. pass.</i> <he>מְכוּזָּב</he>, pl. <he>מְכוּזָּבִים</he> <i>reduced</i>. Ruth. R. to I, 1 (play on <he>כזבה</he>, <cite ref=\"I Chronicles 4:22\">I Chr. IV, 22</cite>) <he>אלו בניו שהיו מכ׳</he> that refers to his (Elimelech’s) sons who were reduced (died)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

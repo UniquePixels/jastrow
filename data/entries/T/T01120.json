@@ -1,0 +1,25 @@
+{
+	"id": "T01120",
+	"slug": "רתוי",
+	"headword": {
+		"text": "רִתּוּי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "רָתוּי"
+		}
+	],
+	"page": {
+		"number": 1502,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ") m. (<cite ref=\"T01117\"><he>רָתָה</he></cite>) <i>relief</i>, <i>mercy</i>, <i>pity</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chagigah 2:1\">Ḥag. II, 1</cite> (<cite ref=\"Chagigah 11b:7\">11ᵇ</cite>) <he>ר׳ לו שלא בא לעולם</he> (Ms. M., a. Var. in Ar. <he>רָאוּי</he>) it would have been a mercy to him not to have been born; (Y. ed. <he>ר׳ לו כאילו לא בא לעולם</he> a pity for him! he is as though he had not been born; Mish. ed. <he>ראוי לו כאילו לא וכ׳</he> he is looked upon as though &c.)."
+			]
+		}
+	]
+}

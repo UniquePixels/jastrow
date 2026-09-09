@@ -1,0 +1,31 @@
+{
+	"id": "A02389",
+	"slug": "אסטנית",
+	"headword": {
+		"text": "אִסְטָנִית",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "אִיסְטַטִּית"
+		},
+		{
+			"text": "אִיסְטַסִּית"
+		}
+	],
+	"page": {
+		"number": 91,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>סטן</he> = <cite ref=\"O00498\"><he>שׂטן</he></cite>; cmp. <cite ref=\"A01432\"><he>אִיסְטַטָּנִית</he></cite>) <i>a system of information, sycophancy</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Makkot 1:5\">Macc. I, 5</cite> (<cite ref=\"Makkot 5a:20\">5ᵃ</cite>) <he>אסטנית היא זו</he> Ms. M. (ed. <he>איסטטית</he>, Mish. <he>אסטס׳</he>, Y. ed. 1, 7 <cite ref=\"A01442\"><he>איסטיסית</he></cite>) this endless prosecution of witnesses on the information by other witnesses testifying to an alibi would be regular sycophancy. [Maim. reads <cite ref=\"A02371\"><he>אסטיסית</he></cite>.] <cite ref=\"Tosefta Makkot 1:10\">Tosef. Macc. I, 10</cite> <cite ref=\"A01437\"><he>איסטיטית</he></cite>, ed. Zuck. (Var. <cite ref=\"A01579\"><he>איצטניסית</he></cite>)."
+			]
+		}
+	]
+}

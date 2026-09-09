@@ -1,0 +1,49 @@
+{
+	"id": "U02092",
+	"slug": "שתי-3",
+	"headword": {
+		"text": "שְׁתֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁתָא"
+		}
+	],
+	"page": {
+		"number": 1637,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U02091\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 9:21\">Targ. Gen. IX, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 30:12\">Targ. I Sam. XXX, 12</cite>; a. fr.—",
+				"<cite ref=\"Onkelos Deuteronomy 33:22\">Targ. Deut. XXXIII, 22</cite> <cite ref=\"U02097\"><he>שַׁתְיָא</he></cite> (Y. II <he>שתימין</he>, corr. acc.).—Y. Shek. IV, 47ᶜ top <he>כד הוה שָׁתֵי וכ׳</he> when he had drunk the four cups of wine on the Passover night &c.; <cite ref=\"Jerusalem Talmud Shabbat 8:1:5\">Y. Sabb. VIII, beg. 11ᵃ</cite>; <cite ref=\"Jerusalem Talmud Pesachim 10:1:11\">Y. Pes. X, 37ᶜ</cite>. ",
+				"<cite ref=\"Eruvin 64a:7\">Erub. 64ᵃ</cite> <he>כל כמה דלא שָׁתֵינָא וכ׳</he> so long as I have not drunk a fourth (of a Log) of wine, my mind is not clear. ",
+				"<cite ref=\"Shabbat 152a:4\">Sabb. 152ᵃ</cite> <he>עד … מכאן ואילך מִשְׁתֵּי מעלי</he> up to forty years eating is more salutary, after that drinking is more salutary. ",
+				"<cite ref=\"Rosh Hashanah 4a:7\">R. Hash. 4ᵃ</cite> <he>כלבתא בת משתי חמרא היא</he> (ed. <cite ref=\"M02995\"><he>משתיא</he></cite>) does a bitch drink wine?; Yalk. Neh. 1069 <he>מי שַׁתְיָא חמרא</he>; a. fr.—With prefixed <he>אִשְׁתֵּי ׃א</he>, <cite ref=\"A03346\"><he>אִישְׁ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 34:28\">Targ. O. Ex. XXXIV, 28</cite> ed. Berl. (ed. Vien. <cite ref=\"U02091\"><he>שתי</he></cite>); Y. <he>אש׳</he>. ",
+				"<cite ref=\"Onkelos Genesis 24:14\">Targ. O. Gen. XXIV, 14</cite> <cite ref=\"A01631\"><he>אִישְׁתְּ</he></cite> (ed. Vien. <cite ref=\"A03364\"><he>אֵשְׁתְּ</he></cite>) <i>imperative</i>; a. fr.—",
+				"<cite ref=\"Eruvin 54a:4\">Erub. 54ᵃ</cite> <he>חטוף … ואִישְׁתֵּי</he> make haste and eat, make haste and drink (enjoy life, v. <cite ref=\"H00640\"><he>חֲטַף</he></cite>). ",
+				"<cite ref=\"Vayikra Rabbah 12:1\">Lev. R. s. 12</cite> <he>עשרה … אִישְׁתֵּית</he> thou drankest ten &c., v. <cite ref=\"S01065\"><he>קִיסְטָא</he> I</cite>. ",
+				"<cite ref=\"Yevamot 65b:17\">Yeb. 65ᵇ</cite> <he>אִישְׁתִּיָא סמא וכ׳</he> she drank a drug causing barrenness; a. fr.—",
+				"<cite ref=\"Rosh Hashanah 4a:7\">R. Hash. 4ᵃ</cite> <cite ref=\"M02995\"><he>מִשְׁתָּיֵא</he></cite>, v. supra."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִשְׁתְּתֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be drunk</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 11:34\">Targ. O. Lev. XI, 34</cite> <he>דיִשְׁתְּתֵי</he> (Y. <he>דיִשְׁתֵּיתֵי</he>; h. text <he>יִשָּׁתֶה</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

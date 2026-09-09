@@ -1,0 +1,26 @@
+{
+	"id": "H01037",
+	"slug": "חליטא-2",
+	"headword": {
+		"text": "חֲלִיטָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲלִיטָתָא"
+		}
+	],
+	"page": {
+		"number": 468,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"H01022\"><he>חָלַט</he> II</cite>) <i>strings, necklace</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 3:20\">Targ. Is. III, 20</cite> (h. text <he>לחשים</he>). ",
+				"<cite ref=\"Targum Jonathan on Hosea 2:15\">Targ. Hos. II, 15</cite> <he>חֲלִיטַת וכ׳</he> (constr.) her pearl-strings (h. text <he>חליה</he>)."
+			]
+		}
+	]
+}

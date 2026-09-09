@@ -1,0 +1,38 @@
+{
+	"id": "H00588",
+	"slug": "חטאתא",
+	"headword": {
+		"text": "חַטָּאתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַטָּתָא"
+		},
+		{
+			"text": "חַטָּאת"
+		}
+	],
+	"page": {
+		"number": 447,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00587\">same</cite><i>sin, stumbling</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 10:16\">Targ. Prov. X, 16</cite> Ms. (ed. <cite ref=\"H00605\"><he>חַטּוּתָא</he></cite>). [<cite ref=\"Aramaic Targum to Proverbs 21:4\">Ib. XXI, 4</cite> <he>חטתא</he> Ms. (ed. <he>חטאה</he>, <he>חטהא</he>).]—",
+				"<cite ref=\"Jerusalem Talmud Ketubot 2:6:3\">Y. Keth. II, 26ᶜ</cite> bot. <he>חטאת דחנניה</he> (prob. <he>חֶטְאֵיה</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sin-offering</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 29:36\">Targ. Ex. XXIX, 36</cite>; a. fr.—Pl. <cite ref=\"H00605\"><he>חַטְוָתָא</he></cite>, <he>חַטְוָו׳</he>. ",
+				"<cite ref=\"Onkelos Numbers 18:9\">Targ. Num. XVIII, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 4:8\">Targ. Hos. IV, 8</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

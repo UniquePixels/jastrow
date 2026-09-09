@@ -1,0 +1,24 @@
+{
+	"id": "Q01460",
+	"slug": "פקולין",
+	"headword": {
+		"text": "פְּקוֹלִין"
+	},
+	"page": {
+		"number": 1207,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"Q01493\"><he>פָּקַל</he></cite>; cmp. <cite ref=\"Q00322\"><he>פּוּקְלָא</he></cite>) <i>cotton tufts</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 17a:72\">Nidd. 17ᵃ</cite> <he>בפ׳ או בצמר וכ׳</he> (some ed. <he>בפוקלין</he>) with cotton tufts or with wool clean and soft. ",
+				"<cite ref=\"Niddah 17a:66\">Ib.</cite> (Chald.) <he>מאן בעי פ׳ דנהמא</he> Ar. (ed. <he>פְּקוֹלֵי בנ׳</he>) who wants cotton tufts for the bed (v. <cite ref=\"N00273\"><he>נַהֲמָא</he></cite>)?"
+			]
+		}
+	]
+}

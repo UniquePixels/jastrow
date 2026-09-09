@@ -1,0 +1,29 @@
+{
+	"id": "M02227",
+	"slug": "מפנקו",
+	"headword": {
+		"text": "מְפַנְקוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְפַנְקוּתָא"
+		}
+	],
+	"page": {
+		"number": 821,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M02226\">preced.</cite>) <i>good breeding; delicacy, fastidiousness</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:56\">Targ. O. Deut. XXVIII, 56</cite> ed. Berl. (Ms. I <cite ref=\"M03098\"><he>מִתְפַּנְקוּ</he></cite>, some ed. <he>אתפנקו</he>, v. Berl. Targ. O. II, p. 58; Y. <cite ref=\"Q01893\"><he>פרניקא</he></cite>).—",
+				"<cite ref=\"Pesachim 50b:4\">Pes. 50ᵇ</cite> <he>משום מ׳ הוא</he> it is merely because they are used to indulgence (idleness). ",
+				"<cite ref=\"Chagigah 6a:4\">Ḥag. 6ᵃ</cite> <he>חנה מ׳ יתירתא וכ׳</he> Hannah saw in Samuel extraordinary tenderness (saw that he was a very delicate child)."
+			]
+		}
+	]
+}

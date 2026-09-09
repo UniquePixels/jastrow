@@ -1,0 +1,111 @@
+{
+	"id": "E00148",
+	"slug": "הדר-2",
+	"headword": {
+		"text": "הֲדַר"
+	},
+	"page": {
+		"number": 334,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (<cite ref=\"E00147\">preced.</cite>) <i>to go around, come back, return</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 3:19\">Targ. Y. Gen. III, 19</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 14a:10\">B. Mets. 14ᵃ</cite> what thou takest from him, <he>עלי דידי ה׳</he> comes back on my property (I am responsible for it). ",
+				"<cite ref=\"Bava Metzia 69b:4\">Ib. 69ᵇ</cite> <he>הַדְרָא בעינא</he> is returned bodily. ",
+				"<cite ref=\"Pesachim 29b:4\">Pes. 29ᵇ</cite>, a. fr. <he>ה׳ ביה</he> went back on himself, changed his opinion. ",
+				"<cite ref=\"Bava Metzia 65a:2\">B. Mets. 65ᵃ</cite> <he>הַדְרִי בי</he> I take it back. ",
+				"<cite ref=\"Bava Batra 84a:1\">B. Bath. 84ᵃ</cite> <he>לא מצית הַדְרַת בך וכ׳</he> thou wouldst not have been at liberty to retract (the transaction), and now thou shouldst &c.?; a. fr. [Frequ. used adverbially.] <cite ref=\"Bava Metzia 6a:12\">B. Mets. 6ᵃ</cite> <he>שתיק מעיקרא וה׳ צוח</he> first he kept silence and then (reconsidering) he protested. ",
+				"<cite ref=\"Gittin 8b:7\">Gitt. 8ᵇ</cite> <he>ה׳ אמר אביי</he> another time A. said. ",
+				"<cite ref=\"Chullin 76b:16\">Ḥull. 76ᵇ</cite> (<he>הדר</he>) <he>הֲדוּר שלחו</he> another time they sent word; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הַדּר"],
+			"senses": [
+				{
+					"gloss": " (v. <cite ref=\"E00147\">preced.</cite> <i>Pi.</i>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to honor, distinguish</i>. ",
+					"units": [
+						"<cite ref=\"Daniel 4:31\">Dan. IV, 31</cite>.—",
+						"<cite ref=\"Onkelos Leviticus 19:15\">Targ. O. Lev. XIX, 15</cite> (ed. Berl. <he>תַהְדּר</he> <i>Af.</i>).—",
+						"<cite ref=\"Bava Batra 3b:13\">B. Bath. 3ᵇ</cite> <he>הַדְּרֵי</he>, v. <cite ref=\"E00211\"><he>הוּדְרָא</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to go around searching, be zealous, anxious</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 76b:16\">Ḥull. 76ᵇ</cite>; <cite ref=\"Niddah 65b:37\">Nidd. 65ᵇ</cite> <he>הַדּוּרֵי אפירכא</he> what need is there to go around searching for an argument (why do you resort to unknown authorities)? <cite ref=\"Shabbat 23a:4\">Sabb. 23ᵃ</cite> <he>הוה מְהַדֵּר מר וכ׳</he> my teacher used to be anxious for puppy-oil. ",
+						"<cite ref=\"Shabbat 23a:4\">Ib.</cite> <he>מהדרא אמשחא</he> (read: <he>מהדר אמ׳</he>); a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to restore;</i>",
+					"units": [],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to review;</i> v. <i>Af.</i>",
+					"units": [],
+					"label": "4"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַהֲדַר"],
+			"senses": [
+				{
+					"gloss": " l) <i>to return, restore; to lead back; to turn around</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 32:3\">Targ. Y. Deut. XXXII, 3</cite> (some ed. <i>Pa.</i>). ",
+						"<cite ref=\"Aramaic Targum to Song of Songs 7:5\">Targ. Cant. VII, 5</cite>; a. fr.—",
+						"<cite ref=\"Bava Metzia 26a:4-13\">B. Mets. 26ᵃ</cite> <he>אי … לאַהֲדוּרָהּ אַהַדְרוּהָ ניהלי</he> if they had had the intention of returning it, they would have returned it to me. ",
+						"<cite ref=\"Bava Metzia 26a:13\">Ib.</cite> <he>אמרי קמייהו … לִיהַדְּרוּ לי ולא הַדְּרוּ לי וכ׳</he> (differ. in Mss., v. Rabb. D. S. a. l. note) I spoke in their presence several times (of my loss); they might have returned it to me, but did not; will they now return it?—",
+						"<cite ref=\"Chullin 20a:1\">Ḥull. 20ᵃ</cite> <he>בדלא א׳</he> when he did not turn round (the windpipe &c.). ",
+						"<cite ref=\"Chagigah 5b:3\">Ḥag. 5ᵇ</cite> <he>עמא דַאֲהַדְרִינְהוּ … מיניה</he> a people from which its master has turned away his face; a. fr.—2) <i>to repeat, review</i>. ",
+						"<cite ref=\"Moed Katan 28a:22\">M. Kat. 28ᵃ</cite> <he>אֲהַדְרִי לתלמודאי</he> that I may review my studies. ",
+						"<cite ref=\"Berakhot 38b:10\">Ber. 38ᵇ</cite> <he>מַהֲדַר תלמודיה</he> (or <he>מְהַדֵּר</he>); a. fr.—3) <i>to reply</i>. ",
+						"<cite ref=\"Chullin 34a:5\">Ḥull. 34ᵃ</cite> <he>מאי אהדרי וכ׳</he> what did … reply to one another?; a. e.—4) <i>to carry around in procession</i>. ",
+						"<cite ref=\"Yevamot 110a\">Yeb. 110ᵃ</cite> Ar., v. <cite ref=\"K00393\"><he>כּוּרְסַיָּא</he></cite>; v. <cite ref=\"A00391\"><he>אֲדוּרֵי</he></cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיהַדַּר"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיהֲדַר"],
+			"senses": [
+				{
+					"gloss": "<i>to go around begging</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 151b:13\">Sabb. 151ᵇ</cite> <he>אַהֲדוּרֵי אפיתחא לא מִיהֲדַר</he> he will not be forced to go around begging."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to go back</i>. ",
+					"units": [
+						"<cite ref=\"Nedarim 50a:4\">Ned. 50ᵃ</cite> <he>איהדר לאחורי</he> I will go back again."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

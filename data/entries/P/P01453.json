@@ -1,0 +1,31 @@
+{
+	"id": "P01453",
+	"slug": "ערקתא",
+	"headword": {
+		"text": "עַרְקְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַרְקָא"
+		}
+	],
+	"page": {
+		"number": 1123,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"P01445\"><he>עַרְקָא</he></cite>) <i>strap</i>.—<he>עַרְקַת מסנא</he>, <he>ע׳ דמסנא</he> <i>shoe-strap</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 14:23\">Targ. O. Gen. XIV, 23</cite>; a. e.—",
+				"<cite ref=\"Vayikra Rabbah 35:6\">Lev. R. s. 35</cite>; <cite ref=\"Shir HaShirim Rabbah 1:4:4\">Cant. R. to I, 4</cite> <he>כע׳ סומקא וכ׳</he> as a red strap &c., v. <cite ref=\"M01952\"><he>מִסְכֵּנוּתָא</he></cite>; Pesik. Shimʿu, p. 117ᵃ <he>כהיך ע׳ סמוקא בקדליה וכ׳</he> (not <he>בדקליה</he>); <cite ref=\"Yalkut Shimoni on Torah 670\">Yalk. Lev. 670</cite>; <cite ref=\"Yalkut Shimoni on Nach 256\">Yalk. Is. 256</cite>; <cite ref=\"Vayikra Rabbah 13:4\">Lev. R. s. 13</cite> <he>כעזקתא</he> (corr. acc.). ",
+				"<cite ref=\"Sanhedrin 74b:1\">Snh. 74ᵇ</cite> top <he>אפי׳ לשנויי ע׳ דמסאנא</he> (in days of religious persecution you must resist) even to changing the shoe-strap. ",
+				"<cite ref=\"Bava Batra 21a\">B. Bath. 21ᵃ</cite>, v. <cite ref=\"M00792\"><he>מְחָא</he> II</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 15:4:4\">Y. Yeb. XV, 15ᵃ</cite>, v. <cite ref=\"J00557\"><he>יְקַד</he></cite>; a. e."
+			]
+		}
+	]
+}

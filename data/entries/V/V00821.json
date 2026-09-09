@@ -1,0 +1,53 @@
+{
+	"id": "V00821",
+	"slug": "תפיסה",
+	"headword": {
+		"text": "תְּפִיסָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּפִישָׂה"
+		}
+	],
+	"page": {
+		"number": 1686,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00843\"><he>תָּפַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>seizing, taking hold, possession; grasp, manipulation</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 84b:1\">Keth. 84ᵇ</cite> top <he>ור״ע ת׳ … כלל</he> and according to R. Akiba does possession have no legal effect at all? <cite ref=\"Chullin 44a:7\">Ḥull. 44ᵃ</cite> <he>עד כדי תְפִיסַת יד</he> as much space as is covered by a grasp of the hand. ",
+				"<cite ref=\"Mishnah Nedarim 5:3\">Ned. V, 3</cite> (<cite ref=\"Nedarim 46a:4\">46ᵃ</cite>) <he>אם יש לו בהן תפיסת יד</he> (Y. ed. <he>פוסתת̇</he>) if he has an interest in them (the bath, or the wine or oil press which he has rented out); ib. 46ᵇ <he>וכמה ת׳ יד וכ׳</he> and how large must that interest be?… One-half, or one-third, or one-fourth. ",
+				"<cite ref=\"Mishnah Avodah Zarah 3:5\">Ab. Zar. III, 5</cite> <he>מפני מה … שיש בה תפיסת ידי אדם</he> (Y. ed. <cite ref=\"V00823\"><he>תְּפִישַׂת</he></cite>) why is it forbidden to make use of the wood of an Asherah (it being a natural object)? Because the hands of men had something to do with it (they planted it). Ib. 50ᵃ <he>שתים בת׳ לו</he> two stones (of a <i>merculis</i>) within a grasp’s distance (four cubits). ",
+				"<cite ref=\"Tosefta Chullin 8:5\">Tosef. Ḥull. VIII, 5</cite> <he>לא … שכולן ת׳ אחת</he> (not <he>שכולי</he>) they forbid (two guests in an inn at the same table to eat, the one meat, and the other cheese) only when all of it is handled together; <cite ref=\"Chullin 107b:19\">Ḥull. 107ᵇ</cite> <he>ת׳ אחת סלקא דעתך</he> you cannot mean really handled together (wrapped together); <he>אלא כעין ת׳ אחת</he> but it means, with the appearance of belonging together. ",
+				"<cite ref=\"Tosefta Terumot 3:7\">Tosef. Ter. III, 7</cite> <he>כל בית הגיתות תפו׳ אחת</he> ed. Zuck. (Var. <cite ref=\"V00831\"><he>תפי׳</he></cite>) the whole wine-press room may be considered one concern; <he>כיצד גת אחת … בזמן שכולן ת׳ אחת וכ׳</he> in what way? If there is one vat for two pits, or …, as long as they are all worked at the same time, you may take T’rumah or tithes from one for the other; <he>אין כולם ת׳ אחת וכ׳</he> if they are not all worked at the same time, you cannot &c. ",
+				"<cite ref=\"Tosefta Terumot 3:7\">Ib.</cite> <he>כל בית הבד ת׳ אחת</he> the whole oil press room may be considered one concern; a. fr.—",
+				"<cite ref=\"Devarim Rabbah 2:18\">Deut. R. s. 2</cite> <he>תפיסת קורצין</he>, v. <cite ref=\"S00265\"><he>קְווּצּוֹת</he></cite>.—Pl. <he>תְּפִיסוֹת</he>, <he>תְּפִישׂ׳</he>, <he>תְּפוּ׳</he>. ",
+				"<cite ref=\"Avodah Zarah 8b:4\">Ab. Zar. 8ᵇ</cite> <he>שתי ת׳ תפסה רומי וכ׳</he> twice Rome seized the empire (in the east), once in the days of queen Cleopatra, and once in the days of the Greeks. ",
+				"<cite ref=\"Avodah Zarah 50a:6\">Ib. 50ᵃ</cite> <he>בשתי ת׳</he> at a distance of two grasps (eight cubits), v. supra. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 2:1:13\">Y. Ter. II, 41ᵇ</cite> bot. <he>שהיה בלבו תפושה אחת … שתי תפוש׳</he> when he had intended to treat the wine in the press room as one concern, but reconsidered it in favor of two concerns; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>being taken, detention</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 13\">Num. R. s. 13<sup>18</sup></cite> <he>שהיו מפשפשים … תפיסת מצרים</he> they examined their own deeds to find out why the detention in Egypt had happened to them; a. e."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " v. <cite ref=\"V00806\"><he>תְּפוּסָה</he></cite>",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

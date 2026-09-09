@@ -1,0 +1,23 @@
+{
+	"id": "R00135",
+	"slug": "צהורא",
+	"headword": {
+		"text": "צְהוֹרָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1264,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00143\"><he>צְהַר</he></cite>) <i>sheen, light</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 88:15\">Targ. Ps. LXXXVIII, 15</cite> ed. Lag. (oth. ed. <cite ref=\"N00255\"><he>נְהוֹרָא</he></cite>)."
+			]
+		}
+	]
+}

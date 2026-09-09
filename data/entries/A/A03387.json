@@ -1,0 +1,23 @@
+{
+	"id": "A03387",
+	"slug": "אשתעותא",
+	"headword": {
+		"text": "אִשְׁתָּעוּתָא"
+	},
+	"page": {
+		"number": 131,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01652\"><he>שעי</he></cite>) <i>narration, tale, speech</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 9:24\">Targ. Y. Gen. IX, 24</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 16:6\">Targ. Y. Lev. XVI, 6</cite>; a. e."
+			]
+		}
+	]
+}

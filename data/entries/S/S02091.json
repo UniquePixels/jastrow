@@ -1,0 +1,28 @@
+{
+	"id": "S02091",
+	"slug": "קרמא-2",
+	"headword": {
+		"text": "קִרְמָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִי׳"
+		}
+	],
+	"page": {
+		"number": 1421,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"S02089\"><he>קֶרֶם</he></cite>, <i>fine cloth, hanging</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 7:16\">Targ. Prov. VII, 16</cite> (some ed. <cite ref=\"S02090\"><he>קְרָמָא</he></cite>), v. <cite ref=\"S02088\"><he>קְרַם</he></cite>.—Pl. <he>קִרְמֵי</he>, <cite ref=\"S00089\"><he>קִי׳</he></cite>. ",
+				"<cite ref=\"Moed Katan 10b:4\">M. Kat. 10ᵇ</cite>, v. <cite ref=\"K00937\"><he>כַּסְכֵּס</he></cite>.—[<cite ref=\"Eruvin 22a\">Erub. 22ᵃ</cite>, v. <cite ref=\"S00617\"><he>קוּרָמֵי</he></cite>.]"
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "A02865",
+	"slug": "אצטדיא",
+	"headword": {
+		"text": "אִצְטַדְיָא"
+	},
+	"page": {
+		"number": 110,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00100\"><he>צדי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>destruction</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 17:14\">Targ. Prov. XVII, 14</cite> (h. text <cite ref=\"C00974\"><he>התגלע</he></cite>; for <cite ref=\"I00602\"><he>אטעי</he></cite> <cite ref=\"Aramaic Targum to Proverbs 17:14\">ib.</cite> read <he>אַטֵּישׁ</he>, v. <cite ref=\"N00589\"><he>נטש</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cacophem.) <i>theatre, arena;</i> prevailing vers. <cite ref=\"A02871\"><he>אִצְטַרְיָא</he></cite> q. v.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

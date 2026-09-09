@@ -1,0 +1,27 @@
+{
+	"id": "B00746",
+	"slug": "בישן",
+	"headword": {
+		"text": "בֵּישָׁן"
+	},
+	"altHeadwords": [
+		{
+			"text": "ביישן"
+		}
+	],
+	"page": {
+		"number": 167,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. (contr. of <he>בית שאן</he>, v. <cite ref=\"U00037\"><he>שְׁאָן</he></cite>) <i>Beshan</i> (Scythopolis), in Galilee. Y. B. Mets. X, 12ᶜ top <he>דרייא דב׳</he> the dwelling houses of B.—",
+			"units": [
+				"<cite ref=\"Pesachim 50b:11\">Pes. 50ᵇ</cite> <he>בני ביישן</he> (Ms. Oxf. <cite ref=\"B00746\"><he>בישן</he></cite>, Ms. M. <cite ref=\"M01315\"><he>מישן</he></cite>)."
+			]
+		}
+	]
+}

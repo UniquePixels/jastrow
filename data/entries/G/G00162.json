@@ -1,0 +1,36 @@
+{
+	"id": "G00162",
+	"slug": "זוטר-2",
+	"headword": {
+		"text": "זוּטַר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "זוּטְרָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 386,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a contract. of <he>זערזער</he>; cmp. <cite ref=\"G00157\"><he>זוּטָא</he></cite>) <i>small, young, junior</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 119:141\">Targ. Ps. CXIX, 141</cite>; a. e.—",
+				"<cite ref=\"Taanit 23b\">Taan. 23ᵇ</cite> (<cite ref=\"J00433\"><he>ינוקא</he></cite>) <he>ז׳</he> the younger child. ",
+				"<cite ref=\"Ketubot 66b:6\">Keth. 66ᵇ</cite> <he>עסקא זוטא דזוטר רווחא</he> a small investment which brings a small profit, v. <cite ref=\"G00314\"><he>זִיּוּנָא</he> III</cite>; a. fr.—Pl. <he>זוּטְרֵי</he>. ",
+				"<cite ref=\"Bava Kamma 92b:17\">B. Kam. 92ᵇ</cite>, v. <cite ref=\"C00131\"><he>גַּבְרָא</he></cite>; a. e.—Fem. <cite ref=\"G00164\"><he>זוּטַרְתָּא</he></cite>, <cite ref=\"G00164\"><he>זוּטַרְתִּי</he></cite>. ",
+				"<cite ref=\"Berakhot 33b:24\">Ber. 33ᵇ</cite> <he>מילתא ז׳</he> a trifle. ",
+				"<cite ref=\"Avodah Zarah 29a:6\">Ab. Zar. 29ᵃ</cite>, v. <cite ref=\"M01492\"><he>מְלוֹא</he></cite> ch.—Pl. <cite ref=\"G00164\"><he>זוֹטְרָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 104:25\">Targ. Ps. CIV, 25</cite> Ms. (ed. <he>זעיר׳</he>).—",
+				"<cite ref=\"Zevachim 63a\">Zeb. 63ᵃ</cite> <he>בז׳</he> Ar. (v. marginal note, ed. <he>בזכרותא</he>) counting the little fingers (of which six go on a <i>Tefaḥ</i>)."
+			]
+		}
+	]
+}

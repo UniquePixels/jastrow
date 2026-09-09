@@ -1,0 +1,32 @@
+{
+	"id": "B00830",
+	"slug": "בלול",
+	"headword": {
+		"text": "בָּלוּל"
+	},
+	"page": {
+		"number": 171,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B00880\"><he>בלל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mixed up</i>, v. <cite ref=\"B00880\"><he>בָּלַל</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>cloudy</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 147a:10\">B. Bath. 147ᵃ</cite>, v. <cite ref=\"B01207\"><he>בָּרוּר</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"id": "B00679",
+	"slug": "ביצה-2",
+	"headword": {
+		"text": "בֵּיצָה"
+	},
+	"page": {
+		"number": 164,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"B00308\"><he>בּוּץ</he></cite>, <cite ref=\"B01075\"><he>בִּצְבֵּץ</he></cite>) [<i>the bubbling</i>,] <i>egg</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 1:1\">Bets. I, 1</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Shabbat 8:5\">Sabb. VIII, 5</cite> (<cite ref=\"Shabbat 80b:9\">80ᵇ</cite>) <he>ב׳ קלה</he> a light (easily boiling) egg."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>an egg-shaped object, ball, lump</i>. Ib. <he>בֵּיצַת הגיר</he> Ar. (ed. <he>הסיד</he>) cement (lime) in a lump; Tosef. ib. VIII (IX), 20 <he>בזמן שביצה</he>, Var. <he>שהיא כביצה</he>, when it is as compact as a ball, opp. <he>חבוט</he>.—",
+			"units": [
+				"<cite ref=\"Mishnah Parah 5:6\">Par. V, 6</cite>; <cite ref=\"Vayikra Rabbah 23\">Lev. R. s. 23</cite>, end <he>ביצת היוצרים</he> the potter’s lump of clay."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " trnsf. <i>germ, root</i>, esp. <he>קעקע ב׳</he> to stamp out, <i>to exterminate</i> (the last germ). Y. Ab. Zar. IV, 44ᵃ top. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 26\">Lev. R. s. 26</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 11\">Lev. R. s. 11</cite>; Ruth R. (introd.) to I, 2; Esth. R. beg.; v. <cite ref=\"B00668\"><he>בֵּיעָא</he></cite> pl."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>Betsah</i>, name of a Talmudic treatise, beginning with that word (in Tosefta <he>יום טוב</he>).—Pl. <cite ref=\"B01085\"><he>בֵּיצִים</he></cite>, <cite ref=\"B01085\"><he>בֵּצִים</he></cite>, constr. <he>בֵּיצֵי</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 8:5\">Sabb. VIII, 5</cite>; a. fr.—",
+				"<cite ref=\"Avodah Zarah 3b:8\">Ab. Zar. 3ᵇ</cite>; a. e. <he>ביצי כנים</he>, v. <cite ref=\"K00565\"><he>כִּינָּה</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 11:5:4\">Y. Snh. XI, 30ᵇ</cite> bot., [read as] <cite ref=\"Shir HaShirim Rabbah 2:5:3\">Cant. R. to II, 5</cite> <he>פתפותי בצים הם כאן</he> scrambled eggs are here, i.e. confusion of persons. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 5:2:6\">Y. Shebi. V, 35ᵈ</cite> bot. <he>עשה ביצים</he> a. <he>עשה ביצה</he> if the leek has formed bulbs. Ib. VII, 37ᵇ bot. <he>ביצי נץ חלב</he>, v. <cite ref=\"H00978\"><he>חַלְבֵּצִין</he></cite>."
+			],
+			"label": "4"
+		}
+	]
+}

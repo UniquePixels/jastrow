@@ -1,0 +1,45 @@
+{
+	"id": "B01383",
+	"slug": "בתולה",
+	"headword": {
+		"text": "בְּתוּלָה"
+	},
+	"page": {
+		"number": 200,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>בתל</he>, √<cite ref=\"B01377\"><he>בת</he></cite>, to separate; cmp. <he>בתר</he>; v. Ges. H. Dict. s. v.) [<i>retired, untouched</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>virgin.—</i>Pl. <he>בְּתוּלוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 3:14\">Tosef. Shebi. III, 14</cite> sq. <he>שלש ב׳ הן</he> b’thulah is used in three ways, <he>בְּתוּלַת אדם וכ׳</he> of a human being (virgin), of soil (unbroken), and of sycamores (untrimmed); <cite ref=\"Niddah 8b:34\">Nidd. 8ᵇ</cite>; Y. ib. I, 49ᵃ. ",
+				"<cite ref=\"Yevamot 61b:13\">Yeb. 61ᵇ</cite> <he>אין ב׳ אלא נערה</he> under b’thulah (in a legal sense) a girl between twelve and twelve and a half years is meant, v. <cite ref=\"B00092\"><he>בַּגְרוּת</he></cite>. Ohol. XVI, 4 <he>עד שמגיע … לב׳</he> until he reaches a rock or unbroken ground. ",
+				"<cite ref=\"Shabbat 90a:7\">Sabb. 90ᵃ</cite> <he>בתולת הוורד</he> a closed rose (Var. quot. in Ar., a. Ms. O. <cite ref=\"Q02166\"><he>פְּתִילַת</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Sotah 3:4:13\">Y. Sot. III, 19ᵃ</cite> <he>ב׳ ציימנית</he> an ascetic maid (retired from social pleasures); <cite ref=\"Sotah 22a:9\">Sot. 22ᵃ</cite> (<cite ref=\"R00517\"><he>צליינית</he></cite>) <he>ב׳ ציילנית</he> a prayerful (bigoted) maid; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (only in pl.) <i>the two posts supporting the beam in the wine-press</i> (Lat. gemelli, sorores). ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 4:5\">B. Bath. IV, 5</cite> (<cite ref=\"Bava Batra 67b:3\">67ᵇ</cite>), expl. <he>כלונסות</he>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>Virgo</i>, sign of the Zodiac. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 418:1\">Yalk. Ex. 418</cite>. Ib. I Kings 185. ",
+				"<cite ref=\"Pesikta Rabbati 20:1\">Pesik. R. s. 20</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,75 @@
+{
+	"id": "J00476",
+	"slug": "יעד-1",
+	"headword": {
+		"text": "יָעַד"
+	},
+	"altHeadwords": [
+		{
+			"text": "וָעַד"
+		}
+	],
+	"page": {
+		"number": 584,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <he>עוד</he>) <i>to appoint;</i> denom. <cite ref=\"M00557\"><he>מוֹעֵד</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יִעֵד", "יִי׳"],
+			"senses": [
+				{
+					"gloss": "<i>to designate</i>, esp. <i>to designate a Hebrew handmaid to be a freeman’s wife</i> (<cite ref=\"Exodus 21:8\">Ex. XXI, 8</cite>, sq.). ",
+					"units": [
+						"<cite ref=\"Kiddushin 19a:8\">Kidd. 19ᵃ</cite> <he>צריך ליַעֲדָהּ</he> he must express to her her designation, i.e. <he>בקדושי יעוד</he> by betrothal through designation, v. <cite ref=\"J00480\"><he>יִעוּד</he></cite>. ",
+						"<cite ref=\"Kiddushin 19a:3\">Ib.</cite> <he>מהו שמְיַיעֵד אדם וכ׳</he> may a man designate (a handmaid) for his minor son? <cite ref=\"Kiddushin 19b:7\">Ib.ᵇ</cite> <he>אם רצה לייעד מייעד</he> if he chooses to betroth her, he may do so. Mekh. Mishp. s. 3 <he>לבנו יְיַעֵד וכ׳</he> he may give her to his son, but not to his brother. Ib. <he>יַעֵד לך או לבנך וכ׳</he> betroth her to thyself or to thy son or redeem her; a. fr.—<i>Part. pass. f</i>. <cite ref=\"M00556\"><he>מְיוּעֶדֶת</he></cite> <i>designated, betrothed</i>. Y. Kidd. I, 59ᵇ bot. he tells her in the presence of witnesses <he>הרי את מי׳ לי</he> thou art designated for me (as my wife). Bab. ",
+						"<cite ref=\"Kiddushin 6a:3\">Kidd. 6ᵃ</cite> <he>מי׳ לי מהו</he> if one says to a free woman, Thou art &c. (using <he>מיועדת</he> for <he>מקודשת</he>), is it a valid betrothal?"
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["וִיעֵד"],
+			"senses": [
+				{
+					"gloss": "<i>to make an appointment, to meet</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 2:14\">Lam. R. to II, 13</cite>, a. e., v. <cite ref=\"F00048\"><he>וִיעוּד</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הוֹעִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to appoint</i>; part. pass. <cite ref=\"M00556\"><he>מוּעָד</he></cite> <i>designated, invited</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 19\">Ex. R. s. 19</cite> <he>מ׳ לדיבור</he> appointed to receive the revelation; <cite ref=\"Shemot Rabbah 19\">ib.</cite> <he>מוּעָדִין לדבור</he> (<cite ref=\"Yevamot 62a:5\">Yeb. 62ᵃ</cite> <he>מיוחד</he>, v. <cite ref=\"J00268\"><he>יָחַד</he></cite>; <cite ref=\"Avot D'Rabbi Natan 2:3\">Ab. d’R. N. ch. II</cite> <he>מזומן</he>).—[V. <cite ref=\"M00556\"><he>מוּעָד</he></cite> <i>forewarned</i>.]"
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְוַעֵד"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <cite ref=\"J00476\"><he>הִתְוַעֵד</he></cite> <i>to be appointed, engaged; to meet</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 14:18\">Num. R. s. 14</cite>, end <he>שלא נִתְוַועֲדוּ בדבור עם משה</he> who were not invited with Moses for the reception of the revealed word. ",
+						"<cite ref=\"Bamidbar Rabbah 14:18\">Ib.</cite> <he>עתיד אני להִתְוַועֵד להם</he> I shall meet them (appear to them); Sifra Vayikra <cite ref=\"Mishnah Parah 1\">Par. I</cite>, ch. II <he>להיות ועד</he> (corr. acc.); <cite ref=\"Yalkut Shimoni on Torah 430:1\">Yalk. Lev. 430</cite> <he>להתוו׳ בהם</he> (corr. acc.)."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "R00382",
+	"slug": "צימצמאי",
+	"headword": {
+		"text": "צִימְצְמָאֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "צוּמְצְ׳"
+		}
+	],
+	"page": {
+		"number": 1277,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"R00585\"><he>צִמְצֵם</he></cite>) <i>scarce things, curiosities</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 63a:2\">Sabb. 63ᵃ</cite> <he>משתכח בי גזא דצו׳ דמלכתא</he> Ms. M. (ed. <he>בגזאי דצי׳ מ׳</he>; Ms. O. <he>דצמ׳ מ׳</he>) it is to be found in the queen’s collection of curiosities. [Comment.: of queen <i>Tsimts’mai</i>.]"
+			]
+		}
+	]
+}

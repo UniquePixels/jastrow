@@ -1,0 +1,22 @@
+{
+	"id": "O00348",
+	"slug": "סומנא",
+	"headword": {
+		"text": "סוּמָנָא"
+	},
+	"page": {
+		"number": 966,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סוּם</he> I; v. <cite ref=\"O00711\"><he>סִימָנָא</he></cite>) <i>mark, balk.—</i>Pl. <he>סוּמָנִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 28:25\">Targ. Is. XXVIII, 25</cite> (h. text <he>נסמן</he>)."
+			]
+		}
+	]
+}

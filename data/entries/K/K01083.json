@@ -1,0 +1,23 @@
+{
+	"id": "K01083",
+	"slug": "כרביתא",
+	"headword": {
+		"text": "כַּרְבִיתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 663,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"K01078\"><he>כְּרָבָא</he> I</cite>) <i>like a ploughed field, of rough surface</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 85a:19\">B. Kam. 85ᵃ</cite> (expl. <cite ref=\"C01245\"><he>גַּרְגּוּתְנִי</he></cite>) <he>נאתא כ׳</he> Ms. M. (v. Rabb. D. S. a. l. note; ed. <cite ref=\"K01167\"><he>כריכתא</he></cite>; <cite ref=\"Yalkut Shimoni on Torah 332:1\">Yalk. Ex. 332</cite> <he>כרכית</he>) a rough seam (of the wound), <i>scar</i>"
+			]
+		}
+	]
+}

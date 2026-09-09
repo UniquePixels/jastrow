@@ -1,0 +1,43 @@
+{
+	"id": "Q01177",
+	"slug": "פנטיגון",
+	"headword": {
+		"text": "פֶּנְטִיגוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּינְ׳"
+		},
+		{
+			"text": "פּוּנְ׳"
+		}
+	],
+	"page": {
+		"number": 1187,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (πεντάγωνος) <i>pentagonal</i>. ",
+			"units": [
+				"<cite ref=\"Nazir 8b:10\">Naz. 8ᵇ</cite>; <cite ref=\"Bava Batra 164b:11\">B. Bath. 164ᵇ</cite> <he>פ׳</he> (<he>בית</he>) a pentagonal building; <cite ref=\"Tosefta Negaim 6:3\">Tosef. Neg. VI, 3</cite> <he>פנטיגין</he> ed. Zuck. (oth. ed. <cite ref=\"Q01181\"><he>פנטניז</he></cite>, corr. acc.)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (πεντάγονος) <i>for the fifth time</i>. Naz. l. c.; B. Bath. l. c., v. <cite ref=\"D00484\"><he>דִּיגוֹן</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>fivefold</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 78:10\">Midr. Till. to Ps. LXXVIII, 49</cite> <he>פ׳ היה</he> (not <he>היא</he>; ed. Bub. <he>טטראגון הוא</he>, corr. acc.) each Egyptian plague was fivefold."
+			],
+			"label": "3"
+		}
+	]
+}

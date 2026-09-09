@@ -1,0 +1,60 @@
+{
+	"id": "M02309",
+	"slug": "מצי-4",
+	"headword": {
+		"text": "מְצִי",
+		"homograph": 2
+	},
+	"page": {
+		"number": 826,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M02308\">same</cite> <i>to wring</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 65b:3\">Zeb. 65ᵇ</cite> <he>וכיון דמָצֵי לדם וכ׳</he> (not <he>דמצוי דם</he>, v. Rabb. D. S. a. l. note 1) and since he wrings the blood out, he does the act prescribed for the burnt-offering &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <i>to suck</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 54b:16\">Sabb. 54ᵇ</cite> <he>לִימְצְיוּהָ</he>, v. <cite ref=\"J00331\"><he>יָילָא</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מַצֵּי"],
+			"senses": [
+				{
+					"gloss": " <i>to give suck</i>. ",
+					"units": [
+						"<cite ref=\"Ketubot 60b:12\">Keth. 60ᵇ</cite> <he>מְמַצְּיָא ליה טפי</he> she will give him (her own child) more suck."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְמַצֵּי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְמְצֵי", "אִימְּצִי"],
+			"senses": [
+				{
+					"gloss": " <i>to be wrung out, drained</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 1:15\">Targ. Lev. I, 15</cite>; a. e.—",
+						"<cite ref=\"Aramaic Targum to Job 4:12\">Targ. Job IV, 12</cite> <he>דאיתמצי</he> (Ms. <he>דאִיתִּימְצִי</he> <i>Ittaf.;</i> h. text <cite ref=\"U01521\"><he>שֶׁמֶץ</he></cite>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

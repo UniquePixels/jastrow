@@ -1,0 +1,22 @@
+{
+	"id": "O01435",
+	"slug": "ספרנא",
+	"headword": {
+		"text": "סַפְרָנָא"
+	},
+	"page": {
+		"number": 1018,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"O01423\"><he>ספְרָא</he></cite>, <i>scribe</i>, <i>secretary</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 5:11\">Targ. Esth. V, 11</cite>."
+			]
+		}
+	]
+}

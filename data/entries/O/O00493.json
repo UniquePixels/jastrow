@@ -1,0 +1,23 @@
+{
+	"id": "O00493",
+	"slug": "סטכת",
+	"headword": {
+		"text": "סַטְכַּת"
+	},
+	"page": {
+		"number": 973,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00492\">preced.</cite>; a corrupt. of στακτή) <i>oil of myrrh</i> or <i>cinnamon</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 43a:2\">Pes. 43ᵃ</cite> (expl. <he>שמן המר</he>, <cite ref=\"Esther 2:12\">Esth. II, 12</cite>); <cite ref=\"Megillah 13a:18\">Meg. 13ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Nach 1083\">Yalk. Esth. 1083</cite>.—",
+				"<cite ref=\"Aramaic Targum to Esther 2:12\">Targ. Esth. II, 12</cite> <cite ref=\"I00467\"><he>טכסת</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

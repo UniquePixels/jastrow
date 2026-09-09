@@ -1,0 +1,28 @@
+{
+	"id": "L00367",
+	"slug": "לחמי",
+	"headword": {
+		"text": "לַחְמִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "לַחְמִית"
+		}
+	],
+	"page": {
+		"number": 704,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <he>בית הלחמי</he>) <i>of Bethlehem</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 7:1\">Tosef. Kel. B. Mets. VII, 1</cite>; <cite ref=\"Bekhorot 22a:8\">Bekh. 22ᵃ</cite> <he>החבית הל׳</he> Bethlehem wine jug.—Pl. <cite ref=\"L00368\"><he>לַחְמִיּוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 2:2\">Kel. II, 2</cite>; <cite ref=\"Tosefta Kelim Kamma 2:2\">Tosef. Kel. B. Kam. II, 2</cite>."
+			]
+		}
+	]
+}

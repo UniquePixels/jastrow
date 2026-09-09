@@ -1,0 +1,34 @@
+{
+	"id": "N01337",
+	"slug": "נשף-2",
+	"headword": {
+		"text": "נְשַׁף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 941,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01336\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Berakhot 3b:26\">Ber. 3ᵇ</cite> (expl. <cite ref=\"N01339\"><he>נֶשֶׁף</he></cite>) <he>נ׳ ליליא וכ׳</he> the night blows (expires), and the day comes in; the day blows, and night sets in (Rashi: <i>retires</i>), v. <cite ref=\"N01339\"><he>נֶשֶׁף</he></cite>, <cite ref=\"N01340\"><he>נִשְׁפָּא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִינְּשַׁף"],
+			"senses": [
+				{
+					"gloss": "<i>to be covered with breath, to become dim</i>. ",
+					"units": [
+						"<cite ref=\"Menachot 50b:20\">Men. 50ᵇ</cite> <he>אִינַּשְּׁפָה לה</he> (Ar. <he>איג׳</he>, Var. <he>אינ׳</he>; some ed. Ar. <he>אינשבא</he>) the bread loses its glistening surface (when it gets stale)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

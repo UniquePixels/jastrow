@@ -1,0 +1,140 @@
+{
+	"id": "J00712",
+	"slug": "יתב-1",
+	"headword": {
+		"text": "יתֵב"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְתֵיב",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 602,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h.<cite ref=\"J00675\"><he>יָשַׁב</he></cite> , <i>to sit, dwell</i> &c.; <i>to be inhabited, settled</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 36:7\">Targ. O. Gen. XXXVI, 7</cite> <he>מִיתַּב</he> ed. Berl. (oth. ed. a. Y. <he>מֵיתַב</he>). ",
+				"<cite ref=\"Onkelos Exodus 16:35\">Targ. O. Ex. XVI, 35</cite> <cite ref=\"J00729\"><he>יָתֵיבְתָּא</he></cite> (Y. <he>מֵיתִיבָא</he>) <i>inhabited</i>; a. v. fr.—Imper. <cite ref=\"V00407\"><he>תִּיב</he></cite>, <he>תִּיבִי</he>. ",
+				"<cite ref=\"Onkelos Genesis 20:15\">Targ. Gen. XX, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 52:2\">Targ. Is. LII, 2</cite> (ed. Wil. <cite ref=\"V00047\"><he>תְּבִי</he></cite>); a. fr.—",
+				"<cite ref=\"Yevamot 109a\">Yeb. 109ᵃ</cite> <he>יָתְבָא תותיה</he> she lives under (with) him. ",
+				"<cite ref=\"Berakhot 6a:16\">Ber. 6ᵃ</cite> <he>עד דיַתְבֵי</he> when they are seated. ",
+				"<cite ref=\"Berakhot 48a:3\">Ib. 48ᵃ</cite> <he>ורחמנא היכא י׳</he> and where does the Lord reside?—",
+				"<cite ref=\"Moed Katan 9b:4\">M. Kat. 9ᵇ</cite> <he>ליחרוב ביתך ולֵיתוּב אושפיזך</he> may thy house (grave) be vacant, and thy inn (temporary home on earth) be inhabited; Tanḥ. ",
+				"<cite ref=\"Genesis 13\">B’resh. 13</cite>; a fr.—<he>י׳</he> … <he>וקאמר</he> N. N. sat down (lecturing) and said &c. ",
+				"<cite ref=\"Beitzah 20a:4\">Bets. 20ᵃ</cite>; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יַתֵּיב"],
+			"senses": [
+				{
+					"gloss": "<i>to set down, place</i>. Y. Kil. IX, 32ᶜ top; Y. Keth. XII, 35ᵇ top <he>י׳ ליה ולא וכ׳</he> he set him down (let his coffin down) and would not take him back again (v. <cite ref=\"V00142\"><he>תּוּב</he></cite>); a. e.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to settle, establish</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 43:20\">Targ. Is. XLIII, 20</cite> <he>אֲיַתֵּיב</he> (ed. Wil. <cite ref=\"J00712\"><he>אַיְתֵב</he></cite> <i>Af.</i>).—",
+						"<cite ref=\"Aramaic Targum to Psalms 22:4\">Targ. Ps. XXII, 4</cite>; a. e."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to quiet, set at rest</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 23:3\">Targ. Ps. XXIII, 3</cite> <he>יְיַתִּיב</he> (ed. Wil. <cite ref=\"J00712\"><he>יְתִיב</he></cite>, v. <cite ref=\"V00142\"><he>תּוּב</he></cite>).—",
+						"<cite ref=\"Berakhot 28a:3\">Ber. 28ᵃ</cite> <he>ליַתּוּבֵי דעתיה</he> to set his mind at ease. ",
+						"<cite ref=\"Yoma 81a:5\">Yoma 81ᵃ</cite> <he>יַתּוּבֵי דעתא</he> making one come to. ",
+						"<cite ref=\"Bava Batra 3b:15\">B. Bath. 3ᵇ</cite> <he>ליַתּוּבֵיה ליצריה</he> in order to gratify his passion. ",
+						"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite> [read:] <he>תִּתְיַתַּב ליך נפשיך היך כמה דיַתְּבַת לנפשי</he> may thy soul be restored to thee as thou hast restored my soul; a. e.—<i>Part. pass.</i> <he>מְיַתַּב</he>, <cite ref=\"M01449\"><he>מְיַתְּבָא</he></cite>, <he>מְיַתְבָא</he> "
+					],
+					"label": "3",
+					"senses": [
+						{
+							"gloss": " <i>inhabited</i>. ",
+							"units": [
+								"<cite ref=\"Aramaic Targum to Psalms 107:4\">Targ. Ps. CVII, 4</cite>.—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>quieted</i>. ",
+							"units": [
+								"<cite ref=\"Tamid 32a:55\">Tam. 32ᵃ</cite> <he>נחותי ימא לא מְיַ׳ דעתיהון וכ׳</he> (or <he>מִיַּתְּבָא</he>, v. infra) sea-farers do not feel at ease until they reach land."
+							],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אוֹתֵיב", "אַיְתֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to place, seat, settle</i> (v. <cite ref=\"J00675\"><he>יָשַׁב</he></cite> <i>Hif.</i>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 21:9\">Targ. I Kings XXI, 9</cite>. ",
+						"<cite ref=\"Onkelos Genesis 47:6\">Targ. Gen. XLVII, 6</cite>; a. fr.—Y. Kidd. I, 58ᵈ <he>אַיְיתִיבוּנִי על גיף וכ׳</he> bury, me at the bank of the river; Y. Keth. VI, end, 31ᵃ <he>אייתבון</he> (corr. acc.). ",
+						"<cite ref=\"Chullin 59a:5\">Ḥull. 59ᵃ</cite> <he>נֵיתְבֵיה בתנורא … אוֹתְבֵיה</he> let it be put in the oven; … he put it in. ",
+						"<cite ref=\"Yoma 69b:9\">Yoma 69ᵇ</cite> <he>אוֹתִיבוּ בתעניתא וכ׳</he> they made (people) sit fasting, they ordered a fast of three days &c.; a. fr. [<cite ref=\"J00712\"><he>אוֹתִיב</he></cite> for <cite ref=\"V00142\"><he>אָתֵיב</he></cite>, v. <cite ref=\"V00142\"><he>תּוּב</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְיַתֵּב"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְיְתֵיב", "אִיְּיתִיב"],
+			"senses": [
+				{
+					"gloss": ", <he>אִיתִּיב</he>; <i>Ittaf.</i> <he>אִיתּוֹתַב</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be allowed to dwell, to sojourn</i> (h. <cite ref=\"C00474\"><he>גּוּר</he></cite>). ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 20:1\">Targ. O. Gen. XX, 1</cite> (Y. <he>אתנתב</he>, corr. acc.). ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 49:33\">Targ. Jer. XLIX, 33</cite>; a. fr.—",
+						"<cite ref=\"Shabbat 33b:6\">Sabb. 33ᵇ</cite> <he>אִיתְּבוּ תריסר וכ׳</he> they dwelt in the cave twelve years."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be inhabited</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 44:26\">Targ. Is. XLIV, 26</cite>. ",
+						"<cite ref=\"Targum Jonathan on Jeremiah 50:13\">Targ. Jer. L, 13</cite>; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be set at ease, be gratified</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 62:5\">Targ. Is. LXII, 5</cite>.—",
+						"<cite ref=\"Bava Metzia 83b:12\">B. Mets. 83ᵇ</cite> bot. <he>לא מִיַּיתְּבָא דעתיה</he> he was not satisfied. ",
+						"<cite ref=\"Yoma 80b:2\">Yoma 80ᵇ</cite>; <he>מי׳ דעתיה</he> he will come to again.—",
+						"<cite ref=\"Shabbat 51b\">Sabb. 51ᵇ</cite>, sq. <he>כי היכי דתִיתּוֹתַב דעתיה</he> Ms. O. (Ms. M. <he>דתייב</he>, ed. <he>דאיתותב</he>, v. Rabb. D. S. a. l. note) that he may be reconciled. ",
+						"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite>, v. supra; a. fr. [<he>אִתּוֹתַב</he> for <cite ref=\"V00142\"><he>אִתָּתַב</he></cite>, v. <cite ref=\"V00142\"><he>תּוּב</he></cite>.]"
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

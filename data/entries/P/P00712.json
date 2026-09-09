@@ -1,0 +1,66 @@
+{
+	"id": "P00712",
+	"slug": "עכב-1",
+	"headword": {
+		"text": "עָכַב"
+	},
+	"page": {
+		"number": 1077,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"P01143\"><he>עָקַב</he></cite>) <i>to be curved; hooked</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִיכֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to detain, prevent</i>. Mekh. B’shall. s. 1 <he>ואל תְּעַכֵּב את גאולתנו</he> and delay not our redemption. ",
+					"units": [
+						"<cite ref=\"Berakhot 7a\">Ber. 7ᵃ</cite> <he>ומי מְעַכֵּב</he>, v. <cite ref=\"P00629\"><he>עִיסָה</he></cite>; a. fr.—Esp. <i>to invalidate an act by an omission; to be indispensable</i> (v. <cite ref=\"P00560\"><he>עִיכּוּב</he></cite>). ",
+						"<cite ref=\"Mishnah Zevachim 5:1\">Zeb. V, 1</cite> <he>מתנה אחת מהן מְעַכֶּבֶת</he> the omission of one of these manipulations (v. <cite ref=\"M03089\"><he>מַתָּנָה</he></cite>) makes the whole act illegal. ",
+						"<cite ref=\"Mishnah Zevachim 5:1\">Ib.</cite> <he>אם לא נתן לא ע׳</he> if he did not pour the blood into the <i>y’sod</i> (<cite ref=\"J00456\"><he>יְסוֹד</he></cite>), it does not invalidate the act. Ib. 48ᵃ <he>לעַכֵּב מנין</he> whence do we prove that it is indispensable? (opp. <he>למצוה</he>). ",
+						"<cite ref=\"Mishnah Menachot 4:1\">Men. IV, 1</cite> <he>התכלת אינה מעכבת את הלבן</he> the absence of the blue thread in the show fringes does not hinder the white thread, i.e. in the absence of the one, the other may do for the ceremony. ",
+						"<cite ref=\"Mishnah Menachot 4:1\">Ib.</cite> <he>הסולת והשמן אינם מְעַכְּבִין … ולא היין מְעַכְּבָן</he> the flour and oil (of the Minḥah) are no hinderance to offering the wine, nor does the wine form a hinderance to them, i.e. the order in which they are offered is immaterial. ",
+						"<cite ref=\"Mishnah Menachot 4:1\">Ib.</cite> <he>המתנות … אינן מְעַכְּבוֹת זו את זו</he> the sprinklings upon the outer altar are no hinderance to one another, i.e. one of them is enough to make the ceremony legal. ",
+						"<cite ref=\"Berakhot 2a:13\">Ber. 2ᵃ</cite> <he>ביאת שמשו מְעַכַּבְתּוֹ מלאכול וכ׳</he> the sunset of his last day of levitical uncleanness is indispensable for allowing him to eat T’rumah, but the offering of his sacrifice is not; a. v. fr.—Part. pass. <he>מְעוּכָּב</he>; f. <he>מְעוּכֶּבֶת</he>; pl. <he>מְעוּכָּבִים</he>, <he>מְעוּכָּבִין</he>; <he>מְעוּכָּבוֹת</he>. Y. Sot. II, beg. 17ᵈ <he>ומכיון שהוא מע׳ מלשמוח וכ׳</he> since he is prevented from rejoicing with her (at the sacrifice), it is as if he prevented her from partaking of the sacrifice (by failing to provide for her offering of sanctification). ",
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>והוא מעכב מלשמוח</he> (read <he>מְעוּכָּב</he>). Mekh. l. c. <he>כי בגללך אנו מע׳</he> for we are detained on thy account; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to detain one’s self; to tarry; to wait for</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 3:16\">Ex. R. s. 3</cite> <he>סבור אתה שהיה משה מעכב וכ׳</he> do you think that Moses hesitated (was unwilling) to go? <cite ref=\"Bereishit Rabbah 55:1\">Gen. R. s. 55</cite> <he>על מנת שנאמר לך … ולא תְעַכֵּב</he> even if I tell thee to sacrifice thy son to me, thou wilt not hesitate. ",
+						"<cite ref=\"Bereishit Rabbah 55:4\">Ib.</cite> <he>ולא יְעַכֵּב</he> he will not hesitate. ",
+						"<cite ref=\"Bereishit Rabbah 55:1\">Ib.</cite> <he>הלואי … ולא אֲעַכֵּב</he> O! that the Lord would appear to me and tell me that I should cut off one of my limbs! I would not hesitate. Tanḥ. Ekeb 6 <he>השכינה מעכבת ישראל וענני כבוד מְעַכְּבִין לך</he> the Divine Presence is waiting, Israel and the clouds of glory are waiting for thee; <cite ref=\"Bereishit Rabbah 55:1\">ib.</cite> ",
+						"<cite ref=\"Exodus 2\">B’shall. 2</cite>; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְעַכֵּב"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְעַכִּב"],
+			"senses": [
+				{
+					"gloss": "<i>to be prevented; to be delayed</i>. Y. Pes. VI, 33ᵇ bot. <he>מִתְעַכֵּב מן המצות</he> he is precluded from religious acts. ",
+					"units": [
+						"<cite ref=\"Kohelet Rabbah 2:2:4\">Koh. R. to II, 2</cite> <he>מה טיבו שבני מתעכב</he> what is the cause of my son’s tarrying? <cite ref=\"Bamidbar Rabbah 14:1\">Num. R. s. 14</cite> <he>נ׳ לה הענן</he> the cloud of glory tarried for her (Miriam’s) sake; <cite ref=\"Mishnah Sotah 1:9\">Sot. I, 9</cite> <he>נִתְעַכְּבוּ לה ישראל וכ׳</he> Israel tarried for her sake seven days; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

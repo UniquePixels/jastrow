@@ -1,0 +1,58 @@
+{
+	"id": "S02195",
+	"slug": "קרר-4",
+	"headword": {
+		"text": "קָרַר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1427,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"S02197\"><he>קרש</he></cite>) [<i>to contract</i>,] <i>to be cold</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵקֵר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S02194\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 4:5\">Cant. R. to IV, 5</cite> there were two families &c. <he>אחת מֵיקֶרֶת וכ׳</he> (not <he>מקרית</he>) one was cold-blooded &c., v. <cite ref=\"T01122\"><he>רָתַח</he></cite>"
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּקַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be chilled, feel cold</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 23:5\">Num. R. s. 23</cite> <he>כאן … הוּקַרְנוּ</he> here we slept, here we felt cold."
+					]
+				}
+			],
+			"stem": "Hof."
+		},
+		{
+			"forms": ["נִתְקָרֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to be cooled off</i>; (with <cite ref=\"D00950\"><he>דעת</he></cite>) <i>to be pacified, feel satisfied</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 2\">Num. R. s. 2</cite> <he>נ׳ בצילו</he> he cooled himself in its shade.—",
+						"<cite ref=\"Yevamot 63a:5\">Yeb. 63ᵃ</cite> <he>ולא נִתְקָרְרָה דעתו עד וכ׳</he> and he found no satisfaction until &c. ",
+						"<cite ref=\"Bamidbar Rabbah 14\">Num. R. s. 14</cite>, beg. <he>ולא נתקררה דעתו</he> and he (the Lord) was not pacified. Tanḥ. Vaëthḥ. 6 <he>באותה שעה נתקררה רוח הקדש</he> that moment the divine spirit was cooled off (from its anger); a. e.—V. <cite ref=\"S00585\"><he>קוֹרָה</he> II</cite>."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

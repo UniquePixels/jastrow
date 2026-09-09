@@ -1,0 +1,31 @@
+{
+	"id": "Q01901",
+	"slug": "פרנסה",
+	"headword": {
+		"text": "פַּרְנָסָה"
+	},
+	"page": {
+		"number": 1231,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01900\">preced.</cite> wds.) <i>provision, maintenance, outfit</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 8:7\">Peah VIII, 7</cite> <he>פַּרְנָסַת לינה</he> the necessary arrangement for a night’s lodging (for the poor), expl. ",
+				"<cite ref=\"Shabbat 118a\">Sabb. 118ᵃ</cite>, v. <cite ref=\"Q00344\"><he>פּוּרְיָא</he></cite> II ch.; <cite ref=\"Bava Batra 9a\">B. Bath. 9ᵃ</cite>; <cite ref=\"Tosefta Peah 4:8\">Tosef. Peah IV, 8</cite>. ",
+				"<cite ref=\"Ketubot 50b:3\">Keth. 50ᵇ</cite> (ref. to <cite ref=\"G00558\"><he>זן</he></cite> <cite ref=\"Ketubot 50b:3\">ib.</cite>) <he>פ׳ הויא וכ׳</he> does this mean (bridal) outfit … or sustenance proper? <cite ref=\"Ketubot 50b:6\">Ib.</cite> <he>התם לפ׳ הואי</he> there it was about the outfit. ",
+				"<cite ref=\"Ketubot 68a\">Ib. 68ᵃ</cite>, a. e. <he>לפ׳ שמון באב</he> as to the amount for which the heirs are to be assessed for a daughter’s outfit, we are guided by the disposition of her deceased father. ",
+				"<cite ref=\"Ketubot 68a:9\">Ib.</cite> (ref. to <he>מתפרנסות</he>, <cite ref=\"Ketubot 68a:9\">ib.</cite>) <he>מאי לאו פרנסת הבעל</he> does it not mean the outfit for the husband (dower)? <he>לא בפרנסת עצמה</he> no, it refers to her own support. ",
+				"<cite ref=\"Ketubot 68b:3\">Ib.ᵇ</cite> <he>איבדו מזונותיהן ולא איבדו פַרְנָסָתָן</he> they have lost their claim on alimentation (from the estate), but not their claim on an outfit. ",
+				"<cite ref=\"Berakhot 3b:29\">Ber. 3ᵇ</cite> <he>עמך ישראל צריכין פ׳</he> Israel, thy people, need a living. ",
+				"<cite ref=\"Taanit 9a:13\">Taan. 9ᵃ</cite> <he>מטר … פ׳ בשביל רבים</he> rain is granted for the sake of an individual, support (prosperity) for the sake of the many (in public prayers). ",
+				"<cite ref=\"Bereishit Rabbah 20:9\">Gen. R. s. 20</cite>; <cite ref=\"Midrash Tehillim 106\">Midr. Till. to Ps. CVI</cite>, beg., v. <cite ref=\"Q00926\"><he>פֶּלֶא</he></cite>. ",
+				"<cite ref=\"Taanit 19b:11\">Taan. 19ᵇ</cite> <he>עבד שנתן לו רבו פַּרְנָסָתוֹ באחד וכ׳</he> a slave to whom his master gives his fare (for the week) on the first day of the week; a. v. fr."
+			]
+		}
+	]
+}

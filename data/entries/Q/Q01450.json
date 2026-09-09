@@ -1,0 +1,92 @@
+{
+	"id": "Q01450",
+	"slug": "פקד-2",
+	"headword": {
+		"text": "פְּקַד"
+	},
+	"page": {
+		"number": 1207,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01449\">same</cite><i>to command</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 8:31\">Targ. O. Lev. VIII, 31</cite> <he>פַּקְדִּית</he> Mss. (oth. ed. <i>Ithpa.</i>; ed. Berl. <i>Pa.</i>, v. infra)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>to give in charge</i>,] <i>to store up</i>.—Part. pass. <cite ref=\"Q01485\"><he>פָּקִיד</he></cite>; pl. <he>פְּקִידי</he>. ",
+			"units": [
+				"<cite ref=\"Ketubot 5b:3\">Keth. 5ᵇ</cite> <he>מִיפְּקַד פקיד</he>, v. <cite ref=\"H00108\"><he>חֲבַר</he></cite>. ",
+				"<cite ref=\"Pesachim 33b:5\">Pes. 33ᵇ</cite> <he>משקין מיפקד פקידי</he> (Rashi: <he>מִיפְּקִיד</he>) liquids (in grapes) are stored up (the shell being merely a vessel), opp. <he>מיבלע בליעי</he>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּקֵּיד"],
+			"senses": [
+				{
+					"gloss": "<i>to command, commission</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 7:5\">Targ. Gen. VII, 5</cite>; <cite ref=\"Onkelos Genesis 7:9\">9</cite> (ed. Berl. <he>פַּק׳</he>, without Dagesh). Ib. XLIX, 33. ",
+						"<cite ref=\"Aramaic Targum to Psalms 68:29\">Targ. Ps. LXVIII, 29</cite>. ",
+						"<cite ref=\"Targum Jonathan on Amos 9:3\">Targ. Am. IX, 3</cite>, sq. (ed. Wil. <cite ref=\"Q01450\"><he>אַפְקִיד</he></cite> <i>Af.</i>); a. v. fr.—Pesik. Baḥod., p. 155ᵇ <he>רבי</he> … <he>הוה מְפַקֵּד לחבריה וכ׳</he> R. Z. commanded the students (saying), go and hear R. L. preach; Y. R. Hash. IV, beg. 59ᵇ. Y. Ber. IV, 7ᶜ bot.; <cite ref=\"Yoma 2a\">ib.</cite> <he>דרבי מיפקד</he> (corr. acc.). ",
+						"<cite ref=\"Kohelet Rabbah 3:2:2\">Koh. R. to III, 2</cite> <he>הוה מפקד גו ביתיה</he> gave orders in his house (made his will); a. fr.—Part. pass. <he>מְפַקַּד</he>, v. infra."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַפְקֵיד"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01449\">same</cite>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to give in charge, deposit</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 36a:11\">B. Mets. 36ᵃ</cite> <he>הוו מַפְקְדֵי מרייהו וכ׳</he> used to leave their hoes in charge of a certain old woman; <he>יומא חד אפקדינהו וכ׳</he> one day they left them with &c.; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְפַּקֵּד"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְפְּקִיד", "אִיפְּקִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to be commanded</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 8:31\">Targ. O. Lev. VIII, 31</cite>, v. supra. ",
+						"<cite ref=\"Onkelos Leviticus 8:35\">Ib. 35</cite>. ",
+						"<cite ref=\"Onkelos Exodus 34:34\">Targ. Ex. XXXIV, 34</cite>; a. fr.—",
+						"<cite ref=\"Avodah Zarah 14a\">Ab. Zar. 14ᵃ</cite>; <cite ref=\"Avodah Zarah 21a:13\">21ᵃ</cite> <he>מִיפְקְדִינָן</he> Rashi (ed. <he>מְפַקְּדִינָן</he>, Part. pass. <i>Pa.</i>), v. <cite ref=\"Q01198\"><he>פָּנִים</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be given in charge, be deposited</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 5:23\">Targ. Lev. V, 23</cite> (O. ed. Lsb. <cite ref=\"Q01450\"><he>אִתַּפְקַד</he></cite>).—",
+						"<cite ref=\"Ketubot 5b:3\">Keth. 5ᵇ</cite>; <cite ref=\"Pesachim 33b:5\">Pes. 33ᵇ</cite>, v. supra."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "P01122",
+	"slug": "עצל-1",
+	"headword": {
+		"text": "עָצַל"
+	},
+	"page": {
+		"number": 1102,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"P01091\"><he>הִתְעַצֵּל</he></cite>, <i>Nithpa.</i> <cite ref=\"P01091\"><he>נִתְעַצֵּל</he></cite> (b. h. <i>Nif.</i>; v. <cite ref=\"P01124\"><he>עָצֵל</he></cite>; cmp. b. h. <he>אצל</he>) <i>to withdraw one’s self, shirk the trouble of; to be careless, slothful; to consider one’s self exempt</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Tamid 2:2\">Tam. II, 2</cite> <he>מימיו לא נ׳ הכהן מלהוציא וכ׳</he> never did a priest shirk the labor of carrying out the ashes. ",
+						"<cite ref=\"Vayikra Rabbah 19:4\">Lev. R. s. 19</cite> (ref. to <he>בעצלתים</he>, <cite ref=\"Ecclesiastes 10:18\">Koh. X, 18</cite>) <he>ע״י שהאדם הזה מִתְעַצֵּל מלכסות וכ׳</he> because that man considers himself exempt from covering his head as it is proper to do, he contracts rheumatism; <he>ע״י שהאשה הזו מִתְעַצֶּלֶת וכ׳</he> because that woman is too careless (of chastity) to cover herself &c. ",
+						"<cite ref=\"Ecclesiastes 10:18\">Ib.</cite> <he>ע״י שנִתְעַצְּלוּ … מלחנות וכ׳</he> because the Israelites shrank from encamping in discord. ",
+						"<cite ref=\"Jerusalem Talmud Bava Kamma 9:10:2\">Y. B. Kam. IX, end, 7ᵃ</cite> <he>נתעצלו ולא הקריבוהו</he> they were slothful and failed to offer it up; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

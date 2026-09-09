@@ -1,0 +1,37 @@
+{
+	"id": "V00276",
+	"slug": "תורא-1",
+	"headword": {
+		"text": "תּוֹרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1656,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"V00273\"><he>תּוֹר</he> I</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>row, line, order</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 38b:1\">Bekh. 38ᵇ</cite>, v. <cite ref=\"T00655\"><he>רִיס</he> II</cite>. ",
+				"<cite ref=\"Bekhorot 39a:9\">Ib. 39ᵃ</cite> <he>ת׳ ברא דשיפתיה</he> the outermost line (edge) of its lip."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>twisted band, border</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 28:32\">Targ. O. Ex. XXVIII, 32</cite> (Y. I ed. Vien. <cite ref=\"V00277\"><he>תּוּרָא</he></cite>; h. text <cite ref=\"U01734\"><he>שפה</he></cite>); ib. XXXIX, 23 (O. some ed. <cite ref=\"V00920\"><he>תֳּרָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Joshua 2:18\">Targ. Josh. II, 18</cite> (h. text <he>תקות</he>).—[<cite ref=\"Targum Jonathan on II Kings 12:10\">Targ. II Kings XII, 10</cite> some ed., read: <cite ref=\"H00445\"><he>חוּרָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

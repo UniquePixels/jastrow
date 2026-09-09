@@ -1,0 +1,54 @@
+{
+	"id": "K00755",
+	"slug": "כלכל-1",
+	"headword": {
+		"text": "כִּלְכֵּל"
+	},
+	"page": {
+		"number": 643,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; <he>כלל</he>, <he>כול</he>) [<i>to surround</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to provide with everything; to sustain</i>. ",
+			"units": [
+				"<cite ref=\"Nazir 3a\">Naz. 3ᵃ</cite>, v. <cite ref=\"K00751\"><he>כִּלְכּוּל</he></cite>. ",
+				"<cite ref=\"Berakhot 58b:5\">Ber. 58ᵇ</cite> <he>וכ׳ אתכם בדין וכ׳</he> and provided for you (while alive) in justice, and gathered you in justice."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K00734\"><he>כְּלִילָא</he></cite>) <i>to raise a crown of hair, to be a nazir</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Nazir 1:1\">Naz. I, 1</cite> <he>הריני מְכַלְכֵּל</he> I will grow a crown (as a substitute for, ‘I will be a <i>nazir</i>’, v. <cite ref=\"K00566\"><he>כִּינּוּי</he></cite>). Y. ib. 51ᵇ top <he>כאומר הריני מן המְכַלְכְּלִין</he> as if he said, I will be one of those who wear a crown of hair.—",
+				"<cite ref=\"Tosefta Niddah 6:6\">Tosef. Nidd. VI, 6</cite>; <cite ref=\"Niddah 52b:19\">Nidd. 52ᵇ</cite> <he>עד שתְּכַלְכֵּל</he> (euphem.) until she has a full growth of hair (around the pudenda)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " denom. of <cite ref=\"K00714\"><he>כֶּלִי</he></cite>) <i>to arm, fit out</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 7:17\">Midr. Till. to Ps. VII</cite> <he>א״ל הקב״ה ולא אני כלכלתי בה</he> (read: <he>כִּלְכַּלְתּיו</he>) said the Lord to him (Doëg), is it not I that fitted him (David) out with it (the sword of Goliath deposited in the Sanctuary)?—[The entire sentence is missing in ed. Bub.; note 69 a. l. quotes fr. mss. <he>קלקלתי</he>.]"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִתְכַּלְכֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be supported</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 4:1\">Pesik. R. s. 4</cite> <he>אליהו נ׳ וכ׳</he> (not <he>נתבלבל</he>) Elijah was supported by the woman of Zarephath."
+					]
+				}
+			],
+			"stem": "Nithpalp."
+		}
+	]
+}

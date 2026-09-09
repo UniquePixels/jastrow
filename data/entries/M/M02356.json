@@ -1,0 +1,49 @@
+{
+	"id": "M02356",
+	"slug": "מצר-5",
+	"headword": {
+		"text": "מֵצַר"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵיצַר"
+		}
+	],
+	"page": {
+		"number": 828,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"R00808\"><he>צָרַר</he> I)</cite> <i>narrow, pass</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 50b\">Ḥull. 50ᵇ</cite> (expl. <he>כרס הפנימי</he>) <he>מן המי׳ ולמטה</he> from where the stomach begins to narrow and downward (the animal being suspended with its head down)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <i>distress</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 109:5\">Midr. Till. to CXVIII, 5</cite> <he>מן המ׳ מדבר במצרים</he> ‘out of distress’ (<cite ref=\"Midrash Tehillim 109:5\">ib.</cite>) alludes to Egypt; <cite ref=\"Yalkut Shimoni on Nach 875\">Yalk. ib. 875</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <i>a narrow path marking the boundary between fields, balk, ridge;</i> in gen. <i>boundary</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 55a\">B. Bath. 55ᵃ</cite>, v. <cite ref=\"H01494\"><he>חֲצָב</he> II</cite>. Y. ib. III, beg. 13ᵈ; Y. Kidd. I, 60ᵈ top <he>אפי׳ מי׳ בנתיים</he> even the (common) balk between them; <cite ref=\"Jerusalem Talmud Peah 2:1:5\">Y. Peah II, beg. 16ᵈ</cite>. ",
+				"<cite ref=\"Bava Metzia 107a:8\">B. Mets. 107ᵃ</cite> <he>אילן העומד על המ׳</he> a tree standing on the balk. ",
+				"<cite ref=\"Bava Metzia 107a:7\">Ib.</cite> <he>בממלא כל המ׳ כולו</he> when it covers the entire width of the balk. ",
+				"<cite ref=\"Bava Batra 53b:2\">B. Bath. 53ᵇ</cite> <he>מי אמרינן האי מ׳ דהאי ארעא ודהאי ארעא הוא</he> Ms. M. (ed. <he>מ׳ דארעא חד הוא</he>) do we say, this balk belongs to both fields (and taking possession of it means possession of both)? <cite ref=\"Bava Batra 53b:3\">Ib.</cite> <he>מ׳ אפסרא דארעא וכ׳</he> (Ms. O. <cite ref=\"M00552\"><he>מוֹסֵרָא</he></cite>; differ. in Ms. M.), v. <cite ref=\"A02766\"><he>אַפְסָרָא</he></cite>. ",
+				"<cite ref=\"Bava Batra 62a:2\">Ib. 62ᵃ</cite> <he>מ׳ ראובן וכ׳</he> the field which I sell thee is contiguous to Reuben’s on the east and on the west side; a. fr.—Pl. <cite ref=\"M02366\"><he>מְצָרִים</he></cite> <i>boundary lines, bounds</i>. ",
+				"<cite ref=\"Bava Batra 61b:2\">Ib. 61ᵇ</cite> <he>אע״פ שמָצַר לו מ׳ החיצונים</he> although he defined (in the agreement) the outermost lines (of the group of buildings or fields), <he>מ׳ הרחיב לו</he> he intended only to give an amplified description of the situation (not to sell him the entire group). ",
+				"<cite ref=\"Mishnah Bava Batra 7:3\">Ib. VII, 3</cite> <he>בסימניו ובמְצָרָיו</he> (if he says, I sell thee a Beth Kor of land) giving its description and boundaries (and it turns out to be less than a Beth Kor); a. fr.—",
+				"<cite ref=\"Shabbat 118a:8\">Sabb. 118ᵃ</cite> <he>נחלה בלא מ׳</he> a boundless possession."
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "Q01071",
+	"slug": "פלך-2",
+	"headword": {
+		"text": "פֶּלֶךְ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּלְכָא"
+		},
+		{
+			"text": "פִּי׳"
+		}
+	],
+	"page": {
+		"number": 1182,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q01070\">same</cite><i>district</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 3:4\">Targ. Deut. III, 4</cite> constr. <cite ref=\"Q01072\"><he>פְּלָךְ</he></cite> (O. ed. Berl. <cite ref=\"Q01072\"><he>פַּלַךְ</he></cite>, ed. Vien. <he>פָּלָךְ</he>). ",
+				"<cite ref=\"Aramaic Targum to Esther 1:22\">Targ. Esth. I, 22</cite>; a. fr.—Pl. <cite ref=\"Q01074\"><he>פִּלְכִין</he></cite>, <he>פִּלְכַיָּא</he>, <cite ref=\"Q00061\"><he>פִּי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 1:22\">Ib.</cite> <he>פִּילְכֵי מלכא</he> ed. Lag. (ed. Vien. <he>פַּלְחֵי</he>, corr. acc.). ",
+				"<cite ref=\"Targum Jonathan on Joshua 17:11\">Targ. Josh. XVII, 11</cite> (ed. Wil. <cite ref=\"Q01005\"><he>פַּלְ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 1:12\">Targ. Koh. I, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 3:11\">Targ. Cant. III, 11</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>distaff, spindle</i>. ",
+			"units": [
+				"<cite ref=\"Ketubot 72b:4\">Keth. 72ᵇ</cite> <he>קא שדיא פִילְכָהּ וטווה וכ׳</he> casting the spindle and spinning &c. (v. <cite ref=\"F00084\"><he>וָרָד</he></cite>); <he>פסיקתיה לפילכה וכ׳</he> she broke (the thread of) her spindle and threw it away (as if it had accidentally slipped); <he>אמרה עולם הב לי פִילְכָאִי</he> Ar. (ed. <he>פלך</he>) she said, young man, hand me my spindle; <cite ref=\"Sanhedrin 95a:10\">Snh. 95ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Nach 155:4\">Yalk. Sam. 155</cite>; a. e.—",
+				"<cite ref=\"Megillah 14b:4\">Meg. 14ᵇ</cite> (prov.) <he>אתתא בהדי שותא פילכא</he> (sub. <cite ref=\"U00268\"><he>שדיא</he></cite>) a woman handles the shuttle while she talks, i.e. pursues two aims at a time; [Ar. s. v. <cite ref=\"U00580\"><he>שותא</he></cite>: <he>פַּלְכָה</he> <i>spins</i>.]"
+			],
+			"label": "2"
+		}
+	]
+}

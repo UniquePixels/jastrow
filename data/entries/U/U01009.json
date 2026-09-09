@@ -1,0 +1,23 @@
+{
+	"id": "U01009",
+	"slug": "שיפודא",
+	"headword": {
+		"text": "שִׁיפּוּדָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1566,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01709\"><he>שְׁפַד</he></cite>) <i>sticking in, insertion</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 37b\">B. Bath. 37ᵇ</cite> <he>האי מאן</he> … <he>בשִׁיפּוּדֵיה עד וכ׳</he> Ar. (ed. <he>משיפוליה</he>) if one sells a palm tree to his neighbor, the latter has the ownership of the soil in which it is rooted, down to the deep; <cite ref=\"Arakhin 14b:31\">Arakh. 14ᵇ</cite> <he>משיפולא ועד וכ׳</he>.—V. <cite ref=\"U01715\"><he>שַׁפּוּדָא</he></cite>."
+			]
+		}
+	]
+}

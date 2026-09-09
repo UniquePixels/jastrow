@@ -1,0 +1,27 @@
+{
+	"id": "M01424",
+	"slug": "מכסורין",
+	"headword": {
+		"text": "מִכְסוֹרִין",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "מַכְסִי׳"
+		}
+	],
+	"page": {
+		"number": 784,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>כסר</he>, cmp. Arab. <i>kasar</i> and denom.) <i>division, settlement</i> of shares (cmp. <cite ref=\"M01419\"><he>מֶכֶס</he></cite>). Y’lamd. to Num. XXIII, 10, quot. in Ar. <he>לכשתטול את שלך ותעשה המ׳ וכ׳</he> when thou (Balaam) takest thy share and makest a settlement, thou shalt agree with (or thank) me. [Ar. refers to <cite ref=\"A01744\"><he>אַכְסָרָה</he></cite>.]",
+			"units": []
+		}
+	]
+}

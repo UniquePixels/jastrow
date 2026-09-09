@@ -1,0 +1,26 @@
+{
+	"id": "J00258",
+	"slug": "יותרת",
+	"headword": {
+		"text": "יוֹתֶרֶת"
+	},
+	"page": {
+		"number": 572,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"J00258\"><he>יֹתֶרֶת</he></cite>; <cite ref=\"J00746\"><he>יָתַר</he></cite>)<i>the large lobe of the liver</i>. Sifra Vayikra, N’dabah, ch. XVII, Par. 14; <cite ref=\"Yalkut Shimoni on Torah 462:2\">Yalk. Lev. 462</cite>; a. e.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>an additional limb</i> or <i>lobe</i>, v. <cite ref=\"J00757\"><he>יְתֶרֶת</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

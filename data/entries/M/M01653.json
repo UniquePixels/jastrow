@@ -1,0 +1,27 @@
+{
+	"id": "M01653",
+	"slug": "ממונה",
+	"headword": {
+		"text": "מְמוּנֶּה"
+	},
+	"page": {
+		"number": 794,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01772\"><he>מָנָה</he></cite>) <i>appointed, deputy, superintendent</i>, in gen. <i>officer</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Pesachim 2:11\">Tosef. Pes. II</cite> (<cite ref=\"Tosefta Pesachim 3:11\">III</cite>), 11 <he>זונין הממ׳</he>; <cite ref=\"Pesachim 49a:2\">Pes. 49ᵃ</cite> <he>מ׳ של ר״ג</he> Zunin the deputy of Rabban G. (superintendent of the College). ",
+				"<cite ref=\"Sotah 42a:14\">Sot. 42ᵃ</cite> <he>שיש מ׳ על גביו</he> who has a superior in office. ",
+				"<cite ref=\"Sotah 42a:14\">Ib.</cite> <he>סגן לאו מ׳ הוא</he> the deputy high priest is no active officer. ",
+				"<cite ref=\"Mishnah Sanhedrin 2:1\">Snh. II, 1</cite> <he>המ׳ ממצעו וכ׳</he> the <i>m’munneh</i> places him between himself and the people; <cite ref=\"Sanhedrin 19a:9\">ib. 19ᵃ</cite> <he>היינו סגן היינו מ׳</he> the <i>sagan</i> (<cite ref=\"Tosefta Sanhedrin 4:1\">Tosef. ib. IV, 1</cite>) is the same as the <i>m’munneh</i> (in Mish. l. c.), i.e. the deputy high priest. ",
+				"<cite ref=\"Mishnah Shekalim 5:4\">Shek. V, 4</cite> <he>שהוא מ׳ על וכ׳</he> who was the superintendent of seals &c.; a. fr.—Pl. <he>מְמוּנִּים</he>, <he>מְמוּנִּין</he>. ",
+				"<cite ref=\"Mishnah Shekalim 5:1\">Ib. 1</cite> <he>אלו הן המ׳ וכ׳</he> those were the special officers in the Temple; a. e."
+			]
+		}
+	]
+}

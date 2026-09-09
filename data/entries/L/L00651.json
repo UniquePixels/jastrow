@@ -1,0 +1,41 @@
+{
+	"id": "L00651",
+	"slug": "לפת-2",
+	"headword": {
+		"text": "לְפַת"
+	},
+	"page": {
+		"number": 716,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>לַפֶּת</he> as <cite ref=\"L00650\">preced.</cite> <i>Pi.</i> ",
+					"units": [
+						"<cite ref=\"Beitzah 16a:15\">Bets. 16ᵃ</cite> <he>מידי דמְלַפֵּת בעינן</he> (Alf. <he>דמִילַּפֵּת</he>) something used as a relish is required, <he>ופת לא מְלַפְּתָא</he> (Ms. M. <he>מילפת</he>, Alf. <he>מִילַּפְּתָא</he>) whereas bread is not used for that purpose."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִילַפֵּת"],
+			"senses": [
+				{
+					"gloss": "<i>to be used as</i> <cite ref=\"L00653\"><he>לִפְתָּא</he></cite>; v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

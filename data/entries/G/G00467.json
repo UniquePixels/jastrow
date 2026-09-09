@@ -1,0 +1,99 @@
+{
+	"id": "G00467",
+	"slug": "זכר-1",
+	"headword": {
+		"text": "זָכַר"
+	},
+	"page": {
+		"number": 399,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; ch. <cite ref=\"D00792\"><he>דְּכַר</he></cite>) [<i>to mark</i>,] <i>to remember, mention; to celebrate</i> (by a ceremony &c.). ",
+			"units": [
+				"<cite ref=\"Pesachim 106a:5\">Pes. 106ᵃ</cite> (ref. to <cite ref=\"Exodus 20:8\">Ex. XX, 8</cite> <cite ref=\"G00447\"><he>זכור</he></cite>) <he>זָכְרֵהוּ על היין</he> Ms. M. (ed. <he>זוֹכְרֵהוּ</he>) remember the Sabbath (distinguish it) by a benediction over wine; <cite ref=\"Beitzah 15b:4\">Bets. 15ᵇ</cite> <he>זכרהו מֵאַחֵר שבא וכ׳</he> mark the Sabbath (by a ceremony) from another (Holy Day) which (preceding the Sabbath) may cause the neglect of it (Ms. M. <he>לאחר</he>, Rashi <he>מֵאַחַר</he>, v. <cite ref=\"A01046\"><he>אַחַר</he></cite>; v. R. Nissim a. l.). ",
+				"<cite ref=\"Menachot 43b:5\">Men. 43ᵇ</cite> <he>ראה … וזְכוֹר וכ׳</he> see this ceremony and be reminded of another &c.; a. fr.—<i>Part. pass.</i> <cite ref=\"G00447\"><he>זָכוּר</he></cite>, f. <cite ref=\"G00449\"><he>זְכוּרָה</he></cite> "
+			],
+			"senses": [
+				{
+					"gloss": " <i>reminded, remembering, mindful</i>.—<he>ז׳ אני</he>, contr. <he>זְכוּרַנִי</he> <i>I recollect</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 115a:7\">Sabb. 115ᵃ</cite> <he>ז׳ אני ב־</he> I recollect about &c.—",
+						"<cite ref=\"Beitzah 18a:5\">Bets. 18ᵃ</cite> <he>ז׳ היא</he> she will remember. ",
+						"<cite ref=\"Sanhedrin 52b\">Snh. 52ᵇ</cite>; a. fr.—"
+					],
+					"label": "a"
+				},
+				{
+					"gloss": " <i>thought of, remembered</i>. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 11a:12\">B. Mets. 11ᵃ</cite> <he>ז׳ ולבסוף שכוח</he> if the sheaf had been thought of and was afterwards forgotten.—<he>ז׳ לטוב</he> (abbr. <he>ז״ל</he>) <i>remembered for blessing</i>. ",
+						"<cite ref=\"Bereishit Rabbah 16\">Gen. R. s. 16</cite> end <he>אליהו ז״ל</he> El. of blessed memory, v. <cite ref=\"G00470\"><he>זִכָּרוֹן</he></cite>.—",
+						"<cite ref=\"Shabbat 13b:8\">Sabb. 13ᵇ</cite>, a. e., v. <cite ref=\"B01299\"><he>בְּרַם</he></cite>; a. fr.—Pl. <he>זְכוּרִים</he>. ",
+						"<cite ref=\"Pesikta Rabbati 13:1\">Pesik. R. s. 13</cite>, end; a. e."
+					],
+					"label": "b"
+				}
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִזְכָּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be reminded, to remember</i> (with accus.). ",
+					"units": [
+						"<cite ref=\"Pesachim 66a\">Pes. 66ᵃ</cite>; <cite ref=\"Sanhedrin 82a:2\">Snh. 82ᵃ</cite> <he>ראה מעשה ונ׳ הלכה</he> he saw the practice and recalled the tradition. ",
+						"<cite ref=\"Yoma 38a:6\">Yoma 38ᵃ</cite> <he>כביד אבותי נִזְכַּרְתִּי</he> I was thinking of the vanished glory of my ancestors. ",
+						"<cite ref=\"Shemot Rabbah 45:1\">Ex. R. s. 45</cite> <he>הִזָּכֵר</he> remember; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִזְכִּיר"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to be remembered, to recall</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 55a\">Ber. 55ᵃ</cite>, a. e. <he>ג׳ דברים מַזְכִּירִים וכ׳</he> three occasions cause the sins of man to be remembered; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to cite</i> (as an argument), <i>to take into account</i>. Ib. 60ᵃ; a. e. <he>אין מזכירין מ״נ</he> miracles must not be cited as evidence. ",
+					"units": [
+						"<cite ref=\"Kiddushin 40b:3\">Kidd. 40ᵇ</cite> <he>אין מזכירין לו שוב רשעו</he> his wickedness is not counted; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to recite</i> (in prayer), <i>quote</i>. ",
+					"units": [
+						"<cite ref=\"Horayot 14a:1\">Hor. 14ᵃ</cite> <he>ושמותם אין אנו מז׳</he> whose names we do not quote (as authorities). ",
+						"<cite ref=\"Mishnah Berakhot 1:5\">Ber. I, 5</cite> <he>מזכירין י״מ וכ׳</he> we must recite the going out from Egypt (<cite ref=\"Numbers 15:37\">Num. XV, 37</cite> to 41) in night prayers; a. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּזְכָּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be mentioned</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Kelim 17:5\">Kel. XVII, 5</cite>. ",
+						"<cite ref=\"Mishnah Tahorot 6:6\">Toh. VI, 6</cite>; a. e.—<i>Part.</i> <he>מוּזְכָּר</he>, f. <he>מוּזְכֶּרֶת</he> <i>clearly defined</i>. ",
+						"<cite ref=\"Kiddushin 77a:7\">Kidd. 77ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

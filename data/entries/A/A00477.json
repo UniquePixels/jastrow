@@ -1,0 +1,30 @@
+{
+	"id": "A00477",
+	"slug": "אדרע",
+	"headword": {
+		"text": "אֶדְרַע"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶדְרְעָא"
+		}
+	],
+	"page": {
+		"number": 19,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= h. <he>אֶזְרוֹעַ</he>, v. <cite ref=\"G00678\"><he>זְרוֹעַ</he></cite>) <i>arm</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 32:21\">Targ. Jer. XXXII, 21</cite>; a. fr.—Y. Ber. I, 4ᶜ top <he>דאֶדְרְעֵיה</he> the Tefillin of his arm. ",
+				"<cite ref=\"Kohelet Rabbah 11:2\">Koh. R. to XI, 2</cite>.—Pl. <he>אֶדְרָעָתָא</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 22:9\">Targ. Job XXII, 9</cite>.—<he>אֶדְרָעִין</he>. ",
+				"<cite ref=\"Bereishit Rabbah 65\">Gen. R. s. 65</cite>.—V. <cite ref=\"D01118\"><he>דְּרַע</he> III</cite>."
+			]
+		}
+	]
+}

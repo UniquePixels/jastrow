@@ -1,0 +1,42 @@
+{
+	"id": "S00114",
+	"slug": "קדה-2",
+	"headword": {
+		"text": "קִדָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִידָּה"
+		}
+	],
+	"page": {
+		"number": 1313,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cassia, bark of the tree called cassia</i> (v. Sm. Ant. s. v.) <cite ref=\"Keritot 5a:76\">Ker. 5ᵃ</cite>; <cite ref=\"Jerusalem Talmud Shekalim 6:1:7\">Y. Shek. VI, beg. 49ᶜ</cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " ק׳ לבנה <i>white Ḳiddah</i>, a tree. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 1:8\">Kil. I, 8</cite>; <cite ref=\"Eruvin 34b:12\">Erub. 34ᵇ</cite>"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " name of a <i>seasoning plant</i>. Ib. <he>הקנים והק׳ וכ׳</he> (Var. <he>והקִידִּין</he> pl.) seasoning reeds, Ḳiddah, and Urbanin belong to the vegetable class (<cite ref=\"J00653\"><he>ירק</he></cite>). Ib. <he>ק׳ לחוד ק׳ לבנה לחוד</he> Ḳiddah and white Ḳ. are different species.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "H01744",
+	"slug": "חרפופיתא",
+	"headword": {
+		"text": "חַרְפּוּפִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַרְפּוּפְתָּא"
+		}
+	],
+	"page": {
+		"number": 505,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01740\"><he>חֲרַף</he></cite>) <i>scab</i>, v. <cite ref=\"H00849\"><he>חִיפּוּפִיתָא</he></cite>.",
+			"units": []
+		}
+	]
+}

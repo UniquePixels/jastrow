@@ -1,0 +1,50 @@
+{
+	"id": "G00299",
+	"slug": "זיו-1",
+	"headword": {
+		"text": "זִיו"
+	},
+	"page": {
+		"number": 392,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.; = <he>זהיו</he>; <he>זהה</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>splendor, glory, countenance</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 9:15\">Sot. IX, 15</cite> (<cite ref=\"Sotah 49a:16\">49ᵃ</cite>) <he>ז׳ החכמה</he> the glory of learning, <he>ז׳ הכהונה</he> of priesthood. ",
+				"<cite ref=\"Berakhot 64a\">Ber. 64ᵃ</cite> <he>ז׳ השכינה</he> Divine Glory; a. fr.—<he>ז׳ איקונין</he>, v. <cite ref=\"A01596\"><he>אִיקוֹנִין</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>good looks, bloom</i> of health. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 3:11:2\">Koh. R. to III, 11</cite> <he>עדיין לא בא זִיווֹ וכ׳</he> my son’s former good look has not come back yet; <cite ref=\"Shir HaShirim Rabbah 2:5:2\">Cant. R. to II, 5</cite> <he>עדיין לא בא בני בזִיווֹ הנשתנה וכ׳</he> my son has not yet recovered his bright looks which changed &c. Koh. R. l. c. <he>זִיוָון של בני</he>; Cant. R. l. c. <he>זיותן וכ׳</he> (corr. acc.); Yalk. Ex. 272."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>bloom, forth-coming vegetation</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 1:2:2\">Y. R. Hash. I, 56ᵈ</cite> bot. ‘the month of Ziv’ (<cite ref=\"I Kings 6:1\">I Kings VI, 1</cite>) <he>שבו זִיווֹ של עולם</he> because in it the world appears in bloom. ",
+				"<cite ref=\"Shir HaShirim Rabbah 6:11:1\">Cant. R. to VI, 11</cite> <he>זיון של ירק</he> (read <cite ref=\"G00304\"><he>זִיווֹ</he></cite>) the beauty of a vegetable garden."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "(b. h. <i>Ziv</i>, name of the <i>Spring-month</i>. ",
+			"units": [
+				"<cite ref=\"Rosh Hashanah 11a:11\">R. Hash. 11ᵃ</cite>, a. e., v. supra. Pesik. Baḥod., p. 106ᵇ; a. e."
+			],
+			"label": "4"
+		}
+	]
+}

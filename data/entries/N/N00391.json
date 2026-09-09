@@ -1,0 +1,30 @@
+{
+	"id": "N00391",
+	"slug": "נופא",
+	"headword": {
+		"text": "נוֹפָא"
+	},
+	"page": {
+		"number": 889,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"N00390\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Kings 19:30\">Targ. II Kings XIX, 30</cite> (h. text <cite ref=\"Q01783\"><he>פרי</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 19:10\">Targ. Ez. XIX, 10</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " = <cite ref=\"N01038\"><he>נַפְיָא</he></cite>, q. v.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "Q01782",
+	"slug": "פרטתא-2",
+	"headword": {
+		"text": "פִּרְטְתָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּירְ׳"
+		}
+	],
+	"page": {
+		"number": 1225,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01764\"><he>פְּרַט</he></cite>) <i>split</i>; <he>פ׳ דרמונא</he> (= h. <he>פלח הרמון</he>) <i>a split</i> (i.e. fully ripened) <i>pomegranate</i>. Tanḥ. Vaëra 14 <he>כפ׳ דר׳ וכ׳</he> like the split pomegranate whose seeds are visible from without (v. Löw, Pfl., p. 364), v. <cite ref=\"H01758\"><he>חַרְצָנִיתָא</he></cite>; Pesik. Vayhi, p. 3ᵇ; <cite ref=\"Shemot Rabbah 12\">Ex. R. s. 12</cite> <cite ref=\"Q01888\"><he>פרנותא</he></cite> (corr. acc.); <cite ref=\"Shir HaShirim Rabbah 3:11\">Cant. R. to III, 11</cite> <cite ref=\"Q00644\"><he>פיטרתא</he></cite> (corr. acc.); <cite ref=\"Yalkut Shimoni on Torah 186:1\">Yalk. Ex. 186</cite>; <cite ref=\"Yalkut Shimoni on Nach 912:1\">Yalk. Job 912</cite> <he>כהדין פרצידא</he>.—[Cant. R. l. c. <he>דכל חדא פיטרתא</he>, read: <cite ref=\"H01758\"><he>חַרְצַנְתָּא</he></cite>.]",
+			"units": []
+		}
+	]
+}

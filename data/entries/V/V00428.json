@@ -1,0 +1,40 @@
+{
+	"id": "V00428",
+	"slug": "תיומת",
+	"headword": {
+		"text": "תְּיוֹמֶת"
+	},
+	"page": {
+		"number": 1664,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00427\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " [<i>twins</i>,] <i>the central leaf of the palm branch</i>, which is a junction of two. ",
+			"units": [
+				"<cite ref=\"Sukkah 32a:7\">Succ. 32ᵃ</cite> <he>נחלקה הת׳</he> (Ms. M. 2 <he>התַּיֶּימֶת</he>) if the central leaf is split; <cite ref=\"Bava Kamma 96a\">B. Kam. 96ᵃ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>twin-sister, match</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> (ref. to <he>תמתי</he>, <cite ref=\"Song of Songs 5:2\">Cant. V, 2</cite>) <he>תְּיוֹמָתִי לא אני גדול וכ׳</he> my match, I am not greater than she, nor is she greater than I; (Cant. R. to l. c. <he>תאומתי כביכול</he>).—Trnsf. <i>a broken thread joined by twisting, thick thread</i>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:46\">Y. Sabb. VII, 10ᶜ</cite> <he>אפי׳ ערב שבה לא היה בו קשר ולא תיימת</he> even in the woof of the curtain there was neither a knot nor a twist."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>molar tooth</i>, v. <cite ref=\"V00017\"><he>תְּאוֹם</he></cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

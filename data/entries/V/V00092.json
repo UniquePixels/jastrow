@@ -1,0 +1,36 @@
+{
+	"id": "V00092",
+	"slug": "תגרא-1",
+	"headword": {
+		"text": "תִּגְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּי׳",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1647,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00091\">preced.</cite>) <i>strife, contest, complaint</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 15:18\">Targ. Prov. XV, 18</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 26:20\">Ib. XXVI, 20</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 25:1\">Targ. Y. Deut. XXV, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 6:14\">Targ. Prov. VI, 14</cite>, v. <cite ref=\"T00809\"><he>רְמֵי</he></cite>; a. fr.—",
+				"<cite ref=\"Shabbat 130a:13\">Sabb. 130ᵃ</cite>, v. <cite ref=\"T00809\"><he>רְמֵי</he></cite>. ",
+				"<cite ref=\"Sanhedrin 7a:5\">Snh. 7ᵃ</cite> <he>האי תי׳ וכ׳</he>, v. <cite ref=\"B00158\"><he>בִּדְקָא</he></cite>. ",
+				"<cite ref=\"Taanit 22a:7\">Taan. 22ᵃ</cite> <he>כי חזינן … דאית להו ת׳</he> when we see two men quarrel. ",
+				"<cite ref=\"Yevamot 100a:8\">Yeb. 100ᵃ</cite> <he>הוה שרינא ת׳ וכ׳</he> I used to decide the man’s case first; <he>שרינא ת׳ דאתתא וכ׳</he> now I decide the woman’s case first. ",
+				"<cite ref=\"Bava Metzia 59a:9\">B. Mets. 59ᵃ</cite>, v. <cite ref=\"K00100\"><he>כַּדָּא</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 888:36\">Yalk. Ps. 888</cite> (not <cite ref=\"V00155\"><he>תוגרא</he></cite>); a. e."
+			]
+		}
+	]
+}

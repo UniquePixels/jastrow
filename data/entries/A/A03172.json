@@ -1,0 +1,23 @@
+{
+	"id": "A03172",
+	"slug": "ארמון-3",
+	"headword": {
+		"text": "אַרְמוֹן",
+		"homograph": 3
+	},
+	"page": {
+		"number": 122,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"P01396\"><he>עַרְמוֹן</he></cite>) <i>platanus, the oriental plane</i>. <he>אַרְמוֹנִים</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 15\">Gen. R. s. 15</cite>, beg.; (<cite ref=\"Rosh Hashanah 23a\">R. Hash. 23ᵃ</cite>; <cite ref=\"Bava Batra 81a\">B. Bath. 81ᵃ</cite> <cite ref=\"P00681\"><he>עַרְ׳</he></cite>)."
+			]
+		}
+	]
+}

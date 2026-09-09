@@ -1,0 +1,29 @@
+{
+	"id": "S01765",
+	"slug": "קפץ-2",
+	"headword": {
+		"text": "קְפַץ"
+	},
+	"page": {
+		"number": 1403,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01764\">same</cite><i>to contract, close</i> &c. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 15:7\">Targ. O. Deut. XV, 7</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 28:10\">Targ. Y. Gen. XXVIII, 10</cite>.—",
+				"<cite ref=\"Chullin 91b:6\">Ḥull. 91ᵇ</cite> <he>קָפְצָה ליה ארעא</he> the earth shrank under him (v. <cite ref=\"S01764\">preced.</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to leap, be anxious for</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 8b:54\">Nidd. 8ᵇ</cite> <he>מידי דקָפִיץ עליה זבונא</he> something at which the purchaser jumps (i.e. a quality which makes the object more desirable)."
+			],
+			"label": "2"
+		}
+	]
+}

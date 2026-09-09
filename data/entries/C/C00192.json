@@ -1,0 +1,37 @@
+{
+	"id": "C00192",
+	"slug": "גדי-2",
+	"headword": {
+		"text": "גְּדִי"
+	},
+	"page": {
+		"number": 211,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>kid</i>, in gen. <i>young animal</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 113a:20\">Ḥull. 113ᵃ</cite>; <cite ref=\"Chullin 113b:12\">113ᵇ</cite> (ref. to <cite ref=\"Genesis 38:17\">Gen. XXXVIII, 17</cite>) <he>כאן ג׳ עזים וכ׳</he> here it reads <i>g’di izzim</i> from which we learn that wherever <i>g’di</i> without any qualification is used, it includes cow and sheep. ",
+				"<cite ref=\"Mishnah Menachot 13:7\">Men. XIII, 7</cite>; a. fr.—Pl. <he>גְּדָיִם</he>, <he>גְּדָיִים</he>. ",
+				"<cite ref=\"Sanhedrin 11a\">Snh. 11ᵃ</cite>; <cite ref=\"Tosefta Sanhedrin 2:4\">Tosef. ib. II, 4</cite> <he>מפני הג׳ וכ׳</he> on account of the kids or lambs (being too young for offerings on Passover).—Y. ib. X, 28ᵇ bot.; <cite ref=\"Bereishit Rabbah 42:7\">Gen. R. s. 42</cite>, a. e. <he>אם אין ג׳ אין תישים</he> when there will be no kids (young students), there will be no wethers (leaders, scholars). Y. ib. I, 19ᵃ top <he>ג׳ שהנחת וכ׳</he> the kids (young scholars) thou hast left behind (in Palestine) have grown to be wethers; a. e.—Trnsf. <i>the tender grain in its husks</i>. Pesik. Asser p. 99ᵇ; Tanḥ. R’eh 17; <cite ref=\"Yalkut Shimoni on Torah 892:1\">Yalk. Deut. 892</cite> (homiletic interpret. of <cite ref=\"Deuteronomy 15:21\">Deut. XV, 21</cite>) <he>אל תגרמו לי לבשל ג׳ וכ׳</he> do not cause me to ripen the grains in their mothers’ womb (husks, so as to be blown out by the East wind)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the Capricorn</i>, a sign in the Zodiac. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 20:1\">Pesik. R. s. 20</cite>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 418:1\">Yalk. Ex. 418</cite>; Kings 185. [<cite ref=\"Yalkut Shimoni on Torah 785:27\">Yalk. Num. 785</cite> <he>הרי נכנס הזאב לגדי</he>, v. <cite ref=\"C00197\"><he>גדיגוד</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

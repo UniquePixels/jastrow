@@ -1,0 +1,35 @@
+{
+	"id": "M02093",
+	"slug": "מעזי",
+	"headword": {
+		"text": "מֵעַזֵּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מֵעַזְּיָא"
+		},
+		{
+			"text": "מֵעִיזֵּי"
+		},
+		{
+			"text": "מֵעִיזַּיָּא"
+		}
+	],
+	"page": {
+		"number": 814,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"K01196\"><he>עִיזָּא</he></cite>) <i>from goats, goats-hair, horn</i> &c. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:4\">Targ. O. Ex. XXV, 4</cite> <cite ref=\"M02093\"><he>מַעְזִי</he></cite> ed. Berl. (v. Berl. Targ. O. II, p. 27, a. Massorah, p. 111); Y. <cite ref=\"M02093\"><he>מֵעַזֵּי</he></cite>. Ib. XXVI, 7 <cite ref=\"M02093\"><he>מָעָזֵי</he></cite> ed. Berl. (Y. <he>דמֵעִיוֵּי</he>). ",
+				"<cite ref=\"Onkelos Numbers 31:20\">Targ. Num. XXXI, 20</cite>. ",
+				"<cite ref=\"Onkelos Exodus 35:26\">Targ. O. Ex. XXXV, 26</cite> <cite ref=\"M02093\"><he>מַעֲזַיָּא</he></cite> (ed. Berl. <cite ref=\"M02093\"><he>מָעַזְיָא</he></cite>); Y. (<cite ref=\"M01782\"><he>מְ׳</he></cite>) <cite ref=\"M02093\"><he>מֵעִיזַּיָּא</he></cite>."
+			]
+		}
+	]
+}

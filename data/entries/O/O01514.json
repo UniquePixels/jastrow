@@ -1,0 +1,23 @@
+{
+	"id": "O01514",
+	"slug": "סרביטין",
+	"headword": {
+		"text": "סַרְבִיטִין"
+	},
+	"page": {
+		"number": 1022,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>סבט</he>, <i>Saf.</i> of <cite ref=\"B00502\"><he>בטט</he></cite>, with <cite ref=\"T00000\"><he>ר</he></cite> inserted; cmp. <cite ref=\"U01920\"><he>שַׁרְבִיט</he></cite>) [<i>blossoms</i>,] <i>a head-dress</i> hanging down the cheeks, <i>garland</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 6:1\">Sabb. VI, 1</cite> (<cite ref=\"Shabbat 57a:3\">57ᵃ</cite>) Talm. ed. (Mish. a. Y. ed. <cite ref=\"O01165\"><he>סַנְבּוּטִין</he></cite>). Ib. 5 (64ᵇ); a. e."
+			]
+		}
+	]
+}

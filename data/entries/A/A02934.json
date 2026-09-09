@@ -1,0 +1,24 @@
+{
+	"id": "A02934",
+	"slug": "אקסילאליאיין",
+	"headword": {
+		"text": "אַקְסִילָאלִיאָיָין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 113,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (ξυλαλόη = ἀγάλλοχον) <i>pieces of bitter aloë-wood</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 45:9\">Targ. Ps. XLV, 9</cite> Ar. (ed. <he>אַקְסִיל אַלוּאוֹן</he> combine) (h. text <cite ref=\"A00506\"><he>אֲהָלוֹת</he></cite>)."
+			]
+		}
+	]
+}

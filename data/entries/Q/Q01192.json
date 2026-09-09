@@ -1,0 +1,32 @@
+{
+	"id": "Q01192",
+	"slug": "פניא-1",
+	"headword": {
+		"text": "פַּנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּנְיָיא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1189,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01189\"><he>פְּנֵי</he></cite>; sub. <he>דרמשא</he> or <he>דשמשא</he>) <i>afternoon, sunset, evening; first part of the night</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 49:27\">Targ. O. Gen. XLIX, 27</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 7:16\">Targ. Y. Lev. VII, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 6:7\">Targ. Y. Deut. VI, 7</cite>; a. e.—",
+				"<cite ref=\"Bava Metzia 49a:16\">B. Mets. 49ᵃ</cite> <he>אפ׳ דמעלי שבתא הוה</he> it was on a Friday towards evening. ",
+				"<cite ref=\"Yoma 14b:1\">Yoma 14ᵇ</cite> <he>ולפ׳ מדו ליה</he> and towards evening they sprinkle upon him; <cite ref=\"Yoma 19a:10\">ib. 19ᵃ</cite> <he>לבהדי פ׳</he>, <he>להדי פ׳</he>; a. e."
+			]
+		}
+	]
+}

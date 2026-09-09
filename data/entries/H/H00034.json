@@ -1,0 +1,32 @@
+{
+	"id": "H00034",
+	"slug": "חבורה-2",
+	"headword": {
+		"text": "חַבּוּרָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲבוּרָה"
+		}
+	],
+	"page": {
+		"number": 416,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; חָבַר 4)<i>a mark of violence, wound, discoloring</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Kamma 8:1\">B. Kam. VIII, 1</cite> <he>מקום שאינו עושה ח׳</he> a spot on which no wound is made by burning (e.g. on the nail). ",
+				"<cite ref=\"Mishnah Sanhedrin 11:1\">Snh. XI, 1</cite> (<cite ref=\"Sanhedrin 85b:3\">85ᵇ</cite>) <he>עד שיעשה בהן ח׳</he> unless by striking them he creates a wound; Y. ib. XI, beg. 30ᵃ <he>באיזו ח׳ כחַבּוּרַת שבת כח׳ נזקין</he> what wound is meant here? One the creating of which would be a Sabbath offence (discoloring), or one of the kind required for claiming damages?; Mekh. Mishp., N’zikin, s. 5 <he>מכה שיש בה ח׳</he> (in order to be punishable with death) it must be a beating which makes a wound (or a sore). ",
+				"<cite ref=\"Shabbat 107b:4\">Sabb. 107ᵇ</cite> <he>ח׳ שאינה חוזרת</he> a permanent discoloring, <cite ref=\"Shabbat 107b:4\">Ib.</cite> <he>מניין לח׳ שאינה וכ׳</he> whence is it proven that by <i>ḥabburah</i> a permanent (not a momentary) discoloring is meant?— ",
+				"<cite ref=\"Ketubot 3b:2\">Keth. 3ᵇ</cite> <he>עושה ח׳</he> he makes a wound (by tearing the hymen). ",
+				"<cite ref=\"Ketubot 5b:9\">Ib. 5ᵇ</cite> <he>מקלקל בח׳</he> destroying by making a hole, <he>מתקן בח׳</he> amending by &c.; a. v. fr.—Pl. <he>חבּוּרוֹת</he>. ",
+				"<cite ref=\"Bereishit Rabbah 23:4\">Gen. R. s. 23</cite>; a. e."
+			]
+		}
+	]
+}

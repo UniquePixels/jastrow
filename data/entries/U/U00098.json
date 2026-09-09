@@ -1,0 +1,44 @@
+{
+	"id": "U00098",
+	"slug": "שבח-3",
+	"headword": {
+		"text": "שֶׁבַח"
+	},
+	"page": {
+		"number": 1512,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00097\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>improvement, gain</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 95b:13\">B. Kam. 95ᵇ</cite> <he>שלשה שמין להן הש׳ ומעלין וכ׳</he> there are three persons for whose benefit the value of an improvement is assessed to be payable in money; they are: the share which the first-born has to pay to the plain heir, if the estate has increased in value before division &c. ",
+				"<cite ref=\"Bava Kamma 95b:13\">Ib.</cite>, a. fr. <he>ש׳ המגיע לכתפים</he>, v. <cite ref=\"K01379\"><he>כַּתָּף</he></cite>. ",
+				"<cite ref=\"Bava Kamma 95b:4\">Ib.</cite> <he>דמי צמרו ושְׁבָחוֹ</he> the original value of his wool and its additional value (through dyeing). ",
+				"<cite ref=\"Mishnah Bava Kamma 9:4\">Ib. IX, 4</cite>; <cite ref=\"Ketubot 80a:8\">Keth. 80ᵃ</cite>, v. <cite ref=\"E00266\"><he>הוֹצָאָה</he></cite>. ",
+				"<cite ref=\"Bava Metzia 14a:6\">B. Mets. 14ᵃ</cite>, v. <cite ref=\"U01630\"><he>שִׁעְבּוּד</he></cite>. ",
+				"<cite ref=\"Pesachim 27a:12\">Pes. 27ᵃ</cite>, a. e. <he>יש ש׳ עצים בפת</he> the bread contains the benefit derived from the wood used in baking bread, i.e. bread baked by a fire made of forbidden wood (e.g. an <i>ăsherah</i>) is forbidden; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>excellency, superiority, praise</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 16\">Num. R. s. 16<sup>13</sup></cite> <he>לא במקום הש׳ וכ׳</he> they built the cities not on the best soil &c., opp. <cite ref=\"Q01247\"><he>פְּסוֹלֶת</he></cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 16:13\">Ib.</cite> <he>להודיעך שְׁבָחָהּ של וכ׳</he> to let thee know the superiority of the land of Israel, v. <cite ref=\"U00096\"><he>שָׁבַח</he></cite>. ",
+				"<cite ref=\"Eruvin 18b:13\">Erub. 18ᵇ</cite> <he>מקצת שבחו של אדם וכ׳</he> you may tell part of a man’s praise in his presence, but not all of it. ",
+				"<cite ref=\"Mishnah Pesachim 10:4\">Pes. X, 4</cite> <he>מתחיל בגנות ומסיים בש׳</he> you begin (the recitation of the Agadah on the Passover eve) with disgrace (telling of the slavery or idolatry of the ancestors), and close with praise. ",
+				"<cite ref=\"Pesachim 117a:6\">Ib. 117ᵃ</cite> <he>בעשרה מאמרות של ש׳ וכ׳</he> the Book of Psalms uses ten expressions of praise &c.; <he>גדול … שכולל שם וש׳</he> the highest of all is Halleluiah, because it contains the Name of the Lord and praise. ",
+				"<cite ref=\"Kiddushin 33b:15\">Kidd. 33ᵇ</cite> (ref. to <cite ref=\"Exodus 33:8\">Ex. XXXIII, 8</cite>) <he>וחד אמר לש׳</he> and one says, they looked after Moses with the purpose of praising him, v. <cite ref=\"C01076\"><he>גְּנַאי</he></cite>; a. fr.—Tosef. Meg. IV (III), 39; <cite ref=\"Megillah 25b:3\">Meg. 25ᵇ</cite> <he>קורין אותו לש׳</he> are in reading changed for a more aesthetic expression, v. <cite ref=\"C01076\"><he>גְּנַאי</he></cite>.—[Tanḥ. Vaëra 9 <he>ומראה שבחן</he>, read: <he>שַׁחֲצוֹ</he>, v. <cite ref=\"U00689\"><he>שַׁחַץ</he> I</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

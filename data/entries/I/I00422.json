@@ -1,0 +1,25 @@
+{
+	"id": "I00422",
+	"slug": "טיפתא",
+	"headword": {
+		"text": "טִיפְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טִפְ׳"
+		}
+	],
+	"page": {
+		"number": 533,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. = h. <cite ref=\"I00412\"><he>טִיפָּה</he></cite>. ",
+			"units": [
+				"<cite ref=\"Niddah 20b:35\">Nidd. 20ᵇ</cite> <he>ט׳ קמייתא</he> the first dripping of menstruation. ",
+				"<cite ref=\"Bava Kamma 98a:7\">B. Kam. 98ᵃ</cite> <he>דט׳ דדמא וכ׳</he> an extravasation of a drop of blood took place in his ear."
+			]
+		}
+	]
+}

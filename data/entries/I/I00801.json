@@ -1,0 +1,22 @@
+{
+	"id": "I00801",
+	"slug": "טרימיטרא",
+	"headword": {
+		"text": "טְרִימִיטְרָא"
+	},
+	"page": {
+		"number": 553,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (τρίμετρος) <i>trimeter, a verse</i> (or <i>tune</i>) <i>of three iambic meters</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 4:10:2\">Y. R. Hash. IV, 59ᶜ</cite> bot. (defining <cite ref=\"E00891\"><he>הֲרָעָה</he></cite>) [read:] <he>כאהן ט׳</he> like the trimeter (short-long, short-long &c.), contrad. to <he>תלת דקיקן</he> three small (short) notes."
+			]
+		}
+	]
+}

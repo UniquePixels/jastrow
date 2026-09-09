@@ -1,0 +1,32 @@
+{
+	"id": "M02831",
+	"slug": "משולש",
+	"headword": {
+		"text": "מְשׁוּלָּשׁ"
+	},
+	"page": {
+		"number": 850,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>מְשֻׁלָּשׁ</he>; denom. of <cite ref=\"U01386\"><he>שָׁלשׁ</he></cite>) ; pl. <he>מְשׁוּלָּשִׁים</he>, <he>מְשׁוּלָּשִׁין</he>",
+			"units": []
+		},
+		{
+			"gloss": "<i>developed to one third of the full growth</i>. ",
+			"units": ["<cite ref=\"Mishnah Bava Metzia 5:4\">B. Mets. V, 4</cite>."],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>group of three</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 1:3:3\">Y. Shebi. I, 33ᵇ</cite> <he>חשבין מ׳</he> the quantity (of one cake of figs) for each three trees out of nine."
+			],
+			"label": "2"
+		}
+	]
+}

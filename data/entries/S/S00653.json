@@ -1,0 +1,28 @@
+{
+	"id": "S00653",
+	"slug": "קורקסוון",
+	"headword": {
+		"text": "קוּרְקַסְוָון"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּרְקַסְוָותָא"
+		}
+	],
+	"page": {
+		"number": 1344,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"S00652\">preced.</cite>) <i>threshing sledges</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 21:23\">Targ. I Chr. XXI, 23</cite>."
+			]
+		}
+	]
+}

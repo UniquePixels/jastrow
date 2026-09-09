@@ -1,0 +1,30 @@
+{
+	"id": "D00608",
+	"slug": "דילמא-2",
+	"headword": {
+		"text": "דִּילְמָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּלְמָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 300,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <cite ref=\"D00003\"><he>דָּא</he></cite> (<cite ref=\"E00331\"><he>הִיא</he></cite>) <cite ref=\"A01909\"><he>אַלְמָא</he></cite>, v. <cite ref=\"A01909\"><he>אַלְמָא</he></cite>) <i>here is a confirmation</i>, a heading used in the Palest. dialect for introducing a story as <i>an illustration</i> (corresp. to h. <cite ref=\"M02186\"><he>מעשה</he></cite>; v. ",
+			"units": [
+				"<cite ref=\"Ruth Rabbah 2:24\">Ruth R. to I, 17</cite> a. ",
+				"<cite ref=\"Shemot Rabbah 52\">Ex. R. s. 52</cite>). ",
+				"<cite ref=\"Kohelet Rabbah 5:11:2\">Koh. R. to V, 11</cite>. Pesik. Baḥod. p. 155ᵃ. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:21\">Y. Ber. I, 2ᶜ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Peah 3:7:8\">Y. Peah III, 17ᵈ</cite> bot.; a. fr. (in Talm. Y.)."
+			]
+		}
+	]
+}

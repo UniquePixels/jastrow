@@ -1,0 +1,42 @@
+{
+	"id": "J00312",
+	"slug": "יטב-2",
+	"headword": {
+		"text": "יְטַב"
+	},
+	"page": {
+		"number": 576,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. (cmp. <cite ref=\"I00107\"><he>טוב</he></cite>) <i>to be good, well</i>. Impf. <he>יֵיטַב</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 12:13\">Targ. O. Gen. XII, 13</cite> ed. Berl. (ed. <he>יוֹטִיב</he>, Y. <he>יֵיטִיב</he>). ",
+				"<cite ref=\"Onkelos Deuteronomy 4:40\">Targ. O. Deut. IV, 40</cite> (Y. <he>יוֹטֵיב</he>); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אוֹטִיב", "אֵיטִיב"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"J00311\">same</cite>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to do good, be kind</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 32:10\">Targ. Gen. XXXII, 10</cite>; a. fr.—3) <i>to do a thing well</i>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 16:17\">Targ. I Sam. XVI, 17</cite> <he>מוֹטִיב לנגנא</he> who plays well. ",
+						"<cite ref=\"Onkelos Genesis 6:7\">Targ. Gen. VI, 7</cite>; a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

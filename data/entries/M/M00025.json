@@ -1,0 +1,23 @@
+{
+	"id": "M00025",
+	"slug": "מאין",
+	"headword": {
+		"text": "מָאִין"
+	},
+	"page": {
+		"number": 722,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. = <cite ref=\"M01139\"><he>מַיִין</he></cite>, <i>water</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 32:4\">Targ. II Chr. XXXII, 4</cite>; a. e."
+			]
+		}
+	]
+}

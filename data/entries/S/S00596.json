@@ -1,0 +1,31 @@
+{
+	"id": "S00596",
+	"slug": "קורטור",
+	"headword": {
+		"text": "קוֹרְטוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּ׳"
+		}
+	],
+	"page": {
+		"number": 1342,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>קרטר</he>, Parel of <cite ref=\"S00825\"><he>קְטַר</he> II</cite>; cmp. play on <cite ref=\"S00727\"><he>קטורה</he></cite>, <cite ref=\"Bereishit Rabbah 61\">Gen. R. s. 61</cite>, quot. s. v. <cite ref=\"C01125\"><he>גַּנְזַכָּה</he></cite>) [<i>that which is tied up</i> = <cite ref=\"A00825\"><he>אוֹצָר</he></cite>] <i>store-room, treasury</i>. ",
+			"units": [
+				"<cite ref=\"Targum of I Chronicles 29:8\">Targ. I Chr. XXIX, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 24:13\">Targ. Y. Num. XXIV, 13</cite>; <cite ref=\"Targum Jonathan on Numbers 22:18\">ib. XXII, 18</cite> (strike out <he>ביתיה</he>).—Pl. <he>קוּרְטוֹרִין</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 38:22\">Targ. Job XXXVIII, 22</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 3:14\">Ib. III, 14</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 28:11\">Targ. I Chr. XXVIII, 11</cite> (h. text <he>גנזכ־</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "M02450",
+	"slug": "מקרא-1",
+	"headword": {
+		"text": "מַקְרָא"
+	},
+	"page": {
+		"number": 832,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (Μακρός) <i>Macra</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 46:5\">Gen. R. s. 46</cite> [read:] <he>מסתברא הדא דמ׳</he> this interpretation of M. is plausible; (<cite ref=\"Vayikra Rabbah 25:6\">Lev. R. s. 25</cite> <he>דנְגָדָא</he>)."
+			]
+		}
+	]
+}

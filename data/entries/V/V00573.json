@@ -1,0 +1,32 @@
+{
+	"id": "V00573",
+	"slug": "תלג-1",
+	"headword": {
+		"text": "תְּלַג",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1670,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (v.<cite ref=\"V00574\">next w.</cite>) <i>to be white</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 152a:3\">Sabb. 152ᵃ</cite> <he>טור ת׳</he> the mountain is covered with snow (my hair is white)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תַּלֵּג"],
+			"senses": [
+				{
+					"gloss": "<i>to whiten, wash</i> (<i>wheat</i>). Y. Pes. III, 30ᵃ top <he>הורי … ומְתַלְּגָה ארבעה זמנין</he> (ed. <he>ומתלנה</he>) allowed the millers to put a Tetarton of water to every Modius of wheat, and wash it four times; [Korb. ʿEdah: <he>ומְתַלְּנָהּ</he> <i>swing it</i>, fr. <he>תלל</he>; perh. to be read: <cite ref=\"M01034\"><he>מטננה</he></cite>, v. <cite ref=\"I00578\"><he>טְנַן</he></cite>].",
+					"units": []
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

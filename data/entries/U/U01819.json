@@ -1,0 +1,30 @@
+{
+	"id": "U01819",
+	"slug": "שצף",
+	"headword": {
+		"text": "שָׁצַף",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1620,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U01819\"><he>שִׁצֵּף</he></cite> (= <cite ref=\"U01622\"><he>שסף</he></cite>) <i>to cut, slash</i>. Sifra Thazr., Par. 5, ch. XVI (ref. to <cite ref=\"Leviticus 13:56\">Lev. XIII, 56</cite>) <he>אוֹתוֹ יכול יְשַׁצְּפֶנּוּ ויניחנו וכ׳</he> (Rab. <he>יְשַׁסְּפֶנּוּ</he>, ref. to <cite ref=\"I Samuel 15:33\">I Sam. XV, 33</cite>) from, ‘he shall rend it.’ I might infer, that he should slash it and leave it in its place &c.; [Asheri to <cite ref=\"Mishnah Negaim 11:5\">Neg. XI, 5</cite>: <he>יתפרו</he>, glossator <he>יְשׁפְּצֶנּוּ</he> (v. <he>שפץ</he>) <i>patch it over</i>; R. S. to Neg. l. c. <he>יְצַפֶּנּוּ</he>; Yalk. Lev. 553 <he>ישופנו</he>].",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

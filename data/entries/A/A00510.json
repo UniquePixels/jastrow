@@ -1,0 +1,41 @@
+{
+	"id": "A00510",
+	"slug": "אהן",
+	"headword": {
+		"text": "אֲהָן"
+	},
+	"page": {
+		"number": 20,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " or <cite ref=\"A00510\"><he>אֲהֵן</he></cite>, <cite ref=\"A00489\"><he>אֲהוֹן</he></cite> m. (= <cite ref=\"E00650\"><he>הָן</he></cite>, <cite ref=\"E00175\"><he>הֲהָן</he></cite>, √<he>ה־</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>this, that, he who</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:3:11\">Y. Ber. II, 4ᶜ</cite> bot. <he>א׳ חזירא</he> that swine. Ib. VI, 10ᵃ bot. <he>א׳ דמר</he> he who says. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 6:6:2\">Y. Yoma VI, 43ᵈ</cite> bot. <he>כא׳ דתנינן</he> as that (Mishnah) which we have been taught. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 2:4:6\">Y. Shek. II, 47ᵃ</cite> top <he>א׳ דהכא</he> the subject just quoted. Y. B. Mets. II, 8ᶜ (<cite ref=\"A00489\"><he>אהון</he></cite>) <he>אהין להן לי אהן מהו חשוב</he> of what use is this to me? of what value is it to me?—",
+				"<cite ref=\"Jerusalem Talmud Shevuot 3:8:7\">Y. Shebu. III, 34ᵈ</cite> bot. <he>וא׳ אפילו</he> and this ‘even’—i.e. why do you use the word ‘even’?—a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>this place, where</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:23\">Y. Ber. IX, 13ᵇ</cite> top <he>כל א׳ דאת אזיל</he> wherever thou goest. "
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (adv. of time = <he>על־הן</he>, v. <cite ref=\"A00008\"><he>אַ־</he></cite>) <i>thereupon, then</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:19\">Y. Taan. IV, 69ᵇ</cite> top <he>אכלון ואהון וכ׳</he> eat ye and then drink."
+			],
+			"label": "3"
+		}
+	]
+}

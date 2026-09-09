@@ -1,0 +1,23 @@
+{
+	"id": "D01022",
+	"slug": "דקתא",
+	"headword": {
+		"text": "דַּקְתָּא"
+	},
+	"page": {
+		"number": 320,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00325\"><he>דּוּק</he></cite>) <i>stalks of flax beaten once</i> (still hard and knotty), contrad. to <cite ref=\"D00993\"><he>דַּקְדַּקְתָּא</he></cite> <i>thoroughly beaten, tow</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 51b:15\">Ḥull. 51ᵇ</cite> <he>ד׳ חיישינן וכ׳</he> if a bird falls upon <i>dakta</i>, we must apprehend internal injury, if on <i>daktakta</i>, we need not. ",
+				"<cite ref=\"Bava Batra 26a:2\">B. Bath. 26ᵃ</cite> top <he>הוה אזלא ד׳ וכ׳</he> Ms. M. a. oth. (ed. <cite ref=\"T00001\"><he>ר׳</he></cite>, v. Rabb. D. S. a. l. note 2) pieces of stalks flew off and injured people."
+			]
+		}
+	]
+}

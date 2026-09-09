@@ -1,0 +1,25 @@
+{
+	"id": "M01810",
+	"slug": "מנצפ״ך",
+	"headword": {
+		"text": "מַנְצְפַ״ךְ"
+	},
+	"page": {
+		"number": 802,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>Mantsʾfakh</i>, a vox memorialis for the five letters (<cite ref=\"M00000\"><he>מ</he></cite>, <cite ref=\"N00001\"><he>נ</he></cite>, <cite ref=\"R00000\"><he>צ</he></cite>, <cite ref=\"Q00000\"><he>פ</he></cite>, a. <cite ref=\"K00000\"><he>ך</he></cite>) which have separate forms at the end of words. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:13\">Y. Meg. I, 71ᵈ</cite> <he>מ׳ הלכה וכ׳</he> the double forms for the five letters are a Mosaic tradition. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 1:9:13\">Ib.</cite> <he>מהו מ׳ … מ̇ה שהתקינ̇ו לך̇ הצ̇ופ̇ים</he> what does the vox M. intimate? What the inspired seers (prophets) have instituted for thee; <cite ref=\"Bereishit Rabbah 1:11\">Gen. R. s. 1</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 1:11\">Ib.</cite>; <cite ref=\"Shabbat 104a:1\">Sabb. 104ᵃ</cite>; <cite ref=\"Megillah 2b:23\">Meg. 2ᵇ</cite> <he>מ׳ צופים אמרום</he> M. intimates that the seers indited them; <cite ref=\"Bamidbar Rabbah 18:21\">Num. R. s. 18</cite>; Tanḥ. Korah 12."
+			]
+		}
+	]
+}

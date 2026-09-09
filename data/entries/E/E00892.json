@@ -1,0 +1,23 @@
+{
+	"id": "E00892",
+	"slug": "הרעה-2",
+	"headword": {
+		"text": "הֲרָעָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 368,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00415\"><he>רוּעַ</he></cite>) <i>sounding the trumpet, a certain note</i> or <i>signal</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 4:10:2\">Y. R. Hash. IV, 59ᶜ</cite> bot., v. <cite ref=\"I00799\"><he>טרימוטה</he></cite>.—Cmp. <cite ref=\"E00865\"><he>הֲרִיעָה</he></cite>, <cite ref=\"V00967\"><he>תְּרוּעָה</he></cite>."
+			]
+		}
+	]
+}

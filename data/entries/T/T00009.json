@@ -1,0 +1,24 @@
+{
+	"id": "T00009",
+	"slug": "ראה-2",
+	"headword": {
+		"text": "רָאָה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1435,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (b. h.) <i>raah</i>, name of an unclean bird. ",
+			"units": [
+				"<cite ref=\"Chullin 63b:7\">Ḥull. 63ᵇ</cite> <he>דאה ור׳ וכ׳</he>, v. <cite ref=\"D00012\"><he>דָּאָה</he> II</cite>. ",
+				"<cite ref=\"Chullin 63b:5\">Ib.</cite> <he>ר׳ זו איה … ר׳ שרואה ביותר</he> <i>raah</i> is the same as <i>ayah</i>, and it is called <i>raah</i>, because its sight is exceedingly acute (ref. to <cite ref=\"Job 28:7\">Job XXVIII, 7</cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"id": "A00840",
+	"slug": "אור-1",
+	"headword": {
+		"text": "אוֹר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 32,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<cite ref=\"A00516\"><he>או</he></cite>, v. <he>אוי</he> II; cmp. <cite ref=\"H00443\"><he>חָוַר</he></cite>, <cite ref=\"H00107\"><he>חָבַר</he></cite>, a. sec. r. <cite ref=\"A03247\"><he>אָרַר</he></cite>)<i>to perforate, break through, shine</i>.—Denom. <cite ref=\"A00634\"><he>אַוִּיר</he></cite>, <he>מְאוּרָה</he> &c.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֵאוֹר"],
+			"senses": [
+				{
+					"gloss": "<i>to be broken through, grow light</i>. Y. Ber. I, 2ᶜ <he>משיֵאוֹר המזרח</he> from the time the Eastern horizon is broken through, grows light.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הֵאִיר"],
+			"senses": [
+				{
+					"gloss": " (neut. v.) <i>to break through, shine</i>. Y. ib. III, 6ᶜ bot. open thy lips <he>ויָאִירוּ דבריך</he> and let thy words come forth, speak out boldly. ",
+					"units": [
+						"<cite ref=\"Mishnah Yoma 3:1\">Yoma III, 1</cite> <he>ה׳ פני כל וכ׳</he> it has grown light all over the Eastern horizon.—פנים מֵאִירוֹת <i>bright countenance</i>. ",
+						"<cite ref=\"Bamidbar Rabbah 11:7\">Num. R. s. 11</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (act. v.) <i>to enlighten, brighten, make shine</i>. Y. M. Kat. III, 83ᵇ <he>ה׳ עיניו וכ׳</he> (the teacher had opened his (Samuel’s) eyes &c. ",
+					"units": [
+						"<cite ref=\"Bava Metzia 33a\">B. Mets. 33ᵃ</cite>. Num. R. l. c. Ib. <he>המזבח מֵאִירִים את</he> (fr. ",
+						"<cite ref=\"Malachi 1:10\">Mal. I, 10</cite>) making the altar bright (with fire), feeding the fire on the altar. ",
+						"<cite ref=\"Yoma 73b\">Yoma 73ᵇ</cite>, v. <cite ref=\"A00843\"><he>אוּר</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

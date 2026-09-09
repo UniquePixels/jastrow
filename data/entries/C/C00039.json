@@ -1,0 +1,34 @@
+{
+	"id": "C00039",
+	"slug": "גבב-1",
+	"headword": {
+		"text": "גָּבַב"
+	},
+	"page": {
+		"number": 203,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>גב</he> <i>to arch, cave, curve;</i> cmp. √<he>כף</he>, <cite ref=\"C01195\"><he>גף</he></cite> &c.) <i>to curve</i>. *<cite ref=\"Pesachim 42a\">Pes. 42ᵃ</cite> bot. three things … <he>גּוֹבְבִין את הקומה</he> Ar. (ed. <he>כופפין</he>; <cite ref=\"Eruvin 55b\">Erub. 55ᵇ</cite> bot. ed. Sonc. <he>גופפין</he>) curve the erect stature (make man’s back high).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גִּיבֵּב"],
+			"senses": [
+				{
+					"gloss": "<i>to heap up, pile</i>, esp. <i>to gather twigs, straw</i> &c.; <i>to rake</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 9:6\">Shebi. IX, 6</cite> <he>המְגַבֵּב ביבש</he> he who gathers dry plants, leaves &c., (opp. <cite ref=\"M01623\"><he>מלקט</he></cite>, of green plants). ",
+						"<cite ref=\"Mishnah Beitzah 4:6\">Bets. IV, 6</cite>. ",
+						"<cite ref=\"Bava Kamma 101b\">B. Kam. 101ᵇ</cite>; <cite ref=\"Sukkah 40a\">Succ. 40ᵃ</cite> <he>גִּיבְּבָן</he>, v. <he>חִבָּה</he> II. Y. Yeb. VIII, 8ᵈ bot.; a. fr.—Trnsf. (with or sub. <he>דברים</he>) <i>to pick up frivolous arguments</i>. ",
+						"<cite ref=\"Yoma 76a:5\">Yoma 76ᵃ</cite> <he>עד מתי אתה מְגַבֵּב דברים ומביא עלינו</he> (Ms. a. Ar. omit <he>דברים</he>) how long wilt thou rake words together and bring them up against us (i.e. what authority have you for your assertion)?; Sifra Vayikra, N’dab. ch. IV, Par. 4 <he>מגבב ומביא …</he> (Mekh. B’shall., Vayas. 3 <he>מתמה</he>)."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

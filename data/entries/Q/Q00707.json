@@ -1,0 +1,29 @@
+{
+	"id": "Q00707",
+	"slug": "פילס",
+	"headword": {
+		"text": "פִּילֵס"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּילַס"
+		}
+	],
+	"page": {
+		"number": 1164,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01099\"><he>פְּלַס</he></cite>; cmp. <cite ref=\"Q00241\"><he>פּוּלְסָא</he></cite>) <i>a circular disk, plate</i>, used as a weight. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 30:12\">Targ. I Sam. XXX, 12</cite> (h. text <he>פלח</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 4:10\">Targ. Ez. IV, 10</cite> (h. text <he>שקל</he>).—",
+				"<cite ref=\"Bava Metzia 47b\">B. Mets. 47ᵇ</cite> <he>פִּילְסָא</he>, Ar., v. <cite ref=\"Q00241\"><he>פּוּלְסָא</he></cite>."
+			]
+		}
+	]
+}

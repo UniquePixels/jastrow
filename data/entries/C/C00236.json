@@ -1,0 +1,31 @@
+{
+	"id": "C00236",
+	"slug": "גדע-2",
+	"headword": {
+		"text": "גְּדַע"
+	},
+	"page": {
+		"number": 214,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00235\">same</cite>.*<cite ref=\"Targum Jonathan on II Samuel 10:4\">Targ. II Sam. X, 4</cite> (ed. Lag. <cite ref=\"C01379\"><he>גרע</he></cite>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְגַּדַּע"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut, mutilated</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 12:12\">Targ. Y. Ex. XII, 12</cite>; <cite ref=\"Numbers 33:4\">Num. XXXIII, 4</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

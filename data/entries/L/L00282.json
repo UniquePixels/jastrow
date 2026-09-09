@@ -1,0 +1,30 @@
+{
+	"id": "L00282",
+	"slug": "לוליינית",
+	"headword": {
+		"text": "לוּלְיָינִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "לוּלְיָא׳"
+		},
+		{
+			"text": "לוּלְיָ׳"
+		}
+	],
+	"page": {
+		"number": 699,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"L00281\">preced.</cite> wds.; sub. <cite ref=\"V00767\"><he>תִּסְפֹּרֶת</he></cite>) <i>Lulian style of hair-cutting, clipped hair</i>. ",
+			"units": [
+				"<cite ref=\"Nedarim 51a:7\">Ned. 51ᵃ</cite> (expl. <he>כסום יכסמו</he> <cite ref=\"Ezekiel 44:20\">Ez. XLIV, 20</cite>) <he>כעין ל׳</he> like the L. style, expl. <he>ת׳ יחידאה</he> ‘the style of a distinguished person’, <he>ראשו של זה וכ׳</he> the top of one (row of hair) touching the root of the other; <cite ref=\"Sanhedrin 22b:21\">Snh. 22ᵇ</cite> <he>כמין תספרת ל׳</he>."
+			]
+		}
+	]
+}

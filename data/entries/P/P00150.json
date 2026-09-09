@@ -1,0 +1,41 @@
+{
+	"id": "P00150",
+	"slug": "עדיתא-2",
+	"headword": {
+		"text": "עָדִיתָא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲדִיתָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1044,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"P00120\"><he>עֲדָאָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>booty</i>, <i>spoil</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 31:11\">Targ. Y. Num. XXXI, 11</cite>, sq. (ed. Amst. <cite ref=\"P00681\"><he>ער׳</he></cite>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 16:19\">Targ. Prov. XVI, 19</cite>.—",
+				"<cite ref=\"Eichah Rabbah 2:17\">Lam. R. to II, 13</cite> (ref. to <he>אעידך</he>, <cite ref=\"Eichah Rabbah 2:17\">ib.</cite>), v. <cite ref=\"B00560\"><he>בִּיזָּא</he> II</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>choice dwelling</i>, v. <cite ref=\"P00513\"><he>עִידִּיתָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

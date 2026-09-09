@@ -1,0 +1,40 @@
+{
+	"id": "I00622",
+	"slug": "טעק",
+	"headword": {
+		"text": "טְעַק",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 545,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (<he>עוק</he>, <cite ref=\"I00000\"><he>ט</he></cite> for <cite ref=\"V00000\"><he>ת</he></cite>; cmp. <cite ref=\"I00311\"><he>טִיגָּן</he></cite>) <i>to be narrow</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 4:12\">Targ. Prov. IV, 12</cite> <he>תִּטְעוּק</he> ed. Lag. (Levita <he>תִּטְעַק</he>; ed. Wil. <he>תתעוק</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתְטָעֵיק", "אִיטָּעַק"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיטְּעִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to be pressed, troubled</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 31:10\">Targ. Ps. XXXI, 10</cite> <he>אִיטָּעַק</he> Ms. (ed. <cite ref=\"I00622\"><he>אִיטְּעַק</he></cite>, ed. Wil. <cite ref=\"V00790\"><he>אִתְּעָק</he></cite>; ed. Lag. <cite ref=\"I00525\"><he>איטלק</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 24:10\">Targ. Prov. XXIV, 10</cite> <he>מִתְטָעִיק</he> Ms. a. Lev. (ed. Lag. a. oth. <he>מתתעיק</he>). V. <cite ref=\"V00790\"><he>תְּעַק</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

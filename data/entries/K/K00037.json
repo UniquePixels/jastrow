@@ -1,0 +1,36 @@
+{
+	"id": "K00037",
+	"slug": "כבוד-1",
+	"headword": {
+		"text": "כָּבוֹד"
+	},
+	"page": {
+		"number": 607,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"K00030\"><he>כָּבַד</he></cite>)<i>importance</i>. ",
+			"units": [
+				"<cite ref=\"Arakhin 18a:39\">Arakh. 18ᵃ</cite> <he>ולידון בכְבוֹדוֹ</he> (Ar. <he>בכבידו</he>) and that the value of a limb be judged according to its importance (vitality); ib. 4ᵇ; <cite ref=\"Bava Metzia 114a\">B. Mets. 114ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>honor, respect</i>; <i>dignity</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 19b:9\">Ber. 19ᵇ</cite>, a. e., v. <cite ref=\"H01112\"><he>חָלַק</he></cite>. ",
+				"<cite ref=\"Berakhot 19b:9\">Ib.</cite> <he>משום כְּבוֹד מלכים</he> on account of the respect due to royalty. ",
+				"<cite ref=\"Berakhot 19b:9\">Ib.</cite>; <cite ref=\"Menachot 37b:16\">Men. 37ᵇ</cite> <he>גדול כְּ׳ הבריות וכ׳</he> human dignity (in proper appearance) is very important, for it may even suspend a Biblical law. Ber. l. c. <he>ואינו לפי כְבוֹרוֹ</he> and it is not becoming his dignity (to drive an ass). ",
+				"<cite ref=\"Sotah 13a:12\">Sot. 13ᵃ</cite> <he>הניחו לו כְּבוֹדוֹ במלכים יותר וכ׳</he> let him alone, the honor shown to him (Jacob) by princes is higher than that by private men. ",
+				"<cite ref=\"Sotah 13a:3\">Ib.</cite> <he>נהגו בהן כ׳</he> they treated them with respect. ",
+				"<cite ref=\"Nedarim 39b:14\">Ned. 39ᵇ</cite> <he>בכְבוֹדִי לא מחיתם בכְ׳ וכ׳</he> as long as My honor was concerned, you did not interfere, and when the honor of a human being is at stake &c. ",
+				"<cite ref=\"Pirkei Avot 4:12\">Ab. IV, 12</cite> <he>יהי כְ׳ תלמידך וכ׳</he> let the honor of thy pupil be as dear to thee as thine own, and thy fellow student’s honor as that of thy teacher; a. v. fr.—<he>כסא הכ׳</he>, v. <cite ref=\"K00893\"><he>כִּסֵּא</he></cite>. <he>מחל על כבודו</he> <i>to forego due honors</i>, v. <cite ref=\"M00885\"><he>מָחַל</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "Q01390",
+	"slug": "פעפועא-1",
+	"headword": {
+		"text": "פַּעְפּוּעָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1203,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פַּעְפֵּעַ</he> I) <i>breaking, beating</i>.—Pl. constr. <cite ref=\"Q01392\"><he>פַּעְפּוּעֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shabbat 109a:3\">Sabb. 109ᵃ</cite> <he>פ׳ ביעי וכ׳</he> (some ed. <he>פיעפועי</he>) to make ‘hashed eggs’ (of roasted eggs) is forbidden (on the Sabbath)."
+			]
+		}
+	]
+}

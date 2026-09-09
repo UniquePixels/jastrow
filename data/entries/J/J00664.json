@@ -1,0 +1,26 @@
+{
+	"id": "J00664",
+	"slug": "ירקנא",
+	"headword": {
+		"text": "יַרְקָנָא"
+	},
+	"page": {
+		"number": 598,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>mildew</i>, v. <cite ref=\"J00661\"><he>יַרְקוֹנָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pl.</i> <he>יַרְקָנִין</he>, <i>herbs</i>. v. <cite ref=\"J00612\"><he>יֵרוֹקָנָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

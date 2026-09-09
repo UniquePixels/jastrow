@@ -1,0 +1,25 @@
+{
+	"id": "M01862",
+	"slug": "מסוגין",
+	"headword": {
+		"text": "מְסוּגִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 804,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"O00243\"><he>סוּג</he></cite>; cmp. <cite ref=\"O00551\"><he>סְיָג</he></cite>) <i>low border-marks</i> (v. <cite ref=\"M01926\"><he>מְסִיפָס</he></cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Batra 2:3:6\">Y. B. Bath. II, 13ᵇ</cite> bot. <he>אילין דעבדין מ׳ וכ׳</he> if partners of a property divide off between one another by means of border-marks (which can easily be stepped over), they may object (to opening a school; v. ",
+				"<cite ref=\"Tosefta Bava Batra 1:4\">Tosef. ib. I, 4</cite>)."
+			]
+		}
+	]
+}

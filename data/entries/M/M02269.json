@@ -1,0 +1,24 @@
+{
+	"id": "M02269",
+	"slug": "מצדא-2",
+	"headword": {
+		"text": "מְצָדָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 823,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00161\"><he>צוּד</he></cite>; v. <cite ref=\"M02283\"><he>מְצוּדְתָּא</he></cite>) <i>fort, stronghold.—</i>Pl. <he>מְצָדַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 22:4\">Targ. I Sam. XXII, 4</cite>, sq. (ed. Wil. <he>מְצוּדַיָּא</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 7:7\">Targ. Ez. VII, 7</cite>; a. e."
+			]
+		}
+	]
+}

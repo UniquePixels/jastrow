@@ -1,0 +1,40 @@
+{
+	"id": "P00469",
+	"slug": "עטף-1",
+	"headword": {
+		"text": "עָטַף",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1063,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.;cmp. <he>עדף</he>, a. meanings of Arab. <i>ʿaṭafa</i>, a. <i>ʿaṭaba</i>) <i>to be lax, hang down; trnsf. to droop, faint; to lag behind, be slow</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 61:2\">Midr. Till. to Ps. LXI, 3</cite> <he>עד חיכן … עד שיַעֲטוֹף</he> (ed. Bub. <he>עד שיע׳ לבו</he>) how long must a man remain in prayer? Until he (his heart) is faint. ",
+				"<cite ref=\"Midrash Tehillim 73:2\">Midr. Till. to Ps. LXXIII, 6</cite> <he>ואין יעטוף אלא לשון לידה</he> ed. Bub. (oth. ed. <he>אלא ילוד</he>) <i>yaʿăṭof</i> (<cite ref=\"Midrash Tehillim 73:2\">ib.</cite>) has the meaning of (drooping) giving birth (by homiletical ref. to <cite ref=\"Genesis 30:42\">Gen. XXX, 42</cite>). ",
+				"<cite ref=\"Midrash Tehillim 102:2\">Midr. Till. to Ps. CII, 1</cite> <he>ואין יעטוף אלא תפלה</he> <i>yaʿăṭof</i> (<cite ref=\"Midrash Tehillim 102:2\">ib.</cite>) means (exhaustion from) prayer (differ. in ed. Bub., v. <cite ref=\"P00449\"><he>עֲטִיפָה</he> I</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 24\">Gen. R. s. 24</cite> (ref. to <cite ref=\"Isaiah 57:16\">Is. LVII, 16</cite>) <he>מהו יעטוף משלהי ליה</he> what does <i>yaʿăṭof</i> mean? It (the wind) becomes wearied; <cite ref=\"Yalkut Shimoni on Nach 219\">Yalk. Kings 219</cite>; <cite ref=\"Jerusalem Talmud Berakhot 9:2:9\">Y. Ber. IX, 13ᵈ</cite> top; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְעַטֵּף"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְעַטֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to faint</i>. Tanḥ. Hăaz. 8 <he>נתע׳ רוח האב</he> his father’s spirit fainted.",
+					"units": []
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

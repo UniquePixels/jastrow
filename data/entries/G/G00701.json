@@ -1,0 +1,27 @@
+{
+	"id": "G00701",
+	"slug": "זריה",
+	"headword": {
+		"text": "זְרִיָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְרִיָּיה"
+		}
+	],
+	"page": {
+		"number": 413,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>זָרָה</he> II) <i>deviation</i>, (cmp. <cite ref=\"G00569\"><he>זָנָה</he></cite>) <i>lewdness</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 90:8\">Midr. Till. to Ps. XC, 5</cite> (ref. to <he>זרמתם</he> <cite ref=\"Midrash Tehillim 90:8\">ib.</cite>, v. <he>זוּד</he> I) <he>זְרִיָּתָם לשעה היתה</he> their debauchery was only for a while; <cite ref=\"Yalkut Shimoni on Nach 841\">Yalk. Ps. 841</cite> <he>זְרִיָּיתָם</he>."
+			]
+		}
+	]
+}

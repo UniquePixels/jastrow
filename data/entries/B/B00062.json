@@ -1,0 +1,39 @@
+{
+	"id": "B00062",
+	"slug": "בבלאה",
+	"headword": {
+		"text": "בַּבְלָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּבְלַאי"
+		},
+		{
+			"text": "בַּבְלָיָא"
+		},
+		{
+			"text": "בַּבְלָיָיא"
+		}
+	],
+	"page": {
+		"number": 137,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"B00064\"><he>בַּבְלִי</he></cite> , <i>Babylonian</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 7:21\">Targ. Josh. VII, 21</cite> (some ed. <cite ref=\"B00064\"><he>בַּבְלִי</he></cite>).—",
+				"<cite ref=\"Shabbat 105b:11\">Sabb. 105ᵇ</cite> <he>ב׳</he> O, thou Babylonian! <cite ref=\"Bava Metzia 85a:21\">B. Mets. 85ᵃ</cite> <he>גמרא ב׳</he> (Ms. M. <he>תלמודיה דבבל</he>) the method he had learned in Babylonia; cmp. preced.—",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:2:10\">Y. Sabb. VI, 8ᵃ</cite> bot.; a. fr.—Pl. <cite ref=\"B00062\"><he>בַּבְלָאֵי</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 137:3\">Targ. Ps. CXXXVII, 3</cite>. ",
+				"<cite ref=\"Chullin 45a:10\">Ḥull. 45ᵃ</cite> <he>חברין ב׳</he> our Babyl. colleagues. ",
+				"<cite ref=\"Ketubot 75a:14\">Keth. 75ᵃ</cite>, a. fr. <he>ב׳ טפשאי</he> foolish Babylonians.—Fem. <cite ref=\"B00067\"><he>בַּבְלִיתָא</he></cite>. Targ. l. c. v. 8.—Pl. <cite ref=\"B00067\"><he>בַּבְלָיָתָא</he></cite>, <cite ref=\"B00065\"><he>בַּבְלָיָיתָא</he></cite>. Targ. II Esth. I, 10.—",
+				"<cite ref=\"Shabbat 81a:7\">Sabb. 81ᵃ</cite>"
+			]
+		}
+	]
+}

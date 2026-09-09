@@ -1,0 +1,34 @@
+{
+	"id": "U01795",
+	"slug": "שפץ-2",
+	"headword": {
+		"text": "שְׁפַץ"
+	},
+	"page": {
+		"number": 1619,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U01755\"><he>שַׁפֵּיץ</he></cite> (Shaf. of <cite ref=\"Q01445\"><he>פצץ</he></cite>) [<i>to undo a breach</i> (cmp. <cite ref=\"D01147\"><he>דִּשֵּׁן</he></cite> to remove the ashes),] <i>to repair</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 11:11\">Targ. II Chr. XI, 11</cite> <he>וש׳ ותקיף</he> (h. text <he>ויחזק</he>). ",
+						"<cite ref=\"Targum of II Chronicles 11:23\">Ib. 23</cite> <he>ובנא וש׳ קרוין ומני וכ׳</he> (h. text <he>ויבן ויפרץ</he>, to which Targ. supplies <he>ויפקד</he>) he built and fortified cities, and appointed &c.—",
+						"<cite ref=\"Megillah 4a:3\">Meg. 4ᵃ</cite> <he>אתא אסא שַׁפְּצִינְהוּ</he> Ar. a. Rashi (ed. <he>שפצנהי</he>, corr. acc.) Asa came and restored their fortifications. ",
+						"<cite ref=\"Yevamot 63a:10\">Yeb. 63ᵃ</cite> <he>טום ולא תְשַׁפֵּיץ שַׁפֵּיץ וכ׳</he> fill up (a hole in time), that thou need not repair, repair, that thou need not build."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

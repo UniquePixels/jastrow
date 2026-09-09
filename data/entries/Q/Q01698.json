@@ -1,0 +1,23 @@
+{
+	"id": "Q01698",
+	"slug": "פרונקא-2",
+	"headword": {
+		"text": "פְּרוּנְקָא"
+	},
+	"page": {
+		"number": 1220,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01981\"><he>פְּרַק</he></cite>, with anorg. <cite ref=\"N00001\"><he>נ</he></cite>) [<i>torn off</i>,] 2) <i>rag</i> used to cover wine casks &c. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 30a:9\">Ab. Zar. 30ᵃ</cite> <he>צרונהי בפ׳</he> they tied a shred around it. ",
+				"<cite ref=\"Shabbat 48a:2\">Sabb. 48ᵃ</cite> <he>מאי שנא מפ׳</he> wherein is this different from covering the cask with a rag? <cite ref=\"Shabbat 139b:16\">Ib. 139ᵇ</cite> <he>האי פ׳ אפלגא וכ׳</he> to spread a shred over a part of a cask is permitted. [Ar. reads <cite ref=\"Q01907\"><he>פְּרַנְקָא</he></cite>.]"
+			]
+		}
+	]
+}

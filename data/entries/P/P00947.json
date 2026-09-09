@@ -1,0 +1,38 @@
+{
+	"id": "P00947",
+	"slug": "ענבתא",
+	"headword": {
+		"text": "עֵנַבְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִי׳"
+		}
+	],
+	"page": {
+		"number": 1091,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"P00942\"><he>עֵנָב</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>berry</i>; ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>a berrylike excrescence</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 28a:14\">Ab. Zar. 28ᵃ</cite> <he>ההיא ע׳ פרוונקא וכ׳</he> an <i>ʿenabta</i> (carbuncle?) is a forerunner of the angel of death. ",
+				"<cite ref=\"Avodah Zarah 28a:14\">Ib.</cite> (as a remedy) <he>ליתי ע׳ בת מינא וכ׳</he> let one get a berry of the same kind (in size and color), and roll it over &c."
+			],
+			"label": "2"
+		}
+	]
+}

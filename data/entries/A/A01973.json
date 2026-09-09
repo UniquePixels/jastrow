@@ -1,0 +1,27 @@
+{
+	"id": "A01973",
+	"slug": "אמבטה",
+	"headword": {
+		"text": "אַמְבְּטָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַמְבְּטִי"
+		}
+	],
+	"page": {
+		"number": 74,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A01974\">next w.</cite>) <i>bottom</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 68\">Gen. R. s. 68</cite>, v. <cite ref=\"D00556\"><he>דְּיִיטֵי</he></cite>."
+			]
+		}
+	]
+}

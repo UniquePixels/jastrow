@@ -1,0 +1,23 @@
+{
+	"id": "K00335",
+	"slug": "כוף-3",
+	"headword": {
+		"text": "כּוּף",
+		"homograph": 2
+	},
+	"page": {
+		"number": 624,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01044\"><he>כְּפַף</he></cite>) <i>cover, basket</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Eruvin 7:1:5\">Y. Erub. VII, beg. 24ᵇ</cite> <he>למיכבש עלוי כ׳</he> to press a cover over it."
+			]
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"id": "V00742",
+	"slug": "תני-1",
+	"headword": {
+		"text": "תני"
+	},
+	"altHeadwords": [
+		{
+			"text": "תָּנָה"
+		}
+	],
+	"page": {
+		"number": 1681,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"U01570\"><he>שָׁנָה</he></cite>) [<i>to repeat</i>,] <i>to tell</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תִּנָּה"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"V00741\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 6\">Gen. R. s. 6</cite> (ref. to <cite ref=\"Psalms 50:6\">Ps. L, 6</cite>) <he>לעתיד … שמים מְתַנִּים וכ׳</he> in the future the heavens shall tell the righteousness which the Lord does to his world. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 277\">Yalk. Jer. 277</cite> <he>והיה מְתַנֶּה נסים וכ׳</he> and he told the wonders that happened to him &c.; (<cite ref=\"Berakhot 13a:3\">Ber. 13ᵃ</cite> <he>מספר</he>). ",
+						"<cite ref=\"Midrash Tehillim 109:11\">Midr. Till. to Ps. CXVIII, 14</cite> <he>לא לי לתַנּוֹת כל וכ׳</he> is it not my duty to tell all the wonders &c.?; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְנָה"],
+			"senses": [
+				{
+					"gloss": "<i>to stipulate, agree, make a condition</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 8b:8\">B. Bath. 8ᵇ</cite> <he>רשאין … להַתְנוֹת על וכ׳</he> the residents of a town have a right to stipulate measures, prices of food, and wages of laborers. ",
+						"<cite ref=\"Mishnah Ketubot 9:1\">Keth. IX, 1</cite> <he>שה׳ על מה שכתוב וכ׳</he> because he made an agreement contrary to what is written in the Law; <he>וכל המַתְנֶה על וכ׳</he>, v. <cite ref=\"V00719\"><he>תְּנַאי</he></cite>. ",
+						"<cite ref=\"Mishnah Eruvin 3:5\">Erub. III, 5</cite> <he>מתנה אדם על ערובו וכ׳</he> a man may lay his ‘Erub (v. <cite ref=\"P00680\"><he>עֵירוּב</he></cite>) on condition and say, if gentiles come &c. ",
+						"<cite ref=\"Eruvin 36b:9\">Ib. 36ᵇ</cite> <he>אין אדם מתנה על … כאחד</he> no man can lay down conditions for two alternatives together (so as to reserve to himself the choice in the event of both alternatives coming to pass); a. fr.—Part. pass. <he>מוּתְנֶה</he>; pl. <he>מוּתְנִים</he>; <cite ref=\"M00703\"><he>מוּתְנִין</he></cite>. Y. Keth. X, end, 34ᵃ; Y. B. Kam. IV, 4ᵇ top <he>שוורים כמ׳ הן</he> in the case of oxen (of several owners, consecutively gored by the same ox) it is as if an agreement had been made beforehand."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

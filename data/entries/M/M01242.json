@@ -1,0 +1,23 @@
+{
+	"id": "M01242",
+	"slug": "מיסון-1",
+	"headword": {
+		"text": "מִיסוֹן"
+	},
+	"page": {
+		"number": 777,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (μέσος -ον,) <i>middle</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד מאת׳</he> 7) <he>במ׳ דאורחא</he> in the middle of the road. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Ib.</cite> <he>במ׳ דחנותא</he> (<he>חד מירוש׳</he>) Ar. (ed. <he>במצעי</he>) in the middle of the shop."
+			]
+		}
+	]
+}

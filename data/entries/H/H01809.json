@@ -1,0 +1,42 @@
+{
+	"id": "H01809",
+	"slug": "חשבון",
+	"headword": {
+		"text": "חֶשְׁבּוֹן"
+	},
+	"page": {
+		"number": 508,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H01808\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>account, sum; accountability; punishment and reward</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 9b:1\">B. Bath. 9ᵇ</cite> <he>ח׳ גדול</he> sum total. ",
+				"<cite ref=\"Bava Batra 78b:13\">Ib. 78ᵇ</cite> (play on <i>Ḥeshbon</i>, <cite ref=\"Numbers 21:27\">Num. XXI, 27</cite>; <cite ref=\"Numbers 21:30\">30</cite>) <he>באו ונחשב חֶשְׁבּוֹנוֹ וכ׳</he> come and let us examine the account of the world (human affairs), the loss etc. ",
+				"<cite ref=\"Numbers 21:30\">Ib.</cite> <he>אבד ח׳ וכ׳</he> the accountability of the world is gone (there is no reward or punishment). ",
+				"<cite ref=\"Shemot Rabbah 51:6\">Ex. R. s. 51</cite>, beg., a. fr. <he>ליתן ח׳</he> to render an account. ",
+				"<cite ref=\"Tosefta Bava Kamma 10:21\">Tosef. B. Kam. X, 21</cite> <he>מה ח׳ עשה וכ׳</he> how our father settled with yon; Y. ib. X, 7ᵇ bot.—",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:8:11\">Y. Ab. Zar. II, 42ᵃ</cite> top <he>ח׳ מים וכ׳</he> he understands the calculation of the action of the water. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:8:11\">Ib.</cite> <he>ח׳ גדול הוא</he> this is a great thing to calculate; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>promptness in business</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 4:10\">Deut. R. s. 4</cite> <he>איני מכיר חֶשְׁבּוֹנְךָ</he> I do not know your way of settling (whether you are prompt); <cite ref=\"Devarim Rabbah 4:10\">ib.</cite> <he>עשית לי ח׳ טוב</he> you paid me promptly. [<cite ref=\"Yalkut Shimoni on Torah 808:1\">Yalk. Deut. 808</cite> <he>הח׳</he> read <he>בעל הח׳</he> <i>market commissioner</i>.]—Pl. <he>חֶשְׁבּוֹנוֹת</he>. ",
+				"<cite ref=\"Shabbat 150a:13\">Sabb. 150ᵃ</cite>, sq., v. <cite ref=\"H01806\"><he>חָשַׁב</he></cite>. ",
+				"<cite ref=\"Bekhorot 5a:11\">Bekh. 5ᵃ</cite> <he>בקי בח׳</he> a good arithmetician."
+			],
+			"label": "2"
+		}
+	]
+}

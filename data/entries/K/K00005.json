@@ -1,0 +1,49 @@
+{
+	"id": "K00005",
+	"slug": "כאב-2",
+	"headword": {
+		"text": "כְּאֵב",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּאֵיב"
+		},
+		{
+			"text": "כֵּיב"
+		}
+	],
+	"page": {
+		"number": 606,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"K00004\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 14:13\">Targ. Prov. XIV, 13</cite>.—Part. <cite ref=\"K00004\"><he>כָּאֵב</he></cite>, <cite ref=\"K00005\"><he>כָּאֵיב</he></cite>, <cite ref=\"K00004\"><he>כָּיֵב</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 14:22\">Targ. Job XIV, 22</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 69:30\">Targ. Ps. LXIX, 30</cite>; a. fr.—",
+				"<cite ref=\"Targum Jonathan on Jeremiah 4:19\">Targ. Jer. IV, 19</cite> <he>כֵּיבִין</he> (ed. Lag. <he>כָּיְיבָן</he>).—",
+				"<cite ref=\"Bava Kamma 46b:6\">B. Kam. 46ᵇ</cite> <he>מאן דכאיב ליה כאיבא וכ׳</he> Ms. F. (v. Rabb. D. S. a. l. note, Ms. H. <he>כיבא</he>) he who feels sick, goes to the physician. ",
+				"<cite ref=\"Bava Kamma 85b:6\">Ib. 85ᵇ</cite> <he>הוה כ׳ ליה מידי וסליק ואיתיב וכ׳</he> Ms. M. (ed. <he>ואייתי</he>) he had a sore and it was going away, and one put on a corrodent drug for him &c., v. <cite ref=\"H00444\"><he>חֲוַר</he></cite>. ",
+				"<cite ref=\"Gittin 68b\">Gitt. 68ᵇ</cite> <cite ref=\"K00005\"><he>כָּיֵיב</he></cite>; a. fr.—",
+				"<cite ref=\"Bava Kamma 35a:5\">B. Kam. 35ᵃ</cite> <he>כיבין</he>, v. <cite ref=\"H00824\"><he>חִינְכֵי</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּאֵיב", "כַּיֵּיב"],
+			"senses": [
+				{
+					"gloss": "<i>to cause pain, wound, grieve</i>. ",
+					"units": [
+						"<cite ref=\"Eichah Rabbah 2\">Lam. R. to II, 1</cite> translating <he>יעיב</he>, <cite ref=\"Eichah Rabbah 2\">ib.</cite>) <he>איך כ׳ וכ׳</he> how did the Lord wound &c., v. <cite ref=\"K00480\"><he>כֵּיבָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

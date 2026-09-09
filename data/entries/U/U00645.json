@@ -1,0 +1,27 @@
+{
+	"id": "U00645",
+	"slug": "שחיטה",
+	"headword": {
+		"text": "שְׁחִיטָה"
+	},
+	"page": {
+		"number": 1547,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U00636\"><he>שָׁחַט</he> II)</cite><i>cutting the throat, slaughtering according to the Jewish ritual</i>. Sifra Tsav, ch. VIII, Par. 4 <he>אין לשון ש׳ אלא משיכה</he> by <i>shaḥaṭ</i> drawing (of the knife) is meant, v. <cite ref=\"U00635\"><he>שָׁחַט</he> I</cite>. ",
+			"units": [
+				"<cite ref=\"Chullin 9a:3\">Ḥull. 9ᵃ</cite> <he>כל טבח … ש׳ אסור לאכול משְׁחִיטָתוֹ</he> if a slaughterer does not know the rules of slaughtering, you dare not eat of what he has killed. ",
+				"<cite ref=\"Chullin 9a:5\">Ib.</cite> <he>הטבח … לאחר הש׳</he> the slaughterer must examine the organs (v. <cite ref=\"O00710\"><he>סִימָן</he></cite>) after cutting. ",
+				"<cite ref=\"Chullin 20a:9\">Ib. 20ᵃ</cite> <he>אין ש׳ לעוף מן התורה</he> the ritual cutting of a bird’s throat is not Biblically ordained; <cite ref=\"Chullin 20b:2\">ib.ᵇ</cite> <he>יש ש׳ לעוף וכ׳</he> it is Biblically ordained; a. v. fr.—",
+				"<cite ref=\"Chullin 17b\">Ib. 17ᵇ</cite>, a. fr. <he>בית הש׳</he> <i>the throat</i> (v. <cite ref=\"M02250\"><he>מַפְרַעְתָּא</he></cite>).—<he>שְׁחִיטַת קדשים</he> (the slaughtering of sacrifices) <i>the treatise of Z’baḥim</i>. ",
+				"<cite ref=\"Bava Metzia 109b\">B. Mets. 109ᵇ</cite>.—<he>שחיטת חולין</he> (the slaughtering of secular animals) <i>the treatise of Ḥullin</i>.—Pl. <he>שְׁחִיטוֹת</he>. ",
+				"<cite ref=\"Vayikra Rabbah 22:7\">Lev. R. s. 22</cite> (ref. to <cite ref=\"Leviticus 17:3\">Lev. XVII, 3</cite>) <he>ומה תל֞ ש׳ וכ׳</he> and why has the text the word <i>shaḥaṭ</i> twice?; a. e."
+			]
+		}
+	]
+}

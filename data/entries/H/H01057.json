@@ -1,0 +1,28 @@
+{
+	"id": "H01057",
+	"slug": "חליפה",
+	"headword": {
+		"text": "חֲלִיפָה"
+	},
+	"page": {
+		"number": 469,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"H01098\"><he>חָלַף</he></cite>)<i>replacement, substitution</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:8:7\">Y. Ber. II, 5ᶜ</cite> when a scholar dies, <he>מי מביא לנו חֲלִיפָתוֹ</he> who will get us one to take his place?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pl. <he>חֲלִיפוֹת</he> <i>shoots</i>, v. <cite ref=\"H01101\"><he>חֵלֶף</he> I</cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

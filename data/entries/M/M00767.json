@@ -1,0 +1,24 @@
+{
+	"id": "M00767",
+	"slug": "מזמוטין",
+	"headword": {
+		"text": "מַזְמוּטִין"
+	},
+	"page": {
+		"number": 755,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (= <he>מזמזט׳</he>, transpos. of <he>זמזם</he>, v. <cite ref=\"G00513\"><he>זַמְזוּמֵי</he></cite>; cmp. <cite ref=\"C01182\"><he>גִעְגֵּע</he></cite> for <cite ref=\"P00108\"><he>עגעג</he></cite>; as to <cite ref=\"G00254\"><he>זט</he></cite> for <he>זז</he> cmp. <cite ref=\"C00779\"><he>גִּיסְטְרָא</he></cite>, <cite ref=\"C00524\"><he>גְּזוּזְטְרָא</he></cite>) <i>music, sweet melodies</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 36:11\">Targ. Job XXXVI, 11</cite> (Ms. <cite ref=\"B00994\"><he>בסימיא</he></cite>; h. text <he>נעימים</he>).—Hebr. constr. <he>מַזְמוּטֵי</he>. ",
+				"<cite ref=\"Chagigah 14b:5\">Ḥag. 14ᵇ</cite> <he>מ׳ חתן וכלה</he> the musical entertainments at a wedding (Y. ib. II, 77ᵃ bot. <he>בני חופה שמיחין לפני חתן</he>)."
+			]
+		}
+	]
+}

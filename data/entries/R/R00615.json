@@ -1,0 +1,42 @@
+{
+	"id": "R00615",
+	"slug": "צנורא-2",
+	"headword": {
+		"text": "צִנּוֹרָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צִנּוֹרָה",
+			"homograph": 1
+		},
+		{
+			"text": "צִנּוֹרֶת"
+		},
+		{
+			"text": "צִי׳"
+		}
+	],
+	"page": {
+		"number": 1291,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"R00613\"><he>צִנּוֹר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>splash from a spout</i> (cmp. <cite ref=\"O00658\"><he>סִילּוֹן</he> II</cite>), trnsf. <he>צ׳</he> (<he>של רוק</he>) <i>ejection of spittle</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 1:1:23\">Y. Yoma I, 38ᵈ</cite> top <he>נתזה צ׳ של רוק וכ׳</he> spittle from his mouth flew on his (the high priest’s) garments; <cite ref=\"Tosefta Niddah 5:3\">Tosef. Nidd. V, 3</cite>; <cite ref=\"Niddah 33b:55\">Nidd. 33ᵇ</cite>. ",
+				"<cite ref=\"Niddah 33b:55\">Ib.</cite> (in Chald. dict.) <he>צ׳ דעם הארץ</he> the spittle of an ignorant man (not observing levitical cleanness); <cite ref=\"Chagigah 23a:8\">Ḥag. 23ᵃ</cite> <he>משום צ׳ וכ׳</he> because spittle of an ignorant man may have fallen on it; a. e.—Pl. <he>צִנּוֹרוֹת</he>, <cite ref=\"R00614\"><he>צִינּ׳</he></cite>. ",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 5:4\">Pirké d’R. El. ch. V</cite> <he>העבים … צִינּוֹרוֹתֵיהֶן וכ׳</he> the clouds cause the seas to hear the sound of their splashings (rain), and the seas cause the deep to hear &c. (ref. to <cite ref=\"Psalms 42:8\">Ps. XLII, 8</cite>)."
+			],
+			"label": "1"
+		}
+	]
+}

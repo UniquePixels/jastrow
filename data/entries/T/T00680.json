@@ -1,0 +1,21 @@
+{
+	"id": "T00680",
+	"slug": "ריפין",
+	"headword": {
+		"text": "רִיפִין"
+	},
+	"page": {
+		"number": 1476,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"T00957\"><he>רָפַף</he></cite>, v. <cite ref=\"T00959\"><he>רְפָפוֹת</he></cite>) <i>espaliers, light lattice work</i>. ",
+			"units": ["<cite ref=\"Tosefta Kilaim 4:5\">Tosef. Kil. IV, 5</cite>."]
+		}
+	]
+}

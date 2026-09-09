@@ -1,0 +1,29 @@
+{
+	"id": "O01228",
+	"slug": "סניא-4",
+	"headword": {
+		"text": "סַנְיָא",
+		"homograph": 4
+	},
+	"altHeadwords": [
+		{
+			"text": "סַנֵּי"
+		}
+	],
+	"page": {
+		"number": 1007,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סנן</he>) <i>sieve</i>; <he>ס׳ דיבי</he> <i>mucal sieve</i>, name of a certain <i>part of the intestines</i>; [oth. opin.: <i>disliked by wolves</i>, v. <cite ref=\"O01224\"><he>סְנֵי</he></cite>]. ",
+			"units": [
+				"<cite ref=\"Chullin 50b:2\">Ḥull. 50ᵇ</cite>.—",
+				"<cite ref=\"Kohelet Rabbah 7:19\">Koh. R. to VII, 19</cite> (some ed. <cite ref=\"O01223\"><he>סני</he></cite>); <cite ref=\"Vayikra Rabbah 3:4\">Lev. R. s. 3</cite> <i>the ileum</i>; v. <cite ref=\"K00884\"><he>כַּנְתָא</he></cite>."
+			]
+		}
+	]
+}

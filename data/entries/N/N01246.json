@@ -1,0 +1,46 @@
+{
+	"id": "N01246",
+	"slug": "נקרא",
+	"headword": {
+		"text": "נִקְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 935,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נְקַר</he> I) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cleft.—</i>Pl. <he>נִקְרַיָּא</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 24:21\">Targ. Y. I Num. XXIV, 21</cite> (Y. II <he>כבקרת</he>, read: <he>בנִקְרָתָא</he>, v. <cite ref=\"N01216\"><he>נְקִירְתָּא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>rag, lint</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 134b\">Sabb. 134ᵇ</cite> <he>האי נ׳ מסי</he> Ms. O. a. Ar. (ed. <he>הני כתיתין מסו</he>) a compress of lint has a healing effect (and is not merely a protection)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>pickings, worms which hens pick</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 28a:13\">Ab. Zar. 28ᵃ</cite> <he>נִי׳ מקילקלתא</he> (Ms. M. <he>נִיקְרֵי</he> <i>pl.</i>) worms from a dunghill."
+			],
+			"label": "3"
+		}
+	]
+}

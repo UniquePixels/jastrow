@@ -1,0 +1,23 @@
+{
+	"id": "M01532",
+	"slug": "מלחתא",
+	"headword": {
+		"text": "מִלְחֲתָא"
+	},
+	"page": {
+		"number": 789,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (<cite ref=\"M01531\">preced.</cite>) <i>salt deposit</i> in a cavity in which sea-water was allowed to evaporate. ",
+			"units": [
+				"<cite ref=\"Shabbat 66b\">Sabb. 66ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 73b\">Ib. 73ᵇ</cite>, v. <cite ref=\"K00872\"><he>כְּנַף</he> I</cite>."
+			]
+		}
+	]
+}

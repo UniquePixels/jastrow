@@ -1,0 +1,29 @@
+{
+	"id": "O01550",
+	"slug": "סרהוביא",
+	"headword": {
+		"text": "סַרְהוֹבְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "סַרְהוֹבְיָיא"
+		}
+	],
+	"page": {
+		"number": 1023,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01549\">preced.</cite> wds.) <i>anxiety</i>, <i>hurry</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 55:15\">Targ. Ps. LV, 15</cite> (h. text <he>רגש</he>).—Esp. <he>בס׳</he> (adv.) <i>quickly</i>, <i>soon</i> (= h. <cite ref=\"M00382\"><he>מהרה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 31:3\">Targ. Ps. XXXI, 3</cite> (Ms. <he>בסרהובא</he>, v. <cite ref=\"O01549\">preced.</cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 37:2\">Ib. XXXVII, 2</cite>; a. fr."
+			]
+		}
+	]
+}

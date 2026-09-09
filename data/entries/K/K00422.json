@@ -1,0 +1,22 @@
+{
+	"id": "K00422",
+	"slug": "כותח-1",
+	"headword": {
+		"text": "כּוּתָּח"
+	},
+	"page": {
+		"number": 627,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Pers. <i>kataḫ</i>, v. Perl. Et. St. p. 85, note; Fl. to Levy Talm. Dict. II, p. 459ᵇ) <i>a preserve consisting of sour milk, bread-crusts and salt</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 3:1\">Pes. III, 1</cite> <he>כ׳ הבבלי</he> the Babylonian <i>k.</i>, described <cite ref=\"Pesachim 42a:15\">ib. 42ᵃ</cite>, v. <cite ref=\"A00686\"><he>אוּמָא</he></cite> a. <cite ref=\"N00932\"><he>נַסְיוּבֵי</he></cite>."
+			]
+		}
+	]
+}

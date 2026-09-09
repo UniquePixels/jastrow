@@ -1,0 +1,39 @@
+{
+	"id": "O01100",
+	"slug": "סמכא",
+	"headword": {
+		"text": "סַמְכָא"
+	},
+	"page": {
+		"number": 1001,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"O01099\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>socket</i>, <i>base</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 38:27\">Targ. O. Ex. XXXVIII, 27</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 39:11\">Targ. Ez. XXXIX, 11</cite> <cite ref=\"O00890\"><he>סָ׳</he></cite> (h. text <he>חסמת</he>); a. e.—Pl. <he>סַמְכִין</he>, <he>סַמְכַיָּא</he>. Targ. O. Ex. l. c. Ib. XXVI, 19. ",
+				"<cite ref=\"Aramaic Targum to Job 38:6\">Targ. Job XXXVIII, 6</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " [<i>reclining</i>,] <i>banquet</i>. Targ. II Esth. I, 4.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>reliance</i>; <cite ref=\"O01232\"><he>בר ס׳</he></cite> <i>trustworthy</i> in reporting traditions. ",
+			"units": [
+				"<cite ref=\"Kiddushin 44a:15\">Kidd. 44ᵃ</cite> <he>אבין בר ס׳ הוא</he> can Abin be relied upon?; <cite ref=\"Yevamot 64b:17\">Yeb. 64ᵇ</cite> <he>אבין דס׳ וכ׳</he> (corr. acc.) A. is a trustworthy authority, Isaac … is not.—Pl. <he>בְּנֵי סַמְכֵי</he>. ",
+				"<cite ref=\"Kiddushin 31b:2\">Kidd. 31ᵇ</cite> <he>חמשה ב׳ ס׳ וכ׳</he> Abimi had five sons who were authorities in traditional law during the life-time of his own father."
+			],
+			"label": "3"
+		}
+	]
+}

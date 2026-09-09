@@ -1,0 +1,27 @@
+{
+	"id": "G00369",
+	"slug": "זימיונא",
+	"headword": {
+		"text": "זִימְיוֹנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִמְ׳"
+		}
+	],
+	"page": {
+		"number": 395,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>זְמֵי</he> II) <i>plan</i>.—Pl. <he>זִימְיוֹנִין</he>, <cite ref=\"G00369\"><he>זִמְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 21:27\">Targ. Job XXI, 27</cite>; a. e."
+			]
+		}
+	]
+}

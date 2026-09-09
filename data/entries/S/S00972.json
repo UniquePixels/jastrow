@@ -1,0 +1,36 @@
+{
+	"id": "S00972",
+	"slug": "קילור",
+	"headword": {
+		"text": "קִילּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִילּוּרִין",
+			"homograph": 1
+		},
+		{
+			"text": "קִילּוּרִית"
+		}
+	],
+	"page": {
+		"number": 1360,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (κολλύριον, collyrium) <i>a</i> (<i>red</i>) <i>eye-salve</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 1:23\">Tosef. Sabb. I, 23</cite> <he>נותנין ק׳ לעין וכ׳</he> you may put collyrium on the eye on the eve of the Sabbath &c.; <cite ref=\"Shabbat 18a:5\">Sabb. 18ᵃ</cite>; Y. ib. I, 3ᵈ bot. <he>קילורית</he>. Ib. VII, 10ᵇ bot. <he>ההן דגבל … עפר קילורין וכ׳</he> he who kneads … powder for collyrium (on the Sabbath) &c. ",
+				"<cite ref=\"Vayikra Rabbah 16\">Lev. R. s. 16</cite>, beg. (ref. to <cite ref=\"Isaiah 3:16\">Is. III, 16</cite>) they painted their eyes <he>בקולרית אדומה</he> Ar. (ed. <he>בקולריא</he>, some ed. <he>בקוֹלִּירָא</he>) with red collyrium; Pesik. Vattom., p. 132ᵃ <he>בקולרית</he>; <cite ref=\"Eichah Rabbah 4:18\">Lam. R. to IV, 15</cite> <he>בקִלּוּרִית</he>. ",
+				"<cite ref=\"Devarim Rabbah 8:4\">Deut. R. s. 8</cite> <he>ק׳ לעינים וכ׳</he> the Law is a salve for the eyes, for it is written (<cite ref=\"Psalms 19:9\">Ps. XIX, 9</cite>) &c.; Midr. Till. to Ps. l. c.; Yalk. ib. 675; <cite ref=\"Vayikra Rabbah 12:3\">Lev. R. s. 12</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 8:1:14\">Y. Sabb. VIII, 11ᵇ</cite> top <he>מים … את הקולורית</he> water as much as is required for rubbing collyrium; a. fr.—Pl. <cite ref=\"S00972\"><he>קִילּוּרִין</he></cite>. Bab. ",
+				"<cite ref=\"Shabbat 108b:12\">Sabb. 108ᵇ</cite> (in Chald. dict.) <he>לישדר … מהנך ק׳ וכ׳</he> (Ms. M. <he>קִילּוּרֵי</he>) please send me some of Mar Samuel’s eye-salves. ",
+				"<cite ref=\"Shabbat 108b:12\">Ib.</cite> <he>טובה … מכל ק׳ שבעולם</he> better than all eye-salves in the world is a drop of cold water (on the eye) in the morning and bathing hands and feet in the evening."
+			]
+		}
+	]
+}

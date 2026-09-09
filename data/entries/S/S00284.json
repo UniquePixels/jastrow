@@ -1,0 +1,23 @@
+{
+	"id": "S00284",
+	"slug": "קוזקזתא",
+	"headword": {
+		"text": "קוּזְקְזָתָא"
+	},
+	"page": {
+		"number": 1326,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>נקז</he>) <i>vessels for blood-letting</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Niddah 2:7:4\">Y. Nidd. II, 50ᵇ</cite> top <he>אייתי … באילין קוּזְקְזַתְהוֹן</he> brought (for comparison) … the various sorts of blood contained in their (the blood-letters’) vessels."
+			]
+		}
+	]
+}

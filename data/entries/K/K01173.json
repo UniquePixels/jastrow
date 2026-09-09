@@ -1,0 +1,22 @@
+{
+	"id": "K01173",
+	"slug": "כריסית",
+	"headword": {
+		"text": "כְּרֵיסִית"
+	},
+	"page": {
+		"number": 667,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"K01244\"><he>כֶּרֶס</he></cite>) <i>a leather bag</i>, (as a measure) <i>K’resith</i> containing one S’ah. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 20\">Kel. XX</cite>, I Talm. ed. (Mish. ed. a. ed. Dehr. <cite ref=\"K01184\"><he>כריתית</he></cite>, Ar. ed. Koh. <cite ref=\"K01291\"><he>כרתית</he></cite>, denom. of <cite ref=\"K01071\"><he>כַּר</he></cite>)."
+			]
+		}
+	]
+}

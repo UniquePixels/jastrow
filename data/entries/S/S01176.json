@@ -1,0 +1,24 @@
+{
+	"id": "S01176",
+	"slug": "קירטין",
+	"headword": {
+		"text": "קִירְטִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1369,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (certæ, sub. dies) <i>fixed times</i>. Pesik. Vayhi, p. 9ᵃ Ar. (ed. <he>קירסין</he>). ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 72\">Gen. R. s. 72</cite> Ar. (ed. <cite ref=\"S00621\"><he>קורניסין</he></cite>), v. <cite ref=\"S01192\"><he>קֵירָס</he></cite>."
+			]
+		}
+	]
+}

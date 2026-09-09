@@ -1,0 +1,38 @@
+{
+	"id": "A00764",
+	"slug": "אונקי",
+	"headword": {
+		"text": "אוּנְקַי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אוּנְקָא"
+		}
+	],
+	"page": {
+		"number": 29,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A00760\"><he>אוּנְקָא</he> I</cite>, a. <cite ref=\"A00775\"><he>אוּנְקְלַי</he> I</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>neck-shaped, hook, grapple</i>.—Pl. (<cite ref=\"A00771\"><he>אוּנְקָאוֹת</he></cite>) <he>אוּנְקִיּוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 12:2\">Kel. XII, 2</cite> (Var. in Mish. ed. <he>אוּנְקְלִיּוֹת</he>). ",
+				"<cite ref=\"Tosefta Keilim Metsia 2:4\">Tosef. Kel. B. Mets. II, 4</cite> (disting. from <cite ref=\"A00771\"><he>אוּנְקְלָאוֹת</he></cite>).—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " for <cite ref=\"A00765\"><he>אונקיא</he></cite>, v. next w.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

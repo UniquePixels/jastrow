@@ -1,0 +1,35 @@
+{
+	"id": "M01952",
+	"slug": "מסכנו",
+	"headword": {
+		"text": "מִסְכֵּנוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִסְכֵּנוּתָא"
+		},
+		{
+			"text": "מִסְכֵּי׳"
+		},
+		{
+			"text": "מִי׳"
+		}
+	],
+	"page": {
+		"number": 808,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"M01951\">preced.</cite>) <i>poverty, scarcity</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 8:9\">Targ. O. Deut. VIII, 9</cite> (ed. Vien. <he>עִצּוּרִין</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 5:11\">Targ. Job V, 11</cite> <he>אוכמי מי׳</he> those black from starvation (h. text <he>קדרים</he>); a. e.—",
+				"<cite ref=\"Vayikra Rabbah 35:6\">Lev. R. s. 35</cite>; Pesik. Shimʿu, p. 117ᵃ; <cite ref=\"Yalkut Shimoni on Torah 670:3\">Yalk. Lev. 670</cite>; <cite ref=\"Yalkut Shimoni on Nach 256\">Yalk. Is. 256</cite> <he>יאי מ׳ ליהודאי וכ׳</he> poverty is as becoming to Jews as a red line on a white horse; <cite ref=\"Vayikra Rabbah 13:3\">Lev. R. s. 13</cite> <he>מסכנותיה</he> (read <cite ref=\"M01946\"><he>מסכינותא</he></cite>)."
+			]
+		}
+	]
+}

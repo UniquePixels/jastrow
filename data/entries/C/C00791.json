@@ -1,0 +1,34 @@
+{
+	"id": "C00791",
+	"slug": "גיפוף-1",
+	"headword": {
+		"text": "גִּיפּוּף"
+	},
+	"page": {
+		"number": 241,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גפף</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>embracing, hugging</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 56b:13\">Snh. 56ᵇ</cite> <he>ג׳ ונישוק</he> embracing and kissing idols."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>closing up</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:2:3\">Y. Sabb. III, 5ᵈ</cite> bot. <he>אחר גִּיפּוּפוֹ</he> according as the stove is closed up."
+			],
+			"label": "2"
+		}
+	]
+}

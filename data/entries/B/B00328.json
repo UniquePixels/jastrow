@@ -1,0 +1,59 @@
+{
+	"id": "B00328",
+	"slug": "בור-1",
+	"headword": {
+		"text": "בּוּר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 148,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>בה</he>, v. <he>בהה</he>) <i>to be empty, waste, uncultivated</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 6:1:6\">Y. Dem. VI, 25ᵇ</cite> top <he>שלא תָבוּר א״י</he> in order that Palestine should not lie waste. ",
+				"<cite ref=\"Jerusalem Talmud Demai 6:1:6\">Ib.</cite> <he>יובירו ואל וכ׳</he>; (read as) <cite ref=\"Jerusalem Talmud Avodah Zarah 1:9:7\">Y. Ab. Zar. I, end, 40ᵇ</cite> <he>יָבוּרוּ</he> let them rather lie waste than rent them to a gentile.—Part. <cite ref=\"B01153\"><he>בָּר</he></cite>, <cite ref=\"B01191\"><he>בָּרָה</he></cite> a. <cite ref=\"B00354\"><he>בּוֹרָה</he></cite>. ",
+				"<cite ref=\"Bava Metzia 101a:15\">B. Mets. 101ᵃ</cite> <he>שתהא ברה בידו</he> in order that the field may rather lie waste in his own possession; cmp. Y. l. c. [Rashi fr. <he>ברר</he> to be <i>clear and firm</i> in his possession, by buying it back from the gentile. R. Ḥan., in Tosaf. a. l., <cite ref=\"B00354\"><he>בּוֹרָה</he></cite>, <i>lying</i> waste in the gentile’s possession; v. Rabb. D. S. a. l. note 90.] <cite ref=\"Bava Batra 168a:8\">B. Bath. 168ᵃ</cite> <he>לא צריכא</he> [<he>דאפי׳</he>] <he>בבורה</he> (v. Rabb. D. S. a. l. note) it means to say that even in the case of an unbroken field being rented, the tenant has to pay the scribe’s fees; Rashi: even if the field will have to lie fallow for some time to come yet. [Cmp. part. fem. <cite ref=\"H00334\"><he>חוֹלָה</he></cite> fr. <cite ref=\"H00319\"><he>חוּל</he></cite>.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הֵבִיר"],
+			"senses": [
+				{
+					"gloss": " a. <cite ref=\"E00186\"><he>הוֹבִיר</he></cite> (fr. <he>יבר</he>, or <cite ref=\"A00199\"><he>אבר</he></cite>) <i>to let lie waste; to neglect</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Arakhin 9:1\">Arakh. IX, 1</cite> (<cite ref=\"Arakhin 29b\">29ᵇ</cite>) <he>הֵבִירָהּ</he> (<he>הוֹ׳</he>) if he let it untilled. ",
+						"<cite ref=\"Shemot Rabbah 27:9\">Ex. R. s. 27</cite>, end <he>הוֹבִירָהּ</he>. ",
+						"<cite ref=\"Mishnah Bava Metzia 9:3\">B. Mets. IX, 3</cite> <he>הו׳</he> (Y. ed. <he>הב׳</he>). ",
+						"<cite ref=\"Bereishit Rabbah 82:11\">Gen. R. s. 82</cite> <he>מֵבִירָן</he> (<he>מוֹבִירָן</he>; <cite ref=\"Kohelet Rabbah 4:6:1\">Koh. R. to IV, 6</cite> <he>מְבַיְּירָן</he> Pi.)."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["בִּיֵּיר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"B00327\">same</cite>. Koh. R. l. c., v. supra. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 32\">Ex. R. s. 32</cite> (play on <cite ref=\"U01103\"><he>שית</he></cite> in <he>אשיתך</he> <cite ref=\"Jeremiah 3:19\">Jer. III, 19</cite>) <he>בִּיַּירְתֶּם עצמיכם</he> ye neglected yourselves (mentally)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (denom. of <cite ref=\"B00329\"><he>בּוֹר</he></cite> II or <cite ref=\"B00699\"><he>בִּיר</he></cite>) <i>to prepare a pitfall, to entrap</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 19:5\">Lev. R. s. 19</cite>; v. <cite ref=\"B00731\"><he>בִּירָנִית</he></cite> 2)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

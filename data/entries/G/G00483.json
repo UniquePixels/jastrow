@@ -1,0 +1,23 @@
+{
+	"id": "G00483",
+	"slug": "זלוקפא",
+	"headword": {
+		"text": "זְלוּקְפָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 401,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (transpos. of <he>זלפק׳</he>, Palel of <he>זפק</he>, v. <cite ref=\"G00621\"><he>זֶפֶק</he></cite>) <i>craw</i> of birds. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 1:16\">Targ. Y. Lev. I, 16</cite> Ar. (ed. <cite ref=\"G00682\"><he>זָרוֹקְפָא</he></cite>; Ar. s. v. <he>לקט</he>: <he>זַלְפְּקָקָא</he>)."
+			]
+		}
+	]
+}

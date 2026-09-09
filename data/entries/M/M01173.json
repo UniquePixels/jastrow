@@ -1,0 +1,29 @@
+{
+	"id": "M01173",
+	"slug": "מילוטומיא",
+	"headword": {
+		"text": "מִילוֹטוֹמְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְלוֹט׳"
+		}
+	],
+	"page": {
+		"number": 774,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (μελιτώμια, a denom. of μελίτωμα, not otherwise recorded) <i>sweet-cakes, confection</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 48\">Gen. R. s. 48</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:9:12\">Y. Sabb. VI, 8ᶜ</cite> bot. <he>מזבן מן אילין מלטומה</he> (corr. acc., a. strike out <he>מן</he>) dealing in confection. Yalk. Num. 777 <he>מיני מלטמיה</he>; <cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite> <cite ref=\"M01536\"><he>מלטוכים</he></cite> (corr. acc.; Pesik. Eth. Korb., p. 58ᵃ <he>ציקי קדרה</he>)."
+			]
+		}
+	]
+}

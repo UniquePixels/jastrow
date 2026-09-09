@@ -1,0 +1,27 @@
+{
+	"id": "G00368",
+	"slug": "זימיון",
+	"headword": {
+		"text": "זִימְיוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִמְיוֹן"
+		}
+	],
+	"page": {
+		"number": 395,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00506\"><he>זמה</he></cite> = ch. <cite ref=\"G00514\"><he>זְמֵי</he> I</cite>; adapt. of ζημία, v. <cite ref=\"G00367\">preced.</cite>) <i>penalty, tax</i>.—Pl. <he>זִימְיוֹנוֹת</he>, <cite ref=\"G00369\"><he>זִמְ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 1\">Gen. R. s. 1</cite>; (<cite ref=\"Jerusalem Talmud Peah 1:1:18\">Y. Peah, I, 15ᵇ</cite> bot. <he>זימיות</he>). Y. Gitt. VI, end, 47ᶜ (<cite ref=\"Jerusalem Talmud Sheviit 4:3:3\">Y. Shebi. IV, 35ᵇ</cite> <he>זימיות</he>)."
+			]
+		}
+	]
+}

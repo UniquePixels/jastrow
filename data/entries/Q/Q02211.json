@@ -1,0 +1,29 @@
+{
+	"id": "Q02211",
+	"slug": "פתשגן",
+	"headword": {
+		"text": "פַּתְשֶׁגֶן"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְשֶׁגֶן"
+		}
+	],
+	"page": {
+		"number": 1256,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (late b. h.; Persian) <i>repetition, copy, abstract</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 17:18\">Targ. O. Deut. XVII, 18</cite> <he>פתש׳</he> (ed. Berl. <cite ref=\"Q02031\"><he>פַּרְשַׁגַן</he></cite>); <cite ref=\"Targum Jonathan on Joshua 8:32\">Targ. Josh. VIII, 32</cite> (ed. Lag. <cite ref=\"Q00837\"><he>פר׳</he></cite>; h. text <cite ref=\"M02939\"><he>משנה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 60:1\">Targ. Ps. LX, 1</cite> <cite ref=\"Q02031\"><he>פַּרְשְׁגָן</he></cite> (h. text <cite ref=\"M01454\"><he>מכתם</he></cite>). ",
+				"<cite ref=\"Targum of II Chronicles 24:27\">Targ. II Chr. XXIV, 27</cite> (h. text <cite ref=\"M00337\"><he>מדרש</he></cite>). [<cite ref=\"Aramaic Targum to Esther 3:14\">Targ. Esth. III, 14</cite>, a. e. translates our w.: <he>דיטגמא</he> <i>ordinance</i>, v. Oppert Rev. des Et. Juives XXVIII, p. 40; v. <cite ref=\"A02174\"><he>אַנְטִיגְרָפִין</he></cite>.]"
+			]
+		}
+	]
+}

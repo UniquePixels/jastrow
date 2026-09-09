@@ -1,0 +1,35 @@
+{
+	"id": "D00754",
+	"slug": "דך-1",
+	"headword": {
+		"text": "דֵּךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "דֵּיכִּי"
+		},
+		{
+			"text": "דָּךְ"
+		}
+	],
+	"page": {
+		"number": 306,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"D00003\"><he>דא</he></cite> with format. <cite ref=\"K00000\"><he>ך</he></cite>; cmp. <cite ref=\"D00243\"><he>דּוּךְ</he> II</cite>) <i>this, that</i>. ",
+			"units": [
+				"<cite ref=\"Ezra 5:16\">Ezra V, 16</cite>; a. fr. ",
+				"<cite ref=\"Ezra 4:13\">Ib. IV, 13</cite>; a. fr.—",
+				"<cite ref=\"Onkelos Genesis 37:19\">Targ. Gen. XXXVII, 19</cite> <cite ref=\"D00589\"><he>דּיכִּי</he></cite> ed. Berl. (ed. <cite ref=\"D00589\"><he>דֵּיכִי</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Judges 6:20\">Targ. Jud. VI, 20</cite>; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 5\">Gen. R. s. 5</cite>; <cite ref=\"Yalkut Shimoni on Nach 848:1\">Yalk. Ps. 848</cite>; (play on <he>דָּכְיָם</he>, <cite ref=\"Psalms 93:3\">Ps. XCIII, 3</cite>) <he>להָדֵךְ ימא</he> unto this sea there; Midr. Till. to Ps. l. c. <he>להדך פלן</he>, expl. <he>לדוכתא פלן</he>. ",
+				"<cite ref=\"Bava Metzia 86a:12\">B. Mets. 86ᵃ</cite> <he>מרי דיכי</he> the lord of this (breeze) here."
+			]
+		}
+	]
+}

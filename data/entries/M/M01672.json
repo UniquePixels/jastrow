@@ -1,0 +1,23 @@
+{
+	"id": "M01672",
+	"slug": "ממלא-2",
+	"headword": {
+		"text": "מַמְלָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 795,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Mamla</i>, a place whose inhabitants were short-lived. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 59:1\">Gen. R. s. 59</cite>, beg.; Midr. Sam. ch. VIII; a. e.; v. <cite ref=\"M01649\"><he>מַמּוּלָּאֵי</he></cite>."
+			]
+		}
+	]
+}

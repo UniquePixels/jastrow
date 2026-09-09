@@ -1,0 +1,25 @@
+{
+	"id": "U01156",
+	"slug": "שכירות",
+	"headword": {
+		"text": "שְׂכִירוּת"
+	},
+	"page": {
+		"number": 1573,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01155\">preced.</cite>) <i>hire, rent</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 65a:9\">B. Mets. 65ᵃ</cite>, a. fr. <he>ש׳ אינה משתלמת וכ׳</he> rent (for a house or a field) is not due before the end of the term. ",
+				"<cite ref=\"Bava Metzia 98a:8\">Ib. 98ᵃ</cite> <he>פלגיה דיומא בשאילה … בש׳</he> (I let thee have the two cows) half a day as a loan, and half a day for hire. ",
+				"<cite ref=\"Bava Metzia 98a:5\">Ib.</cite> <he>ודקיימא דש׳ היא</he> and the cow that survived is the hired one. ",
+				"<cite ref=\"Bava Metzia 98b:12\">Ib.ᵇ</cite>; a. fr."
+			]
+		}
+	]
+}

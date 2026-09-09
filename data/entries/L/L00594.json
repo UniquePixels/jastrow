@@ -1,0 +1,29 @@
+{
+	"id": "L00594",
+	"slug": "לעב-3",
+	"headword": {
+		"text": "לְעֵב"
+	},
+	"altHeadwords": [
+		{
+			"text": "לְעֵיב"
+		}
+	],
+	"page": {
+		"number": 713,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"L00593\">preced.</cite>) <i>sport, mockery</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 20:7\">Targ. Jer. XX, 7</cite> (some ed. <he>לָ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 36:4\">Targ. Ez. XXXVI, 4</cite> (h. text <he>לעג</he>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 22:4\">Ib. XXII, 4</cite> (Levita <he>לעג</he>), v. <cite ref=\"L00597\"><he>לַעַג</he></cite> ch."
+			]
+		}
+	]
+}

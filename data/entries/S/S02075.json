@@ -1,0 +1,23 @@
+{
+	"id": "S02075",
+	"slug": "קריץ",
+	"headword": {
+		"text": "קְרִיץ"
+	},
+	"page": {
+		"number": 1421,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S02142\"><he>קרץ</he></cite>; cmp. <cite ref=\"S02129\"><he>קְרַע</he></cite>) [<i>breaking through</i>,] <i>dawn, early morning</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 38:12\">Targ. Job XXXVIII, 12</cite> (some ed. <cite ref=\"S02077\"><he>קריצתא</he></cite>, <cite ref=\"S02156\"><he>קרצתא</he></cite>, corr. acc.). ",
+				"<cite ref=\"Aramaic Targum to Psalms 57:9\">Targ. Ps. LVII, 9</cite>; a. fr.—V. <cite ref=\"S02077\"><he>קְרִיצְתָּא</he></cite>."
+			]
+		}
+	]
+}

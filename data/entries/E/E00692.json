@@ -1,0 +1,23 @@
+{
+	"id": "E00692",
+	"slug": "הנץ-2",
+	"headword": {
+		"text": "הָנֵץ"
+	},
+	"page": {
+		"number": 358,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (Inf. Hif. of <cite ref=\"N01139\"><he>נָצַץ</he></cite>) <i>sparkling</i>, <he>ה׳ החמה</he> <i>the first sparklings of the rising sun</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Taanit 3:9\">Taan. III, 9</cite>. ",
+				"<cite ref=\"Mishnah Berakhot 1:2\">Ber. I, 2</cite>; a. fr."
+			]
+		}
+	]
+}

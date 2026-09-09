@@ -1,0 +1,31 @@
+{
+	"id": "H00510",
+	"slug": "חזויא",
+	"headword": {
+		"text": "חֶזְוָיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֶזְוַ׳"
+		},
+		{
+			"text": "חָזְוַ׳"
+		}
+	],
+	"page": {
+		"number": 442,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00525\"><he>חזי</he></cite>) <i>seer</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 9:9\">Targ. I Sam. IX, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 24:11\">Targ. II Sam. XXIV, 11</cite>; a. e."
+			]
+		}
+	]
+}

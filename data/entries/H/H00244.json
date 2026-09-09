@@ -1,0 +1,28 @@
+{
+	"id": "H00244",
+	"slug": "חובטא",
+	"headword": {
+		"text": "חוּבְטָא",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲבוּטָא"
+		}
+	],
+	"page": {
+		"number": 429,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00042\"><he>חבט</he></cite>) [<i>hash</i>,] <i>giblets</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>נסב ח׳ ומעיא</he> (<cite ref=\"T00152\"><he>רבתי</he></cite>) Ar. (ed. Koh. <cite ref=\"H00028\"><he>חבו׳</he></cite>, Var. <he>קרביא</he>; ed. <he>בני מעיא</he>) he took the giblets with the entrails."
+			]
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"id": "P01336",
+	"slug": "ערטיל",
+	"headword": {
+		"text": "עַרְטִיל"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַרְטִילָּא"
+		},
+		{
+			"text": "עַרְטִילָּאָה"
+		},
+		{
+			"text": "עַרְטִילַּאי"
+		},
+		{
+			"text": "עַרְטִלּ׳"
+		},
+		{
+			"text": "עַרְטוּ׳"
+		}
+	],
+	"page": {
+		"number": 1115,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01339\"><he>עַרְטֵל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>stripped, naked, poorly dressed</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 3:10\">Targ. Gen. III, 10</cite> (Y. ed. Vien. <cite ref=\"P01336\"><he>עַרְטוּ׳</he></cite>, not <he>לָאֵי …</he>); 11. ",
+				"<cite ref=\"Aramaic Targum to Job 1:21\">Targ. Job I, 21</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 46a:3\">B. Mets. 46ᵃ</cite>, v. <cite ref=\"K01027\"><he>כְּפַל</he></cite>. ",
+				"<cite ref=\"Sotah 8b:5\">Sot. 8ᵇ</cite> (prov.) <he>שליח ע׳ וסיים מסאני</he> stripped to nakedness, but shoes he has on (there is more disgrace in a disharmonious toilet than in a uniformly poor one); <cite ref=\"Ketubot 65b:1\">Keth. 65ᵇ</cite> top (ref. to the disproportion between the obligatory outfit of garments and that of shoes, <cite ref=\"Mishnah Ketubot 5:8\">ib. V, 8</cite>) <he>האי תנא שליח ע׳ וכ׳</he> would that teacher have applied to her the proverb, stripped to nakedness &c.? Y. ib. VI, 30ᵈ <he>אורחא … הני לי מיקום ערטיליי וכ׳</he> it is usual for a man to say (to his father-in-law), I will rather go naked (deprive myself &c., v. <cite ref=\"P01326\"><he>עָרוֹם</he></cite>), if only my wife be covered (but by saying this he does not mean to release him from the obligation of giving his daughter an appropriate outfit). ",
+				"<cite ref=\"Kohelet Rabbah 5:12:1\">Koh. R. to V, 12</cite>, v. <cite ref=\"K01016\"><he>כָּפִין</he></cite>; a. fr.—Pl. <he>עַרְטִילָּאִין</he>, <cite ref=\"P01336\"><he>עַרְטִילָּאֵי</he></cite>, <cite ref=\"P01336\"><he>עַרְטִלּ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 22:6\">Targ. Job XXII, 6</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 24:7\">Ib. XXIV, 7</cite> <he>לָאֵי</he> … Ms. (ed. <he>לַּי … לַּיי …</he>, adv.). ",
+				"<cite ref=\"Aramaic Targum to Job 24:10\">Ib. 10</cite> <he>לאי …</he> ed. Lag. (ed. Wil. <he>לַי …</he>); a. fr.—<i>Fem.</i> <cite ref=\"P01336\"><he>עַרְטִילָּא</he></cite>, <cite ref=\"P01336\"><he>עַרְטִילְתָּא</he></cite>, <cite ref=\"P01336\"><he>עַרְטוּ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 1:11\">Targ. Esth. I, 11</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Peah 8:7:8\">Y. Peah VIII, 21ᵇ</cite> top (ref. to <cite ref=\"Ruth 3:3\">Ruth III, 3</cite>) <he>ערטילא הוות</he> was she (Ruth) undressed?—Pl. <cite ref=\"P01336\"><he>עַרְטִילָּאָן</he></cite>. Targ. Esth. l. c.—Trnsf. (cmp. γυμνήτης) <i>light-armed</i>.—<i>Pl.</i> <cite ref=\"P01336\"><he>עַרְטִילֵּי</he></cite>. Targ. II Esth. VIII, 10 <he>ע׳ בני רמכיא</he> (Targ. I Esth. ib. <he>ערטולייני רטכין</he>, corr. acc.; h. text <he>האחשתרנים</he>)."
+			],
+			"label": "1"
+		}
+	]
+}

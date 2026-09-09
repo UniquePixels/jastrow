@@ -1,0 +1,23 @@
+{
+	"id": "M02820",
+	"slug": "משוורא",
+	"headword": {
+		"text": "מְשַׁוְּורָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 849,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00355\"><he>שְׁוַור</he></cite>; v. <cite ref=\"U00356\"><he>שַׁוָּור</he></cite>) [<i>jumper</i>,] <i>rover, freebooter</i>.—Pl. <cite ref=\"M02820\"><he>מְשַׁוְּורֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 70a\">Ab. Zar. 70ᵃ</cite> bot. <he>רוב מ׳ ישראל</he> Ar. (Ms. M. <cite ref=\"U00913\"><he>שיירי</he></cite>, read <he>שוורי</he>; ed. <he>גנבי</he>) the majority of rovers (around Pumbeditha) are Jews."
+			]
+		}
+	]
+}

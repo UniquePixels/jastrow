@@ -1,0 +1,72 @@
+{
+	"id": "L00674",
+	"slug": "לקח-1",
+	"headword": {
+		"text": "לָקַח"
+	},
+	"page": {
+		"number": 717,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to take, receive</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 119a:19\">B. Kam. 119ᵃ</cite> <he>גבאי צדקה לוֹקְחִין וכ׳</he> collectors of charity may receive from them small contributions. ",
+				"<cite ref=\"Shemot Rabbah 3:13\">Ex. R. s. 3</cite> <he>ל׳ את שלו</he> he received his due (punishment). Tanḥ. Korah 3 <he>ל׳ טליתו</he> he took up his cloak; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to carry away; to persuade</i>. Ib. 1 (ref. to <cite ref=\"Numbers 16:1\">Num. XVI, 1</cite>) <he>אין ויקח אלא משיכת וכ׳</he> <i>vayikkaḥ</i> means attraction by soft words; ib. 2 <he>אין ויקח אלא לשון פליגה שלבו לְקָחוֹ</he> <i>vayikkaḥ</i> has the meaning of separation, for his heart (pride) carried him away; <cite ref=\"Bamidbar Rabbah 18:16\">Num. R. s. 18</cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to buy, acquire</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Demai 4:5\">Dem. IV, 5</cite> <he>קַח לי וכ׳</he> buy (provision) for me of one who is reliable &c. ",
+				"<cite ref=\"Mishnah Demai 4:5\">Ib.</cite> <he>הלך לִיקַּח … ולָקַחְתִּי לך וכ׳</he> if he went to buy of him (of the designated person), and … not finding him I bought of &c. Ib. V, 1 <he>הלוֹקֵחַ מן וכ׳</he> he who buys of a baker. ",
+				"<cite ref=\"Bava Metzia 16b:2\">B. Mets. 16ᵇ</cite> <he>לכשאֶקָּחֶנָּה</he> when I shall have bought it; a. v. fr.—לוֹקֵחַ <i>buyer</i>. ",
+				"<cite ref=\"Bava Metzia 15b:19\">Ib. 15ᵇ</cite> bot. <he>דמית ל׳</he> when the buyer is dead. ",
+				"<cite ref=\"Berakhot 5a:8\">Ber. 5ᵃ</cite> <he>ול׳ שמח</he> and the purchaser is glad; a. v. fr.—Part. pass. <cite ref=\"L00665\"><he>לָקוּחַ</he></cite>, f. <he>לְקוּחָה</he>; pl. <he>לְקוּחִים</he>, <he>לְקוּחִון</he>; <cite ref=\"L00664\"><he>לְקוּחוֹת</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 2:4:8\">Y. Pes. II, 29ᵇ</cite> <he>הל׳ בכסף מעשר</he> that which has been bought with tithe-money. ",
+				"<cite ref=\"Bava Metzia 110a:6\">B. Mets. 110ᵃ</cite> <he>ל׳ היא בידי</he> I have it as a purchased property. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 9:1:6\">Y. Snh. IX, beg. 26ᵈ</cite> [read:] <he>עד שתהא הראשונה ל׳ לו</he> until the first wife has been legally acquired (betrothed) by him; (<cite ref=\"Jerusalem Talmud Yevamot 11:1:5\">Y. Yeb. XI, 11ᵈ</cite> top <cite ref=\"G00630\"><he>זקוקה</he></cite>), v. <cite ref=\"L00685\"><he>לְקִיחָה</he></cite>; a. fr.—V. <cite ref=\"L00664\"><he>לְקוּחוֹת</he></cite>."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִלְקַח", "נִיקַּח"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"L00674\"><he>נִקַּח</he></cite> <i>to be taken, bought, acquired</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Maaser Sheni 1:3\">Maas. Sh. I, 3</cite> <he>אינו נל׳ בכסף מעשר</he> must not be bought with tithe-money; <cite ref=\"Mishnah Chullin 1:7\">Ḥull. I, 7</cite> <he>אינו ניקח</he>. ",
+						"<cite ref=\"Menachot 42b:15\">Men. 42ᵇ</cite> <he>נִקְּחֵית</he>; <he>נִקְּחִין</he>; a. fr.—",
+						"<cite ref=\"Kiddushin 2b\">Kidd. 2ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 22:13\">Deut. XXII, 13</cite>) it is not written <he>כי תִלָּקֵחַ אשה לאיש</he> if a woman is married (marries herself) to a man (Var. <he>תִקַּח</he>)."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְלַקֵּחַ"],
+			"senses": [
+				{
+					"gloss": "<i>to be enclosed, squeezed in</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 12:1\">Num. R. s. 12</cite>; <cite ref=\"Shir HaShirim Rabbah 3:11\">Cant. R. to III, 11</cite>; Pesik. Vayhi, p. 4ᵃ (expl. <he>מִתְלַקַּחַת</he>, <cite ref=\"Exodus 9:24\">Ex. IX, 24</cite>), v. <cite ref=\"P01516\"><he>עֲשָׁשִׁיתָא</he></cite>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

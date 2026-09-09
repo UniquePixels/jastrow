@@ -1,0 +1,38 @@
+{
+	"id": "H00525",
+	"slug": "חזי-1",
+	"headword": {
+		"text": "חזי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חָזָה"
+		}
+	],
+	"page": {
+		"number": 442,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to divide</i>,] <i>to discern, see</i> (cmp. <cite ref=\"B00635\"><he>בּוּן</he></cite>). ",
+			"units": [
+				"<cite ref=\"Bava Batra 91a:8\">B. Bath. 91ᵃ</cite> <he>חֲזִיתֶם נעמי וכ׳</he> have you seen what has become of Naomi &c.?"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חִזָּה"],
+			"senses": [
+				{
+					"gloss": "<i>to distribute kindled chips between logs of wood</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 1:11\">Sabb. I, 11</cite> (<cite ref=\"Shabbat 19b\">19ᵇ</cite>) <he>ומְחַזִּין</he> Mss. (ed. Ven. <he>מחיזין</he>; Y. ed. Krot. <he>ומחזיזן</he>, read <he>ומַחֲזִיזִין</he>, <i>Hif.</i> of <cite ref=\"H00520\"><he>חזז</he></cite>, or <he>מְחַזְּזִין</he>), v. <cite ref=\"A01021\"><he>אָחַז</he></cite>.—V. <cite ref=\"H00547\"><he>חָזִית</he></cite>."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

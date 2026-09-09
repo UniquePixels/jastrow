@@ -1,0 +1,28 @@
+{
+	"id": "M00449",
+	"slug": "מוזנוון",
+	"headword": {
+		"text": "מוֹזְנָוָון"
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹזְנָוָן"
+		}
+	],
+	"page": {
+		"number": 740,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. = h. <cite ref=\"M00019\"><he>מֹאזְנַיִם</he></cite>, <i>scales</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 19:36\">Targ. O. Lev. XIX, 36</cite> (some ed. <cite ref=\"M00018\"><he>מֹאזְנַוָּון</he></cite>). V. <cite ref=\"M00416\"><he>מוֹדְנָא</he></cite>."
+			]
+		}
+	]
+}

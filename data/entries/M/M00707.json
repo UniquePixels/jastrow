@@ -1,0 +1,47 @@
+{
+	"id": "M00707",
+	"slug": "מותר-3",
+	"headword": {
+		"text": "מוֹתָר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹתָרָא"
+		}
+	],
+	"page": {
+		"number": 752,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"M00706\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 16:23\">Targ. O. Ex. XVI, 23</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Exodus 12:34\">Targ. Y. II, Ex. XII, 34</cite> (h. text <cite ref=\"M02804\"><he>משארת־</he></cite>); a. e.—",
+				"<cite ref=\"Vayikra Rabbah 34:16\">Lev. R. s. 34</cite>, end <he>כד … מוֹתַר מלין וכ׳</he> when she talked a surplus of words (more than necessary) on the Sabbath.—Pl. <he>מוֹתָרַיָּא</he>, <he>מוֹתָרַיָּיה</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 11\">Num. R. s. 11</cite> <he>אילין מ׳ וכ׳</he> how many days (above 3000) are there?"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>superabundance</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 1:9\">Targ. Is. I, 9</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>preference, advance</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Ecclesiastes 2:13\">Targ. Koh. II, 13</cite>; a. e."
+			],
+			"label": "3"
+		}
+	]
+}

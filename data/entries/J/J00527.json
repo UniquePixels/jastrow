@@ -1,0 +1,64 @@
+{
+	"id": "J00527",
+	"slug": "יציאה",
+	"headword": {
+		"text": "יְצִיאָה"
+	},
+	"page": {
+		"number": 588,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00515\"><he>יָצָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>going out, departure; separation</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 1:3\">Midd. I, 3</cite> <he>משמשין כניס׳ וי׳</he> used for entrance and exit. ",
+				"<cite ref=\"Mishnah Berakhot 9:4\">Ber. IX, 4</cite>. ",
+				"<cite ref=\"Mishnah Berakhot 1:5\">Ib. I, 5</cite> <he>מזכירין יְצִיאַת מצרים</he> we must recite (the section alluding to) the exodus from Egypt (<cite ref=\"Numbers 15:37-41\">Num. XV, 37—41</cite>). Ib. 12ᵇ; a. fr.—",
+				"<cite ref=\"Kiddushin 5a:3\">Kidd. 5ᵃ</cite>, v. <cite ref=\"E00232\"><he>הֲוָיָה</he></cite>.—<he>יציאת נשמה</he> the separation of the soul from the body, <i>death</i>. ",
+				"<cite ref=\"Moed Katan 25a:5\">M. Kat. 25ᵃ</cite>. ",
+				"<cite ref=\"Moed Katan 28b:29\">Ib. 28ᵇ</cite> bot.; a. fr.—",
+				"<cite ref=\"Bava Metzia 107a:15\">B. Mets. 107ᵃ</cite> <he>יְצִיאָתְךָ מן העולם</he> thy departure from this world.—",
+				"<cite ref=\"Pesikta Rabbati 26:1\">Pesik. R. s. 26</cite> <he>וְצִיאָתוֹ … לעולם</he> when Jeremiah was born; a. v. fr.—Pl. <he>יְצִיאוֹת</he>. ",
+				"<cite ref=\"Shemot Rabbah 1:27\">Ex. R. s. 1</cite> <he>שתי י׳ יצא וכ׳</he> twice did Moses go out &c.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>expense, ready money for expense</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 11:3\">Gen. R. s. 11</cite> <he>ברכו בי׳</he> He blessed the Sabbath day by providing for its additional expense; <cite ref=\"Yalkut Shimoni on Torah 16:3\">Yalk. Gen. 16</cite> <he>בִּיצִיאָתוֹ</he>. Gen. R. l. c. <he>מפני הי׳</he> (he blessed the Sabbath) on account of its expensiveness (Yalk. l. c. <he>מפני הוצאה</he>). ",
+				"<cite ref=\"Bereishit Rabbah 39:11\">Gen. R. s. 39</cite> <he>ממעטת את הי׳</he> (travelling) reduces a person’s means; <cite ref=\"Bamidbar Rabbah 11:2\">Num. R. s. 11</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 11:2\">Ib.</cite> <he>שלא תמעט … את הי׳</he> that travelling may not reduce thy means; <cite ref=\"Midrash Tehillim 23:1\">Midr. Till. to Ps. XXIII</cite>. ",
+				"<cite ref=\"Mishnah Bava Kamma 9:4\">B. Kam. IX, 4</cite> (<cite ref=\"Bava Kamma 100b\">100ᵇ</cite>); <cite ref=\"Bava Kamma 102b\">B. Kam. 102ᵇ</cite> <he>היצאה</he> (corr. acc.), v. <cite ref=\"E00266\"><he>הוֹצָאָה</he></cite>; a. fr.—Pl. as ab. ",
+				"<cite ref=\"Shir HaShirim Rabbah 7:3:2\">Cant. R. to VII, 3</cite> <he>משמוציא יְצִיאוֹתָיו</he> after having made all his expenses (for the wedding); <cite ref=\"Midrash Tehillim 2:12\">Midr. Till. to Ps. II. Lam. R. to IV, 2</cite><cite ref=\"Eichah Rabbah 4:3\">Lam. R. to IV, 2</cite> <he>עושה שלחנות יותר מן הי׳</he> made the outfit of the tables for the wedding feast more expensive than the costs (of the domestic arrangements). ",
+				"<cite ref=\"Shemot Rabbah 9:1\">Ex. R. s. 9</cite>; <cite ref=\"Esther Rabbah 2:2\">Esth. R. to I, 4</cite>, a. e. <he>מיני י׳ הראה להם</he> he showed them various expensive dishes; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>rise of the sun</i>. Y. Ber. I, 2ᶜ top; a. e.",
+			"units": [],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>the carrying</i> (on the Sabbath) <i>of an object from private to public ground</i> &c.—<i>Pl.</i> as ab. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 1:1\">Sabb. I, 1</cite>; a. fr., v. <cite ref=\"E00266\"><he>הוֹצָאָה</he></cite>."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>discharge of the bowels</i>. ",
+			"units": ["<cite ref=\"Berakhot 62b:1\">Ber. 62ᵇ</cite>; a. e."],
+			"label": "5"
+		}
+	]
+}

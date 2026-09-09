@@ -1,0 +1,23 @@
+{
+	"id": "A01582",
+	"slug": "איצרא",
+	"headword": {
+		"text": "אִיצְרָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 59,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A02889\"><he>אֲצַר</he></cite> q. v.) <i>what is pressed out, juice</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 69b:16\">Gitt. 69ᵇ</cite> (Ar. <he>עצרא</he>)."
+			]
+		}
+	]
+}

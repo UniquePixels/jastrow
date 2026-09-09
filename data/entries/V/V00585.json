@@ -1,0 +1,27 @@
+{
+	"id": "V00585",
+	"slug": "תלחא",
+	"headword": {
+		"text": "תִּלְחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תִּי׳"
+		}
+	],
+	"page": {
+		"number": 1670,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00584\">preced.</cite>) <i>piece.—</i>Pl. <he>תִּלְחֵי</he>, <cite ref=\"V00014\"><he>תִּי׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Chullin 53b:14\">Ḥull. 53ᵇ</cite> <he>ונפלה ת׳ ת׳</he> (Ar. <he>תִּלְהֵי</he>), v. <cite ref=\"V00584\">preced.</cite>"
+			]
+		}
+	]
+}

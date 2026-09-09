@@ -1,0 +1,25 @@
+{
+	"id": "O00161",
+	"slug": "סגע",
+	"headword": {
+		"text": "סְגַע"
+	},
+	"altHeadwords": [
+		{
+			"text": "סְגִיעַ"
+		}
+	],
+	"page": {
+		"number": 955,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " = <cite ref=\"O00120\"><he>סְגֵי</he></cite> I (with which our w. interchanges in mss. a. eds.). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 139:18\">Targ. Ps. CXXXIX, 18</cite>. ",
+				"<cite ref=\"Targum of I Chronicles 23:17\">Targ. I Chr. XXIII, 17</cite>; a. fr."
+			]
+		}
+	]
+}

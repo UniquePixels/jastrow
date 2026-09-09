@@ -1,0 +1,28 @@
+{
+	"id": "O01043",
+	"slug": "סלת-3",
+	"headword": {
+		"text": "סַלָּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִילָּת"
+		}
+	],
+	"page": {
+		"number": 998,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01041\"><he>סָלַת</he></cite>) <i>flour-sifter, fancy-baker</i> (siliquiarius).—Pl. <he>סַלָּתִים</he>, <he>סַלָּתִין</he>, <cite ref=\"O01010\"><he>סִילָּ׳</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 15:3\">Kel. XV, 3</cite> <he>ים נפה של סיל׳</he> (Talm. ed. <cite ref=\"O00681\"><he>סילתית</he></cite>) the bakers’ frame for the reception of sifted flour, opp. <he>של בעל הבית</he>. Ib. 4 <he>נפה של סל׳</he> (Talm. ed. <cite ref=\"O01047\"><he>סלתית</he></cite>, corr. acc.). ",
+				"<cite ref=\"Tosefta Keilim Metsia 5:5\">Tosef. Kel. B. Mets. V, 5</cite> (ed. Zuck. <cite ref=\"O00329\"><he>סולתין</he></cite>, <he>סלתון</he>, corr. acc.)."
+			]
+		}
+	]
+}

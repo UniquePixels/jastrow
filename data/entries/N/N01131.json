@@ -1,0 +1,85 @@
+{
+	"id": "N01131",
+	"slug": "נצל-1",
+	"headword": {
+		"text": "נָצַל"
+	},
+	"page": {
+		"number": 929,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>אצל</he>)<i>to remove, set aside</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִצֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to empty, ransack</i>. ",
+					"units": [
+						"<cite ref=\"Esther Rabbah 6:1\">Esth. R. to III, 9</cite> <he>עד שנִצְּלוּ את מצרים</he> so that they ransacked Egypt."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִצַּל", "נִיצַּל"],
+			"senses": [
+				{
+					"gloss": ", <he>נִיצּוֹל</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be fit for throwing away</i> (as <cite ref=\"N01133\"><he>נֵצֶל</he></cite>), <i>to be decayed</i>. Y. Naz. VII, 56ᵇ bot. <he>בשר המת שנִצַּל</he> Ar. (Ar. ed. Rome <he>שנצול</he>; ed. <he>שנתוק</he>), v. <cite ref=\"N01133\"><he>נֵצֶל</he></cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " (b. h.) <i>to be rescued, saved</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 1:13\">Midr. Till. to Ps. I</cite> <he>לא נִצַּלְתִּי מידו</he> I did not escape his power; <cite ref=\"Yalkut Shimoni on Torah 750:17\">Yalk. Num. 750</cite> <he>נוצלתי</he> (read: <cite ref=\"N01105\"><he>נִיצַּ׳</he></cite>; ed. Liv. <he>נִצּוֹלְתִּי</he>). ",
+						"<cite ref=\"Yoma 86b:8\">Yoma 86ᵇ</cite> <he>כגון שבאת … ונ׳ הימנה</he> when an opportunity to sin offered itself to him once and again, and he escaped it; <cite ref=\"Kiddushin 39b\">Kidd. 39ᵇ</cite>. ",
+						"<cite ref=\"Esther Rabbah 6:5\">Esth. R. to II, 7</cite> <he>עתידין לִינָּצֵל וכ׳</he> are destined to be saved through me; <he>עתידין להִנָּצֵל על ידיה</he> be saved through her. ",
+						"<cite ref=\"Bava Batra 164b:1-16\">B. Bath. 164ᵇ</cite> <he>שלש … אין אדם ניצול מהן וכ׳</he> there are three sins which man cannot escape &c.; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִצִּיל"],
+			"senses": [
+				{
+					"gloss": "<i>to save, rescue</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 18:19\">Num. R. s. 18</cite> <he>אשתו הִצִּילָתוֹ</he> his wife saved him. ",
+						"<cite ref=\"Bamidbar Rabbah 18:19\">Ib.</cite> <he>משה … הַצִּילֵנוּ</he> O Moses …, save us! <cite ref=\"Mishnah Shabbat 16:1\">Sabb. XVI, 1</cite> <he>מַצִּילִין אותן וכ׳</he> we must save them from fire (on the Sabbath). ",
+						"<cite ref=\"Mishnah Sanhedrin 8:7\">Snh. VIII, 7</cite> <he>שמצילין אותן בנפשן</he> whom we must save (prevent from committing a crime) even at the risk of their lives. ",
+						"<cite ref=\"Sanhedrin 73a:3\">Ib. 73ᵃ</cite> <he>ניתן להַצִּילָהּ בנפשו</he> it is a duty to save her (from rape) at the expense of the assailant’s life; a. fr.—Trnsf. (in ritual and levitical law) <i>to protect</i>. ",
+						"<cite ref=\"Chullin 55b:3-19\">Ḥull. 55ᵇ</cite> <he>כל … מַצִּיל בגלודה</he> every part of the skin (which has remained unaffected) protects a flayed animal from being declared <i>ṭ’refah</i>. ",
+						"<cite ref=\"Chullin 55b:20\">Ib.</cite> <he>מהו שיַצִּיל וכ׳</he> does it form a protection from &c.? Ohol. V, 3 <he>מַצֶּלֶת על הכל</he> protects everything in it from uncleanness; a. v. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּצַּל"],
+			"senses": [
+				{
+					"gloss": "<i>to be saved</i>. ",
+					"units": [
+						"<cite ref=\"Esther Rabbah 9:2\">Esth. R. to V, 3</cite> <he>כבר הוּצְּלוּ חנניה וכ׳</he> Hananiah and his colleagues have long ere this been delivered from the furnace; a. e."
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

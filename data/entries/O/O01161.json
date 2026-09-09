@@ -1,0 +1,22 @@
+{
+	"id": "O01161",
+	"slug": "סנאה-3",
+	"headword": {
+		"text": "סְנָאָה"
+	},
+	"page": {
+		"number": 1004,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>S’naah</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Taanit 4:5\">Taan. IV, 5</cite> (<cite ref=\"Taanit 26a:11\">26ᵃ</cite>) <he>בני ס׳</he> (Ms. M. <cite ref=\"U01563\"><he>שִׁנְאָב</he></cite>; v. Rabb. D. S. a. l. note); Y. ib. IV, 68ᵇ bot.; Tosef. ib. IV (III), 6 ed. Zuck. (Var. <he>סניאה</he>); Bab. ib. 12ᵃ <cite ref=\"O01158\"><he>סִנְאָב</he></cite> (Ms. M. <cite ref=\"U00001\"><he>ש׳</he></cite>); <cite ref=\"Eruvin 41a\">Erub. 41ᵃ</cite> <cite ref=\"O01158\"><he>סנאב</he></cite> (Ms. O. <he>סנאה</he>)."
+			]
+		}
+	]
+}

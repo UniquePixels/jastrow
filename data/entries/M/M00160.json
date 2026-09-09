@@ -1,0 +1,34 @@
+{
+	"id": "M00160",
+	"slug": "מגין",
+	"headword": {
+		"text": "מַגִּין"
+	},
+	"altHeadwords": [
+		{
+			"text": "מָגֵין"
+		},
+		{
+			"text": "מְגִינָּא"
+		}
+	],
+	"page": {
+		"number": 727,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"M00189\"><he>מָגֵן</he></cite> , <i>shield, protection</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 32:38\">Targ. Deut. XXXII, 38</cite> (some Ms. <cite ref=\"M00190\"><he>מְגָן</he></cite>, Y. ed. Amst. <cite ref=\"M00160\"><he>מֵגִין</he></cite>); a. e.—",
+				"<cite ref=\"Bereishit Rabbah 59\">Gen. R. s. 59</cite>, end <he>אניף במָגִינֵּיה</he> he swung his shield; <cite ref=\"Yalkut Shimoni on Torah 107\">Yalk. ib. 107</cite>; <cite ref=\"Yalkut Shimoni on Nach 156\">Yalk. Sam. 156</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 77\">Gen. R. s. 77</cite>, end <he>מגיניה דידין וכ׳</he> the shield of the one against that of the other; a. e.—Pl. <he>מָגִינִּין</he>, <he>מָגִינַּיָּיא</he>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 10:17\">Targ. I Kings X, 17</cite> (ed. Wil. <he>מָגִנִּין</he>); a. e.—<he>בֵּית מָגִינַּיָּיא</he> pr. n. pl. <i>Beth Maginnaya</i> (Shield-House). ",
+				"<cite ref=\"Mishnah Kilayim 6:4\">Kil. VI, 4</cite> Y. ed. (Bab. ed. a. Mish. <he>בית המגנייה</he>; Ms. M. <cite ref=\"E00590\"><he>המגניא</he></cite>; Tosef. ib. IV, 7 <he>בית המגינין</he>)."
+			]
+		}
+	]
+}

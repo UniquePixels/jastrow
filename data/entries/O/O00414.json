@@ -1,0 +1,38 @@
+{
+	"id": "O00414",
+	"slug": "סורא-2",
+	"headword": {
+		"text": "סוּרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 969,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Sura</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " a town in Southern Babylonia between the canals, seat of the college founded by Rab. ",
+			"units": [
+				"<cite ref=\"Eruvin 8a\">Erub. 8ᵃ</cite>. ",
+				"<cite ref=\"Bava Metzia 67b\">B. Mets. 67ᵇ</cite>, a. e. <he>משכנתא דס׳</he>, v. <cite ref=\"M02910\"><he>מַשְׁכַּנְתָּא</he></cite>. ",
+				"<cite ref=\"Bava Batra 89a:7\">B. Bath. 89ᵃ</cite> <he>רב יהודה מס׳</he>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " ס׳ דפרת <i>Sura on the Euphrates</i> (<i>Soura-Soura</i>, mod. Surie). ",
+			"units": [
+				"<cite ref=\"Moed Katan 24b\">M. Kat. 24ᵇ</cite> (v. Neub. Géogr. p. 343, sq.).—[<cite ref=\"Jerusalem Talmud Sheviit 6:1:21\">Y. Shebi. VI, 36ᵈ</cite> <he>בסורא</he>, read: <cite ref=\"K00910\"><he>כסוּרְיָא</he></cite>.—",
+				"<cite ref=\"Midrash Tehillim 12:1\">Midr. Till. to Ps. XII</cite> <he>למזבן … מס׳</he> ed. Bub. (oth. ed. <cite ref=\"M01885\"><he>מסורתא</he></cite>), prob. to be read: <he>מסוּרְיָא</he>.]"
+			],
+			"label": "2"
+		}
+	]
+}

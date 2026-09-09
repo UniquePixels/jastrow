@@ -1,0 +1,28 @@
+{
+	"id": "R00741",
+	"slug": "צרדיאתא",
+	"headword": {
+		"text": "צְרַדְיָאתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "צְרַדְיָיתָא"
+		}
+	],
+	"page": {
+		"number": 1300,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<cite ref=\"R00740\">preced.</cite>) <i>rough cloth-garments</i> (which one does not mind selling), opp. <he>מאני תשמישתא</he> (good) garments for one’s own use. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 51a\">B. Mets. 51ᵃ</cite> older eds., Ms. F. a. H. (Ms. R. 1 <he>צרדיתא</he>, later eds. <cite ref=\"R00129\"><he>צְדַרְיָיתָא</he></cite>; v. Rabb. D. S. a. l. note 70)."
+			]
+		}
+	]
+}

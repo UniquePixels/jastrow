@@ -1,0 +1,27 @@
+{
+	"id": "O01205",
+	"slug": "סנוק",
+	"headword": {
+		"text": "סִנּוּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִי׳"
+		}
+	],
+	"page": {
+		"number": 1006,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>סנק</he>) <i>pressure</i>, <i>exhaustion</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 67a\">Sabb. 67ᵃ</cite>, v <cite ref=\"C00156\"><he>גַּדָּא</he></cite>."
+			]
+		}
+	]
+}

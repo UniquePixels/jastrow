@@ -1,0 +1,42 @@
+{
+	"id": "B01207",
+	"slug": "ברור-1",
+	"headword": {
+		"text": "בָּרוּר"
+	},
+	"page": {
+		"number": 191,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>ברר</he>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>clear, bright; certain, firm</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 147a:11\">B. Bath. 147ᵃ</cite> <he>יו״ט … ב׳ וכ׳</he> when the day of Pentecosts is bright, sow wheat; opp. <cite ref=\"B00830\"><he>בָּלוּל</he></cite>; <cite ref=\"Tosefta Arakhin 1:9\">Tosef. Arakh. I, 9</cite>.—",
+				"<cite ref=\"Sanhedrin 7b:2\">Snh. 7ᵇ</cite> <he>אם ב׳ וכ׳</he> if the case is as clear to thee as the morning, speak out (thy opinion). ",
+				"<cite ref=\"Gittin 89a:14\">Gitt. 89ᵃ</cite> <he>דבר הב׳</he> an ascertained fact.—",
+				"<cite ref=\"Pesachim 50a:6\">Pes. 50ᵃ</cite> <he>עולם ב׳</he> a rightly-conducted world, opp. <cite ref=\"E00727\"><he>הפוך</he></cite>.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:4:15\">Y. Ber. II, 5ᵃ</cite> <he>יחזור … הב׳ לו</he> he must begin to re-read from the place which he is certain of having read correctly. ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:4:12\">Y. Maasr. I, 49ᵇ</cite> <he>חלוט ב׳</he>, v. <cite ref=\"H01020\"><he>חָלַט</he> I</cite>; <he>תבשיל ב׳</he> real boiling (about which there is no legal doubt). ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 4:2:3\">Y. Yeb. IV, 5ᶜ</cite> bot. <he>חלב ב׳</he> ascertained existence of forbidden fat. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 9:8:2\">Y. Gitt. IX, 50ᶜ</cite> bot. <he>קיים שריר וב׳</he> (the formula) valid, firm and established. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 4:6:3\">Y. Kidd. IV, 66ᵃ</cite> top <he>כהן ב׳</he> a priest of undoubted genealogy; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "(b. h. , <cite ref=\"Nehemiah 5:18\">Neh. V, 18</cite>) <i>chosen, best</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 23\">Gen. R. s. 23</cite> <he>הב׳ שבהם</he> the best one among them.—Pl. <he>בְּרוּרִים</he>, <he>בְּרוּרִין</he>. Y. Kidd. IV, 66ᵃ bot. <he>הב׳ שבאחיך</he> the chosen among thy brethren (whose genealogy has been established; v. supra); <cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "O00261",
+	"slug": "סודנא",
+	"headword": {
+		"text": "סוּדָנָא"
+	},
+	"page": {
+		"number": 961,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O00258\"><he>סוּד</he></cite> h.) <i>brewer</i>; [oth. opin. <cite ref=\"O00261\"><he>סוּדְנָא</he></cite> <i>beer</i>]. ",
+			"units": [
+				"<cite ref=\"Pesachim 113a:8\">Pes. 113ᵃ</cite> <he>לבי ס׳</he> (Ar. <cite ref=\"O00579\"><he>סד׳</he></cite>) to the brewery, v. <cite ref=\"H00992\"><he>חֲלוּז</he></cite>. ",
+				"<cite ref=\"Pesachim 113a:8\">Ib.</cite> <he>מאי ס׳</he> why is the brewer (beer) called <he>ס׳</he>?; v. <cite ref=\"O00257\"><he>סוֹד</he></cite>."
+			]
+		}
+	]
+}

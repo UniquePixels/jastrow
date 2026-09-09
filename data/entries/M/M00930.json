@@ -1,0 +1,52 @@
+{
+	"id": "M00930",
+	"slug": "מחק-2",
+	"headword": {
+		"text": "מְחַק"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְחֵיק"
+		}
+	],
+	"page": {
+		"number": 763,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"M00929\">same</cite><i>to blot out, wash off, erase</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 5:23\">Targ. Num. V, 23</cite>.—",
+				"<cite ref=\"Bava Batra 164a:4\">B. Bath. 164ᵃ</cite> <he>דילמא מחיק ליה וכ׳</he> he may erase it and write over it what he may choose. ",
+				"<cite ref=\"Bava Batra 164a:10\">Ib.</cite> <he>ולִמְחוֹק ולִידַמֵּי</he> let one erase (some writing) and compare; a. fr.—Part. pass. <cite ref=\"M00876\"><he>מְחִיק</he></cite>, f. <cite ref=\"M00877\"><he>מְחִיקָא</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 65:2\">Gen. R. s. 65</cite>, beg. <he>ייתי הדין מ׳ שמא ויסב להדא מְחִיקַת שמא</he> let this man whose name deserves to be blotted out come and marry that woman &c.; <cite ref=\"Yalkut Shimoni on Torah 112:1\">Yalk. ib. 112</cite>; <cite ref=\"Yalkut Shimoni on Torah 113:1\">113</cite> (not <he>מחקת</he>).—",
+				"<cite ref=\"Kohelet Rabbah 12:5:1\">Koh. R. to XII, 5</cite> <he>אדריאנוס שחיק עצמות מ׳ שמיה</he> Hadrian, his bones be ground, his name be blotted out. ",
+				"<cite ref=\"Esther Rabbah 2:2\">Esth. R. to I, 4</cite> <he>נבוכדנצר שחיק מ׳ וכ׳</he> Nebuchadn., he be ground, blotted out &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to strike</i>. Part. pass. as ab. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Pesachim 4:9:9\">Y. Pes. IV, end, 31ᶜ</cite>; Esth. R. l. c., v. <cite ref=\"C00205\"><he>גְּדִיל</he></cite>. ",
+				"<cite ref=\"Bava Metzia 80b\">B. Mets. 80ᵇ</cite>, v. <cite ref=\"M00878\"><he>מְחִיקָתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְמְחֵיק"],
+			"senses": [
+				{
+					"gloss": "<i>to be blotted out</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 28\">Gen. R. s. 28</cite>, end <he>כאיניש … יִתְמְחֵק שמיה דפלן</he> as one says, that man’s name be blotted out."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

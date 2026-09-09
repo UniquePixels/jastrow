@@ -1,0 +1,108 @@
+{
+	"id": "E00740",
+	"slug": "הפך-1",
+	"headword": {
+		"text": "הָפַךְ"
+	},
+	"page": {
+		"number": 361,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": " (act. verb) <i>to turn; to change; to reverse; to pervert, subvert, destroy</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 18:9\">Ex. R. s. 18</cite> <he>הָפְכָה המדינה שעבודה וכ׳</he> a country perverted the rules of forced labor for the captives (treating them inhumanely); <he>ה׳ עליהם את הדין וכ׳</he> he changed the law against them and put them to death by night (against the Jewish law, v. ",
+				"<cite ref=\"Mishnah Sanhedrin 4:1\">Snh. IV, 1</cite>). ",
+				"<cite ref=\"Mishnah Sanhedrin 4:1\">Ib.</cite> <he>ה׳ סדום</he> He destroyed Sodom. ",
+				"<cite ref=\"Berakhot 55b:11\">Ber. 55ᵇ</cite> <he>כשם שהָפַכְתָּ וכ׳</he> as thou didst turn the curse … into blessing, <he>כן הֲפוֹךְ וכ׳</he> so do thou turn &c. ",
+				"<cite ref=\"Mishnah Bava Kamma 3:3\">B. Kam. III, 3</cite> <he>ההוֹפֵךְ את הגלל</he> he who upturns (changes the place of) the dung (taking possession); a. v. fr.—<i>Part. Pass</i>. <cite ref=\"E00727\"><he>הָפוּךְ</he></cite>. ",
+				"<cite ref=\"Pesachim 50a:6\">Pes. 50ᵃ</cite> <he>עולם ה׳ ראיתי וכ׳</he> I saw a reversed world, the uppermost below &c. ",
+				"<cite ref=\"Shabbat 108b:9\">Sabb. 108ᵇ</cite> <he>הֲפוּכָה סדום וכ׳</he> Sodom is subverted and what is said about it is perverted. Sifra Thazr. Par. 3, ch. III <cite ref=\"E00727\"><he>הפוך</he></cite>, <he>הפוכה</he> when its color is changed; a. v. fr.—",
+				"<cite ref=\"Jerusalem Talmud Nazir 5:4:2\">Y. Naz. V, end, 54ᵇ</cite> <he>לשון הפוך</he>, v. <cite ref=\"E00742\"><he>הֶפֶךְ</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (neut. verb) <i>to change</i>. Sifra ch. IV <he>אי כולי ה׳ לבן</he> if the whole of it has turned white. ",
+			"units": ["<cite ref=\"Mishnah Negaim 4:3\">Neg. IV, 3</cite>; a. fr."],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶהְפַּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be upturned, destroyed; to be changed</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 1056:15\">Yalk. Esth. 1056</cite> <he>כשנ׳ סדום</he> when Sodom was subverted. ",
+						"<cite ref=\"Bereishit Rabbah 50:9\">Gen. R. s. 50</cite> <he>ומדינה נֶהְפֶּכֶת</he>, v. <cite ref=\"A00450\"><he>אִדְרַבְלָא</he></cite>. Tanḥ. Sh’moth 25 <he>נ׳ להם מן וכ׳</he> the voice turned around, as if coming from &c.; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to roll about</i>, v. <i>Hithpa.</i>",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִיפֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to reverse, pervert, turn</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 20:1\">Gen. R. s. 20</cite> <he>שהי׳ דברים וכ׳</he> who spoke perversely of the Creator. ",
+						"<cite ref=\"Kiddushin 59a:6\">Kidd. 59ᵃ</cite> <he>עני מְהַפֵּךְ וכ׳</he> a poor man turns the cake, and another comes and takes it, i.e. one who buys away what another is negotiating for."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to scheme</i>, v. infra.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְהַפֵּךְ"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְהַפֵּךְ</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be changed, disguise one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 21:1\">Gen. R. s. 21</cite> end <he>שהם מִתְהַפְּכִים</he> they (the angels) assume various shapes."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to turn one’s self around</i>. Ib. <he>שהיא מִתְהַפֶּכֶת וכ׳</he> for it (the fiery sword) turns around man &c. ",
+					"units": [
+						"<cite ref=\"Yevamot 35a\">Yeb. 35ᵃ</cite>; <cite ref=\"Ketubot 37a:7\">Keth. 37ᵃ</cite> <he>מתהפכת</he> she turns herself (makes violent motions). ",
+						"<cite ref=\"Ketubot 37a:7\">Ib.</cite> <he>נִתְהַפְּכָה</he> (Keth. l. c. <he>נֶהֶפְכָה</he>).—Tanḥ. Vayetsé 11 <he>היה מ׳ עליו</he> prevaricated (changing terms)."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to scheme</i>. Ruth R. introd. 3 <he>שהוא מִתְהפֵּךְ ובא וכ׳</he> he (Esaw = Rome) schemes and comes against &c.; <cite ref=\"Yalkut Shimoni on Nach 959:37\">Yalk. Prov. 959</cite> <he>בא ומְהַפֵּךְ על וכ׳</he>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 959:37\">Ib.</cite> <he>שהם מִתְהַפְּכִים וכ׳</he>; Ruth R. l. c. <he>שמְהַפְּכִין</he>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

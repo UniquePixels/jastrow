@@ -1,0 +1,30 @@
+{
+	"id": "I00297",
+	"slug": "טיב-4",
+	"headword": {
+		"text": "טִיב",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 529,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"I00107\"><he>טִיֵּיב</he></cite>, <i>Pa.</i> <cite ref=\"I00107\"><he>טַיֵּיב</he></cite>, v. <cite ref=\"I00110\"><he>טוּב</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

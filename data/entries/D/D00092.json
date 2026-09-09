@@ -1,0 +1,27 @@
+{
+	"id": "D00092",
+	"slug": "דברתא-3",
+	"headword": {
+		"text": "דַּבַּרְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דְּבוֹרְתָא"
+		}
+	],
+	"page": {
+		"number": 279,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"D00051\"><he>דְּבוֹרָה</he></cite> , <i>bee</i>. Pl. <cite ref=\"D00086\"><he>דַּבַּרְיָתָא</he></cite>, <cite ref=\"D00053\"><he>דְּבוֹרְיָתָא</he></cite>. Targ. O. a. Y. II <cite ref=\"Deuteronomy 1:44\">Deut. I, 44</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Judges 14:8\">Targ. Jud. XIV, 8</cite>.—<he>דַּבָּרֵי</he>. Y. Sabb. I, 3ᵇ"
+			]
+		}
+	]
+}

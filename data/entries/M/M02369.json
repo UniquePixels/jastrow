@@ -1,0 +1,25 @@
+{
+	"id": "M02369",
+	"slug": "מצרנין",
+	"headword": {
+		"text": "מֶצְרָנִין"
+	},
+	"page": {
+		"number": 828,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <he>מִצְרָא</he> I) <i>boundaries, adjacent fields</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 34:12\">Targ. Y. Num. XXXIV, 12</cite>.—",
+				"<cite ref=\"Bava Batra 63a\">B. Bath. 63ᵃ</cite> if he added in the agreement <he>אילין מֶצְרָנָהָא</he> (Alf. <he>מֶצְרָאנָהָא</he>) these are the fields adjacent to it. Ib. 128ᵃ <he>אפשר דמכוין מצרנהא</he> he may know exactly the estates contiguous to the field which he identifies. ",
+				"<cite ref=\"Bava Metzia 108b:15\">B. Mets. 108ᵇ</cite> <he>הנהו ד׳ בני מֶצְרָנֵי וכ׳</he> those four neighbors of a field (entitled to preemption, v. <he>מִצְרָא</he> I)."
+			]
+		}
+	]
+}

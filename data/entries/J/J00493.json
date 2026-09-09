@@ -1,0 +1,42 @@
+{
+	"id": "J00493",
+	"slug": "יעץ-1",
+	"headword": {
+		"text": "יָעַץ"
+	},
+	"page": {
+		"number": 585,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; v. <cite ref=\"P00322\"><he>עוּץ</he></cite>,  [<i>to press</i>,] <i>to encourage, plan; to advise</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 61a:29\">Ber. 61ᵃ</cite> <he>כליות יוֹעֲצוֹת</he> the kidneys are the seat of deliberation. ",
+				"<cite ref=\"Berakhot 61a:28\">Ib.</cite> <he>אחת יוֹעַצְתּוֹ לטובה וכ׳</he> one (kidney) urges him to do good etc.—",
+				"<cite ref=\"Sanhedrin 76b:1\">Snh. 76ᵇ</cite> <he>היוֹעֶצְךָ וכ׳</he>, v. <cite ref=\"G00097\"><he>זָהִיר</he></cite>. ",
+				"<cite ref=\"Berakhot 8b:13\">Ber. 8ᵇ</cite> <he>וכשיוֹעֲצִים אין יועצים וכ׳</he> and when they (the Medians) hold council, they meet in open air. ",
+				"<cite ref=\"Sanhedrin 87a:11\">Snh. 87ᵃ</cite> <he>ממך זה יוֹעֵץ</he> ‘hidden from thee’ (<cite ref=\"Deuteronomy 17:8\">Deut. XVII, 8</cite>) that means (the need of) a counselor (<cite ref=\"Sifrei Devarim 152:2\">Sifré Deut. 152</cite> <he>זו עצה</he>). ",
+				"<cite ref=\"Chullin 11a:11\">Ḥull. 11ᵃ</cite> (expl. <he>לעמת הֶעָצֶה</he>, <cite ref=\"Leviticus 3:9\">Lev. III, 9</cite>) <he>ממקים שהכליות יועצות</he> from where the deliberating kidneys are seated, v. supra.—",
+				"<cite ref=\"Temurah 16a:59\">Tem. 16ᵃ</cite> (play on <he>י̇ע̇ב̇ץ̇</he>, <cite ref=\"I Chronicles 4:9\">I Chr. IV, 9</cite>) <he>שי̇ע̇ץ וריב̇ץ̇ וכ׳</he> he advised and advanced the study of the Law &c. ",
+				"<cite ref=\"Sanhedrin 106a\">Snh. 106ᵃ</cite>, a. e. <he>בלעם שי׳</he> Balaam who gave his advice (encouraging the oppression of the Israelites); a. fr.—[<cite ref=\"Berakhot 3b:32\">Ber. 3ᵇ</cite>; <cite ref=\"Sanhedrin 16a\">Snh. 16ᵃ</cite>, v. infra.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְיָיעֵץ"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְיָעֵץ</he> <i>to ask advice; to consult with</i> (with <cite ref=\"B00000\"><he>ב</he></cite>). ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Nach 776:1\">Yalk. Ps. 776</cite> <he>מִתְיָעֲצִים באחיתופל</he> (<cite ref=\"Berakhot 3b:32\">Ber. 3ᵇ</cite>; <cite ref=\"Sanhedrin 16a:21\">Snh. 16ᵃ</cite> <he>יועצין</he>, read: <he>נוֹעָצִין</he>, <i>Nif.</i>) they deliberated with Ah.—",
+						"<cite ref=\"Eruvin 53b:17\">Erub. 53ᵇ</cite> (in enigmatic speech) <he>נתי׳ במכתיר</he> took counsel of the Nasi (v. <cite ref=\"K01386\"><he>כָּתַר</he></cite>). ",
+						"<cite ref=\"Sifrei Bamidbar 157:1\">Sifré Num. 157</cite> <he>שהיו מתייעצים על וכ׳</he> they were planning against Israel; <cite ref=\"Yalkut Shimoni on Torah 785:28\">Yalk. Num. 785</cite> <he>מִיָּעֲצִים</he>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "S00924",
+	"slug": "קיטרטון",
+	"headword": {
+		"text": "קִיטְרָטוֹן"
+	},
+	"page": {
+		"number": 1358,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (citratus, κιτρᾶτον, S.) <i>a beverage flavored with citron</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 7:1:5\">Y. Shebi. VII, beg. 37ᵇ</cite> <he>ק׳ שרי</he> wine flavored with citron is permitted in the Sabbatical year."
+			]
+		}
+	]
+}

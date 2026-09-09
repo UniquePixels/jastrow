@@ -1,0 +1,29 @@
+{
+	"id": "D00542",
+	"slug": "דיור-2",
+	"headword": {
+		"text": "דַּיּוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּיָּיר"
+		}
+	],
+	"page": {
+		"number": 297,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00341\"><he>דור</he></cite>) <i>inhabitant, lodger, tenant</i>. Y. Maasr. II, 50ᵈ top, opp. to <he>בעה״ב</he> landlord; a. e.—Pl. <he>דַּיּוֹרִים</he>, <he>דַּיּוֹרִין</he>, <he>דַּיָּירִין</he>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sukkah 1:2\">Succ. I, 2</cite>. ",
+				"<cite ref=\"Sukkah 10a:9\">Ib. 10ᵃ</cite> <he>מאי ד׳ … ד׳ ממש אטו ד׳ וכ׳</he> what is meant by <i>dayyorin?</i> Do you mean that no dwellers occupy the upper story?—Does the fitness of a residence depend on the existence of real dwellers?—",
+				"<cite ref=\"Bereishit Rabbah 28:2\">Gen. R. s. 28</cite>; a. fr."
+			]
+		}
+	]
+}

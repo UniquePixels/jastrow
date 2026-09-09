@@ -1,0 +1,27 @@
+{
+	"id": "M01819",
+	"slug": "מנשייא",
+	"headword": {
+		"text": "מְנַשְׁיָיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְנַשְׁיָא"
+		}
+	],
+	"page": {
+		"number": 802,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>M’nashia</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:7:14\">Y. M. Kat. III, 83ᶜ</cite> top; <cite ref=\"Jerusalem Talmud Megillah 3:7:6\">Y. Meg. III, 73ᵇ</cite> <cite ref=\"M01781\"><he>מניישא</he></cite>, <cite ref=\"M01790\"><he>מנישא</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

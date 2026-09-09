@@ -1,0 +1,41 @@
+{
+	"id": "J00284",
+	"slug": "יחיד-1",
+	"headword": {
+		"text": "יָחִיד"
+	},
+	"page": {
+		"number": 574,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"J00268\"><he>יָחַד</he></cite>)<i>only, single, individual</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 99\">Gen. R. s. 99</cite>, end (ref. to <he>כאחד</he>, <cite ref=\"Genesis 49:16\">Gen. XLIX, 16</cite>) <he>כִּיחִידוֹ של וכ׳</he> (not <he>כיחודו</he>) like the Only One of the world, as He needs no help &c.; <cite ref=\"Genesis 49:16\">ib.</cite> s. 21 (ref. to <he>כאחד</he>, ib. III, 22). Ib. s. 55 <he>זה י׳ לאמו וכ׳</he> this one (Ishmael) is the only son of his mother, and the other (Isaac) is &c.—",
+				"<cite ref=\"Taanit 9a:8\">Taan. 9ᵃ</cite> <he>בשביל י׳</he> for an individual’s sake, opp. <he>רבים</he>. ",
+				"<cite ref=\"Berakhot 9a\">Ber. 9ᵃ</cite>, a. fr. <he>י׳ ורבים הלכה וכ׳</he> where a single opinion is opposed to the opinion of more than one, the law follows the latter. ",
+				"<cite ref=\"Mishnah Beitzah 5:5\">Bets. V, 5</cite> <he>בור של י׳</he> a well belonging to an individual. ",
+				"<cite ref=\"Eruvin 46a:20\">Erub. 46ᵃ</cite> <he>י׳ במקום י׳</he> an individual opinion opposed to an individual opinion; a. v. fr.—",
+				"<cite ref=\"Jerusalem Talmud Ketubot 7:5:4\">Y. Keth. VII, 31ᵇ</cite> bot. <he>בְּיָ׳</he> (= <he>בְּיִחוּד</he>) <i>privately</i>.—Pl. <cite ref=\"J00287\"><he>יְחִידִים</he></cite>, <cite ref=\"J00287\"><he>יְחִידִין</he></cite>. ",
+				"<cite ref=\"Rosh Hashanah 17b\">R. Hash. 17ᵇ</cite> <he>כי׳ דמי</he> are to be considered as individuals (in prayer); a. fr.—<i>Fem.</i> <he>יְחִידָה</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 12\">Num. R. s. 12</cite> <he>בת י׳</he> an only daughter; a. fr.—",
+				"<cite ref=\"Devarim Rabbah 2:37\">Deut. R. s. 2</cite>, end <he>מה הקב״ה … כך הנפש י׳ בגוף</he> as the Lord is matchless in his world, so is the soul in the body; <cite ref=\"Midrash Tehillim 103:3\">Midr. Till. to Ps. CIII</cite>; <cite ref=\"Bereishit Rabbah 14\">Gen. R. s. 14</cite>, end <he>שכל האברים … והיא י׳ בגוף</he> all limbs are paired, but she (the soul) is unmatched in the body.—As a noun (b. h.) <he>יְחִידָה</he> <i>soul</i>. ",
+				"<cite ref=\"Bereishit Rabbah 14\">Ib.</cite> Deut. R. l. c.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>select</i>, esp. <i>one devoted to a particularly scrupulous life</i>. ",
+			"units": [
+				"<cite ref=\"Taanit 10b:2\">Taan. 10ᵇ</cite> <he>איזהו י׳</he> who is called a <i>yaḥid</i>? Ans. <he>י׳ כל שראוי וכ׳</he> whoever is worthy to be appointed manager of a community. ",
+				"<cite ref=\"Taanit 10b:2\">Ib.</cite> <he>אל יאמר אדם … להיות י׳</he> one must not say, I am only a student, I am not fit to lead the life of a <i>yaḥid</i> (it would be an assumption, v. <cite ref=\"J00173\"><he>יוֹהֲרָא</he></cite>); <cite ref=\"Tosefta Ta'anit 1:7\">Tosef. ib. I, 7</cite> (v. Var. in ed. Zuck. a. Rabb. D. S. to Taan. l. c.); <cite ref=\"Jerusalem Talmud Berakhot 2:9:3\">Y. Ber. II, end, 5ᵈ</cite> <he>כל דבר של צער … י׳ עושה</he> in all matters of self-abnegation, whoever desires to make himself a <i>yaḥid</i>, may do so.—Pl. as ab. ",
+				"<cite ref=\"Mishnah Taanit 1:4\">Taan. I, 4</cite>; a. fr. V. <cite ref=\"J00287\"><he>יְחִידִי</he></cite>"
+			],
+			"label": "2"
+		}
+	]
+}

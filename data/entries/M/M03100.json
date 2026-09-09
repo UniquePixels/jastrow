@@ -1,0 +1,43 @@
+{
+	"id": "M03100",
+	"slug": "מתק-2",
+	"headword": {
+		"text": "מְתַק"
+	},
+	"page": {
+		"number": 864,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"M03099\">same</cite> v. <cite ref=\"M03062\"><he>מְתִיק</he></cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["מַתֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to taste, suck</i> (v. <cite ref=\"M03099\">preced.</cite>). ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 18b:3\">Ab. Zar. 18ᵇ</cite> <he>טמש בהא ומ׳ בהא</he> he dipped one finger (into it) and sucked the other."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְמַתֵּק"],
+			"senses": [
+				{
+					"gloss": "<i>to become sweet</i>. ",
+					"units": [
+						"<cite ref=\"Targum of II Chronicles 13:5\">Targ. II Chr. XIII, 5</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

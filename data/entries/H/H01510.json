@@ -1,0 +1,29 @@
+{
+	"id": "H01510",
+	"slug": "חצודא",
+	"headword": {
+		"text": "חָצוֹדָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲצוֹדָא"
+		}
+	],
+	"page": {
+		"number": 494,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01498\"><he>חצד</he></cite>) <i>mower, harvester</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Amos 9:13\">Targ. Am. IX, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 9:21\">Targ. Jer. IX, 21</cite> ed. Lag. <he>חצו׳</he> (oth. ed. <cite ref=\"H01502\"><he>חַצָּדָא</he></cite>).—Pl. <he>חֲצוֹדַיָּא</he>. ",
+				"<cite ref=\"Aramaic Targum to Ruth 2:3\">Targ. Ruth II, 3</cite>, sq."
+			]
+		}
+	]
+}

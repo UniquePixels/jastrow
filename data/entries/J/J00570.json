@@ -1,0 +1,28 @@
+{
+	"id": "J00570",
+	"slug": "יקידותא",
+	"headword": {
+		"text": "יְקֵידוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יְקִי׳"
+		}
+	],
+	"page": {
+		"number": 591,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"J00569\">preced.</cite> wds.) <i>burning, consumption</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 33:14\">Targ. Is. XXXIII, 14</cite> <cite ref=\"J00570\"><he>יְקֵידוּת</he></cite> constr. (ed. Lag. <cite ref=\"J00568\"><he>יְקֵידַת</he></cite>, constr. of <cite ref=\"J00568\"><he>יְקֵידְתָּא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 34:5\">Targ. Jer. XXXIV, 5</cite> (ed. Lag. <he>יקידת</he>)."
+			]
+		}
+	]
+}

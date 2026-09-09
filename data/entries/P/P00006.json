@@ -1,0 +1,29 @@
+{
+	"id": "P00006",
+	"slug": "עאתא",
+	"headword": {
+		"text": "עָאֲתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עָאתָא"
+		}
+	],
+	"page": {
+		"number": 1034,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"P00378\"><he>עַוְתָא</he></cite>; <cite ref=\"P00225\"><he>עֲויֵ</he></cite>) <i>crookedness, perverseness, wrong</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 12:21\">Targ. Prov. XII, 21</cite> <he>דע׳</he> (not <he>זע׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 15:16\">Ib. XV, 16</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 4:24\">Ib. IV, 24</cite> (ed. Lag. <cite ref=\"P01524\"><he>עָתָא</he></cite>, Ms. <cite ref=\"P00378\"><he>עַוְתָא</he></cite>); a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "P00257",
+	"slug": "עולימו",
+	"headword": {
+		"text": "עוּלֵימוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּלֵימוּתָא"
+		},
+		{
+			"text": "עוּלֵמ׳"
+		}
+	],
+	"page": {
+		"number": 1051,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00256\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>strength</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 12:10\">Targ. I Kings XII, 10</cite>; <cite ref=\"Targum of II Chronicles 10:10\">Targ. II Chr. X, 10</cite> (ed. Lag. <cite ref=\"C00064\"><he>גבורתא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>youth</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 54:4\">Targ. Is. LIV, 4</cite>. ",
+				"<cite ref=\"Onkelos Genesis 18:12\">Targ. O. Gen. XVIII, 12</cite>. ",
+				"<cite ref=\"Onkelos Numbers 11:28\">Targ. O. Num. XI, 28</cite> ed. Berl. (oth. ed. <he>מעוּלֵימוֹהִי</he>, v. <cite ref=\"P00258\">next w.</cite>). ",
+				"<cite ref=\"Targum Jonathan on Joel 1:8\">Targ. Joel I, 8</cite> <cite ref=\"P00257\"><he>עוּלֵימוּתָהָא</he></cite> ed. Lag. (ed. Wil. <cite ref=\"P00259\"><he>עוּלֶמְתָּהָא</he></cite>; oth. ed. <he>עוּלֵימָתָהָא</he> pl.); a. fr.—[<he>עולימות</he>, <he>עולמותי</he>, v. <cite ref=\"P00255\"><he>עוּלֵים</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

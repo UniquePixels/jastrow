@@ -1,0 +1,56 @@
+{
+	"id": "M01800",
+	"slug": "מנע-1",
+	"headword": {
+		"text": "מָנַע"
+	},
+	"page": {
+		"number": 801,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to cut off</i>,] <i>to withhold, refuse, refrain</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 113b:14\">Pes. 113ᵇ</cite> <he>המוֹנֵעַ מנעלים מרגליו</he> he who denies shoes to his feet. ",
+				"<cite ref=\"Ketubot 96a:6\">Keth. 96ᵃ</cite> <he>המונע תלמידו מלשמשו כאילו מונע וכ׳</he> he who denies to his pupil the privilege of attendance, is considered as if denying kindness to him. ",
+				"<cite ref=\"Berakhot 10a:31\">Ber. 10ᵃ</cite>, sq. <he>אל יִמְנַע עצמו מן הרחמים</he> must not cut himself off from (despair of) divine mercy. ",
+				"<cite ref=\"Bereishit Rabbah 76:9\">Gen. R. s. 76</cite>, end (ref. to <cite ref=\"Job 6:14\">Job VI, 14</cite>) <he>מָנַעְתָּ מרעך וכ׳</he> thou (Jacob) didst refuse kindness to thy friend (Job); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִמְנַע"],
+			"senses": [
+				{
+					"gloss": "<i>to restrain one’s self; to shrink</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Eduyot 4:8\">Eduy. IV, 8</cite>; <cite ref=\"Mishnah Yevamot 1:4\">Yeb. I, 4</cite> <he>לא נִמְנְעוּ</he> (<cite ref=\"M00000\"><he>מ</he></cite>)<he>לישא וכ׳</he> they did not refrain from intermarriage. ",
+						"<cite ref=\"Mishnah Yevamot 1:4\">Ib.</cite> <he>לא נ׳</he> (<he>להיות</he>) <he>עושין טהרות וכ׳</he> they did not shrink from relying on one another in the observances of levitical pureness; Tosef. ib. I, 10. Ib. 12 <he>מן הספק לא היו נִמְנָעִין</he> (<cite ref=\"A00153\"><he>אבל</he></cite>) <he>נמנעין וכ׳</he> they did not shrink (from interchange) where the case was doubtful &c.; <cite ref=\"Yevamot 14b\">Yeb. 14ᵇ</cite>. ",
+						"<cite ref=\"Gittin 36a\">Gitt. 36ᵃ</cite> <he>נמנעו מלהלוות וכ׳</he> they hesitated to lend money to one another; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be withheld</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 15\">Num. R. s. 15</cite> <he>נִמְנְעָה השמחה וכ׳</he> (some ed. <he>נִמְנַעַת</he>) joy was withheld from the wicked and given to &c."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִמְנִיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to keep apart</i>. Y. Taan. I, 64ᵇ top <he>שאת מַמְנִיעָן זו מזו</he> for thou keepest them (the rain-drops) from commingling (v. <cite ref=\"D00955\"><he>דָּפוּס</he></cite>); Y. Ber. IX, 14ᵃ top <he>ממנימען</he> (corr. acc.).",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

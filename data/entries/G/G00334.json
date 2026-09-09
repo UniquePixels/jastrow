@@ -1,0 +1,27 @@
+{
+	"id": "G00334",
+	"slug": "זיידל",
+	"headword": {
+		"text": "זַיְידָּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "זַיְדָּל"
+		}
+	],
+	"page": {
+		"number": 393,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Zaydal</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 2:3:2\">Y. Ab. Zar. II, 41ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Terumot 8:3:4\">Y. Ter. VIII, 45ᶜ</cite> top."
+			]
+		}
+	]
+}

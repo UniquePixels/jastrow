@@ -1,0 +1,59 @@
+{
+	"id": "T00474",
+	"slug": "רחב-2",
+	"headword": {
+		"text": "רָחַב"
+	},
+	"page": {
+		"number": 1465,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be wide</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִרְחִיב"],
+			"senses": [
+				{
+					"gloss": " (neut. verb) <i>to widen, be broader; to extend</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 31\">Lev. R. s. 31</cite> <he>היו מקטינות … ומַרְחִיבוֹת וכ׳</he> (the windows of the Temple) became narrow towards the inside and wider towards the outside, in order to send light forth to the world; Pesik. Ḳumi, p. 145ᵃ, sq. Sifré Deut. s. 1; <cite ref=\"Yalkut Shimoni on Nach 575:1\">Yalk. Zech. 575</cite> <he>מַרְחֶבֶת</he>, v. infra. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 302:1\">Yalk. Is. 302</cite>, v. <cite ref=\"Q02125\"><he>פָּתָה</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to broaden, widen</i>; (with <cite ref=\"D00950\"><he>דעת</he></cite>) <i>to comfort, gratify</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 57b:12\">Ber. 57ᵇ</cite> <he>שלשה מַרְחִיבִין דעתו וכ׳</he> three things give a man comfort: a nice dwelling &c."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to amplify</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 61b\">B. Bath. 61ᵇ</cite>, v. <cite ref=\"M02356\"><he>מֵצַר</he></cite>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִתְרַחֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to be enlarged, extend</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 7:5:1\">Cant. R. to VII, 5</cite> <he>עתידה</he> … <he>מִתְרַחֶבֶת וכ׳</he> Jerusalem will be enlarged on all sides; Sifré l. c.; Yalk. Zech. l. c. <he>מרחבת</he>."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

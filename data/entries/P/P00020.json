@@ -1,0 +1,24 @@
+{
+	"id": "P00020",
+	"slug": "עבדן",
+	"headword": {
+		"text": "עַבְּדן"
+	},
+	"page": {
+		"number": 1035,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>עָבַד</he> <i>Pi.</i>) <i>hide-dresser, tanner</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 26:8\">Kel. XXVI, 8</cite> (<he>עורות</he>) <he>של ע׳</he> hides in the tanner’s possession (intended for sale to mechanics). ",
+				"<cite ref=\"Mishnah Shabbat 1:8\">Sabb. I, 8</cite>; a. e.—Pl. <he>עַבְּדָנִין</he>. ",
+				"<cite ref=\"Mishnah Kelim 15:1\">Kel. XV, 1</cite> <he>עריבת הע׳</he> (ed. Dehr. <he>העוֹבְדָן</he>) a trough used by tanners."
+			]
+		}
+	]
+}

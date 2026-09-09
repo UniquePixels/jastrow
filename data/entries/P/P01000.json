@@ -1,0 +1,28 @@
+{
+	"id": "P01000",
+	"slug": "ענן-4",
+	"headword": {
+		"text": "עָנָן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1095,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>cloud</i>, frequently used in the sense of <i>cover protection</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 60:16\">Gen. R. s. 60</cite> <he>כל זמן … היה ע׳ קשור וכ׳</he> as long as Sarah lived, a cloud was tied over the entrance of her tent; <he>וכיון שמתה פסק אותו ע׳</he> and when she was dead, that cloud ceased. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:6:1\">Cant. R. to II, 6</cite> <he>וימינו זה עֲנַן שכינה וכ׳</he> … ‘and his right hand embraces me’, that means the cloud of the Divine Presence in the future world (with ref. to <cite ref=\"Isaiah 60:19\">Is. LX, 19</cite>). ",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:3:5\">Y. Taan. III, 66ᶜ</cite>, v. <cite ref=\"P00984\"><he>עָנָיו</he></cite>; a. fr.—Pl. <he>עֲנָנִים</he>. ",
+				"<cite ref=\"Taanit 9b:11\">Taan. 9ᵇ</cite> (ref. to <cite ref=\"Genesis 2:6\">Gen. II, 6</cite>) <he>מלמד שהע׳ מתגברים וכ׳</he> this teaches that the clouds (like a hose) swell and rise to the sky, and there open their mouth like a hose and receive the rain water; <cite ref=\"Bereishit Rabbah 13:11\">Gen. R. s. 13</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 13:11\">Ib.</cite> <he>אין ע׳ אלא מלמעלה</he> clouds (like a hose to receive the waters) come from above (ref. to <cite ref=\"Daniel 7:13\">Dan. VII, 13</cite>); <he>אין ע׳ אלא מלמטה</he> the clouds come from below (ref. to <cite ref=\"Psalms 135:7\">Ps. CXXXV, 7</cite>); <cite ref=\"Jerusalem Talmud Sukkah 1:5:4\">Y. Succ. I, 52ᵇ</cite> bot.; <cite ref=\"Yalkut Shimoni on Nach 883:7\">Yalk. Ps. 883</cite>. ",
+				"<cite ref=\"Rosh Hashanah 3a:1\">R. Hash. 3ᵃ</cite> (ref. to <cite ref=\"Numbers 21:1\">Num. XXI, 1</cite>) <he>שמע … ונסתלקו עַנְנֵי כבוד</he> he heard that Aaron was dead, and the clouds of glory were removed. Tanḥ. R’eh 16 <he>משיב רוחות ומעלה ע׳ ומוריד וכ׳</he> causes the winds to blow, and the clouds to rise, and the rains to come down; a. fr."
+			]
+		}
+	]
+}

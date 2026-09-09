@@ -1,0 +1,40 @@
+{
+	"id": "H01849",
+	"slug": "חשך-5",
+	"headword": {
+		"text": "חֲשַׁךְ",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲשׁוֹךְ",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 511,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <he>חסך</he>) <i>to be reduced, lean</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 31:11\">Targ. Ps. XXXI, 11</cite> (h. text <he>עששו</he>, v. Rashi a. l.)"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִיתְחֲשַׁךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01848\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 33:21\">Targ. Job XXXIII, 21</cite> Ms. (ed. <he>שפיין</he>)."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "D00706",
+	"slug": "דיקומני",
+	"headword": {
+		"text": "דִּיקוּמָנִי"
+	},
+	"page": {
+		"number": 305,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>Decumani</i>, soldiers of the tenth Roman cohort. ",
+			"units": [
+				"<cite ref=\"Esther Rabbah 1:15\">Esth. R. to I, 3</cite>, end, v. <cite ref=\"A00272\"><he>אָגוּסְטְיָאנִי</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 94\">Gen. R. s. 94</cite> <he>דיקומניית</he>, <cite ref=\"D00535\"><he>דיוקמניאות</he></cite> (corr. acc.)."
+			]
+		}
+	]
+}

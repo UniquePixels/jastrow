@@ -1,0 +1,32 @@
+{
+	"id": "H00721",
+	"slug": "חייא-3",
+	"headword": {
+		"text": "חִיָּיא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִיָּיה"
+		}
+	],
+	"page": {
+		"number": 454,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (abbr. of <cite ref=\"A01028\"><he>אֲחִיָּה</he></cite>) <i>Ḥiyya</i>, name of several Amoraim. Esp. R. Ḥ. Robah (the elder, <cite ref=\"T00303\"><he>רובה</he></cite>, <cite ref=\"T00082\"><he>רבא</he></cite>, <cite ref=\"T00060\"><he>רבה</he></cite>), the redactor of the Tosefta in conjunction with R. Oshaya. ",
+			"units": [
+				"<cite ref=\"Taanit 21a:5\">Taan. 21ᵃ</cite>. Y. Meg. IV, 74ᵈ bot. ",
+				"<cite ref=\"Ketubot 103b:20\">Keth. 103ᵇ</cite>; a. v. fr.—R. Ḥ. of Sepphoris. ",
+				"<cite ref=\"Jerusalem Talmud Orlah 3:2:3\">Y. Orl. III, 63ᵃ</cite>.—R. Ḥ. bar Abba (Ba). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 1:2:2\">Y. Sabb. I, 3ᵃ</cite>; a. fr.—R. Ḥ. bar Ada I a. II. ",
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:1:7\">Y. Maasr. I, 48ᵈ</cite> top; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Demai 2:1:6\">Y. Dem. II, 22ᶜ</cite> top; a. fr.; and many more, v. Fr. M’bo, p. 81ᵇ, sq."
+			]
+		}
+	]
+}

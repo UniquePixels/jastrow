@@ -1,0 +1,23 @@
+{
+	"id": "R00144",
+	"slug": "צהר-3",
+	"headword": {
+		"text": "צַהַר"
+	},
+	"page": {
+		"number": 1265,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"R00143\">preced.</cite>) <i>glossy, white scurf</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 13:39\">Targ. Y. Lev. XIII, 39</cite> (h. text <he>בהק</he>).—",
+				"<cite ref=\"Gittin 86a\">Gitt. 86ᵃ</cite> Alf., v. <cite ref=\"I00692\"><he>טַצְהַר</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "O00767",
+	"slug": "סיע-1",
+	"headword": {
+		"text": "סִיעַ"
+	},
+	"page": {
+		"number": 984,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>סִיֵּיעַ</he> (denom. of <cite ref=\"O00771\"><he>סִיעָה</he></cite>) [<i>to accompany, join a caravan, escort</i>,] <i>to aid, assist</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 104a:6\">Sabb. 104ᵃ</cite>; <cite ref=\"Yoma 38b\">Yoma 38ᵇ</cite>, a. e. <he>מְסַיְּיעִים אותו</he>, v. <cite ref=\"I00101\"><he>טָהֵר</he></cite>. Sifra K’dosh., Par. 1, ch. II <he>לא תְסַיֵּיעַ את העני</he> do not assist one poor man (in gleaning, to the injury of another poor man). ",
+						"<cite ref=\"Beitzah 22a:16\">Bets. 22ᵃ</cite> <he>מְסַיֵּיעַ אין בו ממש</he> assisting (the gentile in an operation on the Holy Day) is no real act; a. fr.—Trnsf. <i>to support an opinion of, to prove in favor of</i>. ",
+						"<cite ref=\"Sanhedrin 91b:6\">Snh. 91ᵇ</cite> <he>ומקרא מְסַיְּיעוֹ</he> and a Bible verse supports him. Y. ib. IV, beg. 22ᵃ <he>ובא חבירו וסִיְּיעוֹ</he> and a fellow witness came and confirmed his evidence; a. fr.—[<cite ref=\"Tosefta Kilaim 3:12\">Tosef. Kil. III, 12</cite> <he>סייעתו</he> ed. Zuck. Var, read: <he>סיערתו</he>, v. <cite ref=\"O01295\"><he>סָעַר</he> II</cite>.]"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

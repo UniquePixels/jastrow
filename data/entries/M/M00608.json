@@ -1,0 +1,28 @@
+{
+	"id": "M00608",
+	"slug": "מורא-2",
+	"headword": {
+		"text": "מוֹרָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מוֹרָה"
+		}
+	],
+	"page": {
+		"number": 748,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (μωρά) <i>stupid, foolish</i>. Lam. R. introd. (R. Simeon) (play on <he>מוראה</he>, <cite ref=\"Zephaniah 3:1\">Zeph. III, 1</cite>) [read:] <he>ל״י הוא שכן בל״י קורין לשוטיתא מ׳</he> it is a Greek expression, for in Greek they call a foolish woman <i>mora</i>; Yalk. Zeph. 567 <cite ref=\"M01292\"><he>מירה</he></cite> (corr. acc.). ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 9:20\">Midr. Till. to Ps. IX, 21</cite> (play on <he>מורה</he>, <cite ref=\"Midrash Tehillim 9:20\">ib.</cite>) <he>הכנס בהן … שכן בל״י … מ׳</he> let folly enter into their hearts, for in Greek they call a fool <i>mora</i> (= <cite ref=\"M00634\"><he>מוֹרוֹס</he></cite>)."
+			]
+		}
+	]
+}

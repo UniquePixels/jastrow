@@ -1,0 +1,40 @@
+{
+	"id": "E00462",
+	"slug": "היני",
+	"headword": {
+		"text": "הִינִי"
+	},
+	"page": {
+		"number": 348,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl. pr. n. pl. <i>Hini</i>, a Babylonian place near Pumbeditha, a twin-town of Shili. ",
+			"units": [
+				"<cite ref=\"Gittin 80a\">Gitt. 80ᵃ</cite>. ",
+				"<cite ref=\"Beitzah 25b:5\">Bets. 25ᵇ</cite>. ",
+				"<cite ref=\"Bava Metzia 72b:15\">B. Mets. 72ᵇ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. m. <i>Hini</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 147a:7\">Sabb. 147ᵃ</cite> <he>אסי בר ה׳</he> (Ms. M. <he>ר׳ א׳ בר חני</he>, v. Rabb. D. S. a. l. note)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <cite ref=\"E00456\"><he>בית ה׳</he></cite> pr. n. pl. <i>Beth Hini</i> [Bethania], a place near Jerusalem (v. Neub. Géogr. p. 149 sq.). ",
+			"units": [
+				"<cite ref=\"Bava Metzia 88a:9\">B. Mets. 88ᵃ</cite> <he>חניות של בית הינו</he> (Ms. H. <cite ref=\"H01310\"><he>חנן</he></cite>; <cite ref=\"Jerusalem Talmud Peah 1:4:3\">Y. Peah I, 16ᶜ</cite> bot. <he>בני חנון</he>; <cite ref=\"Sifrei Devarim 105:19\">Sifré Deut. 105</cite> <he>בני חנן</he>) the shops of B. ",
+				"<cite ref=\"Pesachim 53a:5\">Pes. 53ᵃ</cite> <cite ref=\"E00456\"><he>בית ה׳</he></cite> (Ms. M. <he>בייתני</he>); <cite ref=\"Tosefta Shevi'it 7:14\">Tosef. Shebi. VII, 14</cite> <he>ביתייני</he>, <he>ביתיאני</he>; <cite ref=\"Eruvin 28b\">Erub. 28ᵇ</cite> <cite ref=\"B00761\"><he>ביתיוני</he></cite> (Ms. M. <he>בית ואני</he>); v. <cite ref=\"A00737\"><he>אוֹנִי</he> II</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

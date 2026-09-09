@@ -1,0 +1,27 @@
+{
+	"id": "D00243",
+	"slug": "דוך-3",
+	"headword": {
+		"text": "דּוּךְ",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דּוּכָא"
+		}
+	],
+	"page": {
+		"number": 285,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", m. (cmp. <cite ref=\"D00754\"><he>דֵּךְ</he></cite>; Assyr. <cite ref=\"D00771\"><he>דכי</he></cite> <i>to muster</i>, Schr. KAT p. 209<sup>9</sup>) [<i>marked off, pointed out</i>,] <i>place, stand, hall</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 14:28\">Targ. I Kings XIV, 28</cite> (ed. Lag. <he>דובא</he>, some ed. <he>רובא</he>, corr. acc.); <cite ref=\"Targum of II Chronicles 12:11\">Targ. II Chr. XII, 11</cite> (h. text <cite ref=\"V00003\"><he>תָּא</he></cite>).—",
+				"<cite ref=\"Berakhot 18b\">Ber. 18ᵇ</cite>. ",
+				"<cite ref=\"Berakhot 42b\">Ib. 42ᵇ</cite>.  v. <cite ref=\"D00263\"><he>דּוּכְתָּא</he></cite>."
+			]
+		}
+	]
+}

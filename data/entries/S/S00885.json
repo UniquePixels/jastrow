@@ -1,0 +1,51 @@
+{
+	"id": "S00885",
+	"slug": "קיום-2",
+	"headword": {
+		"text": "קִיּוּם",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קִיּוּמָא"
+		},
+		{
+			"text": "קִיּי׳"
+		}
+	],
+	"page": {
+		"number": 1356,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00884\">same</cite><i>preservation, maintenance</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Deuteronomy 12:23\">Targ. Y. Deut. XII, 23</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>existence, being, duration</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 2:3:8\">Y. Snh. II, 20ᵇ</cite> top (expl. <cite ref=\"L00343\"><he>לחי</he></cite>, <cite ref=\"I Samuel 25:61\">I Sam. XXV, 61</cite>) <he>לק׳</he> (so may it be) for life; Midr. Sam. ch. XXIII <he>לקיומו</he> (corr. acc.). ",
+				"<cite ref=\"Kohelet Rabbah 6:3:1\">Koh. R. to VI, 3</cite>, v. <cite ref=\"J00562\"><he>יְקוּם</he></cite>; <cite ref=\"Bereishit Rabbah 32:5\">Gen. R. s. 32</cite> <he>קִיּוּמַיָּה</he> (<i>pl.</i>) living beings; <cite ref=\"Yalkut Shimoni on Torah 56\">Yalk. ib. 56</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>substantiation, confirmation</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Chagigah 3:2:7\">Y. Ḥag. III, 79ᵇ</cite> top <he>מתניתא מינה קִיּוּמָהּ וכ׳</he> from the Mishnah we can derive the confirmation of this opinion and also its refutation. M. Mets. 20ᵇ <he>לא משהי אינש קִיּוּמֵיה וכ׳</he> no man leaves a certified document of his with the scribe; (Ms. M. a. oth. <he>קִיּוּמֵי</he> <i>pl.</i>)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>oath</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 30:11\">Targ. O. Num. XXX, 11</cite> <he>בקיום</he>, Y. <he>בקיומא</he>; h. text <he>בשבעה</he>); a. e.—V. <cite ref=\"S00886\">next w.</cite>"
+			],
+			"label": "4"
+		}
+	]
+}

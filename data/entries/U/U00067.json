@@ -1,0 +1,32 @@
+{
+	"id": "U00067",
+	"slug": "שבבין",
+	"headword": {
+		"text": "שִׁבְּבִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁבְ׳"
+		},
+		{
+			"text": "שֵׁיבְ׳"
+		}
+	],
+	"page": {
+		"number": 1510,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"U00066\">preced. art.</cite>; cmp. <cite ref=\"U00780\"><he>שִׁיבָּא</he></cite>, a. <cite ref=\"U00115\"><he>שְׁבִיבָא</he></cite>) [<i>chips</i> or <i>sparks</i>,] name of a certain feminine <i>ornament</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 35:22\">Targ. O. Ex. XXXV, 22</cite> <cite ref=\"U00067\"><he>שִׁבְּבִין</he></cite> or <cite ref=\"U00067\"><he>שִׁבְבִין</he></cite> Ms. (ed. <he>שבכין</he>; Y. <cite ref=\"U00836\"><he>שֵׁיוְוִין</he></cite>, <cite ref=\"U00396\"><he>שִׁיוְ׳</he></cite>; h. text <cite ref=\"N00456\"><he>נזם</he></cite>). ",
+				"<cite ref=\"Onkelos Numbers 31:50\">Targ. O. Num. XXXI, 50</cite> Ms. (ed. <he>שבכין</he>; h. text <cite ref=\"R00575\"><he>צמיד</he></cite>). [V. Berl. Targ. O. II, p. 31; p. 48.]"
+			]
+		}
+	]
+}

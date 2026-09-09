@@ -1,0 +1,70 @@
+{
+	"id": "S02103",
+	"slug": "קרן-4",
+	"headword": {
+		"text": "קְרַן",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "קֶרֶן"
+		},
+		{
+			"text": "קַרְנָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1422,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S02102\">same</cite><i>horn</i>; trnsf. <i>strength; beam, ray</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 6:5\">Targ. Josh. VI, 5</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 16:1\">Targ. I Sam. XVI, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 89:18\">Targ. Ps. LXXXIX, 18</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 42:14\">Targ. Job XLII, 14</cite>; a. fr.—",
+				"<cite ref=\"Bava Batra 16b:8\">B. Bath. 16ᵇ</cite>, v. <cite ref=\"S02198\"><he>קֶרֶשׁ</he> II</cite>. ",
+				"<cite ref=\"Berakhot 62b:2\">Ber. 62ᵇ</cite> (prov.) <he>ק׳ קריא ברומי וכ׳</he> when the horn calls in (the market of) Rome, son of a trader in figs, sell thy father’s figs (wait not for thy father’s return, if he is absent). ",
+				"<cite ref=\"Makkot 16b\">Macc. 16ᵇ</cite>, a. e. <he>ק׳ דאומנא</he> the surgeon’s horn (in which he receives the blood); a. fr.—Pl. <he>קרְנִין</he>, <he>קַרְנֵי</he>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 22:11\">Targ. I Kings XXII, 11</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 69:32\">Targ. Ps. LXIX, 32</cite> (v. ",
+				"<cite ref=\"Chullin 60a:7\">Ḥull. 60ᵃ</cite>, quoted in <cite ref=\"S02102\">preced.</cite>); a. fr.—",
+				"<cite ref=\"Shabbat 154b\">Sabb. 154ᵇ</cite> <he>ק׳ דאומנא</he>, v. supra. ",
+				"<cite ref=\"Shabbat 129b:12\">Ib. 129ᵇ</cite> <he>מאה ק׳ בזוזא וכ׳</he> Ar. a. Ms. O. (ed. <cite ref=\"S02017\"><he>קרי</he></cite>, v. Tosaf. a. l.) a hundred horns (hundred blood-lettings) for a Zuz, a hundred heads (hair-cuttings) for a Zuz, a hundred lips (trimmings of mustaches) for nothing. ",
+				"<cite ref=\"Bava Batra 74a:7\">B. Bath. 74ᵃ</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>projection; corner</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 21:9\">Targ. Prov. XXI, 9</cite>; a. e.—",
+				"<cite ref=\"Ketubot 111a:15\">Keth. 111ᵃ</cite> <he>וקרו לה ק׳ וכ׳</he> (not <he>ליה</he>) and they shall call it (Babylonia) the corner of salvation. ",
+				"<cite ref=\"Bava Kamma 27b:9\">B. Kam. 27ᵇ</cite>, v. <cite ref=\"P01133\"><he>עַצְרָא</he></cite>. ",
+				"<cite ref=\"Menachot 34a:4\">Men. 34ᵃ</cite> <he>פיתחא דאַקַּ׳</he> a door at the corner (having only one post); a. e.—Pl. <he>קַרְנִין</he>, <he>קַרְנָתָא</he>, <he>קַרְנָאתָא</he>; constr. <cite ref=\"S02110\"><he>קַרְנַת</he></cite>. ",
+				"<cite ref=\"Onkelos Exodus 29:12\">Targ. Ex. XXIX, 12</cite>. ",
+				"<cite ref=\"Onkelos Exodus 30:10\">Ib. XXX, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 69:13\">Targ. Ps. LXIX, 13</cite>; a. e.—",
+				"<cite ref=\"Bava Batra 95b\">B. Bath. 95ᵇ</cite> <he>דמיזדבין אק׳</he> which is sold at the street-corners. ",
+				"<cite ref=\"Pesachim 12b:7\">Pes. 12ᵇ</cite> <he>שית יומא בי ק׳ קאי</he> (not <he>בק׳</he>) at six hours (at noon) the sun stands between the corners (of the globe, equally distant from east and west &c.)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>essence</i>, v. <cite ref=\"K01237\"><he>כְּרֵן</he></cite>.",
+			"units": [],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>principal, stock</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 79a:8\">B. Mets. 79ᵃ</cite>; <cite ref=\"Bava Kamma 3a:8\">B. Kam. 3ᵃ</cite>, v. <cite ref=\"K00717\"><he>כְּלֵי</he> I</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 2:3:2\">Y. M. Kat. II, 81ᵇ</cite> top <he>אגרא וק׳ קרן הוא וכ׳</he> the expected profit and the principal (cost price) are together considered as principal &c.; a. e.—[<he>קרנא זול</he>, v. <cite ref=\"S02107\"><he>קַרְנָזוֹל</he></cite>.]"
+			],
+			"label": "4"
+		}
+	]
+}

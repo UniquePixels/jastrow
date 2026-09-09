@@ -1,0 +1,27 @@
+{
+	"id": "Q00878",
+	"slug": "פירשע",
+	"headword": {
+		"text": "פִּירְשָׁע"
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּרְ׳"
+		}
+	],
+	"page": {
+		"number": 1172,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>ebony</i> or <i>box-wood</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 2:19\">Tosef. Kel. B. Mets. II, 19</cite> (<cite ref=\"Mishnah Kelim 12:8\">Kel. XII, 8</cite> <cite ref=\"A03311\"><he>אשכרוע</he></cite>)."
+			]
+		}
+	]
+}

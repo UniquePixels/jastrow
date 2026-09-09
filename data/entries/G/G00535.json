@@ -1,0 +1,110 @@
+{
+	"id": "G00535",
+	"slug": "זמן-1",
+	"headword": {
+		"text": "זָמַן"
+	},
+	"page": {
+		"number": 404,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"G00052\"><he>זבן</he></cite>)<i>to arrange, designate</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זִימֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to invite</i>, esp. <i>to a meal</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 79b:9\">B. Kam. 79ᵇ</cite>; a. v. fr.—<i>Part. pass.</i> <he>מְזוּמָּן</he>, f. <he>מְזוּמֶּנֶת</he>; pl. <he>מְזוּמָּנִים</he>, <he>מְזוּמָּנוֹת</he> "
+					],
+					"label": "1",
+					"senses": [
+						{
+							"gloss": " <i>invited</i>. ",
+							"units": [
+								"<cite ref=\"Pesikta Rabbati 41:1\">Pesik. R. s. 41</cite>, end <he>מי שהוא מ׳ לסעודה</he> he who is invited to the feast. ",
+								"<cite ref=\"Pesikta Rabbati 41:1\">Ib.</cite> (expl. <he>מקראי</he>, <cite ref=\"Isaiah 48:12\">Is. XLVIII, 12</cite>) <he>מְזוּמָּנִי</he> My invited guest (Israel); a. e.—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>designated, chosen</i>. ",
+							"units": [
+								"<cite ref=\"Berakhot 43a\">Ber. 43ᵃ</cite> <he>הוא מ׳ לברכה</he> he is the one designated (by the host) to say grace. ",
+								"<cite ref=\"Avodah Zarah 17a:15\">Ab. Zar. 17ᵃ</cite> <he>מז׳ לחיי וכ׳</he> chosen for the bliss of futurity.—",
+								"<cite ref=\"Sanhedrin 102a:4\">Snh. 102ᵃ</cite> <he>עת היא מ׳ וכ׳</he> there is a time designated for &c. ",
+								"<cite ref=\"Sanhedrin 102a\">Ib.</cite> <he>יום מזומן</he> (not <he>עת היא</he>, v. Rabb. D. S. a. l. note 8); <cite ref=\"Yalkut Shimoni on Nach 330\">Yalk. Is. 330</cite>; <cite ref=\"Yalkut Shimoni on Nach 330\">ib.</cite> Jer. 287.—"
+							],
+							"label": "b"
+						},
+						{
+							"gloss": " <i>ready at hand, in one’s possession</i>. ",
+							"units": [
+								"<cite ref=\"Bava Metzia 102a:23\">B. Mets. 102ᵃ</cite>; <cite ref=\"Sifrei Devarim 227\">Sifré Deut. 227</cite>, a. e. <he>כי יקרא פרט למ׳</he> ‘if it chance’ (<cite ref=\"Deuteronomy 22:6\">Deut. XXII, 6</cite>) this excludes that which is at thy disposal (in thy court yard); a. e.—2) <i>to appoint a meal in common</i>, so as to say grace together; <i>to preface the grace after meal by saying, Let us praise</i> &c.; v. <cite ref=\"G00363\"><he>זִימּוּן</he></cite>. ",
+								"<cite ref=\"Mishnah Berakhot 7:1\">Ber. VII, 1</cite> <he>שלשה … חייבין לזַמֵּן</he> if three dine together, they are bound to make an appointment for common grace. ",
+								"<cite ref=\"Mishnah Berakhot 7:1\">Ib.</cite> <he>מְזַמְּנִין עליו</he> common grace may be appointed by making him one of the party (offering him something to eat). ",
+								"<cite ref=\"Mishnah Berakhot 7:1\">Ib.</cite> <he>אין מ׳ עליהן</he> you cannot count them in (to make up the requisite number). Ib. 2 <he>עד כמה מזמנין</he> how much must one eat of the meal in order to be counted one of the company? Ib. 3 <he>כיצד מ׳</he> how is the appeal for common grace made?; a. fr."
+							],
+							"label": "c"
+						}
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִזְמִין"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to prepare, to notify</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Demai 7:1\">Dem. VII, 1</cite> <he>המַזְמִין את הבירו וכ׳</he> if one notifies his friend that he will dine with him (on the Sabbath)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to designate for use;</i> v. <cite ref=\"E00302\"><he>הַזְמָנָה</he></cite>. ",
+					"units": [
+						"<cite ref=\"Berakhot 26a:5\">Ber. 26ᵃ</cite> <he>הִזְמִינוֹ וכ׳</he> if he designated a building for &c."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to summon</i>, v. <cite ref=\"G00536\">next w.</cite>",
+					"units": [],
+					"label": "3"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִזְדַּמֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to meet, to come to hand</i> (providentially); <i>to join one’s self to</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 96a\">Snh. 96ᵃ</cite> <he>אותו מלאך שנ׳ לו וכ׳</he> that angel who was commissioned to accompany Abraham. ",
+						"<cite ref=\"Sanhedrin 96a:8\">Ib.</cite> <he>נ׳ לו רגלי אחד</he> a footman was joined to him (to meet his challenge). ",
+						"<cite ref=\"Avodah Zarah 25b\">Ab. Zar. 25ᵇ</cite> <he>ישראל שנ׳ לו וכ׳</he> (<cite ref=\"Chullin 91a:15\">Ḥull. 91ᵃ</cite> <he>שנטפל</he>) an Israelite whom a gentile joins on the road. ",
+						"<cite ref=\"Mishnah Sheviit 7:4\">Shebi. VII, 4</cite> <he>שנִזְדַּמְּנוּ להם וכ׳</he> who accidentally caught unclean animals; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make an appointment for meeting one another</i>. ",
+					"units": [
+						"<cite ref=\"Pesikta Rabbati 33:1\">Pesik. R. s. 33</cite>, v. <cite ref=\"G00363\"><he>זִימּוּן</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "C01129",
+	"slug": "גנח-2",
+	"headword": {
+		"text": "גְּנַח",
+		"homograph": 1
+	},
+	"page": {
+		"number": 259,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01128\">same</cite>, <i>to groan, rumble</i> (of the underground thunder at earthquakes). ",
+			"units": [
+				"<cite ref=\"Berakhot 59a:4\">Ber. 59ᵃ</cite> <he>ג׳ גוהא</he> (Ms. M. <cite ref=\"C01074\"><he>גְּנָא</he></cite>, Ms. O. <cite ref=\"C01096\"><he>גְּנַהּ</he></cite>), v. <cite ref=\"C00322\"><he>גּוּהָא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּנַּח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"C01128\">same</cite>, esp. <i>to utter disconnected sounds</i> (staccato), opp. to <he>יליל</he> to utter a trembling plaintive sound (tremolo). ",
+					"units": ["<cite ref=\"Rosh Hashanah 34a:23\">R. Hash. 34ᵃ</cite>"]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "P01318",
+	"slug": "ערוד-1",
+	"headword": {
+		"text": "עָרוֹד",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1114,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>ʿArod</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 41:11\">Sifré Deut. 41</cite> <he>בית ע׳</he>, v. <cite ref=\"A03105\"><he>אֲרִים</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "E00724",
+	"slug": "הערייה",
+	"headword": {
+		"text": "הַעֲרָיָיה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הַעֲרָאָה"
+		}
+	],
+	"page": {
+		"number": 360,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01305\"><he>עָרָה</he></cite>, v. ",
+			"units": [
+				"<cite ref=\"Leviticus 20:18\">Lev. XX, 18</cite>) <i>sexual contact, the first stage of sexual connection</i>. ",
+				"<cite ref=\"Tosefta Sotah 1:2\">Tosef. Sot. I, 2</cite>; Y. ib. I, 16ᶜ bot. <he>כדי ה׳</he> time long enough for arriving at the intimacy of the first stage. ",
+				"<cite ref=\"Yevamot 55b:17\">Yeb. 55ᵇ</cite>, a. e. <he>ה׳ זו הכנסת וכ׳</he>, v. <cite ref=\"E00518\"><he>הַכְנָסָה</he></cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "A02949",
+	"slug": "ארב-1",
+	"headword": {
+		"text": "אָרַב"
+	},
+	"page": {
+		"number": 113,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; √<he>אר</he>, v. <he>ארר</he>, cmp. <he>ארג</he>)<i>to press into holes, to make holes; to weave; join</i>. ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to look through a hole, to espy, lurk, lie in wait</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 44b\">B. Kam. 44ᵇ</cite>, a. e. (ref. to <cite ref=\"Deuteronomy 19:11\">Deut. XIX, 11</cite>) <he>וא׳ לו וכ׳</he> it says ‘And he lurks for <i>him</i>’ &c., that means the intention to kill <i>that</i> man.—Denom. <cite ref=\"A03015\"><he>ארובה</he></cite>, <cite ref=\"A00848\"><he>אורבא</he></cite>, <he>ארבל׳</he>, <cite ref=\"A02951\"><he>ארבא</he></cite>, <cite ref=\"A02974\"><he>ארבתא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

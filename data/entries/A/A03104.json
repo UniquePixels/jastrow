@@ -1,0 +1,22 @@
+{
+	"id": "A03104",
+	"slug": "אריכותא-2",
+	"headword": {
+		"text": "אֲרֵיכוּתָא"
+	},
+	"page": {
+		"number": 120,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"A03096\"><he>אֲרִיךְ</he> II</cite>, 2) <i>preparation, future</i> (v. <he>ורך</he>, Schr. KAT p. 549). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 31:5\">Targ. Jer. XXXI, 5</cite>."
+			]
+		}
+	]
+}

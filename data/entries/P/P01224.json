@@ -1,0 +1,22 @@
+{
+	"id": "P01224",
+	"slug": "עקרבת",
+	"headword": {
+		"text": "עַקְרַבַּת"
+	},
+	"page": {
+		"number": 1109,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>ʿAḳrabbath</i>, a place at a day’s distance north of Jerusalem. ",
+			"units": [
+				"<cite ref=\"Mishnah Maaser Sheni 5:2\">Maas. Sh. V, 2</cite> Ms. M. (ed. <cite ref=\"P01221\"><he>עַקְרַבָּה</he></cite>; v. Rabb. D. S. a. l. note); <cite ref=\"Beitzah 5a\">Bets. 5ᵃ</cite> <he>עקרבת</he> Ms. M. (ed. <cite ref=\"P01220\"><he>עקרבא</he></cite>, <cite ref=\"P01221\"><he>עקרבה</he></cite>)."
+			]
+		}
+	]
+}

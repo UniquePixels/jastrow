@@ -1,0 +1,23 @@
+{
+	"id": "M02677",
+	"slug": "מריצה-1",
+	"headword": {
+		"text": "מְרִיצָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 843,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T01001\"><he>רָצַץ</he></cite>) <i>a tool for crushing</i> bones, stones &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Shekalim 8:2\">Shek. VIII, 2</cite> <he>חוץ מן</he> … <he>והמ׳ והמיוחדין וכ׳</he> Ms. M. (ed. <he>המיוחדין</he>, v. Rabb. D. S. a. l. note; Ms. M. <he>והמרחצ׳</he>; Y. ed. omits our w.) except the basket (for gathering disinterred bones for burial), the shovel, and the crusher, and things specially designated for burial purposes. Y. ib. 51ᵃ bot. <he>מ״ד מ׳ שמריצה את האבן</he> (v. Rabb. D. S. to Bab. ed., p. 68ᵃ; Bab. ed. add <he>לבית הקברות</he>) he who calls the tool <i>m’ritsah</i> (instead of <cite ref=\"R00687\"><he>צפורן</he></cite>) does so, because it makes the stones run (fr. <cite ref=\"T00427\"><he>רוּץ</he></cite>), i.e. makes them portable."
+			]
+		}
+	]
+}

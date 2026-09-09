@@ -1,0 +1,23 @@
+{
+	"id": "Q00555",
+	"slug": "פטרוזא",
+	"headword": {
+		"text": "פַּטְרוֹזָא"
+	},
+	"page": {
+		"number": 1158,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<i>Palez</i> of <cite ref=\"Q00550\"><he>פטר</he></cite>) <i>a prematurely born animal, a puny lamb</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 11a:3\">Bekh. 11ᵃ</cite> <he>אפי׳ פ׳ בר דנקא</he> even a puny lamb worth no more than a Danḳa. ",
+				"<cite ref=\"Zevachim 48a:15\">Zeb. 48ᵃ</cite> <he>פ׳ בר דנקא</he> Ar. (ed. <he>חטאת בת ד׳</he>, <he>אשם בר ד׳</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "O00898",
+	"slug": "סכין-2",
+	"headword": {
+		"text": "סַכִּין"
+	},
+	"page": {
+		"number": 989,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h. <cite ref=\"U01150\"><he>שַׂכִּין</he></cite> , v. <cite ref=\"O00873\"><he>סִכָּא</he></cite>) <i>knife</i> (inserted in a handle), mostly <i>slaughtering knife</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Chullin 1:2\">Ḥull. I, 2</cite>. ",
+				"<cite ref=\"Chullin 8a:10\">Ib. 8ᵃ</cite>; a. v. fr.—Pl. <he>סַכִּינִין</he>. ",
+				"<cite ref=\"Chullin 8b:8\">Ib.ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

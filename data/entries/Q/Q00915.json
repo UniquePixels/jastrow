@@ -1,0 +1,22 @@
+{
+	"id": "Q00915",
+	"slug": "פכחותא",
+	"headword": {
+		"text": "פַּכְחוּתָא"
+	},
+	"page": {
+		"number": 1174,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00914\">preced.</cite>) <i>that which evaporates, fluid</i>, opp. <he>חרותא</he> sediment. ",
+			"units": [
+				"<cite ref=\"Niddah 20a:17\">Nidd. 20ᵃ</cite> <he>פ׳ דדיותא</he> the fluid portion of the ink."
+			]
+		}
+	]
+}

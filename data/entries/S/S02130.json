@@ -1,0 +1,40 @@
+{
+	"id": "S02130",
+	"slug": "קרע-3",
+	"headword": {
+		"text": "קֶרַע"
+	},
+	"page": {
+		"number": 1424,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"S02129\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>rent; piece</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 168b:4\">B. Bath. 168ᵇ</cite> <he>ק׳ של בית דין</he>, v. <cite ref=\"S02128\"><he>קָרַע</he></cite>; <cite ref=\"Jerusalem Talmud Gittin 2:3:5\">Y. Gitt. II, 44ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 2:3:5\">Ib.</cite> <he>איזהו ק׳ … בין כתב לעדים</he> which is a rent made in court? A cut between the writing and the signatures of the witnesses; (different in B. Bath. l. c.); a. e.—Esp. <i>the rent in the garment as a symbol of mourning</i>. ",
+				"<cite ref=\"Moed Katan 24a:8\">M. Kat. 24ᵃ</cite> <he>כל ק׳ שאינו … אינו ק׳</he> a rent not made at the moment of excitement (v. <cite ref=\"H00800\"><he>חִימּוּם</he></cite>) is no rent (has no symbolical meaning); <cite ref=\"Jerusalem Talmud Bava Metzia 2:11:4\">Y. B. Mets. II, end, 8ᵈ</cite>, v. <cite ref=\"B00180\"><he>בֶּהָלָה</he></cite>. ",
+				"<cite ref=\"Moed Katan 22b:15\">M. Kat. 22ᵇ</cite>, v. <cite ref=\"S02074\"><he>קְרִיעָה</he></cite>; a. fr.—Pl. <he>קְרָעִים</he>, <he>קְרָעִין</he>. ",
+				"<cite ref=\"Moed Katan 26a:1\">Ib. 26ᵃ</cite> <he>ואלו ק׳ שאין וכ׳</he> and these are the rents which must never be stitched together. Sifra Thazr. Par. 5, ch. XVI (ref. to <cite ref=\"Leviticus 13:57\">Lev. XIII, 57</cite>) <he>לימד על כל הק׳ וכ׳</he> this shows that all the torn-off pieces must be burnt. ",
+				"<cite ref=\"Sanhedrin 60a:20\">Snh. 60ᵃ</cite> <he>נתמלא כל הבגד ק׳</he> one’s entire garment might soon be full of rents. ",
+				"<cite ref=\"Tosefta Bava Kamma 3:2\">Tosef. B. Kam. III, 2</cite> <he>לא יאמר … ואת הק׳ וכ׳</he> the injured person cannot say, take thou … the pieces (the torn garment) and restore to me a cloak; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the groove made by marking the outlines of letters</i>. Y. Gitt. III, 44ᵇ <he>מרחיב בפניהן את הק׳</he> (in the case of witnesses that know not how to sign their names) one must make wide grooves for them (so as to leave room for individual characters in filling out the outlines).—<i>Pl.</i> as ab. Bab. ",
+			"units": [
+				"<cite ref=\"Gittin 19b\">Gitt. 19ᵇ</cite>, v. <cite ref=\"S02128\"><he>קָרַע</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

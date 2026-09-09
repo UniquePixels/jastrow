@@ -1,0 +1,35 @@
+{
+	"id": "H00404",
+	"slug": "חוני",
+	"headword": {
+		"text": "חוֹנִי"
+	},
+	"page": {
+		"number": 436,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (abbrev. of <cite ref=\"N00219\"><he>נְתוּנְיָא</he></cite>) <i>Ḥoni, Onias</i>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>Ḥ.</i> surnamed <i>M’aggel</i> (circle-drawer). ",
+			"units": [
+				"<cite ref=\"Mishnah Taanit 3:8\">Taan. III, 8</cite>; <cite ref=\"Berakhot 19a:11\">Ber. 19ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " his grandson. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 3:9:4\">Y. Taan. III, 66ᵈ</cite> bot.; <cite ref=\"Midrash Tehillim 126:1\">Midr. Till. to Ps. CXXVI</cite>.—Tosef. ",
+				"<cite ref=\"Rosh Hashanah 4a\">R. Hash. I</cite>V (II), 11 <he>ח׳ הקטן</he>."
+			],
+			"label": "2"
+		}
+	]
+}

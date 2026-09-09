@@ -1,0 +1,34 @@
+{
+	"id": "I00471",
+	"slug": "טלאי-1",
+	"headword": {
+		"text": "טְלָאי"
+	},
+	"page": {
+		"number": 535,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"I00470\"><he>טָלָא</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>a piece of cloth</i> used as blanket. ",
+			"units": [
+				"<cite ref=\"Sukkah 17b\">Succ. 17ᵇ</cite> <he>ראוי לט׳ על וכ׳</he> Ms. M. a. Ar. (ed. <he>ליטלו</he>) fit for a blanket over an ass."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>patch</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 43b:15\">Ber. 43ᵇ</cite> <he>ט׳ על גבי ט׳</he> patch upon patch. V. <he>טְלָיוֹת</he>."
+			],
+			"label": "2"
+		}
+	]
+}

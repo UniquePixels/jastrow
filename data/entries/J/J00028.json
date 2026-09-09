@@ -1,0 +1,28 @@
+{
+	"id": "J00028",
+	"slug": "יבא",
+	"headword": {
+		"text": "יֵבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "יֵיבָא"
+		}
+	],
+	"page": {
+		"number": 560,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (= <he>יְהֵא בָא</he>) <he>י׳ כ־</he> (= ch. <he>אתיא כ־</he>, v. <cite ref=\"A03397\"><he>אֲתָא</he></cite>) <i>it agrees with, corresponds to</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:4:3\">Y. Sabb. III, 6ᵇ</cite> top <he>י׳ כיי דמר ר׳ וכ׳</he> it agrees with what R. Z. said. Ib. XVI, 15ᶜ bot. <he>יי׳ וכ׳</he>. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 6:3:5\">Y. Erub. VI, 23ᶜ</cite> top <he>יי׳ כי וכ׳</he> (read <cite ref=\"K00518\"><he>כיי</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Pesachim 1:1:9\">Y. Pes. I, 27ᵇ</cite> top [read:] <he>יי׳ כהדא דתני כ׳ זכריה</he>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:31\">Y. Ber. I, 3ᵃ</cite> top <he>יֵיבָה כיי דר׳ זעירא</he> ed. Lehm. (oth. ed. <he>יְהֵא בָא כיי דמר וכ׳</he>, ed. Krot. <he>יהא בה</he>).—",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 2:6:2\">Y. B. Kam. II, end, 3ᵃ</cite> <he>יי׳ בתפלוגתה וכ׳</he> it enters into (depends upon) the difference of opinions between &c.; ib. IV, 4ᵇ top <he>יי׳ כפלוגתא</he> (read: <he>בפ׳</he>)."
+			]
+		}
+	]
+}

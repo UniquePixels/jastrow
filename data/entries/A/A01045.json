@@ -1,0 +1,61 @@
+{
+	"id": "A01045",
+	"slug": "אחר-2",
+	"headword": {
+		"text": "אֲחַר"
+	},
+	"page": {
+		"number": 40,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"A01044\">same</cite>.<i>to be behind</i>. ",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " *<i>to cover</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 5:8\">Targ. Jer. V, 8</cite> (of steeds, h. text <he>מוזנים</he>; some ed. <cite ref=\"D00000\"><he>ד</he></cite> for. <cite ref=\"T00000\"><he>ר</he></cite>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אחרוה"],
+			"senses": [
+				{
+					"gloss": " take ye a later meal (on Sabbaths).",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אוֹחַר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"A01044\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 20:5\">Targ. II Sam. XX, 5</cite>; a. fr.—[<cite ref=\"Aramaic Targum to Proverbs 23:30\">Targ. Prov. XXIII, 30</cite> <he>מַוְחֲרִין</he>, <he>מְוַוחֲרִין</he> Part. Af. or Pa. of <he>יחר</he> = <he>מוֹחר׳</he>, <he>מאחר׳</he>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְאֲחַר"],
+			"senses": [
+				{
+					"gloss": ", contr. <cite ref=\"H01769\"><he>אִתְחַר</he></cite> to <i>be delayed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 1:2\">Targ. Y. I Deut. I, 2</cite>; cmp. however <cite ref=\"Targum Jonathan on Deuteronomy 1:2\">ib.</cite> v. 6, v. <cite ref=\"A03062\"><he>אֲרַח</he></cite>."
+					]
+				}
+			],
+			"stem": "*Ithpe."
+		}
+	]
+}

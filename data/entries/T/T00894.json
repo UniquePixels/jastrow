@@ -1,0 +1,34 @@
+{
+	"id": "T00894",
+	"slug": "רעי-6",
+	"headword": {
+		"text": "רֵעִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "רַעֲיָא",
+			"homograph": 1
+		},
+		{
+			"text": "רֵעָא"
+		},
+		{
+			"text": "רֵי׳"
+		}
+	],
+	"page": {
+		"number": 1487,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T00893\">same</cite> <cite ref=\"Aramaic Targum to Psalms 83:11\">Targ. Ps. LXXXIII, 11</cite> (ed. Wil. <cite ref=\"T00892\"><he>רְעִי</he></cite>; ed. Lag. <he>ריעיא</he>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 20:7\">Targ. Job XX, 7</cite> <cite ref=\"T00897\"><he>רַעְיֵה</he></cite> (ed. Lag. <he>רַעְיֵיה</he>). ",
+				"<cite ref=\"Aramaic Targum to Esther 5:1\">Targ. Esth. V, 1</cite>, v. <cite ref=\"A02878\"><he>אֲצִיצָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 23:14\">Targ. Y. Deut. XXIII, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 4:11\">Targ. Y. Lev. IV, 11</cite>; a. fr."
+			]
+		}
+	]
+}

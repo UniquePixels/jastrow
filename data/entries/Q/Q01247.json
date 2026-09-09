@@ -1,0 +1,41 @@
+{
+	"id": "Q01247",
+	"slug": "פסולת",
+	"headword": {
+		"text": "פְּסוֹלֶת"
+	},
+	"page": {
+		"number": 1193,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q01325\"><he>פָּסַל</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>chips, stone-dust</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 5:2:5\">Y. Shek. V, 49ᵃ</cite> bot. <he>פסל לך שתהא הפ׳ שלך</he> ‘hew for thyself’ (<cite ref=\"Exodus 34:1\">Ex. XXXIV, 1</cite>) that the chips be thine; <cite ref=\"Nedarim 38a:3\">Ned. 38ᵃ</cite> <he>פְּסוֹלְתָּן שלך</he> their chips be thine. ",
+				"<cite ref=\"Nedarim 38a:3\">Ib.</cite>; Y. Shek. l. c. <he>מפ׳ של לוחית העשיר וכ׳</he> Moses became rich from the chips of the tablets; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>refuse, base metal, worthless matter</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 138a:10\">Sabb. 138ᵃ</cite> <he>נוטל אוכל ומניח את הפ׳</he> he takes up what is eatable, and leaves the refuse. ",
+				"<cite ref=\"Shabbat 138a:10\">Ib.</cite> <he>פ׳ למעלה וכ׳</he> (when you sift,) the refuse is on the surface, and the eatable peas are at the bottom. ",
+				"<cite ref=\"Bamidbar Rabbah 16\">Num. R. s. 16</cite> <he>שהפ׳ שלה משובח וכ׳</he> the inferior soil of Palestine was much superior to the best of &c. ",
+				"<cite ref=\"Bamidbar Rabbah 16:12\">Ib.</cite> <he>שכן התגרין מראין את הפ׳ וכ׳</he> so the merchants show the inferior goods first &c. ",
+				"<cite ref=\"Jerusalem Talmud Gittin 1:4:4\">Y. Gitt. I, 43ᵈ</cite> top (ref. to <he>מקצות</he>, <cite ref=\"I Kings 12:31\">I Kings XII, 31</cite>) <he>מן הקוצים שבעם ומן הפ׳ וכ׳</he> of the thorns among the people, the refuse &c. ",
+				"<cite ref=\"Sifrei Devarim 312:1\">Sifré Deut. 312</cite> <he>יצא ממנו פ׳</he> (sub. <cite ref=\"G00723\"><he>זרע</he></cite>) unworthy offspring came from him; <cite ref=\"Bereishit Rabbah 68\">Gen. R. s. 68</cite>; a. fr.—Pl. <he>פְּסוֹלוֹת</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 7\">Num. R. s. 7</cite>, beg., v. <cite ref=\"O01244\"><he>סָנַן</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

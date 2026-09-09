@@ -1,0 +1,22 @@
+{
+	"id": "M00647",
+	"slug": "מורייה-1",
+	"headword": {
+		"text": "מוֹרָיָיה"
+	},
+	"page": {
+		"number": 750,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= <cite ref=\"E00271\"><he>הוֹרָאָה</he></cite>; <cite ref=\"J00601\"><he>יָרָה</he></cite>) <i>decision, law</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 4:1:6\">Y. Snh. IV, beg. 22ᵃ</cite> (in Chald. dict.) <he>ההוא … לא ידע מ׳</he> that scholar did not know the law."
+			]
+		}
+	]
+}

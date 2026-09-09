@@ -1,0 +1,36 @@
+{
+	"id": "E00941",
+	"slug": "השתחואה",
+	"headword": {
+		"text": "הִשְׁתַּחֲוָאָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הִשְׁתַּחֲוָיָה"
+		},
+		{
+			"text": "וָיָיה"
+		},
+		{
+			"text": "הִשְׁתַּחֲוָו׳"
+		}
+	],
+	"page": {
+		"number": 370,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U00613\"><he>שָׁחָה</he></cite>), <i>Hithpa.</i>) <i>prostration</i> for prayer. ",
+			"units": [
+				"<cite ref=\"Berakhot 34b:2\">Ber. 34ᵇ</cite>; <cite ref=\"Megillah 22b:16\">Meg. 22ᵇ</cite> <he>ה׳ זו פישוט וכ׳</he> prostration means spreading out hands and feet. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:5:14\">Y. Ber. I, 3ᵈ</cite> top <he>לך ה׳</he> before Thee prostration is due; a. fr.—[<cite ref=\"Jerusalem Talmud Avodah Zarah 4:1:4\">Y. Ab. Zar. IV, 43ᵈ</cite> top <cite ref=\"U02089\"><he>שְׁתַּחְוָיָה</he></cite>.]—Pl. <he>הִשְׁתַּחֲוָויוֹת</he>, <cite ref=\"E00941\"><he>הִשְׁתַּחֲיָ׳</he></cite>. ",
+				"<cite ref=\"Mishnah Shekalim 6:1\">Shek. VI, 1</cite>. ",
+				"<cite ref=\"Berakhot 31a:18\">Ber. 31ᵃ</cite> <he>מפני כריעות וה׳</he> in consequence of his repeated kneelings and prostrations."
+			]
+		}
+	]
+}

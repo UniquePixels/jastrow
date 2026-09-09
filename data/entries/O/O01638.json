@@ -1,0 +1,24 @@
+{
+	"id": "O01638",
+	"slug": "סרכא-2",
+	"headword": {
+		"text": "סָרְכָא"
+	},
+	"page": {
+		"number": 1028,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01636\"><he>סרך</he></cite>, <i>Saf.</i> of <he>ערך</he>, <cite ref=\"A03124\"><he>ארך</he></cite>; cmp. <cite ref=\"A03156\"><he>אַרְכָן</he> I</cite>, a. <cite ref=\"A03099\"><he>אָרֵיכָא</he></cite>) <i>manager</i>, <i>commander</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 6:7\">Targ. Prov. VI, 7</cite> (h. text <he>שֹׁטֵר</he>).—Pl. <he>סָרְכִין</he>, <he>סָרְכַיָּא</he>, <cite ref=\"O00831\"><he>סִרְ׳</he></cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 1:15\">Targ. Deut. I, 15</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 20:5\">Ib. XX, 5</cite>; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "B00170",
+	"slug": "בהי-1",
+	"headword": {
+		"text": "בהי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּהָא"
+		},
+		{
+			"text": "בָּהָה"
+		}
+	],
+	"page": {
+		"number": 142,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.;√<he>בה</he>, cmp. <cite ref=\"B00199\"><he>בוא</he></cite> , <i>to be broken into; to gasp; to burst forth</i>, v. <he>בהק</he>, <he>בהר</he>; v. Ges. Hebr. Dict. s. v.) <i>to be stirred up, confounded, in disorder</i>.—",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 2\">Gen. R. s. 2</cite>, beg. <he>תוהא ובוֹהִא</he>; <cite ref=\"Bereishit Rabbah 2\">ib.</cite> fem. <he>תוהא ובוֹהָא</he> bewildered and confounded."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִבְהָה"],
+			"senses": [
+				{
+					"gloss": "<i>to clear</i> (the field), cmp. <cite ref=\"B01026\"><he>בָּעָה</he></cite>. Y. Sabb. VII, 10ᵃ top <he>המברה בחרשים</he> (read <he>המַבְהֶה</he>). Y. Shebi. IV, 35ᵇ <he>ומבדין</he> (read <he>ומַבְהִין</he> or <he>ומַבְהֶה</he>) you may clear thickets (in the Sabbath year); v. <cite ref=\"B01287\"><he>בָּרַךְ</he></cite> Pi.",
+					"units": []
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

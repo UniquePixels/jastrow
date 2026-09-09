@@ -1,0 +1,34 @@
+{
+	"id": "M00211",
+	"slug": "מגרומתא",
+	"headword": {
+		"text": "מַגְרוּמְתָּא"
+	},
+	"page": {
+		"number": 730,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"M00404\"><he>מוּגְרֶמֶת</he></cite>, v. <cite ref=\"C01349\"><he>גָּרַם</he></cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "",
+					"units": [
+						"<cite ref=\"Bava Kamma 99b:18\">B. Kam. 99ᵇ</cite> <he>ההיא מ׳</he> (Ms. R. <cite ref=\"M00220\"><he>מַגְרַמְתָּא</he></cite>) a case of a <i>mugremeth</i>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

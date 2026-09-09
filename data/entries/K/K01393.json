@@ -1,0 +1,41 @@
+{
+	"id": "K01393",
+	"slug": "כתת-1",
+	"headword": {
+		"text": "כָּתַת"
+	},
+	"page": {
+		"number": 690,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) [<i>to join closely</i> (in a friendly or hostile sense);—Denom. <cite ref=\"K01336\"><he>כַּתְּ</he></cite>;] <i>to press, crush</i>. Part. pass. <cite ref=\"K01356\"><he>כָּתוּת</he></cite>, <i>one whose parts are crushed</i>. Sifra Emor Par. 7, ch. VII; <cite ref=\"Kiddushin 25b\">Kidd. 25ᵇ</cite>; <cite ref=\"Bekhorot 39b\">Bekh. 39ᵇ</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּיתֵּת"],
+			"senses": [
+				{
+					"gloss": "<i>to strike</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 22:6\">Gen. R. s. 22</cite> (with ref. to <cite ref=\"Psalms 89:24\">Ps. LXXXIX, 24</cite>) <he>התחיל מְכַתְּתוֹ</he> he began to strike him; Yalk. ib. 36; <cite ref=\"Yalkut Shimoni on Nach 840\">Yalk. Ps. 840</cite>. ",
+						"<cite ref=\"Midrash Tehillim 23:2\">Midr. Till. to Ps. XXIII</cite> <he>היה מה״מ מְכַתֵּת וכ׳</he> the angel of death smote fifteen thousand and some of them. ",
+						"<cite ref=\"Berakhot 63b:15\">Ber. 63ᵇ</cite> (play on <he>ה̇ס̇כ̇ת̇</he>, <cite ref=\"Deuteronomy 27:9\">Deut. XXVII, 9</cite>) <he>כַּתְּתוּ עצמיכם וכ׳</he> expose yourselves to being smitten (by death) over the study of the Law."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to pound, pulverize</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 44a:7\">Ab. Zar. 44ᵃ</cite> <he>כִּיתְּתוֹ</he> ground it (the bronze serpent) to powder.—Trnsf. (cmp. <cite ref=\"C01373\"><he>גרס</he></cite>) <i>to discuss, argue</i>. Ber. l. c. <he>הֹסֹ ואח״כ כַֹּתֵֹּת</he> first listen (and receive) and then discuss.—Part. pass. <he>מְכוּתָּת</he>, f. <he>מְכוּתֶּתֶת</he>, pl. <he>מְכוּתָּתִין</he>, v. <cite ref=\"K01391\"><he>כָּתַשׁ</he></cite>.D"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

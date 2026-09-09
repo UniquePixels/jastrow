@@ -1,0 +1,23 @@
+{
+	"id": "R00041",
+	"slug": "צביטה",
+	"headword": {
+		"text": "צְבִיטָה"
+	},
+	"page": {
+		"number": 1258,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"R00031\"><he>צָבַט</he></cite>) <i>seizing, handling</i>; <he>בית הצ׳</he> that part of a vessel by which it is seized, <i>handle, neck, cavity</i> for the fingers, &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Chagigah 3:1\">Ḥag. III, 1</cite> (<cite ref=\"Chagigah 20b:7\">20ᵇ</cite>) <he>אחוריים ותוך ובית הצ׳</he> (Y. ed. <he>ובית צביעה</he>) (in vessels used for T’rumah) the back (outside), the inside, and the handle are considered as independent of one another (one becoming unclean does not affect the others). Ib. 22ᵇ <he>בית הצ׳</he> Ms. M. (ed. <he>הצְבָטָה</he>), v. <cite ref=\"R00031\"><he>צָבַט</he></cite>. ",
+				"<cite ref=\"Mishnah Kelim 25:7\">Kel. XXV, 7</cite>, sq. R. S. (ed. <he>צביע׳</he>). V. <cite ref=\"R00045\"><he>צְבִיעָה</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "A01064",
+	"slug": "אחת-2",
+	"headword": {
+		"text": "אֲחָת"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַחַת"
+		},
+		{
+			"text": "אֲחָתָא"
+		}
+	],
+	"page": {
+		"number": 42,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. = h.<cite ref=\"A01020\"><he>אָחוֹת</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 22:18\">Targ. Jer. XXII, 18</cite>; a. fr.—",
+				"<cite ref=\"Pesachim 4a:1\">Pes. 4ᵃ</cite>; a. fr.—Pl. <he>אַחֲוָותָא</he>. ",
+				"<cite ref=\"Aramaic Targum to Job 1:4\">Targ. Job. I, 4</cite> (ed. <he>אַחְיָ׳</he>); a. e.—",
+				"<cite ref=\"Yevamot 32b:10\">Yeb. 32ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 13a\">Sabb. 13ᵃ</cite>. ",
+				"<cite ref=\"Yevamot 66a:2\">Yeb. 66ᵃ</cite> top (<i>twin sisters</i>)."
+			]
+		}
+	]
+}

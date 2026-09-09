@@ -1,0 +1,36 @@
+{
+	"id": "U00983",
+	"slug": "שינתא",
+	"headword": {
+		"text": "שֵׁינְתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "שֵׁינָא"
+		},
+		{
+			"text": "שֵׁנָא"
+		},
+		{
+			"text": "שִׁנְתָא"
+		}
+	],
+	"page": {
+		"number": 1564,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " = h. <cite ref=\"U00972\"><he>שֵׁינָה</he></cite>, <i>sleep</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 15:12\">Targ. Gen. XV, 12</cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 4:13\">Targ. Job IV, 13</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 26:12\">Targ. I Sam. XXVI, 12</cite>; a. fr.—",
+				"<cite ref=\"Eruvin 65a:9\">Erub. 65ᵃ</cite> <he>מסר שִׁינְתֵיה לשמעיה</he> gave his sleep in charge of his servant, v. <cite ref=\"U01585\"><he>שִׁינָה</he></cite>. ",
+				"<cite ref=\"Eruvin 65a:13\">Ib.</cite> <he>לא איברי … לש׳</he> the night is made for sleep. ",
+				"<cite ref=\"Berakhot 4a:5\">Ber. 4ᵃ</cite> <he>לאתעוריה משינתיה</he> Ms. M. (ed. <he>לאתעורי משִׁנְתֵיה</he>) in order to be waked up from his sleep. ",
+				"<cite ref=\"Bava Metzia 83b:12\">B. Mets. 83ᵇ</cite> <he>סמא דש׳</he> a narcotic drink; a. e."
+			]
+		}
+	]
+}

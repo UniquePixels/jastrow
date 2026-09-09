@@ -1,0 +1,41 @@
+{
+	"id": "L00650",
+	"slug": "לפת-1",
+	"headword": {
+		"text": "לָפַת"
+	},
+	"page": {
+		"number": 716,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>לפף</he>)<i>to twine around, cling to, clasp</i>. ",
+			"units": [
+				"<cite ref=\"Ruth Rabbah 6:1\">Ruth R. to III, 8</cite>, v. <cite ref=\"L00646\"><he>לָפַף</he></cite>; Tanḥ. B’har 3 (expl. <he>וילפת</he>, Ruth l. c. ‘he felt himself embraced’) <he>כמו דאמרת ויִלְפֹּת וכ׳</he> as you read (<cite ref=\"Judges 16:29\">Jud. XVI, 29</cite>) and Samson clasped &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"K01185\"><he>כָּרַךְ</he></cite>) <i>to wrap up, to insert, combine</i> (dishes).—Part. pass. <he>לָפוּת</he>, pl. <he>לְפוּתִין</he>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 7:7:2\">Koh. R. to VII, 7</cite> (expl. <cite ref=\"L00656\"><he>לִפְתָּן</he></cite>) <he>שני תבשילין ל׳ זה בזה</he> two messes combined."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["לִפֵּת"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"L00649\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 38a\">Ab. Zar. 38ᵃ</cite>; <cite ref=\"Avodah Zarah 59a:10\">59ᵃ</cite> <he>לְלַפֵּת בו את הפת</he> to go with bread as a relish."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "S00346",
+	"slug": "קולית",
+	"headword": {
+		"text": "קוּלִית"
+	},
+	"page": {
+		"number": 1328,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"S00317\"><he>קוֹלָא</he></cite>, a. <cite ref=\"S00372\"><he>קוּלְתָא</he></cite>) [<i>something hollow and round</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>ball; globule</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tevul Yom 1:1\">T’bul Yom I, 1</cite> <he>ק׳ של מים המחולחלת</he> (not <cite ref=\"U01360\"><he>שלמים</he></cite>) a hollow ball of water, <i>bubble, froth</i>; <cite ref=\"Mishnah Tevul Yom 1:2\">ib. 2</cite> <he>ק׳ של מים שאינה מחולחלת</he> a solid water globule, <i>drop</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>marrow-bone</i>, esp. <i>thigh-bone</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Pesachim 6:10\">Tosef. Pes. VI, 10</cite> <he>מוח שבראש ושבק׳</he> the marrow in the head (brain) or in a bone; <cite ref=\"Pesachim 84b:5\">Pes. 84ᵇ</cite>. ",
+				"<cite ref=\"Tosefta Ohalot 4:3\">Tosef. Ohol. IV, 3</cite> <he>ק׳ המת וכ׳</he> if one makes a handle for a knife out of a marrow-bone of a human body. ",
+				"<cite ref=\"Tosefta Uktsin 2:5\">Tosef. Ukts. II, 5</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 10:7\">Gen. R. s. 10</cite>; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

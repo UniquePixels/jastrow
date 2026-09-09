@@ -1,0 +1,47 @@
+{
+	"id": "C01404",
+	"slug": "גרש-2",
+	"headword": {
+		"text": "גְּרַשׁ",
+		"homograph": 1
+	},
+	"page": {
+		"number": 273,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01403\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"C00190\"><he>גָּרֵישׁ</he></cite>. ",
+					"units": [
+						"<cite ref=\"Pesachim 110b\">Pes. 110ᵇ</cite> <he>דגָרְשָׁהּ לאיתתיה</he> Ms. M. (ed. <he>דגרשא</he>, corr. acc.) who had divorced his wife. ",
+						"<cite ref=\"Berakhot 56a:15\">Ber. 56ᵃ</cite> <he>תרי נשי מְגָרְשׁת</he> it will be thy destiny to divorce two wives. ",
+						"<cite ref=\"Arakhin 23a:38\">Arakh. 23ᵃ</cite> <he>דלִיגָרֵש לדביתהו</he> that he should divorce &c. ",
+						"<cite ref=\"Arakhin 23a:42\">Ib.</cite> <he>אטו כל דמִגָרֵשׁ וכ׳</he> does every one who divorces his wife, give divorce in court?; a. fr."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיגְּרַשׁ"],
+			"senses": [
+				{
+					"gloss": ", infin. <he>אִיגְּרוּשֵׁי</he> <i>to be divorced</i>. ",
+					"units": [
+						"<cite ref=\"Gittin 78a\">Gitt. 78ᵃ</cite> <he>בת אי׳</he> in a fit condition to receive a letter of divorce."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

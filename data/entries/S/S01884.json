@@ -1,0 +1,108 @@
+{
+	"id": "S01884",
+	"slug": "קרב-2",
+	"headword": {
+		"text": "קְרֵב"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְרֵיב"
+		}
+	],
+	"page": {
+		"number": 1410,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01883\">same</cite><i>to be near, come near, touch</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 27:1\">Targ. Num. XXVII, 1</cite>. ",
+				"<cite ref=\"Onkelos Exodus 36:2\">Targ. Ex. XXXVI, 2</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 2:1\">Targ. I Kings II, 1</cite>; a. fr.—Pesik. Zakhor, p. 24ᵇ <he>קריב לגביה</he>, v. <cite ref=\"B00882\"><he>בָּלַם</he> II</cite>. ",
+				"<cite ref=\"Mishnah Eduyot 8:4\">Eduy. VIII, 4</cite> <he>דיִקְרַב במיתא</he> he who touches a corpse; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to intercede, protect</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Demai 1:3:12\">Y. Dem. I, 22ᵃ</cite> <he>בני קרתי קוֹרְבִין לי</he> (not <he>קרתיה</he>) fellow-citizens, protect me!; <he>בני דודי קורבין לי</he> (not <he>דידי</he>) children of my friend (the Lord), protect you me!; <cite ref=\"Jerusalem Talmud Taanit 3:1:3\">Y. Taan. III, 66ᶜ</cite> top <he>בני דילי וכ׳</he> (corr. acc.)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to complain, sue</i>. Y. B. Bath. IX, beg. 16ᵈ <he>אתון בנוי קַרְבוּן וכ׳</he> his sons came and complained before R. E. ",
+			"units": [
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>אתת וקְרֵיבָה וכ׳</he> she came and complained &c."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to bring near; to offer</i>, v. infra.",
+			"units": [],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קָרֵיב", "קָרֵב"],
+			"senses": [
+				{
+					"gloss": "<i>to bring near; to offer</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 48:9\">Targ. Gen. XLVIII, 9</cite>, sq. ",
+						"<cite ref=\"Onkelos Genesis 48:13\">Ib. 13</cite> (Y. ed. Vien. <cite ref=\"S02032\"><he>קְריב</he></cite>; h. text <he>ויַּגֵּשׁ</he>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 58:3\">Targ. Is. LVIII, 3</cite> (h. text <he>תִּנְגּשׁוֹּ</he>!). ",
+						"<cite ref=\"Onkelos Leviticus 1:2\">Targ. O. Lev. I, 2</cite> <he>יְקָרֵיב</he> (Y. <he>יִקְרַב</he>). Ib. 3 (Y. <he>יַקְרִיב</he> <i>Af.</i>). Ib. 14 (Y. also <he>יַקְרִיב</he>); a. fr.—",
+						"<cite ref=\"Gittin 56a:4\">Gitt. 56ᵃ</cite> <he>סבור רבנן לקָרוּבֵיה</he> the rabbis were of the opinion that it should be offered. Y. Ber. IX, 13ᵈ top <he>הוה … אתי למִיקָרְבָה וכ׳</he> (or <he>למִיקְרְבָה</he>) when a man came to offer, to the idol, an ox &c. Y. Snh. X, 29ᵇ <he>מְקָרְבָא לגיחזי</he> to bring Gehazi near (befriend him again). ",
+						"<cite ref=\"Bamidbar Rabbah 3:2\">Num. R. s. 3</cite> <he>אלהכון מאן הוא בעי מְקָרֵיב</he> does your God bring near him (grace) whomever he chooses to? <cite ref=\"Bava Batra 168a\">B. Bath. 168ᵃ</cite> <he>אפי׳ צורבא … לְקָרוּבֵיה</he> even in the case of a young scholar whom it may be supposed his intended father-in-law likes to bring into his family; a. fr.—<i>Part. pass.</i> <he>מְקָרַב</he>; f. <cite ref=\"M02453\"><he>מְקָרְבָא</he></cite>, <he>מְקָרְבָה</he>; pl. <he>מְקָרְבִין</he>; <he>מְקָרְבָן</he> <i>near, friendly</i>. ",
+						"<cite ref=\"Shabbat 104a:9\">Sabb. 104ᵃ</cite> <he>מ״ט שקר ק׳ מיליה אמת וכ׳</he> why are the letters of <cite ref=\"U01894\"><he>שקר</he></cite> (falsehood) near together (in the order of the alphabet), and those of <cite ref=\"A02072\"><he>אמת</he></cite> (truth) far apart? <cite ref=\"Sanhedrin 29a:9\">Snh. 29ᵃ</cite> <he>מק׳ דעתיה</he> he is friendly, v. <cite ref=\"T00538\"><he>רְחַק</he></cite>.—3) <i>to intercede, lead in prayer</i>. ",
+						"<cite ref=\"Midrash Tehillim 19:2\">Midr. Till. to Ps. XIX</cite> <he>חזיוה לחזנא דקָרֵיב וכ׳</he> they noticed that the officer of the synagogue led in prayer and said &c."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַקְרֵיב"],
+			"senses": [
+				{
+					"gloss": "<i>to bring near; to offer</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Malachi 2:12\">Targ. Mal. II, 12</cite>; a. fr.—Gitt. l. c. <he>אי מַקְרְבִין ליה</he> (or <he>מְקָרְבִין</he> <i>Pa.</i>), v. <cite ref=\"S01897\"><he>קָרְבַּן</he></cite>. ",
+						"<cite ref=\"Chagigah 8b:13\">Ḥag. 8ᵇ</cite> <he>האי דלא אַקְרְבִינְהוּ וכ׳</he> the reason why they did not offer them was &c.; a. fr.—",
+						"<cite ref=\"Yevamot 39b:10\">Yeb. 39ᵇ</cite> <he>איקרבת ית וכ׳</he> (read: <he>אַקְרִיבַת</he>) she brought before us (the court) such and such a person &c."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְקָרֵיב"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְקְרִיב", "אִיקְּרִיב"],
+			"senses": [
+				{
+					"gloss": "<i>to approach, come near</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 20:3\">Targ. Y. Deut. XX, 3</cite>; O. ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 20:3\">ib.</cite> ed. Berl. (oth. ed. <he>קריבין</he>). Ib. XXV, 9; a. fr.—",
+						"<cite ref=\"Ketubot 56a:2\">Keth. 56ᵃ</cite> <he>משום אִיקָּרוּבֵי דעתא הוא והא אִיקָּרְבָא דעתא</he> (when a man promises his bride an additional jointure,) it is in order that an attachment be formed; well, now, the attachment has been formed (and we have a right to assume that he wanted his bride to get that addition, even if he should die before the wedding)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to claim relationship</i>, v. <cite ref=\"S01883\">preced.</cite>",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

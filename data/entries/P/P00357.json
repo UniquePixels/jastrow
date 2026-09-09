@@ -1,0 +1,34 @@
+{
+	"id": "P00357",
+	"slug": "עורלא",
+	"headword": {
+		"text": "עוּרְלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עוּרְלְתָא"
+		},
+		{
+			"text": "עָרְ׳"
+		}
+	],
+	"page": {
+		"number": 1058,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"P01387\"><he>עָרְלָה</he></cite>, <i>prepuce</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 34:14\">Targ. Gen. XXXIV, 14</cite> (O. ed. Berl. <cite ref=\"P00358\"><he>עוּרְלָה</he></cite>). Ib. XVII, 11; a. fr.—",
+				"<cite ref=\"Avodah Zarah 10b\">Ab. Zar. 10ᵇ</cite> <he>עוּרְלְתֵיה</he> (v. vers. of Ms. M., Rabb. D. S. a. l. note). ",
+				"<cite ref=\"Eruvin 19a\">Erub. 19ᵃ</cite> <he>עָרְלְתֵיה</he> Ms. M. (ed. <he>ערלתו</he>, h. form); a. e.—Pl. <cite ref=\"P00357\"><he>עוּרְלָתָא</he></cite>, <cite ref=\"P00357\"><he>עָרְ׳</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 5:3\">Targ. Josh. V, 3</cite> <he>עוּרְ׳</he> ed. Lag. (oth. ed. <cite ref=\"P00357\"><he>עָרְ׳</he></cite>, <cite ref=\"P00681\"><he>עַרְ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 18:25\">Targ. I Sam. XVIII, 25</cite> <he>עָרְלַת</he> constr. (ed. Lag. <he>עורלות</he>, corr. acc.)."
+			]
+		}
+	]
+}

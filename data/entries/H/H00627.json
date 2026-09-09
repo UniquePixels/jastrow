@@ -1,0 +1,36 @@
+{
+	"id": "H00627",
+	"slug": "חטיטה",
+	"headword": {
+		"text": "חֲטִיטָה"
+	},
+	"page": {
+		"number": 449,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00607\"><he>חָטַט</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cleaning</i> a well, <i>raking</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 5a:8\">M. Kat. 5ᵃ</cite> <he>ח׳ אין וכ׳</he> cleaning is permitted, but digging &c. ",
+				"<cite ref=\"Moed Katan 5a:5\">Ib.</cite> <he>ח׳ מי שרי</he> is cleaning permitted?; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>hollowing out</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 2:17\">Tosef. Kel. B. Mets. II, 17</cite>; <cite ref=\"Chullin 25a:14\">Ḥull. 25ᵃ</cite> <he>מחוסר ח׳</he> a block requiring hollowing out for becoming a receptacle. ",
+				"<cite ref=\"Chullin 25a:14\">Ib.</cite> <he>מחוסר ח׳ פשיטא</he> is it not a matter of course that a block requiring hollowing out is not fit for uncleanness?; v. <cite ref=\"H00608\"><he>חֲטַט</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

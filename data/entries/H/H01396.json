@@ -1,0 +1,86 @@
+{
+	"id": "H01396",
+	"slug": "חסל-2",
+	"headword": {
+		"text": "חֲסַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲסִיל"
+		}
+	],
+	"page": {
+		"number": 488,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01395\">same</cite>, [<i>to scrape off</i>; (cmp. <cite ref=\"H01302\"><he>חָנַךְ</he></cite>) <i>to finish</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to cease, have done</i> (cmp. <cite ref=\"C01061\"><he>גָּמַר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 4:11\">Targ. II Chr. IV, 11</cite>.—חֲסִיל <i>to be exhausted, gone</i>. ",
+				"<cite ref=\"Targum Jerusalem, Genesis 47:15\">Targ. Y. II, Gen. XLVII, 15</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 31:24\">Targ. Y. II, Deut. XXXI, 24</cite>; a. e.—",
+				"<cite ref=\"Targum Jerusalem, Genesis 50:19\">Targ. Y. II, Gen. L, 19</cite> <he>חַסְלַת וכ׳</he> the evil is paid off (atoned for; cmp. <he>גמל</he>).—Y. R. Hash. II, 58ᵇ top <he>מן דַחֲסַל … מן וכ׳</he> when R. … had ceased from praying. ",
+				"<cite ref=\"Bereishit Rabbah 17\">Gen. R. s. 17</cite>, beg. <he>מן דחַסְלִין</he> (not <he>דמן ח׳</he>) when they had finished their studies; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to mature, ripen</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 17:23\">Targ. Y. II, Num. XVII, 23</cite> (h. text <he>גמל</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to wean</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 1:24\">Targ. I Sam. I, 24</cite> (h. text <he>גמל</he>); a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַחְסִיל"],
+			"senses": [],
+			"stem": "Af."
+		},
+		{
+			"forms": ["חַסַּל"],
+			"senses": [
+				{
+					"gloss": "<i>to peel off, lay bare</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 28:38\">Targ. O. Deut. XXVIII, 38</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to finish</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Genesis 46:18\">Targ. Y. II, Gen. XLVI, 18</cite>.—Y. Bicc. I, 64ᵃ <he>מְחַסֵּל לה</he> finished the sentence (by adding a general rule). Cant. R. beg. <he>זימנין מח׳ לה וכ׳</he> sometimes he goes through the entire alphabet &c.; (<cite ref=\"Kohelet Rabbah 1:13:1\">Koh. R. to I, 13</cite> <he>חשל</he>); a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְחֲסִיל"],
+			"senses": [
+				{
+					"gloss": "<i>to be weaned</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 21:8\">Targ. O. Gen. XXI, 8</cite> (ed. Berl. <cite ref=\"H01769\"><he>אִתְחַ׳</he></cite>); a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

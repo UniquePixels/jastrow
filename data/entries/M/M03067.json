@@ -1,0 +1,25 @@
+{
+	"id": "M03067",
+	"slug": "מתכא",
+	"headword": {
+		"text": "מַתְּכָא"
+	},
+	"page": {
+		"number": 862,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., constr. <cite ref=\"M03072\"><he>מַתְּכַת</he></cite> same. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 32:4\">Targ. Ex. XXXII, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Judges 17:3\">Targ. Jud. XVII, 3</cite> (ed. Lag. <he>מתכה</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 30:22\">Targ. Is. XXX, 22</cite>; a. fr.—Pl. <he>מַתְּכָתָא</he>. ",
+				"<cite ref=\"Onkelos Numbers 33:52\">Targ. O. Num. XXXIII, 52</cite> (Y. <he>מַתּכְוַות־</he>, fr. <he>מַתְּכוּ</he>)."
+			]
+		}
+	]
+}

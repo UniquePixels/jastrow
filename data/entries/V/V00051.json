@@ -1,0 +1,31 @@
+{
+	"id": "V00051",
+	"slug": "תבל-2",
+	"headword": {
+		"text": "תְּבַל"
+	},
+	"page": {
+		"number": 1644,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>תַּבֵּל</he> <cite ref=\"V00050\">same</cite>, <i>to spice, season</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 112a:6\">Ḥull. 112ᵃ</cite> <he>מְתַבֵּל</he>, v. <cite ref=\"V00055\"><he>תַּבְלָא</he> I</cite>."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

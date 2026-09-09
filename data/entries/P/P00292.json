@@ -1,0 +1,60 @@
+{
+	"id": "P00292",
+	"slug": "עון-3",
+	"headword": {
+		"text": "עוּן",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1054,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		},
+		{
+			"gloss": "<i>to watch, guard</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 32:10\">Targ. Y. II, Deut. XXXII, 10</cite> <cite ref=\"P00553\"><he>עַיְּינֵי</he></cite> (<i>Paeli</i>).—",
+				"<cite ref=\"Bava Kamma 32b:17\">B. Kam. 32ᵇ</cite> <he>איבעי ליה עַיּוּנֵי</he> (<he>עַיּוּנֵיה</he>) he ought to have been on his guard; <cite ref=\"Makkot 8a\">Macc. 8ᵃ</cite> <he>לעַיּיוּנֵיה</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to look out for, select</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 8:17\">Targ. Job VIII, 17</cite> <he>יְעַיֵּין</he> ed. Lag. (oth. ed. <he>יְעוֹיִן</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to look into, meditate, study, speculate</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 14b:14\">M. Kat. 14ᵇ</cite> <he>לעיוני בדיניה</he> to study his case (not to decide it). ",
+				"<cite ref=\"Moed Katan 14b:15\">Ib.</cite> <he>אתו מצפרא ומְעַיְּינֵי בדיניה וכ׳</he> they meet in the morning and consider his case …, and then they come again at sunset &c. ",
+				"<cite ref=\"Berakhot 25a:21\">Ber. 25ᵃ</cite> <he>עַיֵּין אי וכ׳</he> examine and see whether &c. ",
+				"<cite ref=\"Berakhot 58a:14\">Ib. 58ᵃ</cite> <he>עד דמעייני ביה בדינא</he> while they were arguing about him in court. ",
+				"<cite ref=\"Sanhedrin 18b:8\">Snh. 18ᵇ</cite> <he>ומְעַיְּינִינָא וכ׳</he> and we argue on his case. ",
+				"<cite ref=\"Megillah 30b:7\">Meg. 30ᵇ</cite> <he>מְעַיְּינִינָן במילי דמתא</he> we look into the affairs (the moral condition) of the town. ",
+				"<cite ref=\"Gittin 60a\">Gitt. 60ᵃ</cite>; <cite ref=\"Temurah 14b:13\">Tem. 14ᵇ</cite> <he>מְעַיְּינֵי בספרא וכ׳</he> used to study the book of &c. ",
+				"<cite ref=\"Rosh Hashanah 16a:10\">R. Hash. 16ᵃ</cite> <he>בחינה עיוני בעלמא היא</he> ‘to probe’ (<he>בחן</he>) means merely to investigate (without decreeing). ",
+				"<cite ref=\"Berakhot 55a:2\">Ber. 55ᵃ</cite> <he>דמְעַיּין בה</he> when he thinks of his prayer (expecting its fulfilment), v. preced; a. fr.—[<i>Pol.</i> <cite ref=\"P00291\"><he>עוֹנֵן</he></cite>, v. <cite ref=\"P00998\"><he>עֲנַן</he></cite>.]"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"P00549\"><he>עֵיֵּין</he></cite>, <cite ref=\"P00601\"><he>עַיֵּן</he></cite> same, ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

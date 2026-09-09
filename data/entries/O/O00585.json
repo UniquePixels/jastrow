@@ -1,0 +1,29 @@
+{
+	"id": "O00585",
+	"slug": "סידקית",
+	"headword": {
+		"text": "סִידְקִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִדְ׳"
+		}
+	],
+	"page": {
+		"number": 976,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"O00584\">same</cite>, v. preced.—2) (adj.) <i>very fine</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 53a:17\">Erub. 53ᵃ</cite> <he>נקב מחט ס׳</he> the eye of a very fine needle.— 3) <i>small ware, tinsel</i>. ",
+				"<cite ref=\"Sotah 40a:9\">Sot. 40ᵃ</cite> <he>מוכר מיני ס׳</he> one who sells tinsel, opp. <he>אבנים טובות ומרגליות</he>."
+			],
+			"label": "1"
+		}
+	]
+}

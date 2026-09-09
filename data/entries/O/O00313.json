@@ -1,0 +1,30 @@
+{
+	"id": "O00313",
+	"slug": "סול-3",
+	"headword": {
+		"text": "סוּל",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 964,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>סוֹלֵל</he>, v. <cite ref=\"O01003\"><he>סָלַל</he> I</cite>.",
+					"units": []
+				}
+			],
+			"stem": "Pol."
+		}
+	]
+}

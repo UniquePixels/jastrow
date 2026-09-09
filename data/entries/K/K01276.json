@@ -1,0 +1,39 @@
+{
+	"id": "K01276",
+	"slug": "כרשינה-2",
+	"headword": {
+		"text": "כַּרְשִׁינָה",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּרְשִׁינָא",
+			"homograph": 3
+		}
+	],
+	"page": {
+		"number": 673,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (cmp. <cite ref=\"K01274\"><he>כַּרְשִׁינָא</he> I</cite>) a species of <i>vetch</i>, prob. <i>horse-bean</i>, rarely used as human food. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 6:1\">Bekh. VI, 1</cite> (<cite ref=\"Bekhorot 37a:15\">37ᵃ</cite>) <he>ניקבה מלא כ׳</he> if there is a hole in the ear lap of the size of a <i>carshinah</i>; <cite ref=\"Bekhorot 37b:16\">Bekh. 37ᵇ</cite>, expl. <cite ref=\"E00449\"><he>הינדא</he></cite>; <cite ref=\"Tosefta Bekhorot 4:1\">Tosef. ib. IV, 1</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:2:29\">Y. Kidd. I, 59ᵈ</cite> top <he>פחות מן הכ׳</he> less than the size of &c.; a. e.—Pl. <cite ref=\"K01277\"><he>כַּרְשִׁינִים</he></cite>, <he>כַּרְשִׁינִין</he>. ",
+				"<cite ref=\"Bava Metzia 90a:13\">B. Mets. 90ᵃ</cite>. ",
+				"<cite ref=\"Mishnah Challah 4:9\">Ḥall. IV, 9</cite>, a. fr. <he>כַּרְשִׁינֵי תרומה</he> beans set aside for the priest’s share. ",
+				"<cite ref=\"Mishnah Maaser Sheni 2:4\">Maas. Sh. II, 4</cite>; <cite ref=\"Tosefta Ma'aser Sheni 2:1\">Tosef. ib. II, 1</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Challah 4:4:20\">Y. Ḥall. IV, 60ᵇ</cite> <he>אימתי גזרו על הכ׳</he> (contrad. to <cite ref=\"B00695\"><he>בִּיקְיָא</he></cite>) when was the law declaring <i>carshinah</i> subject to T’rumah enacted?—Answ. <he>בימי רעבון</he> in days of famine (when it served as human food). ",
+				"<cite ref=\"Esther Rabbah 4:2\">Esth. R. to I, 14</cite> (play on <he>כ̇ר̇ש̇נ̇א</he>, <cite ref=\"Esther Rabbah 4:2\">ib.</cite>) <he>אני בוזק לפניהם כ̇ר̇שׁינ̇ין ומש̇ירן מן העולם</he> I shall crush vetch (to be placed) before them (send a famine compelling them to eat vetch) and make them fall off (fade away) from the world. ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 2:2:1\">Y. Maas. Sh. II, 53ᶜ</cite> <he>קל … בכרשיני</he> (read: <he>בכרשינין</he>) they made the law concerning <i>carsh</i>. less stringent. ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 2:2:1\">Ib.</cite> <he>עיסה של כ׳</he> a dough made of <i>c</i>.—",
+				"<cite ref=\"Mishnah Meilah 3:6\">Meïl. III, 6</cite> <he>כרשיני הקדש</he>; <cite ref=\"Tosefta Meilah 1:21\">Tosef. ib. I, 21</cite> <cite ref=\"K01277\"><he>כַּרְשִׁנֵּי</he></cite> ed. Zuck. (some ed. <he>כר שני</he>, corr. acc.), v. <cite ref=\"E00789\"><he>הֶקְדֵּשׁ</he></cite>; a. fr.—",
+				"<cite ref=\"Kohelet Rabbah 6:1:1\">Koh. R. to VI, 1</cite> <he>כַּרְשִׁנִּים בפלפלין</he> he who puts vetch into pepper; (<cite ref=\"Tosefta Bava Batra 5:6\">Tosef. B. Bath. V, 6</cite> <cite ref=\"K00320\"><he>כּוּסְבֶּרֶת</he></cite>)."
+			]
+		}
+	]
+}

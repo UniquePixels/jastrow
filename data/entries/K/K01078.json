@@ -1,0 +1,25 @@
+{
+	"id": "K01078",
+	"slug": "כרבא-1",
+	"headword": {
+		"text": "כְּרָבָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 663,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01077\">preced.</cite>) <i>ploughing</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 96a\">B. Kam. 96ᵃ</cite>, v. preced.—",
+				"<cite ref=\"Bava Batra 12a:9\">B. Bath. 12ᵃ</cite> <he>יומא כ׳</he> one day’s ploughing (Rashi: at ploughing season, opp. to the second ploughing before seed-time).—<he>בי כ׳</he> a ploughed field. ",
+				"<cite ref=\"Yoma 43b:4\">Yoma 43ᵇ</cite>; <cite ref=\"Niddah 65b:45\">Nidd. 65ᵇ</cite>, v. <cite ref=\"K00787\"><he>כְּמַאי</he></cite>."
+			]
+		}
+	]
+}

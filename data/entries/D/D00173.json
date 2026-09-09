@@ -1,0 +1,33 @@
+{
+	"id": "D00173",
+	"slug": "דובא",
+	"headword": {
+		"text": "דּוֹבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דּווָֹא"
+		},
+		{
+			"text": "דְּוָיָא"
+		},
+		{
+			"text": "דִּיבָא"
+		}
+	],
+	"page": {
+		"number": 282,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. = h.<cite ref=\"G00115\"><he>זוֹב</he></cite> , <i>flux, gonorrhœa, abnormal menstruation</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 15:2\">Targ. Lev. XV, 2</cite> sq. [<cite ref=\"Targum Jonathan on Leviticus 15:3\">Targ. Y. ib. 3</cite> <cite ref=\"D00555\"><he>דְּיֵיה</he></cite>, read <he>דְּוָיֵה</he>]; a. e."
+			]
+		}
+	]
+}

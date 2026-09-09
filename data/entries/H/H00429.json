@@ -1,0 +1,33 @@
+{
+	"id": "H00429",
+	"slug": "חוץ-2",
+	"headword": {
+		"text": "חוּץ"
+	},
+	"page": {
+		"number": 437,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"H00428\">same</cite>. Part. <cite ref=\"H00743\"><he>חָיֵיץ</he></cite>, f. <he>חָיְיצָא</he> same. ",
+			"units": [
+				"<cite ref=\"Zevachim 19a\">Zeb. 19ᵃ</cite>, v. <cite ref=\"H00428\">preced.</cite> ",
+				"<cite ref=\"Zevachim 19a:20\">Ib.</cite> <he>חָיְיצֵי</he> (Rashi: <he>חָיְיצָן</he>)"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (v. <cite ref=\"H00744\"><he>חַיִיץ</he></cite>) <i>to form a partition, to build a wall by piling up material without cementing;</i> (of persons) <i>to form a lane</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sheviit 3:6:3\">Y. Shebi. III, end, 34ᵈ</cite> <he>חָיֵיץ ליה</he>, v. <cite ref=\"H00744\"><he>חַיִיץ</he></cite>.—",
+				"<cite ref=\"Ketubot 17a\">Keth. 17ᵃ</cite>; <cite ref=\"Megillah 29a:2\">Meg. 29ᵃ</cite> <he>דחָיְיצֵי וכ׳</he>, v. <cite ref=\"A00070\"><he>אִבּוּלָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

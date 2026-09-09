@@ -1,0 +1,32 @@
+{
+	"id": "R00296",
+	"slug": "ציבור-2",
+	"headword": {
+		"text": "צִיבּוּר",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "צִיבּוּרָא"
+		},
+		{
+			"text": "צִבּ׳"
+		}
+	],
+	"page": {
+		"number": 1274,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"R00295\">same</cite>, <i>congregation</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 5:14\">Targ. Prov. V, 14</cite> Levita (ed. <he>עֵדְתָא</he>).—",
+				"<cite ref=\"Jerusalem Talmud Gittin 3:7:5\">Y. Gitt. III, 45ᵃ</cite> bot. <he>לית צ׳ כוליה וכ׳</he> there is no community altogether rich, none altogether poor. ",
+				"<cite ref=\"Taanit 25a:15\">Taan. 25ᵃ</cite> <he>אפשר דתברי צ׳ לבייהו וכ׳</he> perhaps when the congregation break their hearts (humble themselves in prayer), rain will come. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:1:10\">Y. Sabb. III, 5ᵈ</cite> top <he>בצ׳ הוה מורי וכ׳</he> in public session he decided &c. ",
+				"<cite ref=\"Ruth Rabbah 6:4\">Ruth R. to III, 13</cite> (in Hebr. dict.) <he>ולא ידע … בצבורא</he> (some ed. <he>בצִבּוּרָה</he>) he did not know that R. ‘A. had interpreted that verse in a public lecture; a. fr.—Pl. <he>צִיבּוּרַיָּיא</he>, <cite ref=\"R00295\"><he>צִבּ׳</he></cite>. Y. Gitt. l. c. <he>אשאלון לצ׳ פריטין</he> lent money to congregations."
+			]
+		}
+	]
+}

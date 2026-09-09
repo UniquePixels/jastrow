@@ -1,0 +1,52 @@
+{
+	"id": "P01086",
+	"slug": "עפש-1",
+	"headword": {
+		"text": "עָפַשׁ"
+	},
+	"page": {
+		"number": 1100,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>עִיפֵּשׁ</he> <i>to grow mouldy, decay</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 15b\">Pes. 15ᵇ</cite>; <cite ref=\"Pesachim 45b:17\">45ᵇ</cite> <he>הפת שעִיפְּשָׁה וכ׳</he> bread that is spoiled so as to be unfit for man to eat &c. ",
+						"<cite ref=\"Tosefta Pesachim 2:4\">Tosef. ib. II</cite> (<cite ref=\"Tosefta Pesachim 3:4\">III</cite>), 4 <he>שעִיפְּשׁוּ או שיבשו</he> which have become mouldy or dried up. ",
+						"<cite ref=\"Tosefta Terumot 9:10\">Tosef. Ter. IX, 10</cite> <he>פת שעִיפֵּישָׁה</he> (ed. Zuck.). Tanḥ. Mick. 7 <he>פת … עִפְּשָׁה</he> the bread in our vessels has become mouldy. ",
+						"<cite ref=\"Jerusalem Talmud Yoma 3:9:2\">Y. Yoma III, 41ᵃ</cite> bot. <he>לא היתה מְעַפֶּשֶׁת</he> it never grew mouldy; Bab. ",
+						"<cite ref=\"Yoma 38a:7\">ib. 38ᵃ</cite> <he>מִתְעַפֶּשֶׁת</he>; <cite ref=\"Tosefta Yoma 2:5\">Tosef. ib. II, 5</cite>; <cite ref=\"Jerusalem Talmud Shekalim 5:1:19\">Y. Shek. V, 48ᵈ</cite> bot. <he>מתע׳</he>; a. e."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְעַפֵּשׁ"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְעַפֵּשׁ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"P01085\">same</cite>, v. supra. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 31\">Gen. R. s. 31</cite> <he>שלא ירקבו ולא יִתְעַפְּשׁוּ וכ׳</he> that they (the fruits in the ark) should not rot, or mould, or be disfigured."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

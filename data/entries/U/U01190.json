@@ -1,0 +1,42 @@
+{
+	"id": "U01190",
+	"slug": "שכרות",
+	"headword": {
+		"text": "שִׁכָּרוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁי׳"
+		}
+	],
+	"page": {
+		"number": 1576,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01189\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>fulness, plenty</i>. ",
+			"units": [
+				"<cite ref=\"Sukkah 49b:5\">Succ. 49ᵇ</cite> (ref. to <cite ref=\"Numbers 28:7\">Num. XXVIII, 7</cite>). <he>לשון שתייה לשון שביעה  לשון ש׳</he> expressing drinking, fill, plenty; Y. ib. IV, 54ᵈ top <he>לשון חיבה … ש׳</he>; <cite ref=\"Bamidbar Rabbah 21:17\">Num. R. s. 21<sup>17</sup></cite>; Tanḥ. Pinḥ. 12; a. e., v. <cite ref=\"T00361\"><he>רְוִיָּה</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>drunkenness</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 10:8\">Num. R. s. 10<sup>2</sup></cite> [read:] <he>מנבל פיו ומדבר דברים רעים בש׳ וכ׳</he> he defiles his mouth and talks bad words in his drunkenness, and is not ashamed. ",
+				"<cite ref=\"Bamidbar Rabbah 10:8\">Ib</cite>.<sup>8</sup> <he>עמדו … מתוך הש׳</he> they stood up and smote one another in their drunkenness. ",
+				"<cite ref=\"Eruvin 65a:1-4\">Erub. 65ᵃ</cite> <he>ל״ש … לשִׁיכָּרוּתוֹ של לוט וכ׳</he> this (that the drunken man can be held to legal responsibility) has been taught only, when he has not reached the degree of Lot’s drunkenness (unconsciousness), but when he has &c. ",
+				"<cite ref=\"Bava Metzia 90b:11\">B. Mets. 90ᵇ</cite> (ref. to <cite ref=\"Leviticus 10:9\">Lev. X, 9</cite>) <he>בשעת ביאה לא תהא ש׳</he> at the time of entering (the Temple for service) no effect of the wine should be felt; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

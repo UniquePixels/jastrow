@@ -1,0 +1,30 @@
+{
+	"id": "U00549",
+	"slug": "שורייקא",
+	"headword": {
+		"text": "שׁוּרְיָיקָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "ס׳"
+		}
+	],
+	"page": {
+		"number": 1542,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שרק</he>, v. <cite ref=\"O01664\"><he>סָרַק</he> II</cite>, cmp. Syr. <he>סרוקא</he> P. Sm. 2750) <i>stripe, streak</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 74b:12\">Pes. 74ᵇ</cite> <he>ש׳ דדמא</he> Ar. (ed. <he>שׁוּרְיָיקֵי דמא</he>) a streak (streaks) of blood.—Pl. <cite ref=\"U00548\"><he>שׁוּרְיָיקֵי</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 4b\">Ab. Zar. 4ᵇ</cite> <he>ש׳ סומקי</he> Ms. M. a. Ar. (ed. <cite ref=\"O00001\"><he>ס׳</he></cite>) red stripes (in the white crest of a cock); <cite ref=\"Sanhedrin 105b:8\">Snh. 105ᵇ</cite> <he>סוּרְיָקֵי</he> (some ed. <he>סִרְיָקֵי</he>; Ms. M. <cite ref=\"U01985\"><he>שִׁרְיָקֵי</he></cite>; Ms. O. <he>שוריקי</he>; v. Rabb. D. S. a. l. note); <cite ref=\"Yalkut Shimoni on Nach 300\">Yalk. Is. 300</cite> <he>שוריי׳</he>. ",
+				"<cite ref=\"Chullin 47b:15\">Ḥull. 47ᵇ</cite> <he>ש׳ חיורי</he> white stripes or shreds. ",
+				"<cite ref=\"Chullin 93b:4\">Ib. 93ᵇ</cite> <he>ש׳ סומקי</he> red veins; <cite ref=\"Bava Metzia 83b:13\">B. Mets. 83ᵇ</cite> <he>ש׳ סומקי</he> (Ms. M. <he>סוריקי</he>); <cite ref=\"Yalkut Shimoni on Nach 668:2\">Yalk. Ps. 668</cite> <he>סוריקי</he>, a. <he>סורקי</he>."
+			]
+		}
+	]
+}

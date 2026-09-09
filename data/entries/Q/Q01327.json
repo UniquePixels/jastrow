@@ -1,0 +1,23 @@
+{
+	"id": "Q01327",
+	"slug": "פסל-3",
+	"headword": {
+		"text": "פַּסָּל"
+	},
+	"page": {
+		"number": 1198,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01326\">preced.</cite>) <i>mattock</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 38\">Sifré Deut. 38</cite>; <cite ref=\"Yalkut Shimoni on Torah 857:1\">Yalk. ib. 857</cite> <he>ארץ … אם אינו עמל בה בפ׳ וקורדום</he> the soil of Egypt cannot be planted, unless one first works it with mattock and axe. ",
+				"<cite ref=\"Berakhot 57b:8\">Ber. 57ᵇ</cite>; <cite ref=\"Bava Metzia 82b\">B. Mets. 82ᵇ</cite>, v. <cite ref=\"M02480\"><he>מָרָא</he> II</cite>."
+			]
+		}
+	]
+}

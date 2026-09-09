@@ -1,0 +1,23 @@
+{
+	"id": "Q01838",
+	"slug": "פרישה-2",
+	"headword": {
+		"text": "פְּרִישָׁה",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1228,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. f.(?) <i>P’rishah</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 9:9\">Sot. IX, 9</cite> (<cite ref=\"Sotah 47a:18\">47ᵃ</cite>) <he>תחינה בן פ׳</he> name of a reputed assassin."
+			]
+		}
+	]
+}

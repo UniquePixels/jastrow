@@ -1,0 +1,23 @@
+{
+	"id": "M01182",
+	"slug": "מילימילא",
+	"headword": {
+		"text": "מִילִימִילָא"
+	},
+	"page": {
+		"number": 774,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (μελίμηλα, melimela) <i>honey-apples, must-apples</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:3:3\">Y. Maasr. I, 49ᵃ</cite> top <he>תפוחי מ׳</he> melimela apples; <cite ref=\"Tosefta Ma'asrot 1:1\">Tosef. ib. I, 1</cite> <he>מי נמלה</he> (corr. acc.)."
+			]
+		}
+	]
+}

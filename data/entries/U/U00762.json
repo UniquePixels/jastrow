@@ -1,0 +1,78 @@
+{
+	"id": "U00762",
+	"slug": "שטף-1",
+	"headword": {
+		"text": "שָׁטַף"
+	},
+	"page": {
+		"number": 1554,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"I00195\"><he>טוּף</he></cite>, <cite ref=\"I00675\"><he>טָפַף</he> II)</cite><i>to wash, rinse</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 11:6\">Zeb. XI, 6</cite> (<cite ref=\"Zevachim 94b:14\">94ᵇ</cite>) <he>ושׁוֹטְפוֹ</he>, v. <cite ref=\"M02760\"><he>מָרַק</he></cite>; Tosef. ib. X, 13 <he>ושׁוֹטְפָן</he>. ",
+				"<cite ref=\"Tosefta Chullin 10:4\">Tosef. Ḥull. X, 4</cite> <he>השׁוֹטֵף רחיליו חייב וכ׳</he> if one washes his lambs (in place of clipping), he is bound to give the priest’s share of the wool (that they shed); <cite ref=\"Chullin 137a\">Ḥull. 137ᵃ</cite>; a. fr.—Part. pass. <cite ref=\"U00736\"><he>שָׁטוּף</he></cite>. ",
+				"<cite ref=\"Shabbat 99a\">Sabb. 99ᵃ</cite> (ref. to <cite ref=\"Exodus 35:26\">Ex. XXXV, 26</cite>) <he>ש׳ בעזים וטווו בעזים</he> Ms. M. (ed. <he>מן העזים</he>) the hair was washed on the goats and spun on the goats; ib. 74ᵇ; Yalk. Ex. 370."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to flood, carry off, drown</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 8:5\">B. Mets. VIII, 5</cite> <he>ש׳ נהר זיתיו וכ׳</he> if a stream carried off one’s olive-trees and deposited them in a neighbor’s field. ",
+				"<cite ref=\"Mishnah Bava Kamma 10:4\">B. Kam. X, 4</cite> (<cite ref=\"Bava Kamma 115b:2\">115ᵇ</cite>) <he>ש׳ נהר חמורו וכ׳</he> (Bab. ed. <he>נחל</he>) if a stream (ravine) carried off his own and his neighbor’s ass …, and he let go his own and saved his neighbor’s. Ib. 5 (117ᵇ) <he>שְׁטָפָהּ נהר</he> if the river washed it (the unlawfully taken field) away. ",
+				"<cite ref=\"Yoma 78a\">Yoma 78ᵃ</cite> <he>נחל שׁוֹטֵף</he> a swiftly running brook. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 1:1:12\">Y. Shek. I, 46ᵃ</cite> <he>ירד שֶׁטֶף … ושְׁטָפוֹ</he> a rain shower came down and washed it (the mark on the grave) off. Y. B. Mets. VIII, end, 11ᵈ <he>בששְׁטָפָן</he> (not <he>בששטן</he>), v. <cite ref=\"C00502\"><he>גּוּשׁ</he></cite>. ",
+				"<cite ref=\"Shemot Rabbah 24\">Ex. R. s. 24</cite> <he>נתמלא … ובקש לשׁוֹטְפָן</he> the genius of the sea became wroth against them, and wanted to drown them. ",
+				"<cite ref=\"Bamidbar Rabbah 19\">Num. R. s. 19<sup>9</sup></cite> <he>ויצאו מים רבים ושָׁטְפוּ כל וכ׳</he> many waters came forth, and flooded all those who murmured; <cite ref=\"Midrash Tehillim 23:2\">Midr. Till. to Ps. LXXVIII, 20</cite> (corr. acc.); a. fr.—V. <cite ref=\"U00736\"><he>שָׁטוּף</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִשְׁטִיף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"U00761\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Taanit 6a:3\">Taan. 6ᵃ</cite> <he>ומַשְׁטִיף את הזרעים</he> (Ms. M. <he>ששׁוֹטֵף</he>, v. Rabb. D. S. a. l. note) it (the heavy rain) washes the seeds away; <cite ref=\"Yalkut Shimoni on Nach 535:3\">Yalk. Joel 535</cite> <he>ומְשַׁטֵּף</he> (<i>Pi.</i>).—<i>Part.</i> pass. <he>מוּשְׁטָף</he>; pl. <he>מוּשְׁטָפִים</he> <i>carried off, floating</i>. Ex. R. l. c. <he>לפי שראו … מ׳ על פני המים</he> because they saw the bodies … floating on the water."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִשְׁטַף"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִשְׁתַּטֵּף"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <cite ref=\"U00279\"><he>נִשְׁתַּטֵּף</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to be washed, showered upon; to take a shower bath</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 40a:7\">Sabb. 40ᵃ</cite> <he>ויוצא ומִשְׁתַּטַּף וכ׳</he> and goes out (of the steam-room), and takes a shower bath in the outer room. Ib.ᵇ <he>ובלבד שלא יִשְׁתַּטֵּף וכ׳</he> but he must not have a cold shower bath and then warm himself &c. Tosef. ib. III (IV), 4; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be swept away, drowned</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 307:6\">Sifré Deut. 307</cite> <he>מה ראו … שנִשְׁטְפוּ במים</he> why were the men of the flood drowned in water?; <cite ref=\"Yalkut Shimoni on Torah 942:33\">Yalk. ib. 942</cite> <he>שיִשָּׁטְפוּ</he>; Sifré l. c. <he>מה … להִשְׁתַּטֵּף באש וכ׳</he> why were the men of Sodom … swept away by fire and sulphur?; Yalk. l. c. <he>להִשָּׁטֵף</he>; a. e.—Trnsf. <i>to be carried away by passion</i>. ",
+						"<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9<sup>17</sup></cite>; <cite ref=\"Sifrei Bamidbar 12:1\">Sifré Num. 12</cite> <he>הרבה קידמוך ונִשְׁטְפוּ</he> many women before thee have been carried away (into infidelity)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

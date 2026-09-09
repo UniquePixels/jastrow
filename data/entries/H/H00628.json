@@ -1,0 +1,23 @@
+{
+	"id": "H00628",
+	"slug": "חטיטוב",
+	"headword": {
+		"text": "חֲטִיטוּב",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 449,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (reduplic. of <cite ref=\"H00589\"><he>חָטַב</he> I</cite>) <i>battle-axe</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 58b\">B. Mets. 58ᵇ</cite> Ms. R. a. oth. (v. <cite ref=\"H00629\">next w.</cite>); <cite ref=\"Tosefta Bava Metzia 3:24\">Tosef. ib. III, 24</cite> (Var. <he>והסיטום</he>, <he>והטיטוס</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "Q00334",
+	"slug": "פורה",
+	"headword": {
+		"text": "פּוּרָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1146,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>פרר</he>; cmp. <cite ref=\"Q00344\"><he>פּוּרְיָא</he></cite>) <i>frame of laths, portable stand for the display of goods</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 2:5:3\">Y. B. Kam. II, end, 3ᵃ</cite> <he>חד … פלטירה בפ׳</he> a man put his wares out on a frame (to exhibit them in the street)."
+			]
+		}
+	]
+}

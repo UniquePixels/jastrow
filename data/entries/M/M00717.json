@@ -1,0 +1,30 @@
+{
+	"id": "M00717",
+	"slug": "מזגא-2",
+	"headword": {
+		"text": "מִזְגָּא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "מַזְגָּא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 753,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"G00061\"><he>זוּגִּיתָא</he></cite>) <i>crystal, glass</i>. ",
+			"units": [
+				"<cite ref=\"Yoma 35b:5\">Yoma 35ᵇ</cite> <he>כחמרא במ׳</he> as the wine shines through a glass cup (be it ever so thick).—Pl. <he>מִזְגֵי</he> or <he>מַזְגֵּי</he>. ",
+				"<cite ref=\"Bava Batra 73b:1\">B. Bath. 73ᵇ</cite> <he>תרי מ׳ דחמרא</he> (Rashb. <cite ref=\"K00915\"><he>כסי</he></cite>, v. Rabb. D. S. a. l. note 300) two cups of wine. [<cite ref=\"Jerusalem Talmud Niddah 2:7:6\">Y. Nidd. II, 50ᵇ</cite> top <he>וכמזגי אבא וכ׳</he>, v. <cite ref=\"M00715\"><he>מֶזֶג</he></cite>.]"
+			]
+		}
+	]
+}

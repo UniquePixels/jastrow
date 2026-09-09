@@ -1,0 +1,55 @@
+{
+	"id": "S01559",
+	"slug": "קנטר-1",
+	"headword": {
+		"text": "קִנְטֵר"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִנְתֵּר"
+		}
+	],
+	"page": {
+		"number": 1390,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"S01552\"><he>קָנַט</he></cite>) [<i>to sting</i>,] <i>to chide</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 66a:6\">Pes. 66ᵃ</cite> <he>התחיל מְקַנְטְרָן בדברים</he> he began to chide them with words; Y. ib. VI, 33ᵃ <he>מקנתרן</he>. ",
+				"<cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 4:7\">Cant. R. to IV, 7</cite> <he>מפני שקִינְטְרָן ולפי וכ׳</he> because he rebuked them, and as they took their father’s rebuke (in silence), they were allowed to be recorded side by side with Aaron &c.; <cite ref=\"Bamidbar Rabbah 13:12\">Num. R. s. 13</cite> <he>שקִינְתְּרָן</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 13:12\">Ib.</cite> <he>בירך … ומְקַנְתֵּר וכ׳</he> he blessed the tribes (his sons) and chided Reuben &c.—",
+				"<cite ref=\"Jerusalem Talmud Sotah 1:4:5\">Y. Sot. I, 16ᵈ</cite> bot. <he>מבריחן … ומקנתרן בקלה</he> would he let them escape (unrebuked) from the heavier sin, and rebuke them for the lighter? <cite ref=\"Jerusalem Talmud Sanhedrin 7:6:6\">Y. Snh. VII, 24ᵈ</cite> bot. <he>מבריחו … ומְקַנְתְּרוֹ וכ׳</he> you cannot forego his heavier offence, and rebuke (punish) him for the lighter; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְקַנְטֵר", "הִתְקַנְתֵּר"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְקַנְטֵר", "נִתְקנְתֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to be rebuked</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 1:8\">Sifré Deut. 1</cite> <he>נ׳ עלי ר״ע וכ׳</he> R. Ak. was rebuked on my account before R. G. &c.; <cite ref=\"Yalkut Shimoni on Torah 789\">Yalk. ib. 789</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make one’s self disagreeable; to vex</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 11:7\">Num. R. s. 11</cite> <he>מִתְקַנְטְרִים לפניהם וכ׳</he> they (the angels of destruction) vex them (the wicked) and say, ‘no peace’ &c.; <cite ref=\"Yalkut Shimoni on Torah 711\">Yalk. ib. 711</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

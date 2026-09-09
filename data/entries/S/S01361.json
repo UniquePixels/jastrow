@@ -1,0 +1,23 @@
+{
+	"id": "S01361",
+	"slug": "קלמוס",
+	"headword": {
+		"text": "קָלָמוֹס"
+	},
+	"page": {
+		"number": 1378,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (κάλαμος) <i>reed, pen</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 80a\">Sabb. 80ᵃ</cite> Ms. O., v. <cite ref=\"S00348\"><he>קוֹלְמוֹס</he></cite>.—Pl. <cite ref=\"S01363\"><he>קָלָמִין</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 1\">Gen. R. s. 1</cite>; Y’lamd. to Num. XXIII, 9, v. <cite ref=\"M01189\"><he>מִילָן</he></cite>.—<he>קַלְמוֹסִים</he>, v. <cite ref=\"S00348\"><he>קוֹלְמוֹס</he></cite>."
+			]
+		}
+	]
+}

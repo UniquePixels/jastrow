@@ -1,0 +1,54 @@
+{
+	"id": "Q01341",
+	"slug": "פסע-1",
+	"headword": {
+		"text": "פָּסַע"
+	},
+	"page": {
+		"number": 1198,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <cite ref=\"Q02085\"><he>פָּשַׂע</he></cite>; cmp. <cite ref=\"Q01236\"><he>פָּסָה</he></cite> a. <cite ref=\"Q01253\"><he>פָּסַח</he></cite>) [<i>to spread the feet</i>,] <i>to step out, walk</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 27b:23\">Meg. 27ᵇ</cite> <he>לא פָסַעְתִּי על ראשי וכ׳</he> I never strode over the heads of the holy people (never forced my way through the students seated on the floor to reach my chair); <cite ref=\"Sanhedrin 7b:12\">Snh. 7ᵇ</cite> <he>מניין לדיין שלא יִפְסַע וכ׳</he> where is it intimated that a judge must not force his way &c. (Answ. by ref. to <cite ref=\"Exodus 20:26\">Ex. XX, 26</cite>, sq.); <cite ref=\"Yevamot 105b:10\">Yeb. 105ᵇ</cite> <he>מי שצריך … יִפְסַע וכ׳</he> he of whom the holy people are in need, may step over the heads &c. ",
+				"<cite ref=\"Sotah 13b:17\">Sot. 13ᵇ</cite> <he>שתים … ופְסָעָן משה בפסיעה אחת</he> twelve steps were there, and Moses passed over them with one step. ",
+				"<cite ref=\"Bereishit Rabbah 99:6\">Gen. R. s. 99</cite> (play on <he>פ̇ח̇ז</he>, <cite ref=\"Genesis 49:4\">Gen. XLIX, 4</cite>) <he>פָּסַעְתָּ על דת ח̇ללת … ז̇ר</he> thou didst overstep (transgress) the law, desecrate thy birthright (priesthood), and hast become a commoner. Mekh. Bo 7 (ref. to <cite ref=\"Exodus 12:13\">Ex. XII, 13</cite>) <he>א״ת ופסחתי אלא וּפָסַעְתִּי וכ׳</he> read not, and I will pass, but I will step over (leap, skip), the Lord skipped over &c.; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּסֵּעַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01340\">same</cite>. Y. Kil. VI, 30ᶜ <he>לפַסֵּעַ</he>, v. <cite ref=\"Q00779\"><he>פֵּיפוּר</he></cite>. Yeb. l. c. <he>מי הוא זה שמְפַסֵּעַ על ראשי וכ׳</he> who is he that forces his way over the heads &c.?, v. supra; a. e.",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִפְסִיעַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q01340\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Horayot 13b:7\">Hor. 13ᵇ</cite> <he>בזמן שרבים … מַפְסִיעִין על וכ׳</he> when the public need their services, they may force their way &c. ",
+						"<cite ref=\"Taanit 10b:10\">Taan. 10ᵇ</cite> <he>אל תַּפְסִיעוּ פסיעה גסה וכ׳</he> never march with hasty steps, and bring the sun into town (enter before sunset); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make cross-stitches</i>. ",
+					"units": [
+						"<cite ref=\"Moed Katan 10a\">M. Kat. 10ᵃ</cite>; Y. ib. I, 80ᵈ bot., v. <cite ref=\"K00676\"><he>כָּלַב</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

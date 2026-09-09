@@ -1,0 +1,24 @@
+{
+	"id": "V00749",
+	"slug": "תנין-2",
+	"headword": {
+		"text": "תַּנִּין"
+	},
+	"page": {
+		"number": 1682,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>sea-monster, crocodile; large snake</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 150a:2\">Sabb. 150ᵃ</cite> <he>רכב … וקשר ת׳ ראשו</he> he (Nebuchadnezzar) rode on a male lion, and tied a snake around his head. ",
+				"<cite ref=\"Niddah 22b:53\">Nidd. 22ᵇ</cite> <he>דמות ת׳</he> an abortion in the shape of a monster; a. e.—Pl. <he>תּנִּינִים</he>, <he>תַּנִּינִין</he>. ",
+				"<cite ref=\"Midrash Tehillim 148:2\">Midr. Till. to Ps. CXLVIII</cite> <he>ומי … אלו הת׳</he> who are the largest (inhabitants of the earth)? The monsters; a. e."
+			]
+		}
+	]
+}

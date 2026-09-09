@@ -1,0 +1,32 @@
+{
+	"id": "P00605",
+	"slug": "עינבול-2",
+	"headword": {
+		"text": "עִינְבּוֹל"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִינְבָּל"
+		},
+		{
+			"text": "עִנְ׳"
+		}
+	],
+	"page": {
+		"number": 1072,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (dimin. of <cite ref=\"P00942\"><he>עֵנָב</he></cite>; v. <cite ref=\"A02089\"><he>אִנְבּוֹל</he></cite>) <i>clapper of a bell</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 14:4\">Kel. XIV, 4</cite> <cite ref=\"P00945\"><he>ענבול</he></cite> ed. Dehr. (ed. <cite ref=\"P00945\"><he>ענבל</he></cite>). ",
+				"<cite ref=\"Shabbat 58b:7\">Sabb. 58ᵇ</cite> <cite ref=\"P00605\"><he>עינבל</he></cite>; a. fr.—Pl. <he>עִינְכּוֹלִין</he>, <he>עִינְבָּלִין</he>, <cite ref=\"P00605\"><he>עִנְ׳</he></cite>. ",
+				"<cite ref=\"Shabbat 58b:7\">Ib.</cite> <he>ניטלו עִינְבָּלֵיהֶן</he> if their clappers are gone; (<cite ref=\"Tosefta Keilim Metsia 1:13\">Tosef. Kel. B. Mets. I, 13</cite> <he>אנבילים</he>, <he>אנביליהן</he>, v. <cite ref=\"A02089\"><he>אִנְבּוֹל</he></cite>).—[<cite ref=\"Bekhorot 39b\">Bekh. 39ᵇ</cite>, v. preced.]"
+			]
+		}
+	]
+}

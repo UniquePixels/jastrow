@@ -1,0 +1,50 @@
+{
+	"id": "K00270",
+	"slug": "כוליא",
+	"headword": {
+		"text": "כּוֹלְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כּוֹלְיָיא"
+		},
+		{
+			"text": "כּוּל׳"
+		},
+		{
+			"text": "כָּלְ׳"
+		}
+	],
+	"page": {
+		"number": 620,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (v. <cite ref=\"K00725\"><he>כִּלְיָה</he></cite>) [<i>rounded</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>testicle</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Leviticus 21:20\">Targ. Y. II, Lev. XXI, 20</cite>. ",
+				"<cite ref=\"Targum Jerusalem, Leviticus 22:23\">Targ. Y. ib. XXII, 23</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>kidney</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 97a:3\">Ḥull. 97ᵃ</cite>.—Pl. <cite ref=\"K00270\"><he>כּוֹלְיָן</he></cite>, <cite ref=\"K00270\"><he>כּוֹלְיָין</he></cite>, <he>כּוֹלְיָתָא</he> (<cite ref=\"K00270\"><he>כּוּלְ׳</he></cite>. <cite ref=\"K00270\"><he>כָּלְ׳</he></cite>). ",
+				"<cite ref=\"Onkelos Leviticus 3:4\">Targ. Lev. III, 4</cite>; a. fr. ",
+				"<cite ref=\"Aramaic Targum to Job 38:36\">Targ. Job XXXVIII, 36</cite> <he>כוליין</he> ed. Lag. (oth. <cite ref=\"K00739\"><he>כָּלְיָן</he></cite>, Ms. Var. <he>כוליתא</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 34:6\">Targ. Is. XXXIV, 6</cite> <he>כָּלְיַת</he> constr.—",
+				"<cite ref=\"Shabbat 119b:4\">Sabb. 119ᵇ</cite>.—[<cite ref=\"K00270\"><he>כּוּלְיָא</he></cite> h., v. <cite ref=\"K00725\"><he>כִּלְיָה</he></cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "T00172",
+	"slug": "רגוש-2",
+	"headword": {
+		"text": "רְגוֹשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְגוֹשָׁא"
+		}
+	],
+	"page": {
+		"number": 1447,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00225\"><he>רְגַשׁ</he></cite>) <i>noise, tumult; rush</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 39:24\">Targ. Job XXXIX, 24</cite> Ms. (ed. <cite ref=\"T00188\"><he>רגיז</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 39:7\">Ib. 7</cite> Ms. (ed. <cite ref=\"T00171\"><he>רִגּוּשׁ</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 38:27\">Ib. XXXVIII, 27</cite> (ed. Wil. <he>רְגוּ׳</he>; h. text <cite ref=\"H01194\"><he>שאה</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Job 41:21\">Ib. XLI, 21</cite>; a. fr.—V. <cite ref=\"T00599\"><he>רִיגּוּשׁ</he></cite> ch."
+			]
+		}
+	]
+}

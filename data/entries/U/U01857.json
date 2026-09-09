@@ -1,0 +1,39 @@
+{
+	"id": "U01857",
+	"slug": "שקיותא",
+	"headword": {
+		"text": "שַׁקְיוּתָא"
+	},
+	"page": {
+		"number": 1622,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"U01856\">preced. art.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>drink</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 102:10\">Targ. Ps. CII, 10</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " בֵּית שׁ׳ <i>trough</i>, v. <cite ref=\"U01842\"><he>שָׁקוּתָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>butlership</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 40:21\">Targ. O. Gen. XL, 21</cite>."
+			],
+			"label": "3"
+		}
+	]
+}

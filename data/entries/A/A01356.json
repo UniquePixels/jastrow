@@ -1,0 +1,27 @@
+{
+	"id": "A01356",
+	"slug": "אימת-2",
+	"headword": {
+		"text": "אֵימַת"
+	},
+	"page": {
+		"number": 51,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <i>whenever, when</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 23:42\">Targ. Y. Lev. XXIII, 42</cite>; a. e. Y. B. Kam. III, 3ᵈ top <he>אי׳ דמתיבון וכ׳</he> when they quote the Mishnah in support of &c. ",
+				"<cite ref=\"Avodah Zarah 53b:3\">Ab. Zar. 53ᵇ</cite> <he>כל אי׳ דבעינא לה</he> whenever I desire it. ",
+				"<cite ref=\"Niddah 66a:34\">Nidd. 66ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " also (<cite ref=\"A01358\"><he>אִימַתִּי</he></cite>) <cite ref=\"A01358\"><he>אֵימָתַי</he></cite> <i>when?</i> <cite ref=\"Aramaic Targum to Job 7:4\">Targ. Job. VII, 4</cite>.—לא׳ <i>for what time? until what time?</i> <cite ref=\"Onkelos Exodus 8:5\">Targ. O. Ex. VIII, 5</cite>; a. e.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

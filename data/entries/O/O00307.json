@@ -1,0 +1,40 @@
+{
+	"id": "O00307",
+	"slug": "סוכלתנו",
+	"headword": {
+		"text": "סוּכְלְתָנוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "סוּכְלְתָנוּתָא"
+		}
+	],
+	"page": {
+		"number": 964,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O00306\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>intelligence, intellect</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 31:3\">Targ. Ex. XXXI, 3</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 29:14\">Targ. Is. XXIX, 14</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>reasoning</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 21:11\">Targ. Prov. XXI, 11</cite> <he>בסוּכְלְתָנוּתֵיה דחכימא</he> (Ms. <he>בסוכלתנוהי</he>, some ed. <he>בסוכלתניה</he>, corr. acc.) when the wise man is reasoned with."
+			],
+			"label": "2"
+		}
+	]
+}

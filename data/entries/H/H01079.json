@@ -1,0 +1,40 @@
+{
+	"id": "H01079",
+	"slug": "חללא",
+	"headword": {
+		"text": "חֲלָלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֲלָלָה"
+		}
+	],
+	"page": {
+		"number": 470,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01078\">same</cite><i>space, cavern, hole</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 23:42\">Targ. Y. Lev. XXIII, 42</cite>.—Y. Kil. IX, 32ᶜ bot.; <cite ref=\"Jerusalem Talmud Ketubot 12:3:14\">Y. Keth. XII, 35ᵇ</cite> <he>יהבון בח׳</he> put them into a cavern. ",
+				"<cite ref=\"Avodah Zarah 28b:1\">Ab. Zar. 28ᵇ</cite> <he>ח׳ דבי צוארא</he> neck-hole of a garment. Y. ib. II, 40ᵈ top <he>עביר עינא כחללה</he> (not <he>כחל לה</he>) considers the eye like an inner organ (for treatment on the Sabbath, v. <cite ref=\"H01078\">preced.</cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pl. <he>חֲלָלֵי</he>, in <he>ח׳ דעלמא</he> <i>the underground treasures of the world</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 97a\">Snh. 97ᵃ</cite>; <cite ref=\"Bava Metzia 49a:16\">B. Mets. 49ᵃ</cite> (<cite ref=\"H01079\"><he>חללא</he></cite>, corr. acc., v. Rabb. D. S. a. l. note 6)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>secrets</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 77b\">Sabb. 77ᵇ</cite> if they asked him <he>כל ח׳ עלמא</he> about all the secret processes of nature."
+			],
+			"label": "3"
+		}
+	]
+}

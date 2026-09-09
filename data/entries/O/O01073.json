@@ -1,0 +1,28 @@
+{
+	"id": "O01073",
+	"slug": "סמוקרי",
+	"headword": {
+		"text": "סְמוֹקְרִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִמּוֹ׳"
+		}
+	],
+	"page": {
+		"number": 999,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01129\"><he>סְמַק</he></cite>) <i>reddish, reddy</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 13:42\">Targ. Y. Lev. XIII, 42</cite> (ed. Vien. <cite ref=\"O01073\"><he>סִמּוּקְרֵי</he></cite>; h. text <cite ref=\"A00420\"><he>אדמדם</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 25:25\">Targ. Y. I Gen. XXV, 25</cite> <cite ref=\"O00342\"><he>סוּמוֹקְרַיי</he></cite> (ed. Vien. <cite ref=\"O00342\"><he>סוּמוּקְרִיי</he></cite>); <cite ref=\"Targum Jonathan on Genesis 2\">II</cite> <cite ref=\"O01133\"><he>סַמְקְרָיי</he></cite> (h. text <cite ref=\"A00425\"><he>אדמוני</he></cite>)."
+			]
+		}
+	]
+}

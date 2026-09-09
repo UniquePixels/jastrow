@@ -1,0 +1,28 @@
+{
+	"id": "D00587",
+	"slug": "דיכונא",
+	"headword": {
+		"text": "דִּיכּוּנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "דִּכּוּנָא"
+		}
+	],
+	"page": {
+		"number": 299,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D00586\">preced.</cite>) <i>crushing, oppression</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 24:2\">Targ. Prov. XXIV, 2</cite> (ed. Lag. <he>ריכונ׳</he>, Var. <cite ref=\"T00588\"><he>ריבונא</he></cite>, ed. Vien. <cite ref=\"T00069\"><he>רִבּוּ׳</he></cite>; h. text <he>שֹׁד</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 21:7\">Ib. XXI, 7</cite> ed. Vien. <he>דכ׳</he> (ed. Lag. <he>ריכ׳</he>, Var. <he>ריב׳</he>)."
+			]
+		}
+	]
+}

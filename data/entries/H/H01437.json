@@ -1,0 +1,31 @@
+{
+	"id": "H01437",
+	"slug": "חפז",
+	"headword": {
+		"text": "חָפַז"
+	},
+	"page": {
+		"number": 491,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be in haste, to hurry</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְפָּז"],
+			"senses": [
+				{
+					"gloss": "<i>to be hurried, excited</i>. ",
+					"units": [
+						"<cite ref=\"Pirkei DeRabbi Eliezer 26\">Pirké d’R. El. ch. XXVI</cite> <he>נבהל ונֶחְפָּז</he> frightened and excited."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

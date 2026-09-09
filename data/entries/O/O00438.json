@@ -1,0 +1,28 @@
+{
+	"id": "O00438",
+	"slug": "סות-1",
+	"headword": {
+		"text": "סוּת",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "סֶוֶת"
+		}
+	],
+	"page": {
+		"number": 970,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <he>סוה</he> , v. <cite ref=\"M01863\"><he>מַסְוֶה</he></cite>) <i>dress, cloak</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 16:7\">Kel. XVI, 7</cite> <he>עושה ס׳</he> ed. Dehr. (oth. ed. <he>סְוָתוֹת</he> or <he>סוּתוֹת</he> pl.), v. <cite ref=\"A01998\"><he>אִמּוּם</he></cite>. [Var. in Mish. ed. <he>סיאגוס</he>, prob. meant for <cite ref=\"O00116\"><he>סָאגוֹס</he></cite> = <cite ref=\"O00116\"><he>סָגוֹס</he></cite>, as a gloss to our w.; R. S. to Kel. l. c. <he>שיאגות</he>, Var. <he>סבאות</he>; Hai G. <he>סאיכות</he>, Var. <he>סְיָאוֹת</he>.]"
+			]
+		}
+	]
+}

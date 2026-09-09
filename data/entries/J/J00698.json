@@ -1,0 +1,55 @@
+{
+	"id": "J00698",
+	"slug": "ישן-3",
+	"headword": {
+		"text": "יָשַׁן"
+	},
+	"page": {
+		"number": 601,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"J00697\">preced.</cite> wds. a. <i>to be strong, hard, old</i> (cmp. <cite ref=\"S02251\"><he>קשיש</he></cite>).—V. <cite ref=\"J00249\"><he>יוֹשֶׁן</he></cite> a. <cite ref=\"J00699\">next w.</cite>",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יִישֵּׁן"],
+			"senses": [
+				{
+					"gloss": "<i>to let grow old</i> (<i>strong</i>), <i>keep, reserve</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 91b:16\">B. Bath. 91ᵇ</cite> <he>דברים שדרכן ליַישְּׁנָן</he> things which it is customary to keep (to store, as wine &c.). ",
+						"<cite ref=\"Devarim Rabbah 9:1\">Deut. R. s. 9</cite>, beg. <he>מן היין הזה אני מְיַישֵּׁן וכ׳</he> of this wine I will store away a portion for my son’s wedding. ",
+						"<cite ref=\"Tosefta Avodah Zarah 8:3\">Tosef. Ab. Zar. VIII</cite> (<cite ref=\"Tosefta Avodah Zarah 9:3\">IX</cite>), 3 <he>צריך ליַשֵּׁן</he> he must store them away (leave them unused); <cite ref=\"Tosefta Tahorot 11:16\">Tosef. Toh. XI, 16</cite>. ",
+						"<cite ref=\"Tosefta Tahorot 11:16\">Ib.</cite> <he>כמה הוא מְיַשְּׁנָן</he>, v. <cite ref=\"J00683\"><he>יִשּׁוּן</he></cite>; Y. Ab. Zar. V, end 45ᵇ <he>מְיַישְּׁנָן כל י״ב וכ׳</he> he must leave them unused for the whole twelve-month; Bab. ",
+						"<cite ref=\"Avodah Zarah 75a\">Ab. Zar. 75ᵃ</cite>.—Part. pass. <cite ref=\"M01105\"><he>מְיוּשָּׁן</he></cite> <i>stored up</i>, v. infra. Y. B. Bath. VII, end, 15ᶜ. Y. Gitt. III, end, 45ᵇ ‘old’ means last year’s crop, <he>מי׳ של וכ׳</he> ‘stored’ means three years old."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְיַשֵּׁן"],
+			"senses": [
+				{
+					"gloss": "<i>to be stored up, to improve with age</i>. Sifra B’huck. ch. III; <cite ref=\"Yalkut Shimoni on Torah 672:3\">Yalk. Lev. 672</cite> (ref. to <he>ישן נושן</he>, <cite ref=\"Leviticus 26:10\">Lev. XXVI, 10</cite>) <he>כל המִתְיַשֵּׁן יפה מחבירו</he> the sort which is stored up is the better of its kind; B. Bath. l. c. [read with Ms. R.:] <he>כל המְיוּשָּׁן יפה מחבירו</he>. Y. Gitt. l. c. <he>הדא אמרה דאי מתישן וכ׳</he> this intimates that if wine is sold as <i>mithyashshen</i> (fit for storage) the seller is responsible for three years. Sifra l. c. <he>לרבות כל המִתְיַישְּׁנִים</he> including all produces fit for storage (besides wine); Yalk. l. c. <he>לרבות כל הדבר המיושן</he>.",
+					"units": []
+				}
+			],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נוֹשָׁן"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"J00697\">same</cite>. B. Bath. l. c.; a e., v. <cite ref=\"J00699\">next w.</cite>",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

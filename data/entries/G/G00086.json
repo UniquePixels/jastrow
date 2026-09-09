@@ -1,0 +1,27 @@
+{
+	"id": "G00086",
+	"slug": "זהוה",
+	"headword": {
+		"text": "זָהוֹהַּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "זָחוֹחַ"
+		}
+	],
+	"page": {
+		"number": 381,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"G00082\"><he>זָהַהּ</he></cite>) <i>proud, boastful, wanton</i>.—Pl. <cite ref=\"G00089\"><he>זְהוֹהִים</he></cite>, <he>זְחוֹחִים</he>; only in (<he>זְחוֹחֵי</he>) <he>זְהוֹהֵי הלב</he>. ",
+			"units": [
+				"<cite ref=\"Sotah 47b:6\">Sot. 47ᵇ</cite> <he>זה׳</he> Ar. (ed. <he>זח׳</he>); Tosef. ib. XIV, 9 <he>זְהִיהֵי</he> Var. (ed. Zuck. <cite ref=\"G00092\"><he>זהורי</he></cite>, corr. acc.); <cite ref=\"Chullin 7a:3\">Ḥull. 7ᵃ</cite>"
+			]
+		}
+	]
+}

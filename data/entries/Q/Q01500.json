@@ -1,0 +1,23 @@
+{
+	"id": "Q01500",
+	"slug": "פקסוסיה",
+	"headword": {
+		"text": "פַּקְסוּסַיָּה"
+	},
+	"page": {
+		"number": 1210,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (v. <cite ref=\"Q00815\"><he>פֶּיקָס</he></cite> a. <cite ref=\"Q00805\"><he>פִּיקּוּסָא</he></cite>) <i>the coils on the blossom ends of gourds</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 1:4:2\">Y. Maasr. I, 49ᵃ</cite> (expl. <he>משיפקסו</he>, <cite ref=\"Mishnah Maasrot 1:5\">Maasr. I, 5</cite>) <he>מן דו ירים פ׳</he> when one removes the coils."
+			]
+		}
+	]
+}

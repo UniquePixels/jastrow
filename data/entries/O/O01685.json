@@ -1,0 +1,31 @@
+{
+	"id": "O01685",
+	"slug": "סתוונית",
+	"headword": {
+		"text": "סִתְוָונִית"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִתְוָנִ׳"
+		},
+		{
+			"text": "סִיתְ׳"
+		}
+	],
+	"page": {
+		"number": 1030,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., pl. <cite ref=\"O00785\"><he>סִתְוָונִיּוֹת</he></cite>, <cite ref=\"O01685\"><he>סִתְוָנִ׳</he></cite>, <cite ref=\"O01685\"><he>סִיתְ׳</he></cite> (<cite ref=\"O01684\">preced.</cite>) <i>winter-fruits, late fruits</i> (remaining on the tree until winter-time). ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 9:4\">Shebi. IX, 4</cite>. ",
+				"<cite ref=\"Mishnah Terumot 11:2\">Ter. XI, 2</cite> <he>חומץ ס׳</he> vinegar made of late grapes; a. fr.—V. <cite ref=\"O00785\"><he>סִיפְוָונִיּוֹת</he></cite>."
+			]
+		}
+	]
+}

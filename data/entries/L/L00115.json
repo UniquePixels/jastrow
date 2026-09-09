@@ -1,0 +1,29 @@
+{
+	"id": "L00115",
+	"slug": "לברטון",
+	"headword": {
+		"text": "לַבְרָטוֹן",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "לַבְרְיָטוֹן"
+		}
+	],
+	"page": {
+		"number": 691,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (λαβρᾶτον, λαυρεᾶτον, S.) <i>the emperor’s portrait wreathed with laurels</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 356:2\">Yalk. Ez. 356</cite> <he>נטלה לברנטין של מלך וֹכ׳</he> (corr. acc.) she took the king’s portrait and used it as fuel for making a hot drink. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 356:2\">Ib.</cite> <he>בברנטן שלי</he> (corr. <he>בלב׳</he>); <cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 9</cite> <cite ref=\"L00324\"><he>לורטיא</he></cite>, read <he>לַוְרִיָטָא</he> (laureata, sc. imago). [Ar. s. v. <he>ברנט</he>, quotes a Var. <he>טורתק</he>, for <he>נוורתק</he>, a. expl. our w. = <cite ref=\"S00405\"><he>קומקום</he></cite>.]"
+			]
+		}
+	]
+}

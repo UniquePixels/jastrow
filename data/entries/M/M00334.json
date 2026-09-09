@@ -1,0 +1,40 @@
+{
+	"id": "M00334",
+	"slug": "מדרס",
+	"headword": {
+		"text": "מִדְרָס"
+	},
+	"page": {
+		"number": 735,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D01113\"><he>דָּרַס</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>treading, place trodden upon</i>, in gen. <i>basis, seat</i>, esp. <i>midras</i>, levitical uncleanness arising from a gonorrhoeist’s immediate contact by treading, leaning against &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 6:3\">Nidd. VI, 3</cite> <he>כל המיטמא</he> (<cite ref=\"B00000\"><he>ב</he></cite>)<he>מ׳</he> whatever can be made unclean as a <i>midras</i>; expl. ",
+				"<cite ref=\"Niddah 49b:18\">ib. 49ᵇ</cite> <he>כל דחזי למ׳</he> whatever is fit to be used as a seat, couch &c. ",
+				"<cite ref=\"Mishnah Kelim 24:1\">Kel. XXIV, 1</cite>. ",
+				"<cite ref=\"Mishnah Parah 10:1\">Par. X, 1</cite>; a. v. fr.—In gen. = <he>אב הטומאה</he>, <i>uncleanness of the first degree</i>. ",
+				"<cite ref=\"Mishnah Chagigah 2:7\">Ḥag. II, 7</cite>; a. fr.—Pl. <he>מִדְרָסוֹת</he> <i>cases of midras</i>. ",
+				"<cite ref=\"Chullin 35a:7\">Ḥull. 35ᵃ</cite>. ",
+				"<cite ref=\"Shabbat 59a:4\">Sabb. 59ᵃ</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " a sort of <i>shoe</i> or <i>heel</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 2:14\">Tosef. Kel. B. Mets. II, 14</cite> <he>התקינו למנעול או למ׳</he> R. S. to <cite ref=\"Mishnah Kelim 12:5\">Kel. XII, 5</cite> (ed. <he>למחרים</he>, corr. acc.) if he made the nail for a shoe or a <i>midras</i>"
+			],
+			"label": "2"
+		}
+	]
+}

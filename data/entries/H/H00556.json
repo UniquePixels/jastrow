@@ -1,0 +1,52 @@
+{
+	"id": "H00556",
+	"slug": "חזקה",
+	"headword": {
+		"text": "חֲזָקָה"
+	},
+	"page": {
+		"number": 445,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H00553\"><he>חָזַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>taking hold</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:7:14\">Y. M. Kat. III, 83ᶜ</cite> top (ref. to <cite ref=\"II Samuel 1:11\">II Sam. I, 11</cite>) <he>אין ח׳ וכ׳</he> taking hold (of a garment to rend it in mourning) means no less than a hand-breadth of it."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (law) <i>taking posssession, posession, usucaption; claim based on undisturbed possession</i> during a legally fixed period. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 3:1\">B. Bath. III, 1</cite> <he>חֶזְקַת הבתים וכ׳</he> the legal period of undisturbed possession (in order to give a title) is for houses … three years. ",
+				"<cite ref=\"Bava Batra 29b:9\">Ib. 29ᵇ</cite> (in Chald. diction) <he>אכלית שני ח׳</he> I had the undisturbed usufruct for the period prescribed by law. ",
+				"<cite ref=\"Bava Batra 36a:9\">Ib. 36ᵃ</cite> <he>עבדים יש להם ח׳</he> does the law of possession apply to slaves?—",
+				"<cite ref=\"Bava Batra 36a:9\">Ib.</cite> <he>אין להם ח׳ לאלתר וכ׳</he> present possession gives no title (as is the case with inanimate movable chattel), but a possession of three years does. ",
+				"<cite ref=\"Mishnah Bava Batra 3:2\">Ib. III, 2</cite> <he>שלש ארצות לח׳</he> there are in Palestine three districts with different usages of possession. ",
+				"<cite ref=\"Mishnah Bava Batra 3:3\">Ib. 3</cite> <he>כל ח׳ שאין וכ׳</he> possession without a plea (of purchase or any other mode of legal acquisition) gives no title; a. v. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>presumption, presumptive continuance of an actual condition until evidence of a change is produced; legal status</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 9a:10\">Ḥull. 9ᵃ</cite> <he>בהמה בחייה בחֶזְקַת איסור וכ׳</he> the anima <i>l</i> when alive, has the status of a forbidden object (v. <cite ref=\"A00202\"><he>אֵבֶר</he></cite>), until you ascertain by what means it has been ritually slaughtered; when it is slaughtered <he>הרי היא בח׳ היתר וכ׳</he> it has the status of a permitted object, until you find out how it became forbidden. ",
+				"<cite ref=\"Mishnah Gittin 3:3\">Gitt. III, 3</cite> <he>בחזקת שהוא קיים</he> under the presumption that her husband (though sick or old when the messenger was deputed) is alive. ",
+				"<cite ref=\"Ketubot 75b:5\">Keth. 75ᵇ</cite> <he>ח׳ דגופא</he> a presumption as regards physical condition, <he>ח׳ דממונא</he> the fact of possession against which the claimant has to produce satisfactory evidence. ",
+				"<cite ref=\"Ketubot 75b:8\">Ib.</cite> <he>ח׳ אין אדם שותה וכ׳</he> the presumption is that no man drinks out of a cup without examining (that none will marry without having ascertained the woman’s physical condition). ",
+				"<cite ref=\"Yevamot 31b:1\">Yeb. 31ᵇ</cite> top <he>חזקת בר שטיא</he> the legal status of an insane person’s property; a. v. fr.—Pl. <he>חֲזָקוֹת</he>. ",
+				"<cite ref=\"Kiddushin 80a:2-3\">Kidd. 80ᵃ</cite> <he>סוקלין … מלקין על הח׳</he> we execute punishment on the basis of actual facts (though not provable by legal evidence, e.g. man and wife and children living together and treating each other as such, are legally considered as being one family), v. <cite ref=\"H00553\"><he>חָזַק</he></cite> <i>Hof.</i>—",
+				"<cite ref=\"Jerusalem Talmud Challah 4:4:8\">Y. Ḥall. IV, 60ᵃ</cite> bot. <he>לח׳</he> with reference to the local usages of usucaption (<cite ref=\"Mishnah Gittin 3:2\">Gitt. III, 2</cite>, v. supra); a. e."
+			],
+			"label": "3"
+		}
+	]
+}

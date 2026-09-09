@@ -1,0 +1,27 @@
+{
+	"id": "Q02036",
+	"slug": "פרשוניא",
+	"headword": {
+		"text": "פַּרְשׁוּנְיָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּשְׁרוּנְיָא"
+		}
+	],
+	"page": {
+		"number": 1244,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Parshunia</i>, (<i>Pashrunia</i>), in Babylonia. ",
+			"units": [
+				"<cite ref=\"Eruvin 104a:6\">Erub. 104ᵃ</cite> <he>פרש׳</he> early eds. (Ms. M. <cite ref=\"Q02037\"><he>פרשותא</he></cite>; late eds. <he>פשר׳</he>; v. Rabb. D. S. a. l. note); <cite ref=\"Pesachim 91a\">Pes. 91ᵃ</cite> <cite ref=\"Q01841\"><he>פרישנא</he></cite> (Ms. M. <cite ref=\"Q02032\"><he>פרשדוניא</he></cite>, v. Rabb. D. S. a. l. note)."
+			]
+		}
+	]
+}

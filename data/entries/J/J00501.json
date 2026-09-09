@@ -1,0 +1,75 @@
+{
+	"id": "J00501",
+	"slug": "יפה-2",
+	"headword": {
+		"text": "יִפָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "יִיפָּה"
+		}
+	],
+	"page": {
+		"number": 586,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to beautify; to make pleasant, popular</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 39\">Gen. R. s. 39</cite>, beg. (ref. to <cite ref=\"Psalms 45:12\">Ps. XLV, 12</cite>) <he>ליַפּוֹתָיךְ בעולם</he> to make thee popular in the world. ",
+				"<cite ref=\"Mishnah Nedarim 9:10\">Ned. IX, 10</cite> <he>יִיפּוּהָ</he> they improved her appearance. ",
+				"<cite ref=\"Berakhot 43b:5\">Ber. 43ᵇ</cite> (ref. to <cite ref=\"Ecclesiastes 3:11\">Koh. III, 11</cite>) <he>שי׳ הקב״ה אומנתו בפני כל וא׳ א׳</he> Ms. M. (differ. in ed.), v. <cite ref=\"A00708\"><he>אוּמָנוּת</he></cite>.—<i>Part. pass.</i> <he>מְיוּפֶּה</he> <i>adorned, elaborate</i>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:1:11\">Cant. R. to I, 1</cite> <he>נמצא מי׳ ומרובה וכ׳</he> was Solomon’s palace more elaborate and extensive than the Temple?—2) <i>to improve</i> (land). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:20\">Y. Sabb. VII, 10ᵃ</cite> top <he>קצר ליַיפּוֹת וכ׳</he> he cut the grass for the sake of improving the land. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:20\">Ib.</cite> <he>חייב משום מְיַיפֶּה וכ׳</he> he is guilty of the offence of improving the land on the Sabbath. Pesik. S’liḥoth, p. 166ᵃ <he>יַפֵּה כחך</he> improve thy strength (by practicing)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with <he>כח</he>) <i>to strengthen one’s rights, to confer prerogatives</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Batra 7:2\">B. Bath. VII, 2</cite> <he>ליַיפּוֹת כחו של מוכר</he> to give the seller the prerogative. Y. ib. VIII, 16ᵃ top <he>יִיפִּיתָה כחה בנכסי האם</he> thou hast (the Law has) given her a prerogative with reference to her mother’s property; a. fr."
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["יוּפָּה"],
+			"senses": [
+				{
+					"gloss": ", with <he>כח</he>, <i>to be made stronger</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Peah 6:6\">Peah VI, 6</cite> [read:] <he>יופה כחו של וכ׳</he> (Ms. M. <he>ייפיה</he>, ed. <cite ref=\"J00222\"><he>יופי</he></cite>) the prerogative of the owner has been made firmer, opp. <cite ref=\"T00914\"><he>הורע</he></cite>.—<i>Part.</i> <he>מְיוּפֶּה</he> (v. supra). Y. Gitt. II, beg. 44ᵃ <he>חתימה … כחו מי׳</he> by two persons testifying to the signature her case is improved."
+					]
+				}
+			],
+			"stem": "*."
+		},
+		{
+			"forms": ["הִתְיַפֶּה"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְיַפֶּה</he> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to become handsome</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 23b:13\">Taan. 23ᵇ</cite> <he>תִּתְיַיפִּי חנה</he> Hannah, grow handsome, <he>ונִתְיַיפְּתָה</he> Ms. M. (ed. … <he>פָּת</he>) and she did &c."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be praised</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 59\">Gen. R. s. 59</cite> <he>נִתְיַיפִּיתָ וכ׳</he> thou (Abraham) hast been praised among the angels &c."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

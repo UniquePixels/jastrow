@@ -1,0 +1,27 @@
+{
+	"id": "V00005",
+	"slug": "תאב-2",
+	"headword": {
+		"text": "תְּאֵב"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּאֵיב",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1641,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"V00004\">same</cite>.",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 84:3\">Targ. Ps. LXXXIV, 3</cite>.—Part. <cite ref=\"V00007\"><he>תָּאֵיב</he></cite>; f. <cite ref=\"V00021\"><he>תְּאֵיבָא</he></cite> &c. ",
+				"<cite ref=\"Aramaic Targum to Ruth 1:16\">Targ. Ruth. I, 16</cite>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 13:5\">Targ. Hos. XIII, 5</cite> <he>תְּאֵיבִין</he> (ed. Wil. <he>תָּאֲבִין</he>)."
+			]
+		}
+	]
+}

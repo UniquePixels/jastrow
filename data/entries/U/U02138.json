@@ -1,0 +1,34 @@
+{
+	"id": "U02138",
+	"slug": "שתר",
+	"headword": {
+		"text": "שְׁתַר"
+	},
+	"page": {
+		"number": 1640,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U00284\"><he>אִשְׁתַּתַּר</he></cite>, <cite ref=\"A03366\"><he>אִשְׁתַּר</he></cite> (v. <cite ref=\"U00591\"><he>שׁוֹתַר</he></cite>) <i>to be left over; to escape</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 21:16\">Targ. Job XXI, 16</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 21:34\">Ib. 34</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 19:20\">Ib. XIX, 20</cite>.—",
+						"<cite ref=\"Vayikra Rabbah 13:1\">Lev. R. s. 13</cite> <he>אף אתון לא אִשְׁתָּרִיתון</he> are you not of those that survived?"
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

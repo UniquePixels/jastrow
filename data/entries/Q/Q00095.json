@@ -1,0 +1,32 @@
+{
+	"id": "Q00095",
+	"slug": "פגר-6",
+	"headword": {
+		"text": "פְּגַר",
+		"homograph": 3
+	},
+	"altHeadwords": [
+		{
+			"text": "פִּגְרָא"
+		},
+		{
+			"text": "פַּ׳"
+		}
+	],
+	"page": {
+		"number": 1136,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00094\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 14:19\">Targ. Is. XIV, 19</cite>; a. e.—Trnsf. (contemptuously) <i>body</i>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 10:13\">Targ. Prov. X, 13</cite> (h. text <cite ref=\"C00262\"><he>גֵּו</he></cite>).—Pl. <cite ref=\"Q00078\"><he>פִּגְרִין</he></cite>, <cite ref=\"Q00071\"><he>פִּגְרַיָּא</he></cite>. ",
+				"<cite ref=\"Onkelos Leviticus 26:30\">Targ. Lev. XXVI, 30</cite> (O. ed. Berl. <cite ref=\"Q00095\"><he>פַּ׳</he></cite>; v. Berl. Targ. O. II, p. 39). ",
+				"<cite ref=\"Onkelos Genesis 15:11\">Targ. O. Gen. XV, 11</cite> ed. Bon. (ed. Berl. a. oth. <he>פַּלְגַּיָּא</he>; Ms. II <cite ref=\"Q00071\"><he>פִּגְלַיָּא</he></cite>, ed. Vien. <he>פַּגְלַ׳</he>, v. <he>פגל</he>). ",
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 1:1\">Targ. Y. II, Deut. I, 1</cite> <cite ref=\"Q00055\"><he>פִּיגְ׳</he></cite>; a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "U00280",
+	"slug": "שדף-2",
+	"headword": {
+		"text": "שְׁדַף"
+	},
+	"page": {
+		"number": 1525,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be blasted, emptied of grain</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 105b:15\">B. Mets. 105ᵇ</cite> <he>דאִישְּׁדּוּף רובא דבאגא</he> when most of the fields of the valley were struck; <cite ref=\"Bava Metzia 106a:4\">ib. 106ᵃ</cite> <he>אִשְׁתַּדּוּף רובא וכ׳</he> most of the fields … were struck, and also his barley was blasted. ",
+				"<cite ref=\"Bava Metzia 106a:6\">Ib.</cite> (mixed dict.) <he>דהא מִשְׁתַּדְּפוּ כל שדותיך</he> for all thy fields have been struck; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (euphem.) <i>to ease one’s self</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 18:27\">Targ. I Kings XVIII, 27</cite> (h. text <cite ref=\"U00814\"><he>שִׂיג</he></cite>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"U01371\"><he>אִשְׁתַּדֵּיף</he></cite>, <i>Ithpe.</i> <cite ref=\"U01371\"><he>אִשְׁתְּדִיף</he></cite>, <he>אִשְּׁדִיף</he> same, ",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

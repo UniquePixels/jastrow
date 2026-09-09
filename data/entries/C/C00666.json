@@ -1,0 +1,32 @@
+{
+	"id": "C00666",
+	"slug": "גיורא",
+	"headword": {
+		"text": "גַּיּוֹרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גִּיּוֹרָא"
+		}
+	],
+	"page": {
+		"number": 236,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גור</he> II) <i>adulterer, wencher, lewd man</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 24:15\">Targ. Job XXIV, 15</cite> Ms. (ed. <he>גיופא</he>). ",
+				"<cite ref=\"Targum Jonathan on Leviticus 20:10\">Targ. Y. Lev. XX, 10</cite> <he>גִּיּ׳</he>.—Pl. <he>גַּיּוֹרִין</he>, <cite ref=\"C00670\"><he>גַּיּוֹרַיָּא</he></cite>, (<he>גִּיּ׳</he>) <cite ref=\"C00667\"><he>גַּיּוֹרֵי</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Exodus 20:13\">Targ. Y. Ex. XX, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 50:18\">Targ. Ps. L, 18</cite> Ms. (ed. <he>גייופי</he>); a. e.—[<cite ref=\"Aramaic Targum to Proverbs 30:31\">Targ. Prov. XXX, 31</cite>, read with Ms. <cite ref=\"C00578\"><he>גִּזְרָא</he> II</cite>.]—Fem. <cite ref=\"C00669\"><he>גַּיּוֹרְתָּא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Leviticus 20:10\">Targ. Y. Lev. XX, 10</cite> <cite ref=\"C00670\"><he>גִּיּוֹ׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 30:20\">Targ. Prov. XXX, 20</cite> <he>גַּיַּירְתָּא</he>."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "H00517",
+	"slug": "חזור-2",
+	"headword": {
+		"text": "חַזּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֵיזוּר"
+		},
+		{
+			"text": "חִיזּוּר"
+		},
+		{
+			"text": "חֲזוֹרָא"
+		},
+		{
+			"text": "חֵי׳"
+		}
+	],
+	"page": {
+		"number": 442,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H00516\">preced.</cite>; cmp. <cite ref=\"E00149\"><he>הָדָר</he></cite>) <i>apple; apple-tree; apple-shaped ball, bell</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joel 1:12\">Targ. Joel I, 12</cite> (ed. Lag. <i>pl.</i>). ",
+				"<cite ref=\"Onkelos Exodus 25:33\">Targ. Ex. XXV, 33</cite> (h. text <he>כפתר</he>); a. fr.—",
+				"<cite ref=\"Vayikra Rabbah 12:4\">Lev. R. s. 12</cite> trees are called by their names (of the fruits) <he>חזורא מתקרי חיזור</he> there is the apple, it (the tree) is also called apple(-tree).—Pl. <he>חִזּוּרִין</he>, <he>חִזּוּרֵי</he>, <cite ref=\"H00367\"><he>חִי׳</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 25:11\">Targ. Prov. XXV, 11</cite>; a. e.—",
+				"<cite ref=\"Vayikra Rabbah 27:4\">Lev. R. s. 27</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 93:3\">Gen. R. s. 93</cite> (retransl. from Aquila Prov. l. c.); <cite ref=\"Yalkut Shimoni on Nach 961:48\">Yalk. Prov. 961</cite>; a. e.—",
+				"<cite ref=\"Targum Jonathan on Exodus 39:25\">Targ. Y. Ex. XXXIX, 25</cite> <he>חִיזוֹרְיַין</he>."
+			]
+		}
+	]
+}

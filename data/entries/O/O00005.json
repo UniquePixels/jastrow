@@ -1,0 +1,26 @@
+{
+	"id": "O00005",
+	"slug": "סאב-3",
+	"headword": {
+		"text": "סְאֵב",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סָאב"
+		}
+	],
+	"page": {
+		"number": 947,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"O00004\">preced.</cite>; v. <cite ref=\"O00523\"><he>סִיב</he> I</cite>) [<i>to be hairy</i>,] <i>to be old</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 22:6\">Targ. Prov. XXII, 6</cite> <he>נסאב</he> ed. Lag. (oth. ed. <he>נְסוּב</he>, <he>יְסוּב</he>, <he>נסאובא</he>; Ms. <he>נסאבא</he>).—",
+				"<cite ref=\"Jerusalem Talmud Demai 3:4:8\">Y. Dem. III, 23ᶜ</cite> bot. <he>כד תִּסְאֲבוּן וכ׳</he> when you are old (appointed elders, v. <cite ref=\"G00642\"><he>זָקֵן</he></cite>), I shall tell you."
+			]
+		}
+	]
+}

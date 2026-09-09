@@ -1,0 +1,27 @@
+{
+	"id": "K00466",
+	"slug": "כחל-5",
+	"headword": {
+		"text": "כְּחַל",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּחֲלָא"
+		}
+	],
+	"page": {
+		"number": 629,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00465\">same</cite>. [<cite ref=\"Aramaic Targum to Psalms 74:6\">Targ. Ps. LXXIV, 6</cite> some ed., read <cite ref=\"K00466\"><he>כַּחֲרָא</he></cite>.]—",
+			"units": [
+				"<cite ref=\"Chullin 110a:6\">Ḥull. 110ᵃ</cite> <he>תבשילא דכחלא</he> Ar. (ed. <he>דכחל</he>) a dish made of udder.—Pl. <cite ref=\"K00467\"><he>כַּחֲלֵי</he></cite>. ",
+				"<cite ref=\"Chullin 110a:6\">Ib.</cite> <he>בסורא … כ׳</he> in Sura they do not eat udders. ",
+				"<cite ref=\"Chullin 110a:6\">Ib.</cite> <he>אפקינהו כ״ע לכַחְלַיְיהוּ</he> (not <he>לכחלינהו</he>) all of them brought out the udders they were about to cook."
+			]
+		}
+	]
+}

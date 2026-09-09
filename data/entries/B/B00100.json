@@ -1,0 +1,23 @@
+{
+	"id": "B00100",
+	"slug": "בדא-2",
+	"headword": {
+		"text": "בַּדָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 138,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"B00097\"><he>בַּד</he> IV</cite>, <i>fine linen woof</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 13:1:3\">Y. Sabb. XIII, beg. 14ᵃ</cite>"
+			]
+		}
+	]
+}

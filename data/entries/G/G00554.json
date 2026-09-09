@@ -1,0 +1,27 @@
+{
+	"id": "G00554",
+	"slug": "זמרה-2",
+	"headword": {
+		"text": "זִמְרָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "זִימְ׳"
+		}
+	],
+	"page": {
+		"number": 405,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>זָמַר</he> II) <i>chant on reciting Talmudic lessons</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 32a:12\">Meg. 32ᵃ</cite> (some ed. <cite ref=\"G00374\"><he>זימרא</he></cite>); <cite ref=\"Tractate Soferim 3:10\">Treat. Sof’rim III, 10</cite>."
+			]
+		}
+	]
+}

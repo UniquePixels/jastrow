@@ -1,0 +1,25 @@
+{
+	"id": "D00097",
+	"slug": "דג",
+	"headword": {
+		"text": "דָּג"
+	},
+	"page": {
+		"number": 279,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>fish</i>. <he>ד׳ טמא</he> unclean fish, forbidden in dietary laws, <he>ד׳ טהור</he> clean, permitted. ",
+			"units": [
+				"<cite ref=\"Mishnah Bekhorot 1:2\">Bekh. I, 2</cite>; a. fr.—Pl. <he>דָּגִים</he>. ",
+				"<cite ref=\"Mishnah Chullin 8:1\">Ḥull. VIII, 1</cite>; a. fr.—",
+				"<cite ref=\"Moed Katan 25b:4\">M. Kat. 25ᵇ</cite> <he>דְּגֵי רקק</he>, v. <cite ref=\"L00262\"><he>לִוְיָתָן</he></cite>.—<he>מַזַּל דָּגִים</he> (or without <cite ref=\"M00761\"><he>מזל</he></cite>) <i>The Fishes, Pisces</i>, twelfth sign of the Zodiac. ",
+				"<cite ref=\"Pesikta Rabbati 20:1\">Pesik. R. s. 20</cite>; a. e.; v. <cite ref=\"C00192\"><he>גְּדִי</he></cite>."
+			]
+		}
+	]
+}

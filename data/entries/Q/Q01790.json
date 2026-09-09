@@ -1,0 +1,24 @@
+{
+	"id": "Q01790",
+	"slug": "פרידא-2",
+	"headword": {
+		"text": "פְּרִידָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1226,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>P’rida</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 82a:5\">Snh. 82ᵃ</cite>; <cite ref=\"Sanhedrin 104a:8\">104ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Nach 249:1\">Yalk. Kings 249</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 9:5:4\">Y. B. Bath. IX, 17ᵃ</cite> <he>ר׳ פְּרִירָא</he>; <cite ref=\"Jerusalem Talmud Peah 7:3:12\">Y. Peah VII, 20ᵇ</cite> top <cite ref=\"Q01832\"><he>פְּרִירִי</he></cite> (ed. Krot. <cite ref=\"Q01737\"><he>פְּרוּרִי</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"id": "T01091",
+	"slug": "רשם-1",
+	"headword": {
+		"text": "רָשַׁם"
+	},
+	"page": {
+		"number": 1500,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (late b. h.) <i>to mark, draw</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Gittin 2:3:3\">Y. Gitt. II, 44ᵇ</cite> <he>רוֹשֵׁם לפניהן בדיו וכ׳</he> one may draw (the signatures of illiterate witnesses) for them with ink, and they write them over with red paint (contrad. to <he>קרע</he>). ",
+				"<cite ref=\"Jerusalem Talmud Gittin 2:3:3\">Ib.</cite>; <cite ref=\"Jerusalem Talmud Shabbat 12:4:3\">Y. Sabb. XII, 13ᵈ</cite> <he>הרושם … כתבנית וכ׳</he> if one draws on a skin figures like writing. ",
+				"<cite ref=\"Mishnah Shabbat 12:4\">Sabb. XII, 4</cite> <he>ובכל דבר שהוא רוֹשֵׁם</he> and with any material which marks; <cite ref=\"Mishnah Gittin 2:3\">Gitt. II, 3</cite> (<cite ref=\"Gittin 19a\">19ᵃ</cite>), v. <cite ref=\"S00937\"><he>קַיָּימָא</he></cite>. ",
+				"<cite ref=\"Mishnah Chullin 10:3\">Ḥull. X, 3</cite> <he>צריך שיִרְשׁוֹם</he> he must mark the animal. Tanḥ. Tsav 5 <he>האדם … רושם עליו מיתה וכ׳</he> when a man sins, the Lord makes the mark of death upon him; if he repents, the writ is cancelled. ",
+				"<cite ref=\"Shabbat 55a:6\">Sabb. 55ᵃ</cite> (ref. to <cite ref=\"Ezekiel 9:4\">Ez. IX, 4</cite>) <he>לך ורְשׁוֹם על וכ׳</he> go and mark the foreheads of the righteous with a sign of ink …, and the foreheads of the wicked with blood; a. fr.—Part. pass. <cite ref=\"T01073\"><he>רָשׁוּם</he></cite>; f. <he>רְשׁוּמָה</he>; pl. <he>רְשׁוּמִים</he>, <he>רְשׁוּמִין</he>; <he>רְשׁוּמוֹת</he>. Y. Succ. IV, 54ᶜ top <he>עד שלא … היתה ר׳ ברקיע וכ׳</he> so long as the Israelites were not redeemed from Egypt, it (the sapphire brick) was placed as a mark in heaven &c.; <cite ref=\"Vayikra Rabbah 23\">Lev. R. s. 23</cite>; <cite ref=\"Shir HaShirim Rabbah 4:8\">Cant. R. to IV, 8</cite>. ",
+				"<cite ref=\"Bereishit Rabbah 81\">Gen. R. s. 81</cite> (ref. to <cite ref=\"Daniel 10:21\">Dan. X, 21</cite>) <he>אם ר׳ למה אמת … למה ר׳</he> if marked (for future action), why real writing (decree), and if real writing why marked? (Answ.) <he>ר׳ עד שלא נגזרה וכ׳</he> marked, before the divine decree was signed; <cite ref=\"Shir HaShirim Rabbah 1:9\">Cant. R. to I, 9</cite>; a. e.—Esp. <he>דורשי רשומות</he> <i>those who interpret the Law metaphorically</i>. ",
+				"<cite ref=\"Bava Kamma 82a:5\">B. Kam. 82ᵃ</cite>; <cite ref=\"Sanhedrin 104b:15\">Snh. 104ᵇ</cite>; <cite ref=\"Berakhot 24a:15\">Ber. 24ᵃ</cite> Ms. M. (ed. <he>חמורות</he>, v. Rashi a. l.)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רִשֵּׁם"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T01090\">same</cite>.—Part. pass. <he>מְרוּשָּׁם</he>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9<sup>5</sup></cite> <he>וילדה בן מ׳ למה וכ׳</he> and she gave birth to a young that was marked; why? Because its mother was burnt (cauterized)."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִרְשָׁם"],
+			"senses": [
+				{
+					"gloss": "<i>to be marked, engraven</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 78:5\">Midr. Till. to Ps. LXXVIII, 41</cite> <he>המכות היו נִרְשָׁמוֹת בגופן</he> the plagues were engraven on their bodies (by ref. to Ps. l. c. 43)."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "B00765",
+	"slug": "ביתרי",
+	"headword": {
+		"text": "בֵּיתְרֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 169,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Bethre</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 95a:15\">Snh. 95ᵃ</cite> <he>כי מטו בי תרי</he> (Ms. M. <he>ביטרי</he>) when they came to B."
+			]
+		}
+	]
+}

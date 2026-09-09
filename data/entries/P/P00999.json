@@ -1,0 +1,24 @@
+{
+	"id": "P00999",
+	"slug": "ענן-3",
+	"headword": {
+		"text": "עָנָן",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1095,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Anan</i>, an Amora, disciple of Samuel. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:1:3\">Y. Sabb. III, beg. 5ᶜ</cite>. ",
+				"<cite ref=\"Ketubot 69a:17\">Keth. 69ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

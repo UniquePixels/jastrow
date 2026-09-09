@@ -1,0 +1,32 @@
+{
+	"id": "A01360",
+	"slug": "אין-1",
+	"headword": {
+		"text": "אָיַן"
+	},
+	"page": {
+		"number": 52,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"A01238\"><he>אִיֵּין</he></cite> (= <cite ref=\"P00549\"><he>עִיֵּין</he></cite>, v. <cite ref=\"A01361\">next w.</cite>) <i>to look upon, investigate</i>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 115a:10\">B. Bath. 115ᵃ</cite> (play on <cite ref=\"A01364\"><he>אִין</he></cite>) <he>אַיֵּין עליו</he> Ar. (ed. <cite ref=\"P00549\"><he>עַיֵּין</he></cite>) investigate his family relations. ",
+						"<cite ref=\"Kiddushin 4a:11\">Kidd. 4ᵃ</cite>"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

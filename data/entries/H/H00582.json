@@ -1,0 +1,23 @@
+{
+	"id": "H00582",
+	"slug": "חטא-4",
+	"headword": {
+		"text": "חִטָּא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 447,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00608\"><he>חטט</he></cite>), <i>line drawn with a stylus</i>.—Pl. <cite ref=\"H00616\"><he>חִטֵּי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Ketubot 69a:1\">Keth. 69ᵃ</cite> top <he>ביני ח׳</he> between the lines, v. <cite ref=\"V00587\"><he>תְּלֵי</he></cite>."
+			]
+		}
+	]
+}

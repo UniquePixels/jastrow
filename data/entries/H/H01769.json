@@ -1,0 +1,58 @@
+{
+	"id": "H01769",
+	"slug": "חרר-6",
+	"headword": {
+		"text": "חֲרַר",
+		"disambiguator": 3
+	},
+	"page": {
+		"number": 506,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01768\">same</cite>, <i>to burn, to be blackened, charred</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 2:12\">Targ. Ps. II, 12</cite> <cite ref=\"J00278\"><he>יֵיחוֹר</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 102:4\">Ib. CII, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 15:4\">Targ. Ez. XV, 4</cite>, sq. <cite ref=\"H01572\"><he>חַר</he></cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חָרֵיר"],
+			"senses": [
+				{
+					"gloss": "<i>to stir the fire</i>. ",
+					"units": [
+						"<cite ref=\"Avodah Zarah 38b\">Ab. Zar. 38ᵇ</cite> <cite ref=\"H01638\"><he>חָרוּרֵי</he></cite>, v. <cite ref=\"H01669\"><he>חֲרֵי</he></cite>.]"
+					]
+				}
+			],
+			"stem": "[."
+		},
+		{
+			"forms": ["אִתְחַר"],
+			"senses": [
+				{
+					"gloss": "<i>to be heated, dried up</i>. Targ. II Esth. V, 1.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִתְחַרְחַר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H01768\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 69:4\">Targ. Ps. LXIX, 4</cite>."
+					]
+				}
+			],
+			"stem": "Ithpalp."
+		}
+	]
+}

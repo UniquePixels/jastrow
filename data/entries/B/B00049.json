@@ -1,0 +1,38 @@
+{
+	"id": "B00049",
+	"slug": "בב-1",
+	"headword": {
+		"text": "בָּב"
+	},
+	"altHeadwords": [
+		{
+			"text": "בָּאב"
+		},
+		{
+			"text": "בָּבָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 136,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (reduplic. of <cite ref=\"B00005\"><he>בא</he></cite>, v. <cite ref=\"B00199\"><he>בּוֹא</he></cite>; cmp. b. h. <cite ref=\"B00537\"><he>בִּאָה</he></cite> a. <cite ref=\"M00075\"><he>מָבוֹא</he></cite>) <i>entrance, door, gate</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 5:14\">Targ. Esth. V, 14</cite>.—",
+				"<cite ref=\"Shabbat 32a\">Sabb. 32ᵃ</cite>, v. <cite ref=\"H00303\"><he>חוּטְרָא</he></cite> a. <cite ref=\"B00442\"><he>בִּזְיוּנָא</he> I</cite>. ",
+				"<cite ref=\"Shabbat 156b\">Ib. 156ᵇ</cite> <he>קרי אכ׳</he> called at the door (begging). ",
+				"<cite ref=\"Eruvin 11b\">Erub. 11ᵇ</cite>; a. fr.—Pl. <he>בָּבֵי</he>. ",
+				"<cite ref=\"Berakhot 58b:3\">Ber. 58ᵇ</cite>; a. fr. ",
+				"<cite ref=\"Menachot 34a:3\">Men. 34ᵃ</cite> <he>בָּאבֵי</he>.—Trnsf. (of writings) <i>section, clause</i>. <he>ב׳ דרישא</he> the clause of the first proposition. ",
+				"<cite ref=\"Shabbat 3a:1\">Sabb. 3ᵃ</cite> top; a. fr.—Hence <he>ב׳ קמא</he> (abbr. <he>ב״ק</he>), (<he>ב״מ</he>) <he>ב׳ מציעא</he>, (<he>ב״ב</he>) <he>ב׳ בתרא</he> <i>Baba Kamma, Baba Metsia, Baba Bathra</i> (first, middle, last section), names of three Talmudic treatises of the order of <i>N’zikin</i> (civil law); v. <cite ref=\"N00462\"><he>נֶזֶק</he></cite>. [Tosefta Kelim is likewise divided into three Babas with the same names.].—<i>Pl.</i> as above. ",
+				"<cite ref=\"Rosh Hashanah 33b:8\">R. Hash. 33ᵇ</cite> <he>תקיעה דכולי ב׳</he> the tune T’kiah in all the three sections."
+			]
+		}
+	]
+}

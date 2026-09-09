@@ -1,0 +1,27 @@
+{
+	"id": "B01217",
+	"slug": "ברזא-1",
+	"headword": {
+		"text": "בִּרְזָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 191,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B01216\">preced.</cite>) <i>bung-hole, bung</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 59b:5\">Ab. Zar. 59ᵇ</cite> <he>דאישתקיל ברזיה</he> Ms. M. (ed. <he>דאישתקיל לברזא</he>) whose bung was taken out. ",
+				"<cite ref=\"Avodah Zarah 59b:5\">Ib.</cite> <he>כל דלהדי ב׳</he> all the wine facing the bung-hole (the first gush of wine). ",
+				"<cite ref=\"Avodah Zarah 60a:1\">Ib. 60ᵃ</cite> <he>עד דב׳</he> Ms. M. (ed. <he>הב׳</he>, Rashi <he>ב׳</he>) to a level with &c., i.e. the wine above the bung-hole. ",
+				"<cite ref=\"Shabbat 139b\">Sabb. 139ᵇ</cite>. ",
+				"<cite ref=\"Bava Batra 98a:9\">B. Bath. 98ᵃ</cite> <he>שני בב׳</he> (Ms. H. <he>בברזָהּ</he>) changed the bung-hole (or the bung)."
+			]
+		}
+	]
+}

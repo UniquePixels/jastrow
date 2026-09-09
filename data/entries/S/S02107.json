@@ -1,0 +1,24 @@
+{
+	"id": "S02107",
+	"slug": "קרנזול",
+	"headword": {
+		"text": "קַרְנָזוֹל",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1423,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>קַרְנֵי נָזוֹל</he>, v. <cite ref=\"N00229\"><he>נָדָל</he></cite>) [<i>the horns</i> (<i>feelers</i> or <i>feet</i>) <i>of a polyp</i>,] <i>division of a field by drawing lines from the centre in all directions</i> (into four or eight triangles), and giving alternately one triangle to each partner, whereby an equalization is accomplished of the advantages and the disadvantages of situation. ",
+			"units": [
+				"<cite ref=\"Bava Batra 13a:1\">B. Bath. 13ᵃ</cite> top <he>חד גיסא … בק׳</he> Ms. M. (ed. <he>בקרנא זול</he>, read: <he>בקַרְנָאזוֹל</he>; Ms. F. <he>בקַרְנָדוֹל</he>; Ms. H. <he>בקרנזור</he>) if on one side of a field there is a dike, and on the other a river, we divide it by <i>ḳarnazol</i>. ",
+				"<cite ref=\"Bava Metzia 108b\">B. Mets. 108ᵇ</cite> bot. Ms. M. (ed. <he>בקרנזיל</he>; Ms. R. 1 <he>בקרנא זול</he>; Ms. F. <he>בקרנדול</he>)."
+			]
+		}
+	]
+}

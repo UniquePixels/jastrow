@@ -1,0 +1,31 @@
+{
+	"id": "Q01823",
+	"slug": "פריץ",
+	"headword": {
+		"text": "פָּרִיץ"
+	},
+	"page": {
+		"number": 1227,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"Q01968\"><he>פָּרַץ</he></cite>) [<i>he that breaks through</i>, cmp. <cite ref=\"B01232\"><he>בַּרְחָא</he></cite>,] <i>leader, prince, conqueror.—</i>Pl. <he>פָּרִיצִים</he>, <he>פָּרִיצִין</he>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 85\">Gen. R. s. 85</cite>; <cite ref=\"Yalkut Shimoni on Torah 145:13\">Yalk. ib. 145</cite>, v. <cite ref=\"T00058\"><he>רָבָה</he></cite> <i>Pi.</i>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>unbridled, licentious, impudent.—Pl</i>. as ab. Y. Ber. I, 4ᵇ bot. <he>פָּרִיצֵי הדור</he> the impudent (scorners) of that generation. ",
+			"units": [
+				"<cite ref=\"Kiddushin 71a:12\">Kidd. 71ᵃ</cite> <he>משרבו הפ׳ היו וכ׳</he> when the bold (indiscreet) became numerous, the secret of the Divine Name of twelve letters was entrusted only to the discreet &c.; a. fr.—",
+				"<cite ref=\"Mishnah Oktzin 3:6\">Ukts. III, 6</cite> <he>פריצי זתים</he>, v. <cite ref=\"G00430\"><he>זַיִת</he></cite>; <cite ref=\"Bamidbar Rabbah 19:32\">Num. R. s. 19</cite> <he>וזהו הפסולת שלהם כפ׳ זתים הפלטים וכ׳</he> and this (Og who escaped when the Refaïm were beaten) was the refuse among them, like the hard olives that escape being mashed &c.; <cite ref=\"Yalkut Shimoni on Torah 765:6\">Yalk. ib. 765</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

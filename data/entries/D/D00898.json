@@ -1,0 +1,27 @@
+{
+	"id": "D00898",
+	"slug": "דמין-1",
+	"headword": {
+		"text": "דָּמִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "דָּמֵי"
+		}
+	],
+	"page": {
+		"number": 313,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", constr. <cite ref=\"D00892\"><he>דְּמֵי</he></cite> ch. same. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Lamentations 5:4\">Targ. Lam. V, 4</cite> (h. text <cite ref=\"M00879\"><he>מְחִיר</he></cite>); a. fr.—",
+				"<cite ref=\"Bava Metzia 5b:20\">B. Mets. 5ᵇ</cite> he thinks (as a mental reservation) <he>דמי קא יהבנא ליה</he> I am willing to compensate him. ",
+				"<cite ref=\"Bava Metzia 5b:20\">Ib.</cite> <he>לא תחמוד לאינשי בלא ד׳ משמע להו</he> common people understand the law, ‘thou shalt not covet’ (<cite ref=\"Exodus 20:16\">Ex. XX, 16</cite>) to mean coveting to get our neighbor’s property without compensation. ",
+				"<cite ref=\"Bava Kamma 46a:13\">B. Kam. 46ᵃ</cite> <he>אי דְּמֵי רדיא וכ׳</he> if he paid the market price of a ploughing ox, he surely bought him for ploughing; a. fr."
+			]
+		}
+	]
+}

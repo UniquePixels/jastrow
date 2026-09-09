@@ -1,0 +1,26 @@
+{
+	"id": "Q00327",
+	"slug": "פוקרין",
+	"headword": {
+		"text": "פוֹקָרִין"
+	},
+	"page": {
+		"number": 1146,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ποκάριον) <i>lock</i> or <i>tuft</i> of wool (used as lint on a wound). ",
+			"units": [
+				"<cite ref=\"Tosefta Shabbat 5\">Tosef. Sabb. V (VI), 2; Sabb. 5</cite><cite ref=\"Shabbat 50a\">Sabb. 50ᵃ</cite> <he>בפוק׳</he> Ms. M. (ed. <he>בפקו׳</he>; Ms. O. <he>בפיקור׳</he>; corr. acc.). ",
+				"<cite ref=\"Bereishit Rabbah 77:2\">Gen. R. s. 77</cite> <he>נטל</he> … <he>פ׳ וכ׳</he> Jacob … took a tuft of wool and stuck it in his throat; <cite ref=\"Yalkut Shimoni on Torah 132:1\">Yalk. ib. 132</cite> <cite ref=\"Q00325\"><he>פוקרי</he></cite> (corr. acc.); <cite ref=\"Shir HaShirim Rabbah 3:6:3\">Cant. R. to III, 6</cite> <he>נטל פרקדין וכרכו וכ׳</he> (corr. acc.) he took (a rope of) wool and wound it around his neck. ",
+				"<cite ref=\"Kohelet Rabbah 10:16:1\">Koh. R. to X, 16</cite> <he>אילו הייתי שם פ׳ וכ׳</he> (not <he>פי׳</he>) had I been there, I should have tied a rope of wool around his (Solomon’s) neck; <cite ref=\"Yalkut Shimoni on Nach 175:4\">Yalk. Kings 175</cite> <cite ref=\"Q01520\"><he>פקרין</he></cite> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 10:1:3\">Y. Erub. X, beg. 26ᵃ</cite> <he>כמין פ׳ היו בידו</he> (not <cite ref=\"Q00822\"><he>פיקרין</he></cite>) the T’fillin were in his hand (bundled up) like a tuft of wool (put on a wound). ",
+				"<cite ref=\"Tosefta Kilaim 5:23\">Tosef. Kil. V, 23</cite> <he>הפקרית והציפה וכ׳</he> (corr. acc.) lint (for wounds) and wool tufts are not subject to the law concerning mixture of wool and flax (<cite ref=\"K00674\"><he>כלאים</he></cite>)."
+			]
+		}
+	]
+}

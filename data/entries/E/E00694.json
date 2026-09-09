@@ -1,0 +1,23 @@
+{
+	"id": "E00694",
+	"slug": "הנתוכין",
+	"headword": {
+		"text": "הַנְתּוּכִין"
+	},
+	"page": {
+		"number": 359,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"V00195\"><he>תוך</he></cite>, <cite ref=\"V00537\"><he>תכך</he></cite>, with prefix <he>הנ</he>; cmp. <he>הנדקוקא</he>) <i>pannelled ceiling</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 6:9\">Targ. I Kings VI, 9</cite> (h. text <he>גֵּבִים</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id": "V00679",
+	"slug": "תמימות",
+	"headword": {
+		"text": "תְּמִימוּת"
+	},
+	"page": {
+		"number": 1677,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"V00678\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>completeness, integrity</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 39b:6\">B. Kam. 39ᵇ</cite> (expl. <he>בְּתַמּוּתוֹ</he>, <cite ref=\"Bava Kamma 39b:6\">ib.</cite>) <he>הרי הוא בתְמִימוּתוֹ וכ׳</he> the animal remains (to its owner) in its completeness, we do not diminish it (by hypothecating it for the half-fine for damage done)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>moral integrity, simplicity, frankness</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 11:5\">Lev. R. s. 11</cite> (ref. to <cite ref=\"Psalms 18:26\">Ps. XVIII, 26</cite>) <he>בשעה שבא בת׳ בא עמו בת׳</he> when he (Abraham, Moses) came with frankness, the Lord dealt with him in frankness, opp. <cite ref=\"P01205\"><he>עַקְמָנוּת</he></cite>; Midr. Till. to Ps. l. c.; <cite ref=\"Yalkut Shimoni on Nach 161:4\">Yalk. Sam. 161</cite>. ",
+				"<cite ref=\"Midrash Tehillim 1:2-3\">Midr. Till. to Ps. I</cite> <he>מה … בת׳ … אף כל מי שמהלך לפניו בת׳ וכ׳</he> as the Lord was a shield to Araham who walked before him in sincerity, so he is a shield to whosoever walks before him in sincerity; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

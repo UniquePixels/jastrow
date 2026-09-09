@@ -1,0 +1,74 @@
+{
+	"id": "P00491",
+	"slug": "עיבור-1",
+	"headword": {
+		"text": "עִיבּוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִבּ׳"
+		}
+	],
+	"page": {
+		"number": 1065,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00059\"><he>עָבַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>passing, crossing</i>.—פָּרָשַׁת הע׳ <i>cross-road;</i> trnsf. <i>crisis</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 4:4\">Ber. IV, 4</cite> (in a short prayer prescribed for one passing an unsafe road) … <he>בכל פ׳ הע׳ לפניך</he> let their needs be before thee at every critical period, expl. ",
+				"<cite ref=\"Berakhot 29b\">ib. 29ᵇ</cite> <he>אפי׳ … ע̇ב̇ר̇ה כאשה עו̇ב̇ר̇ת וכ׳</he> even at a moment when thou art full of swelling anger at them, like a woman big with child &c.; (anoth. explan.) <he>אפי׳ … ע̇יב̇ר̇ים על דברי תורה</he> even at a moment when they trespass the words of the Law; Y. ib. IV, 8ᵇ top <he>כל מה שש״ץ ע̇וב̇ר̇ וכ׳</he> whatever the messenger of the congregation passing before the ark may ask of thee &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " ע׳ דִּין <i>passing beyond justice</i> or <i>law, rigor, tyranny</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 30:16\">Ex. R. s. 30</cite> <he>ע׳ הדין שעיבר על אחרים</he> the rigorous judgment which he passed on others."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "(b. h. <i>growth</i>, esp. <i>grain, breadstuff</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 94\">Gen. R. s. 94</cite> (ref. to <cite ref=\"Genesis 45:23\">Gen. XLV, 23</cite>) <cite ref=\"P01520\"><he>בר ע׳</he></cite> <i>bâr</i> means breadstuff. ",
+				"<cite ref=\"Ketubot 112a:11\">Keth. 112ᵃ</cite> <he>ממנה ע׳ וכ׳</he> from this field I have my breadstuff, from it my peas &c."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>pregnancy, conception</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite> (ref. to <cite ref=\"Genesis 3:16\">Gen. III, 16</cite>) <he>עצבונך זה צער הע׳</he> ‘thy pain’ refers to the suffering attending upon conception, v. <cite ref=\"P00506\"><he>עִידּוּי</he></cite>; <cite ref=\"Eruvin 100b:21\">Erub. 100ᵇ</cite> <he>והרונך זה צער הע׳</he> ‘and thy pregnancy’ refers to &c.; <cite ref=\"Avot D'Rabbi Natan 1\">Ab. d’R. N. ch. I. Gen. R. s. 51</cite><cite ref=\"Bereishit Rabbah 51\">Gen. R. s. 51</cite>, end (play on <he>עברתו</he>, <cite ref=\"Jeremiah 48:30\">Jer. XLVIII, 30</cite>) <he>מתחילת עִיבּוּרוֹ וכ׳</he> from the time when Moab was first conceived. ",
+				"<cite ref=\"Bereishit Rabbah 38\">Gen. R. s. 38</cite>, end <he>שנה לעִיבּוּרָהּ של וכ׳</he> deduct one year for the pregnancy with Milkah &c. ",
+				"<cite ref=\"Bereishit Rabbah 38\">Ib.</cite> s. 45, beg. (expl. <he>מכרה</he>, <cite ref=\"Proverbs 31:10\">Prov. XXXI, 10</cite>) <he>עִיבּוּרָהּ</he> her going with child (with allusion to <he>מכרתיך</he>, <cite ref=\"Ezekiel 16:3\">Ez. XVI, 3</cite>); a. fr."
+			],
+			"label": "4"
+		},
+		{
+			"gloss": "<i>extension of city limits</i> for Sabbath movements, <i>outskirts</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Eruvin 5:7\">Erub. V, 7</cite> … <he>הנותן בעיבורה של עיר</he> he who places his ‘Erub within the outskirts of a city. Y. ib. 22ᵇ bot. <he>מהו ליתן ע׳ לע׳</he> may an outskirt be added to an outskirt (to be considered part of the township)?; a. fr.—6) <i>intercalation</i>; <he>ע׳ החדש</he> <i>proclaiming the month just past one of thirty days</i>; <he>ע׳ השנה</he> <i>proclaiming a leap-year, inserting a second Adar</i>. ",
+				"<cite ref=\"Mishnah Sanhedrin 1:1\">Snh. I, 1</cite> <he>ע׳ החדש בשלשה</he> the proclamation of a full month (i.e. the postponement of the New Moon Day) must take place in a court of three. ",
+				"<cite ref=\"Sanhedrin 11a:13\">Ib. 11ᵃ</cite> <he>ע׳ השנה שלשים יום</he> the intercalated month consists of thirty days. ",
+				"<cite ref=\"Sanhedrin 12a:8\">Ib. 12ᵃ</cite> <he>כנגד חדש הע׳</he> corresponding to the thirteenth month. ",
+				"<cite ref=\"Mishnah Bava Metzia 8:8\">B. Mets. VIII, 8</cite> <he>יחלוקי את חדש הע׳</he> let them (the landlord and the tenant) divide the rent for the additional month; a. fr.—Pl. <he>עִיבּוּרִים</he>, <he>עִיבּוּרִין</he>, <cite ref=\"P00491\"><he>עִבּ׳</he></cite>. ",
+				"<cite ref=\"Rosh Hashanah 7a:13\">R. Hash. 7ᵃ</cite> <he>באחד בניסן … ולע׳</he> the first of Nisan is the New Year’s Day for the months and for intercalations; expl. ",
+				"<cite ref=\"Rosh Hashanah 7a:13\">ib.</cite> <he>להפסקת ע׳</he> for interrupting the intercalation, i.e. after the month of Nisan has been proclaimed, no intercalation can take place for that year. ",
+				"<cite ref=\"Bereishit Rabbah 72\">Gen. R. s. 72</cite> (expl. <he>לעתים</he>, <cite ref=\"I Chronicles 12:33\">I Chr. XII, 33</cite>) <he>לע׳</he> ‘for seasons’ means for intercalations; a. fr.—Trnsf. <i>calculations of the time of redemption</i> (v. <cite ref=\"S01779\"><he>קֵץ</he></cite>); <i>epochs</i>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 2:8:1\">Cant. R. to II, 8</cite> <he>מדלג על החשבונות ועל הקיצים וע׳</he> the Lord skips over (human) calculations and (speculations on) ends and epochs; <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite>; <cite ref=\"Yalkut Shimoni on Nach 986:2\">Yalk. Cant. 986</cite>. ",
+				"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite> <he>אנו … כמה קצים וכמה ע׳</he> we who have been separated from the house of our life and from the house of our holiness and glory these many days and years, these many terms and epochs; <cite ref=\"Yalkut Shimoni on Torah 571:2\">Yalk. ib. 571</cite> <he>כמה יובלות וכמה ע׳</he>.—7) <he>ע׳ צורה</he> (v. <cite ref=\"P00059\"><he>עָבַר</he></cite> <i>Pu.</i>) <i>disfiguration, decay</i>. ",
+				"<cite ref=\"Pesachim 34a:9\">Pes. 34ᵃ</cite>, a. fr."
+			],
+			"label": "5"
+		}
+	]
+}

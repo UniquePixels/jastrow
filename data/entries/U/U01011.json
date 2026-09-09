@@ -1,0 +1,29 @@
+{
+	"id": "U01011",
+	"slug": "שופוט",
+	"headword": {
+		"text": "שִׁופּוּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁפּ׳"
+		}
+	],
+	"page": {
+		"number": 1566,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>שפט</he>, v. <cite ref=\"U01732\"><he>שִׁפְטָא</he></cite>) <i>childishness, folly, vanity</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 1:13\">Koh. R. to I, 13</cite> (expl. <he>ענין רע</he>, <cite ref=\"Kohelet Rabbah 1:13\">ib.</cite>) <he>זה שִׁיפּוּטוֹ של ממון</he> this is the folly of greed for wealth (because it is never satisfied); <he>זה שיפוטו של גזל</he> this is the folly of robbery (because it is the foremost among the accusers of man before the throne of God); <cite ref=\"Kohelet Rabbah 1:13\">ib.</cite> <he>זה שִׁיפּוּטָהּ של תורה וכ׳</he> this is the vanity of study, because one learns and forgets again.—Pl. <he>שִׁיפּוּטִים</he>, <cite ref=\"U01011\"><he>שִׁפּ׳</he></cite> (= παιδιά) <i>boyish things, sport</i>, (euphem. for) <i>sodomy</i>. ",
+				"<cite ref=\"Shemot Rabbah 8\">Ex. R. s. 8</cite> (ref. to <cite ref=\"II Chronicles 24:24\">II Chr. XXIV, 24</cite>) <he>א״ת שפטים אלא ש׳</he> read not <i>sh’faṭim</i> (punishment) but <i>shippuṭim</i> (sport); Tanḥ. ",
+				"<cite ref=\"Exodus 25\">B’shall. 25</cite>; <cite ref=\"Exodus 25\">ib.</cite> Vaëra 9."
+			]
+		}
+	]
+}

@@ -1,0 +1,81 @@
+{
+	"id": "H01144",
+	"slug": "חמד-1",
+	"headword": {
+		"text": "חָמַד"
+	},
+	"page": {
+		"number": 475,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>חמם</he>) [<i>to be hot</i>,] <i>to desire, covet; to be carnally excited</i>. ",
+			"units": [
+				"<cite ref=\"Niddah 20b:20\">Nidd. 20ᵇ</cite> <he>חֲמַדְתִּיו</he> (or <cite ref=\"H00803\"><he>חִמַּ׳</he></cite> <i>Pi.</i>) I had a desire for his embrace. ",
+				"<cite ref=\"Midrash Tehillim 19:15\">Midr. Till. to Ps. XIX, 11</cite> <he>מי חְמָדָן</he> which (of the two) holds them desirable; <cite ref=\"Yalkut Shimoni on Nach 676:1\">Yalk. ib. 676</cite> [read]: <he>מי החוֹמְדִין</he>. Mekh. Yithro, Baḥod. s. 8 <he>שאתה חומד וכ׳</he> that you may desire his daughter for your son; <he>ח׳ בדבור</he> expressing a desire by words (without thinking of means to obtain the object of his desire). [Ib. ed. Weiss, <he>אם התאוה סופו לַחֲמוֹד</he> if one desires (what belongs to his neighbor), he will finally covet it (think of means to obtain it). Ib. <he>אם ח׳ סופו וכ׳</he> if he covets, he will finally use force and rob. ",
+				"<cite ref=\"Bava Metzia 5b:19\">B. Mets. 5ᵇ</cite> <he>לאו דלא תַחְמוֹד</he>, v. <cite ref=\"L00009\"><he>לַאו</he></cite>; a. fr.—<i>Part. pass.</i> <he>חָמוּד</he>, f. <cite ref=\"H01155\"><he>חֲמוּדָה</he></cite> <i>desirable, precious</i>. ",
+				"<cite ref=\"Pesikta Rabbati 36:1\">Pesik. R. s. 36</cite> <he>ח׳ ונאה</he> precious and fine (of conduct).—",
+				"<cite ref=\"Shabbat 88b\">Sabb. 88ᵇ</cite> <he>ח׳ גנוזה</he> ed., v. <cite ref=\"H01147\"><he>חֶמְדָּה</he></cite>.—["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <cite ref=\"H01218\"><he>חָמַר</he></cite>) <i>to produce shrivelling</i> by heat. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 7:2\">Snh. VII, 2</cite> (<cite ref=\"Sanhedrin 52a\">52ᵃ</cite>) Ar. (ref. to <cite ref=\"Daniel 10:3\">Dan. X, 3</cite>; Var. <he>חמר</he>)."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נֶחְמַד"],
+			"senses": [
+				{
+					"gloss": "<i>to be desired, desirable</i>. Tanḥ. Vayera 5 <he>שאתה נֶחְמָד לפני וכ׳</he> that thou art held desirable before the Lord; a. e.—[",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be shrivelled</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Chullin 3:3\">Ḥull. III, 3</cite> Ar., Var. <cite ref=\"H01220\"><he>נחמר</he></cite>, v. supra.]"
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["חִימֵּד"],
+			"senses": [
+				{
+					"gloss": "<i>to covet</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Makkot 3:15\">Macc. III, 15</cite> <he>שנפשו … מתאוה להן ומְחַמַּדְתָּן</he> which man longs for and covets."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְחַמֵּד"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְחַמֵּד"],
+			"senses": [
+				{
+					"gloss": " (with <cite ref=\"L00000\"><he>ל</he></cite>) <i>to be anxious for; to be pleased with</i>. Tanḥ. ",
+					"units": [
+						"<cite ref=\"Exodus 17\">Mishp. 17</cite> <he>ארץ שנִתְחַמְּדוּ לה וכ׳</he> a land which all the great men were anxious to possess (<cite ref=\"Yalkut Shimoni on Nach 271:1\">Yalk. Jer. 271</cite> <he>שהָמְדוּ</he>). ",
+						"<cite ref=\"Kohelet Rabbah 9:7:1\">Koh. R. to IX, 7</cite> <he>בוראך מִתְחַמֵּד לך</he> thy Creator is pleased with thee; <he>תורתו מִתְחַמֶּדֶת לך</he> His law is &c."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

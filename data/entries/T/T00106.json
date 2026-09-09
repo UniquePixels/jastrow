@@ -1,0 +1,23 @@
+{
+	"id": "T00106",
+	"slug": "רביעין",
+	"headword": {
+		"text": "רְבִיעִין"
+	},
+	"page": {
+		"number": 1443,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. ch. name of <i>a musical instrument, sistra</i> (v. Sm. Ant. s. v. Sistrum and illustration). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 6:5\">Targ. II Sam. VI, 5</cite> (h. text <he>מנענעים</he>)."
+			]
+		}
+	]
+}

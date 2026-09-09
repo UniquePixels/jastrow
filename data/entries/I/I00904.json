@@ -1,0 +1,31 @@
+{
+	"id": "I00904",
+	"slug": "טרקסין",
+	"headword": {
+		"text": "טְרַקְסִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְרִיקְ׳"
+		}
+	],
+	"page": {
+		"number": 558,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. <cite ref=\"I00903\">same</cite>, esp. <he>אַמָּה ט׳</he> <i>the two cedar-covered partitions</i>, with a vacant space between, which separated the Holy of Holies from the Holy and occupied the space of <i>onecubit</i>, the text (<cite ref=\"I Kings 6:16\">I Kings VI, 16</cite>) leaving it undecided from which of the two sacred areas that cubit’s space was deducted. In the second Temple that partition was replaced by two curtains with a space between. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 4:7\">Midd. IV, 7</cite> <he>אמה ט׳</he> one cubit for the partition. ",
+				"<cite ref=\"Yoma 51b:6\">Yoma 51ᵇ</cite> <he>אבל … אמה ט׳ וכ׳</he> but in the second Temple, where there was no partition wall, … they made two curtains. ",
+				"<cite ref=\"Bava Batra 3a:23\">B. Bath. 3ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Kilayim 8:4:5\">Y. Kil. VIII, 31ᶜ</cite> bot. (among doubtful things) <he>ואמה ט׳</he> (add to the above six things) the <i>ammah traksĭn</i>. <he>מהו ואמה 'ט</he> why is it called <i>a. tr.?</i> (Answ., taking our w. for τάραξιν, acc. of τάραξις, confusion) <he>טריכסון מהו מבפנים מבחוץ</he> (ἐτάραξεν, cmp. <cite ref=\"B01269\"><he>בריכסון</he></cite>) it created confusion: what is it? inside? outside?; <cite ref=\"Jerusalem Talmud Yoma 5:1:9\">Y. Yoma V, 42ᵇ</cite> bot. <cite ref=\"I00455\"><he>טירקסון</he></cite>."
+			]
+		}
+	]
+}

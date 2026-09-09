@@ -1,0 +1,23 @@
+{
+	"id": "N00626",
+	"slug": "ניה",
+	"headword": {
+		"text": "נָיָה",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 903,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Nayah</i> (prob. to be read <he>נוה</he>, v. <cite ref=\"N00316\"><he>נָוֶה</he> III</cite>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 3:5:14\">Y. Snh. III, 21ᵇ</cite> <he>רבנן דנ׳</he> the rabbis of N."
+			]
+		}
+	]
+}

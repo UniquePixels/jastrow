@@ -1,0 +1,24 @@
+{
+	"id": "N01322",
+	"slug": "נשירה",
+	"headword": {
+		"text": "נְשִׁירָה"
+	},
+	"page": {
+		"number": 940,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N01345\"><he>נָשַׁר</he></cite>) <i>falling off, dropping</i> (of fruits). Y. Macc. II, beg. 31ᶜ, v. <cite ref=\"N01313\"><he>נְשׁילָה</he></cite>. Y. Peah II, 20ᵃ bot. <he>פרט בנְשִׁירָתוֹ קדש</he> the dropping grapes are dedicated (to charity, cease to be private property) at the moment of dropping (before they reach the ground). ",
+			"units": [
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>לקט בנשירתו וכ׳</he> if one intercepts the grapes in falling &c.; Y. Ter. VI, end, 44ᵇ. ",
+				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>בנשיכת פיאה וכ׳</he>, read: <he>בנְשִׁירַת פרט</he> it refers to grapes intercepted in falling. ",
+				"<cite ref=\"Temurah 25a:36-37\">Tem. 25ᵃ</cite> <he>אמר על הלקט עם נשירת רובו וכ׳</he> if he said concerning gleanings, As soon as the larger portion of them drops (before they reach the ground) they shall be free to all (<cite ref=\"E00759\"><he>הֶפְקֵר</he></cite>); a. e."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "C00191",
+	"slug": "גדי-1",
+	"headword": {
+		"text": "גְּדֵי",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 211,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"C00166\"><he>גדד</he> I</cite>) <i>to cut, divide, assign</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גַּדֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to cut off, excommunicate</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 36b:59-60\">Nidd. 36ᵇ</cite> <he>ואי לא צאית גַּרְיֵיה הוא סבר גַּדְּיֵיה א״ל</he> and if he does not obey, drag him over (v. <cite ref=\"C01320\"><he>גרי</he></cite>, i.e. force him with arguments), but he (R. Assé) understood that he told him <i>gadd’yeh</i> (excommunicate him). ",
+						"<cite ref=\"Niddah 36b:66-67\">Ib.</cite> <he>לא ציית גדייה</he> he (Shila bar Abina) did not obey, and he (R. Assé) excommunicated him (Rashi). [Tosaf. read for <he>גרייה</he>: <cite ref=\"C00200\"><he>גַּדְיֵיה</he></cite>, fr. <he>גדי</he>, a sec. form of <cite ref=\"A01369\"><he>נגד</he></cite>, <i>draw him over</i>.—Ar. s. v. <he>צנע</he> 2 reads <he>גַּדְּדֵיה</he> <i>lash him</i> (ref. to <cite ref=\"Deuteronomy 14:1\">Deut. XIV, 1</cite>), without referring to any misapprehension, while s. v. <cite ref=\"C01225\"><he>גר</he></cite> 10 <he>הוא סבר גרייה א״ל</he> is quoted—obviously a later insertion of a copyist.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

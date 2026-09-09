@@ -1,0 +1,35 @@
+{
+	"id": "U00761",
+	"slug": "שטן-4",
+	"headword": {
+		"text": "שָׂטָן",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׂטַן"
+		},
+		{
+			"text": "שִׂטְנָא"
+		},
+		{
+			"text": "שִׂי׳"
+		}
+	],
+	"page": {
+		"number": 1554,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U00760\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 5:18\">Targ. I Kings V, 18</cite>; a. fr., v. <cite ref=\"O00499\"><he>סְטַן</he> II</cite>.—",
+				"<cite ref=\"Kiddushin 30a:7\">Kidd. 30ᵃ</cite>; <cite ref=\"Sukkah 38a\">Succ. 38ᵃ</cite> Ms. M. 2 (ed. <cite ref=\"O00001\"><he>ס׳</he></cite>), v. <cite ref=\"C00806\"><he>גִּיר</he> III</cite>. ",
+				"<cite ref=\"Kiddushin 81a:13\">Kidd. 81ᵃ</cite> <he>אידמי ליה ש׳ כאיתתא</he> Satan (temptation) appeared to him as a woman. ",
+				"<cite ref=\"Kiddushin 81a:15\">Ib.</cite> <he>הוה רגיל … גירא בעיניה דש׳</he> used to say every day, I challenge Satan, v. <cite ref=\"C00806\"><he>גִּיר</he> III</cite>. ",
+				"<cite ref=\"Shabbat 32a:7\">Sabb. 32ᵃ</cite> <he>ש׳ בתרי אומי וכ׳</he> Satan has no power over two persons of different nationalities (on the same boat &c.); a. e.—V. <cite ref=\"O00499\"><he>סְטַן</he> II</cite>.—Pl. <he>שִׂטְנֵי</he>, <he>שׂוֹטְנֵי</he>, v. <cite ref=\"O00499\"><he>סְטַן</he> II</cite>."
+			]
+		}
+	]
+}

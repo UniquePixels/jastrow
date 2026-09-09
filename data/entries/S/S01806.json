@@ -1,0 +1,62 @@
+{
+	"id": "S01806",
+	"slug": "קצי-2",
+	"headword": {
+		"text": "קְצֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְצָא"
+		}
+	],
+	"page": {
+		"number": 1405,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S01805\">same</cite>, <i>to cut, break into pieces</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 2:6\">Targ. Y. Lev. II, 6</cite> Ar. (ed. <he>רסיק</he>).—Y. Ber. VI, 10ᵃ bot. <he>כד הוה קָצֵי הוה טעים וכ׳</he> whenever he broke bread, he tasted (carrying a piece to his mouth) with his left hand, and distributed with the right hand. Ib. VIII, 12ᵃ bot. [read:] <he>יהב ליה עגולה דיִקְצֵי</he> he handed him a loaf to break it. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:9:13\">Y. Sabb. VI, end, 8ᵈ</cite> [read:] <he>קְצִינָן פלגא וכ׳</he> we broke off one half and gave it to him; a. e.—",
+				"<cite ref=\"Bava Metzia 108a:3\">B. Mets. 108ᵃ</cite> <he>מאן קַצְיֵיה</he>, v. <cite ref=\"S00529\"><he>קוּץ</he></cite> III ch."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַקְצֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to set aside, make unavailable for any other purpose</i>. ",
+					"units": [
+						"<cite ref=\"Sukkah 37b:4\">Succ. 37ᵇ</cite> <he>כי אַקְצְיֵיה מריחא אקצייה</he> when he designated it (the myrtle branch) for religious use, he made it unavailable for smelling; <he>מאכילה אקצייה</he> made it unavailable for eating. ",
+						"<cite ref=\"Beitzah 31b:7\">Bets. 31ᵇ</cite> <he>אַקְצִינְהִי</he>, v. <cite ref=\"U01923\"><he>שְׂרַג</he></cite> or <he>שְׁרַג</he> I."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to place in a corner</i>.—Part. pass. f. <he>מַקְצְיָא</he>. ",
+					"units": [
+						"<cite ref=\"Yoma 17a:2\">Yoma 17ᵃ</cite> <he>האי לשכה אַקְצוּיֵי מקציא וכ׳</he> that cell was situated in an angle (south-west corner); to him that came from the north it appeared to be in the south &c."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְקְצָאִי"],
+			"senses": [
+				{
+					"gloss": "<i>to be set aside, be made unavailable</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 43a:9\">Sabb. 43ᵃ</cite> <he>מיגו דא׳ לבין השמשות א׳ וכ׳</he> since it was forbidden to handle it at twilight (when the Sabbath entered), it became so for the entire day; <cite ref=\"Sukkah 46b\">Succ. 46ᵇ</cite>. ",
+						"<cite ref=\"Sukkah 46b:3\">Ib.</cite> <he>למצותה א׳</he> it was designated only for the religious ceremony (and forbidden for any other use until the ceremony has been performed); <he>לכוליה יומא א׳</he> it is unavailable for the entire day (even after the ceremony has been performed); a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

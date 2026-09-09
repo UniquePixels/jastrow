@@ -1,0 +1,27 @@
+{
+	"id": "S00808",
+	"slug": "קטעא-1",
+	"headword": {
+		"text": "קִטְעָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קִי׳"
+		}
+	],
+	"page": {
+		"number": 1351,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00807\">preced. art.</cite>) <i>cut, the garment under the tailor’s hand</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> (<cite ref=\"P00342\"><he>העיר</he></cite>), v. <cite ref=\"S00805\"><he>קְטַע</he></cite>."
+			]
+		}
+	]
+}

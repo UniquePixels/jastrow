@@ -1,0 +1,85 @@
+{
+	"id": "Q01426",
+	"slug": "פצי",
+	"headword": {
+		"text": "פְּצֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּצָא"
+		}
+	],
+	"page": {
+		"number": 1204,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h. <he>פָּצָה</he>) [<i>to split</i>] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to open</i> (the mouth). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 35:6\">Targ. Job XXXV, 6</cite> (Ms. <he>פָּאצֵי</he>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"Q00110\"><he>פָּדָה</he></cite> a. <cite ref=\"Q00130\"><he>פָּדַע</he></cite>) <i>to rescue, save</i>. Ib. XXXVI, 16 <he>פְּצָאִינָךְ</he> (h. text <he>הסיתך</he>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 22:9\">Targ. Ps. XXII, 9</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"Q01439\"><he>פָּצַע</he></cite>) <i>to branch off</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 17a:17\">Ab. Zar. 17ᵃ</cite> <he>חד פָּצֵי לע״ז וכ׳</he> Ms. M. (v. Rabb. D. S. a. l. note) one road branched off towards an idolatrous temple, and another to a house of prostitution."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>to pass between</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 111a\">Pes. 111ᵃ</cite> <he>ואי פ׳</he> Ar. (Ms. O. 2 <he>פַּצְיָא</he>; Ms. O. 2 <he>אִיפְּסַע</he> ed. <he>ממצעין</he>) and if one (she) passes."
+			],
+			"label": "4"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פַּצֵּי"],
+			"senses": [],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַפְצֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to deliver, save</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 70:2\">Targ. Ps. LXX, 2</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 14:25\">Targ. Prov. XIV, 25</cite> (ed. Wil. <i>Af.</i>).—",
+						"<cite ref=\"Bava Batra 45a:4\">B. Bath. 45ᵃ</cite> <he>דינא הוא דמְפַצֵּי ליה מיניה</he> (or <he>דמַפְצֵי</he>) the law is that he (who sold the ass) must rescue it from him (the gentile that took it by force; i.e. must restore the ass to the buyer or indemnify him). ",
+						"<cite ref=\"Ketubot 91b:16\">Keth. 91ᵇ</cite> <he>לא מְפַצִּינָא לך</he> (or <he>מַפְצִינָא</he>) I shall not be bound to restore it to thee. ",
+						"<cite ref=\"Ketubot 92a\">Ib. 92ᵃ</cite>; a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְפְּצֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to be delivered</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 2:12\">Targ. Prov. II, 12</cite>; <cite ref=\"Aramaic Targum to Proverbs 2:16\">16</cite>."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

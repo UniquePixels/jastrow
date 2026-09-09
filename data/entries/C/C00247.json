@@ -1,0 +1,32 @@
+{
+	"id": "C00247",
+	"slug": "גדר-5",
+	"headword": {
+		"text": "גֶּדֶר",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "הַגֶּדֶר"
+		}
+	],
+	"page": {
+		"number": 215,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>Geder</i> (<i>Gadara</i>), capital of Peraea, v. <cite ref=\"C00186\"><he>גְּדוֹר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> (p. 107ᵃ ed. Fr.) <he>מן הגודר</he> (read <he>גדור</he> or <cite ref=\"C00246\"><he>גדר</he></cite>), v. <cite ref=\"C00663\"><he>גַּיּוּס</he></cite>; <cite ref=\"Pesikta Rabbati 21:1\">ib.</cite> (p. 108ᵃ) <he>מן הג׳</he>.—",
+				"<cite ref=\"Rosh Hashanah 23b\">R. Hash. 23ᵇ</cite>, v. <cite ref=\"C00186\"><he>גְּדוֹר</he></cite>. ",
+				"<cite ref=\"Esther Rabbah 1:15\">Esth. R. to I, 3</cite>, v. <cite ref=\"A03144\"><he>אַרְכִיּוֹן</he></cite>.—Y. Kidd. III, 64ᵈ top <he>חמתא דג׳</he> Ḥamtha (Hot Springs) near G.—",
+				"<cite ref=\"Shabbat 109a\">Sabb. 109ᵃ</cite> <he>מי ג׳</he> springs of G.—",
+				"<cite ref=\"Eruvin 61a:16\">Erub. 61ᵃ</cite>; <cite ref=\"Tosefta Eiruvin 6:13\">Tosef. ib. VI</cite> (<cite ref=\"Tosefta Eiruvin 5:13\">V</cite>), 13 <he>שיהו בני ג׳ יומין וכ׳</he> that the inhabitants of G. were permitted to go down to Ḥamtha (on the Sabbath), but &c., v. <cite ref=\"I00282\"><he>טַטְּרֵג</he></cite>."
+			]
+		}
+	]
+}

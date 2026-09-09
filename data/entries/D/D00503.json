@@ -1,0 +1,35 @@
+{
+	"id": "D00503",
+	"slug": "דין-1",
+	"headword": {
+		"text": "דֵּין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 296,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"D00236\"><he>דְּוַי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>faintness, trouble, sickness</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:1:19\">Y. Ber. IX, 13ᵃ</cite> bot. <he>ד׳ ליה וכ׳</he> he was in trouble; (so) we let him pass."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " interj. expressive of love-longing (cmp. <cite ref=\"A00628\"><he>אוֹי</he></cite> &c.) <i>Oh! Ah!</i> <cite ref=\"Shir HaShirim Rabbah 2:9:1\">Cant. R. to II, 9</cite> (play on <he>דודי</he>) <he>את אומר לנו ד׳ ד׳ וכ׳</he> thou (O Lord) sayest to us, Oh! Oh! [strike out the gloss <he>פי׳ דיאו דיאו</he>]. <i>Thou</i> art sighing for <i>us</i> first (instead of our aspiring for thee)! <cite ref=\"Shir HaShirim Rabbah 2:9\">Ib.</cite> (twice more; correct slight inaccuracies). ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> [read:] <he>את אתת לגבן קדמאה</he>, <he>דיאו את לגבן</he>, <he>את אמרת לנו דיו</he>; <cite ref=\"Bamidbar Rabbah 11:7\">Num. R. s. 11</cite> [read:] <he>את אמרת לנו דיו את אתת וכ׳</he>."
+			],
+			"label": "2"
+		}
+	]
+}

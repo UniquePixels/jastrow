@@ -1,0 +1,33 @@
+{
+	"id": "P00231",
+	"slug": "עוילא",
+	"headword": {
+		"text": "עֲוִילָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲוִילָה"
+		}
+	],
+	"page": {
+		"number": 1049,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = b. h. <he>עֲוִיל</he>, <i>boy</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 36:1\">Gen. R. s. 36</cite> (ref. to <cite ref=\"Job 21:11\">Job XXI, 11</cite>) <he>בערביא … ע׳</he> in Arabia they call a child <i>‘ăvila</i>; <cite ref=\"Vayikra Rabbah 5:1\">Lev. R. s. 5</cite>, beg.; <cite ref=\"Yalkut Shimoni on Nach 908:7\">Yalk. Job 908</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>wrongdoer</i>, v. <cite ref=\"P00246\"><he>עַוָּלָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

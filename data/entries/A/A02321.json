@@ -1,0 +1,29 @@
+{
+	"id": "A02321",
+	"slug": "אסא-3",
+	"headword": {
+		"text": "אַסָּא",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "אָסָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 88,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A02320\">preced.</cite>) <i>physician</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 15:26\">Targ. O. Ex. XV, 26</cite> <he>אַסָּךְ</he> (<he>אָסָךְ</he>); Y. <he>אַסְאָךְ</he> thy &c. V. <cite ref=\"A02428\"><he>אָסֵי</he></cite>, <cite ref=\"A02430\"><he>אַסְיָא</he></cite>."
+			]
+		}
+	]
+}

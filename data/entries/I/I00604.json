@@ -1,0 +1,22 @@
+{
+	"id": "I00604",
+	"slug": "טעימה",
+	"headword": {
+		"text": "טְעִימָה"
+	},
+	"page": {
+		"number": 542,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00609\"><he>טָעַם</he></cite>) <i>tasting</i>, transf. <i>testing, the quantity used for testing</i> the color. ",
+			"units": [
+				"<cite ref=\"Menachot 42b:13\">Men. 42ᵇ</cite> <he>ט׳ פסולה</he> the quantity taken out of the kettle for testing is unfit for sacred use; <he>ט׳ פסלה</he> that quantity, if put back, disqualifies the entire contents of the kettle. Ib. 40ᵃ <he>גזירה משום ט׳</he> (not <he>טעימא</he> or <he>דטעימא</he>) it is to be feared lest the quantity used for testing may be put back again."
+			]
+		}
+	]
+}

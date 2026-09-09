@@ -1,0 +1,63 @@
+{
+	"id": "Q00086",
+	"slug": "פגע-2",
+	"headword": {
+		"text": "פְּגַע",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "פְּגִיעַ"
+		}
+	],
+	"page": {
+		"number": 1135,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00085\">same</cite><i>to meet</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 17:12\">Targ. Prov. XVII, 12</cite> (h. text <cite ref=\"Q00049\"><he>פגוש</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 29:13\">Ib. XXIX, 13</cite> (Var. <he>פגיחו</he>); a. e.—",
+				"<cite ref=\"Bereishit Rabbah 36\">Gen. R. s. 36</cite>, beg. <he>פ׳ ביה שידא וכ׳</he> the demon Sh’madon met him; <cite ref=\"Yalkut Shimoni on Torah 61:9\">Yalk. ib. 61</cite>; <cite ref=\"Vayikra Rabbah 5\">Lev. R. s. 5</cite> <he>פ׳ ליה וכ׳</he> (corr. acc.). ",
+				"<cite ref=\"Bava Kamma 99b:18\">B. Kam. 99ᵇ</cite> <he>פַּגְעוּ ביה</he> … <he>גברא</he> R. K. and R. A. met that man. ",
+				"<cite ref=\"Berakhot 58b:7\">Ber. 58ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 3:12:10\">Y. Kidd. III, 64ᵈ</cite> bot. <he>יאות עביד דלא פ׳ ביה</he> he did right not to connect himself with that man. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 3:12:10\">Ib.</cite> top <he>דלא תִפְגַּע בהון</he>, v. <cite ref=\"Q01243\"><he>פְּסוּלָא</he> I</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to plague</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 58\">Gen. R. s. 58</cite>; <cite ref=\"Yalkut Shimoni on Torah 102:17\">Yalk. ib. 102</cite> <he>פַּגְעוּנֵיה</he>, v. <cite ref=\"O01647\"><he>סְרַס</he></cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַפְגִּיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to intercede, pray</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 4:14\">Targ. Esth. IV, 14</cite>."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְפְּגַע"],
+			"senses": [
+				{
+					"gloss": "<i>to happen</i>. Y. Ber. II, 5ᶜ bot. <he>ומִתְפְּגַע ביה</he> and it happened to him (he died).",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

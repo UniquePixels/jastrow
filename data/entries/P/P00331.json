@@ -1,0 +1,35 @@
+{
+	"id": "P00331",
+	"slug": "עוקה",
+	"headword": {
+		"text": "עוּקָה"
+	},
+	"page": {
+		"number": 1056,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00326\"><he>עוּק</he></cite>; cmp. <cite ref=\"P00192\"><he>עוּגָה</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>cavity, trough, pit</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Maasrot 2:4:4\">Y. Maasr. II, 50ᵃ</cite> top <he>והשמן משירד לע׳</he> oil (is subject to tithes), when it drips down into the trough; Y. B. Mets. VII, beg. 11ᵇ (insert <he>והשמן</he>). ",
+				"<cite ref=\"Mishnah Eruvin 8:9\">Erub. VIII, 9</cite> <he>ע׳ מחזקת וכ׳</he> a pit (in the court for receiving waste water) containing two S’ah. ",
+				"<cite ref=\"Eruvin 88b:1\">Ib. 88ᵇ</cite> <he>ע׳ מחזיק וכ׳</he> (<i>masc.</i>). Tosef. ib. IX (VI), 18. ",
+				"<cite ref=\"Mishnah Mikvaot 6:1\">Mikv. VI, 1</cite> <he>עוּקַת המערה</he> a pit adjoining a grotto (filled with water); a. v."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " עוּקַת נפש <i>distress</i>, v. <cite ref=\"P01156\"><he>עָקָה</he></cite> a. <cite ref=\"H01010\"><he>חֲלוּקָה</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "M01746",
+	"slug": "מנון",
+	"headword": {
+		"text": "מָנוֹן"
+	},
+	"page": {
+		"number": 798,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"M01772\"><he>מָנָה</he></cite>; sub. <cite ref=\"A01615\"><he>אִישׁ</he></cite>)<i>manager, executor</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 22:6\">Gen. R. s. 22</cite> (ref. to <cite ref=\"Proverbs 29:21\">Prov. XXIX, 21</cite>) <he>כל מי שמפנק … סופו להיות מ׳ עליו וכ׳</he> if one indulges his passion in his youth, it will be his ruler in his old days; (<cite ref=\"Yalkut Shimoni on Nach 962:15\">Yalk. Prov. 962</cite> <he>מותח</he>, some ed. <he>מושל</he>; <cite ref=\"Yalkut Shimoni on Nach 961:29\">ib. 961</cite> <he>מותק</he>). ",
+				"<cite ref=\"Sukkah 52b:3\">Succ. 52ᵇ</cite>, v. <cite ref=\"A01065\"><he>אטב״ח</he></cite>.—[<cite ref=\"Shir HaShirim Rabbah 2:1:1\">Cant. R. to II, 1</cite> <he>מנון עבורי</he>, a corrupt gloss, perhaps for <he>עיין שמ״ר</he>, a reference to <cite ref=\"Shemot Rabbah 23\">Ex. R. s. 23</cite>.]"
+			]
+		}
+	]
+}

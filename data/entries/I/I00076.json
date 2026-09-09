@@ -1,0 +1,45 @@
+{
+	"id": "I00076",
+	"slug": "טבע-1",
+	"headword": {
+		"text": "טָבַע",
+		"homograph": 1
+	},
+	"page": {
+		"number": 518,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"I00062\"><he>טָבַל</he> I</cite>) (act. verb) <i>to sink, drown</i>. ",
+			"units": [
+				"<cite ref=\"Gittin 56b:13\">Gitt. 56ᵇ</cite> <he>לטוֹבְעוֹ</he> to drown him (sink his ship). ",
+				"<cite ref=\"Gittin 56b:13\">Ib.</cite> <he>טְבָעוֹ</he> He drowned him; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (neut. verb) <i>to sink, be drowned</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 16b:3\">Ber. 16ᵇ</cite> <he>טָבְעָה ספינתו וכ׳</he> if his ship went down &c. ",
+				"<cite ref=\"Megillah 10b\">Meg. 10ᵇ</cite>; <cite ref=\"Sanhedrin 39b:5\">Snh. 39ᵇ</cite> <he>מעשה ידי טוֹבְעִין וכ׳</he> my creatures (Egyptians) are perishing in the sea, and you want to sing?; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִטְבִּיעַ"],
+			"senses": [
+				{
+					"gloss": "<i>to sink</i>. ",
+					"units": [
+						"<cite ref=\"Yalkut Shimoni on Torah 120\">Yalk. Gen. 120</cite> <he>ה׳ האבן</he> He made the stone sink down to the depth &c.; (<cite ref=\"Pirkei DeRabbi Eliezer 35:8\">Pirké d’R. El. ch. XXXV</cite>, <he>וטָבְעָה האבן</he>; <cite ref=\"Midrash Tehillim 91\">Midr. Till. to Ps. XCI</cite>, end <he>וטבע אותה</he>). ",
+						"<cite ref=\"Yalkut Shimoni on Torah 241:1\">Yalk. Ex. 241</cite> <he>להַטְבִּיעַ את מצרים</he> to drown the Egyptians; a. e."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "P00402",
+	"slug": "עזות",
+	"headword": {
+		"text": "עַזּוּת"
+	},
+	"page": {
+		"number": 1061,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"P00385\"><he>עַז</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " with <he>פנים</he> or <cite ref=\"M02302\"><he>מצח</he></cite>, <i>insolence, effrontery</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 70b:11\">Kidd. 70ᵇ</cite> <he>כל כהן שיש לו ע׳ פ׳ וכ׳</he> (not <cite ref=\"B00198\"><he>בו</he></cite>) any priest that is insolent is surely one of them (the slaves of Pashḥur). ",
+				"<cite ref=\"Kiddushin 70b:11\">Ib.</cite> <he>אם ראית כהן בע׳ מ׳ וכ׳</he> if thou seest an insolent priest, do not criticise him, for it is said (<cite ref=\"Hosea 4:4\">Hos. IV, 4</cite>) &c. ",
+				"<cite ref=\"Shabbat 30b\">Sabb. 30ᵇ</cite>; <cite ref=\"Berakhot 16b:23\">Ber. 16ᵇ</cite> <he>שתצילנו מעזי פנים ומע׳ פ׳</he> save us from contact with insolent men and from being insolent; (Rashi: from giving reason for the imputation of spurious descent, a sign of which is insolence). ",
+				"<cite ref=\"Taanit 7b:9\">Taan. 7ᵇ</cite> <he>כל אדם שיש לו ע׳ פ׳</he> (Ms. M. <cite ref=\"P00402\"><he>עזות</he></cite> only), v. supra. ",
+				"<cite ref=\"Kiddushin 49b:10\">Kidd. 49ᵇ</cite> <he>עשרה קבים ע׳ וכ׳</he> ten measures of insolence have come down into the world, nine of them Meshan took &c.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>harshness</i>. ",
+			"units": [
+				"<cite ref=\"Devarim Rabbah 2:4\">Deut. R. s. 2</cite> <he>ענה אותו ע׳</he> gave him a harsh answer."
+			],
+			"label": "2"
+		}
+	]
+}

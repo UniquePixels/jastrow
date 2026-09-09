@@ -1,0 +1,45 @@
+{
+	"id": "K01387",
+	"slug": "כתר-2",
+	"headword": {
+		"text": "כְּתַר"
+	},
+	"page": {
+		"number": 682,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>כַּתֵּר</he> (<cite ref=\"K01386\">preced.</cite>) [<i>to turn around</i>, cmp. <cite ref=\"J00293\"><he>יָחַל</he></cite>,] <i>to wait upon, hope for</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Job 36:2\">Targ. Job XXXVI, 2</cite> Bxt. (ed. <cite ref=\"M03080\"><he>אמתין</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 42:4\">Targ. Is. XLII, 4</cite> (h. text <cite ref=\"J00293\"><he>יחל</he></cite>). ",
+						"<cite ref=\"Targum Jonathan on Isaiah 51:5\">Ib. LI, 5</cite> <he>יִכְתְּרוּן</he> ed. Wil. (oth. ed. <he>יַכְתִּי׳</he>, <i>Af.</i>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַכְתִּיר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K01386\">same</cite>, v. supra.—Part. pass. <he>מַכְתַּר</he> <i>made to wait, dependent upon</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Micah 5:6\">Targ. Mic. V, 6</cite> (h. text <he>יְיַחֵל</he>)."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

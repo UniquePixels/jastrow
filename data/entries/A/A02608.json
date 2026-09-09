@@ -1,0 +1,28 @@
+{
+	"id": "A02608",
+	"slug": "אפובלסמון",
+	"headword": {
+		"text": "אָפּוֹבַּלְסְמוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אָפּוֹפַּלְסְמוֹן"
+		}
+	],
+	"page": {
+		"number": 100,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (ὀποβάλσαμον) <i>juice of the balsam-tree, balsam</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 27\">Gen. R. s. 27</cite> <he>היו מביאין א׳ ושף וכ׳</he> (read <he>ושפין</he>) they would take balsam and smear it on the stones (of the houses of the wealthy); Y. Shebi. V, 55ᵈ bot. <he>רושמין בא׳</he> marked out with balsam. Y. Hor. III, 47ᶜ <he>באפי בלסמון</he> (corr. acc.). ",
+				"<cite ref=\"Bereishit Rabbah 39\">Gen. R. s. 39</cite>, beg. <he>אפופל׳</he>, <he>אפופילסימון</he> (corr. acc.). V. <cite ref=\"A02832\"><he>אֲפַרְסָמוֹן</he></cite>."
+			]
+		}
+	]
+}

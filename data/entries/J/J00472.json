@@ -1,0 +1,53 @@
+{
+	"id": "J00472",
+	"slug": "יסת",
+	"headword": {
+		"text": "יָסַת",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 583,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"A02427\"><he>אֲסִי</he></cite> a. <cite ref=\"P01466\"><he>עָשָׂה</he></cite>) <i>to do habitually</i>.—Denom. <cite ref=\"F00066\"><he>וֶסֶת</he></cite>, <cite ref=\"E00475\"><he>הֶיסֵּת</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִסִּית", "הֵסִית"],
+			"senses": [
+				{
+					"gloss": " [b. h., by way of syncope, forms resembling Kal of <he>סית</he>, as <he>יְסִיתְךָ</he> = <he>יֵיסִי׳</he>, <he>וַיָּסֶת</he> = <he>וַיַּסֶּת</he> &c.] <i>to cause to do, stir up, instigate</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 35a:3\">Sot. 35ᵃ</cite> (expl. <he>ויהס … אל</he>, <cite ref=\"Numbers 13:30\">Num. XIII, 30</cite>) <he>הִסִּיתָן בדברים</he> (he quieted them, because) he (apparently) instigated them (against Moses). ",
+						"<cite ref=\"Chagigah 5a:4\">Ḥag. 5ᵃ</cite> <he>עבד שמַסִּיתִין עליו רבו ונִיסַּת וכ׳</he> Ms. M. (ed. <he>שרבו מסיתין לו</he>) a slave against whom they incite his master and he (the master) is influenced by the instigation (ed.: a slave whose master, when they incite him, yields &c.), what help is there for him?—",
+						"<cite ref=\"Bava Batra 16a:5\">B. Bath. 16ᵃ</cite> (ref. to <cite ref=\"Job 2:3\">Job II, 3</cite>) <he>כביכול כאדם שמסיתין וכ׳</he> (v. Rabb. D. S. a. l.) like a human being, as it were, that is influenced by instigation. ",
+						"<cite ref=\"Job 2:3\">Ib.</cite> <he>יורד ומַסִּית</he> Ms. R. (ed. <he>ומתעה</he>) Satan comes down and incites (to sin). Y. Snh. VII, 25ᵈ top <he>יַסִּית עצמו וכ׳</he> he will stir himself up (become bold) and incite others; a. fr.—Esp. <cite ref=\"M01936\"><he>מַסִּית</he></cite> or <cite ref=\"M01936\"><he>מֵסִית</he></cite> (with ref. to <cite ref=\"Deuteronomy 13:7\">Deut. XIII, 7</cite>, sq.) <i>he who stirs people up to worship idols</i>. ",
+						"<cite ref=\"Mishnah Sanhedrin 7:10\">Snh. VII, 10</cite>. Y. ",
+						"<cite ref=\"Mishnah Sanhedrin 7:10\">ib.</cite> l. c. <he>מ׳ … בלשון גבוה וכ׳</he> the <i>massith</i> speaks in a loud voice, the <i>maddiaḥ</i> (v. <cite ref=\"N00220\"><he>נָדַח</he></cite>) in a low voice; a. fr.—Pl. <he>מַסִּיתִים</he>, <he>מַסִּיתִין</he>. ",
+						"<cite ref=\"Avot D'Rabbi Natan 16:3\">Ab. d’R. N. ch. XVI</cite>, end <he>האפיקורסין והמ׳ ומדיחין</he> (ed. Schechter … <he>המינין … המשומדים המסורות</he>)."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["נִיסַּת", "נִיסֵּית"],
+			"senses": [
+				{
+					"gloss": "<i>to be stirred up, give way to instigation; to be impassioned</i>. ",
+					"units": [
+						"<cite ref=\"Chagigah 5a:4\">Ḥag. 5ᵃ</cite>, v. supra. ",
+						"<cite ref=\"Bava Batra 16a:5\">B. Bath. 16ᵃ</cite>, v. supra. ",
+						"<cite ref=\"Sifrei Devarim 89:8\">Sifré Deut. 89</cite> <he>מצוה ביד הנ׳ וכ׳</he> he who was to be incited to idolatry must first lay his hand on &c.—Y. Snh. l. c.; Y. Yeb. XVI, 15ᵈ bot. <he>מכיון שהוא ניסית וכ׳</he> since he is prevailed upon (to worship idols), he is no longer a wise man. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 127\">Yalk. Gen. 127</cite> (play on <he>נ̇פ̇ת̇ל̇י</he>) [read:] <he>נִ֗יסֵּיתִי פּ֗וּתֵּיתֵי ת̇ל̇יתי וכ׳</he> I was prevailed upon, I was per suaded, I gave my sister the preference over myself; <cite ref=\"Bereishit Rabbah 71\">Gen. R. s. 71</cite> (corr. acc.). [For <cite ref=\"J00472\"><he>נִיסֵּית</he></cite> <i>she was married</i>, v. <cite ref=\"N01284\"><he>נָשָׂא</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

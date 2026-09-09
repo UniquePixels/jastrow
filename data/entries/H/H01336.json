@@ -1,0 +1,59 @@
+{
+	"id": "H01336",
+	"slug": "חסד-3",
+	"headword": {
+		"text": "חֲסַד"
+	},
+	"page": {
+		"number": 486,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H01335\">same</cite><i>to be put to shame</i> (<i>be whitened</i>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 34:6\">Targ. Ps. XXXIV, 6</cite> Ms. (ed. <he>עצבו</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 40:15\">Ib. XL, 15</cite> (ed. Lag. a. oth. Ithpa.; some ed. <cite ref=\"T00000\"><he>ר</he></cite> for <cite ref=\"D00000\"><he>ד</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to shame</i> &c.; v. infra.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["חַסֵּד"],
+			"senses": [],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַחְסִיד"],
+			"senses": [
+				{
+					"gloss": "<i>to jeer, blaspheme, disgrace</i> (in ed. frequ. <i>Pe.</i>). ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 17:36\">Targ. I Sam. XVII, 36</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 25:10\">Targ. Prov. XXV, 10</cite> <he>נַחְסִידָךְ</he> Lev. (ed. <he>נֶחְסְדָךְ</he>); a. fr. [Some ed. <cite ref=\"T00000\"><he>ר</he></cite> for <cite ref=\"D00000\"><he>ד</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְחַסַּד"],
+			"senses": [
+				{
+					"gloss": "<i>to be reviled, put to shame</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 71:24\">Targ. Ps. LXXI, 24</cite>; a. e.; v. supra. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 20:4\">Targ. Prov. XX, 4</cite> (v. LXX)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

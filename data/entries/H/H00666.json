@@ -1,0 +1,59 @@
+{
+	"id": "H00666",
+	"slug": "חידוש",
+	"headword": {
+		"text": "חִידּוּשׁ"
+	},
+	"altHeadwords": [
+		{
+			"text": "חִדּ׳"
+		}
+	],
+	"page": {
+		"number": 451,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H00217\"><he>חָדַשׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>renovation, the first stage of the crescent moon</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 9:2:11\">Y. Ber. IX, 13ᵈ</cite> <he>הרואה … בחִידּוּשָׁהּ</he> he who sees the moon in her first stage. ",
+				"<cite ref=\"Jerusalem Talmud Shekalim 1:2:4\">Y. Shek. I, 46ᵃ</cite> bot. <he>שמרהו שיבוא בחִידּוּשׁוֹ</he> observe it that it (the maturing of the crops) should coincide with the first part of the month of Nisan. ",
+				"<cite ref=\"Rosh Hashanah 25a:10\">R. Hash. 25ᵃ</cite> <he>אין חִדּוּשָׁהּ של לבנה וכ׳</he> (Ms. M. <cite ref=\"H00220\"><he>חָדְשָׁהּ</he></cite>, v. <cite ref=\"H00219\"><he>חֹדֶשׁ</he></cite>) the renovation of the moon takes no less than twenty nine days and a half &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>restoration</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 2:2:14\">Y. Taan. II, 65ᶜ</cite> bot. <he>ח׳ בית וכ׳</he> the restoration of thy sanctuary."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>novel interpretation, novel idea, additional legislation</i> (novellae). ",
+			"units": [
+				"<cite ref=\"Chagigah 3a:15\">Ḥag. 3ᵃ</cite> <he>א״א לבה״מ בלא ח׳</he> it is impossible for a college session to pass without a novel remark. ",
+				"<cite ref=\"Chagigah 3a:15\">Ib.</cite> <he>מה ח׳ היה וכ׳</he> what was the news in college to-day?—",
+				"<cite ref=\"Shir HaShirim Rabbah 4:16:1\">Cant. R. to IV, 16</cite> <he>ובואי דבר של ח׳</he> ‘and come’ (<cite ref=\"Shir HaShirim Rabbah 4:16:1\">ib.</cite>) intimates a novel rule (adding thanks-offerings); <cite ref=\"Jerusalem Talmud Megillah 1:11:5\">Y. Meg. I, 72ᶜ</cite> top, a. e.—",
+				"<cite ref=\"Vayikra Rabbah 13\">Lev. R. s. 13</cite>, v. <cite ref=\"H00218\"><he>חָדָשׁ</he></cite>; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": "<i>strange law, exception, unique law</i> (which allows of no conclusion by analogy), <i>anomaly</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 27a:3\">Snh. 27ᵃ</cite> <he>עד זומם ח׳ הוא וכ׳</he> the law concerning the punishment of false witnesses is an anomaly, (for why must we trust the one set more than the other?) <he>אין … חִידּוּשׁוֹ ואילך</he> therefore you cannot go beyond what it says distinctly, i.e. previous evidences of refuted witnesses cannot be assailed. ",
+				"<cite ref=\"Pesachim 44b:8-9\">Pes. 44ᵇ</cite> <he>מבשר וחלב … דח׳ הוא</he> you can draw no analogy from the law concerning the mixture of flesh and milk, for it is an anomaly; <he>ומאי חידושו</he> and wherein is it an anomaly? <cite ref=\"Jerusalem Talmud Terumot 7:1:3\">Y. Ter. VII, beg. 44ᶜ</cite> <he>לחִידּוּשׁוֹ יצא</he> the law (<cite ref=\"Deuteronomy 22:13\">Deut. XXII, 13</cite> sq.) is specified for its anomalous nature; a. fr."
+			],
+			"label": "4"
+		}
+	]
+}

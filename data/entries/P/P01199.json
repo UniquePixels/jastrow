@@ -1,0 +1,51 @@
+{
+	"id": "P01199",
+	"slug": "עקמומית",
+	"headword": {
+		"text": "עַקְמוּמִית"
+	},
+	"page": {
+		"number": 1107,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01198\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>curve</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 14a:16\">Erub. 14ᵃ</cite> <he>עַקְמוּמִיתָהּ חוץ למבוי</he> if the curved portion (of the beam placed over the entrance) is outside the alley. ",
+				"<cite ref=\"Eruvin 14a:16\">Ib.</cite> <he>כל שאילו תינטל עקמומיתה וכ׳</he> Ms. M. if, after the curved portion is taken off, there remains a gap of less than &c. Y. ib. I, 19ᵃ bot. <he>והוא שתהא ע׳ מן הצד</he> provided the curve is sideways; <he>ע׳ שהיא מעכבת וכ׳</he> a curve which obstructs the alley. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:9:5\">Y. Ab. Zar. I, 40ᵃ</cite> bot. <he>דרך ע׳ היתה</he> it was a tortuous road (on which he met her); <cite ref=\"Jerusalem Talmud Berakhot 9:1:31\">Y. Ber. IX, 13ᶜ</cite> top <he>עקמומיתה</he> (corr. acc.); a. e.—Pl. <he>עַקְמוּמִיּוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Eruvin 1:1:12\">Y. Erub. I, 18ᶜ</cite> bot. <he>אלו … דרך ע׳ וכ׳</he> those living on this side of the alley make use of the curves (on this side of the wall), and those living on the other side make use of the curves (on the other side) &c."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>ambush, hiding place</i> (by the wayside).—Pl. as ab. ",
+			"units": [
+				"<cite ref=\"Sifrei Devarim 20:4\">Sifré Deut. 20</cite> <he>אין לך דרך שאין בה ע׳</he> there is no highway without ambushes; <cite ref=\"Yalkut Shimoni on Torah 804:2\">Yalk. ib. 804</cite> (<i>sing.</i>). "
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>crookedness of the heart, insidiousness</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 7:8\">Midr. Till. to Ps. VII, 9</cite> <he>כתומי ולא כעַקְמִימוּתִי</he> according to my simplicity, but not according to my insidiousness (sin)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (v. <cite ref=\"P01200\">next w.</cite>) <i>hump</i>; trnsf. <i>haughtiness</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 59a:12\">Ber. 59ᵃ</cite> <he>לא נבראו רעמים אלא לפשוט ע׳ שבלב</he> (Ms. F. <he>לפסוק עקמומיות</he>, <i>pl.</i>; v. Rabb. R. S. a. l. note 400) the thunders were created to level (to cut off) the protuberance (protuberances) of the heart (to break man’s pride)."
+			],
+			"label": "4"
+		}
+	]
+}

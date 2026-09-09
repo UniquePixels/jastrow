@@ -1,0 +1,23 @@
+{
+	"id": "M01626",
+	"slug": "מלקטא",
+	"headword": {
+		"text": "מַלְקְטָא"
+	},
+	"page": {
+		"number": 793,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch., (<cite ref=\"M01625\">preced. art.</cite>) <i>snuffers</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 4:9\">Targ. Y. Num. IV, 9</cite> (Ar. ed. Koh. <he>מַלְקְטָטָהָא</he>, Var. <he>מלְקְטָטַיָּא</he>; h. text <he>מלקחי׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Exodus 25:38\">Targ. Y. Ex. XXV, 38</cite>; <cite ref=\"Targum Jonathan on Exodus 37:23\">XXXVII, 23</cite> <he>מַלְקָטַיָּיהָא</he> (Ar. <cite ref=\"M01628\"><he>מַלְקְטָתָהָא</he></cite>)."
+			]
+		}
+	]
+}

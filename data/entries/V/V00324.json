@@ -1,0 +1,31 @@
+{
+	"id": "V00324",
+	"slug": "תושב-1",
+	"headword": {
+		"text": "תּוֹשָׁב"
+	},
+	"page": {
+		"number": 1659,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"J00675\"><he>יָשַׁב</he></cite>)<i>settled, stationary</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 6:5:3\">Y. Sabb. VI, 8ᵇ</cite> bot. <he>כל שהוא ת׳ … פיאה</he> whatever (strange hair, band &c.) is stationary in the hair (plaited in) is called <i>peah</i> (<he>פיאה נכרית</he> wig, and women may go out with it on the Sabbath)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>settler</i>.—<he>גר ת׳</he>, v. <cite ref=\"C01225\"><he>גֵּר</he></cite>.—",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 58:6\">Gen. R. s. 58</cite> (ref. to <cite ref=\"Genesis 23:4\">Gen. XXIII, 4</cite>) <he>גר דייר ת׳ מארי ביתא</he> <i>ger</i> is a tenant, <i>toshabh</i>, a proprietor.—<i>Pl.</i> <he>תּושָׁבִים</he>. Tanḥ. B’har 1 (ref. to <cite ref=\"Leviticus 25:35\">Lev. XXV, 35</cite>) <he>אע״פ שהן נעשין גרים ות׳ בבבל וכ׳</he> although they may become sojourners and settlers (citizens) in Babylonia, if thou wilt not favor them, they will be lost; a. e.—<i>Fem.</i> <he>תּוֹשֶׁבֶת</he>; pl. <he>תּוֹשָׁבוֹת</he>. ",
+				"<cite ref=\"Tosefta Shevi'it 3:4\">Tosef. Shebi. III, 4</cite> <he>אבנים ת׳ וכ׳</he> stones fixed in the ground which the plough loosens."
+			],
+			"label": "2"
+		}
+	]
+}

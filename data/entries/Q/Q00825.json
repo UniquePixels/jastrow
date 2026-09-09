@@ -1,0 +1,23 @@
+{
+	"id": "Q00825",
+	"slug": "פיר",
+	"headword": {
+		"text": "פִּיר"
+	},
+	"page": {
+		"number": 1170,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q02017\"><he>פָּרַר</he></cite>) <i>rubble, loose ground; quarry</i> (cmp. German <i>Bruch</i>). ",
+			"units": [
+				"<cite ref=\"Nedarim 81b:1\">Ned. 81ᵇ</cite>; <cite ref=\"Ketubot 71b:2\">Keth. 71ᵇ</cite> <he>לא מצינו שועל שמת בעפר פ׳</he> it does not occur that a fox dies in the dust of rubble, i.e. you do not feel the absence of comforts to which you are not used; Y. ib. VII, 31ᵇ <he>אין שועל עפר פרין מת</he> (read: <he>מת בעפר פֵּרִין</he>; pl. of <cite ref=\"Q01526\"><he>פֵּר</he></cite>). Bab. ",
+				"<cite ref=\"Ketubot 79b:9\">ib. 79ᵇ</cite> <he>פ׳ של גפרית</he> a sulphur quarry."
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "K01377",
+	"slug": "כתף-1",
+	"headword": {
+		"text": "כָּתַף"
+	},
+	"page": {
+		"number": 682,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"K01393\"><he>כָּתַת</he></cite>) <i>to join</i>; denom. <cite ref=\"K01381\"><he>כָּתֵף</he></cite>.—[<cite ref=\"Midrash Tehillim 2:5\">Midr. Till. to Ps. II, 3</cite> <he>כתופין</he>, ed. Bub. <he>כתיפין</he>, read: <he>כפותין</he>, v. <cite ref=\"K01061\"><he>כָּפַת</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כִּיתֵּף"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"K01381\"><he>כָּתֵף</he></cite>) <i>to carry; to shoulder</i>. Y. Shebi. VIII, 38ᵇ <he>מְכַתְּפֵי פירות</he> carriers of fruits (in the Sabbatical year). Y. Nidd. II, beg. 49ᵈ <he>היתה מְכַתֶּפֶת יינות וכ׳</he> carried vessels with wine for libations; (Bab. ",
+					"units": [
+						"<cite ref=\"Niddah 6b:30\">ib. 6ᵇ</cite> <he>גפה</he>, v. <cite ref=\"C01211\"><he>גָּפַף</he></cite>).—",
+						"<cite ref=\"Bava Kamma 31a:11\">B. Kam. 31ᵃ</cite> <he>עמד לכַתֵּף</he> he halted for the sake of shifting the burden on his shoulder; <cite ref=\"Ketubot 31a\">Keth. 31ᵃ</cite>, sq.; <cite ref=\"Shabbat 5b\">Sabb. 5ᵇ</cite>. ",
+						"<cite ref=\"Shabbat 8a\">Ib. 8ᵃ</cite>; <cite ref=\"Eruvin 33a:3\">Erub. 33ᵃ</cite> <he>רבים מְכַתְּפִין עליו</he> people rest and rearrange their burdens on it. [<cite ref=\"Beitzah 25b:13\">Bets. 25ᵇ</cite> <he>ובלבר שלא יְכַתֵּף</he> provided one allows not the chair to be carried on shoulders, v. <cite ref=\"A01924\"><he>אֲלַנְקִי</he></cite>; perhaps to be read: <he>יִכָּתֵף</he> <i>Nif.</i>]"
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

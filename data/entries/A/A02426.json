@@ -1,0 +1,32 @@
+{
+	"id": "A02426",
+	"slug": "אסי-1",
+	"headword": {
+		"text": "אַסִּי"
+	},
+	"page": {
+		"number": 92,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (= <cite ref=\"J00217\"><he>יוֹסֵי</he></cite>, Frank. Meb. Y. s. v.) pr. n. m. <i>Assi;</i>",
+			"units": []
+		},
+		{
+			"gloss": " an Amora, mate of R. Immi, disciple of Rab and of Samuel. ",
+			"units": [
+				"<cite ref=\"Shabbat 22a:3\">Sabb. 22ᵃ</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 5:10:4\">Y. Ab. Zar. V, 45ᵃ</cite> bot. <cite ref=\"T00127\"><he>רבסי</he></cite> = <he>רב א׳</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " a copyist. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 2:3:4\">Y. Keth. II, 26ᵇ</cite> bot. <he>כגון אילין ספרוי דא׳ וכ׳</he> as for instance, if witnesses say, these are the books written by Assi, and like these (in handwriting) must the documents be."
+			],
+			"label": "2"
+		}
+	]
+}

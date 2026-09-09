@@ -1,0 +1,42 @@
+{
+	"id": "B00128",
+	"slug": "בדח",
+	"headword": {
+		"text": "בְּדַח"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּדִיחַ"
+		}
+	],
+	"page": {
+		"number": 139,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of √<he>דח</he>, v. <cite ref=\"D00398\"><he>דְּחַהּ</he></cite>; cmp. <cite ref=\"B00468\"><he>בִּזְרָא</he></cite>) <i>to be cheerful</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 18:9\">Targ. Y. Ex. XVIII, 9</cite>; a. fr.—",
+				"<cite ref=\"Berakhot 30b:21\">Ber. 30ᵇ</cite>, a. fr. <he>ב׳ טובא</he> was very cheerful. ",
+				"<cite ref=\"Moed Katan 17a:7\">M. Kat. 17ᵃ</cite> <he>בְּדִיחָא דעתאי</he> I feel happy. ",
+				"<cite ref=\"Shabbat 77b:8\">Sabb. 77ᵇ</cite>.—*<cite ref=\"Chullin 32a:7\">Ḥull. 32ᵃ</cite> <he>לא הוה בדיחנא ביה וכ׳</he> I could not make light of my uncle so as to ask him (Ar. ed. pr. <he>בדיקנא</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["בַּדַּח"],
+			"senses": [
+				{
+					"gloss": "<i>to cheer up, make laugh</i>. ",
+					"units": [
+						"<cite ref=\"Taanit 22a\">Taan. 22ᵃ</cite>, v. <cite ref=\"B00117\"><he>בָּדוֹחָא</he></cite>. ",
+						"<cite ref=\"Nedarim 51a\">Ned. 51ᵃ</cite> have I not cautioned thee <he>דלא תבדחן</he> not to make us laugh? <cite ref=\"Nedarim 50b:11\">Ib. 50ᵇ</cite> bot. <he>תבדיחן</he> (En Yaak. <he>תבדחן</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

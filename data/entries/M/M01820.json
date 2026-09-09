@@ -1,0 +1,39 @@
+{
+	"id": "M01820",
+	"slug": "מנת-1",
+	"headword": {
+		"text": "מְנָת"
+	},
+	"page": {
+		"number": 802,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"M01772\"><he>מָנָה</he></cite>)<i>portion, share</i>. ",
+			"units": [
+				"<cite ref=\"Bava Batra 12a:12\">B. Bath. 12ᵃ</cite> <he>מ׳ בכרם וכ׳</he> I sell thee a portion of my vineyard.—<he>מְנַת המלך</he> the king’s share (<i>annona</i>). ",
+				"<cite ref=\"Nedarim 62b:2\">Ned. 62ᵇ</cite>; <cite ref=\"Bava Batra 8a:5\">B. Bath. 8ᵃ</cite>, v. <cite ref=\"M01712\"><he>מִנְדָּה</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 71a:3\">Ab. Zar. 71ᵃ</cite> <he>הפס עלי מ׳ מלך</he> settle for me the <i>annona</i> (in kind or money)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>appointment</i>; <he>בִּמְנַת</he>, <he>עַל מְנַת</he> (abbrev. <he>ע״מ</he>) <i>on condition that, for the sake of</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Demai 6:13\">Tosef. Dem. VI, 13</cite> <he>ואם התנה עמו במ׳ כן</he> ed. Zuck. (Var. … <he>מתחלה ע״מ לעשות כן</he>) but if he originally had made that agreement (of dividing the profits) with him. ",
+				"<cite ref=\"Tosefta Demai 7:3\">Ib. VII, 3</cite> <he>ע״מ שהמעשרות שלי</he> with the condition that the tithes be mine. ",
+				"<cite ref=\"Jerusalem Talmud Bava Metzia 5:4:2\">Y. B. Mets. V, 10ᵇ</cite> bot. <he>במ׳ לעלות לו וכ׳</he> with the condition that he will give him (as his share) one new-born animal or one crop of wool. ",
+				"<cite ref=\"Pirkei Avot 1:3\">Ab. I, 3</cite>, v. <cite ref=\"P00015\"><he>עֶבֶד</he></cite>. ",
+				"<cite ref=\"Tosefta Sanhedrin 11:2\">Tosef. Snh. XI, 2</cite> <he>יודע אני וע״מ כן אני עושה</he> I know (the nature of the offence and its penalty), and on that condition I am committing it; Mekh. Mishp. s. 20 <he>יודע אני ע״מ כן</he> (read: <he>וע״מ</he>). ",
+				"<cite ref=\"Kiddushin 6b:12\">Kidd. 6ᵇ</cite> <he>מתנה ע״מ להחזיר</he> a present made with the condition that it shall be returned (possession for the time being); a. v. fr.—",
+				"<cite ref=\"Avodah Zarah 37a:11\">Ab. Zar. 37ᵃ</cite>, a. fr. <he>כל האומר ע״מ … מעכשיו דמי</he> if a man says ‘on condition’, it is to be considered as if he had said ‘from now’, i.e. the stipulated transaction takes retrospective effect when the condition is fulfilled.—",
+				"<cite ref=\"Mishnah Bava Batra 10:8\">B. Bath. X, 8</cite> (<cite ref=\"Bava Batra 175b:4\">175ᵇ</cite>) <he>על מְנָתוֹ הלוהו</he> Ar. (ed. <he>אמונתו</he>, v. <cite ref=\"A02001\"><he>אֱמוּנָה</he></cite>) he extended the loan to him (the friend) on the condition which he (the guarantor) offered."
+			],
+			"label": "2"
+		}
+	]
+}

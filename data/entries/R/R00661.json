@@ -1,0 +1,77 @@
+{
+	"id": "R00661",
+	"slug": "צער-1",
+	"headword": {
+		"text": "צָעַר"
+	},
+	"page": {
+		"number": 1294,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to be narrow, slender, young</i>, v. <cite ref=\"R00215\"><he>צוֹעֵר</he></cite>, <cite ref=\"R00656\"><he>צׇעִיר</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to be restrained, suffer privation, pain</i>. ",
+			"units": ["<cite ref=\"Taanit 11a:8\">Taan. 11ᵃ</cite>, v. infra."],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִצְעִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to lessen; to subordinate</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 6:4\">Gen. R. s. 6</cite> (ref. to <cite ref=\"R00661\"><he>הצעיר</he></cite>, <cite ref=\"Genesis 48:14\">Gen. XLVIII, 14</cite>) <he>על ידי שהיה מַצְעִיר את עסקיו וכ׳</he> because he subordinated his affairs (was contented with lesser services), he was privileged to be invested with the rights of the firstborn; <he>הגדול שהוא מצעיר וכ׳</he> if a great man applies himself to minor services, how much more (is he praiseworthy)!—Part. pass. <cite ref=\"M00577\"><he>מוּצְעָר</he></cite>, q. v."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["צִיעֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to narrow, restrain; to inflict pain, annoy</i>. ",
+					"units": [
+						"<cite ref=\"Nazir 19a:5\">Naz. 19ᵃ</cite>; <cite ref=\"Nazir 22a:4\">22ᵃ</cite>, a. e. (ref. to <cite ref=\"Numbers 6:11\">Num. VI, 11</cite>) <he>ומה זה שלא צי׳ עצמו … המְצַעֵר עצמו וכ׳</he> if this (Nazarite) who denied himself only the enjoyment of wine is called a sinner, how much more so he who denies himself all enjoyments of life! <cite ref=\"Taanit 11a:8\">Taan. 11ᵃ</cite> <he>יִצְעַר … במשה רבינו שצי׳ עצמו וכ׳</he> man must suffer (deny himself enjoyments), when the community suffers; for thus we find that Moses afflicted himself (by sitting on a stone, <cite ref=\"Exodus 17:12\">Ex. XVII, 12</cite>) &c.; <cite ref=\"Exodus 17:12\">ib.</cite> <he>וכל המצער עצמו עם וכ׳</he> (Ms. M. <he>וכל המצער עם</he>, insert <he>עצמו</he>, v. Rabb. D. S. a. l. note) and he who afflicts himself in sympathy with the community, will be allowed to see the comfort of the community; <cite ref=\"Yalkut Shimoni on Torah 148:7\">Yalk. Gen. 148</cite>, a. e. <cite ref=\"R00661\"><he>המִצְטַעֵר</he></cite>. ",
+						"<cite ref=\"Sanhedrin 11a:3\">Snh. 11ᵃ</cite> <he>אתה הוא שצִיעַרְתָּ לאבא</he> wast thou the one who annoyed my father (with the smell of garlic)? <cite ref=\"Avodah Zarah 40b:8\">Ab. Zar. 40ᵇ</cite> <he>ואתה מְצַעֲרֵינִי</he> and thou didst let me be in pain (without telling me of the remedy)?; a. fr.—2) *<i>to suffer</i>. ",
+						"<cite ref=\"Yalkut Shimoni on Nach 333\">Yalk. Is. 333</cite>, v. <cite ref=\"R00735\"><he>צָרַר</he></cite>."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִצְטַעֵר"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִצְטַעֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to feel pain; to suffer privation; to grieve, trouble one’s self</i>. Yalk. Gen. l. c., a. e., v. supra. ",
+					"units": [
+						"<cite ref=\"Chagigah 15b:11\">Ḥag. 15ᵇ</cite> <he>בזמן שאדם מִצְטַעֵר וכ׳</he> when a man suffers (the penalty of the law), what does the Shekhinah say?; <he>אם כך הקב״ה מצטער וכ׳</he> if the Lord thus grieves over the blood of the wicked (convict), how much more does he grieve over the blood of the righteous that is shed!; Ms. M. 1 <he>אם כן מצטער אני וכ׳</he>; Ms. M. 2 <he>מִצְטַעֲרֵנִי</he> if thus I (the Lord) grieve &c. ",
+						"<cite ref=\"Sanhedrin 46a\">Snh. 46ᵃ</cite>; <cite ref=\"Yalkut Shimoni on Torah 930\">Yalk. Deut. 930</cite>. ",
+						"<cite ref=\"Sukkah 26a\">Succ. 26ᵃ</cite>, a. e. <he>מצטער פטור וכ׳</he> he that feels uncomfortable (cold) is exempt from sitting in the Succah (contrad. fr. <cite ref=\"H00333\"><he>חולה</he></cite>). ",
+						"<cite ref=\"Megillah 16a\">Meg. 16ᵃ</cite> sq. <he>אפשר דבר שנצ׳ בו … יכשל בו</he> is it possible that this righteous man (Joseph) should commit the same wrong from which he himself had suffered (to make distinctions between brothers)? <cite ref=\"Yoma 74b\">Yoma 74ᵇ</cite>; Y. ib. VIII, 44ᵈ top (ref. to <cite ref=\"Leviticus 16:29\">Lev. XVI, 29</cite>) <he>יכול ישב … ויִצְטַעֵר</he> you may think, one must sit in the sun or in the cold in order to afflict one’s self. Bab. ib. 19ᵇ <he>כל ימי הייתי מצט׳ על וכ׳</he> all my life-time have I been troubling myself about this verse (<cite ref=\"Leviticus 16:2\">Lev. XVI, 2</cite>) thinking, when shall I have an opportunity to carry it into practice (in accordance with the Sadducean interpretation of it) &c. ",
+						"<cite ref=\"Sifrei Devarim 354:5\">Sifré Deut. 354</cite> <he>הואיל ונִצְטַעַרְנוּ וכ׳</he> since we have gone to the trouble of coming here &c.; a. fr."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		}
+	]
+}

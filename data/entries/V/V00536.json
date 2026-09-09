@@ -1,0 +1,23 @@
+{
+	"id": "V00536",
+	"slug": "תכך-2",
+	"headword": {
+		"text": "תְּכַךְ",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1668,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"V00535\">preced.</cite>) <i>t’khakh</i>, a worm in silk. ",
+			"units": [
+				"<cite ref=\"Shabbat 90a:10\">Sabb. 90ᵃ</cite> <he>ת׳ דשיראי</he> the worm in silk is called <i>t’khakh</i>"
+			]
+		}
+	]
+}

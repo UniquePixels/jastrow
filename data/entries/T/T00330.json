@@ -1,0 +1,34 @@
+{
+	"id": "T00330",
+	"slug": "רווחא",
+	"headword": {
+		"text": "רְוָוחָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "רְוַוחְתָּא"
+		},
+		{
+			"text": "רְוַחְ׳"
+		},
+		{
+			"text": "רְוָחָא"
+		}
+	],
+	"page": {
+		"number": 1457,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"T00329\">same</cite>, <i>wide space, relief</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 18:20\">Targ. Ps. XVIII, 20</cite>; <cite ref=\"Targum Jonathan on II Samuel 22:20\">Targ. II Sam. XXII, 20</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 66:12\">Targ. Ps. LXVI, 12</cite> (h. text <he>רויה</he>); a. e.—[<cite ref=\"Aramaic Targum to Psalms 23:5\">Targ. Ps. XXIII, 5</cite>, v. <cite ref=\"T00366\"><he>רְוִיתָא</he></cite>.]"
+			]
+		}
+	]
+}

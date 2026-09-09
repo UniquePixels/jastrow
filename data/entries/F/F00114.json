@@ -1,0 +1,31 @@
+{
+	"id": "F00114",
+	"slug": "ותק",
+	"headword": {
+		"text": "וְתַק"
+	},
+	"page": {
+		"number": 376,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<cite ref=\"F00114\"><he>וַתֵּק</he></cite> (privative verb, v. <cite ref=\"F00108\"><he>וָתִיק</he></cite>; cmp. <cite ref=\"P01545\"><he>עתק</he></cite> <cite ref=\"Aramaic Targum to Lamentations 3:4\">Targ. Lam. III, 4</cite>) <i>to unnerve</i> (v. <cite ref=\"F00055\"><he>וִיתֵּק</he></cite>); <i>to break, shatter</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Kings 19:11\">Targ. I Kings XIX, 11</cite> <he>מְוַותֵּק</he> Ar. Ms. quoted in Buxt. s. v. (ed. <he>מפרקין</he>)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "P00100",
+	"slug": "עגלתא-2",
+	"headword": {
+		"text": "עֲגַלְתָּא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1041,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"P00196\"><he>עוֹגֶל</he></cite>, <i>basin</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shabbat 3:3:10\">Y. Sabb. III, 6ᵃ</cite> bot. <he>מיתן … גו ע׳</he> to put the bottle of oil into a basin (of hot water), v. <cite ref=\"N00573\"><he>נַטְלָא</he></cite>."
+			]
+		}
+	]
+}

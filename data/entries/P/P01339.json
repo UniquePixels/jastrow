@@ -1,0 +1,34 @@
+{
+	"id": "P01339",
+	"slug": "ערטל-2",
+	"headword": {
+		"text": "עַרְטֵל"
+	},
+	"page": {
+		"number": 1116,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"P01338\">same</cite> <cite ref=\"Targum of I Chronicles 10:8\">Targ. I Chr. X, 8</cite> (h. text <he>פשט</he>).",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְעַרְטֵיל"],
+			"senses": [
+				{
+					"gloss": "<i>to be stripped; to uncover one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 3:7\">Targ. Y. Gen. III, 7</cite>. ",
+						"<cite ref=\"Targum Jonathan on Exodus 7:9\">Targ. Y. Ex. VII, 9</cite> <he>כד איתע׳</he> when it (the serpent) was stripped (of its limbs, v. ",
+						"<cite ref=\"Targum Jonathan on Genesis 3:14\">Targ. Y. Gen. III, 14</cite>, <cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite>). Targ. ",
+						"<cite ref=\"Habakkuk 2:16\">Hab. II, 16</cite> (h. text <he>הערל</he>).—[<cite ref=\"Yalkut Shimoni on Nach 162:2\">Yalk. Sam. 162</cite> (ref. to <cite ref=\"II Samuel 22:37\">II Sam. XXII, 37</cite>) <he>לא ירחבון ולא ידחפון ולא יִתְעַרְטְלוּן</he> they (my joints) did not widen (become loose), did not slip, nor did they become sore; <cite ref=\"Midrash Tehillim 18:30\">Midr. Till. to Ps. XVIII, 37</cite> <he>ולא יתערפלון</he> nor did they <i>swell</i> (?); perh. to be read: <he>יתערסלון</he>, v. <cite ref=\"P01408\"><he>עִרְסֵל</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

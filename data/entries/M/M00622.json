@@ -1,0 +1,23 @@
+{
+	"id": "M00622",
+	"slug": "מורדותא",
+	"headword": {
+		"text": "מוּרְדְּוָתָא"
+	},
+	"page": {
+		"number": 749,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>רדי</he> <i>to plough</i>) <i>furrows</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 129:3\">Targ. Ps. CXXIX, 3</cite> <he>מוּרְדְוָתְהוֹן</he> ed. Lag. (Regia <he>מוּרְדְּיָת־</he>; ed. Wil. <he>מוּרְדָּנִית־</he>; ed. Ven. <cite ref=\"M00663\"><he>מורנית־</he></cite>, corr. acc.)."
+			]
+		}
+	]
+}

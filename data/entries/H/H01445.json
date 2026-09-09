@@ -1,0 +1,25 @@
+{
+	"id": "H01445",
+	"slug": "חפינה",
+	"headword": {
+		"text": "חֲפִינָה"
+	},
+	"page": {
+		"number": 491,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"H01458\"><he>חָפַן</he></cite>) <i>the priest’s taking handfuls of incense</i> (<cite ref=\"Leviticus 16:12\">Lev. XVI, 12</cite>). ",
+			"units": [
+				"<cite ref=\"Yoma 19a:1\">Yoma 19ᵃ</cite> top <he>ללמדו ח׳</he> (they took him to the house of Abtinas) to teach him the manipulation of <i>ḥăfinah</i>. ",
+				"<cite ref=\"Yoma 19a:10\">Ib.</cite> <he>וגמר ח׳</he> and he learned <i>ḥăf</i>. ",
+				"<cite ref=\"Yoma 49a:17\">Ib. 49ᵃ</cite> <he>בחֲפִינָתוֹ</he> with what the dying highpriest had seized with his hands. ",
+				"<cite ref=\"Menachot 11a:12\">Men. 11ᵃ</cite> <he>והאיכא ח׳</he> is there not <i>ḥăfinah</i> among the difficult priestly functions?; a. e."
+			]
+		}
+	]
+}

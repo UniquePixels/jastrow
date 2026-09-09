@@ -1,0 +1,30 @@
+{
+	"id": "D01117",
+	"slug": "דרע-2",
+	"headword": {
+		"text": "דְּרַע",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "דַּרְעָא"
+		}
+	],
+	"page": {
+		"number": 324,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"D01116\">preced.</cite>) <i>seed, produce; offspring</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 4:3\">Targ. Y. Gen. IV, 3</cite> (ed. Amst. <cite ref=\"M00723\"><he>מזדרע</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 1:14\">Targ. Cant. I, 14</cite>; a. e.—",
+				"<cite ref=\"Aramaic Targum to Psalms 37:26\">Targ. Ps. XXXVII, 26</cite> (ed. Lag. <he>ז׳</he>, Var. <he>ד׳</he>)."
+			]
+		}
+	]
+}

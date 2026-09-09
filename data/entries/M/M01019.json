@@ -1,0 +1,27 @@
+{
+	"id": "M01019",
+	"slug": "מטמוט",
+	"headword": {
+		"text": "מִטְמוּט"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִיטְ׳"
+		}
+	],
+	"page": {
+		"number": 768,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00992\"><he>מָטַט</he></cite>) <i>decline, use of the root</i> <cite ref=\"M00458\"><he>מוּט</he></cite>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Metzia 6:18\">Tosef. B. Mets. VI, 18</cite> (ref. to <he>ימוט</he>, <cite ref=\"Psalms 15:5\">Ps. XV, 5</cite>) <he>המ׳ הזה וכ׳</he> (ed. Zuck. <he>המִיטּוּט</he>) we know not in what sense this ‘decline’ is meant; Y. ib. V, end, 10ᵈ <he>המיטמ׳</he>; [<cite ref=\"Yalkut Shimoni on Nach 665:1\">Yalk. Ps. 665</cite> <he>היִמּוֹט וכ׳</he> this <i>yimmot</i> &c.]."
+			]
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"id": "O01091",
+	"slug": "סמיכה",
+	"headword": {
+		"text": "סְמִיכָה"
+	},
+	"page": {
+		"number": 1000,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"O01097\"><he>סָמַךְ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>proximity, close neighborhood</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Kilayim 3:5:2\">Y. Kil. III, 28ᵈ</cite> bot. <he>מה ביניהון ס׳</he> they differ as to planting (the gourd) near (the onions, without intervening space)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (= <he>סמיכת יד</he>, v. ",
+			"units": [
+				"<cite ref=\"Leviticus 1:4\">Lev. I, 4</cite>) <i>putting hands upon the head of the sacrifice</i>. ",
+				"<cite ref=\"Mishnah Menachot 9:8\">Men. IX, 8</cite> (<cite ref=\"Menachot 93a:12\">93ᵃ</cite>) <he>ס׳ שירי מצוה</he> laying hands on the sacrifice is a dispensable act, v. <cite ref=\"U00909\"><he>שְׁיָיר</he></cite>. ",
+				"<cite ref=\"Menachot 93a:12\">Ib.</cite> <he>תכף לס׳ שחיטה</he> the laying on of hands must immediately precede the slaughtering. ",
+				"<cite ref=\"Tosefta Chagigah 2:8\">Tosef. Ḥag. II, 8</cite> <he>על הס׳</he> [<cite ref=\"A01770\"><he>אלא</he></cite>] except on the question of laying hands &c. (on the Holy Days, v. ",
+				"<cite ref=\"Mishnah Chagigah 2:2\">Ḥag. II, 2</cite>). ",
+				"<cite ref=\"Temurah 16a:2\">Tem. 16ᵃ</cite> top <he>דופי של ס׳</he> the taint which attached to them on account of their disputes concerning the <i>s’mikhah</i> (on the Holy Days). ",
+				"<cite ref=\"Mishnah Sanhedrin 1:3\">Snh. I, 3</cite> <he>סְמִיכַת זקנים</he> the laying on of hands by the elders (<cite ref=\"Leviticus 4:15\">Lev. IV, 15</cite>); Tosef. ib. I, 1, v. <cite ref=\"O01092\">next w.</cite> Y. ib. I, 19ᵃ bot., v. <cite ref=\"O01092\">next w.</cite>; a. fr.—Pl. <cite ref=\"O01092\"><he>סְמִיכוֹת</he></cite>. ",
+				"<cite ref=\"Mishnah Kiddushin 1:8\">Kidd. I, 8</cite>. ",
+				"<cite ref=\"Menachot 88a:13\">Men. 88ᵃ</cite>, a. e. <he>שתי ס׳ בצבור</he> in two cases of communal offerings is laying on of hands required (Lev. l. c., a. XVI, 21)"
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>laying hands on the scholar</i>, in gen. <i>ordination</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 14a:5\">Snh. 14ᵃ</cite> <he>אין ס׳ בח״ל</he> ordination cannot take place outside of Palestine. ",
+				"<cite ref=\"Sanhedrin 14a:9\">Ib.</cite> <he>אלא ס׳</he> <i>zaḳen</i> (<cite ref=\"I Samuel 2:32\">I Sam. II, 32</cite>) can only refer to ordination as an elder; a. fr.—Ib. 13ᵇ <he>סְמִיכַת זקנים</he>, v. next w.—4) <i>leaning against, support</i>. ",
+				"<cite ref=\"Ketubot 111a:27\">Keth. 111ᵃ</cite> sq. <he>ישיבה שאין בה ס׳</he> sitting without a back to lean against; <he>עמידה שאין בה ס׳</he> standing without something to lean against; a. e.—5) <i>cripple’s cushion</i>, v. <cite ref=\"O01068\"><he>סָמוֹכוֹת</he></cite>.—[<cite ref=\"Jerusalem Talmud Yoma 3:2:6\">Y. Yoma III, 40ᵇ</cite> bot., read: <cite ref=\"M01920\"><he>מְסִיכָּה</he></cite>.]"
+			],
+			"label": "3"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "A02108",
+	"slug": "אנגריא",
+	"headword": {
+		"text": "אַנְגַּרְיָא"
+	},
+	"page": {
+		"number": 81,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (ἀγγαρεία, angaria) <i>forced labor, service</i>, esp. <i>seizure for public services</i> or <i>works</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:1:30\">Y. Ber. I, 2ᵈ</cite> bot. <he>איתצדית בא׳ וכ׳</he> I was pressed into service to carry myrtles &c. ",
+				"<cite ref=\"Mishnah Bava Metzia 6:3\">B. Mets. VI, 3</cite> (<cite ref=\"Bava Metzia 78a:6\">78ᵃ</cite>) <he>נעשית א׳</he> (the ass) was seized for public service. Ib. 78ᵇ <he>בא׳ חוזרת</he> in the case that the animal pressed into service is sent back again. ",
+				"<cite ref=\"Vayikra Rabbah 12\">Lev. R. s. 12</cite> <he>שמעון א׳ במדינתא</he> they heard that seizure for public service was to take place in the country. Esth. R. introd. <he>והלך זו א׳</he> hălakh (<cite ref=\"Ezra 4:13\">Ezra IV, 13</cite>) means <i>angaria</i> (v. <cite ref=\"A02106\"><he>אנגרוטינא</he></cite>). ",
+				"<cite ref=\"Sanhedrin 101b:12\">Snh. 101ᵇ</cite>; a. fr.—Pl. <he>אַנְגַּרְיוֹת</he>. ",
+				"<cite ref=\"Vayikra Rabbah 23\">Lev. R. s. 23</cite> <he>אע״פ שהן נגבין … וא׳</he> though annonæ and angariæ are collected from them. ",
+				"<cite ref=\"Yalkut Shimoni on Nach 1051:6\">Yalk. Esth. 1051</cite> <he>א׳ של נשים</he> levies of women (for the king).—Trnsf. <he>בא׳</he> as a forced labor, <i>reluctantly</i>. ",
+				"<cite ref=\"Midrash Tehillim 112\">Midr. Till. to Ps. CXII</cite>.—",
+				"<cite ref=\"Pesikta Rabbati 21:1\">Pesik. R. s. 21</cite> <he>שלא באנגריס</he> (corr. acc.) not as a forced labor."
+			]
+		}
+	]
+}

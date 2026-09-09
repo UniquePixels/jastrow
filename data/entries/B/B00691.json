@@ -1,0 +1,23 @@
+{
+	"id": "B00691",
+	"slug": "ביקא",
+	"headword": {
+		"text": "בִּיקָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 165,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בקק</he>) <i>incisions in muddy ground</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 147a\">Sabb. 147ᵃ</cite> bot. Ar. s. v. <he>פלם</he> (Ms. O. <cite ref=\"B00321\"><he>בוקא</he></cite>, ed. <cite ref=\"Q00796\"><he>פיקא</he></cite>), v. <cite ref=\"Q00678\"><he>פילומא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "A03119",
+	"slug": "ארירה",
+	"headword": {
+		"text": "אֲרִירָה"
+	},
+	"page": {
+		"number": 120,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>ארר</he>) <i>cursing, imprecation</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:5:8\">Y. Ber. IV, 8ᶜ</cite> (play on <i>Aron</i>, the ark) from there <he>א׳ יוצאה לעולם</he> curse goes forth into the world (for transgressors); a. e."
+			]
+		}
+	]
+}

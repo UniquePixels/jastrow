@@ -1,0 +1,24 @@
+{
+	"id": "C00396",
+	"slug": "גולל",
+	"headword": {
+		"text": "גּוֹלֵל"
+	},
+	"page": {
+		"number": 222,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גלל</he>, cmp. <cite ref=\"C00848\"><he>גַּל</he></cite>) <i>the stone placed on top of a burial cave, top-stone</i>, contrad. to <cite ref=\"D00316\"><he>דּוֹפֵק</he></cite>. Ohol. II, 4; a. fr.—<he>סתימת הַגּ׳</he> the closing of the tomb with the <i>golel</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 47b\">Snh. 47ᵇ</cite>; <cite ref=\"Shabbat 152b:2\">Sabb. 152ᵇ</cite> <he>עד שיסתם הג׳</he>.—",
+				"<cite ref=\"Eruvin 15b:2\">Erub. 15ᵇ</cite>; <cite ref=\"Sukkah 23a:7\">Succ. 23ᵃ</cite> cannot be used <he>ג׳ לקבר</he> for closing up a grave, i.e. if put on top, it is not considered a <i>golel</i> in levitical law, v. ",
+				"<cite ref=\"Chullin 72a:7\">Ḥull. 72ᵃ</cite>"
+			]
+		}
+	]
+}

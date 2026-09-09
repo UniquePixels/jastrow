@@ -1,0 +1,28 @@
+{
+	"id": "M01326",
+	"slug": "מיתה",
+	"headword": {
+		"text": "מִיתָה"
+	},
+	"page": {
+		"number": 780,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"M00691\"><he>מוּת</he></cite>)<i>death, penalty of death</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 156b:3\">Sabb. 156ᵇ</cite> <he>מ׳ משונה</he> an unnatural death; <he>מ׳ עצמה</he> natural death. ",
+				"<cite ref=\"Sanhedrin 68a:4\">Snh. 68ᵃ</cite> <he>אם ימותו מִיתַת עצמן</he> if they shall die a natural death. ",
+				"<cite ref=\"Mishnah Sanhedrin 11:4\">Ib. XI, 4</cite> (<cite ref=\"Sanhedrin 89a:3\">89ᵃ</cite>) <he>מ׳ בב״ד</he> death at the hand of the court. ",
+				"<cite ref=\"Sanhedrin 5a\">Snh. 5</cite> <he>מִיתָתוֹ בידי אדם</he> he must be put to death by man (court); <he>מיתתו בידי שמים</he> he shall be put to death by the Lord. ",
+				"<cite ref=\"Ketubot 37b:8\">Keth. 37ᵇ</cite> <he>מ׳ אריכתא</he> one continued act of execution (comprising lashes and putting to death); a. fr.—Pl. <he>מִיתוֹת</he>. ",
+				"<cite ref=\"Mishnah Sanhedrin 7:1\">Snh. VII, 1</cite> <he>ארבע מ׳ נמסרו לב״ד</he> four forms of capital punishment have been entrusted to the courts. ",
+				"<cite ref=\"Sotah 8b:2\">Sot. 8ᵇ</cite> <he>דין ארבע מ׳ וכ׳</he> the divine judgment taking the place of the four forms of capital punishment (which the Jewish courts can no longer decree) has not ceased; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "N00070",
+	"slug": "נבי-1",
+	"headword": {
+		"text": "נבי",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "נָבָה"
+		}
+	],
+	"page": {
+		"number": 868,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"N00071\">next w.</cite>), <i>Pi.</i> <he>נִיבָּה</he> <i>to blow ablaze</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Kamma 6:22\">Tosef. B. Kam. VI, 22</cite>; <cite ref=\"Bava Kamma 60a:2\">B. Kam. 60ᵃ</cite>, v. <cite ref=\"L00049\"><he>לָבָה</he></cite>."
+			]
+		}
+	]
+}

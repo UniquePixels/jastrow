@@ -1,0 +1,30 @@
+{
+	"id": "B00440",
+	"slug": "בזיון",
+	"headword": {
+		"text": "בִּזָּיוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּיזָּ׳"
+		}
+	],
+	"page": {
+		"number": 153,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"B00421\"><he>בָּזָה</he></cite>)<i>contempt, disgrace</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:3:4\">Y. Ab. Zar. III, 42ᵈ</cite> <he>דבר של ב׳</he> a common vessel (v. <cite ref=\"B00421\"><he>בָּזָה</he></cite> Part. Pu.). ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 11:2:2\">Y. Sabb. XI, 13ᵃ</cite> top, a. fr. <he>נהג ב׳ ב־</he> to treat disrespectfully. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:2:7\">Y. Ḥag. II, 78ᵃ</cite> top <he>נהג עצמו בב׳</he> conducted himself disgracefully. ",
+				"<cite ref=\"Sanhedrin 47a:6\">Snh. 47ᵃ</cite>; a. fr."
+			]
+		}
+	]
+}

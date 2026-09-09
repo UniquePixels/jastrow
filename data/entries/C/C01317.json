@@ -1,0 +1,37 @@
+{
+	"id": "C01317",
+	"slug": "גרות",
+	"headword": {
+		"text": "גֵּרוּת"
+	},
+	"altHeadwords": [
+		{
+			"text": "גֵּירוּת"
+		}
+	],
+	"page": {
+		"number": 267,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (denom. of <cite ref=\"C01225\"><he>גֵּר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the stranger’s civic condition</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 44:18\">Gen. R. s. 44</cite>; <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite>, a. e., v. <cite ref=\"A01403\"><he>אִיסוֹפּוֹלִיטְיָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>conversion to Judaism</i>. ",
+			"units": ["<cite ref=\"Gittin 85a:17\">Gitt. 85ᵃ</cite>"],
+			"label": "2"
+		}
+	]
+}

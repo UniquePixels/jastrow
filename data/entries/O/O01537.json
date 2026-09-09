@@ -1,0 +1,32 @@
+{
+	"id": "O01537",
+	"slug": "סרדא",
+	"headword": {
+		"text": "סְרָדָא"
+	},
+	"page": {
+		"number": 1023,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (transpos. of <cite ref=\"O00203\"><he>סדרא</he></cite>, v. <he>סדר</he>; cmp. <cite ref=\"M00332\"><he>מִדְרוֹן</he></cite>, <cite ref=\"M00326\"><he>מִדְרָא</he></cite> fr. <cite ref=\"J00597\"><he>ירד</he></cite>) [<i>arrangement</i>,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>net-work, grate</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 27:4\">Targ. O. Ex. XXVII, 4</cite> (ed. Amst. <cite ref=\"O00203\"><he>סִדְרָא</he></cite>; h. text <cite ref=\"M01348\"><he>מכבר</he></cite>); <cite ref=\"Onkelos Exodus 38:4\">ib. XXXVIII, 4</cite> (ed. Amst. <cite ref=\"O00203\"><he>סְדָרָא</he></cite>); a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>web with wide meshes, sail, hanging</i>.—Pl. <he>סְרָדִין</he>. Ib. XXVII, 9 (h. text <he>קלעים</he>). Ib. XXXV, 17 (ed. Amst. <he>סְדָרֵי</he>); ib. XXXVIII, 9; 14 (ed. Amst. <he>סְדָר׳</he>); a. fr.—[Cmp. Syr. <cite ref=\"O00203\"><he>סדרא</he></cite>, P. Sm. 2533.]—[<cite ref=\"Targum Jerusalem, Genesis 36:39\">Targ. Y. II, Gen. XXXVI, 39</cite> <he>סרדא דהוה ליה במטרדא</he> Ar., read: <he>טִרְדָּא דהוה לעי וכ׳</he>, v. <cite ref=\"M01054\"><he>מִטְרְדָה</he></cite>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

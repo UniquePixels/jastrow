@@ -1,0 +1,25 @@
+{
+	"id": "M02545",
+	"slug": "מרדות-2",
+	"headword": {
+		"text": "מַרְדּוּת",
+		"homograph": 2
+	},
+	"page": {
+		"number": 837,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"M02528\"><he>מָרַד</he> I)</cite><i>rebellion, disobedience</i>.—<he>מכת מ׳</he> (<cite ref=\"M01369\"><he>מכות</he></cite>, abbrev. <he>מ״מ</he>) <i>punishment for disobedience</i>, left to the discretion of the court, contrad. to the Biblically ordained punishment (<cite ref=\"M01618\"><he>מַלְקוּת</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Nazir 4:3\">Naz. IV, 3</cite> (<cite ref=\"Nazir 23a:2\">23ᵃ</cite>) <he>אם אינה … תספוג מ׳ מ׳</he> if she cannot receive the lawful punishment of forty lashes, let her receive the punishment for rebellion. ",
+				"<cite ref=\"Ketubot 45b:14\">Keth. 45ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 40b:11\">Sabb. 40ᵇ</cite>; <cite ref=\"Yevamot 52a:5\">Yeb. 52ᵃ</cite>; <cite ref=\"Chullin 141b:11\">Ḥull. 141ᵇ</cite>. [Rashi: = <cite ref=\"T00253\"><he>רדיה</he></cite>, ‘blows enforcing <i>submission</i>’, v. <cite ref=\"M02531\"><he>מֶרֶד</he></cite> II a. <cite ref=\"M02544\">preced.</cite> w.]"
+			]
+		}
+	]
+}

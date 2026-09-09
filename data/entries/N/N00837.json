@@ -1,0 +1,42 @@
+{
+	"id": "N00837",
+	"slug": "נכס-2",
+	"headword": {
+		"text": "נְכַס"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְכֵיס"
+		}
+	],
+	"page": {
+		"number": 911,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N00836\">same</cite>; impf. <he>יִכּוֹס</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 31:54\">Targ. Gen. XXXI, 54</cite>. ",
+				"<cite ref=\"Onkelos Genesis 31:54\">Ib.</cite> O. XXII, 10 <he>למִיכַּס</he> ed. Berl. (oth. ed. a. Y. <he>למֵיכַס</he>); a. fr.—",
+				"<cite ref=\"Sanhedrin 25b:24\">Snh. 25ᵇ</cite> bot. <he>והאידנא נ׳ אבא וכ׳</he> and presently he will slaughter the father for the son and the son for the father (he will exercise extortions). ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 5:3:6\">Y. Shebi. V, end, 36ᵃ</cite> <he>מִיכּוֹס תורא וכ׳</he> to slaughter an ox available for the plough; a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְנְכֵס", "אִתְנְכֵיס"],
+			"senses": [
+				{
+					"gloss": ", <cite ref=\"N00819\"><he>אִינְּכֵיס</he></cite> <i>to be slaughtered</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Leviticus 19:6\">Targ. Lev. XIX, 6</cite>; a. fr.—",
+						"<cite ref=\"Bereishit Rabbah 33:3\">Gen. R. s. 33</cite> <he>אזל למִתְנַכְסָה וכ׳</he> was going to be slaughtered, and it lowed, as if to say, save me; Y. Keth. XII, 35ᵃ <he>מִינְּכֵיס</he>; Y. Kil. IX, 32ᵇ <he>מִנְּכִס</he> taken to be slaughtered."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

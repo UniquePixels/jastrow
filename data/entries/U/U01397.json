@@ -1,0 +1,34 @@
+{
+	"id": "U01397",
+	"slug": "שלשל-2",
+	"headword": {
+		"text": "שִׁלְשֵׁל",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1589,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"U01343\"><he>שָׁלַל</he> I</cite>)",
+			"units": []
+		},
+		{
+			"gloss": "<i>to chain, couple</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Berakhot 6:23\">Tosef. Ber. VI (V), 6</cite>; <cite ref=\"Pesachim 105b:2\">Pes. 105ᵇ</cite> <he>ומְשַׁלְשְׁלָן כולן לאחרין</he> and combines all of them (the benedictions) in the prayer after the meal. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:7:4\">Y. Kidd. I, 61ᵃ</cite> bot.; <cite ref=\"Jerusalem Talmud Shabbat 1:2:5\">Y. Sabb. I, 3ᵃ</cite> <he>אם יכול את לשַׁלְשֵׁל … שַׁלְשְׁלָהּ וכ׳</he> if thou canst couple a tradition by quoting authorities up to Moses, do so; if not, quote either the very first or the very last authority; a. e.—<i>Part. pass.</i> <he>מְשׁוּלְשָׁל</he> <i>knotted</i>. ",
+				"<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9<sup>7</sup></cite> <he>שהיה … לחבל מש׳ זה בזה וכ׳</he> his (Israel’s) offspring was like a rope knotted together, one part to the other, for all could trace their descent in uninterrupted succession."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to form chains, curls</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 4:10\">Shebi. IV, 10</cite> <he>החרובין משׁיְשַׁלְשְׁלוּ</he> (Ar. <he>משׁיְשַׁרְשְׁרוּ</he>) carob-trees (must not be cut down in the Sabbatical year) from the time that they form chains, v. <cite ref=\"U01392\"><he>שִׁלְשׁוּל</he> II</cite>."
+			],
+			"label": "2"
+		}
+	]
+}

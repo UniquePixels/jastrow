@@ -1,0 +1,41 @@
+{
+	"id": "I00141",
+	"slug": "טוח-2",
+	"headword": {
+		"text": "טוּחַ"
+	},
+	"page": {
+		"number": 522,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"I00140\">same</cite>, <i>to plaster, smear</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 30a\">Pes. 30ᵃ</cite>, v. <cite ref=\"I00327\"><he>טִיחְיָא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אֲטַח"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"I00140\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Zevachim 95b\">Zeb. 95ᵇ</cite> <he>אַטְחוּ</he> (Ms. R. 2 <he>דטחו</he>), v. <cite ref=\"I00327\"><he>טִיחְיָא</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (with <he>מִלִּין</he>) <i>to talk rebelliously</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Genesis 15:6\">Targ. Y. Gen. XV, 6</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

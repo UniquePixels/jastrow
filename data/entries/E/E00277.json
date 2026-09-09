@@ -1,0 +1,39 @@
+{
+	"id": "E00277",
+	"slug": "הוריה",
+	"headword": {
+		"text": "הוֹרָיָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "הוֹרָיָיה"
+		},
+		{
+			"text": "הוֹרָאָה"
+		}
+	],
+	"page": {
+		"number": 341,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>ירה</he>, <i>Hif.</i>) <i>decision, instruction; teacher’s</i> or <i>judge’s office</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:5:8\">Y. Ber. IV, 8ᶜ</cite> top <i>Moriah</i> <he>שמשם ה׳ וכ׳</he> because instruction goes forth &c.; <cite ref=\"Taanit 16a:8\">Taan. 16ᵃ</cite> <he>יצאה … היראה</he> (not <he>יצא</he>); <cite ref=\"Bereishit Rabbah 55:2\">Gen. R. s. 55</cite>; <cite ref=\"Pesikta Rabbati 40:1\">Pesik. R. s. 40</cite>.—",
+				"<cite ref=\"Shir HaShirim Rabbah 3:4:2\">Cant. R. to III, 4</cite>, a. e., v. preced.—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 6:1:6\">Y. Shebi. VI, 36ᶜ</cite> top <he>איו הוֹרָאָתוֹ הורייה</he> bis decision is not binding. ",
+				"<cite ref=\"Keritot 13b:63\">Kerith. 13ᵇ</cite> <he>לא סגי ליה בלא ה׳</he> he could not help giving a practical decision (cases constantly coming before him). ",
+				"<cite ref=\"Jerusalem Talmud Sotah 8:5:3\">Y. Sot. VIII, 22ᵈ</cite> bot. <he>ואסור בה׳</he> and (he who drinks it) is forbidden to give a decision. ",
+				"<cite ref=\"Mishnah Horayot 1:1\">Hor. I, 1</cite> <he>ראוי לה׳</he> authorized to teach; a. v. fr.—(<cite ref=\"E00277\"><he>הוֹרָיַת</he></cite>) <he>הוֹרָאַת שעה</he> <i>a decision under an emergency, a special dispensation</i> (not to be taken as a precedent), opp. <he>ה׳ לדורות</he>. ",
+				"<cite ref=\"Yoma 69b:1\">Yoma 69ᵇ</cite>; a. fr.—מוֹרֶה ה׳ <i>an authorized teacher, judge</i>. ",
+				"<cite ref=\"Pesachim 3b:6\">Pes. 3ᵇ</cite>; a. fr.—Pl. <he>הוֹרָיוֹת</he>, <he>הוֹרָאוֹת</he>. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 4:6:5\">Y. Naz. IV, end, 53ᶜ</cite> <he>עד שתורה ה׳ בישראל</he> before being appointed a teacher in Israel. ",
+				"<cite ref=\"Mishnah Horayot 1:5\">Hor. I, 5</cite> (<cite ref=\"Horayot 5a:3\">5ᵃ</cite>) <he>הוריות ב״ד</he> (Mish. ed. <cite ref=\"E00277\"><he>הוֹרָיַית</he></cite>); a. fr.—<i>Horayoth</i> (<i>Horaoth</i>), name of a treatise of Mishnah, Tosefta, Talmud Babli a. Y’rushalmi, on liability for erroneous decisions."
+			]
+		}
+	]
+}

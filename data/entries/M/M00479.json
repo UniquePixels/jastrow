@@ -1,0 +1,28 @@
+{
+	"id": "M00479",
+	"slug": "מוכס-1",
+	"headword": {
+		"text": "מוֹכֵס"
+	},
+	"page": {
+		"number": 741,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"M01419\"><he>מֶכֶס</he></cite>) <i>revenue farmer, publican, custom-collector</i> (considered a robber in Jewish law). ",
+			"units": [
+				"<cite ref=\"Bava Kamma 113a:15\">B. Kam. 113ᵃ</cite> <he>מ׳ שאין לו קיצבה</he> a publican who is not limited by legal stipulations; <he>מ׳ העומד מאליו</he> a self-constituted collector. ",
+				"<cite ref=\"Avodah Zarah 39a:18\">Ab. Zar. 39ᵃ</cite>; <cite ref=\"Bekhorot 30b:18\">Bekh. 30ᵇ</cite> bot. <he>קשרי מ׳</he> the publican’s knots (seals or written receipts); a. e.—Pl. <he>מוֹכְסִין</he>. ",
+				"<cite ref=\"Mishnah Bava Kamma 10:2\">B. Kam. X, 2</cite> <he>נטלו מ׳ וכ׳</he> if publicans took away his ass and gave him one taken from somebody else. ",
+				"<cite ref=\"Mishnah Bava Kamma 10:1\">Ib. 1</cite>; <cite ref=\"Tosefta Bava Kamma 10:22\">Tosef. ib. X, 22</cite> <he>תיבת מ׳</he> the treasury of the publicans. ",
+				"<cite ref=\"Mishnah Nedarim 3:4\">Ned. III, 4</cite>; <cite ref=\"Tosefta Nedarim 2:2\">Tosef. ib. II, 2</cite>, v. <cite ref=\"N00239\"><he>נָדַר</he></cite>. ",
+				"<cite ref=\"Mishnah Shabbat 8:2\">Sabb. VIII, 2</cite> <he>נייר … קשר מ׳</he> paper large enough to write on it a tax-receipt (v. supra). ",
+				"<cite ref=\"Shevuot 39a:19\">Shebu. 39ᵃ</cite> <he>אין לך … כולה מ׳</he> there is no family in which there is a publican, whose members may not all be considered as publicans (in Jewish law); a. fr."
+			]
+		}
+	]
+}

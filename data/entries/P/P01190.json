@@ -1,0 +1,31 @@
+{
+	"id": "P01190",
+	"slug": "עקל-1",
+	"headword": {
+		"text": "עָקַל"
+	},
+	"page": {
+		"number": 1106,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"P00090\"><he>עגל</he></cite> a. <he>עקב</he>)<i>to be curved, round, twisted</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עִיקֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to curve</i>. Part. pass. <he>מְעוּקָּל</he>. ",
+					"units": [
+						"<cite ref=\"Sifrei Devarim 308\">Sifré Deut. 308</cite>; <cite ref=\"Yalkut Shimoni on Torah 942:36\">Yalk. ib. 942</cite> <he>מקל מע׳</he> a crooked staff."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

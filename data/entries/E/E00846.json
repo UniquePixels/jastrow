@@ -1,0 +1,24 @@
+{
+	"id": "E00846",
+	"slug": "הרורים",
+	"headword": {
+		"text": "הֲרוּרִים",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 366,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>הרר</he>, v. <cite ref=\"E00840\"><he>הִרְהֵר</he></cite>) <i>heating</i>, <he>מעשה ה׳</he> <i>unnatural gratification on a woman’s body</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 66b\">Snh. 66ᵇ</cite>, Resp. Gaon. ed. Cassel, p. 110; v. <cite ref=\"E00825\"><he>הִרְדּוּס</he></cite>, a. <cite ref=\"H00664\"><he>חִידּוּד</he></cite>."
+			]
+		}
+	]
+}

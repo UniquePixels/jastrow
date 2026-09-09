@@ -1,0 +1,22 @@
+{
+	"id": "P01237",
+	"slug": "ער-5",
+	"headword": {
+		"text": "עַר"
+	},
+	"page": {
+		"number": 1109,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. <cite ref=\"P01233\"><he>עָר</he></cite>) <i>ʿar</i>, name of a bird of prey, perh. <i>Lammergeyer</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Leviticus 11:13\">Targ. O. Lev. XI, 13</cite> (ed. Amst. <cite ref=\"P00114\"><he>עד</he></cite>; Targ. Y. <cite ref=\"P00218\"><he>עוזא</he></cite>; h. text <he>פרס</he>); <cite ref=\"Onkelos Deuteronomy 14:12\">Targ. O. Deut. XIV, 12</cite> (ed. Berl. <cite ref=\"P01233\"><he>עָר</he></cite>; Y. II <cite ref=\"P01344\"><he>עַרְיָא</he></cite>; ed. Amst. <cite ref=\"P00125\"><he>עַדְ׳</he></cite>)."
+			]
+		}
+	]
+}

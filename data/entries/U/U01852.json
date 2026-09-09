@@ -1,0 +1,30 @@
+{
+	"id": "U01852",
+	"slug": "שקי-4",
+	"headword": {
+		"text": "שֳׁקִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "שׁוֹקִי"
+		}
+	],
+	"page": {
+		"number": 1622,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01851\">preced.</cite>) <i>irrigation</i>; <he>של ש׳</he> (<he>שדה</he>) <i>a field requiring irrigation</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Shevi'it 2:4\">Tosef. Shebi. II, 4</cite> <he>בשל ש׳</he> in a field depending on irrigation, opp. <he>של בעל</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 16\">Num. R. s. 16<sup>25</sup></cite> <he>של שקי</he> (not <cite ref=\"U01894\"><he>שקר</he></cite>), v. <cite ref=\"B01055\"><he>בַּעַל</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 10:4:2\">Y. Ter. X, 47ᵇ</cite> top <he>כרוב של ש׳</he> (not <he>שקיא</he>) cabbage from an irrigated field. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 10:4:2\">Ib.</cite> bot.; a. fr."
+			]
+		}
+	]
+}

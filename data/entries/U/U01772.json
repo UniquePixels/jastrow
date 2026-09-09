@@ -1,0 +1,62 @@
+{
+	"id": "U01772",
+	"slug": "שפל-2",
+	"headword": {
+		"text": "שְׁפַל"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁפֵיל"
+		}
+	],
+	"page": {
+		"number": 1617,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01771\">same</cite>, <i>to fall down, go down</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 92b:7\">B. Kam. 92ᵇ</cite>; <cite ref=\"Megillah 14b:4\">Meg. 14ᵇ</cite> (prov.) <he>שפיל ואזיל בר אווזא וכ׳</he> the duck bends its head down in walking, and its eyes look all around (it follows two pursuits at the same time, v. <cite ref=\"Q01073\"><he>פִּלְכָא</he></cite>). ",
+				"<cite ref=\"Sanhedrin 7a:12\">Snh. 7ᵃ</cite> <he>ודיקולא שָׁפֵיל</he>, v. <cite ref=\"D00700\"><he>דִּיקוּלָא</he></cite>. ",
+				"<cite ref=\"Berakhot 10a:6\">Ber. 10ᵃ</cite> <he>שְׁפִיל לסיפיה דקרא</he> go to the end of the verse (in order to understand the whole of it); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַשְׁפֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to lower</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jerusalem, Leviticus 10:20\">Targ. Y. II, Lev. X, 20</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 25:7\">Targ. Prov. XXV, 7</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 29:23\">Ib. XXIX, 23</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to carry down, carry along</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 121a:13\">Yeb. 121ᵃ</cite> <he>גלי אַשְׁפְּלוּ</he> the waves may have carried (and landed him)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִשְׁתַּפֵּל"],
+			"senses": [
+				{
+					"gloss": "<i>to humble one’s self</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on I Samuel 2:36\">Targ. I Sam. II, 36</cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

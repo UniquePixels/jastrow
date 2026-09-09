@@ -1,0 +1,81 @@
+{
+	"id": "C01321",
+	"slug": "גרי-2",
+	"headword": {
+		"text": "גְּרִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּרָא"
+		}
+	],
+	"page": {
+		"number": 267,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C01320\">same</cite>.—Pa. <cite ref=\"C01351\"><he>גָּרֵי</he></cite> ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to incite, let loose</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 21:6\">Targ. Num. XXI, 6</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to let off, drive, thrust</i>. ",
+			"units": [
+				"<cite ref=\"Nazir 4b:18\">Naz. 4ᵇ</cite> <he>דילמא גָּרוּיֵי ג׳ בהו</he> perhaps he thrust (the jaw bone) at them (without touching them; Ar. a. Rashi: <he>גרדויי גרד וכ׳</he>, obviously for <he>גררויי גרר</he>, cmp. <he>גיררא</he>, v. Koh. Ar. Compl. s. v.). ",
+				"<cite ref=\"Taanit 25a:14\">Taan. 25ᵃ</cite> <he>אֲגָרֵי בך וכ׳</he>, v. <cite ref=\"C00806\"><he>גִּירָא</he> II</cite>. ["
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to drag</i> (cmp. <cite ref=\"C01392\"><he>גרר</he></cite>). ",
+			"units": [
+				"<cite ref=\"Niddah 36b:59\">Nidd. 36ᵇ</cite>, v. <cite ref=\"C00191\"><he>גְּדֵי</he></cite>.]"
+			],
+			"label": "3"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְגָּרֵי"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיגְּרֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to attack</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Deuteronomy 2:5\">Targ. Deut. II, 5</cite>; a. fr. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 13:4\">Targ. I Sam. XIII, 4</cite> (h. text <he>נבאש</he>!). [<cite ref=\"Aramaic Targum to Psalms 22:8\">Targ. Ps. XXII, 8</cite> ed. Lag., v. <cite ref=\"C01393\"><he>גְּרַר</he></cite>.]—",
+						"<cite ref=\"Eichah Rabbah 1:31\">Lam. R. to I, 5</cite> <he>מלכוותא מִתְגַּרְיָן בכון</he> kingdoms will attack you; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be let loose, hurled</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Deuteronomy 28:60\">Targ. Y. Deut. XXVIII, 60</cite>; a. e.—Y. Peah I, 16ᵃ top <he>הא דובא מִתְגַּרְיָא לך</he> that same temptation will be let loose &c., v. <cite ref=\"C01320\">preced.</cite> Hithpa."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to become impassionate, be hot with sexual passion</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 64a:9\">Snh. 64ᵃ</cite> <he>דלא מִיגְּרֵי איניש בקרובתיה</he> Ms. M. (ed. <cite ref=\"A00344\"><he>איגרו</he></cite>) that one does not fall in love with his nearest kindred. ",
+						"<cite ref=\"Avodah Zarah 22b:7\">Ab. Zar. 22ᵇ</cite> <he>כיון דמיגרי בה</he> because the animal will show his sexual desire by running after her (and thus betray her sin).—Denom. <cite ref=\"V00092\"><he>תִּגְרָא</he></cite>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

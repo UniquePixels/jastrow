@@ -1,0 +1,31 @@
+{
+	"id": "P01144",
+	"slug": "עקב-2",
+	"headword": {
+		"text": "עֲקַב"
+	},
+	"page": {
+		"number": 1104,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>עַקֵּב</he> <i>to trace, espy</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 23:30\">Targ. Prov. XXIII, 30</cite> <he>מְעַקְּבִין</he> ed. Lag. (ed. Wil. <he>מְעַקְּבֵי</he>; oth. ed. <he>מעקבא</he>, corr. acc.)."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

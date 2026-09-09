@@ -1,0 +1,27 @@
+{
+	"id": "U00621",
+	"slug": "שחון-1",
+	"headword": {
+		"text": "שַׁחְוָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "שָׁחוֹן"
+		}
+	],
+	"page": {
+		"number": 1545,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (cmp. Syr. <he>שחנה</he>, P. Sm. 4122) <i>chief of the town garrison, prefect</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 16\">Gen. R. s. 16</cite> Ar. (ed. <he>שיחין</he>, <he>שיחן</he>, <cite ref=\"U00863\"><he>שיחון</he></cite>), v. <cite ref=\"U00615\"><he>שַׁחְוַור</he></cite>; [Ar. <he>דבוק לש׳ ויִשְׁחוֹן לך</he> (v. <cite ref=\"U00676\"><he>שָׁחַן</he></cite>) stick to <i>one that is hot</i>, and thou shalt be hot]."
+			]
+		}
+	]
+}

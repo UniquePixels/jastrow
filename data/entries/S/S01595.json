@@ -1,0 +1,31 @@
+{
+	"id": "S01595",
+	"slug": "קנם",
+	"headword": {
+		"text": "קְנַם"
+	},
+	"page": {
+		"number": 1393,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " [<i>to make firm</i>, v. <cite ref=\"S00446\"><he>קוֹנָם</he></cite>, <cite ref=\"S01596\"><he>קִנָּמוֹן</he></cite>, <cite ref=\"S01028\"><he>קִינוּמָא</he></cite>.]",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַנֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to make a vow of abstinence by using the verb</i> <cite ref=\"S01595\"><he>קנם</he></cite> (as a substitute for <cite ref=\"S00446\"><he>קוֹנָם</he></cite>, itself a substitute for <cite ref=\"S01896\"><he>קָרְבָּן</he></cite>). ",
+					"units": [
+						"<cite ref=\"Nedarim 10b:7\">Ned. 10ᵇ</cite> <he>היכי דמי … מְקַנַּמְנָא וכ׳</he> like what are substitutes of substitutes of vows?… <i>M’ḳannamna, m’ḳannaḥna, m’ḳannasna</i>"
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

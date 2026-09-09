@@ -1,0 +1,27 @@
+{
+	"id": "P01452",
+	"slug": "ערקת",
+	"headword": {
+		"text": "עַרְקַת"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַרְקַת לִבְנָה"
+		}
+	],
+	"page": {
+		"number": 1123,
+		"column": "b"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>ʿArḳath Libnah</i>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 57b\">Bekh. 57ᵇ</cite> (Rashi <he>ע׳ לבינה</he>), v. <cite ref=\"A03234\"><he>אַרְקָא</he> II</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"id": "T00042",
+	"slug": "רב-3",
+	"headword": {
+		"text": "רַב"
+	},
+	"altHeadwords": [
+		{
+			"text": "רַבָּא"
+		}
+	],
+	"page": {
+		"number": 1438,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00041\">same</cite><i>large, great, numerous; senior</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 22:10\">Targ. Josh. XXII, 10</cite>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 1:28\">Targ. Y. Deut. I, 28</cite>. ",
+				"<cite ref=\"Onkelos Genesis 1:16\">Targ. Gen. I, 16</cite>. ",
+				"<cite ref=\"Onkelos Genesis 10:21\">Ib. X, 21</cite> (Y. ed. Vien. <cite ref=\"T00060\"><he>רַבָּה</he></cite>); a. fr.—[In Talmudic literature mostly <cite ref=\"T00060\"><he>רַבָּה</he></cite>, q. v.]"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>chief, master, teacher</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 22:14\">Targ. I Sam. XXII, 14</cite> (h. text <cite ref=\"O01508\"><he>סָר</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 37:36\">Targ. Gen. XXXVII, 36</cite> (Y. II <cite ref=\"U01313\"><he>שליטא</he></cite>; h. text <cite ref=\"O01620\"><he>סריס</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 37:36\">Ib.</cite> (h. text <cite ref=\"U01906\"><he>שַׂר</he></cite>). Ib. IV, 20, sq. ",
+				"<cite ref=\"Aramaic Targum to Job 3:18\">Targ. Job III, 18</cite> <he>ינקי בית ר׳</he> school children; a. fr.—",
+				"<cite ref=\"Targum of I Chronicles 11:22\">Targ. I Chr. XI, 22</cite>, v. <cite ref=\"O01426\"><he>סִפְרָא</he></cite>.—",
+				"<cite ref=\"Rosh Hashanah 31b:15\">R. Hash. 31ᵇ</cite> <he>לאו אירח … לרַבֵּיה רַבָּךְ</he> it is not customary to say to one’s own teacher, ‘thy teacher’ (has said &c.). ",
+				"<cite ref=\"Avodah Zarah 17b:9\">Ab. Zar. 17ᵇ</cite> <he>רַבָּן של וכ׳</he>, v. <cite ref=\"T00085\"><he>רַבִּי</he></cite>; a. fr.—בֵּי רַב <i>school, academy</i>. ",
+				"<cite ref=\"Sanhedrin 33b:7\">Snh. 33ᵇ</cite>, a. e. <he>זיל קרי בי רב הוא</he> this is a case when you may say, ‘go and learn it (in the Bible) at school’, i.e. an erroneous judgment of such a nature must be reversed. ",
+				"<cite ref=\"Eruvin 22a:2\">Erub. 22ᵃ</cite> <he>הוה קאזיל לבי רב</he> left home in order to study; a. fr.—V. <cite ref=\"B00536\"><he>בֵּי</he></cite>.—<i>Fem.</i> <cite ref=\"T00042\"><he>רַבָּא</he></cite>, <cite ref=\"T00151\"><he>רַבְּתָא</he></cite>, <cite ref=\"T00151\"><he>רַבְּתָה</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 48:34\">Targ. Jer. XLVIII, 34</cite>. ",
+				"<cite ref=\"Onkelos Genesis 27:34\">Targ. Gen. XXVII, 34</cite>. ",
+				"<cite ref=\"Onkelos Genesis 19:31\">Ib. XIX, 31</cite>; a. fr.—Pl. <cite ref=\"T00151\"><he>רַבָּתָא</he></cite>, <cite ref=\"T00151\"><he>רַבָּתָה</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:19\">Y. Snh. X, 29ᵃ</cite> top <he>אתה עבדת ר׳ וכ׳</he> (not <he>עברת</he>) thou (Doeg) hast done great things, turn thou around &c.—V. <cite ref=\"T00151\"><he>רַבְּתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

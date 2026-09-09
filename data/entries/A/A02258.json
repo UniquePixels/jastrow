@@ -1,0 +1,28 @@
+{
+	"id": "A02258",
+	"slug": "אננקתא",
+	"headword": {
+		"text": "אֲנַנְקָתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַנְקַקְתָּא",
+			"reconstructed": true
+		}
+	],
+	"page": {
+		"number": 86,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (= h. <cite ref=\"A02289\"><he>אֲנָקָה</he> II</cite>, <cite ref=\"N00030\"><he>נְאָקָה</he></cite>) <i>a full grown camel</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 118:14\">Midr. Till. to CIV, 24</cite> and the lion took pity on him (the dog), for she (the camel), (read <he>דהיא</he>) is a friend of the lion, <he>וכלבא סעדא דא׳</he> and the dog is a friend of the camel; <cite ref=\"Yalkut Shimoni on Nach 862:19\">Yalk. ib. 862</cite> <cite ref=\"A02930\"><he>אקנקיתא</he></cite>, <cite ref=\"A02930\"><he>אקניקתא</he></cite>, Zay. Raan. a. l. <cite ref=\"A02294\"><he>אַנְקִיתָא</he></cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "E00488",
+	"slug": "הירדוף",
+	"headword": {
+		"text": "הִירְדּוּף"
+	},
+	"altHeadwords": [
+		{
+			"text": "חַרְדּוּף"
+		}
+	],
+	"page": {
+		"number": 349,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>hirduf</i>, <i>ashrub</i> or <i>tree</i> with bitter and stinging leaves, supposed to be <i>rhododaphne</i>, <i>oleander</i> (v. P. Sm. 1050 <cite ref=\"E00826\"><he>הרדוף</he></cite>; Löw Pfl. p. 130). ",
+			"units": [
+				"<cite ref=\"Sukkah 32b:16\">Succ. 32ᵇ</cite> <he>ואימא הי׳</he> (Ms. M. 2 <cite ref=\"H00001\"><he>ח׳</he></cite>, v. Rabb. D. S. a. l. note 8) but might not <i>hirduf</i> be meant (by <i>ets aboth</i>, <cite ref=\"Leviticus 23:40\">Lev. XXIII, 40</cite>)?—",
+				"<cite ref=\"Pesachim 39a:11\">Pes. 39ᵃ</cite> <he>ואימא הי׳</he> might not <i>h</i>. he meant (by <i>m’rorim</i>, <cite ref=\"Exodus 12:8\">Ex. XII, 8</cite>)?"
+			]
+		}
+	]
+}

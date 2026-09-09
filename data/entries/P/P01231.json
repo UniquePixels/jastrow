@@ -1,0 +1,35 @@
+{
+	"id": "P01231",
+	"slug": "עקת",
+	"headword": {
+		"text": "עָקַת"
+	},
+	"altHeadwords": [
+		{
+			"text": "עַקְתָא"
+		},
+		{
+			"text": "עָקְתָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1109,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P00326\"><he>עוּק</he></cite>) <i>anguish, trouble, distress</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 18:8\">Targ. Ex. XVIII, 8</cite> (ed. Berl. <cite ref=\"P00063\"><he>עָ׳</he></cite>). ",
+				"<cite ref=\"Onkelos Genesis 42:21\">Targ. O. Gen. XLII, 21</cite> <cite ref=\"P01231\"><he>עֲקַת</he></cite> constr. (ed. Berl. <cite ref=\"P01231\"><he>עָקַת</he></cite>); a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 81:2\">Gen. R. s. 81</cite> (prov.) <he>בשעת ע׳ נדרא וכ׳</he> in the hour of trouble—a vow, in time of release—forgetting; Tanḥ. Vayishl. 8; <cite ref=\"Yalkut Shimoni on Torah 135:2\">Yalk. Gen. 135</cite> <he>בשעת עקת נדר</he> (corr. acc.); a. fr.—Pl. <he>עָקָן</he> (v. <cite ref=\"P01141\"><he>עָקָא</he></cite>), <cite ref=\"P01231\"><he>עָקָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 25:22\">Targ. Ps. XXV, 22</cite>.—",
+				"<cite ref=\"Midrash Tehillim 18:9\">Midr. Till. to Ps. XVIII, 5</cite> ed. Bub., v. <cite ref=\"Q01191\"><he>פְּנֵי</he> II</cite>."
+			]
+		}
+	]
+}

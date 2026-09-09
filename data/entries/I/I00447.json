@@ -1,0 +1,28 @@
+{
+	"id": "I00447",
+	"slug": "טירייסקי",
+	"headword": {
+		"text": "טִירְיַיסְקֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "טוּרְיַסְקֵי"
+		}
+	],
+	"page": {
+		"number": 534,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. name of a <i>Persian festival</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 11b:7\">Ab. Zar. 11ᵇ</cite> (v. Rabb. D. S. a. l. note); Y. ib. I, 39ᶜ <cite ref=\"V00510\"><he>תִּירְיַיסְקֵי</he></cite> a <i>Median festival</i>"
+			]
+		}
+	]
+}

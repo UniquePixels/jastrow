@@ -1,0 +1,29 @@
+{
+	"id": "A02414",
+	"slug": "אסטרטיג",
+	"headword": {
+		"text": "אִסְטַרְטֵיג"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְטַרְטֵיגָא"
+		}
+	],
+	"page": {
+		"number": 92,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (στρατήγιον) <i>camp, regular garrison</i> (= h. <he>מַצַּב</he>), contrad. to stragglers &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 13:23\">Targ. I Sam. XIII, 23</cite>; <cite ref=\"Targum Jonathan on I Samuel 14:1\">XIV, 1</cite>; <cite ref=\"Targum Jonathan on I Samuel 14:4\">4</cite>; <cite ref=\"Targum Jonathan on I Samuel 14:6\">6</cite>; <cite ref=\"Targum Jonathan on I Samuel 14:16\">16</cite>; a. e.—Pl. <he>אִסְטַרְטִיגִין</he>. ",
+				"<cite ref=\"Targum Jonathan on II Samuel 8:6\">Targ. II Sam. VIII, 6</cite> (h. text <he>נציבים</he>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 10:5\">Targ. I Sam. X, 5</cite> … <he>אִסְטַרְטִיגֵי</he> (constr.).—<he>גַיָּא</he> … <cite ref=\"Targum Jonathan on I Kings 4:5\">Targ. I Kings IV, 5</cite> <he>על א׳</he> chief of camps."
+			]
+		}
+	]
+}

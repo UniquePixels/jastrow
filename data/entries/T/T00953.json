@@ -1,0 +1,46 @@
+{
+	"id": "T00953",
+	"slug": "רפס-2",
+	"headword": {
+		"text": "רְפַס"
+	},
+	"page": {
+		"number": 1491,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T00952\">same</cite> <cite ref=\"Targum Jerusalem, Genesis 44:19\">Targ. Y. II, Gen. XLIV, 19</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 25:6\">Targ. Ez. XXV, 6</cite> (h. text <he>רקע</he>). ",
+				"<cite ref=\"Targum Jonathan on II Samuel 22:43\">Targ. II Sam. XXII, 43</cite>; a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַפֵּס"],
+			"senses": [
+				{
+					"gloss": "<i>to shake, shatter</i>. ",
+					"units": [
+						"<cite ref=\"Kiddushin 63b:12\">Kidd. 63ᵇ</cite> <he>הני שמעתתא דידי מְרַפְּסָן איגרי</he> these my traditions are apt to shatter roofs (are hard to understand)."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְרַפֵּס"],
+			"senses": [
+				{
+					"gloss": "<i>to tremble</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Ecclesiastes 12:4\">Targ. Koh. XII, 4</cite> <he>ויִתְרַפְּסוּן</he> (Levita <he>ויתרפשון</he>).—V. <cite ref=\"T00966\"><he>רְפַשׂ</he></cite>."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

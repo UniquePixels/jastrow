@@ -1,0 +1,55 @@
+{
+	"id": "U00033",
+	"slug": "שאלה",
+	"headword": {
+		"text": "שְׁאֵלָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׁאִי׳"
+		}
+	],
+	"page": {
+		"number": 1508,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U00030\"><he>שָׁאַל</he></cite>)<i>request</i>, esp. <i>sh’elah, prayer for rain</i>, inserted in the ninth section of the Prayer of Benedictions. ",
+			"units": [
+				"<cite ref=\"Mishnah Berakhot 5:2\">Ber. V, 2</cite> (<cite ref=\"Berakhot 33a:31\">33ᵃ</cite>), v. <cite ref=\"U00030\"><he>שָׁאַל</he></cite>. ",
+				"<cite ref=\"Berakhot 26b\">Ber. 26ᵇ</cite>; <cite ref=\"Berakhot 29a:24\">29ᵃ</cite> <he>טעה … ש׳ בברכת השנים</he> (v. Ms. M. in Rabb. D. S. a. l.) if by mistake … he omitted the prayer for rain in the ninth section; (Tosef. ib. III, 9 <he>ולא שאל את הגשמים</he>). ",
+				"<cite ref=\"Taanit 4b:11\">Taan. 4ᵇ</cite> <he>ש׳ לחוד והזכרה לחוד</he> prayer for rain is one thing, and reference to rain (in the second section) is another thing, v. <cite ref=\"E00298\"><he>הַזְכָּרָה</he></cite>. ",
+				"<cite ref=\"Taanit 2b:8\">Ib. 2ᵇ</cite> <he>משעה שמפסיק לש׳ וכ׳</he> when you cease to insert the prayer for rain, you must also cease to insert the reference to rain; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>question, problem</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 116a:12\">B. Kam. 116ᵃ</cite> <he>זו ש׳ היא</he> Ms. H. (ed. <he>וזו שאילה</he>) this is indeed a question (worth asking); <cite ref=\"Zevachim 30b:9\">Zeb. 30ᵇ</cite>; <cite ref=\"Zevachim 92b:20\">92ᵇ</cite>. ",
+				"<cite ref=\"Shabbat 31a:3\">Sabb. 31ᵃ</cite> <he>ש׳ גדולה שאלת</he> thou hast asked a great question; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (v. <cite ref=\"U00030\"><he>שָׁאַל</he></cite>, <i>Nif.</i>) <i>ritual question</i>, esp. <i>case of absolution from a vow brought before a scholar</i>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 11\">Num. R. s. 11<sup>3</sup></cite> <he>אם באת … על הדין ועל הש׳ וכ׳</he> when a woman comes to thee at college to ask concerning a law or a vow, consider her as if she were thy own daughter. ",
+				"<cite ref=\"Nedarim 60a:8\">Ned. 60ᵃ</cite> <he>צריך ש׳ לחכם</he> this requires absolution by a scholar. ",
+				"<cite ref=\"Nedarim 69a:3\">Ib. 69ᵃ</cite> <he>יש ש׳ בהקם</he> can absolution from confirmation be applied for? <cite ref=\"Nedarim 78a:5\">Ib. 78ᵃ</cite>; <cite ref=\"Bava Batra 120b:7\">B. Bath. 120ᵇ</cite> <he>יש ש׳ בהקדש</he> absolution from consecration of an object may eventually be had; <he>אין ש׳ וכ׳</he> is not admissible; a. fr.—Pl. <he>שְׁאֵלוֹת</he>, <cite ref=\"U00033\"><he>שְׁאֵי׳</he></cite>. ",
+				"<cite ref=\"Bereishit Rabbah 82:8\">Gen. R. s. 82</cite>; <cite ref=\"Yalkut Shimoni on Torah 136:1\">Yalk. ib. 136</cite> <he>שלש ש׳ אני וכ׳</he> I shall ask you three questions; if you answer them, it is right &c. ",
+				"<cite ref=\"Bereishit Rabbah 49:9\">Gen. R. s. 49</cite>, v. <cite ref=\"P01267\"><he>עִרְבּוּב</he></cite>; a. e."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " <cite ref=\"U00033\"><he>שְׁאֵלָה</he></cite> or <cite ref=\"U00033\"><he>שַׁאֲלָה</he></cite>, <i>loan</i>, v. <cite ref=\"U00025\"><he>שְׁאֵילָה</he></cite>.",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

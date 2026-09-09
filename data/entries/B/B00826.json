@@ -1,0 +1,24 @@
+{
+	"id": "B00826",
+	"slug": "בלוזמא",
+	"headword": {
+		"text": "בְּלוּזְמָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 171,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בלזם</he> = <he>בלסס</he>, <he>בסם</he>) <i>drinking of spiced wines</i>, whence (cmp. <cite ref=\"B01003\"><he>בָּסַם</he></cite>) <i>frolic, carousal</i>.—Pl. <he>בְּלוּזְמָאוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 12:5\">Lev. R. s. 12</cite> <he>והיו שם שתי ב׳</he> (<cite ref=\"Yalkut Shimoni on Nach 320:1\">Yalk. Jer. 320</cite> <cite ref=\"B00847\"><he>בלזמיות</he></cite>) two excessive rejoicings took place at the same time. [<cite ref=\"Bamidbar Rabbah 10:1\">Num. R. s. 10</cite> a. ",
+				"<cite ref=\"Midrash Mishlei 11\">Midr. Prov. to ch. XI</cite> have <cite ref=\"R00141\"><he>צהלה</he></cite>.]"
+			]
+		}
+	]
+}

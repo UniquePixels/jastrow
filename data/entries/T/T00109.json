@@ -1,0 +1,23 @@
+{
+	"id": "T00109",
+	"slug": "רביעתא",
+	"headword": {
+		"text": "רְבִיעֲתָא"
+	},
+	"page": {
+		"number": 1443,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. = h. <cite ref=\"T00101\"><he>רְבִיעָה</he></cite>, <i>rain</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 2:1:10\">Y. Taan. II, 65ᵇ</cite> top <he>ר׳ קדמיתא</he> the first rainfall. ",
+				"<cite ref=\"Bereishit Rabbah 13:16\">Gen. R. s. 13</cite>, end; a. e."
+			]
+		}
+	]
+}

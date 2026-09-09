@@ -1,0 +1,42 @@
+{
+	"id": "I00378",
+	"slug": "טימי-1",
+	"headword": {
+		"text": "טִימִי",
+		"homograph": 1
+	},
+	"page": {
+		"number": 532,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (τιμή, inflected like a native word; cmp. <cite ref=\"A00736\"><he>אוֹנִי</he> I</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>valuation, value, consideration</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 3:8\">Targ. Esth. III, 8</cite>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 20:19\">Targ. Y. Num. XX, 19</cite> <cite ref=\"I00371\"><he>טִימְהוֹן</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 31:10\">Targ. Prov. XXXI, 10</cite> <cite ref=\"I00371\"><he>טִימָהָא</he></cite> (missing in some eds.) her value.—Y. Peah I, 15ᵈ bot., a. fr. <he>דלית לה ט׳</he> invaluable (cmp. <cite ref=\"A01083\"><he>אֲטִימִיטוֹן</he></cite>). ",
+				"<cite ref=\"Bereishit Rabbah 2:2\">Gen. R. s. 2</cite>, beg., v. <cite ref=\"A00736\"><he>אוֹנִי</he> I</cite>. ",
+				"<cite ref=\"Kohelet Rabbah 11:9:1\">Koh. R. to XI, 9</cite> <he>אייתי ט׳ מה דאכלת</he> make payment for what thou hast eaten; a. fr.—Y. Shek. V, end, 49ᵇ [read:] <he>הא לך טִימִיתָהּ וזבין קופד</he> here is its price and buy a piece of meat for it. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 1:4:6\">Y. Taan. I, 64ᵇ</cite> bot. <he>טִימִיתֵיה</he> (not … <he>תי</he>) the money received for it; a. fr.—Also: <cite ref=\"I00382\"><he>טִימִין</he></cite> (accus. of τιμή). ",
+				"<cite ref=\"Targum Jonathan on Genesis 23:15\">Targ. Y. Gen. XXIII, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Esther 7:4\">Targ. Esth. VII, 4</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>dignity, object of worship</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:3:4\">Y. Ab. Zar. III, 42ᵈ</cite> <he>ט׳ דרומי</he> the figure of a Roman deity. [<cite ref=\"Targum Jonathan on Genesis 34:30\">Targ. Y. Gen. XXXIV, 30</cite>, v. <cite ref=\"I00296\"><he>טִיב</he> II</cite>.]"
+			],
+			"label": "2"
+		}
+	]
+}

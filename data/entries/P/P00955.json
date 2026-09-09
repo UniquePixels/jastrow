@@ -1,0 +1,27 @@
+{
+	"id": "P00955",
+	"slug": "ענובא",
+	"headword": {
+		"text": "עֲנוּבָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֲנוּבָא"
+		}
+	],
+	"page": {
+		"number": 1092,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P00941\"><he>עֲנַב</he></cite>) <i>loop, noose</i>.—Pl. <he>עֲנוּבִּין</he>, <he>עֲנוּבַּיָּא</he>, <he>עֲנוּב׳</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 26:4\">Targ. Ex. XXVI, 4</cite>, sq. (ed. Berl. <he>עֲנוּבּ׳</he>, Y. ed. <he>עֲנוּב׳</he>, also <he>עִנּוּב׳</he>); a. e."
+			]
+		}
+	]
+}

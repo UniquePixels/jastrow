@@ -1,0 +1,72 @@
+{
+	"id": "N00352",
+	"slug": "נוי-1",
+	"headword": {
+		"text": "נוי"
+	},
+	"altHeadwords": [
+		{
+			"text": "נָוָה",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 887,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be becoming, pleasing</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 47b:20\">Sot. 47ᵇ</cite>, a. e. <he>יִנְוֶה</he>, v. <cite ref=\"N00316\"><he>נָוֶה</he> II</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִנְוָה"],
+			"senses": [
+				{
+					"gloss": "<i>to beautify, adorn</i>. Y. Peah I, 15ᵇ (ref. to <cite ref=\"Exodus 15:2\">Ex. XV, 2</cite>) <he>וכי … לַנְווֹת את בוראו</he> is it possible for man to beautify his Maker?; Mekh. B’shall., Shir., s. 3 <he>להַנְווֹת קונו</he>; (<cite ref=\"Yalkut Shimoni on Torah 244:6\">Yalk. Ex. 244</cite> <he>להשוות לקונו</he>, v. infra).—2) <i>to equal, adapt one’s self to</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 133b:6\">Sabb. 133ᵇ</cite> (expl. <he>ואנוהו</he>, Ex. l. c.) <he>הוי דומה לו</he> be like Him; Mekh. l. c. <he>נדמה לו</he> let us be like Him. Yalk. l. c. <he>וכי … להשוות לקוני</he> is it possible for man to equal his Creator?"
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הִנָּוֶה"],
+			"senses": [
+				{
+					"gloss": "<i>to adorn one’s self</i>. Mekh. l. c. <he>אֶנָּוֶוה לפניו</he>, v. <cite ref=\"N00011\"><he>נָאָה</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["נִתְנַוֶּה"],
+			"senses": [
+				{
+					"gloss": "<i>to make one’s self handsome, to be vain</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sotah 1:8\">Sot. I, 8</cite> <he>אבשלום נ׳ בשערו</he> Y. ed. (Mish. a. Bab. ed. 9ᵇ <he>נתגאה</he>) Absalom was vain of his hair."
+					]
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["נִיָּיה"],
+			"senses": [
+				{
+					"gloss": "<i>to beautify</i>. Mekh. l. c. (ref. to <he>ואניהו</he>, v. supra) <he>נַיֶּינּוּ ושַׁבְּחוּ להב״ה וכ׳</he> beautify Him, and praise the Lord before all nations (Yalk. l. c. <he>אגיד נאותיו ושְׁבָחוֹ וכ׳</he>, v. <cite ref=\"N00010\"><he>נָאֶה</he></cite>).",
+					"units": []
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

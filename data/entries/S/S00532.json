@@ -1,0 +1,49 @@
+{
+	"id": "S00532",
+	"slug": "קוץ-7",
+	"headword": {
+		"text": "קוּץ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1339,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"S00531\">same</cite>. Targ. O. a. Y. I <cite ref=\"Numbers 13:23\">Num. XIII, 23</cite> (Y. II <he>קטעו</he>). Targ. O. ib. 24 (Y. <he>קציצו</he>); a. fr.—Part. <cite ref=\"S01116\"><he>קָיִץ</he></cite>, <cite ref=\"S00945\"><he>קָיִיץ</he></cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 10:3\">Targ. Jer. X, 3</cite>.—",
+				"<cite ref=\"Bava Metzia 107b:15\">B. Mets. 107ᵇ</cite> <he>נֵיקוּץ מר</he> cut the forest, sir (to allow a tow-path along the river). ",
+				"<cite ref=\"Bava Metzia 107b:16\">Ib.</cite> <he>קָיִיצְנָא</he>, v. infra; a. e. [<cite ref=\"Bava Metzia 107b:15\">Ib.</cite> <he>קוצו עילאי וכ׳</he>, v. infra].—Trnsf. (cmp. <cite ref=\"Q01350\"><he>פָּסַק</he></cite>) <i>to determine, agree, appropriate</i>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 5:15\">Targ. Y. Num. V, 15</cite> <he>דקָיִץ עלה וכ׳</he> (not <he>דקַיִץ</he>) for which he makes an appropriation in her behalf out of her property.—",
+				"<cite ref=\"Bava Metzia 67a:9\">B. Mets. 67ᵃ</cite> <he>לא קָץ ליה</he> he did not explicitly allow him the usufruct of the mortgaged property (<cite ref=\"M02910\"><he>מַשְׁכַּנְתָּא</he></cite>), v. <cite ref=\"S01132\"><he>קִיצוּתָא</he></cite>.—Part. pass. <cite ref=\"S01115\"><he>קִיץ</he></cite> q. v."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַיֵּיץ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S00531\">same</cite>. [Targ. Y. Num. l. c., v. supra.]—",
+					"units": [
+						"<cite ref=\"Bava Metzia 107b\">B. Mets. 107ᵇ</cite> <he>נִיקַיְּיצוּ עילאי</he> … <he>והדר ניקוץ אנא</he> Rashi (ed. <he>קוצו</he>, incorr.; Ms. M. <he>ניקצו … וקציינא</he>, fr. <cite ref=\"S01806\"><he>קְצֵי</he></cite>) let the owners of the upper and those of the lower parts of the forest cut (a path), and then I shall do likewise. ",
+						"<cite ref=\"Bava Metzia 107b:16\">Ib.</cite> <he>אי קיְּיצוּ קָיִיצְנָא וכ׳</he> had they cut (their part), I should cut, but as they have not, why should I? <cite ref=\"Bava Metzia 108a:3\">Ib. 108ᵃ</cite> <he>מאן קַיְּיצֵיה להאי לִיקּוֹץ ענפיה</he> Ms. H. (ed. <he>מַאן קַצְיֵיה תִּקּוֹץ וכ׳</he>) who ordered the cutting of this (my forest)? may his branch (offspring) be cut off; a. e."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִקּוֹץ"],
+			"senses": [
+				{
+					"gloss": " (fr. <cite ref=\"S01837\"><he>קְצַץ</he></cite>) <i>to be cut off</i>, v. supra.—V. <cite ref=\"S01837\"><he>קְצַץ</he></cite>, <cite ref=\"S01806\"><he>קְצִי</he></cite>.",
+					"units": []
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

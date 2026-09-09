@@ -1,0 +1,39 @@
+{
+	"id": "D00917",
+	"slug": "דן-1",
+	"headword": {
+		"text": "דָּן"
+	},
+	"page": {
+		"number": 314,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": " pr. n. m. <i>Dan</i>, son of Jacob. ",
+			"units": [
+				"<cite ref=\"Pesachim 4a:3\">Pes. 4ᵃ</cite> <he>מדן קאתי</he> he is a descendant of Dan; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " pr. n. pl. <i>Dan</i> in northern Palestine. Pesik. Shek. p. 15ᵃ <he>מזבח שבדן</he> the altar (erected by Jeroboam) in Dan.—",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Numbers 34:15\">Targ. Y. II, Num. XXXIV, 15</cite>. ",
+				"<cite ref=\"Aramaic Targum to Song of Songs 5:4\">Targ. Cant. V, 4</cite>; <cite ref=\"Pirkei DeRabbi Eliezer 27:3\">Pirké d’R. El. ch. XXVII</cite> expl. = <cite ref=\"Q01138\"><he>פמיאס</he></cite>, <i>Paneas;</i> Midr. Sam. ch. XXX; XXXII <he>דנה</he> (<cite ref=\"J00490\"><he>יען</he></cite>) <cite ref=\"Q01197\"><he>פנייס</he></cite>.—Y. Dem. II, 22ᶜ bot. <he>כְּפר דָּן</he>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " name of an idol <i>Dan</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 67b:3\">Sabb. 67ᵇ</cite>; <cite ref=\"Tosefta Shabbat 7:3\">Tosef. ib. VII</cite> (<cite ref=\"Tosefta Shabbat 8:3\">VIII</cite>), 3; Y. ib. VI, 8ᶜ bot. (ref. to <cite ref=\"Amos 8:14\">Am. VIII, 14</cite>)."
+			],
+			"label": "3"
+		}
+	]
+}

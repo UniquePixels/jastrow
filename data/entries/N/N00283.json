@@ -1,0 +1,33 @@
+{
+	"id": "N00283",
+	"slug": "נהרא-1",
+	"headword": {
+		"text": "נַהֲרָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 883,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", pr. n. <i>Nahăra</i> (v. <cite ref=\"N00282\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " בַּב נַ׳ <i>Bab Nahăra</i> (River Gate), name of a canal or bay containing salt water. ",
+			"units": [
+				"<cite ref=\"Sukkah 18a:14\">Succ. 18ᵃ</cite>; <cite ref=\"Avodah Zarah 39a:4\">Ab. Zar. 39ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " פּוּם נַ׳ <i>Pum Nahăra</i> (River Mouth), name of a town. ",
+			"units": [
+				"<cite ref=\"Kiddushin 72b:3\">Kidd. 72ᵇ</cite>, a. e., v. <cite ref=\"E00242\"><he>הוּמַנְיָא</he></cite>. ",
+				"<cite ref=\"Yevamot 17a:6\">Yeb. 17ᵃ</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

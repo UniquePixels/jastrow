@@ -1,0 +1,24 @@
+{
+	"id": "A03273",
+	"slug": "אשונא",
+	"headword": {
+		"text": "אָשׁוּנָא"
+	},
+	"page": {
+		"number": 127,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"A03271\"><he>אֱשׁוּן</he></cite>; v. <cite ref=\"A03332\"><he>אשן</he></cite>, <he>עשן</he>)<i>dense vapor, steam; vapor-room in the bath</i> (sudatio). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 4:4:4\">Y. Ned. IV, 38ᵈ</cite> top he who bathes in the small caldarium (v. Sm. Ant. s. v. Baths) <he>נסב א׳</he> takes away vapor (and does not benefit his fellow-bather by his presence). ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 8:2:5\">Y. Shebi. VIII, 38ᵃ</cite> top <he>אעלליה לי לא׳</he> take it up for me to the vapor-room. ",
+				"<cite ref=\"Bereishit Rabbah 33\">Gen. R. s. 33</cite>."
+			]
+		}
+	]
+}

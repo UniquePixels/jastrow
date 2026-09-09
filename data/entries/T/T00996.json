@@ -1,0 +1,28 @@
+{
+	"id": "T00996",
+	"slug": "רצף-2",
+	"headword": {
+		"text": "רְצַף"
+	},
+	"page": {
+		"number": 1495,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T00995\">same</cite><i>to join</i>.—Part. pass. <he>רָצִיף</he>; pl. <he>רְצִיפִין</he> (Hebr. <he>רְצוּ׳</he>). ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Leviticus 12:4\">Targ. Y. Lev. XII, 4</cite>, sq."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to weld by hammering</i>. ",
+			"units": [
+				"<cite ref=\"Zevachim 95a:3\">Zeb. 95ᵃ</cite> <he>דרָצֵיף ליה מִירְּצַף</he> Ms. M. (ed. <he>דרציף מרציף</he>) when he closes the hole up by hammering. ",
+				"<cite ref=\"Bereishit Rabbah 7:2\">Gen. R. s. 7</cite> <he>רְצוֹף רצפך וכ׳</he> hammer away thy hammering (strike me), for it is good for learning; [‘Rashi’: (the teacher saying to him that is punished) <i>pave</i> thy paving, i.e. lie down; v. <cite ref=\"T00995\"><he>רָצַף</he></cite>]."
+			],
+			"label": "2"
+		}
+	]
+}

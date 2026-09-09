@@ -1,0 +1,28 @@
+{
+	"id": "R00395",
+	"slug": "צינית-1",
+	"headword": {
+		"text": "צִינִּית",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "צִנִּית"
+		}
+	],
+	"page": {
+		"number": 1278,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (v. <cite ref=\"R00386\"><he>צִינָּא</he> I</cite>) <i>basket</i>. ",
+			"units": [
+				"<cite ref=\"Eichah Rabbah 1:52\">Lam. R. to I, 17</cite> <he>לאחד … מקל צ׳</he> like one who had nothing but a staff and a basket (with which he made a living)."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "K00033",
+	"slug": "כבד-4",
+	"headword": {
+		"text": "כָּבֵד",
+		"homograph": 2
+	},
+	"page": {
+		"number": 607,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00032\">preced.</cite> wds.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>weight, pressure</i>. ",
+			"units": [
+				"<cite ref=\"Chagigah 21a:4\">Ḥag. 21ᵃ</cite> <he>כְּבֵידוֹ של כלי</he> the pressure of the (inner) vessel. ",
+				"<cite ref=\"Sanhedrin 63b\">Snh. 63ᵇ</cite>; <cite ref=\"Megillah 25b:17\">Meg. 25ᵇ</cite> (sarcasm on <he>כבודו</he>, <cite ref=\"Hosea 10:5\">Hos. X, 5</cite>) <he>א״ת כְּבוֹדוֹ אלא כְּבֵידוֹ</he> (Ms. M. <he>כּוֹבְדוֹ</he>) read not ‘his dignity’ but ‘his weight’ for it is gone, i.e. the idol’s weight is reduced; <cite ref=\"Yalkut Shimoni on Nach 326\">Yalk. Is. 326</cite> <he>כְּבֵדוֹ</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>importance</i>, v. <cite ref=\"K00037\"><he>כָּבוֹד</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

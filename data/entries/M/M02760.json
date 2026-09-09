@@ -1,0 +1,74 @@
+{
+	"id": "M02760",
+	"slug": "מרק-1",
+	"headword": {
+		"text": "מָרַק"
+	},
+	"page": {
+		"number": 846,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; sec. r. of <he>רק</he>; cmp. <cite ref=\"M02273\"><he>מצהב</he></cite>, <cite ref=\"Targum of II Chronicles 4:16\">Targ. II Chr. IV, 16</cite>) <i>to brighten, cleanse</i> (metal); <i>to scour, scald</i>. Sifra Tsav, Par. 3, ch. VI; <cite ref=\"Mishnah Zevachim 11:6\">Zeb. XI, 6</cite> <he>מוֹרְקוֹ ושוטפו וכ׳</he> he must scour and rinse it &c.; <cite ref=\"Tosefta Zevahim 10:13\">Tosef. ib. X, 13</cite> <he>מוֹרְקָן</he> (not <he>מוריקן</he>); a. fr.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִמְרַק"],
+			"senses": [
+				{
+					"gloss": "<i>to be cleansed, purged</i>. ",
+					"units": [
+						"<cite ref=\"Avot D'Rabbi Natan 1\">Ab. d’R. N. ch. I</cite>, beg. <he>בשביל שיִמָּרֵק מכל וכ׳</he> that he might be cleansed of all the food and drink in his bowels.—[<cite ref=\"Tosefta Bava Batra 11:9\">Tosef. B. Bath. XI, 9</cite> <cite ref=\"M02760\"><he>נמרק</he></cite>, read: <cite ref=\"M00929\"><he>נִמְחַק</he></cite>]."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["מֵירֵק"],
+			"senses": [
+				{
+					"gloss": "<i>to polish up</i>. Koh. R. beg. <he>סיתתה ומֵירְקָהּ</he> he chiselled the stone and polished it, v. <cite ref=\"K01208\"><he>כִּרְכֵּם</he></cite>. ",
+					"units": [
+						"<cite ref=\"Shabbat 33a:10\">Sabb. 33ᵃ</cite> (ref. to <he>תמרוק</he>, <cite ref=\"Proverbs 20:30\">Prov. XX, 30</cite>) <he>המְמָרֵק עצמו וכ׳</he> he who polishes himself (makes toilet, prepares himself) for a sinful act; (Rashi: who makes himself free from all other thoughts, devoting himself entirely to sin, v. infra)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " (cmp. <he>מכה בפטיש</he>) <i>to finish</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Chullin 1:2\">Tosef. Ḥull. I, 2</cite> <he>ומ׳ הגוי וכ׳</he> and a gentile finished the slaughtering (by cutting farther than the ritual requires); (<cite ref=\"Chullin 121b\">Ḥull. 121ᵇ</cite> <he>גמר</he>); <cite ref=\"Mishnah Yoma 3:4\">Yoma III, 4</cite> <he>ומֵרַ׳</he>; <cite ref=\"Chullin 29a:23\">Ḥull. 29ᵃ</cite> <he>ומֵי׳</he>. ",
+						"<cite ref=\"Mishnah Tamid 4:2\">Tam. IV, 2</cite> <he>מ׳ את ההפשט</he> he finishes the flaying. ",
+						"<cite ref=\"Mishnah Mikvaot 10:1\">Mikv. X, 1</cite> <he>הכניסן … ולא מֵרְקָן</he> he inserted the handles properly but did not finish them off (by fastening &c.). Ohol. XIII, 3 <he>הגיפה ולא מֵירְקָהּ</he> he fitted the door in, but did not finish it off (so that it fitted accurately). Y. R. Hash. I, end, 57ᶜ, a. e. <he>מכיון שהתחיל … מָרֵק</he> inasmuch as he commenced the act, we say to him, finish it; a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to cleanse</i> from sin by suffering, <i>to remove sin, effect forgiveness</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 5a:18\">Ber. 5ᵃ</cite> <he>יסורין שמְמָרְקִין כל וכ׳</he> sufferings which cleanse the entire body of man; <cite ref=\"Berakhot 5a:19\">ib.</cite> <he>ממרקין כל עונותיו וכ׳</he> wash away all sins of man; <cite ref=\"Yalkut Shimoni on Torah 339\">Yalk. Ex. 339</cite>; <cite ref=\"Yalkut Shimoni on Torah 850\">Yalk. Deut. 850</cite>. ",
+						"<cite ref=\"Yoma 86a:8\">Yoma 86ᵃ</cite> <he>מיתה מְמָרֶקֶת</he> death finishes the atonement (v. supra); Y. Snh. X, 27ᶜ bot. <he>מיתה ממרקת שליש</he> death removes the last third of sins; a. fr.—Y. Keth. VI, beg. 30ᶜ (in mixed dict.) <he>ולא מְמָרֵק לה פורנה</he> and does not pay off the entire dowry.—",
+						"<cite ref=\"Shabbat 33a\">Sabb. 33ᵃ</cite>, v. supra."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הוּמְרַק"],
+			"senses": [
+				{
+					"gloss": "<i>to be washed off, cleansed</i>. ",
+					"units": [
+						"<cite ref=\"Sanhedrin 92a\">Snh. 92ᵃ</cite> <he>וה׳ סידו</he> Ar. s. v. <he>סר</he> 3, ed. Koh., v. <cite ref=\"M02443\"><he>מָקַק</he></cite> <i>Hof</i>"
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

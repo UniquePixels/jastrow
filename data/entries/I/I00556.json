@@ -1,0 +1,60 @@
+{
+	"id": "I00556",
+	"slug": "טמן-1",
+	"headword": {
+		"text": "טָמַן"
+	},
+	"page": {
+		"number": 540,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"I00555\">preced.</cite>) <i>to hide, store away, preserve</i>, esp. <i>to keep dishes warm</i> for the Sabbath. ",
+			"units": [
+				"<cite ref=\"Mishnah Shabbat 2:7\">Sabb. II, 7</cite> <he>טוֹמְנִין את החמין</he> you may put warm dishes in the chafing stove &c. ",
+				"<cite ref=\"Mishnah Shabbat 4:1\">Ib. IV, 1</cite>; a. fr.—",
+				"<cite ref=\"Mishnah Makhshirin 1:6\">Makhsh. I, 6</cite> <he>הטומן פירותיו וכ׳</he> if one hides his fruits in water against thieves.—",
+				"<cite ref=\"Kohelet Rabbah 10:8:1\">Koh. R. to X, 8</cite> <he>שהוא ט׳ וכ׳</he> that he buried it there; a. e.—Part. pass. <he>טָמוּן</he>. ",
+				"<cite ref=\"Bava Kamma 5b\">B. Kam. 5ᵇ</cite>, a. e. <he>נזקי ט׳ באש</he> damage caused to things hidden in a pile to which fire was set. ",
+				"<cite ref=\"Bereishit Rabbah 68\">Gen. R. s. 68</cite> <he>היה ט׳ וכ׳</he> he (Jacob) was hiding (before Esau) in the house of Eber; <cite ref=\"Megillah 17a:5\">Meg. 17ᵃ</cite> <he>מוּטְמָן</he> (Ms. M. <cite ref=\"I00556\"><he>נטמן</he></cite>, v. Rabb. D. S. a. l. note); a. fr."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִטְמָן"],
+			"senses": [
+				{
+					"gloss": "<i>to be hidden, to hide one’s self, to be stored up</i>. Ib. <he>שנ׳ בבית עבר</he>, v. supra. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 3\">Lev. R. s. 3</cite> <he>ויִטָּמְנוּ ד״ת בפיך</he> and the words of the Law shall be stored up in thy mouth. ",
+						"<cite ref=\"Pesikta Rabbati 4:1\">Pesik. R. s. 4</cite> <he>נ׳ במערה</he> sought protection in a cave; a. e."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִטְמִין"],
+			"senses": [
+				{
+					"gloss": "<i>to hide, keep</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 61b:13\">B. Kam. 61ᵇ</cite> <he>שדרכם להַטְמִין וכ׳</he> which it is customary to hide in the stack. ",
+						"<cite ref=\"Bava Metzia 61b\">B. Mets. 61ᵇ</cite> <he>לא יַטְמִין … במלח</he> he must not keep his weights in salt (by which they gain in weight); a. fr.—Part. pass. <he>מוּטְמָן</he>, v. supra."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to hide one’s self, lie in wait</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 79b:2\">B. Kam. 79ᵇ</cite> <he>ראוהו שה׳ וכ׳</he> if he has been seen hiding himself in the woods (waiting for a chance to steal)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

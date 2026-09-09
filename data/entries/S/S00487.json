@@ -1,0 +1,26 @@
+{
+	"id": "S00487",
+	"slug": "קו״ף",
+	"headword": {
+		"text": "קו״ף"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוֹף",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1337,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>Ḳof</i>, the nineteenth letter of the alphabet. ",
+			"units": [
+				"<cite ref=\"Mishnah Maaser Sheni 4:11\">Maas. Sh. IV, 11</cite> <he>המוצא כלי … ק׳ קרבן</he> if you find a vessel on which <i>Ḳof</i> is written, it indicates that the contents are consecrated. ",
+				"<cite ref=\"Shabbat 104a:7\">Sabb. 104ᵃ</cite> (in children’s conversations) <he>ק̇ ק̇דוש רי״ש ר̇</he> <i>Ḳof</i> intimates the Holy One, <i>Resh</i>, the wicked; <he>מ״ט … דק׳ מריש</he> why is the face of <i>Ḳof</i> turned away from <i>Resh</i> (why does <i>Resh</i> turn its back to <i>Ḳof</i>)? <cite ref=\"Shabbat 104a:7\">Ib.</cite> <he>תגיה דק׳</he> the crownlet on the <i>Ḳof</i>; a. e."
+			]
+		}
+	]
+}

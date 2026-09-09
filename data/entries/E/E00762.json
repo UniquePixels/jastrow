@@ -1,0 +1,25 @@
+{
+	"id": "E00762",
+	"slug": "הפרה",
+	"headword": {
+		"text": "הֲפָרָה"
+	},
+	"page": {
+		"number": 363,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"E00761\">preced.</cite>) <i>invalidation, declaring void;</i> also <i>absolution for cause</i> (v. <cite ref=\"E00957\"><he>הַתָּרָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Nedarim 10:8\">Ned. X, 8</cite> <he>הֲפָרַת נדרים כל היום</he> the right (of the father or the husband) to declare a vow void lasts the whole day on which it came to his notice (to sunset); Y. ib. 42ᵃ bot. <he>הפר נדרים מעת לעת</he> twenty four hours; <cite ref=\"Tosefta Nedarim 6:1\">Tosef. ib. VI, 1</cite>; <cite ref=\"Shabbat 157a:7\">Sabb. 157ᵃ</cite>.—",
+				"<cite ref=\"Nedarim 87b:1\">Ned. 87ᵇ</cite> <he>מה הקמה ממנו אף ה׳ ממנו</he> as the confirmation may be partial, so may the invalidation &c.; a. fr.—",
+				"<cite ref=\"Gittin 36a:1\">Gitt. 36ᵃ</cite> <he>אין לו ה׳</he> cannot be absolved from. ",
+				"<cite ref=\"Shevuot 29b:1\">Shebu. 29ᵇ</cite> top <he>כי היכי … ה׳</he> in order to make absolution impossible."
+			]
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "U01186",
+	"slug": "שכר-5",
+	"headword": {
+		"text": "שְׁכַר"
+	},
+	"page": {
+		"number": 1576,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"U01185\">same</cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["שַׁכֵּר"],
+			"senses": [
+				{
+					"gloss": "<i>to make drunk</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 12:1\">Lev. R. s. 12</cite> <he>אשקוניה ושַׁכְּרוּנֵיה וכ׳</he> they gave him drink, and made him drunk, and carried him out &c."
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִשְׁתַּכַּר"],
+			"senses": [
+				{
+					"gloss": "<i>to drink freely</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 9a\">Ber. 9ᵃ</cite> <he>אִשְׁתַּכּוּר בהלולא וכ׳</he> they drank freely at the wedding of &c. (and slept beyond the time of prayer)."
+					]
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

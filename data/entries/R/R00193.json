@@ -1,0 +1,28 @@
+{
+	"id": "R00193",
+	"slug": "צולאי",
+	"headword": {
+		"text": "צוּלָאֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "בֵּית צוּלָאֵי"
+		}
+	],
+	"page": {
+		"number": 1267,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.<i>inhabitants of Beth-Tsula</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Micah 1:11\">Targ. Mic. I, 11</cite> (Ms. <cite ref=\"R00478\"><he>צַלָּאֵי</he></cite>; h. text <he>בית האצל</he>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "H01055",
+	"slug": "חליף-2",
+	"headword": {
+		"text": "חַלִּיף"
+	},
+	"page": {
+		"number": 469,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"H01098\"><he>חָלַף</he></cite>) <i>sharp knife, slaughtering-knife</i>.—Pl. <he>חַלִּיפוֹת</he>.—<he>בית הח׳</he> the place in the Temple where the slaughtering knives were kept. ",
+			"units": [
+				"<cite ref=\"Mishnah Middot 4:7\">Midd. IV, 7</cite> (Talm. ed. <he>פת …</he>, corr. acc.); <cite ref=\"Yoma 36a:2\">Yoma 36ᵃ</cite> <he>מן בית הח׳ וכ׳</he> Ms. M. a. Ar. (ed. <he>מן הח׳</he>) inside of the knives’ cell."
+			]
+		}
+	]
+}

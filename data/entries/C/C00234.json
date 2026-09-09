@@ -1,0 +1,32 @@
+{
+	"id": "C00234",
+	"slug": "גדנפא",
+	"headword": {
+		"text": "גְּדָנְפָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גַּדְפָנָא"
+		}
+	],
+	"page": {
+		"number": 213,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גדף</he>, with inserted <cite ref=\"N00001\"><he>נ</he></cite>) <i>rim, enclosure</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 25:25\">Targ. O. Ex. XXV, 25</cite>, a. e. (ed. Berl. <he>גְּדֳ׳</he>, Y. <cite ref=\"C01201\"><he>גפוף</he></cite>, h. text <cite ref=\"M01851\"><he>מסגרת</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 43:13\">Targ. Ezek. XLIII, 13</cite>; <cite ref=\"Targum Jonathan on Ezekiel 43:17\">17</cite> (h. text <cite ref=\"C00055\"><he>גבול</he></cite>).—",
+				"<cite ref=\"Sukkah 20b:3\">Succ. 20ᵇ</cite> <he>דאית ליה ג׳</he> (Ms. M. <cite ref=\"C00234\"><he>גדפנא</he></cite>, Ar. <cite ref=\"C00239\"><he>גדפא</he></cite>) when the matting has a rim (so as to be used as a receptacle for fruits). ",
+				"<cite ref=\"Avodah Zarah 76a\">Ab. Zar. 76ᵃ</cite>; <cite ref=\"Avodah Zarah 76b:1\">76ᵇ</cite> <he>אהדר ליה ג׳ דלישא</he> made a rim of dough around the kettle.—Pl. <he>גְּדַנְפִין</he>, <cite ref=\"C00234\"><he>גְּדָנְפַיָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 7:28\">Targ. I Kings VII, 28</cite> sq. ",
+				"<cite ref=\"Targum Jonathan on II Kings 16:17\">Targ. II Kings XVI, 17</cite>.  v. <cite ref=\"C00239\"><he>גַּדְפָא</he></cite>."
+			]
+		}
+	]
+}

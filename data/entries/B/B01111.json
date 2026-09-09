@@ -1,0 +1,31 @@
+{
+	"id": "B01111",
+	"slug": "בקא-1",
+	"headword": {
+		"text": "בַּקָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בַּקְּתָא"
+		}
+	],
+	"page": {
+		"number": 185,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>בקק</he> <i>to enter into, search</i>, v. P. Sm. 573; cmp. <cite ref=\"B00641\"><he>בִּינָא</he> III</cite>, <cite ref=\"B00650\"><he>בִּינִיתָא</he></cite> a. <cite ref=\"Q02094\"><he>פִּשְׁפָּשׁ</he></cite>) <i>gnat</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 58b:2\">Ḥull. 58ᵇ</cite> <he>לית ב׳ בר יומא</he> no gnat lives an entire day. ",
+				"<cite ref=\"Chullin 58b:2\">Ib.</cite> <he>תלו ליה לב׳ וכ׳</he> they suspended on the gnat’s proboscis sixty &c. ",
+				"<cite ref=\"Chullin 58b:2\">Ib.</cite> <he>אמראי בקת׳ לבקא</he> Ar. (ed. <he>אמרא ב׳ מבקא</he>) the she-gnat quarrelled with the he-gnat, v. <cite ref=\"M02651\"><he>מרי</he></cite>.—Pl. <he>בַּקֵּי</he>. ",
+				"<cite ref=\"Sukkah 26a:8\">Succ. 26ᵃ</cite> <he>משום ב׳</he> on account of the gnats. ",
+				"<cite ref=\"Shabbat 77b:9\">Sabb. 77ᵇ</cite>, v. <cite ref=\"K01311\"><he>כַּשְׁכֵּשׁ</he></cite>."
+			]
+		}
+	]
+}

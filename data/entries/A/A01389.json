@@ -1,0 +1,27 @@
+{
+	"id": "A01389",
+	"slug": "אינמירינון",
+	"headword": {
+		"text": "אֶינְמִירִינוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֶינְמְרִנוֹן"
+		}
+	],
+	"page": {
+		"number": 52,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a contraction of ἔλαιον μύῤῥινον; cmp. <cite ref=\"A02223\"><he>אניגרון</he></cite> as to <cite ref=\"N00001\"><he>נ</he></cite> for <cite ref=\"L00000\"><he>ל</he></cite>) <i>unguent scentedwith Arabian myrtle</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 4:14\">Cant. R. to IV, 14</cite>. [Muss. οἶνος μυρίνης; but the context requires an unguent.]"
+			]
+		}
+	]
+}

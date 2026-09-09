@@ -1,0 +1,44 @@
+{
+	"id": "C00238",
+	"slug": "גדף-2",
+	"headword": {
+		"text": "גְּדַף"
+	},
+	"page": {
+		"number": 214,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch.,",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"C00237\">same</cite>, <i>to blaspheme</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Kings 21:13\">Targ. I Kings XXI, 13</cite>; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:7:9\">Y. M. Kat. III, 83ᵇ</cite>; <cite ref=\"Jerusalem Talmud Sanhedrin 7:8:8\">Y. Snh. VII, 25ᵇ</cite> top."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with <cite ref=\"B00000\"><he>ב</he></cite>) <i>to sneer at</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 40b\">Snh. 40ᵇ</cite>; <cite ref=\"Avodah Zarah 35a\">Ab. Zar. 35ᵃ</cite> … <he>מְגַדֵּף בה ר׳</he> R. … sneered at the opinion."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>גַּדֵּיף</he> ",
+					"units": []
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "K00348",
+	"slug": "כופרא-3",
+	"headword": {
+		"text": "כּוּפְרָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 624,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B01124\"><he>כפר</he></cite>) <i>the inflorescence of palms, a spike covered with numerous flowers, and enveloped by one or more sheathing bracts called spathes</i> (v. Cyclop. Brit. s. v. Palm, a. Löw Pfl. p. 118); <i>the date-berry in its early stage</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 56a:4\">Pes. 56ᵃ</cite> <he>מנהי כ׳ דיכרא וכ׳</he> (for fertilization) they put the male flower (scatter the pollen) over the female tree. ",
+				"<cite ref=\"Bava Kamma 59b:3\">B. Kam. 59ᵇ</cite> <he>האי מאן דקץ כ׳ וכ׳</he> if one cuts a date flower what damages has he to pay?—",
+				"<cite ref=\"Sukkah 32a:11\">Succ. 32ᵃ</cite> <he>ואימא כ׳</he> perhaps (<cite ref=\"Leviticus 23:40\">Lev. XXIII, 40</cite>) the spike is meant?—",
+				"<cite ref=\"Berakhot 36b:7\">Ber. 36ᵇ</cite> <he>בכ׳</he> in the early stage of the berry.—Pl. <cite ref=\"K00351\"><he>כּוּפְרֵי</he></cite>. ",
+				"<cite ref=\"Pesachim 52b\">Pes. 52ᵇ</cite> (Ms. M. sing.), v. <cite ref=\"K01036\"><he>כָּפְנִי</he></cite>.—",
+				"<cite ref=\"Ketubot 10a:9\">Keth. 10ᵃ</cite> <he>אסבוהו כ׳</he>, v. <cite ref=\"O00029\"><he>סְבָא</he></cite>. [<cite ref=\"Jerusalem Talmud Sheviit 2:6:2\">Y. Shebi. II, 34ᵃ</cite> bot. <he>כופריא</he>, v. next w.]"
+			]
+		}
+	]
+}

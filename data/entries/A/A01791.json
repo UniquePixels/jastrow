@@ -1,0 +1,35 @@
+{
+	"id": "A01791",
+	"slug": "אלו-1",
+	"headword": {
+		"text": "אֵלּוּ"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֵילּוּ"
+		}
+	],
+	"page": {
+		"number": 67,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " c. pl. (b. h. , q. v.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>these, the following</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Bava Metzia 2:1\">B. Mets. II, 1</cite>; a. v. fr.—א׳ וא׳ <i>both</i>. ",
+				"<cite ref=\"Mishnah Zevachim 5:2\">Zeb. V, 2</cite>; a. v. fr. *["
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (interrog.) <i>which?</i> <cite ref=\"Pesikta Rabbati 29:1\">Pesik. R. s. 29</cite> (—30, ed. Friedm. p. 138ᵇ) <he>לאילו נאמין</he> in which of them shall we trust? Pesik. Naḥămu p. 127ᵇ sq.; <cite ref=\"Yalkut Shimoni on Nach 307\">Yalk. Is. 307</cite> <he>לאי זה</he>, <he>לאיזו</he>.]",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

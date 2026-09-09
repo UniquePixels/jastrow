@@ -1,0 +1,24 @@
+{
+	"id": "M00999",
+	"slug": "מטלא-1",
+	"headword": {
+		"text": "מַטְּלָא"
+	},
+	"page": {
+		"number": 767,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m., constr. <cite ref=\"M00998\"><he>מַטַּל</he></cite> (v. <cite ref=\"M00982\"><he>מַטּוּל</he> III</cite>) <i>imposed destiny, burden of prophecy</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 13:1\">Targ. Is. XIII, 1</cite> (h. text <cite ref=\"M02796\"><he>מַשָּׂא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on II Kings 9:25\">Targ. II Kings IX, 25</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 21:1\">Targ. Is. XXI, 1</cite> (Kimḥi <he>מַטְלַן</he>, v. <cite ref=\"M01013\"><he>מַטְלָנָא</he></cite>; Rashi <cite ref=\"M00979\"><he>מטול</he></cite>); a. fr."
+			]
+		}
+	]
+}

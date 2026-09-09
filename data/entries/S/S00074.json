@@ -1,0 +1,24 @@
+{
+	"id": "S00074",
+	"slug": "קבלן-1",
+	"headword": {
+		"text": "קַבָּלָן",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1310,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>קְבַל</he> I) <i>guards receiving signals from one another, signal stations</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 6:7:2\">Y. Yoma VI, end, 44ᵃ</cite> (expl. <he>דידכיות</he>, v. <cite ref=\"D00493\"><he>דִּידְכֵי</he></cite>)."
+			]
+		}
+	]
+}

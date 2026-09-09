@@ -1,0 +1,30 @@
+{
+	"id": "H01257",
+	"slug": "חנווני",
+	"headword": {
+		"text": "חֶנְוָונִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "חֶנְוָנִי"
+		}
+	],
+	"page": {
+		"number": 481,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"H01271\"><he>חָנוּת</he></cite>) <i>shop-keeper, salesman; tavern-keeper</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Shevuot 7:1\">Shebu. VII, 1</cite> <he>והח׳ על פנקסו</he> and the store-keeper swears to the correctness of his book account. ",
+				"<cite ref=\"Mishnah Kiddushin 4:14\">Kidd. IV, 14</cite> <he>רועה וח׳</he> the trade of a shepherd or tavern-keeper; Y. ib. 66ᶜ; <cite ref=\"Tractate Soferim 15:10\">Treat. Sof’rim XV, 10</cite>; a. fr.—Pl. <cite ref=\"H01257\"><he>חֶנְוָונִים</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Moed Katan 3:5:8\">Y. M. Kat. III, 82ᵇ</cite> bot. <he>שני ח׳</he> two shop-keepers (in the same shop).—<i>Fem.</i> <cite ref=\"H01257\"><he>חֶנְוָונִית</he></cite>. ",
+				"<cite ref=\"Mishnah Ketubot 9:4\">Keth. IX, 4</cite> … <he>המושיב ח׳</he> if one appoints his wife to be his sales-woman."
+			]
+		}
+	]
+}

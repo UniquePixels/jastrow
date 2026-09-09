@@ -1,0 +1,26 @@
+{
+	"id": "P00837",
+	"slug": "עלעל-3",
+	"headword": {
+		"text": "עִלְעֵל"
+	},
+	"altHeadwords": [
+		{
+			"text": "עֵו׳",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 1085,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (transpos. of <he>לעלע</he>, reduplic. of <cite ref=\"L00298\"><he>לוע</he></cite>; cmp. <he>געגע</he>) <i>to sip</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 22b:6\">Ḥull. 22ᵇ</cite> <he>משיְעַלְעֲלוּ</he> Ar. (ed. <he>משיְעַלְעוּ</he>) when they are old enough to sip (expl. ",
+				"<cite ref=\"Chullin 22b:6\">ib.</cite> by ref. to <he>יעלעו</he>, <cite ref=\"Job 39:30\">Job XXXIX, 30</cite>; misinterpreted by Abayi, as if fr. <cite ref=\"P00830\"><he>עִלְעָא</he></cite>, <i>to bleed from the side</i>, when the wing is severed); Tosef. ib. I, 15 <he>מששלעלו</he> ed. Zuck., read with Var. <he>משעִילְעֲלוּ</he>."
+			]
+		}
+	]
+}

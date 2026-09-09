@@ -1,0 +1,27 @@
+{
+	"id": "B00502",
+	"slug": "בטט",
+	"headword": {
+		"text": "בְּטַט"
+	},
+	"page": {
+		"number": 156,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (√<he>בט</he>) ",
+			"units": []
+		},
+		{
+			"gloss": " (v. <cite ref=\"B00504\"><he>בטי</he></cite>) <i>to swell, burst forth; to shine</i>. Denom. <cite ref=\"B00227\"><he>בּוֹטֵט</he></cite>, <cite ref=\"B00228\"><he>בּוֹטְטָא</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": " (= √<cite ref=\"Q01418\"><he>פץ</he></cite>, cmp. <he>בדד</he>) <i>to tread, to dash to pieces</i>. Denom. <cite ref=\"B00507\"><he>בְּטִיטָא</he></cite>.—Cmp. <cite ref=\"B00534\"><he>בְּטַשׁ</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

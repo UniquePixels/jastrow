@@ -1,0 +1,35 @@
+{
+	"id": "M00525",
+	"slug": "מומר",
+	"headword": {
+		"text": "מוּמָר"
+	},
+	"page": {
+		"number": 744,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (part. <i>Hof.</i> of <cite ref=\"M00602\"><he>מוּר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>exchanged</i>, v. <cite ref=\"M00602\"><he>מוּר</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>converted, apostate</i>, esp. <i>mumar, an open opponent of Jewish law, non-conformist</i>. [Our w. interchanges with <cite ref=\"M02832\"><he>מְשׁוּמָּד</he></cite> in eds. a. mss.] <cite ref=\"Chullin 4b:5\">Ḥull. 4ᵇ</cite> <he>אפי׳ ישראל מ׳</he> even a non-observant Israelite; <cite ref=\"Tosefta Chullin 1:1\">Tosef. ib. I, 1</cite> <cite ref=\"M02832\"><he>משומד</he></cite> ed. Zuck. (Var. <he>מ׳</he>). Ḥull. l. c. <he>מ׳ לערלות</he> opposed to circumcision; <he>מ׳ לאותו דבר</he> opposed to this one practice (of slaughtering according to ritual); ib. <he>הוי מ׳ לכל התורה כולה</he> is considered as a rebel against the entire Law; ib. <he>מ׳ לע״א</he> accused of idolatry. Ib. 5ᵃ <he>המ׳ ומנסך וכ׳</he>, expl. ib. <he>מ׳ לנסך וכ׳</he> one accused of idolatrous libation &c. ",
+			"units": [
+				"<cite ref=\"Eruvin 69a:10\">Erub. 69ᵃ</cite>, v. <cite ref=\"C00729\"><he>גִּילּוּי</he></cite>. ",
+				"<cite ref=\"Avodah Zarah 26b:9\">Ab. Zar. 26ᵇ</cite> <he>לתיאבון מ׳ להכעיס וכ׳</he> if eating unslaughtered flesh (<he>נבילות</he>) to gratify his appetite, he is called a <i>mumar</i>; if he does it in a spirit of defiance, he is called a <i>min</i> (heretic). ",
+				"<cite ref=\"Avodah Zarah 26b:4\">Ib.</cite> (oth. opin.) <he>אפי׳ להכעיס נמי מ׳</he> even if in defiance, he is only a <i>mumar</i>; <cite ref=\"Horayot 11a:9\">Hor. 11ᵃ</cite>; a. v. fr.—Pl. <he>מוּמָרִים</he>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 434:5\">Yalk. Lev. 434</cite>, quoted fr. Sifra Vayikra, N’dabah, ch. II, s. 2 (ed. <he>משומדים</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"id": "M01433",
+	"slug": "מכפלה",
+	"headword": {
+		"text": "מַכְפֵּלָה"
+	},
+	"page": {
+		"number": 784,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"K01026\"><he>כָּפַל</he></cite>)<i>doubling, coupling</i>. ",
+			"units": [
+				"<cite ref=\"Eruvin 53a:5\">Erub. 53ᵃ</cite> <he>היינו מ׳</he> that is the reason why it is called ‘double cave’. ",
+				"<cite ref=\"Eruvin 53a:5\">Ib.</cite> <he>מאי מ׳</he> why is it called &c.?—",
+				"<cite ref=\"Bereishit Rabbah 98:3\">Gen. R. s. 98</cite> <he>שמע ישראל אבינו ממערת המ׳</he> hear, oh Israel, our father of the double cave!; a. e."
+			]
+		}
+	]
+}

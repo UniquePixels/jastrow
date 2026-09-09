@@ -1,0 +1,23 @@
+{
+	"id": "K01163",
+	"slug": "כריכא-1",
+	"headword": {
+		"text": "כְּרִיכָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 667,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K01186\"><he>כְּרַךְ</he></cite>) <i>winding; rounded</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 50b\">B. Kam. 50ᵇ</cite> (v. Rabb. D. S. a. l. note 6); <cite ref=\"Yalkut Shimoni on Torah 341:16\">Yalk. Ex. 341</cite>."
+			]
+		}
+	]
+}

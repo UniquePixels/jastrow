@@ -1,0 +1,82 @@
+{
+	"id": "S01567",
+	"slug": "קני-2",
+	"headword": {
+		"text": "קְנֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "קְנָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 1391,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch., v. infra.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קַנֵּי"],
+			"senses": [
+				{
+					"gloss": "<i>to be zealous for; to be jealous; to suspect of unfaithfulness</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 11:29\">Targ. Num. XI, 29</cite>. ",
+						"<cite ref=\"Onkelos Numbers 25:11\">Ib. XXV, 11</cite>. ",
+						"<cite ref=\"Onkelos Genesis 30:1\">Targ. Gen. XXX, 1</cite>. ",
+						"<cite ref=\"Onkelos Numbers 5:14\">Targ. Num. V, 14</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make jealous</i>. Targ. II Esth. II, 19 <he>קַנְּאָהּ וכ׳</he> (ed. <cite ref=\"S01511\"><he>קָנְאָה</he></cite>, ed. Vien. <he>קָנְאָתָּהּ</he>) make her jealous by marrying other wives.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to warn one’s wife</i>. ",
+					"units": [
+						"<cite ref=\"Sotah 2b:23\">Sot. 2ᵇ</cite> <he>זמנין דלא ק׳ ואמר קַנָּאִי</he> it may happen that he did not warn her and yet he may declare, I did warn her. ",
+						"<cite ref=\"Sotah 2b:29\">Ib.</cite> <he>וכ״ע ידעי דק׳ לה</he> and all will know that he did warn her; a. fr."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אַקְנֵי"],
+			"senses": [
+				{
+					"gloss": "<i>to make jealous; to provoke</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Psalms 78:58\">Targ. Ps. LXXVIII, 58</cite>. ",
+						"<cite ref=\"Targum Jonathan on I Samuel 1:6\">Targ. I Sam. I, 6</cite>, v. <cite ref=\"A02927\"><he>אַקְנָיוּתָא</he></cite>. ",
+						"<cite ref=\"Onkelos Deuteronomy 32:16\">Targ. Deut. XXXII, 16</cite> (Y. I <cite ref=\"S01544\"><he>קְנוֹן</he></cite>, read: <cite ref=\"S01544\"><he>קַנּוֹן</he></cite>). Ib. 21; a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִיקְּנֵי", "אִקְּ׳"],
+			"senses": [
+				{
+					"gloss": "<i>to be jealous, incensed</i>. ",
+					"units": [
+						"<cite ref=\"Megillah 16a\">Meg. 16ᵃ</cite> <he>אי׳ בה … א׳ בי וכ׳</he> he (Haman) had a grudge against Vashti and put her to death, and now he has a grudge against me &c. ",
+						"<cite ref=\"Megillah 13a:1\">Ib. 13ᵃ</cite> <he>דמִיקְּנֵי ביה המן</he> against whom Haman was enraged. ",
+						"<cite ref=\"Megillah 19a:15\">Ib. 19ᵃ</cite> <he>מה … דאי׳ וכ׳</he> what reason had Mordecai to be hostile to Haman?; a. e."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

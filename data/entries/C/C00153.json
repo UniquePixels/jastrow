@@ -1,0 +1,29 @@
+{
+	"id": "C00153",
+	"slug": "גד-3",
+	"headword": {
+		"text": "גַּד",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "גָּדָד"
+		}
+	],
+	"page": {
+		"number": 209,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00166\"><he>גדד</he></cite>, cmp. <cite ref=\"H00168\"><he>חד</he></cite>) [<i>cutting</i>,] <i>bitter, acrid</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 5:9\">Ex. R. s. 5</cite> (ref. to <cite ref=\"Numbers 11:7\">Num. XI, 7</cite>) <he>מר וגד</he> bitter and acrid. Targ. B’shall., ed. Bub. 21 <he>גד ולענה</he> (read <he>כלענה</he>; <cite ref=\"Yalkut Shimoni on Torah 258:2\">Yalk. Ex. 258</cite> <he>מר כלע׳</he>).—Pl. <he>גַּדִּים</he>, <cite ref=\"C00211\"><he>גַּדִּין</he></cite>, <he>גְּדָדִין</he>. ",
+				"<cite ref=\"Bereishit Rabbah 71:9\">Gen. R. s. 71</cite> (play on <i>Gaddi</i>, <cite ref=\"Numbers 13:11\">Num. XIII, 11</cite>) [read:] <he>גְּדָדִין ומררין</he> acrid and bitter (people); <cite ref=\"Yalkut Shimoni on Torah 126:3\">Yalk. Gen. 126</cite> <he>כגידין מררין</he>, v. <cite ref=\"C00629\"><he>גִּידָּא</he> II</cite>; Yalk. Ezra 1067 <he>בר גדי</he> (corr. acc.). [<cite ref=\"C00211\"><he>גדין</he></cite>, <cite ref=\"Targum Jonathan on Numbers 22:7\">Targ. Y. Num. XXII, 7</cite> Ar. s. v. <cite ref=\"C00211\"><he>גדין</he></cite>, read <he>אִגְּרִין</he>.]"
+			]
+		}
+	]
+}

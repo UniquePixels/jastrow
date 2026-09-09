@@ -1,0 +1,44 @@
+{
+	"id": "T00878",
+	"slug": "רעד-2",
+	"headword": {
+		"text": "רְעַד"
+	},
+	"page": {
+		"number": 1486,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"T00877\">same</cite> <cite ref=\"Targum Jerusalem, Genesis 44:19\">Targ. Y. II, Gen. XLIV, 19</cite>.—Y. Taan. II, beg. 65ᵃ <he>כל זמן … הוה גופי רָעֵד</he> whenever I saw them do that, my body trembled; (Bab. ",
+			"units": [
+				"<cite ref=\"Taanit 16a:5\">ib. 16ᵃ</cite> <he>מזדעזע לי כולי גופאי</he>). ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:20\">Y. Snh. X, 29ᵃ</cite> bot. <he>רַעֲדת ארעא וכ׳</he> the earth shook and sank."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַעֵד"],
+			"senses": [
+				{
+					"gloss": "<i>to shake</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Nahum 3:12\">Targ. Nah. III, 12</cite>.—[Y. Snh. X, 27ᵈ bot. <he>מרעדא</he>, quot. in Levy Talm. Dict., v. <cite ref=\"T00921\"><he>רערע</he></cite>.]"
+					]
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְרַעִד"],
+			"senses": [
+				{
+					"gloss": "<i>to be shaken, tremble</i>. Targ. II Esth. I, 2.",
+					"units": []
+				}
+			],
+			"stem": "Ithpa."
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "C00013",
+	"slug": "גאותא",
+	"headword": {
+		"text": "גֵּאוּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גֵּיאוּתָא"
+		}
+	],
+	"page": {
+		"number": 202,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"C00015\"><he>גאי</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>haughtiness</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 8:13\">Targ. Prov. VIII, 13</cite> (Ms. <cite ref=\"C00606\"><he>גֵּיאיוּתָא</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>loftiness</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 15:1\">Targ. O. Ex. XV, 1</cite>; <cite ref=\"Onkelos Exodus 15:21\">21</cite> Var., v. <cite ref=\"C00672\"><he>גֵּיוְתָא</he></cite>."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"id": "V01007",
+	"slug": "תרך",
+	"headword": {
+		"text": "תְּרַךְ"
+	},
+	"page": {
+		"number": 1699,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"I00794\"><he>טָרֵיךְ</he></cite>) <i>to run about, be excited</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["תָּרֵיךְ", "תַּרֵיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to drive out, divorce, banish</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Genesis 3:24\">Targ. O. Gen. III, 24</cite> (ed. Vien. <cite ref=\"V01007\"><he>תָּרַךְ</he></cite>; Y. <cite ref=\"I00712\"><he>טרד</he></cite>). Targ. Y. ib. 23. ",
+						"<cite ref=\"Onkelos Exodus 11:1\">Targ. O. Ex. XI, 1</cite>; a. fr.—Part. pass. <he>מְתָרַךְ</he>, <he>מְתַרַךְ</he>; f. <cite ref=\"M03108\"><he>מְתָרְכָא</he></cite>, <he>מְתַ׳</he>; pl. <he>מְתָרְכִין</he>, <he>מְתַ׳</he>; <he>מְתָרְכַן</he>, <he>מְתַ׳</he>. ",
+						"<cite ref=\"Onkelos Leviticus 21:14\">Targ. O. Lev. XXI, 14</cite>, a. e., v. <cite ref=\"M03108\"><he>מְתַרְכָא</he></cite>. ",
+						"<cite ref=\"Targum Jonathan on I Kings 1:21\">Targ. I Kings I, 21</cite> (h. text <he>חטאים</he>); a. e.—",
+						"<cite ref=\"Bereishit Rabbah 10\">Gen. R. s. 10</cite> <he>אתא … ותָרְכֵיה</he> a Roman came and drove him away. ",
+						"<cite ref=\"Gittin 65b:11\">Gitt. 65ᵇ</cite> <he>תָּרְכוּהָ</he> (Hebr. form) if a husband says to witnesses, send her off (using the verb <cite ref=\"V01007\"><he>תרך</he></cite> for <cite ref=\"C01404\"><he>גרש</he></cite>); Y. ib. VI, 48ᵃ bot. (not <he>תרכיה</he>); a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to ban, imprecate trouble on, curse</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Numbers 23:7\">Targ. O. Num. XXIII, 7</cite>, sq. (h. text <he>זעם</he>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִיתָּרֵיךְ"],
+			"senses": [],
+			"stem": "Ithpa."
+		},
+		{
+			"forms": ["אִיתְרִיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be driven away, banished</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 12:39\">Targ. Ex. XII, 39</cite>. ",
+						"<cite ref=\"Aramaic Targum to Lamentations 1:1\">Targ. Lam. I, 1</cite>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 22:13\">Targ. Y. Lev. XXII, 13</cite>, v. <cite ref=\"M03108\"><he>מְתַרְכָא</he></cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be cursed</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Isaiah 65:20\">Targ. Is. LXV, 20</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

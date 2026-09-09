@@ -1,0 +1,48 @@
+{
+	"id": "K00104",
+	"slug": "כדבא-1",
+	"headword": {
+		"text": "כַּדְבָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "כִּדְ׳"
+		},
+		{
+			"text": "כִּידְ׳"
+		},
+		{
+			"text": "כְּדִיבָא"
+		}
+	],
+	"page": {
+		"number": 612,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00103\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>falsehood, lie</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 5:7\">Targ. Ps. V, 7</cite> <he>כיד׳</he> Ms. (ed. <cite ref=\"K00108\"><he>כדבותא</he></cite>). ",
+				"<cite ref=\"Berakhot 59a:5\">Ber. 59ᵃ</cite> … <he>אובא כיד׳ ומיליה כיד׳</he> Ms. M. (ed. <he>כַּדִּיב כַּדִּיבִין …</he>), v. <cite ref=\"A00521\"><he>אוֹב</he></cite> ch.—Pl. <he>כַּדְּבִין</he>, <cite ref=\"K00104\"><he>כִּדְ׳</he></cite>, <cite ref=\"K00104\"><he>כִּידְ׳</he></cite>, <he>כְּדִי׳</he>. ",
+				"<cite ref=\"Targum Jonathan on Hosea 7:13\">Targ. Hos. VII, 13</cite> <he>כדב׳</he> ed. Lag. (ed. Wil. <he>כַּדִיבִ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Judges 16:10\">Targ. Jud. XVI, 10</cite>; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>fiction, story</i>.—Pl. <he>כְּדִיבֵי</he>. ",
+			"units": [
+				"<cite ref=\"Bekhorot 8b\">Bekh. 8ᵇ</cite> <he>מילי דכ׳</he> En Yaăk. (ed. <he>דבְדִיאֵי</he>; Ar. <he>דכְדִי</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

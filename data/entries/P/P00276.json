@@ -1,0 +1,26 @@
+{
+	"id": "P00276",
+	"slug": "עומד-1",
+	"headword": {
+		"text": "עוּמָד"
+	},
+	"page": {
+		"number": 1052,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = <cite ref=\"A00689\"><he>אוּמָד</he></cite>, <i>estimate, guess, medical prognosis</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Tamid 2:5\">Tam. II, 5</cite> <he>בע׳ חמש וכ׳</he> as much wood as would by estimate yield five S’ah of coal. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 9:4:3\">Y. Snh. IX, 27ᵃ</cite> bot. <he>ע׳ של טעות</he> an erroneous prognosis. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 9:5:2\">Y. Naz. IX, end, 58ᵃ</cite> <he>ע׳ האמצעי</he>, v. <cite ref=\"A00689\"><he>אוּמָד</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 9:5:2\">Ib.</cite> <cite ref=\"P00859\"><he>עֶמֶד</he></cite>, a. <cite ref=\"P00860\"><he>עֲמָדָה</he></cite>.—Pl. <cite ref=\"P00280\"><he>עוּמָדִין</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Nazir 9:5:2\">Ib.</cite> <he>שני ע׳</he> two subsequent medical opinions."
+			]
+		}
+	]
+}

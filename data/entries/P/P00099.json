@@ -1,0 +1,33 @@
+{
+	"id": "P00099",
+	"slug": "עגלתא-1",
+	"headword": {
+		"text": "עֲגַלְתָּא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "עֶגְלָא"
+		},
+		{
+			"text": "עֶגְלְתָא"
+		}
+	],
+	"page": {
+		"number": 1041,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"P00098\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Onkelos Numbers 7:3\">Targ. O. Num. VII, 3</cite> <he>עֲגַלְ׳</he> ed. Berl. (oth. ed. a. Y. <cite ref=\"P00101\"><he>עֶגְלְתָא</he></cite>, <cite ref=\"P00101\"><he>עִגְ׳</he></cite>; Ms. II <cite ref=\"P00094\"><he>עֵגְלָא</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 28:27\">Targ. Is. XXVIII, 27</cite> (ed. Lag. <he>עגלה</he>); <cite ref=\"Targum Jonathan on Isaiah 28:28\">ib. 28</cite>; a. e.—Esp. <i>Charles’ Wain</i>. ",
+				"<cite ref=\"Berakhot 58b:15\">Ber. 58ᵇ</cite> bot. <he>רישא דע׳</he> the head-star of the Wain; [Rashi: the head of <i>the Ox</i> (Taurus)].—Pl. <he>עַגְלָן</he>, <cite ref=\"P01480\"><he>עֵ׳</he></cite>, <cite ref=\"P00099\"><he>עַגְלָתָא</he></cite>. ",
+				"<cite ref=\"Onkelos Genesis 45:21\">Targ. O. Gen. XLV, 21</cite>. ",
+				"<cite ref=\"Onkelos Genesis 45:27\">Ib. 27</cite> (ed. Vien. <he>עֲגַלָּ׳</he>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 46:10\">Targ. Ps. XLVI, 10</cite> Ms. (ed. <he>תריסיא עגילין</he> round shields)."
+			]
+		}
+	]
+}

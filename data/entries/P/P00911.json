@@ -1,0 +1,27 @@
+{
+	"id": "P00911",
+	"slug": "עמסוני",
+	"headword": {
+		"text": "עִמְסוֹנִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִי׳"
+		}
+	],
+	"page": {
+		"number": 1090,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (perh. fr. Amasia, in Pontus) <i>ʿImsoni</i>, surname of two Tannaim, Simon and Nahemia. ",
+			"units": [
+				"<cite ref=\"Pesachim 22b:11\">Pes. 22ᵇ</cite>; <cite ref=\"Jerusalem Talmud Berakhot 9:5:10\">Y. Ber. IX, 14ᵇ</cite> bot."
+			]
+		}
+	]
+}

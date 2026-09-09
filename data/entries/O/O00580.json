@@ -1,0 +1,24 @@
+{
+	"id": "O00580",
+	"slug": "סידור-2",
+	"headword": {
+		"text": "סִידּוּר",
+		"homograph": 2
+	},
+	"page": {
+		"number": 976,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Siddur</i>, an Amora. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Challah 2:1:8\">Y. Ḥall. II, 58ᶜ</cite> top. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:6\">Y. Sabb. VII, 9ᶜ</cite> top (ed. Krot. <he>סירור</he>)."
+			]
+		}
+	]
+}

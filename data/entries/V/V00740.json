@@ -1,0 +1,30 @@
+{
+	"id": "V00740",
+	"slug": "תנחומתא",
+	"headword": {
+		"text": "תַּנְחוּמְתָּא"
+	},
+	"altHeadwords": [
+		{
+			"text": "תַּנְחֻמְ׳"
+		}
+	],
+	"page": {
+		"number": 1681,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. <cite ref=\"V00739\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 6:10\">Targ. Job VI, 10</cite> (Ms. <he>תַּנְחוּמוֹתַי</he> Hebraism). ",
+				"<cite ref=\"Aramaic Targum to Psalms 119:50\">Targ. Ps. CXIX, 50</cite> (Ms. <cite ref=\"V00242\"><he>תּוּנְחָמָתַי</he></cite> <i>pl.</i>); a. e.—<i>Pl.</i> <cite ref=\"V00740\"><he>תַּנְחוּמָתָא</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Job 21:2\">Targ. Job XXI, 2</cite> (ed. Wil. <he>תַּנְחֻמַתְ׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 66:11\">Targ. Is. LXVI, 11</cite>; a. e."
+			]
+		}
+	]
+}

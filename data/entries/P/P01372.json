@@ -1,0 +1,23 @@
+{
+	"id": "P01372",
+	"slug": "עריץ",
+	"headword": {
+		"text": "עָרִיץ"
+	},
+	"page": {
+		"number": 1118,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; עָרַץ <i>to frighten</i>) <i>powerful, violent man</i>.—Pl. <he>עָרִיצִים</he>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:3:12\">Y. Ber. IV, 8ᵃ</cite>, v. <cite ref=\"T00829\"><he>רָמַס</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Megillah 4:1:10\">Y. Meg. IV, 74ᵈ</cite> bot. <he>הגואלך והמושיעך מכף עָרִיצַיִךְ</he> who redeems thee and saves thee from the hand of thy oppressors; <cite ref=\"Tractate Soferim 14:5\">Treat. Sof’rim XIV, 5</cite>."
+			]
+		}
+	]
+}

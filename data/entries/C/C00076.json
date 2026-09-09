@@ -1,0 +1,23 @@
+{
+	"id": "C00076",
+	"slug": "גביא-1",
+	"headword": {
+		"text": "גַּבְיָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 206,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00073\"><he>גבי</he></cite>) <i>collected, hoarded</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 8:19\">Targ. Prov. VIII, 19</cite> <he>סימא סגיא ג׳</he> ed. Lag., (h. text <he>כסף נבחר</he>) hoarded treasure; <cite ref=\"Aramaic Targum to Proverbs 16:16\">XVI, 16</cite>.—V. <cite ref=\"C00074\"><he>גְּבִי</he></cite>."
+			]
+		}
+	]
+}

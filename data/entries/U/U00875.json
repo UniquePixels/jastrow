@@ -1,0 +1,29 @@
+{
+	"id": "U00875",
+	"slug": "שיחרור-2",
+	"headword": {
+		"text": "שִׁיחְרוּר"
+	},
+	"altHeadwords": [
+		{
+			"text": "שִׁחְ׳"
+		}
+	],
+	"page": {
+		"number": 1560,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00720\"><he>שִׁחֲרֵר</he></cite>) <i>setting free, emancipation, liberty</i>. ",
+			"units": [
+				"<cite ref=\"Kiddushin 15b\">Kidd. 15ᵇ</cite> <he>לש׳</he> for restoration to liberty, opp. <he>לשעבוד</he> to be the redeemer’s slave. ",
+				"<cite ref=\"Mishnah Gittin 1:6\">Gitt. I, 6</cite> <he>שטר ש׳</he> writ of emancipation; a. e.—Pl. <he>שִׁיחְרוּרִין</he>, <cite ref=\"U00875\"><he>שִׁחְ׳</he></cite> <i>writ of emancipation</i>. ",
+				"<cite ref=\"Mishnah Gittin 1:6\">Ib.</cite> <he>שִׁחְרוּרי עבדים</he>; ib. 4. Ib. 9ᵃ, sq. <cite ref=\"U00069\"><he>שִׁי׳</he></cite>; a. fr."
+			]
+		}
+	]
+}

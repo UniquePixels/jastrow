@@ -1,0 +1,33 @@
+{
+	"id": "K01298",
+	"slug": "כשדי",
+	"headword": {
+		"text": "כַּשְׂדִּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "כַּשְׂדִיִּי"
+		}
+	],
+	"page": {
+		"number": 675,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"K01298\"><he>כַּשְׂדִּים</he></cite> , <i>pl.</i>) <i>Chaldean</i>. ",
+			"units": [
+				"<cite ref=\"Megillah 12b:3\">Meg. 12ᵇ</cite> <he>כלי … כשדיי</he> the vessel which I use (my wife) is neither …, but a Chaldean.—<i>Pl.</i> <cite ref=\"K01298\"><he>כַּשְׂדִּים</he></cite>, <cite ref=\"K01298\"><he>כַּשְׂדִּיִּים</he></cite>. ",
+				"<cite ref=\"Sukkah 52b:7\">Succ. 52ᵇ</cite>. ",
+				"<cite ref=\"Pesikta Rabbati 37:1\">Pesik. R. s. 37</cite> <he>כשנפרע מן הכ׳</he> when the Lord punished the Chaldeans (Babylonia, v. ",
+				"<cite ref=\"Midrash Tehillim 21:2\">Midr. Till. to Ps. XCIII, 1</cite>).—",
+				"<cite ref=\"Bava Batra 15b:7\">B. Bath. 15ᵇ</cite>. ",
+				"<cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 14</cite> <he>כ׳ קשה</he> the Chaldean government was tyrannical (contrad. to <cite ref=\"B00061\"><he>בבל</he></cite>); a. e.—<i>Fem.</i> <cite ref=\"K01298\"><he>כַּשְׂדִּית</he></cite>, pl. <he>כַּשְׂדִּיּוֹת</he>. ",
+				"<cite ref=\"Sanhedrin 92b:10\">Snh. 92ᵇ</cite>"
+			]
+		}
+	]
+}

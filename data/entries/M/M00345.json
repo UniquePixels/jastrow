@@ -1,0 +1,22 @@
+{
+	"id": "M00345",
+	"slug": "מהדורא-2",
+	"headword": {
+		"text": "מַהֲדוּרָא"
+	},
+	"page": {
+		"number": 736,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"E00148\"><he>הֲדַר</he></cite>) <i>peddler</i>.—Pl. <he>מַהֲדוּרֵי</he>. ",
+			"units": [
+				"<cite ref=\"Berakhot 51b:7\">Ber. 51ᵇ</cite>, v. <cite ref=\"K00767\"><he>כַּלְמְתָא</he></cite>."
+			]
+		}
+	]
+}

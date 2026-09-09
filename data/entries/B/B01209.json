@@ -1,0 +1,31 @@
+{
+	"id": "B01209",
+	"slug": "ברור-3",
+	"headword": {
+		"text": "בְּרוֹר"
+	},
+	"altHeadwords": [
+		{
+			"text": "בְּרוֹר חַיִל"
+		},
+		{
+			"text": "בְּרוֹר חֵיל"
+		}
+	],
+	"page": {
+		"number": 191,
+		"column": "a"
+	},
+	"grammar": {
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. pl.<i>B’ror Ḥayil</i> (<i>Ḥail</i>), seat of R. Johanan b. Zaccai’s college, near Jabneh. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 32b\">Snh. 32ᵇ</cite> (Var. <he>גדור ח׳</he>). ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 1:8:3\">Y. Keth. I, 25ᶜ</cite>; a. fr."
+			]
+		}
+	]
+}

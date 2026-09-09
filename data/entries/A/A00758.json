@@ -1,0 +1,27 @@
+{
+	"id": "A00758",
+	"slug": "אונפיל",
+	"headword": {
+		"text": "אוּנְפִּיל"
+	},
+	"altHeadwords": [
+		{
+			"text": "אַנְפִּיל"
+		}
+	],
+	"page": {
+		"number": 29,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>נפל</he>) <i>a wooden vessel for the reception of refuse, remnants of victuals</i> &c. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Metsia 5:10\">Tosef. Kel. B. Mets. V, 10</cite>. Cmp. <cite ref=\"A00759\">next w.</cite>"
+			]
+		}
+	]
+}

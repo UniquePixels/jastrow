@@ -1,0 +1,84 @@
+{
+	"id": "N01191",
+	"slug": "נקט-2",
+	"headword": {
+		"text": "נְקַט"
+	},
+	"page": {
+		"number": 932,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01190\">same</cite> (corresp. to h. <cite ref=\"A01021\"><he>אָחַז</he></cite>). ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 6:1\">Targ. Esth. VI, 1</cite>; a. fr.—Part. act. <cite ref=\"N01206\"><he>נָקֵיט</he></cite>, pass. <cite ref=\"N01206\"><he>נְקִיט</he></cite> <i>holding</i>. ",
+				"<cite ref=\"Aramaic Targum to Esther 8:15\">Ib. VIII, 15</cite>; a. fr.—",
+				"<cite ref=\"Shevuot 38b:24\">Shebu. 38ᵇ</cite> <he>נ׳ חפצא וכ׳</he> he held an object in his hand (on being sworn). ",
+				"<cite ref=\"Avodah Zarah 30a:7\">Ab. Zar. 30ᵃ</cite> <he>הוה נקיט חמרא בהדיה</he> was carrying wine with him. ",
+				"<cite ref=\"Avodah Zarah 30a:13\">Ib.</cite> <he>סירכא דגברא נְקִיטָה</he> she holds fast (clings to) the habit of her (deceased) husband. Sanh. 5ᵃ <he>נְקִיטְנָא רשותא</he> I hold a license (to teach). ",
+				"<cite ref=\"Moed Katan 28a\">M. Kat. 28ᵃ</cite>, a. e. <he>נְקוֹט לך מיהא וכ׳</he> hold at least half of it in thy hand, i.e. admit as certain &c.; <cite ref=\"Sanhedrin 90b:15\">Snh. 90ᵇ</cite> <he>נְקוֹטוּ</he> (not <he>נקוטי</he>); a. v. fr.—",
+				"<cite ref=\"Chullin 53a\">Ḥull. 53ᵃ</cite>, a. fr. <he>נַקְטִינָן</he>, <he>נְקִיטִינָן</he> we hold a tradition.—",
+				"<cite ref=\"Shabbat 116b\">Sabb. 116ᵇ</cite> top <he>נקיט שמא וכ׳</he> quoted in Levy Talm. Dict. (ed. <he>שקיל</he>) had the reputation that &c. ",
+				"<cite ref=\"Gittin 56a:16\">Gitt. 56ᵃ</cite> <he>נְקוֹט נפשך בקצירי</he> have thyself counted among the sick, i.e. have the report spread that thou art sick. ",
+				"<cite ref=\"Chullin 87a:7\">Ḥull. 87ᵃ</cite> <he>נקוט לי זימנא וכ׳</he> keep time for me &c., i.e. allow me three days’ time.—Trnsf. <i>to contract a habit</i>. ",
+				"<cite ref=\"Bava Kamma 57a\">B. Kam. 57ᵃ</cite>, v. <cite ref=\"N00620\"><he>נִיגְרָא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַנְקֵיט", "אַקֵּיט"],
+			"senses": [
+				{
+					"gloss": ", <i>Pa.</i> <cite ref=\"N01206\"><he>נַקֵּיט</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to cause to hold, to give, hand</i>. Targ. II Esth. IV, 16.—",
+					"units": [
+						"<cite ref=\"Pesachim 110a:5\">Pes. 110ᵃ</cite> <he>מְנַקְּטָא ליה אימיה וכ׳</he> (not <he>מנקיט</he>, v. Rabb. D. S. a. l. note) his mother was ready to hand him two cups. ",
+						"<cite ref=\"Pesachim 110a:5\">Ib.</cite> <he>מַנְקֵיט ליה וכ׳</he> (or <cite ref=\"M01629\"><he>מְנַקֵּיט</he></cite>) his servant was ready to hand him &c. ",
+						"<cite ref=\"Bava Kamma 85b:6\">B. Kam. 85ᵇ</cite> <he>לאַנְקוּטֵיה גוונא דבישריה</he> to make him regain the natural color of flesh; a. e.—",
+						"<cite ref=\"Bava Batra 22a:6\">B. Bath. 22ᵃ</cite> <he>נַקֵּיט ליה שוקא</he> make him take the market, i.e. give him the monopoly of sale."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to pick up, gather</i>. ",
+					"units": [
+						"<cite ref=\"Nedarim 50a:5\">Ned. 50ᵃ</cite> <he>וכ׳</he> (read <he>הות … מְנַקְּטָא</he>) <he>הוה קא מנקיט</he> she picked the straw out of his hair."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to cause to contract a habit, train</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 118b\">B. Kam. 118ᵇ</cite>; <cite ref=\"Bava Batra 88a:2\">B. Bath. 88ᵃ</cite> <he>אַנְקְטִינְהוּ וכ׳</he>, v. <cite ref=\"N00620\"><he>נִיגְרָא</he></cite>."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": " *<i>to carry</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Exodus 21:37\">Targ. Y. Ex. XXI, 37</cite> <he>אַקְּטֵיה בגנבותיה</he> he carried it (on his shoulder) when he stole it."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִנְּקִיט"],
+			"senses": [
+				{
+					"gloss": "<i>to receive</i>. ",
+					"units": [
+						"<cite ref=\"Yevamot 42b:10\">Yeb. 42ᵇ</cite> <he>מִנְּקִיט ואזיל הלכתא וכ׳</he> received instruction from him while walking."
+					]
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

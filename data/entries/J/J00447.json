@@ -1,0 +1,31 @@
+{
+	"id": "J00447",
+	"slug": "ינקא-1",
+	"headword": {
+		"text": "יַנְקָא",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "יוֹנְקָא"
+		}
+	],
+	"page": {
+		"number": 581,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00446\">preced.</cite>) <i>suckling, child</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Song of Songs 8:1\">Targ. Cant. VIII, 1</cite>; a. fr.—",
+				"<cite ref=\"Bamidbar Rabbah 4\">Num. R. s. 4</cite>, end (ref. to <cite ref=\"Psalms 131:2\">Ps. CXXXI, 2</cite>) <he>כְּהָן י׳ וכ׳</he> like the infant leaving the mother’s womb &c.; <cite ref=\"Jerusalem Talmud Sanhedrin 2:4:5\">Y. Snh. II, 20ᵇ</cite> bot.—Pl. <he>יַנְקַיָּא</he>, <he>יוֹנְ׳</he>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 8:3\">Targ. Ps. VIII, 3</cite> <he>יַנְ׳</he> Ms. (ed. <he>יוֹנְ׳</he>); a. e.—",
+				"<cite ref=\"Targum Jonathan on Isaiah 3:4\">Targ. Is. III, 4</cite> (some ed. <he>יַנְקָנַיָּא</he>) childish men."
+			]
+		}
+	]
+}

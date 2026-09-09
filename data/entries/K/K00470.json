@@ -1,0 +1,62 @@
+{
+	"id": "K00470",
+	"slug": "כחש-2",
+	"headword": {
+		"text": "כְּחַשׁ"
+	},
+	"page": {
+		"number": 629,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"K00469\">same</cite>, <i>to be lean, weak</i>; v. <cite ref=\"K00460\"><he>כָּחִישׁ</he></cite>.—",
+			"units": [
+				"<cite ref=\"Sanhedrin 95a:15\">Snh. 95ᵃ</cite> <he>כ׳ חיליה</he> his strength failed him. ",
+				"<cite ref=\"Bava Metzia 104b:12\">B. Mets. 104ᵇ</cite> (prov.) <he>תִּכְחוֹשׁ ארעא ולא לִיכְּחוּשׁ מרה</he> Ms. M. (ed. <cite ref=\"K00471\"><he>כחשא</he></cite>) let the land deteriorate (exhausted by strong seeds) rather than that its owner become reduced (by reduced income); a. e."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַכְחַשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to reduce, weaken, impair</i>. ",
+					"units": [
+						"<cite ref=\"Niddah 47b:48\">Nidd. 47ᵇ</cite>; <cite ref=\"Yevamot 97a:7\">Yeb. 97ᵃ</cite> <he>אַכְחֲשׁוּהוּ</he> reduce him (by scanty food); <cite ref=\"Bava Batra 155b:3\">B. Bath. 155ᵇ</cite> <he>אכחשיה</he> Ms. M. (corr. acc., ed. <he>ליכחוש</he>, v. infra). ",
+						"<cite ref=\"Bava Kamma 34a:11\">B. Kam. 34ᵃ</cite> <he>את מַכְחֲשָׁהּ ואנא וכ׳</he> thou didst ruin her (by neglect), and I should pay for it?"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to contradict</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 48\">Gen. R. s. 48</cite>, beg. <he>אַכְחֲשָׁהּ קדמה</he> he contradicted her (his wife) in her (the servant’s) presence."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Af."
+		},
+		{
+			"forms": ["אִתְכְּחִישׁ", "אִיכְּחוּשׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to reduce one’s self, to be reduced</i>. B. Bath. l. c. <he>לִיכְּחוּשׁ</he> let him reduce himself. B. Mets. l. c., v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be contradicted, rebutted</i>. ",
+					"units": [
+						"<cite ref=\"Bava Kamma 74a:10\">B. Kam. 74ᵃ</cite> <he>מִתְכַּחֲשֵׁי</he> are contradicted, contrad. to <he>מיתזמי</he>, v. <cite ref=\"G00527\"><he>זְמַם</he> I</cite>.—",
+						"<cite ref=\"Sanhedrin 81b:15\">Snh. 81ᵇ</cite> <he>אִתְכְּחוּשׁ בבדיקות</he> they contradicted each other in cross-examinations, v. <cite ref=\"B00146\"><he>בְּדִיקָה</he></cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "S00824",
+	"slug": "קטר-2",
+	"headword": {
+		"text": "קְטַר"
+	},
+	"page": {
+		"number": 1352,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "ch.<cite ref=\"S00823\">same</cite> v. infra.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַקְטַר"],
+			"senses": [
+				{
+					"gloss": "<i>to let incense rise</i>. ",
+					"units": [
+						"<cite ref=\"Onkelos Exodus 30:1\">Targ. O. Ex. XXX, 1</cite>. ",
+						"<cite ref=\"Onkelos Exodus 30:7\">Ib. 7</cite> (Y. some ed. <i>Pe.</i>). Targ. O. ib. XL, 27; a. e."
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

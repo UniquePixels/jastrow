@@ -1,0 +1,70 @@
+{
+	"id": "I00019",
+	"slug": "טב-2",
+	"headword": {
+		"text": "טַב",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "טָבָא"
+		},
+		{
+			"text": "טַבְתָא"
+		}
+	],
+	"page": {
+		"number": 515,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"I00018\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>good, precious</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 2:9\">Targ. Gen. II, 9</cite>.—Targ. II, <cite ref=\"Esther 1:19\">Esth. I, 19</cite> <he>דטבא</he> ed. Lag. (oth. ed. <he>דטָבַת</he>)—",
+				"<cite ref=\"Targum Jonathan on Judges 5:26\">Targ. Jud. V, 26</cite> (missing in ed. Lag.); a. v. fr.—",
+				"<cite ref=\"Bereishit Rabbah 22:8\">Gen. R. s. 22</cite>; <cite ref=\"Vayikra Rabbah 22:4\">Lev. R. s. 22</cite>, v. <cite ref=\"B00740\"><he>בִּישׁ</he></cite>. ",
+				"<cite ref=\"Berakhot 60b:12\">Ber. 60ᵇ</cite> <he>כל מאי דעביד … לטב</he> (v. Rabb. D. S. a. l. note) whatever God does is for a good purpose. ",
+				"<cite ref=\"Tamid 32a:51\">Tam. 32ᵃ</cite> <he>דידי טבא וכ׳</he> my advice is better than yours.—",
+				"<cite ref=\"Vayikra Rabbah 33:1\">Lev. R. s. 33</cite>, beg. <he>מינה ט׳ וכ׳</he> from it (the tongue) comes what is good &c.; a. v. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>worth, valued</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Ketubot 4:13:2\">Y. Keth. IV, end, 29ᵇ</cite> <he>חד בית בטב וכ׳</he> (ed. Krot. <he>בדב</he>, read: <he>חד ביתא טב</he>) a house worth &c. ",
+				"<cite ref=\"Jerusalem Talmud Ketubot 4:13:2\">Ib.</cite> <he>מכיון דלית ביתא טב וכ׳</he> as the house is not worth more than &c.—",
+				"<cite ref=\"Jerusalem Talmud Peah 1:1:36\">Y. Peah I, 15ᵈ</cite> bot. <he>מילא דט׳ דכוותה</he> something of equal value; <cite ref=\"Bereishit Rabbah 35:3\">Gen. R. s. 35</cite>, end (corr. acc.); a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>best man, elder, officer</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Taanit 4:5:9\">Y. Taan. IV, 68ᵈ</cite> top <he>טב קרתא</he> an officer of the town.—Pl. <he>טָבִין</he>, <he>טָבַיָּיא</he>, <cite ref=\"I00048\"><he>טָבֵי</he></cite>; fem. <he>טָבָתָא</he>, <he>טָבָאתָא</he>, <he>טָבָן</he>. ",
+				"<cite ref=\"Targum Jonathan on Micah 7:1\">Targ. Mic. VII, 1</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 125:4\">Targ. Ps. CXXV, 4</cite>; a. fr.—",
+				"<cite ref=\"Bava Metzia 44b:5\">B. Mets. 44ᵇ</cite> <he>שלים לה ט׳ וכ׳</he> pay her in good and full-weight coin. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 10:2:5\">Y. Snh. X, 28ᵇ</cite> bot. <he>כל טָבָן וכ׳</he>, v. <cite ref=\"N00512\"><he>נֶחֶמְתָּא</he></cite>. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד מאת׳</he> 1) <he>טבאתא</he> the good fruits; a. fr."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " (adv.) <i>much, more</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 17:10\">Targ. Prov. XVII, 10</cite>.—",
+				"<cite ref=\"Gittin 14b:2\">Gitt. 14ᵇ</cite> <he>טב טב רמו ליה</he> Ar. (ed. only one <cite ref=\"I00018\"><he>טב</he></cite>) strike him more (or, <i>it is right</i>, v. Rashi a. l.)—Y. Shek. IV, 48ᵃ top, v. <cite ref=\"I00025\"><he>טָבָאוּת</he></cite>."
+			],
+			"label": "4"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "N01305",
+	"slug": "נשיאה-1",
+	"headword": {
+		"text": "נְשִׂיאָה",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "נְשִׂיָּיא"
+		},
+		{
+			"text": "נְשִׂיָּיה"
+		},
+		{
+			"text": "נְסִ׳"
+		}
+	],
+	"page": {
+		"number": 939,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"N01304\">same</cite>, <i>prince, Nasi</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 98a:9\">Ḥull. 98ᵃ</cite> a. fr. <he>דבי נ׳</he> those of the Nasi’s (R. Judah’s) house. ",
+				"<cite ref=\"Chullin 124a:22\">Ib. 124ᵃ</cite> <he>חתניה דבי נ׳</he> the son-in-law of the Nasi’s (the Resh Gelutha’s) house. ",
+				"<cite ref=\"Jerusalem Talmud Chagigah 2:2:6\">Y. Ḥag. II, 77ᵈ</cite> bot. <he>אין אנא מתעביד נ׳</he> if I am made Nasi; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Eruvin 7:10:3\">Y. Erub. VII, end, 24ᵈ</cite> <he>ר׳ יודן נסייא</he>."
+			]
+		}
+	]
+}

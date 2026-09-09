@@ -1,0 +1,22 @@
+{
+	"id": "Q01922",
+	"slug": "פרסום",
+	"headword": {
+		"text": "פִּרְסוּם"
+	},
+	"page": {
+		"number": 1234,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01934\"><he>פִּרְסֵם</he></cite>) <i>publicity</i>; <he>בפ׳</he> <i>in public</i>. ",
+			"units": [
+				"<cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite> <he>בפ׳ ולא וכ׳</he> publicly, and not secretly."
+			]
+		}
+	]
+}

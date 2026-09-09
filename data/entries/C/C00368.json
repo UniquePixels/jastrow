@@ -1,0 +1,31 @@
+{
+	"id": "C00368",
+	"slug": "גול-2",
+	"headword": {
+		"text": "גּוּל"
+	},
+	"page": {
+		"number": 221,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"C00367\">same</cite>.Part. <he>גָיֵיל</he> (<he>גָּוֵיל</he>). ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 7:1:5\">Y. Yoma VII, 44ᵇ</cite> top [read:] <he>תהא גייל לה לאחורי פרוכתא</he> thou must roll it (the scroll, v. <cite ref=\"C00367\">preced.</cite>) behind the curtain; <cite ref=\"Jerusalem Talmud Megillah 4:7:2\">Y. Meg. IV, 75ᵇ</cite> bot. (corr. acc.)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אִתְגּוֹלַל"],
+			"senses": [
+				{
+					"gloss": ", v. <cite ref=\"C00870\"><he>גַּלְגֵּל</he></cite> Ithpalp.",
+					"units": []
+				}
+			],
+			"stem": "Hitpol."
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "P01317",
+	"slug": "ערוגה",
+	"headword": {
+		"text": "עֲרוּגָה"
+	},
+	"page": {
+		"number": 1114,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"P01291\"><he>ערג</he></cite>, cmp. <he>ארג</he>, <cite ref=\"H00459\"><he>חרג</he></cite>)<i>incision, groove</i>. ",
+			"units": [
+				"<cite ref=\"Chullin 50a:15\">Ḥull. 50ᵃ</cite> <he>מע׳ לע׳</he> between one groove (of a lobe of the lungs) and another.—Esp. (cmp. <cite ref=\"P00195\"><he>עוּגְיְתָא</he></cite>) <i>garden bed</i>. ",
+				"<cite ref=\"Mishnah Kilayim 3:1\">Kil. III, 1</cite>, sq. ",
+				"<cite ref=\"Mishnah Shabbat 9:2\">Sabb. IX, 2</cite>. ",
+				"<cite ref=\"Shabbat 85a:4\">Ib. 85ᵃ</cite> <he>ע׳ בחורבה שנינו</he> the Mishnah speaks of a garden bed in a fallow field (isolated bed); a. fr.—Pl. <he>עֲרוּגוֹת</he>. ",
+				"<cite ref=\"Shabbat 85b:4\">Ib.ᵇ</cite> <he>ערוגה בין הע׳ שנינו</he> the Mishnah speaks of a bed among other beds. ",
+				"<cite ref=\"Tosefta Kilaim 2:5\">Tosef. Kil. II, 5</cite> <he>ע׳ קטנות</he> (some ed. <he>ערוגיות</he>, <cite ref=\"P01292\"><he>ערגיות</he></cite>, corr. acc., or <he>עוּגְיוֹת</he>); a. fr."
+			]
+		}
+	]
+}

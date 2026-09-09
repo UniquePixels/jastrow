@@ -1,0 +1,29 @@
+{
+	"id": "G00637",
+	"slug": "זקיפין",
+	"headword": {
+		"text": "זְקִיפִין"
+	},
+	"altHeadwords": [
+		{
+			"text": "זְקוֹפִין"
+		}
+	],
+	"page": {
+		"number": 409,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"G00649\"><he>זָקַף</he></cite>) <i>officers for restoring the line of battle, guards against desertions</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 8:6\">Sot. VIII, 6</cite> (<cite ref=\"Sotah 44a:13\">44ᵃ</cite> <he>זקי׳</he>; Y. ed. <cite ref=\"G00628\"><he>זְקוֹפִים</he></cite>, Rashi <he>זוֹקְפִין</he>). ",
+				"<cite ref=\"Bereishit Rabbah 98\">Gen. R. s. 98</cite> <he>זעקפי מלחמה</he> (read <he>זְקִיפֵי</he> or <he>זוֹקְפֵי</he>)."
+			]
+		}
+	]
+}

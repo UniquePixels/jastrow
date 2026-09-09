@@ -1,0 +1,56 @@
+{
+	"id": "T01092",
+	"slug": "רשם-2",
+	"headword": {
+		"text": "רְשַׁם",
+		"homograph": 1
+	},
+	"page": {
+		"number": 1501,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"T01091\">same</cite>, <i>to mark; to record</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 4:15\">Targ. Y. Gen. IV, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 9:4\">Targ. Ez. IX, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 10:1\">Targ. Is. X, 1</cite> (h. text <he>חקק</he>)."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["רַשֵּׁם"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"T01091\">same</cite>.",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Judges 5:14\">Targ. Jud. V, 14</cite> (h. text <he>מחקק׳</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to make incisions</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Leviticus 21:5\">Targ. Y. Lev. XXI, 5</cite> (h. text <cite ref=\"S01971\"><he>קרח</he></cite>)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִתְרְשֵׁים"],
+			"senses": [
+				{
+					"gloss": "<i>to be wrinkled</i>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 27:35\">Targ. Ez. XXVII, 35</cite> (h. text <he>רעמו</he>; prob. to be read: <cite ref=\"T00909\"><he>אִתְרְעִימוּ</he></cite>, v. <cite ref=\"T00909\"><he>רְעַם</he> I</cite>.)."
+					]
+				}
+			],
+			"stem": "*."
+		}
+	]
+}

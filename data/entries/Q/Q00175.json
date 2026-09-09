@@ -1,0 +1,35 @@
+{
+	"id": "Q00175",
+	"slug": "פוח-2",
+	"headword": {
+		"text": "פּוּחַ",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 1140,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"Q00174\">same</cite><i>to blow</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:2:13\">Y. Snh. I, 18ᶜ</cite> bot. <cite ref=\"Q00438\"><he>פַּח</he></cite> (ed. Krot. <cite ref=\"Q00143\"><he>פה</he></cite>, corr. acc.); Y. R. Hash. I, 58ᵇ top <cite ref=\"Q00174\"><he>פּוֹחַ</he></cite> blow, breathe!, v. <cite ref=\"J00504\"><he>יַפַּח</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to evaporate</i>, (with <cite ref=\"N01085\"><he>נפשא</he></cite>) <i>to despair</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Numbers 21:30\">Targ. Y. Num. XXI, 30</cite> <he>עד דִּיפַח נפשיהּון</he> until they are in despair (h. text <he>עד נפח</he>)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>to cool off, be sobered</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Esther 2:1\">Targ. Esth. II, 1</cite> (ed. Lag. <cite ref=\"Q00036\"><he>פג</he></cite>)."
+			],
+			"label": "3"
+		}
+	]
+}

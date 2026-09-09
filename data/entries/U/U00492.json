@@ -1,0 +1,23 @@
+{
+	"id": "U00492",
+	"slug": "שוף-4",
+	"headword": {
+		"text": "שׁוּף",
+		"homograph": 3
+	},
+	"page": {
+		"number": 1539,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00491\">preced.</cite>) <i>smooth-faced</i>.—Pl. <he>שׁוּפִים</he>, <cite ref=\"U00501\"><he>שׁוּפִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kilayim 3:2\">Kil. III, 2</cite> <he>אפונים הש׳</he> smooth beans (without incisions).—V. <cite ref=\"U01000\"><he>שִׁיף</he></cite>."
+			]
+		}
+	]
+}

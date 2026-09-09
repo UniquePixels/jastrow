@@ -1,0 +1,27 @@
+{
+	"id": "J00272",
+	"slug": "יחול",
+	"headword": {
+		"text": "יִחוּל"
+	},
+	"altHeadwords": [
+		{
+			"text": "יִי׳"
+		}
+	],
+	"page": {
+		"number": 573,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00293\"><he>יָחַל</he></cite>) <i>hope</i>. ",
+			"units": [
+				"<cite ref=\"Berakhot 16b:18\">Ber. 16ᵇ</cite>; Y. ib. IV, 7ᵈ bot. <he>ונמצא י׳ לבבינו</he> that we may obtain what our heart longs for."
+			]
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"id": "S00300",
+	"slug": "קוטנא",
+	"headword": {
+		"text": "קוּטְנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "קוּטְנָה"
+		}
+	],
+	"page": {
+		"number": 1326,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"S00299\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>the thinner side</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 134a\">Sabb. 134ᵃ</cite>, v. <cite ref=\"A00677\"><he>אוּלְמָא</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sotah 7:4:9\">Y. Sot. VII, 21ᵈ</cite>, v. <cite ref=\"P00179\"><he>עוּבְיָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>tail</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 4:4\">Targ. Y. I Ex. IV, 4</cite> (Y. II <he>קוֹטְנוֹי</he> <i>pl.</i>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "N00124",
+	"slug": "נגדא-5",
+	"headword": {
+		"text": "נַגָּדָא"
+	},
+	"page": {
+		"number": 872,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00118\"><he>נְגַד</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (v. <cite ref=\"N00121\"><he>נִגְדָּא</he></cite> <i>one who tracks a vessel.—</i>Pl. <he>נַגָּדֵי</he>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 107b:14\">B. Mets. 107ᵇ</cite>, v. <cite ref=\"K01382\"><he>כַּתְפָּא</he></cite>. ",
+				"<cite ref=\"Sotah 48a:18\">Sot. 48ᵃ</cite> <he>זמרא דנ׳</he> the songs of the draggers. ",
+				"<cite ref=\"Sanhedrin 106a\">Snh. 106ᵃ</cite> bot., v. <cite ref=\"G00579\"><he>זְנֵי</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>leader</i>, v. <cite ref=\"N00135\"><he>נָגוֹדָא</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "M02034",
+	"slug": "מסתא",
+	"headword": {
+		"text": "מִסְּתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִסְתָּא"
+		},
+		{
+			"text": "מִי׳"
+		}
+	],
+	"page": {
+		"number": 812,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. ch. (<he>מסס</he>; cmp. <cite ref=\"D00444\"><he>דַּי</he></cite> fr. <cite ref=\"D00204\"><he>דָּוָה</he></cite>) <i>plenty, enough</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 30:15\">Targ. Prov. XXX, 15</cite>, sq. (h. text <cite ref=\"E00247\"><he>הוֹן</he></cite>).—Constr. <cite ref=\"M02033\"><he>מִסַּת</he></cite>, <cite ref=\"M02033\"><he>מֵסַת</he></cite>, <cite ref=\"M01393\"><he>מִי׳</he></cite>, <cite ref=\"M01574\"><he>מֵי׳</he></cite> adv. (= h. <he>דֵּי</he>). ",
+				"<cite ref=\"Targum Jonathan on II Samuel 24:16\">Targ. II Sam. XXIV, 16</cite> (h. text <cite ref=\"T00042\"><he>רַב</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 36:5\">Targ. Ex. XXXVI, 5</cite> (h. text <cite ref=\"M01094\"><he>מִדֵּי</he></cite>). ",
+				"<cite ref=\"Onkelos Exodus 36:5\">Ib.</cite> O. 7 (Y. <cite ref=\"K00802\"><he>כְּמֵיסַת</he></cite>; h. text <he>דּיָּם</he>). ",
+				"<cite ref=\"Aramaic Targum to Proverbs 30:8\">Targ. Prov. XXX, 8</cite> <he>מִסָּתִי</he> enough for me (h. text <cite ref=\"H01553\"><he>חקי</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 49:9\">Targ. Jer. XLIX, 9</cite> <he>מִיסַתְהוֹן</he> (h. text <he>דַיָּם</he>); a. fr.—<he>כְּמַ׳</he>, <he>(בְּמִ׳</he>), <cite ref=\"K00790\"><he>כְּמי׳</he></cite> <i>as much as required</i>. Targ. Y. Ex. l. c., v. supra. ",
+				"<cite ref=\"Onkelos Leviticus 12:8\">Targ. Lev. XII, 8</cite> (Y. ed. Amst. <he>במ׳</he>). ",
+				"<cite ref=\"Targum of II Chronicles 8:13\">Targ. II Chr. VIII, 13</cite> <he>במ׳</he> (ed. Lag.); a. fr.—V. <cite ref=\"K00802\"><he>כְּמֵיסַת</he></cite>,—*<cite ref=\"Vayikra Rabbah 3:1\">Lev. R. s. 3</cite> <he>מיסת מתפרע מינהון לעלמא דאתי</he> it is enough, they will pay for it in the hereafter (<cite ref=\"Yalkut Shimoni on Nach 971:2\">Yalk. Koh. 971</cite> <cite ref=\"M01103\"><he>מִיהַת</he></cite>).—V. <cite ref=\"M02039\"><he>מִסְתְּיָא</he></cite>."
+			]
+		}
+	]
+}

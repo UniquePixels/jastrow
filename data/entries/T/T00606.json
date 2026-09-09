@@ -1,0 +1,23 @@
+{
+	"id": "T00606",
+	"slug": "רידוותא",
+	"headword": {
+		"text": "רִידְוָותָא"
+	},
+	"page": {
+		"number": 1473,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "f. pl. (<he>רְדֵי</he> III) [<i>ploughers</i>,] <i>chariots armed with shears</i> or <i>scythes</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 14:25\">Targ. Y. I Ex. XIV, 25</cite>; Y. II (some ed. <he>ריתוו׳</he>, corr. acc.)."
+			]
+		}
+	]
+}

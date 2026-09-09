@@ -1,0 +1,28 @@
+{
+	"id": "Q00020",
+	"slug": "פאפי-1",
+	"headword": {
+		"text": "פָּאפֵי"
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּפֵי"
+		}
+	],
+	"page": {
+		"number": 1131,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (papae, v. P. Sm. 3203) <i>fathers</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 42b:5\">Sot. 42ᵇ</cite>; a. e.; v. <cite ref=\"N00024\"><he>נָאנָאי</he></cite>."
+			]
+		}
+	]
+}

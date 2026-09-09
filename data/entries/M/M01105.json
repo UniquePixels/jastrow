@@ -1,0 +1,30 @@
+{
+	"id": "M01105",
+	"slug": "מיושב",
+	"headword": {
+		"text": "מְיוּשָּׁב"
+	},
+	"page": {
+		"number": 771,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (<cite ref=\"J00675\"><he>יָשַׁב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " (adv.) <i>seated, in a sitting position</i>, opp. <cite ref=\"M02082\"><he>מעומד</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shevuot 38b:25\">Shebu. 38ᵇ</cite>, v. <cite ref=\"M02082\"><he>מְעוּמָּד</he></cite>. ",
+				"<cite ref=\"Moed Katan 20b:16\">M. Kat. 20ᵇ</cite> <he>אידכר דמ׳ קרע</he> he recalled to mind that he had rent his garment while seated; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>sedate, collected</i>, v. <cite ref=\"J00675\"><he>יָשַׁב</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

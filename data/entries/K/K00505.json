@@ -1,0 +1,37 @@
+{
+	"id": "K00505",
+	"slug": "כיון-2",
+	"headword": {
+		"text": "כִּיוָּן"
+	},
+	"page": {
+		"number": 631,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"K00296\"><he>כּוּן</he></cite>) [<i>firmness, directness, fitness</i>;] ",
+			"units": []
+		},
+		{
+			"gloss": " (adv.) <i>directly, exactly</i>. ",
+			"units": [
+				"<cite ref=\"Pesachim 37a:8\">Pes. 37ᵃ</cite> <he>אפשר … ויקבענה כ׳</he> he may form the dough in a mould and attach it to the cake directly (well fitting, without loss of time). ",
+				"<cite ref=\"Mishnah Tamid 3:6\">Tam. III, 6</cite> <he>אחד … ואחד פותח כ׳</he> (with one key) a priest puts his hand through an opening in the door (v. <cite ref=\"A01989\"><he>אַמָּה</he></cite>), and another priest opens (with the other key) directly; (Talm. ed. 30ᵇ <he>ואחד שהוא פותח כ׳</he> and another key which opens directly)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (conj. followed by <he>ש־</he>) <i>as soon as, since</i>. ",
+			"units": [
+				"<cite ref=\"Makkot 3a:7\">Macc. 3ᵃ</cite>, a. fr. <he>כ׳ שהגיד וכ׳</he> as soon as a witness has finished his evidence, he is not permitted to testify again (retract or modify). ",
+				"<cite ref=\"Ketubot 11a:12\">Keth. 11ᵃ</cite> <he>כ׳ שהגדילה וכ׳</he> as soon as she was of age for one while without protesting &c. ",
+				"<cite ref=\"Eruvin 93b:12\">Erub. 93ᵇ</cite> <he>כ׳ שהותרה הותרה</he> being once permitted (for one part of the Sabbath), it remains permitted; a. v. fr."
+			],
+			"label": "2"
+		}
+	]
+}

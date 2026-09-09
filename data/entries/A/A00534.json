@@ -1,0 +1,28 @@
+{
+	"id": "A00534",
+	"slug": "אובשין",
+	"headword": {
+		"text": "אוּבְשִׁין"
+	},
+	"altHeadwords": [
+		{
+			"text": "אֻבְשִׁין"
+		}
+	],
+	"page": {
+		"number": 21,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl.(b. h. <he>בְּאֻשִׁים</he>; cmp. <cite ref=\"A00231\"><he>אַבְשׁוּנָא</he></cite>)<i>a species of inferior grapes</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Maasrot 1:2\">Maasr. I, 2</cite> <he>הענבים והאו׳ משיבאישו</he> Ar. (ed. Talm. B. <he>והאב׳ משה׳</he>; Talm. Y. <he>הבאושין</he>) grapes and <i>ubshin</i> are subject to tithes from the time they are called <cite ref=\"B00015\"><he>בְּאוּשָׁה</he></cite> q. v.—Y. Ter. VIII, 45ᵈ top <he>ענבים ואו׳ וכ׳</he> grapes or ubshin for a sick person."
+			]
+		}
+	]
+}

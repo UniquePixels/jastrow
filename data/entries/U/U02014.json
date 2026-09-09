@@ -1,0 +1,33 @@
+{
+	"id": "U02014",
+	"slug": "שרפה",
+	"headword": {
+		"text": "שְׂרֵפָה"
+	},
+	"altHeadwords": [
+		{
+			"text": "שְׂרֵי׳"
+		}
+	],
+	"page": {
+		"number": 1633,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"U02003\"><he>שָׂרַף</he> I)</cite><i>burning, fire</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sanhedrin 7:1\">Snh. VII, 1</cite> <he>ארבע מיתות … ש׳ וכ׳</he> four modes of capital punishment …, stoning, burning &c. (expl. ",
+				"<cite ref=\"Mishnah Sanhedrin 7:2\">ib. 2</cite>). Ib. 52ᵃ <he>שְׂרֵיפַת נשמה</he>, v. <cite ref=\"N01334\"><he>נְשָׁמָה</he></cite>. Ib. <he>ש׳ ממש</he> execution by fire in its real sense. ",
+				"<cite ref=\"Mishnah Avodah Zarah 1:3\">Ab. Zar. I, 3</cite> <he>כל מיתה שיש בה ש׳ וכ׳</he> the anniversary of an idolater’s death with which burning (of garments &c.) was connected (at the time of burial) is considered an idolatrous festival. ",
+				"<cite ref=\"Bamidbar Rabbah 11:1\">Num. R. s. 11</cite>, v. <cite ref=\"S01270\"><he>קָלוֹן</he> II</cite>. ",
+				"<cite ref=\"Rosh Hashanah 18b:5\">R. Hash. 18ᵇ</cite> <he>שקולה … כשריפת בית וכ׳</he> the death of the righteous is equal to the burning of the Temple; a. fr.—[<cite ref=\"Jerusalem Talmud Shabbat 14:3:8\">Y. Sabb. XIV, 14ᶜ</cite> bot. <he>שריפה</he>, v. <cite ref=\"U01981\"><he>שְׂרִיפָה</he></cite>.]—Pl. <he>שְׂרֵיפוֹת</he>. ",
+				"<cite ref=\"Pesachim 75a:13\">Pes. 75ᵃ</cite> (ref. to <cite ref=\"Leviticus 21:9\">Lev. XXI, 9</cite>) <he>תשרף לרבות כל ש׳ הבאות וכ׳</he> ‘shall be burned’, this includes all burnings which are the result of fire (e.g. death through molten lead). ",
+				"<cite ref=\"Vayikra Rabbah 16:4\">Lev. R. s. 16</cite> <he>בוא וראה כמה ש׳ הוא שורף</he> come and see how many fires it (the tongue) kindles (how much destruction it causes); a. e."
+			]
+		}
+	]
+}

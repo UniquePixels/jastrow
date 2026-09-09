@@ -1,0 +1,23 @@
+{
+	"id": "A02242",
+	"slug": "אניקא-2",
+	"headword": {
+		"text": "אֲנִיקָא"
+	},
+	"page": {
+		"number": 85,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"A02285\"><he>אנק</he></cite>) <i>trouble, affliction</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 22:20\">Targ. Y. Gen. XXII, 20</cite>; a. e.—Pl. <he>אֲנִיקֵי</he>, <he>אֲנִיקִין</he> (often used as a singular). ",
+				"<cite ref=\"Onkelos Leviticus 21:10\">Targ. Lev. XXI, 10</cite> (affliction by death in the family); a. e. Cmp. <cite ref=\"A02256\"><he>אֲנַנְקָא</he></cite>."
+			]
+		}
+	]
+}

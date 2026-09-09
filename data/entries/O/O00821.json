@@ -1,0 +1,31 @@
+{
+	"id": "O00821",
+	"slug": "סיקרא-2",
+	"headword": {
+		"text": "סִיקְרָא",
+		"homograph": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "סִקְ׳"
+		}
+	],
+	"page": {
+		"number": 986,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O01497\"><he>סָקַר</he> II</cite>, a. P. Sm. p. 2722) <i>rock-lichen</i> (fucus); <i>red paint</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 2:3\">Gitt. II, 3</cite>, expl. ",
+				"<cite ref=\"Gittin 19a:8\">ib. 19ᵃ</cite> <cite ref=\"O01506\"><he>סקרתא</he></cite>. ",
+				"<cite ref=\"Mishnah Bekhorot 9:7\">Bekh. IX, 7</cite>, v. <cite ref=\"O01497\"><he>סָקַר</he> II</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Sheviit 4:4:4\">Y. Shebi. IV, 35ᵇ</cite> bot. <cite ref=\"O00823\"><he>סִיקְרָה</he></cite>."
+			]
+		}
+	]
+}

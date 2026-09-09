@@ -1,0 +1,28 @@
+{
+	"id": "V00380",
+	"slug": "תחנה",
+	"headword": {
+		"text": "תְּחִנָּה"
+	},
+	"altHeadwords": [
+		{
+			"text": "תְּחִי׳"
+		}
+	],
+	"page": {
+		"number": 1662,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"H01311\"><he>חָנַן</he></cite>)<i>prayer for grace</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Torah 811:1\">Yalk. Deut. 811</cite>; <cite ref=\"Yalkut Shimoni on Nach 157:7\">Yalk. Sam. 157</cite>, v. <cite ref=\"H00821\"><he>חִינּוּן</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 4:3:10\">Y. Ber. IV, 8ᵃ</cite> <he>מִתְּחִינָּתֵנוּ</he>, v. <cite ref=\"P00820\"><he>עָלַם</he> II</cite>; a. e."
+			]
+		}
+	]
+}

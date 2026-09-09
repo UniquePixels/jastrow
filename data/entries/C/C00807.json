@@ -1,0 +1,24 @@
+{
+	"id": "C00807",
+	"slug": "גירא-1",
+	"headword": {
+		"text": "גִּירָא",
+		"homograph": 3
+	},
+	"page": {
+		"number": 242,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C01392\"><he>גרר</he></cite>; cmp. <cite ref=\"C01396\"><he>גְּרָרָא</he></cite>) <i>direct consequence</i> of an act. . ",
+			"units": [
+				"<cite ref=\"Bava Batra 22b:12\">B. Bath. 22ᵇ</cite> <he>בגירי דידיה</he> (Rashi <he>דיליה</he>); <cite ref=\"Bava Batra 25b\">ib. 25ᵇ</cite> sq. <he>בגִירֵיה דיליה</he> (Ms. M. only <he>בגיריה</he>, v. Rabb. D. S. a. l. note); <cite ref=\"Bava Metzia 117a:12\">B. Mets. 117ᵃ</cite> <he>בגירי דיליה</he> when the damage is a direct result of his act. ",
+				"<cite ref=\"Bava Metzia 44a:3\">Ib. 44ᵃ</cite> <he>גירי דידיה וכ׳</he> it is his act that helped it (to get sour). [Rashi: <i>his arrows</i> in a metaphorical sense, v. preced.]"
+			]
+		}
+	]
+}

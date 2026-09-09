@@ -1,0 +1,22 @@
+{
+	"id": "O00223",
+	"slug": "סואבא",
+	"headword": {
+		"text": "סוֹאֲבָא"
+	},
+	"page": {
+		"number": 960,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>מְסוֹאֲבָא</he>; <cite ref=\"O00004\"><he>סְאֵב</he></cite>) <i>unclean</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Deuteronomy 26:14\">Targ. Y. II, Deut. XXVI, 14</cite> <he>בס׳</he> while unclean."
+			]
+		}
+	]
+}

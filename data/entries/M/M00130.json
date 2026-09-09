@@ -1,0 +1,22 @@
+{
+	"id": "M00130",
+	"slug": "מגוד",
+	"headword": {
+		"text": "מָגוֹד"
+	},
+	"page": {
+		"number": 726,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"N00117\"><he>נָגַד</he></cite>; cmp. <cite ref=\"C00301\"><he>גּוֹד</he></cite>) <i>a frame to spread clothes on</i>. ",
+			"units": [
+				"<cite ref=\"Bava Metzia 30a:4\">B. Mets. 30ᵃ</cite>; <cite ref=\"Pesachim 26b:4\">Pes. 26ᵇ</cite> <he>אבידה לא ישטחנה ע״ג … מ׳ וכ׳</he> the finder must not spread a lost object in his charge over a bed or a frame for his own use."
+			]
+		}
+	]
+}

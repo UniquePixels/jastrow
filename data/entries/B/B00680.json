@@ -1,0 +1,22 @@
+{
+	"id": "B00680",
+	"slug": "ביצוע",
+	"headword": {
+		"text": "בִּיצּוּעַ"
+	},
+	"page": {
+		"number": 164,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"B01100\"><he>בָּצַע</he></cite>) <i>adjustment, compromise</i> (usually <cite ref=\"Q02103\"><he>פְּשָׁרָה</he></cite>). ",
+			"units": [
+				"<cite ref=\"Sanhedrin 6a:6\">Snh. 6ᵃ</cite>. Y. ib. I, 18ᵇ; a. e.—[Pl. <he>בִּיצּוּעִין</he>, v. <cite ref=\"B01102\"><he>בִּצְעָה</he></cite>.]"
+			]
+		}
+	]
+}

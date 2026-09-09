@@ -1,0 +1,27 @@
+{
+	"id": "B00095",
+	"slug": "בד-3",
+	"headword": {
+		"text": "בַּד",
+		"homograph": 2
+	},
+	"page": {
+		"number": 138,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>בדד</he>) <i>olive press</i> (cmp. <cite ref=\"C01429\"><he>גַּת</he></cite>), <i>tank</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 8:6\">Shebi. VIII, 6</cite> <he>אין … בַּבַּד</he> you must not press olives in the tank (in the Sabbath year).—בית הַבַּד <i>the building containing the tank</i> and all implements for pressing olives. ",
+				"<cite ref=\"Mishnah Shabbat 1:9\">Sabb. I, 9</cite> <he>קורת ב׳ הב׳</he> the beam of the press; a. fr.—",
+				"<cite ref=\"Beitzah 19a\">Bets. 19ᵃ</cite>; <cite ref=\"Tosefta Beitsah 2:7\">Tosef. ib. II, 7</cite>, v. <cite ref=\"C00031\"><he>גַּב</he></cite>.—Pl. <he>בַּדִּים</he>, <cite ref=\"B00144\"><he>בַּדִּין</he></cite>. ",
+				"<cite ref=\"Mishnah Bava Batra 4:7\">B. Bath. IV, 7</cite> <he>בית הב׳</he>. ",
+				"<cite ref=\"Mishnah Tahorot 9:7\">Toh. IX, 7</cite> <he>בד אחד או שני ב׳</he> a quantity of olives for one tank or for two; a. fr."
+			]
+		}
+	]
+}

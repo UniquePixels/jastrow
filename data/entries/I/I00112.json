@@ -1,0 +1,42 @@
+{
+	"id": "I00112",
+	"slug": "טובה",
+	"headword": {
+		"text": "טוֹבָה"
+	},
+	"page": {
+		"number": 521,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h., v. <cite ref=\"I00108\"><he>טוֹב</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>good, goodness</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Shekalim 1:1:6\">Y. Shek. I, beg. 45ᵈ</cite> <he>לט׳ כל נדיב לב</he> for a good purpose—every liberal-hearted &c. ",
+				"<cite ref=\"Sotah 47b:21\">Sot. 47ᵇ</cite> <he>ופסקה ט׳</he> and blessing (plenty) has departed. ",
+				"<cite ref=\"Yevamot 47a\">Yeb. 47ᵃ</cite>, sq. <he>אינם … לא רוב ט׳ וכ׳</he> they cannot stand either too much prosperity or &c.; a. fr.—Pl. <he>טוֹבוֹת</he>. ",
+				"<cite ref=\"Kiddushin 40b:1\">Kidd. 40ᵇ</cite> <he>ט׳ הרבה</he> the effect of many good deeds; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>favor</i>. ",
+			"units": [
+				"<cite ref=\"Sotah 47b:21\">Sot. 47ᵇ</cite> <he>משרבו מקבלני טוֹבָתְךָ ומחזקני טוֹבוֹתֶיךָ</he> (read: <he>ומחזיקני</he>) when those became numerous who say, ‘I accept thy favor’ and ‘I shall appreciate thy favors’ (in official life); <cite ref=\"Tosefta Sotah 14:7\">Tosef. ib. XIV, 7</cite> <he>טוֹבֹתֶיךָ ומחזיקני טוֹבָתְךָ …</he>; a. fr.—בַּטּ׳ <i>as a favor</i>, i.e. <i>expected to be reciprocated</i>, <he>שלא בט׳</he> <i>not expected</i> &c. ",
+				"<cite ref=\"Mishnah Sheviit 4:1\">Shebi. IV, 1</cite>; <cite ref=\"Mishnah Sheviit 4:2\">2</cite>; a. e.—<he>טוֹבַת הֲנָאָה</he> the benefit of a pleasure, i.e. <i>the satisfaction which one feels in obliging somebody</i>. ",
+				"<cite ref=\"Pesachim 46b:4\">Pes. 46ᵇ</cite>, a. e. <he>ט׳ ה׳ ממון</he> the benefit of putting a person under obligation is equal to a consideration in money; a. fr.—4) <i>inclination, good will</i>. ",
+				"<cite ref=\"Bereishit Rabbah 86:4\">Gen. R. s. 86</cite> <he>בעל כרחה שלא בטוֹבָתָהּ</he> by force, against her will; Tanḥ. Vayesh. 4. ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 1:9:5\">Y. Ab. Zar. I, 40ᵃ</cite> bot <he>הביט בה שלא בטובתו</he> he looked at her involuntarily; a. fr.—<he>טוֹבַת עַיִן</he> (v. <cite ref=\"P00601\"><he>עַיִן</he></cite>) <i>liberality</i>. ",
+				"<cite ref=\"Nedarim 38a:4\">Ned. 38ᵃ</cite> <he>נהג בה ט׳ ע׳ וכ׳</he> was liberal with the Law (that had been given to him), and he gave it to Israel."
+			],
+			"label": "2"
+		}
+	]
+}

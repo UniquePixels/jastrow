@@ -1,0 +1,25 @@
+{
+	"id": "E00790",
+	"slug": "הקזה",
+	"headword": {
+		"text": "הַקָּזָה"
+	},
+	"page": {
+		"number": 364,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>נקז</he>) <i>letting blood, opening a vein</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Keritot 5:1\">Ker. V, 1</cite> <he>דם ה׳ שהנפש יוצאה בו</he> the blood of arteries with which life goes out, i.e. the splashing blood; <cite ref=\"Keritot 22a:34\">ib. 22ᵃ</cite>. ",
+				"<cite ref=\"Niddah 19b:59\">Nidd. 19ᵇ</cite>.—",
+				"<cite ref=\"Gittin 70a:24\">Gitt. 70ᵃ</cite> <he>הַקָּזַת דם</he> blood-letting. ",
+				"<cite ref=\"Shabbat 29a\">Sabb. 29ᵃ</cite> <he>סעודת ה׳</he> Ms. M. (ed. <he>ה׳ דם</he>) the meal taken after blood-letting; a. fr."
+			]
+		}
+	]
+}

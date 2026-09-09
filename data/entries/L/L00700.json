@@ -1,0 +1,39 @@
+{
+	"id": "L00700",
+	"slug": "לקש-1",
+	"headword": {
+		"text": "לָקַשׁ"
+	},
+	"page": {
+		"number": 719,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to be slow, late</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִלְקִישׁ"],
+			"senses": [
+				{
+					"gloss": "<i>to retard</i>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 1:4\">Num. R. s. 1</cite>, beg. (ref. to <cite ref=\"M00059\"><he>מאפליה</he></cite>, <cite ref=\"Jeremiah 2:31\">Jer. II, 31</cite>; cmp. <cite ref=\"A02682\"><he>אָפִיל</he></cite>) <he>שמא … והִלְקַשְׁתִּי אותה</he> did I ever promise … and retard it?; Tanḥ. B’midb. 2; <cite ref=\"Yalkut Shimoni on Nach 267\">Yalk. Jer. 267</cite>; <cite ref=\"Bamidbar Rabbah 23\">Num. R. s. 23</cite> <he>שמא … והִלְקַשְׁתִּי אתכם</he> did I promise to bring you … and keep you back?"
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to do a thing late, finish in a hurry, in a state of exhaustion</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 30\">Lev. R. s. 30</cite> (interpret. <he>יעטף</he>, <cite ref=\"Psalms 102:1\">Ps. CII, 1</cite>, with ref. to <cite ref=\"Genesis 30:42\">Gen. XXX, 42</cite>) <he>מה הפועל … לכשיפליג ממלאכתו קימעה ויַלְקִישֶׁנָּה בסוף</he> (not <he>מלאכתו</he>) as a laborer sits waiting for the time when he may rest a while from his labor, and finally finishes it in a hurry (when it is late)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

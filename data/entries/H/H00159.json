@@ -1,0 +1,34 @@
+{
+	"id": "H00159",
+	"slug": "חגר-4",
+	"headword": {
+		"text": "חֲגַר",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 424,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"H00158\">same</cite>, <i>to be lame</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on II Samuel 4:4\">Targ. II Sam. IV, 4</cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["אַחְגִּיר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"H00158\">same</cite>. Targ. II Esth. I, 2. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on II Samuel 19:27\">Targ. II Sam. XIX, 27</cite> <he>מַחְגִּיר</he> ed. Ven. (ed. Lag. <he>מחוגר</he>, oth. ed. <cite ref=\"H00152\"><he>חַגִּיר</he></cite>). [<cite ref=\"H00157\"><he>חֲגַר</he></cite> constr. of <cite ref=\"H00164\"><he>חִגְּרָא</he></cite> q. v.]"
+					]
+				}
+			],
+			"stem": "Af."
+		}
+	]
+}

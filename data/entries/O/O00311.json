@@ -1,0 +1,23 @@
+{
+	"id": "O00311",
+	"slug": "סול-1",
+	"headword": {
+		"text": "סוֹל"
+	},
+	"page": {
+		"number": 964,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (v. <cite ref=\"O00658\"><he>סִילּוֹן</he> I</cite>) <i>thorn, a wooden prick</i>. Y. Kidd. I, 59ᵈ top (ref. to <cite ref=\"Deuteronomy 15:17\">Deut. XV, 17</cite>) <he>מניין אפי׳ בס׳ וכ׳</he> whence do you prove that you may also use a prick, a thorn &c.?; <cite ref=\"Bekhorot 37b\">Bekh. 37ᵇ</cite>; <cite ref=\"Shevuot 4b\">Shebu. 4ᵇ</cite>; a. e.—Pl. <he>סוּלִּים</he>, <cite ref=\"O00233\"><he>סוּלִּין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 3:1\">Num. R. s. 3</cite>, beg. <he>מה התמר … עושה ס׳</he> as the palm bears dates … and also pricks (v. <cite ref=\"N00298\"><he>נוֹבֶלֶת</he></cite>); <cite ref=\"Midrash Tehillim 72:6\">Midr. Till. to Ps. XCII, 13</cite> <cite ref=\"O00665\"><he>סילין</he></cite>; ed. Bub. <cite ref=\"O00665\"><he>סילין</he></cite> (corr. acc.). ",
+				"<cite ref=\"Jerusalem Talmud Avodah Zarah 3:1:21\">Y. Ab. Zar. III, 42ᶜ</cite> bot. <he>והסולים</he> (ed. Krot. <he>והסלים</he>, corr. acc.), v. <cite ref=\"O01103\"><he>סָמָל</he></cite>."
+			]
+		}
+	]
+}

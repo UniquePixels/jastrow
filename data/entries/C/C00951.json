@@ -1,0 +1,31 @@
+{
+	"id": "C00951",
+	"slug": "גלים",
+	"headword": {
+		"text": "גְּלִים"
+	},
+	"altHeadwords": [
+		{
+			"text": "גְּלִימָא",
+			"homograph": 1
+		}
+	],
+	"page": {
+		"number": 249,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<he>גְלַם</he> 1) <i>wrapper, cloak</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 25:25\">Targ. O. Gen. XXV, 25</cite> ed. <he>כִּגְלִים</he> (ed. Berl. <cite ref=\"K00662\"><he>כָּכְלָן</he></cite>, v. <cite ref=\"K00555\"><he>כִּילַן</he></cite>, Var. <he>כִּגְלָם</he>). Targ. II Esth. VIII, 15.—",
+				"<cite ref=\"Shabbat 77b:11\">Sabb. 77ᵇ</cite> it is called <i>g’lima</i>, <he>שנעשה בו כגוֹלֶם</he> ed. (Ms. M. <he>שנעשית כגו׳</he>) because one looks in it like a shapeless (armless) body (Ms. M. it is rolled up like a lump). ",
+				"<cite ref=\"Sanhedrin 102b:4\">Snh. 102ᵇ</cite> <he>שיפולי ג׳</he> trail of the cloak; a. fr.—Pl. <he>גְּלִימֵי</he>. ",
+				"<cite ref=\"Sanhedrin 110a:3\">Ib. 110ᵃ</cite>"
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "S00761",
+	"slug": "קטיע",
+	"headword": {
+		"text": "קַטִּיעַ"
+	},
+	"altHeadwords": [
+		{
+			"text": "קַטִּיעָא"
+		},
+		{
+			"text": "קַטִּיעֲתָא"
+		}
+	],
+	"page": {
+		"number": 1348,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S00805\"><he>קְטַע</he></cite>) <i>mutilating, barbarous</i>. ",
+			"units": [
+				"<cite ref=\"Avodah Zarah 10b:13\">Ab. Zar. 10ᵇ</cite> <he>קרו לך מלכותא ק׳</he> they will call thee (thy government) a mutilating government (that kills its own subjects); <cite ref=\"Yalkut Shimoni on Nach 373:1\">Yalk. Ez. 373</cite>; <cite ref=\"Pesachim 87b:19\">Pes. 87ᵇ</cite>"
+			]
+		}
+	]
+}

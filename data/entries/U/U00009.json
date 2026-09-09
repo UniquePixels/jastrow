@@ -1,0 +1,22 @@
+{
+	"id": "U00009",
+	"slug": "שאוב",
+	"headword": {
+		"text": "שָׁאוֹב"
+	},
+	"page": {
+		"number": 1505,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U00003\"><he>שָׁאַב</he></cite>) <i>trough</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Nedarim 1:1:14\">Y. Ned. I, 36ᵈ</cite> bot., v. <cite ref=\"N00595\"><he>נִיאֵב</he></cite>."
+			]
+		}
+	]
+}

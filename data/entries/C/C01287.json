@@ -1,0 +1,27 @@
+{
+	"id": "C01287",
+	"slug": "גרה-2",
+	"headword": {
+		"text": "גֵּרָה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 266,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; cmp. <cite ref=\"C01257\"><he>גַרְגַּר</he></cite>)<i>gerah</i> (a grain), name of a coin. ",
+			"units": ["<cite ref=\"Bekhorot 50a:6\">Bekh. 50ᵃ</cite>"],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>the seed of St</i>. <i>John’s bread</i>, v. <cite ref=\"C01288\">next w.</cite>",
+			"units": [],
+			"label": "2"
+		}
+	]
+}

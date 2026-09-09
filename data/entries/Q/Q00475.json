@@ -1,0 +1,22 @@
+{
+	"id": "Q00475",
+	"slug": "פחיתה",
+	"headword": {
+		"text": "פְּחִיתָה"
+	},
+	"page": {
+		"number": 1152,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"Q00486\"><he>פָּחַת</he></cite>) <i>carving, digging out</i>. ",
+			"units": [
+				"<cite ref=\"Beitzah 32a:9\">Bets. 32ᵃ</cite> <he>פְּחִיתַת נר וכ׳</he> the mere carving out of a lump of clay for the purpose of using it as a candlestick makes it a vessel."
+			]
+		}
+	]
+}

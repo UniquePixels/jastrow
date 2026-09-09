@@ -1,0 +1,22 @@
+{
+	"id": "M01601",
+	"slug": "מלמול",
+	"headword": {
+		"text": "מִלְמוּל"
+	},
+	"page": {
+		"number": 793,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01591\"><he>מָלַל</he> II</cite>), pl. <he>מִלְמוּלִין</he> <i>crumbs</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Mikvaot 9:2\">Mikv. IX, 2</cite> <he>המ׳</he> the crumb-like particles of dirty or sweaty hands when they are rubbed against each other."
+			]
+		}
+	]
+}

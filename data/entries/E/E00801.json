@@ -1,0 +1,23 @@
+{
+	"id": "E00801",
+	"slug": "הקצה-1",
+	"headword": {
+		"text": "הֲקָצה",
+		"homograph": 1
+	},
+	"page": {
+		"number": 364,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"S01115\"><he>קִיץ</he></cite>) <i>waking up</i>. ",
+			"units": [
+				"<cite ref=\"Midrash Tehillim 17:11\">Midr. Till. to Ps. XVII, 15</cite> <he>הֲקָצַת המתים</he> resurrection of the dead."
+			]
+		}
+	]
+}

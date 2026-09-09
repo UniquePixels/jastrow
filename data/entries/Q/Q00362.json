@@ -1,0 +1,35 @@
+{
+	"id": "Q00362",
+	"slug": "פורני-1",
+	"headword": {
+		"text": "פּוֹרְנִי"
+	},
+	"page": {
+		"number": 1147,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (πόρνη) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>harlot</i>. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 33:6\">Lev. R. s. 33</cite> <he>פילא פ׳</he>, v. <cite ref=\"B00855\"><he>בְּלֵי</he> I</cite>; Yalk. Dan. 1061. ",
+				"<cite ref=\"Shir HaShirim Rabbah 3:4\">Cant. R. to III, 4</cite> <cite ref=\"Q00054\"><he>פגי</he></cite> (corr. acc.), v. <cite ref=\"B00036\"><he>באמי</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. Lat. adultera, adulterina, sub. clavis; v. Sm. Ant. s. v. Clavis) <i>skeleton-key</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Kelim 11:4\">Kel. XI, 4</cite> <he>הפורני</he> Ar. ed. Koh. (ed. <he>הפורנא</he>, <he>הפורנה</he>)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,67 @@
+{
+	"id": "C00271",
+	"slug": "גוב-3",
+	"headword": {
+		"text": "גּוֹב",
+		"disambiguator": 2
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּב"
+		},
+		{
+			"text": "גּוּבָּא"
+		},
+		{
+			"text": "גֹּב"
+		},
+		{
+			"text": "גֻּבָּא"
+		},
+		{
+			"text": "גּוּבָּה"
+		}
+	],
+	"page": {
+		"number": 216,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"C00270\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Daniel 6:8\">Dan. VI, 8</cite>; <cite ref=\"Daniel 6:13\">13</cite>; <cite ref=\"Daniel 6:17\">17</cite> sq.—",
+				"<cite ref=\"Onkelos Exodus 21:33\">Targ. Ex. XXI, 33</cite> sq. (some ed. <cite ref=\"C00272\"><he>גּוֹבָא</he></cite>); <cite ref=\"Aramaic Targum to Psalms 44:26\">Targ. Ps. XLIV, 26</cite> (ed. Vien. <cite ref=\"C00271\"><he>גּוּבָא</he></cite>); a. e.—Y. Ab. Zar. IV, 44ᵃ bot. <he>נפל לג׳</he> fell into a wine pit, v. <cite ref=\"G00247\"><he>זְחַל</he></cite>.—Pl. <he>גּוּבִּין</he>, <cite ref=\"C00280\"><he>גּוּבַּיָּא</he></cite>, <cite ref=\"C00275\"><he>גּוּבֵּי</he></cite>, <he>גוֹב׳</he>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 2:13\">Targ. Jer. II, 13</cite>. ",
+				"<cite ref=\"Onkelos Genesis 37:20\">Targ. Gen. XXXVII, 20</cite> ed. Berl. <cite ref=\"C00271\"><he>גּוּבַּ׳</he></cite> (Y. <cite ref=\"C00272\"><he>גּוֹבַ׳</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"C00031\"><he>גַּב</he></cite>, <cite ref=\"C00032\"><he>גַּבָּא</he></cite>) <i>body, trunk, untrimmed log</i>.—Pl. <cite ref=\"C00275\"><he>גּוּבֵּי</he></cite> or <cite ref=\"C00275\"><he>גּוֹבֵי</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 96a:8\">B. Kam. 96ᵃ</cite> <he>ג׳ דדיקלא</he> logs of a date-tree. ",
+				"<cite ref=\"Bava Kamma 96a:8\">Ib.</cite> <he>ג׳ ועבדינהו וכ׳</he>, v. <cite ref=\"K01300\"><he>כָּשׁוֹרָא</he></cite>. ",
+				"<cite ref=\"Shabbat 109b:11\">Sabb. 109ᵇ</cite> the swallowed serpent came out of his body <he>ג׳ ג׳</he> in single trunks (sections of the body). ",
+				"<cite ref=\"Moed Katan 24a:8\">M. Kat. 24ᵃ</cite> <he>ג׳ דדיקנא</he> chin, v. <cite ref=\"C00031\"><he>גַּב</he></cite> (Rashi: <i>the dimples</i> of the chin)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>back, top</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 9:3\">Targ. Prov. IX, 3</cite> Ms. <he>על ג׳</he> (cmp. <he>על גַּב</he>; ed. <cite ref=\"C00609\"><he>גִּיב</he></cite>, h. text <cite ref=\"C01202\"><he>גַּפֵּי</he></cite>)."
+			],
+			"label": "3"
+		},
+		{
+			"gloss": " *prep. (cmp. <he>גַּבֵּי־</he> s. v. <cite ref=\"C00031\"><he>גַּב</he></cite>) <he>מן גובי־</he> <i>out of</i>. Y. Keth. II, 35ᵃ <he>ומן גוביהן עבד וכ׳</he> and out of these (seventeen years) he spent thirteen years suffering with tooth-ache; <cite ref=\"Jerusalem Talmud Kilayim 9:3:7\">Y. Kil. IX, 32ᵇ</cite> <he>ומן גובעין</he> (corr. acc.).",
+			"units": [],
+			"label": "4"
+		}
+	]
+}

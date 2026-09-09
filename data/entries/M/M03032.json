@@ -1,0 +1,23 @@
+{
+	"id": "M03032",
+	"slug": "מתוק-2",
+	"headword": {
+		"text": "מָתוֹק",
+		"homograph": 2
+	},
+	"page": {
+		"number": 860,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.<i>Bitter Apple</i> or <i>Cucumis</i> (v. <cite ref=\"M03063\"><he>מְתִיקָה</he></cite> 2). ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 3:1\">Shebi. III, 1</cite>; <cite ref=\"Mishnah Sheviit 9:6\">IX, 6</cite> <he>עד שייבש המ׳</he> until the <i>mathok</i> begins to dry up; [R. S. a. l. <i>the juice of the dung</i>].—Y. ib. III, beg. 34ᶜ, expl. <cite ref=\"Q01468\"><he>פְּקוּעָה</he></cite>."
+			]
+		}
+	]
+}

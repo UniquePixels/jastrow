@@ -1,0 +1,27 @@
+{
+	"id": "C00307",
+	"slug": "גודגדא",
+	"headword": {
+		"text": "גּוּדְגָּדָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "גּוּדְגָּדָה"
+		}
+	],
+	"page": {
+		"number": 218,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m.<i>Gudgada</i>, father of R. Johanan. ",
+			"units": [
+				"<cite ref=\"Mishnah Chagigah 2:7\">Ḥag. II, 7</cite>; <cite ref=\"Mishnah Gittin 5:5\">Gitt. V, 5</cite>; <cite ref=\"Mishnah Yevamot 14:2\">Yeb. XIV, 2</cite>; <cite ref=\"Mishnah Eduyot 7:9\">Eduy. VII, 9</cite>. <he>ר׳ נחוניה בן ג׳</he> ed. (Ms. M. <cite ref=\"J00180\"><he>יוחנן</he></cite>)."
+			]
+		}
+	]
+}

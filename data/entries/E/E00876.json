@@ -1,0 +1,41 @@
+{
+	"id": "E00876",
+	"slug": "הרמה",
+	"headword": {
+		"text": "הֲרָמָה"
+	},
+	"page": {
+		"number": 367,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00374\"><he>רוּם</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>lifting, removal</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Yoma 2:1:3\">Y. Yoma II, beg. 39ᵇ</cite> <he>יצא זה שהוא בה׳</he> this (service) is excluded, since it consists only of removing (the ashes). Ib. 39ᶜ; a. fr."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>separating the priest’s gift</i> &c. ",
+			"units": [
+				"<cite ref=\"Mishnah Beitzah 1:6\">Bets. I, 6</cite> (<cite ref=\"Beitzah 12b:6\">12ᵇ</cite>) <he>אינו זכאי בהֲרָמָתָהּ</he> (v. Rabb. D. S. a. l.) nobody obtains a privilege by its being set apart; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>lifting up, elevation</i>. ",
+			"units": [
+				"<cite ref=\"Yalkut Shimoni on Nach 624\">Yalk. Ps. 624</cite> (ref. to <he>ומרים</he>, <cite ref=\"Psalms 3:4\">Ps. III, 4</cite>) <he>תחת שהייתי … תלוי ראש נתת לי הֲרָמַת ראש וכ׳</he> while I deserved hanging down the head (in the consciousness of guilt), thou hast granted me a lifting up of the head (forgiveness, <cite ref=\"II Samuel 12:13\">II Sam. XII, 13</cite>); <cite ref=\"II Samuel 12:13\">ib.</cite> (ref. to <he>תשא</he> <cite ref=\"Exodus 30:12\">Ex. XXX, 12</cite>) … <he>תחת שהיינו תלוי ראש … ה׳ ראש</he>; Pesik. Shek. 10ᵇ, sq. (corr. acc.); Midr. Till. to Ps. l. c.; <cite ref=\"Yalkut Shimoni on Torah 365:1\">Yalk. Ex. 365</cite> (corr. acc.). Tanḥ. Emor 16."
+			],
+			"label": "3"
+		}
+	]
+}

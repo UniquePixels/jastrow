@@ -1,0 +1,23 @@
+{
+	"id": "O00828",
+	"slug": "סירא-1",
+	"headword": {
+		"text": "סִירָא",
+		"homograph": 1
+	},
+	"page": {
+		"number": 987,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. = h. <cite ref=\"U00116\"><he>שִׁרְיָה</he></cite>, <i>coat of mail</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 28:32\">Targ. Y. Ex. XXVIII, 32</cite> (Y. I <cite ref=\"U01074\"><he>שיריא</he></cite>; h. text <he>תחרא</he>)."
+			]
+		}
+	]
+}

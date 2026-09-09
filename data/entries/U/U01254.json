@@ -1,0 +1,33 @@
+{
+	"id": "U01254",
+	"slug": "שלום-4",
+	"headword": {
+		"text": "שַׁלּוּם"
+	},
+	"page": {
+		"number": 1579,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) pr. n. m. <i>Shallum</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " husband of Huldah the prophetess. ",
+			"units": [
+				"<cite ref=\"Megillah 14b\">Meg. 14ᵇ</cite> (counted among the prophets). ",
+				"<cite ref=\"Yalkut Shimoni on Nach 233:7\">Yalk. Kings 233</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " name of several Amoraim. ",
+			"units": [
+				"<cite ref=\"Vayikra Rabbah 26:4\">Lev. R. s. 26</cite> <he>רב ש׳</he>. ",
+				"<cite ref=\"Pesikta Rabbati 3:1\">Pesik. R. s. 3</cite> <he>יהודה הלוי ברבי ש׳</he>; <cite ref=\"Pesikta Rabbati 5:1\">ib. s. 5</cite>; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

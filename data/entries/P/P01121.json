@@ -1,0 +1,36 @@
+{
+	"id": "P01121",
+	"slug": "עצירה",
+	"headword": {
+		"text": "עֲצִירָה"
+	},
+	"page": {
+		"number": 1102,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"P01130\"><he>עָצַר</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>closing up, obstruction of orifices</i>, v. <cite ref=\"P00646\"><he>עִיצּוּר</he></cite>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 52:13\">Gen. R. s. 52</cite> end (ref. to <cite ref=\"Genesis 20:18\">Gen. XX, 18</cite>) <he>נאמר ע׳ בפה ע׳ בגרון וכ׳</he> the root <he>עצר</he> applies to closure of the mouth, of the throat &c.—<he>עֲצִירַת גשמים</he> (v. ",
+				"<cite ref=\"Deuteronomy 11:17\">Deut. XI, 17</cite>) closing up the heavens so as to withhold the rain, <i>drought</i>. ",
+				"<cite ref=\"Sifrei Devarim 43\">Sifré Deut. 43</cite>; <cite ref=\"Yalkut Shimoni on Torah 867\">Yalk. ib. 867</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>locking up, detention</i>. ",
+			"units": [
+				"<cite ref=\"Sifrei Bamidbar 151:1\">Sifré Num. 151</cite>; <cite ref=\"Yalkut Shimoni on Torah 782:20\">Yalk. ib. 782</cite> (ref. to <cite ref=\"P01136\"><he>עצרת</he></cite>, <cite ref=\"Numbers 29:35\">Num. XXIX, 35</cite>) <he>אין ע׳ אלא כניסה</he> the root <he>עצר</he> has the meaning of detention (by ref. to <cite ref=\"Jeremiah 36:5\">Jer. XXXVI, 5</cite>)."
+			],
+			"label": "2"
+		}
+	]
+}

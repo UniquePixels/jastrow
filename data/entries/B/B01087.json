@@ -1,0 +1,25 @@
+{
+	"id": "B01087",
+	"slug": "בציר-1",
+	"headword": {
+		"text": "בָּצִיר",
+		"homograph": 1
+	},
+	"page": {
+		"number": 184,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <he>בצר</he>)<i>vintage, harvesting</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Peah 7:7\">Peah VII, 7</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Bava Batra 3:2:2\">Y. B. Bath. III, 14ᵃ</cite> top <he>ג׳ שנים … ב׳ וכ׳</he> three undisturbed grain crops, three grape harvests &c.; v. Bab. ",
+				"<cite ref=\"Bava Batra 36b\">B. Bath. 36ᵇ</cite>.  v. <cite ref=\"B01091\"><he>בְּצִירָה</he></cite>."
+			]
+		}
+	]
+}

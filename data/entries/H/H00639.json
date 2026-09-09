@@ -1,0 +1,43 @@
+{
+	"id": "H00639",
+	"slug": "חטף-1",
+	"headword": {
+		"text": "חָטַף"
+	},
+	"page": {
+		"number": 450,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"H00607\"><he>חָטַט</he></cite>, a. <cite ref=\"C00558\"><he>גָּזַל</he></cite> with <cite ref=\"C00537\"><he>גָּזַז</he></cite>)<i>to seize, rob</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:5:13\">Y. Ber. I, 3ᶜ</cite> bot. (ref. to <cite ref=\"I Kings 8:54\">I Kings VIII, 54</cite>) <he>ככפים הללו שלא חָטְפוּ בבנין וכ׳</he> ed. Krot. (oth. ed. <he>נטפו</he>, prob. <he>נִטְנְפוּ</he>, v. <cite ref=\"I00581\"><he>טָנַף</he></cite>) like those hands which did not rob anything at building the Temple. ",
+				"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <he>וחֲטָפוֹ ממנה</he> and snatched it (the letter of divorce) out of her hands; a. fr.—",
+				"<cite ref=\"Kohelet Rabbah 7:26\">Koh. R. to VII, 26</cite>, v. <cite ref=\"H00589\"><he>חָטַב</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. Lat. carpo) <i>to do a thing with haste</i>, esp. (v. ",
+			"units": [
+				"<cite ref=\"Berakhot 35a\">Ber. 35ᵃ</cite> sq., <cite ref=\"Tosefta Berakhot 4:1\">Tosef. ib. IV, 1</cite>) <i>to break without benediction</i>. ",
+				"<cite ref=\"Tosefta Pesachim 10:9\">Tosef. Pes. X, 9</cite> <he>חוֹטְפִין מצה לתינוק</he> <i>matzah</i> is distributed among the children before the regular turn in the Passover ceremonies, in order that they may not fall asleep; <cite ref=\"Pesachim 109a\">Pes. 109ᵃ</cite> (v. Rabb. D. S. a. l. note 50; oth. opin. in comment.). <i>Part. pass.</i> <cite ref=\"H00602\"><he>חָטוּף</he></cite>, f. <he>חֲטוּפָה</he> <i>snatched, abrupt</i>. ",
+				"<cite ref=\"Moed Katan 28a\">M. Kat. 28ᵃ</cite> <he>מת פתאם מיתה ח׳</he> if one dies suddenly, it is called an abrupt death (snatched by death); <cite ref=\"Tractate Semachot 3:9\">Treat. S’maḥ. ch. III</cite> <he>לארבעה … מיתה ח׳</he> after four or five days of sickness, it is called &c.; v. <cite ref=\"D00432\"><he>דָּחַף</he></cite>.—<he>אמן ח׳</he>, v. <cite ref=\"A02040\"><he>אָמֵן</he> II</cite>."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִתְחַטֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to be snatched, hurried</i>. Y. Ber. VIII, end, 12ᶜ he who says ‘a hurried Amen’—<he>יִתְחַטְּפוּ שנותיו</he> his years will be hurried (he will die an untimely, sudden death, v. supra); Bab. ",
+					"units": ["<cite ref=\"Berakhot 47a\">Ber. 47ᵃ</cite>"]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

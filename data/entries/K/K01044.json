@@ -1,0 +1,55 @@
+{
+	"id": "K01044",
+	"slug": "כפף-2",
+	"headword": {
+		"text": "כְּפַף"
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּפֵיף"
+		}
+	],
+	"page": {
+		"number": 661,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", ch. <cite ref=\"K01043\">same</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to bend</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 40:17\">Targ. Job XL, 17</cite>, v. <cite ref=\"K01034\"><he>כְּפַן</he> I</cite>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 17:7\">Targ. Ez. XVII, 7</cite> <cite ref=\"K01061\"><he>כָּפַת</he></cite> (h. text <he>כפנה</he>, v. <cite ref=\"K01033\"><he>כָּפַן</he></cite>). Targ. II Esth. I, 5 <he>כַּף אילנא וכ׳</he> bent tree to tree and made arches. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 58:5\">Targ. Is. LVIII, 5</cite>; a. e.—Part. pass. <cite ref=\"K01044\"><he>כָּפִיף</he></cite>, f. <cite ref=\"K01019\"><he>כְּפִיפָא</he></cite>, pl. <he>כְּפִיפִין</he>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 58:5\">Ib.</cite>—Targ. II Esth. V, 1. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 60:14\">Targ. Is. LX, 14</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to invert</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 25a\">M. Kat. 25ᵃ</cite> <he>כף כדא וכ׳</he> inverted a pitcher on the ground and placed thereon &c."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כַּפֵּף"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K01043\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Targum Jonathan on Ezekiel 17:6\">Targ. Ezek. XVII, 6</cite>. ",
+						"<cite ref=\"Targum Jonathan on Ezekiel 17:7\">Ib. 7</cite> <cite ref=\"K01061\"><he>כַּפַּת</he></cite> some ed., v. supra."
+					]
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

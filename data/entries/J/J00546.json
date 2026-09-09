@@ -1,0 +1,37 @@
+{
+	"id": "J00546",
+	"slug": "יצף-4",
+	"headword": {
+		"text": "יְצַף"
+	},
+	"altHeadwords": [
+		{
+			"text": "יִצְפָּא"
+		},
+		{
+			"text": "יוּצְ׳"
+		},
+		{
+			"text": "יִיצְ׳"
+		}
+	],
+	"page": {
+		"number": 590,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"J00545\">preced.</cite>; cmp. <cite ref=\"A02886\"><he>אַצְפָּא</he></cite>) <i>care, trouble</i>.—",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Joshua 22:24\">Targ. Josh. XXII, 24</cite> <he>מיי׳</he> ed. Lag. (oth. ed. <he>מיו׳</he>; h. text <he>מדאגה</he>). ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 49:23\">Targ. Jer. XLIX, 23</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 31:24\">Ib. XXXI, 24</cite> <he>נְפַשׁ י׳</he> troubled soul (h. text <he>דאבה</he>). ",
+				"<cite ref=\"Targum Jonathan on I Samuel 25:31\">Targ. I Sam. XXV, 31</cite> (ed. Wil. <cite ref=\"J00546\"><he>יַצָפָא</he></cite>) <i>regret</i> (h. text <cite ref=\"Q00318\"><he>פוקה</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 4:16\">Targ. Ez. IV, 16</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"id": "I00553",
+	"slug": "טמיר",
+	"headword": {
+		"text": "טָמִיר"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְמִיר"
+		},
+		{
+			"text": "טְמִירָא"
+		}
+	],
+	"page": {
+		"number": 539,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " c. (<cite ref=\"I00561\"><he>טְמַר</he></cite>, v. <cite ref=\"I00538\"><he>טְמוֹר</he></cite>) <i>hidden, secret;</i> (also as noun) <i>secrecy</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on I Samuel 10:22\">Targ. I Sam. X, 22</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 21:3\">Ib. XXI, 3</cite> (h. text <he>אלמני</he>); a. fr.—עבד ט׳ <i>to live hidden</i>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 8:5:5\">Y. Shebi. VIII, 38ᵇ</cite> top. ",
+				"<cite ref=\"Jerusalem Talmud Demai 1:3:6\">Y. Dem. I, 21ᵈ</cite> bot. <he>עבדת טמירה גבן</he> (not <he>טמו׳</he>), was hidden with them; <cite ref=\"Jerusalem Talmud Shekalim 5:1:7\">Y. Shek. V, 48ᵈ</cite> top <cite ref=\"I00553\"><he>טמירא</he></cite>.—Pl. <he>טְמִירִין</he>, f. <cite ref=\"I00553\"><he>טְמִירָן</he></cite>, <he>טְמִירָתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Joshua 7:21\">Targ. Josh. VII, 21</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 44:22\">Targ. Ps. XLIV, 22</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 19:13\">Ib. XIX, 13</cite> (ed. Lag. <he>טמורות</he>). ",
+				"<cite ref=\"Onkelos Genesis 41:45\">Targ. Gen. XLI, 45</cite> (v. Berl. Targ. O. II, p. 15)."
+			]
+		}
+	]
+}

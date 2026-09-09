@@ -1,0 +1,22 @@
+{
+	"id": "U01180",
+	"slug": "שכף",
+	"headword": {
+		"text": "שַׁכָּף"
+	},
+	"page": {
+		"number": 1575,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01180\"><he>שכף</he></cite>; v. <cite ref=\"A00924\"><he>אוּשְׁכָּפָא</he></cite>) <i>saddler, shoemaker, worker in leather</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Keilim Batra 1:15\">Tosef. Kel. B. Bath. I, 15</cite>, v. <cite ref=\"M01350\"><he>מַכְבֵּשׁ</he></cite>."
+			]
+		}
+	]
+}

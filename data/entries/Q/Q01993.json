@@ -1,0 +1,29 @@
+{
+	"id": "Q01993",
+	"slug": "פרקון",
+	"headword": {
+		"text": "פֵּרָקוֹן"
+	},
+	"altHeadwords": [
+		{
+			"text": "פֵּי׳"
+		}
+	],
+	"page": {
+		"number": 1240,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01980\"><he>פָּרַק</he></cite>) <i>redemption</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Ketubot 4:4\">Keth. IV, 4</cite> <he>חייב … ובפִרְקוֹנָהּ וכ׳</he> is bound to support her, to redeem her (when she is captured), and to bury her. ",
+				"<cite ref=\"Ketubot 47b:4-5\">Ib. 47ᵇ</cite> <he>תיקנו … ופִירְקוֹנָהּ תחת וכ׳</he> they instituted the duty of support as an equivalent for her handiwork, and that of redemption as an equivalent for the privilege of usufruct (of her property). ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 4:6:3\">Y. Maas. Sh. IV, 55ᵇ</cite> [read:] <he>פ״י פרקון</he> the mark Pé on a vessel means <i>peraḳon</i> (redemption, i.e. second tithes)."
+			]
+		}
+	]
+}

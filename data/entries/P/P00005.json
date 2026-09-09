@@ -1,0 +1,20 @@
+{
+	"id": "P00005",
+	"slug": "עאס",
+	"headword": {
+		"text": "עָאס",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1034,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " = <cite ref=\"P01041\"><he>עֲסֵי</he></cite> <i>to press</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 16:9\">Targ. Job XVI, 9</cite> Ms. Var. (ed. Lag. <he>עמס</he>; ed. Wil. <cite ref=\"P01041\"><he>עַסֵי</he></cite>)."
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "N00945",
+	"slug": "נסיתא",
+	"headword": {
+		"text": "נִסֵּיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "נִסְתָא"
+		},
+		{
+			"text": "נִי׳"
+		}
+	],
+	"page": {
+		"number": 917,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00927\"><he>נְסֵי</he></cite>) <i>trial</i>; pr. n. pl. <i>Nissetha, Nistha</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Exodus 17:7\">Targ. O. Ex. XVII, 7</cite> (Y. <cite ref=\"N00935\"><he>נִסְיוֹנָא</he></cite>); <cite ref=\"Onkelos Deuteronomy 33:8\">Targ. O. Deut. XXXIII, 8</cite> (h. text <he>מסה</he>); a. e."
+			]
+		}
+	]
+}

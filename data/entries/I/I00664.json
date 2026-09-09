@@ -1,0 +1,29 @@
+{
+	"id": "I00664",
+	"slug": "טפלא-2",
+	"headword": {
+		"text": "טְפֵלָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "טְפֵי׳"
+		}
+	],
+	"page": {
+		"number": 548,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. ch. (v. <cite ref=\"I00665\">next w.</cite>) <i>paste, plaster, coating</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 43:9\">Targ. Jer. XLIII, 9</cite> <he>טְפֵיל</he> constr. (h. text <cite ref=\"M01535\"><he>מֶלֶט</he></cite>).—",
+				"<cite ref=\"Pesachim 74b:4\">Pes. 74ᵇ</cite> <he>אי מעלי טִפְלֵיה</he> if its dough-paste is good. ",
+				"<cite ref=\"Moed Katan 9b:21\">M. Kat. 9ᵇ</cite>, a. e. <he>דשתי … בעיין בנתיה ט׳</he> because he drinks beer, his daughters need paste (to improve their complexion), v. <cite ref=\"I00661\"><he>טְפַל</he></cite>."
+			]
+		}
+	]
+}

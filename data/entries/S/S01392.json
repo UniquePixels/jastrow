@@ -1,0 +1,55 @@
+{
+	"id": "S01392",
+	"slug": "קלע-3",
+	"headword": {
+		"text": "קָלַע",
+		"homograph": 2
+	},
+	"page": {
+		"number": 1380,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "<i>to twist, plait</i>; [b. h. <i>to form a raised figure</i>, cmp. <cite ref=\"C00225\"><he>גָּדַל</he> II</cite>]. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 6:7\">Yoma VI, 7</cite> <he>קְלָעָן</he>, v. <cite ref=\"M02422\"><he>מַקֵּל</he></cite>. ",
+				"<cite ref=\"Shabbat 64a:2\">Sabb. 64ᵃ</cite> <he>עני קוֹלֵעַ שלש וכ׳</he> a poor man twists three threads and hangs the cord around his daughter’s neck. Y. ib. X, 12ᶜ bot. <he>הקולע שלש וכ׳</he> he that plaits three strings of hair on a person’s head. ",
+				"<cite ref=\"Tosefta Ma'asrot 1:6\">Tosef. Maasr. I, 6</cite> <he>היה עתיד לִקְלוֹעַ בשום ולאגוד וכ׳</he> (ed. Zuck. <he>ליקָּלֵעַ … וליאגד</he>, <i>Nif.</i>) if the intention was about the garlic crop to plait, and about the onions to tie them in bunches, <he>אינו חייב עד שיִקְלַע ויאגד</he> he is not bound to give the tithes until he plaits or ties (or <he>עד שיִקָּלֵעַ ויֵאָגֵד</he> until the things are plaited or bunched); a. e.—Trnsf. [<i>to weave a wreath</i>,] <i>to adorn, praise</i>. ",
+				"<cite ref=\"Midrash Tehillim 92\">Midr. Till. to Ps. XCII</cite>, end; <cite ref=\"Yalkut Shimoni on Nach 846:1\">Yalk. Ps. 846</cite> <he>הוא קוֹלֵעַ על יריאיו … קוֹלְעִים לו וכ׳</he> he (God) praises those who fear him, and those who fear him praise him; you say (<cite ref=\"Psalms 92:16\">Ps. XCII, 16</cite>) &c., and I say, (<cite ref=\"Zephaniah 3:13\">Zeph. III, 13</cite>) &c."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["קִילֵּעַ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"S01391\">same</cite>. ",
+					"units": [
+						"<cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite> <he>היא קִילְּעָה לו וכ׳</he> (not <he>קולעה</he>) she plaited her hair to please him (her paramour), therefore the priest loosens her hair; <cite ref=\"Tosefta Sotah 3:3\">Tosef. Sot. III, 3</cite> ed. Zuck. note <he>קלעה</he>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " <he>קִילְּעֶה</he> or <he>קִלְּעֶה</he> (cmp. <he>נתעלפה</he>, s. v. <cite ref=\"P00839\"><he>עָלַף</he> II</cite>) <i>to plait a person’s hair, dress, adorn</i> (v. supra). ",
+					"units": [
+						"<cite ref=\"Berakhot 61a\">Ber. 61ᵃ</cite>; <cite ref=\"Kohelet Rabbah 7:2\">Koh. R. to VII, 2</cite>; <cite ref=\"Shabbat 95a\">Sabb. 95ᵃ</cite>; <cite ref=\"Eruvin 18a\">Erub. 18ᵃ</cite>; <cite ref=\"Niddah 45b\">Nidd. 45ᵇ</cite>; <cite ref=\"Kohelet Rabbah 7:2\">Koh. R. to VII, 2</cite> (ref. to <he>ויבן</he>, <cite ref=\"Genesis 2:22\">Gen. II, 22</cite>) <he>מלמד שקילעה הקב״ה לחוה וכ׳</he> this intimates that the Lord dressed Eve &c., v. <cite ref=\"B00952\"><he>בִּנְיָיתָא</he></cite>. Y. Snh. II, 20ᵃ bot. (ref. to <cite ref=\"II Samuel 20:3\">II Sam. XX, 3</cite> <he>ויכלכל</he>, v. <cite ref=\"K00755\"><he>כִּלְכֵּל</he></cite>) <he>מלמד שהיה דוד מְקַלַּעֲתָן וכ׳</he> this teaches that David had them dressed and adorned and made them come before him every day, and said to his evil inclination &c."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִקְלַע"],
+			"senses": [
+				{
+					"gloss": "<i>to be plaited</i>, v. supra.",
+					"units": []
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

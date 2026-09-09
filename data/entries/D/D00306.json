@@ -1,0 +1,29 @@
+{
+	"id": "D00306",
+	"slug": "דוסתאי",
+	"headword": {
+		"text": "דּוֹסְתַּאי"
+	},
+	"page": {
+		"number": 287,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "pr. n. m. (Δοσίθεος) <i>Dostai</i>, ",
+			"units": []
+		},
+		{
+			"gloss": " a disciple of Shammai. Orlah II, 5.—2) D. father of Abba José. ",
+			"units": [
+				"<cite ref=\"Tosefta Peah 4:2\">Tosef. Peah IV, 2</cite> ed. Zuck. (Var. <cite ref=\"D00303\"><he>דוסאי</he></cite>); <cite ref=\"Yoma 22b:6\">Yoma 22ᵇ</cite>; a. fr.—3) R. D. son of R. Judah. ",
+				"<cite ref=\"Tosefta Shevi'it 2:18\">Tosef. Shebi. II, 18</cite>; a. e.—4) R. D. son of R. Jannai. Tosef. Ber. VII. (VI), 8. ",
+				"<cite ref=\"Niddah 31b:44\">Nidd. 31ᵇ</cite>; a. fr."
+			],
+			"label": "1"
+		}
+	]
+}

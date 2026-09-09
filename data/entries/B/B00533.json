@@ -1,0 +1,28 @@
+{
+	"id": "B00533",
+	"slug": "בטרא",
+	"headword": {
+		"text": "בִּטְרָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "בִּטְדָא"
+		}
+	],
+	"page": {
+		"number": 158,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (= <he>בֵּי עִטְרָא</he>, v. <cite ref=\"P00539\"><he>עִיטְרָא</he></cite>) <i>space for spanning one’s hand around an object</i> = h. <cite ref=\"V00821\"><he>תְּפִיסָה</he></cite> or <he>אֲחִיזָה</he>. ",
+			"units": [
+				"<cite ref=\"Chullin 50b:1\">Ḥull. 50ᵇ</cite>.—Pl. <he>בִּטְרֵי</he>. ",
+				"<cite ref=\"Chullin 76a\">Ib. 76ᵃ</cite> (ed. <cite ref=\"D00000\"><he>ד</he></cite> for <cite ref=\"T00000\"><he>ר</he></cite>, as <cite ref=\"Bava Metzia 39b\">B. Mets. 39ᵇ</cite> <cite ref=\"P00530\"><he>עיטדא</he></cite> for <cite ref=\"P00539\"><he>עיטרא</he></cite>). [Differ. of opin. as to measure: <i>one finger</i> or <i>four fingers</i>.]"
+			]
+		}
+	]
+}

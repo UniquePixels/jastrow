@@ -1,0 +1,33 @@
+{
+	"id": "N00825",
+	"slug": "נכיל-3",
+	"headword": {
+		"text": "נָכִיל"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְכִילָא"
+		},
+		{
+			"text": "נְכִילְתָּא"
+		}
+	],
+	"page": {
+		"number": 911,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00824\">preced.</cite>) <i>crafty, deceitful</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 43:1\">Targ. Ps. XLIII, 1</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 9:2\">Targ. Jer. IX, 2</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 120:2\">Targ. Ps. CXX, 2</cite>; a. e.—",
+				"<cite ref=\"Targum Jonathan on Hosea 7:16\">Targ. Hos. VII, 16</cite> (ed. Lag. <cite ref=\"N00667\"><he>נִיכְלָא</he></cite>)."
+			]
+		}
+	]
+}

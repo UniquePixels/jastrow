@@ -1,0 +1,26 @@
+{
+	"id": "P00757",
+	"slug": "על-2",
+	"headword": {
+		"text": "עַל"
+	},
+	"page": {
+		"number": 1080,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00772\"><he>עָלָה</he></cite>)<i>height</i>; (prepos.) <i>upon, above; about</i> &c.—With suff. (pl.) <he>עָלַי</he>, <he>עָלֶיךָ</he> &c. ",
+			"units": [
+				"<cite ref=\"Pirkei Avot 1:2\">Ab. I, 2</cite> <he>על שלשה וכ׳</he> the world stands on three things. ",
+				"<cite ref=\"Mishnah Shabbat 2:6\">Sabb. II, 6</cite> <he>על שלש וכ׳</he> for three sins &c. ",
+				"<cite ref=\"Sanhedrin 20a:6\">Snh. 20ᵃ</cite>, a. fr. <he>אמרו עָלָיו על וכ׳</he> they relate about &c. ",
+				"<cite ref=\"Niddah 23b:8\">Nidd. 23ᵇ</cite> <he>מי שלבו דוה עליו</he> whose heart within him &c., v. <cite ref=\"D00204\"><he>דָּוָה</he></cite>; a. v. fr.—<he>על יד</he>, <he>על ידי</he>, v. <cite ref=\"J00093\"><he>יָד</he></cite>; <he>על מנת</he>, v. <cite ref=\"M01820\"><he>מְנָת</he></cite>, &c.—",
+				"<cite ref=\"Avodah Zarah 30a:4\">Ab. Zar. 30ᵃ</cite>, a. e. <he>עָלי ועל צוארי</he>, v. <cite ref=\"R00151\"><he>צַוָּאר</he></cite>."
+			]
+		}
+	]
+}

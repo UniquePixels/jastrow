@@ -1,0 +1,27 @@
+{
+	"id": "O00578",
+	"slug": "סידוק",
+	"headword": {
+		"text": "סִידּוּק"
+	},
+	"altHeadwords": [
+		{
+			"text": "סִדּ׳"
+		}
+	],
+	"page": {
+		"number": 976,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"O01662\"><he>סָרַק</he></cite>) <i>being cracked</i>; (sub. <he>עיסת</he>) <i>dough, the surface of which is cracked</i> in consequence of fermentation. ",
+			"units": [
+				"<cite ref=\"Mishnah Pesachim 3:5\">Pes. III, 5</cite> <he>ס׳ ישרף</he> dough in the stage of <i>sidduḳ</i> (during Passover) must be burnt; expl. <he>נתערבו סדקיו</he>, v. <cite ref=\"O00195\"><he>סֶדֶק</he></cite>; <cite ref=\"Pesachim 48b:14\">ib. 48ᵇ</cite>; Mekh. Bo s. 9; a. e."
+			]
+		}
+	]
+}

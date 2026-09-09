@@ -1,0 +1,24 @@
+{
+	"id": "N00686",
+	"slug": "נימסים",
+	"headword": {
+		"text": "נִימְסַיִם",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 905,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. du. (<cite ref=\"M01978\"><he>מָסַס</he></cite>) <i>mashing mill</i>. ",
+			"units": [
+				"<cite ref=\"Avot D'Rabbi Natan 31:3\">Ab. d’R. N. ch. XXXI</cite>, end, contrad. to <cite ref=\"T00625\"><he>ריחים</he></cite> grinding mills (v. ",
+				"<cite ref=\"Berakhot 61b\">Ber. 61ᵇ</cite> top)."
+			]
+		}
+	]
+}

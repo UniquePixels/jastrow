@@ -1,0 +1,23 @@
+{
+	"id": "Q00811",
+	"slug": "פיקיילין",
+	"headword": {
+		"text": "פִּיקְיָילִין",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 1169,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (facialis, φακιόλιον S.) <i>turban</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Beitzah 5:2:9\">Y. Bets. V, 63ᵃ</cite> <he>אפרח רוחא פִּיקְיָילֵיה וכ׳</he> (not <he>פיקי ליה</he>) the wind made his turban fly off R. Meir’s neck."
+			]
+		}
+	]
+}

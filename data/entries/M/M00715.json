@@ -1,0 +1,34 @@
+{
+	"id": "M00715",
+	"slug": "מזג-4",
+	"headword": {
+		"text": "מֶזֶג"
+	},
+	"page": {
+		"number": 753,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"G00057\"><he>זָגַג</he></cite>, cmp. <he>מֶמֶר</he> fr. <cite ref=\"M02773\"><he>מָרַר</he></cite>) [<i>clearing, refining</i>; fr. which <cite ref=\"M00712\"><he>מָזַג</he></cite> <i>to clear</i> (<i>dark</i>) <i>wine by dilution</i> &c.,] ",
+			"units": []
+		},
+		{
+			"gloss": "<i>mixture</i>. Sifra Vayikra, N’dab., Par. 5, ch. VII <he>לא במ׳</he> not in a mixture of water and wine. ",
+			"units": [
+				"<cite ref=\"Mishnah Niddah 2:7\">Nidd. II, 7</cite> (<cite ref=\"Niddah 19a\">19ᵃ</cite>) <he>וכמ׳</he> Y. a. Bab. ed. (Mish. <he>כמזוג</he>), v. <cite ref=\"M00712\"><he>מָזַג</he></cite>. Y. ib. II, 50ᵇ top <he>וכמ׳ אבא … מזוג נראה מבחוץ</he> (not <he>וכמזגי</he>) ‘and like mixed wine’, says Abba …, like a cup filled with mixed wine, seen from without (through the glass). Bab. ib. 20ᵃ <he>חוץ ממ׳</he> except the discharge which has the color of a mixture of one third wine &c.; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>temperament, disposition</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 28:5\">Gen. R. s. 28</cite> <he>מִזְגּוֹ … רע</he> (not <he>רעה</he>) the king’s disposition is bad (he is illiberal)."
+			],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id": "M00739",
+	"slug": "מזופיתא-2",
+	"headword": {
+		"text": "מַזּוֹפִיתָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "מְזוֹפִיתָא",
+			"homograph": 2
+		}
+	],
+	"page": {
+		"number": 754,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"N00458\"><he>נְזַף</he></cite>) <i>threatening, rebuke, wrath</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Deuteronomy 28:20\">Targ. O. Deut. XXVIII, 20</cite> <he>מַ׳</he> ed. Berl. (oth. ed. a. Y. <he>מָ׳</he>, <cite ref=\"M01782\"><he>מְ׳</he></cite>). ",
+				"<cite ref=\"Aramaic Targum to Psalms 18:9\">Targ. Ps. XVIII, 9</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 30:17\">Targ. Is. XXX, 17</cite>; a. fr."
+			]
+		}
+	]
+}

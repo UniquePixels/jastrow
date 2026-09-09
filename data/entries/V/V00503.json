@@ -1,0 +1,23 @@
+{
+	"id": "V00503",
+	"slug": "תירומי",
+	"headword": {
+		"text": "תֵּירוֹמֵי"
+	},
+	"page": {
+		"number": 1666,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (θύρωμα) <i>door with its posts, frames</i> &c. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Ezekiel 27:6\">Targ. Ez. XXVII, 6</cite>."
+			]
+		}
+	]
+}

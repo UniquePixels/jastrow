@@ -1,0 +1,23 @@
+{
+	"id": "N01103",
+	"slug": "נצוחות",
+	"headword": {
+		"text": "נָצוֹחוֹת"
+	},
+	"page": {
+		"number": 927,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<cite ref=\"N01102\">preced.</cite>) <i>illustrious men</i>. ",
+			"units": [
+				"<cite ref=\"Shir HaShirim Rabbah 2:13:4\">Cant. R. to II, 13</cite> (play on <he>הנצנים</he>, <cite ref=\"Shir HaShirim Rabbah 11\">ib. 11</cite>) <he>הנ׳ נראו וכ׳</he> the illustrious appear in the land."
+			]
+		}
+	]
+}

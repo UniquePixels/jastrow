@@ -1,0 +1,71 @@
+{
+	"id": "Q00535",
+	"slug": "פטם-1",
+	"headword": {
+		"text": "פָּטַם"
+	},
+	"page": {
+		"number": 1156,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"Q00531\"><he>פטל</he></cite>, a. <he>פטש</he> s. v. <cite ref=\"Q00528\"><he>פַּטִּישׁ</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to crush, pound</i>, v. infra.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to expand, make large, fatten</i>.—Part. pass. <cite ref=\"Q00499\"><he>פָּטוּם</he></cite>; f. <cite ref=\"Q00500\"><he>פְּטוּמָה</he></cite>; pl. <he>פְּטוּמִים</he>, <he>פְּטוּמִין</he>; <he>פְּטוּמוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Ketubot 67b:7\">Keth. 67ᵇ</cite> <he>תרנגולת פ׳</he> a fat chicken. ",
+				"<cite ref=\"Jerusalem Talmud Kiddushin 1:7:10\">Y. Kidd. I, 61ᵇ</cite> <he>פטומות</he> crammed birds; <cite ref=\"Jerusalem Talmud Peah 1:1:25\">Y. Peah I, 15ᶜ</cite> bot. Y’lamd. to Gen. XXXVII quot. in Ar., v. <cite ref=\"O00607\"><he>סיטוסימה</he></cite>; a. e."
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיטֵּם"],
+			"senses": [
+				{
+					"gloss": "<i>to pound spices; to manufacture perfumed oil; to compound incense</i>. Y. Succ. V, 55ᶜ bot. <he>תיקנוה ולא היתה מְפַטֶּמֶת וכ׳</he> they mended the mortar, but it did not mix the drugs as well as before; <cite ref=\"Arakhin 10b\">Arakh. 10ᵇ</cite>. ",
+					"units": [
+						"<cite ref=\"Mishnah Keritot 1:1\">Ker. I, 1</cite> <he>המְפַטֵּם את השמן</he> he that manufactures perfumed oil (in the same manner as prescribed for the Temple, <cite ref=\"Exodus 30:23\">Ex. XXX, 23</cite> sq.); <he>המפ׳ את הקטרת</he> who mixes incense (as prescribed ib. 34 sq.). Y. Yoma IV, 41ᵈ bot. <he>פּיטְּמָהּ חציים</he> if he compounded it by taking only parts of the quantities prescribed; <cite ref=\"Keritot 5a:67\">Ker. 5ᵃ</cite> <he>מפטם לחציין</he>, v. <cite ref=\"H01518\"><he>חֵצִי</he></cite>. ",
+						"<cite ref=\"Keritot 5a:69\">Ib.</cite> <he>קטרת שפִּטְּמָהּ וכ׳</he> incense which one compounded in reduced quantities; <he>שמן שפִּטְּמוֹ וכ׳</he> oil which one manufactured &c. ",
+						"<cite ref=\"Sifrei Devarim 306:19-22\">Sifré Deut. 306</cite> <he>מה רביבים … ומפטמים אותם</he> as the rains coming down on plants … perfume them; <he>כך הוי מפטם בדברי תורה וכ׳</he> so pound thou the words of the Law, once and a second, and a third, and a fourth time &c.; Yalk. ib. 942; a. fr.—Part. pass. <he>מְפוּטָּם</he>; f. <he>מְפוּטֶּמֶת</he>; pl. <he>מְפוּטָּמִים</he>; <he>מְפוּטָּמִין</he>; <he>מְפוּטָּמוֹת</he>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 8:2:1\">Cant. R. to VIII, 2</cite> (ref. to <he>יין הרקח</he>, <cite ref=\"Shir HaShirim Rabbah 8:2:1\">ib.</cite>) <he>זה התלמוד שמפ׳ במשניות כרקח</he> that is the Talmud which is mixed with Mishnayoth like an apothecary’s preparation."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to fatten, cram</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 86\">Gen. R. s. 86</cite> (play on <he>פ̇וט̇יפ̇ר̇</he>) <he>שהיה מפ̇ט̇ם עגלים לע״ז</he> he fattened calves (<he>פ̇רים</he>) for idolatrous purposes. ",
+						"<cite ref=\"Sanhedrin 82b:5\">Snh. 82ᵇ</cite> <he>ראיתם בן פ̇וט̇י זה שפ̇יט̇ם אבי אמו וכ׳</he> do you see that son of Puti (= Putiel) whose grandfather (Yethro) fattened calves &c.?; <cite ref=\"Bava Batra 109b\">B. Bath. 109ᵇ</cite>; <cite ref=\"Sotah 43a\">Sot. 43ᵃ</cite> (v. <cite ref=\"Q00186\"><he>פּוּטִי</he></cite> a. <cite ref=\"Q00188\"><he>פּוּטִיאֵל</he></cite>). ",
+						"<cite ref=\"Esther Rabbah 7:1\">Esth. R. to III, 1</cite> (ref. to <he>כיקר כרים</he>, <cite ref=\"Psalms 37:20\">Ps. XXXVII, 20</cite>) ‘like the heavy lambs’, <he>שאין מפטמין אותן וכ׳</he> which are fattened not for their own benefit but for slaughter; a. fr.—Part. pass. as ab. ",
+						"<cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite> (expl. <he>בריאים</he>, <cite ref=\"I Kings 5:3\">I Kings V, 3</cite>) <he>מפ׳</he> (not <cite ref=\"A01567\"><he>אפ׳</he></cite>) fattened, opp. <he>מן המרעה</he>; <cite ref=\"Yalkut Shimoni on Nach 176:2\">Yalk. Kings 176</cite>. ",
+						"<cite ref=\"Ruth Rabbah 5:6\">Ruth R. to II, 14</cite> <he>עגלות מפ׳</he> fattened calves; a. fr."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִפְטָם"],
+			"senses": [
+				{
+					"gloss": "<i>to be fattened</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 32\">Gen. R. s. 32</cite> <he>ומה אם להסגר … להִפָּטֵם וכ׳</he> if to be locked up … the beasts came of their own accord, how much more will they come to fatten on the flesh of the mighty (<cite ref=\"Ezekiel 39:4\">Ez. XXXIX, 4</cite>); <cite ref=\"Yalkut Shimoni on Nach 380\">Yalk. Ez. 380</cite>."
+					]
+				}
+			],
+			"stem": "Nif."
+		}
+	]
+}

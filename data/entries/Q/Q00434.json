@@ -1,0 +1,58 @@
+{
+	"id": "Q00434",
+	"slug": "פזר-1",
+	"headword": {
+		"text": "פָּזַר"
+	},
+	"page": {
+		"number": 1150,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"B00466\"><he>בָּזַר</he></cite>)<i>to scatter, disperse</i>. Part. pass. <cite ref=\"Q00423\"><he>פָּזוּר</he></cite>; f. <he>פְּזוּרָה</he>; pl. <he>פְּזוּרִים</he>, <he>פְּזוּרִין</he>; <he>פְּזוּרוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 7:10\">Num. R. s. 7</cite>, end <he>וכשהן פ׳ שכינה עמהם</he> and when they (the Israelites) are scattered, the Divine Presence is with them; a. e.—",
+				"<cite ref=\"Shemot Rabbah 15:22\">Ex. R. s. 15</cite> <he>היו פוזרין</he>, read: <he>חוזרין</he>, v. Tanḥ. Ḥayé 3.]"
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["פִּיזֵּר"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"Q00433\">same</cite>. Tosef. Ber. VII (VI), 24 <he>בשעת … פַּזֵּר ובשעת המְפַזְּרִין וכ׳</he>, v. <cite ref=\"K00860\"><he>כָּנַס</he></cite>. ",
+					"units": [
+						"<cite ref=\"Bava Batra 10b:4\">B. Bath. 10ᵇ</cite> <he>יְפַזֵּר מעותיו לעניים</he> let him scatter his money (give liberally) among the poor. ",
+						"<cite ref=\"Pesachim 87b:18\">Pes. 87ᵇ</cite> (ref. to <he>צדקת פרזונו</he>, <cite ref=\"Judges 5:11\">Jud. V, 11</cite>) <he>צדקה … שפִּזְּרָן וכ׳</he> (or <he>שפְּזָרָן</he> <i>Kal</i>) the Lord has done kindness to Israel in scattering it among the nations. ",
+						"<cite ref=\"Bava Batra 10a:12\">B. Bath. 10ᵃ</cite> <he>רוח מְפַזַּרְתָּן</he> the wind disperses them (the clouds). Midr. Sam. ch. XXV <he>אם מְפַזֵּר הוא דברים</he> whether he would scatter abroad (divulge) the affairs, v. <cite ref=\"S00460\"><he>קוּסְדַּרְיוֹת</he></cite>; a. e.—Part. pass. <he>מְפוּזָּר</he>; f. <he>מְפוּזֶּרֶת</he>; pl. <he>מְפוּזָּרִים</he>, <he>מְפוּזָּרִין</he>; <he>מְפוּזָּרוֹת</he>. ",
+						"<cite ref=\"Mishnah Negaim 4:3\">Neg. IV, 3</cite> <he>במפ׳</he> when the hairs on the leprous spot are wide apart, opp. <he>מכונס</he>, v. <cite ref=\"K00860\"><he>כָּנַס</he></cite>. ",
+						"<cite ref=\"Megillah 13b:18\">Meg. 13ᵇ</cite> <he>מפ׳ הן בין העמים</he> they are scattered among the nations (of the kingdom), v. <cite ref=\"Q01572\"><he>פָּרַד</he></cite>. ",
+						"<cite ref=\"Mishnah Tevul Yom 2:3\">T’bul Yom II, 3</cite> <he>אם היה מפ׳ וכ׳</he> if the garlic was scattered in the mortar; a. fr."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["נִפְזָר"],
+			"senses": [],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִתְפַּזֵּר"],
+			"senses": [
+				{
+					"gloss": ", <i>Nithpa.</i> <he>נִתְפַּזֵּר</he> <i>to be scattered, dispersed</i>. ",
+					"units": [
+						"<cite ref=\"Tosefta Sotah 2:3\">Tosef. Sot. II, 3</cite> <he>מנחתה נִפְזֶרֶת אבית וכ׳</he> ed. Zuck. (Var. <he>מִתְפַּזֶּרֶת בבית</he>) her meal-offering is strewn on the ashes; Y. ib. III, 18ᵈ; <cite ref=\"Sifrei Bamidbar 17\">Sifré Num. 17</cite>. ",
+						"<cite ref=\"Shabbat 16b:8\">Sabb. 16ᵇ</cite> <he>ונִתְפַּזְּרוּ וכ׳</he> and the clouds were dispersed and then gathered again. ",
+						"<cite ref=\"Bereishit Rabbah 36\">Gen. R. s. 36</cite>; a. fr."
+					]
+				}
+			],
+			"stem": "Hithpa."
+		}
+	]
+}

@@ -1,0 +1,94 @@
+{
+	"id": "K01186",
+	"slug": "כרך-2",
+	"headword": {
+		"text": "כְּרַךְ",
+		"homograph": 1
+	},
+	"altHeadwords": [
+		{
+			"text": "כְּרֵיךְ"
+		},
+		{
+			"text": "כְּרוֹךְ"
+		}
+	],
+	"page": {
+		"number": 668,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"K01185\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Job 31:36\">Targ. Job XXXI, 36</cite>, v. <cite ref=\"K00065\"><he>כְּבַן</he></cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 6:21\">Targ. Prov. VI, 21</cite>. ",
+				"<cite ref=\"Targum Jonathan on I Kings 19:13\">Targ. I Kings XIX, 13</cite>; a. fr. (interch. in ed. with <i>Pa.</i>).—",
+				"<cite ref=\"Taanit 22a:1\">Taan. 22ᵃ</cite> top <he>לצפרא כַרְכִינְהוּ וכ׳</he> (v. Rabb. D. S. a. l. note) in the morning they rolled the mattresses up and carried them off. ",
+				"<cite ref=\"Yoma 78b:1\">Yoma 78ᵇ</cite>; <cite ref=\"Yevamot 102b:19\">Yeb. 102ᵇ</cite> <he>כריך סודרא וכ׳</he> tied a cloth around his legs. ",
+				"<cite ref=\"Shabbat 110a:2\">Sabb. 110ᵃ</cite> <he>האי מאן דכַרְכֵיה וכ׳</he> he around whom a serpent has twined itself. ",
+				"<cite ref=\"Bava Batra 14b\">B. Bath. 14ᵇ</cite> <he>דכ׳ ביה פורתא ומנח ליה לכַרְכֵיה לעיל</he> Ms. H. (ed. <he>פורתא וכַרְכֵיה לעיל …</he>, v. Rabb. D. S. a. l. note 40) he rolled up a small portion (of the scroll) and placed that rolled portion on top (of the scroll). ",
+				"<cite ref=\"Avodah Zarah 18b:3\">Ab. Zar. 18ᵇ</cite> <he>כְּרַכְתֵּיה</he> she embraced him; a. fr.—Part. pass. <cite ref=\"K01162\"><he>כָּרִיךְ</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Terumot 8:3:14\">Y. Ter. VIII, 45ᵈ</cite> top <he>כ׳ עליה</he> wound around it.—Esp. <he>כ׳ ריפתא</he> <i>to double the bread</i>, placing salt, herbs &c. between (v. <cite ref=\"K01185\">preced.</cite>), in gen. <he>כ׳ ר׳</he> (or sub. <cite ref=\"T00001\"><he>ר׳</he></cite>) <i>to begin a meal, to dine</i>. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 32:50\">Targ. Y. I Deut. XXXII, 50</cite> <he>ובעו … למִכְרַךְ ר׳</he> and the guests were about beginning to eat.—",
+				"<cite ref=\"Berakhot 22b\">Ber. 22ᵇ</cite> <he>כְּרוֹכוּ ר׳</he> sat down to dine together. ",
+				"<cite ref=\"Taanit 23b:6\">Taan. 23ᵇ</cite> <he>יתיב וכ׳ ר׳ … איתו כְרוֹכוּ</he> he sat down to eat and did not say to the scholars, come eat with us; Y. ib. I, 64ᵇ bot., sq. <he>אתון כריכין</he> (corr. acc.).—Trnsf. <he>כְּרוֹךְ ותני</he> combine the two versions into one. ",
+				"<cite ref=\"Shabbat 34b:5\">Sabb. 34ᵇ</cite>. ",
+				"<cite ref=\"Menachot 87a:5\">Men. 87ᵃ</cite>"
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to surround, fortify</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Jeremiah 51:53\">Targ. Jer. LI, 53</cite>.—Part. pass. <cite ref=\"K01162\"><he>כָּרִיךְ</he></cite>, f. <cite ref=\"K01163\"><he>כָּרִיכָא</he></cite>, <cite ref=\"K01167\"><he>כְּרִיכְתָּא</he></cite>; pl. <he>כְּרִיכִין</he>, <he>כְּרִיכַיָּא</he>; <cite ref=\"K01166\"><he>כְּרִיכַן</he></cite>, <cite ref=\"K01167\"><he>כְּרִיכָתָא</he></cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 2:15\">Targ. Is. II, 15</cite>. ",
+				"<cite ref=\"Targum Jonathan on Isaiah 27:10\">Ib. XXVII, 10</cite>. ",
+				"<cite ref=\"Aramaic Targum to Psalms 31:3\">Targ. Ps. XXXI, 3</cite>; <cite ref=\"Aramaic Targum to Psalms 31:22\">22</cite>. ",
+				"<cite ref=\"Onkelos Deuteronomy 3:5\">Targ. O. Deut. III, 5</cite>; a. fr.—[V. <cite ref=\"K01163\"><he>כְּרִיכָא</he></cite>.]"
+			],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["כָּרֵיךְ"],
+			"senses": [
+				{
+					"gloss": " <cite ref=\"K01185\">same</cite>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to turn around</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 26:14\">Targ. Prov. XXVI, 14</cite> (h. text <he>סבב</he>).—",
+						"<cite ref=\"Shabbat 129a\">Sabb. 129ᵃ</cite>, v. <cite ref=\"G00404\"><he>זִיקָא</he> I</cite>."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": ["אִכְּרִיךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to be wrapped up</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Esther 8:15\">Targ. Esth. VIII, 15</cite> <he>מִיכְּרִיךְ וכ׳</he> clothed in &c. (h. text <cite ref=\"V00557\"><he>תכריך</he></cite>). ",
+						"<cite ref=\"Kohelet Rabbah 8:11\">Koh. R. to VIII, 11</cite>; <cite ref=\"Kohelet Rabbah 9:10:3\">IX, 10</cite> <he>ורישיה מִיכְּרַךְ</he> with his head wrapped up (in mourning). ",
+						"<cite ref=\"Shabbat 110b:5\">Sabb. 110ᵇ</cite> <he>אִיכְּרַךְ גנא ביה</he> he wrapped himself up in the cloak and slept in it.—Trnsf. <i>to attach one’s self</i>. ",
+						"<cite ref=\"Ketubot 77b:11\">Keth. 77ᵇ</cite> <he>מי אִיכַּרְכַת וכ׳</he> hast thou mingled with gonorrhoeists &c.? <cite ref=\"Ketubot 77b\">Ib.</cite> <he>א׳ בהו</he> mingled with them."
+					],
+					"label": "1"
+				}
+			],
+			"stem": "Ithpe."
+		}
+	]
+}

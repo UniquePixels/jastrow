@@ -1,0 +1,34 @@
+{
+	"id": "N01318",
+	"slug": "נשיקה-2",
+	"headword": {
+		"text": "נְשִׁיקָה",
+		"disambiguator": 2
+	},
+	"page": {
+		"number": 940,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"N01341\"><he>נָשַׁק</he></cite>)<i>kissing, kiss</i>. ",
+			"units": [
+				"<cite ref=\"Bereishit Rabbah 70:12\">Gen. R. s. 70</cite>; <cite ref=\"Shemot Rabbah 5:1\">Ex. R. s. 5</cite>, a. e. <he>נ׳ של גדולה</he> the kiss of homage; <he>נ׳ של פרקים</he> the kiss of meeting again; <he>נ׳ של פרישות</he> the kiss of parting; <he>נ׳ של קריבות</he> the kissing of relations. ",
+				"<cite ref=\"Devarim Rabbah 11:9\">Deut. R. s. 11</cite>, end <he>ונטל … בנְשִׁיקַת פה</he> and took his (Moses’) soul with a kiss of the mouth. ",
+				"<cite ref=\"Bava Batra 17a:4\">B. Bath. 17ᵃ</cite> <he>מרים נמי בנ׳ מתה</he> Miriam, likewise, died with a (divine) kiss (without agony); <cite ref=\"Moed Katan 28a:12\">M. Kat. 28ᵃ</cite>. ",
+				"<cite ref=\"Berakhot 8a:13\">Ber. 8ᵃ</cite> <he>נ׳ דמיא וכ׳</he> death without agony is like taking &c., v. <cite ref=\"B00656\"><he>בִּינְתָא</he> II</cite>; a. fr.—Pl. <cite ref=\"N01319\"><he>נְשִׁיקוֹת</he></cite>. Ex. R. l. c. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:2:5\">Cant. R. to I, 2</cite> <he>מה״ש אמרוהו יתן לנו מנ׳ וכ׳</he> the ministering angels said the verse, ‘May he give us of those kisses which he gave to his sons’ (at Mount Sinai). ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:2:5\">Ib.</cite> <he>בסיני נאמרה יוציא לנו נ׳ מתוך פיהו</he> at Mount Sinai the verse was said (by the Israelites), ‘May he let kisses go forth to us out of his mouth’; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>contact of sexual membra</i>. ",
+			"units": ["<cite ref=\"Yevamot 55b:12\">Yeb. 55ᵇ</cite>"],
+			"label": "2"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "O00904",
+	"slug": "סכך-2",
+	"headword": {
+		"text": "סְכַךְ"
+	},
+	"page": {
+		"number": 990,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " ch. <cite ref=\"O00903\">same</cite>, esp. <i>to hedge in</i>. ",
+			"units": [
+				"<cite ref=\"Kohelet Rabbah 5:8\">Koh. R. to V, 8</cite> <he>למִיסַּךְ גיניא</he> (not <he>למסיך</he>); <cite ref=\"Vayikra Rabbah 22\">Lev. R. s. 22</cite>, beg. <he>למסוך ניניא</he> (<cite ref=\"N00905\"><he>נניא</he></cite>) (corr. acc.); v. <cite ref=\"O00552\"><he>סִיגָא</he></cite>."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["סַכֵּךְ"],
+			"senses": [
+				{
+					"gloss": "<i>to weave</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 30:28\">Targ. Prov. XXX, 28</cite>, v. <cite ref=\"O00064\"><he>סְבַךְ</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to fence in</i>. ",
+					"units": [
+						"<cite ref=\"Yoma 84b\">Yoma 84ᵇ</cite> <he>מְסַכֵּךְ סַכּוּכֵי</he> Ms. L. (ed., v. <cite ref=\"M01387\"><he>מְכַךְ</he></cite>) he forms a fence (by placing vessels filled with water to check the fire)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		}
+	]
+}

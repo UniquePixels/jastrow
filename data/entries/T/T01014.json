@@ -1,0 +1,24 @@
+{
+	"id": "T01014",
+	"slug": "רקבובית-1",
+	"headword": {
+		"text": "רַקְבּוּבִית"
+	},
+	"page": {
+		"number": 1496,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T01013\">preced.</cite>) <i>decay, decayed matter</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Peah 7:3:14\">Y. Peah VII, 20ᵇ</cite> top, v. <cite ref=\"C01388\"><he>גָּרַף</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Shabbat 4:1:4\">Y. Sabb. IV, beg. 6ᵈ</cite> <he>אם רָבַת רַקְבּוּבִיתָן</he> if the decay in them (from moths) is far advanced. ",
+				"<cite ref=\"Yoma 38b:4\">Yoma 38ᵇ</cite> (ref. to <cite ref=\"Proverbs 10:7\">Prov. X, 7</cite>); <he>רַקְבִּיבוּת תעלה בשמותן וכ׳</he> rottenness enters their names, none name their children after them."
+			]
+		}
+	]
+}

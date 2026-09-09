@@ -1,0 +1,30 @@
+{
+	"id": "M01214",
+	"slug": "מינוי-1",
+	"headword": {
+		"text": "מִינּוּי"
+	},
+	"altHeadwords": [
+		{
+			"text": "מִנּוּי"
+		}
+	],
+	"page": {
+		"number": 776,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M01772\"><he>מָנָה</he></cite>) <i>appointment</i> to office, <i>ordination</i>. ",
+			"units": [
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:2:7\">Y. Snh. I, 18ᶜ</cite> bot. (ref. to <cite ref=\"Ezekiel 13:9\">Ez. XIII, 9</cite> <he>ובכתב בית וכ׳</he>) <he>זה המ׳</he> that means the ordination (of teachers). Ib. 19ᵃ bot. [read:] <he>מִינּוּיוֹ מ׳</he> its (his) appointment is valid. ",
+				"<cite ref=\"Jerusalem Talmud Rosh Hashanah 2:5:2\">Y. R. Hash. II, 58ᵇ</cite> top <he>לעיבור הולכין אחר המ׳</he> to proclaim an intercalation we go by the dates of ordination (the oldest graduate voting first); <cite ref=\"Jerusalem Talmud Sanhedrin 1:2:7\">Y. Snh. I, 18ᶜ</cite> <he>המיניין</he> (corr. acc.).—",
+				"<cite ref=\"Jerusalem Talmud Horayot 3:5:13\">Y. Hor. III, end, 48ᶜ</cite> <he>אבל למ׳ ראי וכ׳</he> but in ordination ‘those seeing the face of the King (the Nasi) are those seated first in office’ (an adaptation of <cite ref=\"Esther 1:14\">Esth. I, 14</cite>), i.e. the scholars of Tiberias, as the seat of the Nasi, have the preference to those of the South; <cite ref=\"Esther Rabbah 4:2\">Esth. R. to I, 14</cite> <he>ברם במי׳</he>. ",
+				"<cite ref=\"Bamidbar Rabbah 15:25\">Num. R. s. 15</cite>, end <he>מ׳ הזקנים</he> the appointment of the elders; a. fr."
+			]
+		}
+	]
+}

@@ -1,0 +1,104 @@
+{
+	"id": "S01836",
+	"slug": "קצץ-1",
+	"headword": {
+		"text": "קָצַץ"
+	},
+	"page": {
+		"number": 1407,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to cut, fell</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sheviit 4:10\">Shebi. IV, 10</cite> <he>מותר לקוֹצְצוֹ</he> it is permitted to cut the tree down (in the Sabbatical year). ",
+				"<cite ref=\"Mishnah Sheviit 4:10\">Ib.</cite> <he>כמה … ולא יְקוֹצֶּנּוּ</he> (Y. ed. <he>יקצונו</he>, corr. acc.; Bab. ed. <he>יְקוֹצְצוֹ</he>; Ms. M. <he>יִקְצְצֶנּוּ</he>) how much must an olive tree bear so that one dare not cut it down (because it is an act of wilful destruction, <cite ref=\"Deuteronomy 20:19-20\">Deut. XX, 19–20</cite>); <cite ref=\"Bava Kamma 91b:18\">B. Kam. 91ᵇ</cite> <he>יקצצנו</he> Ms. F. a. R. (later ed. <he>יִקְצְצוֹ</he>; v. Rabb. D. S. a. l. note 10). ",
+				"<cite ref=\"Bava Kamma 91b:13\">Ib.</cite> <he>נטיעותי קָצַצְתָּ</he> thou hast cut down my young trees; <he>אתה אמרת לי לקוֹצְצָן</he> (not <he>לקוצצו</he>, v. Rabb. D. S. a. l. note 7) thou hast told me to cut them. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 4:5:2\">Y. Shebi. IV, 35ᵇ</cite> bot. <he>לָקוֹץ … יָקוֹץ</he>, v. <cite ref=\"N01387\"><he>נָתַק</he></cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sheviit 4:5:2\">Ib.</cite> <he>הקוצץ בקורות</he> he that cuts trunks for beams. ",
+				"<cite ref=\"Vayikra Rabbah 23\">Lev. R. s. 23</cite>, v. infra.—",
+				"<cite ref=\"Sifrei Devarim 212:2\">Sifré Deut. 212</cite> (expl. <he>ועשתה</he>, <cite ref=\"Deuteronomy 21:12\">Deut. XXI, 12</cite>) <he>תָּקוֹץ</he> let her cut (her nails). ",
+				"<cite ref=\"Makkot 22a:7\">Macc. 22ᵃ</cite> <he>הקוצץ את בהרתו</he> he that cuts off a white spot (suspicious of leprosy, v. <cite ref=\"S01821\"><he>קְצִיצָה</he></cite>); <cite ref=\"Mishnah Negaim 7:5\">Neg. VII, 5</cite> <he>קְצָצָהּ מתכוין</he> if he cut it intentionally. ",
+				"<cite ref=\"Tosefta Shabbat 11:3\">Tosef. Sabb. XI</cite> (<cite ref=\"Tosefta Shabbat 12:3\">XII</cite>), 3; a. fr.—",
+				"<cite ref=\"Bereishit Rabbah 85\">Gen. R. s. 85</cite> (ref. to <cite ref=\"Daniel 5:1\">Dan. V, 1</cite> a. ",
+				"<cite ref=\"Daniel 6:1\">VI, 1</cite>) <he>והיכן הוא … קוצץ לקוצץ</he> where is Evil Merodach?… (He is left out) in order to join a wicked man to a wicked man, a destroyer to a destroyer. ",
+				"<cite ref=\"Jerusalem Talmud Yevamot 2:6:3\">Y. Yeb. II, 4ᵃ</cite> top <he>קוצץ בן קוצץ</he> a destroyer son of a destroyer (wicked by heredity); Pesik. S’liḥ. p. 167ᵇ <he>אין בישראל קו׳ בן קו׳</he> there is no hereditary wickedness in Israel. ",
+				"<cite ref=\"Shemot Rabbah 1\">Ex. R. s. 1</cite> <he>וקוץ</he> … <he>שק׳ עצת וכ׳</he> Koz (<cite ref=\"I Chronicles 4:8\">I Chr. IV, 8</cite>) is Caleb, for he destroyed the counsel of the spies; a. fr.—2) (cmp. <cite ref=\"S01783\"><he>קָצַב</he></cite>, <cite ref=\"C00573\"><he>גָּזַר</he></cite>) <i>to stipulate, agree upon</i>. ",
+				"<cite ref=\"Shevuot 45b:1\">Shebu. 45ᵇ</cite> <he>אפי׳ ק׳ נמי</he> let it be the same even if a stipulation has been made (and the amount is in litigation). ",
+				"<cite ref=\"Shevuot 45b:1\">Ib.</cite> <he>אומן … קָצַצְתָּ … לא קָצַצְתִּי וכ׳</he> if the mechanic says, thou hast stipulated to pay me two (Zuz), and he (the employer) says, I have stipulated one only; a. e.—Part. pass. <he>קָצוּץ</he>; f. <cite ref=\"S01796\"><he>קְצוּצָה</he></cite>. ",
+				"<cite ref=\"Bava Metzia 61b:15\">B. Mets. 61ᵇ</cite> <he>רבית ק׳</he> stipulated, direct usury, opp. <he>אבק רבית</he>, v. <cite ref=\"A00188\"><he>אָבָק</he></cite>. ",
+				"<cite ref=\"Bava Metzia 62b\">Ib. 62ᵇ</cite>; a. e."
+			],
+			"label": "1"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["נִקְצָץ"],
+			"senses": [
+				{
+					"gloss": "<i>to be cut</i>. Neg. l. c. <he>מי … ונִקְצָצָה</he> if one had a white spot, and it was cut off (accidentally). ",
+					"units": [
+						"<cite ref=\"Mishnah Niddah 2:1\">Nidd. II, 1</cite> <he>תִּקָּצֵץ</he> let the hand be cut off. ",
+						"<cite ref=\"Bava Kamma 91b\">B. Kam. 91ᵇ</cite>, v. <cite ref=\"S01821\"><he>קְצִיצָה</he></cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be cut off, excluded</i>. Y. Kidd. I, 60ᶜ, a. e., v. <cite ref=\"S01839\"><he>קְצָצָה</he></cite>.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to be stipulated, definitely assigned</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 30\">Lev. R. s. 30</cite>, beg. <he>מראש השנה נִקְצָצִין וכ׳</he> from the beginning of the year the means of support are definitely assigned to men, except &c., v. <cite ref=\"S01783\"><he>קָצַב</he></cite>."
+					],
+					"label": "3"
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["קִיצֵּץ"],
+			"senses": [
+				{
+					"gloss": "<i>to scrape, cut off; to fell</i>. ",
+					"units": [
+						"<cite ref=\"Pesachim 56a:3\">Pes. 56ᵃ</cite> <he>ק׳ דלתות וכ׳</he> (<cite ref=\"II Kings 18:16\">II Kings XVIII, 16</cite>) he took the gold off the Temple doors. Y. Ber. VIII, 12ᵃ bot. <he>אפי׳ מְקַצֵּץ וכ׳</he> even when cutting lupines. Ib. II, 5ᶜ top <he>היה מקצץ כל וכ׳</he> he cut down all he had planted. ",
+						"<cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite> <he>ומְקַצְּצִים</he>, v. <cite ref=\"T01001\"><he>רָצַץ</he></cite>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 2:2:3\">Cant. R. to II, 2</cite> <he>לקַצְּצוֹ</he>; <cite ref=\"Vayikra Rabbah 23\">Lev. R. s. 23</cite> <he>לָקוֹצּוֹ</he>, v. <cite ref=\"S01838\"><he>קַצָּץ</he></cite>.—Esp. <he>ק׳ בנט עות</he> [<i>to cut down the shoots</i> in the garden of religion,] <i>to be hostile to religion, corrupt the youths; to be a heretic</i>. ",
+						"<cite ref=\"Chagigah 14b:9\">Ḥag. 14ᵇ</cite>; Y. ib. II, 77ᵇ top, v. <cite ref=\"N00563\"><he>נְטִיעָה</he></cite>. ",
+						"<cite ref=\"Shir HaShirim Rabbah 1:4:5\">Cant. R. to I, 4</cite> <he>כיצד ק׳ בנ׳</he> in what way did he manifest his hostility to religion? <cite ref=\"Bereishit Rabbah 19\">Gen. R. s. 19</cite> <he>לא תעשה … וִיקַצֵּץ וכ׳</he> make not the fence (around the religious laws) more important than the essentials, lest it fall down and ruin the shoots."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to stipulate</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Sheviit 4:1\">Shebi. IV, 1</cite> <he>ואין … שיְקַצֵּץ להם מזונות</he> (R. S. <he>שיִקְצוֹץ</he>) it is unnecessary to say, that he must not stipulate to give them their food (for their work)."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֵקֵיץ"],
+			"senses": [
+				{
+					"gloss": "<i>to cut off, deduct</i>. ",
+					"units": [
+						"<cite ref=\"Sifrei Bamidbar 8:1\">Sifré Num. 8</cite> <he>ומֵקֵיץ מכתובתה</he> he may deduct (his outlay for her) from her jointure."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

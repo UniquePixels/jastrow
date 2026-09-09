@@ -1,0 +1,37 @@
+{
+	"id": "Q01406",
+	"slug": "פפי-1",
+	"headword": {
+		"text": "פפי",
+		"reconstructed": true
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּפָה"
+		}
+	],
+	"page": {
+		"number": 1204,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [],
+			"senses": [
+				{
+					"gloss": "<he>פִּפָּה</he> (cmp. <cite ref=\"Q00776\"><he>פִּיף</he></cite>) <i>to mouth, talk in a proud manner</i>. ",
+					"units": [
+						"<cite ref=\"Tractate Derekh Eretz Rabbah 2:8\">Treat. Der. Er. ch. II</cite> <he>המנמין והמְפַפִּין בידיהם</he> those who speak and mouth (gesticulating) with their hands."
+					]
+				}
+			],
+			"stem": "Pi."
+		}
+	]
+}

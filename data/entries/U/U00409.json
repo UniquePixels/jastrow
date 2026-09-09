@@ -1,0 +1,23 @@
+{
+	"id": "U00409",
+	"slug": "שוכא",
+	"headword": {
+		"text": "שׂוּכָּא"
+	},
+	"page": {
+		"number": 1533,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"U01157\"><he>שכך</he></cite>, v. <cite ref=\"O00903\"><he>סכך</he></cite>) <i>prickly bark</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 20b:6\">Sabb. 20ᵇ</cite> (expl. <cite ref=\"L00558\"><he>לכש</he></cite>, <cite ref=\"Mishnah Shabbat 2:1\">ib. II, 1</cite>) <he>ש׳ דארזא</he> the bark of a cedar tree. ",
+				"<cite ref=\"Mishnah Shabbat 2:1\">Ib.</cite> <he>ש׳ דארזא עץ וכ׳</he> but the bark of cedar is mere wood (and cannot be used as a wick)! Answ. <he>בעמרניתא וכ׳</he>, v. <cite ref=\"P00935\"><he>עַמְרָנִיתָא</he></cite>.—V. <cite ref=\"U00350\"><he>שַׂוְוכָּא</he></cite>."
+			]
+		}
+	]
+}

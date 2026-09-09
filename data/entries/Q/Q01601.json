@@ -1,0 +1,29 @@
+{
+	"id": "Q01601",
+	"slug": "פרהגבנא",
+	"headword": {
+		"text": "פַּרְהֲגַבְנָא"
+	},
+	"altHeadwords": [
+		{
+			"text": "פַּרְהֲגַוְנָא"
+		}
+	],
+	"page": {
+		"number": 1216,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (a Babylonian corrupt. of parangaria, v. <cite ref=\"Q01605\"><he>פַּרְהַנְגַּרְיָא</he></cite>) <i>the office of public service</i>, sub. <he>בעל</he> <i>the suprintendent of public labors</i>, in gen. <i>tax collector</i>. ",
+			"units": [
+				"<cite ref=\"Bava Kamma 117a:17\">B. Kam. 117ᵃ</cite> <he>מסרה לפרהגב׳ דמלכא</he> Ms. M. (ed. <he>פַּרְהַגְנָא</he>; Ms. H. <he>פרהגמוניא</he>; Ms. R. <cite ref=\"Q01604\"><he>פַּרְהַנְגָּא</he></cite>; v. Rabb. D. S. a. l. note) he surrendered it (the object of litigation) to the royal office (or officer, for confiscation). ",
+				"<cite ref=\"Eruvin 36b:9\">Erub. 36ᵇ</cite> <he>הא בפ׳ וכ׳</he> (ed. Sonc. <he>בפרח גבאני דמלכא</he>, v. Rabb. D. S. a. l. note 100; Rashi <he>בפרהגבני</he>) in the one case the officer of public service is meant (by <he>נכרים</he>), in the other, the town officers. ",
+				"<cite ref=\"Bava Metzia 83b:5\">B. Mets. 83ᵇ</cite> <he>אשכח לההוא פ׳ דמלכא וכ׳</he> Ms. M. (ed. <cite ref=\"Q01601\"><he>פרהגונא</he></cite> only) he met the royal officer who was seizing thieves (persons without regular occupations) for the public service; cmp. <cite ref=\"A02105\"><he>אַנְּגְּרַבְטֵיס</he></cite>.—Pl. <cite ref=\"Q01601\"><he>פַּרְהֲגַבְנֵי</he></cite>, v. supra."
+			]
+		}
+	]
+}

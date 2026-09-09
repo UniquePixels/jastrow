@@ -1,0 +1,40 @@
+{
+	"id": "Q01430",
+	"slug": "פציח-3",
+	"headword": {
+		"text": "פַּצִּיחַ"
+	},
+	"page": {
+		"number": 1205,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"Q01423\"><he>פְּצַח</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>bright, sparkling</i>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Isaiah 18:4\">Targ. Is. XVIII, 4</cite> (ed. Wil. <cite ref=\"Q01421\"><he>פָּצוֹחַ</he></cite>)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>checkered.—</i>Pl. <he>פַּצִּיחִין</he>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 31:10\">Targ. O. Gen. XXXI, 10</cite>; <cite ref=\"Onkelos Genesis 31:12\">12</cite> ed. Berl. (ed. Amst. <cite ref=\"Q01427\"><he>פְּ׳</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Zechariah 6:3\">Targ. Zech. VI, 3</cite>; <cite ref=\"Targum Jonathan on Zechariah 6:6\">6</cite>."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": "<i>open place</i>, v. <cite ref=\"Q01428\"><he>פְּצִיחַ</he> I</cite>.",
+			"units": [],
+			"label": "3"
+		}
+	]
+}

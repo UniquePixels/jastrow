@@ -1,0 +1,22 @@
+{
+	"id": "B00288",
+	"slug": "בוסם-1",
+	"headword": {
+		"text": "בּוֹסֶם"
+	},
+	"page": {
+		"number": 147,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h. <cite ref=\"B01366\"><he>בֹּשֶׂם</he></cite>; <he>בסם</he>)<i>flavor, perfume, spices</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 108a:8\">Snh. 108ᵃ</cite> <he>מקום הב׳</he> (Var. <he>מבושם</he>) place for spices, opp. <he>מקום הטנופת</he>.—[<cite ref=\"Tosefta Kiddushin 2:4\">Tosef. Kidd. II, 4</cite> <he>נעשה בוסם</he>, ed. Zuck., read <cite ref=\"B01005\"><he>בַּסָּם</he></cite>.]"
+			]
+		}
+	]
+}

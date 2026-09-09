@@ -1,0 +1,22 @@
+{
+	"id": "T00198",
+	"slug": "רגיעה",
+	"headword": {
+		"text": "רְגִיעָה"
+	},
+	"page": {
+		"number": 1448,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00217\"><he>רָגַע</he></cite>; cmp. <cite ref=\"T00185\"><he>רִגְיָא</he></cite>) [<i>balance</i>,] <i>compromise, agreement on average weights</i> or <i>prices</i>. ",
+			"units": [
+				"<cite ref=\"Tosefta Bava Metzia 11:25\">Tosef. B. Mets. XI, 25</cite> <he>רשאין … לעשות ר׳ ביניהם</he> (Var. <cite ref=\"T00169\"><he>רגועה</he></cite>) the bakers of a place are permitted to form a combination settling the weight or price of bread."
+			]
+		}
+	]
+}

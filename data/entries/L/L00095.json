@@ -1,0 +1,107 @@
+{
+	"id": "L00095",
+	"slug": "לבן-2",
+	"headword": {
+		"text": "לָבַן",
+		"homograph": 2
+	},
+	"page": {
+		"number": 690,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (cmp. <cite ref=\"L00049\"><he>לָבָה</he></cite>) <i>to glisten</i>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["לִבֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to polish, brighten</i>; <i>to finish</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Shabbat 7:2\">Sabb. VII, 2</cite> <he>הגוזז … והמְלַבְּנוֹ</he> he who clips wool and he who cleanses it (by washing, removing clods &c.); Y. ib. 10ᶜ top <he>המלבנו ההן דמגפר וכ׳</he> under <i>m’labben</i> of the Mishnah is implied (any preparation for improving raw material, e. g.) he who pitches wood &c., v. <cite ref=\"A01876\"><he>אֶלִּיקָה</he></cite>. Ib. <he>המיינטון חייב משום מְלַבֵּן</he> he who cleanses amiant (v. <cite ref=\"A02022\"><he>אַמְיַינְטוֹן</he></cite>) comes under the law forbidding polishing (on the Sabbath). Tosef. Ber. VII (VI), 2; <cite ref=\"Berakhot 58a\">Ber. 58ᵃ</cite>; Y. ib. IX, 13ᶜ top <he>גזז ול׳ וכ׳</he> he (Adam) clipped (wool) and cleansed &c. ",
+						"<cite ref=\"Mishnah Avodah Zarah 5:12\">Ab. Zar. V, 12</cite> <he>את שדרכו … לְלַבֵּן באור יְלַבֵּן וכ׳</he> such utensils as are ordinarily cleansed by being put in the fire (metal spits &c.) he must cleanse by fire.—",
+						"<cite ref=\"Bereishit Rabbah 70:19\">Gen. R. s. 70</cite> (play on <cite ref=\"L00099\"><he>לָבָן</he></cite>, <cite ref=\"Genesis 29:5\">Gen. XXIX, 5</cite>) do you know Him <he>שהוא עתיד ללַבֵּן וכ׳</he> who will cleanse your sins to make them appear like snow (<cite ref=\"Isaiah 1:18\">Is. I, 18</cite>)?; a. fr.—<i>Part. pass.</i> <he>מְלוּבָּן</he> <i>finished, polished, refined</i>. ",
+						"<cite ref=\"Niddah 31a:19\">Nidd. 31ᵃ</cite> (of an embryo) <he>מל׳ ומזורז</he> well-formed and of strong vitality; <cite ref=\"Sanhedrin 70b\">Snh. 70ᵇ</cite>; <cite ref=\"Bamidbar Rabbah 10:5\">Num. R. s. 10</cite>.—",
+						"<cite ref=\"Bamidbar Rabbah 10:5\">Ib.</cite> <he>מל׳ ברשע</he> finished (refined) in wickedness, v. <cite ref=\"A02602\"><he>אפדכסיס</he></cite>; <cite ref=\"Bereishit Rabbah 60:13\">Gen. R. s. 60</cite>; <cite ref=\"Ruth Rabbah 4:3\">Ruth R. to II, 1</cite>; <cite ref=\"Yalkut Shimoni on Torah 109:11\">Yalk. Gen. 109</cite>.—Esp. "
+					],
+					"label": "1",
+					"senses": [
+						{
+							"gloss": " <i>to glaze tiles</i>; <i>to heat tiles</i>. ",
+							"units": [
+								"<cite ref=\"Mishnah Beitzah 4:7\">Bets. IV, 7</cite> (<cite ref=\"Beitzah 33a:9\">33ᵃ</cite>) <he>אין מְלַבְּנִין את וכ׳</he> you must not heat (new) tiles (on Holy Days) for roasting on them; Y. ib. IV, end, 62ᵈ <he>מאן דאמר מלבנין בבדוקים</he> he who says that you may heat tiles &c., refers to such as have been tested (to be sound under fire).—"
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " (of metal utensils, v. supra) <i>to glow</i>. ",
+							"units": [
+								"<cite ref=\"Chullin 8a:1\">Ḥull. 8ᵃ</cite> <he>ל׳ סכין וכ׳</he> if one made a knife glowing hot and cut with it; a. fr.—Part. pass. <he>מְלוּבָּן</he>, f. <he>מְלוּבֶּנֶת</he>. Y. Yeb. XVI, 15ᶜ bot."
+							],
+							"label": "b"
+						}
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִתְלַבֵּן"],
+			"senses": [],
+			"stem": "Hithpa."
+		},
+		{
+			"forms": ["נִתְלַבֵּן"],
+			"senses": [
+				{
+					"gloss": "<i>to grow white, glossy, be cleansed</i>. ",
+					"units": [
+						"<cite ref=\"Shemot Rabbah 23:10\">Ex. R. s. 23</cite> (play on <he>שְׁלמ̇ה̇</he> a. <cite ref=\"U01355\"><he>שַׂלְמָה</he></cite>) <he>מה השלמה הזאת מתלכלכת וחוזרת ומִתְלַבֶּנֶת</he> as the garment gets soiled and is cleansed again &c.; (<cite ref=\"Yalkut Shimoni on Nach 982:7\">Yalk. Cant. 982</cite> <he>מתכבסת</he>). ",
+						"<cite ref=\"Yalkut Shimoni on Nach 982:7\">Ib.</cite>; <cite ref=\"Shir HaShirim Rabbah 1:6:3\">Cant. R. to I, 6</cite> <he>נ׳ גופו</he> his tanned skin became white again, v. <cite ref=\"K01208\"><he>כִּרְכֵּם</he></cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to be glowed, heated</i>. ",
+					"units": [
+						"<cite ref=\"Shabbat 27b:6\">Sabb. 27ᵇ</cite> <he>והאונין … משיִתְלַבְּנוּ</he> bundles of flax are considered finished after they are baked; Sifra Thazr., Neg., Par. 5, ch. XIII."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Nithpa."
+		},
+		{
+			"forms": ["הִלְבִּין"],
+			"senses": [
+				{
+					"gloss": "<i>to grow white</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Negaim 1:6\">Neg. I, 6</cite> <he>היו … והִלְבִּינוּ</he> if the hair was black and turned white. ",
+						"<cite ref=\"Mishnah Negaim 4:4\">Ib. IV, 4</cite> <he>עיקרן … וראשן מַלְבִּין</he> if their roots are black and their tops white. ",
+						"<cite ref=\"Mishnah Yoma 6:8\">Yoma VI, 8</cite>; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to whiten, cleanse</i>. ",
+					"units": [
+						"<cite ref=\"Shir HaShirim Rabbah 5:11:3\">Cant. R. to V, 11</cite> <he>להַלְבִּין כנף וכ׳</he> to make white one wing of a raven. ",
+						"<cite ref=\"Yoma 39b:15\">Yoma. 39ᵇ</cite> the Temple is called Lebanon <he>שמַלְבִּין וכ׳</he> because it cleanses the sins &c.—",
+						"<cite ref=\"Ketubot 59b:9\">Keth. 59ᵇ</cite> <he>הרוצה שיַלְבִּין את בתו</he> he who desires to make his daughter white-complexioned (handsome); a. e.—Transf. (with <he>פנים</he>) <i>to put to shame, expose</i>. ",
+						"<cite ref=\"Pirkei Avot 3:11\">Ab. III, 11</cite> <he>המַלְבִּין פני וכ׳</he> he who exposes his fellowman to shame in public. ",
+						"<cite ref=\"Bava Metzia 59a:3\">B. Mets. 59ᵃ</cite> <he>נוח לו לאדם שיפיל … ואל יַלְבִּין וכ׳</he> man should rather have himself thrown into a furnace than put his neighbor to shame. ",
+						"<cite ref=\"Yalkut Shimoni on Torah 938:33\">Yalk. Deut. 938</cite> <he>אני מלבין פניהם</he> I should put them to shame; (<cite ref=\"Pirkei DeRabbi Eliezer 44:12\">Pirké d’R. El. ch. XLIV</cite> <cite ref=\"M00184\"><he>מגלה</he></cite>, v. <cite ref=\"C00885\"><he>גָּלָה</he></cite>). ",
+						"<cite ref=\"Bava Metzia 58b:12\">B. Mets. 58ᵇ</cite> <he>כל המלבין … כאילו שופך דמים</he> he who puts his neighbor to public shame is considered as if he shed blood; a. fr.—Y. Succ. V, 55ᶜ bot. (play on <he>נ̇ב̇ל̇</he>) <he>שמל̇ב̇ין כמה מיני זמר</he> it shames (excels) many a musical instrument."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

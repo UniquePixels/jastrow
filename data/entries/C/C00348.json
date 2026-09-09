@@ -1,0 +1,23 @@
+{
+	"id": "C00348",
+	"slug": "גוזלא-2",
+	"headword": {
+		"text": "גּוֹזָלָא",
+		"homograph": 2
+	},
+	"page": {
+		"number": 220,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"C00559\"><he>גזל</he></cite>) <i>robber</i>. Pl. <he>גּוֹזָלִין</he>. ",
+			"units": [
+				"<cite ref=\"Targum Jerusalem, Genesis 6:11\">Targ. Y. II, Gen. VI, 11</cite>."
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "A01090",
+	"slug": "אטלותא",
+	"headword": {
+		"text": "אַטְּלוּתָא"
+	},
+	"page": {
+		"number": 42,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f., const. (<he>נטל</he>) <cite ref=\"A01090\"><he>אַטְּלוּת</he></cite> <i>thowing, casting</i>. <he>א׳ אבנין</he> stoning to death. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Exodus 21:17\">Targ. Y. Ex. XXI, 17</cite>; a. e."
+			]
+		}
+	]
+}

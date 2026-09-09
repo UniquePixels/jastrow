@@ -1,0 +1,24 @@
+{
+	"id": "M01112",
+	"slug": "מיחא",
+	"headword": {
+		"text": "מֵיחָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 772,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"M00848\"><he>מְחַח</he></cite>, v. <cite ref=\"M00859\"><he>מְחִי</he> I</cite>) <i>stirred flour in a dish, paste</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 37b:8\">Sabb. 37ᵇ</cite>.—",
+				"<cite ref=\"Berakhot 37b\">Ber. 37ᵇ</cite> Ar. a. Ms. M. margin (ed. <cite ref=\"S01009\"><he>קימחא</he></cite>)."
+			]
+		}
+	]
+}

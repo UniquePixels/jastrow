@@ -1,0 +1,74 @@
+{
+	"id": "P00198",
+	"slug": "עוד-1",
+	"headword": {
+		"text": "עוּד"
+	},
+	"page": {
+		"number": 1048,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <cite ref=\"P00128\"><he>עָדָה</he></cite>)<i>to turn, return, occur; to continue, endure, exist</i> (v. Ges. Thes. s. v.).—Denom. <cite ref=\"P00111\"><he>עַד</he></cite>, <cite ref=\"P00199\"><he>עוֹד</he></cite>, <cite ref=\"P01522\"><he>עֵת</he></cite> &c.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["עוֹדֵד"],
+			"senses": [
+				{
+					"gloss": "<i>to straighten, erect, help up</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 146:5\">Midr. Till. to Ps. CXLVI, 9</cite> <he>וכי כל … מְעוֹדֵד</he> does the Lord uphold all widows and orphans?—*Part. pass. <he>מְעוֹדָד</he>; pl. <he>מְעוֹדָדִים</he>, <he>מְעוֹדָדִין</he>. ",
+						"<cite ref=\"Tosefta Makhshirin 1:3\">Tosef. Makhsh. I, 3</cite> <he>שק אחד מע׳</he> (ed. Zuck. <he>מעודר</he>, Var. <he>מועדר</he>; R. S. to <cite ref=\"Mishnah Makhshirin 1:4\">Makhsh. I, 4</cite> <he>מעורר</he>; Makhsh. l. c. <he>מלא פירות</he>) one bag standing upright (closely packed); ib. <he>שני שקין מע׳</he> (ed. Zuck. <he>מעודרון</he>, Var. <he>מעודדי</he>, R. S. <he>מעוררין</he>)."
+					]
+				}
+			],
+			"stem": "Polel."
+		},
+		{
+			"forms": ["הֵעִיד"],
+			"senses": [
+				{
+					"gloss": " (denom. of <cite ref=\"P00115\"><he>עֵד</he></cite>) ",
+					"units": []
+				},
+				{
+					"gloss": "<i>to declare one’s presence at a certain occurrence</i>, esp. <i>to establish a law from a witnessed precedent or traditional knowledge</i>. ",
+					"units": [
+						"<cite ref=\"Mishnah Eduyot 2:1\">Eduy. II, 1</cite> <he>ר׳ חנינא</he> … <he>ה׳ וכ׳</he> R. H. … related four things which he knew by tradition. ",
+						"<cite ref=\"Mishnah Eduyot 2:3\">Ib. 3</cite> <he>אף הוא ה׳ על וכ׳</he> he also reported as a precedent the case of a small village &c.; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to testify before court</i>. Ib. IV, 11 <he>מי שהיו … מְעִידוֹת אותו</he> he concerning whom there were two sets of witnesses testifying; <he>אלו מְעִידִים וכ׳</he> the ones testifying that &c. ",
+					"units": [
+						"<cite ref=\"Mishnah Makkot 1:1\">Macc. I, 1</cite> <he>מעידין אנו באיש … שגירש וכ׳</he> (Bab. ed. 3ᵃ … <he>את איש</he>) we testify about this man that he divorced &c. Ib. 2, sq.; a. v. fr.—",
+						"<cite ref=\"Chagigah 5a:7\">Ḥag. 5ᵃ</cite> <he>וממהר להָעִידוֹ</he> and is quick to testify against him; <cite ref=\"Yalkut Shimoni on Nach 589:8\">Yalk. Mal. 589</cite> <he>ומֵעִיד בו</he>."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": "<i>to call upon as witness</i>. ",
+					"units": [
+						"<cite ref=\"Vayikra Rabbah 2:6\">Lev. R. s. 2</cite> <he>מְעִידֵנִי עלי וכ׳</he> I call upon heaven and earth as my witnesses &c.; <cite ref=\"Arakhin 16b:31\">Arakh. 16ᵇ</cite> <he>מעיד אני וכ׳</he>; a. fr."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": "<i>to forewarn, exhort</i>. Lev. R. l. c. <he>שבעה נביאים … והן מעידין וכ׳</he> seven prophets stood up for the nations exhorting them; <he>לא הֵעִידוּ בנו</he> they have not warned us; <he>גירי הדור מעידין בדור</he> the proselytes of every generation are an exhortation to their respective generation; a. e.—Esp. <i>to forewarn the owner of a noxious animal; to declare an animal noxious</i> (v. <cite ref=\"M00556\"><he>מוּעָד</he></cite>). ",
+					"units": [
+						"<cite ref=\"Mishnah Bava Kamma 2:4\">B. Kam. II, 4</cite> <he>כל שהֵעִידוּ בו וכ׳</he>, v. <cite ref=\"M00556\"><he>מוּעָד</he></cite>. ",
+						"<cite ref=\"Bava Kamma 24a:11\">Ib. 24ᵃ</cite> <he>עד שיָעִידוּ בו וכ׳</he> unless he be declared noxious (testimony be deposited stating the facts on which the declaration is based) in the presence of the owner and in court. ",
+						"<cite ref=\"Bava Kamma 24a:12\">Ib.</cite> <he>הֵעִידוּהוּ שנים וכ׳</he> if the first case has been ascertained by two witnesses &c.; a. fr.—Part. pass. <cite ref=\"M00556\"><he>מוּעָד</he></cite> q. v."
+					],
+					"label": "4"
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

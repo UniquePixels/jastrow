@@ -1,0 +1,50 @@
+{
+	"id": "C01211",
+	"slug": "גפף-1",
+	"headword": {
+		"text": "גָּפַף"
+	},
+	"page": {
+		"number": 262,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (v. <cite ref=\"C00456\"><he>גּוּף</he></cite>) <i>to bend, to join; to press, close</i>; v. <cite ref=\"C01206\"><he>גָּפַס</he></cite>.",
+			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": ["גִּיפֵּף"],
+			"senses": [
+				{
+					"gloss": "<i>to attach a rim, to surround</i>. ",
+					"units": ["<cite ref=\"Mishnah Kelim 15:2\">Kel. XV, 2</cite>."],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to throw arms around, embrace</i> (v. <cite ref=\"C01195\"><he>גַּף</he></cite>). ",
+					"units": [
+						"<cite ref=\"Yoma 66b:13\">Yoma 66ᵇ</cite> <he>גי׳ ונשק</he> Ar. (ed. <he>גפף ונישק</he>) whosoever embraces or kisses an idol; <cite ref=\"Mishnah Sanhedrin 7:6\">Snh. VII, 6</cite> (<cite ref=\"Sanhedrin 60b:2\">60ᵇ</cite>) <he>המְגַפֵּף</he>.—",
+						"<cite ref=\"Pesikta Rabbati 26:1\">Pesik. R. s. 26</cite> <he>גִיפְּפָן וכ׳</he> he hugged and kissed them. ",
+						"<cite ref=\"Pesikta Rabbati 26:1\">Ib.</cite> <he>מְגַפְּפוֹת את וכ׳</he> threw their arms around the columns.—Y. Keth. VII, 31ᶜ <he>מְגַפְּפִין סוטה</he> if they have been seen embracing one another, she is amenable to the law of Sotah (v. <cite ref=\"O00286\"><he>סוֹטָה</he></cite>); a. fr.—<i>Part. pass.</i> <he>מְגוּפָּף</he> <i>closed, enclosed, surrounded from all sides</i>. Y. Kil. IV, 29ᵇ bot.; Y. Erub. I, 19ᶜ <he>מְגוּפֶּפֶת וכ׳</he> enclosed on four sides; a. fr.—",
+						"<cite ref=\"Tosefta Bekhorot 4:16\">Tosef. Bekh. IV, 16</cite> <he>שאזניה מְגוּפָּפוֹת וכ׳</he> whose ears are closed."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הֵגֵף"],
+			"senses": [
+				{
+					"gloss": "<i>to lock up, shut</i>. Y. Sabb. XIII, 14ᵃ bot. [read:] <he>ולא כמֵגֵף לתוכה וכ׳</he> we are not treating the case of one shutting (the animal) up in the vivarium; (Y. Bets. III, beg. 61ᵈ <he>בנָעַל</he>).",
+					"units": []
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

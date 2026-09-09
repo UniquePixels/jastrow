@@ -1,0 +1,36 @@
+{
+	"id": "V00038",
+	"slug": "תבוסה",
+	"headword": {
+		"text": "תְּבוּסָה"
+	},
+	"page": {
+		"number": 1643,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"B00286\"><he>בּוּס</he></cite>, v. ",
+			"units": ["<cite ref=\"Ezekiel 16:22\">Ez. XVI, 22</cite>) "]
+		},
+		{
+			"gloss": "<i>weltering</i>; <he>דם ת׳</he> <i>the blood flowing out of a dying body</i>, which is partly live blood (levitically clean) and partly dead blood (levitically unclean), <i>mixed blood</i>. Ohol. II, 2 <he>רביעית דם ורביעית דם ת׳</he> one fourth (of a Log) of blood (of a dead body), and one fourth of mixed blood (make unclean). Ib. III, 5 <he>איזהו דם ת׳ המת וכ׳</he> what is <i>dam t’busah</i>? The blood of a dead body of which one eighth (of a Log) flowed out while it was yet alive, and one eighth after death; ib. <he>איזהו דם ת׳ צלוב וכ׳</he> what is <i>dam t’busah</i>? The blood of an impaled body which flowed uninterruptedly (v. <cite ref=\"U02140\"><he>שָׁתַת</he></cite>) &c. ",
+			"units": [
+				"<cite ref=\"Tosefta Megillah 1:10\">Tosef. Meg. I, 10</cite> <he>אין בין דם המת לדם ת׳ וכ׳</he> there is no legal difference between the blood of a dead man and that of a dying man, except &c.; <cite ref=\"Tosefta Ohalot 4:12\">Tosef. Ohol. IV, 12</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>pressing, the ground which is pressed by a body in the grave</i>, and which is considered the dead man’s property. ",
+			"units": [
+				"<cite ref=\"Mishnah Nazir 9:3\">Naz. IX, 3</cite> (<cite ref=\"Nazir 64b:11\">64ᵇ</cite>) <he>המוצא … נוטלו ואת תְּבוּסָתוֹ</he> (Bab. ed. <he>תְּפוּסָתוֹ</he>; Y. ed. <cite ref=\"V00806\"><he>תְּפוּשָׂ׳</he></cite>) if one finds in his field a body in the usual position of a buried man, the first time, he may remove it with the ground which it occupies (for burial in another place); <he>מצא שנים … ואת תְּבוּסָתָן</he> (Bab. ed. <he>תפוס׳</he>; Y. ed. <he>תפוש׳</he>) if he finds two, he may still remove them and their ground; Ohol. XVI, 3 <he>תב׳</he>; <cite ref=\"Bava Batra 101b\">B. Bath. 101ᵇ</cite> sq. <he>תב׳</he> Ms. H. a. Ar. (ed. <cite ref=\"V00857\"><he>תפ׳</he></cite>); Y. ib. V, beg. 15ᵃ, expl. <he>עד שלש וכ׳</he> up to three fingers’ lengths of the ground, as far as the serial secretion penetrates. ",
+				"<cite ref=\"Nazir 65a:3\">Naz. 65ᵃ</cite> <he>אין לו ת׳</he> has no right of <i>t’busah</i> (<i>t’fusah</i>), i.e. the ground does not belong to the body. ",
+				"<cite ref=\"Nazir 65a:7\">Ib.</cite> <he>וכמה שיעור ת׳</he> how large is the quantity of the dead man’s ground?; a. e."
+			],
+			"label": "2"
+		}
+	]
+}

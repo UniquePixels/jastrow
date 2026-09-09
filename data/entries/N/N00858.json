@@ -1,0 +1,29 @@
+{
+	"id": "N00858",
+	"slug": "נמוך",
+	"headword": {
+		"text": "נָמוֹךְ"
+	},
+	"altHeadwords": [
+		{
+			"text": "נְמוּכָה"
+		}
+	],
+	"page": {
+		"number": 913,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.<i>low, lowly</i>, v. <cite ref=\"M00470\"><he>מוּךְ</he></cite>.—Pl. <he>נְמוּכִים</he>; <he>נְמוּכוֹת</he>. ",
+			"units": [
+				"<cite ref=\"Bamidbar Rabbah 19\">Num. R. s. 19</cite> <he>בגבוה שבגבוהים ובנמוך שבנ׳</he> with the highest of the high (the cedar) and the lowest of the low (the hyssop). ",
+				"<cite ref=\"Sotah 5b:2\">Sot. 5ᵇ</cite> <he>נְמוּכֵי הרוח</he> the humble. ",
+				"<cite ref=\"Kohelet Rabbah 9:10:1\">Koh. R. to IX, 10</cite> <he>פניהם נ׳</he> with downcast countenances, opp. <he>זקופות</he>; a. fr."
+			]
+		}
+	]
+}

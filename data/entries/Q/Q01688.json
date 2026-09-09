@@ -1,0 +1,32 @@
+{
+	"id": "Q01688",
+	"slug": "פרוכת",
+	"headword": {
+		"text": "פָּרוֹכֶת"
+	},
+	"altHeadwords": [
+		{
+			"text": "פָּרֹכֶת"
+		}
+	],
+	"page": {
+		"number": 1220,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f.(b. h.; <cite ref=\"Q01844\"><he>פָּרַךְ</he></cite>)<i>curtain</i>, (also collect. noun) <i>curtains</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 5:1\">Yoma V, 1</cite> <he>לא היתה שם אלא פ׳ אחת</he> only one curtain was there (in the Second Temple, between the Holy and the Holy of Holies). ",
+				"<cite ref=\"Mishnah Yoma 5:1\">Ib.</cite> <he>מהלך … עם הפ׳</he> he walked to the left alongside the curtain. Ib. 4; a. fr.—Pl. <he>פָּרוֹכוֹת</he>, <he>פָּרֹכוֹת</he>, <cite ref=\"Q01688\"><he>פָּרוֹכֶת</he></cite>. Ib. 1 (51ᵇ) <he>שתי הפ׳ המבדילות וכ׳</he> (Talm. ed. <he>הפרוכת</he>, Ms. L. <he>הפרכות</he>) the two curtains which formed the partition between …, and between which was a space of one cubit (v. <cite ref=\"I00836\"><he>טְרַכְסִין</he></cite>). ",
+				"<cite ref=\"Mishnah Shekalim 5:1\">Shek. V, 1</cite> <he>על הפרכות</he> (Y. ed. <he>הפרוכת</he>) superintendent over the manufacture of the Temple curtains; Y. ib. 49ᵃ <he>ממונה על אורגי פ׳</he>. ",
+				"<cite ref=\"Ketubot 106a:12\">Keth. 106ᵃ</cite> <he>י״ג פרכות היו וכ׳</he> there were thirteen curtains in the (Second) Temple; <cite ref=\"Yoma 54a:15\">Yoma 54ᵃ</cite> <cite ref=\"Q01688\"><he>פרוכת</he></cite>. ",
+				"<cite ref=\"Yoma 54a:15\">Ib.</cite> <he>פ׳ דבבי</he> the curtains at the Temple gates; a. fr.—",
+				"<cite ref=\"Pirkei DeRabbi Eliezer 41:15\">Pirké d’R. El. ch. XLI</cite> <he>פָּרֹכִיּוֹת שחורות</he> black curtains."
+			]
+		}
+	]
+}

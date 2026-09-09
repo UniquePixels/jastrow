@@ -1,0 +1,77 @@
+{
+	"id": "G00104",
+	"slug": "זהר-1",
+	"headword": {
+		"text": "זָהֵר"
+	},
+	"page": {
+		"number": 382,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": "(b. h.; cmp. <he>זחה</he>)<i>to shine;</i> v. <cite ref=\"G00089\"><he>זָהוֹר</he></cite>, <cite ref=\"G00093\"><he>זְהוֹרִית</he></cite>.",
+			"units": [],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to look out, beware, be strict</i> (corresp. to b. h. <cite ref=\"U01525\"><he>שָׁמַר</he></cite>); v. <cite ref=\"G00097\"><he>זָהִיר</he></cite>.",
+			"units": [],
+			"label": "2"
+		}
+	],
+	"stems": [
+		{
+			"forms": ["זִהֵר"],
+			"senses": [
+				{
+					"gloss": "<i>to brighten</i>. ",
+					"units": [
+						"<cite ref=\"Midrash Tehillim 90:10\">Midr. Till. to Ps. XC, 16</cite> <he>וזִהֲּרוֹ</he> and brightened his countenance."
+					]
+				}
+			],
+			"stem": "Pi."
+		},
+		{
+			"forms": ["הִזָּהֵר"],
+			"senses": [
+				{
+					"gloss": " (= b. h. <he>הִשָּׁמֵר</he>) <i>to be careful, be strict; to beware, take heed</i>. ",
+					"units": [
+						"<cite ref=\"Berakhot 8b:6\">Ber. 8ᵇ</cite> <he>הִזָּהֲרוּ בורידין</he> be careful to cut the jugular veins, v. <cite ref=\"F00093\"><he>וָרִיד</he></cite>. ",
+						"<cite ref=\"Berakhot 8b\">Ib.</cite> <he>ה׳ בזקן וכ׳</he> beware of disregarding an old man who &c. ",
+						"<cite ref=\"Nedarim 81a:2\">Ned. 81ᵃ</cite> <he>ה׳ בבני עניים וכ׳</he> take heed of (do not disregard) the children of the poor; a. fr."
+					]
+				}
+			],
+			"stem": "Nif."
+		},
+		{
+			"forms": ["הִזְהִיר"],
+			"senses": [
+				{
+					"gloss": "<i>to caution, forewarn</i>, esp. <i>to prohibit by a special law</i>, v. <cite ref=\"A00962\"><he>אַזְהָרָה</he></cite>. ",
+					"units": [
+						"<cite ref=\"Yevamot 22b\">Yeb. 22ᵇ</cite>, a. e. <he>אין מַזְהִירִין מן הדין</he> a law derived from analogy (v. <cite ref=\"D00634\"><he>דִּין</he></cite>) is not considered a specified law on which punishment can be executed after due warning. ",
+						"<cite ref=\"Zevachim 106b\">Zeb. 106ᵇ</cite>, a. e. <he>לא ענש אא״כ ה׳</he> the Bible text did not pronounce punishment without having expressed a warning (‘thou shalt not’ &c.); a. fr."
+					]
+				}
+			],
+			"stem": "Hif."
+		},
+		{
+			"forms": ["הוּזְהָר"],
+			"senses": [
+				{
+					"gloss": "<i>to be forewarned, to be forbidden from doing</i> (by a special law). ",
+					"units": [
+						"<cite ref=\"Yevamot 84b:9\">Yeb. 84ᵇ</cite> <he>לא הוּזְהֲרוּ וכ׳</he> there is no specific law prohibiting women of legitimate birth to marry men of illegitimate birth.—Part. <he>מוּזְהָר</he>, f. <he>מוּזְהֶרֶת</he>. ",
+						"<cite ref=\"Yevamot 84b:15\">Ib.</cite> <he>מלמד שהאשה מ׳</he> (the repeated expression, ‘they shall not take’, <cite ref=\"Leviticus 21:7\">Lev. XXI, 7</cite>) intimates that woman is included with man in the prohibition; <cite ref=\"Leviticus 21:7\">ib.</cite> <he>כל היכא דהוא מ׳ היא מ׳</he> wherever the man is cautioned not to marry, the woman (in the same social relation) is cautioned; a. fr. [<cite ref=\"Leviticus 21:7\">Ib.</cite> <he>היא לא מזדהרא</he>, read: <he>מוזהרת</he>.]"
+					]
+				}
+			],
+			"stem": "Hof."
+		}
+	]
+}

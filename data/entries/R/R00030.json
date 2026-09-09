@@ -1,0 +1,35 @@
+{
+	"id": "R00030",
+	"slug": "צבחד",
+	"headword": {
+		"text": "צִבְחַד"
+	},
+	"altHeadwords": [
+		{
+			"text": "צִבְחַר"
+		},
+		{
+			"text": "צִי׳"
+		}
+	],
+	"page": {
+		"number": 1257,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (prob. fr. a root <he>צבח</he>, with format. <cite ref=\"D00000\"><he>ד</he></cite> or <cite ref=\"T00000\"><he>ר</he></cite>; cmp. <cite ref=\"R00031\">next w.</cite>, a. <cite ref=\"R00053\"><he>צָבַע</he> I</cite>) [<i>a grab</i>,] <i>a little, few</i>. ",
+			"units": [
+				"<cite ref=\"Targum of II Chronicles 24:24\">Targ. II Chr. XXIV, 24</cite> (h. text <he>מצער</he>). ",
+				"<cite ref=\"Aramaic Targum to Job 36:2\">Targ. Job XXXVI, 2</cite> (h. text <cite ref=\"G00597\"><he>זעיר</he></cite>). ",
+				"<cite ref=\"Targum Jonathan on Isaiah 5:18\">Targ. Is. V, 18</cite>; a. fr.—",
+				"<cite ref=\"Jerusalem Talmud Berakhot 1:2:8\">Y. Ber. I, 3ᵇ</cite> top. <he>מן גו דאינון צ׳</he> because they (the verses) are few; <cite ref=\"Jerusalem Talmud Shabbat 1:2:10\">Y. Sabb. I, 3ᵃ</cite> bot. ",
+				"<cite ref=\"Jerusalem Talmud Yoma 6:4:5\">Y. Yoma VI, 43ᵈ</cite> <he>אורכין צ׳</he> endure a little while yet. ",
+				"<cite ref=\"Bereishit Rabbah 49:9\">Gen. R. s. 49</cite>; <cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite>, v. <cite ref=\"F00116\"><he>וְתר</he></cite>; a. fr.— Pesik. B’shall., p. 93ᵃ <cite ref=\"R00723\"><he>צצחר</he></cite> (corr. acc.).—[Editions vary between <cite ref=\"R00030\"><he>צבחד</he></cite> a. <cite ref=\"R00030\"><he>צבחר</he></cite>.]"
+			]
+		}
+	]
+}

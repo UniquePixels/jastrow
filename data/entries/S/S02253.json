@@ -1,0 +1,23 @@
+{
+	"id": "S02253",
+	"slug": "קשישין",
+	"headword": {
+		"text": "קִשִׁישִׁין"
+	},
+	"page": {
+		"number": 1431,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m",
+		"number": "pl"
+	},
+	"senses": [
+		{
+			"gloss": "m. pl. (<he>קשש</he> <i>to be straight, stiff</i>, v. <cite ref=\"S02211\"><he>קַשׁ</he></cite>) <i>splints put about a fracture</i>. ",
+			"units": [
+				"<cite ref=\"Shabbat 53a:13\">Sabb. 53ᵃ</cite> <he>ק׳ שעל גבי השבר</he> (Ms. M. <he>כְּתִיתִין</he>, q. v.); <cite ref=\"Tosefta Shabbat 4:5\">Tosef. ib. IV</cite> (<cite ref=\"Tosefta Shabbat 5:5\">V</cite>), 5 <he>בקַשְׁקַשִּׁין</he> ed. Zuck. (Var. <he>בקְשׁוֹשִׁין</he>); Y. ib. V, 7ᵇ, sq. <cite ref=\"S01216\"><he>קִישׁוֹשׁוֹת</he></cite>."
+			]
+		}
+	]
+}

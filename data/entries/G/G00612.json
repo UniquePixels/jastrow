@@ -1,0 +1,33 @@
+{
+	"id": "G00612",
+	"slug": "זעק-1",
+	"headword": {
+		"text": "זָעַק"
+	},
+	"page": {
+		"number": 408,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": " (b. h.) <i>to cry</i>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 1:34\">Ex. R. s. 1</cite> (ref. to <cite ref=\"Exodus 2:23\">Ex. II, 23</cite>) <he>אין וַיִזְעָקוּ אלא וכ׳</he> ‘they cried’ has the meaning of lamenting."
+			]
+		}
+	],
+	"stems": [
+		{
+			"forms": ["הִזְעִיק"],
+			"senses": [
+				{
+					"gloss": "<i>to cause to cry</i>. ",
+					"units": [
+						"<cite ref=\"Bereishit Rabbah 67\">Gen. R. s. 67</cite>, v. <cite ref=\"G00614\"><he>זְעָקָה</he></cite>."
+					]
+				}
+			],
+			"stem": "Hif."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "H00004",
+	"slug": "חאיתא",
+	"headword": {
+		"text": "חַאיְתָא",
+		"reconstructed": true
+	},
+	"page": {
+		"number": 415,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<he>חוו</he>, cmp. <cite ref=\"H00012\"><he>חבב</he></cite>, <i>to be arched</i>, cmp. <cite ref=\"C00094\"><he>גְּבִינָה</he></cite>; Syr. <he>חאותא</he>, P. Sm. 1166) <i>clotted cream</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 30:33\">Targ. Prov. XXX, 33</cite> Ms. (Var. ed. Lag. <cite ref=\"E00001\"><he>ה׳</he></cite>; ed. Lag. a. oth. <cite ref=\"H01143\"><he>חֶמְאֲתָא</he></cite>)."
+			]
+		}
+	]
+}

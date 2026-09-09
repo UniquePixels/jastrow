@@ -1,0 +1,38 @@
+{
+	"id": "P00992",
+	"slug": "ענין",
+	"headword": {
+		"text": "עִנְיָן"
+	},
+	"altHeadwords": [
+		{
+			"text": "עִנְיָין"
+		},
+		{
+			"text": "עִי׳"
+		}
+	],
+	"page": {
+		"number": 1095,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"P00970\"><he>עָנָה</he> I)</cite> [<i>answer, corresponding affair</i>,] <i>correspondence, relation; subject, object, affair, idea</i>. Sifra introd. <he>שהוא כעִנְיָנוֹ</he> in keeping with the general subject to which it is related, v. <cite ref=\"I00614\"><he>טָעַן</he> I</cite>; <he>שלא כענינו</he> out of relation to the general subject. ",
+			"units": [
+				"<cite ref=\"Kiddushin 6a:11\">Kidd. 6ᵃ</cite> <he>והוא שעסוקין באותו ע׳</he> provided they are engaged in conversation on that subject (of marriage). ",
+				"<cite ref=\"Kiddushin 6a:11\">Ib.</cite> <he>מע׳ לע׳ באותו ע׳</he> when their conversation changed from one point to another all, however, having relation to that subject (of marriage, e.g. about dowry, about the man’s financial condition). ",
+				"<cite ref=\"Bava Batra 114a:2\">B. Bath. 114ᵃ</cite> <he>כל זמן שעוסקין באותו ע׳</he> so long as the judges are engaged in that case (of donation), opp. <he>כל זמן שיושבין</he> so long as they are in session. ",
+				"<cite ref=\"Kiddushin 43a:5\">Kidd. 43ᵃ</cite> <he>אם אינו ע׳ לגופו תנהו ע׳ לכל וכ׳</he> if it (that word <cite ref=\"E00174\"><he>ההוא</he></cite> in the text) has no bearing on the subject itself (because a previous <cite ref=\"E00174\"><he>ההוא</he></cite> has already intimated the exclusion of a messenger), make it bear on all laws of the Torah (that you cannot authorize a deputy for an unlawful act). Tosef. Meg. IV (III), 5 [read:] <he>בבית הוועד שואלין לעִנְיַין הפסח וכ׳</he> in the school house the subject of Passover laws is discussed thirty days (before the festival). ",
+				"<cite ref=\"Tosefta Sotah 6:2\">Tosef. Sot. VI, 2</cite>, v. <cite ref=\"P00970\"><he>עָנָה</he> I</cite>. ",
+				"<cite ref=\"Shir HaShirim Rabbah 1:10:3\">Cant. R. to I, 10</cite> (ref. to <cite ref=\"Numbers 27:1-11\">Num. XXVII, 1-11</cite>, a. ",
+				"<cite ref=\"Numbers 27:12-23\">12-23</cite>) <he>וכי מה ע׳ זה לזה</he> what relation is there between these two subjects?; a. v. fr.—Pl. <he>עִנְיָנוֹת</he>, <cite ref=\"P00993\"><he>עִנְיָי׳</he></cite>, <cite ref=\"P00072\"><he>עִי׳</he></cite>. Tosef. Meg. l. c. <he>מדלגין מע׳ הפסח הכתובין בתורה</he> Var. ed. Zuck. (ed. <he>בעניין</he>, corr. acc.) they skip (make selections) from the Scriptural passages relating to Passover. ",
+				"<cite ref=\"Tosefta Shabbat 13:4\">Tosef. Sabb. XIII</cite> (<cite ref=\"Tosefta Shabbat 14:4\">XIV</cite>), 4 <he>ברכות אע״פ וע׳ הרבה שבתורה וכ׳ …</he> benedictions (prayers), even if there be in them some of the letters of the Divine Name and many selections from the Torah, should not be saved from fire (on the Sabbath); Y. ib. XVI, 15ᶜ; <cite ref=\"Tractate Soferim 15:4\">Treat. Sof’rim XV, 4</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Maaser Sheni 4:4:5\">Y. Maas. Sh. IV, 55ᵃ</cite> bot. <he>מה פליגין כשהפליגו דעתן לע׳ אחרים</he> in what case do they differ? When they had turned their mind to other points, opp. to <he>עסוקין באותו עניין</he> (v. supra); <cite ref=\"Jerusalem Talmud Gittin 6:1:6\">Y. Gitt. VI, 47ᵈ</cite> bot. (corr. acc.)."
+			]
+		}
+	]
+}

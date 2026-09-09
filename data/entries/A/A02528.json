@@ -1,0 +1,27 @@
+{
+	"id": "A02528",
+	"slug": "אספתי-2",
+	"headword": {
+		"text": "אִסְפָּתִי"
+	},
+	"altHeadwords": [
+		{
+			"text": "אִסְפָּטִי"
+		}
+	],
+	"page": {
+		"number": 97,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (σπάθη, spatha, spata D. C.) <i>broad sword</i>, esp. <i>the executioner’s sword</i>. Pesik. B’shall. p. 81ᵇ <he>באספטי וכ׳</he> Ar. (ed. <cite ref=\"A01476\"><he>איספטר</he></cite>; <cite ref=\"Yalkut Shimoni on Nach 302\">Yalk. Is. 302</cite> beg. <cite ref=\"A02512\"><he>אספקטי</he></cite>; corr. acc.) with the sword with which the Egyptians struck, were they struck.—Pl. <cite ref=\"A02528\"><he>אִסְפָּתִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Shemot Rabbah 15:22\">Ex. R. s. 15</cite> <he>עשו א׳</he> prepare ye the swords; v. <cite ref=\"O01368\"><he>ספיקולא</he></cite>."
+			]
+		}
+	]
+}

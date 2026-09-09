@@ -1,0 +1,35 @@
+{
+	"id": "V01011",
+	"slug": "תרם-1",
+	"headword": {
+		"text": "תָּרַם"
+	},
+	"page": {
+		"number": 1699,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": " (denom. of <cite ref=\"V00962\"><he>תְּרוּמָה</he></cite>) <i>to lift</i>, ",
+			"units": []
+		},
+		{
+			"gloss": "<i>to remove</i> (<i>ashes</i>), <i>clear the altar</i> (<cite ref=\"Leviticus 6:3\">Lev. VI, 3</cite>). ",
+			"units": [
+				"<cite ref=\"Mishnah Yoma 2:1\">Yoma II, 1</cite> <he>בראשונה כל מי שרוצה לִתְרוֹם … תּוֹרֵם</he> formerly whosoever wanted to remove the ashes from the altar, could do it. ",
+				"<cite ref=\"Mishnah Yoma 2:2\">Ib. 2</cite> <he>התקינו שלא יהו תוֹרְמִין וכ׳</he> it was arranged that they should clean the altar only by lot. Y. ib. 39ᵇ bot. <he>זר שת׳</he> if an outsider removed the ashes. ",
+				"<cite ref=\"Mishnah Tamid 1:2\">Tam. I, 2</cite>; <cite ref=\"Mishnah Tamid 1:4\">4</cite>; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "<i>to separate the priestly gift, to make T’rumah</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Terumot 1:1\">Ter. I, 1</cite> <he>חמשה לא יִתְרוֹמוּ ואם תָּרְמוּ וכ׳</he> five persons should not make T’rumah, and if they did &c., v. <cite ref=\"V00962\"><he>תְּרוּמָה</he></cite>. ",
+				"<cite ref=\"Mishnah Terumot 1:1\">Ib.</cite> <he>התּוֹרֵם את שאינו שלו</he> he that separates T’rumah from what does not belong to him. ",
+				"<cite ref=\"Mishnah Terumot 1:1\">Ib.</cite> <he>נכרי שת׳ את של ישראל</he> if a gentile makes T’rumah of what belongs to an Israelite. Ib. 4 <he>אין תורמין זיתים על השמן וכ׳</he> you cannot consecrate olives as T’rumah for oil, or grapes for wine. Ib. 5 <he>אין תורמין מן הלקט וכ׳</he> you are not bound to give the priestly share out of the gleanings &c.; a. fr."
+			],
+			"label": "2"
+		}
+	]
+}

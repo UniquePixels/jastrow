@@ -1,0 +1,24 @@
+{
+	"id": "Q01130",
+	"slug": "פלשתי",
+	"headword": {
+		"text": "פְּלִשְׁתִּי"
+	},
+	"page": {
+		"number": 1185,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (b. h.) <i>Philistine</i>.—Pl. <cite ref=\"Q01130\"><he>פְּלִשְׁתִּים</he></cite>. ",
+			"units": [
+				"<cite ref=\"Mishnah Sotah 8:1\">Sot. VIII, 1</cite> <he>פ׳ באו וכ׳</he> the Philistines came with boastful reliance on &c., v. <cite ref=\"N01113\"><he>נִצָּחוֹן</he></cite>. ",
+				"<cite ref=\"Midrash Tehillim 60:1\">Midr. Till. to Ps. LX</cite>. ",
+				"<cite ref=\"Bamidbar Rabbah 14:9\">Num. R. s. 14</cite> <he>ארץ פ׳</he> Philistia; a. fr."
+			]
+		}
+	]
+}

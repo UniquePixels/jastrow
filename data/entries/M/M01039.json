@@ -1,0 +1,26 @@
+{
+	"id": "M01039",
+	"slug": "מטעיתא",
+	"headword": {
+		"text": "מַטְעִיתָא"
+	},
+	"page": {
+		"number": 769,
+		"column": "a"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. <cite ref=\"M01038\">same</cite>. ",
+			"units": [
+				"<cite ref=\"Targum Jonathan on Genesis 38:21\">Targ. Y. Gen. XXXVIII, 21</cite>, sq. ",
+				"<cite ref=\"Targum Jonathan on Deuteronomy 23:19\">Targ. Y. Deut. XXIII, 19</cite>.—Pl. <he>מַטְעֲיָיתָא</he>. ",
+				"<cite ref=\"Targum Jonathan on Numbers 24:14\">Targ. Y. Num. XXIV, 14</cite>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 42:9\">Targ. Y. Gen. XLII, 9</cite> (not <he>מַטְעִי׳</he>). ",
+				"<cite ref=\"Targum Jonathan on Genesis 42:12\">Ib. 12</cite> <he>מַטְעָיַית</he> constr. (not … <he>עִ׳</he>)."
+			]
+		}
+	]
+}

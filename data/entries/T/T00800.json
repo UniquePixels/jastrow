@@ -1,0 +1,27 @@
+{
+	"id": "T00800",
+	"slug": "רמותא",
+	"headword": {
+		"text": "רָמוּתָא"
+	},
+	"page": {
+		"number": 1481,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "f"
+	},
+	"senses": [
+		{
+			"gloss": "f. (<cite ref=\"T00374\"><he>רוּם</he></cite>) <i>haughtiness, pride</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 8:13\">Targ. Prov. VIII, 13</cite>. ",
+				"<cite ref=\"Aramaic Targum to Proverbs 21:4\">Ib. XXI, 4</cite>. ",
+				"<cite ref=\"Targum Jonathan on Jeremiah 48:29\">Targ. Jer. XLVIII, 29</cite>; a. fr.—",
+				"<cite ref=\"Shabbat 94a:4\">Sabb. 94ᵃ</cite> <he>רָמוּת רוחא וכ׳</he> pride seizes them (which makes them walk micingly). ",
+				"<cite ref=\"Avodah Zarah 71a:6\">Ab. Zar. 71ᵃ</cite> <he>דר׳ רוחא וכ׳</he> they are too proud (to take back what they have given). ",
+				"<cite ref=\"Shabbat 110b:6\">Sabb. 110ᵇ</cite>; a. e."
+			]
+		}
+	]
+}

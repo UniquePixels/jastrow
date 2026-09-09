@@ -1,0 +1,22 @@
+{
+	"id": "P01149",
+	"slug": "עקבא-2",
+	"headword": {
+		"text": "עֶקְבָּא"
+	},
+	"page": {
+		"number": 1104,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"P01148\">preced.</cite>) = h. <cite ref=\"P01146\"><he>עֵקֶב</he></cite>, <i>consequence</i>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 22:4\">Targ. Prov. XXII, 4</cite> (Ms. <cite ref=\"P01171\"><he>עֲקֵיבָא</he></cite>)."
+			]
+		}
+	]
+}

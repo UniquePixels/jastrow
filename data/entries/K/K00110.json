@@ -1,0 +1,22 @@
+{
+	"id": "K00110",
+	"slug": "כדד-2",
+	"headword": {
+		"text": "כַּדָּד"
+	},
+	"page": {
+		"number": 612,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (denom. of <cite ref=\"K00099\"><he>כַּד</he> II</cite>) <i>potter</i>. ",
+			"units": [
+				"<cite ref=\"Moed Katan 13b:1\">M. Kat. 13ᵇ</cite>; <cite ref=\"Pesachim 55b\">Pes. 55ᵇ</cite> Ms. M. (ed. <he>כדר</he>). [<cite ref=\"Tosefta Keilim Metsia 10:6\">Tosef. Kel. B. Mets. X, 6</cite> <he>כדדין</he>, some ed., v. <cite ref=\"C01273\"><he>גַּרְדּוֹם</he></cite>.]"
+			]
+		}
+	]
+}

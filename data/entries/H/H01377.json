@@ -1,0 +1,23 @@
+{
+	"id": "H01377",
+	"slug": "חסיל-2",
+	"headword": {
+		"text": "חָסִיל"
+	},
+	"page": {
+		"number": 487,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m.(b. h.; <cite ref=\"H01395\"><he>חָסַל</he></cite>) [<i>the peeler</i>,] name of <i>a species of locusts</i>. ",
+			"units": [
+				"<cite ref=\"Sanhedrin 94b\">Snh. 94ᵇ</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Taanit 3:6:3\">Y. Taan. III, 66ᵈ</cite>, v. <cite ref=\"H01395\"><he>חָסַל</he></cite>."
+			]
+		}
+	]
+}
