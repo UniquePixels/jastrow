@@ -31,6 +31,14 @@ describe('buildHeadwordMap', () => {
 			]),
 		).toThrow(/A00001.*A00002/u);
 	});
+	it('refuses two headwords that differ only in combining-mark order', () => {
+		expect(() =>
+			buildHeadwordMap([
+				{ headword: 'גֵּץ', rid: 'A00001' },
+				{ headword: 'גֵּץ', rid: 'A00002' },
+			]),
+		).toThrow(/A00001.*A00002/u);
+	});
 });
 
 describe('createResolver', () => {
@@ -89,5 +97,23 @@ describe('quarantine', () => {
 		expect(result.unlisted).toEqual([]);
 		expect(result.stale).toEqual([]);
 		expect(result.unreviewed).toEqual(['A00001\tx']);
+	});
+});
+
+describe('createResolver canonical equivalence', () => {
+	it('resolves a target whose combining marks are in another order', () => {
+		const map = buildHeadwordMap([{ headword: 'גֵּץ', rid: 'C01220' }]);
+		const unresolved: { rid: string; target: string }[] = [];
+		const resolve = createResolver(map, 'C00802', unresolved);
+		expect(resolve({ dataRef: 'Jastrow, גֵּץ', href: '/Jastrow,_גֵּץ.1' })).toBe(
+			'C01220',
+		);
+		expect(unresolved).toEqual([]);
+	});
+	it('records the target as written, not a normalized spelling', () => {
+		const unresolved: { rid: string; target: string }[] = [];
+		const resolve = createResolver(new Map(), 'C00802', unresolved);
+		expect(resolve({ dataRef: '', href: '/Jastrow,_גֵּץ.1' })).toBe('גֵּץ');
+		expect(unresolved).toEqual([{ rid: 'C00802', target: 'גֵּץ' }]);
 	});
 });

@@ -10,10 +10,10 @@ Patch corpus: 14 accepted, 19 applied, 61 carry-over absorbed, 5 carried.
 |---|---|---|
 | bodyRoundTrips | 32512 / 32512 | 0 |
 | headwordRoundTrip | 76104 / 76104 | 0 |
-| textConservation | 186736 / 186736 | 0 |
+| textConservation | 232463 / 232463 | 0 |
 | schema | 32512 / 32512 | 0 |
 | chain | 32514 / 32514 | 0 |
-| internalTargets | 25 / 25 | 0 |
+| internalTargets | 0 / 0 | 0 |
 | slugs | 32512 / 32512 | 0 |
 | pages | 32512 / 32512 | 0 |
 | composition | 65024 / 65024 | 0 |
@@ -2556,31 +2556,7 @@ Patch corpus: 14 accepted, 19 applied, 61 carry-over absorbed, 5 carried.
 
 ## Quarantined internal targets
 
-- A00349 → `אַנְגַּרְמוֹס` — seeded from the first dry run 2026-09-08; not yet reviewed
-- B00898 → `דָּֽרְבָן` — seeded from the first dry run 2026-09-08; not yet reviewed
-- C00802 → `גֵּץ` — seeded from the first dry run 2026-09-08; not yet reviewed
-- C00851 → `גַּלְאַקְסִינוֹן` — seeded from the first dry run 2026-09-08; not yet reviewed
-- C00925 → `גַּלְאַקְסִינוֹן` — seeded from the first dry run 2026-09-08; not yet reviewed
-- C00982 → `גַּלְאַקְסִינוֹן` — seeded from the first dry run 2026-09-08; not yet reviewed
-- C01220 → `גֵּץ` — seeded from the first dry run 2026-09-08; not yet reviewed
-- C01221 → `גֵּץ` — seeded from the first dry run 2026-09-08; not yet reviewed
-- D00341 → `דָּֽרְבָן` — seeded from the first dry run 2026-09-08; not yet reviewed
-- D00354 → `דָּֽרְבָן` — seeded from the first dry run 2026-09-08; not yet reviewed
-- D00355 → `דָּֽרְבָן` — seeded from the first dry run 2026-09-08; not yet reviewed
-- D00493 → `דְּיָיּתִּיכוֹס` — seeded from the first dry run 2026-09-08; not yet reviewed
-- D00509 → `דְּיָיּתִּיכוֹס` — seeded from the first dry run 2026-09-08; not yet reviewed
-- D01034 → `דָּֽרְבָן` — seeded from the first dry run 2026-09-08; not yet reviewed
-- G00657 → `דָּֽרְבָן` — seeded from the first dry run 2026-09-08; not yet reviewed
-- H01653 → `דָּֽרְבָן` — seeded from the first dry run 2026-09-08; not yet reviewed
-- J00198 → `גֵּץ` — seeded from the first dry run 2026-09-08; not yet reviewed
-- J00716 → `גֵּץ` — seeded from the first dry run 2026-09-08; not yet reviewed
-- K00220 → `דָּֽרְבָן` — seeded from the first dry run 2026-09-08; not yet reviewed
-- M01600 → `דָּֽרְבָן` — seeded from the first dry run 2026-09-08; not yet reviewed
-- M02121 → `גֵּץ` — seeded from the first dry run 2026-09-08; not yet reviewed
-- M02555 → `דָּֽרְבָן` — seeded from the first dry run 2026-09-08; not yet reviewed
-- T00738 → `דְּיָיּתִּיכוֹס` — seeded from the first dry run 2026-09-08; not yet reviewed
-- V00388 → `גַּלְאַקְסִינוֹן` — seeded from the first dry run 2026-09-08; not yet reviewed
-- V00560 → `*כְּשַּׁט` — seeded from the first dry run 2026-09-08; not yet reviewed
+_none_
 
 ## Samples
 

@@ -106,10 +106,31 @@ const COMPOSITION_MARKS = 65_024;
  * reaches `senses[2].senses[0].gloss` directly. Gate 9 is fully green.
  */
 
-/** Unresolved internal `<cite ref>` targets — gate 6's input. Task 13
- * seeds the quarantine list from exactly this set, so gate 6 itself is
- * NOT asserted here. */
-const UNRESOLVED = 25;
+/** Unresolved internal `<cite ref>` targets — gate 6's input. Was 25
+ * until 2026-09-09, when `buildHeadwordMap` and the resolver began
+ * keying and querying in NFC: all 25 named a real headword whose
+ * combining marks the href spelled in another order, so an exact
+ * string map answered `undefined` for a live entry. The quarantine
+ * list is empty because nothing is unresolved, which makes the three
+ * `checkQuarantine` assertions below vacuous here — `cite.test.ts`
+ * carries the arms that actually fire. NFC_ONLY_TARGETS is the
+ * positive control that this zero is earned rather than reported by a
+ * lookup that stopped being able to miss. */
+const UNRESOLVED = 0;
+/** The six distinct targets behind those 25 citations, spelled as
+ * their hrefs spell them: dagesh (U+05BC) BEFORE the vowel it shares a
+ * base letter with, where every stored headword puts it after. Byte
+ * inequality against the corpus headwords is what makes gate 6's zero
+ * a measurement; if a future change re-canonicalizes these literals,
+ * the control fails loudly rather than passing empty. */
+const NFC_ONLY_TARGETS = [
+	'*כְּשַּׁט',
+	'אַנְגַּרְמוֹס',
+	'גֵּץ',
+	'גַּלְאַקְסִינוֹן',
+	'דְּיָיּתִּיכוֹס',
+	'דָּֽרְבָן',
+] as const;
 /** Page rows the hOCR alignment did not place with high confidence:
  * 1,893 medium + 298 low. Informational; gate 8 only requires a row. */
 const NON_HIGH_PAGES = 2191;
@@ -281,15 +302,22 @@ it('pins every migration gate at corpus scale', async () => {
 	});
 	expect(gates.composition.failures).toEqual([]);
 	expect(gates.markupCarries).toHaveLength(MARKUP_CARRIES);
-	// Gate 6's input, and the quarantine list seeded from it in Task 13.
+	// Gate 6's input. Nothing is unresolved and the quarantine list is
+	// empty, so gate 6 is GREEN at 0/0 and `--write` is unblocked.
 	expect(gates.unresolved).toHaveLength(UNRESOLVED);
 	const quarantine = checkQuarantine(gates.unresolved, await loadQuarantine());
 	expect(quarantine.stale).toEqual([]);
 	expect(quarantine.unlisted).toEqual([]);
-	// Every row is still seeded, so gate 6 is RED and `--write` is
-	// blocked. That is the intended state until a human has read all
-	// 25 and stamped each with a `reviewed` date.
 	expect(quarantine.unreviewed).toHaveLength(UNRESOLVED);
+	// The control for that zero: each of the six targets is absent from
+	// a byte-exact headword index and present in the NFC-keyed one the
+	// resolver uses. Both halves must hold — the first proves the
+	// spellings still differ, the second that they still resolve.
+	const exactIndex = new Set(composed.map((c) => c.entry.headword));
+	for (const target of NFC_ONLY_TARGETS) {
+		expect(exactIndex.has(target)).toBe(false);
+		expect(headwordMap.has(target.normalize('NFC'))).toBe(true);
+	}
 	expect(gates.nonHighPages).toHaveLength(NON_HIGH_PAGES);
 	const perStem = new Map<string, number>();
 	for (const { text } of forms) {
