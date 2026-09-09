@@ -27,18 +27,16 @@
  * and `rules/gershayim.corpus.test.ts` measures that over all 32,512 entries
  * rather than asserting it.
  *
- * `TAG` here is `<[^<>]*>`, which is deliberately NOT `html.ts`'s
- * tokenizer regex. It is the mask the spec's own scope measurement
- * used, so the counts these functions produce are the counts §2
- * publishes; and it is the conservative reading of the two — a `<`
- * with no `>` before the next `<` is text to it, where the tokenizer's
- * `[^>]*` would swallow across it. The only place the two disagree is
- * the pair of tags whose `href` swallows their own `</a>`, and the
- * corpus tier gates every entry through `checkLinkTargets` precisely
- * so that disagreement cannot become a silent edit inside an
- * attribute.
+ * The tag/text split is `html.ts`'s `mapTagsAndText`, so the text
+ * locus is exactly the tokenizer's text tokens and the two cannot
+ * drift (see `tagSpans` there for why a local mask could). The pair of
+ * tags whose `href` swallows their own `</a>` read as the tokenizer
+ * reads them — the tag runs to the swallowed `</a>`'s `>`, and the
+ * attribute tail after it is text to both — and the corpus tier gates
+ * every entry through `checkLinkTargets` so that tail cannot take a
+ * silent edit.
  */
-import { HEBREW, HEBREW_ATOM } from './html.ts';
+import { HEBREW, HEBREW_ATOM, mapTagsAndText } from './html.ts';
 
 /** U+05F4 HEBREW PUNCTUATION GERSHAYIM — the mark the corpus should
  * have written and the ONLY character this module ever produces. */
@@ -68,10 +66,6 @@ const GERSHAYIM = '״';
  */
 const FLANKED = new RegExp(`(?<=${HEBREW_ATOM})"(?=[${HEBREW}])`, 'gu');
 
-/** A `<…>` run holding no angle bracket of its own. See the module
- * doc on why this is not `html.ts`'s tokenizer regex. */
-const TAG = /<[^<>]*>/gu;
-
 /** Replace every flanked quote in `value`.
  *
  * The `includes` guard is not only a fast path over a 41 MB corpus: it
@@ -82,26 +76,16 @@ function repairAll(value: string): string {
 	return value.includes('"') ? value.replace(FLANKED, GERSHAYIM) : value;
 }
 
+const same = (s: string): string => s;
+
 /** Repair document text, leaving every `<…>` tag byte-identical. */
 function repairText(value: string): string {
-	if (!value.includes('"')) {
-		return value;
-	}
-	let out = '';
-	let at = 0;
-	TAG.lastIndex = 0;
-	let match = TAG.exec(value);
-	while (match !== null) {
-		out += repairAll(value.slice(at, match.index)) + match[0];
-		at = match.index + match[0].length;
-		match = TAG.exec(value);
-	}
-	return out + repairAll(value.slice(at));
+	return value.includes('"') ? mapTagsAndText(value, repairAll, same) : value;
 }
 
 /** Repair `<…>` tag interiors, leaving every text run byte-identical. */
 function repairTags(value: string): string {
-	return value.includes('"') ? value.replace(TAG, repairAll) : value;
+	return value.includes('"') ? mapTagsAndText(value, same, repairAll) : value;
 }
 
 export { GERSHAYIM, repairTags, repairText };
