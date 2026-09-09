@@ -203,7 +203,9 @@ it('reproduces both discarded rows at their catalogued size', async () => {
 	expect(c.rawLeadEntries).toBe(457);
 	expect(c.rawEmptySlots).toBe(486);
 	expect(c.rawEmptyEntries).toBe(446);
-}, 180_000);
+	// 360 s: the file may be first in its shard and pay the fixture
+	// cold start (~110 s on CI) plus its own tables.
+}, 360_000);
 
 // The round-2 evidence that the leading space is a split site rather
 // than a separator: index 0 never carries one.

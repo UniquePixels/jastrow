@@ -28,3 +28,6 @@ data/source/body-migration-report.json
 
 # local scratch for the page-index build (large IA downloads)
 .work/
+
+# corpus-tier shard logs (admin/pipeline/audit-corpus.sh)
+corpus-shard-*.log
