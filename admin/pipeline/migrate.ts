@@ -127,10 +127,13 @@ function composeOne(
 		report.patches.applied += result.patchesApplied;
 		report.patches.absorbed += result.carryOver.absorbed.length;
 		report.patches.carried += result.carryOver.carried.length;
+		const patchDetail = result.patchProblems
+			.map((p) => `${p.patchId ?? source.rid}: ${p.reason}`)
+			.join('; ');
 		mark(
 			report.gates.composition,
 			result.patchProblems.length === 0,
-			`${source.rid}: ${result.patchProblems.map((p) => `${p.patchId ?? source.rid}: ${p.reason}`).join('; ')}`,
+			`${source.rid}: ${patchDetail}`,
 		);
 		const trace = result.phases.run('consumer-output', () =>
 			buildTrace(result.entry),

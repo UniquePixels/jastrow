@@ -4,7 +4,12 @@
  * are never touched. Anchors become `<cite ref>`; what `ref` holds is
  * the resolver's decision (`cite.ts`), not this module's.
  */
-import { DIR_RTL, type Token, tokenize } from '../transform/html.ts';
+import {
+	DIR_RTL,
+	type TagToken,
+	type Token,
+	tokenize,
+} from '../transform/html.ts';
 
 type RefResolver = (anchor: { dataRef: string; href: string }) => string;
 
@@ -65,8 +70,7 @@ const DATA_REF = /\bdata-ref\s*=\s*"(?<v>[^"]*)"/u;
 function wrappedInRtlSpan(tokens: readonly Token[], at: number): boolean {
 	const first = tokens[at + 1];
 	if (
-		first === undefined ||
-		first.kind !== 'tag' ||
+		first?.kind !== 'tag' ||
 		first.close ||
 		first.name !== 'span' ||
 		!DIR_RTL.test(first.value)
@@ -81,15 +85,127 @@ function wrappedInRtlSpan(tokens: readonly Token[], at: number): boolean {
 		depth += token.close ? -1 : 1;
 		if (depth === 0) {
 			const next = tokens[j + 1];
-			return (
-				next !== undefined &&
-				next.kind === 'tag' &&
-				next.close &&
-				next.name === 'a'
-			);
+			return next?.kind === 'tag' && next.close && next.name === 'a';
 		}
 	}
 	return false;
+}
+
+/** The three running buffers one `translateMarkup` call threads
+ * through its per-token branches. */
+interface Emit {
+	open: Open[];
+	out: string[];
+	problems: string[];
+}
+
+/** Record an opening entry and emit the text that stands for it. */
+function pushOpen(e: Emit, o: Open): void {
+	e.open.push(o);
+	e.out.push(o.openText);
+}
+
+/** A closing tag: pop its opener and emit the matching close, or pass
+ * the token through raw when the stack does not agree with it. */
+function emitClose(e: Emit, token: TagToken): void {
+	const top = e.open.pop();
+	if (top?.name !== token.name) {
+		e.problems.push(`unbalanced ${token.value}`);
+		e.out.push(token.value);
+		return;
+	}
+	if (!top.translated) {
+		e.out.push(token.value);
+	} else if (token.name === 'span') {
+		e.out.push('</he>');
+	} else {
+		e.out.push(top.he ? '</he></cite>' : '</cite>');
+	}
+}
+
+/** An opening span: `<he>` when it carries dir="rtl", raw otherwise. */
+function emitSpanOpen(e: Emit, token: TagToken): void {
+	if (!DIR_RTL.test(token.value)) {
+		e.problems.push(`span without dir="rtl": ${token.value}`);
+		pushOpen(e, {
+			he: false,
+			name: 'span',
+			openText: token.value,
+			translated: false,
+		});
+		return;
+	}
+	pushOpen(e, { he: false, name: 'span', openText: '<he>', translated: true });
+}
+
+/** An opening anchor: `<cite ref>`, with an inner `<he>` when the
+ * anchor itself is the rtl layer — which it is not when an rtl span
+ * inside it already supplies that layer (`wrapped`, from the caller,
+ * since the check needs the whole token run). Raw when the href will
+ * not parse. */
+function emitAnchorOpen(
+	e: Emit,
+	token: TagToken,
+	resolve: RefResolver,
+	wrapped: boolean,
+): void {
+	const href = HREF.exec(token.value)?.groups?.['v'];
+	const dataRef = DATA_REF.exec(token.value)?.groups?.['v'] ?? '';
+	if (href === undefined) {
+		e.problems.push(`anchor without href: ${token.value}`);
+		pushOpen(e, {
+			he: false,
+			name: 'a',
+			openText: token.value,
+			translated: false,
+		});
+		return;
+	}
+	const ref = resolve({ dataRef, href });
+	if (ref.includes('"')) {
+		e.problems.push(`ref carries a quote: ${ref}`);
+	}
+	const he = DIR_RTL.test(token.value) && !wrapped;
+	const openText = he ? `<cite ref="${ref}"><he>` : `<cite ref="${ref}">`;
+	pushOpen(e, { he, name: 'a', openText, translated: true });
+}
+
+/** Any other opening tag, emitted verbatim; off-vocabulary names are
+ * reported but still pass through. */
+function emitOtherOpen(e: Emit, token: TagToken): void {
+	if (!KEEP.has(token.name)) {
+		e.problems.push(`tag outside the vocabulary: ${token.value}`);
+	}
+	pushOpen(e, {
+		he: false,
+		name: token.name,
+		openText: token.value,
+		translated: false,
+	});
+}
+
+/** Settle whatever is still open when the tokens run out: force-closed
+ * and handed to the carry when there is one, reported as unclosed when
+ * there is not. Returns how many entries were carried. */
+function finishOpen(e: Emit, carry: TagCarry | undefined): number {
+	if (e.open.length === 0) {
+		if (carry !== undefined) {
+			carry.open = [];
+		}
+		return 0;
+	}
+	if (carry === undefined) {
+		e.problems.push(`unclosed: ${e.open.map((o) => o.name).join(',')}`);
+		return 0;
+	}
+	for (let i = e.open.length - 1; i >= 0; i--) {
+		const entry = e.open[i];
+		if (entry !== undefined) {
+			e.out.push(closeFor(entry));
+		}
+	}
+	carry.open = [...e.open];
+	return e.open.length;
 }
 
 function translateMarkup(
@@ -98,110 +214,25 @@ function translateMarkup(
 	carry?: TagCarry,
 ): Translated {
 	const tokens = tokenize(html);
-	const out: string[] = [];
-	const problems: string[] = [];
-	const open: Open[] = [];
-	if (carry !== undefined) {
-		for (const o of carry.open) {
-			open.push(o);
-			out.push(o.openText);
-		}
+	const e: Emit = { open: [], out: [], problems: [] };
+	for (const o of carry?.open ?? []) {
+		pushOpen(e, o);
 	}
 	for (const [i, token] of tokens.entries()) {
 		if (token.kind === 'text') {
-			out.push(token.value);
-			continue;
-		}
-		if (token.close) {
-			const top = open.pop();
-			if (top === undefined || top.name !== token.name) {
-				problems.push(`unbalanced ${token.value}`);
-				out.push(token.value);
-				continue;
-			}
-			if (!top.translated) {
-				out.push(token.value);
-			} else if (token.name === 'span') {
-				out.push('</he>');
-			} else {
-				out.push(top.he ? '</he></cite>' : '</cite>');
-			}
-			continue;
-		}
-		if (token.name === 'span') {
-			if (!DIR_RTL.test(token.value)) {
-				problems.push(`span without dir="rtl": ${token.value}`);
-				open.push({
-					he: false,
-					name: 'span',
-					openText: token.value,
-					translated: false,
-				});
-				out.push(token.value);
-				continue;
-			}
-			open.push({
-				he: false,
-				name: 'span',
-				openText: '<he>',
-				translated: true,
-			});
-			out.push('<he>');
-			continue;
-		}
-		if (token.name === 'a') {
-			const href = HREF.exec(token.value)?.groups?.['v'];
-			const dataRef = DATA_REF.exec(token.value)?.groups?.['v'] ?? '';
-			if (href === undefined) {
-				problems.push(`anchor without href: ${token.value}`);
-				open.push({
-					he: false,
-					name: 'a',
-					openText: token.value,
-					translated: false,
-				});
-				out.push(token.value);
-				continue;
-			}
-			const ref = resolve({ dataRef, href });
-			if (ref.includes('"')) {
-				problems.push(`ref carries a quote: ${ref}`);
-			}
-			const he = DIR_RTL.test(token.value) && !wrappedInRtlSpan(tokens, i);
-			const openText = he ? `<cite ref="${ref}"><he>` : `<cite ref="${ref}">`;
-			open.push({ he, name: 'a', openText, translated: true });
-			out.push(openText);
-			continue;
-		}
-		if (!KEEP.has(token.name)) {
-			problems.push(`tag outside the vocabulary: ${token.value}`);
-		}
-		open.push({
-			he: false,
-			name: token.name,
-			openText: token.value,
-			translated: false,
-		});
-		out.push(token.value);
-	}
-	let carried = 0;
-	if (open.length > 0) {
-		if (carry === undefined) {
-			problems.push(`unclosed: ${open.map((o) => o.name).join(',')}`);
+			e.out.push(token.value);
+		} else if (token.close) {
+			emitClose(e, token);
+		} else if (token.name === 'span') {
+			emitSpanOpen(e, token);
+		} else if (token.name === 'a') {
+			emitAnchorOpen(e, token, resolve, wrappedInRtlSpan(tokens, i));
 		} else {
-			for (let i = open.length - 1; i >= 0; i--) {
-				const entry = open[i];
-				if (entry !== undefined) {
-					out.push(closeFor(entry));
-				}
-			}
-			carried = open.length;
-			carry.open = [...open];
+			emitOtherOpen(e, token);
 		}
-	} else if (carry !== undefined) {
-		carry.open = [];
 	}
-	return { carried, problems, text: out.join('') };
+	const carried = finishOpen(e, carry);
+	return { carried, problems: e.problems, text: e.out.join('') };
 }
 
 export type { RefResolver, TagCarry, Translated };

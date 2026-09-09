@@ -23,7 +23,7 @@ import type { FormObject } from './types.ts';
 // ambiguous, so the class becomes an alternation of the base range
 // and the lone mark.
 const FORM =
-	/^(?<star>\*)?(?<text>(?:[\u05D0-\u05EA\u0591-\u05C7\u05F3\u05F4\u05BE\u0020]|\u0307)+?)(?: (?<roman>[IVXLC]+))?(?: (?<sup>[⁰¹²³⁴⁵⁶⁷⁸⁹]+))?$/u;
+	/^(?<star>\*)?(?<text>(?:[\u05D0-\u05EA\u0591-\u05C7\u05F3\u05F4\u0020]|\u0307)+?)(?: (?<roman>[IVXLC]+))?(?: (?<sup>[⁰¹²³⁴⁵⁶⁷⁸⁹]+))?$/u;
 const SUP_DIGITS = '⁰¹²³⁴⁵⁶⁷⁸⁹';
 const ROMAN: ReadonlyArray<readonly [number, string]> = [
 	[100, 'C'],
@@ -41,9 +41,11 @@ const ROMAN: ReadonlyArray<readonly [number, string]> = [
  * Latin letter, a digit, `=` — is worth an eye. */
 // Escapes, never pasted literals: a combining mark typed into a class
 // attaches to its neighbour and the range silently widens (html.ts).
-// U+05D0–U+05EA letters · U+0591–U+05C7 points and accents · U+05F3/F4
-// geresh and gershayim · U+05BE maqaf · U+0307 combining dot above.
-const LEXICAL = /^(?:[\u05D0-\u05EA\u0591-\u05C7\u05F3\u05F4\u05BE]|\u0307)+$/u;
+// U+05D0–U+05EA letters · U+0591–U+05C7 points, accents and Hebrew
+// punctuation — U+05BE maqaf sits inside that range, so naming it
+// again would be a duplicate · U+05F3/F4 geresh and gershayim ·
+// U+0307 combining dot above.
+const LEXICAL = /^(?:[\u05D0-\u05EA\u0591-\u05C7\u05F3\u05F4]|\u0307)+$/u;
 
 interface Decomposed {
 	form: FormObject;
@@ -105,29 +107,34 @@ function regenerateForm(form: FormObject): string {
 /** Decompose a marked headword string. Never throws: what the grammar
  * cannot reproduce byte-for-byte is kept whole as `text`. */
 function decomposeForm(marked: string): Decomposed {
+	const unparsed: Decomposed = { form: { text: marked }, parsed: false };
 	const groups = FORM.exec(marked)?.groups;
-	const text = groups?.['text'];
-	if (groups !== undefined && text !== undefined && text === text.trim()) {
-		const form: FormObject = { text };
-		if (groups['star'] !== undefined) {
-			form.reconstructed = true;
-		}
-		const roman = groups['roman'];
-		if (roman !== undefined) {
-			form.homograph = romanToInt(roman);
-		}
-		const sup = groups['sup'];
-		if (sup !== undefined) {
-			form.disambiguator = supToInt(sup);
-		}
-		const numeric = [form.homograph, form.disambiguator].every(
-			(n) => n === undefined || (Number.isInteger(n) && n >= 1),
-		);
-		if (numeric && regenerateForm(form) === marked) {
-			return { form, parsed: true };
-		}
+	if (groups === undefined) {
+		return unparsed;
 	}
-	return { form: { text: marked }, parsed: false };
+	const text = groups['text'];
+	if (text === undefined || text.trim() !== text) {
+		return unparsed;
+	}
+	const form: FormObject = { text };
+	if (groups['star'] !== undefined) {
+		form.reconstructed = true;
+	}
+	const roman = groups['roman'];
+	if (roman !== undefined) {
+		form.homograph = romanToInt(roman);
+	}
+	const sup = groups['sup'];
+	if (sup !== undefined) {
+		form.disambiguator = supToInt(sup);
+	}
+	const numeric = [form.homograph, form.disambiguator].every(
+		(n) => n === undefined || (Number.isInteger(n) && n >= 1),
+	);
+	if (numeric && regenerateForm(form) === marked) {
+		return { form, parsed: true };
+	}
+	return unparsed;
 }
 
 /** Why a decomposed form belongs on the review list, or `undefined`. */

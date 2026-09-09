@@ -251,7 +251,7 @@ it('pins every migration gate at corpus scale', async () => {
 		}
 	}
 
-	expect(composed.length).toBe(ENTRIES);
+	expect(composed).toHaveLength(ENTRIES);
 	// Gate 1, 4, 7, 8: one mark per entry, all green.
 	expect(gates.bodyRoundTrips).toMatchObject({ pass: ENTRIES, total: ENTRIES });
 	expect(gates.schema).toMatchObject({ pass: ENTRIES, total: ENTRIES });
@@ -274,20 +274,20 @@ it('pins every migration gate at corpus scale', async () => {
 		total: COMPOSITION_MARKS,
 	});
 	expect(gates.composition.failures).toEqual([]);
-	expect(gates.markupCarries.length).toBe(MARKUP_CARRIES);
+	expect(gates.markupCarries).toHaveLength(MARKUP_CARRIES);
 	// Gate 6's input, and the quarantine list seeded from it in Task 13.
-	expect(gates.unresolved.length).toBe(UNRESOLVED);
+	expect(gates.unresolved).toHaveLength(UNRESOLVED);
 	expect(checkQuarantine(gates.unresolved, await loadQuarantine())).toEqual({
 		stale: [],
 		unlisted: [],
 	});
-	expect(gates.nonHighPages.length).toBe(NON_HIGH_PAGES);
+	expect(gates.nonHighPages).toHaveLength(NON_HIGH_PAGES);
 	const perStem = new Map<string, number>();
 	for (const { text } of forms) {
 		const stem = slugStem(text);
 		perStem.set(stem, (perStem.get(stem) ?? 0) + 1);
 	}
-	expect([...perStem.values()].filter((n) => n > 1).length).toBe(
+	expect([...perStem.values()].filter((n) => n > 1)).toHaveLength(
 		COLLIDING_STEMS,
 	);
 }, 600_000);

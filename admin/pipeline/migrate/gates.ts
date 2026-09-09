@@ -246,12 +246,13 @@ function checkSlugs(
 		const slug = slugs.get(rid);
 		const owner = slug === undefined ? undefined : seen.get(slug);
 		const collided = (stems.get(slugStem(text)) ?? 0) > 1;
+		const takenBy = owner === undefined ? '' : ` taken by ${owner}`;
 		mark(
 			t,
 			slug !== undefined &&
 				owner === undefined &&
 				!(collided && slug === slugStem(text)),
-			`${rid}: slug ${slug ?? '(none)'}${owner === undefined ? '' : ` taken by ${owner}`}`,
+			`${rid}: slug ${slug ?? '(none)'}${takenBy}`,
 		);
 		if (slug !== undefined) {
 			seen.set(slug, rid);
