@@ -1,8 +1,10 @@
 # Case 10 — an anchor minted around an anaphor, targeted by copy
 
 **Status:** RULED IN by Brian 2026-09-06 and **BUILT the same day**
-with `MINT_DECLARERS` empty, so live exposure is zero until a rule is
-ruled in separately. Extends [the batch-4 gate
+with `MINT_DECLARERS` empty, so live exposure was zero until a rule
+was ruled in separately. That happened the same day: `unlinked-bare-
+anaphor` was admitted and `MINT_DECLARERS` now names it — see the
+changelog below. Extends [the batch-4 gate
 cases](2026-08-27-link-target-gate-cases.md), [case
 8](2026-08-31-link-target-gate-case-8.md) and [case
 9](2026-09-01-link-target-gate-case-9.md). `link-target.ts`'s nine

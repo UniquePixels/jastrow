@@ -93,7 +93,7 @@ not try to *recognise* headwords. Instead it *aligns*:
 2. Both volumes' hOCR is read as one continuous book; each page is split at the
    gutter into two columns — or into four blocks where a letter heading divides
    it horizontally.
-3. 4-grams of Latin words unique to both streams give 386,101 anchor points,
+3. 4-grams of Latin words unique to both streams give 386,354 anchor points,
    reduced to a strictly monotonic chain. Jastrow's English glosses and citation
    strings OCR well and are highly distinctive.
 4. Each entry is placed by shifting from its nearest anchor at the local

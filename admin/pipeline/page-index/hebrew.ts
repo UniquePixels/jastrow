@@ -22,7 +22,7 @@ const HEBREW_MARKS = /[֑-ׇֽֿׁׂׅׄ]/gu;
 const PUNCTUATION = /[־׳״"'`*,()=?.‐-―-]/gu;
 
 /** A trailing Roman-numeral homograph marker, e.g. the ` I` in `חָבַב I`. */
-const ROMAN_SUFFIX = /\s+[IVX]+\s*$/u;
+const ROMAN_SUFFIX = /(?<!\s)\s+[IVX]+\s*$/u;
 
 /** Superscript digits Sefaria uses for the second, third, … sense of a form. */
 const SUPERSCRIPTS = /[²³¹⁰-⁹]/gu;

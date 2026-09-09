@@ -323,7 +323,10 @@ Fresh 1,492 · cache-write 4,151,587 · cache-read 104,018,431. Nine
 agents, as in batch 04 (five sweep + three clean + one patch), against
 batch 04's 97.4M — up 11%, on 150 new entries rather than 140.
 
-**92 chunks pending in residue-01**, plus tranche 2.
+**116 chunks pending in residue-01**, plus tranche 2. 121 were
+actionable before dispatch (11 partly swept, 110 never touched, per
+the table above); this batch's five chunks came entirely from the
+never-touched pool, so 121 − 5 = 116.
 
 ## Recommendation
 

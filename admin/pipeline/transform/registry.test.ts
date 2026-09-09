@@ -569,7 +569,11 @@ describe('ORDERED — intended non-commuting pairs', () => {
 		const edges = new Map(
 			catalogue.map((row) => [row.id, new Set(row.entangledWith ?? [])]),
 		);
-		const both = ORDERED.filter((row) => edges.get(row.before)?.has(row.after));
+		const both = ORDERED.filter(
+			(row) =>
+				(edges.get(row.before)?.has(row.after) ?? false) ||
+				(edges.get(row.after)?.has(row.before) ?? false),
+		);
 		expect(both.map((row) => `${row.before} → ${row.after}`)).toEqual([]);
 	});
 });

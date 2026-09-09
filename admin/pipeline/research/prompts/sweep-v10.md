@@ -1075,7 +1075,7 @@ chunk id.
 | `disposition` | `clean` \| `repaired` \| `needs_print_check` \| `needs_human_judgment` — exactly one |
 | `patches` | Ids of this entry's patches (`clean` → `[]`; `repaired` → at least one; `needs_*` may carry confident patches alongside the escalated issue) |
 | `escalation` | Required on `needs_*` rows (what you found and why you could not repair it); forbidden otherwise |
-| `hint_notes` | Optional, allowed on **any** disposition: why you rejected the entry's anomaly hints. This is where a defensible rejection goes on a `clean` or `repaired` row, which `escalation` may not touch. Omit it only when the entry received no hints |
+| `hint_notes` | Optional, allowed on **any** disposition: why you rejected the entry's anomaly hints. This is where a defensible rejection goes on a `clean` or `repaired` row, which `escalation` may not touch. Omit it when the entry received no hints, or when every hint it received was accepted (an accepted hint has no rejection reason to record) |
 
 Do not emit a `resolution` field — that slot is the maintainer's.
 

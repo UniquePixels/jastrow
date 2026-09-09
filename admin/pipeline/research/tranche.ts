@@ -372,6 +372,21 @@ async function accumulateTranche(args: {
 	const dir = `${TRANCHES_DIR}/${args.trancheId}`;
 	const mine = (rid: string): boolean =>
 		args.chunkIds.some((c) => inChunk(tranches, c, rid));
+	const tranche = tranches.find((t) => t.id === args.trancheId);
+	if (tranche === undefined) {
+		throw new Error(`unknown tranche ${args.trancheId}`);
+	}
+	// Resolve every chunk id BEFORE any file is touched: a request
+	// mixing valid and unknown ids must fail atomically, not append
+	// the valid records and throw, which would leave a retry to
+	// re-append them and duplicate rows.
+	const chunks = args.chunkIds.map((chunkId) => {
+		const chunk = tranche.chunks.find((c) => c.id === chunkId);
+		if (chunk === undefined) {
+			throw new Error(`unknown chunk ${chunkId} in ${args.trancheId}`);
+		}
+		return chunk;
+	});
 	const append = async (
 		file: string,
 		lines: readonly unknown[],
@@ -393,20 +408,12 @@ async function accumulateTranche(args: {
 		'rejects.jsonl',
 		args.rejects.filter((r) => mine(r.rid)),
 	);
-	const tranche = tranches.find((t) => t.id === args.trancheId);
-	if (tranche === undefined) {
-		throw new Error(`unknown tranche ${args.trancheId}`);
-	}
 	let checkpoint = resolveCheckpoint(
 		await loadCheckpoint(args.trancheId),
 		tranche,
 		fingerprint,
 	);
-	for (const chunkId of args.chunkIds) {
-		const chunk = tranche.chunks.find((c) => c.id === chunkId);
-		if (chunk === undefined) {
-			throw new Error(`unknown chunk ${chunkId} in ${args.trancheId}`);
-		}
+	for (const chunk of chunks) {
 		checkpoint = markComplete(checkpoint, chunk);
 	}
 	await saveCheckpoint(checkpoint);

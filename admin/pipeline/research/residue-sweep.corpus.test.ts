@@ -170,7 +170,7 @@ import {
 const RESIDUE: number = 3729;
 const ADJUDICATED_COUNT: number = 61;
 const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
-/** Sweep entries whose TEXT a transform rewrote — 52.6% of 3,697.
+/** Sweep entries whose TEXT a transform rewrote — 55.5% of 3,668.
  *
  * The predicate is byte difference, not "a rule fired": at the 3,696
  * cut, 2,137 sweep entries produced a transform record and **2,093
@@ -309,7 +309,9 @@ describe('the sweep population', () => {
 		const { corpus, rids, tables } = await healed();
 		expect(residueRids(corpus, tables)).toHaveLength(RESIDUE);
 		expect(rids).toHaveLength(SWEEP);
-	}, 180_000);
+		// 360 s: the file may be first in its shard and pay the fixture
+		// cold start (~110 s on CI) plus its own tables.
+	}, 360_000);
 
 	it('carries a hint on every entry — no chunk is empty work', async () => {
 		const { corpus, rids, tables } = await healed();
@@ -372,7 +374,13 @@ describe('HEALED IS NOT PRE-PATCH — the regression this module exists to preve
 			([rid, entry]) => expected.get(rid) !== JSON.stringify(entry),
 		);
 		expect(wrong.map(([rid]) => rid)).toEqual([]);
-	}, 120_000);
+		// 360 s: verified empirically (2026-09-07 sharded dry run) — under
+		// three-way CPU contention this test alone slowed from well under
+		// 120 s serial to 279 s, timing out. Not one of the five 180_000
+		// caps named by plan, but the same fixture-cold-start-plus-own-cost
+		// risk, worse here because it re-derives `structural-repairs` for
+		// all 32,512 entries on top of `composedEntries()`.
+	}, 360_000);
 });
 
 /** Detector kinds that did not exist when phase 2.3 items 1 and 2 were
@@ -383,8 +391,42 @@ describe('HEALED IS NOT PRE-PATCH — the regression this module exists to preve
  * excluded 33 entries nobody has read. */
 const POST_ADJUDICATION = 'own-form-escape-link';
 
+/** Adjudicated item-1 entries whose hint the detector can now see on
+ * the PRE-patch entry, so it no longer counts as created. Both were
+ * adjudicated 2026-09-03 on an `abbrev-mislink` the host's own
+ * parenthesised `alt_headwords` form licenses — `(אִיסְתַּפְנִינֵי)`
+ * for A01451's `אִיסְתַּ׳`, `(אַפְרַזְתָּא)` for A03060's `אפ׳` — and
+ * until 2026-09-07 `ownForms` kept the brackets, so the rule matched
+ * only after `parenthesized-alt-headword` had stripped them. The
+ * hint is unchanged on the healed corpus; see the re-derivation
+ * test for why they stay adjudicated. */
+const PRE_EXISTING_SINCE_PAREN_FIX: ReadonlySet<string> = new Set([
+	'A01451',
+	'A03060',
+]);
+
+/** `rid` carries at least one hint of `kind` on the pre-patch side,
+ * and every such key is present unchanged on the healed side. The
+ * positive half is what keeps a named exclusion from turning
+ * vacuous: a loop over an entry that had lost the hint would
+ * otherwise pass on nothing. */
+function expectHintSurvives(
+	rid: string,
+	kind: string,
+	before: Map<string, Set<string>>,
+	after: Map<string, Set<string>>,
+): void {
+	const preKeys = [...(before.get(rid) ?? [])].filter(
+		(k) => kindOf(k) === kind,
+	);
+	expect(preKeys).not.toEqual([]);
+	for (const key of preKeys) {
+		expect(after.get(rid)?.has(key)).toBe(true);
+	}
+}
+
 describe('ADJUDICATED re-derives from the detector', () => {
-	it('is exactly the 33 created-hint entries union the 31 roman ones', async () => {
+	it('is exactly the 31 created-hint entries union the 31 roman ones', async () => {
 		// The POST side is the memo's — rebuilding it here would be
 		// three more corpus-wide table passes for an identical result,
 		// on a tier already close to the runner wall.
@@ -433,17 +475,31 @@ describe('ADJUDICATED re-derives from the detector', () => {
 				item2.add(rid);
 			}
 		}
-		expect(item1.size).toBe(33);
+		// 33 -> 31 on 2026-09-07, when `ownForms` began stripping the
+		// editorial parens off a recorded alt (headword-index.ts, PR #71
+		// comment 3951117332). Measured by differencing gain IDENTITIES
+		// across two trees: 2 lost, 0 added, both `abbrev-mislink`, on
+		// `PRE_EXISTING_SINCE_PAREN_FIX`. Neither hint is GONE — each is
+		// present in all three readings at HEAD. It stopped being a gain
+		// because the detector now sees it on the PRE-patch entry: the
+		// host records the abbreviated form as `(אִיסְתַּפְנִינֵי)` /
+		// `(אַפְרַזְתָּא)`, so before the fix only the healed side, where
+		// `parenthesized-alt-headword` had stripped the brackets,
+		// matched. "Created by the rules" was the instrument's paren
+		// blindness, the same undercount phase-2-created-hints.md names
+		// three times. Revealed, not created.
+		expect(item1.size).toBe(31);
 		expect(item2.size).toBe(31);
 
 		// The derivation and the exclusion list are computed against
 		// DIFFERENT corpus states, and since 2026-09-04 they disagree
-		// by exactly one entry. Item 1 asks "did the rules create this
-		// hint", which it answers with the PRE-patch tables; the
+		// by exactly two entries. Item 1 asks "did the rules create
+		// this hint", which it answers with the PRE-patch tables; the
 		// residue asks "does the detector still flag this entry",
 		// which `residueRids` answers with the HEALED ones. The
 		// `alt_headwords` carve-out fires only on the healed side, so
-		// `T00173` is derived here and is no longer in the residue.
+		// `T00173` and later `A01672` are derived here and are no
+		// longer in the residue.
 		// ADJUDICATED excludes entries FROM THE SWEEP, so it carries
 		// the intersection — an entry the sweep will never reach needs
 		// no exclusion, and `sweepRids` throws if one lingers.
@@ -456,10 +512,33 @@ describe('ADJUDICATED re-derives from the detector', () => {
 			.filter((rid) => !inResidue.has(rid))
 			.sort(byCodeUnit);
 		expect(outsideResidue).toEqual(['A01672', 'T00173']);
-		expect(
-			[...derived].filter((rid) => inResidue.has(rid)).sort(byCodeUnit),
-		).toEqual([...ADJUDICATED]);
-	}, 180_000);
+
+		// The second divergence, and it is the OPPOSITE shape from the
+		// two above: A01451 and A03060 are still in the residue and
+		// still carry the very hint they were adjudicated on; what
+		// moved is only whether the detector calls it created. They
+		// stay in ADJUDICATED because the adjudication is a fact about
+		// the hint, and the hint did not change — putting them back in
+		// the sweep would spend Opus re-reading a written-down verdict.
+		// Named, not filtered, and asserted POSITIVELY: each must carry
+		// an `abbrev-mislink` on the pre-patch side with the identical
+		// key on the healed side. A change that actually removes the
+		// hint fails here instead of the exclusion turning vacuous.
+		const derivedInResidue = new Set(
+			[...derived].filter((rid) => inResidue.has(rid)),
+		);
+		expect(ADJUDICATED.filter((rid) => !derivedInResidue.has(rid))).toEqual([
+			...PRE_EXISTING_SINCE_PAREN_FIX,
+		]);
+		for (const rid of PRE_EXISTING_SINCE_PAREN_FIX) {
+			expectHintSurvives(rid, 'abbrev-mislink', before, after);
+		}
+		expect([...derivedInResidue].sort(byCodeUnit)).toEqual(
+			ADJUDICATED.filter((rid) => !PRE_EXISTING_SINCE_PAREN_FIX.has(rid)),
+		);
+		// 360 s: the file may be first in its shard and pay the fixture
+		// cold start (~110 s on CI) plus its own tables.
+	}, 360_000);
 });
 
 /** The adjudicated fixture for `own-form-escape-link`.

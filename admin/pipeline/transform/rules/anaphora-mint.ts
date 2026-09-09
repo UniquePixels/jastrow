@@ -225,12 +225,23 @@ function antecedentFor(
 	return INTERVENING_CITATION.test(gap) ? undefined : cite;
 }
 
-/** Whether any usable anchor spans this token — the same masked
- * reading `gapBetween` performs, and what makes the text this rule
- * wraps BARE. */
+/** Whether any anchor spans this token — the same masked reading
+ * `gapBetween` performs, and what makes the text this rule wraps BARE.
+ *
+ * Deliberately WIDER than `usable`: a malformed or unclosed anchor is
+ * refused for editing, not absent from the markup. `usable` excluded
+ * both (and `interior`), so a bare `Ib.` sitting inside one of THOSE
+ * anchors' own span read as unspanned and could be minted, nesting a
+ * fresh `<a>` inside markup neither editor may touch (CodeRabbit PR
+ * #71 comment 3951117375). An unclosed anchor (`close === -1`) has no
+ * upper bound to compare against, so it spans every token from its
+ * open to the end of the field. */
 function spanned(list: readonly Anchor[], at: number): boolean {
 	return list.some(
-		(anchor) => usable(anchor) && anchor.open <= at && anchor.close >= at,
+		(anchor) =>
+			!anchor.interior &&
+			anchor.open <= at &&
+			(anchor.close === -1 || anchor.close >= at),
 	);
 }
 
@@ -298,23 +309,18 @@ function mintOver(definition: string): { mints: Mint[]; text: string } {
 
 /** Every sense's definition, recursively — the shape `anaphora.ts`
  * walks, and the only field this rule touches. */
-function walk(
-	senses: readonly SourceSense[],
-	mints: Mint[],
-	repaired: { count: number },
-): SourceSense[] {
+function walk(senses: readonly SourceSense[], mints: Mint[]): SourceSense[] {
 	return senses.map((sense) => {
 		let next = sense;
 		if (sense.definition !== undefined) {
 			const found = mintOver(sense.definition);
 			if (found.mints.length > 0) {
 				mints.push(...found.mints);
-				repaired.count += found.mints.length;
 				next = { ...next, definition: found.text };
 			}
 		}
 		if (next.senses !== undefined) {
-			next = { ...next, senses: walk(next.senses, mints, repaired) };
+			next = { ...next, senses: walk(next.senses, mints) };
 		}
 		return next;
 	});
@@ -323,8 +329,7 @@ function walk(
 const unlinkedBareAnaphor: Rule = {
 	apply(entry: SourceEntry): TransformResult {
 		const mints: Mint[] = [];
-		const repaired = { count: 0 };
-		const senses = walk(entry.content?.senses ?? [], mints, repaired);
+		const senses = walk(entry.content?.senses ?? [], mints);
 		if (mints.length === 0) {
 			return { entry, records: [] };
 		}

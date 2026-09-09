@@ -36,6 +36,7 @@ interface EntryPlacement {
 	confidence: string;
 	page: number;
 	rid: string;
+	volume: number;
 }
 
 interface PriorEntry {
@@ -159,7 +160,7 @@ function checkPriorPages(
 		tested++;
 		const d = e.page - p.p;
 		all.set(d, (all.get(d) ?? 0) + 1);
-		const v = byVolume[e.page <= 676 ? 0 : 1] as Map<number, number>;
+		const v = byVolume[e.volume === 1 ? 0 : 1] as Map<number, number>;
 		v.set(d, (v.get(d) ?? 0) + 1);
 	}
 	const exact = all.get(0) ?? 0;
@@ -178,6 +179,11 @@ function checkPriorPages(
 	}
 }
 
+/** `key=value`, for one confidence tally. */
+function confEntry([k, v]: readonly [string, number]): string {
+	return `${k}=${v}`;
+}
+
 function reportCoverage(heads: readonly ColumnHead[]): void {
 	const conf = new Map<string, number>();
 	for (const h of heads) {
@@ -185,9 +191,7 @@ function reportCoverage(heads: readonly ColumnHead[]): void {
 	}
 	console.log('\n=== coverage ===');
 	console.log(`  columns indexed : ${heads.length}`);
-	console.log(
-		`  head confidence : ${[...conf].map(([k, v]) => `${k}=${v}`).join(' ')}`,
-	);
+	console.log(`  head confidence : ${[...conf].map(confEntry).join(' ')}`);
 	console.log(`  distinct pages  : ${new Set(heads.map((h) => h.page)).size}`);
 }
 

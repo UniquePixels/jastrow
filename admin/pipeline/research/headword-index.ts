@@ -110,7 +110,7 @@ const GERESH = /[׳']/gu;
  * agent's other proposed cause for it was inert: `baseHeadword` strips
  * `I` and `II` identically, so the stub's data-ref/display mismatch
  * changed nothing. */
-const HOMOGRAPH = /[\s,]+(?:[IVX]+|[0-9]+|[²³¹⁰-⁹]+),?$/u;
+const HOMOGRAPH = /[\s,]+(?:[IVX]+|\d+|[²³¹⁰-⁹]+),?$/u;
 /** Jastrow's editorial mark on a reconstructed headword. It is stored
  * inside the headword string but is not part of the word (v2 carries
  * it as the boolean `reconstructed`).
@@ -195,7 +195,9 @@ function recordedVariant(s: string): string {
 	return baseHeadword(
 		s
 			.replace(TAG, ' ')
+			.trim()
 			.replace(EDITORIAL_ASTERISK, '')
+			.trim()
 			.replace(EDITORIAL_PARENS, ''),
 	);
 }
@@ -305,10 +307,10 @@ function ownForms(entry: SourceEntry): OwnForms {
 	};
 	walk(entry.content?.senses ?? []);
 	const forms = raw
-		.map((f) => consonants(baseHeadword(f.replace(TAG, ' '))))
+		.map((f) => consonants(recordedVariant(f)))
 		.filter((f) => f.length >= 2);
 	const skeletons = raw
-		.map((f) => skeleton(baseHeadword(f.replace(TAG, ' '))))
+		.map((f) => skeleton(recordedVariant(f)))
 		.filter((f) => f.length >= 2);
 	const known = new Set(skeletons);
 	const prose = new Set<string>();

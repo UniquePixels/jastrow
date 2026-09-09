@@ -66,8 +66,9 @@ Sonnet on the batch path and **Opus** on the residue path.
    machine, so unrelated work lands in the sweep's number.
 2. **Prep** — `bun admin/pipeline/research/tranche.ts prep
    <workdir> <count>`: writes per-chunk input JSON (pre-patch
-   entries + precomputed `sense_index`, pin, `promptVersion: v5`)
-   for the next pending chunks; chunk progress lives in
+   entries + precomputed `sense_index`, pin, `promptVersion` — the
+   `PROMPT_VERSION` named above, never a version hardcoded here) for
+   the next pending chunks; chunk progress lives in
    `data/patches/checkpoints/`.
 3. **Dispatch sweep agents** — one agent per chunk (waves of ~7).
    **Tier depends on the path: Sonnet on the batch path, Opus on the
@@ -88,7 +89,8 @@ Sonnet on the batch path and **Opus** on the residue path.
    `sample-patches.json` / `sample-clean.json`. Chunk-fatal
    problems print and stay pending — re-dispatch those chunks.
 5. **Verification** — Opus agents over the sample files (patch
-   reviews + clean reviews per `verify-v2.md`), verdicts to
+   reviews + clean reviews per the highest `prompts/verify-vN.md` —
+   currently `verify-v3.md`, per the paragraph above), verdicts to
    `<workdir>/verdicts-*.jsonl`.
 6. **Report + threshold check** — build the batch report
    (`buildPilotReport`/`renderPilotReport` from `verify.ts`) with
