@@ -51,8 +51,9 @@ function assignSlugs(
 	const chosen = new Map<string, string>();
 	for (const [stem, rids] of byStem) {
 		// Rids are fixed-width (`<letter><NNNNN>`), so a plain string
-		// sort is a rid-order sort.
-		const ordered = [...rids].sort();
+		// sort is a rid-order sort. `localeCompare` over the default
+		// `sort()` per Sonar S2871 — both agree on this ASCII alphabet.
+		const ordered = [...rids].sort((a, b) => a.localeCompare(b));
 		for (const [i, rid] of ordered.entries()) {
 			chosen.set(rid, ordered.length === 1 ? stem : `${stem}-${i + 1}`);
 		}

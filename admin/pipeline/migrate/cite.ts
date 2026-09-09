@@ -100,8 +100,12 @@ function checkQuarantine(
 	const listed = new Set(rows.map(key));
 	const seen = new Set(unresolved.map(key));
 	return {
-		stale: [...listed].filter((k) => !seen.has(k)).sort(),
-		unlisted: [...seen].filter((k) => !listed.has(k)).sort(),
+		stale: [...listed]
+			.filter((k) => !seen.has(k))
+			.sort((a, b) => a.localeCompare(b)),
+		unlisted: [...seen]
+			.filter((k) => !listed.has(k))
+			.sort((a, b) => a.localeCompare(b)),
 	};
 }
 
