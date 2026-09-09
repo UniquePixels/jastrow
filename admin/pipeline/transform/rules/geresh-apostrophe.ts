@@ -85,7 +85,7 @@
  */
 import type { SourceEntry } from '../../body/types.ts';
 import { mapFields } from '../fields.ts';
-import { HEBREW, HEBREW_ATOM } from '../html.ts';
+import { HEBREW, HEBREW_ATOM, mapTagsAndText } from '../html.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /** U+05F4 HEBREW PUNCTUATION GERSHAYIM — the mark print sets and the
@@ -101,12 +101,6 @@ const GERSHAYIM = '״';
  * a vowel before the geresh is matched by the class itself. */
 const FLANKED = new RegExp(`(?<=${HEBREW_ATOM})׳'(?=[${HEBREW}])`, 'gu');
 
-/** A `<…>` run holding no angle bracket of its own — the same mask
- * `gershayim.ts` uses, and deliberately not `html.ts`'s tokenizer
- * regex: it is the conservative reading of the two, treating a `<`
- * with no `>` before the next `<` as text. */
-const TAG = /<[^<>]*>/gu;
-
 /** A character belonging to the abbreviation the mark sits in —
  * Hebrew (U+05F4 included, so a repaired token reads whole) plus the
  * combining dot `html.ts` admits as a suffix. Used only to name the
@@ -116,11 +110,12 @@ const TOKEN_CHAR = new RegExp(`[${HEBREW}̇]`, 'u');
 /**
  * Replace every flanked run in `value`, leaving tag interiors alone.
  *
- * The mask is built by blanking each `<…>` run to spaces of the same
- * length, so offsets in the masked copy are the offsets in `value` and
- * a match found on the mask can be spliced out of the original. Spaces
- * cannot themselves satisfy the lookaround, so nothing inside a tag
- * can match and nothing that spans a tag boundary can either.
+ * The mask is built by blanking each tag (as `html.ts`'s tokenizer
+ * reads it — see `tagSpans` there) to spaces of the same length, so
+ * offsets in the masked copy are the offsets in `value` and a match
+ * found on the mask can be spliced out of the original. Spaces cannot
+ * themselves satisfy the lookaround, so nothing inside a tag can match
+ * and nothing that spans a tag boundary can either.
  *
  * The `includes` guard is a fast path over a 41 MB corpus, and it also
  * returns the SAME string reference for almost every field — which is
@@ -147,7 +142,11 @@ function repairText(value: string, tokens?: string[]): string {
 	if (!value.includes(`׳'`)) {
 		return value;
 	}
-	const masked = value.replace(TAG, (tag) => ' '.repeat(tag.length));
+	const masked = mapTagsAndText(
+		value,
+		(text) => text,
+		(tag) => ' '.repeat(tag.length),
+	);
 	let out = '';
 	let read = 0;
 	for (const match of masked.matchAll(FLANKED)) {
@@ -189,9 +188,14 @@ function recordFor(
 }
 
 const gereshApostropheGershayim: Rule = {
-	// The OCR ruling of 2026-08-11, and the by-construction argument in
-	// this module's docstring: a `״` is only ever written where a `׳'`
-	// was removed, so every one in the output is this call's own work.
+	// The OCR ruling of 2026-08-11: this call writes a `״` only where it
+	// removed a `׳'`, and that is what the allowance covers — what this
+	// call ADDS, not every `״` in the output. `gershayimInBody` runs
+	// earlier in the same phase and its gershayim arrive in this rule's
+	// input (the composed test, `geresh-apostrophe.test.ts:131`). Which
+	// is why `recordFor` counts `repairText`'s own matches rather than
+	// rescanning the output for `״` — that rescan credited this rule
+	// with the other's work, and was fixed in #71.
 	allows: [GERSHAYIM],
 	apply(entry: SourceEntry): TransformResult {
 		const tokens: string[] = [];

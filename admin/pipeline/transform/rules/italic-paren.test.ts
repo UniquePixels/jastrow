@@ -137,3 +137,17 @@ describe('italicSwallowsCloseParen declines every neighbouring row', () => {
 		).toEqual([]);
 	});
 });
+
+describe('italicSwallowsCloseParen reads tags as the tokenizer does', () => {
+	// The segment scanner is `html.ts`'s `tagSpans`: a `>` inside a
+	// quoted attribute value does not end the tag, so a `)` after it in
+	// the same value is attribute bytes, not a surplus paren. The old
+	// `<[^>]*>` reading cut the span at `x>`, counted that `)` at depth
+	// 0, and wrote `</i>)<i>` into the title value. (An anchor would
+	// have been saved by the anchor-swallows decline, by accident.)
+	it('does not read a ) inside a >-holding attribute value', () => {
+		const html = '(see <i>def <span dir="rtl" title="x>y)">ghi</span> jkl</i>';
+		const out = italicSwallowsCloseParen.apply(entryWith(html));
+		expect(defOf(out.entry)).toBe(html);
+	});
+});
