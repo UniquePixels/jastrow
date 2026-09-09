@@ -1,15 +1,19 @@
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../body/types.ts';
+import type { EntryResult } from '../research/manifest.ts';
 import { parseManifest } from '../research/manifest.ts';
 import {
+	applyCarryOver,
 	applyEntryPatches,
+	consolidate,
 	corpusPreflight,
 	createPhaseTracker,
+	orderedDirs,
 	PhaseViolation,
 	patchesByRid,
 	postApplyAssertions,
 } from './apply.ts';
-import { contentAnchor, type SemanticPatch } from './schema.ts';
+import { applyPatch, contentAnchor, type SemanticPatch } from './schema.ts';
 
 const PIN = `sha256:${'a'.repeat(64)}`;
 
@@ -158,6 +162,116 @@ describe('corpusPreflight', () => {
 	});
 });
 
+describe('corpusPreflight — escalations policy (Ruling D)', () => {
+	function unresolvedRecord(): EntryResult[] {
+		return parseManifest(
+			JSON.stringify({
+				disposition: 'needs_human_judgment',
+				escalation: 'unresolved finding',
+				patches: [],
+				rid: 'E00002',
+			}),
+		);
+	}
+
+	it('blocks by default on an unresolved needs_* record', () => {
+		const problems = corpusPreflight([], unresolvedRecord(), PIN);
+		expect(problems.some((p) => p.reason.includes('unresolved needs_*'))).toBe(
+			true,
+		);
+	});
+
+	it("reports nothing under {escalations: 'defer'}", () => {
+		const problems = corpusPreflight([], unresolvedRecord(), PIN, {
+			escalations: 'defer',
+		});
+		expect(problems).toEqual([]);
+	});
+});
+
+describe('orderedDirs — Ruling E stage filtering', () => {
+	it('keeps every found directory in TRANCHES ingest order when stage is omitted', () => {
+		expect(
+			orderedDirs(['batch-01-2026-09-04', 'tranche-01', 'residue-01']),
+		).toEqual(['tranche-01', 'batch-01-2026-09-04', 'residue-01']);
+	});
+
+	it("filters to 'healed' directories, excluding pre-patch tranche-01", () => {
+		expect(
+			orderedDirs(
+				['tranche-01', 'calibration-2026-09-04', 'batch-01-2026-09-04'],
+				'healed',
+			),
+		).toEqual(['calibration-2026-09-04', 'batch-01-2026-09-04']);
+	});
+
+	it("filters to 'pre-patch', keeping only tranche-01", () => {
+		expect(
+			orderedDirs(['tranche-01', 'calibration-2026-09-04'], 'pre-patch'),
+		).toEqual(['tranche-01']);
+	});
+
+	it('throws on a directory TRANCHES does not name, regardless of stage filter', () => {
+		expect(() => orderedDirs(['tranche-99'])).toThrow(
+			'unordered tranche directory "tranche-99": add it to TRANCHES',
+		);
+		expect(() => orderedDirs(['tranche-99'], 'healed')).toThrow(
+			'unordered tranche directory "tranche-99": add it to TRANCHES',
+		);
+	});
+});
+
+describe('consolidate — Ruling C latest-wins', () => {
+	it('keeps only the later record for a re-swept rid, dropping its patch', () => {
+		const earlier: EntryResult = {
+			disposition: 'repaired',
+			patches: ['P000001'],
+			rid: 'A00001',
+		};
+		const later: EntryResult = {
+			disposition: 'repaired',
+			patches: ['P000002'],
+			rid: 'A00001',
+		};
+		const p1 = ocrPatch({ id: 'P000001', rid: 'A00001' });
+		const p2 = ocrPatch({ id: 'P000002', rid: 'A00001' });
+		const result = consolidate([earlier, later], [p1, p2]);
+		expect(result.records).toEqual([later]);
+		expect(result.patches.map((p) => p.id)).toEqual(['P000002']);
+		expect(result.superseded).toEqual({ patches: 1, records: 1 });
+	});
+
+	it('leaves a rid with one record untouched', () => {
+		const record: EntryResult = {
+			disposition: 'repaired',
+			patches: ['P000001'],
+			rid: 'A00002',
+		};
+		const p1 = ocrPatch({ id: 'P000001', rid: 'A00002' });
+		const result = consolidate([record], [p1]);
+		expect(result.records).toEqual([record]);
+		expect(result.patches).toEqual([p1]);
+		expect(result.superseded).toEqual({ patches: 0, records: 0 });
+	});
+
+	it('throws on a patch no record — kept or superseded — lists', () => {
+		// P000002 is not named by ANY record, so it is not a Ruling C
+		// supersession (a later sweep replacing an earlier one) — it is
+		// an ingest bug, and must fail loudly rather than being folded
+		// into `superseded.patches` as if a record had dropped it.
+		const record: EntryResult = {
+			disposition: 'repaired',
+			patches: ['P000001'],
+			rid: 'A00003',
+		};
+		const p1 = ocrPatch({ id: 'P000001', rid: 'A00003' });
+		const orphan = ocrPatch({ id: 'P000002', rid: 'A00003' });
+		expect(() => consolidate([record], [p1, orphan])).toThrow(
+			'patch(es) no manifest record lists: P000002',
+		);
+	});
+});
+
 describe('applyEntryPatches', () => {
 	it("chains a rid's patches in corpus order", () => {
 		const { entry, problems } = applyEntryPatches(makeEntry(), [
@@ -211,6 +325,71 @@ describe('postApplyAssertions', () => {
 		const { entry, problems } = applyEntryPatches(makeEntry(), [ocrPatch()]);
 		expect(problems).toEqual([]);
 		expect(entry.content.senses[0]?.definition).toContain('1)');
+	});
+});
+
+describe('applyCarryOver — Ruling F', () => {
+	it('absorbs a patch whose pre-state no longer resolves', () => {
+		// Apply the ocr patch for real first — the entry no longer reads
+		// "l) emergency", so the same patch, offered as carry-over, finds
+		// its pre-state already gone (a transform rule got there first, in
+		// the real pipeline).
+		const alreadyHealed = applyPatch(makeEntry(), ocrPatch());
+		const result = applyCarryOver(alreadyHealed, [ocrPatch()]);
+		expect(result.absorbed).toEqual(['P000001']);
+		expect(result.carried).toEqual([]);
+		expect(result.problems).toEqual([]);
+		expect(result.entry).toBe(alreadyHealed);
+	});
+
+	it('carries and applies a patch whose pre-state is still present', () => {
+		const result = applyCarryOver(makeEntry(), [ocrPatch()]);
+		expect(result.absorbed).toEqual([]);
+		expect(result.carried).toEqual(['P000001']);
+		expect(result.problems).toEqual([]);
+		expect(result.entry.content.senses[0]?.definition).toBe(
+			'1) emergency. Nidd. 9b',
+		);
+	});
+
+	it('orders carry-over patches by id regardless of input order, chaining state', () => {
+		const result = applyCarryOver(makeEntry(), [retagPatch(), ocrPatch()]);
+		expect(result.carried).toEqual(['P000001', 'P000002']);
+		expect(result.problems).toEqual([]);
+		expect(result.entry.content.senses[0]?.definition).toBe(
+			'1) emergency. Nidd. 9b',
+		);
+		expect(result.entry.content.senses[1]?.number).toBe('2)');
+	});
+
+	it('records a problem for a carried patch that fails its gate, without absorbing it', () => {
+		const inventing = ocrPatch({
+			payload: { find: 'emergency', replace: 'EMERGENCY!' },
+		});
+		const result = applyCarryOver(makeEntry(), [inventing]);
+		expect(result.absorbed).toEqual([]);
+		expect(result.carried).toEqual(['P000001']);
+		expect(result.problems).toHaveLength(1);
+		expect(result.problems[0]?.reason).toContain('needs_print_check');
+	});
+
+	it('reports a problem — not absorption — for a wrong-count pre-state', () => {
+		// The target still resolves (found=1), just not at the count the
+		// patch declares (expected_occurrences: 2). That is neither "the
+		// defect is gone" (found=0, absorb) nor "the defect is exactly as
+		// declared" (found===expected, carry) — a transform changed the
+		// entry into a third state the carry-over pre-check must not wave
+		// through as absorbed.
+		const mismatched = ocrPatch({ expected_occurrences: 2 });
+		const source = makeEntry();
+		const result = applyCarryOver(source, [mismatched]);
+		expect(result.absorbed).toEqual([]);
+		expect(result.carried).toEqual([]);
+		expect(result.problems).toHaveLength(1);
+		expect(result.problems[0]?.patchId).toBe('P000001');
+		expect(result.problems[0]?.reason).toContain('resolves 1 time(s)');
+		// Never applied, so the untouched entry reference comes back.
+		expect(result.entry).toBe(source);
 	});
 });
 

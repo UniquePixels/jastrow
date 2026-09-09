@@ -11,27 +11,29 @@
 import type { ValidateFunction } from 'ajv';
 import Ajv2020 from 'ajv/dist/2020';
 import {
-	applyEntryPatches,
 	corpusPreflight,
-	createPhaseTracker,
-	loadCorpus,
-	loadManifest,
+	loadAcceptedCorpus,
 	patchesByRid,
 } from '../patch/apply.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
 import { computeSnapshot } from '../patch/snapshot.ts';
+import { unresolvedNeeds } from '../research/manifest.ts';
 import entrySchema from '../schema/entry.schema.json' with { type: 'json' };
 import { RULES } from '../transform/registry.ts';
-import { applyTransforms } from '../transform/run.ts';
 import type { Rule, TransformRecord } from '../transform/types.ts';
 import { findCitations } from './cite.ts';
+import {
+	type ComposeResult,
+	composeEntry,
+	healAndTransform,
+	TransformFailure,
+} from './compose.ts';
 import { buildTrace } from './dry-run.ts';
 import { toValidationEntry } from './dry-run-report.ts';
 import { evaluateRoundTrip } from './dry-run-verify.ts';
 import { parseLabel } from './labels.ts';
 import type { RepairRecord } from './repairs.ts';
 import {
-	applyRepairs,
 	CONFIRMED_NO_CHANGE,
 	DEFERRED,
 	REPAIRED_ORPHAN_ITEMS,
@@ -64,7 +66,29 @@ interface Recounts {
 interface PatchTally {
 	applied: number;
 	corpus: number;
+	/** Unresolved `needs_*` records the replay gate did not block on
+	 * (Ruling D — 2026-09-06 maintainer decision, class report; migrate
+	 * spec §8: every escalation defers to post-go-live). */
+	escalationsDeferred: number;
+	/** Carry-over patches (Ruling F — task-3 addendum-3) whose defect a
+	 * transform rule already fixed — dropped, not applied. */
+	prePatchAbsorbed: number;
+	/** Carry-over patches (Ruling F) whose defect was still present —
+	 * applied after the rid's accepted patches; counted in `applied`. */
+	prePatchCarried: number;
 	problems: string[];
+	/** Ruling C consolidation counts: records/patches from a rid's
+	 * earlier sweep(s), dropped once its latest tranche's record won,
+	 * plus Ruling E's `prePatch` counts — pilot/tranche-01 rows excluded
+	 * from `corpus` because they were swept before any transform rule
+	 * existed (`overlapping`: of those, the ones dropped outright,
+	 * Ruling F, because an accepted patch already targets the same
+	 * (rid, target) — the rest are carry-over candidates). */
+	superseded: {
+		patches: number;
+		records: number;
+		prePatch: { patches: number; records: number; overlapping: number };
+	};
 }
 
 interface Report {
@@ -178,7 +202,19 @@ function createReport(): Report {
 			rejoin: { pass: 0, total: 0 },
 			units: { pass: 0, total: 0 },
 		},
-		patches: { applied: 0, corpus: 0, problems: [] },
+		patches: {
+			applied: 0,
+			corpus: 0,
+			escalationsDeferred: 0,
+			prePatchAbsorbed: 0,
+			prePatchCarried: 0,
+			problems: [],
+			superseded: {
+				patches: 0,
+				records: 0,
+				prePatch: { patches: 0, records: 0, overlapping: 0 },
+			},
+		},
 		recordsByPass: {},
 		recounts: {
 			brokenTopSequences: [],
@@ -218,63 +254,35 @@ function recount(entry: SourceEntry, report: Report): void {
 	}
 }
 
-/** A failure raised by the TRANSFORM half of `text-repairs`, not by
- * `repairs.ts`. The two halves fail for unrelated reasons and are
- * fixed in unrelated files — a drifted literal find-text is a
- * `repairs.ts` edit, a no-new-text or markup violation is a rule bug
- * in `transform/rules/` — so the phase that failed is carried on the
- * error rather than left for the operator to guess from a message
- * saying "repair drift". */
-class TransformFailure extends Error {}
-
-/** The `text-repairs` phase body: literal repairs first (on pristine
- * source, so `repairs.ts`'s exactly-once find-text assertions hold),
- * then the corpus-correction transforms second, on the healed entry
- * (transform spec §2 "Placement": "Rules run after `applyRepairs`,
- * within `text-repairs`"). Transform records are pushed onto the report
- * directly since `RunResult` and `RepairRecord` don't share a shape the
- * caller could merge generically. */
-function healAndTransform(
-	source: SourceEntry,
-	report: Report,
-	rules: readonly Rule[] = RULES,
-): ReturnType<typeof applyRepairs> {
-	const healed = applyRepairs(source);
-	let transformed: ReturnType<typeof applyTransforms>;
-	try {
-		transformed = applyTransforms(healed.entry, 'text-repairs', rules);
-	} catch (error) {
-		throw new TransformFailure(
-			error instanceof Error ? error.message : String(error),
-		);
-	}
-	report.transformRecords.push(...transformed.records);
-	return { entry: transformed.entry, records: healed.records };
+/** The rid-grouped patch sets `processEntry` applies (Ruling F — task-3
+ * addendum-3): `accepted` first, then `carryOver` for the same rid. */
+interface PatchGroups {
+	accepted: Map<string, SemanticPatch[]>;
+	carryOver: Map<string, SemanticPatch[]>;
 }
 
 /** One corpus entry through the committed phase manifest (spec §5):
- * text repairs → structural repairs → patch apply → consumer-facing
- * composition + gates + recounts + full schema validation. The
- * tracker turns a mis-ordered edit to this function into a loud
- * `PhaseViolation` instead of silently corrupted output. */
+ * text repairs → structural repairs → patch apply (all three via
+ * `composeEntry`) → consumer-facing composition + gates + recounts +
+ * full schema validation. */
 function processEntry(
 	source: SourceEntry,
 	report: Report,
 	validate: ValidateFunction,
-	patchGroups: Map<string, SemanticPatch[]>,
+	groups: PatchGroups,
 ): void {
 	report.entries++;
-	const phases = createPhaseTracker();
 	// Contain a drifted find-text — or a rule that tripped its own gate —
 	// to its own entry: record it and keep walking, so one report run
 	// lists every failure instead of aborting at the first. main()
 	// rethrows after the walk — the run stays loud. The two are recorded
 	// separately because they send the operator to different files.
-	let repaired: ReturnType<typeof applyRepairs>;
+	let composed: ComposeResult;
 	try {
-		repaired = phases.run('text-repairs', () =>
-			healAndTransform(source, report),
-		);
+		composed = composeEntry(source, {
+			accepted: groups.accepted.get(source.rid),
+			carryOver: groups.carryOver.get(source.rid),
+		});
 	} catch (error) {
 		const line = `${source.rid}: ${error instanceof Error ? error.message : String(error)}`;
 		if (error instanceof TransformFailure) {
@@ -284,53 +292,26 @@ function processEntry(
 		}
 		return;
 	}
-	const { entry, records } = repaired;
-	if (records.length > 0) {
+	if (composed.repairRecords.length > 0) {
 		report.repairedEntries++;
-		for (const record of records) {
+		for (const record of composed.repairRecords) {
 			const bucket = report.recordsByPass[record.pass] ?? [];
 			bucket.push(record);
 			report.recordsByPass[record.pass] = bucket;
 		}
 	}
-	// Wired in batch 6b. The phase ran empty from Phase 1 to enforce the
-	// ordering contract from day one; it now runs the registry's
-	// `structural-repairs` rules over the text-repaired entry, with the
-	// same per-entry containment the `text-repairs` half has, so one
-	// rule tripping its own gate is reported and walked past rather
-	// than aborting the corpus.
-	let structural: ReturnType<typeof applyTransforms>;
-	try {
-		structural = phases.run('structural-repairs', () =>
-			applyTransforms(entry, 'structural-repairs'),
-		);
-	} catch (error) {
-		report.transformFailures.push(
-			`${entry.rid}: ${error instanceof Error ? error.message : String(error)}`,
-		);
-		return;
-	}
-	report.transformRecords.push(...structural.records);
-	// Everything downstream reads the STRUCTURAL output, not the
-	// text-repaired entry it was built from — the one line that makes
-	// the phase load-bearing rather than decorative.
-	const repairedEntry = structural.entry;
-	const group = patchGroups.get(repairedEntry.rid);
-	const patched = phases.run('patch-apply', () =>
-		group === undefined
-			? { entry: repairedEntry, problems: [] }
-			: applyEntryPatches(repairedEntry, group),
+	report.transformRecords.push(...composed.transformRecords);
+	report.patches.applied += composed.patchesApplied;
+	report.patches.prePatchAbsorbed += composed.carryOver.absorbed.length;
+	report.patches.prePatchCarried += composed.carryOver.carried.length;
+	report.patches.problems.push(
+		...composed.patchProblems.map(
+			(p) => `${p.patchId ?? source.rid}: ${p.reason}`,
+		),
 	);
-	if (group !== undefined) {
-		report.patches.applied += group.length - patched.problems.length;
-		report.patches.problems.push(
-			...patched.problems.map(
-				(p) => `${p.patchId ?? repairedEntry.rid}: ${p.reason}`,
-			),
-		);
-	}
+	const { phases } = composed;
 	phases.run('consumer-output', () => {
-		const healed = patched.entry;
+		const healed = composed.entry;
 		const trace = buildTrace(healed);
 		const gates = evaluateRoundTrip(healed, trace);
 		tallyGate(report.gates.rejoin, gates.rejoin);
@@ -370,6 +351,7 @@ function printSummary(report: Report): void {
 		`repairFailures=${report.repairFailures.length}`,
 		`transformFailures=${report.transformFailures.length}`,
 		`patchCorpus=${report.patches.corpus} patchesApplied=${report.patches.applied} patchProblems=${report.patches.problems.length}`,
+		`patchesSuperseded=${report.patches.superseded.patches} recordsSuperseded=${report.patches.superseded.records} prePatchExcluded=${report.patches.superseded.prePatch.patches}/${report.patches.superseded.prePatch.records} prePatchAbsorbed=${report.patches.prePatchAbsorbed} prePatchCarried=${report.patches.prePatchCarried} escalationsDeferred=${report.patches.escalationsDeferred}`,
 		`unresolvedRepairedOrphans=${report.recounts.unresolvedRepairedOrphans.length}`,
 		`deferred=${Object.keys(report.deferred).length} confirmedNoChange=${report.confirmedNoChange.length}`,
 	];
@@ -395,10 +377,22 @@ if (import.meta.main) {
 	const report = createReport();
 	// Preflight first, then write (spec §5.3): the corpus-level checks
 	// run before any entry streams past, and report every problem.
-	const patches = await loadCorpus();
-	const manifestRecords = await loadManifest();
+	// Consolidated to the latest record per rid (Ruling C), with the
+	// replay gate deferred: the maintainer's 2026-09-06 decision (class
+	// report; migrate spec §8) sends every escalation to post-go-live
+	// via the admin tool, so migration must not block on it.
+	const accepted = await loadAcceptedCorpus();
 	const pin = `sha256:${(await computeSnapshot()).combined}`;
-	const preflight = corpusPreflight(patches, manifestRecords, pin);
+	// The full apply set (accepted + carry-over, Ruling F — task-3
+	// addendum-3) is pin- and corpus-checked together; the manifest only
+	// has to reconcile against the accepted set — carry-over patches'
+	// manifest rows are pre-patch stage, not accepted.
+	const preflight = corpusPreflight(
+		[...accepted.patches, ...accepted.carryOver],
+		accepted.records,
+		pin,
+		{ escalations: 'defer', reconcileOnly: accepted.patches },
+	);
 	if (preflight.length > 0) {
 		throw new Error(
 			`patch-corpus preflight failed (${preflight.length} problem(s)):\n${preflight
@@ -406,14 +400,27 @@ if (import.meta.main) {
 				.join('\n')}`,
 		);
 	}
-	report.patches.corpus = patches.length;
-	const patchGroups = patchesByRid(patches);
+	report.patches.corpus = accepted.patches.length;
+	report.patches.superseded = accepted.superseded;
+	report.patches.escalationsDeferred = unresolvedNeeds(accepted.records).length;
+	const groups: PatchGroups = {
+		accepted: patchesByRid(accepted.patches),
+		carryOver: patchesByRid(accepted.carryOver),
+	};
 	for await (const source of readSourceEntries()) {
-		processEntry(source, report, validate, patchGroups);
-		patchGroups.delete(source.rid);
+		processEntry(source, report, validate, groups);
+		groups.accepted.delete(source.rid);
+		groups.carryOver.delete(source.rid);
 	}
 	// A patch whose rid never streamed past targets a nonexistent entry.
-	for (const [rid, group] of patchGroups) {
+	// `accepted` and `carryOver` are separate maps keyed by the same rid
+	// space — merge before reporting, or a rid present in both would be
+	// reported twice.
+	const missingRids = new Map<string, SemanticPatch[]>(groups.accepted);
+	for (const [rid, group] of groups.carryOver) {
+		missingRids.set(rid, [...(missingRids.get(rid) ?? []), ...group]);
+	}
+	for (const [rid, group] of missingRids) {
 		report.patches.problems.push(
 			`${group[0]?.id ?? rid}: no source entry with rid ${rid}`,
 		);

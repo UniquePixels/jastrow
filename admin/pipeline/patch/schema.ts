@@ -496,6 +496,9 @@ function applyPatch(entry: SourceEntry, patch: SemanticPatch): SourceEntry {
 	const copy = structuredClone(entry);
 	const target = parseTarget(patch.target);
 	const matches = resolveTarget(copy, target);
+	// The pre-state gate: `matches.length` already IS the resolved
+	// count, so compare it directly rather than re-parsing `target` and
+	// re-walking `copy` a second time for the same number.
 	if (matches.length !== patch.expected_occurrences) {
 		throw new PatchApplyError(
 			patch.id,
