@@ -28,7 +28,9 @@ interface SourceEntry {
 	headword: string;
 	language_code?: string;
 	language_reference?: string;
+	next_hw?: string;
 	plural_form?: string[];
+	prev_hw?: string;
 	quotes?: [string | null, string, string | null][];
 	refs?: string[];
 	rid: string;
