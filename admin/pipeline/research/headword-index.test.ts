@@ -13,6 +13,12 @@ import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../body/types.ts';
 import { ownForms } from './headword-index.ts';
 
+/** A minimal `SourceEntry` carrying only what `ownForms` reads: the
+ * headword, one stub sense so the walk over `content.senses` has
+ * something to descend into, and whichever structured field the case
+ * under test supplies through `extra` (here `alt_headwords`). Cast
+ * rather than fully populated — the fixture would otherwise need
+ * every field of the source schema to say one thing about parens. */
 function entry(
 	headword: string,
 	extra: Partial<SourceEntry> = {},
