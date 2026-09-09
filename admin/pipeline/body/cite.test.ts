@@ -86,9 +86,22 @@ describe('findCitations', () => {
 });
 
 describe('findCitations malformed anchors', () => {
-	it('returns an empty array early when there is no closing </a> at all', () => {
-		const s = '<a class="refLink" href="/X.1" data-ref="X 1">no close here';
-		expect(findCitations(s)).toEqual([]);
+	// A refLink open tag that never closes and has nothing after it once
+	// returned no hit at all: findCitations bailed early on text holding no
+	// `</a>` anywhere. That silently dropped the citation and contradicted
+	// the one-hit-per-open-tag contract, so the bail is gone.
+	it('flags a trailing unclosed anchor instead of dropping it', () => {
+		const open = '<a class="refLink" href="/X.1" data-ref="X 1">';
+		const s = `${open}no close here`;
+		const hits = findCitations(s);
+		expect(hits).toHaveLength(1);
+
+		const [hit] = hits;
+		expect(hit?.malformed).toBe(true);
+		expect(hit?.href).toBe('X.1');
+		expect(hit?.dataRef).toBe('X 1');
+		expect(hit?.hadLeadingSlash).toBe(true);
+		expect(s.slice(hit?.start, hit?.end)).toBe(open);
 	});
 
 	it('flags a mangled anchor without swallowing the following valid one (J00597)', () => {

@@ -46,6 +46,24 @@ const HREF = /href="(?<slash>\/)?(?<target>[^"]+)"/u;
 const HREF_LENIENT = /href="(?<slash>\/)?(?<target>[^"]*)/u;
 const DATA_REF = /data-ref="(?<value>[^"]+)"/u;
 
+/** The legacy quote-blind tag end: one past the first `>` at or after
+ * `start`, or `null` when the string holds no `>` at all. This is what the
+ * old `[^>]*` regex read, and it is what `findTagEnd` falls back to once a
+ * quoted value proves damaged. */
+function legacyTagEnd(text: string, start: number): number | null {
+	const legacy = text.indexOf('>', start);
+	return legacy === -1 ? null : legacy + 1;
+}
+
+/** One character read outside a quoted value: `'"'`/`"'"` opens a quoted
+ * value, `'end'` closes the tag, `null` is an ordinary tag character. */
+function unquotedStep(ch: string | undefined): '"' | "'" | 'end' | null {
+	if (ch === '"' || ch === "'") {
+		return ch;
+	}
+	return ch === '>' ? 'end' : null;
+}
+
 /** The end (exclusive — one past the closing `>`) of the tag that starts
  * at `start` (which must index a `<`). Reads quoted attribute values, so a
  * `>` inside a `"…"` or `'…'` value does not end the tag, but falls back
@@ -62,19 +80,17 @@ function findTagEnd(text: string, start: number): number | null {
 			if (ch === quote) {
 				quote = null;
 			} else if (ch === '<') {
-				const legacy = text.indexOf('>', start);
-				return legacy === -1 ? null : legacy + 1;
+				return legacyTagEnd(text, start);
 			}
 			continue;
 		}
-		if (ch === '"' || ch === "'") {
-			quote = ch;
-		} else if (ch === '>') {
+		const step = unquotedStep(ch);
+		if (step === 'end') {
 			return i + 1;
 		}
+		quote = step;
 	}
-	const legacy = text.indexOf('>', start);
-	return legacy === -1 ? null : legacy + 1;
+	return legacyTagEnd(text, start);
 }
 
 interface OpenTag {
@@ -171,10 +187,6 @@ function findNextBoundary(text: string, openEnd: number): Boundary | null {
  * malformed hits, whose `end` is just past the damaged open tag (see
  * `malformed` below). */
 function findCitations(text: string): CitationHit[] {
-	if (!text.includes(ANCHOR_CLOSE)) {
-		return [];
-	}
-
 	const hits: CitationHit[] = [];
 	let open = nextOpenTag(text, 0);
 	while (open !== null) {
