@@ -188,9 +188,14 @@ function recordFor(
 }
 
 const gereshApostropheGershayim: Rule = {
-	// The OCR ruling of 2026-08-11, and the by-construction argument in
-	// this module's docstring: a `״` is only ever written where a `׳'`
-	// was removed, so every one in the output is this call's own work.
+	// The OCR ruling of 2026-08-11: this call writes a `״` only where it
+	// removed a `׳'`, and that is what the allowance covers — what this
+	// call ADDS, not every `״` in the output. `gershayimInBody` runs
+	// earlier in the same phase and its gershayim arrive in this rule's
+	// input (the composed test, `geresh-apostrophe.test.ts:131`). Which
+	// is why `recordFor` counts `repairText`'s own matches rather than
+	// rescanning the output for `״` — that rescan credited this rule
+	// with the other's work, and was fixed in #71.
 	allows: [GERSHAYIM],
 	apply(entry: SourceEntry): TransformResult {
 		const tokens: string[] = [];
