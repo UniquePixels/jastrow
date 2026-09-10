@@ -157,47 +157,97 @@ senses as well" — which describes Class A a month before it was
 measured. Whatever the real reason for holding `I00661` back, the
 written one is falsifiable and false.
 
-## Review table — the 12 rows still needing a decision
+## Decisions — maintainer, 2026-09-10
 
-Write `confirm` or `reject` in each Decision cell, the way doc 08's
-column works. **Confirm** means: split the run so each numbered sense
-becomes its own sense, exactly as `C00805` and `I00111` now are.
-**Reject** means: leave the entry as it stands, and say why.
+**Class A: all nine confirmed.** Six were seeded; three are held, and
+one of the six is only partly repaired.
 
-Nothing happens to these rows until the cells are filled — no patch is
-authored from a blank cell.
+| rid | outcome |
+| --- | --- |
+| `E00005` `I00661` `P00816` `P00856` `Q00990` `S01355` | seeded — `SEED_CONFIRMED` 28 → 34, tranche 58 → 79 patches |
+| `E00148` `E00298` `I00822` | held — collide with a standing rejection, see below |
+| `P00816` | seeded run repaired; a second run remains, see below |
 
-### Class A — a run swallowed in the tail
+`I00661` is among the six: its doc 08 cell already read `Confirm`, and
+the reason recorded for holding it out did not reproduce.
 
-| rid | headword | text at the marker | note | Decision |
-| --- | --- | --- | --- | --- |
-| [E00005](https://jastrow.app/#rid:E00005) | הָא I | …a. fr.**—3)** (as conjunction) [there is this,] a) introducing a self-evident consequent, then… | one unnumbered sense; needs 1) / —2) / —3) | |
-| [E00148](https://jastrow.app/#rid:E00148) | הֲדַר | …a. fr.**—3)** to reply. Ḥull. 34ᵃ … **—4)** to carry around in procession. Yeb. 110ᵃ Ar.… | host already numbered; run of 3 and 4 swallowed | |
-| [E00298](https://jastrow.app/#rid:E00298) | הַזְכָּרָה | …Taan. 2ᵇ; a. e.**—3)** the Tetragrammaton. Y. Ber. III, 6ᶜ bot.—Pl. הַזְכָּרוֹת… | one unnumbered sense; needs 1) / —2) / —3) | |
-| [I00661](https://jastrow.app/#rid:I00661) | טְפַל | …while they were engaged in burying him.**—3)** to join, attach one’s self. Keth. 23ᵃ… | already `confirm` in doc 08; never seeded — see below | |
-| [I00822](https://jastrow.app/#rid:I00822) | טְרִיקְלִין | …Tosef. Bets. II, 10 ט׳ שהסיקוהו וכ׳; a. e.**—3)** (τρίκλινος = ὅρριον, S.) granary. Y. Sot. V, 20ᵇ bot.… | one unnumbered sense; needs 1) / —2) / —3) | |
-| [P00816](https://jastrow.app/#rid:P00816) | עֲלַל I | …Targ. O. Gen. XV, 12; a. fr.**—3)** to be busy, have to do with, (euphem.) to sport. Esth. R. to II, 16… | not in the sweep; nothing else will reach it | |
-| [P00856](https://jastrow.app/#rid:P00856) | עָמַך II | …**—3)** ה׳ (על) עצמו to contain, check one’s self … **—4)** (of liquids) to make consistent, curdle … **—5)** ה׳ על חזקתו … **—6)** ה׳ על מדותיו | longest run: 1) through 6) in one sense | |
-| [Q00990](https://jastrow.app/#rid:Q00990) | פָּלַח | …**—2)** to work for, serve, v. פּוֹלֵחַ.**—3)** to worship. Tosef. Ab. Zar. I, 4… | not in the sweep; nothing else will reach it | |
-| [S01355](https://jastrow.app/#rid:S01355) | קָלַל | …the more lenient rule is applied; a. fr.**—3)** to be sparing, beggarly. Ib. כל המיקל… | one unnumbered sense; needs 1) / —2) / —3) | |
+### The three held rows are an OCR class, not this one
 
-### Class B — a run that opens above `—2)`
+Doc 08 already rejected `E00148`, `E00298` and `I00822` on 2026-08-05
+as `Not implied, OCR error — l) …`, and that reading is correct.
+Each carries a literal lowercase `l)` where `1)` belongs:
 
-| rid | headword | text at the marker | note | Decision |
-| --- | --- | --- | --- | --- |
-| [K00599](https://jastrow.app/#rid:K00599) | כֵּיף ² | …give me my jewelry back; a. e.**—3)** also כַּפָּא … shore, border … **—4)** arch, vault … **—5)** cap … **—6)** bundle, sheaf | opens at 3; senses 1 and 2 are both implied | |
-| [L00565](https://jastrow.app/#rid:L00565) | לָמֵד I | …Sifra K’dosh. Par. 3, ch. VI, v. לִימּוּד; a. fr.**—3)** to learn, study. Ab. II, 5… | opens at 3 inside a multi-stem entry | |
-| [O01387](https://jastrow.app/#rid:O01387) | סְפַן | …Targ. II Esth. I, 12. Ib. VII, 9 (10).**—3)** to look out for, provide, store… | opens at 3; not in the sweep | |
+- `E00148` הֲדַר — `… a. fr.—B. Mets. 14ᵃ … l) to return, restore`
+- `E00298` הַזְכָּרָה — `(זכר; v. אַזְכָּרָה) l) giving a debtor notice`
+- `I00822` טְרִיקְלִין — `(τρικλίνιον, triclinium) l) dining couch`
 
-### `I00661` needs a yes, not a review
+The census flags them because `l)` is not `1)`, so the `—2)` looks
+unpreceded. Seeding them under implied-one would `retag` a sense
+`1)` while its own text still reads `l)` — one sense wearing two
+numbers. The repair they need is an OCR glyph fix on the marker
+first, which is a different defect class with its own ruling. They
+stay unrepaired until that is decided.
 
-Its Decision cell in doc 08 already reads `Confirm, note: there are
-uncatogorized 2 and 3 senses as well` — the maintainer saw this class
-on 2026-08-13. It was left out of the seed on the stated grounds that
-the transform phases consume its `—2)`, which does not reproduce: the
-entry is still a census candidate after `composedEntry`, and the
-generator produces a valid patch set for it today. Adding `I00661` to
-`SEED_CONFIRMED` needs only a yes, not a fresh reading.
+### `P00816` carries a second run, never reviewed
+
+The confirmed run is repaired: the entry's top-level senses now read
+1, 2, 3. But its `Ithpe.` stem holds another, in a sense that is
+already numbered:
+
+> `2)` to attempt entrance. Y. Sabb. l. c., v. supra.**—3)** to busy
+> one's self, to sport. Gen. R. l. c., v. supra.
+
+That is the `swallowed-marker` shape — a numbered sense carrying the
+next marker in its own text — not implied-one, so `impliedHost` never
+looks at it and the seed generator cannot express the repair. It was
+not in the table that was confirmed, so it is left open here rather
+than patched.
+
+## Class B — three different answers
+
+### `K00599` — print check, hypothesis supported
+
+The data supports the reading that senses 1 and 2 arrive by
+cross-reference rather than being written out. The entry's
+`language_code` is `" ch. "` and its `language_reference` is the word
+`same` linking to `כֵּיף` (`K00598`), so it opens as *"ch. same, rock,
+stone, ball."* and its own numbering begins at `—3)`. No `2)` occurs
+anywhere in the entry. That is consistent with print numbering only
+the senses that diverge from the referenced entry.
+
+It cannot be settled from the data alone, so it belongs in
+`needs_print_check` rather than in either class here.
+
+### `L00565` and `O01387` — a dropped marker, and yes, the class is known
+
+These two are **not** the swallowed-run shape. In both, the sense
+that should be `2)` exists as its own sense and simply carries no
+number:
+
+| rid | senses as stored | print (maintainer) |
+| --- | --- | --- |
+| `L00565` לָמֵד I | `∅` / `1)` "to be joined, affixed to, v. Pi." / `∅` "to accustom, train…" | `…affixed to, v. Pi.—2) to accustom, train` |
+| `O01387` סְפַן | `1)` "to brighten, scour; v. Ithpe." / `∅` "to regard…" | `…scour; v. Ithpe.—2) to regard` |
+
+The class is register #3, *"Sense numbering gaps / swallowed
+markers"* — 35 entries, reviewed in
+[body-review 01](body-review/01-broken-sequences.md)'s numbering-gap
+section and hand-verified against print. `residue-01`'s `P000091`
+repairs the same shape under `defect_class: swallowed-marker`.
+**Neither `L00565` nor `O01387` is in that set of 35.**
+
+They were missed because of a hole in the detector, not a judgment
+call. `census.ts`'s `labelSequence` pulls the integer out of each
+sense's `number` token and drops senses that have none, then checks
+the result reads `1..n`. A sense whose marker was lost carries no
+token at all, so it is not dropped from the sequence — it is dropped
+from the *evidence*. `O01387` stores `1) ∅ ∅`, which reads as a clean
+`[1]`. The detector can see a wrong number and cannot see a missing
+one.
+
+The repair shape for both is determinable: `retag` the unnumbered
+sense with `—2)`, then `split` its `—3)` tail. Neither is authored
+here.
 
 ## Context, unadjudicated
 

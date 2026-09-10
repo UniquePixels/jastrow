@@ -49,9 +49,23 @@ their split is now generated over the whole run, so each mints three
 patches and composes into three numbered senses. The seed tranche
 holds 58 patches over the same 28 rows.
 
-The other 9 rows are unconfirmed and unrepaired, and the same pass
-could not reproduce the `I00661` exclusion recorded above. Findings,
-counts and the open dispositions:
+**Confirmed 2026-09-10.** The maintainer read the other 9 rows and
+confirmed all of them. Six are seeded — `E00005`, `I00661`, `P00816`,
+`P00856`, `Q00990`, `S01355` — taking `SEED_CONFIRMED` to 34 and the
+tranche to 79 patches. `I00661` is among them: the reason recorded
+above for holding it out does not reproduce, and this note supersedes
+it.
+
+Three are held. `E00148`, `E00298` and `I00822` already carry the
+2026-08-05 rejection `Not implied, OCR error — l) …`, and that reading
+is right: each stores a literal lowercase `l)` where `1)` belongs.
+Seeding them would number a sense `1)` whose own text still reads
+`l)`. They need the OCR marker fixed first.
+
+`P00816` is repaired for the run that was reviewed; its `Ithpe.` stem
+holds a second one, of the `swallowed-marker` class, still open.
+
+Findings, counts and the remaining dispositions:
 [phase-2-swallowed-runs.md](../phase-2-swallowed-runs.md).
 
 The 26 blank rows are unchanged and still belong to the sweep.
@@ -120,16 +134,16 @@ The 26 blank rows are unchanged and still belong to the sweep.
 | [N00235](https://jastrow.app/#rid:N00235) | נִדְנוּד | …. s. 39 (expl. נְדֹד, Ps. LV, 9) נ׳ טלטול וכ׳ n’dod means moving about, exile after exile.**—2)** (sub. ראש) head-shaking; נ׳ עבירה an act at which people shake their … |  |
 | [N00577](https://jastrow.app/#rid:N00577) | נָטַף | …end (ref. to Joel IV, 18) אין יִטְּפוּ אלא נבואה yiṭṭ’fu alludes to prophecy; v. הַטָּפָה.**—2)** (cmp. טְפֵי III) to be too long, protrude, hang over. Bekh. 43ᵇ חוטמו… |  |
 | [N01162](https://jastrow.app/#rid:N01162) | נָקַד I | …׳ החמה Ms. M. (ed. נקדרה). [Ib. שלשה נקדה Ms. M. (ed. נקדמה, read, as Ab. Zar. 25ᵃ: עמדה.]**—2)** (Massorah) to dot, mark with diacritical points. Ab. d’R. N. ch. XXXI… |  |
-| [P00816](https://jastrow.app/#rid:P00816) | עֲלַל I | …is instruction). Koh. R. to I, 3 עָלְלִין ונפקין are brought in and taken out again; a. e.**—2)** (with שמשא) to set. Targ. O. Gen. XV, 12; a. fr.—3) to be busy, have … |  |
-| [P00856](https://jastrow.app/#rid:P00856) | עָמַך II | …into the ground). Ib. דברים שהן מַעֲמִידִין substances which conserve, v. קִטְמִית; a. fr.**—2)** to change the standing of; to enlarge; to reduce. Meg. 15ᵇ שתי אמות ה… |  |
+| [P00816](https://jastrow.app/#rid:P00816) | עֲלַל I | …is instruction). Koh. R. to I, 3 עָלְלִין ונפקין are brought in and taken out again; a. e.**—2)** (with שמשא) to set. Targ. O. Gen. XV, 12; a. fr.—3) to be busy, have … | confirm (2026-09-10), incl. the swallowed run past —2) |
+| [P00856](https://jastrow.app/#rid:P00856) | עָמַך II | …into the ground). Ib. דברים שהן מַעֲמִידִין substances which conserve, v. קִטְמִית; a. fr.**—2)** to change the standing of; to enlarge; to reduce. Meg. 15ᵇ שתי אמות ה… | confirm (2026-09-10), incl. the swallowed run past —2) |
 | [P01055](https://jastrow.app/#rid:P01055) | עֵסֶק II | …y affairs, and busy myself &c., v. עָסַק; ib. Aḥăré, ch. X, Par. 8; Yalk. Lev. 619; a. fr.**—2)** controversy, dispute, cause. B. Mets. 97ᵇ כגון שיש ע׳ שבועה ביניהן wh… |  |
-| [Q00990](https://jastrow.app/#rid:Q00990) | פָּלַח | …ל מנת לפוֹלְחָהּ will you take this field with the condition that you will till it?; a. e.**—2)** to work for, serve, v. פּוֹלֵחַ.—3) to worship. Tosef. Ab. Zar. I, 4 … |  |
+| [Q00990](https://jastrow.app/#rid:Q00990) | פָּלַח | …ל מנת לפוֹלְחָהּ will you take this field with the condition that you will till it?; a. e.**—2)** to work for, serve, v. פּוֹלֵחַ.—3) to worship. Tosef. Ab. Zar. I, 4 … | confirm (2026-09-10), incl. the swallowed run past —2) |
 | [Q01352](https://jastrow.app/#rid:Q01352) | פֶּסֶק | …ְקֵי, פִּי׳. Kil. VI, 6 פ׳ עריס, v. עָרִיס I; Tosef. ib. IV, 8; Y. ib. VI, end, 30ᶜ; a. e.**—2)** disjunction, esp. peseḳ (Chald. p’siḳ), a disjunctive sign (\|) betwee… |  |
 | [R00075](https://jastrow.app/#rid:R00075) | צַבְתָּא | …I, 23 צִיבְתָ׳ ed. Berl. (ed. Vien. a. oth. צִיבְיְתָ׳, corr. acc.). Targ. II Chr. IV, 21.**—2)** company, v. צַוְותָּא. |  |
 | [R00291](https://jastrow.app/#rid:R00291) | צִיב | … l) swelling. —Pl. צִיבִּים, צִיבִּין. Lev. R. s. 17, v. עוֹנָה II; Yalk. Ps. 808 צוּבִּ׳.**—2)** tuft, tassel. Ḥull. IX, 4 צ׳ היוצא ממנו the tassel that proceeds from… |  |
 | [R00586](https://jastrow.app/#rid:R00586) | צַמְצֵם | to veil one’s self. Targ. Y. II, Gen. XXIV, 65 (h. text ותתכס).**—2)** אִצְטַמְטַם (cmp. מזדנזדין, v. זעזע) to be pressed, want. Lam. R. to … |  |
 | [S00826](https://jastrow.app/#rid:S00826) | קְטַר ² | …he benefit of the (remaining) captives, that they (the captors) may not chain them; a. fr.**—2)** (v. קָשַׁר) to gather, be covered. Ber. 59ᵃ, v. עֵיבָא a. עֲנָנָא. |  |
-| [S01355](https://jastrow.app/#rid:S01355) | קָלַל | … is frivolous (light-minded); Yalk. Is. 265 מֵקֶילֶת ראש; (Gen. R. s. 18 מיקרת, v. יָקַר).**—2)** to be lenient; to incline towards the less restrictive practice, opp.… |  |
+| [S01355](https://jastrow.app/#rid:S01355) | קָלַל | … is frivolous (light-minded); Yalk. Is. 265 מֵקֶילֶת ראש; (Gen. R. s. 18 מיקרת, v. יָקַר).**—2)** to be lenient; to incline towards the less restrictive practice, opp.… | confirm (2026-09-10), incl. the swallowed run past —2) |
 | [S01731](https://jastrow.app/#rid:S01731) | קְפֵי | …ִיקְפֵּי עלת וכ׳ Ms. M. (ed. ותתקפו, Rashi ותתקפי, v. Rabb. D. S. a. l.), v. עַלַּת; a. e.**—2)** to coagulate, curdle. Targ. O. Ex. XV, 8.—Ḥull. 93ᵇ מִיקְפָּא קָפֵי t… |  |
 | [T00243](https://jastrow.app/#rid:T00243) | רדי ² | … וכך וכ׳ whatever my bee-hive may yield shall be thine for such and such an amount; a. fr.**—2)** ר׳ (פת) to detach bread from where it sticks to the oven, to shovel o… |  |
 | [T00375](https://jastrow.app/#rid:T00375) | רוּם ² | …s. LXXXIX, 14. Targ. O. Deut. VIII, 14 וִירַם ed. Berl. (oth. ed. וִירִים, וְרִים); a. fr.**—2)** to lift; to remove. Targ. Ps. LXXXIX, 18 תְּרִים.—Y. Bets. I, 60ᶜ bot… |  |

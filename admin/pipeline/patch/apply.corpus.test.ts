@@ -46,9 +46,13 @@ import { computeSnapshot } from './snapshot.ts';
  * fixed — 26 rows take a split/retag pair, and `C00805` and `I00111`
  * take one split per marker in the run their `—2)` opens. See
  * `patch/seed-implied-one.ts` and `docs/v2/phase-2-swallowed-runs.md`.
+ *
+ * Was 72 / 751 until later on 2026-09-10, when the maintainer
+ * confirmed six more swallowed-run rows: `SEED_CONFIRMED` went 28 ->
+ * 34, the tranche 58 -> 79 patches, so +21 patches and +6 records.
  */
-const ACCEPTED_PATCHES = 72;
-const ACCEPTED_RECORDS = 751;
+const ACCEPTED_PATCHES = 93;
+const ACCEPTED_RECORDS = 757;
 const SUPERSEDED_PATCHES = 10;
 const SUPERSEDED_RECORDS = 327;
 const PRE_PATCH_PATCHES = 67;
@@ -63,9 +67,10 @@ const CARRIED_IDS = ['P000018', 'P000025', 'P000027', 'P000031', 'P000050'];
  * and +28 manifest records, both arithmetic consequences of
  * `patch/seed-implied-one.ts`'s committed `SEED_CONFIRMED` list rather
  * than a corpus movement. Was +56 until 2026-09-10, when the two rows
- * whose run continues past `—2)` gained a split apiece. */
-const RAW_PATCHES = 149;
-const RAW_RECORDS = 2788;
+ * whose run continues past `—2)` gained a split apiece, and +79 later
+ * that day when six more confirmed rows joined `SEED_CONFIRMED`. */
+const RAW_PATCHES = 170;
+const RAW_RECORDS = 2794;
 
 it('loads and consolidates the accepted (healed-stage) corpus, applying it cleanly', async () => {
 	const accepted = await loadAcceptedCorpus();

@@ -74,7 +74,12 @@ const FIRST_ID = 92;
  * Every rid here satisfies three things, each gated by the colocated
  * test: it is in `IMPLIED_ONE_CENSUS`; doc 08 records its Decision as
  * `Confirm`; and it is not one of the 8 rows the accepted sweep
- * patches already repaired. The list is committed rather than parsed
+ * patches already repaired.
+ *
+ * Was 28 until 2026-09-10, when the maintainer confirmed six more
+ * rows off the swallowed-run review (`E00005`, `I00661`, `P00816`,
+ * `P00856`, `Q00990`, `S01355`). `I00661` was the row doc 08 had held
+ * out on grounds that did not reproduce. The list is committed rather than parsed
  * from the doc at run time so that a doc edit cannot silently change
  * what this generator emits.
  */
@@ -94,6 +99,7 @@ const SEED_CONFIRMED: readonly string[] = [
 	'D00038',
 	'D00249',
 	'D00807',
+	'E00005',
 	'E00443',
 	'E00679',
 	'G00403',
@@ -104,9 +110,14 @@ const SEED_CONFIRMED: readonly string[] = [
 	'I00111',
 	'I00466',
 	'I00638',
+	'I00661',
 	'I00853',
 	'J00114',
 	'J00459',
+	'P00816',
+	'P00856',
+	'Q00990',
+	'S01355',
 ];
 
 /** One entry's seeded patches, in apply order: the run's splits,
