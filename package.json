@@ -25,7 +25,7 @@
 		"qa:lint": "biome check --error-on-warnings",
 		"qa:test": "bun test --path-ignore-patterns='**/*.corpus.test.ts'",
 		"qa:tsc": "tsc --noEmit --skipLibCheck",
-		"research:apply": "bun admin/pipeline/patch/apply.ts",
+		"research:apply": "bun admin/pipeline/patch/apply-cli.ts",
 		"research:residue": "bun admin/pipeline/research/residue.ts",
 		"transform:count": "bun admin/pipeline/transform/count.ts",
 		"usage": "bun admin/pipeline/research/usage-report.ts"

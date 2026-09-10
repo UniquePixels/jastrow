@@ -91,8 +91,8 @@ never looked.** It is a static scan for three signals — importing
 `corpus-fixture.ts`, calling `readSourceEntries()` with no argument, or
 naming `SOURCE_PATH`. It does not see a test that reaches the snapshot
 INDIRECTLY through `census.ts`, `review.ts`, `dry-run.ts`,
-`migrate-dry.ts`, `count.ts`, `headword-census.ts`, `patch/apply.ts` or
-`research/corpus-inputs.ts`, each of which holds its own no-argument
+`migrate-dry.ts`, `count.ts`, `headword-census.ts`, `patch/apply-cli.ts`
+or `research/corpus-inputs.ts`, each of which holds its own no-argument
 read.
 
 That gap is closed by measurement rather than by the grep: the slowest

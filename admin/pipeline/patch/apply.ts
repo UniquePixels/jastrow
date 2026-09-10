@@ -16,11 +16,12 @@
  * consumer-facing output. `createPhaseTracker` asserts that order at
  * runtime; a violated assertion aborts the run (`PhaseViolation`).
  *
- * Run (dry, read-only): bun research:apply
+ * Run (dry, read-only): bun research:apply, whose entry point is
+ * `patch/apply-cli.ts` — it composes each entry through
+ * `body/compose.ts` first, so it judges anchors against the same
+ * state `pipeline:migrate` applies them to.
  */
 import { existsSync } from 'node:fs';
-import process from 'node:process';
-import { readSourceEntries } from '../body/source.ts';
 import type { SourceEntry } from '../body/types.ts';
 import {
 	type EntryResult,
@@ -39,7 +40,6 @@ import {
 	type SemanticPatch,
 	validateCorpus,
 } from './schema.ts';
-import { computeSnapshot } from './snapshot.ts';
 
 /** The committed patch corpus (spec §4.4): the pilot's files plus every
  * ingested tranche's, the same set `research/tranche.ts` walks. Absent
@@ -589,45 +589,6 @@ function patchesByRid(
 		}
 	}
 	return groups;
-}
-
-if (import.meta.main) {
-	const patches = await loadCorpus();
-	const records = await loadManifest();
-	const pin = `sha256:${(await computeSnapshot()).combined}`;
-	const problems = corpusPreflight(patches, records, pin);
-	let applied = 0;
-	if (problems.length === 0 && patches.length > 0) {
-		const groups = patchesByRid(patches);
-		for await (const entry of readSourceEntries()) {
-			const group = groups.get(entry.rid);
-			if (group === undefined) {
-				continue;
-			}
-			groups.delete(entry.rid);
-			const result = applyEntryPatches(entry, group);
-			problems.push(...result.problems);
-			applied += group.length - result.problems.length;
-		}
-		for (const [rid, group] of groups) {
-			problems.push({
-				patchId: group[0]?.id,
-				reason: `no source entry with rid ${rid}`,
-				rid,
-			});
-		}
-	}
-	console.log(
-		`corpus=${patches.length} manifest=${records.length} applied=${applied} problems=${problems.length}`,
-	);
-	if (problems.length > 0) {
-		for (const problem of problems) {
-			console.error(
-				`  ${problem.patchId ?? problem.rid ?? '(corpus)'}: ${problem.reason}`,
-			);
-		}
-		process.exit(1);
-	}
 }
 
 export type {
