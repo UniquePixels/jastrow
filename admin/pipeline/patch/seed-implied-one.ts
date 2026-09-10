@@ -32,6 +32,7 @@
  * Run: bun run patch:seed-implied-one
  */
 import { healAndTransform } from '../body/compose.ts';
+import { isImpliedOneCandidate } from '../body/implied-one-census.ts';
 import { readSourceEntries } from '../body/source.ts';
 import type { SourceEntry, SourceSense } from '../body/types.ts';
 import { applyTransforms } from '../transform/run.ts';
@@ -125,15 +126,30 @@ function composedEntry(source: SourceEntry): SourceEntry {
 	return applyTransforms(healed.entry, 'structural-repairs').entry;
 }
 
-/** The single unnumbered sense holding exactly one in-text `—2)`.
- * Throws rather than guessing: an entry that resolves to none or to
- * several is not the shape doc 08 confirmed, and a patch written
- * against a guess would fail its own apply gate later and more
- * confusingly. */
+/** The census's own predicate, asked of ONE sense. Marker presence is
+ * not the shape: a definition that already numbers its first sense
+ * (`1) … —2) …`) carries a complete run, and retagging it would
+ * number a sense twice. Delegating keeps the generator and
+ * `IMPLIED_ONE_CENSUS` agreeing by construction rather than by two
+ * predicates that happen to match today. */
+function isImpliedShape(entry: SourceEntry, sense: SourceSense): boolean {
+	return isImpliedOneCandidate({
+		...entry,
+		content: { ...entry.content, senses: [sense] },
+	});
+}
+
+/** The single unnumbered sense holding exactly one in-text `—2)` with
+ * no `1)` before it. Throws rather than guessing: an entry that
+ * resolves to none or to several is not the shape doc 08 confirmed,
+ * and a patch written against a guess would fail its own apply gate
+ * later and more confusingly. */
 function impliedHost(entry: SourceEntry): SourceSense {
 	const hosts = [...walkSenses(entry.content.senses)].filter(
 		(sense) =>
-			sense.number === undefined && (sense.definition ?? '').includes(MARKER),
+			sense.number === undefined &&
+			(sense.definition ?? '').includes(MARKER) &&
+			isImpliedShape(entry, sense),
 	);
 	const host = hosts[0];
 	if (hosts.length !== 1 || host === undefined) {

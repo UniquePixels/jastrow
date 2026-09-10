@@ -93,7 +93,9 @@ describe('seedPair', () => {
 	});
 
 	it('refuses an entry that is not in the implied shape', () => {
-		expect(() => impliedHost(entryWith('1) a.—2) b.'))).not.toThrow();
+		// A definition that already numbers its first sense carries a
+		// complete run: retagging it would number the sense twice.
+		expect(() => impliedHost(entryWith('1) a.—2) b.'))).toThrow(/found 0/u);
 		expect(() => impliedHost(entryWith('a.—2) b.—2) c.'))).toThrow(
 			/occurs 2 times/u,
 		);
