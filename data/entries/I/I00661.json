@@ -31,10 +31,22 @@
 				{
 					"gloss": "<i>to be put on</i>. Part. <he>מִיטַּפַּל</he>, <he>מִיטַּפְלָא</he>, <he>מִטַּ׳</he> (not <cite ref=\"M01782\"><he>מְ׳</he></cite>) <i>forming a scab</i> (h. <cite ref=\"M01045\"><he>מִסְפַּחַת</he></cite>). ",
 					"units": [
-						"<cite ref=\"Targum Jonathan on Leviticus 13:6\">Targ. Y. Lev. XIII, 6</cite>; <cite ref=\"Targum Jonathan on Leviticus 13:7\">7</cite>; <cite ref=\"Targum Jonathan on Leviticus 13:8\">8</cite>; <cite ref=\"Targum Jonathan on Leviticus 13:19\">19</cite>.—2) <i>to attend, care</i>. Y. Taan. IV, 68ᵈ top <he>עד דהוון מִיטַּפְּלִין ביה</he> while they were engaged in burying him.—3) <i>to join, attach one’s self</i>. ",
+						"<cite ref=\"Targum Jonathan on Leviticus 13:6\">Targ. Y. Lev. XIII, 6</cite>; <cite ref=\"Targum Jonathan on Leviticus 13:7\">7</cite>; <cite ref=\"Targum Jonathan on Leviticus 13:8\">8</cite>; <cite ref=\"Targum Jonathan on Leviticus 13:19\">19</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " <i>to attend, care</i>. Y. Taan. IV, 68ᵈ top <he>עד דהוון מִיטַּפְּלִין ביה</he> while they were engaged in burying him.",
+					"units": [],
+					"label": "2"
+				},
+				{
+					"gloss": " <i>to join, attach one’s self</i>. ",
+					"units": [
 						"<cite ref=\"Ketubot 23a:17\">Keth. 23ᵃ</cite> <he>אִיטְּפֵל בקריבותיך</he> marry one of thy relations. ",
 						"<cite ref=\"Sanhedrin 26a\">Snh. 26ᵃ</cite> <he>א׳ בהדיהו</he> joined them. Y. Kil. IX, 32ᶜ bot.; Y. Keth. XII, 35ᵇ <he>אזל וא׳ בהון מן תמן</he> (not <cite ref=\"G00536\"><he>זמן</he></cite>) he went and remained in their company from thence."
-					]
+					],
+					"label": "3"
 				}
 			],
 			"stem": "Ithpe."

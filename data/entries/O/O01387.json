@@ -15,11 +15,17 @@
 			"label": "1"
 		},
 		{
-			"gloss": "<i>to regard</i>. Targ. II Esth. I, 12. Ib. VII, 9 (10).—3) <i>to look out for, provide, store</i>; (of a bird’s ovary) <i>to be fructified</i>. ",
+			"gloss": "<i>to regard</i>. Targ. II Esth. I, 12. Ib. VII, 9 (10).",
+			"units": [],
+			"label": "2"
+		},
+		{
+			"gloss": " <i>to look out for, provide, store</i>; (of a bird’s ovary) <i>to be fructified</i>. ",
 			"units": [
 				"<cite ref=\"Beitzah 7a:3\">Bets. 7ᵃ</cite> <he>ביעי דסַפְנָא מארעא</he> eggs laid by a hen that was fecundated by friction in the dust, v. <cite ref=\"D00793\"><he>דִּכְרָא</he></cite>. ",
 				"<cite ref=\"Chullin 58a:7\">Ḥull. 58ᵃ</cite> <he>בדספנא מארעא</he> if the hen was fructified by friction &c."
-			]
+			],
+			"label": "3"
 		}
 	],
 	"stems": [

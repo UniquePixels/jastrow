@@ -18,10 +18,23 @@
 				"<cite ref=\"Yoma 2a\">Ib.</cite> <he>כד דאתית למֵיעוֹל</he> when thou wert about to go home. ",
 				"<cite ref=\"Jerusalem Talmud Shabbat 6:9:9\">Y. Sabb. VI, 8ᶜ</cite> bot. <he>בר קפרא אִיעֲלַל … מי ע׳ וכ׳</he> B. K. was trying to enter a town; when he entered it &c. ",
 				"<cite ref=\"Jerusalem Talmud Eruvin 5:1:4\">Y. Erub. V, beg. 22ᵇ</cite> <he>תלת … עבר עָלֵיל קומי וכ׳</he> thirteen years he spent going in and out before his teacher without need (of his instruction). ",
-				"<cite ref=\"Kohelet Rabbah 1:3:1\">Koh. R. to I, 3</cite> <he>עָלְלִין ונפקין</he> are brought in and taken out again; a. e.—2) (with <he>שמשא</he>) <i>to set</i>. ",
-				"<cite ref=\"Onkelos Genesis 15:12\">Targ. O. Gen. XV, 12</cite>; a. fr.—3) <i>to be busy, have to do with</i>, (euphem.) <i>to sport</i>. ",
+				"<cite ref=\"Kohelet Rabbah 1:3:1\">Koh. R. to I, 3</cite> <he>עָלְלִין ונפקין</he> are brought in and taken out again; a. e."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (with <he>שמשא</he>) <i>to set</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 15:12\">Targ. O. Gen. XV, 12</cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <i>to be busy, have to do with</i>, (euphem.) <i>to sport</i>. ",
+			"units": [
 				"<cite ref=\"Esther Rabbah 6:10\">Esth. R. to II, 16</cite> <he>אנא יהיב</he> … <he>ועליל עמה</he> I would give one hundred denars to sport with her; <cite ref=\"Yalkut Shimoni on Torah 67:1\">Yalk. Gen. 67</cite>; (<cite ref=\"Bereishit Rabbah 40\">Gen. R. s. 40</cite> <he>ואִיעֲלַל</he> <i>Ithpa.</i>)."
-			]
+			],
+			"label": "3"
 		}
 	],
 	"stems": [
@@ -76,9 +89,14 @@
 					"label": "1"
 				},
 				{
-					"gloss": "<i>to attempt entrance</i>. Y. Sabb. l. c., v. supra.—3) <i>to busy one’s self, to sport</i>. Gen. R. l. c., v. supra.",
+					"gloss": "<i>to attempt entrance</i>. Y. Sabb. l. c., v. supra.",
 					"units": [],
 					"label": "2"
+				},
+				{
+					"gloss": " <i>to busy one’s self, to sport</i>. Gen. R. l. c., v. supra.",
+					"units": [],
+					"label": "3"
 				}
 			],
 			"stem": "Ithpe."

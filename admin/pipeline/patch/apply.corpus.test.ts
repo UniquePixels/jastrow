@@ -41,11 +41,24 @@ import {
 import { computeSnapshot } from './snapshot.ts';
 
 /** Was 14 patches / 723 records until 2026-09-09. The doc-08 seed
- * tranche is healed-stage, so all of it is accepted: +56 patches (a
- * split/retag pair for each of 28 confirmed implied-`1)` rows) and
- * +28 records. See `patch/seed-implied-one.ts`. */
-const ACCEPTED_PATCHES = 70;
-const ACCEPTED_RECORDS = 751;
+ * tranche is healed-stage, so all of it is accepted: +58 patches and
+ * +28 records. 58 rather than 56 because a row's patch count is not
+ * fixed — 26 rows take a split/retag pair, and `C00805` and `I00111`
+ * take one split per marker in the run their `—2)` opens. See
+ * `patch/seed-implied-one.ts` and `docs/v2/phase-2-swallowed-runs.md`.
+ *
+ * Was 72 / 751 until later on 2026-09-10, when the maintainer
+ * confirmed six more swallowed-run rows: `SEED_CONFIRMED` went 28 ->
+ * 34, the tranche 58 -> 79 patches, so +21 patches and +6 records.
+ *
+ * Was 93 / 757 until `seed-doc-08-sense-runs` landed the same day:
+ * +18 patches over 5 new rids, plus P00816 moving out of the
+ * implied-one seed (-3 there, +4 here, and one manifest record either
+ * way) — 111 / 762. Then 113 / 763 when `K00081`, doc 01's
+ * 2026-08-05 deferral, joined it with a split and a retag.
+ */
+const ACCEPTED_PATCHES = 113;
+const ACCEPTED_RECORDS = 763;
 const SUPERSEDED_PATCHES = 10;
 const SUPERSEDED_RECORDS = 327;
 const PRE_PATCH_PATCHES = 67;
@@ -56,12 +69,14 @@ const ABSORBED = 61;
 const CARRIED = 5;
 const CARRIED_IDS = ['P000018', 'P000025', 'P000027', 'P000031', 'P000050'];
 /** Was 91 patches / 2,760 records until 2026-09-09, when the doc-08
- * seed tranche added a split/retag pair for each of its 28 confirmed
- * implied-`1)` rows: +56 patches and +28 manifest records, both
- * arithmetic consequences of `patch/seed-implied-one.ts`'s committed
- * `SEED_CONFIRMED` list rather than a corpus movement. */
-const RAW_PATCHES = 147;
-const RAW_RECORDS = 2788;
+ * seed tranche seeded its 28 confirmed implied-`1)` rows: +58 patches
+ * and +28 manifest records, both arithmetic consequences of
+ * `patch/seed-implied-one.ts`'s committed `SEED_CONFIRMED` list rather
+ * than a corpus movement. Was +56 until 2026-09-10, when the two rows
+ * whose run continues past `—2)` gained a split apiece, and +79 later
+ * that day when six more confirmed rows joined `SEED_CONFIRMED`. */
+const RAW_PATCHES = 190;
+const RAW_RECORDS = 2800;
 
 it('loads and consolidates the accepted (healed-stage) corpus, applying it cleanly', async () => {
 	const accepted = await loadAcceptedCorpus();

@@ -7,8 +7,13 @@
 import { describe, expect, it } from 'bun:test';
 import { IMPLIED_ONE_CENSUS } from '../body/implied-one-census.ts';
 import type { SourceEntry } from '../body/types.ts';
-import { parsePatch } from './schema.ts';
-import { impliedHost, SEED_CONFIRMED, seedPair } from './seed-implied-one.ts';
+import { parsePatch, senseTarget } from './schema.ts';
+import {
+	impliedHost,
+	runMarkers,
+	SEED_CONFIRMED,
+	seedRow,
+} from './seed-implied-one.ts';
 
 const DOC = 'docs/v2/body-review/08-implied-one-candidates.md';
 
@@ -48,7 +53,7 @@ describe('SEED_CONFIRMED', () => {
 			...SEED_CONFIRMED,
 		]);
 		expect(new Set(SEED_CONFIRMED).size).toBe(SEED_CONFIRMED.length);
-		expect(SEED_CONFIRMED).toHaveLength(28);
+		expect(SEED_CONFIRMED).toHaveLength(33);
 	});
 
 	it('is a subset of the committed census', () => {
@@ -65,36 +70,107 @@ describe('SEED_CONFIRMED', () => {
 	});
 });
 
-describe('seedPair', () => {
+describe('runMarkers', () => {
+	it('walks the run and stops at the first missing number', () => {
+		expect(runMarkers('T99999', 'a.—2) b.—3) c.—4) d.')).toEqual([
+			'—2)',
+			'—3)',
+			'—4)',
+		]);
+		// A gap is NOT a short run: splitting at 2 would leave the —4)
+		// inside the numbered sibling, invisible to the census.
+		expect(() => runMarkers('T99999', 'a.—2) b.—4) c.')).toThrow(
+			/sit past the run/u,
+		);
+		// A marker can end the definition or be followed by markup, so
+		// the scan must not require trailing whitespace.
+		expect(() => runMarkers('T99999', 'a.—2) b.—4)')).toThrow(
+			/sit past the run/u,
+		);
+		expect(() => runMarkers('T99999', 'a.—2) b.—4)<i>x</i>')).toThrow(
+			/sit past the run/u,
+		);
+		// A verse range is not a marker and must not trip that gate.
+		expect(runMarkers('T99999', 'a.—2) b. (Deut. XXXII, 1—43) c.')).toEqual([
+			'—2)',
+		]);
+		expect(runMarkers('T99999', 'a.—2) b. (Rabb. D. S. notes 2—4) c.')).toEqual(
+			['—2)'],
+		);
+		expect(runMarkers('T99999', 'a. b.')).toEqual([]);
+	});
+
+	it('refuses an ambiguous or out-of-order marker', () => {
+		expect(() => runMarkers('T99999', 'a.—2) b.—2) c.')).toThrow(
+			/occurs 2 times/u,
+		);
+		expect(() => runMarkers('T99999', 'a.—3) b.—2) c.')).toThrow(
+			/precedes —2\)/u,
+		);
+	});
+});
+
+describe('seedRow', () => {
 	it('splits at the marker and retags the host it leaves behind', () => {
 		const definition = 'v. אוֹר.—2) <i>to shine</i>. Ber. 2ᵃ.';
-		const pair = seedPair(entryWith(definition), 92);
-		const [split, retag] = pair.patches;
+		const row = seedRow(entryWith(definition), 92);
+		expect(row.patches).toHaveLength(2);
+		const [split, retag] = row.patches;
 		expect(split?.['op']).toBe('split');
 		expect(split?.['expected_before']).toBe(definition);
 		expect(split?.['payload']).toEqual({ marker: '—2)' });
+		expect(split?.['defect_class']).toBe('implied-one');
 		expect(retag?.['op']).toBe('retag');
 		expect(retag?.['expected_before']).toBe('v. אוֹר.');
 		expect(retag?.['payload']).toEqual({ number: '1)' });
 	});
 
+	it('splits every marker in a run, not just the first', () => {
+		// The C00805/I00111 shape: a single —2) split would hand `—3)`
+		// to a sibling it numbers, where the census cannot see it.
+		const row = seedRow(entryWith('a.—2) b.—3) c.'), 92);
+		expect(row.patches.map((patch) => patch['op'])).toEqual([
+			'split',
+			'split',
+			'retag',
+		]);
+		const second = row.patches[1];
+		expect(second?.['payload']).toEqual({ marker: '—3)' });
+		// The second split addresses the tail the first one creates,
+		// which carries the first marker as its number.
+		expect(second?.['expected_before']).toBe(' b.—3) c.');
+		expect(second?.['target']).toBe(
+			senseTarget({
+				definition: ' b.—3) c.',
+				number: '—2)',
+			}),
+		);
+		expect(second?.['defect_class']).toBe('swallowed-marker');
+	});
+
 	it('mints consecutive ids from the one it is given', () => {
-		const pair = seedPair(entryWith('a.—2) b.'), 200);
-		expect(pair.patches.map((patch) => patch['id'])).toEqual([
+		const row = seedRow(entryWith('a.—2) b.'), 200);
+		expect(row.patches.map((patch) => patch['id'])).toEqual([
 			'P000200',
 			'P000201',
+		]);
+		const longer = seedRow(entryWith('a.—2) b.—3) c.'), 200);
+		expect(longer.patches.map((patch) => patch['id'])).toEqual([
+			'P000200',
+			'P000201',
+			'P000202',
 		]);
 	});
 
 	it('emits records the patch schema accepts', () => {
-		for (const patch of seedPair(entryWith('a.—2) b.'), 92).patches) {
+		for (const patch of seedRow(entryWith('a.—2) b.—3) c.'), 92).patches) {
 			expect(() => parsePatch(patch)).not.toThrow();
 		}
 	});
 
 	it('refuses an entry that is not in the implied shape', () => {
 		// A definition that already numbers its first sense carries a
-		// complete run: retagging it would number the sense twice.
+		// complete run: retagging it would number a sense twice.
 		expect(() => impliedHost(entryWith('1) a.—2) b.'))).toThrow(/found 0/u);
 		expect(() => impliedHost(entryWith('a.—2) b.—2) c.'))).toThrow(
 			/occurs 2 times/u,

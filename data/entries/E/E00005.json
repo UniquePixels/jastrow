@@ -25,10 +25,22 @@
 				"<cite ref=\"Yoma 3a\">Yoma 3ᵃ</cite>; a. fr.—<he>וְהָדְתַנְיָא</he> = <he>והא דת׳</he> and as to it being taught in the Boraitha. ",
 				"<cite ref=\"Bava Kamma 12a:18\">B. Kam. 12ᵃ</cite>; a. fr.—With prefixes: <he>דְּהָא</he> <i>of this</i>. ",
 				"<cite ref=\"Yoma 13b:3\">Yoma 13ᵇ</cite> <he>דגיטא דהא וכ׳</he> that the letter of divorce for this wife is invalid; a. fr.—<he>אַהָא</he> = <he>על הא</he> <i>referring to this</i>. ",
-				"<cite ref=\"Ketubot 40b:13\">Keth. 40ᵇ</cite> <he>אַתּוּן אהא וכ׳</he> ye cited it (Resh Lakish’s opinion) with reference to that, we used to cite it with reference to this; a. fr.—2) <i>here, here is</i>. ",
-				"<cite ref=\"Onkelos Genesis 22:7\">Targ. Gen. XXII, 7</cite>; a. fr.—",
-				"<cite ref=\"Bava Kamma 12a:18\">B. Kam. 12ᵃ</cite> <he>הא עולא וכ׳</he> here is (the opinion of) Ulla, here &c.; a. fr.—3) (as conjunction) [<i>there is this</i>,] "
+				"<cite ref=\"Ketubot 40b:13\">Keth. 40ᵇ</cite> <he>אַתּוּן אהא וכ׳</he> ye cited it (Resh Lakish’s opinion) with reference to that, we used to cite it with reference to this; a. fr."
 			],
+			"label": "1"
+		},
+		{
+			"gloss": " <i>here, here is</i>. ",
+			"units": [
+				"<cite ref=\"Onkelos Genesis 22:7\">Targ. Gen. XXII, 7</cite>; a. fr.—",
+				"<cite ref=\"Bava Kamma 12a:18\">B. Kam. 12ᵃ</cite> <he>הא עולא וכ׳</he> here is (the opinion of) Ulla, here &c.; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " (as conjunction) [<i>there is this</i>,] ",
+			"units": [],
+			"label": "3",
 			"senses": [
 				{
 					"gloss": " introducing a self-evident consequent, <i>then of course</i>. ",

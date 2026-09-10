@@ -1,0 +1,365 @@
+/**
+ * The doc-08 follow-up tranche: sense runs the implied-`1)` generator
+ * cannot express, confirmed by the maintainer on 2026-09-10 (and, for
+ * `K00081`, deferred on 2026-08-05 and resolved now).
+ *
+ * ## Why a second generator
+ *
+ * `seed-implied-one.ts` addresses exactly one shape — an UNNUMBERED
+ * sense whose text opens a `—2)` run with no `1)` before it — and its
+ * repair is fixed: split the run, retag the host `1)`. The six rows
+ * here each carry a run inside a sense that shape cannot reach:
+ *
+ * - `K00081` — doc 01 deferred it on 2026-08-05 rather than rejecting
+ *   it. Two halves, both determined by the surrounding sequence: an
+ *   in-text `—3)` swallowed inside sense `—2)`, and the section
+ *   between `—4)` and `—6)` carrying no number at all.
+ * - `P00816` — the run sits in a sense already numbered `—2)`, in the
+ *   entry's `Ithpe.` stem. `impliedHost` never looks at numbered
+ *   senses, so the seeded repair fixed the entry's top-level run and
+ *   left this one. Register #3's `swallowed-marker`.
+ * - `L00565`, `O01387` — the sense that should be `2)` exists and
+ *   simply carries no number token at all. The census cannot see it
+ *   (nothing is implied — a marker was dropped), and neither can
+ *   `census.ts`'s `labelSequence`, which drops number-less senses
+ *   before checking the sequence reads `1..n`. The maintainer read
+ *   both against print: `…affixed to, v. Pi.—2) to accustom, train`
+ *   and `…scour; v. Ithpe.—2) to regard`.
+ * - `E00148`, `E00298`, `I00822` — the `1)` is present but OCR'd as a
+ *   lowercase `l)`, which is why the census flagged them (an `l)` is
+ *   not a `1)`, so the `—2)` looks unpreceded) and why doc 08
+ *   rejected them on 2026-08-05 as an OCR class rather than this one.
+ *   Correcting the glyph is a correction, not text invention, and
+ *   `replace`'s closed-marker allowance covers it.
+ *
+ * ## How the patches are derived
+ *
+ * Each row declares its ops in apply order. Rather than deriving the
+ * intermediate states by hand, the generator applies each patch it
+ * mints to a working copy through `applyPatch` — the same code the
+ * apply phase runs — and addresses the next op against that copy. An
+ * anchor that would not resolve therefore cannot be minted: the
+ * generator would have failed on the previous step.
+ *
+ * Run: bun run patch:seed-sense-runs
+ */
+import { stripTags, walkSenses } from '../body/census.ts';
+import { readSourceEntries } from '../body/source.ts';
+import type { SourceEntry, SourceSense } from '../body/types.ts';
+import { applyPatch, parsePatch, senseTarget } from './schema.ts';
+import {
+	composedEntry,
+	patchId,
+	patchProvenance,
+	type SeededRow,
+	writeTranche,
+} from './seed-tranche.ts';
+
+/** Not a sweep prompt: the decisions are the maintainer's, given on
+ * 2026-09-10 against `docs/v2/phase-2-swallowed-runs.md`. */
+const PROMPT_VERSION = 'doc-08-runs';
+
+/** First id this tranche mints. `seed-doc-08-implied-one` ends at
+ * `P000170`; ids are unique corpus-wide, not per tranche. */
+const FIRST_ID = 171;
+
+/** One declared op. `split` and `retag` carry closed-grammar marker
+ * tokens; `replace` carries the OCR glyph correction. */
+type RunOp =
+	| { kind: 'replace'; find: string; with: string }
+	| { kind: 'retag'; number: string }
+	| { kind: 'split'; marker: string };
+
+interface RunRow {
+	/** What the defect is called in the patch corpus. */
+	defectClass: string;
+	/** Tag-stripped prefix that identifies the sense to address. It
+	 * must match exactly one sense in the composed entry — a prefix
+	 * that matches none or several is drift the caller must see. */
+	opens: string;
+	/** The ops, in apply order. */
+	ops: RunOp[];
+	rationale: string;
+	rid: string;
+}
+
+/**
+ * The six confirmed rows.
+ *
+ * Committed rather than derived, because each one encodes a reading
+ * the maintainer made against print. A detector that re-derived them
+ * would be asserting that judgment rather than recording it.
+ */
+/** `—N)` for n > 1, `1)` for the first — the closed-grammar token
+ * shapes `split` and `retag` accept. */
+const marker = (n: number): string => (n === 1 ? '1)' : `—${n})`);
+
+/** A split at each marker from `first` through `last`. */
+function splitRun(first: number, last: number): RunOp[] {
+	const ops: RunOp[] = [];
+	for (let n = first; n <= last; n += 1) {
+		ops.push({ kind: 'split', marker: marker(n) });
+	}
+	return ops;
+}
+
+/** An OCR row whose `l)` sits after a preamble: correct the glyph in
+ * place, then split the whole run out from `1)`. Written as a builder
+ * rather than three near-identical literals — they differ only in the
+ * rid, the locator and the gloss print carries. */
+function ocrRow(
+	rid: string,
+	opens: string,
+	gloss: string,
+	last: number,
+): RunRow {
+	return {
+		defectClass: 'ocr-marker',
+		opens,
+		ops: [{ find: 'l)', kind: 'replace', with: '1)' }, ...splitRun(1, last)],
+		rationale: `Doc-08 2026-08-05: not implied, OCR error — l) ${gloss}. Correct the glyph, then split the 1)–${last}) run.`,
+		rid,
+	};
+}
+
+/** A row whose sense simply lost its `2)`: number it, then split the
+ * `—3)` its text still carries. `print` is the reading the maintainer
+ * took, quoted into the rationale so the patch carries its evidence. */
+function missingTwoRow(rid: string, opens: string, print: string): RunRow {
+	return {
+		defectClass: 'missing-number',
+		opens,
+		ops: [{ kind: 'retag', number: '—2)' }, ...splitRun(3, 3)],
+		rationale: `Print reads “…${print}”; the sense exists with no number token (maintainer, 2026-09-10). Number it, then split its —3) tail.`,
+		rid,
+	};
+}
+
+const RUN_ROWS: readonly RunRow[] = [
+	// E00148's marker sits at the very start of its definition with
+	// only a space before it, so splitting at it would leave a
+	// whitespace-only host sense. The number goes into the sense's own
+	// `number` field instead, which is what an unnumbered host holding
+	// its own marker means. That makes it the one OCR row `ocrRow`
+	// cannot build.
+	{
+		defectClass: 'ocr-marker',
+		opens: ' l) to return, restore;',
+		ops: [
+			{ find: ' l)', kind: 'replace', with: '' },
+			{ kind: 'retag', number: '1)' },
+			...splitRun(2, 4),
+		],
+		rationale:
+			'Doc-08 2026-08-05: not implied, OCR error — l) to return, restore. Lift the glyph out of the text into the sense number, then split the —2)–—4) run.',
+		rid: 'E00148',
+	},
+	ocrRow('E00298', ' (זכר; v. ', 'giving a debtor notice', 3),
+	ocrRow('I00822', ' (τρικλίνιον, triclinium) l)', 'dining couch', 3),
+	missingTwoRow(
+		'L00565',
+		'to accustom, train.',
+		'affixed to, v. Pi.—2) to accustom, train',
+	),
+	missingTwoRow('O01387', 'to regard. ', 'scour; v. Ithpe.—2) to regard'),
+	// K00081 is doc 01's 2026-08-05 DEFERRAL, not a new row. The
+	// maintainer's own cell names both halves: an in-text “—3) to
+	// press” inside sense —2), and a section that “does not have the 5
+	// label”. The surrounding sequence (1, 2, [3], 4, ∅, 6, 7, 8)
+	// determines both, so no print is needed.
+	{
+		defectClass: 'swallowed-marker',
+		opens: ' כ׳ פנים (בקרקע) to press the face',
+		ops: splitRun(3, 3),
+		rationale:
+			'Doc-01 deferral 2026-08-05: sense —2) swallows the —3) the maintainer read in print; the next sense is —4).',
+		rid: 'K00081',
+	},
+	{
+		defectClass: 'missing-number',
+		opens: 'to detain (cmp. ',
+		ops: [{ kind: 'retag', number: '—5)' }],
+		rationale:
+			'Doc-01 deferral 2026-08-05: the section between —4) and —6) carries no number; the maintainer noted it “does not have the 5 label”.',
+		rid: 'K00081',
+	},
+	// P00816 carries TWO runs and is therefore repaired whole HERE
+	// rather than half here and half in the implied-one seed. A rid
+	// may be claimed by only one tranche: `consolidate` supersedes the
+	// earlier manifest row, which would silently drop the earlier
+	// tranche's patches for it. So P00816 is not in `SEED_CONFIRMED`.
+	{
+		defectClass: 'implied-one',
+		opens: ', esp. (corresp. to h. ',
+		ops: [{ kind: 'retag', number: '1)' }, ...splitRun(2, 3)],
+		rationale:
+			'Doc-08 confirmed implied-one; in-text —2) run with no 1) before it, continuing to —3).',
+		rid: 'P00816',
+	},
+	{
+		defectClass: 'swallowed-marker',
+		opens: 'to attempt entrance.',
+		ops: splitRun(3, 3),
+		rationale:
+			'Ithpe. sense —2) swallows the —3) that follows it — a second run in the same entry, confirmed 2026-09-10.',
+		rid: 'P00816',
+	},
+];
+
+/** The document-order index of the one sense whose tag-stripped
+ * definition starts with `opens`. Throws on none or several: an
+ * ambiguous locator would silently address a different sense than the
+ * maintainer read. */
+function locate(entry: SourceEntry, opens: string): number {
+	const hits: number[] = [];
+	[...walkSenses(entry.content.senses)].forEach((sense, index) => {
+		if (stripTags(sense.definition ?? '').startsWith(opens)) {
+			hits.push(index);
+		}
+	});
+	const at = hits[0];
+	if (hits.length !== 1 || at === undefined) {
+		throw new Error(
+			`${entry.rid}: locator ${JSON.stringify(opens)} matched ${hits.length} senses, expected 1`,
+		);
+	}
+	return at;
+}
+
+/** The sense at a document-order index. */
+function senseAt(entry: SourceEntry, index: number): SourceSense {
+	const sense = [...walkSenses(entry.content.senses)][index];
+	if (sense === undefined) {
+		throw new Error(`${entry.rid}: no sense at document index ${index}`);
+	}
+	return sense;
+}
+
+/** The op's payload, as the schema names it. */
+function payloadOf(op: RunOp): Record<string, unknown> {
+	switch (op.kind) {
+		case 'replace':
+			return { find: op.find, replace: op.with };
+		case 'retag':
+			return { number: op.number };
+		default:
+			return { marker: op.marker };
+	}
+}
+
+/** One row's patches, in apply order.
+ *
+ * Each patch is applied to a working copy before the next is
+ * addressed, so every anchor is derived from the state that patch
+ * will actually meet. A `split` moves the cursor onto the sibling it
+ * creates — the rest of the run lives there — while the other ops
+ * leave it on the sense they changed.
+ */
+function runPatches(
+	row: RunRow,
+	entry: SourceEntry,
+	firstId: number,
+): { entry: SourceEntry; patches: Record<string, unknown>[] } {
+	const patches: Record<string, unknown>[] = [];
+	let working = entry;
+	let index = locate(working, row.opens);
+	let nextId = firstId;
+	for (const op of row.ops) {
+		const sense = senseAt(working, index);
+		const patch = {
+			...patchProvenance(row.rid, PROMPT_VERSION),
+			defect_class: row.defectClass,
+			expected_before: sense.definition ?? '',
+			id: patchId(nextId),
+			op: op.kind,
+			payload: payloadOf(op),
+			rationale: row.rationale,
+			target: senseTarget(sense),
+		};
+		patches.push(patch);
+		nextId += 1;
+		working = applyPatch(working, parsePatch(patch));
+		if (op.kind === 'split') {
+			index += 1;
+		}
+	}
+	return { entry: working, patches };
+}
+
+/** A whitespace-only sense is a sense the reader sees as blank. One
+ * appears when a split addresses a marker with nothing but space
+ * before it — `E00148` produced exactly that before its row moved
+ * from split to retag. Counting rather than diffing, because these
+ * entries legitimately carry empty senses already as stem
+ * separators; only a NEW one is the defect. */
+function assertNoBlankSenseCreated(
+	rid: string,
+	before: SourceEntry,
+	after: SourceEntry,
+): void {
+	const blanks = (entry: SourceEntry): number =>
+		[...walkSenses(entry.content.senses)].filter((sense) => {
+			const definition = sense.definition ?? '';
+			return definition.length > 0 && definition.trim().length === 0;
+		}).length;
+	const gained = blanks(after) - blanks(before);
+	if (gained > 0) {
+		throw new Error(
+			`${rid}: the declared ops create ${gained} whitespace-only sense(s) — retag the host instead of splitting at a marker with nothing before it`,
+		);
+	}
+}
+
+/** Every row's patches, in `RUN_ROWS` order, with ids running from
+ * `FIRST_ID`. A rid absent from the corpus throws. */
+async function buildRuns(): Promise<SeededRow[]> {
+	const wanted = new Set(RUN_ROWS.map((row) => row.rid));
+	const found = new Map<string, SourceEntry>();
+	for await (const source of readSourceEntries()) {
+		if (wanted.has(source.rid)) {
+			found.set(source.rid, composedEntry(source));
+		}
+	}
+	const missing = RUN_ROWS.filter((row) => !found.has(row.rid));
+	if (missing.length > 0) {
+		throw new Error(
+			`run rids absent from the corpus: ${missing.map((row) => row.rid).join(', ')}`,
+		);
+	}
+	// Grouped by rid, in declaration order: an entry with two runs
+	// (P00816) must produce ONE manifest record, and its second group
+	// has to address the state the first group leaves behind.
+	const grouped = new Map<string, RunRow[]>();
+	for (const row of RUN_ROWS) {
+		grouped.set(row.rid, [...(grouped.get(row.rid) ?? []), row]);
+	}
+	const rows: SeededRow[] = [];
+	let id = FIRST_ID;
+	for (const [rid, groups] of grouped) {
+		const entry = found.get(rid);
+		if (entry === undefined) {
+			throw new Error(`unreachable: ${rid} passed the presence check`);
+		}
+		const patches: Record<string, unknown>[] = [];
+		let working = entry;
+		for (const group of groups) {
+			const made = runPatches(group, working, id + patches.length);
+			patches.push(...made.patches);
+			working = made.entry;
+		}
+		assertNoBlankSenseCreated(rid, entry, working);
+		rows.push({ patches, rid });
+		id += patches.length;
+	}
+	return rows;
+}
+
+if (import.meta.main) {
+	await writeTranche(
+		'data/patches/tranches/seed-doc-08-sense-runs',
+		await buildRuns(),
+	);
+}
+
+export type { RunOp, RunRow };
+export { assertNoBlankSenseCreated, buildRuns, locate, RUN_ROWS, runPatches };

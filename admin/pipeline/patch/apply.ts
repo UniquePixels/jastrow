@@ -83,6 +83,11 @@ const TRANCHES: readonly { dir: string; stage: CorpusStage }[] = [
 	// healed stage, and last so no existing tranche's ingest position
 	// moves.
 	{ dir: 'seed-doc-08-implied-one', stage: 'healed' },
+	// The doc-08 follow-up: runs the implied-`1)` generator cannot
+	// express — a run inside an already-numbered sense, a sense whose
+	// number token was dropped, and three whose `1)` was OCR'd as `l)`
+	// (`patch/seed-sense-runs.ts`). Last, for the same reason.
+	{ dir: 'seed-doc-08-sense-runs', stage: 'healed' },
 ];
 /** The pilot directory's stage — swept pre-patch, same as tranche-01
  * (Ruling E). */

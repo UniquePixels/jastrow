@@ -77,8 +77,32 @@ const HEADWORD_FORMS = 76_104;
  *
  * Was 232,463 until the doc-08 seed tranche landed on 2026-09-09: its
  * 28 splits each add one definition and one number token, so +56 is
- * the whole delta and every added field passes. */
-const TEXT_FIELDS = 232_519;
+ * the whole delta and every added field passes.
+ *
+ * Was 232,519 until 2026-09-10, when `C00805` and `I00111` gained a
+ * second split apiece — their runs carry a `—3)` the first split
+ * would have handed to a sibling it numbers, where no gate can see
+ * it (`docs/v2/phase-2-swallowed-runs.md`). Two more splits, one
+ * definition and one number token each: +4.
+ *
+ * Was 232,523 later the same day, when the maintainer confirmed six
+ * more rows off that review. They add 15 splits between them —
+ * `P00856` alone runs 1) through 6) in one sense — so +30.
+ *
+ * Was 232,553 until the `seed-doc-08-sense-runs` tranche landed the
+ * same day: 13 more splits across the six rows the implied-one
+ * generator cannot express, so +26. `P00816` moved between the two
+ * tranches and its three splits are counted once, here.
+ *
+ * Was 232,579 until `K00081` joined that tranche: one split (+2) and
+ * one retag, which writes into an existing number field and adds no
+ * mark. Doc 01 deferred that row on 2026-08-05.
+ *
+ * Back to 232,579 on review: `E00148`'s OCR marker sat at the very
+ * start of its definition, so splitting at it left a whitespace-only
+ * host sense. That op became a retag, which costs no mark — one split
+ * fewer, -2. */
+const TEXT_FIELDS = 232_579;
 /** 32,512 entries + the head-uniqueness mark + the termination mark. */
 const CHAIN_MARKS = 32_514;
 /** Two marks per entry: patch problems, then finishing problems. */
