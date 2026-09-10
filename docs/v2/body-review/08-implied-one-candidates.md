@@ -42,6 +42,15 @@ presents the census shape after the transform phases run — its in-text
 `—2)` is gone by the time patches apply — so there is nothing for a
 split to address. It needs its own look before it can be dispositioned.
 
+**Follow-up 2026-09-10.** A generalized census found that 11 of these
+79 rows carry a further `—3)` (and up to `—6)`) run inside the tail a
+`—2)` split creates — including two of the seeded rows, `C00805` and
+`I00111`, which ship the swallowed run in `data/entries/` today. The
+same pass could not reproduce the `I00661` exclusion recorded above.
+Findings and proposed disposition:
+[phase-2-swallowed-runs.md](../phase-2-swallowed-runs.md). No patches
+authored; the rows await maintainer confirmation.
+
 The 26 blank rows are unchanged and still belong to the sweep.
 
 | Rid | Headword | Context | Decision |
