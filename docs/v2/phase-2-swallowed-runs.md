@@ -157,6 +157,48 @@ senses as well" — which describes Class A a month before it was
 measured. Whatever the real reason for holding `I00661` back, the
 written one is falsifiable and false.
 
+## Review table — the 12 rows still needing a decision
+
+Write `confirm` or `reject` in each Decision cell, the way doc 08's
+column works. **Confirm** means: split the run so each numbered sense
+becomes its own sense, exactly as `C00805` and `I00111` now are.
+**Reject** means: leave the entry as it stands, and say why.
+
+Nothing happens to these rows until the cells are filled — no patch is
+authored from a blank cell.
+
+### Class A — a run swallowed in the tail
+
+| rid | headword | text at the marker | note | Decision |
+| --- | --- | --- | --- | --- |
+| [E00005](https://jastrow.app/#rid:E00005) | הָא I | …a. fr.**—3)** (as conjunction) [there is this,] a) introducing a self-evident consequent, then… | one unnumbered sense; needs 1) / —2) / —3) | |
+| [E00148](https://jastrow.app/#rid:E00148) | הֲדַר | …a. fr.**—3)** to reply. Ḥull. 34ᵃ … **—4)** to carry around in procession. Yeb. 110ᵃ Ar.… | host already numbered; run of 3 and 4 swallowed | |
+| [E00298](https://jastrow.app/#rid:E00298) | הַזְכָּרָה | …Taan. 2ᵇ; a. e.**—3)** the Tetragrammaton. Y. Ber. III, 6ᶜ bot.—Pl. הַזְכָּרוֹת… | one unnumbered sense; needs 1) / —2) / —3) | |
+| [I00661](https://jastrow.app/#rid:I00661) | טְפַל | …while they were engaged in burying him.**—3)** to join, attach one’s self. Keth. 23ᵃ… | already `confirm` in doc 08; never seeded — see below | |
+| [I00822](https://jastrow.app/#rid:I00822) | טְרִיקְלִין | …Tosef. Bets. II, 10 ט׳ שהסיקוהו וכ׳; a. e.**—3)** (τρίκλινος = ὅρριον, S.) granary. Y. Sot. V, 20ᵇ bot.… | one unnumbered sense; needs 1) / —2) / —3) | |
+| [P00816](https://jastrow.app/#rid:P00816) | עֲלַל I | …Targ. O. Gen. XV, 12; a. fr.**—3)** to be busy, have to do with, (euphem.) to sport. Esth. R. to II, 16… | not in the sweep; nothing else will reach it | |
+| [P00856](https://jastrow.app/#rid:P00856) | עָמַך II | …**—3)** ה׳ (על) עצמו to contain, check one’s self … **—4)** (of liquids) to make consistent, curdle … **—5)** ה׳ על חזקתו … **—6)** ה׳ על מדותיו | longest run: 1) through 6) in one sense | |
+| [Q00990](https://jastrow.app/#rid:Q00990) | פָּלַח | …**—2)** to work for, serve, v. פּוֹלֵחַ.**—3)** to worship. Tosef. Ab. Zar. I, 4… | not in the sweep; nothing else will reach it | |
+| [S01355](https://jastrow.app/#rid:S01355) | קָלַל | …the more lenient rule is applied; a. fr.**—3)** to be sparing, beggarly. Ib. כל המיקל… | one unnumbered sense; needs 1) / —2) / —3) | |
+
+### Class B — a run that opens above `—2)`
+
+| rid | headword | text at the marker | note | Decision |
+| --- | --- | --- | --- | --- |
+| [K00599](https://jastrow.app/#rid:K00599) | כֵּיף ² | …give me my jewelry back; a. e.**—3)** also כַּפָּא … shore, border … **—4)** arch, vault … **—5)** cap … **—6)** bundle, sheaf | opens at 3; senses 1 and 2 are both implied | |
+| [L00565](https://jastrow.app/#rid:L00565) | לָמֵד I | …Sifra K’dosh. Par. 3, ch. VI, v. לִימּוּד; a. fr.**—3)** to learn, study. Ab. II, 5… | opens at 3 inside a multi-stem entry | |
+| [O01387](https://jastrow.app/#rid:O01387) | סְפַן | …Targ. II Esth. I, 12. Ib. VII, 9 (10).**—3)** to look out for, provide, store… | opens at 3; not in the sweep | |
+
+### `I00661` needs a yes, not a review
+
+Its Decision cell in doc 08 already reads `Confirm, note: there are
+uncatogorized 2 and 3 senses as well` — the maintainer saw this class
+on 2026-08-13. It was left out of the seed on the stated grounds that
+the transform phases consume its `—2)`, which does not reproduce: the
+entry is still a census candidate after `composedEntry`, and the
+generator produces a valid patch set for it today. Adding `I00661` to
+`SEED_CONFIRMED` needs only a yes, not a fresh reading.
+
 ## Context, unadjudicated
 
 Across the composed corpus, 302 entries carry at least one guarded
