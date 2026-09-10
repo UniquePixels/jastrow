@@ -43,16 +43,17 @@
  *
  * Run: bun run patch:seed-sense-runs
  */
-import { stripTags } from '../body/census.ts';
-import { healAndTransform } from '../body/compose.ts';
+import { stripTags, walkSenses } from '../body/census.ts';
 import { readSourceEntries } from '../body/source.ts';
 import type { SourceEntry, SourceSense } from '../body/types.ts';
-import { applyTransforms } from '../transform/run.ts';
 import { applyPatch, parsePatch, senseTarget } from './schema.ts';
-
-/** The snapshot every tranche pins. */
-const SNAPSHOT =
-	'sha256:75bbc5ee7ab863b80b144c5fe176492b9bbcc8719cad83264ff8027092719ad9';
+import {
+	composedEntry,
+	patchId,
+	patchProvenance,
+	type SeededRow,
+	writeTranche,
+} from './seed-tranche.ts';
 
 /** Not a sweep prompt: the decisions are the maintainer's, given on
  * 2026-09-10 against `docs/v2/phase-2-swallowed-runs.md`. */
@@ -205,23 +206,6 @@ const RUN_ROWS: readonly RunRow[] = [
 	},
 ];
 
-/** Every sense in document order — the order `schema.ts`'s resolver
- * uses, so an index here means the same thing there. */
-function* walkSenses(list: readonly SourceSense[]): Generator<SourceSense> {
-	for (const sense of list) {
-		yield sense;
-		if (sense.senses !== undefined) {
-			yield* walkSenses(sense.senses);
-		}
-	}
-}
-
-/** The entry as the patch-apply phase receives it. */
-function composedEntry(source: SourceEntry): SourceEntry {
-	const healed = healAndTransform(source, { transformRecords: [] });
-	return applyTransforms(healed.entry, 'structural-repairs').entry;
-}
-
 /** The document-order index of the one sense whose tag-stripped
  * definition starts with `opens`. Throws on none or several: an
  * ambiguous locator would silently address a different sense than the
@@ -283,18 +267,13 @@ function runPatches(
 	for (const op of row.ops) {
 		const sense = senseAt(working, index);
 		const patch = {
-			confidence: 'high',
+			...patchProvenance(row.rid, PROMPT_VERSION),
 			defect_class: row.defectClass,
 			expected_before: sense.definition ?? '',
-			expected_occurrences: 1,
-			id: `P${String(nextId).padStart(6, '0')}`,
-			occurrence_index: 1,
+			id: patchId(nextId),
 			op: op.kind,
 			payload: payloadOf(op),
-			prompt_version: PROMPT_VERSION,
 			rationale: row.rationale,
-			rid: row.rid,
-			snapshot: SNAPSHOT,
 			target: senseTarget(sense),
 		};
 		patches.push(patch);
@@ -333,9 +312,7 @@ function assertNoBlankSenseCreated(
 
 /** Every row's patches, in `RUN_ROWS` order, with ids running from
  * `FIRST_ID`. A rid absent from the corpus throws. */
-async function buildRuns(): Promise<
-	{ patches: Record<string, unknown>[]; rid: string }[]
-> {
+async function buildRuns(): Promise<SeededRow[]> {
 	const wanted = new Set(RUN_ROWS.map((row) => row.rid));
 	const found = new Map<string, SourceEntry>();
 	for await (const source of readSourceEntries()) {
@@ -356,7 +333,7 @@ async function buildRuns(): Promise<
 	for (const row of RUN_ROWS) {
 		grouped.set(row.rid, [...(grouped.get(row.rid) ?? []), row]);
 	}
-	const rows: { patches: Record<string, unknown>[]; rid: string }[] = [];
+	const rows: SeededRow[] = [];
 	let id = FIRST_ID;
 	for (const [rid, groups] of grouped) {
 		const entry = found.get(rid);
@@ -378,24 +355,9 @@ async function buildRuns(): Promise<
 }
 
 if (import.meta.main) {
-	const rows = await buildRuns();
-	const dir = 'data/patches/tranches/seed-doc-08-sense-runs';
-	const patches = rows.flatMap((row) => row.patches);
-	const manifest = rows.map((row) => ({
-		disposition: 'repaired',
-		patches: row.patches.map((patch) => patch['id']),
-		rid: row.rid,
-	}));
-	const write = async (name: string, list: unknown[]): Promise<void> => {
-		await Bun.write(
-			`${dir}/${name}`,
-			`${list.map((item) => JSON.stringify(item)).join('\n')}\n`,
-		);
-	};
-	await write('patches.jsonl', patches);
-	await write('manifest.jsonl', manifest);
-	console.log(
-		`wrote ${patches.length} patches over ${rows.length} entries to ${dir}`,
+	await writeTranche(
+		'data/patches/tranches/seed-doc-08-sense-runs',
+		await buildRuns(),
 	);
 }
 

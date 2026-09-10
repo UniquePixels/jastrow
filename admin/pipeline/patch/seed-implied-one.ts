@@ -37,12 +37,18 @@
  *
  * Run: bun run patch:seed-implied-one
  */
-import { healAndTransform } from '../body/compose.ts';
+import { walkSenses } from '../body/census.ts';
 import { isImpliedOneCandidate } from '../body/implied-one-census.ts';
 import { readSourceEntries } from '../body/source.ts';
 import type { SourceEntry, SourceSense } from '../body/types.ts';
-import { applyTransforms } from '../transform/run.ts';
 import { senseTarget } from './schema.ts';
+import {
+	composedEntry,
+	patchId,
+	patchProvenance,
+	type SeededRow,
+	writeTranche,
+} from './seed-tranche.ts';
 
 /** The closed-grammar marker token for sense `n`. */
 const marker = (n: number): string => `—${n})`;
@@ -58,11 +64,6 @@ const RUN_MARKER = /(?<![0-9])—(\d+)\)\s/gu;
 
 /** The number `retag` writes onto the host after the split. */
 const SENSE_ONE = '1)';
-
-/** The snapshot the census and these patches were derived against —
- * the pin every other tranche carries. */
-const SNAPSHOT =
-	'sha256:75bbc5ee7ab863b80b144c5fe176492b9bbcc8719cad83264ff8027092719ad9';
 
 /** Not a sweep prompt: these decisions come from doc 08's committed
  * Decision column, signed by the maintainer on 2026-08-13. */
@@ -132,30 +133,7 @@ const SEED_CONFIRMED: readonly string[] = [
 
 /** One entry's seeded patches, in apply order: the run's splits,
  * then the retag. */
-interface SeedRow {
-	patches: Record<string, unknown>[];
-	rid: string;
-}
-
-/** Walk a sense tree in document order — the same order
- * `schema.ts`'s resolver uses, so an address built here resolves
- * there. */
-function* walkSenses(list: readonly SourceSense[]): Generator<SourceSense> {
-	for (const sense of list) {
-		yield sense;
-		if (sense.senses !== undefined) {
-			yield* walkSenses(sense.senses);
-		}
-	}
-}
-
-/** The entry as the patch-apply phase receives it: repairs, then the
- * text-repairs and structural-repairs transform phases. Addressing a
- * sense in any other state mints an anchor that will not resolve. */
-function composedEntry(source: SourceEntry): SourceEntry {
-	const healed = healAndTransform(source, { transformRecords: [] });
-	return applyTransforms(healed.entry, 'structural-repairs').entry;
-}
+type SeedRow = SeededRow;
 
 /** The census's own predicate, asked of ONE sense. Marker presence is
  * not the shape: a definition that already numbers its first sense
@@ -286,20 +264,9 @@ function seedRow(entry: SourceEntry, firstId: number): SeedRow {
 	const host = impliedHost(entry);
 	const definition = host.definition ?? '';
 	const before = definition.slice(0, definition.indexOf(MARKER));
-	const common = {
-		confidence: 'high',
-		expected_occurrences: 1,
-		occurrence_index: 1,
-		prompt_version: PROMPT_VERSION,
-		rid: entry.rid,
-		snapshot: SNAPSHOT,
-	};
+	const common = patchProvenance(entry.rid, PROMPT_VERSION);
 	let nextId = firstId;
-	const mint = (): string => {
-		const id = `P${String(nextId).padStart(6, '0')}`;
-		nextId += 1;
-		return id;
-	};
+	const mint = (): string => patchId(nextId++);
 	const patches: Record<string, unknown>[] = [];
 	// The sense the next split addresses: the host first, then each
 	// tail, numbered with the marker that cut it off.
@@ -373,22 +340,9 @@ async function buildSeed(): Promise<SeedRow[]> {
 }
 
 if (import.meta.main) {
-	const rows = await buildSeed();
-	const dir = 'data/patches/tranches/seed-doc-08-implied-one';
-	const patches = rows.flatMap((row) => row.patches);
-	const manifest = rows.map((row) => ({
-		disposition: 'repaired',
-		patches: row.patches.map((patch) => patch['id']),
-		rid: row.rid,
-	}));
-	const write = async (name: string, rows: unknown[]): Promise<void> => {
-		const text = `${rows.map((row) => JSON.stringify(row)).join('\n')}\n`;
-		await Bun.write(`${dir}/${name}`, text);
-	};
-	await write('patches.jsonl', patches);
-	await write('manifest.jsonl', manifest);
-	console.log(
-		`wrote ${patches.length} patches over ${rows.length} entries to ${dir}`,
+	await writeTranche(
+		'data/patches/tranches/seed-doc-08-implied-one',
+		await buildSeed(),
 	);
 }
 
