@@ -23,14 +23,20 @@
 		{
 			"gloss": " <he>כ׳ פנים</he> (<he>בקרקע</he>) <i>to press the face</i> into the ground, to <i>hide one’s self</i> in fear or shame. ",
 			"units": [
-				"<cite ref=\"Sanhedrin 19b:1\">Snh. 19ᵇ</cite> <he>כָּבְשׁוּ פניהם בקרקע</he> they cast their looks down (were afraid to give an opinion). Y. ib. X, 27ᵈ (ref. to <cite ref=\"Isaiah 7:3\">Is. VII, 3</cite>) <he>א״ת כובס אלא כּוֹבֵשׁ שהיה כובש פניו וכ׳</he> read not <i>kobes</i>, but <i>kobesh</i>, for he hid his face and fled before him; (Bab. ib. 104ᵃ <he>דכבשינהו לאפי</he> Chald.).—3) <i>to press vegetables, meat</i> &c.; <i>to preserve, pickle</i>. ",
+				"<cite ref=\"Sanhedrin 19b:1\">Snh. 19ᵇ</cite> <he>כָּבְשׁוּ פניהם בקרקע</he> they cast their looks down (were afraid to give an opinion). Y. ib. X, 27ᵈ (ref. to <cite ref=\"Isaiah 7:3\">Is. VII, 3</cite>) <he>א״ת כובס אלא כּוֹבֵשׁ שהיה כובש פניו וכ׳</he> read not <i>kobes</i>, but <i>kobesh</i>, for he hid his face and fled before him; (Bab. ib. 104ᵃ <he>דכבשינהו לאפי</he> Chald.)."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <i>to press vegetables, meat</i> &c.; <i>to preserve, pickle</i>. ",
+			"units": [
 				"<cite ref=\"Mishnah Tahorot 2:1\">Toh. II, 1</cite> <he>האשה … כּוֹבֶשֶׁת וכ׳</he> if a woman was pressing vegetables in a pot. ",
 				"<cite ref=\"Mishnah Oktzin 2:1\">Ukts. II, 1</cite> <he>זתים שכְּבָשָׁן וכ׳</he> olives which one pressed with their leaves; a. fr.—Part. pass. <cite ref=\"K00046\"><he>כָּבוּשׁ</he></cite> <i>preserved substance, pickle</i>. ",
 				"<cite ref=\"Chullin 97b:4\">Ḥull. 97ᵇ</cite>, a. fr. <he>כ׳ הרי הוא כמבושל</he> preserved substances are in ritual law like cooked.—Pl. <he>כְּבוּשִׁין</he>. ",
 				"<cite ref=\"Mishnah Pesachim 2:6\">Pes. II, 6</cite>. ",
 				"<cite ref=\"Jerusalem Talmud Shabbat 1:4:5\">Y. Sabb. I, 3ᶜ</cite> bot. <he>כְּבוּשֵׁיהֶן</he> preserves made by gentiles; a. fr."
 			],
-			"label": "2"
+			"label": "3"
 		},
 		{
 			"gloss": " Trnsf. <i>to store, hide</i>. ",
@@ -44,7 +50,8 @@
 			"gloss": "<i>to detain</i> (cmp. <he>עצר</he>). Pesik. Bayom, p. 193ᵇ; <he>כָּבְשָׁה אותם מטרונא וכ׳</he> the matron detained them one day longer; <he>כבשה אותן התורה וכ׳</he> the Law detained them one day longer (before the Lord); ib. 195ᵃ, sq.; Pesik. R. suppl., s. 4. ",
 			"units": [
 				"<cite ref=\"Bereishit Rabbah 8\">Gen. R. s. 8</cite>, end <he>האיש כּוֹבֵשׁ וכ׳</he> the man detains his wife from going out; a. e."
-			]
+			],
+			"label": "5"
 		},
 		{
 			"gloss": "<i>to suppress, restrain, conquer</i>. ",

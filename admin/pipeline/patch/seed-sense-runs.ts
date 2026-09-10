@@ -1,6 +1,7 @@
 /**
  * The doc-08 follow-up tranche: sense runs the implied-`1)` generator
- * cannot express, confirmed by the maintainer on 2026-09-10.
+ * cannot express, confirmed by the maintainer on 2026-09-10 (and, for
+ * `K00081`, deferred on 2026-08-05 and resolved now).
  *
  * ## Why a second generator
  *
@@ -9,6 +10,10 @@
  * repair is fixed: split the run, retag the host `1)`. The six rows
  * here each carry a run inside a sense that shape cannot reach:
  *
+ * - `K00081` — doc 01 deferred it on 2026-08-05 rather than rejecting
+ *   it. Two halves, both determined by the surrounding sequence: an
+ *   in-text `—3)` swallowed inside sense `—2)`, and the section
+ *   between `—4)` and `—6)` carrying no number at all.
  * - `P00816` — the run sits in a sense already numbered `—2)`, in the
  *   entry's `Ithpe.` stem. `impliedHost` never looks at numbered
  *   senses, so the seeded repair fixed the entry's top-level run and
@@ -145,6 +150,27 @@ const RUN_ROWS: readonly RunRow[] = [
 		rationale:
 			'Print reads “…scour; v. Ithpe.—2) to regard”; the sense exists with no number token (maintainer, 2026-09-10). Number it, then split its —3) tail.',
 		rid: 'O01387',
+	},
+	// K00081 is doc 01's 2026-08-05 DEFERRAL, not a new row. The
+	// maintainer's own cell names both halves: an in-text “—3) to
+	// press” inside sense —2), and a section that “does not have the 5
+	// label”. The surrounding sequence (1, 2, [3], 4, ∅, 6, 7, 8)
+	// determines both, so no print is needed.
+	{
+		defectClass: 'swallowed-marker',
+		opens: ' כ׳ פנים (בקרקע) to press the face',
+		ops: [{ kind: 'split', marker: '—3)' }],
+		rationale:
+			'Doc-01 deferral 2026-08-05: sense —2) swallows the —3) the maintainer read in print; the next sense is —4).',
+		rid: 'K00081',
+	},
+	{
+		defectClass: 'missing-number',
+		opens: 'to detain (cmp. ',
+		ops: [{ kind: 'retag', number: '—5)' }],
+		rationale:
+			'Doc-01 deferral 2026-08-05: the section between —4) and —6) carries no number; the maintainer noted it “does not have the 5 label”.',
+		rid: 'K00081',
 	},
 	// P00816 carries TWO runs and is therefore repaired whole HERE
 	// rather than half here and half in the implied-one seed. A rid

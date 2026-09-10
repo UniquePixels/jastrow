@@ -12,9 +12,17 @@ import { parsePatch } from './schema.ts';
 import { SEED_CONFIRMED } from './seed-implied-one.ts';
 import { locate, RUN_ROWS, runPatches } from './seed-sense-runs.ts';
 
-/** The six rids the maintainer confirmed on 2026-09-10. `P00816`
- * appears twice in `RUN_ROWS` because it carries two runs. */
-const CONFIRMED = ['E00148', 'E00298', 'I00822', 'L00565', 'O01387', 'P00816'];
+/** The rids this tranche repairs. `P00816` and `K00081` each appear
+ * twice in `RUN_ROWS` because each carries two defects. */
+const CONFIRMED = [
+	'E00148',
+	'E00298',
+	'I00822',
+	'K00081',
+	'L00565',
+	'O01387',
+	'P00816',
+];
 
 /** A composed entry with the given top-level sense definitions. */
 function entryWith(...definitions: string[]): SourceEntry {
@@ -26,7 +34,7 @@ function entryWith(...definitions: string[]): SourceEntry {
 }
 
 describe('RUN_ROWS', () => {
-	it('names exactly the six confirmed rids', () => {
+	it('names exactly the seven confirmed rids', () => {
 		expect([...new Set(RUN_ROWS.map((row) => row.rid))].sort()).toEqual(
 			CONFIRMED,
 		);
@@ -54,7 +62,7 @@ describe('RUN_ROWS', () => {
 			.filter((rid) => !census.has(rid))
 			.sort();
 		expect(inCensus).toEqual(['E00148', 'E00298', 'I00822', 'P00816']);
-		expect(outside).toEqual(['L00565', 'O01387']);
+		expect(outside).toEqual(['K00081', 'L00565', 'O01387']);
 	});
 
 	it('declares a run whose split markers ascend', () => {

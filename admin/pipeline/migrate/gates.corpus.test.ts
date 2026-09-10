@@ -92,8 +92,12 @@ const HEADWORD_FORMS = 76_104;
  * Was 232,553 until the `seed-doc-08-sense-runs` tranche landed the
  * same day: 13 more splits across the six rows the implied-one
  * generator cannot express, so +26. `P00816` moved between the two
- * tranches and its three splits are counted once, here. */
-const TEXT_FIELDS = 232_579;
+ * tranches and its three splits are counted once, here.
+ *
+ * Was 232,579 until `K00081` joined that tranche: one split (+2) and
+ * one retag, which writes into an existing number field and adds no
+ * mark. Doc 01 deferred that row on 2026-08-05. */
+const TEXT_FIELDS = 232_581;
 /** 32,512 entries + the head-uniqueness mark + the termination mark. */
 const CHAIN_MARKS = 32_514;
 /** Two marks per entry: patch problems, then finishing problems. */

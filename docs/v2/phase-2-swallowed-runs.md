@@ -259,18 +259,32 @@ The addenda are Jastrow's own trailing notes — `—Pl. אֲחֵרִים`,
 `I00311`. They are classified by rule (a leading `Pl.` / `Part.` /
 `Fem.` / `Masc.` / `Sing.` / `Denom.`), not by eye.
 
-### The two unambiguous gaps
+### The two sandwiched rows: one settled, one not
 
-| rid | headword | labels in block | missing |
-| --- | --- | --- | --- |
-| [K00081](https://jastrow.app/#rid:K00081) | כָּבַשׁ | `1 2 4 ∅ 6 7 8` | `5)` |
-| [M02308](https://jastrow.app/#rid:M02308) | מצי ² | `1 ∅ 3` (Pi.) | `2)` |
+Reading the label triple alone suggested arithmetic would settle both.
+Reading the text showed it settles only one.
 
-Arithmetic settles both — a sense sitting between 4 and 6 is 5. And
-`K00081` is not new: doc 01 recorded it on 2026-08-05 as a **deferral**,
-with the maintainer's own note, *"this starts a seperate section in the
-app but does not have the 5 label."* The class was seen and put down,
-not missed. `M02308` has never been reviewed.
+**`K00081` כָּבַשׁ — settled, and now repaired.** Doc 01 recorded it on
+2026-08-05 as a **deferral**, not a rejection, with the maintainer's
+own note naming both halves: an in-text *"—3) to press"*, and a section
+that *"does not have the 5 label"*. The source bears that out exactly —
+sense `—2)` carries a `—3)` 363 characters in, and the number-less
+section sits between `—4)` and `—6)`. Both are determined by the
+surrounding sequence. Repaired by `seed-sense-runs.ts`: one split, one
+retag. The entry's top block now reads 1 through 8.
+
+**`M02308` מצי ² — not settled.** Its Pi. labels are `1 ∅ 3`, but sense
+`1)` reads in full:
+
+> ` same. Zeb. VI, 5, sq.; a. fr.—2) same.`
+
+So the `—2)` is not missing at all; it is swallowed, and both senses
+gloss to *same* — the Chaldean entry deferring to its Hebrew
+counterpart. Splitting that marker out would number the run 1, 2, 3 and
+leave the number-less sense in between (*"to pour out to the last drop,
+to drain"*) with no number available to it. Either it belongs to a
+different stem than the body model assigned, or print numbers something
+this data does not. It goes to print-check, not to a patch.
 
 ### The thirteen trailing candidates
 
@@ -303,6 +317,24 @@ rather than a sense. They may be a fourth group.
 
 **Only `K00081` of all 23 is in doc 01's reviewed set.** Register #3's
 35 entries counts numbering it could see. It is a floor.
+
+## The print-check queue
+
+Fifteen rows cannot be settled from the data. None has a patch.
+
+| rid | headword | what print has to answer |
+| --- | --- | --- |
+| `K00599` | כֵּיף ² | does print number senses 1 and 2, or do they arrive via the `same` cross-reference to `K00598`? |
+| `M02308` | מצי ² | which sense is the number-less one, given `1)` already swallows a `—2)`? |
+| `B00753` | בַּיִת | is the sense after `10)` an `11)`? |
+| `D00919` | דְּנָא | it holds an in-text `—2)`; is the number-less sense that `2)`, or a third? |
+| `D01114` | דְּרַס | it holds an in-text `—4)`; is the number-less sense `3)`? |
+| `G00652` `J00199` `U01512` | זָקַק, יָוָן, שְׁמַע I | each opens on a closing parenthesis — sense, or etymology the body model kept in-block? |
+| `C01079` `D00634` `G00217` `O00975` `R00565` `S00811` `S02111` | גְּנַב, דִּין, זוּעַ, סְלַח, צָמַח, קְטַף I, קָרַס | each is a lone unnumbered sense after a `1)`; is it a `2)` print carries? |
+
+The three closing-parenthesis rows are the ones most likely to be no
+defect at all. They are listed rather than dropped because the
+difference is a reading, not a measurement.
 
 ## Context, unadjudicated
 

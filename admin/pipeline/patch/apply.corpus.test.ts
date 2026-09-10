@@ -54,10 +54,11 @@ import { computeSnapshot } from './snapshot.ts';
  * Was 93 / 757 until `seed-doc-08-sense-runs` landed the same day:
  * +18 patches over 5 new rids, plus P00816 moving out of the
  * implied-one seed (-3 there, +4 here, and one manifest record either
- * way) — 111 / 762.
+ * way) — 111 / 762. Then 113 / 763 when `K00081`, doc 01's
+ * 2026-08-05 deferral, joined it with a split and a retag.
  */
-const ACCEPTED_PATCHES = 111;
-const ACCEPTED_RECORDS = 762;
+const ACCEPTED_PATCHES = 113;
+const ACCEPTED_RECORDS = 763;
 const SUPERSEDED_PATCHES = 10;
 const SUPERSEDED_RECORDS = 327;
 const PRE_PATCH_PATCHES = 67;
@@ -74,8 +75,8 @@ const CARRIED_IDS = ['P000018', 'P000025', 'P000027', 'P000031', 'P000050'];
  * than a corpus movement. Was +56 until 2026-09-10, when the two rows
  * whose run continues past `—2)` gained a split apiece, and +79 later
  * that day when six more confirmed rows joined `SEED_CONFIRMED`. */
-const RAW_PATCHES = 188;
-const RAW_RECORDS = 2799;
+const RAW_PATCHES = 190;
+const RAW_RECORDS = 2800;
 
 it('loads and consolidates the accepted (healed-stage) corpus, applying it cleanly', async () => {
 	const accepted = await loadAcceptedCorpus();
