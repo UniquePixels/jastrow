@@ -12,6 +12,7 @@
  */
 import { healAndTransform } from '../body/compose.ts';
 import type { SourceEntry } from '../body/types.ts';
+import { byCodeUnit } from '../research/chunks.ts';
 import { applyTransforms } from '../transform/run.ts';
 
 /** The snapshot the doc-08 census and every patch derived from it
@@ -52,14 +53,18 @@ function patchProvenance(
  * the op's, not this module's, and reordering it would churn bytes
  * for no gain. Purely cosmetic — the rows parse identically either
  * way — but a corpus where one tranche is ordered differently invites
- * a diff nobody can explain. */
+ * a diff nobody can explain.
+ *
+ * Compared by code unit, not `localeCompare`: this output is
+ * committed, and a locale- or ICU-dependent order would churn bytes
+ * on a machine configured differently. */
 function sortKeys(row: unknown): unknown {
 	if (typeof row !== 'object' || row === null) {
 		return row;
 	}
 	return Object.fromEntries(
 		Object.entries(row as Record<string, unknown>).sort(([a], [b]) =>
-			a.localeCompare(b),
+			byCodeUnit(a, b),
 		),
 	);
 }

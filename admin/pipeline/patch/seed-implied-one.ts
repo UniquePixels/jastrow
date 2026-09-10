@@ -57,10 +57,15 @@ const marker = (n: number): string => `—${n})`;
  * locates. A run that continues past it carries `—3)`, `—4)`, … */
 const MARKER = marker(2);
 
-/** Any in-text `—N)` marker. The `(?<![0-9])` guard rejects verse and
+/** Any in-text `—N)` marker. The `(?<!\d)` guard rejects verse and
  * note ranges — `Deut. XXXII, 1—43)`, `Rabb. D. S. notes 2—4)` —
- * which are not sense markers. */
-const RUN_MARKER = /(?<![0-9])—(\d+)\)\s/gu;
+ * which are not sense markers, because those close on a digit.
+ *
+ * No trailing `\s`: a marker can be followed by markup or end the
+ * definition outright, and this scan exists to notice a marker past
+ * the run. Missing one there is the failure mode; matching one too
+ * many only makes it throw, which a maintainer sees. */
+const RUN_MARKER = /(?<!\d)—(\d+)\)/gu;
 
 /** The number `retag` writes onto the host after the split. */
 const SENSE_ONE = '1)';

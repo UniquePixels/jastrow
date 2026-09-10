@@ -82,10 +82,21 @@ describe('runMarkers', () => {
 		expect(() => runMarkers('T99999', 'a.—2) b.—4) c.')).toThrow(
 			/sit past the run/u,
 		);
+		// A marker can end the definition or be followed by markup, so
+		// the scan must not require trailing whitespace.
+		expect(() => runMarkers('T99999', 'a.—2) b.—4)')).toThrow(
+			/sit past the run/u,
+		);
+		expect(() => runMarkers('T99999', 'a.—2) b.—4)<i>x</i>')).toThrow(
+			/sit past the run/u,
+		);
 		// A verse range is not a marker and must not trip that gate.
 		expect(runMarkers('T99999', 'a.—2) b. (Deut. XXXII, 1—43) c.')).toEqual([
 			'—2)',
 		]);
+		expect(runMarkers('T99999', 'a.—2) b. (Rabb. D. S. notes 2—4) c.')).toEqual(
+			['—2)'],
+		);
 		expect(runMarkers('T99999', 'a. b.')).toEqual([]);
 	});
 

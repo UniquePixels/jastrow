@@ -73,12 +73,12 @@ type RunOp =
 interface RunRow {
 	/** What the defect is called in the patch corpus. */
 	defectClass: string;
-	/** The ops, in apply order. */
-	ops: RunOp[];
 	/** Tag-stripped prefix that identifies the sense to address. It
 	 * must match exactly one sense in the composed entry — a prefix
 	 * that matches none or several is drift the caller must see. */
 	opens: string;
+	/** The ops, in apply order. */
+	ops: RunOp[];
 	rationale: string;
 	rid: string;
 }
@@ -90,74 +90,78 @@ interface RunRow {
  * the maintainer made against print. A detector that re-derived them
  * would be asserting that judgment rather than recording it.
  */
+/** `—N)` for n > 1, `1)` for the first — the closed-grammar token
+ * shapes `split` and `retag` accept. */
+const marker = (n: number): string => (n === 1 ? '1)' : `—${n})`);
+
+/** A split at each marker from `first` through `last`. */
+function splitRun(first: number, last: number): RunOp[] {
+	const ops: RunOp[] = [];
+	for (let n = first; n <= last; n += 1) {
+		ops.push({ kind: 'split', marker: marker(n) });
+	}
+	return ops;
+}
+
+/** An OCR row whose `l)` sits after a preamble: correct the glyph in
+ * place, then split the whole run out from `1)`. Written as a builder
+ * rather than three near-identical literals — they differ only in the
+ * rid, the locator and the gloss print carries. */
+function ocrRow(
+	rid: string,
+	opens: string,
+	gloss: string,
+	last: number,
+): RunRow {
+	return {
+		defectClass: 'ocr-marker',
+		opens,
+		ops: [{ find: 'l)', kind: 'replace', with: '1)' }, ...splitRun(1, last)],
+		rationale: `Doc-08 2026-08-05: not implied, OCR error — l) ${gloss}. Correct the glyph, then split the 1)–${last}) run.`,
+		rid,
+	};
+}
+
+/** A row whose sense simply lost its `2)`: number it, then split the
+ * `—3)` its text still carries. `print` is the reading the maintainer
+ * took, quoted into the rationale so the patch carries its evidence. */
+function missingTwoRow(rid: string, opens: string, print: string): RunRow {
+	return {
+		defectClass: 'missing-number',
+		opens,
+		ops: [{ kind: 'retag', number: '—2)' }, ...splitRun(3, 3)],
+		rationale: `Print reads “…${print}”; the sense exists with no number token (maintainer, 2026-09-10). Number it, then split its —3) tail.`,
+		rid,
+	};
+}
+
 const RUN_ROWS: readonly RunRow[] = [
+	// E00148's marker sits at the very start of its definition with
+	// only a space before it, so splitting at it would leave a
+	// whitespace-only host sense. The number goes into the sense's own
+	// `number` field instead, which is what an unnumbered host holding
+	// its own marker means. That makes it the one OCR row `ocrRow`
+	// cannot build.
 	{
 		defectClass: 'ocr-marker',
-		// Unlike the other two OCR rows, this marker sits at the very
-		// start of the definition with only a space before it, so
-		// splitting at it would leave a whitespace-only host sense. The
-		// number goes into the sense's own `number` field instead, which
-		// is what an unnumbered host holding its own marker means.
 		opens: ' l) to return, restore;',
 		ops: [
 			{ find: ' l)', kind: 'replace', with: '' },
 			{ kind: 'retag', number: '1)' },
-			{ kind: 'split', marker: '—2)' },
-			{ kind: 'split', marker: '—3)' },
-			{ kind: 'split', marker: '—4)' },
+			...splitRun(2, 4),
 		],
 		rationale:
 			'Doc-08 2026-08-05: not implied, OCR error — l) to return, restore. Lift the glyph out of the text into the sense number, then split the —2)–—4) run.',
 		rid: 'E00148',
 	},
-	{
-		defectClass: 'ocr-marker',
-		opens: ' (זכר; v. ',
-		ops: [
-			{ find: 'l)', kind: 'replace', with: '1)' },
-			{ kind: 'split', marker: '1)' },
-			{ kind: 'split', marker: '—2)' },
-			{ kind: 'split', marker: '—3)' },
-		],
-		rationale:
-			'Doc-08 2026-08-05: not implied, OCR error — l) giving a debtor notice. Correct the glyph, then split the 1)–3) run.',
-		rid: 'E00298',
-	},
-	{
-		defectClass: 'ocr-marker',
-		opens: ' (τρικλίνιον, triclinium) l)',
-		ops: [
-			{ find: 'l)', kind: 'replace', with: '1)' },
-			{ kind: 'split', marker: '1)' },
-			{ kind: 'split', marker: '—2)' },
-			{ kind: 'split', marker: '—3)' },
-		],
-		rationale:
-			'Doc-08 2026-08-05: not implied, OCR error — l) dining couch. Correct the glyph, then split the 1)–3) run.',
-		rid: 'I00822',
-	},
-	{
-		defectClass: 'missing-number',
-		opens: 'to accustom, train.',
-		ops: [
-			{ kind: 'retag', number: '—2)' },
-			{ kind: 'split', marker: '—3)' },
-		],
-		rationale:
-			'Print reads “…affixed to, v. Pi.—2) to accustom, train”; the sense exists with no number token (maintainer, 2026-09-10). Number it, then split its —3) tail.',
-		rid: 'L00565',
-	},
-	{
-		defectClass: 'missing-number',
-		opens: 'to regard. ',
-		ops: [
-			{ kind: 'retag', number: '—2)' },
-			{ kind: 'split', marker: '—3)' },
-		],
-		rationale:
-			'Print reads “…scour; v. Ithpe.—2) to regard”; the sense exists with no number token (maintainer, 2026-09-10). Number it, then split its —3) tail.',
-		rid: 'O01387',
-	},
+	ocrRow('E00298', ' (זכר; v. ', 'giving a debtor notice', 3),
+	ocrRow('I00822', ' (τρικλίνιον, triclinium) l)', 'dining couch', 3),
+	missingTwoRow(
+		'L00565',
+		'to accustom, train.',
+		'affixed to, v. Pi.—2) to accustom, train',
+	),
+	missingTwoRow('O01387', 'to regard. ', 'scour; v. Ithpe.—2) to regard'),
 	// K00081 is doc 01's 2026-08-05 DEFERRAL, not a new row. The
 	// maintainer's own cell names both halves: an in-text “—3) to
 	// press” inside sense —2), and a section that “does not have the 5
@@ -166,7 +170,7 @@ const RUN_ROWS: readonly RunRow[] = [
 	{
 		defectClass: 'swallowed-marker',
 		opens: ' כ׳ פנים (בקרקע) to press the face',
-		ops: [{ kind: 'split', marker: '—3)' }],
+		ops: splitRun(3, 3),
 		rationale:
 			'Doc-01 deferral 2026-08-05: sense —2) swallows the —3) the maintainer read in print; the next sense is —4).',
 		rid: 'K00081',
@@ -187,11 +191,7 @@ const RUN_ROWS: readonly RunRow[] = [
 	{
 		defectClass: 'implied-one',
 		opens: ', esp. (corresp. to h. ',
-		ops: [
-			{ kind: 'retag', number: '1)' },
-			{ kind: 'split', marker: '—2)' },
-			{ kind: 'split', marker: '—3)' },
-		],
+		ops: [{ kind: 'retag', number: '1)' }, ...splitRun(2, 3)],
 		rationale:
 			'Doc-08 confirmed implied-one; in-text —2) run with no 1) before it, continuing to —3).',
 		rid: 'P00816',
@@ -199,7 +199,7 @@ const RUN_ROWS: readonly RunRow[] = [
 	{
 		defectClass: 'swallowed-marker',
 		opens: 'to attempt entrance.',
-		ops: [{ kind: 'split', marker: '—3)' }],
+		ops: splitRun(3, 3),
 		rationale:
 			'Ithpe. sense —2) swallows the —3) that follows it — a second run in the same entry, confirmed 2026-09-10.',
 		rid: 'P00816',
