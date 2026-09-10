@@ -17,22 +17,9 @@
  *
  * Run: bun run body:implied-one-census
  */
-import { walkSenses } from './census.ts';
+import { stripTags, walkSenses } from './census.ts';
 import { readSourceEntries } from './source.ts';
 import type { SourceEntry } from './types.ts';
-
-const TAGS = /<[^>]+>/gu;
-// Strips to a fixed point so fragments re-composed by one pass can't
-// survive (matches census.ts/review.ts's hardened stripTags).
-const stripTags = (text: string): string => {
-	let out = text;
-	let prev: string;
-	do {
-		prev = out;
-		out = out.replace(TAGS, '');
-	} while (out !== prev);
-	return out;
-};
 
 /** The in-text implied-1 shape: `—2)` opening a run, with trailing
  * whitespace so a bare cross-reference like `v. אוֹר —2)quoted` odd

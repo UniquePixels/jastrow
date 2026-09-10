@@ -621,5 +621,6 @@ export {
 	labelSequence,
 	letteredRun,
 	pluralSection,
+	stripTags,
 	walkSenses,
 };

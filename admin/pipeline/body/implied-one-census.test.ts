@@ -62,16 +62,19 @@ describe('isImpliedOneCandidate', () => {
 	});
 
 	it('flags D00072 (the confirmed in-text shape) from the committed fixture', async () => {
-		let found = false;
+		let found: SourceEntry | undefined;
 		for await (const entry of readSourceEntries(
 			`${FIXTURES_DIR}/numbering-extras.jsonl`,
 		)) {
 			if (entry.rid === 'D00072') {
-				found = true;
-				expect(isImpliedOneCandidate(entry)).toBe(true);
+				found = entry;
 			}
 		}
-		expect(found).toBe(true);
+		// Asserted after the loop, not inside it: an assertion the loop
+		// never reaches passes silently, so presence and predicate are
+		// two separate claims here.
+		expect(found).toBeDefined();
+		expect(isImpliedOneCandidate(found as SourceEntry)).toBe(true);
 	});
 });
 
