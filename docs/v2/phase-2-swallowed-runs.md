@@ -110,7 +110,24 @@ Composed census rows whose `—2)` tail still carries a guarded run:
 
 11 rows; 8 inside the sweep population; 2 inside the 28 seeded pairs.
 
-### Two rows ship the defect on this branch
+### Two rows shipped the defect, and are now repaired
+
+**Fixed 2026-09-10.** `seed-implied-one.ts` now splits at every marker
+in the run rather than only at `—2)`, so `C00805` and `I00111` mint
+three patches each instead of two. Composed through the same path
+`migrate.ts` uses, both entries now read as three numbered senses with
+no marker left in any definition. The tranche went from 56 patches to
+58; `ACCEPTED_PATCHES`, `RAW_PATCHES` and `TEXT_FIELDS` moved by the
+arithmetic that implies, and all nine migration gates stay green.
+
+The generator also refuses two shapes it used to accept silently: a
+marker occurring more than once, and a run whose markers are out of
+document order. Both throw rather than minting an anchor that cannot
+resolve.
+
+The paragraphs below describe the state before that fix.
+
+### What the two rows shipped
 
 `3920ab644` rewrote the truth layer with the seeds, so `C00805` and
 `I00111` carry the split in `data/entries/` today, and the reader sees
@@ -154,19 +171,15 @@ edge of a larger surface, not the whole of it.
 Nothing here should become a patch before a maintainer confirms the
 rows, the same gate doc 08's Decision column applied.
 
-1. **Hold the two shipping rows.** `C00805` and `I00111` need a
-   three-way split, not a two-way. Either extend their seeded pairs or
-   withdraw them until the run is repaired whole. Shipping a
-   half-repaired run is worse than shipping the original, because the
-   defect now hides behind a correct-looking sense boundary.
-2. **Guard the generator.** `seed-implied-one.ts`'s `impliedHost`
-   already refuses a host with two `—2)` markers. It should refuse, or
-   at minimum record, a host whose tail carries any `—N)` — that is a
-   code change with a test, and it would have caught this before the
-   truth-layer rewrite.
-3. **Confirm Class A's other 9 rows** as a review set. 8 are in the
-   sweep and could be left to it, but the sweep will read them
-   post-patch and, for the seeded ones, see a repaired-looking entry.
+1. ~~**Hold the two shipping rows.**~~ **Done 2026-09-10** — the
+   generator splits the whole run, so `C00805` and `I00111` are
+   repaired rather than half-repaired.
+2. ~~**Guard the generator.**~~ **Done 2026-09-10** — `runMarkers`
+   walks the run and throws on an ambiguous or out-of-order marker.
+3. **Confirm Class A's other 9 rows** as a review set. None is in
+   `SEED_CONFIRMED`, so none is repaired. 7 are in the sweep and could
+   be left to it; `P00816` and `Q00990` produce no hint and never
+   will, so nothing will reach them but a decision here.
 4. **Confirm Class B's 3 rows** individually. `O01387` will never be
    swept and needs a decision either way.
 5. **Correct doc 08's `I00661` note** to state the actual reason for

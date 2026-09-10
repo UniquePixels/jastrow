@@ -1,5 +1,5 @@
 /**
- * The doc-08 seed tranche: split/retag patch pairs for the implied-`1)`
+ * The doc-08 seed tranche: split/retag patches for the implied-`1)`
  * rows a maintainer confirmed but the research sweep cannot reach.
  *
  * ## Why these rows need seeding at all
@@ -15,15 +15,21 @@
  * patch-apply and will therefore find them already repaired rather
  * than re-reporting them.
  *
- * ## The shape of the repair, and why it is two patches
+ * ## The shape of the repair
  *
  * The convention is the one the accepted sweep patches already use
  * (A00339, `tranche-01`): `split` the host at its in-text `—2)`, then
  * `retag` the host with `1)`. Split alone would leave sense 1
  * unnumbered, which is the defect wearing a different face; retag
- * alone would number a sense that still swallows its sibling. The
- * pair is byte-conserving apart from the two closed-grammar marker
- * tokens the no-new-text validator allows.
+ * alone would number a sense that still swallows its sibling. The set
+ * is byte-conserving apart from the closed-grammar marker tokens the
+ * no-new-text validator allows.
+ *
+ * Most rows take exactly that pair, but the count is not fixed. Two
+ * of them — `C00805` and `I00111` — carry a run that continues past
+ * `—2)`, and a single split hands the rest of it to a sibling it
+ * numbers, where no gate can see it. Those rows get one split per
+ * marker; see `runMarkers` and `docs/v2/phase-2-swallowed-runs.md`.
  *
  * Targets are content anchors over the state patch-apply receives —
  * `applyRepairs` then both transform phases — so this module composes
@@ -38,9 +44,12 @@ import type { SourceEntry, SourceSense } from '../body/types.ts';
 import { applyTransforms } from '../transform/run.ts';
 import { senseTarget } from './schema.ts';
 
-/** The in-text marker every seeded row splits at. Doc 08's census
- * shape is a `—2)` run, so the closed-grammar token is fixed. */
-const MARKER = '—2)';
+/** The closed-grammar marker token for sense `n`. */
+const marker = (n: number): string => `—${n})`;
+
+/** The marker the census shape opens at, and the one `impliedHost`
+ * locates. A run that continues past it carries `—3)`, `—4)`, … */
+const MARKER = marker(2);
 
 /** The number `retag` writes onto the host after the split. */
 const SENSE_ONE = '1)';
@@ -100,8 +109,9 @@ const SEED_CONFIRMED: readonly string[] = [
 	'J00459',
 ];
 
-/** One entry's seeded pair, in apply order: split first, then retag. */
-interface SeedPair {
+/** One entry's seeded patches, in apply order: the run's splits,
+ * then the retag. */
+interface SeedRow {
 	patches: Record<string, unknown>[];
 	rid: string;
 }
@@ -139,6 +149,51 @@ function isImpliedShape(entry: SourceEntry, sense: SourceSense): boolean {
 	});
 }
 
+/**
+ * The consecutive run the host's definition carries: `—2)`, then
+ * `—3)`, and so on until a number is missing.
+ *
+ * Splitting only at `—2)` was the original shape and it is not
+ * enough. `split` hands the tail to a sibling it NUMBERS, and the
+ * census skips numbered senses, so a `—3)` left in that tail is
+ * invisible to every gate downstream and ships as literal text inside
+ * sense 2. Eleven census rows carry such a tail; see
+ * `docs/v2/phase-2-swallowed-runs.md`.
+ *
+ * Two things are asserted rather than worked around. Each marker must
+ * occur exactly once, because `split` addresses its marker by content
+ * and refuses an ambiguous one. And the markers must appear in
+ * ascending order, because each split addresses the sibling the
+ * previous one created — a `—3)` sitting before the `—2)` is not a
+ * run, and the sequential walk would mint an anchor that cannot
+ * resolve.
+ */
+function runMarkers(rid: string, definition: string): string[] {
+	const markers: string[] = [];
+	let previousAt = -1;
+	for (let n = 2; ; n += 1) {
+		const token = marker(n);
+		const occurrences = definition.split(token).length - 1;
+		if (occurrences === 0) {
+			break;
+		}
+		if (occurrences !== 1) {
+			throw new Error(
+				`${rid}: ${token} occurs ${occurrences} times in the host definition; split needs exactly one`,
+			);
+		}
+		const at = definition.indexOf(token);
+		if (at < previousAt) {
+			throw new Error(
+				`${rid}: ${token} precedes ${marker(n - 1)} in the host definition; that is not a run`,
+			);
+		}
+		previousAt = at;
+		markers.push(token);
+	}
+	return markers;
+}
+
 /** The single unnumbered sense holding exactly one in-text `—2)` with
  * no `1)` before it. Throws rather than guessing: an entry that
  * resolves to none or to several is not the shape doc 08 confirmed,
@@ -157,69 +212,91 @@ function impliedHost(entry: SourceEntry): SourceSense {
 			`${entry.rid}: expected one unnumbered sense carrying ${MARKER}, found ${hosts.length}`,
 		);
 	}
-	const occurrences = (host.definition ?? '').split(MARKER).length - 1;
-	if (occurrences !== 1) {
-		throw new Error(
-			`${entry.rid}: ${MARKER} occurs ${occurrences} times in the host definition; split needs exactly one`,
-		);
-	}
+	runMarkers(entry.rid, host.definition ?? '');
 	return host;
 }
 
 /**
- * The split/retag pair for one composed entry.
+ * One composed entry's patches: a split at every marker in the run,
+ * then the retag of the host the first split leaves behind.
  *
- * The retag's anchor is the host as it stands AFTER the split — its
- * definition truncated at the marker — because that is the content
- * the second patch resolves against. Deriving it here (rather than
- * re-running apply) keeps the generator a pure function of the
- * composed entry.
+ * Each split addresses the sense as it stands when that patch runs —
+ * the first the host itself, the rest the sibling its predecessor
+ * created, which carries the predecessor's marker as its number.
+ * Deriving those intermediate states here (rather than re-running
+ * apply) keeps the generator a pure function of the composed entry.
+ *
+ * The retag is minted last but its anchor is the host's content after
+ * the first split, which no later split touches — so it resolves
+ * wherever it sits in the order.
+ *
+ * Only the first split repairs the implied `1)`. The rest repair a
+ * marker the print numbered and the data swallowed, which the
+ * catalogue already calls `swallowed-marker` (residue-01, P000091).
  */
-function seedPair(entry: SourceEntry, firstId: number): SeedPair {
+function seedRow(entry: SourceEntry, firstId: number): SeedRow {
 	const host = impliedHost(entry);
 	const definition = host.definition ?? '';
 	const before = definition.slice(0, definition.indexOf(MARKER));
 	const common = {
 		confidence: 'high',
-		defect_class: 'implied-one',
 		expected_occurrences: 1,
 		occurrence_index: 1,
 		prompt_version: PROMPT_VERSION,
 		rid: entry.rid,
 		snapshot: SNAPSHOT,
 	};
-	return {
-		patches: [
-			{
-				...common,
-				expected_before: definition,
-				id: `P${String(firstId).padStart(6, '0')}`,
-				op: 'split',
-				payload: { marker: MARKER },
-				rationale:
-					'Doc-08 confirmed implied-one; in-text —2) run with no 1) before it.',
-				target: senseTarget(host),
-			},
-			{
-				...common,
-				expected_before: before,
-				id: `P${String(firstId + 1).padStart(6, '0')}`,
-				op: 'retag',
-				payload: { number: SENSE_ONE },
-				rationale:
-					'Doc-08 confirmed implied-one; number the host print left implied.',
-				target: senseTarget({ definition: before }),
-			},
-		],
-		rid: entry.rid,
+	let nextId = firstId;
+	const mint = (): string => {
+		const id = `P${String(nextId).padStart(6, '0')}`;
+		nextId += 1;
+		return id;
 	};
+	const patches: Record<string, unknown>[] = [];
+	// The sense the next split addresses: the host first, then each
+	// tail, numbered with the marker that cut it off.
+	let text = definition;
+	let number: string | undefined;
+	for (const token of runMarkers(entry.rid, definition)) {
+		patches.push({
+			...common,
+			defect_class: number === undefined ? 'implied-one' : 'swallowed-marker',
+			expected_before: text,
+			id: mint(),
+			op: 'split',
+			payload: { marker: token },
+			rationale:
+				number === undefined
+					? 'Doc-08 confirmed implied-one; in-text —2) run with no 1) before it.'
+					: `Doc-08 confirmed implied-one; ${token} was swallowed in the tail the ${number} split creates.`,
+			target: senseTarget(
+				number === undefined
+					? { definition: text }
+					: { definition: text, number },
+			),
+		});
+		text = text.slice(text.indexOf(token) + token.length);
+		number = token;
+	}
+	patches.push({
+		...common,
+		defect_class: 'implied-one',
+		expected_before: before,
+		id: mint(),
+		op: 'retag',
+		payload: { number: SENSE_ONE },
+		rationale:
+			'Doc-08 confirmed implied-one; number the host print left implied.',
+		target: senseTarget({ definition: before }),
+	});
+	return { patches, rid: entry.rid };
 }
 
-/** Every seeded pair, in `SEED_CONFIRMED` order, with ids running
+/** Every seeded row, in `SEED_CONFIRMED` order, with ids running
  * from `FIRST_ID`. Entries absent from the corpus throw — a rid in
  * the seed list that no longer exists is a drift the caller must see.
  */
-async function buildSeed(): Promise<SeedPair[]> {
+async function buildSeed(): Promise<SeedRow[]> {
 	const wanted = new Set(SEED_CONFIRMED);
 	const found = new Map<string, SourceEntry>();
 	for await (const source of readSourceEntries()) {
@@ -231,27 +308,30 @@ async function buildSeed(): Promise<SeedPair[]> {
 	if (missing.length > 0) {
 		throw new Error(`seed rids absent from the corpus: ${missing.join(', ')}`);
 	}
-	const pairs: SeedPair[] = [];
+	const rows: SeedRow[] = [];
 	let id = FIRST_ID;
 	for (const rid of SEED_CONFIRMED) {
 		const entry = found.get(rid);
 		if (entry === undefined) {
 			throw new Error(`unreachable: ${rid} passed the presence check`);
 		}
-		pairs.push(seedPair(entry, id));
-		id += 2;
+		const row = seedRow(entry, id);
+		rows.push(row);
+		// Rows no longer mint a fixed two ids: a row whose run runs past
+		// `—2)` mints one more per marker.
+		id += row.patches.length;
 	}
-	return pairs;
+	return rows;
 }
 
 if (import.meta.main) {
-	const pairs = await buildSeed();
+	const rows = await buildSeed();
 	const dir = 'data/patches/tranches/seed-doc-08-implied-one';
-	const patches = pairs.flatMap((pair) => pair.patches);
-	const manifest = pairs.map((pair) => ({
+	const patches = rows.flatMap((row) => row.patches);
+	const manifest = rows.map((row) => ({
 		disposition: 'repaired',
-		patches: pair.patches.map((patch) => patch['id']),
-		rid: pair.rid,
+		patches: row.patches.map((patch) => patch['id']),
+		rid: row.rid,
 	}));
 	const write = async (name: string, rows: unknown[]): Promise<void> => {
 		const text = `${rows.map((row) => JSON.stringify(row)).join('\n')}\n`;
@@ -260,9 +340,9 @@ if (import.meta.main) {
 	await write('patches.jsonl', patches);
 	await write('manifest.jsonl', manifest);
 	console.log(
-		`wrote ${patches.length} patches over ${pairs.length} entries to ${dir}`,
+		`wrote ${patches.length} patches over ${rows.length} entries to ${dir}`,
 	);
 }
 
-export type { SeedPair };
-export { buildSeed, impliedHost, SEED_CONFIRMED, seedPair };
+export type { SeedRow };
+export { buildSeed, impliedHost, runMarkers, SEED_CONFIRMED, seedRow };

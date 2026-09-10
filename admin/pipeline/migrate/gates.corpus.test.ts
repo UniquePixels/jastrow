@@ -77,8 +77,14 @@ const HEADWORD_FORMS = 76_104;
  *
  * Was 232,463 until the doc-08 seed tranche landed on 2026-09-09: its
  * 28 splits each add one definition and one number token, so +56 is
- * the whole delta and every added field passes. */
-const TEXT_FIELDS = 232_519;
+ * the whole delta and every added field passes.
+ *
+ * Was 232,519 until 2026-09-10, when `C00805` and `I00111` gained a
+ * second split apiece — their runs carry a `—3)` the first split
+ * would have handed to a sibling it numbers, where no gate can see
+ * it (`docs/v2/phase-2-swallowed-runs.md`). Two more splits, one
+ * definition and one number token each: +4. */
+const TEXT_FIELDS = 232_523;
 /** 32,512 entries + the head-uniqueness mark + the termination mark. */
 const CHAIN_MARKS = 32_514;
 /** Two marks per entry: patch problems, then finishing problems. */
