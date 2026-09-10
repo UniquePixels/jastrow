@@ -31,10 +31,11 @@
  *
  * It does NOT see a test that reaches the corpus INDIRECTLY — by calling
  * `census.ts`, `review.ts`, `dry-run.ts`, `migrate-dry.ts`, `count.ts`,
- * `headword-census.ts`, `patch/apply.ts` or `research/corpus-inputs.ts`,
- * each of which holds its own no-argument read. No test does that today,
- * and the measurement says so rather than the grep: with the tiers split,
- * no unit-tier file exceeds 0.11 s, which a 41 MB read cannot fit under.
+ * `headword-census.ts`, `patch/apply-cli.ts` or
+ * `research/corpus-inputs.ts`, each of which holds its own no-argument
+ * read. No test does that today, and the measurement says so rather
+ * than the grep: with the tiers split, no unit-tier file exceeds
+ * 0.11 s, which a 41 MB read cannot fit under.
  * If that ever stops being true the symptom is a slow unit tier, not a
  * failure here.
  *
