@@ -16,8 +16,14 @@
 			"gloss": "m. (v. <he>אוי</he> I) [pressure] <i>woe, sorrow</i>. ",
 			"units": [
 				"<cite ref=\"Bereishit Rabbah 46:10\">Gen. R. s. 46</cite> <he>בי לא אוי</he> there is no (cause for) woe with me. ",
-				"<cite ref=\"Bamidbar Rabbah 10:8\">Num. R. s. 10</cite> (play on <i>ăboy</i>, <cite ref=\"Proverbs 23:29\">Prov. XXIII, 29</cite>) <he>אַב אוי</he> father of woe.—2) interj. <i>woe! alas!</i> <cite ref=\"Mishnah Kelim 17:16\">Kel. XVII, 16</cite>; a. v. fr."
-			]
+				"<cite ref=\"Bamidbar Rabbah 10:8\">Num. R. s. 10</cite> (play on <i>ăboy</i>, <cite ref=\"Proverbs 23:29\">Prov. XXIII, 29</cite>) <he>אַב אוי</he> father of woe."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " interj. <i>woe! alas!</i> <cite ref=\"Mishnah Kelim 17:16\">Kel. XVII, 16</cite>; a. v. fr.",
+			"units": [],
+			"label": "2"
 		}
 	]
 }

@@ -16,9 +16,16 @@
 			"gloss": "m. (<cite ref=\"G00583\"><he>זנק</he></cite>), pl. <he>זִיקִין</he> (b. h. <i>sparks, burning arrows</i> (b. h.); <i>meteors, shooting stars</i> [or <i>comet</i>]. ",
 			"units": [
 				"<cite ref=\"Mishnah Berakhot 9:1\">Ber. IX, 1</cite>, expl. ",
-				"<cite ref=\"Berakhot 58b:11\">ib. 58ᵇ</cite> <he>ככבא דשביט</he>.—2) <i>a blast of wind</i>, [also imagined as <i>a spirit</i> (cmp. <cite ref=\"T00615\"><he>רוּחַ</he></cite>)]. ",
+				"<cite ref=\"Berakhot 58b:11\">ib. 58ᵇ</cite> <he>ככבא דשביט</he>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <i>a blast of wind</i>, [also imagined as <i>a spirit</i> (cmp. <cite ref=\"T00615\"><he>רוּחַ</he></cite>)]. ",
+			"units": [
 				"<cite ref=\"Bava Metzia 107b:3\">B. Mets. 107ᵇ</cite>.—(<cite ref=\"Mishnah Mikvaot 9:5\">Mikv. IX, 5</cite> Ar., v. <cite ref=\"G00654\"><he>זַקָּק</he></cite>.]"
-			]
+			],
+			"label": "2"
 		}
 	]
 }

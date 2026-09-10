@@ -15,10 +15,17 @@
 		{
 			"gloss": "pr. n. pl. = h. <he>תַּרְשִׁישׁ</he> <i>Tarsis</i> (<i>Tarentum</i>). ",
 			"units": [
-				"<cite ref=\"Targum Jonathan on Genesis 10:4\">Targ. Y. I Gen. X, 4</cite> <he>טַרְסַס</he> ed. Amst. (oth. eds. <cite ref=\"I00853\"><he>טרסיס</he></cite>, v. <cite ref=\"A01927\"><he>אַלַּס</he></cite>); <cite ref=\"Targum of I Chronicles 1:7\">Targ. I Chr. I, 7</cite> <cite ref=\"I00848\"><he>טרסוס</he></cite> ed. Lag.—2) (prob.) <i>Tartessus, in Spain</i>. ",
+				"<cite ref=\"Targum Jonathan on Genesis 10:4\">Targ. Y. I Gen. X, 4</cite> <he>טַרְסַס</he> ed. Amst. (oth. eds. <cite ref=\"I00853\"><he>טרסיס</he></cite>, v. <cite ref=\"A01927\"><he>אַלַּס</he></cite>); <cite ref=\"Targum of I Chronicles 1:7\">Targ. I Chr. I, 7</cite> <cite ref=\"I00848\"><he>טרסוס</he></cite> ed. Lag."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (prob.) <i>Tartessus, in Spain</i>. ",
+			"units": [
 				"<cite ref=\"Aramaic Targum to Psalms 48:8\">Targ. Ps. XLVIII, 8</cite>. ",
 				"<cite ref=\"Aramaic Targum to Psalms 72:10\">Ib. LXXII, 10</cite>. [V. <cite ref=\"I00807\"><he>טריסיס</he></cite>.]"
-			]
+			],
+			"label": "2"
 		}
 	]
 }

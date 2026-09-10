@@ -12,10 +12,17 @@
 		{
 			"gloss": ", only in Hif. <he>הֶאֱפִיל</he> (denom. of <cite ref=\"A02733\"><he>אָפֵל</he></cite> q. v.) <i>to make dark, obscure</i>. ",
 			"units": [
-				"<cite ref=\"Shabbat 86a:7\">Sabb. 86ᵃ</cite> bot. <he>מַאֲפִיל בטליתו</he> he makes dark by spreading his cloak (cover) over himself. Y. B. Bath. III, 13ᶜ top <he>עומד ומא׳</he> the tree stands there and takes the light away.—2) <i>to be late in ripening, giving birth</i>, &c.; <i>to have late crops</i>. ",
+				"<cite ref=\"Shabbat 86a:7\">Sabb. 86ᵃ</cite> bot. <he>מַאֲפִיל בטליתו</he> he makes dark by spreading his cloak (cover) over himself. Y. B. Bath. III, 13ᶜ top <he>עומד ומא׳</he> the tree stands there and takes the light away."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <i>to be late in ripening, giving birth</i>, &c.; <i>to have late crops</i>. ",
+			"units": [
 				"<cite ref=\"Jerusalem Talmud Sheviit 5:1:2\">Y. Shebi. V, beg. 35ᵈ</cite> <he>שנים מַאֲפִילוֹת</he> years slow in ripening, when the crop is delayed. ",
 				"<cite ref=\"Bereishit Rabbah 99:3\">Gen. R. s. 99</cite> <he>שהיא מַאֲפֶלֶת</he> which has late crops."
-			]
+			],
+			"label": "2"
 		}
 	]
 }

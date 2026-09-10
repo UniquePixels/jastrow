@@ -20,12 +20,19 @@
 		{
 			"gloss": "m. (<cite ref=\"J00470\"><he>יָסַר</he></cite>) <i>correction by example, warning example</i>. ",
 			"units": [
-				"<cite ref=\"Sanhedrin 45a:7\">Snh. 45ᵃ</cite> (ref. to <cite ref=\"Ezekiel 23:48\">Ez. XXIII, 48</cite>) <he>אין לך יי׳ גדול מזה</he> there is no severer warning than this (capital punishment, and therefore disgrace by exposure would be an unnecessary hardship).—2) Pl. <he>יִסּוּרִים</he>, <he>יִסּוּרִין</he>, <cite ref=\"J00271\"><he>יִי׳</he></cite> <i>corrections by suffering, suffering, trials, visitation</i>. ",
+				"<cite ref=\"Sanhedrin 45a:7\">Snh. 45ᵃ</cite> (ref. to <cite ref=\"Ezekiel 23:48\">Ez. XXIII, 48</cite>) <he>אין לך יי׳ גדול מזה</he> there is no severer warning than this (capital punishment, and therefore disgrace by exposure would be an unnecessary hardship)."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " Pl. <he>יִסּוּרִים</he>, <he>יִסּוּרִין</he>, <cite ref=\"J00271\"><he>יִי׳</he></cite> <i>corrections by suffering, suffering, trials, visitation</i>. ",
+			"units": [
 				"<cite ref=\"Sifrei Devarim 32:9\">Sifré Deut. 32</cite> <he>חביבים י׳ לפני … על מי שיי׳ באים עליו</he> trials are precious in the sight of the Lord, for the glory of the Lord rests upon him who is visited with trials (ref. to <cite ref=\"Deuteronomy 8:5\">Deut. VIII, 5</cite>). ",
 				"<cite ref=\"Deuteronomy 8:5\">Ib.</cite> <he>הי׳ מרצים וכ׳</he> sufferings atone more than sacrifices. ",
 				"<cite ref=\"Berakhot 5a:10\">Ber. 5ᵃ</cite> <he>י׳ של אהבה</he> visitations of (divine) love (ref. to <cite ref=\"Proverbs 3:12\">Prov. III, 12</cite>). Ib.ᵇ <he>חביבין עליך י׳</he> are the sufferings welcome to thee (as trials)?—",
 				"<cite ref=\"Shir HaShirim Rabbah 2:16\">Cant. R. to II, 16</cite> <he>מה קשין הן הי׳</he> how hard to bear are sufferings!; a. v. fr."
-			]
+			],
+			"label": "2"
 		}
 	]
 }

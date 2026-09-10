@@ -12,10 +12,17 @@
 		{
 			"gloss": " (b. h.) <i>to press, tie, surround</i>. ",
 			"units": [
-				"<cite ref=\"Avodah Zarah 35a:7\">Ab. Zar. 35ᵃ</cite> (ref. to <cite ref=\"Song of Songs 1:2\">Cant. I, 2</cite>) <he>חֲשׁוֹק שׂפתותיך זו בזו</he> press thy lips together and be not too hasty in replying.—2) (cmp. <cite ref=\"H01469\"><he>חָפַץ</he></cite>) <i>to be attached to, in love with; to elect</i>. ",
+				"<cite ref=\"Avodah Zarah 35a:7\">Ab. Zar. 35ᵃ</cite> (ref. to <cite ref=\"Song of Songs 1:2\">Cant. I, 2</cite>) <he>חֲשׁוֹק שׂפתותיך זו בזו</he> press thy lips together and be not too hasty in replying."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " (cmp. <cite ref=\"H01469\"><he>חָפַץ</he></cite>) <i>to be attached to, in love with; to elect</i>. ",
+			"units": [
 				"<cite ref=\"Tosefta Yevamot 8:4\">Tosef. Yeb. VIII, 4</cite> <he>חָשְׁקָה … בתורה</he> my soul has chosen the Law (as bride); <cite ref=\"Yevamot 63b:18\">Yeb. 63ᵇ</cite>. ",
 				"<cite ref=\"Chullin 89a:5\">Ḥull. 89ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 7:7\">Deut. VII, 7</cite>) <he>חוֹשְׁקַנִי בכם</he> I elected you."
-			]
+			],
+			"label": "2"
 		}
 	]
 }

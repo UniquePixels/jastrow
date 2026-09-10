@@ -21,10 +21,17 @@
 		{
 			"gloss": "m. a species of <i>dill</i>. ",
 			"units": [
-				"<cite ref=\"Tosefta Kilaim 1:1\">Tosef. Kil. I, 1</cite> [read:] <he>השבת והג׳</he> anise and <i>gof’nin</i>.—2) <i>late grapes</i>. ",
+				"<cite ref=\"Tosefta Kilaim 1:1\">Tosef. Kil. I, 1</cite> [read:] <he>השבת והג׳</he> anise and <i>gof’nin</i>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <i>late grapes</i>. ",
+			"units": [
 				"<cite ref=\"Mishnah Demai 1:1\">Dem. I, 1</cite> (Y. ed. <he>גופנן</he>), expl. ",
 				"<cite ref=\"Berakhot 40b:22\">Ber. 40ᵇ</cite> <he>שלהי גופני</he> the late fruits of the grape-vine. [Y. ib. 21ᵈ top explains <he>גופנן</he> with <cite ref=\"U01482\"><he>שמירה</he></cite> (read <cite ref=\"U00456\"><he>שׁוּמָּרָה</he></cite>) <i>dill;</i> Maim. a. l.: a species of vegetables similar to <cite ref=\"U00196\"><he>שבת</he></cite>, v. supra.]"
-			]
+			],
+			"label": "2"
 		}
 	]
 }

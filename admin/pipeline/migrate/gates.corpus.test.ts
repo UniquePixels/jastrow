@@ -73,8 +73,12 @@ const HEADWORD_FORMS = 76_104;
  * through a neutral stand-in instead of comparing its gloss alone.
  * All 45,727 added marks pass: the hole was real but this corpus had
  * nothing hiding in it. The `gates.test.ts` case for a truth-only
- * subsense carrying text in `units` is the control that fires. */
-const TEXT_FIELDS = 232_463;
+ * subsense carrying text in `units` is the control that fires.
+ *
+ * Was 232,463 until the doc-08 seed tranche landed on 2026-09-09: its
+ * 28 splits each add one definition and one number token, so +56 is
+ * the whole delta and every added field passes. */
+const TEXT_FIELDS = 232_519;
 /** 32,512 entries + the head-uniqueness mark + the termination mark. */
 const CHAIN_MARKS = 32_514;
 /** Two marks per entry: patch problems, then finishing problems. */
