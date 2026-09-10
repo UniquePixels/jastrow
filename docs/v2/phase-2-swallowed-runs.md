@@ -230,6 +230,80 @@ Register #3's 35 entries are therefore a floor, not a count. Nothing
 here changes that detector — it is recorded so the next census does
 not inherit the assumption.
 
+## Measuring the hole: senses with no number at all
+
+The detector hole above is not hypothetical, so it was measured. The
+predicate, run over the **shipped truth layer** (what the reader
+actually gets, stems already separated):
+
+> an unlabelled sense that appears AFTER a labelled one in the same
+> block, carrying at least 20 characters of text.
+
+Before the first label is a legitimate preamble; after it, a sense
+with no number is either a grammatical addendum or a dropped marker.
+`L00565` and `O01387` both fired on this predicate before they were
+repaired, and no longer do — the positive control and its release.
+It rejects 32,489 of the 32,512 entries.
+
+**23 occurrences, in three groups:**
+
+| Group | Count | Reading |
+| --- | --- | --- |
+| grammatical addendum | 8 | correctly unnumbered — not senses |
+| sandwiched between labels | 2 | unambiguous gap, no print needed |
+| trailing after the last label | 13 | plausible dropped marker, needs print |
+
+The addenda are Jastrow's own trailing notes — `—Pl. אֲחֵרִים`,
+`—Part. pass. גָּלוּם`, `—Fem. זְקֵנָה`, `—Denom. טָגַן` — in
+`A01047`, `A03348`, `C00869`, `C00964`, `E00789`, `G00644`, `H01022`,
+`I00311`. They are classified by rule (a leading `Pl.` / `Part.` /
+`Fem.` / `Masc.` / `Sing.` / `Denom.`), not by eye.
+
+### The two unambiguous gaps
+
+| rid | headword | labels in block | missing |
+| --- | --- | --- | --- |
+| [K00081](https://jastrow.app/#rid:K00081) | כָּבַשׁ | `1 2 4 ∅ 6 7 8` | `5)` |
+| [M02308](https://jastrow.app/#rid:M02308) | מצי ² | `1 ∅ 3` (Pi.) | `2)` |
+
+Arithmetic settles both — a sense sitting between 4 and 6 is 5. And
+`K00081` is not new: doc 01 recorded it on 2026-08-05 as a **deferral**,
+with the maintainer's own note, *"this starts a seperate section in the
+app but does not have the 5 label."* The class was seen and put down,
+not missed. `M02308` has never been reviewed.
+
+### The thirteen trailing candidates
+
+Each is the last sense in its block and carries no number, where every
+sense before it does. None can be settled by arithmetic.
+
+| rid | headword | block | labels | text |
+| --- | --- | --- | --- | --- |
+| `B00753` | בַּיִת | top | `…9 10 ∅` | receptacle, cover &c., e.g. ב׳ הדיו inkstand |
+| `C01079` | גְּנַב | Pa. | `1 ∅` | to go round about |
+| `D00634` | דִּין | Ithpa. | `1 ∅` | to argue, dispute, have a law-suit with |
+| `D00919` | דְּנָא | top | `1 ∅` | v. preced.**—2)** v. דְּנָה |
+| `D01114` | דְּרַס | top | `1 2 ∅` | …press unawares.**—4)** as preced. 3) |
+| `G00217` | זוּעַ | top | `1 ∅` | to move, shake, tremble |
+| `G00652` | זָקַק | top | `1 ∅` | צָרַף) to rivet, forge; to chain |
+| `J00199` | יָוָן | top | `1 ∅` | מלכות) Greek (Syrian) Government |
+| `O00975` | סְלַח | Pa. | `1 ∅` | to effect forgiveness |
+| `R00565` | צָמַח | Hif. | `1 ∅` | to cause to grow, produce |
+| `S00811` | קְטַף I | Pa. | `1 ∅` | to break off, interrupt |
+| `S02111` | קָרַס | Hif. | `1 ∅` | to become sourish |
+| `U01512` | שְׁמַע I | Pa. | `1 ∅` | שַׁמְּעָא) to minister to |
+
+Two of them carry their own evidence. `D00919` holds an in-text `—2)`
+and `D01114` an in-text `—4)`, so those two are runs as well as gaps —
+`D01114` is the Class B row from the top of this document.
+
+Three (`G00652`, `J00199`, `U01512`) open on a closing parenthesis,
+which usually means an etymology the body model kept in the same block
+rather than a sense. They may be a fourth group.
+
+**Only `K00081` of all 23 is in doc 01's reviewed set.** Register #3's
+35 entries counts numbering it could see. It is a floor.
+
 ## Context, unadjudicated
 
 Across the composed corpus, 302 entries carry at least one guarded
