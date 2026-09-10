@@ -29,13 +29,20 @@
 			"units": [
 				"<cite ref=\"Jerusalem Talmud Terumot 4:3:1\">Y. Ter. IV, 42ᵈ</cite> <he>כמות שהוא ל׳</he> according to what he is used to. ",
 				"<cite ref=\"Vayikra Rabbah 4\">Lev. R. s. 4</cite> <he>אינה ל׳ מבית וכ׳</he> she is not used (to handle T’rumah) from her father’s house. ",
-				"<cite ref=\"Mishnah Demai 4:4\">Dem. IV, 4</cite> <he>ואם … ל׳ וכ׳</he> but if a priest or the poor are habitual guests at his table. Sifra K’dosh. Par. 3, ch. VI, v. <cite ref=\"L00479\"><he>לִימּוּד</he></cite>; a. fr.—3) <i>to learn, study</i>. ",
+				"<cite ref=\"Mishnah Demai 4:4\">Dem. IV, 4</cite> <he>ואם … ל׳ וכ׳</he> but if a priest or the poor are habitual guests at his table. Sifra K’dosh. Par. 3, ch. VI, v. <cite ref=\"L00479\"><he>לִימּוּד</he></cite>; a. fr."
+			],
+			"label": "2"
+		},
+		{
+			"gloss": " <i>to learn, study</i>. ",
+			"units": [
 				"<cite ref=\"Pirkei Avot 2:5\">Ab. II, 5</cite> <he>לא הביישן לָמֵד וכ׳</he> he who is bashful will not learn, nor can the hot-tempered teach, v. <cite ref=\"B00604\"><he>בַּיְישָׁן</he></cite>. ",
 				"<cite ref=\"Pirkei Avot 4:1\">Ib. IV, 1</cite> <he>הלוֹמֵד מכל אדם</he> he who learns from everybody. ",
 				"<cite ref=\"Pirkei Avot 4:20\">Ib. 20</cite> <he>הל׳ ילד</he> he who studies at an early age; <he>הל׳ זקן</he> who begins to study at an advanced age. Ib. I, 9 <he>שמא … יִלְמְדוּ לשקר</he> lest through them (your intricate cross-examinations) they may be led to tell a lie. ",
 				"<cite ref=\"Taanit 7a\">Taan. 7ᵃ</cite>; <cite ref=\"Makkot 10a\">Macc. 10ᵃ</cite> <he>הרבה לָמַדְתִּי וכ׳</he> I have learned much from my teachers, more from my colleagues, and most from my pupils; a. v. fr.—",
 				"<cite ref=\"Bava Metzia 71a\">B. Mets. 71ᵃ</cite>, a. fr. <he>הא לָמַדְתָּ</he> here you learn, i.e. this proves. [<cite ref=\"Aramaic Targum to Esther 1:1\">Targ. Esth. I, 1</cite> <he>מכאן אתה לָמֵד</he> from this you will learn.]"
-			]
+			],
+			"label": "3"
 		}
 	],
 	"stems": [

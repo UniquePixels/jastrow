@@ -159,95 +159,76 @@ written one is falsifiable and false.
 
 ## Decisions — maintainer, 2026-09-10
 
-**Class A: all nine confirmed.** Six were seeded; three are held, and
-one of the six is only partly repaired.
+All twelve reviewed rows are now repaired except `K00599`, which needs
+print. Two tranches carry the work:
 
-| rid | outcome |
-| --- | --- |
-| `E00005` `I00661` `P00816` `P00856` `Q00990` `S01355` | seeded — `SEED_CONFIRMED` 28 → 34, tranche 58 → 79 patches |
-| `E00148` `E00298` `I00822` | held — collide with a standing rejection, see below |
-| `P00816` | seeded run repaired; a second run remains, see below |
-
-`I00661` is among the six: its doc 08 cell already read `Confirm`, and
-the reason recorded for holding it out did not reproduce.
-
-### The three held rows are an OCR class, not this one
-
-Doc 08 already rejected `E00148`, `E00298` and `I00822` on 2026-08-05
-as `Not implied, OCR error — l) …`, and that reading is correct.
-Each carries a literal lowercase `l)` where `1)` belongs:
-
-- `E00148` הֲדַר — `… a. fr.—B. Mets. 14ᵃ … l) to return, restore`
-- `E00298` הַזְכָּרָה — `(זכר; v. אַזְכָּרָה) l) giving a debtor notice`
-- `I00822` טְרִיקְלִין — `(τρικλίνιον, triclinium) l) dining couch`
-
-The census flags them because `l)` is not `1)`, so the `—2)` looks
-unpreceded. Seeding them under implied-one would `retag` a sense
-`1)` while its own text still reads `l)` — one sense wearing two
-numbers. The repair they need is an OCR glyph fix on the marker
-first, which is a different defect class with its own ruling. They
-stay unrepaired until that is decided.
-
-### `P00816` carries a second run, never reviewed
-
-The confirmed run is repaired: the entry's top-level senses now read
-1, 2, 3. But its `Ithpe.` stem holds another, in a sense that is
-already numbered:
-
-> `2)` to attempt entrance. Y. Sabb. l. c., v. supra.**—3)** to busy
-> one's self, to sport. Gen. R. l. c., v. supra.
-
-That is the `swallowed-marker` shape — a numbered sense carrying the
-next marker in its own text — not implied-one, so `impliedHost` never
-looks at it and the seed generator cannot express the repair. It was
-not in the table that was confirmed, so it is left open here rather
-than patched.
-
-## Class B — three different answers
-
-### `K00599` — print check, hypothesis supported
-
-The data supports the reading that senses 1 and 2 arrive by
-cross-reference rather than being written out. The entry's
-`language_code` is `" ch. "` and its `language_reference` is the word
-`same` linking to `כֵּיף` (`K00598`), so it opens as *"ch. same, rock,
-stone, ball."* and its own numbering begins at `—3)`. No `2)` occurs
-anywhere in the entry. That is consistent with print numbering only
-the senses that diverge from the referenced entry.
-
-It cannot be settled from the data alone, so it belongs in
-`needs_print_check` rather than in either class here.
-
-### `L00565` and `O01387` — a dropped marker, and yes, the class is known
-
-These two are **not** the swallowed-run shape. In both, the sense
-that should be `2)` exists as its own sense and simply carries no
-number:
-
-| rid | senses as stored | print (maintainer) |
+| Tranche | Rows | Patches |
 | --- | --- | --- |
-| `L00565` לָמֵד I | `∅` / `1)` "to be joined, affixed to, v. Pi." / `∅` "to accustom, train…" | `…affixed to, v. Pi.—2) to accustom, train` |
-| `O01387` סְפַן | `1)` "to brighten, scour; v. Ithpe." / `∅` "to regard…" | `…scour; v. Ithpe.—2) to regard` |
+| `seed-doc-08-implied-one` | 33 | 76 |
+| `seed-doc-08-sense-runs` | 6 | 21 |
 
-The class is register #3, *"Sense numbering gaps / swallowed
-markers"* — 35 entries, reviewed in
-[body-review 01](body-review/01-broken-sequences.md)'s numbering-gap
-section and hand-verified against print. `residue-01`'s `P000091`
-repairs the same shape under `defect_class: swallowed-marker`.
-**Neither `L00565` nor `O01387` is in that set of 35.**
+`seed-implied-one.ts` addresses one shape and one repair. The six rows
+it cannot express got their own generator, `seed-sense-runs.ts`, whose
+`RUN_ROWS` table declares each row's ops and derives every anchor by
+applying the previous patch through `applyPatch` — so an anchor that
+would not resolve cannot be minted.
 
-They were missed because of a hole in the detector, not a judgment
-call. `census.ts`'s `labelSequence` pulls the integer out of each
-sense's `number` token and drops senses that have none, then checks
-the result reads `1..n`. A sense whose marker was lost carries no
-token at all, so it is not dropped from the sequence — it is dropped
-from the *evidence*. `O01387` stores `1) ∅ ∅`, which reads as a clean
-`[1]`. The detector can see a wrong number and cannot see a missing
-one.
+### What was repaired, by shape
 
-The repair shape for both is determinable: `retag` the unnumbered
-sense with `—2)`, then `split` its `—3)` tail. Neither is authored
-here.
+| Shape | Rows | Repair |
+| --- | --- | --- |
+| implied `1)`, run past `—2)` | `C00805` `I00111` `E00005` `I00661` `P00856` `Q00990` `S01355` | split every marker, retag the host `1)` |
+| OCR `l)` for `1)` | `E00148` `E00298` `I00822` | `replace` the glyph, then split the `1)`…`—4)` run |
+| dropped `2)` marker | `L00565` `O01387` | retag the number-less sense `—2)`, split its `—3)` tail |
+| swallowed marker in a numbered sense | `P00816` (`Ithpe.`) | split at `—3)` |
+
+The three OCR rows were held at first because doc 08 had rejected them
+on 2026-08-05 as *"Not implied, OCR error — l) …"*, which is a correct
+reading: each stores a literal lowercase `l)`. That makes them a
+different class, not an unrepairable one. `replace`'s closed-marker
+allowance is the sanctioned route for a glyph correction, so the
+repair is `l)` → `1)` first, then the run splits.
+
+`E00148`'s `Af.` block now opens with an unlabelled lead sense, the
+same shape its own `Pa.` block already had, because the marker sat at
+the very start of the definition with only a space before it.
+
+### `P00816` moved tranches, and why that matters
+
+`P00816` carries two runs: one at top level and one in its `Ithpe.`
+stem. Seeding half of it in each tranche silently dropped the first
+half — `consolidate` supersedes the earlier manifest row when two
+tranches claim the same rid, so its three implied-one patches vanished
+and only the `Ithpe.` split survived. The gates stayed green
+throughout; nothing reported it.
+
+The row is now repaired whole in `seed-sense-runs`, and
+`SEED_CONFIRMED` dropped to 33. A colocated test asserts the two
+tables never name the same rid.
+
+### Still open
+
+`K00599` (כֵּיף ²) needs print. The data supports the reading that its
+first two senses arrive by cross-reference: `language_code` is
+`" ch. "`, `language_reference` is the word `same` linking to `כֵּיף`
+(`K00598`), and the entry's own numbering begins at `—3)` with no
+`2)` anywhere in it. That is consistent with print numbering only the
+senses that diverge from the referenced entry, but it cannot be
+settled from the data. It belongs in `needs_print_check`.
+
+## A detector hole, found on the way
+
+`L00565` and `O01387` were never in any review set, and not because
+anyone judged them. `census.ts`'s `labelSequence` pulls the integer
+out of each sense's `number` token, **drops the senses that have
+none**, and checks the result reads `1..n`. A sense whose marker was
+lost carries no token, so it leaves the sequence rather than breaking
+it: `O01387` stores `1) ∅ ∅`, which reads as a clean `[1]`.
+
+The detector can see a wrong number and cannot see a missing one.
+Register #3's 35 entries are therefore a floor, not a count. Nothing
+here changes that detector — it is recorded so the next census does
+not inherit the assumption.
 
 ## Context, unadjudicated
 

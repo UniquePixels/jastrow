@@ -53,7 +53,7 @@ describe('SEED_CONFIRMED', () => {
 			...SEED_CONFIRMED,
 		]);
 		expect(new Set(SEED_CONFIRMED).size).toBe(SEED_CONFIRMED.length);
-		expect(SEED_CONFIRMED).toHaveLength(34);
+		expect(SEED_CONFIRMED).toHaveLength(33);
 	});
 
 	it('is a subset of the committed census', () => {

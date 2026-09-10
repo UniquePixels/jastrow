@@ -50,9 +50,14 @@ import { computeSnapshot } from './snapshot.ts';
  * Was 72 / 751 until later on 2026-09-10, when the maintainer
  * confirmed six more swallowed-run rows: `SEED_CONFIRMED` went 28 ->
  * 34, the tranche 58 -> 79 patches, so +21 patches and +6 records.
+ *
+ * Was 93 / 757 until `seed-doc-08-sense-runs` landed the same day:
+ * +18 patches over 5 new rids, plus P00816 moving out of the
+ * implied-one seed (-3 there, +4 here, and one manifest record either
+ * way) — 111 / 762.
  */
-const ACCEPTED_PATCHES = 93;
-const ACCEPTED_RECORDS = 757;
+const ACCEPTED_PATCHES = 111;
+const ACCEPTED_RECORDS = 762;
 const SUPERSEDED_PATCHES = 10;
 const SUPERSEDED_RECORDS = 327;
 const PRE_PATCH_PATCHES = 67;
@@ -69,8 +74,8 @@ const CARRIED_IDS = ['P000018', 'P000025', 'P000027', 'P000031', 'P000050'];
  * than a corpus movement. Was +56 until 2026-09-10, when the two rows
  * whose run continues past `—2)` gained a split apiece, and +79 later
  * that day when six more confirmed rows joined `SEED_CONFIRMED`. */
-const RAW_PATCHES = 170;
-const RAW_RECORDS = 2794;
+const RAW_PATCHES = 188;
+const RAW_RECORDS = 2799;
 
 it('loads and consolidates the accepted (healed-stage) corpus, applying it cleanly', async () => {
 	const accepted = await loadAcceptedCorpus();

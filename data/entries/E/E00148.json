@@ -65,19 +65,42 @@
 			"forms": ["אַהֲדַר"],
 			"senses": [
 				{
-					"gloss": " l) <i>to return, restore; to lead back; to turn around</i>. ",
+					"gloss": " ",
+					"units": []
+				},
+				{
+					"gloss": " <i>to return, restore; to lead back; to turn around</i>. ",
 					"units": [
 						"<cite ref=\"Targum Jonathan on Deuteronomy 32:3\">Targ. Y. Deut. XXXII, 3</cite> (some ed. <i>Pa.</i>). ",
 						"<cite ref=\"Aramaic Targum to Song of Songs 7:5\">Targ. Cant. VII, 5</cite>; a. fr.—",
 						"<cite ref=\"Bava Metzia 26a:4-13\">B. Mets. 26ᵃ</cite> <he>אי … לאַהֲדוּרָהּ אַהַדְרוּהָ ניהלי</he> if they had had the intention of returning it, they would have returned it to me. ",
 						"<cite ref=\"Bava Metzia 26a:13\">Ib.</cite> <he>אמרי קמייהו … לִיהַדְּרוּ לי ולא הַדְּרוּ לי וכ׳</he> (differ. in Mss., v. Rabb. D. S. a. l. note) I spoke in their presence several times (of my loss); they might have returned it to me, but did not; will they now return it?—",
 						"<cite ref=\"Chullin 20a:1\">Ḥull. 20ᵃ</cite> <he>בדלא א׳</he> when he did not turn round (the windpipe &c.). ",
-						"<cite ref=\"Chagigah 5b:3\">Ḥag. 5ᵇ</cite> <he>עמא דַאֲהַדְרִינְהוּ … מיניה</he> a people from which its master has turned away his face; a. fr.—2) <i>to repeat, review</i>. ",
+						"<cite ref=\"Chagigah 5b:3\">Ḥag. 5ᵇ</cite> <he>עמא דַאֲהַדְרִינְהוּ … מיניה</he> a people from which its master has turned away his face; a. fr."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " <i>to repeat, review</i>. ",
+					"units": [
 						"<cite ref=\"Moed Katan 28a:22\">M. Kat. 28ᵃ</cite> <he>אֲהַדְרִי לתלמודאי</he> that I may review my studies. ",
-						"<cite ref=\"Berakhot 38b:10\">Ber. 38ᵇ</cite> <he>מַהֲדַר תלמודיה</he> (or <he>מְהַדֵּר</he>); a. fr.—3) <i>to reply</i>. ",
-						"<cite ref=\"Chullin 34a:5\">Ḥull. 34ᵃ</cite> <he>מאי אהדרי וכ׳</he> what did … reply to one another?; a. e.—4) <i>to carry around in procession</i>. ",
+						"<cite ref=\"Berakhot 38b:10\">Ber. 38ᵇ</cite> <he>מַהֲדַר תלמודיה</he> (or <he>מְהַדֵּר</he>); a. fr."
+					],
+					"label": "2"
+				},
+				{
+					"gloss": " <i>to reply</i>. ",
+					"units": [
+						"<cite ref=\"Chullin 34a:5\">Ḥull. 34ᵃ</cite> <he>מאי אהדרי וכ׳</he> what did … reply to one another?; a. e."
+					],
+					"label": "3"
+				},
+				{
+					"gloss": " <i>to carry around in procession</i>. ",
+					"units": [
 						"<cite ref=\"Yevamot 110a\">Yeb. 110ᵃ</cite> Ar., v. <cite ref=\"K00393\"><he>כּוּרְסַיָּא</he></cite>; v. <cite ref=\"A00391\"><he>אֲדוּרֵי</he></cite>."
-					]
+					],
+					"label": "4"
 				}
 			],
 			"stem": "Af."

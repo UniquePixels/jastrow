@@ -87,8 +87,13 @@ const HEADWORD_FORMS = 76_104;
  *
  * Was 232,523 later the same day, when the maintainer confirmed six
  * more rows off that review. They add 15 splits between them —
- * `P00856` alone runs 1) through 6) in one sense — so +30. */
-const TEXT_FIELDS = 232_553;
+ * `P00856` alone runs 1) through 6) in one sense — so +30.
+ *
+ * Was 232,553 until the `seed-doc-08-sense-runs` tranche landed the
+ * same day: 13 more splits across the six rows the implied-one
+ * generator cannot express, so +26. `P00816` moved between the two
+ * tranches and its three splits are counted once, here. */
+const TEXT_FIELDS = 232_579;
 /** 32,512 entries + the head-uniqueness mark + the termination mark. */
 const CHAIN_MARKS = 32_514;
 /** Two marks per entry: patch problems, then finishing problems. */

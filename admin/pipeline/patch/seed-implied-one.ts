@@ -77,9 +77,15 @@ const FIRST_ID = 92;
  * patches already repaired.
  *
  * Was 28 until 2026-09-10, when the maintainer confirmed six more
- * rows off the swallowed-run review (`E00005`, `I00661`, `P00816`,
- * `P00856`, `Q00990`, `S01355`). `I00661` was the row doc 08 had held
- * out on grounds that did not reproduce. The list is committed rather than parsed
+ * rows off the swallowed-run review (`E00005`, `I00661`, `P00856`,
+ * `Q00990`, `S01355`). `I00661` was the row doc 08 had held out on
+ * grounds that did not reproduce.
+ *
+ * `P00816` was confirmed with them but is NOT here: it carries a
+ * second run in its `Ithpe.` stem that this generator cannot express,
+ * and a rid may be claimed by only one tranche — `consolidate`
+ * supersedes the earlier manifest row. It is repaired whole by
+ * `seed-sense-runs.ts`. The list is committed rather than parsed
  * from the doc at run time so that a doc edit cannot silently change
  * what this generator emits.
  */
@@ -114,7 +120,6 @@ const SEED_CONFIRMED: readonly string[] = [
 	'I00853',
 	'J00114',
 	'J00459',
-	'P00816',
 	'P00856',
 	'Q00990',
 	'S01355',

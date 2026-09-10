@@ -28,7 +28,6 @@
 {"disposition":"repaired","patches":["P000150","P000151"],"rid":"I00853"}
 {"disposition":"repaired","patches":["P000152","P000153"],"rid":"J00114"}
 {"disposition":"repaired","patches":["P000154","P000155"],"rid":"J00459"}
-{"disposition":"repaired","patches":["P000156","P000157","P000158"],"rid":"P00816"}
-{"disposition":"repaired","patches":["P000159","P000160","P000161","P000162","P000163","P000164"],"rid":"P00856"}
-{"disposition":"repaired","patches":["P000165","P000166","P000167"],"rid":"Q00990"}
-{"disposition":"repaired","patches":["P000168","P000169","P000170"],"rid":"S01355"}
+{"disposition":"repaired","patches":["P000156","P000157","P000158","P000159","P000160","P000161"],"rid":"P00856"}
+{"disposition":"repaired","patches":["P000162","P000163","P000164"],"rid":"Q00990"}
+{"disposition":"repaired","patches":["P000165","P000166","P000167"],"rid":"S01355"}
