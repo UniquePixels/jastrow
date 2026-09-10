@@ -43,6 +43,7 @@
  *
  * Run: bun run patch:seed-sense-runs
  */
+import { stripTags } from '../body/census.ts';
 import { healAndTransform } from '../body/compose.ts';
 import { readSourceEntries } from '../body/source.ts';
 import type { SourceEntry, SourceSense } from '../body/types.ts';
@@ -198,19 +199,6 @@ const RUN_ROWS: readonly RunRow[] = [
 		rid: 'P00816',
 	},
 ];
-
-const TAGS = /<[^>]+>/gu;
-
-/** Strip to a fixed point, as the census and review tooling do. */
-function stripTags(text: string): string {
-	let out = text;
-	let prev: string;
-	do {
-		prev = out;
-		out = out.replace(TAGS, '');
-	} while (out !== prev);
-	return out;
-}
 
 /** Every sense in document order — the order `schema.ts`'s resolver
  * uses, so an index here means the same thing there. */

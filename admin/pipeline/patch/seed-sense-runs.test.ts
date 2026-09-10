@@ -10,6 +10,7 @@ import { IMPLIED_ONE_CENSUS } from '../body/implied-one-census.ts';
 import type { SourceEntry } from '../body/types.ts';
 import { parsePatch } from './schema.ts';
 import { SEED_CONFIRMED } from './seed-implied-one.ts';
+import type { RunOp } from './seed-sense-runs.ts';
 import { locate, RUN_ROWS, runPatches } from './seed-sense-runs.ts';
 
 /** The rids this tranche repairs. `P00816` and `K00081` each appear
@@ -23,6 +24,28 @@ const CONFIRMED = [
 	'O01387',
 	'P00816',
 ];
+
+/** A row over the fixture entry. Only `opens` and `ops` vary between
+ * the cases below, and repeating the whole literal five times is what
+ * the duplication gate objects to. */
+function rowWith(
+	opens: string,
+	ops: RunOp[],
+): {
+	defectClass: string;
+	ops: RunOp[];
+	opens: string;
+	rationale: string;
+	rid: string;
+} {
+	return {
+		defectClass: 'test-class',
+		ops,
+		opens,
+		rationale: 'test',
+		rid: 'T99999',
+	};
+}
 
 /** A composed entry with the given top-level sense definitions. */
 function entryWith(...definitions: string[]): SourceEntry {
@@ -89,16 +112,10 @@ describe('locate', () => {
 
 describe('runPatches', () => {
 	it('addresses each op against the state the previous one leaves', () => {
-		const row = {
-			defectClass: 'missing-number',
-			opens: 'to regard.',
-			ops: [
-				{ kind: 'retag' as const, number: '—2)' },
-				{ kind: 'split' as const, marker: '—3)' },
-			],
-			rationale: 'test',
-			rid: 'T99999',
-		};
+		const row = rowWith('to regard.', [
+			{ kind: 'retag' as const, number: '—2)' },
+			{ kind: 'split' as const, marker: '—3)' },
+		]);
 		const made = runPatches(
 			row,
 			entryWith('1) lead.', 'to regard.—3) more.'),
@@ -114,17 +131,11 @@ describe('runPatches', () => {
 	});
 
 	it('moves onto the sibling a split creates', () => {
-		const row = {
-			defectClass: 'ocr-marker',
-			opens: ' l) one.',
-			ops: [
-				{ find: 'l)', kind: 'replace' as const, with: '1)' },
-				{ kind: 'split' as const, marker: '1)' },
-				{ kind: 'split' as const, marker: '—2)' },
-			],
-			rationale: 'test',
-			rid: 'T99999',
-		};
+		const row = rowWith(' l) one.', [
+			{ find: 'l)', kind: 'replace' as const, with: '1)' },
+			{ kind: 'split' as const, marker: '1)' },
+			{ kind: 'split' as const, marker: '—2)' },
+		]);
 		const made = runPatches(row, entryWith(' l) one.—2) two.'), 1);
 		expect(made.patches.map((patch) => patch['op'])).toEqual([
 			'replace',
@@ -138,13 +149,7 @@ describe('runPatches', () => {
 	});
 
 	it('emits records the patch schema accepts', () => {
-		const row = {
-			defectClass: 'swallowed-marker',
-			opens: 'host.',
-			ops: [{ kind: 'split' as const, marker: '—3)' }],
-			rationale: 'test',
-			rid: 'T99999',
-		};
+		const row = rowWith('host.', [{ kind: 'split' as const, marker: '—3)' }]);
 		for (const patch of runPatches(row, entryWith('host.—3) tail.'), 1)
 			.patches) {
 			expect(() => parsePatch(patch)).not.toThrow();
@@ -152,16 +157,10 @@ describe('runPatches', () => {
 	});
 
 	it('mints consecutive ids from the one it is given', () => {
-		const row = {
-			defectClass: 'swallowed-marker',
-			opens: 'host.',
-			ops: [
-				{ kind: 'split' as const, marker: '—3)' },
-				{ kind: 'split' as const, marker: '—4)' },
-			],
-			rationale: 'test',
-			rid: 'T99999',
-		};
+		const row = rowWith('host.', [
+			{ kind: 'split' as const, marker: '—3)' },
+			{ kind: 'split' as const, marker: '—4)' },
+		]);
 		const made = runPatches(row, entryWith('host.—3) a.—4) b.'), 300);
 		expect(made.patches.map((patch) => patch['id'])).toEqual([
 			'P000300',
