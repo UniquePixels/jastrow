@@ -37,4 +37,12 @@ describe('research:apply entry point', () => {
 		expect(SOURCE).toContain('loadAcceptedCorpus()');
 		expect(SOURCE).not.toContain('loadCorpus(');
 	});
+
+	// `loadAcceptedCorpus` keeps healed-stage manifest records only, so
+	// letting `corpusPreflight` run the gate on them narrows it from 617
+	// escalated rids to 487 — silently, because a narrower gate just
+	// reports fewer blockers.
+	it('runs the replay gate on the every-stage manifest', () => {
+		expect(SOURCE).toContain('replayGate(await loadManifest())');
+	});
 });

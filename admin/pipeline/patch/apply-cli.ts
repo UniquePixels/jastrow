@@ -20,11 +20,13 @@
 import process from 'node:process';
 import { composeEntry, TransformFailure } from '../body/compose.ts';
 import { readSourceEntries } from '../body/source.ts';
+import { replayGate } from '../research/manifest.ts';
 import {
 	type AcceptedCorpus,
 	type ApplyProblem,
 	corpusPreflight,
 	loadAcceptedCorpus,
+	loadManifest,
 	patchesByRid,
 } from './apply.ts';
 import { computeSnapshot } from './snapshot.ts';
@@ -41,12 +43,23 @@ if (import.meta.main) {
 	const pin = `sha256:${(await computeSnapshot()).combined}`;
 	// `reconcileOnly` is required because carry-over rows sit outside
 	// the accepted record set — their manifest rows are pre-patch stage.
+	// Escalations are deferred HERE and re-checked below, wider: the
+	// gate inside `corpusPreflight` reads the records it reconciles
+	// against, and those are healed-stage only.
 	const problems: ApplyProblem[] = corpusPreflight(
 		[...corpus.patches, ...corpus.carryOver],
 		corpus.records,
 		pin,
-		{ escalations: 'block', reconcileOnly: corpus.patches },
+		{ escalations: 'defer', reconcileOnly: corpus.patches },
 	);
+	// The replay gate is the research track's contract (Ruling D), and
+	// it answers for the whole corpus, not the migrated slice. Running
+	// it on `corpus.records` would drop every escalation recorded in a
+	// pre-patch manifest — 130 rids of 617, measured 2026-09-10 — even
+	// though this run still applies 66 pre-patch rows as carry-over.
+	for (const problem of replayGate(await loadManifest())) {
+		problems.push({ reason: `${problem.reason}: ${problem.rids.join(', ')}` });
+	}
 	let applied = 0;
 	let absorbed = 0;
 	let carried = 0;
